@@ -74,7 +74,7 @@ functionality
 .
 *
 /
-let
+var
 gDrag
 =
 {

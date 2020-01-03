@@ -275,7 +275,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 runSafeWithoutClone
 MessageBroker
@@ -345,7 +345,7 @@ content
 /
 scripts
 .
-let
+var
 api
 =
 context
@@ -1650,7 +1650,7 @@ documents
 are
 created
 .
-let
+var
 DocumentManager
 =
 {
@@ -2913,7 +2913,7 @@ uuid
 }
 }
 ;
-let
+var
 ExtensionManager
 =
 {

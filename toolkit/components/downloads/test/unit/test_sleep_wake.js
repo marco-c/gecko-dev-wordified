@@ -109,7 +109,7 @@ details
 .
 *
 /
-let
+var
 doNotError
 =
 false

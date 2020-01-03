@@ -55,7 +55,7 @@ MPL
 .
 *
 /
-let
+var
 Ci
 =
 Components
@@ -228,7 +228,7 @@ jsm
 "
 )
 ;
-let
+var
 debug
 =
 Cu
@@ -264,7 +264,7 @@ AboutLogins
 "
 )
 ;
-let
+var
 gStringBundle
 =
 Services
@@ -427,7 +427,7 @@ LOGIN_PW_TOGGLED
 =
 3
 ;
-let
+var
 Logins
 =
 {

@@ -130,7 +130,7 @@ Foo
 u2661
 "
 ;
-let
+var
 Preferences
 =
 Cu

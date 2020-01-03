@@ -51,7 +51,7 @@ for
 DOM
 events
 .
-let
+var
 TESTS
 =
 [

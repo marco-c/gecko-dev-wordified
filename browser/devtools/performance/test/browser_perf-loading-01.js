@@ -54,7 +54,7 @@ loaded
 .
 *
 /
-let
+var
 test
 =
 Task

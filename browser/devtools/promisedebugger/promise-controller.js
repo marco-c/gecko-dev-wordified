@@ -252,7 +252,7 @@ startup
 is
 called
 .
-let
+var
 gToolbox
 ;
 /
@@ -273,7 +273,7 @@ iframe
 .
 *
 /
-let
+var
 startup
 =
 Task
@@ -326,7 +326,7 @@ iframe
 .
 *
 /
-let
+var
 shutdown
 =
 Task
@@ -436,7 +436,7 @@ server
 .
 *
 /
-let
+var
 PromisesController
 =
 {

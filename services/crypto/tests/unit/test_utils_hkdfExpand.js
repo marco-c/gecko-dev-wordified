@@ -78,7 +78,7 @@ RFC
 Test
 case
 1
-let
+var
 tc1
 =
 {
@@ -129,7 +129,7 @@ OKM
 Test
 case
 2
-let
+var
 tc2
 =
 {
@@ -240,7 +240,7 @@ cc30c58179ec3e87c14c01d5c1f3434f
 Test
 case
 3
-let
+var
 tc3
 =
 {

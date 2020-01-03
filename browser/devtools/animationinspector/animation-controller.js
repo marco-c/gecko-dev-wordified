@@ -155,7 +155,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 loader
 require
@@ -325,7 +325,7 @@ startup
 is
 called
 .
-let
+var
 gToolbox
 gInspector
 ;
@@ -357,7 +357,7 @@ tab
 .
 *
 /
-let
+var
 startup
 =
 Task
@@ -514,7 +514,7 @@ tab
 .
 *
 /
-let
+var
 shutdown
 =
 Task
@@ -700,7 +700,7 @@ properties
 .
 *
 /
-let
+var
 getServerTraits
 =
 Task
@@ -1029,7 +1029,7 @@ player
 }
 *
 /
-let
+var
 AnimationsController
 =
 {

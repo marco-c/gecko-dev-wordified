@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 WSP
 =
 {

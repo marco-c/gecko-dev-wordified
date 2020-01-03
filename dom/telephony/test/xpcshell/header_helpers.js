@@ -51,7 +51,7 @@ Cr
 =
 Components
 ;
-let
+var
 subscriptLoader
 =
 Cc

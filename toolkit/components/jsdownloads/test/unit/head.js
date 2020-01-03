@@ -889,7 +889,7 @@ start
 .
 *
 /
-let
+var
 gHttpServer
 ;
 /
@@ -1014,7 +1014,7 @@ deletion
 highly
 unlikely
 .
-let
+var
 gFileCounter
 =
 Math
@@ -4020,7 +4020,7 @@ tests
 .
 *
 /
-let
+var
 _gDeferResponses
 =
 Promise
@@ -4599,7 +4599,7 @@ response
 .
 *
 /
-let
+var
 gMostRecentFirstBytePos
 ;
 /

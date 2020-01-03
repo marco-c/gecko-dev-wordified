@@ -151,7 +151,7 @@ jsm
 "
 )
 ;
-let
+var
 Reader
 =
 Services
@@ -191,7 +191,7 @@ reader_mode_pages
 /
 "
 ;
-let
+var
 TEST_PAGES
 =
 [

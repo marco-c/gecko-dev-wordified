@@ -188,7 +188,7 @@ nextTest
 )
 ;
 }
-let
+var
 urls
 =
 [

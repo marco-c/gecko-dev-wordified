@@ -105,7 +105,7 @@ reflow
 activity
 "
 ;
-let
+var
 test
 =
 asyncTest

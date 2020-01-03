@@ -52,7 +52,7 @@ types
 .
 *
 /
-let
+var
 MEDIA_PERMISSION
 =
 "

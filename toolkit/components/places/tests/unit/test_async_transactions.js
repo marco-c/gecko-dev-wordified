@@ -155,7 +155,7 @@ add
 bookmarks
 observer
 .
-let
+var
 observer
 =
 {
@@ -590,7 +590,7 @@ which
 items
 should
 begin
-let
+var
 bmStartIndex
 =
 0

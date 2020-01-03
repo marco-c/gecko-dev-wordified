@@ -95,7 +95,7 @@ vview
 html
 "
 ;
-let
+var
 gWebConsole
 gJSTerm
 gVariablesView

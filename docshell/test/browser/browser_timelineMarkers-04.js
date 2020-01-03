@@ -61,7 +61,7 @@ timelineMarkers
 html
 "
 ;
-let
+var
 test
 =
 makeTimelineTest

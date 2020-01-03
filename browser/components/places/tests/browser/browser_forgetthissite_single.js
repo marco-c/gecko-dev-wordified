@@ -215,7 +215,7 @@ clearHistory
 }
 )
 ;
-let
+var
 testForgetThisSiteVisibility
 =
 Task

@@ -196,7 +196,7 @@ uri
 "
 )
 ;
-let
+var
 {
 SystemAppProxy
 }
@@ -288,7 +288,7 @@ make
 message
 passing
 possible
-let
+var
 mockSendCustomEvent
 =
 function

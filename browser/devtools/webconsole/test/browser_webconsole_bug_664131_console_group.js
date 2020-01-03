@@ -98,7 +98,7 @@ group
 methods
 "
 ;
-let
+var
 test
 =
 asyncTest

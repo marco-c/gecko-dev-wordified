@@ -93,7 +93,7 @@ panel
 -
 bug
 1168872
-let
+var
 test
 =
 asyncTest

@@ -1173,12 +1173,12 @@ cleanupKeywords
 }
 )
 ;
-let
+var
 folder
 =
 null
 ;
-let
+var
 gAddedEngines
 =
 [

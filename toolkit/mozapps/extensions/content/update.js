@@ -325,7 +325,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 null
@@ -1179,7 +1179,7 @@ disabled
 by
 metadata
 checks
-let
+var
 listener
 =
 {

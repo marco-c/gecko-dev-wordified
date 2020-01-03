@@ -94,7 +94,7 @@ sites
 .
 *
 /
-let
+var
 gUpdater
 =
 {

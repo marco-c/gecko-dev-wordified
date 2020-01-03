@@ -49,12 +49,12 @@ data
 .
 *
 /
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gVariablesView
 gScope
 gVariable

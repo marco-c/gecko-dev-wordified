@@ -146,7 +146,7 @@ UI
 .
 *
 /
-let
+var
 PropertiesView
 =
 {

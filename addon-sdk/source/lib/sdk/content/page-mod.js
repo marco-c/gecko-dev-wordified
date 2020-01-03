@@ -469,7 +469,7 @@ WeakMap
 (
 )
 ;
-let
+var
 styleFor
 =
 (
@@ -488,7 +488,7 @@ mod
 /
 Helper
 functions
-let
+var
 modMatchesURI
 =
 (

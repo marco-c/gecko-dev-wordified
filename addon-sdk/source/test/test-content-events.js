@@ -201,7 +201,7 @@ true
 }
 )
 ;
-let
+var
 when
 =
 curry
@@ -298,7 +298,7 @@ promise
 }
 )
 ;
-let
+var
 use
 =
 function
@@ -310,7 +310,7 @@ function
 )
 value
 ;
-let
+var
 open
 =
 curry
@@ -327,7 +327,7 @@ url
 )
 )
 ;
-let
+var
 close
 =
 function

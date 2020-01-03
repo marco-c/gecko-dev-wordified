@@ -167,7 +167,7 @@ API
 .
 *
 /
-let
+var
 ScrollPositionInternal
 =
 {

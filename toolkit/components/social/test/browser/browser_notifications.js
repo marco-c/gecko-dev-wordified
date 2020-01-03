@@ -231,7 +231,7 @@ cbPostTest
 )
 ;
 }
-let
+var
 tests
 =
 {

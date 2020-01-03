@@ -672,7 +672,7 @@ created
 .
 *
 /
-let
+var
 gDummyPromise
 ;
 function

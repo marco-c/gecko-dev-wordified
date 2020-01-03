@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Cu
 }
@@ -73,7 +73,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -89,7 +89,7 @@ main
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -99,7 +99,7 @@ promise
 "
 )
 ;
-let
+var
 {
 Class
 }
@@ -115,7 +115,7 @@ heritage
 "
 )
 ;
-let
+var
 protocol
 =
 require
@@ -129,7 +129,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 Arg
@@ -740,7 +740,7 @@ a
 complete
 form
 .
-let
+var
 stringActorType
 =
 protocol

@@ -310,7 +310,7 @@ THREAD_TAKES_LOTS_OF_CPU_FACTOR
 .
 75
 ;
-let
+var
 AddonWatcher
 =
 {

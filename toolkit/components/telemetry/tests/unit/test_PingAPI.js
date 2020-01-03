@@ -392,7 +392,7 @@ integer
 }
 *
 /
-let
+var
 getArchivedPingsInfo
 =
 Task

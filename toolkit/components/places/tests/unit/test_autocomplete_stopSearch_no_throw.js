@@ -211,7 +211,7 @@ throw
 Globals
 and
 Constants
-let
+var
 hs
 =
 Cc
@@ -240,7 +240,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 ac
 =
 Cc
@@ -475,7 +475,7 @@ anything
 /
 Test
 Runner
-let
+var
 tests
 =
 [

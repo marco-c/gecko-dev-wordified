@@ -52,7 +52,7 @@ simultaneously
 .
 *
 /
-let
+var
 {
 FileUtils
 }
@@ -78,7 +78,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -155,7 +155,7 @@ Tests
 *
 *
 /
-let
+var
 test_transport
 =
 Task

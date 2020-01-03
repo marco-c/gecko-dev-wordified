@@ -1059,7 +1059,7 @@ not
 object
 "
 .
-let
+var
 getTypeOf
 =
 exports
@@ -1234,7 +1234,7 @@ Error
 prototype
 )
 ;
-let
+var
 string
 =
 {
@@ -1259,7 +1259,7 @@ string
 =
 string
 ;
-let
+var
 number
 =
 {
@@ -1284,7 +1284,7 @@ number
 =
 number
 ;
-let
+var
 boolean
 =
 {
@@ -1309,7 +1309,7 @@ boolean
 =
 boolean
 ;
-let
+var
 object
 =
 {
@@ -1334,7 +1334,7 @@ object
 =
 object
 ;
-let
+var
 array
 =
 {
@@ -1359,7 +1359,7 @@ array
 =
 array
 ;
-let
+var
 isTruthyType
 =
 type
@@ -1385,7 +1385,7 @@ null
 '
 )
 ;
-let
+var
 findTypes
 =
 v

@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 state
 =
 {
@@ -507,7 +507,7 @@ callback
 )
 ;
 }
-let
+var
 TabsProgressListener
 =
 {

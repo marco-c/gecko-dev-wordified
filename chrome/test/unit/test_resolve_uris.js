@@ -120,7 +120,7 @@ js
 )
 ;
 }
-let
+var
 manifestFile
 =
 do_get_file
@@ -139,7 +139,7 @@ manifest
 "
 )
 ;
-let
+var
 manifests
 =
 [
@@ -151,7 +151,7 @@ registerManifests
 manifests
 )
 ;
-let
+var
 ios
 =
 Cc

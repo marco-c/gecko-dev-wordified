@@ -118,10 +118,10 @@ Helpers
 autocomplete
 "
 ;
-let
+var
 jsterm
 ;
-let
+var
 test
 =
 asyncTest

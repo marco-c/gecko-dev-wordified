@@ -104,7 +104,7 @@ jsm
 "
 )
 ;
-let
+var
 httpServer
 =
 new
@@ -112,7 +112,7 @@ HttpServer
 (
 )
 ;
-let
+var
 getEngine
 postEngine
 unresolvableEngine

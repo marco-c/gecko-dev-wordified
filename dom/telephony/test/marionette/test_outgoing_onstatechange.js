@@ -55,7 +55,7 @@ gOutCallStrPool
 outNumber
 )
 ;
-let
+var
 outCall
 ;
 startTest

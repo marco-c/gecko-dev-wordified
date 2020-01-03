@@ -201,12 +201,12 @@ Execution
 of
 common
 tests
-let
+var
 gUseLegacySaver
 =
 false
 ;
-let
+var
 scriptFile
 =
 do_get_file
@@ -885,7 +885,7 @@ becauseBlockedByParentalControls
 /
 /
 Termination
-let
+var
 tailFile
 =
 do_get_file

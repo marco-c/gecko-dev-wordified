@@ -207,7 +207,7 @@ frame
 /
 /
 Constants
-let
+var
 dm
 =
 Cc
@@ -432,7 +432,7 @@ id
 .
 *
 /
-let
+var
 id
 =
 1
@@ -1098,7 +1098,7 @@ REMOVED_TOPIC
 )
 ;
 }
-let
+var
 tests
 =
 [

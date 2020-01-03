@@ -237,7 +237,7 @@ to
 do
 that
 .
-let
+var
 Frames
 =
 {
@@ -624,7 +624,7 @@ the
 extension
 API
 .
-let
+var
 Scripts
 =
 {
@@ -778,7 +778,7 @@ for
 the
 extension
 .
-let
+var
 Service
 =
 {

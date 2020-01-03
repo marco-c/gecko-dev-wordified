@@ -3113,7 +3113,7 @@ Promise
 )
 *
 /
-let
+var
 invalidateFrecencies
 =
 Task
@@ -3219,7 +3219,7 @@ clear
 (
 )
 .
-let
+var
 clear
 =
 Task
@@ -3428,7 +3428,7 @@ Promise
 )
 *
 /
-let
+var
 removePagesById
 =
 Task
@@ -3666,7 +3666,7 @@ Promise
 )
 *
 /
-let
+var
 cleanupPages
 =
 Task
@@ -3888,7 +3888,7 @@ Promise
 )
 *
 /
-let
+var
 notifyCleanup
 =
 Task
@@ -4184,7 +4184,7 @@ nothing
 .
 *
 /
-let
+var
 notifyOnResult
 =
 Task
@@ -4305,7 +4305,7 @@ History
 .
 removeVisitsByFilter
 .
-let
+var
 removeVisitsByFilter
 =
 Task
@@ -4873,7 +4873,7 @@ History
 .
 remove
 .
-let
+var
 remove
 =
 Task

@@ -122,7 +122,7 @@ print
 "
 ;
 }
-let
+var
 gTabsize
 ;
 function

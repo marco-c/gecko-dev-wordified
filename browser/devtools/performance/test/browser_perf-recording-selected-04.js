@@ -67,7 +67,7 @@ switching
 .
 *
 /
-let
+var
 test
 =
 Task

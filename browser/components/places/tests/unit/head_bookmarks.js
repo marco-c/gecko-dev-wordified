@@ -153,7 +153,7 @@ Import
 common
 head
 .
-let
+var
 commonFile
 =
 do_get_file
@@ -300,7 +300,7 @@ an
 app
 registered
 .
-let
+var
 XULAppInfo
 =
 {
@@ -383,7 +383,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -418,7 +418,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components
@@ -578,7 +578,7 @@ name
 )
 ;
 }
-let
+var
 createCorruptDB
 =
 Task

@@ -174,7 +174,7 @@ DebuggerServer
 }
 )
 ;
-let
+var
 RemoteDebugger
 =
 {
@@ -1158,7 +1158,7 @@ bind
 RemoteDebugger
 )
 ;
-let
+var
 USBRemoteDebugger
 =
 {
@@ -1573,7 +1573,7 @@ e
 }
 }
 ;
-let
+var
 WiFiRemoteDebugger
 =
 {

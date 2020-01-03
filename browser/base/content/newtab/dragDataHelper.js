@@ -61,7 +61,7 @@ MPL
 /
 #
 endif
-let
+var
 gDragDataHelper
 =
 {

@@ -467,7 +467,7 @@ Bar
 ;
 *
 /
-let
+var
 DelayedInit
 =
 {
@@ -529,7 +529,7 @@ MAX_IDLE_RUN_MS
 =
 50
 ;
-let
+var
 Impl
 =
 {

@@ -362,7 +362,7 @@ bull
 )
 ;
 }
-let
+var
 TESTS
 =
 [

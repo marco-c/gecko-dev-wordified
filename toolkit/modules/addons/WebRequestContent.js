@@ -173,7 +173,7 @@ jsm
 "
 )
 ;
-let
+var
 ContentPolicy
 =
 {

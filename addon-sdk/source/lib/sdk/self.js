@@ -364,7 +364,7 @@ replace
 "
 )
 ;
-let
+var
 preferencesBranch
 =
 (

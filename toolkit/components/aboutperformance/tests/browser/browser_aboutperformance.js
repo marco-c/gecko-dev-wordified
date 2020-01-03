@@ -463,12 +463,12 @@ options
 )
 ;
 }
-let
+var
 gTabAboutPerformance
 =
 null
 ;
-let
+var
 gTabContent
 =
 null
@@ -554,7 +554,7 @@ frameScript
 }
 )
 ;
-let
+var
 promiseExpectContent
 =
 Task

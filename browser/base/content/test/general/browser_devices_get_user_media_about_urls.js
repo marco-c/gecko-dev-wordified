@@ -1334,7 +1334,7 @@ HIDE_FROM_ABOUTABOUT
 }
 }
 ;
-let
+var
 factory
 =
 XPCOMUtils
@@ -1344,7 +1344,7 @@ _getFactory
 fakeLoopAboutModule
 )
 ;
-let
+var
 registrar
 =
 Components
@@ -1358,7 +1358,7 @@ Ci
 nsIComponentRegistrar
 )
 ;
-let
+var
 originalLoopCsp
 =
 Services
@@ -1445,7 +1445,7 @@ operation
 .
 "
 ;
-let
+var
 gTests
 =
 [

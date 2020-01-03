@@ -100,7 +100,7 @@ stackframe
 html
 "
 ;
-let
+var
 gWebConsole
 gJSTerm
 gDebuggerWin

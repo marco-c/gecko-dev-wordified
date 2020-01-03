@@ -224,7 +224,7 @@ payment
 defaultServiceId
 "
 ;
-let
+var
 _debug
 ;
 try

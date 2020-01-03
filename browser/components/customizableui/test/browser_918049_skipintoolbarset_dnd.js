@@ -61,10 +61,10 @@ use
 strict
 "
 ;
-let
+var
 navbar
 ;
-let
+var
 skippedItem
 ;
 /

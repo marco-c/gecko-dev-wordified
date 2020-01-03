@@ -328,7 +328,7 @@ msg
 )
 ;
 }
-let
+var
 DownloadsAPI
 =
 {

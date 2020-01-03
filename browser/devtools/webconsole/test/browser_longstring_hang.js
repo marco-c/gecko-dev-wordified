@@ -102,7 +102,7 @@ hang
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

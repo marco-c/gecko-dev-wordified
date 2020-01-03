@@ -51,7 +51,7 @@ Bug
 751744
 *
 /
-let
+var
 tempScope
 =
 {
@@ -97,14 +97,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 NetUtil
 =
 tempScope
 .
 NetUtil
 ;
-let
+var
 FileUtils
 =
 tempScope
@@ -119,7 +119,7 @@ the
 Scratchpad
 object
 .
-let
+var
 gScratchpad
 ;
 /
@@ -130,7 +130,7 @@ the
 temporary
 nsIFiles
 .
-let
+var
 gFile
 ;
 /
@@ -139,7 +139,7 @@ Temporary
 file
 name
 .
-let
+var
 gFileName
 =
 "
@@ -155,7 +155,7 @@ the
 temporary
 file
 .
-let
+var
 gFileContent
 =
 "
@@ -187,7 +187,7 @@ bar
 }
 "
 ;
-let
+var
 gLength
 =
 gFileContent
@@ -202,7 +202,7 @@ the
 menu
 entry
 .
-let
+var
 menu
 ;
 function

@@ -458,7 +458,7 @@ components
 .
 *
 /
-let
+var
 DebuggerView
 =
 {

@@ -33,13 +33,13 @@ use
 strict
 "
 ;
-let
+var
 gTestTab
 ;
-let
+var
 gContentAPI
 ;
-let
+var
 gContentWindow
 ;
 function
@@ -387,7 +387,7 @@ close
 )
 ;
 }
-let
+var
 tests
 =
 [

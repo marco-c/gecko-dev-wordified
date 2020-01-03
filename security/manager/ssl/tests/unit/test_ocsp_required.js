@@ -152,7 +152,7 @@ assertion
 failures
 )
 .
-let
+var
 gOCSPRequestCount
 =
 0

@@ -369,7 +369,7 @@ relative
 a
 module
 id
-let
+var
 moduleResolve
 ;
 if
@@ -423,7 +423,7 @@ structure
 that
 resolveURI
 requires
-let
+var
 pathMapping
 =
 Object
@@ -477,7 +477,7 @@ in
 the
 child
 processes
-let
+var
 {
 getNewLoaderID
 }
@@ -499,7 +499,7 @@ jsm
 '
 )
 ;
-let
+var
 PATH
 =
 options
@@ -667,7 +667,7 @@ Namespace
 (
 )
 ;
-let
+var
 processMap
 =
 new
@@ -1224,7 +1224,7 @@ id
 }
 )
 ;
-let
+var
 processes
 =
 exports
@@ -1236,7 +1236,7 @@ Processes
 (
 )
 ;
-let
+var
 frameMap
 =
 new
@@ -1852,7 +1852,7 @@ null
 }
 )
 ;
-let
+var
 frames
 =
 exports
@@ -2102,7 +2102,7 @@ response
 )
 ;
 }
-let
+var
 pendingFrames
 =
 new
@@ -2398,7 +2398,7 @@ reason
 }
 )
 ;
-let
+var
 remoteModules
 =
 new

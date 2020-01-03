@@ -1480,7 +1480,7 @@ window
 .
 *
 /
-let
+var
 downloadsCache
 =
 {

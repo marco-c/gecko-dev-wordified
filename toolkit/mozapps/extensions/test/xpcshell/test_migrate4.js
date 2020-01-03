@@ -599,7 +599,7 @@ extensions
 "
 )
 ;
-let
+var
 oldSyncGUIDs
 =
 {

@@ -93,7 +93,7 @@ t
 initiate
 an
 install
-let
+var
 wasOriginBlocked
 =
 false

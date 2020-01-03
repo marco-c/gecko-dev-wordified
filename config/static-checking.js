@@ -142,7 +142,7 @@ js
 '
 )
 ;
-let
+var
 modules
 =
 [

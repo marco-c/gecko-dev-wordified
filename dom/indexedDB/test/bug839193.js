@@ -65,7 +65,7 @@ interfaces
 .
 nsIQuotaManager
 ;
-let
+var
 gURI
 =
 Components

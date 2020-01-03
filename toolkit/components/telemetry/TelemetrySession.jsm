@@ -1003,7 +1003,7 @@ gLastMemoryPoll
 =
 null
 ;
-let
+var
 gWasDebuggerAttached
 =
 false
@@ -1523,7 +1523,7 @@ testing
 .
 *
 /
-let
+var
 Policy
 =
 {
@@ -1986,7 +1986,7 @@ counters
 .
 *
 /
-let
+var
 processInfo
 =
 {
@@ -2938,7 +2938,7 @@ them
 .
 *
 /
-let
+var
 TelemetryScheduler
 =
 {
@@ -5174,7 +5174,7 @@ aData
 }
 )
 ;
-let
+var
 Impl
 =
 {

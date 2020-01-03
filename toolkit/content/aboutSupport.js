@@ -346,7 +346,7 @@ page
 with
 it
 .
-let
+var
 snapshotFormatters
 =
 {
@@ -3135,7 +3135,7 @@ key
 endif
 }
 ;
-let
+var
 =
 document
 .

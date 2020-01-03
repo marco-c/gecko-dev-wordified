@@ -68,7 +68,7 @@ kCustomClass
 acustomclassnoonewilluse
 "
 ;
-let
+var
 tempElement
 =
 null

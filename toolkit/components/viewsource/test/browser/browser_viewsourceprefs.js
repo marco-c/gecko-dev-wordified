@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 plaintextURL
 =
 "
@@ -42,7 +42,7 @@ hello
 world
 "
 ;
-let
+var
 htmlURL
 =
 "
@@ -128,7 +128,7 @@ true
 }
 )
 ;
-let
+var
 exercisePrefs
 =
 Task
@@ -1011,7 +1011,7 @@ click
 )
 ;
 }
-let
+var
 checkStyle
 =
 Task
@@ -1091,7 +1091,7 @@ styleProperty
 }
 )
 ;
-let
+var
 checkHighlight
 =
 Task

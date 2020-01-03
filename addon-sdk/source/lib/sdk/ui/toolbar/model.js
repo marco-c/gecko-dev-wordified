@@ -603,7 +603,7 @@ for
 dispatching
 events
 .
-let
+var
 toolbars
 =
 new

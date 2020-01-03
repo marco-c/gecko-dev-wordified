@@ -44,7 +44,7 @@ files
 .
 *
 /
-let
+var
 test
 =
 Task

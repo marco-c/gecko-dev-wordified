@@ -78,7 +78,7 @@ redirects
 handling
 *
 /
-let
+var
 hs
 =
 Cc
@@ -107,7 +107,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 bh
 =
 hs

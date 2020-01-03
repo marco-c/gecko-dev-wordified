@@ -84,7 +84,7 @@ autocomplete
 popup
 "
 ;
-let
+var
 test
 =
 asyncTest

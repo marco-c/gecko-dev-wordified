@@ -90,7 +90,7 @@ when
 reading
 it
 .
-let
+var
 gSSService
 =
 null

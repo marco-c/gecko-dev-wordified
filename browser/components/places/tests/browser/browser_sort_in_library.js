@@ -605,12 +605,12 @@ to
 remember
 it
 .
-let
+var
 prevSortDir
 =
 null
 ;
-let
+var
 prevSortKey
 =
 null

@@ -71,7 +71,7 @@ new
 bookmarks
 get
 .
-let
+var
 tests
 =
 [

@@ -548,7 +548,7 @@ with
 commands
 *
 /
-let
+var
 CommandUtils
 =
 {
@@ -2122,7 +2122,7 @@ true
 }
 )
 ;
-let
+var
 _gSequenceId
 =
 0

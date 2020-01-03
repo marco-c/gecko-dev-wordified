@@ -1275,7 +1275,7 @@ Array
 ;
 }
 ;
-let
+var
 invalidResolve
 =
 (
@@ -1301,7 +1301,7 @@ successfully
 '
 )
 ;
-let
+var
 validReject
 =
 (
@@ -1326,7 +1326,7 @@ rejected
 '
 )
 ;
-let
+var
 makeServer
 =
 (
@@ -1352,7 +1352,7 @@ host
 }
 )
 ;
-let
+var
 waitAndExpire
 =
 (
@@ -1403,7 +1403,7 @@ expireAllFavicons
 }
 )
 ;
-let
+var
 complete
 =
 (

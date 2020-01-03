@@ -299,7 +299,7 @@ datareporting
 }
 )
 ;
-let
+var
 promiseValidateArchivedPings
 =
 Task

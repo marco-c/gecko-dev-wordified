@@ -288,7 +288,7 @@ API
 .
 *
 /
-let
+var
 SessionCookiesInternal
 =
 {
@@ -2118,7 +2118,7 @@ name
 .
 *
 /
-let
+var
 CookieStore
 =
 {

@@ -53,7 +53,7 @@ emergencyNumber
 112
 "
 ;
-let
+var
 outCall
 ;
 function

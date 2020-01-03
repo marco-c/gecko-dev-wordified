@@ -449,7 +449,7 @@ in
 the
 page
 .
-let
+var
 gPingData
 =
 null
@@ -464,7 +464,7 @@ document
 s
 RTL
 mode
-let
+var
 documentRTLMode
 =
 "
@@ -1511,7 +1511,7 @@ getSeconds
 )
 ;
 }
-let
+var
 Settings
 =
 {
@@ -1840,7 +1840,7 @@ hidden
 }
 }
 ;
-let
+var
 PingPicker
 =
 {
@@ -3182,7 +3182,7 @@ _updateArchivedPingData
 }
 }
 ;
-let
+var
 GeneralData
 =
 {
@@ -3550,7 +3550,7 @@ colElement
 }
 }
 ;
-let
+var
 EnvironmentData
 =
 {
@@ -3909,7 +3909,7 @@ colElement
 }
 }
 ;
-let
+var
 TelLog
 =
 {
@@ -4283,7 +4283,7 @@ colElement
 }
 }
 ;
-let
+var
 SlowSQL
 =
 {
@@ -5117,7 +5117,7 @@ colElement
 }
 }
 ;
-let
+var
 StackRenderer
 =
 {
@@ -6188,7 +6188,7 @@ requestJSON
 )
 ;
 }
-let
+var
 ChromeHangs
 =
 {
@@ -6329,7 +6329,7 @@ aIndex
 }
 }
 ;
-let
+var
 ThreadHangStats
 =
 {
@@ -6706,7 +6706,7 @@ div
 }
 }
 ;
-let
+var
 Histogram
 =
 {
@@ -8631,7 +8631,7 @@ output
 ;
 }
 ;
-let
+var
 KeyValueTable
 =
 {
@@ -9096,7 +9096,7 @@ valueField
 }
 }
 ;
-let
+var
 KeyedHistogram
 =
 {
@@ -9217,7 +9217,7 @@ outerDiv
 }
 }
 ;
-let
+var
 AddonDetails
 =
 {
@@ -10289,7 +10289,7 @@ expanded
 }
 }
 }
-let
+var
 LateWritesSingleton
 =
 {

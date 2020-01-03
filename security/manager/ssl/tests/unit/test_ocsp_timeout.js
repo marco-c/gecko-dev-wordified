@@ -248,7 +248,7 @@ they
 will
 succeed
 .
-let
+var
 gSocketListener
 =
 {

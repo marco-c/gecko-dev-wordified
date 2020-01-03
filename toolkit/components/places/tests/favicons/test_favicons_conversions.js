@@ -161,7 +161,7 @@ image
 content
 tests
 .
-let
+var
 isWindows
 =
 (

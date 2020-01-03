@@ -299,7 +299,7 @@ BrowserToolboxProcess
 "
 ]
 ;
-let
+var
 processes
 =
 new
@@ -2081,7 +2081,7 @@ n
 ;
 }
 }
-let
+var
 wantLogging
 =
 Services

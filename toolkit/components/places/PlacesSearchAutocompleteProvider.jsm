@@ -1087,7 +1087,7 @@ stop
 }
 }
 ;
-let
+var
 gInitializationPromise
 =
 null

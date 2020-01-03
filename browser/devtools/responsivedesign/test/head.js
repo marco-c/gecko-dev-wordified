@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-let
+var
 {
 require
 }
@@ -59,7 +59,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -75,7 +75,7 @@ target
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -89,7 +89,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -106,7 +106,7 @@ the
 GCLI
 test
 helper
-let
+var
 testDir
 =
 gTestPath
@@ -219,7 +219,7 @@ is
 ready
 *
 /
-let
+var
 openInspector
 =
 Task
@@ -552,7 +552,7 @@ and
 ready
 *
 /
-let
+var
 openInspectorSideBar
 =
 Task
@@ -893,7 +893,7 @@ is
 loaded
 *
 /
-let
+var
 addTab
 =
 Task

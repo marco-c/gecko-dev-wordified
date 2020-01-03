@@ -52,7 +52,7 @@ loader
 .
 *
 /
-let
+var
 {
 Loader
 }

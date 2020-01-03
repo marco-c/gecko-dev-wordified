@@ -40,7 +40,7 @@ head
 js
 "
 ;
-let
+var
 networkManager
 =
 Cc
@@ -80,7 +80,7 @@ networkManager
 constructor
 )
 ;
-let
+var
 wifiManager
 =
 window

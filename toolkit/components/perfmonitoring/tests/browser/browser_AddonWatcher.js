@@ -421,7 +421,7 @@ notification
 and
 telemetry
 .
-let
+var
 burn_rubber
 =
 Task

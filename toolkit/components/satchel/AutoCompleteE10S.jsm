@@ -165,7 +165,7 @@ the
 search
 data
 .
-let
+var
 AutoCompleteE10SView
 =
 {

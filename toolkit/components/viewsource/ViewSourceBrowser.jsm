@@ -233,7 +233,7 @@ any
 new
 ones
 .
-let
+var
 gKnownBrowsers
 =
 new

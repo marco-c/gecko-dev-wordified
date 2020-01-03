@@ -36,7 +36,7 @@ widgets
 works
 properly
 .
-let
+var
 LineGraphWidget
 =
 require

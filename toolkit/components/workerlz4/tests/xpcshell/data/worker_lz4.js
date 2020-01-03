@@ -309,10 +309,10 @@ error
 }
 }
 ;
-let
+var
 Lz4
 ;
-let
+var
 Internals
 ;
 function

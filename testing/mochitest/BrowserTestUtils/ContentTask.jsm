@@ -214,7 +214,7 @@ loaded
 .
 *
 /
-let
+var
 gFrameScriptLoaded
 =
 false
@@ -233,7 +233,7 @@ promise
 .
 *
 /
-let
+var
 gPromises
 =
 new
@@ -255,7 +255,7 @@ id
 .
 *
 /
-let
+var
 gMessageID
 =
 1
@@ -548,7 +548,7 @@ promise
 }
 }
 ;
-let
+var
 ContentMessageListener
 =
 {

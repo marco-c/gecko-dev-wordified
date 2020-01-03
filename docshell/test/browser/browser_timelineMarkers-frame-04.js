@@ -51,7 +51,7 @@ for
 XMLHttpRequest
 events
 .
-let
+var
 TESTS
 =
 [

@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 test_generator
 =
 do_run_test
@@ -155,7 +155,7 @@ threshold
 in
 seconds
 .
-let
+var
 gPurgeAge
 =
 1
@@ -168,7 +168,7 @@ age
 in
 seconds
 .
-let
+var
 gShortExpiry
 =
 2

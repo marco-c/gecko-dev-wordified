@@ -436,7 +436,7 @@ aStorageData
 }
 )
 ;
-let
+var
 SessionStorageInternal
 =
 {

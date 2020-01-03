@@ -43,7 +43,7 @@ ignored
 .
 *
 /
-let
+var
 test
 =
 Task

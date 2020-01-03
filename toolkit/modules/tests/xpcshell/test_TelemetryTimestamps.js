@@ -243,7 +243,7 @@ updateAppInfo
 (
 )
 ;
-let
+var
 gGlobalScope
 =
 this

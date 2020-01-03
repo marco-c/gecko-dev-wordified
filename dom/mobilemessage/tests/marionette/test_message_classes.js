@@ -161,7 +161,7 @@ true
 document
 )
 ;
-let
+var
 manager
 =
 window
@@ -187,7 +187,7 @@ manager
 constructor
 )
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0

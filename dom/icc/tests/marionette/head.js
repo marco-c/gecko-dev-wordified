@@ -669,7 +669,7 @@ icons
 ;
 }
 }
-let
+var
 _pendingEmulatorCmdCount
 =
 0
@@ -1351,10 +1351,10 @@ aResolve
 )
 ;
 }
-let
+var
 workingFrame
 ;
-let
+var
 iccManager
 ;
 /

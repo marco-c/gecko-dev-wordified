@@ -46,7 +46,7 @@ process
 .
 *
 /
-let
+var
 gProcess
 ;
 function

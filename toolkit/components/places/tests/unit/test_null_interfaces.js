@@ -77,7 +77,7 @@ crash
 .
 *
 /
-let
+var
 Cr
 =
 Components
@@ -115,7 +115,7 @@ throw
 when
 passed
 nulls
-let
+var
 testServices
 =
 [

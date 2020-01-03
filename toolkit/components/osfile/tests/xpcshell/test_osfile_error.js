@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-let
+var
 {
 OS
 :

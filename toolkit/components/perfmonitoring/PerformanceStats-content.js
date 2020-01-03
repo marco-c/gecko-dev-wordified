@@ -302,7 +302,7 @@ monitor
 .
 *
 /
-let
+var
 gMonitor
 =
 PerformanceStats
@@ -329,7 +329,7 @@ otherwise
 .
 *
 /
-let
+var
 isContent
 =
 Services

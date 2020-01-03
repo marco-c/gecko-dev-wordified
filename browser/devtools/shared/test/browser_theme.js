@@ -52,7 +52,7 @@ that
 theme
 utilities
 work
-let
+var
 {
 getColor
 getTheme

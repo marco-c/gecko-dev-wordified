@@ -57,7 +57,7 @@ testremotepagemanager
 html
 "
 ;
-let
+var
 {
 RemotePages
 RemotePageManager

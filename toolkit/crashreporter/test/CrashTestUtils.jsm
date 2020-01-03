@@ -178,7 +178,7 @@ jsm
 "
 )
 ;
-let
+var
 dir
 =
 Services
@@ -197,7 +197,7 @@ interfaces
 nsILocalFile
 )
 ;
-let
+var
 file
 =
 dir
@@ -220,7 +220,7 @@ testcrasher
 )
 )
 ;
-let
+var
 lib
 =
 ctypes

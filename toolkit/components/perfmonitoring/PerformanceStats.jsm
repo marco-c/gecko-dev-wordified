@@ -518,7 +518,7 @@ MAX_WAIT_FOR_CHILD_PROCESS_MS
 =
 5000
 ;
-let
+var
 isContent
 =
 Services
@@ -1304,7 +1304,7 @@ SpiderMonkey
 .
 *
 /
-let
+var
 Probes
 =
 {
@@ -4490,7 +4490,7 @@ other
 processes
 *
 /
-let
+var
 Process
 =
 {

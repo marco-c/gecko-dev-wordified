@@ -102,7 +102,7 @@ events
 .
 *
 /
-let
+var
 CustomizationHandler
 =
 {

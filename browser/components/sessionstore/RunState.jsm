@@ -131,7 +131,7 @@ re
 initially
 stopped
 .
-let
+var
 state
 =
 STATE_STOPPED

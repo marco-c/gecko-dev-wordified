@@ -46,7 +46,7 @@ Cu
 =
 SpecialPowers
 ;
-let
+var
 Promise
 =
 Cu
@@ -70,7 +70,7 @@ jsm
 .
 Promise
 ;
-let
+var
 _pendingEmulatorCmdCount
 =
 0

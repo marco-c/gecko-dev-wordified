@@ -167,7 +167,7 @@ KeyServerProtocol
 2Faccount
 .
 2Fkeys
-let
+var
 ACCOUNT_KEYS
 =
 {

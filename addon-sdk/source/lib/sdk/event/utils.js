@@ -75,7 +75,7 @@ unstable
 "
 }
 ;
-let
+var
 {
 emit
 on
@@ -172,7 +172,7 @@ for
 more
 details
 .
-let
+var
 refs
 =
 (

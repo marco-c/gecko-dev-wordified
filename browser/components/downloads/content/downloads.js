@@ -598,7 +598,7 @@ use
 strict
 "
 ;
-let
+var
 {
 classes
 :

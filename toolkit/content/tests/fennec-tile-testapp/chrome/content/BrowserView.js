@@ -85,7 +85,7 @@ MPL
 .
 *
 /
-let
+var
 Ci
 =
 Components
@@ -101,7 +101,7 @@ REMOVE
 -
 -
 -
-let
+var
 noop
 =
 function
@@ -110,7 +110,7 @@ function
 {
 }
 ;
-let
+var
 endl
 =
 '

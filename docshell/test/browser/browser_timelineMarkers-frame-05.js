@@ -183,7 +183,7 @@ resolver
 )
 ;
 }
-let
+var
 TESTS
 =
 [

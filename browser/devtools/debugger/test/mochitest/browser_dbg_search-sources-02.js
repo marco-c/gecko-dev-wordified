@@ -58,12 +58,12 @@ mode
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gSources
 gSourceUtils
 gSearchView

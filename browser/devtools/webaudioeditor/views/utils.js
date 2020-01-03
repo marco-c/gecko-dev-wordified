@@ -226,7 +226,7 @@ _animated
 _delayed
 *
 /
-let
+var
 ToggleMixin
 =
 {

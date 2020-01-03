@@ -44,7 +44,7 @@ actorHasMethod
 and
 getTrait
 .
-let
+var
 {
 Task
 }
@@ -70,7 +70,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 WebAudioFront
 }

@@ -44,7 +44,7 @@ right
 profile
 timeline
 API
-let
+var
 test
 =
 Task

@@ -3792,10 +3792,10 @@ force
 }
 }
 ;
-let
+var
 elts
 ;
-let
+var
 onmouseover
 =
 function
@@ -3856,7 +3856,7 @@ bind
 window
 )
 ;
-let
+var
 onmouseout
 =
 function

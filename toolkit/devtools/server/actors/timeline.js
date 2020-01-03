@@ -425,7 +425,7 @@ docshells
 .
 *
 /
-let
+var
 TimelineActor
 =
 exports

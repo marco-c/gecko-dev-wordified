@@ -102,7 +102,7 @@ Thunderbird
 }
 }
 ;
-let
+var
 channel
 =
 {

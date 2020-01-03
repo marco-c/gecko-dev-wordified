@@ -228,13 +228,13 @@ jsm
 "
 )
 ;
-let
+var
 gStr
 =
 {
 }
 ;
-let
+var
 DownloadItem
 =
 function
@@ -3824,7 +3824,7 @@ break
 }
 }
 ;
-let
+var
 gDownloadList
 =
 {

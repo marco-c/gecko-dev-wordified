@@ -790,7 +790,7 @@ cover
 .
 *
 /
-let
+var
 Policy
 =
 {
@@ -1789,7 +1789,7 @@ getShutdownState
 }
 }
 ;
-let
+var
 CancellableTimeout
 =
 {
@@ -2008,7 +2008,7 @@ sends
 .
 *
 /
-let
+var
 SendScheduler
 =
 {
@@ -3737,7 +3737,7 @@ _backoffDelay
 }
 }
 ;
-let
+var
 TelemetrySendImpl
 =
 {

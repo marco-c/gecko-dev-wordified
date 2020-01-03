@@ -84,7 +84,7 @@ errors
 in
 tests
 .
-let
+var
 Preferences
 =
 Cu
@@ -110,7 +110,7 @@ jsm
 .
 Preferences
 ;
-let
+var
 PromiseUtils
 =
 Cu
@@ -136,7 +136,7 @@ jsm
 .
 PromiseUtils
 ;
-let
+var
 SelfSupportBackend
 =
 Cu

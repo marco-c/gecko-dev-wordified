@@ -218,7 +218,7 @@ size
 )
 )
 ;
-let
+var
 iconSet
 =
 {
@@ -311,7 +311,7 @@ pair
 .
 '
 }
-let
+var
 id
 =
 {
@@ -377,7 +377,7 @@ allowed
 '
 }
 ;
-let
+var
 label
 =
 {
@@ -420,7 +420,7 @@ empty
 string
 '
 }
-let
+var
 badge
 =
 {
@@ -448,7 +448,7 @@ a
 number
 '
 }
-let
+var
 badgeColor
 =
 {
@@ -469,7 +469,7 @@ a
 string
 '
 }
-let
+var
 stateContract
 =
 contract
@@ -499,7 +499,7 @@ stateContract
 =
 stateContract
 ;
-let
+var
 buttonContract
 =
 contract

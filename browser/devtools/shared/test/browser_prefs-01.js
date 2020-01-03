@@ -37,7 +37,7 @@ Prefs
 work
 properly
 .
-let
+var
 {
 ViewHelpers
 }

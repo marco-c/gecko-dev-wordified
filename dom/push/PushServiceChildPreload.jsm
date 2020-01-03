@@ -151,7 +151,7 @@ nsIServiceWorkerManager
 "
 )
 ;
-let
+var
 processType
 =
 Cc
@@ -180,7 +180,7 @@ nsIXULRuntime
 .
 processType
 ;
-let
+var
 isParent
 =
 processType

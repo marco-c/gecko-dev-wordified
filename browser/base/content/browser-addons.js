@@ -4180,7 +4180,7 @@ accordingly
 .
 *
 /
-let
+var
 LightweightThemeListener
 =
 {

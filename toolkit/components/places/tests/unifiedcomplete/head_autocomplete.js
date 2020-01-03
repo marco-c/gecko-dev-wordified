@@ -1853,7 +1853,7 @@ correct
 ;
 }
 }
-let
+var
 addBookmark
 =
 Task

@@ -1175,7 +1175,7 @@ options
 options
 ;
 }
-let
+var
 CSPp
 =
 CustomSimulatorProcess
@@ -1349,7 +1349,7 @@ options
 options
 ;
 }
-let
+var
 ASPp
 =
 AddonSimulatorProcess
@@ -1747,7 +1747,7 @@ options
 options
 ;
 }
-let
+var
 OASPp
 =
 OldAddonSimulatorProcess

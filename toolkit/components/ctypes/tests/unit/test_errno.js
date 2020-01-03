@@ -37,13 +37,13 @@ a
 limited
 scope
 .
-let
+var
 scope
 =
 {
 }
 ;
-let
+var
 ctypes
 =
 ctypes

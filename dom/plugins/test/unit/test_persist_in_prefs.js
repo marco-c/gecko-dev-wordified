@@ -88,7 +88,7 @@ delimeters
 on
 different
 platforms
-let
+var
 DELIM
 =
 "
@@ -121,14 +121,14 @@ DELIM
 |
 "
 ;
-let
+var
 gProfD
 =
 do_get_profile_startup
 (
 )
 ;
-let
+var
 gDirSvc
 =
 Cc

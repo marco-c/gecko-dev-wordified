@@ -958,7 +958,7 @@ empty
 .
 *
 /
-let
+var
 DirectoryLinksProvider
 =
 {

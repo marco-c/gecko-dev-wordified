@@ -310,7 +310,7 @@ findAndRunTests
 =
 findAndRunTests
 ;
-let
+var
 runnerWindows
 =
 new
@@ -318,7 +318,7 @@ WeakMap
 (
 )
 ;
-let
+var
 runnerTabs
 =
 new

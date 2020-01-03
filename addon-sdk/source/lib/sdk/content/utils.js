@@ -75,7 +75,7 @@ unstable
 '
 }
 ;
-let
+var
 {
 merge
 }
@@ -92,7 +92,7 @@ object
 '
 )
 ;
-let
+var
 {
 data
 }
@@ -107,7 +107,7 @@ self
 '
 )
 ;
-let
+var
 assetsURI
 =
 data
@@ -116,14 +116,14 @@ url
 (
 )
 ;
-let
+var
 isArray
 =
 Array
 .
 isArray
 ;
-let
+var
 method
 =
 require
@@ -141,7 +141,7 @@ core
 '
 )
 ;
-let
+var
 {
 uuid
 }
@@ -358,7 +358,7 @@ getAttachEventType
 =
 getAttachEventType
 ;
-let
+var
 attach
 =
 method
@@ -376,7 +376,7 @@ attach
 =
 attach
 ;
-let
+var
 connect
 =
 method
@@ -394,7 +394,7 @@ connect
 =
 connect
 ;
-let
+var
 detach
 =
 method
@@ -412,7 +412,7 @@ detach
 =
 detach
 ;
-let
+var
 destroy
 =
 method

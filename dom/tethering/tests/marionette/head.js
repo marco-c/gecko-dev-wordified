@@ -296,7 +296,7 @@ this
 )
 ;
 }
-let
+var
 gTestSuite
 =
 (

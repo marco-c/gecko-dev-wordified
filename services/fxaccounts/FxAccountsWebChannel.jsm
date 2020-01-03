@@ -2120,7 +2120,7 @@ button
 }
 }
 ;
-let
+var
 singleton
 ;
 /

@@ -91,7 +91,7 @@ MAX_URI_LENGTH
 MAX_TITLE_LENGTH
 *
 /
-let
+var
 Reader
 =
 {

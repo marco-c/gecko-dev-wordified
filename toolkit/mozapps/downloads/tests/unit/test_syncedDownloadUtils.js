@@ -95,7 +95,7 @@ time
 .
 *
 /
-let
+var
 Cu
 =
 Components

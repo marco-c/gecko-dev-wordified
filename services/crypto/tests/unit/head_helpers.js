@@ -108,7 +108,7 @@ loads
 the
 right
 binaries
-let
+var
 OS
 =
 "
@@ -161,7 +161,7 @@ OS
 Linux
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -242,7 +242,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -277,7 +277,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components
@@ -510,7 +510,7 @@ prints
 "
 *
 /
-let
+var
 _
 =
 function

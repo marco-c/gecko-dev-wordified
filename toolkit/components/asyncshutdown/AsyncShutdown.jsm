@@ -618,7 +618,7 @@ asyncshutdown
 crash_timeout
 "
 ;
-let
+var
 DELAY_CRASH_MS
 =
 60
@@ -1426,7 +1426,7 @@ asyncshutdown
 log
 "
 ;
-let
+var
 DEBUG_LOG
 =
 false
@@ -2354,7 +2354,7 @@ topic
 phase
 *
 /
-let
+var
 gPhases
 =
 new

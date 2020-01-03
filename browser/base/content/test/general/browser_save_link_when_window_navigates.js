@@ -690,7 +690,7 @@ aCallback
 ;
 }
 }
-let
+var
 windowObserver
 =
 {

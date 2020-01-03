@@ -268,7 +268,7 @@ certificate
 exception
 dialog
 .
-let
+var
 certErrorProgressListener
 =
 {
@@ -450,7 +450,7 @@ exceptionDialog
 xul
 "
 ;
-let
+var
 certExceptionDialogObserver
 =
 {
@@ -573,7 +573,7 @@ example
 .
 com
 .
-let
+var
 successfulLoadListener
 =
 {

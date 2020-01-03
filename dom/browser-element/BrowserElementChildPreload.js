@@ -102,7 +102,7 @@ BrowserElementIsReady
 =
 false
 ;
-let
+var
 {
 classes
 :
@@ -201,7 +201,7 @@ nsIAudioChannelService
 "
 )
 ;
-let
+var
 kLongestReturnedString
 =
 128
@@ -365,7 +365,7 @@ data
 )
 ;
 }
-let
+var
 CERTIFICATE_ERROR_PAGE_PREF
 =
 '

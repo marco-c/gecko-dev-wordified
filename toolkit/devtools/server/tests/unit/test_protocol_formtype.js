@@ -1,4 +1,4 @@
-let
+var
 protocol
 =
 require
@@ -12,7 +12,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 Arg
@@ -56,7 +56,7 @@ provide
 a
 form
 description
-let
+var
 ChildActor
 =
 protocol
@@ -134,7 +134,7 @@ child
 }
 )
 ;
-let
+var
 ChildFront
 =
 protocol
@@ -193,7 +193,7 @@ a
 form
 description
 .
-let
+var
 RootActor
 =
 protocol
@@ -500,7 +500,7 @@ unknownDetail
 }
 )
 ;
-let
+var
 RootFront
 =
 protocol

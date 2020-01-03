@@ -80,7 +80,7 @@ object
 '
 )
 ;
-let
+var
 o
 =
 {

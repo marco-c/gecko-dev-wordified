@@ -1107,7 +1107,7 @@ strategies
 }
 }
 }
-let
+var
 gUniqueStacks
 =
 new
@@ -1167,7 +1167,7 @@ into
 the
 profile
 .
-let
+var
 gThread
 =
 RecordingUtils
@@ -1415,7 +1415,7 @@ gUniqueStacks
 /
 3
 RawOptimizationSites
-let
+var
 gRawSite1
 =
 {
@@ -1604,7 +1604,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite2
 =
 {
@@ -1714,7 +1714,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite3
 =
 {

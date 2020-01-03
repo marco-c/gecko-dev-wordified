@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 ss
 =
 Cc
@@ -62,7 +62,7 @@ TAB_STATE_RESTORING
 =
 2
 ;
-let
+var
 stateBackup
 =
 ss
@@ -71,7 +71,7 @@ getBrowserState
 (
 )
 ;
-let
+var
 state
 =
 {
@@ -1637,7 +1637,7 @@ isRestoring
 ]
 ;
 }
-let
+var
 TabsProgressListener
 =
 {

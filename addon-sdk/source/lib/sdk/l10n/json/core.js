@@ -75,12 +75,12 @@ unstable
 "
 }
 ;
-let
+var
 usingJSON
 =
 false
 ;
-let
+var
 hash
 =
 {

@@ -75,7 +75,7 @@ experimental
 '
 }
 ;
-let
+var
 {
 Ci
 }
@@ -87,7 +87,7 @@ chrome
 '
 )
 ;
-let
+var
 subprocess
 =
 require
@@ -101,7 +101,7 @@ subprocess
 '
 )
 ;
-let
+var
 {
 EventTarget
 }
@@ -118,7 +118,7 @@ target
 '
 )
 ;
-let
+var
 {
 Stream
 }
@@ -135,7 +135,7 @@ stream
 '
 )
 ;
-let
+var
 {
 on
 emit
@@ -154,7 +154,7 @@ core
 '
 )
 ;
-let
+var
 {
 Class
 }
@@ -171,7 +171,7 @@ heritage
 '
 )
 ;
-let
+var
 {
 platform
 }
@@ -186,7 +186,7 @@ system
 '
 )
 ;
-let
+var
 {
 isFunction
 isArray
@@ -204,7 +204,7 @@ type
 '
 )
 ;
-let
+var
 {
 delay
 }
@@ -221,7 +221,7 @@ functional
 '
 )
 ;
-let
+var
 {
 merge
 }
@@ -238,7 +238,7 @@ object
 '
 )
 ;
-let
+var
 {
 setTimeout
 clearTimeout
@@ -254,7 +254,7 @@ timers
 '
 )
 ;
-let
+var
 isWindows
 =
 platform
@@ -270,7 +270,7 @@ win
 =
 0
 ;
-let
+var
 processes
 =
 new
@@ -302,7 +302,7 @@ the
 subprocess
 *
 /
-let
+var
 Child
 =
 Class

@@ -66,7 +66,7 @@ to
 unregister
 for
 cleanup
-let
+var
 _provider
 =
 null

@@ -77,7 +77,7 @@ in
 the
 test
 .
-let
+var
 visits
 =
 [

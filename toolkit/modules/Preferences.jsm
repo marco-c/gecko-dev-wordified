@@ -2907,7 +2907,7 @@ created
 .
 *
 /
-let
+var
 observers
 =
 [

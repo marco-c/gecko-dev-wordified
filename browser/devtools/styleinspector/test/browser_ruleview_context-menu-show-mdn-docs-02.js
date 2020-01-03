@@ -619,7 +619,7 @@ view
 .
 *
 /
-let
+var
 rootElement
 =
 view

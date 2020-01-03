@@ -208,7 +208,7 @@ promise
 "
 )
 ;
-let
+var
 gScratchpadWindow
 ;
 /

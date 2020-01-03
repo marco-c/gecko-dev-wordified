@@ -417,7 +417,7 @@ labels
 }
 }
 ;
-let
+var
 component
 =
 [

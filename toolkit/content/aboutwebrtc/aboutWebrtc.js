@@ -224,7 +224,7 @@ WEBRTC_TRACE_ALL
 =
 65535
 ;
-let
+var
 reportsRetrieved
 =
 new
@@ -247,7 +247,7 @@ stats
 )
 )
 ;
-let
+var
 logRetrieved
 =
 new
@@ -494,7 +494,7 @@ msg
 )
 ;
 }
-let
+var
 ControlSet
 =
 {
@@ -1706,7 +1706,7 @@ update
 ;
 }
 ;
-let
+var
 AboutWebRTC
 =
 {

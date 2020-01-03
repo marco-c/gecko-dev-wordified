@@ -27,13 +27,13 @@ zero
 /
 *
 /
-let
+var
 contentWindow
 ;
-let
+var
 groupItem
 ;
-let
+var
 groupItemId
 ;
 function

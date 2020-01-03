@@ -174,13 +174,13 @@ nsIMessageSender
 "
 )
 ;
-let
+var
 paymentTabs
 =
 {
 }
 ;
-let
+var
 cancelTabCallbacks
 =
 {

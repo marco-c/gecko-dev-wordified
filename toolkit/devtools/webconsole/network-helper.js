@@ -526,7 +526,7 @@ rules
 .
 *
 /
-let
+var
 NetworkHelper
 =
 {

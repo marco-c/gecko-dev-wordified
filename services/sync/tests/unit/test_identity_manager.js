@@ -85,7 +85,7 @@ js
 "
 )
 ;
-let
+var
 identity
 =
 new

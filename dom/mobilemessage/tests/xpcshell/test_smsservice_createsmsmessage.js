@@ -115,7 +115,7 @@ stack
 )
 ;
 }
-let
+var
 gMobileMessageService
 =
 Cc

@@ -204,7 +204,7 @@ in
 /
 leveledTestData
 .
-let
+var
 testData
 =
 [
@@ -420,7 +420,7 @@ true
 }
 ]
 ;
-let
+var
 domainsInRange
 =
 [
@@ -428,7 +428,7 @@ domainsInRange
 3
 ]
 ;
-let
+var
 leveledTestData
 =
 [
@@ -528,7 +528,7 @@ then
 domain
 index
 .
-let
+var
 testDataAddedLater
 =
 [

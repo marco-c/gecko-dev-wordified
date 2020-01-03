@@ -61,7 +61,7 @@ use
 strict
 '
 ;
-let
+var
 {
 Loader
 main
@@ -81,7 +81,7 @@ loader
 '
 )
 ;
-let
+var
 {
 readURI
 }
@@ -97,7 +97,7 @@ url
 '
 )
 ;
-let
+var
 {
 all
 }
@@ -113,7 +113,7 @@ promise
 '
 )
 ;
-let
+var
 testOptions
 =
 require
@@ -125,7 +125,7 @@ options
 '
 )
 ;
-let
+var
 root
 =
 module

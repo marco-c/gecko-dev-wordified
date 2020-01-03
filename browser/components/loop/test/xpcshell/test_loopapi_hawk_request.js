@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-let
+var
 sandbox
 ;
 function

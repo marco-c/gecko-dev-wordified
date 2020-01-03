@@ -1042,7 +1042,7 @@ node
 .
 *
 /
-let
+var
 PageStyleActor
 =
 protocol
@@ -6372,7 +6372,7 @@ the
 PageStyleActor
 *
 /
-let
+var
 PageStyleFront
 =
 protocol
@@ -6796,7 +6796,7 @@ type
 .
 *
 /
-let
+var
 StyleRuleActor
 =
 protocol
@@ -8787,7 +8787,7 @@ actor
 .
 *
 /
-let
+var
 StyleRuleFront
 =
 protocol
@@ -9598,7 +9598,7 @@ RuleModificationList
 .
 *
 /
-let
+var
 RuleModificationList
 =
 Class

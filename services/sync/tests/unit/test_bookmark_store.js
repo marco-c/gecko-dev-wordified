@@ -142,7 +142,7 @@ register
 BookmarksEngine
 )
 ;
-let
+var
 engine
 =
 Service
@@ -156,14 +156,14 @@ bookmarks
 "
 )
 ;
-let
+var
 store
 =
 engine
 .
 _store
 ;
-let
+var
 tracker
 =
 engine
@@ -187,7 +187,7 @@ persistChangedIDs
 =
 false
 ;
-let
+var
 fxuri
 =
 Utils
@@ -206,7 +206,7 @@ com
 "
 )
 ;
-let
+var
 tburi
 =
 Utils

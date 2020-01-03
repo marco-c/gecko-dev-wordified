@@ -675,7 +675,7 @@ set
 of
 page
 transitions
-let
+var
 TESTS
 =
 [
@@ -765,7 +765,7 @@ one
 page
 to
 another
-let
+var
 TRANSITIONS
 =
 [

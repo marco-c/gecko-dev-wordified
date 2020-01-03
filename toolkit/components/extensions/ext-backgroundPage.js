@@ -38,7 +38,7 @@ Extension
 >
 BackgroundPage
 ]
-let
+var
 backgroundPagesMap
 =
 new

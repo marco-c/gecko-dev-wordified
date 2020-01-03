@@ -108,7 +108,7 @@ tabbrowser
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -716,7 +716,7 @@ event
 }
 )
 ;
-let
+var
 handleContentContextMenu
 =
 function
@@ -1548,7 +1548,7 @@ TLS_ERROR_REPORT_TELEMETRY_FAILURE
 =
 7
 ;
-let
+var
 AboutNetErrorListener
 =
 {
@@ -2345,7 +2345,7 @@ init
 this
 )
 ;
-let
+var
 ClickEventHandler
 =
 {
@@ -3596,7 +3596,7 @@ event
 message
 fires
 .
-let
+var
 pluginContent
 =
 new
@@ -3801,7 +3801,7 @@ persisted
 }
 )
 ;
-let
+var
 PageMetadataMessenger
 =
 {
@@ -5167,7 +5167,7 @@ charset
 }
 )
 ;
-let
+var
 LightWeightThemeWebInstallListener
 =
 {
@@ -5737,7 +5737,7 @@ disable
 }
 )
 ;
-let
+var
 PageInfoListener
 =
 {

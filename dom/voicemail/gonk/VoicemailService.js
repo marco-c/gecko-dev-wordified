@@ -278,7 +278,7 @@ voicemail
 defaultServiceId
 "
 ;
-let
+var
 DEBUG
 ;
 function

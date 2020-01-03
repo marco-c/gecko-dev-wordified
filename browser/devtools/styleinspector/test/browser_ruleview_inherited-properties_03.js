@@ -66,7 +66,7 @@ the
 nested
 element
 .
-let
+var
 {
 ELEMENT_STYLE
 }

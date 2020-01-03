@@ -639,7 +639,7 @@ length
 )
 ;
 }
-let
+var
 numTokenRequests
 =
 0

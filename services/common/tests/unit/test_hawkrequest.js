@@ -122,7 +122,7 @@ session
 certificatesign
 -
 etc
-let
+var
 SESSION_KEYS
 =
 {

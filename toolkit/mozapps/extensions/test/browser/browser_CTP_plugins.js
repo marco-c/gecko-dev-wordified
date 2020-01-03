@@ -82,13 +82,13 @@ RELATIVE_DIR
 /
 "
 ;
-let
+var
 gManagerWindow
 ;
-let
+var
 gTestPluginId
 ;
-let
+var
 gPluginBrowser
 ;
 function

@@ -32,12 +32,12 @@ use
 strict
 "
 ;
-let
+var
 nodeHighlighted
 =
 false
 ;
-let
+var
 presenter
 ;
 function

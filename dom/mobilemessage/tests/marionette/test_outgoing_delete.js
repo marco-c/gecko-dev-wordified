@@ -97,7 +97,7 @@ RECEIVER
 the
 destination
 number
-let
+var
 manager
 =
 window
@@ -106,7 +106,7 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 msgText
 =
 "
@@ -116,12 +116,12 @@ OS
 !
 "
 ;
-let
+var
 gotSmsOnsent
 =
 false
 ;
-let
+var
 gotReqOnsuccess
 =
 false

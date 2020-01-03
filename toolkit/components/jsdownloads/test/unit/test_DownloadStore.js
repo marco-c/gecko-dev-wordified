@@ -2555,7 +2555,7 @@ download3saver2
 /
 /
 Termination
-let
+var
 tailFile
 =
 do_get_file

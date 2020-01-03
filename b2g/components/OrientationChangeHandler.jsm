@@ -94,7 +94,7 @@ jsm
 "
 )
 ;
-let
+var
 window
 =
 Services
@@ -110,7 +110,7 @@ browser
 "
 )
 ;
-let
+var
 system
 =
 window
@@ -124,7 +124,7 @@ systemapp
 "
 )
 ;
-let
+var
 OrientationChangeHandler
 =
 {

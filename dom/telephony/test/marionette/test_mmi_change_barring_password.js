@@ -236,7 +236,7 @@ newPasswordAgain
 }
 ]
 ;
-let
+var
 MMI_PREFIX
 =
 [

@@ -107,7 +107,7 @@ purposes
 .
 *
 /
-let
+var
 BlocklistProxy
 =
 {

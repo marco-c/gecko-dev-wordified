@@ -327,7 +327,7 @@ out
 the
 index
 .
-let
+var
 gFunctions
 =
 [

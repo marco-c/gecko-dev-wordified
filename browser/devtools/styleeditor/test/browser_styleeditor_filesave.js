@@ -96,7 +96,7 @@ Components
 .
 interfaces
 ;
-let
+var
 tempScope
 =
 {
@@ -146,14 +146,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 FileUtils
 =
 tempScope
 .
 FileUtils
 ;
-let
+var
 NetUtil
 =
 tempScope

@@ -184,12 +184,12 @@ jsm
 "
 )
 ;
-let
+var
 API_VERSION
 =
 1
 ;
-let
+var
 _CloudSync
 =
 function
@@ -397,7 +397,7 @@ ready
 }
 )
 ;
-let
+var
 _cloudSyncInternal
 =
 {

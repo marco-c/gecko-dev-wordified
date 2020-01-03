@@ -178,7 +178,7 @@ backup
 .
 *
 /
-let
+var
 prepareTest
 =
 Task
@@ -263,7 +263,7 @@ array
 .
 *
 /
-let
+var
 getUpgradeBackups
 =
 Task

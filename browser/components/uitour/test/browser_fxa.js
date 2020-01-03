@@ -74,13 +74,13 @@ jsm
 "
 )
 ;
-let
+var
 gTestTab
 ;
-let
+var
 gContentAPI
 ;
-let
+var
 gContentWindow
 ;
 function
@@ -114,7 +114,7 @@ updateAppMenuItem
 }
 )
 ;
-let
+var
 tests
 =
 [

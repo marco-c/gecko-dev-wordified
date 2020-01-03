@@ -39,7 +39,7 @@ two
 tabs
 *
 /
-let
+var
 {
 DebuggerServer
 }
@@ -55,7 +55,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -109,14 +109,14 @@ utf
 bar
 "
 ;
-let
+var
 gClient
 ;
-let
+var
 gTab1
 gTab2
 ;
-let
+var
 gTabActor1
 gTabActor2
 ;

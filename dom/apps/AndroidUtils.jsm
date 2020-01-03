@@ -158,7 +158,7 @@ jsm
 "
 )
 ;
-let
+var
 appsRegistry
 =
 null

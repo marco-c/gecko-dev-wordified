@@ -309,7 +309,7 @@ promise
 "
 )
 ;
-let
+var
 doc
 table
 ;
@@ -481,7 +481,7 @@ finish
 )
 ;
 }
-let
+var
 startTests
 =
 Task
@@ -881,7 +881,7 @@ expected
 behavior
 *
 /
-let
+var
 testMouseInteraction
 =
 Task

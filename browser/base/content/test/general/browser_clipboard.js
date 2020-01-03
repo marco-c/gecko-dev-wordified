@@ -36,7 +36,7 @@ the
 clipboard
 properly
 .
-let
+var
 testPage
 =
 "

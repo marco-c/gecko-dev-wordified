@@ -68,7 +68,7 @@ this
 .
 *
 /
-let
+var
 STRINGED_THREAD
 =
 (
@@ -168,7 +168,7 @@ thread
 (
 )
 ;
-let
+var
 PROFILER_DATA
 =
 (
@@ -475,7 +475,7 @@ data
 (
 )
 ;
-let
+var
 test
 =
 Task

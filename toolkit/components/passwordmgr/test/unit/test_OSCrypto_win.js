@@ -122,7 +122,7 @@ jsm
 "
 )
 ;
-let
+var
 crypto
 =
 new

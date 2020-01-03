@@ -2456,7 +2456,7 @@ the
 API
 *
 /
-let
+var
 BingTokenManager
 =
 {

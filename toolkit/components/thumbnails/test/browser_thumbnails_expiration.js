@@ -82,7 +82,7 @@ URL
 3
 "
 ;
-let
+var
 tmp
 =
 {

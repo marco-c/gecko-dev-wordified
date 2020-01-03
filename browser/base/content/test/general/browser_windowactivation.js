@@ -17,7 +17,7 @@ tabs
 .
 *
 /
-let
+var
 testPage
 =
 "
@@ -69,15 +69,15 @@ body
 >
 "
 ;
-let
+var
 colorChangeNotifications
 =
 0
 ;
-let
+var
 otherWindow
 ;
-let
+var
 browser1
 browser2
 ;

@@ -73,7 +73,7 @@ is
 preffed
 on
 .
-let
+var
 PREF_UA_STYLES
 =
 "

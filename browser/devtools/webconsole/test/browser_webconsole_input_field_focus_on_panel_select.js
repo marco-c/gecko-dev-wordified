@@ -79,7 +79,7 @@ p
 hello
 "
 ;
-let
+var
 test
 =
 asyncTest

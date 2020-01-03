@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 gOnSearchComplete
 =
 null

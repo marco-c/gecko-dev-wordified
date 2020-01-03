@@ -67,7 +67,7 @@ tests
 )
 ;
 }
-let
+var
 tests
 =
 [

@@ -250,7 +250,7 @@ b2g
 /
 "
 ;
-let
+var
 process
 ;
 function
@@ -585,7 +585,7 @@ kill
 )
 ;
 }
-let
+var
 name
 ;
 AddonManager

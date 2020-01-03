@@ -38,7 +38,7 @@ newtab
 preload
 "
 ;
-let
+var
 suggestedLink
 =
 {

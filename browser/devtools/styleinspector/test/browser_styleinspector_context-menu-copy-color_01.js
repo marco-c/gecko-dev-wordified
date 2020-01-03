@@ -761,7 +761,7 @@ computed
 .
 *
 /
-let
+var
 rootElement
 =
 view

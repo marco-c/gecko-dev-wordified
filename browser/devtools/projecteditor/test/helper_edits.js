@@ -50,7 +50,7 @@ use
 strict
 "
 ;
-let
+var
 helperEditData
 =
 [

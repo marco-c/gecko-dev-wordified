@@ -97,7 +97,7 @@ handleError
 )
 ;
 }
-let
+var
 tests
 =
 {

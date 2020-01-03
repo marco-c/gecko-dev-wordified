@@ -54,7 +54,7 @@ com
 /
 "
 ;
-let
+var
 tmp
 =
 {
@@ -102,7 +102,7 @@ js
 tmp
 )
 ;
-let
+var
 {
 Sanitizer
 }

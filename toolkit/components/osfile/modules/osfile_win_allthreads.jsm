@@ -174,7 +174,7 @@ use
 strict
 "
 ;
-let
+var
 SharedAll
 ;
 if
@@ -341,7 +341,7 @@ require
 )
 ;
 }
-let
+var
 LOG
 =
 SharedAll
@@ -359,7 +359,7 @@ allthreads
 "
 )
 ;
-let
+var
 Const
 =
 SharedAll
@@ -372,7 +372,7 @@ Win
 /
 Open
 libc
-let
+var
 libc
 =
 new
@@ -400,7 +400,7 @@ libc
 /
 Define
 declareFFI
-let
+var
 declareFFI
 =
 SharedAll
@@ -419,7 +419,7 @@ declareFFI
 =
 declareFFI
 ;
-let
+var
 Scope
 =
 {
@@ -716,7 +716,7 @@ Error
 }
 *
 /
-let
+var
 OSError
 =
 function
@@ -1530,7 +1530,7 @@ Windows
 constructor
 *
 /
-let
+var
 AbstractInfo
 =
 function
@@ -1970,7 +1970,7 @@ Windows
 constructor
 *
 /
-let
+var
 AbstractEntry
 =
 function
@@ -2299,7 +2299,7 @@ communication
 /
 between
 threads
-let
+var
 Type
 =
 Object
@@ -2475,7 +2475,7 @@ ERROR_NOT_SUPPORTED
 ;
 }
 ;
-let
+var
 EXPORTED_SYMBOLS
 =
 [

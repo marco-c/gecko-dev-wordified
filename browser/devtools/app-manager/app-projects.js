@@ -1103,7 +1103,7 @@ projects
 }
 )
 ;
-let
+var
 loadDeferred
 =
 promise

@@ -96,7 +96,7 @@ the
 install
 UI
 .
-let
+var
 sawUnload
 =
 null

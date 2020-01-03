@@ -158,7 +158,7 @@ causes
 a
 timeout
 .
-let
+var
 tests
 =
 [

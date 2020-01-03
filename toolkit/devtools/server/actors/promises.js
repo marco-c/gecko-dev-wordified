@@ -227,7 +227,7 @@ state
 .
 *
 /
-let
+var
 PromisesActor
 =
 protocol

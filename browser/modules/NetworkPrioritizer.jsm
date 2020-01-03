@@ -266,12 +266,12 @@ PRIORITY_DELTA
 /
 /
 Variables
-let
+var
 _lastFocusedWindow
 =
 null
 ;
-let
+var
 _windows
 =
 [
@@ -401,7 +401,7 @@ object
 for
 organization
 .
-let
+var
 BrowserHelper
 =
 {
@@ -550,7 +550,7 @@ object
 for
 organization
 .
-let
+var
 WindowHelper
 =
 {

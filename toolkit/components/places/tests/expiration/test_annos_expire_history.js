@@ -149,7 +149,7 @@ annotations
 .
 *
 /
-let
+var
 as
 =
 Cc

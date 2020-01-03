@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 testData
 =
 [
@@ -213,7 +213,7 @@ s
 ]
 ]
 ;
-let
+var
 mm
 =
 gBrowser

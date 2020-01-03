@@ -642,7 +642,7 @@ id
 )
 )
 ;
-let
+var
 actionButtonStateEvents
 =
 events
@@ -660,7 +660,7 @@ instanceof
 ActionButton
 )
 ;
-let
+var
 actionButtonViewEvents
 =
 events
@@ -681,7 +681,7 @@ target
 )
 )
 ;
-let
+var
 clickEvents
 =
 events
@@ -703,7 +703,7 @@ click
 '
 )
 ;
-let
+var
 updateEvents
 =
 events

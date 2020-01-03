@@ -278,10 +278,10 @@ timer
 1
 "
 ;
-let
+var
 mockCID
 ;
-let
+var
 mockTimerImpl
 =
 {
@@ -442,7 +442,7 @@ mockCID
 }
 )
 ;
-let
+var
 tests
 =
 [
@@ -544,7 +544,7 @@ expectedTimerDelay
 }
 ]
 ;
-let
+var
 currentTest
 ;
 function

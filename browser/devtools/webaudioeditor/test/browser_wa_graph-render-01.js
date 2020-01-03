@@ -46,7 +46,7 @@ View
 .
 *
 /
-let
+var
 connectCount
 =
 0

@@ -132,7 +132,7 @@ test
 8888
 '
 ;
-let
+var
 {
 require
 }
@@ -160,7 +160,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -176,7 +176,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -204,7 +204,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -214,7 +214,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -235,7 +235,7 @@ the
 GCLI
 test
 helper
-let
+var
 testDir
 =
 gTestPath
@@ -688,7 +688,7 @@ it
 .
 *
 /
-let
+var
 openStyleEditorForURL
 =
 Task

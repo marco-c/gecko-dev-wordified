@@ -152,7 +152,7 @@ path
 .
 *
 /
-let
+var
 gTests
 =
 [
@@ -970,7 +970,7 @@ the
 new
 window
 .
-let
+var
 gReplacedMethods
 =
 [
@@ -1005,7 +1005,7 @@ the
 new
 window
 .
-let
+var
 gTestWin
 =
 null
@@ -1023,7 +1023,7 @@ call
 to
 contentAreaClick
 .
-let
+var
 gInvokedMethods
 =
 [
@@ -1036,7 +1036,7 @@ test
 currently
 running
 .
-let
+var
 gCurrentTest
 =
 null
@@ -1165,7 +1165,7 @@ steal
 click
 events
 .
-let
+var
 gClickHandler
 =
 {

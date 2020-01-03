@@ -72,7 +72,7 @@ PLATFORM_DATA_PREF
 false
 )
 ;
-let
+var
 {
 CATEGORY_MASK
 }
@@ -510,7 +510,7 @@ selected
 ;
 }
 }
-let
+var
 gUniqueStacks
 =
 new
@@ -535,7 +535,7 @@ s
 )
 ;
 }
-let
+var
 gThread
 =
 RecordingUtils
@@ -670,7 +670,7 @@ gUniqueStacks
 /
 3
 RawOptimizationSites
-let
+var
 gRawSite1
 =
 {
@@ -840,7 +840,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite2
 =
 {

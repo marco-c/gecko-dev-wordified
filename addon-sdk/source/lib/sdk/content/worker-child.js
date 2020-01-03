@@ -1021,7 +1021,7 @@ windows
 in
 this
 tab
-let
+var
 keepAlive
 =
 new

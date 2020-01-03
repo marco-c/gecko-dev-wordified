@@ -271,7 +271,7 @@ hosting
 the
 addons
 .
-let
+var
 gHttpServer
 =
 null
@@ -285,7 +285,7 @@ the
 webserver
 root
 .
-let
+var
 gHttpRoot
 =
 null
@@ -302,12 +302,12 @@ on
 the
 webserver
 .
-let
+var
 gDataRoot
 =
 null
 ;
-let
+var
 gNow
 =
 new
@@ -751,7 +751,7 @@ fake
 plugin
 host
 .
-let
+var
 gInstalledPlugins
 =
 [
@@ -801,7 +801,7 @@ plugin
 telemetry
 environment
 .
-let
+var
 PluginHost
 =
 {

@@ -1120,7 +1120,7 @@ return
 nodesCount
 ;
 }
-let
+var
 itemsCount
 =
 0

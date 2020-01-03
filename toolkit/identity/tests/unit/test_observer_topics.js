@@ -676,7 +676,7 @@ idpParams
 )
 ;
 }
-let
+var
 TESTS
 =
 [

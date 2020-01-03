@@ -116,7 +116,7 @@ cache
 lastUpdate
 "
 ;
-let
+var
 repo
 =
 {
@@ -258,7 +258,7 @@ check
 describe
 the
 addons
-let
+var
 ao1
 =
 {
@@ -279,7 +279,7 @@ org
 "
 }
 ;
-let
+var
 ao2
 =
 {
@@ -300,7 +300,7 @@ org
 "
 }
 ;
-let
+var
 ao3
 =
 {
@@ -321,7 +321,7 @@ org
 "
 }
 ;
-let
+var
 ao4
 =
 {
@@ -342,7 +342,7 @@ org
 "
 }
 ;
-let
+var
 ao5
 =
 {
@@ -363,7 +363,7 @@ org
 "
 }
 ;
-let
+var
 ao6
 =
 {
@@ -384,7 +384,7 @@ org
 "
 }
 ;
-let
+var
 ao7
 =
 {
@@ -405,7 +405,7 @@ org
 "
 }
 ;
-let
+var
 ao8
 =
 {
@@ -426,7 +426,7 @@ org
 "
 }
 ;
-let
+var
 ao9
 =
 {
@@ -447,7 +447,7 @@ org
 "
 }
 ;
-let
+var
 ao10
 =
 {
@@ -1589,7 +1589,7 @@ inactive
 during
 the
 upgrade
-let
+var
 inactiveAddonIds
 =
 [

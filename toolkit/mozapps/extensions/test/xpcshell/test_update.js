@@ -335,7 +335,7 @@ extensions
 "
 )
 ;
-let
+var
 originalSyncGUID
 ;
 function

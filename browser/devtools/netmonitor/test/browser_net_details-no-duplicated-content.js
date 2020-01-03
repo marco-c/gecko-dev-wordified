@@ -69,7 +69,7 @@ is
 not
 duplicated
 .
-let
+var
 test
 =
 Task

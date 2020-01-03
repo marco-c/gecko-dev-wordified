@@ -107,7 +107,7 @@ run_next_test
 }
 )
 ;
-let
+var
 aMessageNoPerm
 =
 {
@@ -141,7 +141,7 @@ function
 }
 }
 ;
-let
+var
 aMessageWithPerm
 =
 {
@@ -255,7 +255,7 @@ run_next_test
 }
 )
 ;
-let
+var
 uMessage
 =
 {
@@ -337,7 +337,7 @@ run_next_test
 }
 )
 ;
-let
+var
 fakeLibcUtils
 =
 {

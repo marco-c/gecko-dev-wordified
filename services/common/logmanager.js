@@ -439,13 +439,13 @@ by
 each
 instance
 .
-let
+var
 formatter
 ;
-let
+var
 dumpAppender
 ;
-let
+var
 consoleAppender
 ;
 /
@@ -461,7 +461,7 @@ by
 all
 instances
 .
-let
+var
 allBranches
 =
 new

@@ -39,7 +39,7 @@ an
 equally
 trivial
 module
-let
+var
 B
 =
 require

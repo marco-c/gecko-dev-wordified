@@ -77,7 +77,7 @@ ChromeUtils
 js
 "
 ;
-let
+var
 ChromeUtils
 =
 {

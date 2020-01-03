@@ -268,7 +268,7 @@ on
 .
 *
 /
-let
+var
 handlers
 =
 {

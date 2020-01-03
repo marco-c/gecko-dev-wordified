@@ -96,7 +96,7 @@ stop
 correctly
 )
 .
-let
+var
 L10N
 =
 new

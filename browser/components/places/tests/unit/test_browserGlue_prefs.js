@@ -117,7 +117,7 @@ places
 init
 "
 ;
-let
+var
 bg
 =
 Cc

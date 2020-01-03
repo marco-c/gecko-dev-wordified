@@ -918,7 +918,7 @@ host
 .
 *
 /
-let
+var
 gToolbox
 gTarget
 gFront
@@ -1025,7 +1025,7 @@ events
 .
 *
 /
-let
+var
 EventsHandler
 =
 {
@@ -1385,7 +1385,7 @@ methods
 .
 *
 /
-let
+var
 L10N
 =
 new
@@ -1396,7 +1396,7 @@ L10N
 STRINGS_URI
 )
 ;
-let
+var
 SHARED_L10N
 =
 new
@@ -1440,7 +1440,7 @@ helpers
 .
 *
 /
-let
+var
 =
 (
 selector
@@ -1457,7 +1457,7 @@ querySelector
 selector
 )
 ;
-let
+var
 all
 =
 (

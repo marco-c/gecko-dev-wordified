@@ -51,13 +51,13 @@ data
 defaultServiceId
 "
 ;
-let
+var
 connections
 ;
-let
+var
 numOfRadioInterfaces
 ;
-let
+var
 currentDataDefaultId
 =
 0

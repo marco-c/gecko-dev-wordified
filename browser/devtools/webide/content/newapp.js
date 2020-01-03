@@ -278,7 +278,7 @@ webide
 templatesURL
 "
 ;
-let
+var
 gTemplateList
 =
 null

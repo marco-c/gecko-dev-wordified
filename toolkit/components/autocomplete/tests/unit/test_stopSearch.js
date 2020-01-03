@@ -588,7 +588,7 @@ aSearch
 )
 ;
 }
-let
+var
 gTests
 =
 [
@@ -759,10 +759,10 @@ DOM_VK_UP
 }
 ]
 ;
-let
+var
 gSearch
 ;
-let
+var
 gCurrentTest
 ;
 function

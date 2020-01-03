@@ -5,7 +5,7 @@ main
 test
 function
 .
-let
+var
 test
 =
 function

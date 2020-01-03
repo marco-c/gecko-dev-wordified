@@ -99,7 +99,7 @@ MPL
 .
 *
 /
-let
+var
 hs
 =
 Cc
@@ -128,7 +128,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 bh
 =
 hs
@@ -140,7 +140,7 @@ Ci
 nsIBrowserHistory
 )
 ;
-let
+var
 db
 =
 hs

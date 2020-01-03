@@ -18,7 +18,7 @@ document
 .
 *
 /
-let
+var
 {
 PageMetadata
 }
@@ -44,7 +44,7 @@ jsm
 }
 )
 ;
-let
+var
 rootURL
 =
 "

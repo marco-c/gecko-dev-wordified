@@ -82,7 +82,7 @@ doc_media_queries
 html
 "
 ;
-let
+var
 {
 PropertyView
 }
@@ -100,7 +100,7 @@ view
 "
 )
 ;
-let
+var
 {
 CssLogic
 }

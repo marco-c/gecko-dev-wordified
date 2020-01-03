@@ -86,7 +86,7 @@ file
 picker
 message
 .
-let
+var
 ppmm
 =
 Cc
@@ -109,7 +109,7 @@ Ci
 nsIMessageListenerManager
 )
 ;
-let
+var
 pickResult
 =
 null

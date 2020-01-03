@@ -86,7 +86,7 @@ closures
 html
 "
 ;
-let
+var
 gWebConsole
 gJSTerm
 gVariablesView

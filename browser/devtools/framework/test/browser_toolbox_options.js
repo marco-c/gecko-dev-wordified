@@ -51,7 +51,7 @@ in
 the
 toolbox
 .
-let
+var
 doc
 =
 null

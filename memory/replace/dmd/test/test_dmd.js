@@ -155,7 +155,7 @@ read
 it
 here
 .
-let
+var
 gEnv
 =
 Cc
@@ -180,7 +180,7 @@ Ci
 nsIEnvironment
 )
 ;
-let
+var
 gPythonName
 =
 gEnv
@@ -309,7 +309,7 @@ return
 file
 ;
 }
-let
+var
 gIsWindows
 =
 Cc
@@ -344,7 +344,7 @@ OS
 WINNT
 "
 ;
-let
+var
 gDmdTestFile
 =
 getExecutable
@@ -366,7 +366,7 @@ exe
 )
 )
 ;
-let
+var
 gDmdScriptFile
 =
 getExecutable
@@ -378,7 +378,7 @@ py
 "
 )
 ;
-let
+var
 gScanTestFile
 =
 FileUtils

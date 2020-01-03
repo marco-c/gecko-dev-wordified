@@ -295,7 +295,7 @@ value
 ]
 )
 ;
-let
+var
 FormWrapper
 =
 {

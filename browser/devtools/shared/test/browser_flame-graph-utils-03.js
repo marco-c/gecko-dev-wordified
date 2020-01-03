@@ -41,7 +41,7 @@ flame
 graph
 data
 .
-let
+var
 {
 FlameGraphUtils
 }
@@ -59,7 +59,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 {
 PALLETTE_SIZE
 }
@@ -77,7 +77,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 {
 FrameNode
 }
@@ -445,7 +445,7 @@ frame
 }
 }
 }
-let
+var
 TEST_DATA
 =
 synthesizeProfileForTest
@@ -518,7 +518,7 @@ time
 ]
 )
 ;
-let
+var
 EXPECTED_OUTPUT
 =
 [

@@ -258,7 +258,7 @@ only
 one
 window
 .
-let
+var
 BrowserWindows
 =
 Class

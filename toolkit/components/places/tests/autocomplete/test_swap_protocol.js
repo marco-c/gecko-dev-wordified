@@ -159,7 +159,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -235,7 +235,7 @@ wwwwwwacko
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -299,7 +299,7 @@ addPageBook
 0
 )
 ;
-let
+var
 allSite
 =
 [
@@ -343,7 +343,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

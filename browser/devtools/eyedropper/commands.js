@@ -92,7 +92,7 @@ EventEmitter
 (
 )
 ;
-let
+var
 {
 Eyedropper
 EyedropperManager

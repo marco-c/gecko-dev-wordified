@@ -136,7 +136,7 @@ webchannel
 permissions
 "
 ;
-let
+var
 MockWebChannelBroker
 =
 {

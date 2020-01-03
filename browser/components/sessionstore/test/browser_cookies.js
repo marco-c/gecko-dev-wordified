@@ -834,7 +834,7 @@ examples
 .
 *
 /
-let
+var
 testCookieCollection
 =
 Task
@@ -1230,7 +1230,7 @@ resolving
 .
 *
 /
-let
+var
 replaceCurrentURI
 =
 Task

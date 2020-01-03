@@ -1146,7 +1146,7 @@ nsINavBookmarkObserver
 /
 Module
 Registration
-let
+var
 components
 =
 [

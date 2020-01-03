@@ -75,7 +75,7 @@ the
 right
 subproperties
 .
-let
+var
 TEST_URI
 =
 <

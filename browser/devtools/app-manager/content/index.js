@@ -221,7 +221,7 @@ properties
 "
 )
 ;
-let
+var
 UI
 =
 {

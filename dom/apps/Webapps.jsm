@@ -909,7 +909,7 @@ per
 bug
 1003469
 .
-let
+var
 debug
 =
 Cu
@@ -965,7 +965,7 @@ set
 to
 true
 .
-let
+var
 debug
 ;
 function
@@ -32338,7 +32338,7 @@ download
 observer
 *
 /
-let
+var
 AppcacheObserver
 =
 function

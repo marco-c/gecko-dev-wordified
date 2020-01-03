@@ -2528,7 +2528,7 @@ methods
 .
 *
 /
-let
+var
 ParserHelpers
 =
 {
@@ -4896,7 +4896,7 @@ null
 }
 *
 /
-let
+var
 SyntaxTreeVisitor
 =
 {

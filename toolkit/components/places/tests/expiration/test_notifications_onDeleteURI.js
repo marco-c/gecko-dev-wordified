@@ -125,7 +125,7 @@ notification
 .
 *
 /
-let
+var
 hs
 =
 Cc
@@ -154,7 +154,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 tests
 =
 [

@@ -44,12 +44,12 @@ models
 .
 *
 /
-let
+var
 BUFFER_SIZE
 =
 20000
 ;
-let
+var
 config
 =
 {

@@ -201,7 +201,7 @@ jsm
 "
 )
 ;
-let
+var
 navigatorBundle
 =
 Services
@@ -225,7 +225,7 @@ properties
 "
 )
 ;
-let
+var
 ss
 =
 Cc

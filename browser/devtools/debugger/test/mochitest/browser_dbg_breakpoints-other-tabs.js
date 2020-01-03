@@ -74,7 +74,7 @@ tabs
 html
 "
 ;
-let
+var
 test
 =
 Task

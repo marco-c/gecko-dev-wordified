@@ -83,7 +83,7 @@ context
 .
 *
 /
-let
+var
 gAudioNodes
 =
 new
@@ -208,7 +208,7 @@ events
 .
 *
 /
-let
+var
 WebAudioEditorController
 =
 {
@@ -1323,11 +1323,17 @@ editor
 /
 _onCreateNode
 :
+Task
+.
+async
+(
 function
+*
 (
 nodeActor
 )
 {
+yield
 gAudioNodes
 .
 add
@@ -1336,6 +1342,7 @@ nodeActor
 )
 ;
 }
+)
 /
 *
 *

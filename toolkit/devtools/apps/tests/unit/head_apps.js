@@ -199,7 +199,7 @@ front
 "
 )
 ;
-let
+var
 gClient
 gActor
 gActorFront

@@ -50,7 +50,7 @@ has
 opened
 first
 .
-let
+var
 toolbox
 =
 null

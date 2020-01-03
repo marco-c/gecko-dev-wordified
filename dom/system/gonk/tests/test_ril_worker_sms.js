@@ -921,7 +921,7 @@ run_next_test
 )
 ;
 }
-let
+var
 test_receiving_7bit_alphabets__worker
 ;
 function
@@ -1284,7 +1284,7 @@ len
 ;
 }
 }
-let
+var
 ucs2str
 =
 "

@@ -99,7 +99,7 @@ functionality
 .
 *
 /
-let
+var
 gDrop
 =
 {

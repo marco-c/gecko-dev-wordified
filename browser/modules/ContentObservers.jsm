@@ -199,7 +199,7 @@ jsm
 "
 )
 ;
-let
+var
 gEMEUIObserver
 =
 function

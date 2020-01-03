@@ -392,7 +392,7 @@ module
 .
 *
 /
-let
+var
 PrivacyLevel
 =
 Object

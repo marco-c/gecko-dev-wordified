@@ -48,7 +48,7 @@ cleanly
 .
 *
 /
-let
+var
 gTab
 gPanel
 gDebugger

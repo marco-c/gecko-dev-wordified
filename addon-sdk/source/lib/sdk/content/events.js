@@ -223,7 +223,7 @@ will
 be
 necessary
 .
-let
+var
 TYPES
 =
 [
@@ -241,7 +241,7 @@ pagehide
 "
 ]
 ;
-let
+var
 insert
 =
 observe
@@ -255,7 +255,7 @@ inserted
 "
 )
 ;
-let
+var
 windowCreate
 =
 merge
@@ -288,7 +288,7 @@ created
 ]
 )
 ;
-let
+var
 create
 =
 map
@@ -436,7 +436,7 @@ streamEventsFrom
 =
 streamEventsFrom
 ;
-let
+var
 opened
 =
 windows
@@ -449,7 +449,7 @@ true
 }
 )
 ;
-let
+var
 state
 =
 merge
@@ -462,7 +462,7 @@ streamEventsFrom
 )
 )
 ;
-let
+var
 futureReady
 =
 filter
@@ -483,7 +483,7 @@ DOMContentLoaded
 "
 )
 ;
-let
+var
 futureWindows
 =
 map
@@ -498,7 +498,7 @@ target
 target
 )
 ;
-let
+var
 futureState
 =
 expand

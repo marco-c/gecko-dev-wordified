@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 {
 FileUtils
 }
@@ -53,7 +53,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -79,7 +79,7 @@ jsm
 }
 )
 ;
-let
+var
 Pipe
 =
 CC
@@ -638,7 +638,7 @@ Handlers
 *
 *
 /
-let
+var
 replyHandlers
 =
 {
@@ -846,7 +846,7 @@ Tests
 *
 *
 /
-let
+var
 test_bulk_request_cs
 =
 Task
@@ -1191,7 +1191,7 @@ promise
 }
 )
 ;
-let
+var
 test_json_request_cs
 =
 Task

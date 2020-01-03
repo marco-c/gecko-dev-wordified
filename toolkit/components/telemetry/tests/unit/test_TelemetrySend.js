@@ -450,7 +450,7 @@ return
 id
 ;
 }
-let
+var
 checkPingsSaved
 =
 Task

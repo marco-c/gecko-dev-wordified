@@ -87,7 +87,7 @@ tabs
 '
 )
 ;
-let
+var
 closeEvents
 =
 0

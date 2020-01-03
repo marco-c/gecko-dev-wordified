@@ -181,7 +181,7 @@ core
 "
 )
 ;
-let
+var
 EventLoopLagActor
 =
 exports

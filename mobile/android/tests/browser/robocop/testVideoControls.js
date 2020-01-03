@@ -142,7 +142,7 @@ jsm
 The
 chrome
 window
-let
+var
 chromeWin
 ;
 /
@@ -157,7 +157,7 @@ the
 tests
 are
 happening
-let
+var
 browser
 ;
 /
@@ -169,7 +169,7 @@ the
 video_controls
 web
 content
-let
+var
 contentDocument
 ;
 /
@@ -182,7 +182,7 @@ we
 will
 be
 testing
-let
+var
 video
 ;
 add_test

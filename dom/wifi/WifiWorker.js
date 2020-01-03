@@ -12118,7 +12118,7 @@ s
 )
 ;
 }
-let
+var
 WifiNetworkInterface
 =
 {
@@ -12394,10 +12394,10 @@ objects
 much
 clearer
 .
-let
+var
 netToDOM
 ;
-let
+var
 netFromDOM
 ;
 function
@@ -25841,7 +25841,7 @@ WifiWorker
 ]
 )
 ;
-let
+var
 debug
 ;
 function

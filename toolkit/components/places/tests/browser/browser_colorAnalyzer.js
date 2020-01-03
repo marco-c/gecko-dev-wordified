@@ -173,7 +173,7 @@ when
 a
 test
 finishes
-let
+var
 tests
 =
 [
@@ -1923,7 +1923,7 @@ red
 }
 )
 ;
-let
+var
 maxPixels
 =
 144
@@ -2025,7 +2025,7 @@ t
 break
 anything
 )
-let
+var
 maxColor
 =
 Math

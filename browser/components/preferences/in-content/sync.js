@@ -273,7 +273,7 @@ FXA_LOGIN_FAILED
 =
 2
 ;
-let
+var
 gSyncPane
 =
 {

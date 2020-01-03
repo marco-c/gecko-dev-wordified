@@ -475,7 +475,7 @@ code
 .
 *
 /
-let
+var
 forcedExit
 =
 false
@@ -713,7 +713,7 @@ process
 html
 #
 process_process_stdout
-let
+var
 stdout
 =
 Object

@@ -995,7 +995,7 @@ new
 node
 *
 /
-let
+var
 selectNode
 =
 Task
@@ -1368,7 +1368,7 @@ Promise
 }
 *
 /
-let
+var
 waitForAnimationInspectorReady
 =
 Task
@@ -1539,7 +1539,7 @@ ready
 .
 *
 /
-let
+var
 openAnimationInspector
 =
 Task
@@ -1875,7 +1875,7 @@ closed
 .
 *
 /
-let
+var
 closeAnimationInspector
 =
 Task
@@ -2006,7 +2006,7 @@ ready
 .
 *
 /
-let
+var
 closeAnimationInspectorAndRestartWithNewUI
 =
 Task
@@ -2794,7 +2794,7 @@ playerWidget
 .
 *
 /
-let
+var
 togglePlayPauseButton
 =
 Task
@@ -3090,7 +3090,7 @@ passes
 .
 *
 /
-let
+var
 waitForStateCondition
 =
 Task
@@ -3375,7 +3375,7 @@ ran
 .
 *
 /
-let
+var
 checkPausedAt
 =
 Task
@@ -3542,7 +3542,7 @@ node
 .
 *
 /
-let
+var
 getAnimationPlayerState
 =
 Task
@@ -3673,7 +3673,7 @@ AnimationTargetNode
 instances
 *
 /
-let
+var
 waitForAllAnimationTargets
 =
 Task

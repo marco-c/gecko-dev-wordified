@@ -71,7 +71,7 @@ storage
 "
 )
 ;
-let
+var
 gWindow
 =
 null
@@ -1751,7 +1751,7 @@ cookiesActor
 )
 ;
 }
-let
+var
 testCookiesObjects
 =
 Task
@@ -2121,7 +2121,7 @@ localStorageActor
 )
 ;
 }
-let
+var
 testLocalStorageObjects
 =
 Task
@@ -2414,7 +2414,7 @@ sessionStorageActor
 )
 ;
 }
-let
+var
 testSessionStorageObjects
 =
 Task
@@ -2665,7 +2665,7 @@ sessionStorageActor
 }
 )
 ;
-let
+var
 testIndexedDB
 =
 Task
@@ -2865,7 +2865,7 @@ indexedDBActor
 }
 )
 ;
-let
+var
 testIndexedDBs
 =
 Task
@@ -3145,7 +3145,7 @@ indexedDBActor
 }
 )
 ;
-let
+var
 testObjectStores
 =
 Task
@@ -3623,7 +3623,7 @@ indexedDBActor
 }
 )
 ;
-let
+var
 testIDBEntries
 =
 Task

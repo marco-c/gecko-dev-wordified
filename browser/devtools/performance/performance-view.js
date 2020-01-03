@@ -75,7 +75,7 @@ tool
 .
 *
 /
-let
+var
 PerformanceView
 =
 {

@@ -1171,7 +1171,7 @@ nsIDownloadManagerUI
 /
 /
 Module
-let
+var
 components
 =
 [

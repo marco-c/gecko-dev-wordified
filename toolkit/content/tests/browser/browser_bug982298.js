@@ -35,10 +35,10 @@ Components
 .
 interfaces
 ;
-let
+var
 tab
 ;
-let
+var
 browser
 ;
 const

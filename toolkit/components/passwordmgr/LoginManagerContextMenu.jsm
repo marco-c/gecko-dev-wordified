@@ -164,7 +164,7 @@ menu
 .
 *
 /
-let
+var
 LoginManagerContextMenu
 =
 {

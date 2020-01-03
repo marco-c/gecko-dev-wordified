@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 HTTPROOT
 =
 "

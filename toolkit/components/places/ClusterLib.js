@@ -1542,7 +1542,7 @@ null
 }
 }
 ;
-let
+var
 clusterlib
 =
 {

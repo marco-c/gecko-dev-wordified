@@ -265,7 +265,7 @@ return
 true
 ;
 }
-let
+var
 tests
 =
 [
@@ -571,7 +571,7 @@ we
 running
 now
 ?
-let
+var
 idx
 =
 -

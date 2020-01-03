@@ -4868,7 +4868,7 @@ aURL
 }
 }
 ;
-let
+var
 PageThumbsStorageMigrator
 =
 {
@@ -5284,7 +5284,7 @@ THUMBNAIL_DIRECTORY
 }
 }
 ;
-let
+var
 PageThumbsExpiration
 =
 {
@@ -5571,7 +5571,7 @@ I
 O
 *
 /
-let
+var
 PageThumbsWorker
 =
 new
@@ -5642,7 +5642,7 @@ Error
 .
 fromMsg
 ;
-let
+var
 PageThumbsHistoryObserver
 =
 {

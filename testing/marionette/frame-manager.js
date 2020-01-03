@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -81,7 +81,7 @@ FrameManager
 "
 ]
 ;
-let
+var
 FRAME_SCRIPT
 =
 "
@@ -136,7 +136,7 @@ jsm
 "
 )
 ;
-let
+var
 loader
 =
 Cc
@@ -175,7 +175,7 @@ the
 frame
 script
 loaded
-let
+var
 remoteFrames
 =
 [

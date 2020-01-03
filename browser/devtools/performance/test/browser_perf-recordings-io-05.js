@@ -51,7 +51,7 @@ error
 .
 *
 /
-let
+var
 test
 =
 Task

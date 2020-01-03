@@ -128,13 +128,13 @@ jsm
 "
 )
 ;
-let
+var
 gLastHash
 =
 "
 "
 ;
-let
+var
 gCategoryInits
 =
 new

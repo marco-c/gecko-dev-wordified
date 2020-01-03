@@ -75,7 +75,7 @@ unstable
 "
 }
 ;
-let
+var
 unescape
 =
 decodeURIComponent

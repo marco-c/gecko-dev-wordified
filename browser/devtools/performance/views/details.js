@@ -86,7 +86,7 @@ them
 .
 *
 /
-let
+var
 DetailsView
 =
 {

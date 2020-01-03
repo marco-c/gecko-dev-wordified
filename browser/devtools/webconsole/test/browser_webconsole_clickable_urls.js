@@ -83,7 +83,7 @@ Clickable
 URLS
 "
 ;
-let
+var
 inputTests
 =
 [

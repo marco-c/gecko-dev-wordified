@@ -59,7 +59,7 @@ the
 -
 showall
 option
-let
+var
 TEST_PAGE
 =
 "

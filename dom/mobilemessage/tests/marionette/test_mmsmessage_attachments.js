@@ -62,7 +62,7 @@ enabled
 true
 )
 ;
-let
+var
 tasks
 =
 {
@@ -256,7 +256,7 @@ next
 }
 }
 ;
-let
+var
 manager
 ;
 function

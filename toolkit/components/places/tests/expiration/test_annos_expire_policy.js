@@ -163,7 +163,7 @@ after
 days
 *
 /
-let
+var
 as
 =
 Cc
@@ -264,7 +264,7 @@ lastModified
 .
 *
 /
-let
+var
 now
 =
 Date

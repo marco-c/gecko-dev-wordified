@@ -73,7 +73,7 @@ serving
 safebrowsing
 updates
 .
-let
+var
 gHttpServ
 =
 null
@@ -82,7 +82,7 @@ null
 /
 Global
 nsIUrlClassifierDBService
-let
+var
 gDbService
 =
 Cc
@@ -118,7 +118,7 @@ creating
 nsIPrincipals
 from
 URIs
-let
+var
 gSecMan
 =
 Cc
@@ -154,7 +154,7 @@ update
 redirect
 urls
 .
-let
+var
 gTables
 =
 {

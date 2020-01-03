@@ -93,7 +93,7 @@ Components
 .
 results
 ;
-let
+var
 WebRequestCommon
 =
 {

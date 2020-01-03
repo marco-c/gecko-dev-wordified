@@ -5124,7 +5124,7 @@ of
 a
 pita
 .
-let
+var
 haveLoginManager
 =
 #

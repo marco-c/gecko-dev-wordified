@@ -186,7 +186,7 @@ providing
 prefs
 innerHTML
 value
-let
+var
 gStringBundle
 =
 Services
@@ -210,7 +210,7 @@ properties
 "
 )
 ;
-let
+var
 gClipboardHelper
 =
 Cc

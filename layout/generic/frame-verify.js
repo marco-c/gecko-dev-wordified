@@ -133,7 +133,7 @@ return
 false
 ;
 }
-let
+var
 output
 =
 [
@@ -392,7 +392,7 @@ join
 }
 }
 }
-let
+var
 frameIIDRE
 =
 /
@@ -401,7 +401,7 @@ frameIIDRE
 kFrameIID
 /
 ;
-let
+var
 queryFrameRE
 =
 /
@@ -429,7 +429,7 @@ T
 used
 *
 /
-let
+var
 needIDs
 =
 [
@@ -449,7 +449,7 @@ kFrameIID
 declared
 *
 /
-let
+var
 haveIDs
 =
 {

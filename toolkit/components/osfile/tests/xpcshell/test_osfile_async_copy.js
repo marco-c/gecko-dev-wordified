@@ -163,7 +163,7 @@ reading
 .
 *
 /
-let
+var
 EXISTING_FILE
 =
 "
@@ -235,7 +235,7 @@ file
 .
 *
 /
-let
+var
 reference_fetch_file
 =
 function
@@ -445,7 +445,7 @@ null
 }
 *
 /
-let
+var
 reference_compare_files
 =
 function

@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -136,15 +136,15 @@ newRILSystemMessenger
 .
 *
 /
-let
+var
 RSM
 ;
-let
+var
 gReceivedMsgType
 =
 null
 ;
-let
+var
 gReceivedMessage
 =
 null

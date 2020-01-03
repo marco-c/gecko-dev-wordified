@@ -191,7 +191,7 @@ things
 are
 peachy
 .
-let
+var
 CrashObserver
 =
 {
@@ -866,7 +866,7 @@ uri
 )
 ;
 }
-let
+var
 loadTestTab
 =
 Task
@@ -952,7 +952,7 @@ then
 reloading
 the
 tab
-let
+var
 restart
 =
 Task

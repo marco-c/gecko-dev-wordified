@@ -92,7 +92,7 @@ html
 >
 "
 ;
-let
+var
 {
 Toolbox
 }
@@ -108,7 +108,7 @@ toolbox
 "
 )
 ;
-let
+var
 target
 toolbox
 description

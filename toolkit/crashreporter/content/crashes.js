@@ -1057,7 +1057,7 @@ row
 ;
 }
 }
-let
+var
 clearReports
 =
 Task

@@ -60,7 +60,7 @@ now
 *
 1000
 ;
-let
+var
 observer
 =
 {

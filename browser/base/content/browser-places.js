@@ -7327,7 +7327,7 @@ toolbar
 .
 *
 /
-let
+var
 PlacesToolbarHelper
 =
 {
@@ -8298,7 +8298,7 @@ toolbar
 .
 *
 /
-let
+var
 BookmarkingUI
 =
 {

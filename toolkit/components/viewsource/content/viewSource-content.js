@@ -267,7 +267,7 @@ MARK_SELECTION_END
 uFDEF
 "
 ;
-let
+var
 global
 =
 this
@@ -304,7 +304,7 @@ loaded
 .
 *
 /
-let
+var
 ViewSourceContent
 =
 {

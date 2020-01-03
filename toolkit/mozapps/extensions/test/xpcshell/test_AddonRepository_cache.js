@@ -80,7 +80,7 @@ js
 "
 )
 ;
-let
+var
 gServer
 ;
 const
@@ -3461,7 +3461,7 @@ spec
 }
 ]
 ;
-let
+var
 gDBFile
 =
 gProfD

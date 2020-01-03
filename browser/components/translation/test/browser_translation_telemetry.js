@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-let
+var
 tmp
 =
 {
@@ -60,7 +60,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 Translation
 TranslationTelemetry
@@ -75,7 +75,7 @@ Services
 .
 telemetry
 ;
-let
+var
 MetricsChecker
 =
 {
@@ -768,7 +768,7 @@ anonid
 )
 ;
 }
-let
+var
 offerTranslationFor
 =
 Task
@@ -864,7 +864,7 @@ tab
 }
 )
 ;
-let
+var
 acceptTranslationOffer
 =
 Task
@@ -910,7 +910,7 @@ Finished
 }
 )
 ;
-let
+var
 translate
 =
 Task

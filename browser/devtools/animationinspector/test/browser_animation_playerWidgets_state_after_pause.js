@@ -73,7 +73,7 @@ time
 is
 displayed
 .
-let
+var
 L10N
 =
 new

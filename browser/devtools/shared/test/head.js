@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 {
 require
 }
@@ -84,7 +84,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -100,7 +100,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -128,7 +128,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -1015,7 +1015,7 @@ false
 )
 ;
 }
-let
+var
 createHost
 =
 Task
@@ -2050,7 +2050,7 @@ Promise
 }
 *
 /
-let
+var
 showFilterPopupPresetsAndCreatePreset
 =
 Task

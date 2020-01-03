@@ -449,7 +449,7 @@ docshells
 .
 *
 /
-let
+var
 Timeline
 =
 exports

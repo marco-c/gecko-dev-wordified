@@ -99,7 +99,7 @@ modal
 "
 ]
 ;
-let
+var
 isFirefox
 =
 (

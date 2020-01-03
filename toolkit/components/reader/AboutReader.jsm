@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 Ci
 =
 Components
@@ -221,7 +221,7 @@ READINGLIST_COMMAND_ID
 readingListSidebar
 "
 ;
-let
+var
 gStrings
 =
 Services
@@ -245,7 +245,7 @@ properties
 "
 )
 ;
-let
+var
 AboutReader
 =
 function

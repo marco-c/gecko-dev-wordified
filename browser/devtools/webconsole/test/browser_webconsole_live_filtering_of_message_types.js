@@ -122,7 +122,7 @@ console
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -293,7 +293,7 @@ log
 sensitive
 "
 ;
-let
+var
 exports
 =
 Object

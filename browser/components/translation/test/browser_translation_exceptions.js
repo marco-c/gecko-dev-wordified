@@ -70,7 +70,7 @@ Translation
 '
 implementation
 .
-let
+var
 tmp
 =
 {
@@ -117,7 +117,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 Translation
 Promise
@@ -671,7 +671,7 @@ deferred
 promise
 ;
 }
-let
+var
 gTests
 =
 [

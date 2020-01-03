@@ -141,7 +141,7 @@ framerate
 js
 *
 /
-let
+var
 Framerate
 =
 exports

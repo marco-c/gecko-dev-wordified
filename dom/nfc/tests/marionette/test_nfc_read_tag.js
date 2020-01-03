@@ -39,7 +39,7 @@ head
 js
 "
 ;
-let
+var
 url
 =
 "
@@ -551,7 +551,7 @@ T4T_RE_INDEX
 )
 ;
 }
-let
+var
 tests
 =
 [

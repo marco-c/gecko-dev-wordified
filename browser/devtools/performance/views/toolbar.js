@@ -79,7 +79,7 @@ triggering
 )
 *
 /
-let
+var
 ToolbarView
 =
 {

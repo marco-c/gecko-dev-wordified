@@ -539,7 +539,7 @@ false
 )
 ;
 }
-let
+var
 TelemetryArchiveImpl
 =
 {

@@ -77,7 +77,7 @@ DetailsView
 .
 *
 /
-let
+var
 MemoryCallTreeView
 =
 Heritage

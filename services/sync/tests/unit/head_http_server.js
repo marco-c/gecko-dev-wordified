@@ -3339,7 +3339,7 @@ appropriate
 .
 *
 /
-let
+var
 SyncServerCallback
 =
 {

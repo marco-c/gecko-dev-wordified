@@ -265,7 +265,7 @@ etc
 .
 *
 /
-let
+var
 FunctionCallActor
 =
 protocol
@@ -1605,7 +1605,7 @@ FunctionCallActor
 .
 *
 /
-let
+var
 FunctionCallFront
 =
 protocol
@@ -1750,7 +1750,7 @@ globals
 .
 *
 /
-let
+var
 CallWatcherActor
 =
 exports
@@ -3806,7 +3806,7 @@ CallWatcherActor
 .
 *
 /
-let
+var
 CallWatcherFront
 =
 exports

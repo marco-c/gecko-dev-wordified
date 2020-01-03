@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -52,7 +52,7 @@ Set
 Alarm
 ]
 ]
-let
+var
 alarmsMap
 =
 new
@@ -69,7 +69,7 @@ Extension
 >
 callback
 ]
-let
+var
 alarmCallbacksMap
 =
 new

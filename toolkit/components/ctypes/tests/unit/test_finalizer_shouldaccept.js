@@ -57,7 +57,7 @@ e
 )
 {
 }
-let
+var
 acquire
 dispose
 reset_errno

@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -92,7 +92,7 @@ UITOUR_PERMISSION
 uitour
 "
 ;
-let
+var
 UITourListener
 =
 {

@@ -187,7 +187,7 @@ general
 /
 "
 ;
-let
+var
 gTestBrowser
 =
 null

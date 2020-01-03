@@ -90,7 +90,7 @@ etc
 .
 *
 /
-let
+var
 CallsListView
 =
 Heritage

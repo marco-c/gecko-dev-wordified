@@ -22,7 +22,7 @@ command
 line
 option
 .
-let
+var
 runAppObj
 ;
 window

@@ -93,7 +93,7 @@ MPL
 .
 *
 /
-let
+var
 gTabRestrictChar
 =
 "

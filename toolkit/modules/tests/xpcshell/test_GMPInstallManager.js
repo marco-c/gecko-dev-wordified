@@ -60,7 +60,7 @@ http
 localhost
 "
 ;
-let
+var
 GMPScope
 =
 Cu

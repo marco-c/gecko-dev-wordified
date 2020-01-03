@@ -28,7 +28,7 @@ com
 /
 "
 ;
-let
+var
 promiseAsyncGetBookmarkIds
 =
 Task

@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-let
+var
 {
 require
 }
@@ -62,7 +62,7 @@ jsm
 }
 )
 ;
-let
+var
 TiltManager
 =
 require
@@ -78,7 +78,7 @@ tilt
 .
 TiltManager
 ;
-let
+var
 TiltGL
 =
 require
@@ -94,7 +94,7 @@ gl
 "
 )
 ;
-let
+var
 {
 EPSILON
 TiltMath
@@ -117,7 +117,7 @@ math
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -133,7 +133,7 @@ utils
 "
 )
 ;
-let
+var
 {
 TiltVisualizer
 }
@@ -151,7 +151,7 @@ visualizer
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -165,11 +165,8 @@ DevToolsUtils
 "
 )
 ;
-let
-{
-getRect
-getIframeContentOffset
-}
+var
+LayoutHelpers
 =
 require
 (
@@ -179,8 +176,8 @@ devtools
 toolkit
 /
 layout
-/
-utils
+-
+helpers
 "
 )
 ;
@@ -437,7 +434,7 @@ html
 >
 "
 ;
-let
+var
 Tilt
 =
 TiltManager

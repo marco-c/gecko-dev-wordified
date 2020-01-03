@@ -132,7 +132,7 @@ head_helpers
 .
 js
 .
-let
+var
 gGlobalScope
 =
 this

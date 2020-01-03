@@ -80,13 +80,13 @@ changes
 js
 "
 ;
-let
+var
 gTab
 gDebuggee
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 ;

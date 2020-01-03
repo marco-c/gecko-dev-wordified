@@ -208,7 +208,7 @@ js
 "
 ;
 }
-let
+var
 ast0
 =
 ast
@@ -219,7 +219,7 @@ scriptArgs
 ]
 )
 ;
-let
+var
 ast1
 =
 ast

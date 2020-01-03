@@ -369,7 +369,7 @@ a
 given
 component
 .
-let
+var
 NotificationTracker
 =
 {
@@ -1051,7 +1051,7 @@ to
 the
 child
 .
-let
+var
 ContentPolicyChild
 =
 {
@@ -2222,7 +2222,7 @@ nsIAboutModule
 )
 }
 ;
-let
+var
 AboutProtocolChild
 =
 {
@@ -2474,7 +2474,7 @@ the
 given
 topic
 .
-let
+var
 ObserverChild
 =
 {
@@ -3221,7 +3221,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 RemoteAddonsChild
 =
 {

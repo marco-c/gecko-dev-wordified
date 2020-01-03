@@ -144,7 +144,7 @@ jsm
 this
 )
 ;
-let
+var
 {
 Path
 File
@@ -153,10 +153,10 @@ Constants
 =
 OS
 ;
-let
+var
 PATH
 ;
-let
+var
 HISTOGRAMS
 =
 {

@@ -208,7 +208,7 @@ general
 Preference
 helpers
 .
-let
+var
 changedPrefs
 =
 new
@@ -281,7 +281,7 @@ name
 }
 )
 ;
-let
+var
 gTests
 =
 [

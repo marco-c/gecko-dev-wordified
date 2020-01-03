@@ -27,10 +27,10 @@ zero
 /
 *
 /
-let
+var
 fadeAwayUndoButtonDelay
 ;
-let
+var
 fadeAwayUndoButtonDuration
 ;
 function

@@ -54,7 +54,7 @@ addons
 ]
 )
 ;
-let
+var
 phases
 =
 {

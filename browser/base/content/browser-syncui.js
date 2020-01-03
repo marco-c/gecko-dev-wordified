@@ -100,7 +100,7 @@ jsm
 ;
 #
 else
-let
+var
 CloudSync
 =
 null
@@ -119,7 +119,7 @@ and
 displaying
 notifications
 .
-let
+var
 gSyncUI
 =
 {

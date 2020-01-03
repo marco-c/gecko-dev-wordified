@@ -191,7 +191,7 @@ emit
 true
 )
 ;
-let
+var
 TEST_URL_ROOT
 =
 "
@@ -215,7 +215,7 @@ test
 /
 "
 ;
-let
+var
 ROOT_TEST_DIR
 =
 getRootDirectory
@@ -233,7 +233,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 {
 require
 }
@@ -261,7 +261,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -277,7 +277,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -305,7 +305,7 @@ jsm
 }
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -319,7 +319,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -336,7 +336,7 @@ the
 GCLI
 test
 helper
-let
+var
 testDir
 =
 gTestPath
@@ -657,7 +657,7 @@ is
 loaded
 *
 /
-let
+var
 addTab
 =
 Task
@@ -749,7 +749,7 @@ tab
 }
 )
 ;
-let
+var
 navigateTo
 =
 function
@@ -1231,7 +1231,7 @@ new
 node
 *
 /
-let
+var
 selectNode
 =
 Task
@@ -1373,7 +1373,7 @@ inspector
 .
 *
 /
-let
+var
 openInspectorForURL
 =
 Task
@@ -1481,7 +1481,7 @@ is
 ready
 *
 /
-let
+var
 openInspector
 =
 Task
@@ -1986,7 +1986,7 @@ new
 node
 *
 /
-let
+var
 getNodeFrontInFrame
 =
 Task
@@ -2229,7 +2229,7 @@ modifiers
 )
 ;
 }
-let
+var
 focusSearchBoxUsingShortcut
 =
 Task
@@ -2421,7 +2421,7 @@ MarkupContainer
 }
 *
 /
-let
+var
 getContainerForSelector
 =
 Task
@@ -2565,7 +2565,7 @@ corresponding
 node
 *
 /
-let
+var
 hoverContainer
 =
 Task
@@ -2727,7 +2727,7 @@ selected
 .
 *
 /
-let
+var
 clickContainer
 =
 Task

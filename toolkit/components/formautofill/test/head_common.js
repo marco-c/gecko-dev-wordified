@@ -304,7 +304,7 @@ sharing
 more
 code
 .
-let
+var
 TestUtils
 =
 {
@@ -1134,7 +1134,7 @@ helpers
 -
 *
 /
-let
+var
 FormAutofillTest
 =
 {
@@ -1358,7 +1358,7 @@ promiseResult
 )
 }
 ;
-let
+var
 TestData
 =
 {

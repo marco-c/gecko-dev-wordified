@@ -33,12 +33,12 @@ use
 strict
 "
 ;
-let
+var
 test1Complete
 =
 false
 ;
-let
+var
 test2Complete
 =
 false

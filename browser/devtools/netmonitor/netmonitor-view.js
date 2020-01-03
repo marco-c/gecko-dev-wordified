@@ -597,7 +597,7 @@ components
 .
 *
 /
-let
+var
 NetMonitorView
 =
 {
@@ -25266,7 +25266,7 @@ helper
 .
 *
 /
-let
+var
 =
 (
 aSelector
@@ -25283,7 +25283,7 @@ querySelector
 aSelector
 )
 ;
-let
+var
 all
 =
 (

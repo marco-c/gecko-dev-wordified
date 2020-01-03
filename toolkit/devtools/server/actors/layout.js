@@ -345,7 +345,7 @@ them
 .
 *
 /
-let
+var
 ReflowActor
 =
 exports
@@ -1357,7 +1357,7 @@ sync
 reflow
 *
 /
-let
+var
 gIgnoreLayoutChanges
 =
 false
@@ -2195,7 +2195,7 @@ LayoutChangesObserver
 }
 *
 /
-let
+var
 observedWindows
 =
 new

@@ -109,7 +109,7 @@ Components
 .
 manager
 ;
-let
+var
 promptService
 =
 {
@@ -248,7 +248,7 @@ _buttonChoice
 }
 }
 ;
-let
+var
 mockCID
 =
 MockRegistrar

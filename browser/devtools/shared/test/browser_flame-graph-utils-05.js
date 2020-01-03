@@ -44,7 +44,7 @@ may
 be
 cleared
 .
-let
+var
 {
 FlameGraphUtils
 }
@@ -201,7 +201,7 @@ anymore
 )
 ;
 }
-let
+var
 TEST_DATA
 =
 synthesizeProfileForTest

@@ -822,7 +822,7 @@ download
 "
 )
 ;
-let
+var
 PrefObserver
 =
 {

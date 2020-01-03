@@ -140,7 +140,7 @@ nsIEventListenerService
 }
 )
 ;
-let
+var
 parsers
 =
 [

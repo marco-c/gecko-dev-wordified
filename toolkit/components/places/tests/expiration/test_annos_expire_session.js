@@ -125,7 +125,7 @@ ends
 .
 *
 /
-let
+var
 as
 =
 Cc

@@ -286,7 +286,7 @@ the
 public
 API
 .
-let
+var
 cache
 =
 new
@@ -294,7 +294,7 @@ Set
 (
 )
 ;
-let
+var
 elements
 =
 new

@@ -136,7 +136,7 @@ sites
 .
 *
 /
-let
+var
 gGrid
 =
 {

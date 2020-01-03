@@ -242,12 +242,12 @@ index
 already
 exists
 .
-let
+var
 COOKIE_DATABASE_SCHEMA_CURRENT
 =
 5
 ;
-let
+var
 test_generator
 =
 do_run_test

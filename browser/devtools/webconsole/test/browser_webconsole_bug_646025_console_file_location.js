@@ -169,7 +169,7 @@ location
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

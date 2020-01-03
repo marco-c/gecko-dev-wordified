@@ -87,7 +87,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 emit
 }
@@ -101,7 +101,7 @@ core
 "
 )
 ;
-let
+var
 {
 when
 :
@@ -120,7 +120,7 @@ unload
 "
 )
 ;
-let
+var
 listeners
 =
 new
@@ -128,7 +128,7 @@ Map
 (
 )
 ;
-let
+var
 getWindowFrom
 =
 x

@@ -19,12 +19,12 @@ Components
 .
 results
 ;
-let
+var
 testnum
 =
 0
 ;
-let
+var
 factory
 ;
 function
@@ -438,7 +438,7 @@ run_test
 {
 try
 {
-let
+var
 testdata
 =
 [
@@ -2017,7 +2017,7 @@ a
 new
 file
 .
-let
+var
 newfile
 =
 do_get_file
@@ -2065,7 +2065,7 @@ exists
 )
 )
 ;
-let
+var
 parser
 =
 factory
@@ -2355,7 +2355,7 @@ to
 set
 illegal
 characters
-let
+var
 caughtError
 ;
 caughtError

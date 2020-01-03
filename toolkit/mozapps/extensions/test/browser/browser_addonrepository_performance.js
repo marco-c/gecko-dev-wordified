@@ -39,7 +39,7 @@ includes
 startup
 time
 measurements
-let
+var
 tmp
 =
 {
@@ -69,7 +69,7 @@ jsm
 tmp
 )
 ;
-let
+var
 AddonRepository
 =
 tmp

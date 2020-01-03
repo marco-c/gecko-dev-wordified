@@ -58,7 +58,7 @@ Gecko
 0
 )
 .
-let
+var
 test_generator
 =
 do_run_test

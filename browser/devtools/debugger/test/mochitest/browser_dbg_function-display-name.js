@@ -71,7 +71,7 @@ name
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger

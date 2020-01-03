@@ -138,7 +138,7 @@ reset
 .
 *
 /
-let
+var
 iter
 =
 tests

@@ -152,7 +152,7 @@ nsIXULRuntime
 .
 XPCOMABI
 ;
-let
+var
 gProfileDir
 =
 null

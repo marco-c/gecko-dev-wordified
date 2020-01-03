@@ -1356,7 +1356,7 @@ private
 weak
 map
 .
-let
+var
 principals
 =
 new

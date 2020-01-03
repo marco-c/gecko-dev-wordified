@@ -729,12 +729,12 @@ frame
 )
 ;
 }
-let
+var
 FRAME_ID
 =
 0
 ;
-let
+var
 tabMap
 =
 new
@@ -1754,7 +1754,7 @@ args
 }
 )
 ;
-let
+var
 frames
 =
 exports

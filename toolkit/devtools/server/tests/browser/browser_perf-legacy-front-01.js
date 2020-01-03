@@ -45,7 +45,7 @@ actors
 .
 *
 /
-let
+var
 WAIT_TIME
 =
 100

@@ -57,14 +57,14 @@ addon3
 xpi
 "
 ;
-let
+var
 gAddon
 gClient
 gThreadClient
 gDebugger
 gSources
 ;
-let
+var
 PREFS
 =
 [

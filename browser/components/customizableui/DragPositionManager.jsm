@@ -81,7 +81,7 @@ jsm
 "
 )
 ;
-let
+var
 gManagers
 =
 new
@@ -3131,7 +3131,7 @@ rv
 ;
 }
 }
-let
+var
 DragPositionManager
 =
 {

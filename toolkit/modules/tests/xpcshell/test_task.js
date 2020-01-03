@@ -2737,7 +2737,7 @@ restored
 by
 exit_stack_tests
 .
-let
+var
 maintainStack
 ;
 add_test

@@ -41,7 +41,7 @@ width
 or
 height
 .
-let
+var
 LineGraphWidget
 =
 require

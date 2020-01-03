@@ -182,7 +182,7 @@ Function
 }
 *
 /
-let
+var
 mockResponse
 =
 function
@@ -276,7 +276,7 @@ Function
 }
 *
 /
-let
+var
 mockResponseError
 =
 function
@@ -318,7 +318,7 @@ error
 ;
 }
 ;
-let
+var
 mockClient
 =
 function
@@ -413,7 +413,7 @@ ACCOUNT_DATA
 }
 }
 ;
-let
+var
 mockFxa
 =
 function

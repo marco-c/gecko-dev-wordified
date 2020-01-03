@@ -225,7 +225,7 @@ DATA_VERSION
 =
 1
 ;
-let
+var
 ClientRecord
 =
 function
@@ -326,7 +326,7 @@ name
 }
 }
 ;
-let
+var
 TabRecord
 =
 function
@@ -468,7 +468,7 @@ lastUsed
 }
 }
 ;
-let
+var
 TabCache
 =
 function

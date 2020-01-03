@@ -32,12 +32,12 @@ MARIONETTE_TIMEOUT
 =
 10000
 ;
-let
+var
 receivedEvent
 =
 false
 ;
-let
+var
 expectedEvent
 ;
 function

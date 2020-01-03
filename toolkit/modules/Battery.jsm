@@ -288,7 +288,7 @@ of
 each
 field
 .
-let
+var
 gFakeBattery
 =
 {

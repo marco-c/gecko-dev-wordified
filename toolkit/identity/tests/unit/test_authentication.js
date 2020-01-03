@@ -836,7 +836,7 @@ err
 }
 ;
 }
-let
+var
 TESTS
 =
 [

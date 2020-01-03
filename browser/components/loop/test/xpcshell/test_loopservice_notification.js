@@ -83,7 +83,7 @@ jsm
 "
 )
 ;
-let
+var
 openChatOrig
 =
 Chat

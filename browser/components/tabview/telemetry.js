@@ -68,7 +68,7 @@ Tabview
 .
 *
 /
-let
+var
 Telemetry
 =
 {

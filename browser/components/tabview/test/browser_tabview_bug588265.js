@@ -27,10 +27,10 @@ zero
 /
 *
 /
-let
+var
 contentWindow
 ;
-let
+var
 groupItemTwoId
 ;
 function

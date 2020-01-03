@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 ss
 =
 Cc
@@ -52,7 +52,7 @@ Ci
 nsISessionStore
 )
 ;
-let
+var
 stateBackup
 =
 ss

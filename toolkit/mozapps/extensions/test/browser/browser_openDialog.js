@@ -53,7 +53,7 @@ protocol
 for
 optionsURL
 .
-let
+var
 CustomChromeProtocol
 =
 {

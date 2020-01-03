@@ -360,7 +360,7 @@ executed
 .
 *
 /
-let
+var
 ServerLoggingListener
 =
 Class

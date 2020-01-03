@@ -207,7 +207,7 @@ netErrorURL
 spec
 ;
 }
-let
+var
 modules
 =
 {

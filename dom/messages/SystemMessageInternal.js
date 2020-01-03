@@ -251,7 +251,7 @@ a
 given
 page
 .
-let
+var
 kMaxPendingMessages
 ;
 try
@@ -387,7 +387,7 @@ n
 )
 ;
 }
-let
+var
 defaultMessageConfigurator
 =
 {

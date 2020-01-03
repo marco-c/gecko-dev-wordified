@@ -1487,7 +1487,7 @@ cryptoSegment
 ;
 }
 ;
-let
+var
 TESTS
 =
 [

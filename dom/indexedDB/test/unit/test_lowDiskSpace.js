@@ -35,7 +35,7 @@ use
 strict
 "
 ;
-let
+var
 disableWorkerTest
 =
 "

@@ -116,7 +116,7 @@ chrome
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -166,7 +166,7 @@ Jones
 .
 *
 /
-let
+var
 EPSILON
 =
 0
@@ -223,7 +223,7 @@ Vector
 .
 *
 /
-let
+var
 vec3
 =
 {
@@ -3015,7 +3015,7 @@ Matrix
 .
 *
 /
-let
+var
 mat3
 =
 {
@@ -4032,7 +4032,7 @@ Matrix
 .
 *
 /
-let
+var
 mat4
 =
 {
@@ -12258,7 +12258,7 @@ Quaternion
 .
 *
 /
-let
+var
 quat4
 =
 {
@@ -15432,7 +15432,7 @@ engine
 .
 *
 /
-let
+var
 TiltMath
 =
 {

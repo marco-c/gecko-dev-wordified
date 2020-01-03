@@ -34,7 +34,7 @@ MARIONETTE_CONTEXT
 chrome
 "
 ;
-let
+var
 XPCOMUtils
 =
 Cu
@@ -58,7 +58,7 @@ jsm
 .
 XPCOMUtils
 ;
-let
+var
 Promise
 =
 Cu
@@ -82,7 +82,7 @@ jsm
 .
 Promise
 ;
-let
+var
 mobileConnectionService
 =
 Cc
@@ -122,7 +122,7 @@ mobileConnectionService
 constructor
 )
 ;
-let
+var
 _pendingEmulatorShellCmdCount
 =
 0

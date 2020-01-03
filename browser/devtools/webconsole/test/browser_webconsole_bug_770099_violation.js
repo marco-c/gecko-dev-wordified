@@ -202,7 +202,7 @@ com
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

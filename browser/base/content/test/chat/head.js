@@ -64,7 +64,7 @@ for
 Chat
 tests
 .
-let
+var
 Chat
 =
 Cu

@@ -321,7 +321,7 @@ APPLY_TIMEOUT
 =
 10
 ;
-let
+var
 browser
 =
 Services
@@ -355,7 +355,7 @@ browser
 )
 ;
 }
-let
+var
 shell
 =
 browser
@@ -529,7 +529,7 @@ nsIUpdatePrompt
 )
 ;
 }
-let
+var
 oldPrefs
 =
 {
@@ -1305,7 +1305,7 @@ break
 ;
 }
 }
-let
+var
 updateArgs
 ;
 if

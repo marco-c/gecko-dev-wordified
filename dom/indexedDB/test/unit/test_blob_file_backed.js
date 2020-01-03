@@ -30,7 +30,7 @@ zero
 /
 *
 /
-let
+var
 disableWorkerTest
 =
 "
@@ -40,7 +40,7 @@ uses
 SpecialPowers
 "
 ;
-let
+var
 testGenerator
 =
 testSteps

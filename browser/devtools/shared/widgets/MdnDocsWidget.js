@@ -2539,7 +2539,7 @@ prototype
 {
 }
 ;
-let
+var
 l10n
 =
 new

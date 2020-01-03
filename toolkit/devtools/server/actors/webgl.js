@@ -242,7 +242,7 @@ state
 .
 *
 /
-let
+var
 ShaderActor
 =
 protocol
@@ -604,7 +604,7 @@ ShaderActor
 .
 *
 /
-let
+var
 ShaderFront
 =
 protocol
@@ -676,7 +676,7 @@ shader
 .
 *
 /
-let
+var
 ProgramActor
 =
 protocol
@@ -1314,7 +1314,7 @@ ProgramActor
 .
 *
 /
-let
+var
 ProgramFront
 =
 protocol
@@ -1394,7 +1394,7 @@ setup
 .
 *
 /
-let
+var
 WebGLActor
 =
 exports
@@ -2650,7 +2650,7 @@ WebGLActor
 .
 *
 /
-let
+var
 WebGLFront
 =
 exports
@@ -2718,7 +2718,7 @@ methods
 .
 *
 /
-let
+var
 WebGLInstrumenter
 =
 {

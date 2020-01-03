@@ -62,7 +62,7 @@ use
 strict
 "
 ;
-let
+var
 gSubDialog
 =
 {

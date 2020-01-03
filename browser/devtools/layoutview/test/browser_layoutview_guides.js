@@ -196,7 +196,7 @@ encodeURIComponent
 HTML
 )
 ;
-let
+var
 highlightedNodeFront
 highlighterOptions
 ;

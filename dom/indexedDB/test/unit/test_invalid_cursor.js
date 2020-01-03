@@ -30,7 +30,7 @@ zero
 /
 *
 /
-let
+var
 disableWorkerTest
 =
 "
@@ -47,7 +47,7 @@ worker
 tests
 "
 ;
-let
+var
 testGenerator
 =
 testSteps

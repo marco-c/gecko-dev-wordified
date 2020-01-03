@@ -277,7 +277,7 @@ require
 )
 ;
 }
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -334,7 +334,7 @@ last
 .
 *
 /
-let
+var
 basename
 =
 function
@@ -429,7 +429,7 @@ return
 .
 *
 /
-let
+var
 dirname
 =
 function
@@ -643,7 +643,7 @@ bar
 .
 *
 /
-let
+var
 join
 =
 function
@@ -793,7 +793,7 @@ unneeded
 .
 *
 /
-let
+var
 normalize
 =
 function
@@ -1093,7 +1093,7 @@ informations
 .
 *
 /
-let
+var
 split
 =
 function
@@ -1182,7 +1182,7 @@ doesn
 t
 matter
 .
-let
+var
 toFileURIExtraEncodings
 =
 {
@@ -1212,7 +1212,7 @@ toFileURIExtraEncodings
 '
 }
 ;
-let
+var
 toFileURI
 =
 function
@@ -1323,7 +1323,7 @@ URI
 .
 *
 /
-let
+var
 fromFileURI
 =
 function

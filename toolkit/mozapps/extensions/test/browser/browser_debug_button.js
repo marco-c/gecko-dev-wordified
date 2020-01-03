@@ -42,7 +42,7 @@ list
 view
 *
 /
-let
+var
 {
 Promise
 }
@@ -70,7 +70,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }

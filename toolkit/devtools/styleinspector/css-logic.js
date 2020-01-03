@@ -442,9 +442,7 @@ DevToolsUtils
 )
 ;
 const
-{
-getRootBindingParent
-}
+LayoutHelpers
 =
 require
 (
@@ -454,12 +452,12 @@ devtools
 toolkit
 /
 layout
-/
-utils
+-
+helpers
 "
 )
 ;
-let
+var
 pseudos
 =
 new
@@ -716,9 +714,9 @@ Cu
 importGlobalProperties
 (
 [
-"
+'
 CSS
-"
+'
 ]
 )
 ;
@@ -5929,6 +5927,8 @@ ele
 {
 ele
 =
+LayoutHelpers
+.
 getRootBindingParent
 (
 ele

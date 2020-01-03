@@ -1622,7 +1622,7 @@ aError
 ;
 }
 }
-let
+var
 Activities
 =
 {

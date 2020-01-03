@@ -49,7 +49,7 @@ js
 "
 )
 ;
-let
+var
 gSubject
 =
 {

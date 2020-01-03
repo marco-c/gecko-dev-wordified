@@ -207,7 +207,7 @@ n
 )
 ;
 }
-let
+var
 LogCapture
 =
 {

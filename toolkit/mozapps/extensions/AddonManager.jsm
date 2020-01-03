@@ -898,7 +898,7 @@ PARENT_LOGGER_ID
 addons
 "
 ;
-let
+var
 parentLogger
 =
 Log
@@ -920,7 +920,7 @@ Level
 .
 Warn
 ;
-let
+var
 formatter
 =
 new
@@ -1027,7 +1027,7 @@ addons
 manager
 "
 ;
-let
+var
 logger
 =
 Log

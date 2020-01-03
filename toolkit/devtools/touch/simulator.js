@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 }
@@ -73,7 +73,7 @@ chrome
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -106,7 +106,7 @@ content
 js
 "
 ;
-let
+var
 trackedBrowsers
 =
 new
@@ -114,7 +114,7 @@ WeakMap
 (
 )
 ;
-let
+var
 savedTouchEventsEnabled
 =
 Services

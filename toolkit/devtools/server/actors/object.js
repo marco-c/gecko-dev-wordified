@@ -10311,12 +10311,12 @@ found
 inside
 itself
 .
-let
+var
 seen
 =
 null
 ;
-let
+var
 stringifiers
 =
 {

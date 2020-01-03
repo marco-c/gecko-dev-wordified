@@ -302,7 +302,7 @@ require
 =
 require
 ;
-let
+var
 math
 =
 require

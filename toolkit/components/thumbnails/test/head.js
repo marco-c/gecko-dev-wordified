@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 tmp
 =
 {
@@ -154,7 +154,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 PageThumbs
 BackgroundPageThumbs
@@ -190,7 +190,7 @@ jsm
 "
 )
 ;
-let
+var
 oldEnabledPref
 =
 Services
@@ -317,7 +317,7 @@ tests
 .
 *
 /
-let
+var
 TestRunner
 =
 {

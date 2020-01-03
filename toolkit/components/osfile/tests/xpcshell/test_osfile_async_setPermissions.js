@@ -294,7 +294,7 @@ is
 first
 created
 .
-let
+var
 testSequence
 =
 [

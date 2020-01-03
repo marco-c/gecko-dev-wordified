@@ -87,7 +87,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 log
 }

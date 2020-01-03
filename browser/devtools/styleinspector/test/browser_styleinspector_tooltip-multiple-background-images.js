@@ -88,7 +88,7 @@ be
 multiple
 urls
 .
-let
+var
 YELLOW_DOT
 =
 "
@@ -123,7 +123,7 @@ j
 n6EeAAd9An7Z55GEAAAAAElFTkSuQmCC
 "
 ;
-let
+var
 BLUE_DOT
 =
 "

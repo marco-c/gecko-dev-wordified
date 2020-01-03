@@ -115,7 +115,7 @@ pre
 blockquote
 >
 ;
-let
+var
 PREF_UA_STYLES
 =
 "

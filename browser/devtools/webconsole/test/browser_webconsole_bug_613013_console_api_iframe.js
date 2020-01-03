@@ -138,7 +138,7 @@ iframe
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -214,7 +214,7 @@ we
 optimize
 for
 )
-let
+var
 quickExpr
 =
 /
@@ -259,7 +259,7 @@ Match
 a
 standalone
 tag
-let
+var
 rsingleTag
 =
 /
@@ -5365,7 +5365,7 @@ Create
 various
 event
 aliases
-let
+var
 events
 =
 [

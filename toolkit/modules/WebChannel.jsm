@@ -196,7 +196,7 @@ multiplexing
 .
 *
 /
-let
+var
 WebChannelBroker
 =
 Object

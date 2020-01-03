@@ -1691,7 +1691,7 @@ DevTools
 =
 =
 =
-let
+var
 developerHUD
 ;
 SettingsListener
@@ -1786,7 +1786,7 @@ uninit
 #
 ifdef
 MOZ_WIDGET_GONK
-let
+var
 LogShake
 ;
 (
@@ -4815,7 +4815,7 @@ mapping
 =
 =
 =
-let
+var
 settingsToObserve
 =
 {

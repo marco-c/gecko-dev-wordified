@@ -798,7 +798,7 @@ changed
 .
 *
 /
-let
+var
 mockPushHandler
 =
 {

@@ -1333,7 +1333,7 @@ root
 s
 gotten
 .
-let
+var
 manager
 =
 (

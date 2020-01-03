@@ -45,13 +45,13 @@ bar
 .
 *
 /
-let
+var
 tabs
 =
 [
 ]
 ;
-let
+var
 texts
 =
 [
@@ -101,7 +101,7 @@ policy
 "
 ]
 ;
-let
+var
 Clipboard
 =
 Cc
@@ -126,7 +126,7 @@ Ci
 nsIClipboard
 )
 ;
-let
+var
 HasFindClipboard
 =
 Clipboard
@@ -248,7 +248,7 @@ correctly
 )
 ;
 }
-let
+var
 newWindow
 ;
 function

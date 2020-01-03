@@ -138,7 +138,7 @@ jsm
 "
 )
 ;
-let
+var
 Experiments
 ;
 try
@@ -1297,7 +1297,7 @@ for
 each
 provider
 .
-let
+var
 dataProviders
 =
 {

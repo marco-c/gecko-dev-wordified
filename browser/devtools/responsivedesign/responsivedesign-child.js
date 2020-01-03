@@ -100,10 +100,10 @@ null
 null
 )
 ;
-let
+var
 gRequiresFloatingScrollbars
 ;
-let
+var
 active
 =
 false
@@ -796,7 +796,7 @@ toDataURL
 )
 ;
 }
-let
+var
 WebProgressListener
 =
 {

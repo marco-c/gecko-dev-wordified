@@ -49,7 +49,7 @@ a
 functioning
 state
 .
-let
+var
 {
 Task
 }
@@ -75,7 +75,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }

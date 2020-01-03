@@ -126,7 +126,7 @@ OSCrypto
 "
 ]
 ;
-let
+var
 OSCrypto
 =
 {

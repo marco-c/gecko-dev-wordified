@@ -640,7 +640,7 @@ node
 }
 )
 ;
-let
+var
 gThread
 =
 synthesizeProfileForTest

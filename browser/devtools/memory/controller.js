@@ -175,7 +175,7 @@ host
 .
 *
 /
-let
+var
 gToolbox
 gTarget
 gFront

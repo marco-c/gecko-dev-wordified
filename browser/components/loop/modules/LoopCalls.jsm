@@ -1213,7 +1213,7 @@ server
 .
 *
 /
-let
+var
 LoopCallsInternal
 =
 {

@@ -398,7 +398,7 @@ options
 }
 )
 ;
-let
+var
 TabStateInternal
 =
 {

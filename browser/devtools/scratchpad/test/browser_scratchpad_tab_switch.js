@@ -45,13 +45,13 @@ zero
 /
 *
 /
-let
+var
 tab1
 ;
-let
+var
 tab2
 ;
-let
+var
 sp
 ;
 function

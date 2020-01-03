@@ -207,7 +207,7 @@ Promise
 }
 *
 /
-let
+var
 setupPlacesDatabase
 =
 Task

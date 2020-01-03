@@ -13139,7 +13139,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 components
 =
 [

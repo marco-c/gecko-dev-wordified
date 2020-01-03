@@ -1531,7 +1531,7 @@ messages
 on
 by
 default
-let
+var
 initialPrefDebugValue
 =
 false
@@ -1584,7 +1584,7 @@ Switch
 on
 firefox
 accounts
-let
+var
 initialPrefFXAValue
 =
 false

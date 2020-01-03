@@ -33,13 +33,13 @@ use
 strict
 "
 ;
-let
+var
 gTestTab
 ;
-let
+var
 gContentAPI
 ;
-let
+var
 gContentWindow
 ;
 const
@@ -89,7 +89,7 @@ UITourTest
 )
 ;
 }
-let
+var
 tests
 =
 [

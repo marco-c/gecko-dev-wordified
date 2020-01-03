@@ -89,7 +89,7 @@ console
 .
 dirxml
 ;
-let
+var
 test
 =
 asyncTest

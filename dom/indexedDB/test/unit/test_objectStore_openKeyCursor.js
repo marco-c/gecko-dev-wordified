@@ -30,7 +30,7 @@ zero
 /
 *
 /
-let
+var
 testGenerator
 =
 testSteps

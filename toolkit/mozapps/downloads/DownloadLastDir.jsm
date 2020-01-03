@@ -385,7 +385,7 @@ jsm
 "
 )
 ;
-let
+var
 observer
 =
 {
@@ -595,7 +595,7 @@ break
 }
 }
 ;
-let
+var
 os
 =
 Components
@@ -715,7 +715,7 @@ true
 ;
 }
 }
-let
+var
 gDownloadLastDirFile
 =
 readLastDirPref

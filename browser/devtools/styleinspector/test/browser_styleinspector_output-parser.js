@@ -106,7 +106,7 @@ DOM
 to
 work
 .
-let
+var
 {
 OutputParser
 }

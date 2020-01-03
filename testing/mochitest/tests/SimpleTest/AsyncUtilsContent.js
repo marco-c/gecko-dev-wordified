@@ -69,7 +69,7 @@ window
 |
 global
 .
-let
+var
 EventUtils
 =
 {

@@ -106,7 +106,7 @@ run_next_test
 )
 ;
 }
-let
+var
 BODY
 =
 "
@@ -151,7 +151,7 @@ length
 header
 value
 .
-let
+var
 contentLength
 =
 BODY

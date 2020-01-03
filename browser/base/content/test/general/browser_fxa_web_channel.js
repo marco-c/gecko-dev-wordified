@@ -153,7 +153,7 @@ a
 backstage
 pass
 .
-let
+var
 {
 FxAccountsWebChannel
 }
@@ -225,7 +225,7 @@ TEST_CHANNEL_ID
 account_updates_test
 "
 ;
-let
+var
 gTests
 =
 [

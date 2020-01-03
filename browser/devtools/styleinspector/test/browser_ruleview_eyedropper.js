@@ -61,7 +61,7 @@ telemetry
 on
 the
 eyedropper
-let
+var
 oldCanRecord
 =
 Services

@@ -291,7 +291,7 @@ networkFailureReportTimeout
 *
 1000
 ;
-let
+var
 errorHandler
 =
 Service

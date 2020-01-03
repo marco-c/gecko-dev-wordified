@@ -87,7 +87,7 @@ applied
 .
 *
 /
-let
+var
 DevEdition
 =
 {

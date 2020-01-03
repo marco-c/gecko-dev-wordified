@@ -580,10 +580,10 @@ Home
 .
 jsm
 .
-let
+var
 HomeBannerMessageHandlers
 ;
-let
+var
 HomeBanner
 =
 (
@@ -1369,10 +1369,10 @@ Home
 .
 jsm
 .
-let
+var
 HomePanelsMessageHandlers
 ;
-let
+var
 HomePanels
 =
 (

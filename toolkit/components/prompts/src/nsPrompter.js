@@ -856,7 +856,7 @@ particular
 prompter
 style
 .
-let
+var
 PromptUtilsTemp
 =
 {

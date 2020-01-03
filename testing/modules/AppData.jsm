@@ -142,7 +142,7 @@ to
 be
 active
 .
-let
+var
 gFakeAppDirectoryProvider
 ;
 /

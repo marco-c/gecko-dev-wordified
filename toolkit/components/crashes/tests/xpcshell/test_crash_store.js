@@ -64,7 +64,7 @@ Cu
 =
 Components
 ;
-let
+var
 bsp
 =
 Cu
@@ -210,7 +210,7 @@ bsp
 .
 CrashStore
 ;
-let
+var
 STORE_DIR_COUNT
 =
 0

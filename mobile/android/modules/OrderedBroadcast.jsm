@@ -153,7 +153,7 @@ jsm
 "
 )
 ;
-let
+var
 _callbackId
 =
 1

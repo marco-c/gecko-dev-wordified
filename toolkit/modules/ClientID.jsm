@@ -450,7 +450,7 @@ _reset
 }
 )
 ;
-let
+var
 ClientIDImpl
 =
 {

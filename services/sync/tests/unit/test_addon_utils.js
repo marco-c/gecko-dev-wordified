@@ -113,7 +113,7 @@ http
 8888
 "
 ;
-let
+var
 prefs
 =
 new

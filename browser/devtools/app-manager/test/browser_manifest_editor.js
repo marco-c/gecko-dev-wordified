@@ -69,7 +69,7 @@ manifestEditor
 enabled
 "
 ;
-let
+var
 gManifestWindow
 gManifestEditor
 ;

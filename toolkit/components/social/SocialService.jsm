@@ -396,7 +396,7 @@ helper
 methods
 and
 state
-let
+var
 SocialServiceInternal
 =
 {
@@ -1420,7 +1420,7 @@ foreign
 "
 ;
 }
-let
+var
 ActiveProviders
 =
 {

@@ -109,7 +109,7 @@ utils
 true
 )
 ;
-let
+var
 telemetry
 ;
 try

@@ -189,11 +189,11 @@ bug
 619598
 "
 ;
-let
+var
 jsterm
 inputNode
 ;
-let
+var
 test
 =
 asyncTest

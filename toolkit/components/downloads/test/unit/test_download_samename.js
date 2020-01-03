@@ -107,12 +107,12 @@ manifest
 "
 )
 ;
-let
+var
 httpserver
 =
 null
 ;
-let
+var
 currentTest
 =
 0
@@ -206,7 +206,7 @@ status
 }
 }
 ;
-let
+var
 DownloadListener
 =
 {
@@ -1101,7 +1101,7 @@ resume
 /
 /
 itself
-let
+var
 tests
 =
 [

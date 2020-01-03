@@ -106,7 +106,7 @@ Data
 -
 -
 -
-let
+var
 fakeSampleLogins
 =
 [

@@ -77,7 +77,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 Loader
 }
@@ -107,7 +107,7 @@ js
 }
 )
 ;
-let
+var
 loader
 =
 new
@@ -156,7 +156,7 @@ globals
 }
 )
 ;
-let
+var
 require
 =
 Loader
@@ -174,7 +174,7 @@ test
 "
 }
 )
-let
+var
 {
 UndoStack
 }

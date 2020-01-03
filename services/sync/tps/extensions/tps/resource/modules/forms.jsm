@@ -142,7 +142,7 @@ jsm
 "
 )
 ;
-let
+var
 formService
 =
 Cc
@@ -191,7 +191,7 @@ table
 .
 *
 /
-let
+var
 FormDB
 =
 {

@@ -76,7 +76,7 @@ bug
 862916
 "
 ;
-let
+var
 test
 =
 asyncTest

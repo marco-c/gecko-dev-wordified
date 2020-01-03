@@ -824,7 +824,7 @@ should
 fail
 to
 validate
-let
+var
 successfulPinningPageListener
 =
 {
@@ -900,7 +900,7 @@ removing
 the
 pinning
 information
-let
+var
 certErrorProgressListener
 =
 {
@@ -1038,7 +1038,7 @@ invalid
 pin
 domain
 .
-let
+var
 successfulPinningRemovalPageListener
 =
 {
@@ -1120,7 +1120,7 @@ example
 .
 com
 .
-let
+var
 successfulLoadListener
 =
 {

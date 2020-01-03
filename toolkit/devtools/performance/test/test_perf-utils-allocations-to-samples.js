@@ -129,7 +129,7 @@ correct
 }
 )
 ;
-let
+var
 TEST_DATA
 =
 {
@@ -228,7 +228,7 @@ parent
 ]
 }
 ;
-let
+var
 EXPECTED_OUTPUT
 =
 {

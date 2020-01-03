@@ -978,7 +978,7 @@ getProfileThreadFromAllocations
 .
 *
 /
-let
+var
 gProfileThreadFromAllocationCache
 =
 new

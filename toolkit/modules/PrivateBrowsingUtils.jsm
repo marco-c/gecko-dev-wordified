@@ -123,7 +123,7 @@ the
 current
 session
 .
-let
+var
 gTemporaryAutoStartMode
 =
 false

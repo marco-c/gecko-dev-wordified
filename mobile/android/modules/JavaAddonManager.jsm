@@ -349,7 +349,7 @@ based
 API
 *
 /
-let
+var
 JavaAddonManager
 =
 Object

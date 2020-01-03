@@ -108,7 +108,7 @@ server
 /
 actors
 /
-highlighters
+highlighter
 "
 )
 ;
@@ -209,7 +209,7 @@ be
 destroyed
 later
 .
-let
+var
 highlighterEnv
 ;
 /

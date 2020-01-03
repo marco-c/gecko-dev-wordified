@@ -41,7 +41,7 @@ from
 Timer
 .
 jsm
-let
+var
 imported
 =
 {

@@ -192,7 +192,7 @@ Android
 Yet
 ?
 )
-let
+var
 gTests
 =
 [

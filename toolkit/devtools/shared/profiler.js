@@ -298,7 +298,7 @@ nsIProfiler
 }
 )
 ;
-let
+var
 DEFAULT_PROFILER_OPTIONS
 =
 {
@@ -2437,7 +2437,7 @@ module
 .
 *
 /
-let
+var
 Profiler
 =
 exports

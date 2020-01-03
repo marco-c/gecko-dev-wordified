@@ -150,7 +150,7 @@ properties
 .
 *
 /
-let
+var
 DocShellCapabilitiesInternal
 =
 {

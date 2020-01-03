@@ -308,7 +308,7 @@ ChromeWorker
 dumpn
 )
 {
-let
+var
 MESSAGE_COUNTER
 =
 0

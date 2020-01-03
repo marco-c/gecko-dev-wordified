@@ -172,7 +172,7 @@ use
 strict
 "
 ;
-let
+var
 SharedAll
 ;
 if
@@ -339,7 +339,7 @@ require
 )
 ;
 }
-let
+var
 LOG
 =
 SharedAll
@@ -357,7 +357,7 @@ allthreads
 "
 )
 ;
-let
+var
 Const
 =
 SharedAll
@@ -370,7 +370,7 @@ libc
 /
 Open
 libc
-let
+var
 libc
 =
 new
@@ -410,7 +410,7 @@ libc
 /
 Define
 declareFFI
-let
+var
 declareFFI
 =
 SharedAll
@@ -434,7 +434,7 @@ declareFFI
 Define
 lazy
 binding
-let
+var
 LazyBindings
 =
 {
@@ -679,7 +679,7 @@ Error
 }
 *
 /
-let
+var
 OSError
 =
 function
@@ -1365,7 +1365,7 @@ Unix
 constructor
 *
 /
-let
+var
 AbstractInfo
 =
 function
@@ -1832,7 +1832,7 @@ Unix
 constructor
 *
 /
-let
+var
 AbstractEntry
 =
 function
@@ -2044,7 +2044,7 @@ communication
 /
 between
 threads
-let
+var
 Type
 =
 Object
@@ -2220,7 +2220,7 @@ EINVAL
 ;
 }
 ;
-let
+var
 EXPORTED_SYMBOLS
 =
 [

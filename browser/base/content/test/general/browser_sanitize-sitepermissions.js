@@ -11,7 +11,7 @@ in
 Clear
 Recent
 History
-let
+var
 tempScope
 =
 {
@@ -59,7 +59,7 @@ js
 tempScope
 )
 ;
-let
+var
 Sanitizer
 =
 tempScope

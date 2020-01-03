@@ -5058,7 +5058,7 @@ forEach
 add_test
 )
 ;
-let
+var
 index
 =
 0

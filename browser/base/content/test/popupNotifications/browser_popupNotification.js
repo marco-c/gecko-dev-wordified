@@ -68,7 +68,7 @@ test
 to
 #
 5
-let
+var
 wrongBrowserNotificationObject
 =
 new
@@ -79,7 +79,7 @@ wrongBrowser
 "
 )
 ;
-let
+var
 wrongBrowserNotification
 ;
 function
@@ -122,7 +122,7 @@ goNext
 )
 ;
 }
-let
+var
 tests
 =
 [

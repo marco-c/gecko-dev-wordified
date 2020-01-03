@@ -299,7 +299,7 @@ nsTerminatorTelemetry
 )
 {
 }
-let
+var
 HISTOGRAMS
 =
 {

@@ -94,11 +94,11 @@ use
 strict
 "
 ;
-let
+var
 gWebConsole
 gJSTerm
 ;
-let
+var
 TEXT
 =
 "
@@ -200,7 +200,7 @@ Date
 (
 )
 ;
-let
+var
 ID
 =
 "

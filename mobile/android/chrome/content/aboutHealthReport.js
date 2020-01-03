@@ -279,7 +279,7 @@ Android
 /
 SharedPreferences
 .
-let
+var
 sharedPrefs
 =
 SharedPreferences
@@ -288,7 +288,7 @@ forApp
 (
 )
 ;
-let
+var
 healthReportWrapper
 =
 {

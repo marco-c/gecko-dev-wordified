@@ -507,7 +507,7 @@ the
 change
 significant
 )
-let
+var
 lastTimestamp
 =
 Date

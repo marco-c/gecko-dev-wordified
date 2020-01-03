@@ -113,7 +113,7 @@ Components
 .
 utils
 ;
-let
+var
 ContentPrefServiceParent
 =
 {

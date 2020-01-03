@@ -95,10 +95,10 @@ jsm
 Setup
 *
 /
-let
+var
 client
 ;
-let
+var
 server
 =
 new

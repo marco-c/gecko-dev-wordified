@@ -175,7 +175,7 @@ finalized
 /
 /
 ]
-let
+var
 TEST_CASES
 =
 [

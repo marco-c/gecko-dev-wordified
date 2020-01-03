@@ -176,7 +176,7 @@ Node
 div
 >
 ;
-let
+var
 BACKGROUND_IMAGE_URL
 =
 '
@@ -195,7 +195,7 @@ png
 )
 '
 ;
-let
+var
 TEST_DATA
 =
 [

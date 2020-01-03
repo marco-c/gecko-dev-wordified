@@ -50,7 +50,7 @@ fxa
 migration
 "
 ;
-let
+var
 imports
 =
 {

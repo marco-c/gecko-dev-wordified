@@ -153,7 +153,7 @@ of
 this
 file
 .
-let
+var
 PrefetcherRules
 =
 {
@@ -2576,7 +2576,7 @@ obj
 }
 }
 ;
-let
+var
 Prefetcher
 =
 {
@@ -3478,7 +3478,7 @@ prop
 }
 }
 ;
-let
+var
 AdblockId
 =
 "
@@ -3495,7 +3495,7 @@ a8b2
 }
 "
 ;
-let
+var
 AdblockRules
 =
 {
@@ -3674,7 +3674,7 @@ AdblockId
 =
 AdblockRules
 ;
-let
+var
 LastpassId
 =
 "
@@ -3684,7 +3684,7 @@ lastpass
 com
 "
 ;
-let
+var
 LastpassRules
 =
 {

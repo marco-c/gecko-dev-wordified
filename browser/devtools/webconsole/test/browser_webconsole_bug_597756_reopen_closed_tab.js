@@ -138,10 +138,10 @@ tab
 html
 "
 ;
-let
+var
 HUD
 ;
-let
+var
 test
 =
 asyncTest

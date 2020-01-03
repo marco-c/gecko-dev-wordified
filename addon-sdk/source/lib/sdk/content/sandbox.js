@@ -400,7 +400,7 @@ XPI
 :
 *
 /
-let
+var
 prefix
 =
 module

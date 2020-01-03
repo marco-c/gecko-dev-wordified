@@ -616,7 +616,7 @@ API
 .
 *
 /
-let
+var
 FormDataInternal
 =
 {

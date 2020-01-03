@@ -563,7 +563,7 @@ listener
 .
 *
 /
-let
+var
 ContentSender
 =
 function

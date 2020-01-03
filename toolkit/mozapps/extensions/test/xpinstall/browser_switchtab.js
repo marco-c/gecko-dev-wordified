@@ -95,7 +95,7 @@ web
 /
 content
 .
-let
+var
 expectedTab
 =
 null

@@ -76,7 +76,7 @@ enabled
 true
 )
 ;
-let
+var
 manager
 =
 window
@@ -102,7 +102,7 @@ manager
 constructor
 )
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0
@@ -164,7 +164,7 @@ response
 )
 ;
 }
-let
+var
 tasks
 =
 {
@@ -750,7 +750,7 @@ next
 )
 )
 ;
-let
+var
 gotMessagesCount
 =
 0
@@ -829,7 +829,7 @@ next
 }
 )
 ;
-let
+var
 allMessages
 ;
 tasks
@@ -883,7 +883,7 @@ next
 }
 )
 ;
-let
+var
 originalThread
 ;
 tasks

@@ -248,7 +248,7 @@ Bug
 961777
 *
 /
-let
+var
 ContactService
 =
 this

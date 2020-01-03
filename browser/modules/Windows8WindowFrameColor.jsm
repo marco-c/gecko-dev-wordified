@@ -127,7 +127,7 @@ jsm
 "
 )
 ;
-let
+var
 Registry
 =
 Cu

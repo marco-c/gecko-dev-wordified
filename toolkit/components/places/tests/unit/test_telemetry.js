@@ -61,7 +61,7 @@ jsm
 "
 )
 ;
-let
+var
 histograms
 =
 {

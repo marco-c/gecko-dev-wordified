@@ -136,7 +136,7 @@ the
 tests
 are
 happening
-let
+var
 browser
 ;
 function
@@ -337,7 +337,7 @@ true
 }
 )
 ;
-let
+var
 searchDiscoveryTests
 =
 [
@@ -880,7 +880,7 @@ link
 )
 ;
 }
-let
+var
 feedDiscoveryTests
 =
 [
@@ -1426,7 +1426,7 @@ link
 )
 ;
 }
-let
+var
 searchTest
 ;
 while
@@ -1472,7 +1472,7 @@ searchTest
 )
 ;
 }
-let
+var
 feedTest
 ;
 while

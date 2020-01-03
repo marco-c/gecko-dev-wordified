@@ -623,7 +623,7 @@ IGhlaWdodD0iNDEuOCIvPg0KPC9zdmc
 }
 )
 ;
-let
+var
 gTestDir
 =
 do_get_cwd
@@ -635,7 +635,7 @@ do_get_cwd
 Initialize
 profile
 .
-let
+var
 gProfD
 =
 do_get_profile
@@ -770,7 +770,7 @@ one
 .
 *
 /
-let
+var
 gDBConn
 ;
 function
@@ -2475,7 +2475,7 @@ shutdown
 .
 *
 /
-let
+var
 shutdownPlaces
 =
 function

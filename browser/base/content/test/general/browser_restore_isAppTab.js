@@ -145,7 +145,7 @@ things
 are
 peachy
 .
-let
+var
 CrashObserver
 =
 {
@@ -682,7 +682,7 @@ then
 reloading
 the
 tab
-let
+var
 restart
 =
 Task

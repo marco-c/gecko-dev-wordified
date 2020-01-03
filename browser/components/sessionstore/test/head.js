@@ -125,7 +125,7 @@ js
 "
 ]
 ;
-let
+var
 mm
 =
 Cc
@@ -1836,7 +1836,7 @@ utf
 )
 ;
 }
-let
+var
 promiseForEachSessionRestoreFile
 =
 Task
@@ -2104,7 +2104,7 @@ currentWindow
 }
 }
 }
-let
+var
 gWebProgressListener
 =
 {
@@ -2239,7 +2239,7 @@ unsetCallback
 }
 )
 ;
-let
+var
 gProgressListener
 =
 {

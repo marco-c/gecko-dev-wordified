@@ -70,7 +70,7 @@ collected
 too
 early
 .
-let
+var
 samples
 ;
 self

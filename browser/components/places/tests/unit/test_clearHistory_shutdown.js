@@ -182,7 +182,7 @@ connection
 closed
 "
 ;
-let
+var
 EXPECTED_NOTIFICATIONS
 =
 [
@@ -310,7 +310,7 @@ change
 null
 )
 ;
-let
+var
 timeInMicroseconds
 =
 Date

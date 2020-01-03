@@ -107,7 +107,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Cu
 CC

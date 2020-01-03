@@ -257,7 +257,7 @@ instances
 .
 *
 /
-let
+var
 gRemoteSuggestionsEnabled
 =
 Services

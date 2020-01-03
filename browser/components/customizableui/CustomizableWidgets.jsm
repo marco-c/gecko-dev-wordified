@@ -506,7 +506,7 @@ wide
 item
 "
 ;
-let
+var
 gModuleName
 =
 "
@@ -8250,7 +8250,7 @@ origin
 #
 ifdef
 E10S_TESTING_ONLY
-let
+var
 e10sDisabled
 =
 false

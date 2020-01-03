@@ -67,7 +67,7 @@ limit
 .
 *
 /
-let
+var
 gNow
 =
 getExpirablePRTime

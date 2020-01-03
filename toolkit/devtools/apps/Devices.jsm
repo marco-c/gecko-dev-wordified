@@ -95,7 +95,7 @@ Devices
 "
 ]
 ;
-let
+var
 addonInstalled
 =
 false

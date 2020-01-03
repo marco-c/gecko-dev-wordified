@@ -93,7 +93,7 @@ exe
 "
 )
 ;
-let
+var
 tempDir
 =
 do_get_tempdir

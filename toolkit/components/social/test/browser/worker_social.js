@@ -64,7 +64,7 @@ our
 port
 to
 WorkerAPI
-let
+var
 apiPort
 ;
 /
@@ -78,7 +78,7 @@ test
 calls
 us
 on
-let
+var
 testerPort
 ;
 onconnect

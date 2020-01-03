@@ -72,7 +72,7 @@ test
 /
 "
 ;
-let
+var
 state
 =
 {

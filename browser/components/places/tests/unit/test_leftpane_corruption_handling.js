@@ -127,10 +127,10 @@ original
 leftPaneFolderId
 getter
 .
-let
+var
 gLeftPaneFolderIdGetter
 ;
-let
+var
 gAllBookmarksFolderIdGetter
 ;
 /
@@ -148,10 +148,10 @@ a
 JSON
 string
 .
-let
+var
 gReferenceHierarchy
 ;
-let
+var
 gLeftPaneFolderId
 ;
 add_task
@@ -517,7 +517,7 @@ test
 Corruption
 cases
 .
-let
+var
 gTests
 =
 [

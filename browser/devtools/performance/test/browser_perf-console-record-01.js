@@ -51,7 +51,7 @@ opened
 .
 *
 /
-let
+var
 WAIT_TIME
 =
 10

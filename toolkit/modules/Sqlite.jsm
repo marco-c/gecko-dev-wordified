@@ -406,7 +406,7 @@ distinguish
 connection
 instances
 .
-let
+var
 connectionCounters
 =
 new
@@ -464,7 +464,7 @@ differentiate
 their
 behavior
 .
-let
+var
 wrappedConnections
 =
 new
@@ -490,12 +490,12 @@ database
 .
 *
 /
-let
+var
 isClosed
 =
 false
 ;
-let
+var
 Debugging
 =
 {

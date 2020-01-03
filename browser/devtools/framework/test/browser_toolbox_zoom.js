@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 modifiers
 =
 {
@@ -37,7 +37,7 @@ accelKey
 true
 }
 ;
-let
+var
 toolbox
 ;
 function

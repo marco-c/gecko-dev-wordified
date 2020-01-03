@@ -52,7 +52,7 @@ accessible
 .
 *
 /
-let
+var
 {
 AbstractTreeItem
 }
@@ -79,7 +79,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Heritage
 }
@@ -1271,7 +1271,7 @@ level
 }
 )
 ;
-let
+var
 gDataSrc
 =
 {

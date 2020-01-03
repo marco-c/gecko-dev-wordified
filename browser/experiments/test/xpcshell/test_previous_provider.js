@@ -91,13 +91,13 @@ js
 "
 )
 ;
-let
+var
 gDataRoot
 ;
-let
+var
 gHttpServer
 ;
-let
+var
 gManifestObject
 ;
 function

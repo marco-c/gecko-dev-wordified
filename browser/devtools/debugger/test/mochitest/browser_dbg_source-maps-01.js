@@ -70,12 +70,12 @@ code_binary_search
 coffee
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 ;

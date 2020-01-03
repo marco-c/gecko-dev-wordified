@@ -80,7 +80,7 @@ jsm
 "
 )
 ;
-let
+var
 bsp
 =
 Cu

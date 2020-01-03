@@ -37,7 +37,7 @@ widget
 works
 properly
 .
-let
+var
 {
 FlameGraph
 }

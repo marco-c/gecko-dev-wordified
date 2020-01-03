@@ -41,7 +41,7 @@ cancelAll
 API
 in
 XPIProvider
-let
+var
 scope
 =
 Components
@@ -67,7 +67,7 @@ jsm
 "
 )
 ;
-let
+var
 XPIProvider
 =
 scope

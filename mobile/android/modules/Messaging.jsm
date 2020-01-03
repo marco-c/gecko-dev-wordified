@@ -237,7 +237,7 @@ aMessage
 ;
 }
 }
-let
+var
 Messaging
 =
 {
@@ -1057,7 +1057,7 @@ formattedStack
 )
 }
 ;
-let
+var
 requestHandler
 =
 {

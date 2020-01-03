@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-let
+var
 WSP
 =
 {
@@ -143,7 +143,7 @@ jsm
 "
 )
 ;
-let
+var
 DEBUG
 ;
 /
@@ -12605,7 +12605,7 @@ params
 (
 )
 ;
-let
+var
 debug
 ;
 if

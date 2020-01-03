@@ -525,7 +525,7 @@ documentation
 .
 *
 /
-let
+var
 MemoryActor
 =
 exports

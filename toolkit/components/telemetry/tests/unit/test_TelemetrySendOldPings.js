@@ -219,7 +219,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 OS
 :
@@ -390,12 +390,12 @@ healthreport
 uploadEnabled
 "
 ;
-let
+var
 gCreatedPings
 =
 0
 ;
-let
+var
 gSeenPings
 =
 0
@@ -514,7 +514,7 @@ ids
 .
 *
 /
-let
+var
 createSavedPings
 =
 Task
@@ -713,7 +713,7 @@ returns
 Promise
 *
 /
-let
+var
 clearPings
 =
 Task
@@ -943,7 +943,7 @@ returns
 Promise
 *
 /
-let
+var
 assertNotSaved
 =
 Task
@@ -1085,7 +1085,7 @@ pings
 .
 *
 /
-let
+var
 clearPendingPings
 =
 Task

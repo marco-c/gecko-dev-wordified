@@ -72,7 +72,7 @@ tab
 html
 "
 ;
-let
+var
 gTab1
 gTab1Actor
 gTab2

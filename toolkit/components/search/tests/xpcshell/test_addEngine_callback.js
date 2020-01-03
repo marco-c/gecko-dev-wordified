@@ -82,7 +82,7 @@ actually
 called
 by
 nsSearchService
-let
+var
 promptService
 =
 {
@@ -107,7 +107,7 @@ function
 }
 }
 ;
-let
+var
 prompt
 =
 {

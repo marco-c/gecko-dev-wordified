@@ -322,7 +322,7 @@ jsm
 '
 )
 ;
-let
+var
 _telemetryDebug
 =
 true
@@ -412,7 +412,7 @@ consoleWatcher
 .
 *
 /
-let
+var
 developerHUD
 =
 {
@@ -2642,7 +2642,7 @@ separately
 .
 *
 /
-let
+var
 consoleWatcher
 =
 {
@@ -4177,7 +4177,7 @@ registerWatcher
 consoleWatcher
 )
 ;
-let
+var
 eventLoopLagWatcher
 =
 {
@@ -4584,7 +4584,7 @@ delta
 .
 *
 /
-let
+var
 performanceEntriesWatcher
 =
 {
@@ -5229,7 +5229,7 @@ usage
 .
 *
 /
-let
+var
 memoryWatcher
 =
 {

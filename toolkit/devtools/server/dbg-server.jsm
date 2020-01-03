@@ -210,7 +210,7 @@ ActorPool
 "
 ]
 ;
-let
+var
 server
 =
 require

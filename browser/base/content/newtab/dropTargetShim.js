@@ -111,7 +111,7 @@ position
 .
 *
 /
-let
+var
 gDropTargetShim
 =
 {

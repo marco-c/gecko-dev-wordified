@@ -322,7 +322,7 @@ Level
 Error
 ;
 }
-let
+var
 log
 =
 Log

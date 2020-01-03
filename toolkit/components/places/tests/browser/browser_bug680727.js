@@ -132,7 +132,7 @@ Ci
 mozIAsyncHistory
 )
 ;
-let
+var
 proxyPrefValue
 ;
 function

@@ -335,7 +335,7 @@ sent
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

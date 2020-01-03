@@ -300,7 +300,7 @@ require
 )
 ;
 }
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -364,7 +364,7 @@ last
 .
 *
 /
-let
+var
 basename
 =
 function
@@ -593,7 +593,7 @@ name
 .
 *
 /
-let
+var
 dirname
 =
 function
@@ -996,7 +996,7 @@ bar
 .
 *
 /
-let
+var
 join
 =
 function
@@ -1294,7 +1294,7 @@ includes
 .
 *
 /
-let
+var
 winGetDrive
 =
 function
@@ -1485,7 +1485,7 @@ driveletter
 .
 *
 /
-let
+var
 winIsAbsolute
 =
 function
@@ -1575,7 +1575,7 @@ a
 .
 *
 /
-let
+var
 normalize
 =
 function
@@ -2020,7 +2020,7 @@ informations
 .
 *
 /
-let
+var
 split
 =
 function
@@ -2110,7 +2110,7 @@ doesn
 t
 matter
 .
-let
+var
 toFileURIExtraEncodings
 =
 {
@@ -2140,7 +2140,7 @@ toFileURIExtraEncodings
 '
 }
 ;
-let
+var
 toFileURI
 =
 function
@@ -2353,7 +2353,7 @@ URI
 .
 *
 /
-let
+var
 fromFileURI
 =
 function
@@ -2581,7 +2581,7 @@ string
 .
 *
 /
-let
+var
 trimBackslashes
 =
 function

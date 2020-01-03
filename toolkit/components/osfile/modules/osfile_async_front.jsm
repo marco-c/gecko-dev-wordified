@@ -209,7 +209,7 @@ Components
 .
 interfaces
 ;
-let
+var
 SharedAll
 =
 {
@@ -288,7 +288,7 @@ to
 require
 (
 )
-let
+var
 LOG
 =
 SharedAll
@@ -303,7 +303,7 @@ Controller
 "
 )
 ;
-let
+var
 isTypedArray
 =
 SharedAll
@@ -318,7 +318,7 @@ for
 file
 errors
 .
-let
+var
 SysAll
 =
 {
@@ -410,21 +410,21 @@ system
 )
 ;
 }
-let
+var
 OSError
 =
 SysAll
 .
 Error
 ;
-let
+var
 Type
 =
 SysAll
 .
 Type
 ;
-let
+var
 Path
 =
 {
@@ -585,7 +585,7 @@ jsm
 this
 )
 ;
-let
+var
 Native
 =
 Cu
@@ -884,7 +884,7 @@ object
 .
 *
 /
-let
+var
 clone
 =
 SharedAll
@@ -1206,7 +1206,7 @@ in
 all
 cases
 .
-let
+var
 Scheduler
 =
 this
@@ -3603,7 +3603,7 @@ version
 .
 *
 /
-let
+var
 nativeWheneverAvailable
 =
 true
@@ -4083,7 +4083,7 @@ handle
 constructor
 *
 /
-let
+var
 File
 =
 function
@@ -9289,7 +9289,7 @@ directory
 constructor
 *
 /
-let
+var
 DirectoryIterator
 =
 function
@@ -10623,7 +10623,7 @@ shutdown
 .
 *
 /
-let
+var
 Barriers
 =
 {

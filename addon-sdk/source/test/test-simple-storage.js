@@ -101,7 +101,7 @@ storage
 quota
 "
 ;
-let
+var
 {
 Cc
 Ci
@@ -144,7 +144,7 @@ self
 "
 )
 ;
-let
+var
 storeFile
 =
 Cc
@@ -226,7 +226,7 @@ json
 "
 )
 ;
-let
+var
 storeFilename
 =
 storeFile

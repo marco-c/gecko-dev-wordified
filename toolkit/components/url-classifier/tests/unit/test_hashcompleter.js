@@ -368,7 +368,7 @@ with
 3
 completions
 .
-let
+var
 basicCompletionSet
 =
 [
@@ -440,7 +440,7 @@ a
 204
 status
 .
-let
+var
 falseCompletionSet
 =
 [
@@ -502,7 +502,7 @@ for
 duplicated
 entries
 .
-let
+var
 dupedCompletionSet
 =
 [
@@ -605,7 +605,7 @@ all
 of
 these
 .
-let
+var
 multipleResponsesCompletionSet
 =
 [
@@ -1035,7 +1035,7 @@ return
 completionSet
 ;
 }
-let
+var
 completionSets
 =
 [
@@ -1045,13 +1045,13 @@ dupedCompletionSet
 multipleResponsesCompletionSet
 ]
 ;
-let
+var
 currentCompletionSet
 =
 -
 1
 ;
-let
+var
 finishedCompletions
 =
 0
@@ -1071,7 +1071,7 @@ hash
 completer
 "
 ;
-let
+var
 server
 ;
 /
@@ -1107,7 +1107,7 @@ COMPLETE_LENGTH
 =
 32
 ;
-let
+var
 completer
 =
 Cc
@@ -1134,7 +1134,7 @@ Ci
 nsIUrlClassifierHashCompleter
 )
 ;
-let
+var
 gethashUrl
 ;
 /
@@ -1151,12 +1151,12 @@ sends
 a
 response
 .
-let
+var
 expectedMaxServerCompletionSet
 =
 0
 ;
-let
+var
 maxServerCompletionSet
 =
 0

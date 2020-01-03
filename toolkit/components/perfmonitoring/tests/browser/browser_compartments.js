@@ -626,7 +626,7 @@ case
 of
 success
 .
-let
+var
 SilentAssert
 =
 {
@@ -749,7 +749,7 @@ b
 }
 }
 ;
-let
+var
 isShuttingDown
 =
 false

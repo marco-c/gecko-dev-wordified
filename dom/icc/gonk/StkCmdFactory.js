@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -4756,7 +4756,7 @@ Mappings
 .
 *
 /
-let
+var
 CmdPrototypes
 =
 {
@@ -4979,7 +4979,7 @@ Mappings
 .
 *
 /
-let
+var
 MsgPrototypes
 =
 {
@@ -5201,7 +5201,7 @@ Mappings
 .
 *
 /
-let
+var
 QueriedIFs
 =
 {
@@ -7546,7 +7546,7 @@ Mappings
 .
 *
 /
-let
+var
 EventPrototypes
 =
 {
@@ -7635,7 +7635,7 @@ Mappings
 .
 *
 /
-let
+var
 EventMsgPrototypes
 =
 {
@@ -7723,7 +7723,7 @@ Mappings
 .
 *
 /
-let
+var
 QueriedEventIFs
 =
 {

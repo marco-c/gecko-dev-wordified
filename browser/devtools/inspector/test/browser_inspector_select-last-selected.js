@@ -119,7 +119,7 @@ or
 a
 reload
 .
-let
+var
 PAGE_1
 =
 TEST_URL_ROOT
@@ -136,7 +136,7 @@ selected
 html
 "
 ;
-let
+var
 PAGE_2
 =
 TEST_URL_ROOT
@@ -225,7 +225,7 @@ selected
 after
 navigation
 .
-let
+var
 TEST_DATA
 =
 [

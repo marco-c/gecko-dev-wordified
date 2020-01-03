@@ -66,7 +66,7 @@ browser_cmd_screenshot
 html
 "
 ;
-let
+var
 FileUtils
 =
 (

@@ -137,7 +137,7 @@ HMAC
 error
 counts
 .
-let
+var
 hmacErrorCount
 =
 0

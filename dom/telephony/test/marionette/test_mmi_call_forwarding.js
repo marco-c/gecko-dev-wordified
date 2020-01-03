@@ -39,7 +39,7 @@ head
 js
 "
 ;
-let
+var
 connection
 ;
 /

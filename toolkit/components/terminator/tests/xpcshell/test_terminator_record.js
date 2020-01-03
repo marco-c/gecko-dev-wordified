@@ -144,7 +144,7 @@ jsm
 this
 )
 ;
-let
+var
 {
 Path
 File
@@ -153,13 +153,13 @@ Constants
 =
 OS
 ;
-let
+var
 PATH
 ;
-let
+var
 PATH_TMP
 ;
-let
+var
 terminator
 ;
 add_task
@@ -283,7 +283,7 @@ null
 }
 )
 ;
-let
+var
 promiseShutdownDurationData
 =
 Task

@@ -332,7 +332,7 @@ WeakMap
 (
 )
 ;
-let
+var
 modelFor
 =
 (
@@ -347,7 +347,7 @@ get
 mod
 )
 ;
-let
+var
 workerFor
 =
 (
@@ -369,7 +369,7 @@ mod
 /
 Helper
 functions
-let
+var
 isRegExpOrString
 =
 (
@@ -392,7 +392,7 @@ v
 string
 '
 ;
-let
+var
 PAGEMOD_ID
 =
 0

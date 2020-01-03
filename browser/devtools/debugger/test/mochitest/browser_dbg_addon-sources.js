@@ -66,7 +66,7 @@ addon3
 xpi
 "
 ;
-let
+var
 gClient
 ;
 function

@@ -157,7 +157,7 @@ dispatcher
 "
 )
 ;
-let
+var
 PrivateBrowsingUtils
 ;
 /
@@ -220,7 +220,7 @@ private
 browsing
 is
 implemented
-let
+var
 isWindowPBSupported
 =
 exports
@@ -250,7 +250,7 @@ private
 browsing
 is
 implemented
-let
+var
 isTabPBSupported
 =
 exports
@@ -316,7 +316,7 @@ ignoreWindow
 =
 ignoreWindow
 ;
-let
+var
 getMode
 =
 function

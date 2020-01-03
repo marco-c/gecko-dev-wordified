@@ -126,7 +126,7 @@ file_referrer_policyserver
 sjs
 "
 ;
-let
+var
 gTestWindow
 =
 null
@@ -268,7 +268,7 @@ for
 each
 case
 .
-let
+var
 _referrerTests
 =
 [

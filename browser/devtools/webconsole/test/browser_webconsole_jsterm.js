@@ -111,10 +111,10 @@ console
 html
 "
 ;
-let
+var
 jsterm
 ;
-let
+var
 test
 =
 asyncTest

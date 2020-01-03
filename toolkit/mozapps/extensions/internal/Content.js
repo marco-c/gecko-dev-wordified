@@ -81,7 +81,7 @@ Cu
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -107,7 +107,7 @@ jsm
 }
 )
 ;
-let
+var
 nsIFile
 =
 Components

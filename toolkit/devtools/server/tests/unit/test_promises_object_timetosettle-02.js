@@ -84,7 +84,7 @@ timers
 "
 )
 ;
-let
+var
 events
 =
 require

@@ -60,12 +60,12 @@ out
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gVars
 ;
 function

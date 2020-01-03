@@ -127,10 +127,10 @@ CURRENT_TIME_TOLERANCE_MS
 )
 ;
 }
-let
+var
 originalTab
 ;
-let
+var
 newTab
 ;
 function

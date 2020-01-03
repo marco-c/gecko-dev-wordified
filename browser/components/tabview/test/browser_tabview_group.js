@@ -42,12 +42,12 @@ onTabViewWindowLoaded
 )
 ;
 }
-let
+var
 originalGroupItem
 =
 null
 ;
-let
+var
 originalTab
 =
 null

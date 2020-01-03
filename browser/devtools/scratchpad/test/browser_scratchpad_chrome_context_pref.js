@@ -51,7 +51,7 @@ Bug
 646070
 *
 /
-let
+var
 DEVTOOLS_CHROME_ENABLED
 =
 "

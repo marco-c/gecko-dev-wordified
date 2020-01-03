@@ -558,7 +558,7 @@ ret
 )
 ;
 }
-let
+var
 dirSize
 =
 Task
@@ -3779,7 +3779,7 @@ false
 )
 ;
 }
-let
+var
 readJSON
 =
 Task
@@ -3829,7 +3829,7 @@ data
 }
 )
 ;
-let
+var
 setMacRootInstallDir
 =
 Task
@@ -3916,7 +3916,7 @@ oldRootInstallDir
 }
 )
 ;
-let
+var
 writeToFile
 =
 Task
@@ -4087,7 +4087,7 @@ ALERTS_SERVICE_CONTRACT_ID
 number
 )
 ;
-let
+var
 AlertsService
 =
 {

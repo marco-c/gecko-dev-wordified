@@ -29,7 +29,7 @@ zero
 /
 *
 /
-let
+var
 cps
 =
 new

@@ -279,7 +279,7 @@ jsm
 '
 )
 ;
-let
+var
 gSkipEmptyImages
 =
 new

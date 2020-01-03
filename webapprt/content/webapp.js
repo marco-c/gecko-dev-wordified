@@ -205,7 +205,7 @@ nsICrashReporter
 ;
 #
 endif
-let
+var
 progressListener
 =
 {
@@ -1115,7 +1115,7 @@ webapp
 into
 it
 .
-let
+var
 updateMenuItems
 =
 Task
@@ -1248,7 +1248,7 @@ endif
 #
 ifndef
 XP_MACOSX
-let
+var
 gEditUIVisible
 =
 true
@@ -1637,7 +1637,7 @@ custom
 /
 menus
 .
-let
+var
 gContextMenu
 =
 null

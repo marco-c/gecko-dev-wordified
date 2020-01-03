@@ -83,7 +83,7 @@ emulator
 '
 s
 number
-let
+var
 manager
 =
 window
@@ -92,7 +92,7 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 msgText
 =
 "

@@ -103,7 +103,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -123,7 +123,7 @@ javascript
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -199,7 +199,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

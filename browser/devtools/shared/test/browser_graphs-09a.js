@@ -358,7 +358,7 @@ value
 }
 ]
 ;
-let
+var
 LineGraphWidget
 =
 require

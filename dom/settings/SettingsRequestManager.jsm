@@ -186,17 +186,17 @@ jsm
 "
 )
 ;
-let
+var
 DEBUG
 =
 false
 ;
-let
+var
 VERBOSE
 =
 false
 ;
-let
+var
 TRACK
 =
 false
@@ -269,7 +269,7 @@ ex
 )
 {
 }
-let
+var
 allowForceReadOnly
 =
 false
@@ -325,7 +325,7 @@ n
 )
 ;
 }
-let
+var
 inParent
 =
 Cc
@@ -540,7 +540,7 @@ is
 starting
 to
 jam
-let
+var
 kSoftLockupDelta
 =
 30
@@ -665,7 +665,7 @@ nsISettingsService
 "
 )
 ;
-let
+var
 SettingsPermissions
 =
 {
@@ -1722,7 +1722,7 @@ store
 }
 ;
 }
-let
+var
 SettingsRequestManager
 =
 {

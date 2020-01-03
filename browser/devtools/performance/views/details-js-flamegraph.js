@@ -83,7 +83,7 @@ DetailsView
 .
 *
 /
-let
+var
 JsFlameGraphView
 =
 Heritage

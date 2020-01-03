@@ -168,7 +168,7 @@ UI
 .
 *
 /
-let
+var
 AnimationsPanel
 =
 {

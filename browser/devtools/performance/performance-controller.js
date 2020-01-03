@@ -774,7 +774,7 @@ host
 .
 *
 /
-let
+var
 gToolbox
 gTarget
 gFront
@@ -792,7 +792,7 @@ views
 .
 *
 /
-let
+var
 startupPerformance
 =
 Task
@@ -834,7 +834,7 @@ views
 .
 *
 /
-let
+var
 shutdownPerformance
 =
 Task
@@ -881,7 +881,7 @@ interaction
 .
 *
 /
-let
+var
 PerformanceController
 =
 {

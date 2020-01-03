@@ -48,7 +48,7 @@ opened
 .
 *
 /
-let
+var
 URL
 =
 {
@@ -58,7 +58,7 @@ doc_viewsource
 .
 html
 ;
-let
+var
 CSS_URL
 =
 {

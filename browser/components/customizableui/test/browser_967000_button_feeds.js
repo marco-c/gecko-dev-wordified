@@ -124,12 +124,12 @@ feed
 .
 xml
 "
-let
+var
 newTab
 =
 null
 ;
-let
+var
 initialLocation
 =
 gBrowser

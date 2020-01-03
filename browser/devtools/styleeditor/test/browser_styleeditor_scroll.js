@@ -695,7 +695,7 @@ to
 .
 *
 /
-let
+var
 waitForEditorToBeSelected
 =
 Task

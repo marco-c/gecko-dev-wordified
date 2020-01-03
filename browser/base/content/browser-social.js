@@ -63,7 +63,7 @@ the
 exported
 "
 symbols
-let
+var
 SocialUI
 SocialFlyout
 SocialMarks
@@ -9346,7 +9346,7 @@ provider
 }
 }
 }
-let
+var
 SocialStatusWidgetListener
 =
 {
@@ -10231,7 +10231,7 @@ add
 }
 }
 ;
-let
+var
 SocialMarksWidgetListener
 =
 {

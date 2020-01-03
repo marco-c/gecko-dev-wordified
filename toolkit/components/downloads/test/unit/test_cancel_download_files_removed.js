@@ -101,12 +101,12 @@ manifest
 "
 )
 ;
-let
+var
 httpserver
 =
 null
 ;
-let
+var
 currentTest
 =
 0
@@ -200,7 +200,7 @@ status
 }
 }
 ;
-let
+var
 DownloadListener
 =
 {
@@ -881,7 +881,7 @@ they
 have
 been
 resumed
-let
+var
 tests
 =
 [

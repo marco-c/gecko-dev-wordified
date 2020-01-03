@@ -96,7 +96,7 @@ for
 provider
 ID
 "
-let
+var
 vcards
 =
 [

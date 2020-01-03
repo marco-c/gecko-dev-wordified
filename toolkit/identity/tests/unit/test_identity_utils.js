@@ -184,7 +184,7 @@ run_next_test
 )
 ;
 }
-let
+var
 TESTS
 =
 [

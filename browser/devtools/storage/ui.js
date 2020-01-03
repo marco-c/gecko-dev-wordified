@@ -374,7 +374,7 @@ in
 .
 *
 /
-let
+var
 StorageUI
 =
 this

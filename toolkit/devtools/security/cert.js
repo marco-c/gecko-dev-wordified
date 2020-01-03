@@ -107,7 +107,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cc
@@ -120,7 +120,7 @@ chrome
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -130,7 +130,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require

@@ -535,7 +535,7 @@ host
 .
 *
 /
-let
+var
 gToolbox
 gTarget
 gFront
@@ -642,7 +642,7 @@ events
 .
 *
 /
-let
+var
 EventsHandler
 =
 {
@@ -1431,7 +1431,7 @@ UI
 .
 *
 /
-let
+var
 ShadersListView
 =
 Heritage
@@ -2529,7 +2529,7 @@ shaders
 .
 *
 /
-let
+var
 ShadersEditorsView
 =
 {
@@ -4413,7 +4413,7 @@ methods
 .
 *
 /
-let
+var
 L10N
 =
 new
@@ -4457,7 +4457,7 @@ helper
 .
 *
 /
-let
+var
 =
 (
 selector

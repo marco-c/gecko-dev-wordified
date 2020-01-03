@@ -86,7 +86,7 @@ DURATION
 /
 /
 5s
-let
+var
 t
 =
 0
@@ -149,7 +149,7 @@ t
 ;
 }
 }
-let
+var
 LineGraphWidget
 =
 require

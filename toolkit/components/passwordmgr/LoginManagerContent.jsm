@@ -8274,7 +8274,7 @@ element
 .
 *
 /
-let
+var
 FormLikeFactory
 =
 {

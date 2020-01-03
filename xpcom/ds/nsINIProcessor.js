@@ -1196,7 +1196,7 @@ _enumIndex
 }
 }
 ;
-let
+var
 component
 =
 [

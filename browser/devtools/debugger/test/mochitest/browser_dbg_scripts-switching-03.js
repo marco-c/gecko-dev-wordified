@@ -60,12 +60,12 @@ switching
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gView
 gEditor
 gL10N

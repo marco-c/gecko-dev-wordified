@@ -264,7 +264,7 @@ module
 .
 *
 /
-let
+var
 SessionHistoryInternal
 =
 {

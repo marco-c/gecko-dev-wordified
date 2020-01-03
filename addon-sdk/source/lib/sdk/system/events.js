@@ -1001,7 +1001,7 @@ WeakRefs
 see
 bug
 986115
-let
+var
 weakRefs
 =
 new
@@ -1025,7 +1025,7 @@ releasing
 on
 time
 !
-let
+var
 stillAlive
 =
 new

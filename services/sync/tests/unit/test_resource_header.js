@@ -87,7 +87,7 @@ run_next_test
 )
 ;
 }
-let
+var
 httpServer
 =
 new
@@ -158,12 +158,12 @@ for
 later
 inspection
 .
-let
+var
 auth
 =
 null
 ;
-let
+var
 foo
 =
 null

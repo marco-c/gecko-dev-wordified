@@ -435,7 +435,7 @@ for
 the
 downloads
 tests
-let
+var
 MockDownloadList
 =
 function

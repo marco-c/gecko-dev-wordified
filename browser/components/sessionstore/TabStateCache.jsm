@@ -329,7 +329,7 @@ newData
 }
 )
 ;
-let
+var
 TabStateCacheInternal
 =
 {

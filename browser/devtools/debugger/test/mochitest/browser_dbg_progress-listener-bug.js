@@ -63,12 +63,12 @@ bug
 .
 *
 /
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gOldListener
 ;
 const

@@ -331,7 +331,7 @@ hw
 default
 client
 .
-let
+var
 RILQUIRKS_RADIO_OFF_WO_CARD
 =
 libcutils

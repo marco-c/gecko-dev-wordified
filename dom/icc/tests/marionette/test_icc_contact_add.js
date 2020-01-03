@@ -40,7 +40,7 @@ head
 js
 "
 ;
-let
+var
 TEST_ADD_DATA
 =
 [

@@ -54,12 +54,12 @@ switching
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gSources
 gSearchBox
 ;

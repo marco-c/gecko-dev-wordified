@@ -99,7 +99,7 @@ MPL
 .
 *
 /
-let
+var
 tests
 =
 [
@@ -1828,7 +1828,7 @@ js
 .
 *
 /
-let
+var
 DataHelper
 =
 {

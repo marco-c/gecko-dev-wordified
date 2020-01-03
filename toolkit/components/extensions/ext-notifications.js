@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -52,7 +52,7 @@ Set
 Notification
 ]
 ]
-let
+var
 notificationsMap
 =
 new
@@ -69,7 +69,7 @@ Extension
 >
 callback
 ]
-let
+var
 notificationCallbacksMap
 =
 new
@@ -434,7 +434,7 @@ extension
 }
 )
 ;
-let
+var
 nextId
 =
 0

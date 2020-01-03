@@ -94,7 +94,7 @@ get
 p
 >
 directly
-let
+var
 p
 =
 document
@@ -163,7 +163,7 @@ expected
 /
 Modify
 page
-let
+var
 div
 =
 document

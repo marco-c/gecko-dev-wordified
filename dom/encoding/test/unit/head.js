@@ -639,7 +639,7 @@ false
 )
 ;
 }
-let
+var
 tests
 =
 [

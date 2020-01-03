@@ -60,7 +60,7 @@ fail
 the
 test
 .
-let
+var
 passedTests
 =
 0

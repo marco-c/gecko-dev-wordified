@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 secureURL
 =
 "
@@ -57,7 +57,7 @@ browser_star_hsts
 sjs
 "
 ;
-let
+var
 unsecureURL
 =
 "

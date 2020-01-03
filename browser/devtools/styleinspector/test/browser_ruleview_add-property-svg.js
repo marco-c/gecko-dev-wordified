@@ -64,7 +64,7 @@ the
 rules
 view
 .
-let
+var
 TEST_URL
 =
 "
@@ -83,7 +83,7 @@ warning
 svg
 "
 ;
-let
+var
 TEST_SELECTOR
 =
 "

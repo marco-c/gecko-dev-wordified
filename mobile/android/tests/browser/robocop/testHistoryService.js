@@ -152,7 +152,7 @@ get
 GC
 '
 d
-let
+var
 gTimer
 =
 Cc
@@ -447,7 +447,7 @@ compare
 in
 the
 tests
-let
+var
 gVisitURLs
 =
 [
@@ -508,7 +508,7 @@ the
 tests
 are
 happening
-let
+var
 gBrowser
 ;
 add_test

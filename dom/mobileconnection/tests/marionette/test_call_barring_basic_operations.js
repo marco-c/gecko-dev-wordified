@@ -61,7 +61,7 @@ MozMobileConnection
 .
 CALL_BARRING_PROGRAM_OUTGOING_INTERNATIONAL_EXCEPT_HOME
 ;
-let
+var
 outgoingPrograms
 =
 [
@@ -85,7 +85,7 @@ MozMobileConnection
 .
 CALL_BARRING_PROGRAM_INCOMING_ROAMING
 ;
-let
+var
 incomingPrograms
 =
 [

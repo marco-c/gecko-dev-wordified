@@ -320,7 +320,7 @@ jshint
 ignore
 :
 line
-let
+var
 OutputGenerator
 =
 {

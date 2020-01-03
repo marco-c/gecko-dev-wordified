@@ -68,7 +68,7 @@ with
 computed
 lists
 .
-let
+var
 TEST_URI
 =
 <

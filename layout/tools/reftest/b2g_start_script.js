@@ -242,7 +242,7 @@ ALLOW_ACTION
 )
 ;
 }
-let
+var
 cm
 =
 Cc
@@ -320,7 +320,7 @@ into
 any
 existing
 windows
-let
+var
 wm
 =
 Cc
@@ -347,7 +347,7 @@ Ci
 nsIWindowMediator
 )
 ;
-let
+var
 win
 =
 wm
@@ -393,7 +393,7 @@ for
 more
 details
 .
-let
+var
 reftest
 =
 {

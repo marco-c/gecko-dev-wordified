@@ -456,12 +456,12 @@ into
 the
 ether
 .
-let
+var
 errorCount
 =
 0
 ;
-let
+var
 listener
 =
 {
@@ -711,7 +711,7 @@ n
 }
 }
 ;
-let
+var
 consoleService
 =
 Cc

@@ -107,7 +107,7 @@ window
 property
 '
 check
-let
+var
 scope
 =
 {
@@ -135,7 +135,7 @@ jsm
 scope
 )
 ;
-let
+var
 TelemetrySession
 =
 scope

@@ -204,7 +204,7 @@ UI
 .
 *
 /
-let
+var
 ContextView
 =
 {

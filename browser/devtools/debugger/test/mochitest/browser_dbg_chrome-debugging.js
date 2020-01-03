@@ -54,11 +54,11 @@ statement
 html
 "
 ;
-let
+var
 gClient
 gThreadClient
 ;
-let
+var
 gAttached
 =
 promise
@@ -67,7 +67,7 @@ defer
 (
 )
 ;
-let
+var
 gNewGlobal
 =
 promise
@@ -75,7 +75,7 @@ promise
 defer
 (
 )
-let
+var
 gNewChromeSource
 =
 promise
@@ -83,7 +83,7 @@ promise
 defer
 (
 )
-let
+var
 {
 DevToolsLoader
 }
@@ -111,7 +111,7 @@ jsm
 }
 )
 ;
-let
+var
 loader
 =
 new
@@ -138,7 +138,7 @@ main
 "
 )
 ;
-let
+var
 DebuggerServer
 =
 loader

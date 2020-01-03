@@ -52,7 +52,7 @@ jsm
 "
 )
 ;
-let
+var
 ios
 =
 Cc
@@ -81,7 +81,7 @@ interfaces
 nsIIOService
 )
 ;
-let
+var
 pps
 =
 Cc
@@ -107,7 +107,7 @@ getService
 (
 )
 ;
-let
+var
 prefs
 =
 Cc
@@ -134,7 +134,7 @@ interfaces
 nsIPrefBranch
 )
 ;
-let
+var
 pgen
 =
 Cc

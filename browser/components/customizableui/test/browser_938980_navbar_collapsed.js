@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 bookmarksToolbar
 =
 document
@@ -73,7 +73,7 @@ PersonalToolbar
 "
 )
 ;
-let
+var
 navbar
 =
 document
@@ -87,7 +87,7 @@ bar
 "
 )
 ;
-let
+var
 tabsToolbar
 =
 document

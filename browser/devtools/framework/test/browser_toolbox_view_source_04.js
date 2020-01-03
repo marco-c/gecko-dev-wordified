@@ -40,7 +40,7 @@ works
 .
 *
 /
-let
+var
 URL
 =
 {

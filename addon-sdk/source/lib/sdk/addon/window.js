@@ -179,7 +179,7 @@ options
 "
 )
 ;
-let
+var
 addonPrincipal
 =
 Cc
@@ -202,7 +202,7 @@ Ci
 nsIPrincipal
 )
 ;
-let
+var
 hiddenWindow
 =
 getHiddenWindow
@@ -293,7 +293,7 @@ it
 s
 docShell
 .
-let
+var
 frame
 =
 makeFrame
@@ -332,7 +332,7 @@ allowPlugins
 true
 }
 )
-let
+var
 docShell
 =
 getDocShell
@@ -340,7 +340,7 @@ getDocShell
 frame
 )
 ;
-let
+var
 eventTarget
 =
 docShell
@@ -416,7 +416,7 @@ frames
 etc
 .
 .
-let
+var
 window
 =
 docShell
@@ -489,7 +489,7 @@ window
 is
 ready
 .
-let
+var
 {
 promise
 resolve

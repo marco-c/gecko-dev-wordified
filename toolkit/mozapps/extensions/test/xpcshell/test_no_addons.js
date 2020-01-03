@@ -76,7 +76,7 @@ get
 schema
 version
 ID
-let
+var
 XPIScope
 =
 Components

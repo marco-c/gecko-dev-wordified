@@ -214,7 +214,7 @@ Assert
 .
 jsm
 .
-let
+var
 Assert
 =
 null

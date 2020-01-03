@@ -83,12 +83,12 @@ infrequently
 visited
 site
 .
-let
+var
 gSSService
 =
 null
 ;
-let
+var
 gProfileDir
 =
 null

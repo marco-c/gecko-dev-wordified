@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 Log

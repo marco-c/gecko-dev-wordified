@@ -216,7 +216,7 @@ script
 >
 "
 ;
-let
+var
 test
 =
 asyncTest

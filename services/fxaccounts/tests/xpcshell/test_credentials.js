@@ -104,7 +104,7 @@ js
 "
 )
 ;
-let
+var
 {
 hexToBytes
 :
@@ -162,7 +162,7 @@ wiki
 test
 -
 vectors
-let
+var
 vectors
 =
 {

@@ -33,11 +33,11 @@ zero
 Tests
 devtools
 API
-let
+var
 toolbox
 target
 ;
-let
+var
 tempScope
 =
 {

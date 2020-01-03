@@ -641,7 +641,7 @@ cover
 .
 *
 /
-let
+var
 Policy
 =
 {
@@ -1184,7 +1184,7 @@ _infobarShownCallback
 }
 }
 ;
-let
+var
 TelemetryReportingPolicyImpl
 =
 {

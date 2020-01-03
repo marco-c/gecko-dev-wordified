@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-let
+var
 GP
 =
 {
@@ -130,7 +130,7 @@ actual
 ACE
 uses
 .
-let
+var
 containerTags
 =
 [

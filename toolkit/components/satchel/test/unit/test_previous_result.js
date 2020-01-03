@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 aaaListener
 =
 {
@@ -85,7 +85,7 @@ do_test_finished
 }
 }
 ;
-let
+var
 aaListener
 =
 {

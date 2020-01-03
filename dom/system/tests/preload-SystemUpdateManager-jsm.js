@@ -364,7 +364,7 @@ null
 }
 }
 ;
-let
+var
 factory
 =
 {
@@ -448,7 +448,7 @@ contractId
 factory
 )
 ;
-let
+var
 cm
 =
 Cc

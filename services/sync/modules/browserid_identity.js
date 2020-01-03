@@ -501,7 +501,7 @@ create
 one
 here
 .
-let
+var
 fxAccountsCommon
 =
 {

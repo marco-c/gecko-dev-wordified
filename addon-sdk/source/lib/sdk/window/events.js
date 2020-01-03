@@ -308,7 +308,7 @@ process
 of
 loading
 .
-let
+var
 opened
 =
 windows
@@ -321,7 +321,7 @@ true
 }
 )
 ;
-let
+var
 currentEvents
 =
 merge
@@ -390,7 +390,7 @@ domwindowclosed
 close
 "
 ;
-let
+var
 openEvents
 =
 map
@@ -404,7 +404,7 @@ domwindowopened
 rename
 )
 ;
-let
+var
 closeEvents
 =
 map
@@ -418,7 +418,7 @@ domwindowclosed
 rename
 )
 ;
-let
+var
 futureEvents
 =
 expand
@@ -436,7 +436,7 @@ target
 )
 )
 ;
-let
+var
 channel
 =
 merge

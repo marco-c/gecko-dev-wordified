@@ -105,7 +105,7 @@ org
 en
 /
 Using_the_Places_history_service
-let
+var
 visitedURIs
 =
 [

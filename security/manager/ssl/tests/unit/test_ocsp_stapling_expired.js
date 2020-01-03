@@ -140,12 +140,12 @@ and
 otherwise
 )
 .
-let
+var
 gCurrentOCSPResponse
 =
 null
 ;
-let
+var
 gOCSPRequestCount
 =
 0
@@ -259,7 +259,7 @@ enabled
 1
 )
 ;
-let
+var
 args
 =
 [
@@ -320,7 +320,7 @@ unused
 ]
 ]
 ;
-let
+var
 ocspResponses
 =
 generateOCSPResponses
@@ -339,7 +339,7 @@ certificate
 is
 good
 .
-let
+var
 ocspResponseGood
 =
 ocspResponses
@@ -355,7 +355,7 @@ certificate
 is
 good
 .
-let
+var
 expiredOCSPResponseGood
 =
 ocspResponses
@@ -374,7 +374,7 @@ certificate
 is
 good
 .
-let
+var
 oldValidityPeriodOCSPResponseGood
 =
 ocspResponses
@@ -390,7 +390,7 @@ certificate
 is
 revoked
 .
-let
+var
 ocspResponseRevoked
 =
 ocspResponses
@@ -406,7 +406,7 @@ certificate
 is
 unknown
 .
-let
+var
 ocspResponseUnknown
 =
 ocspResponses
@@ -425,7 +425,7 @@ without
 re
 -
 fetch
-let
+var
 willNotRetry
 =
 1
@@ -481,7 +481,7 @@ sha
 1
 telemetry
 )
-let
+var
 willRetry
 =
 4

@@ -117,7 +117,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -847,7 +847,7 @@ nsISmsMessenger
 "
 )
 ;
-let
+var
 DEBUG
 =
 RIL

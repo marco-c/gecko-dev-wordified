@@ -353,7 +353,7 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-let
+var
 permissionSpecificChecker
 =
 {

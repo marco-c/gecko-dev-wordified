@@ -69,7 +69,7 @@ test
 /
 "
 ;
-let
+var
 toolbox
 ;
 function

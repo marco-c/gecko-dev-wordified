@@ -1145,7 +1145,7 @@ being
 executed
 *
 /
-let
+var
 gCurrentTask
 =
 null
@@ -1176,7 +1176,7 @@ Task
 .
 *
 /
-let
+var
 gMaintainStack
 =
 false

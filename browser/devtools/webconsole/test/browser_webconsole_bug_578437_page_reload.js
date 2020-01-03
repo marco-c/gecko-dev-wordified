@@ -125,7 +125,7 @@ console
 html
 "
 ;
-let
+var
 browser
 ;
 function

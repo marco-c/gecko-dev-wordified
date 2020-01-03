@@ -726,7 +726,7 @@ finish
 )
 ;
 }
-let
+var
 observer
 =
 {

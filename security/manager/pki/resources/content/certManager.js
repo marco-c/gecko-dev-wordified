@@ -212,7 +212,7 @@ pem
 der
 "
 ;
-let
+var
 {
 NetUtil
 }
@@ -240,7 +240,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }

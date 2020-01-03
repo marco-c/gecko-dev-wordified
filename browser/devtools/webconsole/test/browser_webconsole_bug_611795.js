@@ -113,7 +113,7 @@ p
 >
 '
 ;
-let
+var
 hud
 ;
 /
@@ -137,7 +137,7 @@ one
 .
 *
 /
-let
+var
 test
 =
 asyncTest

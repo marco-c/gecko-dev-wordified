@@ -508,7 +508,7 @@ PREF_TELEMETRY_UNIFIED
 false
 )
 ;
-let
+var
 gLogAppenderDump
 =
 null
@@ -551,7 +551,7 @@ uninit
 }
 )
 ;
-let
+var
 SelfSupportBackendInternal
 =
 {

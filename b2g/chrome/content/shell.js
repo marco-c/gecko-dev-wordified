@@ -5580,7 +5580,7 @@ pressure
 false
 )
 ;
-let
+var
 permissionMap
 =
 new
@@ -5630,7 +5630,7 @@ PROMPT_ACTION
 ]
 )
 ;
-let
+var
 permissionMapRev
 =
 new
@@ -6145,7 +6145,7 @@ break
 }
 }
 }
-let
+var
 DoCommandHelper
 =
 {
@@ -6700,7 +6700,7 @@ break
 }
 }
 }
-let
+var
 KeyboardHelper
 =
 {
@@ -6768,7 +6768,7 @@ break
 }
 }
 ;
-let
+var
 SystemAppMozBrowserHelper
 =
 {

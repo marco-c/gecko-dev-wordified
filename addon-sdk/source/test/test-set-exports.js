@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 four
 =
 require
@@ -114,7 +114,7 @@ exports
 that
 failed
 .
-let
+var
 five
 =
 require

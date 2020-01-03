@@ -56,7 +56,7 @@ after
 .
 *
 /
-let
+var
 test
 =
 Task

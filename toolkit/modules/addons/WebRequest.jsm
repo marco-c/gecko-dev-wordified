@@ -379,7 +379,7 @@ return
 result
 ;
 }
-let
+var
 ContentPolicyManager
 =
 {
@@ -915,7 +915,7 @@ args
 }
 }
 ;
-let
+var
 HttpObserverManager
 =
 {
@@ -2165,7 +2165,7 @@ onStop
 }
 }
 ;
-let
+var
 onBeforeRequest
 =
 {
@@ -2234,7 +2234,7 @@ callback
 }
 }
 ;
-let
+var
 onBeforeSendHeaders
 =
 {
@@ -2304,7 +2304,7 @@ callback
 }
 }
 ;
-let
+var
 onSendHeaders
 =
 {
@@ -2371,7 +2371,7 @@ callback
 }
 }
 ;
-let
+var
 onHeadersReceived
 =
 {
@@ -2441,7 +2441,7 @@ callback
 }
 }
 ;
-let
+var
 onResponseStarted
 =
 {
@@ -2508,7 +2508,7 @@ callback
 }
 }
 ;
-let
+var
 onCompleted
 =
 {
@@ -2575,7 +2575,7 @@ callback
 }
 }
 ;
-let
+var
 WebRequest
 =
 {

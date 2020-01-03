@@ -57,7 +57,7 @@ js
 "
 )
 ;
-let
+var
 PromiseWorker
 =
 require
@@ -79,7 +79,7 @@ js
 "
 )
 ;
-let
+var
 worker
 =
 new
@@ -208,7 +208,7 @@ msg
 )
 )
 ;
-let
+var
 Agent
 =
 {

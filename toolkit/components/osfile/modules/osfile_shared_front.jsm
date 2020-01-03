@@ -135,7 +135,7 @@ function
 exports
 )
 {
-let
+var
 SharedAll
 =
 require
@@ -157,7 +157,7 @@ jsm
 "
 )
 ;
-let
+var
 Path
 =
 require
@@ -179,7 +179,7 @@ jsm
 "
 )
 ;
-let
+var
 Lz4
 =
 require
@@ -201,7 +201,7 @@ js
 "
 )
 ;
-let
+var
 LOG
 =
 SharedAll
@@ -219,7 +219,7 @@ end
 "
 )
 ;
-let
+var
 clone
 =
 SharedAll
@@ -273,7 +273,7 @@ reporting
 constructor
 *
 /
-let
+var
 AbstractFile
 =
 function

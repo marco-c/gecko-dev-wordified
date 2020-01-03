@@ -52,7 +52,7 @@ bug
 .
 *
 /
-let
+var
 proxyPrefValue
 ;
 function

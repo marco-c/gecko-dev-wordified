@@ -604,7 +604,7 @@ finish
 )
 ;
 }
-let
+var
 gOnSearchComplete
 =
 null

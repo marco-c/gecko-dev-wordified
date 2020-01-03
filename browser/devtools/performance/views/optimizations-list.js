@@ -169,7 +169,7 @@ jit
 js
 *
 /
-let
+var
 OptimizationsListView
 =
 {

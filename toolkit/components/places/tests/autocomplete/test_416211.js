@@ -83,7 +83,7 @@ title
 .
 *
 /
-let
+var
 theTag
 =
 "
@@ -106,7 +106,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -120,7 +120,7 @@ theuri
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -189,7 +189,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

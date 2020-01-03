@@ -1612,7 +1612,7 @@ changed
 .
 *
 /
-let
+var
 mockPushHandler
 =
 {

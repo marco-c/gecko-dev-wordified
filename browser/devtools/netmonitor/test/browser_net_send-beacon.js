@@ -40,7 +40,7 @@ correctly
 .
 *
 /
-let
+var
 test
 =
 Task

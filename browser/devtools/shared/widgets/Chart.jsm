@@ -300,7 +300,7 @@ methods
 .
 *
 /
-let
+var
 L10N
 =
 new
@@ -342,7 +342,7 @@ document
 ;
 *
 /
-let
+var
 Chart
 =
 {

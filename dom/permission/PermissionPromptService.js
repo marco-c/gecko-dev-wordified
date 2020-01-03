@@ -67,12 +67,12 @@ static
 functions
 *
 /
-let
+var
 DEBUG
 =
 0
 ;
-let
+var
 debug
 ;
 if

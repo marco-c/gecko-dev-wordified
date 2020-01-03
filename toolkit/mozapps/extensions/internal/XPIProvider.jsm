@@ -2052,7 +2052,7 @@ AddonManager
 .
 jsm
 )
-let
+var
 logger
 =
 Log
@@ -7723,7 +7723,7 @@ install
 manifest
 *
 /
-let
+var
 loadManifestFromDir
 =
 Task
@@ -8167,7 +8167,7 @@ install
 manifest
 *
 /
-let
+var
 loadManifestFromZipReader
 =
 Task
@@ -8552,7 +8552,7 @@ install
 manifest
 *
 /
-let
+var
 loadManifestFromZipFile
 =
 Task
@@ -48557,7 +48557,7 @@ endif
 }
 )
 ;
-let
+var
 addonTypes
 =
 [

@@ -95,10 +95,10 @@ for
 our
 server
 .
-let
+var
 numTokenFetches
 ;
-let
+var
 activeTokens
 ;
 function

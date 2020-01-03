@@ -38,7 +38,7 @@ for
 asyncExecuteLegacyQueries
 API
 .
-let
+var
 tests
 =
 [

@@ -111,7 +111,7 @@ add_visit
 used
 by
 check_results
-let
+var
 visit_count
 =
 0

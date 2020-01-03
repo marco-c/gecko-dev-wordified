@@ -519,7 +519,7 @@ hist
 }
 ;
 }
-let
+var
 stopWatchStart
 =
 stopWatch
@@ -529,7 +529,7 @@ start
 "
 )
 ;
-let
+var
 stopWatchCancel
 =
 stopWatch
@@ -539,7 +539,7 @@ cancel
 "
 )
 ;
-let
+var
 stopWatchFinish
 =
 stopWatch
@@ -746,7 +746,7 @@ API
 .
 *
 /
-let
+var
 SessionSaverInternal
 =
 {

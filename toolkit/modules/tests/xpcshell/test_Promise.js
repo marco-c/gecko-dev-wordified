@@ -214,7 +214,7 @@ clearUncaughtErrorObservers
 /
 Test
 runner
-let
+var
 run_promise_tests
 =
 function
@@ -371,7 +371,7 @@ loop
 ;
 }
 ;
-let
+var
 make_promise_test
 =
 function
@@ -758,7 +758,7 @@ reject
 /
 /
 Tests
-let
+var
 tests
 =
 [
@@ -791,7 +791,7 @@ is
 not
 returned
 .
-let
+var
 observe_failures
 =
 function

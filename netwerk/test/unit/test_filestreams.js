@@ -27,14 +27,14 @@ zero
 /
 *
 /
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components
@@ -1960,7 +1960,7 @@ true
 /
 Test
 Runner
-let
+var
 tests
 =
 [

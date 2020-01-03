@@ -153,7 +153,7 @@ be
 for
 it
 .
-let
+var
 getNodeView
 =
 method
@@ -201,7 +201,7 @@ viewFor
 =
 getNodeView
 ;
-let
+var
 getActiveView
 =
 method

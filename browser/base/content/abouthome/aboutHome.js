@@ -240,7 +240,7 @@ SNIPPETS_OBJECTSTORE_NAME
 snippets
 "
 ;
-let
+var
 searchText
 findKey
 ;
@@ -261,12 +261,12 @@ to
 prevent
 double
 inits
-let
+var
 gInitialized
 =
 false
 ;
-let
+var
 gObserver
 =
 new
@@ -594,10 +594,10 @@ to
 use
 it
 .
-let
+var
 gSnippetsMap
 ;
-let
+var
 gSnippetsMapCallbacks
 =
 [
@@ -1202,7 +1202,7 @@ aEvent
 )
 ;
 }
-let
+var
 gContentSearchController
 ;
 function
@@ -1806,7 +1806,7 @@ exception
 .
 *
 /
-let
+var
 _snippetsShown
 =
 false

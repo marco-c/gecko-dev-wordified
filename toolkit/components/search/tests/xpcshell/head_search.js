@@ -1657,7 +1657,7 @@ resolve
 )
 ;
 }
-let
+var
 forceExpiration
 =
 Task
@@ -2700,7 +2700,7 @@ slash
 .
 *
 /
-let
+var
 gDataUrl
 ;
 /
@@ -2939,7 +2939,7 @@ xmlFileName
 }
 *
 /
-let
+var
 addTestEngines
 =
 Task

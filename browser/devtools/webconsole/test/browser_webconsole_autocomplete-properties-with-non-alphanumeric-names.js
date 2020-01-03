@@ -72,7 +72,7 @@ bug
 967468
 )
 .
-let
+var
 test
 =
 asyncTest

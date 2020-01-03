@@ -211,7 +211,7 @@ nsIAppsService
 }
 )
 ;
-let
+var
 Utils
 =
 {

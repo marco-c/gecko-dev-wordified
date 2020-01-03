@@ -108,7 +108,7 @@ events
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

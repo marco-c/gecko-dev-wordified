@@ -366,7 +366,7 @@ protocol
 .
 *
 /
-let
+var
 MessagePortActor
 =
 exports
@@ -980,7 +980,7 @@ MessagePortActor
 .
 *
 /
-let
+var
 MessagePortFront
 =
 exports
@@ -1286,7 +1286,7 @@ navigation
 .
 *
 /
-let
+var
 DirectorScriptActor
 =
 exports
@@ -2479,7 +2479,7 @@ DirectorScriptActor
 .
 *
 /
-let
+var
 DirectorScriptFront
 =
 exports

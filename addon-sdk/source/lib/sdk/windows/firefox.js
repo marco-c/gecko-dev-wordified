@@ -1215,7 +1215,7 @@ window
 )
 ;
 }
-let
+var
 windowEventListener
 =
 (

@@ -72,7 +72,7 @@ for
 bug
 921252
 .
-let
+var
 gTab
 gPanel
 gClient

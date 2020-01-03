@@ -246,7 +246,7 @@ Security
 InsecurePasswords
 "
 ;
-let
+var
 test
 =
 asyncTest

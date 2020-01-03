@@ -3776,7 +3776,7 @@ cancelable
 }
 }
 ;
-let
+var
 PromptUtils
 =
 {

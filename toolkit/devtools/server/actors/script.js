@@ -23677,7 +23677,7 @@ message
 .
 *
 /
-let
+var
 oldReportError
 =
 reportError

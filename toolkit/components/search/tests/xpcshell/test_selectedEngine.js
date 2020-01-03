@@ -67,7 +67,7 @@ in
 head_search
 .
 js
-let
+var
 waitForNotification
 =
 waitForSearchNotification

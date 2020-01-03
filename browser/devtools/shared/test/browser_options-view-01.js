@@ -112,7 +112,7 @@ pretty
 print
 "
 ;
-let
+var
 originalBlackBox
 =
 Services
@@ -126,7 +126,7 @@ BRANCH
 BLACK_BOX_PREF
 )
 ;
-let
+var
 originalPrettyPrint
 =
 Services

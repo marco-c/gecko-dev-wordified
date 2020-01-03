@@ -78,7 +78,7 @@ jsm
 this
 )
 ;
-let
+var
 chatbar
 =
 document

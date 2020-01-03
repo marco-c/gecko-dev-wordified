@@ -149,7 +149,7 @@ js
 "
 )
 ;
-let
+var
 BrowserWindows
 =
 {

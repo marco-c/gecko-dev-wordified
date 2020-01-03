@@ -58,12 +58,12 @@ expressions
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gL10N
 gEditor
 gVars

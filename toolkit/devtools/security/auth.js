@@ -107,7 +107,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cc
@@ -120,7 +120,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -130,7 +130,7 @@ Services
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -140,7 +140,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -154,7 +154,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 dumpn
 dumpv
@@ -363,7 +363,7 @@ choose
 .
 *
 /
-let
+var
 AuthenticationResult
 =
 exports
@@ -595,7 +595,7 @@ case
 .
 *
 /
-let
+var
 Authenticators
 =
 {
@@ -658,7 +658,7 @@ trusted
 .
 *
 /
-let
+var
 Prompt
 =
 Authenticators
@@ -1586,7 +1586,7 @@ design
 .
 *
 /
-let
+var
 OOBCert
 =
 Authenticators

@@ -61,7 +61,7 @@ use
 strict
 '
 ;
-let
+var
 {
 Loader
 }

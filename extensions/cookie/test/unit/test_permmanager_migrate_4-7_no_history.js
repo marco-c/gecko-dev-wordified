@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 PERMISSIONS_FILE_NAME
 =
 "
@@ -50,7 +50,7 @@ the
 migration
 *
 /
-let
+var
 CONTRACT_ID
 =
 "
@@ -69,7 +69,7 @@ service
 1
 "
 ;
-let
+var
 factory
 =
 {
@@ -121,7 +121,7 @@ nsIFactory
 )
 }
 ;
-let
+var
 newClassID
 =
 Cc
@@ -150,7 +150,7 @@ generateUUID
 (
 )
 ;
-let
+var
 registrar
 =
 Components
@@ -164,7 +164,7 @@ Ci
 nsIComponentRegistrar
 )
 ;
-let
+var
 oldClassID
 =
 registrar
@@ -174,7 +174,7 @@ contractIDToCID
 CONTRACT_ID
 )
 ;
-let
+var
 oldFactory
 =
 Components

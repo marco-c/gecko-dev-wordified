@@ -79,7 +79,7 @@ p
 >
 "
 ;
-let
+var
 {
 Task
 }
@@ -105,7 +105,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Tools
 }
@@ -117,7 +117,7 @@ main
 "
 )
 ;
-let
+var
 {
 isTargetSupported
 }

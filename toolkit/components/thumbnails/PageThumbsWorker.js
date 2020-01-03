@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-let
+var
 PromiseWorker
 =
 require
@@ -152,14 +152,14 @@ js
 "
 )
 ;
-let
+var
 File
 =
 OS
 .
 File
 ;
-let
+var
 Type
 =
 OS
@@ -168,7 +168,7 @@ Shared
 .
 Type
 ;
-let
+var
 worker
 =
 new
@@ -265,7 +265,7 @@ msg
 )
 )
 ;
-let
+var
 Agent
 =
 {

@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 CP
 =
 {
@@ -236,7 +236,7 @@ clause
 1
 *
 /
-let
+var
 text_data_array
 =
 new
@@ -2281,7 +2281,7 @@ Appendix
 C
 *
 /
-let
+var
 wbxml_data_array
 =
 new
@@ -3637,7 +3637,7 @@ page
 change
 *
 /
-let
+var
 wbxml_code_page_data_array
 =
 new
@@ -4173,7 +4173,7 @@ clause
 1
 *
 /
-let
+var
 xml_header
 =
 "
@@ -4241,7 +4241,7 @@ dtd
 >
 "
 ;
-let
+var
 xml_body
 =
 "
@@ -5251,7 +5251,7 @@ provisioningdoc
 >
 "
 ;
-let
+var
 wbxml_code_page_content
 =
 "

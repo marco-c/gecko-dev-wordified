@@ -400,7 +400,7 @@ method
 .
 *
 /
-let
+var
 Monitor
 =
 {

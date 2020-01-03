@@ -88,7 +88,7 @@ state
 .
 *
 /
-let
+var
 gUndoDialog
 =
 {

@@ -42,7 +42,7 @@ activates
 the
 relevant
 menuitem
-let
+var
 gItemsToTest
 =
 {

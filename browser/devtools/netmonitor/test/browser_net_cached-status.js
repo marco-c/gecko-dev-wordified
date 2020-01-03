@@ -127,7 +127,7 @@ status
 code
 *
 /
-let
+var
 test
 =
 Task

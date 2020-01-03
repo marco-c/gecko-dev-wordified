@@ -177,7 +177,7 @@ atob
 in
 xpcshell
 .
-let
+var
 basicauth
 =
 {
@@ -241,7 +241,7 @@ change_password
 (
 )
 .
-let
+var
 server_password
 ;
 function

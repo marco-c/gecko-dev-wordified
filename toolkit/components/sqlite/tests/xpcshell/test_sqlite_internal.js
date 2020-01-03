@@ -48,7 +48,7 @@ jsm
 "
 )
 ;
-let
+var
 WORKER_SOURCE_URI
 =
 "

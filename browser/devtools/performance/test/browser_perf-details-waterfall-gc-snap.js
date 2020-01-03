@@ -1022,7 +1022,7 @@ gcMarker
 ;
 }
 }
-let
+var
 GC_MARKERS
 =
 [

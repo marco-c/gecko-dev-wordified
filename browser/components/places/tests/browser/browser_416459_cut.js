@@ -383,7 +383,7 @@ UnfiledBookmarks
 }
 )
 ;
-let
+var
 selectBookmarksIn
 =
 Task

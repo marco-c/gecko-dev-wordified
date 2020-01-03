@@ -71,7 +71,7 @@ js
 "
 )
 ;
-let
+var
 prefs
 =
 new

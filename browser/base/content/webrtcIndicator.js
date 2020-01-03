@@ -125,7 +125,7 @@ webrtcIndicator
 properties
 "
 ;
-let
+var
 gStringBundle
 ;
 function
@@ -843,7 +843,7 @@ focus
 )
 ;
 }
-let
+var
 PositionHandler
 =
 {

@@ -194,7 +194,7 @@ bookmarkProperties
 description
 "
 ;
-let
+var
 engine
 =
 Service
@@ -208,7 +208,7 @@ bookmarks
 "
 )
 ;
-let
+var
 store
 =
 engine
@@ -223,7 +223,7 @@ from
 Bug
 631361
 .
-let
+var
 record631361
 =
 {

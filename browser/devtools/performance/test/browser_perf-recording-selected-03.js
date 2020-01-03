@@ -75,7 +75,7 @@ Bug
 .
 *
 /
-let
+var
 test
 =
 Task

@@ -106,7 +106,7 @@ do_get_profile
 (
 )
 ;
-let
+var
 DownloadListener
 =
 {
@@ -841,7 +841,7 @@ httpserver
 =
 null
 ;
-let
+var
 currentTest
 =
 0
@@ -1733,7 +1733,7 @@ decodedBody
 )
 ;
 }
-let
+var
 tests
 =
 [

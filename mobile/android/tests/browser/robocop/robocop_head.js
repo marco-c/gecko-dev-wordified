@@ -278,7 +278,7 @@ on
 parent
 or
 child
-let
+var
 runningInParent
 =
 true
@@ -5158,7 +5158,7 @@ in
 .
 *
 /
-let
+var
 _gTests
 =
 [
@@ -5207,7 +5207,7 @@ for
 all
 tests
 .
-let
+var
 _Task
 ;
 /
@@ -5529,12 +5529,12 @@ tests
 .
 *
 /
-let
+var
 _gRunningTest
 =
 null
 ;
-let
+var
 _gTestIndex
 =
 0

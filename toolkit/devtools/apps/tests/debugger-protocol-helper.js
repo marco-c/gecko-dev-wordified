@@ -158,7 +158,7 @@ jsm
 "
 )
 ;
-let
+var
 gClient
 gActor
 ;
@@ -1043,7 +1043,7 @@ aResponse
 }
 )
 ;
-let
+var
 Frames
 =
 [
@@ -1335,7 +1335,7 @@ close
 }
 )
 ;
-let
+var
 FramesMock
 =
 {

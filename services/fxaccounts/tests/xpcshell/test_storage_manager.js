@@ -2806,7 +2806,7 @@ the
 blocked
 promise
 .
-let
+var
 setupStorageManagerForQueueTest
 =
 Task

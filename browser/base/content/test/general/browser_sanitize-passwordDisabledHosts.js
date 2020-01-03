@@ -25,7 +25,7 @@ Clear
 Recent
 History
 dialog
-let
+var
 tempScope
 =
 {
@@ -73,7 +73,7 @@ js
 tempScope
 )
 ;
-let
+var
 Sanitizer
 =
 tempScope

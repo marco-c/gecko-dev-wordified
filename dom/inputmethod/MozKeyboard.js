@@ -209,7 +209,7 @@ ipcHelper
 .
 *
 /
-let
+var
 WindowMap
 =
 {
@@ -651,7 +651,7 @@ null
 }
 }
 ;
-let
+var
 cpmmSendAsyncMessageWithKbID
 =
 function

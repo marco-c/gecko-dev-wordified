@@ -338,7 +338,7 @@ consumption
 .
 *
 /
-let
+var
 Memory
 =
 exports

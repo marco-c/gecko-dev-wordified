@@ -141,7 +141,7 @@ n
 ;
 }
 }
-let
+var
 scope
 =
 {

@@ -289,7 +289,7 @@ picker
 }
 ]
 ;
-let
+var
 initialWidth
 ;
 /

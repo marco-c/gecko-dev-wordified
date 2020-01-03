@@ -66,7 +66,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Tools
 }
@@ -78,7 +78,7 @@ definitions
 "
 )
 ;
-let
+var
 test
 =
 asyncTest

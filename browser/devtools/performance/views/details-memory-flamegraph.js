@@ -84,7 +84,7 @@ DetailsView
 .
 *
 /
-let
+var
 MemoryFlameGraphView
 =
 Heritage

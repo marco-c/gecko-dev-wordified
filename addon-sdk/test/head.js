@@ -149,7 +149,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Loader
 main
@@ -160,7 +160,7 @@ unload
 =
 LoaderModule
 ;
-let
+var
 CURRENT_DIR
 =
 gTestPath
@@ -185,7 +185,7 @@ js
 '
 )
 ;
-let
+var
 loaders
 =
 [
@@ -202,7 +202,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 gEnableLogging
 =
 Services

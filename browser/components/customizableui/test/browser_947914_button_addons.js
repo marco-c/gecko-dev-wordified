@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 initialLocation
 =
 gBrowser
@@ -70,7 +70,7 @@ currentURI
 .
 spec
 ;
-let
+var
 newTab
 =
 null

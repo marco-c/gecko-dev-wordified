@@ -87,7 +87,7 @@ push
 .
 debug
 .
-let
+var
 gDebuggingEnabled
 =
 false

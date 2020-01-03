@@ -178,7 +178,7 @@ com
 ]
 }
 ;
-let
+var
 log
 =
 Cu
@@ -214,7 +214,7 @@ TabMirror
 "
 )
 ;
-let
+var
 failure
 =
 function
@@ -239,7 +239,7 @@ x
 ;
 }
 ;
-let
+var
 TabMirror
 =
 function

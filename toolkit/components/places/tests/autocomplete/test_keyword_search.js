@@ -143,7 +143,7 @@ for
 the
 keyword
 bookmark
-let
+var
 keyBase
 =
 "
@@ -158,7 +158,7 @@ search
 =
 "
 ;
-let
+var
 keyKey
 =
 "
@@ -175,7 +175,7 @@ with
 the
 same
 keyword
-let
+var
 otherBase
 =
 "
@@ -190,13 +190,13 @@ foo
 =
 "
 ;
-let
+var
 unescaped
 =
 "
 "
 ;
-let
+var
 pageInHistory
 =
 "
@@ -219,7 +219,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -273,7 +273,7 @@ twoKey
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -417,7 +417,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

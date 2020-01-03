@@ -99,10 +99,10 @@ script
 >
 '
 ;
-let
+var
 contentWindow
 ;
-let
+var
 activeGroup
 ;
 Components

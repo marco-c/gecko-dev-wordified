@@ -171,7 +171,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -198,7 +198,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -226,7 +226,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -242,7 +242,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -257,7 +257,7 @@ framework
 toolbox
 "
 )
-let
+var
 promise
 =
 require
@@ -267,7 +267,7 @@ promise
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -285,10 +285,10 @@ main
 "
 )
 ;
-let
+var
 gClient
 ;
-let
+var
 gConnectionTimeout
 ;
 XPCOMUtils
@@ -548,7 +548,7 @@ clicked
 .
 *
 /
-let
+var
 submit
 =
 Task
@@ -805,7 +805,7 @@ buttons
 .
 *
 /
-let
+var
 onConnectionReady
 =
 Task

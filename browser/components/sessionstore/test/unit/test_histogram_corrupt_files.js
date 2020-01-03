@@ -110,7 +110,7 @@ the
 session
 file
 .
-let
+var
 profd
 =
 do_get_profile

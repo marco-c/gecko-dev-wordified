@@ -352,7 +352,7 @@ wl0
 1
 "
 ;
-let
+var
 debug
 ;
 function

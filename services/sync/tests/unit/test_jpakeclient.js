@@ -323,10 +323,10 @@ return
 cid
 ;
 }
-let
+var
 server
 ;
-let
+var
 channels
 =
 {
@@ -398,7 +398,7 @@ length
 )
 ;
 }
-let
+var
 error_report
 ;
 function
@@ -519,7 +519,7 @@ for
 test
 code
 .
-let
+var
 hooks
 =
 {
@@ -1016,7 +1016,7 @@ everything
 .
 *
 /
-let
+var
 BaseController
 =
 {

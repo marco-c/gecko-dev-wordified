@@ -75,7 +75,7 @@ UI
 .
 *
 /
-let
+var
 AutomationView
 =
 {

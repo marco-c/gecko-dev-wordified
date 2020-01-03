@@ -124,7 +124,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -158,7 +158,7 @@ page4
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -258,7 +258,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

@@ -197,7 +197,7 @@ pages
 .
 *
 /
-let
+var
 current_test
 =
 0
@@ -338,7 +338,7 @@ aSpec
 )
 ;
 }
-let
+var
 appendTags
 =
 true
@@ -1148,7 +1148,7 @@ not
 too
 long
 ago
-let
+var
 gDate
 =
 new
@@ -1178,7 +1178,7 @@ info
 for
 each
 uri
-let
+var
 gPages
 =
 [
@@ -1195,7 +1195,7 @@ before
 the
 next
 test
-let
+var
 gNextTestSetupTasks
 =
 [

@@ -914,7 +914,7 @@ exception
 .
 *
 /
-let
+var
 promiseVerifyTarget
 =
 Task
@@ -10937,7 +10937,7 @@ exception
 .
 *
 /
-let
+var
 promiseBlockedDownload
 =
 Task

@@ -46,7 +46,7 @@ selection
 or
 cursor
 .
-let
+var
 LineGraphWidget
 =
 require

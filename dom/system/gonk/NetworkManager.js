@@ -508,7 +508,7 @@ nsIProtocolProxyService
 .
 PROXYCONFIG_PAC
 ;
-let
+var
 debug
 ;
 function
@@ -6913,7 +6913,7 @@ type
 }
 }
 ;
-let
+var
 CaptivePortalDetectionHelper
 =
 (

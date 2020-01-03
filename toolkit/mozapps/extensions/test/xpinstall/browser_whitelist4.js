@@ -106,7 +106,7 @@ the
 target
 is
 .
-let
+var
 URL
 =
 TESTROOT2

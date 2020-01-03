@@ -68,7 +68,7 @@ kButton
 test_button_for_addon
 "
 ;
-let
+var
 initialLocation
 =
 gBrowser

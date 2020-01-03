@@ -134,7 +134,7 @@ jsm
 }
 )
 ;
-let
+var
 gTimerArgs
 =
 [
@@ -167,7 +167,7 @@ length
 ;
 }
 ;
-let
+var
 gRoomPatches
 =
 [

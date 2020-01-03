@@ -56,7 +56,7 @@ Components
 .
 results
 ;
-let
+var
 gDirSvc
 =
 Cc
@@ -88,7 +88,7 @@ Ci
 nsIProperties
 )
 ;
-let
+var
 gChromeReg
 =
 Cc
@@ -115,7 +115,7 @@ Ci
 nsIXULChromeRegistry
 )
 ;
-let
+var
 gPrefs
 =
 Cc

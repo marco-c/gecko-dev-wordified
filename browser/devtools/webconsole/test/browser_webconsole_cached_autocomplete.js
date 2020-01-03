@@ -130,10 +130,10 @@ autocompletion
 results
 "
 ;
-let
+var
 jsterm
 ;
-let
+var
 test
 =
 asyncTest

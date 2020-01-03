@@ -6489,7 +6489,7 @@ FlameGraph
 .
 *
 /
-let
+var
 FlameGraphUtils
 =
 {

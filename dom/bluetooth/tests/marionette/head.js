@@ -497,10 +497,10 @@ this
 )
 ;
 }
-let
+var
 bluetoothManager
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0

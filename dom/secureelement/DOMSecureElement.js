@@ -531,7 +531,7 @@ do
 promises
 related
 chores
-let
+var
 PromiseHelpers
 ;
 /

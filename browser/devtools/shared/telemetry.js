@@ -425,7 +425,7 @@ exports
 =
 Telemetry
 ;
-let
+var
 {
 Cc
 Ci
@@ -439,7 +439,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 Services
 }
@@ -465,7 +465,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 XPCOMUtils
 }

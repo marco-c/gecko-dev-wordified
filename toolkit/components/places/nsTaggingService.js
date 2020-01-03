@@ -4446,7 +4446,7 @@ nsIAutoCompleteSearch
 )
 }
 ;
-let
+var
 component
 =
 [

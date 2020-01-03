@@ -172,7 +172,7 @@ logging
 function
 *
 /
-let
+var
 debug
 =
 true

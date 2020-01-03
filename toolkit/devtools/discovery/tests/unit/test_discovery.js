@@ -219,7 +219,7 @@ ports
 to
 TestTransport
 instances
-let
+var
 gTestTransports
 =
 {

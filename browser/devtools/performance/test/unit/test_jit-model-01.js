@@ -322,7 +322,7 @@ data
 }
 )
 ;
-let
+var
 gStringTable
 =
 new
@@ -347,7 +347,7 @@ s
 )
 ;
 }
-let
+var
 gRawSite1
 =
 {
@@ -517,7 +517,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite2
 =
 {
@@ -608,7 +608,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite3
 =
 {

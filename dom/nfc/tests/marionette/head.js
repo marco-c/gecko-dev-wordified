@@ -34,7 +34,7 @@ SpecialPowers
 .
 Cu
 ;
-let
+var
 Promise
 =
 Cu
@@ -58,7 +58,7 @@ jsm
 .
 Promise
 ;
-let
+var
 nfc
 =
 window
@@ -89,7 +89,7 @@ helper
 .
 *
 /
-let
+var
 emulator
 =
 (
@@ -241,7 +241,7 @@ T4T_RE_INDEX
 )
 )
 ;
-let
+var
 sysMsgHelper
 =
 (
@@ -497,7 +497,7 @@ sendFile
 )
 )
 ;
-let
+var
 NCI
 =
 (
@@ -747,7 +747,7 @@ MORE_NOTIFICATIONS
 )
 )
 ;
-let
+var
 TAG
 =
 (
@@ -946,7 +946,7 @@ clearData
 )
 )
 ;
-let
+var
 SNEP
 =
 (

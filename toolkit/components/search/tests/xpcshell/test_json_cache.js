@@ -59,7 +59,7 @@ for
 the
 test
 .
-let
+var
 gMetadata
 =
 {
@@ -114,7 +114,7 @@ get
 .
 *
 /
-let
+var
 _dirSvc
 =
 null
@@ -210,7 +210,7 @@ null
 )
 ;
 }
-let
+var
 cacheTemplate
 appPluginsPath
 profPlugins
@@ -1685,7 +1685,7 @@ removed
 }
 )
 ;
-let
+var
 EXPECTED_ENGINE
 =
 {

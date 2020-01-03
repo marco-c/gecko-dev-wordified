@@ -150,7 +150,7 @@ the
 plural
 mapping
 function
-let
+var
 pluralMappingFunction
 =
 getRulesForLocale

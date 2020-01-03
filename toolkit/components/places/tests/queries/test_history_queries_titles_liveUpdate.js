@@ -47,7 +47,7 @@ history
 /
 query
 .
-let
+var
 gNow
 =
 Date
@@ -56,7 +56,7 @@ now
 (
 )
 ;
-let
+var
 gTestData
 =
 [

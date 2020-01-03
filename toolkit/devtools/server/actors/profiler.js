@@ -343,7 +343,7 @@ documentation
 .
 *
 /
-let
+var
 ProfilerActor
 =
 exports

@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -85,7 +85,7 @@ js
 RIL
 )
 ;
-let
+var
 MMS
 =
 {
@@ -245,7 +245,7 @@ DISABLE_MMS_GROUPING_FOR_RECEIVING
 =
 true
 ;
-let
+var
 LEGACY
 =
 {

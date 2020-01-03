@@ -50,7 +50,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -76,7 +76,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }
@@ -102,7 +102,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -129,7 +129,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -157,7 +157,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 CurlUtils
 }
@@ -184,7 +184,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -194,7 +194,7 @@ promise
 "
 )
 ;
-let
+var
 NetworkHelper
 =
 require
@@ -212,7 +212,7 @@ helper
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -226,7 +226,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -242,7 +242,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }

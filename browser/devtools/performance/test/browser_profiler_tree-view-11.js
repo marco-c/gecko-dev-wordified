@@ -52,7 +52,7 @@ with
 optimizations
 *
 /
-let
+var
 {
 CATEGORY_MASK
 }
@@ -500,7 +500,7 @@ rendered
 ;
 }
 }
-let
+var
 gUniqueStacks
 =
 new
@@ -560,7 +560,7 @@ into
 the
 profile
 .
-let
+var
 gThread
 =
 RecordingUtils
@@ -713,7 +713,7 @@ gUniqueStacks
 /
 3
 RawOptimizationSites
-let
+var
 gRawSite1
 =
 {

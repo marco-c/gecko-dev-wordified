@@ -110,7 +110,7 @@ jsm
 "
 )
 ;
-let
+var
 store
 =
 new

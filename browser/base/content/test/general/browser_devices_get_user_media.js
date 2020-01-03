@@ -1357,7 +1357,7 @@ operation
 .
 "
 ;
-let
+var
 gTests
 =
 [

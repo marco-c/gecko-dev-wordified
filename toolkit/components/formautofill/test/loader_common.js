@@ -698,7 +698,7 @@ jsm
 "
 )
 ;
-let
+var
 gTerminationTasks
 =
 [
@@ -901,7 +901,7 @@ mochitest
 -
 browser
 .
-let
+var
 _mochitestAssert
 =
 {

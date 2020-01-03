@@ -470,7 +470,7 @@ nsIProcessScriptLoader
 }
 )
 ;
-let
+var
 initTable
 =
 [

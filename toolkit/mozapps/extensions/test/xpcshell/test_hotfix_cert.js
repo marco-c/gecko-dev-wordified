@@ -353,7 +353,7 @@ test
 prefs
 apply
 .
-let
+var
 defaults
 =
 Services
@@ -631,7 +631,7 @@ true
 )
 ;
 }
-let
+var
 tryInstallHotfix
 =
 Task

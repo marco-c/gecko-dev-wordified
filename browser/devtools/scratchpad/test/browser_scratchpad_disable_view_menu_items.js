@@ -59,7 +59,7 @@ maximum
 minimum
 values
 .
-let
+var
 {
 Task
 }
@@ -183,7 +183,7 @@ NORMAL_FONT_SIZE
 =
 12
 ;
-let
+var
 testMaximumFontSize
 =
 Task
@@ -369,7 +369,7 @@ enabled
 }
 )
 ;
-let
+var
 testMinimumFontSize
 =
 Task

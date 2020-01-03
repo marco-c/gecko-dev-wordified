@@ -47,7 +47,7 @@ values
 .
 *
 /
-let
+var
 PropertyBagConverter
 =
 asyncShutdownService

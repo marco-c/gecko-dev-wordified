@@ -144,7 +144,7 @@ js
 "
 )
 ;
-let
+var
 BrowserTabs
 =
 {

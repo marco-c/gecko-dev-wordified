@@ -5205,7 +5205,7 @@ managing
 TabItem
 >
 s
-let
+var
 TabItems
 =
 {

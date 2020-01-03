@@ -162,7 +162,7 @@ finish
 ;
 }
 }
-let
+var
 tests
 =
 [

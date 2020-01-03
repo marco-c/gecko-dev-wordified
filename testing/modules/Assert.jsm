@@ -298,7 +298,7 @@ function
 .
 *
 /
-let
+var
 Assert
 =
 this
@@ -911,7 +911,7 @@ true
 }
 )
 ;
-let
+var
 proto
 =
 Assert

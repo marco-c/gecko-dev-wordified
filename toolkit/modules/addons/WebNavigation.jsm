@@ -154,7 +154,7 @@ getAllFrames
 /
 onCreatedNavigationTarget
 onHistoryStateUpdated
-let
+var
 Manager
 =
 {
@@ -866,7 +866,7 @@ onHistoryStateUpdated
 "
 ]
 ;
-let
+var
 WebNavigation
 =
 {

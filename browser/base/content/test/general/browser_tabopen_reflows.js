@@ -1187,7 +1187,7 @@ removeCurrentTab
 }
 )
 ;
-let
+var
 observer
 =
 {

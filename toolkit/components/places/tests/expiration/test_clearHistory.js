@@ -131,14 +131,14 @@ annos
 .
 *
 /
-let
+var
 hs
 =
 PlacesUtils
 .
 history
 ;
-let
+var
 as
 =
 PlacesUtils
@@ -219,7 +219,7 @@ lastModified
 .
 *
 /
-let
+var
 now
 =
 Date

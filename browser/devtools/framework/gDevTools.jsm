@@ -3536,7 +3536,7 @@ browser
 .
 *
 /
-let
+var
 gDevTools
 =
 new
@@ -3570,7 +3570,7 @@ instance
 .
 *
 /
-let
+var
 gDevToolsBrowser
 =
 {

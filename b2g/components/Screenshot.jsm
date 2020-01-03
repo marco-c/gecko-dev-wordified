@@ -128,7 +128,7 @@ Screenshot
 '
 ]
 ;
-let
+var
 Screenshot
 =
 {

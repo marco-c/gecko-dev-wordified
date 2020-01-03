@@ -192,7 +192,7 @@ darwin
 =
 0
 ;
-let
+var
 scripts
 =
 {

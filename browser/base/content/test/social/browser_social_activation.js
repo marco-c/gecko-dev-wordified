@@ -111,7 +111,7 @@ null
 "
 )
 ;
-let
+var
 SocialService
 =
 Cu
@@ -137,7 +137,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 tabsToRemove
 =
 [
@@ -1231,7 +1231,7 @@ close
 )
 ;
 }
-let
+var
 gTestDomains
 =
 [
@@ -1268,7 +1268,7 @@ com
 "
 ]
 ;
-let
+var
 gProviders
 =
 [

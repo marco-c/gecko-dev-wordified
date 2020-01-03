@@ -98,7 +98,7 @@ called
 before
 getting
 nsIX509CertDB
-let
+var
 certdb
 =
 Cc
@@ -123,7 +123,7 @@ Ci
 nsIX509CertDB
 )
 ;
-let
+var
 caList
 =
 [
@@ -152,7 +152,7 @@ usages
 "
 ]
 ;
-let
+var
 eeList
 =
 [
@@ -190,7 +190,7 @@ keyEncipherment
 "
 ]
 ;
-let
+var
 caUsage
 =
 "
@@ -198,7 +198,7 @@ SSL
 CA
 "
 ;
-let
+var
 allEEUsages
 =
 "
@@ -210,7 +210,7 @@ Object
 Signer
 "
 ;
-let
+var
 serverEEUsages
 =
 "
@@ -218,7 +218,7 @@ Server
 Encrypt
 "
 ;
-let
+var
 expectedUsagesMap
 =
 {

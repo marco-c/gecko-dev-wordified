@@ -67,12 +67,12 @@ switching
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 gSearchView

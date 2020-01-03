@@ -252,7 +252,7 @@ u20269
 AFGGFyjOXZtQAAAAAElFTkSuQmCC
 "
 ;
-let
+var
 TEST_URL
 =
 "
@@ -276,7 +276,7 @@ div
 >
 "
 ;
-let
+var
 TEST_DATA
 =
 [

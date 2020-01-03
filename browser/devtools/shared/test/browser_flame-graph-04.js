@@ -41,7 +41,7 @@ widget
 work
 properly
 .
-let
+var
 HTML_NS
 =
 "
@@ -60,7 +60,7 @@ org
 xhtml
 "
 ;
-let
+var
 {
 ViewHelpers
 }
@@ -87,7 +87,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 FlameGraph
 }
@@ -105,7 +105,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 {
 FLAME_GRAPH_BLOCK_TEXT_FONT_SIZE
 }
@@ -123,7 +123,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 {
 FLAME_GRAPH_BLOCK_TEXT_FONT_FAMILY
 }
@@ -141,7 +141,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 L10N
 =
 new

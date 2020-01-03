@@ -2001,7 +2001,7 @@ method
 .
 *
 /
-let
+var
 LoopContactsInternal
 =
 Object

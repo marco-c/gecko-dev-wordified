@@ -223,7 +223,7 @@ true
 )
 ;
 }
-let
+var
 check_history
 =
 Task
@@ -398,7 +398,7 @@ updates
 the
 known
 history
-let
+var
 waitForLoad
 =
 Task
@@ -500,7 +500,7 @@ updates
 the
 known
 history
-let
+var
 waitForLoadWithFlags
 =
 Task
@@ -623,7 +623,7 @@ contentTitle
 }
 )
 ;
-let
+var
 back
 =
 Task
@@ -663,7 +663,7 @@ index
 }
 )
 ;
-let
+var
 forward
 =
 Task

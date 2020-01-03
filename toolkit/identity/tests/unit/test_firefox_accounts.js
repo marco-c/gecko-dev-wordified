@@ -223,7 +223,7 @@ user
 ;
 }
 }
-let
+var
 originalManager
 =
 FirefoxAccounts
@@ -1515,7 +1515,7 @@ _mm
 )
 ;
 }
-let
+var
 TESTS
 =
 [

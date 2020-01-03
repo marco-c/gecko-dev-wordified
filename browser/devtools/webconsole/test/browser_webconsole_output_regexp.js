@@ -82,7 +82,7 @@ regexp
 html
 "
 ;
-let
+var
 dateNow
 =
 Date
@@ -91,7 +91,7 @@ now
 (
 )
 ;
-let
+var
 inputTests
 =
 [

@@ -131,7 +131,7 @@ preplaces
 .
 html
 .
-let
+var
 test_bookmarks
 =
 {
@@ -773,7 +773,7 @@ html
 file
 pointer
 .
-let
+var
 gBookmarksFileOld
 ;
 /
@@ -785,7 +785,7 @@ html
 file
 pointer
 .
-let
+var
 gBookmarksFileNew
 ;
 function

@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Services
 }
@@ -72,7 +72,7 @@ share
 its
 API
 .
-let
+var
 netMonitorHead
 =
 "

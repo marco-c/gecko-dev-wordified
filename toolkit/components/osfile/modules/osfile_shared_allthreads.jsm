@@ -254,7 +254,7 @@ Meta
 constructor
 *
 /
-let
+var
 Meta
 ;
 if
@@ -400,7 +400,7 @@ js
 Meta
 ;
 }
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -493,7 +493,7 @@ of
 OS
 .
 File
-let
+var
 Config
 =
 {
@@ -703,7 +703,7 @@ getter
 for
 a
 property
-let
+var
 defineLazyGetter
 =
 function
@@ -824,7 +824,7 @@ TEST
 .
 *
 /
-let
+var
 gLogger
 ;
 if
@@ -962,7 +962,7 @@ arg
 .
 *
 /
-let
+var
 stringifyArg
 =
 function
@@ -1193,7 +1193,7 @@ arg
 ;
 }
 ;
-let
+var
 LOG
 =
 function
@@ -1460,7 +1460,7 @@ copying
 .
 *
 /
-let
+var
 clone
 =
 function
@@ -2610,7 +2610,7 @@ typed
 array
 *
 /
-let
+var
 isTypedArray
 =
 function
@@ -2667,7 +2667,7 @@ ArrayBuffer
 .
 *
 /
-let
+var
 isArrayBuffer
 =
 function
@@ -3294,7 +3294,7 @@ possible
 .
 *
 /
-let
+var
 projectLargeInt
 =
 function
@@ -3360,7 +3360,7 @@ rv
 ;
 }
 ;
-let
+var
 projectLargeUInt
 =
 function
@@ -3377,7 +3377,7 @@ x
 ;
 }
 ;
-let
+var
 projectValue
 =
 function
@@ -6923,7 +6923,7 @@ required
 .
 *
 /
-let
+var
 declareFFI
 =
 function

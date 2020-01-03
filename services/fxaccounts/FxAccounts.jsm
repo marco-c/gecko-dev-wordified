@@ -384,7 +384,7 @@ public
 FxAccounts
 API
 .
-let
+var
 publicProperties
 =
 [
@@ -655,7 +655,7 @@ actually
 be
 rejected
 .
-let
+var
 AccountState
 =
 this

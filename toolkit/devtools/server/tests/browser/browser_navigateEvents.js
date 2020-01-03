@@ -79,7 +79,7 @@ second
 html
 "
 ;
-let
+var
 events
 =
 require
@@ -93,7 +93,7 @@ core
 "
 )
 ;
-let
+var
 client
 ;
 /
@@ -104,7 +104,7 @@ to
 check
 events
 order
-let
+var
 i
 =
 0
@@ -598,7 +598,7 @@ true
 )
 ;
 }
-let
+var
 httpObserver
 =
 function

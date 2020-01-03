@@ -104,7 +104,7 @@ use
 strict
 "
 ;
-let
+var
 {
 TiltMath
 }
@@ -122,7 +122,7 @@ math
 "
 )
 ;
-let
+var
 rgba
 =
 TiltMath

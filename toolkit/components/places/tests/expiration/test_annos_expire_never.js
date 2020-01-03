@@ -190,7 +190,7 @@ all
 .
 *
 /
-let
+var
 as
 =
 Cc

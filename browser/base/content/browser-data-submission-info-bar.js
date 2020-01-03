@@ -70,7 +70,7 @@ notification
 .
 *
 /
-let
+var
 gDataNotificationInfoBar
 =
 {

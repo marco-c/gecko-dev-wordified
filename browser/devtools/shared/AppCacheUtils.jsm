@@ -234,7 +234,7 @@ Cu
 =
 Components
 ;
-let
+var
 {
 XPCOMUtils
 }
@@ -260,7 +260,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }
@@ -286,7 +286,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 LoadContextInfo
 }
@@ -312,7 +312,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -340,7 +340,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require

@@ -11,7 +11,7 @@ main
 testing
 function
 .
-let
+var
 test
 =
 function

@@ -197,7 +197,7 @@ is
 ready
 *
 /
-let
+var
 openInspector
 =
 Task
@@ -470,7 +470,7 @@ fontInspector
 }
 *
 /
-let
+var
 openFontInspectorForURL
 =
 Task
@@ -714,7 +714,7 @@ selector
 .
 *
 /
-let
+var
 selectNode
 =
 Task

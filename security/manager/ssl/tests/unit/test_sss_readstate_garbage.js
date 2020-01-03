@@ -105,7 +105,7 @@ length
 )
 ;
 }
-let
+var
 gSSService
 =
 null

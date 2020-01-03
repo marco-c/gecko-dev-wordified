@@ -2382,7 +2382,7 @@ type
 object
 *
 /
-let
+var
 Messages
 =
 {
@@ -12063,7 +12063,7 @@ Messages
 ConsoleTable
 .
 prototype
-let
+var
 Widgets
 =
 {

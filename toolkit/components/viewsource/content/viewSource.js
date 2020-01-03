@@ -4430,7 +4430,7 @@ webProgress
 }
 }
 ;
-let
+var
 viewSourceChrome
 =
 new
@@ -4453,7 +4453,7 @@ work
 .
 *
 /
-let
+var
 PrintPreviewListener
 =
 {

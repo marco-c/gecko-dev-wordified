@@ -183,7 +183,7 @@ resourceName
 "
 ;
 }
-let
+var
 mainModule
 ;
 function

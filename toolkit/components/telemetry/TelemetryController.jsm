@@ -1150,12 +1150,12 @@ change
 .
 *
 /
-let
+var
 gLogger
 =
 null
 ;
-let
+var
 gLogAppenderDump
 =
 null
@@ -1354,7 +1354,7 @@ testing
 .
 *
 /
-let
+var
 Policy
 =
 {
@@ -2824,7 +2824,7 @@ promiseInitialized
 }
 )
 ;
-let
+var
 Impl
 =
 {

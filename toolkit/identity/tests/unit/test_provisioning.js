@@ -1004,7 +1004,7 @@ cert
 )
 ;
 }
-let
+var
 TESTS
 =
 [

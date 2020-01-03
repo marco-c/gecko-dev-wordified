@@ -125,7 +125,7 @@ set
 "
 )
 ;
-let
+var
 getTargetWindow
 =
 dispatcher
@@ -183,7 +183,7 @@ getTargetWindow
 =
 getTargetWindow
 ;
-let
+var
 attachTo
 =
 dispatcher
@@ -199,7 +199,7 @@ attachTo
 =
 attachTo
 ;
-let
+var
 detachFrom
 =
 dispatcher

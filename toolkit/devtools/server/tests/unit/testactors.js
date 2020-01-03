@@ -149,7 +149,7 @@ debugger
 "
 )
 ;
-let
+var
 gTestGlobals
 =
 [

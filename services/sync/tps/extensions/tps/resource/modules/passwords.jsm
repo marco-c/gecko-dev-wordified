@@ -166,7 +166,7 @@ jsm
 "
 )
 ;
-let
+var
 nsLoginInfo
 =
 new

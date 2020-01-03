@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 {
 components
 Cc
@@ -76,7 +76,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -255,7 +255,7 @@ logic
 CssLogic
 )
 ;
-let
+var
 TRANSITION_CLASS
 =
 "
@@ -266,12 +266,12 @@ styleeditor
 transitioning
 "
 ;
-let
+var
 TRANSITION_DURATION_MS
 =
 500
 ;
-let
+var
 TRANSITION_RULE
 =
 "
@@ -343,7 +343,7 @@ important
 }
 "
 ;
-let
+var
 LOAD_ERROR
 =
 "
@@ -385,7 +385,7 @@ document
 .
 *
 /
-let
+var
 StyleEditorActor
 =
 exports
@@ -1603,7 +1603,7 @@ StyleEditorActor
 .
 *
 /
-let
+var
 StyleEditorFront
 =
 protocol
@@ -1737,7 +1737,7 @@ server
 .
 *
 /
-let
+var
 OldStyleSheetActor
 =
 protocol

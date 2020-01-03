@@ -107,7 +107,7 @@ components
 .
 *
 /
-let
+var
 gPage
 =
 {

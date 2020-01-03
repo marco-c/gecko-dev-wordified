@@ -222,7 +222,7 @@ uses
 .
 *
 /
-let
+var
 appManagerEditor
 ;
 /

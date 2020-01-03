@@ -61,7 +61,7 @@ pretty
 printed
 sources
 .
-let
+var
 gTab
 gPanel
 gClient

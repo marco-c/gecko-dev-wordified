@@ -667,7 +667,7 @@ logs
 success
 "
 ;
-let
+var
 LogShake
 =
 {

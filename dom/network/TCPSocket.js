@@ -488,7 +488,7 @@ logging
 function
 *
 /
-let
+var
 debug
 =
 false

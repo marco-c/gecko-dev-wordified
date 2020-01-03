@@ -1415,7 +1415,7 @@ arr
 )
 ;
 }
-let
+var
 tests
 =
 [

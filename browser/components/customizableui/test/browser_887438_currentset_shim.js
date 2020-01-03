@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 navbar
 =
 document
@@ -75,14 +75,14 @@ bar
 "
 )
 ;
-let
+var
 navbarCT
 =
 navbar
 .
 customizationTarget
 ;
-let
+var
 overflowPanelList
 =
 document

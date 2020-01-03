@@ -77,12 +77,12 @@ osfile
 jsm
 "
 )
-let
+var
 XULStore
 =
 null
 ;
-let
+var
 browserURI
 =
 "
@@ -99,7 +99,7 @@ browser
 xul
 "
 ;
-let
+var
 aboutURI
 =
 "

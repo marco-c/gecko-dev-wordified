@@ -119,7 +119,7 @@ popup
 /
 /
 ]
-let
+var
 testData
 =
 [

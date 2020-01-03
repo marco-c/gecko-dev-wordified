@@ -1176,7 +1176,7 @@ message
 }
 }
 ;
-let
+var
 gInPrivateBrowsing
 =
 false

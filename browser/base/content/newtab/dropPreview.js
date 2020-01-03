@@ -96,7 +96,7 @@ position
 .
 *
 /
-let
+var
 gDropPreview
 =
 {

@@ -146,7 +146,7 @@ functional
 "
 )
 ;
-let
+var
 id
 =
 0

@@ -955,7 +955,7 @@ start
 -
 up
 .
-let
+var
 kPersonaUri
 =
 "

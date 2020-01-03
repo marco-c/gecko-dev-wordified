@@ -85,7 +85,7 @@ runTest
 )
 ;
 }
-let
+var
 gElements
 ;
 function

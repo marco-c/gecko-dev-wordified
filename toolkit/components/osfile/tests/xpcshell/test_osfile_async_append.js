@@ -677,7 +677,7 @@ ignore
 }
 }
 }
-let
+var
 test_flags
 =
 [

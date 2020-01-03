@@ -102,7 +102,7 @@ of
 TabView
 data
 .
-let
+var
 Storage
 =
 {

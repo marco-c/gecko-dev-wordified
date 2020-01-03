@@ -181,7 +181,7 @@ data
 }
 )
 ;
-let
+var
 TabAttributesInternal
 =
 {

@@ -889,7 +889,7 @@ SCANNER
 REGISTRY
 *
 /
-let
+var
 RuntimeScanners
 =
 {
@@ -1374,7 +1374,7 @@ RuntimeScanners
 SCANNERS
 *
 /
-let
+var
 SimulatorScanner
 =
 {
@@ -1622,7 +1622,7 @@ device
 .
 *
 /
-let
+var
 DeprecatedAdbScanner
 =
 {
@@ -1965,7 +1965,7 @@ effect
 .
 *
 /
-let
+var
 LazyAdbScanner
 =
 {
@@ -2044,7 +2044,7 @@ add
 LazyAdbScanner
 )
 ;
-let
+var
 WiFiScanner
 =
 {
@@ -2410,7 +2410,7 @@ WiFiScanner
 =
 WiFiScanner
 ;
-let
+var
 StaticScanner
 =
 {
@@ -2525,7 +2525,7 @@ types
 are
 added
 .
-let
+var
 RuntimeTypes
 =
 exports
@@ -3791,7 +3791,7 @@ _SimulatorRuntime
 =
 SimulatorRuntime
 ;
-let
+var
 gLocalRuntime
 =
 {
@@ -3906,7 +3906,7 @@ _gLocalRuntime
 =
 gLocalRuntime
 ;
-let
+var
 gRemoteRuntime
 =
 {

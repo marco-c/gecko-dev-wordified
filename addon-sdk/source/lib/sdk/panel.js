@@ -491,7 +491,7 @@ mod
 "
 )
 ;
-let
+var
 isRect
 =
 (
@@ -529,7 +529,7 @@ value
 )
 )
 ;
-let
+var
 isSDKObj
 =
 obj
@@ -539,7 +539,7 @@ obj
 instanceof
 Class
 ;
-let
+var
 rectContract
 =
 contract
@@ -560,7 +560,7 @@ number
 }
 )
 ;
-let
+var
 position
 =
 {
@@ -673,7 +673,7 @@ left
 .
 '
 }
-let
+var
 displayContract
 =
 contract
@@ -694,7 +694,7 @@ position
 }
 )
 ;
-let
+var
 panelContract
 =
 contract
@@ -822,7 +822,7 @@ has
 panel
 )
 ;
-let
+var
 panels
 =
 new
@@ -830,7 +830,7 @@ WeakMap
 (
 )
 ;
-let
+var
 models
 =
 new
@@ -838,7 +838,7 @@ WeakMap
 (
 )
 ;
-let
+var
 views
 =
 new
@@ -846,7 +846,7 @@ WeakMap
 (
 )
 ;
-let
+var
 workers
 =
 new
@@ -854,7 +854,7 @@ WeakMap
 (
 )
 ;
-let
+var
 styles
 =
 new
@@ -962,7 +962,7 @@ panel
 is
 shown
 .
-let
+var
 setupAutoHide
 =
 new
@@ -2229,7 +2229,7 @@ by
 this
 module
 .
-let
+var
 panelEvents
 =
 filter
@@ -2259,7 +2259,7 @@ has
 being
 shown
 .
-let
+var
 shows
 =
 filter
@@ -2291,7 +2291,7 @@ panel
 became
 hidden
 .
-let
+var
 hides
 =
 filter
@@ -2356,7 +2356,7 @@ getAttachEventType
 helper
 function
 .
-let
+var
 ready
 =
 filter
@@ -2401,7 +2401,7 @@ has
 been
 loaded
 .
-let
+var
 readyToShow
 =
 filter
@@ -2445,7 +2445,7 @@ them
 depends
 on
 contentScriptWhen
-let
+var
 start
 =
 filter

@@ -164,7 +164,7 @@ anywhere
 .
 *
 /
-let
+var
 katakana
 =
 [
@@ -182,7 +182,7 @@ u30c9
 /
 E
 Do
-let
+var
 ideograph
 =
 [

@@ -45,7 +45,7 @@ zero
 /
 *
 /
-let
+var
 tempScope
 =
 {
@@ -71,7 +71,7 @@ jsm
 tempScope
 )
 ;
-let
+var
 NetUtil
 =
 tempScope
@@ -86,7 +86,7 @@ the
 Scratchpad
 object
 .
-let
+var
 gScratchpad
 ;
 /
@@ -101,7 +101,7 @@ will
 work
 with
 .
-let
+var
 gFile
 ;
 /
@@ -111,7 +111,7 @@ temporary
 file
 content
 .
-let
+var
 gFileContent
 =
 "

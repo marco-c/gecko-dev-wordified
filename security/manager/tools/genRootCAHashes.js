@@ -2114,7 +2114,7 @@ inc
 "
 ;
 }
-let
+var
 trustAnchorsFile
 =
 FileUtils
@@ -2147,7 +2147,7 @@ arguments
 ]
 )
 ;
-let
+var
 rootHashesFile
 =
 Cc
@@ -2198,7 +2198,7 @@ stable
 bin
 numbers
 .
-let
+var
 gTrustAnchors
 =
 loadTrustAnchors
@@ -2327,7 +2327,7 @@ the
 output
 file
 .
-let
+var
 rootHashesFileOutputStream
 =
 FileUtils

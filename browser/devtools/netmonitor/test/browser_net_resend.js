@@ -27,10 +27,10 @@ zero
 /
 *
 /
-let
+var
 gPanelWin
 ;
-let
+var
 gPanelDoc
 ;
 const

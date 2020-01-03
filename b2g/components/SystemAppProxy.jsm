@@ -124,7 +124,7 @@ SystemAppProxy
 '
 ]
 ;
-let
+var
 SystemAppProxy
 =
 {

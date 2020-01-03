@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 testURL
 =
 "
@@ -43,14 +43,14 @@ plain
 text
 "
 ;
-let
+var
 testTag
 =
 "
 581253_tag
 "
 ;
-let
+var
 timerID
 =
 -

@@ -281,7 +281,7 @@ resolve
 )
 ;
 }
-let
+var
 check_addon_has_version
 =
 Task

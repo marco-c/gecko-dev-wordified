@@ -1142,7 +1142,7 @@ promise
 .
 *
 /
-let
+var
 cbManager
 ;
 function
@@ -1452,7 +1452,7 @@ promise
 .
 *
 /
-let
+var
 pendingEmulatorCmdCount
 =
 0

@@ -124,7 +124,7 @@ c3ref
 c_abort
 .
 html
-let
+var
 Svc
 =
 {

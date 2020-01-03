@@ -51,7 +51,7 @@ Cu
 =
 Components
 ;
-let
+var
 testGenerator
 =
 testSteps

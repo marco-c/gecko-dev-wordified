@@ -751,7 +751,7 @@ available
 *
 *
 /
-let
+var
 ConnectionManager
 =
 {
@@ -958,7 +958,7 @@ decorate
 ConnectionManager
 )
 ;
-let
+var
 lastID
 =
 -

@@ -56,7 +56,7 @@ order
 .
 *
 /
-let
+var
 {
 CATEGORY_MASK
 }
@@ -1034,7 +1034,7 @@ finish
 )
 ;
 }
-let
+var
 gThread
 =
 synthesizeProfileForTest

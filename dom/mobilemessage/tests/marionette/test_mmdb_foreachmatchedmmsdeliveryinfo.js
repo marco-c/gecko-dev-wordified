@@ -108,7 +108,7 @@ bar
 com
 "
 ;
-let
+var
 deliveryInfo
 =
 [

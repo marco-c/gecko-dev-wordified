@@ -155,7 +155,7 @@ jsm
 "
 )
 ;
-let
+var
 btoa
 =
 Cu
@@ -179,7 +179,7 @@ jsm
 .
 btoa
 ;
-let
+var
 atob
 =
 Cu
@@ -489,7 +489,7 @@ prints
 "
 *
 /
-let
+var
 _
 =
 function
@@ -970,7 +970,7 @@ replacement
 .
 *
 /
-let
+var
 PACSystemSettings
 =
 {
@@ -1035,7 +1035,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 }
 ;
-let
+var
 fakePACCID
 ;
 function

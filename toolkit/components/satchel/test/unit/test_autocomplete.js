@@ -72,7 +72,7 @@ fac
 var
 prefs
 ;
-let
+var
 numRecords
 timeGroupingSize
 now
@@ -1646,7 +1646,7 @@ run_next_test
 }
 )
 ;
-let
+var
 syncValues
 =
 [

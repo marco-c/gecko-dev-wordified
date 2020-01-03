@@ -56,12 +56,12 @@ stack
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 gFrames

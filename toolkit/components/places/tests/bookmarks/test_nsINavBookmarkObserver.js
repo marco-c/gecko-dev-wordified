@@ -39,7 +39,7 @@ the
 correct
 input
 .
-let
+var
 gBookmarksObserver
 =
 {

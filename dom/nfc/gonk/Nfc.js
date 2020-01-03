@@ -323,14 +323,14 @@ to
 see
 debug
 messages
-let
+var
 DEBUG
 =
 NFC
 .
 DEBUG_NFC
 ;
-let
+var
 debug
 ;
 function
@@ -2841,7 +2841,7 @@ break
 }
 )
 ;
-let
+var
 SessionHelper
 =
 {

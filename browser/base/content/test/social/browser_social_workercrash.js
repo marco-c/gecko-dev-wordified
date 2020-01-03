@@ -114,7 +114,7 @@ social_crash_content_helper
 js
 "
 ;
-let
+var
 {
 getFrameWorkerHandle
 }
@@ -140,7 +140,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 }
@@ -274,7 +274,7 @@ finishcb
 )
 ;
 }
-let
+var
 gProviders
 =
 [
@@ -1011,7 +1011,7 @@ things
 are
 peachy
 .
-let
+var
 crashObserver
 =
 function

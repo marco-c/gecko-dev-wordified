@@ -152,7 +152,7 @@ n
 "
 )
 ;
-let
+var
 {
 classes
 :
@@ -170,7 +170,7 @@ Cu
 =
 Components
 ;
-let
+var
 CopyPasteAssistent
 =
 {

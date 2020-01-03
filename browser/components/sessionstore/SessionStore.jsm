@@ -1492,7 +1492,7 @@ sessionstore
 debug
 *
 /
-let
+var
 gDebuggingEnabled
 =
 false
@@ -2171,7 +2171,7 @@ freeze
 SessionStore
 )
 ;
-let
+var
 SessionStoreInternal
 =
 {
@@ -27190,7 +27190,7 @@ true
 .
 *
 /
-let
+var
 TabRestoreQueue
 =
 {
@@ -28115,7 +28115,7 @@ don
 '
 t
 .
-let
+var
 DyingWindowCache
 =
 {
@@ -28230,7 +28230,7 @@ getCurrentState
 is
 called
 .
-let
+var
 DirtyWindows
 =
 {
@@ -28362,7 +28362,7 @@ deferred
 /
 /
 session
-let
+var
 LastSession
 =
 {

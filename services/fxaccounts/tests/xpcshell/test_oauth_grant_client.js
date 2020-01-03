@@ -133,7 +133,7 @@ Function
 }
 *
 /
-let
+var
 mockResponse
 =
 function
@@ -204,7 +204,7 @@ Function
 }
 *
 /
-let
+var
 mockResponseError
 =
 function

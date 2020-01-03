@@ -139,10 +139,10 @@ error
 }
 }
 ;
-let
+var
 Sqlite
 ;
-let
+var
 SQLITE_OK
 ;
 /
@@ -151,7 +151,7 @@ Successful
 result
 *
 /
-let
+var
 SQLITE_ROW
 ;
 /
@@ -165,7 +165,7 @@ row
 ready
 *
 /
-let
+var
 SQLITE_DONE
 ;
 /

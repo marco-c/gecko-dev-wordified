@@ -1977,7 +1977,7 @@ type
 }
 ]
 ;
-let
+var
 parsers
 =
 {

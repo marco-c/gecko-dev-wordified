@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 SocialService
 =
 Components
@@ -84,7 +84,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 MockRegistrar
 =
 Components
@@ -677,7 +677,7 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
-let
+var
 originalAlertsServiceCID
 ;
 function

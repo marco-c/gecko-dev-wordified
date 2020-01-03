@@ -50,7 +50,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 require
 }
@@ -78,7 +78,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }
@@ -104,7 +104,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }

@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 tempScope
 =
 {
@@ -84,14 +84,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 Point
 =
 tempScope
 .
 Point
 ;
-let
+var
 Rect
 =
 tempScope
@@ -130,7 +130,7 @@ fname
 ;
 }
 }
-let
+var
 tests
 =
 {

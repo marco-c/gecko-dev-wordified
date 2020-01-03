@@ -332,7 +332,7 @@ jsm
 /
 /
 /
-let
+var
 gIoService
 =
 Cc
@@ -359,7 +359,7 @@ Ci
 nsIIOService
 )
 ;
-let
+var
 gPrefs
 =
 Cc
@@ -386,7 +386,7 @@ interfaces
 nsIPrefBranch
 )
 ;
-let
+var
 gVerifier
 =
 Cc
@@ -415,7 +415,7 @@ Ci
 nsIPackagedAppVerifier
 )
 ;
-let
+var
 gCacheStorageService
 =
 Cc
@@ -445,7 +445,7 @@ nsICacheStorageService
 )
 ;
 ;
-let
+var
 gLoadContextInfoFactory
 =
 Cu

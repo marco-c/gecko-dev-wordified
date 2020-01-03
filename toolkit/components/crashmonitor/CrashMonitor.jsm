@@ -504,7 +504,7 @@ complete
 "
 ]
 ;
-let
+var
 CrashMonitorInternal
 =
 {

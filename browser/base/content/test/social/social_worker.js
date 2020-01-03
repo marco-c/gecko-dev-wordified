@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 testPort
 sidebarPort
 apiPort

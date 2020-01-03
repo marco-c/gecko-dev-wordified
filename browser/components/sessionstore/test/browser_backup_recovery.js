@@ -58,7 +58,7 @@ Store
 before
 executing
 .
-let
+var
 OS
 =
 Cu
@@ -84,7 +84,7 @@ jsm
 .
 OS
 ;
-let
+var
 {
 File
 Constants
@@ -117,7 +117,7 @@ A
 text
 decoder
 .
-let
+var
 gDecoder
 =
 new
@@ -146,10 +146,10 @@ comparison
 between
 tests
 .
-let
+var
 gSSData
 ;
-let
+var
 gSSBakData
 ;
 function
@@ -996,7 +996,7 @@ wipe
 }
 )
 ;
-let
+var
 promiseSource
 =
 Task

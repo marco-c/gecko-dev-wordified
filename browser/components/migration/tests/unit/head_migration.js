@@ -138,7 +138,7 @@ jsm
 Initialize
 profile
 .
-let
+var
 gProfD
 =
 do_get_profile

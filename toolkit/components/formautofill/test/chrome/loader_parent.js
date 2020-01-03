@@ -170,7 +170,7 @@ jsm
 this
 )
 ;
-let
+var
 sharedUrl
 =
 "
@@ -246,7 +246,7 @@ TEST
 -
 PASS
 .
-let
+var
 Output
 =
 {
@@ -278,7 +278,7 @@ across
 all
 frameworks
 .
-let
+var
 Assert
 =
 {
@@ -425,7 +425,7 @@ taskId
 )
 ;
 }
-let
+var
 add_task
 =
 function
@@ -434,7 +434,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_child_process
 =
 function
@@ -443,7 +443,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_both_processes
 =
 add_task_in_parent_process
@@ -479,7 +479,7 @@ start
 loading
 it
 .
-let
+var
 context
 =
 this

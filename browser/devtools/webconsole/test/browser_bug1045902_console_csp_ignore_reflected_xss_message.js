@@ -141,12 +141,12 @@ message
 html
 "
 ;
-let
+var
 hud
 =
 undefined
 ;
-let
+var
 TEST_URI
 =
 "
@@ -174,7 +174,7 @@ bug
 )
 "
 ;
-let
+var
 test
 =
 asyncTest

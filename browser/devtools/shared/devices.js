@@ -369,7 +369,7 @@ can
 add
 to
 .
-let
+var
 localDevices
 =
 {

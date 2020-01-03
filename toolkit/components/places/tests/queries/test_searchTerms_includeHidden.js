@@ -111,7 +111,7 @@ searchTerms
 search
 options
 .
-let
+var
 timeInMicroseconds
 =
 Date

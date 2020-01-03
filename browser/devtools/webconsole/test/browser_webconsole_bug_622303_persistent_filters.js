@@ -113,7 +113,7 @@ windowlessworkers
 ]
 }
 ;
-let
+var
 test
 =
 asyncTest

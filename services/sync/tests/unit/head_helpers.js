@@ -88,7 +88,7 @@ jsm
 "
 )
 ;
-let
+var
 provider
 =
 {
@@ -182,7 +182,7 @@ loadAddonTestFunctions
 (
 )
 .
-let
+var
 gGlobalScope
 =
 this

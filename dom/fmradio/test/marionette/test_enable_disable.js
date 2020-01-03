@@ -43,7 +43,7 @@ true
 document
 )
 ;
-let
+var
 FMRadio
 =
 window

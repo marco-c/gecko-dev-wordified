@@ -39,7 +39,7 @@ legend
 as
 expected
 .
-let
+var
 BarGraphWidget
 =
 require

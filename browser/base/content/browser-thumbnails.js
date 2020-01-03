@@ -79,7 +79,7 @@ date
 .
 *
 /
-let
+var
 gBrowserThumbnails
 =
 {

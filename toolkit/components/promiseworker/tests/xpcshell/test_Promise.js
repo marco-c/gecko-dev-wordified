@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 Components
@@ -110,7 +110,7 @@ to
 load
 it
 .
-let
+var
 WORKER_SOURCE_URI
 =
 "
@@ -138,7 +138,7 @@ manifest
 "
 )
 ;
-let
+var
 worker
 =
 new

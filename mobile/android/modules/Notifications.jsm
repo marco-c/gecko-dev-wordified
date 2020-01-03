@@ -123,13 +123,13 @@ msg
 )
 ;
 }
-let
+var
 _notificationsMap
 =
 {
 }
 ;
-let
+var
 _handlersMap
 =
 {
@@ -935,7 +935,7 @@ msg
 ;
 }
 }
-let
+var
 Notifications
 =
 {

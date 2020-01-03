@@ -408,7 +408,7 @@ documentation
 .
 *
 /
-let
+var
 PerformanceActor
 =
 exports

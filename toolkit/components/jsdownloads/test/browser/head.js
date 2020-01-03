@@ -517,7 +517,7 @@ deletion
 highly
 unlikely
 .
-let
+var
 gFileCounter
 =
 Math

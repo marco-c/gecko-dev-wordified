@@ -65,7 +65,7 @@ thirdparty
 sessionOnly
 =
 true
-let
+var
 test_generator
 =
 do_run_test

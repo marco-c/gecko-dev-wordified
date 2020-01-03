@@ -468,7 +468,7 @@ Done
 )
 ;
 }
-let
+var
 promiseClearFile
 =
 Task

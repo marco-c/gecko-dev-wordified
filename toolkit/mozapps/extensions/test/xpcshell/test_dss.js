@@ -80,7 +80,7 @@ js
 "
 )
 ;
-let
+var
 gServer
 =
 new

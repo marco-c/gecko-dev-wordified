@@ -84,7 +84,7 @@ the
 media
 query
 .
-let
+var
 expected_values
 =
 [
@@ -404,7 +404,7 @@ should
 not
 match
 .
-let
+var
 suppressed_toggles
 =
 [
@@ -545,7 +545,7 @@ os
 -
 version
 '
-let
+var
 windows_versions
 =
 [
@@ -589,7 +589,7 @@ windows
 -
 theme
 '
-let
+var
 windows_themes
 =
 [
@@ -634,7 +634,7 @@ the
 current
 OS
 .
-let
+var
 OS
 =
 SpecialPowers
@@ -714,7 +714,7 @@ matches
 to
 val
 .
-let
+var
 keyValMatches
 =
 (
@@ -793,7 +793,7 @@ in
 -
 between
 .
-let
+var
 testMatch
 =
 function
@@ -930,7 +930,7 @@ toggle
 media
 queries
 .
-let
+var
 testToggles
 =
 function
@@ -1023,7 +1023,7 @@ possible
 matching
 values
 .
-let
+var
 testWindowsSpecific
 =
 function
@@ -1183,7 +1183,7 @@ different
 media
 query
 .
-let
+var
 generateHtmlLines
 =
 function
@@ -1431,7 +1431,7 @@ green
 }
 }
 .
-let
+var
 cssLine
 =
 function
@@ -1526,7 +1526,7 @@ max
 -
 )
 .
-let
+var
 constructQuery
 =
 function
@@ -1626,7 +1626,7 @@ a
 CSS
 expression
 .
-let
+var
 mediaQueryCSSLine
 =
 function
@@ -1699,7 +1699,7 @@ to
 be
 suppressed
 .
-let
+var
 suppressedMediaQueryCSSLine
 =
 function
@@ -1795,7 +1795,7 @@ be
 colored
 green
 .
-let
+var
 generateCSSLines
 =
 function
@@ -2118,7 +2118,7 @@ corresponding
 to
 green
 .
-let
+var
 green
 =
 (
@@ -2208,7 +2208,7 @@ green
 background
 color
 .
-let
+var
 testCSS
 =
 function
@@ -2336,7 +2336,7 @@ undefined
 for
 MozOSXFontSmoothing
 .
-let
+var
 testOSXFontSmoothing
 =
 function
@@ -2453,7 +2453,7 @@ the
 given
 timeout
 .
-let
+var
 sleep
 =
 function
@@ -2526,7 +2526,7 @@ SpawnTask
 .
 js
 .
-let
+var
 testMediaQueriesInPictureElements
 =
 function
@@ -2807,7 +2807,7 @@ when
 it
 succeeds
 .
-let
+var
 pushPref
 =
 function
@@ -2877,7 +2877,7 @@ SpawnTask
 .
 js
 .
-let
+var
 test
 =
 function

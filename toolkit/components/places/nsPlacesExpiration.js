@@ -7488,7 +7488,7 @@ mozIStorageStatementCallback
 /
 Module
 Registration
-let
+var
 components
 =
 [

@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -65,14 +65,14 @@ LightweightThemeConsumer
 "
 ]
 ;
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components

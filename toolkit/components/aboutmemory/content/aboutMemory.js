@@ -536,7 +536,7 @@ nsIStreamConverter
 )
 )
 ;
-let
+var
 gMgr
 =
 Cc
@@ -586,7 +586,7 @@ Main
 Process
 "
 ;
-let
+var
 gIsDiff
 =
 false
@@ -1237,7 +1237,7 @@ the
 page
 changes
 .
-let
+var
 gMain
 ;
 /
@@ -1250,7 +1250,7 @@ holding
 the
 footer
 .
-let
+var
 gFooter
 ;
 /
@@ -1261,7 +1261,7 @@ verbose
 "
 checkbox
 .
-let
+var
 gVerbose
 ;
 /
@@ -1272,7 +1272,7 @@ anonymize
 "
 checkbox
 .
-let
+var
 gAnonymize
 ;
 /
@@ -1287,12 +1287,12 @@ argument
 to
 updateTitleMainAndFooter
 .
-let
+var
 HIDE_FOOTER
 =
 0
 ;
-let
+var
 SHOW_FOOTER
 =
 1
@@ -5474,7 +5474,7 @@ a
 process
 name
 .
-let
+var
 kProcessPathSep
 =
 "
@@ -10460,7 +10460,7 @@ each
 new
 process
 .
-let
+var
 gUnsafePathsWithInvalidValuesForThisProcess
 =
 [
@@ -13126,7 +13126,7 @@ original
 /
 state
 .
-let
+var
 gShowSubtreesBySafeTreeId
 =
 {

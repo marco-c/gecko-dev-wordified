@@ -35,7 +35,7 @@ DebuggerClient
 .
 registerClient
 API
-let
+var
 EventEmitter
 =
 require

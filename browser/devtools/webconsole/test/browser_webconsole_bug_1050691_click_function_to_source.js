@@ -126,7 +126,7 @@ bug_1050691_click_function_to_source
 html
 "
 ;
-let
+var
 test
 =
 asyncTest
@@ -334,7 +334,7 @@ iframeWindow
 )
 ;
 }
-let
+var
 printFunction
 =
 Task

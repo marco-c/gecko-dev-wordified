@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 SocialService
 =
 Cu
@@ -122,7 +122,7 @@ jsm
 "
 )
 ;
-let
+var
 snippet
 =
 '
@@ -417,7 +417,7 @@ one
 -
 click
 activation
-let
+var
 snippet2
 =
 '
@@ -713,7 +713,7 @@ div
 >
 '
 ;
-let
+var
 gTests
 =
 [

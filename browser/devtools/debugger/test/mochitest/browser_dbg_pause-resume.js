@@ -58,12 +58,12 @@ exceptions
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gResumeButton
 gResumeKey
 gFrames

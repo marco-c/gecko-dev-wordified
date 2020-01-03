@@ -615,7 +615,7 @@ setup
 helpers
 *
 /
-let
+var
 gTrackedMessageManager
 =
 new

@@ -280,7 +280,7 @@ properties
 "
 )
 ;
-let
+var
 ReaderParent
 =
 {

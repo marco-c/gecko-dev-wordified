@@ -108,7 +108,7 @@ popup
 test
 "
 ;
-let
+var
 test
 =
 asyncTest

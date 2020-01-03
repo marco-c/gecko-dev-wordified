@@ -189,7 +189,7 @@ time
 .
 *
 /
-let
+var
 OverviewView
 =
 {

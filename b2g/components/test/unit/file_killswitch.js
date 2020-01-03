@@ -156,7 +156,7 @@ jsm
 "
 )
 ;
-let
+var
 kUserValues
 ;
 function

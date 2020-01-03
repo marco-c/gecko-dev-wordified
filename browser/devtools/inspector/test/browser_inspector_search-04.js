@@ -206,7 +206,7 @@ defaults
 to
 1
 )
-let
+var
 TEST_DATA
 =
 [

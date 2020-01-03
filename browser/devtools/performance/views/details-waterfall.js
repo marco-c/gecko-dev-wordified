@@ -90,7 +90,7 @@ DetailsView
 .
 *
 /
-let
+var
 WaterfallView
 =
 Heritage

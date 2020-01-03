@@ -106,7 +106,7 @@ known
 browserid
 "
 ;
-let
+var
 SERVER_PORT
 =
 8080
@@ -508,7 +508,7 @@ http
 )
 ;
 }
-let
+var
 TESTS
 =
 [

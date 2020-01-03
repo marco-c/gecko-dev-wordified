@@ -3621,7 +3621,7 @@ over
 .
 *
 /
-let
+var
 TimeScale
 =
 {

@@ -1400,7 +1400,7 @@ s
 .
 *
 /
-let
+var
 AllPages
 =
 {
@@ -2120,7 +2120,7 @@ Grid
 preferences
 *
 /
-let
+var
 GridPrefs
 =
 {
@@ -2378,7 +2378,7 @@ grid
 .
 *
 /
-let
+var
 PinnedLinks
 =
 {
@@ -3068,7 +3068,7 @@ grid
 .
 *
 /
-let
+var
 BlockedLinks
 =
 {
@@ -3595,7 +3595,7 @@ sites
 .
 *
 /
-let
+var
 PlacesProvider
 =
 {
@@ -4897,7 +4897,7 @@ lastVisitDate
 }
 *
 /
-let
+var
 Links
 =
 {
@@ -8034,7 +8034,7 @@ data
 *
 *
 /
-let
+var
 Telemetry
 =
 {
@@ -8254,7 +8254,7 @@ filtered
 .
 *
 /
-let
+var
 LinkChecker
 =
 {
@@ -8380,7 +8380,7 @@ false
 }
 }
 ;
-let
+var
 ExpirationFilter
 =
 {

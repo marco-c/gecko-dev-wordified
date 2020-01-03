@@ -88,13 +88,13 @@ error
 html
 "
 ;
-let
+var
 getItemForAttachment
 ;
-let
+var
 Sources
 ;
-let
+var
 getItemInvoked
 =
 false

@@ -223,7 +223,7 @@ jsm
 "
 )
 ;
-let
+var
 fakeServer
 =
 new
@@ -264,7 +264,7 @@ resolve
 }
 )
 ;
-let
+var
 fakeServerUrl
 =
 "
@@ -447,7 +447,7 @@ exception
 }
 }
 ;
-let
+var
 engineManager
 =
 Service
@@ -484,7 +484,7 @@ lot
 of
 work
 .
-let
+var
 errorHandler
 =
 Service

@@ -61,14 +61,14 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 Components
 .
 utils
 ;
-let
+var
 Ci
 =
 Components
@@ -115,7 +115,7 @@ jsm
 this
 )
 ;
-let
+var
 gFrameTree
 =
 new
@@ -193,7 +193,7 @@ onFrameTreeCollected
 }
 )
 ;
-let
+var
 historyListener
 =
 {
@@ -355,7 +355,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 {
 sessionHistory
 }

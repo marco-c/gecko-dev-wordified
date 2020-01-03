@@ -233,7 +233,7 @@ testInit
 }
 )
 ;
-let
+var
 sdkpath
 =
 null
@@ -869,7 +869,7 @@ available
 at
 URL
 .
-let
+var
 testAddon
 =
 Task

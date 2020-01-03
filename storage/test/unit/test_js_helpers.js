@@ -806,7 +806,7 @@ finalCount
 /
 Test
 Runner
-let
+var
 tests
 =
 [

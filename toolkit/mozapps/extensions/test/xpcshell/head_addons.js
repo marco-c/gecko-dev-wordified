@@ -393,7 +393,7 @@ internal
 bits
 of
 AddonManager
-let
+var
 AMscope
 =
 Components
@@ -417,14 +417,14 @@ jsm
 "
 )
 ;
-let
+var
 AddonManager
 =
 AMscope
 .
 AddonManager
 ;
-let
+var
 AddonManagerInternal
 =
 AMscope
@@ -454,7 +454,7 @@ AddonManager
 from
 the
 test
-let
+var
 MockAsyncShutdown
 =
 {
@@ -2537,7 +2537,7 @@ database
 at
 shutdown
 time
-let
+var
 gXPISaveError
 =
 null
@@ -6382,7 +6382,7 @@ close
 )
 ;
 }
-let
+var
 temp_xpis
 =
 [
@@ -9946,7 +9946,7 @@ extensions
 json
 "
 ;
-let
+var
 gExtensionsJSON
 =
 gProfD
@@ -9971,7 +9971,7 @@ extensions
 ini
 "
 ;
-let
+var
 gExtensionsINI
 =
 gProfD

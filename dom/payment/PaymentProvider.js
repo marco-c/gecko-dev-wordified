@@ -174,7 +174,7 @@ payment
 debug
 "
 ;
-let
+var
 _debug
 ;
 try

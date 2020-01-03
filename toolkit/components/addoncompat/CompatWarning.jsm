@@ -212,7 +212,7 @@ url
 }
 ;
 }
-let
+var
 CompatWarning
 =
 {

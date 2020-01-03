@@ -81,7 +81,7 @@ MPL
 .
 *
 /
-let
+var
 gSanitizeDialog
 =
 Object

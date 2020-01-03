@@ -12,7 +12,7 @@ Components
 .
 classes
 ;
-let
+var
 pb
 =
 Cc
@@ -84,7 +84,7 @@ we
 /
 assume
 below
-let
+var
 initialValue
 =
 null

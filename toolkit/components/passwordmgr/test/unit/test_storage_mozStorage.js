@@ -1995,7 +1995,7 @@ dbConnection
 schemaVersion
 )
 ;
-let
+var
 encTypes
 =
 [

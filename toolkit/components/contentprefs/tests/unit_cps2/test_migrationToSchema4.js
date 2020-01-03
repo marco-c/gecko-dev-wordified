@@ -64,7 +64,7 @@ version
 we
 migrate
 from
-let
+var
 schema_version3
 =
 PRAGMA
@@ -482,7 +482,7 @@ run
 only
 once
 .
-let
+var
 tests
 =
 [

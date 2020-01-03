@@ -298,7 +298,7 @@ GetAllCrossOrigin
 "
 ]
 ;
-let
+var
 NotificationDB
 =
 {

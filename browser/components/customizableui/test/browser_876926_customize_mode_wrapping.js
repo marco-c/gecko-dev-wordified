@@ -158,7 +158,7 @@ window
 )
 ;
 }
-let
+var
 move
 =
 {
@@ -1330,7 +1330,7 @@ id
 )
 ;
 }
-let
+var
 otherWin
 ;
 /

@@ -127,7 +127,7 @@ js
 "
 )
 ;
-let
+var
 btoa
 =
 Cu

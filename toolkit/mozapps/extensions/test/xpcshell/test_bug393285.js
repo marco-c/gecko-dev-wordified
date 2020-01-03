@@ -199,7 +199,7 @@ extensions
 "
 )
 ;
-let
+var
 addonIDs
 =
 [

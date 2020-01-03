@@ -83,7 +83,7 @@ of
 setPermission
 parameters
 .
-let
+var
 testSequence
 =
 [

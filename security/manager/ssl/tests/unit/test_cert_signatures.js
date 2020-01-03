@@ -158,7 +158,7 @@ called
 before
 getting
 nsIX509CertDB
-let
+var
 certdb
 =
 Cc

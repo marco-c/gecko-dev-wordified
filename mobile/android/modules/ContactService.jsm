@@ -200,7 +200,7 @@ nsIMessageListenerManager
 "
 )
 ;
-let
+var
 ContactService
 =
 {

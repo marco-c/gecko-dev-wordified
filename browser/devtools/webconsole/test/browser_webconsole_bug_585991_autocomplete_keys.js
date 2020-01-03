@@ -110,14 +110,14 @@ usage
 test
 "
 ;
-let
+var
 HUD
 popup
 jsterm
 inputNode
 completeNode
 ;
-let
+var
 test
 =
 asyncTest
@@ -197,7 +197,7 @@ null
 }
 )
 ;
-let
+var
 consoleOpened
 =
 Task

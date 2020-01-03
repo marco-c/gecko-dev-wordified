@@ -14624,7 +14624,7 @@ data
 .
 *
 /
-let
+var
 Keywords
 =
 {
@@ -15965,7 +15965,7 @@ and
 stop
 observing
 .
-let
+var
 gIgnoreKeywordNotifications
 =
 false
@@ -16768,7 +16768,7 @@ re
 created
 items
 .
-let
+var
 GuidHelper
 =
 {

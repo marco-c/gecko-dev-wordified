@@ -42,7 +42,7 @@ mouseover
 /
 mouseout
 .
-let
+var
 BarGraphWidget
 =
 require

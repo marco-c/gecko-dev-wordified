@@ -227,7 +227,7 @@ register
 BookmarksEngine
 )
 ;
-let
+var
 engine
 =
 Service
@@ -241,7 +241,7 @@ bookmarks
 "
 )
 ;
-let
+var
 store
 =
 engine

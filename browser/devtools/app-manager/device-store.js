@@ -128,7 +128,7 @@ WeakMap
 (
 )
 ;
-let
+var
 DeviceStore
 ;
 module

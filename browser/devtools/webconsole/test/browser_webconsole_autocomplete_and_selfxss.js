@@ -98,7 +98,7 @@ nsIClipboardHelper
 "
 )
 ;
-let
+var
 WebConsoleUtils
 =
 require
@@ -116,7 +116,7 @@ utils
 .
 Utils
 ;
-let
+var
 test
 =
 asyncTest

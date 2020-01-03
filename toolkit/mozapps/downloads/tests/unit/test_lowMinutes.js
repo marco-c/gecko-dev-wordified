@@ -190,7 +190,7 @@ prints
 "
 *
 /
-let
+var
 _
 =
 function
@@ -237,7 +237,7 @@ time
 "
 )
 ;
-let
+var
 expectedTimes
 =
 [

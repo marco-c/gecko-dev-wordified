@@ -1201,7 +1201,7 @@ components
 .
 *
 /
-let
+var
 DebuggerController
 =
 {
@@ -13659,7 +13659,7 @@ methods
 .
 *
 /
-let
+var
 L10N
 =
 new
@@ -13683,7 +13683,7 @@ preferences
 .
 *
 /
-let
+var
 Prefs
 =
 new
@@ -14215,7 +14215,7 @@ n
 ;
 }
 }
-let
+var
 wantLogging
 =
 Services

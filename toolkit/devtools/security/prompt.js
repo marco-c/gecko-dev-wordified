@@ -107,7 +107,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 }
@@ -119,7 +119,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -129,7 +129,7 @@ Services
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -228,7 +228,7 @@ DBG_STRINGS_URI
 }
 )
 ;
-let
+var
 Client
 =
 exports
@@ -238,7 +238,7 @@ Client
 {
 }
 ;
-let
+var
 Server
 =
 exports

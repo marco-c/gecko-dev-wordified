@@ -629,7 +629,7 @@ properties
 for
 API
 objects
-let
+var
 internal
 =
 ns
@@ -656,7 +656,7 @@ context
 /
 /
 menu
-let
+var
 lastContextProcessId
 =
 null
@@ -714,7 +714,7 @@ null
 ;
 }
 }
-let
+var
 Context
 =
 Class
@@ -808,7 +808,7 @@ NON_PAGE_CONTEXT_ELTS
 in
 its
 ancestors
-let
+var
 PageContext
 =
 Class
@@ -865,7 +865,7 @@ selection
 in
 the
 window
-let
+var
 SelectionContext
 =
 Class
@@ -930,7 +930,7 @@ the
 /
 selector
 given
-let
+var
 SelectorContext
 =
 Class
@@ -1060,7 +1060,7 @@ of
 the
 patterns
 given
-let
+var
 URLContext
 =
 Class
@@ -1240,7 +1240,7 @@ supplied
 predicate
 returns
 true
-let
+var
 PredicateContext
 =
 Class
@@ -1435,7 +1435,7 @@ Item
 Menu
 and
 Separator
-let
+var
 baseItemRules
 =
 {
@@ -1613,7 +1613,7 @@ rules
 contentScriptFile
 }
 ;
-let
+var
 labelledItemRules
 =
 mix
@@ -1791,7 +1791,7 @@ validation
 rules
 for
 Item
-let
+var
 itemRules
 =
 mix
@@ -1828,7 +1828,7 @@ validation
 rules
 for
 Menu
-let
+var
 menuRules
 =
 mix
@@ -2298,7 +2298,7 @@ context
 menu
 extend
 this
-let
+var
 BaseItem
 =
 Class
@@ -2897,7 +2897,7 @@ context
 menu
 extend
 this
-let
+var
 LabelledItem
 =
 Class
@@ -3189,7 +3189,7 @@ val
 }
 )
 ;
-let
+var
 Item
 =
 Class
@@ -3309,7 +3309,7 @@ Item
 =
 Item
 ;
-let
+var
 ItemContainer
 =
 Class
@@ -3733,7 +3733,7 @@ item
 }
 )
 ;
-let
+var
 Menu
 =
 Class
@@ -3892,7 +3892,7 @@ Menu
 =
 Menu
 ;
-let
+var
 Separator
 =
 Class
@@ -3969,7 +3969,7 @@ content
 area
 context
 menu
-let
+var
 contentContextMenu
 =
 ItemContainer
@@ -4217,7 +4217,7 @@ sum
 )
 ;
 }
-let
+var
 MenuWrapper
 =
 Class
@@ -6726,7 +6726,7 @@ we
 '
 ve
 seen
-let
+var
 WindowWrapper
 =
 Class
@@ -6851,7 +6851,7 @@ null
 }
 )
 ;
-let
+var
 MenuManager
 =
 {

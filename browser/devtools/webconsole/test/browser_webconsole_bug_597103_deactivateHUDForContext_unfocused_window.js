@@ -130,13 +130,13 @@ console
 html
 "
 ;
-let
+var
 tab1
 tab2
 win1
 win2
 ;
-let
+var
 noErrors
 =
 true

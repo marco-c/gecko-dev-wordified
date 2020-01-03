@@ -176,7 +176,7 @@ on
 every
 event
 .
-let
+var
 gGestureSupport
 =
 {
@@ -3652,7 +3652,7 @@ Support
 bug
 678392
 )
-let
+var
 gHistorySwipeAnimation
 =
 {

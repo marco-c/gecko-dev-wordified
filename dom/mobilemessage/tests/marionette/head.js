@@ -322,7 +322,7 @@ promise
 .
 *
 /
-let
+var
 manager
 ;
 function
@@ -544,7 +544,7 @@ promise
 .
 *
 /
-let
+var
 mobileConnection
 ;
 function
@@ -2290,7 +2290,7 @@ deleteMessages
 )
 ;
 }
-let
+var
 pendingEmulatorCmdCount
 =
 0

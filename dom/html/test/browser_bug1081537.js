@@ -23,7 +23,7 @@ scope
 paths
 here
 .
-let
+var
 ifr
 ;
 function

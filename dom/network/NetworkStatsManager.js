@@ -188,7 +188,7 @@ the
 child
 processes
 .
-let
+var
 appInfo
 =
 Cc
@@ -208,7 +208,7 @@ info
 "
 ]
 ;
-let
+var
 isParentProcess
 =
 !

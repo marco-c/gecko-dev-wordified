@@ -51,7 +51,7 @@ Cu
 =
 SpecialPowers
 ;
-let
+var
 RIL
 =
 SpecialPowers
@@ -230,7 +230,7 @@ some
 code
 duplication
 .
-let
+var
 PDUBuilder
 =
 {
@@ -1185,7 +1185,7 @@ options
 }
 }
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0
@@ -1493,7 +1493,7 @@ deferred
 promise
 ;
 }
-let
+var
 voicemail
 ;
 /

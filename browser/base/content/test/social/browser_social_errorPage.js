@@ -97,7 +97,7 @@ garbageCollect
 )
 ;
 }
-let
+var
 openChatWindow
 =
 Cu
@@ -366,7 +366,7 @@ true
 )
 ;
 }
-let
+var
 manifest
 =
 {

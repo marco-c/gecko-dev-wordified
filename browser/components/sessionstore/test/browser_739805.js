@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 url
 =
 "
@@ -53,7 +53,7 @@ foo
 >
 "
 ;
-let
+var
 tabState
 =
 {

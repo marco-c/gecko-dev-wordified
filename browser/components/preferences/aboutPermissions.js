@@ -61,21 +61,21 @@ use
 strict
 "
 ;
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Cu
 =
 Components
@@ -200,7 +200,7 @@ jsm
 "
 )
 ;
-let
+var
 gSecMan
 =
 Cc
@@ -223,7 +223,7 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-let
+var
 gFaviconService
 =
 Cc
@@ -250,7 +250,7 @@ Ci
 nsIFaviconService
 )
 ;
-let
+var
 gPlacesDatabase
 =
 Cc
@@ -286,7 +286,7 @@ clone
 true
 )
 ;
-let
+var
 gSitesStmt
 =
 gPlacesDatabase
@@ -342,7 +342,7 @@ limit
 "
 )
 ;
-let
+var
 gVisitStmt
 =
 gPlacesDatabase
@@ -405,7 +405,7 @@ permissions
 .
 *
 /
-let
+var
 TEST_EXACT_PERM_TYPES
 =
 [
@@ -1715,7 +1715,7 @@ permissions
 js
 *
 /
-let
+var
 PermissionDefaults
 =
 {
@@ -2347,7 +2347,7 @@ page
 .
 *
 /
-let
+var
 AboutPermissions
 =
 {

@@ -5525,7 +5525,7 @@ false
 }
 }
 ;
-let
+var
 component
 =
 [

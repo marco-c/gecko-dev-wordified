@@ -255,7 +255,7 @@ properties
 "
 )
 ;
-let
+var
 RuntimeList
 ;
 module

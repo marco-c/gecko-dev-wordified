@@ -129,7 +129,7 @@ CONTEXT_MENU_ID
 menu_openURL
 "
 ;
-let
+var
 HUD
 =
 null
@@ -140,7 +140,7 @@ contextMenu
 =
 null
 ;
-let
+var
 test
 =
 asyncTest

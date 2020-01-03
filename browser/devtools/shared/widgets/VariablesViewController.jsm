@@ -200,7 +200,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -228,7 +228,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -5003,7 +5003,7 @@ stackframes
 .
 *
 /
-let
+var
 StackFrameUtils
 =
 {
@@ -5334,7 +5334,7 @@ methods
 .
 *
 /
-let
+var
 L10N
 =
 new

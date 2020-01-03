@@ -37,7 +37,7 @@ work
 as
 expected
 .
-let
+var
 MountainGraphWidget
 =
 require

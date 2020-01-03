@@ -65,7 +65,7 @@ WAIT_TIME
 =
 1000
 ;
-let
+var
 test
 =
 Task

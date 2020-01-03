@@ -126,7 +126,7 @@ UI
 .
 *
 /
-let
+var
 PromisesPanel
 =
 {

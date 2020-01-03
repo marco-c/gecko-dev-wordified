@@ -706,7 +706,7 @@ DB_TITLE_LENGTH_MAX
 =
 4096
 ;
-let
+var
 Bookmarks
 =
 Object
@@ -10587,7 +10587,7 @@ update
 .
 *
 /
-let
+var
 updateFrecency
 =
 Task
@@ -10727,7 +10727,7 @@ handle
 .
 *
 /
-let
+var
 removeOrphanAnnotations
 =
 Task
@@ -10878,7 +10878,7 @@ annotations
 .
 *
 /
-let
+var
 removeAnnotationsForItem
 =
 Task
@@ -11039,7 +11039,7 @@ updated
 .
 *
 /
-let
+var
 setAncestorsLastModified
 =
 Task
@@ -11163,7 +11163,7 @@ guids
 .
 *
 /
-let
+var
 removeFoldersContents
 =
 Task

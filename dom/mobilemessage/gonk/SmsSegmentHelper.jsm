@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-let
+var
 RIL
 =
 {

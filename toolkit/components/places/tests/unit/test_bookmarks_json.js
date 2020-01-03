@@ -115,7 +115,7 @@ bookmarks
 .
 json
 .
-let
+var
 test_bookmarks
 =
 {
@@ -746,7 +746,7 @@ bookmarks
 file
 pointer
 .
-let
+var
 bookmarksExportedFile
 ;
 add_task

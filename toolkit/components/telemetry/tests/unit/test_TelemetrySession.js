@@ -566,7 +566,7 @@ NUMBER_OF_THREADS_TO_LAUNCH
 =
 30
 ;
-let
+var
 gNumberOfThreadsLaunched
 =
 0
@@ -698,7 +698,7 @@ DATAREPORTING_DIR
 }
 )
 ;
-let
+var
 gClientID
 =
 null
@@ -860,7 +860,7 @@ testPing
 ;
 }
 }
-let
+var
 clearPendingPings
 =
 Task

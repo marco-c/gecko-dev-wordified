@@ -75,7 +75,7 @@ jsm
 "
 )
 ;
-let
+var
 cs
 =
 Cc
@@ -98,7 +98,7 @@ Ci
 nsIConsoleService
 )
 ;
-let
+var
 ps
 =
 Cc

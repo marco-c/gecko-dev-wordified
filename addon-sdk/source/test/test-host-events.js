@@ -172,7 +172,7 @@ core
 '
 )
 ;
-let
+var
 stream
 =
 filter

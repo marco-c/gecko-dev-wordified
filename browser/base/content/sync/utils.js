@@ -114,7 +114,7 @@ file
 gets
 included
 .
-let
+var
 gSyncUtils
 =
 {

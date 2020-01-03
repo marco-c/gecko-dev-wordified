@@ -447,7 +447,7 @@ destroy
 }
 )
 ;
-let
+var
 UI
 =
 {

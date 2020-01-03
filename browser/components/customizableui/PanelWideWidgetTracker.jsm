@@ -130,7 +130,7 @@ jsm
 "
 )
 ;
-let
+var
 gModuleName
 =
 "
@@ -144,7 +144,7 @@ include
 logging
 .
 js
-let
+var
 gPanel
 =
 CustomizableUI
@@ -165,7 +165,7 @@ the
 panel
 locally
 :
-let
+var
 gPanelPlacements
 =
 [
@@ -181,7 +181,7 @@ we
 know
 of
 :
-let
+var
 gWideWidgets
 =
 new
@@ -198,7 +198,7 @@ we
 know
 of
 :
-let
+var
 gSeenWidgets
 =
 new
@@ -206,7 +206,7 @@ Set
 (
 )
 ;
-let
+var
 PanelWideWidgetTracker
 =
 {

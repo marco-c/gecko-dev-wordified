@@ -225,7 +225,7 @@ xpinstall
 )
 ;
 }
-let
+var
 check_addon
 =
 Task

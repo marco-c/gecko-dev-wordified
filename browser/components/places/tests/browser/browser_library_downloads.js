@@ -124,7 +124,7 @@ it
 .
 *
 /
-let
+var
 now
 =
 Date

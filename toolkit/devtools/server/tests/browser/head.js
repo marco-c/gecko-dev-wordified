@@ -346,7 +346,7 @@ is
 loaded
 *
 /
-let
+var
 addTab
 =
 Task

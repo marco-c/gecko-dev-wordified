@@ -219,7 +219,7 @@ sidebar
 .
 *
 /
-let
+var
 SidebarUI
 =
 {

@@ -164,7 +164,7 @@ anywhere
 .
 *
 /
-let
+var
 katakana
 =
 [
@@ -182,7 +182,7 @@ u30c9
 /
 E
 Do
-let
+var
 ideograph
 =
 [
@@ -221,7 +221,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -313,7 +313,7 @@ pleaseMatchMe
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -498,7 +498,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

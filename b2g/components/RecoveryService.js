@@ -224,7 +224,7 @@ n
 #
 ifdef
 MOZ_WIDGET_GONK
-let
+var
 librecovery
 =
 (

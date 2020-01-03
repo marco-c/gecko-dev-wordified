@@ -221,7 +221,7 @@ nsIPrefService
 "
 )
 ;
-let
+var
 PaymentManager
 =
 {

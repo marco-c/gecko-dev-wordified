@@ -143,7 +143,7 @@ is
 decoded
 *
 /
-let
+var
 theTag
 =
 "
@@ -166,7 +166,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -193,7 +193,7 @@ firefox3
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -263,7 +263,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

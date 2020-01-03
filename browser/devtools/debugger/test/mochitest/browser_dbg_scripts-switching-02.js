@@ -62,12 +62,12 @@ switching
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 ;
@@ -212,7 +212,7 @@ firstCall
 )
 ;
 }
-let
+var
 gLabel1
 =
 "
@@ -225,7 +225,7 @@ switching
 js
 "
 ;
-let
+var
 gLabel2
 =
 "
@@ -238,7 +238,7 @@ switching
 js
 "
 ;
-let
+var
 gParams
 =
 "

@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-let
+var
 WSP
 =
 {
@@ -105,7 +105,7 @@ jsm
 WSP
 )
 ;
-let
+var
 WBXML
 =
 {
@@ -140,7 +140,7 @@ to
 see
 debug
 messages
-let
+var
 DEBUG
 =
 WBXML

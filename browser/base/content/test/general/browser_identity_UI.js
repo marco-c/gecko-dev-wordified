@@ -367,7 +367,7 @@ effectiveHost
 "
 }
 ]
-let
+var
 gCurrentTest
 gCurrentTestIndex
 =
@@ -396,12 +396,12 @@ between
 different
 states
 .
-let
+var
 gForward
 =
 true
 ;
-let
+var
 gCheckETLD
 =
 false

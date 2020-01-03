@@ -150,7 +150,7 @@ jsm
 "
 )
 ;
-let
+var
 gSystemScrollbarWidth
 =
 null

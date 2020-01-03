@@ -131,7 +131,7 @@ webconsole
 persistlog
 "
 ;
-let
+var
 test
 =
 asyncTest

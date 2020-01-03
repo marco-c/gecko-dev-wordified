@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 navbar
 =
 document
@@ -73,7 +73,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-let
+var
 overflowList
 =
 document
@@ -161,7 +161,7 @@ menu
 button
 "
 ;
-let
+var
 originalWindowWidth
 ;
 /

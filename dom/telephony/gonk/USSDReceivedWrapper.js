@@ -162,7 +162,7 @@ debugging
 enabled
 "
 ;
-let
+var
 DEBUG
 ;
 function

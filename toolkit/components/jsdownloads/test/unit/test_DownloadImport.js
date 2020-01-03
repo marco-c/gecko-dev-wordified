@@ -415,10 +415,10 @@ TEST_DATA_LENGTH
 -
 10
 ;
-let
+var
 gDownloadsRowToImport
 ;
-let
+var
 gDownloadsRowNonImportable
 ;
 /

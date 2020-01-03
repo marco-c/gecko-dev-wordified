@@ -53,10 +53,10 @@ browser_toolbox_options_disable_js
 html
 "
 ;
-let
+var
 doc
 ;
-let
+var
 toolbox
 ;
 function

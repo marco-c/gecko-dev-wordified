@@ -61,14 +61,14 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 Components
 .
 utils
 ;
-let
+var
 Ci
 =
 Components
@@ -175,7 +175,7 @@ the
 content
 window
 .
-let
+var
 WindowEventHandler
 =
 {
@@ -437,7 +437,7 @@ the
 chrome
 process
 .
-let
+var
 WindowMessageHandler
 =
 {

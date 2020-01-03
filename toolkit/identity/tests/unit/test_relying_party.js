@@ -1204,7 +1204,7 @@ mockedDoc
 )
 ;
 }
-let
+var
 TESTS
 =
 [

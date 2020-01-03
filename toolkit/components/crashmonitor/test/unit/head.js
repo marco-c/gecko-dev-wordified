@@ -125,7 +125,7 @@ jsm
 "
 )
 ;
-let
+var
 sessionCheckpointsPath
 ;
 /

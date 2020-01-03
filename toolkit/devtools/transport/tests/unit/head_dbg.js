@@ -476,12 +476,12 @@ into
 the
 ether
 .
-let
+var
 errorCount
 =
 0
 ;
-let
+var
 listener
 =
 {
@@ -735,7 +735,7 @@ n
 }
 }
 ;
-let
+var
 consoleService
 =
 Cc
@@ -1750,7 +1750,7 @@ Factories
 *
 *
 /
-let
+var
 socket_transport
 =
 Task
@@ -1925,7 +1925,7 @@ Data
 *
 *
 /
-let
+var
 gReallyLong
 ;
 function

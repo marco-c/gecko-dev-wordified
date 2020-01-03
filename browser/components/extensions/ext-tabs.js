@@ -39,7 +39,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -270,7 +270,7 @@ tab
 parentWindow
 }
 ]
-let
+var
 pageDataMap
 =
 new

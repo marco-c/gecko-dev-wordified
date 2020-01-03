@@ -81,7 +81,7 @@ result
 .
 *
 /
-let
+var
 Cu
 =
 Components

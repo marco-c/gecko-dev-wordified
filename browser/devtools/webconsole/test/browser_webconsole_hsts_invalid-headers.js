@@ -136,7 +136,7 @@ Security
 HTTP_Strict_Transport_Security
 "
 ;
-let
+var
 test
 =
 asyncTest

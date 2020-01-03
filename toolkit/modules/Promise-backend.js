@@ -510,7 +510,7 @@ can
 be
 obtained
 .
-let
+var
 Cu
 =
 this
@@ -530,7 +530,7 @@ Components
 .
 utils
 ;
-let
+var
 Cc
 =
 this
@@ -550,7 +550,7 @@ Components
 .
 classes
 ;
-let
+var
 Ci
 =
 this
@@ -615,7 +615,7 @@ check
 it
 first
 .
-let
+var
 Components_
 =
 this
@@ -1168,7 +1168,7 @@ p2
 .
 /
 /
-let
+var
 PendingErrors
 =
 {

@@ -127,7 +127,7 @@ for
 the
 intermediate
 .
-let
+var
 gOCSPRequestCount
 =
 0

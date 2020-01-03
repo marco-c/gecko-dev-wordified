@@ -145,7 +145,7 @@ int
 '
 are
 intermediates
-let
+var
 certList
 =
 [

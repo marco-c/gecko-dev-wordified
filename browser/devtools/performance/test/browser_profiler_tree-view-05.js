@@ -297,7 +297,7 @@ finish
 )
 ;
 }
-let
+var
 gThread
 =
 synthesizeProfileForTest

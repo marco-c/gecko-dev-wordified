@@ -128,7 +128,7 @@ should
 be
 logged
 .
-let
+var
 logWarnings
 =
 Services

@@ -7773,7 +7773,7 @@ Loader
 =
 Loader
 ;
-let
+var
 isJSONURI
 =
 uri
@@ -7794,7 +7794,7 @@ substr
 json
 '
 ;
-let
+var
 isJSMURI
 =
 uri
@@ -7815,7 +7815,7 @@ substr
 jsm
 '
 ;
-let
+var
 isJSURI
 =
 uri
@@ -7836,7 +7836,7 @@ substr
 js
 '
 ;
-let
+var
 isAbsoluteURI
 =
 uri
@@ -7888,7 +7888,7 @@ file
 >
 =
 0
-let
+var
 isRelative
 =
 id

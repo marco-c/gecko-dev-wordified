@@ -45,7 +45,7 @@ flame
 graph
 data
 .
-let
+var
 {
 FlameGraphUtils
 }
@@ -63,7 +63,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 test
 =
 Task

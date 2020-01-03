@@ -60,7 +60,7 @@ complete
 .
 *
 /
-let
+var
 protocol
 =
 require
@@ -74,7 +74,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 Arg
@@ -84,7 +84,7 @@ RetVal
 =
 protocol
 ;
-let
+var
 events
 =
 require
@@ -123,7 +123,7 @@ traits
 ]
 }
 }
-let
+var
 RootActor
 =
 protocol
@@ -480,7 +480,7 @@ number
 }
 )
 ;
-let
+var
 RootFront
 =
 protocol

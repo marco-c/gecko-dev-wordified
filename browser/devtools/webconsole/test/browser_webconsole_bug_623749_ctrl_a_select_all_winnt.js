@@ -92,7 +92,7 @@ bug
 623749
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -206,7 +206,7 @@ register
 RotaryEngine
 )
 ;
-let
+var
 engine
 =
 Service
@@ -220,7 +220,7 @@ rotary
 "
 )
 ;
-let
+var
 tracker
 =
 engine
@@ -240,14 +240,14 @@ info
 /
 collections
 .
-let
+var
 collectionsHelper
 =
 track_collections_helper
 (
 )
 ;
-let
+var
 upd
 =
 collectionsHelper

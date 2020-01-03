@@ -189,7 +189,7 @@ js
 this
 )
 ;
-let
+var
 sharedUrl
 =
 SimpleTest
@@ -213,7 +213,7 @@ sharedUrl
 this
 )
 ;
-let
+var
 ChromeUtils
 =
 {
@@ -245,7 +245,7 @@ js
 ChromeUtils
 )
 ;
-let
+var
 parentScript
 =
 SpecialPowers
@@ -279,7 +279,7 @@ with
 .
 js
 "
-let
+var
 testUrl
 =
 location
@@ -313,7 +313,7 @@ the
 parent
 process
 .
-let
+var
 promiseParentInitFinished
 =
 new
@@ -365,7 +365,7 @@ across
 all
 frameworks
 .
-let
+var
 Output
 =
 {
@@ -388,7 +388,7 @@ across
 all
 frameworks
 .
-let
+var
 Assert
 =
 {
@@ -404,14 +404,14 @@ _mochitestAssert
 equal
 }
 ;
-let
+var
 executeSoon
 =
 SimpleTest
 .
 executeSoon
 ;
-let
+var
 gTestTasks
 =
 [
@@ -532,7 +532,7 @@ taskFn
 ;
 }
 ;
-let
+var
 add_task_in_child_process
 =
 add_task
@@ -785,7 +785,7 @@ promiseParentInitFinished
 }
 )
 ;
-let
+var
 headUrl
 =
 SimpleTest

@@ -388,7 +388,7 @@ for
 the
 parent
 .
-let
+var
 NotificationTracker
 =
 {
@@ -947,7 +947,7 @@ to
 do
 so
 .
-let
+var
 ContentPolicyParent
 =
 {
@@ -1321,7 +1321,7 @@ requests
 to
 ContentPolicyParent
 .
-let
+var
 CategoryManagerInterposition
 =
 new
@@ -1531,7 +1531,7 @@ Adblock
 s
 usage
 .
-let
+var
 AboutProtocolParent
 =
 {
@@ -2126,7 +2126,7 @@ init
 (
 )
 ;
-let
+var
 ComponentRegistrarInterposition
 =
 new
@@ -2424,7 +2424,7 @@ in
 this
 case
 .
-let
+var
 ObserverParent
 =
 {
@@ -2694,7 +2694,7 @@ for
 these
 topics
 .
-let
+var
 TOPIC_WHITELIST
 =
 [
@@ -2762,7 +2762,7 @@ remove
 }
 Observer
 .
-let
+var
 ObserverInterposition
 =
 new
@@ -2912,7 +2912,7 @@ to
 the
 parent
 .
-let
+var
 EventTargetParent
 =
 {
@@ -4104,7 +4104,7 @@ via
 /
 EventTargetParent
 .
-let
+var
 filteringListeners
 =
 new
@@ -4297,7 +4297,7 @@ removeEventListener
 to
 EventTargetParent
 .
-let
+var
 EventTargetInterposition
 =
 new
@@ -4482,7 +4482,7 @@ that
 happen
 here
 .
-let
+var
 ContentDocShellTreeItemInterposition
 =
 new
@@ -4752,7 +4752,7 @@ useful
 for
 Greasemonkey
 .
-let
+var
 SandboxParent
 =
 {
@@ -5117,7 +5117,7 @@ content
 /
 principals
 .
-let
+var
 ComponentsUtilsInterposition
 =
 new
@@ -5498,7 +5498,7 @@ an
 /
 exception
 .
-let
+var
 ContentDocumentInterposition
 =
 new
@@ -5642,7 +5642,7 @@ around
 the
 dochell
 .
-let
+var
 RemoteBrowserElementInterposition
 =
 new
@@ -6089,7 +6089,7 @@ target
 ;
 }
 ;
-let
+var
 TabBrowserElementInterposition
 =
 new
@@ -6264,7 +6264,7 @@ and
 nsIRequest
 arguments
 .
-let
+var
 progressListeners
 =
 {
@@ -6657,7 +6657,7 @@ listener
 ;
 }
 ;
-let
+var
 ChromeWindowInterposition
 =
 new
@@ -6774,7 +6774,7 @@ contentWindowAsCPOW
 ;
 }
 ;
-let
+var
 RemoteAddonsParent
 =
 {

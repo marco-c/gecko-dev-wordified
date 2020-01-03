@@ -115,7 +115,7 @@ assert
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -28,13 +28,13 @@ zero
 /
 *
 /
-let
+var
 gOriginalEngine
 ;
-let
+var
 gEngine
 ;
-let
+var
 gUnifiedCompletePref
 =
 "
@@ -45,7 +45,7 @@ urlbar
 unifiedcomplete
 "
 ;
-let
+var
 gRestyleSearchesPref
 =
 "

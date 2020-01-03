@@ -774,7 +774,7 @@ helpInfo
 "
 }
 ;
-let
+var
 components
 =
 [

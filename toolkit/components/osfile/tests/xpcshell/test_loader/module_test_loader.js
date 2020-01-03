@@ -51,7 +51,7 @@ addon
 -
 sdk
 loader
-let
+var
 {
 Cu
 }

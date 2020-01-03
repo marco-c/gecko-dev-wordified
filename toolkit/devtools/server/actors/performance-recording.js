@@ -256,7 +256,7 @@ documentation
 .
 *
 /
-let
+var
 PerformanceRecordingActor
 =
 exports
@@ -1089,7 +1089,7 @@ server
 .
 *
 /
-let
+var
 PerformanceRecordingFront
 =
 exports

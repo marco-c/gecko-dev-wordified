@@ -136,7 +136,7 @@ core
 "
 )
 ;
-let
+var
 channel
 =
 {

@@ -238,7 +238,7 @@ XULAppInfo
 to
 initialize
 SessionFile
-let
+var
 XULAppInfo
 =
 {
@@ -321,7 +321,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -356,7 +356,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components

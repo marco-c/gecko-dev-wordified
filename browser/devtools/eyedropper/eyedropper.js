@@ -573,7 +573,7 @@ testing
 .
 *
 /
-let
+var
 EyedropperManager
 =
 {

@@ -129,7 +129,7 @@ initTestLogging
 (
 )
 ;
-let
+var
 server
 =
 new

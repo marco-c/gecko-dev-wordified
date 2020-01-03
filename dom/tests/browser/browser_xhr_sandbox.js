@@ -13,7 +13,7 @@ toSource
 (
 )
 ;
-let
+var
 sandboxCode
 =
 (

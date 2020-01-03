@@ -445,7 +445,7 @@ deferred
 promise
 ;
 }
-let
+var
 gURLsNotRemembered
 =
 [
@@ -5285,7 +5285,7 @@ browser_bookmark_titles
 .
 js
 )
-let
+var
 origProxyType
 =
 Services

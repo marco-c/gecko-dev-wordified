@@ -1467,7 +1467,7 @@ waitUntil
 =
 waitUntil
 ;
-let
+var
 cleanUI
 =
 function

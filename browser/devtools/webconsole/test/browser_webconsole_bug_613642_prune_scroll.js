@@ -104,10 +104,10 @@ old
 messages
 "
 ;
-let
+var
 hud
 ;
-let
+var
 test
 =
 asyncTest

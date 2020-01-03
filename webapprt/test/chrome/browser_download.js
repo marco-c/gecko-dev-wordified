@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 Downloads
 }
@@ -271,12 +271,12 @@ return
 file
 ;
 }
-let
+var
 fileDownloaded
 =
 false
 ;
-let
+var
 download
 =
 new
@@ -301,7 +301,7 @@ percentComplete
 =
 100
 ;
-let
+var
 winObserver
 =
 function
@@ -512,7 +512,7 @@ registerNotification
 winObserver
 )
 ;
-let
+var
 MockFilePicker
 =
 SpecialPowers
@@ -560,7 +560,7 @@ MockFilePicker
 returnOK
 ;
 }
-let
+var
 downloadListener
 =
 {
@@ -718,7 +718,7 @@ ex
 }
 }
 ;
-let
+var
 downloadList
 ;
 registerCleanupFunction

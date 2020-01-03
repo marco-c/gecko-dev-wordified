@@ -968,7 +968,7 @@ noop
 {
 }
 ;
-let
+var
 supportsDeletedTable
 =
 #
@@ -982,7 +982,7 @@ false
 ;
 #
 endif
-let
+var
 Prefs
 =
 {
@@ -2560,7 +2560,7 @@ and
 access
 *
 /
-let
+var
 _dbConnection
 =
 null
@@ -2683,7 +2683,7 @@ _dbConnection
 }
 )
 ;
-let
+var
 dbStmts
 =
 new

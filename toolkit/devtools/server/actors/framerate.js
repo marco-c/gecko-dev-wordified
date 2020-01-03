@@ -179,7 +179,7 @@ documentation
 .
 *
 /
-let
+var
 FramerateActor
 =
 exports
@@ -416,7 +416,7 @@ FramerateActor
 .
 *
 /
-let
+var
 FramerateFront
 =
 exports

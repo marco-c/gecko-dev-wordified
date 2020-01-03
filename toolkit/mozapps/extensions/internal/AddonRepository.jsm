@@ -630,7 +630,7 @@ AddonManager
 .
 jsm
 )
-let
+var
 logger
 =
 Log
@@ -793,7 +793,7 @@ override
 with
 a
 mock
-let
+var
 XHRequest
 =
 Components

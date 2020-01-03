@@ -92,7 +92,7 @@ tab
 html
 "
 ;
-let
+var
 gClient
 ;
 function

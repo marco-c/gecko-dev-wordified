@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Class
 }
@@ -132,7 +132,7 @@ added
 .
 *
 /
-let
+var
 StackFrameCache
 =
 Class

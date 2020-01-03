@@ -68,13 +68,13 @@ correct
 information
 *
 /
-let
+var
 gDebuggee
 ;
-let
+var
 gClient
 ;
-let
+var
 gThreadClient
 ;
 const

@@ -203,7 +203,7 @@ Ci
 nsIPrefBranch
 )
 ;
-let
+var
 MIN_DELAY
 =
 4
@@ -245,7 +245,7 @@ Last
 timer
 id
 .
-let
+var
 lastID
 =
 0
@@ -398,7 +398,7 @@ cancel
 )
 ;
 }
-let
+var
 immediates
 =
 new
@@ -406,7 +406,7 @@ Map
 (
 )
 ;
-let
+var
 dispatcher
 =
 _

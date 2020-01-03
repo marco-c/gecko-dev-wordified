@@ -55,7 +55,7 @@ gInCallStrPool
 inNumber
 )
 ;
-let
+var
 inCall
 ;
 /

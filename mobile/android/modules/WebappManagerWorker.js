@@ -92,7 +92,7 @@ js
 "
 )
 ;
-let
+var
 Log
 =
 require
@@ -144,7 +144,7 @@ a
 log
 tag
 .
-let
+var
 log
 =
 Log

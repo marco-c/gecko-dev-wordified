@@ -200,7 +200,7 @@ NETWORK_TYPE_MOBILE_DUN
 NETWORK_TYPE_MOBILE_FOTA
 ]
 ;
-let
+var
 Promise
 =
 Cu
@@ -224,7 +224,7 @@ jsm
 .
 Promise
 ;
-let
+var
 ril
 =
 Cc
@@ -262,7 +262,7 @@ ril
 constructor
 )
 ;
-let
+var
 radioInterface
 =
 ril

@@ -110,7 +110,7 @@ from
 bootstrap
 .
 js
-let
+var
 sanitizeId
 =
 function
@@ -289,7 +289,7 @@ raw
 uri
 object
 .
-let
+var
 principaluri
 =
 Cc
@@ -323,7 +323,7 @@ null
 null
 )
 ;
-let
+var
 ssm
 =
 Cc
@@ -346,7 +346,7 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-let
+var
 principal
 =
 ssm

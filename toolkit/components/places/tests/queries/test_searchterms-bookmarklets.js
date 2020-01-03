@@ -39,7 +39,7 @@ searches
 with
 searchTerms
 .
-let
+var
 testData
 =
 [

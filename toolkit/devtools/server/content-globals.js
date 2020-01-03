@@ -83,7 +83,7 @@ Services
 "
 )
 ;
-let
+var
 globalsCache
 =
 {

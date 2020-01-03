@@ -340,7 +340,7 @@ inBrowser
 )
 ;
 }
-let
+var
 testHarnessGenerator
 =
 testHarnessSteps

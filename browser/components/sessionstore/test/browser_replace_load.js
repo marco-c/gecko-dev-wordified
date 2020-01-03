@@ -148,7 +148,7 @@ true
 }
 )
 ;
-let
+var
 testSwitchToTab
 =
 Task

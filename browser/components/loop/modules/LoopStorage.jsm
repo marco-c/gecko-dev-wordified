@@ -288,7 +288,7 @@ kDefaultDatabaseName
 default
 "
 ;
-let
+var
 gDatabaseName
 =
 kDatabasePrefix
@@ -300,7 +300,7 @@ kDatabaseVersion
 =
 1
 ;
-let
+var
 gWaitForOpenCallbacks
 =
 new
@@ -308,12 +308,12 @@ Set
 (
 )
 ;
-let
+var
 gDatabase
 =
 null
 ;
-let
+var
 gClosed
 =
 false

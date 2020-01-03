@@ -28,7 +28,7 @@ zero
 /
 *
 /
-let
+var
 {
 Log
 }
@@ -54,7 +54,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Weave
 }
@@ -80,7 +80,7 @@ js
 }
 )
 ;
-let
+var
 {
 Notifications
 }
@@ -106,7 +106,7 @@ js
 }
 )
 ;
-let
+var
 stringBundle
 =
 Cc

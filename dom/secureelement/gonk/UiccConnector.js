@@ -284,7 +284,7 @@ to
 see
 debug
 messages
-let
+var
 DEBUG
 =
 SE

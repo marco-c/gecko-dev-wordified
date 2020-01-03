@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-let
+var
 tabEvents
 =
 "

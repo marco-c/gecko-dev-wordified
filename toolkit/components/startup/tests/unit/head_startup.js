@@ -84,7 +84,7 @@ jsm
 "
 )
 ;
-let
+var
 gAppInfo
 =
 null

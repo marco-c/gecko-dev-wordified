@@ -2480,7 +2480,7 @@ name
 )
 ;
 }
-let
+var
 testRunner
 ;
 function

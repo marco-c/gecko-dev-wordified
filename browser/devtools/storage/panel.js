@@ -183,7 +183,7 @@ ui
 true
 )
 ;
-let
+var
 StoragePanel
 =
 this

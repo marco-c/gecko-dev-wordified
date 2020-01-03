@@ -45,7 +45,7 @@ zero
 /
 *
 /
-let
+var
 toolbox
 ;
 function

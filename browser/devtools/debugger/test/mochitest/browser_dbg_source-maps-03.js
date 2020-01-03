@@ -66,12 +66,12 @@ code_math
 js
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 gFrames

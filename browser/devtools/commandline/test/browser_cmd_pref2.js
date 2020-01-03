@@ -36,7 +36,7 @@ the
 pref
 commands
 work
-let
+var
 prefBranch
 =
 Cc

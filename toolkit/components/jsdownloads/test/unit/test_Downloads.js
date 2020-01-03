@@ -1375,7 +1375,7 @@ downloadDir
 /
 /
 Termination
-let
+var
 tailFile
 =
 do_get_file

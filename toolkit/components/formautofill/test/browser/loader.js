@@ -124,7 +124,7 @@ js
 this
 )
 ;
-let
+var
 ChromeUtils
 =
 {
@@ -170,7 +170,7 @@ across
 all
 frameworks
 .
-let
+var
 Output
 =
 {
@@ -193,7 +193,7 @@ across
 all
 frameworks
 .
-let
+var
 Assert
 =
 {
@@ -224,12 +224,12 @@ loader_common
 js
 "
 .
-let
+var
 add_task_in_parent_process
 =
 add_task
 ;
-let
+var
 add_task_in_child_process
 =
 function
@@ -238,7 +238,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_both_processes
 =
 add_task

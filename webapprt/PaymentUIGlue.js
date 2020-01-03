@@ -221,7 +221,7 @@ aErrorMsg
 }
 ;
 }
-let
+var
 payments
 =
 {

@@ -103,7 +103,7 @@ Function
 }
 *
 /
-let
+var
 mockResponse
 =
 function
@@ -213,7 +213,7 @@ more
 checks
 here
 .
-let
+var
 mockFxa
 =
 {
@@ -291,7 +291,7 @@ Function
 }
 *
 /
-let
+var
 mockResponseError
 =
 function

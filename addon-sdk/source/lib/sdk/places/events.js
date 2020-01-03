@@ -289,7 +289,7 @@ EventTarget
 (
 )
 ;
-let
+var
 HISTORY_ARGS
 =
 {
@@ -369,7 +369,7 @@ transitionType
 ]
 }
 ;
-let
+var
 HISTORY_EVENTS
 =
 {
@@ -445,7 +445,7 @@ visit
 '
 }
 ;
-let
+var
 BOOKMARK_ARGS
 =
 {
@@ -562,7 +562,7 @@ parentId
 ]
 }
 ;
-let
+var
 BOOKMARK_EVENTS
 =
 {
@@ -847,7 +847,7 @@ return
 data
 ;
 }
-let
+var
 historyObserver
 =
 createObserverInstance
@@ -864,7 +864,7 @@ historyObserver
 false
 )
 ;
-let
+var
 bookmarkObserver
 =
 createObserverInstance

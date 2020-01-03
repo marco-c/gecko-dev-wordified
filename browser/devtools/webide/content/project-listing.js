@@ -115,7 +115,7 @@ list
 "
 )
 ;
-let
+var
 projectList
 =
 new

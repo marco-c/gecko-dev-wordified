@@ -79,7 +79,7 @@ bookmarks
 folder
 heirarchy
 .
-let
+var
 FolderCache
 =
 function

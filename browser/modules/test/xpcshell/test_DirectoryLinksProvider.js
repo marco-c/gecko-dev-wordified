@@ -610,10 +610,10 @@ setInputStream
 "
 )
 ;
-let
+var
 gLastRequestPath
 ;
-let
+var
 suggestedTile1
 =
 {
@@ -667,7 +667,7 @@ com
 ]
 }
 ;
-let
+var
 suggestedTile2
 =
 {
@@ -721,7 +721,7 @@ com
 ]
 }
 ;
-let
+var
 suggestedTile3
 =
 {
@@ -775,7 +775,7 @@ com
 ]
 }
 ;
-let
+var
 suggestedTile4
 =
 {
@@ -813,7 +813,7 @@ com
 "
 ]
 }
-let
+var
 suggestedTile5
 =
 {
@@ -905,7 +905,7 @@ com
 "
 ]
 }
-let
+var
 someOtherSite
 =
 {

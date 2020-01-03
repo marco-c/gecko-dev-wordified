@@ -49,12 +49,12 @@ are
 rerendered
 *
 /
-let
+var
 HORIZONTAL_AXIS
 =
 1
 ;
-let
+var
 VERTICAL_AXIS
 =
 2

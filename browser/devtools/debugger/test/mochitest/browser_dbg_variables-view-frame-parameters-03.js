@@ -68,12 +68,12 @@ parameters
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gVariables
 ;
 function

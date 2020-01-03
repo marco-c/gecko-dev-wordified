@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 kWidgetId
 =
 "
@@ -81,7 +81,7 @@ CustomizableUI
 .
 AREA_NAVBAR
 ;
-let
+var
 widgetCounter
 =
 0

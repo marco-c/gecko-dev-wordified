@@ -110,7 +110,7 @@ js
 this
 )
 ;
-let
+var
 DEBUG
 ;
 /
@@ -18794,7 +18794,7 @@ ids
 (
 )
 ;
-let
+var
 debug
 ;
 if

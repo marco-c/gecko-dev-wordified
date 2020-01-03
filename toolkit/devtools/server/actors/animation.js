@@ -463,7 +463,7 @@ animation
 .
 *
 /
-let
+var
 AnimationPlayerActor
 =
 ActorClass
@@ -2834,7 +2834,7 @@ response
 }
 )
 ;
-let
+var
 AnimationPlayerFront
 =
 FrontClass
@@ -3859,7 +3859,7 @@ node
 .
 *
 /
-let
+var
 AnimationsActor
 =
 exports
@@ -5829,7 +5829,7 @@ response
 }
 )
 ;
-let
+var
 AnimationsFront
 =
 exports

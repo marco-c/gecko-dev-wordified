@@ -1089,7 +1089,7 @@ return
 testPassed
 ;
 }
-let
+var
 listener
 =
 {

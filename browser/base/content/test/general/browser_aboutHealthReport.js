@@ -547,7 +547,7 @@ payload
 ;
 }
 }
-let
+var
 gTests
 =
 [

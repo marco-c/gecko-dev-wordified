@@ -155,7 +155,7 @@ bug
 592442
 "
 ;
-let
+var
 test
 =
 asyncTest

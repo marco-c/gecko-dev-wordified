@@ -34,7 +34,7 @@ MARIONETTE_CONTEXT
 chrome
 "
 ;
-let
+var
 Promise
 =
 Cu
@@ -80,7 +80,7 @@ newMobileMessageDB
 .
 *
 /
-let
+var
 MMDB
 ;
 /
@@ -2055,7 +2055,7 @@ a
 nsIUUIDGenerator
 service
 .
-let
+var
 _uuidGenerator
 ;
 /

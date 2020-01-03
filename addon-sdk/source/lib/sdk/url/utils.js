@@ -195,7 +195,7 @@ newURI
 =
 newURI
 ;
-let
+var
 getURL
 =
 method

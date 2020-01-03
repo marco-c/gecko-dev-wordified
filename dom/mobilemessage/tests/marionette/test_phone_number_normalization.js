@@ -57,7 +57,7 @@ true
 document
 )
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0
@@ -119,7 +119,7 @@ response
 )
 ;
 }
-let
+var
 tasks
 =
 {
@@ -641,7 +641,7 @@ finish
 }
 ;
 }
-let
+var
 manager
 =
 window

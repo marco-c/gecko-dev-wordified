@@ -54,7 +54,7 @@ functionality
 .
 *
 /
-let
+var
 gTeardownAfterClose
 =
 false
@@ -155,7 +155,7 @@ teardown
 )
 ;
 }
-let
+var
 gTests
 =
 [

@@ -99,7 +99,7 @@ MPL
 .
 *
 /
-let
+var
 mDBConn
 =
 DBConn
@@ -289,7 +289,7 @@ register
 the
 observer
 .
-let
+var
 promiseInit
 ;
 function

@@ -885,7 +885,7 @@ do
 so
 here
 .
-let
+var
 telemetry
 =
 new
@@ -902,7 +902,7 @@ scratchpad
 "
 )
 ;
-let
+var
 WebConsoleUtils
 =
 require
@@ -12864,7 +12864,7 @@ _tab
 aTab
 ;
 }
-let
+var
 scratchpadTargets
 =
 new

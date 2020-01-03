@@ -612,7 +612,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 MessageBroker
 Messenger
@@ -622,7 +622,7 @@ flushJarCache
 =
 ExtensionUtils
 ;
-let
+var
 scriptScope
 =
 this
@@ -645,7 +645,7 @@ the
 extension
 API
 .
-let
+var
 Management
 =
 {
@@ -1207,7 +1207,7 @@ chrome
 process
 )
 .
-let
+var
 globalBroker
 =
 new
@@ -1694,7 +1694,7 @@ the
 right
 globals
 .
-let
+var
 GlobalManager
 =
 {

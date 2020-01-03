@@ -58,7 +58,7 @@ button
 .
 *
 /
-let
+var
 C
 =
 1
@@ -67,7 +67,7 @@ C
 /
 is
 console
-let
+var
 R
 =
 2
@@ -76,7 +76,7 @@ R
 /
 is
 recording
-let
+var
 S
 =
 4

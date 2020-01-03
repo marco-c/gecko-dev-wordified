@@ -49,7 +49,7 @@ them
 .
 *
 /
-let
+var
 test
 =
 Task

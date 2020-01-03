@@ -153,7 +153,7 @@ jsm
 "
 )
 ;
-let
+var
 Scope
 =
 Object
@@ -198,7 +198,7 @@ GeckoSharedPrefs
 .
 *
 /
-let
+var
 SharedPreferences
 =
 {

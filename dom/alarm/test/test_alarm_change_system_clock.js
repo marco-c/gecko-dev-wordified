@@ -157,10 +157,10 @@ manifest
 webapp
 "
 ;
-let
+var
 alarmDate
 ;
-let
+var
 alarmFired
 ;
 function

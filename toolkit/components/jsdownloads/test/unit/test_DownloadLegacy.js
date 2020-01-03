@@ -179,12 +179,12 @@ Execution
 of
 common
 tests
-let
+var
 gUseLegacySaver
 =
 true
 ;
-let
+var
 scriptFile
 =
 do_get_file
@@ -297,7 +297,7 @@ spec
 /
 /
 Termination
-let
+var
 tailFile
 =
 do_get_file

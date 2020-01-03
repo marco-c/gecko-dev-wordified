@@ -623,7 +623,7 @@ result
 .
 *
 /
-let
+var
 FrameSnapshotActor
 =
 protocol
@@ -1180,7 +1180,7 @@ FrameSnapshotActor
 .
 *
 /
-let
+var
 FrameSnapshotFront
 =
 protocol
@@ -1461,7 +1461,7 @@ loop
 .
 *
 /
-let
+var
 CanvasActor
 =
 exports
@@ -3045,7 +3045,7 @@ contexts
 .
 *
 /
-let
+var
 ContextUtils
 =
 {
@@ -5604,7 +5604,7 @@ CanvasActor
 .
 *
 /
-let
+var
 CanvasFront
 =
 exports

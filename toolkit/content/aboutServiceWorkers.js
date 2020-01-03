@@ -165,10 +165,10 @@ properties
 "
 )
 ;
-let
+var
 gSWM
 ;
-let
+var
 gSWCount
 =
 0

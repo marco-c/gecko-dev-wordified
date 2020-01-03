@@ -619,7 +619,7 @@ t
 ;
 *
 /
-let
+var
 js_beautify
 =
 function

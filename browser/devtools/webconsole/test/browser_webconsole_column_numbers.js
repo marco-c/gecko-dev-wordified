@@ -81,7 +81,7 @@ column
 html
 "
 ;
-let
+var
 hud
 ;
 function

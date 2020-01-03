@@ -774,7 +774,7 @@ of
 the
 test
 .
-let
+var
 originalNewWindowPref
 =
 Services
@@ -786,7 +786,7 @@ getIntPref
 kNewWindowPrefKey
 )
 ;
-let
+var
 originalNewWindowRestrictionPref
 =
 Services

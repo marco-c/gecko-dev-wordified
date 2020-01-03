@@ -176,7 +176,7 @@ P2P_RE_INDEX_0
 )
 ;
 }
-let
+var
 tests
 =
 [

@@ -128,7 +128,7 @@ WeakMap
 (
 )
 ;
-let
+var
 WebappsStore
 ;
 module

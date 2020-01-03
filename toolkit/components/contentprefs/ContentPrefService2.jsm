@@ -270,7 +270,7 @@ cgi
 id
 =
 699859
-let
+var
 EXPORTED_SYMBOLS
 =
 [

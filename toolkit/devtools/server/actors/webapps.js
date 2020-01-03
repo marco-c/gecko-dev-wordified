@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Cu
 Cc
@@ -170,7 +170,7 @@ jsm
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -180,7 +180,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -194,7 +194,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 ActorPool
 }
@@ -212,7 +212,7 @@ common
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -228,7 +228,7 @@ main
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -274,7 +274,7 @@ permissions
 "
 )
 ;
-let
+var
 FramesMock
 =
 null

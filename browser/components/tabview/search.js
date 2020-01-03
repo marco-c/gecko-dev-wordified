@@ -279,7 +279,7 @@ one
 is
 which
 .
-let
+var
 TabUtils
 =
 {
@@ -2300,7 +2300,7 @@ the
 event
 handlers
 .
-let
+var
 TabHandlers
 =
 {
@@ -3044,7 +3044,7 @@ the
 search
 feature
 .
-let
+var
 Search
 =
 {

@@ -51,7 +51,7 @@ CSS
 pixel
 /
 /
-let
+var
 browserWindow
 =
 Services
@@ -67,7 +67,7 @@ browser
 "
 )
 ;
-let
+var
 isMulet
 =
 "

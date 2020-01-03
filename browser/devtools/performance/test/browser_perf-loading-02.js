@@ -79,7 +79,7 @@ one
 .
 *
 /
-let
+var
 test
 =
 Task

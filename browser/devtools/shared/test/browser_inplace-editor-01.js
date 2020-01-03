@@ -50,7 +50,7 @@ use
 strict
 "
 ;
-let
+var
 promise
 =
 require
@@ -60,7 +60,7 @@ promise
 "
 )
 ;
-let
+var
 {
 editableField
 getInplaceEditorForSpan

@@ -58,12 +58,12 @@ frame
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gVariables
 gSearchBox
 ;

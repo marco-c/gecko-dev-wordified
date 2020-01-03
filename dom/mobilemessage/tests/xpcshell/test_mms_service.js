@@ -70,7 +70,7 @@ MMS_Service
 gMmsTransactionHelper
 ;
 }
-let
+var
 CallFunc
 =
 newMmsTransactionHelper

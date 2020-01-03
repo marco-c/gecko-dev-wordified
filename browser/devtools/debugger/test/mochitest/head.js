@@ -50,7 +50,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -119,7 +119,7 @@ by
 this
 pref
 .
-let
+var
 gEnableLogging
 =
 Services
@@ -153,7 +153,7 @@ log
 false
 )
 ;
-let
+var
 {
 Task
 }
@@ -179,7 +179,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 :
@@ -213,7 +213,7 @@ js
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -240,7 +240,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -268,7 +268,7 @@ jsm
 }
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -282,7 +282,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 BrowserToolboxProcess
 }
@@ -309,7 +309,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -325,7 +325,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 ObjectClient
@@ -344,7 +344,7 @@ main
 "
 )
 ;
-let
+var
 {
 AddonManager
 }
@@ -370,7 +370,7 @@ jsm
 }
 )
 ;
-let
+var
 EventEmitter
 =
 require
@@ -402,7 +402,7 @@ utils
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -418,7 +418,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -676,7 +676,7 @@ the
 GCLI
 test
 helper
-let
+var
 testDir
 =
 gTestPath
@@ -733,7 +733,7 @@ mochitest
 "
 )
 ;
-let
+var
 helpersjs
 =
 testDir
@@ -6462,7 +6462,7 @@ attachment
 source
 ;
 }
-let
+var
 nextId
 =
 0

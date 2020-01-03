@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -74,7 +74,7 @@ Cr
 =
 Components
 ;
-let
+var
 uuidGen
 =
 Cc
@@ -99,7 +99,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
+var
 loader
 =
 Cc
@@ -297,7 +297,7 @@ jsm
 "
 )
 ;
-let
+var
 utils
 =
 {
@@ -401,7 +401,7 @@ js
 utils
 )
 ;
-let
+var
 marionetteLogObj
 =
 new
@@ -409,15 +409,15 @@ MarionetteLogObj
 (
 )
 ;
-let
+var
 isB2G
 =
 false
 ;
-let
+var
 marionetteTestName
 ;
-let
+var
 winUtil
 =
 content
@@ -436,7 +436,7 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
+var
 listenerId
 =
 null
@@ -448,7 +448,7 @@ ID
 of
 this
 listener
-let
+var
 curContainer
 =
 {
@@ -460,7 +460,7 @@ shadowRoot
 null
 }
 ;
-let
+var
 isRemoteBrowser
 =
 (
@@ -477,12 +477,12 @@ contentWindow
 =
 null
 ;
-let
+var
 previousContainer
 =
 null
 ;
-let
+var
 elementManager
 =
 new
@@ -492,7 +492,7 @@ ElementManager
 ]
 )
 ;
-let
+var
 accessibility
 =
 new
@@ -500,7 +500,7 @@ Accessibility
 (
 )
 ;
-let
+var
 actions
 =
 new
@@ -510,7 +510,7 @@ utils
 checkForInterrupted
 )
 ;
-let
+var
 importedScripts
 =
 null
@@ -532,7 +532,7 @@ of
 /
 sendKeysToElement
 .
-let
+var
 fileInputElement
 ;
 /
@@ -544,7 +544,7 @@ sandboxes
 used
 this
 session
-let
+var
 sandboxes
 =
 {
@@ -558,7 +558,7 @@ of
 the
 current
 sandbox
-let
+var
 sandboxName
 =
 '
@@ -570,7 +570,7 @@ default
 the
 unload
 handler
-let
+var
 onunload
 ;
 /
@@ -588,23 +588,23 @@ running
 or
 not
 .
-let
+var
 asyncTestRunning
 =
 false
 ;
-let
+var
 asyncTestCommandId
 ;
-let
+var
 asyncTestTimeoutId
 ;
-let
+var
 inactivityTimeoutId
 =
 null
 ;
-let
+var
 heartbeatCallback
 =
 function
@@ -621,7 +621,7 @@ the
 simpletest
 methods
 .
-let
+var
 originalOnError
 ;
 /
@@ -630,7 +630,7 @@ timer
 for
 doc
 changes
-let
+var
 checkTimer
 =
 Cc
@@ -658,7 +658,7 @@ nsITimer
 timer
 for
 readystate
-let
+var
 readyStateTimer
 =
 Cc
@@ -688,7 +688,7 @@ for
 navigation
 commands
 .
-let
+var
 navTimer
 =
 Cc
@@ -711,7 +711,7 @@ Ci
 nsITimer
 )
 ;
-let
+var
 onDOMContentLoaded
 ;
 /
@@ -722,7 +722,7 @@ events
 about
 this
 often
-let
+var
 EVENT_INTERVAL
 =
 30
@@ -737,7 +737,7 @@ touch
 for
 each
 fingerId
-let
+var
 multiLast
 =
 {
@@ -762,7 +762,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 Log
@@ -788,7 +788,7 @@ js
 "
 )
 ;
-let
+var
 modalHandler
 =
 function
@@ -1534,7 +1534,7 @@ handler
 )
 ;
 }
-let
+var
 getTitleFn
 =
 dispatch
@@ -1542,7 +1542,7 @@ dispatch
 getTitle
 )
 ;
-let
+var
 getPageSourceFn
 =
 dispatch
@@ -1550,7 +1550,7 @@ dispatch
 getPageSource
 )
 ;
-let
+var
 getActiveElementFn
 =
 dispatch
@@ -1558,7 +1558,7 @@ dispatch
 getActiveElement
 )
 ;
-let
+var
 clickElementFn
 =
 dispatch
@@ -1566,7 +1566,7 @@ dispatch
 clickElement
 )
 ;
-let
+var
 goBackFn
 =
 dispatch
@@ -1574,7 +1574,7 @@ dispatch
 goBack
 )
 ;
-let
+var
 getElementAttributeFn
 =
 dispatch
@@ -1582,7 +1582,7 @@ dispatch
 getElementAttribute
 )
 ;
-let
+var
 getElementTextFn
 =
 dispatch
@@ -1590,7 +1590,7 @@ dispatch
 getElementText
 )
 ;
-let
+var
 getElementTagNameFn
 =
 dispatch
@@ -1598,7 +1598,7 @@ dispatch
 getElementTagName
 )
 ;
-let
+var
 getElementRectFn
 =
 dispatch
@@ -1606,7 +1606,7 @@ dispatch
 getElementRect
 )
 ;
-let
+var
 isElementEnabledFn
 =
 dispatch
@@ -1614,7 +1614,7 @@ dispatch
 isElementEnabled
 )
 ;
-let
+var
 getCurrentUrlFn
 =
 dispatch
@@ -1622,7 +1622,7 @@ dispatch
 getCurrentUrl
 )
 ;
-let
+var
 findElementContentFn
 =
 dispatch
@@ -1630,7 +1630,7 @@ dispatch
 findElementContent
 )
 ;
-let
+var
 findElementsContentFn
 =
 dispatch
@@ -1638,7 +1638,7 @@ dispatch
 findElementsContent
 )
 ;
-let
+var
 isElementSelectedFn
 =
 dispatch
@@ -1646,7 +1646,7 @@ dispatch
 isElementSelected
 )
 ;
-let
+var
 clearElementFn
 =
 dispatch
@@ -1654,7 +1654,7 @@ dispatch
 clearElement
 )
 ;
-let
+var
 isElementDisplayedFn
 =
 dispatch
@@ -1662,7 +1662,7 @@ dispatch
 isElementDisplayed
 )
 ;
-let
+var
 getElementValueOfCssPropertyFn
 =
 dispatch
@@ -1670,7 +1670,7 @@ dispatch
 getElementValueOfCssProperty
 )
 ;
-let
+var
 switchToShadowRootFn
 =
 dispatch
@@ -1678,7 +1678,7 @@ dispatch
 switchToShadowRoot
 )
 ;
-let
+var
 getCookiesFn
 =
 dispatch
@@ -1686,7 +1686,7 @@ dispatch
 getCookies
 )
 ;
-let
+var
 singleTapFn
 =
 dispatch
@@ -13363,12 +13363,12 @@ command_id
 /
 emulator
 callbacks
-let
+var
 _emu_cb_id
 =
 0
 ;
-let
+var
 _emu_cbs
 =
 {

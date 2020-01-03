@@ -80,7 +80,7 @@ corresponding
 widget
 too
 .
-let
+var
 L10N
 =
 new

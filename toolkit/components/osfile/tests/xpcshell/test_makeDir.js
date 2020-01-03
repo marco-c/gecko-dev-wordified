@@ -103,14 +103,14 @@ jsm
 "
 )
 ;
-let
+var
 Path
 =
 OS
 .
 Path
 ;
-let
+var
 profileDir
 ;
 do_register_cleanup

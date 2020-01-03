@@ -434,7 +434,7 @@ the
 browser
 events
 .
-let
+var
 readyEvents
 =
 filter
@@ -468,7 +468,7 @@ target
 browser
 windows
 .
-let
+var
 futureWindows
 =
 map
@@ -521,7 +521,7 @@ will
 become
 interactive
 .
-let
+var
 eventsFromFuture
 =
 expand
@@ -568,7 +568,7 @@ for
 them
 too
 .
-let
+var
 interactiveWindows
 =
 windows
@@ -590,7 +590,7 @@ filter
 isInteractive
 )
 ;
-let
+var
 eventsFromInteractive
 =
 merge
@@ -631,7 +631,7 @@ that
 will
 open
 .
-let
+var
 allEvents
 =
 merge

@@ -57,12 +57,12 @@ print
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gSearchBox
 ;
 function

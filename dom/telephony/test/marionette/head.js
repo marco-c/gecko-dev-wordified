@@ -98,10 +98,10 @@ this
 )
 ;
 }
-let
+var
 telephony
 ;
-let
+var
 conference
 ;
 const
@@ -124,7 +124,7 @@ helper
 .
 *
 /
-let
+var
 emulator
 =
 (

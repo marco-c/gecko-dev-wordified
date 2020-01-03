@@ -81,7 +81,7 @@ MPL
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -203,7 +203,7 @@ jsm
 "
 )
 ;
-let
+var
 dump
 =
 Cu
@@ -239,7 +239,7 @@ Content
 "
 )
 ;
-let
+var
 global
 =
 this
@@ -268,7 +268,7 @@ this
 code
 somehow
 .
-let
+var
 AboutReaderListener
 =
 {

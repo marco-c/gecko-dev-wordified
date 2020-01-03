@@ -63,7 +63,7 @@ Components
 .
 interfaces
 ;
-let
+var
 tab
 browser
 ;

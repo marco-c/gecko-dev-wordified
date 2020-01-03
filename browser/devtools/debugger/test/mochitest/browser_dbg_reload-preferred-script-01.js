@@ -89,13 +89,13 @@ switching
 js
 "
 ;
-let
+var
 gTab
 gDebuggee
 gPanel
 gDebugger
 ;
-let
+var
 gSources
 ;
 function

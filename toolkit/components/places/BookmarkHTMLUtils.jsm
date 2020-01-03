@@ -903,7 +903,7 @@ fake
 favicon
 urls
 .
-let
+var
 serialNumber
 =
 0

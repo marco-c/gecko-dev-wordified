@@ -113,7 +113,7 @@ Uint8Array
 )
 ]
 ;
-let
+var
 nfcPeers
 =
 [
@@ -891,7 +891,7 @@ deferred
 promise
 ;
 }
-let
+var
 tests
 =
 [

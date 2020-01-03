@@ -9696,7 +9696,7 @@ on
 .
 *
 /
-let
+var
 PlacesControllerDragHelper
 =
 {

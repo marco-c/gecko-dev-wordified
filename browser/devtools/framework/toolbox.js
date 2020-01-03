@@ -149,7 +149,7 @@ SCREENSIZE_HISTOGRAM
 DEVTOOLS_SCREEN_RESOLUTION_ENUMERATED_PER_USER
 "
 ;
-let
+var
 {
 Cc
 Ci
@@ -163,7 +163,7 @@ chrome
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -173,7 +173,7 @@ promise
 "
 )
 ;
-let
+var
 EventEmitter
 =
 require
@@ -189,7 +189,7 @@ emitter
 "
 )
 ;
-let
+var
 Telemetry
 =
 require
@@ -203,7 +203,7 @@ telemetry
 "
 )
 ;
-let
+var
 HUDService
 =
 require
@@ -217,7 +217,7 @@ hudservice
 "
 )
 ;
-let
+var
 sourceUtils
 =
 require

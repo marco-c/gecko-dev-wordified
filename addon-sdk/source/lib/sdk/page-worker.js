@@ -518,7 +518,7 @@ get
 page
 false
 )
-let
+var
 pageContract
 =
 contract
@@ -1315,7 +1315,7 @@ Page
 =
 Page
 ;
-let
+var
 pageEvents
 =
 streamMerge
@@ -1329,7 +1329,7 @@ window
 ]
 )
 ;
-let
+var
 readyEvents
 =
 filter
@@ -1338,7 +1338,7 @@ pageEvents
 isReadyEvent
 )
 ;
-let
+var
 formattedEvents
 =
 map
@@ -1368,7 +1368,7 @@ target
 }
 )
 ;
-let
+var
 pageReadyEvents
 =
 filter

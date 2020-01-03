@@ -71,7 +71,7 @@ the
 rule
 view
 .
-let
+var
 {
 ELEMENT_STYLE
 }

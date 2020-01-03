@@ -87,7 +87,7 @@ TelemetryStopwatch
 "
 ]
 ;
-let
+var
 Telemetry
 =
 Cc
@@ -138,13 +138,13 @@ a
 histogram
 name
 .
-let
+var
 simpleTimers
 =
 {
 }
 ;
-let
+var
 objectTimers
 =
 new

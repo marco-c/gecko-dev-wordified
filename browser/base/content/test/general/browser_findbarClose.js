@@ -36,7 +36,7 @@ auto
 -
 close
 behavior
-let
+var
 newTab
 iframe
 ;

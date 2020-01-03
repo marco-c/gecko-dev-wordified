@@ -233,7 +233,7 @@ the
 value
 here
 .
-let
+var
 DEBUG
 ;
 /

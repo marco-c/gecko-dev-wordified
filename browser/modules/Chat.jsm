@@ -386,7 +386,7 @@ Chat
 object
 *
 /
-let
+var
 Chat
 =
 {

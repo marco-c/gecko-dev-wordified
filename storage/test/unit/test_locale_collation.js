@@ -1832,7 +1832,7 @@ getApplicationLocale
 /
 Test
 Runs
-let
+var
 gTests
 =
 [

@@ -109,7 +109,7 @@ autocomplete
 enabled
 "
 ;
-let
+var
 gBrowserGlue
 =
 Cc
@@ -134,7 +134,7 @@ Ci
 nsIObserver
 )
 ;
-let
+var
 gGetBoolPref
 =
 Services

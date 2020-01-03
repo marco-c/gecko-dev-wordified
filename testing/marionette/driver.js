@@ -220,7 +220,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 devtools
 }
@@ -448,7 +448,7 @@ this
 import
 order
 :
-let
+var
 utils
 =
 {
@@ -774,7 +774,7 @@ have
 to
 change
 .
-let
+var
 systemMessageListenerReady
 =
 false
@@ -833,7 +833,7 @@ line
 has
 completed
 .
-let
+var
 delayedBrowserStarted
 =
 false
@@ -21036,7 +21036,7 @@ to
 .
 *
 /
-let
+var
 BrowserObj
 =
 function

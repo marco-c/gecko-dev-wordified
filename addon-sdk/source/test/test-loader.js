@@ -61,7 +61,7 @@ use
 strict
 '
 ;
-let
+var
 {
 Loader
 main
@@ -83,7 +83,7 @@ loader
 '
 )
 ;
-let
+var
 {
 readURI
 }
@@ -99,7 +99,7 @@ url
 '
 )
 ;
-let
+var
 root
 =
 module

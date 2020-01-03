@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 {
 FileUtils
 }
@@ -53,7 +53,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -149,7 +149,7 @@ layer
 .
 *
 /
-let
+var
 test_bulk_transfer_transport
 =
 Task

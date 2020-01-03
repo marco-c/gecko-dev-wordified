@@ -121,7 +121,7 @@ available
 "
 )
 ;
-let
+var
 propNum
 =
 (
@@ -200,7 +200,7 @@ propNum
 PROP_RO_MOZ_RIL_NUMCLIENTS
 )
 ;
-let
+var
 prefNum
 =
 Services
@@ -229,7 +229,7 @@ PREF_RIL_NUM_RADIO_INTERFACES
 prefNum
 )
 ;
-let
+var
 ril
 =
 Cc
@@ -259,7 +259,7 @@ ril
 constructor
 )
 ;
-let
+var
 ifaceNum
 =
 ril

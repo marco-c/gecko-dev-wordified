@@ -81,7 +81,7 @@ SMS_NUMBER
 =
 100
 ;
-let
+var
 SmsList
 =
 [

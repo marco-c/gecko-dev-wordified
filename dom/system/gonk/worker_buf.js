@@ -165,7 +165,7 @@ sent
 .
 *
 /
-let
+var
 Buf
 =
 {

@@ -43,7 +43,7 @@ command
 parameters
 and
 options
-let
+var
 TEST_PAGE
 =
 "

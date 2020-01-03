@@ -83,7 +83,7 @@ jsm
 "
 )
 ;
-let
+var
 gSyncProfile
 ;
 gSyncProfile
@@ -103,7 +103,7 @@ opened
 a
 profile
 .
-let
+var
 fhs
 =
 Cc
@@ -206,7 +206,7 @@ loads
 the
 right
 binaries
-let
+var
 OS
 =
 "
@@ -259,7 +259,7 @@ OS
 Linux
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -343,7 +343,7 @@ invalidateCachesOnRestart
 }
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -378,7 +378,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components

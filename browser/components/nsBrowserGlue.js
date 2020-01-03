@@ -20225,7 +20225,7 @@ break
 }
 }
 ;
-let
+var
 DefaultBrowserCheck
 =
 {
@@ -21543,7 +21543,7 @@ _notification
 #
 ifdef
 E10S_TESTING_ONLY
-let
+var
 E10SUINotification
 =
 {
@@ -23378,7 +23378,7 @@ message
 is
 received
 .
-let
+var
 globalMM
 =
 Cc

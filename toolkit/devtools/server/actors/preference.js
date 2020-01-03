@@ -145,7 +145,7 @@ handle
 {
 }
 ;
-let
+var
 PreferenceActor
 =
 exports
@@ -695,7 +695,7 @@ response
 }
 )
 ;
-let
+var
 PreferenceFront
 =
 protocol

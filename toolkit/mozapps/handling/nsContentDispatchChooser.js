@@ -971,7 +971,7 @@ nsIContentDispatchChooser
 /
 /
 Module
-let
+var
 components
 =
 [

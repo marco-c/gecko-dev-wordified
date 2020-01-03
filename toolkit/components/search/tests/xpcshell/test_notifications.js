@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-let
+var
 gTestLog
 =
 [
@@ -187,7 +187,7 @@ above
 )
 *
 /
-let
+var
 expectedLog
 =
 [

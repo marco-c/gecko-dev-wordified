@@ -186,7 +186,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -214,7 +214,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 EventTarget
 }
@@ -392,7 +392,7 @@ properties
 of
 an
 AudioNode
-let
+var
 AUDIO_NODE_DEFINITION
 ;
 /
@@ -738,7 +738,7 @@ host
 .
 *
 /
-let
+var
 gToolbox
 gTarget
 gFront

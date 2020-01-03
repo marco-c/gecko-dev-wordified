@@ -27,10 +27,10 @@ zero
 /
 *
 /
-let
+var
 gPort
 ;
-let
+var
 gExtraListener
 ;
 function

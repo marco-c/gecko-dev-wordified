@@ -56,7 +56,7 @@ use
 strict
 "
 ;
-let
+var
 WebConsoleUtils
 =
 require
@@ -74,7 +74,7 @@ utils
 .
 Utils
 ;
-let
+var
 DEVTOOLS_CHROME_ENABLED
 =
 "

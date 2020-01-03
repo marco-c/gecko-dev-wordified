@@ -101,7 +101,7 @@ its
 own
 uri
 )
-let
+var
 kURIs
 =
 [
@@ -126,7 +126,7 @@ escapeduri
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -186,7 +186,7 @@ run
 before
 the
 test
-let
+var
 gTests
 =
 [

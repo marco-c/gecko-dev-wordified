@@ -96,7 +96,7 @@ browser
 .
 *
 /
-let
+var
 {
 classes
 :
@@ -798,7 +798,7 @@ content
 }
 )
 ;
-let
+var
 AboutHomeListener
 =
 {
@@ -1501,7 +1501,7 @@ init
 this
 )
 ;
-let
+var
 AboutPrivateBrowsingListener
 =
 {
@@ -1625,7 +1625,7 @@ init
 this
 )
 ;
-let
+var
 AboutReaderListener
 =
 {
@@ -2331,7 +2331,7 @@ init
 (
 )
 ;
-let
+var
 ContentSearchMediator
 =
 {
@@ -2597,7 +2597,7 @@ init
 this
 )
 ;
-let
+var
 PageStyleHandler
 =
 {
@@ -3177,7 +3177,7 @@ GC
 '
 ed
 .
-let
+var
 trHandler
 =
 null
@@ -3453,7 +3453,7 @@ isAppTab
 }
 )
 ;
-let
+var
 WebBrowserChrome
 =
 {
@@ -3574,7 +3574,7 @@ webBrowserChrome
 WebBrowserChrome
 ;
 }
-let
+var
 DOMFullscreenHandler
 =
 {

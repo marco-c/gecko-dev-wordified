@@ -48,7 +48,7 @@ UI
 .
 *
 /
-let
+var
 WAIT_TIME
 =
 10

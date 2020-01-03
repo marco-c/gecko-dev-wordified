@@ -2417,7 +2417,7 @@ and
 worker
 threads
 .
-let
+var
 PromiseDebugging
 =
 {
@@ -2445,7 +2445,7 @@ workers
 }
 }
 ;
-let
+var
 chrome
 =
 {
@@ -2475,7 +2475,7 @@ components
 undefined
 }
 ;
-let
+var
 loader
 =
 {
@@ -2684,7 +2684,7 @@ the
 worker
 debugger
 .
-let
+var
 {
 Debugger
 createSandbox

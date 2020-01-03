@@ -242,7 +242,7 @@ Troubleshoot
 }
 )
 ;
-let
+var
 tests
 =
 [

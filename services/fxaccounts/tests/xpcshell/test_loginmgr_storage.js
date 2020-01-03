@@ -259,7 +259,7 @@ mock
 the
 prototype
 .
-let
+var
 {
 LoginManagerStorage
 }
@@ -285,7 +285,7 @@ jsm
 }
 )
 ;
-let
+var
 isLoggedIn
 =
 true

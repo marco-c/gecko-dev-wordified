@@ -142,7 +142,7 @@ tests
 .
 *
 /
-let
+var
 oldCanRecord
 =
 Services

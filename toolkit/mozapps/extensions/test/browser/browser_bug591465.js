@@ -45,7 +45,7 @@ related
 state
 change
 entries
-let
+var
 tempScope
 =
 {
@@ -73,7 +73,7 @@ jsm
 tempScope
 )
 ;
-let
+var
 LightweightThemeManager
 =
 tempScope

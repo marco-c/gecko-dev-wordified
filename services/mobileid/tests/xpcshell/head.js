@@ -811,7 +811,7 @@ Mocks
 =
 =
 =
-let
+var
 Mock
 =
 function
@@ -1148,7 +1148,7 @@ Glue
 mock
 up
 .
-let
+var
 MockUi
 =
 function
@@ -1335,7 +1335,7 @@ store
 mock
 up
 .
-let
+var
 MockCredStore
 =
 function
@@ -1634,7 +1634,7 @@ Client
 mock
 up
 .
-let
+var
 MockClient
 =
 function
@@ -2116,7 +2116,7 @@ nsIFactory
 ;
 *
 /
-let
+var
 fakeMobileIdentityUIGlueFactory
 =
 {
@@ -2145,7 +2145,7 @@ MobileIdentityUIGlue
 fake
 component
 .
-let
+var
 MobileIdentityUIGlue
 =
 {
@@ -2258,7 +2258,7 @@ info
 1
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -2341,7 +2341,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {

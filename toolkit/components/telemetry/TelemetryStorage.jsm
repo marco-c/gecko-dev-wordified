@@ -983,7 +983,7 @@ testing
 .
 *
 /
-let
+var
 Policy
 =
 {
@@ -3586,7 +3586,7 @@ _popAndPerformQueuedOperation
 }
 }
 ;
-let
+var
 TelemetryStorageImpl
 =
 {
@@ -12077,7 +12077,7 @@ errors
 .
 *
 /
-let
+var
 getArchivedPingSize
 =
 Task
@@ -12205,7 +12205,7 @@ errors
 .
 *
 /
-let
+var
 getPendingPingSize
 =
 Task

@@ -74,7 +74,7 @@ MPL
 .
 *
 /
-let
+var
 scope
 =
 {

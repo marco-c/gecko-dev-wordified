@@ -1386,7 +1386,7 @@ hostRecipes
 }
 }
 ;
-let
+var
 LoginRecipesContent
 =
 {

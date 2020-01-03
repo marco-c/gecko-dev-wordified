@@ -75,7 +75,7 @@ listeners
 html
 "
 ;
-let
+var
 gClient
 gThreadClient
 ;

@@ -104,7 +104,7 @@ test
 /
 "
 ;
-let
+var
 {
 require
 }
@@ -132,7 +132,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -156,7 +156,7 @@ jsm
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -177,7 +177,7 @@ the
 GCLI
 test
 helper
-let
+var
 testDir
 =
 gTestPath

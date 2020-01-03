@@ -396,7 +396,7 @@ view
 "
 )
 ;
-let
+var
 AllTabs
 =
 {

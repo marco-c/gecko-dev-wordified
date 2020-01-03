@@ -359,7 +359,7 @@ control
 when
 it
 responds
-let
+var
 httpReceived
 =
 Promise

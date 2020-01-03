@@ -51,7 +51,7 @@ of
 the
 sanitizer
 code
-let
+var
 now_mSec
 =
 Date
@@ -60,7 +60,7 @@ now
 (
 )
 ;
-let
+var
 now_uSec
 =
 now_mSec
@@ -81,7 +81,7 @@ kUsecPerMin
 *
 1000000
 ;
-let
+var
 tempScope
 =
 {
@@ -129,14 +129,14 @@ js
 tempScope
 )
 ;
-let
+var
 Sanitizer
 =
 tempScope
 .
 Sanitizer
 ;
-let
+var
 FormHistory
 =
 (
@@ -166,7 +166,7 @@ jsm
 .
 FormHistory
 ;
-let
+var
 Downloads
 =
 (

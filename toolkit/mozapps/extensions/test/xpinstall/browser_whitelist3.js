@@ -101,7 +101,7 @@ referer
 is
 whitelisted
 .
-let
+var
 URL
 =
 TESTROOT2

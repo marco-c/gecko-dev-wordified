@@ -127,7 +127,7 @@ don
 '
 t
 .
-let
+var
 gExpectOCSPRequest
 ;
 function

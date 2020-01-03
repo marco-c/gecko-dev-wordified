@@ -76,7 +76,7 @@ UI
 .
 *
 /
-let
+var
 SnapshotsListView
 =
 Heritage

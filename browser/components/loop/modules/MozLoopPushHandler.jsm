@@ -2062,7 +2062,7 @@ us
 .
 *
 /
-let
+var
 MozLoopPushHandler
 =
 {

@@ -176,7 +176,7 @@ Components
 .
 utils
 ;
-let
+var
 gCertDB
 =
 Cc
@@ -201,7 +201,7 @@ Ci
 nsIX509CertDB
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -227,7 +227,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }
@@ -2296,7 +2296,7 @@ enabled
 0
 )
 ;
-let
+var
 intermediatesFile
 =
 pathToFile
@@ -2307,7 +2307,7 @@ arguments
 ]
 )
 ;
-let
+var
 intermediates
 =
 loadIntermediates
@@ -2315,7 +2315,7 @@ loadIntermediates
 intermediatesFile
 )
 ;
-let
+var
 certFile
 =
 pathToFile
@@ -2326,7 +2326,7 @@ arguments
 ]
 )
 ;
-let
+var
 {
 certs
 lastValidTime
@@ -2406,7 +2406,7 @@ the
 output
 file
 .
-let
+var
 outFile
 =
 relativePathToFile
@@ -2441,7 +2441,7 @@ NORMAL_FILE_TYPE
 )
 ;
 }
-let
+var
 outStream
 =
 Cc

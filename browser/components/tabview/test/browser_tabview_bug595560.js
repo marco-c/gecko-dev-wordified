@@ -27,10 +27,10 @@ zero
 /
 *
 /
-let
+var
 win
 ;
-let
+var
 cw
 ;
 function

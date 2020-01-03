@@ -32,7 +32,7 @@ MARIONETTE_TIMEOUT
 =
 10000
 ;
-let
+var
 geolocation
 =
 window

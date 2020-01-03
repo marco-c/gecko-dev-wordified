@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 {
 FileUtils
 }
@@ -53,7 +53,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -79,7 +79,7 @@ jsm
 }
 )
 ;
-let
+var
 Pipe
 =
 CC
@@ -248,7 +248,7 @@ Tests
 *
 *
 /
-let
+var
 test_string_error
 =
 Task

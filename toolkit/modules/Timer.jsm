@@ -158,7 +158,7 @@ for
 4
 days
 .
-let
+var
 gNextId
 =
 1
@@ -173,7 +173,7 @@ return
 a
 positive
 integer
-let
+var
 gTimerTable
 =
 new

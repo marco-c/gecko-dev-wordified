@@ -637,7 +637,7 @@ non
 editable
 inputs
 ?
-let
+var
 editableInputs
 =
 {
@@ -667,13 +667,13 @@ url
 true
 }
 ;
-let
+var
 CONTEXTS
 =
 {
 }
 ;
-let
+var
 Context
 =
 Class
@@ -1438,7 +1438,7 @@ args
 )
 ;
 }
-let
+var
 ContextWorker
 =
 Class
@@ -1822,7 +1822,7 @@ scripts
 when
 clicked
 .
-let
+var
 RemoteItem
 =
 Class
@@ -2190,7 +2190,7 @@ for
 this
 frame
 .
-let
+var
 keepAlive
 =
 new
@@ -2371,7 +2371,7 @@ destroy
 }
 )
 ;
-let
+var
 lastPopupNode
 =
 null

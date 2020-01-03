@@ -419,7 +419,7 @@ push
 .
 debug
 .
-let
+var
 gDebuggingEnabled
 =
 true
@@ -7940,7 +7940,7 @@ _beginWSSetup
 }
 }
 ;
-let
+var
 PushNetworkInfo
 =
 {

@@ -27,13 +27,13 @@ zero
 /
 *
 /
-let
+var
 win
 ;
-let
+var
 contentWindow
 ;
-let
+var
 originalTab
 ;
 function

@@ -122,10 +122,10 @@ file
 URI
 "
 ;
-let
+var
 hud
 ;
-let
+var
 test
 =
 asyncTest

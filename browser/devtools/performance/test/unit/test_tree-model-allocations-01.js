@@ -759,7 +759,7 @@ node
 }
 }
 }
-let
+var
 TEST_DATA
 =
 {

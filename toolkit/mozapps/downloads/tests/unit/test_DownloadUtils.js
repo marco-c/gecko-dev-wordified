@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-let
+var
 Cu
 =
 Components
@@ -203,7 +203,7 @@ t
 work
 :
 (
-let
+var
 gDash
 =
 DownloadUtils
@@ -231,7 +231,7 @@ bytes
 1
 ]
 ;
-let
+var
 gVals
 =
 [

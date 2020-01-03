@@ -552,7 +552,7 @@ panels
 browser
 '
 ;
-let
+var
 sidebars
 =
 {

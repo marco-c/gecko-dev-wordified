@@ -127,7 +127,7 @@ tab
 switch
 "
 ;
-let
+var
 test
 =
 asyncTest

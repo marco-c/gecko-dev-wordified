@@ -51,7 +51,7 @@ Bug
 684546
 *
 /
-let
+var
 tempScope
 =
 {
@@ -97,14 +97,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 NetUtil
 =
 tempScope
 .
 NetUtil
 ;
-let
+var
 FileUtils
 =
 tempScope
@@ -121,7 +121,7 @@ chrome
 window
 object
 .
-let
+var
 gScratchpadWindow
 ;
 /
@@ -132,7 +132,7 @@ the
 Scratchpad
 object
 .
-let
+var
 gScratchpad
 ;
 /
@@ -147,10 +147,10 @@ will
 work
 with
 .
-let
+var
 gFileA
 ;
-let
+var
 gFileB
 ;
 /
@@ -160,7 +160,7 @@ temporary
 file
 content
 .
-let
+var
 gFileAContent
 =
 "
@@ -175,7 +175,7 @@ World
 !
 "
 ;
-let
+var
 gFileBContent
 =
 "
@@ -200,7 +200,7 @@ both
 files
 are
 saved
-let
+var
 gFirstFileSaved
 =
 false

@@ -81,7 +81,7 @@ changed
 Expected
 values
 :
-let
+var
 res1
 =
 [
@@ -323,7 +323,7 @@ value
 }
 ]
 ;
-let
+var
 res2
 =
 [

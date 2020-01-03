@@ -75,7 +75,7 @@ experimental
 '
 }
 ;
-let
+var
 {
 request
 :
@@ -94,7 +94,7 @@ host
 '
 )
 ;
-let
+var
 {
 defer
 :
@@ -113,7 +113,7 @@ functional
 '
 )
 ;
-let
+var
 {
 defer
 }
@@ -130,7 +130,7 @@ promise
 '
 )
 ;
-let
+var
 {
 emit
 :
@@ -151,7 +151,7 @@ core
 '
 )
 ;
-let
+var
 {
 uuid
 }
@@ -168,7 +168,7 @@ uuid
 '
 )
 ;
-let
+var
 emit
 =
 async
@@ -183,7 +183,7 @@ of
 IDs
 to
 deferreds
-let
+var
 requests
 =
 new
@@ -211,7 +211,7 @@ async
 via
 bug
 881047
-let
+var
 receive
 =
 async

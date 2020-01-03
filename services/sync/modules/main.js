@@ -95,7 +95,7 @@ js
 Weave
 )
 ;
-let
+var
 lazies
 =
 {

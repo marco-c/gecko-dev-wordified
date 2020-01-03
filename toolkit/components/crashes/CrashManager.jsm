@@ -4513,7 +4513,7 @@ this
 }
 )
 ;
-let
+var
 gCrashManager
 ;
 /

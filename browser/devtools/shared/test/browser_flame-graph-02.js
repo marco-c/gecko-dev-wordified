@@ -42,7 +42,7 @@ width
 or
 height
 .
-let
+var
 {
 FlameGraph
 }

@@ -32,7 +32,7 @@ zero
 Test
 the
 LayoutChangesObserver
-let
+var
 {
 getLayoutChangesObserver
 releaseLayoutChangesObserver

@@ -84,7 +84,7 @@ data
 }
 )
 ;
-let
+var
 messageHandlers
 =
 {

@@ -92,7 +92,7 @@ jsm
 "
 )
 ;
-let
+var
 MMS
 =
 {
@@ -118,7 +118,7 @@ jsm
 MMS
 )
 ;
-let
+var
 gMobileMessageDatabaseService
 =
 Cc
@@ -143,7 +143,7 @@ Ci
 nsIGonkMobileMessageDatabaseService
 )
 ;
-let
+var
 gUuidGenerator
 =
 Cc
@@ -168,7 +168,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
+var
 gMmsService
 =
 Cc
@@ -792,7 +792,7 @@ aCleanup
 )
 ;
 }
-let
+var
 setRadioDisabled
 =
 function

@@ -116,7 +116,7 @@ var
 Social
 SocialService
 ;
-let
+var
 manifests
 =
 [

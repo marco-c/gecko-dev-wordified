@@ -260,7 +260,7 @@ true
 }
 }
 ;
-let
+var
 engineObserver
 =
 {

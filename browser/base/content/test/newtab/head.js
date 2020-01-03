@@ -61,7 +61,7 @@ PREF_NEWTAB_ENABLED
 true
 )
 ;
-let
+var
 tmp
 =
 {
@@ -208,7 +208,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 Promise
 NewTabUtils
@@ -221,7 +221,7 @@ PlacesTestUtils
 =
 tmp
 ;
-let
+var
 uri
 =
 Services
@@ -239,7 +239,7 @@ null
 null
 )
 ;
-let
+var
 principal
 =
 Services
@@ -253,7 +253,7 @@ uri
 }
 )
 ;
-let
+var
 isMac
 =
 (
@@ -264,7 +264,7 @@ in
 Ci
 )
 ;
-let
+var
 isLinux
 =
 (
@@ -285,7 +285,7 @@ in
 Cc
 )
 ;
-let
+var
 isWindows
 =
 (
@@ -306,7 +306,7 @@ in
 Cc
 )
 ;
-let
+var
 gWindow
 =
 window
@@ -320,7 +320,7 @@ dummy
 empty
 directory
 links
-let
+var
 gDirectorySource
 =
 '
@@ -338,7 +338,7 @@ test
 }
 '
 ;
-let
+var
 gOrigDirectorySource
 ;
 /
@@ -376,7 +376,7 @@ it
 if
 necessary
 .
-let
+var
 requiredSize
 =
 {
@@ -470,7 +470,7 @@ margins
 /
 breathing
 room
-let
+var
 oldSize
 =
 {
@@ -577,13 +577,13 @@ prop
 }
 )
 ;
-let
+var
 screenHeight
 =
 {
 }
 ;
-let
+var
 screenWidth
 =
 {
@@ -1103,7 +1103,7 @@ tests
 .
 *
 /
-let
+var
 TestRunner
 =
 {

@@ -267,7 +267,7 @@ exports
 =
 Startup
 ;
-let
+var
 gOnceInitializedDeferred
 =
 defer
@@ -298,7 +298,7 @@ topic
 for
 unknown
 applications
-let
+var
 appStartup
 =
 '

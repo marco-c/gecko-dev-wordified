@@ -196,7 +196,7 @@ via
 backstage
 passes
 .
-let
+var
 {
 AccountState
 }
@@ -273,7 +273,7 @@ atob
 ]
 )
 ;
-let
+var
 log
 =
 Log

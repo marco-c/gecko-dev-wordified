@@ -621,7 +621,7 @@ createProxyTest
 uses
 *
 /
-let
+var
 html
 =
 "
@@ -1277,7 +1277,7 @@ documents
 with
 an
 iframe
-let
+var
 html
 =
 '
@@ -1585,7 +1585,7 @@ json
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -1998,7 +1998,7 @@ testHost
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -4182,7 +4182,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -4541,7 +4541,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -5484,7 +5484,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -6502,7 +6502,7 @@ works
 fine
 with
 proxies
-let
+var
 html
 =
 '
@@ -6768,7 +6768,7 @@ bar
 }
 )
 ;
-let
+var
 html
 =
 '

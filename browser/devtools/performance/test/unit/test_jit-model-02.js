@@ -410,7 +410,7 @@ IonTypes
 }
 )
 ;
-let
+var
 gStringTable
 =
 new
@@ -435,7 +435,7 @@ s
 )
 ;
 }
-let
+var
 gRawSite1
 =
 {
@@ -699,7 +699,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite2
 =
 {
@@ -776,7 +776,7 @@ SomeGetter2
 }
 }
 ;
-let
+var
 gRawSite3
 =
 {

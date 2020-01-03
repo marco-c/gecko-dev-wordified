@@ -44,7 +44,7 @@ Float
 and
 Json
 .
-let
+var
 {
 ViewHelpers
 }

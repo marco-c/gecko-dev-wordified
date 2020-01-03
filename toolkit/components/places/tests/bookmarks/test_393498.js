@@ -99,7 +99,7 @@ MPL
 .
 *
 /
-let
+var
 observer
 =
 {

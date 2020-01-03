@@ -309,7 +309,7 @@ registration
 on
 demand
 .
-let
+var
 RILQUIRKS_DATA_REGISTRATION_ON_DEMAND
 =
 libcutils
@@ -347,7 +347,7 @@ uicc
 data
 subscription
 .
-let
+var
 RILQUIRKS_SUBSCRIPTION_CONTROL
 =
 libcutils
@@ -388,7 +388,7 @@ in
 APN
 settings
 .
-let
+var
 RILQUIRKS_HAVE_IPV6
 =
 libcutils

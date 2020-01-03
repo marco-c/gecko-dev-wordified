@@ -105,7 +105,7 @@ Components
 .
 results
 ;
-let
+var
 XPCOMUtils
 =
 Cu
@@ -212,7 +212,7 @@ JS
 object
 *
 /
-let
+var
 PropertyBagConverter
 =
 {

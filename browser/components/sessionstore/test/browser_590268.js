@@ -61,7 +61,7 @@ NUM_TABS
 =
 12
 ;
-let
+var
 stateBackup
 =
 ss

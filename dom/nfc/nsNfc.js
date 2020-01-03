@@ -719,7 +719,7 @@ MozNFCTag
 .
 webidl
 .
-let
+var
 TagType
 =
 {
@@ -1971,7 +1971,7 @@ defined
 in
 WebIDL
 .
-let
+var
 RFState
 =
 {

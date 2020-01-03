@@ -413,7 +413,7 @@ testing
 .
 *
 /
-let
+var
 Policy
 =
 {

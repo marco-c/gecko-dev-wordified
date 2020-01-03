@@ -45,7 +45,7 @@ an
 inline
 comment
 .
-let
+var
 {
 Task
 }
@@ -177,7 +177,7 @@ the
 actual
 testing
 .
-let
+var
 checkResults
 =
 Task

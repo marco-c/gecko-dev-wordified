@@ -112,7 +112,7 @@ Components
 .
 interfaces
 ;
-let
+var
 {
 require
 }
@@ -140,7 +140,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 advanceValidate
 }
@@ -164,7 +164,7 @@ utils
 /
 /
 0123456789012345678901234567890
-let
+var
 sampleInput
 =
 '

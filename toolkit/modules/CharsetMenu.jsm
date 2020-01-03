@@ -904,12 +904,12 @@ true
 ;
 }
 }
-let
+var
 gDetectorInfoCache
 gCharsetInfoCache
 gPinnedInfoCache
 ;
-let
+var
 CharsetMenu
 =
 {

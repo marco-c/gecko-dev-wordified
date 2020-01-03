@@ -87,7 +87,7 @@ saved
 earlier
 "
 ;
-let
+var
 hadSavedState
 ;
 function

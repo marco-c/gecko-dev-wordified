@@ -88,7 +88,7 @@ IsOnCSSUnprefixingWhitelist
 (
 )
 )
-let
+var
 gWhitelistedHosts
 =
 [
@@ -163,7 +163,7 @@ NOT
 whitelisted
 hosts
 :
-let
+var
 gNotWhitelistedHosts
 =
 [
@@ -267,7 +267,7 @@ testHost
 (
 )
 :
-let
+var
 gCounter
 =
 0

@@ -27,7 +27,7 @@ zero
 /
 *
 /
-let
+var
 WSP
 =
 {
@@ -615,7 +615,7 @@ target
 Token
 /
 /
-let
+var
 TOKEN_SEPS
 =
 "

@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Services
 }
@@ -58,7 +58,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Loader
 }
@@ -88,7 +88,7 @@ js
 }
 )
 ;
-let
+var
 {
 OutputParser
 }
@@ -219,7 +219,7 @@ in
 color
 swatch
 .
-let
+var
 COLOR_TEST_CLASS
 =
 "

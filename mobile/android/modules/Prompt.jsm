@@ -82,14 +82,14 @@ MPL
 use
 strict
 "
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components

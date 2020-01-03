@@ -75,7 +75,7 @@ Title
 ui
 .
 js
-let
+var
 Keys
 =
 {
@@ -110,7 +110,7 @@ level
 UI
 manager
 .
-let
+var
 UI
 =
 {

@@ -175,7 +175,7 @@ don
 '
 t
 conflict
-let
+var
 LOADER_ID
 =
 0

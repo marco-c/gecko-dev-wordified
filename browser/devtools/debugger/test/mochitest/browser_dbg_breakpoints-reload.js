@@ -67,7 +67,7 @@ reload
 html
 "
 ;
-let
+var
 test
 =
 Task

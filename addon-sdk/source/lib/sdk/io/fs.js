@@ -617,35 +617,35 @@ fd
 ;
 }
 }
-let
+var
 nsIFile
 =
 accessor
 (
 )
 ;
-let
+var
 nsIFileInputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIFileOutputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIBinaryInputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIBinaryOutputStream
 =
 accessor
@@ -2452,7 +2452,7 @@ callback
 .
 *
 /
-let
+var
 rename
 =
 Async
@@ -2511,7 +2511,7 @@ existsSync
 =
 existsSync
 ;
-let
+var
 exists
 =
 Async
@@ -2772,7 +2772,7 @@ chownSync
 =
 chownSync
 ;
-let
+var
 chown
 =
 Async
@@ -2813,7 +2813,7 @@ lchownSync
 =
 chownSync
 ;
-let
+var
 lchown
 =
 Async
@@ -2922,7 +2922,7 @@ callback
 .
 *
 /
-let
+var
 chmod
 =
 Async
@@ -3002,7 +3002,7 @@ callback
 .
 *
 /
-let
+var
 fchmod
 =
 Async
@@ -3092,7 +3092,7 @@ this
 :
 *
 /
-let
+var
 stat
 =
 Async
@@ -3213,7 +3213,7 @@ to
 .
 *
 /
-let
+var
 lstat
 =
 Async
@@ -3299,7 +3299,7 @@ object
 .
 *
 /
-let
+var
 fstat
 =
 Async
@@ -3379,7 +3379,7 @@ callback
 .
 *
 /
-let
+var
 link
 =
 Async
@@ -3459,7 +3459,7 @@ callback
 .
 *
 /
-let
+var
 symlink
 =
 Async
@@ -3536,7 +3536,7 @@ resolvedPath
 .
 *
 /
-let
+var
 readlink
 =
 Async
@@ -3613,7 +3613,7 @@ resolvedPath
 .
 *
 /
-let
+var
 realpath
 =
 Async
@@ -3639,7 +3639,7 @@ unlink
 .
 *
 /
-let
+var
 unlinkSync
 =
 remove
@@ -3677,7 +3677,7 @@ callback
 .
 *
 /
-let
+var
 unlink
 =
 Async
@@ -3703,7 +3703,7 @@ rmdir
 .
 *
 /
-let
+var
 rmdirSync
 =
 remove
@@ -3741,7 +3741,7 @@ callback
 .
 *
 /
-let
+var
 rmdir
 =
 Async
@@ -3886,7 +3886,7 @@ callback
 .
 *
 /
-let
+var
 mkdir
 =
 Async
@@ -4086,7 +4086,7 @@ and
 .
 *
 /
-let
+var
 readdir
 =
 Async
@@ -4237,7 +4237,7 @@ callback
 .
 *
 /
-let
+var
 close
 =
 Async
@@ -4513,7 +4513,7 @@ fd
 .
 *
 /
-let
+var
 open
 =
 Async
@@ -5973,7 +5973,7 @@ utimesSync
 =
 utimesSync
 ;
-let
+var
 utimes
 =
 Async
@@ -6012,7 +6012,7 @@ futimesSync
 =
 futimesSync
 ;
-let
+var
 futimes
 =
 Async
@@ -6051,7 +6051,7 @@ fsyncSync
 =
 fsyncSync
 ;
-let
+var
 fsync
 =
 Async

@@ -27,13 +27,13 @@ zero
 /
 *
 /
-let
+var
 originalTab
 ;
-let
+var
 newTabOne
 ;
-let
+var
 groupItemTwoId
 ;
 function

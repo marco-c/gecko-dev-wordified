@@ -80,10 +80,10 @@ runs
 .
 .
 .
-let
+var
 cachedLeftPaneFolderIdGetter
 ;
-let
+var
 getter
 =
 PlacesUIUtils
@@ -1912,7 +1912,7 @@ is
 open
 *
 /
-let
+var
 withBookmarksDialog
 =
 Task
@@ -2293,7 +2293,7 @@ node
 .
 *
 /
-let
+var
 openContextMenuForContentSelector
 =
 Task
@@ -2545,7 +2545,7 @@ tries
 .
 *
 /
-let
+var
 waitForCondition
 =
 Task
@@ -2915,7 +2915,7 @@ input
 .
 *
 /
-let
+var
 withSidebarTree
 =
 Task

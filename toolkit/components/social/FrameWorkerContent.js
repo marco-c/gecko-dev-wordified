@@ -118,7 +118,7 @@ use
 by
 tests
 .
-let
+var
 frameworker
 ;
 (

@@ -588,7 +588,7 @@ flag
 to
 TRUE
 .
-let
+var
 gDirty
 =
 true
@@ -606,7 +606,7 @@ currently
 used
 account
 .
-let
+var
 gCurrentUser
 =
 null
@@ -623,7 +623,7 @@ the
 room
 cache
 .
-let
+var
 gRoomsCache
 =
 null
@@ -1131,7 +1131,7 @@ timeouts
 .
 *
 /
-let
+var
 timerHandlers
 =
 {
@@ -1251,7 +1251,7 @@ method
 .
 *
 /
-let
+var
 LoopRoomsInternal
 =
 {

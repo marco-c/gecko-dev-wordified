@@ -2542,7 +2542,7 @@ through
 the
 addRemotePageListener
 method
-let
+var
 RemotePageManagerInternal
 =
 {
@@ -3111,7 +3111,7 @@ we
 re
 loaded
 in
-let
+var
 registeredURLs
 =
 new
@@ -3119,7 +3119,7 @@ Set
 (
 )
 ;
-let
+var
 observer
 =
 (

@@ -56,7 +56,7 @@ break
 html
 "
 ;
-let
+var
 TAB_URL_ACTOR
 ;
 function

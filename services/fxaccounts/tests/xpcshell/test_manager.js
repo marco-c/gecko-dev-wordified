@@ -150,12 +150,12 @@ Globals
 representing
 server
 state
-let
+var
 passwordResetOnServer
 =
 false
 ;
-let
+var
 deletedOnServer
 =
 false
@@ -166,7 +166,7 @@ Global
 representing
 FxAccounts
 state
-let
+var
 certExpired
 =
 false
@@ -233,7 +233,7 @@ appId
 )
 ;
 }
-let
+var
 principal
 =
 makePrincipal
@@ -259,7 +259,7 @@ For
 override
 FxAccountsUIGlue
 .
-let
+var
 fakeFxAccountsUIGlueCID
 ;
 /
@@ -268,7 +268,7 @@ FxAccountsUIGlue
 fake
 component
 .
-let
+var
 FxAccountsUIGlue
 =
 {
@@ -965,7 +965,7 @@ fake
 client
 factory
 .
-let
+var
 FakeFxAccountsClient
 =
 {

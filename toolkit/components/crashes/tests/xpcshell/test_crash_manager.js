@@ -48,7 +48,7 @@ Cu
 =
 Components
 ;
-let
+var
 bsp
 =
 Cu

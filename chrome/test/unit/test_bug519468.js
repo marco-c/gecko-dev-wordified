@@ -133,7 +133,7 @@ jsm
 "
 )
 ;
-let
+var
 stubOSLocale
 =
 null

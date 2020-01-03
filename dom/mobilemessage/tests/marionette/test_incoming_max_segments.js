@@ -57,7 +57,7 @@ true
 document
 )
 ;
-let
+var
 manager
 =
 window
@@ -87,12 +87,12 @@ docs
 DOM
 /
 SmsManager
-let
+var
 maxCharsPerSms
 =
 160
 ;
-let
+var
 maxSegments
 =
 10

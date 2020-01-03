@@ -4,7 +4,7 @@ enable
 crash
 reporting
 first
-let
+var
 cwd
 =
 Components
@@ -51,7 +51,7 @@ get
 the
 temp
 dir
-let
+var
 env
 =
 Components
@@ -80,7 +80,7 @@ interfaces
 nsIEnvironment
 )
 ;
-let
+var
 _tmpd
 =
 Components
@@ -123,7 +123,7 @@ XPCSHELL_TEST_TEMP_DIR
 )
 )
 ;
-let
+var
 crashReporter
 =
 Components
@@ -188,7 +188,7 @@ allowed
 in
 content
 processes
-let
+var
 processType
 =
 Components
@@ -240,7 +240,7 @@ minidumpPath
 _tmpd
 ;
 }
-let
+var
 ios
 =
 Components
@@ -271,7 +271,7 @@ interfaces
 nsIIOService
 )
 ;
-let
+var
 protocolHandler
 =
 ios
@@ -292,7 +292,7 @@ interfaces
 nsIResProtocolHandler
 )
 ;
-let
+var
 curDirURI
 =
 ios
@@ -331,7 +331,7 @@ jsm
 "
 )
 ;
-let
+var
 crashType
 =
 CrashTestUtils
