@@ -749,7 +749,12 @@ if
 p
 )
 return
-0
+ObjectId
+:
+:
+nullId
+(
+)
 ;
 return
 p
@@ -948,9 +953,9 @@ refcount_
 (
 1
 )
-lastId_
+nextSerialNumber_
 (
-0
+1
 )
 {
 if
@@ -2121,7 +2126,9 @@ findObjectById
 JSContext
 *
 cx
-uint32_t
+const
+ObjectId
+&
 objId
 )
 {
