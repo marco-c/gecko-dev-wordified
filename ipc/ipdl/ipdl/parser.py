@@ -1048,6 +1048,10 @@ compress
 '
         
 '
+compressall
+'
+        
+'
 __delete__
 '
         
@@ -4436,7 +4440,7 @@ p
 "
 OptionalMessageCompress
 :
-COMPRESS
+MessageCompress
                                
 |
 "
@@ -4469,9 +4473,39 @@ p
 0
 ]
 =
-'
-compress
-'
+p
+[
+1
+]
+def
+p_MessageCompress
+(
+p
+)
+:
+    
+"
+"
+"
+MessageCompress
+:
+COMPRESS
+                       
+|
+COMPRESSALL
+"
+"
+"
+    
+p
+[
+0
+]
+=
+p
+[
+1
+]
 #
 #
 -

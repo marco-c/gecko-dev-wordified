@@ -7978,16 +7978,9 @@ cdtype
                               
 compress
 =
-(
 md
 .
 compress
-=
-=
-'
-compress
-'
-)
 )
         
 #

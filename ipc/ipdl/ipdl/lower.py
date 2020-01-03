@@ -14838,6 +14838,11 @@ constructor
     
 if
 compress
+=
+=
+'
+compress
+'
 :
         
 compression
@@ -14846,6 +14851,27 @@ ExprVar
 (
 '
 COMPRESSION_ENABLED
+'
+)
+    
+elif
+compress
+:
+        
+assert
+compress
+=
+=
+'
+compressall
+'
+        
+compression
+=
+ExprVar
+(
+'
+COMPRESSION_ALL
 '
 )
     
