@@ -1748,16 +1748,6 @@ try
 testMethod
 (
 )
-                            
-assert
-not
-self
-.
-marionette
-.
-check_for_crash
-(
-)
                         
 except
 :
@@ -1778,54 +1768,8 @@ _UnexpectedSuccess
 else
 :
                         
-try
-:
-                            
 testMethod
 (
-)
-                            
-assert
-not
-self
-.
-marionette
-.
-check_for_crash
-(
-)
-                        
-except
-_UnexpectedSuccess
-:
-                            
-try
-:
-                                
-assert
-not
-self
-.
-marionette
-.
-check_for_crash
-(
-)
-                            
-except
-self
-.
-failureException
-:
-                                
-raise
-_ExpectedFailure
-(
-sys
-.
-exc_info
-(
-)
 )
                 
 except
@@ -3713,8 +3657,6 @@ self
 )
 :
         
-if
-not
 self
 .
 marionette
@@ -3722,8 +3664,7 @@ marionette
 check_for_crash
 (
 )
-:
-            
+        
 self
 .
 marionette
@@ -3734,7 +3675,7 @@ set_context
 content
 "
 )
-            
+        
 self
 .
 marionette
@@ -3758,7 +3699,7 @@ s
 )
 "
 %
-                                           
+                                       
 (
 self
 .
@@ -3782,7 +3723,7 @@ self
 methodName
 )
 )
-            
+        
 self
 .
 marionette
