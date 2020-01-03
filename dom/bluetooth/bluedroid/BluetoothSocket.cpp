@@ -169,6 +169,17 @@ include
 "
 mozilla
 /
+ipc
+/
+UnixSocketWatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FileUtils
 .
 h
