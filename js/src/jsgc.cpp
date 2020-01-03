@@ -7463,7 +7463,7 @@ fullCompartmentChecks
 (
 false
 )
-mallocBytes
+mallocBytesUntilGC
 (
 0
 )
@@ -10181,7 +10181,7 @@ resetMallocBytes
 (
 )
 {
-mallocBytes
+mallocBytesUntilGC
 =
 ptrdiff_t
 (
@@ -10209,7 +10209,7 @@ size_t
 nbytes
 )
 {
-mallocBytes
+mallocBytesUntilGC
 -
 =
 ptrdiff_t

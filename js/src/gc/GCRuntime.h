@@ -5567,7 +5567,7 @@ isTooMuchMalloc
 const
 {
 return
-mallocBytes
+mallocBytesUntilGC
 <
 =
 0
@@ -8427,7 +8427,7 @@ mozilla
 :
 ReleaseAcquire
 >
-mallocBytes
+mallocBytesUntilGC
 ;
 /
 *
@@ -8442,9 +8442,9 @@ as
 a
 result
 of
-mallocBytes
-falling
+mallocBytesUntilGC
 *
+falling
 below
 zero
 .
