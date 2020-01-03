@@ -168,13 +168,6 @@ h
 #
 include
 "
-MacIOSurfaceImage
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArrayUtils
