@@ -122,6 +122,11 @@ define
 mozilla_CycleCollectedJSRuntime_h__
 #
 include
+<
+queue
+>
+#
+include
 "
 mozilla
 /
@@ -1397,7 +1402,10 @@ nsIException
 aException
 )
 ;
-nsTArray
+std
+:
+:
+queue
 <
 nsCOMPtr
 <
@@ -1715,7 +1723,10 @@ nsIException
 >
 mPendingException
 ;
-nsTArray
+std
+:
+:
+queue
 <
 nsCOMPtr
 <
