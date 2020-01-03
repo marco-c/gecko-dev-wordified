@@ -482,7 +482,7 @@ mTexImageTarget
 mTexImageLevel
 )
 .
-WebGLInternalFormat
+InternalFormat
 (
 )
 )
@@ -612,7 +612,7 @@ ImageTarget
 return
 imgInfo
 .
-WebGLInternalFormat
+InternalFormat
 (
 )
 .
@@ -693,7 +693,7 @@ mTexImageTarget
 mTexImageLevel
 )
 .
-WebGLType
+Type
 (
 )
 .
@@ -1700,11 +1700,11 @@ mTexImageLevel
 )
 ;
 GLenum
-webGLFormat
+internalformat
 =
 imageInfo
 .
-WebGLInternalFormat
+InternalFormat
 (
 )
 .
@@ -1722,7 +1722,7 @@ LOCAL_GL_DEPTH_ATTACHMENT
 return
 IsValidFBOTextureDepthFormat
 (
-webGLFormat
+internalformat
 )
 ;
 if
@@ -1759,7 +1759,7 @@ LOCAL_GL_DEPTH_STENCIL_ATTACHMENT
 return
 IsValidFBOTextureDepthStencilFormat
 (
-webGLFormat
+internalformat
 )
 ;
 }
@@ -1790,7 +1790,7 @@ kMaxColorAttachments
 return
 IsValidFBOTextureColorFormat
 (
-webGLFormat
+internalformat
 )
 ;
 }
