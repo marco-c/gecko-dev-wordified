@@ -954,6 +954,8 @@ aResponseHead
 nsInputStreamPump
 *
 aPump
+int64_t
+aStreamLength
 )
 ;
 RequestHeaderTuples
@@ -976,6 +978,9 @@ nsRefPtr
 nsInputStreamPump
 >
 mSynthesizedResponsePump
+;
+int64_t
+mSynthesizedStreamLength
 ;
 bool
 mIsFromCache
