@@ -2602,12 +2602,12 @@ Begin
 }
 class
 MOZ_STACK_CLASS
-AutoRemoveTextures
+AutoRemoveTexturesFromImageBridge
 {
 public
 :
 explicit
-AutoRemoveTextures
+AutoRemoveTexturesFromImageBridge
 (
 ImageBridgeChild
 *
@@ -2621,7 +2621,7 @@ aImageBridge
 {
 }
 ~
-AutoRemoveTextures
+AutoRemoveTexturesFromImageBridge
 (
 )
 {
@@ -2677,7 +2677,7 @@ _
 mTxn
 )
 ;
-AutoRemoveTextures
+AutoRemoveTexturesFromImageBridge
 autoRemoveTextures
 (
 this
