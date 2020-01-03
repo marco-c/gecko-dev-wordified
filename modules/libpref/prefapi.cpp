@@ -3949,7 +3949,7 @@ PrefHashEntry
 pref_HashTableLookup
 (
 const
-void
+char
 *
 key
 )
