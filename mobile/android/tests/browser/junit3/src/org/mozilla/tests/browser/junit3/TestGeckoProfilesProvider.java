@@ -61,7 +61,11 @@ org
 .
 mozilla
 .
-gecko
+tests
+.
+browser
+.
+junit3
 ;
 import
 java
