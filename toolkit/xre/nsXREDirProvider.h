@@ -845,6 +845,9 @@ LoadExtensionBundleDirectories
 (
 )
 ;
+#
+ifdef
+MOZ_B2G
 /
 /
 Calculate
@@ -861,6 +864,8 @@ LoadAppBundleDirs
 (
 )
 ;
+#
+endif
 void
 Append
 (
