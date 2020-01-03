@@ -196,17 +196,6 @@ h
 /
 local
 var
-#
-include
-"
-nsQueryObject
-.
-h
-"
-/
-/
-for
-do_QueryObject
 using
 namespace
 mozilla

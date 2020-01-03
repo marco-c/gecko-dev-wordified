@@ -501,13 +501,6 @@ ReportInternalError
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 /
 /
 Include

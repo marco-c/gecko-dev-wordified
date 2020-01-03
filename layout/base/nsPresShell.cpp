@@ -1291,13 +1291,6 @@ nsSubDocumentFrame
 h
 "
 #
-include
-"
-nsQueryObject
-.
-h
-"
-#
 ifdef
 ANDROID
 #

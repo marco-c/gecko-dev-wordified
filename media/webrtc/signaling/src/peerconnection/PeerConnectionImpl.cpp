@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h

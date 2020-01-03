@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsIContentInlines
 .
 h

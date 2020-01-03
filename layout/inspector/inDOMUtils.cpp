@@ -397,13 +397,6 @@ nsStyleUtil
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 using
 namespace
 mozilla

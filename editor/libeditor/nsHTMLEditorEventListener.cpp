@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsHTMLEditUtils
 .
 h

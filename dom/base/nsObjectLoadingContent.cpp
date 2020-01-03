@@ -468,13 +468,6 @@ nsSandboxFlags
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 /
 /
 Concrete

@@ -169,13 +169,6 @@ h
 "
 #
 include
-"
-nsQueryObject
-.
-h
-"
-#
-include
 <
 windows
 .

@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

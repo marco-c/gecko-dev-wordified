@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
