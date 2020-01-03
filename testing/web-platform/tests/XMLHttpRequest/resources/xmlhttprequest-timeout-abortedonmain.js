@@ -44,13 +44,16 @@ will
 be
 aborted
 after
+200ms
+(
 TIME_DELAY
+)
 (
 with
 a
 timeout
 at
-TIME_REGULAR_TIMEOUT
+400ms
 )
 asserts
 abort
