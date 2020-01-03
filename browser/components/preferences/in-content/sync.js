@@ -4412,6 +4412,9 @@ fxAccounts
 promiseAccountsChangeProfileURI
 (
 "
+preferences
+"
+"
 avatar
 "
 )
@@ -4448,6 +4451,9 @@ fxAccounts
 .
 promiseAccountsManageURI
 (
+"
+preferences
+"
 )
 .
 then
