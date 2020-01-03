@@ -531,6 +531,10 @@ friend
 class
 BorrowedCGContext
 ;
+friend
+class
+SourceSurfaceCGBitmapContext
+;
 DrawTargetCG
 (
 )
