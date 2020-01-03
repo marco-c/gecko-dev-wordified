@@ -648,11 +648,6 @@ are
 set
 by
 Init
-(
-called
-from
-NS_NewTimer
-)
 and
 never
 reset
