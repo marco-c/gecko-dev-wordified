@@ -253,6 +253,9 @@ MinorCollectionTracer
 class
 RelocationOverlay
 ;
+struct
+TenureCountCache
+;
 }
 /
 *
@@ -516,6 +519,9 @@ src
 void
 markSlots
 (
+JS
+:
+:
 Value
 *
 vp
@@ -535,9 +541,15 @@ nslots
 void
 markSlots
 (
+JS
+:
+:
 Value
 *
 vp
+JS
+:
+:
 Value
 *
 end
@@ -886,6 +898,9 @@ void
 *
 allocateBuffer
 (
+JS
+:
+:
 Zone
 *
 zone
@@ -2142,9 +2157,6 @@ AllocKind
 thingKind
 )
 ;
-struct
-TenureCountCache
-;
 /
 *
 Common
@@ -2196,6 +2208,9 @@ collectToFixedPoint
 TenuringTracer
 &
 trc
+gc
+:
+:
 TenureCountCache
 &
 tenureCounts
