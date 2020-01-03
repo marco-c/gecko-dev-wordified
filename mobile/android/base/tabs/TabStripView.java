@@ -788,13 +788,6 @@ getChildAt
 i
 )
 ;
-/
-/
-TODO
-:
-optimize
-with
-Valueresolver
 final
 ObjectAnimator
 animator
