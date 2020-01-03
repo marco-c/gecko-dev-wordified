@@ -2660,7 +2660,17 @@ commandline
 .
 add_logging_group
 (
+        
 parser
+        
+include_formatters
+=
+structured
+.
+commandline
+.
+TEXT_FORMATTERS
+    
 )
     
 args
