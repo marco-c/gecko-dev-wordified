@@ -739,6 +739,10 @@ SignatureAlgorithm
 :
 unsupported_algorithm
 :
+/
+/
+fall
+through
 default
 :
 return
