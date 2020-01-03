@@ -3944,7 +3944,7 @@ an
 existing
 table
 and
-1
+0
 when
 populating
 a
