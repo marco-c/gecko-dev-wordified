@@ -165,9 +165,9 @@ NativeProfilerImpl
 )
 override
 ;
-u_vector
+nsTArray
 <
-u_string
+nsCString
 >
 GetNames
 (
@@ -175,7 +175,7 @@ GetNames
 const
 override
 ;
-u_vector
+nsTArray
 <
 TrieNode
 >
@@ -186,7 +186,7 @@ const
 override
 ;
 const
-u_vector
+nsTArray
 <
 AllocEvent
 >
@@ -232,7 +232,7 @@ mLock
 AllocMap
 mNativeEntries
 ;
-u_vector
+nsTArray
 <
 AllocEvent
 >

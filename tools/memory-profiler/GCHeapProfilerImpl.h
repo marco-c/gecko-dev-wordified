@@ -162,9 +162,9 @@ GCHeapProfilerImpl
 )
 override
 ;
-u_vector
+nsTArray
 <
-u_string
+nsCString
 >
 GetNames
 (
@@ -172,7 +172,7 @@ GetNames
 const
 override
 ;
-u_vector
+nsTArray
 <
 TrieNode
 >
@@ -183,7 +183,7 @@ const
 override
 ;
 const
-u_vector
+nsTArray
 <
 AllocEvent
 >
@@ -292,7 +292,7 @@ mTenuredEntriesFG
 AllocMap
 mTenuredEntriesBG
 ;
-u_vector
+nsTArray
 <
 AllocEvent
 >
