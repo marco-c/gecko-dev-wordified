@@ -601,6 +601,15 @@ CleanUp
 )
 )
 ;
+GetIPCChannel
+(
+)
+-
+>
+CloseWithTimeout
+(
+)
+;
 return
 false
 ;
