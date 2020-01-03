@@ -480,6 +480,7 @@ decoded
 .
 *
 /
+static
 already_AddRefed
 <
 gfx
