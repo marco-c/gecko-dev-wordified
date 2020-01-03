@@ -42600,10 +42600,8 @@ nsContentUtils
 :
 SendKeyEvent
 (
-nsCOMPtr
-<
 nsIWidget
->
+*
 aWidget
 const
 nsAString
