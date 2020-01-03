@@ -225,15 +225,9 @@ func
 extern
 typeof
 (
-CM
-#
-#
 func
 )
 *
-CM
-#
-#
 func
 ;
 #
