@@ -2672,6 +2672,11 @@ Path
 aPath
 )
 ;
+void
+PopClip
+(
+)
+;
 /
 *
 *

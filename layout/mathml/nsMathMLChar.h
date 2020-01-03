@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsColor
+.
+h
+"
+#
+include
+"
 nsMathMLOperators
 .
 h
@@ -1506,6 +1513,8 @@ aThebesContext
 nsRect
 &
 aRect
+nscolor
+aColor
 )
 ;
 nsresult
@@ -1520,6 +1529,8 @@ aThebesContext
 nsRect
 &
 aRect
+nscolor
+aColor
 )
 ;
 void
