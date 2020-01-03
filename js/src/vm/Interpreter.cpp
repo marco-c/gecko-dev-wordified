@@ -20592,8 +20592,6 @@ fp
 REGS
 .
 pc
-+
-JSOP_INITIALYIELD_LENGTH
 )
 )
 goto
@@ -20672,8 +20670,6 @@ fp
 REGS
 .
 pc
-+
-JSOP_YIELD_LENGTH
 REGS
 .
 spForStackDepth

@@ -11782,6 +11782,8 @@ Generator
 *
 Operands
 :
+uint24_t
+yieldIndex
 *
 Stack
 :
@@ -11799,10 +11801,10 @@ JSOP_INITIALYIELD
 initialyield
 "
 NULL
+4
 1
 1
-1
-JOF_BYTE
+JOF_UINT24
 )
 \
 /
@@ -11851,6 +11853,8 @@ Generator
 *
 Operands
 :
+uint24_t
+yieldIndex
 *
 Stack
 :
@@ -11870,10 +11874,10 @@ JSOP_YIELD
 yield
 "
 NULL
-1
+4
 2
 1
-JOF_BYTE
+JOF_UINT24
 )
 \
 /
