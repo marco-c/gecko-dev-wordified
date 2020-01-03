@@ -38,6 +38,15 @@ quit
 (
 )
 ;
+gczeal
+(
+0
+)
+;
+gc
+(
+)
+;
 function
 testAbort
 (
