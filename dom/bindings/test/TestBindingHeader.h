@@ -2443,8 +2443,10 @@ ReceiveWeakCastableObjectSequence
 (
 nsTArray
 <
+nsRefPtr
+<
 TestInterface
-*
+>
 >
 &
 )
@@ -2454,8 +2456,10 @@ ReceiveWeakNullableCastableObjectSequence
 (
 nsTArray
 <
+nsRefPtr
+<
 TestInterface
-*
+>
 >
 &
 )
@@ -2467,8 +2471,10 @@ Nullable
 <
 nsTArray
 <
+nsRefPtr
+<
 TestInterface
-*
+>
 >
 >
 &
@@ -2481,8 +2487,10 @@ Nullable
 <
 nsTArray
 <
+nsRefPtr
+<
 TestInterface
-*
+>
 >
 >
 &

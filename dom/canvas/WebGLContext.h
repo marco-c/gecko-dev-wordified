@@ -2289,8 +2289,10 @@ Nullable
 <
 nsTArray
 <
+nsRefPtr
+<
 WebGLShader
-*
+>
 >
 >
 &
