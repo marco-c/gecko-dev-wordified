@@ -17792,7 +17792,7 @@ Get
 )
 #
 ifdef
-MOZ_WEBRTCj
+MOZ_WEBRTC
 mFarendObserverRef
 (
 nullptr
