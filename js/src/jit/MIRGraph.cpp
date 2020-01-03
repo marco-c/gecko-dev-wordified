@@ -213,6 +213,11 @@ const
 OptimizationInfo
 *
 optimizationInfo
+Label
+*
+outOfBoundsLabel
+bool
+usesSignalHandlersForOOB
 )
 :
 compartment
@@ -296,6 +301,14 @@ nurseryObjects_
 (
 *
 alloc
+)
+outOfBoundsLabel_
+(
+outOfBoundsLabel
+)
+usesSignalHandlersForOOB_
+(
+usesSignalHandlersForOOB
 )
 options
 (

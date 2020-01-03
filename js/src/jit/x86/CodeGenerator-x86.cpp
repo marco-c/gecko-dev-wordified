@@ -3570,7 +3570,7 @@ mir
 needsBoundsCheck
 (
 )
-mir
+gen
 -
 >
 outOfBoundsLabel
@@ -5267,7 +5267,7 @@ mir
 needsBoundsCheck
 (
 )
-mir
+gen
 -
 >
 outOfBoundsLabel
