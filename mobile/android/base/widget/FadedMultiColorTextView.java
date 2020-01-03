@@ -437,7 +437,7 @@ getTextSize
 (
 )
 +
-1
+2
 ;
 final
 float
@@ -449,7 +449,7 @@ getTextSize
 (
 )
 -
-1
+2
 ;
 canvas
 .
