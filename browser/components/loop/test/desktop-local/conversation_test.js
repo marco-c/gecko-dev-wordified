@@ -5544,6 +5544,14 @@ spy
 )
 }
 ;
+navigator
+.
+mozLoop
+.
+doNotDisturb
+=
+false
+;
 sandbox
 .
 stub
