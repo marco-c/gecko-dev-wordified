@@ -2460,7 +2460,7 @@ Now
 (
 )
 ;
-nsIntRect
+IntRect
 screenRect
 (
 aScreenRect
@@ -2482,7 +2482,7 @@ aCompositor
 >
 BeginFrame
 (
-nsIntRect
+IntRect
 (
 screenRect
 .
@@ -2759,6 +2759,14 @@ wantBenchmark
 ;
 }
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 #
 endif

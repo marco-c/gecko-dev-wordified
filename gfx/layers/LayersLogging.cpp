@@ -181,7 +181,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -750,7 +756,7 @@ stringstream
 &
 aStream
 const
-nsIntRect
+IntRect
 &
 r
 const
@@ -944,7 +950,7 @@ aStream
 while
 (
 const
-nsIntRect
+IntRect
 *
 sr
 =

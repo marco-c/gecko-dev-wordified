@@ -4660,7 +4660,7 @@ Round
 (
 )
 ;
-nsIntRect
+IntRect
 tmp
 ;
 if
@@ -10754,7 +10754,7 @@ helper
 function
 sets
 the
-nsIntRect
+IntRect
 into
 the
 packet
@@ -10884,7 +10884,7 @@ aRegion
 while
 (
 const
-nsIntRect
+IntRect
 *
 sr
 =
@@ -13577,7 +13577,7 @@ return
 ;
 }
 const
-nsIntRect
+IntRect
 &
 bounds
 =
@@ -13696,7 +13696,7 @@ permitSubpixelAA
 )
 ;
 }
-nsIntRect
+IntRect
 ToOutsideIntRect
 (
 const
@@ -13717,7 +13717,7 @@ RoundOut
 )
 ;
 return
-nsIntRect
+IntRect
 (
 r
 .

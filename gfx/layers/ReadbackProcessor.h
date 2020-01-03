@@ -117,7 +117,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -356,7 +362,10 @@ GetBackgroundLayerOffset
 .
 *
 /
-nsIntRect
+gfx
+:
+:
+IntRect
 mUpdateRect
 ;
 /

@@ -1607,7 +1607,7 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+IntRect
 *
 aRect
 )
@@ -1641,7 +1641,7 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+IntRect
 *
 aRect
 )
@@ -2951,7 +2951,7 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+IntRect
 *
 aRect
 )

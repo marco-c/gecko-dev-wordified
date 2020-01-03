@@ -1568,7 +1568,10 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRect
 )
@@ -3275,7 +3278,10 @@ DrawTarget
 >
 mTarget
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mTargetBounds
 ;
 private
