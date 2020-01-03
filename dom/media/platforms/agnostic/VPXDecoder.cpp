@@ -1049,10 +1049,8 @@ aSample
 -
 >
 mKeyframe
-aSample
 -
->
-mTimecode
+1
 picture
 )
 ;
