@@ -175,7 +175,7 @@ add
 "
 example
 .
-com
+org
 "
 "
 /
@@ -394,7 +394,7 @@ remove
 "
 example
 .
-com
+org
 "
 "
 xpinstall
