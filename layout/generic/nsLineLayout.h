@@ -3979,6 +3979,17 @@ aPFD
 )
 ;
 void
+RelativePositionAnnotations
+(
+PerSpanData
+*
+aRubyPSD
+nsOverflowAreas
+&
+aOverflowAreas
+)
+;
+void
 RelativePositionFrames
 (
 PerSpanData
