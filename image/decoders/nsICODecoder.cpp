@@ -524,7 +524,7 @@ mProgress
 mContainedDecoder
 -
 >
-GetProgress
+TakeProgress
 (
 )
 ;
@@ -3944,7 +3944,7 @@ mProgress
 mContainedDecoder
 -
 >
-GetProgress
+TakeProgress
 (
 )
 ;
@@ -4295,7 +4295,7 @@ mProgress
 mContainedDecoder
 -
 >
-GetProgress
+TakeProgress
 (
 )
 ;
