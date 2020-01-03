@@ -581,11 +581,6 @@ or
 <
 iframe
 >
-if
-(
-aContent
-)
-{
 nsCOMPtr
 <
 nsIDOMHTMLFrameElement
@@ -605,7 +600,6 @@ false
 :
 true
 ;
-}
 nsLeafFrame
 :
 :
