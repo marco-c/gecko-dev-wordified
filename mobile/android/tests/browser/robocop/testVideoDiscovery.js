@@ -84,6 +84,12 @@ use
 strict
 "
 ;
+/
+*
+globals
+SimpleServiceDiscovery
+*
+/
 const
 {
 classes

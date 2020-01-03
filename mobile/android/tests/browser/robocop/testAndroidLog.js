@@ -79,6 +79,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+AndroidLog
+*
+/
 const
 TAG
 =

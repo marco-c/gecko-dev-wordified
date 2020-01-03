@@ -79,6 +79,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+ReaderMode
+*
+/
 const
 {
 utils
