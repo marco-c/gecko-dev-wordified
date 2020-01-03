@@ -2050,6 +2050,8 @@ browser
 bottombox
 {
 background
+-
+color
 :
 var
 (
@@ -2439,6 +2441,16 @@ top
 important
 ;
 border
+-
+top
+:
+none
+!
+important
+;
+border
+-
+bottom
 :
 none
 !
