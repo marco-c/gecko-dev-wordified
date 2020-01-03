@@ -1505,7 +1505,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_INTERNAL_SCRIPT
 aURI
 aDocument
 -
@@ -1894,7 +1894,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_SCRIPT
+TYPE_INTERNAL_SCRIPT
 loadGroup
 prompter
 nsIRequest
