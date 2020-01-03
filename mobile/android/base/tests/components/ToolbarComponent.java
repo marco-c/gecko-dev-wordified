@@ -625,7 +625,7 @@ edit_cancel
 ;
 }
 private
-CharSequence
+String
 getTitle
 (
 )
@@ -687,7 +687,7 @@ instead
 *
 /
 public
-CharSequence
+String
 getPotentiallyInconsistentTitle
 (
 )
@@ -700,7 +700,7 @@ false
 ;
 }
 private
-CharSequence
+String
 getTitleHelper
 (
 final
@@ -724,6 +724,10 @@ getUrlTitleText
 )
 .
 getText
+(
+)
+.
+toString
 (
 )
 ;
