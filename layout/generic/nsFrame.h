@@ -1755,7 +1755,7 @@ mozilla
 LogicalSize
 &
 aPadding
-uint32_t
+ComputeSizeFlags
 aFlags
 )
 MOZ_OVERRIDE

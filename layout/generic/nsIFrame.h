@@ -11558,7 +11558,11 @@ parameter
 *
 /
 enum
+ComputeSizeFlags
 {
+eDefault
+=
+0
 /
 *
 Set
@@ -12068,7 +12072,7 @@ mozilla
 LogicalSize
 &
 aPadding
-uint32_t
+ComputeSizeFlags
 aFlags
 )
 =

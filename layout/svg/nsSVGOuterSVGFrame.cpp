@@ -2047,7 +2047,7 @@ const
 LogicalSize
 &
 aPadding
-uint32_t
+ComputeSizeFlags
 aFlags
 )
 {

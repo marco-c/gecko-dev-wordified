@@ -2886,7 +2886,13 @@ Size
 (
 wm
 )
-true
+nsIFrame
+:
+:
+ComputeSizeFlags
+:
+:
+eShrinkWrap
 )
 ;
 if
