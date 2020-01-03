@@ -2731,7 +2731,9 @@ PropertyType
 Normal
 Shorthand
 Getter
+GetterNoExpressionClosure
 Setter
+SetterNoExpressionClosure
 Method
 GeneratorMethod
 Constructor
