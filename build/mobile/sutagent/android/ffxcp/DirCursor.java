@@ -335,15 +335,6 @@ nCols
 ;
 if
 (
-vals
-=
-=
-null
-)
-return
-;
-if
-(
 dir
 .
 isDirectory
