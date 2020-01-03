@@ -3459,7 +3459,7 @@ FinishReportingCallback
 nsIFinishReportingCallback
 )
 class
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 MOZ_FINAL
 :
 public
@@ -3468,7 +3468,7 @@ nsIFinishDumpingCallback
 public
 :
 NS_DECL_ISUPPORTS
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 (
 nsIFile
 *
@@ -3822,7 +3822,7 @@ get
 private
 :
 ~
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 (
 )
 {
@@ -3840,7 +3840,7 @@ mReportsFilename
 ;
 NS_IMPL_ISUPPORTS
 (
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 nsIFinishDumpingCallback
 )
 static
@@ -4521,12 +4521,12 @@ rv
 }
 nsRefPtr
 <
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 >
 finishDumping
 =
 new
-TempDirMemoryFinishCallback
+TempDirFinishCallback
 (
 reportsTmpFile
 reportsFinalFilename
