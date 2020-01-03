@@ -282,6 +282,8 @@ nr_stun_xor_mapped_address
 (
 UINT4
 magicCookie
+UINT12
+transactionId
 nr_transport_addr
 *
 from

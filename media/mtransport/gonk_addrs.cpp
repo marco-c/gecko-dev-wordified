@@ -709,6 +709,8 @@ aMaxAddrs
 int
 aDropLoopback
 int
+aDropLinkLocal
+int
 *
 aCount
 )
@@ -854,11 +856,6 @@ interface
 .
 addr
 )
-sizeof
-(
-struct
-sockaddr_in
-)
 IPPROTO_UDP
 0
 &
@@ -958,6 +955,7 @@ nr_stun_remove_duplicate_addrs
 (
 aAddrs
 aDropLoopback
+aDropLinkLocal
 aCount
 )
 ;

@@ -5549,6 +5549,14 @@ SetAllowIceLoopback
 true
 )
 ;
+pcImpl
+-
+>
+SetAllowIceLinkLocal
+(
+true
+)
+;
 pc
 =
 new
@@ -34894,6 +34902,7 @@ TestStunServer
 :
 :
 GetInstance
+AF_INET
 )
 NS_DISPATCH_SYNC
 )
