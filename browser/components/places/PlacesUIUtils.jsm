@@ -2453,6 +2453,17 @@ if
 (
 aCopy
 )
+{
+info
+.
+excludingAnnotation
+=
+"
+Places
+/
+SmartBookmark
+"
+;
 return
 PlacesTransactions
 .
@@ -2461,6 +2472,7 @@ Copy
 info
 )
 ;
+}
 return
 PlacesTransactions
 .
