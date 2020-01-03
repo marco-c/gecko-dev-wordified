@@ -118,6 +118,16 @@ enabled
 "
 true
 ]
+[
+"
+media
+.
+mediasource
+.
+youtubeonly
+"
+false
+]
 ]
 }
 bootstrapTest
