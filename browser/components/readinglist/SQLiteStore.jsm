@@ -580,7 +580,7 @@ ReadingList
 .
 prototype
 .
-addItems
+addItem
 .
 *
 *

@@ -1062,6 +1062,16 @@ insertPoint
 )
 ;
 }
+{
+sort
+:
+"
+addedOn
+"
+descending
+:
+true
+}
 )
 ;
 if
