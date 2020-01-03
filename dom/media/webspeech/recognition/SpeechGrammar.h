@@ -305,6 +305,9 @@ nsISupports
 >
 mParent
 ;
+nsString
+mSrc
+;
 }
 ;
 }

@@ -295,7 +295,7 @@ mozilla
 dom
 :
 :
-SpeechGrammarList
+SpeechGrammar
 *
 nsISpeechGrammarCompilationCallback
 *

@@ -176,14 +176,6 @@ SpeechRecognition
 aParent
 )
 :
-mTranscript
-(
-NS_LITERAL_STRING
-(
-"
-"
-)
-)
 mConfidence
 (
 0
