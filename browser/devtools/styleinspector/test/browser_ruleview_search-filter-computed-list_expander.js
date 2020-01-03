@@ -484,9 +484,7 @@ ok
 !
 computed
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 filter
@@ -513,9 +511,7 @@ ok
 (
 computed
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 user
@@ -531,7 +527,7 @@ contains
 user
 -
 open
-class
+attribute
 .
 "
 )
@@ -866,9 +862,7 @@ ok
 !
 computed
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 filter
@@ -895,9 +889,7 @@ ok
 (
 computed
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 user
@@ -913,7 +905,7 @@ contains
 user
 -
 open
-class
+attribute
 .
 "
 )
