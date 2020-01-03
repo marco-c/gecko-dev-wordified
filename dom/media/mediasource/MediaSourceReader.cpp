@@ -2090,6 +2090,13 @@ Shutdown
 (
 )
 {
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 for
 (
 uint32_t
@@ -2153,13 +2160,6 @@ mVideoPromise
 IsEmpty
 (
 )
-)
-;
-MediaDecoderReader
-:
-:
-Shutdown
-(
 )
 ;
 }
