@@ -298,6 +298,7 @@ NS_FORWARD_SAFE_NSITELEPHONYLISTENER
 (
 mTelephony
 )
+explicit
 Listener
 (
 Telephony

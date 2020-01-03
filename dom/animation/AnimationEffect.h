@@ -122,6 +122,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 AnimationEffect
 (
 Animation

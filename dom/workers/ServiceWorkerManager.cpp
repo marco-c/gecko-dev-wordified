@@ -1215,6 +1215,7 @@ mUpdateInstance
 ;
 public
 :
+explicit
 FinishFetchOnMainThreadRunnable
 (
 const
@@ -6404,6 +6405,7 @@ mRegistration
 ;
 public
 :
+explicit
 FinishActivationRunnable
 (
 const
@@ -6763,6 +6765,7 @@ mRegistration
 ;
 public
 :
+explicit
 FinishActivateHandler
 (
 const

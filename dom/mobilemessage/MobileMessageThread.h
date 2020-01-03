@@ -191,6 +191,7 @@ MessageType
 aLastMessageType
 )
 ;
+explicit
 MobileMessageThread
 (
 const

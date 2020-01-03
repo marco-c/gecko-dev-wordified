@@ -83,6 +83,7 @@ RwLockAutoEnterRead
 {
 public
 :
+explicit
 RwLockAutoEnterRead
 (
 PRRWLock
@@ -130,6 +131,7 @@ RwLockAutoEnterWrite
 {
 public
 :
+explicit
 RwLockAutoEnterWrite
 (
 PRRWLock

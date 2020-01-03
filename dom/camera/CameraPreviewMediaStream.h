@@ -152,6 +152,7 @@ Image
 ;
 public
 :
+explicit
 CameraPreviewMediaStream
 (
 DOMMediaStream

@@ -4475,6 +4475,7 @@ nsRunnable
 {
 public
 :
+explicit
 IMEEnabledStateChangedEvent
 (
 uint32_t

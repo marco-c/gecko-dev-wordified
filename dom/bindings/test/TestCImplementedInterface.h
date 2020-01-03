@@ -161,6 +161,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 TestCImplementedInterface2
 (
 nsPIDOMWindow

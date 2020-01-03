@@ -335,6 +335,7 @@ nsRunnable
 {
 public
 :
+explicit
 PromiseTask
 (
 Promise

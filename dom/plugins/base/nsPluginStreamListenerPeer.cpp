@@ -285,6 +285,7 @@ nsIInterfaceRequestor
 {
 public
 :
+explicit
 nsPluginByteRangeStreamListener
 (
 nsIWeakReference

@@ -123,6 +123,7 @@ CameraControlImpl
 {
 public
 :
+explicit
 FallbackCameraControl
 (
 uint32_t

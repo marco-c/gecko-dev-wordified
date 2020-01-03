@@ -260,6 +260,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+explicit
 CloseRunnable
 (
 FileHelper
@@ -300,6 +301,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+explicit
 DestroyRunnable
 (
 FileHelper

@@ -646,6 +646,7 @@ ClearException
 {
 public
 :
+explicit
 ClearException
 (
 JSContext
@@ -1985,15 +1986,16 @@ WebCryptoTask
 {
 public
 :
+explicit
 FailureTask
 (
 nsresult
-rv
+aRv
 )
 {
 mEarlyRv
 =
-rv
+aRv
 ;
 }
 }

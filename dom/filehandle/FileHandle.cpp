@@ -642,6 +642,7 @@ AsyncHelper
 {
 public
 :
+explicit
 AsyncFlusher
 (
 nsISupports

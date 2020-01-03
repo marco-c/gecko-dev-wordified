@@ -337,6 +337,7 @@ AsyncConnectionHelper
 {
 public
 :
+explicit
 CursorHelper
 (
 IDBCursor

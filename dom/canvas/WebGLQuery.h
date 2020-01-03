@@ -306,11 +306,12 @@ public
 /
 /
 CONSTRUCTOR
+explicit
 WebGLQuery
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 /

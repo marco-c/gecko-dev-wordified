@@ -1055,6 +1055,7 @@ AutoIntervalUpdateBatcher
 {
 public
 :
+explicit
 AutoIntervalUpdateBatcher
 (
 nsSMILTimedElement
@@ -1302,6 +1303,7 @@ AutoIntervalUpdater
 {
 public
 :
+explicit
 AutoIntervalUpdater
 (
 nsSMILTimedElement
@@ -3642,6 +3644,7 @@ RemoveByCreator
 {
 public
 :
+explicit
 RemoveByCreator
 (
 const
@@ -8551,6 +8554,7 @@ RemoveByFunction
 {
 public
 :
+explicit
 RemoveByFunction
 (
 nsSMILTimedElement
@@ -8946,6 +8950,7 @@ RemoveReset
 {
 public
 :
+explicit
 RemoveReset
 (
 const
@@ -10235,6 +10240,7 @@ RemoveFiltered
 {
 public
 :
+explicit
 RemoveFiltered
 (
 nsSMILTimeValue

@@ -923,6 +923,7 @@ AutoClose
 {
 public
 :
+explicit
 AutoClose
 (
 nsIOutputStream

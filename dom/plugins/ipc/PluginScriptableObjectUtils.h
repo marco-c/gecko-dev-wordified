@@ -1165,6 +1165,7 @@ ProtectedActor
 {
 public
 :
+explicit
 ProtectedActor
 (
 ActorType

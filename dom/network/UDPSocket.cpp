@@ -2546,6 +2546,7 @@ nsRunnable
 {
 public
 :
+explicit
 OpenSocketRunnable
 (
 UDPSocket

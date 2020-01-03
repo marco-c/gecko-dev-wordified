@@ -2014,6 +2014,7 @@ nsRunnable
 {
 public
 :
+explicit
 PositionChangeEvent
 (
 IMEContentObserver
@@ -6167,6 +6168,7 @@ nsRunnable
 {
 public
 :
+explicit
 AsyncMergeableNotificationsFlusher
 (
 IMEContentObserver

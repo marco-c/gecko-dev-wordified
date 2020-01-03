@@ -232,6 +232,7 @@ PluginInstanceParent
 ;
 public
 :
+explicit
 PluginScriptableObjectParent
 (
 ScriptableObjectType

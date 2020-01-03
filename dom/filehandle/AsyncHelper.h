@@ -217,6 +217,7 @@ aCtxt
 ;
 protected
 :
+explicit
 AsyncHelper
 (
 nsISupports

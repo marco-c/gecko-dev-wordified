@@ -1767,6 +1767,7 @@ Complete
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+explicit
 ResetOrClearRunnable
 (
 bool
@@ -2091,6 +2092,7 @@ Complete
 ;
 public
 :
+explicit
 FinalizeOriginEvictionRunnable
 (
 nsTArray
@@ -2436,6 +2438,7 @@ nsRunnable
 {
 public
 :
+explicit
 WaitForTransactionsToFinishRunnable
 (
 SynchronizedOp

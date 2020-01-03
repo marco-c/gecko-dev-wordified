@@ -1175,6 +1175,7 @@ DOMCameraConfiguration
 (
 )
 ;
+explicit
 DOMCameraConfiguration
 (
 const

@@ -233,6 +233,7 @@ forget
 )
 ;
 }
+explicit
 Activity
 (
 nsPIDOMWindow

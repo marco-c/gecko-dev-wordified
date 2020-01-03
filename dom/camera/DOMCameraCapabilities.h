@@ -313,6 +313,7 @@ JSObject
 aGlobal
 )
 ;
+explicit
 CameraCapabilities
 (
 nsPIDOMWindow

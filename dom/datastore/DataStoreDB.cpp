@@ -274,6 +274,7 @@ nsIDOMEventListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 VersionChangeListener
 (
 IDBDatabase

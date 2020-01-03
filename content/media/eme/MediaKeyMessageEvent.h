@@ -233,6 +233,7 @@ MediaKeyMessageEvent
 (
 )
 ;
+explicit
 MediaKeyMessageEvent
 (
 EventTarget

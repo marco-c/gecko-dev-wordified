@@ -188,11 +188,12 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 WebGLContextLossHandler
 )
+explicit
 WebGLContextLossHandler
 (
 WebGLContext
 *
-webgl
+aWebgl
 )
 ;
 ~

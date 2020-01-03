@@ -183,6 +183,7 @@ CryptoKeyPair
 )
 public
 :
+explicit
 CryptoKeyPair
 (
 nsIGlobalObject

@@ -412,6 +412,7 @@ MOZ_OVERRIDE
 private
 :
 inline
+explicit
 FileHandleQueue
 (
 FileHandleBase

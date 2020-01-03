@@ -487,6 +487,7 @@ EventTargetChainItem
 {
 private
 :
+explicit
 EventTargetChainItem
 (
 EventTarget

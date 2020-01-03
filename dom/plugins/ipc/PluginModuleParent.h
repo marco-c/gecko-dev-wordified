@@ -558,6 +558,7 @@ UTF8
 not
 native
 !
+explicit
 PluginModuleParent
 (
 const

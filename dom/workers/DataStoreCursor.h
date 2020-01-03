@@ -110,6 +110,7 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 WorkerDataStoreCursor
 )
+explicit
 WorkerDataStoreCursor
 (
 WorkerDataStore

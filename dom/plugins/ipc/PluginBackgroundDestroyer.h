@@ -196,6 +196,7 @@ PPluginBackgroundDestroyerParent
 {
 public
 :
+explicit
 PluginBackgroundDestroyerParent
 (
 gfxASurface

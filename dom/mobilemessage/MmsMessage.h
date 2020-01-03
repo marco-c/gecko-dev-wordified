@@ -308,6 +308,7 @@ bool
 aReadReportRequested
 )
 ;
+explicit
 MmsMessage
 (
 const

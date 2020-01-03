@@ -323,6 +323,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentEvents
 .
 h
@@ -1283,6 +1292,7 @@ mWindow
 bool
 mDefaultAction
 ;
+MOZ_IMPLICIT
 WindowAction
 (
 nsPIDOMWindow
@@ -3888,6 +3898,7 @@ mFinishedWorker
 ;
 public
 :
+explicit
 TopLevelWorkerFinishedRunnable
 (
 WorkerPrivate
@@ -4167,6 +4178,7 @@ WorkerRunnable
 {
 public
 :
+explicit
 CompileScriptRunnable
 (
 WorkerPrivate
@@ -4283,6 +4295,7 @@ WorkerRunnable
 {
 public
 :
+explicit
 CloseEventRunnable
 (
 WorkerPrivate
@@ -5303,6 +5316,7 @@ WorkerControlRunnable
 {
 public
 :
+explicit
 CloseRunnable
 (
 WorkerPrivate
@@ -5375,6 +5389,7 @@ WorkerControlRunnable
 {
 public
 :
+explicit
 SuspendRunnable
 (
 WorkerPrivate
@@ -5425,6 +5440,7 @@ WorkerControlRunnable
 {
 public
 :
+explicit
 ResumeRunnable
 (
 WorkerPrivate
@@ -6558,6 +6574,7 @@ WorkerRunnable
 {
 public
 :
+explicit
 TimerRunnable
 (
 WorkerPrivate
@@ -6928,6 +6945,7 @@ WorkerControlRunnable
 {
 public
 :
+explicit
 KillScriptRunnable
 (
 WorkerPrivate
@@ -7030,6 +7048,7 @@ false
 ;
 public
 :
+explicit
 KillCloseEventRunnable
 (
 WorkerPrivate
@@ -7881,6 +7900,7 @@ mRtPath
 ;
 public
 :
+explicit
 WorkerJSRuntimeStats
 (
 const
@@ -8733,6 +8753,7 @@ mNestedEventTarget
 ;
 public
 :
+explicit
 EventTarget
 (
 WorkerPrivate
@@ -9078,6 +9099,7 @@ mAlreadyMappedToAddon
 ;
 public
 :
+explicit
 MemoryReporter
 (
 WorkerPrivate
@@ -11257,6 +11279,7 @@ mWindow
 bool
 mAllSuspended
 ;
+explicit
 Closure
 (
 nsPIDOMWindow
@@ -11640,6 +11663,7 @@ mWindow
 bool
 mAnyRunning
 ;
+explicit
 Closure
 (
 nsPIDOMWindow
@@ -15368,6 +15392,7 @@ SharedWorker
 >
 mSharedWorkers
 ;
+explicit
 Closure
 (
 nsPIDOMWindow

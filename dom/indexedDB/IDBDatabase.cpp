@@ -420,6 +420,7 @@ AsyncConnectionHelper
 {
 public
 :
+explicit
 NoRequestDatabaseHelper
 (
 IDBTransaction

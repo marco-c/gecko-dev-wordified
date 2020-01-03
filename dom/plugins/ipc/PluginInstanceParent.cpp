@@ -1645,6 +1645,7 @@ CompositionNotifySink
 {
 public
 :
+explicit
 NotificationSink
 (
 PluginInstanceParent
