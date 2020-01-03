@@ -398,9 +398,11 @@ if
 !
 f
 )
+{
 return
 null
 ;
+}
 this
 .
 cbs
@@ -702,6 +704,7 @@ send_
 =
 null
 )
+{
 throw
 new
 TypeError
@@ -718,6 +721,7 @@ fire
 "
 )
 ;
+}
 try
 {
 if
@@ -727,8 +731,10 @@ this
 .
 onresult
 )
+{
 return
 ;
+}
 this
 .
 onresult
@@ -750,6 +756,7 @@ this
 .
 onerror
 )
+{
 this
 .
 onerror
@@ -757,6 +764,7 @@ onerror
 e
 )
 ;
+}
 }
 }
 ;
