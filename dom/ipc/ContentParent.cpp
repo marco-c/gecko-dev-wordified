@@ -5265,7 +5265,7 @@ bool
 ContentParent
 :
 :
-AnswerBridgeToChildProcess
+RecvBridgeToChildProcess
 (
 const
 ContentParentId
@@ -5498,7 +5498,7 @@ bool
 ContentParent
 :
 :
-AnswerLoadPlugin
+RecvLoadPlugin
 (
 const
 uint32_t
@@ -6878,7 +6878,7 @@ if
 child
 -
 >
-CallBridgeToChildProcess
+SendBridgeToChildProcess
 (
 cpId
 )
