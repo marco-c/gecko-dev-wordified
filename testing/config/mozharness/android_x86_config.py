@@ -91,6 +91,7 @@ dm_trans
 =
 sut
 "
+                        
 "
 -
 -
@@ -102,6 +103,7 @@ app
 )
 s
 "
+                        
 "
 -
 -
@@ -115,7 +117,7 @@ remote_webserver
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -129,6 +131,7 @@ xre_path
 )
 s
 "
+                        
 "
 -
 -
@@ -142,7 +145,7 @@ utility_path
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -154,6 +157,7 @@ device_ip
 )
 s
 "
+                        
 "
 -
 -
@@ -165,7 +169,7 @@ device_port
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -179,6 +183,7 @@ http_port
 )
 s
 "
+                        
 "
 -
 -
@@ -192,7 +197,7 @@ ssl_port
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -206,6 +211,7 @@ certs_path
 )
 s
 "
+                        
 "
 -
 -
@@ -219,12 +225,13 @@ symbols_path
 )
 s
 "
-                
+                        
 "
 -
 -
 quiet
 "
+                        
 "
 -
 -
@@ -238,6 +245,21 @@ raw_log_file
 )
 s
 "
+                        
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
+)
+s
+"
+                        
 "
 -
 -
@@ -247,7 +269,7 @@ on
 -
 fail
 "
-            
+                    
 ]
         
 }
@@ -284,6 +306,7 @@ app
 )
 s
 "
+                        
 "
 -
 -
@@ -293,13 +316,13 @@ window
 -
 size
 "
-                
+                        
 "
 -
 -
 bootstrap
 "
-                
+                        
 "
 -
 -
@@ -313,6 +336,7 @@ remote_webserver
 )
 s
 "
+                        
 "
 -
 -
@@ -326,7 +350,7 @@ xre_path
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -340,6 +364,7 @@ utility_path
 )
 s
 "
+                        
 "
 -
 -
@@ -351,7 +376,7 @@ device_ip
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -363,6 +388,7 @@ device_port
 )
 s
 "
+                        
 "
 -
 -
@@ -376,7 +402,7 @@ http_port
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -390,6 +416,7 @@ ssl_port
 )
 s
 "
+                        
 "
 -
 -
@@ -404,7 +431,7 @@ modules_dir
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -418,7 +445,7 @@ symbols_path
 )
 s
 "
-            
+                    
 ]
         
 }
@@ -455,6 +482,7 @@ device_ip
 )
 s
 "
+                        
 "
 -
 -
@@ -466,7 +494,7 @@ device_port
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -480,6 +508,7 @@ xre_path
 )
 s
 "
+                        
 "
 -
 -
@@ -495,7 +524,7 @@ modules_dir
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -507,6 +536,7 @@ installer_path
 )
 s
 "
+                        
 "
 -
 -
@@ -514,7 +544,7 @@ no
 -
 logfiles
 "
-                
+                        
 "
 -
 -
@@ -528,7 +558,7 @@ symbols_path
 )
 s
 "
-                
+                        
 "
 -
 -
@@ -540,7 +570,7 @@ xpcshell
 .
 ini
 "
-                
+                        
 "
 -
 -
@@ -554,7 +584,21 @@ raw_log_file
 )
 s
 "
-            
+                        
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
+)
+s
+"
+                    
 ]
         
 }
