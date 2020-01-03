@@ -9436,6 +9436,8 @@ Tin7
 typename
 Tin8
 typename
+Tin9
+typename
 Arg1
 =
 Tin1
@@ -9467,9 +9469,13 @@ typename
 Arg8
 =
 Tin8
+typename
+Arg9
+=
+Tin9
 >
 class
-BluetoothNotificationHALRunnable8
+BluetoothNotificationHALRunnable9
 :
 public
 nsRunnable
@@ -9485,7 +9491,7 @@ ObjectType
 ObjectType
 ;
 typedef
-BluetoothNotificationHALRunnable8
+BluetoothNotificationHALRunnable9
 <
 ObjectWrapper
 Res
@@ -9497,6 +9503,7 @@ Tin5
 Tin6
 Tin7
 Tin8
+Tin9
 Arg1
 Arg2
 Arg3
@@ -9505,6 +9512,7 @@ Arg5
 Arg6
 Arg7
 Arg8
+Arg9
 >
 SelfType
 ;
@@ -9526,6 +9534,8 @@ typename
 T7
 typename
 T8
+typename
+T9
 >
 static
 already_AddRefed
@@ -9551,6 +9561,7 @@ Arg5
 Arg6
 Arg7
 Arg8
+Arg9
 )
 const
 T1
@@ -9584,6 +9595,10 @@ const
 T8
 &
 aIn8
+const
+T9
+&
+aIn9
 )
 {
 nsRefPtr
@@ -9616,6 +9631,7 @@ aIn5
 aIn6
 aIn7
 aIn8
+aIn9
 )
 )
 )
@@ -9650,6 +9666,8 @@ typename
 T7
 typename
 T8
+typename
+T9
 >
 static
 void
@@ -9672,6 +9690,7 @@ Arg5
 Arg6
 Arg7
 Arg8
+Arg9
 )
 const
 T1
@@ -9705,6 +9724,10 @@ const
 T8
 &
 aIn8
+const
+T9
+&
+aIn9
 )
 {
 nsRefPtr
@@ -9724,6 +9747,7 @@ aIn5
 aIn6
 aIn7
 aIn8
+aIn9
 )
 ;
 if
@@ -9837,6 +9861,7 @@ mArg5
 mArg6
 mArg7
 mArg8
+mArg9
 )
 ;
 }
@@ -9846,7 +9871,7 @@ NS_OK
 }
 private
 :
-BluetoothNotificationHALRunnable8
+BluetoothNotificationHALRunnable9
 (
 Res
 (
@@ -9865,6 +9890,7 @@ Arg5
 Arg6
 Arg7
 Arg8
+Arg9
 )
 )
 :
@@ -9897,6 +9923,8 @@ typename
 T7
 typename
 T8
+typename
+T9
 >
 nsresult
 ConvertAndSet
@@ -9933,6 +9961,10 @@ const
 T8
 &
 aIn8
+const
+T9
+&
+aIn9
 )
 {
 nsresult
@@ -10096,6 +10128,26 @@ return
 rv
 ;
 }
+rv
+=
+Convert
+(
+aIn9
+mArg9
+)
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 return
 NS_OK
 ;
@@ -10117,6 +10169,7 @@ Arg5
 Arg6
 Arg7
 Arg8
+Arg9
 )
 ;
 Tin1
@@ -10142,6 +10195,9 @@ mArg7
 ;
 Tin8
 mArg8
+;
+Tin9
+mArg9
 ;
 }
 ;
