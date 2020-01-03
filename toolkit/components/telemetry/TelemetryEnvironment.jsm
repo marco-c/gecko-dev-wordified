@@ -6394,6 +6394,12 @@ _getPrefData
 )
 }
 ;
+this
+.
+_updateSearchEngine
+(
+)
+;
 }
 /
 *
