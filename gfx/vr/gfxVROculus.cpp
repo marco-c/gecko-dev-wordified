@@ -728,7 +728,7 @@ libName
 AppendPrintf
 (
 "
-LibOVRRT
+libOVRRT
 %
 d_
 %
