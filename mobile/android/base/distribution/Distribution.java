@@ -499,9 +499,7 @@ String
 FETCH_HOSTNAME
 =
 "
-distro
--
-download
+mobile
 .
 cdn
 .
@@ -518,7 +516,7 @@ FETCH_PATH
 =
 "
 /
-android
+distributions
 /
 1
 /
