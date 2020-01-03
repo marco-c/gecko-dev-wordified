@@ -745,7 +745,6 @@ function
 (
 aWindow
 aMessage
-aCallback
 aLabel
 accessKey
 )
@@ -818,11 +817,6 @@ aLabel
 accessKey
 :
 accessKey
-}
-{
-callback
-:
-aCallback
 }
 )
 ;
