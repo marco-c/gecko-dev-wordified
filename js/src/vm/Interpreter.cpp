@@ -11393,6 +11393,10 @@ IonMonkey
 TraceLogStopEvent
 (
 logger
+TraceLogger
+:
+:
+Engine
 )
 ;
 TraceLogStopEvent
@@ -21493,6 +21497,10 @@ true
 TraceLogStopEvent
 (
 logger
+TraceLogger
+:
+:
+Engine
 )
 ;
 TraceLogStopEvent
