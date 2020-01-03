@@ -43905,7 +43905,7 @@ function
 )
 -
 >
-isMethod
+allowSuperProperty
 (
 )
 )
