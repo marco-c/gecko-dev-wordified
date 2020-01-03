@@ -1461,7 +1461,10 @@ null
 child
 .
 case
-PNK_TYPEOF
+PNK_TYPEOFNAME
+:
+case
+PNK_TYPEOFEXPR
 :
 case
 PNK_VOID
