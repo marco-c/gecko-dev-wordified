@@ -15021,7 +15021,7 @@ stream
 char
 cmd
 [
-SMALL_BUFFER_MAX_SIZE
+LARGE_BUFFER_MAX_SIZE
 ]
 ;
 sprintf
