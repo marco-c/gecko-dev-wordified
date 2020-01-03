@@ -260,6 +260,14 @@ mMessage
 =
 nullptr
 ;
+mozilla
+:
+:
+DropJSObjects
+(
+this
+)
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -680,6 +688,7 @@ ArrayBuffer
 Create
 (
 cx
+this
 mRawMessage
 .
 Length
