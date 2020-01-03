@@ -1024,6 +1024,9 @@ NeedsPassword
 case
 NeedsUpgrade
 :
+case
+NeedsFinishMigrating
+:
 requestPeriodicSync
 (
 POLL_INTERVAL_ERROR_STATE_SEC
