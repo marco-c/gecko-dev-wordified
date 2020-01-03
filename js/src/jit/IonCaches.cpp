@@ -9797,13 +9797,10 @@ Push
 (
 ImmWord
 (
-uintptr_t
-(
 ObjectOpResult
 :
 :
 Uninitialized
-)
 )
 )
 ;
@@ -16394,7 +16391,11 @@ IonOOLSetterOpExitFrameLayout
 >
 (
 masm
-failure
+masm
+.
+exceptionLabel
+(
+)
 strict
 scratchReg
 argJSContextReg
