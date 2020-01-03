@@ -123,7 +123,9 @@ mozilla_unused_h
 #
 include
 "
-nscore
+mozilla
+/
+Types
 .
 h
 "
@@ -159,6 +161,7 @@ unused_t
 }
 ;
 extern
+MFBT_DATA
 const
 unused_t
 unused
