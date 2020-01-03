@@ -165,7 +165,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 struct
 objectURLOptions
@@ -344,7 +344,7 @@ const
 GlobalObject
 &
 aGlobal
-DOMFile
+File
 &
 aArg
 const

@@ -206,7 +206,7 @@ class
 ContentParent
 ;
 class
-DOMFile
+File
 ;
 class
 IPCTabContext
@@ -250,7 +250,7 @@ BlobParent
 *
 GetOrCreateActorForBlob
 (
-DOMFile
+File
 *
 aBlob
 )

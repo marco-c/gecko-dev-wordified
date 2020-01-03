@@ -129,7 +129,7 @@ class
 ContentChild
 ;
 class
-DOMFileImpl
+FileImpl
 ;
 class
 nsIContentChild
@@ -161,7 +161,7 @@ friend
 class
 RemoteBlobImpl
 ;
-DOMFileImpl
+FileImpl
 *
 mBlobImpl
 ;
@@ -241,7 +241,7 @@ GetOrCreate
 nsIContentChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -254,7 +254,7 @@ GetOrCreate
 PBackgroundChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -366,7 +366,7 @@ const
 /
 Get
 the
-DOMFileImpl
+FileImpl
 associated
 with
 this
@@ -418,7 +418,7 @@ call
 .
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 GetBlobImpl
 (
@@ -502,7 +502,7 @@ BlobChild
 nsIContentChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -512,7 +512,7 @@ BlobChild
 PBackgroundChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -587,7 +587,7 @@ BlobChild
 void
 CommonInit
 (
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -622,7 +622,7 @@ GetOrCreateFromImpl
 ChildManagerType
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )

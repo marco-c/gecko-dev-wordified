@@ -611,11 +611,11 @@ mEncodeCompleteCallback
 .
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
-DOMFile
+File
 :
 :
 CreateMemoryFile

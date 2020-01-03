@@ -189,7 +189,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 }
 class
@@ -423,7 +423,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 &
 aData
 mozilla

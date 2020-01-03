@@ -971,13 +971,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIDOMFileList
 .
 h
@@ -42181,7 +42174,7 @@ the
 reader
 is
 a
-DOMFileImpl
+FileImpl
 .
 /
 /
@@ -42191,9 +42184,9 @@ we
 create
 a
 new
-DOMFile
+File
 .
-DOMFileImpl
+FileImpl
 *
 blobImpl
 ;
@@ -42220,7 +42213,7 @@ blobImpl
 /
 nsRefPtr
 <
-DOMFile
+File
 >
 needs
 to
@@ -42305,12 +42298,12 @@ cx
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 scInfo
 -
@@ -42523,7 +42516,7 @@ Blob
 object
 .
 {
-DOMFile
+File
 *
 blob
 =
@@ -42548,7 +42541,7 @@ blob
 )
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =

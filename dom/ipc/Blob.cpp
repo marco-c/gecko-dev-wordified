@@ -166,6 +166,17 @@ mozilla
 /
 dom
 /
+File
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 nsIContentParent
 .
 h
@@ -270,13 +281,6 @@ h
 #
 include
 "
-nsDOMFile
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
@@ -285,13 +289,6 @@ h
 include
 "
 nsID
-.
-h
-"
-#
-include
-"
-nsIDOMFile
 .
 h
 "
@@ -1158,7 +1155,7 @@ mStream
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -1200,7 +1197,7 @@ BlobInputStreamTether
 nsIInputStream
 *
 aStream
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -1398,7 +1395,7 @@ mStream
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -1418,7 +1415,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 explicit
 RemoteInputStream
 (
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -1723,7 +1720,7 @@ rv
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 ;
@@ -2850,7 +2847,7 @@ mProcessID
 const
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -2869,7 +2866,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -3028,7 +3025,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -3114,7 +3111,7 @@ return
 mProcessID
 ;
 }
-DOMFileImpl
+FileImpl
 *
 BlobImpl
 (
@@ -3139,7 +3136,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -3162,7 +3159,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 bool
@@ -4382,7 +4379,7 @@ RemoteBlobImpl
 MOZ_FINAL
 :
 public
-DOMFileImplBase
+FileImplBase
 public
 nsIRemoteBlob
 {
@@ -4423,7 +4420,7 @@ uint64_t
 aModDate
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aName
 aContentType
@@ -4450,7 +4447,7 @@ uint64_t
 aLength
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aContentType
 aLength
@@ -4470,7 +4467,7 @@ BlobChild
 aActor
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 EmptyString
 (
@@ -4527,7 +4524,7 @@ MOZ_OVERRIDE
 virtual
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 CreateSlice
 (
@@ -4759,7 +4756,7 @@ mActor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -4779,7 +4776,7 @@ StreamHelper
 BlobChild
 *
 aActor
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -5154,7 +5151,7 @@ mActor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mSlice
 ;
@@ -5228,7 +5225,7 @@ aActor
 )
 ;
 }
-DOMFileImpl
+FileImpl
 *
 GetSlice
 (
@@ -5854,7 +5851,7 @@ BlobChild
 :
 :
 RemoteBlobImpl
-DOMFileImpl
+FileImpl
 nsIRemoteBlob
 )
 void
@@ -5923,7 +5920,7 @@ filePath
 }
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 BlobChild
 :
@@ -5977,7 +5974,7 @@ mActor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 impl
 =
@@ -6335,7 +6332,7 @@ BlobChild
 nsIContentChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -6373,7 +6370,7 @@ BlobChild
 PBackgroundChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -6641,7 +6638,7 @@ BlobChild
 :
 CommonInit
 (
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -6740,7 +6737,7 @@ BlobChild
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 otherImpl
 =
@@ -7245,7 +7242,7 @@ GetOrCreate
 nsIContentChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -7281,7 +7278,7 @@ GetOrCreate
 PBackgroundChild
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -7396,7 +7393,7 @@ GetOrCreateFromImpl
 ChildManagerType
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -7891,7 +7888,7 @@ actor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 source
 =
@@ -7946,7 +7943,7 @@ rv
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 slice
 =
@@ -8450,7 +8447,7 @@ mParentID
 }
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 BlobChild
 :
@@ -8470,7 +8467,7 @@ mBlobImpl
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 ;
@@ -9379,7 +9376,7 @@ MOZ_FINAL
 public
 RemoteBlobImplBase
 public
-DOMFileImplBase
+FileImplBase
 public
 nsIRemoteBlob
 {
@@ -9405,7 +9402,7 @@ NS_DECL_ISUPPORTS_INHERITED
 virtual
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 CreateSlice
 (
@@ -9495,7 +9492,7 @@ aForwards
 /
 false
 )
-DOMFileImplBase
+FileImplBase
 (
 aName
 aContentType
@@ -9536,7 +9533,7 @@ aForwards
 /
 false
 )
-DOMFileImplBase
+FileImplBase
 (
 aContentType
 aLength
@@ -9611,7 +9608,7 @@ mActor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mSlice
 ;
@@ -9685,7 +9682,7 @@ aActor
 )
 ;
 }
-DOMFileImpl
+FileImpl
 *
 GetSlice
 (
@@ -10135,7 +10132,7 @@ MOZ_FINAL
 public
 RemoteBlobImplBase
 public
-DOMFileImpl
+FileImpl
 public
 nsIRemoteBlob
 {
@@ -10177,7 +10174,7 @@ FileManager
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mBlobImpl
 ;
@@ -10337,7 +10334,7 @@ aType
 virtual
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 CreateSlice
 (
@@ -10374,7 +10371,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 >
 *
@@ -10731,7 +10728,7 @@ ForwardingRemoteBlobImpl
 BlobParent
 *
 aActor
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -10987,12 +10984,12 @@ BlobParent
 :
 :
 RemoteBlobImpl
-DOMFileImplBase
+FileImplBase
 nsIRemoteBlob
 )
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 BlobParent
 :
@@ -11046,7 +11043,7 @@ mActor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 impl
 =
@@ -11273,7 +11270,7 @@ mRemoteBlob
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-DOMFileImpl
+FileImpl
 )
 /
 *
@@ -11858,7 +11855,7 @@ TInputStreamParams
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 remoteBlobImpl
 ;
@@ -12232,7 +12229,7 @@ GetOrCreate
 nsIContentParent
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -12268,7 +12265,7 @@ GetOrCreate
 PBackgroundParent
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -12370,7 +12367,7 @@ aParams
 static
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 BlobParent
 :
@@ -12431,7 +12428,7 @@ nullptr
 }
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 =
@@ -12473,7 +12470,7 @@ GetOrCreateFromImpl
 ParentManagerType
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -13077,7 +13074,7 @@ actor
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 source
 =
@@ -13132,7 +13129,7 @@ rv
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 slice
 =
@@ -13570,7 +13567,7 @@ nullptr
 }
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 BlobParent
 :
@@ -13590,7 +13587,7 @@ mBlobImpl
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 ;
@@ -15251,7 +15248,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -15375,7 +15372,7 @@ nsID
 aID
 intptr_t
 aProcessID
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 bool

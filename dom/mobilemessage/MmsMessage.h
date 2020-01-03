@@ -164,7 +164,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 namespace
 mobilemessage
@@ -210,7 +210,7 @@ MOZ_FINAL
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 content
 ;

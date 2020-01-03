@@ -204,7 +204,7 @@ class
 ClonedMessageData
 ;
 class
-DOMFile
+File
 ;
 class
 IPCTabContext
@@ -233,7 +233,7 @@ BlobChild
 *
 GetOrCreateActorForBlob
 (
-DOMFile
+File
 *
 aBlob
 )

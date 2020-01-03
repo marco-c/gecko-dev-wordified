@@ -1554,11 +1554,11 @@ continue
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 domFile
 =
-DOMFile
+File
 :
 :
 CreateFromFile

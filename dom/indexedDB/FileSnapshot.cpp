@@ -207,7 +207,7 @@ FileInfo
 aFileInfo
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aName
 aContentType
@@ -318,7 +318,7 @@ nsAString
 aContentType
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aContentType
 aOther
@@ -461,7 +461,7 @@ DEBUG
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 FileImplSnapshot
-DOMFileImpl
+FileImpl
 )
 void
 FileImplSnapshot
@@ -579,7 +579,7 @@ NS_OK
 }
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 FileImplSnapshot
 :
@@ -605,7 +605,7 @@ AssertSanity
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 impl
 =

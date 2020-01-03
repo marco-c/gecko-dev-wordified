@@ -166,7 +166,7 @@ class
 ContentParent
 ;
 class
-DOMFileImpl
+FileImpl
 ;
 class
 nsIContentParent
@@ -237,7 +237,7 @@ Mutex
 >
 sIDTableMutex
 ;
-DOMFileImpl
+FileImpl
 *
 mBlobImpl
 ;
@@ -432,7 +432,7 @@ GetOrCreate
 nsIContentParent
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -445,7 +445,7 @@ GetOrCreate
 PBackgroundParent
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -562,7 +562,7 @@ mContentManager
 /
 Get
 the
-DOMFileImpl
+FileImpl
 associated
 with
 this
@@ -570,7 +570,7 @@ actor
 .
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 GetBlobImpl
 (
@@ -710,7 +710,7 @@ GetOrCreateFromImpl
 ParentManagerType
 *
 aManager
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )

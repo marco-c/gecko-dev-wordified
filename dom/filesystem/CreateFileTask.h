@@ -154,10 +154,10 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
-DOMFileImpl
+FileImpl
 ;
 class
 Promise
@@ -180,7 +180,7 @@ const
 nsAString
 &
 aPath
-DOMFile
+File
 *
 aBlobData
 InfallibleTArray
@@ -319,7 +319,7 @@ thread
 .
 nsRefPtr
 <
-DOMFile
+File
 >
 mBlobData
 ;
@@ -344,7 +344,7 @@ This
 cannot
 be
 a
-DOMFile
+File
 because
 this
 object
@@ -357,7 +357,7 @@ different
 /
 thread
 and
-DOMFile
+File
 is
 not
 thread
@@ -369,12 +369,12 @@ Let
 s
 use
 the
-DOMFileImpl
+FileImpl
 instead
 .
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mTargetFileImpl
 ;

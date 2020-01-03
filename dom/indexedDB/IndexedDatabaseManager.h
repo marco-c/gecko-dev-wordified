@@ -648,7 +648,7 @@ FileManager
 .
 mFileInfos
 and
-nsDOMFileBase
+FileImplBase
 .
 mFileInfos
 /
