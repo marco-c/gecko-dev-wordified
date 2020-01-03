@@ -178,6 +178,7 @@ MediaPromise
 <
 bool
 bool
+false
 >
 ShutdownPromise
 ;
