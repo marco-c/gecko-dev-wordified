@@ -8206,6 +8206,16 @@ result
 )
 )
 ;
+if
+(
+!
+faces
+)
+{
+return
+nullptr
+;
+}
 /
 /
 -
