@@ -2130,6 +2130,10 @@ bool
 sDumpPaintingToFile
 ;
 static
+bool
+sDumpPaintItems
+;
+static
 FILE
 *
 sDumpPaintFile
