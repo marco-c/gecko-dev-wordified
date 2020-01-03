@@ -113,6 +113,20 @@ runner_args
 )
 :
         
+self
+.
+show_crash_reporter
+=
+runner_args
+.
+pop
+(
+'
+show_crash_reporter
+'
+False
+)
+        
 BaseRunner
 .
 __init__
@@ -643,6 +657,20 @@ MOZ_CRASHREPORTER_DISABLE
 else
 :
             
+if
+not
+self
+.
+show_crash_reporter
+:
+                
+#
+hide
+the
+crash
+reporter
+window
+                
 self
 .
 env
