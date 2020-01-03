@@ -261,4 +261,4 @@ IPC
 endif
 /
 /
-mozilla_dom_bluetooth_ipc_bluetoothchild_h__
+mozilla_dom_bluetooth_ipc_bluetoothmessageutils_h__
