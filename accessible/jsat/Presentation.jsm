@@ -3106,6 +3106,9 @@ function
 B2GPresenter_nameChanged
 (
 aAccessible
+aIsPolite
+=
+true
 )
 {
 return
@@ -3130,6 +3133,13 @@ data
 aAccessible
 .
 name
+options
+:
+{
+enqueue
+:
+aIsPolite
+}
 }
 }
 ;
@@ -3145,6 +3155,9 @@ function
 B2GPresenter_valueChanged
 (
 aAccessible
+aIsPolite
+=
+true
 )
 {
 /
@@ -3203,6 +3216,13 @@ data
 aAccessible
 .
 value
+options
+:
+{
+enqueue
+:
+aIsPolite
+}
 }
 }
 ;
