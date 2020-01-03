@@ -40476,6 +40476,8 @@ CN
 "
 "
 Helvetica
+PingFang
+SC
 STHeiti
 Heiti
 SC
@@ -40499,6 +40501,8 @@ CN
 "
 "
 Courier
+PingFang
+SC
 STHeiti
 Heiti
 SC
@@ -40604,6 +40608,8 @@ TW
 "
 "
 Helvetica
+PingFang
+TC
 Heiti
 TC
 LiHei
@@ -40628,6 +40634,8 @@ TW
 "
 "
 Courier
+PingFang
+TC
 Heiti
 TC
 LiHei
@@ -40734,6 +40742,8 @@ HK
 "
 "
 Helvetica
+PingFang
+TC
 Heiti
 TC
 LiHei
@@ -40758,6 +40768,8 @@ HK
 "
 "
 Courier
+PingFang
+TC
 Heiti
 TC
 LiHei
