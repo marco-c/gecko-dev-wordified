@@ -9271,7 +9271,8 @@ defined
 (
 DEBUG
 )
-and
+&
+&
 !
 defined
 (
