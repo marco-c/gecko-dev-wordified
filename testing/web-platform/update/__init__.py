@@ -227,6 +227,13 @@ setup_logging
 (
 args
 {
+"
+mach
+"
+:
+sys
+.
+stdout
 }
 )
     
