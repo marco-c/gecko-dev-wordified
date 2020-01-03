@@ -1108,6 +1108,7 @@ false
 /
 Accessible
 constructors
+static
 Accessible
 *
 New_HTMLLink
@@ -1208,6 +1209,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HyperText
@@ -1234,6 +1236,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLFigcaption
@@ -1260,6 +1263,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLFigure
@@ -1286,6 +1290,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLLegend
@@ -1312,6 +1317,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLOption
@@ -1338,6 +1344,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLOptgroup
@@ -1364,6 +1371,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLList
@@ -1390,6 +1398,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLListitem
@@ -1484,6 +1493,7 @@ return
 nullptr
 ;
 }
+static
 Accessible
 *
 New_HTMLDefinition
@@ -1522,6 +1532,7 @@ return
 nullptr
 ;
 }
+static
 Accessible
 *
 New_HTMLLabel
@@ -1548,6 +1559,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLOutput
@@ -1574,6 +1586,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLProgress
@@ -1600,6 +1613,7 @@ Document
 )
 ;
 }
+static
 Accessible
 *
 New_HTMLTableHeaderCell
@@ -1654,6 +1668,7 @@ return
 nullptr
 ;
 }
+static
 Accessible
 *
 New_HTMLTableHeaderCellIfScope
