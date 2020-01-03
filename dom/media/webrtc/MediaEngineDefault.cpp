@@ -347,7 +347,7 @@ MediaEngineDefaultVideoSource
 :
 GetUUID
 (
-nsAString
+nsACString
 &
 aUUID
 )
@@ -355,8 +355,6 @@ aUUID
 aUUID
 .
 AssignLiteral
-(
-MOZ_UTF16
 (
 "
 1041FCBD
@@ -369,7 +367,6 @@ MOZ_UTF16
 -
 1EC556DD5676
 "
-)
 )
 ;
 return
@@ -1850,7 +1847,7 @@ MediaEngineDefaultAudioSource
 :
 GetUUID
 (
-nsAString
+nsACString
 &
 aUUID
 )
@@ -1858,8 +1855,6 @@ aUUID
 aUUID
 .
 AssignLiteral
-(
-MOZ_UTF16
 (
 "
 B7CBD7C1
@@ -1872,7 +1867,6 @@ B7CBD7C1
 -
 73F61C70C092
 "
-)
 )
 ;
 return

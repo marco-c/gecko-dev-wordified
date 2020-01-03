@@ -488,14 +488,14 @@ this
 device
 in
 the
-nsAString
+nsACString
 *
 /
 virtual
 void
 GetUUID
 (
-nsAString
+nsACString
 &
 )
 =

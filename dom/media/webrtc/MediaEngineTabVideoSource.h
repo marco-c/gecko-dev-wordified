@@ -142,7 +142,7 @@ virtual
 void
 GetUUID
 (
-nsAString_internal
+nsACString_internal
 &
 )
 override

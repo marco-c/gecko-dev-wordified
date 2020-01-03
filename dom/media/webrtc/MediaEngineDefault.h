@@ -204,7 +204,7 @@ virtual
 void
 GetUUID
 (
-nsAString
+nsACString
 &
 )
 override
@@ -521,7 +521,7 @@ virtual
 void
 GetUUID
 (
-nsAString
+nsACString
 &
 )
 override
