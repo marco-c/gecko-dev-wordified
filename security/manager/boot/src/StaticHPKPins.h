@@ -3483,6 +3483,20 @@ kPinset_google_root_pems
 "
 chrome
 .
+com
+"
+true
+false
+false
+-
+1
+&
+kPinset_google_root_pems
+}
+{
+"
+chrome
+.
 google
 .
 com
@@ -8410,7 +8424,7 @@ Preload
 List
 Length
 =
-346
+347
 ;
 static
 const
@@ -8427,6 +8441,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1432379583107000
+1432984661743000
 )
 ;
