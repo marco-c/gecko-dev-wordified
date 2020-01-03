@@ -169,6 +169,9 @@ namespace
 android
 ;
 #
+undef
+LOG
+#
 ifdef
 PR_LOGGING
 extern
