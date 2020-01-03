@@ -491,6 +491,14 @@ return
 true
 ;
 }
+virtual
+bool
+VideoIsHardwareAccelerated
+(
+)
+const
+MOZ_OVERRIDE
+;
 private
 :
 bool
