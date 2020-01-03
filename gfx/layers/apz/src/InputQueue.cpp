@@ -318,8 +318,6 @@ false
 INPQ_LOG
 (
 "
-%
-p
 started
 new
 touch
@@ -333,7 +331,6 @@ p
 \
 n
 "
-this
 block
 aTarget
 .
@@ -639,8 +636,6 @@ balance
 INPQ_LOG
 (
 "
-%
-p
 not
 waiting
 for
@@ -653,7 +648,6 @@ p
 \
 n
 "
-this
 block
 )
 ;
@@ -726,8 +720,6 @@ get
 INPQ_LOG
 (
 "
-%
-p
 received
 new
 event
@@ -738,7 +730,6 @@ p
 \
 n
 "
-this
 block
 )
 ;
@@ -816,10 +807,6 @@ IsReadyForHandling
 INPQ_LOG
 (
 "
-%
-p
-'
-s
 current
 touch
 block
@@ -832,7 +819,6 @@ d
 \
 n
 "
-this
 block
 -
 >
@@ -1089,8 +1075,6 @@ HasEvents
 INPQ_LOG
 (
 "
-%
-p
 discarding
 depleted
 touch
@@ -1100,7 +1084,6 @@ p
 \
 n
 "
-this
 mTouchBlockQueue
 [
 0
@@ -1233,8 +1216,6 @@ aInputBlockId
 INPQ_LOG
 (
 "
-%
-p
 scheduling
 content
 response
@@ -1246,7 +1227,6 @@ p
 \
 n
 "
-this
 aTarget
 .
 get
@@ -1300,8 +1280,6 @@ AssertOnControllerThread
 INPQ_LOG
 (
 "
-%
-p
 got
 a
 content
@@ -1315,7 +1293,6 @@ llu
 \
 n
 "
-this
 aInputBlockId
 )
 ;
@@ -1409,8 +1386,6 @@ AssertOnControllerThread
 INPQ_LOG
 (
 "
-%
-p
 got
 a
 content
@@ -1423,7 +1398,6 @@ llu
 \
 n
 "
-this
 aInputBlockId
 )
 ;
@@ -1523,8 +1497,6 @@ AssertOnControllerThread
 INPQ_LOG
 (
 "
-%
-p
 got
 allowed
 touch
@@ -1537,7 +1509,6 @@ llu
 \
 n
 "
-this
 aInputBlockId
 )
 ;
@@ -1668,8 +1639,6 @@ break
 INPQ_LOG
 (
 "
-%
-p
 processing
 input
 block
@@ -1685,7 +1654,6 @@ p
 \
 n
 "
-this
 curBlock
 curBlock
 -
@@ -1901,8 +1869,6 @@ one
 INPQ_LOG
 (
 "
-%
-p
 discarding
 depleted
 touch
@@ -1912,7 +1878,6 @@ p
 \
 n
 "
-this
 curBlock
 )
 ;

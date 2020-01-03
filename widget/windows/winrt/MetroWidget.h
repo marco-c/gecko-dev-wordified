@@ -1446,10 +1446,6 @@ aOutBehaviors
 void
 ApzcSetAllowedTouchBehavior
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 nsTArray
@@ -1540,10 +1536,6 @@ params
 void
 ApzContentConsumingTouch
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -1551,10 +1543,6 @@ aInputBlockId
 void
 ApzContentIgnoringTouch
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )

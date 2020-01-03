@@ -3306,7 +3306,6 @@ GetApzcTreeManager
 >
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 aPreventDefault
 )
