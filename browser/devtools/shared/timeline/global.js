@@ -472,7 +472,7 @@ colorName
 "
 highlight
 -
-purple
+lightorange
 "
 label
 :
@@ -503,7 +503,7 @@ colorName
 "
 highlight
 -
-purple
+lightorange
 "
 label
 :
