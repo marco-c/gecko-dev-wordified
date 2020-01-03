@@ -838,7 +838,7 @@ on
 import
 button
 click
-UI_RECORDING_IMPORTED
+UI_IMPORT_RECORDING
 :
 "
 Performance
@@ -1821,7 +1821,7 @@ on
 (
 EVENTS
 .
-UI_RECORDING_IMPORTED
+UI_IMPORT_RECORDING
 this
 .
 importRecording
@@ -1967,7 +1967,7 @@ off
 (
 EVENTS
 .
-UI_RECORDING_IMPORTED
+UI_IMPORT_RECORDING
 this
 .
 importRecording

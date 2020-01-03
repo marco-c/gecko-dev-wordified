@@ -75,6 +75,7 @@ var
 {
 EVENTS
 PerformanceController
+PerformanceView
 DetailsView
 DetailsSubview
 }
@@ -404,13 +405,13 @@ EVENTS
 RECORDING_IMPORTED
 )
 ;
-yield
-PerformanceController
+PerformanceView
 .
-importRecording
+emit
 (
-"
-"
+EVENTS
+.
+UI_IMPORT_RECORDING
 file
 )
 ;
