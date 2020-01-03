@@ -18371,7 +18371,7 @@ layer
 to
 make
 a
-RecordFrameMetrics
+ComputeFrameMetrics
 call
 for
 us
@@ -18384,7 +18384,7 @@ nsDisplayList
 PaintForFrame
 already
 calls
-RecordFrameMetrics
+ComputeFrameMetrics
 for
 us
 .

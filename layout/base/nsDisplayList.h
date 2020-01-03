@@ -18153,7 +18153,7 @@ layer
 so
 call
 *
-RecordFrameMetrics
+ComputeFrameMetrics
 etc
 .
 *
