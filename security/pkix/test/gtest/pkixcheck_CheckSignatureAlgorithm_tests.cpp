@@ -1181,6 +1181,7 @@ Result
 CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
+EndEntityOrCA
 )
 override
 {

@@ -2121,6 +2121,8 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 digestAlg
+EndEntityOrCA
+endEntityOrCA
 )
 =
 0

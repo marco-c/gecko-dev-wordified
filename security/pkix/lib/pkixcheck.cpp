@@ -770,6 +770,7 @@ trustDomain
 CheckSignatureDigestAlgorithm
 (
 digestAlg
+endEntityOrCA
 )
 ;
 if
