@@ -6211,9 +6211,9 @@ proto
 =
 objProto
 ;
+if
 (
-void
-)
+!
 p
 .
 add
@@ -6223,6 +6223,13 @@ cx
 table
 key
 group
+)
+)
+cx
+-
+>
+recoverFromOutOfMemory
+(
 )
 ;
 }
