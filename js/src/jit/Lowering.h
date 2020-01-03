@@ -1236,6 +1236,14 @@ ins
 )
 ;
 void
+visitKeepAliveObject
+(
+MKeepAliveObject
+*
+ins
+)
+;
+void
 visitSlots
 (
 MSlots

@@ -1038,6 +1038,11 @@ LambdaForSingleton
 \
 _
 (
+KeepAliveObject
+)
+\
+_
+(
 Slots
 )
 \

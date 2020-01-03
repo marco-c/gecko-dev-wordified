@@ -779,6 +779,14 @@ lir
 )
 ;
 void
+visitKeepAliveObject
+(
+LKeepAliveObject
+*
+lir
+)
+;
+void
 visitSlots
 (
 LSlots

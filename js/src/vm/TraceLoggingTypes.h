@@ -358,6 +358,11 @@ EliminateRedundantChecks
 \
 _
 (
+AddKeepAliveInstructions
+)
+\
+_
+(
 GenerateLIR
 )
 \
