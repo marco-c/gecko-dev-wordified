@@ -997,10 +997,11 @@ list
 debugger_arguments
 +
 =
-[
 debuggerArgs
-]
-;
+.
+split
+(
+)
     
 #
 Override
