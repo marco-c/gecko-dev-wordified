@@ -8084,6 +8084,14 @@ aOther
 const
 {
 return
+mIsSubgrid
+!
+=
+aOther
+.
+mIsSubgrid
+|
+|
 mLineNameLists
 !
 =
