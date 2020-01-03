@@ -4360,6 +4360,7 @@ useDesktopPaths
 :
 true
 }
+)
 React
 .
 createElement
@@ -4414,7 +4415,6 @@ props
 .
 video
 }
-)
 )
 )
 )
@@ -5002,9 +5002,6 @@ this
 state
 .
 audioMuted
-visible
-:
-true
 }
 conversationStore
 :
@@ -5052,9 +5049,6 @@ this
 state
 .
 videoMuted
-visible
-:
-true
 }
 }
 )
