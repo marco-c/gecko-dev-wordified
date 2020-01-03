@@ -64,7 +64,6 @@ gPanel
 gDebugger
 ;
 let
-gNewTab
 gFocusedWindow
 gToolbox
 gToolboxTab
@@ -201,10 +200,6 @@ tab
 .
 "
 )
-;
-gNewTab
-=
-aTab
 ;
 gFocusedWindow
 =
@@ -1007,15 +1002,6 @@ gPanel
 null
 ;
 gDebugger
-=
-null
-;
-removeTab
-(
-gNewTab
-)
-;
-gNewTab
 =
 null
 ;
