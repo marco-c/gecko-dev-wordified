@@ -2113,12 +2113,6 @@ MediaSourceDecoder
 >
 mParentDecoder
 ;
-nsRefPtr
-<
-MediaSourceDemuxer
->
-mMediaSourceDemuxer
-;
 /
 /
 MediaSource
