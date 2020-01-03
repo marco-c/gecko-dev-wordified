@@ -11458,6 +11458,8 @@ js_ReportGetterOnlyAssignment
 JSContext
 *
 cx
+jsid
+id
 bool
 strict
 )
