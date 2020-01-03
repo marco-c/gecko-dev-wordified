@@ -1511,7 +1511,7 @@ path
 test
 [
 '
-path
+relpath
 '
 ]
             

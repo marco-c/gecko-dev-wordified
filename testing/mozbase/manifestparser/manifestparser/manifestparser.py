@@ -253,6 +253,9 @@ None
 strict
 =
 True
+rootdir
+=
+None
 )
 :
         
@@ -296,7 +299,7 @@ self
 .
 rootdir
 =
-None
+rootdir
         
 self
 .
