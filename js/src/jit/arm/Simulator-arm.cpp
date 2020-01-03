@@ -3358,8 +3358,6 @@ main
 thread
 and
 compilation
-/
-PJS
 threads
 .
 PRLock
