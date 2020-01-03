@@ -117,6 +117,10 @@ __init__
 self
 filename
 parseData
+generatedEvents
+=
+[
+]
 )
 :
         
@@ -194,6 +198,13 @@ interfaces
 =
 {
 }
+        
+self
+.
+generatedEvents
+=
+generatedEvents
+;
         
 self
 .

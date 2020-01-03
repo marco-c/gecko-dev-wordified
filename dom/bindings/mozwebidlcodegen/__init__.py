@@ -907,6 +907,12 @@ h
 '
         
 '
+GeneratedEventList
+.
+h
+'
+        
+'
 PrototypeList
 .
 h
@@ -1218,6 +1224,13 @@ set
 (
 generated_events_stems
 )
+        
+self
+.
+_generated_events_stems_as_array
+=
+generated_events_stems
+;
         
 self
 .
@@ -2354,6 +2367,10 @@ _config_path
 self
 .
 _parser_results
+                                     
+self
+.
+_generated_events_stems_as_array
 )
         
 self
