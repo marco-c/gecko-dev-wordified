@@ -296,6 +296,10 @@ mPluginFilePath
 (
 aPluginFilePath
 )
+mTaskFactory
+(
+this
+)
 mMainMsgLoop
 (
 MessageLoop
@@ -1194,9 +1198,10 @@ mMainMsgLoop
 PostTask
 (
 FROM_HERE
+mTaskFactory
+.
 NewRunnableMethod
 (
-this
 &
 PluginProcessParent
 :
@@ -1237,9 +1242,10 @@ mMainMsgLoop
 PostTask
 (
 FROM_HERE
+mTaskFactory
+.
 NewRunnableMethod
 (
-this
 &
 PluginProcessParent
 :
