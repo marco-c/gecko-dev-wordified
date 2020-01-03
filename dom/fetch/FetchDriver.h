@@ -200,8 +200,8 @@ void
 OnResponseEnd
 (
 )
-=
-0
+{
+}
 ;
 protected
 :
