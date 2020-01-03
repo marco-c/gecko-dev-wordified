@@ -1912,10 +1912,6 @@ GetImage
 )
 )
 ;
-Updated
-(
-)
-;
 return
 true
 ;
