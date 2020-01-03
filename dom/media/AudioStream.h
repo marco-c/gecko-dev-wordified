@@ -198,7 +198,7 @@ include
 "
 soundtouch
 /
-SoundTouch
+SoundTouchFactory
 .
 h
 "
@@ -2178,13 +2178,11 @@ mWritten
 AudioClock
 mAudioClock
 ;
-nsAutoPtr
-<
 soundtouch
 :
 :
 SoundTouch
->
+*
 mTimeStretcher
 ;
 nsRefPtr
