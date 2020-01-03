@@ -463,6 +463,13 @@ true
 }
 virtual
 bool
+HaveChoiceOfHWAndSWCanvas
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 UseAcceleratedSkiaCanvas
 (
 )
