@@ -144,6 +144,9 @@ version
 '
                   
 '
+developers
+'
+'
 translators
 '
 '
@@ -155,10 +158,10 @@ license
 '
 homepage
 '
+                  
 '
 icon
 '
-                  
 '
 icon64
 '
