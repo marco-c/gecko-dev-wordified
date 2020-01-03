@@ -438,6 +438,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -445,6 +446,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -512,6 +514,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -519,6 +522,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -812,6 +816,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -819,6 +824,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "

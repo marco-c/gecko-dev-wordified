@@ -6236,6 +6236,7 @@ ix
 0
 ;
 )
+{
 fputs
 (
 "
@@ -6243,6 +6244,7 @@ fputs
 out
 )
 ;
+}
 fprintf
 (
 out
@@ -6386,6 +6388,7 @@ ix
 0
 ;
 )
+{
 fputs
 (
 "
@@ -6393,6 +6396,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "

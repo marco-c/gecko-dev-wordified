@@ -6021,6 +6021,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -6028,6 +6029,7 @@ fputs
 out
 )
 ;
+}
 fprintf
 (
 out
@@ -8333,6 +8335,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -8340,6 +8343,7 @@ fputs
 out
 )
 ;
+}
 nsAutoString
 buffer
 ;

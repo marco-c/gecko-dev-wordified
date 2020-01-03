@@ -9006,6 +9006,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -9013,6 +9014,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
