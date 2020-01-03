@@ -1606,6 +1606,7 @@ const
 endif
 SharedMemory
 *
+MOZ_WEAK_REF
 mSegment
 ;
 void
