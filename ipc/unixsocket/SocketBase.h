@@ -872,12 +872,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SocketBase
 )
-virtual
-~
-SocketBase
-(
-)
-;
 SocketConnectionStatus
 GetConnectionStatus
 (
@@ -1081,6 +1075,12 @@ NotifyDisconnect
 ;
 protected
 :
+SocketBase
+(
+)
+;
+virtual
+~
 SocketBase
 (
 )
