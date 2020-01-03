@@ -519,6 +519,7 @@ GetDecodeDone
 )
 ;
 mProgress
+|
 =
 mContainedDecoder
 -
@@ -3885,6 +3886,7 @@ aStrategy
 )
 ;
 mProgress
+|
 =
 mContainedDecoder
 -
@@ -4223,6 +4225,7 @@ GetCurrentFrame
 )
 ;
 mProgress
+|
 =
 mContainedDecoder
 -
