@@ -114,11 +114,11 @@ not
 (
 options
 .
-b2gPath
+emulator_path
 or
 options
 .
-b2gDesktopPath
+b2g_desktop_path
 )
 :
         
@@ -131,7 +131,9 @@ must
 specify
 -
 -
-b2gpath
+emulator
+-
+path
 or
 '
 +
@@ -150,11 +152,11 @@ path
 if
 options
 .
-b2gPath
+emulator_path
 and
 options
 .
-b2gDesktopPath
+b2g_desktop_path
 :
         
 raise
@@ -169,7 +171,9 @@ one
 of
 -
 -
-b2gpath
+emulator
+-
+path
 or
 '
 +
@@ -188,11 +192,11 @@ path
 if
 options
 .
-gaiaProfile
+gaia_profile
 and
 options
 .
-b2gPath
+emulator_path
 :
         
 raise
@@ -215,7 +219,9 @@ with
 '
 -
 -
-b2gpath
+emulator
+-
+path
 '
 )
     
@@ -223,7 +229,7 @@ if
 not
 options
 .
-browserPath
+browser_path
 :
         
 raise
@@ -343,11 +349,13 @@ add_argument
 -
 -
 emulator
+-
+arch
 '
 dest
 =
 '
-emulator
+emulator_arch
 '
 action
 =
@@ -383,12 +391,14 @@ add_argument
 '
 -
 -
-b2gpath
+emulator
+-
+path
 '
 dest
 =
 '
-b2gPath
+emulator_path
 '
 action
 =
@@ -425,7 +435,7 @@ path
 dest
 =
 '
-b2gDesktopPath
+b2g_desktop_path
 '
                         
 action
@@ -459,7 +469,7 @@ path
 dest
 =
 '
-browserPath
+browser_path
 '
 action
 =
@@ -491,7 +501,7 @@ profile
 dest
 =
 '
-gaiaProfile
+gaia_profile
 '
 action
 =
@@ -646,7 +656,8 @@ LucidDreamTestCase
 def
 start_browser
 (
-browserPath
+browser_path
+app_args
 )
 :
     
@@ -682,7 +693,7 @@ Marionette
         
 bin
 =
-browserPath
+browser_path
         
 #
 Need
@@ -708,6 +719,18 @@ toes
 port
 =
 2929
+        
+app_args
+=
+app_args
+        
+gecko_log
+=
+"
+firefox
+.
+log
+"
     
 )
     
@@ -787,59 +810,34 @@ that
 function
 .
 def
-main
+run
 (
-)
-:
-    
-try
-:
-        
-args
+browser_path
 =
-parse_args
-(
-sys
-.
-argv
-[
-1
-:
-]
-)
-    
-except
-CommandLineError
-as
-e
-:
-        
-return
-1
-    
-logger
+None
+b2g_desktop_path
 =
-structured
-.
-commandline
-.
-setup_logging
-(
-        
-'
-luciddream
-'
-args
-{
-"
-tbpl
-"
-:
-sys
-.
-stdout
-}
+None
+emulator_path
+=
+None
+emulator_arch
+=
+None
+gaia_profile
+=
+None
+manifest
+=
+None
+browser_args
+=
+None
+*
+*
+kwargs
 )
+:
     
 #
 It
@@ -935,33 +933,63 @@ browser
 =
 start_browser
 (
-args
-.
-browserPath
+browser_path
+browser_args
 )
     
 kwargs
+[
+"
+browser
+"
+]
 =
-{
-        
-'
 browser
-'
-:
-browser
-        
-'
-logger
-'
-:
-logger
-    
-}
     
 if
-args
+not
+"
+logger
+"
+in
+kwargs
+:
+        
+logger
+=
+structured
 .
-b2gPath
+commandline
+.
+setup_logging
+(
+            
+"
+luciddream
+"
+kwargs
+{
+"
+tbpl
+"
+:
+sys
+.
+stdout
+}
+)
+        
+kwargs
+[
+"
+logger
+"
+]
+=
+logger
+    
+if
+emulator_path
 :
         
 kwargs
@@ -971,9 +999,7 @@ homedir
 '
 ]
 =
-args
-.
-b2gPath
+emulator_path
         
 kwargs
 [
@@ -982,14 +1008,10 @@ emulator
 '
 ]
 =
-args
-.
-emulator
+emulator_arch
     
 elif
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 :
         
 #
@@ -1005,15 +1027,11 @@ bin
 '
 not
 in
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 :
             
 if
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 .
 endswith
 (
@@ -1026,9 +1044,7 @@ exe
                 
 newpath
 =
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 [
 :
 -
@@ -1047,9 +1063,7 @@ else
                 
 newpath
 =
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 +
 '
 -
@@ -1067,9 +1081,7 @@ newpath
 )
 :
                 
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 =
 newpath
         
@@ -1080,9 +1092,7 @@ binary
 '
 ]
 =
-args
-.
-b2gDesktopPath
+b2g_desktop_path
         
 kwargs
 [
@@ -1096,9 +1106,7 @@ b2gdesktop
 '
         
 if
-args
-.
-gaiaProfile
+gaia_profile
 :
             
 kwargs
@@ -1108,9 +1116,7 @@ profile
 '
 ]
 =
-args
-.
-gaiaProfile
+gaia_profile
         
 else
 :
@@ -1135,9 +1141,7 @@ path
 .
 dirname
 (
-args
-.
-b2gDesktopPath
+b2g_desktop_path
 )
                 
 '
@@ -1164,8 +1168,6 @@ runner
 run_tests
 (
 [
-args
-.
 manifest
 ]
 )
@@ -1190,6 +1192,34 @@ sys
 exit
 (
 0
+)
+def
+main
+(
+)
+:
+    
+args
+=
+parse_args
+(
+sys
+.
+argv
+[
+1
+:
+]
+)
+    
+run
+(
+*
+*
+vars
+(
+args
+)
 )
 if
 __name__
