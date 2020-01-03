@@ -456,6 +456,9 @@ if
 this
 .
 min
+!
+=
+null
 )
 {
 if
@@ -518,6 +521,9 @@ if
 this
 .
 max
+!
+=
+null
 )
 {
 if
