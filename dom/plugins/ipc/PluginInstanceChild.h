@@ -340,6 +340,10 @@ friend
 class
 StreamNotifyChild
 ;
+friend
+class
+PluginScriptableObjectChild
+;
 #
 ifdef
 OS_WIN
