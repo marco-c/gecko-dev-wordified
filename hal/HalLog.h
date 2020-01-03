@@ -209,7 +209,10 @@ hal
 GetHalLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 __VA_ARGS__
 )
@@ -234,7 +237,10 @@ hal
 GetHalLog
 (
 )
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 __VA_ARGS__
 )

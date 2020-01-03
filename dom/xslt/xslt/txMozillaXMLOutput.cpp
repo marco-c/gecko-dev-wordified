@@ -1301,7 +1301,10 @@ txLog
 :
 :
 xslt
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 endElement
@@ -2466,7 +2469,10 @@ txLog
 :
 :
 xslt
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 startElement
@@ -2556,7 +2562,10 @@ txLog
 :
 :
 xslt
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 startElement

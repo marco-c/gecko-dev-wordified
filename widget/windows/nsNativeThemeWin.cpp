@@ -9319,7 +9319,10 @@ if
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 stderr
 "
@@ -9366,7 +9369,10 @@ _32
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 stderr
 "

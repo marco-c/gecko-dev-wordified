@@ -247,7 +247,13 @@ args
 MOZ_LOG
 (
 gStreamPumpLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 /

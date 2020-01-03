@@ -2432,7 +2432,10 @@ y
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 coordX

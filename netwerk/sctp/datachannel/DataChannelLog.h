@@ -163,7 +163,13 @@ MOZ_LOG
 GetDataChannelLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

@@ -429,7 +429,10 @@ x
 LOG
 (
 gMediaDecoderLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 x
 #
 #
@@ -448,7 +451,10 @@ x
 LOG
 (
 gMediaDecoderLog
-PR_LOG_VERBOSE
+LogLevel
+:
+:
+Verbose
 x
 #
 #
@@ -467,7 +473,10 @@ x
 LOG
 (
 gMediaSampleLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 x
 #
 #

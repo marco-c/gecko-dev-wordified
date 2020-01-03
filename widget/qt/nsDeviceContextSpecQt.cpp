@@ -264,7 +264,13 @@ x
 MOZ_LOG
 (
 DeviceContextSpecQtLM
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 x
 )
 nsDeviceContextSpecQt

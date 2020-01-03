@@ -1494,7 +1494,10 @@ forget
 ;
 STREAM_LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 TrackUnionStream
@@ -2043,7 +2046,10 @@ ticks
 ;
 STREAM_LOG
 (
-PR_LOG_VERBOSE
+LogLevel
+:
+:
+Verbose
 (
 "
 TrackUnionStream

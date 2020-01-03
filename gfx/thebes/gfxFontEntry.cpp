@@ -8647,7 +8647,10 @@ MOZ_UNLIKELY
 MOZ_LOG_TEST
 (
 log
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 )
@@ -8677,7 +8680,10 @@ mCh
 MOZ_LOG
 (
 log
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "

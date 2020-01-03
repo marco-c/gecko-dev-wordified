@@ -244,7 +244,13 @@ WMF_BS_LOG
 MOZ_LOG
 (
 gWMFByteStreamLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 (
 __VA_ARGS__
 )

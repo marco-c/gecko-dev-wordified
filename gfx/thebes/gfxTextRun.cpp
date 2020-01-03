@@ -13771,7 +13771,10 @@ MOZ_UNLIKELY
 MOZ_LOG_TEST
 (
 log
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 )
 )
 )
@@ -13814,7 +13817,10 @@ aLength
 MOZ_LOG
 (
 log
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 \
 (
 "
@@ -14153,7 +14159,10 @@ MOZ_UNLIKELY
 MOZ_LOG_TEST
 (
 log
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 )
 )
 )
@@ -14191,7 +14200,10 @@ runStart
 MOZ_LOG
 (
 log
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 \
 (
 "

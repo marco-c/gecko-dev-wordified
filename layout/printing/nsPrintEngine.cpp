@@ -984,7 +984,13 @@ MOZ_LOG
 GetPrintingLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 _p1
 )
 ;
@@ -13511,7 +13517,10 @@ MOZ_LOG_TEST
 GetPrintingLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

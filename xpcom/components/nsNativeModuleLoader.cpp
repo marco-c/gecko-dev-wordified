@@ -397,7 +397,10 @@ thread
 ;
 LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsNativeModuleLoader
@@ -678,7 +681,10 @@ hash
 ;
 LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsNativeModuleLoader
@@ -1144,7 +1150,10 @@ MOZ_LOG_TEST
 GetNativeModuleLoaderLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -1173,7 +1182,10 @@ filePath
 ;
 LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsNativeModuleLoader

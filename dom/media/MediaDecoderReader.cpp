@@ -215,7 +215,10 @@ x
 MOZ_LOG
 (
 gMediaDecoderLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Decoder
