@@ -10808,6 +10808,9 @@ tap
 at
 %
 s
+on
+%
+s
 with
 %
 p
@@ -10821,6 +10824,14 @@ n
 Stringify
 (
 aPoint
+)
+.
+c_str
+(
+)
+Stringify
+(
+aGuid
 )
 .
 c_str
