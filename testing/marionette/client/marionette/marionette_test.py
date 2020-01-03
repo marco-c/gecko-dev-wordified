@@ -83,10 +83,13 @@ import
 (
         
 MarionetteException
+InstallGeckoError
 TimeoutException
+InvalidResponseException
         
 JavascriptException
 NoSuchElementException
+XPathLookupException
 NoSuchWindowException
         
 StaleElementException
