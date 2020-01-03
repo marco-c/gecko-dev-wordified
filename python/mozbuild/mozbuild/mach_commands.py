@@ -6898,9 +6898,6 @@ normal
 '
 test
 '
-'
-stress
-'
 ]
 group
 =
