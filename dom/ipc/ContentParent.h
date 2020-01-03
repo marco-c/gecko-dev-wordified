@@ -1998,6 +1998,9 @@ URL
 void
 TransformPreallocatedIntoApp
 (
+ContentParent
+*
+aOpener
 const
 nsAString
 &
@@ -2033,6 +2036,9 @@ died
 void
 TransformPreallocatedIntoBrowser
 (
+ContentParent
+*
+aOpener
 )
 ;
 /
