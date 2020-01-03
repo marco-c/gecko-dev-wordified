@@ -780,6 +780,14 @@ char
 aName
 )
 ;
+protected
+:
+~
+Volume
+(
+)
+{
+}
 private
 :
 friend

@@ -110,6 +110,14 @@ nsAString
 aPath
 )
 ;
+protected
+:
+~
+nsVolumeStat
+(
+)
+{
+}
 private
 :
 struct

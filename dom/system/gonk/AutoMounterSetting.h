@@ -92,12 +92,6 @@ AutoMounterSetting
 (
 )
 ;
-virtual
-~
-AutoMounterSetting
-(
-)
-;
 static
 void
 CheckVolumeSettings
@@ -131,6 +125,14 @@ StatusStr
 (
 int32_t
 aStatus
+)
+;
+protected
+:
+virtual
+~
+AutoMounterSetting
+(
 )
 ;
 private
