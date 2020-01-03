@@ -489,9 +489,11 @@ void
 (
 base
 |
+(
 rand
 &
 mask
+)
 )
 ;
 }
