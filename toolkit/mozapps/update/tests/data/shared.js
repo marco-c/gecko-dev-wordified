@@ -2113,7 +2113,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 update
@@ -3371,7 +3371,7 @@ return
 }
 try
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -3478,7 +3478,7 @@ PERMS_FILE
 ;
 try
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -3538,7 +3538,7 @@ PERMS_DIRECTORY
 ;
 try
 {
-logTestInfo
+debugDump
 (
 "
 attempting
