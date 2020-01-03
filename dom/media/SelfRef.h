@@ -226,6 +226,7 @@ Release
 ;
 }
 }
+MOZ_IMPLICIT
 operator
 bool
 (

@@ -374,6 +374,7 @@ mMask
 }
 public
 :
+MOZ_IMPLICIT
 operator
 bool
 (

@@ -1427,6 +1427,7 @@ return
 mLength
 ;
 }
+explicit
 operator
 bool
 (

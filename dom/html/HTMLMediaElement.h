@@ -3484,6 +3484,7 @@ bool
 aCanPlay
 )
 ;
+MOZ_IMPLICIT
 operator
 bool
 (

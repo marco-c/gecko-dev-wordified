@@ -1839,6 +1839,7 @@ this
 in
 boolean
 tests
+explicit
 operator
 bool
 (
