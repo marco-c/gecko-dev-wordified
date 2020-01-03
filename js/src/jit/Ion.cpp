@@ -2931,7 +2931,10 @@ zone
 gc
 :
 :
-FINALIZE_JITCODE
+AllocKind
+:
+:
+JITCODE
 )
 ;
 !
@@ -6967,7 +6970,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

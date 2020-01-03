@@ -1132,8 +1132,11 @@ XDR_ENCODE
 )
 tmp
 =
+uint32_t
+(
 *
 val
+)
 ;
 if
 (

@@ -3414,7 +3414,10 @@ for
 strings
 with
 the
-FINALIZE_STRING
+AllocKind
+:
+:
+STRING
 kind
 .
 *
@@ -6079,7 +6082,10 @@ for
 strings
 with
 the
-FINALIZE_FAT_INLINE_STRING
+AllocKind
+:
+:
+FAT_INLINE_STRING
 kind
 .
 *
@@ -6286,7 +6292,10 @@ for
 strings
 with
 the
-FINALIZE_EXTERNAL_STRING
+AllocKind
+:
+:
+EXTERNAL_STRING
 kind
 .
 *

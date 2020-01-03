@@ -5299,7 +5299,10 @@ getAllocKind
 gc
 :
 :
-FINALIZE_ACCESSOR_SHAPE
+AllocKind
+:
+:
+ACCESSOR_SHAPE
 )
 ;
 return
@@ -9087,7 +9090,10 @@ allocKind
 gc
 :
 :
-FINALIZE_ACCESSOR_SHAPE
+AllocKind
+:
+:
+ACCESSOR_SHAPE
 )
 ;
 MOZ_ASSERT_IF
@@ -9098,7 +9104,10 @@ allocKind
 gc
 :
 :
-FINALIZE_SHAPE
+AllocKind
+:
+:
+SHAPE
 !
 other
 .
@@ -9172,7 +9181,10 @@ getAllocKind
 gc
 :
 :
-FINALIZE_ACCESSOR_SHAPE
+AllocKind
+:
+:
+ACCESSOR_SHAPE
 )
 ;
 if

@@ -2338,7 +2338,10 @@ js
 gc
 :
 :
-FINALIZE_FAT_INLINE_STRING
+AllocKind
+:
+:
+FAT_INLINE_STRING
 )
 ;
 if
@@ -2398,7 +2401,10 @@ js
 gc
 :
 :
-FINALIZE_FAT_INLINE_STRING
+AllocKind
+:
+:
+FAT_INLINE_STRING
 )
 ;
 if
@@ -2447,7 +2453,10 @@ js
 gc
 :
 :
-FINALIZE_FAT_INLINE_STRING
+AllocKind
+:
+:
+FAT_INLINE_STRING
 )
 ;
 if

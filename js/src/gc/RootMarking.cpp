@@ -3630,7 +3630,10 @@ ZoneCellIterUnderGC
 i
 (
 zone
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

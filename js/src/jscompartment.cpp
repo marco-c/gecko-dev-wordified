@@ -4814,7 +4814,10 @@ zone
 gc
 :
 :
-FINALIZE_LAZY_SCRIPT
+AllocKind
+:
+:
+LAZY_SCRIPT
 )
 ;
 !
@@ -5318,7 +5321,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

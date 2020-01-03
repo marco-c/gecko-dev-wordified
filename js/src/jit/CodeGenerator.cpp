@@ -33934,7 +33934,10 @@ ArgList
 )
 Imm32
 (
+int32_t
+(
 allocKind
+)
 )
 Imm32
 (

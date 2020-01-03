@@ -697,7 +697,10 @@ kind
 gc
 :
 :
-FINALIZE_OBJECT0_BACKGROUND
+AllocKind
+:
+:
+OBJECT0_BACKGROUND
 ;
 ArrayObject
 *
@@ -843,7 +846,10 @@ kind
 gc
 :
 :
-FINALIZE_OBJECT0_BACKGROUND
+AllocKind
+:
+:
+OBJECT0_BACKGROUND
 ;
 RootedObjectGroup
 group

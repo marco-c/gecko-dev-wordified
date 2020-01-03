@@ -12425,7 +12425,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

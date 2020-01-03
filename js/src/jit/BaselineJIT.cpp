@@ -7097,7 +7097,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !
@@ -7206,7 +7209,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !
@@ -7314,7 +7320,10 @@ zone
 gc
 :
 :
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

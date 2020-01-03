@@ -3031,7 +3031,10 @@ js
 gc
 :
 :
-FINALIZE_OBJECT2_BACKGROUND
+AllocKind
+:
+:
+OBJECT2_BACKGROUND
 ;
 static
 const
@@ -3050,7 +3053,10 @@ js
 gc
 :
 :
-FINALIZE_OBJECT4_BACKGROUND
+AllocKind
+:
+:
+OBJECT4_BACKGROUND
 ;
 #
 else
@@ -3071,7 +3077,10 @@ js
 gc
 :
 :
-FINALIZE_OBJECT4_BACKGROUND
+AllocKind
+:
+:
+OBJECT4_BACKGROUND
 ;
 static
 const
@@ -3090,7 +3099,10 @@ js
 gc
 :
 :
-FINALIZE_OBJECT8_BACKGROUND
+AllocKind
+:
+:
+OBJECT8_BACKGROUND
 ;
 #
 endif
