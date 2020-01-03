@@ -144,7 +144,6 @@ nsIFrame
 *
 FindFrameTargetedByInputEvent
 (
-const
 WidgetGUIEvent
 *
 aEvent
