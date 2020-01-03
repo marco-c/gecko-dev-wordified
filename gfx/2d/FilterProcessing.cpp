@@ -339,12 +339,7 @@ aBlendMode
 endif
 }
 return
-ApplyBlending_Scalar
-(
-aInput1
-aInput2
-aBlendMode
-)
+nullptr
 ;
 }
 void
