@@ -49776,11 +49776,8 @@ pn_count
 !
 =
 0
-)
-{
-if
-(
-!
+&
+&
 pn
 -
 >
@@ -49795,9 +49792,7 @@ DontAllowNestedObjects
 value
 )
 )
-return
-false
-;
+{
 /
 /
 Note
