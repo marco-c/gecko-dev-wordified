@@ -639,7 +639,7 @@ Read
 (
 )
 .
-bool
+void
 Write
 (
 JSContext
@@ -656,9 +656,12 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
-bool
+void
 Write
 (
 JSContext
@@ -686,9 +689,12 @@ JS
 Value
 >
 aTransfer
+ErrorResult
+&
+aRv
 )
 ;
-bool
+void
 Read
 (
 nsISupports
@@ -708,6 +714,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -815,7 +824,7 @@ or
 the
 PortIdentifiers
 .
-bool
+void
 ReadFromBuffer
 (
 nsISupports
@@ -840,6 +849,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
 /
