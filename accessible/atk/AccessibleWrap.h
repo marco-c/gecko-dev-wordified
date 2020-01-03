@@ -314,8 +314,6 @@ IsValidObject
 /
 /
 get
-/
-set
 the
 MaiHyperlink
 object
@@ -330,14 +328,6 @@ bool
 aCreate
 =
 true
-)
-;
-void
-SetMaiHyperlink
-(
-MaiHyperlink
-*
-aMaiHyperlink
 )
 ;
 static
