@@ -4908,7 +4908,7 @@ js
 UncheckedUnwrap
 (
 obj
-false
+true
 &
 wrapperFlags
 )
