@@ -6851,16 +6851,6 @@ finishMarkingValidation
 (
 )
 ;
-void
-markConservativeStackRoots
-(
-JSTracer
-*
-trc
-bool
-useSavedRoots
-)
-;
 #
 ifdef
 DEBUG
