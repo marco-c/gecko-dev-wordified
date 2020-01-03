@@ -1964,6 +1964,15 @@ uint32_t
 frequency
 )
 ;
+bool
+parseAndSetZeal
+(
+const
+char
+*
+str
+)
+;
 void
 setNextScheduled
 (
@@ -3236,11 +3245,6 @@ const
 ;
 void
 startBackgroundAllocTaskIfIdle
-(
-)
-;
-bool
-initZeal
 (
 )
 ;
