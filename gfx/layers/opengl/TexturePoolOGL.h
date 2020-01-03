@@ -193,6 +193,13 @@ GLContext
 aContext
 )
 ;
+static
+GLContext
+*
+GetGLContext
+(
+)
+;
 /
 /
 Initializes

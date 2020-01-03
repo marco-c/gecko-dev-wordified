@@ -5213,6 +5213,12 @@ AndroidSurfaceTexture
 :
 Create
 (
+TexturePoolOGL
+:
+:
+GetGLContext
+(
+)
 texture
 )
 ;
