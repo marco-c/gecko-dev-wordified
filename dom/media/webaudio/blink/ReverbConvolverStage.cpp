@@ -761,7 +761,7 @@ amount
 =
 m_preDelayBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -771,7 +771,7 @@ amount
 =
 m_temporaryBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -781,7 +781,7 @@ amount
 =
 m_directKernel
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

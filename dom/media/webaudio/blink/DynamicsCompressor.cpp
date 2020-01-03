@@ -412,7 +412,7 @@ amount
 =
 m_preFilterPacks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -466,7 +466,7 @@ amount
 =
 m_postFilterPacks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

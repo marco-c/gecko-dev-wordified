@@ -820,7 +820,7 @@ n
 =
 mOrderedLT
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -830,7 +830,7 @@ n
 =
 mExternalRefs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

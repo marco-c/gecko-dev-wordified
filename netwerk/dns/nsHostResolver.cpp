@@ -2724,7 +2724,7 @@ n
 =
 mBlacklistedItems
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

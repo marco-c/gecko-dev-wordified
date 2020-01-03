@@ -6996,14 +6996,14 @@ this
 +
 mDetails
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
 +
 mOffsetToIndex
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

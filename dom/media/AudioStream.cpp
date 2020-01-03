@@ -1183,7 +1183,7 @@ amount
 =
 mInserts
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

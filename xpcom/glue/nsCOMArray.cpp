@@ -1523,7 +1523,7 @@ n
 =
 mArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

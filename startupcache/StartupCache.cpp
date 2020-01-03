@@ -2283,7 +2283,7 @@ aMallocSizeOf
 +
 mPendingWrites
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

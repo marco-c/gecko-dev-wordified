@@ -15503,7 +15503,7 @@ n
 =
 mStops
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -16347,7 +16347,7 @@ n
 =
 mNamedAreas
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -16357,7 +16357,7 @@ n
 =
 mTemplates
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -1266,7 +1266,7 @@ aData
 >
 mClosures
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1384,7 +1384,7 @@ n
 gCacheData
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )

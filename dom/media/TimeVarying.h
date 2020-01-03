@@ -1651,7 +1651,7 @@ const
 return
 mChanges
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

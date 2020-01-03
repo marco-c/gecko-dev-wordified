@@ -414,7 +414,7 @@ amount
 =
 m_kernelListL
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

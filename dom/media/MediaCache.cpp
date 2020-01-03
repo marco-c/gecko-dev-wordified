@@ -2959,7 +2959,7 @@ size
 =
 mBlocks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

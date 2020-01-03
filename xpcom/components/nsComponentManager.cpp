@@ -10348,7 +10348,7 @@ n
 sStaticModules
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )
@@ -10359,7 +10359,7 @@ n
 sModuleLocations
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )
@@ -10369,7 +10369,7 @@ n
 =
 mKnownStaticModules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10400,7 +10400,7 @@ n
 =
 mPendingServices
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

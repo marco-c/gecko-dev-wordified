@@ -8029,7 +8029,7 @@ amount
 =
 mInputs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

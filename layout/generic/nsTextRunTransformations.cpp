@@ -535,7 +535,7 @@ total
 =
 mStyles
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -545,7 +545,7 @@ total
 =
 mCapitalize
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

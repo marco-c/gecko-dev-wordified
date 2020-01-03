@@ -713,7 +713,7 @@ amount
 =
 m_bandLimitedTables
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -755,7 +755,7 @@ i
 ]
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )

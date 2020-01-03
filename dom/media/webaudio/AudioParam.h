@@ -930,7 +930,7 @@ amount
 =
 mInputNodes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

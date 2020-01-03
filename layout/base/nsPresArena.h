@@ -779,7 +779,7 @@ const
 return
 mEntries
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

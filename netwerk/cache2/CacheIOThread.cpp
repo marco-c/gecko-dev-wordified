@@ -1699,7 +1699,7 @@ mEventQueue
 level
 ]
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

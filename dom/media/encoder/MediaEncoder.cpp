@@ -1347,7 +1347,7 @@ mSizeOfBuffer
 aOutputBufs
 -
 >
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 MallocSizeOf
 )
@@ -1667,7 +1667,7 @@ mSizeOfBuffer
 aOutputBufs
 -
 >
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 MallocSizeOf
 )

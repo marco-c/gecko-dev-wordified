@@ -6628,7 +6628,7 @@ const
 return
 mData
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

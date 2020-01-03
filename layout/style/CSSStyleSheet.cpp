@@ -2773,7 +2773,7 @@ n
 =
 mMatchingRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

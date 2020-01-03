@@ -16338,7 +16338,7 @@ s
 =
 mObservers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

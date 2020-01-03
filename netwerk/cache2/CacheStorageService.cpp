@@ -10313,7 +10313,7 @@ true
 .
 mFrecencyArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -10328,7 +10328,7 @@ true
 .
 mExpirationArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -10343,7 +10343,7 @@ false
 .
 mFrecencyArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -10358,7 +10358,7 @@ false
 .
 mExpirationArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

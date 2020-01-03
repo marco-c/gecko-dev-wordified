@@ -1866,7 +1866,7 @@ amount
 =
 mInputChannels
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -6676,7 +6676,7 @@ list
 return
 aList
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -6864,7 +6864,7 @@ mFontListSize
 =
 mFontFamiliesToLoad
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

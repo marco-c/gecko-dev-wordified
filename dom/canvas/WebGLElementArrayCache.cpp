@@ -2276,7 +2276,7 @@ this
 +
 mTreeData
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -4145,7 +4145,7 @@ this
 +
 mBytes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

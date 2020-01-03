@@ -528,7 +528,7 @@ const
 return
 m_buffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

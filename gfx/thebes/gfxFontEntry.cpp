@@ -2962,7 +2962,7 @@ const
 return
 mTableData
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10582,7 +10582,7 @@ mFontListSize
 =
 mAvailableFonts
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

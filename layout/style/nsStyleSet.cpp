@@ -1512,7 +1512,7 @@ n
 =
 mScopedDocSheetRuleProcessors
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1522,7 +1522,7 @@ n
 =
 mRoots
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1532,7 +1532,7 @@ n
 =
 mOldRuleTrees
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

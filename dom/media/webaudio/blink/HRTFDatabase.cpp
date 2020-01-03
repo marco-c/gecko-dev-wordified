@@ -676,7 +676,7 @@ amount
 =
 m_elevations
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

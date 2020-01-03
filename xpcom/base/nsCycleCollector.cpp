@@ -5455,7 +5455,7 @@ aWeakMapsSize
 =
 mWeakMaps
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

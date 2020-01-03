@@ -988,7 +988,7 @@ const
 return
 array
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

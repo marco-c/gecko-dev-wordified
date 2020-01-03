@@ -9431,7 +9431,7 @@ n
 =
 mOrder
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -832,7 +832,7 @@ genericType
 memory
 reporting
 size_t
-SizeOfExcludingThis
+SizeOfExcludingThis2
 (
 mozilla
 :
@@ -852,7 +852,7 @@ aMallocSizeOf
 ;
 }
 size_t
-SizeOfIncludingThis
+SizeOfIncludingThis2
 (
 mozilla
 :
@@ -868,7 +868,7 @@ aMallocSizeOf
 this
 )
 +
-SizeOfExcludingThis
+SizeOfExcludingThis2
 (
 aMallocSizeOf
 )
@@ -1849,7 +1849,7 @@ const
 return
 mFontlist
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

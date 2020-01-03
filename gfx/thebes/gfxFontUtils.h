@@ -1779,7 +1779,7 @@ total
 =
 mBlocks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

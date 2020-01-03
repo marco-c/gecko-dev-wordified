@@ -581,7 +581,7 @@ amount
 =
 mChunks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -591,7 +591,7 @@ amount
 =
 mOutputBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

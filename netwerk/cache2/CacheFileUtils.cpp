@@ -2199,7 +2199,7 @@ const
 return
 mMap
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
