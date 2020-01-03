@@ -1709,6 +1709,8 @@ viewportRectLeft
 aMetrics
 .
 viewportRectRight
+(
+)
 aMetrics
 .
 pageRectLeft
@@ -1764,6 +1766,8 @@ viewportRectTop
 aMetrics
 .
 viewportRectBottom
+(
+)
 aMetrics
 .
 pageRectTop

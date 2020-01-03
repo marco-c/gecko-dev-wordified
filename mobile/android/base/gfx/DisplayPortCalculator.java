@@ -1520,6 +1520,8 @@ right
 metrics
 .
 viewportRectRight
+(
+)
 +
 margins
 .
@@ -1531,6 +1533,8 @@ bottom
 metrics
 .
 viewportRectBottom
+(
+)
 +
 margins
 .
@@ -1816,6 +1820,8 @@ rightOverflow
 metrics
 .
 viewportRectRight
+(
+)
 +
 margins
 .
@@ -1850,6 +1856,8 @@ bottomOverflow
 metrics
 .
 viewportRectBottom
+(
+)
 +
 margins
 .
@@ -2150,9 +2158,13 @@ viewportRectTop
 metrics
 .
 viewportRectRight
+(
+)
 metrics
 .
 viewportRectBottom
+(
+)
 metrics
 .
 zoomFactor
@@ -3933,6 +3945,8 @@ top
 metrics
 .
 viewportRectRight
+(
+)
 +
 dangerMargins
 .
@@ -3940,6 +3954,8 @@ right
 metrics
 .
 viewportRectBottom
+(
+)
 +
 dangerMargins
 .
@@ -5688,6 +5704,8 @@ top
 metrics
 .
 viewportRectRight
+(
+)
 +
 margins
 .
@@ -5695,6 +5713,8 @@ right
 metrics
 .
 viewportRectBottom
+(
+)
 +
 margins
 .
