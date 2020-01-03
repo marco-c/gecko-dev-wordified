@@ -2516,7 +2516,7 @@ strings
 *
 /
 void
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 {

@@ -239,7 +239,7 @@ aStart
 F_TERMINATED
 )
 {
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 ;
@@ -268,7 +268,7 @@ aLength
 F_TERMINATED
 )
 {
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 ;
@@ -342,7 +342,7 @@ aData
 F_TERMINATED
 )
 {
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 ;
