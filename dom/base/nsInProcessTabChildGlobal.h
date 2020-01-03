@@ -15,7 +15,7 @@ basic
 -
 offset
 :
-4
+2
 ;
 indent
 -
@@ -700,6 +700,16 @@ aRunInGlobalScope
 )
 ;
 void
+FireUnloadEvent
+(
+)
+;
+void
+DisconnectEventListeners
+(
+)
+;
+void
 Disconnect
 (
 )
@@ -782,11 +792,6 @@ mChromeMessageManager
 aParent
 ;
 }
-void
-DelayedDisconnect
-(
-)
-;
 virtual
 JSObject
 *
@@ -915,6 +920,9 @@ PreHandleEvent
 .
 bool
 mIsBrowserOrAppFrame
+;
+bool
+mPreventEventsEscaping
 ;
 public
 :
