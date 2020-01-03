@@ -3332,14 +3332,6 @@ ChunkInfo
 info
 )
 ;
-void
-releaseChunk
-(
-Chunk
-*
-chunk
-)
-;
 friend
 class
 BackgroundAllocTask
