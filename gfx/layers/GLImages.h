@@ -357,11 +357,7 @@ GetAsSourceSurface
 (
 )
 MOZ_OVERRIDE
-{
-return
-nullptr
 ;
-}
 SurfaceTextureImage
 (
 )
