@@ -37707,6 +37707,8 @@ SIMD
 .
 *
 .
+load
+/
 store
 first
 argument
@@ -37785,6 +37787,8 @@ SIMD
 .
 *
 .
+load
+/
 store
 first
 argument
@@ -38196,7 +38200,7 @@ expected
 arguments
 to
 SIMD
-load
+store
 got
 %
 u
