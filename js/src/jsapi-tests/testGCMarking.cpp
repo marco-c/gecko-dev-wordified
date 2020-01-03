@@ -227,7 +227,13 @@ d
 \
 n
 "
+static_cast
+<
+int
+>
+(
 kind
+)
 )
 ;
 printf
@@ -240,7 +246,13 @@ d
 \
 n
 "
+static_cast
+<
+int
+>
+(
 expectedKind
+)
 )
 ;
 if
