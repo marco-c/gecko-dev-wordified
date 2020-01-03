@@ -210,6 +210,19 @@ jsm
 "
 )
 ;
+if
+(
+typeof
+(
+Cc
+)
+=
+=
+"
+undefined
+"
+)
+{
 const
 Cc
 =
@@ -224,6 +237,7 @@ Components
 .
 interfaces
 ;
+}
 const
 CHILD_SCRIPT
 =
