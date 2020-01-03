@@ -174,7 +174,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_KEY_PRESS
+eKeyPress
 eWindowEventFirst
 +
 31

@@ -1717,7 +1717,7 @@ event
 param
 aKeyEvent
 An
-NS_KEY_PRESS
+eKeyPress
 event
 must
 not

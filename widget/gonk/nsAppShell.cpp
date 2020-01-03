@@ -1510,7 +1510,7 @@ if
 aEventMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 /
@@ -1779,7 +1779,7 @@ nsEventStatus_eConsumeNoDefault
 {
 DispatchKeyEventInternal
 (
-NS_KEY_PRESS
+eKeyPress
 )
 ;
 }

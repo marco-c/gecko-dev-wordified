@@ -1553,7 +1553,7 @@ mMessage
 )
 {
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_UP
@@ -1601,7 +1601,7 @@ keyCode
 NS_VK_RETURN
 &
 &
-NS_KEY_PRESS
+eKeyPress
 =
 =
 aVisitor
@@ -1701,9 +1701,6 @@ nsEventStatus_eConsumeNoDefault
 }
 break
 ;
-/
-/
-NS_KEY_PRESS
 case
 NS_MOUSE_BUTTON_DOWN
 :

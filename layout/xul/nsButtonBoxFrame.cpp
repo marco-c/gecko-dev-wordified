@@ -668,7 +668,7 @@ one
 ifndef
 XP_MACOSX
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 WidgetKeyboardEvent

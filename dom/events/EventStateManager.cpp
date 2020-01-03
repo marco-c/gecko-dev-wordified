@@ -4114,7 +4114,7 @@ AsDragEvent
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 WidgetKeyboardEvent
@@ -20741,7 +20741,7 @@ NS_KEY_AFTER_UP
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 WidgetKeyboardEvent

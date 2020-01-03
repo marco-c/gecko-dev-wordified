@@ -1222,7 +1222,7 @@ MaybeDispatchKeypressEvents
 for
 dispatching
 *
-NS_KEY_PRESS
+eKeyPress
 .
 *
 param
@@ -1966,7 +1966,7 @@ be
 NS_KEY_DOWN
 NS_KEY_UP
 or
-NS_KEY_PRESS
+eKeyPress
 .
 *
 param
@@ -1978,7 +1978,7 @@ event
 If
 aMessage
 is
-NS_KEY_PRESS
+eKeyPress
 and
 *
 the
@@ -2052,7 +2052,7 @@ aMessage
 isn
 '
 t
-NS_KEY_PRESS
+eKeyPress
 or
 *
 aKeyboard
@@ -2072,7 +2072,7 @@ e
 *
 when
 an
-NS_KEY_PRESS
+eKeyPress
 event
 causes
 inputting

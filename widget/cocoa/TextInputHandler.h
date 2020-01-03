@@ -1540,7 +1540,7 @@ aKeyEvent
 isn
 '
 t
-NS_KEY_PRESS
+eKeyPress
 .
 *
 *
@@ -1601,7 +1601,7 @@ This
 must
 be
 *
-NS_KEY_PRESS
+eKeyPress
 event
 .
 *
@@ -5711,7 +5711,7 @@ may
 dispatch
 a
 *
-NS_KEY_PRESS
+eKeyPress
 event
 .
 If

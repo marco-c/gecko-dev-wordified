@@ -6038,11 +6038,11 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 ?
 "
-NS_KEY_PRESS
+eKeyPress
 "
 :
 "
@@ -6091,7 +6091,7 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 keymapWrapper
@@ -8162,7 +8162,7 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 ;
 aKeyEvent

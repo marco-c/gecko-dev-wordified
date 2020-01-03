@@ -13076,7 +13076,7 @@ non
 modifiers
 we
 get
-NS_KEY_PRESS
+eKeyPress
 if
 (
 gdkEvent
@@ -13093,7 +13093,7 @@ XKeyPress
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 event
 .

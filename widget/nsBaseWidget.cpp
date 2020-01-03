@@ -20689,9 +20689,9 @@ NS_KEY_DOWN
 ;
 _ASSIGN_eventName
 (
-NS_KEY_PRESS
+eKeyPress
 "
-NS_KEY_PRESS
+eKeyPress
 "
 )
 ;

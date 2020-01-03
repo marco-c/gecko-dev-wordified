@@ -16828,7 +16828,7 @@ t
 pass
 modifiers
 as
-NS_KEY_PRESS
+eKeyPress
 events
 .
 /
@@ -16842,7 +16842,7 @@ excluding
 some
 keys
 from
-NS_KEY_PRESS
+eKeyPress
 events
 /
 /
@@ -17090,7 +17090,7 @@ WidgetKeyboardEvent
 event
 (
 true
-NS_KEY_PRESS
+eKeyPress
 this
 )
 ;

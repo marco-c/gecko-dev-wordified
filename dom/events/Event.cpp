@@ -3886,7 +3886,7 @@ mMessage
 )
 {
 case
-NS_KEY_PRESS
+eKeyPress
 :
 /
 /

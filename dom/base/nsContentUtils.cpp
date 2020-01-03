@@ -43390,7 +43390,7 @@ keypress
 )
 msg
 =
-NS_KEY_PRESS
+eKeyPress
 ;
 else
 return
@@ -43418,7 +43418,7 @@ if
 msg
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 event

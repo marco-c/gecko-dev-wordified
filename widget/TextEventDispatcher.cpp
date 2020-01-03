@@ -1723,7 +1723,7 @@ NS_KEY_UP
 aMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 "
 Invalid
 aMessage
@@ -1776,7 +1776,7 @@ if
 aMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 !
@@ -1865,7 +1865,7 @@ sDispatchKeyEventsDuringComposition
 aMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 return
@@ -2074,7 +2074,7 @@ must
 be
 0
 for
-NS_KEY_PRESS
+eKeyPress
 of
 non
 -
@@ -2498,7 +2498,7 @@ if
 !
 DispatchKeyboardEventInternal
 (
-NS_KEY_PRESS
+eKeyPress
 aKeyboardEvent
 aStatus
 aDispatchTo

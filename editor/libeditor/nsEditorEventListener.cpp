@@ -2490,7 +2490,7 @@ HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 /
 keypress
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 nsCOMPtr
