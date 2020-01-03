@@ -50,6 +50,8 @@ frame
 .
 environment
 .
+parent
+.
 getVariable
 (
 "
@@ -60,6 +62,8 @@ x
 frame
 .
 environment
+.
+parent
 .
 getVariable
 (

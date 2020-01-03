@@ -56,6 +56,8 @@ frame
 .
 environment
 .
+parent
+.
 getVariable
 (
 '

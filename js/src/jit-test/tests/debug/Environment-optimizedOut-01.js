@@ -229,6 +229,8 @@ globalenv
 funenv
 .
 parent
+.
+parent
 ;
 assertEq
 (

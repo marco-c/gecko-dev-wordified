@@ -444,7 +444,7 @@ q
 "
 2
 "
-var
+let
 q
 =
 function

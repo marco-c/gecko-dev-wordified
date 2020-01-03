@@ -283,7 +283,7 @@ env
 .
 type
 '
-object
+declarative
 '
 )
 ;
