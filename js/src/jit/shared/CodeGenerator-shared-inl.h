@@ -1248,7 +1248,11 @@ reg
 return
 Operand
 (
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 ToStackOffset
 (
 &
