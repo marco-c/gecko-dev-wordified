@@ -27640,6 +27640,7 @@ JSContext
 *
 cx
 )
+override
 {
 MOZ_ASSERT
 (
