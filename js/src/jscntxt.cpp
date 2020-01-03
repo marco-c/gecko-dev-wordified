@@ -3728,10 +3728,7 @@ JSErrorFormatString
 *
 efs
 ;
-int
-i
-;
-int
+uint16_t
 argCount
 ;
 bool
@@ -3951,6 +3948,7 @@ nullptr
 }
 for
 (
+uint16_t
 i
 =
 0
@@ -4687,6 +4685,7 @@ argumentsType
 ArgumentsAreASCII
 )
 {
+uint16_t
 i
 =
 0
