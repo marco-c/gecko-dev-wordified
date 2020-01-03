@@ -15312,6 +15312,13 @@ apzCallbackTransform
 apzCallbackTransform
 "
 )
+GK_ATOM
+(
+restylableAnonymousNode
+"
+restylableAnonymousNode
+"
+)
 /
 /
 Languages
