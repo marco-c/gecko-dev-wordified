@@ -534,11 +534,6 @@ getWidth
 (
 )
 )
-TileLayer
-.
-PaintMode
-.
-NORMAL
 )
 ;
 mImage
@@ -2957,14 +2952,6 @@ GL_LINEAR
 int
 repeatMode
 =
-repeats
-(
-)
-?
-GLES20
-.
-GL_REPEAT
-:
 GLES20
 .
 GL_CLAMP_TO_EDGE
