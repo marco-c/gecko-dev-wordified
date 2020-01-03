@@ -177,7 +177,7 @@ aBox
 Microseconds
 ToMicroseconds
 (
-uint64_t
+int64_t
 aTimescaleUnits
 )
 {
