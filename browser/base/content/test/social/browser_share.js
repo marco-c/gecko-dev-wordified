@@ -1125,11 +1125,9 @@ is
 (
 gBrowser
 .
-contentDocument
+currentURI
 .
-location
-.
-href
+spec
 "
 about
 :
