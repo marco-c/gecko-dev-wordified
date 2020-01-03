@@ -1091,6 +1091,7 @@ nsTextStore
 :
 OnSelectionChange
 (
+aIMENotification
 )
 ;
 /
