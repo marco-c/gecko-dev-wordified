@@ -178,6 +178,8 @@ List
 Tile
 >
 tiles
+String
+locale
 )
 {
 final
@@ -507,6 +509,16 @@ put
 tiles
 "
 tilesJSON
+)
+;
+payload
+.
+put
+(
+"
+locale
+"
+locale
 )
 ;
 final
