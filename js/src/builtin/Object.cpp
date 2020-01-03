@@ -5441,9 +5441,6 @@ get
 return
 false
 ;
-bool
-ignored
-;
 if
 (
 !
@@ -5453,9 +5450,6 @@ cx
 obj
 id
 desc
-true
-&
-ignored
 )
 )
 return

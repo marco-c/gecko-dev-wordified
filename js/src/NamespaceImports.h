@@ -309,6 +309,9 @@ SourceBufferHolder
 class
 HandleValueArray
 ;
+class
+ObjectOpResult
+;
 }
 /
 /
@@ -798,6 +801,12 @@ JS
 :
 :
 HandleValueArray
+;
+using
+JS
+:
+:
+ObjectOpResult
 ;
 using
 JS
