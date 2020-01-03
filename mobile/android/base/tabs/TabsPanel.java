@@ -2532,6 +2532,10 @@ height
 )
 ;
 }
+mHeaderVisible
+=
+true
+;
 }
 public
 void
@@ -2589,6 +2593,10 @@ NORMAL_TABS
 )
 ;
 }
+mHeaderVisible
+=
+true
+;
 if
 (
 mIsSideBar
