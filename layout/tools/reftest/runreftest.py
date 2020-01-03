@@ -136,8 +136,6 @@ import
     
 dumpScreen
     
-environment
-    
 printstatus
     
 processLeakLog
@@ -154,6 +152,12 @@ import
 mozprofile
 import
 mozrunner
+from
+mozrunner
+.
+utils
+import
+test_environment
 here
 =
 os
@@ -2393,8 +2397,17 @@ kwargs
 )
 :
     
+kwargs
+[
+'
+log
+'
+]
+=
+log
+    
 return
-environment
+test_environment
 (
 *
 *
