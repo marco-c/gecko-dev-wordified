@@ -3136,6 +3136,9 @@ UpdateConnectedStatus
 bool
 isConnected
 =
+mHasPhantomInput
+|
+|
 !
 (
 OutputNodes
