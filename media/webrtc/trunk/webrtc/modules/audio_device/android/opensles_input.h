@@ -956,6 +956,11 @@ DestroyAudioRecorder
 (
 )
 ;
+void
+SetupVoiceMode
+(
+)
+;
 #
 if
 defined
@@ -970,11 +975,6 @@ WEBRTC_HARDWARE_AEC_NS
 )
 void
 SetupAECAndNS
-(
-)
-;
-void
-SetupVoiceMode
 (
 )
 ;
