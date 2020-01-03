@@ -862,6 +862,15 @@ mozilla
 dom
 :
 :
+Element
+*
+aTarget
+mozilla
+:
+:
+dom
+:
+:
 AnimationTimeline
 *
 aTimeline
