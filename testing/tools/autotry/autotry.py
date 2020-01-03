@@ -928,6 +928,13 @@ installed
 '
                       
 '
+to
+Mercurial
+3
+.
+3
+or
+above
 by
 running
 .
