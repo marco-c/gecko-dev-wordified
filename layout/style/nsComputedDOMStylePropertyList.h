@@ -1359,6 +1359,11 @@ COMPUTED_STYLE_PROP
 right
 Right
 )
+COMPUTED_STYLE_PROP
+(
+scroll_behavior
+ScrollBehavior
+)
 /
 /
 /
