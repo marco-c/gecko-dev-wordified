@@ -130,7 +130,7 @@ nsSVGUtils
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsISVGChildFrame
@@ -333,8 +333,8 @@ methods
 nsresult
 ApplyClipOrPaintClipMask
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 nsIFrame
 *

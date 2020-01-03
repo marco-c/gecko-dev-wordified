@@ -4269,7 +4269,8 @@ clipPathFrame
 >
 ApplyClipOrPaintClipMask
 (
-aCtx
+*
+gfx
 aFrame
 cssPxToDevPxMatrix
 )
@@ -4480,7 +4481,8 @@ clipPathFrame
 >
 ApplyClipOrPaintClipMask
 (
-aCtx
+*
+gfx
 aFrame
 cssPxToDevPxMatrix
 )
