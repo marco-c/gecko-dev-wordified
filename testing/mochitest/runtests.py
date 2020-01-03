@@ -14671,6 +14671,8 @@ not
 bisection_log
 :
             
+self
+.
 log
 .
 info
