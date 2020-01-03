@@ -202,6 +202,13 @@ nsIIPCSerializableURI
 h
 "
 #
+include
+"
+nsISensitiveInfoHiddenURI
+.
+h
+"
+#
 ifdef
 NS_BUILD_REFCNT_LOGGING
 #
@@ -405,6 +412,8 @@ public
 nsISizeOf
 public
 nsIIPCSerializableURI
+public
+nsISensitiveInfoHiddenURI
 {
 protected
 :
@@ -425,6 +434,7 @@ NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSIMUTABLE
 NS_DECL_NSIIPCSERIALIZABLEURI
+NS_DECL_NSISENSITIVEINFOHIDDENURI
 /
 /
 nsISizeOf
