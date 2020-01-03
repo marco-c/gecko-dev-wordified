@@ -373,6 +373,16 @@ mCompositableType
 }
 virtual
 void
+SetCompositableBackendSpecificData
+(
+CompositableBackendSpecificData
+*
+aBackendData
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 Composite
 (
 EffectChain
