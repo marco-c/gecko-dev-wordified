@@ -1985,6 +1985,7 @@ aOther
 .
 *
 /
+virtual
 bool
 HasLowerCompositeOrderThan
 (
