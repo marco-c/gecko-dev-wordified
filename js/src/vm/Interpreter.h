@@ -2360,6 +2360,16 @@ v
 )
 ;
 bool
+ThrowingOperation
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
+bool
 GetProperty
 (
 JSContext
