@@ -401,6 +401,13 @@ mParentDoc
 nullptr
 ;
 }
+virtual
+bool
+RecvShutdown
+(
+)
+override
+;
 void
 Destroy
 (
