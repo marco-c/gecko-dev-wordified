@@ -271,7 +271,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -309,7 +309,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -347,7 +347,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 const
@@ -386,7 +386,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -424,7 +424,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -462,7 +462,7 @@ uint64_t
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -504,7 +504,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -547,7 +547,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 const
@@ -1086,7 +1086,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1122,7 +1122,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1158,7 +1158,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 const
@@ -1195,7 +1195,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1231,7 +1231,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1267,7 +1267,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1307,7 +1307,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -1348,7 +1348,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 const
