@@ -99,6 +99,13 @@ MOZILLA_GFX_COMPOSITOROGL_H
 #
 include
 "
+ContextStateTracker
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
@@ -2325,6 +2332,9 @@ RefPtr
 CompositorTexturePoolOGL
 >
 mTexturePool
+;
+ContextStateTrackerOGL
+mContextStateTracker
 ;
 bool
 mDestroyed
