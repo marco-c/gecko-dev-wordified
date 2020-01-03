@@ -668,6 +668,33 @@ getLogcat
 (
 )
                 
+#
+Due
+to
+Bug
+1050211
+                
+if
+len
+(
+logcat
+)
+=
+=
+1
+:
+                    
+logcat
+=
+logcat
+[
+0
+]
+.
+splitlines
+(
+)
+                
 latest
 =
 [
@@ -928,6 +955,12 @@ string
 comparison
         
 if
+"
+IOError
+"
+in
+output
+or
 "
 Broken
 pipe
