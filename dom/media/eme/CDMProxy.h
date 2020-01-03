@@ -215,7 +215,7 @@ virtual
 void
 Decrypted
 (
-nsresult
+GMPErr
 aResult
 mp4_demuxer
 :

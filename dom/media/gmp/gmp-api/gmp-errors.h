@@ -351,6 +351,9 @@ GMPEndOfEnumeration
 GMPInvalidArgErr
 =
 12
+GMPAbortedErr
+=
+13
 GMPLastErr
 /
 /
