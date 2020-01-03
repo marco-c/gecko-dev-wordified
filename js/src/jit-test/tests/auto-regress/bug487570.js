@@ -65,8 +65,6 @@ in
 {
 const
 functional
-=
-undefined
 }
 }
 )

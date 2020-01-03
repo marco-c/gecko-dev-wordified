@@ -60,8 +60,6 @@ eval
 '
 const
 q
-=
-undefined
 ;
 '
 )

@@ -387,9 +387,6 @@ printStatus
 summary
 )
 ;
-let
-x
-;
 with
 (
 {
@@ -411,9 +408,6 @@ x
 ;
 const
 x
-=
-undefined
-;
 }
 reportCompare
 (

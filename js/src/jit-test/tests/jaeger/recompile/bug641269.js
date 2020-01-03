@@ -1,13 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-error
-:
-ReferenceError
 var
 g
 =

@@ -394,7 +394,7 @@ TypeError
 :
 redeclaration
 of
-var
+variable
 e
 '
 ;
