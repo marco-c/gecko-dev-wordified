@@ -10490,8 +10490,6 @@ RestyleForAnimation
 (
 this
 eRestyle_StyleAttribute
-|
-eRestyle_ChangeAnimationPhase
 )
 ;
 }

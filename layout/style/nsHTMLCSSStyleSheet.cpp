@@ -838,8 +838,6 @@ style
 {
 return
 eRestyle_StyleAttribute
-|
-eRestyle_ChangeAnimationPhase
 ;
 }
 return
