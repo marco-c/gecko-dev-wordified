@@ -282,4 +282,9 @@ Locale
 currentActivityLocale
 )
 ;
+String
+getFallbackLocaleTag
+(
+)
+;
 }

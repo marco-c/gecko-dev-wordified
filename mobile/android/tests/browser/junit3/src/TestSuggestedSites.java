@@ -558,7 +558,7 @@ locales
 /
 "
 +
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

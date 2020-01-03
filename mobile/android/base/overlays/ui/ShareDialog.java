@@ -141,7 +141,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 ;
 import
 org
@@ -480,7 +480,7 @@ public
 class
 ShareDialog
 extends
-LocaleAware
+Locales
 .
 LocaleAwareActivity
 implements

@@ -282,6 +282,15 @@ mozilla
 .
 gecko
 .
+Locales
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 NewTabletUI
 ;
 import
@@ -6987,7 +6996,7 @@ key
 {
 onLocaleSelected
 (
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (
@@ -7302,7 +7311,7 @@ here
 return
 onLocaleSelected
 (
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

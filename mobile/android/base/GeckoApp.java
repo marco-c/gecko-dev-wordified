@@ -8970,7 +8970,7 @@ final
 Locale
 loc
 =
-BrowserLocaleManager
+Locales
 .
 parseLocaleCode
 (
@@ -13670,7 +13670,7 @@ null
 {
 onLocaleChanged
 (
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

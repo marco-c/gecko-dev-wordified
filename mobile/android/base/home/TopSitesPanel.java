@@ -175,7 +175,7 @@ mozilla
 .
 gecko
 .
-BrowserLocaleManager
+GeckoProfile
 ;
 import
 org
@@ -184,7 +184,7 @@ mozilla
 .
 gecko
 .
-GeckoProfile
+Locales
 ;
 import
 org
@@ -1717,7 +1717,7 @@ final
 String
 localeTag
 =
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

@@ -168,7 +168,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 ;
 import
 android
@@ -312,7 +312,7 @@ icicle
 "
 )
 ;
-LocaleAware
+Locales
 .
 initializeLocale
 (

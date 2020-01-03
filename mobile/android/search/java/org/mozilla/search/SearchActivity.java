@@ -79,7 +79,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 ;
 import
 org
@@ -347,7 +347,7 @@ public
 class
 SearchActivity
 extends
-LocaleAware
+Locales
 .
 LocaleAwareFragmentActivity
 implements

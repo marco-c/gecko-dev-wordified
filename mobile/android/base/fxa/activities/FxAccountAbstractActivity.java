@@ -141,7 +141,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 .
 LocaleAwareActivity
 ;
