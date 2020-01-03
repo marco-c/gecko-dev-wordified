@@ -160,7 +160,7 @@ let
 histogramId
 =
 "
-LOOP_TWO_WAY_MEDIA_CONN_LENGTH
+LOOP_TWO_WAY_MEDIA_CONN_LENGTH_1
 "
 ;
 let
@@ -332,7 +332,7 @@ let
 histogramId
 =
 "
-LOOP_SHARING_STATE_CHANGE
+LOOP_SHARING_STATE_CHANGE_1
 "
 ;
 let
