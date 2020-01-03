@@ -10914,6 +10914,14 @@ worker
 IsSharedWorker
 (
 )
+|
+|
+worker
+-
+>
+IsServiceWorker
+(
+)
 )
 {
 worker
