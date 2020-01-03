@@ -844,7 +844,7 @@ the
 property
 tree
 exceeds
-MAX_LINEAR_SEARCHES
+LINEAR_SEARCHES_MAX
 and
 the
 Shape
