@@ -1341,6 +1341,7 @@ URL
 :
 Constructor
 (
+nullptr
 mURL
 mBaseProxy
 -
@@ -1376,6 +1377,7 @@ URL
 :
 Constructor
 (
+nullptr
 mURL
 mBase
 mRv
@@ -1397,6 +1399,7 @@ URL
 :
 Constructor
 (
+nullptr
 mURL
 nullptr
 mRv
@@ -2645,7 +2648,8 @@ runnable
 }
 }
 }
-bool
+JSObject
+*
 URL
 :
 :
@@ -2663,15 +2667,6 @@ JSObject
 *
 >
 aGivenProto
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-aReflector
 )
 {
 return
@@ -2683,7 +2678,6 @@ Wrap
 aCx
 this
 aGivenProto
-aReflector
 )
 ;
 }
@@ -4498,7 +4492,7 @@ mSearchParams
 new
 URLSearchParams
 (
-this
+nullptr
 this
 )
 ;
