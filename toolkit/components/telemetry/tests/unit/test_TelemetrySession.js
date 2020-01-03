@@ -8840,7 +8840,7 @@ equal
 data
 .
 previousSubsessionId
-expectedUUID
+null
 )
 ;
 }
