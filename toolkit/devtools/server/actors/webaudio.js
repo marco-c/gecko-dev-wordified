@@ -2804,6 +2804,12 @@ return
 }
 this
 .
+tabActor
+=
+null
+;
+this
+.
 _initialized
 =
 false
@@ -2837,12 +2843,6 @@ this
 .
 _onGlobalCreated
 )
-;
-this
-.
-tabActor
-=
-null
 ;
 this
 .
