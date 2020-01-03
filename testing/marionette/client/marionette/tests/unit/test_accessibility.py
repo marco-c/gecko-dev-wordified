@@ -714,7 +714,7 @@ self
 .
 assertRaises
 (
-ElementNotAccessibleException
+ElementNotVisibleException
                                                                
 button
 .
@@ -877,7 +877,7 @@ self
 .
 assertRaises
 (
-ElementNotAccessibleException
+ElementNotVisibleException
                                                                
 button
 .
