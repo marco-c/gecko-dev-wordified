@@ -197,10 +197,6 @@ aPerformanceTiming
 nsPerformance
 *
 aPerformance
-const
-nsAString
-&
-aName
 )
 ;
 virtual
