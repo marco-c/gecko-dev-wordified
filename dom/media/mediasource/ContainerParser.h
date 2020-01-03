@@ -171,8 +171,6 @@ virtual
 ContainerParser
 (
 )
-=
-default
 ;
 /
 /
