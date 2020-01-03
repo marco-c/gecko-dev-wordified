@@ -823,7 +823,9 @@ packet
 holder
 -
 >
-mPacket
+Packet
+(
+)
 ;
 unsigned
 int
@@ -1003,7 +1005,9 @@ nestegg_packet_tstamp
 next_holder
 -
 >
-mPacket
+Packet
+(
+)
 &
 next_tstamp
 )
