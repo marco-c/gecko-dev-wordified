@@ -455,7 +455,7 @@ include
 "
 mozilla
 /
-PendingPlayerTracker
+PendingAnimationTracker
 .
 h
 "
@@ -10717,14 +10717,14 @@ void
 aReadyTime
 )
 {
-PendingPlayerTracker
+PendingAnimationTracker
 *
 tracker
 =
 aDocument
 -
 >
-GetPendingPlayerTracker
+GetPendingAnimationTracker
 (
 )
 ;
@@ -10805,7 +10805,7 @@ aReadyTime
 tracker
 -
 >
-TriggerPendingPlayersOnNextTick
+TriggerPendingAnimationsOnNextTick
 (
 readyTime
 )

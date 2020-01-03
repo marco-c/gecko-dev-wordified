@@ -1263,7 +1263,7 @@ player
 *
 from
 any
-PendingPlayerTracker
+PendingAnimationTracker
 it
 may
 have
@@ -1365,7 +1365,7 @@ the
 player
 from
 any
-PendingPlayerTracker
+PendingAnimationTracker
 it
 may
 have
@@ -2515,7 +2515,7 @@ is
 tracked
 by
 a
-PendingPlayerTracker
+PendingAnimationTracker
 because
 the
 /
@@ -2536,7 +2536,7 @@ from
 the
 /
 /
-PendingPlayerTracker
+PendingAnimationTracker
 while
 it
 is

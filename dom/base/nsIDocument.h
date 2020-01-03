@@ -526,7 +526,7 @@ class
 EventStates
 ;
 class
-PendingPlayerTracker
+PendingAnimationTracker
 ;
 class
 SVGAttrAnimationRuleProcessor
@@ -10925,8 +10925,7 @@ Gets
 the
 tracker
 for
-animation
-players
+animations
 that
 are
 waiting
@@ -10942,7 +10941,7 @@ there
 is
 no
 pending
-player
+animation
 tracker
 for
 this
@@ -10976,9 +10975,9 @@ virtual
 mozilla
 :
 :
-PendingPlayerTracker
+PendingAnimationTracker
 *
-GetPendingPlayerTracker
+GetPendingAnimationTracker
 (
 )
 =
@@ -10990,8 +10989,7 @@ Gets
 the
 tracker
 for
-animation
-players
+animations
 that
 are
 waiting
@@ -11027,9 +11025,9 @@ virtual
 mozilla
 :
 :
-PendingPlayerTracker
+PendingAnimationTracker
 *
-GetOrCreatePendingPlayerTracker
+GetOrCreatePendingAnimationTracker
 (
 )
 =
