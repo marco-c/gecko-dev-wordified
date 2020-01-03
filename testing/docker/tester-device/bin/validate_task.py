@@ -162,16 +162,29 @@ payload
     
 if
 '
-DEVICE_CAPABILITIES
+phone
 '
 not
 in
 payload
-[
+.
+get
+(
 '
-env
+capabilities
 '
-]
+{
+}
+)
+.
+get
+(
+'
+devices
+'
+{
+}
+)
 :
         
 print
@@ -196,22 +209,22 @@ return
     
 capabilities
 =
-json
-.
-loads
-(
 payload
 [
 '
-env
+capabilities
 '
 ]
 [
 '
-DEVICE_CAPABILITIES
+devices
 '
 ]
-)
+[
+'
+phone
+'
+]
     
 if
 '
