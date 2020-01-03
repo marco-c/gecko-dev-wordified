@@ -23380,6 +23380,10 @@ loadType
 !
 =
 LOAD_PUSHSTATE
+&
+&
+!
+aCloneRef
 )
 {
 /
