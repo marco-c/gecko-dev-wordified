@@ -26045,11 +26045,10 @@ event
 {
 nsEventStatus
 status
-;
-DispatchEvent
+=
+DispatchInputEvent
 (
 event
-status
 )
 ;
 return
@@ -27881,7 +27880,7 @@ nullptr
 }
 result
 =
-DispatchWindowEvent
+DispatchInputEvent
 (
 &
 event
@@ -34049,7 +34048,7 @@ InitInputEvent
 event
 )
 ;
-DispatchWindowEvent
+DispatchInputEvent
 (
 &
 event
@@ -37165,7 +37164,7 @@ true
 bool
 result
 =
-DispatchWindowEvent
+DispatchInputEvent
 (
 &
 event
