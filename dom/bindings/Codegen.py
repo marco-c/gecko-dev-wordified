@@ -33839,7 +33839,7 @@ template
 substitute
 (
 {
-                
+            
 "
 val
 "
@@ -33852,7 +33852,7 @@ str
 (
 nestingLevel
 )
-                
+            
 "
 declName
 "
@@ -33865,7 +33865,7 @@ str
 (
 nestingLevel
 )
-                
+            
 #
 We
 only
@@ -33877,7 +33877,7 @@ handle
 isExternal
 (
 )
-                
+            
 #
 interfaces
 which
@@ -33887,7 +33887,7 @@ internal
 holder
 for
 the
-                
+            
 #
 conversion
 even
@@ -33897,7 +33897,7 @@ ends
 up
 true
 .
-                
+            
 "
 holderName
 "
@@ -33910,7 +33910,7 @@ str
 (
 nestingLevel
 )
-                
+            
 "
 passedToJSImpl
 "
@@ -33920,7 +33920,7 @@ passedToJSImpl
 passedToJSImpl
 }
 "
-            
+        
 }
 )
         
@@ -34685,7 +34685,7 @@ template
 substitute
 (
 {
-                
+            
 "
 val
 "
@@ -34693,7 +34693,7 @@ val
 "
 temp
 "
-                
+            
 "
 declName
 "
@@ -34701,7 +34701,7 @@ declName
 "
 slot
 "
-                
+            
 #
 We
 only
@@ -34713,7 +34713,7 @@ handle
 isExternal
 (
 )
-                
+            
 #
 interfaces
 which
@@ -34723,7 +34723,7 @@ internal
 holder
 for
 the
-                
+            
 #
 conversion
 even
@@ -34733,7 +34733,7 @@ ends
 up
 true
 .
-                
+            
 "
 holderName
 "
@@ -34741,7 +34741,7 @@ holderName
 "
 tempHolder
 "
-                
+            
 "
 passedToJSImpl
 "
@@ -34751,7 +34751,7 @@ passedToJSImpl
 passedToJSImpl
 }
 "
-            
+        
 }
 )
         
