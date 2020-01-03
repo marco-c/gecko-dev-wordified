@@ -1132,7 +1132,6 @@ FxAccountSyncDelegate
 (
 latch
 syncResult
-fxAccount
 )
 ;
 final
