@@ -1955,13 +1955,6 @@ IsValid
 )
 )
 ;
-if
-(
-AtBottomLayer
-(
-)
-)
-{
 return
 mLayer
 -
@@ -1969,10 +1962,6 @@ mLayer
 GetClipRect
 (
 )
-;
-}
-return
-nullptr
 ;
 }
 bool
