@@ -1958,7 +1958,7 @@ changed
 yield
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 ;
@@ -2664,7 +2664,7 @@ params
 yield
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 ;

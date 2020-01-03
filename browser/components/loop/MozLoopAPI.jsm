@@ -2363,7 +2363,7 @@ boundary
 .
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .

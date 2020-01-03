@@ -257,7 +257,7 @@ finish
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .

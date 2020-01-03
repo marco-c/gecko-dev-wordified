@@ -27,7 +27,7 @@ zero
 /
 *
 /
-var
+let
 startTimerCalled
 =
 false
@@ -157,7 +157,7 @@ in
 the
 past
 .
-var
+let
 nowSeconds
 =
 Date
@@ -254,7 +254,7 @@ minute
 in
 the
 future
-var
+let
 nowSeconds
 =
 Date

@@ -600,7 +600,7 @@ function
 yield
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 ;

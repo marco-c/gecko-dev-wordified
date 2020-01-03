@@ -110,7 +110,7 @@ unseen
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
