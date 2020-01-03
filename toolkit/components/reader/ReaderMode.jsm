@@ -1036,6 +1036,18 @@ rely
 /
 upon
 .
+/
+/
+NOTE
+:
+This
+is
+currently
+disabled
+see
+bug
+1158228
+.
 return
 new
 Readability
@@ -1046,6 +1058,8 @@ doc
 .
 isProbablyReaderable
 (
+/
+*
 this
 .
 isNodeVisible
@@ -1055,6 +1069,8 @@ bind
 this
 utils
 )
+*
+/
 )
 ;
 }
