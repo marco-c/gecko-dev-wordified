@@ -722,6 +722,11 @@ ProcessDrain
 (
 )
 {
+if
+(
+mDecoder
+)
+{
 /
 /
 Order
@@ -773,6 +778,7 @@ ProcessOutput
 (
 )
 ;
+}
 mCallback
 -
 >
