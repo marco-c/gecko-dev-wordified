@@ -3436,7 +3436,8 @@ FixArrayType
 ExclusiveContext
 *
 cx
-HandleObject
+ArrayObject
+*
 obj
 )
 {
@@ -3464,7 +3465,8 @@ FixObjectType
 ExclusiveContext
 *
 cx
-HandleObject
+NativeObject
+*
 obj
 )
 {

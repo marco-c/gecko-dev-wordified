@@ -170,7 +170,10 @@ class
 JSFunction
 :
 public
-JSObject
+js
+:
+:
+NativeObject
 {
 public
 :
@@ -4189,7 +4192,7 @@ HandleObject
 enclosingScope
 HandleScript
 enclosingScript
-MutableHandleObject
+MutableHandleFunction
 objp
 )
 ;

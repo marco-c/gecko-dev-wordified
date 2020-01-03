@@ -168,13 +168,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 js
 /
 GCAPI
@@ -196,6 +189,15 @@ include
 js
 /
 Vector
+.
+h
+"
+#
+include
+"
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -1452,7 +1454,7 @@ if
 (
 numSlots
 >
-JSObject
+NativeObject
 :
 :
 NELEMENTS_LIMIT
@@ -7258,7 +7260,7 @@ hack
 /
 to
 make
-ObjectImpl
+JSObject
 :
 :
 zone
@@ -7388,7 +7390,7 @@ isForwarded
 ;
 MOZ_ASSERT
 (
-ObjectImpl
+JSObject
 :
 :
 offsetOfShape

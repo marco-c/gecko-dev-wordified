@@ -128,7 +128,7 @@ class
 RegExpStaticsObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

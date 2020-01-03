@@ -551,7 +551,7 @@ HandleValue
 priv
 )
 {
-initCrossCompartmentSlot
+fakeNativeInitCrossCompartmentSlot
 (
 PRIVATE_SLOT
 priv
@@ -570,7 +570,7 @@ Value
 priv
 )
 {
-setSlot
+fakeNativeSetSlot
 (
 PRIVATE_SLOT
 priv
@@ -589,7 +589,7 @@ BaseProxyHandler
 handler
 )
 {
-initSlot
+fakeNativeInitSlot
 (
 HANDLER_SLOT
 PrivateValue
@@ -620,7 +620,7 @@ slot
 proxy
 -
 >
-setReservedSlot
+fakeNativeSetReservedSlot
 (
 slot
 NullValue

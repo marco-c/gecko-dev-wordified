@@ -176,7 +176,7 @@ class
 WeakMapObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

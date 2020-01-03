@@ -275,7 +275,7 @@ Slot
 owner
 -
 >
-getSlotRef
+fakeNativeGetSlotRef
 (
 slot
 )
@@ -287,7 +287,7 @@ this
 owner
 -
 >
-getDenseElement
+fakeNativeGetDenseElement
 (
 slot
 )
@@ -331,7 +331,7 @@ Slot
 owner
 -
 >
-getSlotRef
+fakeNativeGetSlotRef
 (
 slot
 )
@@ -343,7 +343,7 @@ this
 owner
 -
 >
-getDenseElement
+fakeNativeGetDenseElement
 (
 slot
 )
@@ -398,7 +398,7 @@ Slot
 obj
 -
 >
-getSlotAddressUnchecked
+fakeNativeGetSlotAddressUnchecked
 (
 slot
 )
@@ -420,7 +420,7 @@ HeapSlot
 obj
 -
 >
-getDenseElements
+fakeNativeGetDenseElements
 (
 )
 +

@@ -280,6 +280,9 @@ RootedValue
 obj1Val
 (
 cx
+JS
+:
+:
 ObjectValue
 (
 *
@@ -294,6 +297,9 @@ RootedValue
 obj2Val
 (
 cx
+JS
+:
+:
 ObjectValue
 (
 *

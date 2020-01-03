@@ -5241,7 +5241,7 @@ outerScript
 IonScript
 *
 ion
-HandleObject
+HandleNativeObject
 obj
 HandleShape
 shape
@@ -5282,7 +5282,7 @@ outerScript
 IonScript
 *
 ion
-HandleObject
+HandleNativeObject
 obj
 HandleShape
 oldShape
@@ -6393,7 +6393,7 @@ HandleObject
 scopeChain
 HandleObject
 holderBase
-HandleObject
+HandleNativeObject
 holder
 HandleShape
 shape
@@ -6923,7 +6923,7 @@ IonScript
 ion
 HandleObject
 obj
-HandleObject
+HandleNativeObject
 holder
 HandleShape
 shape
@@ -7188,7 +7188,7 @@ Value
 idval
 HandlePropertyName
 name
-HandleObject
+HandleNativeObject
 holder
 HandleShape
 shape
@@ -7411,7 +7411,7 @@ cx
 IonScript
 *
 ion
-HandleObject
+HandleNativeObject
 obj
 HandleShape
 shape
@@ -7428,7 +7428,7 @@ cx
 IonScript
 *
 ion
-HandleObject
+HandleNativeObject
 obj
 HandleShape
 oldShape

@@ -160,7 +160,7 @@ class
 DebuggerMemory
 :
 public
-JSObject
+NativeObject
 {
 friend
 class

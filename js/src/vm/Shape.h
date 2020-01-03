@@ -1029,9 +1029,6 @@ class
 Nursery
 ;
 class
-ObjectImpl
-;
-class
 StaticBlockObject
 ;
 namespace
@@ -4456,7 +4453,7 @@ class
 js
 :
 :
-ObjectImpl
+NativeObject
 ;
 friend
 class
@@ -4874,7 +4871,7 @@ id
 void
 removeFromDictionary
 (
-ObjectImpl
+NativeObject
 *
 obj
 )

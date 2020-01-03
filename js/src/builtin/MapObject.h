@@ -527,7 +527,7 @@ class
 MapObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :
@@ -933,7 +933,7 @@ class
 SetObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

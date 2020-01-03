@@ -5665,7 +5665,7 @@ PRELIMINARY_OBJECT_COUNT
 =
 20
 ;
-JSObject
+NativeObject
 *
 *
 preliminaryObjects
@@ -5717,7 +5717,7 @@ kind
 to
 use
 .
-HeapPtrObject
+HeapPtrNativeObject
 templateObject_
 ;
 /
@@ -6038,7 +6038,7 @@ return
 true
 ;
 }
-JSObject
+NativeObject
 *
 templateObject
 (
@@ -6100,7 +6100,7 @@ endif
 void
 registerNewObject
 (
-JSObject
+NativeObject
 *
 res
 )
@@ -6108,7 +6108,7 @@ res
 void
 unregisterNewObject
 (
-JSObject
+NativeObject
 *
 res
 )
@@ -8829,7 +8829,7 @@ uint32_t
 bytecodeMap
 )
 ;
-JSObject
+ArrayObject
 *
 GetOrFixupCopyOnWriteObject
 (
@@ -8843,7 +8843,7 @@ jsbytecode
 pc
 )
 ;
-JSObject
+ArrayObject
 *
 GetCopyOnWriteObject
 (
@@ -10052,7 +10052,7 @@ fixArrayType
 ExclusiveContext
 *
 cx
-JSObject
+ArrayObject
 *
 obj
 )
@@ -10063,7 +10063,7 @@ fixObjectType
 ExclusiveContext
 *
 cx
-JSObject
+NativeObject
 *
 obj
 )
@@ -10074,7 +10074,7 @@ fixRestArgumentsType
 ExclusiveContext
 *
 cx
-JSObject
+ArrayObject
 *
 obj
 )
@@ -10315,7 +10315,7 @@ FixRestArgumentsType
 ExclusiveContext
 *
 cxArg
-JSObject
+ArrayObject
 *
 obj
 )

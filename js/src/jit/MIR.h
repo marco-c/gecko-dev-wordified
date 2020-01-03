@@ -226,6 +226,15 @@ include
 "
 vm
 /
+ArrayObject
+.
+h
+"
+#
+include
+"
+vm
+/
 ScopeObject
 .
 h
@@ -12427,6 +12436,14 @@ AlwaysTenuredObject
 typedef
 AlwaysTenured
 <
+NativeObject
+*
+>
+AlwaysTenuredNativeObject
+;
+typedef
+AlwaysTenured
+<
 JSFunction
 *
 >
@@ -12544,7 +12561,7 @@ allocating_
 allocating
 )
 {
-JSObject
+ArrayObject
 *
 obj
 =
@@ -12636,7 +12653,7 @@ return
 count_
 ;
 }
-JSObject
+ArrayObject
 *
 templateObject
 (
@@ -12661,6 +12678,13 @@ value
 )
 .
 toObject
+(
+)
+.
+as
+<
+ArrayObject
+>
 (
 )
 ;
@@ -12880,7 +12904,11 @@ MNewArrayCopyOnWrite
 public
 MNullaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenured
+<
+ArrayObject
+*
+>
 templateObject_
 ;
 gc
@@ -12897,7 +12925,7 @@ types
 CompilerConstraintList
 *
 constraints
-JSObject
+ArrayObject
 *
 templateObject
 gc
@@ -12962,7 +12990,7 @@ types
 CompilerConstraintList
 *
 constraints
-JSObject
+ArrayObject
 *
 templateObject
 gc
@@ -12985,7 +13013,7 @@ initialHeap
 )
 ;
 }
-JSObject
+ArrayObject
 *
 templateObject
 (
@@ -13267,7 +13295,7 @@ return
 templateObjectIsClassPrototype_
 ;
 }
-JSObject
+NativeObject
 *
 templateObject
 (
@@ -13292,6 +13320,13 @@ value
 )
 .
 toObject
+(
+)
+.
+as
+<
+NativeObject
+>
 (
 )
 ;
@@ -13377,7 +13412,7 @@ MNewPar
 public
 MUnaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenuredNativeObject
 templateObject_
 ;
 MNewPar
@@ -13385,7 +13420,7 @@ MNewPar
 MDefinition
 *
 cx
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -13423,7 +13458,7 @@ alloc
 MDefinition
 *
 cx
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -13454,7 +13489,7 @@ getOperand
 )
 ;
 }
-JSObject
+NativeObject
 *
 templateObject
 (
@@ -19396,7 +19431,7 @@ provided
 by
 TI
 .
-JSObject
+NativeObject
 *
 templateObject
 (
@@ -19421,6 +19456,13 @@ value
 )
 .
 toObject
+(
+)
+.
+as
+<
+NativeObject
+>
 (
 )
 ;
@@ -37644,7 +37686,11 @@ ObjectPolicy
 :
 Data
 {
-AlwaysTenuredObject
+AlwaysTenured
+<
+ArrayObject
+*
+>
 templateObj_
 ;
 gc
@@ -37667,7 +37713,7 @@ lhs
 MDefinition
 *
 rhs
-JSObject
+ArrayObject
 *
 templateObj
 gc
@@ -37732,7 +37778,7 @@ lhs
 MDefinition
 *
 rhs
-JSObject
+ArrayObject
 *
 templateObj
 gc
@@ -37757,7 +37803,7 @@ initialHeap
 )
 ;
 }
-JSObject
+ArrayObject
 *
 templateObj
 (
@@ -49590,7 +49636,11 @@ MRestCommon
 unsigned
 numFormals_
 ;
-AlwaysTenuredObject
+AlwaysTenured
+<
+ArrayObject
+*
+>
 templateObject_
 ;
 protected
@@ -49599,7 +49649,7 @@ MRestCommon
 (
 unsigned
 numFormals
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -49626,7 +49676,7 @@ return
 numFormals_
 ;
 }
-JSObject
+ArrayObject
 *
 templateObject
 (
@@ -49668,7 +49718,7 @@ MDefinition
 numActuals
 unsigned
 numFormals
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -49724,7 +49774,7 @@ MDefinition
 numActuals
 unsigned
 numFormals
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -49810,7 +49860,7 @@ MDefinition
 numActuals
 unsigned
 numFormals
-JSObject
+ArrayObject
 *
 templateObject
 types
@@ -51018,13 +51068,13 @@ MNewDeclEnvObject
 public
 MNullaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenuredNativeObject
 templateObj_
 ;
 explicit
 MNewDeclEnvObject
 (
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51058,7 +51108,7 @@ New
 TempAllocator
 &
 alloc
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51074,7 +51124,7 @@ templateObj
 )
 ;
 }
-JSObject
+NativeObject
 *
 templateObj
 (
@@ -51107,7 +51157,7 @@ MNewCallObjectBase
 public
 MNullaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenuredNativeObject
 templateObj_
 ;
 protected
@@ -51115,7 +51165,7 @@ protected
 explicit
 MNewCallObjectBase
 (
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51136,7 +51186,7 @@ MIRType_Object
 }
 public
 :
-JSObject
+NativeObject
 *
 templateObject
 (
@@ -51178,7 +51228,7 @@ NewCallObject
 explicit
 MNewCallObject
 (
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51197,7 +51247,7 @@ New
 TempAllocator
 &
 alloc
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51230,7 +51280,7 @@ NewRunOnceCallObject
 explicit
 MNewRunOnceCallObject
 (
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51249,7 +51299,7 @@ New
 TempAllocator
 &
 alloc
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51273,7 +51323,7 @@ MNewCallObjectPar
 public
 MUnaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenuredNativeObject
 templateObj_
 ;
 MNewCallObjectPar
@@ -51281,7 +51331,7 @@ MNewCallObjectPar
 MDefinition
 *
 cx
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -51355,7 +51405,7 @@ getOperand
 )
 ;
 }
-JSObject
+NativeObject
 *
 templateObj
 (
@@ -51772,7 +51822,11 @@ MNewDenseArrayPar
 public
 MBinaryInstruction
 {
-AlwaysTenuredObject
+AlwaysTenured
+<
+ArrayObject
+*
+>
 templateObject_
 ;
 MNewDenseArrayPar
@@ -51783,7 +51837,7 @@ cx
 MDefinition
 *
 length
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -51838,7 +51892,7 @@ cx
 MDefinition
 *
 length
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -51884,7 +51938,7 @@ getOperand
 )
 ;
 }
-JSObject
+ArrayObject
 *
 templateObject
 (

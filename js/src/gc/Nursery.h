@@ -212,6 +212,9 @@ namespace
 js
 {
 class
+TypedArrayObject
+;
+class
 ObjectElements
 ;
 class
@@ -1897,10 +1900,10 @@ dstKind
 void
 forwardTypedArrayPointers
 (
-JSObject
+TypedArrayObject
 *
 dst
-JSObject
+TypedArrayObject
 *
 src
 )

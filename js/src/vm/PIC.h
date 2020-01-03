@@ -986,10 +986,10 @@ and
 ArrayIterator
 .
 prototype
-HeapPtrObject
+HeapPtrNativeObject
 arrayProto_
 ;
-HeapPtrObject
+HeapPtrNativeObject
 arrayIteratorProto_
 ;
 /
@@ -1211,7 +1211,7 @@ tryOptimizeArray
 JSContext
 *
 cx
-HandleObject
+HandleArrayObject
 array
 bool
 *
@@ -1407,7 +1407,7 @@ Class
 jsclass
 ;
 static
-JSObject
+NativeObject
 *
 createForOfPICObject
 (
@@ -1428,7 +1428,7 @@ Chain
 *
 fromJSObject
 (
-JSObject
+NativeObject
 *
 obj
 )
@@ -1478,7 +1478,7 @@ JSContext
 cx
 )
 {
-JSObject
+NativeObject
 *
 obj
 =

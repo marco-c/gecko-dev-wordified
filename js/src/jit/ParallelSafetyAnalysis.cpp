@@ -545,7 +545,7 @@ replaceWithNewPar
 MInstruction
 *
 newInstruction
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -3402,7 +3402,7 @@ replaceWithNewPar
 MInstruction
 *
 newInstruction
-JSObject
+NativeObject
 *
 templateObject
 )

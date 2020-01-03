@@ -2233,7 +2233,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getPrivateDataOffset
@@ -5230,7 +5230,7 @@ copySlotsFromTemplate
 Register
 obj
 const
-JSObject
+NativeObject
 *
 templateObj
 uint32_t
@@ -5259,7 +5259,7 @@ Register
 obj
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 bool
@@ -5294,7 +5294,7 @@ Register
 result
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 gc
@@ -5318,7 +5318,7 @@ Register
 result
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 gc
@@ -5338,7 +5338,7 @@ Register
 obj
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 bool
@@ -5450,7 +5450,7 @@ Register
 tempReg1
 Register
 tempReg2
-JSObject
+NativeObject
 *
 templateObject
 Label

@@ -216,7 +216,7 @@ class
 SharedTypedArrayObject
 :
 public
-JSObject
+NativeObject
 {
 protected
 :

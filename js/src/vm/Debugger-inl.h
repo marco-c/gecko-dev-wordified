@@ -265,6 +265,13 @@ Debugger
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 getPrivate
 (
 )

@@ -2018,7 +2018,7 @@ MOZ_ASSERT
 obj
 -
 >
-hasDynamicSlots
+fakeNativeHasDynamicSlots
 (
 )
 &
@@ -2027,7 +2027,7 @@ hasDynamicSlots
 obj
 -
 >
-hasDynamicElements
+fakeNativeHasDynamicElements
 (
 )
 )
@@ -4836,7 +4836,10 @@ one
 .
 *
 /
-JSObject
+js
+:
+:
+NativeObject
 *
 selfHostingGlobal_
 ;

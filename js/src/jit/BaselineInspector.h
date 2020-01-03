@@ -612,7 +612,7 @@ jsbytecode
 pc
 )
 ;
-JSObject
+NativeObject
 *
 getTemplateObject
 (
@@ -621,7 +621,7 @@ jsbytecode
 pc
 )
 ;
-JSObject
+NativeObject
 *
 getTemplateObjectForNative
 (

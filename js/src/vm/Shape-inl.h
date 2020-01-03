@@ -1088,7 +1088,7 @@ if
 obj
 -
 >
-nativeEmpty
+empty
 (
 )
 )
@@ -1134,7 +1134,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeEmpty
+empty
 (
 )
 )

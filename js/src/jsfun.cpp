@@ -3703,7 +3703,7 @@ HandleObject
 enclosingScope
 HandleScript
 enclosingScript
-MutableHandleObject
+MutableHandleFunction
 objp
 )
 {
@@ -3821,16 +3821,7 @@ XDR_ENCODE
 {
 fun
 =
-&
 objp
--
->
-as
-<
-JSFunction
->
-(
-)
 ;
 if
 (
@@ -4498,7 +4489,7 @@ XDR_ENCODE
 *
 HandleObject
 HandleScript
-MutableHandleObject
+MutableHandleFunction
 )
 ;
 template
@@ -4515,7 +4506,7 @@ XDR_DECODE
 *
 HandleObject
 HandleScript
-MutableHandleObject
+MutableHandleFunction
 )
 ;
 JSObject
@@ -9403,7 +9394,7 @@ false
 if
 (
 !
-JSObject
+NativeObject
 :
 :
 setSlotSpan

@@ -537,7 +537,7 @@ JSContext
 cx
 uint32_t
 length
-HandleObject
+HandleArrayObject
 src
 uint32_t
 elementOffset
@@ -650,7 +650,7 @@ NewDenseCopyOnWriteArray
 JSContext
 *
 cx
-HandleObject
+HandleNativeObject
 templateObject
 gc
 :
@@ -1080,7 +1080,7 @@ extern
 void
 ArrayShiftMoveElements
 (
-JSObject
+ArrayObject
 *
 obj
 )

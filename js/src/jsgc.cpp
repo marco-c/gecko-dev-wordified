@@ -26875,7 +26875,7 @@ obj
 obj
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 ProxyObject
 :
@@ -26963,7 +26963,7 @@ next
 prev
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -26988,7 +26988,7 @@ unlink
 prev
 -
 >
-setSlot
+fakeNativeSetSlot
 (
 slot
 UndefinedValue
@@ -27064,7 +27064,7 @@ if
 src
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -27077,7 +27077,7 @@ isUndefined
 src
 -
 >
-setCrossCompartmentSlot
+fakeNativeSetCrossCompartmentSlot
 (
 slot
 ObjectOrNullValue
@@ -27104,7 +27104,7 @@ MOZ_ASSERT
 src
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -27550,7 +27550,7 @@ if
 wrapper
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -27578,7 +27578,7 @@ tail
 wrapper
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -27590,7 +27590,7 @@ toObjectOrNull
 wrapper
 -
 >
-setReservedSlot
+fakeNativeSetReservedSlot
 (
 slot
 UndefinedValue
@@ -27663,7 +27663,7 @@ next
 obj
 -
 >
-getReservedSlot
+fakeNativeGetReservedSlot
 (
 slot
 )
@@ -27683,7 +27683,7 @@ wrapper
 obj
 -
 >
-setCrossCompartmentSlot
+fakeNativeSetCrossCompartmentSlot
 (
 slot
 ObjectOrNullValue

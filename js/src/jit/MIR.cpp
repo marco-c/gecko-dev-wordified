@@ -20126,7 +20126,7 @@ shouldUseVM
 )
 const
 {
-JSObject
+NativeObject
 *
 obj
 =
@@ -20226,7 +20226,7 @@ setRecoveredOnBailout
 (
 )
 ;
-JSObject
+NativeObject
 *
 templateObject
 =
@@ -20527,7 +20527,7 @@ count
 (
 )
 <
-JSObject
+NativeObject
 :
 :
 NELEMENTS_LIMIT

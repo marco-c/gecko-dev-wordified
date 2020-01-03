@@ -1105,7 +1105,7 @@ p
 obj
 -
 >
-getPrivate
+fakeNativeGetPrivate
 (
 )
 )

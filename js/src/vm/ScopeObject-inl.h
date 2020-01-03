@@ -273,7 +273,7 @@ Shape
 *
 shape
 =
-nativeLookup
+lookup
 (
 cx
 name

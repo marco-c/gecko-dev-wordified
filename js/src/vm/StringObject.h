@@ -144,7 +144,7 @@ class
 StringObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const

@@ -743,6 +743,9 @@ true
 ;
 CHECK_SAME
 (
+JS
+:
+:
 ObjectValue
 (
 *

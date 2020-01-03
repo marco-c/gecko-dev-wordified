@@ -3327,7 +3327,14 @@ Shape
 callee
 -
 >
-nativeLookup
+as
+<
+NativeObject
+>
+(
+)
+.
+lookup
 (
 cx
 id

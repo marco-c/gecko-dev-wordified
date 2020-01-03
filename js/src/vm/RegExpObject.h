@@ -1817,7 +1817,7 @@ class
 RegExpObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const
@@ -2359,7 +2359,7 @@ maybeShared
 )
 )
 ;
-JSObject
+NativeObject
 :
 :
 setPrivate
@@ -2534,7 +2534,7 @@ RegExpShared
 *
 >
 (
-JSObject
+NativeObject
 :
 :
 getPrivate
@@ -2706,8 +2706,11 @@ mode
 >
 *
 xdr
-HeapPtrObject
+MutableHandle
+<
+RegExpObject
 *
+>
 objp
 )
 ;

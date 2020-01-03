@@ -539,6 +539,9 @@ Value
 allValue
 (
 cx
+JS
+:
+:
 ObjectValue
 (
 *

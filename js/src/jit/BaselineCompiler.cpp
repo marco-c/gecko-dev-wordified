@@ -239,6 +239,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -7613,7 +7624,7 @@ true
 ;
 }
 typedef
-JSObject
+NativeObject
 *
 (
 *
@@ -7622,7 +7633,7 @@ DeepCloneObjectLiteralFn
 (
 JSContext
 *
-HandleObject
+HandleNativeObject
 NewObjectKind
 )
 ;
@@ -9297,7 +9308,7 @@ scratchReg
 )
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -9373,7 +9384,7 @@ NewArrayCopyOnWriteFn
 (
 JSContext
 *
-HandleObject
+HandleNativeObject
 gc
 :
 :
@@ -9684,7 +9695,7 @@ return
 false
 ;
 }
-RootedObject
+RootedNativeObject
 baseObject
 (
 cx
@@ -9697,7 +9708,7 @@ pc
 )
 )
 ;
-RootedObject
+RootedNativeObject
 templateObject
 (
 cx
@@ -9906,7 +9917,7 @@ scratchReg
 )
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -9972,7 +9983,7 @@ key
 JSProto_Object
 )
 ;
-RootedObject
+RootedNativeObject
 templateObject
 (
 cx
@@ -9980,7 +9991,7 @@ cx
 ;
 templateObject
 =
-NewBuiltinClassInstance
+NewNativeBuiltinClassInstance
 (
 cx
 &
@@ -11696,7 +11707,7 @@ loadPtr
 Address
 (
 objReg
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -11736,7 +11747,7 @@ return
 Address
 (
 objReg
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -17569,7 +17580,7 @@ syncStack
 0
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =

@@ -4968,7 +4968,7 @@ ObjectBox
 :
 ObjectBox
 (
-JSObject
+NativeObject
 *
 object
 ObjectBox

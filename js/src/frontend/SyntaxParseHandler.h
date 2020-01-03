@@ -593,7 +593,7 @@ Boxer
 Node
 newRegExp
 (
-JSObject
+RegExpObject
 *
 reobj
 const

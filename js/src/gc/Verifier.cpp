@@ -3094,7 +3094,7 @@ JS_TraceChildren
 below
 .
 Since
-ObjectImpl
+JSObject
 :
 :
 markChildren

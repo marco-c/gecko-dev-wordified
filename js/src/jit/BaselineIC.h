@@ -169,6 +169,15 @@ BaselineRegisters
 .
 h
 "
+#
+include
+"
+vm
+/
+ArrayObject
+.
+h
+"
 namespace
 js
 {
@@ -11241,7 +11250,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+HeapPtrArrayObject
 templateObject_
 ;
 ICNewArray_Fallback
@@ -11249,7 +11258,7 @@ ICNewArray_Fallback
 JitCode
 *
 stubCode
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -11282,7 +11291,7 @@ space
 JitCode
 *
 code
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -11315,7 +11324,7 @@ Compiler
 public
 ICStubCompiler
 {
-RootedObject
+RootedArrayObject
 templateObject
 ;
 bool
@@ -11333,7 +11342,7 @@ Compiler
 JSContext
 *
 cx
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -11378,7 +11387,7 @@ templateObject
 }
 }
 ;
-HeapPtrObject
+HeapPtrArrayObject
 &
 templateObject
 (
@@ -11400,7 +11409,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+HeapPtrNativeObject
 templateObject_
 ;
 ICNewObject_Fallback
@@ -11408,7 +11417,7 @@ ICNewObject_Fallback
 JitCode
 *
 stubCode
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -11441,7 +11450,7 @@ space
 JitCode
 *
 code
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -11474,7 +11483,7 @@ Compiler
 public
 ICStubCompiler
 {
-RootedObject
+RootedNativeObject
 templateObject
 ;
 bool
@@ -11492,7 +11501,7 @@ Compiler
 JSContext
 *
 cx
-JSObject
+NativeObject
 *
 templateObject
 )
@@ -11537,7 +11546,7 @@ templateObject
 }
 }
 ;
-HeapPtrObject
+HeapPtrNativeObject
 &
 templateObject
 (
@@ -28313,7 +28322,7 @@ protected
 HeapPtrScript
 calleeScript_
 ;
-HeapPtrObject
+HeapPtrNativeObject
 templateObject_
 ;
 uint32_t
@@ -28329,7 +28338,7 @@ ICStub
 firstMonitorStub
 HandleScript
 calleeScript
-HandleObject
+HandleNativeObject
 templateObject
 uint32_t
 pcOffset
@@ -28354,7 +28363,7 @@ ICStub
 firstMonitorStub
 HandleScript
 calleeScript
-HandleObject
+HandleNativeObject
 templateObject
 uint32_t
 pcOffset
@@ -28414,7 +28423,7 @@ return
 calleeScript_
 ;
 }
-HeapPtrObject
+HeapPtrNativeObject
 &
 templateObject
 (
@@ -28604,7 +28613,7 @@ isSpread_
 RootedScript
 calleeScript_
 ;
-RootedObject
+RootedNativeObject
 templateObject_
 ;
 uint32_t
@@ -28673,7 +28682,7 @@ ICStub
 firstMonitorStub
 HandleScript
 calleeScript
-HandleObject
+HandleNativeObject
 templateObject
 bool
 isConstructing
@@ -28834,7 +28843,7 @@ protected
 HeapPtrFunction
 callee_
 ;
-HeapPtrObject
+HeapPtrNativeObject
 templateObject_
 ;
 uint32_t
@@ -28868,7 +28877,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleObject
+HandleNativeObject
 templateObject
 uint32_t
 pcOffset
@@ -28893,7 +28902,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleObject
+HandleNativeObject
 templateObject
 uint32_t
 pcOffset
@@ -28953,7 +28962,7 @@ return
 callee_
 ;
 }
-HeapPtrObject
+HeapPtrNativeObject
 &
 templateObject
 (
@@ -29048,7 +29057,7 @@ isSpread_
 RootedFunction
 callee_
 ;
-RootedObject
+RootedNativeObject
 templateObject_
 ;
 uint32_t
@@ -29117,7 +29126,7 @@ ICStub
 firstMonitorStub
 HandleFunction
 callee
-HandleObject
+HandleNativeObject
 templateObject
 bool
 isConstructing
@@ -31567,7 +31576,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+HeapPtrArrayObject
 templateObject_
 ;
 ICRest_Fallback
@@ -31575,7 +31584,7 @@ ICRest_Fallback
 JitCode
 *
 stubCode
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -31615,7 +31624,7 @@ space
 JitCode
 *
 code
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -31642,7 +31651,7 @@ templateObject
 )
 ;
 }
-HeapPtrObject
+HeapPtrArrayObject
 &
 templateObject
 (
@@ -31660,7 +31669,7 @@ ICStubCompiler
 {
 protected
 :
-RootedObject
+RootedArrayObject
 templateObject
 ;
 bool
@@ -31678,7 +31687,7 @@ Compiler
 JSContext
 *
 cx
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -32164,7 +32173,7 @@ if
 obj
 -
 >
-numFixedSlots
+fakeNativeNumFixedSlots
 (
 )
 <

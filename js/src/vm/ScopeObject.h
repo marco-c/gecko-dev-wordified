@@ -1692,7 +1692,7 @@ class
 ScopeObject
 :
 public
-JSObject
+NativeObject
 {
 protected
 :
@@ -5889,7 +5889,7 @@ objects
 .
 *
 /
-JSObject
+ArrayObject
 *
 maybeSnapshot
 (
@@ -5899,7 +5899,7 @@ const
 void
 initSnapshot
 (
-JSObject
+ArrayObject
 &
 snapshot
 )

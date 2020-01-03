@@ -1055,7 +1055,7 @@ nextInSite
 (
 )
 ;
-HeapPtrObject
+HeapPtrNativeObject
 &
 dbgobj
 =

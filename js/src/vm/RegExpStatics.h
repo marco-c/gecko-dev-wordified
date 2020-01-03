@@ -157,6 +157,9 @@ class
 GlobalObject
 ;
 class
+RegExpStaticsObject
+;
+class
 RegExpStatics
 {
 /
@@ -318,7 +321,7 @@ clear
 ;
 }
 static
-JSObject
+RegExpStaticsObject
 *
 create
 (

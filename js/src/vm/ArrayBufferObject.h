@@ -504,7 +504,7 @@ class
 ArrayBufferObjectMaybeShared
 :
 public
-JSObject
+NativeObject
 {
 public
 :
@@ -1407,7 +1407,7 @@ addView
 JSContext
 *
 cx
-ArrayBufferViewObject
+JSObject
 *
 view
 )
@@ -2004,7 +2004,9 @@ definitions
 shared
 by
 all
-ArrayBufferViews
+array
+buffer
+views
 .
 *
 /
@@ -2145,7 +2147,7 @@ inline
 void
 InitArrayBufferViewDataPointer
 (
-ArrayBufferViewObject
+JSObject
 *
 obj
 ArrayBufferObject
@@ -2220,6 +2222,13 @@ nullptr
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 initPrivate
 (
 buffer

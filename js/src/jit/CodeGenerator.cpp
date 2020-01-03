@@ -9355,7 +9355,7 @@ tempPointer
 ;
 }
 typedef
-JSObject
+NativeObject
 *
 (
 *
@@ -9364,7 +9364,7 @@ DeepCloneObjectLiteralFn
 (
 JSContext
 *
-HandleObject
+HandleNativeObject
 NewObjectKind
 )
 ;
@@ -10994,7 +10994,7 @@ object
 (
 )
 )
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -11643,7 +11643,7 @@ loadTypedOrValue
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -11701,7 +11701,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -12101,7 +12101,7 @@ Address
 addr
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -12152,7 +12152,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -12470,7 +12470,7 @@ object
 (
 )
 )
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -12807,7 +12807,7 @@ CopyElementsForWriteFn
 (
 ThreadSafeContext
 *
-JSObject
+NativeObject
 *
 )
 ;
@@ -12821,7 +12821,7 @@ FunctionInfo
 CopyElementsForWriteFn
 >
 (
-JSObject
+NativeObject
 :
 :
 CopyElementsForWrite
@@ -12898,7 +12898,7 @@ loadPtr
 Address
 (
 object
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -15595,7 +15595,7 @@ loadPrivate
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -24590,7 +24590,7 @@ temp
 )
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -24628,7 +24628,7 @@ MOZ_ASSERT
 (
 count
 <
-JSObject
+NativeObject
 :
 :
 NELEMENTS_LIMIT
@@ -24808,7 +24808,7 @@ temp
 )
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -25006,7 +25006,7 @@ NewInitObjectFn
 (
 JSContext
 *
-HandleObject
+HandleNativeObject
 )
 ;
 static
@@ -25251,7 +25251,7 @@ ShouldInitFixedSlots
 LInstruction
 *
 lir
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -25437,7 +25437,7 @@ MOZ_ASSERT
 nfixed
 <
 =
-JSObject
+NativeObject
 :
 :
 MAX_FIXED_SLOTS
@@ -25445,7 +25445,7 @@ MAX_FIXED_SLOTS
 ;
 static_assert
 (
-JSObject
+NativeObject
 :
 :
 MAX_FIXED_SLOTS
@@ -25910,7 +25910,7 @@ temp
 )
 )
 ;
-JSObject
+NativeObject
 *
 templateObject
 =
@@ -26146,7 +26146,7 @@ temp
 )
 )
 ;
-JSObject
+NativeObject
 *
 templateObj
 =
@@ -26349,7 +26349,7 @@ temp
 )
 )
 ;
-JSObject
+NativeObject
 *
 templateObj
 =
@@ -26705,7 +26705,7 @@ getTemp1
 )
 )
 ;
-JSObject
+NativeObject
 *
 templateObj
 =
@@ -26734,7 +26734,7 @@ templateObj
 ;
 }
 typedef
-JSObject
+ArrayObject
 *
 (
 *
@@ -26743,7 +26743,7 @@ ExtendArrayParFn
 (
 ForkJoinContext
 *
-JSObject
+ArrayObject
 *
 uint32_t
 )
@@ -26837,7 +26837,7 @@ getTemp2
 )
 )
 ;
-JSObject
+ArrayObject
 *
 templateObj
 =
@@ -27205,7 +27205,7 @@ getTemp1
 )
 )
 ;
-JSObject
+NativeObject
 *
 templateObject
 =
@@ -27372,7 +27372,7 @@ Register
 tempReg1
 Register
 tempReg2
-JSObject
+NativeObject
 *
 templateObj
 )
@@ -28010,7 +28010,7 @@ InitPropFn
 JSContext
 *
 cx
-HandleObject
+HandleNativeObject
 obj
 HandlePropertyName
 name
@@ -28548,7 +28548,7 @@ LCreateThisWithTemplate
 lir
 )
 {
-JSObject
+NativeObject
 *
 templateObject
 =
@@ -40845,7 +40845,7 @@ SetDenseElementFn
 (
 JSContext
 *
-HandleObject
+HandleNativeObject
 int32_t
 HandleValue
 bool
@@ -41816,7 +41816,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -42528,7 +42528,7 @@ ArrayPushDenseFn
 (
 JSContext
 *
-HandleObject
+HandleArrayObject
 HandleValue
 uint32_t
 *
@@ -42616,7 +42616,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -43161,7 +43161,7 @@ loadPtr
 Address
 (
 lhs
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -43218,7 +43218,7 @@ loadPtr
 Address
 (
 rhs
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -44057,7 +44057,7 @@ NotEqual
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -45893,7 +45893,7 @@ uint32_t
 Value
 *
 HandleObject
-HandleObject
+HandleArrayObject
 )
 ;
 static
@@ -46222,7 +46222,7 @@ numFormals
 (
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -46443,7 +46443,7 @@ numFormals
 (
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =
@@ -50520,7 +50520,7 @@ loadValue
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -50612,7 +50612,7 @@ loadUnboxedValue
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -50686,7 +50686,7 @@ Address
 address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -50833,7 +50833,7 @@ Address
 address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -60368,7 +60368,7 @@ if
 (
 slot
 <
-JSObject
+NativeObject
 :
 :
 MAX_FIXED_SLOTS
@@ -60381,7 +60381,7 @@ loadValue
 Address
 (
 ObjectReg
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -60407,7 +60407,7 @@ slot
 slot
 -
 =
-JSObject
+NativeObject
 :
 :
 MAX_FIXED_SLOTS
@@ -60432,7 +60432,7 @@ loadPtr
 Address
 (
 ObjectReg
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -60606,7 +60606,7 @@ loadPrivate
 Address
 (
 ObjectReg
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -60962,7 +60962,7 @@ loadValue
 Address
 (
 object
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -61171,7 +61171,7 @@ loadPrivate
 Address
 (
 ObjectReg
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset

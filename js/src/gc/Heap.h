@@ -946,7 +946,7 @@ is
 in
 TenuredCell
 because
-ObjectImpl
+JSObject
 subclasses
 are
 sometimes

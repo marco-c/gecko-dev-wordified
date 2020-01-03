@@ -3386,7 +3386,7 @@ obj
 obj
 -
 >
-setInitialSlots
+fakeNativeSetInitialSlots
 (
 slots
 )

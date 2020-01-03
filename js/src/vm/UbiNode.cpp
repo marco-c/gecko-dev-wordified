@@ -834,6 +834,9 @@ JSFunction
 )
 &
 &
+js
+:
+:
 IsInternalFunctionObject
 (
 &

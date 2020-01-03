@@ -11614,7 +11614,7 @@ NewUInt32Range
 (
 alloc
 0
-JSObject
+NativeObject
 :
 :
 NELEMENTS_LIMIT

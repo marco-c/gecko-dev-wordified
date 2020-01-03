@@ -117,7 +117,9 @@ builtin_WeakSetObject_h
 #
 include
 "
-jsobj
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -128,7 +130,7 @@ class
 WeakSetObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

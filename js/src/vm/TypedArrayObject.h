@@ -511,7 +511,7 @@ class
 TypedArrayObject
 :
 public
-ArrayBufferViewObject
+NativeObject
 {
 public
 :
@@ -694,7 +694,7 @@ uint32_t
 INLINE_BUFFER_LIMIT
 =
 (
-JSObject
+NativeObject
 :
 :
 MAX_FIXED_SLOTS
@@ -1928,7 +1928,7 @@ class
 DataViewObject
 :
 public
-ArrayBufferViewObject
+NativeObject
 {
 static
 const
@@ -2068,7 +2068,7 @@ cx
 PropertyName
 *
 name
-HandleObject
+HandleNativeObject
 proto
 )
 ;

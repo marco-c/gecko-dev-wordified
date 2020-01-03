@@ -167,6 +167,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -323,7 +334,7 @@ numPairs
 0
 )
 ;
-RootedObject
+RootedArrayObject
 arr
 (
 cx
@@ -536,7 +547,7 @@ slot
 arr
 -
 >
-nativeSetSlot
+setSlot
 (
 0
 Int32Value
@@ -572,7 +583,7 @@ slot
 arr
 -
 >
-nativeSetSlot
+setSlot
 (
 1
 StringValue
@@ -633,7 +644,7 @@ test
 arr
 -
 >
-nativeGetSlot
+getSlot
 (
 0
 )
@@ -679,7 +690,7 @@ test
 arr
 -
 >
-nativeGetSlot
+getSlot
 (
 1
 )
@@ -3403,7 +3414,7 @@ GlobalObject
 )
 )
 ;
-RootedObject
+RootedNativeObject
 proto
 (
 cx

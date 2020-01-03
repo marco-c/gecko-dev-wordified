@@ -2266,7 +2266,7 @@ return
 false
 ;
 }
-JSObject
+NativeObject
 *
 BaselineInspector
 :
@@ -2397,7 +2397,7 @@ Call_Scripted
 :
 if
 (
-JSObject
+NativeObject
 *
 obj
 =
@@ -2428,7 +2428,7 @@ return
 nullptr
 ;
 }
-JSObject
+NativeObject
 *
 BaselineInspector
 :
