@@ -915,8 +915,9 @@ if
 module
 =
 =
-GetModuleHandleA
+GetModuleHandleW
 (
+L
 "
 msvcr120
 .
