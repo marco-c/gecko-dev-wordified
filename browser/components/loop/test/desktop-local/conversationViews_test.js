@@ -3140,6 +3140,10 @@ conversationStore
 dispatcher
 :
 dispatcher
+mozLoop
+:
+{
+}
 matchMedia
 :
 window
