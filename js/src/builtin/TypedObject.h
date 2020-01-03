@@ -3921,12 +3921,9 @@ JSContext
 cx
 HandleObject
 obj
-JSIterateOp
-enum_op
-MutableHandleValue
-statep
-MutableHandleId
-idp
+AutoIdVector
+&
+properties
 )
 ;
 public
