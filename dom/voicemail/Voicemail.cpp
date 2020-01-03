@@ -534,7 +534,7 @@ MozVoicemail
 WebIDL
 already_AddRefed
 <
-MozVoicemailStatus
+VoicemailStatus
 >
 Voicemail
 :
@@ -697,12 +697,12 @@ toObject
 ;
 nsRefPtr
 <
-MozVoicemailStatus
+VoicemailStatus
 >
 res
 =
 new
-MozVoicemailStatus
+VoicemailStatus
 (
 statusObj
 GetParentObject
@@ -957,7 +957,7 @@ init
 mStatus
 =
 new
-MozVoicemailStatus
+VoicemailStatus
 (
 statusObj
 GetParentObject
