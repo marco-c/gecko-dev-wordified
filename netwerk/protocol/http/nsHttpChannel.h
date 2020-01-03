@@ -2167,6 +2167,11 @@ UntieByteRangeRequest
 (
 )
 ;
+void
+UntieValidationRequest
+(
+)
+;
 nsresult
 OpenCacheInputStream
 (
