@@ -850,7 +850,7 @@ Check
 TelemetryLog
 instead
 of
-TelemetryPing
+TelemetrySession
 .
 getPayload
 (
@@ -860,7 +860,7 @@ log
 because
 /
 /
-TelemetryPing
+TelemetrySession
 gets
 Experiments
 .

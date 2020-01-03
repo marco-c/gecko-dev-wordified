@@ -31,7 +31,7 @@ zero
 /
 Check
 that
-TelemetryPing
+TelemetrySession
 notifies
 correctly
 on
@@ -79,7 +79,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -133,7 +133,7 @@ telemetry
 false
 )
 ;
-TelemetryPing
+TelemetrySession
 .
 observe
 (
