@@ -43,9 +43,7 @@ mouseover
 mouseout
 .
 let
-{
 BarGraphWidget
-}
 =
 devtools
 .

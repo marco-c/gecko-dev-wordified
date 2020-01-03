@@ -362,7 +362,6 @@ widgets
 /
 LineGraphWidget
 "
-true
 )
 ;
 /

@@ -40,9 +40,7 @@ as
 expected
 .
 let
-{
 BarGraphWidget
-}
 =
 devtools
 .
