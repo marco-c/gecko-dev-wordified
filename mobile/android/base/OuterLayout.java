@@ -900,7 +900,6 @@ return
 true
 ;
 }
-}
 /
 /
 Because
@@ -934,6 +933,7 @@ event
 return
 true
 ;
+}
 }
 return
 false
