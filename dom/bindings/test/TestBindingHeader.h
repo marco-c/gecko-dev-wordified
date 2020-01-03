@@ -997,6 +997,11 @@ ConstantByte
 )
 ;
 int8_t
+DeviceStateDependentByte
+(
+)
+;
+int8_t
 ReturnByteSideEffectFree
 (
 )
@@ -1008,6 +1013,11 @@ ReturnDOMDependentByte
 ;
 int8_t
 ReturnConstantByte
+(
+)
+;
+int8_t
+ReturnDeviceStateDependentByte
 (
 )
 ;
