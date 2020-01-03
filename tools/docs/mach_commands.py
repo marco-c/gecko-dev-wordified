@@ -226,10 +226,8 @@ sphinx_rtd_theme
 '
 )
         
-from
-moztreedocs
 import
-SphinxManager
+sphinx
         
 if
 outdir
@@ -258,13 +256,20 @@ docs
 '
 )
         
-manager
+args
 =
-SphinxManager
-(
-self
-.
-topsrcdir
+[
+            
+'
+sphinx
+'
+            
+'
+-
+b
+'
+format
+            
 os
 .
 path
@@ -274,7 +279,6 @@ join
 self
 .
 topsrcdir
-            
 '
 tools
 '
@@ -282,19 +286,23 @@ tools
 docs
 '
 )
+            
+os
+.
+path
+.
+join
+(
 outdir
+format
 )
         
-manager
-.
-read_build_config
-(
-)
+]
         
 return
-manager
+sphinx
 .
-generate_docs
+main
 (
-format
+args
 )
