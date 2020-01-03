@@ -655,7 +655,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
@@ -752,7 +752,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
@@ -945,7 +945,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
@@ -1003,7 +1003,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
