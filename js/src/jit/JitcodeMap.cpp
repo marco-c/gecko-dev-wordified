@@ -5324,14 +5324,14 @@ trc
 if
 (
 !
-IsJitCodeMarked
+IsMarkedUnbarriered
 (
 &
 jitcode_
 )
 )
 {
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -5365,7 +5365,7 @@ isJitcodeMarkedFromAnyThread
 )
 {
 return
-IsJitCodeMarked
+IsMarkedUnbarriered
 (
 &
 jitcode_
@@ -5395,7 +5395,7 @@ isJitcodeAboutToBeFinalized
 )
 {
 return
-IsJitCodeAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 jitcode_

@@ -2956,7 +2956,7 @@ JitCode
 (
 )
 ;
-MarkJitCodeRoot
+TraceRoot
 (
 trc
 &
@@ -3330,7 +3330,7 @@ stringConcatStub_
 &
 &
 !
-IsJitCodeMarked
+IsMarkedUnbarriered
 (
 &
 stringConcatStub_
@@ -3346,7 +3346,7 @@ regExpExecStub_
 &
 &
 !
-IsJitCodeMarked
+IsMarkedUnbarriered
 (
 &
 regExpExecStub_
@@ -3362,7 +3362,7 @@ regExpTestStub_
 &
 &
 !
-IsJitCodeMarked
+IsMarkedUnbarriered
 (
 &
 regExpTestStub_
@@ -5103,7 +5103,7 @@ if
 (
 method_
 )
-MarkJitCode
+TraceEdge
 (
 trc
 &
@@ -5117,7 +5117,7 @@ if
 (
 deoptTable_
 )
-MarkJitCode
+TraceEdge
 (
 trc
 &

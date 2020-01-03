@@ -568,7 +568,7 @@ offset
 )
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

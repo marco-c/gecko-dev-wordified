@@ -917,7 +917,7 @@ rp
 target
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

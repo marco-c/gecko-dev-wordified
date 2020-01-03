@@ -969,7 +969,7 @@ jitCode
 (
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

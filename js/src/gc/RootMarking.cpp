@@ -682,7 +682,7 @@ jit
 :
 JitCode
 *
-MarkJitCodeRoot
+TraceRoot
 >
 (
 trc

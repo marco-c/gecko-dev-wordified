@@ -1671,7 +1671,7 @@ offset
 )
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2413,7 +2413,7 @@ rp
 target
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
