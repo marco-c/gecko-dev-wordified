@@ -354,6 +354,9 @@ false
 ;
 if
 (
+mImage
+&
+&
 !
 NS_IsMainThread
 (
