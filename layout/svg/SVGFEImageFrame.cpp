@@ -450,10 +450,6 @@ imageLoader
 >
 DecrementVisibleCount
 (
-nsIImageLoadingContent
-:
-:
-ON_NONVISIBLE_NO_ACTION
 )
 ;
 }
