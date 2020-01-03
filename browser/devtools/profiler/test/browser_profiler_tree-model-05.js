@@ -257,10 +257,11 @@ new
 ThreadNode
 (
 samples
-undefined
-undefined
-undefined
+{
+invertTree
+:
 true
+}
 )
 ;
 is
