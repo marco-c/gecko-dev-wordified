@@ -176,12 +176,6 @@ MediaErrors
 h
 "
 #
-define
-LOG_TAG
-"
-MediaCodecProxy
-"
-#
 include
 <
 android
@@ -192,7 +186,7 @@ h
 >
 #
 define
-ALOG
+MCP_LOG
 (
 .
 .
@@ -201,7 +195,9 @@ ALOG
 __android_log_print
 (
 ANDROID_LOG_DEBUG
-LOG_TAG
+"
+MediaCodecProxy
+"
 __VA_ARGS__
 )
 #
@@ -2154,7 +2150,7 @@ start
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 Couldn
@@ -2181,7 +2177,7 @@ mInputBuffers
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 Couldn
@@ -2211,7 +2207,7 @@ mOutputBuffers
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 Couldn
@@ -2249,7 +2245,7 @@ mCodec
 nullptr
 )
 {
-ALOG
+MCP_LOG
 (
 "
 MediaCodec
@@ -2284,7 +2280,7 @@ err
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 Couldn
@@ -2332,7 +2328,7 @@ mCodec
 nullptr
 )
 {
-ALOG
+MCP_LOG
 (
 "
 MediaCodec
@@ -2371,7 +2367,7 @@ err
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 dequeueInputBuffer
@@ -2480,7 +2476,7 @@ err
 OK
 )
 {
-ALOG
+MCP_LOG
 (
 "
 queueInputBuffer
@@ -2521,7 +2517,7 @@ mCodec
 nullptr
 )
 {
-ALOG
+MCP_LOG
 (
 "
 MediaCodec

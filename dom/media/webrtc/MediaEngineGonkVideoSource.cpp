@@ -64,6 +64,9 @@ MediaEngineGonkVideoSource
 h
 "
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
