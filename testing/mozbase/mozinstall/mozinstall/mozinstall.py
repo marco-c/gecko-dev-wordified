@@ -1615,6 +1615,10 @@ Popen
 '
 hdiutil
 attach
+-
+nobrowse
+-
+noautoopen
 %
 s
 '
