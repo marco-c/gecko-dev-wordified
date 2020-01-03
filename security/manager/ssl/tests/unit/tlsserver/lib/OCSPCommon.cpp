@@ -1104,9 +1104,6 @@ some
 Mozilla
 -
 OID
-\
-/
-/
 1
 .
 3
