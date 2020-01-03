@@ -826,6 +826,10 @@ WorkerFeature
 >
 mWorkerFeature
 ;
+const
+bool
+mFileHandleDisabled
+;
 public
 :
 static
@@ -873,6 +877,16 @@ JSObject
 aScriptOwner
 )
 ;
+bool
+IsFileHandleDisabled
+(
+)
+const
+{
+return
+mFileHandleDisabled
+;
+}
 void
 SetTransaction
 (
@@ -959,6 +973,8 @@ aFactory
 nsPIDOMWindow
 *
 aOwner
+bool
+aFileHandleDisabled
 )
 ;
 ~

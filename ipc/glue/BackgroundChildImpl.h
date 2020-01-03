@@ -95,6 +95,9 @@ mozilla
 namespace
 dom
 {
+class
+FileHandleBase
+;
 namespace
 indexedDB
 {
@@ -686,6 +689,16 @@ indexedDB
 ThreadLocal
 >
 mIndexedDBThreadLocal
+;
+mozilla
+:
+:
+dom
+:
+:
+FileHandleBase
+*
+mCurrentFileHandle
 ;
 public
 :

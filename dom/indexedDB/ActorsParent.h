@@ -139,6 +139,9 @@ dom
 class
 Element
 ;
+class
+FileHandleThreadPool
+;
 namespace
 quota
 {
@@ -234,6 +237,12 @@ quota
 Client
 >
 CreateQuotaClient
+(
+)
+;
+FileHandleThreadPool
+*
+GetFileHandleThreadPool
 (
 )
 ;

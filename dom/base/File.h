@@ -2851,16 +2851,6 @@ aDirState
 )
 override
 {
-NS_ASSERTION
-(
-aLength
-"
-must
-have
-length
-"
-)
-;
 mName
 =
 aName

@@ -600,6 +600,11 @@ ThreadLocal
 ThreadLocal
 (
 )
+:
+mCurrentFileHandle
+(
+nullptr
+)
 {
 /
 /
