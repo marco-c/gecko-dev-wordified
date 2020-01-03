@@ -498,7 +498,7 @@ sendAsyncMessage
 "
 Reader
 :
-UpdateIsArticle
+UpdateReaderButton
 "
 {
 isArticle
@@ -620,7 +620,7 @@ sendAsyncMessage
 "
 Reader
 :
-UpdateIsArticle
+UpdateReaderButton
 "
 {
 isArticle
