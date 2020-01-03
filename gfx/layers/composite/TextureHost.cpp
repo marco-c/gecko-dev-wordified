@@ -2214,12 +2214,9 @@ mNeedsFullUpdate
 )
 {
 mMaybeUpdatedRegion
-=
-mMaybeUpdatedRegion
 .
-Or
+OrWith
 (
-mMaybeUpdatedRegion
 *
 aRegion
 )
