@@ -1055,9 +1055,7 @@ called
 ObtainDocShell
 because
 of
-it
-'
-s
+its
 side
 effects
 .
