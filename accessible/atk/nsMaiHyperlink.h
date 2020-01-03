@@ -163,6 +163,7 @@ MaiHyperlink
 {
 public
 :
+explicit
 MaiHyperlink
 (
 Accessible
