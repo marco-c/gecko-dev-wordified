@@ -6418,6 +6418,8 @@ PageMetadataMessenger
 =
 {
 init
+:
+function
 (
 )
 {
@@ -6443,13 +6445,15 @@ this
 ;
 }
 receiveMessage
+:
+function
 (
-message
+aMessage
 )
 {
 switch
 (
-message
+aMessage
 .
 name
 )
@@ -6498,7 +6502,7 @@ GetMicrodata
 let
 target
 =
-message
+aMessage
 .
 objects
 ;
