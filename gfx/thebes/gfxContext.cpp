@@ -6768,12 +6768,9 @@ EnsurePathBuilder
 (
 )
 ;
-Size
+RectCornerRadii
 radii
-[
-]
-=
-{
+(
 ToSize
 (
 corners
@@ -6802,7 +6799,7 @@ corners
 NS_CORNER_BOTTOM_LEFT
 ]
 )
-}
+)
 ;
 AppendRoundedRectToPath
 (
