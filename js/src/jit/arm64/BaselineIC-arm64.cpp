@@ -129,9 +129,6 @@ h
 #
 ifdef
 JS_ARM64_SIMULATOR
-/
-/
-TODO
 #
 include
 "
