@@ -207,6 +207,7 @@ TRANSITION_TYPED
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -221,6 +222,7 @@ bookmarked
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -235,6 +237,7 @@ tpbk
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -1651,6 +1654,7 @@ TRANSITION_TYPED
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -1665,6 +1669,7 @@ bookmarked
 }
 )
 ;
+yield
 addBookmark
 (
 {

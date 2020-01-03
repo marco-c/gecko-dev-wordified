@@ -241,6 +241,7 @@ title
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -271,6 +272,7 @@ tag
 }
 )
 ;
+yield
 addBookmark
 (
 {

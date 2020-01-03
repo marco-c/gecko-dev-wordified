@@ -110,6 +110,7 @@ TRANSITION_TYPED
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -224,6 +225,7 @@ TRANSITION_TYPED
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -338,6 +340,7 @@ TRANSITION_TYPED
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -458,6 +461,7 @@ TRANSITION_TYPED
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -577,6 +581,7 @@ TRANSITION_TYPED
 }
 )
 ;
+yield
 addBookmark
 (
 {

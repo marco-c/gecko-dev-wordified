@@ -324,6 +324,7 @@ TRANSITION_FRAMED_LINK
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -340,6 +341,7 @@ bookmark
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -356,6 +358,7 @@ bookmark
 }
 )
 ;
+yield
 addBookmark
 (
 {

@@ -167,6 +167,7 @@ javascript
 ]
 )
 ;
+yield
 addBookmark
 (
 {

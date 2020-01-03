@@ -504,6 +504,7 @@ TRANSITION_TYPED
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -518,6 +519,7 @@ title
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -534,6 +536,7 @@ bar
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -548,6 +551,7 @@ title
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -564,6 +568,7 @@ bar
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -587,6 +592,7 @@ bar
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -612,6 +618,7 @@ bar
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -635,6 +642,7 @@ bar
 }
 )
 ;
+yield
 addBookmark
 (
 {

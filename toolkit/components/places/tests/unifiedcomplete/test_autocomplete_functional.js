@@ -661,6 +661,7 @@ typed
 false
 )
 ;
+yield
 addBookmark
 (
 {

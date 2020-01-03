@@ -141,6 +141,7 @@ title
 }
 )
 ;
+yield
 addBookmark
 (
 {
