@@ -1043,6 +1043,7 @@ after
 a
 restart
 .
+yield
 TelemetryController
 .
 reset
@@ -3390,7 +3391,7 @@ id
 yield
 TelemetryController
 .
-setup
+reset
 (
 )
 ;
@@ -3470,6 +3471,7 @@ id
 .
 "
 )
+;
 Assert
 .
 ok

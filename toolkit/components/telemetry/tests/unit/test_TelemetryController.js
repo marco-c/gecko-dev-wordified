@@ -2445,6 +2445,13 @@ true
 true
 )
 ;
+yield
+TelemetrySend
+.
+testWaitOnOutgoingPings
+(
+)
+;
 /
 /
 Check
@@ -2491,6 +2498,13 @@ ping
 TEST_PING_TYPE
 true
 true
+)
+;
+yield
+TelemetrySend
+.
+testWaitOnOutgoingPings
+(
 )
 ;
 /
