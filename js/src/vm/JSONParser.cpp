@@ -466,10 +466,7 @@ value
 "
 )
 ;
-gc
-:
-:
-MarkIdRoot
+TraceRoot
 (
 trc
 &
