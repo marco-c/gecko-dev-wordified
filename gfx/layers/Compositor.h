@@ -891,7 +891,7 @@ TextureHost
 (
 ex
 .
-SharedTextureHostOGL
+SurfaceTextureHost
 )
 *
 Depending
