@@ -408,17 +408,6 @@ nsRect
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-/
-/
-for
-nsRenderingContext
-#
-include
-"
 nsServiceManagerUtils
 .
 h

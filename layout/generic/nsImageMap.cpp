@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

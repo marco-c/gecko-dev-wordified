@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
