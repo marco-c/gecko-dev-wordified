@@ -269,7 +269,7 @@ aPlayer
 ;
 }
 PLDHashOperator
-StartPlayerAtTime
+TriggerPlayerAtTime
 (
 nsRefPtrHashKey
 <
@@ -368,6 +368,8 @@ player
 will
 be
 started
+/
+paused
 when
 the
 refresh
@@ -426,7 +428,7 @@ aReadyTime
 player
 -
 >
-StartOnNextTick
+TriggerOnNextTick
 (
 readyTime
 )
@@ -451,7 +453,7 @@ mPlayPendingSet
 .
 EnumerateEntries
 (
-StartPlayerAtTime
+TriggerPlayerAtTime
 const_cast
 <
 TimeStamp
@@ -465,7 +467,7 @@ aReadyTime
 ;
 }
 PLDHashOperator
-StartPlayerNow
+TriggerPlayerNow
 (
 nsRefPtrHashKey
 <
@@ -488,7 +490,7 @@ GetKey
 )
 -
 >
-StartNow
+TriggerNow
 (
 )
 ;
@@ -508,7 +510,7 @@ mPlayPendingSet
 .
 EnumerateEntries
 (
-StartPlayerNow
+TriggerPlayerNow
 nullptr
 )
 ;
