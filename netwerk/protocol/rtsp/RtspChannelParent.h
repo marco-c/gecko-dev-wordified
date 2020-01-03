@@ -394,6 +394,16 @@ aContext
 override
 final
 ;
+NS_IMETHOD
+AsyncOpen2
+(
+nsIStreamListener
+*
+listener
+)
+override
+final
+;
 /
 /
 nsBaseChannel

@@ -818,6 +818,15 @@ aContext
 )
 override
 ;
+NS_IMETHOD
+AsyncOpen2
+(
+nsIStreamListener
+*
+aListener
+)
+override
+;
 /
 /
 nsIHttpChannelInternal

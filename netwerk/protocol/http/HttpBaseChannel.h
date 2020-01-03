@@ -774,6 +774,16 @@ aResult
 )
 override
 ;
+NS_IMETHOD
+Open2
+(
+nsIInputStream
+*
+*
+aResult
+)
+override
+;
 /
 /
 nsIEncodedChannel
