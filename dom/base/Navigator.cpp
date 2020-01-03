@@ -1203,6 +1203,10 @@ mCameraManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
+mMediaDevices
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
 mMessagesManager
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -1545,6 +1549,10 @@ nullptr
 #
 endif
 mCameraManager
+=
+nullptr
+;
+mMediaDevices
 =
 nullptr
 ;
