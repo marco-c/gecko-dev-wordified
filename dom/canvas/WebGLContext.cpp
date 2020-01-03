@@ -1668,7 +1668,11 @@ mCurrentProgram
 =
 nullptr
 ;
-mBoundFramebuffer
+mBoundDrawFramebuffer
+=
+nullptr
+;
+mBoundReadFramebuffer
 =
 nullptr
 ;
@@ -10669,7 +10673,8 @@ mBoundPixelUnpackBuffer
 mBoundTransformFeedbackBuffer
 mBoundUniformBuffer
 mCurrentProgram
-mBoundFramebuffer
+mBoundDrawFramebuffer
+mBoundReadFramebuffer
 mBoundRenderbuffer
 mBoundVertexArray
 mDefaultVertexArray
