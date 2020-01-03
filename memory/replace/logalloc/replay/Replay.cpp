@@ -1912,7 +1912,7 @@ _WIN32
 !
 defined
 (
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 )
 void
 malloc_init_hard
@@ -3034,7 +3034,7 @@ _WIN32
 !
 defined
 (
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 )
 malloc_init_hard
 (
