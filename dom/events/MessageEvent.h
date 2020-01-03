@@ -169,9 +169,6 @@ class
 MessagePort
 ;
 class
-MessagePortBase
-;
-class
 MessagePortList
 ;
 class
@@ -476,7 +473,7 @@ mWindowSource
 ;
 nsRefPtr
 <
-MessagePortBase
+MessagePort
 >
 mPortSource
 ;

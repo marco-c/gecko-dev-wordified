@@ -217,7 +217,7 @@ nsTArray
 <
 nsRefPtr
 <
-MessagePortBase
+MessagePort
 >
 >
 &
@@ -279,7 +279,7 @@ Length
 )
 ;
 }
-MessagePortBase
+MessagePort
 *
 Item
 (
@@ -296,7 +296,7 @@ aIndex
 )
 ;
 }
-MessagePortBase
+MessagePort
 *
 IndexedGetter
 (
@@ -346,7 +346,7 @@ nsTArray
 <
 nsRefPtr
 <
-MessagePortBase
+MessagePort
 >
 >
 mPorts

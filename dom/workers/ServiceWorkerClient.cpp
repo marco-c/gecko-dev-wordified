@@ -804,14 +804,13 @@ nsTArray
 <
 nsRefPtr
 <
-MessagePortBase
+MessagePort
 >
 >
 ports
-;
+=
 TakeTransferredPorts
 (
-ports
 )
 ;
 nsRefPtr
