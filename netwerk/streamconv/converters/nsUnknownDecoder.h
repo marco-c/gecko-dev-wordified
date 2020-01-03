@@ -239,6 +239,7 @@ nsIStreamListener
 {
 public
 :
+explicit
 ConvertedStreamListener
 (
 nsUnknownDecoder

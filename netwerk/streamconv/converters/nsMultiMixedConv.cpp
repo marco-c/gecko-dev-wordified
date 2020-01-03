@@ -1824,6 +1824,7 @@ nullptr
 )
 {
 }
+explicit
 AutoFree
 (
 char
@@ -1936,8 +1937,9 @@ NS_OK
 ;
 AutoFree
 buffer
-=
+(
 nullptr
+)
 ;
 uint32_t
 bufLen
