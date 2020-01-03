@@ -489,7 +489,7 @@ aTriggeringPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -909,13 +909,12 @@ rv
 hchan
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 mListener
 -
 >
 mLoader
-nullptr
 )
 ;
 }
