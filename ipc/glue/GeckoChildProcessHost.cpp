@@ -591,18 +591,10 @@ mEnableNPAPISandbox
 (
 false
 )
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX
-)
-mMoreStrictContentSandbox
+mMoreStrictSandbox
 (
 false
 )
-#
-endif
 #
 endif
 mChildProcessHandle
@@ -1434,7 +1426,7 @@ mProcessType
 GeckoProcessType_Content
 )
 {
-mMoreStrictContentSandbox
+mMoreStrictSandbox
 =
 Preferences
 :
@@ -5124,7 +5116,7 @@ mSandboxBroker
 .
 SetSecurityLevelForContentProcess
 (
-mMoreStrictContentSandbox
+mMoreStrictSandbox
 )
 ;
 cmdLine
@@ -5173,6 +5165,7 @@ mSandboxBroker
 .
 SetSecurityLevelForPluginProcess
 (
+mMoreStrictSandbox
 )
 ;
 cmdLine
