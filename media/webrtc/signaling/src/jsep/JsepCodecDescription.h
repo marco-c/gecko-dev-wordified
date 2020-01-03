@@ -962,10 +962,6 @@ mMaxBr
 (
 0
 )
-mUseTmmbr
-(
-false
-)
 {
 /
 /
@@ -1003,9 +999,11 @@ SdpRtcpFbAttributeList
 fir
 )
 ;
-if
+}
+virtual
+void
+EnableTmmbr
 (
-mUseTmmbr
 )
 {
 mCcmFbTypes
@@ -1018,7 +1016,6 @@ SdpRtcpFbAttributeList
 tmmbr
 )
 ;
-}
 }
 virtual
 void
@@ -2955,9 +2952,6 @@ mMaxDpb
 ;
 uint32_t
 mMaxBr
-;
-bool
-mUseTmmbr
 ;
 std
 :
