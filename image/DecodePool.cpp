@@ -640,13 +640,6 @@ NS_IsMainThread
 mDecoder
 -
 >
-Finish
-(
-)
-;
-mDecoder
--
->
 GetImage
 (
 )
@@ -2682,13 +2675,6 @@ aDecoder
 return
 ;
 }
-aDecoder
--
->
-Finish
-(
-)
-;
 aDecoder
 -
 >
