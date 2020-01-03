@@ -2089,6 +2089,12 @@ options
 "
 )
     
+options
+.
+runByDir
+=
+False
+    
 dm
 =
 options
