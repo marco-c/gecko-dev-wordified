@@ -1069,6 +1069,11 @@ PaintedLayerData
 aLayerData
 =
 nullptr
+ContainerState
+*
+aContainingContainerState
+=
+nullptr
 )
 ;
 /
@@ -1973,7 +1978,6 @@ const
 nsIntRect
 &
 aItemVisibleRect
-const
 ContainerState
 &
 aContainerState
@@ -3775,6 +3779,16 @@ mContainingPaintedLayer
 mRetainingManager
 ;
 }
+ContainerState
+*
+GetContainingContainerState
+(
+)
+{
+return
+mContainingContainerState
+;
+}
 /
 *
 *
@@ -4056,6 +4070,10 @@ placed
 PaintedLayerData
 *
 mContainingPaintedLayer
+;
+ContainerState
+*
+mContainingContainerState
 ;
 /
 *
