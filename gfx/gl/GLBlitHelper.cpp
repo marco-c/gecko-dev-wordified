@@ -3946,6 +3946,10 @@ endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
+#
+define
+ATTACH_WAIT_MS
+50
 bool
 GLBlitHelper
 :
@@ -3993,6 +3997,10 @@ surfaceTexture
 Attach
 (
 mGL
+PR_MillisecondsToInterval
+(
+ATTACH_WAIT_MS
+)
 )
 )
 )
