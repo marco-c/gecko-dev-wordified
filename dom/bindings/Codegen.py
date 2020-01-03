@@ -49665,10 +49665,13 @@ CGGeneric
 "
 if
 (
+MOZ_UNLIKELY
+(
 rv
 .
 Failed
 (
+)
 )
 )
 {
@@ -54360,6 +54363,8 @@ fill
                     
 if
 (
+MOZ_UNLIKELY
+(
 args
 .
 length
@@ -54369,6 +54374,7 @@ length
 {
 requiredArgs
 }
+)
 )
 {
                       
