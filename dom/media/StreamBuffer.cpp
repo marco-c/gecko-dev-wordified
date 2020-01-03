@@ -572,6 +572,17 @@ GetID
 aID
 )
 {
+if
+(
+middle
+=
+=
+0
+)
+{
+break
+;
+}
 right
 =
 middle
