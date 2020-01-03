@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 Cc
 =
@@ -212,7 +217,7 @@ nsIPromptService2
 -
 -
 private
-memebers
+members
 -
 -
 -
@@ -1476,6 +1481,7 @@ com
 80
 "
 )
+let
 port
 =
 uri
