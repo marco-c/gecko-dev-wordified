@@ -412,6 +412,7 @@ Saiz
 {
 public
 :
+explicit
 Saiz
 (
 Box
@@ -438,6 +439,7 @@ Saio
 {
 public
 :
+explicit
 Saio
 (
 Box

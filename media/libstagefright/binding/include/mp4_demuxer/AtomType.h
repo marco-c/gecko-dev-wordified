@@ -156,6 +156,7 @@ mType
 )
 {
 }
+MOZ_IMPLICIT
 AtomType
 (
 uint32_t
@@ -168,6 +169,7 @@ aType
 )
 {
 }
+MOZ_IMPLICIT
 AtomType
 (
 const

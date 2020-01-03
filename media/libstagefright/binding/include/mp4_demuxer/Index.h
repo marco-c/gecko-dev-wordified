@@ -107,6 +107,7 @@ SampleIterator
 {
 public
 :
+explicit
 SampleIterator
 (
 Index

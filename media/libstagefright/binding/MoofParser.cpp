@@ -282,6 +282,7 @@ Stream
 {
 public
 :
+explicit
 BlockingStream
 (
 Stream
@@ -419,11 +420,13 @@ max
 )
 )
 ;
+nsRefPtr
+<
 mp4_demuxer
 :
 :
 BlockingStream
-*
+>
 stream
 =
 new

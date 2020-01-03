@@ -205,8 +205,10 @@ aByteRanges
 )
 {
 }
+nsRefPtr
+<
 Stream
-*
+>
 mSource
 ;
 const
