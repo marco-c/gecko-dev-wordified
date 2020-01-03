@@ -140,10 +140,6 @@ Attributes
 .
 h
 "
-/
-/
-for
-MOZ_THIS_IN_INITIALIZER_LIST
 #
 include
 "
