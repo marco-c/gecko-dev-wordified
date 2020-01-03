@@ -1331,17 +1331,6 @@ resetBufferedGrayRoots
 (
 )
 ;
-void
-markBufferedGrayRoots
-(
-JS
-:
-:
-Zone
-*
-zone
-)
-;
 static
 void
 GrayCallback

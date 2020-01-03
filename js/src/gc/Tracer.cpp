@@ -3531,7 +3531,7 @@ clearAndFree
 ;
 }
 void
-GCMarker
+GCRuntime
 :
 :
 markBufferedGrayRoots
@@ -3546,19 +3546,9 @@ zone
 {
 MOZ_ASSERT
 (
-runtime
-(
-)
--
->
-gc
-.
 grayBufferState
 =
 =
-GCRuntime
-:
-:
 GrayBufferState
 :
 :
@@ -3618,6 +3608,8 @@ elem
 #
 ifdef
 DEBUG
+marker
+.
 setTracingDetails
 (
 elem
@@ -3638,7 +3630,8 @@ debugPrintIndex
 endif
 MarkKind
 (
-this
+&
+marker
 &
 elem
 -
