@@ -2467,6 +2467,7 @@ getAllocations
 let
 isStillAttached
 =
+(
 yield
 this
 .
@@ -2479,6 +2480,8 @@ memory
 getState
 "
 )
+)
+=
 =
 =
 "
