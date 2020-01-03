@@ -77,6 +77,7 @@ experimental
 ;
 const
 {
+Cc
 Ci
 components
 }
@@ -120,6 +121,11 @@ url
 "
 )
 ;
+exports
+.
+sourceURI
+=
+sourceURI
 function
 safeGetFileLine
 (
