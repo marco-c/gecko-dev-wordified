@@ -6774,6 +6774,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
@@ -6784,8 +6786,6 @@ allow_zooming
 true
 )
 ;
-#
-endif
 pref
 (
 "
