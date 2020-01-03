@@ -227,6 +227,10 @@ nsACString
 hostname
 uint32_t
 flags
+const
+nsACString
+&
+networkInterface
 )
 {
 nsresult
@@ -278,10 +282,11 @@ rv
 dns
 -
 >
-AsyncResolve
+AsyncResolveExtended
 (
 hostname
 flags
+networkInterface
 this
 mainThread
 getter_AddRefs
@@ -335,6 +340,10 @@ uint32_t
 &
 flags
 const
+nsCString
+&
+networkInterface
+const
 nsresult
 &
 reason
@@ -369,10 +378,11 @@ rv
 dns
 -
 >
-CancelAsyncResolve
+CancelAsyncResolveExtended
 (
 hostName
 flags
+networkInterface
 this
 reason
 )

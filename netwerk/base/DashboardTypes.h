@@ -131,6 +131,9 @@ family
 int64_t
 expiration
 ;
+nsCString
+netInterface
+;
 }
 ;
 struct

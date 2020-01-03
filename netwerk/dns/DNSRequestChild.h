@@ -184,6 +184,10 @@ const
 uint32_t
 &
 aFlags
+const
+nsCString
+&
+aNetworkInterface
 nsIDNSListener
 *
 aListener
@@ -287,6 +291,9 @@ mHost
 ;
 uint16_t
 mFlags
+;
+nsCString
+mNetworkInterface
 ;
 bool
 mIPCOpen
