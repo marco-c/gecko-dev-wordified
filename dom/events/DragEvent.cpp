@@ -791,6 +791,14 @@ mDataTransfer
 e
 -
 >
+InitializeExtraMouseEventDictionaryMembers
+(
+aParam
+)
+;
+e
+-
+>
 SetTrusted
 (
 trusted
