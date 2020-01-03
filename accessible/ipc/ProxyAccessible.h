@@ -330,6 +330,14 @@ this
 )
 ;
 }
+int32_t
+IndexOfEmbeddedChild
+(
+const
+ProxyAccessible
+*
+)
+;
 bool
 MustPruneChildren
 (
