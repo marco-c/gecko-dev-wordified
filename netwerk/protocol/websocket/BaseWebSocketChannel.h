@@ -430,6 +430,11 @@ mClientSetPingTimeout
 1
 ;
 uint32_t
+mPingForced
+:
+1
+;
+uint32_t
 mPingInterval
 ;
 /
