@@ -69,6 +69,7 @@ EVENTS
 PerformanceController
 DetailsView
 JsFlameGraphView
+FlameGraphUtils
 }
 =
 panel
