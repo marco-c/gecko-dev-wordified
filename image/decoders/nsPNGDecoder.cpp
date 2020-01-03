@@ -616,7 +616,7 @@ nsPNGDecoder
 nsPNGDecoder
 (
 RasterImage
-*
+&
 aImage
 )
 :

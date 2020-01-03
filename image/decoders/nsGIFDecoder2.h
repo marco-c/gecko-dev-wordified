@@ -213,7 +213,7 @@ explicit
 nsGIFDecoder2
 (
 RasterImage
-*
+&
 aImage
 )
 ;
