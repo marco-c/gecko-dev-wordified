@@ -1142,6 +1142,9 @@ ShutdownPromise
 >
 mShutdownPromise
 ;
+bool
+mDecoderPerSegment
+;
 }
 ;
 }
