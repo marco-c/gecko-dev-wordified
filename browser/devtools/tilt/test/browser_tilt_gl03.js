@@ -296,7 +296,7 @@ gl
 SRC_ALPHA
 "
 The
-soruce
+source
 blend
 func
 wasn

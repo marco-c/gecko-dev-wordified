@@ -1059,7 +1059,7 @@ gl
 SRC_ALPHA
 "
 The
-soruce
+source
 blend
 func
 wasn
@@ -1147,7 +1147,7 @@ gl
 SRC_ALPHA
 "
 The
-soruce
+source
 blend
 func
 wasn
