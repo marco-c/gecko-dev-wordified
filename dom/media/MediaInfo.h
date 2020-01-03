@@ -152,6 +152,17 @@ nsString
 .
 h
 "
+#
+include
+"
+StreamBuffer
+.
+h
+"
+/
+/
+for
+TrackID
 namespace
 mozilla
 {
@@ -179,6 +190,10 @@ nsAString
 aLanguage
 bool
 aEnabled
+TrackID
+aOutputId
+=
+TRACK_INVALID
 )
 {
 mId
@@ -201,6 +216,10 @@ mEnabled
 =
 aEnabled
 ;
+mOutputId
+=
+aOutputId
+;
 }
 nsString
 mId
@@ -216,6 +235,9 @@ mLanguage
 ;
 bool
 mEnabled
+;
+TrackID
+mOutputId
 ;
 }
 ;
@@ -319,6 +341,7 @@ EmptyString
 (
 )
 true
+2
 )
 ;
 }
@@ -491,6 +514,7 @@ EmptyString
 (
 )
 true
+1
 )
 ;
 }
