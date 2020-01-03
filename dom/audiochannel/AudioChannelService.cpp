@@ -990,7 +990,7 @@ RemoveObserver
 (
 gAudioChannelService
 "
-inner
+outer
 -
 window
 -
@@ -1155,7 +1155,7 @@ AddObserver
 (
 this
 "
-inner
+outer
 -
 window
 -
@@ -2942,7 +2942,7 @@ strcmp
 (
 aTopic
 "
-inner
+outer
 -
 window
 -
@@ -2969,7 +2969,7 @@ NS_ERROR_FAILURE
 )
 ;
 uint64_t
-innerID
+outerID
 ;
 nsresult
 rv
@@ -2980,7 +2980,7 @@ wrapper
 GetData
 (
 &
-innerID
+outerID
 )
 ;
 if
@@ -3050,7 +3050,7 @@ next
 mWindowID
 =
 =
-innerID
+outerID
 )
 {
 uint32_t
