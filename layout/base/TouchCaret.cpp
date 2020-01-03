@@ -4242,7 +4242,7 @@ case
 eKeyPress
 :
 case
-NS_WHEEL_WHEEL
+eWheel
 :
 case
 NS_WHEEL_START

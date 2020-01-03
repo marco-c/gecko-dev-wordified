@@ -7021,7 +7021,7 @@ WidgetWheelEvent
 wheelEvent
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 this
 )
 ;

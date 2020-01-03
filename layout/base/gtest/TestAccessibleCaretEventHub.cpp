@@ -3834,7 +3834,7 @@ HandleEventAndCheckState
 (
 CreateWheelEvent
 (
-NS_WHEEL_WHEEL
+eWheel
 )
 MockAccessibleCaretEventHub
 :
@@ -3875,7 +3875,7 @@ HandleEventAndCheckState
 (
 CreateWheelEvent
 (
-NS_WHEEL_WHEEL
+eWheel
 )
 MockAccessibleCaretEventHub
 :

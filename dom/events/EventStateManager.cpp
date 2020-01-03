@@ -4427,7 +4427,7 @@ composition
 break
 ;
 case
-NS_WHEEL_WHEEL
+eWheel
 :
 case
 NS_WHEEL_START
@@ -4482,7 +4482,7 @@ aEvent
 mMessage
 !
 =
-NS_WHEEL_WHEEL
+eWheel
 )
 {
 break
@@ -18889,7 +18889,7 @@ ScrollSnap
 break
 ;
 case
-NS_WHEEL_WHEEL
+eWheel
 :
 case
 NS_WHEEL_START
@@ -19043,7 +19043,7 @@ aEvent
 mMessage
 !
 =
-NS_WHEEL_WHEEL
+eWheel
 |
 |
 (
@@ -34097,7 +34097,7 @@ aEvent
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 &
 &
 WheelPrefs
