@@ -795,6 +795,8 @@ By
 CLASS_NAME
 "
 media
+-
+layout
 "
 )
         
