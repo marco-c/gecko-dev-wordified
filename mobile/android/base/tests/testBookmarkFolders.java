@@ -386,7 +386,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_TITLE
-DESKTOP_BOOKMARK_URL
 )
 ;
 openAboutHomeTab

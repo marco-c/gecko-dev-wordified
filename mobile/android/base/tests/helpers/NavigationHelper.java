@@ -315,7 +315,7 @@ prefix
 .
 *
 /
-public
+private
 static
 String
 adjustUrl
