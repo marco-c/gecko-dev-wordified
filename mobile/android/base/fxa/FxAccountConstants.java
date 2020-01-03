@@ -211,9 +211,14 @@ must
 be
 at
 least
-14
+13
 years
 old
+on
+the
+day
+of
+creation
 to
 create
 a
@@ -226,7 +231,7 @@ final
 int
 MINIMUM_AGE_TO_CREATE_AN_ACCOUNT
 =
-14
+13
 ;
 /
 /
