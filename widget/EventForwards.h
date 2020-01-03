@@ -515,6 +515,9 @@ BasicEvents
 .
 h
 struct
+BaseEventFlags
+;
+struct
 EventFlags
 ;
 /
