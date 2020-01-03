@@ -12790,7 +12790,7 @@ WrapDOMFile
 nsIFile
 *
 aFile
-nsIDOMFile
+nsISupports
 *
 *
 aDOMFile
@@ -12853,11 +12853,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
-file
+blob
 =
 File
 :
@@ -12868,7 +12868,7 @@ innerWindow
 aFile
 )
 ;
-file
+blob
 .
 forget
 (

@@ -224,7 +224,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsIDOMBlob
 .
 h
 "

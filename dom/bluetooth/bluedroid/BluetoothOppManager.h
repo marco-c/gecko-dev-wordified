@@ -167,9 +167,6 @@ nsCOMArray
 h
 "
 class
-nsIDOMBlob
-;
-class
 nsIOutputStream
 ;
 class
@@ -184,6 +181,9 @@ mozilla
 namespace
 dom
 {
+class
+Blob
+;
 class
 BlobParent
 ;
@@ -305,7 +305,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -554,7 +554,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -962,9 +962,9 @@ mReceivedDataBuffer
 int
 mCurrentBlobIndex
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+Blob
 >
 mBlob
 ;

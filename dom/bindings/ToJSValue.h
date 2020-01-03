@@ -1051,7 +1051,8 @@ g
 .
 /
 /
-nsIDOMFile
+DOM
+File
 )
 .
 template

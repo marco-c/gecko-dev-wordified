@@ -186,9 +186,7 @@ do_check_true
 (
 f1
 instanceof
-Ci
-.
-nsIDOMFile
+File
 "
 Should
 be
@@ -202,9 +200,7 @@ do_check_true
 (
 f2
 instanceof
-Ci
-.
-nsIDOMFile
+File
 "
 Should
 be

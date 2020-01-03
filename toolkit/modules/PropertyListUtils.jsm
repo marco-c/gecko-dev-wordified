@@ -918,9 +918,7 @@ nsILocalFile
 |
 aFile
 instanceof
-Ci
-.
-nsIDOMFile
+File
 )
 )
 throw

@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

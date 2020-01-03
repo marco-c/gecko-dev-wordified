@@ -744,7 +744,8 @@ mFilesEnumerator
 *
 readonly
 attribute
-nsIDOMFile
+DOM
+File
 domfile
 ;
 *
