@@ -3200,7 +3200,7 @@ stackDepth
 oldEntryRp
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
@@ -6426,7 +6426,8 @@ MResumePoint
 p
 %
 u
-operands
+stack
+slots
 "
 (
 void
@@ -6446,7 +6447,7 @@ entryResumePoint
 )
 -
 >
-numOperands
+stackDepth
 (
 )
 )
@@ -6482,7 +6483,7 @@ entryResumePoint
 )
 -
 >
-numOperands
+stackDepth
 (
 )
 =
@@ -8634,7 +8635,7 @@ stackDepth
 headerRp
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
@@ -32798,7 +32799,7 @@ preCallFuncIndex
 preCallResumePoint
 -
 >
-numOperands
+stackDepth
 (
 )
 -
@@ -34206,7 +34207,7 @@ entryResumePoint
 )
 -
 >
-numOperands
+stackDepth
 (
 )
 -

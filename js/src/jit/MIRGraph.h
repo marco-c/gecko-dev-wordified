@@ -3604,7 +3604,7 @@ entryResumePoint
 )
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
