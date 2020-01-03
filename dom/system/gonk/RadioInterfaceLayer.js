@@ -17992,7 +17992,7 @@ return
 isIdentical
 ;
 }
-reset
+resetLinkInfo
 :
 function
 (
@@ -18040,6 +18040,19 @@ gateways
 =
 [
 ]
+;
+}
+reset
+:
+function
+(
+)
+{
+this
+.
+resetLinkInfo
+(
+)
 ;
 this
 .
@@ -19210,7 +19223,7 @@ debug
 "
 Going
 to
-disconnet
+disconnect
 data
 connection
 cid
@@ -19274,6 +19287,12 @@ state
 RIL
 .
 GECKO_NETWORK_STATE_DISCONNECTING
+;
+this
+.
+resetLinkInfo
+(
+)
 ;
 }
 /
@@ -19652,6 +19671,7 @@ prefixLengths
 .
 push
 (
+prefixLength
 )
 ;
 }
@@ -19676,7 +19696,7 @@ slice
 )
 ;
 return
-aIps
+ips
 .
 length
 ;
