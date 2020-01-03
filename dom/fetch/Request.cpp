@@ -1464,7 +1464,7 @@ nullptr
 ;
 }
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 &
 bodyInit
 =
