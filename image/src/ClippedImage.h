@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_CLIPPEDIMAGE_H_
+mozilla_image_src_ClippedImage_h
 #
 define
-MOZILLA_IMAGELIB_CLIPPEDIMAGE_H_
+mozilla_image_src_ClippedImage_h
 #
 include
 "
@@ -521,4 +521,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_CLIPPEDIMAGE_H_
+mozilla_image_src_ClippedImage_h

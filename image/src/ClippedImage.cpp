@@ -643,9 +643,9 @@ image
 s
 width
 and
+/
+/
 height
-/
-/
 once
 they
 '
@@ -661,9 +661,9 @@ valid
 and
 whether
 we
+/
+/
 actually
-/
-/
 need
 to
 do
@@ -681,11 +681,11 @@ s
 width
 and
 height
+/
+/
 aren
 '
 t
-/
-/
 available
 yet
 in
@@ -756,6 +756,8 @@ ll
 let
 it
 handle
+/
+/
 everything
 .
 mShouldClip
@@ -935,7 +937,7 @@ now
 Just
 return
 without
-memoizing
+memorizing
 /
 /
 anything
@@ -1608,7 +1610,9 @@ aFlags
 ;
 }
 return
+(
 nullptr
+)
 ;
 }
 static
@@ -2571,9 +2575,9 @@ ClippedImage
 .
 An
 integer
+/
+/
 multiple
-/
-/
 of
 the
 size
