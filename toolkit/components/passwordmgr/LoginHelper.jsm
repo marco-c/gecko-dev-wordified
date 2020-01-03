@@ -1901,6 +1901,7 @@ throw
 new
 Error
 (
+"
 Can
 '
 t
