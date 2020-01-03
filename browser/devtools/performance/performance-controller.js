@@ -1265,10 +1265,9 @@ SourceNotFoundInJsDebugger
 The
 current
 target
+toolbox
 and
-the
-profiler
-connection
+PerformanceFront
 set
 by
 this

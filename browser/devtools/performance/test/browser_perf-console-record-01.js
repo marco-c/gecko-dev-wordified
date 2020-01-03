@@ -53,7 +53,7 @@ opened
 /
 let
 {
-getPerformanceActorsConnection
+getPerformanceFront
 }
 =
 devtools
@@ -104,9 +104,9 @@ yield
 profilerConnected
 ;
 let
-connection
+front
 =
-getPerformanceActorsConnection
+getPerformanceFront
 (
 target
 )
@@ -116,7 +116,7 @@ profileStart
 =
 once
 (
-connection
+front
 "
 recording
 -
@@ -146,7 +146,7 @@ profileEnd
 =
 once
 (
-connection
+front
 "
 recording
 -

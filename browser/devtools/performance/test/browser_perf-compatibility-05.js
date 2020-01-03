@@ -112,14 +112,6 @@ panel
 .
 panelWin
 ;
-let
-connection
-=
-getPerformanceActorsConnection
-(
-target
-)
-;
 /
 /
 Explicitly
@@ -130,7 +122,7 @@ profiler
 s
 trait
 filterable
-connection
+front
 .
 _profiler
 .
