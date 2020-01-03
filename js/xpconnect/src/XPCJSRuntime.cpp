@@ -4824,10 +4824,6 @@ DetachedWrappedNativeProtoMarker
 nullptr
 )
 ;
-DOM_MarkInterfaces
-(
-)
-;
 /
 /
 Mark
@@ -8767,10 +8763,6 @@ SystemIsBeingShutDown
 (
 )
 {
-DOM_ClearInterfaces
-(
-)
-;
 if
 (
 mDetachedWrappedNativeProtoMap
@@ -20605,10 +20597,6 @@ AsyncFreeSnowWhite
 )
 )
 {
-DOM_InitInterfaces
-(
-)
-;
 /
 /
 these
