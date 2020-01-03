@@ -8945,10 +8945,13 @@ ShowCocoaContextMenu
 menu
 screenX
 screenY
-PluginModuleChild
-:
-:
-GetChrome
+InstCast
+(
+instance
+)
+-
+>
+Manager
 (
 )
 ProcessBrowserEvents
