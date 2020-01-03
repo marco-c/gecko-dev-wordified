@@ -1307,7 +1307,7 @@ O2Reg
 (
 r1
 )
-SetCond
+SetCC
 )
 ;
 /
@@ -1399,7 +1399,7 @@ Imm8
 (
 1
 )
-SetCond
+SetCC
 )
 ;
 /
@@ -3813,7 +3813,7 @@ Imm32
 1
 )
 r2
-SetCond
+SetCC
 )
 ;
 masm
@@ -3949,7 +3949,7 @@ Imm32
 1
 )
 r8
-SetCond
+SetCC
 )
 ;
 masm

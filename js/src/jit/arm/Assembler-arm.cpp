@@ -8734,8 +8734,8 @@ Operand2
 op2
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -8752,7 +8752,7 @@ op
 (
 int
 )
-sc
+s
 |
 (
 int
@@ -8812,8 +8812,8 @@ Operand2
 op2
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -8827,7 +8827,7 @@ dest
 src1
 op2
 op
-sc
+s
 c
 )
 )
@@ -8843,8 +8843,8 @@ Register
 dest
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -8856,7 +8856,7 @@ dest
 InvalidReg
 op2
 OpMov
-sc
+s
 c
 )
 ;
@@ -8880,8 +8880,8 @@ Operand2
 op2
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 uint32_t
@@ -8897,7 +8897,7 @@ dest
 src1
 op2
 op
-sc
+s
 c
 )
 pos
@@ -8919,8 +8919,8 @@ Register
 dest
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 uint32_t
@@ -8934,7 +8934,7 @@ dest
 InvalidReg
 op2
 OpMov
-sc
+s
 c
 pos
 )
@@ -8950,8 +8950,8 @@ Register
 dest
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -8963,7 +8963,7 @@ dest
 InvalidReg
 op2
 OpMvn
-sc
+s
 c
 )
 ;
@@ -8985,8 +8985,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -8998,7 +8998,7 @@ dest
 src1
 op2
 OpAnd
-sc
+s
 c
 )
 ;
@@ -9015,8 +9015,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9028,7 +9028,7 @@ dest
 src1
 op2
 OpBic
-sc
+s
 c
 )
 ;
@@ -9045,8 +9045,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9058,7 +9058,7 @@ dest
 src1
 op2
 OpEor
-sc
+s
 c
 )
 ;
@@ -9075,8 +9075,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9088,7 +9088,7 @@ dest
 src1
 op2
 OpOrr
-sc
+s
 c
 )
 ;
@@ -9110,8 +9110,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9123,7 +9123,7 @@ dest
 src1
 op2
 OpAdc
-sc
+s
 c
 )
 ;
@@ -9140,8 +9140,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9153,7 +9153,7 @@ dest
 src1
 op2
 OpAdd
-sc
+s
 c
 )
 ;
@@ -9170,8 +9170,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9183,7 +9183,7 @@ dest
 src1
 op2
 OpSbc
-sc
+s
 c
 )
 ;
@@ -9200,8 +9200,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9213,7 +9213,7 @@ dest
 src1
 op2
 OpSub
-sc
+s
 c
 )
 ;
@@ -9230,8 +9230,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9243,7 +9243,7 @@ dest
 src1
 op2
 OpRsb
-sc
+s
 c
 )
 ;
@@ -9260,8 +9260,8 @@ Register
 src1
 Operand2
 op2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9273,7 +9273,7 @@ dest
 src1
 op2
 OpRsc
-sc
+s
 c
 )
 ;
@@ -9304,7 +9304,7 @@ InvalidReg
 src1
 op2
 OpCmn
-SetCond
+SetCC
 c
 )
 ;
@@ -9330,7 +9330,7 @@ InvalidReg
 src1
 op2
 OpCmp
-SetCond
+SetCC
 c
 )
 ;
@@ -9356,7 +9356,7 @@ InvalidReg
 src1
 op2
 OpTeq
-SetCond
+SetCC
 c
 )
 ;
@@ -9382,7 +9382,7 @@ InvalidReg
 src1
 op2
 OpTst
-SetCond
+SetCC
 c
 )
 ;
@@ -9933,8 +9933,8 @@ Register
 rn
 MULOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9965,7 +9965,7 @@ code
 |
 op
 |
-sc
+s
 |
 c
 |
@@ -9985,8 +9985,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -9999,7 +9999,7 @@ InvalidReg
 src1
 src2
 OpmMul
-sc
+s
 c
 )
 ;
@@ -10018,8 +10018,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -10032,7 +10032,7 @@ acc
 src1
 src2
 OpmMla
-sc
+s
 c
 )
 ;
@@ -10063,7 +10063,7 @@ destLO
 src1
 src2
 OpmUmaal
-NoSetCond
+LeaveCC
 c
 )
 ;
@@ -10094,7 +10094,7 @@ acc
 src1
 src2
 OpmMls
-NoSetCond
+LeaveCC
 c
 )
 ;
@@ -10113,8 +10113,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -10127,7 +10127,7 @@ destLO
 src1
 src2
 OpmUmull
-sc
+s
 c
 )
 ;
@@ -10146,8 +10146,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -10160,7 +10160,7 @@ destLO
 src1
 src2
 OpmUmlal
-sc
+s
 c
 )
 ;
@@ -10179,8 +10179,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -10193,7 +10193,7 @@ destLO
 src1
 src2
 OpmSmull
-sc
+s
 c
 )
 ;
@@ -10212,8 +10212,8 @@ Register
 src1
 Register
 src2
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -10226,7 +10226,7 @@ destLO
 src1
 src2
 OpmSmlal
-sc
+s
 c
 )
 ;
@@ -19704,7 +19704,7 @@ InvalidReg
 index
 imm8
 OpCmp
-SetCond
+SetCC
 Always
 )
 ;
