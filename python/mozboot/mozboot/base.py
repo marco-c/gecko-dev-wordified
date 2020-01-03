@@ -71,6 +71,12 @@ distutils
 .
 version
 import
+LooseVersion
+from
+distutils
+.
+version
+import
 StrictVersion
 NO_MERCURIAL
 =
@@ -569,7 +575,7 @@ this
 .
 MODERN_PYTHON_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 2
@@ -1841,7 +1847,7 @@ None
         
 our
 =
-StrictVersion
+LooseVersion
 (
 match
 .

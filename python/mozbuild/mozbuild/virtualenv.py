@@ -104,7 +104,7 @@ distutils
 .
 version
 import
-StrictVersion
+LooseVersion
 #
 Minimum
 version
@@ -116,7 +116,7 @@ build
 .
 MINIMUM_PYTHON_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 2
@@ -3402,7 +3402,7 @@ version_info
     
 our
 =
-StrictVersion
+LooseVersion
 (
 '
 %
