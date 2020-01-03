@@ -20312,7 +20312,6 @@ CloneFunctionAndScript
 cx
 enclosingScope
 innerFun
-polluted
 )
 ;
 }
