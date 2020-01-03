@@ -2762,13 +2762,13 @@ events
 .
 NS_EVENT_MESSAGE
 (
-NS_EDITOR_EVENT_START
+eEditorEventFirst
 6100
 )
 NS_EVENT_MESSAGE
 (
 eEditorInput
-NS_EDITOR_EVENT_START
+eEditorEventFirst
 )
 /
 /
