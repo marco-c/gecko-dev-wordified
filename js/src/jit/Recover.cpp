@@ -6786,7 +6786,7 @@ iter
 )
 const
 {
-RootedPlainObject
+RootedNativeObject
 object
 (
 cx
@@ -6803,7 +6803,7 @@ toObject
 .
 as
 <
-PlainObject
+NativeObject
 >
 (
 )
