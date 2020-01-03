@@ -153,6 +153,13 @@ TouchEvents
 .
 h
 "
+#
+include
+"
+GeneratedSDKWrappers
+.
+h
+"
 using
 namespace
 mozilla

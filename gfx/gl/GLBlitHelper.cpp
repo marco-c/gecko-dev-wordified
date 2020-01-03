@@ -3988,15 +3988,13 @@ LOCAL_GL_COLOR_BUFFER_BIT
 ;
 if
 (
-NS_FAILED
-(
+!
 surfaceTexture
 -
 >
 Attach
 (
 mGL
-)
 )
 )
 {
