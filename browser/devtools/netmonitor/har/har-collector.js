@@ -236,14 +236,6 @@ debuggerClient
 ;
 this
 .
-collector
-=
-options
-.
-collector
-;
-this
-.
 onNetworkEvent
 =
 this
@@ -2557,7 +2549,7 @@ full
 text
 of
 a
-LongString
+string
 .
 *
 *
@@ -2565,7 +2557,7 @@ param
 object
 |
 string
-aStringGrip
+stringGrip
 *
 The
 long
@@ -2645,7 +2637,7 @@ promise
 =
 this
 .
-collector
+webConsoleClient
 .
 getString
 (
