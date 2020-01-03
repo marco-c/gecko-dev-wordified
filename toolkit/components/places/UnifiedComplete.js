@@ -7779,7 +7779,6 @@ join
 "
 )
 ;
-yield
 this
 .
 _addSearchEngineMatch
@@ -7823,7 +7822,6 @@ this
 .
 _originalSearchString
 ;
-yield
 this
 .
 _addSearchEngineMatch
@@ -7834,12 +7832,10 @@ query
 ;
 }
 _addSearchEngineMatch
-:
-function
-*
 (
 match
 query
+suggestion
 )
 {
 let
@@ -7860,6 +7856,16 @@ searchQuery
 :
 query
 }
+;
+if
+(
+suggestion
+)
+actionURLParams
+.
+searchSuggestion
+=
+suggestion
 ;
 if
 (
