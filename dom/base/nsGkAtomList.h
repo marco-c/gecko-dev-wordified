@@ -5255,6 +5255,13 @@ oncallschanged
 )
 GK_ATOM
 (
+oncancel
+"
+oncancel
+"
+)
+GK_ATOM
+(
 oncardstatechange
 "
 oncardstatechange
