@@ -6307,7 +6307,7 @@ js
 ProxyObject
 :
 :
-uncallableClass_
+class_
 )
 &
 &

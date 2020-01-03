@@ -15422,12 +15422,9 @@ JS_ASSERT
 callee
 -
 >
-getClass
+constructHook
 (
 )
--
->
-construct
 !
 =
 nullptr

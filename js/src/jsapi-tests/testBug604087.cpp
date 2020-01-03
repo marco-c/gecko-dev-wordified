@@ -176,18 +176,6 @@ class
 flags
 *
 /
-nullptr
-/
-*
-call
-*
-/
-nullptr
-/
-*
-construct
-*
-/
 PROXY_MAKE_EXT
 (
 nullptr
@@ -416,7 +404,6 @@ Wrapper
 :
 :
 singleton
-&
 options
 )
 )
@@ -663,7 +650,6 @@ Wrapper
 :
 :
 singleton
-&
 options
 )
 ;

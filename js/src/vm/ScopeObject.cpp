@@ -11435,7 +11435,7 @@ hasClass
 ProxyObject
 :
 :
-uncallableClass_
+class_
 )
 )
 ;

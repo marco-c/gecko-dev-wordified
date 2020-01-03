@@ -13764,6 +13764,15 @@ nullptr
 if
 (
 clasp
+&
+&
+!
+clasp
+-
+>
+isProxy
+(
+)
 )
 {
 isCallableKnown
@@ -13775,7 +13784,7 @@ isCallableConstant
 clasp
 -
 >
-isCallable
+nonProxyCallable
 (
 )
 ;

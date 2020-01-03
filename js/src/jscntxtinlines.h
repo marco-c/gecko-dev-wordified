@@ -1844,12 +1844,10 @@ JS_ASSERT_IF
 native
 !
 =
-ProxyObject
+js
 :
 :
-callableClass_
-.
-construct
+proxy_Construct
 &
 &
 native

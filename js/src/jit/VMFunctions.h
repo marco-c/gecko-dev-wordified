@@ -5369,6 +5369,14 @@ MOZ_CRASH
 ;
 }
 }
+bool
+ObjectIsCallable
+(
+JSObject
+*
+obj
+)
+;
 }
 /
 /
