@@ -85,6 +85,12 @@ userAgent
 "
 onLine
 "
+"
+language
+"
+"
+languages
+"
 ]
 ;
 var

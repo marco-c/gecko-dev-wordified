@@ -1990,6 +1990,11 @@ languages
 .
 *
 /
+/
+*
+static
+*
+/
 void
 Navigator
 :
@@ -2004,6 +2009,13 @@ nsString
 aLanguages
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 /
 /
 E
