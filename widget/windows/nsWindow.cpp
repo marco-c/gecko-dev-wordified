@@ -26824,7 +26824,7 @@ PointerEventsEnabled
 )
 /
 /
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 is
 received
 when
@@ -26836,7 +26836,7 @@ initialized
 .
 &
 &
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 !
 =
 aEventType
@@ -26873,7 +26873,7 @@ break
 /
 NS_MOUSE_MOVE
 and
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 are
 here
 because
@@ -26917,7 +26917,7 @@ case
 NS_MOUSE_MOVE
 :
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 if
 (
@@ -27495,7 +27495,7 @@ if
 aEventType
 =
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 )
 {
 event
@@ -27746,7 +27746,7 @@ WM_MOUSEMOVE
 break
 ;
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 pluginEvent
 .
@@ -27947,7 +27947,7 @@ sCurrentWindow
 >
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 wParam
 pos
 false
@@ -27988,7 +27988,7 @@ sCurrentWindow
 >
 DispatchMouseEvent
 (
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 wParam
 pos
 false
@@ -28009,7 +28009,7 @@ if
 aEventType
 =
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 )
 {
 if
@@ -33223,7 +33223,7 @@ and
 /
 send
 an
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 event
 as
 well
@@ -33403,7 +33403,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 mouseState
 pos
 false
@@ -33437,7 +33437,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 wParam
 pos
 false

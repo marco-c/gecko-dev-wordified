@@ -2344,7 +2344,7 @@ dragEvent
 /
 dragover
 case
-NS_DRAGDROP_OVER_SYNTH
+NS_DRAGDROP_OVER
 :
 {
 nsCOMPtr
@@ -2369,7 +2369,7 @@ dragEvent
 /
 dragexit
 case
-NS_DRAGDROP_EXIT_SYNTH
+NS_DRAGDROP_EXIT
 :
 {
 nsCOMPtr

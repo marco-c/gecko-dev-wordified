@@ -39553,7 +39553,7 @@ message
 )
 {
 case
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 :
 /
 /
@@ -39751,7 +39751,7 @@ pointerId
 break
 ;
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 /
 /
@@ -40881,7 +40881,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 |
 |
 aEvent
@@ -40972,7 +40972,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 )
 printf
 (
@@ -41040,7 +41040,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 )
 SynthesizeMouseMove
 (
@@ -41057,7 +41057,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 )
 {
 /
@@ -45458,7 +45458,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 )
 &
 &

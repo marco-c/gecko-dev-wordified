@@ -15887,13 +15887,13 @@ message
 )
 {
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 case
 NS_FOCUS_CONTENT
 :
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 case
 NS_BLUR_CONTENT
@@ -16000,7 +16000,7 @@ mouseover
 and
 focus
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 aVisitor
 .
@@ -16094,7 +16094,7 @@ break
 ;
 }
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 aVisitor
 .

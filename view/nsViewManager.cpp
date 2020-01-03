@@ -4587,7 +4587,7 @@ mouseEvent
 message
 !
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 &
 &
 mouseEvent
@@ -4596,7 +4596,7 @@ mouseEvent
 message
 !
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 )
 |
 |

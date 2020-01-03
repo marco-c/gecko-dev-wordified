@@ -1120,7 +1120,7 @@ user
 interactions
 .
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 mType
 =

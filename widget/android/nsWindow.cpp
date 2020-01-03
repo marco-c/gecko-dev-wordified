@@ -2175,7 +2175,7 @@ we
 should
 synthesize
 a
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 (
 for
 old
@@ -2185,7 +2185,7 @@ top
 window
 )
 /
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 (
 for
 new

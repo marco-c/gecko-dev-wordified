@@ -10951,7 +10951,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 |
 |
 anEvent

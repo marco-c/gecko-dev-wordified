@@ -2182,13 +2182,13 @@ mCancelable
 aMessage
 !
 =
-NS_DRAGDROP_EXIT_SYNTH
+NS_DRAGDROP_EXIT
 &
 &
 aMessage
 !
 =
-NS_DRAGDROP_LEAVE_SYNTH
+NS_DRAGDROP_LEAVE
 &
 &
 aMessage
