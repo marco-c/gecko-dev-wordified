@@ -1110,6 +1110,15 @@ guest
 browsing
 *
 /
+RESTRICTED
+/
+*
+launched
+with
+restricted
+profile
+*
+/
 }
 public
 static
