@@ -241,9 +241,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 SyncUtils
-'
+"
 function
 (
 )
@@ -257,7 +257,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -270,7 +270,6 @@ util
 .
 js
 "
-'
 {
 }
 )
