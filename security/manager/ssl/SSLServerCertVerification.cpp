@@ -451,8 +451,8 @@ threads
 /
 and
 then
-immediatley
-return
+immediately
+returns
 SECWouldBlock
 to
 libssl
