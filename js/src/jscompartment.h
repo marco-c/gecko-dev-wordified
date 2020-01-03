@@ -3540,6 +3540,15 @@ clearTables
 (
 )
 ;
+static
+void
+fixupCrossCompartmentWrappersAfterMovingGC
+(
+JSTracer
+*
+trc
+)
+;
 void
 fixupInitialShapeTable
 (
