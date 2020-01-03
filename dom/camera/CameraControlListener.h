@@ -138,8 +138,8 @@ CameraControlListener
 enum
 HardwareState
 {
-kHardwareOpen
 kHardwareClosed
+kHardwareOpen
 }
 ;
 virtual
