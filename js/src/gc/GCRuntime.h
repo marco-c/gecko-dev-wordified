@@ -6780,7 +6780,7 @@ void
 collect
 (
 bool
-incremental
+nonincrementalByAPI
 SliceBudget
 budget
 JS
@@ -6797,7 +6797,7 @@ bool
 gcCycle
 (
 bool
-incremental
+nonincrementalByAPI
 SliceBudget
 &
 budget
