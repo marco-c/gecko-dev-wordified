@@ -12095,6 +12095,8 @@ explicitly
 /
 disable
 serviceworkers
+and
+push
 here
 to
 get
@@ -12109,6 +12111,18 @@ pref
 dom
 .
 serviceWorkers
+.
+enabled
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
+push
 .
 enabled
 "
