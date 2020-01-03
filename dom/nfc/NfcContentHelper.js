@@ -2005,7 +2005,7 @@ break
 handleGeneralResponse
 :
 function
-handleReadNDEFResponse
+handleGeneralResponse
 (
 result
 )
