@@ -366,6 +366,7 @@ other
 platforms
 .
 static
+inline
 int
 mysnprintf
 (
@@ -436,6 +437,7 @@ define
 snprintf
 mysnprintf
 static
+inline
 int
 mywcsprintf
 (
