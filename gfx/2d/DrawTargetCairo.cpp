@@ -2820,6 +2820,10 @@ mContext
 (
 nullptr
 )
+mSurface
+(
+nullptr
+)
 mLockedBits
 (
 nullptr
