@@ -74,7 +74,7 @@ Promise
 h
 "
 class
-TableTicker
+GeckoSampler
 ;
 namespace
 mozilla
@@ -91,7 +91,7 @@ public
 NS_DECL_ISUPPORTS
 ProfileGatherer
 (
-TableTicker
+GeckoSampler
 *
 aTicker
 double
@@ -148,7 +148,7 @@ Promise
 >
 mPromise
 ;
-TableTicker
+GeckoSampler
 *
 mTicker
 ;

@@ -209,7 +209,7 @@ h
 #
 include
 "
-TableTicker
+GeckoSampler
 .
 h
 "
@@ -312,6 +312,15 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ProfileGatherer
 .
 h
 "
@@ -512,6 +521,8 @@ USE_LUL_STACKWALK
 #
 include
 "
+lul
+/
 LulMain
 .
 h
@@ -519,6 +530,8 @@ h
 #
 include
 "
+lul
+/
 platform
 -
 linux
@@ -1210,10 +1223,10 @@ return
 false
 ;
 }
-TableTicker
+GeckoSampler
 :
 :
-TableTicker
+GeckoSampler
 (
 double
 aInterval
@@ -1636,11 +1649,11 @@ StartLogging
 #
 endif
 }
-TableTicker
+GeckoSampler
 :
 :
 ~
-TableTicker
+GeckoSampler
 (
 )
 {
@@ -1807,7 +1820,7 @@ mIntelPowerGadget
 endif
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 HandleSaveRequest
@@ -1868,7 +1881,7 @@ runnable
 endif
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 DeleteExpiredMarkers
@@ -1884,7 +1897,7 @@ deleteExpiredStoredMarkers
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 StreamTaskTracer
@@ -2147,7 +2160,7 @@ GetStartTime
 endif
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 StreamMetaJSCustomObject
@@ -2540,7 +2553,7 @@ Data
 endif
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 ToStreamAsJSON
@@ -2582,7 +2595,7 @@ ifndef
 SPS_STANDALONE
 JSObject
 *
-TableTicker
+GeckoSampler
 :
 :
 ToJSObject
@@ -2676,7 +2689,7 @@ char
 [
 ]
 >
-TableTicker
+GeckoSampler
 :
 :
 ToJSON
@@ -2708,13 +2721,19 @@ CopyData
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 ToJSObjectAsync
 (
 double
 aSinceTime
+mozilla
+:
+:
+dom
+:
+:
 Promise
 *
 aPromise
@@ -2734,6 +2753,9 @@ return
 mGatherer
 =
 new
+mozilla
+:
+:
 ProfileGatherer
 (
 this
@@ -2750,7 +2772,7 @@ Start
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 ProfileGathered
@@ -3142,7 +3164,7 @@ EndArray
 #
 endif
 void
-TableTicker
+GeckoSampler
 :
 :
 StreamJSON
@@ -3558,7 +3580,7 @@ End
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 FlushOnJSShutdown
@@ -3763,7 +3785,7 @@ MOZ_ASSERT
 mRuntime
 )
 ;
-TableTicker
+GeckoSampler
 *
 t
 =
@@ -6173,7 +6195,7 @@ count
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 doNativeBacktrace
@@ -6554,7 +6576,7 @@ endif
 ifdef
 USE_EHABI_STACKWALK
 void
-TableTicker
+GeckoSampler
 :
 :
 doNativeBacktrace
@@ -7084,7 +7106,7 @@ endif
 ifdef
 USE_LUL_STACKWALK
 void
-TableTicker
+GeckoSampler
 :
 :
 doNativeBacktrace
@@ -7965,7 +7987,7 @@ endif
 endif
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 Tick
@@ -7996,7 +8018,7 @@ sample
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 InplaceTick
@@ -8537,7 +8559,7 @@ anonymous
 namespace
 SyncProfile
 *
-TableTicker
+GeckoSampler
 :
 :
 GetBacktrace
@@ -8652,7 +8674,7 @@ profile
 ;
 }
 void
-TableTicker
+GeckoSampler
 :
 :
 GetBufferInfo

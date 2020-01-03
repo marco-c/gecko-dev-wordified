@@ -84,7 +84,7 @@ h
 #
 include
 "
-TableTicker
+GeckoSampler
 .
 h
 "
@@ -118,7 +118,7 @@ ProfileGatherer
 :
 ProfileGatherer
 (
-TableTicker
+GeckoSampler
 *
 aTicker
 double
@@ -408,7 +408,7 @@ We
 ll
 tell
 the
-TableTicker
+GeckoSampler
 that
 we
 '

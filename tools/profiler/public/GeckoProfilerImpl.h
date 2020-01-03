@@ -299,7 +299,7 @@ min
 #
 endif
 class
-TableTicker
+GeckoSampler
 ;
 namespace
 mozilla
@@ -325,7 +325,7 @@ mozilla
 :
 ThreadLocal
 <
-TableTicker
+GeckoSampler
 *
 >
 tlsTicker

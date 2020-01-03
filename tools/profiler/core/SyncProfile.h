@@ -127,6 +127,13 @@ ProfileEntry
 .
 h
 "
+#
+include
+"
+ThreadProfile
+.
+h
+"
 class
 SyncProfile
 :

@@ -294,7 +294,7 @@ h
 #
 include
 "
-TableTicker
+GeckoSampler
 .
 h
 "
@@ -821,9 +821,6 @@ NULL
 }
 class
 PlatformData
-:
-public
-Malloced
 {
 public
 :

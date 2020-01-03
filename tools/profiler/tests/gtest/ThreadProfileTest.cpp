@@ -109,6 +109,13 @@ ProfileEntry
 .
 h
 "
+#
+include
+"
+ThreadProfile
+.
+h
+"
 /
 /
 Make
