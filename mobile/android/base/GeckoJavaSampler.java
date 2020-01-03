@@ -190,7 +190,6 @@ perfect
 sample
 syncing
 .
-WrapForJNI
 private
 static
 native
