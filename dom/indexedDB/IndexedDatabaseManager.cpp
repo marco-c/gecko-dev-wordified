@@ -3619,9 +3619,12 @@ Next
 )
 )
 {
+DebugOnly
+<
 const
 nsACString
 &
+>
 key
 =
 iter
