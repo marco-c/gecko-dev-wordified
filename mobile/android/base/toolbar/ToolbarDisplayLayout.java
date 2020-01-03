@@ -1449,6 +1449,12 @@ onDetachedFromWindow
 (
 )
 {
+super
+.
+onDetachedFromWindow
+(
+)
+;
 mIsAttached
 =
 false
