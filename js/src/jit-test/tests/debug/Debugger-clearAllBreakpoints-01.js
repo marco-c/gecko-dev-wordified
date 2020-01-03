@@ -55,7 +55,6 @@ dbg
 .
 clearAllBreakpoints
 (
-handler
 )
 ;
 }
