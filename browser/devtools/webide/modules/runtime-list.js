@@ -1521,15 +1521,6 @@ if
 r
 .
 configure
-&
-&
-this
-.
-_UI
-.
-isRuntimeConfigurationEnabled
-(
-)
 )
 {
 let
