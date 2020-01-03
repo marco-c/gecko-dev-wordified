@@ -89,6 +89,8 @@ TestharnessExecutor
 testharness_result_converter
                    
 reftest_result_converter
+                   
+strip_server
 )
 from
 .
@@ -161,7 +163,6 @@ __init__
 self
 executor
 browser
-http_server_url
 capabilities
 *
 *
@@ -180,7 +181,6 @@ __init__
 self
 executor
 browser
-http_server_url
 )
         
 self
@@ -536,6 +536,23 @@ self
 )
 :
         
+self
+.
+load_runner
+(
+"
+http
+"
+)
+    
+def
+load_runner
+(
+self
+protocol
+)
+:
+        
 url
 =
 urlparse
@@ -544,7 +561,13 @@ urljoin
 (
 self
 .
-http_server_url
+executor
+.
+server_url
+(
+protocol
+)
+                               
 "
 /
 testharness_runner
@@ -1009,7 +1032,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 timeout_multiplier
 =
 1
@@ -1048,7 +1071,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
                                      
 timeout_multiplier
 =
@@ -1067,7 +1090,6 @@ SeleniumProtocol
 (
 self
 browser
-http_server_url
 capabilities
 )
         
@@ -1138,12 +1160,38 @@ is_alive
 )
     
 def
+on_protocol_change
+(
+self
+new_protocol
+)
+:
+        
+self
+.
+protocol
+.
+load_runner
+(
+new_protocol
+)
+    
+def
 do_test
 (
 self
 test
 )
 :
+        
+url
+=
+self
+.
+test_url
+(
+test
+)
         
 success
 data
@@ -1153,15 +1201,15 @@ SeleniumRun
 self
 .
 do_testharness
+                                    
 self
 .
 protocol
 .
 webdriver
                                     
-test
-.
 url
+                                    
 test
 .
 timeout
@@ -1226,21 +1274,16 @@ script
 abs_url
 "
 :
-urlparse
-.
-urljoin
-(
-self
-.
-http_server_url
 url
-)
                            
 "
 url
 "
 :
+strip_server
+(
 url
+)
                            
 "
 window_id
@@ -1279,7 +1322,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 timeout_multiplier
 =
 1
@@ -1322,7 +1365,7 @@ self
                                  
 browser
                                  
-http_server_url
+server_config
                                  
 screenshot_cache
 =
@@ -1345,7 +1388,6 @@ SeleniumProtocol
 (
 self
 browser
-http_server_url
                                          
 capabilities
 =
@@ -1598,8 +1640,7 @@ def
 screenshot
 (
 self
-url
-timeout
+test
 )
 :
         
@@ -1609,13 +1650,22 @@ SeleniumRun
 self
 .
 _screenshot
+                           
 self
 .
 protocol
 .
 webdriver
                            
-url
+self
+.
+test_url
+(
+test
+)
+                           
+test
+.
 timeout
 )
 .
@@ -1633,23 +1683,11 @@ timeout
 )
 :
         
-full_url
-=
-urlparse
-.
-urljoin
-(
-self
-.
-http_server_url
-url
-)
-        
 webdriver
 .
 get
 (
-full_url
+url
 )
         
 webdriver

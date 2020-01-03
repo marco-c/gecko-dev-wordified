@@ -118,6 +118,8 @@ TestharnessExecutor
 testharness_result_converter
                    
 reftest_result_converter
+                   
+strip_server
 )
 from
 .
@@ -193,7 +195,6 @@ __init__
 self
 executor
 browser
-http_server_url
 )
 :
         
@@ -208,7 +209,6 @@ __init__
 self
 executor
 browser
-http_server_url
 )
         
 self
@@ -640,16 +640,87 @@ self
 )
 :
         
+self
+.
+load_runner
+(
+"
+http
+"
+)
+    
+def
+load_runner
+(
+self
+protocol
+)
+:
+        
+#
+Check
+if
+we
+previously
+had
+a
+test
+window
+open
+and
+if
+we
+did
+make
+sure
+it
+'
+s
+closed
+        
+self
+.
+marionette
+.
+execute_script
+(
+"
+if
+(
+window
+.
+wrappedJSObject
+.
+win
+)
+{
+window
+.
+wrappedJSObject
+.
+win
+.
+close
+(
+)
+}
+"
+)
+        
 url
 =
 urlparse
 .
 urljoin
 (
-            
 self
 .
-http_server_url
+executor
+.
+server_url
+(
+protocol
+)
 "
 /
 testharness_runner
@@ -1351,7 +1422,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 timeout_multiplier
 =
 1
@@ -1387,7 +1458,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
                                      
 timeout_multiplier
 =
@@ -1406,7 +1477,6 @@ MarionetteProtocol
 (
 self
 browser
-http_server_url
 )
         
 self
@@ -1480,6 +1550,23 @@ is_alive
 )
     
 def
+on_protocol_change
+(
+self
+new_protocol
+)
+:
+        
+self
+.
+protocol
+.
+load_runner
+(
+new_protocol
+)
+    
+def
 do_test
 (
 self
@@ -1527,9 +1614,12 @@ protocol
 .
 marionette
                                       
-test
+self
 .
-url
+test_url
+(
+test
+)
                                       
 timeout
 )
@@ -1643,21 +1733,16 @@ script
 abs_url
 "
 :
-urlparse
-.
-urljoin
-(
-self
-.
-http_server_url
 url
-)
                                 
 "
 url
 "
 :
+strip_server
+(
 url
+)
                                 
 "
 window_id
@@ -1712,7 +1797,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 timeout_multiplier
 =
 1
@@ -1750,7 +1835,7 @@ self
                                  
 browser
                                  
-http_server_url
+server_config
                                  
 screenshot_cache
 =
@@ -1773,7 +1858,6 @@ MarionetteProtocol
 (
 self
 browser
-http_server_url
 )
         
 self
@@ -2004,13 +2088,14 @@ def
 screenshot
 (
 self
-url
-timeout
+test
 )
 :
         
 timeout
 =
+test
+.
 timeout
 if
 self
@@ -2020,6 +2105,15 @@ is
 None
 else
 None
+        
+test_url
+=
+self
+.
+test_url
+(
+test
+)
         
 return
 MarionetteRun
@@ -2038,7 +2132,7 @@ protocol
 .
 marionette
                              
-url
+test_url
                              
 timeout
 )
@@ -2057,18 +2151,6 @@ timeout
 )
 :
         
-full_url
-=
-urlparse
-.
-urljoin
-(
-self
-.
-http_server_url
-url
-)
-        
 try
 :
             
@@ -2076,7 +2158,7 @@ marionette
 .
 navigate
 (
-full_url
+url
 )
         
 except
@@ -2101,7 +2183,7 @@ s
 "
 %
 (
-full_url
+url
 )
 )
         

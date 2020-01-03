@@ -211,7 +211,7 @@ def
 executor_kwargs
 (
 test_type
-http_server_url
+server_config
 cache_manager
 *
 *
@@ -231,7 +231,7 @@ executor_kwargs
 base_executor_kwargs
 (
 test_type
-http_server_url
+server_config
                                            
 cache_manager
 *

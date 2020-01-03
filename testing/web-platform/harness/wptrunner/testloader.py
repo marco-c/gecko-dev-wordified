@@ -1638,6 +1638,9 @@ url_base
 else
 :
             
+try
+:
+                
 manifest_file
 =
 manifest
@@ -1649,7 +1652,23 @@ from_json
 tests_path
 json_data
 )
-        
+            
+except
+manifest
+.
+ManifestVersionMismatch
+:
+                
+manifest_file
+=
+manifest
+.
+Manifest
+(
+None
+url_base
+)
+            
 manifest_update
 .
 update
@@ -1822,9 +1841,9 @@ chunk_number
 =
 1
                  
-force_manifest_update
+include_https
 =
-False
+True
 )
 :
         
@@ -1863,6 +1882,12 @@ self
 disabled_tests
 =
 None
+        
+self
+.
+include_https
+=
+include_https
         
 self
 .
@@ -2258,18 +2283,42 @@ iter_tests
 )
 :
             
-key
-=
-"
 enabled
-"
-if
+=
 not
 test
 .
 disabled
 (
 )
+            
+if
+not
+self
+.
+include_https
+and
+test
+.
+protocol
+=
+=
+"
+https
+"
+:
+                
+enabled
+=
+False
+            
+key
+=
+"
+enabled
+"
+if
+enabled
 else
 "
 disabled

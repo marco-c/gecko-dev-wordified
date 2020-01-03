@@ -239,6 +239,7 @@ get_loader
 (
 test_paths
 product
+ssl_env
 debug
 =
 False
@@ -370,6 +371,12 @@ kwargs
 this_chunk
 "
 ]
+                                        
+include_https
+=
+ssl_env
+.
+ssl_enabled
 )
     
 return
@@ -394,6 +401,18 @@ logger
 test_paths
 )
     
+ssl_env
+=
+env
+.
+ssl_env
+(
+logger
+*
+*
+kwargs
+)
+    
 run_info
 test_loader
 =
@@ -401,6 +420,7 @@ get_loader
 (
 test_paths
 product
+ssl_env
                                        
 *
 *
@@ -452,6 +472,18 @@ rv
 [
 ]
     
+ssl_env
+=
+env
+.
+ssl_env
+(
+logger
+*
+*
+kwargs
+)
+    
 run_info
 test_loader
 =
@@ -459,6 +491,7 @@ get_loader
 (
 test_paths
 product
+ssl_env
                                        
 *
 *
@@ -709,6 +742,7 @@ get_loader
 (
 test_paths
 product
+ssl_env
                                                
 *
 *
@@ -881,48 +915,6 @@ ssl_env
 kwargs
 )
             
-base_server
-=
-"
-http
-:
-/
-/
-%
-s
-:
-%
-i
-"
-%
-(
-test_environment
-.
-external_config
-[
-"
-host
-"
-]
-                                            
-test_environment
-.
-external_config
-[
-"
-ports
-"
-]
-[
-"
-http
-"
-]
-[
-0
-]
-)
-            
 repeat
 =
 kwargs
@@ -1056,7 +1048,9 @@ get_executor_kwargs
 (
 test_type
                                                           
-base_server
+test_environment
+.
+external_config
                                                           
 test_environment
 .

@@ -122,6 +122,11 @@ message
 x
 .
 message
+stack
+:
+x
+.
+stack
 }
 }
 )
@@ -151,6 +156,11 @@ message
 status
 .
 message
+stack
+:
+status
+.
+stack
 }
 )
 ;

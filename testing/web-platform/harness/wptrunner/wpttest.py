@@ -148,6 +148,9 @@ self
 name
 status
 message
+stack
+=
+None
 expected
 =
 None
@@ -193,6 +196,12 @@ self
 message
 =
 message
+        
+self
+.
+stack
+=
+stack
         
 self
 .
@@ -573,6 +582,12 @@ DEFAULT_TIMEOUT
 path
 =
 None
+                 
+protocol
+=
+"
+http
+"
 )
 :
         
@@ -599,6 +614,12 @@ self
 path
 =
 path
+        
+self
+.
+protocol
+=
+protocol
     
 def
 __eq__
@@ -662,6 +683,20 @@ path
 manifest_item
 .
 path
+                   
+protocol
+=
+"
+https
+"
+if
+manifest_item
+.
+https
+else
+"
+http
+"
 )
     
 property
@@ -920,6 +955,11 @@ DEFAULT_TIMEOUT
 path
 =
 None
+protocol
+=
+"
+http
+"
 )
 :
         
@@ -975,6 +1015,12 @@ path
         
 self
 .
+protocol
+=
+protocol
+        
+self
+.
 references
 =
 references
@@ -985,6 +1031,7 @@ def
 from_manifest
 (
 cls
+                      
 manifest_test
                       
 expected_metadata
@@ -1065,6 +1112,20 @@ path
 manifest_test
 .
 path
+                   
+protocol
+=
+"
+https
+"
+if
+manifest_test
+.
+https
+else
+"
+http
+"
 )
         
 nodes

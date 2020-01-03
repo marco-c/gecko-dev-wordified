@@ -113,7 +113,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 timeout_multiplier
 =
 1
@@ -133,7 +133,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
                                      
 timeout_multiplier
 =
@@ -170,7 +170,6 @@ Protocol
 (
 self
 browser
-http_server_url
 )
     
 def
@@ -221,17 +220,11 @@ fail
 -
 z
 "
-                        
-urlparse
-.
-urljoin
-(
 self
 .
-http_server_url
+test_url
+(
 test
-.
-url
 )
 ]
         
@@ -745,7 +738,7 @@ __init__
 (
 self
 browser
-http_server_url
+server_config
 binary
 =
 None
@@ -773,7 +766,7 @@ self
                                      
 browser
                                      
-http_server_url
+server_config
                                      
 timeout_multiplier
 =
@@ -792,7 +785,6 @@ Protocol
 (
 self
 browser
-http_server_url
 )
         
 self
@@ -847,21 +839,17 @@ def
 screenshot
 (
 self
-url
-timeout
+test
 )
 :
         
 full_url
 =
-urlparse
-.
-urljoin
-(
 self
 .
-http_server_url
-url
+test_url
+(
+test
 )
         
 with
@@ -951,6 +939,8 @@ wait
 (
 timeout
 =
+test
+.
 timeout
 )
             
@@ -981,8 +971,19 @@ None
             
 if
 rv
-<
+!
+=
 0
+or
+not
+os
+.
+path
+.
+exists
+(
+output_path
+)
 :
                 
 return
