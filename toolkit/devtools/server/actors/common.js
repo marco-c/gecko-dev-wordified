@@ -2529,8 +2529,8 @@ represents
 a
 location
 in
-an
-original
+a
+generated
 source
 .
 *
