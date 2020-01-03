@@ -12226,9 +12226,8 @@ GetPrevInFlow
 mTableLayoutStrategy
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-false
 "
 strategy
 should
@@ -21496,9 +21495,8 @@ if
 cellMap
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-false
 "
 never
 ever
@@ -29094,9 +29092,8 @@ found
 }
 else
 {
-NS_ASSERTION
+NS_ERROR
 (
-false
 "
 error
 in
@@ -46302,9 +46299,8 @@ break
 case
 eAjaRowOwner
 :
-NS_ASSERTION
+NS_ERROR
 (
-false
 "
 program
 error
