@@ -694,7 +694,7 @@ getSiteItem
 (
 TEST_URI_1
 .
-host
+prePath
 )
 ;
 ok
@@ -721,7 +721,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-host
+prePath
 )
 ;
 ok
@@ -750,7 +750,7 @@ getSiteItem
 (
 TEST_URI_3
 .
-host
+prePath
 )
 ;
 ok
@@ -822,7 +822,7 @@ getSiteItem
 (
 TEST_URI_1
 .
-host
+prePath
 )
 ;
 ok
@@ -848,7 +848,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-host
+prePath
 )
 ;
 ok
@@ -876,7 +876,7 @@ getSiteItem
 (
 TEST_URI_3
 .
-host
+prePath
 )
 ;
 ok
@@ -906,7 +906,7 @@ runNextTest
 function
 getSiteItem
 (
-aHost
+aPrePath
 )
 {
 return
@@ -925,7 +925,7 @@ value
 '
 "
 +
-aHost
+aPrePath
 +
 "
 '
