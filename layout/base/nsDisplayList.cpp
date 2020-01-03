@@ -3813,6 +3813,10 @@ mAncestorHasTouchEventHandler
 (
 false
 )
+mAncestorHasScrollEventHandler
+(
+false
+)
 mHaveScrollableDisplayPort
 (
 false
@@ -5310,7 +5314,7 @@ SetMayHaveTouchListeners
 innerWin
 -
 >
-HasTouchEventListeners
+HasApzAwareEventListeners
 (
 )
 )
@@ -19109,6 +19113,14 @@ aBuilder
 -
 >
 GetAncestorHasTouchEventHandler
+(
+)
+|
+|
+aBuilder
+-
+>
+GetAncestorHasScrollEventHandler
 (
 )
 )

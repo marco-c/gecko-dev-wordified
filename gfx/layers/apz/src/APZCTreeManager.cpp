@@ -5423,6 +5423,9 @@ aTargetConfirmed
 *
 /
 hitResult
+=
+=
+ApzcHitRegion
 wheelInput
 aOutInputBlockId
 )

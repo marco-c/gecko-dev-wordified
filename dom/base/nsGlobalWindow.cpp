@@ -3430,6 +3430,10 @@ mMayHaveTouchCaret
 (
 false
 )
+mMayHaveScrollWheelEventListener
+(
+false
+)
 mMayHaveMouseEnterLeaveEventListener
 (
 false
