@@ -1731,7 +1731,7 @@ debugging
 .
 *
 /
-nsAutoCString
+nsCString
 mLog
 ;
 #
