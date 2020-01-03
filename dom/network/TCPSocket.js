@@ -1038,7 +1038,7 @@ NO_APP_ID
 _inBrowser
 :
 false
-_activeNetwork
+_activeNetworkInfo
 :
 null
 #
@@ -2157,7 +2157,7 @@ this
 _inBrowser
 this
 .
-_activeNetwork
+_activeNetworkInfo
 Date
 .
 now
@@ -3688,7 +3688,7 @@ MOZ_WIDGET_GONK
 /
 /
 Set
-_activeNetwork
+_activeNetworkInfo
 which
 is
 only
@@ -3745,11 +3745,11 @@ networkManager
 {
 that
 .
-_activeNetwork
+_activeNetworkInfo
 =
 networkManager
 .
-active
+activeNetworkInfo
 ;
 }
 #

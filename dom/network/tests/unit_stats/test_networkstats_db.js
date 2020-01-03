@@ -7182,7 +7182,7 @@ getAlarms
 (
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_WIFI
 exampleManifestURL
