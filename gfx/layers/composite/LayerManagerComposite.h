@@ -1684,7 +1684,7 @@ aNotifications
 aNotifications
 -
 >
-MoveElementsFrom
+AppendElements
 (
 Move
 (

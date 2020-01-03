@@ -1531,7 +1531,7 @@ aOther
 {
 mIntervals
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -2117,7 +2117,7 @@ Clear
 ;
 mIntervals
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -2673,7 +2673,7 @@ Clear
 ;
 mIntervals
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -3586,7 +3586,7 @@ Clear
 ;
 mIntervals
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

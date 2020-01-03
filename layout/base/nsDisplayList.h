@@ -19086,7 +19086,7 @@ mFrame
 ;
 mMergedFrames
 .
-MoveElementsFrom
+AppendElements
 (
 mozilla
 :

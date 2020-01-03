@@ -9159,7 +9159,7 @@ IsEmpty
 {
 mUpdateRunnables
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -12358,7 +12358,7 @@ i
 ;
 controlMessagesToRunDuringShutdown
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -15995,7 +15995,7 @@ mMutex
 ;
 mUpdateTracks
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

@@ -7415,7 +7415,7 @@ toSort
 ;
 aArray
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -7451,7 +7451,7 @@ toSort
 ;
 aArray
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

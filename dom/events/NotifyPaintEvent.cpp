@@ -235,7 +235,7 @@ aInvalidateRequests
 {
 mInvalidateRequests
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
