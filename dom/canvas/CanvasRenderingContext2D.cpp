@@ -21941,7 +21941,12 @@ drawDT
 thebes
 -
 >
-Scale
+SetMatrix
+(
+gfxMatrix
+:
+:
+Scaling
 (
 matrix
 .
@@ -21949,6 +21954,7 @@ _11
 matrix
 .
 _22
+)
 )
 ;
 }
