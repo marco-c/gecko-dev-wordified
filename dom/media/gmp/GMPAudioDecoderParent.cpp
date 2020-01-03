@@ -711,6 +711,10 @@ this
 ;
 MOZ_ASSERT
 (
+!
+mPlugin
+|
+|
 mPlugin
 -
 >
@@ -848,6 +852,10 @@ this
 ;
 MOZ_ASSERT
 (
+!
+mPlugin
+|
+|
 mPlugin
 -
 >
