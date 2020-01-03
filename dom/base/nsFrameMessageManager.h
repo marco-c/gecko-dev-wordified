@@ -299,6 +299,9 @@ CpowHolder
 .
 h
 "
+class
+nsIFrameLoader
+;
 namespace
 mozilla
 {
@@ -1152,6 +1155,9 @@ ReceiveMessage
 nsISupports
 *
 aTarget
+nsIFrameLoader
+*
+aTargetFrameLoader
 const
 nsAString
 &
@@ -1501,6 +1507,9 @@ ReceiveMessage
 nsISupports
 *
 aTarget
+nsIFrameLoader
+*
+aTargetFrameLoader
 bool
 aTargetClosed
 const
@@ -1938,6 +1947,9 @@ ReceiveMessage
 nsISupports
 *
 aTarget
+nsIFrameLoader
+*
+aTargetFrameLoader
 nsFrameMessageManager
 *
 aManager

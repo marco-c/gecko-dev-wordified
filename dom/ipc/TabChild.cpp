@@ -3517,6 +3517,7 @@ EventTarget
 (
 mTabChildGlobal
 )
+nullptr
 aMessageName
 false
 &
@@ -15011,6 +15012,7 @@ EventTarget
 (
 mTabChildGlobal
 )
+nullptr
 aMessage
 false
 &
