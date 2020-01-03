@@ -4227,6 +4227,11 @@ id
 "
 menu_mirrorTabCmd
 "
+hidden
+=
+"
+true
+"
 accesskey
 =
 "

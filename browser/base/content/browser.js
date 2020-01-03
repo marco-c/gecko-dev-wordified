@@ -20369,7 +20369,7 @@ menu_mirrorTabCmd
 "
 )
 .
-disabled
+hidden
 =
 !
 services
