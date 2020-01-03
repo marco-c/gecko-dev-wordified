@@ -2881,6 +2881,11 @@ button
 {
 width
 :
-66px
+calc
+(
+36px
++
+tabCurveWidth
+)
 ;
 }
