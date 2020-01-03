@@ -1424,9 +1424,6 @@ endif
 }
 ;
 class
-IonJSFrameLayout
-;
-class
 RResumePoint
 ;
 /
