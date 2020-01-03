@@ -1529,12 +1529,14 @@ attr
 =
 editor
 .
-attrs
-[
+attrElements
+.
+get
+(
 "
 style
 "
-]
+)
 .
 querySelector
 (
