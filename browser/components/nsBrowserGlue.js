@@ -6106,7 +6106,7 @@ aService
 }
 mirror
 :
-false
+true
 types
 :
 [

@@ -855,6 +855,13 @@ bind
 (
 this
 )
+window
+.
+BrowserApp
+.
+selectedBrowser
+.
+contentWindow
 )
 ;
 }
