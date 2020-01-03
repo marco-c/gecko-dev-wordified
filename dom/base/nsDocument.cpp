@@ -33393,15 +33393,6 @@ nsDocument
 :
 sProcessingStack
 ;
-/
-/
-static
-bool
-nsDocument
-:
-:
-sProcessingBaseElementQueue
-;
 void
 nsDocument
 :
