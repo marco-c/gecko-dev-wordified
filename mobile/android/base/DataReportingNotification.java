@@ -379,7 +379,7 @@ true
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
@@ -464,7 +464,7 @@ DATA_REPORTING_VERSION
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
@@ -948,7 +948,7 @@ DATA_REPORTING_VERSION
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
