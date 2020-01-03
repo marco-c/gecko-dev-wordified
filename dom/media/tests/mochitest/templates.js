@@ -1421,6 +1421,9 @@ test
 _offer_constraints
 test
 .
+_answer_constraints
+test
+.
 _offer_options
 function
 (
@@ -1470,6 +1473,9 @@ offer
 test
 .
 _offer_constraints
+test
+.
+_answer_constraints
 test
 .
 _offer_options
@@ -2316,6 +2322,9 @@ answer
 "
 test
 .
+_offer_constraints
+test
+.
 _answer_constraints
 test
 .
@@ -2365,6 +2374,9 @@ _remote_answer
 "
 answer
 "
+test
+.
+_offer_constraints
 test
 .
 _answer_constraints
@@ -5436,6 +5448,9 @@ test
 _offer_constraints
 test
 .
+_answer_constraints
+test
+.
 _offer_options
 function
 (
@@ -5485,6 +5500,9 @@ offer
 test
 .
 _offer_constraints
+test
+.
+_answer_constraints
 test
 .
 _offer_options
@@ -6012,6 +6030,9 @@ answer
 "
 test
 .
+_offer_constraints
+test
+.
 _answer_constraints
 test
 .
@@ -6061,6 +6082,9 @@ _remote_answer
 "
 answer
 "
+test
+.
+_offer_constraints
 test
 .
 _answer_constraints
