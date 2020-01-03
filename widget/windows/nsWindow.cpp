@@ -20437,6 +20437,9 @@ nullptr
 )
 ;
 case
+NS_NATIVE_PLUGIN_ID
+:
+case
 NS_NATIVE_PLUGIN_PORT
 :
 case

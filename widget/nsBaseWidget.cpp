@@ -12092,7 +12092,7 @@ id
 =
 GetNativeData
 (
-NS_NATIVE_PLUGIN_PORT
+NS_NATIVE_PLUGIN_ID
 )
 ;
 if
@@ -12187,7 +12187,7 @@ id
 =
 GetNativeData
 (
-NS_NATIVE_PLUGIN_PORT
+NS_NATIVE_PLUGIN_ID
 )
 ;
 if

@@ -575,6 +575,14 @@ NS_NATIVE_PLUGIN_OBJECT_PTR
 104
 #
 endif
+/
+/
+See
+RegisterPluginWindowForRemoteUpdates
+#
+define
+NS_NATIVE_PLUGIN_ID
+105
 #
 define
 NS_IWIDGET_IID
