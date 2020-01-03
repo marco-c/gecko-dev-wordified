@@ -2048,6 +2048,19 @@ prai
 )
 ;
 }
+bool
+filterNameCollision
+=
+!
+(
+aFlags
+&
+nsHostResolver
+:
+:
+RES_ALLOW_NAME_COLLISION
+)
+;
 nsAutoPtr
 <
 AddrInfo
@@ -2060,6 +2073,7 @@ AddrInfo
 aCanonHost
 prai
 disableIPv4
+filterNameCollision
 canonName
 )
 )
