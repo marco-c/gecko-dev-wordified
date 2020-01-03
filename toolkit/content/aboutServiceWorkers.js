@@ -871,11 +871,6 @@ registration
 info
 .
 scope
-info
-.
-principal
-.
-originAttributes
 )
 .
 then

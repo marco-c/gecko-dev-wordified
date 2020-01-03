@@ -116,8 +116,6 @@ registration
 (
 '
 '
-'
-'
 )
 function
 (
@@ -131,7 +129,8 @@ error
 =
 =
 '
-NotFoundError
+Database
+error
 '
 ;
 }

@@ -161,10 +161,6 @@ unregister
 -
 success
 '
-originAttributes
-:
-'
-'
 version
 :
 1
@@ -332,8 +328,6 @@ page
 unregister
 -
 success
-'
-'
 '
 )
 ;
