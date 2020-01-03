@@ -8494,7 +8494,7 @@ sessionState
 .
 profileSubsessionCounter
 +
-2
+3
 ;
 const
 expectedUUID
@@ -8583,6 +8583,13 @@ it
 to
 propagate
 .
+/
+/
+_watchPreferences
+triggers
+a
+subsession
+notification
 TelemetryEnvironment
 .
 _watchPreferences
