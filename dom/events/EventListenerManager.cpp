@@ -2595,7 +2595,7 @@ case
 eDeviceProximity
 :
 case
-NS_USER_PROXIMITY
+eUserProximity
 :
 return
 true
@@ -2660,7 +2660,7 @@ case
 eDeviceProximity
 :
 case
-NS_USER_PROXIMITY
+eUserProximity
 :
 window
 -
@@ -2812,7 +2812,7 @@ case
 eDeviceProximity
 :
 case
-NS_USER_PROXIMITY
+eUserProximity
 :
 window
 -
