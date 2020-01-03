@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsIThreadRetargetableStreamListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -247,6 +254,8 @@ public
 nsIChannelEventSink
 public
 nsIAsyncVerifyRedirectCallback
+public
+nsIThreadRetargetableStreamListener
 {
 public
 :
@@ -291,6 +300,7 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
+NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 /
 /
 Must
