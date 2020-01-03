@@ -4441,3 +4441,15 @@ searches
 false
 )
 ;
+user_pref
+(
+"
+dom
+.
+audiochannel
+.
+mutedByDefault
+"
+false
+)
+;
