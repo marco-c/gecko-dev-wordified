@@ -3070,7 +3070,7 @@ _ipcFatalError
 (
 name
 msg
-otherprocess
+otherpid
 isparent
 )
 :
@@ -3132,7 +3132,7 @@ args
 [
 name
 msg
-otherprocess
+otherpid
 isparent
 ]
 )
@@ -8661,7 +8661,7 @@ DestroySharedMemory
 )
     
 def
-otherProcessMethod
+otherPidMethod
 (
 self
 )
@@ -8671,12 +8671,12 @@ return
 ExprVar
 (
 '
-OtherProcess
+OtherPid
 '
 )
     
 def
-callOtherProcess
+callOtherPid
 (
 self
 actorThis
@@ -8689,7 +8689,7 @@ fn
 =
 self
 .
-otherProcessMethod
+otherPidMethod
 (
 )
         
@@ -9513,7 +9513,7 @@ return
 mvar
     
 def
-otherProcessVar
+otherPidVar
 (
 self
 )
@@ -9534,7 +9534,7 @@ return
 ExprVar
 (
 '
-mOtherProcess
+mOtherPid
 '
 )
     
@@ -13442,7 +13442,7 @@ parentvar
 )
 p
 .
-callOtherProcess
+callOtherPid
 (
 parentvar
 )
@@ -13455,7 +13455,7 @@ childvar
 )
 p
 .
-callOtherProcess
+callOtherPid
 (
 childvar
 )
@@ -13615,7 +13615,7 @@ openervar
 )
 p
 .
-callOtherProcess
+callOtherPid
 (
 openervar
 )
@@ -15022,12 +15022,12 @@ __pfx
 '
 )
     
-otherprocess
+otherpid
 =
 ExprVar
 (
 '
-__otherProcess
+__otherPid
 '
 )
     
@@ -15085,10 +15085,10 @@ Type
 base
 :
 :
-ProcessHandle
+ProcessId
 '
 )
-otherprocess
+otherpid
 .
 name
 )
@@ -15292,7 +15292,7 @@ String
 )
 )
                    
-otherprocess
+otherpid
 ]
 )
 )
@@ -23012,7 +23012,7 @@ ProcessId
 '
 )
 '
-aOtherProcess
+aOtherPid
 '
 )
 ]
@@ -23482,7 +23482,7 @@ ExprMemberInit
 (
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
                                
@@ -23493,7 +23493,7 @@ ExprVar
 ipc
 :
 :
-kInvalidProcessHandle
+kInvalidProcessId
 '
 )
 ]
@@ -23732,7 +23732,7 @@ Open
 (
 Transport
 *
-ProcessHandle
+ProcessId
 MessageLoop
 *
 Side
@@ -23756,12 +23756,12 @@ aThread
 '
 )
             
-processvar
+otherPidVar
 =
 ExprVar
 (
 '
-aOtherProcess
+aOtherPid
 '
 )
             
@@ -23814,10 +23814,13 @@ Decl
 Type
 (
 '
-ProcessHandle
+base
+:
+:
+ProcessId
 '
 )
-processvar
+otherPidVar
 .
 name
 )
@@ -23901,10 +23904,10 @@ ExprAssn
 (
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
-processvar
+otherPidVar
 )
 )
                 
@@ -24096,7 +24099,7 @@ ExprAssn
 (
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
 ExprVar
@@ -24105,7 +24108,7 @@ ExprVar
 ipc
 :
 :
-kInvalidProcessHandle
+kCurrentProcessId
 '
 )
 )
@@ -26830,22 +26833,22 @@ parent
 #
 #
 void
-SetOtherProcess
+SetOtherProcessId
 (
-ProcessHandle
-pid
+ProcessId
+aOtherPid
 )
             
-otherprocessvar
+otherpidvar
 =
 ExprVar
 (
 '
-aOtherProcess
+aOtherPid
 '
 )
             
-setotherprocess
+setotherprocessid
 =
 MethodDefn
 (
@@ -26853,7 +26856,7 @@ MethodDecl
 (
                     
 '
-SetOtherProcess
+SetOtherProcessId
 '
                     
 params
@@ -26864,10 +26867,13 @@ Decl
 Type
 (
 '
-ProcessHandle
+base
+:
+:
+ProcessId
 '
 )
-otherprocessvar
+otherpidvar
 .
 name
 )
@@ -26875,22 +26881,26 @@ name
 )
 )
             
-setotherprocess
+setotherprocessid
 .
-addstmt
+addstmts
 (
+[
+                
 StmtExpr
 (
 ExprAssn
 (
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
-otherprocessvar
+otherpidvar
 )
 )
+            
+]
 )
             
 self
@@ -26901,7 +26911,7 @@ addstmts
 (
 [
                     
-setotherprocess
+setotherprocessid
                     
 Whitespace
 .
@@ -26929,84 +26939,6 @@ addstmt
 Label
 .
 PROTECTED
-)
-            
-otherpidvar
-=
-ExprVar
-(
-'
-OtherSidePID
-'
-)
-            
-otherpid
-=
-MethodDefn
-(
-MethodDecl
-(
-                
-otherpidvar
-.
-name
-params
-=
-[
-]
-                
-ret
-=
-Type
-(
-'
-base
-:
-:
-ProcessId
-'
-)
-                
-const
-=
-1
-)
-)
-            
-otherpid
-.
-addstmts
-(
-[
-                
-StmtReturn
-(
-ExprCall
-(
-                    
-ExprVar
-(
-'
-base
-:
-:
-GetProcId
-'
-)
-                    
-args
-=
-[
-p
-.
-otherProcessVar
-(
-)
-]
-)
-)
-            
-]
 )
             
 dumpvar
@@ -27113,7 +27045,11 @@ args
 [
 ExprCall
 (
-otherpidvar
+p
+.
+otherPidMethod
+(
+)
 )
 dumpvar
 seqvar
@@ -27149,11 +27085,6 @@ cls
 addstmts
 (
 [
-otherpid
-Whitespace
-.
-NL
-                                
 getdump
 Whitespace
 .
@@ -27266,11 +27197,11 @@ parent
 '
 :
             
-otherprocess
+otherpid
 =
 p
 .
-callOtherProcess
+callOtherPid
 (
 )
             
@@ -27283,7 +27214,7 @@ TRUE
 else
 :
             
-otherprocess
+otherpid
 =
 ExprLiteral
 .
@@ -27305,7 +27236,7 @@ _ipcFatalError
 (
 actorname
 msgparam
-otherprocess
+otherpid
 isparent
 )
         
@@ -28484,13 +28415,16 @@ Decl
 Type
 (
 '
-ProcessHandle
+base
+:
+:
+ProcessId
 '
 )
                               
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
 .
@@ -29280,7 +29214,7 @@ virtual
 )
 )
         
-otherprocess
+otherpid
 =
 MethodDefn
 (
@@ -29289,7 +29223,7 @@ MethodDecl
             
 p
 .
-otherProcessMethod
+otherPidMethod
 (
 )
 .
@@ -29300,7 +29234,10 @@ ret
 Type
 (
 '
-ProcessHandle
+base
+:
+:
+ProcessId
 '
 )
             
@@ -29922,7 +29859,7 @@ shmemvar
                                             
 p
 .
-callOtherProcess
+callOtherPid
 (
 )
                                             
@@ -30279,7 +30216,7 @@ shmemvar
                                             
 p
 .
-callOtherProcess
+callOtherPid
 (
 )
                                             
@@ -30785,7 +30722,7 @@ shmemvar
                              
 p
 .
-callOtherProcess
+callOtherPid
 (
 )
                              
@@ -31010,7 +30947,7 @@ SHMEM_DESTROYED_MESSAGE_TYPE
 abort
 )
             
-otherprocess
+otherpid
 .
 addstmt
 (
@@ -31018,7 +30955,7 @@ StmtReturn
 (
 p
 .
-otherProcessVar
+otherPidVar
 (
 )
 )
@@ -31380,7 +31317,7 @@ shmemvar
 )
 )
             
-otherprocess
+otherpid
 .
 addstmt
 (
@@ -31389,7 +31326,7 @@ StmtReturn
                 
 p
 .
-callOtherProcess
+callOtherPid
 (
 p
 .
@@ -32443,7 +32380,7 @@ istracking
                  
 destroyshmem
                  
-otherprocess
+otherpid
                  
 getchannel
                  
@@ -37126,7 +37063,7 @@ self
 .
 protocol
 .
-callOtherProcess
+callOtherPid
 (
 )
 ]
@@ -43110,7 +43047,7 @@ self
 .
 protocol
 .
-callOtherProcess
+callOtherPid
 (
 actor
 )

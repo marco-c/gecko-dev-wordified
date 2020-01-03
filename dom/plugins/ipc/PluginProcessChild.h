@@ -244,13 +244,13 @@ public
 explicit
 PluginProcessChild
 (
-ProcessHandle
-aParentHandle
+ProcessId
+aParentPid
 )
 :
 ProcessChild
 (
-aParentHandle
+aParentPid
 )
 mPlugin
 (

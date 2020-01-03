@@ -143,13 +143,13 @@ public
 :
 IPDLUnitTestProcessChild
 (
-ProcessHandle
-aParentHandle
+ProcessId
+aParentPid
 )
 :
 ProcessChild
 (
-aParentHandle
+aParentPid
 )
 {
 }

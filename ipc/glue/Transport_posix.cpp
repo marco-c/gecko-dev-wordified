@@ -168,13 +168,10 @@ ipc
 bool
 CreateTransport
 (
-ProcessHandle
-/
-*
-unused
-*
-/
-ProcessHandle
+base
+:
+:
+ProcessId
 /
 *
 unused

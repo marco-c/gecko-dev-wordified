@@ -3189,8 +3189,8 @@ aIOLoop
 base
 :
 :
-ProcessHandle
-aParentHandle
+ProcessId
+aParentPid
 IPC
 :
 :
@@ -3352,7 +3352,7 @@ if
 Open
 (
 aChannel
-aParentHandle
+aParentPid
 aIOLoop
 )
 )

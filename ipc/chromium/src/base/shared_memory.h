@@ -1001,8 +1001,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-process
+ProcessId
+target_pid
 SharedMemoryHandle
 *
 new_handle
@@ -1011,7 +1011,7 @@ new_handle
 return
 ShareToProcessCommon
 (
-process
+target_pid
 new_handle
 false
 )
@@ -1068,8 +1068,8 @@ value
 bool
 GiveToProcess
 (
-ProcessHandle
-process
+ProcessId
+target_pid
 SharedMemoryHandle
 *
 new_handle
@@ -1078,7 +1078,7 @@ new_handle
 return
 ShareToProcessCommon
 (
-process
+target_pid
 new_handle
 true
 )
@@ -1255,8 +1255,8 @@ endif
 bool
 ShareToProcessCommon
 (
-ProcessHandle
-process
+ProcessId
+target_pid
 SharedMemoryHandle
 *
 new_handle

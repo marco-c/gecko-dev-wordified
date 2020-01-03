@@ -1568,8 +1568,8 @@ SharedMemory
 :
 ShareToProcessCommon
 (
-ProcessHandle
-process
+ProcessId
+processId
 SharedMemoryHandle
 *
 new_handle

@@ -358,8 +358,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-process
+ProcessId
+aProcessId
 Handle
 *
 new_handle
@@ -378,7 +378,7 @@ mSharedMemory
 .
 ShareToProcess
 (
-process
+aProcessId
 &
 handle
 )

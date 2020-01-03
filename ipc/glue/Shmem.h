@@ -1334,8 +1334,8 @@ IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
 base
 :
 :
-ProcessHandle
-aProcess
+ProcessId
+aTargetPid
 int32_t
 routingId
 )
@@ -1347,7 +1347,7 @@ sharing
 this
 with
 |
-aProcess
+aTargetPid
 |
 .
 Return
@@ -1400,8 +1400,8 @@ IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
 base
 :
 :
-ProcessHandle
-aProcess
+ProcessId
+aTargetPid
 int32_t
 routingId
 )

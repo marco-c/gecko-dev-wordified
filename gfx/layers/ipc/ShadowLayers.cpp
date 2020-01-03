@@ -4653,12 +4653,12 @@ return
 mShadowManager
 -
 >
-OtherProcess
+OtherPid
 (
 )
 =
 =
-kInvalidProcessHandle
+kCurrentProcessId
 ;
 }
 /

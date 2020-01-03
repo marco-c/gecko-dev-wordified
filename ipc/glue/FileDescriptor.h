@@ -316,8 +316,8 @@ typedef
 base
 :
 :
-ProcessHandle
-ProcessHandle
+ProcessId
+ProcessId
 ;
 #
 ifdef
@@ -550,8 +550,8 @@ ShareTo
 const
 IPDLPrivate
 &
-ProcessHandle
-aOtherProcess
+ProcessId
+aTargetPid
 )
 const
 ;

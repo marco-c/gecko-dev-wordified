@@ -733,8 +733,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aHandle
+ProcessId
+aTargetPid
 )
 {
 CrossProcessMutexHandle
@@ -761,7 +761,7 @@ mSharedBuffer
 >
 ShareToProcess
 (
-aHandle
+aTargetPid
 &
 result
 )

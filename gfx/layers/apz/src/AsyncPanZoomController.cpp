@@ -23156,13 +23156,13 @@ process
 base
 :
 :
-ProcessHandle
-processHandle
+ProcessId
+otherPid
 =
 compositor
 -
 >
-OtherProcess
+OtherPid
 (
 )
 ;
@@ -23203,7 +23203,7 @@ mSharedFrameMetricsBuffer
 >
 ShareToProcess
 (
-processHandle
+otherPid
 &
 mem
 )
@@ -23240,7 +23240,7 @@ mSharedLock
 >
 ShareToProcess
 (
-processHandle
+otherPid
 )
 ;
 /

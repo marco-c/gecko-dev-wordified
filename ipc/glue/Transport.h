@@ -183,13 +183,8 @@ CreateTransport
 base
 :
 :
-ProcessHandle
-aProcOne
-base
-:
-:
-ProcessHandle
-aProcTwo
+ProcessId
+aProcIdOne
 TransportDescriptor
 *
 aOne

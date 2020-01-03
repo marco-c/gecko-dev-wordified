@@ -1479,8 +1479,8 @@ aVoucherPath
 base
 :
 :
-ProcessHandle
-aParentProcessHandle
+ProcessId
+aParentPid
 MessageLoop
 *
 aIOLoop
@@ -1518,7 +1518,7 @@ NS_WARN_IF
 Open
 (
 aChannel
-aParentProcessHandle
+aParentPid
 aIOLoop
 )
 )

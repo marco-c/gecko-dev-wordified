@@ -274,8 +274,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aProcess
+ProcessId
+aProcessId
 Handle
 *
 aNewHandle
