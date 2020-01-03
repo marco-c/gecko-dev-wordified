@@ -1556,6 +1556,15 @@ shape
 \
 macro
 (
+signMask
+signMask
+"
+signMask
+"
+)
+\
+macro
+(
 source
 source
 "
