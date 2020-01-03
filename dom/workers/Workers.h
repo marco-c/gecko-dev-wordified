@@ -722,6 +722,14 @@ dom
 fetch
 .
 enabled
+WORKERPREF_DOM_CACHES
+/
+/
+dom
+.
+caches
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
