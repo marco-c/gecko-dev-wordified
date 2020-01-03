@@ -139,6 +139,10 @@ WebGLContext
 context
 )
 :
+WebGLBindableName
+(
+0
+)
 WebGLContextBoundObject
 (
 context

@@ -162,7 +162,7 @@ WebGLVertexArray
 public
 nsWrapperCache
 public
-WebGLBindableName
+WebGLBindable
 <
 VAOBinding
 >
@@ -527,6 +527,16 @@ WebGLVertexArray
 /
 MEMBER
 FUNCTIONS
+GLuint
+GLName
+(
+)
+const
+{
+return
+mGLName
+;
+}
 void
 EnsureAttrib
 (
@@ -758,6 +768,9 @@ IsDeleted
 /
 /
 MEMBERS
+GLuint
+mGLName
+;
 nsTArray
 <
 WebGLVertexAttribData
