@@ -1149,7 +1149,7 @@ void
 FixedTableLayoutStrategy
 :
 :
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState
@@ -1295,7 +1295,7 @@ call
 to
 /
 /
-ComputeColumnWidths
+ComputeColumnISizes
 .
 In
 order

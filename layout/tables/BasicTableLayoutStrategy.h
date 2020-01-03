@@ -121,7 +121,7 @@ determine
 column
 and
 table
-widths
+isizes
 *
 used
 for
@@ -220,7 +220,7 @@ override
 ;
 virtual
 void
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState

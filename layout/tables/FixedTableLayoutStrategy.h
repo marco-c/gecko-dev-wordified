@@ -118,7 +118,7 @@ determine
 column
 and
 table
-widths
+isizes
 used
 for
 CSS2
@@ -217,7 +217,7 @@ override
 ;
 virtual
 void
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState
