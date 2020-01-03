@@ -183,6 +183,9 @@ util
 {
 var
 result
+=
+{
+}
 ;
 for
 (
@@ -201,8 +204,6 @@ i
 +
 )
 {
-result
-=
 base64VLQ
 .
 decode
@@ -213,12 +214,6 @@ encode
 (
 i
 )
-)
-;
-assert
-.
-ok
-(
 result
 )
 ;
