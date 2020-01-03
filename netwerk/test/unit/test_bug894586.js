@@ -199,6 +199,14 @@ aBaseURI
 this
 .
 uri
+newChannel2
+:
+function
+(
+aURI
+aLoadInfo
+)
+this
 newChannel
 :
 function
