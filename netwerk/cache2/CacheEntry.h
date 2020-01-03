@@ -802,6 +802,11 @@ mReadOnly
 1
 ;
 bool
+mRevalidating
+:
+1
+;
+bool
 mCheckOnAnyThread
 :
 1
