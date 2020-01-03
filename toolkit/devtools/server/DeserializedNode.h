@@ -1394,7 +1394,10 @@ typeName
 const
 override
 ;
-size_t
+Node
+:
+:
+Size
 size
 (
 mozilla
@@ -1568,7 +1571,7 @@ ptr
 )
 ;
 }
-uintptr_t
+uint64_t
 identifier
 (
 )
