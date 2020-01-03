@@ -882,7 +882,12 @@ derCert
 *
 signedCert
 ;
-return
+RefPtr
+<
+DtlsIdentity
+>
+identity
+=
 new
 DtlsIdentity
 (
@@ -896,6 +901,13 @@ certificate
 forget
 (
 )
+)
+;
+return
+identity
+.
+forget
+(
 )
 ;
 }
