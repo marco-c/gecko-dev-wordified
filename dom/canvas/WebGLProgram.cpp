@@ -1100,7 +1100,12 @@ const
 bool
 needsCheckForArrays
 =
-true
+gl
+-
+>
+WorkAroundDriverBugs
+(
+)
 ;
 GLuint
 numActiveUniforms
