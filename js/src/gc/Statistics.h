@@ -744,6 +744,8 @@ ZoneGCStats
 zoneStats
 JSGCInvocationKind
 gckind
+SliceBudget
+budget
 JS
 :
 :
@@ -975,6 +977,8 @@ SliceData
 {
 SliceData
 (
+SliceBudget
+budget
 JS
 :
 :
@@ -989,6 +993,10 @@ size_t
 startFaults
 )
 :
+budget
+(
+budget
+)
 reason
 (
 reason
@@ -1035,6 +1043,9 @@ i
 )
 ;
 }
+SliceBudget
+budget
+;
 JS
 :
 :
@@ -1588,6 +1599,8 @@ ZoneGCStats
 zoneStats
 JSGCInvocationKind
 gckind
+SliceBudget
+budget
 JS
 :
 :
@@ -1612,6 +1625,7 @@ beginSlice
 (
 zoneStats
 gckind
+budget
 reason
 )
 ;
