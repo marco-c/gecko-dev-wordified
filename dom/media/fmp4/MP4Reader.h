@@ -585,6 +585,11 @@ TrackType
 aTrack
 )
 ;
+bool
+EnsureDecodersSetup
+(
+)
+;
 /
 /
 Sends
@@ -823,11 +828,6 @@ NotifyResourcesStatusChanged
 ;
 void
 RequestCodecResource
-(
-)
-;
-bool
-IsWaitingOnCodecResource
 (
 )
 ;
@@ -1596,6 +1596,9 @@ monitor
 .
 bool
 mIsEncrypted
+;
+bool
+mAreDecodersSetup
 ;
 bool
 mIndexReady

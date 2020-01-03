@@ -300,6 +300,12 @@ IsWaitingMediaResources
 )
 override
 ;
+bool
+IsWaitingOnCDMResource
+(
+)
+override
+;
 nsRefPtr
 <
 AudioDataPromise
