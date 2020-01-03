@@ -279,6 +279,7 @@ we
 re
 live
 !
+explicit
 nsClientAuthRememberEntry
 (
 KeyTypePointer

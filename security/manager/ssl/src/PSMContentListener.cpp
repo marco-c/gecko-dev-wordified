@@ -219,6 +219,7 @@ constructor
 )
 ;
 }
+explicit
 PSMContentDownloader
 (
 uint32_t

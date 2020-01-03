@@ -90,6 +90,7 @@ nsX509CertValidity
 (
 )
 ;
+explicit
 nsX509CertValidity
 (
 CERTCertificate

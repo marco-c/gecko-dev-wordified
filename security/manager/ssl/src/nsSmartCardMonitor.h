@@ -188,6 +188,7 @@ SmartCardMonitoringThread
 {
 public
 :
+explicit
 SmartCardMonitoringThread
 (
 SECMODModule

@@ -396,6 +396,7 @@ we
 re
 live
 !
+explicit
 nsCertOverrideEntry
 (
 KeyTypePointer
