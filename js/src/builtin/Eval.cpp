@@ -2297,6 +2297,14 @@ enclosing
 )
 )
 ;
+if
+(
+!
+staticScope
+)
+return
+false
+;
 CompileOptions
 options
 (
