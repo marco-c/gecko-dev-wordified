@@ -1081,6 +1081,12 @@ compileAndGo
 &
 &
 !
+options
+.
+hasPollutedGlobalScope
+&
+&
+!
 cx
 -
 >
