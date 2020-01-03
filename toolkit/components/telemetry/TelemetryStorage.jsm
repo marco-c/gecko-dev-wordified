@@ -797,6 +797,9 @@ the
 ping
 file
 "
+becauseNoSuchFile
+=
+false
 )
 {
 Error
@@ -836,6 +839,12 @@ stack
 error
 .
 stack
+;
+this
+.
+becauseNoSuchFile
+=
+becauseNoSuchFile
 ;
 }
 PingReadError
@@ -10553,6 +10562,9 @@ PingReadError
 e
 .
 message
+e
+.
+becauseNoSuchFile
 )
 ;
 }
