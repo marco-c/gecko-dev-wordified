@@ -2787,11 +2787,9 @@ dom
 :
 EventTarget
 *
+MOZ_NON_OWNING_REF
 mTarget
 ;
-/
-/
-WEAK
 nsCOMPtr
 <
 nsIAtom
