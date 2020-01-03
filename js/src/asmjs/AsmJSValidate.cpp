@@ -18125,13 +18125,13 @@ ins
 MSimdSplatX4
 :
 :
-New
+NewAsmJS
 (
 alloc
 (
 )
-type
 v
+type
 )
 ;
 curBlock_
