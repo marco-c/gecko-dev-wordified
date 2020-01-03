@@ -477,6 +477,9 @@ isChildProcess
 "
 groupId
 "
+"
+processId
+"
 ]
 ;
 const
