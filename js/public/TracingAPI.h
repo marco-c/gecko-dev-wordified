@@ -133,6 +133,13 @@ h
 #
 include
 "
+jspubtd
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable
