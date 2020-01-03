@@ -74,10 +74,6 @@ contextlib
 import
 contextmanager
 from
-application_cache
-import
-ApplicationCache
-from
 decorators
 import
 do_crash_check
@@ -14041,21 +14037,6 @@ protocol
 1
 else
 None
-)
-    
-property
-    
-def
-application_cache
-(
-self
-)
-:
-        
-return
-ApplicationCache
-(
-self
 )
     
 def
