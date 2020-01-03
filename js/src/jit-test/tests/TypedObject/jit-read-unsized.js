@@ -97,7 +97,6 @@ Point
 .
 array
 (
-N
 )
 ;
 function
@@ -155,6 +154,7 @@ array
 new
 PointArray
 (
+N
 )
 ;
 for

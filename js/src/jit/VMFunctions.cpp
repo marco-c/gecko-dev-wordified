@@ -6306,7 +6306,7 @@ descr
 >
 is
 <
-TypeDescr
+SizedTypeDescr
 >
 (
 )
@@ -6327,7 +6327,7 @@ TypedObject
 ;
 Rooted
 <
-TypeDescr
+SizedTypeDescr
 *
 >
 descr1
@@ -6339,7 +6339,7 @@ descr
 >
 as
 <
-TypeDescr
+SizedTypeDescr
 >
 (
 )

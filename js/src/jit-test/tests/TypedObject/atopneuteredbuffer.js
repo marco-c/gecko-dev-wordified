@@ -81,7 +81,6 @@ uint32
 .
 array
 (
-0
 )
 ;
 var
@@ -162,6 +161,7 @@ new
 Uints
 (
 buffer
+0
 )
 TypeError
 "

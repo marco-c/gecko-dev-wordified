@@ -54,7 +54,6 @@ uint8
 .
 array
 (
-0
 )
 ;
 var
@@ -63,6 +62,7 @@ a
 new
 A
 (
+0
 )
 ;
 a
@@ -108,7 +108,6 @@ array
 .
 array
 (
-0
 )
 ;
 var
@@ -117,5 +116,6 @@ aa
 new
 AA
 (
+0
 )
 ;

@@ -201,6 +201,14 @@ assertEq
 (
 S
 .
+variable
+false
+)
+;
+assertEq
+(
+S
+.
 byteLength
 16
 )

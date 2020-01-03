@@ -5966,7 +5966,7 @@ const
 {
 Rooted
 <
-TypeDescr
+SizedTypeDescr
 *
 >
 descr
@@ -5985,7 +5985,7 @@ toObject
 .
 as
 <
-TypeDescr
+SizedTypeDescr
 >
 (
 )

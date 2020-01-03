@@ -128,7 +128,6 @@ Point
 .
 array
 (
-L
 )
 ;
 assertParallelExecSucceeds
