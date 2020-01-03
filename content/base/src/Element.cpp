@@ -9110,7 +9110,9 @@ shell
 RestyleForAnimation
 (
 this
-eRestyle_Self
+eRestyle_StyleAttribute
+|
+eRestyle_ChangeAnimationPhase
 )
 ;
 }

@@ -533,7 +533,9 @@ PresShell
 RestyleForAnimation
 (
 aElement
-eRestyle_Self
+eRestyle_StyleAttribute
+|
+eRestyle_ChangeAnimationPhase
 )
 ;
 }
@@ -888,7 +890,9 @@ style
 )
 {
 return
-eRestyle_Self
+eRestyle_StyleAttribute
+|
+eRestyle_ChangeAnimationPhase
 ;
 }
 return
