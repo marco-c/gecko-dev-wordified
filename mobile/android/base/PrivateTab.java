@@ -152,7 +152,7 @@ title
 Init
 background
 to
-background_private
+private_toolbar_grey
 to
 ensure
 flicker
@@ -190,7 +190,7 @@ R
 .
 color
 .
-background_private
+private_toolbar_grey
 )
 ;
 setBackgroundColor
