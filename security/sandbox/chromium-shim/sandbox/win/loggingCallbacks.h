@@ -649,6 +649,16 @@ nullptr
 ;
 #
 endif
+if
+(
+nsContentUtils
+:
+:
+IsInitialized
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -661,6 +671,7 @@ c_str
 )
 )
 ;
+}
 }
 /
 /
