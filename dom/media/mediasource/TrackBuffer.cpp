@@ -4156,6 +4156,11 @@ initialization
 "
 )
 ;
+RemoveDecoder
+(
+aDecoder
+)
+;
 /
 /
 If
@@ -4587,6 +4592,11 @@ initialization
 "
 )
 ;
+RemoveDecoder
+(
+aDecoder
+)
+;
 return
 ;
 }
@@ -4939,6 +4949,11 @@ to
 reject
 it
 .
+RemoveDecoder
+(
+aDecoder
+)
+;
 return
 ;
 }
