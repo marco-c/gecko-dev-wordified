@@ -515,6 +515,8 @@ yield
 ;
 const
 x
+=
+undefined
 ;
 }
 )

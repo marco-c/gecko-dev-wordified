@@ -219,6 +219,8 @@ true
 ;
 const
 c
+=
+undefined
 ;
 (
 function

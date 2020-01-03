@@ -497,6 +497,8 @@ for
 (
 const
 NaN
+=
+undefined
 ;
 this
 .
