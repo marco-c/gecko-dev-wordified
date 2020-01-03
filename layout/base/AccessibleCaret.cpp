@@ -500,11 +500,11 @@ all
 resources
 required
 .
-MOZ_ASSERT
+if
 (
 mPresShell
 )
-;
+{
 MOZ_ASSERT
 (
 RootFrame
@@ -557,6 +557,7 @@ GetDocument
 )
 )
 ;
+}
 static
 bool
 prefsAdded
@@ -651,6 +652,11 @@ AccessibleCaret
 (
 )
 {
+if
+(
+mPresShell
+)
+{
 RemoveCaretElement
 (
 mPresShell
@@ -661,6 +667,7 @@ GetDocument
 )
 )
 ;
+}
 }
 void
 AccessibleCaret

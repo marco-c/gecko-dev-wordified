@@ -403,7 +403,6 @@ date
 /
 class
 AccessibleCaret
-final
 {
 public
 :
@@ -415,6 +414,7 @@ nsIPresShell
 aPresShell
 )
 ;
+virtual
 ~
 AccessibleCaret
 (
@@ -601,6 +601,7 @@ return
 mAppearance
 ;
 }
+virtual
 void
 SetAppearance
 (
@@ -710,6 +711,7 @@ in
 bug
 921965
 .
+virtual
 void
 SetSelectionBarEnabled
 (
@@ -763,6 +765,7 @@ port
 Invisible
 }
 ;
+virtual
 PositionChangedResult
 SetPosition
 (
@@ -901,7 +904,7 @@ GetContentNode
 )
 ;
 }
-private
+protected
 :
 /
 /
