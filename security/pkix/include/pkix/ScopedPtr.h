@@ -269,15 +269,6 @@ mozilla_pkix_ScopedPtr_h
 #
 define
 mozilla_pkix_ScopedPtr_h
-#
-include
-"
-pkix
-/
-stdkeywords
-.
-h
-"
 namespace
 mozilla
 {
