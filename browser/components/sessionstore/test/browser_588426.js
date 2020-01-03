@@ -280,7 +280,7 @@ onReady
 false
 )
 ;
-whenTabRestored
+promiseTabRestored
 (
 win
 .
@@ -290,6 +290,10 @@ tabs
 [
 0
 ]
+)
+.
+then
+(
 (
 )
 =

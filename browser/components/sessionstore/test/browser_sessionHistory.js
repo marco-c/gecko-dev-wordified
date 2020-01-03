@@ -159,9 +159,9 @@ tab
 linkedBrowser
 ;
 yield
-promiseBrowserLoaded
+promiseTabRestored
 (
-browser
+tab
 )
 ;
 /
