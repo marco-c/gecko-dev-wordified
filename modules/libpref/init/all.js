@@ -19392,7 +19392,7 @@ cert_pinning
 .
 enforcement_level
 "
-2
+0
 )
 ;
 /
@@ -47174,7 +47174,7 @@ mozApps
 .
 debug
 "
-true
+false
 )
 ;
 /
