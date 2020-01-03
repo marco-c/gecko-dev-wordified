@@ -203,9 +203,9 @@ BroadcastChannelParent
 RecvPostMessage
 (
 const
-nsString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 )
 {
 AssertIsOnBackgroundThread
@@ -231,7 +231,7 @@ mService
 PostMessage
 (
 this
-aMessage
+aData
 mOrigin
 mChannel
 )
@@ -346,9 +346,9 @@ BroadcastChannelParent
 CheckAndDeliver
 (
 const
-nsString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 const
 nsString
 &
@@ -382,7 +382,7 @@ unused
 <
 SendNotify
 (
-aMessage
+aData
 )
 ;
 }
