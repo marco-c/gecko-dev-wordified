@@ -6440,7 +6440,7 @@ HasSSE41
 )
 )
 {
-movd
+vmovd
 (
 src
 dest
@@ -6464,7 +6464,7 @@ typeReg
 }
 else
 {
-movd
+vmovd
 (
 src
 dest
@@ -6483,7 +6483,7 @@ Imm32
 src
 )
 ;
-movd
+vmovd
 (
 src
 dest
@@ -6827,7 +6827,7 @@ HasSSE41
 )
 )
 {
-movd
+vmovd
 (
 src
 .
@@ -6851,7 +6851,7 @@ dest
 }
 else
 {
-movd
+vmovd
 (
 src
 .
@@ -6861,7 +6861,7 @@ payloadReg
 dest
 )
 ;
-movd
+vmovd
 (
 src
 .
@@ -6871,9 +6871,10 @@ typeReg
 ScratchDoubleReg
 )
 ;
-unpcklps
+vunpcklps
 (
 ScratchDoubleReg
+dest
 dest
 )
 ;
@@ -6920,7 +6921,7 @@ payload
 scratch
 )
 ;
-movd
+vmovd
 (
 scratch
 dest
@@ -6948,7 +6949,7 @@ payload
 scratch
 )
 ;
-movd
+vmovd
 (
 scratch
 dest
@@ -6960,15 +6961,16 @@ type
 scratch
 )
 ;
-movd
+vmovd
 (
 scratch
 ScratchDoubleReg
 )
 ;
-unpcklps
+vunpcklps
 (
 ScratchDoubleReg
+dest
 dest
 )
 ;
@@ -7458,7 +7460,7 @@ Label
 fail
 )
 {
-cvttsd2si
+vcvttsd2si
 (
 src
 dest
@@ -7466,7 +7468,7 @@ dest
 ;
 /
 /
-cvttsd2si
+vcvttsd2si
 returns
 0x80000000
 on
@@ -7528,7 +7530,7 @@ Label
 fail
 )
 {
-cvttss2si
+vcvttss2si
 (
 src
 dest
@@ -7536,7 +7538,7 @@ dest
 ;
 /
 /
-cvttss2si
+vcvttss2si
 returns
 0x80000000
 on

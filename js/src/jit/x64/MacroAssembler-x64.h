@@ -9106,7 +9106,7 @@ Label
 fail
 )
 {
-cvttsd2sq
+vcvttsd2sq
 (
 src
 dest
@@ -9114,7 +9114,7 @@ dest
 ;
 /
 /
-cvttsd2sq
+vcvttsd2sq
 returns
 0x8000000000000000
 on
@@ -9192,7 +9192,7 @@ Label
 fail
 )
 {
-cvttss2sq
+vcvttss2sq
 (
 src
 dest
@@ -9604,9 +9604,10 @@ FloatRegister
 dest
 )
 {
-cvtsq2sd
+vcvtsq2sd
 (
 src
+dest
 dest
 )
 ;
@@ -9620,9 +9621,10 @@ FloatRegister
 dest
 )
 {
-cvtsq2ss
+vcvtsq2ss
 (
 src
+dest
 dest
 )
 ;

@@ -4023,7 +4023,7 @@ On
 x64
 branchTruncateDouble
 uses
-cvttsd2sq
+vcvttsd2sq
 .
 Unlike
 the
@@ -4105,7 +4105,7 @@ On
 x64
 branchTruncateFloat32
 uses
-cvttss2sq
+vcvttss2sq
 .
 Unlike
 the

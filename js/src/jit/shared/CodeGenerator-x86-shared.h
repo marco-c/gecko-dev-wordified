@@ -672,7 +672,7 @@ snapshot
 {
 /
 /
-cvttsd2si
+vcvttsd2si
 returns
 0x80000000
 on
@@ -716,7 +716,7 @@ materialize
 .
 masm
 .
-cvttsd2si
+vcvttsd2si
 (
 src
 dest
@@ -768,7 +768,7 @@ comment
 .
 masm
 .
-cvttss2si
+vcvttss2si
 (
 src
 dest

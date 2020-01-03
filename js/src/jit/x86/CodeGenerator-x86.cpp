@@ -6424,7 +6424,7 @@ temp
 ;
 masm
 .
-cvttsd2si
+vcvttsd2si
 (
 temp
 output
@@ -6432,9 +6432,10 @@ output
 ;
 masm
 .
-cvtsi2sd
+vcvtsi2sd
 (
 output
+ScratchDoubleReg
 ScratchDoubleReg
 )
 ;
@@ -7070,7 +7071,7 @@ temp
 ;
 masm
 .
-cvttss2si
+vcvttss2si
 (
 temp
 output
@@ -7078,9 +7079,10 @@ output
 ;
 masm
 .
-cvtsi2ss
+vcvtsi2ss
 (
 output
+ScratchFloat32Reg
 ScratchFloat32Reg
 )
 ;
@@ -7152,8 +7154,9 @@ output
 ;
 masm
 .
-cvtss2sd
+vcvtss2sd
 (
+input
 input
 input
 )
