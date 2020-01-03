@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__pkixgtest_h
+mozilla_pkix_pkixgtest_h
 #
 define
-mozilla_pkix__pkixgtest_h
+mozilla_pkix_pkixgtest_h
 #
 include
 <
@@ -450,4 +450,4 @@ test
 endif
 /
 /
-mozilla_pkix__pkixgtest_h
+mozilla_pkix_pkixgtest_h

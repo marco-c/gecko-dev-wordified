@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__ScopedPtr_h
+mozilla_pkix_ScopedPtr_h
 #
 define
-mozilla_pkix__ScopedPtr_h
+mozilla_pkix_ScopedPtr_h
 #
 include
 "
@@ -680,4 +680,4 @@ pkix
 endif
 /
 /
-mozilla_pkix__ScopedPtr_h
+mozilla_pkix_ScopedPtr_h

@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__Input_h
+mozilla_pkix_Input_h
 #
 define
-mozilla_pkix__Input_h
+mozilla_pkix_Input_h
 #
 include
 <
@@ -2071,4 +2071,4 @@ pkix
 endif
 /
 /
-mozilla_pkix__Input_h
+mozilla_pkix_Input_h

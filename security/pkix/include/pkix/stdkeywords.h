@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__stdkeywords_h
+mozilla_pkix_stdkeywords_h
 #
 define
-mozilla_pkix__stdkeywords_h
+mozilla_pkix_stdkeywords_h
 #
 if
 defined
@@ -331,4 +331,4 @@ __clang__
 endif
 /
 /
-mozilla_pkix__stdkeywords_h
+mozilla_pkix_stdkeywords_h

@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__pkixder_h
+mozilla_pkix_pkixder_h
 #
 define
-mozilla_pkix__pkixder_h
+mozilla_pkix_pkixder_h
 /
 /
 Expect
@@ -3887,4 +3887,4 @@ der
 endif
 /
 /
-mozilla_pkix__pkixder_h
+mozilla_pkix_pkixder_h

@@ -265,10 +265,10 @@ License
 /
 #
 ifndef
-mozilla_pkix__Result_h
+mozilla_pkix_Result_h
 #
 define
-mozilla_pkix__Result_h
+mozilla_pkix_Result_h
 #
 include
 <
@@ -1506,4 +1506,4 @@ pkix
 endif
 /
 /
-mozilla_pkix__Result_h
+mozilla_pkix_Result_h
