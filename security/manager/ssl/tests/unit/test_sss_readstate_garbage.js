@@ -308,6 +308,8 @@ example1
 example
 .
 com
+:
+HSTS
 \
 t0
 \
@@ -425,6 +427,8 @@ writeLine
 example
 .
 com
+:
+HSTS
 \
 t
 \
@@ -453,6 +457,8 @@ example3
 example
 .
 com
+:
+HSTS
 \
 t0
 \
@@ -481,6 +487,8 @@ example2
 example
 .
 com
+:
+HSTS
 \
 t0
 \
