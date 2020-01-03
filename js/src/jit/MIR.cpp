@@ -26531,6 +26531,8 @@ templateObject
 )
 )
 {
+if
+(
 TemporaryTypeSet
 *
 types
@@ -26542,7 +26544,8 @@ templateObject
 (
 )
 )
-;
+)
+{
 setResultTypeSet
 (
 types
@@ -26568,6 +26571,7 @@ convertDoubleElements_
 =
 true
 ;
+}
 }
 }
 bool
