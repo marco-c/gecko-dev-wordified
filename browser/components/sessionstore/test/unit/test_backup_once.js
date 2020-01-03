@@ -160,7 +160,6 @@ to
 initialize
 SessionFile
 let
-(
 XULAppInfo
 =
 {
@@ -242,8 +241,7 @@ nsIXULRuntime
 ]
 )
 }
-)
-{
+;
 let
 XULAppInfoFactory
 =
@@ -333,8 +331,6 @@ info
 "
 XULAppInfoFactory
 )
-;
-}
 ;
 function
 run_test

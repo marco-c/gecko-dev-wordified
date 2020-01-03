@@ -212,16 +212,15 @@ of
 an
 old
 one
-initialy
+initially
+.
 let
-(
 sessionStoreJS
 =
 getSessionstoreFile
 (
 )
-)
-{
+;
 if
 (
 sessionStoreJS
@@ -237,7 +236,6 @@ remove
 false
 )
 ;
-}
 /
 /
 test

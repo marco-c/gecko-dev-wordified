@@ -218,7 +218,6 @@ the
 migrators
 .
 let
-(
 XULAppInfo
 =
 {
@@ -391,8 +390,7 @@ this
 ;
 }
 }
-)
-{
+;
 const
 CONTRACT_ID
 =
@@ -497,4 +495,3 @@ nsIFactory
 }
 )
 ;
-}
