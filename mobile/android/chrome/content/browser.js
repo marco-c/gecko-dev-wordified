@@ -25221,6 +25221,13 @@ _zoom
 let
 resolution
 =
+this
+.
+restoredSessionZoom
+(
+)
+|
+|
 aDisplayPort
 .
 resolution
