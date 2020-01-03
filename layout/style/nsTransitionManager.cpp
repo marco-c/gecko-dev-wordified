@@ -1048,6 +1048,7 @@ QueueEvent
 TransitionEventInfo
 (
 owningElement
+owningPseudoType
 TransitionProperty
 (
 )
@@ -1059,7 +1060,6 @@ Timing
 )
 .
 mIterationDuration
-owningPseudoType
 )
 )
 ;

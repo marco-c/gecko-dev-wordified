@@ -1695,10 +1695,10 @@ QueueEvent
 AnimationEventInfo
 (
 owningElement
-mAnimationName
-eAnimationStart
-elapsedTime
 owningPseudoType
+eAnimationStart
+mAnimationName
+elapsedTime
 )
 )
 ;
@@ -1809,10 +1809,10 @@ QueueEvent
 AnimationEventInfo
 (
 owningElement
-mAnimationName
-message
-elapsedTime
 owningPseudoType
+message
+mAnimationName
+elapsedTime
 )
 )
 ;
