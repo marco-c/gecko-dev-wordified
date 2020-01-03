@@ -842,15 +842,12 @@ toolbar
 *
 /
 private
-ImageButton
+View
 getEditCancelButton
 (
 )
 {
 return
-(
-ImageButton
-)
 getToolbarView
 (
 )
