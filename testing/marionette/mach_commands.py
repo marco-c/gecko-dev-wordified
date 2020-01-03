@@ -378,12 +378,6 @@ ini
 )
 ]
     
-options
-.
-type
-=
-testtype
-    
 if
 b2g_path
 :
@@ -427,11 +421,23 @@ options
 binary
 )
     
-options
+for
+k
+v
+in
+kwargs
 .
-address
-=
-address
+iteritems
+(
+)
+:
+        
+setattr
+(
+options
+k
+v
+)
     
 parser
 .
@@ -585,10 +591,11 @@ CommandArgument
 -
 type
 '
-dest
+        
+default
 =
 '
-testtype
+b2g
 '
         
 help
@@ -606,12 +613,6 @@ b2g
 -
 qemu
 .
-'
-        
-default
-=
-'
-b2g
 '
 )
     
@@ -651,9 +652,9 @@ run_marionette_webapi
 (
 self
 tests
-testtype
-=
-None
+*
+*
+kwargs
 )
 :
         
@@ -747,17 +748,14 @@ emulator
 =
 emulator
             
-testtype
-=
-testtype
 topsrcdir
 =
 self
 .
 topsrcdir
-address
-=
-None
+*
+*
+kwargs
 )
 CommandProvider
 class
@@ -846,10 +844,11 @@ CommandArgument
 -
 type
 '
-dest
+        
+default
 =
 '
-testtype
+browser
 '
         
 help
@@ -868,11 +867,26 @@ b2g
 qemu
 .
 '
+)
+    
+CommandArgument
+(
+'
+-
+-
+profile
+'
         
-default
+help
 =
 '
-browser
+Path
+to
+gecko
+profile
+to
+use
+.
 '
 )
     
@@ -912,13 +926,6 @@ run_marionette_test
 (
 self
 tests
-address
-=
-None
-testtype
-=
-None
-                            
 *
 *
 kwargs
@@ -943,16 +950,12 @@ tests
 binary
 =
 binary
-testtype
-=
-testtype
-            
 topsrcdir
 =
 self
 .
 topsrcdir
-address
-=
-address
+*
+*
+kwargs
 )
