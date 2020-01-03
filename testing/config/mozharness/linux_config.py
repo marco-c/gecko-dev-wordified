@@ -170,7 +170,9 @@ tinderbox
 "
 -
 -
-tbpl
+jitflags
+=
+all
 "
             
 ]

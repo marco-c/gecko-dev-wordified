@@ -438,7 +438,9 @@ tinderbox
 "
 -
 -
-tbpl
+jitflags
+=
+all
 "
             
 ]
