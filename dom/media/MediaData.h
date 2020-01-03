@@ -199,12 +199,10 @@ public
 enum
 Type
 {
-AUDIO_SAMPLES
+AUDIO_DATA
 =
 0
-VIDEO_FRAME
-=
-1
+VIDEO_DATA
 }
 ;
 MediaData
@@ -391,7 +389,7 @@ aRate
 :
 MediaData
 (
-AUDIO_SAMPLES
+AUDIO_DATA
 aOffset
 aTime
 aDuration
