@@ -154,6 +154,8 @@ command
 "
 profile
 :
+image
+:
 change
 "
 data
@@ -169,7 +171,7 @@ foo
 ;
 makeObserver
 (
-ON_PROFILE_CHANGE_NOTIFICATION
+ONPROFILE_IMAGE_CHANGE_NOTIFICATION
 function
 (
 subject

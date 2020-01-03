@@ -208,10 +208,12 @@ jsm
 )
 ;
 const
-PROFILE_CHANGE_COMMAND
+PROFILE_IMAGE_CHANGE_COMMAND
 =
 "
 profile
+:
+image
 :
 change
 "
@@ -621,7 +623,7 @@ command
 )
 {
 case
-PROFILE_CHANGE_COMMAND
+PROFILE_IMAGE_CHANGE_COMMAND
 :
 Services
 .
@@ -630,7 +632,7 @@ obs
 notifyObservers
 (
 null
-ON_PROFILE_CHANGE_NOTIFICATION
+ONPROFILE_IMAGE_CHANGE_NOTIFICATION
 data
 .
 uid
