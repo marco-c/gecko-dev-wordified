@@ -1847,14 +1847,12 @@ networkTypes
 .
 replace
 (
-"
+/
 -
 auto
-"
-"
-"
-"
+/
 g
+"
 "
 )
 .
