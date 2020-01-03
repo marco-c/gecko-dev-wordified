@@ -3663,14 +3663,10 @@ edit
 NS_ERROR_FAILURE
 )
 ;
-*
-aEditInterface
-=
 edit
-;
-NS_ADDREF
+.
+forget
 (
-*
 aEditInterface
 )
 ;

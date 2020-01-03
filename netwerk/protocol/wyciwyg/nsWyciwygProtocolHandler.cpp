@@ -645,14 +645,10 @@ rv
 rv
 )
 ;
-*
-result
-=
 url
-;
-NS_ADDREF
+.
+forget
 (
-*
 result
 )
 ;

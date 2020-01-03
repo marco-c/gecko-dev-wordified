@@ -516,12 +516,11 @@ mContentLength
 =
 contentLen
 ;
-NS_ADDREF
-(
-*
-result
-=
 bufInStream
+.
+forget
+(
+result
 )
 ;
 return

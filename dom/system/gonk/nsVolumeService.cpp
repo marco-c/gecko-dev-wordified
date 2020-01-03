@@ -1399,12 +1399,11 @@ rv
 )
 ;
 }
-NS_ADDREF
-(
-*
-aVolNames
-=
 volNames
+.
+forget
+(
+aVolNames
 )
 ;
 return

@@ -10679,12 +10679,11 @@ aOrigin
 )
 )
 {
-NS_ADDREF
-(
-*
-aDirectory
-=
 directory
+.
+forget
+(
+aDirectory
 )
 ;
 return

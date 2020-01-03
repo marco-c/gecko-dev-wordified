@@ -14176,12 +14176,11 @@ AddTransaction
 firstTrans
 )
 ;
-NS_ADDREF
-(
-*
-result
-=
 pipeline
+.
+forget
+(
+result
 )
 ;
 return

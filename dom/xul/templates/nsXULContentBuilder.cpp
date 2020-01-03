@@ -7512,14 +7512,10 @@ rv
 return
 rv
 ;
-*
-result
-=
 element
-;
-NS_ADDREF
+.
+forget
 (
-*
 result
 )
 ;

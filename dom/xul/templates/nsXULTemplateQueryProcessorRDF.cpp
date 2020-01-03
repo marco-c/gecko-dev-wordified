@@ -2257,14 +2257,10 @@ AppendElement
 query
 )
 ;
-*
-_retval
-=
 query
-;
-NS_ADDREF
+.
+forget
 (
-*
 _retval
 )
 ;

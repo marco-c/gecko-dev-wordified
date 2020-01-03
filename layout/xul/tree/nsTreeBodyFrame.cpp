@@ -3368,12 +3368,11 @@ rect
 height
 )
 ;
-NS_ADDREF
-(
-*
-aRegion
-=
 region
+.
+forget
+(
+aRegion
 )
 ;
 return

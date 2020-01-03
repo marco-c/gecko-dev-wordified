@@ -2233,12 +2233,11 @@ SetData
 1
 )
 ;
-NS_ADDREF
-(
-*
-sessionState
-=
 v
+.
+forget
+(
+sessionState
 )
 ;
 }

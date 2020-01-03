@@ -1340,12 +1340,11 @@ return
 rv
 ;
 }
-NS_ADDREF
-(
-*
-aReturn
-=
 connection
+.
+forget
+(
+aReturn
 )
 ;
 return

@@ -437,14 +437,10 @@ mCheckedNext
 =
 false
 ;
-*
-aResult
-=
 nextresult
-;
-NS_ADDREF
+.
+forget
 (
-*
 aResult
 )
 ;

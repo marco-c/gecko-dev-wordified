@@ -18037,14 +18037,10 @@ set
 the
 return
 values
-*
-aParentContent
-=
 parentContent
-;
-NS_ADDREF
+.
+forget
 (
-*
 aParentContent
 )
 ;
