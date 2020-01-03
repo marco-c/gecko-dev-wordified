@@ -293,6 +293,9 @@ numActualArgs
 InlineFrameIterator
 &
 iter
+MaybeReadFallback
+&
+fallback
 )
 ;
 public
@@ -311,6 +314,9 @@ top
 InlineFrameIterator
 &
 iter
+MaybeReadFallback
+&
+fallback
 )
 ;
 /
@@ -364,6 +370,9 @@ top
 InlineFrameIterator
 &
 iter
+MaybeReadFallback
+&
+fallback
 Vector
 <
 RematerializedFrame
