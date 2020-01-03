@@ -266,6 +266,12 @@ defined
 (
 MOZ_B2G_CAMERA
 )
+&
+&
+defined
+(
+MOZ_WEBRTC
+)
 #
 include
 "
@@ -490,6 +496,12 @@ MOZ_WIDGET_GONK
 defined
 (
 MOZ_B2G_CAMERA
+)
+&
+&
+defined
+(
+MOZ_WEBRTC
 )
 if
 (
