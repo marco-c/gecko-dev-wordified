@@ -299,13 +299,6 @@ head
 >
 <
 body
-onload
-=
-"
-runTests
-(
-)
-"
 >
 <
 a
@@ -445,6 +438,13 @@ executeTests
 )
 ;
 }
+SimpleTest
+.
+waitForFocus
+(
+runTests
+)
+;
 function
 isRectContainedInRectFromRegion
 (
