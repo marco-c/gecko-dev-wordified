@@ -509,6 +509,12 @@ requests
 '
     
 '
+python
+/
+slugid
+'
+    
+'
 build
 '
     
