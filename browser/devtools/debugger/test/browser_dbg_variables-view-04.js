@@ -70,7 +70,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
