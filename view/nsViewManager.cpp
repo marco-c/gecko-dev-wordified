@@ -1376,6 +1376,15 @@ else
 if
 (
 mPresShell
+&
+&
+!
+mPresShell
+-
+>
+GetIsViewportOverridden
+(
+)
 )
 {
 nsPresContext
