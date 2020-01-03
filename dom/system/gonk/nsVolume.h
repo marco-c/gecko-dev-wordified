@@ -390,6 +390,16 @@ mName
 )
 ;
 }
+void
+Dump
+(
+const
+char
+*
+aLabel
+)
+const
+;
 int32_t
 MountGeneration
 (
