@@ -170,6 +170,8 @@ atomic_load
 i32a
 0
 )
+|
+0
 ;
 return
 v
@@ -209,6 +211,8 @@ i
 >
 2
 )
+|
+0
 ;
 return
 v
@@ -241,6 +245,8 @@ i32a
 0
 37
 )
+|
+0
 ;
 return
 v
@@ -283,6 +289,8 @@ i
 2
 37
 )
+|
+0
 ;
 return
 v
@@ -315,6 +323,8 @@ i32a
 10
 37
 )
+|
+0
 ;
 return
 v
@@ -357,6 +367,8 @@ i
 2
 37
 )
+|
+0
 ;
 return
 v
@@ -389,6 +401,8 @@ i32a
 20
 148
 )
+|
+0
 ;
 return
 v
@@ -431,6 +445,8 @@ i
 2
 148
 )
+|
+0
 ;
 return
 v
@@ -463,6 +479,8 @@ i32a
 30
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -505,6 +523,8 @@ i
 2
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -537,6 +557,8 @@ i32a
 40
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -579,6 +601,8 @@ i
 2
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -611,6 +635,8 @@ i32a
 50
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -653,6 +679,8 @@ i
 2
 0x33333333
 )
+|
+0
 ;
 return
 v
@@ -691,6 +719,8 @@ i32a
 -
 1
 )
+|
+0
 ;
 return
 v
@@ -729,6 +759,8 @@ i32a
 1
 0x5A5A5A5A
 )
+|
+0
 ;
 return
 v
@@ -777,6 +809,8 @@ i
 -
 1
 )
+|
+0
 ;
 return
 v
@@ -825,6 +859,8 @@ i
 1
 0x5A5A5A5A
 )
+|
+0
 ;
 return
 v
@@ -894,6 +930,21 @@ do_cas2_i
 }
 ;
 }
+if
+(
+isAsmJSCompilationAvailable
+(
+)
+)
+assertEq
+(
+isAsmJSModule
+(
+loadModule_int32
+)
+true
+)
+;
 function
 loadModule_int8
 (
@@ -1012,6 +1063,8 @@ atomic_load
 i8a
 0
 )
+|
+0
 ;
 return
 v
@@ -1048,6 +1101,8 @@ atomic_load
 i8a
 i
 )
+|
+0
 ;
 return
 v
@@ -1080,6 +1135,8 @@ i8a
 0
 37
 )
+|
+0
 ;
 return
 v
@@ -1119,6 +1176,8 @@ i8a
 i
 37
 )
+|
+0
 ;
 return
 v
@@ -1151,6 +1210,8 @@ i8a
 10
 37
 )
+|
+0
 ;
 return
 v
@@ -1190,6 +1251,8 @@ i8a
 i
 37
 )
+|
+0
 ;
 return
 v
@@ -1222,6 +1285,8 @@ i8a
 20
 108
 )
+|
+0
 ;
 return
 v
@@ -1261,6 +1326,8 @@ i8a
 i
 108
 )
+|
+0
 ;
 return
 v
@@ -1293,6 +1360,8 @@ i8a
 30
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1332,6 +1401,8 @@ i8a
 i
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1364,6 +1435,8 @@ i8a
 40
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1403,6 +1476,8 @@ i8a
 i
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1435,6 +1510,8 @@ i8a
 50
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1474,6 +1551,8 @@ i8a
 i
 0x33
 )
+|
+0
 ;
 return
 v
@@ -1512,6 +1591,8 @@ i8a
 -
 1
 )
+|
+0
 ;
 return
 v
@@ -1550,6 +1631,8 @@ i8a
 1
 0x5A
 )
+|
+0
 ;
 return
 v
@@ -1595,6 +1678,8 @@ i
 -
 1
 )
+|
+0
 ;
 return
 v
@@ -1640,6 +1725,8 @@ i
 1
 0x5A
 )
+|
+0
 ;
 return
 v
@@ -1706,6 +1793,21 @@ do_cas2_i
 }
 ;
 }
+if
+(
+isAsmJSCompilationAvailable
+(
+)
+)
+assertEq
+(
+isAsmJSModule
+(
+loadModule_int8
+)
+true
+)
+;
 /
 /
 TODO
