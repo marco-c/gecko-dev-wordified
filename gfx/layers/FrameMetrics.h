@@ -690,6 +690,14 @@ aOther
 mUpdateScrollOffset
 &
 &
+mScrollGeneration
+=
+=
+aOther
+.
+mScrollGeneration
+&
+&
 mExtraResolution
 =
 =
