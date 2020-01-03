@@ -1325,6 +1325,17 @@ Accessible
 aAccessible
 )
 ;
+static
+void
+FireWinEvent
+(
+Accessible
+*
+aTarget
+uint32_t
+aEventType
+)
+;
 /
 *
 *
