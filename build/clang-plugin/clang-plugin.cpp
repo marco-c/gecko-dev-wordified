@@ -1676,7 +1676,7 @@ Loc
 )
 ;
 void
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 DiagnosticsEngine
 &
@@ -8057,7 +8057,7 @@ AV_Global
 :
 StackClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8068,7 +8068,7 @@ GlobalNoteID
 ;
 HeapClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8084,7 +8084,7 @@ AV_Automatic
 :
 GlobalClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8095,7 +8095,7 @@ StackNoteID
 ;
 HeapClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8111,7 +8111,7 @@ AV_Temporary
 :
 GlobalClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8122,7 +8122,7 @@ TemporaryNoteID
 ;
 HeapClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8138,7 +8138,7 @@ AV_Heap
 :
 GlobalClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8149,7 +8149,7 @@ HeapNoteID
 ;
 StackClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
@@ -8160,7 +8160,7 @@ HeapNoteID
 ;
 NonHeapClass
 .
-reportErrorIfAbsent
+reportErrorIfPresent
 (
 Diag
 T
