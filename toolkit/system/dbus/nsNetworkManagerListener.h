@@ -160,6 +160,7 @@ DBusConnection
 *
 connection
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -169,6 +170,7 @@ DBusConnection
 *
 connection
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -178,6 +180,7 @@ DBusMessage
 *
 msg
 )
+MOZ_OVERRIDE
 ;
 /
 *
