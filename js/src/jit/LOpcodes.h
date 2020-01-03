@@ -658,6 +658,11 @@ MinMaxD
 \
 _
 (
+MinMaxF
+)
+\
+_
+(
 NegI
 )
 \
