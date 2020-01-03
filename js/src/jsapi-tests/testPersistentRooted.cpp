@@ -170,7 +170,7 @@ class_
 "
 BarkWhenTracedClass
 "
-0
+JSCLASS_IMPLEMENTS_BARRIERS
 nullptr
 nullptr
 nullptr
