@@ -489,6 +489,8 @@ dom
 TimeRanges
 *
 aBuffered
+int64_t
+aStartTime
 )
 MOZ_FINAL
 MOZ_OVERRIDE

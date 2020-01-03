@@ -1784,6 +1784,8 @@ dom
 TimeRanges
 *
 aBuffered
+int64_t
+aStartTime
 )
 {
 return

@@ -1881,17 +1881,7 @@ TimeRanges
 *
 aBuffered
 )
-{
-return
-mReader
--
->
-GetBuffered
-(
-aBuffered
-)
 ;
-}
 void
 SetPlaybackRate
 (
@@ -3003,7 +2993,7 @@ available
 bool
 HasLowUndecodedData
 (
-int64_t
+double
 aUsecs
 )
 ;
