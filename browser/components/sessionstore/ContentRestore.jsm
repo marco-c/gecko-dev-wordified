@@ -3045,6 +3045,11 @@ status
 {
 if
 (
+webProgress
+.
+isTopLevel
+&
+&
 stateFlags
 &
 Ci
@@ -3052,15 +3057,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-&
-&
-stateFlags
-&
-Ci
-.
-nsIWebProgressListener
-.
-STATE_IS_NETWORK
 &
 &
 stateFlags
