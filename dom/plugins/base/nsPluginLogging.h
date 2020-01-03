@@ -198,9 +198,6 @@ prlog
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 ifndef
 PLUGIN_LOGGING
 /
@@ -581,11 +578,6 @@ endif
 /
 /
 PLUGIN_LOGGING
-#
-endif
-/
-/
-PR_LOGGING
 /
 /
 Quick
