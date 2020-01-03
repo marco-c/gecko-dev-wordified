@@ -195,6 +195,7 @@ PrivateBrowsingUtils
 dump
 NetworkManager
 PdfJsTelemetry
+PdfjsContentUtils
 *
 /
 '
@@ -1021,6 +1022,7 @@ in
 map
 )
 )
+{
 map
 [
 key
@@ -1029,6 +1031,7 @@ key
 {
 }
 ;
+}
 map
 [
 key
@@ -1069,6 +1072,7 @@ id
 in
 strings
 )
+{
 return
 strings
 [
@@ -1078,6 +1082,7 @@ id
 property
 ]
 ;
+}
 return
 id
 ;
@@ -1089,6 +1094,13 @@ obj
 window
 )
 {
+/
+*
+jshint
+-
+W027
+*
+/
 return
 Cu
 .
@@ -1802,11 +1814,13 @@ if
 (
 sendResponse
 )
+{
 sendResponse
 (
 true
 )
 ;
+}
 return
 ;
 }
@@ -2034,6 +2048,7 @@ this
 .
 extListener
 )
+{
 this
 .
 extListener
@@ -2045,6 +2060,7 @@ aContext
 aStatusCode
 )
 ;
+}
 /
 /
 Notify
@@ -2061,11 +2077,13 @@ if
 (
 sendResponse
 )
+{
 sendResponse
 (
 false
 )
 ;
+}
 }
 onDataAvailable
 :
@@ -2156,6 +2174,7 @@ in
 this
 )
 )
+{
 this
 .
 localizedStrings
@@ -2169,6 +2188,7 @@ properties
 '
 )
 ;
+}
 var
 result
 =
@@ -2568,6 +2588,7 @@ break
 ;
 }
 var
+i
 streamTypes
 =
 documentStats
@@ -2591,7 +2612,6 @@ STREAM_TYPE_ID_LIMIT
 ;
 for
 (
-var
 i
 =
 0
@@ -2669,7 +2689,6 @@ FONT_TYPE_ID_LIMIT
 ;
 for
 (
-var
 i
 =
 0
@@ -2873,8 +2892,10 @@ supportsIntegratedFind
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Verify
@@ -4494,12 +4515,14 @@ action
 return
 ;
 }
+var
+response
+;
 if
 (
 sync
 )
 {
-var
 response
 =
 actions
@@ -4526,9 +4549,6 @@ response
 }
 else
 {
-var
-response
-;
 if
 (
 !
@@ -6396,6 +6416,7 @@ isSuccessCode
 aStatusCode
 )
 )
+{
 this
 .
 dataListener
@@ -6404,7 +6425,9 @@ finish
 (
 )
 ;
+}
 else
+{
 this
 .
 dataListener
@@ -6414,6 +6437,7 @@ error
 aStatusCode
 )
 ;
+}
 delete
 this
 .
