@@ -897,6 +897,7 @@ CreateEmptyClone
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 new
@@ -913,6 +914,7 @@ MediaSegment
 *
 aSource
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -976,6 +978,7 @@ aStart
 StreamTime
 aEnd
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -1067,6 +1070,7 @@ ForgetUpTo
 StreamTime
 aDuration
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1183,6 +1187,7 @@ FlushAfter
 StreamTime
 aNewEnd
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1312,6 +1317,7 @@ InsertNullDataAtStart
 StreamTime
 aDuration
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1406,6 +1412,7 @@ AppendNullData
 StreamTime
 aDuration
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1487,6 +1494,7 @@ void
 ReplaceWithDisabled
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1531,6 +1539,7 @@ void
 Clear
 (
 )
+MOZ_OVERRIDE
 {
 mDuration
 =

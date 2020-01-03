@@ -239,6 +239,7 @@ int
 GetPacketDuration
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 Init

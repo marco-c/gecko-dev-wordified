@@ -162,6 +162,7 @@ MediaDecoder
 Clone
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -188,6 +189,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef

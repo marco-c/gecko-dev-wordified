@@ -435,6 +435,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -444,6 +445,7 @@ AddRef
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -453,6 +455,7 @@ Release
 (
 void
 )
+MOZ_OVERRIDE
 ;
 /
 /

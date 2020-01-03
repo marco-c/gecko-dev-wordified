@@ -3421,6 +3421,7 @@ void
 Stop
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -3504,6 +3505,7 @@ StopTrack
 TrackID
 aTrackID
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -3963,6 +3965,7 @@ DOMLocalMediaStream
 AsDOMLocalMediaStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -3976,6 +3979,7 @@ GetMediaEngine
 TrackID
 aTrackID
 )
+MOZ_OVERRIDE
 {
 /
 /

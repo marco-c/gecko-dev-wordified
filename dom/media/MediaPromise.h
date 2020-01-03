@@ -1293,6 +1293,7 @@ DoResolve
 ResolveValueType
 aResolveValue
 )
+MOZ_OVERRIDE
 {
 InvokeCallbackMethod
 (
@@ -1313,6 +1314,7 @@ DoReject
 RejectValueType
 aRejectValue
 )
+MOZ_OVERRIDE
 {
 InvokeCallbackMethod
 (

@@ -493,6 +493,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -3918,6 +3919,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

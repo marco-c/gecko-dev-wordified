@@ -7295,12 +7295,14 @@ nsIStreamListener
 *
 aStreamListener
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 Close
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -7309,6 +7311,7 @@ Suspend
 bool
 aCloseImmediately
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7316,6 +7319,7 @@ void
 Resume
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7326,12 +7330,14 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 CanClone
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -7344,6 +7350,7 @@ MediaDecoder
 *
 aDecoder
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -7357,6 +7364,7 @@ aOffset
 uint32_t
 aCount
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -7383,6 +7391,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7392,6 +7401,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7407,6 +7417,7 @@ uint32_t
 *
 aBytes
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -7423,6 +7434,7 @@ uint32_t
 *
 aBytes
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -7433,12 +7445,14 @@ aWhence
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 int64_t
 Tell
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -7449,6 +7463,7 @@ void
 Pin
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7456,6 +7471,7 @@ void
 Unpin
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -7466,6 +7482,7 @@ bool
 *
 aIsReliable
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -7501,6 +7518,7 @@ int64_t
 GetLength
 (
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock
@@ -7527,6 +7545,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock
@@ -7558,6 +7577,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock
@@ -7587,6 +7607,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -7597,6 +7618,7 @@ bool
 IsSuspendedByCache
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -7607,6 +7629,7 @@ bool
 IsSuspended
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -7633,6 +7656,7 @@ MediaByteRange
 &
 aRanges
 )
+MOZ_OVERRIDE
 ;
 virtual
 size_t

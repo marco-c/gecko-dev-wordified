@@ -5011,6 +5011,7 @@ SourceMediaStream
 AsSourceStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -5027,6 +5028,7 @@ void
 DestroyImpl
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -7259,6 +7261,7 @@ ProcessedMediaStream
 AsProcessedStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -7341,6 +7344,7 @@ void
 DestroyImpl
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *

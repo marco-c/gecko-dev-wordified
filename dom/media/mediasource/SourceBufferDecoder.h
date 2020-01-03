@@ -689,6 +689,7 @@ CDMProxy
 *
 aProxy
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

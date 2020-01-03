@@ -4515,6 +4515,7 @@ bool
 IsTransportSeekable
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -5533,6 +5534,7 @@ MetadataTags
 >
 aTags
 )
+MOZ_OVERRIDE
 ;
 int64_t
 GetSeekTime
@@ -5750,6 +5752,7 @@ MetadataTags
 >
 aTags
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -5793,6 +5796,7 @@ MediaInfo
 >
 aInfo
 )
+MOZ_OVERRIDE
 ;
 /
 /

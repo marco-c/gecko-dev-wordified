@@ -489,6 +489,7 @@ unsigned
 int
 streams
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -508,6 +509,7 @@ void
 *
 handle
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -548,6 +550,7 @@ bool
 IsTextureSupported
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -618,12 +621,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 Deallocate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -633,6 +638,7 @@ SourceMediaStream
 *
 TrackID
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -642,6 +648,7 @@ SourceMediaStream
 *
 TrackID
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -666,6 +673,7 @@ MediaSourceType
 GetMediaSource
 (
 )
+MOZ_OVERRIDE
 {
 return
 mMediaSource
@@ -679,6 +687,7 @@ PhotoCallback
 *
 aCallback
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -707,6 +716,7 @@ MediaTrackConstraintSet
 &
 aConstraintSets
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1001,6 +1011,7 @@ nsAString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1010,6 +1021,7 @@ nsAString
 &
 aUUID
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1024,12 +1036,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 Deallocate
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1041,6 +1055,7 @@ aStream
 TrackID
 aID
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1052,6 +1067,7 @@ aSource
 TrackID
 aID
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1060,6 +1076,7 @@ SetDirectListeners
 bool
 aHasDirectListeners
 )
+MOZ_OVERRIDE
 {
 }
 ;
@@ -1082,6 +1099,7 @@ aNoise
 int32_t
 aPlayoutDelay
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1105,6 +1123,7 @@ bool
 IsFake
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -1116,6 +1135,7 @@ MediaSourceType
 GetMediaSource
 (
 )
+MOZ_OVERRIDE
 {
 return
 MediaSourceType
@@ -1132,6 +1152,7 @@ PhotoCallback
 *
 aCallback
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1162,6 +1183,7 @@ samplingFreq
 bool
 isStereo
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 protected

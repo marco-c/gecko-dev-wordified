@@ -555,6 +555,7 @@ GMPDecryptionData
 &
 aMetadata
 )
+MOZ_OVERRIDE
 ;
 /
 /
