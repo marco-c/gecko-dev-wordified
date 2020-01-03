@@ -233,10 +233,10 @@ nsTableFrame
 mTableFrame
 ;
 nscoord
-mMinWidth
+mMinISize
 ;
 nscoord
-mLastCalcWidth
+mLastCalcISize
 ;
 }
 ;
