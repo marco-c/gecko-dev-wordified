@@ -3314,6 +3314,11 @@ UsesOffMainThreadCompositing
 (
 )
 ;
+bool
+HasEnoughTotalSystemMemoryForSkiaGL
+(
+)
+;
 protected
 :
 gfxPlatform
@@ -3746,6 +3751,9 @@ word
 cache
 int32_t
 mWordCacheMaxEntries
+;
+uint32_t
+mTotalSystemMemory
 ;
 private
 :
