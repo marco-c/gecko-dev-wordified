@@ -914,9 +914,6 @@ FetchBody
 void
 SetMimeType
 (
-ErrorResult
-&
-aRv
 )
 ;
 private
