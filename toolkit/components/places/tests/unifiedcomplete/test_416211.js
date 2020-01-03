@@ -190,6 +190,13 @@ tags
 superTag
 "
 ]
+style
+:
+[
+"
+tag
+"
+]
 }
 ]
 }

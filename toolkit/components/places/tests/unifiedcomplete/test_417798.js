@@ -316,6 +316,13 @@ with
 javascript
 :
 "
+style
+:
+[
+"
+bookmark
+"
+]
 }
 ]
 }
@@ -393,6 +400,13 @@ with
 javascript
 :
 "
+style
+:
+[
+"
+bookmark
+"
+]
 }
 ]
 }

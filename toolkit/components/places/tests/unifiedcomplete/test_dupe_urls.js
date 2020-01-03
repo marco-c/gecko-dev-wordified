@@ -164,6 +164,13 @@ mozilla
 .
 org
 "
+style
+:
+[
+"
+autofill
+"
+]
 }
 ]
 }
