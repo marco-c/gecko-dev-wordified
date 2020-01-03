@@ -500,6 +500,7 @@ logging
 ;
 public
 :
+explicit
 AutoTraceLoggerThreadStateLock
 (
 TraceLoggerThreadState

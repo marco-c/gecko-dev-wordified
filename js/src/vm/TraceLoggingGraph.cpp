@@ -188,6 +188,7 @@ graph
 ;
 public
 :
+explicit
 AutoTraceLoggerGraphStateLock
 (
 TraceLoggerGraphState
