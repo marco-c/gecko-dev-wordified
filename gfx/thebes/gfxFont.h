@@ -11932,6 +11932,8 @@ within
 aShapedText
 uint32_t
 aLength
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
