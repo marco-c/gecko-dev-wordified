@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h

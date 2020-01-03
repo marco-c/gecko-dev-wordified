@@ -282,13 +282,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIDOMSimpleGestureEvent
 .
 h

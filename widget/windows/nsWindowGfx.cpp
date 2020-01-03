@@ -529,13 +529,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 prmem
 .
 h
