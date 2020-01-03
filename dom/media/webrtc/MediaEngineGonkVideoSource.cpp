@@ -721,8 +721,6 @@ finished
 the
 track
 .
-if
-(
 aSource
 -
 >
@@ -734,13 +732,7 @@ aID
 segment
 )
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 void
