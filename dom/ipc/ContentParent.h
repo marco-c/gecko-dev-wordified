@@ -3080,6 +3080,9 @@ clipboardCaps
 DomainPolicyClone
 *
 domainPolicy
+OwningSerializedStructuredCloneBuffer
+*
+initialData
 )
 override
 ;

@@ -3206,6 +3206,10 @@ nsIProcessScriptLoader
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
+nsIGlobalProcessScriptLoader
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
 nsIMessageListenerManager
 )
 DOM_CLASSINFO_MAP_ENTRY
