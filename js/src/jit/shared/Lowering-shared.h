@@ -883,6 +883,17 @@ MDefinition
 mir
 )
 ;
+inline
+LUse
+useRegisterForTypedLoad
+(
+MDefinition
+*
+mir
+MIRType
+type
+)
+;
 #
 ifdef
 JS_NUNBOX32
