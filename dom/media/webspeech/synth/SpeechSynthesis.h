@@ -297,7 +297,7 @@ aResult
 )
 ;
 void
-DropGlobalQueue
+ForceEnd
 (
 )
 ;
