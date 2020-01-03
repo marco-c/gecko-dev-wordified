@@ -1210,7 +1210,7 @@ debugRequest
 =
 do_QueryInterface
 (
-key
+request
 )
 ;
 NS_ASSERTION
@@ -1347,7 +1347,7 @@ debugRequest
 =
 do_QueryInterface
 (
-key
+request
 )
 ;
 NS_ASSERTION
