@@ -448,6 +448,7 @@ static
 nsCString
 ToCryptoString
 (
+const
 CryptoSample
 &
 aCrypto
