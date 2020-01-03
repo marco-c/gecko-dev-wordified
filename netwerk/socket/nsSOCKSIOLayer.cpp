@@ -1140,6 +1140,7 @@ template
 size_t
 Size2
 >
+MOZ_IMPLICIT
 Buffer
 (
 const
