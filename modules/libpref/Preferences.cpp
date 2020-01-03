@@ -5142,12 +5142,6 @@ prefArray
 =
 valueArray
 ;
-saveArgs
-.
-saveTypes
-=
-SAVE_ALL
-;
 /
 /
 get
