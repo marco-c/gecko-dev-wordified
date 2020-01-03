@@ -2462,9 +2462,11 @@ return
 rect
 ;
 }
-static
 nsIFrame
 *
+nsCaret
+:
+:
 GetFrameAndOffset
 (
 Selection
