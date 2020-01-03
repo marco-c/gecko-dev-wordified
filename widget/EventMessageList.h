@@ -445,7 +445,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSELEAVE
+eMouseLeave
 eMouseEventFirst
 +
 35
