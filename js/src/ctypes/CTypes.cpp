@@ -11899,7 +11899,7 @@ JS_SetReservedSlot
 (
 ctypesObj
 SLOT_CALLBACKS
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 const_cast
 <
@@ -25723,7 +25723,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_FFITYPE
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 ffiType
 )
@@ -27847,7 +27847,7 @@ JS_SetReservedSlot
 (
 obj
 SLOT_FFITYPE
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 result
 .
@@ -37550,7 +37550,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_FIELDINFO
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 fields
 .
@@ -42028,7 +42028,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_FNINFO
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 fninfo
 )
@@ -45840,7 +45840,7 @@ JS_SetReservedSlot
 (
 result
 SLOT_CLOSUREINFO
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 cinfo
 )
@@ -48107,7 +48107,7 @@ JS_SetReservedSlot
 (
 dataObj
 SLOT_DATA
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 buffer
 )
@@ -54210,7 +54210,7 @@ JS_SetReservedSlot
 (
 result
 SLOT_INT64
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 buffer
 )

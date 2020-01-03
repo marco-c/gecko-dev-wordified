@@ -817,7 +817,7 @@ JS_SetReservedSlot
 (
 libraryObj
 SLOT_LIBRARY
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 nullptr
 )
@@ -1285,7 +1285,7 @@ JS_SetReservedSlot
 (
 libraryObj
 SLOT_LIBRARY
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 library
 )
@@ -1669,7 +1669,7 @@ JS_SetReservedSlot
 (
 obj
 SLOT_LIBRARY
-PRIVATE_TO_JSVAL
+PrivateValue
 (
 nullptr
 )
