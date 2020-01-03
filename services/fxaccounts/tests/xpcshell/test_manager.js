@@ -2138,6 +2138,14 @@ error
 =
 >
 {
+do_check_eq
+(
+error
+.
+error
+ERROR_OFFLINE
+)
+;
 FxAccountsManager
 .
 _fxAccounts
