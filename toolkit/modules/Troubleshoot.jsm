@@ -3386,6 +3386,15 @@ keys
 hasSeccompBPF
 "
 "
+hasSeccompTSync
+"
+"
+hasPrivilegedUserNamespaces
+"
+"
+hasUserNamespaces
+"
+"
 canSandboxContent
 "
 "
