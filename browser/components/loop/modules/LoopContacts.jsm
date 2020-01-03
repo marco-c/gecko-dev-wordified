@@ -1667,9 +1667,9 @@ operation
 ]
 !
 =
-'
+"
 function
-'
+"
 )
 {
 callback

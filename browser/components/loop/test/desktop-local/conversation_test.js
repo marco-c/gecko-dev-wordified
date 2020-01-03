@@ -281,11 +281,11 @@ ArrayBuffer
 {
 type
 :
-'
+"
 audio
 /
 ogg
-'
+"
 }
 )
 )

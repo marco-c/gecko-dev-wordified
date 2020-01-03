@@ -1174,9 +1174,9 @@ of
 ;
 describe
 (
-'
+"
 TabView
-'
+"
 function
 (
 )
@@ -5738,13 +5738,13 @@ favicon
 ;
 describe
 (
-'
+"
 loop
 .
 panel
 .
 ToSView
-'
+"
 function
 (
 )

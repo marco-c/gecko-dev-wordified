@@ -296,7 +296,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -310,7 +310,7 @@ loop
 loop
 .
 properties
-'
+"
 )
 ;
 }

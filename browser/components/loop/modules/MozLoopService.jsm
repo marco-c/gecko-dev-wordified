@@ -5522,8 +5522,8 @@ WebrtcGlobalInformation
 .
 getLogging
 (
-'
-'
+"
+"
 logs
 =
 >
