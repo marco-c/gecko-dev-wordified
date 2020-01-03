@@ -24212,7 +24212,7 @@ true
 ;
 letContext
 =
-LetExpresion
+LetExpression
 ;
 }
 }
@@ -24257,7 +24257,7 @@ MOZ_ASSERT
 letContext
 =
 =
-LetExpresion
+LetExpression
 )
 ;
 expr
@@ -28604,7 +28604,7 @@ form
 |
 export
 a
-}
+|
 in
 the
 same
@@ -30325,7 +30325,7 @@ pn1
 =
 letBlock
 (
-LetExpresion
+LetExpression
 )
 ;
 }
@@ -51383,7 +51383,7 @@ TOK_LET
 return
 letBlock
 (
-LetExpresion
+LetExpression
 )
 ;
 case
