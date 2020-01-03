@@ -10583,9 +10583,10 @@ return
 NS_OK
 ;
 }
-CallQueryInterface
-(
 element
+.
+forget
+(
 aValue
 )
 ;

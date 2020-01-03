@@ -956,9 +956,10 @@ domdoc
 return
 NS_ERROR_DOM_SECURITY_ERR
 ;
-CallQueryInterface
-(
 window
+.
+forget
+(
 aWindow
 )
 ;
