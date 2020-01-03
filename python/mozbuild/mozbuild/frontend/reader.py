@@ -7911,11 +7911,15 @@ for
 target_dir
 in
 context
-[
+.
+get
+(
 '
 GYP_DIRS
 '
+[
 ]
+)
 :
             
 gyp_dir
