@@ -5223,7 +5223,11 @@ status
 )
 {
 throw
+new
+Error
+(
 status
+)
 ;
 }
 this

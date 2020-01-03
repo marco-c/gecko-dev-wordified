@@ -673,6 +673,7 @@ state
 )
 {
 throw
+new
 Error
 (
 "

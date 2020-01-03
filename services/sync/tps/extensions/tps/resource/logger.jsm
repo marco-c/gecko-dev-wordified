@@ -540,6 +540,8 @@ null
 ;
 }
 throw
+new
+Error
 (
 "
 ASSERTION
@@ -589,6 +591,8 @@ val1
 val2
 )
 throw
+new
+Error
 (
 "
 ASSERTION
