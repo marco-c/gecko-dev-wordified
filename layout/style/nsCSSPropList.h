@@ -9235,7 +9235,7 @@ mTextIndent
 )
 eStyleAnimType_Coord
 )
-CSS_PROP_TEXT
+CSS_PROP_VISIBILITY
 (
 text
 -
@@ -9258,7 +9258,7 @@ VARIANT_HK
 kTextOrientationKTable
 offsetof
 (
-nsStyleText
+nsStyleVisibility
 mTextOrientation
 )
 eStyleAnimType_EnumU8
