@@ -4404,6 +4404,9 @@ Window
 ;
 if
 (
+window
+&
+&
 !
 window
 -
