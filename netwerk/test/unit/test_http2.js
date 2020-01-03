@@ -2133,7 +2133,7 @@ an
 XHR
 request
 over
-SPDY
+h2
 function
 test_http2_xhr
 (
@@ -6439,7 +6439,7 @@ cert
 presented
 by
 our
-SPDY
+H2
 server
 do_get_profile
 (
