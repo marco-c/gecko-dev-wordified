@@ -79,6 +79,14 @@ MPL
 .
 *
 /
+/
+*
+globals
+LoadContextInfo
+FormHistory
+Accounts
+*
+/
 let
 Cc
 =

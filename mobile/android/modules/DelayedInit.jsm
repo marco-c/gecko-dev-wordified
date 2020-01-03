@@ -60,6 +60,12 @@ MPL
 use
 strict
 "
+/
+*
+globals
+MessageLoop
+*
+/
 const
 {
 classes
