@@ -149,6 +149,8 @@ reference
 to
 the
 thread
+/
+/
 actor
 .
 gThreadActor
@@ -230,7 +232,7 @@ loop
 (
 created
 by
-synchronize
+unsafeSynchronize
 )
 /
 /
@@ -261,7 +263,7 @@ should
 also
 then
 exit
-synchronize
+unsafeSynchronize
 '
 s
 event
@@ -274,7 +276,7 @@ loop
 Be
 after
 the
-synchronize
+unsafeSynchronize
 call
 let
 currentStep
@@ -318,11 +320,13 @@ resolving
 should
 have
 the
-synchronize
+unsafeSynchronize
 event
 loop
 and
 the
+/
+/
 one
 just
 created
@@ -372,7 +376,7 @@ have
 the
 /
 /
-synchronize
+unsafeSynchronize
 event
 loop
 and
@@ -436,8 +440,10 @@ started
 since
 the
 call
+/
+/
 to
-synchronize
+unsafeSynchronize
 do_check_eq
 (
 thread
@@ -472,7 +478,7 @@ Should
 have
 only
 the
-synchronize
+unsafeSynchronize
 event
 loop
 do_check_eq
@@ -508,7 +514,7 @@ do_check_eq
 (
 thread
 .
-synchronize
+unsafeSynchronize
 (
 p
 )

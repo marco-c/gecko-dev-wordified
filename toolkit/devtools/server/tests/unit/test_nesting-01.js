@@ -70,7 +70,7 @@ ThreadActor
 .
 prototype
 .
-synchronize
+unsafeSynchronize
 .
 var
 gClient
@@ -242,7 +242,7 @@ nested
 event
 loop
 from
-synchronize
+unsfeSynchronize
 do_check_eq
 (
 thread
@@ -265,7 +265,7 @@ do_check_eq
 (
 thread
 .
-synchronize
+unsafeSynchronize
 (
 p
 )

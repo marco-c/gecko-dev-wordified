@@ -11531,7 +11531,7 @@ send
 (
 threadActor
 .
-synchronize
+unsafeSynchronize
 (
 Promise
 .
