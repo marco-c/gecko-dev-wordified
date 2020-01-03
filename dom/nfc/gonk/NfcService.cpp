@@ -344,8 +344,10 @@ namespace
 mozilla
 {
 static
+StaticRefPtr
+<
 NfcService
-*
+>
 gNfcService
 ;
 NS_IMPL_ISUPPORTS
@@ -2690,8 +2692,9 @@ nsRefPtr
 NfcService
 >
 service
-=
+(
 gNfcService
+)
 ;
 return
 service
