@@ -5654,6 +5654,15 @@ time
 .
 if
 (
+gfxPrefs
+:
+:
+LayersTilesEnabled
+(
+)
+&
+&
+(
 alignmentX
 >
 0
@@ -5662,6 +5671,7 @@ alignmentX
 alignmentY
 >
 0
+)
 )
 {
 /
