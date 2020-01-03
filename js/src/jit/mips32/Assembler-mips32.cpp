@@ -972,6 +972,8 @@ CodeLocationJump
 jump_
 CodeLocationLabel
 label
+ReprotectCode
+reprotect
 )
 {
 Instruction
@@ -997,6 +999,14 @@ inst1
 >
 next
 (
+)
+;
+MaybeAutoWritableJitCode
+awjc
+(
+inst1
+8
+reprotect
 )
 ;
 Assembler
