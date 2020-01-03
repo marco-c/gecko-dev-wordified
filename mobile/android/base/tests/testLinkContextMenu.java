@@ -79,12 +79,12 @@ StringHelper
 ROBOCOP_BLANK_PAGE_01_URL
 )
 ;
-inputAndLoadUrl
+loadAndPaint
 (
 LINK_PAGE_URL
 )
 ;
-waitForText
+verifyPageTitle
 (
 LINK_PAGE_TITLE
 )
