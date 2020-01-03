@@ -3074,6 +3074,9 @@ domainPolicy
 OwningSerializedStructuredCloneBuffer
 *
 initialData
+bool
+*
+aIsSafeMode
 )
 override
 ;
