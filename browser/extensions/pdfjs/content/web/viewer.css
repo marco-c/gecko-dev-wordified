@@ -4893,9 +4893,7 @@ width
 ;
 padding
 :
-3px
-2px
-2px
+0
 ;
 overflow
 :
@@ -4990,7 +4988,9 @@ margin
 ;
 padding
 :
-0
+3px
+2px
+2px
 ;
 border
 :

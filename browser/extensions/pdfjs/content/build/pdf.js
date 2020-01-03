@@ -243,7 +243,7 @@ version
 .
 1
 .
-165
+215
 '
 ;
 PDFJS
@@ -251,7 +251,7 @@ PDFJS
 build
 =
 '
-39d2103
+c9a7498
 '
 ;
 (
@@ -28463,7 +28463,7 @@ fontObj
 bold
 ?
 '
-bolder
+900
 '
 :
 '
@@ -30165,6 +30165,12 @@ fontSize
 return
 ;
 }
+this
+.
+cachedGetSinglePixelWidth
+=
+null
+;
 ctx
 .
 save
