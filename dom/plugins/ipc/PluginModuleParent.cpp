@@ -9656,6 +9656,10 @@ pdata
 if
 (
 sp
+&
+&
+(
+sp
 -
 >
 mNPP
@@ -9671,6 +9675,7 @@ sp
 -
 >
 mStream
+)
 )
 {
 NS_RUNTIMEABORT
