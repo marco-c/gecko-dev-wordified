@@ -10643,19 +10643,16 @@ extraPrefs
 .
 append
 (
-                
 "
 security
 .
 sandbox
 .
-windows
-.
 content
 .
-moreStrict
+level
 =
-true
+1
 "
 )
         

@@ -212,8 +212,8 @@ MOZ_CONTENT_SANDBOX
 bool
 SetSecurityLevelForContentProcess
 (
-bool
-aMoreStrict
+int32_t
+aSandboxLevel
 )
 ;
 #
