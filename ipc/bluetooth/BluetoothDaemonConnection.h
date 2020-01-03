@@ -616,14 +616,6 @@ BluetoothDaemonConnection
 (
 )
 ;
-nsresult
-ConnectSocket
-(
-BluetoothDaemonPDUConsumer
-*
-aConsumer
-)
-;
 /
 /
 Methods
