@@ -2527,9 +2527,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 native
 nargs
 funFlags
@@ -2627,9 +2624,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 native
 nargs
 funFlags

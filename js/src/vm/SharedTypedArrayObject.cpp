@@ -2334,9 +2334,6 @@ getter
 NewFunction
 (
 cx
-NullPtr
-(
-)
 native
 0
 JSFunction

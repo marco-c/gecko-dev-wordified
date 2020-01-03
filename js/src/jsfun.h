@@ -3573,8 +3573,6 @@ NewFunction
 ExclusiveContext
 *
 cx
-HandleObject
-funobj
 JSNative
 native
 unsigned
@@ -3625,8 +3623,6 @@ NewFunctionWithProto
 ExclusiveContext
 *
 cx
-HandleObject
-funobj
 JSNative
 native
 unsigned

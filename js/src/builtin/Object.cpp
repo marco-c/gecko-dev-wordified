@@ -7133,9 +7133,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 obj_construct
 1
 JSFunction

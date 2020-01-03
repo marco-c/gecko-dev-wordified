@@ -12071,9 +12071,6 @@ getobj
 NewFunction
 (
 cx
-NullPtr
-(
-)
 (
 Native
 )
@@ -12184,9 +12181,6 @@ setobj
 NewFunction
 (
 cx
-NullPtr
-(
-)
 (
 Native
 )
@@ -17631,9 +17625,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 native
 nargs
 funFlags
@@ -17734,9 +17725,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 native
 nargs
 funFlags
@@ -22773,9 +22761,6 @@ set
 NewFunction
 (
 cx
-NullPtr
-(
-)
 nullptr
 0
 JSFunction

@@ -2284,9 +2284,6 @@ cx
 NewFunctionWithProto
 (
 cx
-NullPtr
-(
-)
 Generator
 1
 JSFunction
