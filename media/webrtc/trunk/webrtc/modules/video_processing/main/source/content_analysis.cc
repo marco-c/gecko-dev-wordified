@@ -360,13 +360,6 @@ return
 NULL
 ;
 }
-#
-if
-!
-defined
-(
-WEBRTC_GONK
-)
 /
 /
 Compute
@@ -459,8 +452,6 @@ first_frame_
 false
 ;
 }
-#
-endif
 return
 ContentMetrics
 (
@@ -711,13 +702,6 @@ return
 VPM_MEMORY
 ;
 }
-#
-if
-!
-defined
-(
-WEBRTC_GONK
-)
 prev_frame_
 .
 reset
@@ -746,8 +730,6 @@ return
 VPM_MEMORY
 ;
 }
-#
-endif
 /
 /
 ok
