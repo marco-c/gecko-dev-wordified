@@ -425,6 +425,7 @@ Pattern
 *
 GetPattern
 (
+const
 mozilla
 :
 :
