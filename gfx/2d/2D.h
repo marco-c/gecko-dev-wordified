@@ -7459,6 +7459,14 @@ TileSet
 aTileSet
 )
 ;
+static
+bool
+DoesBackendSupportDataDrawtarget
+(
+BackendType
+aType
+)
+;
 #
 ifdef
 XP_MACOSX
