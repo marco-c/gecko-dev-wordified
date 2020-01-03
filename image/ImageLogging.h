@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-mozilla_image_public_ImageLogging_h
+mozilla_image_ImageLogging_h
 #
 define
-mozilla_image_public_ImageLogging_h
+mozilla_image_ImageLogging_h
 #
 include
 "
@@ -1121,4 +1121,4 @@ LOG_FUNC_WITH_PARAM
 endif
 /
 /
-mozilla_image_public_ImageLogging_h
+mozilla_image_ImageLogging_h
