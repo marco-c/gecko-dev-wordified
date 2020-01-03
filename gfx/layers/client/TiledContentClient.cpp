@@ -9036,7 +9036,6 @@ GetAncestorLayers
 &
 scrollAncestor
 nullptr
-nullptr
 )
 ;
 /

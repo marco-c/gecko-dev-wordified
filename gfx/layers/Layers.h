@@ -8976,12 +8976,6 @@ mAnimationGeneration
 aCount
 ;
 }
-bool
-HasTransformAnimation
-(
-)
-const
-;
 /
 *
 *
