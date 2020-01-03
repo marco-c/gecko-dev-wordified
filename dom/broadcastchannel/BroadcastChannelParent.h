@@ -112,7 +112,7 @@ void
 CheckAndDeliver
 (
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 aData
 const
@@ -149,7 +149,7 @@ bool
 RecvPostMessage
 (
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 aData
 )
