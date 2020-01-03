@@ -940,7 +940,8 @@ message
 constructor
 *
 /
-var
+this
+.
 FxAccountsProfileClientError
 =
 function
