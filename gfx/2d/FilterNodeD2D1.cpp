@@ -554,7 +554,7 @@ return
 D2D1_CHANNEL_SELECTOR_R
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -2346,7 +2346,7 @@ false
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

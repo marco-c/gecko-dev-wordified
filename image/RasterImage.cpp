@@ -4340,7 +4340,7 @@ GetTimeoutForFrame
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -4882,7 +4882,7 @@ aFlags
 /
 NS_IMETHODIMP_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

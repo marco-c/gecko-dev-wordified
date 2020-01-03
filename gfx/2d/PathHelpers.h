@@ -1214,7 +1214,7 @@ true
 )
 ;
 inline
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1879,7 +1879,7 @@ true
 )
 ;
 inline
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -2003,7 +2003,7 @@ aDimensions
 )
 ;
 inline
-TemporaryRef
+already_AddRefed
 <
 Path
 >

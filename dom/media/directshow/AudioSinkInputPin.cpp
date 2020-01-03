@@ -770,7 +770,7 @@ return
 S_OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IMediaSeeking
 >

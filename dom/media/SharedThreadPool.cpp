@@ -386,7 +386,7 @@ true
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

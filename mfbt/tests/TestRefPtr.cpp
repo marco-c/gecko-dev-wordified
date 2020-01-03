@@ -135,12 +135,6 @@ mozilla
 :
 RefPtr
 ;
-using
-mozilla
-:
-:
-TemporaryRef
-;
 class
 Foo
 :
@@ -211,7 +205,7 @@ Foo
 {
 }
 ;
-TemporaryRef
+already_AddRefed
 <
 Foo
 >
@@ -239,7 +233,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Foo
 >
@@ -366,7 +360,7 @@ aFoo
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 Foo
 >
@@ -578,6 +572,7 @@ sNumDestroyed
 )
 ;
 {
+{
 RefPtr
 <
 Foo
@@ -589,12 +584,19 @@ Foo
 (
 )
 ;
+RefPtr
+<
+Foo
+>
+g
+=
 f
 .
 forget
 (
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 6

@@ -323,7 +323,7 @@ layers
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 CanvasClient
 >
@@ -713,7 +713,7 @@ GetSyncObject
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1160,7 +1160,7 @@ layersBackend
 }
 protected
 :
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1189,7 +1189,7 @@ mBaseTexFlags
 }
 public
 :
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1228,7 +1228,7 @@ format
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1332,7 +1332,7 @@ forget
 }
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1898,7 +1898,7 @@ forget
 /
 /
 static
-TemporaryRef
+already_AddRefed
 <
 SharedSurfaceTextureClient
 >

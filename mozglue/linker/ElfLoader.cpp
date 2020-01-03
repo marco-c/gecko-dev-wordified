@@ -1368,7 +1368,7 @@ length
 SystemElf
 *
 /
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -1881,7 +1881,7 @@ ElfLoader
 :
 Singleton
 ;
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -2504,10 +2504,7 @@ forget
 )
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >

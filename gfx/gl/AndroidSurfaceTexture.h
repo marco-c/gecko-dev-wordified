@@ -269,7 +269,7 @@ Cream
 Sandwich
 .
 static
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >
@@ -337,7 +337,7 @@ Jelly
 Bean
 .
 static
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >

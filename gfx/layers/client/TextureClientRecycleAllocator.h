@@ -218,7 +218,7 @@ allocates
 a
 TextureClient
 .
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

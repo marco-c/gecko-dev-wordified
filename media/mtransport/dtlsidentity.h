@@ -205,7 +205,7 @@ random
 name
 .
 static
-TemporaryRef
+already_AddRefed
 <
 DtlsIdentity
 >

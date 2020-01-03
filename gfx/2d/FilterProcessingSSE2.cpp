@@ -168,7 +168,7 @@ alphaStride
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -192,7 +192,7 @@ aSurface
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -309,7 +309,7 @@ aOp
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -537,7 +537,7 @@ aSourceStride
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -591,7 +591,7 @@ aTileRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -4823,7 +4823,7 @@ return
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

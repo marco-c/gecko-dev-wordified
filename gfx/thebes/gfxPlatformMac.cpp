@@ -748,7 +748,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

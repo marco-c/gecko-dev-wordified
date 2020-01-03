@@ -556,7 +556,7 @@ info
 define
 DUMP_SHADERVAR_MAPPINGS
 static
-TemporaryRef
+already_AddRefed
 <
 const
 webgl

@@ -330,7 +330,7 @@ mGrallocHandle
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1770,7 +1770,7 @@ return
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

@@ -770,7 +770,7 @@ GUID_NULL
 }
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

@@ -286,7 +286,7 @@ return
 mFormat
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -632,10 +632,7 @@ return
 mContext
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

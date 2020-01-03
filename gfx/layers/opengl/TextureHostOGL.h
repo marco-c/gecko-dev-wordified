@@ -1972,7 +1972,7 @@ aTexture
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2459,7 +2459,7 @@ aTexture
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

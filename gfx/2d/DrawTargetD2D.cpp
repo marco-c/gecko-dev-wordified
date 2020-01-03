@@ -1374,7 +1374,7 @@ DrawTarget
 Implementation
 *
 /
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1594,7 +1594,7 @@ mDrawTarget
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Bitmap
 >
@@ -2106,7 +2106,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -7845,7 +7845,7 @@ pop_back
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -7908,7 +7908,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -8082,7 +8082,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -8209,7 +8209,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -8288,7 +8288,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -8449,7 +8449,7 @@ DIRECT2D
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -8607,7 +8607,7 @@ GetDirect3D11Device
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -9521,7 +9521,7 @@ mFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Layer
 >
@@ -11847,7 +11847,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -12446,7 +12446,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1RenderTarget
 >
@@ -14406,7 +14406,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >
@@ -15532,7 +15532,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID3D10Texture2D
 >
@@ -16066,7 +16066,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID3D10Texture2D
 >

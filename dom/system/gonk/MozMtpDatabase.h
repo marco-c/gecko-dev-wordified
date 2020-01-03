@@ -1053,10 +1053,7 @@ nsACString
 aPath
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 DbEntry
 >

@@ -198,7 +198,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 RefPtr
 #
 include
@@ -1152,7 +1152,7 @@ CompositorOGL
 public
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -1257,7 +1257,7 @@ result
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -1276,7 +1276,7 @@ aInit
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

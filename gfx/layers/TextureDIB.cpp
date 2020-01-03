@@ -350,7 +350,7 @@ TextureClientMemoryDIB
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -656,7 +656,7 @@ mFileMapping
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

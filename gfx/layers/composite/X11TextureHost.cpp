@@ -447,7 +447,7 @@ GetSize
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -240,7 +240,7 @@ CurrentPoint
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -337,7 +337,7 @@ SKIA
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -354,7 +354,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

@@ -2098,7 +2098,7 @@ FALSE
 }
 static
 inline
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -2141,7 +2141,7 @@ forget
 }
 static
 inline
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -2219,7 +2219,7 @@ forget
 }
 static
 inline
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -2297,7 +2297,7 @@ forget
 }
 static
 inline
-TemporaryRef
+already_AddRefed
 <
 ID2D1StrokeStyle
 >
@@ -2754,7 +2754,7 @@ compensate
 .
 static
 inline
-TemporaryRef
+already_AddRefed
 <
 ID2D1Bitmap
 >

@@ -256,7 +256,7 @@ DIRECT2D
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -631,7 +631,7 @@ PopClip
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -653,7 +653,7 @@ aFormat
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -666,7 +666,7 @@ aSurface
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -680,7 +680,7 @@ aSurface
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -696,7 +696,7 @@ aFormat
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -713,7 +713,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -735,7 +735,7 @@ CLAMP
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -797,7 +797,7 @@ GetByteSize
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Layer
 >
@@ -813,7 +813,7 @@ ID2D1RenderTarget
 aRT
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -913,7 +913,7 @@ mVRAMUsageSS
 ;
 private
 :
-TemporaryRef
+already_AddRefed
 <
 ID2D1Bitmap
 >
@@ -1151,7 +1151,7 @@ DrawOptions
 )
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1RenderTarget
 >
@@ -1221,7 +1221,7 @@ in
 device
 space
 .
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -1243,7 +1243,7 @@ bool
 aIsPixelAligned
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >
@@ -1261,7 +1261,7 @@ aAlpha
 0f
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID3D10Texture2D
 >
@@ -1273,7 +1273,7 @@ GradientStopsD2D
 aStops
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID3D10Texture2D
 >

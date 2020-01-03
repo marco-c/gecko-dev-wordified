@@ -147,7 +147,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -251,7 +251,7 @@ GetFormat
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -262,7 +262,7 @@ GetAsSurface
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

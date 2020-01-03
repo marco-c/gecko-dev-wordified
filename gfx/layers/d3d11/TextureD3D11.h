@@ -228,7 +228,7 @@ init
 width
 .
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClientD3D11
 >
@@ -404,7 +404,7 @@ ALLOC_DEFAULT
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -514,7 +514,7 @@ init
 width
 .
 static
-TemporaryRef
+already_AddRefed
 <
 DXGIYCbCrTextureClient
 >
@@ -686,7 +686,7 @@ external
 producer
 .
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1276,7 +1276,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1440,7 +1440,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

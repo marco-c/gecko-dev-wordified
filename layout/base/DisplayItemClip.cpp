@@ -867,7 +867,7 @@ PopClip
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

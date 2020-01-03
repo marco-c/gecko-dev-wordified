@@ -3525,7 +3525,7 @@ aIdentifier
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -3641,7 +3641,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >

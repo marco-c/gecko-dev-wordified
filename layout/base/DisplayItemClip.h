@@ -631,10 +631,7 @@ fill
 aRoundRect
 to
 aContext
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

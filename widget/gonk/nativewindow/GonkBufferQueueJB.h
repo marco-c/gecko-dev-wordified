@@ -3265,10 +3265,7 @@ uint32_t
 hint
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

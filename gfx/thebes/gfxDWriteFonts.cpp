@@ -3426,7 +3426,7 @@ return
 width
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3785,7 +3785,7 @@ aSizes
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

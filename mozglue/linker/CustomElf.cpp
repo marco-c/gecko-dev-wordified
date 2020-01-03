@@ -727,7 +727,7 @@ mappable
 ;
 }
 ;
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >

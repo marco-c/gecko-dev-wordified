@@ -4479,7 +4479,7 @@ endif
 cairo_user_data_key_t
 kDrawTarget
 ;
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -4609,7 +4609,7 @@ the
 DrawTarget
 through
 directly
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -4872,7 +4872,7 @@ nullptr
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -6202,7 +6202,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -6355,7 +6355,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -7294,7 +7294,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7480,7 +7480,7 @@ aFormat
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7591,7 +7591,7 @@ aFormat
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7633,7 +7633,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -13433,7 +13433,7 @@ sBufferRotationCheckPref
 false
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

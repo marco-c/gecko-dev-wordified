@@ -217,7 +217,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

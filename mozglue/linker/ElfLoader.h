@@ -1536,10 +1536,7 @@ dlopen
 *
 /
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -2188,10 +2185,7 @@ load
 .
 *
 /
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -2261,10 +2255,7 @@ dladdr
 .
 *
 /
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >

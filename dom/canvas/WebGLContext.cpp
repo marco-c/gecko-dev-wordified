@@ -9866,10 +9866,7 @@ MakeCurrent
 )
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

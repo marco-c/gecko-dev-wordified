@@ -292,7 +292,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -3233,7 +3233,7 @@ manager
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3298,7 +3298,7 @@ simple
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3336,7 +3336,7 @@ layermanager
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -3394,7 +3394,7 @@ layermanager
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 PersistentBufferProvider
 >

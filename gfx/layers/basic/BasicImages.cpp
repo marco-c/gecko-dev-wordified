@@ -447,7 +447,7 @@ mDelayedConversion
 aDelayed
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -853,7 +853,7 @@ mSize
 size
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -1075,10 +1075,7 @@ aThebesContext
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1100,10 +1097,7 @@ aScreenRect
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2881,10 +2875,7 @@ displayed
 at
 *
 /
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

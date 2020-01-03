@@ -1358,7 +1358,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGMaskFrame
 )
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

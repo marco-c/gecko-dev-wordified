@@ -183,7 +183,7 @@ GetBackendType
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1371,7 +1371,7 @@ time
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1426,7 +1426,7 @@ surface
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1477,7 +1477,7 @@ in
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1510,7 +1510,7 @@ DrawTarget
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1570,7 +1570,7 @@ BeginFigure
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -1661,7 +1661,7 @@ area
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -1684,7 +1684,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

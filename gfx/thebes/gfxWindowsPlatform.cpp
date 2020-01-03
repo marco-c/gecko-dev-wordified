@@ -4163,7 +4163,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -10678,7 +10678,7 @@ disown
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID3D11Device
 >

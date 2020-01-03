@@ -2652,10 +2652,7 @@ Added
 by
 mozilla
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

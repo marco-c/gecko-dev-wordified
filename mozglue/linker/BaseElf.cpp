@@ -552,10 +552,7 @@ nullptr
 }
 #
 endif
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >

@@ -13360,7 +13360,7 @@ public
 :
 ShutdownTask
 (
-TemporaryRef
+already_AddRefed
 <
 MediaEngine
 >

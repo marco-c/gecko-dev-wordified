@@ -812,10 +812,7 @@ the
 returned
 buffer
 .
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -858,10 +855,7 @@ TextureClient
 client
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

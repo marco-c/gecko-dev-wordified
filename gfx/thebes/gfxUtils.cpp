@@ -1924,7 +1924,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2044,7 +2044,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -4381,7 +4381,7 @@ Clip
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -6412,7 +6412,7 @@ ctx
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

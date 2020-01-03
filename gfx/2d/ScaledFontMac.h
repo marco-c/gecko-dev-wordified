@@ -178,7 +178,7 @@ GetSkTypeface
 #
 endif
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

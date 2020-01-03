@@ -1831,7 +1831,7 @@ namespace
 FilterWrappers
 {
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1889,7 +1889,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1947,7 +1947,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2071,7 +2071,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2195,7 +2195,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2269,7 +2269,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2351,7 +2351,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2578,7 +2578,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2639,7 +2639,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2721,7 +2721,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -3022,7 +3022,7 @@ non
 -
 null
 .
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -3059,7 +3059,7 @@ cached
 by
 ForColorModel
 .
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -3194,7 +3194,7 @@ clear
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -3259,7 +3259,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -5352,7 +5352,7 @@ eImage
 primitives
 .
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -8488,7 +8488,7 @@ sRGB
 space
 .
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

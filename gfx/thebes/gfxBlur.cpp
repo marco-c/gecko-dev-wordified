@@ -773,7 +773,7 @@ PopClip
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2299,7 +2299,7 @@ the
 mask
 .
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2543,7 +2543,7 @@ forget
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

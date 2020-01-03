@@ -428,7 +428,7 @@ return
 S_OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IMFAttributes
 >

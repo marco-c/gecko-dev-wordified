@@ -200,7 +200,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -506,7 +506,7 @@ gfx
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -851,7 +851,7 @@ IMAGE
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 AsyncTransactionTracker
 >

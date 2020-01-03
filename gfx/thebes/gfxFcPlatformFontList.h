@@ -954,10 +954,7 @@ aNeedsBold
 ifdef
 USE_SKIA
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

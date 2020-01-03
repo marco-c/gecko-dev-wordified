@@ -1711,7 +1711,7 @@ aLength
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

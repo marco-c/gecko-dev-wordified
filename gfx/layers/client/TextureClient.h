@@ -544,7 +544,7 @@ SyncObject
 {
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SyncObject
 >
@@ -1145,7 +1145,7 @@ with
 Moz2D
 .
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1190,7 +1190,7 @@ YCbCr
 format
 .
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1233,7 +1233,7 @@ pointers
 )
 .
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1310,7 +1310,7 @@ more
 optimization
 .
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1343,7 +1343,7 @@ same
 type
 .
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1816,7 +1816,7 @@ copies
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -3662,7 +3662,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

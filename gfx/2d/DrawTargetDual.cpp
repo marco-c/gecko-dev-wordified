@@ -1133,7 +1133,7 @@ aOptions
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

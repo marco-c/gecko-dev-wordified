@@ -141,7 +141,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -726,7 +726,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1103,7 +1103,7 @@ aSourceOnWhite
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2197,7 +2197,7 @@ mDTBufferOnWhite
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -3985,10 +3985,7 @@ aFontStyle
 ifdef
 USE_SKIA
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -13004,10 +13001,7 @@ MOZ_WIDGET_GTK2
 #
 ifdef
 USE_SKIA
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

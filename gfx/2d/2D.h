@@ -2003,7 +2003,7 @@ directly
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2658,7 +2658,7 @@ DATA
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3051,7 +3051,7 @@ writable
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -3070,7 +3070,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -3529,7 +3529,7 @@ crash
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -3806,7 +3806,7 @@ in
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -4224,7 +4224,7 @@ object
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5781,7 +5781,7 @@ time
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5842,7 +5842,7 @@ surface
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5895,7 +5895,7 @@ in
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5930,7 +5930,7 @@ DrawTarget
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -5986,7 +5986,7 @@ capture
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTargetCapture
 >
@@ -6065,7 +6065,7 @@ size
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -6135,7 +6135,7 @@ BeginFigure
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -6231,7 +6231,7 @@ area
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -6290,7 +6290,7 @@ created
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -7019,7 +7019,7 @@ aSize
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7040,7 +7040,7 @@ nullptr
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7057,7 +7057,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7072,7 +7072,7 @@ aDT
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7095,7 +7095,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -7179,7 +7179,7 @@ created
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -7239,7 +7239,7 @@ font
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -7317,7 +7317,7 @@ requested
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7410,7 +7410,7 @@ requested
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7480,7 +7480,7 @@ surface
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7500,7 +7500,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawEventRecorder
 >
@@ -7583,7 +7583,7 @@ public
 ifdef
 USE_SKIA_GPU
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7621,7 +7621,7 @@ defined
 MOZ_ENABLE_FREETYPE
 )
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -7636,7 +7636,7 @@ aAutoHinting
 #
 endif
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7702,7 +7702,7 @@ format
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7726,7 +7726,7 @@ aType
 ifdef
 XP_MACOSX
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7741,7 +7741,7 @@ aSize
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -7759,7 +7759,7 @@ endif
 ifdef
 WIN32
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7773,7 +7773,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7806,7 +7806,7 @@ GetDirect3D10Device
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7849,7 +7849,7 @@ SupportsD2D1
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >

@@ -250,7 +250,7 @@ public
 explicit
 SurfaceHelper
 (
-TemporaryRef
+already_AddRefed
 <
 layers
 :
@@ -382,7 +382,7 @@ return
 NS_OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -506,13 +506,13 @@ on
 main
 thread
 .
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
 GetBRGADataSourceSurfaceSync
 (
-TemporaryRef
+already_AddRefed
 <
 layers
 :
@@ -531,7 +531,10 @@ helper
 new
 SurfaceHelper
 (
+Move
+(
 aImage
+)
 )
 ;
 return

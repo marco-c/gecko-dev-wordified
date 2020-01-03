@@ -5441,7 +5441,7 @@ MarkContextClean
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

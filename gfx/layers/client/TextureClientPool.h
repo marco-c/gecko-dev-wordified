@@ -274,7 +274,7 @@ correctly
 .
 *
 /
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

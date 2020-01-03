@@ -937,7 +937,7 @@ invalid
 async
 ID
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -983,7 +983,7 @@ mTextureFlags
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

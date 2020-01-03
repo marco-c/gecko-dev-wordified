@@ -367,7 +367,7 @@ aMarks
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -421,7 +421,7 @@ that
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

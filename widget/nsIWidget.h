@@ -9619,10 +9619,7 @@ composition
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -12544,10 +12541,7 @@ OMTC
 .
 *
 /
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

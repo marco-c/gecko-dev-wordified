@@ -133,7 +133,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 RefCounted
 #
 include
@@ -1331,7 +1331,7 @@ ROTATION_0
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -1746,7 +1746,7 @@ compositor
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -1824,7 +1824,7 @@ from
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

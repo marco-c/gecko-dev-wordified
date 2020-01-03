@@ -1329,7 +1329,7 @@ LayerRenderState
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

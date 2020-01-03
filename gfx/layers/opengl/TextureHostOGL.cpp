@@ -347,7 +347,7 @@ layers
 class
 Compositor
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >

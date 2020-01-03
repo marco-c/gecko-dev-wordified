@@ -1413,7 +1413,7 @@ Otherwise
 return
 null
 .
-TemporaryRef
+already_AddRefed
 <
 nsCertTreeDispInfo
 >

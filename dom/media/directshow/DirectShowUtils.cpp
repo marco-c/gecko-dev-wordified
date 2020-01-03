@@ -2337,7 +2337,7 @@ or
 output
 pin
 .
-TemporaryRef
+already_AddRefed
 <
 IPin
 >

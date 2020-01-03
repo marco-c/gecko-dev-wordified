@@ -236,7 +236,7 @@ public
 :
 ClippedImageCachedSurface
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -347,7 +347,7 @@ mFlags
 aFlags
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1203,7 +1203,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1235,7 +1235,7 @@ aFlags
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

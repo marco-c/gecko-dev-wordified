@@ -378,7 +378,7 @@ Point
 aCP3
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -411,7 +411,7 @@ aParent
 ;
 /
 /
-TemporaryRef
+already_AddRefed
 arg
 because
 the
@@ -424,9 +424,9 @@ Path
 CopyToBuilder
 (
 )
+/
+/
 is
-/
-/
 passed
 directly
 and
@@ -449,7 +449,7 @@ CanvasPath
 nsISupports
 *
 aParent
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

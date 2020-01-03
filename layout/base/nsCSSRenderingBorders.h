@@ -1055,10 +1055,7 @@ the
 ADD
 compositing
 .
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1435,10 +1432,7 @@ variant
 of
 CreateCornerGradient
 .
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

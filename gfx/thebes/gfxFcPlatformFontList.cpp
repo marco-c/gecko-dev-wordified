@@ -5042,10 +5042,7 @@ gfxFontconfigFont
 #
 ifdef
 USE_SKIA
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

@@ -894,10 +894,7 @@ failure
 *
 /
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -925,10 +922,7 @@ buffer
 *
 /
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -953,10 +947,7 @@ size
 private
 :
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -2310,10 +2301,7 @@ one
 *
 /
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >

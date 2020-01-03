@@ -125,7 +125,7 @@ typename
 u8x16_t
 >
 inline
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2626,7 +2626,7 @@ BlendMode
 mode
 >
 inline
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3062,7 +3062,7 @@ typename
 u8x16_t
 >
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -4517,7 +4517,7 @@ typename
 u8x16_t
 >
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8536,7 +8536,7 @@ typename
 u8x16_t
 >
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8976,7 +8976,7 @@ typename
 u8x16_t
 >
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

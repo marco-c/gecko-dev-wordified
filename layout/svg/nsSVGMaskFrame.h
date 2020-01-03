@@ -295,10 +295,7 @@ NS_DECL_FRAMEARENA_HELPERS
 nsSVGMaskFrame
 method
 :
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

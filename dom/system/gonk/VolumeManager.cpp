@@ -448,7 +448,7 @@ Length
 /
 /
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -676,7 +676,7 @@ aObserver
 /
 /
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -774,7 +774,7 @@ nullptr
 /
 /
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >

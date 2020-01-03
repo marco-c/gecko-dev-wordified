@@ -331,7 +331,7 @@ GetMaxTextureSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -350,7 +350,7 @@ aInit
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -378,7 +378,7 @@ aSourcePoint
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

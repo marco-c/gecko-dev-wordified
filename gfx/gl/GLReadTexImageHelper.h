@@ -239,7 +239,7 @@ DataSourceSurface
 aSurface
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -455,7 +455,7 @@ here
 .
 *
 /
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

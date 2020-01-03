@@ -830,7 +830,7 @@ GetIsOpaque
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

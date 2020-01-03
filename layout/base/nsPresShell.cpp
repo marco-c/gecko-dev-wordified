@@ -28890,7 +28890,7 @@ return
 info
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -29877,7 +29877,7 @@ Snapshot
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -30153,7 +30153,7 @@ aScreenRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

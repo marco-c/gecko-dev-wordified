@@ -1507,7 +1507,7 @@ size
 ;
 /
 /
-TemporaryRef
+already_AddRefed
 <
 ShSurfHandle
 >
@@ -1522,7 +1522,7 @@ IntSize
 size
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 layers
 :

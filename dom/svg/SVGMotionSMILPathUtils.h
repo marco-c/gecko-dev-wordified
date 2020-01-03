@@ -492,10 +492,7 @@ get
 the
 finalized
 path
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

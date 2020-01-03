@@ -123,7 +123,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 etc
 #
 include
@@ -376,7 +376,7 @@ aDT
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -495,7 +495,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

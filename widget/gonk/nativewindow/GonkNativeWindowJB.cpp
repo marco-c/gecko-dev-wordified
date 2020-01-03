@@ -675,7 +675,7 @@ defaultFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -963,7 +963,7 @@ index
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

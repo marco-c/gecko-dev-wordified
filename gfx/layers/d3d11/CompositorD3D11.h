@@ -276,7 +276,7 @@ GetTextureFactoryIdentifier
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -327,7 +327,7 @@ override
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -346,7 +346,7 @@ aInit
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

@@ -367,15 +367,6 @@ StaticRefPtr
 ;
 template
 <
-typename
-U
->
-friend
-class
-TemporaryRef
-;
-template
-<
 class
 U
 >

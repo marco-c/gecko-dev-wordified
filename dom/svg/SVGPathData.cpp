@@ -1988,7 +1988,7 @@ while
 (
 0
 )
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -3684,7 +3684,7 @@ Finish
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

@@ -506,7 +506,7 @@ GetBuffer
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

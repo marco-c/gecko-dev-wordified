@@ -288,7 +288,7 @@ override
 ;
 NS_IMETHOD_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

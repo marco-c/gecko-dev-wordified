@@ -430,7 +430,7 @@ source
 /
 filters
 .
-TemporaryRef
+already_AddRefed
 <
 IMediaSeeking
 >

@@ -167,7 +167,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 etc
 #
 include
@@ -1641,7 +1641,7 @@ virtual
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2018,7 +2018,7 @@ method
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -2594,7 +2594,7 @@ bug
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -3504,7 +3504,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -4044,7 +4044,7 @@ CompositingRenderTarget
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -4181,7 +4181,7 @@ are
 supported
 *
 /
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >

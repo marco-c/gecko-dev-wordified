@@ -4322,7 +4322,7 @@ return
 LOCAL_GL_NONE
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

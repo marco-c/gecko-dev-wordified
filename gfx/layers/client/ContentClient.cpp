@@ -510,7 +510,7 @@ result
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 ContentClient
 >

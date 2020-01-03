@@ -1153,7 +1153,7 @@ return
 mTextureClient
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

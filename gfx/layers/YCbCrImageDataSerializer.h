@@ -155,7 +155,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -1056,7 +1056,7 @@ supported
 .
 *
 /
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

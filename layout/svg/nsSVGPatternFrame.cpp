@@ -1767,7 +1767,7 @@ return
 NS_OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

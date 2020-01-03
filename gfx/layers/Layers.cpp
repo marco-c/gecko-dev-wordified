@@ -996,7 +996,7 @@ child
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1032,7 +1032,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1061,7 +1061,7 @@ A8
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1094,7 +1094,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PersistentBufferProvider
 >

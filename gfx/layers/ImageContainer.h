@@ -1012,7 +1012,7 @@ mSent
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2882,7 +2882,7 @@ time
 .
 *
 /
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2911,7 +2911,7 @@ for
 Moz2D
 *
 /
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -5139,7 +5139,7 @@ uint32_t
 aSize
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -5351,7 +5351,7 @@ mSourceSurface
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -5564,7 +5564,7 @@ aData
 mSize
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

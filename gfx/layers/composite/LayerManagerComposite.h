@@ -177,7 +177,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -991,7 +991,7 @@ AreComponentAlphaLayersEnabled
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1174,7 +1174,7 @@ layermanager
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

@@ -208,7 +208,7 @@ B8G8R8A8_COMPONENT_BYTEOFFSET_A
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -975,7 +975,7 @@ aRadius
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1748,7 +1748,7 @@ alpha
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1811,7 +1811,7 @@ aTileRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

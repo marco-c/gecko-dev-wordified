@@ -620,7 +620,7 @@ aSource
 .
 *
 /
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

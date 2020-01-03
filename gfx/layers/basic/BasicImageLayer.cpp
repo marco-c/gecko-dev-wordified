@@ -409,7 +409,7 @@ aMaskLayer
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -636,7 +636,7 @@ image
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

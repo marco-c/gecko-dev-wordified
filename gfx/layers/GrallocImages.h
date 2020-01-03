@@ -494,7 +494,7 @@ USAGE_SOFTWARE_MASK
 }
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

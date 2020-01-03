@@ -1022,7 +1022,7 @@ x
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2656,7 +2656,7 @@ TopLeft
 }
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2964,7 +2964,7 @@ forget
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -3907,7 +3907,7 @@ aOptions
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -4204,7 +4204,7 @@ SurfaceFormat
 B8G8R8A8
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -5901,7 +5901,7 @@ CompositionOp
 OP_OVER
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -6559,7 +6559,7 @@ neededIntRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7121,7 +7121,7 @@ Invalidate
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7590,7 +7590,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -7880,7 +7880,7 @@ Invalidate
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8075,7 +8075,7 @@ forget
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8269,7 +8269,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8598,7 +8598,7 @@ SurfaceFormat
 B8G8R8A8
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -8888,7 +8888,7 @@ is
 comparatively
 fast
 .
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -9130,7 +9130,7 @@ height
 }
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -10134,7 +10134,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -12972,7 +12972,7 @@ B8G8R8A8_COMPONENT_BYTEOFFSET_A
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -13393,7 +13393,7 @@ template
 typename
 CoordType
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -14484,7 +14484,7 @@ Invalidate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -15216,7 +15216,7 @@ Invalidate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -15405,7 +15405,7 @@ Invalidate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -15757,7 +15757,7 @@ Invalidate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -16165,7 +16165,7 @@ return
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -17082,7 +17082,7 @@ Invalidate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -17188,7 +17188,7 @@ return
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -17294,7 +17294,7 @@ return
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -18642,7 +18642,7 @@ LightType
 typename
 LightingType
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -18786,7 +18786,7 @@ template
 typename
 CoordType
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -2867,10 +2867,7 @@ prefix
 )
 const
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

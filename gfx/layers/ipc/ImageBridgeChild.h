@@ -144,7 +144,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -1279,7 +1279,7 @@ aMessages
 )
 override
 ;
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -1289,7 +1289,7 @@ CompositableType
 aType
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >

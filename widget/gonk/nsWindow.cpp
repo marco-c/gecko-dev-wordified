@@ -3306,7 +3306,7 @@ not
 reached
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

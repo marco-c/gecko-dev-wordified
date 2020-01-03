@@ -150,7 +150,7 @@ h
 /
 /
 for
-TemporaryRef
+already_AddRefed
 RefCounted
 #
 include
@@ -840,7 +840,7 @@ GetCompositorBackendType
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -878,7 +878,7 @@ TextureFlags
 DEFAULT
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

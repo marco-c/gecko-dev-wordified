@@ -1572,7 +1572,7 @@ true
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1654,7 +1654,7 @@ mBackendType
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -1678,7 +1678,7 @@ aFillRule
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

@@ -1779,7 +1779,7 @@ return
 E_INVALIDARG
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1ResourceTexture
 >

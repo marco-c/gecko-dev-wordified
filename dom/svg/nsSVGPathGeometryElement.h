@@ -946,10 +946,7 @@ calls
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1012,10 +1009,7 @@ path
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1182,10 +1176,7 @@ content
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

@@ -457,7 +457,7 @@ SVGPolylineElement
 /
 nsSVGPathGeometryElement
 methods
-TemporaryRef
+already_AddRefed
 <
 Path
 >

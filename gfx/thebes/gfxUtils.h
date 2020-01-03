@@ -369,10 +369,7 @@ destSurf
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -384,10 +381,7 @@ srcSurf
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1539,10 +1533,7 @@ readback
 *
 /
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -217,7 +217,7 @@ on
 failure
 .
 virtual
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

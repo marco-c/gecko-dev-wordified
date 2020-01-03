@@ -9277,7 +9277,7 @@ return
 mCompositorChild
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -12982,7 +12982,7 @@ ctx
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

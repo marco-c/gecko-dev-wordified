@@ -1562,7 +1562,7 @@ for
 decoding
 streams
 .
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

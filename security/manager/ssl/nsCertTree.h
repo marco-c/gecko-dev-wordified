@@ -672,10 +672,7 @@ outAbsoluteCertOffset
 nullptr
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 nsCertTreeDispInfo
 >

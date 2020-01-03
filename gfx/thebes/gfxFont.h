@@ -9418,10 +9418,7 @@ this
 font
 .
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -11158,10 +11155,7 @@ const
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

@@ -1607,7 +1607,7 @@ IsSinglePixel
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1615,7 +1615,7 @@ GetSurface
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1715,7 +1715,7 @@ GetStride
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

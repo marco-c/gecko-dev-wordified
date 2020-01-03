@@ -176,7 +176,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -789,7 +789,7 @@ host
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 ContentClient
 >

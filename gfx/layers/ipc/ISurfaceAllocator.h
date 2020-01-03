@@ -403,7 +403,7 @@ SurfaceDescriptor
 aDescriptor
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -423,7 +423,7 @@ BackendType
 aBackend
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

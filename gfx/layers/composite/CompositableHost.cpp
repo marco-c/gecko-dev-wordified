@@ -919,7 +919,7 @@ Unlock
 static
 *
 /
-TemporaryRef
+already_AddRefed
 <
 CompositableHost
 >

@@ -502,10 +502,7 @@ corresponding
 IOSurface
 .
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >
@@ -537,10 +534,7 @@ aIOSurface
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >
@@ -778,10 +772,7 @@ CGLContextObj
 ctxt
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -813,10 +804,7 @@ aContext
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >

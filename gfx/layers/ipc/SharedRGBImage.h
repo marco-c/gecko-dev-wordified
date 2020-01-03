@@ -286,7 +286,7 @@ GetBufferSize
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

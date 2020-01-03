@@ -384,7 +384,7 @@ CurrentPoint
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -475,7 +475,7 @@ this
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -531,7 +531,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

@@ -316,10 +316,7 @@ aGID
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -382,10 +379,7 @@ FONT_TYPE_DWRITE
 ;
 }
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

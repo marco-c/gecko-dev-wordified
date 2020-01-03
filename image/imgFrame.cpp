@@ -322,7 +322,7 @@ format
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -434,7 +434,7 @@ forget
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 VolatileBuffer
 >
@@ -5717,7 +5717,7 @@ return
 mSinglePixel
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5740,7 +5740,7 @@ GetSurfaceInternal
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5860,7 +5860,7 @@ mFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

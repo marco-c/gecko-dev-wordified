@@ -8871,7 +8871,7 @@ SharedCertVerifier
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 SharedCertVerifier
 >
@@ -8916,7 +8916,7 @@ mozilla
 namespace
 psm
 {
-TemporaryRef
+already_AddRefed
 <
 SharedCertVerifier
 >

@@ -123,7 +123,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 etc
 #
 include
@@ -1468,7 +1468,7 @@ texture
 *
 /
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >
@@ -1652,7 +1652,7 @@ null
 *
 /
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >
@@ -1802,7 +1802,7 @@ alpha
 *
 /
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

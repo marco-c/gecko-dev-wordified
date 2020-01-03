@@ -1008,7 +1008,7 @@ in
 TextureHostOGL
 .
 cpp
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1032,7 +1032,7 @@ in
 TextureHostBasic
 .
 cpp
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1056,7 +1056,7 @@ in
 TextureD3D11
 .
 cpp
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1080,7 +1080,7 @@ in
 TextureD3D9
 .
 cpp
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1100,7 +1100,7 @@ aFlags
 /
 /
 static
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1343,7 +1343,7 @@ type
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -3483,7 +3483,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

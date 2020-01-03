@@ -2184,7 +2184,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -2396,7 +2396,7 @@ mFeatureLevel
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -2600,7 +2600,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

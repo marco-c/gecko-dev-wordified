@@ -7052,10 +7052,7 @@ RenderSelection
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -7228,10 +7225,7 @@ frames
 *
 /
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

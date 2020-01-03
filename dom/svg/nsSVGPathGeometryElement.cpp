@@ -505,7 +505,7 @@ aMarks
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -714,7 +714,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

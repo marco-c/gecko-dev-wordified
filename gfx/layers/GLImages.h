@@ -197,7 +197,7 @@ aFormat
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

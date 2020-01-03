@@ -3842,7 +3842,7 @@ return
 mSize
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -7563,7 +7563,7 @@ sync
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -7667,7 +7667,7 @@ mContext
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -7698,7 +7698,7 @@ aExtendMode
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -7721,7 +7721,7 @@ aType
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -7899,7 +7899,7 @@ data
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -8396,7 +8396,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -8504,7 +8504,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -8851,7 +8851,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

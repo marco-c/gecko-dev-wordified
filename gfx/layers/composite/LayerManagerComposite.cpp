@@ -397,7 +397,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -2031,7 +2031,7 @@ EndTransaction
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -7917,7 +7917,7 @@ RemoveMaskEffect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

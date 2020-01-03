@@ -3781,7 +3781,7 @@ prefix
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GonkBufferSlot
 :

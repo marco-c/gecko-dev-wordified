@@ -306,7 +306,7 @@ and
 copying
 textures
 .
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -335,7 +335,7 @@ D3DLOCKED_RECT
 aLockedRect
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -387,7 +387,7 @@ video
 memory
 )
 .
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -410,7 +410,7 @@ _D3DFORMAT
 aFormat
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -1090,7 +1090,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1240,7 +1240,7 @@ init
 width
 .
 static
-TemporaryRef
+already_AddRefed
 <
 SharedTextureClientD3D9
 >
@@ -1396,7 +1396,7 @@ external
 producer
 .
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1527,7 +1527,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1705,7 +1705,7 @@ Unlock
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1870,7 +1870,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

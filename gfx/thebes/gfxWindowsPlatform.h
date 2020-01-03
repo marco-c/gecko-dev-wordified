@@ -581,10 +581,7 @@ contentType
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -1334,10 +1331,7 @@ for
 DXVA
 decoding
 .
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 ID3D11Device
 >

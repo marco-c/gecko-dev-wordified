@@ -808,7 +808,7 @@ valid
 *
 /
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

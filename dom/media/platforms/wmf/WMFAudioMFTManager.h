@@ -184,7 +184,7 @@ WMFAudioMFTManager
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

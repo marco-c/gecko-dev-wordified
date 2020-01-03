@@ -325,7 +325,7 @@ main
 thread
 .
 static
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

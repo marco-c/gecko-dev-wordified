@@ -243,7 +243,7 @@ override
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -262,7 +262,7 @@ aInit
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -791,7 +791,7 @@ okay
 .
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

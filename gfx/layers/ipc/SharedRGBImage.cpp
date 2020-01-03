@@ -736,7 +736,7 @@ get
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

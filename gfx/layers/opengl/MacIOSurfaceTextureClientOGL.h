@@ -150,7 +150,7 @@ init
 width
 .
 static
-TemporaryRef
+already_AddRefed
 <
 MacIOSurfaceTextureClientOGL
 >
@@ -238,7 +238,7 @@ false
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -289,7 +289,7 @@ external
 producer
 .
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

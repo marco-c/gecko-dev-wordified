@@ -2151,7 +2151,7 @@ or
 StrokePaint
 source
 .
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -23544,7 +23544,7 @@ returned
 surface
 .
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -32749,7 +32749,7 @@ CanvasPath
 nsISupports
 *
 aParent
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -34176,7 +34176,7 @@ mPathBuilder
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

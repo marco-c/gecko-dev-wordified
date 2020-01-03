@@ -203,8 +203,8 @@ can
 '
 t
 pass
-a
-TemporaryRef
+an
+already_AddRefed
 through
 InitWithFuncCallback
 so

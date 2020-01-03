@@ -200,7 +200,7 @@ allocates
 a
 TextureClient
 .
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -678,7 +678,7 @@ empty
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1355,7 +1355,7 @@ aMax
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

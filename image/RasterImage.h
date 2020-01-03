@@ -2038,7 +2038,7 @@ uint32_t
 aFlags
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

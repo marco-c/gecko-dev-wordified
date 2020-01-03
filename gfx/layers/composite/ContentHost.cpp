@@ -2734,7 +2734,7 @@ return
 result
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >
@@ -2829,7 +2829,7 @@ GetRenderState
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -342,7 +342,7 @@ mMutex
 }
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >

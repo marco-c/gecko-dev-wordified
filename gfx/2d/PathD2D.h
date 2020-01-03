@@ -259,7 +259,7 @@ CurrentPoint
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -395,7 +395,7 @@ mBackendType
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -412,7 +412,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

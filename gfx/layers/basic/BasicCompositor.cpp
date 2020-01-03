@@ -537,7 +537,7 @@ mWidget
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -654,7 +654,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -693,7 +693,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

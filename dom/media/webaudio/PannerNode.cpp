@@ -408,7 +408,7 @@ the
 main
 thread
 .
-TemporaryRef
+already_AddRefed
 <
 HRTFDatabaseLoader
 >
@@ -448,7 +448,10 @@ Context
 SampleRate
 (
 )
+Move
+(
 loader
+)
 )
 ;
 }

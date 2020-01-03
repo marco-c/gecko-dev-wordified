@@ -3099,7 +3099,7 @@ mProjMatrix
 matrix3d
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -3225,7 +3225,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -9975,7 +9975,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

@@ -556,7 +556,7 @@ ok
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

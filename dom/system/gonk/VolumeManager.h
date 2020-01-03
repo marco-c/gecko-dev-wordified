@@ -1115,7 +1115,7 @@ NumVolumes
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -1129,7 +1129,7 @@ aIndex
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -1142,7 +1142,7 @@ aName
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 Volume
 >

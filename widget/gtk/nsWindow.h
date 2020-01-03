@@ -1164,10 +1164,7 @@ aData
 )
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

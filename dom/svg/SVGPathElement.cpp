@@ -1960,7 +1960,7 @@ name
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -2336,7 +2336,7 @@ return
 0
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

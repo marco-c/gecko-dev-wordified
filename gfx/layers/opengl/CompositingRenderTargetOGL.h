@@ -160,7 +160,7 @@ h
 /
 for
 RefPtr
-TemporaryRef
+already_AddRefed
 #
 include
 "
@@ -488,7 +488,7 @@ window
 *
 /
 static
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTargetOGL
 >
@@ -860,7 +860,7 @@ UNKNOWN
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

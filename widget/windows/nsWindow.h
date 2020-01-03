@@ -1217,10 +1217,7 @@ bool
 aState
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

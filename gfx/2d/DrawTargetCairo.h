@@ -308,7 +308,7 @@ CAIRO
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -748,7 +748,7 @@ PopClip
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -766,7 +766,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -789,7 +789,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -803,7 +803,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -818,7 +818,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -835,7 +835,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -854,7 +854,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -877,7 +877,7 @@ const
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

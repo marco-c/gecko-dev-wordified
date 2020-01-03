@@ -340,7 +340,7 @@ s
 IMFAttributes
 object
 .
-TemporaryRef
+already_AddRefed
 <
 IMFAttributes
 >

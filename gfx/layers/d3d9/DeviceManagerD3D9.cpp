@@ -4395,7 +4395,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >

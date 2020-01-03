@@ -745,10 +745,7 @@ GetGLFrameBufferFormat
 )
 override
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

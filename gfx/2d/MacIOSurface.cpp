@@ -1639,7 +1639,7 @@ mIOSurfacePtr
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >
@@ -1936,7 +1936,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >
@@ -2422,7 +2422,7 @@ gfx
 :
 SurfaceFormat
 ;
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2748,7 +2748,7 @@ aContext
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MacIOSurface
 >
