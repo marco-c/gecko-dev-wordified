@@ -3654,6 +3654,9 @@ if
 displayId
 )
 {
+if
+(
+!
 functionName
 .
 initTwoByte
@@ -3661,7 +3664,16 @@ initTwoByte
 aCx
 displayId
 )
+)
+{
+JS_ClearPendingException
+(
+aCx
+)
 ;
+return
+;
+}
 }
 }
 if
