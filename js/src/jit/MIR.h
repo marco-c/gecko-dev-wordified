@@ -43719,6 +43719,15 @@ getOperand
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 /
 /
 A
