@@ -1722,8 +1722,8 @@ nsSVGDisplayContainerFrame
 :
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
@@ -2025,13 +2025,7 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 kid
-*
 aContext
--
->
-ThebesContext
-(
-)
 m
 aDirtyRect
 )

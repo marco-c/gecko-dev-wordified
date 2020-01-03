@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h
@@ -739,13 +732,6 @@ ALPHA
 ;
 }
 }
-nsRenderingContext
-rendCtx
-(
-&
-aContext
-)
-;
 for
 (
 nsIFrame
@@ -956,8 +942,7 @@ SVGFrame
 >
 PaintSVG
 (
-&
-rendCtx
+aContext
 toChildsUserSpace
 )
 ;

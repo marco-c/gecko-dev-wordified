@@ -143,9 +143,6 @@ nsSVGUtils
 .
 h
 "
-class
-nsRenderingContext
-;
 using
 namespace
 mozilla
@@ -302,8 +299,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
@@ -592,8 +589,8 @@ nsSVGSwitchFrame
 :
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
@@ -724,13 +721,7 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 kid
-*
 aContext
--
->
-ThebesContext
-(
-)
 tm
 aDirtyRect
 )

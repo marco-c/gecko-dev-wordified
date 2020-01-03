@@ -123,7 +123,7 @@ nsISVGSVGFrame
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 typedef
 nsSVGDisplayContainerFrame
@@ -277,8 +277,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

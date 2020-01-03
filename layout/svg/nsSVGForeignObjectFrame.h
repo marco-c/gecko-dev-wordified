@@ -144,7 +144,7 @@ nsSVGUtils
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsSVGOuterSVGFrame
@@ -404,8 +404,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

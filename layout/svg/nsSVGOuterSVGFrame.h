@@ -130,6 +130,9 @@ nsRegion
 h
 "
 class
+gfxContext
+;
+class
 nsSVGForeignObjectFrame
 ;
 /
@@ -677,8 +680,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
