@@ -64,10 +64,7 @@ view
 content
 is
 correct
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

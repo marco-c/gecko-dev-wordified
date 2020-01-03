@@ -132,10 +132,7 @@ n
 "
 )
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -82,10 +82,7 @@ MANY
 *
 SMALLER
 TESTS
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

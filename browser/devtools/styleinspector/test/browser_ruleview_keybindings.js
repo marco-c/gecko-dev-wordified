@@ -75,10 +75,7 @@ property
 bug
 719916
 )
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

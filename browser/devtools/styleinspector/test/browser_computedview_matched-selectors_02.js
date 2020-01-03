@@ -64,10 +64,7 @@ in
 the
 computed
 view
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

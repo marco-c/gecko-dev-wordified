@@ -76,10 +76,7 @@ doc_pseudoelement
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -72,10 +72,7 @@ keys
 works
 correctly
 .
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

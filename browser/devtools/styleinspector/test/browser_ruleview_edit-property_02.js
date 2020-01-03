@@ -64,10 +64,7 @@ rule
 view
 property
 edition
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

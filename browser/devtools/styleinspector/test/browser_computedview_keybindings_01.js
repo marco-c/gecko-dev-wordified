@@ -60,10 +60,7 @@ computed
 view
 key
 bindings
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

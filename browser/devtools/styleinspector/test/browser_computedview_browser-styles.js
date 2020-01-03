@@ -66,10 +66,7 @@ styles
 works
 properly
 .
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

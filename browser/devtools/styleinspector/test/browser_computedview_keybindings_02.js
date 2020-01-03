@@ -62,10 +62,7 @@ computed
 view
 keyboard
 navigation
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

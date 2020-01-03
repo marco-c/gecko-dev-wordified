@@ -70,10 +70,7 @@ the
 rule
 -
 view
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

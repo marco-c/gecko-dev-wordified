@@ -82,10 +82,7 @@ doc_content_stylesheet
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
