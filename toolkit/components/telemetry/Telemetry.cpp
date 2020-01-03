@@ -16834,6 +16834,9 @@ threadIndex
 =
 0
 ;
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 /
 *
 First
@@ -16880,17 +16883,6 @@ is
 running
 *
 /
-if
-(
-!
-BackgroundHangMonitor
-:
-:
-IsDisabled
-(
-)
-)
-{
 BackgroundHangMonitor
 :
 :
@@ -16957,7 +16949,8 @@ NS_ERROR_FAILURE
 ;
 }
 }
-}
+#
+endif
 /
 /
 Add
