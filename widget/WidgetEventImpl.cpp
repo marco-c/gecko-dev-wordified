@@ -1367,12 +1367,6 @@ IsNativeEventDelivererForPlugin
 IsContentCommandEvent
 (
 )
-&
-&
-message
-!
-=
-NS_PLUGIN_RESOLUTION_CHANGED
 ;
 }
 bool

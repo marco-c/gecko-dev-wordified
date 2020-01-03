@@ -2059,12 +2059,7 @@ NPBool
 aValue
 )
 =
-nsCocoaFeatures
-:
-:
-SupportCoreAnimationPlugins
-(
-)
+true
 ;
 return
 NPERR_NO_ERROR
@@ -2083,12 +2078,7 @@ NPBool
 aValue
 )
 =
-nsCocoaFeatures
-:
-:
-SupportCoreAnimationPlugins
-(
-)
+true
 ;
 return
 NPERR_NO_ERROR

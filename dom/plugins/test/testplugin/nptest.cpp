@@ -19695,7 +19695,7 @@ NPAPI
 s
 /
 /
-NPCocoaEventWindowFocusChanged
+NPCocoaEventFocusChanged
 events
 -
 '

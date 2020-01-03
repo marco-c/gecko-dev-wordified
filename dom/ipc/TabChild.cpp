@@ -11411,6 +11411,10 @@ const
 ScreenOrientation
 &
 orientation
+const
+nsIntPoint
+&
+chromeDisp
 )
 {
 if
@@ -11426,6 +11430,10 @@ true
 mOuterRect
 =
 rect
+;
+mChromeDisp
+=
+chromeDisp
 ;
 bool
 initialSizing
