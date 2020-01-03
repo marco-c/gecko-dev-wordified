@@ -351,7 +351,7 @@ is
 (
 "
 #
-import
+waiting
 -
 notice
 "
@@ -366,7 +366,7 @@ hidden
 false
 "
 The
-import
+waiting
 notice
 should
 now
@@ -583,7 +583,7 @@ is
 (
 "
 #
-import
+waiting
 -
 notice
 "
@@ -600,7 +600,7 @@ true
 "
 "
 The
-import
+waiting
 notice
 should
 now
