@@ -672,6 +672,17 @@ DisconnectIfExists
 (
 )
 ;
+mMetadataPromise
+.
+RejectIfExists
+(
+ReadMetadataFailureReason
+:
+:
+METADATA_ERROR
+__func__
+)
+;
 mSeekPromise
 .
 RejectIfExists
