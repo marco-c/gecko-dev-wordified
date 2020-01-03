@@ -6270,6 +6270,7 @@ ProfileTimelineMarker
 &
 aMarker
 )
+MOZ_OVERRIDE
 {
 if
 (

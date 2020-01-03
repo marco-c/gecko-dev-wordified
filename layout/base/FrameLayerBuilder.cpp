@@ -30569,6 +30569,7 @@ ProfileTimelineLayerRect
 &
 aRectangles
 )
+MOZ_OVERRIDE
 {
 nsIntRegionRectIterator
 it
