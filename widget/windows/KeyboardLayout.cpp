@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsIMM32Handler
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h

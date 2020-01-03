@@ -103,16 +103,16 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
+IMMHandler
 .
 h
 "
 #
 include
 "
-nsIMM32Handler
+mozilla
+/
+Preferences
 .
 h
 "
@@ -509,7 +509,7 @@ endif
 #
 ifdef
 NS_ENABLE_TSF
-nsIMM32Handler
+IMMHandler
 :
 :
 Initialize
@@ -555,7 +555,7 @@ endif
 #
 ifdef
 NS_ENABLE_TSF
-nsIMM32Handler
+IMMHandler
 :
 :
 Terminate
@@ -832,7 +832,7 @@ don
 '
 t
 use
-nsIMM32Handler
+IMMHandler
 .
 if
 (
@@ -853,7 +853,7 @@ t
 implemented
 with
 IMM
-nsIMM32Handler
+IMMHandler
 shouldn
 '
 t
@@ -887,7 +887,7 @@ endif
 ifdef
 NS_ENABLE_TSF
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 ProcessMessage
@@ -960,7 +960,7 @@ IsComposing
 )
 |
 |
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposing
@@ -976,7 +976,7 @@ endif
 ifdef
 NS_ENABLE_TSF
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposing
@@ -1018,7 +1018,7 @@ aWindow
 )
 |
 |
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposingOn
@@ -1035,7 +1035,7 @@ endif
 ifdef
 NS_ENABLE_TSF
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposingOn
@@ -1105,7 +1105,7 @@ we
 need
 to
 notify
-nsIMM32Handler
+IMMHandler
 of
 updating
 /
@@ -1138,7 +1138,7 @@ if
 isIMMActive
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -1147,7 +1147,7 @@ aWindow
 )
 ;
 }
-nsIMM32Handler
+IMMHandler
 :
 :
 OnSelectionChange
@@ -1175,7 +1175,7 @@ we
 need
 to
 notify
-nsIMM32Handler
+IMMHandler
 of
 updating
 /
@@ -1203,7 +1203,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -1240,7 +1240,7 @@ aIMENotification
 case
 NOTIFY_IME_OF_FOCUS
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -1268,7 +1268,7 @@ GetInputContext
 case
 NOTIFY_IME_OF_BLUR
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -1321,7 +1321,7 @@ IsIMMActive
 )
 {
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 OnMouseButtonEvent
@@ -1371,7 +1371,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 CommitComposition
@@ -1414,7 +1414,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 CancelComposition
@@ -1459,7 +1459,7 @@ mMessage
 case
 REQUEST_TO_COMMIT_COMPOSITION
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 CommitComposition
@@ -1473,7 +1473,7 @@ NS_OK
 case
 REQUEST_TO_CANCEL_COMPOSITION
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 CancelComposition
@@ -1490,7 +1490,7 @@ NOTIFY_IME_OF_POSITION_CHANGE
 case
 NOTIFY_IME_OF_COMPOSITION_UPDATE
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -1504,7 +1504,7 @@ NS_OK
 case
 NOTIFY_IME_OF_SELECTION_CHANGE
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnSelectionChange
@@ -1521,7 +1521,7 @@ case
 NOTIFY_IME_OF_MOUSE_BUTTON_EVENT
 :
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 OnMouseButtonEvent
@@ -1533,7 +1533,7 @@ aIMENotification
 case
 NOTIFY_IME_OF_FOCUS
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -1548,7 +1548,7 @@ NS_OK
 case
 NOTIFY_IME_OF_BLUR
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -1660,7 +1660,7 @@ endif
 /
 NS_ENABLE_TSF
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 GetIMEUpdatePreference
@@ -2565,7 +2565,7 @@ endif
 ifdef
 NS_ENABLE_TSF
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsIMEAvailable
