@@ -3070,6 +3070,17 @@ true
 )
 MOZ_OVERRIDE
 ;
+MOZ_ALWAYS_INLINE
+/
+/
+Avoid
+a
+crashy
+hook
+from
+Avast
+10
+Beta
 nsresult
 SetAttr
 (
