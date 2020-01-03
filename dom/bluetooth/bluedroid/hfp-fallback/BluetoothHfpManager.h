@@ -264,6 +264,17 @@ DisconnectSco
 (
 )
 ;
+/
+/
+Handle
+unexpected
+backend
+crash
+void
+HandleBackendError
+(
+)
+;
 protected
 :
 virtual
