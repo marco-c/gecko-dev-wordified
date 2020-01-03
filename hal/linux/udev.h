@@ -392,7 +392,6 @@ lib
 ;
 }
 }
-explicit
 operator
 bool
 (

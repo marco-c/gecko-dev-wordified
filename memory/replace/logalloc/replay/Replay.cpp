@@ -1177,7 +1177,6 @@ empty
 .
 *
 /
-explicit
 operator
 bool
 (

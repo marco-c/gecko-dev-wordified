@@ -951,7 +951,6 @@ aResult
 )
 {
 }
-MOZ_IMPLICIT
 operator
 bool
 (

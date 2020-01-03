@@ -5215,7 +5215,6 @@ underlying
 AtomicBase
 methods
 .
-MOZ_IMPLICIT
 operator
 bool
 (
