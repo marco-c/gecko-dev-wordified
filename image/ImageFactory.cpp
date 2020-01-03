@@ -320,9 +320,9 @@ ImageDownscaleDuringDecodeEnabled
 We
 use
 the
-compositor
+platform
 APZ
-pref
+value
 here
 since
 we
@@ -382,10 +382,10 @@ ImageDecodeOnlyOnDrawEnabled
 )
 &
 &
-gfxPrefs
+gfxPlatform
 :
 :
-AsyncPanZoomEnabledDoNotUseDirectly
+AsyncPanZoomEnabled
 (
 )
 ;
