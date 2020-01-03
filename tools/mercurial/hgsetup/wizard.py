@@ -1642,9 +1642,23 @@ config_path
             
 print
 (
+'
+Line
+%
+d
+:
+%
+s
+'
+%
+(
+e
+.
+line
 e
 .
 message
+)
 )
             
 return
