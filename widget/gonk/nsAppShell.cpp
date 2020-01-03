@@ -564,6 +564,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+CompositorParent
+.
+h
+"
+#
+include
+"
 GeckoTouchDispatcher
 .
 h
