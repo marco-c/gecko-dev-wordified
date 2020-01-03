@@ -1411,6 +1411,7 @@ NPError
 *
 error
 )
+MOZ_OVERRIDE
 ;
 #
 else
