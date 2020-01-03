@@ -1420,7 +1420,9 @@ suspension
 int
 sampleSize
 =
-mImage
+GetImage
+(
+)
 -
 >
 GetRequestedSampleSize
