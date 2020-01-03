@@ -126,6 +126,28 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
+PathHelpers
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -1275,11 +1297,11 @@ nsCSSBorderRenderer
 ComputeOuterRadii
 (
 const
-gfxCornerSizes
+RectCornerRadii
 &
 aRadii
 const
-gfxFloat
+Float
 *
 aBorderSizes
 gfxCornerSizes
@@ -1337,7 +1359,7 @@ width
 >
 0
 .
-0
+f
 &
 &
 aRadii
@@ -1349,7 +1371,7 @@ height
 >
 0
 .
-0
+f
 )
 {
 oRadii
@@ -1366,7 +1388,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_TL
@@ -1394,7 +1416,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_TL
@@ -1420,7 +1442,7 @@ width
 >
 0
 .
-0
+f
 &
 &
 aRadii
@@ -1432,7 +1454,7 @@ height
 >
 0
 .
-0
+f
 )
 {
 oRadii
@@ -1449,7 +1471,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_TR
@@ -1477,7 +1499,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_TR
@@ -1503,7 +1525,7 @@ width
 >
 0
 .
-0
+f
 &
 &
 aRadii
@@ -1515,7 +1537,7 @@ height
 >
 0
 .
-0
+f
 )
 {
 oRadii
@@ -1532,7 +1554,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_BR
@@ -1560,7 +1582,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_BR
@@ -1586,7 +1608,7 @@ width
 >
 0
 .
-0
+f
 &
 &
 aRadii
@@ -1598,7 +1620,7 @@ height
 >
 0
 .
-0
+f
 )
 {
 oRadii
@@ -1615,7 +1637,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_BL
@@ -1643,7 +1665,7 @@ max
 (
 0
 .
-0
+f
 aRadii
 [
 C_BL
