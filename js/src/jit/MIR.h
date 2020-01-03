@@ -47147,7 +47147,14 @@ MSetPropertyPolymorphic
 public
 MBinaryInstruction
 public
+MixPolicy
+<
 SingleObjectPolicy
+NoFloatPolicy
+<
+1
+>
+>
 :
 :
 Data
@@ -47172,7 +47179,7 @@ objShape
 The
 property
 to
-laod
+load
 .
 Shape
 *
