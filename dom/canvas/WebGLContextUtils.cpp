@@ -5214,9 +5214,7 @@ curTex
 curTex
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
@@ -5241,9 +5239,7 @@ curTex
 curTex
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;

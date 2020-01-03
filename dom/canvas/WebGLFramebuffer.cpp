@@ -1834,9 +1834,7 @@ Texture
 )
 -
 >
-GLName
-(
-)
+mGLName
 ;
 if
 (
