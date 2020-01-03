@@ -1040,6 +1040,9 @@ shape
 bool
 mRepeating
 ;
+bool
+mLegacySyntax
+;
 nsStyleCoord
 mBgPosX
 ;

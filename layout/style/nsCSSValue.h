@@ -8532,6 +8532,9 @@ bool
 mIsRepeating
 ;
 bool
+mIsLegacySyntax
+;
+bool
 mIsExplicitSize
 ;
 /
@@ -8754,6 +8757,14 @@ mIsRepeating
 aOther
 .
 mIsRepeating
+|
+|
+mIsLegacySyntax
+!
+=
+aOther
+.
+mIsLegacySyntax
 |
 |
 mIsExplicitSize
