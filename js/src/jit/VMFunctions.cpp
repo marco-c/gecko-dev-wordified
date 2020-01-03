@@ -5187,6 +5187,12 @@ pc
 cx
 )
 ;
+UnwindAllScopes
+(
+cx
+si
+)
+;
 jsbytecode
 *
 unwindPc
@@ -5201,13 +5207,6 @@ script
 >
 main
 (
-)
-;
-UnwindScope
-(
-cx
-si
-unwindPc
 )
 ;
 frame
