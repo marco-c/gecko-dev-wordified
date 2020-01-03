@@ -232,6 +232,7 @@ program
 void
 fail
 (
+const
 char
 *
 format
@@ -774,6 +775,7 @@ cp
 void
 xchdir
 (
+const
 char
 *
 dir
