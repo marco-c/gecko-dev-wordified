@@ -309,6 +309,13 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+ZoomConstraintsClient
+.
+h
+"
 class
 nsRange
 ;
@@ -4393,6 +4400,12 @@ mLastCallbackEventRequest
 TouchManager
 TouchManager
 mTouchManager
+;
+nsRefPtr
+<
+ZoomConstraintsClient
+>
+mZoomConstraintsClient
 ;
 /
 /
