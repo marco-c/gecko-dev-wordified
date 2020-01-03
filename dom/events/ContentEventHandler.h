@@ -372,7 +372,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_DOM_WIDGET_HITTEST
+eQueryDOMWidgetHittest
 event
 handler
 nsresult
