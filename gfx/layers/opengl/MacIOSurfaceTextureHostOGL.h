@@ -363,7 +363,7 @@ aDescriptor
 ;
 /
 /
-SharedTextureHostOGL
+MacIOSurfaceTextureSourceOGL
 doesn
 '
 t
