@@ -1861,7 +1861,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_RATECHANGE
+eRateChange
 eMediaEventFirst
 +
 17
