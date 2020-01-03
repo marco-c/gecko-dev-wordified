@@ -625,15 +625,6 @@ nscoord
 aHeight
 )
 ;
-void
-InvertRect
-(
-const
-nsRect
-&
-aRect
-)
-;
 /
 /
 Text
