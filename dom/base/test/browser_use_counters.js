@@ -877,7 +877,7 @@ let
 histogram_page_name
 =
 "
-USE_COUNTER_
+USE_COUNTER2_
 "
 +
 arg
@@ -892,7 +892,7 @@ let
 histogram_document_name
 =
 "
-USE_COUNTER_
+USE_COUNTER2_
 "
 +
 arg
