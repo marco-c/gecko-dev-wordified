@@ -229,6 +229,12 @@ nsIPrincipal
 >
 mPrincipal
 ;
+nsCOMPtr
+<
+nsIContentPermissionRequester
+>
+mRequester
+;
 }
 ;
 }
