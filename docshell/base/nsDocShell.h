@@ -6087,6 +6087,9 @@ mOriginalUriString
 nsWeakPtr
 mOpener
 ;
+nsWeakPtr
+mOpenedRemote
+;
 /
 /
 A
