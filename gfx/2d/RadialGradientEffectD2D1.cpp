@@ -1477,6 +1477,7 @@ MOZ_ASSERT
 (
 inputIndex
 =
+=
 0
 )
 ;
