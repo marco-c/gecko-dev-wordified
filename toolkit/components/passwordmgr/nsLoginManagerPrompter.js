@@ -5,13 +5,13 @@ vim
 set
 ts
 =
-4
+2
 sts
 =
-4
+2
 sw
 =
-4
+2
 et
 tw
 =

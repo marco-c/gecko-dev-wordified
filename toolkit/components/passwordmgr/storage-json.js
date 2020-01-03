@@ -17,7 +17,7 @@ indent
 -
 level
 :
-4
+2
 -
 *
 -
@@ -30,10 +30,10 @@ vim
 set
 sw
 =
-4
+2
 ts
 =
-4
+2
 et
 lcs
 =
