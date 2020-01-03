@@ -1595,6 +1595,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvGeolocationError
+(
+const
+uint16_t
+&
+errorCode
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvUpdateDictionaryList
 (
 const
