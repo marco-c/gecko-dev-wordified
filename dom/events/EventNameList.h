@@ -2383,7 +2383,7 @@ MOZ_GAMEPAD
 NON_IDL_EVENT
 (
 gamepadbuttondown
-NS_GAMEPAD_BUTTONDOWN
+eGamepadButtonDown
 EventNameType_None
 eBasicEventClass
 )
