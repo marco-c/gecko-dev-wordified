@@ -24531,7 +24531,7 @@ DispatchMouseOrPointerEvent
 aMouseEvent
 isPointer
 ?
-NS_POINTER_OVER
+ePointerOver
 :
 eMouseOver
 aContent

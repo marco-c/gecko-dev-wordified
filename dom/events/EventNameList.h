@@ -1319,7 +1319,7 @@ ePointerEventClass
 EVENT
 (
 pointerover
-NS_POINTER_OVER
+ePointerOver
 EventNameType_All
 ePointerEventClass
 )
