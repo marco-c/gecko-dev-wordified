@@ -3750,6 +3750,8 @@ formals
 SourceBufferHolder
 &
 srcBuf
+HandleObject
+enclosingScope
 GeneratorKind
 generatorKind
 )
@@ -4413,12 +4415,7 @@ JSScript
 Create
 (
 cx
-js
-:
-:
-NullPtr
-(
-)
+enclosingScope
 false
 options
 /
@@ -4699,6 +4696,8 @@ JS
 SourceBufferHolder
 &
 srcBuf
+HandleObject
+enclosingStaticScope
 )
 {
 return
@@ -4709,6 +4708,7 @@ fun
 options
 formals
 srcBuf
+enclosingStaticScope
 NotGenerator
 )
 ;
@@ -4748,6 +4748,9 @@ fun
 options
 formals
 srcBuf
+NullPtr
+(
+)
 StarGenerator
 )
 ;

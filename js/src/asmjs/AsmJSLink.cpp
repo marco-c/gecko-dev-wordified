@@ -5873,6 +5873,15 @@ fun
 options
 formals
 srcBuf
+/
+*
+enclosingScope
+=
+*
+/
+NullPtr
+(
+)
 )
 )
 return

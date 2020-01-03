@@ -13468,6 +13468,15 @@ fun
 options
 formals
 srcBuf
+/
+*
+enclosingScope
+=
+*
+/
+NullPtr
+(
+)
 )
 ;
 args
