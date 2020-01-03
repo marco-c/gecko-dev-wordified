@@ -5964,8 +5964,16 @@ scope
 .
 __waitTimer
 =
-setTimeout
+this
+.
+SimpleTest
+.
+_originalSetTimeout
+.
+apply
 (
+window
+[
 function
 timeoutFn
 (
@@ -6331,6 +6339,7 @@ nextTest
 gTimeoutSeconds
 *
 1000
+]
 )
 ;
 }
