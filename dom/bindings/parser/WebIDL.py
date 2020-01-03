@@ -13845,7 +13845,20 @@ isDate
 or
 other
 .
-isNonCallbackInterface
+isInterface
+(
+)
+or
+other
+.
+isDictionary
+(
+)
+or
+                
+other
+.
+isCallback
 (
 )
 or
@@ -17127,6 +17140,7 @@ return
 False
         
 if
+(
 other
 .
 isPrimitive
@@ -17145,10 +17159,18 @@ isEnum
 (
 )
 or
+            
 other
 .
 isDate
 (
+)
+or
+other
+.
+isSequence
+(
+)
 )
 :
             
@@ -17308,12 +17330,6 @@ isCallback
 )
 or
             
-other
-.
-isSequence
-(
-)
-or
 other
 .
 isMozMap
@@ -26131,6 +26147,13 @@ or
 other
 .
 isDate
+(
+)
+or
+                
+other
+.
+isSequence
 (
 )
 )
