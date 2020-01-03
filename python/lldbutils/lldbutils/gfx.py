@@ -1030,6 +1030,14 @@ bounds
 "
 )
     
+bounds_summary
+=
+summarize_rect
+(
+bounds
+internal_dict
+)
+    
 num_rects
 =
 valobj
@@ -1048,27 +1056,7 @@ GetValueAsUnsigned
     
 if
 num_rects
-=
-=
-0
-:
-        
-return
-"
-empty
-"
-    
-bounds_summary
-=
-summarize_rect
-(
-bounds
-internal_dict
-)
-    
-if
-num_rects
-=
+<
 =
 1
 :
@@ -1085,6 +1073,13 @@ return
 empty
 "
         
+if
+num_rects
+=
+=
+1
+:
+            
 return
 "
 one
