@@ -217,6 +217,17 @@ aFormat
 0
 ;
 virtual
+void
+ActivateProgram
+(
+ShaderProgramOGL
+*
+aPrg
+)
+=
+0
+;
+virtual
 const
 gfx
 :
