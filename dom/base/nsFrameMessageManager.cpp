@@ -9298,6 +9298,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 {
 nsRefPtr
 <
@@ -9332,6 +9333,7 @@ nsAString
 &
 aPermission
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -9360,6 +9362,7 @@ nsAString
 &
 aManifestURL
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -9388,6 +9391,7 @@ nsAString
 &
 aPermission
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -9416,6 +9420,7 @@ unsigned
 short
 aStatus
 )
+MOZ_OVERRIDE
 {
 /
 /

@@ -2003,6 +2003,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+MOZ_OVERRIDE
 {
 aWorkerPrivate
 -
@@ -11098,6 +11099,7 @@ nsACString
 &
 aValue
 )
+MOZ_OVERRIDE
 {
 mHeaderNames
 .
@@ -11299,6 +11301,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
