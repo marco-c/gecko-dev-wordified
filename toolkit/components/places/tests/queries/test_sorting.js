@@ -8154,6 +8154,8 @@ setup
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

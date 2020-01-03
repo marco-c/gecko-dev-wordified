@@ -482,6 +482,8 @@ null
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

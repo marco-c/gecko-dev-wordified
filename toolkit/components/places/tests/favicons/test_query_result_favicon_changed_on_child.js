@@ -606,6 +606,8 @@ in
 the
 meantime
 .
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

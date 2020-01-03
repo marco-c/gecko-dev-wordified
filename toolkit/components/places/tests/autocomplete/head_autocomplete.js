@@ -2083,6 +2083,8 @@ to
 wait
 .
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

@@ -2985,6 +2985,8 @@ bm
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

@@ -2530,6 +2530,8 @@ uri
 ;
 }
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -2761,6 +2763,8 @@ uri
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -3007,6 +3011,8 @@ finalize
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -3202,6 +3208,8 @@ finalize
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -3617,6 +3625,8 @@ finalize
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -3831,6 +3841,8 @@ uri
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -4065,6 +4077,8 @@ EXPECTED_COUNT_FAILURE
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -4482,6 +4496,8 @@ length
 )
 {
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -5017,6 +5033,8 @@ length
 )
 {
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -5158,6 +5176,8 @@ guid
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -5495,6 +5515,8 @@ finalize
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -5656,6 +5678,8 @@ guid
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -5961,6 +5985,8 @@ title
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -6132,6 +6158,8 @@ TITLE
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -6534,6 +6562,8 @@ place
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -6841,6 +6871,8 @@ place
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -7070,6 +7102,8 @@ places
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

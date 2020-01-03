@@ -1381,6 +1381,8 @@ true
 }
 )
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
