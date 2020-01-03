@@ -185,7 +185,7 @@ supported
 /
 #
 define
-CONVERT
+INIT_ARRAY_AT
 (
 in_
 out_
@@ -210,7 +210,7 @@ position
 /
 #
 define
-CONVERT
+INIT_ARRAY_AT
 (
 in_
 out_
@@ -219,6 +219,19 @@ out_
 out_
 #
 endif
+#
+define
+CONVERT
+(
+in_
+out_
+)
+\
+INIT_ARRAY_AT
+(
+in_
+out_
+)
 #
 undef
 BT_LOG
