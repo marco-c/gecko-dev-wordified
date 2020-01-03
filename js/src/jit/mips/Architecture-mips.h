@@ -447,7 +447,7 @@ invalid_reg
 }
 ;
 typedef
-RegisterID
+uint8_t
 Code
 ;
 typedef
@@ -633,14 +633,14 @@ name
 ;
 static
 const
-Code
+Encoding
 StackPointer
 =
 sp
 ;
 static
 const
-Code
+Encoding
 Invalid
 =
 invalid_reg
