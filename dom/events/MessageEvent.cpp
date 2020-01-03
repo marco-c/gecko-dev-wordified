@@ -739,7 +739,7 @@ Value
 (
 )
 .
-IsWindow
+IsWindowProxy
 (
 )
 )
@@ -757,7 +757,7 @@ Value
 (
 )
 .
-GetAsWindow
+GetAsWindowProxy
 (
 )
 ;
