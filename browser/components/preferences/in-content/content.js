@@ -219,7 +219,7 @@ language
 group
 "
 "
-change
+blur
 "
 gContentPane
 .
