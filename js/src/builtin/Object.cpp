@@ -360,8 +360,10 @@ ES5
 .
 *
 /
-static
 bool
+js
+:
+:
 obj_propertyIsEnumerable
 (
 JSContext
