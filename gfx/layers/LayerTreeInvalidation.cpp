@@ -431,9 +431,15 @@ rect
 =
 aTransform
 .
-TransformBounds
+TransformAndClipBounds
 (
 rect
+Rect
+:
+:
+MaxIntRect
+(
+)
 )
 ;
 rect

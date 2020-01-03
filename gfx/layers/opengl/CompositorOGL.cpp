@@ -6132,9 +6132,10 @@ destRect
 =
 aTransform
 .
-TransformBounds
+TransformAndClipBounds
 (
 aRect
+aClipRect
 )
 ;
 mPixelsFilled
