@@ -12479,6 +12479,9 @@ eCSSTokenSerialization_CDC
 case
 eCSSTokenSerialization_Symbol_Hash
 :
+case
+eCSSTokenSerialization_Symbol_Minus
+:
 return
 aToken2
 =
@@ -12527,9 +12530,6 @@ aToken2
 =
 eCSSTokenSerialization_URange
 ;
-case
-eCSSTokenSerialization_Symbol_Minus
-:
 case
 eCSSTokenSerialization_Number
 :
