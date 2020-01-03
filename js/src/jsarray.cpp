@@ -8240,6 +8240,7 @@ can
 only
 be
 reversed
+here
 if
 their
 initialized
@@ -8287,7 +8288,7 @@ UnboxedArrayObject
 (
 )
 .
-length
+initializedLength
 (
 )
 )
