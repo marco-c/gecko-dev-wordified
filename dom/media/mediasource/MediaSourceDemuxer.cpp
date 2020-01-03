@@ -1611,6 +1611,13 @@ mParent
 =
 nullptr
 ;
+self
+-
+>
+mManager
+=
+nullptr
+;
 }
 )
 ;
