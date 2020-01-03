@@ -59776,6 +59776,10 @@ viewType_
 bool
 needsBoundsCheck_
 ;
+Label
+*
+outOfBoundsLabel_
+;
 public
 :
 MAsmJSHeapAccess
@@ -59787,6 +59791,11 @@ Type
 vt
 bool
 needsBoundsCheck
+Label
+*
+outOfBoundsLabel
+=
+nullptr
 )
 :
 viewType_
@@ -59796,6 +59805,10 @@ vt
 needsBoundsCheck_
 (
 needsBoundsCheck
+)
+outOfBoundsLabel_
+(
+outOfBoundsLabel
 )
 {
 }
@@ -59832,6 +59845,17 @@ needsBoundsCheck_
 false
 ;
 }
+Label
+*
+outOfBoundsLabel
+(
+)
+const
+{
+return
+outOfBoundsLabel_
+;
+}
 }
 ;
 class
@@ -59865,6 +59889,9 @@ MDefinition
 ptr
 bool
 needsBoundsCheck
+Label
+*
+outOfBoundsLabel
 MemoryBarrierBits
 before
 MemoryBarrierBits
@@ -59879,6 +59906,7 @@ MAsmJSHeapAccess
 (
 vt
 needsBoundsCheck
+outOfBoundsLabel
 )
 barrierBefore_
 (
@@ -60060,6 +60088,11 @@ MDefinition
 ptr
 bool
 needsBoundsCheck
+Label
+*
+outOfBoundsLabel
+=
+nullptr
 MemoryBarrierBits
 barrierBefore
 =
@@ -60080,6 +60113,7 @@ MAsmJSLoadHeap
 vt
 ptr
 needsBoundsCheck
+outOfBoundsLabel
 barrierBefore
 barrierAfter
 )
@@ -60197,6 +60231,9 @@ MDefinition
 v
 bool
 needsBoundsCheck
+Label
+*
+outOfBoundsLabel
 MemoryBarrierBits
 before
 MemoryBarrierBits
@@ -60212,6 +60249,7 @@ MAsmJSHeapAccess
 (
 vt
 needsBoundsCheck
+outOfBoundsLabel
 )
 barrierBefore_
 (
@@ -60264,6 +60302,11 @@ MDefinition
 v
 bool
 needsBoundsCheck
+Label
+*
+outOfBoundsLabel
+=
+nullptr
 MemoryBarrierBits
 barrierBefore
 =
@@ -60285,6 +60328,7 @@ vt
 ptr
 v
 needsBoundsCheck
+outOfBoundsLabel
 barrierBefore
 barrierAfter
 )

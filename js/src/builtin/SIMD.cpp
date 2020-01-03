@@ -8000,6 +8000,16 @@ byteLength
 )
 )
 {
+/
+/
+Keep
+in
+sync
+with
+AsmJS
+OnOutOfBounds
+function
+.
 JS_ReportErrorNumber
 (
 cx
