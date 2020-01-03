@@ -222,13 +222,6 @@ FileUtils
 .
 h
 "
-#
-include
-"
-BootAnimation
-.
-h
-"
 using
 namespace
 android
@@ -647,8 +640,6 @@ len
 LOGE
 (
 "
-BootAnimation
-:
 wait_for_fb_sleep
 failed
 errno
@@ -801,10 +792,6 @@ fbdev
 -
 >
 format
-;
-StartBootAnimation
-(
-)
 ;
 }
 GonkDisplayICS
@@ -1162,10 +1149,6 @@ only
 ;
 NativeData
 data
-;
-StopBootAnimation
-(
-)
 ;
 data
 .

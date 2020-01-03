@@ -291,6 +291,12 @@ aProducer
 nullptr
 )
 ;
+virtual
+void
+NotifyBootAnimationStopped
+(
+)
+;
 private
 :
 void
