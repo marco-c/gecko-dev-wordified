@@ -1151,7 +1151,7 @@ form
 *
 param
 {
-HTMLFormElement
+FormLike
 }
 aForm
 -
@@ -1341,7 +1341,7 @@ form
 *
 param
 {
-HTMLFormElement
+FormLike
 }
 aForm
 The

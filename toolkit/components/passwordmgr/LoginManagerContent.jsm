@@ -3292,7 +3292,7 @@ are
 *
 param
 {
-HTMLFormElement
+FormLike
 }
 form
 *
@@ -3570,7 +3570,8 @@ backwards
 from
 the
 first
-passwordfield
+password
+field
 assume
 the
 first
@@ -7593,6 +7594,8 @@ for
 el
 of
 doc
+.
+documentElement
 .
 querySelectorAll
 (
