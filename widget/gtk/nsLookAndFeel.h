@@ -249,11 +249,6 @@ mBackgroundStyle
 struct
 _GtkStyleContext
 *
-mViewStyle
-;
-struct
-_GtkStyleContext
-*
 mButtonStyle
 ;
 #
@@ -366,10 +361,10 @@ nscolor
 sMozWindowBackground
 ;
 nscolor
-sMozWindowSelectedText
+sTextSelectedText
 ;
 nscolor
-sMozWindowSelectedBackground
+sTextSelectedBackground
 ;
 nscolor
 sMozScrollbar
