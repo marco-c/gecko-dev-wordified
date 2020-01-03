@@ -1089,6 +1089,9 @@ ASSERT
 "
 NOTRUN
 "
+"
+SKIP
+"
 ]
 class
 Dict
