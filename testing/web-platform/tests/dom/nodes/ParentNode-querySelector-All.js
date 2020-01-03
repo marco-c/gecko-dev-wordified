@@ -33,6 +33,7 @@ alone
 function
 setupSpecialElements
 (
+doc
 parent
 )
 {
@@ -738,6 +739,7 @@ function
 verifyStaticList
 (
 type
+doc
 root
 )
 {
