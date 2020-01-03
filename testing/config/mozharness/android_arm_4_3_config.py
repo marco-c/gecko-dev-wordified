@@ -1378,7 +1378,7 @@ testsdir
 "
 :
 "
-cppunittests
+cppunittest
 "
             
 "
