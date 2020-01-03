@@ -11470,7 +11470,7 @@ a
 lock
 file
 .
-DriverCrashGuard
+D3D11LayersCrashGuard
 detectCrashes
 ;
 if
