@@ -11703,6 +11703,10 @@ const
 nsString
 mBehavior
 ;
+const
+nsString
+mScope
+;
 public
 :
 SendNotificationClickEventRunnable
@@ -11752,6 +11756,10 @@ const
 nsAString
 &
 aBehavior
+const
+nsAString
+&
+aScope
 )
 :
 WorkerRunnable
@@ -11798,6 +11806,10 @@ aData
 mBehavior
 (
 aBehavior
+)
+mScope
+(
+aScope
 )
 {
 AssertIsOnMainThread
@@ -11881,6 +11893,7 @@ mBody
 mTag
 mIcon
 mData
+mScope
 result
 )
 ;
@@ -12117,6 +12130,10 @@ aTag
 aIcon
 aData
 aBehavior
+NS_ConvertUTF8toUTF16
+(
+aScope
+)
 )
 ;
 AutoJSAPI
