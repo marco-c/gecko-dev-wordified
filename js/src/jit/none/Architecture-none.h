@@ -173,7 +173,7 @@ const
 uint32_t
 AsmJSStackAlignment
 =
-0
+4
 ;
 class
 Registers
