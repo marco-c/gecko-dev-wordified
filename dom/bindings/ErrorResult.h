@@ -534,11 +534,6 @@ JSContext
 cx
 )
 ;
-void
-ClearMessage
-(
-)
-;
 bool
 IsErrorWithMessage
 (
@@ -1196,6 +1191,11 @@ mResult
 aRv
 ;
 }
+void
+ClearMessage
+(
+)
+;
 nsresult
 mResult
 ;
