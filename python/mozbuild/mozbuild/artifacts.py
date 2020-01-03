@@ -2779,22 +2779,6 @@ info
 fh
 )
                 
-fh
-.
-write
-(
-zf
-.
-open
-(
-info
-)
-.
-read
-(
-)
-)
-                
 file_existed
 file_updated
 =
