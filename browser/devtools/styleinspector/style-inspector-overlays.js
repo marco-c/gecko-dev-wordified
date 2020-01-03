@@ -2217,6 +2217,7 @@ promise
 .
 reject
 (
+false
 )
 ;
 }
@@ -2253,6 +2254,7 @@ promise
 .
 reject
 (
+false
 )
 ;
 }
