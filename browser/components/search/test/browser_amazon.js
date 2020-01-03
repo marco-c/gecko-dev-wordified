@@ -88,7 +88,7 @@ let
 base
 =
 "
-http
+https
 :
 /
 /
@@ -281,7 +281,7 @@ Search
 searchForm
 :
 "
-http
+https
 :
 /
 /
@@ -507,7 +507,7 @@ GET
 template
 :
 "
-http
+https
 :
 /
 /

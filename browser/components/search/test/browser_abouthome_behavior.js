@@ -678,7 +678,7 @@ searchURL
 replaceUrl
 (
 "
-http
+https
 :
 /
 /
