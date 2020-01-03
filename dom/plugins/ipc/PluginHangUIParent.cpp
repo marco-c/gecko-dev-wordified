@@ -2029,13 +2029,6 @@ aResponse
 HANGUI_USER_RESPONSE_CONTINUE
 )
 {
-mModule
--
->
-OnHangUIContinue
-(
-)
-;
 /
 /
 User
