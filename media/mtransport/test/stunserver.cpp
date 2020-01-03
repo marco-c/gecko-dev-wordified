@@ -1503,7 +1503,7 @@ fd
 int
 tries
 =
-10
+100
 ;
 while
 (
