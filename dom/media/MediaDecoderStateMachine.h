@@ -3384,8 +3384,8 @@ must
 be
 held
 .
-void
-CheckTurningOffHardwareDecoder
+bool
+CheckFrameValidity
 (
 VideoData
 *
