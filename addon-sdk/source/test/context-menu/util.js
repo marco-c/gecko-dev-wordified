@@ -607,7 +607,7 @@ select
 select
 ;
 const
-attributeBlacklist
+attributeBlocklist
 =
 new
 Set
@@ -686,7 +686,7 @@ name
 =
 >
 !
-attributeBlacklist
+attributeBlocklist
 .
 has
 (

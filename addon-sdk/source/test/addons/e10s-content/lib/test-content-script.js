@@ -502,6 +502,10 @@ contentScript
 :
 [
 '
+let
+assert
+done
+;
 new
 '
 +

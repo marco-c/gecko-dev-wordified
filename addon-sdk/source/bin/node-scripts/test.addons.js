@@ -328,6 +328,8 @@ if
 ^
 (
 l10n
+-
+properties
 |
 simple
 -

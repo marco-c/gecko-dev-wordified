@@ -222,6 +222,11 @@ options
 '
 )
 {
+id
+:
+"
+testloader
+"
 prefixURI
 :
 require

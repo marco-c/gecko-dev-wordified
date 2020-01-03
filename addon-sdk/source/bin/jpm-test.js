@@ -62,12 +62,6 @@ strict
 "
 ;
 var
-BLACKLIST
-=
-[
-]
-;
-var
 readParam
 =
 require

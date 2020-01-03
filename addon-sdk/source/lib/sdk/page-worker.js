@@ -576,6 +576,9 @@ string
 array
 '
 '
+regexp
+'
+'
 undefined
 '
 ]

@@ -642,7 +642,7 @@ of
 the
 object
 without
-blacklisted
+omitted
 properties
 *
 /
