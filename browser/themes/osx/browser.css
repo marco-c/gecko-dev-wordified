@@ -12063,6 +12063,17 @@ back
 -
 button
 :
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
+:
 hover
 :
 active
