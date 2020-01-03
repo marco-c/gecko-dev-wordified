@@ -5848,6 +5848,7 @@ uint64_t
 gcNumber
 (
 )
+const
 {
 return
 number
@@ -5867,6 +5868,7 @@ uint64_t
 minorGCCount
 (
 )
+const
 {
 return
 minorGCNumber
@@ -5886,6 +5888,7 @@ uint64_t
 majorGCCount
 (
 )
+const
 {
 return
 majorGCNumber
@@ -5901,10 +5904,21 @@ incMajorGcNumber
 majorGCNumber
 ;
 }
+int64_t
+defaultSliceBudget
+(
+)
+const
+{
+return
+sliceBudget
+;
+}
 bool
 isIncrementalGc
 (
 )
+const
 {
 return
 isIncremental
@@ -5914,6 +5928,7 @@ bool
 isFullGc
 (
 )
+const
 {
 return
 isFull
@@ -5932,6 +5947,7 @@ bool
 areGrayBitsValid
 (
 )
+const
 {
 return
 grayBitsValid
@@ -6005,6 +6021,7 @@ bool
 fullGCForAtomsRequested
 (
 )
+const
 {
 return
 fullGCForAtomsRequested_
@@ -8427,9 +8444,9 @@ GC
 slice
 .
 See
+js
+/
 SliceBudget
-in
-jsgc
 .
 h
 .

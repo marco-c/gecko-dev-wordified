@@ -18709,10 +18709,9 @@ unlimited
 else
 if
 (
-deadline
-=
-=
-0
+isWorkBudget
+(
+)
 )
 return
 JS_snprintf
