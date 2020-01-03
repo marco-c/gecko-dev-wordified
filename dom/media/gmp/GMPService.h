@@ -481,6 +481,11 @@ EnsurePluginsOnDiskScanned
 (
 )
 ;
+nsresult
+InitStorage
+(
+)
+;
 class
 PathRunnable
 :
