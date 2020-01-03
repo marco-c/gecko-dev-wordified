@@ -343,6 +343,14 @@ ProxyAccessible
 *
 )
 ;
+ProxyAccessible
+*
+EmbeddedChildAt
+(
+size_t
+aChildIdx
+)
+;
 bool
 MustPruneChildren
 (
