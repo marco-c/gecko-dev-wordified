@@ -124,6 +124,13 @@ aWhy
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvParentShutdown
+(
+)
+MOZ_OVERRIDE
+;
 mozilla
 :
 :
