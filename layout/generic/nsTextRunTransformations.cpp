@@ -3876,9 +3876,6 @@ aTextRun
 gfxContext
 *
 aRefContext
-gfxMissingFontRecorder
-*
-aMFR
 )
 {
 nsAutoString
@@ -4043,7 +4040,6 @@ Length
 &
 innerParams
 flags
-aMFR
 )
 ;
 child
@@ -4142,7 +4138,6 @@ transformedChild
 FinishSettingProperties
 (
 aRefContext
-aMFR
 )
 ;
 }

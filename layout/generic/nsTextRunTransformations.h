@@ -232,9 +232,6 @@ aTextRun
 gfxContext
 *
 aRefContext
-gfxMissingFontRecorder
-*
-aMFR
 )
 =
 0
@@ -388,9 +385,6 @@ aTextRun
 gfxContext
 *
 aRefContext
-gfxMissingFontRecorder
-*
-aMFR
 )
 MOZ_OVERRIDE
 ;
@@ -743,9 +737,6 @@ FinishSettingProperties
 gfxContext
 *
 aRefContext
-gfxMissingFontRecorder
-*
-aMFR
 )
 {
 if
@@ -764,7 +755,6 @@ RebuildTextRun
 (
 this
 aRefContext
-aMFR
 )
 ;
 }
