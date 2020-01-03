@@ -1193,8 +1193,8 @@ mImageDataStatus
 newStatus
 ;
 }
-void
-EnsureNoUninitializedImageData
+bool
+EnsureInitializedImageData
 (
 TexImageTarget
 imageTarget
