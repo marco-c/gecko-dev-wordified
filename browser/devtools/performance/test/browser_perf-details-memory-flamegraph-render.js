@@ -34,6 +34,7 @@ zero
 Tests
 that
 the
+memory
 flamegraph
 view
 renders
@@ -63,7 +64,7 @@ let
 {
 EVENTS
 DetailsView
-JsFlameGraphView
+MemoryFlameGraphView
 }
 =
 panel
@@ -75,7 +76,7 @@ DetailsView
 selectView
 (
 "
-js
+memory
 -
 flamegraph
 "
@@ -87,7 +88,7 @@ DetailsView
 .
 isViewSelected
 (
-JsFlameGraphView
+MemoryFlameGraphView
 )
 "
 The
@@ -116,10 +117,10 @@ rendered
 =
 once
 (
-JsFlameGraphView
+MemoryFlameGraphView
 EVENTS
 .
-JS_FLAMEGRAPH_RENDERED
+MEMORY_FLAMEGRAPH_RENDERED
 )
 ;
 yield
@@ -135,7 +136,7 @@ ok
 (
 true
 "
-JsFlameGraphView
+MemoryFlameGraphView
 rendered
 after
 recording
@@ -161,10 +162,10 @@ rendered
 =
 once
 (
-JsFlameGraphView
+MemoryFlameGraphView
 EVENTS
 .
-JS_FLAMEGRAPH_RENDERED
+MEMORY_FLAMEGRAPH_RENDERED
 )
 ;
 yield
@@ -180,7 +181,7 @@ ok
 (
 true
 "
-JsFlameGraphView
+MemoryFlameGraphView
 rendered
 again
 after

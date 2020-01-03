@@ -3720,6 +3720,13 @@ toggleCategories
 contentOnly
 )
 ;
+callTreeRoot
+.
+toggleAllocations
+(
+false
+)
+;
 this
 .
 _callTreeRootByPanel

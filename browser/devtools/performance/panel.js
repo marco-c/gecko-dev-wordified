@@ -419,6 +419,7 @@ removed
 from
 client
 .
+yield
 this
 .
 _connection

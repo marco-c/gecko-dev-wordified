@@ -84,7 +84,7 @@ DetailsView
 *
 /
 let
-FlameGraphView
+JsFlameGraphView
 =
 Heritage
 .
@@ -136,6 +136,8 @@ FlameGraph
 (
 "
 #
+js
+-
 flamegraph
 -
 view
@@ -414,7 +416,7 @@ emit
 (
 EVENTS
 .
-FLAMEGRAPH_RENDERED
+JS_FLAMEGRAPH_RENDERED
 )
 ;
 }
