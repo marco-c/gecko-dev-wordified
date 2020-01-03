@@ -2407,6 +2407,7 @@ dst
 operator
 *
 (
+const
 gfx
 :
 :
@@ -2465,6 +2466,7 @@ dst
 operator
 /
 (
+const
 gfx
 :
 :
@@ -2480,8 +2482,8 @@ gfx
 :
 ScaleFactor
 <
-src
 dst
+src
 >
 &
 aScale
