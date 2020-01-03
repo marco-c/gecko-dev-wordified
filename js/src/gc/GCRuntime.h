@@ -3771,6 +3771,13 @@ shouldCompact
 (
 )
 ;
+bool
+compactPhase
+(
+bool
+lastGC
+)
+;
 #
 ifdef
 JSGC_COMPACTING
@@ -3788,13 +3795,6 @@ sweepZoneAfterCompacting
 Zone
 *
 zone
-)
-;
-void
-compactPhase
-(
-bool
-lastGC
 )
 ;
 ArenaHeader
