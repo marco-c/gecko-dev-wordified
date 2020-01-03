@@ -3239,6 +3239,16 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+loop
+.
+throttled
+"
+false
+)
+;
 /
 /
 Ensure
