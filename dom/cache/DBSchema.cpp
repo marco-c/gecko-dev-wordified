@@ -318,7 +318,7 @@ db
 {
 const
 int32_t
-kMaxWipeSchemaVersion
+kFirstShippedSchemaVersion
 =
 15
 ;
