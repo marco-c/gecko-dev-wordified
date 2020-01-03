@@ -5371,9 +5371,9 @@ high
 "
 )
 ;
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 }
@@ -6194,9 +6194,9 @@ type
 "
 )
 ;
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 /
@@ -6805,9 +6805,9 @@ length
 0
 "
 )
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 /
