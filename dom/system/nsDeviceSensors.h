@@ -378,7 +378,7 @@ Maybe
 <
 DeviceAccelerationInit
 >
-mLastAccelerationIncluduingGravity
+mLastAccelerationIncludingGravity
 ;
 mozilla
 :
