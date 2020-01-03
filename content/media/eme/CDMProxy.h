@@ -746,9 +746,9 @@ Shutdown
 Threadsafe
 .
 const
-nsCString
+nsAString
 &
-GetNodeId
+GetOrigin
 (
 )
 const
@@ -1551,8 +1551,8 @@ nsIThread
 >
 mGMPThread
 ;
-nsCString
-mNodeId
+nsAutoString
+mOrigin
 ;
 GMPDecryptorProxy
 *

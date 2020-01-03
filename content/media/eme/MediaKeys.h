@@ -750,11 +750,12 @@ PromiseId
 aId
 )
 ;
-const
-nsCString
-&
-GetNodeId
+nsresult
+GetOrigin
 (
+nsString
+&
+aOutOrigin
 )
 ;
 void
@@ -831,9 +832,6 @@ mParent
 ;
 nsString
 mKeySystem
-;
-nsCString
-mNodeId
 ;
 KeySessionHashMap
 mKeySessions
