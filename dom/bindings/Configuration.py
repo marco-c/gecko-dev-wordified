@@ -6351,7 +6351,7 @@ self
 .
 concrete
 or
-            
+                
 self
 .
 interface
@@ -6360,7 +6360,7 @@ hasInterfacePrototypeObject
 (
 )
 or
-            
+                
 any
 (
 (
@@ -6384,7 +6384,6 @@ isStatic
 )
 for
 m
-                
 in
 self
 .
@@ -6393,7 +6392,7 @@ interface
 members
 )
 or
-            
+                
 self
 .
 interface

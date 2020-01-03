@@ -1001,7 +1001,7 @@ self
 config_path
 inputs
 exported_header_dir
-            
+                 
 codegen_dir
 state_path
 cache_dir
@@ -1010,7 +1010,7 @@ None
 make_deps_path
 =
 None
-            
+                 
 make_deps_target
 =
 None
@@ -1279,18 +1279,20 @@ make_deps_target
         
 if
 (
+(
 make_deps_path
 and
 not
 make_deps_target
 )
 or
+                
 (
 not
 make_deps_path
 and
-                
 make_deps_target
+)
 )
 :
             
@@ -1305,7 +1307,7 @@ make_deps_path
 and
 make_deps_target
 '
-                
+                            
 '
 if
 one
@@ -1398,7 +1400,7 @@ str
 e
 )
 }
-                        
+                                           
 '
 Bad
 WebIDL
@@ -2249,7 +2251,7 @@ INFO
 '
 webidl_parse
 '
-            
+                 
 {
 '
 count
@@ -2262,7 +2264,7 @@ self
 _input_paths
 )
 }
-            
+                 
 '
 Parsing
 {
@@ -2726,7 +2728,7 @@ v
 sha1
 '
 ]
-            
+                      
 for
 v
 in
@@ -3458,7 +3460,7 @@ INFO
 '
 webidl_generate_build_for_input
 '
-            
+                 
 {
 '
 filename
@@ -3466,7 +3468,7 @@ filename
 :
 filename
 }
-            
+                 
 '
 Generating
 WebIDL
@@ -3545,7 +3547,7 @@ files
 [
 2
 ]
-                
+                                               
 files
 [
 3
@@ -4082,7 +4084,7 @@ files
 exported_stems
 '
 ]
-        
+              
 files
 [
 '
