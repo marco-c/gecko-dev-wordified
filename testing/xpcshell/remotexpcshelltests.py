@@ -4454,6 +4454,9 @@ def
 buildTestList
 (
 self
+test_tags
+=
+None
 )
 :
         
@@ -4464,6 +4467,9 @@ XPCShellTests
 buildTestList
 (
 self
+test_tags
+=
+test_tags
 )
         
 uniqueTestPaths
