@@ -21081,10 +21081,10 @@ GetCrossProcessTarget
 )
 {
 return
-TabParent
+IMEStateManager
 :
 :
-GetIMETabParent
+GetActiveTabParent
 (
 )
 ;
@@ -21150,10 +21150,10 @@ return
 false
 ;
 return
-TabParent
+IMEStateManager
 :
 :
-GetIMETabParent
+GetActiveTabParent
 (
 )
 !
