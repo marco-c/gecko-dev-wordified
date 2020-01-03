@@ -381,6 +381,9 @@ navigator
 mozLoop
 =
 {
+roomsEnabled
+:
+false
 ensureRegistered
 :
 function
@@ -426,6 +429,11 @@ rooms
 enabled
 "
 :
+return
+this
+.
+roomsEnabled
+;
 /
 /
 Ensure
