@@ -1039,10 +1039,6 @@ debuggerMallocSizeOf
 (
 ReturnZeroSize
 )
-lastAnimationTime
-(
-0
-)
 {
 setGCStoreBufferPtr
 (
