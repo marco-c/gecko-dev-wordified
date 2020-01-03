@@ -1444,6 +1444,8 @@ seen
 {
 seen
 [
+callee
+.
 name
 ]
 =
