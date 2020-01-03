@@ -19205,14 +19205,7 @@ index
 2
 &
 &
-!
-isFloatArray
-(
-)
-&
-&
-!
-isSimdWrite
+isIntegerWrite
 (
 )
 ?
@@ -19252,8 +19245,7 @@ index
 3
 &
 &
-!
-isFloatArray
+isIntegerWrite
 (
 )
 ?
@@ -19293,8 +19285,7 @@ index
 1
 &
 &
-!
-isFloatArray
+isIntegerWrite
 (
 )
 ?
