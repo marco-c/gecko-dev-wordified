@@ -268,6 +268,12 @@ BIN_SUFFIX
 .
 prog
 '
+            
+OS_TARGET
+=
+'
+WINNT
+'
         
 )
 )
@@ -996,11 +1002,12 @@ VariablePassthru
         
 wanted
 =
-dict
-(
+{
             
+'
 ASFILES
-=
+'
+:
 [
 '
 fans
@@ -1014,8 +1021,10 @@ s
 '
 ]
             
+'
 CMMSRCS
-=
+'
+:
 [
 '
 fans
@@ -1029,8 +1038,10 @@ mm
 '
 ]
             
+'
 CSRCS
-=
+'
+:
 [
 '
 fans
@@ -1044,12 +1055,16 @@ c
 '
 ]
             
+'
 DISABLE_STL_WRAPPING
-=
+'
+:
 True
             
+'
 EXTRA_COMPONENTS
-=
+'
+:
 [
 '
 fans
@@ -1063,8 +1078,10 @@ js
 '
 ]
             
+'
 EXTRA_PP_COMPONENTS
-=
+'
+:
 [
 '
 fans
@@ -1082,12 +1099,16 @@ js
 '
 ]
             
+'
 FAIL_ON_WARNINGS
-=
+'
+:
 True
             
+'
 HOST_CPPSRCS
-=
+'
+:
 [
 '
 fans
@@ -1101,8 +1122,10 @@ cpp
 '
 ]
             
+'
 HOST_CSRCS
-=
+'
+:
 [
 '
 fans
@@ -1116,16 +1139,22 @@ c
 '
 ]
             
+'
 MSVC_ENABLE_PGO
-=
+'
+:
 True
             
+'
 NO_DIST_INSTALL
-=
+'
+:
 True
             
+'
 SSRCS
-=
+'
+:
 [
 '
 bans
@@ -1139,74 +1168,63 @@ S
 '
 ]
             
+'
 VISIBILITY_FLAGS
-=
 '
-'
-            
-DELAYLOAD_LDFLAGS
-=
-[
-'
--
-DELAYLOAD
 :
-foo
-.
-dll
 '
 '
--
-DELAYLOAD
-:
-bar
-.
-dll
-'
-]
             
-USE_DELAYIMP
-=
-True
-            
+'
 RCFILE
-=
+'
+:
 '
 foo
 .
 rc
 '
             
+'
 RESFILE
-=
+'
+:
 '
 bar
 .
 res
 '
             
+'
 RCINCLUDE
-=
+'
+:
 '
 bar
 .
 rc
 '
             
+'
 DEFFILE
-=
+'
+:
 '
 baz
 .
 def
 '
             
+'
 USE_STATIC_LIBS
-=
+'
+:
 True
             
+'
 MOZBUILD_CFLAGS
-=
+'
+:
 [
 '
 -
@@ -1220,8 +1238,10 @@ w
 '
 ]
             
+'
 MOZBUILD_CXXFLAGS
-=
+'
+:
 [
 '
 -
@@ -1238,8 +1258,10 @@ h
 '
 ]
             
+'
 MOZBUILD_LDFLAGS
-=
+'
+:
 [
 '
 -
@@ -1250,10 +1272,29 @@ Foo
 -
 x
 '
+'
+-
+DELAYLOAD
+:
+foo
+.
+dll
+'
+                                 
+'
+-
+DELAYLOAD
+:
+bar
+.
+dll
+'
 ]
             
+'
 WIN32_EXE_LDFLAGS
-=
+'
+:
 [
 '
 -
@@ -1263,7 +1304,7 @@ console
 '
 ]
         
-)
+}
         
 variables
 =
