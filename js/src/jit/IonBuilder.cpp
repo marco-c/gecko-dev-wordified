@@ -82951,13 +82951,12 @@ return
 true
 ;
 }
-static
 bool
-HasOnProtoChain
+IonBuilder
+:
+:
+hasOnProtoChain
 (
-CompilerConstraintList
-*
-constraints
 TypeSet
 :
 :
@@ -82991,6 +82990,8 @@ key
 hasStableClassAndProto
 (
 constraints
+(
+)
 )
 |
 |
@@ -83014,6 +83015,8 @@ JSObject
 *
 proto
 =
+checkNurseryObject
+(
 key
 -
 >
@@ -83023,6 +83026,7 @@ proto
 .
 toObjectOrNull
 (
+)
 )
 ;
 if
@@ -83260,11 +83264,8 @@ isInstance
 if
 (
 !
-HasOnProtoChain
+hasOnProtoChain
 (
-constraints
-(
-)
 key
 protoObject
 &
