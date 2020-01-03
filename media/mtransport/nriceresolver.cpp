@@ -1031,7 +1031,6 @@ UDP
 and
 TCP
 are
-is
 supported
 .
 "

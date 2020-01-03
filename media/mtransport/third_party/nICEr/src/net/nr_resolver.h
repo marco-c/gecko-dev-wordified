@@ -279,6 +279,7 @@ typedef
 struct
 nr_resolver_resource_
 {
+const
 char
 *
 domain_name
