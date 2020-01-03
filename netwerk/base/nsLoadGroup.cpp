@@ -3008,6 +3008,7 @@ PL_DHashTableAdd
 &
 mRequests
 request
+fallible
 )
 )
 ;

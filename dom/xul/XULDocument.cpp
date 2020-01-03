@@ -5004,6 +5004,7 @@ PL_DHashTableAdd
 mBroadcasterMap
 &
 aBroadcaster
+fallible
 )
 )
 ;

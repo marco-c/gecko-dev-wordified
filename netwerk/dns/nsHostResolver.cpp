@@ -5221,6 +5221,7 @@ PL_DHashTableAdd
 mDB
 &
 key
+fallible
 )
 )
 ;

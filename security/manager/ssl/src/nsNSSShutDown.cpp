@@ -354,6 +354,7 @@ singleton
 >
 mObjects
 o
+fallible
 )
 ;
 }
@@ -440,6 +441,7 @@ singleton
 >
 mPK11LogoutCancelObjects
 o
+fallible
 )
 ;
 }

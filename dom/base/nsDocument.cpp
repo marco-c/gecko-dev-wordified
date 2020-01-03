@@ -22111,6 +22111,7 @@ PL_DHashTableAdd
 (
 mSubDocuments
 aElement
+fallible
 )
 )
 ;

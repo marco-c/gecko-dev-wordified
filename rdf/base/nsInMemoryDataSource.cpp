@@ -1712,6 +1712,10 @@ PL_DHashTableAdd
 &
 mForwardArcs
 u
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -1778,6 +1782,10 @@ PL_DHashTableAdd
 &
 mReverseArcs
 v
+mozilla
+:
+:
+fallible
 )
 )
 ;
@@ -6180,6 +6188,10 @@ hash
 .
 mPropertyHash
 aProperty
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -6750,6 +6762,10 @@ hash
 .
 mPropertyHash
 aProperty
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -9069,6 +9085,10 @@ PL_DHashTableAdd
 (
 table
 prop
+mozilla
+:
+:
+fallible
 )
 ;
 if

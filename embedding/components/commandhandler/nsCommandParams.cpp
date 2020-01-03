@@ -1174,10 +1174,12 @@ foundEntry
 }
 foundEntry
 =
-(
+static_cast
+<
 HashEntry
 *
-)
+>
+(
 PL_DHashTableAdd
 (
 &
@@ -1187,6 +1189,8 @@ void
 *
 )
 aName
+fallible
+)
 )
 ;
 if

@@ -475,6 +475,7 @@ NS_INT32_TO_PTR
 (
 aColSpan
 )
+fallible
 )
 )
 ;

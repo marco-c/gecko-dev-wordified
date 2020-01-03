@@ -9298,6 +9298,7 @@ ChildrenHash
 )
 &
 key
+fallible
 )
 )
 ;
@@ -9772,6 +9773,7 @@ curr
 -
 >
 mRule
+fallible
 )
 )
 ;

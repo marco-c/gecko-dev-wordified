@@ -6492,6 +6492,7 @@ PL_DHashTableAdd
 &
 mResources
 uri
+fallible
 )
 ;
 if
@@ -7977,6 +7978,7 @@ PL_DHashTableAdd
 &
 mLiterals
 value
+fallible
 )
 ;
 if
@@ -8328,6 +8330,7 @@ PL_DHashTableAdd
 mInts
 &
 value
+fallible
 )
 ;
 if
@@ -8669,6 +8672,7 @@ PL_DHashTableAdd
 mDates
 &
 value
+fallible
 )
 ;
 if
@@ -8932,6 +8936,7 @@ aBlob
 -
 >
 mData
+fallible
 )
 ;
 if

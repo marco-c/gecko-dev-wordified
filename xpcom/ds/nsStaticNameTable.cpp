@@ -990,6 +990,7 @@ PL_DHashTableAdd
 mNameTable
 &
 key
+fallible
 )
 )
 ;

@@ -1063,6 +1063,7 @@ PL_DHashTableAdd
 gContentListHashTable
 &
 hashKey
+fallible
 )
 )
 ;
@@ -1541,6 +1542,7 @@ PL_DHashTableAdd
 gFuncStringContentListHashTable
 &
 hashKey
+fallible
 )
 )
 ;
