@@ -21565,7 +21565,7 @@ edit
 .
 delete_immediately
 "
-false
+true
 )
 ;
 /
