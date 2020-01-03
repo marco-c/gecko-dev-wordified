@@ -23402,11 +23402,9 @@ srcBuf
 enclosingStaticScope
 )
 )
-{
 return
 false
 ;
-}
 return
 true
 ;
