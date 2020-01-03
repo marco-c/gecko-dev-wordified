@@ -780,6 +780,7 @@ this
 .
 handleKeypress
 )
+;
 }
 /
 *
