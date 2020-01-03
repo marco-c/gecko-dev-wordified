@@ -601,7 +601,7 @@ onUnload
 ;
 UI
 .
-uninit
+destroy
 (
 )
 ;
@@ -1098,7 +1098,7 @@ resolve
 )
 ;
 }
-uninit
+destroy
 :
 function
 (
@@ -1135,7 +1135,7 @@ appManagerUpdate
 ;
 AppManager
 .
-uninit
+destroy
 (
 )
 ;
@@ -1568,6 +1568,12 @@ response
 this
 .
 updateCommands
+(
+)
+;
+projectList
+.
+update
 (
 )
 ;
