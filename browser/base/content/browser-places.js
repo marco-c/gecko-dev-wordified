@@ -10597,6 +10597,13 @@ editlabel
 bookmarklabel
 "
 ;
+if
+(
+this
+.
+broadcaster
+)
+{
 this
 .
 broadcaster
@@ -10616,6 +10623,7 @@ label
 )
 )
 ;
+}
 }
 onMainMenuPopupShowing
 :
