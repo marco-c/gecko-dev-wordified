@@ -173,6 +173,13 @@ h
 #
 include
 "
+BrowserElementAudioChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventDispatcher
