@@ -1159,8 +1159,14 @@ IsAsync
 )
 &
 &
+ImageBridgeParent
+:
+:
+GetInstance
+(
 GetChildProcessId
 (
+)
 )
 )
 {

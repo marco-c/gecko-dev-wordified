@@ -2668,9 +2668,6 @@ ProcessId
 aChildProcessId
 )
 {
-#
-ifdef
-MOZ_WIDGET_GONK
 ImageBridgeParent
 *
 imageBridge
@@ -2699,8 +2696,6 @@ SendPendingAsyncMessges
 (
 )
 ;
-#
-endif
 }
 }
 /
