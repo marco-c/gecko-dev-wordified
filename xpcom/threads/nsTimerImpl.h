@@ -194,10 +194,6 @@ GetTimerLog
 ;
 #
 define
-DEBUG_TIMERS
-1
-#
-define
 NS_TIMER_CID
 \
 {
@@ -815,9 +811,6 @@ mTracedTask
 ;
 #
 endif
-#
-ifdef
-DEBUG_TIMERS
 TimeStamp
 mStart
 mStart2
@@ -834,8 +827,6 @@ static
 double
 sDeltaNum
 ;
-#
-endif
 }
 ;
 #

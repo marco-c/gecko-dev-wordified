@@ -1395,9 +1395,6 @@ timer
 =
 nullptr
 ;
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -1451,8 +1448,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 {
 /
 /
@@ -2071,9 +2066,6 @@ can
 wait
 }
 }
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -2133,8 +2125,6 @@ waitFor
 )
 ;
 }
-#
-endif
 }
 mWaiting
 =

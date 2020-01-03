@@ -225,9 +225,6 @@ gThread
 =
 nullptr
 ;
-#
-ifdef
-DEBUG_TIMERS
 PRLogModuleInfo
 *
 GetTimerLog
@@ -459,8 +456,6 @@ stdDevResult
 stdDev
 ;
 }
-#
-endif
 namespace
 {
 /
@@ -801,14 +796,9 @@ sAllocatorUsers
 +
 ;
 }
-#
-ifdef
-DEBUG_TIMERS
 TimeStamp
 mInitTime
 ;
-#
-endif
 static
 void
 Init
@@ -1831,9 +1821,6 @@ Shutdown
 (
 )
 {
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -1918,8 +1905,6 @@ stddev
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -3027,9 +3012,6 @@ mTracedTask
 ;
 #
 endif
-#
-ifdef
-DEBUG_TIMERS
 TimeStamp
 now
 =
@@ -3278,8 +3260,6 @@ TimeStamp
 )
 ;
 }
-#
-endif
 TimeStamp
 timeout
 =
@@ -3613,9 +3593,6 @@ mTimerCallbackWhileFiring
 =
 nullptr
 ;
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -3670,8 +3647,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 /
 /
 Reschedule
@@ -3864,9 +3839,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -3931,8 +3903,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 mTimer
 -
 >
@@ -4196,9 +4166,6 @@ forget
 )
 ;
 }
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -4223,8 +4190,6 @@ Now
 )
 ;
 }
-#
-endif
 /
 /
 If
@@ -4464,9 +4429,6 @@ mTimeout
 =
 delayInterval
 ;
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -4500,8 +4462,6 @@ now
 ;
 }
 }
-#
-endif
 }
 size_t
 nsTimerImpl
