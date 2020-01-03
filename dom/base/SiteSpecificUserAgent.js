@@ -394,7 +394,7 @@ result
 =
 cpmm
 .
-sendSyncMessage
+sendRpcMessage
 (
 "
 Useragent
