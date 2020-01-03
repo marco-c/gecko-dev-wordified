@@ -5636,7 +5636,7 @@ this
 >
 Cancel
 (
-NS_ERROR_FAILURE
+NS_IMAGELIB_ERROR_FAILURE
 )
 ;
 return
