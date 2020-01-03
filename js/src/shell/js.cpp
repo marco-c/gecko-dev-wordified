@@ -19211,6 +19211,9 @@ return
 true
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 StackDump
@@ -19340,6 +19343,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 Elapsed
