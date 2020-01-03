@@ -136,7 +136,7 @@ t
 defined
 then
 the
-defailtCallback
+defaultCallback
 function
 will
 *
@@ -1154,11 +1154,7 @@ manualUpdate
 ;
 /
 /
-Tested
-on
-license
-load
-failure
+Done
 const
 PAGEID_UNSUPPORTED
 =
@@ -8759,8 +8755,11 @@ setupTimer
 gTestTimeout
 )
 ;
-aCallback
+SimpleTest
+.
+executeSoon
 (
+aCallback
 )
 ;
 }
@@ -9536,8 +9535,11 @@ false
 }
 )
 ;
-aCallback
+SimpleTest
+.
+executeSoon
 (
+aCallback
 )
 ;
 }
