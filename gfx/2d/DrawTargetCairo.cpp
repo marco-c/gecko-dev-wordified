@@ -2381,6 +2381,14 @@ mSurface
 (
 nullptr
 )
+mX
+(
+0
+)
+mY
+(
+0
+)
 {
 Init
 (
