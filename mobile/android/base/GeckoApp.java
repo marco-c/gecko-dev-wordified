@@ -7083,6 +7083,12 @@ Bundle
 savedInstanceState
 )
 {
+GeckoAppShell
+.
+ensureCrashHandling
+(
+)
+;
 /
 /
 Enable
