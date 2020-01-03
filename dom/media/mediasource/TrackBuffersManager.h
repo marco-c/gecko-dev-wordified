@@ -423,6 +423,12 @@ RestartGroupStartTimestamp
 )
 override
 ;
+TimeUnit
+GroupEndTimestamp
+(
+)
+override
+;
 /
 /
 Interface
@@ -2042,6 +2048,9 @@ mVideoBufferedRanges
 ;
 TimeIntervals
 mAudioBufferedRanges
+;
+TimeUnit
+mOfficialGroupEndTimestamp
 ;
 /
 /

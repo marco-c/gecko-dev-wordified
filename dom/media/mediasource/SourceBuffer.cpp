@@ -2534,7 +2534,14 @@ duration
 double
 endTime
 =
-GetBufferedEnd
+mContentManager
+-
+>
+GroupEndTimestamp
+(
+)
+.
+ToSeconds
 (
 )
 ;
