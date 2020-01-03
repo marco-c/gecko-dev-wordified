@@ -5159,6 +5159,12 @@ cache
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 if

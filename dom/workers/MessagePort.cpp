@@ -1151,6 +1151,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 AssertCorrectThread
@@ -1165,6 +1174,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }

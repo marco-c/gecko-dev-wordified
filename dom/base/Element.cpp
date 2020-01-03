@@ -2385,6 +2385,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 JS
@@ -2404,6 +2413,7 @@ nsINode
 WrapObject
 (
 aCx
+aGivenProto
 )
 )
 ;
@@ -6256,6 +6266,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 return
@@ -6266,6 +6285,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }

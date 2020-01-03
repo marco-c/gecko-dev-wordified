@@ -16049,6 +16049,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 /
@@ -16213,6 +16222,7 @@ aCx
 WrapNode
 (
 aCx
+aGivenProto
 )
 )
 ;

@@ -659,6 +659,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 if
@@ -673,6 +682,7 @@ DOMRequest
 WrapObject
 (
 aCx
+aGivenProto
 )
 ;
 }
@@ -684,6 +694,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }

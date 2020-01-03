@@ -436,6 +436,15 @@ WrapObject
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 return
@@ -449,6 +458,7 @@ Wrap
 (
 cx
 this
+aGivenProto
 )
 ;
 }

@@ -189,6 +189,15 @@ WrapObject
 JSContext
 *
 js
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 MOZ_OVERRIDE
 ;

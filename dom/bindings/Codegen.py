@@ -25057,14 +25057,6 @@ JSObject
 '
 aGivenProto
 '
-'
-JS
-:
-:
-NullPtr
-(
-)
-'
 )
 ]
         
@@ -103868,6 +103860,23 @@ JSContext
 aCx
 '
 )
+                    
+Argument
+(
+'
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+'
+'
+aGivenProto
+'
+)
 ]
         
 self
@@ -104676,6 +104685,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
             
 {
@@ -104691,6 +104709,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
             
@@ -107423,6 +107442,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 )
 ;
@@ -118757,6 +118777,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 \

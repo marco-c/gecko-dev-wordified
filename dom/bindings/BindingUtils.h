@@ -5632,6 +5632,12 @@ value
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 if
@@ -9548,6 +9554,12 @@ parent
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 }
