@@ -490,9 +490,8 @@ kungfudeathgrip
 this
 )
 ;
-NS_RELEASE
+Release
 (
-kungfudeathgrip
 )
 ;
 Shutdown
