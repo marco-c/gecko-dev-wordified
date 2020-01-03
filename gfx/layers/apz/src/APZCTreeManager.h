@@ -700,7 +700,7 @@ as
 part
 of
 the
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 *
 function
 which
@@ -920,7 +920,7 @@ list
 to
 /
 /
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 .
 All
 the
@@ -1140,7 +1140,7 @@ numbers
 *
 /
 void
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 CompositorParent
 *
@@ -4158,7 +4158,7 @@ level
 /
 HitTestingTreeNode
 *
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 TreeBuildingState
 &

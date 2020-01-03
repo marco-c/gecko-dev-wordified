@@ -3861,7 +3861,7 @@ mCompositionManager
 mApzcTreeManager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 this
 mLayerManager
@@ -5368,7 +5368,7 @@ mCompositionManager
 mApzcTreeManager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 this
 root

@@ -1111,7 +1111,7 @@ void
 APZCTreeManager
 :
 :
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 CompositorParent
 *
@@ -1500,7 +1500,7 @@ root
 aRoot
 )
 ;
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 state
 root
@@ -3951,7 +3951,7 @@ HitTestingTreeNode
 APZCTreeManager
 :
 :
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 TreeBuildingState
 &
@@ -4724,7 +4724,7 @@ mApzcTreeLog
 ;
 next
 =
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 aState
 child

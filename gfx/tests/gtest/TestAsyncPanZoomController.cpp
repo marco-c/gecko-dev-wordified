@@ -12901,7 +12901,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -13008,7 +13008,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -13188,7 +13188,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -13474,7 +13474,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -14861,7 +14861,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -14972,7 +14972,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -15045,7 +15045,7 @@ START_SCROLL_ID
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -15094,7 +15094,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -15361,7 +15361,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -16102,7 +16102,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -16844,7 +16844,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -17047,7 +17047,7 @@ registration
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -17301,7 +17301,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -17437,7 +17437,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -19255,7 +19255,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
@@ -19426,7 +19426,7 @@ mcc
 manager
 -
 >
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 nullptr
 root
