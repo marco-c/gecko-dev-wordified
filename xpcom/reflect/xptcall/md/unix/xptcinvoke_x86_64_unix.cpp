@@ -912,6 +912,9 @@ C
 +
 .
 #
+ifndef
+__clang__
+#
 pragma
 GCC
 push_options
@@ -926,6 +929,8 @@ no
 avx
 "
 )
+#
+endif
 EXPORT_XPCOM_API
 (
 nsresult
@@ -1357,6 +1362,11 @@ result
 ;
 }
 #
+ifndef
+__clang__
+#
 pragma
 GCC
 pop_options
+#
+endif
