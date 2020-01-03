@@ -7868,7 +7868,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetOSXFontSmoothing
+DoGetOsxFontSmoothing
 (
 )
 {
