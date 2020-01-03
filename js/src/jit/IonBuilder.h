@@ -7310,6 +7310,9 @@ callers
 void
 trackTypeInfo
 (
+JS
+:
+:
 TrackedTypeSite
 site
 MIRType
@@ -7350,6 +7353,9 @@ typeSet
 void
 trackTypeInfo
 (
+JS
+:
+:
 TrackedTypeSite
 site
 JSObject
@@ -7415,6 +7421,9 @@ callInfo
 void
 trackOptimizationAttempt
 (
+JS
+:
+:
 TrackedStrategy
 strategy
 )
@@ -7475,6 +7484,9 @@ index
 void
 trackOptimizationOutcome
 (
+JS
+:
+:
 TrackedOutcome
 outcome
 )
@@ -7585,6 +7597,9 @@ enabled
 void
 trackTypeInfoUnchecked
 (
+JS
+:
+:
 TrackedTypeSite
 site
 MIRType
@@ -7600,6 +7615,9 @@ typeSet
 void
 trackTypeInfoUnchecked
 (
+JS
+:
+:
 TrackedTypeSite
 site
 JSObject
@@ -7618,6 +7636,9 @@ callInfo
 void
 trackOptimizationAttemptUnchecked
 (
+JS
+:
+:
 TrackedStrategy
 strategy
 )
@@ -7632,6 +7653,9 @@ index
 void
 trackOptimizationOutcomeUnchecked
 (
+JS
+:
+:
 TrackedOutcome
 outcome
 )
