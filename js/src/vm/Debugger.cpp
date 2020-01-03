@@ -32883,6 +32883,13 @@ script
 (
 )
 ;
+{
+AutoCompartment
+ac
+(
+cx
+)
+;
 if
 (
 !
@@ -32897,6 +32904,7 @@ cx
 return
 false
 ;
+}
 if
 (
 unsigned
