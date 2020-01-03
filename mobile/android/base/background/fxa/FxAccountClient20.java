@@ -1116,10 +1116,6 @@ null
 verified
 =
 tempVerified
-.
-booleanValue
-(
-)
 ;
 }
 byte
@@ -1195,8 +1191,6 @@ handleSuccess
 loginResponse
 )
 ;
-return
-;
 }
 catch
 (
@@ -1210,8 +1204,6 @@ handleError
 (
 e
 )
-;
-return
 ;
 }
 }
@@ -1281,8 +1273,6 @@ invokeHandleError
 delegate
 e
 )
-;
-return
 ;
 }
 }

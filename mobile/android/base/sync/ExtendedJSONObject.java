@@ -1338,10 +1338,6 @@ Long
 )
 {
 return
-Integer
-.
-valueOf
-(
 (
 (
 Long
@@ -1351,7 +1347,6 @@ val
 .
 intValue
 (
-)
 )
 ;
 }
@@ -1473,10 +1468,6 @@ millis
 Double
 )
 val
-)
-.
-doubleValue
-(
 )
 *
 1000

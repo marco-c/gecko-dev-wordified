@@ -8631,12 +8631,7 @@ recordDailyLast
 env
 day
 field
-Integer
-.
-valueOf
-(
 value
-)
 EVENTS_INTEGER
 )
 ;

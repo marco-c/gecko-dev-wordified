@@ -2569,10 +2569,6 @@ get
 history
 "
 )
-.
-booleanValue
-(
-)
 )
 {
 declined

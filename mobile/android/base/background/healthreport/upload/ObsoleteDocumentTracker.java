@@ -1574,15 +1574,9 @@ continue
 if
 (
 (
-(
 Long
 )
 o
-)
-.
-longValue
-(
-)
 >
 HealthReportConstants
 .

@@ -615,10 +615,6 @@ onPreferenceTreeClick
 )
 {
 return
-Boolean
-.
-valueOf
-(
 listener
 .
 onPreferenceTreeClick
@@ -637,7 +633,6 @@ args
 [
 1
 ]
-)
 )
 ;
 }

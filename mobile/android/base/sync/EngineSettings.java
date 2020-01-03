@@ -137,10 +137,6 @@ getIntegerSafely
 version
 "
 )
-.
-intValue
-(
-)
 ;
 }
 catch

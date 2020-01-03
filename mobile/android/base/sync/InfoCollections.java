@@ -707,15 +707,9 @@ is
 stale
 .
 return
-(
 serverLastModified
-.
-longValue
-(
-)
 >
 lastModified
-)
 ;
 }
 }
