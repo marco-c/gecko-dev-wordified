@@ -5038,6 +5038,17 @@ aColumnNumber
 )
 ;
 static
+nsresult
+MaybeReportInterceptionErrorToConsole
+(
+nsIDocument
+*
+aDocument
+nsresult
+aError
+)
+;
+static
 void
 LogMessageToConsole
 (

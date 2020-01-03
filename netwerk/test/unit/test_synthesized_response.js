@@ -1275,6 +1275,9 @@ intercepted
 .
 cancel
 (
+Cr
+.
+NS_BINDING_ABORTED
 )
 ;
 }
