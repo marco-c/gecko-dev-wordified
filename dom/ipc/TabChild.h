@@ -2886,6 +2886,17 @@ override
 ;
 virtual
 bool
+RecvSuppressDisplayport
+(
+const
+bool
+&
+aEnabled
+)
+override
+;
+virtual
+bool
 RecvParentActivated
 (
 const
@@ -3375,6 +3386,9 @@ mManager
 ;
 uint32_t
 mChromeFlags
+;
+int32_t
+mActiveSuppressDisplayport
 ;
 uint64_t
 mLayersId
