@@ -678,14 +678,14 @@ return
 /
 Request
 a
-10
+15
 minutes
 timeout
 (
 30
 seconds
 *
-20
+30
 )
 for
 debug
@@ -693,7 +693,7 @@ builds
 .
 requestLongerTimeout
 (
-20
+30
 )
 ;
 }
