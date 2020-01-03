@@ -238,10 +238,6 @@ PlatformDecoderModule
 :
 kNeedAVCC
 )
-mDecoderInitializing
-(
-false
-)
 mLastError
 (
 NS_OK
@@ -407,7 +403,11 @@ NS_ERROR_FAILURE
 }
 if
 (
-mDecoderInitializing
+mInitPromiseRequest
+.
+Exists
+(
+)
 )
 {
 mMediaRawSamples
@@ -881,10 +881,6 @@ rv
 )
 )
 {
-mDecoderInitializing
-=
-true
-;
 /
 /
 Queue
@@ -1030,10 +1026,6 @@ mMediaRawSamples
 Clear
 (
 )
-;
-mDecoderInitializing
-=
-false
 ;
 }
 void
