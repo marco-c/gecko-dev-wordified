@@ -6745,6 +6745,10 @@ mSharedLock
 (
 nullptr
 )
+mAsyncTransformAppliedToContent
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -17533,6 +17537,10 @@ schedule
 a
 composite
 .
+mAsyncTransformAppliedToContent
+=
+false
+;
 bool
 requestAnimationFrame
 =
