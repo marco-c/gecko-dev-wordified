@@ -468,7 +468,7 @@ linkedBrowser
 function
 (
 win
-event
+state
 )
 {
 return
@@ -476,8 +476,6 @@ Cu
 .
 waiveXrays
 (
-event
-.
 state
 )
 .
@@ -489,6 +487,8 @@ toString
 ;
 }
 aEvent
+.
+state
 )
 .
 then
