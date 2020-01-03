@@ -431,6 +431,7 @@ value
 }
 ;
 class
+MOZ_STACK_CLASS
 nsPropertiesParser
 {
 public
@@ -927,8 +928,10 @@ state
 EParserSpecial
 mSpecialState
 ;
+nsCOMPtr
+<
 nsIPersistentProperties
-*
+>
 mProps
 ;
 }
