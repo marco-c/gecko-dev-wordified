@@ -573,6 +573,10 @@ sLink
 =
 nullptr
 ;
+sLinkStatus
+=
+LinkStatus_INIT
+;
 }
 }
 /
