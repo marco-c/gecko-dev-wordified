@@ -186,7 +186,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-nsINetworkManager
+nsINetworkInterface
 .
 h
 "
@@ -2709,9 +2709,9 @@ ifdef
 MOZ_WIDGET_GONK
 nsMainThreadPtrHandle
 <
-nsINetworkInterface
+nsINetworkInfo
 >
-mActiveNetwork
+mActiveNetworkInfo
 ;
 #
 endif
