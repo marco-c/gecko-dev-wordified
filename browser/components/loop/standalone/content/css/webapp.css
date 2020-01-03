@@ -461,7 +461,6 @@ footer
 external
 -
 links
-a
 {
 padding
 :
@@ -470,6 +469,15 @@ padding
 .
 7rem
 ;
+}
+.
+footer
+-
+external
+-
+links
+a
+{
 margin
 :
 0
@@ -481,6 +489,11 @@ text
 decoration
 :
 none
+;
+color
+:
+#
+adadad
 ;
 }
 .
@@ -496,7 +509,7 @@ hover
 color
 :
 #
-111
+777
 ;
 }
 .
