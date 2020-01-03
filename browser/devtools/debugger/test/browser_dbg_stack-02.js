@@ -61,7 +61,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -84,7 +83,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -94,10 +92,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -140,10 +134,12 @@ then
 performTest
 )
 ;
-gDebuggee
-.
-evalCall
+callInTab
 (
+gTab
+"
+evalCall
+"
 )
 ;
 }
@@ -794,10 +790,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
