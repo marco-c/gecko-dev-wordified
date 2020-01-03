@@ -648,8 +648,7 @@ max_reports_per_day_
 Sends
 the
 specified
-minidump
-file
+files
 along
 with
 the
@@ -789,9 +788,13 @@ wstring
 &
 parameters
 const
+map
+<
 wstring
+wstring
+>
 &
-dump_file_name
+files
 wstring
 *
 report_code
