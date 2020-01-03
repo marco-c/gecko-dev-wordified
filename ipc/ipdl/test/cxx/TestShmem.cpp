@@ -444,8 +444,10 @@ RecvTake
 (
 Shmem
 &
+&
 mem
 Shmem
+&
 &
 unsafe
 const
@@ -722,8 +724,10 @@ RecvGive
 (
 Shmem
 &
+&
 mem
 Shmem
+&
 &
 unsafe
 const
