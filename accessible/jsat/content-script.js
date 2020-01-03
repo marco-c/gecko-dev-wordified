@@ -291,7 +291,7 @@ jsm
 ;
 Logger
 .
-debug
+info
 (
 '
 content
@@ -300,6 +300,11 @@ script
 .
 js
 '
+content
+.
+document
+.
+location
 )
 ;
 let
