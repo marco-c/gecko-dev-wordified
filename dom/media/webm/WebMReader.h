@@ -1074,7 +1074,7 @@ GetInitialFrame
 (
 )
 ;
-uint64_t
+int64_t
 GetLastVideoFrameTime
 (
 )
@@ -1082,7 +1082,7 @@ GetLastVideoFrameTime
 void
 SetLastVideoFrameTime
 (
-uint64_t
+int64_t
 aFrameTime
 )
 ;
@@ -1592,7 +1592,7 @@ timestamp
 In
 NS
 .
-uint64_t
+int64_t
 mLastVideoFrameTime
 ;
 /
