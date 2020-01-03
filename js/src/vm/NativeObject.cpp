@@ -9010,6 +9010,9 @@ id
 return
 true
 ;
+if
+(
+!
 PurgeProtoChain
 (
 cx
@@ -9021,6 +9024,9 @@ getProto
 )
 id
 )
+)
+return
+false
 ;
 /
 *
@@ -9203,14 +9209,8 @@ PurgeScopeChain
 ExclusiveContext
 *
 cx
-JS
-:
-:
 HandleObject
 obj
-JS
-:
-:
 HandleId
 id
 )
