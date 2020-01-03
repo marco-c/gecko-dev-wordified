@@ -482,15 +482,6 @@ ms
 /
 anonymous
 namespace
-const
-int
-BluetoothHfpManager
-:
-:
-MAX_NUM_CLIENTS
-=
-1
-;
 static
 bool
 IsValidDtmf
@@ -1576,10 +1567,6 @@ mInterface
 Init
 (
 hfpManager
-BluetoothHfpManager
-:
-:
-MAX_NUM_CLIENTS
 this
 )
 ;
@@ -3181,7 +3168,6 @@ VolumeControl
 (
 HFP_VOLUME_TYPE_SPEAKER
 mCurrentVgs
-mDeviceAddress
 new
 VolumeControlResultHandler
 (
@@ -3875,7 +3861,6 @@ mNumber
 aCall
 .
 mType
-mDeviceAddress
 new
 ClccResponseResultHandler
 (
@@ -3944,7 +3929,6 @@ sBluetoothHfpInterface
 FormattedAtResponse
 (
 aMessage
-mDeviceAddress
 new
 FormattedAtResponseResultHandler
 (
@@ -4012,7 +3996,6 @@ AtResponse
 (
 aResponseCode
 0
-mDeviceAddress
 new
 AtResponseResultHandler
 (
@@ -6507,10 +6490,6 @@ BluetoothHfpManager
 :
 AnswerCallNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -6537,10 +6516,6 @@ BluetoothHfpManager
 :
 HangupCallNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -6571,10 +6546,6 @@ BluetoothHandsfreeVolumeType
 aType
 int
 aVolume
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -6701,10 +6672,6 @@ DtmfNotification
 (
 char
 aDtmf
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -6753,10 +6720,6 @@ CallHoldNotification
 (
 BluetoothHandsfreeCallHoldType
 aChld
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -6857,10 +6820,6 @@ const
 nsAString
 &
 aNumber
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -7115,10 +7074,6 @@ BluetoothHfpManager
 :
 CnumNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 static
@@ -7276,10 +7231,6 @@ BluetoothHfpManager
 :
 CindNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -7338,7 +7289,6 @@ callState
 mSignal
 mRoam
 mBattChg
-aBdAddress
 new
 CindResponseResultHandler
 (
@@ -7390,10 +7340,6 @@ BluetoothHfpManager
 :
 CopsNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -7421,7 +7367,6 @@ mOperatorName
 get
 (
 )
-aBdAddress
 new
 CopsResponseResultHandler
 (
@@ -7435,10 +7380,6 @@ BluetoothHfpManager
 :
 ClccNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -7539,10 +7480,6 @@ const
 nsACString
 &
 aAtString
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
@@ -7582,10 +7519,6 @@ BluetoothHfpManager
 :
 KeyPressedNotification
 (
-const
-nsAString
-&
-aBdAddress
 )
 {
 MOZ_ASSERT
