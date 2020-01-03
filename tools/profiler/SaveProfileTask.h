@@ -285,6 +285,7 @@ char
 *
 aProfile
 )
+MOZ_OVERRIDE
 ;
 private
 :
