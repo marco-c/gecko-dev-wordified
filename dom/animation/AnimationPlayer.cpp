@@ -4491,7 +4491,7 @@ return
 manager
 -
 >
-GetAnimationPlayers
+GetAnimations
 (
 targetElement
 targetPseudoType

@@ -1256,7 +1256,7 @@ only
 implement
 Element
 .
-getAnimationPlayers
+getAnimations
 (
 )
 which
