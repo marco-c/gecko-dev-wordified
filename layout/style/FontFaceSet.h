@@ -1248,7 +1248,7 @@ CheckLoadingFinishedAfterDelay
 *
 Dispatches
 a
-CSSFontFaceLoadEvent
+FontFaceSetLoadEvent
 to
 this
 object
