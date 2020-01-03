@@ -921,6 +921,9 @@ abort
 if
 (
 _status
+&
+&
+sock
 )
 {
 void
