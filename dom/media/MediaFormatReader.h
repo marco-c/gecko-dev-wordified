@@ -252,8 +252,6 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
-bool
-aForceDecodeAhead
 )
 override
 ;
@@ -1023,10 +1021,6 @@ mDecodeAhead
 (
 aDecodeAhead
 )
-mForceDecodeAhead
-(
-false
-)
 mUpdateScheduled
 (
 false
@@ -1198,9 +1192,6 @@ queue
 .
 uint32_t
 mDecodeAhead
-;
-bool
-mForceDecodeAhead
 ;
 bool
 mUpdateScheduled
@@ -1497,10 +1488,6 @@ OnTaskQueue
 (
 )
 )
-;
-mForceDecodeAhead
-=
-false
 ;
 mDemuxEOS
 =

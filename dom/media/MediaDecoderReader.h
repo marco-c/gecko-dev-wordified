@@ -1153,8 +1153,6 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
-bool
-aForceDecodeAhead
 )
 ;
 friend
