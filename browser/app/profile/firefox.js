@@ -5255,7 +5255,7 @@ urlbar
 .
 unifiedcomplete
 "
-false
+true
 )
 ;
 /
