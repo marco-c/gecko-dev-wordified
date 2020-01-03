@@ -112,6 +112,20 @@ address
 )
 s
 "
+        
+"
+-
+-
+symbols
+-
+path
+=
+%
+(
+symbols_path
+)
+s
+"
     
 ]
     
@@ -181,6 +195,20 @@ homedir
 %
 (
 homedir
+)
+s
+"
+        
+"
+-
+-
+symbols
+-
+path
+=
+%
+(
+symbols_path
 )
 s
 "
