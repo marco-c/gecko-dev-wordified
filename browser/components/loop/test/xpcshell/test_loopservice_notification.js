@@ -146,11 +146,11 @@ mockPushHandler
 notify
 (
 1
-LoopCalls
+MozLoopService
 .
 channelIDs
 .
-Guest
+callsGuest
 )
 ;
 waitForCondition

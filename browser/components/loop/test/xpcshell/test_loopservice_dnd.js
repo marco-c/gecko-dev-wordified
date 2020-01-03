@@ -242,11 +242,11 @@ mockPushHandler
 notify
 (
 1
-LoopCalls
+MozLoopService
 .
 channelIDs
 .
-Guest
+callsGuest
 )
 ;
 waitForCondition
@@ -350,11 +350,11 @@ mockPushHandler
 notify
 (
 1
-LoopCalls
+MozLoopService
 .
 channelIDs
 .
-Guest
+callsGuest
 )
 ;
 do_timeout
