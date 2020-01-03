@@ -1848,7 +1848,7 @@ streams
 aStreamIndex
 for
 the
-given
+current
 time
 interval
 .
@@ -1892,10 +1892,6 @@ uint32_t
 aStreamIndex
 TrackRate
 aSampleRate
-GraphTime
-aFrom
-GraphTime
-aTo
 )
 ;
 /
