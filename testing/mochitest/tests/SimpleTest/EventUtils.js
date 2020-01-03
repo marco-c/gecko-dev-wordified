@@ -5632,10 +5632,13 @@ compositionstart
 "
 compositionend
 "
-or
 *
 "
 compositioncommitasis
+"
+or
+"
+compositioncommit
 "
 .
 *
