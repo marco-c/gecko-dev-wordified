@@ -4262,7 +4262,7 @@ AsyncCompositionManager
 SampleValue
 transform
 .
-ScalePost
+PostScale
 (
 1
 .

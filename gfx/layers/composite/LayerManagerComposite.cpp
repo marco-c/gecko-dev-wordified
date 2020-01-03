@@ -5480,7 +5480,7 @@ GetEffectiveTransform
 ;
 transform
 .
-ScalePost
+PostScale
 (
 metrics
 .
