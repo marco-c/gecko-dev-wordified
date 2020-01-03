@@ -292,7 +292,10 @@ _retval
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+NS_IMETHOD_
+(
+DrawResult
+)
 Draw
 (
 gfxContext
@@ -413,7 +416,7 @@ ShouldClip
 (
 )
 ;
-nsresult
+DrawResult
 DrawSingleTile
 (
 gfxContext

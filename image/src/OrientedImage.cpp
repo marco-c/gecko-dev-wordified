@@ -1441,7 +1441,10 @@ GetPreserveAspectRatio
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+DrawResult
+)
 OrientedImage
 :
 :

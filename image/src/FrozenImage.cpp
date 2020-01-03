@@ -335,7 +335,10 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+DrawResult
+)
 FrozenImage
 :
 :

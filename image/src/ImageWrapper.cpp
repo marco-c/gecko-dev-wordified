@@ -780,7 +780,10 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+DrawResult
+)
 ImageWrapper
 :
 :

@@ -2001,7 +2001,7 @@ spec
 }
 private
 :
-void
+DrawResult
 DrawWithPreDownscaleIfNeeded
 (
 DrawableFrameRef
