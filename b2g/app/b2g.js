@@ -3452,7 +3452,7 @@ draw
 .
 enabled
 "
-true
+false
 )
 ;
 pref
