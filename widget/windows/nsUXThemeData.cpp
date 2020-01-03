@@ -960,6 +960,11 @@ true
 if
 (
 sTitlebarInfoPopulatedThemed
+|
+|
+IsWin8OrLater
+(
+)
 )
 return
 ;
