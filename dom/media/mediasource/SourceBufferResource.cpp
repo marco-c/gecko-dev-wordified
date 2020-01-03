@@ -1147,6 +1147,9 @@ uint64_t
 aPlaybackOffset
 uint32_t
 aThreshold
+ErrorResult
+&
+aRv
 )
 {
 SBR_DEBUG
@@ -1185,6 +1188,7 @@ Evict
 (
 aPlaybackOffset
 aThreshold
+aRv
 )
 ;
 if
@@ -1231,6 +1235,9 @@ EvictBefore
 (
 uint64_t
 aOffset
+ErrorResult
+&
+aRv
 )
 {
 SBR_DEBUG
@@ -1281,6 +1288,7 @@ mInputBuffer
 EvictBefore
 (
 aOffset
+aRv
 )
 ;
 }

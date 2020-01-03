@@ -574,6 +574,9 @@ uint64_t
 aOffset
 uint32_t
 aSizeToEvict
+ErrorResult
+&
+aRv
 )
 {
 SBR_DEBUG
@@ -611,6 +614,7 @@ uint64_t
 )
 aSizeToEvict
 )
+aRv
 )
 ;
 }
@@ -622,6 +626,9 @@ EvictBefore
 (
 uint64_t
 aOffset
+ErrorResult
+&
+aRv
 )
 {
 SBR_DEBUG
@@ -737,6 +744,9 @@ data
 new
 MediaLargeByteBuffer
 ;
+if
+(
+!
 data
 -
 >
@@ -765,7 +775,19 @@ Length
 -
 offset
 )
+)
+{
+aRv
+.
+Throw
+(
+NS_ERROR_OUT_OF_MEMORY
+)
 ;
+return
+0
+;
+}
 item
 -
 >
