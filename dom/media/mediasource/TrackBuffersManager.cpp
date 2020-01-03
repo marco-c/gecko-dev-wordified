@@ -2570,6 +2570,7 @@ mInitData
 }
 RecreateParser
 (
+true
 )
 ;
 /
@@ -4415,12 +4416,9 @@ the
 old
 one
 .
-mInitData
-=
-nullptr
-;
 RecreateParser
 (
+false
 )
 ;
 }
@@ -7550,6 +7548,7 @@ EvictAll
 ;
 RecreateParser
 (
+true
 )
 ;
 /
@@ -8868,6 +8867,7 @@ NotifyDataRemoved
 ;
 RecreateParser
 (
+true
 )
 ;
 /
@@ -12449,6 +12449,8 @@ TrackBuffersManager
 :
 RecreateParser
 (
+bool
+aReuseInitData
 )
 {
 MOZ_ASSERT
@@ -12515,6 +12517,9 @@ mType
 ;
 if
 (
+aReuseInitData
+&
+&
 mInitData
 )
 {
