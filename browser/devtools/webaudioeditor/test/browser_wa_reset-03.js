@@ -257,7 +257,7 @@ start
 "
 )
 ;
-ise
+is
 (
 InspectorView
 .

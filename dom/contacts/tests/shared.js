@@ -1930,7 +1930,7 @@ v
 "
 )
 ;
-ise
+is
 (
 JSON
 .
@@ -2013,7 +2013,7 @@ false
 ;
 }
 }
-ise
+is
 (
 !
 !
@@ -2516,7 +2516,7 @@ msg
 return
 ;
 }
-ise
+is
 (
 array1
 .

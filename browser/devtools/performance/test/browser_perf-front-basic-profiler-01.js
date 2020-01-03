@@ -123,7 +123,7 @@ model
 "
 )
 ;
-ise
+is
 (
 startModel
 .

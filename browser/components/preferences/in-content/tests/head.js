@@ -380,7 +380,7 @@ load
 load
 )
 ;
-ise
+is
 (
 content
 .
@@ -502,7 +502,7 @@ i
 ;
 }
 }
-ise
+is
 (
 expectedStyleSheetURLs
 .

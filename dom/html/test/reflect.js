@@ -2436,7 +2436,7 @@ object
 "
 )
 ;
-ise
+is
 (
 element
 [
@@ -2556,7 +2556,7 @@ removeAttribute
 contentAttr
 )
 ;
-ise
+is
 (
 element
 [
@@ -2603,7 +2603,7 @@ contentAttr
 v
 )
 ;
-ise
+is
 (
 element
 [
@@ -2631,7 +2631,7 @@ for
 idlAttr
 )
 ;
-ise
+is
 (
 element
 .
@@ -2675,7 +2675,7 @@ toUpperCase
 )
 )
 ;
-ise
+is
 (
 element
 [
@@ -2694,7 +2694,7 @@ insensitive
 "
 )
 ;
-ise
+is
 (
 element
 .
@@ -2734,7 +2734,7 @@ idlAttr
 =
 v
 ;
-ise
+is
 (
 element
 [
@@ -2762,7 +2762,7 @@ for
 idlAttr
 )
 ;
-ise
+is
 (
 element
 .
@@ -2805,7 +2805,7 @@ toUpperCase
 (
 )
 ;
-ise
+is
 (
 element
 [
@@ -2824,7 +2824,7 @@ insensitive
 "
 )
 ;
-ise
+is
 (
 element
 .
@@ -2883,7 +2883,7 @@ contentAttr
 v
 )
 ;
-ise
+is
 (
 element
 [
@@ -2911,7 +2911,7 @@ returned
 "
 )
 ;
-ise
+is
 (
 element
 .
@@ -2946,7 +2946,7 @@ idlAttr
 =
 v
 ;
-ise
+is
 (
 element
 [
@@ -2973,7 +2973,7 @@ returned
 "
 )
 ;
-ise
+is
 (
 element
 .
@@ -3314,7 +3314,7 @@ if
 nullable
 )
 {
-ise
+is
 (
 defaultValueMissing
 null

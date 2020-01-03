@@ -80,7 +80,7 @@ login
 "
 )
 ;
-ise
+is
 (
 err
 .
@@ -93,7 +93,7 @@ code
 "
 )
 ;
-ise
+is
 (
 err
 .
@@ -110,7 +110,7 @@ friendlyMessage
 "
 )
 ;
-ise
+is
 (
 err
 .
@@ -127,7 +127,7 @@ friendlyDetails
 "
 )
 ;
-ise
+is
 (
 err
 .
@@ -539,7 +539,7 @@ params
 )
 )
 {
-ise
+is
 (
 client
 .
@@ -598,7 +598,7 @@ client_id
 length
 )
 ;
-ise
+is
 (
 Services
 .
@@ -706,7 +706,7 @@ promiseFxAOAuthClient
 (
 )
 ;
-ise
+is
 (
 client1
 client2
@@ -977,7 +977,7 @@ LOOP_SESSION_TYPE
 FXA
 )
 ;
-ise
+is
 (
 Services
 .
@@ -2354,7 +2354,7 @@ logInToFxA
 yield
 statusChangedPromise
 ;
-ise
+is
 (
 tokenData
 .
@@ -2368,7 +2368,7 @@ access_token
 "
 )
 ;
-ise
+is
 (
 tokenData
 .
@@ -2382,7 +2382,7 @@ scope
 "
 )
 ;
-ise
+is
 (
 tokenData
 .
@@ -2500,7 +2500,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -2530,7 +2530,7 @@ URL
 "
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -2668,7 +2668,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -2832,7 +2832,7 @@ error
 =
 >
 {
-ise
+is
 (
 error
 .
@@ -2951,7 +2951,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -3054,7 +3054,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -3169,7 +3169,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -3217,7 +3217,7 @@ promiseOAuthGetRegistration
 BASE_URL
 )
 ;
-ise
+is
 (
 registrationResponse
 .
@@ -3341,7 +3341,7 @@ error
 =
 >
 {
-ise
+is
 (
 error
 .

@@ -133,7 +133,7 @@ makeRemote
 (
 )
 ;
-ise
+is
 (
 target
 .
@@ -158,7 +158,7 @@ exists
 "
 )
 ;
-ise
+is
 (
 target
 .
@@ -183,7 +183,7 @@ exists
 "
 )
 ;
-ise
+is
 (
 target
 .
@@ -248,7 +248,7 @@ webaudio
 "
 )
 ;
-ise
+is
 (
 desc
 .
@@ -271,7 +271,7 @@ actor
 "
 )
 ;
-ise
+is
 (
 desc
 .
@@ -318,7 +318,7 @@ nope
 "
 )
 ;
-ise
+is
 (
 desc
 undefined
@@ -347,7 +347,7 @@ getActorDescription
 (
 )
 ;
-ise
+is
 (
 desc
 undefined
@@ -381,7 +381,7 @@ getType
 "
 )
 ;
-ise
+is
 (
 hasMethod
 true
@@ -416,7 +416,7 @@ nope
 "
 )
 ;
-ise
+is
 (
 hasMethod
 false
@@ -452,7 +452,7 @@ nope
 "
 )
 ;
-ise
+is
 (
 hasMethod
 false
@@ -484,7 +484,7 @@ actorHasMethod
 (
 )
 ;
-ise
+is
 (
 hasMethod
 false
@@ -502,7 +502,7 @@ params
 "
 )
 ;
-ise
+is
 (
 target
 .
@@ -527,7 +527,7 @@ exists
 "
 )
 ;
-ise
+is
 (
 target
 .

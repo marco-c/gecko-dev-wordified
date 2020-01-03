@@ -126,7 +126,7 @@ countGraphObjects
 panelWin
 )
 ;
-ise
+is
 (
 nodes
 3
@@ -140,7 +140,7 @@ nodes
 "
 )
 ;
-ise
+is
 (
 edges
 2
@@ -199,7 +199,7 @@ panelWin
 )
 )
 ;
-ise
+is
 (
 nodes
 3
@@ -215,7 +215,7 @@ nodes
 "
 )
 ;
-ise
+is
 (
 edges
 2

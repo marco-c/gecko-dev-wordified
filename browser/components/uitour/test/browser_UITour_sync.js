@@ -349,7 +349,7 @@ onload
 true
 )
 ;
-ise
+is
 (
 tabBrowser
 .

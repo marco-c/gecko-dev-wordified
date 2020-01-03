@@ -3147,7 +3147,7 @@ fail
 }
 }
 ;
-ise
+is
 (
 SpecialPowers
 .

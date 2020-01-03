@@ -121,7 +121,7 @@ typeof
 freq
 )
 ;
-ise
+is
 (
 freq
 440
@@ -148,7 +148,7 @@ type
 "
 )
 ;
-ise
+is
 (
 type
 "
@@ -240,7 +240,7 @@ frequency
 "
 )
 ;
-ise
+is
 (
 freq
 220
@@ -300,7 +300,7 @@ type
 "
 )
 ;
-ise
+is
 (
 type
 "
@@ -443,7 +443,7 @@ frequency
 "
 )
 ;
-ise
+is
 (
 freq
 220

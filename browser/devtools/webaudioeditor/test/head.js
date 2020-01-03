@@ -2288,7 +2288,7 @@ description
 }
 else
 {
-ise
+is
 (
 value
 hash

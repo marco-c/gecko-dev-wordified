@@ -174,7 +174,7 @@ executeSoon
 =
 >
 {
-ise
+is
 (
 highlight
 .
@@ -193,7 +193,7 @@ set
 "
 )
 ;
-ise
+is
 (
 highlight
 .
@@ -313,7 +313,7 @@ executeSoon
 =
 >
 {
-ise
+is
 (
 tooltip
 .
@@ -332,7 +332,7 @@ set
 "
 )
 ;
-ise
+is
 (
 tooltip
 .
