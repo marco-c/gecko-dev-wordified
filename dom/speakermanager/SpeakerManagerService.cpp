@@ -413,7 +413,7 @@ uint64_t
 aChildId
 )
 {
-TuruOnSpeaker
+TurnOnSpeaker
 (
 aEnable
 )
@@ -457,7 +457,7 @@ main
 process
 without
 oop
-TuruOnSpeaker
+TurnOnSpeaker
 (
 aEnable
 &
@@ -482,7 +482,7 @@ void
 SpeakerManagerService
 :
 :
-TuruOnSpeaker
+TurnOnSpeaker
 (
 bool
 aOn
@@ -905,7 +905,7 @@ childID
 )
 )
 {
-TuruOnSpeaker
+TurnOnSpeaker
 (
 false
 )
@@ -923,7 +923,7 @@ if
 mOrgSpeakerStatus
 )
 {
-TuruOnSpeaker
+TurnOnSpeaker
 (
 !
 mOrgSpeakerStatus
