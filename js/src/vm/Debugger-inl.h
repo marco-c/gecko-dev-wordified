@@ -299,6 +299,7 @@ Debugger
 :
 fromJSObject
 (
+const
 JSObject
 *
 obj
