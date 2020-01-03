@@ -404,8 +404,6 @@ prototype
 "
 next
 "
-and
-iterator
 arraysEqual
 (
 Object
@@ -418,18 +416,7 @@ iterProto
 sort
 (
 )
-JS_HAS_SYMBOLS
-?
 [
-"
-next
-"
-]
-:
-[
-"
-iterator
-"
 "
 next
 "
