@@ -252,16 +252,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-/
-/
-DOMCI_DATA
-#
-include
-"
 mozilla
 /
 CORSMode

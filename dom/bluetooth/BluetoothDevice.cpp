@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsTArrayHelpers
 .
 h
@@ -198,11 +191,6 @@ ScriptSettings
 h
 "
 USING_BLUETOOTH_NAMESPACE
-DOMCI_DATA
-(
-BluetoothDevice
-BluetoothDevice
-)
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 BluetoothDevice

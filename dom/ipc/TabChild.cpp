@@ -710,6 +710,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 nsColorPickerProxy
 .
 h
