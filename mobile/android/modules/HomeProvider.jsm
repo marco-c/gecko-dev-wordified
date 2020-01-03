@@ -1451,7 +1451,6 @@ Task
 spawn
 (
 function
-*
 create_database_task
 (
 )
@@ -1499,7 +1498,6 @@ Task
 spawn
 (
 function
-*
 upgrade_database_task
 (
 )
@@ -1664,7 +1662,6 @@ Task
 spawn
 (
 function
-*
 get_database_connection_task
 (
 )
@@ -2275,7 +2272,6 @@ Task
 spawn
 (
 function
-*
 save_task
 (
 )
@@ -2296,7 +2292,6 @@ db
 executeTransaction
 (
 function
-*
 save_transaction
 (
 )
@@ -2505,7 +2500,6 @@ Task
 spawn
 (
 function
-*
 delete_all_task
 (
 )
