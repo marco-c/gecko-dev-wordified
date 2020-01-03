@@ -1706,10 +1706,9 @@ ts
 LifoAlloc
 &
 alloc
-InternalHandle
+MutableHandle
 <
 Bindings
-*
 >
 bindings
 )
