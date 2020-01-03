@@ -624,6 +624,16 @@ double
 aEnd
 )
 ;
+bool
+IsActive
+(
+)
+const
+{
+return
+mActive
+;
+}
 #
 if
 defined
@@ -937,6 +947,9 @@ mAppendMode
 ;
 bool
 mUpdating
+;
+bool
+mActive
 ;
 /
 /
