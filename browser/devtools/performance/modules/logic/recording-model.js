@@ -590,7 +590,7 @@ with
 data
 from
 the
-SharedPerformanceConnection
+PerformanceFront
 when
 *
 starting
@@ -602,7 +602,7 @@ only
 be
 called
 by
-SharedPerformanceConnection
+PerformanceFront
 .
 *
 /
@@ -908,7 +908,7 @@ stopping
 a
 recording
 from
-SharedPerformanceConnection
+PerformanceFront
 .
 *
 Should
@@ -916,7 +916,7 @@ only
 be
 called
 by
-SharedPerformanceConnection
+PerformanceFront
 .
 *
 /

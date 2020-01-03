@@ -35,7 +35,7 @@ Tests
 if
 the
 shared
-PerformanceActorsConnection
+PerformanceFront
 is
 only
 opened

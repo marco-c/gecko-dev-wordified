@@ -1871,7 +1871,7 @@ and
 exposes
 *
 to
-PerformanceActorsConnection
+PerformanceFront
 as
 a
 single

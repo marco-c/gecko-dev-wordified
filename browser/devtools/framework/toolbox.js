@@ -14653,8 +14653,7 @@ Disconnects
 the
 underlying
 Performance
-Actor
-Connection
+actor
 .
 If
 the
