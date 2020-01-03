@@ -392,9 +392,7 @@ mozapp
 principal
 .
 isInBrowserElement
-app
-.
-installerIsBrowser
+false
 "
 app
 principal
