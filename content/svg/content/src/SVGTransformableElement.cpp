@@ -1527,7 +1527,7 @@ nsIDocument
 *
 currentDoc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1620,7 +1620,7 @@ nsIDocument
 *
 currentDoc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

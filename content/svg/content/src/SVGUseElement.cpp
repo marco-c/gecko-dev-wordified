@@ -1893,7 +1893,7 @@ nsIDocument
 *
 document
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -2760,7 +2760,7 @@ getter_AddRefs
 targetURI
 )
 href
-GetCurrentDoc
+GetComposedDoc
 (
 )
 baseURI
@@ -2787,7 +2787,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

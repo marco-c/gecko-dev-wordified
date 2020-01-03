@@ -1461,7 +1461,7 @@ for
 a
 call
 to
-GetCurrentDoc
+GetComposedDoc
 (
 )
 and

@@ -278,7 +278,7 @@ doc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

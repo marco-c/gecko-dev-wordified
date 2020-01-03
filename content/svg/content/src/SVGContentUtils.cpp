@@ -2688,7 +2688,7 @@ currentDoc
 aElement
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
