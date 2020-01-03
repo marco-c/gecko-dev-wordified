@@ -14658,6 +14658,7 @@ size_t
 N
 >
 class
+MOZ_NON_MEMMOVABLE
 nsAutoArrayBase
 :
 public
