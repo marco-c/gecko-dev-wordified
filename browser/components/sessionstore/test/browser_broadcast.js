@@ -487,6 +487,12 @@ window
 tab
 )
 ;
+yield
+promiseTabRestored
+(
+tab2
+)
+;
 let
 {
 storage
@@ -535,12 +541,6 @@ when
 duplicating
 tabs
 "
-)
-;
-yield
-promiseTabRestored
-(
-tab2
 )
 ;
 yield
