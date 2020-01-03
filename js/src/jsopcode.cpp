@@ -1258,7 +1258,7 @@ counts
 script
 -
 >
-getPCCounts
+maybeGetPCCounts
 (
 pc
 )
@@ -11204,7 +11204,7 @@ counts
 =
 sac
 .
-getPCCounts
+maybeGetPCCounts
 (
 pc
 )
@@ -11829,7 +11829,7 @@ counts
 =
 sac
 .
-getPCCounts
+maybeGetPCCounts
 (
 pc
 )

@@ -260,6 +260,14 @@ pcCountsVector
 fop
 -
 >
+free_
+(
+throwCountsVector
+)
+;
+fop
+-
+>
 delete_
 (
 ionCounts
