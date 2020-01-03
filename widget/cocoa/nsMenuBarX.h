@@ -880,6 +880,11 @@ ConstructNativeMenus
 (
 )
 ;
+void
+ConstructFallbackNativeMenus
+(
+)
+;
 nsresult
 InsertMenuAtIndex
 (
