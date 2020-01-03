@@ -226,6 +226,10 @@ InputMethodManager
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
