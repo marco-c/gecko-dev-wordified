@@ -1266,7 +1266,7 @@ do_get_profile
 (
 )
 ;
-createAppInfo
+loadAddonManager
 (
 "
 xpcshell
