@@ -8379,6 +8379,12 @@ hasAnyIonScript
 &
 &
 !
+hasScriptCounts
+(
+)
+&
+&
+!
 doNotRelazify_
 ;
 }
