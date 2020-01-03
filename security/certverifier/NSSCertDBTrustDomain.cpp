@@ -374,7 +374,7 @@ pinArg
 CertVerifier
 :
 :
-ocsp_get_config
+OcspGetConfig
 ocspGETConfig
 CertVerifier
 :
@@ -4065,7 +4065,7 @@ mOCSPGetConfig
 CertVerifier
 :
 :
-ocsp_get_enabled
+ocspGetEnabled
 )
 ;
 if
