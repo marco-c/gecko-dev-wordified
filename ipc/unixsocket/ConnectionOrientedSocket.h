@@ -142,9 +142,6 @@ ipc
 class
 UnixSocketConnector
 ;
-union
-sockaddr_any
-;
 /
 *
 *
@@ -205,12 +202,12 @@ Accept
 int
 aFd
 const
-union
-sockaddr_any
+struct
+sockaddr
 *
-aAddr
+aAddress
 socklen_t
-aAddrLen
+aAddressLength
 )
 =
 0

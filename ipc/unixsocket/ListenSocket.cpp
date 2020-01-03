@@ -1025,8 +1025,8 @@ Accept
 fd
 reinterpret_cast
 <
-union
-sockaddr_any
+struct
+sockaddr
 *
 >
 (

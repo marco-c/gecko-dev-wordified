@@ -122,6 +122,15 @@ define
 mozilla_dom_bluetooth_BluetoothUnixSocketConnector_h
 #
 include
+<
+bluetooth
+/
+bluetooth
+.
+h
+>
+#
+include
 "
 BluetoothCommon
 .
