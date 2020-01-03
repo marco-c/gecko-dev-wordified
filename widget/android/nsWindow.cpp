@@ -11553,6 +11553,8 @@ Gecko
 side
 if
 (
+!
+!
 GetIMEComposition
 (
 )
