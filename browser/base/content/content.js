@@ -4274,6 +4274,7 @@ pageload
 .
 }
 }
+}
 json
 .
 noReferrer
@@ -4284,7 +4285,6 @@ linkHasNoReferrer
 (
 node
 )
-}
 sendAsyncMessage
 (
 "
