@@ -4596,6 +4596,11 @@ IPCOpen
 const
 {
 return
+HasShadowManager
+(
+)
+&
+&
 mShadowManager
 -
 >
@@ -4615,6 +4620,12 @@ const
 {
 if
 (
+!
+HasShadowManager
+(
+)
+|
+|
 !
 mShadowManager
 -
