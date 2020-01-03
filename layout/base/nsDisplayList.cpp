@@ -8376,7 +8376,7 @@ WarnOnceAbout
 nsIDocument
 :
 :
-eWillChangeBudget
+eWillChangeOverBudgetIgnored
 false
 params
 ArrayLength
