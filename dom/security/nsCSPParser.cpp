@@ -3056,9 +3056,9 @@ section
 3
 if
 (
-!
-hostChar
+peek
 (
+SLASH
 )
 )
 {
