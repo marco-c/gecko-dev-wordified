@@ -4469,7 +4469,7 @@ idx
 nsIAccessible
 )
 ;
-ok
+isObject
 (
 actualRowHeaderCell
 rowHeaderCell
@@ -4490,13 +4490,7 @@ the
 cell
 "
 +
-prettyName
-(
-rowHeaderCells
-[
-idx
-]
-)
+dataCellIdentifier
 )
 ;
 }
@@ -4605,7 +4599,7 @@ idx
 nsIAccessible
 )
 ;
-ok
+isObject
 (
 actualColHeaderCell
 colHeaderCell
@@ -4626,13 +4620,7 @@ the
 cell
 "
 +
-prettyName
-(
-colHeaderCells
-[
-idx
-]
-)
+dataCellIdentifier
 )
 ;
 }
