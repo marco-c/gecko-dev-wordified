@@ -384,8 +384,6 @@ virtual
 void
 Play
 (
-UpdateFlags
-aUpdateFlags
 )
 MOZ_OVERRIDE
 ;
@@ -393,8 +391,6 @@ virtual
 void
 Pause
 (
-UpdateFlags
-aUpdateFlags
 )
 MOZ_OVERRIDE
 ;
