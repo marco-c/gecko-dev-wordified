@@ -593,10 +593,7 @@ index
 if
 (
 !
-baseops
-:
-:
-GetProperty
+NativeGetProperty
 (
 cx
 arr
@@ -639,10 +636,7 @@ input
 if
 (
 !
-baseops
-:
-:
-GetProperty
+NativeGetProperty
 (
 cx
 arr

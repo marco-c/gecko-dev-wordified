@@ -3795,7 +3795,7 @@ JSPROP_PERMANENT
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 fun

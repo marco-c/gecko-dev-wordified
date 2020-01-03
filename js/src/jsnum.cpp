@@ -7680,7 +7680,7 @@ ES5
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 global
@@ -7702,7 +7702,7 @@ JSPROP_READONLY
 |
 |
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 global

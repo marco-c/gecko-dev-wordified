@@ -55509,7 +55509,7 @@ PlainObject
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj

@@ -15692,7 +15692,7 @@ done
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj
@@ -15711,7 +15711,7 @@ false
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj
@@ -46294,7 +46294,7 @@ UndefinedValue
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj

@@ -6545,7 +6545,7 @@ value
 |
 |
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj
@@ -6967,7 +6967,7 @@ get
 if
 (
 !
-NativeGet
+NativeGetExistingProperty
 (
 cx
 obj
@@ -38876,7 +38876,7 @@ fargc
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 argsobj
@@ -38984,7 +38984,7 @@ getobj
 |
 |
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 argsobj
@@ -41227,7 +41227,7 @@ val
 |
 |
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 nenv

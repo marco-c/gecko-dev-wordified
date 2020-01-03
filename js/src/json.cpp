@@ -4777,7 +4777,7 @@ empty
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 wrapper

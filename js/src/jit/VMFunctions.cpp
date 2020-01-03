@@ -1524,7 +1524,7 @@ name
 )
 ;
 return
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj
@@ -3294,10 +3294,7 @@ setProperty
 )
 {
 return
-baseops
-:
-:
-SetPropertyHelper
+NativeSetProperty
 (
 cx
 obj
@@ -3342,13 +3339,7 @@ op
 JSOP_STRICTSETGNAME
 )
 ?
-baseops
-:
-:
 Unqualified
-:
-baseops
-:
 :
 Qualified
 &

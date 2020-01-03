@@ -1908,7 +1908,7 @@ else
 if
 (
 !
-NativeGet
+NativeGetExistingProperty
 (
 cx
 normalized
@@ -2391,7 +2391,7 @@ do
 this
 we
 call
-SetPropertyHelper
+NativeSetProperty
 *
 directly
 and
@@ -2435,10 +2435,7 @@ name
 )
 ;
 return
-baseops
-:
-:
-SetPropertyHelper
+NativeSetProperty
 (
 cx
 scope
@@ -2458,9 +2455,6 @@ NativeObject
 (
 )
 id
-baseops
-:
-:
 Unqualified
 &
 valCopy

@@ -4592,10 +4592,7 @@ Int32Value
 if
 (
 !
-baseops
-:
-:
-DefineProperty
+NativeDefineProperty
 (
 cx
 templateObject
@@ -4651,10 +4648,7 @@ emptyString
 if
 (
 !
-baseops
-:
-:
-DefineProperty
+NativeDefineProperty
 (
 cx
 templateObject

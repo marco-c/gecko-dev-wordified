@@ -8390,12 +8390,9 @@ unsigned
 errorNumber
 )
 ;
-namespace
-baseops
-{
 extern
 bool
-Watch
+NativeWatch
 (
 JSContext
 *
@@ -8419,7 +8416,7 @@ callable
 ;
 extern
 bool
-Unwatch
+NativeUnwatch
 (
 JSContext
 *
@@ -8436,13 +8433,6 @@ HandleId
 id
 )
 ;
-}
-/
-*
-namespace
-baseops
-*
-/
 }
 /
 *

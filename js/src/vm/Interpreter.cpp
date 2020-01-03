@@ -2122,10 +2122,7 @@ setProperty
 if
 (
 !
-baseops
-:
-:
-SetPropertyHelper
+NativeSetProperty
 (
 cx
 obj
@@ -2145,9 +2142,6 @@ NativeObject
 (
 )
 id
-baseops
-:
-:
 Qualified
 rref
 strict
@@ -19565,7 +19559,7 @@ name
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj

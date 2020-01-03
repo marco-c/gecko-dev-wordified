@@ -4171,7 +4171,7 @@ value
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj

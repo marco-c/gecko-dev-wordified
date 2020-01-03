@@ -7085,7 +7085,7 @@ fun
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 obj

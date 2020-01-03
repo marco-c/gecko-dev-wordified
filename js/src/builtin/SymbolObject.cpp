@@ -590,7 +590,7 @@ i
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 ctor

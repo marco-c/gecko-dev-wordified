@@ -19760,10 +19760,7 @@ toGMTString
 )
 ;
 return
-baseops
-:
-:
-GetProperty
+NativeGetProperty
 (
 cx
 proto
@@ -19780,10 +19777,7 @@ toUTCStringFun
 )
 &
 &
-baseops
-:
-:
-DefineGeneric
+NativeDefineProperty
 (
 cx
 proto
