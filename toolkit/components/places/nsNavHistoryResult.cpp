@@ -16721,10 +16721,6 @@ Count
 &
 &
 mHasSearchTerms
-&
-&
-!
-mRemovingURI
 )
 {
 /
@@ -17125,10 +17121,6 @@ nsACString
 aParentGUID
 )
 {
-mRemovingURI
-=
-aURI
-;
 if
 (
 aItemType
