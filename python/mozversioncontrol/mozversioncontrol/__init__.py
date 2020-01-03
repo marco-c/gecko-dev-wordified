@@ -68,7 +68,7 @@ distutils
 .
 version
 import
-StrictVersion
+LooseVersion
 def
 get_hg_version
 (
@@ -172,7 +172,7 @@ version
 )
     
 return
-StrictVersion
+LooseVersion
 (
 match
 .
