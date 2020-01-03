@@ -190,6 +190,10 @@ std
 string
 ;
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :
