@@ -1569,6 +1569,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvLoadProcessScript
+(
+const
+nsString
+&
+aURL
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvAsyncMessage
 (
 const

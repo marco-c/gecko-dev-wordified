@@ -217,6 +217,10 @@ ContentFrameMessageManager
 )
 DOMCI_CLASS
 (
+ContentProcessMessageManager
+)
+DOMCI_CLASS
+(
 ChromeMessageBroadcaster
 )
 DOMCI_CLASS

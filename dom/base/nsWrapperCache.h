@@ -189,6 +189,9 @@ dom
 class
 TabChildGlobal
 ;
+class
+ProcessGlobal
+;
 }
 /
 /
@@ -1536,6 +1539,16 @@ dom
 :
 :
 TabChildGlobal
+;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+ProcessGlobal
 ;
 friend
 class
