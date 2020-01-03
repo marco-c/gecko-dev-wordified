@@ -2845,7 +2845,6 @@ timeouts
 *
 /
 static
-MFBT_API
 TimeStamp
 Now
 (
@@ -2859,7 +2858,6 @@ true
 ;
 }
 static
-MFBT_API
 TimeStamp
 NowLoRes
 (
