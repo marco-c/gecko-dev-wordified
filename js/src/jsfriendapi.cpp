@@ -4712,14 +4712,6 @@ isString
 "
 "
 value
-?
-value
-:
-"
-?
-unknown
-?
-"
 arg
 .
 isString
