@@ -7973,9 +7973,6 @@ Canonical
 <
 PlayState
 >
-:
-:
-Holder
 mPlayState
 ;
 /
@@ -8044,9 +8041,6 @@ Canonical
 <
 PlayState
 >
-:
-:
-Holder
 mNextState
 ;
 public
