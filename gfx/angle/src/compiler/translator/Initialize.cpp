@@ -5428,7 +5428,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 depthRangeParameters
 )
 ;
@@ -5464,7 +5463,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 depthRange
 )
 ;
@@ -5703,7 +5701,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5728,7 +5725,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5753,7 +5749,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -5812,7 +5807,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5837,7 +5831,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5872,7 +5865,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5920,7 +5912,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5945,7 +5936,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (
@@ -5977,7 +5967,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -6002,7 +5991,6 @@ symbolTable
 insert
 (
 COMMON_BUILTINS
-*
 new
 TVariable
 (
@@ -6880,7 +6868,6 @@ symbolTable
 insert
 (
 ESSL1_BUILTINS
-*
 new
 TVariable
 (

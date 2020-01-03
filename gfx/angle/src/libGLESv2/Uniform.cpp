@@ -97,6 +97,9 @@ const
 int
 blockIndex
 const
+sh
+:
+:
 BlockMemberInfo
 &
 blockInfo
@@ -347,7 +350,7 @@ GL_STRUCT_ANGLEX
 )
 ;
 return
-UniformInternalSize
+VariableInternalSize
 (
 type
 )
