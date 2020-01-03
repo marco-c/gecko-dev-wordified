@@ -441,7 +441,9 @@ SetStateMachineParameters
 )
 ;
 return
-NS_OK
+ScheduleStateMachineThread
+(
+)
 ;
 }
 nsresult
