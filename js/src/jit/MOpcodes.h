@@ -419,11 +419,6 @@ GetDynamicName
 \
 _
 (
-FilterArgumentsOrEval
-)
-\
-_
-(
 CallDirectEval
 )
 \
