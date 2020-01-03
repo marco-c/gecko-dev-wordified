@@ -567,6 +567,13 @@ _device_ready_retry_attempts
 )
 :
             
+failure
+=
+'
+Unknown
+failure
+'
+            
 success
 =
 True
@@ -574,7 +581,8 @@ True
 try
 :
                 
-if
+state
+=
 self
 .
 get_state
@@ -583,12 +591,27 @@ timeout
 =
 timeout
 )
+                
+if
+state
 !
 =
 '
 device
 '
 :
+                    
+failure
+=
+"
+Device
+state
+:
+%
+s
+"
+%
+state
                     
 success
 =
@@ -689,6 +712,10 @@ in
 data
 :
                             
+failure
+=
+data
+                            
 success
 =
 False
@@ -704,7 +731,7 @@ success
 =
 False
                 
-data
+failure
 =
 e
 .
@@ -745,7 +772,7 @@ self
 .
 _device_ready_retry_attempts
                     
-data
+failure
 )
 )
                 
