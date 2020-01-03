@@ -381,10 +381,10 @@ void
 *
 ptr
 =
-X86Assembler
+X86Encoding
 :
 :
-getPointerRef
+GetPointerRef
 (
 buffer
 +

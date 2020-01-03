@@ -166,10 +166,10 @@ Register
 rax
 =
 {
-X86Registers
+X86Encoding
 :
 :
-eax
+rax
 }
 ;
 static
@@ -178,10 +178,10 @@ Register
 rbx
 =
 {
-X86Registers
+X86Encoding
 :
 :
-ebx
+rbx
 }
 ;
 static
@@ -190,10 +190,10 @@ Register
 rcx
 =
 {
-X86Registers
+X86Encoding
 :
 :
-ecx
+rcx
 }
 ;
 static
@@ -202,10 +202,10 @@ Register
 rdx
 =
 {
-X86Registers
+X86Encoding
 :
 :
-edx
+rdx
 }
 ;
 static
@@ -214,10 +214,10 @@ Register
 rsi
 =
 {
-X86Registers
+X86Encoding
 :
 :
-esi
+rsi
 }
 ;
 static
@@ -226,10 +226,10 @@ Register
 rdi
 =
 {
-X86Registers
+X86Encoding
 :
 :
-edi
+rdi
 }
 ;
 static
@@ -238,10 +238,10 @@ Register
 rbp
 =
 {
-X86Registers
+X86Encoding
 :
 :
-ebp
+rbp
 }
 ;
 static
@@ -250,7 +250,7 @@ Register
 r8
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r8
@@ -262,7 +262,7 @@ Register
 r9
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r9
@@ -274,7 +274,7 @@ Register
 r10
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r10
@@ -286,7 +286,7 @@ Register
 r11
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r11
@@ -298,7 +298,7 @@ Register
 r12
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r12
@@ -310,7 +310,7 @@ Register
 r13
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r13
@@ -322,7 +322,7 @@ Register
 r14
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r14
@@ -334,7 +334,7 @@ Register
 r15
 =
 {
-X86Registers
+X86Encoding
 :
 :
 r15
@@ -346,10 +346,10 @@ Register
 rsp
 =
 {
-X86Registers
+X86Encoding
 :
 :
-esp
+rsp
 }
 ;
 static
@@ -358,7 +358,7 @@ FloatRegister
 xmm0
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm0
@@ -370,7 +370,7 @@ FloatRegister
 xmm1
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm1
@@ -382,7 +382,7 @@ FloatRegister
 xmm2
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm2
@@ -394,7 +394,7 @@ FloatRegister
 xmm3
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm3
@@ -406,7 +406,7 @@ FloatRegister
 xmm4
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm4
@@ -418,7 +418,7 @@ FloatRegister
 xmm5
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm5
@@ -430,7 +430,7 @@ FloatRegister
 xmm6
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm6
@@ -442,7 +442,7 @@ FloatRegister
 xmm7
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm7
@@ -454,7 +454,7 @@ FloatRegister
 xmm8
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm8
@@ -466,7 +466,7 @@ FloatRegister
 xmm9
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm9
@@ -478,7 +478,7 @@ FloatRegister
 xmm10
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm10
@@ -490,7 +490,7 @@ FloatRegister
 xmm11
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm11
@@ -502,7 +502,7 @@ FloatRegister
 xmm12
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm12
@@ -514,7 +514,7 @@ FloatRegister
 xmm13
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm13
@@ -526,7 +526,7 @@ FloatRegister
 xmm14
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm14
@@ -538,7 +538,7 @@ FloatRegister
 xmm15
 =
 {
-X86Registers
+X86Encoding
 :
 :
 xmm15
@@ -613,7 +613,7 @@ Register
 InvalidReg
 =
 {
-X86Registers
+X86Encoding
 :
 :
 invalid_reg
@@ -625,7 +625,7 @@ FloatRegister
 InvalidFloatReg
 =
 {
-X86Registers
+X86Encoding
 :
 :
 invalid_xmm
@@ -5474,7 +5474,7 @@ jCC
 (
 static_cast
 <
-X86Assembler
+X86Encoding
 :
 :
 Condition
@@ -5850,10 +5850,10 @@ label
 {
 if
 (
-X86Assembler
+X86Encoding
 :
 :
-canRelinkJump
+CanRelinkJump
 (
 jump
 .
@@ -5868,10 +5868,10 @@ raw
 )
 )
 {
-X86Assembler
+X86Encoding
 :
 :
-setRel32
+SetRel32
 (
 jump
 .
@@ -5888,10 +5888,10 @@ raw
 }
 else
 {
-X86Assembler
+X86Encoding
 :
 :
-setRel32
+SetRel32
 (
 jump
 .

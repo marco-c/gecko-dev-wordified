@@ -397,10 +397,10 @@ jumps_
 i
 ]
 ;
-X86Assembler
+X86Encoding
 :
 :
-setRel32
+SetRel32
 (
 buffer
 +
@@ -498,10 +498,10 @@ target
 uint8_t
 *
 )
-X86Assembler
+X86Encoding
 :
 :
-getRel32Target
+GetRel32Target
 (
 jump
 )
