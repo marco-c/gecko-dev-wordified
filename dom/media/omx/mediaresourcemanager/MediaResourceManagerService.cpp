@@ -1020,12 +1020,10 @@ type
 return
 ;
 }
-const
 sp
 <
 IBinder
 >
-&
 req
 =
 mResources
@@ -1786,12 +1784,10 @@ size
 )
 ;
 }
-const
 sp
 <
 IBinder
 >
-&
 MediaResourceManagerService
 :
 :
@@ -2015,7 +2011,7 @@ resources
 .
 for
 (
-int
+size_t
 i
 =
 0
@@ -2182,7 +2178,7 @@ mSlots
 ;
 for
 (
-int
+size_t
 i
 =
 0
