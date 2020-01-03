@@ -4961,6 +4961,12 @@ fixupUsedKeyword
 |
 !
 alternativeURI
+|
+|
+!
+alternativeURI
+.
+host
 )
 {
 return
