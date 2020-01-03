@@ -526,7 +526,12 @@ from
 s
 "
 %
-fileUrl
+entity
+[
+"
+url
+"
+]
 +
 \
                   
@@ -663,9 +668,6 @@ try
 /
 "
 )
-=
-=
-True
 or
 \
        
@@ -688,9 +690,6 @@ try
 /
 "
 )
-=
-=
-True
 or
 \
        
@@ -715,9 +714,6 @@ pine
 /
 "
 )
-=
-=
-True
 or
 \
        
@@ -742,9 +738,54 @@ pine
 /
 "
 )
-=
-=
-True
+or
+\
+       
+talosJsonUrl
+.
+startswith
+(
+"
+http
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+projects
+/
+ash
+/
+"
+)
+or
+\
+       
+talosJsonUrl
+.
+startswith
+(
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+projects
+/
+ash
+/
+"
+)
 :
         
 return
