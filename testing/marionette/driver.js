@@ -1360,16 +1360,6 @@ platformVersion
 Supported
 features
 "
-handlesAlerts
-"
-:
-false
-"
-nativeEvents
-"
-:
-false
-"
 raisesAccessibilityExceptions
 "
 :
@@ -1387,7 +1377,7 @@ appName
 B2G
 "
 "
-secureSsl
+acceptSslCerts
 "
 :
 false
