@@ -1088,11 +1088,10 @@ TPBrowserParent
 {
 context
 =
-static_cast
-<
 TabParent
-*
->
+:
+:
+GetFrom
 (
 ipcContext
 .

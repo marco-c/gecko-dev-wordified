@@ -806,11 +806,10 @@ TabParent
 *
 tabParent
 =
-static_cast
-<
 TabParent
-*
->
+:
+:
+GetFrom
 (
 parent
 )
