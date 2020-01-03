@@ -312,7 +312,7 @@ isInList
 ;
 if
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 tracer
 )

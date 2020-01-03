@@ -1467,7 +1467,7 @@ a
 write
 barrier
 executes
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 is
 true
 but
@@ -1495,7 +1495,7 @@ isHeapBusy
 )
 &
 &
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )
@@ -3435,7 +3435,7 @@ trc
 {
 if
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )

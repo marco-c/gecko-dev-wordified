@@ -5192,7 +5192,7 @@ runtime
 ;
 if
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )
