@@ -161,5 +161,5 @@ only
 /
 DOCUMENT_WARNING
 (
-WillChangeOverBudgetIgnored
+IgnoringWillChangeOverBudget
 )
