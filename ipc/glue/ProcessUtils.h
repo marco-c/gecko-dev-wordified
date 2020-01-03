@@ -181,6 +181,11 @@ ProcLoaderClientGeckoInit
 )
 ;
 bool
+ProcLoaderIsInitialized
+(
+)
+;
+bool
 ProcLoaderLoad
 (
 const
