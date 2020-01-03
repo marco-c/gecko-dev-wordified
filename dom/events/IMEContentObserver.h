@@ -332,9 +332,6 @@ aPresContext
 nsIContent
 *
 aContent
-nsIEditor
-*
-aEditor
 )
 ;
 void
