@@ -10010,6 +10010,10 @@ if
 (
 !
 cryptoWrapper
+|
+|
+!
+cryptoWrapper
 .
 payload
 )
