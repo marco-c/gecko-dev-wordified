@@ -72,15 +72,6 @@ mozilla
 .
 gecko
 .
-NewTabletUI
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
