@@ -1003,11 +1003,12 @@ node
 ;
 static
 bool
-IsEditableIMEState
+IsIMEObserverNeeded
 (
-nsIWidget
-*
-aWidget
+const
+IMEState
+&
+aState
 )
 ;
 static
