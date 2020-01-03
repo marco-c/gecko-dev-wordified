@@ -10337,6 +10337,14 @@ XRE_GetProcessType
 =
 =
 GeckoProcessType_Default
+|
+|
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Content
 )
 mHashMutex
 (
