@@ -38045,7 +38045,7 @@ isPrimary
 break
 ;
 case
-NS_POINTER_UP
+ePointerUp
 :
 /
 /
@@ -39948,7 +39948,7 @@ eMouseUp
 :
 pointerMessage
 =
-NS_POINTER_UP
+ePointerUp
 ;
 break
 ;
@@ -40100,7 +40100,7 @@ NS_TOUCH_END
 :
 pointerMessage
 =
-NS_POINTER_UP
+ePointerUp
 ;
 break
 ;
@@ -45225,7 +45225,7 @@ pointerEvent
 mMessage
 =
 =
-NS_POINTER_UP
+ePointerUp
 |
 |
 pointerEvent
@@ -45253,7 +45253,7 @@ should
 be
 send
 after
-NS_POINTER_UP
+ePointerUp
 or
 /
 /

@@ -1305,7 +1305,7 @@ ePointerEventClass
 EVENT
 (
 pointerup
-NS_POINTER_UP
+ePointerUp
 EventNameType_All
 ePointerEventClass
 )
