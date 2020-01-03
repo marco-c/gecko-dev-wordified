@@ -3789,9 +3789,6 @@ IccCardLockError
 (
 data
 .
-lockType
-data
-.
 errorMsg
 data
 .
