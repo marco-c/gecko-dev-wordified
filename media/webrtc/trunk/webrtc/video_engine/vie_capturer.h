@@ -261,6 +261,15 @@ vie_frame_provider_base
 .
 h
 "
+#
+include
+"
+webrtc
+/
+common
+.
+h
+"
 namespace
 webrtc
 {
@@ -961,6 +970,11 @@ scoped_ptr
 OveruseFrameDetector
 >
 overuse_detector_
+;
+const
+Config
+&
+config_
 ;
 }
 ;

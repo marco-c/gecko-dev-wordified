@@ -358,8 +358,17 @@ false
 )
 delay_correction_enabled_
 (
-false
+true
 )
+/
+/
+default
+to
+long
+AEC
+tail
+in
+Mozilla
 reported_delay_enabled_
 (
 true
@@ -1832,6 +1841,9 @@ Config
 config
 )
 {
+#
+if
+0
 delay_correction_enabled_
 =
 config
@@ -1845,6 +1857,8 @@ DelayCorrection
 .
 enabled
 ;
+#
+endif
 reported_delay_enabled_
 =
 config

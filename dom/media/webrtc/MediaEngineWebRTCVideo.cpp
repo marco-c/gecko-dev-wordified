@@ -286,6 +286,8 @@ size
 uint32_t
 time_stamp
 int64_t
+ntp_time_ms
+int64_t
 render_time
 void
 *
@@ -637,6 +639,9 @@ d
 timestamp
 %
 u
+ntp_time
+%
+lu
 render_time
 %
 lu
@@ -647,6 +652,7 @@ frame_num
 mWidth
 mHeight
 time_stamp
+ntp_time_ms
 render_time
 )
 )

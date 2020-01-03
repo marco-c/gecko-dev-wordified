@@ -1357,6 +1357,12 @@ defined
 (
 WEBRTC_LINUX
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 EXPECT_TRUE
 (
 (
@@ -11949,6 +11955,13 @@ defined
 (
 WEBRTC_LINUX
 )
+&
+&
+!
+defined
+(
+WEBRTC_BSD
+)
 TEST_F
 (
 AudioDeviceAPITest
@@ -12451,6 +12464,13 @@ WIN32
 &
 !
 WEBRTC_LINUX
+&
+&
+!
+defined
+(
+WEBRTC_BSD
+)
 TEST_F
 (
 AudioDeviceAPITest
@@ -12528,7 +12548,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -12569,7 +12589,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -12685,7 +12705,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
@@ -12726,7 +12746,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44000
+44100
 )
 |
 |
