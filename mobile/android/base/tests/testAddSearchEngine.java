@@ -297,7 +297,7 @@ blankPageURL
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -307,7 +307,7 @@ searchEngineURL
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_SEARCH_URL
 )
@@ -345,7 +345,7 @@ blankPageURL
 ;
 waitForText
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
@@ -720,7 +720,7 @@ closed
 ;
 waitForText
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_SEARCH_TITLE
 )
@@ -787,7 +787,7 @@ blankPageURL
 ;
 waitForText
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
@@ -1400,7 +1400,7 @@ BACK
 ;
 waitForText
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 )

@@ -193,10 +193,10 @@ uses
 it
 selectSettingsItem
 (
-StringHelper
+mStringHelper
 .
 PRIVACY_SECTION_LABEL
-StringHelper
+mStringHelper
 .
 MASTER_PASSWORD_LABEL
 )
@@ -537,7 +537,7 @@ waitForText
 ^
 "
 +
-StringHelper
+mStringHelper
 .
 MASTER_PASSWORD_LABEL
 +
@@ -553,7 +553,7 @@ clickOnText
 ^
 "
 +
-StringHelper
+mStringHelper
 .
 MASTER_PASSWORD_LABEL
 +
@@ -844,7 +844,7 @@ BACK
 }
 waitForText
 (
-StringHelper
+mStringHelper
 .
 SETTINGS_LABEL
 )
@@ -895,10 +895,10 @@ uses
 it
 selectSettingsItem
 (
-StringHelper
+mStringHelper
 .
 PRIVACY_SECTION_LABEL
-StringHelper
+mStringHelper
 .
 MASTER_PASSWORD_LABEL
 )
@@ -1469,10 +1469,10 @@ uses
 it
 selectSettingsItem
 (
-StringHelper
+mStringHelper
 .
 PRIVACY_SECTION_LABEL
-StringHelper
+mStringHelper
 .
 CLEAR_PRIVATE_DATA_LABEL
 )
@@ -1813,7 +1813,7 @@ BACK
 }
 waitForText
 (
-StringHelper
+mStringHelper
 .
 SETTINGS_LABEL
 )
@@ -1895,7 +1895,7 @@ LOGIN_URL
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_LOGIN_01_URL
 )

@@ -242,7 +242,7 @@ blank1
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -252,7 +252,7 @@ blank2
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -260,7 +260,7 @@ ROBOCOP_BLANK_PAGE_02_URL
 String
 title
 =
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
@@ -278,7 +278,7 @@ mDatabaseHelper
 .
 addOrUpdateMobileBookmark
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_TITLE
 blank2
@@ -493,7 +493,7 @@ clear
 String
 titleGeolocation
 =
-StringHelper
+mStringHelper
 .
 ROBOCOP_GEOLOCATION_TITLE
 ;
@@ -502,7 +502,7 @@ url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_GEOLOCATION_URL
 )
@@ -585,13 +585,13 @@ passwordStrings
 ]
 =
 {
-StringHelper
+mStringHelper
 .
 LOGIN_MESSAGE
-StringHelper
+mStringHelper
 .
 LOGIN_ALLOW
-StringHelper
+mStringHelper
 .
 LOGIN_DENY
 }
@@ -599,7 +599,7 @@ LOGIN_DENY
 String
 title
 =
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
@@ -608,7 +608,7 @@ loginUrl
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_LOGIN_01_URL
 )
@@ -628,7 +628,7 @@ passwordStrings
 ;
 checkOption
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_SITE_SETTINGS_SAVE_PASSWORD
 "
@@ -654,7 +654,7 @@ checkDevice
 title
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -732,7 +732,7 @@ ok
 (
 waitForText
 (
-StringHelper
+mStringHelper
 .
 PRIVACY_SECTION_LABEL
 )
@@ -944,7 +944,7 @@ ok
 (
 waitForText
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [
@@ -983,7 +983,7 @@ in
 +
 selectMenuItem
 (
-StringHelper
+mStringHelper
 .
 PAGE_LABEL
 )
@@ -994,7 +994,7 @@ ok
 (
 waitForText
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [
@@ -1021,7 +1021,7 @@ mSolo
 .
 clickOnText
 (
-StringHelper
+mStringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [

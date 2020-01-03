@@ -167,7 +167,7 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -196,7 +196,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -205,7 +205,7 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -227,7 +227,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -236,7 +236,7 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -325,7 +325,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -334,7 +334,7 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
