@@ -461,7 +461,7 @@ TypedObjectIsAttached
 typedObj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -1197,7 +1197,7 @@ TypedObjectIsAttached
 typedObj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -1384,7 +1384,7 @@ fieldValue
 return
 ;
 }
-ThrowError
+ThrowTypeError
 (
 JSMSG_CANT_CONVERT_TO
 typeof
@@ -1864,7 +1864,7 @@ ObjectIsTypedObject
 fromValue
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_CANT_CONVERT_TO
 typeof
@@ -1889,7 +1889,7 @@ fromValue
 )
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_CANT_CONVERT_TO
 typeof
@@ -2248,7 +2248,7 @@ TypedObjectIsAttached
 destTypedObj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -2332,7 +2332,7 @@ TypedObjectIsAttached
 sourceTypedObj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -2374,7 +2374,7 @@ ObjectIsTypeDescr
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2394,7 +2394,7 @@ ObjectIsTypeDescr
 otherDescr
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2642,7 +2642,7 @@ ObjectIsTypedObject
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2662,7 +2662,7 @@ ObjectIsTypeDescr
 newArrayType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2726,7 +2726,7 @@ oldArrayType
 =
 JS_TYPEREPR_ARRAY_KIND
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2836,7 +2836,7 @@ oldElementCount
 newElementCount
 )
 {
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -2862,7 +2862,7 @@ newElementType
 )
 )
 {
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -3111,7 +3111,7 @@ ObjectIsTypedObject
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -3142,7 +3142,7 @@ descr
 =
 JS_TYPEREPR_SIMD_KIND
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -3496,7 +3496,7 @@ ObjectIsTypeDescr
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -3548,7 +3548,7 @@ ObjectIsTypeDescr
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -3569,7 +3569,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -3718,7 +3718,7 @@ TypedObjectIsAttached
 obj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -3760,7 +3760,7 @@ obj
 ;
 }
 }
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4089,7 +4089,7 @@ ObjectIsTypeDescr
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4192,20 +4192,20 @@ a
 number
 "
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 else
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 default
 :
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4251,7 +4251,7 @@ ObjectIsTypeDescr
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4370,7 +4370,7 @@ b
 )
 ;
 else
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4433,13 +4433,13 @@ if
 (
 explicitDepth
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 else
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4475,7 +4475,7 @@ ObjectIsTypedObject
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4496,7 +4496,7 @@ TypeDescrIsArrayType
 thisType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4560,7 +4560,7 @@ thisType
 a
 )
 ;
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4603,7 +4603,7 @@ ObjectIsTypedObject
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4624,7 +4624,7 @@ TypeDescrIsArrayType
 thisType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4647,7 +4647,7 @@ a
 function
 "
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4702,7 +4702,7 @@ ObjectIsTypedObject
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4723,7 +4723,7 @@ TypeDescrIsArrayType
 thisType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4739,7 +4739,7 @@ func
 function
 "
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -4920,6 +4920,7 @@ depth
 =
 depth
 )
+{
 /
 /
 RangeError
@@ -4929,11 +4930,12 @@ bad
 depth
 "
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
+}
 /
 /
 For
@@ -5653,7 +5655,7 @@ IsCallable
 maybeFunc
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -6063,7 +6065,7 @@ depth
 =
 depth
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -6124,7 +6126,7 @@ ObjectIsTypeDescr
 inGrainType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -7051,7 +7053,7 @@ TypeDescrIsArrayType
 arrayType
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
