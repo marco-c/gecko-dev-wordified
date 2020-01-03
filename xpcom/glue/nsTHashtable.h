@@ -197,6 +197,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 new
 >
@@ -727,6 +736,7 @@ class
 EntryType
 >
 class
+MOZ_NEEDS_NO_VTABLE_TYPE
 nsTHashtable
 {
 typedef
