@@ -364,7 +364,9 @@ checks
 yield
 isNodeCorrectlyHighlighted
 (
-iframeNode
+"
+iframe
+"
 toolbox
 )
 ;
@@ -452,7 +454,12 @@ node
 yield
 isNodeCorrectlyHighlighted
 (
-iframeBodyNode
+"
+iframe
+|
+|
+body
+"
 toolbox
 )
 ;
