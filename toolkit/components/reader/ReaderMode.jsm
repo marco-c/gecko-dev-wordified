@@ -2611,7 +2611,7 @@ TelemetryStopwatch
 finish
 (
 "
-READER_MOD_SERIALIZE_DOM_MS
+READER_MODE_SERIALIZE_DOM_MS
 "
 )
 ;
