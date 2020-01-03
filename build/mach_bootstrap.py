@@ -692,6 +692,16 @@ mach_commands
 .
 py
 '
+    
+'
+mobile
+/
+android
+/
+mach_commands
+.
+py
+'
 ]
 CATEGORIES
 =
