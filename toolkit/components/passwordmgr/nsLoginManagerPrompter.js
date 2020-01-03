@@ -1714,7 +1714,7 @@ _window
 return
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 this
 .

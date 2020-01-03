@@ -1103,7 +1103,7 @@ showRestoreLastSession
 !
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 content
 )

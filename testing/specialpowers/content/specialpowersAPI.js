@@ -12723,7 +12723,7 @@ file
 mozFullPath
 ;
 }
-isWindowPrivate
+isContentWindowPrivate
 :
 function
 (
@@ -12733,7 +12733,7 @@ win
 return
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 win
 )
