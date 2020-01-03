@@ -302,7 +302,7 @@ Length
 )
 &
 &
-mInitialPlaybackRate
+mPlaybackRate
 =
 =
 1
