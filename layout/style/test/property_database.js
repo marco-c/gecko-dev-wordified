@@ -56017,6 +56017,9 @@ column
 dense
 row
 "
+"
+dense
+"
 ]
 invalid_values
 :
@@ -56031,9 +56034,6 @@ none
 "
 "
 10px
-"
-"
-dense
 "
 "
 column
