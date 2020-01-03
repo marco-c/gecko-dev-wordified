@@ -11038,6 +11038,17 @@ aEvent
 .
 dataTransfer
 )
+.
+then
+(
+null
+Components
+.
+utils
+.
+reportError
+)
+;
 aEvent
 .
 preventDefault
