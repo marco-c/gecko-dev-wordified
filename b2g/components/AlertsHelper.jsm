@@ -1414,7 +1414,7 @@ text
 textClickable
 cookie
 uid
-bidi
+dir
 lang
 dataObj
 manifestURL
@@ -1450,9 +1450,9 @@ title
 text
 :
 text
-bidi
+dir
 :
-bidi
+dir
 lang
 :
 lang
@@ -1677,7 +1677,7 @@ data
 name
 data
 .
-bidi
+dir
 data
 .
 lang
