@@ -19566,6 +19566,10 @@ ival
 )
 )
 ;
+default
+:
+break
+;
 }
 }
 if
