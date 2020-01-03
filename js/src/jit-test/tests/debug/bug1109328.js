@@ -1,13 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-allow
--
-oom
 try
 {
 gcslice
