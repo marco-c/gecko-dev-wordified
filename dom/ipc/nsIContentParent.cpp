@@ -752,9 +752,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aId
+aCpId
 const
 bool
 &
@@ -768,12 +768,7 @@ aIsForBrowser
 unused
 <
 <
-aChromeFlags
-;
-unused
-<
-<
-aId
+aCpId
 ;
 unused
 <

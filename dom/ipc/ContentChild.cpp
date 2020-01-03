@@ -5681,9 +5681,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -5702,7 +5702,7 @@ AllocPBrowserChild
 (
 aContext
 aChromeFlags
-aID
+aCpID
 aIsForApp
 aIsForBrowser
 )
@@ -5726,9 +5726,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -5748,7 +5748,7 @@ SendPBrowserConstructor
 aActor
 aContext
 aChromeFlags
-aID
+aCpID
 aIsForApp
 aIsForBrowser
 )
@@ -5772,9 +5772,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -5931,7 +5931,7 @@ correct
 .
 mID
 =
-aID
+aCpID
 ;
 mIsForApp
 =

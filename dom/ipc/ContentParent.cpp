@@ -15531,9 +15531,9 @@ ContentParent
 :
 RecvGetProcessAttributes
 (
-uint64_t
+ContentParentId
 *
-aId
+aCpId
 bool
 *
 aIsForApp
@@ -15543,7 +15543,7 @@ aIsForBrowser
 )
 {
 *
-aId
+aCpId
 =
 mChildID
 ;
@@ -15821,9 +15821,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aId
+aCpId
 const
 bool
 &
@@ -15842,7 +15842,7 @@ AllocPBrowserParent
 (
 aContext
 aChromeFlags
-aId
+aCpId
 aIsForApp
 aIsForBrowser
 )
@@ -20127,9 +20127,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aId
+aCpId
 const
 bool
 &
@@ -20149,7 +20149,7 @@ SendPBrowserConstructor
 aActor
 aContext
 aChromeFlags
-aId
+aCpId
 aIsForApp
 aIsForBrowser
 )

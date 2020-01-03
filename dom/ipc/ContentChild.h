@@ -676,9 +676,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -1861,7 +1861,7 @@ GetIndexedDBPath
 (
 )
 ;
-uint64_t
+ContentParentId
 GetID
 (
 )
@@ -1939,9 +1939,9 @@ uint32_t
 &
 chromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -1969,9 +1969,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -2142,7 +2142,7 @@ us
 .
 *
 /
-uint64_t
+ContentParentId
 mID
 ;
 AppInfo
