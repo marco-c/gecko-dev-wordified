@@ -1059,7 +1059,7 @@ aOutputChannelCount
 nsTArray
 <
 const
-void
+float
 *
 >
 &
