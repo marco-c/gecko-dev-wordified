@@ -1257,8 +1257,9 @@ reset
 once
 set
 .
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+aStream
 !
 mBodyStream
 )
