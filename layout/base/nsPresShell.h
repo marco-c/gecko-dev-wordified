@@ -2097,6 +2097,10 @@ nsRect
 aRect
 =
 nullptr
+bool
+aRemoveOnly
+=
+false
 )
 override
 ;
@@ -3932,6 +3936,13 @@ UpdateImageVisibility
 )
 ;
 void
+DoUpdateImageVisibility
+(
+bool
+aRemoveOnly
+)
+;
+void
 UpdateActivePointerState
 (
 mozilla
@@ -3989,6 +4000,10 @@ const
 nsRect
 &
 aRect
+bool
+aRemoveOnly
+=
+false
 )
 ;
 /
