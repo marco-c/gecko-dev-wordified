@@ -261,6 +261,9 @@ h
 "
 #
 endif
+class
+nsPluginTag
+;
 namespace
 mozilla
 {
@@ -1691,6 +1694,9 @@ char
 aFilePath
 uint32_t
 aPluginId
+nsPluginTag
+*
+aPluginTag
 )
 ;
 virtual
