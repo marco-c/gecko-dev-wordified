@@ -22680,6 +22680,9 @@ CloneFunctionObjectIfNotSingleton
 cx
 fun
 parent
+NullPtr
+(
+)
 TenuredObject
 )
 )
@@ -22889,6 +22892,9 @@ CloneFunctionObjectIfNotSingleton
 cx
 fun
 scopeChain
+NullPtr
+(
+)
 TenuredObject
 )
 ;

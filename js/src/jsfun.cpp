@@ -14521,6 +14521,8 @@ newKindArg
 GenericObject
 *
 /
+HandleObject
+proto
 )
 {
 MOZ_ASSERT
@@ -14592,10 +14594,15 @@ RootedObject
 cloneProto
 (
 cx
+proto
 )
 ;
 if
 (
+!
+cloneProto
+&
+&
 fun
 -
 >
