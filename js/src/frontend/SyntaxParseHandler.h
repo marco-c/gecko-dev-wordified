@@ -2828,7 +2828,7 @@ false
 }
 PropertyName
 *
-isName
+maybeName
 (
 Node
 pn
