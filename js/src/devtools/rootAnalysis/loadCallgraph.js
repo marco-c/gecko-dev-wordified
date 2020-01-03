@@ -1480,8 +1480,6 @@ js
 :
 :
 SliceBudget
-*
-uint32
 uint32
 )
 '
