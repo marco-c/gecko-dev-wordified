@@ -1326,6 +1326,7 @@ access
 from
 tests
 .
+RobocopTarget
 public
 static
 GeckoProfile
