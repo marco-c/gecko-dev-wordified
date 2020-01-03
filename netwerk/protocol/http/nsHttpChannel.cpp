@@ -34041,7 +34041,7 @@ nsCOMPtr
 <
 nsILoadContextInfo
 >
-loadInfo
+loadContextInfo
 =
 GetLoadContextInfo
 (
@@ -34056,8 +34056,9 @@ pas
 GetResource
 (
 principal
+mLoadInfo
 loadFlags
-loadInfo
+loadContextInfo
 this
 )
 ;
