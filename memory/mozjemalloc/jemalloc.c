@@ -42324,7 +42324,7 @@ bytes
 /
 ptr
 =
-realloc
+realloc_impl
 (
 ptr
 newsize
