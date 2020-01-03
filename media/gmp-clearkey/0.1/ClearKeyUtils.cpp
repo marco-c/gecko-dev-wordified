@@ -503,9 +503,6 @@ CLEARKEY_KEY_LEN
 size_t
 blockLen
 =
-std
-:
-:
 min
 (
 aData

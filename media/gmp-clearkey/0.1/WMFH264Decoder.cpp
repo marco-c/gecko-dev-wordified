@@ -130,13 +130,13 @@ License
 #
 include
 "
-stdafx
+WMFH264Decoder
 .
 h
 "
-#
-ifdef
-TEST_DECODING
+namespace
+wmf
+{
 WMFH264Decoder
 :
 :
@@ -200,7 +200,6 @@ __uuidof
 (
 CMSH264DecoderMFT
 )
-L
 "
 msmpeg2vdec
 .
@@ -356,6 +355,7 @@ pictureRegion
 ;
 hr
 =
+wmf
 :
 :
 GetPictureRegion
@@ -434,7 +434,6 @@ pictureRegion
 ;
 LOG
 (
-L
 "
 WMFH264Decoder
 frame
@@ -560,8 +559,6 @@ type
 ;
 hr
 =
-:
-:
 MFCreateMediaType
 (
 &
@@ -1551,7 +1548,6 @@ it
 .
 LOG
 (
-L
 "
 ProcessInput
 returned
@@ -1712,5 +1708,8 @@ return
 S_OK
 ;
 }
-#
-endif
+}
+/
+/
+namespace
+wmf
