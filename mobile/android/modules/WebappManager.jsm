@@ -2928,8 +2928,6 @@ catch
 ex
 if
 ex
-.
-message
 =
 =
 "
