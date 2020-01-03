@@ -5872,11 +5872,10 @@ reflow
 .
 kidReflowState
 .
-mFlags
-.
-mVResize
-=
+SetVResize
+(
 true
+)
 ;
 }
 nsPoint

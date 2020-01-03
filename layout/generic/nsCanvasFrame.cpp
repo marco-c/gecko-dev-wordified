@@ -3909,9 +3909,9 @@ if
 (
 aReflowState
 .
-mFlags
-.
-mVResize
+IsVResize
+(
+)
 &
 &
 (
@@ -3950,11 +3950,10 @@ framesets
 .
 kidReflowState
 .
-mFlags
-.
-mVResize
-=
+SetVResize
+(
 true
+)
 ;
 }
 nsPoint

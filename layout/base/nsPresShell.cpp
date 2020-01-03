@@ -56923,11 +56923,10 @@ mLastRootReflowHadUnconstrainedBSize
 {
 reflowState
 .
-mFlags
-.
-mVResize
-=
+SetVResize
+(
 true
+)
 ;
 }
 mLastRootReflowHadUnconstrainedBSize
