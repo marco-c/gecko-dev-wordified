@@ -3871,6 +3871,18 @@ GetEffectiveTransform
 )
 )
 ;
+/
+*
+Disabled
+because
+on
+long
+pages
+SlowDrawRect
+becomes
+a
+bottleneck
+.
 int
 tileW
 =
@@ -4014,6 +4026,8 @@ GetEffectiveTransform
 ;
 }
 }
+*
+/
 r
 =
 transform
