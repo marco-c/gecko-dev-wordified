@@ -766,10 +766,6 @@ mAttrEnum
 aAttrEnum
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 DOMSVGAnimatedNumberList

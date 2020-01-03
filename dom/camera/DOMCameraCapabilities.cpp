@@ -341,10 +341,6 @@ HoldJSObjects
 this
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 CameraCapabilities
 :

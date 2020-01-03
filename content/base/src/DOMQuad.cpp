@@ -212,10 +212,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 for
 (
 uint32_t
@@ -272,10 +268,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMQuad
 :

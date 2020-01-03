@@ -212,10 +212,6 @@ mClientId
 aClientId
 )
 {
-SetIsDOMBinding
-(
-)
-;
 BindToOwner
 (
 aWindow

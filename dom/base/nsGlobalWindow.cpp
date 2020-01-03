@@ -7271,10 +7271,6 @@ PR_INIT_CLIST
 this
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 if
 (
 aOuterWindow

@@ -164,10 +164,6 @@ PR_INIT_CLIST
 this
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 nsCSSParser
 parser
 ;

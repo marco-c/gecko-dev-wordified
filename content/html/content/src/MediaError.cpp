@@ -196,10 +196,6 @@ mCode
 aCode
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMETHODIMP
 MediaError

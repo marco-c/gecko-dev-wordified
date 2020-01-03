@@ -189,10 +189,6 @@ mUri
 aUri
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechSynthesisVoice
 :

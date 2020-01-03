@@ -204,10 +204,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 IccInfo
@@ -563,10 +559,6 @@ IccInfo
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 GsmIccInfo
@@ -694,10 +686,6 @@ IccInfo
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 CdmaIccInfo

@@ -166,10 +166,6 @@ mSystemCode
 aSystemCode
 )
 {
-SetIsDOMBinding
-(
-)
-;
 InitEvent
 (
 NS_LITERAL_STRING

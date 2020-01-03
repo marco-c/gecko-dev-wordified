@@ -212,10 +212,6 @@ mW
 aW
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 double
 X

@@ -173,10 +173,6 @@ mCode
 aCode
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ImageCaptureError
 :

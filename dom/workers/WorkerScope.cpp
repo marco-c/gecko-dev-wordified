@@ -375,10 +375,6 @@ AssertIsOnWorkerThread
 (
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 WorkerGlobalScope
 :

@@ -9992,10 +9992,6 @@ Now
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 MOZ_ASSERT_IF
 (
 !

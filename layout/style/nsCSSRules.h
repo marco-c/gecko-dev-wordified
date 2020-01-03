@@ -943,15 +943,6 @@ nsICSSDeclaration
 :
 GetPropertyCSSValue
 ;
-nsCSSFontFaceStyleDecl
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 virtual
 nsINode
 *

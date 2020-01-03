@@ -175,10 +175,6 @@ mNamePresentation
 aNamePresentation
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 TelephonyCallId
 :

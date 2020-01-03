@@ -188,10 +188,6 @@ to
 drop
 our
 reference
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMTokenList
 :

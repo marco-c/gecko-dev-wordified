@@ -214,10 +214,6 @@ mRecognitionService
 =
 aRecognitionService
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechGrammarList
 :

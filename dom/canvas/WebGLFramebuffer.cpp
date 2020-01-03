@@ -241,10 +241,6 @@ mDepthStencilAttachment
 LOCAL_GL_DEPTH_STENCIL_ATTACHMENT
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

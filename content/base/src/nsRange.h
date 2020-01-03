@@ -312,10 +312,6 @@ nullptr
 #
 endif
 {
-SetIsDOMBinding
-(
-)
-;
 MOZ_ASSERT
 (
 aNode

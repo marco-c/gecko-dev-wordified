@@ -171,10 +171,6 @@ mLeft
 aLeft
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCSSRect
 :

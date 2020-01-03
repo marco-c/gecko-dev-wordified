@@ -1201,10 +1201,6 @@ mIsAnimValList
 aIsAnimValList
 )
 {
-SetIsDOMBinding
-(
-)
-;
 InternalListWillChangeTo
 (
 InternalList

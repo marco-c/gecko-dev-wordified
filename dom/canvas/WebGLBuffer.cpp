@@ -161,10 +161,6 @@ mByteLength
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

@@ -16947,10 +16947,6 @@ mApplyUserSelectStyle
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Selection
 :
@@ -16986,10 +16982,6 @@ mApplyUserSelectStyle
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Selection
 :

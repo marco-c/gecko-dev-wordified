@@ -426,10 +426,6 @@ GetParentObject
 )
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 aContext
 -
 >

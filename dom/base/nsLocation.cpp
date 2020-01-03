@@ -415,10 +415,6 @@ IsInnerWindow
 )
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 mDocShell
 =
 do_GetWeakReference

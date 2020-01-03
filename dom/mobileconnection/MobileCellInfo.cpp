@@ -220,10 +220,6 @@ mCdmaNetworkId
 1
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MobileCellInfo
 :

@@ -963,10 +963,6 @@ window
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Navigator
 :

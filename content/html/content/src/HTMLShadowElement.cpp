@@ -179,10 +179,6 @@ mIsInsertionPoint
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLShadowElement
 :

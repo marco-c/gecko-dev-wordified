@@ -4735,10 +4735,6 @@ mIsDisconnected
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mTxnManager
 =
 new

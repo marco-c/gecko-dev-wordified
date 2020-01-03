@@ -1586,10 +1586,6 @@ HoldJSObjects
 this
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Promise
 :

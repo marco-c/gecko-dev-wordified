@@ -192,10 +192,6 @@ MOZ_ASSERT
 aContext
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 /
 /
 Caller

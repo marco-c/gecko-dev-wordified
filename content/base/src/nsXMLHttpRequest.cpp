@@ -1959,10 +1959,6 @@ mXPCOMifier
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 #
 ifdef
 DEBUG

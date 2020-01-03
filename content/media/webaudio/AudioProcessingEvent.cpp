@@ -213,10 +213,6 @@ mNode
 aOwner
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 AudioProcessingEvent
 :

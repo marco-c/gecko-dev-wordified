@@ -304,10 +304,6 @@ mIsDirty
 true
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mNames
 =
 new
@@ -1508,10 +1504,6 @@ mIsDirty
 true
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 mDoc

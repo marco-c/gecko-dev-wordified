@@ -1007,10 +1007,6 @@ MOZ_ASSERT
 aSpec
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 IDBDatabase
 :

@@ -176,10 +176,6 @@ provided
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 PerformanceEntry
 :

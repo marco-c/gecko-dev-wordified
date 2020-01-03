@@ -194,10 +194,6 @@ GetCurrentSwitchState
 SWITCH_HEADPHONES
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 AudioChannelManager
 :

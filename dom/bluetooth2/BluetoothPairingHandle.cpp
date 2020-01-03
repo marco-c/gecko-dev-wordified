@@ -302,10 +302,6 @@ IsEmpty
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 BluetoothPairingHandle
 :

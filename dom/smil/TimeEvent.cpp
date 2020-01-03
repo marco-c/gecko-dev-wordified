@@ -184,10 +184,6 @@ AsSMILTimeEvent
 detail
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 aEvent

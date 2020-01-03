@@ -309,10 +309,6 @@ mBodyUsed
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Request
 :

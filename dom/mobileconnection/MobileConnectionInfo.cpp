@@ -382,10 +382,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MobileConnectionInfo
 :

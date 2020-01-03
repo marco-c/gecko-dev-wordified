@@ -4845,10 +4845,6 @@ sNumLivingContexts
 +
 +
 ;
-SetIsDOMBinding
-(
-)
-;
 /
 /
 The
@@ -28954,10 +28950,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mPathBuilder
 =
 gfxPlatform
@@ -29002,10 +28994,6 @@ mPathBuilder
 aPathBuilder
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 !

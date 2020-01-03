@@ -144,10 +144,6 @@ mOwner
 aOwner
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

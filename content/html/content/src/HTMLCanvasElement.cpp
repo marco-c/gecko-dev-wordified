@@ -448,10 +448,6 @@ mCallback
 aCallback
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLCanvasPrintState
 :

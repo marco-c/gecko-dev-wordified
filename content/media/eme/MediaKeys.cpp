@@ -306,10 +306,6 @@ mCreatePromiseId
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 static
 PLDHashOperator

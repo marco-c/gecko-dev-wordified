@@ -595,10 +595,6 @@ mIsBaseValue
 aIsBaseValue
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

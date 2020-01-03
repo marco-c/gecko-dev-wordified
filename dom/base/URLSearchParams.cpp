@@ -158,10 +158,6 @@ URLSearchParams
 (
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 URLSearchParams
 :

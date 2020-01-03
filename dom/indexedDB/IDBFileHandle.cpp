@@ -241,10 +241,6 @@ mMutableFile
 aMutableFile
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 IDBFileHandle
 :

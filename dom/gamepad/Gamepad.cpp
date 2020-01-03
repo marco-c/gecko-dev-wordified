@@ -176,10 +176,6 @@ mAxes
 aNumAxes
 )
 {
-SetIsDOMBinding
-(
-)
-;
 for
 (
 unsigned

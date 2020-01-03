@@ -514,10 +514,6 @@ MOZ_ASSERT
 mParent
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 /
 /
 For
@@ -741,10 +737,6 @@ aDragImageY
 MOZ_ASSERT
 (
 mParent
-)
-;
-SetIsDOMBinding
-(
 )
 ;
 /

@@ -466,10 +466,6 @@ mOldVersion
 aOldVersion
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 IDBVersionChangeEvent

@@ -429,10 +429,6 @@ WidgetEvent
 aEvent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 SetOwner
 (
 aOwner

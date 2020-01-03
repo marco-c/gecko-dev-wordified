@@ -1650,10 +1650,6 @@ mAxis
 aAxis
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 DOMSVGAnimatedLengthList

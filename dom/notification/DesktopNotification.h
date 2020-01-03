@@ -260,10 +260,6 @@ MOZ_ASSERT
 mPrincipal
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 void
 Shutdown

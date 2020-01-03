@@ -188,15 +188,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 PowerManager
 )
 NS_DECL_NSIDOMMOZWAKELOCKLISTENER
-PowerManager
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 nsresult
 Init
 (

@@ -593,10 +593,6 @@ mTransform
 aTransform
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 *
@@ -628,10 +624,6 @@ SVGMatrix
 (
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 explicit
 SVGMatrix
@@ -647,10 +639,6 @@ mMatrix
 aMatrix
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 const
 gfxMatrix

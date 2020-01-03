@@ -779,10 +779,6 @@ mElement
 aElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 SVGAnimatedTransformList

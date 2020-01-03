@@ -243,10 +243,6 @@ mPaused
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechSynthesisUtterance
 :

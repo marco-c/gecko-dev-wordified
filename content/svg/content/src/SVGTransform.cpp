@@ -830,10 +830,6 @@ mTransform
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 These
@@ -928,10 +924,6 @@ identity
 /
 matrix
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :
@@ -965,10 +957,6 @@ aMatrix
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :
@@ -1002,10 +990,6 @@ aTransform
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :

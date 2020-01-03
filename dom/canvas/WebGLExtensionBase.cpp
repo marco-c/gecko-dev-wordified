@@ -130,10 +130,6 @@ mIsLost
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 WebGLExtensionBase
 :

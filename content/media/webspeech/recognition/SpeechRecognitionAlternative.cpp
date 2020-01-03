@@ -193,10 +193,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechRecognitionAlternative
 :

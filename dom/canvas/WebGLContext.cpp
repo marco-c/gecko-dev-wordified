@@ -1114,10 +1114,6 @@ mNeedsFakeNoAlpha
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mGeneration
 =
 0

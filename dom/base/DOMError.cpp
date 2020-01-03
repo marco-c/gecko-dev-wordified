@@ -199,10 +199,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMError
 :
@@ -244,10 +240,6 @@ message
 mMessage
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 DOMError
 :
@@ -272,10 +264,6 @@ mName
 aName
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMError
 :
@@ -308,10 +296,6 @@ mMessage
 aMessage
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMError
 :

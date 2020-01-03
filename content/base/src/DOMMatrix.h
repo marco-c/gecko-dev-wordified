@@ -225,10 +225,6 @@ Matrix
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMMatrixReadOnly
 (
@@ -285,10 +281,6 @@ mMatrix3D
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 #
 define

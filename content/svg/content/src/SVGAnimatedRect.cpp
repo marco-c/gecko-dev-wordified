@@ -175,10 +175,6 @@ mSVGElement
 aSVGElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGAnimatedRect
 :

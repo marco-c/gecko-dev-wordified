@@ -240,10 +240,6 @@ BindToOwner
 aOwnerWindow
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 }
 /

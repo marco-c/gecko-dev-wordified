@@ -122,10 +122,6 @@ mReadonly
 aReadonly
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCSSValueList
 :

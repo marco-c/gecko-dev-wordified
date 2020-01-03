@@ -146,10 +146,6 @@ mType
 type
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MediaStreamList
 :

@@ -684,10 +684,6 @@ aOther
 mGuard
 )
 {
-SetIsDOMBinding
-(
-)
-;
 ErrorResult
 result
 ;

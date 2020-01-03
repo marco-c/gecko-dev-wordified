@@ -338,10 +338,6 @@ mRemovingProp
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mElement
 -
 >

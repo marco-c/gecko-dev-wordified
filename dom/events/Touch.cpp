@@ -176,10 +176,6 @@ float
 aForce
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mTarget
 =
 aTarget
@@ -277,10 +273,6 @@ float
 aForce
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mIdentifier
 =
 aIdentifier

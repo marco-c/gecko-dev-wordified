@@ -270,10 +270,6 @@ mContentParentID
 CONTENT_PROCESS_ID_UNKNOWN
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 WakeLock
 :

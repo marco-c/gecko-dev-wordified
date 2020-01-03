@@ -241,10 +241,6 @@ mNumberResult
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 XPathResult
 :
@@ -304,10 +300,6 @@ aResult
 mInvalidIteratorState
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 mDocument

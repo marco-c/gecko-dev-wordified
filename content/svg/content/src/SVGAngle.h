@@ -182,10 +182,6 @@ mType
 aType
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 /
 /

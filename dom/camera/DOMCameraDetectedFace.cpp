@@ -322,8 +322,4 @@ y
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }

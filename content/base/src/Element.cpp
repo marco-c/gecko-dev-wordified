@@ -5043,10 +5043,6 @@ mParent
 aElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 nsTArray
 <
 nsIContent

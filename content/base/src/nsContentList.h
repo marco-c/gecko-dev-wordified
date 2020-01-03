@@ -272,15 +272,6 @@ nsINodeList
 {
 public
 :
-nsBaseContentList
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 /
 /

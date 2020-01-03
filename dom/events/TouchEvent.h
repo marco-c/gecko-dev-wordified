@@ -191,10 +191,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 nsJSContext
 :
 :
@@ -226,10 +222,6 @@ mPoints
 aTouches
 )
 {
-SetIsDOMBinding
-(
-)
-;
 nsJSContext
 :
 :

@@ -402,10 +402,6 @@ mAList
 aAList
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 aInternalList

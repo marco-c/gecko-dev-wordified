@@ -233,10 +233,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsMimeTypeArray
 :
@@ -1087,10 +1083,6 @@ mType
 aType
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsMimeType
 :
@@ -1123,10 +1115,6 @@ mType
 aType
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsMimeType
 :

@@ -774,10 +774,6 @@ mGeoPosition
 aGeoPosition
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Position
 :
@@ -953,10 +949,6 @@ mCoords
 aCoords
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Coordinates
 :

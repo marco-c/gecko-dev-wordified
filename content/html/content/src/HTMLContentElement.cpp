@@ -247,10 +247,6 @@ mIsInsertionPoint
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLContentElement
 :
@@ -1584,10 +1580,6 @@ aHostElement
 MOZ_COUNT_CTOR
 (
 DistributedContentList
-)
-;
-SetIsDOMBinding
-(
 )
 ;
 if

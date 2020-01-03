@@ -167,10 +167,6 @@ nsDOMSerializer
 (
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMSerializer
 :

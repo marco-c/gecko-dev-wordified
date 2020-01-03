@@ -442,10 +442,6 @@ false
 true
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Directory
 :

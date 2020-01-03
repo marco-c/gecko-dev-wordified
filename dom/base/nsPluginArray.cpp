@@ -236,10 +236,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 nsPluginArray
@@ -1938,10 +1934,6 @@ mPluginTag
 aPluginTag
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsPluginElement
 :

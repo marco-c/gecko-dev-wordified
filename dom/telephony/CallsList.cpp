@@ -211,10 +211,6 @@ MOZ_ASSERT
 mTelephony
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 CallsList
 :

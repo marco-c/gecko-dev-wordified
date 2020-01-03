@@ -372,10 +372,6 @@ to
 drop
 our
 reference
-SetIsDOMBinding
-(
-)
-;
 }
 /
 *

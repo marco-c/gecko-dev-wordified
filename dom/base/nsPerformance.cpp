@@ -303,10 +303,6 @@ provided
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 if
 (
 !
@@ -1965,10 +1961,6 @@ provided
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsPerformanceNavigation
 :
@@ -2080,10 +2072,6 @@ should
 be
 provided
 "
-)
-;
-SetIsDOMBinding
-(
 )
 ;
 }

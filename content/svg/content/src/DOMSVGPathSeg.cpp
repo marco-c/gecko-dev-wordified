@@ -536,10 +536,6 @@ mIsAnimValItem
 aIsAnimValItem
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 These
@@ -606,10 +602,6 @@ mIsAnimValItem
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 DOMSVGPathSeg

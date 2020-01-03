@@ -170,10 +170,6 @@ mConstraintValidation
 aConstraintValidation
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMETHODIMP
 ValidityState

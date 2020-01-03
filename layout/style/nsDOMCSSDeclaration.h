@@ -1021,15 +1021,6 @@ nsDOMCSSDeclaration
 (
 )
 ;
-nsDOMCSSDeclaration
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 }
 ;
 bool

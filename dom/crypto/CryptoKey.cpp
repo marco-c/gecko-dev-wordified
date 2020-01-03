@@ -412,10 +412,6 @@ mPublicKey
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 CryptoKey
 :

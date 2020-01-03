@@ -725,10 +725,6 @@ DOMSVGNumber
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 DOMSVGLength
 :
@@ -771,10 +767,6 @@ mVal
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMSVGLength
 :
@@ -829,10 +821,6 @@ mSVGElement
 aSVGElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMSVGLength
 :

@@ -853,10 +853,6 @@ mZ
 aZ
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DeviceAcceleration
 :
@@ -1083,10 +1079,6 @@ mGamma
 aGamma
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DeviceRotationRate
 :

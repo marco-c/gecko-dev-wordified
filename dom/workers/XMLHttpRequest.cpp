@@ -6990,10 +6990,6 @@ AssertIsOnWorkerThread
 (
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 mozilla
 :
 :

@@ -458,10 +458,6 @@ MOZ_ASSERT
 aSharedWorker
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 MessagePort
 :
@@ -492,10 +488,6 @@ aWorkerPrivate
 -
 >
 AssertIsOnWorkerThread
-(
-)
-;
-SetIsDOMBinding
 (
 )
 ;

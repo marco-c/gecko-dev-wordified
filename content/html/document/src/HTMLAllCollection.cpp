@@ -191,10 +191,6 @@ MOZ_ASSERT
 mDocument
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLAllCollection
 :

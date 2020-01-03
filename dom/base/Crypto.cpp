@@ -189,10 +189,6 @@ MOZ_COUNT_CTOR
 Crypto
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Crypto
 :

@@ -177,10 +177,6 @@ mHasAlpha
 aHasAlpha
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCSSRGBColor
 :

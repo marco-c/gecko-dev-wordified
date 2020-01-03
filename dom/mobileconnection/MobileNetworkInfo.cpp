@@ -174,10 +174,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MobileNetworkInfo
 :
@@ -255,10 +251,6 @@ to
 web
 content
 .
-SetIsDOMBinding
-(
-)
-;
 }
 void
 MobileNetworkInfo

@@ -466,10 +466,6 @@ false
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 TableRowsCollection
 :

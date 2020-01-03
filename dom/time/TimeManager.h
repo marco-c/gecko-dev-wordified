@@ -159,10 +159,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsPIDOMWindow
 *

@@ -221,10 +221,6 @@ mRepeat
 aRepeat
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

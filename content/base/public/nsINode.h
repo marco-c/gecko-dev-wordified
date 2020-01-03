@@ -2352,10 +2352,6 @@ mSlots
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 #
 endif

@@ -228,10 +228,6 @@ mAttemptedInit
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMParser
 :

@@ -144,10 +144,6 @@ WebGLContextBoundObject
 context
 )
 {
-SetIsDOMBinding
-(
-)
-;
 MOZ_CRASH
 (
 "

@@ -308,10 +308,6 @@ HTMLSelectElement
 aSelect
 )
 {
-SetIsDOMBinding
-(
-)
-;
 /
 /
 Do

@@ -309,10 +309,6 @@ SetCapacity
 aNumberOfChannels
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 mozilla
 :
 :
