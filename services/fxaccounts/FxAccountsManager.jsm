@@ -1408,12 +1408,12 @@ logoutOnFailure
 )
 ;
 }
-}
-)
-;
 /
 /
-Otherwise
+.
+.
+.
+otherwise
 the
 account
 was
@@ -1489,6 +1489,9 @@ this
 _error
 (
 reason
+)
+;
+}
 )
 ;
 }
