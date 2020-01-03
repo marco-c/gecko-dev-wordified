@@ -248,6 +248,9 @@ composition
 .
 *
 /
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -351,6 +354,9 @@ TryRenderWithHwc
 Layer
 *
 aRoot
+nsIWidget
+*
+aWidget
 bool
 aGeometryChanged
 )
@@ -383,6 +389,9 @@ virtual
 bool
 Render
 (
+nsIWidget
+*
+aWidget
 )
 =
 0

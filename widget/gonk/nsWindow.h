@@ -642,6 +642,12 @@ ConfigureAPZControllerThread
 )
 override
 ;
+nsScreenGonk
+*
+GetScreen
+(
+)
+;
 protected
 :
 nsWindow

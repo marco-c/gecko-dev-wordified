@@ -4526,6 +4526,12 @@ composer2D
 TryRenderWithHwc
 (
 mRoot
+mCompositor
+-
+>
+GetWidget
+(
+)
 mGeometryChanged
 )
 )
@@ -5153,6 +5159,12 @@ composer2D
 >
 Render
 (
+mCompositor
+-
+>
+GetWidget
+(
+)
 )
 ;
 }
