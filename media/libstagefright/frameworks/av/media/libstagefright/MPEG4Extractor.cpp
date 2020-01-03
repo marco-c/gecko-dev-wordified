@@ -9203,7 +9203,7 @@ height
 }
 else
 {
-ALOGE
+ALOGV
 (
 "
 No
