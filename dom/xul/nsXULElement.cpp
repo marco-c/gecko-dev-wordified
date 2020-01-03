@@ -9720,13 +9720,11 @@ mControllers
 ;
 NS_ASSERTION
 (
-NS_SUCCEEDED
-(
+!
 rv
 .
-ErrorCode
+Failed
 (
-)
 )
 "
 unable

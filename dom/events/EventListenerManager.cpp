@@ -5892,7 +5892,7 @@ result
 =
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

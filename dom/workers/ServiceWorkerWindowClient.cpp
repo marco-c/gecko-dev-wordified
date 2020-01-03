@@ -793,10 +793,6 @@ promise
 MaybeReject
 (
 aRv
-.
-ErrorCode
-(
-)
 )
 ;
 }
