@@ -1267,10 +1267,6 @@ nsWindow
 *
 mParent
 ;
-nsWindow
-*
-mFocus
-;
 double
 mStartDist
 ;
