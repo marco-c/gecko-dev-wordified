@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsFrameManager
 .
 h
