@@ -331,10 +331,6 @@ nsBoxFrame
 (
 aContext
 )
-mMenuBarListener
-(
-nullptr
-)
 mStayActive
 (
 false
@@ -397,11 +393,6 @@ new
 nsMenuBarListener
 (
 this
-)
-;
-NS_ADDREF
-(
-mMenuBarListener
 )
 ;
 /
@@ -2315,10 +2306,9 @@ mMenuBarListener
 true
 )
 ;
-NS_IF_RELEASE
-(
 mMenuBarListener
-)
+=
+nullptr
 ;
 nsBoxFrame
 :

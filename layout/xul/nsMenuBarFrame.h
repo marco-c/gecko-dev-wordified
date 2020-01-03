@@ -663,8 +663,10 @@ aResult
 endif
 protected
 :
+nsRefPtr
+<
 nsMenuBarListener
-*
+>
 mMenuBarListener
 ;
 /
