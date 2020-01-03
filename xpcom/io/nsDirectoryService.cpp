@@ -709,16 +709,6 @@ localFile
 new
 nsLocalFile
 ;
-if
-(
-!
-localFile
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 NS_ADDREF
 (
 localFile

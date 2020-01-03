@@ -627,16 +627,6 @@ nsScriptableInputStream
 (
 )
 ;
-if
-(
-!
-sis
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 NS_ADDREF
 (
 sis
