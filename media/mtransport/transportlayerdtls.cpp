@@ -2418,14 +2418,7 @@ version_range
 =
 {
 SSL_LIBRARY_VERSION_TLS_1_1
-SSL_LIBRARY_VERSION_TLS_1_1
-/
-/
-version
-intolerance
-;
-bug
-1052610
+SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 rv
