@@ -528,6 +528,10 @@ ionCompiling
 (
 false
 )
+gcSweeping
+(
+false
+)
 #
 endif
 activeCompilations

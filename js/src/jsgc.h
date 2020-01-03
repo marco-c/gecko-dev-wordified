@@ -6477,6 +6477,7 @@ dependencies
 .
 public
 :
+virtual
 void
 runFromHelperThread
 (
