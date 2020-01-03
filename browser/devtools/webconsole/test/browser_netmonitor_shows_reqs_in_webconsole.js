@@ -390,6 +390,12 @@ panelWin
 .
 NetMonitorView
 ;
+RequestsMenu
+.
+lazyUpdate
+=
+false
+;
 is
 (
 RequestsMenu
