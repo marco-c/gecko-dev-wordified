@@ -5785,6 +5785,7 @@ simple
 command
         
 if
+not
 self
 .
 _checkCmd
@@ -5798,8 +5799,9 @@ echo
 "
 ]
 )
-is
-None
+=
+=
+0
 :
             
 raise
