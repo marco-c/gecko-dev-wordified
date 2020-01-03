@@ -2532,6 +2532,12 @@ swm
 >
 SetSkipWaitingFlag
 (
+workerPrivate
+-
+>
+GetPrincipal
+(
+)
 mScope
 workerPrivate
 -
@@ -4055,6 +4061,8 @@ object
 nsIGlobalObject
 *
 globalObject
+=
+nullptr
 ;
 return
 NS_SUCCEEDED
@@ -4084,6 +4092,8 @@ object
 nsIGlobalObject
 *
 globalObject
+=
+nullptr
 ;
 return
 NS_SUCCEEDED

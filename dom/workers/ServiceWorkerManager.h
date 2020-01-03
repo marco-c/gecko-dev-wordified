@@ -1432,6 +1432,9 @@ aId
 nsresult
 SetSkipWaitingFlag
 (
+nsIPrincipal
+*
+aPrincipal
 const
 nsCString
 &
