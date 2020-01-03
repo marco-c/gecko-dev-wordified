@@ -515,14 +515,14 @@ role
 R
 >
 class
-RoleTAccessible
+EnumRoleAccessible
 :
 public
 AccessibleWrap
 {
 public
 :
-RoleTAccessible
+EnumRoleAccessible
 (
 nsIContent
 *
@@ -583,7 +583,7 @@ protected
 :
 virtual
 ~
-RoleTAccessible
+EnumRoleAccessible
 (
 )
 {
