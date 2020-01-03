@@ -14706,7 +14706,10 @@ kind
 =
 GetBackgroundAllocKind
 (
-GuessObjectGCKind
+gc
+:
+:
+GetGCObjectKind
 (
 srcObj
 -
