@@ -5465,9 +5465,6 @@ const
 ObjectVector
 &
 targets
-ObjectVector
-&
-originals
 CallInfo
 &
 callInfo
@@ -5483,9 +5480,6 @@ const
 ObjectVector
 &
 targets
-ObjectVector
-&
-originals
 BoolVector
 &
 choiceSet
@@ -5511,8 +5505,6 @@ callInfo
 MBasicBlock
 *
 dispatchBlock
-bool
-clonedAtCallsite
 )
 ;
 bool
@@ -5577,18 +5569,6 @@ CallInfo
 callInfo
 )
 ;
-MDefinition
-*
-makeCallsiteClone
-(
-JSFunction
-*
-target
-MDefinition
-*
-fun
-)
-;
 MCall
 *
 makeCallHelper
@@ -5599,8 +5579,6 @@ target
 CallInfo
 &
 callInfo
-bool
-cloneAtCallsite
 )
 ;
 bool
@@ -5612,8 +5590,6 @@ target
 CallInfo
 &
 callInfo
-bool
-cloneAtCallsite
 )
 ;
 MDefinition

@@ -621,13 +621,6 @@ addressOfEnumerators
 )
 ;
 const
-CallsiteCloneTable
-&
-callsiteClones
-(
-)
-;
-const
 JitCompartment
 *
 jitCompartment

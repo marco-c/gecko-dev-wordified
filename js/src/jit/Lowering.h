@@ -1751,14 +1751,6 @@ ins
 )
 ;
 void
-visitCallsiteCloneCache
-(
-MCallsiteCloneCache
-*
-ins
-)
-;
-void
 visitCallGetElement
 (
 MCallGetElement

@@ -139,9 +139,6 @@ false
 AssertionFailed
 :
 false
-SetScriptHints
-:
-false
 MakeConstructible
 :
 false
