@@ -709,6 +709,15 @@ content
 .
 realFrameElement
 ;
+if
+(
+!
+sysFrame
+)
+{
+return
+;
+}
 let
 sysDocument
 =
