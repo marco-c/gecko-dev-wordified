@@ -117,12 +117,10 @@ BUFFER_SIZE
 define
 COMMAND_SIZE
 256
-const
-uint32_t
-kPropertyValueMax
-=
+#
+define
+PROPERTY_VALUE_MAX
 80
-;
 /
 /
 Intentionally
@@ -226,7 +224,7 @@ GetWifiP2pSupported
 char
 propP2pSupported
 [
-kPropertyValueMax
+PROPERTY_VALUE_MAX
 ]
 ;
 property_get
@@ -2457,7 +2455,7 @@ WpaSupplicant
 char
 propVersion
 [
-kPropertyValueMax
+PROPERTY_VALUE_MAX
 ]
 ;
 property_get
