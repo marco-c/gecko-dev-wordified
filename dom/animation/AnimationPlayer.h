@@ -196,6 +196,9 @@ JSContext
 class
 nsCSSPropertySet
 ;
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -806,6 +809,13 @@ const
 ;
 StickyTimeDuration
 SourceContentEnd
+(
+)
+const
+;
+nsIDocument
+*
+GetRenderedDocument
 (
 )
 const
