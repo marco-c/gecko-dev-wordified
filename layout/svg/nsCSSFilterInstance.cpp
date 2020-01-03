@@ -228,7 +228,7 @@ aShadowFallbackColor
 const
 nsIntRect
 &
-aTargetBBoxInFilterSpace
+aTargetBoundsInFilterSpace
 const
 gfxMatrix
 &
@@ -243,9 +243,9 @@ mShadowFallbackColor
 (
 aShadowFallbackColor
 )
-mTargetBBoxInFilterSpace
+mTargetBoundsInFilterSpace
 (
-aTargetBBoxInFilterSpace
+aTargetBoundsInFilterSpace
 )
 mFrameSpaceInCSSPxToFilterSpaceTransform
 (
@@ -2241,7 +2241,7 @@ inputIndex
 0
 )
 ?
-mTargetBBoxInFilterSpace
+mTargetBoundsInFilterSpace
 :
 aPrimitiveDescrs
 [
