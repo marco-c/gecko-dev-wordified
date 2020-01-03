@@ -184,16 +184,6 @@ jumpTarget
 :
 1
 ;
-bool
-jumpFallthrough
-:
-1
-;
-bool
-fallthrough
-:
-1
-;
 /
 /
 If

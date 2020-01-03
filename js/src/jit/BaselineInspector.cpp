@@ -2104,7 +2104,7 @@ bool
 BaselineInspector
 :
 :
-hasSeenNonStringIterNext
+hasSeenNonStringIterMore
 (
 jsbytecode
 *
@@ -2120,7 +2120,7 @@ pc
 )
 =
 =
-JSOP_ITERNEXT
+JSOP_MOREITER
 )
 ;
 if
@@ -2157,7 +2157,7 @@ return
 stub
 -
 >
-toIteratorNext_Fallback
+toIteratorMore_Fallback
 (
 )
 -

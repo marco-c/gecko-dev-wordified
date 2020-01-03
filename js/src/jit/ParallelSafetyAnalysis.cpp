@@ -1482,11 +1482,11 @@ IteratorStart
 )
 UNSAFE_OP
 (
-IteratorNext
+IteratorMore
 )
 UNSAFE_OP
 (
-IteratorMore
+IsNoIter
 )
 UNSAFE_OP
 (
