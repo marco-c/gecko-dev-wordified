@@ -311,6 +311,8 @@ uint32_t
 aParsed
 uint32_t
 aDecoded
+uint32_t
+aDropped
 )
 MOZ_FINAL
 MOZ_OVERRIDE

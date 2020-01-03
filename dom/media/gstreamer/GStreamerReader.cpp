@@ -4371,6 +4371,7 @@ NotifyDecodedFrames
 (
 0
 1
+0
 )
 ;
 #
@@ -4440,6 +4441,16 @@ isKeyframe
 )
 )
 {
+mDecoder
+-
+>
+NotifyDecodedFrames
+(
+0
+0
+1
+)
+;
 gst_buffer_unref
 (
 buffer
@@ -6824,6 +6835,7 @@ mDecoder
 NotifyDecodedFrames
 (
 1
+0
 0
 )
 ;

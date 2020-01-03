@@ -396,14 +396,17 @@ aOffset
 Increments
 the
 parsed
-and
 decoded
+and
+dropped
 frame
 counters
 by
 the
 passed
 in
+/
+/
 counts
 .
 /
@@ -423,6 +426,8 @@ uint32_t
 aParsed
 uint32_t
 aDecoded
+uint32_t
+aDropped
 )
 =
 0
@@ -1048,6 +1053,10 @@ mDecoded
 (
 0
 )
+mDropped
+(
+0
+)
 mDecoder
 (
 aDecoder
@@ -1071,6 +1080,7 @@ NotifyDecodedFrames
 (
 mParsed
 mDecoded
+mDropped
 )
 ;
 }
@@ -1080,6 +1090,9 @@ mParsed
 ;
 uint32_t
 mDecoded
+;
+uint32_t
+mDropped
 ;
 private
 :

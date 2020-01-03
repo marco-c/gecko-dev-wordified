@@ -912,6 +912,12 @@ frame
 per
 chunk
 .
+a
+.
+mDropped
++
++
+;
 continue
 ;
 }
@@ -1004,6 +1010,12 @@ frame
 per
 chunk
 .
+a
+.
+mDropped
++
++
+;
 continue
 ;
 }

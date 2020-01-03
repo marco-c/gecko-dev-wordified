@@ -1802,7 +1802,7 @@ SkipVideoDemuxToNextKeyFrame
 aTimeThreshold
 a
 .
-mParsed
+mDropped
 )
 ;
 if
@@ -1829,6 +1829,14 @@ return
 false
 ;
 }
+a
+.
+mParsed
+=
+a
+.
+mDropped
+;
 aKeyframeSkip
 =
 false

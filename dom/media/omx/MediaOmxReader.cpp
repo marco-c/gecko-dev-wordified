@@ -2292,7 +2292,9 @@ mGraphicBuffer
 continue
 ;
 }
-parsed
+a
+.
+mParsed
 +
 +
 ;
@@ -2933,10 +2935,14 @@ mDecoded
 ;
 NS_ASSERTION
 (
-decoded
+a
+.
+mDecoded
 <
 =
-parsed
+a
+.
+mParsed
 "
 Expect
 to
