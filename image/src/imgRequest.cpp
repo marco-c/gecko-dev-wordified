@@ -3858,17 +3858,6 @@ if
 mRequest
 )
 {
-nsCOMPtr
-<
-nsIMultiPartChannel
->
-multiPartChannel
-=
-do_QueryInterface
-(
-aRequest
-)
-;
 MOZ_ASSERT
 (
 multiPartChannel
