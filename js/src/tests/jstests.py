@@ -2450,18 +2450,18 @@ test
                 
 tmp_test
 .
-options
+jitflags
 =
 copy
 (
 test
 .
-options
+jitflags
 )
                 
 tmp_test
 .
-options
+jitflags
 .
 extend
 (

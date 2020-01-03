@@ -919,8 +919,6 @@ FAIL
 output
 .
 test
-.
-path
 time
 =
 output
@@ -1019,10 +1017,6 @@ dev_label
 append
 (
 result
-.
-test
-.
-path
 )
             
 if
@@ -1406,8 +1400,6 @@ label
 result
 .
 test
-.
-path
 time
 =
 output
@@ -1454,8 +1446,6 @@ tup
 result
 .
 test
-.
-path
 time
 =
 output
@@ -1879,7 +1869,7 @@ completed
         
 for
 label
-paths
+results
 in
 sorted
 (
@@ -1909,9 +1899,9 @@ label
 )
             
 for
-path
+result
 in
-paths
+results
 :
                 
 print
@@ -1923,7 +1913,26 @@ print
 .
 format
 (
+'
+'
+.
+join
+(
+result
+.
+test
+.
+jitflags
++
+                                               
+[
+result
+.
+test
+.
 path
+]
+)
 )
 )
         
@@ -1969,7 +1978,7 @@ groups
 :
                     
 for
-path
+result
 in
 self
 .
@@ -1983,6 +1992,10 @@ REGRESSIONS
                         
 print
 (
+result
+.
+test
+.
 path
 file
 =
@@ -2000,7 +2013,7 @@ groups
 :
                     
 for
-path
+result
 in
 self
 .
@@ -2014,6 +2027,10 @@ TIMEOUTS
                         
 print
 (
+result
+.
+test
+.
 path
 file
 =
@@ -2105,7 +2122,7 @@ print_tinderbox_result
 (
 self
 label
-path
+test
 message
 =
 None
@@ -2130,20 +2147,66 @@ result
 |
 "
 +
+test
+.
 path
         
-result
-+
+args
 =
-"
-|
-"
-+
+[
+]
+        
+if
 self
 .
 options
 .
 shell_args
+:
+            
+args
+.
+append
+(
+self
+.
+options
+.
+shell_args
+)
+        
+args
++
+=
+test
+.
+jitflags
+        
+result
++
+=
+'
+|
+(
+args
+:
+"
+{
+}
+"
+)
+'
+.
+format
+(
+'
+'
+.
+join
+(
+args
+)
+)
         
 if
 message

@@ -654,6 +654,25 @@ pass
 to
 the
 shell
+        
+self
+.
+jitflags
+=
+[
+]
+#
+[
+str
+]
+:
+JIT
+flags
+to
+pass
+to
+the
+shell
     
 staticmethod
     
@@ -783,7 +802,13 @@ js_cmd_prefix
 +
 self
 .
+jitflags
++
+self
+.
 options
+\
+              
 +
 Test
 .
@@ -791,8 +816,6 @@ prefix_command
 (
 dirname
 )
-\
-              
 +
 [
 '
