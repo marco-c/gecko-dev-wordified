@@ -1226,7 +1226,7 @@ AsyncPanZoom
 is
 enabled
 bool
-mAPZenabled
+mAsyncPanZoomEnabled
 ;
 bool
 mEndCaretVisible
