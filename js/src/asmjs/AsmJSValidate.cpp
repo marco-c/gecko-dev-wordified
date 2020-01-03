@@ -30381,7 +30381,7 @@ if
 (
 firstType
 .
-isInt
+isSigned
 (
 )
 )
@@ -30399,7 +30399,7 @@ firstType
 Type
 :
 :
-Int
+Signed
 ;
 }
 else
@@ -30433,15 +30433,6 @@ toChars
 )
 ;
 }
-MIRType
-opType
-=
-firstType
-.
-toMIRType
-(
-)
-;
 MDefinition
 *
 lastDef
@@ -30552,7 +30543,11 @@ minMax
 (
 lastDef
 nextDef
-opType
+firstType
+.
+toMIRType
+(
+)
 isMax
 )
 ;
