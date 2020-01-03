@@ -1040,7 +1040,9 @@ styleWindow
 =
 aStyleInspector
 .
-window
+doc
+.
+defaultView
 ;
 this
 .
@@ -1048,9 +1050,7 @@ styleDocument
 =
 aStyleInspector
 .
-window
-.
-document
+doc
 ;
 this
 .
