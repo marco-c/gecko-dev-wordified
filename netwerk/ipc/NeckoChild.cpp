@@ -1341,10 +1341,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsCString
-&
-aNetworkInterface
 )
 {
 /

@@ -2587,10 +2587,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsCString
-&
-aNetworkInterface
 )
 {
 DNSRequestParent
@@ -2630,10 +2626,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsCString
-&
-aNetworkInterface
 )
 {
 static_cast
@@ -2650,7 +2642,6 @@ DoAsyncResolve
 (
 aHost
 aFlags
-aNetworkInterface
 )
 ;
 return

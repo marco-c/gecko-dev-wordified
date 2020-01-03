@@ -237,11 +237,6 @@ flags
 uint16_t
 af
 ;
-const
-char
-*
-netInterface
-;
 }
 ;
 /
@@ -1608,10 +1603,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsResolveHostCallback
 *
 callback
@@ -1680,10 +1671,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsResolveHostCallback
 *
 callback
@@ -1769,10 +1756,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsIDNSListener
 *
 aListener
