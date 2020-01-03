@@ -2898,6 +2898,7 @@ gfxDWriteFont
 IsValid
 (
 )
+const
 {
 return
 mFontFace

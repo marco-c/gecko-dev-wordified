@@ -185,6 +185,7 @@ uint32_t
 GetSpaceGlyph
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSpaceGlyph
@@ -198,6 +199,7 @@ gfxContext
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -232,6 +234,7 @@ aSpacing
 uint16_t
 aOrientation
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -286,6 +289,7 @@ ProvidesGlyphWidths
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mFontEntry
@@ -321,6 +325,7 @@ aDrawTarget
 uint16_t
 aGID
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -348,6 +353,7 @@ DrawTarget
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -410,6 +416,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 FONT_TYPE_MAC
@@ -424,6 +431,7 @@ Metrics
 GetHorizontalMetrics
 (
 )
+MOZ_OVERRIDE
 {
 return
 mMetrics
@@ -465,6 +473,7 @@ gfxShapedText
 *
 aShapedText
 )
+MOZ_OVERRIDE
 ;
 void
 InitMetrics
