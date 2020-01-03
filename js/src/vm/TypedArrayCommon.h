@@ -3815,7 +3815,7 @@ tarray
 )
 )
 return
-nullptr
+false
 ;
 Rooted
 <
