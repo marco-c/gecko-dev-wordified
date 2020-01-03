@@ -579,10 +579,16 @@ mRequests
 .
 MoveElementsFrom
 (
+mozilla
+:
+:
+Move
+(
 aList
 -
 >
 mRequests
+)
 )
 ;
 }

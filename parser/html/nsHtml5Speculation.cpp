@@ -63,6 +63,10 @@ nsHtml5Speculation
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsHtml5Speculation
 :
 :
@@ -154,7 +158,10 @@ mOpQueue
 .
 MoveElementsFrom
 (
+Move
+(
 aOpQueue
+)
 )
 ;
 }

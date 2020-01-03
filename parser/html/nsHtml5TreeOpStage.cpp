@@ -63,6 +63,10 @@ nsHtml5TreeOpStage
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsHtml5TreeOpStage
 :
 :
@@ -134,7 +138,10 @@ mOpQueue
 .
 MoveElementsFrom
 (
+Move
+(
 aOpQueue
+)
 )
 ;
 }
@@ -191,7 +198,10 @@ aOpQueue
 .
 MoveElementsFrom
 (
+Move
+(
 mOpQueue
+)
 )
 ;
 }
@@ -218,7 +228,10 @@ aSpeculativeLoadQueue
 .
 MoveElementsFrom
 (
+Move
+(
 mSpeculativeLoadQueue
+)
 )
 ;
 }
@@ -269,7 +282,10 @@ mSpeculativeLoadQueue
 .
 MoveElementsFrom
 (
+Move
+(
 aSpeculativeLoadQueue
+)
 )
 ;
 }
@@ -320,7 +336,10 @@ aSpeculativeLoadQueue
 .
 MoveElementsFrom
 (
+Move
+(
 mSpeculativeLoadQueue
+)
 )
 ;
 }

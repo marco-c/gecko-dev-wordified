@@ -19088,10 +19088,16 @@ mMergedFrames
 .
 MoveElementsFrom
 (
+mozilla
+:
+:
+Move
+(
 aOther
 -
 >
 mMergedFrames
+)
 )
 ;
 }
