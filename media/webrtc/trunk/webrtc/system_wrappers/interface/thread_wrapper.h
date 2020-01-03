@@ -360,7 +360,7 @@ char
 *
 thread_name
 =
-0
+NULL
 )
 ;
 static
@@ -381,7 +381,7 @@ char
 *
 thread_name
 =
-0
+NULL
 )
 ;
 /
