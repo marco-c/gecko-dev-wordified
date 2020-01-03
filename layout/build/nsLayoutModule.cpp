@@ -1439,6 +1439,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 nsMixedContentBlocker
 .
 h
