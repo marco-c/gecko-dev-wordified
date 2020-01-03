@@ -1091,6 +1091,10 @@ mColorConverterBufferSize
 (
 0
 )
+mExtractor
+(
+nullptr
+)
 {
 mHandler
 =
