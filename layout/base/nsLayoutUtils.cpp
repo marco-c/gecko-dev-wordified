@@ -10591,6 +10591,9 @@ nsLayoutUtils
 :
 GetAnimatedGeometryRootForFrame
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -10858,6 +10861,7 @@ sf
 >
 IsScrollingActive
 (
+aBuilder
 )
 &
 &
@@ -11030,6 +11034,7 @@ GetScrolledFrame
 return
 GetAnimatedGeometryRootForFrame
 (
+aBuilder
 scrolledFrame
 aBuilder
 -
@@ -11131,6 +11136,7 @@ viewport
 return
 GetAnimatedGeometryRootForFrame
 (
+aBuilder
 viewportFrame
 aBuilder
 -
@@ -11145,6 +11151,7 @@ viewportFrame
 return
 GetAnimatedGeometryRootForFrame
 (
+aBuilder
 f
 aItem
 -

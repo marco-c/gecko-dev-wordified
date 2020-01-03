@@ -23465,6 +23465,10 @@ nsLayoutUtils
 :
 GetAnimatedGeometryRootForFrame
 (
+this
+-
+>
+mBuilder
 fParent
 mContainerAnimatedGeometryRoot
 )
@@ -24062,6 +24066,7 @@ nsLayoutUtils
 :
 GetAnimatedGeometryRootForFrame
 (
+mBuilder
 e
 -
 >

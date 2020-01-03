@@ -188,6 +188,9 @@ nsRenderingContext
 class
 nsIAtom
 ;
+class
+nsDisplayListBuilder
+;
 namespace
 mozilla
 {
@@ -2215,6 +2218,9 @@ virtual
 bool
 IsScrollingActive
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 =
 0
