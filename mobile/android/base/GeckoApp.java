@@ -6554,9 +6554,6 @@ float
 )
 height
 /
-(
-float
-)
 idealHeight
 )
 ;
@@ -6574,9 +6571,6 @@ float
 )
 width
 /
-(
-float
-)
 idealWidth
 )
 ;

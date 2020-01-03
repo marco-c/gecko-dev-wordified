@@ -985,9 +985,6 @@ mJavaTime
 {
 return
 (
-double
-)
-(
 sample
 .
 mJavaTime

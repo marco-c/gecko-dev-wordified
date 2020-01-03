@@ -410,9 +410,6 @@ len
 )
 /
 (
-(
-double
-)
 BLOCKSIZE
 )
 )

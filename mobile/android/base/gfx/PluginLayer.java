@@ -689,9 +689,6 @@ float
 )
 height
 /
-(
-float
-)
 width
 )
 *
@@ -717,9 +714,6 @@ float
 )
 width
 /
-(
-float
-)
 height
 )
 *

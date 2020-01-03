@@ -534,9 +534,6 @@ value
 {
 SHOW_MARGINS_THRESHOLD
 =
-(
-float
-)
 value
 /
 100

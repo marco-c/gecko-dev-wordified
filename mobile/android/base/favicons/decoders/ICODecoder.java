@@ -2649,9 +2649,6 @@ ICO_HEADER_LENGTH_BYTES
 12
 ]
 =
-(
-byte
-)
 singlePayloadOffset
 ;
 decodeTarget
@@ -2661,9 +2658,6 @@ ICO_HEADER_LENGTH_BYTES
 13
 ]
 =
-(
-byte
-)
 (
 singlePayloadOffset
 >
@@ -2680,9 +2674,6 @@ ICO_HEADER_LENGTH_BYTES
 ]
 =
 (
-byte
-)
-(
 singlePayloadOffset
 >
 >
@@ -2697,9 +2688,6 @@ ICO_HEADER_LENGTH_BYTES
 15
 ]
 =
-(
-byte
-)
 (
 singlePayloadOffset
 >
