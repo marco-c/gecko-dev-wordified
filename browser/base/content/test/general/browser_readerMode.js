@@ -717,12 +717,10 @@ yield
 promiseTabLoadEvent
 (
 newTab
-TEST_PATH
-+
 "
-download_page
-.
-html
+about
+:
+robots
 "
 )
 ;
