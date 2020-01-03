@@ -332,6 +332,11 @@ ShutdownType
 aType
 )
 ;
+void
+KillWidget
+(
+)
+;
 /
 /
 The
