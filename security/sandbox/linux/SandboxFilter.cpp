@@ -2897,14 +2897,6 @@ time
 )
 )
 ;
-Allow
-(
-SYSCALL
-(
-sched_yield
-)
-)
-;
 /
 /
 Nothing
