@@ -7850,7 +7850,7 @@ intervals
 with
 moves
 BitSet
-*
+&
 live
 =
 liveIn
@@ -7871,15 +7871,14 @@ BitSet
 Iterator
 liveRegId
 (
-*
 live
 )
 ;
 liveRegId
 ;
++
++
 liveRegId
-+
-+
 )
 {
 VirtualRegister

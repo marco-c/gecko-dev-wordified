@@ -49523,11 +49523,6 @@ gen
 alloc
 (
 )
-graph
-.
-totalSlotCount
-(
-)
 )
 )
 return
