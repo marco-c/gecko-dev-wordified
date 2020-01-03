@@ -895,17 +895,6 @@ reason
 .
 account
 "
-LOGIN_FAILED_NOT_READY
-:
-"
-error
-.
-login
-.
-reason
-.
-initializing
-"
 /
 /
 sync
