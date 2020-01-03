@@ -3989,6 +3989,10 @@ if
 mOwner
 )
 {
+Invalidate
+(
+)
+;
 mOwner
 -
 >
