@@ -184,7 +184,7 @@ args
 MOZ_LOG
 (
 gWyciwygLog
-1
+PR_LOG_ERROR
 args
 )
 #
@@ -196,7 +196,7 @@ args
 MOZ_LOG
 (
 gWyciwygLog
-2
+PR_LOG_WARNING
 args
 )
 #
@@ -208,7 +208,7 @@ args
 MOZ_LOG
 (
 gWyciwygLog
-3
+PR_LOG_INFO
 args
 )
 #
@@ -220,7 +220,7 @@ args
 MOZ_LOG
 (
 gWyciwygLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -241,7 +241,7 @@ LOG1_ENABLED
 MOZ_LOG_TEST
 (
 gWyciwygLog
-1
+PR_LOG_ERROR
 )
 #
 define
@@ -251,7 +251,7 @@ LOG2_ENABLED
 MOZ_LOG_TEST
 (
 gWyciwygLog
-2
+PR_LOG_WARNING
 )
 #
 define
@@ -261,7 +261,7 @@ LOG3_ENABLED
 MOZ_LOG_TEST
 (
 gWyciwygLog
-3
+PR_LOG_INFO
 )
 #
 define
@@ -271,7 +271,7 @@ LOG4_ENABLED
 MOZ_LOG_TEST
 (
 gWyciwygLog
-4
+PR_LOG_DEBUG
 )
 #
 define

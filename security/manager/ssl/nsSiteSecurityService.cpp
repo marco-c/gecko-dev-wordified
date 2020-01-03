@@ -390,7 +390,7 @@ MOZ_LOG
 GetSSSLog
 (
 )
-4
+PR_LOG_DEBUG
 args
 )
 /
