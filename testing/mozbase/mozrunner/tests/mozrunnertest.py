@@ -134,6 +134,17 @@ mozrunner
 .
 FirefoxRunner
 (
+os
+.
+environ
+[
+'
+BROWSER_PATH
+'
+]
+                                              
+profile
+=
 self
 .
 profile
