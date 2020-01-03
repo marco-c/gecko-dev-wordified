@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsZipArchive
 .
 h
@@ -1209,6 +1216,12 @@ nsCStringHashKey
 CacheEntry
 >
 mTable
+;
+nsTArray
+<
+nsCString
+>
+mPendingWrites
 ;
 nsRefPtr
 <
