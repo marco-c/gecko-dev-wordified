@@ -293,10 +293,6 @@ aPresContext
 ;
 /
 /
-nsISupports
-NS_DECL_ISUPPORTS
-/
-/
 nsIStyleRuleProcessor
 (
 parts
