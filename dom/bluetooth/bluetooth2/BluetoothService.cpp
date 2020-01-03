@@ -928,6 +928,14 @@ return
 NS_OK
 ;
 }
+private
+:
+~
+StartupTask
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS

@@ -265,6 +265,8 @@ aController
 )
 ;
 }
+private
+:
 virtual
 ~
 CheckProfileStatusCallback
@@ -276,8 +278,6 @@ mController
 nullptr
 ;
 }
-private
-:
 nsRefPtr
 <
 BluetoothProfileController

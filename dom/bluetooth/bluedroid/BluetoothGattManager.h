@@ -183,12 +183,6 @@ BluetoothProfileResultHandler
 aRes
 )
 ;
-virtual
-~
-BluetoothGattManager
-(
-)
-;
 void
 Connect
 (
@@ -405,6 +399,11 @@ aRunnable
 ;
 private
 :
+~
+BluetoothGattManager
+(
+)
+;
 class
 CleanupResultHandler
 ;
