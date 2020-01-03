@@ -1295,9 +1295,9 @@ nsTimerImpl
 InitCommon
 (
 uint32_t
-aType
-uint32_t
 aDelay
+uint32_t
+aType
 )
 {
 nsresult
@@ -1459,8 +1459,8 @@ aClosure
 return
 InitCommon
 (
-aType
 aDelay
+aType
 )
 ;
 }
@@ -1519,8 +1519,8 @@ i
 return
 InitCommon
 (
-aType
 aDelay
+aType
 )
 ;
 }
@@ -1579,8 +1579,8 @@ o
 return
 InitCommon
 (
-aType
 aDelay
+aType
 )
 ;
 }
