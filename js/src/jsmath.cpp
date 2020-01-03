@@ -2924,9 +2924,11 @@ return
 true
 ;
 }
-static
 double
-max_double
+js
+:
+:
+math_max_impl
 (
 double
 x
@@ -3069,7 +3071,7 @@ false
 ;
 maxval
 =
-max_double
+math_max_impl
 (
 x
 maxval
@@ -3091,9 +3093,11 @@ return
 true
 ;
 }
-static
 double
-min_double
+js
+:
+:
+math_min_impl
 (
 double
 x
@@ -3236,7 +3240,7 @@ false
 ;
 minval
 =
-min_double
+math_min_impl
 (
 x
 minval
@@ -3317,7 +3321,7 @@ res
 .
 setNumber
 (
-max_double
+math_max_impl
 (
 x
 y
@@ -3329,7 +3333,7 @@ res
 .
 setNumber
 (
-min_double
+math_min_impl
 (
 x
 y
