@@ -160,6 +160,7 @@ net
 {
 class
 RtspController
+MOZ_FINAL
 :
 public
 nsIStreamingProtocolController
