@@ -474,6 +474,15 @@ aCsp
 override
 ;
 NS_IMETHOD
+GetCspJSON
+(
+nsAString
+&
+outCSPinJSON
+)
+override
+;
+NS_IMETHOD
 GetIsNullPrincipal
 (
 bool
