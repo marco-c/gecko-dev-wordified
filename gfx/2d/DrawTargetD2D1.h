@@ -1205,6 +1205,12 @@ ID2D1Bitmap1
 >
 mTempBitmap
 ;
+RefPtr
+<
+ID2D1Effect
+>
+mBlendEffect
+;
 /
 /
 We
