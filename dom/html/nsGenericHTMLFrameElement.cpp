@@ -487,6 +487,16 @@ GetDoc
 (
 )
 ;
+if
+(
+!
+doc
+)
+{
+return
+nullptr
+;
+}
 /
 /
 Return
