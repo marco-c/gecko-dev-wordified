@@ -16866,7 +16866,7 @@ with
 the
 code
 in
-RecordFrameMetrics
+ComputeFrameMetrics
 (
 )
 ;
@@ -43250,7 +43250,7 @@ root
 composition
 bounds
 in
-RecordFrameMetrics
+ComputeFrameMetrics
 .
 /
 /
