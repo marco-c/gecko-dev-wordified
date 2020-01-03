@@ -25,7 +25,7 @@ itemNode
 let
 eventPromise
 =
-BrowserUITestUtils
+BrowserTestUtils
 .
 waitForEvent
 (
