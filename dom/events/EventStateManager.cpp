@@ -9543,6 +9543,15 @@ if
 (
 !
 mCurrentTarget
+|
+|
+!
+mCurrentTarget
+-
+>
+GetNearestWidget
+(
+)
 )
 {
 StopTrackingDragGesture
