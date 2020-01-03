@@ -456,7 +456,7 @@ RefPtr
 <
 CompositableHost
 >
-mImageHost
+mCompositableHost
 ;
 }
 ;
