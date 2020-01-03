@@ -604,6 +604,14 @@ mLoadFlags
 LOAD_REPLACE
 )
 ;
+newChannel
+-
+>
+SetLoadInfo
+(
+mLoadInfo
+)
+;
 /
 /
 Try
