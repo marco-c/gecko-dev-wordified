@@ -487,6 +487,9 @@ aEndOffset
 nsString
 *
 aText
+bool
+*
+aValid
 )
 override
 ;
@@ -892,6 +895,9 @@ const
 int32_t
 &
 aPosition
+bool
+*
+aValid
 )
 override
 ;
@@ -911,6 +917,9 @@ const
 int32_t
 &
 aEndPos
+bool
+*
+aValid
 )
 override
 ;
@@ -930,6 +939,9 @@ const
 int32_t
 &
 aEndPos
+bool
+*
+aValid
 )
 override
 ;
@@ -949,6 +961,9 @@ const
 int32_t
 &
 aEndPos
+bool
+*
+aValid
 )
 override
 ;
@@ -964,6 +979,9 @@ const
 int32_t
 &
 aPosition
+bool
+*
+aValid
 )
 override
 ;
