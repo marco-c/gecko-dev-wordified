@@ -253,6 +253,7 @@ PCachePushStreamParent
 AllocPCachePushStreamParent
 (
 )
+override
 ;
 virtual
 bool
@@ -262,6 +263,7 @@ PCachePushStreamParent
 *
 aActor
 )
+override
 ;
 virtual
 bool
