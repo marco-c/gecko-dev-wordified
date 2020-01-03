@@ -5150,14 +5150,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineHaveSameClass
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineToObject
 (
 CallInfo

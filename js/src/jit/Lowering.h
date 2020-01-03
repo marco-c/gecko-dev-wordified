@@ -2023,14 +2023,6 @@ ins
 )
 ;
 void
-visitHaveSameClass
-(
-MHaveSameClass
-*
-ins
-)
-;
-void
 visitHasClass
 (
 MHasClass
