@@ -140,6 +140,14 @@ NPP
 npp
 )
 ;
+static
+void
+OnPluginDestroyPending
+(
+NPP
+npp
+)
+;
 }
 ;
 class
@@ -249,6 +257,9 @@ mJSObj
 const
 NPP
 mNpp
+;
+bool
+mDestroyPending
 ;
 static
 NPObject
