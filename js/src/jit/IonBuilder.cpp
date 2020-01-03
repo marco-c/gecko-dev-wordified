@@ -69549,7 +69549,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 :
 return
 MIRType_Int32x4
@@ -69558,7 +69558,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 :
 return
 MIRType_Float32x4
@@ -69567,7 +69567,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT64
+Float64x2
 :
 return
 MIRType_Undefined
