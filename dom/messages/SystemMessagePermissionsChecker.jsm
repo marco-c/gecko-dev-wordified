@@ -615,14 +615,6 @@ push
 ]
 }
 "
-request
--
-sync
-"
-:
-{
-}
-"
 sms
 -
 delivery
