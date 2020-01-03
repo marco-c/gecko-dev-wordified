@@ -2071,12 +2071,6 @@ ClassInfo
 info
 )
 ;
-bool
-hasIdempotentProtoChain
-(
-)
-const
-;
 /
 *
 *

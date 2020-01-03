@@ -27129,7 +27129,7 @@ toRest
 }
 ;
 class
-LGuardShapePolymorphic
+LGuardReceiverPolymorphic
 :
 public
 LInstructionHelper
@@ -27143,9 +27143,9 @@ public
 :
 LIR_HEADER
 (
-GuardShapePolymorphic
+GuardReceiverPolymorphic
 )
-LGuardShapePolymorphic
+LGuardReceiverPolymorphic
 (
 const
 LAllocation
@@ -27199,7 +27199,7 @@ getTemp
 ;
 }
 const
-MGuardShapePolymorphic
+MGuardReceiverPolymorphic
 *
 mir
 (
@@ -27210,7 +27210,7 @@ return
 mir_
 -
 >
-toGuardShapePolymorphic
+toGuardReceiverPolymorphic
 (
 )
 ;

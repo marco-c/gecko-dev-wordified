@@ -1695,9 +1695,9 @@ ins
 )
 ;
 void
-visitGuardShapePolymorphic
+visitGuardReceiverPolymorphic
 (
-MGuardShapePolymorphic
+MGuardReceiverPolymorphic
 *
 ins
 )
