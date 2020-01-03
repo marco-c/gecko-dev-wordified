@@ -227,7 +227,13 @@ Create
 (
 screen
 visual
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 (
 size
 .

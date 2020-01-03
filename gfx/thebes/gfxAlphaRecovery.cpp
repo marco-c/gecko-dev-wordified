@@ -136,7 +136,13 @@ gfxImageSurface
 whiteSurf
 )
 {
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 size
 =
 blackSurf

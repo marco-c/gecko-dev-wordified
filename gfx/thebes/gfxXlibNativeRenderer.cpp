@@ -2659,7 +2659,7 @@ CreateCairoSurface
 (
 screen
 visual
-gfxIntSize
+IntSize
 (
 size
 .
@@ -2835,7 +2835,7 @@ CopyXlibSurfaceToImage
 cairo_surface_t
 *
 tempXlibSurface
-gfxIntSize
+IntSize
 size
 gfxImageFormat
 format

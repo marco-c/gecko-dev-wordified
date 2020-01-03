@@ -536,9 +536,6 @@ uint8_t
 )
 bytes
 strideBytes
-gfx
-:
-:
 IntSize
 (
 width
@@ -2630,7 +2627,7 @@ IsEmpty
 return
 nullptr
 ;
-gfxIntSize
+IntSize
 size
 (
 int32_t
@@ -5594,7 +5591,7 @@ aData
 gfxImageFormat
 &
 aSuggestedFormat
-gfxIntSize
+IntSize
 &
 aSuggestedSize
 )
@@ -5902,7 +5899,7 @@ gfxImageFormat
 &
 aDestFormat
 const
-gfxIntSize
+IntSize
 &
 aDestSize
 unsigned

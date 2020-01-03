@@ -832,7 +832,7 @@ problem
 .
 mTempSurfaceSize
 =
-gfxIntSize
+IntSize
 (
 (
 int32_t
@@ -947,7 +947,7 @@ about
 "
 mTempSurfaceSize
 =
-gfxIntSize
+IntSize
 (
 (
 int32_t

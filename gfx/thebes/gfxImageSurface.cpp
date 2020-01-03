@@ -265,7 +265,7 @@ char
 *
 aData
 const
-gfxIntSize
+IntSize
 &
 aSize
 long
@@ -293,7 +293,7 @@ MakeInvalid
 {
 mSize
 =
-gfxIntSize
+IntSize
 (
 -
 1
@@ -321,7 +321,7 @@ char
 *
 aData
 const
-gfxIntSize
+IntSize
 &
 aSize
 long
@@ -554,7 +554,7 @@ gfxImageSurface
 gfxImageSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxImageFormat
@@ -811,7 +811,7 @@ gfxImageSurface
 gfxImageSurface
 (
 const
-gfxIntSize
+IntSize
 &
 size
 gfxImageFormat
@@ -938,7 +938,7 @@ gfxImageSurface
 ComputeStride
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 gfxImageFormat
@@ -1190,7 +1190,7 @@ char
 *
 aSrc
 const
-gfxIntSize
+IntSize
 &
 aSize
 long
@@ -1396,7 +1396,7 @@ return
 false
 ;
 }
-gfxIntSize
+IntSize
 size
 (
 data
@@ -1573,7 +1573,7 @@ return
 false
 ;
 }
-gfxIntSize
+IntSize
 size
 (
 data
@@ -1848,7 +1848,7 @@ gfxSubimageSurface
 (
 this
 subData
-gfxIntSize
+IntSize
 (
 (
 int
@@ -1891,7 +1891,7 @@ char
 *
 aData
 const
-gfxIntSize
+IntSize
 &
 aSize
 gfxImageFormat

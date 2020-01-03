@@ -221,7 +221,13 @@ CairoSurface
 }
 }
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 gfxTeeSurface
 :
 :

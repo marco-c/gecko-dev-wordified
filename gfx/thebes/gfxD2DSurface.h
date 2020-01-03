@@ -139,7 +139,13 @@ aContent
 gfxD2DSurface
 (
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 size
 gfxImageFormat
