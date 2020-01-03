@@ -238,6 +238,15 @@ BackgroundChildImpl
 ;
 virtual
 void
+ProcessingError
+(
+Result
+aWhat
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 ActorDestroy
 (
 ActorDestroyReason
