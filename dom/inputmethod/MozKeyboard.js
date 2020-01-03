@@ -2498,11 +2498,8 @@ this
 .
 _window
 .
-DOMError
+Error
 (
-"
-Security
-"
 "
 Should
 have

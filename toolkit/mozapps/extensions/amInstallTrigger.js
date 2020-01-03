@@ -1031,11 +1031,8 @@ this
 .
 _window
 .
-DOMError
-(
-"
 Error
-"
+(
 "
 Missing
 URL
@@ -1081,11 +1078,8 @@ this
 .
 _window
 .
-DOMError
+Error
 (
-"
-SecurityError
-"
 "
 Insufficient
 permissions
