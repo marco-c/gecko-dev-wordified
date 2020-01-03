@@ -2464,9 +2464,7 @@ if
 rt
 -
 >
-hasPendingInterrupt
-(
-)
+interrupt
 )
 {
 /
@@ -7194,9 +7192,7 @@ runtime
 )
 -
 >
-hasPendingInterrupt
-(
-)
+interrupt
 )
 PatchBackedge
 (

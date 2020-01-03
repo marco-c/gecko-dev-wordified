@@ -325,14 +325,14 @@ endif
 const
 void
 *
-addressOfInterruptUint32
+addressOfInterrupt
 (
 )
 ;
 const
 void
 *
-addressOfInterruptParUint32
+addressOfInterruptPar
 (
 )
 ;
