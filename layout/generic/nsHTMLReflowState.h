@@ -1029,9 +1029,9 @@ nsCSSOffsetState
 *
 aState
 nscoord
-aHorizontalPercentBasis
+aInlineDirPercentBasis
 nscoord
-aVerticalPercentBasis
+aBlockDirPercentBasis
 const
 nsMargin
 *
@@ -1176,9 +1176,9 @@ bool
 ComputeMargin
 (
 nscoord
-aHorizontalPercentBasis
+aInlineDirPercentBasis
 nscoord
-aVerticalPercentBasis
+aBlockDirPercentBasis
 )
 ;
 /
@@ -1296,9 +1296,9 @@ bool
 ComputePadding
 (
 nscoord
-aHorizontalPercentBasis
+aInlineDirPercentBasis
 nscoord
-aVerticalPercentBasis
+aBlockDirPercentBasis
 nsIAtom
 *
 aFrameType
@@ -1310,9 +1310,9 @@ void
 InitOffsets
 (
 nscoord
-aHorizontalPercentBasis
+aInlineDirPercentBasis
 nscoord
-aVerticalPercentBasis
+aBlockDirPercentBasis
 nsIAtom
 *
 aFrameType
