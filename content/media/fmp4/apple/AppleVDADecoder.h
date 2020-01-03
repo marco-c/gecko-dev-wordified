@@ -401,6 +401,9 @@ private
 VDADecoder
 mDecoder
 ;
+bool
+mIs106
+;
 /
 /
 Method
