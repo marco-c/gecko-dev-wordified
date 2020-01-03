@@ -981,8 +981,6 @@ player
 .
 source
 .
-effect
-.
 name
 )
 {
@@ -1641,8 +1639,6 @@ this
 player
 .
 source
-.
-effect
 .
 name
 duration

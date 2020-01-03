@@ -407,6 +407,7 @@ Name
 (
 )
 const
+override
 ;
 nsCSSProperty
 TransitionProperty
