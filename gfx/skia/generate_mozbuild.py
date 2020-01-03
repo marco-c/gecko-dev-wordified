@@ -250,6 +250,18 @@ to
 unify
 it
 with
+#
+XXX
+:
+doesn
+'
+t
+build
+with
+Apple
+'
+s
+assembler
 if
 not
 CONFIG
@@ -277,6 +289,18 @@ CONFIG
 GNU_CC
 '
 ]
+and
+CONFIG
+[
+'
+OS_TARGET
+'
+]
+!
+=
+'
+Darwin
+'
 :
     
 SOURCES
