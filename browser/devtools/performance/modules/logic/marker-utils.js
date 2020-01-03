@@ -103,9 +103,7 @@ L10N
 "
 devtools
 /
-shared
-/
-timeline
+performance
 /
 global
 "
@@ -123,9 +121,7 @@ TIMELINE_BLUEPRINT
 "
 devtools
 /
-shared
-/
-timeline
+performance
 /
 global
 "

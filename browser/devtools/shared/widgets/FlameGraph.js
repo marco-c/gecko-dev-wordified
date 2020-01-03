@@ -193,9 +193,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 frame
 -
@@ -214,9 +212,7 @@ CATEGORY_MAPPINGS
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "

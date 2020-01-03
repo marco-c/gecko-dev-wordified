@@ -86,9 +86,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 jit
 "

@@ -87,9 +87,7 @@ L10N
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -107,9 +105,7 @@ CATEGORY_MAPPINGS
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -127,9 +123,7 @@ CATEGORIES
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -147,9 +141,7 @@ CATEGORY_JIT
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -167,9 +159,7 @@ CATEGORY_OTHER
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -187,9 +177,7 @@ JITOptimizations
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 jit
 "
@@ -207,9 +195,7 @@ FrameUtils
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 frame
 -

@@ -57,9 +57,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "

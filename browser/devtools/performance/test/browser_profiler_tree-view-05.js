@@ -70,9 +70,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 tree
 -
@@ -92,9 +90,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 tree
 -

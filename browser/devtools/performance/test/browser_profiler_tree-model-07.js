@@ -57,9 +57,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 global
 "
@@ -82,9 +80,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 tree
 -
