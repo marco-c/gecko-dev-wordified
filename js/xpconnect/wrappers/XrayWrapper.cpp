@@ -7994,6 +7994,7 @@ AutoSetWrapperNotShadowing
 {
 public
 :
+explicit
 AutoSetWrapperNotShadowing
 (
 ResolvingId

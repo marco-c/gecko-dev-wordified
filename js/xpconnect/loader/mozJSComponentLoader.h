@@ -469,6 +469,7 @@ Module
 {
 public
 :
+explicit
 ModuleEntry
 (
 JSContext

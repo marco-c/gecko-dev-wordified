@@ -5193,6 +5193,7 @@ AutoClearPendingException
 {
 public
 :
+explicit
 AutoClearPendingException
 (
 JSContext

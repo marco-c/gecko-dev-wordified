@@ -11575,6 +11575,7 @@ Invoke
 ;
 public
 :
+explicit
 CallMethodHelper
 (
 XPCCallContext

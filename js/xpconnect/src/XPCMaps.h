@@ -1073,6 +1073,7 @@ Native2WrappedNativeMap
 /
 no
 implementation
+explicit
 Native2WrappedNativeMap
 (
 int
@@ -1377,6 +1378,7 @@ IID2WrappedJSClassMap
 /
 no
 implementation
+explicit
 IID2WrappedJSClassMap
 (
 int
@@ -1673,6 +1675,7 @@ IID2NativeInterfaceMap
 /
 no
 implementation
+explicit
 IID2NativeInterfaceMap
 (
 int
@@ -2023,6 +2026,7 @@ ClassInfo2NativeSetMap
 /
 no
 implementation
+explicit
 ClassInfo2NativeSetMap
 (
 int
@@ -2298,6 +2302,7 @@ ClassInfo2WrappedNativeProtoMap
 /
 no
 implementation
+explicit
 ClassInfo2WrappedNativeProtoMap
 (
 int
@@ -2647,6 +2652,7 @@ NativeSetMap
 /
 no
 implementation
+explicit
 NativeSetMap
 (
 int
@@ -2983,6 +2989,7 @@ IID2ThisTranslatorMap
 /
 no
 implementation
+explicit
 IID2ThisTranslatorMap
 (
 int
@@ -3201,6 +3208,7 @@ XPCNativeScriptableSharedMap
 /
 no
 implementation
+explicit
 XPCNativeScriptableSharedMap
 (
 int
@@ -3452,6 +3460,7 @@ XPCWrappedNativeProtoMap
 /
 no
 implementation
+explicit
 XPCWrappedNativeProtoMap
 (
 int

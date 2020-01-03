@@ -2909,6 +2909,7 @@ Base
 public
 :
 MOZ_CONSTEXPR
+explicit
 XrayWrapper
 (
 unsigned
