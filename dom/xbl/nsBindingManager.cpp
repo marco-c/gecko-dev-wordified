@@ -2648,9 +2648,13 @@ bindings
 .
 if
 (
+!
 mBoundContentSet
 )
 {
+return
+;
+}
 BindingTableReadClosure
 closure
 ;
@@ -2703,7 +2707,6 @@ ExecuteDetachedHandler
 (
 )
 ;
-}
 }
 }
 nsresult
@@ -3054,9 +3057,13 @@ FlushSkinBindings
 {
 if
 (
+!
 mBoundContentSet
 )
 {
+return
+;
+}
 mBoundContentSet
 -
 >
@@ -3066,7 +3073,6 @@ MarkForDeath
 nullptr
 )
 ;
-}
 }
 /
 /
@@ -4743,9 +4749,13 @@ aArray
 {
 if
 (
+!
 mBoundContentSet
 )
 {
+return
+;
+}
 mBoundContentSet
 -
 >
@@ -4756,7 +4766,6 @@ EnumAppendAllSheets
 aArray
 )
 ;
-}
 }
 static
 void
