@@ -239,6 +239,10 @@ abortReason_
 (
 AbortReason_NoAbort
 )
+shouldForceAbort_
+(
+false
+)
 abortedNewScriptPropertiesTypes_
 (
 *

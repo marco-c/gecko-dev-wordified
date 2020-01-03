@@ -1864,12 +1864,17 @@ Register
 base
 Register
 index
+int32_t
+offset
+=
+0
 )
 :
 BaseValueIndex
 (
 base
 index
+offset
 )
 {
 NativeObject
