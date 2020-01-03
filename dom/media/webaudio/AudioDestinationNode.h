@@ -535,7 +535,7 @@ bool
 mIsOffline
 ;
 bool
-mAudioChannelAgentMuted
+mAudioChannelAgentPlaying
 ;
 TimeStamp
 mStartedBlockingDueToBeingOnlyNode
