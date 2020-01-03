@@ -869,6 +869,16 @@ data
 ;
 if
 (
+mBits
+&
+NS_STYLE_IS_GOING_AWAY
+)
+{
+return
+;
+}
+if
+(
 this
 !
 =
