@@ -330,6 +330,7 @@ boxy
 ;
 }
 function
+*
 testMoxy
 (
 inspector

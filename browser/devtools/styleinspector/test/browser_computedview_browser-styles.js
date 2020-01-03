@@ -420,11 +420,10 @@ view
 propertyViews
 ;
 for
-each
 (
 let
 propView
-in
+of
 propertyViews
 )
 {

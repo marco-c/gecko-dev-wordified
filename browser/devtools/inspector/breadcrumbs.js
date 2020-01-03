@@ -553,11 +553,15 @@ get
 walker
 (
 )
+{
+return
 this
 .
 inspector
 .
 walker
+;
+}
 _init
 :
 function

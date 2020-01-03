@@ -568,11 +568,15 @@ get
 walker
 (
 )
+{
+return
 this
 .
 inspector
 .
 walker
+;
+}
 /
 /
 The
@@ -3803,7 +3807,7 @@ case
 of
 tagNames
 change
-te
+the
 case
 to
 small
