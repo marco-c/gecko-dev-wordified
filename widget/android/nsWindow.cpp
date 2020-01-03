@@ -6381,7 +6381,7 @@ ACTION_MAGNIFY_END
 :
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY
+eMagnifyGesture
 ;
 delta
 -

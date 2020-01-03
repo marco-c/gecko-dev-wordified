@@ -6227,10 +6227,12 @@ MozMagnifyGesture
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY
+eMagnifyGesture
 ;
+}
 else
 if
 (

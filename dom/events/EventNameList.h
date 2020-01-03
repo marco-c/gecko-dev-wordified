@@ -2488,7 +2488,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozMagnifyGesture
-NS_SIMPLE_GESTURE_MAGNIFY
+eMagnifyGesture
 EventNameType_None
 eSimpleGestureEventClass
 )
