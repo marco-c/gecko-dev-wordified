@@ -8690,7 +8690,7 @@ id
 JS
 :
 :
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >

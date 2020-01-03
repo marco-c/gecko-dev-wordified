@@ -697,7 +697,7 @@ HandleObject
 wrapper
 HandleId
 id
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >
@@ -885,12 +885,12 @@ JSContext
 cx
 HandleObject
 wrapper
+HandleObject
+receiver
 HandleId
 id
-HandleValue
-v
-HandleValue
-receiver
+MutableHandleValue
+vp
 ObjectOpResult
 &
 result
@@ -1271,7 +1271,7 @@ HandleObject
 wrapper
 HandleId
 id
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >
