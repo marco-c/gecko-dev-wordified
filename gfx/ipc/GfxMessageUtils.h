@@ -3282,6 +3282,8 @@ y
 template
 <
 class
+F
+class
 T
 >
 struct
@@ -3295,6 +3297,7 @@ gfx
 :
 Point3DTyped
 <
+F
 T
 >
 >
@@ -3308,6 +3311,7 @@ gfx
 :
 Point3DTyped
 <
+F
 T
 >
 paramType

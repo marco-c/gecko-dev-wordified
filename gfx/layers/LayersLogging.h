@@ -224,6 +224,8 @@ template
 <
 class
 units
+class
+F
 >
 struct
 RectTyped
