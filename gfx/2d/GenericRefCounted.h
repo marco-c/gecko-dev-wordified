@@ -410,6 +410,7 @@ void
 AddRef
 (
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -496,6 +497,7 @@ void
 Release
 (
 )
+MOZ_OVERRIDE
 {
 /
 /

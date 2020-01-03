@@ -403,6 +403,7 @@ FileDescriptorTableInjection
 public
 InjectionDelegate
 {
+virtual
 bool
 Duplicate
 (
@@ -412,7 +413,9 @@ result
 int
 fd
 )
+MOZ_OVERRIDE
 ;
+virtual
 bool
 Move
 (
@@ -421,13 +424,16 @@ src
 int
 dest
 )
+MOZ_OVERRIDE
 ;
+virtual
 void
 Close
 (
 int
 fd
 )
+MOZ_OVERRIDE
 ;
 }
 ;
