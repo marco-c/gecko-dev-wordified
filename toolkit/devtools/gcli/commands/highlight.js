@@ -142,7 +142,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

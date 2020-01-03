@@ -250,7 +250,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
