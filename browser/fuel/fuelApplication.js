@@ -724,7 +724,9 @@ this
 .
 _window
 .
-gBrowser
+getBrowser
+(
+)
 ;
 }
 /
