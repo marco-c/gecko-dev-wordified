@@ -275,12 +275,11 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mMap
 aElement
-PL_DHASH_ADD
 )
 ;
 if
@@ -365,12 +364,11 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mMap
 aElement
-PL_DHASH_LOOKUP
 )
 ;
 if

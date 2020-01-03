@@ -640,7 +640,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 prop
@@ -648,7 +648,6 @@ prop
 >
 mObjectValueMap
 aObject
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -787,7 +786,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 prop
@@ -795,7 +794,6 @@ prop
 >
 mObjectValueMap
 aObject
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -1052,7 +1050,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 propertyList
@@ -1060,7 +1058,6 @@ propertyList
 >
 mObjectValueMap
 aObject
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -1334,7 +1331,7 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 propertyList
@@ -1342,7 +1339,6 @@ propertyList
 >
 mObjectValueMap
 aObject
-PL_DHASH_ADD
 )
 )
 ;
@@ -1887,12 +1883,11 @@ PropertyListMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mObjectValueMap
 aObject
-PL_DHASH_LOOKUP
 )
 )
 ;

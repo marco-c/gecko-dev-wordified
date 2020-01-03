@@ -1027,12 +1027,11 @@ CompareCacheHashEntryPtr
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 aCompareCache
 aCert
-PL_DHASH_ADD
 )
 )
 ;
@@ -1058,12 +1057,11 @@ void
 key
 )
 {
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 mCompareCache
 key
-PL_DHASH_REMOVE
 )
 ;
 }

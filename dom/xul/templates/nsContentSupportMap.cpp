@@ -180,12 +180,11 @@ aElement
 ;
 do
 {
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 mMap
 child
-PL_DHASH_REMOVE
 )
 ;
 child

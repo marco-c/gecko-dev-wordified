@@ -21856,11 +21856,10 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 mSubDocuments
 aElement
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -21954,11 +21953,10 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 mSubDocuments
 aElement
-PL_DHASH_ADD
 )
 )
 ;
@@ -22071,7 +22069,7 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 mSubDocuments
 aContent
@@ -22080,7 +22078,6 @@ aContent
 AsElement
 (
 )
-PL_DHASH_LOOKUP
 )
 )
 ;

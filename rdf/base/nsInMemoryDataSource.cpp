@@ -1620,12 +1620,11 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mForwardArcs
 u
-PL_DHASH_LOOKUP
 )
 ;
 return
@@ -1662,12 +1661,11 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mReverseArcs
 v
-PL_DHASH_LOOKUP
 )
 ;
 return
@@ -2222,7 +2220,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 mNextAssertion
 -
@@ -2233,7 +2231,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_LOOKUP
 )
 ;
 mNextAssertion
@@ -5116,7 +5113,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 as
 -
@@ -5127,7 +5124,6 @@ hash
 .
 mPropertyHash
 property
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -5379,7 +5375,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 as
 -
@@ -5390,7 +5386,6 @@ hash
 .
 mPropertyHash
 property
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -5896,7 +5891,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 next
 -
@@ -5907,7 +5902,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -6141,7 +6135,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 next
 -
@@ -6152,7 +6146,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -6205,7 +6198,7 @@ else
 {
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 next
 -
@@ -6216,7 +6209,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_ADD
 )
 ;
 if
@@ -6640,7 +6632,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 next
 -
@@ -6651,7 +6643,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_LOOKUP
 )
 ;
 prev
@@ -6780,7 +6771,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 root
 -
@@ -6791,7 +6782,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_ADD
 )
 ;
 if
@@ -8215,7 +8205,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 ass
 -
@@ -8226,7 +8216,6 @@ hash
 .
 mPropertyHash
 aArc
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -9056,11 +9045,10 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 table
 prop
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -9115,11 +9103,10 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 table
 prop
-PL_DHASH_ADD
 )
 ;
 if
@@ -9470,7 +9457,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 as
 -
@@ -9481,7 +9468,6 @@ hash
 .
 mPropertyHash
 aProperty
-PL_DHASH_LOOKUP
 )
 ;
 Assertion
@@ -10256,7 +10242,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 info
 -
@@ -10270,7 +10256,6 @@ u
 as
 .
 mTarget
-PL_DHASH_LOOKUP
 )
 ;
 NS_ASSERTION

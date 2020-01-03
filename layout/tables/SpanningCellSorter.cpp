@@ -479,7 +479,7 @@ HashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mHashTable
@@ -487,7 +487,6 @@ NS_INT32_TO_PTR
 (
 aColSpan
 )
-PL_DHASH_ADD
 )
 )
 ;

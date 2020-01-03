@@ -1534,7 +1534,7 @@ hashEntry
 HashTableEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 table
@@ -1546,7 +1546,6 @@ void
 uintptr_t
 )
 hashNumber
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -1733,7 +1732,7 @@ hashEntry
 HashTableEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 table
@@ -1752,7 +1751,6 @@ mRecord
 HashNumber
 (
 )
-PL_DHASH_ADD
 )
 ;
 if
@@ -2140,7 +2138,7 @@ hashEntry
 HashTableEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 table
@@ -2152,7 +2150,6 @@ void
 uintptr_t
 )
 key
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -2209,7 +2206,7 @@ remove
 this
 hash
 entry
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 table
@@ -2228,7 +2225,6 @@ mRecord
 HashNumber
 (
 )
-PL_DHASH_REMOVE
 )
 ;
 return
