@@ -912,6 +912,12 @@ uint32_t
 aIdxInParent
 )
 ;
+void
+CheckDocTree
+(
+)
+const
+;
 static
 PLDHashOperator
 ShutdownAccessibles
