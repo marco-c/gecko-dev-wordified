@@ -2619,6 +2619,7 @@ gen
 uint32_t
 lapCount
 ;
+explicit
 JitcodeMapEntryTraceCallback
 (
 JSTracer
