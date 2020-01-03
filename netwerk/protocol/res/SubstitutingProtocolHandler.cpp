@@ -2201,6 +2201,17 @@ EqualsLiteral
 jar
 "
 )
+&
+&
+!
+scheme
+.
+EqualsLiteral
+(
+"
+app
+"
+)
 )
 {
 NS_WARNING

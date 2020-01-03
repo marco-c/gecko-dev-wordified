@@ -68,7 +68,8 @@ Components
 .
 utils
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -92,6 +93,9 @@ file
 "
 "
 ftp
+"
+"
+app
 "
 ]
 ;
@@ -343,6 +347,8 @@ https
 file
 |
 ftp
+|
+app
 |
 \
 \
@@ -744,8 +750,11 @@ true
 }
 }
 ;
-function
+this
+.
 MatchPattern
+=
+function
 (
 pat
 )
