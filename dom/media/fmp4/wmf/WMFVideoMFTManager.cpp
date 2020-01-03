@@ -863,6 +863,15 @@ GetPlatform
 IsWARP
 (
 )
+|
+|
+!
+gfxPlatform
+:
+:
+CanUseDXVA
+(
+)
 )
 {
 return
