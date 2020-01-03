@@ -58,6 +58,8 @@ os
 import
 subprocess
 import
+sys
+import
 mozinfo
 from
 mozprocess
@@ -1379,6 +1381,25 @@ in
 env
 else
 certutil_dir
+)
+.
+encode
+(
+                                
+sys
+.
+getfilesystemencoding
+(
+)
+or
+'
+utf
+-
+8
+'
+'
+replace
+'
 )
         
 def
