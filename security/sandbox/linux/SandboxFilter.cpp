@@ -1683,8 +1683,9 @@ open
 )
 )
 ;
-Allow
+Deny
 (
+EINVAL
 SYSCALL
 (
 readlink
@@ -1699,8 +1700,9 @@ bug
 964455
 *
 /
-Allow
+Deny
 (
+EINVAL
 SYSCALL
 (
 readlinkat
