@@ -235,6 +235,9 @@ bool
 disableRangeAnalysis
 ;
 bool
+disableSink
+;
+bool
 disableLoopUnrolling
 ;
 bool
