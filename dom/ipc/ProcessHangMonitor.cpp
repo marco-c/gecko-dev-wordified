@@ -914,6 +914,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 void
 Clear

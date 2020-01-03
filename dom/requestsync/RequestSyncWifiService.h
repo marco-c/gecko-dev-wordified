@@ -190,6 +190,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -3613,6 +3613,7 @@ uint8_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
