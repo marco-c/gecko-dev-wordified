@@ -756,6 +756,12 @@ IgnoreIPCPrincipal
 (
 )
 ;
+static
+void
+NotifyUpdatedDictionaries
+(
+)
+;
 virtual
 bool
 RecvCreateChildProcess
@@ -2294,6 +2300,12 @@ RecvGetXPCOMProcessAttributes
 bool
 *
 aIsOffline
+InfallibleTArray
+<
+nsString
+>
+*
+dictionaries
 )
 MOZ_OVERRIDE
 ;

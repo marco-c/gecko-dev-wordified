@@ -103,6 +103,7 @@ mozSpellChecker
 aOwner
 )
 ;
+virtual
 ~
 RemoteSpellcheckEngineChild
 (

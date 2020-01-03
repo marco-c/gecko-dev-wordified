@@ -350,7 +350,12 @@ void
 DeleteRemoteEngine
 (
 )
+{
+mEngine
+=
+nullptr
 ;
+}
 protected
 :
 virtual
@@ -385,6 +390,9 @@ mSpellCheckingEngine
 ;
 bool
 mFromStart
+;
+nsString
+mCurrentDictionary
 ;
 nsresult
 SetupDoc
