@@ -65737,6 +65737,7 @@ alloc
 jitinfo
 obj
 guard
+globalGuard
 )
 ;
 }
@@ -65755,7 +65756,18 @@ alloc
 jitinfo
 obj
 guard
+globalGuard
 )
+;
+}
+if
+(
+!
+get
+)
+{
+return
+false
 ;
 }
 current
