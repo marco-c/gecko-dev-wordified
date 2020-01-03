@@ -4404,6 +4404,7 @@ windows
 .
 nsPIDOMWindow
 *
+MOZ_NON_OWNING_REF
 mInnerWindow
 ;
 nsCOMPtr
