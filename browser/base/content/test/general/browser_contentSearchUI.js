@@ -78,6 +78,11 @@ TEST_MSG
 ContentSearchUIControllerTest
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
