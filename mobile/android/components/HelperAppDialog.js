@@ -1035,9 +1035,9 @@ bundle
 GetStringFromName
 (
 "
-protocol
+download
 .
-failed
+blocked
 "
 )
 ;
