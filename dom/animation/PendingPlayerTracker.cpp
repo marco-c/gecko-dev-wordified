@@ -384,7 +384,7 @@ trigger
 a
 call
 to
-StartPendingPlayersNow
+TriggerPendingPlayersNow
 .
 if
 (
@@ -439,7 +439,7 @@ void
 PendingPlayerTracker
 :
 :
-StartPendingPlayersOnNextTick
+TriggerPendingPlayersOnNextTick
 (
 const
 TimeStamp
@@ -500,7 +500,7 @@ void
 PendingPlayerTracker
 :
 :
-StartPendingPlayersNow
+TriggerPendingPlayersNow
 (
 )
 {

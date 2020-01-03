@@ -12935,7 +12935,7 @@ tracker
 tracker
 -
 >
-StartPendingPlayersNow
+TriggerPendingPlayersNow
 (
 )
 ;

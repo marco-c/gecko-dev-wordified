@@ -10581,7 +10581,7 @@ anyVisible
 }
 static
 bool
-StartPendingAnimationsOnSubDocuments
+TriggerPendingAnimationsOnSubDocuments
 (
 nsIDocument
 *
@@ -10679,7 +10679,7 @@ aReadyTime
 tracker
 -
 >
-StartPendingPlayersOnNextTick
+TriggerPendingPlayersOnNextTick
 (
 readyTime
 )
@@ -10691,7 +10691,7 @@ aDocument
 >
 EnumerateSubDocuments
 (
-StartPendingAnimationsOnSubDocuments
+TriggerPendingAnimationsOnSubDocuments
 aReadyTime
 )
 ;
@@ -10701,7 +10701,7 @@ true
 }
 static
 void
-StartPendingAnimations
+TriggerPendingAnimations
 (
 nsIDocument
 *
@@ -10747,7 +10747,7 @@ it
 "
 )
 ;
-StartPendingAnimationsOnSubDocuments
+TriggerPendingAnimationsOnSubDocuments
 (
 aDocument
 const_cast
@@ -12081,7 +12081,7 @@ document
 widgetTransaction
 )
 {
-StartPendingAnimations
+TriggerPendingAnimations
 (
 document
 layerManager
