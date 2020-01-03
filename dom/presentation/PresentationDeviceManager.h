@@ -155,6 +155,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 namespace
 mozilla
 {
@@ -173,6 +180,8 @@ public
 nsIPresentationDeviceEventListener
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
