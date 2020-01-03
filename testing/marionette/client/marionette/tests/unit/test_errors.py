@@ -56,10 +56,14 @@ MPL
 import
 sys
 import
-errors
-import
 marionette_test
 from
+marionette_driver
+import
+errors
+from
+marionette_driver
+.
 errors
 import
 ErrorCodes
