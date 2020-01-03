@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_BaselineHelpers_h
+jit_SharedICRegisters_h
 #
 define
-jit_BaselineHelpers_h
+jit_SharedICRegisters_h
 #
 if
 defined
@@ -127,7 +127,7 @@ jit
 /
 x86
 /
-BaselineHelpers
+SharedICRegisters
 -
 x86
 .
@@ -146,7 +146,7 @@ jit
 /
 x64
 /
-BaselineHelpers
+SharedICRegisters
 -
 x64
 .
@@ -165,7 +165,7 @@ jit
 /
 arm
 /
-BaselineHelpers
+SharedICRegisters
 -
 arm
 .
@@ -184,7 +184,7 @@ jit
 /
 mips
 /
-BaselineHelpers
+SharedICRegisters
 -
 mips
 .
@@ -203,7 +203,7 @@ jit
 /
 none
 /
-BaselineHelpers
+SharedICRegisters
 -
 none
 .
@@ -240,6 +240,6 @@ js
 endif
 /
 *
-jit_BaselineHelpers_h
+jit_SharedICRegisters_h
 *
 /

@@ -189,7 +189,7 @@ jit
 /
 mips
 /
-BaselineHelpers
+SharedICHelpers
 -
 mips
 .

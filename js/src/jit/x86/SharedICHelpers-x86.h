@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_x86_BaselineHelpers_x86_h
+jit_x86_SharedICHelpers_x86_h
 #
 define
-jit_x86_BaselineHelpers_x86_h
+jit_x86_SharedICHelpers_x86_h
 #
 include
 "
@@ -137,7 +137,7 @@ include
 "
 jit
 /
-BaselineRegisters
+MacroAssembler
 .
 h
 "
@@ -146,7 +146,7 @@ include
 "
 jit
 /
-MacroAssembler
+SharedICRegisters
 .
 h
 "
@@ -1838,6 +1838,6 @@ js
 endif
 /
 *
-jit_x86_BaselineHelpers_x86_h
+jit_x86_SharedICHelpers_x86_h
 *
 /

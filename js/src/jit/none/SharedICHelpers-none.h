@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_none_BaselineHelpers_none_h
+jit_none_SharedICHelpers_none_h
 #
 define
-jit_none_BaselineHelpers_none_h
+jit_none_SharedICHelpers_none_h
 namespace
 js
 {
@@ -397,6 +397,6 @@ js
 endif
 /
 *
-jit_none_BaselineHelpers_none_h
+jit_none_SharedICHelpers_none_h
 *
 /
