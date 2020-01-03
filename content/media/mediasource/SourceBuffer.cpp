@@ -3764,6 +3764,13 @@ segment
 this
 )
 ;
+mMediaSource
+-
+>
+QueueInitializationEvent
+(
+)
+;
 mTrackBuffer
 -
 >
