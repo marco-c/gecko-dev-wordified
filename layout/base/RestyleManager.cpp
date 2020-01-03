@@ -29555,6 +29555,9 @@ SVGAttrAnimations
 StyleAttribute
 "
 "
+StyleAttribute_Animations
+"
+"
 Force
 "
 "
@@ -29814,6 +29817,9 @@ BorderStyleNoneChange
 "
 "
 UpdateTextPath
+"
+"
+SchedulePaint
 "
 "
 NeutralChange
