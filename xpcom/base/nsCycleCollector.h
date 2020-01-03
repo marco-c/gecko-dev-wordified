@@ -481,9 +481,6 @@ aInstancePtr
 namespace
 mozilla
 {
-namespace
-cyclecollector
-{
 void
 DeferredFinalize
 (
@@ -504,11 +501,6 @@ nsISupports
 aSupports
 )
 ;
-}
-/
-/
-namespace
-cyclecollector
 }
 /
 /

@@ -22670,9 +22670,6 @@ nullptr
 namespace
 mozilla
 {
-namespace
-cyclecollector
-{
 void
 DeferredFinalize
 (
@@ -22761,11 +22758,6 @@ aThing
 )
 ;
 }
-}
-/
-/
-namespace
-cyclecollector
 }
 /
 /

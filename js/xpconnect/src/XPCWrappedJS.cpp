@@ -2994,9 +2994,6 @@ GCIsRunning
 )
 )
 {
-cyclecollector
-:
-:
 DeferredFinalize
 (
 mOuter
