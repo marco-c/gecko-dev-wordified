@@ -653,6 +653,16 @@ return
 insnSize_
 ;
 }
+size_t
+bufferSize
+(
+)
+const
+{
+return
+bufferSize_
+;
+}
 void
 traceChildren
 (

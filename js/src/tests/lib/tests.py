@@ -130,6 +130,15 @@ compile
 =
 off
 '
+'
+-
+-
+non
+-
+writable
+-
+jitcode
+'
          
 '
 -

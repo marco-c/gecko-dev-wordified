@@ -1046,6 +1046,10 @@ parallelParsingEnabled_
 (
 true
 )
+autoWritableJitCodeActive_
+(
+false
+)
 #
 ifdef
 DEBUG

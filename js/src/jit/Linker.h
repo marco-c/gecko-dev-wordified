@@ -486,6 +486,13 @@ fail
 cx
 )
 ;
+AutoWritableJitCode
+awjc
+(
+result
+bytesNeeded
+)
+;
 code
 -
 >
