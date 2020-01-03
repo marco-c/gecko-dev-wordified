@@ -1072,7 +1072,14 @@ true
 Http2Stream
 :
 :
-mAllHeadersSent
+mRequestHeadersDone
+=
+1
+;
+Http2Stream
+:
+:
+mOpenGenerated
 =
 1
 ;
