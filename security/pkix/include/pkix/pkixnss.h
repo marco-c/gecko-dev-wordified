@@ -310,7 +310,7 @@ public
 key
 .
 Result
-VerifySignedData
+VerifySignedDataNSS
 (
 const
 SignedDataWithSignature
@@ -459,7 +459,7 @@ safe
 interface
 .
 Result
-DigestBuf
+DigestBufNSS
 (
 Input
 item
@@ -499,7 +499,7 @@ of
 bits
 .
 Result
-CheckPublicKey
+CheckPublicKeyNSS
 (
 Input
 subjectPublicKeyInfo

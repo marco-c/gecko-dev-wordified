@@ -1733,7 +1733,7 @@ InitNSSIfNeeded
 )
 ;
 return
-CheckPublicKey
+CheckPublicKeyNSS
 (
 subjectPublicKeyInfo
 MINIMUM_TEST_KEY_BITS
@@ -1756,7 +1756,7 @@ InitNSSIfNeeded
 )
 ;
 return
-VerifySignedData
+VerifySignedDataNSS
 (
 signedData
 subjectPublicKeyInfo
@@ -1787,7 +1787,7 @@ InitNSSIfNeeded
 )
 ;
 return
-DigestBuf
+DigestBufNSS
 (
 item
 digestBuf
