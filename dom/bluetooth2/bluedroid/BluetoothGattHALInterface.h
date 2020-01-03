@@ -331,6 +331,8 @@ SearchService
 (
 int
 aConnId
+bool
+aSearchAll
 const
 BluetoothUuid
 &
@@ -349,6 +351,8 @@ const
 BluetoothGattServiceId
 &
 aServiceId
+bool
+aFirst
 const
 BluetoothGattServiceId
 &
@@ -367,6 +371,8 @@ const
 BluetoothGattServiceId
 &
 aServiceId
+bool
+aFirst
 const
 BluetoothGattId
 &
@@ -389,6 +395,8 @@ const
 BluetoothGattId
 &
 aCharId
+bool
+aFirst
 const
 BluetoothGattId
 &
