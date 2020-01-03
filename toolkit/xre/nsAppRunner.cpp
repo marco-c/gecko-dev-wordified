@@ -21186,7 +21186,7 @@ GetAppDir
 /
 If
 the
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 environment
 variable
 already
@@ -21208,7 +21208,7 @@ if
 EnvHasValue
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 "
 )
 )
@@ -21349,7 +21349,7 @@ and
 exiting
 .
 The
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 /
 /
 environment
@@ -21403,6 +21403,8 @@ if
 CheckArg
 (
 "
+test
+-
 process
 -
 updates
@@ -21413,7 +21415,7 @@ updates
 SaveToEnv
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 =
 1
 "
@@ -21489,7 +21491,7 @@ if
 EnvHasValue
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 "
 )
 )
@@ -21497,7 +21499,7 @@ MOZ_PROCESS_UPDATES
 SaveToEnv
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 =
 "
 )
