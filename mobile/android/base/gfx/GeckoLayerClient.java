@@ -1668,15 +1668,6 @@ return
 mPanZoomController
 ;
 }
-LayerMarginsAnimator
-getLayerMarginsAnimator
-(
-)
-{
-return
-mMarginsAnimator
-;
-}
 DynamicToolbarAnimator
 getDynamicToolbarAnimator
 (
