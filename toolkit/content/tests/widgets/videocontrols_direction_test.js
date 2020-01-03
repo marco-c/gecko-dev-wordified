@@ -686,6 +686,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 window
 .
 addEventListener
