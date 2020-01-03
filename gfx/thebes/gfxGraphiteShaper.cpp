@@ -870,6 +870,13 @@ mLanguageOverride
 ;
 }
 else
+if
+(
+style
+-
+>
+explicitLanguage
+)
 {
 nsAutoCString
 langString

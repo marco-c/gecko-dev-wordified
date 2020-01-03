@@ -18008,6 +18008,11 @@ if
 (
 mStyle
 .
+explicitLanguage
+&
+&
+mStyle
+.
 language
 =
 =
@@ -18358,7 +18363,13 @@ convertedString
 true
 mStyle
 .
+explicitLanguage
+?
+mStyle
+.
 language
+:
+nullptr
 charsToMergeArray
 deletedCharsArray
 )
