@@ -4394,6 +4394,11 @@ roomStore
 dispatcher
 :
 dispatcher
+mozLoop
+:
+navigator
+.
+mozLoop
 roomState
 :
 ROOM_STATES
@@ -4464,6 +4469,11 @@ roomStore
 dispatcher
 :
 dispatcher
+mozLoop
+:
+navigator
+.
+mozLoop
 roomState
 :
 ROOM_STATES

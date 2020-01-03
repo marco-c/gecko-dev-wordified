@@ -815,6 +815,11 @@ conversationAppStore
 dispatcher
 :
 dispatcher
+mozLoop
+:
+navigator
+.
+mozLoop
 }
 )
 )
