@@ -2288,6 +2288,7 @@ checked
 this
 .
 _origJavascriptEnabled
+;
 this
 .
 disableJSNode
