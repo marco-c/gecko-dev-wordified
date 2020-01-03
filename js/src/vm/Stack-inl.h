@@ -3181,7 +3181,7 @@ asRematerializedFrame
 )
 -
 >
-numActualArgs
+numFormalArgs
 (
 )
 ;
