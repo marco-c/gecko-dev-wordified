@@ -6323,10 +6323,12 @@ MozEdgeUIStarted
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_EDGE_STARTED
+eEdgeUIStarted
 ;
+}
 else
 if
 (
