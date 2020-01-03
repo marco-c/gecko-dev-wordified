@@ -11020,7 +11020,10 @@ null
 bool
 disallowDuplicateArgs
 =
-false
+kind
+=
+=
+Arrow
 ;
 if
 (
