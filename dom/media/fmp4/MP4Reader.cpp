@@ -3714,13 +3714,6 @@ mSharedDecoderManager
 Recreate
 (
 video
-mLayersBackendType
-mDecoder
--
->
-GetImageContainer
-(
-)
 )
 )
 {
