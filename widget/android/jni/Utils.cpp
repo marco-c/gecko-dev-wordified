@@ -58,6 +58,7 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 NativeType
 JNIType
 JNIName
+ABIName
 )
 \
 \
@@ -83,6 +84,7 @@ jmethodID
 jvalue
 *
 )
+MOZ_JNICALL_ABI
 ;
 \
 constexpr
@@ -107,6 +109,7 @@ jmethodID
 jvalue
 *
 )
+MOZ_JNICALL_ABI
 ;
 \
 constexpr
@@ -129,6 +132,7 @@ Get
 jobject
 jfieldID
 )
+ABIName
 ;
 \
 constexpr
@@ -151,6 +155,7 @@ StaticGet
 jclass
 jfieldID
 )
+ABIName
 ;
 \
 constexpr
@@ -174,6 +179,7 @@ jobject
 jfieldID
 JNIType
 )
+ABIName
 ;
 \
 constexpr
@@ -197,11 +203,17 @@ jclass
 jfieldID
 JNIType
 )
+ABIName
 DEFINE_PRIMITIVE_TYPE_ADAPTER
 (
 bool
 jboolean
 Boolean
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -209,6 +221,11 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 int8_t
 jbyte
 Byte
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -216,6 +233,11 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 char16_t
 jchar
 Char
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -223,6 +245,11 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 int16_t
 jshort
 Short
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -230,6 +257,11 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 int32_t
 jint
 Int
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -237,6 +269,11 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 int64_t
 jlong
 Long
+/
+*
+nothing
+*
+/
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -244,6 +281,7 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 float
 jfloat
 Float
+MOZ_JNICALL_ABI
 )
 ;
 DEFINE_PRIMITIVE_TYPE_ADAPTER
@@ -251,6 +289,7 @@ DEFINE_PRIMITIVE_TYPE_ADAPTER
 double
 jdouble
 Double
+MOZ_JNICALL_ABI
 )
 ;
 #
