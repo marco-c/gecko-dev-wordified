@@ -38752,7 +38752,7 @@ value
 (
 )
 ;
-STATIC_ASSUME
+MOZ_ASSERT
 (
 field
 .
