@@ -326,10 +326,10 @@ content
 NS_ERROR_NULL_POINTER
 )
 ;
-uint8_t
+nsBidiLevel
 levelBefore
 ;
-uint8_t
+nsBidiLevel
 levelAfter
 ;
 nsRefPtr
@@ -383,7 +383,7 @@ levels
 .
 mLevelAfter
 ;
-uint8_t
+nsBidiLevel
 currentCaretLevel
 =
 frameSelection
@@ -393,7 +393,7 @@ GetCaretBidiLevel
 (
 )
 ;
-uint8_t
+nsBidiLevel
 levelOfDeletion
 ;
 levelOfDeletion

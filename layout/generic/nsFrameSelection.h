@@ -156,6 +156,13 @@ CaretAssociationHint
 .
 h
 "
+#
+include
+"
+nsBidiPresUtils
+.
+h
+"
 class
 nsRange
 ;
@@ -1002,9 +1009,9 @@ aFrameBefore
 nsIFrame
 *
 aFrameAfter
-uint8_t
+nsBidiLevel
 aLevelBefore
-uint8_t
+nsBidiLevel
 aLevelAfter
 )
 {
@@ -1033,10 +1040,10 @@ nsIFrame
 *
 mFrameAfter
 ;
-uint8_t
+nsBidiLevel
 mLevelBefore
 ;
-uint8_t
+nsBidiLevel
 mLevelAfter
 ;
 }
@@ -2786,7 +2793,7 @@ virtual
 void
 SetCaretBidiLevel
 (
-uint8_t
+nsBidiLevel
 aLevel
 )
 ;
@@ -2816,7 +2823,7 @@ layout
 *
 /
 virtual
-uint8_t
+nsBidiLevel
 GetCaretBidiLevel
 (
 )
@@ -3882,7 +3889,7 @@ nsIFrame
 aFrameIn
 nsDirection
 aDirection
-uint8_t
+nsBidiLevel
 aBidiLevel
 nsIFrame
 *
@@ -4785,7 +4792,7 @@ or
 beginning
 of
 next
-uint8_t
+nsBidiLevel
 mCaretBidiLevel
 ;
 int32_t

@@ -2303,7 +2303,7 @@ GetFrameSelection
 (
 )
 ;
-uint8_t
+nsBidiLevel
 bidiLevel
 =
 frameSelection
@@ -3457,7 +3457,7 @@ int32_t
 aOffset
 CaretAssociationHint
 aFrameHint
-uint8_t
+nsBidiLevel
 aBidiLevel
 nsIFrame
 *
@@ -3748,7 +3748,7 @@ nsIFrame
 *
 frameAfter
 ;
-uint8_t
+nsBidiLevel
 levelBefore
 ;
 /
@@ -3761,7 +3761,7 @@ character
 before
 the
 caret
-uint8_t
+nsBidiLevel
 levelAfter
 ;
 /
@@ -4124,7 +4124,7 @@ on
 the
 line
 .
-uint8_t
+nsBidiLevel
 baseLevel
 =
 NS_GET_BASE_LEVEL
@@ -4369,7 +4369,7 @@ on
 the
 line
 .
-uint8_t
+nsBidiLevel
 baseLevel
 =
 NS_GET_BASE_LEVEL
