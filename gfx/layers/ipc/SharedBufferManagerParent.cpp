@@ -865,6 +865,14 @@ return
 NS_OK
 ;
 }
+protected
+:
+~
+GrallocReporter
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
