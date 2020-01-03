@@ -4743,6 +4743,24 @@ self
 descriptor
 )
         
+type
+=
+"
+eGlobalInterfacePrototype
+"
+if
+self
+.
+descriptor
+.
+isGlobal
+(
+)
+else
+"
+eInterfacePrototype
+"
+        
 return
 fill
 (
@@ -4853,7 +4871,9 @@ JS_NULL_OBJECT_OPS
               
 }
               
-eInterfacePrototype
+{
+type
+}
               
 {
 hooks
@@ -4903,6 +4923,10 @@ name
 slotCount
 =
 slotCount
+            
+type
+=
+type
             
 hooks
 =

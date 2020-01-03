@@ -1916,7 +1916,7 @@ extra
 slots
 *
 /
-0
+JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 )
 eNamedPropertiesObject
 sWindowNamedPropertiesNativePropertyHooks
