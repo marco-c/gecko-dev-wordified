@@ -835,7 +835,7 @@ nsIDOMWindowUtils
 desc
 .
 dpi
-:
+=
 utils
 .
 displayDPI
