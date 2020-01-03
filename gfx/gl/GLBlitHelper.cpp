@@ -1519,6 +1519,7 @@ n
 precision
 mediump
 float
+;
 \
 n
 \
@@ -1591,7 +1592,7 @@ vTexCoord
 uYTexScale
 )
 .
-r
+a
 ;
 \
 n
@@ -1607,7 +1608,7 @@ vTexCoord
 uCbCrTexScale
 )
 .
-r
+a
 ;
 \
 n
@@ -1623,7 +1624,7 @@ vTexCoord
 uCbCrTexScale
 )
 .
-r
+a
 ;
 \
 n
@@ -3601,8 +3602,8 @@ tex
 CreateTexture
 (
 mGL
-LOCAL_GL_LUMINANCE
-LOCAL_GL_LUMINANCE
+LOCAL_GL_ALPHA
+LOCAL_GL_ALPHA
 LOCAL_GL_UNSIGNED_BYTE
 gfx
 :
@@ -3652,7 +3653,7 @@ LOCAL_GL_TEXTURE_2D
 0
 width
 height
-LOCAL_GL_LUMINANCE
+LOCAL_GL_ALPHA
 LOCAL_GL_UNSIGNED_BYTE
 data
 )
@@ -3667,11 +3668,11 @@ fTexImage2D
 (
 LOCAL_GL_TEXTURE_2D
 0
-LOCAL_GL_LUMINANCE
+LOCAL_GL_ALPHA
 width
 height
 0
-LOCAL_GL_LUMINANCE
+LOCAL_GL_ALPHA
 LOCAL_GL_UNSIGNED_BYTE
 data
 )
