@@ -1670,6 +1670,8 @@ CreateEncodedCertificate
 (
 3
 sha256WithRSAEncryption
+(
+)
 CreateEncodedSerialNumber
 (
 1
@@ -1694,6 +1696,8 @@ issuerExtensions
 *
 keyPair
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1711,16 +1715,8 @@ subject
 CreateEncodedCertificate
 (
 3
-TLV
+sha1WithRSAEncryption
 (
-der
-:
-:
-SEQUENCE
-BS
-(
-tlv_sha_1WithRSAEncryption
-)
 )
 CreateEncodedSerialNumber
 (
@@ -1746,6 +1742,8 @@ nullptr
 *
 keyPair
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;

@@ -14750,6 +14750,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -14764,6 +14766,8 @@ extensions
 *
 keyPair
 sha256WithRSAEncryption
+(
+)
 )
 ;
 }
@@ -14997,6 +15001,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 Name
 (
@@ -15030,6 +15036,8 @@ extensions
 *
 keyPair
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;

@@ -395,6 +395,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -406,6 +408,8 @@ extensions
 *
 subjectKey
 sha256WithRSAEncryption
+(
+)
 )
 ;
 }

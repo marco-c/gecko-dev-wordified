@@ -1011,6 +1011,8 @@ false
 signatureAlgorithm
 (
 sha256WithRSAEncryption
+(
+)
 )
 badSignature
 (
@@ -2554,7 +2556,7 @@ TestKeyPair
 &
 keyPair
 const
-ByteString
+TestSignatureAlgorithm
 &
 signatureAlgorithm
 bool
@@ -2728,6 +2730,8 @@ value
 append
 (
 signatureAlgorithm
+.
+algorithmIdentifier
 )
 ;
 value
@@ -3424,7 +3428,7 @@ CreateEncodedCertificate
 long
 version
 const
-ByteString
+TestSignatureAlgorithm
 &
 signature
 const
@@ -3461,7 +3465,7 @@ TestKeyPair
 &
 issuerKeyPair
 const
-ByteString
+TestSignatureAlgorithm
 &
 signatureAlgorithm
 )
@@ -3474,6 +3478,8 @@ TBSCertificate
 version
 serialNumber
 signature
+.
+algorithmIdentifier
 issuerNameDER
 notBefore
 notAfter

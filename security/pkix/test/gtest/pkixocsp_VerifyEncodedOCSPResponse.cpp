@@ -1198,7 +1198,7 @@ time_t
 *
 nextUpdate
 const
-ByteString
+TestSignatureAlgorithm
 &
 signatureAlgorithm
 /
@@ -1362,6 +1362,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1439,6 +1441,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1515,6 +1519,8 @@ oneDayBeforeNow
 oneDayBeforeNow
 nullptr
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1592,6 +1598,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1672,6 +1680,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1752,6 +1762,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 md5WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1884,6 +1896,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -2442,7 +2456,7 @@ char
 *
 signerName
 const
-ByteString
+TestSignatureAlgorithm
 &
 certSignatureAlgorithm
 /
@@ -2604,6 +2618,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 ;
@@ -2615,7 +2631,7 @@ CreateEncodedCertificate
 uint32_t
 serialNumber
 const
-ByteString
+TestSignatureAlgorithm
 &
 signatureAlg
 const
@@ -2794,6 +2810,8 @@ OCSPResponseContext
 good
 byKey
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -2868,6 +2886,8 @@ good
 good_indirect_byName
 "
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -2957,6 +2977,8 @@ oneDayBeforeNow
 oneDayBeforeNow
 nullptr
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -3051,6 +3073,8 @@ oneDayBeforeNow
 oneDayBeforeNow
 nullptr
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -3159,6 +3183,8 @@ CreateEncodedCertificate
 +
 rootIssuedCount
 sha256WithRSAEncryption
+(
+)
 rootName
 now
 -
@@ -3222,6 +3248,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 )
@@ -3326,6 +3354,8 @@ CreateEncodedCertificate
 +
 rootIssuedCount
 sha256WithRSAEncryption
+(
+)
 rootName
 now
 +
@@ -3389,6 +3419,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 )
@@ -3465,6 +3497,8 @@ OCSPResponseContext
 good
 byKey
 sha256WithRSAEncryption
+(
+)
 nullptr
 )
 )
@@ -3549,6 +3583,8 @@ OCSPResponseContext
 good
 byKey
 sha256WithRSAEncryption
+(
+)
 &
 serverAuthEKUDER
 )
@@ -3638,6 +3674,8 @@ OCSPResponseContext
 good
 byKey
 sha256WithRSAEncryption
+(
+)
 &
 serverAuthEKUDER
 )
@@ -3812,6 +3850,8 @@ CreateEncodedCertificate
 (
 1
 sha256WithRSAEncryption
+(
+)
 subCAName
 oneDayBeforeNow
 oneDayAfterNow
@@ -3872,6 +3912,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 )
@@ -4062,6 +4104,8 @@ CreateEncodedCertificate
 +
 rootIssuedCount
 sha256WithRSAEncryption
+(
+)
 rootName
 oneDayBeforeNow
 oneDayAfterNow
@@ -4128,6 +4172,8 @@ CreateEncodedCertificate
 (
 1
 sha256WithRSAEncryption
+(
+)
 subCAName
 oneDayBeforeNow
 oneDayAfterNow
@@ -4205,6 +4251,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 )
@@ -4395,6 +4443,8 @@ CreateEncodedCertificate
 +
 rootIssuedCount
 sha256WithRSAEncryption
+(
+)
 rootName
 oneDayBeforeNow
 oneDayAfterNow
@@ -4461,6 +4511,8 @@ CreateEncodedCertificate
 (
 1
 sha256WithRSAEncryption
+(
+)
 subCAName
 oneDayBeforeNow
 oneDayAfterNow
@@ -4538,6 +4590,8 @@ oneDayBeforeNow
 &
 oneDayAfterNow
 sha256WithRSAEncryption
+(
+)
 certs
 )
 )
@@ -4650,6 +4704,8 @@ OCSPResponseContext
 good
 byKey
 md5WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -4734,6 +4790,8 @@ OCSPResponseContext
 good
 byKey
 sha256WithRSAEncryption
+(
+)
 &
 OCSPSigningEKUDER
 &
