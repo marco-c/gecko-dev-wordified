@@ -47377,7 +47377,7 @@ ac
 if
 (
 !
-StandardDefineProperty
+DefineProperty
 (
 cx
 obj
@@ -47649,7 +47649,7 @@ i
 if
 (
 !
-StandardDefineProperty
+DefineProperty
 (
 cx
 obj
