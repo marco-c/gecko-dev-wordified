@@ -2930,6 +2930,8 @@ inFrame
 {
 if
 (
+BrowserUtils
+.
 mimeTypeIsTextBased
 (
 this
