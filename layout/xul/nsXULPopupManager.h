@@ -4801,7 +4801,10 @@ s
 root
 frame
 .
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mCachedMousePoint
 ;
 /
