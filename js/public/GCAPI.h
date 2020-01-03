@@ -1881,11 +1881,8 @@ void
 )
 IncrementalReferenceBarrier
 (
-void
-*
-ptr
-JSGCTraceKind
-kind
+GCCellPtr
+thing
 )
 ;
 extern
@@ -2994,11 +2991,6 @@ JS
 IncrementalReferenceBarrier
 (
 thing
-thing
-.
-kind
-(
-)
 )
 ;
 else
@@ -3115,11 +3107,6 @@ JS
 IncrementalReferenceBarrier
 (
 thing
-thing
-.
-kind
-(
-)
 )
 ;
 }
