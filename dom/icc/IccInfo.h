@@ -211,6 +211,7 @@ const
 ;
 protected
 :
+virtual
 ~
 IccInfo
 (
