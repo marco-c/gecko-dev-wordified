@@ -3815,7 +3815,7 @@ if
 originator
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -11230,7 +11230,7 @@ i
 ]
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

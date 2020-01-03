@@ -11676,7 +11676,7 @@ th
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -15999,7 +15999,7 @@ table
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -16772,7 +16772,7 @@ IsElement
 startContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

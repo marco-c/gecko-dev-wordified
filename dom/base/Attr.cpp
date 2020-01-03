@@ -1010,7 +1010,7 @@ IsInHTMLDocument
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

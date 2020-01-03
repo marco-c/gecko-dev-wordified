@@ -1399,7 +1399,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -1439,7 +1439,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1603,7 +1603,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

@@ -7211,7 +7211,7 @@ if
 rootElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -1151,7 +1151,7 @@ classes
 ;
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -2234,12 +2234,12 @@ bool
 isXULorPluginElement
 =
 (
-IsXUL
+IsXULElement
 (
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2248,7 +2248,7 @@ object
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2257,7 +2257,7 @@ embed
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3166,7 +3166,7 @@ return
 nothing
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -4667,7 +4667,7 @@ ScrollHeight
 {
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -4745,7 +4745,7 @@ ScrollWidth
 {
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -5285,7 +5285,7 @@ IsInAnonymousSubtree
 doc
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -5402,7 +5402,7 @@ IsInAnonymousSubtree
 doc
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -6231,7 +6231,7 @@ mAttrsAndChildren
 GetAttr
 (
 aName
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -6263,7 +6263,7 @@ else
 {
 if
 (
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6367,7 +6367,7 @@ nameAtom
 ;
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -8651,7 +8651,7 @@ kids
 .
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -8894,7 +8894,7 @@ MayHaveStyle
 &
 &
 !
-IsXUL
+IsXULElement
 (
 )
 )
@@ -10052,7 +10052,7 @@ kids
 .
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12750,7 +12750,7 @@ HasValidDir
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -13982,7 +13982,7 @@ HasValidDir
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -18220,7 +18220,7 @@ OwnerDoc
 )
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -18774,7 +18774,7 @@ if
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 &

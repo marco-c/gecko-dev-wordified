@@ -5527,7 +5527,7 @@ NS_ASSERTION
 mDocument
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 |
@@ -12411,7 +12411,7 @@ MOZ_ASSERT
 aDocument
 -
 >
-IsSVG
+IsSVGDocument
 (
 )
 "
@@ -12959,7 +12959,7 @@ if
 aDocument
 -
 >
-IsSVG
+IsSVGDocument
 (
 )
 )

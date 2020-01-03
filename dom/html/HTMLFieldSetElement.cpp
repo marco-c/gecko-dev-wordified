@@ -755,7 +755,7 @@ if
 aChild
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -960,7 +960,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

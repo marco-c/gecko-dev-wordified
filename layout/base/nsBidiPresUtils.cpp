@@ -664,7 +664,7 @@ eHTML_FORM_CONTROL
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -7434,7 +7434,7 @@ AppendUnichar
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

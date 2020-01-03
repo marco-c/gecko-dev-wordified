@@ -911,7 +911,7 @@ target
 target
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

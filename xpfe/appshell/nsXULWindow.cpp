@@ -9413,7 +9413,7 @@ if
 docShellElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

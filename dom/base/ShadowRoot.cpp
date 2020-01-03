@@ -3490,7 +3490,7 @@ aContent
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3711,7 +3711,7 @@ aContainer
 aContainer
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

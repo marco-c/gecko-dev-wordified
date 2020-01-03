@@ -3323,6 +3323,12 @@ NS_ERROR_FAILURE
 }
 nsRefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 NodeInfo
 >
 nodeInfo

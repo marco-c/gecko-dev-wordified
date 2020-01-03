@@ -4693,7 +4693,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -5663,7 +5663,7 @@ a
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

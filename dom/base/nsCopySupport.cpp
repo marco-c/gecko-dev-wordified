@@ -3067,7 +3067,7 @@ NS_ENSURE_TRUE
 document
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 NS_OK

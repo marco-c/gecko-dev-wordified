@@ -53882,7 +53882,7 @@ aContent
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

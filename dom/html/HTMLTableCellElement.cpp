@@ -316,7 +316,7 @@ if
 section
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -371,7 +371,7 @@ result
 result
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

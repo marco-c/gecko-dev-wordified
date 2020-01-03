@@ -708,7 +708,7 @@ return
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

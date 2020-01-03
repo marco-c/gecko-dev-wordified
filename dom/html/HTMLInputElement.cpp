@@ -10451,7 +10451,7 @@ element
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

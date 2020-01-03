@@ -551,7 +551,7 @@ if
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

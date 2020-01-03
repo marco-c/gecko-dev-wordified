@@ -1924,7 +1924,7 @@ target
 target
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

@@ -1648,7 +1648,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -9807,7 +9807,7 @@ area
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -15943,7 +15943,7 @@ area
 startContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -17880,7 +17880,7 @@ area
 iterStartContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

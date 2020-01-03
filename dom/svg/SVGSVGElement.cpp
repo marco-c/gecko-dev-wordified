@@ -4966,7 +4966,7 @@ parent
 parent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -5187,7 +5187,7 @@ element
 element
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

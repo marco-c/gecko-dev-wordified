@@ -966,7 +966,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1004,7 +1004,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -1042,7 +1042,7 @@ if
 mContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1104,7 +1104,7 @@ if
 childElm
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -1272,7 +1272,7 @@ isXUL
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 ;
@@ -1371,7 +1371,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1396,7 +1396,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -1421,7 +1421,7 @@ if
 mContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1456,7 +1456,7 @@ if
 childElm
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -1607,7 +1607,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1662,7 +1662,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -2306,7 +2306,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -2876,7 +2876,7 @@ HasOwnContent
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -2983,7 +2983,7 @@ HasOwnContent
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -3147,7 +3147,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -9896,7 +9896,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -9922,7 +9922,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -9989,7 +9989,7 @@ label
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -10040,7 +10040,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -10137,7 +10137,7 @@ description
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -10720,7 +10720,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12088,7 +12088,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12182,7 +12182,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -12232,7 +12232,7 @@ if
 mContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -12294,7 +12294,7 @@ if
 childElm
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -15724,7 +15724,7 @@ if
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

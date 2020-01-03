@@ -2380,7 +2380,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -14739,7 +14739,7 @@ frameElement
 frameElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -79107,7 +79107,7 @@ MOZ_ASSERT
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

@@ -2254,7 +2254,7 @@ the
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2303,7 +2303,7 @@ eAll
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3318,7 +3318,7 @@ the
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3367,7 +3367,7 @@ eAll
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -6784,7 +6784,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

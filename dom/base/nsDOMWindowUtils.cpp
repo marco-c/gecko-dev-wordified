@@ -8049,7 +8049,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

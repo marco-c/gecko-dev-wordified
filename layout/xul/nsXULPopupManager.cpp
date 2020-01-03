@@ -11832,7 +11832,7 @@ if
 grandChild
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -11872,7 +11872,7 @@ if
 grandChild
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -12199,7 +12199,7 @@ GetParent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -14656,7 +14656,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -14738,7 +14738,7 @@ if
 currFrameContent
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -14790,7 +14790,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -14902,7 +14902,7 @@ if
 currFrameContent
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -14954,7 +14954,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -15132,7 +15132,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -15213,7 +15213,7 @@ if
 currFrameContent
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -15279,7 +15279,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -15390,7 +15390,7 @@ if
 currFrameContent
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -15456,7 +15456,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :

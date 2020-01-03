@@ -271,7 +271,7 @@ return
 mElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -295,7 +295,7 @@ href
 mElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

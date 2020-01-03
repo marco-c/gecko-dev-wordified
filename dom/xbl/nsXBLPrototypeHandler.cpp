@@ -3138,7 +3138,7 @@ a
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

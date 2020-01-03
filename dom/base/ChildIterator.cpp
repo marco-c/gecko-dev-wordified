@@ -397,7 +397,7 @@ MOZ_ASSERT
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

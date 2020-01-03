@@ -4528,7 +4528,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -4782,7 +4782,7 @@ eCOMMENT
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -4900,7 +4900,7 @@ eCOMMENT
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

@@ -515,7 +515,7 @@ if
 rootElement
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

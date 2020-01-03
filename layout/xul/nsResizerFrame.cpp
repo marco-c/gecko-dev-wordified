@@ -2750,7 +2750,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

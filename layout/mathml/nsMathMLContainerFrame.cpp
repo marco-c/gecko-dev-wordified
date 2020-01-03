@@ -9251,7 +9251,7 @@ if
 content
 -
 >
-IsMathML
+IsMathMLElement
 (
 )
 )

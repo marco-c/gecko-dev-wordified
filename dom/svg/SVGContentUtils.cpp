@@ -362,7 +362,7 @@ ancestor
 ancestor
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -2118,7 +2118,7 @@ aContent
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -2198,7 +2198,7 @@ element
 element
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -2321,7 +2321,7 @@ ancestor
 ancestor
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -2747,7 +2747,7 @@ if
 ancestor
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

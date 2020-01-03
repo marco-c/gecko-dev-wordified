@@ -286,7 +286,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -660,7 +660,7 @@ th
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

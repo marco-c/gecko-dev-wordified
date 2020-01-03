@@ -9799,7 +9799,7 @@ ancestor
 ancestor
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

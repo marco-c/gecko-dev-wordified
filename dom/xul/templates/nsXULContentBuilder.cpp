@@ -7541,7 +7541,7 @@ if
 aElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

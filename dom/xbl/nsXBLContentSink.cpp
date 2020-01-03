@@ -5147,7 +5147,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

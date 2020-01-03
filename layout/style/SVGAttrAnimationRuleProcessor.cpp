@@ -220,7 +220,7 @@ if
 aElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

@@ -9878,7 +9878,7 @@ aSelectorFlags
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -10325,7 +10325,7 @@ mIsHTMLDocument
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12080,7 +12080,7 @@ mIsHTMLDocument
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12394,7 +12394,7 @@ if
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -12937,7 +12937,7 @@ mIsHTMLDocument
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

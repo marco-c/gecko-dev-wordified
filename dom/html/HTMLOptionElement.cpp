@@ -1474,7 +1474,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1486,7 +1486,7 @@ script
 child
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -1790,7 +1790,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1886,7 +1886,7 @@ GetParent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

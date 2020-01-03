@@ -1176,7 +1176,7 @@ script
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -1184,7 +1184,7 @@ IsHTML
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

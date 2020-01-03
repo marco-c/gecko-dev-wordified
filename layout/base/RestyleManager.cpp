@@ -1832,7 +1832,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

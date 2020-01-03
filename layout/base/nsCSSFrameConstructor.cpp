@@ -10622,7 +10622,7 @@ if
 mDocument
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 &
@@ -10630,7 +10630,7 @@ IsHTML
 aParentContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -10657,7 +10657,7 @@ if
 mDocument
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 &
@@ -10665,7 +10665,7 @@ IsHTML
 aParentContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -11019,7 +11019,7 @@ if
 aParentContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -15382,7 +15382,7 @@ htmlDoc
 docElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -16451,7 +16451,7 @@ if
 aDocElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -16489,7 +16489,7 @@ if
 aDocElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -18100,7 +18100,7 @@ if
 aDocElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -18291,7 +18291,7 @@ isHTML
 aDocElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 ;
@@ -18311,7 +18311,7 @@ isXUL
 aDocElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 ;
@@ -22182,7 +22182,7 @@ GetParent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -23500,7 +23500,7 @@ aItem
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -28511,7 +28511,7 @@ if
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -34377,7 +34377,7 @@ optgroup
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -34396,7 +34396,7 @@ what
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -34427,7 +34427,7 @@ optgroup
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -40797,7 +40797,7 @@ legendContent
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -41619,7 +41619,7 @@ if
 aChildContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -42684,7 +42684,7 @@ return
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -42748,23 +42748,13 @@ return
 aContainer
 -
 >
-IsXUL
+IsXULElement
 (
-)
-&
-&
-aContainer
--
->
-Tag
-(
-)
-=
-=
 nsGkAtoms
 :
 :
 listbox
+)
 )
 ;
 }
@@ -42800,23 +42790,13 @@ aContainer
 aChild
 -
 >
-IsXUL
+IsXULElement
 (
-)
-&
-&
-aChild
--
->
-Tag
-(
-)
-=
-=
 nsGkAtoms
 :
 :
 listitem
+)
 )
 {
 nsCOMPtr
@@ -43175,7 +43155,7 @@ IsInNativeAnonymousSubtree
 aContainer
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -43233,7 +43213,7 @@ IsEditable
 aChild
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -43310,7 +43290,7 @@ if
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |
@@ -54257,7 +54237,7 @@ body
 node
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -58389,7 +58369,7 @@ if
 insertionElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

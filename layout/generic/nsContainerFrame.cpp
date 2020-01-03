@@ -4237,7 +4237,7 @@ rootElement
 rootElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

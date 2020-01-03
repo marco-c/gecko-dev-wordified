@@ -994,7 +994,7 @@ doc
 doc
 -
 >
-IsSVG
+IsSVGDocument
 (
 )
 )

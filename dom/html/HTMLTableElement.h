@@ -321,7 +321,7 @@ aTHead
 aTHead
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -424,7 +424,7 @@ aTFoot
 aTFoot
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1132,7 +1132,7 @@ if
 cur
 -
 >
-IsHTML
+IsHTMLElement
 (
 aTag
 )

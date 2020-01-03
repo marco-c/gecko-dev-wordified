@@ -3219,7 +3219,7 @@ return
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

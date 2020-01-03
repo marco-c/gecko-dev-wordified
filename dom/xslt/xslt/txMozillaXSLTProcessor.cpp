@@ -904,7 +904,7 @@ doc
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

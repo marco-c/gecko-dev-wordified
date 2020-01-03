@@ -5652,7 +5652,7 @@ aElementForAnimation
 aElementForAnimation
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -10548,7 +10548,7 @@ if
 aElement
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

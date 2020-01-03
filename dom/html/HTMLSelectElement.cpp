@@ -1970,7 +1970,7 @@ if
 aOptions
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2227,7 +2227,7 @@ mOptGroupCount
 aOptions
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6398,7 +6398,7 @@ if
 node
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -9579,7 +9579,7 @@ if
 cur
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -9913,7 +9913,7 @@ if
 cur
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

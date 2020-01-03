@@ -3086,7 +3086,7 @@ aParent
 aParent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3389,7 +3389,7 @@ GetParent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -4664,7 +4664,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -5445,7 +5445,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -5617,20 +5617,7 @@ if
 candidateSource
 -
 >
-IsElement
-(
-)
-&
-&
-candidateSource
--
->
-AsElement
-(
-)
--
->
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -5800,7 +5787,7 @@ isSourceTag
 aSourceNode
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -5836,7 +5823,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -5930,7 +5917,7 @@ if
 aSourceNode
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -1833,7 +1833,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -2308,7 +2308,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

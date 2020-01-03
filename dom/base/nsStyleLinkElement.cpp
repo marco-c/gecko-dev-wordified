@@ -1171,7 +1171,7 @@ return
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1183,7 +1183,7 @@ style
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -1573,7 +1573,7 @@ if
 thisContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

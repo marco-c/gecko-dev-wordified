@@ -533,7 +533,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

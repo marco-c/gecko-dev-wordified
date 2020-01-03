@@ -4123,7 +4123,7 @@ if
 aBoundElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |
@@ -4136,7 +4136,7 @@ OwnerDoc
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5961,7 +5961,7 @@ select
 aBoundElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

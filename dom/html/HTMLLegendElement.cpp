@@ -185,7 +185,7 @@ parent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -667,7 +667,7 @@ form
 form
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -279,7 +279,7 @@ if
 child
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

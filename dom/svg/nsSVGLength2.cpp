@@ -1076,7 +1076,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

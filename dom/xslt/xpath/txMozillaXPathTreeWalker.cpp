@@ -2141,7 +2141,7 @@ Content
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

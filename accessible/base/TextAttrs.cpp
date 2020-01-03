@@ -6473,7 +6473,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

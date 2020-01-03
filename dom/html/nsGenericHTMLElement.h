@@ -5374,7 +5374,7 @@ return
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -5406,7 +5406,7 @@ if
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

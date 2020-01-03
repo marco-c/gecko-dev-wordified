@@ -447,7 +447,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 ;
@@ -576,7 +576,7 @@ NS_THEME_NUMBER_INPUT
 frameContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -931,7 +931,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1135,7 +1135,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1234,7 +1234,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1326,7 +1326,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -1556,7 +1556,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -2204,7 +2204,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -2270,7 +2270,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -2437,7 +2437,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 ;
@@ -3237,7 +3237,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

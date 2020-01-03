@@ -1967,7 +1967,7 @@ HasValidDir
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

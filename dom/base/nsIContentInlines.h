@@ -151,7 +151,7 @@ OwnerDoc
 )
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 ;

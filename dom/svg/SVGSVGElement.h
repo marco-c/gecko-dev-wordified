@@ -1978,7 +1978,7 @@ parent
 parent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &

@@ -1391,7 +1391,7 @@ if
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

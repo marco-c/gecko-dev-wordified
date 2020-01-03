@@ -1203,7 +1203,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

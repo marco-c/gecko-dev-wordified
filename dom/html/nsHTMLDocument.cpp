@@ -3991,7 +3991,7 @@ mReferrerPolicy
 if
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -4011,7 +4011,7 @@ html
 XHR
 charsetSource
 =
-IsHTML
+IsHTMLDocument
 (
 )
 ?
@@ -4623,7 +4623,7 @@ aCommand
 if
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -5136,7 +5136,7 @@ aMode
 {
 NS_ASSERTION
 (
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -5995,7 +5995,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6007,7 +6007,7 @@ body
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6100,7 +6100,7 @@ newBody
 newBody
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 "
@@ -6252,7 +6252,7 @@ root
 root
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -8096,7 +8096,7 @@ this
 if
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -10470,7 +10470,7 @@ rv
 if
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -11153,7 +11153,7 @@ mTooDeepWriteRecursion
 if
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -11998,26 +11998,11 @@ aData
 if
 (
 !
-(
 aContent
 -
 >
-IsElement
+IsHTMLElement
 (
-)
-&
-&
-aContent
--
->
-AsElement
-(
-)
--
->
-IsHTML
-(
-)
 )
 )
 {

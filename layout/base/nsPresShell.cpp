@@ -12382,7 +12382,7 @@ root
 root
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -18606,7 +18606,7 @@ root
 root
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -18942,7 +18942,7 @@ a
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -36934,7 +36934,7 @@ IsResourceDoc
 mDocument
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -42472,7 +42472,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -45266,7 +45266,7 @@ select
 capturingContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -57718,7 +57718,7 @@ GetRootElement
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

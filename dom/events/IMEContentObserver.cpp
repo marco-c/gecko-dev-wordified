@@ -5700,7 +5700,7 @@ return
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

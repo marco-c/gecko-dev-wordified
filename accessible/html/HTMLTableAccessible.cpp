@@ -6541,7 +6541,7 @@ if
 childElm
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -6670,7 +6670,7 @@ if
 rowElm
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -6719,7 +6719,7 @@ if
 cellElm
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

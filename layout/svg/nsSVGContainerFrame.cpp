@@ -973,7 +973,7 @@ if
 mContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -1549,7 +1549,7 @@ if
 mContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1819,7 +1819,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1945,7 +1945,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -2565,7 +2565,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -2964,7 +2964,7 @@ svgKid
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 |
@@ -3002,7 +3002,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

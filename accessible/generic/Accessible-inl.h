@@ -323,7 +323,7 @@ searchbox
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

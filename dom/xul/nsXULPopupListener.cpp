@@ -984,7 +984,7 @@ browser
 targetContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &

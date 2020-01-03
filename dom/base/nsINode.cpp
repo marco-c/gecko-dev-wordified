@@ -1428,12 +1428,7 @@ IsElement
 node
 -
 >
-AsElement
-(
-)
--
->
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -2652,7 +2647,7 @@ parent
 parent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

@@ -1397,7 +1397,7 @@ if
 walkUpElm
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

@@ -4686,7 +4686,7 @@ if
 contentToPush
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6240,7 +6240,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
