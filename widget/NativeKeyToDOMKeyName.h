@@ -7161,14 +7161,6 @@ AKEYCODE_INFO
 )
 /
 /
-Live
-KEY_MAP_ANDROID
-(
-Live
-AKEYCODE_TV
-)
-/
-/
 MediaFastForward
 KEY_MAP_QT
 (
