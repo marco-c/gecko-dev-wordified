@@ -1063,7 +1063,7 @@ self
 write
 (
 '
-MOZ_FINAL
+final
 '
 )
         
