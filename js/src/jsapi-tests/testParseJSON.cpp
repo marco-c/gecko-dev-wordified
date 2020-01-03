@@ -537,7 +537,10 @@ str
 ;
 expected
 =
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )
@@ -585,7 +588,10 @@ str
 ;
 expected
 =
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )
@@ -636,7 +642,10 @@ str
 ;
 expected
 =
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )
@@ -705,7 +714,10 @@ str
 ;
 expected
 =
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )

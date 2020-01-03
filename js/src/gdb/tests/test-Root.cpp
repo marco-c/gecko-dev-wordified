@@ -181,7 +181,10 @@ jsval
 plinth
 (
 cx
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 JS_NewStringCopyZ
 (

@@ -11022,8 +11022,8 @@ return
 mStateData
 .
 mResponse
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )

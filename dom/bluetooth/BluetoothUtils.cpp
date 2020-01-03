@@ -1087,8 +1087,8 @@ false
 )
 ;
 val
-=
-STRING_TO_JSVAL
+.
+setString
 (
 jsData
 )
@@ -1122,8 +1122,8 @@ BluetoothValue
 Tbool
 :
 val
-=
-BOOLEAN_TO_JSVAL
+.
+setBoolean
 (
 v
 .
@@ -1326,8 +1326,8 @@ Length
 )
 ;
 value
-=
-STRING_TO_JSVAL
+.
+setString
 (
 jsData
 )
