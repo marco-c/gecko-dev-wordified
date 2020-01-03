@@ -1533,6 +1533,10 @@ const
 nsAString
 &
 aScheme
+bool
+aAllowHttps
+=
+false
 )
 ;
 void
@@ -1566,6 +1570,9 @@ mPort
 ;
 nsString
 mPath
+;
+bool
+mAllowHttps
 ;
 }
 ;
