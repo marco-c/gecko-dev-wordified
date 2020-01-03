@@ -407,7 +407,7 @@ column
 position
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToString
 (
@@ -434,7 +434,7 @@ column
 position
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToString
 (
@@ -480,7 +480,7 @@ position
 .
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringConvertLF
 (
@@ -515,7 +515,7 @@ position
 .
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringWrapped
 (
@@ -551,7 +551,7 @@ position
 .
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringFormatedWrapped
 (
@@ -569,7 +569,7 @@ aOutputStr
 used
 by
 AppendToStringWrapped
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendWrapped_WhitespaceSequence
 (
@@ -601,7 +601,7 @@ aOutputStr
 used
 by
 AppendToStringFormatedWrapped
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendFormatedWrapped_WhitespaceSequence
 (
@@ -638,7 +638,7 @@ by
 AppendToStringWrapped
 and
 AppendToStringFormatedWrapped
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendWrapped_NonWhitespaceSequence
 (
@@ -692,7 +692,7 @@ flags
 .
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendNewLineToString
 (
@@ -722,7 +722,7 @@ column
 position
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendAndTranslateEntities
@@ -1062,7 +1062,7 @@ nsAString
 aTagNamespaceURI
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 SerializeAttributes
@@ -1092,7 +1092,7 @@ bool
 aAddNSAttr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 SerializeAttr
 (
@@ -1240,7 +1240,7 @@ than
 sign
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendEndOfElementStart
@@ -1293,7 +1293,7 @@ AppendElementStart
 )
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AfterElementStart
@@ -1598,7 +1598,7 @@ position
 .
 *
 /
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendIndentation
 (
@@ -1607,7 +1607,7 @@ nsAString
 aStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 IncrIndentation
 (
@@ -1649,7 +1649,7 @@ document
 .
 See
 mAddNewlineForRootNode
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 MaybeAddNewlineForRootNode
 (

@@ -808,6 +808,7 @@ true
 otherwise
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendTo
 (
@@ -823,7 +824,6 @@ fallible_t
 aFallible
 )
 const
-NS_WARN_UNUSED_RESULT
 {
 if
 (
@@ -1021,6 +1021,7 @@ true
 otherwise
 *
 /
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendTo
 (
@@ -1040,7 +1041,6 @@ fallible_t
 aFallible
 )
 const
-NS_WARN_UNUSED_RESULT
 {
 if
 (

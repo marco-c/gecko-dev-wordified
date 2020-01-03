@@ -752,6 +752,7 @@ PARTIAL_RELIABLE_TIMED
 }
 Type
 ;
+MOZ_WARN_UNUSED_RESULT
 already_AddRefed
 <
 DataChannel
@@ -783,7 +784,6 @@ aExternalNegotiated
 uint16_t
 aStream
 )
-NS_WARN_UNUSED_RESULT
 ;
 void
 Close

@@ -803,7 +803,7 @@ EntryCount
 ;
 }
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Put
 (

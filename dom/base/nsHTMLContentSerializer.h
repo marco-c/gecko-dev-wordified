@@ -255,7 +255,7 @@ override
 ;
 protected
 :
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 SerializeHTMLAttributes
@@ -283,7 +283,7 @@ nsAString
 aStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendAndTranslateEntities

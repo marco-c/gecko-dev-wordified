@@ -359,7 +359,7 @@ nsACString
 aDest
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 CopyUTF16toUTF8
 (
@@ -438,7 +438,7 @@ nsAString
 aDest
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendASCIItoUTF16
 (
@@ -469,7 +469,7 @@ nsACString
 aDest
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendASCIItoUTF16
 (
@@ -512,7 +512,7 @@ nsACString
 aDest
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendUTF16toUTF8
 (
@@ -543,7 +543,7 @@ nsAString
 aDest
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendUTF8toUTF16
 (

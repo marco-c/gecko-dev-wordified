@@ -1354,6 +1354,21 @@ printdent
 if
 md
 .
+warn_unused
+:
+            
+self
+.
+write
+(
+'
+MOZ_WARN_UNUSED_RESULT
+'
+)
+        
+if
+md
+.
 inline
 :
             
@@ -1564,21 +1579,6 @@ ret
 accept
 (
 self
-)
-        
-if
-md
-.
-warn_unused
-:
-            
-self
-.
-write
-(
-'
-NS_WARN_UNUSED_RESULT
-'
 )
         
 if

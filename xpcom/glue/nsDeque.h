@@ -680,7 +680,7 @@ void
 ;
 }
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Push
 (
@@ -750,7 +750,7 @@ void
 ;
 }
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 PushFront
 (

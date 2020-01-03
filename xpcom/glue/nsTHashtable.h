@@ -1136,6 +1136,7 @@ aKey
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 EntryType
 *
 PutEntry
@@ -1146,7 +1147,6 @@ const
 fallible_t
 &
 )
-NS_WARN_UNUSED_RESULT
 {
 NS_ASSERTION
 (

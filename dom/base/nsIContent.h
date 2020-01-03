@@ -3594,6 +3594,7 @@ for
 elements
 *
 /
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendTextTo
@@ -3608,7 +3609,6 @@ mozilla
 fallible_t
 &
 )
-NS_WARN_UNUSED_RESULT
 =
 0
 ;

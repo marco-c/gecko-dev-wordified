@@ -2239,7 +2239,7 @@ char_type
 aNewValue
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 ReplaceSubstring
 (
@@ -2256,7 +2256,7 @@ fallible_t
 &
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 ReplaceSubstring
 (

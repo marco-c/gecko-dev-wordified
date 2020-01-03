@@ -268,10 +268,10 @@ __SUNPRO_CC
 )
 #
 undef
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 #
 define
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 #
 undef
 MOZ_ALLOCATOR
@@ -591,6 +591,7 @@ defined
 HAVE_POSIX_MEMALIGN
 )
 MFBT_API
+MOZ_WARN_UNUSED_RESULT
 int
 moz_xposix_memalign
 (
@@ -603,9 +604,9 @@ alignment
 size_t
 size
 )
-NS_WARN_UNUSED_RESULT
 ;
 MFBT_API
+MOZ_WARN_UNUSED_RESULT
 int
 moz_posix_memalign
 (
@@ -618,7 +619,6 @@ alignment
 size_t
 size
 )
-NS_WARN_UNUSED_RESULT
 ;
 #
 endif

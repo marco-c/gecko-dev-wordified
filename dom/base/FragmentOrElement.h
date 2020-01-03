@@ -898,6 +898,7 @@ aResult
 )
 override
 ;
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendTextTo
@@ -913,7 +914,6 @@ fallible_t
 &
 )
 override
-NS_WARN_UNUSED_RESULT
 ;
 virtual
 nsIContent

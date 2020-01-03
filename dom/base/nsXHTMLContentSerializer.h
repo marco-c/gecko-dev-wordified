@@ -269,7 +269,7 @@ aResult
 )
 override
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendEndOfElementStart
@@ -288,7 +288,7 @@ aStr
 )
 override
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AfterElementStart
@@ -429,7 +429,7 @@ aNode
 )
 override
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 SerializeAttributes
@@ -468,7 +468,7 @@ nsIContent
 aElement
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 SerializeLIValueAttribute
 (
@@ -493,7 +493,7 @@ nsIAtom
 aElementName
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendAndTranslateEntities
