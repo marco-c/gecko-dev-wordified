@@ -340,6 +340,14 @@ TrustLevel
 &
 trustLevel
 )
+/
+*
+non
+-
+final
+*
+/
+override
 {
 EXPECT_EQ
 (
@@ -381,7 +389,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -409,6 +416,8 @@ const
 Input
 *
 )
+final
+override
 {
 /
 /
@@ -457,7 +466,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -466,6 +474,8 @@ DERArray
 &
 Time
 )
+final
+override
 {
 ADD_FAILURE
 (
@@ -478,7 +488,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -489,6 +498,8 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+final
+override
 {
 return
 TestVerifySignedData
@@ -498,7 +509,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -515,6 +525,8 @@ digestBuf
 size_t
 digestBufLen
 )
+final
+override
 {
 return
 TestDigestBuf
@@ -525,13 +537,14 @@ digestBufLen
 )
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+final
+override
 {
 return
 TestCheckPublicKey
@@ -4982,6 +4995,7 @@ abort
 }
 class
 TrustDomain
+final
 :
 public
 OCSPTestTrustDomain
@@ -5032,7 +5046,6 @@ true
 }
 private
 :
-virtual
 Result
 GetCertTrust
 (
@@ -5052,6 +5065,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 EXPECT_EQ
 (

@@ -468,6 +468,7 @@ guarantees
 .
 class
 Input
+final
 {
 public
 :
@@ -1103,6 +1104,7 @@ lookahead
 .
 class
 Reader
+final
 {
 public
 :
@@ -1779,6 +1781,7 @@ end
 }
 class
 Mark
+final
 {
 private
 :

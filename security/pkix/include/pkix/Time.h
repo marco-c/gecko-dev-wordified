@@ -381,6 +381,7 @@ reference
 .
 class
 Time
+final
 {
 public
 :

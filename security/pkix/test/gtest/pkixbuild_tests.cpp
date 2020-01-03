@@ -531,6 +531,7 @@ certDER
 }
 class
 TestTrustDomain
+final
 :
 public
 TrustDomain
@@ -749,7 +750,6 @@ leafCACertDER
 }
 private
 :
-virtual
 Result
 GetCertTrust
 (
@@ -768,6 +768,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 trustLevel
 =
@@ -791,7 +792,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -803,6 +803,7 @@ checker
 Time
 time
 )
+override
 {
 ByteString
 subjectDER
@@ -891,7 +892,6 @@ return
 Success
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -917,12 +917,12 @@ const
 Input
 *
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -931,12 +931,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -956,7 +956,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -973,6 +972,7 @@ digestBuf
 size_t
 digestBufLen
 )
+override
 {
 ADD_FAILURE
 (
@@ -985,13 +985,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey
@@ -1500,6 +1500,7 @@ it
 .
 class
 ExpiredCertTrustDomain
+final
 :
 public
 TrustDomain
@@ -1535,7 +1536,6 @@ care
 about
 EV
 .
-virtual
 Result
 GetCertTrust
 (
@@ -1555,6 +1555,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 Input
 rootCert
@@ -1621,7 +1622,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -1633,6 +1633,7 @@ checker
 Time
 time
 )
+override
 {
 /
 /
@@ -1725,7 +1726,6 @@ keepGoing
 )
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -1751,6 +1751,7 @@ const
 Input
 *
 )
+override
 {
 ADD_FAILURE
 (
@@ -1763,7 +1764,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -1772,12 +1772,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -1788,6 +1788,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestVerifySignedData
@@ -1797,7 +1798,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -1811,6 +1811,7 @@ uint8_t
 *
 size_t
 )
+override
 {
 ADD_FAILURE
 (
@@ -1823,13 +1824,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey
@@ -2032,13 +2033,13 @@ nullptr
 }
 class
 DSSTrustDomain
+final
 :
 public
 TrustDomain
 {
 public
 :
-virtual
 Result
 GetCertTrust
 (
@@ -2056,6 +2057,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 trustLevel
 =
@@ -2068,7 +2070,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -2077,6 +2078,7 @@ IssuerChecker
 &
 Time
 )
+override
 {
 ADD_FAILURE
 (
@@ -2089,7 +2091,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -2115,6 +2116,7 @@ const
 Input
 *
 )
+override
 {
 ADD_FAILURE
 (
@@ -2127,7 +2129,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -2136,12 +2137,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -2152,6 +2153,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+override
 {
 ADD_FAILURE
 (
@@ -2164,7 +2166,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -2178,6 +2179,7 @@ uint8_t
 *
 size_t
 )
+override
 {
 ADD_FAILURE
 (
@@ -2190,13 +2192,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey
@@ -2403,6 +2405,7 @@ stapledOCSPResponse
 }
 class
 IssuerNameCheckTrustDomain
+final
 :
 public
 TrustDomain
@@ -2429,7 +2432,6 @@ expectedKeepGoing
 )
 {
 }
-virtual
 Result
 GetCertTrust
 (
@@ -2448,6 +2450,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 trustLevel
 =
@@ -2473,7 +2476,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -2484,6 +2486,7 @@ IssuerChecker
 checker
 Time
 )
+override
 {
 Input
 issuerInput
@@ -2539,7 +2542,6 @@ return
 Success
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -2565,12 +2567,12 @@ const
 Input
 *
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -2579,12 +2581,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -2595,6 +2597,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestVerifySignedData
@@ -2604,7 +2607,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -2618,6 +2620,7 @@ uint8_t
 *
 size_t
 )
+override
 {
 ADD_FAILURE
 (
@@ -2630,13 +2633,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey

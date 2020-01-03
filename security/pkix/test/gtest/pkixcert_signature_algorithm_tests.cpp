@@ -300,6 +300,7 @@ certDER
 }
 class
 AlgorithmTestsTrustDomain
+final
 :
 public
 TrustDomain
@@ -356,7 +357,6 @@ intSubjectDER
 }
 private
 :
-virtual
 Result
 GetCertTrust
 (
@@ -375,6 +375,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 if
 (
@@ -407,7 +408,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -418,6 +418,7 @@ IssuerChecker
 checker
 Time
 )
+override
 {
 ByteString
 *
@@ -528,7 +529,6 @@ keepGoing
 )
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -544,12 +544,12 @@ const
 Input
 *
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -558,12 +558,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -574,6 +574,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+override
 {
 EXPECT_NE
 (
@@ -594,7 +595,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -603,6 +603,7 @@ uint8_t
 *
 size_t
 )
+override
 {
 ADD_FAILURE
 (
@@ -615,13 +616,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey
@@ -654,6 +655,7 @@ NO_INTERMEDIATE
 empty
 struct
 ChainValidity
+final
 {
 /
 /

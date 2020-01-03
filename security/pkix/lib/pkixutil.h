@@ -400,6 +400,7 @@ cert
 .
 class
 BackCert
+final
 {
 public
 :
@@ -966,6 +967,7 @@ delete
 ;
 class
 NonOwningDERArray
+final
 :
 public
 DERArray
@@ -1005,18 +1007,17 @@ accessing
 i
 .
 }
-virtual
 size_t
 GetLength
 (
 )
 const
+override
 {
 return
 numItems
 ;
 }
-virtual
 const
 Input
 *
@@ -1026,6 +1027,7 @@ size_t
 i
 )
 const
+override
 {
 return
 i

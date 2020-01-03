@@ -638,6 +638,7 @@ unsupported_algorithm
 ;
 struct
 SignedDataWithSignature
+final
 {
 public
 :
@@ -780,6 +781,7 @@ OCSPSigning
 ;
 struct
 CertPolicyId
+final
 {
 uint16_t
 numBytes
@@ -1010,6 +1012,7 @@ status
 .
 struct
 CertID
+final
 {
 public
 :

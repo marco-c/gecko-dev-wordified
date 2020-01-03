@@ -367,6 +367,7 @@ CONTEXT_SPECIFIC
 ;
 class
 Context
+final
 {
 public
 :
