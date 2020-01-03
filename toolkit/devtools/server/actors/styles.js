@@ -7031,8 +7031,9 @@ tempElement
 =
 document
 .
-createElement
+createElementNS
 (
+XHTML_NS
 "
 div
 "
