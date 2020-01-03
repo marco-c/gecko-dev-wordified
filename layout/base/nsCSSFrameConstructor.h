@@ -6361,6 +6361,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 /
@@ -6414,6 +6417,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 /
@@ -7400,6 +7406,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 /
