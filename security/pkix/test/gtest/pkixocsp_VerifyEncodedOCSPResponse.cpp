@@ -2462,10 +2462,7 @@ notAfter
 subjectDER
 extensions
 signerKeyPair
-SignatureAlgorithm
-:
-:
-rsa_pkcs1_with_sha256
+sha256WithRSAEncryption
 keyPair
 )
 ;
