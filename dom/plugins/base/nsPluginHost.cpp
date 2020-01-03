@@ -13832,7 +13832,7 @@ nsNPAPIPlugin
 :
 RunPluginOOP
 (
-pluginTag
+tag
 )
 )
 {
