@@ -10393,15 +10393,6 @@ nsGkAtoms
 :
 :
 href
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-onclick
 )
 {
 /
