@@ -143,7 +143,11 @@ aEntrySize
 ThreadProfile
 (
 aInfo
+new
+ProfileBuffer
+(
 aEntrySize
+)
 )
 mOwnerState
 (
@@ -329,10 +333,6 @@ mOwnerState
 ORPHANED
 )
 {
-flush
-(
-)
-;
 mOwnerState
 =
 OWNED
