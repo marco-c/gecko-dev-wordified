@@ -22615,10 +22615,7 @@ pobj
 parent
 )
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 parent
@@ -22669,10 +22666,7 @@ configurable
 )
 )
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 parent
@@ -24101,10 +24095,7 @@ cx
 )
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj

@@ -1010,10 +1010,7 @@ valueOf
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 booleanProto

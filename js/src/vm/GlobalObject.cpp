@@ -2296,10 +2296,7 @@ value
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 global
@@ -2598,10 +2595,7 @@ value
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 global
@@ -3283,10 +3277,7 @@ ctor
 )
 ;
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 ctor
@@ -3307,10 +3298,7 @@ JSPROP_READONLY
 )
 &
 &
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 proto

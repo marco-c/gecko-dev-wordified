@@ -993,10 +993,7 @@ JS_StrictPropertyStub
 )
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver
@@ -1360,10 +1357,7 @@ desc
 ;
 }
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver
@@ -1449,10 +1443,7 @@ getter
 setter
 .
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver

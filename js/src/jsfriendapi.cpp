@@ -6865,13 +6865,10 @@ setterObject
 )
 ;
 return
-DefineOwnProperty
+StandardDefineProperty
 (
 cx
-HandleObject
-(
 obj
-)
 id
 descriptor
 bp

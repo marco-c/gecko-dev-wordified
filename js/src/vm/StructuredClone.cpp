@@ -11443,10 +11443,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 context
 (

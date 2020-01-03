@@ -5150,10 +5150,7 @@ that
 if
 (
 !
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj
@@ -5364,10 +5361,7 @@ that
 if
 (
 !
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj
@@ -5529,10 +5523,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj

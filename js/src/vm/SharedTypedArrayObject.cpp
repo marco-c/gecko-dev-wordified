@@ -5258,10 +5258,7 @@ BYTES_PER_ELEMENT
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 ctor
@@ -5283,10 +5280,7 @@ JSPROP_READONLY
 |
 |
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 proto

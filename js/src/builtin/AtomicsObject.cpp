@@ -6998,10 +6998,7 @@ object
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 global

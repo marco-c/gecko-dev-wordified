@@ -3471,10 +3471,7 @@ object
 )
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 actual

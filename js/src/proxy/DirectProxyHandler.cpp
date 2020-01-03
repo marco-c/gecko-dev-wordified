@@ -377,10 +377,7 @@ setter
 )
 &
 &
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 target

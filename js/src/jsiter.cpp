@@ -5916,10 +5916,7 @@ nullptr
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj
@@ -5950,10 +5947,7 @@ done
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj
