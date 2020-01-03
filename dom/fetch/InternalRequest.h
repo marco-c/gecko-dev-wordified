@@ -304,7 +304,7 @@ download
 *
 embed
 |
-TYPE_OBJECT
+TYPE_INTERNAL_EMBED
 *
 eventsource
 |
@@ -364,7 +364,7 @@ TYPE_WEB_MANIFEST
 *
 object
 |
-TYPE_OBJECT
+TYPE_INTERNAL_OBJECT
 *
 ping
 |
@@ -525,15 +525,6 @@ content
 type
 for
 download
-*
-TODO
-:
-Split
-TYPE_OBJECT
-into
-TYPE_EMBED
-and
-TYPE_OBJECT
 *
 /
 class

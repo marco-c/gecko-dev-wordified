@@ -1163,6 +1163,13 @@ nsGkAtoms
 src
 ;
 }
+nsContentPolicyType
+GetContentPolicyType
+(
+)
+const
+override
+;
 /
 /
 mIsDoneAddingChildren
