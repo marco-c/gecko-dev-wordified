@@ -344,6 +344,13 @@ UseAcceleratedCanvas
 (
 )
 ;
+virtual
+bool
+UseTiling
+(
+)
+MOZ_OVERRIDE
+;
 /
 /
 lower
