@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 h
 "
@@ -171,7 +171,7 @@ passes
 it
 to
 *
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 The
 onreceived
@@ -675,9 +675,9 @@ mClientId
 ;
 nsCOMPtr
 <
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 >
-mProvider
+mService
 ;
 nsRefPtr
 <
