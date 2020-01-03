@@ -17615,7 +17615,8 @@ style
 backgroundColor
 =
 '
-green
+#
+74BF43
 '
 ;
 PanelUI
@@ -17629,7 +17630,7 @@ badge
 "
 "
 \
-u2605
+u2B06
 "
 )
 ;
