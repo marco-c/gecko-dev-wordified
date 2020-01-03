@@ -3434,6 +3434,12 @@ engine
 new
 SearchEngine
 (
+(
+Context
+)
+getActivity
+(
+)
 engineJSON
 )
 ;
