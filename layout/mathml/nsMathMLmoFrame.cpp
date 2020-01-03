@@ -7566,11 +7566,6 @@ FontSizeInflationFor
 this
 )
 stretchHint
-mMaxSize
-NS_MATHML_OPERATOR_MAXSIZE_IS_ABSOLUTE
-(
-mFlags
-)
 )
 ;
 }
