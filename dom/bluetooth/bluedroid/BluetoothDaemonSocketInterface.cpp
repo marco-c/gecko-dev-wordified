@@ -219,8 +219,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x02
-0x01
+SERVICE_ID
+OPCODE_LISTEN
 0
 )
 )
@@ -354,8 +354,8 @@ pdu
 new
 DaemonSocketPDU
 (
-0x02
-0x02
+SERVICE_ID
+OPCODE_CONNECT
 0
 )
 )
@@ -860,7 +860,7 @@ BluetoothSocketResultHandler
 =
 {
 [
-0x00
+OPCODE_ERROR
 ]
 =
 &
@@ -869,7 +869,7 @@ BluetoothDaemonSocketModule
 :
 ErrorRsp
 [
-0x01
+OPCODE_LISTEN
 ]
 =
 &
@@ -878,7 +878,7 @@ BluetoothDaemonSocketModule
 :
 ListenRsp
 [
-0x02
+OPCODE_CONNECT
 ]
 =
 &
