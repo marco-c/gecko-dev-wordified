@@ -2725,11 +2725,8 @@ desktop
 side
 .
 actionData
-[
-"
+.
 sendTwoWayMediaTelemetry
-"
-]
 =
 this
 .

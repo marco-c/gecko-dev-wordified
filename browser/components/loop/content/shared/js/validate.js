@@ -210,11 +210,13 @@ obj
 =
 null
 )
+{
 return
 "
 null
 "
 ;
+}
 if
 (
 typeof
@@ -226,6 +228,7 @@ obj
 function
 "
 )
+{
 return
 obj
 .
@@ -261,6 +264,7 @@ s
 1
 ]
 ;
+}
 if
 (
 typeof
@@ -274,6 +278,7 @@ constructor
 function
 "
 )
+{
 return
 typeName
 (
@@ -282,6 +287,7 @@ obj
 constructor
 )
 ;
+}
 return
 "
 unknown
@@ -664,6 +670,7 @@ length
 >
 0
 )
+{
 throw
 new
 TypeError
@@ -682,6 +689,7 @@ join
 )
 )
 ;
+}
 }
 /
 *

@@ -270,6 +270,7 @@ Content
 Type
 "
 )
+{
 return
 "
 audio
@@ -277,6 +278,7 @@ audio
 ogg
 "
 ;
+}
 }
 responseType
 :
@@ -6237,6 +6239,7 @@ oldLocalStorageValue
 =
 null
 )
+{
 localStorage
 .
 setItem
@@ -6251,6 +6254,7 @@ tos
 oldLocalStorageValue
 )
 ;
+}
 }
 )
 ;
