@@ -4757,6 +4757,12 @@ addBrowserActors
 )
 ;
 }
+DebuggerServer
+.
+allowChromeProcess
+=
+true
+;
 let
 transport
 =
