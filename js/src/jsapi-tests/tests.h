@@ -434,11 +434,7 @@ cx
 JS
 :
 :
-Heap
-<
-JSObject
-*
->
+PersistentRootedObject
 global
 ;
 bool
@@ -460,10 +456,6 @@ rt
 nullptr
 )
 cx
-(
-nullptr
-)
-global
 (
 nullptr
 )
