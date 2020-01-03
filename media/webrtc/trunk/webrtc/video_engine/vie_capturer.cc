@@ -960,6 +960,13 @@ defined
 (
 ANDROID
 )
+&
+&
+!
+defined
+(
+WEBRTC_IOS
+)
 capture_module_
 =
 DesktopCaptureImpl
