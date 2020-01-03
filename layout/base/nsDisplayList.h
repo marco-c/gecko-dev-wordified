@@ -3647,7 +3647,7 @@ aFrame
 )
 ;
 const
-nsRegion
+nsIntRegion
 &
 GetWindowDraggingRegion
 (
@@ -5737,7 +5737,7 @@ mWindowExcludeGlassRegion
 nsRegion
 mWindowOpaqueRegion
 ;
-nsRegion
+nsIntRegion
 mWindowDraggingRegion
 ;
 /
