@@ -3013,7 +3013,6 @@ keyed
 boolean
 "
 ;
-const
 KEYS
 =
 [
@@ -3033,10 +3032,18 @@ of
 numberRange
 (
 0
-3
+2
 )
 )
 ]
+;
+KEYS
+.
+push
+(
+"
+"
+)
 ;
 let
 histogramBase
