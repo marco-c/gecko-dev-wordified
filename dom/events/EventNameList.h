@@ -2411,7 +2411,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 gamepaddisconnected
-NS_GAMEPAD_DISCONNECTED
+eGamepadDisconnected
 EventNameType_None
 eBasicEventClass
 )
