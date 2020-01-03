@@ -171,6 +171,15 @@ include
 "
 proxy
 /
+DeadObjectProxy
+.
+h
+"
+#
+include
+"
+proxy
+/
 ScriptedDirectProxyHandler
 .
 h

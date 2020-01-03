@@ -212,6 +212,15 @@ h
 #
 include
 "
+proxy
+/
+DeadObjectProxy
+.
+h
+"
+#
+include
+"
 vm
 /
 Debugger
