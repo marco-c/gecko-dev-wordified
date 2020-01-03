@@ -230,6 +230,7 @@ DOMEventTargetHelper
 )
 class
 FetchUuidsTask
+MOZ_FINAL
 :
 public
 BluetoothReplyRunnable
