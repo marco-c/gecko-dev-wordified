@@ -482,6 +482,15 @@ ID
 id
 )
 ;
+const
+char
+*
+GetHistogramName
+(
+ID
+id
+)
+;
 /
 *
 *
