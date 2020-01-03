@@ -115,6 +115,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionConversions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

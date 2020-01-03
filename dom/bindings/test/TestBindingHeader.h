@@ -148,6 +148,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h

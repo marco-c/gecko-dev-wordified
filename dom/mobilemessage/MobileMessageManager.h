@@ -113,6 +113,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DOMEventTargetHelper
 .
 h
@@ -153,9 +164,6 @@ MmsSendParameters
 ;
 struct
 MobileMessageFilter
-;
-class
-OwningLongOrMozSmsMessageOrMozMmsMessage
 ;
 struct
 SmsSendParameters

@@ -204,6 +204,17 @@ FileSystemUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
 /
 /
 Resolve

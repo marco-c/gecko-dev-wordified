@@ -153,6 +153,17 @@ include
 "
 mozilla
 /
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HoldDropJSObjects
 .
 h
