@@ -14009,6 +14009,13 @@ setCompileAndGo
 false
 )
 ;
+options
+.
+setHasPollutedScope
+(
+true
+)
+;
 JS
 :
 :
