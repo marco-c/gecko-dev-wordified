@@ -640,12 +640,10 @@ ResourceType
 type
 )
 ;
-const
 sp
 <
 IBinder
 >
-&
 nextRequest
 (
 ResourceType
