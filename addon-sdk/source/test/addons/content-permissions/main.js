@@ -97,9 +97,7 @@ startServerAsync
 require
 (
 "
-sdk
-/
-test
+.
 /
 httpd
 "

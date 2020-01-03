@@ -174,9 +174,9 @@ loader
 require
 (
 "
-sdk
+.
 /
-test
+lib
 /
 httpd
 "
@@ -198,9 +198,9 @@ loader
 sandbox
 (
 "
-sdk
+.
 /
-test
+lib
 /
 httpd
 "
