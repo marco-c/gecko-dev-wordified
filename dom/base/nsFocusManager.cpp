@@ -6877,6 +6877,16 @@ the
 activate
 event
 .
+if
+(
+aWindow
+-
+>
+GetExtantDoc
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -6909,6 +6919,7 @@ true
 nullptr
 )
 ;
+}
 /
 /
 Look
