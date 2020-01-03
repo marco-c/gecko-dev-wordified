@@ -550,7 +550,7 @@ style
 :
 [
 "
-bookmark
+keyword
 "
 ]
 }
