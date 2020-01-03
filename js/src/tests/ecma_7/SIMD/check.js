@@ -27,7 +27,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -40,7 +40,7 @@ i8
 =
 SIMD
 .
-int16x8
+Int16x8
 (
 1
 2
@@ -57,7 +57,7 @@ i16
 =
 SIMD
 .
-int8x16
+Int8x16
 (
 1
 2
@@ -82,7 +82,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 NaN
 -
@@ -98,7 +98,7 @@ f2
 =
 SIMD
 .
-float64x2
+Float64x2
 (
 -
 0
@@ -112,7 +112,7 @@ ci4
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -136,7 +136,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -153,7 +153,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -170,7 +170,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -187,7 +187,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -204,7 +204,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -229,7 +229,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -244,7 +244,7 @@ ci8
 =
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -268,7 +268,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -285,7 +285,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -302,7 +302,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -319,7 +319,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -336,7 +336,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -361,7 +361,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 check
 (
@@ -376,7 +376,7 @@ ci16
 =
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -400,7 +400,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -417,7 +417,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -434,7 +434,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -451,7 +451,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -468,7 +468,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -493,7 +493,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 check
 (
@@ -508,7 +508,7 @@ cf4
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -532,7 +532,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -549,7 +549,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -566,7 +566,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -583,7 +583,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -600,7 +600,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -625,7 +625,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (
@@ -640,7 +640,7 @@ cf2
 =
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -664,7 +664,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -681,7 +681,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -698,7 +698,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -715,7 +715,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -732,7 +732,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (
@@ -757,7 +757,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 check
 (

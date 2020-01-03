@@ -18,11 +18,11 @@ SIMD
 )
 )
 var
-int8x16
+Int8x16
 =
 SIMD
 .
-int8x16
+Int8x16
 ;
 /
 *
@@ -63,7 +63,7 @@ test
 var
 a
 =
-int8x16
+Int8x16
 .
 bool
 (

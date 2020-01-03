@@ -76,7 +76,7 @@ f4
 =
 SIMD
 .
-int32x4
+Int32x4
 ;
 /
 /
@@ -84,7 +84,7 @@ int32x4
 TODO
 :
 Support
-float32x4
+Float32x4
 arith
 .
 var

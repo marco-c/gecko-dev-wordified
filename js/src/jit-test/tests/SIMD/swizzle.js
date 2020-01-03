@@ -47,7 +47,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -72,7 +72,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 .
@@ -180,7 +180,7 @@ r
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 swizzle
 (
@@ -230,7 +230,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 swizzle
 (
@@ -260,7 +260,7 @@ r
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 swizzle
 (
@@ -310,7 +310,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 swizzle
 (
@@ -341,7 +341,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -392,7 +392,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 swizzle
 (
@@ -482,7 +482,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -510,7 +510,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 swizzle
 (

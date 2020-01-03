@@ -102,7 +102,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 '
 const
@@ -164,7 +164,7 @@ glob
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 '
 const
@@ -523,7 +523,7 @@ USE_ASM
 var
 i4
 =
-int32x4
+Int32x4
 ;
 return
 {
@@ -544,7 +544,7 @@ i4
 =
 glob
 .
-int32x4
+Int32x4
 ;
 return
 {
@@ -567,7 +567,7 @@ glob
 .
 globglob
 .
-int32x4
+Int32x4
 ;
 return
 {
@@ -590,7 +590,7 @@ glob
 .
 Math
 .
-int32x4
+Int32x4
 ;
 return
 {
@@ -744,7 +744,7 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 42
 }
@@ -772,7 +772,7 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 Math
 .
@@ -802,7 +802,7 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 new
 Array
@@ -831,11 +831,11 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 SIMD
 .
-float32x4
+Float32x4
 }
 }
 )
@@ -905,7 +905,7 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 MyStruct
 }
@@ -933,7 +933,7 @@ return
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 new
 MyStruct
@@ -969,11 +969,11 @@ f
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 SIMD
 .
-int32x4
+Int32x4
 }
 }
 )
@@ -1003,7 +1003,7 @@ return
 SIMD
 :
 {
-float32x4
+Float32x4
 :
 42
 }
@@ -1031,7 +1031,7 @@ return
 SIMD
 :
 {
-float32x4
+Float32x4
 :
 Math
 .
@@ -1061,7 +1061,7 @@ return
 SIMD
 :
 {
-float32x4
+Float32x4
 :
 new
 Array
@@ -1097,11 +1097,11 @@ f
 SIMD
 :
 {
-float32x4
+Float32x4
 :
 SIMD
 .
-float32x4
+Float32x4
 }
 }
 )
@@ -3452,7 +3452,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 f4
@@ -3461,7 +3461,7 @@ glob
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 function
 f
@@ -6539,7 +6539,7 @@ this
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -6622,7 +6622,7 @@ this
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -6826,7 +6826,7 @@ this
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -6909,7 +6909,7 @@ this
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -7440,7 +7440,7 @@ i32x4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 3
@@ -7783,7 +7783,7 @@ f32x4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 13
 .
@@ -8395,7 +8395,7 @@ assertCaught
 f
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -8486,7 +8486,7 @@ assertCaught
 f
 SIMD
 .
-float32x4
+Float32x4
 (
 4
 3
@@ -10176,7 +10176,7 @@ globals
 /
 Read
 var
-int32x4
+Int32x4
 =
 asmLink
 (
@@ -10226,7 +10226,7 @@ g
 :
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -10240,7 +10240,7 @@ int32x4
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 x
 1
@@ -10248,7 +10248,7 @@ x
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 y
 2
@@ -10256,7 +10256,7 @@ y
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 z
 3
@@ -10264,7 +10264,7 @@ z
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 w
 4
@@ -10287,7 +10287,7 @@ variable
 "
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -10347,7 +10347,7 @@ v
 )
 ;
 var
-float32x4
+Float32x4
 =
 asmLink
 (
@@ -10397,7 +10397,7 @@ g
 :
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -10411,7 +10411,7 @@ float32x4
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 x
 1
@@ -10419,7 +10419,7 @@ x
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 y
 2
@@ -10427,7 +10427,7 @@ y
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 z
 3
@@ -10435,7 +10435,7 @@ z
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 w
 4
@@ -10458,7 +10458,7 @@ variable
 "
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -10521,7 +10521,7 @@ v
 /
 Write
 var
-int32x4
+Int32x4
 =
 asmLink
 (
@@ -10581,7 +10581,7 @@ g
 :
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -10595,7 +10595,7 @@ int32x4
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 x
 4
@@ -10603,7 +10603,7 @@ x
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 y
 5
@@ -10611,7 +10611,7 @@ y
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 z
 6
@@ -10619,14 +10619,14 @@ z
 ;
 assertEq
 (
-int32x4
+Int32x4
 .
 w
 7
 )
 ;
 var
-float32x4
+Float32x4
 =
 asmLink
 (
@@ -10690,7 +10690,7 @@ g
 :
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -10704,7 +10704,7 @@ float32x4
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 x
 4
@@ -10712,7 +10712,7 @@ x
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 y
 5
@@ -10720,7 +10720,7 @@ y
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 z
 6
@@ -10728,7 +10728,7 @@ z
 ;
 assertEq
 (
-float32x4
+Float32x4
 .
 w
 7
@@ -10757,7 +10757,7 @@ USE_ASM
 var
 add
 =
-int32x4
+Int32x4
 .
 add
 ;
@@ -10959,7 +10959,7 @@ oldInt32x4Add
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 add
 ;
@@ -10996,7 +10996,7 @@ Math
 fround
 SIMD
 .
-float32x4
+Float32x4
 .
 add
 function
@@ -11006,7 +11006,7 @@ function
 }
 SIMD
 .
-int32x4
+Int32x4
 .
 mul
 ]
@@ -11014,7 +11014,7 @@ mul
 {
 SIMD
 .
-int32x4
+Int32x4
 .
 add
 =
@@ -11027,11 +11027,11 @@ code
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 SIMD
 .
-int32x4
+Int32x4
 }
 }
 )
@@ -11039,7 +11039,7 @@ int32x4
 }
 SIMD
 .
-int32x4
+Int32x4
 .
 add
 =
@@ -11086,11 +11086,11 @@ f
 SIMD
 :
 {
-int32x4
+Int32x4
 :
 SIMD
 .
-int32x4
+Int32x4
 }
 }
 )
@@ -13300,7 +13300,7 @@ f32x4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 0
 NaN
@@ -13314,7 +13314,7 @@ another
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 NaN
 -
@@ -13537,7 +13537,7 @@ f32x4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 0
 0
@@ -13551,7 +13551,7 @@ another
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 0
 -
@@ -13714,7 +13714,7 @@ simd
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 input
 [
@@ -13851,7 +13851,7 @@ simd
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 input
 [
@@ -19717,7 +19717,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -19739,7 +19739,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 0
 INT32_MIN
@@ -19841,7 +19841,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -19889,7 +19889,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 INT32_MIN
 INT32_MAX
@@ -19942,7 +19942,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 INT32_MIN
 -
@@ -19970,7 +19970,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 Math
 .
@@ -20001,7 +20001,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 NaN
 0
@@ -20022,7 +20022,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 Infinity
 0
@@ -20043,7 +20043,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 Infinity
@@ -20369,7 +20369,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -20398,7 +20398,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 0
 INT32_MIN
@@ -20517,7 +20517,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -20558,7 +20558,7 @@ f
 (
 SIMD
 .
-int32x4
+Int32x4
 (
 0
 INT32_MIN
@@ -20669,7 +20669,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -20698,7 +20698,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 0
@@ -20822,7 +20822,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -20863,7 +20863,7 @@ f
 (
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 0
@@ -25427,7 +25427,7 @@ masks
 [
 SIMD
 .
-int32x4
+Int32x4
 (
 1337
 0x1337
@@ -25436,7 +25436,7 @@ int32x4
 )
 SIMD
 .
-int32x4
+Int32x4
 (
 0x00FF1CE
 0xBAADF00D
@@ -25445,7 +25445,7 @@ int32x4
 )
 SIMD
 .
-int32x4
+Int32x4
 (
 0xD15EA5E
 0xDEADC0DE
@@ -25484,7 +25484,7 @@ inputs
 [
 SIMD
 .
-int32x4
+Int32x4
 (
 0
 4
@@ -25493,7 +25493,7 @@ int32x4
 )
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -25504,7 +25504,7 @@ int32x4
 [
 SIMD
 .
-int32x4
+Int32x4
 (
 -
 1
@@ -25514,7 +25514,7 @@ INT32_MIN
 )
 SIMD
 .
-int32x4
+Int32x4
 (
 INT32_MAX
 -
@@ -25622,7 +25622,7 @@ simdToArray
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 bitselect
 (
@@ -25641,7 +25641,7 @@ inputs
 [
 SIMD
 .
-float32x4
+Float32x4
 (
 0
 .
@@ -25658,7 +25658,7 @@ float32x4
 )
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 .
@@ -25677,7 +25677,7 @@ float32x4
 [
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 1
@@ -25691,7 +25691,7 @@ Infinity
 )
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 -
@@ -25707,7 +25707,7 @@ float32x4
 [
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 .
@@ -25720,7 +25720,7 @@ Infinity
 )
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 NaN
@@ -25835,7 +25835,7 @@ simdToArray
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 bitselect
 (
@@ -29597,7 +29597,7 @@ v4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -30084,7 +30084,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 i4a
@@ -30227,7 +30227,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 i4a
@@ -30537,7 +30537,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 ci4
@@ -30904,7 +30904,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 i4a

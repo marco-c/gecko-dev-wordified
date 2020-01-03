@@ -7700,7 +7700,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 add

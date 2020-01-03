@@ -188,7 +188,7 @@ v
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -258,7 +258,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -282,7 +282,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -304,7 +304,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -326,7 +326,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -348,7 +348,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -370,7 +370,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -392,7 +392,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -415,7 +415,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -437,7 +437,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -459,7 +459,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -481,7 +481,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -503,7 +503,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -525,7 +525,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -549,7 +549,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -571,7 +571,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -593,7 +593,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -615,7 +615,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -637,7 +637,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
@@ -677,7 +677,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -699,7 +699,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -721,7 +721,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (

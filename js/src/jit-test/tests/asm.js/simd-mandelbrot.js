@@ -245,7 +245,7 @@ global
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 ci4
@@ -261,7 +261,7 @@ global
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 var
 i4add

@@ -53,9 +53,9 @@ zero
 Our
 array
 for
-int32x4
+Int32x4
 and
-float32x4
+Float32x4
 will
 have
 16
@@ -197,7 +197,7 @@ kind
 {
 case
 '
-int8x16
+Int8x16
 '
 :
 sizeOfLaneElem
@@ -212,7 +212,7 @@ break
 ;
 case
 '
-int16x8
+Int16x8
 '
 :
 sizeOfLaneElem
@@ -227,7 +227,7 @@ break
 ;
 case
 '
-int32x4
+Int32x4
 '
 :
 sizeOfLaneElem
@@ -242,7 +242,7 @@ break
 ;
 case
 '
-float32x4
+Float32x4
 '
 :
 sizeOfLaneElem
@@ -257,7 +257,7 @@ break
 ;
 case
 '
-float64x2
+Float64x2
 '
 :
 sizeOfLaneElem
@@ -475,9 +475,9 @@ lanes
 )
 /
 /
-int8x16
+Int8x16
 and
-int16x8
+Int16x8
 only
 support
 load
@@ -1380,13 +1380,13 @@ kind
 of
 [
 '
-int32x4
+Int32x4
 '
 '
-float32x4
+Float32x4
 '
 '
-float64x2
+Float64x2
 '
 ]
 )
@@ -1465,7 +1465,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 load
 (
@@ -1483,7 +1483,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -1501,7 +1501,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-float64x2
+Float64x2
 .
 load
 (
@@ -1516,7 +1516,7 @@ RangeError
 testLoad
 (
 '
-float32x4
+Float32x4
 '
 new
 Float32Array
@@ -1528,7 +1528,7 @@ SIZE_32_ARRAY
 testLoad
 (
 '
-float64x2
+Float64x2
 '
 new
 Float64Array
@@ -1540,7 +1540,7 @@ SIZE_64_ARRAY
 testLoad
 (
 '
-int8x16
+Int8x16
 '
 new
 Int8Array
@@ -1552,7 +1552,7 @@ SIZE_8_ARRAY
 testLoad
 (
 '
-int16x8
+Int16x8
 '
 new
 Int16Array
@@ -1564,7 +1564,7 @@ SIZE_16_ARRAY
 testLoad
 (
 '
-int32x4
+Int32x4
 '
 new
 Int32Array
