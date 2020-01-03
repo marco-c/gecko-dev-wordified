@@ -162,6 +162,12 @@ BluetoothSocketInterface
 {
 public
 :
+class
+ConnectWatcher
+;
+class
+AcceptWatcher
+;
 friend
 class
 BluetoothHALInterface
