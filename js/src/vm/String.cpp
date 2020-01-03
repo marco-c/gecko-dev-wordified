@@ -3547,11 +3547,11 @@ hasLatin1Chars
 )
 ;
 bool
-canUseFatInline
+canUseInline
 =
 isLatin1
 ?
-JSFatInlineString
+JSInlineString
 :
 :
 latin1LengthFits
@@ -3559,7 +3559,7 @@ latin1LengthFits
 wholeLength
 )
 :
-JSFatInlineString
+JSInlineString
 :
 :
 twoByteLengthFits
@@ -3569,7 +3569,7 @@ wholeLength
 ;
 if
 (
-canUseFatInline
+canUseInline
 &
 &
 cx
@@ -3594,7 +3594,7 @@ str
 =
 isLatin1
 ?
-AllocateFatInlineString
+AllocateInlineString
 <
 allowGC
 >
@@ -3605,7 +3605,7 @@ wholeLength
 latin1Buf
 )
 :
-AllocateFatInlineString
+AllocateInlineString
 <
 allowGC
 >
@@ -6370,7 +6370,7 @@ static
 MOZ_ALWAYS_INLINE
 JSInlineString
 *
-NewFatInlineStringDeflated
+NewInlineStringDeflated
 (
 ExclusiveContext
 *
@@ -6403,7 +6403,7 @@ JSInlineString
 *
 str
 =
-AllocateFatInlineString
+AllocateInlineString
 <
 allowGC
 >
@@ -6503,7 +6503,7 @@ n
 {
 if
 (
-JSFatInlineString
+JSInlineString
 :
 :
 latin1LengthFits
@@ -6512,7 +6512,7 @@ n
 )
 )
 return
-NewFatInlineStringDeflated
+NewInlineStringDeflated
 <
 allowGC
 >
@@ -6797,7 +6797,7 @@ c
 }
 if
 (
-JSFatInlineString
+JSInlineString
 :
 :
 lengthFits
@@ -6813,7 +6813,7 @@ JSInlineString
 *
 str
 =
-NewFatInlineString
+NewInlineString
 <
 allowGC
 >
@@ -7212,7 +7212,7 @@ n
 {
 if
 (
-JSFatInlineString
+JSInlineString
 :
 :
 lengthFits
@@ -7224,7 +7224,7 @@ n
 )
 )
 return
-NewFatInlineString
+NewInlineString
 <
 allowGC
 >
