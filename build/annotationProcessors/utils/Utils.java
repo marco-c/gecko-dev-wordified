@@ -4775,8 +4775,12 @@ append
 (
 "
 =
-getClassGlobalRef
+AndroidBridge
+:
+:
+GetClassGlobalRef
 (
+env
 \
 "
 "
