@@ -10821,6 +10821,13 @@ MediaQueryLists
 return
 ;
 }
+mDocument
+-
+>
+NotifyMediaFeatureValuesChanged
+(
+)
+;
 MOZ_ASSERT
 (
 nsContentUtils

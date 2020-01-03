@@ -1126,6 +1126,11 @@ DestroyContent
 )
 override
 ;
+void
+MediaFeatureValuesChanged
+(
+)
+;
 /
 *
 *
@@ -2175,6 +2180,14 @@ mResponsiveSelector
 ;
 private
 :
+bool
+SourceElementMatches
+(
+nsIContent
+*
+aSourceNode
+)
+;
 static
 void
 MapAttributesIntoRule
