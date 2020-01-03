@@ -731,7 +731,7 @@ nsString
 &
 aName
 const
-nsString
+nsCString
 &
 aFeatures
 const

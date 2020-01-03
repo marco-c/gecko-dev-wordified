@@ -3359,7 +3359,7 @@ nsString
 &
 aName
 const
-nsString
+nsCString
 &
 aFeatures
 const
@@ -4087,10 +4087,7 @@ aName
 get
 (
 )
-NS_ConvertUTF16toUTF8
-(
 aFeatures
-)
 .
 get
 (
