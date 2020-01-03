@@ -166,6 +166,8 @@ static
 PRLogModuleInfo
 *
 sLogModule
+=
+nullptr
 ;
 if
 (
