@@ -1351,7 +1351,7 @@ mozilla
 /
 dom
 /
-GamepadService
+GamepadServiceTest
 .
 h
 "
