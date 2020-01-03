@@ -1119,9 +1119,6 @@ verifyPageTitle
 page
 .
 title
-page
-.
-url
 )
 ;
 }
