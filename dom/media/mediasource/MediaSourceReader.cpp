@@ -953,9 +953,12 @@ nsresult
 aResult
 )
 {
-OnAudioNotDecoded
+mAudioPromise
+.
+Reject
 (
 DECODE_ERROR
+__func__
 )
 ;
 }
@@ -1937,9 +1940,12 @@ nsresult
 aResult
 )
 {
-OnVideoNotDecoded
+mVideoPromise
+.
+Reject
 (
 DECODE_ERROR
+__func__
 )
 ;
 }
