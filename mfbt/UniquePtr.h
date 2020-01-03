@@ -5065,8 +5065,11 @@ new
 |
 expression
 requires
-renaming
+repeating
 *
+the
+name
+of
 the
 new
 '
@@ -5081,9 +5084,9 @@ the
 |
 auto
 |
+*
 keyword
 names
-*
 it
 only
 once
