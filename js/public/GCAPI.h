@@ -290,6 +290,11 @@ D
 FULL_STORE_BUFFER
 )
 \
+D
+(
+SHARED_MEMORY_LIMIT
+)
+\
 \
 /
 *
@@ -396,11 +401,6 @@ RESERVED17
 D
 (
 RESERVED18
-)
-\
-D
-(
-RESERVED19
 )
 \
 \

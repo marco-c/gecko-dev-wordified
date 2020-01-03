@@ -430,6 +430,9 @@ SharedArrayRawBuffer
 *
 New
 (
+JSContext
+*
+cx
 uint32_t
 length
 )
