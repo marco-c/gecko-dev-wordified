@@ -142,7 +142,7 @@ jsm
 ;
 let
 {
-_advanceValidate
+advanceValidate
 }
 =
 require
@@ -152,9 +152,7 @@ devtools
 /
 styleinspector
 /
-rule
--
-view
+utils
 "
 )
 ;
@@ -197,7 +195,7 @@ testName
 ;
 equal
 (
-_advanceValidate
+advanceValidate
 (
 Ci
 .
@@ -210,7 +208,7 @@ where
 result
 "
 testing
-_advanceValidate
+advanceValidate
 at
 "
 +
