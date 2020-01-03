@@ -6792,6 +6792,11 @@ phase
 )
 ;
 void
+markJitcodeGlobalTable
+(
+)
+;
+void
 beginSweepPhase
 (
 bool
