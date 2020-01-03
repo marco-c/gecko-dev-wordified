@@ -472,6 +472,17 @@ test
 "
 ;
 const
+SET_TIMEOUT_URL
+=
+EXAMPLE_URL
++
+"
+doc_settimeout
+.
+html
+"
+;
+const
 SIMPLE_CANVAS_URL
 =
 EXAMPLE_URL
