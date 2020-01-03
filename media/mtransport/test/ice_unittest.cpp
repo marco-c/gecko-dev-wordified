@@ -643,25 +643,13 @@ ICE_TEST_PEER_OFFERER
 const
 unsigned
 int
-ICE_TEST_PEER_SET_PRIORITIES
-=
-(
-1
-<
-<
-1
-)
-;
-const
-unsigned
-int
 ICE_TEST_PEER_ALLOW_LOOPBACK
 =
 (
 1
 <
 <
-2
+1
 )
 ;
 const
@@ -673,7 +661,7 @@ ICE_TEST_PEER_ENABLED_TCP
 1
 <
 <
-3
+2
 )
 ;
 const
@@ -685,7 +673,7 @@ ICE_TEST_PEER_ALLOW_LINK_LOCAL
 1
 <
 <
-4
+3
 )
 ;
 const
@@ -697,7 +685,7 @@ ICE_TEST_PEER_HIDE_NON_DEFAULT
 1
 <
 <
-5
+4
 )
 ;
 typedef
@@ -1704,8 +1692,6 @@ name
 bool
 offerer
 bool
-set_priorities
-bool
 allow_loopback
 =
 false
@@ -1736,7 +1722,6 @@ Create
 (
 name
 offerer
-set_priorities
 allow_loopback
 enable_tcp
 allow_link_local
@@ -7516,9 +7501,6 @@ flags
 ICE_TEST_PEER_OFFERER
 flags
 &
-ICE_TEST_PEER_SET_PRIORITIES
-flags
-&
 ICE_TEST_PEER_ALLOW_LOOPBACK
 flags
 &
@@ -8519,7 +8501,6 @@ Init
 (
 false
 false
-false
 )
 ;
 p1_
@@ -8567,8 +8548,6 @@ void
 Init
 (
 bool
-set_priorities
-bool
 allow_loopback
 bool
 enable_tcp
@@ -8593,7 +8572,6 @@ IceTestPeer
 P1
 "
 true
-set_priorities
 allow_loopback
 enable_tcp
 false
@@ -8609,7 +8587,6 @@ IceTestPeer
 P2
 "
 false
-set_priorities
 allow_loopback
 enable_tcp
 false
@@ -8638,7 +8615,6 @@ true
 {
 Init
 (
-false
 false
 false
 )
@@ -10656,7 +10632,6 @@ true
 false
 false
 false
-false
 true
 )
 ;
@@ -11730,7 +11705,6 @@ IceTestPeer
 P1
 "
 true
-false
 true
 )
 ;
@@ -11788,7 +11762,6 @@ IceTestPeer
 P1
 "
 true
-false
 false
 false
 )
@@ -12504,7 +12477,6 @@ true
 false
 false
 false
-false
 true
 )
 ;
@@ -12637,7 +12609,6 @@ IceTestPeer
 P1
 "
 true
-false
 false
 false
 false
@@ -12998,7 +12969,6 @@ TestGatherTcp
 Init
 (
 false
-false
 true
 )
 ;
@@ -13026,7 +12996,6 @@ TestGatherAutoPrioritize
 {
 Init
 (
-false
 false
 false
 )
@@ -13081,7 +13050,6 @@ TestConnectTcp
 {
 Init
 (
-false
 false
 true
 )
@@ -13163,7 +13131,6 @@ DISABLED_TestConnectTcpSo
 Init
 (
 false
-false
 true
 )
 ;
@@ -13230,7 +13197,6 @@ Init
 (
 false
 false
-false
 true
 )
 ;
@@ -13281,7 +13247,6 @@ TestLoopbackOnlySortOf
 {
 Init
 (
-false
 true
 false
 )
@@ -13789,7 +13754,6 @@ TestGatherFullConeAutoPrioritize
 {
 Init
 (
-false
 true
 false
 )
@@ -13904,7 +13868,6 @@ Init
 (
 false
 false
-false
 true
 )
 ;
@@ -13997,7 +13960,6 @@ TestConnectFullConeDefaultRouteOnly
 {
 Init
 (
-false
 false
 false
 true
@@ -14977,7 +14939,6 @@ TestConnectAutoPrioritize
 {
 Init
 (
-false
 false
 false
 )
@@ -16244,7 +16205,6 @@ TestSendReceiveTcp
 Init
 (
 false
-false
 true
 )
 ;
@@ -16328,7 +16288,6 @@ DISABLED_TestSendReceiveTcpSo
 {
 Init
 (
-false
 false
 true
 )

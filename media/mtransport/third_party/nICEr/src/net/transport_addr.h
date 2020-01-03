@@ -517,6 +517,7 @@ addr
 int
 nr_transport_addr_get_addrstring
 (
+const
 nr_transport_addr
 *
 addr
