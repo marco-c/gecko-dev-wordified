@@ -96,16 +96,7 @@ action
 switchtab
 "
 +
-JSON
-.
-stringify
-(
-{
-url
-:
 testURL
-}
-)
 ;
 testURL
 =
