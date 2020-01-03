@@ -944,6 +944,15 @@ type
 boolean
 "
 }
+supportsHardwareH264
+:
+{
+type
+:
+"
+boolean
+"
+}
 numAcceleratedWindowsMessage
 :
 {

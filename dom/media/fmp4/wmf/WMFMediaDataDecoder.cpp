@@ -277,6 +277,11 @@ Shutdown
 (
 )
 {
+if
+(
+mTaskQueue
+)
+{
 mTaskQueue
 -
 >
@@ -293,6 +298,14 @@ ProcessShutdown
 )
 )
 ;
+}
+else
+{
+ProcessShutdown
+(
+)
+;
+}
 #
 ifdef
 DEBUG

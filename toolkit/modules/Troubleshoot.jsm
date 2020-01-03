@@ -2238,6 +2238,14 @@ winUtils
 .
 layerManagerRemote
 ;
+data
+.
+supportsHardwareH264
+=
+winUtils
+.
+supportsHardwareH264Decoding
+;
 }
 catch
 (
