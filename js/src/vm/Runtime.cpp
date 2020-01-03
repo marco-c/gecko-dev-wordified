@@ -981,6 +981,10 @@ errorReporter
 (
 nullptr
 )
+linkedAsmJSModules
+(
+nullptr
+)
 propertyRemovals
 (
 0
