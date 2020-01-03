@@ -488,6 +488,11 @@ mDurationUs
 -
 1
 )
+mVideoLastFrameTime
+(
+-
+1
+)
 mVideoBuffer
 (
 nullptr
@@ -511,11 +516,6 @@ false
 mVideoPaused
 (
 false
-)
-mVideoLastFrameTime
-(
--
-1
 )
 {
 mLooper
