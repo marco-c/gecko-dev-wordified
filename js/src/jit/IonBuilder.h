@@ -5390,6 +5390,9 @@ isGetter
 JSObject
 *
 foundProto
+bool
+*
+guardGlobal
 )
 ;
 void
@@ -5407,6 +5410,10 @@ name
 JSObject
 *
 foundProto
+bool
+allowEmptyTypesForGlobal
+=
+false
 )
 ;
 MDefinition
@@ -5430,6 +5437,11 @@ foundProto
 Shape
 *
 lastProperty
+Shape
+*
+globalShape
+=
+nullptr
 )
 ;
 bool
