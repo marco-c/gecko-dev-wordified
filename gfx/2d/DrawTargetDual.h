@@ -145,6 +145,7 @@ void
 funcName
 (
 )
+MOZ_OVERRIDE
 {
 mA
 -
@@ -177,6 +178,7 @@ funcName
 var1Type
 var1Name
 )
+MOZ_OVERRIDE
 {
 mA
 -
@@ -332,6 +334,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetDual
+MOZ_OVERRIDE
 )
 DrawTargetDual
 (
@@ -385,6 +388,7 @@ GetBackendType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -403,6 +407,7 @@ SourceSurface
 Snapshot
 (
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -418,6 +423,7 @@ IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 mA
@@ -469,6 +475,7 @@ Matrix
 &
 aTransform
 )
+MOZ_OVERRIDE
 {
 mTransform
 =
@@ -515,6 +522,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -540,6 +548,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 {
 mA
 -
@@ -586,6 +595,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -611,6 +621,7 @@ aSigma
 CompositionOp
 aOp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -628,6 +639,7 @@ IntPoint
 &
 aDestination
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -646,6 +658,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -668,6 +681,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -694,6 +708,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -716,6 +731,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -734,6 +750,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -759,6 +776,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -777,6 +795,7 @@ DrawOptions
 &
 aOptions
 )
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -799,6 +818,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -825,6 +845,7 @@ SourceSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -849,6 +870,7 @@ NativeSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -875,6 +897,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -892,6 +915,7 @@ FillRule
 FILL_WINDING
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -924,6 +948,7 @@ ExtendMode
 CLAMP
 )
 const
+MOZ_OVERRIDE
 {
 return
 mA
@@ -947,6 +972,7 @@ CreateFilter
 FilterType
 aType
 )
+MOZ_OVERRIDE
 {
 return
 mA
@@ -966,6 +992,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -977,6 +1004,7 @@ IsDualDrawTarget
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true

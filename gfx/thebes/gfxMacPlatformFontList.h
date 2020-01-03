@@ -309,6 +309,7 @@ FontListSizes
 aSizes
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 ReadCMAP
@@ -319,6 +320,7 @@ aFontInfoData
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 bool
 RequiresAATLayout
@@ -349,6 +351,7 @@ aFontStyle
 bool
 aNeedsBold
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -357,6 +360,7 @@ HasFontTable
 uint32_t
 aTableTag
 )
+MOZ_OVERRIDE
 ;
 static
 void

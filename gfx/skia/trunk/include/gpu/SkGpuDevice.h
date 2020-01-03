@@ -702,6 +702,7 @@ SkPaint
 &
 paint
 )
+SK_OVERRIDE
 ;
 virtual
 void

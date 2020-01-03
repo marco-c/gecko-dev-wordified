@@ -1060,6 +1060,7 @@ int32_t
 *
 h
 )
+MOZ_OVERRIDE
 {
 *
 l
@@ -1109,6 +1110,7 @@ int32_t
 *
 h
 )
+MOZ_OVERRIDE
 {
 return
 GetRect
@@ -1136,6 +1138,7 @@ int32_t
 *
 h
 )
+MOZ_OVERRIDE
 {
 return
 GetRect
@@ -1163,6 +1166,7 @@ int32_t
 *
 h
 )
+MOZ_OVERRIDE
 {
 return
 GetAvailRect
@@ -1181,6 +1185,7 @@ uint32_t
 *
 aId
 )
+MOZ_OVERRIDE
 {
 *
 aId
@@ -1202,6 +1207,7 @@ int32_t
 *
 aPixelDepth
 )
+MOZ_OVERRIDE
 {
 *
 aPixelDepth
@@ -1219,6 +1225,7 @@ int32_t
 *
 aColorDepth
 )
+MOZ_OVERRIDE
 {
 *
 aColorDepth
@@ -1235,6 +1242,7 @@ LockMinimumBrightness
 uint32_t
 aBrightness
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1246,6 +1254,7 @@ UnlockMinimumBrightness
 uint32_t
 aBrightness
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1258,6 +1267,7 @@ uint32_t
 *
 aRotation
 )
+MOZ_OVERRIDE
 {
 *
 aRotation
@@ -1277,6 +1287,7 @@ SetRotation
 uint32_t
 aRotation
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1289,6 +1300,7 @@ double
 *
 aContentsScaleFactor
 )
+MOZ_OVERRIDE
 {
 *
 aContentsScaleFactor

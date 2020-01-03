@@ -441,6 +441,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeRecording
+MOZ_OVERRIDE
 )
 using
 FilterNode
@@ -495,6 +496,7 @@ SourceSurface
 *
 aSurface
 )
+MOZ_OVERRIDE
 {
 mRecorder
 -
@@ -532,6 +534,7 @@ FilterNode
 *
 aFilter
 )
+MOZ_OVERRIDE
 {
 FilterNode
 *
@@ -627,6 +630,7 @@ aIndex
 type
 aValue
 )
+MOZ_OVERRIDE
 {
 \
 mRecorder
@@ -767,6 +771,7 @@ aFloat
 uint32_t
 aSize
 )
+MOZ_OVERRIDE
 {
 mRecorder
 -

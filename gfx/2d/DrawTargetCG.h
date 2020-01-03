@@ -526,6 +526,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GlyphRenderingOptionsCG
+MOZ_OVERRIDE
 )
 explicit
 GlyphRenderingOptionsCG
@@ -587,6 +588,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetCG
+MOZ_OVERRIDE
 )
 friend
 class
@@ -620,6 +622,7 @@ GetBackendType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -629,6 +632,7 @@ SourceSurface
 Snapshot
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -662,6 +666,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -687,6 +692,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -710,6 +716,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -732,6 +739,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -801,6 +809,7 @@ void
 Flush
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -820,6 +829,7 @@ Point
 Float
 CompositionOp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -829,6 +839,7 @@ const
 Rect
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -843,6 +854,7 @@ const
 IntPoint
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -861,6 +873,7 @@ const
 DrawOptions
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -882,6 +895,7 @@ const
 DrawOptions
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -900,6 +914,7 @@ const
 DrawOptions
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -915,6 +930,7 @@ const
 DrawOptions
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -935,6 +951,7 @@ const
 GlyphRenderingOptions
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -957,6 +974,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -966,6 +984,7 @@ const
 Path
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -976,12 +995,14 @@ Rect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 PopClip
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -995,6 +1016,7 @@ NativeSurface
 &
 )
 const
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -1013,6 +1035,7 @@ IntSize
 SurfaceFormat
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -1024,6 +1047,7 @@ CreatePathBuilder
 FillRule
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -1044,6 +1068,7 @@ ExtendMode
 CLAMP
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -1055,6 +1080,7 @@ CreateFilter
 FilterType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1063,12 +1089,14 @@ GetNativeSurface
 (
 NativeSurfaceType
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSize
@@ -1106,6 +1134,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -1119,6 +1148,7 @@ SourceSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 ;
 CGContextRef
 GetCGContext

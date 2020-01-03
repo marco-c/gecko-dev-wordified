@@ -127,6 +127,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetRecording
+MOZ_OVERRIDE
 )
 DrawTargetRecording
 (
@@ -170,6 +171,7 @@ GetBackendType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mFinalDT
@@ -188,12 +190,14 @@ SourceSurface
 Snapshot
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 mFinalDT
@@ -249,6 +253,7 @@ void
 Flush
 (
 )
+MOZ_OVERRIDE
 {
 mFinalDT
 -
@@ -376,6 +381,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -401,6 +407,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -550,6 +557,7 @@ aSigma
 CompositionOp
 aOperator
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -592,6 +600,7 @@ Rect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -673,6 +682,7 @@ IntPoint
 &
 aDestination
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -744,6 +754,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -823,6 +834,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -909,6 +921,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -992,6 +1005,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1059,6 +1073,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1110,6 +1125,7 @@ aRenderingOptions
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1184,6 +1200,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1207,6 +1224,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1237,6 +1255,7 @@ Path
 *
 aPath
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1280,6 +1299,7 @@ Rect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1308,6 +1328,7 @@ void
 PopClip
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1370,6 +1391,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1415,6 +1437,7 @@ SourceSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1466,6 +1489,7 @@ NativeSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1500,6 +1524,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1560,6 +1585,7 @@ FillRule
 FILL_WINDING
 )
 const
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1655,6 +1681,7 @@ ExtendMode
 CLAMP
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -1666,6 +1693,7 @@ CreateFilter
 FilterType
 aType
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1705,6 +1733,7 @@ Matrix
 &
 aTransform
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1742,6 +1771,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
+MOZ_OVERRIDE
 {
 return
 mFinalDT
