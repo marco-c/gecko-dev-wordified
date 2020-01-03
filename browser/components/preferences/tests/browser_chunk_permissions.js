@@ -385,6 +385,8 @@ perms
 remove
 (
 TEST_URI_1
+.
+host
 type
 )
 ;
@@ -395,6 +397,8 @@ perms
 remove
 (
 TEST_URI_2
+.
+host
 type
 )
 ;
@@ -405,6 +409,8 @@ perms
 remove
 (
 TEST_URI_3
+.
+host
 type
 )
 ;

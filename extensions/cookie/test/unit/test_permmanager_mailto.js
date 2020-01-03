@@ -145,7 +145,7 @@ perms
 .
 remove
 (
-uri
+kTestAddr
 kType
 )
 ;
@@ -204,7 +204,7 @@ perms
 .
 remove
 (
-uri
+kTestAddr
 kType
 )
 ;

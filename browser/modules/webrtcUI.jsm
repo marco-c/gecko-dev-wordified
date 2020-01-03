@@ -5707,6 +5707,14 @@ null
 )
 ;
 let
+host
+=
+getHost
+(
+uri
+)
+;
+let
 perms
 =
 Services
@@ -5739,7 +5747,7 @@ perms
 .
 remove
 (
-uri
+host
 "
 camera
 "
@@ -5771,7 +5779,7 @@ perms
 .
 remove
 (
-uri
+host
 "
 microphone
 "

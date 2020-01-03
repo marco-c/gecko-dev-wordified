@@ -1358,7 +1358,11 @@ perms
 .
 remove
 (
-testUri
+"
+example
+.
+com
+"
 "
 uitour
 "

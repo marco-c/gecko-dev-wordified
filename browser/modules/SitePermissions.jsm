@@ -622,6 +622,8 @@ perms
 remove
 (
 aURI
+.
+host
 aPermissionID
 )
 ;

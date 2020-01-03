@@ -447,6 +447,8 @@ perms
 remove
 (
 TEST_URI_GOOD
+.
+spec
 "
 remote
 -

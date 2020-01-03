@@ -3759,6 +3759,8 @@ Perms
 remove
 (
 uri
+.
+host
 aDevice
 )
 ;
@@ -4637,6 +4639,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 camera
 "
@@ -4647,6 +4651,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 microphone
 "
@@ -5680,6 +5686,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 camera
 "
@@ -5690,6 +5698,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 microphone
 "
@@ -6403,6 +6413,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 camera
 "
@@ -6413,6 +6425,8 @@ Perms
 remove
 (
 uri
+.
+host
 "
 microphone
 "
