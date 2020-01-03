@@ -1256,9 +1256,6 @@ aCx
 bool
 Close
 (
-JSContext
-*
-aCx
 )
 ;
 bool

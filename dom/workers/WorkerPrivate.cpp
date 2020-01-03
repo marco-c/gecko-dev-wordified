@@ -6779,7 +6779,6 @@ aWorkerPrivate
 >
 Close
 (
-aCx
 )
 ;
 }
@@ -15299,9 +15298,6 @@ Derived
 :
 Close
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnParentThread
