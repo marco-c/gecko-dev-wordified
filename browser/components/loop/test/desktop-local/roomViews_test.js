@@ -3819,7 +3819,7 @@ display
 loading
 spinner
 when
-localSrcVideoObject
+localSrcMediaElement
 is
 null
 "
@@ -3837,7 +3837,7 @@ roomState
 ROOM_STATES
 .
 MEDIA_WAIT
-localSrcVideoObject
+localSrcMediaElement
 :
 null
 }
@@ -3908,7 +3908,7 @@ roomState
 ROOM_STATES
 .
 MEDIA_WAIT
-localSrcVideoObject
+localSrcMediaElement
 :
 {
 fake
@@ -3983,7 +3983,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 null
 }
@@ -4054,7 +4054,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 {
 fake
@@ -4201,7 +4201,7 @@ true
 remoteVideoEnabled
 :
 true
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 {
 fake
@@ -4318,7 +4318,7 @@ activeRoomStore
 setStoreState
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 {
 fake

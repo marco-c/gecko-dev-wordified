@@ -3503,7 +3503,7 @@ conversationStore
 setStoreState
 (
 {
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 {
 fake
@@ -3578,7 +3578,7 @@ conversationStore
 setStoreState
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 {
 fake

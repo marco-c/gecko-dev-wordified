@@ -2742,11 +2742,11 @@ localVideoEnabled
 actionData
 .
 hasVideo
-localSrcVideoObject
+localSrcMediaElement
 :
 actionData
 .
-srcVideoObject
+srcMediaElement
 }
 )
 ;
@@ -2763,11 +2763,11 @@ remoteVideoEnabled
 actionData
 .
 hasVideo
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 actionData
 .
-srcVideoObject
+srcMediaElement
 }
 )
 ;
@@ -2823,7 +2823,7 @@ this
 setStoreState
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 null
 }
@@ -2837,7 +2837,7 @@ this
 setStoreState
 (
 {
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 null
 }

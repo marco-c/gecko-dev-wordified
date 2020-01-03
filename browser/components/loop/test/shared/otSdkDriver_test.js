@@ -5224,7 +5224,7 @@ true
 isLocal
 :
 true
-srcVideoObject
+srcMediaElement
 :
 fakeMockVideo
 }
@@ -5307,7 +5307,7 @@ false
 isLocal
 :
 true
-srcVideoObject
+srcMediaElement
 :
 fakeMockVideo
 }
@@ -5763,7 +5763,7 @@ true
 isLocal
 :
 false
-srcVideoObject
+srcMediaElement
 :
 videoElement
 }
@@ -5865,7 +5865,7 @@ false
 isLocal
 :
 false
-srcVideoObject
+srcMediaElement
 :
 videoElement
 }

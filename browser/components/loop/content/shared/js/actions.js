@@ -1236,7 +1236,7 @@ Boolean
 isLocal
 :
 Boolean
-srcVideoObject
+srcMediaElement
 :
 Object
 }
@@ -1589,7 +1589,7 @@ receiving
 Boolean
 /
 /
-srcVideoObject
+srcMediaElement
 :
 Object
 (
