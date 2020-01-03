@@ -750,7 +750,7 @@ MP4Demuxer
 >
 mDemuxer
 ;
-nsAutoPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >

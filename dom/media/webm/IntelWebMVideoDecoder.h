@@ -356,7 +356,7 @@ WebMReader
 >
 mReader
 ;
-nsAutoPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >

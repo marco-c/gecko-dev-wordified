@@ -297,7 +297,7 @@ has
 decoding
 capability
 .
-nsAutoPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >

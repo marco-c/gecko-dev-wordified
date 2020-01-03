@@ -407,7 +407,7 @@ if
 mDecoder
 )
 {
-nsAutoPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >
