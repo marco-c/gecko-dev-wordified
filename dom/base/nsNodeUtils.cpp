@@ -1325,7 +1325,7 @@ effect
 aPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

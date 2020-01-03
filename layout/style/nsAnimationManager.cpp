@@ -486,7 +486,7 @@ aEventsToDispatch
 if
 (
 !
-mSource
+mEffect
 )
 {
 return
@@ -495,7 +495,7 @@ return
 ComputedTiming
 computedTiming
 =
-mSource
+mEffect
 -
 >
 GetComputedTiming
@@ -791,7 +791,7 @@ nsCSSPseudoElements
 Type
 targetPseudoType
 ;
-mSource
+mEffect
 -
 >
 GetTarget
@@ -884,7 +884,7 @@ min
 (
 StickyTimeDuration
 (
-mSource
+mEffect
 -
 >
 InitialAdvance
@@ -970,7 +970,7 @@ NS_ANIMATION_ITERATION
 TimeDuration
 iterationStart
 =
-mSource
+mEffect
 -
 >
 Timing
@@ -993,7 +993,7 @@ std
 max
 (
 iterationStart
-mSource
+mEffect
 -
 >
 InitialAdvance
@@ -2187,7 +2187,7 @@ if
 oldPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 &
@@ -2195,7 +2195,7 @@ GetSource
 newPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 )
@@ -2207,7 +2207,7 @@ oldEffect
 oldPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -2218,7 +2218,7 @@ newEffect
 newPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -3482,7 +3482,7 @@ GetName
 dest
 -
 >
-SetSource
+SetEffect
 (
 destEffect
 )
@@ -5028,7 +5028,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -5321,7 +5321,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

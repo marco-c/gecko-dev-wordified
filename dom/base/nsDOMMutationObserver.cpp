@@ -1920,7 +1920,7 @@ effect
 aPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

@@ -544,7 +544,7 @@ node
 =
 player
 .
-source
+effect
 .
 target
 ;
@@ -979,7 +979,7 @@ this
 .
 player
 .
-source
+effect
 .
 name
 )
@@ -1638,7 +1638,7 @@ this
 .
 player
 .
-source
+effect
 .
 name
 duration
@@ -3855,7 +3855,7 @@ this
 player
 player
 .
-source
+effect
 .
 target
 .
