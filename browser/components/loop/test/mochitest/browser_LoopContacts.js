@@ -524,7 +524,7 @@ addMany
 (
 kContacts
 (
-err
+error
 contacts
 )
 =
@@ -532,12 +532,12 @@ contacts
 {
 if
 (
-err
+error
 )
 {
 reject
 (
-err
+error
 )
 ;
 return
@@ -733,10 +733,10 @@ gExpectedAdds
 .
 map
 (
-contact
+contactEntry
 =
 >
-contact
+contactEntry
 .
 id
 )
@@ -1111,8 +1111,8 @@ contact
 .
 _guid
 (
-err
-contact
+error
+contactEntry
 )
 =
 >
@@ -1122,7 +1122,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -1136,7 +1136,7 @@ error
 ;
 compareContacts
 (
-contact
+contactEntry
 kDanglingContact
 )
 ;
@@ -1225,7 +1225,7 @@ getAll
 (
 function
 (
-err
+error
 found
 )
 {
@@ -1234,7 +1234,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -1673,7 +1673,7 @@ getAll
 (
 (
 err
-contacts
+allContacts
 )
 =
 >
@@ -1703,7 +1703,7 @@ i
 0
 l
 =
-contacts
+allContacts
 .
 length
 ;
@@ -1718,7 +1718,7 @@ i
 {
 compareContacts
 (
-contacts
+allContacts
 [
 i
 ]
@@ -1915,7 +1915,7 @@ get
 (
 toRemove
 (
-err
+error
 contact
 )
 =
@@ -1926,7 +1926,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -2128,8 +2128,8 @@ LoopContacts
 getAll
 (
 (
-err
-contacts
+error
+allContacts
 )
 =
 >
@@ -2139,7 +2139,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -2154,7 +2154,7 @@ error
 let
 ids
 =
-contacts
+allContacts
 .
 map
 (
@@ -2398,7 +2398,7 @@ toUpdate
 .
 _guid
 (
-err
+error
 contact
 )
 =
@@ -2409,7 +2409,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -2702,7 +2702,7 @@ get
 (
 toBlock
 (
-err
+error
 contact
 )
 =
@@ -2713,7 +2713,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn
@@ -2961,7 +2961,7 @@ get
 (
 toUnblock
 (
-err
+error
 contact
 )
 =
@@ -2972,7 +2972,7 @@ Assert
 ok
 (
 !
-err
+error
 "
 There
 shouldn

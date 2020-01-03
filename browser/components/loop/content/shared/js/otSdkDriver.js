@@ -4718,7 +4718,7 @@ close
 :
 function
 (
-event
+e
 )
 {
 /
@@ -4820,7 +4820,7 @@ message
 :
 function
 (
-event
+ev
 )
 {
 try
@@ -4840,7 +4840,7 @@ JSON
 .
 parse
 (
-event
+ev
 .
 data
 )
@@ -4879,7 +4879,7 @@ close
 :
 function
 (
-event
+e
 )
 {
 /

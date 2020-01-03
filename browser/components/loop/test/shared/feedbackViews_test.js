@@ -249,13 +249,13 @@ helpers
 function
 clickHappyFace
 (
-comp
+component
 )
 {
 var
 happyFace
 =
-comp
+component
 .
 getDOMNode
 (
@@ -284,13 +284,13 @@ happyFace
 function
 clickSadFace
 (
-comp
+component
 )
 {
 var
 sadFace
 =
-comp
+component
 .
 getDOMNode
 (
@@ -319,7 +319,7 @@ sadFace
 function
 fillSadFeedbackForm
 (
-comp
+component
 category
 text
 )
@@ -330,7 +330,7 @@ Simulate
 .
 change
 (
-comp
+component
 .
 getDOMNode
 (
@@ -365,7 +365,7 @@ Simulate
 .
 change
 (
-comp
+component
 .
 getDOMNode
 (
@@ -402,7 +402,7 @@ reason
 function
 submitSadFeedbackForm
 (
-comp
+component
 category
 text
 )
@@ -413,7 +413,7 @@ Simulate
 .
 submit
 (
-comp
+component
 .
 getDOMNode
 (

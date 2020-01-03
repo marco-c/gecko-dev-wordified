@@ -2530,7 +2530,7 @@ onRegistered
 (
 error
 pushURL
-channelID
+chID
 )
 =
 >
@@ -2546,7 +2546,7 @@ onRegistered
 "
 error
 pushURL
-channelID
+chID
 )
 ;
 if
@@ -3713,7 +3713,7 @@ let
 unregister
 =
 (
-sessionType
+sessType
 pushURL
 )
 =
@@ -3763,7 +3763,7 @@ this
 .
 hawkRequestInternal
 (
-sessionType
+sessType
 unregisterURL
 "
 DELETE
@@ -3790,7 +3790,7 @@ for
 sessionType
 =
 "
-sessionType
+sessType
 )
 ;
 return
@@ -3799,16 +3799,16 @@ unregistered
 sessionType
 "
 +
-sessionType
+sessType
 ;
 }
-error
+err
 =
 >
 {
 if
 (
-error
+err
 .
 code
 =
@@ -3847,7 +3847,7 @@ unregistered
 invalid
 token
 "
-sessionType
+sessType
 )
 ;
 return
@@ -3858,7 +3858,7 @@ sessionType
 =
 "
 +
-sessionType
+sessType
 ;
 }
 log
@@ -3881,7 +3881,7 @@ error
 )
 ;
 throw
-error
+err
 ;
 }
 )
@@ -6459,7 +6459,7 @@ loopChatMessageAppended
 function
 onChatEvent
 (
-event
+ev
 )
 {
 /
@@ -6492,7 +6492,7 @@ customSize
 =
 kSizeMap
 [
-event
+ev
 .
 type
 ]
@@ -6607,7 +6607,7 @@ the
 internal
 winId
 let
-windowId
+chatWindowId
 =
 window
 .
@@ -6629,7 +6629,7 @@ conversationContexts
 .
 get
 (
-windowId
+chatWindowId
 )
 ;
 var
@@ -6873,7 +6873,7 @@ true
 }
 ;
 let
-chatbox
+chatboxInstance
 =
 Chat
 .
@@ -6892,7 +6892,7 @@ callback
 if
 (
 !
-chatbox
+chatboxInstance
 )
 {
 return
@@ -6917,7 +6917,7 @@ open
 else
 if
 (
-chatbox
+chatboxInstance
 .
 setAttribute
 )
@@ -6942,7 +6942,7 @@ to
 circumvent
 glitches
 .
-chatbox
+chatboxInstance
 .
 setAttribute
 (
@@ -6952,7 +6952,7 @@ dark
 true
 )
 ;
-chatbox
+chatboxInstance
 .
 setAttribute
 (
@@ -6964,7 +6964,7 @@ loopDefault
 "
 )
 ;
-chatbox
+chatboxInstance
 .
 parentNode
 .
@@ -8697,7 +8697,7 @@ return
 /
 /
 The
-particpant
+participant
 that
 joined
 isn
@@ -8725,7 +8725,7 @@ concatenate
 for
 (
 let
-participant
+roomParticipant
 of
 room
 .
@@ -8739,7 +8739,7 @@ participant
 {
 if
 (
-participant
+roomParticipant
 .
 owner
 )

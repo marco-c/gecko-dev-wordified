@@ -4381,7 +4381,7 @@ function
 )
 {
 var
-fakeStream
+stream
 fakeMockVideo
 ;
 beforeEach
@@ -4423,7 +4423,7 @@ appendChild
 fakeMockVideo
 )
 ;
-fakeStream
+stream
 =
 {
 hasVideo
@@ -4472,7 +4472,7 @@ streamCreated
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -4550,7 +4550,7 @@ streamCreated
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -4629,7 +4629,7 @@ streamCreated
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -6064,7 +6064,7 @@ function
 )
 {
 var
-fakeStream
+stream
 ;
 beforeEach
 (
@@ -6072,7 +6072,7 @@ function
 (
 )
 {
-fakeStream
+stream
 =
 {
 videoType
@@ -6108,7 +6108,7 @@ streamDestroyed
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -6195,7 +6195,7 @@ streamDestroyed
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -6271,7 +6271,7 @@ function
 (
 )
 {
-fakeStream
+stream
 .
 videoType
 =
@@ -6289,7 +6289,7 @@ streamDestroyed
 {
 stream
 :
-fakeStream
+stream
 }
 )
 ;
@@ -6333,7 +6333,7 @@ function
 )
 {
 var
-fakeStream
+stream
 =
 {
 connection
@@ -6389,7 +6389,7 @@ streamPropertyChanged
 {
 stream
 :
-fakeStream
+stream
 changedProperty
 :
 STREAM_PROPERTIES
@@ -6408,7 +6408,7 @@ streamPropertyChanged
 {
 stream
 :
-fakeStream
+stream
 changedProperty
 :
 STREAM_PROPERTIES
@@ -6466,7 +6466,7 @@ streamPropertyChanged
 {
 stream
 :
-fakeStream
+stream
 changedProperty
 :
 STREAM_PROPERTIES

@@ -3502,7 +3502,7 @@ function
 )
 {
 var
-store
+fakeStore
 activeRoomStore
 ;
 beforeEach
@@ -3532,7 +3532,7 @@ sdkDriver
 }
 )
 ;
-store
+fakeStore
 =
 new
 loop
@@ -3590,7 +3590,7 @@ fakeServerData
 ;
 expect
 (
-store
+fakeStore
 .
 getStoreState
 (
@@ -3628,7 +3628,7 @@ function
 done
 )
 {
-store
+fakeStore
 .
 once
 (

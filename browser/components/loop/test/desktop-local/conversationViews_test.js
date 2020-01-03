@@ -202,7 +202,7 @@ function
 )
 {
 var
-mockTagName
+tagName
 =
 mockTagName
 |
@@ -216,7 +216,7 @@ React
 .
 DOM
 [
-mockTagName
+tagName
 ]
 (
 null
@@ -1608,7 +1608,7 @@ var
 fakeAudio
 ;
 var
-contact
+fakeContact
 =
 {
 email
@@ -1745,7 +1745,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -1845,7 +1845,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -1945,7 +1945,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2224,7 +2224,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2327,7 +2327,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2414,7 +2414,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2478,7 +2478,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2547,7 +2547,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2612,7 +2612,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2720,7 +2720,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2784,7 +2784,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2811,7 +2811,7 @@ conversationViews
 .
 _getContactDisplayName
 (
-contact
+fakeContact
 )
 }
 )
@@ -2860,7 +2860,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -2887,7 +2887,7 @@ conversationViews
 .
 _getContactDisplayName
 (
-contact
+fakeContact
 )
 }
 )
@@ -2937,7 +2937,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -3001,7 +3001,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -3028,7 +3028,7 @@ conversationViews
 .
 _getContactDisplayName
 (
-contact
+fakeContact
 )
 }
 )
@@ -3077,7 +3077,7 @@ mountTestComponent
 {
 contact
 :
-contact
+fakeContact
 }
 )
 ;
@@ -4865,7 +4865,7 @@ function
 )
 {
 var
-view
+callView
 ;
 function
 mountTestComponent
@@ -4916,7 +4916,7 @@ function
 (
 )
 {
-view
+callView
 =
 null
 ;
@@ -4936,7 +4936,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -4987,7 +4987,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5008,7 +5008,7 @@ com
 }
 )
 ;
-view
+callView
 .
 componentWillUnmount
 (
@@ -5054,7 +5054,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5078,7 +5078,7 @@ com
 var
 primaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5132,7 +5132,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5156,7 +5156,7 @@ com
 var
 primaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5208,7 +5208,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5232,7 +5232,7 @@ com
 var
 primaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5318,7 +5318,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5342,7 +5342,7 @@ com
 var
 primaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5433,7 +5433,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5457,7 +5457,7 @@ com
 var
 secondaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5548,7 +5548,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5572,7 +5572,7 @@ com
 var
 secondaryBtn
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5676,7 +5676,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5700,7 +5700,7 @@ com
 var
 buttonDecline
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5795,7 +5795,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -5819,7 +5819,7 @@ com
 var
 buttonBlock
 =
-view
+callView
 .
 getDOMNode
 (
@@ -5896,7 +5896,7 @@ function
 )
 {
 var
-view
+callView
 fakeAudio
 ;
 function
@@ -5996,7 +5996,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -6087,7 +6087,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -6140,7 +6140,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -6162,7 +6162,7 @@ UNABLE_TO_PUBLISH_MEDIA
 ;
 expect
 (
-view
+callView
 .
 getDOMNode
 (
@@ -6207,7 +6207,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -6229,7 +6229,7 @@ NO_MEDIA
 ;
 expect
 (
-view
+callView
 .
 getDOMNode
 (
@@ -6273,7 +6273,7 @@ function
 (
 )
 {
-view
+callView
 =
 mountTestComponent
 (
@@ -6290,7 +6290,7 @@ function
 ;
 expect
 (
-view
+callView
 .
 getDOMNode
 (

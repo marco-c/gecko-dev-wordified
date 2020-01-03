@@ -3226,7 +3226,7 @@ function
 )
 {
 var
-comp
+component
 ;
 beforeEach
 (
@@ -3234,7 +3234,7 @@ function
 (
 )
 {
-comp
+component
 =
 mountTestComponent
 (
@@ -3255,7 +3255,7 @@ false
 }
 )
 ;
-comp
+component
 .
 startPublishing
 (
@@ -3277,7 +3277,7 @@ function
 (
 )
 {
-comp
+component
 .
 publishStream
 (
@@ -3326,7 +3326,7 @@ function
 (
 )
 {
-comp
+component
 .
 publishStream
 (
@@ -3375,7 +3375,7 @@ function
 (
 )
 {
-comp
+component
 .
 publishStream
 (
@@ -3424,7 +3424,7 @@ function
 (
 )
 {
-comp
+component
 .
 publishStream
 (

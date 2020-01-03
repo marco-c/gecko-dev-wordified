@@ -3800,11 +3800,11 @@ function
 function
 getJoinButton
 (
-view
+elem
 )
 {
 return
-view
+elem
 .
 getDOMNode
 (
@@ -4599,11 +4599,11 @@ function
 function
 getLeaveButton
 (
-view
+elem
 )
 {
 return
-view
+elem
 .
 getDOMNode
 (

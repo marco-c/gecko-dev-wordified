@@ -235,7 +235,7 @@ function
 )
 {
 var
-store
+fakeStore
 =
 new
 loop
@@ -254,7 +254,7 @@ feedbackClient
 ;
 expect
 (
-store
+fakeStore
 .
 getStoreState
 (

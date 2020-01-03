@@ -1832,7 +1832,7 @@ roomInfoData
 }
 function
 (
-err
+error
 )
 {
 roomInfoData

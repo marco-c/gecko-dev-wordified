@@ -3190,14 +3190,14 @@ roomToken
 roomData
 function
 (
-err
+error
 data
 )
 {
 var
 action
 =
-err
+error
 ?
 new
 sharedActions
@@ -3207,7 +3207,7 @@ UpdateRoomContextError
 {
 error
 :
-err
+error
 }
 )
 :

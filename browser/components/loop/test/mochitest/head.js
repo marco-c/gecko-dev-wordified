@@ -1385,7 +1385,7 @@ function
 onNotification
 (
 aSubject
-aTopic
+topic
 aData
 )
 {
@@ -1396,7 +1396,7 @@ obs
 removeObserver
 (
 onNotification
-aTopic
+topic
 )
 ;
 is

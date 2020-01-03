@@ -2887,7 +2887,6 @@ function
 var
 view
 fakeAudioMixin
-TestComp
 comp
 ;
 function
