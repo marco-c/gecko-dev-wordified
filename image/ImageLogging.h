@@ -100,7 +100,9 @@ mozilla_image_ImageLogging_h
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

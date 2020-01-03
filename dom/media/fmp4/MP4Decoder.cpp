@@ -180,7 +180,9 @@ endif
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

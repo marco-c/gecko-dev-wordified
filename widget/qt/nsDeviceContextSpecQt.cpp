@@ -120,7 +120,9 @@ printerfeatures
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

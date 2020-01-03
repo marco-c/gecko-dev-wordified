@@ -110,7 +110,9 @@ _nsCache_h_
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

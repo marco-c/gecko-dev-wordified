@@ -65,7 +65,9 @@ Cache2Log__h__
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

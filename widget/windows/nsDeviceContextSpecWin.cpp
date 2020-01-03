@@ -292,7 +292,9 @@ properties
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

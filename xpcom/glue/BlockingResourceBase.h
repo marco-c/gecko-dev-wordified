@@ -123,7 +123,9 @@ mozilla_BlockingResourceBase_h
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

@@ -89,7 +89,9 @@ LOG
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

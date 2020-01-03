@@ -193,7 +193,9 @@ nsPluginLogging_h__
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

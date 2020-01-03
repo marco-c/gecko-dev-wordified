@@ -942,7 +942,9 @@ LOGGING
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

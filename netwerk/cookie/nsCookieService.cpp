@@ -1535,7 +1535,9 @@ log
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

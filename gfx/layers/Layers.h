@@ -571,7 +571,9 @@ nsAString
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

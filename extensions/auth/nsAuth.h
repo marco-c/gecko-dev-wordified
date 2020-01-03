@@ -80,7 +80,9 @@ PACKAGE_TYPE_NTLM
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

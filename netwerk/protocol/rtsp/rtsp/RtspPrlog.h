@@ -120,7 +120,9 @@ RTSPPRLOG_H
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

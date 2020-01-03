@@ -306,7 +306,9 @@ NodeInfo
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

@@ -167,7 +167,9 @@ GfxMemoryImageReporter
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

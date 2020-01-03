@@ -133,11 +133,13 @@ sstream
 >
 #
 include
-<
-prlog
+"
+mozilla
+/
+Logging
 .
 h
->
+"
 #
 define
 ML_EMERG

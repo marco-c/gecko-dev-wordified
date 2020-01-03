@@ -91,7 +91,9 @@ limits
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "
