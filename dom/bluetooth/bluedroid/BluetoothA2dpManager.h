@@ -351,6 +351,11 @@ nsAString
 aArtist
 )
 ;
+void
+HandleBackendError
+(
+)
+;
 protected
 :
 virtual
