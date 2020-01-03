@@ -3348,6 +3348,11 @@ some
 drivers
 ?
 )
+if
+(
+aDevice
+)
+{
 aDevice
 -
 >
@@ -3356,6 +3361,7 @@ SetExceptionMode
 0
 )
 ;
+}
 mD3D10Device
 =
 aDevice

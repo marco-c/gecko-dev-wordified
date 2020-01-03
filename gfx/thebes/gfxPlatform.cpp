@@ -12675,14 +12675,6 @@ true
 }
 if
 (
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
--
->
 AccelerateLayersByDefault
 (
 )
