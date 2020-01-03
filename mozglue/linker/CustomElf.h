@@ -372,6 +372,7 @@ made
 .
 *
 /
+virtual
 void
 stats
 (
