@@ -2275,7 +2275,8 @@ else
 Prepare
 the
 panel
-everytime
+every
+time
 before
 showing
 the
