@@ -116,6 +116,9 @@ class
 nsIDocument
 ;
 class
+nsILoadGroup
+;
+class
 nsString
 ;
 class
@@ -164,6 +167,9 @@ aBaseURI
 nsIDocument
 *
 aParentDoc
+nsILoadGroup
+*
+aLoadGroup
 const
 nsAString
 &
