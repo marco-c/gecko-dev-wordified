@@ -222,9 +222,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 add_connection_test
@@ -236,9 +234,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 add_connection_test
@@ -250,10 +246,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_UNKNOWN_CRITICAL_EXTENSION
-)
 )
 ;
 run_next_test

@@ -419,10 +419,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_OCSP_UNKNOWN_CERT
-)
 clearSessionCache
 )
 ;
@@ -481,10 +478,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_OCSP_UNKNOWN_CERT
-)
 clearSessionCache
 )
 ;
@@ -674,9 +668,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 clearSessionCache
 )
 ;
@@ -747,9 +739,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 clearSessionCache
 )
 ;
@@ -910,9 +900,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 clearSessionCache
 )
 ;
@@ -963,9 +951,7 @@ example
 .
 com
 "
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 clearSessionCache
 )
 ;
@@ -1019,10 +1005,7 @@ example
 .
 com
 "
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_REVOKED_CERTIFICATE
-)
 clearSessionCache
 )
 ;
