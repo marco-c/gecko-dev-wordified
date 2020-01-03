@@ -375,6 +375,13 @@ startListeners
 (
 )
 ;
+yield
+this
+.
+createPlayerWidgets
+(
+)
+;
 this
 .
 initialized
