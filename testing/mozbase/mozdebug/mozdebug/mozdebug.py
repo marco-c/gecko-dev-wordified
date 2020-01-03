@@ -953,8 +953,8 @@ get_debugger_info
 '
 args
 '
-'
-'
+[
+]
 )
     
 #
@@ -980,30 +980,26 @@ debuggerArgs
 :
         
 #
-Make
-sure
-to
-append
+Append
 the
-argument
-separator
-(
-if
-any
-)
-after
-the
-        
-#
 provided
+debugger
 arguments
+at
+the
+end
+of
+the
+arguments
+list
 .
         
 debugger_arguments
-=
-debuggerArgs
 +
-debugger_arguments
+=
+[
+debuggerArgs
+]
 ;
     
 #
