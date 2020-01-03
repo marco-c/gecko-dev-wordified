@@ -126,6 +126,15 @@ thread
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ReentrantMonitor
+.
+h
+"
 namespace
 mozilla
 {
@@ -249,7 +258,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-Monitor
+ReentrantMonitor
 mMonitor
 ;
 }

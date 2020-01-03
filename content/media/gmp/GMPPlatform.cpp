@@ -1174,7 +1174,7 @@ Acquire
 {
 mMonitor
 .
-Lock
+Enter
 (
 )
 ;
@@ -1189,7 +1189,7 @@ Release
 {
 mMonitor
 .
-Unlock
+Exit
 (
 )
 ;
