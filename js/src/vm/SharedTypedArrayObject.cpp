@@ -5262,8 +5262,8 @@ names
 .
 BYTES_PER_ELEMENT
 bytesValue
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -5287,8 +5287,8 @@ names
 .
 BYTES_PER_ELEMENT
 bytesValue
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
