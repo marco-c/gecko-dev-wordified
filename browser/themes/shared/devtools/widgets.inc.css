@@ -9874,6 +9874,12 @@ background
 :
 transparent
 ;
+pointer
+-
+events
+:
+none
+;
 }
 /
 *
