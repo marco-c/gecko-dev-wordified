@@ -1059,10 +1059,14 @@ newtab
 -
 title
 {
+-
+moz
+-
 padding
+-
+start
 :
-0
-15px
+24px
 ;
 }
 .
