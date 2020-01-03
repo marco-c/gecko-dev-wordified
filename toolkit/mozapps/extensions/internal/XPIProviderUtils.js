@@ -10700,6 +10700,7 @@ aNewAddon
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 }
@@ -10858,12 +10859,6 @@ the
 AddonInternal
 properties
 .
-aNewAddon
-.
-_installLocation
-=
-aInstallLocation
-;
 aNewAddon
 .
 installDate
@@ -11660,6 +11655,7 @@ aNewAddon
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 applyBlocklistChanges
@@ -11879,12 +11875,6 @@ on
 the
 new
 AddonInternal
-aNewAddon
-.
-_installLocation
-=
-aInstallLocation
-;
 aNewAddon
 .
 updateDate
@@ -12328,6 +12318,7 @@ manifest
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 aOldAddon
