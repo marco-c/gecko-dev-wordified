@@ -3420,6 +3420,8 @@ made
 chooseFolder
 (
 )
+{
+return
 this
 .
 chooseFolderTask
@@ -3434,6 +3436,8 @@ utils
 .
 reportError
 )
+;
+}
 chooseFolderTask
 :
 Task

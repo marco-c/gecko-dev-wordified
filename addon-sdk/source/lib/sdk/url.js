@@ -1143,6 +1143,8 @@ toString
 value
 (
 )
+{
+return
 new
 String
 (
@@ -1154,6 +1156,8 @@ spec
 toString
 (
 )
+;
+}
 enumerable
 :
 false
@@ -1164,6 +1168,8 @@ valueOf
 value
 (
 )
+{
+return
 new
 String
 (
@@ -1175,6 +1181,8 @@ spec
 valueOf
 (
 )
+;
+}
 enumerable
 :
 false
@@ -1185,6 +1193,8 @@ toSource
 value
 (
 )
+{
+return
 new
 String
 (
@@ -1196,6 +1206,8 @@ spec
 toSource
 (
 )
+;
+}
 enumerable
 :
 false
@@ -1220,6 +1232,8 @@ toJSON
 value
 (
 )
+{
+return
 new
 String
 (
@@ -1231,6 +1245,8 @@ spec
 toString
 (
 )
+;
+}
 enumerable
 :
 false
