@@ -2344,6 +2344,7 @@ explicitly
 .
 class
 nsXPConnect
+final
 :
 public
 nsIXPConnect
@@ -13479,6 +13480,7 @@ JavaScript
 .
 class
 XPCWrappedNative
+final
 :
 public
 nsIXPConnectWrappedNative
@@ -15358,6 +15360,7 @@ type
 .
 class
 nsXPCWrappedJSClass
+final
 :
 public
 nsIXPCWrappedJSClass
