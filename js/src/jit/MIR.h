@@ -10312,7 +10312,7 @@ to
 do
 only
 one
-shufps
+vshufps
 on
 x86
 .
