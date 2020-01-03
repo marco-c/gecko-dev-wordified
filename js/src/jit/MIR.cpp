@@ -900,7 +900,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -3864,7 +3864,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -4157,7 +4157,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -4391,7 +4391,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -4883,7 +4883,7 @@ Round
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -13224,7 +13224,7 @@ MIRType_Value
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -16893,7 +16893,7 @@ true
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -17006,7 +17006,7 @@ should
 handle
 this
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Wrong
@@ -17016,7 +17016,7 @@ specialization
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -17129,7 +17129,7 @@ should
 handle
 this
 .
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Wrong
@@ -17139,7 +17139,7 @@ specialization
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -17436,7 +17436,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -17583,7 +17583,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
