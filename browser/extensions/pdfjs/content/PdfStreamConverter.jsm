@@ -1138,7 +1138,7 @@ callback
 return
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 channel
 callback

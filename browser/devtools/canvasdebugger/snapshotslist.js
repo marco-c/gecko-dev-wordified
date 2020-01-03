@@ -2704,7 +2704,7 @@ plain
 ;
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 channel
 (

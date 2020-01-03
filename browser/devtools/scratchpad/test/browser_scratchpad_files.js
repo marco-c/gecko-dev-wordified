@@ -581,7 +581,7 @@ file
 .
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 channel
 fileRead

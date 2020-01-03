@@ -4605,7 +4605,7 @@ json
 ;
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 channel
 function

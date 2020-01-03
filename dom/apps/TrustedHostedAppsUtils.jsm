@@ -1836,7 +1836,7 @@ reject
 {
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 mRequestChannel
 getAsyncFetchCallback
@@ -1860,7 +1860,7 @@ reject
 {
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 sRequestChannel
 getAsyncFetchCallback
