@@ -1655,7 +1655,7 @@ speex_resampler_init
 1
 rawSampleRate
 sampleRate
-SPEEX_RESAMPLER_QUALITY_DEFAULT
+SPEEX_RESAMPLER_QUALITY_MIN
 nullptr
 )
 ;
