@@ -616,7 +616,7 @@ disabled
 SET_DEFAULT
 (
 disableSink
-false
+true
 )
 ;
 /
