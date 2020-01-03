@@ -11469,7 +11469,7 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -11772,7 +11772,7 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
+HandleValue
 receiver
 uint32_t
 index

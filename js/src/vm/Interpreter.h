@@ -557,9 +557,10 @@ InvokeGetter
 JSContext
 *
 cx
-JSObject
-*
-obj
+const
+Value
+&
+thisv
 Value
 fval
 MutableHandleValue

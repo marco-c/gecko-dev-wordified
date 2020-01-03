@@ -45556,6 +45556,17 @@ MutableHandleValue
 vp
 )
 {
+RootedValue
+receiver
+(
+cx
+ObjectValue
+(
+*
+proxy
+)
+)
+;
 RootedId
 id
 (
@@ -45574,7 +45585,7 @@ get
 (
 cx
 proxy
-proxy
+receiver
 id
 vp
 )

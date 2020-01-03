@@ -2205,7 +2205,7 @@ obj
 JS
 :
 :
-HandleObject
+HandleValue
 receiver
 JS
 :

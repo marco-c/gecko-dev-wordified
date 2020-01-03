@@ -318,7 +318,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id

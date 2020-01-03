@@ -4964,7 +4964,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -5126,10 +5126,7 @@ ObjectOrNullValue
 target
 )
 value
-ObjectOrNullValue
-(
 receiver
-)
 }
 ;
 RootedValue

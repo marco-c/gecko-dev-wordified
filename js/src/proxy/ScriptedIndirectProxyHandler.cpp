@@ -1859,7 +1859,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -1915,7 +1915,7 @@ argv
 0
 ]
 .
-setObjectOrNull
+set
 (
 receiver
 )
