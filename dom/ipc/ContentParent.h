@@ -4772,6 +4772,16 @@ aProfile
 )
 override
 ;
+virtual
+bool
+RecvGetGraphicsDeviceInitData
+(
+DeviceInitData
+*
+aOut
+)
+override
+;
 /
 /
 If

@@ -553,6 +553,12 @@ InitXPCOM
 (
 )
 ;
+mContent
+.
+InitGraphicsDeviceData
+(
+)
+;
 #
 if
 defined

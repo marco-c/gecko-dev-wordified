@@ -418,6 +418,11 @@ InitXPCOM
 (
 )
 ;
+void
+InitGraphicsDeviceData
+(
+)
+;
 static
 ContentChild
 *
