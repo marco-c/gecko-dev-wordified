@@ -3180,6 +3180,14 @@ shouldCompact
 ifdef
 JSGC_COMPACTING
 void
+sweepTypesAfterCompacting
+(
+Zone
+*
+zone
+)
+;
+void
 sweepZoneAfterCompacting
 (
 Zone
