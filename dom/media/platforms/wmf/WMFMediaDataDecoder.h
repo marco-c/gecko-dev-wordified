@@ -132,6 +132,13 @@ h
 #
 include
 "
+MP4Reader
+.
+h
+"
+#
+include
+"
 MFTDecoder
 .
 h
@@ -142,13 +149,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-PlatformDecoderModule
 .
 h
 "
