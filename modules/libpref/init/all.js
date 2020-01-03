@@ -1,3 +1,4 @@
+/
 *
 -
 *
@@ -4645,14 +4646,6 @@ io
 clearslide
 .
 com
-appear
-.
-in
-*
-.
-appear
-.
-in
 example
 .
 com
@@ -4734,14 +4727,6 @@ io
 clearslide
 .
 com
-appear
-.
-in
-*
-.
-appear
-.
-in
 example
 .
 com
