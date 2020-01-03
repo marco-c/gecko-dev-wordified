@@ -400,8 +400,6 @@ data
 {
 try
 {
-try
-{
 if
 (
 checkFn
@@ -418,9 +416,6 @@ data
 return
 ;
 }
-}
-finally
-{
 Services
 .
 obs
@@ -431,7 +426,6 @@ observer
 topic
 )
 ;
-}
 resolve
 (
 [
@@ -446,6 +440,16 @@ catch
 ex
 )
 {
+Services
+.
+obs
+.
+removeObserver
+(
+observer
+topic
+)
+;
 reject
 (
 ex
