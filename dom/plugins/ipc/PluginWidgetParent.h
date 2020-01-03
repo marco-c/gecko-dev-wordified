@@ -259,6 +259,13 @@ ParentDestroy
 ;
 private
 :
+void
+ShutdownCommon
+(
+bool
+aParentInitiated
+)
+;
 /
 /
 The

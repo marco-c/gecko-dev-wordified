@@ -128,8 +128,17 @@ virtual
 bool
 RecvParentShutdown
 (
+const
+bool
+&
+aParentInitiated
 )
 MOZ_OVERRIDE
+;
+void
+ShutdownProxy
+(
+)
 ;
 mozilla
 :
