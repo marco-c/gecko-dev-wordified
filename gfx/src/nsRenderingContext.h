@@ -432,15 +432,6 @@ aColor
 )
 ;
 void
-Translate
-(
-const
-nsPoint
-&
-aPt
-)
-;
-void
 Scale
 (
 float
