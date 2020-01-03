@@ -691,11 +691,6 @@ mAppNotes
 )
 ;
 }
-bool
-ret
-=
-true
-;
 /
 /
 Append
@@ -721,6 +716,7 @@ obtained
 from
 CreatePairedMinidumps
 .
+bool
 ret
 =
 CrashReporter
@@ -752,11 +748,6 @@ mChildDumpID
 processNotes
 )
 ;
-if
-(
-!
-ret
-)
 }
 if
 (
