@@ -984,6 +984,10 @@ TrackBufferAppendPromise
 >
 mPendingAppend
 ;
+const
+nsCString
+mType
+;
 }
 ;
 }
