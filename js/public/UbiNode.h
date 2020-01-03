@@ -3136,6 +3136,7 @@ template
 typename
 T
 >
+MOZ_IMPLICIT
 Node
 (
 T
@@ -3192,6 +3193,7 @@ template
 typename
 T
 >
+MOZ_IMPLICIT
 Node
 (
 const
