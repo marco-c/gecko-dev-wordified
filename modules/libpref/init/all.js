@@ -42231,6 +42231,9 @@ Droid
 Sans
 MotoyaLMaru
 MotoyaLCedar
+Noto
+Sans
+JP
 Droid
 Sans
 Japanese
@@ -42352,6 +42355,9 @@ ko
 "
 SmartGothic
 NanumGothic
+Noto
+Sans
+KR
 DroidSansFallback
 Droid
 Sans
@@ -42889,6 +42895,9 @@ CN
 Roboto
 Droid
 Sans
+Noto
+Sans
+SC
 Droid
 Sans
 Fallback
@@ -43023,6 +43032,12 @@ HK
 Roboto
 Droid
 Sans
+Noto
+Sans
+TC
+Noto
+Sans
+SC
 Droid
 Sans
 Fallback
@@ -43157,6 +43172,12 @@ TW
 Roboto
 Droid
 Sans
+Noto
+Sans
+TC
+Noto
+Sans
+SC
 Droid
 Sans
 Fallback
