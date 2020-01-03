@@ -7840,7 +7840,15 @@ s
 %
 (
                             
+mozpath
+.
+relpath
+(
 d
+context
+.
+srcdir
+)
 var
 )
 context
@@ -7926,7 +7934,7 @@ exports
 )
         
 for
-relpath
+path
 child_metadata
 in
 recurse_info
@@ -7938,25 +7946,16 @@ items
             
 child_path
 =
-sandbox
-.
-normalize_path
-(
 mozpath
 .
 join
 (
-relpath
-                
+path
 '
 moz
 .
 build
 '
-)
-srcdir
-=
-curdir
 )
             
 #
