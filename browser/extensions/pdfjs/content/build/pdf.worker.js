@@ -243,7 +243,7 @@ version
 .
 0
 .
-1147
+1149
 '
 ;
 PDFJS
@@ -251,7 +251,7 @@ PDFJS
 build
 =
 '
-6bb0a48
+bc7a110
 '
 ;
 (
@@ -133312,6 +133312,16 @@ encodingId
 =
 =
 1
+&
+&
+(
+!
+isSymbolicFont
+|
+|
+!
+potentialTable
+)
 )
 {
 useTable
