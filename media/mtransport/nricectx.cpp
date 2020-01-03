@@ -4285,10 +4285,7 @@ sts_target_
 ;
 MOZ_ASSERT
 (
-ctx_
--
->
-state
+connection_state_
 =
 =
 ICE_CTX_INIT
@@ -4296,10 +4293,7 @@ ICE_CTX_INIT
 ;
 if
 (
-ctx_
--
->
-state
+connection_state_
 !
 =
 ICE_CTX_INIT
@@ -4327,7 +4321,12 @@ name_
 <
 "
 '
+state
+:
 "
+<
+<
+connection_state_
 )
 ;
 SetConnectionState
