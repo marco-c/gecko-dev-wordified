@@ -1802,6 +1802,18 @@ position
 ;
 if
 (
+aEvent
+.
+accessible
+=
+=
+=
+aEvent
+.
+accessibleDocument
+|
+|
+(
 position
 &
 &
@@ -1813,6 +1825,7 @@ position
 aEvent
 .
 accessible
+)
 )
 )
 {
