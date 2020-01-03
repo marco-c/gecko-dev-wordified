@@ -1112,7 +1112,6 @@ DECODER_STATE_SEEKING
 DECODER_STATE_BUFFERING
 DECODER_STATE_COMPLETED
 DECODER_STATE_SHUTDOWN
-DECODER_STATE_ERROR
 }
 ;
 State
@@ -2811,6 +2810,13 @@ queue
 .
 void
 Reset
+(
+)
+;
+private
+:
+void
+AcquireMonitorAndInvokeDecodeError
 (
 )
 ;
