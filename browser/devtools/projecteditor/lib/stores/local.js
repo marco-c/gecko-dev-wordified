@@ -893,6 +893,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
