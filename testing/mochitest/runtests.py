@@ -15010,6 +15010,19 @@ chunkByDir
 =
 0
     
+result
+=
+1
+#
+default
+value
+if
+no
+tests
+are
+run
+.
+    
 inputTestPath
 =
 self
