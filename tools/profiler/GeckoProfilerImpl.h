@@ -438,7 +438,7 @@ profiler_start
 (
 int
 aProfileEntries
-int
+double
 aInterval
 const
 char
