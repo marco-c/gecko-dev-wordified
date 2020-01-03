@@ -179,12 +179,6 @@ CreateScriptableConverter
 (
 )
 ;
-converter
-.
-isInternal
-=
-true
-;
 checkEncode
 (
 converter
