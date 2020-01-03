@@ -815,6 +815,14 @@ dom
 caches
 .
 enabled
+WORKERPREF_SERVICEWORKERS
+/
+/
+dom
+.
+serviceWorkers
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
