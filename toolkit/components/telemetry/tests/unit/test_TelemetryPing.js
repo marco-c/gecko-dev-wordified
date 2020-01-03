@@ -1999,6 +1999,11 @@ Telemetry
 .
 registeredHistograms
 (
+Ci
+.
+nsITelemetry
+.
+DATASET_RELEASE_CHANNEL_OPTIN
 [
 ]
 )
