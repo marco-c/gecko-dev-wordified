@@ -148,9 +148,6 @@ namespace
 storage
 {
 class
-Statement
-;
-class
 StatementRow
 MOZ_FINAL
 :
@@ -186,7 +183,7 @@ mStatement
 ;
 friend
 class
-Statement
+StatementRowHolder
 ;
 }
 ;

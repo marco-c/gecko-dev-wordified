@@ -150,9 +150,6 @@ mozilla
 namespace
 storage
 {
-class
-AsyncStatement
-;
 /
 *
 *
@@ -214,7 +211,7 @@ mStatement
 ;
 friend
 class
-AsyncStatement
+AsyncStatementParamsHolder
 ;
 }
 ;

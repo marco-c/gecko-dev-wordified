@@ -151,9 +151,6 @@ namespace
 storage
 {
 class
-Statement
-;
-class
 StatementParams
 MOZ_FINAL
 :
@@ -195,7 +192,11 @@ mParamCount
 ;
 friend
 class
-Statement
+StatementParamsHolder
+;
+friend
+class
+StatementRowHolder
 ;
 }
 ;
