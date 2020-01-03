@@ -1780,6 +1780,7 @@ away
 .
 nsCSSKeyframeRule
 *
+MOZ_NON_OWNING_REF
 mRule
 ;
 }
@@ -2413,6 +2414,7 @@ away
 .
 nsCSSPageRule
 *
+MOZ_NON_OWNING_REF
 mRule
 ;
 }
