@@ -493,10 +493,13 @@ GetNodeId
 )
 ;
 virtual
-GMPUniquePtr
+GMPUnique
 <
 GMPVideoEncodedFrame
 >
+:
+:
+Ptr
 CreateFrame
 (
 mp4_demuxer

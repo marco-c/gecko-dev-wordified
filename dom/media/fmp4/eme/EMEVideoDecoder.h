@@ -274,10 +274,13 @@ GetNodeId
 MOZ_OVERRIDE
 ;
 virtual
-GMPUniquePtr
+GMPUnique
 <
 GMPVideoEncodedFrame
 >
+:
+:
+Ptr
 CreateFrame
 (
 mp4_demuxer
