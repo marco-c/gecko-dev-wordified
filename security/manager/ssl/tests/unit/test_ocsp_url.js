@@ -231,7 +231,7 @@ cert_name
 +
 "
 .
-der
+pem
 "
 )
 ;
@@ -258,7 +258,7 @@ test_ocsp_url
 /
 ca
 .
-der
+pem
 "
 '
 CTu
@@ -275,7 +275,7 @@ test_ocsp_url
 /
 int
 .
-der
+pem
 "
 '
 '
