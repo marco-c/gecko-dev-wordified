@@ -6146,7 +6146,7 @@ transform
 aScrollbar
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 *
