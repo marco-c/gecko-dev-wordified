@@ -508,6 +508,13 @@ FreeTraceInfo
 (
 )
 ;
+const
+char
+*
+GetJSLabelPrefix
+(
+)
+;
 }
 /
 /
