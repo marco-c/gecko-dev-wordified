@@ -894,14 +894,12 @@ height
 =
 boundOffset
 ;
-var
 x
 =
 menuNodeRect
 .
 left
 ;
-var
 y
 =
 menuNodeRect
@@ -3435,7 +3433,6 @@ if
 remoteVideoDimensions
 )
 {
-var
 node
 =
 this
@@ -3448,7 +3445,6 @@ remote
 "
 )
 ;
-var
 width
 =
 node
