@@ -542,7 +542,10 @@ the
 room
 will
 exist
-.
+-
+default
+8
+weeks
 *
 type
 {
@@ -552,7 +555,11 @@ Number
 /
 defaultExpiresIn
 :
-5
+24
+*
+7
+*
+8
 /
 *
 *
