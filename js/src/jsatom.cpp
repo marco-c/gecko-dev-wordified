@@ -672,16 +672,6 @@ setter
 ;
 const
 char
-js_static_str
-[
-]
-=
-"
-static
-"
-;
-const
-char
 js_super_str
 [
 ]
