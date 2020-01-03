@@ -107,6 +107,10 @@ renderer
 IDirect3DSurface9
 *
 surface
+GLenum
+internalFormatOverride
+=
+0
 )
 ;
 RenderTarget9

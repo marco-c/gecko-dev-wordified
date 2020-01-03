@@ -1081,9 +1081,12 @@ RenderTarget
 *
 createRenderTarget
 (
-SwapChain
+egl
+:
+:
+Surface
 *
-swapChain
+eglSurface
 bool
 depth
 )

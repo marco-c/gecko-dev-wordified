@@ -135,6 +135,10 @@ GLsizei
 height
 GLsizei
 depth
+GLenum
+internalFormatOverride
+=
+0
 )
 ;
 RenderTarget11

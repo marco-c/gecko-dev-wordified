@@ -1185,7 +1185,7 @@ true
 Wrap
 the
 existing
-swapchain
+surface
 resources
 into
 GL
@@ -1199,20 +1199,6 @@ the
 0
 '
 names
-rx
-:
-:
-SwapChain
-*
-swapchain
-=
-surface
--
->
-getSwapChain
-(
-)
-;
 Colorbuffer
 *
 colorbufferZero
@@ -1221,7 +1207,7 @@ new
 Colorbuffer
 (
 mRenderer
-swapchain
+surface
 )
 ;
 DepthStencilbuffer
@@ -1232,7 +1218,7 @@ new
 DepthStencilbuffer
 (
 mRenderer
-swapchain
+surface
 )
 ;
 Framebuffer
