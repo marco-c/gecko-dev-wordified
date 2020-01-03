@@ -111,11 +111,11 @@ panel
 inspector
 panel
 }
-)
 =
 yield
 closeAnimationInspectorAndRestartWithNewUI
 (
+)
 )
 ;
 yield

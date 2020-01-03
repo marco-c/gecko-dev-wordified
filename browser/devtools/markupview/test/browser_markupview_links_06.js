@@ -346,7 +346,6 @@ uri
 {
 editor
 }
-)
 =
 yield
 getContainerForSelector
@@ -355,6 +354,7 @@ getContainerForSelector
 script
 "
 inspector
+)
 )
 ;
 popupNode

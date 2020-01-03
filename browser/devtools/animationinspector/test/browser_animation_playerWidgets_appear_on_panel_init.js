@@ -133,11 +133,11 @@ init
 {
 panel
 }
-)
 =
 yield
 closeAnimationInspectorAndRestartWithNewUI
 (
+)
 )
 ;
 is

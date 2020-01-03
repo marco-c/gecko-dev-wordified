@@ -311,10 +311,10 @@ transport
 :
 gMainTransport
 }
-)
 =
 newConnection
 (
+)
 )
 ;
 gClient

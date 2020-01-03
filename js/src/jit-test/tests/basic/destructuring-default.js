@@ -625,9 +625,9 @@ input
 pattern
 +
 '
-)
 =
 input
+)
 ;
 '
 +
@@ -686,9 +686,9 @@ function
 pattern
 +
 '
-)
 =
 input
+)
 ;
 '
 +
@@ -1106,7 +1106,6 @@ b
 =
 3
 }
-)
 =
 {
 get
@@ -1191,6 +1190,7 @@ undefined
 ;
 }
 }
+)
 ;
 assertEq
 (
@@ -1358,10 +1358,10 @@ true
 }
 )
 }
-)
 =
 {
 }
+)
 ;
 assertEq
 (

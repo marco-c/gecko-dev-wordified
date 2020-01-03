@@ -157,11 +157,11 @@ initialized
 panel
 controller
 }
-)
 =
 yield
 closeAnimationInspectorAndRestartWithNewUI
 (
+)
 )
 ;
 ok

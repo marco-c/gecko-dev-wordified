@@ -883,9 +883,9 @@ input
 pattern
 +
 '
-)
 =
 input
+)
 ;
 '
 +
@@ -951,9 +951,9 @@ function
 pattern
 +
 '
-)
 =
 input
+)
 ;
 '
 +

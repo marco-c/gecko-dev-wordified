@@ -384,10 +384,11 @@ x
 :
 a
 }
-)
 =
 {
 }
+)
+;
 reportCompare
 (
 expect

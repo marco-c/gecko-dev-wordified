@@ -1886,7 +1886,6 @@ left
 width
 height
 }
-)
 =
 lh
 .
@@ -1896,6 +1895,7 @@ args
 .
 selector
 window
+)
 )
 ;
 }
