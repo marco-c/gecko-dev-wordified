@@ -41,7 +41,6 @@ LICENSE
 file
 .
 *
-*
 /
 typedef
 enum
@@ -574,10 +573,12 @@ SYSTEM_INFORMATION_CLASS
 =
 /
 /
-get_system_users
-support
+psutil
+.
+users
 (
 )
+support
 /
 /
 =
@@ -725,7 +726,6 @@ PWINSTATIONINFORMATIONW
 ;
 /
 /
-start
 mingw
 support
 :
@@ -798,12 +798,6 @@ hServer
 ;
 #
 endif
-/
-/
-end
-mingw
-support
-:
 /
 *
 *
