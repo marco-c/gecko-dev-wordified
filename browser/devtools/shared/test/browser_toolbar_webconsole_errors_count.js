@@ -188,6 +188,10 @@ DeveloperToolbar
 show
 (
 true
+)
+.
+then
+(
 onOpenToolbar
 )
 ;
