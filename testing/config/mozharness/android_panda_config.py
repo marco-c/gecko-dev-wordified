@@ -792,6 +792,16 @@ raw_log_file
 )
 s
 "
+                
+"
+-
+-
+screenshot
+-
+on
+-
+fail
+"
             
 ]
             

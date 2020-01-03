@@ -775,6 +775,16 @@ s
 "
                 
 "
+-
+-
+screenshot
+-
+on
+-
+fail
+"
+                
+"
 %
 (
 test_path
@@ -986,6 +996,16 @@ path
 certificate_path
 )
 s
+"
+                
+"
+-
+-
+screenshot
+-
+on
+-
+fail
 "
                 
 "
