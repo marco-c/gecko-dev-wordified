@@ -516,12 +516,9 @@ disabled
 SET_DEFAULT
 (
 disableScalarReplacement
-true
+false
 )
 ;
-/
-/
-experimental
 /
 /
 Toggle
