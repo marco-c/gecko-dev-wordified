@@ -19771,6 +19771,10 @@ elements
 index
 toWrite
 arrayType
+MStoreUnboxedScalar
+:
+:
+TruncateInput
 DoesRequireMemoryBarrier
 )
 ;
@@ -23624,6 +23628,10 @@ elements
 index
 valueToWrite
 arrayType
+MStoreUnboxedScalar
+:
+:
+TruncateInput
 )
 ;
 store
