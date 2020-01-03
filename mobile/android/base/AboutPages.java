@@ -242,12 +242,12 @@ public
 static
 final
 String
-PASSWORDS
+LOGINS
 =
 "
 about
 :
-passwords
+logins
 "
 ;
 public

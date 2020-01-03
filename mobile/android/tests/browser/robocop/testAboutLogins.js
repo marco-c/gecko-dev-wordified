@@ -304,7 +304,7 @@ addTab
 "
 about
 :
-passwords
+logins
 "
 {
 selected
