@@ -2048,7 +2048,7 @@ WidgetSelectionEvent
 )
 NS_EVENT_MESSAGE
 (
-NS_SELECTION_EVENT_START
+eSelectionEventFirst
 3700
 )
 /
@@ -2068,7 +2068,7 @@ selection
 NS_EVENT_MESSAGE
 (
 NS_SELECTION_SET
-NS_SELECTION_EVENT_START
+eSelectionEventFirst
 )
 /
 /
