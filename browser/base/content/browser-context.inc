@@ -1626,8 +1626,11 @@ oncommand
 "
 gContextMenu
 .
-fullScreenVideo
+mediaCommand
 (
+'
+fullscreen
+'
 )
 ;
 "
