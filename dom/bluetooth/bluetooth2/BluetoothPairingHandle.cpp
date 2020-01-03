@@ -464,6 +464,7 @@ EqualsLiteral
 (
 PAIRING_REQ_TYPE_ENTERPINCODE
 )
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -481,6 +482,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -618,6 +620,7 @@ EqualsLiteral
 (
 PAIRING_REQ_TYPE_CONSENT
 )
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -635,6 +638,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -647,6 +651,7 @@ GetSspVariant
 (
 variant
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -782,6 +787,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -857,6 +863,7 @@ GetSspVariant
 (
 variant
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;

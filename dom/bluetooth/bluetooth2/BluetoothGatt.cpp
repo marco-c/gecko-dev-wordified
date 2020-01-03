@@ -661,6 +661,7 @@ BluetoothConnectionState
 :
 :
 Disconnected
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -678,6 +679,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -703,6 +705,7 @@ mAppUuid
 IsEmpty
 (
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -845,6 +848,7 @@ BluetoothConnectionState
 :
 :
 Connected
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -862,6 +866,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -1105,6 +1110,7 @@ BluetoothConnectionState
 :
 :
 Connected
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -1122,6 +1128,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -1238,6 +1245,7 @@ Connected
 &
 !
 mDiscoveringServices
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -1255,6 +1263,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;

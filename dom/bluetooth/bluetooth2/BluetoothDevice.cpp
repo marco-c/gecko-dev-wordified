@@ -1069,6 +1069,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -1109,6 +1110,7 @@ NS_SUCCEEDED
 (
 rv
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;

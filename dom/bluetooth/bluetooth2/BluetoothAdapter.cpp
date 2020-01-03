@@ -2501,6 +2501,7 @@ BT_ENSURE_TRUE_REJECT
 (
 !
 mDiscovering
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -2513,6 +2514,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -2530,6 +2532,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -2622,6 +2625,7 @@ StartDiscoveryInternal
 result
 )
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -2730,6 +2734,7 @@ available
 BT_ENSURE_TRUE_RESOLVE
 (
 mDiscovering
+promise
 JS
 :
 :
@@ -2745,6 +2750,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -2762,6 +2768,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -2805,6 +2812,7 @@ StopDiscoveryInternal
 result
 )
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -2929,6 +2937,7 @@ Equals
 (
 aName
 )
+promise
 JS
 :
 :
@@ -2944,6 +2953,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -2961,6 +2971,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -3037,6 +3048,7 @@ property
 result
 )
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -3153,6 +3165,7 @@ mDiscoverable
 !
 =
 aDiscoverable
+promise
 JS
 :
 :
@@ -3168,6 +3181,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -3185,6 +3199,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -3255,6 +3270,7 @@ property
 result
 )
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -3582,6 +3598,7 @@ aDeviceAddress
 IsEmpty
 (
 )
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -3594,6 +3611,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -3611,6 +3629,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -3703,6 +3722,7 @@ NS_SUCCEEDED
 (
 rv
 )
+promise
 NS_ERROR_DOM_OPERATION_ERR
 )
 ;
@@ -3866,6 +3886,7 @@ BluetoothAdapterState
 :
 :
 Disabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -3883,6 +3904,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -4079,6 +4101,7 @@ BluetoothAdapterState
 :
 :
 Enabled
+promise
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
@@ -4096,6 +4119,7 @@ Get
 BT_ENSURE_TRUE_REJECT
 (
 bs
+promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;

@@ -845,7 +845,9 @@ while
 *
 *
 Resolve
+|
 promise
+|
 with
 |
 ret
@@ -864,6 +866,7 @@ define
 BT_ENSURE_TRUE_RESOLVE
 (
 x
+promise
 ret
 )
 \
@@ -897,7 +900,9 @@ failed
 )
 ;
 \
+(
 promise
+)
 -
 >
 MaybeResolve
@@ -907,7 +912,9 @@ ret
 ;
 \
 return
+(
 promise
+)
 .
 forget
 (
@@ -926,7 +933,9 @@ while
 *
 *
 Reject
+|
 promise
+|
 with
 |
 ret
@@ -945,6 +954,7 @@ define
 BT_ENSURE_TRUE_REJECT
 (
 x
+promise
 ret
 )
 \
@@ -978,7 +988,9 @@ failed
 )
 ;
 \
+(
 promise
+)
 -
 >
 MaybeReject
@@ -988,7 +1000,9 @@ ret
 ;
 \
 return
+(
 promise
+)
 .
 forget
 (
