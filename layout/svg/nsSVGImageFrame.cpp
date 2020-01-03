@@ -2345,7 +2345,7 @@ document
 SVGImageContext
 context
 (
-nsIntSize
+CSSIntSize
 (
 width
 height

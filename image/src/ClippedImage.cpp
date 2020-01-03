@@ -1981,7 +1981,7 @@ clipping
 region
 .
 )
-nsIntSize
+CSSIntSize
 vSize
 (
 aOldContext

@@ -1398,7 +1398,7 @@ Orientation
 aOrientation
 )
 {
-nsIntSize
+CSSIntSize
 viewportSize
 (
 aOldContext
