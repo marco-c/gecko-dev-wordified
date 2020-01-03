@@ -5520,7 +5520,7 @@ end
 of
 /
 /
-AnalyzeReports
+Analyze
 (
 )
 .
@@ -11034,7 +11034,7 @@ kIdBufLen
 ;
 static
 void
-AnalyzeReportsImpl
+AnalyzeImpl
 (
 UniquePtr
 <
@@ -12271,7 +12271,7 @@ void
 DMDFuncs
 :
 :
-AnalyzeReports
+Analyze
 (
 UniquePtr
 <
@@ -12280,7 +12280,7 @@ JSONWriteFunc
 aWriter
 )
 {
-AnalyzeReportsImpl
+AnalyzeImpl
 (
 Move
 (

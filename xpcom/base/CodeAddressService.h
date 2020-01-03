@@ -883,7 +883,12 @@ cache
 .
 When
 doing
-AnalyzeReports
+dmd
+:
+:
+Analyze
+(
+)
 just
 after
 starting

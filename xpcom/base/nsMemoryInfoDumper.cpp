@@ -4574,7 +4574,7 @@ file
 dmd
 :
 :
-AnalyzeReports
+Analyze
 (
 MakeUnique
 <

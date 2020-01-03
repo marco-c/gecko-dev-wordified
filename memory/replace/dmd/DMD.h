@@ -296,7 +296,7 @@ ClearReports
 ;
 virtual
 void
-AnalyzeReports
+Analyze
 (
 UniquePtr
 <
@@ -820,7 +820,7 @@ reporters
 /
 /
 -
-AnalyzeReports
+Analyze
 (
 )
 /
@@ -1886,9 +1886,9 @@ for
 the
 UniquePtr
 fire
+/
+/
 up
-/
-/
 and
 that
 needs
@@ -1901,10 +1901,10 @@ defined
 That
 in
 turn
+/
+/
 requires
 to
-/
-/
 include
 JSONWriter
 .
@@ -1917,11 +1917,11 @@ conversion
 .
 h
 which
+/
+/
 ends
 up
 breaking
-/
-/
 various
 things
 built
@@ -1939,7 +1939,7 @@ JSONWriteFunc
 >
 inline
 void
-AnalyzeReports
+Analyze
 (
 UniquePtr
 <
@@ -1967,7 +1967,7 @@ funcs
 funcs
 -
 >
-AnalyzeReports
+Analyze
 (
 Move
 (
