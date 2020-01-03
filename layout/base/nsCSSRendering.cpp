@@ -9696,6 +9696,15 @@ overflow
 }
 }
 }
+fragmentClip
+=
+fragmentClip
+.
+Intersect
+(
+aDirtyRect
+)
+;
 renderContext
 -
 >
