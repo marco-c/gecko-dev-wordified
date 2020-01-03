@@ -21070,6 +21070,9 @@ if
 hasDebugScript_
 )
 {
+#
+ifdef
+DEBUG
 for
 (
 jsbytecode
@@ -21139,6 +21142,8 @@ nullptr
 ;
 }
 }
+#
+endif
 fop
 -
 >
