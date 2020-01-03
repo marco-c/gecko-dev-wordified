@@ -18649,7 +18649,7 @@ propp
 )
 ;
 return
-NativeLookupProperty
+LookupPropertyInline
 <
 CanGC
 >
