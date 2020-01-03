@@ -478,6 +478,10 @@ OptionalURIParams
 &
 internalRedirectUri
 const
+OptionalURIParams
+&
+topWindowUri
+const
 uint32_t
 &
 loadFlags
