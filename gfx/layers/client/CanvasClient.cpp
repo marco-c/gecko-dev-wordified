@@ -2422,6 +2422,9 @@ newTex
 )
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 /
 /
 Remove
@@ -2504,6 +2507,8 @@ mFrontTex
 nullptr
 ;
 }
+#
+endif
 /
 /
 Use
