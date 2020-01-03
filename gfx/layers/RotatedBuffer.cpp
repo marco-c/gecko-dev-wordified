@@ -1783,7 +1783,7 @@ lines
 gfxUtils
 :
 :
-ClipToRegionSnapped
+ClipToRegion
 (
 aTarget
 aLayer
