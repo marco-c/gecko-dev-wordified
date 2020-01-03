@@ -1522,9 +1522,11 @@ dom
 /
 mobilemessage
 /
-Types
+interfaces
+/
+nsIMobileMessageCallback
 .
-h
+idl
 *
 The
 error
