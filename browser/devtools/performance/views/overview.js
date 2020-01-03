@@ -1365,7 +1365,7 @@ resolution
 see
 Graphs
 .
-js
+jsm
 *
 /
 render
