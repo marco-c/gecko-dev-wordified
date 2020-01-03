@@ -296,6 +296,15 @@ currentColor
 =
 newColor
 ;
+alpha
+=
+Color
+.
+alpha
+(
+currentColor
+)
+;
 invalidateSelf
 (
 )
