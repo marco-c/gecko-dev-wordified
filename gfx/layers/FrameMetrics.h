@@ -1572,7 +1572,9 @@ mDisplayPort
 aDisplayPort
 ;
 }
+const
 CSSRect
+&
 GetDisplayPort
 (
 )
@@ -1596,7 +1598,9 @@ mCriticalDisplayPort
 aCriticalDisplayPort
 ;
 }
+const
 CSSRect
+&
 GetCriticalDisplayPort
 (
 )
@@ -1620,7 +1624,9 @@ mCumulativeResolution
 aCumulativeResolution
 ;
 }
+const
 LayoutDeviceToLayerScale2D
+&
 GetCumulativeResolution
 (
 )
@@ -1644,7 +1650,9 @@ mDevPixelsPerCSSPixel
 aDevPixelsPerCSSPixel
 ;
 }
+const
 CSSToLayoutDeviceScale
+&
 GetDevPixelsPerCSSPixel
 (
 )
@@ -1764,7 +1772,9 @@ mZoom
 aZoom
 ;
 }
+const
 CSSToParentLayerScale2D
+&
 GetZoom
 (
 )
@@ -2014,7 +2024,9 @@ mExtraResolution
 aExtraResolution
 ;
 }
+const
 ScreenToLayerScale2D
+&
 GetExtraResolution
 (
 )
