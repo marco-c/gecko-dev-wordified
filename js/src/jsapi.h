@@ -1388,14 +1388,6 @@ JSObject
 >
 AutoObjectVector
 ;
-typedef
-AutoVectorRooter
-<
-JSScript
-*
->
-AutoScriptVector
-;
 using
 ValueVector
 =
