@@ -2008,7 +2008,7 @@ document
 getElementById
 (
 "
-next
+newer
 -
 ping
 "
@@ -2038,7 +2038,7 @@ document
 getElementById
 (
 "
-previous
+older
 -
 ping
 "
