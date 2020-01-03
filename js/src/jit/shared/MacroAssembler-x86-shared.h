@@ -5049,7 +5049,7 @@ Address
 dest
 )
 {
-movsd
+vmovsd
 (
 src
 dest
@@ -5067,7 +5067,7 @@ BaseIndex
 dest
 )
 {
-movsd
+vmovsd
 (
 src
 dest
@@ -5155,10 +5155,10 @@ dest
 /
 /
 Use
-movapd
+vmovapd
 instead
 of
-movsd
+vmovsd
 to
 avoid
 dependencies
@@ -5707,7 +5707,7 @@ Address
 dest
 )
 {
-movdqa
+vmovdqa
 (
 src
 Operand
@@ -5864,7 +5864,7 @@ Address
 dest
 )
 {
-movdqu
+vmovdqu
 (
 src
 Operand
@@ -5885,7 +5885,7 @@ Operand
 dest
 )
 {
-movdqu
+vmovdqu
 (
 src
 dest
@@ -6219,7 +6219,7 @@ Address
 dest
 )
 {
-movaps
+vmovaps
 (
 src
 Operand
@@ -6376,7 +6376,7 @@ Address
 dest
 )
 {
-movups
+vmovups
 (
 src
 Operand
@@ -6397,7 +6397,7 @@ Operand
 dest
 )
 {
-movups
+vmovups
 (
 src
 dest
@@ -6981,7 +6981,7 @@ Address
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -6999,7 +6999,7 @@ BaseIndex
 dest
 )
 {
-movss
+vmovss
 (
 src
 dest
@@ -7087,10 +7087,10 @@ dest
 /
 /
 Use
-movaps
+vmovaps
 instead
 of
-movss
+vmovss
 to
 avoid
 dependencies

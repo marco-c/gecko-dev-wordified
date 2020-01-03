@@ -16399,7 +16399,7 @@ both
 operands
 are
 registers
-movss
+vmovss
 doesn
 '
 t
@@ -17418,7 +17418,7 @@ secondMask
 register
 -
 register
-movss
+vmovss
 preserves
 the
 high

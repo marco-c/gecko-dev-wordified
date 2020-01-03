@@ -3110,7 +3110,7 @@ Float32
 :
 masm
 .
-movssWithPatch
+vmovssWithPatch
 (
 ToFloatRegister
 (
@@ -3129,7 +3129,7 @@ Float64
 :
 masm
 .
-movsdWithPatch
+vmovsdWithPatch
 (
 ToFloatRegister
 (
@@ -3148,7 +3148,7 @@ Float32x4
 :
 masm
 .
-movupsWithPatch
+vmovupsWithPatch
 (
 ToFloatRegister
 (
@@ -3167,7 +3167,7 @@ Int32x4
 :
 masm
 .
-movdquWithPatch
+vmovdquWithPatch
 (
 ToFloatRegister
 (
@@ -4846,7 +4846,7 @@ label
 =
 masm
 .
-movssWithPatch
+vmovssWithPatch
 (
 ToFloatRegister
 (
@@ -4871,7 +4871,7 @@ label
 =
 masm
 .
-movsdWithPatch
+vmovsdWithPatch
 (
 ToFloatRegister
 (
@@ -4918,7 +4918,7 @@ label
 =
 masm
 .
-movdqaWithPatch
+vmovdqaWithPatch
 (
 ToFloatRegister
 (
@@ -4943,7 +4943,7 @@ label
 =
 masm
 .
-movapsWithPatch
+vmovapsWithPatch
 (
 ToFloatRegister
 (

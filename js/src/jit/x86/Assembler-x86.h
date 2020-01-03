@@ -1324,13 +1324,13 @@ using
 AssemblerX86Shared
 :
 :
-movsd
+vmovsd
 ;
 using
 AssemblerX86Shared
 :
 :
-movss
+vmovss
 ;
 using
 AssemblerX86Shared
@@ -1516,7 +1516,7 @@ double
 StackPointer
 )
 ;
-movsd
+vmovsd
 (
 src
 Address
@@ -3686,7 +3686,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movssWithPatch
+vmovssWithPatch
 (
 FloatRegister
 src
@@ -3703,7 +3703,7 @@ HasSSE2
 ;
 masm
 .
-movss_rm_disp32
+vmovss_rm_disp32
 (
 src
 .
@@ -3734,7 +3734,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movsdWithPatch
+vmovsdWithPatch
 (
 FloatRegister
 src
@@ -3751,7 +3751,7 @@ HasSSE2
 ;
 masm
 .
-movsd_rm_disp32
+vmovsd_rm_disp32
 (
 src
 .
@@ -3782,7 +3782,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movupsWithPatch
+vmovupsWithPatch
 (
 FloatRegister
 src
@@ -3799,7 +3799,7 @@ HasSSE2
 ;
 masm
 .
-movups_rm_disp32
+vmovups_rm_disp32
 (
 src
 .
@@ -3830,7 +3830,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdquWithPatch
+vmovdquWithPatch
 (
 FloatRegister
 src
@@ -3847,7 +3847,7 @@ HasSSE2
 ;
 masm
 .
-movdqu_rm_disp32
+vmovdqu_rm_disp32
 (
 src
 .
@@ -4482,7 +4482,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movssWithPatch
+vmovssWithPatch
 (
 FloatRegister
 src
@@ -4499,7 +4499,7 @@ HasSSE2
 ;
 masm
 .
-movss_rm
+vmovss_rm
 (
 src
 .
@@ -4523,7 +4523,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movsdWithPatch
+vmovsdWithPatch
 (
 FloatRegister
 src
@@ -4540,7 +4540,7 @@ HasSSE2
 ;
 masm
 .
-movsd_rm
+vmovsd_rm
 (
 src
 .
@@ -4564,7 +4564,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdqaWithPatch
+vmovdqaWithPatch
 (
 FloatRegister
 src
@@ -4581,7 +4581,7 @@ HasSSE2
 ;
 masm
 .
-movdqa_rm
+vmovdqa_rm
 (
 src
 .
@@ -4605,7 +4605,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movapsWithPatch
+vmovapsWithPatch
 (
 FloatRegister
 src
@@ -4622,7 +4622,7 @@ HasSSE2
 ;
 masm
 .
-movaps_rm
+vmovaps_rm
 (
 src
 .
@@ -4646,7 +4646,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movdquWithPatch
+vmovdquWithPatch
 (
 FloatRegister
 src
@@ -4663,7 +4663,7 @@ HasSSE2
 ;
 masm
 .
-movdqu_rm
+vmovdqu_rm
 (
 src
 .
@@ -4687,7 +4687,7 @@ currentOffset
 ;
 }
 CodeOffsetLabel
-movupsWithPatch
+vmovupsWithPatch
 (
 FloatRegister
 src
@@ -4704,7 +4704,7 @@ HasSSE2
 ;
 masm
 .
-movups_rm
+vmovups_rm
 (
 src
 .

@@ -399,7 +399,7 @@ j
 =
 masm
 .
-movsd_ripr
+vmovsd_ripr
 (
 dest
 .
@@ -589,7 +589,7 @@ j
 =
 masm
 .
-movss_ripr
+vmovss_ripr
 (
 dest
 .
@@ -840,7 +840,7 @@ j
 =
 masm
 .
-movdqa_ripr
+vmovdqa_ripr
 (
 dest
 .
@@ -967,7 +967,7 @@ j
 =
 masm
 .
-movaps_ripr
+vmovaps_ripr
 (
 dest
 .

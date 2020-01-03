@@ -2809,7 +2809,7 @@ code
 /
 /
 Eventually
-movapd
+vmovapd
 should
 be
 overloaded
@@ -3021,7 +3021,7 @@ kind
 }
 }
 void
-movaps
+vmovaps
 (
 FloatRegister
 src
@@ -3055,7 +3055,7 @@ MEM_REG_DISP
 :
 masm
 .
-movaps_rm
+vmovaps_rm
 (
 src
 .
@@ -3084,7 +3084,7 @@ MEM_SCALE
 :
 masm
 .
-movaps_rm
+vmovaps_rm
 (
 src
 .
@@ -3237,7 +3237,7 @@ kind
 }
 }
 void
-movups
+vmovups
 (
 FloatRegister
 src
@@ -3271,7 +3271,7 @@ MEM_REG_DISP
 :
 masm
 .
-movups_rm
+vmovups_rm
 (
 src
 .
@@ -3300,7 +3300,7 @@ MEM_SCALE
 :
 masm
 .
-movups_rm
+vmovups_rm
 (
 src
 .
@@ -3465,7 +3465,7 @@ code
 ;
 }
 void
-movsd
+vmovsd
 (
 FloatRegister
 src
@@ -3477,7 +3477,7 @@ dest
 {
 masm
 .
-movsd_rm
+vmovsd_rm
 (
 src
 .
@@ -3498,7 +3498,7 @@ code
 ;
 }
 void
-movsd
+vmovsd
 (
 FloatRegister
 src
@@ -3510,7 +3510,7 @@ dest
 {
 masm
 .
-movsd_rm
+vmovsd_rm
 (
 src
 .
@@ -3669,7 +3669,7 @@ code
 ;
 }
 void
-movss
+vmovss
 (
 FloatRegister
 src
@@ -3681,7 +3681,7 @@ dest
 {
 masm
 .
-movss_rm
+vmovss_rm
 (
 src
 .
@@ -3702,7 +3702,7 @@ code
 ;
 }
 void
-movss
+vmovss
 (
 FloatRegister
 src
@@ -3714,7 +3714,7 @@ dest
 {
 masm
 .
-movss_rm
+vmovss_rm
 (
 src
 .
@@ -3886,7 +3886,7 @@ kind
 }
 }
 void
-movdqu
+vmovdqu
 (
 FloatRegister
 src
@@ -3920,7 +3920,7 @@ MEM_REG_DISP
 :
 masm
 .
-movdqu_rm
+vmovdqu_rm
 (
 src
 .
@@ -3949,7 +3949,7 @@ MEM_SCALE
 :
 masm
 .
-movdqu_rm
+vmovdqu_rm
 (
 src
 .
@@ -4126,7 +4126,7 @@ kind
 }
 }
 void
-movdqa
+vmovdqa
 (
 FloatRegister
 src
@@ -4160,7 +4160,7 @@ MEM_REG_DISP
 :
 masm
 .
-movdqa_rm
+vmovdqa_rm
 (
 src
 .
@@ -4189,7 +4189,7 @@ MEM_SCALE
 :
 masm
 .
-movdqa_rm
+vmovdqa_rm
 (
 src
 .

@@ -571,7 +571,7 @@ rsi
 byte
 aligment
 for
-movdqa
+vmovdqa
 masm
 .
 subq
@@ -589,7 +589,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm6
 Operand
@@ -603,7 +603,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm7
 Operand
@@ -617,7 +617,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm8
 Operand
@@ -631,7 +631,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm9
 Operand
@@ -645,7 +645,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm10
 Operand
@@ -659,7 +659,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm11
 Operand
@@ -673,7 +673,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm12
 Operand
@@ -687,7 +687,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm13
 Operand
@@ -701,7 +701,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm14
 Operand
@@ -715,7 +715,7 @@ rsp
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 xmm15
 Operand
@@ -2441,7 +2441,7 @@ _WIN64
 )
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2455,7 +2455,7 @@ xmm6
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2469,7 +2469,7 @@ xmm7
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2483,7 +2483,7 @@ xmm8
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2497,7 +2497,7 @@ xmm9
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2511,7 +2511,7 @@ xmm10
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2525,7 +2525,7 @@ xmm11
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2539,7 +2539,7 @@ xmm12
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2553,7 +2553,7 @@ xmm13
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
@@ -2567,7 +2567,7 @@ xmm14
 ;
 masm
 .
-movdqa
+vmovdqa
 (
 Operand
 (
