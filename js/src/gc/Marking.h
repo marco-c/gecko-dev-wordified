@@ -415,7 +415,7 @@ BarrieredBase
 T
 >
 *
-thingp
+vec
 const
 char
 *
@@ -448,7 +448,7 @@ size_t
 len
 T
 *
-thingp
+vec
 const
 char
 *
