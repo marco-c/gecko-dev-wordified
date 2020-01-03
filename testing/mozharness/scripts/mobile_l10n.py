@@ -2779,24 +2779,6 @@ manifest
 '
 ]
                 
-bootstrap_cmd
-=
-self
-.
-config
-[
-'
-tooltool_config
-'
-]
-.
-get
-(
-'
-bootstrap_cmd
-'
-)
-                
 output_dir
 =
 self
