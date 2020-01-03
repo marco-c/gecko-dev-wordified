@@ -776,6 +776,12 @@ AbortAsyncShutdown
 (
 )
 ;
+bool
+HasAccessedStorage
+(
+)
+const
+;
 private
 :
 ~
@@ -1165,6 +1171,9 @@ mAsyncShutdownRequired
 ;
 bool
 mAsyncShutdownInProgress
+;
+bool
+mHasAccessedStorage
 ;
 }
 ;
