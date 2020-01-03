@@ -2089,7 +2089,7 @@ createStatement
 SELECT
 permission
 FROM
-moz_hosts
+moz_perms
 WHERE
 origin
 =

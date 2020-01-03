@@ -1077,7 +1077,7 @@ should
 be
 upgraded
 to
-4
+6
 and
 a
 '
@@ -1102,7 +1102,7 @@ do_check_eq
 connection
 .
 schemaVersion
-5
+6
 )
 ;
 let
@@ -1116,7 +1116,7 @@ createStatement
 SELECT
 modificationTime
 FROM
-moz_hosts
+moz_perms
 "
 )
 let
