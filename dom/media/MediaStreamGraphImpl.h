@@ -1390,10 +1390,7 @@ all
 stream
 state
 to
-the
-new
-current
-time
+mStateComputedTime
 .
 *
 /
@@ -1402,8 +1399,6 @@ UpdateCurrentTimeForStreams
 (
 GraphTime
 aPrevCurrentTime
-GraphTime
-aNextCurrentTime
 )
 ;
 /

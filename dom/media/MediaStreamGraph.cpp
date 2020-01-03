@@ -2187,8 +2187,6 @@ UpdateCurrentTimeForStreams
 (
 GraphTime
 aPrevCurrentTime
-GraphTime
-aNextCurrentTime
 )
 {
 for
@@ -2216,7 +2214,7 @@ events
 GraphTime
 blockedTime
 =
-aNextCurrentTime
+mStateComputedTime
 -
 stream
 -
@@ -2316,7 +2314,7 @@ stream
 >
 mStartBlocking
 <
-aNextCurrentTime
+mStateComputedTime
 &
 &
 !
@@ -2387,7 +2385,7 @@ stream
 >
 AdvanceTimeVaryingValuesToCurrentTime
 (
-aNextCurrentTime
+mStateComputedTime
 blockedTime
 )
 ;
@@ -9034,7 +9032,6 @@ stateEnd
 UpdateCurrentTimeForStreams
 (
 stateFrom
-stateEnd
 )
 ;
 return
