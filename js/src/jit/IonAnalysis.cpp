@@ -19558,7 +19558,7 @@ MDefinition
 :
 Op_Unbox
 :
-MOZ_ASSERT
+if
 (
 ndef
 -
@@ -19566,10 +19566,12 @@ ndef
 type
 (
 )
-=
+!
 =
 MIRType_Object
 )
+return
+true
 ;
 break
 ;
