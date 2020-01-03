@@ -302,7 +302,7 @@ mPanningModelFunction
 PannerNodeEngine
 :
 :
-HRTFPanningFunction
+EqualPowerPanningFunction
 )
 mDistanceModelFunction
 (
@@ -1386,7 +1386,7 @@ mPanningModel
 PanningModelType
 :
 :
-HRTF
+Equalpower
 )
 mDistanceModel
 (
