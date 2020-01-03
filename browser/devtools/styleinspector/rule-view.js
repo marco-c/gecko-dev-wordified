@@ -13726,7 +13726,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -19980,15 +19980,15 @@ expander
 Otherwise
 add
 .
-user
+styleinspector
 -
 open
 class
 which
+*
 is
 used
 to
-*
 expand
 the
 computed
@@ -20000,9 +20000,9 @@ or
 not
 the
 computed
+*
 list
 is
-*
 expanded
 by
 manually
@@ -20046,7 +20046,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -20088,7 +20088,7 @@ classList
 remove
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -20120,7 +20120,7 @@ classList
 add
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -20198,7 +20198,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -20286,7 +20286,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
