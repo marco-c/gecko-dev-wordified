@@ -18928,8 +18928,6 @@ space
 using
 the
 VMCall
-/
-/
 when
 mir
 hints
@@ -18938,9 +18936,9 @@ needs
 to
 get
 allocated
+/
+/
 immediately
-/
-/
 but
 only
 when
@@ -18957,9 +18955,12 @@ slots
 bool
 allocating
 =
-isAllocating
+allocatingBehaviour
 (
 )
+!
+=
+NewArray_Unallocating
 &
 &
 count

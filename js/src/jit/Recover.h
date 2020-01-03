@@ -126,6 +126,13 @@ h
 #
 include
 "
+jsarray
+.
+h
+"
+#
+include
+"
 jit
 /
 Snapshots
@@ -1856,8 +1863,8 @@ private
 uint32_t
 count_
 ;
-bool
-isAllocating_
+AllocatingBehaviour
+allocatingBehaviour_
 ;
 public
 :
