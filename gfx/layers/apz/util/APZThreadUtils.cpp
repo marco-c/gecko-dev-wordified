@@ -407,8 +407,6 @@ posted
 to
 controller
 thread
-\
-n
 "
 )
 ;

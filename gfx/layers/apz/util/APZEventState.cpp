@@ -195,7 +195,7 @@ APZES_LOG
 printf_stderr
 (
 "
-APZCCH
+APZES
 :
 "
 __VA_ARGS__
