@@ -800,6 +800,9 @@ loop
 OTSdkDriver
 (
 {
+isDesktop
+:
+true
 dispatcher
 :
 dispatcher
@@ -914,6 +917,9 @@ dispatcher
 client
 :
 client
+isDesktop
+:
+true
 mozLoop
 :
 navigator
@@ -937,6 +943,9 @@ ActiveRoomStore
 (
 dispatcher
 {
+isDesktop
+:
+true
 mozLoop
 :
 navigator

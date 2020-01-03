@@ -219,6 +219,17 @@ media
 -
 denied
 "
+UNABLE_TO_PUBLISH_MEDIA
+:
+"
+unable
+-
+to
+-
+publish
+-
+media
+"
 COULD_NOT_CONNECT
 :
 "
