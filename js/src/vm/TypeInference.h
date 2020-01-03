@@ -3390,6 +3390,14 @@ v
 ;
 static
 bool
+IsTypeAllocatedDuringIncremental
+(
+Type
+v
+)
+;
+static
+bool
 IsTypeAboutToBeFinalized
 (
 Type

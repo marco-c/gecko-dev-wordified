@@ -11681,6 +11681,9 @@ hasTrackedOptimizations
 )
 )
 {
+uint32_t
+dummy
+;
 mozilla
 :
 :
@@ -11695,6 +11698,8 @@ entry
 trackedOptimizationIndexAtAddr
 (
 returnAddr
+&
+dummy
 )
 ;
 frames

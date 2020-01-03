@@ -761,9 +761,6 @@ runtime
 void
 *
 pc
-bool
-*
-hasOptInfo
 )
 ;
 JS_FRIEND_API
