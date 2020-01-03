@@ -419,6 +419,13 @@ h
 #
 include
 "
+nsHttpChannelAuthProvider
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -1915,6 +1922,13 @@ nullptr
 )
 ;
 }
+nsHttpChannelAuthProvider
+:
+:
+InitializePrefs
+(
+)
+;
 mMisc
 .
 AssignLiteral
