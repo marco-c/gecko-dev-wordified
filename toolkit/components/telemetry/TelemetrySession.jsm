@@ -331,6 +331,11 @@ this
 )
 ;
 const
+Utils
+=
+TelemetryUtils
+;
+const
 myScope
 =
 this
@@ -3280,7 +3285,7 @@ intervals
 const
 nextMidnight
 =
-TelemetryUtils
+Utils
 .
 getNextMidnight
 (
@@ -3386,7 +3391,7 @@ midnight
 const
 todayDate
 =
-TelemetryUtils
+Utils
 .
 truncateToDays
 (
@@ -3396,7 +3401,7 @@ nowDate
 const
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -3572,7 +3577,7 @@ false
 const
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -4404,7 +4409,7 @@ isAbortedPingDue
 shouldSendDaily
 &
 &
-TelemetryUtils
+Utils
 .
 areTimesClose
 (
@@ -4855,7 +4860,7 @@ tomorrow
 let
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -7779,7 +7784,7 @@ sessionStartDate
 =
 toLocalTimeISOString
 (
-TelemetryUtils
+Utils
 .
 truncateToDays
 (
@@ -7794,7 +7799,7 @@ subsessionStartDate
 =
 toLocalTimeISOString
 (
-TelemetryUtils
+Utils
 .
 truncateToDays
 (
