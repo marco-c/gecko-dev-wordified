@@ -241,7 +241,7 @@ MOZ_OVERRIDE
 jsipc
 :
 :
-CPOWManager
+JavaScriptShared
 *
 GetCPOWManager
 (
