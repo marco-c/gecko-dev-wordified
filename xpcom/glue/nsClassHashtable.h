@@ -755,12 +755,6 @@ aOut
 =
 nullptr
 ;
-nsAutoPtr
-<
-T
->
-ptr
-;
 typename
 base_type
 :
