@@ -2078,7 +2078,7 @@ prototype
 _nfcContentHelper
 :
 null
-_window
+window
 :
 null
 _rfState
@@ -2115,7 +2115,7 @@ called
 ;
 this
 .
-_window
+window
 =
 aWindow
 ;
@@ -2278,7 +2278,7 @@ NfcCallback
 (
 this
 .
-_window
+window
 )
 ;
 this
@@ -2370,7 +2370,7 @@ NfcCallback
 (
 this
 .
-_window
+window
 )
 ;
 this
@@ -2406,7 +2406,7 @@ NfcCallback
 (
 this
 .
-_window
+window
 )
 ;
 this
@@ -2442,7 +2442,7 @@ NfcCallback
 (
 this
 .
-_window
+window
 )
 ;
 this
@@ -2561,7 +2561,7 @@ appId
 =
 this
 .
-_window
+window
 .
 document
 .
@@ -2605,7 +2605,7 @@ appId
 =
 this
 .
-_window
+window
 .
 document
 .
@@ -2712,7 +2712,7 @@ dump
 "
 this
 .
-_window
+window
 or
 this
 .
@@ -2789,7 +2789,7 @@ MozNFCTagImpl
 (
 this
 .
-_window
+window
 sessionToken
 tagInfo
 ndefInfo
@@ -2800,7 +2800,7 @@ tag
 =
 this
 .
-_window
+window
 .
 MozNFCTag
 .
@@ -2808,7 +2808,7 @@ _create
 (
 this
 .
-_window
+window
 tagImpl
 )
 ;
@@ -2876,7 +2876,7 @@ push
 new
 this
 .
-_window
+window
 .
 MozNDEFRecord
 (
@@ -2943,7 +2943,7 @@ tagEvent
 new
 this
 .
-_window
+window
 .
 MozNFCTagEvent
 (
@@ -3079,7 +3079,7 @@ dump
 "
 this
 .
-_window
+window
 or
 this
 .
@@ -3168,7 +3168,7 @@ event
 new
 this
 .
-_window
+window
 .
 Event
 (
@@ -3275,7 +3275,7 @@ dump
 "
 this
 .
-_window
+window
 or
 this
 .
@@ -3371,7 +3371,7 @@ MozNFCPeerImpl
 (
 this
 .
-_window
+window
 sessionToken
 )
 ;
@@ -3381,7 +3381,7 @@ nfcPeer
 =
 this
 .
-_window
+window
 .
 MozNFCPeer
 .
@@ -3389,7 +3389,7 @@ _create
 (
 this
 .
-_window
+window
 peerImpl
 )
 ;
@@ -3457,7 +3457,7 @@ event
 new
 this
 .
-_window
+window
 .
 MozNFCPeerEvent
 (
@@ -3613,7 +3613,7 @@ dump
 "
 this
 .
-_window
+window
 or
 this
 .
@@ -3705,7 +3705,7 @@ event
 new
 this
 .
-_window
+window
 .
 Event
 (
@@ -3832,7 +3832,7 @@ principal
 =
 this
 .
-_window
+window
 .
 document
 .
@@ -3914,7 +3914,7 @@ isDeadWrapper
 (
 this
 .
-_window
+window
 )
 |
 |
