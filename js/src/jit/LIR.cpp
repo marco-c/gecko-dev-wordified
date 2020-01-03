@@ -2180,6 +2180,9 @@ this
 other
 ;
 }
+#
+ifdef
+DEBUG
 static
 const
 char
@@ -2885,6 +2888,11 @@ what
 ;
 }
 }
+#
+endif
+/
+/
+DEBUG
 void
 LAllocation
 :
