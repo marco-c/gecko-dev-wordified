@@ -224,12 +224,12 @@ UnregisterAllProcessMouseEventHandlers
 protected
 :
 nsresult
-RegisterForSleepWakeNotifcations
+RegisterForSleepWakeNotifications
 (
 )
 ;
 void
-RemoveSleepWakeNotifcations
+RemoveSleepWakeNotifications
 (
 )
 ;
