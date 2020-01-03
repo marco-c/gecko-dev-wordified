@@ -409,16 +409,12 @@ h
 return
 fetch
 (
-new
-Request
-(
 requestURL
 {
 headers
 :
 h
 }
-)
 )
 ;
 }
@@ -595,7 +591,7 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 }
 )
@@ -619,7 +615,7 @@ searching
 without
 specifying
 a
-Cookie
+Custom
 header
 succeeds
 .
@@ -677,7 +673,7 @@ matching
 value
 for
 the
-Cookie
+Custom
 header
 fails
 .
@@ -697,7 +693,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -756,7 +752,7 @@ matching
 value
 for
 the
-Cookie
+Custom
 header
 but
 with
@@ -780,7 +776,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -888,7 +884,7 @@ WhatToVary
 "
 )
 "
-Cookie
+Custom
 "
 "
 The
@@ -912,7 +908,7 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 }
 )
@@ -936,7 +932,7 @@ searching
 without
 specifying
 a
-Cookie
+Custom
 header
 succeeds
 .
@@ -988,7 +984,7 @@ matching
 value
 for
 the
-Cookie
+Custom
 header
 fails
 .
@@ -1008,7 +1004,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1066,7 +1062,7 @@ matching
 value
 for
 the
-Cookie
+Custom
 header
 but
 with
@@ -1090,7 +1086,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1638,10 +1634,10 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 "
-Cookie
+Custom
 "
 :
 "
@@ -1671,7 +1667,7 @@ searching
 with
 a
 different
-Cookie
+Custom
 header
 fails
 .
@@ -1691,7 +1687,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1731,7 +1727,7 @@ a
 non
 -
 matching
-Cookie
+Custom
 header
 should
 not
@@ -1747,7 +1743,7 @@ searching
 with
 the
 same
-Cookie
+Custom
 header
 succeeds
 .
@@ -1767,7 +1763,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1826,6 +1822,8 @@ WhatToVary
 Foo
 /
 Bar
+Custom
+-
 User
 -
 Agent
@@ -1874,6 +1872,8 @@ headers
 :
 {
 "
+Custom
+-
 User
 -
 Agent
@@ -1914,6 +1914,8 @@ a
 non
 -
 matching
+Custom
+-
 User
 -
 Agent
@@ -1932,6 +1934,8 @@ searching
 with
 a
 different
+Custom
+-
 User
 -
 Agent
@@ -1957,6 +1961,8 @@ headers
 :
 {
 "
+Custom
+-
 User
 -
 Agent
@@ -2093,9 +2099,13 @@ WhatToVary
 "
 :
 "
+Custom
+-
 Referer
 \
-tAccept
+tCustom
+-
+Accept
 -
 Encoding
 "
@@ -2141,6 +2151,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -2186,6 +2198,8 @@ a
 non
 -
 matching
+Custom
+-
 Referer
 header
 should
@@ -2202,6 +2216,8 @@ searching
 with
 a
 different
+Custom
+-
 Referer
 header
 but
@@ -2225,6 +2241,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -2287,6 +2305,8 @@ searching
 with
 a
 different
+Custom
+-
 Accept
 -
 Encoding
@@ -2309,6 +2329,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2349,6 +2371,8 @@ a
 non
 -
 matching
+Custom
+-
 Accept
 -
 Encoding
@@ -2367,6 +2391,8 @@ searching
 with
 a
 different
+Custom
+-
 Accept
 -
 Encoding
@@ -2392,6 +2418,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2449,6 +2477,8 @@ searching
 with
 an
 empty
+Custom
+-
 Referer
 header
 succeeds
@@ -2469,6 +2499,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -2518,6 +2550,8 @@ searching
 with
 an
 empty
+Custom
+-
 Accept
 -
 Encoding
@@ -2540,6 +2574,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2591,12 +2627,16 @@ searching
 with
 an
 empty
+Custom
+-
 Referer
 header
 but
 with
 a
 different
+Custom
+-
 Accept
 -
 Encoding
@@ -2619,12 +2659,16 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
 "
 "
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2665,6 +2709,8 @@ a
 non
 -
 matching
+Custom
+-
 Accept
 -
 Encoding
@@ -2683,12 +2729,16 @@ searching
 with
 an
 empty
+Custom
+-
 Referer
 header
 but
 with
 a
 different
+Custom
+-
 Accept
 -
 Encoding
@@ -2713,12 +2763,16 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
 "
 "
 "
+Custom
+-
 Accept
 -
 Encoding
