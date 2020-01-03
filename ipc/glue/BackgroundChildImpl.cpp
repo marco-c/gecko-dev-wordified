@@ -916,10 +916,6 @@ BackgroundChildImpl
 :
 AllocPBackgroundIDBFactoryChild
 (
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 {
 MOZ_CRASH
