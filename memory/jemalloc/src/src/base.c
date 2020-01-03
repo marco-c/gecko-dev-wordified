@@ -98,7 +98,6 @@ Data
 .
 *
 /
-static
 malloc_mutex_t
 base_mtx
 ;
@@ -170,6 +169,9 @@ static
 extent_node_t
 *
 base_nodes
+;
+size_t
+base_allocated
 ;
 /
 *
@@ -439,6 +441,15 @@ base_next_addr
 +
 csize
 )
+;
+if
+(
+config_stats
+)
+base_allocated
++
+=
+csize
 ;
 malloc_mutex_unlock
 (
