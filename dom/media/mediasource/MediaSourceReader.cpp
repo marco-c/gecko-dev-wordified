@@ -1247,6 +1247,15 @@ RequestSampleCallback
 :
 :
 DECODE_ERROR
+|
+|
+aReason
+=
+=
+RequestSampleCallback
+:
+:
+CANCELED
 )
 {
 GetCallback
