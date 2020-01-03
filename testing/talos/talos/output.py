@@ -1377,9 +1377,9 @@ for
 this
 counter
                         
-utils
+logging
 .
-stamped_msg
+error
 (
                             
 "
@@ -1391,10 +1391,6 @@ for
 "
 +
 counterName
-                            
-"
-Error
-"
                         
 )
 #
@@ -1630,9 +1626,9 @@ the
 counter
 string
                     
-utils
+logging
 .
-stamped_msg
+info
 (
                         
 "
@@ -1645,9 +1641,6 @@ s
 "
 %
 counterName
-"
-Started
-"
 )
                     
 result_strings
@@ -1663,26 +1656,6 @@ vals
 *
 info
 )
-)
-                    
-utils
-.
-stamped_msg
-(
-                        
-"
-Generating
-results
-file
-:
-%
-s
-"
-%
-counterName
-"
-Stopped
-"
 )
         
 return
