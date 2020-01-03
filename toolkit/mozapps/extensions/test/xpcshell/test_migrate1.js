@@ -577,7 +577,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 let
@@ -631,7 +633,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 let
@@ -685,7 +689,9 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+FileUtils
+.
+PERMS_DIRECTORY
 )
 ;
 let

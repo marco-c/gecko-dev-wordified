@@ -1076,6 +1076,14 @@ writeInstallRDFForExtension
 (
 addon4
 profileDir
+"
+addon4
+tests
+.
+mozilla
+.
+org
+"
 )
 ;
 writeInstallRDFForExtension
