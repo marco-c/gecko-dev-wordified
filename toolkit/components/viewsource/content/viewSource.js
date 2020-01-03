@@ -2867,6 +2867,7 @@ historyEnabled
 ;
 if
 (
+!
 this
 .
 historyEnabled
