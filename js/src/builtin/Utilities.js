@@ -356,6 +356,11 @@ std_StopIteration
 =
 StopIteration
 ;
+var
+std_Map_iterator_next
+=
+MapIteratorNext
+;
 /
 *
 *
