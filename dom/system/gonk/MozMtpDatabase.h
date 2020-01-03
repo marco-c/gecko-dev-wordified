@@ -608,6 +608,10 @@ mDateModified
 (
 0
 )
+mDateAdded
+(
+0
+)
 {
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -650,11 +654,14 @@ mDisplayName
 nsCString
 mPath
 ;
-PRTime
+time_t
 mDateCreated
 ;
-PRTime
+time_t
 mDateModified
+;
+time_t
+mDateAdded
 ;
 protected
 :
