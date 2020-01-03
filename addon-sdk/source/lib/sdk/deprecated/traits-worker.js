@@ -1688,6 +1688,10 @@ true
 let
 onEvent
 =
+Cu
+.
+exportFunction
+(
 this
 .
 _onContentEvent
@@ -1695,6 +1699,8 @@ _onContentEvent
 bind
 (
 this
+)
+ContentWorker
 )
 ;
 let
