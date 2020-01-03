@@ -493,7 +493,7 @@ key
 +
 AppConstants
 .
-MOZ_STUMBLER_API_KEY
+MOZ_MOZILLA_API_KEY
 ;
 /
 /
