@@ -1285,6 +1285,16 @@ upload
 it
 .
 *
+*
+If
+nullptr
+is
+returned
+aTextureClientOnWhite
+is
+undefined
+.
+*
 /
 TextureClient
 *
