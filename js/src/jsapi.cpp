@@ -34673,7 +34673,9 @@ cx
 )
 -
 >
-autoGCRooters
+roots
+.
+autoGCRooters_
 )
 tag_
 (
@@ -34691,7 +34693,9 @@ cx
 )
 -
 >
-autoGCRooters
+roots
+.
+autoGCRooters_
 )
 {
 MOZ_ASSERT
@@ -34726,7 +34730,9 @@ down
 cx
 -
 >
-autoGCRooters
+roots
+.
+autoGCRooters_
 )
 tag_
 (
@@ -34738,7 +34744,9 @@ stackTop
 cx
 -
 >
-autoGCRooters
+roots
+.
+autoGCRooters_
 )
 {
 MOZ_ASSERT

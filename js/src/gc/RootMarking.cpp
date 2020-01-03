@@ -510,6 +510,8 @@ rooter
 s
 -
 >
+roots
+.
 template
 gcRooters
 <
@@ -2110,7 +2112,9 @@ gcr
 cx
 -
 >
-autoGCRooters
+roots
+.
+autoGCRooters_
 ;
 gcr
 ;
