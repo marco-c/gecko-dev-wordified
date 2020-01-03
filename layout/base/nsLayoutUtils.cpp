@@ -3722,9 +3722,9 @@ t
 encounter
 a
 transform
-aMaxScale
+maxScale
 =
-aMinScale
+minScale
 =
 gfxSize
 (
