@@ -255,7 +255,7 @@ gonk
 {
 class
 SystemWorkerManager
-MOZ_FINAL
+final
 :
 public
 nsIObserver

@@ -217,7 +217,7 @@ nsSVGOuterSVGFrameBase
 ;
 class
 nsSVGOuterSVGFrame
-MOZ_FINAL
+final
 :
 public
 nsSVGOuterSVGFrameBase
@@ -300,7 +300,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -310,7 +310,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -320,14 +320,14 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -377,7 +377,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -397,7 +397,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -413,14 +413,14 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -438,7 +438,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -454,7 +454,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSplittableType
@@ -462,7 +462,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -492,7 +492,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -506,7 +506,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -535,7 +535,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -543,7 +543,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -614,7 +614,7 @@ Matrix
 aFromParentTransform
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -669,7 +669,7 @@ NotifyViewportOrTransformChanged
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -694,7 +694,7 @@ aDirtyRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGBBox
@@ -707,7 +707,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -719,7 +719,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -842,7 +842,7 @@ Matrix
 aTransform
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1662,7 +1662,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1678,7 +1678,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -1723,7 +1723,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1735,7 +1735,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1811,7 +1811,7 @@ Matrix
 aTransform
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

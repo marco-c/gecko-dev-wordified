@@ -82,7 +82,7 @@ h
 "
 class
 DiskSpaceWatcher
-MOZ_FINAL
+final
 :
 public
 nsIDiskSpaceWatcher

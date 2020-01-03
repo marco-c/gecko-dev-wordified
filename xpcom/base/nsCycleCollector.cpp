@@ -8606,7 +8606,7 @@ mType
 ;
 class
 nsCycleCollectorLogSinkToFile
-MOZ_FINAL
+final
 :
 public
 nsICycleCollectorLogSink
@@ -8652,7 +8652,7 @@ nsAString
 &
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 aIdentifier
 =
@@ -8670,7 +8670,7 @@ nsAString
 &
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 mFilenameIdentifier
 =
@@ -8687,7 +8687,7 @@ int32_t
 *
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 *
 aIdentifier
@@ -8704,7 +8704,7 @@ SetProcessIdentifier
 int32_t
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 mProcessIdentifier
 =
@@ -8722,7 +8722,7 @@ nsIFile
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -8746,7 +8746,7 @@ nsIFile
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -8774,7 +8774,7 @@ FILE
 *
 aCCLog
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -8845,7 +8845,7 @@ NS_IMETHOD
 CloseGCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -8879,7 +8879,7 @@ NS_IMETHOD
 CloseCCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -9750,7 +9750,7 @@ nsICycleCollectorLogSink
 )
 class
 nsCycleCollectorLogger
-MOZ_FINAL
+final
 :
 public
 nsICycleCollectorListener
@@ -9814,7 +9814,7 @@ nsICycleCollectorListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 SetAllTraces
 (
@@ -9839,7 +9839,7 @@ bool
 *
 aAllTraces
 )
-MOZ_OVERRIDE
+override
 {
 *
 aAllTraces
@@ -9857,7 +9857,7 @@ bool
 *
 aDisableLog
 )
-MOZ_OVERRIDE
+override
 {
 *
 aDisableLog
@@ -9874,7 +9874,7 @@ SetDisableLog
 bool
 aDisableLog
 )
-MOZ_OVERRIDE
+override
 {
 mDisableLog
 =
@@ -9891,7 +9891,7 @@ bool
 *
 aWantAfterProcessing
 )
-MOZ_OVERRIDE
+override
 {
 *
 aWantAfterProcessing
@@ -9908,7 +9908,7 @@ SetWantAfterProcessing
 bool
 aWantAfterProcessing
 )
-MOZ_OVERRIDE
+override
 {
 mWantAfterProcessing
 =
@@ -9926,7 +9926,7 @@ nsICycleCollectorLogSink
 *
 aLogSink
 )
-MOZ_OVERRIDE
+override
 {
 NS_ADDREF
 (
@@ -9947,7 +9947,7 @@ nsICycleCollectorLogSink
 *
 aLogSink
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -9971,7 +9971,7 @@ NS_IMETHOD
 Begin
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -10115,7 +10115,7 @@ char
 *
 aObjectDescription
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10241,7 +10241,7 @@ aObjectDescription
 uint64_t
 aCompartmentAddress
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10412,7 +10412,7 @@ char
 *
 aEdgeName
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10529,7 +10529,7 @@ aKeyDelegate
 uint64_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10609,7 +10609,7 @@ NoteIncrementalRoot
 uint64_t
 aAddress
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10657,7 +10657,7 @@ NS_IMETHOD
 BeginResults
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10697,7 +10697,7 @@ aAddress
 uint32_t
 aKnownEdges
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10789,7 +10789,7 @@ DescribeGarbage
 uint64_t
 aAddress
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10868,7 +10868,7 @@ NS_IMETHOD
 End
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10911,7 +10911,7 @@ bool
 *
 aCanContinue
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -11489,7 +11489,7 @@ routine
 /
 class
 CCGraphBuilder
-MOZ_FINAL
+final
 :
 public
 nsCycleCollectionTraversalCallback

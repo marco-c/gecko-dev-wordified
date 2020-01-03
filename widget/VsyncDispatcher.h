@@ -266,7 +266,7 @@ to
 compositors
 class
 CompositorVsyncDispatcher
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -414,7 +414,7 @@ RefreshTimer
 .
 class
 RefreshTimerVsyncDispatcher
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

@@ -556,7 +556,7 @@ SMOOTH_INTERVAL
 100
 class
 nsListScrollSmoother
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback

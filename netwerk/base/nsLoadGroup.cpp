@@ -6150,7 +6150,7 @@ rv
 nsLoadGroupConnectionInfo
 class
 nsLoadGroupConnectionInfo
-MOZ_FINAL
+final
 :
 public
 nsILoadGroupConnectionInfo

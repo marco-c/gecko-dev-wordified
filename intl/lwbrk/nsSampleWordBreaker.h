@@ -151,7 +151,7 @@ aText2
 uint32_t
 aTextLen2
 )
-MOZ_OVERRIDE
+override
 ;
 nsWordRange
 FindWord
@@ -165,7 +165,7 @@ aTextLen1
 uint32_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 NextWord
@@ -179,7 +179,7 @@ aLen
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -206,7 +206,7 @@ NS_IFOO_IID
 )
 class
 Foo
-MOZ_FINAL
+final
 :
 public
 IFoo
@@ -241,7 +241,7 @@ MozExternalRefCountType
 RefCnt
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRefCnt
@@ -254,7 +254,7 @@ int32_t
 ID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mID
@@ -374,7 +374,7 @@ NS_IBAR_IID
 )
 class
 Bar
-MOZ_FINAL
+final
 :
 public
 IBar

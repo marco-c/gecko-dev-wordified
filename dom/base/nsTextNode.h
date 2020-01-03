@@ -322,7 +322,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGenericDOMDataNode
@@ -342,7 +342,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -360,7 +360,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -375,7 +375,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AppendTextForNormalize
@@ -399,7 +399,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -419,7 +419,7 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -434,7 +434,7 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -464,7 +464,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

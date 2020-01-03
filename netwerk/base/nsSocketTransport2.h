@@ -779,7 +779,7 @@ mByteCount
 -
 class
 nsSocketTransport
-MOZ_FINAL
+final
 :
 public
 nsASocketHandler
@@ -1001,7 +1001,7 @@ PRFileDesc
 int16_t
 outFlags
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnSocketDetached
@@ -1009,7 +1009,7 @@ OnSocketDetached
 PRFileDesc
 *
 )
-MOZ_OVERRIDE
+override
 ;
 void
 IsLocal
@@ -1018,7 +1018,7 @@ bool
 *
 aIsLocal
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnKeepaliveEnabledPrefChange
@@ -1026,8 +1026,8 @@ OnKeepaliveEnabledPrefChange
 bool
 aEnabled
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 /
 /
@@ -1054,7 +1054,7 @@ uint64_t
 ByteCountReceived
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInput
@@ -1068,7 +1068,7 @@ uint64_t
 ByteCountSent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOutput

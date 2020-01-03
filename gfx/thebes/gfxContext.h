@@ -318,7 +318,7 @@ units
 /
 class
 gfxContext
-MOZ_FINAL
+final
 {
 typedef
 mozilla

@@ -807,7 +807,7 @@ Message
 *
 message
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

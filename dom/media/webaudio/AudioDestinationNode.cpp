@@ -347,7 +347,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -900,7 +900,7 @@ true
 }
 class
 OnCompleteTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1187,7 +1187,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -1222,7 +1222,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf
@@ -1488,7 +1488,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 *
 aOutput
@@ -1572,7 +1572,7 @@ aIndex
 double
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1602,7 +1602,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf
@@ -1648,7 +1648,7 @@ useAudioChannelService
 }
 class
 EventProxyHandler
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -1687,7 +1687,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

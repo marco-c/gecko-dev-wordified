@@ -267,7 +267,7 @@ section
 /
 class
 PeerIdentity
-MOZ_FINAL
+final
 {
 public
 :

@@ -281,7 +281,7 @@ MAX_VALUE_NAME_LEN
 16383
 class
 nsWindowsRegKey
-MOZ_FINAL
+final
 :
 public
 nsIWindowsRegKey

@@ -284,7 +284,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *

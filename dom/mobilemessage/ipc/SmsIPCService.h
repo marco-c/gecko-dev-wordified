@@ -150,7 +150,7 @@ PSmsChild
 ;
 class
 SmsIPCService
-MOZ_FINAL
+final
 :
 public
 nsISmsService
@@ -185,7 +185,7 @@ SmsIPCService
 ;
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

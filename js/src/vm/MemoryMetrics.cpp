@@ -5417,7 +5417,7 @@ ZoneStats
 *
 zStats
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5434,7 +5434,7 @@ CompartmentStats
 *
 cStats
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

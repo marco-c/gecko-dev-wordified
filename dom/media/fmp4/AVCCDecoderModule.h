@@ -254,14 +254,14 @@ nsresult
 Startup
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -295,7 +295,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -318,7 +318,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -340,7 +340,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

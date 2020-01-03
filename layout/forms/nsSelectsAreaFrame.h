@@ -155,7 +155,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BuildDisplayListInternal
@@ -191,7 +191,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 nscoord
 HeightOfARow

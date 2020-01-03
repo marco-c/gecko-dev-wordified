@@ -156,7 +156,7 @@ jsinspector
 {
 class
 nsJSInspector
-MOZ_FINAL
+final
 :
 public
 nsIJSInspector

@@ -387,7 +387,7 @@ NS_IMETHOD
 EnsureNative
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -444,7 +444,7 @@ Uninit
 bool
 aIsFinal
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -471,7 +471,7 @@ nsresult
 RebuildAll
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -867,7 +867,7 @@ bool
 *
 aGenerated
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -918,7 +918,7 @@ nsIContent
 *
 aLocations
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -946,7 +946,7 @@ void
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -965,7 +965,7 @@ nsIXULTemplateResult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

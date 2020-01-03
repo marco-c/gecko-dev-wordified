@@ -1005,7 +1005,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -1013,8 +1013,8 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -1023,8 +1023,8 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 }
 ;

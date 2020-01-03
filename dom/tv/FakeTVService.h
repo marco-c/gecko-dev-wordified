@@ -202,7 +202,7 @@ dom
 {
 class
 FakeTVService
-MOZ_FINAL
+final
 :
 public
 nsITVService

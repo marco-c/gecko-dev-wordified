@@ -223,7 +223,7 @@ MFTDecoder
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 HRESULT
@@ -236,7 +236,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 HRESULT
@@ -251,14 +251,14 @@ MediaData
 &
 aOutput
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -266,7 +266,7 @@ IsHardwareAccelerated
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

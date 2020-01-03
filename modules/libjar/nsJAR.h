@@ -472,7 +472,7 @@ parsing
 /
 class
 nsJAR
-MOZ_FINAL
+final
 :
 public
 nsIZipReader
@@ -955,7 +955,7 @@ nsZipFind
 /
 class
 nsJAREnumerator
-MOZ_FINAL
+final
 :
 public
 nsIUTF8StringEnumerator

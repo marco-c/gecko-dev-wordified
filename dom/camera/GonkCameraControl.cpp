@@ -5409,7 +5409,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -6061,7 +6061,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -7398,7 +7398,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCameraControl
 -

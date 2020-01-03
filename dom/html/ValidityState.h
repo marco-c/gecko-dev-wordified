@@ -137,7 +137,7 @@ dom
 {
 class
 ValidityState
-MOZ_FINAL
+final
 :
 public
 nsIDOMValidityState
@@ -193,7 +193,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

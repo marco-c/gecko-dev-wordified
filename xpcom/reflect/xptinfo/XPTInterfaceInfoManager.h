@@ -196,7 +196,7 @@ mozilla
 {
 class
 XPTInterfaceInfoManager
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceInfoManager

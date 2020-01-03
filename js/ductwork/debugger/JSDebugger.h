@@ -124,7 +124,7 @@ jsdebugger
 {
 class
 JSDebugger
-MOZ_FINAL
+final
 :
 public
 IJSDebugger

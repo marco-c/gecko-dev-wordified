@@ -307,7 +307,7 @@ ifdef
 BUILD_THREADPOOL_LISTENER
 class
 TransactionThreadPoolListener
-MOZ_FINAL
+final
 :
 public
 nsIThreadPoolListener
@@ -347,7 +347,7 @@ TransactionThreadPool
 :
 :
 FinishTransactionRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -460,7 +460,7 @@ TransactionThreadPool
 :
 :
 DatabaseTransactionInfo
-MOZ_FINAL
+final
 {
 typedef
 nsClassHashtable
@@ -508,7 +508,7 @@ TransactionThreadPool
 :
 :
 DatabasesCompleteCallback
-MOZ_FINAL
+final
 {
 friend
 class
@@ -559,7 +559,7 @@ TransactionThreadPool
 :
 :
 TransactionQueue
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -695,7 +695,7 @@ TransactionThreadPool
 :
 :
 TransactionInfo
-MOZ_FINAL
+final
 {
 uint64_t
 transactionId
@@ -802,7 +802,7 @@ TransactionThreadPool
 :
 :
 TransactionInfoPair
-MOZ_FINAL
+final
 {
 /
 /

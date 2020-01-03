@@ -153,7 +153,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -197,7 +197,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -217,7 +217,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -252,7 +252,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

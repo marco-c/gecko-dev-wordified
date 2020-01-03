@@ -224,7 +224,7 @@ nsIURI
 *
 aClone
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -239,7 +239,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -262,7 +262,7 @@ unused
 *
 /
 )
-MOZ_OVERRIDE
+override
 {
 return
 new

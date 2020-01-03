@@ -1883,7 +1883,7 @@ NS_OK
 -
 class
 nsDNSAsyncRequest
-MOZ_FINAL
+final
 :
 public
 nsResolveHostCallback
@@ -1957,7 +1957,7 @@ nsHostRecord
 *
 nsresult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2000,7 +2000,7 @@ nsIDNSListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -2011,7 +2011,7 @@ mozilla
 MallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

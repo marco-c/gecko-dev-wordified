@@ -186,7 +186,7 @@ embedding
 {
 class
 MockWebBrowserPrint
-MOZ_FINAL
+final
 :
 public
 nsIWebBrowserPrint

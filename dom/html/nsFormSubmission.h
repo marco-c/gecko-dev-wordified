@@ -813,7 +813,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -833,7 +833,7 @@ File
 *
 aBlob
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -847,7 +847,7 @@ nsIInputStream
 *
 aPostDataStream
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetContentType

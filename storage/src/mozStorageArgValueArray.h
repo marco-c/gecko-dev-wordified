@@ -149,7 +149,7 @@ storage
 {
 class
 ArgValueArray
-MOZ_FINAL
+final
 :
 public
 mozIStorageValueArray

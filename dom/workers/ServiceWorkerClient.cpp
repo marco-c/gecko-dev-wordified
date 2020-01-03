@@ -408,7 +408,7 @@ namespace
 {
 class
 ServiceWorkerClientPostMessageRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

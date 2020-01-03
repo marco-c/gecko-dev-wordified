@@ -253,7 +253,7 @@ css
 {
 class
 LazyReferenceRenderingContextGetterFromFrame
-MOZ_FINAL
+final
 :
 public
 gfxFontGroup
@@ -285,7 +285,7 @@ gfxContext
 GetRefContext
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrame
@@ -1039,7 +1039,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -1078,14 +1078,14 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetPerFrameKey
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (

@@ -133,7 +133,7 @@ SVGForeignObjectElement
 ;
 class
 SVGDocument
-MOZ_FINAL
+final
 :
 public
 XMLDocument
@@ -185,7 +185,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -206,7 +206,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -238,7 +238,7 @@ SVGDocument
 AsSVGDocument
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -269,7 +269,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mHasLoadedNonSVGUserAgentStyleSheets

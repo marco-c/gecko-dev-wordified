@@ -115,7 +115,7 @@ workers
 {
 class
 ServiceWorkerWindowClient
-MOZ_FINAL
+final
 :
 public
 ServiceWorkerClient
@@ -176,7 +176,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :

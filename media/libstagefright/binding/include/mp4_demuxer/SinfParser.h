@@ -120,7 +120,7 @@ bool
 IsValid
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !

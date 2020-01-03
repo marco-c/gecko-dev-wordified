@@ -181,7 +181,7 @@ bool
 IsBrowserStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -220,7 +220,7 @@ uint32_t
 &
 newsize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ nsCString
 &
 fname
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -242,14 +242,14 @@ NPReason
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 EnsureCorrectInstance

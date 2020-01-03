@@ -844,7 +844,7 @@ ProgressTracker
 GetProgressTracker
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -874,8 +874,8 @@ ProgressTracker
 *
 aProgressTracker
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 MOZ_ASSERT
 (
@@ -898,14 +898,14 @@ void
 IncrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DecrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -915,7 +915,7 @@ uint32_t
 GetAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mAnimationConsumers
@@ -928,7 +928,7 @@ void
 OnSurfaceDiscarded
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -938,7 +938,7 @@ SetInnerWindowID
 uint64_t
 aInnerWindowId
 )
-MOZ_OVERRIDE
+override
 {
 mInnerWindowId
 =
@@ -951,7 +951,7 @@ InnerWindowID
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mInnerWindowId
@@ -962,7 +962,7 @@ bool
 HasError
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mError
@@ -973,7 +973,7 @@ void
 SetHasError
 (
 )
-MOZ_OVERRIDE
+override
 {
 mError
 =
@@ -1015,7 +1015,7 @@ ImageURL
 GetURI
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mURI

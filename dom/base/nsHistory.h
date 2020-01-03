@@ -202,7 +202,7 @@ History
 object
 class
 nsHistory
-MOZ_FINAL
+final
 :
 public
 nsIDOMHistory
@@ -261,7 +261,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 GetLength

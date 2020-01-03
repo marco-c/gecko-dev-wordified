@@ -287,7 +287,7 @@ bool
 AnswerInvalidate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -301,7 +301,7 @@ bool
 *
 aHasMethod
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -325,7 +325,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -345,7 +345,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -359,7 +359,7 @@ bool
 *
 aHasProperty
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -382,7 +382,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -400,7 +400,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -414,7 +414,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -430,7 +430,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -450,21 +450,21 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvProtect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvUnprotect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NPObject
 *

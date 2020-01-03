@@ -668,7 +668,7 @@ nsAString
 &
 aDest
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -682,7 +682,7 @@ nsIAtom
 *
 aAtom
 )
-MOZ_OVERRIDE
+override
 ;
 #
 else
@@ -709,14 +709,14 @@ txAExprResult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 \
 ResultType
 getReturnType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 bool
@@ -725,7 +725,7 @@ isSensitiveTo
 ContextSensitivity
 aContexts
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -742,7 +742,7 @@ getSubExprAt
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 \
 void
@@ -754,7 +754,7 @@ Expr
 *
 aExpr
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -766,7 +766,7 @@ ExprType
 getType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -1382,7 +1382,7 @@ getSubExprAt
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 void
 setSubExprAt
@@ -1393,7 +1393,7 @@ Expr
 *
 aExpr
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2016,14 +2016,14 @@ txIMatchContext
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 \
 double
 getDefaultPriority
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 bool
@@ -2035,7 +2035,7 @@ Expr
 ContextSensitivity
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2099,7 +2099,7 @@ NodeTestType
 getType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TX_DECL_NODE_TEST
 nsCOMPtr
@@ -2232,7 +2232,7 @@ NodeTestType
 getType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TX_DECL_NODE_TEST
 private

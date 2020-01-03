@@ -147,7 +147,7 @@ observation
 .
 class
 nsTreeImageListener
-MOZ_FINAL
+final
 :
 public
 imgINotificationObserver

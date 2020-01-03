@@ -258,7 +258,7 @@ StyleRule
 GetInlineStyleRule
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -280,7 +280,7 @@ aSerialized
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 nsICSSDeclaration
 *
@@ -372,7 +372,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 class

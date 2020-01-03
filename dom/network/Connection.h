@@ -171,7 +171,7 @@ network
 {
 class
 Connection
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -216,7 +216,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -239,7 +239,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 ConnectionType
 Type

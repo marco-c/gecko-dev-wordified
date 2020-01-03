@@ -214,7 +214,7 @@ sharing
 .
 class
 nsSHEntryShared
-MOZ_FINAL
+final
 :
 public
 nsIBFCacheEntry

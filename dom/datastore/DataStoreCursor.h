@@ -109,7 +109,7 @@ DataStoreCursorImpl
 ;
 class
 DataStoreCursor
-MOZ_FINAL
+final
 :
 public
 nsISupports

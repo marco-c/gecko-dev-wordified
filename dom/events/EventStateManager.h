@@ -236,7 +236,7 @@ namespace
 dom
 class
 OverOutElementsWrapper
-MOZ_FINAL
+final
 :
 public
 nsISupports

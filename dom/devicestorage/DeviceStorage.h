@@ -268,7 +268,7 @@ namespace
 mozilla
 class
 DeviceStorageFile
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -871,7 +871,7 @@ ipc
 /
 class
 FileUpdateDispatcher
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -909,7 +909,7 @@ sSingleton
 ;
 class
 nsDOMDeviceStorage
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1001,7 +1001,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1012,7 +1012,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1050,7 +1050,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1075,7 +1075,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 nsDOMDeviceStorage
@@ -1185,7 +1185,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 IMPL_EVENT_HANDLER
 (

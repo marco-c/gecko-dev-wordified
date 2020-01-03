@@ -159,7 +159,7 @@ ManagerId
 ;
 class
 PrincipalVerifier
-MOZ_FINAL
+final
 :
 public
 nsRunnable

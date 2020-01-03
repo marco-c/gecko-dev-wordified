@@ -192,7 +192,7 @@ Delegate
 *
 aDelegate
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -207,7 +207,7 @@ void
 ScheduleWork
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -222,7 +222,7 @@ void
 ScheduleWorkForNestedLoop
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -244,7 +244,7 @@ TimeTicks
 &
 aDelayedWorkTime
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -329,7 +329,7 @@ mDoWorkEvent
 ;
 class
 MessagePumpForChildProcess
-MOZ_FINAL
+final
 :
 public
 MessagePump
@@ -360,7 +360,7 @@ Delegate
 *
 aDelegate
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -377,7 +377,7 @@ mFirstRun
 ;
 class
 MessagePumpForNonMainThreads
-MOZ_FINAL
+final
 :
 public
 MessagePump
@@ -403,7 +403,7 @@ Delegate
 *
 aDelegate
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -443,7 +443,7 @@ Win
 .
 class
 MessagePumpForNonMainUIThreads
-MOZ_FINAL
+final
 :
 public
 base

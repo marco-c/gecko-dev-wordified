@@ -74,7 +74,7 @@ h
 /
 /
 For
-MOZ_FINAL
+final
 #
 include
 "
@@ -93,7 +93,7 @@ mobilemessage
 {
 class
 MobileMessageService
-MOZ_FINAL
+final
 :
 public
 nsIMobileMessageService
@@ -116,7 +116,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

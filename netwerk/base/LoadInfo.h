@@ -194,7 +194,7 @@ implementation
 class
 MOZ_EXPORT
 LoadInfo
-MOZ_FINAL
+final
 :
 public
 nsILoadInfo

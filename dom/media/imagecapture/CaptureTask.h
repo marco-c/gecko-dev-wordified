@@ -281,7 +281,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -293,7 +293,7 @@ aGraph
 MediaStreamGraphEvent
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -311,7 +311,7 @@ DOMMediaStream
 *
 aMediaStream
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

@@ -171,7 +171,7 @@ EventProxyHandler
 ;
 class
 AudioDestinationNode
-MOZ_FINAL
+final
 :
 public
 AudioNode
@@ -241,7 +241,7 @@ void
 DestroyMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -268,7 +268,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint16_t
@@ -276,8 +276,8 @@ NumberOfOutputs
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 0
@@ -299,7 +299,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Mute
@@ -337,7 +337,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 AudioChannel
 MozAudioChannelType
@@ -360,7 +360,7 @@ void
 NotifyMainThreadStateChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 FireOfflineCompletionEvent
@@ -431,7 +431,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -447,7 +447,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -457,7 +457,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 InputMuted

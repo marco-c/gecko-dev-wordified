@@ -387,7 +387,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginScriptableObjectParent
@@ -395,7 +395,7 @@ PPluginScriptableObjectParent
 AllocPPluginScriptableObjectParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -405,7 +405,7 @@ PPluginScriptableObjectParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -415,7 +415,7 @@ PPluginScriptableObjectParent
 *
 aObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBrowserStreamParent
@@ -442,7 +442,7 @@ nsCString
 &
 headers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -452,7 +452,7 @@ PBrowserStreamParent
 *
 stream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginStreamParent
@@ -471,7 +471,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -481,7 +481,7 @@ PPluginStreamParent
 *
 stream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -494,7 +494,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -508,7 +508,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -522,7 +522,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -535,7 +535,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -549,7 +549,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -562,7 +562,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -576,7 +576,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -590,7 +590,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -604,7 +604,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -618,7 +618,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -632,7 +632,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -650,7 +650,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -676,7 +676,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PStreamNotifyParent
@@ -707,7 +707,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -740,7 +740,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -750,7 +750,7 @@ PStreamNotifyParent
 *
 notifyData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -761,7 +761,7 @@ NPRect
 &
 rect
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -783,7 +783,7 @@ SurfaceDescriptor
 *
 prevSurface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginSurfaceParent
@@ -803,7 +803,7 @@ bool
 &
 transparent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -813,7 +813,7 @@ PPluginSurfaceParent
 *
 s
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -824,14 +824,14 @@ bool
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AnswerNPN_PopPopupsEnabledState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -852,7 +852,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -874,7 +874,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -910,7 +910,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -950,21 +950,21 @@ bool
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRedrawPlugin
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvNegotiatedCarbon
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -975,7 +975,7 @@ NPError
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NPError
 NPP_SetWindow
@@ -1228,7 +1228,7 @@ bool
 &
 gotFocus
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AsyncSetWindow
@@ -1330,7 +1330,7 @@ PluginAsyncSurrogate
 GetAsyncSurrogate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PluginInstanceParent
@@ -1338,7 +1338,7 @@ PluginInstanceParent
 GetInstance
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1430,7 +1430,7 @@ PPluginBackgroundDestroyerParent
 AllocPPluginBackgroundDestroyerParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1440,7 +1440,7 @@ PPluginBackgroundDestroyerParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 InternalGetValueForNPObject

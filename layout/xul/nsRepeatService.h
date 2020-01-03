@@ -144,7 +144,7 @@ nsITimer
 ;
 class
 nsRepeatService
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback

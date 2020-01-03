@@ -170,7 +170,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -852,7 +852,7 @@ aVisibleRegion
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -862,7 +862,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -875,7 +875,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -899,7 +899,7 @@ aDumpHtml
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -916,7 +916,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -926,7 +926,7 @@ TextureHost
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -939,14 +939,14 @@ TextureHost
 *
 aTextureOnWhite
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Lock
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1010,7 +1010,7 @@ void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1046,7 +1046,7 @@ LayerRenderState
 GetRenderState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -1063,7 +1063,7 @@ Filter
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

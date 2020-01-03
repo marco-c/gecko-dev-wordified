@@ -1426,7 +1426,7 @@ copy
 /
 class
 StringResult
-MOZ_FINAL
+final
 :
 public
 AbstractResult
@@ -1538,7 +1538,7 @@ JS
 MutableHandleValue
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1677,7 +1677,7 @@ copy
 /
 class
 TypedArrayResult
-MOZ_FINAL
+final
 :
 public
 AbstractResult
@@ -1774,7 +1774,7 @@ JS
 MutableHandleValue
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2045,7 +2045,7 @@ error
 /
 class
 ErrorEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2396,7 +2396,7 @@ success
 /
 class
 SuccessEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -3196,7 +3196,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3909,7 +3909,7 @@ TypedArray
 /
 class
 DoReadToTypedArrayEvent
-MOZ_FINAL
+final
 :
 public
 AbstractReadEvent
@@ -4035,7 +4035,7 @@ ScopedArrayBufferContents
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4110,7 +4110,7 @@ string
 /
 class
 DoReadToStringEvent
-MOZ_FINAL
+final
 :
 public
 AbstractReadEvent
@@ -4239,7 +4239,7 @@ nsresult
 BeforeRead
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -4371,7 +4371,7 @@ ScopedArrayBufferContents
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

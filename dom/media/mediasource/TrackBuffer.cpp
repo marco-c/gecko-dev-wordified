@@ -489,7 +489,7 @@ TrackBuffer
 class
 MOZ_STACK_CLASS
 DecodersToInitialize
-MOZ_FINAL
+final
 {
 public
 :
@@ -6177,8 +6177,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 mDecoder
 -
@@ -6242,8 +6242,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 /
 /

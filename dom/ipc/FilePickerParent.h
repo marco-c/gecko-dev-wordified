@@ -257,7 +257,7 @@ nsString
 &
 aDisplayDirectory
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -266,7 +266,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 class
 FilePickerShownCallback

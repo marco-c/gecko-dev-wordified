@@ -520,7 +520,7 @@ clipRects
 uint32_t
 numClipRects
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if

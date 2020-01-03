@@ -1661,7 +1661,7 @@ warnings
 .
 class
 RTCLoadInfo
-MOZ_FINAL
+final
 {
 private
 :

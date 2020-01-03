@@ -3764,7 +3764,7 @@ CallOnMessageAvailable
 -
 class
 CallOnMessageAvailable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -3809,7 +3809,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4071,7 +4071,7 @@ CallOnStop
 -
 class
 CallOnStop
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -4109,7 +4109,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4358,7 +4358,7 @@ CallOnServerClose
 -
 class
 CallOnServerClose
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -4403,7 +4403,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4640,7 +4640,7 @@ CallAcknowledge
 -
 class
 CallAcknowledge
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable
@@ -4923,7 +4923,7 @@ CallOnTransportAvailable
 -
 class
 CallOnTransportAvailable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -4969,7 +4969,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 LOG
 (
@@ -7095,7 +7095,7 @@ OutboundEnqueuer
 -
 class
 OutboundEnqueuer
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -7127,7 +7127,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mChannel
 -

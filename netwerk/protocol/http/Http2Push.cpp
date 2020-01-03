@@ -206,7 +206,7 @@ net
 {
 class
 CallChannelOnPush
-MOZ_FINAL
+final
 :
 public
 nsRunnable

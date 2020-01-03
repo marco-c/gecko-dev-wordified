@@ -207,14 +207,14 @@ uint32_t
 ColCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 RowCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -226,7 +226,7 @@ aRowIndex
 uint32_t
 aColumnIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -238,7 +238,7 @@ nsString
 &
 aDescription
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -247,7 +247,7 @@ IsColSelected
 uint32_t
 aColIdx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -256,7 +256,7 @@ IsRowSelected
 uint32_t
 aRowIdx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -267,28 +267,28 @@ aRowIdx
 uint32_t
 aColIdx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 SelectedCellCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 SelectedColCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 SelectedRowCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -302,7 +302,7 @@ Accessible
 *
 aCells
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -315,7 +315,7 @@ uint32_t
 *
 aCells
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -328,7 +328,7 @@ uint32_t
 *
 aCols
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -341,7 +341,7 @@ uint32_t
 *
 aRows
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -350,7 +350,7 @@ SelectRow
 uint32_t
 aRowIdx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -359,7 +359,7 @@ UnselectRow
 uint32_t
 aRowIdx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -367,7 +367,7 @@ Accessible
 AsAccessible
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -382,7 +382,7 @@ TableAccessible
 AsTable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -396,7 +396,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -420,7 +420,7 @@ int32_t
 aRow
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -449,7 +449,7 @@ columns
 /
 class
 XULTreeGridRowAccessible
-MOZ_FINAL
+final
 :
 public
 XULTreeItemAccessibleBase
@@ -503,7 +503,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 a11y
@@ -513,7 +513,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ENameValueFlag
@@ -523,7 +523,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -537,7 +537,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -548,7 +548,7 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -556,7 +556,7 @@ ChildCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -571,8 +571,8 @@ nsITreeColumn
 aColumn
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -583,7 +583,7 @@ aStartColIdx
 int32_t
 aEndColIdx
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -601,7 +601,7 @@ void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -696,7 +696,7 @@ TableCellAccessible
 AsTableCell
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -708,7 +708,7 @@ Bounds
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ENameValueFlag
@@ -718,7 +718,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -726,7 +726,7 @@ Accessible
 FocusedChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -736,7 +736,7 @@ nsIPersistentProperties
 NativeAttributes
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -744,7 +744,7 @@ IndexInParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Relation
@@ -753,7 +753,7 @@ RelationByType
 RelationType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 a11y
@@ -763,14 +763,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -778,7 +778,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -788,7 +788,7 @@ uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -800,7 +800,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -809,7 +809,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -821,7 +821,7 @@ Table
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -829,7 +829,7 @@ ColIdx
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -837,7 +837,7 @@ RowIdx
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -851,7 +851,7 @@ Accessible
 *
 aHeaderCells
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -865,7 +865,7 @@ Accessible
 *
 aCells
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -873,7 +873,7 @@ bool
 Selected
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -935,7 +935,7 @@ aError
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -947,7 +947,7 @@ aContent
 uint32_t
 aActionIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

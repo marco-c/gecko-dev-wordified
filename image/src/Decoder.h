@@ -693,7 +693,7 @@ default
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Decoder
-MOZ_OVERRIDE
+override
 )
 /
 /
@@ -705,7 +705,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

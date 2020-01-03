@@ -1518,7 +1518,7 @@ ChallengeReceived
 .
 class
 nsNTLMSessionState
-MOZ_FINAL
+final
 :
 public
 nsISupports

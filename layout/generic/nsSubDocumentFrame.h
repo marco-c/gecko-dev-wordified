@@ -339,7 +339,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -350,7 +350,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -362,7 +362,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -372,7 +372,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -423,7 +423,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -433,7 +433,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -443,7 +443,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -453,7 +453,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -463,14 +463,14 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -520,7 +520,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -570,7 +570,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -590,7 +590,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -608,7 +608,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -622,7 +622,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -687,7 +687,7 @@ bool
 SupportsVisibilityHidden
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -707,7 +707,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -779,14 +779,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ShouldClipSubdocument
@@ -919,14 +919,14 @@ nscoord
 GetIntrinsicISize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
 GetIntrinsicBSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

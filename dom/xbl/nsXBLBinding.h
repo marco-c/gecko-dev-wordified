@@ -290,7 +290,7 @@ XBLBinding
 class
 class
 nsXBLBinding
-MOZ_FINAL
+final
 {
 public
 :

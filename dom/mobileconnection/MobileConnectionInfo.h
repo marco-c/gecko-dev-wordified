@@ -180,7 +180,7 @@ dom
 {
 class
 MobileConnectionInfo
-MOZ_FINAL
+final
 :
 public
 nsIMobileConnectionInfo
@@ -278,7 +278,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

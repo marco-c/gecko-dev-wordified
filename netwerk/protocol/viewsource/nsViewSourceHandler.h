@@ -117,7 +117,7 @@ h
 "
 class
 nsViewSourceHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

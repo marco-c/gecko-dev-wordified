@@ -383,7 +383,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 *
 aOutput
@@ -562,7 +562,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

@@ -2173,7 +2173,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2253,7 +2253,7 @@ IsVideo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 is_video_
@@ -2316,7 +2316,7 @@ void
 DetachMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 ASSERT_ON_THREAD
 (
@@ -2379,7 +2379,7 @@ TransportInfo
 &
 info
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2671,7 +2671,7 @@ MediaSegment
 &
 queued_media
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2683,7 +2683,7 @@ aGraph
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 {
 }
 /
@@ -2708,7 +2708,7 @@ MediaSegment
 &
 media
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -3289,7 +3289,7 @@ void
 DetachMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 ASSERT_ON_THREAD
 (
@@ -3321,7 +3321,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3329,7 +3329,7 @@ IsVideo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -3459,7 +3459,7 @@ MediaSegment
 &
 queued_media
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -3472,7 +3472,7 @@ graph
 StreamTime
 desired_time
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -3666,7 +3666,7 @@ void
 DetachMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 ASSERT_ON_THREAD
 (
@@ -3770,7 +3770,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3778,7 +3778,7 @@ IsVideo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -3957,7 +3957,7 @@ MediaSegment
 &
 queued_media
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -3970,7 +3970,7 @@ graph
 StreamTime
 desired_time
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

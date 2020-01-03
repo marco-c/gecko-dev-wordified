@@ -158,7 +158,7 @@ h
 "
 class
 xpcTestObjectReadOnly
-MOZ_FINAL
+final
 :
 public
 nsIXPCTestObjectReadOnly
@@ -201,7 +201,7 @@ timeProperty
 ;
 class
 xpcTestObjectReadWrite
-MOZ_FINAL
+final
 :
 public
 nsIXPCTestObjectReadWrite
@@ -247,7 +247,7 @@ timeProperty
 ;
 class
 nsXPCTestParams
-MOZ_FINAL
+final
 :
 public
 nsIXPCTestParams
@@ -271,7 +271,7 @@ nsXPCTestParams
 ;
 class
 nsXPCTestReturnCodeParent
-MOZ_FINAL
+final
 :
 public
 nsIXPCTestReturnCodeParent

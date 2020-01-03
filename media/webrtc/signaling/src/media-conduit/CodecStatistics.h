@@ -198,7 +198,7 @@ unsigned
 int
 bitrate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -215,7 +215,7 @@ VideoCodec
 &
 video_codec
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ unsigned
 int
 bitrate
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReceiveStateChange
@@ -247,7 +247,7 @@ webrtc
 VideoReceiveState
 state
 )
-MOZ_OVERRIDE
+override
 ;
 void
 EndOfCallStats
@@ -262,7 +262,7 @@ const
 int
 video_channel
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -275,7 +275,7 @@ video_channel
 bool
 is_suspended
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -298,7 +298,7 @@ min_playout_delay_ms
 int
 render_delay_ms
 )
-MOZ_OVERRIDE
+override
 {
 }
 bool

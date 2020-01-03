@@ -153,7 +153,7 @@ dom
 {
 class
 CellBroadcast
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -222,7 +222,7 @@ Listener
 ;
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror
@@ -309,7 +309,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 IMPL_EVENT_HANDLER
 (

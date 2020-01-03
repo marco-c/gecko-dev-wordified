@@ -165,7 +165,7 @@ mozilla
 ;
 class
 nsGenConImageContent
-MOZ_FINAL
+final
 :
 public
 nsXMLElement
@@ -268,7 +268,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -279,7 +279,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -287,7 +287,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -297,7 +297,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

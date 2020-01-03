@@ -733,7 +733,7 @@ used
 /
 class
 VolumeManager
-MOZ_FINAL
+final
 :
 public
 MessageLoopForIO

@@ -146,7 +146,7 @@ a11y
 {
 class
 sdnDocAccessible
-MOZ_FINAL
+final
 :
 public
 ISimpleDOMDocument

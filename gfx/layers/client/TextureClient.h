@@ -186,7 +186,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -3319,7 +3319,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTextureClient
 =
@@ -3423,7 +3423,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -3446,7 +3446,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -3459,14 +3459,14 @@ Lock
 OpenMode
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3474,7 +3474,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mLocked
@@ -3493,7 +3493,7 @@ CanExposeDrawTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -3508,7 +3508,7 @@ DrawTarget
 BorrowDrawTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3524,7 +3524,7 @@ aFlags
 =
 ALLOC_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3535,7 +3535,7 @@ TextureClientYCbCr
 AsTextureClientYCbCr
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -3550,7 +3550,7 @@ PlanarYCbCrData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3569,7 +3569,7 @@ aCbCrSize
 StereoMode
 aStereoMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -3580,7 +3580,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFormat
@@ -3661,7 +3661,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -3687,7 +3687,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -3793,7 +3793,7 @@ SurfaceDescriptor
 &
 aDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3802,7 +3802,7 @@ Allocate
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -3811,7 +3811,7 @@ GetBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -3819,7 +3819,7 @@ GetBufferSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3827,7 +3827,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mAllocated
@@ -3839,7 +3839,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -3956,7 +3956,7 @@ SurfaceDescriptor
 &
 aDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3965,7 +3965,7 @@ Allocate
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -3974,7 +3974,7 @@ GetBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mBuffer
@@ -3986,7 +3986,7 @@ GetBufferSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mBufSize
@@ -3998,7 +3998,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mBuffer
@@ -4013,7 +4013,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -4085,7 +4085,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -4097,7 +4097,7 @@ Lock
 (
 OpenMode
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4118,7 +4118,7 @@ void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4136,7 +4136,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsLocked
@@ -4148,7 +4148,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -4163,7 +4163,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 gfx
@@ -4184,7 +4184,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 gfx
@@ -4244,7 +4244,7 @@ TextureFlags
 TextureAllocationFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -4260,7 +4260,7 @@ gfx
 IntSize
 TextureAllocationFlags
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -4289,7 +4289,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

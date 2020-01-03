@@ -1227,7 +1227,7 @@ subDomain
 }
 class
 AppClearDataObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1261,7 +1261,7 @@ char16_t
 *
 data
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1638,7 +1638,7 @@ reused
 /
 class
 CloseDatabaseListener
-MOZ_FINAL
+final
 :
 public
 mozIStorageCompletionCallback
@@ -1858,7 +1858,7 @@ reused
 /
 class
 DeleteFromMozHostListener
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementCallback

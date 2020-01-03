@@ -270,7 +270,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -494,7 +494,7 @@ RootResultVal
 ;
 class
 DOMRequestService
-MOZ_FINAL
+final
 :
 public
 nsIDOMRequestService

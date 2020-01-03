@@ -134,7 +134,7 @@ mozilla
 {
 class
 RtspMediaCodecDecoder
-MOZ_FINAL
+final
 :
 public
 MediaOmxCommonDecoder
@@ -147,7 +147,7 @@ MediaDecoder
 Clone
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 MediaOmxCommonReader
@@ -155,7 +155,7 @@ MediaOmxCommonReader
 CreateReader
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 MediaDecoderStateMachine
@@ -166,7 +166,7 @@ MediaOmxCommonReader
 *
 aReader
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -175,7 +175,7 @@ ApplyStateToStateMachine
 PlayState
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

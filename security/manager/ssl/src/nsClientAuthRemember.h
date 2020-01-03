@@ -237,7 +237,7 @@ entry
 class
 class
 nsClientAuthRememberEntry
-MOZ_FINAL
+final
 :
 public
 PLDHashEntryHdr
@@ -446,7 +446,7 @@ mHostWithCert
 ;
 class
 nsClientAuthRememberService
-MOZ_FINAL
+final
 :
 public
 nsIObserver

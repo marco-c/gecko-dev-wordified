@@ -289,7 +289,7 @@ sClients
 ;
 class
 BluetoothGattClient
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -544,7 +544,7 @@ BluetoothGattManager
 :
 :
 InitGattResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattResultHandler
@@ -570,7 +570,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -609,7 +609,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -802,7 +802,7 @@ BluetoothGattManager
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattResultHandler
@@ -828,7 +828,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -867,7 +867,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBluetoothGattClientInterface
 =
@@ -910,7 +910,7 @@ BluetoothGattManager
 :
 :
 CleanupResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -939,7 +939,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRes
 -
@@ -1075,7 +1075,7 @@ BluetoothGattManager
 :
 :
 RegisterClientResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientResultHandler
@@ -1106,7 +1106,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1234,7 +1234,7 @@ BluetoothGattManager
 :
 :
 UnregisterClientResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientResultHandler
@@ -1263,7 +1263,7 @@ void
 UnregisterClient
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1354,7 +1354,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1553,7 +1553,7 @@ BluetoothGattManager
 :
 :
 ConnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientResultHandler
@@ -1584,7 +1584,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1887,7 +1887,7 @@ BluetoothGattManager
 :
 :
 DisconnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientResultHandler
@@ -1918,7 +1918,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -2174,7 +2174,7 @@ BluetoothGattManager
 :
 :
 ReadRemoteRssiResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientResultHandler
@@ -2205,7 +2205,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (

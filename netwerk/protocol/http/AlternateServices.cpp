@@ -1200,7 +1200,7 @@ svc
 advertisement
 class
 AltSvcTransaction
-MOZ_FINAL
+final
 :
 public
 NullHttpTransaction
@@ -1932,7 +1932,7 @@ Close
 nsresult
 reason
 )
-MOZ_OVERRIDE
+override
 {
 LOG
 (
@@ -2008,7 +2008,7 @@ uint32_t
 *
 countRead
 )
-MOZ_OVERRIDE
+override
 {
 LOG
 (

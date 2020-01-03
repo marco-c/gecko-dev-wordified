@@ -321,14 +321,14 @@ Lock
 OpenMode
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -336,7 +336,7 @@ ImplementsLocking
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -348,7 +348,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -360,7 +360,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -370,7 +370,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -380,7 +380,7 @@ AsyncTransactionTracker
 *
 aTracker
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -391,7 +391,7 @@ aWaitReleaseFence
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 void
 InitWith
@@ -426,7 +426,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -474,7 +474,7 @@ GetBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -485,7 +485,7 @@ DrawTarget
 BorrowDrawTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -501,7 +501,7 @@ aFlags
 =
 ALLOC_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -520,7 +520,7 @@ aCbCrSize
 StereoMode
 aStereoMode
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 AllocateForGLRendering
@@ -565,7 +565,7 @@ Allocate
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -573,7 +573,7 @@ GetBufferSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -654,7 +654,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 TemporaryRef

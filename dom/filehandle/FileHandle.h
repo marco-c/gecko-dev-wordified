@@ -984,7 +984,7 @@ aRv
 ;
 class
 FinishHelper
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

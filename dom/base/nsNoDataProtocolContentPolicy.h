@@ -201,7 +201,7 @@ h
 "
 class
 nsNoDataProtocolContentPolicy
-MOZ_FINAL
+final
 :
 public
 nsIContentPolicy

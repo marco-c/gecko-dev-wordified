@@ -591,7 +591,7 @@ op
 }
 class
 ClearHashtableOnShutdown
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -660,7 +660,7 @@ NS_OK
 }
 class
 CleanupOnContentShutdown
-MOZ_FINAL
+final
 :
 public
 nsIObserver

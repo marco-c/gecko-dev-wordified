@@ -101,7 +101,7 @@ h
 "
 class
 nsIEHistoryEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

@@ -152,7 +152,7 @@ storage
 {
 class
 ResultSet
-MOZ_FINAL
+final
 :
 public
 mozIStorageResultSet

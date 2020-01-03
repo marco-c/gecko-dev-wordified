@@ -397,7 +397,7 @@ values
 /
 class
 GeolocationSetting
-MOZ_FINAL
+final
 {
 public
 :
@@ -695,7 +695,7 @@ settings
 /
 class
 nsGeolocationSettings
-MOZ_FINAL
+final
 :
 public
 nsIObserver

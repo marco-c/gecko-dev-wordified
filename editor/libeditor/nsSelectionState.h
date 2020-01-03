@@ -288,7 +288,7 @@ setting
 ranges
 struct
 nsRangeStore
-MOZ_FINAL
+final
 {
 nsRangeStore
 (

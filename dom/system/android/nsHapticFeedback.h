@@ -100,7 +100,7 @@ h
 "
 class
 nsHapticFeedback
-MOZ_FINAL
+final
 :
 public
 nsIHapticFeedback

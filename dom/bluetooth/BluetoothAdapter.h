@@ -246,14 +246,14 @@ BluetoothNamedValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetAddress
@@ -828,7 +828,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

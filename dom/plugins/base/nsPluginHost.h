@@ -379,7 +379,7 @@ mNext
 ;
 class
 nsPluginHost
-MOZ_FINAL
+final
 :
 public
 nsIPluginHost

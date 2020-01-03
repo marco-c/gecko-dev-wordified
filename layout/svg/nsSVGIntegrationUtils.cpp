@@ -540,7 +540,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 {
 nsRect
 overflow
@@ -3149,7 +3149,7 @@ nsIntRect
 *
 aDirtyRect
 )
-MOZ_OVERRIDE
+override
 {
 BasicLayerManager
 *
@@ -4709,7 +4709,7 @@ gfxMatrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

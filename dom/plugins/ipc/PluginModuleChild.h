@@ -396,7 +396,7 @@ Message
 &
 child
 )
-MOZ_OVERRIDE
+override
 {
 return
 MediateRace
@@ -411,7 +411,7 @@ bool
 ShouldContinueFromReplyTimeout
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -422,7 +422,7 @@ PluginSettings
 &
 aSettings
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -435,7 +435,7 @@ bool
 RecvDisableFlashProtectedMode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -445,7 +445,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -459,7 +459,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -470,7 +470,7 @@ PluginSettings
 &
 aSettings
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -483,7 +483,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -493,7 +493,7 @@ PPluginInstanceChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginModuleChild
@@ -515,7 +515,7 @@ base
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginInstanceChild
@@ -545,7 +545,7 @@ nsCString
 &
 aValues
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -555,7 +555,7 @@ PPluginInstanceChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -587,7 +587,7 @@ nsCString
 &
 aValues
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -597,7 +597,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -613,7 +613,7 @@ bool
 *
 aGetSitesWithData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -635,7 +635,7 @@ NPError
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -648,7 +648,7 @@ nsCString
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -667,7 +667,7 @@ nsString
 &
 aIconPath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -678,7 +678,7 @@ uint32_t
 &
 aSeconds
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCrashReporterChild
@@ -698,7 +698,7 @@ uint32_t
 *
 processType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -708,7 +708,7 @@ PCrashReporterChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -730,7 +730,7 @@ uint32_t
 *
 processType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -739,7 +739,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 MOZ_NORETURN
 void
@@ -752,7 +752,7 @@ bool
 RecvProcessNativeEventsInInterruptCall
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -781,14 +781,14 @@ nsCString
 &
 aThreadNameFilters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStopProfiler
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -798,7 +798,7 @@ nsCString
 *
 aProfile
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -1743,14 +1743,14 @@ void
 EnteredCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ExitedCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 elif
@@ -1763,14 +1763,14 @@ void
 EnteredCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ExitedCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2327,14 +2327,14 @@ void
 EnteredCall
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ExitedCall
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

@@ -147,7 +147,7 @@ NS_GCONFSERVICE_CID
 }
 class
 nsGConfService
-MOZ_FINAL
+final
 :
 public
 nsIGConfService

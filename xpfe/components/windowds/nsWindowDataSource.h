@@ -191,7 +191,7 @@ NS_WINDOWDATASOURCE_CID
 }
 class
 nsWindowDataSource
-MOZ_FINAL
+final
 :
 public
 nsIRDFDataSource

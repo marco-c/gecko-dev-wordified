@@ -473,7 +473,7 @@ pathname
 }
 class
 GonkDiskSpaceWatcher
-MOZ_FINAL
+final
 :
 public
 MessageLoopForIO

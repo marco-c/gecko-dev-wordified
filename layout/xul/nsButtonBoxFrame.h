@@ -169,7 +169,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -188,7 +188,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -224,7 +224,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -284,7 +284,7 @@ void
 UpdateMouseThrough
 (
 )
-MOZ_OVERRIDE
+override
 {
 AddStateBits
 (

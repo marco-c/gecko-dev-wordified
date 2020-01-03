@@ -342,7 +342,7 @@ id
 /
 class
 BluetoothDaemonPDU
-MOZ_FINAL
+final
 :
 public
 UnixSocketIOBuffer
@@ -651,7 +651,7 @@ ConnectionOrientedSocketIO
 GetIO
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

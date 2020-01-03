@@ -187,7 +187,7 @@ dom
 {
 class
 FontFace
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -232,7 +232,7 @@ public
 :
 class
 Entry
-MOZ_FINAL
+final
 :
 public
 gfxUserFontEntry
@@ -295,7 +295,7 @@ SetLoadState
 UserFontLoadState
 aLoadState
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -400,7 +400,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

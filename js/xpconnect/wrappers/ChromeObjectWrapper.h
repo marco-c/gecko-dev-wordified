@@ -266,7 +266,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -320,7 +320,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const

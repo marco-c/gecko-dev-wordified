@@ -1462,7 +1462,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1817,7 +1817,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2081,7 +2081,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -2235,7 +2235,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2329,7 +2329,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2423,7 +2423,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2517,7 +2517,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2611,7 +2611,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2695,7 +2695,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2789,7 +2789,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -2875,7 +2875,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2971,7 +2971,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3373,7 +3373,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper
@@ -3467,7 +3467,7 @@ NS_IMETHOD
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mJSTestWrapper

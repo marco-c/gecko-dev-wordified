@@ -180,7 +180,7 @@ NS_WEBNAVIGATION_INFO_CID
 }
 class
 nsWebNavigationInfo
-MOZ_FINAL
+final
 :
 public
 nsIWebNavigationInfo

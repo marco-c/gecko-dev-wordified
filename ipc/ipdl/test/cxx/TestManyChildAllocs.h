@@ -122,7 +122,7 @@ bool
 RecvDone
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -132,7 +132,7 @@ PTestManyChildAllocsSubParent
 *
 __a
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestManyChildAllocsSubParent
@@ -140,7 +140,7 @@ PTestManyChildAllocsSubParent
 AllocPTestManyChildAllocsSubParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -149,7 +149,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -206,7 +206,7 @@ bool
 RecvGo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,7 +216,7 @@ PTestManyChildAllocsSubChild
 *
 __a
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestManyChildAllocsSubChild
@@ -224,7 +224,7 @@ PTestManyChildAllocsSubChild
 AllocPTestManyChildAllocsSubChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -296,7 +296,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -304,7 +304,7 @@ bool
 RecvHello
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

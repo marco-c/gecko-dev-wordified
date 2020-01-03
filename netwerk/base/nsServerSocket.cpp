@@ -2866,7 +2866,7 @@ namespace
 {
 class
 ServerSocketListenerProxy
-MOZ_FINAL
+final
 :
 public
 nsIServerSocketListener

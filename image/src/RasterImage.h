@@ -1021,7 +1021,7 @@ FLAG_DECODE_NO_COLORSPACE_CONVERSION
 }
 class
 RasterImage
-MOZ_FINAL
+final
 :
 public
 ImageResource
@@ -1076,14 +1076,14 @@ nsresult
 StartAnimation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 StopAnimation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1101,14 +1101,14 @@ aMimeType
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnSurfaceDiscarded
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1170,7 +1170,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -1182,7 +1182,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1770,7 +1770,7 @@ aSourceOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1787,7 +1787,7 @@ aStatus
 bool
 aLastPart
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyForDecodeOnDrawOnly
@@ -3403,7 +3403,7 @@ bool
 ShouldAnimate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 class

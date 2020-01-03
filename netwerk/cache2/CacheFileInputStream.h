@@ -139,7 +139,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkWritten
@@ -150,7 +150,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkAvailable
@@ -163,7 +163,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkUpdated
@@ -172,7 +172,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

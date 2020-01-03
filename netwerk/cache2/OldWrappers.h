@@ -128,7 +128,7 @@ SetExpirationTime
 uint32_t
 expirationTime
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -206,7 +206,7 @@ int64_t
 *
 aPredictedDataSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -229,7 +229,7 @@ SetPredictedDataSize
 int64_t
 aPredictedDataSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -254,7 +254,7 @@ nsISupports
 *
 aSecurityInfo
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -278,7 +278,7 @@ nsISupports
 *
 aSecurityInfo
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -302,7 +302,7 @@ uint32_t
 *
 aStorageDataSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -347,7 +347,7 @@ MarkValid
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -368,7 +368,7 @@ Close
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -396,7 +396,7 @@ char
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -426,7 +426,7 @@ char
 *
 value
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -454,7 +454,7 @@ nsACString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOldInfo
@@ -473,7 +473,7 @@ int32_t
 *
 aFetchCount
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOldInfo
@@ -492,7 +492,7 @@ uint32_t
 *
 aLastFetched
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOldInfo
@@ -511,7 +511,7 @@ uint32_t
 *
 aLastModified
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOldInfo
@@ -530,7 +530,7 @@ uint32_t
 *
 aExpirationTime
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOldInfo
@@ -567,7 +567,7 @@ nsICacheEntryDoomCallback
 *
 listener
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPersistent
@@ -576,7 +576,7 @@ bool
 *
 aPersistToDisk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetIsForcedValid
@@ -585,7 +585,7 @@ bool
 *
 aIsForcedValid
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ForceValidFor
@@ -593,13 +593,13 @@ ForceValidFor
 uint32_t
 aSecondsToTheFuture
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetValid
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -609,7 +609,7 @@ NS_IMETHOD
 MetaDataReady
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -623,7 +623,7 @@ nsICacheEntry
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDataSize
@@ -632,7 +632,7 @@ int64_t
 *
 size
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OpenInputStream
@@ -644,7 +644,7 @@ nsIInputStream
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OpenOutputStream
@@ -656,13 +656,13 @@ nsIOutputStream
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 MaybeMarkValid
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HasWriteAccess
@@ -673,7 +673,7 @@ bool
 *
 aWriteAccess
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 VisitMetaData
@@ -681,7 +681,7 @@ VisitMetaData
 nsICacheEntryMetaDataVisitor
 *
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 _OldCacheEntryWrapper

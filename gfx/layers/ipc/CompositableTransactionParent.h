@@ -131,7 +131,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -379,7 +379,7 @@ IsOnCompositorSide
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true

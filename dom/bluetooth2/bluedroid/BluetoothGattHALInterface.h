@@ -163,7 +163,7 @@ BluetoothHALInterface
 ;
 class
 BluetoothGattClientHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientInterface
@@ -701,7 +701,7 @@ server
 interface
 class
 BluetoothGattHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothGattInterface

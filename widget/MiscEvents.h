@@ -316,7 +316,7 @@ WidgetContentCommandEvent
 AsContentCommandEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -365,7 +365,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -776,7 +776,7 @@ WidgetCommandEvent
 AsCommandEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -821,7 +821,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1123,7 +1123,7 @@ WidgetPluginEvent
 AsPluginEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1160,7 +1160,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /

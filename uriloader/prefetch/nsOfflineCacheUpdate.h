@@ -897,7 +897,7 @@ aUpdate
 ;
 class
 nsOfflineCacheUpdate
-MOZ_FINAL
+final
 :
 public
 nsIOfflineCacheUpdate
@@ -1004,7 +1004,7 @@ nsOfflineCacheUpdate
 *
 aUpdate
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1397,7 +1397,7 @@ mByteProgress
 ;
 class
 nsOfflineCacheUpdateService
-MOZ_FINAL
+final
 :
 public
 nsIOfflineCacheUpdateService
@@ -1485,7 +1485,7 @@ nsOfflineCacheUpdate
 *
 aUpdate
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

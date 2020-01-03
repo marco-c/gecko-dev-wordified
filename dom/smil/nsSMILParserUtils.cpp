@@ -3406,7 +3406,7 @@ nsAString
 &
 aValueStr
 )
-MOZ_OVERRIDE
+override
 {
 nsSMILValue
 newValue

@@ -155,7 +155,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -245,7 +245,7 @@ mIccInfo
 ;
 class
 GsmIccInfo
-MOZ_FINAL
+final
 :
 public
 IccInfo
@@ -295,7 +295,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -330,7 +330,7 @@ mGsmIccInfo
 ;
 class
 CdmaIccInfo
-MOZ_FINAL
+final
 :
 public
 IccInfo
@@ -380,7 +380,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

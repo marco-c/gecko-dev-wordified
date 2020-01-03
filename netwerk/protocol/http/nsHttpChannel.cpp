@@ -40310,7 +40310,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 class
 nsHttpChannelCacheKey
-MOZ_FINAL
+final
 :
 public
 nsISupportsPRUint32
@@ -40356,7 +40356,7 @@ nsACString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSupportsCString
@@ -40376,7 +40376,7 @@ nsACString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSupportsCString

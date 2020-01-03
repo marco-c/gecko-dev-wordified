@@ -562,7 +562,7 @@ pac
 thread
 class
 ExecuteCallback
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -777,7 +777,7 @@ either
 thread
 class
 ShutdownThread
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -850,7 +850,7 @@ down
 .
 class
 WaitForThreadShutdown
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1046,7 +1046,7 @@ executions
 anymore
 class
 PACLoadComplete
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1234,7 +1234,7 @@ PAC
 file
 class
 ExecutePACThreadAction
-MOZ_FINAL
+final
 :
 public
 nsRunnable

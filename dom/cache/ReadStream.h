@@ -364,7 +364,7 @@ optimizations
 .
 class
 ReadStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

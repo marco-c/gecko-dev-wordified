@@ -2528,8 +2528,8 @@ GetResource
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 mResource
@@ -2822,7 +2822,7 @@ void
 NotifyWaitingForResourcesStatusChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3357,7 +3357,7 @@ aGraph
 GraphTime
 aCurrentTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3372,7 +3372,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DoNotifyFinished
@@ -3804,8 +3804,8 @@ int64_t
 GetMediaDuration
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /
@@ -4089,7 +4089,7 @@ aLength
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4165,8 +4165,8 @@ aBytes
 int64_t
 aOffset
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /
@@ -4322,7 +4322,7 @@ SetMediaDuration
 int64_t
 aDuration
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4429,7 +4429,7 @@ UpdateEstimatedMediaDuration
 int64_t
 aDuration
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4448,7 +4448,7 @@ SetMediaSeekable
 bool
 aMediaSeekable
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4481,8 +4481,8 @@ bool
 IsMediaSeekable
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /
@@ -4522,7 +4522,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4604,8 +4604,8 @@ SetMediaEndTime
 int64_t
 aTime
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /
@@ -4914,14 +4914,14 @@ OnStateMachineThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 OnDecodeThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4944,7 +4944,7 @@ ReentrantMonitor
 GetReentrantMonitor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4961,8 +4961,8 @@ IsShutdown
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /
@@ -5034,8 +5034,8 @@ VideoFrameContainer
 GetVideoFrameContainer
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 mVideoFrameContainer
@@ -5049,7 +5049,7 @@ ImageContainer
 GetImageContainer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -5487,7 +5487,7 @@ MetadataTags
 >
 aTags
 )
-MOZ_OVERRIDE
+override
 ;
 int64_t
 GetSeekTime
@@ -5660,7 +5660,7 @@ void
 OnReadMetadataCompleted
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 /
@@ -5707,7 +5707,7 @@ aTags
 MediaDecoderEventVisibility
 aEventVisibility
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -5753,7 +5753,7 @@ aInfo
 MediaDecoderEventVisibility
 aEventVisibility
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -5832,7 +5832,7 @@ void
 RemoveMediaTracks
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -6237,7 +6237,7 @@ MediaDecoderOwner
 GetOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -6342,7 +6342,7 @@ CDMProxy
 *
 aProxy
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -6358,7 +6358,7 @@ CDMProxy
 GetCDMProxy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -7273,7 +7273,7 @@ aDecoded
 uint32_t
 aDropped
 )
-MOZ_OVERRIDE
+override
 {
 GetFrameStatistics
 (

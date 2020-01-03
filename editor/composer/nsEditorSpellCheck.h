@@ -220,7 +220,7 @@ DictionaryFetcher
 ;
 class
 nsEditorSpellCheck
-MOZ_FINAL
+final
 :
 public
 nsIEditorSpellCheck

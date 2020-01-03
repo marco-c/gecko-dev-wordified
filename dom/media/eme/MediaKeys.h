@@ -334,7 +334,7 @@ safe
 !
 class
 MediaKeys
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -400,7 +400,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Bind

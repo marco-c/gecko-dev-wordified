@@ -608,7 +608,7 @@ structure
 /
 class
 nsScriptLoadRequest
-MOZ_FINAL
+final
 :
 public
 nsISupports

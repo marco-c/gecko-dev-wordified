@@ -173,7 +173,7 @@ h
 /
 /
 for
-MOZ_FINAL
+final
 #
 include
 "
@@ -517,7 +517,7 @@ GetObserverService
 ;
 class
 nsFontCache
-MOZ_FINAL
+final
 :
 public
 nsIObserver

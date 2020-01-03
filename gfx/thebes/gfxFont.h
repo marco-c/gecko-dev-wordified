@@ -1926,7 +1926,7 @@ caches
 ;
 class
 gfxFontCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -2234,7 +2234,7 @@ gfxFont
 *
 aFont
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2336,7 +2336,7 @@ protected
 :
 class
 MemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -2366,7 +2366,7 @@ cares
 about
 class
 Observer
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -7785,7 +7785,7 @@ CompressedGlyph
 GetCharacterGlyphs
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 &

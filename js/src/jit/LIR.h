@@ -4914,7 +4914,7 @@ graph
 .
 class
 LPhi
-MOZ_FINAL
+final
 :
 public
 LNode
@@ -5791,8 +5791,8 @@ numDefs
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 Defs
@@ -5805,8 +5805,8 @@ getDef
 size_t
 index
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 &
@@ -5821,8 +5821,8 @@ numTemps
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 Temps
@@ -5835,8 +5835,8 @@ getTemp
 size_t
 index
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 &
@@ -5856,8 +5856,8 @@ LDefinition
 &
 def
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 defs_
 [
@@ -5877,8 +5877,8 @@ LDefinition
 &
 a
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 temps_
 [
@@ -5893,7 +5893,7 @@ numSuccessors
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -5907,7 +5907,7 @@ size_t
 i
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5927,7 +5927,7 @@ MBasicBlock
 *
 successor
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6037,8 +6037,8 @@ numOperands
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 Operands
@@ -6051,8 +6051,8 @@ getOperand
 size_t
 index
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 &
@@ -6072,8 +6072,8 @@ LAllocation
 &
 a
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 operands_
 [
@@ -6138,8 +6138,8 @@ numOperands
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 operands_
@@ -6156,8 +6156,8 @@ getOperand
 size_t
 index
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 &
@@ -6177,8 +6177,8 @@ LAllocation
 &
 a
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 operands_
 [

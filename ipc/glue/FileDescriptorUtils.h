@@ -147,7 +147,7 @@ O
 .
 class
 CloseFileRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

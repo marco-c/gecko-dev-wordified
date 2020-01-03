@@ -147,7 +147,7 @@ h
 "
 class
 nsUUIDGenerator
-MOZ_FINAL
+final
 :
 public
 nsIUUIDGenerator

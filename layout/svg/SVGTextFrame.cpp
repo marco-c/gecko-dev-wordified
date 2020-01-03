@@ -16534,7 +16534,7 @@ DrawTarget
 &
 aDrawTarget
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintDecorationLine
@@ -16544,7 +16544,7 @@ aPath
 nscolor
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintSelectionDecorationLine
@@ -16554,7 +16554,7 @@ aPath
 nscolor
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyBeforeText
@@ -16562,19 +16562,19 @@ NotifyBeforeText
 nscolor
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyGlyphPathEmitted
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyAfterText
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -18789,7 +18789,7 @@ void
 DisableComponentAlpha
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDisableSubpixelAA
 =
@@ -18818,7 +18818,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -18831,7 +18831,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -18841,7 +18841,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap

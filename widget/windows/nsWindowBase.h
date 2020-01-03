@@ -189,7 +189,7 @@ HWND
 GetWindowHandle
 (
 )
-MOZ_FINAL
+final
 {
 return
 static_cast
@@ -541,7 +541,7 @@ PluginHasFocus
 (
 )
 const
-MOZ_FINAL
+final
 {
 return
 (

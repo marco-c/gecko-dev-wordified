@@ -469,7 +469,7 @@ DOM
 /
 class
 CSSRuleListImpl
-MOZ_FINAL
+final
 :
 public
 CSSRuleList
@@ -490,7 +490,7 @@ CSSStyleSheet
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -503,14 +503,14 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 Length
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DropReference

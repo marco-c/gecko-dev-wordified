@@ -174,7 +174,7 @@ dom
 {
 class
 HTMLSharedElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -285,7 +285,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -333,7 +333,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -347,7 +347,7 @@ aName
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -365,7 +365,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -380,7 +380,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -388,7 +388,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -402,7 +402,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -423,7 +423,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1053,7 +1053,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -261,7 +261,7 @@ T
 >
 class
 sp
-MOZ_FINAL
+final
 {
 public
 :
@@ -364,7 +364,7 @@ CAMERA_MSG_COMPRESSED_IMAGE
 ;
 class
 String8
-MOZ_FINAL
+final
 {
 public
 :
@@ -436,7 +436,7 @@ facing
 ;
 class
 Camera
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -670,7 +670,7 @@ delete
 ;
 class
 CameraParameters
-MOZ_FINAL
+final
 {
 public
 :
@@ -1147,7 +1147,7 @@ KEY_LIGHTFX
 ;
 class
 MediaProfiles
-MOZ_FINAL
+final
 {
 public
 :

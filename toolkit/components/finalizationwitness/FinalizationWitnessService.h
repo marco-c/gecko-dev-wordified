@@ -89,7 +89,7 @@ thread
 /
 class
 FinalizationWitnessService
-MOZ_FINAL
+final
 :
 public
 nsIFinalizationWitnessService

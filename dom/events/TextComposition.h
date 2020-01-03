@@ -247,7 +247,7 @@ target
 /
 class
 TextComposition
-MOZ_FINAL
+final
 {
 friend
 class
@@ -1897,7 +1897,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2144,7 +2144,7 @@ itself
 /
 class
 TextCompositionArray
-MOZ_FINAL
+final
 :
 public
 nsAutoTArray

@@ -222,7 +222,7 @@ namespace
 dom
 class
 RestyleManager
-MOZ_FINAL
+final
 {
 public
 :
@@ -1045,7 +1045,7 @@ ReframingStyleContextTable
 class
 MOZ_STACK_CLASS
 ReframingStyleContexts
-MOZ_FINAL
+final
 {
 public
 :
@@ -3335,7 +3335,7 @@ for
 /
 class
 ElementRestyler
-MOZ_FINAL
+final
 {
 public
 :
@@ -4671,7 +4671,7 @@ TreeMatchContext
 class
 MOZ_STACK_CLASS
 AutoDisplayContentsAncestorPusher
-MOZ_FINAL
+final
 {
 public
 :

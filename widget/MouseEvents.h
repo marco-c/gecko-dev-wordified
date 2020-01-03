@@ -856,7 +856,7 @@ WidgetMouseEventBase
 AsMouseEventBase
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -869,7 +869,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -1508,7 +1508,7 @@ WidgetMouseEvent
 AsMouseEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1665,7 +1665,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2111,7 +2111,7 @@ WidgetDragEvent
 AsDragEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2176,7 +2176,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2575,7 +2575,7 @@ WidgetMouseScrollEvent
 AsMouseScrollEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2616,7 +2616,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3010,7 +3010,7 @@ WidgetWheelEvent
 AsWheelEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -3108,7 +3108,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4034,7 +4034,7 @@ WidgetPointerEvent
 AsPointerEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -4172,7 +4172,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

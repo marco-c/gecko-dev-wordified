@@ -141,7 +141,7 @@ class
 /
 class
 nsAuthSASL
-MOZ_FINAL
+final
 :
 public
 nsIAuthModule

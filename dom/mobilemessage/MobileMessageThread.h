@@ -143,7 +143,7 @@ dom
 {
 class
 MobileMessageThread
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozMobileMessageThread

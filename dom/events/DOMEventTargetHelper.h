@@ -336,7 +336,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventListenerManager
@@ -344,7 +344,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 using
 dom
@@ -385,7 +385,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
@@ -640,7 +640,7 @@ nsIDOMWindow
 GetOwnerGlobal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsPIDOMWindow
@@ -770,7 +770,7 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -780,7 +780,7 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1743,7 +1743,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 \
 return
@@ -1768,7 +1768,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 \
 return

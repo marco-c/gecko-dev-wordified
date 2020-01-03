@@ -186,7 +186,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -1352,7 +1352,7 @@ LayerRenderState
 GetRenderState
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 LayerRenderState
@@ -1380,7 +1380,7 @@ nsIntRegion
 *
 aUpdatedRegionBack
 )
-MOZ_OVERRIDE
+override
 {
 NS_ERROR
 (
@@ -1405,7 +1405,7 @@ GetValidLowPrecisionRegion
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mLowPrecisionTiledBuffer
@@ -1422,7 +1422,7 @@ GetValidRegion
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiledBuffer
@@ -1440,7 +1440,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 {
 CompositableHost
 :
@@ -1491,7 +1491,7 @@ SurfaceDescriptorTiles
 &
 aTiledDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Composite
@@ -1529,14 +1529,14 @@ aVisibleRegion
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 CompositableType
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 CompositableType
@@ -1551,7 +1551,7 @@ TiledLayerComposer
 AsTiledLayerComposer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1572,7 +1572,7 @@ aFlags
 =
 NO_FLAGS
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1588,7 +1588,7 @@ aFlags
 =
 NO_FLAGS
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1612,7 +1612,7 @@ aDumpHtml
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1629,7 +1629,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if

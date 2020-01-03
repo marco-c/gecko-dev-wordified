@@ -176,7 +176,7 @@ RTCIdentityProvider
 ;
 class
 RTCIdentityProviderRegistrar
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -227,7 +227,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

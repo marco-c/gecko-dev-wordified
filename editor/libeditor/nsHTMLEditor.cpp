@@ -32684,7 +32684,7 @@ true
 /
 /
 virtual
-MOZ_OVERRIDE
+override
 dom
 :
 :

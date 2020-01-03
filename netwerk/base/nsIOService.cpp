@@ -8247,7 +8247,7 @@ NS_OK
 nsISpeculativeConnect
 class
 IOServiceProxyCallback
-MOZ_FINAL
+final
 :
 public
 nsIProtocolProxyCallback

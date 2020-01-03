@@ -132,7 +132,7 @@ NSColor
 ;
 class
 nsColorPicker
-MOZ_FINAL
+final
 :
 public
 nsIColorPicker
@@ -155,7 +155,7 @@ nsAString
 &
 aInitialColor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Open
@@ -164,7 +164,7 @@ nsIColorPickerShownCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

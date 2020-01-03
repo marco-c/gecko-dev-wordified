@@ -155,7 +155,7 @@ nsAString
 ;
 class
 nsDSURIContentListener
-MOZ_FINAL
+final
 :
 public
 nsIURIContentListener

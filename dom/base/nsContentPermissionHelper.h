@@ -502,7 +502,7 @@ process
 /
 class
 RemotePermissionRequest
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -554,7 +554,7 @@ PermissionChoice
 &
 aChoices
 )
-MOZ_OVERRIDE
+override
 ;
 void
 IPDLAddRef

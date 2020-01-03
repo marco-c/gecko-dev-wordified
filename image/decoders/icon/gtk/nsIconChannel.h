@@ -157,7 +157,7 @@ proxied
 .
 class
 nsIconChannel
-MOZ_FINAL
+final
 :
 public
 nsIChannel

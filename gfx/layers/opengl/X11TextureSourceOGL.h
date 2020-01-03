@@ -178,7 +178,7 @@ X11TextureSourceOGL
 AsSourceOGL
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -190,7 +190,7 @@ IsValid
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -213,7 +213,7 @@ gfx
 Filter
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -224,7 +224,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 GLenum
@@ -232,7 +232,7 @@ GetTextureTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LOCAL_GL_TEXTURE_2D
@@ -247,7 +247,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 GLenum
@@ -255,7 +255,7 @@ GetWrapMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LOCAL_GL_CLAMP_TO_EDGE
@@ -266,7 +266,7 @@ void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -276,7 +276,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 gl
 :

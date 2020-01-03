@@ -227,7 +227,7 @@ nsDirectoryViewerFactory
 ;
 class
 nsHTTPIndex
-MOZ_FINAL
+final
 :
 public
 nsIHTTPIndex

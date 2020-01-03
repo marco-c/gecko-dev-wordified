@@ -201,7 +201,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -219,7 +219,7 @@ gfx
 Filter
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -227,7 +227,7 @@ IsValid
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -246,7 +246,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -257,7 +257,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 GLenum
@@ -265,7 +265,7 @@ GetTextureTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
@@ -277,7 +277,7 @@ GetWrapMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LOCAL_GL_CLAMP_TO_EDGE
@@ -298,7 +298,7 @@ void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -309,7 +309,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 gl
 :
@@ -392,7 +392,7 @@ void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -403,14 +403,14 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Lock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -421,7 +421,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureSource
@@ -429,7 +429,7 @@ TextureSource
 GetTextureSources
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTextureSource
@@ -446,7 +446,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -481,7 +481,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -493,7 +493,7 @@ char
 Name
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "

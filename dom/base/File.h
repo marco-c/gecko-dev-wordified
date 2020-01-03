@@ -341,7 +341,7 @@ OwningArrayBufferOrArrayBufferViewOrBlobOrString
 ;
 class
 File
-MOZ_FINAL
+final
 :
 public
 nsIDOMFile
@@ -987,7 +987,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint64_t
 GetSize
@@ -1810,7 +1810,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1820,7 +1820,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -1830,7 +1830,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1839,7 +1839,7 @@ SetLastModified
 int64_t
 aLastModified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1852,7 +1852,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1865,7 +1865,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -1875,7 +1875,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLength
@@ -1889,7 +1889,7 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1910,7 +1910,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -1930,7 +1930,7 @@ GetSubBlobImpls
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -1945,7 +1945,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1956,7 +1956,7 @@ int64_t
 GetFileId
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1969,7 +1969,7 @@ FileInfo
 *
 aFileInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 indexedDB
@@ -1986,7 +1986,7 @@ FileManager
 *
 aFileManager
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2006,7 +2006,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2017,7 +2017,7 @@ bool
 aMutable
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2026,7 +2026,7 @@ SetMutable
 bool
 aMutable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2045,7 +2045,7 @@ aLength
 uint64_t
 aLastModifiedDate
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -2089,7 +2089,7 @@ IsMemoryFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -2101,7 +2101,7 @@ IsDateUnknown
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsFile
@@ -2119,7 +2119,7 @@ IsFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsFile
@@ -2181,7 +2181,7 @@ IsSizeUnknown
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mLength
@@ -2351,7 +2351,7 @@ careful
 /
 class
 FileImplMemory
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -2466,7 +2466,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2487,7 +2487,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2495,7 +2495,7 @@ IsMemoryFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -2503,7 +2503,7 @@ true
 }
 class
 DataOwner
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -2815,7 +2815,7 @@ mDataOwner
 ;
 class
 FileImplTemporaryFileBlob
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -2877,7 +2877,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2898,7 +2898,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -3562,7 +3562,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3572,7 +3572,7 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -3582,7 +3582,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3591,7 +3591,7 @@ SetLastModified
 int64_t
 aLastModified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3604,7 +3604,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3614,7 +3614,7 @@ nsIInputStream
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetPath
@@ -3900,7 +3900,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3908,7 +3908,7 @@ IsStoredFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mStoredFile
@@ -3920,7 +3920,7 @@ IsWholeFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWholeFile
@@ -3945,7 +3945,7 @@ mIsTemporary
 ;
 class
 FileList
-MOZ_FINAL
+final
 :
 public
 nsIDOMFileList
@@ -3998,7 +3998,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

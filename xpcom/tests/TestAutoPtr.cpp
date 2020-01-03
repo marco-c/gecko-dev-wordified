@@ -337,7 +337,7 @@ Release
 ;
 class
 TestRefObject
-MOZ_FINAL
+final
 :
 public
 TestRefObjectBaseA

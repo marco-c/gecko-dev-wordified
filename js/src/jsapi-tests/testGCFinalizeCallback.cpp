@@ -1017,7 +1017,7 @@ bool
 init
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1048,7 +1048,7 @@ void
 uninit
 (
 )
-MOZ_OVERRIDE
+override
 {
 JS_RemoveFinalizeCallback
 (

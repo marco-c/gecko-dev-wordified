@@ -192,7 +192,7 @@ bool
 IsSpaceLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_MATHML_IS_SPACE_LIKE
@@ -210,7 +210,7 @@ nsBoundingMetrics
 &
 aBoundingMetrics
 )
-MOZ_OVERRIDE
+override
 {
 aBoundingMetrics
 =
@@ -228,7 +228,7 @@ nsBoundingMetrics
 &
 aBoundingMetrics
 )
-MOZ_OVERRIDE
+override
 {
 mBoundingMetrics
 =
@@ -246,7 +246,7 @@ nsPoint
 &
 aReference
 )
-MOZ_OVERRIDE
+override
 {
 mReference
 =
@@ -261,7 +261,7 @@ eMathMLFrameType
 GetMathMLFrameType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Stretch
@@ -278,7 +278,7 @@ nsHTMLReflowMetrics
 &
 aDesiredStretchSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -291,7 +291,7 @@ nsEmbellishData
 &
 aEmbellishData
 )
-MOZ_OVERRIDE
+override
 {
 aEmbellishData
 =
@@ -308,7 +308,7 @@ nsPresentationData
 &
 aPresentationData
 )
-MOZ_OVERRIDE
+override
 {
 aPresentationData
 =
@@ -325,13 +325,13 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -345,7 +345,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -359,7 +359,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -372,7 +372,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -382,7 +382,7 @@ bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false

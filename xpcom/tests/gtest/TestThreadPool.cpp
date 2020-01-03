@@ -188,7 +188,7 @@ h
 "
 class
 Task
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -213,7 +213,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (

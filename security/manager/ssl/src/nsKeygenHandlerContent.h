@@ -150,7 +150,7 @@ nsIDOMHTMLElement
 ;
 class
 nsKeygenFormProcessorContent
-MOZ_FINAL
+final
 :
 public
 nsIFormProcessor
@@ -176,7 +176,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -202,7 +202,7 @@ nsAString
 &
 aNewValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -222,7 +222,7 @@ nsAString
 &
 aAttribute
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS
 protected

@@ -167,7 +167,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -223,14 +223,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -245,7 +245,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -297,7 +297,7 @@ RelationByType
 RelationType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -316,7 +316,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -368,7 +368,7 @@ RelationByType
 RelationType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

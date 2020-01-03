@@ -144,7 +144,7 @@ dom
 {
 class
 ImageDocument
-MOZ_FINAL
+final
 :
 public
 MediaDocument
@@ -167,7 +167,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -200,7 +200,7 @@ aSink
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -210,14 +210,14 @@ nsIScriptGlobalObject
 *
 aScriptGlobalObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -229,7 +229,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIIMAGEDOCUMENT
 NS_DECL_IMGINOTIFICATIONOBSERVER
@@ -243,7 +243,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -287,7 +287,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ImageResizingEnabled
@@ -375,7 +375,7 @@ nsresult
 CreateSyntheticDocument
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CheckOverflowing

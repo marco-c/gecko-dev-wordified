@@ -256,7 +256,7 @@ PCacheResponseOrVoid
 ;
 class
 CacheStorage
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -443,7 +443,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -457,14 +457,14 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -563,7 +563,7 @@ GetGlobalObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -574,7 +574,7 @@ AssertOwningThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -601,7 +601,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -622,7 +622,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

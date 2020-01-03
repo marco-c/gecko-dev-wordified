@@ -142,7 +142,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 a11y
@@ -152,14 +152,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -167,7 +167,7 @@ NativeLinkState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -175,7 +175,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -185,7 +185,7 @@ uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -197,7 +197,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -206,7 +206,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -216,7 +216,7 @@ bool
 IsLink
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -228,7 +228,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

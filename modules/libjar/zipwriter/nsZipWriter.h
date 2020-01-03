@@ -215,7 +215,7 @@ mPermissions
 ;
 class
 nsZipWriter
-MOZ_FINAL
+final
 :
 public
 nsIZipWriter

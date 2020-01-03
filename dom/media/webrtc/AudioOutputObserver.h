@@ -151,7 +151,7 @@ aFrames
 uint32_t
 aSampleRate
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Clear

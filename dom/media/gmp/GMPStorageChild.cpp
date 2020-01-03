@@ -1389,7 +1389,7 @@ uint32_t
 *
 aOutNameLength
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1454,7 +1454,7 @@ GMPErr
 NextRecord
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1493,7 +1493,7 @@ void
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this

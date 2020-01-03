@@ -178,7 +178,7 @@ URLProxy
 ;
 class
 URL
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -662,7 +662,7 @@ URLSearchParams
 *
 aSearchParams
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -514,7 +514,7 @@ public
 :
 class
 nsListener
-MOZ_FINAL
+final
 :
 public
 nsIDNSListener
@@ -554,7 +554,7 @@ nsListener
 ;
 class
 nsDeferrals
-MOZ_FINAL
+final
 :
 public
 nsIWebProgressListener

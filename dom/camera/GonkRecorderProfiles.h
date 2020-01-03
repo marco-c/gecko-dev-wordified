@@ -235,7 +235,7 @@ GetAudio
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mAudio
@@ -249,7 +249,7 @@ GetVideo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mVideo

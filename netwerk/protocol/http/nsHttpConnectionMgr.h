@@ -3291,7 +3291,7 @@ a
 connection
 class
 nsHalfOpenSocket
-MOZ_FINAL
+final
 :
 public
 nsIOutputStreamCallback

@@ -5102,7 +5102,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5129,7 +5129,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast
@@ -5166,7 +5166,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 LAYER_ACTIVE
@@ -5319,7 +5319,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5346,7 +5346,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast
@@ -5383,7 +5383,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 LAYER_ACTIVE

@@ -388,7 +388,7 @@ mNickname
 ;
 class
 LocalCertGetTask
-MOZ_FINAL
+final
 :
 public
 LocalCertTask
@@ -434,7 +434,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1769,7 +1769,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -1779,7 +1779,7 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
+override
 {
 (
 void
@@ -1813,7 +1813,7 @@ out
 ;
 class
 LocalCertRemoveTask
-MOZ_FINAL
+final
 :
 public
 LocalCertTask
@@ -1855,7 +1855,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 RemoveExisting
@@ -1868,7 +1868,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -1878,7 +1878,7 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
+override
 {
 (
 void

@@ -286,7 +286,7 @@ endif
 endif
 class
 nsPluginInstanceOwner
-MOZ_FINAL
+final
 :
 public
 nsIPluginInstanceOwner
@@ -326,7 +326,7 @@ aHeadersData
 uint32_t
 aHeadersDataLen
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ShowStatus
@@ -336,7 +336,7 @@ char16_t
 *
 aStatusMsg
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -364,7 +364,7 @@ void
 *
 event
 )
-MOZ_OVERRIDE
+override
 ;
 NPBool
 ConvertPoint
@@ -384,7 +384,7 @@ destY
 NPCoordinateSpace
 destSpace
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2058,7 +2058,7 @@ clipRects
 uint32_t
 numClipRects
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

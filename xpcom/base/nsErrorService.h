@@ -152,7 +152,7 @@ h
 "
 class
 nsErrorService
-MOZ_FINAL
+final
 :
 public
 nsIErrorService

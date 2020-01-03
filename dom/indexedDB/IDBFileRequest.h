@@ -187,7 +187,7 @@ IDBFileHandle
 ;
 class
 IDBFileRequest
-MOZ_FINAL
+final
 :
 public
 DOMRequest
@@ -230,7 +230,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -244,7 +244,7 @@ aProgress
 uint64_t
 aProgressMax
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -254,7 +254,7 @@ FileHelper
 *
 aFileHelper
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -277,7 +277,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

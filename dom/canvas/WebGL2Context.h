@@ -164,7 +164,7 @@ IsWebGL2
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -267,7 +267,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3152,7 +3152,7 @@ target
 GLenum
 pname
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ValidateSizedInternalFormat
@@ -3202,7 +3202,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3215,7 +3215,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3228,7 +3228,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3244,7 +3244,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

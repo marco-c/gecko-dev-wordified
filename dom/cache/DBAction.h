@@ -313,7 +313,7 @@ QuotaInfo
 &
 aQuotaInfo
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 OpenConnection
@@ -417,7 +417,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -479,7 +479,7 @@ mMinimizeMemoryUsage
 ;
 class
 GCAndCCLogDumpRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -519,7 +519,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -571,7 +571,7 @@ aCCLog
 bool
 aIsParent
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -581,7 +581,7 @@ NS_IMETHOD
 OnFinish
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -1824,7 +1824,7 @@ away
 .
 class
 nsDumpGCAndCCLogsCallbackHolder
-MOZ_FINAL
+final
 :
 public
 nsIDumpGCAndCCLogsCallback
@@ -1850,7 +1850,7 @@ NS_IMETHODIMP
 OnFinish
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_UNEXPECTED
@@ -1868,7 +1868,7 @@ aCCLog
 bool
 aIsParent
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCallback
@@ -2491,7 +2491,7 @@ class
 .
 class
 HandleReportAndFinishReportingCallbacks
-MOZ_FINAL
+final
 :
 public
 nsIHandleReportCallback
@@ -2567,7 +2567,7 @@ nsISupports
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 nsAutoCString
 process
@@ -2882,7 +2882,7 @@ nsISupports
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 mWriter
 -
@@ -3068,7 +3068,7 @@ nsIFinishReportingCallback
 )
 class
 TempDirFinishCallback
-MOZ_FINAL
+final
 :
 public
 nsIFinishDumpingCallback
@@ -3104,7 +3104,7 @@ nsISupports
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

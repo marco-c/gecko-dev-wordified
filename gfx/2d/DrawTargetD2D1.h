@@ -198,7 +198,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 DrawTargetType

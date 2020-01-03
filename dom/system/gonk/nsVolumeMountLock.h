@@ -172,7 +172,7 @@ PC
 /
 class
 nsVolumeMountLock
-MOZ_FINAL
+final
 :
 public
 nsIVolumeMountLock

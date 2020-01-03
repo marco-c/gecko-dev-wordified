@@ -9087,7 +9087,7 @@ ScrollFrameHelper
 :
 :
 AsyncSmoothMSDScroll
-MOZ_FINAL
+final
 :
 public
 nsARefreshObserver
@@ -9186,7 +9186,7 @@ nullptr
 NS_INLINE_DECL_REFCOUNTING
 (
 AsyncSmoothMSDScroll
-MOZ_OVERRIDE
+override
 )
 nsSize
 GetVelocity
@@ -9510,7 +9510,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -9818,7 +9818,7 @@ ScrollFrameHelper
 :
 :
 AsyncScroll
-MOZ_FINAL
+final
 :
 public
 nsARefreshObserver
@@ -10292,7 +10292,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 AsyncScroll
-MOZ_OVERRIDE
+override
 )
 /
 *
@@ -10402,7 +10402,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -11708,7 +11708,7 @@ false
 }
 class
 ScrollFrameActivityTracker
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -17331,7 +17331,7 @@ nsDisplayList
 *
 aList
 )
-MOZ_OVERRIDE
+override
 {
 SetCount
 (
@@ -17367,7 +17367,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 {
 SetCount
 (
@@ -34297,7 +34297,7 @@ AddHorizontalEdge
 nscoord
 aEdge
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -34306,7 +34306,7 @@ AddVerticalEdge
 nscoord
 aEdge
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -34321,7 +34321,7 @@ aInterval
 nscoord
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -34336,7 +34336,7 @@ aInterval
 nscoord
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddEdge

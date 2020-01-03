@@ -203,7 +203,7 @@ m_dragDrop
 /
 class
 nsNativeDragTarget
-MOZ_FINAL
+final
 :
 public
 IDropTarget

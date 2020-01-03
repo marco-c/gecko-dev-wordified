@@ -182,7 +182,7 @@ ContentParent
 ;
 class
 MmsMessage
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozMmsMessage
@@ -206,7 +206,7 @@ well
 .
 struct
 Attachment
-MOZ_FINAL
+final
 {
 nsRefPtr
 <

@@ -246,7 +246,7 @@ JSObject
 >
 aTargetClassObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -275,7 +275,7 @@ JSObject
 >
 aClassObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -289,7 +289,7 @@ void
 *
 aClosure
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Read
@@ -309,7 +309,7 @@ nsIObjectOutputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

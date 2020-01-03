@@ -207,7 +207,7 @@ addrefed
 /
 class
 FinalizationEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

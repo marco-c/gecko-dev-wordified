@@ -2474,7 +2474,7 @@ implementation
 /
 class
 SurfaceCacheImpl
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -4948,7 +4948,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -5392,7 +5392,7 @@ CachedSurface
 *
 aSurface
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5442,7 +5442,7 @@ const
 char16_t
 *
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

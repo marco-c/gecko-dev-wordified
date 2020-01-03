@@ -356,7 +356,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -380,7 +380,7 @@ layers
 MaybeMagicGrallocBufferHandle
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -397,7 +397,7 @@ MaybeMagicGrallocBufferHandle
 &
 handle
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -465,7 +465,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 MessageLoop
 *

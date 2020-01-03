@@ -2596,7 +2596,7 @@ WorkerScopeUnregisterRunnable
 ;
 class
 UnregisterResultRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -2666,7 +2666,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2686,7 +2686,7 @@ mValue
 ;
 class
 WorkerScopeUnregisterRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2852,7 +2852,7 @@ UnregisterSucceeded
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -2892,7 +2892,7 @@ NS_IMETHODIMP
 UnregisterFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -2973,7 +2973,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -3093,7 +3093,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 mWorkerPrivate
 -
@@ -3332,7 +3332,7 @@ namespace
 {
 class
 UpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

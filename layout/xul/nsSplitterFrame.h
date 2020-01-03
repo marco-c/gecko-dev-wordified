@@ -162,7 +162,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -176,7 +176,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -209,7 +209,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -242,7 +242,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoLayout
@@ -251,7 +251,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandlePress
@@ -269,7 +269,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleMultiplePress
@@ -289,7 +289,7 @@ aEventStatus
 bool
 aControlHeld
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleDrag
@@ -307,7 +307,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleRelease
@@ -325,7 +325,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -344,7 +344,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -362,7 +362,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -372,7 +372,7 @@ bool
 &
 aIsHorizontal
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

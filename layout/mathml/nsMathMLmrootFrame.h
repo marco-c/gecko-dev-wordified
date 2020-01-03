@@ -172,7 +172,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsStyleContext
@@ -183,7 +183,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -199,13 +199,13 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetRadicalXOffsets
@@ -256,7 +256,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -274,7 +274,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 uint8_t
 ScriptIncrement
@@ -283,7 +283,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 {
 return
 (

@@ -193,7 +193,7 @@ uint32_t
 *
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRect
@@ -211,7 +211,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRectDisplayPix
@@ -229,7 +229,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAvailRect
@@ -247,7 +247,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAvailRectDisplayPix
@@ -265,7 +265,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPixelDepth
@@ -274,7 +274,7 @@ int32_t
 *
 aPixelDepth
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetColorDepth
@@ -283,7 +283,7 @@ int32_t
 *
 aColorDepth
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

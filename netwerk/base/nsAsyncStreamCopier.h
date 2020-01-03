@@ -183,7 +183,7 @@ nsIRequestObserver
 -
 class
 nsAsyncStreamCopier
-MOZ_FINAL
+final
 :
 public
 nsIAsyncStreamCopier
@@ -234,7 +234,7 @@ aCloseSource
 bool
 aCloseSink
 )
-MOZ_OVERRIDE
+override
 ;
 nsAsyncStreamCopier
 (

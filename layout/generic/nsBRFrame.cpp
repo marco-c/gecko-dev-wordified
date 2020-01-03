@@ -218,7 +218,7 @@ CalcContentOffsetsFromFramePoint
 nsPoint
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -230,7 +230,7 @@ int32_t
 *
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -246,7 +246,7 @@ aRespectClusters
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -265,7 +265,7 @@ PeekWordState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -285,7 +285,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -298,7 +298,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -311,7 +311,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -321,7 +321,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -331,7 +331,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -340,7 +340,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -353,7 +353,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -363,7 +363,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsFrame
@@ -402,7 +402,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

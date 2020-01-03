@@ -144,7 +144,7 @@ cellbroadcast
 {
 class
 CellBroadcastIPCService
-MOZ_FINAL
+final
 :
 public
 PCellBroadcastChild
@@ -220,7 +220,7 @@ bool
 &
 aEtwsPopup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -229,13 +229,13 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

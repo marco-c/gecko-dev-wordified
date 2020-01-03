@@ -225,7 +225,7 @@ InputStreamParams
 FileDescriptorArray
 &
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -248,7 +248,7 @@ const
 FileDescriptorArray
 &
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -276,7 +276,7 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -312,7 +312,7 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -352,7 +352,7 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -398,7 +398,7 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-MOZ_OVERRIDE
+override
 \
 {
 \

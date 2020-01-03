@@ -2525,7 +2525,7 @@ succeed
 /
 class
 DrawableFrameRef
-MOZ_FINAL
+final
 {
 public
 :
@@ -2885,7 +2885,7 @@ holds
 /
 class
 RawAccessFrameRef
-MOZ_FINAL
+final
 {
 public
 :

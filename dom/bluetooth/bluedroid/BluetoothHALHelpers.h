@@ -4200,7 +4200,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -4308,7 +4308,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -4447,7 +4447,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -4661,7 +4661,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4956,7 +4956,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5320,7 +5320,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5740,7 +5740,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6216,7 +6216,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6748,7 +6748,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

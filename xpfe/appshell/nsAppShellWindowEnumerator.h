@@ -284,7 +284,7 @@ nsISupports
 *
 retval
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -295,7 +295,7 @@ bool
 *
 retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS
 protected

@@ -153,7 +153,7 @@ h
 "
 class
 nsRunner
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -171,7 +171,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -403,7 +403,7 @@ here
 }
 class
 nsStressRunner
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -415,7 +415,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 EXPECT_FALSE
 (

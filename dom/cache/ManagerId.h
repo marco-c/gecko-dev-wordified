@@ -184,7 +184,7 @@ cache
 {
 class
 ManagerId
-MOZ_FINAL
+final
 {
 public
 :
@@ -204,7 +204,7 @@ values
 class
 MOZ_STACK_CLASS
 Comparator
-MOZ_FINAL
+final
 {
 public
 :

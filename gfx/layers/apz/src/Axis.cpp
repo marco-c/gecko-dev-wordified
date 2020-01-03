@@ -219,7 +219,7 @@ h
 /
 /
 for
-MOZ_FINAL
+final
 #
 include
 "

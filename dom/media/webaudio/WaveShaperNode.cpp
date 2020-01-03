@@ -760,7 +760,7 @@ float
 &
 aCurve
 )
-MOZ_OVERRIDE
+override
 {
 mCurve
 .
@@ -779,7 +779,7 @@ aIndex
 int32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -1044,7 +1044,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 uint32_t
 channelCount
@@ -1345,7 +1345,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -1390,7 +1390,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

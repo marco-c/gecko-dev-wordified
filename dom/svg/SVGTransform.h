@@ -223,7 +223,7 @@ h
 /
 class
 SVGTransform
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -743,7 +743,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 Type

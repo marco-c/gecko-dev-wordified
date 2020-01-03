@@ -101,7 +101,7 @@ h
 "
 class
 nsUrlClassifierUtils
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierUtils

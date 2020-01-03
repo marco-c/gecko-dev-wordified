@@ -185,7 +185,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 UDPSocketChild
 (
@@ -206,14 +206,14 @@ UDPAddressInfo
 &
 aAddressInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvCallbackClosed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ uint8_t
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -250,7 +250,7 @@ uint32_t
 &
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

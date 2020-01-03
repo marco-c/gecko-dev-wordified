@@ -504,7 +504,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 android
 :
@@ -548,7 +548,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GrallocImage
@@ -556,7 +556,7 @@ GrallocImage
 AsGrallocImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

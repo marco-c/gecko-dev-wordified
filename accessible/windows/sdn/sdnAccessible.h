@@ -155,7 +155,7 @@ a11y
 {
 class
 sdnAccessible
-MOZ_FINAL
+final
 :
 public
 ISimpleDOMNode

@@ -700,7 +700,7 @@ FrameMetrics
 &
 aFrameMetrics
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -760,7 +760,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -867,7 +867,7 @@ uint32_t
 &
 aScrollGeneration
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -973,7 +973,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1081,7 +1081,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1198,7 +1198,7 @@ aGuid
 uint64_t
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1318,7 +1318,7 @@ CSSSize
 &
 aContentSize
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1403,7 +1403,7 @@ aTask
 int
 aDelayMs
 )
-MOZ_OVERRIDE
+override
 {
 MessageLoop
 :
@@ -1429,7 +1429,7 @@ ZoomConstraints
 *
 aOutConstraints
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1457,7 +1457,7 @@ CSSRect
 *
 aOutRegion
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1502,7 +1502,7 @@ aChange
 int
 aArg
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -385,7 +385,7 @@ level
 /
 class
 nsSMILAnimationController
-MOZ_FINAL
+final
 :
 public
 nsSMILTimeContainer
@@ -435,7 +435,7 @@ Pause
 uint32_t
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -444,7 +444,7 @@ Resume
 uint32_t
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILTime
@@ -452,7 +452,7 @@ GetParentTime
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -464,7 +464,7 @@ MozExternalRefCountType
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -473,7 +473,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -485,7 +485,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -942,7 +942,7 @@ void
 DoSample
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DoSample
@@ -1128,7 +1128,7 @@ nsSMILTimeContainer
 &
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1138,7 +1138,7 @@ nsSMILTimeContainer
 &
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 void
 FlagDocumentNeedsFlush

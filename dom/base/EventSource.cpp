@@ -2951,7 +2951,7 @@ EventSource
 /
 class
 AsyncVerifyRedirectCallbackFwr
-MOZ_FINAL
+final
 :
 public
 nsIAsyncVerifyRedirectCallback
@@ -2987,7 +2987,7 @@ OnRedirectVerifyCallback
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv

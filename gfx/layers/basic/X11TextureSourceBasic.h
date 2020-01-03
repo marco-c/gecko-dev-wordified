@@ -173,7 +173,7 @@ X11TextureSourceBasic
 AsSourceBasic
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -188,7 +188,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -199,7 +199,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -216,14 +216,14 @@ DrawTarget
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -234,7 +234,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 static
 gfx

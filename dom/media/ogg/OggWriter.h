@@ -215,7 +215,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetContainerData
@@ -234,7 +234,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -255,7 +255,7 @@ TrackMetadataBase
 *
 aMetadata
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

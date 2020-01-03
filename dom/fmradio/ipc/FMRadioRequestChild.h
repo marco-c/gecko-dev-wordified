@@ -148,7 +148,7 @@ FMRadioReplyRunnable
 ;
 class
 FMRadioRequestChild
-MOZ_FINAL
+final
 :
 public
 PFMRadioRequestChild
@@ -176,7 +176,7 @@ FMRadioResponseType
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

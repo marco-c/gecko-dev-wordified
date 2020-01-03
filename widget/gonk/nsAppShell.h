@@ -291,7 +291,7 @@ NS_IMETHOD
 Exit
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool

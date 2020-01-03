@@ -214,7 +214,7 @@ bool
 sessionFallback
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -228,7 +228,7 @@ bool
 sessionFallback
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -238,7 +238,7 @@ SdpAttribute
 *
 attr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -247,14 +247,14 @@ RemoveAttribute
 AttributeType
 type
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -264,7 +264,7 @@ GetConnection
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -274,7 +274,7 @@ GetFingerprint
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -284,7 +284,7 @@ GetGroup
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -294,7 +294,7 @@ GetIceOptions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -304,7 +304,7 @@ GetRtcp
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -314,7 +314,7 @@ GetRemoteCandidates
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -324,7 +324,7 @@ GetSetup
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -334,7 +334,7 @@ GetSsrc
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -344,7 +344,7 @@ GetSsrcGroup
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -384,7 +384,7 @@ GetCandidate
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -394,7 +394,7 @@ GetExtmap
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -404,7 +404,7 @@ GetFmtp
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -414,7 +414,7 @@ GetImageattr
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -424,7 +424,7 @@ GetMsid
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -434,7 +434,7 @@ GetRtcpFb
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -444,7 +444,7 @@ GetRtpmap
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -454,7 +454,7 @@ GetSctpmap
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -490,7 +490,7 @@ GetIcePwd
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -503,7 +503,7 @@ GetIceUfrag
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -516,7 +516,7 @@ GetIdentity
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -529,7 +529,7 @@ GetLabel
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 unsigned
@@ -538,7 +538,7 @@ GetMaxptime
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -551,7 +551,7 @@ GetMid
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -561,7 +561,7 @@ GetMsidSemantic
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 unsigned
@@ -570,7 +570,7 @@ GetPtime
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpDirectionAttribute
@@ -581,7 +581,7 @@ GetDirection
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -594,7 +594,7 @@ ostream
 &
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~

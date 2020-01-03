@@ -194,7 +194,7 @@ MFTDecoder
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 HRESULT
@@ -207,7 +207,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -261,14 +261,14 @@ MediaData
 &
 aOutput
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

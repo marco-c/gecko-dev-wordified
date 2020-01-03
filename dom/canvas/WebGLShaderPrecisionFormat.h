@@ -114,7 +114,7 @@ WebGLBuffer
 ;
 class
 WebGLShaderPrecisionFormat
-MOZ_FINAL
+final
 :
 public
 WebGLContextBoundObject

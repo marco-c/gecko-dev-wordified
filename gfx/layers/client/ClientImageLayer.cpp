@@ -137,7 +137,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -353,7 +353,7 @@ ImageContainer
 *
 aContainer
 )
-MOZ_OVERRIDE
+override
 {
 ImageLayer
 :
@@ -380,7 +380,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -417,14 +417,14 @@ void
 RenderLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 DestroyBackBuffer
 (
@@ -439,7 +439,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 {
 aAttrs
 =
@@ -457,7 +457,7 @@ Layer
 AsLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -469,7 +469,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -480,7 +480,7 @@ void
 Disconnect
 (
 )
-MOZ_OVERRIDE
+override
 {
 DestroyBackBuffer
 (
@@ -523,7 +523,7 @@ CompositableClient
 GetCompositableClient
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mImageClient

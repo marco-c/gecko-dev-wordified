@@ -250,7 +250,7 @@ listbox
 /
 class
 nsListControlFrame
-MOZ_FINAL
+final
 :
 public
 nsHTMLScrollFrame
@@ -298,7 +298,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -310,7 +310,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -320,7 +320,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -330,7 +330,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -350,7 +350,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -366,7 +366,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -382,7 +382,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -392,7 +392,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -410,7 +410,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -418,7 +418,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -448,7 +448,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -458,7 +458,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsHTMLScrollFrame
@@ -495,7 +495,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -514,7 +514,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -529,7 +529,7 @@ aRepaint
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -540,7 +540,7 @@ GetScrollbarStyles
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -548,7 +548,7 @@ ShouldPropagateComputedHeightToScrolledContent
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -569,7 +569,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -584,14 +584,14 @@ nsIFrame
 *
 aComboboxFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetSelectedIndex
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -605,7 +605,7 @@ HTMLOptionElement
 GetCurrentOption
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -661,7 +661,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -670,28 +670,28 @@ CaptureMouseEvents
 bool
 aGrabMouseEvents
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
 GetHeightOfARow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetNumberOfOptions
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 AboutToDropDown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -717,7 +717,7 @@ void
 AboutToRollup
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -751,7 +751,7 @@ void
 FireOnChange
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -790,14 +790,14 @@ ComboboxFinish
 int32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnContentReset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -808,7 +808,7 @@ AddOption
 int32_t
 index
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RemoveOption
@@ -816,7 +816,7 @@ RemoveOption
 int32_t
 index
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoneAddingChildren
@@ -824,7 +824,7 @@ DoneAddingChildren
 bool
 aIsDone
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -861,7 +861,7 @@ aIndex
 bool
 aSelected
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetSelectedIndex
@@ -871,7 +871,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1329,7 +1329,7 @@ bool
 NeedsView
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 IsInDropDownMode

@@ -255,7 +255,7 @@ get
 }
 class
 TestObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

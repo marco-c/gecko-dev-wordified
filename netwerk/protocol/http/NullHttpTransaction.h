@@ -255,8 +255,8 @@ bool
 IsNullTransaction
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 true
@@ -267,8 +267,8 @@ NullHttpTransaction
 QueryNullTransaction
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 this
@@ -279,8 +279,8 @@ ResponseTimeoutEnabled
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 true
@@ -290,8 +290,8 @@ PRIntervalTime
 ResponseTimeout
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 PR_SecondsToInterval

@@ -211,7 +211,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -252,7 +252,7 @@ MozExternalRefCountType
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -263,7 +263,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -294,7 +294,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCssText
@@ -304,7 +304,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPropertyValue
@@ -317,7 +317,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -343,7 +343,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsICSSDeclaration
@@ -362,7 +362,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPropertyPriority
@@ -375,7 +375,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetProperty
@@ -393,7 +393,7 @@ nsAString
 &
 priority
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLength
@@ -402,7 +402,7 @@ uint32_t
 *
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetParentRule
@@ -412,7 +412,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -614,7 +614,7 @@ nsAString
 &
 aPropName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -634,7 +634,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

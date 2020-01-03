@@ -149,7 +149,7 @@ a11y
 {
 class
 ServiceProvider
-MOZ_FINAL
+final
 :
 public
 IServiceProvider

@@ -226,7 +226,7 @@ AnimationPlayer
 aPlayer
 )
 \
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -247,7 +247,7 @@ AnimationPlayer
 aPlayer
 )
 \
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -268,7 +268,7 @@ AnimationPlayer
 aPlayer
 )
 \
-MOZ_OVERRIDE
+override
 ;
 #
 define

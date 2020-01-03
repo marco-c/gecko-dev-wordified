@@ -507,7 +507,7 @@ mContentActive
 ;
 class
 LayerActivityTracker
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker

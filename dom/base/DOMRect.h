@@ -263,7 +263,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -437,7 +437,7 @@ mParent
 ;
 class
 DOMRect
-MOZ_FINAL
+final
 :
 public
 DOMRectReadOnly
@@ -552,7 +552,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetRect
@@ -599,7 +599,7 @@ X
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mX
@@ -611,7 +611,7 @@ Y
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mY
@@ -623,7 +623,7 @@ Width
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWidth
@@ -635,7 +635,7 @@ Height
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHeight
@@ -710,7 +710,7 @@ DOMRect
 ;
 class
 DOMRectList
-MOZ_FINAL
+final
 :
 public
 nsIDOMClientRectList
@@ -763,7 +763,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

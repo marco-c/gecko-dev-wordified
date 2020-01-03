@@ -328,7 +328,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 PostDOMEvent
@@ -368,7 +368,7 @@ mDispatchChromeOnly
 ;
 class
 LoadBlockingAsyncEventDispatcher
-MOZ_FINAL
+final
 :
 public
 AsyncEventDispatcher

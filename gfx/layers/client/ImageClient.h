@@ -133,7 +133,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -578,7 +578,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RemoveTextureWithTracker
@@ -662,14 +662,14 @@ aContainer
 uint32_t
 aContentFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnDetach
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -679,7 +679,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureInfo
@@ -687,7 +687,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -699,7 +699,7 @@ CreateImage
 ImageFormat
 aFormat
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -709,7 +709,7 @@ AsyncTransactionTracker
 PrepareFlushAllImages
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -721,7 +721,7 @@ AsyncTransactionTracker
 *
 aAsyncTransactionTracker
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -792,14 +792,14 @@ aContainer
 uint32_t
 aContentFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Connect
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -831,7 +831,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo
@@ -848,7 +848,7 @@ CompositableChild
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -875,7 +875,7 @@ CreateImage
 ImageFormat
 aFormat
 )
-MOZ_OVERRIDE
+override
 {
 NS_WARNING
 (
@@ -1013,7 +1013,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo

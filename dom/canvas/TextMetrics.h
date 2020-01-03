@@ -126,7 +126,7 @@ dom
 {
 class
 TextMetrics
-MOZ_FINAL
+final
 :
 public
 NonRefcountedDOMObject

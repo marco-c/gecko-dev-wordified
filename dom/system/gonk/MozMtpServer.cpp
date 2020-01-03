@@ -305,7 +305,7 @@ mozilla
 BEGIN_MTP_NAMESPACE
 class
 FileWatcherUpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -433,7 +433,7 @@ changes
 .
 class
 FileWatcherUpdate
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -854,7 +854,7 @@ sFileWatcherUpdate
 ;
 class
 AllocFileWatcherUpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -910,7 +910,7 @@ mMozMtpServer
 ;
 class
 FreeFileWatcherUpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -156,7 +156,7 @@ dom
 {
 class
 SVGAnimateTransformElement
-MOZ_FINAL
+final
 :
 public
 SVGAnimationElement
@@ -228,7 +228,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -255,7 +255,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -277,7 +277,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -288,7 +288,7 @@ nsSMILAnimationFunction
 AnimationFunction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

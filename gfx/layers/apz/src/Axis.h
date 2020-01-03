@@ -1931,7 +1931,7 @@ ParentLayerPoint
 aPoint
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ParentLayerCoord
@@ -1943,7 +1943,7 @@ ParentLayerRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ParentLayerCoord
@@ -1955,7 +1955,7 @@ ParentLayerRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ScreenPoint
@@ -1965,7 +1965,7 @@ ScreenCoord
 aCoord
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -1975,7 +1975,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2005,7 +2005,7 @@ ParentLayerPoint
 aPoint
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ParentLayerCoord
@@ -2017,7 +2017,7 @@ ParentLayerRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ParentLayerCoord
@@ -2029,7 +2029,7 @@ ParentLayerRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ScreenPoint
@@ -2039,7 +2039,7 @@ ScreenCoord
 aCoord
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -2049,7 +2049,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

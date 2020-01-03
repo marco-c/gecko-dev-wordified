@@ -418,7 +418,7 @@ GetEnumerator
 /
 class
 nsSimpleProperty
-MOZ_FINAL
+final
 :
 public
 nsIProperty

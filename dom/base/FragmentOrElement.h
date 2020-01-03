@@ -312,7 +312,7 @@ nsIDOMNodeList
 /
 class
 nsChildContentList
-MOZ_FINAL
+final
 :
 public
 nsINodeList
@@ -359,7 +359,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -378,7 +378,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -388,7 +388,7 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DropReference
@@ -406,7 +406,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mNode
@@ -453,7 +453,7 @@ nsIWeakReference
 /
 class
 nsNodeWeakReference
-MOZ_FINAL
+final
 :
 public
 nsIWeakReference
@@ -493,7 +493,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 NoticeNodeDestruction
@@ -534,7 +534,7 @@ nsISupportsWeakReference
 /
 class
 nsNodeSupportsWeakRefTearoff
-MOZ_FINAL
+final
 :
 public
 nsISupportsWeakReference
@@ -673,7 +673,7 @@ GetChildCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -684,7 +684,7 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -698,7 +698,7 @@ uint32_t
 aChildCount
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -710,7 +710,7 @@ nsINode
 aPossibleChild
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -724,7 +724,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -735,7 +735,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -751,7 +751,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -768,7 +768,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -785,7 +785,7 @@ GetChildren
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -794,7 +794,7 @@ nsTextFragment
 GetText
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -802,7 +802,7 @@ TextLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -817,7 +817,7 @@ aLength
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -872,21 +872,21 @@ aLength
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 TextIsOnlyWhitespace
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 HasTextForTranslation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -896,7 +896,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -912,7 +912,7 @@ mozilla
 fallible_t
 &
 )
-MOZ_OVERRIDE
+override
 NS_WARN_UNUSED_RESULT
 ;
 virtual
@@ -922,7 +922,7 @@ GetBindingParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsXBLBinding
@@ -931,7 +931,7 @@ GetXBLBinding
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -946,7 +946,7 @@ aOldBindingManager
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ShadowRoot
@@ -955,7 +955,7 @@ GetShadowRoot
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 ShadowRoot
@@ -964,7 +964,7 @@ GetContainingShadow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsTArray
@@ -976,7 +976,7 @@ nsIContent
 DestInsertionPoints
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsTArray
@@ -989,7 +989,7 @@ GetExistingDestInsertionPoints
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -999,7 +999,7 @@ ShadowRoot
 *
 aBinding
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -1008,7 +1008,7 @@ GetXBLInsertionParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1018,7 +1018,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1030,7 +1030,7 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 CustomElementData
@@ -1039,7 +1039,7 @@ GetCustomElementData
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1049,21 +1049,21 @@ CustomElementData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 SaveSubtreeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -1072,7 +1072,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
+override
 ;
 nsIHTMLCollection
 *
@@ -1216,7 +1216,7 @@ bool
 OwnedOnlyByTheDOMTree
 (
 )
-MOZ_OVERRIDE
+override
 {
 uint32_t
 rc
@@ -1260,7 +1260,7 @@ bool
 IsPurple
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRefCnt
@@ -1275,7 +1275,7 @@ void
 RemovePurple
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRefCnt
 .
@@ -2020,7 +2020,7 @@ nsSlots
 CreateSlots
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsDOMSlots
 *

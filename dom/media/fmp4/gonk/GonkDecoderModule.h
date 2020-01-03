@@ -164,7 +164,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -209,7 +209,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -237,7 +237,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

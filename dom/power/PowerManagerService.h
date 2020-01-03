@@ -223,7 +223,7 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

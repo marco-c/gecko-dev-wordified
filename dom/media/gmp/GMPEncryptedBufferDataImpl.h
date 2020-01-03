@@ -198,7 +198,7 @@ KeyId
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -206,7 +206,7 @@ KeyIdSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -216,7 +216,7 @@ IV
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -224,7 +224,7 @@ IVSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -232,7 +232,7 @@ NumSubsamples
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -242,7 +242,7 @@ ClearBytes
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -252,7 +252,7 @@ CipherBytes
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

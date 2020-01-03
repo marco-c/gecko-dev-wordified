@@ -299,7 +299,7 @@ string
 /
 class
 XPathResult
-MOZ_FINAL
+final
 :
 public
 nsIXPathResult
@@ -421,7 +421,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsINode
 *
@@ -706,7 +706,7 @@ nsINode
 *
 aContextNode
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetExprResult
@@ -716,7 +716,7 @@ txAExprResult
 *
 aExprResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Clone
@@ -726,7 +726,7 @@ nsIXPathResult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RemoveObserver

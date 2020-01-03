@@ -254,7 +254,7 @@ namespace
 mozilla
 class
 imgRequest
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

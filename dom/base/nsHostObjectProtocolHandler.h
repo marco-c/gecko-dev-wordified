@@ -190,7 +190,7 @@ int32_t
 *
 aDefaultPort
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetProtocolFlags
@@ -199,7 +199,7 @@ uint32_t
 *
 aProtocolFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NewURI
@@ -220,7 +220,7 @@ nsIURI
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NewChannel2
@@ -236,7 +236,7 @@ nsIChannel
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NewChannel
@@ -249,7 +249,7 @@ nsIChannel
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AllowPort
@@ -264,7 +264,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -412,7 +412,7 @@ nsACString
 &
 result
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -431,7 +431,7 @@ nsACString
 &
 result
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -450,7 +450,7 @@ nsACString
 &
 result
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

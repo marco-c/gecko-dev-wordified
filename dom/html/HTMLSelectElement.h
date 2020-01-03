@@ -648,7 +648,7 @@ gt
 /
 class
 HTMLSelectElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElementWithState
@@ -797,7 +797,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -810,7 +810,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1389,7 +1389,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1402,7 +1402,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1412,7 +1412,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1427,7 +1427,7 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1441,7 +1441,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1452,7 +1452,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1467,7 +1467,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FORM_SELECT
@@ -1477,7 +1477,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -1486,13 +1486,13 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1502,7 +1502,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1511,7 +1511,7 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1520,14 +1520,14 @@ FieldSetDisabledChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 EventStates
 IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2021,7 +2021,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2032,7 +2032,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2050,7 +2050,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2068,7 +2068,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2082,7 +2082,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2091,14 +2091,14 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsDoneAddingChildren
@@ -2121,7 +2121,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -2129,7 +2129,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -2143,7 +2143,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -2157,7 +2157,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2178,7 +2178,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -2207,7 +2207,7 @@ aValidationMessage
 ValidityStateType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateValueMissingValidityState

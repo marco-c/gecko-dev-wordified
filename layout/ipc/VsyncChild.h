@@ -194,7 +194,7 @@ dies
 .
 class
 VsyncChild
-MOZ_FINAL
+final
 :
 public
 PVsyncChild
@@ -293,7 +293,7 @@ TimeStamp
 &
 aVsyncTimestamp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -302,7 +302,7 @@ ActorDestroy
 ActorDestroyReason
 aActorDestroyReason
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mObservingVsync

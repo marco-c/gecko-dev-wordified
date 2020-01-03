@@ -755,7 +755,7 @@ default
 nsITaskbarPreviewController
 class
 DefaultController
-MOZ_FINAL
+final
 :
 public
 nsITaskbarPreviewController

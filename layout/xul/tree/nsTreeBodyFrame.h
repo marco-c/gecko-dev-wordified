@@ -309,7 +309,7 @@ rows
 .
 class
 nsTreeBodyFrame
-MOZ_FINAL
+final
 :
 public
 nsLeafBoxFrame
@@ -775,7 +775,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -793,7 +793,7 @@ aRemoveOverflowArea
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -803,14 +803,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -823,7 +823,7 @@ nsCSSSelector
 *
 aSelector
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -838,7 +838,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -850,7 +850,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -862,7 +862,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -872,7 +872,7 @@ nsScrollbarFrame
 *
 aScrollbar
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -886,7 +886,7 @@ aOldPos
 nscoord
 aNewPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -895,7 +895,7 @@ VisibilityChanged
 bool
 aVisible
 )
-MOZ_OVERRIDE
+override
 {
 Invalidate
 (
@@ -910,7 +910,7 @@ GetScrollbarBox
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 {
 ScrollParts
 parts
@@ -937,7 +937,7 @@ ScrollbarActivityStarted
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -945,7 +945,7 @@ ScrollbarActivityStopped
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -972,7 +972,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -982,7 +982,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -999,7 +999,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1018,7 +1018,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1036,7 +1036,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1046,7 +1046,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsIFrame

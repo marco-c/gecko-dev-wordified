@@ -127,7 +127,7 @@ GetName
 nsAString_internal
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -136,7 +136,7 @@ GetUUID
 nsAString_internal
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -155,14 +155,14 @@ mozilla
 MediaEnginePrefs
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -178,7 +178,7 @@ mozilla
 :
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -187,7 +187,7 @@ SetDirectListeners
 bool
 aHasDirectListeners
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -214,7 +214,7 @@ mozilla
 :
 StreamTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -230,7 +230,7 @@ mozilla
 :
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -244,14 +244,14 @@ bool
 uint32_t
 int32_t
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsFake
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -262,7 +262,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 dom
@@ -291,7 +291,7 @@ MediaTrackConstraintSet
 &
 aConstraintSets
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -305,7 +305,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED

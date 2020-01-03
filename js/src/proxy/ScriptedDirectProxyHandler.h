@@ -185,7 +185,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -208,7 +208,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -224,7 +224,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -242,7 +242,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -257,7 +257,7 @@ MutableHandleObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -291,7 +291,7 @@ MutableHandleObject
 protop
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -309,7 +309,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -339,7 +339,7 @@ bool
 succeeded
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -355,7 +355,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -371,7 +371,7 @@ bool
 extensible
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -389,7 +389,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -408,7 +408,7 @@ MutableHandleValue
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -430,7 +430,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -447,7 +447,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -464,7 +464,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -491,7 +491,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -509,7 +509,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 BaseProxyHandler
@@ -570,7 +570,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 BaseProxyHandler
@@ -614,7 +614,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -632,7 +632,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -647,7 +647,7 @@ JSContext
 cx
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -662,7 +662,7 @@ HandleObject
 proxy
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSString
@@ -678,7 +678,7 @@ unsigned
 indent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -694,7 +694,7 @@ RegExpGuard
 g
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -709,7 +709,7 @@ MutableHandleValue
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -720,7 +720,7 @@ JSObject
 obj
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -731,7 +731,7 @@ JSObject
 obj
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -739,7 +739,7 @@ isScripted
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true

@@ -137,7 +137,7 @@ dom
 {
 class
 HTMLMenuElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -199,7 +199,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -220,7 +220,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 uint8_t
 GetType
@@ -388,7 +388,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

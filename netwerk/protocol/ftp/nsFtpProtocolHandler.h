@@ -222,7 +222,7 @@ h
 -
 class
 nsFtpProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProxiedProtocolHandler

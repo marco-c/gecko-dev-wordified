@@ -366,7 +366,7 @@ MobileConnection
 :
 :
 Listener
-MOZ_FINAL
+final
 :
 public
 nsIMobileConnectionListener

@@ -441,7 +441,7 @@ mBaseVal
 ;
 struct
 DOMAnimatedEnum
-MOZ_FINAL
+final
 :
 public
 SVGAnimatedEnumeration
@@ -496,7 +496,7 @@ uint16_t
 BaseVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mVal
@@ -517,7 +517,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 aRv
 =
@@ -536,7 +536,7 @@ uint16_t
 AnimVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mVal
@@ -631,7 +631,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -651,7 +651,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -665,7 +665,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -678,7 +678,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -734,7 +734,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsSVGOrientType
 *
@@ -877,7 +877,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetParentCoordCtxProvider
@@ -892,21 +892,21 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 AngleAttributesInfo
 GetAngleInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGViewBox
@@ -914,7 +914,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -922,7 +922,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

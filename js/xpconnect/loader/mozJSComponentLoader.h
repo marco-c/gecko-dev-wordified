@@ -308,7 +308,7 @@ FileLocation
 &
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 FindTargetObject

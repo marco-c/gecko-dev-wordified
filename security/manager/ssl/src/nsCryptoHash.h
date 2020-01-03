@@ -173,7 +173,7 @@ NS_CRYPTO_HMAC_CID
 }
 class
 nsCryptoHash
-MOZ_FINAL
+final
 :
 public
 nsICryptoHash
@@ -207,7 +207,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference
@@ -248,7 +248,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference

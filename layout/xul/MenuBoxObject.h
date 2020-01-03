@@ -140,7 +140,7 @@ KeyboardEvent
 ;
 class
 MenuBoxObject
-MOZ_FINAL
+final
 :
 public
 BoxObject
@@ -169,7 +169,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OpenMenu

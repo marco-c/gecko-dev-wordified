@@ -173,7 +173,7 @@ gfxMissingFontRecorder
 *
 aMFR
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

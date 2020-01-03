@@ -496,7 +496,7 @@ public
 :
 struct
 DOMAnimatedInteger
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -575,7 +575,7 @@ int32_t
 BaseVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mVal
@@ -594,7 +594,7 @@ SetBaseVal
 int32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 mVal
 -
@@ -639,7 +639,7 @@ int32_t
 AnimVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 mSVGElement
 -
@@ -761,7 +761,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -769,14 +769,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -787,7 +787,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

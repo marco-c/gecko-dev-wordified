@@ -216,7 +216,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -231,14 +231,14 @@ Lock
 OpenMode
 aOpenMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -246,7 +246,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsLocked
@@ -260,7 +260,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -271,7 +271,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -286,7 +286,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFormat
@@ -298,7 +298,7 @@ CanExposeDrawTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -313,7 +313,7 @@ DrawTarget
 BorrowDrawTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ aFlags
 =
 ALLOC_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -337,7 +337,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -363,7 +363,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -423,14 +423,14 @@ TextureSource
 GetTextureSources
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -440,7 +440,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -451,7 +451,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFormat
@@ -466,7 +466,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -477,14 +477,14 @@ bool
 Lock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -497,7 +497,7 @@ aRegion
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -510,7 +510,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr

@@ -194,7 +194,7 @@ net
 {
 class
 MemoryDownloader
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

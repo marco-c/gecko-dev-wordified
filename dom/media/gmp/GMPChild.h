@@ -275,7 +275,7 @@ void
 CheckThread
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -284,7 +284,7 @@ void
 ShutdownComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -341,14 +341,14 @@ nsCString
 &
 aNodeId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStartPlugin
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCrashReporterChild
@@ -360,7 +360,7 @@ NativeThreadId
 &
 aThread
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -369,7 +369,7 @@ DeallocPCrashReporterChild
 PCrashReporterChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPVideoDecoderChild
@@ -377,7 +377,7 @@ PGMPVideoDecoderChild
 AllocPGMPVideoDecoderChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -387,7 +387,7 @@ PGMPVideoDecoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -397,7 +397,7 @@ PGMPVideoDecoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPVideoEncoderChild
@@ -405,7 +405,7 @@ PGMPVideoEncoderChild
 AllocPGMPVideoEncoderChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -415,7 +415,7 @@ PGMPVideoEncoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -425,7 +425,7 @@ PGMPVideoEncoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPDecryptorChild
@@ -433,7 +433,7 @@ PGMPDecryptorChild
 AllocPGMPDecryptorChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -443,7 +443,7 @@ PGMPDecryptorChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -453,7 +453,7 @@ PGMPDecryptorChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPAudioDecoderChild
@@ -461,7 +461,7 @@ PGMPAudioDecoderChild
 AllocPGMPAudioDecoderChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -471,7 +471,7 @@ PGMPAudioDecoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -481,7 +481,7 @@ PGMPAudioDecoderChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPTimerChild
@@ -489,7 +489,7 @@ PGMPTimerChild
 AllocPGMPTimerChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -499,7 +499,7 @@ PGMPTimerChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPStorageChild
@@ -507,7 +507,7 @@ PGMPStorageChild
 AllocPGMPStorageChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -517,21 +517,21 @@ PGMPStorageChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvCrashPluginNow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvBeginAsyncShutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -540,7 +540,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -553,7 +553,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 GMPErr
 GetAPI

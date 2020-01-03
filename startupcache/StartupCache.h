@@ -867,7 +867,7 @@ instead
 .
 class
 StartupCacheListener
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1314,7 +1314,7 @@ ifdef
 DEBUG
 class
 StartupCacheDebugOutputStream
-MOZ_FINAL
+final
 :
 public
 nsIObjectOutputStream
@@ -1434,7 +1434,7 @@ cache
 "
 class
 StartupCacheWrapper
-MOZ_FINAL
+final
 :
 public
 nsIStartupCache

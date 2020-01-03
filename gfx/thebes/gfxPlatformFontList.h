@@ -1132,7 +1132,7 @@ protected
 :
 class
 MemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter

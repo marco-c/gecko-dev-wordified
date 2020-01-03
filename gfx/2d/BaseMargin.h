@@ -122,7 +122,7 @@ sides
 /
 struct
 Sides
-MOZ_FINAL
+final
 {
 Sides
 (

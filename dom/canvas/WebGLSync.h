@@ -127,7 +127,7 @@ mozilla
 {
 class
 WebGLSync
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -188,7 +188,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (

@@ -321,7 +321,7 @@ namespace
 mozilla
 class
 nsNavBookmarks
-MOZ_FINAL
+final
 :
 public
 nsINavBookmarksService
@@ -1729,7 +1729,7 @@ aPlaceId
 ;
 class
 RemoveFolderTransaction
-MOZ_FINAL
+final
 :
 public
 nsITransaction
@@ -1754,7 +1754,7 @@ NS_IMETHOD
 DoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsNavBookmarks
 *
@@ -1845,7 +1845,7 @@ NS_IMETHOD
 UndoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsNavBookmarks
 *
@@ -1891,7 +1891,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 DoTransaction
@@ -1906,7 +1906,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 *
 aResult
@@ -1927,7 +1927,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 *
 aResult

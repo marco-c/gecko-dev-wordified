@@ -6443,7 +6443,7 @@ NS_OK
 }
 class
 nsDOMConstructor
-MOZ_FINAL
+final
 :
 public
 nsIDOMDOMConstructor

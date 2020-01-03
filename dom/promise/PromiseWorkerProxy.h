@@ -525,7 +525,7 @@ PromiseNativeHandler
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PromiseWorkerProxy
-MOZ_OVERRIDE
+override
 )
 public
 :
@@ -607,7 +607,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -628,7 +628,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -643,7 +643,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

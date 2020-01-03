@@ -12067,7 +12067,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -12077,7 +12077,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -12354,7 +12354,7 @@ nsDisplayList
 *
 aList
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -12382,7 +12382,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 {
 return
 new

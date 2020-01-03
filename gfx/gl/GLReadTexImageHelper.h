@@ -264,7 +264,7 @@ aFormat
 ;
 class
 GLReadTexImageHelper
-MOZ_FINAL
+final
 {
 /
 /

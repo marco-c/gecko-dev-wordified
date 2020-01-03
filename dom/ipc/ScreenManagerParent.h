@@ -183,7 +183,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -200,7 +200,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -209,7 +209,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -222,7 +222,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -251,7 +251,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -268,7 +268,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

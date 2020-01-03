@@ -219,7 +219,7 @@ MediaDecoder
 Clone
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 MediaDecoderStateMachine
@@ -227,7 +227,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -239,7 +239,7 @@ nsIStreamListener
 MediaDecoder
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -252,14 +252,14 @@ TimeRanges
 *
 aSeekable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed
@@ -347,7 +347,7 @@ bool
 IsExpectingMoreData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -365,7 +365,7 @@ double
 GetDuration
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetInitialDuration
@@ -464,7 +464,7 @@ CDMProxy
 *
 aProxy
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

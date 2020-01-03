@@ -260,7 +260,7 @@ namespace
 mozilla
 class
 nsDOMOfflineResourceList
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -356,7 +356,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 GetStatus

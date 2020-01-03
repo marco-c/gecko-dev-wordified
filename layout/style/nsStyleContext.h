@@ -359,7 +359,7 @@ collection
 /
 class
 nsStyleContext
-MOZ_FINAL
+final
 {
 public
 :

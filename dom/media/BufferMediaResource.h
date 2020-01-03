@@ -244,7 +244,7 @@ nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -257,7 +257,7 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -265,7 +265,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 /
@@ -285,7 +285,7 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -308,7 +308,7 @@ bool
 CanClone
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -325,7 +325,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -360,7 +360,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -370,7 +370,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -386,7 +386,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 *
 aBytes
@@ -445,7 +445,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -487,7 +487,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -609,7 +609,7 @@ int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOffset
@@ -620,7 +620,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -628,7 +628,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -639,7 +639,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 *
 aIsReliable
@@ -656,7 +656,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLength
@@ -669,7 +669,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 aOffset
@@ -682,7 +682,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLength
@@ -695,7 +695,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -706,7 +706,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -717,7 +717,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -735,7 +735,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -790,7 +790,7 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_FAILURE
@@ -807,7 +807,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 {
 aRanges
 .
@@ -828,7 +828,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -842,7 +842,7 @@ GetContentType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mContentType
@@ -856,7 +856,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -904,7 +904,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

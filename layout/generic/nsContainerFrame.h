@@ -365,7 +365,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -373,7 +373,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -389,7 +389,7 @@ ChildListID
 aList
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -403,7 +403,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -413,7 +413,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -423,7 +423,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -431,7 +431,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -443,7 +443,7 @@ int32_t
 *
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -459,7 +459,7 @@ aRespectClusters
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -485,7 +485,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1574,7 +1574,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2768,7 +2768,7 @@ bool
 DrainSelfOverflowList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -3117,7 +3117,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

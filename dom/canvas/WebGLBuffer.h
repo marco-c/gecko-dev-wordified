@@ -167,7 +167,7 @@ WebGLElementArrayCache
 ;
 class
 WebGLBuffer
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -317,7 +317,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
@@ -339,7 +339,7 @@ void
 OnTargetChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 WebGLsizeiptr
 mByteLength

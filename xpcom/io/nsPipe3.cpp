@@ -1652,7 +1652,7 @@ mCallbackFlags
 -
 class
 nsPipe
-MOZ_FINAL
+final
 :
 public
 nsIPipe
@@ -2203,7 +2203,7 @@ segment
 class
 MOZ_STACK_CLASS
 AutoReadSegment
-MOZ_FINAL
+final
 {
 public
 :

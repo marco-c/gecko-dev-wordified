@@ -247,7 +247,7 @@ used
 .
 class
 nsAuthSSPI
-MOZ_FINAL
+final
 :
 public
 nsIAuthModule

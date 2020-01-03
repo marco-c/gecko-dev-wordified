@@ -6992,7 +6992,7 @@ dom
 {
 class
 MessageManagerReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -9456,7 +9456,7 @@ aURL
 bool
 aRunInGlobalScope
 )
-MOZ_OVERRIDE
+override
 {
 ProcessGlobal
 *
@@ -9515,7 +9515,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -9550,7 +9550,7 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9579,7 +9579,7 @@ nsAString
 &
 aManifestURL
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9608,7 +9608,7 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9637,7 +9637,7 @@ unsigned
 short
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9745,7 +9745,7 @@ aJSONRetVal
 bool
 aIsSync
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -9922,7 +9922,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -10250,7 +10250,7 @@ aJSONRetVal
 bool
 aIsSync
 )
-MOZ_OVERRIDE
+override
 {
 nsTArray
 <
@@ -10423,7 +10423,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

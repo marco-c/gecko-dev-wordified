@@ -179,7 +179,7 @@ Feature
 ;
 class
 CacheStorageChild
-MOZ_FINAL
+final
 :
 public
 PCacheStorageChild
@@ -288,7 +288,7 @@ void
 StartDestroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -303,7 +303,7 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -322,7 +322,7 @@ PCacheResponseOrVoid
 &
 response
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -344,7 +344,7 @@ bool
 &
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -365,7 +365,7 @@ PCacheChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -387,7 +387,7 @@ bool
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -412,7 +412,7 @@ nsString
 &
 aKeys
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

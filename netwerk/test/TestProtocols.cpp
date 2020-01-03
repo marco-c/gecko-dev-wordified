@@ -4436,7 +4436,7 @@ NotificationCallbacks
 -
 class
 NotificationCallbacks
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor
@@ -4467,7 +4467,7 @@ void
 *
 result
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv

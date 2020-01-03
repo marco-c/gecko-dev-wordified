@@ -515,7 +515,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -828,7 +828,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -1164,7 +1164,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 (
@@ -1638,7 +1638,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1953,7 +1953,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2302,7 +2302,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2668,7 +2668,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3051,7 +3051,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3451,7 +3451,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3673,7 +3673,7 @@ T1
 >
 class
 ConstantInitOp1
-MOZ_FINAL
+final
 {
 public
 :
@@ -3728,7 +3728,7 @@ T2
 >
 class
 ConstantInitOp2
-MOZ_FINAL
+final
 {
 public
 :
@@ -3805,7 +3805,7 @@ T3
 >
 class
 ConstantInitOp3
-MOZ_FINAL
+final
 {
 public
 :

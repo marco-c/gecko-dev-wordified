@@ -749,7 +749,7 @@ ParticularProcessPriorityManager
 ;
 class
 ProcessLRUPool
-MOZ_FINAL
+final
 {
 public
 :
@@ -995,7 +995,7 @@ class
 /
 class
 ProcessPriorityManagerImpl
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1218,7 +1218,7 @@ WakeLockInformation
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1470,7 +1470,7 @@ processes
 /
 class
 ProcessPriorityManagerChild
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1565,7 +1565,7 @@ only
 /
 class
 ParticularProcessPriorityManager
-MOZ_FINAL
+final
 :
 public
 WakeLockObserver
@@ -1607,7 +1607,7 @@ WakeLockInformation
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Init

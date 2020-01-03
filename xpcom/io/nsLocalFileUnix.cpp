@@ -555,7 +555,7 @@ enumerator
 /
 class
 nsDirEnumeratorUnix
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

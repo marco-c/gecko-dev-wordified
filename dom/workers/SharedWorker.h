@@ -170,7 +170,7 @@ WorkerPrivate
 ;
 class
 SharedWorker
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -347,7 +347,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -357,7 +357,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 WorkerPrivate
 *

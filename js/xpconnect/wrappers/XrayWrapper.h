@@ -889,7 +889,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -929,7 +929,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 defineProperty
@@ -1102,7 +1102,7 @@ JSObject
 *
 target
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -1116,7 +1116,7 @@ JSObject
 *
 wrapper
 )
-MOZ_OVERRIDE
+override
 ;
 static
 const
@@ -1182,7 +1182,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1354,7 +1354,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 defineProperty
@@ -1509,7 +1509,7 @@ JSObject
 *
 target
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -1523,7 +1523,7 @@ JSObject
 *
 wrapper
 )
-MOZ_OVERRIDE
+override
 ;
 static
 DOMXrayTraits
@@ -1584,7 +1584,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -1641,7 +1641,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 delete_
@@ -2068,7 +2068,7 @@ JSObject
 *
 target
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -2145,7 +2145,7 @@ JSObject
 *
 wrapper
 )
-MOZ_OVERRIDE
+override
 ;
 static
 JSProtoKey
@@ -2374,7 +2374,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -2431,7 +2431,7 @@ JSPropertyDescriptor
 >
 desc
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 defineProperty
@@ -2758,7 +2758,7 @@ JSObject
 *
 target
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -2773,7 +2773,7 @@ JSObject
 *
 wrapper
 )
-MOZ_OVERRIDE
+override
 {
 return
 JS_NewObjectWithGivenProto
@@ -2906,7 +2906,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2948,7 +2948,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2974,7 +2974,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3008,7 +3008,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3037,7 +3037,7 @@ JSObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3058,7 +3058,7 @@ MutableHandleObject
 protop
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3085,7 +3085,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3104,7 +3104,7 @@ bool
 succeeded
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3130,7 +3130,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3153,7 +3153,7 @@ bool
 extensible
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3184,7 +3184,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3232,7 +3232,7 @@ Value
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3286,7 +3286,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3313,7 +3313,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3340,7 +3340,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -3383,7 +3383,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3414,7 +3414,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3440,7 +3440,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -3458,7 +3458,7 @@ HandleObject
 proxy
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3481,7 +3481,7 @@ MutableHandleValue
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const
@@ -3846,7 +3846,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3904,7 +3904,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3952,7 +3952,7 @@ Value
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4006,7 +4006,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4042,7 +4042,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4073,7 +4073,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4099,7 +4099,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4128,7 +4128,7 @@ JSObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -4219,7 +4219,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const

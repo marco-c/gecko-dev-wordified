@@ -610,7 +610,7 @@ gMediaCache
 ;
 class
 MediaCacheFlusher
-MOZ_FINAL
+final
 :
 public
 nsIObserver

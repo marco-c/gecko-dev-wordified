@@ -161,7 +161,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 AudioStreamTrack
@@ -169,7 +169,7 @@ AudioStreamTrack
 AsAudioStreamTrack
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -186,7 +186,7 @@ nsAString
 &
 aKind
 )
-MOZ_OVERRIDE
+override
 {
 aKind
 .

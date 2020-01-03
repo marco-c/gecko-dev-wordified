@@ -332,7 +332,7 @@ CanvasRenderingContext2D
 /
 class
 CanvasRenderingContext2D
-MOZ_FINAL
+final
 :
 public
 nsICanvasRenderingContextInternal
@@ -373,7 +373,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 HTMLCanvasElement
 *
@@ -2461,7 +2461,7 @@ GetWidth
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2469,7 +2469,7 @@ GetHeight
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2501,7 +2501,7 @@ nsIPresShell
 GetPresShell
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2548,7 +2548,7 @@ width
 int32_t
 height
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InitializeWithSurface
@@ -2564,7 +2564,7 @@ width
 int32_t
 height
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetInputStream
@@ -2582,7 +2582,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -2605,7 +2605,7 @@ aPremultAlpha
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 EnsureTarget
 (
@@ -2637,13 +2637,13 @@ SetIsOpaque
 bool
 isOpaque
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 GetIsOpaque
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOpaque
@@ -2653,7 +2653,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -2671,7 +2671,7 @@ LayerManager
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2681,13 +2681,13 @@ LayerManager
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MarkContextClean
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetIsIPC
@@ -2695,7 +2695,7 @@ SetIsIPC
 bool
 isIPC
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2729,7 +2729,7 @@ gfxRect
 &
 r
 )
-MOZ_OVERRIDE
+override
 {
 Redraw
 (
@@ -2761,7 +2761,7 @@ Value
 >
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2807,7 +2807,7 @@ void
 DidRefresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3032,7 +3032,7 @@ int32_t
 *
 aFormat
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3060,7 +3060,7 @@ Point
 &
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3089,7 +3089,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

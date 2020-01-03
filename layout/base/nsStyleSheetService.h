@@ -234,7 +234,7 @@ service
 "
 class
 nsStyleSheetService
-MOZ_FINAL
+final
 :
 public
 nsIStyleSheetService

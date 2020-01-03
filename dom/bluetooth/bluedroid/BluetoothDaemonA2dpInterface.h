@@ -491,7 +491,7 @@ sNotificationHandler
 ;
 class
 BluetoothDaemonA2dpInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothA2dpInterface

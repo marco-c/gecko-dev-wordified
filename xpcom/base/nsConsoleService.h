@@ -170,7 +170,7 @@ h
 "
 class
 nsConsoleService
-MOZ_FINAL
+final
 :
 public
 nsIConsoleService

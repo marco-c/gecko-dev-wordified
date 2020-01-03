@@ -129,7 +129,7 @@ h
 "
 class
 nsScreenAndroid
-MOZ_FINAL
+final
 :
 public
 nsBaseScreen
@@ -215,13 +215,13 @@ ApplyMinimumBrightness
 uint32_t
 aBrightness
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 nsScreenManagerAndroid
-MOZ_FINAL
+final
 :
 public
 nsIScreenManager

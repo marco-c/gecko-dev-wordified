@@ -95,7 +95,7 @@ h
 "
 class
 nsINIParserImpl
-MOZ_FINAL
+final
 :
 public
 nsIINIParser

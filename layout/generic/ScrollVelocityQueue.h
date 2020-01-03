@@ -429,7 +429,7 @@ velocity
 /
 class
 ScrollVelocityQueue
-MOZ_FINAL
+final
 {
 public
 :

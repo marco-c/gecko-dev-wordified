@@ -153,7 +153,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -213,14 +213,14 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 eMathMLFrameType
 GetMathMLFrameType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -232,7 +232,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -244,7 +244,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -259,7 +259,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -279,7 +279,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -294,7 +294,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

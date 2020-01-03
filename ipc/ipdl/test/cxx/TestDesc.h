@@ -226,7 +226,7 @@ PTestDescSubsubParent
 *
 a
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -238,7 +238,7 @@ AllocPTestDescSubParent
 PTestDescSubsubParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -248,7 +248,7 @@ PTestDescSubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -257,7 +257,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -319,7 +319,7 @@ AllocPTestDescSubChild
 PTestDescSubsubChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ PTestDescSubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -339,7 +339,7 @@ PTestDescSubsubChild
 *
 a
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -348,7 +348,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -487,7 +487,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -496,7 +496,7 @@ PTestDescSubsubParent
 AllocPTestDescSubsubParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -506,7 +506,7 @@ PTestDescSubsubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -538,7 +538,7 @@ PTestDescSubsubChild
 AllocPTestDescSubsubChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -548,7 +548,7 @@ PTestDescSubsubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -667,7 +667,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

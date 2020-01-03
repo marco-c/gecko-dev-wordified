@@ -201,7 +201,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -230,7 +230,7 @@ JSObject
 protop
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -278,7 +278,7 @@ Value
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -305,7 +305,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -332,7 +332,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -361,7 +361,7 @@ JSObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -387,7 +387,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -423,7 +423,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const

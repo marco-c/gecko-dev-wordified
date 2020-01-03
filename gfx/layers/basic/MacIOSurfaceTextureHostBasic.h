@@ -204,7 +204,7 @@ TextureSourceBasic
 AsSourceBasic
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -219,7 +219,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -230,7 +230,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -247,14 +247,14 @@ DrawTarget
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -265,7 +265,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -340,14 +340,14 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Lock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -358,7 +358,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureSource
@@ -366,7 +366,7 @@ TextureSource
 GetTextureSources
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTextureSource
@@ -383,7 +383,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -408,7 +408,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -420,7 +420,7 @@ char
 Name
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "

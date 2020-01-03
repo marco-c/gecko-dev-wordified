@@ -410,7 +410,7 @@ nsHTMLReflowMetrics
 &
 aDesiredStretchSize
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -424,7 +424,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
-MOZ_OVERRIDE
+override
 {
 PropagatePresentationDataFromChildAt
 (
@@ -663,7 +663,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -709,7 +709,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -724,7 +724,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -736,7 +736,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -769,7 +769,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -779,7 +779,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -830,7 +830,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -840,7 +840,7 @@ nsPresContext
 *
 aPresContext
 )
-MOZ_OVERRIDE
+override
 {
 mPresentationData
 .
@@ -873,7 +873,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 mPresentationData
 .
@@ -911,21 +911,21 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1161,7 +1161,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3276,7 +3276,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3333,7 +3333,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3395,7 +3395,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3455,7 +3455,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3512,7 +3512,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsBlockFrame
@@ -3688,7 +3688,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3745,7 +3745,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3807,7 +3807,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3867,7 +3867,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -3924,7 +3924,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsInlineFrame
@@ -3953,7 +3953,7 @@ bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrames

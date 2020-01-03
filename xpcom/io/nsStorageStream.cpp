@@ -1954,7 +1954,7 @@ single
 nsStorageStream
 class
 nsStorageInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

@@ -190,7 +190,7 @@ Loader
 }
 class
 nsLayoutStylesheetCache
-MOZ_FINAL
+final
 :
 public
 nsIObserver

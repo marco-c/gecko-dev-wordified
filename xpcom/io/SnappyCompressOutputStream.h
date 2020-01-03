@@ -171,7 +171,7 @@ mozilla
 {
 class
 SnappyCompressOutputStream
-MOZ_FINAL
+final
 :
 public
 nsIOutputStream

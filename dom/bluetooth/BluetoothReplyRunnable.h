@@ -353,7 +353,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 aValue
 .

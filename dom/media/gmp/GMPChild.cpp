@@ -2209,7 +2209,7 @@ char
 *
 aLibPath
 )
-MOZ_OVERRIDE
+override
 {
 mGMPChild
 -

@@ -133,7 +133,7 @@ dom
 {
 class
 SVGAngle
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -214,7 +214,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 UnitType

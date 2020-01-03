@@ -210,7 +210,7 @@ bool
 aCantHandleYet
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Constrain
@@ -219,7 +219,7 @@ InstantiationSet
 &
 aInstantiations
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetTag

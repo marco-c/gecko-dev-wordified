@@ -171,7 +171,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint16_t
@@ -179,8 +179,8 @@ NumberOfOutputs
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 0
@@ -191,7 +191,7 @@ void
 DestroyMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 DOMMediaStream
 *
@@ -212,7 +212,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -228,7 +228,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -238,7 +238,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

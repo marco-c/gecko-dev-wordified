@@ -198,7 +198,7 @@ nsIASN1Sequence
 ;
 class
 nsNSSCertificate
-MOZ_FINAL
+final
 :
 public
 nsIX509Cert
@@ -358,7 +358,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference
@@ -520,7 +520,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference
@@ -591,7 +591,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference

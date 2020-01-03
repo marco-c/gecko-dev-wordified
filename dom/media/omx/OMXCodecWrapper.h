@@ -1390,7 +1390,7 @@ encoder
 /
 class
 OMXAudioEncoder
-MOZ_FINAL
+final
 :
 public
 OMXCodecWrapper
@@ -1540,7 +1540,7 @@ ABuffer
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1744,7 +1744,7 @@ encoder
 /
 class
 OMXVideoEncoder
-MOZ_FINAL
+final
 :
 public
 OMXCodecWrapper
@@ -2082,7 +2082,7 @@ ABuffer
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2146,7 +2146,7 @@ aData
 size_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -383,7 +383,7 @@ aAttsCount
 uint32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleEndElement
@@ -393,7 +393,7 @@ char16_t
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleCDataSection
@@ -405,7 +405,7 @@ aData
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -420,7 +420,7 @@ MaybeStartLayout
 bool
 aIgnorePendingSheets
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 OnOpenContainer
@@ -440,13 +440,13 @@ aTagName
 uint32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 NotifyForDocElement
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -489,7 +489,7 @@ dom
 FromParser
 aFromParser
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AddAttributes
@@ -503,7 +503,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -634,7 +634,7 @@ aReleaseTextNode
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -658,7 +658,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

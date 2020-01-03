@@ -851,7 +851,7 @@ Bug
 /
 class
 SRGBOverrideObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1006,7 +1006,7 @@ string
 &
 aString
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -1029,7 +1029,7 @@ string
 StringsVectorCopy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetCircularBufferSize
@@ -1825,7 +1825,7 @@ nullptr
 ;
 class
 FontPrefsObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1930,7 +1930,7 @@ NS_OK
 }
 class
 MemoryPressureObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

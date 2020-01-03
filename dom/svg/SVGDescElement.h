@@ -149,7 +149,7 @@ dom
 {
 class
 SVGDescElement
-MOZ_FINAL
+final
 :
 public
 SVGDescElementBase
@@ -218,7 +218,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -241,7 +241,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

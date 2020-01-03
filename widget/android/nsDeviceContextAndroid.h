@@ -109,7 +109,7 @@ h
 "
 class
 nsDeviceContextSpecAndroid
-MOZ_FINAL
+final
 :
 public
 nsIDeviceContextSpec

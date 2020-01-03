@@ -287,7 +287,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -300,7 +300,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -314,7 +314,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -326,7 +326,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsStyleContext
@@ -337,7 +337,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -355,7 +355,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -364,13 +364,13 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -380,13 +380,13 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrames

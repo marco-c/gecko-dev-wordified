@@ -350,7 +350,7 @@ workers
 ;
 class
 WorkerFetchResolver
-MOZ_FINAL
+final
 :
 public
 FetchDriverObserver
@@ -450,13 +450,13 @@ InternalResponse
 *
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnResponseEnd
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Notify
@@ -467,7 +467,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -651,7 +651,7 @@ mFetchPromise
 ;
 class
 MainThreadFetchResolver
-MOZ_FINAL
+final
 :
 public
 FetchDriverObserver
@@ -686,7 +686,7 @@ InternalResponse
 *
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1471,7 +1471,7 @@ MainThreadFetchResolver
 }
 class
 WorkerFetchResponseRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -1543,7 +1543,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1667,7 +1667,7 @@ true
 ;
 class
 WorkerFetchResponseEndRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -1714,7 +1714,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3084,7 +3084,7 @@ namespace
 {
 class
 StreamDecoder
-MOZ_FINAL
+final
 {
 nsCOMPtr
 <
@@ -3296,7 +3296,7 @@ Derived
 >
 class
 ContinueConsumeBodyRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -3399,7 +3399,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 mFetchBody
 -
@@ -3440,7 +3440,7 @@ places
 class
 MOZ_STACK_CLASS
 AutoFreeBuffer
-MOZ_FINAL
+final
 {
 uint8_t
 *
@@ -3543,7 +3543,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 mBody
 -
@@ -3598,7 +3598,7 @@ Derived
 class
 MOZ_STACK_CLASS
 AutoFailConsumeBody
-MOZ_FINAL
+final
 {
 FetchBody
 <
@@ -3777,7 +3777,7 @@ uint8_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4024,7 +4024,7 @@ Derived
 >
 class
 BeginConsumeBodyRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4059,7 +4059,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFetchBody
 -
@@ -4081,7 +4081,7 @@ Derived
 >
 class
 CancelPumpRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -4123,7 +4123,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBody
 -
@@ -4150,7 +4150,7 @@ Derived
 >
 class
 FetchBodyFeature
-MOZ_FINAL
+final
 :
 public
 workers
@@ -4228,7 +4228,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

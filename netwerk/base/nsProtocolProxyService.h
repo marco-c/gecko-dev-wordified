@@ -248,7 +248,7 @@ NS_PROTOCOL_PROXY_SERVICE_IMPL_CID
 }
 class
 nsProtocolProxyService
-MOZ_FINAL
+final
 :
 public
 nsIProtocolProxyService2

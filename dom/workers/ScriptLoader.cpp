@@ -969,7 +969,7 @@ ScriptLoaderRunnable
 ;
 class
 ScriptExecutorRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadWorkerSyncRunnable
@@ -1014,7 +1014,7 @@ IsDebuggerRunnable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1027,7 +1027,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1042,7 +1042,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSICANCELABLERUNNABLE
 void
@@ -1062,7 +1062,7 @@ aResult
 ;
 class
 ScriptLoaderRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerFeature
@@ -1196,7 +1196,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1239,7 +1239,7 @@ uint8_t
 *
 aString
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1350,7 +1350,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 mWorkerPrivate
 -
@@ -3329,7 +3329,7 @@ nsIStreamLoaderObserver
 )
 class
 ChannelGetterRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -3420,7 +3420,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

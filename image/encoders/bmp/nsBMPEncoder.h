@@ -160,7 +160,7 @@ options
 .
 class
 nsBMPEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

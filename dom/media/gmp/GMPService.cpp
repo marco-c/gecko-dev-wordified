@@ -441,7 +441,7 @@ sSingletonService
 ;
 class
 GMPServiceCreateHelper
-MOZ_FINAL
+final
 :
 public
 nsRunnable

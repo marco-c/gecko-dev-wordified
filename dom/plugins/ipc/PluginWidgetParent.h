@@ -178,7 +178,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -188,14 +188,14 @@ nsresult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvDestroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -206,7 +206,7 @@ bool
 &
 aRaise
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,7 +216,7 @@ uintptr_t
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

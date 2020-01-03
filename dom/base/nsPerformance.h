@@ -213,7 +213,7 @@ timing
 object
 class
 nsPerformanceTiming
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -874,7 +874,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1668,7 +1668,7 @@ navigation
 object
 class
 nsPerformanceNavigation
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -1734,7 +1734,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1799,7 +1799,7 @@ performance
 object
 class
 nsPerformance
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1907,7 +1907,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

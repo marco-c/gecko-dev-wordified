@@ -260,7 +260,7 @@ this
 /
 class
 AsyncStatementParamsHolder
-MOZ_FINAL
+final
 :
 public
 nsIXPConnectJSObjectHolder

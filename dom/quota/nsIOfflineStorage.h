@@ -415,7 +415,7 @@ nsACString
 Id
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -428,7 +428,7 @@ Client
 GetClient
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -443,7 +443,7 @@ ContentParent
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -457,7 +457,7 @@ nsACString
 Origin
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -469,7 +469,7 @@ nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 \
@@ -481,7 +481,7 @@ void
 Invalidate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

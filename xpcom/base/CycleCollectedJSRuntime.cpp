@@ -5172,7 +5172,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallValueTracer
 (
@@ -5211,7 +5211,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallIdTracer
 (
@@ -5251,7 +5251,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallObjectTracer
 (
@@ -5291,7 +5291,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallTenuredObjectTracer
 (
@@ -5331,7 +5331,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallStringTracer
 (
@@ -5371,7 +5371,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallScriptTracer
 (
@@ -5411,7 +5411,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 {
 JS_CallFunctionTracer
 (
@@ -5608,7 +5608,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5636,7 +5636,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5665,7 +5665,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5694,7 +5694,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5723,7 +5723,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5752,7 +5752,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr
@@ -5781,7 +5781,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aPtr

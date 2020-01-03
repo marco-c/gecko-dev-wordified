@@ -399,7 +399,7 @@ connection
 .
 class
 nsFtpState
-MOZ_FINAL
+final
 :
 public
 nsBaseContentStream
@@ -434,7 +434,7 @@ CloseWithStatus
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Available
@@ -443,7 +443,7 @@ uint64_t
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ReadSegments
@@ -459,7 +459,7 @@ uint32_t
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -477,7 +477,7 @@ data
 uint32_t
 dataLen
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -486,7 +486,7 @@ OnControlError
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 ;
 nsFtpState
 (
@@ -515,7 +515,7 @@ void
 OnCallbackPending
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

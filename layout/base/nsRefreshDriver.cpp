@@ -1955,7 +1955,7 @@ types
 .
 class
 RefreshDriverVsyncObserver
-MOZ_FINAL
+final
 :
 public
 VsyncObserver
@@ -2000,7 +2000,7 @@ NotifyVsync
 TimeStamp
 aVsyncTimestamp
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2432,7 +2432,7 @@ void
 StartTimer
 (
 )
-MOZ_OVERRIDE
+override
 {
 mLastFireEpoch
 =
@@ -2484,7 +2484,7 @@ void
 StopTimer
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2523,7 +2523,7 @@ ScheduleNextTick
 TimeStamp
 aNowTime
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -4299,7 +4299,7 @@ often
 /
 class
 InactiveRefreshDriverTimer
-MOZ_FINAL
+final
 :
 public
 SimpleTimerBasedRefreshDriverTimer
@@ -4899,7 +4899,7 @@ RefreshTimer
 .
 class
 VsyncChildCreateCallback
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -4999,7 +4999,7 @@ PBackgroundChild
 *
 aPBackgroundChild
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5024,7 +5024,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

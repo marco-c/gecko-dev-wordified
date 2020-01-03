@@ -183,7 +183,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -201,7 +201,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -220,7 +220,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ aOn
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -241,7 +241,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -251,7 +251,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -265,7 +265,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -281,7 +281,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -293,7 +293,7 @@ mozilla
 EventStates
 aStates
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -301,7 +301,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -321,7 +321,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -337,7 +337,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -353,7 +353,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -461,7 +461,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsFileControlFrame
 *
@@ -556,7 +556,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsBlockFrame

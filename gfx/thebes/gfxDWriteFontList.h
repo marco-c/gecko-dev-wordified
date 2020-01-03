@@ -837,7 +837,7 @@ GetFontTable
 uint32_t
 aTableTag
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 ReadCMAP
@@ -928,7 +928,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxFont
@@ -1062,7 +1062,7 @@ given
 char
 class
 FontFallbackRenderer
-MOZ_FINAL
+final
 :
 public
 IDWriteTextRenderer

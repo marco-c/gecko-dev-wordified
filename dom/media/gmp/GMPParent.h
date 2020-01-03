@@ -280,7 +280,7 @@ GMPStateClosing
 ;
 class
 GMPParent
-MOZ_FINAL
+final
 :
 public
 PGMPParent
@@ -797,7 +797,7 @@ void
 CheckThread
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AbortAsyncShutdown
@@ -858,7 +858,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCrashReporterParent
@@ -870,7 +870,7 @@ NativeThreadId
 &
 aThread
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -880,7 +880,7 @@ PCrashReporterParent
 *
 aCrashReporter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPVideoDecoderParent
@@ -888,7 +888,7 @@ PGMPVideoDecoderParent
 AllocPGMPVideoDecoderParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -898,7 +898,7 @@ PGMPVideoDecoderParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPVideoEncoderParent
@@ -906,7 +906,7 @@ PGMPVideoEncoderParent
 AllocPGMPVideoEncoderParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -916,7 +916,7 @@ PGMPVideoEncoderParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPDecryptorParent
@@ -924,7 +924,7 @@ PGMPDecryptorParent
 AllocPGMPDecryptorParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -934,7 +934,7 @@ PGMPDecryptorParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPAudioDecoderParent
@@ -942,7 +942,7 @@ PGMPAudioDecoderParent
 AllocPGMPAudioDecoderParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -952,7 +952,7 @@ PGMPAudioDecoderParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -962,7 +962,7 @@ PGMPStorageParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPStorageParent
@@ -970,7 +970,7 @@ PGMPStorageParent
 AllocPGMPStorageParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -980,7 +980,7 @@ PGMPStorageParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -990,7 +990,7 @@ PGMPTimerParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PGMPTimerParent
@@ -998,7 +998,7 @@ PGMPTimerParent
 AllocPGMPTimerParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1008,21 +1008,21 @@ PGMPTimerParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvAsyncShutdownComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvAsyncShutdownRequired
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 EnsureAsyncShutdownTimeoutSet

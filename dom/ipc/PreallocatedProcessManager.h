@@ -334,7 +334,7 @@ singleton
 /
 class
 PreallocatedProcessManager
-MOZ_FINAL
+final
 {
 typedef
 mozilla

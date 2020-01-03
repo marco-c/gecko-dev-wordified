@@ -3474,7 +3474,7 @@ void
 Stop
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3558,7 +3558,7 @@ StopTrack
 TrackID
 aTrackID
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3812,7 +3812,7 @@ MediaStreamDirectListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3898,7 +3898,7 @@ MediaStreamDirectListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3940,7 +3940,7 @@ aID
 bool
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -4018,7 +4018,7 @@ DOMLocalMediaStream
 AsDOMLocalMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -4032,7 +4032,7 @@ GetMediaEngine
 TrackID
 aTrackID
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -4440,7 +4440,7 @@ DOMMediaStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

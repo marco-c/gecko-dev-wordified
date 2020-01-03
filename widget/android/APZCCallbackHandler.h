@@ -171,7 +171,7 @@ android
 {
 class
 APZCCallbackHandler
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -294,7 +294,7 @@ FrameMetrics
 &
 aFrameMetrics
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RequestFlingSnap
@@ -320,7 +320,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AcknowledgeScrollUpdate
@@ -343,7 +343,7 @@ uint32_t
 &
 aScrollGeneration
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HandleDoubleTap
@@ -368,7 +368,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HandleSingleTap
@@ -393,7 +393,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HandleLongTap
@@ -420,7 +420,7 @@ aGuid
 uint64_t
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SendAsyncScrollDOMEvent
@@ -442,7 +442,7 @@ CSSSize
 &
 aScrollableSize
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PostDelayedTask
@@ -453,7 +453,7 @@ aTask
 int
 aDelayMs
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

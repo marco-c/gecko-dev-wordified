@@ -345,7 +345,7 @@ result
 .
 class
 PromiseCallbackTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -432,7 +432,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -1028,7 +1028,7 @@ ResolvePromiseViaThenableTask
 .
 class
 ThenableResolverTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1112,7 +1112,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -4231,7 +4231,7 @@ indices
 /
 class
 CountdownHolder
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -4691,7 +4691,7 @@ CountdownHolder
 /
 class
 AllResolveHandler
-MOZ_FINAL
+final
 :
 public
 PromiseNativeHandler
@@ -4745,7 +4745,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 mCountdownHolder
 -
@@ -4775,7 +4775,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -5787,7 +5787,7 @@ EnqueueCallbackTasks
 }
 class
 WrappedWorkerRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerSameThreadRunnable
@@ -5834,7 +5834,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -8069,7 +8069,7 @@ namespace
 {
 class
 PromiseWorkerProxyControlRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -8119,7 +8119,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 mProxy
 -

@@ -262,7 +262,7 @@ column
 .
 class
 nsTreeColumn
-MOZ_FINAL
+final
 :
 public
 nsITreeColumn
@@ -319,7 +319,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -836,7 +836,7 @@ NS_TREECOLUMN_IMPL_CID
 )
 class
 nsTreeColumns
-MOZ_FINAL
+final
 :
 public
 nsITreeColumns
@@ -891,7 +891,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

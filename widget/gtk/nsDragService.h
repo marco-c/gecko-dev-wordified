@@ -286,7 +286,7 @@ wrapper
 /
 class
 nsDragService
-MOZ_FINAL
+final
 :
 public
 nsBaseDragService
@@ -319,13 +319,13 @@ aRegion
 uint32_t
 aActionType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 StartDragSession
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 EndDragSession
@@ -333,7 +333,7 @@ EndDragSession
 bool
 aDoneDrag
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -344,7 +344,7 @@ SetCanDrop
 bool
 aCanDrop
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCanDrop
@@ -353,7 +353,7 @@ bool
 *
 aCanDrop
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNumDropItems
@@ -362,7 +362,7 @@ uint32_t
 *
 aNumItems
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetData
@@ -373,7 +373,7 @@ aTransferable
 uint32_t
 aItemIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsDataFlavorSupported
@@ -386,7 +386,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

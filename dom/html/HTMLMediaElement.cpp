@@ -1955,7 +1955,7 @@ HTMLMediaElement
 :
 :
 MediaLoadListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -16399,7 +16399,7 @@ aGraph
 Blocking
 aBlocked
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -16469,7 +16469,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -16517,7 +16517,7 @@ MediaStreamGraph
 *
 aGraph
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -16564,7 +16564,7 @@ aGraph
 GraphTime
 aCurrentTime
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock

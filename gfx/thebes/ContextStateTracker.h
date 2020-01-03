@@ -303,7 +303,7 @@ ID3D11DeviceContext
 ;
 class
 ContextStateTrackerD3D11
-MOZ_FINAL
+final
 :
 public
 ContextStateTracker
@@ -363,7 +363,7 @@ Flush
 /
 class
 ContextStateTrackerOGL
-MOZ_FINAL
+final
 :
 public
 ContextStateTracker

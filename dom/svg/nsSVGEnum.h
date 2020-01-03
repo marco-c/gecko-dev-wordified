@@ -373,7 +373,7 @@ public
 :
 struct
 DOMAnimatedEnum
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -446,7 +446,7 @@ uint16_t
 BaseVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mVal
@@ -470,7 +470,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 aRv
 =
@@ -489,7 +489,7 @@ uint16_t
 AnimVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -639,7 +639,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -647,14 +647,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -665,7 +665,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

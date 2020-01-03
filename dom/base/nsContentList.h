@@ -288,7 +288,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -298,7 +298,7 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 Length
@@ -489,7 +489,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -605,7 +605,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRoot
@@ -629,7 +629,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1349,7 +1349,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1365,7 +1365,7 @@ JSObject
 GetWrapperPreserveColorInternal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsWrapperCache
@@ -1396,7 +1396,7 @@ aContent
 bool
 aDoFlush
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -1406,7 +1406,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -1414,7 +1414,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRootNode
@@ -1428,7 +1428,7 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1444,7 +1444,7 @@ GetElementAt
 uint32_t
 index
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1465,7 +1465,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -1506,7 +1506,7 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2151,7 +2151,7 @@ void
 RemoveFromCaches
 (
 )
-MOZ_OVERRIDE
+override
 {
 RemoveFromHashtable
 (
@@ -2679,7 +2679,7 @@ void
 RemoveFromCaches
 (
 )
-MOZ_OVERRIDE
+override
 {
 RemoveFromFuncStringHashtable
 (
@@ -2758,7 +2758,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -2834,7 +2834,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef

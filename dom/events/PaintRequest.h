@@ -147,7 +147,7 @@ DOMRect
 ;
 class
 PaintRequest
-MOZ_FINAL
+final
 :
 public
 nsIDOMPaintRequest
@@ -200,7 +200,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsIDOMEvent
 *
@@ -281,7 +281,7 @@ mRequest
 ;
 class
 PaintRequestList
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -327,7 +327,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

@@ -140,7 +140,7 @@ maps
 /
 class
 HTMLImageMapAccessible
-MOZ_FINAL
+final
 :
 public
 ImageAccessibleWrap
@@ -175,7 +175,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -185,7 +185,7 @@ uint32_t
 AnchorCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -195,7 +195,7 @@ AnchorAt
 uint32_t
 aAnchorIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -207,7 +207,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -272,7 +272,7 @@ void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -296,7 +296,7 @@ image
 /
 class
 HTMLAreaAccessible
-MOZ_FINAL
+final
 :
 public
 HTMLLinkAccessible
@@ -324,7 +324,7 @@ nsString
 &
 aDescription
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -338,7 +338,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -350,7 +350,7 @@ nsIFrame
 aBoundingFrame
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -360,14 +360,14 @@ uint32_t
 StartOffset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 EndOffset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -382,14 +382,14 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

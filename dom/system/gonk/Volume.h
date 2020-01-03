@@ -354,7 +354,7 @@ VolumeObserverList
 endif
 class
 Volume
-MOZ_FINAL
+final
 {
 public
 :

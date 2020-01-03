@@ -456,7 +456,7 @@ behavior
 /
 class
 MatchAutoCompleteFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -1267,7 +1267,7 @@ false
 /
 class
 CalculateFrecencyFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -1362,7 +1362,7 @@ item
 /
 class
 GenerateGUIDFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -1454,7 +1454,7 @@ page
 /
 class
 GetUnreversedHostFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -1639,7 +1639,7 @@ removed
 /
 class
 FixupURLFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -1877,7 +1877,7 @@ newFrecency
 /
 class
 FrecencyNotificationFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction

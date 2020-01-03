@@ -235,7 +235,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -245,7 +245,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BuildDisplayList
@@ -262,7 +262,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -282,7 +282,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -296,7 +296,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -319,7 +319,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -339,7 +339,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -357,7 +357,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -373,7 +373,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -387,7 +387,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -437,7 +437,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -447,7 +447,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -457,7 +457,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -466,7 +466,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -476,7 +476,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -509,7 +509,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetAdditionalStyleContext
@@ -520,7 +520,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -847,7 +847,7 @@ nsCSSPseudoElements
 Type
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1083,7 +1083,7 @@ mOuterFocusStyle
 ;
 class
 DummyTouchListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -1106,7 +1106,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

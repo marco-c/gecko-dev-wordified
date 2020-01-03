@@ -219,7 +219,7 @@ NS_NULLPRINCIPALURI_IMPLEMENTATION_CID
 }
 class
 nsNullPrincipalURI
-MOZ_FINAL
+final
 :
 public
 nsIURI
@@ -247,7 +247,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -260,7 +260,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 explicit
 nsNullPrincipalURI

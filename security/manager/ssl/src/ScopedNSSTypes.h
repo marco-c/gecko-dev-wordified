@@ -1463,7 +1463,7 @@ MOZ_CRASH
 }
 class
 ScopedAutoSECItem
-MOZ_FINAL
+final
 :
 public
 SECItem

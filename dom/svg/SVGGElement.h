@@ -140,7 +140,7 @@ dom
 {
 class
 SVGGElement
-MOZ_FINAL
+final
 :
 public
 SVGGraphicsElement
@@ -182,7 +182,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -228,7 +228,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -249,7 +249,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

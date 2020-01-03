@@ -577,7 +577,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTarget
 -
@@ -615,7 +615,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -757,7 +757,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTarget
 -
@@ -783,7 +783,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -945,7 +945,7 @@ aData
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 {
 mTarget
 -

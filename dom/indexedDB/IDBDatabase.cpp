@@ -597,7 +597,7 @@ destroyed
 ;
 class
 CancelableRunnableWrapper
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable
@@ -658,7 +658,7 @@ someday
 .
 class
 CreateFileHelper
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -784,7 +784,7 @@ NS_DECL_NSIRUNNABLE
 ;
 class
 DatabaseFile
-MOZ_FINAL
+final
 :
 public
 PBackgroundIDBDatabaseFileChild
@@ -852,7 +852,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -913,7 +913,7 @@ IDBDatabase
 :
 :
 LogWarningRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1020,7 +1020,7 @@ IDBDatabase
 :
 :
 Observer
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1818,7 +1818,7 @@ AssertIsOnOwningThread
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :
@@ -3926,7 +3926,7 @@ AssertIsOnOwningThread
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :
@@ -4715,7 +4715,7 @@ aFileActor
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :
@@ -5321,7 +5321,7 @@ AssertIsOnOwningThread
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :

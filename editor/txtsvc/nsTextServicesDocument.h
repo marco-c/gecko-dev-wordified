@@ -209,7 +209,7 @@ object
 /
 class
 nsTextServicesDocument
-MOZ_FINAL
+final
 :
 public
 nsITextServicesDocument
@@ -589,7 +589,7 @@ nsIEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDocument
@@ -599,7 +599,7 @@ nsIDOMDocument
 *
 aDoc
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetExtent
@@ -608,7 +608,7 @@ nsIDOMRange
 *
 aDOMRange
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ExpandRangeToWordBoundaries
@@ -617,7 +617,7 @@ nsIDOMRange
 *
 aRange
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetFilter
@@ -626,7 +626,7 @@ nsITextServicesFilter
 *
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCurrentTextBlock
@@ -635,13 +635,13 @@ nsString
 *
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FirstBlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LastSelectedBlock
@@ -656,19 +656,19 @@ int32_t
 *
 aSelLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PrevBlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NextBlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsDone
@@ -677,7 +677,7 @@ bool
 *
 aIsDone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelection
@@ -687,19 +687,19 @@ aOffset
 int32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ScrollSelectionIntoView
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DeleteSelection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InsertText
@@ -709,7 +709,7 @@ nsString
 *
 aText
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -731,7 +731,7 @@ aParent
 int32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidInsertNode
@@ -747,7 +747,7 @@ aPosition
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteNode
@@ -756,7 +756,7 @@ nsIDOMNode
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteNode
@@ -767,7 +767,7 @@ aChild
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillSplitNode
@@ -778,7 +778,7 @@ aExistingRightNode
 int32_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidSplitNode
@@ -794,7 +794,7 @@ aNewLeftNode
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillJoinNodes
@@ -809,7 +809,7 @@ nsIDOMNode
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidJoinNodes
@@ -826,7 +826,7 @@ aParent
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -849,7 +849,7 @@ aParent
 int32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidCreateNode
@@ -869,7 +869,7 @@ aPosition
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInsertText
@@ -884,7 +884,7 @@ nsAString
 &
 aString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidInsertText
@@ -901,7 +901,7 @@ aString
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteText
@@ -914,7 +914,7 @@ aOffset
 int32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteText
@@ -929,7 +929,7 @@ aLength
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteSelection
@@ -938,7 +938,7 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteSelection
@@ -947,7 +947,7 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

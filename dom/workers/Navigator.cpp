@@ -378,7 +378,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1105,7 +1105,7 @@ thread
 .
 class
 NavigatorGetDataStoresRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -1281,7 +1281,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1737,7 +1737,7 @@ namespace
 {
 class
 GetUserAgentRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -1785,7 +1785,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

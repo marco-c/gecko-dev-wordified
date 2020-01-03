@@ -275,7 +275,7 @@ nsSegmentedBuffer
 ;
 class
 nsStorageStream
-MOZ_FINAL
+final
 :
 public
 nsIStorageStream

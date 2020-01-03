@@ -327,7 +327,7 @@ nsPrefetchService
 -
 class
 nsPrefetchService
-MOZ_FINAL
+final
 :
 public
 nsIPrefetchService
@@ -681,7 +681,7 @@ nsPrefetchNode
 -
 class
 nsPrefetchNode
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

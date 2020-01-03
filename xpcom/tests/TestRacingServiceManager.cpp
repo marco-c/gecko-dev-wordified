@@ -448,7 +448,7 @@ mReentrantMonitorPtr
 ;
 class
 Factory
-MOZ_FINAL
+final
 :
 public
 nsIFactory
@@ -487,7 +487,7 @@ void
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LockFactory
@@ -495,7 +495,7 @@ LockFactory
 bool
 aLock
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -513,7 +513,7 @@ nsIFactory
 )
 class
 Component1
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -595,7 +595,7 @@ nsISupports
 NS_INTERFACE_MAP_END
 class
 Component2
-MOZ_FINAL
+final
 :
 public
 nsISupports

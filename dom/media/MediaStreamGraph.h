@@ -5079,7 +5079,7 @@ SourceMediaStream
 AsSourceStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -5096,7 +5096,7 @@ void
 DestroyImpl
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -5837,7 +5837,7 @@ aTrackID
 bool
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -5886,7 +5886,7 @@ aRawSegment
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 mMutex
 .
@@ -6650,7 +6650,7 @@ object
 /
 class
 MediaInputPort
-MOZ_FINAL
+final
 {
 private
 :
@@ -7391,7 +7391,7 @@ ProcessedMediaStream
 AsProcessedStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -7474,7 +7474,7 @@ void
 DestroyImpl
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -7795,7 +7795,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -7840,7 +7840,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

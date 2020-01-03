@@ -404,7 +404,7 @@ nsIAutoCompleteController
 nsNavHistory
 class
 nsNavHistory
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference

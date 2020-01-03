@@ -286,7 +286,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -309,7 +309,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -375,7 +375,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -407,7 +407,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -415,7 +415,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGViewBox
 mViewBox
@@ -428,7 +428,7 @@ StringListAttributesInfo
 GetStringListInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

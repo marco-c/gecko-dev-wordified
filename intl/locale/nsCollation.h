@@ -138,7 +138,7 @@ locale
 /
 class
 nsCollationFactory
-MOZ_FINAL
+final
 :
 public
 nsICollationFactory
@@ -163,7 +163,7 @@ nsICollation
 *
 instancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 nsCollationFactory
 (

@@ -284,7 +284,7 @@ txObject
 *
 aVal2
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 createSortableValue
@@ -300,7 +300,7 @@ txObject
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -417,7 +417,7 @@ txObject
 *
 aVal2
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 createSortableValue
@@ -433,7 +433,7 @@ txObject
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

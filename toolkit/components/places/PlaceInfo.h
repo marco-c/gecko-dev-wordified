@@ -113,7 +113,7 @@ places
 {
 class
 PlaceInfo
-MOZ_FINAL
+final
 :
 public
 mozIPlaceInfo

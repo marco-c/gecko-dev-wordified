@@ -750,7 +750,7 @@ type
 .
 class
 AttributeMap
-MOZ_FINAL
+final
 {
 public
 :
@@ -1318,7 +1318,7 @@ FilterDescription
 /
 class
 FilterPrimitiveDescription
-MOZ_FINAL
+final
 {
 public
 :
@@ -1731,7 +1731,7 @@ functionality
 /
 struct
 FilterDescription
-MOZ_FINAL
+final
 {
 FilterDescription
 (

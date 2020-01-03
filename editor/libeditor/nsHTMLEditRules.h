@@ -351,13 +351,13 @@ nsPlaintextEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DetachEditor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 BeforeEdit
@@ -370,7 +370,7 @@ nsIEditor
 EDirection
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AfterEdit
@@ -383,7 +383,7 @@ nsIEditor
 EDirection
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDoAction
@@ -407,7 +407,7 @@ bool
 *
 aHandled
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDoAction
@@ -427,13 +427,13 @@ aInfo
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DocumentModified
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetListState
@@ -530,7 +530,7 @@ aParent
 int32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidCreateNode
@@ -550,7 +550,7 @@ aPosition
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInsertNode
@@ -564,7 +564,7 @@ aParent
 int32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidInsertNode
@@ -580,7 +580,7 @@ aPosition
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteNode
@@ -589,7 +589,7 @@ nsIDOMNode
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteNode
@@ -600,7 +600,7 @@ aChild
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillSplitNode
@@ -611,7 +611,7 @@ aExistingRightNode
 int32_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidSplitNode
@@ -627,7 +627,7 @@ aNewLeftNode
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillJoinNodes
@@ -642,7 +642,7 @@ nsIDOMNode
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidJoinNodes
@@ -659,7 +659,7 @@ aParent
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInsertText
@@ -674,7 +674,7 @@ nsAString
 &
 aString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidInsertText
@@ -691,7 +691,7 @@ aString
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteText
@@ -704,7 +704,7 @@ aOffset
 int32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteText
@@ -719,7 +719,7 @@ aLength
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillDeleteSelection
@@ -728,7 +728,7 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDeleteSelection
@@ -737,7 +737,7 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

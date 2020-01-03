@@ -142,7 +142,7 @@ http
 txt
 class
 nsHttpNegotiateAuth
-MOZ_FINAL
+final
 :
 public
 nsIHttpAuthenticator

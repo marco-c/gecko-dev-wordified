@@ -96,7 +96,7 @@ telephony
 {
 class
 TelephonyCallInfo
-MOZ_FINAL
+final
 :
 public
 nsITelephonyCallInfo

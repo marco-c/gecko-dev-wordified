@@ -305,7 +305,7 @@ mArray
 ;
 class
 nsArray
-MOZ_FINAL
+final
 :
 public
 nsArrayBase
@@ -361,7 +361,7 @@ nsArray
 ;
 class
 nsArrayCC
-MOZ_FINAL
+final
 :
 public
 nsArrayBase

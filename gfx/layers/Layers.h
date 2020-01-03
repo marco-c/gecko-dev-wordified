@@ -728,7 +728,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 n
@@ -741,7 +741,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 e
@@ -12253,7 +12253,7 @@ PaintedLayer
 AsPaintedLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -12278,7 +12278,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 gfx
 :
@@ -12652,7 +12652,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -12669,7 +12669,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -13200,7 +13200,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SortChildrenBy3DZOrder
@@ -13229,7 +13229,7 @@ ContainerLayer
 AsContainerLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -13243,7 +13243,7 @@ AsContainerLayer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -13256,7 +13256,7 @@ GetFirstChild
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFirstChild
@@ -13269,7 +13269,7 @@ GetLastChild
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mLastChild
@@ -13393,7 +13393,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -13891,7 +13891,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -13908,7 +13908,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 Layer
 *
@@ -14104,7 +14104,7 @@ ColorLayer
 AsColorLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -14255,7 +14255,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 gfx
 :
@@ -14332,7 +14332,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -14349,7 +14349,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 nsIntRect
 mBounds
@@ -15049,7 +15049,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -15203,7 +15203,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -15220,7 +15220,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 FireDidTransactionCallback
@@ -15411,7 +15411,7 @@ Layer
 *
 aAfter
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -15429,7 +15429,7 @@ Layer
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -15450,7 +15450,7 @@ Layer
 *
 aAfter
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -15777,7 +15777,7 @@ RefLayer
 AsRefLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -15810,7 +15810,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 MOZ_LAYER_DECL_NAME
 (
@@ -15857,7 +15857,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -15874,7 +15874,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 Layer
 *

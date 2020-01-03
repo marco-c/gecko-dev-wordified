@@ -360,7 +360,7 @@ Promise
 ;
 class
 AudioContext
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -458,7 +458,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 using
 DOMEventTargetHelper
@@ -1224,7 +1224,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 struct

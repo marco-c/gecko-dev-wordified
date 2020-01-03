@@ -2614,7 +2614,7 @@ nsIntRect
 *
 aDirtyRect
 )
-MOZ_OVERRIDE
+override
 {
 nsISVGChildFrame
 *

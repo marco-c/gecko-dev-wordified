@@ -362,7 +362,7 @@ created
 ;
 class
 nsFaviconService
-MOZ_FINAL
+final
 :
 public
 nsIFaviconService

@@ -217,7 +217,7 @@ void
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -242,7 +242,7 @@ aNumberOfCores
 uint32_t
 aMaxPayloadSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -271,7 +271,7 @@ GMPVideoFrameType
 &
 aFrameTypes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -282,7 +282,7 @@ aPacketLoss
 uint32_t
 aRTT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -293,7 +293,7 @@ aNewBitRate
 uint32_t
 aFrameRate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -302,7 +302,7 @@ SetPeriodicKeyFrames
 bool
 aEnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -310,7 +310,7 @@ uint64_t
 ParentID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 reinterpret_cast
@@ -347,7 +347,7 @@ Shmem
 *
 aMem
 )
-MOZ_OVERRIDE
+override
 {
 #
 ifdef
@@ -381,7 +381,7 @@ Shmem
 &
 aMem
 )
-MOZ_OVERRIDE
+override
 {
 DeallocShmem
 (
@@ -407,7 +407,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -425,7 +425,7 @@ uint8_t
 &
 aCodecSpecificInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -436,7 +436,7 @@ GMPErr
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -447,7 +447,7 @@ Shmem
 &
 aFrameBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -461,14 +461,14 @@ Shmem
 *
 aMem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mIsOpen

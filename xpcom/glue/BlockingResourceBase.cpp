@@ -808,7 +808,7 @@ ifndef
 MOZ_CALLSTACK_DISABLED
 struct
 CodeAddressServiceLock
-MOZ_FINAL
+final
 {
 static
 void
@@ -838,7 +838,7 @@ true
 ;
 struct
 CodeAddressServiceStringAlloc
-MOZ_FINAL
+final
 {
 static
 char
@@ -881,7 +881,7 @@ aString
 ;
 class
 CodeAddressServiceStringTable
-MOZ_FINAL
+final
 {
 public
 :

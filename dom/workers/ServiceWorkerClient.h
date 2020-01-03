@@ -176,7 +176,7 @@ objects
 .
 class
 ServiceWorkerClientInfo
-MOZ_FINAL
+final
 {
 friend
 class
@@ -371,7 +371,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

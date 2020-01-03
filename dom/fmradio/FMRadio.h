@@ -157,7 +157,7 @@ DOMRequest
 ;
 class
 FMRadio
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -224,7 +224,7 @@ SwitchEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -240,7 +240,7 @@ FMRadioEventType
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -273,7 +273,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

@@ -4529,7 +4529,7 @@ TimeDuration
 &
 aDelta
 )
-MOZ_OVERRIDE
+override
 {
 float
 friction
@@ -5413,7 +5413,7 @@ TimeDuration
 &
 aDelta
 )
-MOZ_OVERRIDE
+override
 {
 mDuration
 +
@@ -5797,7 +5797,7 @@ TimeDuration
 &
 aDelta
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

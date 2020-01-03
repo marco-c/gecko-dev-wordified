@@ -143,7 +143,7 @@ nsIWidget
 ;
 class
 nsQueryContentEventResult
-MOZ_FINAL
+final
 :
 public
 nsIQueryContentEventResult

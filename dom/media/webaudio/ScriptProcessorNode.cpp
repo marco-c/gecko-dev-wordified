@@ -1518,7 +1518,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -1866,7 +1866,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1958,7 +1958,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

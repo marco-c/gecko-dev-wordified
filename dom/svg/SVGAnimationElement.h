@@ -227,7 +227,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -251,7 +251,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -262,7 +262,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -276,7 +276,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -286,7 +286,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -309,7 +309,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -327,7 +327,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 const
 nsAttrValue
@@ -417,7 +417,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -616,7 +616,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 nsReferencedElement
 :
@@ -662,7 +662,7 @@ bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

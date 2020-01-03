@@ -226,7 +226,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

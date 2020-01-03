@@ -130,7 +130,7 @@ dom
 {
 class
 HTMLDataListElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -212,7 +212,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -277,7 +277,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

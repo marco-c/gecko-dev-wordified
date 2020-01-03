@@ -151,7 +151,7 @@ children
 /
 class
 ChildrenEnumVariant
-MOZ_FINAL
+final
 :
 public
 IEnumVARIANT

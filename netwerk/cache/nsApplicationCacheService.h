@@ -83,7 +83,7 @@ nsCacheService
 ;
 class
 nsApplicationCacheService
-MOZ_FINAL
+final
 :
 public
 nsIApplicationCacheService

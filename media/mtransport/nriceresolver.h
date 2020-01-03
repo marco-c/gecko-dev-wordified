@@ -677,7 +677,7 @@ record
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 ;
 int
 cancel

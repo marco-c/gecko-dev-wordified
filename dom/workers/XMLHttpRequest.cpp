@@ -755,7 +755,7 @@ ids
 BEGIN_WORKERS_NAMESPACE
 class
 Proxy
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -1443,7 +1443,7 @@ MainThreadProxyRunnable
 ;
 class
 XHRUnpinRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadWorkerControlRunnable
@@ -1524,7 +1524,7 @@ true
 ;
 class
 AsyncTeardownRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1569,7 +1569,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1594,7 +1594,7 @@ NS_OK
 ;
 class
 LoadStartDetectionRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1632,7 +1632,7 @@ mReceivedLoadStart
 ;
 class
 ProxyCompleteRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadProxyRunnable
@@ -1695,7 +1695,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1763,7 +1763,7 @@ NS_IMETHOD
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1934,7 +1934,7 @@ AssertIsOnMainThread
 ;
 class
 EventRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadProxyRunnable
@@ -2294,7 +2294,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2307,7 +2307,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2339,7 +2339,7 @@ private
 :
 class
 ResponseRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadStopSyncLoopRunnable
@@ -2412,7 +2412,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2561,7 +2561,7 @@ NS_DECL_NSIRUNNABLE
 ;
 class
 SyncTeardownRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2598,7 +2598,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mProxy
 -
@@ -2624,7 +2624,7 @@ NS_OK
 ;
 class
 SetBackgroundRequestRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2670,7 +2670,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProxy
@@ -2689,7 +2689,7 @@ mValue
 ;
 class
 SetWithCredentialsRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2735,7 +2735,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProxy
@@ -2754,7 +2754,7 @@ mValue
 ;
 class
 SetResponseTypeRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2818,7 +2818,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -2870,7 +2870,7 @@ rv
 ;
 class
 SetTimeoutRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2916,7 +2916,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProxy
@@ -2935,7 +2935,7 @@ mTimeout
 ;
 class
 AbortRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -2972,13 +2972,13 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 GetAllResponseHeadersRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3026,7 +3026,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mProxy
 -
@@ -3047,7 +3047,7 @@ NS_OK
 ;
 class
 GetResponseHeaderRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3107,7 +3107,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProxy
@@ -3127,7 +3127,7 @@ mValue
 ;
 class
 OpenRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3291,7 +3291,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 WorkerPrivate
 *
@@ -3336,7 +3336,7 @@ MainThreadRunInternal
 ;
 class
 SendRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3445,13 +3445,13 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 SetRequestHeaderRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3510,7 +3510,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProxy
@@ -3530,7 +3530,7 @@ mValue
 ;
 class
 OverrideMimeTypeRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerThreadProxySyncRunnable
@@ -3578,7 +3578,7 @@ nsresult
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mProxy
 -

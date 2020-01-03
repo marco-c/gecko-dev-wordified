@@ -170,7 +170,7 @@ Promise
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerNavigator
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -264,7 +264,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

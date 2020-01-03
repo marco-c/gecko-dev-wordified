@@ -94,7 +94,7 @@ embedding
 {
 class
 PrintProgressDialogParent
-MOZ_FINAL
+final
 :
 public
 PPrintProgressDialogParent
@@ -139,7 +139,7 @@ nsresult
 &
 status
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -162,7 +162,7 @@ long
 &
 maxTotalProgress
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -173,7 +173,7 @@ nsString
 &
 newTitle
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -184,7 +184,7 @@ nsString
 &
 newURL
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,14 +193,14 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -207,7 +207,7 @@ sizes
 /
 class
 nsGridCell
-MOZ_FINAL
+final
 {
 public
 :

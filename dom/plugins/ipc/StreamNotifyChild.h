@@ -180,7 +180,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetValid
@@ -213,7 +213,7 @@ NPReason
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvRedirectNotify
@@ -227,7 +227,7 @@ int32_t
 &
 status
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

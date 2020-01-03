@@ -104,7 +104,7 @@ occurs
 /
 class
 ProfilerIOInterposeObserver
-MOZ_FINAL
+final
 :
 public
 IOInterposeObserver

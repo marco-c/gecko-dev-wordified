@@ -1296,7 +1296,7 @@ char16_t
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetData
@@ -1306,7 +1306,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDataWithLength
@@ -1318,7 +1318,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 nsCOMPtr
 <

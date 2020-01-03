@@ -2400,7 +2400,7 @@ aDisplayLinkContext
 ;
 class
 OSXVsyncSource
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -2418,7 +2418,7 @@ Display
 GetGlobalDisplay
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mGlobalDisplay
@@ -2426,7 +2426,7 @@ mGlobalDisplay
 }
 class
 OSXDisplay
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -2538,7 +2538,7 @@ void
 EnableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2905,7 +2905,7 @@ void
 DisableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2952,7 +2952,7 @@ bool
 IsVsyncEnabled
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

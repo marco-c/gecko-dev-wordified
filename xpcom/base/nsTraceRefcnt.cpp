@@ -517,7 +517,7 @@ gTraceLogLocked
 struct
 MOZ_STACK_CLASS
 AutoTraceLogLock
-MOZ_FINAL
+final
 {
 AutoTraceLogLock
 (
@@ -1172,7 +1172,7 @@ ifdef
 MOZ_STACKWALKING
 class
 CodeAddressServiceStringTable
-MOZ_FINAL
+final
 {
 public
 :
@@ -1253,7 +1253,7 @@ mSet
 ;
 struct
 CodeAddressServiceStringAlloc
-MOZ_FINAL
+final
 {
 static
 char
@@ -1317,7 +1317,7 @@ anything
 .
 struct
 CodeAddressServiceLock
-MOZ_FINAL
+final
 {
 static
 void

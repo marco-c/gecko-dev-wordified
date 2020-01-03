@@ -200,7 +200,7 @@ kCollationValueSizeFactor
 ;
 class
 nsCollationMacUC
-MOZ_FINAL
+final
 :
 public
 nsICollation

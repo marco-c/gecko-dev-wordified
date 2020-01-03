@@ -160,7 +160,7 @@ h
 "
 class
 nsSimpleArrayEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -582,7 +582,7 @@ done
 correctly
 class
 nsCOMArrayEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

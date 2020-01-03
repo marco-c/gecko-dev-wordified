@@ -251,7 +251,7 @@ subclassed
 /
 class
 nsTextFragment
-MOZ_FINAL
+final
 {
 public
 :

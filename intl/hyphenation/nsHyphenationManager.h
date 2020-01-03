@@ -189,7 +189,7 @@ protected
 :
 class
 MemoryPressureObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

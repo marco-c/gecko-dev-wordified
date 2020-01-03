@@ -407,7 +407,7 @@ WidgetGestureNotifyEvent
 AsGestureNotifyEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -448,7 +448,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -802,7 +802,7 @@ WidgetSimpleGestureEvent
 AsSimpleGestureEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -900,7 +900,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1270,7 +1270,7 @@ WidgetTouchEvent
 AsTouchEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1400,7 +1400,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

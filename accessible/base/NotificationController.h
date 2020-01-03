@@ -351,7 +351,7 @@ void
 Process
 (
 )
-MOZ_OVERRIDE
+override
 {
 (
 mInstance
@@ -430,7 +430,7 @@ accessible
 /
 class
 NotificationController
-MOZ_FINAL
+final
 :
 public
 EventQueue
@@ -457,7 +457,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -467,7 +467,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
@@ -1021,7 +1021,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

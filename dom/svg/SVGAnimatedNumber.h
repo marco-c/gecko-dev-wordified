@@ -191,8 +191,8 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 float

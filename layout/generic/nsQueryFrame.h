@@ -149,7 +149,7 @@ QueryFrame
 FrameIID
 id
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define

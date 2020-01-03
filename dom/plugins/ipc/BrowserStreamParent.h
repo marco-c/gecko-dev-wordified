@@ -183,7 +183,7 @@ bool
 IsBrowserStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -196,7 +196,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -211,7 +211,7 @@ uint16_t
 &
 stype
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -225,7 +225,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -236,14 +236,14 @@ NPReason
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStreamDestroyed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 WriteReady

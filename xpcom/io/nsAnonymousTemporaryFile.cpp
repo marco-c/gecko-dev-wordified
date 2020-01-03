@@ -1325,7 +1325,7 @@ alive
 .
 class
 nsAnonTempFileRemover
-MOZ_FINAL
+final
 :
 public
 nsIObserver

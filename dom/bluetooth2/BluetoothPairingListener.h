@@ -152,7 +152,7 @@ BluetoothSignal
 ;
 class
 BluetoothPairingListener
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -238,14 +238,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -255,7 +255,7 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 IMPL_EVENT_HANDLER
 (

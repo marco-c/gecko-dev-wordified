@@ -195,7 +195,7 @@ string
 /
 class
 XPathEvaluator
-MOZ_FINAL
+final
 :
 public
 nsIDOMXPathEvaluator

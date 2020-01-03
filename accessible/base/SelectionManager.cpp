@@ -235,7 +235,7 @@ a11y
 :
 :
 SelData
-MOZ_FINAL
+final
 {
 SelData
 (

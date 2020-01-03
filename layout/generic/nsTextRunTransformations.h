@@ -133,7 +133,7 @@ nsTransformedTextRun
 ;
 struct
 nsTransformedCharStyle
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -559,7 +559,7 @@ gfxMissingFontRecorder
 *
 aMFR
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -786,7 +786,7 @@ contents
 /
 class
 nsTransformedTextRun
-MOZ_FINAL
+final
 :
 public
 gfxTextRun

@@ -154,7 +154,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -350,7 +350,7 @@ layers
 /
 class
 BasicLayerManager
-MOZ_FINAL
+final
 :
 public
 LayerManager
@@ -717,7 +717,7 @@ bool
 IsWidgetLayerManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mWidget
@@ -731,7 +731,7 @@ bool
 IsInactiveLayerManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mType
@@ -745,7 +745,7 @@ void
 BeginTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -755,7 +755,7 @@ gfxContext
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -766,7 +766,7 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -782,14 +782,14 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ShouldAvoidComponentAlphaLayers
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 IsWidgetLayerManager
@@ -810,7 +810,7 @@ Layer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -820,7 +820,7 @@ PaintedLayer
 CreatePaintedLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -830,7 +830,7 @@ ContainerLayer
 CreateContainerLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -840,7 +840,7 @@ ImageLayer
 CreateImageLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -850,7 +850,7 @@ CanvasLayer
 CreateCanvasLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -860,7 +860,7 @@ ColorLayer
 CreateColorLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -870,7 +870,7 @@ ReadbackLayer
 CreateReadbackLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ImageFactory
@@ -884,7 +884,7 @@ LayersBackend
 GetBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 LayersBackend
@@ -901,7 +901,7 @@ nsAString
 &
 name
 )
-MOZ_OVERRIDE
+override
 {
 name
 .
@@ -1013,7 +1013,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1042,7 +1042,7 @@ aSubtree
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetTransactionIncomplete
@@ -1089,7 +1089,7 @@ bool
 IsCompositingCheap
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1101,7 +1101,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 INT32_MAX
@@ -1130,7 +1130,7 @@ CompositionOp
 &
 aMixBlendModes
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

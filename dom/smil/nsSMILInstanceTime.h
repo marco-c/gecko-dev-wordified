@@ -365,7 +365,7 @@ nsSMILInterval
 .
 class
 nsSMILInstanceTime
-MOZ_FINAL
+final
 {
 public
 :

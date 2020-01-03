@@ -2815,7 +2815,7 @@ void
 reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2887,7 +2887,7 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
+override
 ;
 void
 bindInitialJump
@@ -2899,7 +2899,7 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2922,7 +2922,7 @@ MacroAssembler
 &
 masm
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2930,7 +2930,7 @@ void
 rejoinAddress
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 rejoinLabel
@@ -4100,7 +4100,7 @@ void
 reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4113,7 +4113,7 @@ AddCacheState
 *
 addState
 )
-MOZ_OVERRIDE
+override
 ;
 void
 emitInitialJump
@@ -4125,7 +4125,7 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
+override
 ;
 void
 bindInitialJump
@@ -4137,7 +4137,7 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4163,7 +4163,7 @@ MacroAssembler
 &
 masm
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4171,7 +4171,7 @@ void
 rejoinAddress
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 rejoinLabel_

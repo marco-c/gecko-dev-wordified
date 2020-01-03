@@ -936,7 +936,7 @@ false
 ;
 class
 AsyncDeleteFileRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -975,7 +975,7 @@ mFileId
 ;
 class
 GetFileReferencesHelper
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -3552,7 +3552,7 @@ AssertIsOnIOThread
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :

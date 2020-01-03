@@ -950,7 +950,7 @@ delete
 ;
 class
 DOMMatrix
-MOZ_FINAL
+final
 :
 public
 DOMMatrixReadOnly
@@ -1137,7 +1137,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define

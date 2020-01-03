@@ -231,7 +231,7 @@ WebGL2
 ;
 class
 HTMLCanvasElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -840,7 +840,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsChangeHint
 GetAttributeChangeHint
@@ -853,7 +853,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -921,7 +921,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -935,7 +935,7 @@ aName
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -956,7 +956,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -983,7 +983,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1169,7 +1169,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsIntSize
 GetWidthHeight
@@ -1400,7 +1400,7 @@ GetOriginalCanvas
 ;
 class
 HTMLCanvasPrintState
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -1466,7 +1466,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 HTMLCanvasElement
 *

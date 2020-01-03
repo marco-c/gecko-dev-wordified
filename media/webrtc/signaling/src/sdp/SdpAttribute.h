@@ -1043,7 +1043,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 ConnValue
 mValue
@@ -1369,7 +1369,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 Direction
 mValue
@@ -1868,7 +1868,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -2514,7 +2514,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -3199,7 +3199,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -3803,7 +3803,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -4802,7 +4802,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -5094,7 +5094,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -5432,7 +5432,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -5712,7 +5712,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -5985,7 +5985,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 mPort
@@ -6617,7 +6617,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -7085,7 +7085,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 HasEntry
@@ -7729,7 +7729,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -7752,7 +7752,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -8124,7 +8124,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -8147,7 +8147,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -8495,7 +8495,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 PushEntry
@@ -8913,7 +8913,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 HasEntry
@@ -9280,7 +9280,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 Role
 mRole
@@ -9855,7 +9855,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -10183,7 +10183,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -10612,7 +10612,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -10675,7 +10675,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 std
 :
@@ -10739,7 +10739,7 @@ ostream
 os
 )
 const
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 mValue

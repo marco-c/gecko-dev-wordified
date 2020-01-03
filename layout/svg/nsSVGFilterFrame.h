@@ -247,7 +247,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -262,7 +262,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -281,7 +281,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -313,7 +313,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

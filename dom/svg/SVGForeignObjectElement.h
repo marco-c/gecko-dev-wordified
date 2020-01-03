@@ -150,7 +150,7 @@ dom
 {
 class
 SVGForeignObjectElement
-MOZ_FINAL
+final
 :
 public
 SVGGraphicsElement
@@ -225,7 +225,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -248,7 +248,7 @@ aWhich
 eAllTransforms
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -256,7 +256,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -278,7 +278,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -292,7 +292,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -313,7 +313,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -357,7 +357,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

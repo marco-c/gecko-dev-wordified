@@ -213,7 +213,7 @@ NotifyVsync
 TimeStamp
 aVsyncTimeStamp
 )
-MOZ_OVERRIDE
+override
 {
 MonitorAutoLock
 lock

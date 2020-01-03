@@ -159,7 +159,7 @@ aaf5
 }
 class
 nsAndroidProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

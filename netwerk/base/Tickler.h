@@ -500,7 +500,7 @@ NS_TICKLER_IID
 }
 class
 Tickler
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference
@@ -692,7 +692,7 @@ defined
 MOZ_USE_WIFI_TICKLER
 class
 Tickler
-MOZ_FINAL
+final
 :
 public
 nsISupports

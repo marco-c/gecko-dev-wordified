@@ -414,7 +414,7 @@ nsAString
 &
 aBdAddr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AudioStateNotification
@@ -426,19 +426,19 @@ nsAString
 &
 aBdAddr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayStatusNotification
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ListPlayerAppAttrNotification
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ListPlayerAppValuesNotification
@@ -446,7 +446,7 @@ ListPlayerAppValuesNotification
 BluetoothAvrcpPlayerAttribute
 aAttrId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppValueNotification
@@ -458,7 +458,7 @@ BluetoothAvrcpPlayerAttribute
 *
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppAttrsTextNotification
@@ -470,7 +470,7 @@ BluetoothAvrcpPlayerAttribute
 *
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppValuesTextNotification
@@ -484,7 +484,7 @@ uint8_t
 *
 aValues
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetPlayerAppValueNotification
@@ -494,7 +494,7 @@ BluetoothAvrcpPlayerSettings
 &
 aSettings
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetElementAttrNotification
@@ -506,7 +506,7 @@ BluetoothAvrcpMediaAttribute
 *
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RegisterNotificationNotification
@@ -516,7 +516,7 @@ aEvent
 uint32_t
 aParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RemoteFeatureNotification
@@ -529,7 +529,7 @@ unsigned
 long
 aFeatures
 )
-MOZ_OVERRIDE
+override
 ;
 void
 VolumeChangeNotification
@@ -539,7 +539,7 @@ aVolume
 uint8_t
 aCType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PassthroughCmdNotification
@@ -549,7 +549,7 @@ aId
 int
 aKeyState
 )
-MOZ_OVERRIDE
+override
 ;
 nsString
 mDeviceAddress

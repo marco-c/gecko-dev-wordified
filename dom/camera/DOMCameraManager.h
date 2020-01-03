@@ -241,7 +241,7 @@ WindowTable
 ;
 class
 nsDOMCameraManager
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -538,7 +538,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef

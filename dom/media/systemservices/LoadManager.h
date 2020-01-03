@@ -219,7 +219,7 @@ aSystemLoad
 float
 aProcessLoad
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -241,7 +241,7 @@ void
 OveruseDetected
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -261,7 +261,7 @@ void
 NormalUsage
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -278,7 +278,7 @@ CPULoadStateObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -291,7 +291,7 @@ CPULoadStateObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -423,7 +423,7 @@ sSingleton
 ;
 class
 LoadManager
-MOZ_FINAL
+final
 :
 public
 webrtc
@@ -468,7 +468,7 @@ CPULoadStateObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -489,7 +489,7 @@ CPULoadStateObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -504,7 +504,7 @@ void
 OveruseDetected
 (
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -518,7 +518,7 @@ void
 NormalUsage
 (
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -

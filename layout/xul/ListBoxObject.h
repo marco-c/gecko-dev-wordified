@@ -144,7 +144,7 @@ dom
 {
 class
 ListBoxObject
-MOZ_FINAL
+final
 :
 public
 BoxObject
@@ -177,7 +177,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -190,7 +190,7 @@ GetListBoxBody
 bool
 aFlush
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -200,14 +200,14 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedValues
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

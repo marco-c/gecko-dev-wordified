@@ -508,7 +508,7 @@ flag
 -
 class
 Flag
-MOZ_FINAL
+final
 {
 public
 :
@@ -767,7 +767,7 @@ list
 -
 class
 AsyncWaiter
-MOZ_FINAL
+final
 :
 public
 WaitableEvent

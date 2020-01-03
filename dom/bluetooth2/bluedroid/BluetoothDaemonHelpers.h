@@ -4136,7 +4136,7 @@ arguments
 .
 class
 UnpackPDUInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp

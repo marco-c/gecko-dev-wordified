@@ -211,7 +211,7 @@ dom
 {
 class
 USSDSession
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -262,7 +262,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

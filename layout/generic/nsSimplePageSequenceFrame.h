@@ -454,7 +454,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -472,7 +472,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -496,7 +496,7 @@ aYOffset
 nscoord
 aHeight
 )
-MOZ_OVERRIDE
+override
 {
 mYSelOffset
 =
@@ -516,7 +516,7 @@ SetTotalNumPages
 int32_t
 aTotal
 )
-MOZ_OVERRIDE
+override
 {
 mTotalPages
 =
@@ -539,7 +539,7 @@ float
 &
 aSTFPercent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -563,7 +563,7 @@ nsAString
 &
 aDocURL
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PrePrintNextPage
@@ -575,19 +575,19 @@ bool
 *
 aDone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PrintNextPage
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ResetPrintCanvasList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCurrentPageNum
@@ -596,7 +596,7 @@ int32_t
 *
 aPageNum
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNumPages
@@ -605,7 +605,7 @@ int32_t
 *
 aNumPages
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsDoingPrintRange
@@ -614,7 +614,7 @@ bool
 *
 aDoing
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPrintRange
@@ -626,13 +626,13 @@ int32_t
 *
 aToPage
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoPageEnd
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -661,7 +661,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -673,7 +673,7 @@ HasTransformGetter
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -707,7 +707,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -721,7 +721,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

@@ -422,7 +422,7 @@ result
 int
 fd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -433,7 +433,7 @@ src
 int
 dest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -442,7 +442,7 @@ Close
 int
 fd
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

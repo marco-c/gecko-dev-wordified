@@ -292,7 +292,7 @@ them
 /
 class
 DOMSVGLengthList
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -488,7 +488,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

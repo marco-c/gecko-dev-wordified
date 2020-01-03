@@ -182,7 +182,7 @@ nsIAtom
 aAtom
 )
 const
-MOZ_OVERRIDE
+override
 ;
 int32_t
 HTMLCaseSensitiveAtomTagToId
@@ -192,7 +192,7 @@ nsIAtom
 aAtom
 )
 const
-MOZ_OVERRIDE
+override
 ;
 int32_t
 HTMLStringTagToId
@@ -203,7 +203,7 @@ nsAString
 aTag
 )
 const
-MOZ_OVERRIDE
+override
 ;
 const
 char16_t
@@ -214,7 +214,7 @@ int32_t
 aId
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsIAtom
 *
@@ -224,7 +224,7 @@ int32_t
 aId
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HTMLConvertEntityToUnicode
@@ -238,7 +238,7 @@ int32_t
 aUnicode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HTMLConvertUnicodeToEntity
@@ -250,7 +250,7 @@ nsCString
 aEntity
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsContainer
@@ -262,7 +262,7 @@ bool
 aIsContainer
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsBlock
@@ -274,7 +274,7 @@ bool
 aIsBlock
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

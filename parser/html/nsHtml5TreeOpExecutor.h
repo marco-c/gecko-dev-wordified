@@ -214,7 +214,7 @@ nsIDocument
 ;
 class
 nsHtml5TreeOpExecutor
-MOZ_FINAL
+final
 :
 public
 nsHtml5DocumentBuilder
@@ -446,7 +446,7 @@ NS_IMETHOD
 WillParse
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -460,7 +460,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -477,7 +477,7 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -492,7 +492,7 @@ NS_IMETHOD
 WillInterrupt
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -511,7 +511,7 @@ NS_IMETHOD
 WillResume
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -530,7 +530,7 @@ nsParserBase
 *
 aParser
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -552,7 +552,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -577,7 +577,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -611,20 +611,20 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ContinueInterruptedParsingAsync
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsScriptExecuting
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 IsScriptExecutingImpl
@@ -672,7 +672,7 @@ MarkAsBroken
 nsresult
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 void
 StartLayout
@@ -832,7 +832,7 @@ nsHtml5TreeOperation
 &
 aOpQueue
 )
-MOZ_OVERRIDE
+override
 ;
 nsHtml5TreeOpStage
 *

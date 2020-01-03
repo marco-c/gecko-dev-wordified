@@ -252,7 +252,7 @@ NS_FORWARD_NSIDOMNODE_TO_NSINODE
 ;
 class
 DocumentType
-MOZ_FINAL
+final
 :
 public
 DocumentTypeForward
@@ -315,7 +315,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -325,7 +325,7 @@ nsAString
 &
 aNodeValue
 )
-MOZ_OVERRIDE
+override
 {
 SetDOMStringToNull
 (
@@ -348,7 +348,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 {
 }
 /
@@ -362,7 +362,7 @@ nsTextFragment
 GetText
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGenericDOMDataNode
@@ -382,7 +382,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -390,7 +390,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -422,7 +422,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsString
 mPublicId

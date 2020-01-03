@@ -186,7 +186,7 @@ char16_t
 *
 dateTimeString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FormatDate
@@ -208,7 +208,7 @@ char16_t
 *
 dateString
 )
-MOZ_OVERRIDE
+override
 {
 return
 FormatDateTime
@@ -246,7 +246,7 @@ char16_t
 *
 timeString
 )
-MOZ_OVERRIDE
+override
 {
 return
 FormatDateTime

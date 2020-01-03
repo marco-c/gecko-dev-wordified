@@ -1707,7 +1707,7 @@ ifdef
 ENABLE_TESTS
 class
 BackgroundTester
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -1734,7 +1734,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_RELEASE_ASSERT
 (
@@ -1852,7 +1852,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -1883,7 +1883,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -2371,7 +2371,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2389,7 +2389,7 @@ MemoryReport
 &
 aReport
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2523,7 +2523,7 @@ logging
 .
 class
 CycleCollectWithLogsParent
-MOZ_FINAL
+final
 :
 public
 PCycleCollectWithLogsParent
@@ -2642,7 +2642,7 @@ bool
 RecvCloseGCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2663,7 +2663,7 @@ bool
 RecvCloseCCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2684,7 +2684,7 @@ bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -2761,7 +2761,7 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -2862,7 +2862,7 @@ themselves
 .
 class
 ContentParentsMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -7553,7 +7553,7 @@ namespace
 {
 class
 SystemMessageHandledListener
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -7767,7 +7767,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

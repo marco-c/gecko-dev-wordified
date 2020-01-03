@@ -263,7 +263,7 @@ GlobalObject
 ;
 class
 URLProxy
-MOZ_FINAL
+final
 {
 public
 :

@@ -203,7 +203,7 @@ ServiceWorkerClient
 ;
 class
 FetchEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -286,7 +286,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 FetchEventBinding
@@ -491,7 +491,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -677,7 +677,7 @@ ExtendableEvent
 AsExtendableEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -687,7 +687,7 @@ this
 ;
 class
 InstallEvent
-MOZ_FINAL
+final
 :
 public
 ExtendableEvent
@@ -765,7 +765,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -972,7 +972,7 @@ InstallEvent
 AsInstallEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

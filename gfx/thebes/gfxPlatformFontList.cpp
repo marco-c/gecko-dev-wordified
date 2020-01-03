@@ -1153,7 +1153,7 @@ nullptr
 ;
 class
 gfxFontListPrefObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

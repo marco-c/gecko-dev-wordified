@@ -123,7 +123,7 @@ generator
 "
 class
 nsRandomGenerator
-MOZ_FINAL
+final
 :
 public
 nsIRandomGenerator
@@ -146,7 +146,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

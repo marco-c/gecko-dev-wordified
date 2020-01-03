@@ -610,7 +610,7 @@ mInstance
 ;
 class
 gfxDWriteFontFileStream
-MOZ_FINAL
+final
 :
 public
 IDWriteFontFileStream

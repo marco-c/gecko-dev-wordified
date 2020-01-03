@@ -1990,7 +1990,7 @@ false
 >
 class
 Variant
-MOZ_FINAL
+final
 :
 public
 Variant_base

@@ -175,7 +175,7 @@ dom
 {
 class
 HTMLAnchorElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -242,7 +242,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -250,7 +250,7 @@ Draggable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -263,7 +263,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -296,7 +296,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -311,7 +311,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -326,7 +326,7 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -336,7 +336,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -346,7 +346,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -358,7 +358,7 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -368,7 +368,7 @@ nsAString
 &
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -379,7 +379,7 @@ GetHrefURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -427,7 +427,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -441,7 +441,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -460,7 +460,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -481,7 +481,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -489,28 +489,28 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnDNSPrefetchDeferred
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnDNSPrefetchRequested
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 HasDeferredDNSPrefetchRequest
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1246,7 +1246,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1257,7 +1257,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -1277,7 +1277,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

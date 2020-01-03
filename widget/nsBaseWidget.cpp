@@ -7652,7 +7652,7 @@ ScrollableLayerGuid
 aTargets
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7763,7 +7763,7 @@ TouchBehaviorFlags
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7840,7 +7840,7 @@ bool
 aPreventDefault
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -14034,7 +14034,7 @@ dude
 /
 class
 Debug_PrefObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

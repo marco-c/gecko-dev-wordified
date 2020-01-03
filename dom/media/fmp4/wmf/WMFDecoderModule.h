@@ -166,7 +166,7 @@ nsresult
 Startup
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -182,7 +182,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -216,7 +216,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -239,7 +239,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SupportsVideoMimeType
@@ -249,7 +249,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SupportsAudioMimeType
@@ -259,14 +259,14 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisableHardwareAcceleration
 (
 )
-MOZ_OVERRIDE
+override
 {
 sDXVAEnabled
 =
@@ -286,7 +286,7 @@ VideoDecoderConfig
 aConfig
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /

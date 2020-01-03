@@ -397,7 +397,7 @@ destroyed
 /
 class
 MediaRecorderReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -493,7 +493,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3884,7 +3884,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

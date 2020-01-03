@@ -213,7 +213,7 @@ namespace
 {
 class
 DelayedEventRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable

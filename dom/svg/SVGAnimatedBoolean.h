@@ -137,7 +137,7 @@ dom
 {
 class
 SVGAnimatedBoolean
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -202,7 +202,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 BaseVal

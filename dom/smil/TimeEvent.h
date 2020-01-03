@@ -136,7 +136,7 @@ dom
 {
 class
 TimeEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -200,7 +200,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 TimeEventBinding

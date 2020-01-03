@@ -1001,7 +1001,7 @@ JSStreamWriter
 &
 b
 )
-MOZ_OVERRIDE
+override
 {
 return
 streamPayloadImp

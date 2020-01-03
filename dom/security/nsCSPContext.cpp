@@ -5587,7 +5587,7 @@ violation
 /
 class
 CSPReportSenderRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -2500,7 +2500,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2511,7 +2511,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2522,7 +2522,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 protected
@@ -2554,7 +2554,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2565,7 +2565,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2576,7 +2576,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 protected
@@ -2613,7 +2613,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2624,7 +2624,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2635,7 +2635,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3335,7 +3335,7 @@ method
 *
 param
 optional
-MOZ_OVERRIDE
+override
 Mark
 the
 AddRef
@@ -6382,7 +6382,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -6393,7 +6393,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -6404,7 +6404,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 \
 /

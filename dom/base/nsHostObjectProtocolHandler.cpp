@@ -363,7 +363,7 @@ mozilla
 {
 class
 HostObjectURLsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -389,7 +389,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -452,7 +452,7 @@ nsIMemoryReporter
 )
 class
 BlobURLsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -472,7 +472,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 EnumArg
 env

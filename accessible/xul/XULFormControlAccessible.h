@@ -238,14 +238,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -255,7 +255,7 @@ uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -267,7 +267,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -276,7 +276,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -287,7 +287,7 @@ IsWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -295,7 +295,7 @@ IsActiveWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -303,7 +303,7 @@ AreItemsOperable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -312,7 +312,7 @@ ContainerWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -323,7 +323,7 @@ Accessible
 aPossibleChild
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -395,14 +395,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -412,7 +412,7 @@ uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -424,7 +424,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -433,7 +433,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -488,14 +488,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -505,7 +505,7 @@ uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -517,7 +517,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -526,7 +526,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -554,7 +554,7 @@ element
 /
 class
 XULGroupboxAccessible
-MOZ_FINAL
+final
 :
 public
 AccessibleWrap
@@ -585,7 +585,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Relation
@@ -594,7 +594,7 @@ RelationByType
 RelationType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -609,7 +609,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -655,7 +655,7 @@ uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -663,7 +663,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -675,7 +675,7 @@ ContainerWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -723,7 +723,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -731,7 +731,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -742,7 +742,7 @@ IsWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -750,7 +750,7 @@ IsActiveWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -758,7 +758,7 @@ AreItemsOperable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -806,7 +806,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -854,7 +854,7 @@ int32_t
 *
 aSetSize
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -914,7 +914,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -929,7 +929,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -977,14 +977,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

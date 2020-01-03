@@ -615,7 +615,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 {
 destructorSafeDestroyNSSReference
 (
@@ -736,7 +736,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 {
 destructorSafeDestroyNSSReference
 (
@@ -861,7 +861,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 {
 destructorSafeDestroyNSSReference
 (
@@ -944,7 +944,7 @@ delete
 ;
 class
 IdentityCryptoService
-MOZ_FINAL
+final
 :
 public
 nsIIdentityCryptoService

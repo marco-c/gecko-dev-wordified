@@ -165,7 +165,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSplittableType
@@ -173,7 +173,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -183,7 +183,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -278,7 +278,7 @@ GetPrevContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -287,7 +287,7 @@ GetNextContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -308,7 +308,7 @@ SetPrevContinuation
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -317,7 +317,7 @@ SetNextContinuation
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -338,7 +338,7 @@ FirstContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -347,7 +347,7 @@ LastContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -436,7 +436,7 @@ GetPrevInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 GetPrevInFlow
@@ -451,7 +451,7 @@ GetNextInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 GetNextInFlow
@@ -476,7 +476,7 @@ SetPrevInFlow
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -485,7 +485,7 @@ SetNextInFlow
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -507,7 +507,7 @@ FirstInFlow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -516,7 +516,7 @@ LastInFlow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -724,7 +724,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -742,7 +742,7 @@ out
 int32_t
 aIndent
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

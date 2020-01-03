@@ -1775,7 +1775,7 @@ offer
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnCreateOfferError
@@ -1789,7 +1789,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnCreateAnswerSuccess
@@ -1801,7 +1801,7 @@ answer
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnCreateAnswerError
@@ -1815,7 +1815,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetLocalDescriptionSuccess
@@ -1823,7 +1823,7 @@ OnSetLocalDescriptionSuccess
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetRemoteDescriptionSuccess
@@ -1831,7 +1831,7 @@ OnSetRemoteDescriptionSuccess
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetLocalDescriptionError
@@ -1845,7 +1845,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetRemoteDescriptionError
@@ -1859,7 +1859,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NotifyDataChannel
@@ -1870,7 +1870,7 @@ channel
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnStateChange
@@ -1882,7 +1882,7 @@ ER
 void
 *
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAddStream
@@ -1893,7 +1893,7 @@ stream
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnRemoveStream
@@ -1904,7 +1904,7 @@ stream
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAddTrack
@@ -1915,7 +1915,7 @@ track
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnRemoveTrack
@@ -1926,7 +1926,7 @@ track
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnReplaceTrackSuccess
@@ -1934,7 +1934,7 @@ OnReplaceTrackSuccess
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnReplaceTrackError
@@ -1948,7 +1948,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAddIceCandidateSuccess
@@ -1956,7 +1956,7 @@ OnAddIceCandidateSuccess
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAddIceCandidateError
@@ -1970,7 +1970,7 @@ msg
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnIceCandidate
@@ -1988,7 +1988,7 @@ cand
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnNegotiationNeeded
@@ -1996,7 +1996,7 @@ OnNegotiationNeeded
 ER
 &
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

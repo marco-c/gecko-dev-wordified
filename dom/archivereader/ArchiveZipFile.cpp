@@ -185,7 +185,7 @@ files
 /
 class
 ArchiveInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

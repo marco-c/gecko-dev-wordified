@@ -165,7 +165,7 @@ LayerTransactionChild
 }
 class
 nsTranslationNodeList
-MOZ_FINAL
+final
 :
 public
 nsITranslationNodeList
@@ -256,7 +256,7 @@ mLength
 ;
 class
 nsDOMWindowUtils
-MOZ_FINAL
+final
 :
 public
 nsIDOMWindowUtils

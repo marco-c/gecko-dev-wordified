@@ -316,7 +316,7 @@ that
 .
 class
 nsXBLPrototypeBinding
-MOZ_FINAL
+final
 {
 public
 :

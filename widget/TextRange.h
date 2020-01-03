@@ -1226,7 +1226,7 @@ TextRangeArray
 /
 class
 TextRangeArray
-MOZ_FINAL
+final
 :
 public
 nsAutoTArray

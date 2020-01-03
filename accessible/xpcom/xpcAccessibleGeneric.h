@@ -260,8 +260,8 @@ ToInternalAccessible
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 /
 /

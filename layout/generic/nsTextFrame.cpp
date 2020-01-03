@@ -1223,7 +1223,7 @@ void
 NotifyGlyphsChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -3413,7 +3413,7 @@ use
 /
 class
 FrameTextRunCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -6254,7 +6254,7 @@ GetLength
 ;
 class
 BreakSink
-MOZ_FINAL
+final
 :
 public
 nsILineBreakSink
@@ -6309,7 +6309,7 @@ uint8_t
 *
 aBreakBefore
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -6368,7 +6368,7 @@ bool
 *
 aCapitalize
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -26659,7 +26659,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -26669,7 +26669,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -26678,7 +26678,7 @@ GetPrevContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mPrevContinuation
@@ -26692,7 +26692,7 @@ nsIFrame
 *
 aPrevContinuation
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -26762,7 +26762,7 @@ GetPrevInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 GetPrevInFlow
@@ -26799,7 +26799,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -26870,7 +26870,7 @@ FirstInFlow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -26879,7 +26879,7 @@ FirstContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -26892,7 +26892,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -26905,7 +26905,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -26935,7 +26935,7 @@ aSkippedMaxLength
 =
 UINT32_MAX
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -30350,7 +30350,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -30418,7 +30418,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -30462,7 +30462,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -30479,7 +30479,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap
@@ -30502,7 +30502,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -30528,7 +30528,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplayTextGeometry
@@ -30671,7 +30671,7 @@ void
 DisableComponentAlpha
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDisableSubpixelAA
 =

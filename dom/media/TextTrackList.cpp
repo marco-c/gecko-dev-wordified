@@ -768,7 +768,7 @@ SetDirty
 }
 class
 TrackEventRunner
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -799,7 +799,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mList

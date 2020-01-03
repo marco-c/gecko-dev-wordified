@@ -1730,7 +1730,7 @@ return
 }
 class
 ServiceWorkerRegistrarSaveDataRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

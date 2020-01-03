@@ -413,7 +413,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 mBorderRect
@@ -975,7 +975,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 mContentRect
@@ -1014,7 +1014,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 mPositioningArea
@@ -1048,7 +1048,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 mPositioningArea
@@ -1085,7 +1085,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 mPaddingRect
@@ -1180,7 +1180,7 @@ nsPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 gfxRect
 mBBox

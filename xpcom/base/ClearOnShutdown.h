@@ -409,7 +409,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

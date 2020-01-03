@@ -325,7 +325,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -353,8 +353,8 @@ void
 ClearAnyCachedPath
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 mCachedPath
 =

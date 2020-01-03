@@ -243,7 +243,7 @@ aUnitTest
 *
 /
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (
@@ -271,7 +271,7 @@ UnitTest
 &
 aUnitTest
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (
@@ -330,7 +330,7 @@ TestInfo
 &
 aTestInfo
 )
-MOZ_OVERRIDE
+override
 {
 mTestInfo
 =
@@ -376,7 +376,7 @@ TestPartResult
 &
 aTestPartResult
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (
@@ -469,7 +469,7 @@ TestInfo
 &
 aTestInfo
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (

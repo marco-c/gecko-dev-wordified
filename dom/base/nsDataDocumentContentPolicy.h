@@ -199,7 +199,7 @@ h
 "
 class
 nsDataDocumentContentPolicy
-MOZ_FINAL
+final
 :
 public
 nsIContentPolicy

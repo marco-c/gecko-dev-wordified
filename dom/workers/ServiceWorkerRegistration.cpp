@@ -508,7 +508,7 @@ namespace
 {
 class
 UnregisterCallback
-MOZ_FINAL
+final
 :
 public
 nsIServiceWorkerUnregisterCallback
@@ -547,7 +547,7 @@ UnregisterSucceeded
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -569,7 +569,7 @@ NS_IMETHODIMP
 UnregisterFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

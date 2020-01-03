@@ -155,7 +155,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -165,7 +165,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -175,7 +175,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -185,7 +185,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -195,7 +195,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -204,7 +204,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -214,7 +214,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -281,7 +281,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -294,7 +294,7 @@ void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -304,7 +304,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -314,7 +314,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -376,7 +376,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -396,7 +396,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -406,7 +406,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -422,7 +422,7 @@ nsIFrame
 *
 asPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -440,7 +440,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -454,14 +454,14 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -476,7 +476,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -489,7 +489,7 @@ nsAutoString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -498,7 +498,7 @@ nscoord
 GetIntrinsicISize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 nsLeafBoxFrame

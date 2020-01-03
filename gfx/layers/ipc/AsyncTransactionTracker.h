@@ -795,7 +795,7 @@ void
 Complete
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFenceHandle
 =
@@ -809,7 +809,7 @@ void
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFenceHandle
 =

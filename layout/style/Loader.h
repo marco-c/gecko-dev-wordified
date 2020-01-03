@@ -851,7 +851,7 @@ eSheetComplete
 ;
 class
 Loader
-MOZ_FINAL
+final
 {
 typedef
 mozilla

@@ -144,7 +144,7 @@ BluetoothReplyRunnable
 ;
 class
 BluetoothGattManager
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -289,7 +289,7 @@ BluetoothUuid
 &
 aAppUuid
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ScanResultNotification
@@ -305,7 +305,7 @@ BluetoothGattAdvData
 &
 aAdvData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ConnectNotification
@@ -321,7 +321,7 @@ nsAString
 &
 aBdAddr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DisconnectNotification
@@ -337,7 +337,7 @@ nsAString
 &
 aBdAddr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SearchCompleteNotification
@@ -347,7 +347,7 @@ aConnId
 BluetoothGattStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SearchResultNotification
@@ -359,7 +359,7 @@ BluetoothGattServiceId
 &
 aServiceId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetCharacteristicNotification
@@ -379,7 +379,7 @@ aCharId
 int
 aCharProperty
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetDescriptorNotification
@@ -401,7 +401,7 @@ BluetoothGattId
 &
 aDescriptorId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetIncludedServiceNotification
@@ -419,7 +419,7 @@ BluetoothGattServiceId
 &
 aIncludedServId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RegisterNotificationNotification
@@ -439,7 +439,7 @@ BluetoothGattId
 &
 aCharId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyNotification
@@ -451,7 +451,7 @@ BluetoothGattNotifyParam
 &
 aNotifyParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReadCharacteristicNotification
@@ -465,7 +465,7 @@ BluetoothGattReadParam
 &
 aReadParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 WriteCharacteristicNotification
@@ -479,7 +479,7 @@ BluetoothGattWriteParam
 &
 aWriteParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReadDescriptorNotification
@@ -493,7 +493,7 @@ BluetoothGattReadParam
 &
 aReadParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 WriteDescriptorNotification
@@ -507,7 +507,7 @@ BluetoothGattWriteParam
 &
 aWriteParam
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ExecuteWriteNotification
@@ -517,7 +517,7 @@ aConnId
 BluetoothGattStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReadRemoteRssiNotification
@@ -533,7 +533,7 @@ aRssi
 BluetoothGattStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ListenNotification
@@ -543,7 +543,7 @@ aStatus
 int
 aServerIf
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

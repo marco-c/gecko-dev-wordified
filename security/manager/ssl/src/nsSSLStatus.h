@@ -152,7 +152,7 @@ For
 EVStatus
 class
 nsSSLStatus
-MOZ_FINAL
+final
 :
 public
 nsISSLStatus

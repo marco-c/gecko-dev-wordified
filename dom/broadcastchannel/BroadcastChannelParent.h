@@ -91,7 +91,7 @@ BroadcastChannelService
 ;
 class
 BroadcastChannelParent
-MOZ_FINAL
+final
 :
 public
 PBroadcastChannelParent
@@ -153,14 +153,14 @@ ClonedMessageData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvClose
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -169,7 +169,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

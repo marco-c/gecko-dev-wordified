@@ -188,7 +188,7 @@ cpp
 .
 class
 FileManager
-MOZ_FINAL
+final
 {
 friend
 class

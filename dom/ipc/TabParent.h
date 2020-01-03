@@ -521,7 +521,7 @@ bool
 &
 aForward
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -532,7 +532,7 @@ RemoteDOMEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -543,7 +543,7 @@ WidgetKeyboardEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -554,7 +554,7 @@ WidgetKeyboardEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -579,7 +579,7 @@ bool
 *
 aOutWindowOpened
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -633,7 +633,7 @@ nsCString
 *
 aURLToLoad
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -668,7 +668,7 @@ nsString
 *
 aJSONRetVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -703,7 +703,7 @@ nsString
 *
 aJSONRetVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -732,7 +732,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -749,7 +749,7 @@ uint32_t
 *
 aSeqno
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -772,7 +772,7 @@ bool
 &
 aCausedByComposition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -798,7 +798,7 @@ LayoutDeviceIntRect
 &
 aCaretRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -828,7 +828,7 @@ bool
 &
 aCausedByComposition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -839,7 +839,7 @@ nsString
 &
 aText
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -856,7 +856,7 @@ bool
 *
 aConsumedByIME
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -867,7 +867,7 @@ LayoutDeviceIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -889,7 +889,7 @@ LayoutDeviceIntRect
 &
 aCaretRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -906,7 +906,7 @@ nsString
 *
 aComposition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -928,7 +928,7 @@ nsString
 *
 aCommitted
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -939,7 +939,7 @@ bool
 &
 aFocused
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -955,7 +955,7 @@ intptr_t
 *
 aNativeIMEContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -990,7 +990,7 @@ int32_t
 &
 aFocusChange
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1001,7 +1001,7 @@ bool
 &
 aCanRaise
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1026,7 +1026,7 @@ nsCString
 &
 aDisabledCommands
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1041,7 +1041,7 @@ bool
 &
 aForce
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1052,7 +1052,7 @@ nscolor
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1067,7 +1067,7 @@ nsString
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1077,7 +1077,7 @@ bool
 *
 aIsVisible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1096,14 +1096,14 @@ nsString
 &
 aTooltip
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvHideTooltip
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1113,7 +1113,7 @@ float
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1123,7 +1123,7 @@ double
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1133,7 +1133,7 @@ WindowsHandle
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1152,7 +1152,7 @@ CSSRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1175,7 +1175,7 @@ ZoomConstraints
 &
 aConstraints
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1194,7 +1194,7 @@ bool
 &
 aPreventDefault
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1212,7 +1212,7 @@ ScrollableLayerGuid
 &
 aTargets
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1230,7 +1230,7 @@ TouchBehaviorFlags
 &
 aTargets
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1244,7 +1244,7 @@ WidgetWheelEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PColorPickerParent
@@ -1260,7 +1260,7 @@ nsString
 &
 aInitialColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1270,7 +1270,7 @@ PColorPickerParent
 *
 aColorPicker
 )
-MOZ_OVERRIDE
+override
 ;
 void
 LoadURL
@@ -1506,7 +1506,7 @@ MaybeNativeKeyBinding
 *
 aBindings
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SendMouseEvent
@@ -1675,7 +1675,7 @@ nsIntSize
 &
 renderSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1685,7 +1685,7 @@ PDocumentRendererParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PContentPermissionRequestParent
@@ -1707,7 +1707,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1717,7 +1717,7 @@ PContentPermissionRequestParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFilePickerParent
@@ -1733,7 +1733,7 @@ int16_t
 &
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1743,7 +1743,7 @@ PFilePickerParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PIndexedDBPermissionRequestParent
@@ -1755,7 +1755,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1769,7 +1769,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1779,7 +1779,7 @@ PIndexedDBPermissionRequestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 GetGlobalJSObject
@@ -2001,7 +2001,7 @@ PPluginWidgetParent
 AllocPPluginWidgetParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2011,7 +2011,7 @@ PPluginWidgetParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetInitedByParent
@@ -2130,14 +2130,14 @@ uint64_t
 &
 aCallbackId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2146,7 +2146,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 Element
 *
@@ -2169,7 +2169,7 @@ PRenderFrameParent
 AllocPRenderFrameParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2179,14 +2179,14 @@ PRenderFrameParent
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRemotePaintIsReady
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2202,7 +2202,7 @@ uint64_t
 *
 aLayersId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2229,7 +2229,7 @@ int32_t
 &
 aCy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendCompositionChangeEvent

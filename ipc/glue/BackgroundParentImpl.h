@@ -144,7 +144,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundTestParent
@@ -156,7 +156,7 @@ nsCString
 &
 aTestArg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -170,7 +170,7 @@ nsCString
 &
 aTestArg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -180,7 +180,7 @@ PBackgroundTestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBFactoryParent
@@ -192,7 +192,7 @@ LoggingInfo
 &
 aLoggingInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -206,7 +206,7 @@ LoggingInfo
 &
 aLoggingInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,7 +216,7 @@ PBackgroundIDBFactoryParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobParent
@@ -228,7 +228,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -238,7 +238,7 @@ PBlobParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFileDescriptorSetParent
@@ -250,7 +250,7 @@ FileDescriptor
 &
 aFileDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -260,7 +260,7 @@ PFileDescriptorSetParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PVsyncParent
@@ -268,7 +268,7 @@ PVsyncParent
 AllocPVsyncParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -278,7 +278,7 @@ PVsyncParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBroadcastChannelParent
@@ -298,7 +298,7 @@ nsString
 &
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -320,7 +320,7 @@ nsString
 &
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -330,7 +330,7 @@ PBroadcastChannelParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -341,7 +341,7 @@ ServiceWorkerRegistrationData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -356,14 +356,14 @@ nsString
 &
 aScope
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvShutdownServiceWorkerRegistrar
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -391,7 +391,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -407,7 +407,7 @@ PCacheStorageParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -421,7 +421,7 @@ PCacheParent
 AllocPCacheParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -437,7 +437,7 @@ PCacheParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -451,7 +451,7 @@ PCacheStreamControlParent
 AllocPCacheStreamControlParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -467,7 +467,7 @@ PCacheStreamControlParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -176,7 +176,7 @@ dom
 {
 class
 DOMParser
-MOZ_FINAL
+final
 :
 public
 nsIDOMParser
@@ -445,7 +445,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla

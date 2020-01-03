@@ -172,7 +172,7 @@ ServiceWorker
 }
 class
 ServiceWorkerRegistration
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -217,7 +217,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -299,7 +299,7 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

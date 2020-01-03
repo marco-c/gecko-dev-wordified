@@ -878,7 +878,7 @@ Details
 >
 class
 StrongGLenum
-MOZ_FINAL
+final
 {
 private
 :

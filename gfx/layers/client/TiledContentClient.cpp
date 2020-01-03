@@ -2932,7 +2932,7 @@ readCount
 }
 class
 TileExpiry
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -3035,7 +3035,7 @@ TileClient
 *
 aTile
 )
-MOZ_OVERRIDE
+override
 {
 aTile
 -

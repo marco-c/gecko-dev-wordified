@@ -315,7 +315,7 @@ mozilla
 -
 class
 nsInputStreamReadyEvent
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -543,7 +543,7 @@ nsIAsyncInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 mStream
 =
@@ -589,7 +589,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -728,7 +728,7 @@ nsIInputStreamCallback
 -
 class
 nsOutputStreamReadyEvent
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -956,7 +956,7 @@ nsIAsyncOutputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 mStream
 =
@@ -1002,7 +1002,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2175,7 +2175,7 @@ nsIAsyncInputStream
 *
 aSource
 )
-MOZ_OVERRIDE
+override
 {
 PostContinuationEvent
 (
@@ -2192,7 +2192,7 @@ nsIAsyncOutputStream
 *
 aSink
 )
-MOZ_OVERRIDE
+override
 {
 PostContinuationEvent
 (
@@ -2211,7 +2211,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 Process
 (
@@ -2505,7 +2505,7 @@ nsIRunnable
 )
 class
 nsStreamCopierIB
-MOZ_FINAL
+final
 :
 public
 nsAStreamCopier
@@ -2690,7 +2690,7 @@ n
 ;
 class
 nsStreamCopierOB
-MOZ_FINAL
+final
 :
 public
 nsAStreamCopier

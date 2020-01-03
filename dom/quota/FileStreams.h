@@ -167,13 +167,13 @@ NS_IMETHOD
 SetEOF
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -214,7 +214,7 @@ nsresult
 DoOpen
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PersistenceType
 mPersistenceType
@@ -266,7 +266,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -247,7 +247,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -256,7 +256,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundTestChild
@@ -268,7 +268,7 @@ nsCString
 &
 aTestArg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -278,7 +278,7 @@ PBackgroundTestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBFactoryChild
@@ -290,7 +290,7 @@ LoggingInfo
 &
 aLoggingInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -300,7 +300,7 @@ PBackgroundIDBFactoryChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobChild
@@ -312,7 +312,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -322,7 +322,7 @@ PBlobChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFileDescriptorSetChild
@@ -334,7 +334,7 @@ FileDescriptor
 &
 aFileDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -344,7 +344,7 @@ PFileDescriptorSetChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PVsyncChild
@@ -352,7 +352,7 @@ PVsyncChild
 AllocPVsyncChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -362,7 +362,7 @@ PVsyncChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBroadcastChannelChild
@@ -382,7 +382,7 @@ nsString
 &
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -392,7 +392,7 @@ PBroadcastChannelChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -420,7 +420,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -436,7 +436,7 @@ PCacheStorageChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -450,7 +450,7 @@ PCacheChild
 AllocPCacheChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -466,7 +466,7 @@ PCacheChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 dom
@@ -480,7 +480,7 @@ PCacheStreamControlChild
 AllocPCacheStreamControlChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -496,7 +496,7 @@ PCacheStreamControlChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -505,7 +505,7 @@ BackgroundChildImpl
 :
 :
 ThreadLocal
-MOZ_FINAL
+final
 {
 friend
 class

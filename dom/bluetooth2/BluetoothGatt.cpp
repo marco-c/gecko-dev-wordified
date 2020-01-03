@@ -899,7 +899,7 @@ forget
 }
 class
 ReadRemoteRssiTask
-MOZ_FINAL
+final
 :
 public
 BluetoothReplyRunnable

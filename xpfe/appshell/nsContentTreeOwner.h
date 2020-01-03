@@ -167,7 +167,7 @@ nsSiteWindow
 ;
 class
 nsContentTreeOwner
-MOZ_FINAL
+final
 :
 public
 nsIDocShellTreeOwner

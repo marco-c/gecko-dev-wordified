@@ -1654,7 +1654,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 TypedArrayCreator
 <
@@ -2329,7 +2329,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -3038,7 +3038,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -3900,7 +3900,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -4448,7 +4448,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -4707,7 +4707,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5340,7 +5340,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -5635,7 +5635,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5847,7 +5847,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -6578,7 +6578,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mResultPromise
 -
@@ -6594,7 +6594,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 mKey
 =
@@ -6868,7 +6868,7 @@ nsresult
 BeforeCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -7747,7 +7747,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsNSSShutDownPreventionLock
 locker
@@ -8055,7 +8055,7 @@ nsresult
 AfterCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -8389,7 +8389,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -8749,7 +8749,7 @@ nsresult
 AfterCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 uint32_t
 privateAllowedUsages
@@ -9153,7 +9153,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9334,7 +9334,7 @@ nsresult
 AfterCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9516,7 +9516,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 mPrivateKey
 .
@@ -9536,7 +9536,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsNSSShutDownPreventionLock
 locker
@@ -9958,7 +9958,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10504,7 +10504,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 ScopedPK11SlotInfo
 slot
@@ -10633,7 +10633,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mKey
 -
@@ -10657,7 +10657,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 mKey
 =
@@ -11660,7 +11660,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 mPublicKey
 .
@@ -11680,7 +11680,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 ScopedPK11SlotInfo
 slot
@@ -11846,7 +11846,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mResultPromise
 -
@@ -12232,7 +12232,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 ScopedPLArenaPool
 arena
@@ -12602,7 +12602,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTask
 -
@@ -12636,7 +12636,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -13022,7 +13022,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -13519,7 +13519,7 @@ nsresult
 DoCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -13777,7 +13777,7 @@ nsresult
 AfterCrypto
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -13852,7 +13852,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTask
 -
@@ -13880,7 +13880,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -13974,7 +13974,7 @@ void
 Resolve
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTask
 -
@@ -14008,7 +14008,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

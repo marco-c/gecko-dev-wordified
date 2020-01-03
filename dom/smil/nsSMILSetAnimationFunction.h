@@ -344,7 +344,7 @@ aParseResult
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -382,7 +382,7 @@ nsIAtom
 *
 aAttribute
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -443,7 +443,7 @@ IsToAnimation
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -470,7 +470,7 @@ IsValueFixedForSimpleDuration
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -485,7 +485,7 @@ nsIAtom
 aAttName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -498,7 +498,7 @@ nsIAtom
 aAttName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -512,7 +512,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -520,7 +520,7 @@ WillReplace
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsDisallowedAttribute

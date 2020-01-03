@@ -171,7 +171,7 @@ dom
 {
 class
 MediaKeyError
-MOZ_FINAL
+final
 :
 public
 Event
@@ -211,7 +211,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 SystemCode

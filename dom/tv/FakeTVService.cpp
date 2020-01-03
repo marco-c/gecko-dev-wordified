@@ -1048,7 +1048,7 @@ runnable
 }
 class
 EITBroadcastedCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -1099,7 +1099,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1316,7 +1316,7 @@ nsITimerCallback
 )
 class
 ScanCompleteCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -1360,7 +1360,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSourceListener

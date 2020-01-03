@@ -598,7 +598,7 @@ mQueue
 ;
 class
 nsNestedEventTarget
-MOZ_FINAL
+final
 :
 public
 nsIEventTarget

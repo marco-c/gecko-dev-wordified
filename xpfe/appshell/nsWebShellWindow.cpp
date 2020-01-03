@@ -2835,7 +2835,7 @@ mozilla
 {
 class
 WebShellWindowTimerCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -2864,7 +2864,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

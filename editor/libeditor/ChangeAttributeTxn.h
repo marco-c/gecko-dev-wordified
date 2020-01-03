@@ -121,7 +121,7 @@ h
 "
 /
 /
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -272,7 +272,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

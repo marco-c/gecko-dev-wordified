@@ -152,7 +152,7 @@ CellBroadcastEtwsInfo
 ;
 class
 CellBroadcastMessage
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -232,7 +232,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -372,7 +372,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror
@@ -459,7 +459,7 @@ mEtwsInfo
 ;
 class
 CellBroadcastEtwsInfo
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -515,7 +515,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -559,7 +559,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

@@ -343,7 +343,7 @@ versa
 /
 class
 EmbeddedObjCollector
-MOZ_FINAL
+final
 :
 public
 AccCollector
@@ -367,7 +367,7 @@ Accessible
 *
 aAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -410,7 +410,7 @@ Accessible
 *
 aAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 class

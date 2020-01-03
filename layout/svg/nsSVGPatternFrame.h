@@ -288,7 +288,7 @@ gfxRect
 *
 aOverrideBounds
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -309,7 +309,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -328,7 +328,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -347,7 +347,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -379,7 +379,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -393,7 +393,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName

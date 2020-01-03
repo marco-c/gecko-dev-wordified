@@ -1170,7 +1170,7 @@ uint32_t
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 AsyncWait
@@ -1186,7 +1186,7 @@ nsIEventTarget
 *
 target
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

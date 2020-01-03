@@ -182,7 +182,7 @@ nsHttpTransaction
 ;
 class
 Http2Session
-MOZ_FINAL
+final
 :
 public
 ASpdySession
@@ -226,13 +226,13 @@ bool
 nsIInterfaceRequestor
 *
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CanReuse
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -247,7 +247,7 @@ bool
 RoomForMoreStreams
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -306,7 +306,7 @@ ReadTimeoutTick
 PRIntervalTime
 now
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -333,7 +333,7 @@ PRIntervalTime
 IdleTime
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1391,7 +1391,7 @@ TransactionHasDataToWrite
 nsAHttpTransaction
 *
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1422,7 +1422,7 @@ size
 bool
 forceCommitment
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 BufferOutput
@@ -1506,7 +1506,7 @@ nsCString
 &
 log
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1596,7 +1596,7 @@ void
 SendPing
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 MaybeReTunnel
@@ -1604,7 +1604,7 @@ MaybeReTunnel
 nsAHttpTransaction
 *
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 UseH2Deps

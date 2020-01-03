@@ -171,7 +171,7 @@ sync
 /
 class
 GenerateGUIDFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction

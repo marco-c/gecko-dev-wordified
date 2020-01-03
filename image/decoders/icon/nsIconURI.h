@@ -125,7 +125,7 @@ h
 "
 class
 nsMozIconURI
-MOZ_FINAL
+final
 :
 public
 nsIMozIconURI

@@ -94,7 +94,7 @@ PluginModuleChild
 ;
 class
 COMMessageFilter
-MOZ_FINAL
+final
 :
 public
 IMessageFilter

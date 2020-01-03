@@ -257,7 +257,7 @@ storage
 {
 class
 Connection
-MOZ_FINAL
+final
 :
 public
 mozIStorageConnection
@@ -1941,7 +1941,7 @@ thread
 /
 class
 CallbackComplete
-MOZ_FINAL
+final
 :
 public
 nsRunnable

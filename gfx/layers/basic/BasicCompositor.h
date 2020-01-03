@@ -201,7 +201,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -221,7 +221,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mDrawTarget
@@ -296,7 +296,7 @@ bool
 Initialize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -308,14 +308,14 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 TextureFactoryIdentifier
@@ -350,7 +350,7 @@ aRect
 SurfaceInitMode
 aInit
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -378,7 +378,7 @@ IntPoint
 &
 aSourcePoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -395,7 +395,7 @@ TextureFlags
 :
 NO_FLAGS
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -404,7 +404,7 @@ SupportsEffect
 EffectTypes
 aEffect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -414,7 +414,7 @@ CompositingRenderTarget
 *
 aSource
 )
-MOZ_OVERRIDE
+override
 {
 mRenderTarget
 =
@@ -442,7 +442,7 @@ GetCurrentRenderTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mRenderTarget
@@ -483,7 +483,7 @@ Matrix4x4
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -497,7 +497,7 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -538,14 +538,14 @@ aRenderBoundsOut
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 EndFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -559,7 +559,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 {
 NS_RUNTIMEABORT
 (
@@ -580,7 +580,7 @@ bool
 SupportsPartialTextureUpdate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -598,7 +598,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -610,7 +610,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -624,7 +624,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -636,7 +636,7 @@ ScreenPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -648,7 +648,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -663,7 +663,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 #
@@ -677,7 +677,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -696,7 +696,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LayersBackend
@@ -712,7 +712,7 @@ GetWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWidget
@@ -742,7 +742,7 @@ GetWidgetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWidgetSize

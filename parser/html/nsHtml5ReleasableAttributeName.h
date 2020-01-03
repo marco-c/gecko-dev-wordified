@@ -83,7 +83,7 @@ nsHtml5AtomTable
 ;
 class
 nsHtml5ReleasableAttributeName
-MOZ_FINAL
+final
 :
 public
 nsHtml5AttributeName

@@ -220,14 +220,14 @@ bool
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CleanUp
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetAppDir

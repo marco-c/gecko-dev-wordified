@@ -101,7 +101,7 @@ h
 "
 class
 nsZipDataStream
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

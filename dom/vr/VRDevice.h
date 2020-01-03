@@ -299,7 +299,7 @@ mLeftDegrees
 ;
 class
 VRFieldOfView
-MOZ_FINAL
+final
 :
 public
 VRFieldOfViewReadOnly
@@ -462,7 +462,7 @@ aVal
 ;
 class
 VRPositionState
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -615,7 +615,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -999,7 +999,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 XxxToggleElementVR
@@ -1120,7 +1120,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

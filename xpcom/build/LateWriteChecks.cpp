@@ -700,7 +700,7 @@ writes
 /
 class
 LateWriteObserver
-MOZ_FINAL
+final
 :
 public
 IOInterposeObserver

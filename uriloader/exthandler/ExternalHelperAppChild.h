@@ -207,7 +207,7 @@ nsresult
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

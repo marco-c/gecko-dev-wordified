@@ -248,7 +248,7 @@ HTMLImageElement
 ;
 class
 HTMLFormElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -317,7 +317,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -327,7 +327,7 @@ GetElementCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -339,7 +339,7 @@ nsIFormControl
 *
 aControl
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -350,7 +350,7 @@ GetDefaultSubmitElement
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -366,7 +366,7 @@ HTMLInputElement
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 HTMLInputElement
 *
@@ -377,7 +377,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNextRadioButton
@@ -397,7 +397,7 @@ HTMLInputElement
 *
 aRadioOut
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WalkRadioGroup
@@ -412,7 +412,7 @@ aVisitor
 bool
 aFlushContent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddToRadioGroup
@@ -425,7 +425,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RemoveFromRadioGroup
@@ -438,7 +438,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -450,7 +450,7 @@ nsAString
 aName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -463,7 +463,7 @@ aName
 bool
 aRequiredAdded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -475,7 +475,7 @@ nsAString
 aName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -488,7 +488,7 @@ aName
 bool
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -496,7 +496,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -518,7 +518,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -528,7 +528,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -538,7 +538,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -548,7 +548,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -566,7 +566,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -581,7 +581,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -629,7 +629,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -647,7 +647,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -700,7 +700,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
@@ -2432,7 +2432,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PostPasswordEvent
@@ -2451,7 +2451,7 @@ nullptr
 }
 class
 FormPasswordEventDispatcher
-MOZ_FINAL
+final
 :
 public
 AsyncEventDispatcher
@@ -2482,7 +2482,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 static_cast
 <
@@ -2552,7 +2552,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mForm
 -

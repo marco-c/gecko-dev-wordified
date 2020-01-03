@@ -152,7 +152,7 @@ JSRuntime
 createRuntime
 (
 )
-MOZ_OVERRIDE
+override
 {
 JSRuntime
 *

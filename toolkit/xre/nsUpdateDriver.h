@@ -484,7 +484,7 @@ future
 .
 class
 nsUpdateProcessor
-MOZ_FINAL
+final
 :
 public
 nsIUpdateProcessor

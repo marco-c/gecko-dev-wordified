@@ -886,7 +886,7 @@ fd
 int16_t
 outflags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -896,7 +896,7 @@ PRFileDesc
 *
 fd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -906,14 +906,14 @@ bool
 *
 aIsLocal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 ByteCountSent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -924,7 +924,7 @@ uint64_t
 ByteCountReceived
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -959,7 +959,7 @@ function
 int
 line
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -968,7 +968,7 @@ cancel
 int
 how
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -985,7 +985,7 @@ nr_transport_addr
 *
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1015,7 +1015,7 @@ nr_transport_addr
 *
 to
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1035,7 +1035,7 @@ nr_transport_addr
 *
 from
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1045,14 +1045,14 @@ nr_transport_addr
 *
 addrp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1062,7 +1062,7 @@ nr_transport_addr
 *
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1078,7 +1078,7 @@ size_t
 *
 written
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1093,7 +1093,7 @@ size_t
 *
 len
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1207,7 +1207,7 @@ NR_CLOSED
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 NrSocketIpc
-MOZ_OVERRIDE
+override
 )
 NS_IMETHODIMP
 CallListenerError
@@ -1278,7 +1278,7 @@ nr_transport_addr
 *
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1296,7 +1296,7 @@ nr_transport_addr
 *
 to
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1316,7 +1316,7 @@ nr_transport_addr
 *
 from
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1326,14 +1326,14 @@ nr_transport_addr
 *
 addrp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1343,7 +1343,7 @@ nr_transport_addr
 *
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1359,7 +1359,7 @@ size_t
 *
 written
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -1374,7 +1374,7 @@ size_t
 *
 len
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

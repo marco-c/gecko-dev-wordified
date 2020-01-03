@@ -603,7 +603,7 @@ nullptr
 }
 class
 SharedPluginTexture
-MOZ_FINAL
+final
 {
 public
 :

@@ -179,7 +179,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -212,7 +212,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -232,7 +232,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleMultiplePress
@@ -252,7 +252,7 @@ aEventStatus
 bool
 aControlHeld
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleDrag
@@ -270,7 +270,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleRelease
@@ -288,7 +288,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -304,7 +304,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -324,7 +324,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -333,7 +333,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetScrollbarMediatorContent
@@ -417,7 +417,7 @@ bool
 DoesClipChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -431,7 +431,7 @@ nsMargin
 &
 aMargin
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

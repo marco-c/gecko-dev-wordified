@@ -206,7 +206,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -219,7 +219,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -228,14 +228,14 @@ nsresult
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Drain
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -244,7 +244,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

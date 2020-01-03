@@ -543,7 +543,7 @@ LayerManagerD3D9
 /
 class
 SwapChainD3D9
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -841,7 +841,7 @@ to
 /
 class
 DeviceManagerD3D9
-MOZ_FINAL
+final
 {
 public
 :

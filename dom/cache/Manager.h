@@ -560,7 +560,7 @@ rejecting
 .
 class
 Manager
-MOZ_FINAL
+final
 {
 public
 :

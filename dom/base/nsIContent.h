@@ -6496,7 +6496,7 @@ aTryUseXHRDocBaseURI
 false
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -6509,7 +6509,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool

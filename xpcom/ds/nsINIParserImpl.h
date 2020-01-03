@@ -126,7 +126,7 @@ factory
 "
 class
 nsINIParserFactory
-MOZ_FINAL
+final
 :
 public
 nsIINIParserFactory

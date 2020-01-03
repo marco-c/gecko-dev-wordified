@@ -163,7 +163,7 @@ nsAboutProtocolHandler
 ;
 class
 nsSafeAboutProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

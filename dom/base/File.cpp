@@ -472,7 +472,7 @@ instead
 .
 class
 DataOwnerAdapter
-MOZ_FINAL
+final
 :
 public
 nsIInputStream
@@ -5862,7 +5862,7 @@ MemoryFileDataOwnerMallocSizeOf
 )
 class
 FileImplMemoryDataOwnerMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -5888,7 +5888,7 @@ aClosure
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 typedef
 FileImplMemory

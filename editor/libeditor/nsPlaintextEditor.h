@@ -445,7 +445,7 @@ aValue
 bool
 aSuppressTransaction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RemoveAttributeOrEquivalent
@@ -460,7 +460,7 @@ aAttribute
 bool
 aSuppressTransaction
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -491,7 +491,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDocumentIsEmpty
@@ -500,7 +500,7 @@ bool
 *
 aDocumentIsEmpty
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetIsDocumentEditable
@@ -509,7 +509,7 @@ bool
 *
 aIsDocumentEditable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DeleteSelection
@@ -519,7 +519,7 @@ aAction
 EStripWrappers
 aStripWrappers
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDocumentCharacterSet
@@ -529,7 +529,7 @@ nsACString
 &
 characterSet
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Undo
@@ -537,7 +537,7 @@ Undo
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Redo
@@ -545,13 +545,13 @@ Redo
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Cut
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CanCut
@@ -560,13 +560,13 @@ bool
 *
 aCanCut
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Copy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CanCopy
@@ -575,7 +575,7 @@ bool
 *
 aCanCopy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CanDelete
@@ -584,7 +584,7 @@ bool
 *
 aCanDelete
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Paste
@@ -592,7 +592,7 @@ Paste
 int32_t
 aSelectionType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CanPaste
@@ -603,7 +603,7 @@ bool
 *
 aCanPaste
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PasteTransferable
@@ -612,7 +612,7 @@ nsITransferable
 *
 aTransferable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CanPasteTransferable
@@ -624,7 +624,7 @@ bool
 *
 aCanPaste
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OutputToString
@@ -639,7 +639,7 @@ nsAString
 &
 aOutputString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OutputToStream
@@ -658,7 +658,7 @@ aCharsetOverride
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -697,7 +697,7 @@ nsIEditor
 EDirection
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -724,7 +724,7 @@ NS_IMETHOD
 EndOperation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -753,7 +753,7 @@ Selection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -763,7 +763,7 @@ nsIDOMKeyEvent
 *
 aKeyEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -779,7 +779,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -792,7 +792,7 @@ WidgetCompositionEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -802,7 +802,7 @@ nsIDOMEvent
 *
 aTextEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -812,7 +812,7 @@ nsIContent
 GetInputEventTargetContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -904,7 +904,7 @@ aDestOffset
 bool
 aDoDeleteSelection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -914,7 +914,7 @@ nsIDOMEvent
 *
 aDropEvent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

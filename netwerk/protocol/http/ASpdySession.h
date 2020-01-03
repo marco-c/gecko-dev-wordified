@@ -331,8 +331,8 @@ ResponseTimeoutEnabled
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 true

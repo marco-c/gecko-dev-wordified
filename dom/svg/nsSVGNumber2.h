@@ -432,7 +432,7 @@ public
 :
 struct
 DOMAnimatedNumber
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -493,7 +493,7 @@ float
 BaseVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mVal
@@ -511,7 +511,7 @@ SetBaseVal
 float
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -566,7 +566,7 @@ float
 AnimVal
 (
 )
-MOZ_OVERRIDE
+override
 {
 mSVGElement
 -
@@ -687,7 +687,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -695,14 +695,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -713,7 +713,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

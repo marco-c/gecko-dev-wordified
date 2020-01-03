@@ -143,7 +143,7 @@ DrawTarget
 class
 MOZ_STACK_CLASS
 nsRenderingContext
-MOZ_FINAL
+final
 {
 typedef
 mozilla

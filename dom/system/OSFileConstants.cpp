@@ -1200,7 +1200,7 @@ setup
 /
 class
 DelayedPathSetter
-MOZ_FINAL
+final
 :
 public
 nsIObserver

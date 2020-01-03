@@ -7718,7 +7718,7 @@ endif
 ;
 class
 nsRootPresContext
-MOZ_FINAL
+final
 :
 public
 nsPresContext
@@ -7745,7 +7745,7 @@ void
 Detach
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -8096,7 +8096,7 @@ bool
 IsRoot
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8272,7 +8272,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -8354,7 +8354,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

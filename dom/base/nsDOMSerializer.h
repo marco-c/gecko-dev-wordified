@@ -145,7 +145,7 @@ nsINode
 ;
 class
 nsDOMSerializer
-MOZ_FINAL
+final
 :
 public
 nsIDOMSerializer
@@ -287,7 +287,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla

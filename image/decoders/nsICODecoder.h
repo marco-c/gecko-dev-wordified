@@ -229,14 +229,14 @@ aBuffer
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 FinishInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -255,7 +255,7 @@ nsIntSize
 *
 /
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -265,7 +265,7 @@ NeedsNewFrame
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

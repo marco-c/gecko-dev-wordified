@@ -591,7 +591,7 @@ namespace
 {
 struct
 SingletonDestroyer
-MOZ_FINAL
+final
 :
 public
 nsIObserver

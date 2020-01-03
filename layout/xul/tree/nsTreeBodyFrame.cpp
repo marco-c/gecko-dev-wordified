@@ -16670,7 +16670,7 @@ NS_OK
 }
 class
 nsDisplayTreeBody
-MOZ_FINAL
+final
 :
 public
 nsDisplayItem
@@ -16731,7 +16731,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 gfxContext
 *
@@ -16787,7 +16787,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap
@@ -16806,7 +16806,7 @@ void
 DisableComponentAlpha
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDisableSubpixelAA
 =
@@ -28817,7 +28817,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

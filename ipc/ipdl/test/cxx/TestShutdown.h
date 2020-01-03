@@ -207,7 +207,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -271,7 +271,7 @@ bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 CallStackFrame
@@ -289,7 +289,7 @@ bool
 &
 expectParentDelete
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -307,7 +307,7 @@ PTestShutdownSubsubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -327,7 +327,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -401,7 +401,7 @@ bool
 RecvSync
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -417,7 +417,7 @@ bool
 &
 expectCrash
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -435,7 +435,7 @@ PTestShutdownSubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -451,7 +451,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -574,7 +574,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -617,7 +617,7 @@ bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestShutdownSubsubChild
@@ -629,7 +629,7 @@ bool
 &
 expectParentDelete
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -647,7 +647,7 @@ PTestShutdownSubsubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -663,7 +663,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -710,7 +710,7 @@ bool
 &
 expectCrash
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -728,7 +728,7 @@ PTestShutdownSubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -744,7 +744,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

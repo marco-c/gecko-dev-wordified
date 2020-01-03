@@ -439,7 +439,7 @@ ActivityStarted
 /
 class
 ScrollbarActivity
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -535,7 +535,7 @@ WillRefresh
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

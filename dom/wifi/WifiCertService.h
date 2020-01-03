@@ -146,7 +146,7 @@ dom
 {
 class
 WifiCertService
-MOZ_FINAL
+final
 :
 public
 nsIWifiCertService

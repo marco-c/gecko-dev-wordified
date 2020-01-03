@@ -343,7 +343,7 @@ nullptr
 ;
 class
 ObserverToDestroyFeaturesAlreadyReported
-MOZ_FINAL
+final
 :
 public
 nsIObserver

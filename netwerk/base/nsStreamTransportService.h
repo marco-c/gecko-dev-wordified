@@ -114,7 +114,7 @@ nsIThreadPool
 ;
 class
 nsStreamTransportService
-MOZ_FINAL
+final
 :
 public
 nsIStreamTransportService

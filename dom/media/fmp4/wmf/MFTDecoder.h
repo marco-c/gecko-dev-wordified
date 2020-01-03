@@ -159,7 +159,7 @@ mozilla
 {
 class
 MFTDecoder
-MOZ_FINAL
+final
 {
 ~
 MFTDecoder

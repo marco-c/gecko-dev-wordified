@@ -169,7 +169,7 @@ voicemail
 {
 class
 VoicemailIPCProvider
-MOZ_FINAL
+final
 :
 public
 nsIVoicemailProvider
@@ -193,7 +193,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

@@ -379,7 +379,7 @@ nsProgressMeterFrame
 }
 class
 nsAsyncProgressMeterInit
-MOZ_FINAL
+final
 :
 public
 nsIReflowCallback
@@ -405,7 +405,7 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 {
 bool
 shouldFlush
@@ -460,7 +460,7 @@ void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this

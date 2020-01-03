@@ -486,7 +486,7 @@ helper
 /
 class
 GLBlitHelper
-MOZ_FINAL
+final
 {
 enum
 Channel

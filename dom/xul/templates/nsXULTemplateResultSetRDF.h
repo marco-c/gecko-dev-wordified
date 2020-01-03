@@ -161,7 +161,7 @@ results
 /
 class
 nsXULTemplateResultSetRDF
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

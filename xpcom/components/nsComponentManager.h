@@ -756,7 +756,7 @@ SafeMutexAutoUnlock
 ;
 class
 nsComponentManagerImpl
-MOZ_FINAL
+final
 :
 public
 nsIComponentManager

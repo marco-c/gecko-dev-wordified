@@ -145,7 +145,7 @@ OwningMozSmsMessageOrMozMmsMessage
 ;
 class
 DOMMobileMessageError
-MOZ_FINAL
+final
 :
 public
 DOMError
@@ -204,7 +204,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetData

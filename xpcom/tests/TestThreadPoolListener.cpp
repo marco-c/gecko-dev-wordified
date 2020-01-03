@@ -295,7 +295,7 @@ PR_END_MACRO
 endif
 class
 Listener
-MOZ_FINAL
+final
 :
 public
 nsIThreadPoolListener

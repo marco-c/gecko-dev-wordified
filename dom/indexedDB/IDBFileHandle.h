@@ -212,7 +212,7 @@ IDBMutableFile
 ;
 class
 IDBFileHandle
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -255,7 +255,7 @@ MutableFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -268,7 +268,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -291,7 +291,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -601,14 +601,14 @@ OnCompleteOrAbort
 bool
 aAborted
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 CheckWindow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -618,7 +618,7 @@ FileRequestBase
 GenerateFileRequest
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

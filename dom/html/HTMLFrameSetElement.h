@@ -303,7 +303,7 @@ OnBeforeUnloadEventHandlerNonNull
 ;
 class
 HTMLFrameSetElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -454,7 +454,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -657,7 +657,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -819,7 +819,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -833,7 +833,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -854,7 +854,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -882,7 +882,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

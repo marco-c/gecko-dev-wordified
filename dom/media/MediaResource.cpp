@@ -7331,14 +7331,14 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7347,7 +7347,7 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7355,7 +7355,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7366,14 +7366,14 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 CanClone
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -7386,7 +7386,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7400,7 +7400,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -7427,7 +7427,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7437,7 +7437,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7453,7 +7453,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7470,7 +7470,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7481,14 +7481,14 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -7499,7 +7499,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7507,7 +7507,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7518,7 +7518,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -7554,7 +7554,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -7581,7 +7581,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -7613,7 +7613,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock
@@ -7643,7 +7643,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7654,7 +7654,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7665,7 +7665,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7676,7 +7676,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7692,7 +7692,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -7702,7 +7702,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -7737,7 +7737,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

@@ -152,7 +152,7 @@ a11y
 {
 class
 sdnTextAccessible
-MOZ_FINAL
+final
 :
 public
 ISimpleDOMText

@@ -652,7 +652,7 @@ ApplicationReputationService
 .
 class
 PendingLookup
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -1511,7 +1511,7 @@ PendingLookup
 .
 class
 PendingDBLookup
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierCallback

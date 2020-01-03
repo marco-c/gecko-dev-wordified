@@ -208,7 +208,7 @@ aCodecSpecificInfo
 uint32_t
 aCodecSpecificInfoLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -217,7 +217,7 @@ Error
 GMPErr
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -240,7 +240,7 @@ Shmem
 *
 aMem
 )
-MOZ_OVERRIDE
+override
 {
 #
 ifndef
@@ -288,7 +288,7 @@ Shmem
 &
 aMem
 )
-MOZ_OVERRIDE
+override
 {
 #
 ifndef
@@ -337,7 +337,7 @@ uint32_t
 &
 aMaxPayloadSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -362,7 +362,7 @@ GMPVideoFrameType
 &
 aFrameTypes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -373,7 +373,7 @@ Shmem
 &
 aEncodedBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -388,7 +388,7 @@ uint32_t
 &
 aRTT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -403,7 +403,7 @@ uint32_t
 &
 aFrameRate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -414,14 +414,14 @@ bool
 &
 aEnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvEncodingComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 GMPChild
 *

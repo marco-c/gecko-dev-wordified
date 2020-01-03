@@ -261,7 +261,7 @@ GetCompositorBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurfaceAllocator
@@ -299,7 +299,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSurfaceAllocator
@@ -340,7 +340,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSurfaceAllocator
@@ -368,7 +368,7 @@ Shmem
 &
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 mSurfaceAllocator
 -
@@ -385,7 +385,7 @@ IsSameProcess
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurfaceAllocator
@@ -407,7 +407,7 @@ IsOnCompositorSide
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false

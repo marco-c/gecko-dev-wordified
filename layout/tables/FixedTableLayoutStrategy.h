@@ -194,7 +194,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -206,14 +206,14 @@ aRenderingContext
 bool
 aComputingSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -224,7 +224,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

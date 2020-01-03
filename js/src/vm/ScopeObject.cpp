@@ -9824,7 +9824,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9873,7 +9873,7 @@ bool
 extensible
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -9906,7 +9906,7 @@ PropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 getOwnPropertyDescriptor
@@ -10052,7 +10052,7 @@ PropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <
@@ -10339,7 +10339,7 @@ MutableHandleValue
 vp
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <
@@ -10734,7 +10734,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <
@@ -10879,7 +10879,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <
@@ -10959,7 +10959,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <
@@ -11289,7 +11289,7 @@ MutableHandleObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 BaseProxyHandler
@@ -11318,7 +11318,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 {
 RootedId
 id
@@ -11546,7 +11546,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 result

@@ -107,7 +107,7 @@ psm
 {
 class
 NSSErrorsService
-MOZ_FINAL
+final
 :
 public
 nsINSSErrorsService

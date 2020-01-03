@@ -147,7 +147,7 @@ dom
 {
 class
 HTMLStyleElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -196,7 +196,7 @@ nsAString
 &
 aInnerHTML
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsGenericHTMLElement
@@ -219,7 +219,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -241,7 +241,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -256,7 +256,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -304,7 +304,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -318,7 +318,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -339,7 +339,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -460,7 +460,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -480,7 +480,7 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetStyleSheetInfo
@@ -501,7 +501,7 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

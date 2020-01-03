@@ -230,7 +230,7 @@ nsRect
 &
 aDirtyRect
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetWidgetBorder
@@ -247,7 +247,7 @@ nsIntMargin
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -265,7 +265,7 @@ nsIntMargin
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -283,7 +283,7 @@ nsRect
 *
 aOverflowRect
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetMinimumWidgetSize
@@ -303,7 +303,7 @@ bool
 *
 aIsOverridable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WidgetStateChanged
@@ -320,13 +320,13 @@ bool
 *
 aShouldRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ThemeChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ThemeSupportsWidget
@@ -340,7 +340,7 @@ aFrame
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 WidgetIsContainer
@@ -348,7 +348,7 @@ WidgetIsContainer
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ThemeDrawsFocusForWidget
@@ -356,13 +356,13 @@ ThemeDrawsFocusForWidget
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ThemeNeedsComboboxDropmarker
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -371,7 +371,7 @@ WidgetAppearanceDependsOnWindowFocus
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -380,7 +380,7 @@ NeedToClearBackgroundBehindWidget
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -395,7 +395,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ThemeGeometryType
@@ -407,7 +407,7 @@ aFrame
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Transparency
@@ -419,7 +419,7 @@ aFrame
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DrawProgress

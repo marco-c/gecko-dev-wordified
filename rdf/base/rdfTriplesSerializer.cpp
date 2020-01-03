@@ -202,7 +202,7 @@ h
 "
 class
 TriplesVisitor
-MOZ_FINAL
+final
 :
 public
 rdfITripleVisitor
@@ -701,7 +701,7 @@ wroteCount
 }
 class
 rdfTriplesSerializer
-MOZ_FINAL
+final
 :
 public
 rdfISerializer

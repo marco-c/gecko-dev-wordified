@@ -417,7 +417,7 @@ nullptr
 ;
 class
 BoxInputsPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -449,7 +449,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -463,7 +463,7 @@ def
 ;
 class
 ArithPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -483,13 +483,13 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 AllDoublePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -513,7 +513,7 @@ def
 ;
 class
 BitwisePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -533,13 +533,13 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 ComparePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -559,7 +559,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -572,7 +572,7 @@ instructions
 .
 class
 TestPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -592,13 +592,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 TypeBarrierPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -618,13 +618,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 CallPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -644,7 +644,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -665,7 +665,7 @@ Int32
 .
 class
 PowPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -685,7 +685,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -715,7 +715,7 @@ Op
 >
 class
 StringPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -747,7 +747,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -782,7 +782,7 @@ Op
 >
 class
 ConvertToStringPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -814,7 +814,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -852,7 +852,7 @@ Op
 >
 class
 IntPolicy
-MOZ_FINAL
+final
 :
 private
 TypePolicy
@@ -884,7 +884,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -919,7 +919,7 @@ Op
 >
 class
 ConvertToInt32Policy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -951,7 +951,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -989,7 +989,7 @@ Op
 >
 class
 DoublePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1021,7 +1021,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1059,7 +1059,7 @@ Op
 >
 class
 Float32Policy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1091,7 +1091,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1146,7 +1146,7 @@ Op
 >
 class
 FloatingPointPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1166,7 +1166,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1177,7 +1177,7 @@ Op
 >
 class
 NoFloatPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1209,7 +1209,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1245,7 +1245,7 @@ FirstOp
 >
 class
 NoFloatPolicyAfter
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1265,7 +1265,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1285,7 +1285,7 @@ instruction
 .
 class
 ToDoublePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1317,7 +1317,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1345,7 +1345,7 @@ instruction
 .
 class
 ToInt32Policy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1377,7 +1377,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1402,7 +1402,7 @@ instruction
 .
 class
 ToStringPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1434,7 +1434,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1453,7 +1453,7 @@ Op
 >
 class
 ObjectPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1485,7 +1485,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1563,7 +1563,7 @@ Op
 >
 class
 SimdScalarPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1595,7 +1595,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1609,7 +1609,7 @@ def
 ;
 class
 SimdAllPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1629,7 +1629,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1640,7 +1640,7 @@ Op
 >
 class
 SimdPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1660,13 +1660,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 SimdSelectPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1686,13 +1686,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 SimdShufflePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1712,7 +1712,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1747,7 +1747,7 @@ Op
 >
 class
 SimdSameAsReturnedTypePolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1779,7 +1779,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1798,7 +1798,7 @@ Op
 >
 class
 BoxPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1830,7 +1830,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -1861,7 +1861,7 @@ Type
 >
 class
 BoxExceptPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1918,7 +1918,7 @@ Rhs
 >
 class
 MixPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -1971,7 +1971,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -2000,7 +2000,7 @@ Policy3
 >
 class
 Mix3Policy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2063,7 +2063,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -2173,7 +2173,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 {
 return
 staticAdjustInputs
@@ -2187,7 +2187,7 @@ ins
 ;
 class
 CallSetElementPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2207,7 +2207,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2244,7 +2244,7 @@ an
 object
 class
 InstanceOfPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2264,7 +2264,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2327,13 +2327,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 StoreTypedArrayHolePolicy
-MOZ_FINAL
+final
 :
 public
 StoreUnboxedScalarPolicy
@@ -2353,13 +2353,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 StoreTypedArrayElementStaticPolicy
-MOZ_FINAL
+final
 :
 public
 StoreUnboxedScalarPolicy
@@ -2379,13 +2379,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 StoreUnboxedObjectOrNullPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2405,7 +2405,7 @@ MInstruction
 *
 def
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2423,7 +2423,7 @@ boxed
 .
 class
 ClampPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2443,13 +2443,13 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 FilterTypeSetPolicy
-MOZ_FINAL
+final
 :
 public
 TypePolicy
@@ -2469,7 +2469,7 @@ MInstruction
 *
 ins
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -476,7 +476,7 @@ unsigned
 int
 streams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int
@@ -498,7 +498,7 @@ void
 *
 handle
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -539,7 +539,7 @@ bool
 IsTextureSupported
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -619,14 +619,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -636,7 +636,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -646,7 +646,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -663,7 +663,7 @@ aId
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -674,7 +674,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMediaSource
@@ -688,7 +688,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -809,7 +809,7 @@ size_t
 NumCapabilities
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetCapability
@@ -823,7 +823,7 @@ CaptureCapability
 &
 aOut
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -984,7 +984,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -994,7 +994,7 @@ nsAString
 &
 aUUID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1012,14 +1012,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1031,7 +1031,7 @@ aStream
 TrackID
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1043,7 +1043,7 @@ aSource
 TrackID
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1052,7 +1052,7 @@ SetDirectListeners
 bool
 aHasDirectListeners
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -1075,7 +1075,7 @@ aNoise
 int32_t
 aPlayoutDelay
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1092,14 +1092,14 @@ aId
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsFake
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1114,7 +1114,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 dom
@@ -1134,7 +1134,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1165,7 +1165,7 @@ samplingFreq
 bool
 isStereo
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 protected

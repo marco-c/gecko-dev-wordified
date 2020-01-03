@@ -71,7 +71,7 @@ h
 "
 class
 nsIMEPicker
-MOZ_FINAL
+final
 :
 public
 nsIIMEPicker

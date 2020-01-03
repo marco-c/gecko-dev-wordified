@@ -2334,7 +2334,7 @@ usage
 /
 class
 ExpirationTrackerObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

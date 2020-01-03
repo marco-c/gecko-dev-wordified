@@ -6075,7 +6075,7 @@ ProfileTimelineMarker
 &
 aMarker
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -310,7 +310,7 @@ nsAppFileLocationProvider
 *
 class
 nsAppFileLocationProvider
-MOZ_FINAL
+final
 :
 public
 nsIDirectoryServiceProvider2

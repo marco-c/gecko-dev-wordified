@@ -147,7 +147,7 @@ dom
 {
 class
 ContentBridgeChild
-MOZ_FINAL
+final
 :
 public
 PContentBridgeChild
@@ -184,7 +184,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DeferredDestroy
@@ -221,7 +221,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobChild
@@ -236,7 +236,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 jsipc
 :
@@ -246,7 +246,7 @@ CPOWManager
 GetCPOWManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -280,7 +280,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -320,7 +320,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ DeallocPBrowserChild
 PBrowserChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -363,7 +363,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -377,7 +377,7 @@ PJavaScriptChild
 AllocPJavaScriptChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -392,7 +392,7 @@ jsipc
 PJavaScriptChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobChild
@@ -404,7 +404,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -413,7 +413,7 @@ DeallocPBlobChild
 PBlobChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

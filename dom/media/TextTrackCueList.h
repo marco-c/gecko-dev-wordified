@@ -165,7 +165,7 @@ TextTrackCue
 ;
 class
 TextTrackCueList
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -209,7 +209,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

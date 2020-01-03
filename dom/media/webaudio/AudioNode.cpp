@@ -2120,7 +2120,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mNode
 =

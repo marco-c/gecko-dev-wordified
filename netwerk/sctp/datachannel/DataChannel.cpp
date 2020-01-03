@@ -735,7 +735,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

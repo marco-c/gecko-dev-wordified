@@ -182,7 +182,7 @@ WorkerPrivate
 ;
 class
 XMLHttpRequest
-MOZ_FINAL
+final
 :
 public
 nsXHREventTarget
@@ -332,7 +332,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
@@ -482,7 +482,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 IMPL_EVENT_HANDLER
 (

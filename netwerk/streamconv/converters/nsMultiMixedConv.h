@@ -276,7 +276,7 @@ interface
 /
 class
 nsPartChannel
-MOZ_FINAL
+final
 :
 public
 nsIChannel

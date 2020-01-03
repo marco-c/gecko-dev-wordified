@@ -199,7 +199,7 @@ imgIContainer
 Unwrap
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -209,7 +209,7 @@ ProgressTracker
 GetProgressTracker
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -219,7 +219,7 @@ ProgressTracker
 *
 aTracker
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -239,7 +239,7 @@ aSourceOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -256,7 +256,7 @@ aStatus
 bool
 aLastPart
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -288,7 +288,7 @@ NS_IMETHOD
 LockImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -298,7 +298,7 @@ NS_IMETHOD
 UnlockImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -309,7 +309,7 @@ void
 IncrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -317,7 +317,7 @@ void
 DecrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 #
@@ -328,7 +328,7 @@ uint32_t
 GetAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -355,7 +355,7 @@ aRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -364,21 +364,21 @@ OnLoadComplete
 bool
 aLastPart
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 SetHasImage
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnStartDecode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -386,7 +386,7 @@ NotificationsDeferred
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -395,7 +395,7 @@ SetNotificationsDeferred
 bool
 aDeferNotifications
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -425,7 +425,7 @@ void
 BlockOnload
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -433,7 +433,7 @@ void
 UnblockOnload
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 protected

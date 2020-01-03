@@ -151,7 +151,7 @@ cellbroadcast
 {
 class
 CellBroadcastParent
-MOZ_FINAL
+final
 :
 public
 PCellBroadcastParent
@@ -171,7 +171,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror
@@ -197,7 +197,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

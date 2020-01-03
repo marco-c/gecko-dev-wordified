@@ -404,14 +404,14 @@ Value
 >
 aVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReleaseObjects
 (
 )
-MOZ_OVERRIDE
+override
 {
 mMutableFile
 =

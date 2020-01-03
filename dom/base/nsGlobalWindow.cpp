@@ -3076,7 +3076,7 @@ it
 /
 class
 nsGlobalWindowObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -3115,7 +3115,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3159,7 +3159,7 @@ void
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3781,7 +3781,7 @@ Value
 priv
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -3826,7 +3826,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3868,7 +3868,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3894,7 +3894,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3928,7 +3928,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3957,7 +3957,7 @@ JSObject
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3983,7 +3983,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4006,7 +4006,7 @@ bool
 extensible
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4037,7 +4037,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4085,7 +4085,7 @@ Value
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4139,7 +4139,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -4179,7 +4179,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4210,7 +4210,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4236,7 +4236,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -4258,7 +4258,7 @@ JSObject
 wrapper
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4272,7 +4272,7 @@ JSObject
 proxy
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4283,7 +4283,7 @@ JSObject
 obj
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -4298,7 +4298,7 @@ JSObject
 obj
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -4339,7 +4339,7 @@ JSObject
 callable
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4367,7 +4367,7 @@ jsid
 id
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -6691,7 +6691,7 @@ JSObject
 wrapper
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const
@@ -12629,7 +12629,7 @@ WINDOWSTATEHOLDER_IID
 }
 class
 WindowStateHolder
-MOZ_FINAL
+final
 :
 public
 nsISupports

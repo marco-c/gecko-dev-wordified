@@ -182,7 +182,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -198,7 +198,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -231,14 +231,14 @@ aSink
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 EndLoad
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -249,7 +249,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -270,7 +270,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -281,7 +281,7 @@ nsWindowSizes
 aWindowSizes
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -430,7 +430,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult

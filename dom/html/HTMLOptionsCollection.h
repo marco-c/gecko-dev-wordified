@@ -225,7 +225,7 @@ DOM
 /
 class
 HTMLOptionsCollection
-MOZ_FINAL
+final
 :
 public
 nsIHTMLCollection
@@ -276,7 +276,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -292,7 +292,7 @@ JSObject
 GetWrapperPreserveColorInternal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsWrapperCache
@@ -331,7 +331,7 @@ GetElementAt
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -339,7 +339,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -695,7 +695,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 {
 return
 NamedGetter
@@ -787,7 +787,7 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

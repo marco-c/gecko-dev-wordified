@@ -188,7 +188,7 @@ NativePropertyHooks
 }
 class
 ShimInterfaceInfo
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceInfo

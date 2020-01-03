@@ -380,7 +380,7 @@ void
 OnNewFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

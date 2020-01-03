@@ -1283,7 +1283,7 @@ image
 /
 class
 BufferRecycleBin
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -1905,7 +1905,7 @@ modes
 /
 class
 ImageContainer
-MOZ_FINAL
+final
 :
 public
 SupportsWeakPtr
@@ -5246,7 +5246,7 @@ image
 /
 class
 CairoImage
-MOZ_FINAL
+final
 :
 public
 Image
@@ -5356,7 +5356,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSourceSurface
@@ -5375,7 +5375,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -5385,7 +5385,7 @@ IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSize

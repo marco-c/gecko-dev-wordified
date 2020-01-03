@@ -886,7 +886,7 @@ namespace
 struct
 MOZ_STACK_CLASS
 MutableFileData
-MOZ_FINAL
+final
 {
 nsString
 type
@@ -920,7 +920,7 @@ MutableFileData
 struct
 MOZ_STACK_CLASS
 BlobOrFileData
-MOZ_FINAL
+final
 {
 uint32_t
 tag
@@ -976,7 +976,7 @@ BlobOrFileData
 struct
 MOZ_STACK_CLASS
 GetAddInfoClosure
-MOZ_FINAL
+final
 {
 IDBObjectStore
 :

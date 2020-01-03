@@ -259,7 +259,7 @@ GMPVideoFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -270,7 +270,7 @@ GMPPlane
 *
 aPlane
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

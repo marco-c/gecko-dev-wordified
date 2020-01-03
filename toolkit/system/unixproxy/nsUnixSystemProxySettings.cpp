@@ -211,7 +211,7 @@ h
 "
 class
 nsUnixSystemProxySettings
-MOZ_FINAL
+final
 :
 public
 nsISystemProxySettings

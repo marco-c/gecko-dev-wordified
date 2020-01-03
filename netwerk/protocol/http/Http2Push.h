@@ -170,7 +170,7 @@ Http2PushTransactionBuffer
 ;
 class
 Http2PushedStream
-MOZ_FINAL
+final
 :
 public
 Http2Stream
@@ -225,7 +225,7 @@ Http2Stream
 GetConsumerStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mConsumerStream
@@ -262,7 +262,7 @@ uint32_t
 uint32_t
 *
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 WriteSegments
@@ -273,14 +273,14 @@ uint32_t
 uint32_t
 *
 )
-MOZ_OVERRIDE
+override
 ;
 nsILoadGroupConnectionInfo
 *
 LoadGroupConnectionInfo
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLoadGroupCI
@@ -307,7 +307,7 @@ DeferCleanup
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetDeferCleanupOnSuccess
@@ -365,7 +365,7 @@ bool
 HasSink
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -542,7 +542,7 @@ mRequestString
 ;
 class
 Http2PushTransactionBuffer
-MOZ_FINAL
+final
 :
 public
 nsAHttpTransaction

@@ -186,7 +186,7 @@ bool
 isParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -198,7 +198,7 @@ JSObject
 scopeForTargetObjects
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

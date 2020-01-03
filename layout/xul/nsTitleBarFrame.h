@@ -170,7 +170,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -189,7 +189,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -210,7 +210,7 @@ void
 UpdateMouseThrough
 (
 )
-MOZ_OVERRIDE
+override
 {
 AddStateBits
 (

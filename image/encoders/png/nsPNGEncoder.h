@@ -197,7 +197,7 @@ options
 .
 class
 nsPNGEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

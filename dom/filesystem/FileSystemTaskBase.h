@@ -1628,7 +1628,7 @@ FileSystemResponseValue
 &
 value
 )
-MOZ_OVERRIDE
+override
 ;
 BlobParent
 *

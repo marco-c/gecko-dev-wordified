@@ -646,7 +646,7 @@ listeners
 /
 class
 nsListEventListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener

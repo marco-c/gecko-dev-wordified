@@ -2585,7 +2585,7 @@ scriptable
 classes
 class
 VisualEventTracerLog
-MOZ_FINAL
+final
 :
 public
 nsIVisualEventTracerLog

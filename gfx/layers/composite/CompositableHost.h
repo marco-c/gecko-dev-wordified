@@ -155,7 +155,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -1512,7 +1512,7 @@ mKeepAttached
 ;
 class
 AutoLockCompositableHost
-MOZ_FINAL
+final
 {
 public
 :

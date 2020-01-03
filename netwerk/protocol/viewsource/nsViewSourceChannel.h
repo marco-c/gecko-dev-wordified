@@ -180,7 +180,7 @@ h
 "
 class
 nsViewSourceChannel
-MOZ_FINAL
+final
 :
 public
 nsIViewSourceChannel

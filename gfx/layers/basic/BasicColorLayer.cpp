@@ -336,7 +336,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -386,7 +386,7 @@ Layer
 *
 aMaskLayer
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

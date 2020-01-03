@@ -190,7 +190,7 @@ PTestSelfManageParent
 AllocPTestSelfManageParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -207,7 +207,7 @@ PTestSelfManageParent
 *
 a
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -220,7 +220,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 mWhy
 =
@@ -292,7 +292,7 @@ PTestSelfManageParent
 AllocPTestSelfManageParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -309,7 +309,7 @@ PTestSelfManageParent
 *
 a
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -322,7 +322,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -475,7 +475,7 @@ PTestSelfManageChild
 AllocPTestSelfManageChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -492,7 +492,7 @@ PTestSelfManageChild
 *
 a
 )
-MOZ_OVERRIDE
+override
 {
 delete
 a
@@ -508,7 +508,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 }
@@ -556,7 +556,7 @@ PTestSelfManageChild
 AllocPTestSelfManageChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -573,7 +573,7 @@ PTestSelfManageChild
 *
 a
 )
-MOZ_OVERRIDE
+override
 {
 delete
 a
@@ -589,7 +589,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -4898,7 +4898,7 @@ CORS
 check
 class
 nsCORSPreflightListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

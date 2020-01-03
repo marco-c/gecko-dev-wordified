@@ -188,7 +188,7 @@ slot
 /
 class
 MobileConnectionChild
-MOZ_FINAL
+final
 :
 public
 PMobileConnectionChild
@@ -226,7 +226,7 @@ delete
 ;
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror
@@ -270,7 +270,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PMobileConnectionRequestChild
@@ -282,7 +282,7 @@ MobileConnectionRequest
 &
 request
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -292,7 +292,7 @@ PMobileConnectionRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -304,7 +304,7 @@ const
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -316,7 +316,7 @@ const
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -327,7 +327,7 @@ nsString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -354,7 +354,7 @@ uint16_t
 &
 aServiceClass
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -369,7 +369,7 @@ uint32_t
 &
 aTimeoutMs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -380,7 +380,7 @@ nsString
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -391,7 +391,7 @@ int32_t
 &
 aRadioState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -402,7 +402,7 @@ uint32_t
 &
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -413,7 +413,7 @@ nsString
 &
 aNetwork
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -424,7 +424,7 @@ nsString
 &
 aNetwork
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -435,7 +435,7 @@ int32_t
 &
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -811,7 +811,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -822,7 +822,7 @@ MobileConnectionReply
 &
 aReply
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

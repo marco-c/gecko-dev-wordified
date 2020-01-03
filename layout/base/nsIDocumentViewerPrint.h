@@ -424,7 +424,7 @@ SetIsPrinting
 bool
 aIsPrinting
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -432,7 +432,7 @@ bool
 GetIsPrinting
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -442,7 +442,7 @@ SetIsPrintPreview
 bool
 aIsPrintPreview
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -450,7 +450,7 @@ bool
 GetIsPrintPreview
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -465,7 +465,7 @@ nsStyleSet
 *
 aStyleSet
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -473,7 +473,7 @@ void
 IncrementDestroyRefCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -481,7 +481,7 @@ void
 ReturnToGalleyPresentation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -489,7 +489,7 @@ void
 OnDonePrinting
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -497,7 +497,7 @@ bool
 IsInitializedForPrintPreview
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -505,7 +505,7 @@ void
 InitializeForPrintPreview
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -524,7 +524,7 @@ nsIPresShell
 *
 aPresShell
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

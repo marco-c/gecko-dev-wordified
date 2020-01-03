@@ -280,7 +280,7 @@ void
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 ConnectionStatus
 GetConnectionStatus
@@ -455,7 +455,7 @@ OnFileCanReadWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnFileCanWriteWithoutBlocking
@@ -463,7 +463,7 @@ OnFileCanWriteWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 ConnectionStatus
 mConnectionStatus

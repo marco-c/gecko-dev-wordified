@@ -218,7 +218,7 @@ entry
 ;
 class
 nsCertAddonInfo
-MOZ_FINAL
+final
 :
 public
 nsISupports

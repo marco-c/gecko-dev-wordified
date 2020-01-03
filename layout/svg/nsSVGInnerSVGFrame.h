@@ -191,7 +191,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -223,7 +223,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -237,7 +237,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -266,7 +266,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -291,21 +291,21 @@ aDirtyRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
 GetCoveredRegion
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowSVG
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -314,7 +314,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -326,7 +326,7 @@ gfxPoint
 &
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -338,7 +338,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -349,7 +349,7 @@ Matrix
 aTransform
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -363,7 +363,7 @@ NotifyViewportOrTransformChanged
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

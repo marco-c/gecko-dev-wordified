@@ -456,7 +456,7 @@ dom
 VoiceData
 class
 VoiceData
-MOZ_FINAL
+final
 {
 private
 :

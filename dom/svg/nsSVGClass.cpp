@@ -145,7 +145,7 @@ dom
 ;
 struct
 DOMAnimatedString
-MOZ_FINAL
+final
 :
 public
 SVGAnimatedString
@@ -195,7 +195,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 mVal
 -
@@ -215,7 +215,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 mVal
 -
@@ -235,7 +235,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

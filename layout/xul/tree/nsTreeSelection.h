@@ -142,7 +142,7 @@ nsTreeRange
 ;
 class
 nsTreeSelection
-MOZ_FINAL
+final
 :
 public
 nsINativeTreeSelection
@@ -176,7 +176,7 @@ NS_IMETHOD
 EnsureNative
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

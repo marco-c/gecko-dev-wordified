@@ -478,7 +478,7 @@ thread
 -
 class
 nsHttpTransaction
-MOZ_FINAL
+final
 :
 public
 nsAHttpTransaction
@@ -992,7 +992,7 @@ nsILoadGroupConnectionInfo
 LoadGroupConnectionInfo
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLoadGroupCI
@@ -1025,7 +1025,7 @@ nsHttpTransaction
 QueryHttpTransaction
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1411,13 +1411,13 @@ ResponseTimeoutEnabled
 (
 )
 const
-MOZ_FINAL
+final
 ;
 void
 DisableSpdy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReuseConnectionOnRestartOK
@@ -1425,7 +1425,7 @@ ReuseConnectionOnRestartOK
 bool
 reuseOk
 )
-MOZ_OVERRIDE
+override
 {
 mReuseOnRestart
 =
@@ -2560,7 +2560,7 @@ void
 OnTokenBucketAdmitted
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

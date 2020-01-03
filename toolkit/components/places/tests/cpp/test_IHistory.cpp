@@ -380,7 +380,7 @@ forget
 }
 class
 VisitURIObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -484,7 +484,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 mVisits
 +
@@ -1912,7 +1912,7 @@ resolution
 "
 class
 statusObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1997,7 +1997,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

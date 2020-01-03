@@ -409,7 +409,7 @@ aRes
 ;
 class
 BluetoothDaemonSocketInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothSocketInterface

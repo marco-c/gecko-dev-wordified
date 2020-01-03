@@ -733,7 +733,7 @@ void
 ReplaceWithDisabled
 (
 )
-MOZ_OVERRIDE
+override
 {
 for
 (
@@ -801,7 +801,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

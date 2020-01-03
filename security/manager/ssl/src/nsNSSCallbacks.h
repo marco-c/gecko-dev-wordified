@@ -217,7 +217,7 @@ canFalseStart
 ;
 class
 nsHTTPListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamLoaderObserver

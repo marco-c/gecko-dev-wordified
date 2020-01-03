@@ -211,7 +211,7 @@ SerializedKeyRange
 ;
 class
 IDBKeyRange
-MOZ_FINAL
+final
 :
 public
 nsISupports

@@ -421,7 +421,7 @@ void
 *
 aNativeAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

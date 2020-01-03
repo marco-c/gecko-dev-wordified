@@ -162,7 +162,7 @@ SmsSendParameters
 ;
 class
 MobileMessageManager
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -229,7 +229,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

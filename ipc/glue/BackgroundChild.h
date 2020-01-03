@@ -358,7 +358,7 @@ completes
 .
 class
 BackgroundChild
-MOZ_FINAL
+final
 {
 friend
 class

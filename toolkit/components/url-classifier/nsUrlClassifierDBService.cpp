@@ -4256,7 +4256,7 @@ callback
 .
 class
 nsUrlClassifierLookupCallback
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierLookupCallback
@@ -5686,7 +5686,7 @@ enums
 .
 class
 nsUrlClassifierClassifyCallback
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierCallback

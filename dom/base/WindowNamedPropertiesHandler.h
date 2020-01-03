@@ -200,7 +200,7 @@ JSPropertyDescriptor
 aDesc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -242,7 +242,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -270,7 +270,7 @@ AutoIdVector
 aProps
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -304,7 +304,7 @@ ObjectOpResult
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -330,7 +330,7 @@ ObjectOpResult
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aResult
@@ -361,7 +361,7 @@ bool
 aIsExtensible
 )
 const
-MOZ_OVERRIDE
+override
 {
 *
 aIsExtensible
@@ -392,7 +392,7 @@ JSObject
 aProxy
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "

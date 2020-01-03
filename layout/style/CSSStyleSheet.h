@@ -726,7 +726,7 @@ NS_CSS_STYLE_SHEET_IMPL_CID
 }
 class
 CSSStyleSheet
-MOZ_FINAL
+final
 :
 public
 nsIStyleSheet
@@ -775,7 +775,7 @@ GetSheetURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIURI
@@ -784,7 +784,7 @@ GetBaseURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -795,7 +795,7 @@ nsString
 aTitle
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -806,7 +806,7 @@ nsString
 aType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -814,7 +814,7 @@ HasRules
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -822,7 +822,7 @@ IsApplicable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -831,7 +831,7 @@ SetEnabled
 bool
 aEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -839,14 +839,14 @@ IsComplete
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 SetComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIStyleSheet
@@ -855,7 +855,7 @@ GetParentSheet
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -869,7 +869,7 @@ GetOwningDocument
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -884,7 +884,7 @@ nsIDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -921,7 +921,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1483,7 +1483,7 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 EnsureUniqueInnerResult
@@ -1641,7 +1641,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2059,7 +2059,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

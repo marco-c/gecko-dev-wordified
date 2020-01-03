@@ -636,7 +636,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -810,7 +810,7 @@ void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1232,7 +1232,7 @@ GetParentObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mShadowRoot
@@ -1243,7 +1243,7 @@ uint32_t
 Length
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 CSSStyleSheet
@@ -1256,7 +1256,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

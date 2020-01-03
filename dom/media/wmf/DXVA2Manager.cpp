@@ -198,7 +198,7 @@ IUnknown
 GetDXVADeviceManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -244,7 +244,7 @@ Image
 *
 aOutImage
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

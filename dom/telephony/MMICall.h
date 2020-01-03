@@ -218,7 +218,7 @@ dom
 {
 class
 MMICall
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -268,7 +268,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyResult

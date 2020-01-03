@@ -2820,7 +2820,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 NotificationHandlerWrapper
-MOZ_FINAL
+final
 {
 public
 :
@@ -2860,7 +2860,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 ConnectionStateInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -3016,7 +3016,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 AudioStateInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -3268,7 +3268,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 VolumeInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -3425,7 +3425,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 DialCallInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -3766,7 +3766,7 @@ BluetoothDaemonHandsfreeModule
 :
 :
 UnknownAtInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -4190,7 +4190,7 @@ BluetoothDaemonHandsfreeInterface
 :
 :
 InitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -4221,7 +4221,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4243,7 +4243,7 @@ void
 RegisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4399,7 +4399,7 @@ BluetoothDaemonHandsfreeInterface
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -4437,7 +4437,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4465,7 +4465,7 @@ void
 UnregisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

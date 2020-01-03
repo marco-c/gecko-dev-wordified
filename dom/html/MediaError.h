@@ -167,7 +167,7 @@ dom
 {
 class
 MediaError
-MOZ_FINAL
+final
 :
 public
 nsIDOMMediaError
@@ -232,7 +232,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 Code

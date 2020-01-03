@@ -111,7 +111,7 @@ mozilla
 {
 class
 WebGLVertexArrayFake
-MOZ_FINAL
+final
 :
 public
 WebGLVertexArray
@@ -123,14 +123,14 @@ void
 BindVertexArrayImpl
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeleteImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -139,7 +139,7 @@ void
 GenVertexArray
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;

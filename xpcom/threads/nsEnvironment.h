@@ -181,7 +181,7 @@ environment
 "
 class
 nsEnvironment
-MOZ_FINAL
+final
 :
 public
 nsIEnvironment

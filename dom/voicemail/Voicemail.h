@@ -171,7 +171,7 @@ VoicemailStatus
 ;
 class
 Voicemail
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -298,7 +298,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -374,7 +374,7 @@ aService
 ;
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

@@ -1605,7 +1605,7 @@ patterns
 /
 class
 VibratorRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -2634,7 +2634,7 @@ anonymous
 namespace
 class
 BatteryObserver
-MOZ_FINAL
+final
 :
 public
 IUeventObserver
@@ -6488,7 +6488,7 @@ args
 )
 class
 OomVictimLogger
-MOZ_FINAL
+final
 :
 public
 nsIObserver

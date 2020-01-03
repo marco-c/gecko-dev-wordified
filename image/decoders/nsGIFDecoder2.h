@@ -233,14 +233,14 @@ aBuffer
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 FinishInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Telemetry
@@ -250,7 +250,7 @@ ID
 SpeedHistogram
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

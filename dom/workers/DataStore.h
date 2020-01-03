@@ -123,7 +123,7 @@ WorkerGlobalScope
 ;
 class
 WorkerDataStore
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -179,7 +179,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -454,7 +454,7 @@ mEventProxy
 ;
 class
 DataStoreChangeEventProxy
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -505,7 +505,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

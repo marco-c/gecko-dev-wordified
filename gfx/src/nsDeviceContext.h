@@ -287,7 +287,7 @@ nsRect
 ;
 class
 nsDeviceContext
-MOZ_FINAL
+final
 {
 public
 :

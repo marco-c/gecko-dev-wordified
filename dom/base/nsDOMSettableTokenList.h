@@ -105,7 +105,7 @@ Element
 .
 class
 nsDOMSettableTokenList
-MOZ_FINAL
+final
 :
 public
 nsDOMTokenList
@@ -153,7 +153,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

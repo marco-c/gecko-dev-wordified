@@ -843,7 +843,7 @@ gfxPrefs
 ;
 class
 gfxPrefs
-MOZ_FINAL
+final
 {
 private
 :

@@ -123,7 +123,7 @@ dom
 {
 class
 HTMLUnknownElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -193,7 +193,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -215,7 +215,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -554,7 +554,7 @@ T
 >
 class
 DeleteTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -578,7 +578,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mPtr
 =
@@ -632,7 +632,7 @@ BluetoothSocketHALInterface
 :
 :
 ConnectWatcher
-MOZ_FINAL
+final
 :
 public
 SocketMessageWatcher
@@ -661,7 +661,7 @@ Proceed
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 DispatchBluetoothSocketHALResult
 (
@@ -960,7 +960,7 @@ BluetoothSocketHALInterface
 :
 :
 AcceptWatcher
-MOZ_FINAL
+final
 :
 public
 SocketMessageWatcher
@@ -989,7 +989,7 @@ Proceed
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

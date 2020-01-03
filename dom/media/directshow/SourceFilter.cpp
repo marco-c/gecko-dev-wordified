@@ -790,7 +790,7 @@ ULONG
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 BasePin
@@ -808,7 +808,7 @@ ULONG
 Release
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 BasePin
@@ -829,7 +829,7 @@ void
 *
 ppv
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -856,7 +856,7 @@ MediaType
 *
 aMediaType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -878,7 +878,7 @@ MediaType
 *
 aMediaType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -894,7 +894,7 @@ BreakConnect
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -913,7 +913,7 @@ IPin
 *
 aPin
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -948,7 +948,7 @@ IMemAllocator
 *
 aActual
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -987,7 +987,7 @@ aSample
 DWORD_PTR
 aUserData
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1036,7 +1036,7 @@ DWORD_PTR
 *
 aUserData
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1085,7 +1085,7 @@ IMediaSample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1138,7 +1138,7 @@ BYTE
 *
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1163,7 +1163,7 @@ LONGLONG
 *
 aAvailable
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1174,14 +1174,14 @@ BeginFlush
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP
 EndFlush
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 GetAndResetBytesConsumedCount

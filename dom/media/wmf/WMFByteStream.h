@@ -329,7 +329,7 @@ IMFByteStreamBehaviour
 /
 class
 WMFByteStream
-MOZ_FINAL
+final
 :
 public
 IMFByteStream

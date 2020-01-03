@@ -352,7 +352,7 @@ aValue
 TrackRate
 aSampleRate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -493,7 +493,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -718,7 +718,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -793,7 +793,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

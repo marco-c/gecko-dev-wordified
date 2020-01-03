@@ -156,7 +156,7 @@ embedding
 {
 class
 PrintingParent
-MOZ_FINAL
+final
 :
 public
 PPrintingParent

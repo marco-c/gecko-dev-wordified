@@ -1137,7 +1137,7 @@ void
 ForgetHBFace
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1147,7 +1147,7 @@ gr_face
 *
 aFace
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1164,7 +1164,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MaybeReleaseFTFace
@@ -2669,7 +2669,7 @@ GetFontTable
 uint32_t
 aTableTag
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -3954,7 +3954,7 @@ aRunParams
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -3983,7 +3983,7 @@ GetSubSuperscriptFont
 int32_t
 aAppUnitsPerDevPixel
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -4009,7 +4009,7 @@ gfxFont
 GetSmallCapsFont
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -4081,7 +4081,7 @@ fonts
 /
 class
 gfxFcFontSet
-MOZ_FINAL
+final
 {
 public
 :

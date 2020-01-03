@@ -146,7 +146,7 @@ nsIDNSService
 ;
 class
 nsDNSPrefetch
-MOZ_FINAL
+final
 :
 public
 nsIDNSListener

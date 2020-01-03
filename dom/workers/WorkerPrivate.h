@@ -397,7 +397,7 @@ Mutex
 ;
 class
 RefCountedMutex
-MOZ_FINAL
+final
 :
 public
 Mutex
@@ -1012,7 +1012,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED

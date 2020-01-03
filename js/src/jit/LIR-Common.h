@@ -3815,8 +3815,8 @@ numSuccessors
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 Succs
@@ -3831,8 +3831,8 @@ size_t
 i
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 successors_
@@ -3851,8 +3851,8 @@ MBasicBlock
 *
 successor
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 successors_
 [
@@ -29475,7 +29475,7 @@ getOperand
 ;
 class
 LAsmJSCall
-MOZ_FINAL
+final
 :
 public
 LInstruction

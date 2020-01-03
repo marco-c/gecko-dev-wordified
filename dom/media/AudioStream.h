@@ -1199,7 +1199,7 @@ synchronization
 .
 class
 AudioStream
-MOZ_FINAL
+final
 {
 virtual
 ~
@@ -2828,8 +2828,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 RefPtr
 <

@@ -783,7 +783,7 @@ browsing
 .
 struct
 DBState
-MOZ_FINAL
+final
 {
 DBState
 (
@@ -1380,7 +1380,7 @@ declaration
 /
 class
 nsCookieService
-MOZ_FINAL
+final
 :
 public
 nsICookieService

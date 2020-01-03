@@ -227,7 +227,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -239,7 +239,7 @@ nsSVGFilterInstance
 *
 aInstance
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -252,7 +252,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -273,7 +273,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -349,7 +349,7 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

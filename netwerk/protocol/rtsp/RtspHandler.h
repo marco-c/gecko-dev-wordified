@@ -146,7 +146,7 @@ net
 {
 class
 RtspHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

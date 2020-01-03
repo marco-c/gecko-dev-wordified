@@ -691,7 +691,7 @@ id
 /
 class
 DOMSVGLength
-MOZ_FINAL
+final
 :
 public
 nsIDOMSVGLength
@@ -1359,7 +1359,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -162,7 +162,7 @@ mozilla
 {
 class
 SipccSdpParser
-MOZ_FINAL
+final
 :
 public
 SdpErrorHolder

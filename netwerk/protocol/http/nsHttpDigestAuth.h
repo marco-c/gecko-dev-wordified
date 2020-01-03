@@ -331,7 +331,7 @@ nsHttpDigestAuth
 -
 class
 nsHttpDigestAuth
-MOZ_FINAL
+final
 :
 public
 nsIHttpAuthenticator

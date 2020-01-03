@@ -315,7 +315,7 @@ ipc
 PBackgroundChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -324,7 +324,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -348,7 +348,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 \
 {
 _to
@@ -365,7 +365,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 _to
@@ -396,7 +396,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 \
 {
 if
@@ -421,7 +421,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 if

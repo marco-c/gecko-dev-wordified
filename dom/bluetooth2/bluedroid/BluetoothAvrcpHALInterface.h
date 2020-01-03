@@ -163,7 +163,7 @@ BluetoothHALInterface
 ;
 class
 BluetoothAvrcpHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothAvrcpInterface

@@ -343,7 +343,7 @@ NS_OK
 }
 class
 nsReceiver
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -355,7 +355,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -913,7 +913,7 @@ NS_OK
 /
 class
 nsShortReader
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -925,7 +925,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -1593,7 +1593,7 @@ NS_OK
 /
 class
 nsPump
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -1605,7 +1605,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv

@@ -191,7 +191,7 @@ string
 /
 class
 XPathExpression
-MOZ_FINAL
+final
 :
 public
 NonRefcountedDOMObject

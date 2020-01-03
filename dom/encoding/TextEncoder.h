@@ -150,7 +150,7 @@ dom
 {
 class
 TextEncoder
-MOZ_FINAL
+final
 :
 public
 NonRefcountedDOMObject

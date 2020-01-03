@@ -966,7 +966,7 @@ BUILD_GC_ON_IPC_MESSAGES
 class
 MOZ_STACK_CLASS
 AutoSetCurrentTransaction
-MOZ_FINAL
+final
 {
 typedef
 mozilla
@@ -1154,7 +1154,7 @@ mTransaction
 class
 MOZ_STACK_CLASS
 ResultHelper
-MOZ_FINAL
+final
 :
 public
 IDBRequest
@@ -1695,7 +1695,7 @@ Value
 >
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2535,7 +2535,7 @@ NS_OK
 ;
 class
 PermissionRequestMainProcessHelper
-MOZ_FINAL
+final
 :
 public
 PermissionRequestBase
@@ -2617,13 +2617,13 @@ OnPromptComplete
 PermissionValue
 aPermissionValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 PermissionRequestChildProcessActor
-MOZ_FINAL
+final
 :
 public
 PIndexedDBPermissionRequestChild
@@ -2694,7 +2694,7 @@ uint32_t
 &
 aPermission
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -10180,7 +10180,7 @@ BackgroundCursorChild
 :
 :
 DelayedDeleteRunnable
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable

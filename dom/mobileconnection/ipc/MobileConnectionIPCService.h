@@ -100,7 +100,7 @@ mobileconnection
 {
 class
 MobileConnectionIPCService
-MOZ_FINAL
+final
 :
 public
 nsIMobileConnectionService
@@ -117,7 +117,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

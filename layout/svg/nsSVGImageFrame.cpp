@@ -258,7 +258,7 @@ nsSVGImageFrame
 ;
 class
 nsSVGImageListener
-MOZ_FINAL
+final
 :
 public
 imgINotificationObserver
@@ -379,7 +379,7 @@ aDirtyRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -391,14 +391,14 @@ gfxPoint
 &
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowSVG
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -410,7 +410,7 @@ uint16_t
 GetHitTestFlags
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -429,7 +429,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -445,7 +445,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -455,7 +455,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -485,7 +485,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -499,7 +499,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -524,14 +524,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

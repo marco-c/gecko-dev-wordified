@@ -709,7 +709,7 @@ nullptr
 ;
 class
 FakeInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

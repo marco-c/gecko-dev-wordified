@@ -191,7 +191,7 @@ nsIPrefBranch
 /
 class
 nsContentBlocker
-MOZ_FINAL
+final
 :
 public
 nsIContentPolicy

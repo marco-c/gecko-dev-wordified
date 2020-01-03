@@ -127,7 +127,7 @@ DistributedContentList
 ;
 class
 HTMLContentElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -184,7 +184,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -192,7 +192,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -214,7 +214,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -229,7 +229,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -333,7 +333,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -347,7 +347,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -434,7 +434,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -570,7 +570,7 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -580,7 +580,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -588,7 +588,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mParent
@@ -612,7 +612,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

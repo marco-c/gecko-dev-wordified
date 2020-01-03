@@ -184,7 +184,7 @@ voicemail
 {
 class
 VoicemailParent
-MOZ_FINAL
+final
 :
 public
 PVoicemailParent
@@ -236,7 +236,7 @@ nsString
 *
 aReturnMessage
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ActorDestroy
@@ -244,13 +244,13 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

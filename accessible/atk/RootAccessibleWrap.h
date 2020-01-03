@@ -194,7 +194,7 @@ destroyed
 /
 class
 GtkWindowAccessible
-MOZ_FINAL
+final
 :
 public
 DummyAccessible

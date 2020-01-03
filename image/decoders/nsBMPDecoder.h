@@ -338,14 +338,14 @@ aBuffer
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 FinishInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

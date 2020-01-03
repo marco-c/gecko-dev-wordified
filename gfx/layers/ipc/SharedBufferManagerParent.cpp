@@ -371,7 +371,7 @@ ifdef
 MOZ_WIDGET_GONK
 class
 GrallocReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -963,7 +963,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 private

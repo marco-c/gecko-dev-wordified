@@ -241,7 +241,7 @@ h
 "
 class
 nsHtml5Parser
-MOZ_FINAL
+final
 :
 public
 nsIParser
@@ -290,7 +290,7 @@ nsIContentSink
 *
 aSink
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -315,7 +315,7 @@ nsIContentSink
 GetContentSink
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -342,7 +342,7 @@ nsCString
 &
 aCommand
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -368,7 +368,7 @@ char
 *
 aCommand
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -392,7 +392,7 @@ SetCommand
 eParserCommands
 aParserCommand
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -451,7 +451,7 @@ aCharset
 int32_t
 aSource
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -482,7 +482,7 @@ int32_t
 &
 aSource
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -537,7 +537,7 @@ nsIChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -561,7 +561,7 @@ nsIDTD
 *
 aDTD
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -582,7 +582,7 @@ nsIStreamListener
 GetStreamListener
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -604,7 +604,7 @@ NS_IMETHOD
 ContinueInterruptedParsing
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -623,7 +623,7 @@ void
 BlockParser
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -642,7 +642,7 @@ void
 UnblockParser
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -661,7 +661,7 @@ void
 ContinueInterruptedParsingAsync
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -693,7 +693,7 @@ bool
 IsParserEnabled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -720,7 +720,7 @@ bool
 IsComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -796,7 +796,7 @@ aMode
 =
 eDTDMode_autodetect
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -920,7 +920,7 @@ NS_IMETHOD
 Terminate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -953,7 +953,7 @@ nsString
 &
 aTagStack
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -975,7 +975,7 @@ NS_IMETHOD
 BuildModel
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -997,7 +997,7 @@ NS_IMETHODIMP
 CancelParsingEvents
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1020,7 +1020,7 @@ void
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1045,7 +1045,7 @@ bool
 IsInsertionPointDefined
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1070,7 +1070,7 @@ void
 BeginEvaluatingParserInsertedScript
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1094,7 +1094,7 @@ void
 EndEvaluatingParserInsertedScript
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1161,7 +1161,7 @@ char
 *
 aCommand
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1185,7 +1185,7 @@ bool
 IsScriptCreated
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

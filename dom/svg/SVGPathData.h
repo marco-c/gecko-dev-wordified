@@ -1801,7 +1801,7 @@ code
 /
 class
 SVGPathDataAndInfo
-MOZ_FINAL
+final
 :
 public
 SVGPathData

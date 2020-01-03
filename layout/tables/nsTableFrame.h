@@ -407,7 +407,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsDisplayItemGeometry
@@ -418,7 +418,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -435,7 +435,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateForFrameBackground
@@ -862,7 +862,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 static
 float
@@ -1150,7 +1150,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1170,7 +1170,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1182,7 +1182,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1194,7 +1194,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1209,7 +1209,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1221,7 +1221,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -1229,7 +1229,7 @@ GetUsedBorder
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -1237,7 +1237,7 @@ GetUsedPadding
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -1245,7 +1245,7 @@ GetUsedMargin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1598,7 +1598,7 @@ ChildListID
 aListID
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1612,7 +1612,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1630,7 +1630,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1963,7 +1963,7 @@ void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1997,7 +1997,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -2007,7 +2007,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntrinsicISizeOffsetData
@@ -2017,7 +2017,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -2067,7 +2067,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -2117,7 +2117,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2267,7 +2267,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReflowTable
@@ -2307,7 +2307,7 @@ nsIFrame
 aProviderFrame
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -2337,7 +2337,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2347,7 +2347,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2392,7 +2392,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2909,7 +2909,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -3658,7 +3658,7 @@ bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -3716,7 +3716,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 public
 :

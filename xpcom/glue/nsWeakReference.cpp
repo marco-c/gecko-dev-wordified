@@ -144,7 +144,7 @@ h
 "
 class
 nsWeakReference
-MOZ_FINAL
+final
 :
 public
 nsIWeakReference
@@ -176,7 +176,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

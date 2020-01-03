@@ -248,7 +248,7 @@ ResumeWalk
 /
 class
 nsXULPrototypeDocument
-MOZ_FINAL
+final
 :
 public
 nsISerializable

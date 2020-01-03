@@ -7907,7 +7907,7 @@ with
 /
 class
 CrossProcessCompositorParent
-MOZ_FINAL
+final
 :
 public
 PCompositorParent
@@ -8011,7 +8011,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8020,7 +8020,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -8042,7 +8042,7 @@ bool
 RecvRequestOverfill
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8053,7 +8053,7 @@ bool
 RecvWillStop
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8064,7 +8064,7 @@ bool
 RecvStop
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8075,7 +8075,7 @@ bool
 RecvPause
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8086,7 +8086,7 @@ bool
 RecvResume
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8101,7 +8101,7 @@ uint64_t
 &
 child
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8112,7 +8112,7 @@ uint64_t
 &
 child
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -8131,7 +8131,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8142,7 +8142,7 @@ bool
 RecvFlushRendering
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8157,7 +8157,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8175,7 +8175,7 @@ uint32_t
 *
 aOutStartIndex
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8196,7 +8196,7 @@ float
 *
 intervals
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8213,7 +8213,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 {
 *
 aWidth
@@ -8275,7 +8275,7 @@ bool
 RecvRequestNotifyAfterRemotePaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PLayerTransactionParent
@@ -8300,7 +8300,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8310,7 +8310,7 @@ PLayerTransactionParent
 *
 aLayers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8343,7 +8343,7 @@ aPaintSequenceNumber
 bool
 aIsRepeatTransaction
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8353,7 +8353,7 @@ LayerTransactionParent
 *
 aLayerTree
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8363,7 +8363,7 @@ LayerTransactionParent
 *
 aLayerTree
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8377,7 +8377,7 @@ TimeStamp
 &
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8387,7 +8387,7 @@ LayerTransactionParent
 *
 aLayerTree
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8401,7 +8401,7 @@ APZTestData
 *
 aOutData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 AsyncCompositionManager
@@ -8412,7 +8412,7 @@ LayerTransactionParent
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DidComposite

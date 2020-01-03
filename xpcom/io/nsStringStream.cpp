@@ -405,7 +405,7 @@ implementation
 -
 class
 nsStringInputStream
-MOZ_FINAL
+final
 :
 public
 nsIStringInputStream

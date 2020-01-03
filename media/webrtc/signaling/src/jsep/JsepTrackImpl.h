@@ -202,7 +202,7 @@ GetProtocol
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mProtocol
@@ -227,7 +227,7 @@ string
 type
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mBandwidth
@@ -239,7 +239,7 @@ GetCodecCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mCodecs
@@ -262,7 +262,7 @@ JsepCodecDescription
 config
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -310,7 +310,7 @@ string
 ext_name
 )
 const
-MOZ_OVERRIDE
+override
 {
 auto
 it
@@ -358,7 +358,7 @@ GetUniquePayloadTypes
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mUniquePayloadTypes
@@ -371,7 +371,7 @@ AddUniquePayloadType
 uint8_t
 pt
 )
-MOZ_OVERRIDE
+override
 {
 mUniquePayloadTypes
 .
@@ -386,7 +386,7 @@ void
 ClearUniquePayloadTypes
 (
 )
-MOZ_OVERRIDE
+override
 {
 mUniquePayloadTypes
 .

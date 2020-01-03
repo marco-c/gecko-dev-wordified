@@ -529,7 +529,7 @@ JOURNAL_WAL
 ;
 class
 Database
-MOZ_FINAL
+final
 :
 public
 nsIObserver

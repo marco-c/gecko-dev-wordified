@@ -524,7 +524,7 @@ DMDFuncs
 GetDMDFuncs
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -12211,7 +12211,7 @@ UnreportIfNotReportedOnAlloc
 }
 class
 ToIdStringConverter
-MOZ_FINAL
+final
 {
 public
 :

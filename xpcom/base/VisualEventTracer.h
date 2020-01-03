@@ -1784,7 +1784,7 @@ event
 tracer
 class
 VisualEventTracer
-MOZ_FINAL
+final
 :
 public
 nsIVisualEventTracer

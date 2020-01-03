@@ -218,7 +218,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -306,7 +306,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsChangeHint
 GetAttributeChangeHint
@@ -319,7 +319,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -333,7 +333,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxMatrix
@@ -349,7 +349,7 @@ aWhich
 eAllTransforms
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -362,7 +362,7 @@ GetAnimateMotionTransform
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -376,7 +376,7 @@ Matrix
 *
 aMatrix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGAnimatedTransformList
@@ -388,7 +388,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -397,7 +397,7 @@ GetTransformListAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -411,7 +411,7 @@ bool
 IsTransformable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

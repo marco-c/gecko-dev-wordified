@@ -173,7 +173,7 @@ PRLogModuleInfo
 ;
 class
 ApplicationReputationService
-MOZ_FINAL
+final
 :
 public
 nsIApplicationReputationService

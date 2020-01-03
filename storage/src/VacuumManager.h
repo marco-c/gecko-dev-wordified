@@ -170,7 +170,7 @@ storage
 {
 class
 VacuumManager
-MOZ_FINAL
+final
 :
 public
 nsIObserver

@@ -200,7 +200,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 Event
@@ -226,7 +226,7 @@ aMsg
 bool
 aSerializeInterfaceType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -246,7 +246,7 @@ void
 *
 aIter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -266,7 +266,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 NotifyPaintEventBinding

@@ -273,7 +273,7 @@ bool
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -304,7 +304,7 @@ Pending
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -382,7 +382,7 @@ PRTime
 *
 lastModifiedTime
 )
-MOZ_OVERRIDE
+override
 {
 *
 lastModifiedTime
@@ -399,7 +399,7 @@ SetLastModifiedTime
 PRTime
 lastModifiedTime
 )
-MOZ_OVERRIDE
+override
 {
 mLastModifiedTime
 =
@@ -453,7 +453,7 @@ ForcePending
 bool
 aForcePending
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -479,7 +479,7 @@ nsIChannel
 *
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -491,14 +491,14 @@ nsString
 &
 statusArg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnCallbacksChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

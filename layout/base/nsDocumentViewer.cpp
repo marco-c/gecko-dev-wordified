@@ -1298,7 +1298,7 @@ mDocViewer
 -
 class
 nsDocumentViewer
-MOZ_FINAL
+final
 :
 public
 nsIContentViewer
@@ -2360,7 +2360,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

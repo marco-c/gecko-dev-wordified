@@ -199,7 +199,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -208,7 +208,7 @@ bool
 isParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -220,7 +220,7 @@ JSObject
 scopeForTargetObjects
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

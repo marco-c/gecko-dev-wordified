@@ -152,7 +152,7 @@ storage
 {
 class
 StatementParams
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementParams

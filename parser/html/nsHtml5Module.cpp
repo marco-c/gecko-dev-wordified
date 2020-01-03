@@ -522,7 +522,7 @@ aChannel
 }
 class
 nsHtml5ParserThreadTerminator
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -557,7 +557,7 @@ const
 char16_t
 *
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (

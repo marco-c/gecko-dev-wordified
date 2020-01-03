@@ -566,7 +566,7 @@ Enumerator
 -
 class
 nsPrinterEnumeratorWin
-MOZ_FINAL
+final
 :
 public
 nsIPrinterEnumerator

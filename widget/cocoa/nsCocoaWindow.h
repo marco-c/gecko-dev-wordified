@@ -1541,13 +1541,13 @@ aInitData
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Show
@@ -1555,7 +1555,7 @@ Show
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIWidget
@@ -1564,7 +1564,7 @@ GetSheetWindowParent
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Enable
@@ -1572,7 +1572,7 @@ Enable
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1580,7 +1580,7 @@ IsEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetModal
@@ -1588,7 +1588,7 @@ SetModal
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1596,7 +1596,7 @@ IsVisible
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetFocus
@@ -1606,7 +1606,7 @@ aState
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1616,14 +1616,14 @@ LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIntPoint
 GetClientOffset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIntSize
@@ -1634,7 +1634,7 @@ nsIntSize
 &
 aClientSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1644,7 +1644,7 @@ GetNativeData
 uint32_t
 aDataType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ConstrainPosition
@@ -1658,7 +1658,7 @@ int32_t
 *
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1669,7 +1669,7 @@ SizeConstraints
 &
 aConstraints
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Move
@@ -1679,7 +1679,7 @@ aX
 double
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PlaceBehind
@@ -1692,7 +1692,7 @@ aWidget
 bool
 aActivate
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSizeMode
@@ -1700,7 +1700,7 @@ SetSizeMode
 int32_t
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HideWindowChrome
@@ -1708,7 +1708,7 @@ HideWindowChrome
 bool
 aShouldHide
 )
-MOZ_OVERRIDE
+override
 ;
 void
 EnteredFullScreen
@@ -1728,7 +1728,7 @@ aTargetScreen
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Resize
@@ -1740,7 +1740,7 @@ aHeight
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Resize
@@ -1756,7 +1756,7 @@ aHeight
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetClientBounds
@@ -1765,7 +1765,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetScreenBounds
@@ -1774,7 +1774,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReportMoveEvent
@@ -1792,7 +1792,7 @@ SetCursor
 nsCursor
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -1805,7 +1805,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
-MOZ_OVERRIDE
+override
 ;
 CGFloat
 BackingScaleFactor
@@ -1822,14 +1822,14 @@ double
 GetDefaultScaleInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 RoundsWidgetCoordinatesTo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetTitle
@@ -1839,7 +1839,7 @@ nsAString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Invalidate
@@ -1849,7 +1849,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1863,7 +1863,7 @@ Configuration
 &
 aConfigurations
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerManager
@@ -1898,7 +1898,7 @@ aAllowRetaining
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DispatchEvent
@@ -1913,7 +1913,7 @@ nsEventStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CaptureRollupEvents
@@ -1924,7 +1924,7 @@ aListener
 bool
 aDoCapture
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAttention
@@ -1932,21 +1932,21 @@ GetAttention
 int32_t
 aCycleCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 HasPendingInputEvent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1955,7 +1955,7 @@ SetTransparencyMode
 nsTransparencyMode
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetWindowShadowStyle
@@ -1963,7 +1963,7 @@ SetWindowShadowStyle
 int32_t
 aStyle
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1972,7 +1972,7 @@ SetShowsToolbarButton
 bool
 aShow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1981,7 +1981,7 @@ SetShowsFullScreenButton
 bool
 aShow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1990,7 +1990,7 @@ SetWindowAnimationType
 WindowAnimationType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1999,7 +1999,7 @@ SetDrawsTitle
 bool
 aDrawTitle
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2008,7 +2008,7 @@ SetUseBrightTitlebarForeground
 bool
 aBrightForeground
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetNonClientMargins
@@ -2017,7 +2017,7 @@ nsIntMargin
 &
 margins
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetWindowTitlebarColor
@@ -2027,7 +2027,7 @@ aColor
 bool
 aActive
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2036,7 +2036,7 @@ SetDrawsInTitlebar
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2050,7 +2050,7 @@ ThemeGeometry
 &
 aThemeGeometries
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2066,7 +2066,7 @@ aNativeMessage
 uint32_t
 aModifierFlags
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DispatchSizeModeEvent
@@ -2152,7 +2152,7 @@ InputContextAction
 &
 aAction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -2161,7 +2161,7 @@ InputContext
 GetInputContext
 (
 )
-MOZ_OVERRIDE
+override
 {
 NSView
 *
@@ -2264,7 +2264,7 @@ void
 *
 aCallbackData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetPopupWindowLevel
@@ -2278,7 +2278,7 @@ nsIWidget
 *
 aNewParent
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2355,7 +2355,7 @@ nsIWidget
 AllocateChildPopupWidget
 (
 )
-MOZ_OVERRIDE
+override
 {
 static
 NS_DEFINE_IID
@@ -2392,7 +2392,7 @@ IMENotification
 &
 aIMENotification
 )
-MOZ_OVERRIDE
+override
 ;
 nsIWidget
 *

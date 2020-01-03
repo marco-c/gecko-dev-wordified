@@ -377,7 +377,7 @@ requested
 /
 class
 DOMSVGStringList
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -424,7 +424,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 NumberOfItems

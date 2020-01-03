@@ -530,7 +530,7 @@ aRoot
 bool
 aGeometryChanged
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Render

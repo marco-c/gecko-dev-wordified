@@ -315,7 +315,7 @@ nsTableRowFrame
 /
 class
 nsTableRowGroupFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -386,7 +386,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -406,7 +406,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -418,7 +418,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -433,7 +433,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -445,7 +445,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -453,7 +453,7 @@ GetUsedMargin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -461,7 +461,7 @@ GetUsedBorder
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -469,7 +469,7 @@ GetUsedPadding
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -487,7 +487,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -579,14 +579,14 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -616,7 +616,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsTableRowFrame
 *
@@ -636,7 +636,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1013,7 +1013,7 @@ void
 DisposeLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 /
@@ -1136,7 +1136,7 @@ int32_t
 GetNumLines
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1161,7 +1161,7 @@ bool
 GetDirection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1269,7 +1269,7 @@ nsRect
 &
 aLineBounds
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1355,7 +1355,7 @@ aStartLine
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1466,7 +1466,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1562,7 +1562,7 @@ nsIFrame
 *
 aLastVisual
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1623,7 +1623,7 @@ aFrame
 int32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2110,7 +2110,7 @@ nsILineIterator
 GetLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2124,7 +2124,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -2153,7 +2153,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2168,14 +2168,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (
@@ -2217,7 +2217,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 PlaceChild

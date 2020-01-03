@@ -648,7 +648,7 @@ endif
 -
 class
 nsSocketTransportService
-MOZ_FINAL
+final
 :
 public
 nsPISocketTransportService

@@ -173,7 +173,7 @@ dom
 {
 class
 PowerManager
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozWakeLockListener
@@ -244,7 +244,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Reboot

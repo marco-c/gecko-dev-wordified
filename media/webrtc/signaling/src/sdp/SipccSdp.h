@@ -216,7 +216,7 @@ SdpErrorHolder
 ;
 class
 SipccSdp
-MOZ_FINAL
+final
 :
 public
 Sdp
@@ -259,7 +259,7 @@ GetOrigin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -286,7 +286,7 @@ string
 type
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -294,7 +294,7 @@ GetMediaSectionCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mMediaSections
@@ -312,7 +312,7 @@ GetAttributeList
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mAttributeList
@@ -324,7 +324,7 @@ SdpAttributeList
 GetAttributeList
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mAttributeList
@@ -340,7 +340,7 @@ size_t
 level
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpMediaSection
@@ -350,7 +350,7 @@ GetMediaSection
 size_t
 level
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpMediaSection
@@ -387,7 +387,7 @@ string
 &
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -400,7 +400,7 @@ ostream
 &
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

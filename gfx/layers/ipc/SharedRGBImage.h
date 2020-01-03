@@ -116,7 +116,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -272,7 +272,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -280,7 +280,7 @@ uint8_t
 GetBuffer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 gfx
 :
@@ -289,7 +289,7 @@ IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 size_t
 GetBufferSize
@@ -306,7 +306,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Allocate

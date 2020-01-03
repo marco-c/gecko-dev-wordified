@@ -339,7 +339,7 @@ css
 {
 class
 MediaRule
-MOZ_FINAL
+final
 :
 public
 GroupRule
@@ -396,7 +396,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -415,7 +415,7 @@ CSSStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -427,7 +427,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -438,7 +438,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -446,7 +446,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -458,7 +458,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -500,7 +500,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -526,7 +526,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 MOZ_MUST_OVERRIDE
 ;
 protected
@@ -549,7 +549,7 @@ mMedia
 ;
 class
 DocumentRule
-MOZ_FINAL
+final
 :
 public
 GroupRule
@@ -606,7 +606,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -620,7 +620,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -631,7 +631,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -639,7 +639,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -651,7 +651,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -693,7 +693,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 Function
@@ -797,7 +797,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 MOZ_MUST_OVERRIDE
 ;
 protected
@@ -914,7 +914,7 @@ nsCSSFontFaceRule
 ;
 class
 nsCSSFontFaceStyleDecl
-MOZ_FINAL
+final
 :
 public
 nsICSSDeclaration
@@ -948,7 +948,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsICSSDeclaration
@@ -962,7 +962,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -977,7 +977,7 @@ nsAString
 &
 aPropName
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetPropertyValue
@@ -1008,7 +1008,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1084,7 +1084,7 @@ CPP_THROW_NEW
 ;
 class
 nsCSSFontFaceRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1188,7 +1188,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1203,7 +1203,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1220,7 +1220,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1264,7 +1264,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 GetDescriptors
@@ -1407,7 +1407,7 @@ mDecl
 }
 class
 nsCSSFontFeatureValuesRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1506,7 +1506,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1521,7 +1521,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1538,7 +1538,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1620,7 +1620,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1655,7 +1655,7 @@ css
 {
 class
 CharsetRule
-MOZ_FINAL
+final
 :
 public
 Rule
@@ -1724,7 +1724,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1738,7 +1738,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1749,7 +1749,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1767,7 +1767,7 @@ nsAString
 &
 aEncoding
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetEncoding
@@ -1777,7 +1777,7 @@ nsAString
 &
 aEncoding
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -1790,7 +1790,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1814,7 +1814,7 @@ nsCSSKeyframeRule
 ;
 class
 nsCSSKeyframeStyleDeclaration
-MOZ_FINAL
+final
 :
 public
 nsDOMCSSDeclaration
@@ -1837,7 +1837,7 @@ nsIDOMCSSRule
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DropReference
@@ -1863,7 +1863,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1879,7 +1879,7 @@ Declaration
 *
 aDecl
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1889,7 +1889,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -1897,7 +1897,7 @@ nsIDocument
 DocToUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -1911,7 +1911,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1955,7 +1955,7 @@ mRule
 ;
 class
 nsCSSKeyframeRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -2085,7 +2085,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2100,7 +2100,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2117,7 +2117,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2185,7 +2185,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 DoGetKeyText
@@ -2233,7 +2233,7 @@ mDOMDeclaration
 ;
 class
 nsCSSKeyframesRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -2317,7 +2317,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2331,7 +2331,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2348,7 +2348,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -2356,7 +2356,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2368,7 +2368,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2400,7 +2400,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 const
 nsString
@@ -2424,7 +2424,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2447,7 +2447,7 @@ nsCSSPageRule
 ;
 class
 nsCSSPageStyleDeclaration
-MOZ_FINAL
+final
 :
 public
 nsDOMCSSDeclaration
@@ -2470,7 +2470,7 @@ nsIDOMCSSRule
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DropReference
@@ -2496,7 +2496,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2512,7 +2512,7 @@ Declaration
 *
 aDecl
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2522,7 +2522,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -2530,7 +2530,7 @@ nsIDocument
 DocToUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -2544,7 +2544,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2588,7 +2588,7 @@ mRule
 ;
 class
 nsCSSPageRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -2705,7 +2705,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2720,7 +2720,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2737,7 +2737,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2802,7 +2802,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2905,7 +2905,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2919,7 +2919,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2936,7 +2936,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2949,7 +2949,7 @@ nsMediaQueryResultCacheKey
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -2957,7 +2957,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2969,7 +2969,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -3007,7 +3007,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -3032,7 +3032,7 @@ namespace
 mozilla
 class
 nsCSSCounterStyleRule
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -3121,7 +3121,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -3136,7 +3136,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -3153,7 +3153,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -3305,7 +3305,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

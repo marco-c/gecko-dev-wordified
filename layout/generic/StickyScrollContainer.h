@@ -174,7 +174,7 @@ mozilla
 {
 class
 StickyScrollContainer
-MOZ_FINAL
+final
 :
 public
 nsIScrollPositionListener
@@ -530,7 +530,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -541,7 +541,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 ~
 StickyScrollContainer

@@ -123,7 +123,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -241,7 +241,7 @@ Layer
 GetLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -255,7 +255,7 @@ LayerManagerComposite
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 {
 LayerComposite
 :
@@ -275,7 +275,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDestroyed
 =
@@ -291,14 +291,14 @@ nsIntRect
 &
 aClipRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CleanupResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -310,14 +310,14 @@ EffectChain
 &
 aEffect
 )
-MOZ_OVERRIDE
+override
 ;
 CompositableHost
 *
 GetCompositableHost
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -329,7 +329,7 @@ LayerComposite
 AsLayerComposite
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -343,7 +343,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "

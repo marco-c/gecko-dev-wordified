@@ -180,7 +180,7 @@ h
 "
 class
 nsThreadPool
-MOZ_FINAL
+final
 :
 public
 nsIThreadPool

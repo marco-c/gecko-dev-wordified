@@ -160,7 +160,7 @@ bool
 IsBrowserStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -179,7 +179,7 @@ bool
 &
 artificial
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 NPN_Write

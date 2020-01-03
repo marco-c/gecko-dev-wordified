@@ -152,7 +152,7 @@ VideoPlaybackQuality
 ;
 class
 HTMLVideoElement
-MOZ_FINAL
+final
 :
 public
 HTMLMediaElement
@@ -198,7 +198,7 @@ bool
 IsVideo
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -221,7 +221,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -235,7 +235,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -249,7 +249,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -264,7 +264,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -308,7 +308,7 @@ nsIHttpChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -321,7 +321,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -526,7 +526,7 @@ void
 NotifyOwnerDocumentActivityChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -562,21 +562,21 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 WakeLockCreate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 WakeLockRelease
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateScreenWakeLock

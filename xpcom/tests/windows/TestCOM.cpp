@@ -213,7 +213,7 @@ nsTestCom
 /
 class
 nsTestCom
-MOZ_FINAL
+final
 :
 public
 nsITestCom
@@ -385,7 +385,7 @@ res
 }
 class
 nsTestComFactory
-MOZ_FINAL
+final
 :
 public
 nsIFactory

@@ -155,7 +155,7 @@ BluetoothHALInterface
 ;
 class
 BluetoothHandsfreeHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeInterface

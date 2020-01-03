@@ -160,7 +160,7 @@ nsDiskCacheMap
 ;
 class
 nsDiskCacheDevice
-MOZ_FINAL
+final
 :
 public
 nsCacheDevice

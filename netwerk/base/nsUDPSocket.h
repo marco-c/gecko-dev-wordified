@@ -196,7 +196,7 @@ h
 -
 class
 nsUDPSocket
-MOZ_FINAL
+final
 :
 public
 nsASocketHandler
@@ -222,7 +222,7 @@ fd
 int16_t
 outFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -232,7 +232,7 @@ PRFileDesc
 *
 fd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -242,13 +242,13 @@ bool
 *
 aIsLocal
 )
-MOZ_OVERRIDE
+override
 ;
 uint64_t
 ByteCountSent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mByteWriteCount
@@ -258,7 +258,7 @@ uint64_t
 ByteCountReceived
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mByteReadCount

@@ -123,7 +123,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 impl
@@ -153,7 +153,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 impl
@@ -185,7 +185,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 Rooted
 <

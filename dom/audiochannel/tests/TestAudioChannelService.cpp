@@ -464,7 +464,7 @@ CanPlayChanged
 int32_t
 canPlay
 )
-MOZ_OVERRIDE
+override
 {
 mCanPlay
 =
@@ -488,7 +488,7 @@ NS_IMETHODIMP
 WindowVolumeChanged
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

@@ -244,7 +244,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <
@@ -294,7 +294,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

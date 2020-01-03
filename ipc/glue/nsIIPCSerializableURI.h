@@ -181,7 +181,7 @@ ipc
 URIParams
 &
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -199,7 +199,7 @@ ipc
 URIParams
 &
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -223,7 +223,7 @@ URIParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 \
 {
 _to
@@ -250,7 +250,7 @@ URIParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -283,7 +283,7 @@ URIParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 \
 {
 if
@@ -318,7 +318,7 @@ URIParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 \
 {
 if

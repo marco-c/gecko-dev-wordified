@@ -146,7 +146,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -769,7 +769,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -804,7 +804,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mInitParams
@@ -820,7 +820,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -873,7 +873,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

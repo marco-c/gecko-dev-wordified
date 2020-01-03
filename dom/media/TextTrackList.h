@@ -167,7 +167,7 @@ TrackEventRunner
 ;
 class
 TextTrackList
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -216,7 +216,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 Length

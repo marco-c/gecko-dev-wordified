@@ -156,7 +156,7 @@ dom
 {
 class
 SVGTitleElement
-MOZ_FINAL
+final
 :
 public
 SVGTitleElementBase
@@ -232,7 +232,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -267,7 +267,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -285,7 +285,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -300,7 +300,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -309,7 +309,7 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

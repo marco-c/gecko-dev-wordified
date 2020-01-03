@@ -142,7 +142,7 @@ dom
 {
 class
 HTMLProgressElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -171,7 +171,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Clone
@@ -191,7 +191,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 ParseAttribute
@@ -209,7 +209,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -300,7 +300,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

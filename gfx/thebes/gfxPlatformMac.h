@@ -182,7 +182,7 @@ size
 gfxContentType
 contentType
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -212,7 +212,7 @@ gfxFont
 *
 aFont
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetStandardFamilyName
@@ -225,7 +225,7 @@ nsAString
 &
 aFamilyName
 )
-MOZ_OVERRIDE
+override
 ;
 gfxFontGroup
 *
@@ -246,7 +246,7 @@ gfxUserFontSet
 *
 aUserFontSet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxFontEntry
@@ -264,7 +264,7 @@ aStretch
 bool
 aItalic
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxPlatformFontList
@@ -272,7 +272,7 @@ gfxPlatformFontList
 CreatePlatformFontList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxFontEntry
@@ -296,7 +296,7 @@ aFontData
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsFontFormatSupported
@@ -307,7 +307,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetFontList
@@ -326,13 +326,13 @@ nsString
 &
 aListOfFonts
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 UpdateFontList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -353,7 +353,7 @@ char
 &
 aFontList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -361,7 +361,7 @@ CanRenderContentToDataSurface
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -377,7 +377,7 @@ bool
 UseProgressivePaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -393,7 +393,7 @@ VsyncSource
 CreateHardwareVsyncSource
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -427,7 +427,7 @@ size_t
 &
 size
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

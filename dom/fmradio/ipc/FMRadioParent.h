@@ -150,7 +150,7 @@ PFMRadioRequestParent
 ;
 class
 FMRadioParent
-MOZ_FINAL
+final
 :
 public
 PFMRadioParent
@@ -175,7 +175,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -185,7 +185,7 @@ StatusInfo
 *
 aStatusInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFMRadioRequestParent
@@ -197,7 +197,7 @@ FMRadioRequestArgs
 &
 aArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -207,7 +207,7 @@ PFMRadioRequestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -223,7 +223,7 @@ FMRadioEventType
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -234,7 +234,7 @@ bool
 &
 aAudioEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -245,7 +245,7 @@ uint32_t
 &
 aRDSGroupMask
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

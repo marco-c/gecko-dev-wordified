@@ -199,7 +199,7 @@ size
 gfxContentType
 contentType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -230,7 +230,7 @@ gfxFont
 *
 aFont
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -250,14 +250,14 @@ nsString
 &
 aListOfFonts
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 UpdateFontList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -271,7 +271,7 @@ nsAString
 &
 aFamilyName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxFontGroup
@@ -293,7 +293,7 @@ gfxUserFontSet
 *
 aUserFontSet
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -342,7 +342,7 @@ aStretch
 bool
 aItalic
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -389,7 +389,7 @@ aFontData
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -425,7 +425,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
-MOZ_OVERRIDE
+override
 ;
 static
 int32_t
@@ -438,7 +438,7 @@ gfxImageFormat
 GetOffscreenFormat
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -475,7 +475,7 @@ GetScreenDepth
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -498,7 +498,7 @@ size_t
 &
 size
 )
-MOZ_OVERRIDE
+override
 ;
 int
 mScreenDepth

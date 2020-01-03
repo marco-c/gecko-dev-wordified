@@ -786,7 +786,7 @@ void
 Build
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2779,7 +2779,7 @@ void
 Build
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -705,7 +705,7 @@ sides
 /
 struct
 LogicalSides
-MOZ_FINAL
+final
 {
 LogicalSides
 (

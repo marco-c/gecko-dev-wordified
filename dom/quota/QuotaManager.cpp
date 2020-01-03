@@ -1069,7 +1069,7 @@ mDelayedRunnables
 ;
 class
 CollectOriginsHelper
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1296,7 +1296,7 @@ completed
 .
 class
 OriginClearRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1386,7 +1386,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AdvanceState
@@ -1600,7 +1600,7 @@ completed
 .
 class
 AsyncUsageRunnable
-MOZ_FINAL
+final
 :
 public
 UsageInfo
@@ -1704,7 +1704,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AdvanceState
@@ -1850,7 +1850,7 @@ mIsApp
 ;
 class
 ResetOrClearRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1930,7 +1930,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AdvanceState
@@ -2146,7 +2146,7 @@ twice
 .
 class
 FinalizeOriginEvictionRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2614,7 +2614,7 @@ etc
 .
 class
 WaitForTransactionsToFinishRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2723,7 +2723,7 @@ mCountdown
 ;
 class
 WaitForFileHandlesToFinishRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2764,7 +2764,7 @@ mBusy
 ;
 class
 SaveOriginAccessTimeRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2817,7 +2817,7 @@ mTimestamp
 ;
 class
 StorageDirectoryHelper
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -3012,7 +3012,7 @@ false
 class
 MOZ_STACK_CLASS
 OriginParser
-MOZ_FINAL
+final
 {
 static
 bool
@@ -3641,7 +3641,7 @@ aTimestamp
 class
 MOZ_STACK_CLASS
 Helper
-MOZ_FINAL
+final
 {
 public
 :

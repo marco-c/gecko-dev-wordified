@@ -149,7 +149,7 @@ dom
 {
 class
 SVGMetadataElement
-MOZ_FINAL
+final
 :
 public
 SVGMetadataElementBase
@@ -218,7 +218,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Init
@@ -246,7 +246,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

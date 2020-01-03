@@ -285,7 +285,7 @@ dom
 {
 class
 NodeInfo
-MOZ_FINAL
+final
 {
 public
 :

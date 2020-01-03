@@ -271,7 +271,7 @@ nsIWebProgress
 ;
 class
 nsEditingSession
-MOZ_FINAL
+final
 :
 public
 nsIEditingSession

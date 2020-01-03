@@ -187,7 +187,7 @@ root
 /
 class
 OuterDocAccessible
-MOZ_FINAL
+final
 :
 public
 AccessibleWrap
@@ -213,7 +213,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -226,7 +226,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -240,14 +240,14 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -259,7 +259,7 @@ Accessible
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -269,7 +269,7 @@ Accessible
 *
 aAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -278,7 +278,7 @@ virtual
 OuterDocAccessible
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -288,7 +288,7 @@ void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

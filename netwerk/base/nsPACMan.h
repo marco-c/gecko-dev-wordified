@@ -372,7 +372,7 @@ newPACURL
 ;
 class
 PendingPACQuery
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -511,7 +511,7 @@ only
 /
 class
 nsPACMan
-MOZ_FINAL
+final
 :
 public
 nsIStreamLoaderObserver

@@ -621,7 +621,7 @@ nsStyleCoord
 .
 struct
 Calc
-MOZ_FINAL
+final
 :
 public
 CalcValue

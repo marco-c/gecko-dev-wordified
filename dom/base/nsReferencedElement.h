@@ -958,7 +958,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -994,7 +994,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 mTo
 =
@@ -1006,7 +1006,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 Notification
 :
@@ -1113,7 +1113,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 }
 nsString

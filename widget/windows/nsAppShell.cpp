@@ -291,7 +291,7 @@ on
 .
 class
 WinWakeLockListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozWakeLockListener

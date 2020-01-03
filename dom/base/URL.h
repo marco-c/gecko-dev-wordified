@@ -187,7 +187,7 @@ URLProxy
 }
 class
 URL
-MOZ_FINAL
+final
 :
 public
 URLSearchParamsObserver
@@ -668,7 +668,7 @@ URLSearchParams
 *
 aSearchParams
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -152,7 +152,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -468,7 +468,7 @@ kVisualWarningDuration
 ms
 class
 LayerManagerComposite
-MOZ_FINAL
+final
 :
 public
 LayerManager
@@ -523,7 +523,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -652,7 +652,7 @@ LayerManagerComposite
 AsLayerManagerComposite
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -672,7 +672,7 @@ void
 BeginTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -682,7 +682,7 @@ gfxContext
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -717,7 +717,7 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -733,7 +733,7 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -743,7 +743,7 @@ Layer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 {
 mRoot
 =
@@ -785,7 +785,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -793,7 +793,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -817,7 +817,7 @@ aSubtree
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -827,7 +827,7 @@ PaintedLayer
 CreatePaintedLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -837,7 +837,7 @@ ContainerLayer
 CreateContainerLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -847,7 +847,7 @@ ImageLayer
 CreateImageLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -857,7 +857,7 @@ ColorLayer
 CreateColorLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -867,7 +867,7 @@ CanvasLayer
 CreateCanvasLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -922,7 +922,7 @@ LayersBackend
 GetBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -948,7 +948,7 @@ nsAString
 &
 name
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -971,7 +971,7 @@ bool
 AreComponentAlphaLayersEnabled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -985,7 +985,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -995,7 +995,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1188,7 +1188,7 @@ gfx
 SurfaceFormat
 aFormat
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

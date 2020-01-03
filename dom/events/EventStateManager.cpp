@@ -1447,7 +1447,7 @@ UITimerCallback
 /
 class
 UITimerCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback

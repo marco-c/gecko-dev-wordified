@@ -112,7 +112,7 @@ XMLHttpRequest
 ;
 class
 XMLHttpRequestUpload
-MOZ_FINAL
+final
 :
 public
 nsXHREventTarget
@@ -156,7 +156,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

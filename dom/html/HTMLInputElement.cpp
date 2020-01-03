@@ -1405,7 +1405,7 @@ kProgressEventInterval
 ms
 class
 HTMLInputElementState
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -1990,7 +1990,7 @@ returns
 /
 class
 DirPickerRecursiveFileEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -2154,7 +2154,7 @@ nsISupports
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2403,7 +2403,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 *
 aResult
@@ -2856,7 +2856,7 @@ anonymous
 namespace
 class
 DirPickerFileListBuilderTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4348,7 +4348,7 @@ nsIFilePickerShownCallback
 )
 class
 nsColorPickerShownCallback
-MOZ_FINAL
+final
 :
 public
 nsIColorPickerShownCallback
@@ -4394,7 +4394,7 @@ nsAString
 &
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Done
@@ -4404,7 +4404,7 @@ nsAString
 &
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

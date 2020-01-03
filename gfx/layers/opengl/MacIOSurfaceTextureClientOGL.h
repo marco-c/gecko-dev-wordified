@@ -155,14 +155,14 @@ Lock
 OpenMode
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -170,7 +170,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -178,7 +178,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -194,7 +194,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -205,7 +205,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -213,7 +213,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -230,7 +230,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -281,7 +281,7 @@ TextureFlags
 TextureAllocationFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr

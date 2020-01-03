@@ -438,7 +438,7 @@ NS_WEBBROWSER_CID
 }
 class
 nsWebBrowser
-MOZ_FINAL
+final
 :
 public
 nsIWebBrowser
@@ -605,7 +605,7 @@ aWidget
 nsIntRegion
 aRegion
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

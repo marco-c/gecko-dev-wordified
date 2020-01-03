@@ -159,7 +159,7 @@ net
 {
 class
 DNSListenerProxy
-MOZ_FINAL
+final
 :
 public
 nsIDNSListener

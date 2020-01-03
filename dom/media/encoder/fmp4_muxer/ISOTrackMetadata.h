@@ -125,7 +125,7 @@ uint32_t
 GetAudioFrameDuration
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrameDuration
@@ -135,7 +135,7 @@ uint32_t
 GetAudioFrameSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrameSize
@@ -145,7 +145,7 @@ uint32_t
 GetAudioSampleRate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSampleRate
@@ -155,7 +155,7 @@ uint32_t
 GetAudioChannels
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mChannels
@@ -170,7 +170,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_AAC
@@ -308,7 +308,7 @@ uint32_t
 GetVideoHeight
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHeight
@@ -318,7 +318,7 @@ uint32_t
 GetVideoWidth
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mWidth
@@ -328,7 +328,7 @@ uint32_t
 GetVideoDisplayHeight
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mDisplayHeight
@@ -338,7 +338,7 @@ uint32_t
 GetVideoDisplayWidth
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mDisplayWidth
@@ -348,7 +348,7 @@ uint32_t
 GetVideoClockRate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 AVC_CLOCK_RATE
@@ -358,7 +358,7 @@ uint32_t
 GetVideoFrameRate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrameRate
@@ -373,7 +373,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_AVC
@@ -540,7 +540,7 @@ uint32_t
 GetAudioFrameDuration
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -550,7 +550,7 @@ uint32_t
 GetAudioFrameSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -560,7 +560,7 @@ uint32_t
 GetAudioSampleRate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 AMR_SAMPLE_RATE
@@ -570,7 +570,7 @@ uint32_t
 GetAudioChannels
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 AMR_CHANNELS
@@ -585,7 +585,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_AMR

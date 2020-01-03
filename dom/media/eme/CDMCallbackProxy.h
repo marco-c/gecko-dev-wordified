@@ -191,7 +191,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -202,7 +202,7 @@ aPromiseId
 bool
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -211,7 +211,7 @@ ResolvePromise
 uint32_t
 aPromiseId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -226,7 +226,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -246,7 +246,7 @@ uint8_t
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -259,7 +259,7 @@ aSessionId
 GMPTimestamp
 aExpiryTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -270,7 +270,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -289,7 +289,7 @@ nsCString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -309,7 +309,7 @@ aKeyId
 GMPMediaKeyStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -318,7 +318,7 @@ SetCaps
 uint64_t
 aCaps
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -336,14 +336,14 @@ uint8_t
 &
 aDecryptedData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Terminated
 (
 )
-MOZ_OVERRIDE
+override
 ;
 ~
 CDMCallbackProxy

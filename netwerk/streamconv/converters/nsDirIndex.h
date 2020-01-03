@@ -135,7 +135,7 @@ f455dee342af
 /
 class
 nsDirIndex
-MOZ_FINAL
+final
 :
 public
 nsIDirIndex

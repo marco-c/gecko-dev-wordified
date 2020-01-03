@@ -620,7 +620,7 @@ received
 /
 class
 WaitForTopicSpinner
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -748,7 +748,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 mTopicReceived
 =
@@ -825,7 +825,7 @@ executed
 /
 class
 AsyncStatementSpinner
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementCallback
@@ -1862,7 +1862,7 @@ closed
 ;
 class
 WaitForConnectionClosed
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1948,7 +1948,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

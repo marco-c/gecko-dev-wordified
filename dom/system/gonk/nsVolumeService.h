@@ -254,7 +254,7 @@ classes
 /
 class
 nsVolumeService
-MOZ_FINAL
+final
 :
 public
 nsIVolumeService

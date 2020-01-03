@@ -2474,7 +2474,7 @@ created
 .
 class
 RevisionAddedEnableStoreCallback
-MOZ_FINAL
+final
 :
 public
 DataStoreRevisionCallback
@@ -2625,7 +2625,7 @@ needed
 .
 class
 FirstRevisionIdCallback
-MOZ_FINAL
+final
 :
 public
 DataStoreDBCallback

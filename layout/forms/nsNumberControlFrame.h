@@ -184,7 +184,7 @@ number
 /
 class
 nsNumberControlFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -264,7 +264,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -276,7 +276,7 @@ mozilla
 EventStates
 aStates
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -284,7 +284,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -304,7 +304,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -316,7 +316,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -326,7 +326,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -346,7 +346,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -360,7 +360,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -376,7 +376,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -392,7 +392,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -406,7 +406,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -430,7 +430,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -440,7 +440,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -476,7 +476,7 @@ nsIEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionStart
@@ -484,7 +484,7 @@ SetSelectionStart
 int32_t
 aSelectionStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionEnd
@@ -492,7 +492,7 @@ SetSelectionEnd
 int32_t
 aSelectionEnd
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionRange
@@ -506,7 +506,7 @@ aDirection
 =
 eNone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSelectionRange
@@ -523,7 +523,7 @@ aDirection
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetOwnedSelectionController
@@ -533,7 +533,7 @@ nsISelectionController
 *
 aSelCon
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsFrameSelection
@@ -541,7 +541,7 @@ nsFrameSelection
 GetOwnedFrameSelection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -551,7 +551,7 @@ nsAString
 &
 aPhonetic
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -593,14 +593,14 @@ nsresult
 EnsureEditorInitialized
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 ScrollSelectionIntoView
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -614,7 +614,7 @@ aOn
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -628,7 +628,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1018,7 +1018,7 @@ nsCSSPseudoElements
 Type
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ShouldUseNativeStyleForSpinner
@@ -1093,7 +1093,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsNumberControlFrame
 *

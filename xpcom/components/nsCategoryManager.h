@@ -549,7 +549,7 @@ safe
 /
 class
 nsCategoryManager
-MOZ_FINAL
+final
 :
 public
 nsICategoryManager

@@ -139,7 +139,7 @@ nsStringEnumerator
 /
 class
 nsStringEnumerator
-MOZ_FINAL
+final
 :
 public
 nsIStringEnumerator
@@ -307,7 +307,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSISIMPLEENUMERATOR
 private

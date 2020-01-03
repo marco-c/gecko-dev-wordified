@@ -108,7 +108,7 @@ h
 "
 class
 nsShellService
-MOZ_FINAL
+final
 :
 public
 nsIShellService

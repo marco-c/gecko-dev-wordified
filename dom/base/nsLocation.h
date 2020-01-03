@@ -366,7 +366,7 @@ object
 *
 class
 nsLocation
-MOZ_FINAL
+final
 :
 public
 nsIDOMLocation
@@ -937,7 +937,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -955,7 +955,7 @@ URLSearchParams
 *
 aSearchParams
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

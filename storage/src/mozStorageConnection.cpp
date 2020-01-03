@@ -2002,7 +2002,7 @@ namespace
 {
 class
 AsyncCloseConnection
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2273,7 +2273,7 @@ thread
 /
 class
 AsyncInitializeClone
-MOZ_FINAL
+final
 :
 public
 nsRunnable

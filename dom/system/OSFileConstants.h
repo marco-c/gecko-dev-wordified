@@ -244,7 +244,7 @@ thread
 /
 class
 OSFileConstantsService
-MOZ_FINAL
+final
 :
 public
 nsIOSFileConstantsService

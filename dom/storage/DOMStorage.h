@@ -179,7 +179,7 @@ DOMStorageCache
 ;
 class
 DOMStorage
-MOZ_FINAL
+final
 :
 public
 nsIDOMStorage
@@ -309,7 +309,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsIDOMWindow
 *

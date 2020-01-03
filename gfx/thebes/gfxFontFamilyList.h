@@ -272,7 +272,7 @@ family
 /
 struct
 FontFamilyName
-MOZ_FINAL
+final
 {
 FontFamilyName
 (

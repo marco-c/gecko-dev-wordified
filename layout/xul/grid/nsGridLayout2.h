@@ -169,7 +169,7 @@ grid
 /
 class
 nsGridLayout2
-MOZ_FINAL
+final
 :
 public
 nsStackLayout
@@ -202,7 +202,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -215,7 +215,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGridRowGroupLayout
@@ -223,7 +223,7 @@ nsGridRowGroupLayout
 CastToRowGroupLayout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -235,7 +235,7 @@ nsGridLayout2
 CastToGridLayout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -258,7 +258,7 @@ aRequestor
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIGridPart
@@ -273,7 +273,7 @@ nsIFrame
 *
 aParentBox
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -300,7 +300,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -313,7 +313,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -326,7 +326,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -342,7 +342,7 @@ int32_t
 &
 aComputedColumnCount
 )
-MOZ_OVERRIDE
+override
 {
 aRowCount
 +
@@ -360,7 +360,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -374,7 +374,7 @@ nsGridRow
 *
 aRows
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -386,14 +386,14 @@ aBox
 bool
 aIsHorizontal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eGrid
@@ -420,7 +420,7 @@ Slice
 &
 aNewChildren
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -440,7 +440,7 @@ Slice
 &
 aNewChildren
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -456,7 +456,7 @@ nsIFrame
 *
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -472,7 +472,7 @@ nsIFrame
 *
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIGridPart
@@ -480,7 +480,7 @@ nsIGridPart
 AsGridPart
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

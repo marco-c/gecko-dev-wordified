@@ -240,8 +240,8 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 nsresult
 GetEncodedTrack
@@ -250,8 +250,8 @@ EncodedFrameContainer
 &
 aData
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 protected
 :
@@ -269,8 +269,8 @@ aDisplayHeight
 TrackRate
 aTrackRate
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 private
 :

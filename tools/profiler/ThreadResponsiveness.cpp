@@ -225,7 +225,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MonitorAutoLock
 mon
@@ -353,7 +353,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_FINAL
+final
 {
 NS_DispatchToMainThread
 (

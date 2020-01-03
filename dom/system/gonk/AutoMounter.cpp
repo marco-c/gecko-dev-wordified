@@ -8955,7 +8955,7 @@ anything
 /
 class
 UsbCableObserver
-MOZ_FINAL
+final
 :
 public
 SwitchObserver

@@ -1541,7 +1541,7 @@ nsACString
 &
 aLanguageName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFilename
@@ -1550,7 +1550,7 @@ nsAString
 &
 aFilename
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetName
@@ -1559,7 +1559,7 @@ nsAString
 &
 aFunction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAsyncCause
@@ -1568,7 +1568,7 @@ nsAString
 &
 aAsyncCause
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAsyncCaller
@@ -1578,7 +1578,7 @@ nsIStackFrame
 *
 aAsyncCaller
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCaller
@@ -1588,7 +1588,7 @@ nsIStackFrame
 *
 aCaller
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFormattedStack
@@ -1597,7 +1597,7 @@ nsAString
 &
 aStack
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNativeSavedFrame
@@ -1614,7 +1614,7 @@ Value
 >
 aSavedFrame
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1624,7 +1624,7 @@ IsJSFrame
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1638,7 +1638,7 @@ int32_t
 *
 aLineNo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1648,7 +1648,7 @@ int32_t
 *
 aColNo
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

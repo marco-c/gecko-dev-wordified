@@ -220,7 +220,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendElementEnd
@@ -238,7 +238,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendDocumentStart
@@ -250,7 +250,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -295,7 +295,7 @@ nsAString
 &
 aOutputStr
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

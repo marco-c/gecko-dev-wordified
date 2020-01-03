@@ -454,7 +454,7 @@ mozilla
 {
 class
 TransportFlow
-MOZ_FINAL
+final
 :
 public
 nsISupports

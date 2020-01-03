@@ -274,7 +274,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -286,7 +286,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -306,7 +306,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -315,7 +315,7 @@ GetFrame
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -324,7 +324,7 @@ GetNode
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mDocumentNode
@@ -355,7 +355,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -365,7 +365,7 @@ nsString
 &
 aDescription
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -373,7 +373,7 @@ Accessible
 FocusedChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -386,14 +386,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -401,7 +401,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -409,7 +409,7 @@ NativelyUnavailable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -420,7 +420,7 @@ uint64_t
 aState
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -430,14 +430,14 @@ nsIPersistentProperties
 Attributes
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 TakeFocus
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -450,7 +450,7 @@ AccEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -464,7 +464,7 @@ nsIFrame
 aRelativeFrame
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -478,7 +478,7 @@ GetEditor
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1883,7 +1883,7 @@ void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

@@ -237,7 +237,7 @@ DeprecatedAbs
 ;
 class
 nsMultiplexInputStream
-MOZ_FINAL
+final
 :
 public
 nsIMultiplexInputStream

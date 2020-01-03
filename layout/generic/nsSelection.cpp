@@ -841,7 +841,7 @@ valid
 ;
 class
 nsAutoScrollTimer
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -1065,7 +1065,7 @@ nsITimer
 *
 timer
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

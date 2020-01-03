@@ -184,7 +184,7 @@ uint32_t
 &
 aContentPolicyType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -210,7 +210,7 @@ PBrowserOrId
 &
 parent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -221,7 +221,7 @@ nsString
 &
 data
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -232,7 +232,7 @@ nsresult
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -247,7 +247,7 @@ nsCString
 &
 charset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -258,7 +258,7 @@ nsCString
 &
 securityInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -269,7 +269,7 @@ nsresult
 &
 statusCode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -287,7 +287,7 @@ PBrowserOrId
 &
 parent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -296,7 +296,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SetupAppData

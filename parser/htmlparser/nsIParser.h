@@ -786,7 +786,7 @@ nsIChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -1239,7 +1239,7 @@ bool
 IsParserEnabled
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

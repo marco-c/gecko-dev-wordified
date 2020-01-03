@@ -2656,7 +2656,7 @@ bool
 allowShortCircuit
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 RecordTraversal
@@ -2681,7 +2681,7 @@ showLocals
 bool
 showThisProps
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -3672,7 +3672,7 @@ aName
 ]
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3693,7 +3693,7 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -3983,7 +3983,7 @@ JSTracer
 *
 trc
 )
-MOZ_OVERRIDE
+override
 ;
 void
 TraceAdditionalNativeGrayRoots
@@ -3992,7 +3992,7 @@ JSTracer
 *
 aTracer
 )
-MOZ_OVERRIDE
+override
 ;
 void
 TraverseAdditionalNativeRoots
@@ -4001,7 +4001,7 @@ nsCycleCollectionNoteRootCallback
 &
 cb
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UnmarkSkippableJSHolders
@@ -4012,13 +4012,13 @@ void
 PrepareForForgetSkippable
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BeginCycleCollectionCallback
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 EndCycleCollectionCallback
@@ -4030,7 +4030,7 @@ CycleCollectorResults
 &
 aResults
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DispatchDeferredDeletion
@@ -4038,7 +4038,7 @@ DispatchDeferredDeletion
 bool
 continuation
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CustomGCCallback
@@ -4046,19 +4046,19 @@ CustomGCCallback
 JSGCStatus
 status
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CustomOutOfMemoryCallback
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CustomLargeAllocationFailureCallback
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CustomContextCallback
@@ -4069,7 +4069,7 @@ cx
 unsigned
 operation
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -7845,7 +7845,7 @@ private
 :
 class
 ClearInterpositionsObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -15363,7 +15363,7 @@ DebugDump
 int16_t
 depth
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -15836,7 +15836,7 @@ JSObject
 .
 class
 nsXPCWrappedJS
-MOZ_FINAL
+final
 :
 protected
 nsAutoXPTCStub
@@ -15874,7 +15874,7 @@ nsXPTCMiniVariant
 *
 params
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -18250,7 +18250,7 @@ xpc_DestroyJSxIDClassObjects
 ;
 class
 nsJSID
-MOZ_FINAL
+final
 :
 public
 nsIJSID
@@ -19251,7 +19251,7 @@ void
 ClearMembers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -19678,7 +19678,7 @@ engine
 .
 class
 nsScriptError
-MOZ_FINAL
+final
 :
 public
 nsIScriptError

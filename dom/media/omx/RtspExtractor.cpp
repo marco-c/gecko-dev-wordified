@@ -214,7 +214,7 @@ decoder
 /
 class
 RtspMediaSource
-MOZ_FINAL
+final
 :
 public
 MediaSource
@@ -294,14 +294,14 @@ params
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 status_t
 stop
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 sp
@@ -311,7 +311,7 @@ MetaData
 getFormat
 (
 )
-MOZ_OVERRIDE
+override
 {
 ReentrantMonitorAutoEnter
 mon
@@ -338,7 +338,7 @@ options
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

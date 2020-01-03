@@ -1355,7 +1355,7 @@ nsIFile
 *
 _result
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1682,7 +1682,7 @@ nsISimpleEnumerator
 *
 _enum
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

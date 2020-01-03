@@ -668,7 +668,7 @@ HandleEvent
 nsIDOMEvent
 *
 )
-MOZ_OVERRIDE
+override
 {
 mComboBox
 -
@@ -2635,7 +2635,7 @@ IsAlive
 }
 class
 nsResizeDropdownAtFinalPosition
-MOZ_FINAL
+final
 :
 public
 nsIReflowCallback
@@ -2683,7 +2683,7 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 {
 Run
 (
@@ -2702,7 +2702,7 @@ void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_RELEASE_THIS
 (
@@ -2713,7 +2713,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -8470,7 +8470,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8480,7 +8480,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsBlockFrame
@@ -8518,7 +8518,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8536,7 +8536,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -9832,7 +9832,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

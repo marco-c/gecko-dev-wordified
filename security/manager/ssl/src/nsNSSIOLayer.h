@@ -171,7 +171,7 @@ nsIObserver
 ;
 class
 nsNSSSocketInfo
-MOZ_FINAL
+final
 :
 public
 mozilla

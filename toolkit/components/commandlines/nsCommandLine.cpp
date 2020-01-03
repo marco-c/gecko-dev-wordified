@@ -290,7 +290,7 @@ NS_COMMANDLINE_CID
 }
 class
 nsCommandLine
-MOZ_FINAL
+final
 :
 public
 nsICommandLineRunner

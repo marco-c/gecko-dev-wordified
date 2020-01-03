@@ -207,7 +207,7 @@ nsISupports
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Close
@@ -219,7 +219,7 @@ nsACString
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendMsg
@@ -229,7 +229,7 @@ nsACString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendBinaryMsg
@@ -239,7 +239,7 @@ nsACString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendBinaryStream
@@ -250,7 +250,7 @@ aStream
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SendBinaryStream
@@ -270,7 +270,7 @@ nsISupports
 *
 aSecurityInfo
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddIPDLReference
@@ -298,14 +298,14 @@ nsAString
 aEffectiveURL
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsEncrypted
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -334,7 +334,7 @@ bool
 &
 aSecure
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnStop
@@ -344,7 +344,7 @@ nsresult
 &
 aStatusCode
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnMessageAvailable
@@ -354,7 +354,7 @@ nsCString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnBinaryMessageAvailable
@@ -364,7 +364,7 @@ nsCString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnAcknowledge
@@ -374,7 +374,7 @@ uint32_t
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnServerClose
@@ -388,7 +388,7 @@ nsCString
 &
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnStart

@@ -80,7 +80,7 @@ h
 "
 class
 nsUDPSocketProvider
-MOZ_FINAL
+final
 :
 public
 nsISocketProvider

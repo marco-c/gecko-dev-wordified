@@ -1178,7 +1178,7 @@ behaviour
 .
 struct
 WaitableEventKernel
-MOZ_FINAL
+final
 {
 public
 :

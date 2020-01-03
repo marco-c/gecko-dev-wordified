@@ -258,7 +258,7 @@ focused
 editor
 class
 IMEContentObserver
-MOZ_FINAL
+final
 :
 public
 nsISelectionListener
@@ -307,7 +307,7 @@ void
 ScrollPositionChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 OnMouseButtonEvent

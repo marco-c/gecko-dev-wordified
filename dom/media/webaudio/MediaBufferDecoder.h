@@ -190,7 +190,7 @@ Promise
 }
 struct
 WebAudioDecodeJob
-MOZ_FINAL
+final
 {
 /
 /

@@ -1698,7 +1698,7 @@ nsOfflineCacheDeviceInfo
 /
 class
 nsOfflineCacheDeviceInfo
-MOZ_FINAL
+final
 :
 public
 nsICacheDeviceInfo
@@ -2080,7 +2080,7 @@ nsOfflineCacheBinding
 /
 class
 nsOfflineCacheBinding
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -3060,7 +3060,7 @@ nsOfflineCacheEntryInfo
 /
 class
 nsOfflineCacheEntryInfo
-MOZ_FINAL
+final
 :
 public
 nsICacheEntryInfo

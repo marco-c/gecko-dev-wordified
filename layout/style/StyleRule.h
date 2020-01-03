@@ -1950,7 +1950,7 @@ StyleRule
 ;
 class
 ImportantRule
-MOZ_FINAL
+final
 :
 public
 nsIStyleRule
@@ -1978,7 +1978,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1998,7 +1998,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2058,7 +2058,7 @@ StyleRule
 ;
 class
 StyleRule
-MOZ_FINAL
+final
 :
 public
 Rule
@@ -2320,7 +2320,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2331,7 +2331,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -2339,7 +2339,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -2347,7 +2347,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2364,7 +2364,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -2384,7 +2384,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2399,7 +2399,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

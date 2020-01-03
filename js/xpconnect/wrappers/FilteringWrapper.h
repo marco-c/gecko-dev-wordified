@@ -231,7 +231,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -267,7 +267,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -293,7 +293,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -355,7 +355,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -384,7 +384,7 @@ JSObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -411,7 +411,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -438,7 +438,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -464,7 +464,7 @@ CallArgs
 args
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -491,7 +491,7 @@ MutableHandleValue
 vp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -512,7 +512,7 @@ MutableHandleObject
 protop
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const
@@ -618,7 +618,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -660,7 +660,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -686,7 +686,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -720,7 +720,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -756,7 +756,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

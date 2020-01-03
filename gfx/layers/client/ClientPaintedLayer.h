@@ -144,7 +144,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -362,7 +362,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -403,7 +403,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -455,7 +455,7 @@ void
 RenderLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 RenderLayerWithReadback
 (
@@ -471,14 +471,14 @@ ReadbackProcessor
 *
 aReadback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -512,7 +512,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 {
 aAttrs
 =
@@ -547,7 +547,7 @@ Layer
 AsLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -559,7 +559,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -571,7 +571,7 @@ CompositableClient
 GetCompositableClient
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mContentClient
@@ -582,7 +582,7 @@ void
 Disconnect
 (
 )
-MOZ_OVERRIDE
+override
 {
 mContentClient
 =
@@ -618,7 +618,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DestroyBackBuffer

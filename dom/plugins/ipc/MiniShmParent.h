@@ -392,7 +392,7 @@ nsresult
 Send
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsConnected
@@ -406,7 +406,7 @@ void
 OnEvent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

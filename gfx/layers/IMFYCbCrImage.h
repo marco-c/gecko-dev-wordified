@@ -162,7 +162,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -174,7 +174,7 @@ AllocateBuffer
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (

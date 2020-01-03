@@ -2315,7 +2315,7 @@ sEventListenerManagersHash
 ;
 class
 DOMEventListenerManagersHashReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -2345,7 +2345,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -2591,7 +2591,7 @@ EventListenerManagerMapEntry
 }
 class
 SameOriginCheckerImpl
-MOZ_FINAL
+final
 :
 public
 nsIChannelEventSink
@@ -2611,7 +2611,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 ;
 class
 CharsetDetectionObserver
-MOZ_FINAL
+final
 :
 public
 nsICharsetDetectionObserver
@@ -2629,7 +2629,7 @@ aCharset
 nsDetectionConfident
 aConf
 )
-MOZ_OVERRIDE
+override
 {
 mCharset
 =

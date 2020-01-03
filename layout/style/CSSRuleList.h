@@ -202,8 +202,8 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 NS_IMETHOD
 GetLength
@@ -212,8 +212,8 @@ uint32_t
 *
 aLength
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 *
 aLength
@@ -236,8 +236,8 @@ nsIDOMCSSRule
 *
 aReturn
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 NS_IF_ADDREF
 (

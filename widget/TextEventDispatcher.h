@@ -246,7 +246,7 @@ IME
 /
 class
 TextEventDispatcher
-MOZ_FINAL
+final
 {
 ~
 TextEventDispatcher

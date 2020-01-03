@@ -2516,7 +2516,7 @@ TabParent
 :
 :
 AutoUseNewTab
-MOZ_FINAL
+final
 {
 public
 :
@@ -13279,7 +13279,7 @@ NS_OK
 }
 class
 LayerTreeUpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -13835,7 +13835,7 @@ true
 }
 class
 FakeChannel
-MOZ_FINAL
+final
 :
 public
 nsIChannel
@@ -13884,7 +13884,7 @@ NS_DECL_ISUPPORTS
 #
 define
 NO_IMPL
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -13978,7 +13978,7 @@ nsIURI
 *
 aUri
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -14017,7 +14017,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -14038,7 +14038,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
-MOZ_OVERRIDE
+override
 {
 mLoadInfo
 =
@@ -14056,7 +14056,7 @@ nsIInterfaceRequestor
 *
 aRequestor
 )
-MOZ_OVERRIDE
+override
 {
 NS_ADDREF
 (
@@ -14190,7 +14190,7 @@ nsIAuthInformation
 *
 aAuthInfo
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAuthCancelled
@@ -14201,7 +14201,7 @@ aContext
 bool
 userCancel
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetInterface
@@ -14215,7 +14215,7 @@ void
 *
 result
 )
-MOZ_OVERRIDE
+override
 {
 return
 QueryInterface
@@ -14249,7 +14249,7 @@ nsIDOMElement
 *
 aElement
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

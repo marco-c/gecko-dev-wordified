@@ -149,7 +149,7 @@ dom
 {
 class
 SVGPolygonElement
-MOZ_FINAL
+final
 :
 public
 SVGPolygonElementBase
@@ -191,7 +191,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -238,7 +238,7 @@ nsSVGMark
 *
 aMarks
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -254,7 +254,7 @@ PathBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -275,7 +275,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

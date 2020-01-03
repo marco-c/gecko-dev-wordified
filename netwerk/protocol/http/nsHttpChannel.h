@@ -446,7 +446,7 @@ NS_HTTPCHANNEL_IID
 }
 class
 nsHttpChannel
-MOZ_FINAL
+final
 :
 public
 HttpBaseChannel
@@ -531,7 +531,7 @@ bool
 *
 aIsSSL
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetProxyMethodIsConnect
@@ -540,7 +540,7 @@ bool
 *
 aProxyMethodIsConnect
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetServerResponseHeader
@@ -549,7 +549,7 @@ nsACString
 &
 aServerResponseHeader
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetProxyChallenges
@@ -558,7 +558,7 @@ nsACString
 &
 aChallenges
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetWWWChallenges
@@ -567,7 +567,7 @@ nsACString
 &
 aChallenges
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetProxyCredentials
@@ -577,7 +577,7 @@ nsACString
 &
 aCredentials
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetWWWCredentials
@@ -587,13 +587,13 @@ nsACString
 &
 aCredentials
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAuthAvailable
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnAuthCancelled
@@ -601,7 +601,7 @@ OnAuthCancelled
 bool
 userCancel
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -642,7 +642,7 @@ nsLoadFlags
 *
 aLoadFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetURI
@@ -652,7 +652,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNotificationCallbacks
@@ -662,7 +662,7 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLoadGroup
@@ -672,7 +672,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestMethod
@@ -681,7 +681,7 @@ nsACString
 &
 aMethod
 )
-MOZ_OVERRIDE
+override
 ;
 nsHttpChannel
 (
@@ -705,7 +705,7 @@ nsIURI
 *
 aProxyURI
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 OnPush
@@ -745,19 +745,19 @@ Cancel
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Suspend
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -770,7 +770,7 @@ nsISupports
 *
 aSecurityInfo
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AsyncOpen
@@ -782,7 +782,7 @@ nsISupports
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -795,13 +795,13 @@ char
 *
 aFallbackKey
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ContinueBeginConnect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -812,7 +812,7 @@ SetPriority
 int32_t
 value
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -823,7 +823,7 @@ SetClassFlags
 uint32_t
 inFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddClassFlags
@@ -831,7 +831,7 @@ AddClassFlags
 uint32_t
 inFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ClearClassFlags
@@ -839,7 +839,7 @@ ClearClassFlags
 uint32_t
 inFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -854,7 +854,7 @@ nsACString
 &
 entityID
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetNotificationCallbacks
@@ -863,7 +863,7 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetLoadGroup
@@ -872,7 +872,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -887,7 +887,7 @@ TimeStamp
 *
 aDomainLookupStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDomainLookupEnd
@@ -899,7 +899,7 @@ TimeStamp
 *
 aDomainLookupEnd
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetConnectStart
@@ -911,7 +911,7 @@ TimeStamp
 *
 aConnectStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetConnectEnd
@@ -923,7 +923,7 @@ TimeStamp
 *
 aConnectEnd
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestStart
@@ -935,7 +935,7 @@ TimeStamp
 *
 aRequestStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseStart
@@ -947,7 +947,7 @@ TimeStamp
 *
 aResponseStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseEnd
@@ -959,7 +959,7 @@ TimeStamp
 *
 aResponseEnd
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -1525,7 +1525,7 @@ nsIChannel
 bool
 preserveMethod
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -2789,7 +2789,7 @@ void
 DoNotifyListenerCleanup
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

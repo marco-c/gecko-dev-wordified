@@ -1658,7 +1658,7 @@ sNeedsGCAfterCC
 }
 class
 nsJSEnvironmentObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -15433,7 +15433,7 @@ fly
 .
 class
 nsJSArgArray
-MOZ_FINAL
+final
 :
 public
 nsIJSArgArray
@@ -15485,7 +15485,7 @@ void
 *
 argv
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReleaseJSObjects

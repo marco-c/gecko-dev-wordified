@@ -135,7 +135,7 @@ h
 /
 /
 for
-MOZ_FINAL
+final
 etc
 #
 include
@@ -570,7 +570,7 @@ zoom
 /
 class
 AsyncCompositionManager
-MOZ_FINAL
+final
 {
 friend
 class

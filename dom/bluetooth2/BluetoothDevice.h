@@ -205,7 +205,7 @@ BluetoothSocket
 ;
 class
 BluetoothDevice
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -1004,14 +1004,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

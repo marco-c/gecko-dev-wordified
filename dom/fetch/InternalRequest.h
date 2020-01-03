@@ -207,7 +207,7 @@ client
 "
 class
 InternalRequest
-MOZ_FINAL
+final
 {
 friend
 class

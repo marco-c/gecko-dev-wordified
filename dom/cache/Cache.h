@@ -245,7 +245,7 @@ PCacheResponseOrVoid
 ;
 class
 Cache
-MOZ_FINAL
+final
 :
 public
 PromiseNativeHandler
@@ -445,7 +445,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -555,7 +555,7 @@ GetGlobalObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -566,7 +566,7 @@ AssertOwningThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -593,7 +593,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -614,7 +614,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

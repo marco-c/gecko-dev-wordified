@@ -361,7 +361,7 @@ MiniShmBase
 *
 aMiniShmObj
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

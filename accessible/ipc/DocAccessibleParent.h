@@ -299,7 +299,7 @@ uint32_t
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -310,7 +310,7 @@ ShowEventData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -321,7 +321,7 @@ uint64_t
 &
 aRootID
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Destroy
@@ -335,7 +335,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

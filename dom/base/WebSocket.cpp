@@ -519,7 +519,7 @@ dom
 {
 class
 WebSocketImpl
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor
@@ -1273,7 +1273,7 @@ nsIEventTarget
 )
 class
 CallDispatchConnectionCloseEvents
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable
@@ -1499,7 +1499,7 @@ namespace
 {
 class
 PrintErrorOnConsoleRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -1565,7 +1565,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRv
 =
@@ -1971,7 +1971,7 @@ namespace
 {
 class
 CloseRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -2020,7 +2020,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRv
 =
@@ -2657,7 +2657,7 @@ namespace
 {
 class
 DisconnectInternalRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -2689,7 +2689,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 mImpl
 -
@@ -5216,7 +5216,7 @@ mCx
 ;
 class
 InitRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -5305,7 +5305,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -5620,7 +5620,7 @@ mConnectionFailed
 ;
 class
 AsyncOpenRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -5670,7 +5670,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -8309,7 +8309,7 @@ methods
 -
 class
 nsAutoCloseWS
-MOZ_FINAL
+final
 {
 public
 :
@@ -9561,7 +9561,7 @@ namespace
 {
 class
 PrefEnabledRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -9590,7 +9590,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -10710,7 +10710,7 @@ namespace
 {
 class
 WebSocketWorkerFeature
-MOZ_FINAL
+final
 :
 public
 WorkerFeature
@@ -10740,7 +10740,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -10801,7 +10801,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 {
 MutexAutoLock
@@ -12920,7 +12920,7 @@ namespace
 {
 class
 CancelRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -13514,7 +13514,7 @@ namespace
 {
 class
 WorkerRunnableDispatcher
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable

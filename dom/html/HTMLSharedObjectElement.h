@@ -172,7 +172,7 @@ dom
 {
 class
 HTMLSharedObjectElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -227,7 +227,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -242,7 +242,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -278,7 +278,7 @@ nsAString
 &
 aSrc
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSrc
@@ -288,7 +288,7 @@ nsAString
 &
 aSrc
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetType
@@ -297,7 +297,7 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetType
@@ -307,7 +307,7 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -325,7 +325,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -340,7 +340,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -361,7 +361,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -376,14 +376,14 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IMEState
 GetDesiredIMEState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -392,14 +392,14 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -418,7 +418,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -426,7 +426,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -440,7 +440,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -448,14 +448,14 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -466,7 +466,7 @@ GetCapabilities
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -487,7 +487,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -1198,7 +1198,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1209,7 +1209,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -1229,7 +1229,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

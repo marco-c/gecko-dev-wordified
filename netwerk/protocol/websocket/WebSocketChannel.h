@@ -439,7 +439,7 @@ nsISupports
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Close
@@ -451,7 +451,7 @@ nsACString
 &
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendMsg
@@ -461,7 +461,7 @@ nsACString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendBinaryMsg
@@ -471,7 +471,7 @@ nsACString
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SendBinaryStream
@@ -482,7 +482,7 @@ aStream
 uint32_t
 length
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSecurityInfo
@@ -492,7 +492,7 @@ nsISupports
 *
 aSecurityInfo
 )
-MOZ_OVERRIDE
+override
 ;
 WebSocketChannel
 (
@@ -525,14 +525,14 @@ nsAString
 aEffectiveURL
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsEncrypted
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 enum
 {

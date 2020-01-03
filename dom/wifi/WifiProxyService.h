@@ -106,7 +106,7 @@ mozilla
 {
 class
 WifiProxyService
-MOZ_FINAL
+final
 :
 public
 nsIWifiProxyService

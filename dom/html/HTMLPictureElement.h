@@ -160,7 +160,7 @@ dom
 {
 class
 HTMLPictureElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -213,7 +213,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -224,7 +224,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -258,7 +258,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

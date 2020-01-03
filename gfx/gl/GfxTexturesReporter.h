@@ -151,7 +151,7 @@ gl
 {
 class
 GfxTexturesReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -314,7 +314,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_COLLECT_REPORT
 (

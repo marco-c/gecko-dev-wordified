@@ -459,7 +459,7 @@ h
 "
 class
 mozHunspellDirProvider
-MOZ_FINAL
+final
 :
 public
 nsIDirectoryServiceProvider2
@@ -486,7 +486,7 @@ mozHunspellDirProvider
 }
 class
 AppendingEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

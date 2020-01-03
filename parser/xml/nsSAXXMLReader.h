@@ -228,7 +228,7 @@ NS_SAXXMLREADER_CID
 }
 class
 nsSAXXMLReader
-MOZ_FINAL
+final
 :
 public
 nsISAXXMLReader
@@ -261,7 +261,7 @@ NS_IMETHOD
 WillParse
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -273,7 +273,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidBuildModel
@@ -281,7 +281,7 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetParser
@@ -290,13 +290,13 @@ nsParserBase
 *
 aParser
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInterrupt
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -306,7 +306,7 @@ NS_IMETHOD
 WillResume
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -319,7 +319,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 }
 NS_IMETHOD
@@ -329,7 +329,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -341,7 +341,7 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr

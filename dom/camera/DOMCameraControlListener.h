@@ -110,7 +110,7 @@ OnAutoFocusComplete
 bool
 aAutoFocusSucceeded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -119,7 +119,7 @@ OnAutoFocusMoving
 bool
 aIsMoving
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -136,7 +136,7 @@ Face
 &
 aFaces
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -152,7 +152,7 @@ nsAString
 &
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -163,7 +163,7 @@ aState
 nsresult
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -172,7 +172,7 @@ OnPreviewStateChange
 PreviewState
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -185,7 +185,7 @@ aStatus
 int32_t
 aTrackNum
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -196,14 +196,14 @@ CameraListenerConfiguration
 &
 aConfiguration
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnShutter
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -212,7 +212,7 @@ OnRateLimitPreview
 bool
 aLimit
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -229,7 +229,7 @@ aWidth
 uint32_t
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -240,7 +240,7 @@ aContext
 nsresult
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

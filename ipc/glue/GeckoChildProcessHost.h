@@ -1319,7 +1319,7 @@ ifdef
 MOZ_NUWA_PROCESS
 class
 GeckoExistingProcessHost
-MOZ_FINAL
+final
 :
 public
 GeckoChildProcessHost
@@ -1376,14 +1376,14 @@ GetCurrentProcessArchitecture
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InitializeChannel
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

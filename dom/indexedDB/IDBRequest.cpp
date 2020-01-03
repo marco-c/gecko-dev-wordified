@@ -1918,7 +1918,7 @@ IDBOpenDBRequest
 :
 :
 WorkerFeature
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -2019,7 +2019,7 @@ aCx
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

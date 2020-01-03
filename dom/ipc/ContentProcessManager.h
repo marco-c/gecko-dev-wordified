@@ -220,7 +220,7 @@ mRemoteFrames
 ;
 class
 ContentProcessManager
-MOZ_FINAL
+final
 {
 public
 :

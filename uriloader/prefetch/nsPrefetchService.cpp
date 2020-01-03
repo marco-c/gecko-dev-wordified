@@ -721,7 +721,7 @@ nsPrefetchQueueEnumerator
 -
 class
 nsPrefetchQueueEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

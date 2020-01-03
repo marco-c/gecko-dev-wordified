@@ -929,7 +929,7 @@ sqlite3_stmt
 *
 _stmt
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -940,7 +940,7 @@ StatementData
 &
 _data
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -955,7 +955,7 @@ mozIStorageBindingParamsArray
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

@@ -279,7 +279,7 @@ h
 -
 class
 FetchObserver
-MOZ_FINAL
+final
 :
 public
 nsIRequestObserver

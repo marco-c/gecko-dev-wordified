@@ -990,7 +990,7 @@ mConnectionStatus
 ;
 class
 SocketConnectTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1026,7 +1026,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1064,7 +1064,7 @@ mFd
 ;
 class
 SocketListenTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1100,7 +1100,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1139,7 +1139,7 @@ mFd
 ;
 class
 SocketConnectClientFdTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1167,7 +1167,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1618,7 +1618,7 @@ READ_WATCHER
 }
 class
 AcceptTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1654,7 +1654,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1692,7 +1692,7 @@ mFd
 ;
 class
 AcceptResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSocketResultHandler
@@ -1729,7 +1729,7 @@ aBdAddress
 int
 aConnectionStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1839,7 +1839,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1949,7 +1949,7 @@ mImpl
 ;
 class
 AcceptRunnable
-MOZ_FINAL
+final
 :
 public
 SocketIORunnable
@@ -1985,7 +1985,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2392,7 +2392,7 @@ BLUETOOTH_ADDRESS_NONE
 }
 class
 ConnectSocketResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSocketResultHandler
@@ -2429,7 +2429,7 @@ aBdAddress
 int
 aConnectionStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2518,7 +2518,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2711,7 +2711,7 @@ true
 }
 class
 ListenResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSocketResultHandler
@@ -2742,7 +2742,7 @@ Listen
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2774,7 +2774,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

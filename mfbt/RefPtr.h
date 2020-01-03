@@ -1191,7 +1191,7 @@ MOZ_REFCOUNTED_LEAK_CHECKING
 /
 /
 Passing
-MOZ_OVERRIDE
+override
 for
 the
 optional

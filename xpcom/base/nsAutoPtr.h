@@ -4322,7 +4322,7 @@ void
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 nsresult
 status

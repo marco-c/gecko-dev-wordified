@@ -6220,7 +6220,7 @@ WidgetGUIEvent
 AsGUIEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -6256,7 +6256,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6539,7 +6539,7 @@ field
 /
 class
 PluginEvent
-MOZ_FINAL
+final
 {
 nsTArray
 <
@@ -7594,7 +7594,7 @@ WidgetInputEvent
 AsInputEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -7631,7 +7631,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -8603,7 +8603,7 @@ InternalUIEvent
 AsUIEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -8637,7 +8637,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

@@ -637,7 +637,7 @@ char
 *
 aLibPath
 )
-MOZ_OVERRIDE
+override
 {
 StartSandboxCallback
 (
@@ -754,7 +754,7 @@ char
 *
 aLibPath
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :

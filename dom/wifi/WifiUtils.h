@@ -468,7 +468,7 @@ supplicant
 .
 class
 WpaSupplicant
-MOZ_FINAL
+final
 {
 public
 :

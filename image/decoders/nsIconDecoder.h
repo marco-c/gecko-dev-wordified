@@ -504,7 +504,7 @@ aBuffer
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 uint8_t
 mWidth

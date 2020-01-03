@@ -181,7 +181,7 @@ nsIFile
 ;
 class
 nsIconChannel
-MOZ_FINAL
+final
 :
 public
 nsIChannel

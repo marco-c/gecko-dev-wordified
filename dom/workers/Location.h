@@ -123,7 +123,7 @@ h
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerLocation
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -292,7 +292,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

@@ -185,7 +185,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -347,7 +347,7 @@ int
 &
 i
 )
-MOZ_OVERRIDE
+override
 {
 PTestDataStructuresSubParent
 *
@@ -378,7 +378,7 @@ PTestDataStructuresSubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -398,7 +398,7 @@ int
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -420,7 +420,7 @@ PTestDataStructuresSubParent
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -441,7 +441,7 @@ IntDouble
 *
 o2
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -461,7 +461,7 @@ IntDouble
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -489,7 +489,7 @@ IntDoubleArrays
 *
 o3
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -509,7 +509,7 @@ IntDoubleArrays
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -523,7 +523,7 @@ ActorWrapper
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -551,7 +551,7 @@ Actors
 *
 o3
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -571,7 +571,7 @@ Actors
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -606,7 +606,7 @@ Unions
 *
 o4
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -626,7 +626,7 @@ Unions
 *
 o1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -640,7 +640,7 @@ SIntDouble
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -654,7 +654,7 @@ SIntDoubleArrays
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -668,7 +668,7 @@ SActors
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -682,7 +682,7 @@ Structs
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -724,7 +724,7 @@ WithStructs
 *
 o5
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -738,7 +738,7 @@ WithUnions
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -752,7 +752,7 @@ Op
 &
 sa
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -766,7 +766,7 @@ nsIntRegion
 &
 ra
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -780,7 +780,7 @@ ShmemUnion
 *
 rsu
 )
-MOZ_OVERRIDE
+override
 {
 *
 rsu
@@ -798,7 +798,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -869,7 +869,7 @@ int
 &
 i
 )
-MOZ_OVERRIDE
+override
 {
 PTestDataStructuresSubChild
 *
@@ -900,7 +900,7 @@ PTestDataStructuresSubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -914,7 +914,7 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -923,7 +923,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

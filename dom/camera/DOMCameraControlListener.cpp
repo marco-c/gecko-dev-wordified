@@ -296,7 +296,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -422,7 +422,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -502,7 +502,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -790,7 +790,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -879,7 +879,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -1125,7 +1125,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -1216,7 +1216,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -1291,7 +1291,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -1432,7 +1432,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -
@@ -1529,7 +1529,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -1656,7 +1656,7 @@ nsDOMCameraControl
 *
 aDOMCameraControl
 )
-MOZ_OVERRIDE
+override
 {
 aDOMCameraControl
 -

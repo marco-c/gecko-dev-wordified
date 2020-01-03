@@ -166,7 +166,7 @@ nsIPersistentProperties
 NativeAttributes
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

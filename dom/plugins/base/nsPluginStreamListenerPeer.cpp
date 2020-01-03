@@ -6943,7 +6943,7 @@ OnRedirectVerifyCallback
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

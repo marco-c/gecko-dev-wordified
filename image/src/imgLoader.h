@@ -905,7 +905,7 @@ IMAGES_AND_DOCUMENTS
 ;
 class
 imgLoader
-MOZ_FINAL
+final
 :
 public
 imgILoader
@@ -2252,7 +2252,7 @@ callbacks
 /
 class
 nsProgressNotificationProxy
-MOZ_FINAL
+final
 :
 public
 nsIProgressEventSink

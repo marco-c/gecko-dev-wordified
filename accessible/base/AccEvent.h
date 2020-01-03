@@ -731,7 +731,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -841,7 +841,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1030,7 +1030,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1165,7 +1165,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccMutationEvent
@@ -1284,7 +1284,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccMutationEvent
@@ -1373,7 +1373,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1621,7 +1621,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1717,7 +1717,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1853,7 +1853,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -1964,7 +1964,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -2106,7 +2106,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent
@@ -2250,7 +2250,7 @@ GetEventGroups
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AccEvent

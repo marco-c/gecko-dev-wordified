@@ -2587,7 +2587,7 @@ MAX_CACHED_BUNDLES
 16
 struct
 bundleCacheEntry_t
-MOZ_FINAL
+final
 :
 public
 LinkedListElement

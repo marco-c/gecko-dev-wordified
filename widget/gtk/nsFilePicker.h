@@ -173,7 +173,7 @@ nsIFilePickerShownCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 AppendFilters
@@ -181,7 +181,7 @@ AppendFilters
 int32_t
 aFilterMask
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 AppendFilter
@@ -195,7 +195,7 @@ nsAString
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 SetDefaultString
@@ -205,7 +205,7 @@ nsAString
 &
 aString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetDefaultString
@@ -214,7 +214,7 @@ nsAString
 &
 aString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 SetDefaultExtension
@@ -224,7 +224,7 @@ nsAString
 &
 aExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetDefaultExtension
@@ -233,7 +233,7 @@ nsAString
 &
 aExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetFilterIndex
@@ -242,7 +242,7 @@ int32_t
 *
 aFilterIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 SetFilterIndex
@@ -250,7 +250,7 @@ SetFilterIndex
 int32_t
 aFilterIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetFile
@@ -260,7 +260,7 @@ nsIFile
 *
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetFileURL
@@ -270,7 +270,7 @@ nsIURI
 *
 aFileURL
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 GetFiles
@@ -280,7 +280,7 @@ nsISimpleEnumerator
 *
 aFiles
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Show
@@ -289,7 +289,7 @@ int16_t
 *
 aReturn
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -306,7 +306,7 @@ nsAString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

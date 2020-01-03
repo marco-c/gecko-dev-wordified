@@ -172,7 +172,7 @@ namespace
 mobilemessage
 class
 MobileMessageCursor
-MOZ_FINAL
+final
 :
 public
 DOMCursor
@@ -222,7 +222,7 @@ Continue
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -232,13 +232,13 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror
@@ -291,7 +291,7 @@ mobilemessage
 {
 class
 MobileMessageCursorCallback
-MOZ_FINAL
+final
 :
 public
 nsIMobileMessageCursorCallback
@@ -328,7 +328,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

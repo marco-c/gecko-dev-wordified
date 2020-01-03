@@ -154,7 +154,7 @@ SVGClipPathElementBase
 ;
 class
 SVGClipPathElement
-MOZ_FINAL
+final
 :
 public
 SVGClipPathElementBase
@@ -229,7 +229,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -252,7 +252,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -290,7 +290,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

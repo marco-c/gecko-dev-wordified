@@ -531,7 +531,7 @@ BluetoothProfileControllerCallback
 ;
 class
 BluetoothProfileController
-MOZ_FINAL
+final
 {
 ~
 BluetoothProfileController

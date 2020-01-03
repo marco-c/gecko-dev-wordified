@@ -250,7 +250,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -261,7 +261,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -309,7 +309,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -380,7 +380,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -450,7 +450,7 @@ nsresult
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTaskQueue
 -
@@ -468,7 +468,7 @@ nsresult
 Drain
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCallback
 -
@@ -1231,7 +1231,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -1274,7 +1274,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 BlankVideoDataCreator
 *
@@ -1343,7 +1343,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 BlankAudioDataCreator
 *
@@ -1394,7 +1394,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

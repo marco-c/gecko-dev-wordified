@@ -214,7 +214,7 @@ txIXPathObject
 )
 class
 txFunctionEvaluationContext
-MOZ_FINAL
+final
 :
 public
 txIFunctionEvaluationContext

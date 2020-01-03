@@ -206,14 +206,14 @@ CopyWithAntialiasOption
 AntialiasOption
 anAAOption
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetSpaceGlyph
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -223,14 +223,14 @@ gfxContext
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AllowSubpixelAA
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mAllowManualShowGlyphs
@@ -248,7 +248,7 @@ GetAdjustedSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mAdjustedSize
@@ -293,7 +293,7 @@ aSpacing
 uint16_t
 aOrientation
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -301,7 +301,7 @@ ProvidesGlyphWidths
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -313,7 +313,7 @@ aDrawTarget
 uint16_t
 aGID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -338,7 +338,7 @@ aRunParams
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -407,7 +407,7 @@ DrawTarget
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 cairo_scaled_font_t
@@ -415,7 +415,7 @@ cairo_scaled_font_t
 GetCairoScaledFont
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -426,7 +426,7 @@ Metrics
 GetHorizontalMetrics
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 GetFakeMetricsForArialBlack

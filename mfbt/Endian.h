@@ -3895,7 +3895,7 @@ detail
 /
 class
 LittleEndian
-MOZ_FINAL
+final
 :
 public
 detail
@@ -3913,7 +3913,7 @@ Little
 ;
 class
 BigEndian
-MOZ_FINAL
+final
 :
 public
 detail
@@ -3935,7 +3935,7 @@ NetworkEndian
 ;
 class
 NativeEndian
-MOZ_FINAL
+final
 :
 public
 detail

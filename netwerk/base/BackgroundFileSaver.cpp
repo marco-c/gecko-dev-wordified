@@ -612,7 +612,7 @@ file
 /
 class
 NotifyTargetChangeRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -181,7 +181,7 @@ happens
 /
 class
 WatchedErrorEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -356,7 +356,7 @@ successful
 /
 class
 WatchedSuccessEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -521,7 +521,7 @@ resource
 /
 class
 WatchedChangeEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

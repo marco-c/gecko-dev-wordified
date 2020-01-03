@@ -167,7 +167,7 @@ nsIURI
 ;
 class
 nsSHEntry
-MOZ_FINAL
+final
 :
 public
 nsISHEntry

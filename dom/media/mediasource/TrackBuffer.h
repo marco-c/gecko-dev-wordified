@@ -223,7 +223,7 @@ namespace
 dom
 class
 TrackBuffer
-MOZ_FINAL
+final
 {
 public
 :

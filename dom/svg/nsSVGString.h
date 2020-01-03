@@ -370,7 +370,7 @@ public
 :
 struct
 DOMAnimatedString
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -432,7 +432,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 mVal
 -
@@ -452,7 +452,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 mVal
 -
@@ -472,7 +472,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 mSVGElement
 -
@@ -602,7 +602,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -610,14 +610,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -628,7 +628,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

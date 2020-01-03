@@ -618,7 +618,7 @@ NativeHandle
 .
 class
 ImageNativeHandle
-MOZ_FINAL
+final
 :
 public
 webrtc
@@ -660,7 +660,7 @@ void
 GetHandle
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mImage
@@ -675,7 +675,7 @@ int
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 DummyRefCountBase
@@ -691,7 +691,7 @@ int
 Release
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 DummyRefCountBase
@@ -1113,7 +1113,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1620,7 +1620,7 @@ RenderOutputBufferAndRelease
 .
 class
 WebrtcOMXDecoder
-MOZ_FINAL
+final
 :
 public
 GonkNativeWindowNewFrameCallback
@@ -3457,7 +3457,7 @@ void
 OnNewFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 RefPtr
 <
@@ -3754,7 +3754,7 @@ bool
 DrainOutput
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -4149,7 +4149,7 @@ bool
 DrainOutput
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsTArray
 <

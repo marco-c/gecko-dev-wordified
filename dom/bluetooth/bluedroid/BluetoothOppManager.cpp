@@ -476,7 +476,7 @@ BluetoothOppManager
 :
 :
 SendFileBatch
-MOZ_FINAL
+final
 {
 public
 :
@@ -606,7 +606,7 @@ BluetoothOppManager
 :
 :
 SendSocketDataTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -683,7 +683,7 @@ BluetoothOppManager
 :
 :
 ReadFileTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -895,7 +895,7 @@ BluetoothOppManager
 :
 :
 CloseSocketTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -924,7 +924,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

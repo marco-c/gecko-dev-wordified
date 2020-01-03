@@ -344,7 +344,7 @@ aTime
 int64_t
 aEndTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRefPtr
@@ -354,7 +354,7 @@ ShutdownPromise
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 class
 ImageBufferCallback
@@ -406,7 +406,7 @@ MPAPI
 ColorFormat
 aColorFormat
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

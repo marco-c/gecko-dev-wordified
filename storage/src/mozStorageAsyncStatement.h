@@ -196,7 +196,7 @@ Connection
 ;
 class
 AsyncStatement
-MOZ_FINAL
+final
 :
 public
 mozIStorageAsyncStatement

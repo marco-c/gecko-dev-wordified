@@ -167,7 +167,7 @@ bool
 IsScoConnected
 (
 )
-MOZ_OVERRIDE
+override
 ;
 END_BLUETOOTH_NAMESPACE
 #

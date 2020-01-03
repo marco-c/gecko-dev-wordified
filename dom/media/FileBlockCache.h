@@ -627,7 +627,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -783,7 +783,7 @@ instead
 .
 struct
 BlockChange
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

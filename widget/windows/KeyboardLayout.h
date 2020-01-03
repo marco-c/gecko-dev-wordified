@@ -3450,7 +3450,7 @@ stack
 class
 MOZ_STACK_CLASS
 AutoFlusher
-MOZ_FINAL
+final
 {
 public
 :

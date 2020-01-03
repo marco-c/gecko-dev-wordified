@@ -136,7 +136,7 @@ h
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothInterface

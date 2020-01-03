@@ -206,7 +206,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,7 +216,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsLeafFrame
@@ -277,7 +277,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -290,7 +290,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -332,7 +332,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -342,7 +342,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -361,7 +361,7 @@ aRepaint
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -378,7 +378,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -442,14 +442,14 @@ nscoord
 GetIntrinsicISize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
 GetIntrinsicBSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

@@ -158,7 +158,7 @@ h
 "
 class
 nsIOUtil
-MOZ_FINAL
+final
 :
 public
 nsIIOUtil

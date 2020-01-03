@@ -467,7 +467,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -612,7 +612,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -700,7 +700,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -742,7 +742,7 @@ ifdef
 MOZ_NUWA_PROCESS
 class
 DecodePoolNuwaListener
-MOZ_FINAL
+final
 :
 public
 nsIThreadPoolListener

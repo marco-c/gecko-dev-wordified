@@ -144,7 +144,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -263,7 +263,7 @@ gl
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mImpl
@@ -282,7 +282,7 @@ ShaderProgramOGL
 *
 aProg
 )
-MOZ_OVERRIDE
+override
 {
 mImpl
 -
@@ -306,7 +306,7 @@ gfx
 SurfaceFormat
 aFormat
 )
-MOZ_OVERRIDE
+override
 {
 ShaderConfigOGL
 config
@@ -338,7 +338,7 @@ GetProjMatrix
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mImpl
@@ -371,7 +371,7 @@ Rect
 &
 aTextureRect
 )
-MOZ_OVERRIDE
+override
 {
 mImpl
 -

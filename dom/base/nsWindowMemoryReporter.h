@@ -1076,7 +1076,7 @@ tab
 /
 class
 nsWindowMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1168,7 +1168,7 @@ present
 /
 class
 GhostWindowsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1200,7 +1200,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT

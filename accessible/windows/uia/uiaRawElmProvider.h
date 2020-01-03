@@ -170,7 +170,7 @@ approach
 /
 class
 uiaRawElmProvider
-MOZ_FINAL
+final
 :
 public
 IAccessibleEx

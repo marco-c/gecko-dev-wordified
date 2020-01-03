@@ -226,7 +226,7 @@ loop
 /
 class
 nsScreenManagerProxy
-MOZ_FINAL
+final
 :
 public
 nsIScreenManager

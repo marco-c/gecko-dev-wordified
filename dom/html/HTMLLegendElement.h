@@ -134,7 +134,7 @@ dom
 {
 class
 HTMLLegendElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -183,7 +183,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -194,7 +194,7 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -215,7 +215,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -230,7 +230,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -249,7 +249,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -263,7 +263,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -311,7 +311,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -325,7 +325,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -346,7 +346,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 Element
 *
@@ -444,7 +444,7 @@ GetScopeChainParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 Element
 *
@@ -493,7 +493,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

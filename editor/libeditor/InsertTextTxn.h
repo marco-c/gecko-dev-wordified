@@ -310,7 +310,7 @@ bool
 *
 aDidMerge
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

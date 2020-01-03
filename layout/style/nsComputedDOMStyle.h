@@ -323,7 +323,7 @@ gfx3DMatrix
 ;
 class
 nsComputedDOMStyle
-MOZ_FINAL
+final
 :
 public
 nsDOMCSSDeclaration
@@ -369,7 +369,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsICSSDeclaration
@@ -390,7 +390,7 @@ nsAString
 &
 aPropName
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 StyleType
@@ -440,7 +440,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mContent
@@ -586,7 +586,7 @@ GetCSSDeclaration
 (
 bool
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -601,7 +601,7 @@ css
 Declaration
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -609,7 +609,7 @@ nsIDocument
 DocToUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -619,7 +619,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsROCSSPrimitiveValue

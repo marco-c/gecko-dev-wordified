@@ -152,7 +152,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -189,7 +189,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -223,7 +223,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -258,7 +258,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 nsDateTimeFormatMac
 (

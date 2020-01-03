@@ -321,7 +321,7 @@ Preferences
 BEGIN_FMRADIO_NAMESPACE
 class
 FMRadioRequest
-MOZ_FINAL
+final
 :
 public
 FMRadioReplyRunnable

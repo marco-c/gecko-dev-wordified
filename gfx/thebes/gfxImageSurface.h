@@ -512,7 +512,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -867,7 +867,7 @@ gfxImageSurface
 GetAsImageSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -900,7 +900,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -913,7 +913,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -921,7 +921,7 @@ SizeOfIsMeasured
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

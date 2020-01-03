@@ -879,7 +879,7 @@ nsOfflineCachePendingUpdate
 -
 class
 nsOfflineCachePendingUpdate
-MOZ_FINAL
+final
 :
 public
 nsIWebProgressListener

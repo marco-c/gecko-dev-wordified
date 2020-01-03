@@ -143,7 +143,7 @@ h
 "
 class
 ClearKeySessionManager
-MOZ_FINAL
+final
 :
 public
 GMPDecryptor
@@ -164,7 +164,7 @@ GMPDecryptorCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -189,7 +189,7 @@ aInitDataSize
 GMPSessionType
 aSessionType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -204,7 +204,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ aResponse
 uint32_t
 aResponseSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -240,7 +240,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -255,7 +255,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -270,7 +270,7 @@ aServerCert
 uint32_t
 aServerCertSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -283,14 +283,14 @@ GMPEncryptedBufferMetadata
 *
 aMetadata
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DecryptingComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PersistentSessionDataLoaded

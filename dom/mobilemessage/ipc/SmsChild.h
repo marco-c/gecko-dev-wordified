@@ -207,7 +207,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -218,7 +218,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -229,7 +229,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -240,7 +240,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -251,7 +251,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -262,7 +262,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -273,7 +273,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -284,7 +284,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -295,7 +295,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -306,7 +306,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -317,7 +317,7 @@ MobileMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -328,7 +328,7 @@ DeletedMessageInfoData
 &
 aDeletedInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PSmsRequestChild
@@ -340,7 +340,7 @@ IPCSmsRequest
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -350,7 +350,7 @@ PSmsRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PMobileMessageCursorChild
@@ -362,7 +362,7 @@ IPCMobileMessageCursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -372,7 +372,7 @@ PMobileMessageCursorChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -423,7 +423,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -434,7 +434,7 @@ MessageReply
 &
 aReply
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -489,7 +489,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -500,7 +500,7 @@ MobileMessageCursorData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -511,7 +511,7 @@ int32_t
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -857,7 +857,7 @@ GeckoContentController
 *
 aController
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

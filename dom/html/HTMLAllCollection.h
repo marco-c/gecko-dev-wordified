@@ -195,7 +195,7 @@ Nullable
 ;
 class
 HTMLAllCollection
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -240,7 +240,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsINode
 *

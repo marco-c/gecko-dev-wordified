@@ -818,7 +818,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1193,7 +1193,7 @@ void
 NotifyEndOfStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1389,7 +1389,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1584,7 +1584,7 @@ void
 NotifyEndOfStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

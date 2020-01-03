@@ -124,7 +124,7 @@ browser
 {
 class
 DirectoryProvider
-MOZ_FINAL
+final
 :
 public
 nsIDirectoryServiceProvider2
@@ -144,7 +144,7 @@ DirectoryProvider
 }
 class
 AppendingEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

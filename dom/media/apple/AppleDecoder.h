@@ -90,7 +90,7 @@ MediaDecoder
 Clone
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 MediaDecoderStateMachine
@@ -98,7 +98,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -159,7 +159,7 @@ FileSystemTaskBase
 ;
 class
 FileSystemPermissionRequest
-MOZ_FINAL
+final
 :
 public
 nsIContentPermissionRequest

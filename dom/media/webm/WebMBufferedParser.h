@@ -1402,7 +1402,7 @@ mGotTimecodeScale
 ;
 class
 WebMBufferedState
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (

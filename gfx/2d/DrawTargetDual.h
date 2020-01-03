@@ -145,7 +145,7 @@ void
 funcName
 (
 )
-MOZ_OVERRIDE
+override
 {
 mA
 -
@@ -178,7 +178,7 @@ funcName
 var1Type
 var1Name
 )
-MOZ_OVERRIDE
+override
 {
 mA
 -
@@ -334,7 +334,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetDual
-MOZ_OVERRIDE
+override
 )
 DrawTargetDual
 (
@@ -371,7 +371,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -388,7 +388,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -407,7 +407,7 @@ SourceSurface
 Snapshot
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -423,7 +423,7 @@ IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -475,7 +475,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 {
 mTransform
 =
@@ -522,7 +522,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -548,7 +548,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 {
 mA
 -
@@ -595,7 +595,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -621,7 +621,7 @@ aSigma
 CompositionOp
 aOp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -639,7 +639,7 @@ IntPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -658,7 +658,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -681,7 +681,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -708,7 +708,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -731,7 +731,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -750,7 +750,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -776,7 +776,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -795,7 +795,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -818,7 +818,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -845,7 +845,7 @@ SourceSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -870,7 +870,7 @@ NativeSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -897,7 +897,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -915,7 +915,7 @@ FillRule
 FILL_WINDING
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -948,7 +948,7 @@ ExtendMode
 CLAMP
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -972,7 +972,7 @@ CreateFilter
 FilterType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 return
 mA
@@ -992,7 +992,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -1004,7 +1004,7 @@ IsDualDrawTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true

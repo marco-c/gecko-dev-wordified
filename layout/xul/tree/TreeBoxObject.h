@@ -147,7 +147,7 @@ DOMRect
 ;
 class
 TreeBoxObject
-MOZ_FINAL
+final
 :
 public
 BoxObject
@@ -196,14 +196,14 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedValues
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -226,7 +226,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

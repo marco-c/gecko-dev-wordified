@@ -255,7 +255,7 @@ workers
 ;
 class
 BroadcastChannelMessage
-MOZ_FINAL
+final
 {
 public
 :
@@ -634,7 +634,7 @@ GetPrincipal
 }
 class
 InitializeRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -690,7 +690,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -953,7 +953,7 @@ mRv
 ;
 class
 BCPostMessageRunnable
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable
@@ -990,7 +990,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1182,7 +1182,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mActor
 =
@@ -1222,7 +1222,7 @@ nsIRunnable
 )
 class
 CloseRunnable
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable
@@ -1253,7 +1253,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBC
 -
@@ -1270,7 +1270,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBC
 =
@@ -1304,7 +1304,7 @@ nsIRunnable
 )
 class
 TeardownRunnable
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable
@@ -1335,7 +1335,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1369,7 +1369,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mActor
 =
@@ -1403,7 +1403,7 @@ nsIRunnable
 )
 class
 BroadcastChannelFeature
-MOZ_FINAL
+final
 :
 public
 workers
@@ -1449,7 +1449,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1488,7 +1488,7 @@ BroadcastChannelFeature
 ;
 class
 PrefEnabledRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerMainThreadRunnable
@@ -1517,7 +1517,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

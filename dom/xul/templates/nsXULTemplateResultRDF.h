@@ -175,7 +175,7 @@ graph
 /
 class
 nsXULTemplateResultRDF
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateResult

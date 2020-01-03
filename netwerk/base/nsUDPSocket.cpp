@@ -2572,7 +2572,7 @@ UDPMessageProxy
 -
 class
 UDPMessageProxy
-MOZ_FINAL
+final
 :
 public
 nsIUDPMessage
@@ -4591,7 +4591,7 @@ SocketListenerProxy
 -
 class
 SocketListenerProxy
-MOZ_FINAL
+final
 :
 public
 nsIUDPSocketListener

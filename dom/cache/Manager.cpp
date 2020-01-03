@@ -465,7 +465,7 @@ details
 .
 class
 SetupAction
-MOZ_FINAL
+final
 :
 public
 SyncDBAction
@@ -500,7 +500,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -764,7 +764,7 @@ orphaned
 .
 class
 DeleteOrphanedBodyAction
-MOZ_FINAL
+final
 :
 public
 Action
@@ -818,7 +818,7 @@ QuotaInfo
 &
 aQuotaInfo
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2257,7 +2257,7 @@ MaybeDestroyInstance
 }
 class
 ShutdownAllRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2268,7 +2268,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -2739,7 +2739,7 @@ CompleteOnInitiatingThread
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -2912,7 +2912,7 @@ Manager
 :
 :
 DeleteOrphanedCacheAction
-MOZ_FINAL
+final
 :
 public
 SyncDBAction
@@ -2960,7 +2960,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 mozStorageTransaction
 trans
@@ -3035,7 +3035,7 @@ CompleteOnInitiatingThread
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -3164,7 +3164,7 @@ Manager
 :
 :
 CacheMatchAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -3241,7 +3241,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -3369,7 +3369,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3425,7 +3425,7 @@ CacheId
 aCacheId
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aCacheId
@@ -3545,7 +3545,7 @@ Manager
 :
 :
 CacheMatchAllAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -3618,7 +3618,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -3768,7 +3768,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 mStreamList
 -
@@ -3802,7 +3802,7 @@ CacheId
 aCacheId
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aCacheId
@@ -3969,7 +3969,7 @@ Manager
 :
 :
 CachePutAllAction
-MOZ_FINAL
+final
 :
 public
 DBAction
@@ -4216,7 +4216,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5135,7 +5135,7 @@ CompleteOnInitiatingThread
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -5226,7 +5226,7 @@ void
 CancelOnInitiatingThread
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -5253,7 +5253,7 @@ CacheId
 aCacheId
 )
 const
-MOZ_OVERRIDE
+override
 {
 NS_ASSERT_OWNINGTHREAD
 (
@@ -6089,7 +6089,7 @@ Manager
 :
 :
 CacheDeleteAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -6159,7 +6159,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 mozStorageTransaction
 trans
@@ -6245,7 +6245,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -6274,7 +6274,7 @@ CacheId
 aCacheId
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aCacheId
@@ -6391,7 +6391,7 @@ Manager
 :
 :
 CacheKeysAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -6464,7 +6464,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -6614,7 +6614,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 mStreamList
 -
@@ -6648,7 +6648,7 @@ CacheId
 aCacheId
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aCacheId
@@ -6768,7 +6768,7 @@ Manager
 :
 :
 StorageMatchAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -6845,7 +6845,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -6973,7 +6973,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -7134,7 +7134,7 @@ Manager
 :
 :
 StorageHasAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -7196,7 +7196,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 CacheId
 cacheId
@@ -7227,7 +7227,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 aListener
 -
@@ -7338,7 +7338,7 @@ Manager
 :
 :
 StorageOpenAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -7400,7 +7400,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -7564,7 +7564,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 aListener
 -
@@ -7675,7 +7675,7 @@ Manager
 :
 :
 StorageDeleteAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -7741,7 +7741,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 mozStorageTransaction
 trans
@@ -7871,7 +7871,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -8075,7 +8075,7 @@ Manager
 :
 :
 StorageKeysAction
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -8125,7 +8125,7 @@ mozIStorageConnection
 *
 aConn
 )
-MOZ_OVERRIDE
+override
 {
 return
 DBSchema
@@ -8149,7 +8149,7 @@ aListener
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

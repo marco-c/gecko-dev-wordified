@@ -209,7 +209,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -241,7 +241,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -255,7 +255,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -288,7 +288,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -313,7 +313,7 @@ aDirtyRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 nsIFrame
 *
@@ -324,20 +324,20 @@ gfxPoint
 &
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 GetCoveredRegion
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowSVG
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGBBox
@@ -350,7 +350,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

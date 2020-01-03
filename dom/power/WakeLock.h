@@ -164,7 +164,7 @@ ContentParent
 ;
 class
 WakeLock
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -372,7 +372,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetTopic

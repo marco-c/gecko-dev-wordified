@@ -81,7 +81,7 @@ embedding
 {
 class
 PrintSettingsDialogChild
-MOZ_FINAL
+final
 :
 public
 PPrintSettingsDialogChild
@@ -110,7 +110,7 @@ PrintData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 returned

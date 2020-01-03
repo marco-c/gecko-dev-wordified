@@ -205,7 +205,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -219,7 +219,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -229,7 +229,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsTableOuterFrame
@@ -408,7 +408,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -420,7 +420,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 nsTableFrame
 :
@@ -449,7 +449,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 nsTableFrame
 :
@@ -476,7 +476,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 {
 nsTableFrame
 :
@@ -500,7 +500,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsTableFrame
@@ -594,7 +594,7 @@ GetColSpacing
 int32_t
 aColIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -622,7 +622,7 @@ aStartColIndex
 int32_t
 aEndColIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -643,7 +643,7 @@ GetRowSpacing
 int32_t
 aRowIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -671,7 +671,7 @@ aStartRowIndex
 int32_t
 aEndRowIndex
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetColSpacingArray
@@ -899,7 +899,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -911,7 +911,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 nsTableRowFrame
 :
@@ -940,7 +940,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 {
 nsTableRowFrame
 :
@@ -967,7 +967,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 {
 nsTableRowFrame
 :
@@ -991,7 +991,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsTableRowFrame
@@ -1164,7 +1164,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1178,7 +1178,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -1186,7 +1186,7 @@ GetVerticalAlign
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1203,21 +1203,21 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetRowSpan
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetColSpan
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1227,7 +1227,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsTableCellFrame
@@ -1257,14 +1257,14 @@ nsMargin
 aBorder
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
 GetBorderOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1352,7 +1352,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
-MOZ_OVERRIDE
+override
 {
 nsMathMLContainerFrame
 :
@@ -1388,7 +1388,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1398,7 +1398,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsBlockFrame
@@ -1430,7 +1430,7 @@ nsStyleText
 StyleTextForLineLayout
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1440,13 +1440,13 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrames

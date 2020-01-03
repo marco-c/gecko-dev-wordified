@@ -199,7 +199,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -289,7 +289,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

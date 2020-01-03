@@ -246,7 +246,7 @@ SetDragDrop
 /
 class
 nsDataObjCollection
-MOZ_FINAL
+final
 :
 public
 nsIDataObjCollection

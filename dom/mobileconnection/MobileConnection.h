@@ -159,7 +159,7 @@ dom
 {
 class
 MobileConnection
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -278,7 +278,7 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -314,7 +314,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

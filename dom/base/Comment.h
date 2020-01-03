@@ -130,7 +130,7 @@ dom
 {
 class
 Comment
-MOZ_FINAL
+final
 :
 public
 nsGenericDOMDataNode
@@ -275,7 +275,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGenericDOMDataNode
@@ -295,7 +295,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -303,7 +303,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -323,7 +323,7 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -344,7 +344,7 @@ aDumpAll
 true
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 ;
@@ -391,7 +391,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

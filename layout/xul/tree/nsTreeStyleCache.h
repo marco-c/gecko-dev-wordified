@@ -226,7 +226,7 @@ DFAState
 ;
 class
 Transition
-MOZ_FINAL
+final
 {
 public
 :

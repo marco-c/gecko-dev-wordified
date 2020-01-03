@@ -144,7 +144,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -160,7 +160,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -175,7 +175,7 @@ aKey
 double
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -191,7 +191,7 @@ double
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -206,7 +206,7 @@ aKey
 int32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -222,7 +222,7 @@ int32_t
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -237,7 +237,7 @@ aKey
 int64_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -253,7 +253,7 @@ int64_t
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -268,7 +268,7 @@ aKey
 bool
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -284,7 +284,7 @@ bool
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -301,7 +301,7 @@ Size
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -317,7 +317,7 @@ Size
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -337,7 +337,7 @@ Region
 &
 aRegions
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -356,7 +356,7 @@ Region
 &
 aRegions
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -371,7 +371,7 @@ Position
 &
 aLocation
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -390,7 +390,7 @@ Size
 &
 aSizes
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -409,7 +409,7 @@ nsString
 &
 aValues
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -428,7 +428,7 @@ double
 &
 aValues
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -445,7 +445,7 @@ nsString
 &
 aProfiles
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -461,7 +461,7 @@ nsAString
 &
 aProfile
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -497,7 +497,7 @@ nsresult
 StartPreviewImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -508,7 +508,7 @@ nsresult
 StopPreviewImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -519,7 +519,7 @@ nsresult
 AutoFocusImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -530,7 +530,7 @@ nsresult
 StartFaceDetectionImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -541,7 +541,7 @@ nsresult
 StopFaceDetectionImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -552,7 +552,7 @@ nsresult
 TakePictureImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -572,7 +572,7 @@ aOptions
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -583,7 +583,7 @@ nsresult
 StopRecordingImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -594,7 +594,7 @@ nsresult
 PushParametersImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -605,7 +605,7 @@ nsresult
 PullParametersImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_INITIALIZED

@@ -173,7 +173,7 @@ nsIInputStream
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AsyncConvertData
@@ -193,7 +193,7 @@ nsISupports
 *
 ctxt
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

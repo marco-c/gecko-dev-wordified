@@ -169,7 +169,7 @@ USE_NC_EXTENSION
 endif
 class
 FileSystemDataSource
-MOZ_FINAL
+final
 :
 public
 nsIRDFDataSource

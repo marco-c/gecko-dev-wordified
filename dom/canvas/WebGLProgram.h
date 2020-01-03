@@ -177,7 +177,7 @@ webgl
 {
 struct
 LinkedProgramInfo
-MOZ_FINAL
+final
 :
 public
 RefCounted
@@ -514,7 +514,7 @@ CStringMap
 ;
 class
 WebGLProgram
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -802,7 +802,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

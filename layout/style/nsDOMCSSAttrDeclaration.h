@@ -145,7 +145,7 @@ Element
 }
 class
 nsDOMCSSAttributeDeclaration
-MOZ_FINAL
+final
 :
 public
 nsDOMCSSDeclaration
@@ -214,7 +214,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -224,7 +224,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetParentRule
@@ -234,7 +234,7 @@ nsIDOMCSSRule
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -242,7 +242,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPropertyValue
@@ -255,7 +255,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -278,7 +278,7 @@ Declaration
 *
 aDecl
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -286,7 +286,7 @@ nsIDocument
 DocToUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

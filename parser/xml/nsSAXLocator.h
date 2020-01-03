@@ -174,7 +174,7 @@ a95e
 }
 class
 nsSAXLocator
-MOZ_FINAL
+final
 :
 public
 nsISAXLocator

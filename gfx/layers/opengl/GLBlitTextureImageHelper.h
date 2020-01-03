@@ -167,7 +167,7 @@ CompositorOGL
 ;
 class
 GLBlitTextureImageHelper
-MOZ_FINAL
+final
 {
 /
 /

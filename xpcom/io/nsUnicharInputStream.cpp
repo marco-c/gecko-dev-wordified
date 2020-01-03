@@ -223,7 +223,7 @@ STRING_BUFFER_SIZE
 8192
 class
 StringUnicharInputStream
-MOZ_FINAL
+final
 :
 public
 nsIUnicharInputStream
@@ -678,7 +678,7 @@ nsIUnicharInputStream
 -
 class
 UTF8InputStream
-MOZ_FINAL
+final
 :
 public
 nsIUnicharInputStream

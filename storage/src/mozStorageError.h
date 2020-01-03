@@ -149,7 +149,7 @@ storage
 {
 class
 Error
-MOZ_FINAL
+final
 :
 public
 mozIStorageError

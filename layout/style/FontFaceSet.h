@@ -195,7 +195,7 @@ dom
 {
 class
 FontFaceSet
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -316,7 +316,7 @@ FontFaceSet
 /
 class
 UserFontSet
-MOZ_FINAL
+final
 :
 public
 gfxUserFontSet
@@ -367,7 +367,7 @@ bool
 *
 aBypassCache
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -381,7 +381,7 @@ gfxFontFaceSrc
 *
 aFontFaceSrc
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -390,7 +390,7 @@ bool
 GetPrivateBrowsing
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -411,7 +411,7 @@ uint32_t
 &
 aBufferLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -436,14 +436,14 @@ aStatus
 =
 NS_OK
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DoRebuildUserFontSet
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -478,7 +478,7 @@ gfxSparseBitSet
 *
 aUnicodeRanges
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -525,7 +525,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 UserFontSet
 *
@@ -949,7 +949,7 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

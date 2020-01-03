@@ -5864,7 +5864,7 @@ process
 .
 class
 SingleProcessRunnable
-MOZ_FINAL
+final
 :
 public
 File
@@ -6015,7 +6015,7 @@ Metadata
 &
 aMetadata
 )
-MOZ_OVERRIDE
+override
 {
 uint32_t
 moduleIndex
@@ -6055,7 +6055,7 @@ void
 OnOpenCacheFile
 (
 )
-MOZ_OVERRIDE
+override
 {
 File
 :
@@ -6069,8 +6069,8 @@ void
 Close
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 MainProcessRunnable
 :
@@ -6089,7 +6089,7 @@ JS
 AsmJSCacheResult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MainProcessRunnable
 :
@@ -6112,8 +6112,8 @@ void
 OnClose
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 MainProcessRunnable
 :
@@ -6150,7 +6150,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 MainProcessRunnable
@@ -6211,7 +6211,7 @@ ChildProcessRunnable
 .
 class
 ParentProcessRunnable
-MOZ_FINAL
+final
 :
 public
 PAsmJSCacheEntryParent
@@ -6373,7 +6373,7 @@ AsmJSCacheResult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6418,7 +6418,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6497,7 +6497,7 @@ Metadata
 &
 aMetadata
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6537,7 +6537,7 @@ uint32_t
 &
 aModuleIndex
 )
-MOZ_OVERRIDE
+override
 {
 MainProcessRunnable
 :
@@ -6555,7 +6555,7 @@ bool
 RecvCacheMiss
 (
 )
-MOZ_OVERRIDE
+override
 {
 MainProcessRunnable
 :
@@ -6572,7 +6572,7 @@ void
 OnOpenCacheFile
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6639,8 +6639,8 @@ void
 OnClose
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 MOZ_ASSERT
 (
@@ -6684,7 +6684,7 @@ JS
 AsmJSCacheResult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -6853,7 +6853,7 @@ namespace
 {
 class
 ChildProcessRunnable
-MOZ_FINAL
+final
 :
 public
 File
@@ -7033,7 +7033,7 @@ Metadata
 &
 aMetadata
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7089,7 +7089,7 @@ FileDescriptor
 &
 aFileDesc
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7160,7 +7160,7 @@ AsmJSCacheResult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7192,7 +7192,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7210,8 +7210,8 @@ void
 Close
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 MOZ_ASSERT
 (
@@ -9005,7 +9005,7 @@ MozExternalRefCountType
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -9014,14 +9014,14 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 ASMJS
@@ -9045,7 +9045,7 @@ UsageInfo
 *
 aUsageInfo
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -9085,7 +9085,7 @@ UsageInfo
 *
 aUsageInfo
 )
-MOZ_OVERRIDE
+override
 {
 QuotaManager
 *
@@ -9389,7 +9389,7 @@ nsACString
 &
 aOrigin
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -9397,7 +9397,7 @@ void
 ReleaseIOThreadObjects
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -9405,7 +9405,7 @@ bool
 IsFileServiceUtilized
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9416,7 +9416,7 @@ bool
 IsTransactionServiceActivated
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9437,7 +9437,7 @@ nsIRunnable
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT_UNREACHABLE
 (
@@ -9455,7 +9455,7 @@ void
 ShutdownTransactionService
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 private

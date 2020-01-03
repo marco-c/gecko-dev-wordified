@@ -141,7 +141,7 @@ dom
 {
 class
 XMLStylesheetProcessingInstruction
-MOZ_FINAL
+final
 :
 public
 ProcessingInstruction
@@ -236,7 +236,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -268,7 +268,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -289,7 +289,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -304,7 +304,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -317,7 +317,7 @@ nsIURI
 *
 aNewBaseURI
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -329,7 +329,7 @@ nsAString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -346,7 +346,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 {
 nsGenericDOMDataNode
 :
@@ -415,7 +415,7 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetStyleSheetInfo
@@ -436,7 +436,7 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGenericDOMDataNode
@@ -456,7 +456,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

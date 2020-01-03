@@ -3214,7 +3214,7 @@ callback
 .
 class
 InitEditorSpellCheckCallback
-MOZ_FINAL
+final
 :
 public
 nsIEditorSpellCheckCallback
@@ -3246,7 +3246,7 @@ NS_IMETHOD
 EditorSpellCheckDone
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSpellChecker
@@ -11394,7 +11394,7 @@ callback
 .
 class
 UpdateCurrentDictionaryCallback
-MOZ_FINAL
+final
 :
 public
 nsIEditorSpellCheckCallback
@@ -11426,7 +11426,7 @@ NS_IMETHOD
 EditorSpellCheckDone
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /

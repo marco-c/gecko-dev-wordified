@@ -449,7 +449,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -464,7 +464,7 @@ nsCString
 &
 data
 )
-MOZ_OVERRIDE
+override
 {
 AnnotateCrashReport
 (
@@ -485,7 +485,7 @@ nsCString
 &
 data
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -511,7 +511,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef

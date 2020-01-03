@@ -527,7 +527,7 @@ nsresult
 ResetDecode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -551,7 +551,7 @@ aSkipToNextKeyframe
 int64_t
 aTimeThreshold
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -571,7 +571,7 @@ AudioDataPromise
 RequestAudioData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -590,7 +590,7 @@ void
 PreReadMetadata
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -704,14 +704,14 @@ aTime
 int64_t
 aEndTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMediaSeekable
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 android
@@ -734,7 +734,7 @@ IsAsync
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1599,7 +1599,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1690,7 +1690,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

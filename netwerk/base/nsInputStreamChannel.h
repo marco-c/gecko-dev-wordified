@@ -238,14 +238,14 @@ nsIChannel
 *
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnChannelDone
 (
 )
-MOZ_OVERRIDE
+override
 {
 mContentStream
 =

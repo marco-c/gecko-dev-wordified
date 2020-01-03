@@ -130,7 +130,7 @@ h
 /
 /
 for
-MOZ_FINAL
+final
 #
 include
 "
@@ -222,7 +222,7 @@ NodeInfo
 }
 class
 nsNodeInfoManager
-MOZ_FINAL
+final
 {
 private
 :

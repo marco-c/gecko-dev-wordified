@@ -173,7 +173,7 @@ options
 .
 class
 nsICOEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

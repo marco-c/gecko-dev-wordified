@@ -9608,7 +9608,7 @@ CallFrameInfo
 :
 :
 Reporter
-MOZ_FINAL
+final
 {
 public
 :

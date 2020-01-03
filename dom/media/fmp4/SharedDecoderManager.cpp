@@ -161,7 +161,7 @@ MediaData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -189,7 +189,7 @@ void
 Error
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -216,7 +216,7 @@ void
 InputExhausted
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -243,7 +243,7 @@ void
 DrainComplete
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -267,7 +267,7 @@ void
 NotifyResourcesStatusChanged
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -294,7 +294,7 @@ void
 ReleaseMediaResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

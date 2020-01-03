@@ -209,7 +209,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -248,7 +248,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -276,7 +276,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -290,7 +290,7 @@ VideoDecoderConfig
 &
 aConfig
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

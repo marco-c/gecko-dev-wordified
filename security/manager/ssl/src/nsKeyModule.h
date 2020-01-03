@@ -180,7 +180,7 @@ keyobjectfactory
 "
 class
 nsKeyObject
-MOZ_FINAL
+final
 :
 public
 nsIKeyObject
@@ -272,7 +272,7 @@ CleanUp
 ;
 class
 nsKeyObjectFactory
-MOZ_FINAL
+final
 :
 public
 nsIKeyObjectFactory

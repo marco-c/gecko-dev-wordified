@@ -169,7 +169,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -254,7 +254,7 @@ nsISupports
 *
 aError
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <

@@ -211,7 +211,7 @@ nsString
 &
 aNumber
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -222,7 +222,7 @@ nsString
 &
 aNumber
 )
-MOZ_OVERRIDE
+override
 ;
 SmsParent
 (
@@ -247,7 +247,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -261,7 +261,7 @@ IPCSmsRequest
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PSmsRequestParent
@@ -273,7 +273,7 @@ IPCSmsRequest
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -283,7 +283,7 @@ PSmsRequestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -297,7 +297,7 @@ IPCMobileMessageCursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PMobileMessageCursorParent
@@ -309,7 +309,7 @@ IPCMobileMessageCursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -319,7 +319,7 @@ PMobileMessageCursorParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -386,7 +386,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DoRequest
@@ -515,14 +515,14 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvContinue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DoRequest

@@ -156,7 +156,7 @@ nsIStreamListener
 ;
 class
 nsInputStreamPump
-MOZ_FINAL
+final
 :
 public
 nsIInputStreamPump

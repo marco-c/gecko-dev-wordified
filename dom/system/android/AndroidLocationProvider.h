@@ -71,7 +71,7 @@ h
 "
 class
 AndroidLocationProvider
-MOZ_FINAL
+final
 :
 public
 nsIGeolocationProvider

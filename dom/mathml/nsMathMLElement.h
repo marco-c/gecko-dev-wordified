@@ -186,7 +186,7 @@ elements
 /
 class
 nsMathMLElement
-MOZ_FINAL
+final
 :
 public
 nsMathMLElementBase
@@ -280,7 +280,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -295,7 +295,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -314,7 +314,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -328,7 +328,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -336,7 +336,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -420,7 +420,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -433,7 +433,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Clone
@@ -451,7 +451,7 @@ nsINode
 *
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -462,7 +462,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -472,7 +472,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -523,7 +523,7 @@ aTabIndex
 bool
 aWithMouse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -535,7 +535,7 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -545,7 +545,7 @@ nsAString
 &
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -556,7 +556,7 @@ GetHrefURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -604,7 +604,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -618,7 +618,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -626,7 +626,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -659,7 +659,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

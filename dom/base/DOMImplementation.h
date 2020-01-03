@@ -157,7 +157,7 @@ DocumentType
 ;
 class
 DOMImplementation
-MOZ_FINAL
+final
 :
 public
 nsIDOMDOMImplementation
@@ -248,7 +248,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

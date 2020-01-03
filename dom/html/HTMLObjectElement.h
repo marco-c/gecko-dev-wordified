@@ -158,7 +158,7 @@ dom
 {
 class
 HTMLObjectElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElement
@@ -201,7 +201,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -216,7 +216,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -243,7 +243,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -265,7 +265,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -280,7 +280,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -301,7 +301,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -315,7 +315,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -330,14 +330,14 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IMEState
 GetDesiredIMEState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -352,7 +352,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FORM_OBJECT
@@ -362,7 +362,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -371,7 +371,7 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -379,7 +379,7 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -392,14 +392,14 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -418,7 +418,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -426,7 +426,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -440,7 +440,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -448,14 +448,14 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -466,7 +466,7 @@ GetCapabilities
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -487,7 +487,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -1313,7 +1313,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1324,7 +1324,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~
@@ -1350,7 +1350,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

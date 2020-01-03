@@ -132,7 +132,7 @@ h
 "
 class
 nsVersionComparatorImpl
-MOZ_FINAL
+final
 :
 public
 nsIVersionComparator

@@ -323,7 +323,7 @@ namespace
 mozilla
 class
 nsAccessibilityService
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -403,7 +403,7 @@ aPresShell
 bool
 aCanCreate
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -458,7 +458,7 @@ void
 *
 aAtkAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -468,7 +468,7 @@ Accessible
 *
 aRootAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -478,7 +478,7 @@ nsIDOMNode
 *
 aDOMNode
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -825,7 +825,7 @@ Accessible
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

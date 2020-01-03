@@ -441,7 +441,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeRecording
-MOZ_OVERRIDE
+override
 )
 using
 FilterNode
@@ -496,7 +496,7 @@ SourceSurface
 *
 aSurface
 )
-MOZ_OVERRIDE
+override
 {
 mRecorder
 -
@@ -534,7 +534,7 @@ FilterNode
 *
 aFilter
 )
-MOZ_OVERRIDE
+override
 {
 FilterNode
 *
@@ -630,7 +630,7 @@ aIndex
 type
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 \
 mRecorder
@@ -771,7 +771,7 @@ aFloat
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 mRecorder
 -
@@ -803,7 +803,7 @@ FilterBackend
 GetBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 FILTER_BACKEND_RECORDING

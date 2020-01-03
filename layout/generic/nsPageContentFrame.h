@@ -180,7 +180,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -190,7 +190,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 ViewportFrame
@@ -230,7 +230,7 @@ HasTransformGetter
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -264,7 +264,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -281,7 +281,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

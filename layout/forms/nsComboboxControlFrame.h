@@ -252,7 +252,7 @@ DrawTarget
 }
 class
 nsComboboxControlFrame
-MOZ_FINAL
+final
 :
 public
 nsBlockFrame
@@ -329,7 +329,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -345,7 +345,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -356,7 +356,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -372,7 +372,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -384,7 +384,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -394,7 +394,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -414,7 +414,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -433,7 +433,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -451,7 +451,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintFocus
@@ -511,7 +511,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -521,7 +521,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsBlockFrame
@@ -552,7 +552,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 do_QueryFrame
@@ -573,7 +573,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -585,7 +585,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -597,7 +597,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -609,7 +609,7 @@ ChildListID
 aListID
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -623,7 +623,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -631,7 +631,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -648,7 +648,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -739,7 +739,7 @@ aOn
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -749,7 +749,7 @@ bool
 IsDroppedDown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mDroppedDown
@@ -777,7 +777,7 @@ ShowDropDown
 bool
 aDoDropDown
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -785,7 +785,7 @@ nsIFrame
 GetDropDown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -795,7 +795,7 @@ nsIFrame
 *
 aDropDownFrame
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -817,7 +817,7 @@ void
 RollupFromList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -894,7 +894,7 @@ int32_t
 GetIndexOfDisplayArea
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -915,7 +915,7 @@ NS_IMETHOD
 RedisplaySelectedText
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -924,14 +924,14 @@ UpdateRecentIndex
 int32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnContentReset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -942,7 +942,7 @@ AddOption
 int32_t
 index
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RemoveOption
@@ -950,7 +950,7 @@ RemoveOption
 int32_t
 index
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoneAddingChildren
@@ -958,7 +958,7 @@ DoneAddingChildren
 bool
 aIsDone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnOptionSelected
@@ -968,7 +968,7 @@ aIndex
 bool
 aSelected
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnSetSelectedIndex
@@ -978,7 +978,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1026,14 +1026,14 @@ nsIContent
 *
 aLastRolledUp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 NotifyGeometryChange
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1063,7 +1063,7 @@ bool
 ShouldRollupOnMouseWheelEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1074,7 +1074,7 @@ bool
 ShouldConsumeOnMouseWheelEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1113,7 +1113,7 @@ bool
 ShouldRollupOnMouseActivate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1131,7 +1131,7 @@ nsIWidget
 *
 aWidgetChain
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -1143,7 +1143,7 @@ nsIWidget
 GetRollupWidget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1156,7 +1156,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RestoreState
@@ -1165,7 +1165,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

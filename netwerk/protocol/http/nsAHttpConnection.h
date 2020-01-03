@@ -1342,7 +1342,7 @@ bool
 *
 reset
 )
-MOZ_OVERRIDE
+override
 ;
 \
 void
@@ -1352,7 +1352,7 @@ nsAHttpTransaction
 *
 nsresult
 )
-MOZ_OVERRIDE
+override
 ;
 \
 nsresult
@@ -1370,28 +1370,28 @@ nsIAsyncOutputStream
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 \
 bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 bool
 IsReused
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 void
 DontReuse
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 nsresult
@@ -1402,7 +1402,7 @@ char
 *
 uint32_t
 )
-MOZ_OVERRIDE
+override
 ;
 \
 nsHttpConnection
@@ -1410,7 +1410,7 @@ nsHttpConnection
 TakeHttpConnection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 uint32_t
@@ -1419,7 +1419,7 @@ CancelPipeline
 nsresult
 originalReason
 )
-MOZ_OVERRIDE
+override
 ;
 \
 nsAHttpTransaction
@@ -1429,7 +1429,7 @@ Classifier
 Classification
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 /
@@ -1466,7 +1466,7 @@ nsHttpConnectionInfo
 result
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1513,7 +1513,7 @@ nsISupports
 result
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1555,7 +1555,7 @@ nsresult
 ResumeSend
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1588,7 +1588,7 @@ nsresult
 ResumeRecv
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1621,7 +1621,7 @@ nsresult
 ForceSend
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1654,7 +1654,7 @@ nsresult
 ForceRecv
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1689,7 +1689,7 @@ Transport
 (
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1722,7 +1722,7 @@ uint32_t
 Version
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1751,7 +1751,7 @@ bool
 IsProxyConnectInProgress
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1772,7 +1772,7 @@ bool
 LastTransactionExpectedNoContent
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1796,7 +1796,7 @@ bool
 val
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1824,7 +1824,7 @@ Classifier
 newclass
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1851,7 +1851,7 @@ int64_t
 BytesWritten
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1878,7 +1878,7 @@ nsIInterfaceRequestor
 aCallbacks
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \

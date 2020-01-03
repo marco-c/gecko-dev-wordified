@@ -562,7 +562,7 @@ JsonWebKey
 ;
 class
 CryptoKey
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -703,7 +703,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -988,7 +988,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 destructorSafeDestroyNSSReference

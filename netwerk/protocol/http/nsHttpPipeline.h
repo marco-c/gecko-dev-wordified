@@ -141,7 +141,7 @@ net
 {
 class
 nsHttpPipeline
-MOZ_FINAL
+final
 :
 public
 nsAHttpConnection
@@ -168,8 +168,8 @@ ResponseTimeoutEnabled
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 true
@@ -282,7 +282,7 @@ nsHttpPipeline
 QueryPipeline
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

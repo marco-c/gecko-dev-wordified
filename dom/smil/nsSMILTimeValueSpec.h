@@ -698,7 +698,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 nsReferencedElement
 :
@@ -724,7 +724,7 @@ bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -743,7 +743,7 @@ mReferencedElement
 ;
 class
 EventListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener

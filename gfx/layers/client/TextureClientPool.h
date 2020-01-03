@@ -157,7 +157,7 @@ ISurfaceAllocator
 ;
 class
 TextureClientPool
-MOZ_FINAL
+final
 {
 ~
 TextureClientPool

@@ -224,7 +224,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 }
@@ -277,7 +277,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -286,7 +286,7 @@ PTestMultiMgrsBottomParent
 AllocPTestMultiMgrsBottomParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -303,7 +303,7 @@ PTestMultiMgrsBottomParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -362,7 +362,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -371,7 +371,7 @@ PTestMultiMgrsBottomParent
 AllocPTestMultiMgrsBottomParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -388,7 +388,7 @@ PTestMultiMgrsBottomParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -451,7 +451,7 @@ bool
 RecvOK
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestMultiMgrsLeftParent
@@ -459,7 +459,7 @@ PTestMultiMgrsLeftParent
 AllocPTestMultiMgrsLeftParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -476,7 +476,7 @@ PTestMultiMgrsLeftParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -491,7 +491,7 @@ PTestMultiMgrsRightParent
 AllocPTestMultiMgrsRightParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -508,7 +508,7 @@ PTestMultiMgrsRightParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -524,7 +524,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -712,7 +712,7 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestMultiMgrsBottomChild
@@ -720,7 +720,7 @@ PTestMultiMgrsBottomChild
 AllocPTestMultiMgrsBottomChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -737,7 +737,7 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -797,7 +797,7 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestMultiMgrsBottomChild
@@ -805,7 +805,7 @@ PTestMultiMgrsBottomChild
 AllocPTestMultiMgrsBottomChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -822,7 +822,7 @@ PTestMultiMgrsBottomChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -873,7 +873,7 @@ bool
 RecvCheck
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestMultiMgrsLeftChild
@@ -881,7 +881,7 @@ PTestMultiMgrsLeftChild
 AllocPTestMultiMgrsLeftChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -898,7 +898,7 @@ PTestMultiMgrsLeftChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -913,7 +913,7 @@ PTestMultiMgrsRightChild
 AllocPTestMultiMgrsRightChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -930,7 +930,7 @@ PTestMultiMgrsRightChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -946,7 +946,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

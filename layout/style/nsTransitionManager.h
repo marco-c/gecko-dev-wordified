@@ -677,7 +677,7 @@ const
 ;
 class
 CSSTransitionPlayer
-MOZ_FINAL
+final
 :
 public
 dom
@@ -713,7 +713,7 @@ CSSTransitionPlayer
 AsCSSTransitionPlayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -728,14 +728,14 @@ PlayStateFromJS
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 PlayFromJS
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -794,7 +794,7 @@ GetAnimationManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -805,7 +805,7 @@ namespace
 mozilla
 class
 nsTransitionManager
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1090,7 +1090,7 @@ aMallocSizeOf
 )
 const
 MOZ_MUST_OVERRIDE
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -1104,7 +1104,7 @@ aMallocSizeOf
 )
 const
 MOZ_MUST_OVERRIDE
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1119,7 +1119,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 void
 FlushTransitions
@@ -1136,7 +1136,7 @@ nsIAtom
 GetAnimationsAtom
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -1151,7 +1151,7 @@ nsIAtom
 GetAnimationsBeforeAtom
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -1166,7 +1166,7 @@ nsIAtom
 GetAnimationsAfterAtom
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms

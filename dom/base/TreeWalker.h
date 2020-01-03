@@ -178,7 +178,7 @@ dom
 {
 class
 TreeWalker
-MOZ_FINAL
+final
 :
 public
 nsIDOMTreeWalker

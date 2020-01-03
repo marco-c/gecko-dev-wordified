@@ -181,7 +181,7 @@ WorkerThread
 ;
 class
 RuntimeService
-MOZ_FINAL
+final
 :
 public
 nsIObserver

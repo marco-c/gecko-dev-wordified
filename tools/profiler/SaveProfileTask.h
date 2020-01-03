@@ -234,7 +234,7 @@ Run
 ;
 class
 ProfileSaveEvent
-MOZ_FINAL
+final
 :
 public
 nsIProfileSaveEvent
@@ -285,7 +285,7 @@ char
 *
 aProfile
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

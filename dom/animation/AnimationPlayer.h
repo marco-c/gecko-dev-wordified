@@ -364,7 +364,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 CSSAnimationPlayer

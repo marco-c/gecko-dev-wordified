@@ -563,14 +563,14 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvNotifyCompositorTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -581,7 +581,7 @@ nsRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -997,7 +997,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -1024,7 +1024,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HitTest
@@ -1047,7 +1047,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

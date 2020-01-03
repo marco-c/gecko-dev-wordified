@@ -289,7 +289,7 @@ file
 /
 class
 nsJARInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

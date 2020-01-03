@@ -1060,7 +1060,7 @@ int32_t
 *
 h
 )
-MOZ_OVERRIDE
+override
 {
 *
 l
@@ -1110,7 +1110,7 @@ int32_t
 *
 h
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetRect
@@ -1138,7 +1138,7 @@ int32_t
 *
 h
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetRect
@@ -1166,7 +1166,7 @@ int32_t
 *
 h
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetAvailRect
@@ -1185,7 +1185,7 @@ uint32_t
 *
 aId
 )
-MOZ_OVERRIDE
+override
 {
 *
 aId
@@ -1207,7 +1207,7 @@ int32_t
 *
 aPixelDepth
 )
-MOZ_OVERRIDE
+override
 {
 *
 aPixelDepth
@@ -1225,7 +1225,7 @@ int32_t
 *
 aColorDepth
 )
-MOZ_OVERRIDE
+override
 {
 *
 aColorDepth
@@ -1242,7 +1242,7 @@ LockMinimumBrightness
 uint32_t
 aBrightness
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1254,7 +1254,7 @@ UnlockMinimumBrightness
 uint32_t
 aBrightness
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1267,7 +1267,7 @@ uint32_t
 *
 aRotation
 )
-MOZ_OVERRIDE
+override
 {
 *
 aRotation
@@ -1287,7 +1287,7 @@ SetRotation
 uint32_t
 aRotation
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1300,7 +1300,7 @@ double
 *
 aContentsScaleFactor
 )
-MOZ_OVERRIDE
+override
 {
 *
 aContentsScaleFactor
@@ -1367,13 +1367,13 @@ zNear
 double
 zFar
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 StartSensorTracking
 (
 )
-MOZ_OVERRIDE
+override
 ;
 VRHMDSensorState
 GetSensorState
@@ -1381,19 +1381,19 @@ GetSensorState
 double
 timeOffset
 )
-MOZ_OVERRIDE
+override
 ;
 void
 StopSensorTracking
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ZeroSensor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 FillDistortionConstants
@@ -1420,7 +1420,7 @@ VRDistortionConstants
 &
 values
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Destroy

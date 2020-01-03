@@ -167,7 +167,7 @@ h
 "
 class
 nsGTKRemoteService
-MOZ_FINAL
+final
 :
 public
 nsXRemoteService
@@ -263,7 +263,7 @@ aDesktopStartupID
 uint32_t
 aTimestamp
 )
-MOZ_OVERRIDE
+override
 ;
 nsInterfaceHashtable
 <

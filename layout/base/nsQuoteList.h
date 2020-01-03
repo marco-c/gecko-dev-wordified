@@ -255,7 +255,7 @@ nsIFrame
 *
 aTextFrame
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

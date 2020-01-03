@@ -1870,7 +1870,7 @@ change
 notification
 class
 PositionChangeEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

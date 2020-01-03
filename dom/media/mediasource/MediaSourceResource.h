@@ -225,7 +225,7 @@ mozilla
 {
 class
 MediaSourceResource
-MOZ_FINAL
+final
 :
 public
 MediaResource
@@ -253,7 +253,7 @@ nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -266,7 +266,7 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -278,7 +278,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -290,7 +290,7 @@ bool
 CanClone
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -311,7 +311,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -331,7 +331,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -345,7 +345,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -365,7 +365,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -390,7 +390,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -409,7 +409,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -424,7 +424,7 @@ int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -440,7 +440,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -452,7 +452,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -467,7 +467,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -487,7 +487,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -505,7 +505,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -523,7 +523,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -541,7 +541,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -556,7 +556,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -571,7 +571,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -593,7 +593,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -612,7 +612,7 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -630,7 +630,7 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsRefPtr
@@ -657,7 +657,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -685,7 +685,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -699,7 +699,7 @@ GetContentType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mType
@@ -715,7 +715,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 size
@@ -750,7 +750,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

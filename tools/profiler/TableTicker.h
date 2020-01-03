@@ -1002,7 +1002,7 @@ TickSample
 *
 sample
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1025,7 +1025,7 @@ SyncProfile
 GetBacktrace
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -1044,7 +1044,7 @@ void
 RequestSave
 (
 )
-MOZ_OVERRIDE
+override
 {
 mSaveRequested
 =
@@ -1077,14 +1077,14 @@ void
 HandleSaveRequest
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeleteExpiredMarkers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 ThreadProfile
 *
@@ -1270,7 +1270,7 @@ ProfileThreads
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mProfileThreads

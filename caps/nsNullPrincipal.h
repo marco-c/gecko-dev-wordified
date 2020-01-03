@@ -221,7 +221,7 @@ nullprincipal
 "
 class
 nsNullPrincipal
-MOZ_FINAL
+final
 :
 public
 nsJSPrincipals
@@ -330,7 +330,7 @@ nsACString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -349,7 +349,7 @@ void
 dumpImpl
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

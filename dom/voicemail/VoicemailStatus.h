@@ -167,7 +167,7 @@ dom
 {
 class
 VoicemailStatus
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -220,7 +220,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -266,7 +266,7 @@ private
 :
 /
 /
-MOZ_FINAL
+final
 suppresses
 -
 Werror

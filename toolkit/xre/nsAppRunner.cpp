@@ -6876,7 +6876,7 @@ object
 /
 class
 nsSingletonFactory
-MOZ_FINAL
+final
 :
 public
 nsIFactory

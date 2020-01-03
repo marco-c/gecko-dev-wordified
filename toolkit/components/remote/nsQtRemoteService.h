@@ -184,7 +184,7 @@ aDesktopStartupID
 uint32_t
 aTimestamp
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PropertyNotifyEvent

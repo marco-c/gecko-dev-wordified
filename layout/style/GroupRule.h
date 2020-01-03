@@ -257,7 +257,7 @@ CSSStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -283,7 +283,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -461,7 +461,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;

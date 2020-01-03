@@ -500,7 +500,7 @@ NS_OK
 }
 class
 CacheQuotaClient
-MOZ_FINAL
+final
 :
 public
 Client
@@ -512,7 +512,7 @@ Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 DOMCACHE
@@ -536,7 +536,7 @@ UsageInfo
 *
 aUsageInfo
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -560,7 +560,7 @@ UsageInfo
 *
 aUsageInfo
 )
-MOZ_OVERRIDE
+override
 {
 QuotaManager
 *
@@ -1019,7 +1019,7 @@ nsACString
 &
 aOrigin
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1032,7 +1032,7 @@ void
 ReleaseIOThreadObjects
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1045,7 +1045,7 @@ bool
 IsFileServiceUtilized
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1056,7 +1056,7 @@ bool
 IsTransactionServiceActivated
 (
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1088,7 +1088,7 @@ nsIRunnable
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1107,7 +1107,7 @@ void
 ShutdownTransactionService
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1149,7 +1149,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 CacheQuotaClient
-MOZ_OVERRIDE
+override
 )
 }
 ;

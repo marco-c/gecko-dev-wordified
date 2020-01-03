@@ -147,7 +147,7 @@ dom
 {
 class
 SVGRectElement
-MOZ_FINAL
+final
 :
 public
 SVGRectElementBase
@@ -189,7 +189,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -231,7 +231,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -254,7 +254,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -264,7 +264,7 @@ SimplePath
 *
 aSimplePath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -279,7 +279,7 @@ aBuilder
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -300,7 +300,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -360,7 +360,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

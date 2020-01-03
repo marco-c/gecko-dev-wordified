@@ -268,7 +268,7 @@ WorkerThreadFriendKey
 ;
 class
 WorkerThread
-MOZ_FINAL
+final
 :
 public
 nsThread
@@ -440,7 +440,7 @@ aRunnable
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

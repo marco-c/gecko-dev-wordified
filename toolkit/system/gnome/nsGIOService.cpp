@@ -184,7 +184,7 @@ h
 endif
 class
 nsGIOMimeApp
-MOZ_FINAL
+final
 :
 public
 nsIGIOMimeApp
@@ -442,7 +442,7 @@ NS_OK
 }
 class
 GIOUTF8StringEnumerator
-MOZ_FINAL
+final
 :
 public
 nsIUTF8StringEnumerator

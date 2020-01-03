@@ -183,7 +183,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 AudioTrack
 *
@@ -227,7 +227,7 @@ AudioTrackList
 AsAudioTrackList
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

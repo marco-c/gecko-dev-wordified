@@ -149,7 +149,7 @@ dom
 {
 class
 MobileCellInfo
-MOZ_FINAL
+final
 :
 public
 nsIMobileCellInfo
@@ -227,7 +227,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

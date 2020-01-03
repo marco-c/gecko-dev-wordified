@@ -746,7 +746,7 @@ nsrefcnt
 RefCnt
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRefCnt
@@ -759,7 +759,7 @@ int32_t
 ID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mID
@@ -833,7 +833,7 @@ nsrefcnt
 RefCnt
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRefCnt
@@ -846,7 +846,7 @@ int32_t
 ID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0

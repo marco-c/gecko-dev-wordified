@@ -279,7 +279,7 @@ MutationObservingInfo
 ;
 class
 nsDOMMutationRecord
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -372,7 +372,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -1821,7 +1821,7 @@ nsIAtom
 *
 aAttribute
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1914,7 +1914,7 @@ void
 AddMutationObserver
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRegisterTarget
 -
@@ -2057,7 +2057,7 @@ void
 AddMutationObserver
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRegisterTarget
 -
@@ -2118,7 +2118,7 @@ NS_DOM_MUTATION_OBSERVER_IID
 }
 class
 nsDOMMutationObserver
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -2237,7 +2237,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla

@@ -5235,7 +5235,7 @@ nsDirEnumerator
 -
 class
 nsDirEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

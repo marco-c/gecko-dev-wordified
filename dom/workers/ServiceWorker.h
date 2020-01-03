@@ -172,7 +172,7 @@ aObj
 ;
 class
 ServiceWorker
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -215,7 +215,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 ServiceWorkerState
 State

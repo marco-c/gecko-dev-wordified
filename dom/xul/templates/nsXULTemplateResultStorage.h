@@ -152,7 +152,7 @@ mozstorage
 /
 class
 nsXULTemplateResultStorage
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateResult

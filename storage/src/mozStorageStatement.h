@@ -203,7 +203,7 @@ Connection
 ;
 class
 Statement
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatement

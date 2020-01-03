@@ -328,7 +328,7 @@ namespace
 mozilla
 class
 nsIOService
-MOZ_FINAL
+final
 :
 public
 nsIIOService2
@@ -946,7 +946,7 @@ int32_t
 *
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 *
 aMode
@@ -964,7 +964,7 @@ uint32_t
 *
 aAppId
 )
-MOZ_OVERRIDE
+override
 {
 *
 aAppId

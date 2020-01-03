@@ -405,7 +405,7 @@ thread
 -
 class
 nsHttpConnection
-MOZ_FINAL
+final
 :
 public
 nsAHttpSegmentReader

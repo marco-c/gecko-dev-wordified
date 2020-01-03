@@ -192,7 +192,7 @@ css
 {
 class
 NameSpaceRule
-MOZ_FINAL
+final
 :
 public
 Rule
@@ -267,7 +267,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -281,7 +281,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -292,7 +292,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsIAtom
 *
@@ -330,7 +330,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 MOZ_MUST_OVERRIDE
 ;
 /

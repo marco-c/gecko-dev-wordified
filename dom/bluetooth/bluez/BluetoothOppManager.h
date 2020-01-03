@@ -394,7 +394,7 @@ UnixSocketRawData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -404,7 +404,7 @@ BluetoothSocket
 *
 aSocket
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -414,7 +414,7 @@ BluetoothSocket
 *
 aSocket
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -424,7 +424,7 @@ BluetoothSocket
 *
 aSocket
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

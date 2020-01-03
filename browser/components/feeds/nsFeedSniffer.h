@@ -125,7 +125,7 @@ h
 "
 class
 nsFeedSniffer
-MOZ_FINAL
+final
 :
 public
 nsIContentSniffer

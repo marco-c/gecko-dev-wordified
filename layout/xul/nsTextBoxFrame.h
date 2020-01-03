@@ -150,7 +150,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -160,7 +160,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -170,7 +170,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoLayout
@@ -179,14 +179,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 CroppingStyle
@@ -224,7 +224,7 @@ nsIFrame
 *
 asPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -234,7 +234,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -248,7 +248,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -262,7 +262,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -296,7 +296,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~
@@ -332,7 +332,7 @@ bool
 ComputesOwnOverflowArea
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetCroppedTitle
@@ -356,7 +356,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

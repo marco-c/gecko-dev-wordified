@@ -1407,7 +1407,7 @@ get
 }
 class
 FileWatcherNotifyRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

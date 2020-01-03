@@ -155,7 +155,7 @@ disable
 endif
 class
 nsHTMLTokenizer
-MOZ_FINAL
+final
 :
 public
 nsITokenizer

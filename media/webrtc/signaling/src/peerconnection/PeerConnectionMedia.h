@@ -874,7 +874,7 @@ string
 &
 track
 )
-MOZ_OVERRIDE
+override
 {
 mTrackIdMap
 .
@@ -2359,7 +2359,7 @@ proxyinfo
 nsresult
 result
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS
 private

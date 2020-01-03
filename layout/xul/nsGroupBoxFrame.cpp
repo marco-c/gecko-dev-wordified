@@ -198,7 +198,7 @@ nsMargin
 &
 aBorderAndPadding
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -216,7 +216,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -230,7 +230,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -252,7 +252,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -322,7 +322,7 @@ bool
 &
 aHorizontal
 )
-MOZ_OVERRIDE
+override
 {
 aHorizontal
 =
@@ -337,7 +337,7 @@ Halignment
 &
 aHalign
 )
-MOZ_OVERRIDE
+override
 {
 aHalign
 =
@@ -355,7 +355,7 @@ Valignment
 &
 aValign
 )
-MOZ_OVERRIDE
+override
 {
 aValign
 =
@@ -373,7 +373,7 @@ bool
 &
 aStretch
 )
-MOZ_OVERRIDE
+override
 {
 aStretch
 =
@@ -571,7 +571,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 {
 aOutFrames
 -
@@ -593,7 +593,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

@@ -291,7 +291,7 @@ style
 /
 class
 nsROCSSPrimitiveValue
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -343,8 +343,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -361,8 +361,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 uint16_t
@@ -370,8 +370,8 @@ CssValueType
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 /
 /
@@ -747,7 +747,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -277,7 +277,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBits
 .

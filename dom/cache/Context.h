@@ -386,7 +386,7 @@ cpp
 .
 class
 Context
-MOZ_FINAL
+final
 {
 public
 :

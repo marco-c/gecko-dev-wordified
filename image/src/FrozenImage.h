@@ -268,14 +268,14 @@ void
 IncrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DecrementAnimationConsumers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAnimated
@@ -284,7 +284,7 @@ bool
 *
 aAnimated
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -300,7 +300,7 @@ aWhichFrame
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -323,7 +323,7 @@ aManager
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -356,7 +356,7 @@ aSVGContext
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -369,7 +369,7 @@ TimeStamp
 &
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAnimationMode
@@ -378,7 +378,7 @@ uint16_t
 *
 aAnimationMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetAnimationMode
@@ -386,13 +386,13 @@ SetAnimationMode
 uint16_t
 aAnimationMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ResetAnimation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -403,7 +403,7 @@ GetFrameIndex
 uint32_t
 aWhichFrame
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

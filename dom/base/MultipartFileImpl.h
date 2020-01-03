@@ -177,7 +177,7 @@ dom
 ;
 class
 MultipartFileImpl
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -438,7 +438,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -448,7 +448,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLength
@@ -463,7 +463,7 @@ nsIInputStream
 *
 aInputStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -479,7 +479,7 @@ GetSubBlobImpls
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 &
@@ -497,7 +497,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -506,7 +506,7 @@ SetMutable
 bool
 aMutable
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetName
@@ -540,7 +540,7 @@ MayBeClonedToOtherThreads
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -334,7 +334,7 @@ int
 GetPinCount
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -350,7 +350,7 @@ GetPin
 int
 n
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

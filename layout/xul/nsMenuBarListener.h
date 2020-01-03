@@ -158,7 +158,7 @@ interface
 /
 class
 nsMenuBarListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -193,7 +193,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 KeyUp

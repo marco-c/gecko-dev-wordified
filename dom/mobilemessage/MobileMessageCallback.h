@@ -134,7 +134,7 @@ mobilemessage
 {
 class
 MobileMessageCallback
-MOZ_FINAL
+final
 :
 public
 nsIMobileMessageCallback

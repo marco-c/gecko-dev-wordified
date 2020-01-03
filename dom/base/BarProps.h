@@ -257,7 +257,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -338,7 +338,7 @@ menubar
 object
 class
 MenubarProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -367,7 +367,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -379,7 +379,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -392,7 +392,7 @@ toolbar
 object
 class
 ToolbarProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -421,7 +421,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -433,7 +433,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -446,7 +446,7 @@ locationbar
 object
 class
 LocationbarProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -475,7 +475,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -487,7 +487,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -500,7 +500,7 @@ personalbar
 object
 class
 PersonalbarProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -529,7 +529,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -541,7 +541,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -554,7 +554,7 @@ statusbar
 object
 class
 StatusbarProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -583,7 +583,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -595,7 +595,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -608,7 +608,7 @@ scrollbars
 object
 class
 ScrollbarsProp
-MOZ_FINAL
+final
 :
 public
 BarProp
@@ -637,7 +637,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -649,7 +649,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

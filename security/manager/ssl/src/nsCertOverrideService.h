@@ -354,7 +354,7 @@ entry
 class
 class
 nsCertOverrideEntry
-MOZ_FINAL
+final
 :
 public
 PLDHashEntryHdr
@@ -569,7 +569,7 @@ mHostWithPort
 ;
 class
 nsCertOverrideService
-MOZ_FINAL
+final
 :
 public
 nsICertOverrideService

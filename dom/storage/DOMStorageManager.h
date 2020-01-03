@@ -314,7 +314,7 @@ nsACString
 &
 aScopePrefix
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -743,7 +743,7 @@ both
 .
 class
 DOMLocalStorageManager
-MOZ_FINAL
+final
 :
 public
 DOMStorageManager
@@ -790,7 +790,7 @@ sSelf
 ;
 class
 DOMSessionStorageManager
-MOZ_FINAL
+final
 :
 public
 DOMStorageManager

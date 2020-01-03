@@ -542,7 +542,7 @@ aRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -551,7 +551,7 @@ OnLoadComplete
 bool
 aLastPart
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -563,14 +563,14 @@ void
 BlockOnload
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 UnblockOnload
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -585,14 +585,14 @@ void
 SetHasImage
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnStartDecode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -623,7 +623,7 @@ NotificationsDeferred
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mDeferNotifications
@@ -636,7 +636,7 @@ SetNotificationsDeferred
 bool
 aDeferNotifications
 )
-MOZ_OVERRIDE
+override
 {
 mDeferNotifications
 =
@@ -776,7 +776,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mOwner
 -
@@ -1167,7 +1167,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 using
 imgRequestProxy
@@ -1187,7 +1187,7 @@ imgRequestProxy
 *
 aClone
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

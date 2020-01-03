@@ -122,7 +122,7 @@ h
 "
 class
 nsGeoGridFuzzer
-MOZ_FINAL
+final
 {
 public
 :

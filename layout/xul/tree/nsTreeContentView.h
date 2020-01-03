@@ -188,7 +188,7 @@ aResult
 ;
 class
 nsTreeContentView
-MOZ_FINAL
+final
 :
 public
 nsINativeTreeView
@@ -224,7 +224,7 @@ NS_IMETHOD
 EnsureNative
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

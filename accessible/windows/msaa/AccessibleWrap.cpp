@@ -3689,7 +3689,7 @@ objects
 /
 class
 AccessibleEnumerator
-MOZ_FINAL
+final
 :
 public
 IEnumVARIANT

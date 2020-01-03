@@ -165,7 +165,7 @@ dom
 {
 class
 VideoDocument
-MOZ_FINAL
+final
 :
 public
 MediaDocument

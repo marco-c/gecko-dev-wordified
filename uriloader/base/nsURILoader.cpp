@@ -530,7 +530,7 @@ aborted
 /
 class
 nsDocumentOpenInfo
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

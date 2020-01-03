@@ -189,7 +189,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_OPUS
@@ -222,7 +222,7 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetEncodedTrack
@@ -231,7 +231,7 @@ EncodedFrameContainer
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -239,7 +239,7 @@ int
 GetPacketDuration
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Init
@@ -249,7 +249,7 @@ aChannels
 int
 aSamplingRate
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

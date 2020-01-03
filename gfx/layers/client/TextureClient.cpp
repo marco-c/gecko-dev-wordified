@@ -638,7 +638,7 @@ it
 /
 class
 TextureChild
-MOZ_FINAL
+final
 :
 public
 PTextureChild
@@ -677,13 +677,13 @@ bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvCompositorRecycle
 (
 )
-MOZ_OVERRIDE
+override
 {
 RECYCLE_LOG
 (
@@ -773,7 +773,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IPCOpen

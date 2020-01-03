@@ -93,7 +93,7 @@ nsIHttpChannelInternal
 ;
 class
 nsChannelClassifier
-MOZ_FINAL
+final
 :
 public
 nsIURIClassifierCallback

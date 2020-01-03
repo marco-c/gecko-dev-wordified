@@ -206,7 +206,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Merge
@@ -218,7 +218,7 @@ bool
 *
 aDidMerge
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

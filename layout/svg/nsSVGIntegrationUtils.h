@@ -206,7 +206,7 @@ testing
 /
 class
 nsSVGIntegrationUtils
-MOZ_FINAL
+final
 {
 typedef
 mozilla

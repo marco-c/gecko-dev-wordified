@@ -140,7 +140,7 @@ aURI
 ;
 class
 AddonPathService
-MOZ_FINAL
+final
 :
 public
 amIAddonPathService

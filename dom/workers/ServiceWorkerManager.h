@@ -365,7 +365,7 @@ aStatus
 ;
 class
 ServiceWorkerJobQueue
-MOZ_FINAL
+final
 {
 friend
 class
@@ -607,7 +607,7 @@ classes
 .
 class
 ServiceWorkerRegistrationInfo
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -901,7 +901,7 @@ required
 /
 class
 ServiceWorkerInfo
-MOZ_FINAL
+final
 {
 private
 :
@@ -1195,7 +1195,7 @@ process
 /
 class
 ServiceWorkerManager
-MOZ_FINAL
+final
 :
 public
 nsIServiceWorkerManager

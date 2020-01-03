@@ -210,14 +210,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -247,8 +247,8 @@ NumberOfInputs
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 0
@@ -427,7 +427,7 @@ void
 NotifyMainThreadStateChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -437,7 +437,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -453,7 +453,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -463,7 +463,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

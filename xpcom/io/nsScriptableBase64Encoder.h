@@ -171,7 +171,7 @@ scriptablebase64encoder
 "
 class
 nsScriptableBase64Encoder
-MOZ_FINAL
+final
 :
 public
 nsIScriptableBase64Encoder

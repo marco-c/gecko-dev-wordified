@@ -114,7 +114,7 @@ dom
 {
 class
 HTMLShadowElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -176,7 +176,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -194,7 +194,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -209,7 +209,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsInsertionPoint
@@ -393,7 +393,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

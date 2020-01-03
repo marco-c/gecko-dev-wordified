@@ -152,7 +152,7 @@ relation
 /
 class
 nsAccessibleRelation
-MOZ_FINAL
+final
 :
 public
 nsIAccessibleRelation

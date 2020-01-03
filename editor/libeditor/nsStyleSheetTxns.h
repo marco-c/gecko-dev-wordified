@@ -250,7 +250,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_EDITTXN
 protected
@@ -351,7 +351,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_EDITTXN
 protected

@@ -145,7 +145,7 @@ NS_CONVERTEROUTPUTSTREAM_CID
 }
 class
 nsConverterOutputStream
-MOZ_FINAL
+final
 :
 public
 nsIConverterOutputStream

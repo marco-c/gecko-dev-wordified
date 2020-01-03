@@ -198,7 +198,7 @@ TimeStamp
 }
 class
 TimerThread
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

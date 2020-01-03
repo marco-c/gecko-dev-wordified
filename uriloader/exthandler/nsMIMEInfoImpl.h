@@ -306,7 +306,7 @@ nsIUTF8StringEnumerator
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetFileExtensions
@@ -316,7 +316,7 @@ nsACString
 &
 aExtensions
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ExtensionExists
@@ -329,7 +329,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendExtension
@@ -339,7 +339,7 @@ nsACString
 &
 aExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPrimaryExtension
@@ -348,7 +348,7 @@ nsACString
 &
 aPrimaryExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPrimaryExtension
@@ -358,7 +358,7 @@ nsACString
 &
 aPrimaryExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetType
@@ -367,7 +367,7 @@ nsACString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetMIMEType
@@ -376,7 +376,7 @@ nsACString
 &
 aMIMEType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDescription
@@ -385,7 +385,7 @@ nsAString
 &
 aDescription
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDescription
@@ -395,7 +395,7 @@ nsAString
 &
 aDescription
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Equals
@@ -407,7 +407,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPreferredApplicationHandler
@@ -417,7 +417,7 @@ nsIHandlerApp
 *
 aPreferredAppHandler
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPreferredApplicationHandler
@@ -426,7 +426,7 @@ nsIHandlerApp
 *
 aPreferredAppHandler
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPossibleApplicationHandlers
@@ -436,7 +436,7 @@ nsIMutableArray
 *
 aPossibleAppHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDefaultDescription
@@ -445,7 +445,7 @@ nsAString
 &
 aDefaultDescription
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LaunchWithFile
@@ -454,7 +454,7 @@ nsIFile
 *
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LaunchWithURI
@@ -466,7 +466,7 @@ nsIInterfaceRequestor
 *
 aWindowContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPreferredAction
@@ -475,7 +475,7 @@ nsHandlerInfoAction
 *
 aPreferredAction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPreferredAction
@@ -483,7 +483,7 @@ SetPreferredAction
 nsHandlerInfoAction
 aPreferredAction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAlwaysAskBeforeHandling
@@ -492,7 +492,7 @@ bool
 *
 aAlwaysAskBeforeHandling
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetAlwaysAskBeforeHandling
@@ -500,7 +500,7 @@ SetAlwaysAskBeforeHandling
 bool
 aAlwaysAskBeforeHandling
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPossibleLocalHandlers
@@ -510,7 +510,7 @@ nsIArray
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 HandlerClass

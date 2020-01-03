@@ -227,7 +227,7 @@ aDoc
 bool
 aFromStartofDoc
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NextMisspelledWord
@@ -242,7 +242,7 @@ nsString
 *
 aSuggestions
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckWord
@@ -261,7 +261,7 @@ nsString
 *
 aSuggestions
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Replace
@@ -277,7 +277,7 @@ aNewWord
 bool
 aAllOccurrences
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IgnoreAll
@@ -287,7 +287,7 @@ nsAString
 &
 aWord
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddWordToPersonalDictionary
@@ -297,7 +297,7 @@ nsAString
 &
 aWord
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RemoveWordFromPersonalDictionary
@@ -307,7 +307,7 @@ nsAString
 &
 aWord
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPersonalDictionary
@@ -319,7 +319,7 @@ nsString
 *
 aWordList
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDictionaryList
@@ -331,7 +331,7 @@ nsString
 *
 aDictionaryList
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCurrentDictionary
@@ -340,7 +340,7 @@ nsAString
 &
 aDictionary
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCurrentDictionary
@@ -350,13 +350,13 @@ nsAString
 &
 aDictionary
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckCurrentDictionary
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DeleteRemoteEngine

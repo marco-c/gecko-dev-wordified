@@ -160,7 +160,7 @@ dom
 {
 class
 TVSourceListener
-MOZ_FINAL
+final
 :
 public
 nsITVSourceListener

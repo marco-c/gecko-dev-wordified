@@ -328,7 +328,7 @@ ActorDestroy
 (
 ActorDestroyReason
 )
-MOZ_OVERRIDE
+override
 {
 DestroyAsyncTransactionTrackersHolder
 (

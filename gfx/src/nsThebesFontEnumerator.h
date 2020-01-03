@@ -111,7 +111,7 @@ h
 /
 /
 for
-MOZ_FINAL
+final
 #
 include
 "
@@ -137,7 +137,7 @@ for
 NS_DECL_ISUPPORTS
 class
 nsThebesFontEnumerator
-MOZ_FINAL
+final
 :
 public
 nsIFontEnumerator

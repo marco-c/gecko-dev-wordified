@@ -131,7 +131,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -860,7 +860,7 @@ AsyncID
 /
 class
 ImageBridgeChild
-MOZ_FINAL
+final
 :
 public
 PImageBridgeChild
@@ -1173,7 +1173,7 @@ GetMessageLoop
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 PCompositableChild
 *
@@ -1187,7 +1187,7 @@ uint64_t
 *
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DeallocPCompositableChild
@@ -1196,7 +1196,7 @@ PCompositableChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1240,7 +1240,7 @@ TextureFlags
 &
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1250,7 +1250,7 @@ PTextureChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1264,7 +1264,7 @@ AsyncParentMessageData
 &
 aMessages
 )
-MOZ_OVERRIDE
+override
 ;
 TemporaryRef
 <
@@ -1354,7 +1354,7 @@ CompositableClient
 *
 aCompositable
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1381,7 +1381,7 @@ nsIntRegion
 *
 aRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1389,7 +1389,7 @@ IsImageBridgeChild
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1417,7 +1417,7 @@ TextureClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1433,7 +1433,7 @@ TextureClient
 *
 aClientOnWhite
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1450,7 +1450,7 @@ OverlaySource
 &
 aOverlay
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1469,7 +1469,7 @@ FenceHandle
 &
 aFence
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1482,7 +1482,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1498,7 +1498,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1508,7 +1508,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1522,7 +1522,7 @@ SurfaceDescriptorTiles
 &
 aTileLayerDescriptor
 )
-MOZ_OVERRIDE
+override
 {
 NS_RUNTIMEABORT
 (
@@ -1566,7 +1566,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1584,7 +1584,7 @@ nsIntRegion
 &
 aUpdatedRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_RUNTIMEABORT
 (
@@ -1664,7 +1664,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1730,7 +1730,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -1783,7 +1783,7 @@ Shmem
 &
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTextureChild
@@ -1797,7 +1797,7 @@ aSharedData
 TextureFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1805,14 +1805,14 @@ IsSameProcess
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 SendPendingAsyncMessges
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MarkShutDown

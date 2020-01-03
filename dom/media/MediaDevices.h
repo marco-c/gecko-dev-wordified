@@ -139,7 +139,7 @@ MOZILLA_DOM_MEDIADEVICES_IMPLEMENTATION_IID
 }
 class
 MediaDevices
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -182,7 +182,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

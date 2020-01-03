@@ -351,7 +351,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -375,7 +375,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -392,7 +392,7 @@ Layer
 AsLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -407,7 +407,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 mInvalidRegion
 .
@@ -453,7 +453,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ShadowableLayer
@@ -461,7 +461,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -472,7 +472,7 @@ void
 Disconnect
 (
 )
-MOZ_OVERRIDE
+override
 {
 ClientLayer
 :
@@ -487,14 +487,14 @@ void
 RenderLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *

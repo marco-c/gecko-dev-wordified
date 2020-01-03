@@ -310,7 +310,7 @@ Type
 (
 )
 const
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -327,7 +327,7 @@ DOMSVGPathSeg
 Clone
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -387,7 +387,7 @@ float
 PtrToMemberArgs
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -417,7 +417,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1170,7 +1170,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

@@ -171,7 +171,7 @@ aContext
 ;
 class
 nsRubyBaseFrame
-MOZ_FINAL
+final
 :
 public
 nsRubyBaseFrameSuper
@@ -195,7 +195,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -209,7 +209,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

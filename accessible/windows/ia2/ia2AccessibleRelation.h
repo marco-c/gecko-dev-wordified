@@ -156,7 +156,7 @@ a11y
 {
 class
 ia2AccessibleRelation
-MOZ_FINAL
+final
 :
 public
 IAccessibleRelation

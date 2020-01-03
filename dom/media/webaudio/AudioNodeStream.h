@@ -508,7 +508,7 @@ AudioNodeStream
 AsAudioNodeStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -553,7 +553,7 @@ aTo
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -641,7 +641,7 @@ MainThreadNeedsUpdates
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -687,7 +687,7 @@ IsIntrinsicallyConsumed
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -825,7 +825,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -834,7 +834,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SizeOfAudioNodesIncludingThis

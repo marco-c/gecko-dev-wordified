@@ -719,7 +719,7 @@ opreation
 .
 class
 ReadRequest
-MOZ_FINAL
+final
 :
 public
 IUnknown
@@ -896,7 +896,7 @@ E_NOINTERFACE
 }
 class
 ProcessReadRequestEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

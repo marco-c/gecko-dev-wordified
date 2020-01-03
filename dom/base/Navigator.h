@@ -603,7 +603,7 @@ namespace
 system
 class
 Navigator
-MOZ_FINAL
+final
 :
 public
 nsIDOMNavigator
@@ -1805,7 +1805,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

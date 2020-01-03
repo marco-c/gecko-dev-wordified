@@ -141,7 +141,7 @@ EventTarget
 ;
 class
 Touch
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -257,7 +257,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 EventTarget
 *

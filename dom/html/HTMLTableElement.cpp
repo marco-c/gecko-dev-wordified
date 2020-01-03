@@ -304,7 +304,7 @@ GetElementAt
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -312,7 +312,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mParent
@@ -331,7 +331,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -346,7 +346,7 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ParentDestroyed
@@ -384,7 +384,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -400,7 +400,7 @@ JSObject
 GetWrapperPreserveColorInternal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsWrapperCache

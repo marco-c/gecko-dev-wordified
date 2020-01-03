@@ -625,7 +625,7 @@ ID2D1Effect
 InputEffect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -700,7 +700,7 @@ ID2D1Effect
 InputEffect
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mExtendInputEffect
@@ -716,7 +716,7 @@ ID2D1Effect
 OutputEffect
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mWrappedFilterNode
@@ -773,7 +773,7 @@ ID2D1Effect
 InputEffect
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPrePremultiplyEffect
@@ -789,7 +789,7 @@ ID2D1Effect
 OutputEffect
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPostUnpremultiplyEffect

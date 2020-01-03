@@ -227,7 +227,7 @@ PrefSetting
 }
 class
 Preferences
-MOZ_FINAL
+final
 :
 public
 nsIPrefService

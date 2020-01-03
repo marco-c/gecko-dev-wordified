@@ -789,7 +789,7 @@ nsISupports
 *
 aNative
 )
-MOZ_OVERRIDE
+override
 {
 }
 static
@@ -1091,7 +1091,7 @@ JSObject
 *
 parentObj
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddProperty
@@ -1117,7 +1117,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1127,7 +1127,7 @@ nsISupports
 *
 aNative
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsIClassInfo
@@ -1393,7 +1393,7 @@ JSObject
 *
 parentObj
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PostCreatePrototype
@@ -1405,7 +1405,7 @@ JSObject
 *
 proto
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -1432,7 +1432,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Call
@@ -1457,7 +1457,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Construct
@@ -1482,7 +1482,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HasInstance
@@ -1514,7 +1514,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsIClassInfo
@@ -1574,7 +1574,7 @@ uint32_t
 *
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsIClassInfo
@@ -1653,7 +1653,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Enumerate
@@ -1671,7 +1671,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsIClassInfo

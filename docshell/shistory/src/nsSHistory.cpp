@@ -1160,7 +1160,7 @@ nsSHistoryObserver
 *
 class
 nsSHistoryObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

@@ -186,7 +186,7 @@ b85f
 }
 class
 nsStructuredCloneContainer
-MOZ_FINAL
+final
 :
 public
 nsIStructuredCloneContainer

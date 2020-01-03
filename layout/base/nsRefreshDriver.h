@@ -454,7 +454,7 @@ DidRefresh
 ;
 class
 nsRefreshDriver
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1804,7 +1804,7 @@ uint64_t
 GetTransactionId
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyTransactionCompleted
@@ -1812,7 +1812,7 @@ NotifyTransactionCompleted
 uint64_t
 aTransactionId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RevokeTransactionId
@@ -1820,7 +1820,7 @@ RevokeTransactionId
 uint64_t
 aTransactionId
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -1829,7 +1829,7 @@ TimeStamp
 GetTransactionStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsWaitingForPaint
@@ -1852,7 +1852,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 TransactionIdAllocator
@@ -1871,7 +1871,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 TransactionIdAllocator
@@ -1892,7 +1892,7 @@ mozilla
 TimeStamp
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

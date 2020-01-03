@@ -147,7 +147,7 @@ SVGSwitchElementBase
 ;
 class
 SVGSwitchElement
-MOZ_FINAL
+final
 :
 public
 SVGSwitchElementBase
@@ -225,7 +225,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -270,7 +270,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -281,7 +281,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -298,7 +298,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -319,7 +319,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

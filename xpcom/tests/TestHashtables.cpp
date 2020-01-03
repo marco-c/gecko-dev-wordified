@@ -1208,7 +1208,7 @@ NS_IFOO_IID
 }
 class
 IFoo
-MOZ_FINAL
+final
 :
 public
 nsISupports

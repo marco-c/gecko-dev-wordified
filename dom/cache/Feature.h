@@ -162,7 +162,7 @@ ActorChild
 ;
 class
 Feature
-MOZ_FINAL
+final
 :
 public
 workers
@@ -226,7 +226,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

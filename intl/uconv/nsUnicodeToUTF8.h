@@ -301,7 +301,7 @@ CATA
 /
 class
 nsUnicodeToUTF8
-MOZ_FINAL
+final
 :
 public
 nsIUnicodeEncoder
@@ -350,7 +350,7 @@ int32_t
 *
 aDestLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Finish
@@ -362,7 +362,7 @@ int32_t
 *
 aDestLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetMaxLength
@@ -377,13 +377,13 @@ int32_t
 *
 aDestLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHighSurrogate
 =
@@ -404,7 +404,7 @@ aEncoder
 char16_t
 aChar
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

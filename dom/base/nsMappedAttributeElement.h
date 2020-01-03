@@ -247,7 +247,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -266,7 +266,7 @@ nsresult
 *
 aRetval
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

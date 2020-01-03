@@ -322,7 +322,7 @@ nsBoxLayout
 *
 aLayout
 )
-MOZ_OVERRIDE
+override
 {
 mLayoutManager
 =
@@ -335,7 +335,7 @@ nsBoxLayout
 GetLayoutManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLayoutManager
@@ -352,7 +352,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -362,7 +362,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -372,7 +372,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -382,7 +382,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -392,7 +392,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -402,7 +402,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -417,7 +417,7 @@ aBoxLayoutState
 bool
 aDebug
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -427,7 +427,7 @@ bool
 &
 aDebug
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -437,7 +437,7 @@ GetVAlign
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mValign
@@ -449,7 +449,7 @@ GetHAlign
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHalign
@@ -462,14 +462,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -519,7 +519,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -533,14 +533,14 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -550,7 +550,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -560,7 +560,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -580,7 +580,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -592,7 +592,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -604,7 +604,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -619,7 +619,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -631,7 +631,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -639,7 +639,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -649,7 +649,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -658,7 +658,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -668,7 +668,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -835,7 +835,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -853,14 +853,14 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 HonorPrintBackgroundSettings
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~
@@ -932,7 +932,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1082,7 +1082,7 @@ nsAutoString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintXULDebugBackground
@@ -1168,7 +1168,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 nsSize
 mPrefSize

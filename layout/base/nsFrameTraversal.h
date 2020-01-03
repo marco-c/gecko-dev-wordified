@@ -185,7 +185,7 @@ aLockInScrollView
 bool
 aFollowOOFs
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

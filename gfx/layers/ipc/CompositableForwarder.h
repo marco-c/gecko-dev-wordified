@@ -151,7 +151,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -990,7 +990,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTextureFactoryIdentifier
@@ -1003,7 +1003,7 @@ IsOnCompositorSide
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1064,7 +1064,7 @@ GetCompositorBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTextureFactoryIdentifier

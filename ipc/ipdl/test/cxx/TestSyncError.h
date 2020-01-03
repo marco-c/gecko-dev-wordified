@@ -94,7 +94,7 @@ bool
 RecvError
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -107,7 +107,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -121,7 +121,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -178,7 +178,7 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -191,7 +191,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -205,7 +205,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -144,7 +144,7 @@ SVGTextElementBase
 ;
 class
 SVGTextElement
-MOZ_FINAL
+final
 :
 public
 SVGTextElementBase
@@ -186,7 +186,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -233,7 +233,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -254,7 +254,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -263,14 +263,14 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGEnum
 mEnumAttributes
@@ -284,7 +284,7 @@ nsSVGEnum
 EnumAttributes
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mEnumAttributes
@@ -302,7 +302,7 @@ nsSVGLength2
 LengthAttributes
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mLengthAttributes

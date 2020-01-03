@@ -214,7 +214,7 @@ options
 .
 class
 nsJPEGEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

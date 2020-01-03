@@ -1431,7 +1431,7 @@ alive
 .
 class
 WindowlessBrowserStub
-MOZ_FINAL
+final
 :
 public
 nsIWebNavigation

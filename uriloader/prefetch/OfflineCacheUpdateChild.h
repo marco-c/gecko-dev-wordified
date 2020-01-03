@@ -204,7 +204,7 @@ uint64_t
 &
 byteProgress
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -219,7 +219,7 @@ nsCString
 &
 cacheClientId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -234,7 +234,7 @@ bool
 &
 isUpgrade
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 OfflineCacheUpdateChild

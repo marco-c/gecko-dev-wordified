@@ -779,7 +779,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -848,7 +848,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFiles
@@ -1211,7 +1211,7 @@ uint8_t
 &
 aOutBytes
 )
-MOZ_OVERRIDE
+override
 {
 /
 /
@@ -1464,7 +1464,7 @@ uint8_t
 &
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 PRFileDesc
 *
@@ -1710,7 +1710,7 @@ nsCString
 &
 aOutRecordNames
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -2046,7 +2046,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 PRFileDesc
 *
@@ -2133,7 +2133,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2199,7 +2199,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 Record
 *
@@ -2246,7 +2246,7 @@ uint8_t
 &
 aOutBytes
 )
-MOZ_OVERRIDE
+override
 {
 Record
 *
@@ -2298,7 +2298,7 @@ uint8_t
 &
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 Record
 *
@@ -2345,7 +2345,7 @@ nsCString
 &
 aOutRecordNames
 )
-MOZ_OVERRIDE
+override
 {
 mRecords
 .
@@ -2369,7 +2369,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 {
 Record
 *

@@ -180,7 +180,7 @@ reuse
 /
 class
 RtspMediaCodecReader
-MOZ_FINAL
+final
 :
 public
 MediaCodecReader
@@ -199,7 +199,7 @@ bool
 CreateExtractor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -259,7 +259,7 @@ aTime
 int64_t
 aEndTime
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -410,7 +410,7 @@ TimeRanges
 *
 aBuffered
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -421,7 +421,7 @@ void
 SetIdle
 (
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -445,7 +445,7 @@ aSkipToNextKeyframe
 int64_t
 aTimeThreshold
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -465,7 +465,7 @@ AudioDataPromise
 RequestAudioData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -479,7 +479,7 @@ MetadataTags
 *
 aTags
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

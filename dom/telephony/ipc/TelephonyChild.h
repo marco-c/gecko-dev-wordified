@@ -187,7 +187,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTelephonyRequestChild
@@ -199,7 +199,7 @@ IPCTelephonyRequest
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -209,7 +209,7 @@ PTelephonyRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -228,7 +228,7 @@ nsString
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -240,7 +240,7 @@ const
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -255,7 +255,7 @@ IPCCdmaWaitingCallData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -266,7 +266,7 @@ uint16_t
 &
 aCallState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -281,7 +281,7 @@ nsString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -300,7 +300,7 @@ uint16_t
 &
 aNotification
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -346,7 +346,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -357,7 +357,7 @@ IPCTelephonyResponse
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -369,7 +369,7 @@ const
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -380,7 +380,7 @@ nsString
 &
 aServiceCode
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

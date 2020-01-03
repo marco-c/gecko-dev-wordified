@@ -363,7 +363,7 @@ UA
 /
 class
 MediaRecorder
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -418,7 +418,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *

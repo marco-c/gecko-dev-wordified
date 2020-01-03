@@ -1076,7 +1076,7 @@ BluetoothHfpManager
 :
 :
 GetVolumeTask
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback
@@ -1419,7 +1419,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1498,7 +1498,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1681,7 +1681,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

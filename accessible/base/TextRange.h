@@ -193,7 +193,7 @@ range
 /
 struct
 TextPoint
-MOZ_FINAL
+final
 {
 TextPoint
 (
@@ -304,7 +304,7 @@ document
 /
 class
 TextRange
-MOZ_FINAL
+final
 {
 public
 :

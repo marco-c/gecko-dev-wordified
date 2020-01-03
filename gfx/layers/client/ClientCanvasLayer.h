@@ -159,7 +159,7 @@ h
 /
 /
 for
-MOZ_OVERRIDE
+override
 #
 include
 "
@@ -333,7 +333,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -374,21 +374,21 @@ Data
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 RenderLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -412,7 +412,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
-MOZ_OVERRIDE
+override
 {
 aAttrs
 =
@@ -429,7 +429,7 @@ Layer
 AsLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -441,7 +441,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -452,7 +452,7 @@ void
 Disconnect
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCanvasClient
 =
@@ -472,7 +472,7 @@ CompositableClient
 GetCompositableClient
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCanvasClient

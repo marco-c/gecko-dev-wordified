@@ -141,7 +141,7 @@ dom
 {
 class
 HTMLTemplateElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -193,7 +193,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 DocumentFragment
 *
@@ -231,7 +231,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

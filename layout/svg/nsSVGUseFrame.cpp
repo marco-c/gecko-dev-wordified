@@ -218,7 +218,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -232,7 +232,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -242,7 +242,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 /
 *
@@ -272,7 +272,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -280,7 +280,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -294,7 +294,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -321,7 +321,7 @@ void
 ReflowSVG
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -330,7 +330,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /
@@ -346,7 +346,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -362,7 +362,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

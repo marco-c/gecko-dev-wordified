@@ -145,7 +145,7 @@ h
 "
 class
 xpcJSWeakReference
-MOZ_FINAL
+final
 :
 public
 xpcIJSWeakReference

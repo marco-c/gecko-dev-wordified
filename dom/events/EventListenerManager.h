@@ -674,7 +674,7 @@ manager
 /
 class
 EventListenerManager
-MOZ_FINAL
+final
 {
 ~
 EventListenerManager

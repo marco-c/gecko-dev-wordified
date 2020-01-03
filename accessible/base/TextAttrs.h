@@ -752,7 +752,7 @@ aAttributes
 bool
 aIncludeDefAttrValue
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -818,7 +818,7 @@ Accessible
 *
 aAccessible
 )
-MOZ_OVERRIDE
+override
 {
 T
 nativeValue
@@ -1079,7 +1079,7 @@ nsString
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1093,7 +1093,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1217,7 +1217,7 @@ uint32_t
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1231,7 +1231,7 @@ uint32_t
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1317,7 +1317,7 @@ nscolor
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1331,7 +1331,7 @@ nscolor
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1415,7 +1415,7 @@ nscolor
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1429,7 +1429,7 @@ nscolor
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1498,7 +1498,7 @@ nsString
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1512,7 +1512,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1594,7 +1594,7 @@ nscoord
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1608,7 +1608,7 @@ nscoord
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1683,7 +1683,7 @@ nscoord
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1697,7 +1697,7 @@ nscoord
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1766,7 +1766,7 @@ int32_t
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1780,7 +1780,7 @@ int32_t
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1859,7 +1859,7 @@ bool
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1873,7 +1873,7 @@ bool
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2123,7 +2123,7 @@ TextDecorValue
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2137,7 +2137,7 @@ TextDecorValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2217,7 +2217,7 @@ TextPosValue
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2231,7 +2231,7 @@ TextPosValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

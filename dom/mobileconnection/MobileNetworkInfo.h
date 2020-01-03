@@ -163,7 +163,7 @@ GlobalObject
 ;
 class
 MobileNetworkInfo
-MOZ_FINAL
+final
 :
 public
 nsIMobileNetworkInfo
@@ -247,7 +247,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 /
 /

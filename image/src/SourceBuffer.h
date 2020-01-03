@@ -491,7 +491,7 @@ Complete
 /
 class
 SourceBufferIterator
-MOZ_FINAL
+final
 {
 public
 :
@@ -1414,7 +1414,7 @@ chunk
 /
 class
 SourceBuffer
-MOZ_FINAL
+final
 {
 public
 :

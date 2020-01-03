@@ -1100,7 +1100,7 @@ file
 /
 class
 nsXBLStreamListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

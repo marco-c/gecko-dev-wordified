@@ -117,7 +117,7 @@ h
 USING_WORKERS_NAMESPACE
 class
 RegisterDebuggerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -178,7 +178,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mManager
 -
@@ -204,7 +204,7 @@ nsIRunnable
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerDebuggerEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

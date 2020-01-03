@@ -1191,7 +1191,7 @@ mExpressions
 ;
 class
 nsMediaList
-MOZ_FINAL
+final
 :
 public
 nsIDOMMediaList
@@ -1229,7 +1229,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *
