@@ -305,6 +305,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h

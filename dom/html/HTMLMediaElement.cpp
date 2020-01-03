@@ -365,6 +365,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

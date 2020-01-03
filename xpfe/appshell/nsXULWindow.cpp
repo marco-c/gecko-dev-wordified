@@ -183,6 +183,13 @@ nsNetCID
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 /
 /
 Interfaces

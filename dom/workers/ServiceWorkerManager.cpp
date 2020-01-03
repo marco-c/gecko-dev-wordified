@@ -353,6 +353,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

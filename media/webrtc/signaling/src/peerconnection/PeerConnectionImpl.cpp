@@ -224,6 +224,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 prtime
 .
 h

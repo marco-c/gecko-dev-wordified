@@ -303,6 +303,13 @@ BinarySearch
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 /
 /
 form

@@ -164,6 +164,13 @@ prlog
 h
 "
 #
+include
+"
+nsQueryObject
+.
+h
+"
+#
 undef
 LOG
 #

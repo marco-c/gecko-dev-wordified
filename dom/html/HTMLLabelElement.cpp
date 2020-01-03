@@ -157,6 +157,13 @@ nsIDOMMouseEvent
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 /
 /
 construction

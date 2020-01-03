@@ -444,6 +444,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 ProfilerHelpers
 .
 h

@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

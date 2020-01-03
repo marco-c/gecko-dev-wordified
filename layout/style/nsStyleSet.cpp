@@ -345,6 +345,13 @@ h
 "
 #
 include
+"
+nsQueryObject
+.
+h
+"
+#
+include
 <
 inttypes
 .
