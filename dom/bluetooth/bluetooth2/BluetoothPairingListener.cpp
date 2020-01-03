@@ -883,7 +883,7 @@ onpairingconsentreq
 )
 )
 {
-BT_LOGR
+BT_LOGD
 (
 "
 Pairing
