@@ -11904,6 +11904,10 @@ allocation
 .
 *
 /
+arena_run_t
+*
+run
+;
 size_t
 flag_dirty
 splitsize
@@ -11952,8 +11956,6 @@ usize
 -
 oldsize
 ;
-arena_run_t
-*
 run
 =
 &
