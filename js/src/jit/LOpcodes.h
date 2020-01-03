@@ -203,16 +203,6 @@ SimdSignMaskX4
 \
 _
 (
-SimdUnaryArithIx4
-)
-\
-_
-(
-SimdUnaryArithFx4
-)
-\
-_
-(
 SimdBinaryCompIx4
 )
 \
