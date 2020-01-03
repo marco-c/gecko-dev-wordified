@@ -3057,12 +3057,14 @@ parseSampleCencInfo
 {
 if
 (
+(
 !
 mCencDefaultSize
 &
 &
 !
 mCencInfoCount
+)
 |
 |
 mCencOffsets
