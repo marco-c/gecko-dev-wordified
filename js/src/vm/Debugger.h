@@ -2036,6 +2036,8 @@ HandleAtom
 ctorName
 size_t
 size
+bool
+inNursery
 )
 :
 frame
@@ -2057,6 +2059,10 @@ ctorName
 size
 (
 size
+)
+inNursery
+(
+inNursery
 )
 {
 MOZ_ASSERT_IF
@@ -2094,6 +2100,9 @@ ctorName
 ;
 size_t
 size
+;
+bool
+inNursery
 ;
 static
 void

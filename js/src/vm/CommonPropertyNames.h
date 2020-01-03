@@ -1022,6 +1022,15 @@ InitializeNumberFormat
 \
 macro
 (
+inNursery
+inNursery
+"
+inNursery
+"
+)
+\
+macro
+(
 innermost
 innermost
 "
