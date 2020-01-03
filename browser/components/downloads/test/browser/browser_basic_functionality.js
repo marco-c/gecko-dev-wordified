@@ -387,8 +387,9 @@ i
 let
 dataItem
 =
-new
-DownloadsViewItemController
+DownloadsView
+.
+controllerForElement
 (
 element
 )
