@@ -423,6 +423,16 @@ italic
 /
 math
 {
+writing
+-
+mode
+:
+horizontal
+-
+tb
+!
+important
+;
 direction
 :
 ltr
