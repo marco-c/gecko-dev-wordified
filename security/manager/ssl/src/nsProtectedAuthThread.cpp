@@ -213,10 +213,6 @@ mLoginResult
 SECFailure
 )
 {
-NS_INIT_ISUPPORTS
-(
-)
-;
 }
 nsProtectedAuthThread
 :
