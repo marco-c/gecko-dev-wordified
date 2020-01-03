@@ -5714,6 +5714,9 @@ etc
 objects
 if
 (
+value
+&
+&
 (
 typeof
 value
