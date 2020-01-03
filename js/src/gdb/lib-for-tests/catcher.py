@@ -43,7 +43,7 @@ eval
 -
 command
 run
-prolog
+prologue
 .
 py
 directly
@@ -77,7 +77,7 @@ launcher
 script
 to
 run
-prolog
+prologue
 .
 py
 #
@@ -149,7 +149,7 @@ join
 (
 testlibdir
 '
-prolog
+prologue
 .
 py
 '

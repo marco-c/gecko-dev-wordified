@@ -7839,7 +7839,7 @@ op
 ;
 /
 *
-prolog
+prologue
 bytecode
 or
 nop

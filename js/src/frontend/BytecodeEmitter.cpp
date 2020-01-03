@@ -787,7 +787,7 @@ lazyScript
 cx
 lazyScript
 )
-prolog
+prologue
 (
 cx
 lineNum
@@ -19104,7 +19104,7 @@ argumentsBytecode
 .
 *
 /
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -19291,7 +19291,7 @@ if
 runOnce
 )
 {
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -19892,7 +19892,7 @@ BytecodeEmitter
 maybeEmitVarDecl
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pn
@@ -19988,7 +19988,7 @@ isHeavyweight
 )
 )
 {
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -20013,7 +20013,7 @@ if
 !
 emitIndexOp
 (
-prologOp
+prologueOp
 atomIndex
 )
 )
@@ -20053,7 +20053,7 @@ BytecodeEmitter
 emitDestructuringDeclsWithEmitter
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern
@@ -20176,7 +20176,7 @@ if
 EmitName
 (
 this
-prologOp
+prologueOp
 target
 )
 )
@@ -20194,7 +20194,7 @@ emitDestructuringDeclsWithEmitter
 EmitName
 >
 (
-prologOp
+prologueOp
 target
 )
 )
@@ -20324,7 +20324,7 @@ if
 EmitName
 (
 this
-prologOp
+prologueOp
 target
 )
 )
@@ -20342,7 +20342,7 @@ emitDestructuringDeclsWithEmitter
 EmitName
 >
 (
-prologOp
+prologueOp
 target
 )
 )
@@ -20363,7 +20363,7 @@ BytecodeEmitter
 *
 bce
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pn
@@ -20412,7 +20412,7 @@ bce
 >
 maybeEmitVarDecl
 (
-prologOp
+prologueOp
 pn
 nullptr
 )
@@ -20425,7 +20425,7 @@ BytecodeEmitter
 emitDestructuringDecls
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern
@@ -20437,7 +20437,7 @@ emitDestructuringDeclsWithEmitter
 EmitDestructuringDecl
 >
 (
-prologOp
+prologueOp
 pattern
 )
 ;
@@ -20450,7 +20450,7 @@ BytecodeEmitter
 *
 bce
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pn
@@ -20500,7 +20500,7 @@ BytecodeEmitter
 emitInitializeDestructuringDecls
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern
@@ -20512,7 +20512,7 @@ emitDestructuringDeclsWithEmitter
 EmitInitializeDestructuringDecl
 >
 (
-prologOp
+prologueOp
 pattern
 )
 ;
@@ -30665,7 +30665,7 @@ using
 a
 /
 /
-prolog
+prologue
 opcode
 but
 do
@@ -34688,7 +34688,7 @@ should
 go
 in
 the
-prolog
+prologue
 to
 predefine
 their
@@ -34803,7 +34803,7 @@ MOZ_ASSERT
 topStmt
 )
 ;
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -45168,7 +45168,7 @@ argumentsHasLocalBinding
 )
 )
 ;
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -47898,9 +47898,9 @@ main
 )
 ;
 unsigned
-prologCount
+prologueCount
 =
-prolog
+prologue
 .
 notes
 .
@@ -47910,10 +47910,10 @@ length
 ;
 if
 (
-prologCount
+prologueCount
 &
 &
-prolog
+prologue
 .
 currentLine
 !
@@ -47921,7 +47921,7 @@ currentLine
 firstLine
 )
 {
-switchToProlog
+switchToPrologue
 (
 )
 ;
@@ -47952,7 +47952,7 @@ else
 *
 Either
 no
-prolog
+prologue
 srcnotes
 or
 no
@@ -47960,7 +47960,7 @@ line
 number
 change
 over
-prolog
+prologue
 .
 *
 We
@@ -48001,7 +48001,7 @@ it
 to
 account
 for
-prolog
+prologue
 bytecodes
 *
 that
@@ -48019,11 +48019,11 @@ bytecode
 ptrdiff_t
 offset
 =
-prologOffset
+prologueOffset
 (
 )
 -
-prolog
+prologue
 .
 lastNoteOffset
 ;
@@ -48179,7 +48179,7 @@ begin
 /
 /
 The
-prolog
+prologue
 count
 might
 have
@@ -48190,7 +48190,7 @@ can
 '
 t
 reuse
-prologCount
+prologueCount
 .
 /
 /
@@ -48224,7 +48224,7 @@ CopySrcNotes
 *
 out
 =
-prolog
+prologue
 .
 notes
 .
@@ -48260,9 +48260,9 @@ nsrcnotes
 )
 {
 unsigned
-prologCount
+prologueCount
 =
-prolog
+prologue
 .
 notes
 .
@@ -48284,7 +48284,7 @@ length
 unsigned
 totalCount
 =
-prologCount
+prologueCount
 +
 mainCount
 ;
@@ -48300,26 +48300,26 @@ nsrcnotes
 ;
 if
 (
-prologCount
+prologueCount
 )
 PodCopy
 (
 destination
-prolog
+prologue
 .
 notes
 .
 begin
 (
 )
-prologCount
+prologueCount
 )
 ;
 PodCopy
 (
 destination
 +
-prologCount
+prologueCount
 main
 .
 notes
@@ -49618,7 +49618,7 @@ YieldOffsetArray
 &
 array
 uint32_t
-prologLength
+prologueLength
 )
 {
 MOZ_ASSERT
@@ -49657,7 +49657,7 @@ array
 i
 ]
 =
-prologLength
+prologueLength
 +
 list
 [

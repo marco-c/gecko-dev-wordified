@@ -254,7 +254,7 @@ message
 }
 /
 /
-prolog
+prologue
 .
 py
 sets

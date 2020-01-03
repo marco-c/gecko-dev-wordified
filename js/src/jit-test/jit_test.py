@@ -2635,7 +2635,7 @@ options
 shell_args
 )
     
-prolog
+prologue
 =
 os
 .
@@ -2647,7 +2647,7 @@ jittests
 .
 LIB_DIR
 '
-prolog
+prologue
 .
 js
 '
@@ -2659,7 +2659,7 @@ options
 remote
 :
         
-prolog
+prologue
 =
 posixpath
 .
@@ -2683,7 +2683,7 @@ tests
 lib
 '
 '
-prolog
+prologue
 .
 js
 '
@@ -2697,7 +2697,7 @@ prefix
 -
 f
 '
-prolog
+prologue
 ]
     
 #

@@ -5201,7 +5201,7 @@ after
 predef
 '
 ing
-prolog
+prologue
 *
 /
 uint32_t
