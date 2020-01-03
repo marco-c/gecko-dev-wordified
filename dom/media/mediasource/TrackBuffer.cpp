@@ -1281,6 +1281,13 @@ appendOffset
 mParentDecoder
 -
 >
+NotifyBytesDownloaded
+(
+)
+;
+mParentDecoder
+-
+>
 NotifyTimeRangesChanged
 (
 )
