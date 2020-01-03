@@ -2898,7 +2898,7 @@ JS_FRIEND_API
 (
 void
 )
-DumpHeapComplete
+DumpHeap
 (
 JSRuntime
 *

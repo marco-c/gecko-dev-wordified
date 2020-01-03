@@ -6157,7 +6157,7 @@ void
 js
 :
 :
-DumpHeapComplete
+DumpHeap
 (
 JSRuntime
 *
