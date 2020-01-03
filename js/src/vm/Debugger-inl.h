@@ -134,6 +134,11 @@ inl
 .
 h
 "
+/
+*
+static
+*
+/
 inline
 bool
 js
