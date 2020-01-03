@@ -282,10 +282,6 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
-title
-:
-"
-"
 isInQuery
 :
 true
@@ -332,10 +328,6 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
-title
-:
-"
-"
 isInQuery
 :
 false
@@ -700,10 +692,6 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
-title
-:
-"
-"
 isInQuery
 :
 true
@@ -748,10 +736,6 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
-title
-:
-"
-"
 isInQuery
 :
 false

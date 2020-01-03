@@ -4407,6 +4407,13 @@ now
 *
 1000
 ;
+var
+timeAddedInMicroseconds
+=
+timeInMicroseconds
+-
+10000
+;
 this
 .
 _unsortedData
@@ -4444,6 +4451,9 @@ title
 "
 y1
 "
+dateAdded
+:
+timeAddedInMicroseconds
 lastModified
 :
 timeInMicroseconds
@@ -4485,6 +4495,9 @@ title
 "
 z
 "
+dateAdded
+:
+timeAddedInMicroseconds
 lastModified
 :
 timeInMicroseconds
@@ -4526,6 +4539,9 @@ title
 "
 x
 "
+dateAdded
+:
+timeAddedInMicroseconds
 lastModified
 :
 timeInMicroseconds
@@ -4576,6 +4592,9 @@ title
 "
 y2
 "
+dateAdded
+:
+timeAddedInMicroseconds
 lastModified
 :
 timeInMicroseconds
@@ -4633,6 +4652,9 @@ title
 "
 y3
 "
+dateAdded
+:
+timeAddedInMicroseconds
 lastModified
 :
 timeInMicroseconds
