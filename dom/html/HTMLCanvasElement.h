@@ -237,6 +237,7 @@ CanvasContextType
 :
 uint8_t
 {
+NoContext
 Canvas2D
 WebGL1
 WebGL2
@@ -1427,6 +1428,15 @@ GetOriginalCanvas
 (
 )
 ;
+CanvasContextType
+GetCurrentContextType
+(
+)
+{
+return
+mCurrentContextType
+;
+}
 }
 ;
 class
