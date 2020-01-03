@@ -1647,6 +1647,17 @@ EqualsLiteral
 PBAP
 "
 )
+&
+&
+!
+profileName
+.
+EqualsLiteral
+(
+"
+MapSms
+"
+)
 )
 {
 sProfiles
