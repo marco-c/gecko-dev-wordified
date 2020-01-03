@@ -526,9 +526,8 @@ file
 as
 a
 str
-represented
+representing
     
-as
 a
 sequence
 of
@@ -1170,6 +1169,7 @@ stream
 #
 Note
 that
+python
 treats
 bitwise
 operators
@@ -1177,9 +1177,9 @@ as
 though
 integers
 have
-an
     
 #
+an
 infinite
 number
 of
