@@ -166,11 +166,11 @@ page
 "
 )
 ;
-content
-.
-location
-=
+yield
+navigateTo
+(
 TEST_URL
+)
 ;
 info
 (
