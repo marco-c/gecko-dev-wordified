@@ -1002,7 +1002,7 @@ self
 .
 element
 .
-rect
+location
 [
 '
 x
@@ -1012,7 +1012,7 @@ self
 .
 element
 .
-rect
+location
 [
 '
 y
