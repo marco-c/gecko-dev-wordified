@@ -969,6 +969,11 @@ FirstCompleteMediaSegment
 (
 )
 ;
+MediaByteRange
+FirstCompleteMediaHeader
+(
+)
+;
 mozilla
 :
 :
