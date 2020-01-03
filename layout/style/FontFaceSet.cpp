@@ -9442,6 +9442,11 @@ Length
 )
 )
 ;
+MOZ_ASSERT
+(
+elements
+)
+;
 for
 (
 size_t
