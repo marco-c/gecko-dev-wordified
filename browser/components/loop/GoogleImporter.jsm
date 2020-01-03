@@ -3546,7 +3546,7 @@ addressNode
 )
 ]
 ;
-contacts
+contact
 .
 adr
 .
