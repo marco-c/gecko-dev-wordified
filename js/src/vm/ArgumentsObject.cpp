@@ -2690,6 +2690,8 @@ attrs
 JSPROP_SHARED
 |
 JSPROP_SHADOWABLE
+|
+JSPROP_RESOLVING
 ;
 if
 (
@@ -3611,6 +3613,11 @@ getThrowTypeError
 )
 ;
 }
+attrs
+|
+=
+JSPROP_RESOLVING
+;
 if
 (
 !

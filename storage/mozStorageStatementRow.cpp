@@ -1013,7 +1013,7 @@ JS
 :
 :
 UndefinedHandleValue
-0
+JSPROP_RESOLVING
 )
 ;
 *

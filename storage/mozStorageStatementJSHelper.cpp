@@ -1498,7 +1498,7 @@ step
 "
 stepFunc
 0
-0
+JSPROP_RESOLVING
 )
 !
 =

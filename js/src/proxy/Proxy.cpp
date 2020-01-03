@@ -5500,16 +5500,14 @@ obj
 Proxy
 "
 ctor
-0
+JSPROP_RESOLVING
 JS_STUBGETTER
 JS_STUBSETTER
 )
 )
-{
 return
 nullptr
 ;
-}
 global
 -
 >

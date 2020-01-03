@@ -12866,12 +12866,14 @@ Intl
 IntlValue
 nullptr
 nullptr
-0
+JSPROP_RESOLVING
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !

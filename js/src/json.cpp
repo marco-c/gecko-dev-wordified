@@ -6283,14 +6283,16 @@ cx
 global
 js_JSON_str
 JSON
-0
+JSPROP_RESOLVING
 JS_STUBGETTER
 JS_STUBSETTER
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !

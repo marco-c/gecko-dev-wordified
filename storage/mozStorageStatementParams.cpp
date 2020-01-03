@@ -996,6 +996,8 @@ JS
 :
 UndefinedHandleValue
 JSPROP_ENUMERATE
+|
+JSPROP_RESOLVING
 )
 ;
 resolved
@@ -1113,6 +1115,8 @@ JS
 :
 UndefinedHandleValue
 JSPROP_ENUMERATE
+|
+JSPROP_RESOLVING
 )
 ;
 resolved

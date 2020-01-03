@@ -3257,7 +3257,7 @@ js_isNaN_str
 Global_isNaN
 "
 1
-0
+JSPROP_RESOLVING
 )
 JS_SELF_HOSTED_FN
 (
@@ -3266,7 +3266,7 @@ js_isFinite_str
 Global_isFinite
 "
 1
-0
+JSPROP_RESOLVING
 )
 JS_FS_END
 }
@@ -7543,7 +7543,7 @@ global
 parseIntId
 num_parseInt
 2
-0
+JSPROP_RESOLVING
 )
 ;
 if
@@ -7627,7 +7627,7 @@ global
 parseFloatId
 num_parseFloat
 1
-0
+JSPROP_RESOLVING
 )
 ;
 if
@@ -7736,6 +7736,8 @@ nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
+|
+JSPROP_RESOLVING
 )
 |
 |
@@ -7758,6 +7760,8 @@ nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
+|
+JSPROP_RESOLVING
 )
 )
 {

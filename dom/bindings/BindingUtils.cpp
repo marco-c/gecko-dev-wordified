@@ -3413,7 +3413,7 @@ cx
 global
 name
 constructor
-0
+JSPROP_RESOLVING
 )
 ;
 }

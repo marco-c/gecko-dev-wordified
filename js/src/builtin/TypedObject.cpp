@@ -8416,12 +8416,14 @@ TypedObject
 moduleValue
 nullptr
 nullptr
-0
+JSPROP_RESOLVING
 )
 )
+{
 return
 false
 ;
+}
 return
 module
 ;
