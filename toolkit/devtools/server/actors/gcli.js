@@ -1682,6 +1682,10 @@ gcliInit
 require
 (
 "
+devtools
+/
+toolkit
+/
 gcli
 /
 commands
