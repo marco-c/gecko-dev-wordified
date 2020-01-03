@@ -1325,6 +1325,7 @@ aDocument
 nsUpdateType
 aUpdateType
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1340,6 +1341,7 @@ aDocument
 nsUpdateType
 aUpdateType
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1353,6 +1355,7 @@ nsIDocument
 *
 aDocument
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1366,6 +1369,7 @@ nsIDocument
 *
 aDocument
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1389,6 +1393,7 @@ mozilla
 EventStates
 aStateMask
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1408,6 +1413,7 @@ mozilla
 EventStates
 aStateMask
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1428,6 +1434,7 @@ aStyleSheet
 bool
 aDocumentSheet
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1448,6 +1455,7 @@ aStyleSheet
 bool
 aDocumentSheet
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1468,6 +1476,7 @@ aStyleSheet
 bool
 aApplicable
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1493,6 +1502,7 @@ nsIStyleRule
 *
 aNewStyleRule
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1514,6 +1524,7 @@ nsIStyleRule
 *
 aStyleRule
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1535,6 +1546,7 @@ nsIStyleRule
 *
 aStyleRule
 )
+MOZ_OVERRIDE
 ;
 #
 define

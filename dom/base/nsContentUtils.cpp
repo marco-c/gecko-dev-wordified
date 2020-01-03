@@ -2313,6 +2313,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -2600,6 +2601,7 @@ aCharset
 nsDetectionConfident
 aConf
 )
+MOZ_OVERRIDE
 {
 mCharset
 =

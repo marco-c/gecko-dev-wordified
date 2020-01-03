@@ -577,6 +577,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -980,6 +981,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 uint64_t
 imgSize

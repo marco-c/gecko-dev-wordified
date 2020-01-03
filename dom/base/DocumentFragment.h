@@ -534,6 +534,7 @@ Element
 GetNameSpaceElement
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr

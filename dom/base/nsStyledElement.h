@@ -258,6 +258,7 @@ StyleRule
 GetInlineStyleRule
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
