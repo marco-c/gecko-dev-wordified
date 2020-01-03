@@ -95,6 +95,8 @@ MarionetteTextTestRunner
         
 MemoryEnduranceTestCaseMixin
         
+MozHttpd
+        
 OptionParser
         
 TestManifest
