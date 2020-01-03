@@ -4261,9 +4261,6 @@ aStatusCode
 4
 )
 ;
-#
-ifdef
-DEBUG
 /
 /
 Intentionally
@@ -4317,8 +4314,6 @@ Debug
 )
 ;
 }
-#
-endif
 LogIO
 (
 this
