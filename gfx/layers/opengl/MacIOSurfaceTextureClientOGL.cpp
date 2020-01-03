@@ -281,6 +281,7 @@ mSurface
 GetContentsScaleFactor
 (
 )
+!
 mSurface
 -
 >
