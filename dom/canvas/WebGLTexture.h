@@ -616,6 +616,16 @@ return
 mEffectiveInternalFormat
 ;
 }
+GLsizei
+Depth
+(
+)
+const
+{
+return
+mDepth
+;
+}
 protected
 :
 /
