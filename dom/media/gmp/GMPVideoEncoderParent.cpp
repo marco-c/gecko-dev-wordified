@@ -362,6 +362,10 @@ mShuttingDown
 (
 false
 )
+mActorDestroyed
+(
+false
+)
 mPlugin
 (
 aPlugin
@@ -1309,6 +1313,12 @@ mIsOpen
 =
 false
 ;
+if
+(
+!
+mActorDestroyed
+)
+{
 unused
 <
 <
@@ -1316,6 +1326,7 @@ SendEncodingComplete
 (
 )
 ;
+}
 }
 static
 void
@@ -1390,6 +1401,10 @@ aWhy
 mIsOpen
 =
 false
+;
+mActorDestroyed
+=
+true
 ;
 if
 (

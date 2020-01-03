@@ -147,6 +147,10 @@ mShuttingDown
 (
 false
 )
+mActorDestroyed
+(
+false
+)
 mPlugin
 (
 aPlugin
@@ -1712,6 +1716,12 @@ mIsOpen
 =
 false
 ;
+if
+(
+!
+mActorDestroyed
+)
+{
 unused
 <
 <
@@ -1719,6 +1729,7 @@ SendDecryptingComplete
 (
 )
 ;
+}
 }
 /
 /
@@ -1745,6 +1756,10 @@ aWhy
 mIsOpen
 =
 false
+;
+mActorDestroyed
+=
+true
 ;
 if
 (
