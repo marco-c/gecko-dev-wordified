@@ -2976,7 +2976,7 @@ scale
 utils
 -
 >
-SetResolution
+SetResolutionAndScaleTo
 (
 metrics
 .

@@ -5455,7 +5455,7 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-2
+1
 )
 ParentLayerPoint
 (
@@ -5508,7 +5508,7 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-2
+1
 )
 ParentLayerPoint
 (
@@ -5576,7 +5576,7 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-2
+1
 )
 ParentLayerPoint
 (
@@ -5634,7 +5634,7 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-2
+1
 )
 ParentLayerPoint
 (
@@ -5704,7 +5704,9 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-3
+1
+.
+5
 )
 ParentLayerPoint
 (
@@ -5760,7 +5762,9 @@ ViewTransform
 (
 LayerToParentLayerScale
 (
-3
+1
+.
+5
 )
 ParentLayerPoint
 (
