@@ -406,6 +406,13 @@ nsAString
 &
 )
 ;
+/
+/
+This
+is
+an
+innerWindow
+.
 nsCOMPtr
 <
 nsPIDOMWindow
