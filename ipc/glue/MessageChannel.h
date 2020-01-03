@@ -3400,6 +3400,9 @@ about
 int32_t
 mTimedOutMessageSeqno
 ;
+int
+mTimedOutMessagePriority
+;
 /
 /
 If
