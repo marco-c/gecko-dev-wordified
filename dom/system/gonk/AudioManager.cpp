@@ -1171,6 +1171,14 @@ return
 NS_OK
 ;
 }
+protected
+:
+~
+AudioChannelVolInitCallback
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
