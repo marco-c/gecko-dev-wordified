@@ -576,7 +576,7 @@ eLegacyMouseLineOrPageScroll
 *
 event
 and
-NS_MOUSE_PIXEL_SCROLL
+eLegacyMousePixelScroll
 event
 for
 compatibility

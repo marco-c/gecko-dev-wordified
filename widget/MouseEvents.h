@@ -2770,7 +2770,7 @@ message
 is
 /
 /
-NS_MOUSE_PIXEL_SCROLL
+eLegacyMousePixelScroll
 the
 value
 indicates
