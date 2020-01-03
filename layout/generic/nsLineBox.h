@@ -1867,7 +1867,10 @@ max
 kMinChildCountForHashtable
 uint32_t
 (
-PL_DHASH_DEFAULT_INITIAL_LENGTH
+PLDHashTable
+:
+:
+kDefaultInitialLength
 )
 )
 ;
