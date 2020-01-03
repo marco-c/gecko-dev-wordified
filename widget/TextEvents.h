@@ -3369,7 +3369,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 "
 wrong
 initializer
@@ -3593,7 +3593,7 @@ eQuerySelectedText
 mMessage
 =
 =
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 |
 |
 mMessage

@@ -1418,7 +1418,7 @@ WidgetQueryContentEvent
 caretRect
 (
 true
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 aWidget
 )
 ;
@@ -4774,7 +4774,7 @@ get
 break
 ;
 case
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 MOZ_LOG
 (
@@ -4799,7 +4799,7 @@ aEvent
 {
 mMessage
 =
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 mInput
 =
 {

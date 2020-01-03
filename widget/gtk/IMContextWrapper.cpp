@@ -10729,7 +10729,7 @@ charRect
 true
 useCaret
 ?
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 NS_QUERY_TEXT_RECT
 mLastFocusedWindow
@@ -10879,7 +10879,7 @@ this
 useCaret
 ?
 "
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 "
 :
 "

@@ -9577,7 +9577,7 @@ QUERY_CARET_RECT
 :
 message
 =
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 ;
 break
 ;
@@ -9851,7 +9851,7 @@ useNativeLineBreak
 break
 ;
 case
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 queryEvent
 .

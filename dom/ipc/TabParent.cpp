@@ -12211,7 +12211,7 @@ case
 NS_QUERY_TEXT_RECT
 :
 case
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 case
 NS_QUERY_EDITOR_RECT

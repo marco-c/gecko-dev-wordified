@@ -1546,7 +1546,7 @@ it
 *
 *
 For
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 fail
 if
 cached

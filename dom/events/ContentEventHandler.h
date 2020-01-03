@@ -294,7 +294,7 @@ aEvent
 ;
 /
 /
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 event
 handler
 nsresult

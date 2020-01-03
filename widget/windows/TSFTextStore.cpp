@@ -32897,7 +32897,7 @@ WidgetQueryContentEvent
 queryCaretRect
 (
 true
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 mWidget
 )
 ;
@@ -32954,7 +32954,7 @@ due
 to
 "
 "
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 failure
 (
 offset
