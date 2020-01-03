@@ -311,12 +311,6 @@ ipc
 :
 StringInputStreamParams
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 /
 /
 /
@@ -419,8 +413,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 ifdef
 LOG

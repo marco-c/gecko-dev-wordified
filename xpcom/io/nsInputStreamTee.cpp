@@ -207,9 +207,6 @@ undef
 LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -256,16 +253,6 @@ GetTeeLog
 PR_LOG_DEBUG
 args
 )
-#
-else
-#
-define
-LOG
-(
-args
-)
-#
-endif
 class
 nsInputStreamTee
 final
