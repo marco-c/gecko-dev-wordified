@@ -2852,7 +2852,7 @@ else
 {
 ReadingList
 .
-getItemForURL
+itemForURL
 (
 msg
 .
