@@ -4606,7 +4606,12 @@ tag
 aInsertionPoint
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )
@@ -8504,7 +8509,12 @@ tag
 aContainer
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )
