@@ -2776,7 +2776,7 @@ _chromeWindow
 .
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 chromeDocument
 :
 this
@@ -4223,7 +4223,7 @@ _chromeWindow
 .
 gBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 }
 )
 ;
