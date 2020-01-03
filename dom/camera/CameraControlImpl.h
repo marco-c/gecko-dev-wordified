@@ -118,13 +118,6 @@ h
 #
 include
 "
-nsIDOMDeviceStorage
-.
-h
-"
-#
-include
-"
 ICameraControl
 .
 h
