@@ -2968,6 +2968,10 @@ __slots__
 '
 link_into
 '
+        
+'
+no_expand_lib
+'
     
 )
     
@@ -2987,6 +2991,9 @@ False
 link_into
 =
 None
+no_expand_lib
+=
+False
 )
 :
         
@@ -3006,6 +3013,12 @@ self
 link_into
 =
 link_into
+        
+self
+.
+no_expand_lib
+=
+no_expand_lib
 class
 SharedLibrary
 (
