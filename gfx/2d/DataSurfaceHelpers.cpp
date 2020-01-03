@@ -661,7 +661,7 @@ col
 <
 aSrcSize
 .
-height
+width
 ;
 +
 +
