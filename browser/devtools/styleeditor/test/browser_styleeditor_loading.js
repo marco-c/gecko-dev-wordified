@@ -106,9 +106,9 @@ correctly
 when
 it
 is
+/
+/
 opened
-/
-/
 *
 while
 *
@@ -123,10 +123,10 @@ Style
 Editor
 should
 not
+/
+/
 signal
 that
-/
-/
 it
 is
 loaded

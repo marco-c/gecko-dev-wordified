@@ -294,6 +294,7 @@ is
 parseInt
 (
 ruleCount
+10
 )
 expected
 .

@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 https
@@ -1016,6 +1021,7 @@ resolve
 ;
 }
 )
+;
 return
 deferred
 .

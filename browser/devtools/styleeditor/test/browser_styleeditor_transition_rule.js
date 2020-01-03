@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 TESTCASE_URI
 =

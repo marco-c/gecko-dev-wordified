@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 A
@@ -187,6 +192,9 @@ styleeditor
 /
 test
 /
+"
++
+"
 simple
 .
 css
