@@ -483,9 +483,6 @@ overflow
 text
 -
 ellipsis
-font
--
-bold
 "
 }
 this
