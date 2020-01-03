@@ -2231,9 +2231,14 @@ out
 .
 asyncPanZoom
 =
+localizedMsg
+(
+[
 "
-none
+apzNone
 "
+]
+)
 ;
 else
 out
