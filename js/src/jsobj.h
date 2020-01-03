@@ -8867,7 +8867,7 @@ JSObject
 obj
 jsid
 id
-NativeObject
+JSObject
 *
 *
 objp

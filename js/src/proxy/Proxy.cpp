@@ -4126,6 +4126,9 @@ found
 )
 {
 MarkNonNativePropertyFound
+<
+CanGC
+>
 (
 propp
 )

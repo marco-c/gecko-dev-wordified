@@ -11014,6 +11014,9 @@ length
 )
 {
 MarkNonNativePropertyFound
+<
+CanGC
+>
 (
 propp
 )
@@ -11069,6 +11072,9 @@ index
 )
 {
 MarkNonNativePropertyFound
+<
+CanGC
+>
 (
 propp
 )
@@ -11208,6 +11214,9 @@ TypedObject
 )
 ;
 MarkNonNativePropertyFound
+<
+CanGC
+>
 (
 propp
 )
