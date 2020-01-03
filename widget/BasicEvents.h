@@ -6528,7 +6528,7 @@ WidgetGUIEvent
 ;
 public
 :
-explicit
+MOZ_EXPLICIT_CONVERSION
 operator
 bool
 (
@@ -6549,7 +6549,7 @@ template
 typename
 T
 >
-explicit
+MOZ_EXPLICIT_CONVERSION
 operator
 const
 T
