@@ -531,7 +531,7 @@ for
 now
 .
 class
-gfxFontConfigFontEntry
+gfxFontconfigFontEntry
 :
 public
 gfxFontEntry
@@ -548,7 +548,7 @@ with
 explicit
 patterns
 explicit
-gfxFontConfigFontEntry
+gfxFontconfigFontEntry
 (
 const
 nsAString
@@ -580,7 +580,7 @@ and
 the
 FT_Face
 explicit
-gfxFontConfigFontEntry
+gfxFontconfigFontEntry
 (
 const
 nsAString
@@ -614,7 +614,7 @@ with
 explicit
 patterns
 explicit
-gfxFontConfigFontEntry
+gfxFontconfigFontEntry
 (
 const
 nsAString
@@ -698,7 +698,7 @@ protected
 :
 virtual
 ~
-gfxFontConfigFontEntry
+gfxFontconfigFontEntry
 (
 )
 ;
@@ -843,14 +843,14 @@ mFontData
 }
 ;
 class
-gfxFontConfigFontFamily
+gfxFontconfigFontFamily
 :
 public
 gfxFontFamily
 {
 public
 :
-gfxFontConfigFontFamily
+gfxFontconfigFontFamily
 (
 const
 nsAString
@@ -909,7 +909,7 @@ protected
 :
 virtual
 ~
-gfxFontConfigFontFamily
+gfxFontconfigFontFamily
 (
 )
 {
@@ -926,14 +926,14 @@ mFontPatterns
 }
 ;
 class
-gfxFontConfigFont
+gfxFontconfigFont
 :
 public
 gfxFT2FontBase
 {
 public
 :
-gfxFontConfigFont
+gfxFontconfigFont
 (
 cairo_scaled_font_t
 *
@@ -983,7 +983,7 @@ protected
 :
 virtual
 ~
-gfxFontConfigFont
+gfxFontconfigFont
 (
 )
 ;
