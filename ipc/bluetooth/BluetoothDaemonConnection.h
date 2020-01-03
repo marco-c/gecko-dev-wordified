@@ -175,7 +175,7 @@ DaemonSocketIOConsumer
 *
 *
 |
-BlutoothDaemonPDU
+DaemonSocketPDU
 |
 represents
 a
@@ -332,7 +332,7 @@ id
 *
 /
 class
-BluetoothDaemonPDU
+DaemonSocketPDU
 final
 :
 public
@@ -365,7 +365,7 @@ MAX_PAYLOAD_LENGTH
 16
 }
 ;
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 uint8_t
 aService
@@ -375,14 +375,14 @@ uint16_t
 aPayloadSize
 )
 ;
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 size_t
 aPayloadSize
 )
 ;
 ~
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 )
 ;
@@ -545,7 +545,7 @@ virtual
 void
 Handle
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -557,7 +557,7 @@ void
 StoreUserData
 (
 const
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
