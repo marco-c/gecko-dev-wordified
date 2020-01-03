@@ -2408,6 +2408,8 @@ ui
 *
 /
 writeSuggestionPref
+:
+function
 (
 )
 {
@@ -2466,9 +2468,6 @@ bookmark
 "
 "
 openpage
-"
-"
-searches
 "
 ]
 .
