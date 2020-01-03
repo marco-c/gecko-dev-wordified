@@ -131,6 +131,10 @@ dom
 ContentParent
 *
 aContentParent
+bool
+aForceBridgeNow
+=
+false
 )
 ;
 bool
