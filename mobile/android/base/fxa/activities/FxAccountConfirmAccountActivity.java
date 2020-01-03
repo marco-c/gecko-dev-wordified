@@ -111,6 +111,17 @@ gecko
 .
 fxa
 .
+SyncStatusListener
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+fxa
+.
 authenticator
 .
 AndroidFxAccount
@@ -666,8 +677,6 @@ protected
 class
 InnerSyncStatusDelegate
 implements
-FirefoxAccounts
-.
 SyncStatusListener
 {
 protected
