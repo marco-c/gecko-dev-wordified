@@ -241,6 +241,9 @@ DOMStringList
 class
 Element
 ;
+class
+FileList
+;
 template
 <
 typename

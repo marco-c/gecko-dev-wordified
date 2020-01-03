@@ -201,6 +201,13 @@ nsIDOMWindow
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsDataDocumentContentPolicy
