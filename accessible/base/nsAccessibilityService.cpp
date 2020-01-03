@@ -6722,6 +6722,7 @@ if
 roleMapEntry
 &
 &
+(
 roleMapEntry
 -
 >
@@ -6731,6 +6732,19 @@ nsGkAtoms
 :
 :
 presentation
+)
+|
+|
+roleMapEntry
+-
+>
+Is
+(
+nsGkAtoms
+:
+:
+none
+)
 )
 )
 {
