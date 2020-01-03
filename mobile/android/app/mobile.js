@@ -6776,11 +6776,11 @@ android
 /
 base
 /
+updater
+/
 UpdateServiceHelper
 .
 java
-.
-in
 #
 endif
 /
