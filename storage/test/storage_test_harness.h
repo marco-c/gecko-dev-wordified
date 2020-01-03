@@ -1083,6 +1083,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
+MOZ_OVERRIDE
 ;
 /
 /
