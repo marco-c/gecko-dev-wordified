@@ -18186,10 +18186,8 @@ nullptr
 if
 (
 mIsRoot
-)
-{
-if
-(
+&
+&
 gfxPrefs
 :
 :
@@ -18240,6 +18238,10 @@ displayPort
 ;
 }
 else
+if
+(
+mIsRoot
+)
 {
 /
 /
@@ -18325,7 +18327,6 @@ displayportBase
 displayPort
 )
 ;
-}
 }
 else
 {
