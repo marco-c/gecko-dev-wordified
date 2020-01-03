@@ -3921,10 +3921,12 @@ expectedNumber
 {
 number
 :
-null
+"
+"
 expectedNumber
 :
-null
+"
+"
 }
 /
 /
@@ -4001,9 +4003,6 @@ numLen
 if
 (
 aNumber
-!
-=
-null
 )
 {
 helper

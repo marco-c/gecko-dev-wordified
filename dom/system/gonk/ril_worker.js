@@ -62859,6 +62859,9 @@ Buf
 ;
 let
 number
+=
+"
+"
 ;
 let
 numLen
@@ -62929,8 +62932,7 @@ PDU_HEX_OCTET_SIZE
 )
 ;
 return
-"
-"
+number
 ;
 }
 number
