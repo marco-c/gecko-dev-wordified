@@ -515,7 +515,7 @@ case
 eMouseExitFromWidget
 :
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 /
 /

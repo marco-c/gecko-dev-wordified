@@ -16499,7 +16499,7 @@ case
 NS_FOCUS_CONTENT
 :
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 case
 NS_BLUR_CONTENT
@@ -16700,7 +16700,7 @@ break
 ;
 }
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 aVisitor
 .

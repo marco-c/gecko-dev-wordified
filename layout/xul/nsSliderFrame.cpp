@@ -3395,7 +3395,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 |
 |
 /
@@ -3440,7 +3440,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 &
 &
 mChange

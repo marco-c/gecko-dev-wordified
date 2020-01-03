@@ -2769,7 +2769,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 )
 {
 /

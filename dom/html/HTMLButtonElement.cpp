@@ -2020,7 +2020,7 @@ do
 anything
 yet
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 {
 aVisitor
