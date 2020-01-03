@@ -2935,7 +2935,7 @@ with
 static
 ip
 .
-netUtil
+gNetworkService
 .
 disableInterface
 (
@@ -2947,7 +2947,7 @@ function
 ok
 )
 {
-netUtil
+gNetworkService
 .
 enableInterface
 (
@@ -3063,7 +3063,7 @@ dns
 to
 network
 interface
-netUtil
+gNetworkService
 .
 configureInterface
 (
@@ -3944,7 +3944,7 @@ interface
 when
 connection
 drop
-netUtil
+gNetworkService
 .
 configureInterface
 (
@@ -3995,7 +3995,7 @@ for
 /
 reconnection
 .
-netUtil
+gNetworkService
 .
 resetConnections
 (
@@ -6354,7 +6354,7 @@ function
 (
 )
 {
-netUtil
+gNetworkService
 .
 disableInterface
 (
@@ -6932,7 +6932,7 @@ supplicantStarted
 =
 true
 ;
-netUtil
+gNetworkService
 .
 enableInterface
 (
@@ -7204,7 +7204,7 @@ state
 UNINITIALIZED
 "
 ;
-netUtil
+gNetworkService
 .
 disableInterface
 (
