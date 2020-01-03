@@ -905,6 +905,8 @@ False
 True
 means
 CrashAtUnhandlableOOM
+                                           
+#
 is
 not
 considered
@@ -975,6 +977,8 @@ without
 asm
 .
 js
+                                       
+#
 enabled
 .
         
@@ -1162,9 +1166,9 @@ also
 -
 noasmjs
 flags
-then
         
 #
+then
 we
 duplicate
 the
@@ -1177,10 +1181,10 @@ can
 be
 used
 both
-with
-the
         
 #
+with
+the
 interpreter
 and
 asmjs
@@ -1193,9 +1197,9 @@ way
 to
 check
 for
-differential
         
 #
+differential
 behaviour
 .
         
@@ -1428,7 +1432,6 @@ int
 value
 0
 )
-;
                         
 except
 ValueError
@@ -1445,11 +1448,17 @@ t
 parse
 exit
 status
-%
-s
 "
-%
+                                  
+"
+{
+}
+"
+.
+format
+(
 value
+)
 )
                     
 elif
@@ -1479,15 +1488,20 @@ thread
 -
 count
 =
+{
+}
 '
-+
+.
+format
+(
+                                
 int
 (
 value
 0
 )
 )
-;
+)
                         
 except
 ValueError
@@ -1505,11 +1519,17 @@ parse
 thread
 -
 count
-%
-s
 "
-%
+                                  
+"
+{
+}
+"
+.
+format
+(
 value
+)
 )
                     
 else
@@ -1518,8 +1538,8 @@ else
 print
 (
 '
-%
-s
+{
+}
 :
 warning
 :
@@ -1530,10 +1550,14 @@ jit
 test
 |
 attribute
-%
-s
 '
-%
+                              
+'
+{
+}
+'
+.
+format
 (
 path
 part
@@ -1729,6 +1753,7 @@ startswith
 '
 )
 :
+                        
 #
 /
 /
@@ -1766,8 +1791,8 @@ else
 print
 (
 '
-%
-s
+{
+}
 :
 warning
 :
@@ -1778,10 +1803,14 @@ jit
 test
 |
 attribute
-%
-s
 '
-%
+                              
+'
+{
+}
+'
+.
+format
 (
 path
 part
@@ -1847,7 +1876,6 @@ dirname
 (
 path
 )
-;
         
 if
 not
@@ -1944,29 +1972,29 @@ quotechar
         
 expr
 =
-(
 "
 const
 platform
 =
-%
-s
+{
+}
 ;
 const
 libdir
 =
-%
-s
+{
+}
 ;
 const
 scriptdir
 =
-%
-s
+{
+}
 "
-                
-%
+.
+format
 (
+            
 js_quote
 (
 quotechar
@@ -1974,18 +2002,17 @@ sys
 .
 platform
 )
-                   
+            
 js_quote
 (
 quotechar
 libdir
 )
-                   
+            
 js_quote
 (
 quotechar
 scriptdir_var
-)
 )
 )
         
@@ -2202,6 +2229,8 @@ if
 substring
 is
 None
+\
+               
 or
 substring
 in
@@ -2488,14 +2517,12 @@ SIGTERM
 )
     
 if
-(
 sigint_handler
 =
 =
 signal
 .
 SIG_IGN
-)
 :
         
 def
@@ -2558,6 +2585,7 @@ l
 .
 _handle
 )
+                                                            
 -
 1
 )
@@ -2569,14 +2597,12 @@ OSError
 pass
             
 if
-(
 sig
 =
 =
 signal
 .
 SIGTERM
-)
 :
                 
 sys
@@ -2707,6 +2733,7 @@ l
 .
 _handle
 )
+                                                            
 -
 1
 )
@@ -2752,14 +2779,12 @@ signal
 handlers
     
 if
-(
 sigint_handler
 =
 =
 signal
 .
 SIG_IGN
-)
 :
         
 signal
@@ -3076,14 +3101,15 @@ pathvar
 ]
 =
 '
-%
-s
-%
-s
-%
-s
+{
+}
+{
+}
+{
+}
 '
-%
+.
+format
 (
 bin_dir
 os
@@ -3147,6 +3173,7 @@ test
 command
 (
 prefix
+                       
 posixpath
 .
 join
@@ -3159,6 +3186,7 @@ lib
 /
 '
 )
+                       
 posixpath
 .
 join
@@ -3719,6 +3747,8 @@ if
 test
 .
 allow_unhandlable_oom
+\
+           
 and
 '
 Assertion
@@ -3777,6 +3807,8 @@ recursion
 '
 in
 err
+\
+           
 and
 '
 Assertion
@@ -4036,7 +4068,7 @@ args
 .
 format
 (
-          
+        
 result
 res
 .
@@ -4391,6 +4423,7 @@ args
 =
 (
 async_test_result_queue
+                                   
 result_process_return_queue
                                    
 notify_queue
@@ -4590,11 +4623,9 @@ get
 :
             
 if
-(
 testcnt
 <
 total_tests
-)
 :
                 
 #
@@ -4622,12 +4653,15 @@ Process
 target
 =
 wrap_parallel_run_test
+                                         
 args
 =
 (
 test
 prefix
+                                               
 async_test_result_queue
+                                               
 options
 )
 )
@@ -4703,6 +4737,8 @@ for
 it
 to
 complete
+        
+#
 on
 its
 own
@@ -4843,12 +4879,10 @@ to
 terminate
         
 if
-(
 async_test_result
 =
 =
 None
-)
 :
             
 return
@@ -4876,6 +4910,7 @@ process_test_results_parallel
 (
 async_test_result_queue
 return_queue
+                                  
 notify_queue
 num_tests
 options
@@ -4953,6 +4988,8 @@ we
 are
 doing
 multiple
+                
+#
 failures
 per
 job
@@ -4998,6 +5035,7 @@ test
 path
 TEST_DIR
 )
+                                  
 +
 '
 \
@@ -5086,19 +5124,24 @@ trying
 to
 write
 failure
+"
+                                 
+"
 file
 '
-%
-s
+{
+}
 '
 \
 n
 "
-%
-                                 
+.
+format
+(
 options
 .
 write_failures
+)
 )
                 
 traceback
@@ -5239,12 +5282,14 @@ print
 PASSED
 ALL
 '
+              
 +
 (
 '
 '
 if
 complete
+                 
 else
 '
 (
@@ -5255,12 +5300,15 @@ run
 interrupted
 by
 user
-%
-s
+{
+}
 )
 '
-%
+.
+format
+(
 doing
+)
 )
 )
     
@@ -5295,10 +5343,13 @@ print
 '
 Passed
 :
-%
+{
+:
 d
+}
 '
-%
+.
+format
 (
 num_tests
 -
@@ -5311,11 +5362,16 @@ print
 '
 Failed
 :
-%
+{
+:
 d
+}
 '
-%
+.
+format
+(
 num_failures
+)
 )
     
 return
@@ -5394,6 +5450,8 @@ not
 options
 .
 show_cmd
+\
+       
 and
 ProgressBar
 .
@@ -5513,6 +5571,7 @@ rc
 res
 .
 timed_out
+                              
 res
 .
 test
@@ -5590,15 +5649,18 @@ write
 Exit
 code
 :
-%
-s
+{
+}
 \
 n
 '
-%
+.
+format
+(
 res
 .
 rc
+)
 )
             
 if
@@ -5633,15 +5695,18 @@ doing
 =
 '
 after
-%
-s
+{
+}
 '
-%
+.
+format
+(
 res
 .
 test
 .
 relpath_tests
+)
             
 if
 not
@@ -5668,15 +5733,18 @@ message
 "
 TIMEOUT
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 res
 .
 test
 .
 relpath_tests
+)
 )
                     
 timeouts
@@ -5694,15 +5762,18 @@ message
 "
 FAIL
 -
-%
-s
+{
+}
 "
-%
+.
+format
+(
 res
 .
 test
 .
 relpath_tests
+)
 )
             
 if
@@ -5761,8 +5832,8 @@ SKIP
 '
 :
 0
-}
             
+}
 )
         
 complete
@@ -5981,13 +6052,16 @@ running
 remote
 tests
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 e
 .
 message
+)
 )
 def
 push_libs
@@ -6040,6 +6114,7 @@ libnspr4
 .
 so
 '
+                     
 '
 libplc4
 .
@@ -6124,6 +6199,7 @@ join
 options
 .
 remote_test_root
+                                     
 os
 .
 path
@@ -6165,7 +6241,6 @@ tests
 from
 mozdevice
 import
-devicemanager
 devicemanagerADB
 devicemanagerSUT
     
@@ -6192,20 +6267,24 @@ devicemanagerADB
 .
 DeviceManagerADB
 (
+                
 options
 .
 device_ip
 options
 .
 device_port
+                
 deviceSerial
 =
 options
 .
 device_serial
+                
 packageName
 =
 None
+                
 deviceRoot
 =
 options
@@ -6222,14 +6301,17 @@ devicemanagerADB
 .
 DeviceManagerADB
 (
+                
 deviceSerial
 =
 options
 .
 device_serial
+                
 packageName
 =
 None
+                
 deviceRoot
 =
 options
@@ -6246,12 +6328,14 @@ devicemanagerSUT
 .
 DeviceManagerSUT
 (
+            
 options
 .
 device_ip
 options
 .
 device_port
+            
 deviceRoot
 =
 options
@@ -6284,6 +6368,9 @@ connect
 to
 via
 the
+'
+                  
+'
 -
 -
 device
@@ -6445,6 +6532,7 @@ jit_tests_dir
 tests
 '
 )
+               
 timeout
 =
 600
@@ -6465,6 +6553,7 @@ TEST_DIR
 options
 .
 remote_test_root
+               
 timeout
 =
 600
@@ -6544,7 +6633,7 @@ flag
 in
 flags
 ]
-                 
+                
 for
 flags
 in
@@ -6607,12 +6696,15 @@ jit
 flag
 :
 "
-%
-s
+{
+}
 "
 '
-%
+.
+format
+(
 flag
+)
 )
                 
 sys

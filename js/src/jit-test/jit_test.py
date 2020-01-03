@@ -434,6 +434,7 @@ action
 '
 store_true
 '
+                  
 help
 =
 '
@@ -466,6 +467,7 @@ dest
 '
 show_output
 '
+                  
 action
 =
 '
@@ -503,6 +505,7 @@ dest
 '
 failed_only
 '
+                  
 action
 =
 '
@@ -524,6 +527,9 @@ only
 print
 output
 for
+"
+                  
+"
 failed
 tests
 "
@@ -547,6 +553,7 @@ dest
 '
 no_show_failed
 '
+                  
 action
 =
 '
@@ -564,6 +571,9 @@ output
 for
 failed
 tests
+"
+                  
+"
 (
 no
 -
@@ -838,6 +848,7 @@ dest
 '
 write_failures
 '
+                  
 metavar
 =
 '
@@ -1088,6 +1099,9 @@ with
 -
 m
 "
+'
+                  
+'
 and
 "
 -
@@ -1104,14 +1118,13 @@ default
 "
 ]
 .
-'
-+
-                       
-'
 Long
 flags
 such
 as
+'
+                  
+'
 "
 -
 -
@@ -1187,6 +1200,7 @@ dest
 '
 write_failure_output
 '
+                  
 action
 =
 '
@@ -1207,6 +1221,9 @@ FILE
 additionally
 write
 the
+'
+                  
+'
 output
 of
 failed
@@ -1253,6 +1270,9 @@ eager
 and
 once
 with
+'
+                  
+'
 -
 -
 baseline
@@ -1297,6 +1317,9 @@ all
 IonMonkey
 option
 combinations
+'
+                  
+'
 (
 ignores
 -
@@ -1329,6 +1352,7 @@ max_jobs
 type
 =
 int
+                  
 default
 =
 max_jobs_default
@@ -1543,6 +1567,9 @@ communicate
 with
 device
 :
+'
+                  
+'
 [
 adb
 |
@@ -1602,6 +1629,9 @@ use
 as
 test
 root
+'
+                  
+'
 (
 eg
 .
@@ -1653,6 +1683,9 @@ push
 -
 -
 preferably
+'
+                  
+'
 stripped
 '
 )
@@ -2045,6 +2078,7 @@ join
 jittests
 .
 TEST_DIR
+                                              
 line
 .
 strip
@@ -2094,18 +2128,23 @@ to
 read
 test
 file
+"
+                                 
+"
 '
-%
-s
+{
+}
 '
 \
 n
 "
-%
-                                 
+.
+format
+(
 options
 .
 read_tests
+)
 )
                 
 traceback
@@ -2178,6 +2217,7 @@ for
 test
 in
 test_list
+                     
 if
 test
 not
@@ -2205,6 +2245,7 @@ line
 arguments
 .
 "
+              
 file
 =
 sys
@@ -2407,6 +2448,8 @@ we
 test
 a
 few
+        
+#
 interesting
 combinations
 .
@@ -2433,6 +2476,7 @@ baseline
 eager
 '
 ]
+                      
 [
 '
 -
@@ -2475,6 +2519,7 @@ for
 test
 in
 test_list
+                
 for
 _
 in
@@ -2516,6 +2561,7 @@ ignore_timeouts
 =
 set
 (
+                    
 [
 line
 .
@@ -2622,6 +2668,7 @@ join
 options
 .
 remote_test_root
+                                
 '
 jit
 -
@@ -2707,6 +2754,9 @@ tests
 match
 command
 line
+'
+                  
+'
 arguments
 debugger
 can
@@ -2725,13 +2775,16 @@ job_list
 print
 (
 '
-%
-s
+{
+}
 '
-%
+.
+format
+(
 tc
 .
 path
+)
 )
             
 sys
@@ -2888,16 +2941,22 @@ does
 not
 exist
 :
+"
+                  
+"
 '
-%
-s
+{
+}
 '
 "
-%
+.
+format
+(
 prefix
 [
 0
 ]
+)
 file
 =
 sys
