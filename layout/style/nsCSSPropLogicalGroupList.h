@@ -517,5 +517,9 @@ Padding
 )
 CSS_PROP_LOGICAL_GROUP_AXIS
 (
+MinSize
+)
+CSS_PROP_LOGICAL_GROUP_AXIS
+(
 Size
 )
