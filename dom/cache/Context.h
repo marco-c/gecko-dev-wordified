@@ -885,7 +885,7 @@ nsIThread
 aTarget
 Action
 *
-aQuotaIOThreadAction
+aInitAction
 Context
 *
 aOldContext
