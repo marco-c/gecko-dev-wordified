@@ -2227,11 +2227,6 @@ exception
 this
 .
 _handleSdkException
-.
-bind
-(
-this
-)
 )
 ;
 this
@@ -2915,11 +2910,6 @@ hasVideo
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 this
@@ -2959,11 +2949,6 @@ false
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 this
@@ -3699,11 +3684,6 @@ forceUpdate
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
