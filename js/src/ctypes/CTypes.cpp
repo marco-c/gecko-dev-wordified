@@ -5989,7 +5989,6 @@ JS_NewObject
 cx
 &
 sCDataProtoClass
-parent
 )
 )
 ;
@@ -8917,7 +8916,6 @@ JS_NewObject
 cx
 &
 sCDataFinalizerProtoClass
-ctypes
 )
 )
 ;
