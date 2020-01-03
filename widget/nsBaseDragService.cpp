@@ -2549,11 +2549,13 @@ aDoneDrag
 !
 mSuppressLevel
 )
+{
 FireDragEventAtSource
 (
-NS_DRAGDROP_END
+eDragEnd
 )
 ;
+}
 if
 (
 mDragPopup
@@ -2807,7 +2809,7 @@ if
 aMsg
 =
 =
-NS_DRAGDROP_END
+eDragEnd
 )
 {
 event

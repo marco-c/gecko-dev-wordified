@@ -923,7 +923,7 @@ case
 NS_DRAGDROP_DRAG
 :
 case
-NS_DRAGDROP_END
+eDragEnd
 :
 case
 eDragStart

@@ -1544,7 +1544,7 @@ for
 /
 /
 the
-NS_DRAGDROP_END
+eDragEnd
 event
 .
 nsDragService
