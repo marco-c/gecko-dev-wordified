@@ -81,7 +81,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -100,7 +99,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -110,10 +108,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -150,10 +144,9 @@ FETCHED_SCOPES
 runTest
 )
 ;
-gDebuggee
-.
-eval
+evalInTab
 (
+gTab
 "
 (
 "
@@ -538,10 +531,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
