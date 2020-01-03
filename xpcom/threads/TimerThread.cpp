@@ -980,6 +980,10 @@ nullptr
 }
 #
 endif
+NS_SetIgnoreStatusOfCurrentThread
+(
+)
+;
 MonitorAutoLock
 lock
 (
