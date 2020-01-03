@@ -235,7 +235,6 @@ aVsyncTimestamp
 Called
 on
 the
-hardware
 vsync
 thread
 for

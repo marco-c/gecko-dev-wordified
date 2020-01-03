@@ -91,6 +91,12 @@ MPL
 *
 /
 #
+ifndef
+GFX_VSYNCSOURCE_H
+#
+define
+GFX_VSYNCSOURCE_H
+#
 include
 "
 mozilla
@@ -227,9 +233,9 @@ vsync
 occurs
 on
 the
-hardware
 vsync
 thread
+virtual
 void
 NotifyVsync
 (
@@ -368,3 +374,10 @@ gfx
 /
 /
 mozilla
+#
+endif
+/
+*
+GFX_VSYNCSOURCE_H
+*
+/
