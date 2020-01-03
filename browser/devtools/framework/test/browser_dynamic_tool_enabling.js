@@ -78,15 +78,6 @@ remote
 -
 enabled
 "
-"
-devtools
-.
-debugger
-.
-chrome
--
-enabled
-"
 ]
 "
 javascriptConsole
