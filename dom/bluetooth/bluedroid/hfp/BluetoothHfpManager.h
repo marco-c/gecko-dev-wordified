@@ -440,11 +440,6 @@ DisconnectSco
 (
 )
 ;
-bool
-IsNrecEnabled
-(
-)
-;
 /
 *
 *

@@ -538,11 +538,6 @@ DisconnectSco
 )
 ;
 bool
-IsNrecEnabled
-(
-)
-;
-bool
 ListenSco
 (
 )
