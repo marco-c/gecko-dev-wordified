@@ -5084,7 +5084,7 @@ this
 .
 _domainElement
 .
-innerHTML
+textContent
 =
 this
 .
@@ -5099,7 +5099,7 @@ this
 .
 _creditsElement
 .
-innerHTML
+textContent
 =
 article
 .
