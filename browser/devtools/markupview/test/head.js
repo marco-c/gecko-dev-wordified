@@ -2073,6 +2073,16 @@ inspector
 let
 updated
 =
+container
+.
+selected
+?
+promise
+.
+resolve
+(
+)
+:
 inspector
 .
 once
