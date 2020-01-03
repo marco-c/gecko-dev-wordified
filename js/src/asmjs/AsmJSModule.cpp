@@ -561,6 +561,12 @@ RoundUpToNextValidAsmJSHeapLength
 ;
 pod
 .
+maxHeapLength_
+=
+0x80000000
+;
+pod
+.
 strict_
 =
 strict
