@@ -8871,12 +8871,13 @@ manifest_path
         
 for
 test
+source_manifest
 in
 sorted
 (
 manifest
 .
-files
+tests
 )
 :
             
@@ -8909,7 +8910,7 @@ test
 manifest
 '
 :
-manifest_full_path
+source_manifest
                 
 '
 name
