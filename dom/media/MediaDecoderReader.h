@@ -403,7 +403,7 @@ MozPromise
 <
 nsRefPtr
 <
-AudioData
+MediaData
 >
 NotDecodedReason
 /
@@ -421,7 +421,7 @@ MozPromise
 <
 nsRefPtr
 <
-VideoData
+MediaData
 >
 NotDecodedReason
 /

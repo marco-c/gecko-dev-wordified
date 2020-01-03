@@ -646,7 +646,7 @@ sTypeName
 Creates
 a
 new
-VideoData
+AudioData
 identical
 to
 aOther
