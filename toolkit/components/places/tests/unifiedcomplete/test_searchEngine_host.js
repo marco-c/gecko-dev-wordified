@@ -493,6 +493,11 @@ bookmark
 }
 )
 ;
+yield
+promiseAsyncUpdates
+(
+)
+;
 ok
 (
 frecencyForUrl
@@ -502,7 +507,7 @@ uri
 >
 10000
 "
-Adeded
+Added
 URI
 should
 have
