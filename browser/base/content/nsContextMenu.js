@@ -7777,7 +7777,7 @@ params
 .
 referrerURI
 =
-document
+doc
 .
 documentURIObject
 ;
