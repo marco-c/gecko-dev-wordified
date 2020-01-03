@@ -21732,6 +21732,12 @@ tab
 =
 =
 null
+|
+|
+!
+this
+.
+browserForTab
 )
 {
 return
