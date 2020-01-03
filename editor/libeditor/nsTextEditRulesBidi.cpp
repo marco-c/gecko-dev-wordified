@@ -170,13 +170,6 @@ h
 #
 include
 "
-nsISelectionPrivate
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -239,7 +232,7 @@ nsTextEditRules
 :
 CheckBidiLevelForDeletion
 (
-nsISelection
+Selection
 *
 aSelection
 nsIDOMNode

@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h
