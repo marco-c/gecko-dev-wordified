@@ -2267,11 +2267,6 @@ TILES_EXPLAIN_LINK
 +
 '
 "
-target
-=
-"
-_blank
-"
 >
 '
 +
