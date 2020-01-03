@@ -191,7 +191,6 @@ Components
 Services
 XPCOMUtils
 PdfjsChromeUtils
-PdfRedirector
 PdfjsContentUtils
 DEFAULT_PREFERENCES
 PdfStreamConverter
