@@ -1486,14 +1486,6 @@ getContentResolver
 (
 )
 ;
-Browser
-mBrowser
-=
-new
-Browser
-(
-)
-;
 Cursor
 cursor
 =
@@ -1515,7 +1507,7 @@ history
 {
 cursor
 =
-mBrowser
+Browser
 .
 getAllVisitedUrls
 (
@@ -1538,7 +1530,7 @@ bookmarks
 {
 cursor
 =
-mBrowser
+Browser
 .
 getAllBookmarks
 (

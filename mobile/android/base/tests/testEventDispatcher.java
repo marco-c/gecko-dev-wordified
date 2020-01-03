@@ -551,10 +551,6 @@ response
 {
 EventDispatcher
 .
-getInstance
-(
-)
-.
 sendResponse
 (
 message
@@ -576,10 +572,6 @@ response
 )
 {
 EventDispatcher
-.
-getInstance
-(
-)
 .
 sendError
 (
