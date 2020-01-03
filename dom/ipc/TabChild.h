@@ -2711,6 +2711,11 @@ uint64_t
 aTransactionId
 )
 ;
+void
+ClearCachedResources
+(
+)
+;
 static
 inline
 TabChild
