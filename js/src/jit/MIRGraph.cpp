@@ -248,7 +248,7 @@ shouldForceAbort_
 (
 false
 )
-abortedNewScriptPropertiesGroups_
+abortedPreliminaryGroups_
 (
 *
 alloc_
@@ -591,7 +591,7 @@ void
 MIRGenerator
 :
 :
-addAbortedNewScriptPropertiesGroup
+addAbortedPreliminaryGroup
 (
 ObjectGroup
 *
@@ -607,7 +607,7 @@ i
 ;
 i
 <
-abortedNewScriptPropertiesGroups_
+abortedPreliminaryGroups_
 .
 length
 (
@@ -623,7 +623,7 @@ if
 group
 =
 =
-abortedNewScriptPropertiesGroups_
+abortedPreliminaryGroups_
 [
 i
 ]
@@ -634,7 +634,7 @@ return
 if
 (
 !
-abortedNewScriptPropertiesGroups_
+abortedPreliminaryGroups_
 .
 append
 (
@@ -644,7 +644,7 @@ group
 CrashAtUnhandlableOOM
 (
 "
-addAbortedNewScriptPropertiesGroup
+addAbortedPreliminaryGroup
 "
 )
 ;

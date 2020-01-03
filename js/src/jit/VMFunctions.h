@@ -4877,7 +4877,7 @@ InitProp
 JSContext
 *
 cx
-HandleNativeObject
+HandleObject
 obj
 HandlePropertyName
 name
@@ -5006,17 +5006,6 @@ right
 bool
 *
 res
-)
-;
-JSObject
-*
-NewInitObject
-(
-JSContext
-*
-cx
-HandlePlainObject
-templateObject
 )
 ;
 bool

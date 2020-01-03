@@ -881,6 +881,14 @@ obj
 =
 objDefault
 ;
+if
+(
+!
+obj
+)
+return
+true
+;
 /
 /
 Don
