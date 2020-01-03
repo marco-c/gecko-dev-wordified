@@ -12338,6 +12338,7 @@ mRWBufPos
 pos
 )
 ;
+}
 mRWBufPos
 -
 =
@@ -12347,7 +12348,6 @@ pos
 =
 0
 ;
-}
 int64_t
 fileOffset
 =
@@ -12822,7 +12822,7 @@ LOG
 CacheIndex
 :
 :
-ParseRecords
+ParseJournal
 (
 )
 "
@@ -13054,6 +13054,7 @@ mRWBufPos
 pos
 )
 ;
+}
 mRWBufPos
 -
 =
@@ -13063,7 +13064,6 @@ pos
 =
 0
 ;
-}
 int64_t
 fileOffset
 =
