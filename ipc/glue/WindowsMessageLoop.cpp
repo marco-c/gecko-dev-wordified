@@ -6090,6 +6090,12 @@ if
 InterruptStackDepth
 (
 )
+&
+&
+!
+AwaitingIncomingMessage
+(
+)
 )
 {
 /
