@@ -2943,6 +2943,13 @@ scale
 )
 CSS_KEY
 (
+scale
+-
+down
+scale_down
+)
+CSS_KEY
+(
 scale3d
 scale3d
 )

@@ -4330,6 +4330,13 @@ kContextPatternKTable
 static
 const
 KTableValue
+kObjectFitKTable
+[
+]
+;
+static
+const
+KTableValue
 kOrientKTable
 [
 ]
