@@ -874,11 +874,7 @@ perms
 .
 remove
 (
-"
-example
-.
-com
-"
+pageURI
 "
 uitour
 "
