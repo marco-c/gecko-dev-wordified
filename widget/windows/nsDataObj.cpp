@@ -681,6 +681,10 @@ TYPE_OTHER
 nullptr
 /
 /
+aChannelPolicy
+nullptr
+/
+/
 loadGroup
 nullptr
 /

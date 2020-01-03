@@ -1751,6 +1751,10 @@ aContentPolicyType
 nullptr
 /
 /
+aChannelPolicy
+nullptr
+/
+/
 loadGroup
 nullptr
 /

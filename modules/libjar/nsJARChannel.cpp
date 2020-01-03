@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsChannelProperties
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
