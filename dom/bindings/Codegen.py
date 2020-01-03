@@ -80709,7 +80709,7 @@ Argument
 JS
 :
 :
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

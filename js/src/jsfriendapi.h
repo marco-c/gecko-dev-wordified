@@ -16140,7 +16140,7 @@ receiver
 JS
 :
 :
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

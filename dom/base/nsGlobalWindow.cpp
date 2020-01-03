@@ -3855,7 +3855,7 @@ id
 JS
 :
 :
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -5037,7 +5037,7 @@ id
 JS
 :
 :
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

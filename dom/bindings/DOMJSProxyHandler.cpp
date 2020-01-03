@@ -1174,7 +1174,7 @@ Handle
 jsid
 >
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -1551,7 +1551,6 @@ proxy
 id
 vp
 receiver
-&
 desc
 result
 )

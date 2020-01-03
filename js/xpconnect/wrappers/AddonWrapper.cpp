@@ -1020,14 +1020,11 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
 desc
-JS
-:
-:
 ObjectOpResult
 &
 result

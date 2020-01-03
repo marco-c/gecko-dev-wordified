@@ -222,7 +222,6 @@ proxy
 id
 vp
 receiver
-&
 desc
 result
 )

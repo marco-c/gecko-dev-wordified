@@ -4282,7 +4282,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -4676,6 +4676,16 @@ return
 false
 ;
 }
+Rooted
+<
+JSPropertyDescriptor
+>
+wrappedDesc
+(
+cx
+desc
+)
+;
 JSAutoCompartment
 ac
 (
@@ -4689,7 +4699,8 @@ if
 JS_WrapPropertyDescriptor
 (
 cx
-desc
+&
+wrappedDesc
 )
 |
 |
@@ -4699,7 +4710,7 @@ JS_DefinePropertyById
 cx
 target
 id
-desc
+wrappedDesc
 result
 )
 )
@@ -9793,7 +9804,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -10854,7 +10865,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -13417,6 +13428,7 @@ RecreateLostWaivers
 JSContext
 *
 cx
+const
 JSPropertyDescriptor
 *
 orig
@@ -13791,7 +13803,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
