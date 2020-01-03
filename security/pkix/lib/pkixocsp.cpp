@@ -3475,7 +3475,7 @@ rv
 der
 :
 :
-ExpectTagAndLength
+ExpectTagAndEmptyValue
 (
 input
 static_cast
@@ -3488,7 +3488,6 @@ CertStatus
 :
 Good
 )
-0
 )
 ;
 if
@@ -3649,7 +3648,7 @@ rv
 der
 :
 :
-ExpectTagAndLength
+ExpectTagAndEmptyValue
 (
 input
 static_cast
@@ -3662,7 +3661,6 @@ CertStatus
 :
 Unknown
 )
-0
 )
 ;
 if
