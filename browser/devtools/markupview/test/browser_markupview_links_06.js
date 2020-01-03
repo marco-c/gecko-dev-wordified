@@ -232,7 +232,7 @@ ready
 ;
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 ;
@@ -418,7 +418,7 @@ ready
 ;
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 ;
