@@ -1245,12 +1245,12 @@ if
 aDecoder
 -
 >
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
 {
-mSizeDecodeQueue
+mMetadataDecodeQueue
 .
 AppendElement
 (
@@ -1309,7 +1309,7 @@ do
 /
 /
 Prioritize
-size
+metadata
 decodes
 over
 full
@@ -1318,7 +1318,7 @@ decodes
 if
 (
 !
-mSizeDecodeQueue
+mMetadataDecodeQueue
 .
 IsEmpty
 (
@@ -1328,7 +1328,7 @@ IsEmpty
 return
 PopWorkFromQueue
 (
-mSizeDecodeQueue
+mMetadataDecodeQueue
 )
 ;
 }
@@ -1470,7 +1470,8 @@ mThreadNaming
 /
 mMonitor
 guards
-mQueue
+the
+queues
 and
 mShuttingDown
 .
@@ -1484,7 +1485,7 @@ nsRefPtr
 Decoder
 >
 >
-mSizeDecodeQueue
+mMetadataDecodeQueue
 ;
 nsTArray
 <

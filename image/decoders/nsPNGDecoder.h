@@ -443,8 +443,9 @@ format
 /
 /
 For
-size
+metadata
 decodes
+.
 uint8_t
 mSizeBytes
 [

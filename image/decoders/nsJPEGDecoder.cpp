@@ -1038,7 +1038,7 @@ JPEG_ERROR
 &
 &
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -1519,7 +1519,7 @@ we
 re
 doing
 a
-size
+metadata
 decode
 we
 '
@@ -1528,7 +1528,7 @@ done
 .
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

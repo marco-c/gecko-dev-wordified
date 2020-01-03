@@ -284,8 +284,9 @@ endif
 /
 /
 For
-size
+metadata
 decodes
+.
 #
 define
 WIDTH_OFFSET
@@ -1231,7 +1232,7 @@ InitInternal
 /
 /
 For
-size
+metadata
 decodes
 we
 don
@@ -1241,11 +1242,12 @@ need
 to
 initialize
 the
-png
+PNG
 decoder
+.
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -1823,9 +1825,10 @@ to
 go
 through
 libpng
+.
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

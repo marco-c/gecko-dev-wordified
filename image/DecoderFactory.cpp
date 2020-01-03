@@ -711,7 +711,7 @@ decoder
 decoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
 false
 )
@@ -962,7 +962,7 @@ decoder
 decoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
 true
 )
