@@ -331,6 +331,7 @@ private
 :
 T
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 public

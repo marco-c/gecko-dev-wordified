@@ -266,6 +266,7 @@ private
 :
 nsISupports
 *
+MOZ_WEAK_REF
 mSource
 ;
 nsresult

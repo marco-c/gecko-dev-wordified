@@ -430,6 +430,7 @@ private
 :
 T
 *
+MOZ_WEAK_REF
 mPtr
 ;
 }
@@ -438,6 +439,7 @@ private
 :
 T
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 public
@@ -2468,6 +2470,7 @@ private
 :
 T
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 public
@@ -4343,6 +4346,7 @@ private
 :
 T
 *
+MOZ_WEAK_REF
 mRawPtr
 ;
 }
@@ -4433,6 +4437,7 @@ private
 :
 T
 *
+MOZ_WEAK_REF
 mRawPtr
 ;
 nsresult

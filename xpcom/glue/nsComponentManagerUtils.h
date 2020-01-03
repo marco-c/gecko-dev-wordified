@@ -276,6 +276,7 @@ mCID
 ;
 nsISupports
 *
+MOZ_WEAK_REF
 mOuter
 ;
 nsresult
@@ -345,6 +346,7 @@ mContractID
 ;
 nsISupports
 *
+MOZ_WEAK_REF
 mOuter
 ;
 nsresult
@@ -408,10 +410,12 @@ private
 :
 nsIFactory
 *
+MOZ_WEAK_REF
 mFactory
 ;
 nsISupports
 *
+MOZ_WEAK_REF
 mOuter
 ;
 nsresult

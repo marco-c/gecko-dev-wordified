@@ -106,6 +106,15 @@ stdint
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFile
 ;
@@ -228,6 +237,7 @@ directory
 /
 nsIFile
 *
+MOZ_WEAK_REF
 directory
 ;
 /
@@ -669,6 +679,7 @@ programatically
 /
 nsIFile
 *
+MOZ_WEAK_REF
 xreDirectory
 ;
 /

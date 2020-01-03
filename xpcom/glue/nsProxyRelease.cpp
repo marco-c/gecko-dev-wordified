@@ -177,6 +177,7 @@ private
 :
 nsISupports
 *
+MOZ_STRONG_REF
 mDoomed
 ;
 }

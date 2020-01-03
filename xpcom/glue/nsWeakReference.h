@@ -214,6 +214,7 @@ mProxy
 }
 nsWeakReference
 *
+MOZ_WEAK_REF
 mProxy
 ;
 protected

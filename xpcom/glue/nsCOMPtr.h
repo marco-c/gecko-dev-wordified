@@ -1101,6 +1101,7 @@ private
 :
 nsISupports
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 }
@@ -1150,6 +1151,7 @@ private
 :
 nsISupports
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 nsresult
@@ -1832,6 +1834,7 @@ NS_MAY_ALIAS_PTR
 (
 nsISupports
 )
+MOZ_STRONG_REF
 mRawPtr
 ;
 void
@@ -2172,6 +2175,7 @@ private
 :
 T
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 #
