@@ -9344,8 +9344,6 @@ position
 ruby_position
 RubyPosition
 CSS_PROPERTY_PARSE_VALUE
-|
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
 "
 layout
 .
@@ -9355,10 +9353,14 @@ ruby
 .
 enabled
 "
-0
+VARIANT_HK
 kRubyPositionKTable
-CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+offsetof
+(
+nsStyleText
+mRubyPosition
+)
+eStyleAnimType_EnumU8
 )
 CSS_PROP_DISPLAY
 (
