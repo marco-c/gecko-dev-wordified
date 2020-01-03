@@ -450,9 +450,7 @@ non
 -
 configurable
 property
-'
 5
-'
 "
 ;
 "
