@@ -459,6 +459,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 icon
 :
@@ -605,6 +608,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -736,6 +742,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 icon
 :
@@ -816,6 +825,9 @@ style
 [
 "
 autofill
+"
+"
+heuristic
 "
 ]
 }
@@ -980,6 +992,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 icon
 :
@@ -1103,6 +1118,9 @@ style
 [
 "
 autofill
+"
+"
+heuristic
 "
 ]
 }
@@ -1404,6 +1422,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -1482,6 +1503,9 @@ style
 [
 "
 autofill
+"
+"
+heuristic
 "
 ]
 icon
@@ -2080,6 +2104,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 icon
 :
@@ -2248,6 +2275,9 @@ style
 [
 "
 autofill
+"
+"
+heuristic
 "
 ]
 }
@@ -2570,6 +2600,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -2663,6 +2696,9 @@ style
 [
 "
 autofill
+"
+"
+heuristic
 "
 ]
 icon

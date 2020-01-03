@@ -315,6 +315,9 @@ action
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -401,6 +404,9 @@ action
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -486,6 +492,9 @@ action
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -563,6 +572,9 @@ action
 "
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }
@@ -648,6 +660,9 @@ action
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -728,6 +743,9 @@ action
 "
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }
@@ -809,6 +827,9 @@ action
 "
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }

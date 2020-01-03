@@ -172,6 +172,9 @@ style
 "
 autofill
 "
+"
+heuristic
+"
 ]
 }
 ]

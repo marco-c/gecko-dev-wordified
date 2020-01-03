@@ -127,6 +127,11 @@ makeSearchMatch
 "
 mozilla
 "
+{
+heuristic
+:
+true
+}
 )
 ]
 }
@@ -176,6 +181,11 @@ http
 /
 /
 "
+{
+heuristic
+:
+true
+}
 )
 ]
 }
@@ -217,6 +227,11 @@ makeSearchMatch
 mozzarella
 cheese
 "
+{
+heuristic
+:
+true
+}
 )
 ]
 }
@@ -341,6 +356,9 @@ engineName
 "
 MozSearch2
 "
+heuristic
+:
+true
 }
 )
 ]
