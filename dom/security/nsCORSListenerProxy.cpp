@@ -6381,6 +6381,12 @@ of
 method
 names
 .
+headerVal
+.
+Truncate
+(
+)
+;
 http
 -
 >
@@ -6580,6 +6586,12 @@ of
 method
 names
 .
+headerVal
+.
+Truncate
+(
+)
+;
 http
 -
 >
