@@ -254,17 +254,6 @@ nsCRT
 h
 "
 #
-include
-"
-mozilla
-/
-plugins
-/
-PluginTypes
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
@@ -284,6 +273,9 @@ plugins
 {
 class
 PluginAsyncSurrogate
+;
+class
+PluginTag
 ;
 }
 /
