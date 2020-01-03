@@ -700,8 +700,6 @@ bool
 aIsKeyboardSelect
 bool
 aVisual
-bool
-aExtend
 EWordMovementType
 aWordMovementType
 )
@@ -741,10 +739,6 @@ aIsKeyboardSelect
 mVisual
 (
 aVisual
-)
-mExtend
-(
-aExtend
 )
 mResultContent
 (
@@ -4632,7 +4626,6 @@ mLimiter
 nullptr
 true
 visualMovement
-aContinueSelection
 )
 ;
 nsBidiDirection
@@ -6199,7 +6192,6 @@ offset
 ;
 bool
 jumpedLine
-movedOverNonSelectableText
 ;
 nsresult
 rv
@@ -6219,8 +6211,6 @@ newFrame
 offset
 &
 jumpedLine
-&
-movedOverNonSelectableText
 )
 ;
 if
@@ -7805,7 +7795,6 @@ mLimiter
 nullptr
 false
 false
-false
 )
 ;
 if
@@ -7853,7 +7842,6 @@ mLimiter
 !
 =
 nullptr
-false
 false
 false
 )
