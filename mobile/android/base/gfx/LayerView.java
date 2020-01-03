@@ -1466,13 +1466,13 @@ requestFocus
 }
 if
 (
-mMarginsAnimator
+mToolbarAnimator
 !
 =
 null
 &
 &
-mMarginsAnimator
+mToolbarAnimator
 .
 onInterceptTouchEvent
 (

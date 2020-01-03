@@ -5392,9 +5392,12 @@ to
 be
 scrolled
 before
-margins
-are
-exposed
+toolbar
+/
+/
+manipulation
+is
+allowed
 .
 pref
 (
@@ -5403,9 +5406,9 @@ browser
 .
 ui
 .
-show
+scroll
 -
-margins
+toolbar
 -
 threshold
 "
