@@ -7042,6 +7042,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 )
 ;
 void
@@ -7087,6 +7090,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 )
 ;
 void

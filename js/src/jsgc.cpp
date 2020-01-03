@@ -12610,6 +12610,9 @@ RelocateArena
 ArenaHeader
 *
 aheader
+SliceBudget
+&
+sliceBudget
 )
 {
 MOZ_ASSERT
@@ -12763,6 +12766,12 @@ compacting
 )
 ;
 }
+sliceBudget
+.
+step
+(
+)
+;
 }
 #
 ifdef
@@ -12907,6 +12916,9 @@ toRelocate
 ArenaHeader
 *
 relocated
+SliceBudget
+&
+sliceBudget
 gcstats
 :
 :
@@ -12938,6 +12950,7 @@ next
 RelocateArena
 (
 arena
+sliceBudget
 )
 ;
 /
@@ -13096,6 +13109,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 gcstats
 :
 :
@@ -13237,6 +13253,7 @@ relocateArenas
 (
 allArenas
 relocatedListOut
+sliceBudget
 stats
 )
 ;
@@ -13362,6 +13379,7 @@ relocateArenas
 (
 arenas
 relocatedListOut
+sliceBudget
 stats
 )
 ;
@@ -13438,6 +13456,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 )
 {
 gcstats
@@ -13493,6 +13514,7 @@ relocateArenas
 (
 relocatedArenasToRelease
 reason
+sliceBudget
 stats
 )
 )
@@ -32949,6 +32971,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 )
 {
 MOZ_ASSERT
@@ -33023,6 +33048,7 @@ relocateArenas
 (
 zone
 reason
+sliceBudget
 )
 )
 {
@@ -33059,6 +33085,16 @@ zonesToMaybeCompact
 removeFront
 (
 )
+;
+if
+(
+sliceBudget
+.
+isOverBudget
+(
+)
+)
+break
 ;
 }
 #
@@ -35608,6 +35644,7 @@ if
 compactPhase
 (
 reason
+budget
 )
 =
 =

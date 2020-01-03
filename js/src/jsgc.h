@@ -3227,6 +3227,9 @@ toRelocate
 ArenaHeader
 *
 relocated
+SliceBudget
+&
+sliceBudget
 gcstats
 :
 :
@@ -5298,6 +5301,9 @@ gcreason
 :
 Reason
 reason
+SliceBudget
+&
+sliceBudget
 gcstats
 :
 :
