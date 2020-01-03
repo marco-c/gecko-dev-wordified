@@ -1451,17 +1451,6 @@ second
 #
 ifdef
 MOZ_CRASHREPORTER
-if
-(
-!
-NS_IsMainThread
-(
-)
-)
-{
-return
-;
-}
 nsCString
 reportString
 (
