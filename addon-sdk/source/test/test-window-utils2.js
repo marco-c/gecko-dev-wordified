@@ -1047,6 +1047,8 @@ window
 require
 (
 '
+sdk
+/
 test
 '
 )

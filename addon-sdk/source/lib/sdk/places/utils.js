@@ -85,6 +85,13 @@ Firefox
 "
 *
 "
+"
+SeaMonkey
+"
+:
+"
+*
+"
 }
 }
 ;

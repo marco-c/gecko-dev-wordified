@@ -862,6 +862,8 @@ test
 .
 run
 (
+module
+.
 exports
 )
 ;

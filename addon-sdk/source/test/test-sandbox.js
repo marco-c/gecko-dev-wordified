@@ -1469,6 +1469,8 @@ alive
 require
 (
 '
+sdk
+/
 test
 '
 )

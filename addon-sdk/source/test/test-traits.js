@@ -2170,7 +2170,6 @@ yield
 )
 ;
 let
-(
 i
 =
 0
@@ -2179,8 +2178,7 @@ sub
 Sub
 (
 )
-)
-{
+;
 for
 (
 let
@@ -2188,6 +2186,7 @@ item
 in
 sub
 )
+{
 assert
 .
 equal
@@ -2207,7 +2206,6 @@ value
 )
 ;
 }
-;
 }
 ;
 require

@@ -73,8 +73,6 @@ require
 content
 /
 worker
--
-parent
 '
 )
 .

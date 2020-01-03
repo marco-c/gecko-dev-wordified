@@ -1165,8 +1165,8 @@ tab
 for
 (
 let
+t
 of
-in
 gTabs
 )
 {

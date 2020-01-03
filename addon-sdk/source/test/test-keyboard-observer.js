@@ -302,6 +302,8 @@ done
 require
 (
 "
+sdk
+/
 test
 "
 )
