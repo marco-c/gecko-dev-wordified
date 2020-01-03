@@ -7275,6 +7275,16 @@ format_value
 (
 actual
 )
++
+"
+[
+"
++
+msg
++
+"
+]
+"
 )
 ;
 actual
