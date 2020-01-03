@@ -2096,6 +2096,8 @@ reader
 PeekU8
 (
 )
+&
+0x1f
 ;
 const
 uint8_t
@@ -2128,7 +2130,7 @@ if
 nalType
 =
 =
-0x67
+0x7
 )
 {
 /
@@ -2162,7 +2164,7 @@ if
 nalType
 =
 =
-0x68
+0x8
 )
 {
 /
