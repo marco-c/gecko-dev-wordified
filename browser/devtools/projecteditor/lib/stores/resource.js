@@ -967,8 +967,9 @@ resource
 *
 *
 Checks
-a
-resource
+if
+current
+object
 has
 child
 with
@@ -976,10 +977,6 @@ specific
 name
 .
 *
-*
-param
-Resource
-resource
 *
 param
 string
@@ -990,7 +987,6 @@ hasChild
 :
 function
 (
-resource
 name
 )
 {
@@ -999,7 +995,7 @@ for
 let
 child
 of
-resource
+this
 .
 children
 )
