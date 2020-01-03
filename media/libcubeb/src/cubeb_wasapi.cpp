@@ -168,6 +168,11 @@ stdio
 .
 h
 >
+#
+include
+<
+cmath
+>
 /
 *
 *
@@ -2488,11 +2493,14 @@ frames_needed
 clock_add
 (
 stm
+roundf
+(
 frames_needed
 *
 stream_to_mix_samplerate_ratio
 (
 stm
+)
 )
 )
 ;
