@@ -2114,11 +2114,11 @@ to
 reflow
 .
 return
-NS_CombineHint
-(
 nsChangeHint_NeedReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
+|
 nsChangeHint_ClearAncestorIntrinsics
-)
 ;
 }
 nsStylePadding
