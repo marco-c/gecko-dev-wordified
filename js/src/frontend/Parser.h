@@ -3263,9 +3263,6 @@ script
 Node
 parse
 (
-JSObject
-*
-chain
 )
 ;
 /
