@@ -108,6 +108,9 @@ UniquePtr
 .
 h
 "
+class
+nsIFile
+;
 namespace
 mozilla
 {

@@ -142,6 +142,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsLiteralString
+.
+h
+"
 namespace
 mozilla
 {

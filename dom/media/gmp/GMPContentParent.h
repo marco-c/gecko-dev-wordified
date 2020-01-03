@@ -113,6 +113,13 @@ h
 #
 include
 "
+GMPSharedMemManager
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

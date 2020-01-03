@@ -103,6 +103,13 @@ h
 #
 include
 "
+GMPContentChild
+.
+h
+"
+#
+include
+"
 GMPChild
 .
 h
