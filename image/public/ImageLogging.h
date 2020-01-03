@@ -162,11 +162,11 @@ PRLogModuleInfo
 aLog
 void
 *
-from
+aFrom
 const
 char
 *
-fn
+aFunc
 )
 :
 mLog
@@ -175,11 +175,11 @@ aLog
 )
 mFrom
 (
-from
+aFrom
 )
 mFunc
 (
-fn
+aFunc
 )
 {
 PR_LOG
@@ -913,6 +913,7 @@ LOG_SCOPE_APPEND_LINE_NUMBER_EXPAND
 id
 line
 )
+\
 LOG_SCOPE_APPEND_LINE_NUMBER_PASTE
 (
 id
@@ -924,6 +925,7 @@ LOG_SCOPE_APPEND_LINE_NUMBER
 (
 id
 )
+\
 LOG_SCOPE_APPEND_LINE_NUMBER_EXPAND
 (
 id
