@@ -20654,9 +20654,9 @@ NS_FORM_SELECTED
 ;
 _ASSIGN_eventName
 (
-NS_FORM_CHANGE
+eFormChange
 "
-NS_FORM_CHANGE
+eFormChange
 "
 )
 ;
