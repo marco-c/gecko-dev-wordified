@@ -4641,6 +4641,7 @@ nsRunnable
 {
 public
 :
+explicit
 UnlockImageDataRunnable
 (
 imgFrame
