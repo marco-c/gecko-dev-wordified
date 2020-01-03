@@ -1103,13 +1103,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 mPairingReqs
 =
 BluetoothPairingListener

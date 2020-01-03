@@ -199,13 +199,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 }
 already_AddRefed
 <

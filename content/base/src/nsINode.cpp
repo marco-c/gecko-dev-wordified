@@ -16097,13 +16097,6 @@ JSContext
 aCx
 )
 {
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 /
 /
 Make

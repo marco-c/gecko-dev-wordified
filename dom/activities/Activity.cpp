@@ -495,11 +495,4 @@ DOMRequest
 aWindow
 )
 {
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 }

@@ -76903,13 +76903,6 @@ IsInnerWindow
 )
 )
 ;
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 WindowBinding
 :
 :
