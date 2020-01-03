@@ -1288,7 +1288,7 @@ ap
 ;
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 aborted
 %
@@ -1348,7 +1348,7 @@ ifdef
 DEBUG
 JitSpew
 (
-JitSpew_MIR
+JitSpew_IonMIR
 "
 %
 s
@@ -4365,7 +4365,7 @@ executionModeIsAnalysis
 {
 JitSpew
 (
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Analyzing
 script
@@ -4444,7 +4444,7 @@ hasIonScript
 {
 JitSpew
 (
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Recompiling
 script
@@ -4521,7 +4521,7 @@ else
 {
 JitSpew
 (
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Compiling
 script
@@ -5727,7 +5727,7 @@ callInfo
 ;
 JitSpew
 (
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Inlining
 script
@@ -7517,7 +7517,7 @@ initArgumentsObject
 {
 JitSpew
 (
-JitSpew_MIR
+JitSpew_IonMIR
 "
 %
 s
@@ -28092,7 +28092,7 @@ isExceptionPending
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Inline
 builder

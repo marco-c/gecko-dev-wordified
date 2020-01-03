@@ -2750,7 +2750,7 @@ return
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Creating
 snapshot
@@ -2980,7 +2980,7 @@ SNAPSHOT_ROFFSET_SHIFT
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Read
 snapshot
@@ -3069,13 +3069,13 @@ if
 (
 JitSpewEnabled
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 )
 )
 {
 JitSpewHeader
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 )
 ;
 fprintf
@@ -3196,7 +3196,7 @@ readAllocation
 {
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Reading
 slot
@@ -3394,7 +3394,7 @@ numInstructions_
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Read
 recover
@@ -3471,7 +3471,7 @@ allocWritten_
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 starting
 snapshot
@@ -3696,13 +3696,13 @@ if
 (
 JitSpewEnabled
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 )
 {
 JitSpewHeader
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 ;
 fprintf
@@ -3791,7 +3791,7 @@ writeSigned
 endif
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 ending
 snapshot
@@ -3848,7 +3848,7 @@ instructionsWritten_
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 starting
 recover

@@ -4068,7 +4068,7 @@ RESUME_ENTRY_FRAME
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 handling
 exception
@@ -9573,7 +9573,7 @@ pcRes
 {
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Recover
 PC

@@ -12403,7 +12403,7 @@ innerScript
 {
 JitSpew
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 "
 Bounds
 check
@@ -12562,7 +12562,7 @@ innerScript
 {
 JitSpew
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 "
 Shape
 guard
@@ -12713,7 +12713,7 @@ innerScript
 {
 JitSpew
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 "
 Baseline
 info

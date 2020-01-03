@@ -2743,7 +2743,7 @@ numInstructions
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Encoding
 LRecoverInfo
@@ -2970,7 +2970,7 @@ INVALID_RECOVER_OFFSET
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Encoding
 LSnapshot
@@ -3414,7 +3414,7 @@ bailoutId
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Assigned
 snapshot

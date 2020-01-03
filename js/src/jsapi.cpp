@@ -35520,7 +35520,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Enable
 ion
@@ -35558,7 +35558,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Disable
 ion
@@ -35675,7 +35675,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Enable
 offthread
@@ -35709,7 +35709,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Disable
 offthread
@@ -35747,7 +35747,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Enable
 signals
@@ -35780,7 +35780,7 @@ js
 jit
 :
 :
-JitSpew_Scripts
+JitSpew_IonScripts
 "
 Disable
 signals

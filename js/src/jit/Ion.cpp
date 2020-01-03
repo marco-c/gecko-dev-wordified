@@ -7768,7 +7768,7 @@ const
 {
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 IonScript
 %
@@ -12794,7 +12794,7 @@ ION_COMPILING_SCRIPT
 ;
 JitSpew
 (
-JitSpew_Logs
+JitSpew_IonLogs
 "
 Can
 '
@@ -12841,7 +12841,7 @@ builder
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Unable
 to
@@ -12909,7 +12909,7 @@ codegen
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Failed
 during
@@ -13017,7 +13017,7 @@ numActualArgs
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 too
 many
@@ -13045,7 +13045,7 @@ numFormalArgs
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 too
 many
@@ -13126,7 +13126,7 @@ isEvalFrame
 .
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 eval
 script
@@ -13197,7 +13197,7 @@ code
 .
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 not
 compile
@@ -13274,7 +13274,7 @@ cx
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Script
 too
@@ -13510,7 +13510,7 @@ debugMode
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 debugging
 "
@@ -13536,7 +13536,7 @@ osrPc
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Aborted
 compilation
@@ -13584,7 +13584,7 @@ Method_Compiled
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Aborted
 compilation
@@ -14511,7 +14511,7 @@ length
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 too
 many
@@ -14559,7 +14559,7 @@ nargs
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 too
 many
@@ -14603,7 +14603,7 @@ isGenerator
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 generator
 frame
@@ -16588,7 +16588,7 @@ invalidateAll
 {
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 BEGIN
 invalidating
@@ -16658,7 +16658,7 @@ JitFrame_Exit
 :
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -16715,7 +16715,7 @@ Baseline
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -16801,7 +16801,7 @@ JitFrame_BaselineStub
 :
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -16827,7 +16827,7 @@ JitFrame_Rectifier
 :
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -16865,7 +16865,7 @@ JitFrame_Unwound_Rectifier
 :
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -16891,7 +16891,7 @@ JitFrame_Entry
 :
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 #
 %
@@ -17642,7 +17642,7 @@ invalidateEpilogueOffset
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 !
 Invalidate
@@ -17691,7 +17691,7 @@ invalidateEpilogue
 }
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 END
 invalidating
@@ -17820,7 +17820,7 @@ zone
 {
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Invalidating
 all
@@ -17877,7 +17877,7 @@ cancelOffThread
 {
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Start
 invalidation
@@ -17999,7 +17999,7 @@ continue
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Invalidate
 %
@@ -18097,7 +18097,7 @@ numInvalidations
 {
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 No
 IonScript
@@ -19232,7 +19232,7 @@ mode
 {
 JitSpew
 (
-JitSpew_Abort
+JitSpew_IonAbort
 "
 Disabling
 Ion
@@ -21346,7 +21346,7 @@ rt
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Invalidating
 frames
