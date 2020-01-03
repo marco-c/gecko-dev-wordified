@@ -23885,11 +23885,11 @@ indice
 end_composition
 =
 (
-(
 compositionTime
+*
+1000000ll
 +
 duration
-)
 *
 1000000ll
 )
