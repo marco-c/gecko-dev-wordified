@@ -855,6 +855,16 @@ dom
 serviceWorkers
 .
 enabled
+WORKERPREF_INTERCEPTION_ENABLED
+/
+/
+dom
+.
+serviceWorkers
+.
+interception
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
