@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsIIdleService
-.
-h
-"
-#
-include
-"
 nsHTMLStyleSheet
 .
 h
@@ -7796,13 +7789,6 @@ QuotaManager
 "
 "
 service
-"
-QUOTA_MANAGER_CONTRACTID
-}
-{
-OBSERVER_TOPIC_IDLE_DAILY
-"
-QuotaManager
 "
 QUOTA_MANAGER_CONTRACTID
 }

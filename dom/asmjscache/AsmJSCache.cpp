@@ -9475,14 +9475,6 @@ storages
 }
 virtual
 void
-PerformIdleMaintenance
-(
-)
-override
-{
-}
-virtual
-void
 ShutdownWorkThreads
 (
 )
