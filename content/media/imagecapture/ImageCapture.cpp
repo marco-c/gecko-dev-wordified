@@ -928,7 +928,7 @@ ImageCapture
 :
 PostBlobEvent
 (
-nsIDOMBlob
+DOMFile
 *
 aBlob
 )

@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsDOMFile
 .
 h
 "
@@ -1652,10 +1652,8 @@ IsBlob
 )
 )
 {
-nsCOMPtr
-<
-nsIDOMBlob
->
+DOMFile
+&
 blob
 =
 aData
@@ -1667,8 +1665,7 @@ GetAsBlob
 aRv
 =
 blob
--
->
+.
 GetInternalStream
 (
 getter_AddRefs

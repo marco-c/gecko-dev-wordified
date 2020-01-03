@@ -594,6 +594,9 @@ const
 nsAString
 &
 aContentType
+ErrorResult
+&
+aRv
 )
 {
 AssertSanity
@@ -623,7 +626,7 @@ forget
 )
 ;
 }
-nsresult
+void
 FileImplSnapshot
 :
 :
@@ -632,6 +635,9 @@ GetMozFullPathInternal
 nsAString
 &
 aFilename
+ErrorResult
+&
+aRv
 )
 {
 AssertSanity
@@ -643,7 +649,8 @@ MOZ_ASSERT
 mIsFile
 )
 ;
-return
+aRv
+=
 mFile
 -
 >

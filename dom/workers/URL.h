@@ -164,6 +164,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMFile
+;
 struct
 objectURLOptions
 ;
@@ -341,7 +344,7 @@ const
 GlobalObject
 &
 aGlobal
-JSObject
+DOMFile
 &
 aArg
 const

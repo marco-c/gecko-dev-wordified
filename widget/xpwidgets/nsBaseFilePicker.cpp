@@ -479,6 +479,9 @@ NS_DECL_ISUPPORTS
 explicit
 nsBaseFilePickerEnumerator
 (
+nsPIDOMWindow
+*
+aParent
 nsISimpleEnumerator
 *
 iterator
@@ -487,6 +490,10 @@ iterator
 mIterator
 (
 iterator
+)
+mParent
+(
+aParent
 )
 {
 }
@@ -567,6 +574,7 @@ DOMFile
 :
 CreateFromFile
 (
+mParent
 localFile
 )
 ;
@@ -615,6 +623,12 @@ nsCOMPtr
 nsISimpleEnumerator
 >
 mIterator
+;
+nsCOMPtr
+<
+nsPIDOMWindow
+>
+mParent
 ;
 }
 ;
@@ -707,6 +721,13 @@ NS_ENSURE_TRUE
 (
 widget
 NS_ERROR_FAILURE
+)
+;
+mParent
+=
+do_QueryInterface
+(
+aParent
 )
 ;
 mMode
@@ -1704,6 +1725,7 @@ DOMFile
 :
 CreateFromFile
 (
+mParent
 localFile
 )
 ;
@@ -1762,6 +1784,7 @@ retIter
 new
 nsBaseFilePickerEnumerator
 (
+mParent
 iter
 )
 ;

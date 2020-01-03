@@ -57,6 +57,7 @@ file
 new
 File
 (
+[
 new
 Blob
 (
@@ -75,15 +76,12 @@ plain
 '
 }
 )
-{
-name
-:
-'
+]
+"
 test
 -
 name
-'
-}
+"
 )
 ;
 var

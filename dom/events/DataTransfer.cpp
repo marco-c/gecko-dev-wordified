@@ -1563,6 +1563,9 @@ DOMFile
 :
 CreateFromFile
 (
+GetParentObject
+(
+)
 file
 )
 ;

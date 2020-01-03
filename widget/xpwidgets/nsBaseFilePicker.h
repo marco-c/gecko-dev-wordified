@@ -133,6 +133,9 @@ nsCOMPtr
 h
 "
 class
+nsPIDOMWindow
+;
+class
 nsIWidget
 ;
 class
@@ -289,6 +292,12 @@ nsCOMPtr
 nsIFile
 >
 mDisplayDirectory
+;
+nsCOMPtr
+<
+nsPIDOMWindow
+>
+mParent
 ;
 int16_t
 mMode
