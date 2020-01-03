@@ -62,7 +62,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gDebugger
 gPanel
 ;
@@ -81,7 +80,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -91,10 +89,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -163,10 +157,12 @@ point
 }
 )
 ;
-gDebuggee
-.
-debuggerThenThrow
+callInTab
 (
+gTab
+"
+debuggerThenThrow
+"
 )
 ;
 }
@@ -177,10 +173,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;

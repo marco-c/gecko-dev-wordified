@@ -85,7 +85,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )

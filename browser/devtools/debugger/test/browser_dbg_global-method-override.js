@@ -103,7 +103,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )

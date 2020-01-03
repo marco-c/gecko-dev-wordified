@@ -65,7 +65,6 @@ bug
 /
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -104,7 +103,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -114,10 +112,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -233,10 +227,12 @@ gPanel
 }
 )
 ;
-gDebuggee
-.
-runDebuggerStatement
+callInTab
 (
+gTab
+"
+runDebuggerStatement
+"
 )
 ;
 }
@@ -452,10 +448,6 @@ _testPL
 ;
 }
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
