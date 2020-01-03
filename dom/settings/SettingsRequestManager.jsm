@@ -117,9 +117,6 @@ this
 EXPORTED_SYMBOLS
 =
 [
-"
-SettingsRequestManager
-"
 ]
 ;
 Cu
