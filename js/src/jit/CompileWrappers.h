@@ -504,8 +504,6 @@ addressOfNeedsIncrementalBarrier
 ;
 /
 /
-allocator
-.
 arenas
 .
 getFreeList

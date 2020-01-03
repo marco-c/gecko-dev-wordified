@@ -1677,9 +1677,6 @@ TP_FATAL
 class
 ExclusiveContext
 ;
-class
-Allocator
-;
 enum
 ThingRootKind
 {
