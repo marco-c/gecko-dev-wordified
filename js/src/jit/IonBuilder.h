@@ -5005,14 +5005,6 @@ CallInfo
 callInfo
 )
 ;
-InliningStatus
-inlineArraySplice
-(
-CallInfo
-&
-callInfo
-)
-;
 /
 /
 Math

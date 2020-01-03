@@ -348,11 +348,6 @@ NewArrayDynamicLength
 \
 _
 (
-ArraySplice
-)
-\
-_
-(
 NewObject
 )
 \
