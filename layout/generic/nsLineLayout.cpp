@@ -655,6 +655,15 @@ mTrimmableISize
 =
 0
 ;
+#
+ifdef
+DEBUG
+mFinalLineBSize
+=
+nscoord_MIN
+;
+#
+endif
 mInflationMinFontSize
 =
 nsLayoutUtils
