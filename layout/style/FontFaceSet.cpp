@@ -3544,7 +3544,7 @@ CreateForRule
 GetParentObject
 (
 )
-mPresContext
+this
 rule
 )
 ;

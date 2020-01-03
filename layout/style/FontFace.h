@@ -144,9 +144,6 @@ gfxFontFaceBufferSource
 class
 nsCSSFontFaceRule
 ;
-class
-nsPresContext
-;
 namespace
 mozilla
 {
@@ -386,9 +383,9 @@ CreateForRule
 nsISupports
 *
 aGlobal
-nsPresContext
+FontFaceSet
 *
-aPresContext
+aFontFaceSet
 nsCSSFontFaceRule
 *
 aRule
@@ -1000,9 +997,9 @@ FontFace
 nsISupports
 *
 aParent
-nsPresContext
+FontFaceSet
 *
-aPresContext
+aFontFaceSet
 )
 ;
 ~
@@ -1208,10 +1205,6 @@ nsCOMPtr
 nsISupports
 >
 mParent
-;
-nsPresContext
-*
-mPresContext
 ;
 /
 /
