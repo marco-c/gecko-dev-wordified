@@ -1396,6 +1396,9 @@ true
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 CleanupInitResultHandler
 MOZ_FINAL
 :
@@ -1576,6 +1579,9 @@ mRes
 }
 ;
 class
+BluetoothHfpManager
+:
+:
 InitResultHandlerRunnable
 MOZ_FINAL
 :
@@ -1630,6 +1636,9 @@ mRes
 }
 ;
 class
+BluetoothHfpManager
+:
+:
 OnErrorProfileResultHandlerRunnable
 MOZ_FINAL
 :
@@ -2077,6 +2086,9 @@ this
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 CleanupResultHandler
 MOZ_FINAL
 :
@@ -2174,6 +2186,9 @@ mRes
 }
 ;
 class
+BluetoothHfpManager
+:
+:
 DeinitResultHandlerRunnable
 MOZ_FINAL
 :
@@ -2919,6 +2934,9 @@ parameters
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 VolumeControlResultHandler
 MOZ_FINAL
 :
@@ -3690,6 +3708,9 @@ nullptr
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 ClccResponseResultHandler
 MOZ_FINAL
 :
@@ -3855,6 +3876,9 @@ ClccResponseResultHandler
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 FormattedAtResponseResultHandler
 MOZ_FINAL
 :
@@ -3923,6 +3947,9 @@ FormattedAtResponseResultHandler
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 AtResponseResultHandler
 MOZ_FINAL
 :
@@ -3990,6 +4017,9 @@ AtResponseResultHandler
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 PhoneStateChangeResultHandler
 MOZ_FINAL
 :
@@ -4149,6 +4179,9 @@ PhoneStateChangeResultHandler
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 DeviceStatusNotificationResultHandler
 MOZ_FINAL
 :
@@ -5526,6 +5559,9 @@ CALL_STATE_CONNECTED
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 ConnectAudioResultHandler
 MOZ_FINAL
 :
@@ -5622,6 +5658,9 @@ true
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 DisconnectAudioResultHandler
 MOZ_FINAL
 :
@@ -5769,6 +5808,9 @@ Truncate
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 ConnectResultHandler
 MOZ_FINAL
 :
@@ -5966,6 +6008,9 @@ ERR_CONNECTION_FAILED
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 DisconnectResultHandler
 MOZ_FINAL
 :
@@ -7171,6 +7216,9 @@ HFP_AT_RESPONSE_OK
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 CindResponseResultHandler
 MOZ_FINAL
 :
@@ -7280,6 +7328,9 @@ CindResponseResultHandler
 ;
 }
 class
+BluetoothHfpManager
+:
+:
 CopsResponseResultHandler
 MOZ_FINAL
 :
