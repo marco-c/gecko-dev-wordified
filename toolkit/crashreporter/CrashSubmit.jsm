@@ -696,7 +696,13 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
+parseInt
+(
+'
 0700
+'
+8
+)
 )
 ;
 path
