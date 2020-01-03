@@ -3490,17 +3490,6 @@ windows
 ;
 codes
 [
-1536
-]
-=
-"
-us
--
-ascii
-"
-;
-codes
-[
 1584
 ]
 =
