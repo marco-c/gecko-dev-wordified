@@ -352,7 +352,7 @@ nullptr
 )
 ;
 enum
-pinning_enforcement_config
+PinningMode
 {
 pinningDisabled
 =
@@ -433,8 +433,8 @@ ocsp_strict_config
 osc
 ocsp_get_config
 ogc
-pinning_enforcement_config
-pinningEnforcementLevel
+PinningMode
+pinningMode
 )
 ;
 ~
@@ -467,8 +467,8 @@ bool
 mOCSPGETEnabled
 ;
 const
-pinning_enforcement_config
-mPinningEnforcementLevel
+PinningMode
+mPinningMode
 ;
 private
 :
