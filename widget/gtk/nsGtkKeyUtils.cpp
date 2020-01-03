@@ -6046,7 +6046,7 @@ eKeyPress
 "
 :
 "
-NS_KEY_UP
+eKeyUp
 "
 )
 GetBoolName

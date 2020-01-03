@@ -8227,7 +8227,7 @@ event
 mMessage
 !
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 ALOG
@@ -8861,7 +8861,7 @@ AKEY_EVENT_ACTION_UP
 :
 msg
 =
-NS_KEY_UP
+eKeyUp
 ;
 break
 ;
@@ -9451,7 +9451,7 @@ WidgetKeyboardEvent
 upEvent
 (
 true
-NS_KEY_UP
+eKeyUp
 this
 )
 ;

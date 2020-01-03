@@ -1212,7 +1212,7 @@ Must
 be
 NS_KEY_DOWN
 or
-NS_KEY_UP
+eKeyUp
 .
 *
 Use
@@ -1964,7 +1964,7 @@ aMessage
 Must
 be
 NS_KEY_DOWN
-NS_KEY_UP
+eKeyUp
 or
 eKeyPress
 .

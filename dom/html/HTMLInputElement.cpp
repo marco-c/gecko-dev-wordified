@@ -17687,7 +17687,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 WidgetKeyboardEvent
@@ -21406,7 +21406,7 @@ case
 eKeyPress
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 /
@@ -21476,7 +21476,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 &
 &
 keyEvent
@@ -22479,7 +22479,7 @@ break
 eKeyPress
 |
 |
-NS_KEY_UP
+eKeyUp
 case
 NS_MOUSE_BUTTON_DOWN
 :

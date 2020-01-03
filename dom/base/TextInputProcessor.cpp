@@ -4850,7 +4850,7 @@ mDispatcher
 >
 DispatchKeyboardEvent
 (
-NS_KEY_UP
+eKeyUp
 keyEvent
 status
 GetDispatchTo

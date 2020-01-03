@@ -738,7 +738,7 @@ break
 #
 endif
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 WidgetKeyboardEvent

@@ -43374,7 +43374,7 @@ keyup
 )
 msg
 =
-NS_KEY_UP
+eKeyUp
 ;
 else
 if

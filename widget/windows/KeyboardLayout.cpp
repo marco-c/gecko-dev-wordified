@@ -6979,7 +6979,7 @@ sUniqueKeyEventId
 break
 ;
 case
-NS_KEY_UP
+eKeyUp
 :
 aKeyEvent
 .
@@ -8242,7 +8242,7 @@ WidgetKeyboardEvent
 keyupEvent
 (
 true
-NS_KEY_UP
+eKeyUp
 mWidget
 )
 ;
@@ -10131,7 +10131,7 @@ WidgetKeyboardEvent
 keyupEvent
 (
 true
-NS_KEY_UP
+eKeyUp
 mWidget
 )
 ;

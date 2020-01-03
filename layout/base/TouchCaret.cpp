@@ -4233,7 +4233,7 @@ LaunchExpirationTimer
 break
 ;
 case
-NS_KEY_UP
+eKeyUp
 :
 case
 NS_KEY_DOWN

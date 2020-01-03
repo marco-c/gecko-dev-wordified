@@ -1794,7 +1794,7 @@ DispatchKeyUpEvent
 {
 DispatchKeyEventInternal
 (
-NS_KEY_UP
+eKeyUp
 )
 ;
 }
