@@ -1615,7 +1615,7 @@ patternTransform
 ;
 patternMatrix
 .
-Scale
+PreScale
 (
 scale
 scale
@@ -1623,7 +1623,7 @@ scale
 ;
 patternMatrix
 .
-Translate
+PreTranslate
 (
 minx
 miny
@@ -2704,7 +2704,7 @@ compensate
 patternMatrix
 -
 >
-Scale
+PreScale
 (
 patternWidth
 /

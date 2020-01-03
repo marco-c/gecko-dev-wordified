@@ -1693,7 +1693,7 @@ appUnitsPerDevPx
 ;
 imageTransform
 .
-Scale
+PreScale
 (
 pageZoomFactor
 pageZoomFactor

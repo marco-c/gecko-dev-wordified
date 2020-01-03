@@ -4262,7 +4262,7 @@ Y
 Flipping
 viewMatrix
 .
-Translate
+PreTranslate
 (
 -
 1
@@ -4276,7 +4276,7 @@ Translate
 ;
 viewMatrix
 .
-Scale
+PreScale
 (
 2
 .
@@ -4305,7 +4305,7 @@ else
 {
 viewMatrix
 .
-Translate
+PreTranslate
 (
 -
 1
@@ -4318,7 +4318,7 @@ Translate
 ;
 viewMatrix
 .
-Scale
+PreScale
 (
 2
 .
@@ -4344,7 +4344,7 @@ height
 ;
 viewMatrix
 .
-Scale
+PreScale
 (
 1
 .
@@ -4364,7 +4364,7 @@ mTarget
 {
 viewMatrix
 .
-Translate
+PreTranslate
 (
 mRenderOffset
 .
@@ -8227,7 +8227,7 @@ transform
 ;
 transform
 .
-Translate
+PreTranslate
 (
 0
 .
@@ -8239,7 +8239,7 @@ Translate
 ;
 transform
 .
-Scale
+PreScale
 (
 1
 .
@@ -9904,7 +9904,7 @@ Invert
 ;
 glToCairoTransform
 .
-Scale
+PreScale
 (
 1
 .
@@ -9917,7 +9917,7 @@ Scale
 ;
 glToCairoTransform
 .
-Translate
+PreTranslate
 (
 0
 .

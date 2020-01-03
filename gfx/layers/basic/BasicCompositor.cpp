@@ -1771,7 +1771,7 @@ As2D
 ;
 maskTransform
 .
-Translate
+PreTranslate
 (
 -
 offset
