@@ -2708,6 +2708,10 @@ PlaybackEnded
 )
 )
 ;
+StopPlayAndPauseTimer
+(
+)
+;
 if
 (
 NS_IsMainThread
