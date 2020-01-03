@@ -3408,6 +3408,14 @@ ticks
 .
 if
 (
+!
+mStyleRuleRefreshTime
+.
+IsNull
+(
+)
+&
+&
 (
 aTime
 -
