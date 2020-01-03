@@ -10405,7 +10405,7 @@ software
 vsync
 to
 schedule
-composites
+rendering
 pref
 (
 "
@@ -10430,6 +10430,18 @@ gfx
 vsync
 .
 compositor
+"
+true
+)
+;
+pref
+(
+"
+gfx
+.
+vsync
+.
+refreshdriver
 "
 true
 )
