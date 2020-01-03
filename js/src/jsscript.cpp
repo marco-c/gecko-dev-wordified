@@ -467,14 +467,6 @@ mozilla
 :
 RotateLeft
 ;
-typedef
-Rooted
-<
-GlobalObject
-*
->
-RootedGlobalObject
-;
 /
 *
 static
