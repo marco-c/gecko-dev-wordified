@@ -697,12 +697,14 @@ if
 sys
 .
 platform
-=
+!
 =
 '
 win32
 '
-and
+or
+                    
+(
 not
 binary
 .
@@ -714,7 +716,7 @@ exe
 '
 )
 and
-                    
+                     
 not
 os
 .
@@ -728,6 +730,7 @@ binary
 .
 exe
 '
+)
 )
 )
 :
