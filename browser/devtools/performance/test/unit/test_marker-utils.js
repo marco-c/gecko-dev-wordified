@@ -526,7 +526,7 @@ name
 "
 GarbageCollection
 "
-cause
+causeName
 :
 "
 ALLOC_TRIGGER
@@ -568,7 +568,7 @@ name
 "
 GarbageCollection
 "
-cause
+causeName
 :
 "
 NOT_A_GC_REASON
