@@ -120,7 +120,6 @@ profiler
 status
 event
 has
-correct
 totalSize
 :
 {
@@ -142,7 +141,6 @@ profiler
 status
 event
 has
-correct
 position
 :
 {
@@ -152,18 +150,19 @@ position
 }
 )
 ;
-is
+ok
 (
 stats
 .
 generation
+>
+=
 0
 profiler
 -
 status
 event
 has
-correct
 generation
 :
 {
