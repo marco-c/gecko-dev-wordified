@@ -272,6 +272,7 @@ jsm
 const
 {
 LoopRoomsInternal
+timerHandlers
 }
 =
 Cu
