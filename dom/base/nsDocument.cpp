@@ -2842,7 +2842,7 @@ document
 mThisObject
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
