@@ -254,6 +254,7 @@ PTestBridgeMainSubParent
 {
 public
 :
+explicit
 TestBridgeMainSubParent
 (
 Transport
@@ -714,6 +715,7 @@ PTestBridgeMainSubChild
 {
 public
 :
+explicit
 TestBridgeMainSubChild
 (
 Transport

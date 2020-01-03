@@ -157,6 +157,7 @@ PTestOpensOpenedParent
 {
 public
 :
+explicit
 TestOpensOpenedParent
 (
 Transport
@@ -295,6 +296,7 @@ PTestOpensOpenedChild
 {
 public
 :
+explicit
 TestOpensOpenedChild
 (
 Transport

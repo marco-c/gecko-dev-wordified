@@ -141,6 +141,7 @@ ProcessChild
 ;
 public
 :
+explicit
 IPDLUnitTestProcessChild
 (
 ProcessId
