@@ -688,6 +688,11 @@ msg
 case
 ROOM_STATES
 .
+JOINING
+:
+case
+ROOM_STATES
+.
 JOINED
 :
 case
@@ -1934,7 +1939,7 @@ when
 we
 transition
 to
-JOINED
+MEDIA_WAIT
 room
 state
 so
