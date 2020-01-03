@@ -916,13 +916,13 @@ composition
 events
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 2200
 )
 NS_EVENT_MESSAGE
 (
 NS_COMPOSITION_START
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 )
 /
 /
@@ -955,7 +955,7 @@ available
 NS_EVENT_MESSAGE
 (
 NS_COMPOSITION_END
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 +
 1
 )
@@ -1006,7 +1006,7 @@ string
 NS_EVENT_MESSAGE
 (
 NS_COMPOSITION_UPDATE
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 +
 2
 )
@@ -1070,7 +1070,7 @@ event
 NS_EVENT_MESSAGE
 (
 NS_COMPOSITION_CHANGE
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 +
 3
 )
@@ -1143,7 +1143,7 @@ nullptr
 NS_EVENT_MESSAGE
 (
 eCompositionCommitAsIs
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 +
 4
 )
@@ -1205,7 +1205,7 @@ nullptr
 NS_EVENT_MESSAGE
 (
 NS_COMPOSITION_COMMIT
-NS_COMPOSITION_EVENT_START
+eCompositionEventFirst
 +
 5
 )
