@@ -103,6 +103,17 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 PaintedLayerComposite
 .
 h
