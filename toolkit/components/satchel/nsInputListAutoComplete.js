@@ -246,6 +246,7 @@ if
 formHistoryResult
 )
 {
+let
 entries
 =
 formHistoryResult
