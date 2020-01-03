@@ -110,9 +110,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-DecoderData
+MediaData
 .
 h
 "
@@ -746,9 +744,6 @@ Decrypt
 uint32_t
 aId
 const
-mp4_demuxer
-:
-:
 CryptoSample
 &
 aCrypto

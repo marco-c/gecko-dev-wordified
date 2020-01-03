@@ -111,6 +111,13 @@ GMPTypes
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 namespace
 mozilla
 {

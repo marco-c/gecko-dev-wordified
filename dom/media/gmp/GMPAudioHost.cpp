@@ -127,6 +127,15 @@ GMPEncryptedBufferDataImpl
 .
 h
 "
+#
+include
+"
+mp4_demuxer
+/
+DecoderData
+.
+h
+"
 namespace
 mozilla
 {
@@ -470,9 +479,6 @@ GMPAudioSamplesImpl
 InitCrypto
 (
 const
-mp4_demuxer
-:
-:
 CryptoSample
 &
 aCrypto

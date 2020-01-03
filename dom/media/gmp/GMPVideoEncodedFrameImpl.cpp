@@ -376,9 +376,6 @@ GMPVideoEncodedFrameImpl
 InitCrypto
 (
 const
-mp4_demuxer
-:
-:
 CryptoSample
 &
 aCrypto
