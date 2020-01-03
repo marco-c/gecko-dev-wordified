@@ -20879,6 +20879,8 @@ img
 -
 src
 *
+data
+:
 ;
 font
 -
@@ -20994,6 +20996,8 @@ img
 -
 src
 *
+data
+:
 ;
 font
 -
