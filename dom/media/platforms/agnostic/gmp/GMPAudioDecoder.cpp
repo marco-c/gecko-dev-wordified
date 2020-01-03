@@ -419,14 +419,6 @@ value
 (
 )
 ;
-MOZ_ASSERT
-(
-mAudioFrameOffset
->
-=
-0
-)
-;
 mMustRecaptureAudioPosition
 =
 false
