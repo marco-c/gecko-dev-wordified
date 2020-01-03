@@ -12503,6 +12503,8 @@ JS_ASSERT
 (
 !
 SupportsSimd
+(
+)
 &
 &
 simdSet
@@ -12723,6 +12725,8 @@ JS_ASSERT
 (
 !
 SupportsSimd
+(
+)
 &
 &
 simdSet
