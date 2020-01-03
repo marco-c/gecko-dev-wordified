@@ -12196,11 +12196,6 @@ change
 )
 ;
 }
-EnsureDocument
-(
-mPresContext
-)
-;
 nsContentUtils
 :
 :
