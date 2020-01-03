@@ -4304,8 +4304,17 @@ pane
 for
 a
 new
+non
+-
+webapp
 profile
 .
+if
+(
+!
+mIsWebAppProfile
+)
+{
 final
 SharedPreferences
 prefs
@@ -4335,6 +4344,7 @@ apply
 (
 )
 ;
+}
 return
 profileDir
 ;
