@@ -241,9 +241,6 @@ Collector
 class
 MinorCollectionTracer
 ;
-class
-ForkJoinNursery
-;
 }
 /
 *
