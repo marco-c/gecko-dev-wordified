@@ -4038,9 +4038,9 @@ checkbox
 "
 ]
 {
-opacity
+visibility
 :
-0
+hidden
 ;
 position
 :
@@ -4852,7 +4852,7 @@ Category
 List
 *
 /
-xul
+*
 |
 *
 #
@@ -4899,7 +4899,7 @@ width
 0
 ;
 }
-xul
+*
 |
 *
 .
@@ -4970,7 +4970,7 @@ color
 150ms
 ;
 }
-xul
+*
 |
 *
 .
@@ -4998,7 +4998,7 @@ hover
 )
 ;
 }
-xul
+*
 |
 *
 .
@@ -5083,7 +5083,7 @@ highlight
 )
 ;
 }
-xul
+*
 |
 *
 #
@@ -5103,7 +5103,7 @@ moz
 -
 focusring
 >
-xul
+*
 |
 *
 .
