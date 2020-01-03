@@ -50710,7 +50710,6 @@ accService
 ContentRemoved
 (
 mPresShell
-aContainer
 aChild
 )
 ;

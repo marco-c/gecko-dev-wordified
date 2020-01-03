@@ -8045,12 +8045,6 @@ PresShell
 (
 )
 content
--
->
-GetParent
-(
-)
-content
 )
 ;
 }
