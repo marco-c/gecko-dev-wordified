@@ -8928,7 +8928,7 @@ log
 error
 (
 "
-UITour
+addNavBarWidget
 :
 can
 '
@@ -8940,10 +8940,7 @@ already
 present
 :
 "
-+
-data
-.
-target
+aTarget
 )
 ;
 return
@@ -8962,7 +8959,7 @@ log
 error
 (
 "
-UITour
+addNavBarWidget
 :
 not
 allowed
@@ -8972,10 +8969,7 @@ this
 widget
 :
 "
-+
-data
-.
-target
+aTarget
 )
 ;
 return
@@ -8994,7 +8988,7 @@ log
 error
 (
 "
-UITour
+addNavBarWidget
 :
 can
 '
@@ -9008,10 +9002,7 @@ widgetName
 property
 :
 "
-+
-data
-.
-target
+aTarget
 )
 ;
 return
