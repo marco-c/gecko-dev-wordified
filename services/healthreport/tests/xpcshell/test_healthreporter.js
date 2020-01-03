@@ -5258,8 +5258,9 @@ id
 Client
 ID
 should
-be
-updated
+stay
+the
+same
 .
 do_check_neq
 (
@@ -5271,7 +5272,7 @@ clientID
 null
 )
 ;
-do_check_neq
+do_check_eq
 (
 reporter
 .
