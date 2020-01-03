@@ -210,6 +210,7 @@ mDuration
 WEBAUDIO_BLOCK_SIZE
 ;
 }
+MOZ_IMPLICIT
 AudioBlock
 (
 const
