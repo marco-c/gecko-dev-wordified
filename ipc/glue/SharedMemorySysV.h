@@ -296,6 +296,7 @@ nullptr
 )
 {
 }
+explicit
 SharedMemorySysV
 (
 Handle

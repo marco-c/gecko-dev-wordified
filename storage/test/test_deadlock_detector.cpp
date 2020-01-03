@@ -243,6 +243,7 @@ SQLiteMutex
 {
 public
 :
+explicit
 TestMutex
 (
 const
@@ -537,6 +538,7 @@ mStdout
 nsCString
 mStderr
 ;
+explicit
 Subprocess
 (
 const

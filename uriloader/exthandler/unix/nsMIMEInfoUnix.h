@@ -112,6 +112,7 @@ nsMIMEInfoImpl
 {
 public
 :
+explicit
 nsMIMEInfoUnix
 (
 const
@@ -129,6 +130,7 @@ aMIMEType
 )
 {
 }
+explicit
 nsMIMEInfoUnix
 (
 const

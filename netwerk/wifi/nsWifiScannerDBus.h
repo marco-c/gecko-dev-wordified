@@ -93,6 +93,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 nsWifiScannerDBus
 (
 nsCOMArray

@@ -473,6 +473,7 @@ struct
 MOZ_STACK_CLASS
 AutoDir
 {
+explicit
 AutoDir
 (
 DIR
@@ -528,6 +529,7 @@ struct
 MOZ_STACK_CLASS
 AutoFile
 {
+explicit
 AutoFile
 (
 FILE
