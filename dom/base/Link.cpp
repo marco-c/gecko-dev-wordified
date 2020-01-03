@@ -2402,7 +2402,7 @@ if
 nsContentUtils
 :
 :
-EncodeDecodeURLHash
+GettersDecodeURLHash
 (
 )
 )

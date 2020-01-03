@@ -19545,7 +19545,7 @@ converter
 nsContentUtils
 :
 :
-EncodeDecodeURLHash
+GettersDecodeURLHash
 (
 )
 )
