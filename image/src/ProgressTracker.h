@@ -860,8 +860,9 @@ forgotten
 about
 .
 All
-except
-OnImageAvailable
+of
+these
+notifications
 are
 main
 thread
