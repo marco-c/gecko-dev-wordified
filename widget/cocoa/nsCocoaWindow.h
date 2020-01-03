@@ -1717,13 +1717,9 @@ aShouldHide
 override
 ;
 virtual
-bool
-PrepareForFullscreenTransition
+void
+PrepareForDOMFullscreenTransition
 (
-nsISupports
-*
-*
-aData
 )
 override
 ;
