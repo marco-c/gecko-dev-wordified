@@ -24518,6 +24518,8 @@ imgSize
 Element
 *
 element
+=
+nullptr
 ;
 EnsureTarget
 (
