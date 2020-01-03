@@ -3027,11 +3027,13 @@ options
 if
 (
 !
+(
 "
 publishVideo
 "
 in
 options
+)
 )
 {
 throw
