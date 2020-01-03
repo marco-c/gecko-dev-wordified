@@ -13409,13 +13409,6 @@ sBadPrefs
 "
 mousewheel
 .
-system_scroll_override_on_root_content
-.
-enabled
-"
-"
-mousewheel
-.
 default
 .
 delta_multiplier_x
