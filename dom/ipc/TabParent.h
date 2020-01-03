@@ -2581,6 +2581,10 @@ PWebBrowserPersistDocumentParent
 *
 AllocPWebBrowserPersistDocumentParent
 (
+const
+uint64_t
+&
+aOuterWindowID
 )
 override
 ;
