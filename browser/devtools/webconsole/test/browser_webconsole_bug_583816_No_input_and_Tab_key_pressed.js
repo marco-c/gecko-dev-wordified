@@ -74,6 +74,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -94,6 +99,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 browser
@@ -143,14 +151,14 @@ testCompletion
 hud
 )
 {
-var
+let
 jsterm
 =
 hud
 .
 jsterm
 ;
-var
+let
 input
 =
 jsterm
@@ -214,6 +222,7 @@ empty
 matched
 "
 )
+;
 is
 (
 input

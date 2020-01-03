@@ -125,6 +125,11 @@ user
 s
 preferences
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

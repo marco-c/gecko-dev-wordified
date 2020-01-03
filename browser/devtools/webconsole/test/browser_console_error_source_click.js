@@ -158,12 +158,12 @@ browserConsoleOpened
 function
 browserConsoleOpened
 (
-aHud
+hudConsole
 )
 {
 hud
 =
-aHud
+hudConsole
 ;
 ok
 (

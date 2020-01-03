@@ -918,6 +918,8 @@ properties
 are
 sorted
 :
+/
+/
 keys
 =
 [
@@ -952,6 +954,8 @@ are
 not
 sorted
 :
+/
+/
 keys
 =
 [

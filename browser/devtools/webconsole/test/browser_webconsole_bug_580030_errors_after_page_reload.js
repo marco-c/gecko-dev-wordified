@@ -125,6 +125,11 @@ cgi
 id
 =
 580030
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -145,6 +150,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

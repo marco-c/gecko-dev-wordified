@@ -45,9 +45,9 @@ while
 paused
 at
 a
+/
+/
 breakpoint
-/
-/
 that
 was
 triggered
@@ -60,11 +60,11 @@ Relies
 on
 asynchronous
 js
+/
+/
 evaluation
 over
 the
-/
-/
 protocol
 -
 see
@@ -96,6 +96,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -161,7 +164,6 @@ debugger
 ;
 let
 {
-panel
 panelWin
 }
 =
@@ -180,7 +182,6 @@ panelWin
 let
 {
 activeThread
-StackFrames
 }
 =
 DebuggerController
@@ -355,7 +356,6 @@ Checking
 the
 first
 command
-(
 which
 is
 the
@@ -364,6 +364,9 @@ to
 resolve
 since
 it
+"
++
+"
 paused
 "
 )

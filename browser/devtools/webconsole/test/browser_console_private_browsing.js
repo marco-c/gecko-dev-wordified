@@ -59,6 +59,11 @@ of
 expected
 behavior
 .
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -1215,9 +1220,9 @@ displayed
 after
 closing
 the
+/
+/
 private
-/
-/
 window
 and
 reopening

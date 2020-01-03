@@ -90,6 +90,11 @@ See
 bug
 900448
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -112,6 +117,9 @@ bug
 900448
 -
 autocomplete
+"
++
+"
 popup
 closes
 on

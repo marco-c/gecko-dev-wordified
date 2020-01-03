@@ -47,6 +47,11 @@ See
 bug
 859756
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

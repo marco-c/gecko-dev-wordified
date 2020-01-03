@@ -76,6 +76,11 @@ See
 bug
 760193
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -96,6 +101,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

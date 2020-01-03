@@ -74,6 +74,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_REPLACED_API_URI
 =
@@ -92,6 +97,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -127,6 +135,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 testscript

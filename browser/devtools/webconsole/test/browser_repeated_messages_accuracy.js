@@ -106,6 +106,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -238,6 +241,8 @@ they
 come
 from
 different
+/
+/
 lines
 .
 info
@@ -463,6 +468,7 @@ repeats
 ]
 }
 )
+;
 }
 function
 testConsoleRepeats

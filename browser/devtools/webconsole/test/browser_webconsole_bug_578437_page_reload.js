@@ -88,6 +88,11 @@ a
 page
 reload
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -108,6 +113,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

@@ -135,6 +135,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -164,6 +167,9 @@ docs
 /
 Security
 /
+"
++
+"
 MixedContent
 "
 ;
@@ -228,6 +234,9 @@ insecure
 )
 active
 content
+"
++
+"
 \
 "
 http
@@ -276,6 +285,9 @@ insecure
 )
 display
 content
+"
++
+"
 \
 "
 http
@@ -298,6 +310,9 @@ blue
 .
 png
 \
+"
+"
++
 "
 on
 a

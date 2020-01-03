@@ -42,6 +42,11 @@ helper
 function
 works
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

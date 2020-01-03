@@ -52,6 +52,11 @@ the
 Web
 Console
 .
+"
+use
+strict
+"
+;
 function
 test
 (

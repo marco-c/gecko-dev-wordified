@@ -155,6 +155,11 @@ in
 the
 Web
 Console
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -175,6 +180,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -204,6 +212,9 @@ docs
 /
 Security
 /
+"
++
+"
 MixedContent
 "
 ;
@@ -478,7 +489,6 @@ popupshown
 function
 onShown
 (
-e
 )
 {
 PopupNotifications
@@ -515,7 +525,7 @@ hud
 browser
 )
 {
-var
+let
 notification
 =
 PopupNotifications
@@ -655,6 +665,9 @@ insecure
 )
 active
 content
+"
++
+"
 \
 "
 http
@@ -666,9 +679,6 @@ example
 com
 /
 \
-"
-"
-+
 "
 on
 a

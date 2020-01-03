@@ -44,6 +44,11 @@ reload
 bug
 793996
 .
+"
+use
+strict
+"
+;
 const
 PREF
 =
@@ -75,6 +80,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

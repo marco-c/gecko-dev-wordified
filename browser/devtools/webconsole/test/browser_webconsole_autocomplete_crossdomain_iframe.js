@@ -51,6 +51,11 @@ domain
 bug
 989025
 .
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -79,6 +84,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -128,11 +136,11 @@ jsterm
 .
 execute
 (
-'
+"
 document
 .
 title
-'
+"
 )
 ;
 yield

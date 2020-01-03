@@ -98,6 +98,9 @@ utf8
 test
 autocompletion
 with
+"
++
+"
 or
 _
 "

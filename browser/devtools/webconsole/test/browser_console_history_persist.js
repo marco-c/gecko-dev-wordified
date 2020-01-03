@@ -577,6 +577,8 @@ UP
 arrow
 accurately
 navigates
+/
+/
 history
 .
 hud3
@@ -937,10 +939,10 @@ jsterm
 .
 history
 )
-'
+"
 [
 ]
-'
+"
 "
 Clearing
 history
@@ -977,10 +979,10 @@ jsterm
 .
 history
 )
-'
+"
 [
 ]
-'
+"
 "
 Clearing
 history
