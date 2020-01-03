@@ -925,6 +925,10 @@ basename
 '
         
 '
+install_target
+'
+        
+'
 source_path
 '
     
@@ -970,6 +974,17 @@ self
 module
 =
 module
+        
+self
+.
+install_target
+=
+context
+[
+'
+FINAL_TARGET
+'
+]
 class
 Defines
 (
