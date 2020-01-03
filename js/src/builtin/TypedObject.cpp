@@ -9228,9 +9228,8 @@ if
 !
 buffer
 )
-MOZ_CRASH
-(
-)
+return
+false
 ;
 args
 .
