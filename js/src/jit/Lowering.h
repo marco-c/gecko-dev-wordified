@@ -1388,6 +1388,14 @@ ins
 )
 ;
 void
+visitSetDisjointTypedElements
+(
+MSetDisjointTypedElements
+*
+ins
+)
+;
+void
 visitTypedObjectElements
 (
 MTypedObjectElements

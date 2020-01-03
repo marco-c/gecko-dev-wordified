@@ -1359,6 +1359,14 @@ lir
 )
 ;
 void
+visitSetDisjointTypedElements
+(
+LSetDisjointTypedElements
+*
+lir
+)
+;
+void
 visitTypedObjectElements
 (
 LTypedObjectElements
