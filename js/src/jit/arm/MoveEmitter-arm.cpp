@@ -137,7 +137,7 @@ MoveEmitterARM
 :
 MoveEmitterARM
 (
-MacroAssemblerARMCompat
+MacroAssembler
 &
 masm
 )
