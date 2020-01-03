@@ -16727,7 +16727,7 @@ isObject
 )
 &
 &
-JS_IsTypedArrayObject
+JS_IsArrayBufferViewObject
 (
 valObj
 )
