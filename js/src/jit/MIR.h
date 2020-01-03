@@ -1045,7 +1045,7 @@ use
 .
 inline
 void
-discardProducer
+releaseProducer
 (
 )
 ;
@@ -1488,7 +1488,7 @@ s
 producer
 .
 void
-discardOperand
+releaseOperand
 (
 size_t
 index
@@ -1500,7 +1500,7 @@ index
 )
 -
 >
-discardProducer
+releaseProducer
 (
 )
 ;
@@ -52638,7 +52638,7 @@ mode_
 ;
 }
 void
-discardUses
+releaseUses
 (
 )
 {
@@ -52678,7 +52678,7 @@ operands_
 i
 ]
 .
-discardProducer
+releaseProducer
 (
 )
 ;
@@ -55197,7 +55197,7 @@ void
 MUse
 :
 :
-discardProducer
+releaseProducer
 (
 )
 {

@@ -1692,7 +1692,7 @@ Assuming
 phi
 is
 dead
-discard
+release
 its
 operands
 .
@@ -1721,7 +1721,7 @@ bool
 ValueNumberer
 :
 :
-discardPhiOperands
+releasePhiOperands
 (
 MPhi
 *
@@ -1857,7 +1857,7 @@ Assuming
 ins
 is
 dead
-discard
+release
 its
 operands
 .
@@ -1879,7 +1879,7 @@ bool
 ValueNumberer
 :
 :
-discardInsOperands
+releaseInsOperands
 (
 MInstruction
 *
@@ -1928,7 +1928,7 @@ o
 ins
 -
 >
-discardOperand
+releaseOperand
 (
 o
 )
@@ -2084,7 +2084,7 @@ block
 if
 (
 !
-discardPhiOperands
+releasePhiOperands
 (
 phi
 phiBlock
@@ -2131,7 +2131,7 @@ toInstruction
 if
 (
 !
-discardInsOperands
+releaseInsOperands
 (
 ins
 useRemovedOption
@@ -4497,7 +4497,7 @@ false
 if
 (
 !
-discardInsOperands
+releaseInsOperands
 (
 control
 )

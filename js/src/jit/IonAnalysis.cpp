@@ -403,7 +403,7 @@ entryResumePoint
 rp
 -
 >
-discardUses
+releaseUses
 (
 )
 ;
