@@ -63,6 +63,8 @@ MPL
 /
 .
 import
+base64
+import
 cgi
 from
 datetime
@@ -1127,9 +1129,6 @@ items
 )
 :
                 
-try
-:
-                    
 if
 '
 screenshot
@@ -1137,16 +1136,16 @@ screenshot
 in
 name
 :
-                        
+                    
 href
 =
 '
 #
 '
-                    
+                
 else
 :
-                        
+                    
 #
 use
 base64
@@ -1161,7 +1160,7 @@ as
 Firefox
 Opera
 )
-                        
+                    
 #
 treats
 '
@@ -1179,7 +1178,7 @@ data
 URL
 contains
 .
-                        
+                    
 #
 use
 '
@@ -1196,7 +1195,7 @@ characters
 like
 Chinese
 .
-                        
+                    
 href
 =
 '
@@ -1223,7 +1222,7 @@ b64encode
 (
 content
 )
-                    
+                
 links_html
 .
 append
@@ -1232,21 +1231,21 @@ html
 .
 a
 (
-                        
+                    
 name
 .
 title
 (
 )
-                        
+                    
 class_
 =
 name
-                        
+                    
 href
 =
 href
-                        
+                    
 target
 =
 '
@@ -1254,7 +1253,7 @@ _blank
 '
 )
 )
-                    
+                
 links_html
 .
 append
@@ -1262,11 +1261,6 @@ append
 '
 '
 )
-                
-except
-:
-                    
-pass
             
 log
 =
