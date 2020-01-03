@@ -2161,7 +2161,7 @@ NS_PRECONDITION
 (
 aReflowState
 .
-ComputedWidth
+ComputedISize
 (
 )
 !
@@ -2172,7 +2172,9 @@ Should
 have
 a
 precomputed
-width
+inline
+-
+size
 !
 "
 )
