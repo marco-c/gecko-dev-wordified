@@ -14331,6 +14331,12 @@ case
 Bailout_NonSymbolInput
 :
 case
+Bailout_NonSimdInt32x4Input
+:
+case
+Bailout_NonSimdFloat32x4Input
+:
+case
 Bailout_InitialState
 :
 case
