@@ -558,6 +558,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 registerCleanupFunction
 (
 (
@@ -630,6 +635,10 @@ finishUp
 (
 )
 {
+longString
+=
+initialString
+=
 inputTests
 =
 null

@@ -551,6 +551,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Task
 .
 spawn
@@ -602,6 +607,8 @@ finishUp
 )
 {
 inputTests
+=
+dateNow
 =
 null
 ;

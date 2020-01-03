@@ -58,6 +58,11 @@ open
 those
 URLs
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

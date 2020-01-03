@@ -48,11 +48,6 @@ zero
 /
 *
 /
-"
-use
-strict
-"
-;
 /
 /
 Test
@@ -84,6 +79,11 @@ bug
 1035198
 )
 .
+"
+use
+strict
+;
+"
 const
 TEST_CASES
 =

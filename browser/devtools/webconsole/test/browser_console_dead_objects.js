@@ -119,6 +119,11 @@ the
 dead
 object
 .
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =

@@ -75,6 +75,11 @@ bug
 975707
 )
 .
+"
+use
+strict
+"
+;
 function
 test
 (

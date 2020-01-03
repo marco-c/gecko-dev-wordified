@@ -90,6 +90,11 @@ about
 :
 credits
 .
+"
+use
+strict
+"
+;
 function
 test
 (

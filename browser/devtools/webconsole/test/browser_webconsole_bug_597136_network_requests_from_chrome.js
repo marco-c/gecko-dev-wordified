@@ -253,6 +253,8 @@ listener
 ;
 listener
 =
+xhr
+=
 null
 ;
 finishTest

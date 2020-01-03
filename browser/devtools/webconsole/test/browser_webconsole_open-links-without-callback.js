@@ -78,6 +78,11 @@ bug
 999236
 )
 .
+"
+use
+strict
+"
+;
 function
 test
 (

@@ -162,6 +162,7 @@ intended
 let
 inspector
 h1
+outputNode
 ;
 function
 createDocument
@@ -546,6 +547,10 @@ node
 ;
 openInspector
 (
+)
+.
+then
+(
 runSelectionTests
 )
 ;
@@ -852,6 +857,8 @@ updated
 inspector
 =
 h1
+=
+outputNode
 =
 null
 ;

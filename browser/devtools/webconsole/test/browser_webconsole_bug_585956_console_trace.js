@@ -74,6 +74,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
