@@ -300,6 +300,9 @@ nsIURI
 *
 aCodebase
 const
+mozilla
+:
+:
 OriginAttributes
 &
 aOriginAttributes
