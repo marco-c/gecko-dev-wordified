@@ -955,10 +955,10 @@ CancelFromStyle
 ;
 MOZ_ASSERT
 (
-mSequenceNum
+mAnimationIndex
 =
 =
-kUnsequenced
+kNoIndex
 )
 ;
 }
@@ -1014,7 +1014,7 @@ IsUsingCustomCompositeOrder
 )
 )
 ;
-mSequenceNum
+mAnimationIndex
 =
 aIndex
 ;

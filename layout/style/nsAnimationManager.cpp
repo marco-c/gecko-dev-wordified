@@ -1095,12 +1095,12 @@ animation
 -
 name
 return
-mSequenceNum
+mAnimationIndex
 <
 otherAnimation
 -
 >
-mSequenceNum
+mAnimationIndex
 ;
 }
 void
