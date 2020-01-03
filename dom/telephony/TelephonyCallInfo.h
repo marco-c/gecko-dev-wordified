@@ -174,10 +174,6 @@ aCallState
 const
 nsAString
 &
-aDisconnectedReason
-const
-nsAString
-&
 aNumber
 uint16_t
 aNumberPresentation
@@ -232,9 +228,6 @@ mCallIndex
 ;
 uint16_t
 mCallState
-;
-nsString
-mDisconnectedReason
 ;
 nsString
 mNumber
