@@ -1208,11 +1208,17 @@ include
 state
 .
 tests_path
-                                         
+                                                   
 state
 .
 metadata_path
 ]
+)
+        
+local_tree
+.
+commit_patch
+(
 )
         
 if
