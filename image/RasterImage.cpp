@@ -5952,7 +5952,7 @@ aNewRefreshArea
 }
 }
 }
-nsresult
+void
 RasterImage
 :
 :
@@ -5979,7 +5979,6 @@ mError
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -6017,7 +6016,6 @@ height
 )
 {
 return
-NS_ERROR_INVALID_ARG
 ;
 }
 MOZ_ASSERT
@@ -6100,7 +6098,6 @@ DoError
 )
 ;
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 /
@@ -6375,9 +6372,6 @@ intwrapy
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 RasterImage

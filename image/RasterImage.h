@@ -2470,7 +2470,7 @@ decode
 .
 *
 /
-nsresult
+void
 SetMetadata
 (
 const
