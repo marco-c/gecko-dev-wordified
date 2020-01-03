@@ -20195,6 +20195,12 @@ nextFullGCTime
 <
 =
 now
+&
+&
+!
+isIncrementalGCInProgress
+(
+)
 )
 {
 if
@@ -38972,7 +38978,7 @@ PrepareForFullGC
 rt
 )
 ;
-gcSlice
+gc
 (
 GC_NORMAL
 JS
