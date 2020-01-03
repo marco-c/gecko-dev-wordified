@@ -1712,7 +1712,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 pagehide
-NS_PAGE_HIDE
+ePageHide
 EventNameType_HTMLBodyOrFramesetOnly
 eBasicEventClass
 )
