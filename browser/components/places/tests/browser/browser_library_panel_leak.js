@@ -415,7 +415,13 @@ Clean
 up
 history
 .
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 finish
 )

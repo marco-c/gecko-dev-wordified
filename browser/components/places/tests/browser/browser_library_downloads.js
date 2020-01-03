@@ -457,7 +457,13 @@ close
 (
 )
 ;
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 finish
 )

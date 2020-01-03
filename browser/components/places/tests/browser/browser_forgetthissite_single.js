@@ -207,7 +207,13 @@ function
 /
 /
 Cleanup
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 finish
 )
