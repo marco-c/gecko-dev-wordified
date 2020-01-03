@@ -1063,9 +1063,6 @@ parse_args
 [
 ]
 )
-[
-0
-]
         
 if
 test_path
@@ -2102,7 +2099,6 @@ MochitestOptions
 )
         
 options
-args
 =
 opts
 .
