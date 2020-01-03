@@ -434,7 +434,7 @@ void
 const
 CSSPoint
 &
-int32_t
+Modifiers
 const
 ScrollableLayerGuid
 &
@@ -449,7 +449,7 @@ void
 const
 CSSPoint
 &
-int32_t
+Modifiers
 const
 ScrollableLayerGuid
 &
@@ -464,7 +464,7 @@ void
 const
 CSSPoint
 &
-int32_t
+Modifiers
 const
 ScrollableLayerGuid
 &
@@ -480,7 +480,7 @@ void
 const
 CSSPoint
 &
-int32_t
+Modifiers
 const
 ScrollableLayerGuid
 &

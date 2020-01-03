@@ -158,6 +158,19 @@ MOZ_ASSERT_HELPER2
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+/
+/
+for
+Modifiers
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -356,7 +369,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -422,7 +435,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -467,7 +480,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -575,7 +588,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid

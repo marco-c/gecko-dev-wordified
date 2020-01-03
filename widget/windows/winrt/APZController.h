@@ -231,7 +231,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 mozilla
@@ -256,7 +256,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 mozilla
@@ -281,7 +281,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 mozilla
@@ -308,7 +308,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 mozilla

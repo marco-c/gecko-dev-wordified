@@ -275,7 +275,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -296,7 +296,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -316,7 +316,7 @@ mozilla
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -335,7 +335,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid

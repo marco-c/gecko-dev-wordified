@@ -156,6 +156,19 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+/
+/
+for
+Modifiers
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -843,7 +856,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -951,7 +964,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -1066,7 +1079,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -1178,7 +1191,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
