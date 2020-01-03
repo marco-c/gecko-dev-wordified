@@ -793,14 +793,14 @@ mSecurityImageLevel
 private
 final
 int
-LEVEL_SHIELD
+LEVEL_SHIELD_ENABLED
 =
 3
 ;
 private
 final
 int
-LEVEL_WARNING
+LEVEL_SHIELD_DISABLED
 =
 4
 ;
@@ -2778,7 +2778,7 @@ MIXED_CONTENT_LOADED
 {
 imageLevel
 =
-LEVEL_WARNING
+LEVEL_SHIELD_DISABLED
 ;
 }
 else
@@ -2802,7 +2802,7 @@ MIXED_CONTENT_BLOCKED
 {
 imageLevel
 =
-LEVEL_SHIELD
+LEVEL_SHIELD_ENABLED
 ;
 }
 if
