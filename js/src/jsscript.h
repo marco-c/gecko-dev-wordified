@@ -8212,10 +8212,6 @@ ion
 =
 ionScript
 ;
-resetWarmUpResetCounter
-(
-)
-;
 MOZ_ASSERT_IF
 (
 hasIonScript
