@@ -58196,10 +58196,9 @@ nsTextFrame
 :
 RecomputeOverflow
 (
-const
-nsHTMLReflowState
-&
-aBlockReflowState
+nsIFrame
+*
+aBlockFrame
 )
 {
 nsRect
@@ -58400,9 +58399,7 @@ UnionAdditionalOverflow
 PresContext
 (
 )
-aBlockReflowState
-.
-frame
+aBlockFrame
 provider
 &
 vis

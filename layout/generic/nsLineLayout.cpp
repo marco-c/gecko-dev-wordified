@@ -24542,8 +24542,10 @@ f
 >
 RecomputeOverflow
 (
-*
 mBlockReflowState
+-
+>
+frame
 )
 ;
 }
