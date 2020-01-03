@@ -28340,7 +28340,7 @@ break
 /
 eMouseMove
 and
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 are
 here
 because
@@ -28386,7 +28386,7 @@ case
 eMouseMove
 :
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 if
 (
@@ -28948,7 +28948,7 @@ sLastClickCount
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 event
 .
@@ -29207,7 +29207,7 @@ WM_MOUSEMOVE
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 pluginEvent
 .
@@ -29408,7 +29408,7 @@ sCurrentWindow
 >
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 wParam
 pos
 false
@@ -29470,7 +29470,7 @@ if
 aEventMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 {
 if
@@ -34900,7 +34900,7 @@ and
 /
 send
 an
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 event
 as
 well
@@ -35080,7 +35080,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 mouseState
 pos
 false
@@ -35114,7 +35114,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 wParam
 pos
 false

@@ -16208,7 +16208,7 @@ case
 eMouseEnterIntoWidget
 :
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 case
 NS_MOUSE_OVER

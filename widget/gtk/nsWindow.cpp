@@ -13640,7 +13640,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 this
 WidgetMouseEvent
 :

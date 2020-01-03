@@ -38133,7 +38133,7 @@ pointerId
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 /
 /
@@ -39447,7 +39447,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 {
 /
@@ -43998,7 +43998,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 &
 &

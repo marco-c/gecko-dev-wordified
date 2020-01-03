@@ -375,7 +375,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 eMouseEventFirst
 +
 23

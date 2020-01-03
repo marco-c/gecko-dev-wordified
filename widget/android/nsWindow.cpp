@@ -2188,7 +2188,7 @@ we
 should
 synthesize
 a
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 (
 for
 old

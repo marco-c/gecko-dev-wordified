@@ -43997,7 +43997,7 @@ mouseout
 )
 msg
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 ;
 else
 if
