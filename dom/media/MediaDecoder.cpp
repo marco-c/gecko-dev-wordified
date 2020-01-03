@@ -4548,7 +4548,7 @@ true
 ;
 return
 length
-*
+/
 mDuration
 ;
 }
