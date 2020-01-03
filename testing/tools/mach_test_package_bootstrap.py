@@ -107,6 +107,12 @@ mozhttpd
 '
 mozbase
 /
+mozleak
+'
+    
+'
+mozbase
+/
 mozlog
 '
     

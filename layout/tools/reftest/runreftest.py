@@ -137,8 +137,6 @@ import
 dumpScreen
     
 printstatus
-    
-processLeakLog
 )
 import
 mozcrash
@@ -152,6 +150,8 @@ import
 mozprofile
 import
 mozrunner
+import
+mozleak
 from
 mozrunner
 .
@@ -5389,12 +5389,25 @@ debuggerInfo
 debuggerInfo
 )
       
-processLeakLog
+mozleak
+.
+process_leak_log
 (
+        
 self
 .
 leakLogFile
+        
+leak_thresholds
+=
 options
+.
+leakThresholds
+        
+log
+=
+log
+      
 )
       
 log
