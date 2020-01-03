@@ -118,6 +118,9 @@ MozLoopService
 .
 promiseRegisteredWithServers
 (
+LOOP_SESSION_TYPE
+.
+FXA
 )
 .
 then
@@ -155,7 +158,7 @@ MozLoopService
 .
 channelIDs
 .
-callsGuest
+callsFxA
 )
 ;
 waitForCondition
@@ -251,6 +254,10 @@ run_test
 )
 {
 setupFakeLoopServer
+(
+)
+;
+setupFakeFxAUserProfile
 (
 )
 ;
