@@ -2998,6 +2998,7 @@ proper
 halting
 align
 .
+return
 nopAlign
 (
 alignment
