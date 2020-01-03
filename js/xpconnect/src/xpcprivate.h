@@ -13368,15 +13368,6 @@ mNextChunk
 ;
 }
 ;
-void
-*
-xpc_GetJSPrivate
-(
-JSObject
-*
-obj
-)
-;
 /
 *
 *
