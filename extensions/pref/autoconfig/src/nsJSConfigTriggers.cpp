@@ -731,6 +731,7 @@ script
 filename
 cx
 autoconfigSb
+JSVERSION_LATEST
 &
 v
 )
