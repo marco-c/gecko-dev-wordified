@@ -139,8 +139,6 @@ commonjs
 node
 /
 os
-.
-js
 "
 )
 ;
