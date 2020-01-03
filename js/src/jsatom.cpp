@@ -670,16 +670,6 @@ setter
 ;
 const
 char
-js_super_str
-[
-]
-=
-"
-super
-"
-;
-const
-char
 js_switch_str
 [
 ]

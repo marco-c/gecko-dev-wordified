@@ -3996,6 +3996,11 @@ exprInParens
 )
 ;
 bool
+checkAndMarkSuperScope
+(
+)
+;
+bool
 methodDefinition
 (
 PropListType
