@@ -68236,6 +68236,10 @@ barrier
 return
 false
 ;
+trackOptimizationSuccess
+(
+)
+;
 *
 emitted
 =
