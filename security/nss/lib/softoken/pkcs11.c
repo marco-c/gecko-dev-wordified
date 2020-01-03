@@ -7301,7 +7301,7 @@ SFTKFree
 nsslowkey_DestroyPublicKey
 ;
 /
-/
+*
 Check
 that
 an
@@ -7310,6 +7310,8 @@ EC
 key
 is
 valid
+*
+/
 if
 (
 key_type
