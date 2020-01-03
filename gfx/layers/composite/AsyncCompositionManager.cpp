@@ -4207,9 +4207,6 @@ true
 ViewTransform
 asyncTransformWithoutOverscroll
 ;
-Matrix4x4
-overscrollTransform
-;
 ScreenPoint
 scrollOffset
 ;
@@ -4221,8 +4218,16 @@ SampleContentTransformForFrame
 &
 asyncTransformWithoutOverscroll
 scrollOffset
-&
+)
+;
+Matrix4x4
 overscrollTransform
+=
+controller
+-
+>
+GetOverscrollTransform
+(
 )
 ;
 if

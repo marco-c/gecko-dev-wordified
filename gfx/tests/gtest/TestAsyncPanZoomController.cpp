@@ -971,12 +971,6 @@ ScreenPoint
 aScrollOffset
 )
 {
-Matrix4x4
-aOverscrollTransform
-;
-/
-/
-ignored
 bool
 ret
 =
@@ -992,8 +986,6 @@ SampleContentTransformForFrame
 (
 aOutTransform
 aScrollOffset
-&
-aOverscrollTransform
 )
 ;
 return
