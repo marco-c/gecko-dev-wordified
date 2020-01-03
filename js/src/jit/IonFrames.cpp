@@ -13458,15 +13458,12 @@ isConstructing
 const
 {
 return
-GetCalleeTokenTag
+CalleeTokenIsConstructing
 (
 calleeToken
 (
 )
 )
-=
-=
-CalleeToken_FunctionConstructing
 ;
 }
 unsigned

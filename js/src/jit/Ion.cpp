@@ -13311,8 +13311,6 @@ osrFrame
 jsbytecode
 *
 pc
-bool
-isConstructing
 )
 {
 JS_ASSERT
@@ -13557,7 +13555,12 @@ cx
 rscript
 osrFrame
 pc
+osrFrame
+-
+>
 isConstructing
+(
+)
 SequentialExecution
 )
 ;
@@ -14053,8 +14056,6 @@ script
 BaselineFrame
 *
 frame
-bool
-isConstructing
 )
 {
 JS_ASSERT
@@ -14192,7 +14193,12 @@ cx
 script
 frame
 nullptr
+frame
+-
+>
 isConstructing
+(
+)
 SequentialExecution
 )
 ;

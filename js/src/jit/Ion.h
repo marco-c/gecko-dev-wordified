@@ -453,8 +453,6 @@ frame
 jsbytecode
 *
 pc
-bool
-isConstructing
 )
 ;
 MethodStatus
@@ -479,8 +477,6 @@ script
 BaselineFrame
 *
 frame
-bool
-isConstructing
 )
 ;
 MethodStatus
