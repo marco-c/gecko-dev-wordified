@@ -1228,7 +1228,7 @@ org
 /
 nfc
 /
-NFCTag
+tag
 ;
 1
 "
@@ -1538,7 +1538,7 @@ org
 /
 nfc
 /
-NFCPeer
+peer
 ;
 1
 "
@@ -3323,7 +3323,9 @@ mozilla
 .
 org
 /
-navigatorNfc
+nfc
+/
+manager
 ;
 1
 "
