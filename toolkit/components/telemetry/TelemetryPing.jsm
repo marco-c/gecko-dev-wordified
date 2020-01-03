@@ -6054,14 +6054,6 @@ and
 3
 )
 .
-this
-.
-_delayedInitTask
-.
-disarm
-(
-)
-;
 return
 this
 .
