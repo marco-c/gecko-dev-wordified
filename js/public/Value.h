@@ -1795,6 +1795,7 @@ local
 use
 *
 /
+JS_WHY_MAGIC_COUNT
 }
 JSWhyMagic
 ;
