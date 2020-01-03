@@ -762,6 +762,15 @@ mCallbackMutex
 ;
 /
 /
+Protects
+the
+engines
+array
+Mutex
+mEngineMutex
+;
+/
+/
 image
 buffers
 mozilla
