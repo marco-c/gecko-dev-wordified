@@ -386,6 +386,10 @@ virtual
 void
 WaitForBufferOwnership
 (
+bool
+aWaitReleaseFence
+=
+true
 )
 MOZ_OVERRIDE
 ;
