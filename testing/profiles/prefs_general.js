@@ -1150,6 +1150,10 @@ browser
 .
 safebrowsing
 .
+provider
+.
+google
+.
 updateURL
 "
 "
@@ -1178,6 +1182,10 @@ browser
 .
 safebrowsing
 .
+provider
+.
+google
+.
 appRepURL
 "
 "
@@ -1204,7 +1212,11 @@ user_pref
 "
 browser
 .
-trackingprotection
+safebrowsing
+.
+provider
+.
+mozilla
 .
 gethashURL
 "
@@ -1232,7 +1244,11 @@ user_pref
 "
 browser
 .
-trackingprotection
+safebrowsing
+.
+provider
+.
+mozilla
 .
 updateURL
 "
