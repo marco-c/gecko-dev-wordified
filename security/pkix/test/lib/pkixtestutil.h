@@ -907,6 +907,15 @@ DeleteTestKeyPair
 >
 ScopedTestKeyPair
 ;
+ByteString
+SHA1
+(
+const
+ByteString
+&
+toHash
+)
+;
 /
 /
 Replace
