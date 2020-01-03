@@ -668,9 +668,6 @@ IGNORE_HISTOGRAM
 "
 never
 "
-1
-2
-3
 Telemetry
 .
 HISTOGRAM_BOOLEAN
@@ -3417,12 +3414,12 @@ histogram_id
 "
 30
 "
-1
-2
-3
 Telemetry
 .
 HISTOGRAM_EXPONENTIAL
+1
+2
+3
 )
 ;
 dummy
