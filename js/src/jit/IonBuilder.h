@@ -6243,15 +6243,13 @@ PropertyName
 name
 )
 ;
-bool
+JSObject
+*
 testSingletonPropertyTypes
 (
 MDefinition
 *
 obj
-JSObject
-*
-singleton
 PropertyName
 *
 name
