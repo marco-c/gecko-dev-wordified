@@ -406,7 +406,7 @@ protected
 nsIntRect
 mMouseDownRect
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mMouseDownPoint
 ;
 }

@@ -722,7 +722,7 @@ remember
 current
 mouse
 coordinates
-nsIntPoint
+LayoutDeviceIntPoint
 refPoint
 ;
 if
@@ -741,6 +741,11 @@ mMouseDownPoint
 =
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aEvent
 -
 >
@@ -749,6 +754,7 @@ widget
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 /
@@ -982,7 +988,7 @@ resize
 needs
 to
 be
-nsIntPoint
+LayoutDeviceIntPoint
 refPoint
 ;
 if
@@ -997,11 +1003,16 @@ refPoint
 return
 NS_OK
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 screenPoint
-(
+=
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aEvent
 -
 >
@@ -1013,7 +1024,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mouseMove
 (
 screenPoint
