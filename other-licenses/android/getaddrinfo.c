@@ -3051,7 +3051,7 @@ extern
 const
 char
 *
-__wrap_gai_strerror
+gai_strerror
 (
 int
 ecode
@@ -3059,7 +3059,7 @@ ecode
 ;
 extern
 void
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 struct
 addrinfo
@@ -3069,7 +3069,7 @@ ai
 ;
 extern
 int
-__wrap_getaddrinfo
+getaddrinfo
 (
 const
 char
@@ -3156,7 +3156,7 @@ android_sdk_version
 const
 char
 *
-__wrap_gai_strerror
+gai_strerror
 (
 int
 ecode
@@ -3197,7 +3197,7 @@ ecode
 ;
 }
 void
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 struct
 addrinfo
@@ -3746,7 +3746,7 @@ in
 ;
 }
 int
-__wrap_getaddrinfo
+getaddrinfo
 (
 const
 char
@@ -4934,7 +4934,7 @@ sentinel
 .
 ai_next
 )
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 sentinel
 .
@@ -5205,7 +5205,7 @@ if
 (
 result
 )
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 result
 )
@@ -5571,7 +5571,7 @@ sentinel
 .
 ai_next
 )
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 sentinel
 .
@@ -6069,7 +6069,7 @@ sentinel
 .
 ai_next
 )
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 sentinel
 .
@@ -12546,7 +12546,7 @@ AI_NUMERICHOST
 ;
 error
 =
-__wrap_getaddrinfo
+getaddrinfo
 (
 addr
 NULL
@@ -12619,7 +12619,7 @@ cname
 0
 )
 {
-__wrap_freeaddrinfo
+freeaddrinfo
 (
 res0
 )
