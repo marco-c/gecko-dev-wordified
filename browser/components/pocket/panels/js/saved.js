@@ -573,6 +573,8 @@ text
 resp
 .
 error
+.
+message
 )
 ;
 (
@@ -2696,6 +2698,8 @@ text
 resp
 .
 error
+.
+message
 )
 ;
 }
@@ -2882,6 +2886,8 @@ text
 resp
 .
 error
+.
+message
 )
 ;
 }
