@@ -240,7 +240,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -3879,7 +3879,7 @@ file
 is
 deleted
 if
-TelemetryFile
+TelemetryStorage
 fails
 to
 parse
@@ -3931,7 +3931,7 @@ exists
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -4458,7 +4458,7 @@ histogramsFile
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -8982,7 +8982,7 @@ mtime
 days
 1m
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -9079,7 +9079,7 @@ save
 const
 dir
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -9116,7 +9116,7 @@ shutdown
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 loadSavedPings
 (
@@ -9126,7 +9126,7 @@ Assert
 .
 equal
 (
-TelemetryFile
+TelemetryStorage
 .
 pingsLoaded
 expectedPings
@@ -9135,7 +9135,7 @@ expectedPings
 let
 pingsIterator
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -10126,7 +10126,7 @@ it
 using
 /
 /
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -10371,7 +10371,7 @@ it
 starts
 .
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -10433,7 +10433,7 @@ directory
 ;
 /
 /
-TelemetryFile
+TelemetryStorage
 requires
 all
 the
@@ -10474,7 +10474,7 @@ Path
 .
 join
 (
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 abortedSessionPing
@@ -10538,7 +10538,7 @@ TelemetryPing
 const
 OVERDUE_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 OVERDUE_PING_FILE_AGE
 +

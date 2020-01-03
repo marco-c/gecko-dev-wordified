@@ -92,7 +92,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TelemetryFile
+TelemetryStorage
 "
 ]
 ;
@@ -443,7 +443,7 @@ false
 ;
 this
 .
-TelemetryFile
+TelemetryStorage
 =
 {
 get
@@ -1201,7 +1201,7 @@ function
 let
 directory
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -2024,7 +2024,7 @@ Path
 .
 join
 (
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 pingIdentifier
@@ -2049,7 +2049,7 @@ function
 let
 directory
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -2123,7 +2123,7 @@ success
 ;
 }
 return
-TelemetryFile
+TelemetryStorage
 .
 loadPingFile
 (

@@ -1195,7 +1195,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryFile
+TelemetryStorage
 "
 "
 resource
@@ -1206,7 +1206,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -6963,7 +6963,7 @@ ret
 .
 savedPings
 =
-TelemetryFile
+TelemetryStorage
 .
 pingsLoaded
 ;
@@ -7035,7 +7035,7 @@ ret
 .
 pingsOverdue
 =
-TelemetryFile
+TelemetryStorage
 .
 pingsOverdue
 ;
@@ -7043,7 +7043,7 @@ ret
 .
 pingsDiscarded
 =
-TelemetryFile
+TelemetryStorage
 .
 pingsDiscarded
 ;

@@ -603,7 +603,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryFile
+TelemetryStorage
 "
 "
 resource
@@ -614,7 +614,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -3876,7 +3876,7 @@ payloadIter
 let
 iterator
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -4100,7 +4100,7 @@ aRemoveOriginal
 )
 {
 return
-TelemetryFile
+TelemetryStorage
 .
 addPendingPing
 (
@@ -4480,7 +4480,7 @@ catch
 )
 =
 >
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -4914,7 +4914,7 @@ aOptions
 )
 ;
 return
-TelemetryFile
+TelemetryStorage
 .
 savePendingPings
 (
@@ -5153,7 +5153,7 @@ aOptions
 let
 savePromise
 =
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -5511,7 +5511,7 @@ aOptions
 )
 ;
 return
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -5619,7 +5619,7 @@ isPersisted
 )
 {
 return
-TelemetryFile
+TelemetryStorage
 .
 cleanupPingFile
 (
@@ -5770,7 +5770,7 @@ Generate
 one
 so
 that
-TelemetryFile
+TelemetryStorage
 .
 jsm
 works
@@ -7692,7 +7692,7 @@ _initialized
 true
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 loadSavedPings
 (
@@ -7725,7 +7725,7 @@ ASAP
 .
 if
 (
-TelemetryFile
+TelemetryStorage
 .
 pingsOverdue
 >
@@ -7744,7 +7744,7 @@ setupChromeProcess
 Sending
 "
 +
-TelemetryFile
+TelemetryStorage
 .
 pingsOverdue
 +
@@ -9014,7 +9014,7 @@ profileDir
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -9402,7 +9402,7 @@ path
 )
 ;
 return
-TelemetryFile
+TelemetryStorage
 .
 loadPingFile
 (

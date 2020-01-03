@@ -182,7 +182,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -321,7 +321,7 @@ wrappedJSObject
 /
 We
 increment
-TelemetryFile
+TelemetryStorage
 '
 s
 MAX_PING_FILE_AGE
@@ -362,7 +362,7 @@ ONE_MINUTE_MS
 const
 EXPIRED_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 MAX_PING_FILE_AGE
 +
@@ -371,7 +371,7 @@ ONE_MINUTE_MS
 const
 OVERDUE_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 OVERDUE_PING_FILE_AGE
 +
@@ -416,7 +416,7 @@ RECENT_PINGS
 const
 LRU_PINGS
 =
-TelemetryFile
+TelemetryStorage
 .
 MAX_LRU_PINGS
 ;
@@ -1140,7 +1140,7 @@ dirty
 way
 to
 clear
-TelemetryFile
+TelemetryStorage
 '
 s
 pendingPings
@@ -1159,7 +1159,7 @@ state
 let
 gen
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -1405,7 +1405,7 @@ setup
 let
 directory
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -1671,7 +1671,7 @@ startTelemetry
 let
 gen
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -2009,7 +2009,7 @@ it
 overdue
 .
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -2018,7 +2018,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -2027,7 +2027,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -2036,7 +2036,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -2089,7 +2089,7 @@ OLD_FORMAT_PINGS
 /
 /
 |
-TelemetryFile
+TelemetryStorage
 .
 cleanup
 |
@@ -2446,7 +2446,7 @@ it
 overdue
 .
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
