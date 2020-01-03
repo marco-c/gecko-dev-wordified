@@ -84,6 +84,10 @@ See
 Bug
 1008943
 from
+__future__
+import
+absolute_import
+from
 contextlib
 import
 contextmanager
