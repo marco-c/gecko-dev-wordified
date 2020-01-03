@@ -174,12 +174,6 @@ Get
 (
 )
 ;
-virtual
-~
-BluetoothHidManager
-(
-)
-;
 /
 /
 HID
@@ -193,6 +187,14 @@ const
 BluetoothSignal
 &
 aSignal
+)
+;
+protected
+:
+virtual
+~
+BluetoothHidManager
+(
 )
 ;
 private
