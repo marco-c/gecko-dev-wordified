@@ -511,6 +511,9 @@ int32_t
 >
 mGlyphWidths
 ;
+uint32_t
+mSpaceGlyph
+;
 bool
 mNeedsOblique
 ;
