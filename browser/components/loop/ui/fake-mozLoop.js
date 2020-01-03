@@ -170,5 +170,8 @@ function
 {
 }
 }
+fxAEnabled
+:
+true
 }
 ;
