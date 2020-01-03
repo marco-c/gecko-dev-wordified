@@ -944,7 +944,7 @@ if
 !
 mDelayedOutput
 .
-IsEmpty
+empty
 (
 )
 )
@@ -967,7 +967,7 @@ queue
 .
 mDelayedOutput
 .
-AppendElement
+push_back
 (
 MakePair
 <
@@ -1006,7 +1006,7 @@ int
 (
 mDelayedOutput
 .
-Length
+size
 (
 )
 )
@@ -1044,7 +1044,7 @@ queuing
 .
 mDelayedOutput
 .
-AppendElement
+push_back
 (
 MakePair
 <
@@ -1294,7 +1294,7 @@ mDontDelayInputExhausted
 !
 mDelayedOutput
 .
-IsEmpty
+empty
 (
 )
 )
@@ -1305,7 +1305,7 @@ last
 =
 mDelayedOutput
 .
-LastElement
+back
 (
 )
 ;
@@ -1421,7 +1421,7 @@ if
 (
 mDelayedOutput
 .
-IsEmpty
+empty
 (
 )
 )
@@ -1695,7 +1695,7 @@ if
 (
 mDelayedOutput
 .
-IsEmpty
+empty
 (
 )
 )
@@ -1739,9 +1739,10 @@ MediaDataAndInputExhausted
 data
 =
 mDelayedOutput
-[
-0
-]
+.
+front
+(
+)
 ;
 CFW_LOGD
 (
@@ -1768,7 +1769,7 @@ int
 (
 mDelayedOutput
 .
-Length
+size
 (
 )
 -
@@ -1836,9 +1837,8 @@ InputExhausted
 }
 mDelayedOutput
 .
-RemoveElementAt
+pop_front
 (
-0
 )
 ;
 if
@@ -1846,7 +1846,7 @@ if
 !
 mDelayedOutput
 .
-IsEmpty
+empty
 (
 )
 )
@@ -1962,7 +1962,7 @@ nullptr
 ;
 mDelayedOutput
 .
-Clear
+clear
 (
 )
 ;
