@@ -17356,6 +17356,8 @@ sc
 -
 >
 strict
+(
+)
 ;
 script
 -

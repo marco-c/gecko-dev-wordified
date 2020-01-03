@@ -1610,6 +1610,8 @@ sc
 -
 >
 strict
+(
+)
 )
 return
 false
@@ -1629,6 +1631,8 @@ sc
 -
 >
 strict
+(
+)
 )
 return
 false
@@ -10418,6 +10422,8 @@ sc
 -
 >
 strict
+(
+)
 )
 op
 =
@@ -10437,6 +10443,8 @@ sc
 -
 >
 strict
+(
+)
 )
 op
 =
@@ -11532,6 +11540,8 @@ sc
 -
 >
 strict
+(
+)
 )
 return
 false
@@ -15432,6 +15442,8 @@ sc
 -
 >
 strict
+(
+)
 errorNumber
 args
 )
@@ -16782,6 +16794,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETPROP
 :
@@ -17727,6 +17741,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETELEM
 :
@@ -23621,6 +23637,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETPROP
 :
@@ -23698,6 +23716,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETELEM
 :
@@ -29293,6 +29313,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETPROP
 :
@@ -29359,6 +29381,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTSETELEM
 :
@@ -37500,10 +37524,12 @@ outersc
 -
 >
 strict
+(
+)
 funbox
 -
 >
-strict
+strictScript
 )
 ;
 /
@@ -42332,7 +42358,7 @@ bce
 sc
 -
 >
-strict
+strictScript
 )
 directive
 =
@@ -42616,6 +42642,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTDELPROP
 :
@@ -42652,6 +42680,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTDELELEM
 :

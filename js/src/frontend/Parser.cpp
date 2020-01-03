@@ -4871,6 +4871,8 @@ sc
 -
 >
 strict
+(
+)
 pn
 errnum
 name
@@ -5021,6 +5023,8 @@ sc
 -
 >
 strict
+(
+)
 lhs
 JSMSG_BAD_STRICT_ASSIGN
 name
@@ -5196,6 +5200,8 @@ sc
 -
 >
 strict
+(
+)
 pn
 JSMSG_BAD_BINDING
 bytes
@@ -10360,6 +10366,8 @@ sc
 -
 >
 strict
+(
+)
 pn
 JSMSG_DUPLICATE_FORMAL
 bytes
@@ -12608,6 +12616,8 @@ sc
 -
 >
 strict
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -15146,6 +15156,8 @@ sc
 -
 >
 strict
+(
+)
 )
 lazy
 -
@@ -17087,6 +17099,8 @@ sc
 -
 >
 strict
+(
+)
 )
 {
 report
@@ -17323,6 +17337,8 @@ sc
 -
 >
 strict
+(
+)
 null
 (
 )
@@ -18462,6 +18478,8 @@ sc
 -
 >
 strict
+(
+)
 )
 {
 if
@@ -18573,7 +18591,7 @@ pc
 sc
 -
 >
-strict
+strictScript
 =
 true
 ;
@@ -21914,6 +21932,8 @@ sc
 -
 >
 strict
+(
+)
 pn
 msg
 )
@@ -24388,6 +24408,8 @@ sc
 -
 >
 strict
+(
+)
 begin
 JSMSG_STRICT_CODE_LET_EXPR_STMT
 )
@@ -24503,6 +24525,8 @@ sc
 -
 >
 strict
+(
+)
 expr
 JSMSG_DEPRECATED_LET_BLOCK
 )
@@ -24560,6 +24584,8 @@ sc
 -
 >
 strict
+(
+)
 expr
 JSMSG_DEPRECATED_LET_EXPRESSION
 )
@@ -30372,6 +30398,8 @@ sc
 -
 >
 strict
+(
+)
 null
 (
 )
@@ -35762,6 +35790,8 @@ sc
 -
 >
 strict
+(
+)
 &
 &
 !
@@ -40947,6 +40977,8 @@ sc
 -
 >
 strict
+(
+)
 expr
 JSMSG_DEPRECATED_DELETE_OPERAND
 )
@@ -43934,6 +43966,8 @@ sc
 -
 >
 strict
+(
+)
 pn2
 JSMSG_DEPRECATED_FOR_EACH
 )
@@ -45392,6 +45426,8 @@ sc
 -
 >
 strict
+(
+)
 )
 ;
 FunctionBox
@@ -48463,6 +48499,8 @@ sc
 -
 >
 strict
+(
+)
 ?
 JSOP_STRICTEVAL
 :
@@ -48533,6 +48571,8 @@ sc
 -
 >
 strict
+(
+)
 )
 pc
 -
