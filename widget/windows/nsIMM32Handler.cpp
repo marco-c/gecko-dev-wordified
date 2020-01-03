@@ -3236,7 +3236,7 @@ GetWindowHandle
 )
 )
 ;
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 aWindow
 IMEContext
@@ -6732,7 +6732,7 @@ n
 )
 )
 ;
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 aWindow
 aIMEContext
@@ -7085,7 +7085,7 @@ IsEmpty
 )
 )
 {
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 aWindow
 aIMEContext
@@ -8490,7 +8490,7 @@ event
 -
 -
 -
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 aWindow
 aIMEContext
@@ -10526,7 +10526,7 @@ valid
 "
 )
 ;
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 mComposingWindow
 IMEContext
@@ -10714,7 +10714,7 @@ void
 nsIMM32Handler
 :
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 nsWindow
 *
@@ -10744,7 +10744,7 @@ PR_LOG_ALWAYS
 "
 IMM32
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 aCheckAttr
 =
 %

@@ -4602,7 +4602,7 @@ NSNotFound
 *
 *
 *
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 )
 dispatches
@@ -4610,6 +4610,7 @@ a
 compositionchange
 event
 on
+*
 mWidget
 .
 *
@@ -4664,7 +4665,7 @@ FALSE
 *
 /
 bool
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 const
 nsString

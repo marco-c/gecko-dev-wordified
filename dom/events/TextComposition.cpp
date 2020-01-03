@@ -1306,7 +1306,7 @@ HasEditor
 )
 )
 {
-EditorWillHandleTextEvent
+EditorWillHandleCompositionChangeEvent
 (
 aEvent
 -
@@ -1316,7 +1316,7 @@ AsCompositionEvent
 )
 )
 ;
-EditorDidHandleTextEvent
+EditorDidHandleCompositionChangeEvent
 (
 )
 ;
@@ -1758,9 +1758,7 @@ mIsSynthesizedForTests
 /
 FYI
 :
-CompositionEvent
-and
-TextEvent
+CompositionEvents
 caused
 by
 a
@@ -1769,10 +1767,10 @@ of
 NotifyIME
 (
 )
-/
-/
 may
 be
+/
+/
 discarded
 by
 PresShell
@@ -1785,8 +1783,6 @@ safe
 to
 dispatch
 the
-/
-/
 event
 .
 nsresult
@@ -2235,7 +2231,7 @@ void
 TextComposition
 :
 :
-EditorWillHandleTextEvent
+EditorWillHandleCompositionChangeEvent
 (
 const
 WidgetCompositionEvent
@@ -2302,7 +2298,7 @@ void
 TextComposition
 :
 :
-EditorDidHandleTextEvent
+EditorDidHandleCompositionChangeEvent
 (
 )
 {
