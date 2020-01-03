@@ -772,7 +772,11 @@ com
 "
 ORTDelegatedIncluded
 "
-badKeysizeDelegatedSigner
+rsa
+-
+1008
+-
+keysizeDelegatedSigner
 "
 }
 {
