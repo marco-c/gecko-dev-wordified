@@ -1018,10 +1018,6 @@ height
 )
 const
 {
-InvalidateStatusOfAttachedFBs
-(
-)
-;
 gl
 :
 :
