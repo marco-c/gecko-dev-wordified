@@ -445,7 +445,7 @@ aDestRegion
 while
 (
 const
-nsIntRect
+IntRect
 *
 iterRect
 =

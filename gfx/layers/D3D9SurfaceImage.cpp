@@ -610,7 +610,10 @@ s
 device
 .
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 region
 =

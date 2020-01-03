@@ -350,7 +350,13 @@ h
 /
 /
 for
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 #
 include
 "
@@ -419,7 +425,7 @@ RoundOut
 (
 )
 ;
-nsIntRect
+IntRect
 r
 (
 clip

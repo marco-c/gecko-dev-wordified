@@ -2810,7 +2810,7 @@ maxSize
 )
 ;
 }
-nsIntRect
+IntRect
 DataTextureSourceD3D9
 :
 :
@@ -4455,7 +4455,7 @@ aRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 iterRect
 ;
