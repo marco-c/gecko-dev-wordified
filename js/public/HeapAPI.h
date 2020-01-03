@@ -668,9 +668,13 @@ DefaultNurseryBytes
 =
 16
 *
-1024
-*
-1024
+js
+:
+:
+gc
+:
+:
+ChunkSize
 ;
 /
 *
