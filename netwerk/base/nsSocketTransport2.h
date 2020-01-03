@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
 nsISocketTransport
 .
 h
@@ -782,6 +789,8 @@ public
 nsIDNSListener
 public
 nsIClassInfo
+public
+nsIInterfaceRequestor
 {
 typedef
 mozilla
@@ -797,6 +806,7 @@ NS_DECL_NSITRANSPORT
 NS_DECL_NSISOCKETTRANSPORT
 NS_DECL_NSIDNSLISTENER
 NS_DECL_NSICLASSINFO
+NS_DECL_NSIINTERFACEREQUESTOR
 nsSocketTransport
 (
 )
