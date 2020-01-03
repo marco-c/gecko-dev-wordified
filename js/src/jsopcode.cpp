@@ -4684,15 +4684,6 @@ cx
 script
 )
 ;
-jsbytecode
-*
-next
-*
-end
-;
-unsigned
-len
-;
 if
 (
 showAll
@@ -4887,6 +4878,8 @@ n
 "
 )
 ;
+jsbytecode
+*
 next
 =
 script
@@ -4896,6 +4889,8 @@ code
 (
 )
 ;
+jsbytecode
+*
 end
 =
 script
@@ -5116,6 +5111,7 @@ sp
 )
 ;
 }
+unsigned
 len
 =
 Disassemble1

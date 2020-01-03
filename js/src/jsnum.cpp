@@ -6787,8 +6787,14 @@ const
 char
 *
 thousandsSeparator
+;
+const
+char
 *
 decimalPoint
+;
+const
+char
 *
 grouping
 ;

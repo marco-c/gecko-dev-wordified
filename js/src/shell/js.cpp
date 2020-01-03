@@ -13287,12 +13287,6 @@ Sprinter
 sp
 )
 {
-JSTryNote
-*
-tn
-*
-tnlimit
-;
 if
 (
 !
@@ -13306,6 +13300,8 @@ hasTrynotes
 return
 true
 ;
+JSTryNote
+*
 tn
 =
 script
@@ -13318,6 +13314,8 @@ trynotes
 >
 vector
 ;
+JSTryNote
+*
 tnlimit
 =
 tn
@@ -14681,12 +14679,6 @@ linebuf
 LINE_BUF_LEN
 ]
 ;
-jsbytecode
-*
-pc
-*
-end
-;
 static
 const
 char
@@ -14842,6 +14834,8 @@ return
 false
 ;
 }
+jsbytecode
+*
 pc
 =
 script
@@ -14851,6 +14845,8 @@ code
 (
 )
 ;
+jsbytecode
+*
 end
 =
 script

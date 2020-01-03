@@ -2042,6 +2042,8 @@ JSObject
 scope
 =
 nullptr
+;
+JSObject
 *
 pobj
 =
@@ -10023,8 +10025,6 @@ isString
 JSString
 *
 lstr
-*
-rstr
 ;
 if
 (
@@ -10062,6 +10062,10 @@ return
 false
 ;
 }
+JSString
+*
+rstr
+;
 if
 (
 rIsString
@@ -15503,6 +15507,8 @@ RootedValue
 lval
 =
 rootValue0
+;
+RootedValue
 &
 rval
 =
@@ -15574,6 +15580,8 @@ RootedValue
 lval
 =
 rootValue0
+;
+RootedValue
 &
 rval
 =
@@ -15645,6 +15653,8 @@ RootedValue
 lval
 =
 rootValue0
+;
+RootedValue
 &
 rval
 =
@@ -15716,6 +15726,8 @@ RootedValue
 lval
 =
 rootValue0
+;
+RootedValue
 &
 rval
 =
@@ -16392,6 +16404,8 @@ RootedValue
 objval
 =
 rootValue0
+;
+RootedValue
 &
 idval
 =

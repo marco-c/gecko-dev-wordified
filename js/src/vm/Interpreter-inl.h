@@ -4651,6 +4651,9 @@ lhs
 toString
 (
 )
+;
+\
+JSString
 *
 r
 =

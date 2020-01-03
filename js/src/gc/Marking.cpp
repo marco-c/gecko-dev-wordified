@@ -11912,6 +11912,8 @@ addr
 HeapValue
 *
 vp
+;
+HeapValue
 *
 end
 ;
@@ -12205,6 +12207,8 @@ bug
 HeapSlot
 *
 vp
+;
+HeapSlot
 *
 end
 ;

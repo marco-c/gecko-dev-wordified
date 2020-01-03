@@ -1528,6 +1528,8 @@ monomorphicStub
 (
 pc
 )
+;
+ICStub
 *
 second
 =

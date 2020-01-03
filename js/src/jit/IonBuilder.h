@@ -6758,8 +6758,12 @@ analysis_
 TemporaryTypeSet
 *
 thisTypes
+;
+TemporaryTypeSet
 *
 argTypes
+;
+TemporaryTypeSet
 *
 typeArray
 ;

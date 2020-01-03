@@ -3855,6 +3855,8 @@ JSObject
 scope
 =
 nullptr
+;
+JSObject
 *
 pobj
 =

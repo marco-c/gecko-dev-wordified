@@ -5787,6 +5787,12 @@ void
 *
 *
 stack
+;
+Rooted
+<
+void
+*
+>
 *
 prev
 ;

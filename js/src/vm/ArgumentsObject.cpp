@@ -1014,6 +1014,8 @@ dst
 dstBase
 +
 numActuals
+;
+HeapValue
 *
 dstEnd
 =

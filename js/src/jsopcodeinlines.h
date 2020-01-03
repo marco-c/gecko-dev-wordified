@@ -633,6 +633,8 @@ script
 jsbytecode
 *
 pc
+;
+jsbytecode
 *
 end
 ;

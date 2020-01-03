@@ -677,6 +677,8 @@ char
 c
 =
 cstr
+;
+char
 *
 cEnd
 =

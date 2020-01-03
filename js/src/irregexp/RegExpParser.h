@@ -1852,6 +1852,9 @@ const
 CharT
 *
 next_pos_
+;
+const
+CharT
 *
 end_
 ;

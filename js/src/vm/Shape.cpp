@@ -5328,6 +5328,7 @@ nullptr
 ;
 /
 *
+*
 FIXME
 bug
 593129
@@ -5336,11 +5337,12 @@ bug
 slot
 allocation
 and
-JSObject
+NativeObject
 *
 this
 must
 move
+*
 out
 of
 here

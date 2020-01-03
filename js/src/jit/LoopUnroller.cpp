@@ -208,6 +208,8 @@ loop
 MBasicBlock
 *
 header
+;
+MBasicBlock
 *
 backedge
 ;
@@ -224,6 +226,8 @@ loop
 MBasicBlock
 *
 unrolledHeader
+;
+MBasicBlock
 *
 unrolledBackedge
 ;
@@ -271,6 +275,8 @@ loop
 MBasicBlock
 *
 oldPreheader
+;
+MBasicBlock
 *
 newPreheader
 ;

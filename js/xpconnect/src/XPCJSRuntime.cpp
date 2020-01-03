@@ -21555,6 +21555,9 @@ char
 ptr
 =
 buf
+;
+unsigned
+char
 *
 end
 =

@@ -618,6 +618,9 @@ const
 char
 *
 side
+;
+const
+char
 *
 objDesc
 ;
