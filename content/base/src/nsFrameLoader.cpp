@@ -5042,6 +5042,18 @@ there
 s
 a
 prescontext
+/
+/
+FIXME
+:
+This
+could
+do
+something
+much
+less
+expensive
+.
 nsRefPtr
 <
 nsPresContext
@@ -5072,6 +5084,7 @@ nsChangeHint
 (
 0
 )
+eRestyle_Subtree
 )
 ;
 }

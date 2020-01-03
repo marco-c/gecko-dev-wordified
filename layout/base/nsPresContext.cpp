@@ -6006,6 +6006,7 @@ NS_STYLE_HINT_REFLOW
 RebuildAllStyleData
 (
 hint
+eRestyle_Subtree
 )
 ;
 }
@@ -7346,6 +7347,7 @@ FlushFontCache
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW
+eRestyle_Subtree
 )
 ;
 }
@@ -10137,6 +10139,7 @@ nsChangeHint
 (
 0
 )
+eRestyle_Subtree
 )
 ;
 }
@@ -10653,6 +10656,8 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 {
 if
@@ -10694,14 +10699,6 @@ RebuildCounterStyles
 (
 )
 ;
-/
-/
-FIXME
-:
-Pass
-through
-from
-callers
 RestyleManager
 (
 )
@@ -10710,7 +10707,7 @@ RestyleManager
 RebuildAllStyleData
 (
 aExtraHint
-eRestyle_Subtree
+aRestyleHint
 )
 ;
 }
@@ -10863,6 +10860,7 @@ mPendingViewportChange
 RebuildAllStyleData
 (
 aChangeHint
+eRestyle_Subtree
 )
 ;
 }
@@ -12919,6 +12917,7 @@ nsChangeHint
 (
 0
 )
+eRestyle_Subtree
 )
 ;
 }

@@ -1317,6 +1317,15 @@ root
 frame
 .
 *
+For
+aRestyleHint
+see
+RestyleManager
+:
+:
+RebuildAllStyleData
+.
+*
 Also
 rebuild
 the
@@ -1335,6 +1344,8 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 /
