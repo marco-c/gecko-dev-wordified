@@ -55,7 +55,7 @@ foo
 }
 if
 (
-true
+x
 )
 {
 foo
@@ -64,3 +64,8 @@ foo
 ;
 }
 }
+var
+x
+=
+true
+;
