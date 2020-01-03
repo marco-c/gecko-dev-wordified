@@ -2970,7 +2970,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "

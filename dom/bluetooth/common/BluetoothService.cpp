@@ -3550,7 +3550,7 @@ BluetoothNamedValue
 >
 props
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 props
 "

@@ -7996,7 +7996,7 @@ BluetoothNamedValue
 >
 properties
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 properties
 "
@@ -8005,7 +8005,7 @@ Address
 mBdAddr
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 properties
 "
@@ -8014,7 +8014,7 @@ Rssi
 mRssi
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 properties
 "
@@ -8023,7 +8023,7 @@ GattAdv
 mAdvData
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 properties
 "
@@ -9173,7 +9173,7 @@ BluetoothNamedValue
 >
 values
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9182,7 +9182,7 @@ serviceId
 aServiceId
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9406,7 +9406,7 @@ BluetoothNamedValue
 >
 values
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9415,7 +9415,7 @@ serviceId
 aServiceId
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9424,7 +9424,7 @@ characteristicId
 aCharId
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9653,7 +9653,7 @@ BluetoothNamedValue
 >
 values
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -9662,7 +9662,7 @@ serviceId
 aServiceId
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 values
 "
@@ -11855,7 +11855,7 @@ BluetoothNamedValue
 >
 props
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 props
 "
@@ -11864,7 +11864,7 @@ Connected
 aConnected
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 props
 "
