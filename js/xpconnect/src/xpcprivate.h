@@ -1240,13 +1240,6 @@ h
 #
 include
 "
-nsAutoJSValHolder
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h
