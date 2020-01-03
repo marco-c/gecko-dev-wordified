@@ -407,7 +407,8 @@ column
 position
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendToString
 (
 const
@@ -433,7 +434,8 @@ column
 position
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendToString
 (
 const
@@ -478,7 +480,8 @@ position
 .
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendToStringConvertLF
 (
 const
@@ -512,7 +515,8 @@ position
 .
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendToStringWrapped
 (
 const
@@ -547,7 +551,8 @@ position
 .
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendToStringFormatedWrapped
 (
 const
@@ -564,7 +569,8 @@ aOutputStr
 used
 by
 AppendToStringWrapped
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendWrapped_WhitespaceSequence
 (
 nsASingleFragmentString
@@ -595,7 +601,8 @@ aOutputStr
 used
 by
 AppendToStringFormatedWrapped
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendFormatedWrapped_WhitespaceSequence
 (
 nsASingleFragmentString
@@ -631,7 +638,8 @@ by
 AppendToStringWrapped
 and
 AppendToStringFormatedWrapped
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendWrapped_NonWhitespaceSequence
 (
 nsASingleFragmentString
@@ -684,7 +692,8 @@ flags
 .
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendNewLineToString
 (
 nsAString
@@ -713,8 +722,9 @@ column
 position
 *
 /
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 AppendAndTranslateEntities
 (
 const
@@ -1052,8 +1062,9 @@ nsAString
 aTagNamespaceURI
 )
 ;
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 SerializeAttributes
 (
 nsIContent
@@ -1081,7 +1092,8 @@ bool
 aAddNSAttr
 )
 ;
-void
+NS_WARN_UNUSED_RESULT
+bool
 SerializeAttr
 (
 const
@@ -1197,6 +1209,9 @@ aForceFormat
 nsAString
 &
 aStr
+nsresult
+&
+aResult
 )
 ;
 /
@@ -1225,8 +1240,9 @@ than
 sign
 *
 /
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 AppendEndOfElementStart
 (
 nsIContent
@@ -1277,8 +1293,9 @@ AppendElementStart
 )
 *
 /
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 AfterElementStart
 (
 nsIContent
@@ -1292,6 +1309,9 @@ nsAString
 aStr
 )
 {
+return
+true
+;
 }
 ;
 /
@@ -1578,7 +1598,8 @@ position
 .
 *
 /
-void
+NS_WARN_UNUSED_RESULT
+bool
 AppendIndentation
 (
 nsAString
@@ -1586,7 +1607,8 @@ nsAString
 aStr
 )
 ;
-void
+NS_WARN_UNUSED_RESULT
+bool
 IncrIndentation
 (
 nsIAtom
@@ -1627,7 +1649,8 @@ document
 .
 See
 mAddNewlineForRootNode
-void
+NS_WARN_UNUSED_RESULT
+bool
 MaybeAddNewlineForRootNode
 (
 nsAString
