@@ -252,7 +252,6 @@ graph
 CompileInfo
 &
 info
-const
 BytecodeSite
 *
 site
@@ -758,7 +757,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -780,7 +778,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -804,7 +801,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -827,7 +823,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -3824,9 +3819,9 @@ MIR
 instruction
 added
 at
+/
+/
 this
-/
-/
 cycle
 .
 This
@@ -3836,13 +3831,16 @@ used
 for
 tracking
 calls
+and
+optimizations
 when
+/
+/
 profiling
 .
 void
 updateTrackedSite
 (
-const
 BytecodeSite
 *
 site
@@ -3871,7 +3869,6 @@ trackedSite_
 site
 ;
 }
-const
 BytecodeSite
 *
 trackedSite
@@ -4138,7 +4135,6 @@ MBasicBlock
 *
 immediateDominator_
 ;
-const
 BytecodeSite
 *
 trackedSite_

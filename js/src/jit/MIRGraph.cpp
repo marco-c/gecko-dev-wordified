@@ -1176,7 +1176,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -1271,7 +1270,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -1355,7 +1353,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -1478,7 +1475,6 @@ info
 MBasicBlock
 *
 pred
-const
 BytecodeSite
 *
 site
@@ -1929,7 +1925,6 @@ graph
 CompileInfo
 &
 info
-const
 BytecodeSite
 *
 site

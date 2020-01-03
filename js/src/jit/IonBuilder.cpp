@@ -975,6 +975,11 @@ loopDepth_
 (
 loopDepth
 )
+trackedOptimizationSites_
+(
+*
+temp
+)
 lexicalCheck_
 (
 nullptr
