@@ -1045,6 +1045,7 @@ aboutMod
 NewChannel
 (
 uri
+aLoadInfo
 result
 )
 ;
