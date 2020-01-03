@@ -2030,13 +2030,13 @@ borders
 *
 /
 nscoord
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 const
 ;
 void
-SetContinuousLeftBCBorderWidth
+SetContinuousIStartBCBorderWidth
 (
 nscoord
 aValue
@@ -5401,7 +5401,7 @@ mGeometryDirty
 1
 ;
 uint32_t
-mLeftContBCBorder
+mIStartContBCBorder
 :
 8
 ;
@@ -5956,7 +5956,7 @@ nscoord
 nsTableFrame
 :
 :
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 const
@@ -5977,7 +5977,7 @@ BC_BORDER_END_HALF_COORD
 aPixelsToTwips
 mBits
 .
-mLeftContBCBorder
+mIStartContBCBorder
 )
 ;
 }
@@ -5986,7 +5986,7 @@ void
 nsTableFrame
 :
 :
-SetContinuousLeftBCBorderWidth
+SetContinuousIStartBCBorderWidth
 (
 nscoord
 aValue
@@ -5994,7 +5994,7 @@ aValue
 {
 mBits
 .
-mLeftContBCBorder
+mIStartContBCBorder
 =
 (
 unsigned

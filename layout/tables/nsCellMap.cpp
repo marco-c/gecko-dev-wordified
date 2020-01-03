@@ -570,7 +570,7 @@ numRows
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 Length
 (
@@ -588,7 +588,7 @@ return
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 ElementAt
 (
@@ -599,7 +599,7 @@ aRowIndex
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 SetLength
 (
@@ -613,7 +613,7 @@ return
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 ElementAt
 (
@@ -664,7 +664,7 @@ numCols
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 Length
 (
@@ -682,7 +682,7 @@ return
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 ElementAt
 (
@@ -693,7 +693,7 @@ aColIndex
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 SetLength
 (
@@ -707,7 +707,7 @@ return
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 ElementAt
 (
@@ -746,7 +746,7 @@ mBCInfo
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 Clear
 (
@@ -755,7 +755,7 @@ Clear
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 Clear
 (
@@ -2269,7 +2269,7 @@ if
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 AppendElements
 (
@@ -2425,7 +2425,7 @@ count
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 Length
 (
@@ -2441,7 +2441,7 @@ count
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 RemoveElementAt
 (
@@ -2488,7 +2488,7 @@ mBCInfo
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 Clear
 (
@@ -2627,7 +2627,7 @@ count
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 Length
 (
@@ -2661,7 +2661,7 @@ rowX
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 InsertElementAt
 (
@@ -2707,7 +2707,7 @@ rowX
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 AppendElement
 (
@@ -2869,7 +2869,7 @@ rowX
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 Length
 (
@@ -2879,7 +2879,7 @@ Length
 mBCInfo
 -
 >
-mRightBorders
+mIEndBorders
 .
 RemoveElementAt
 (
@@ -4027,7 +4027,7 @@ numCols
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 Length
 (
@@ -4080,7 +4080,7 @@ cd
 mBCInfo
 -
 >
-mBottomBorders
+mBEndBorders
 .
 ElementAt
 (
@@ -4207,7 +4207,7 @@ cd
 mBCInfo
 -
 >
-mLowerRightCorner
+mBEndIEndCorner
 ;
 if
 (
@@ -6093,7 +6093,7 @@ aSubSize
 bool
 aBevel
 bool
-aIsBottomRight
+aIsBEndIEnd
 )
 {
 if
@@ -6107,13 +6107,13 @@ ABORT0
 ;
 if
 (
-aIsBottomRight
+aIsBEndIEnd
 )
 {
 mBCInfo
 -
 >
-mLowerRightCorner
+mBEndIEndCorner
 .
 SetCorner
 (
@@ -6144,7 +6144,7 @@ aCellMapStart
 ;
 if
 (
-eTopRight
+eBStartIEnd
 =
 =
 aCorner
@@ -6158,7 +6158,7 @@ xPos
 else
 if
 (
-eBottomRight
+eBEndIEnd
 =
 =
 aCorner
@@ -6180,7 +6180,7 @@ yPos
 else
 if
 (
-eBottomLeft
+eBEndIStart
 =
 =
 aCorner
@@ -6249,7 +6249,7 @@ before
 NS_ASSERTION
 (
 !
-aIsBottomRight
+aIsBEndIEnd
 "
 should
 be

@@ -1602,7 +1602,7 @@ wm
 aTableFrame
 -
 >
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 ;
@@ -2152,7 +2152,7 @@ lastLeftBorder
 aTableFrame
 -
 >
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 ;
@@ -3429,12 +3429,12 @@ nextRow
 /
 /
 outer
-top
-below
+bStart
+after
 us
 is
 inner
-bottom
+bEnd
 for
 us
 border
@@ -3460,7 +3460,7 @@ acquire
 rg
 '
 s
-bottom
+bEnd
 border
 nsTableRowGroupFrame
 *
@@ -3503,7 +3503,7 @@ will
 overwrite
 all
 but
-bottom
+bEnd
 aFrame
 -
 >
