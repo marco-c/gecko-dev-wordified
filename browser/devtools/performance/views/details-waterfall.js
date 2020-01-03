@@ -160,7 +160,7 @@ this
 ;
 this
 .
-graph
+waterfall
 =
 new
 Waterfall
@@ -170,7 +170,7 @@ Waterfall
 #
 waterfall
 -
-graph
+breakdown
 "
 )
 (
@@ -186,7 +186,7 @@ TIMELINE_BLUEPRINT
 ;
 this
 .
-markerDetails
+details
 =
 new
 MarkerDetails
@@ -213,7 +213,7 @@ splitter
 ;
 this
 .
-graph
+waterfall
 .
 on
 (
@@ -227,7 +227,7 @@ _onMarkerSelected
 ;
 this
 .
-graph
+waterfall
 .
 on
 (
@@ -241,7 +241,7 @@ _onMarkerSelected
 ;
 this
 .
-markerDetails
+details
 .
 on
 (
@@ -279,7 +279,7 @@ _onRecordingStopped
 ;
 this
 .
-graph
+waterfall
 .
 recalculateBounds
 (
@@ -304,7 +304,7 @@ function
 {
 this
 .
-graph
+waterfall
 .
 off
 (
@@ -318,7 +318,7 @@ _onMarkerSelected
 ;
 this
 .
-graph
+waterfall
 .
 off
 (
@@ -332,7 +332,7 @@ _onMarkerSelected
 ;
 this
 .
-markerDetails
+details
 .
 off
 (
@@ -417,7 +417,7 @@ getMarkers
 ;
 this
 .
-graph
+waterfall
 .
 setData
 (
@@ -456,7 +456,7 @@ function
 {
 this
 .
-graph
+waterfall
 .
 clearView
 (
@@ -531,7 +531,7 @@ selected
 {
 this
 .
-markerDetails
+details
 .
 render
 (
@@ -566,7 +566,7 @@ unselected
 {
 this
 .
-markerDetails
+details
 .
 empty
 (
@@ -597,7 +597,7 @@ function
 {
 this
 .
-graph
+waterfall
 .
 recalculateBounds
 (
