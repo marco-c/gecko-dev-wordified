@@ -15591,13 +15591,6 @@ ps
 -
 f
 '
-'
--
--
-no
--
-headers
-'
 ]
                                             
 processOutputLine
@@ -15632,16 +15625,6 @@ split
 (
 )
             
-pid
-=
-int
-(
-parts
-[
-0
-]
-)
-            
 if
 len
 (
@@ -15651,6 +15634,27 @@ parts
 =
 3
 and
+parts
+[
+0
+]
+.
+isdigit
+(
+)
+:
+                
+pid
+=
+int
+(
+parts
+[
+0
+]
+)
+                
+if
 parts
 [
 2
@@ -15669,7 +15673,7 @@ parts
 1
 '
 :
-                
+                    
 self
 .
 log
@@ -15692,7 +15696,7 @@ pname
 pid
 )
 )
-                
+                    
 killPid
 (
 pid
@@ -15719,13 +15723,6 @@ o
 pid
 ppid
 comm
-'
-'
--
--
-no
--
-headers
 '
 ]
                                             
