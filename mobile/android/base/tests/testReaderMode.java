@@ -297,7 +297,7 @@ textUrl
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_URL
 )
@@ -579,7 +579,7 @@ unregisterListener
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_URL
 )
@@ -1021,7 +1021,7 @@ mSolo
 .
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
 )
@@ -1037,7 +1037,7 @@ your
 Reading
 List
 "
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
 )
@@ -1186,7 +1186,7 @@ mSolo
 .
 waitForText
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
 )
@@ -1341,7 +1341,7 @@ unregisterListener
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_URL
 )
@@ -1472,7 +1472,7 @@ List
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_TEXT_PAGE_URL
 )

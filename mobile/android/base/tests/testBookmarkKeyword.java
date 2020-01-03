@@ -87,7 +87,7 @@ url
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -117,7 +117,7 @@ mDatabaseHelper
 .
 addOrUpdateMobileBookmark
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 url
@@ -128,7 +128,7 @@ mDatabaseHelper
 updateBookmark
 (
 url
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 keyword
@@ -161,7 +161,7 @@ appeared
 .
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )

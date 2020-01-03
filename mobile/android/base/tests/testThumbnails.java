@@ -261,7 +261,7 @@ thumbnailDelay
 ;
 inputAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 )
@@ -379,7 +379,7 @@ thumbnailDelay
 ;
 inputAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 )

@@ -122,7 +122,7 @@ url
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -132,7 +132,7 @@ url2
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -142,7 +142,7 @@ url3
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 )
@@ -473,7 +473,7 @@ DOMContentLoaded
 event
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 )

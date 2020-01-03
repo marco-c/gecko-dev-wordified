@@ -409,10 +409,6 @@ if
 (
 StringHelper
 .
-get
-(
-)
-.
 ABOUT_HOME_URL
 .
 equals
@@ -424,10 +420,6 @@ absoluteURL
 expected
 =
 StringHelper
-.
-get
-(
-)
 .
 ABOUT_HOME_TITLE
 ;

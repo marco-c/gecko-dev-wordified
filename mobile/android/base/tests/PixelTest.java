@@ -241,7 +241,7 @@ MENU
 ;
 waitForText
 (
-mStringHelper
+StringHelper
 .
 RELOAD_LABEL
 )
@@ -250,7 +250,7 @@ mSolo
 .
 clickOnText
 (
-mStringHelper
+StringHelper
 .
 RELOAD_LABEL
 )
@@ -382,7 +382,7 @@ isPrivate
 {
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 NEW_PRIVATE_TAB_LABEL
 )
@@ -392,7 +392,7 @@ else
 {
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 NEW_TAB_LABEL
 )
@@ -412,7 +412,7 @@ blockForEvent
 ;
 waitForText
 (
-mStringHelper
+StringHelper
 .
 TITLE_PLACE_HOLDER
 )
