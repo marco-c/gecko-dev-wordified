@@ -180,6 +180,9 @@ nsIParser
 class
 nsIPrincipal
 ;
+class
+nsINetworkInterceptController
+;
 nsresult
 NS_StartCORSPreflight
 (
@@ -294,6 +297,14 @@ aAllowDataURI
 false
 )
 ;
+void
+SetInterceptController
+(
+nsINetworkInterceptController
+*
+aInterceptController
+)
+;
 private
 :
 ~
@@ -385,6 +396,12 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mOuterNotificationCallbacks
+;
+nsCOMPtr
+<
+nsINetworkInterceptController
+>
+mInterceptController
 ;
 bool
 mWithCredentials
