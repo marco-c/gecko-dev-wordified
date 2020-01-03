@@ -7346,7 +7346,6 @@ compressionTask
 >
 work
 (
-sourceCompressor
 )
 ;
 }
