@@ -6964,7 +6964,9 @@ origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 "
 .
 if
