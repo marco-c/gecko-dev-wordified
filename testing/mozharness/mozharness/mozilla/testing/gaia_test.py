@@ -1395,7 +1395,7 @@ self
 proxxy
     
 def
-_retry_download_file
+_retry_download
 (
 self
 url
@@ -1592,6 +1592,27 @@ sleeptime
 else
 :
             
+#
+Since
+we
+'
+re
+overwritting
+_retry_download
+(
+)
+we
+can
+'
+t
+call
+download_file
+(
+)
+            
+#
+directly
+            
 return
 super
 (
@@ -1599,7 +1620,7 @@ GaiaTest
 self
 )
 .
-_retry_download_file
+_retry_download
 (
                 
 url
