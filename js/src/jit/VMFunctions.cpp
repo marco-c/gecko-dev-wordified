@@ -2673,6 +2673,12 @@ op
 =
 =
 JSOP_SETALIASEDVAR
+|
+|
+op
+=
+=
+JSOP_INITALIASEDLEXICAL
 )
 {
 /
