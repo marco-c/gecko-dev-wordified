@@ -6098,7 +6098,7 @@ WebGLRefPtr
 <
 WebGLBuffer
 >
-*
+&
 slot
 =
 GetBufferSlotByTarget
@@ -6106,15 +6106,9 @@ GetBufferSlotByTarget
 target
 )
 ;
-MOZ_ASSERT
-(
-slot
-)
-;
 if
 (
 !
-*
 slot
 )
 {
