@@ -700,6 +700,11 @@ CASE_RETURN
 TYPE_BEACON
 )
 ;
+CASE_RETURN
+(
+TYPE_FETCH
+)
+;
 default
 :
 return
