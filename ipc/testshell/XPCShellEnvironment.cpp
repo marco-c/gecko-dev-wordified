@@ -3354,7 +3354,6 @@ if
 JS_CompileUCScript
 (
 cx
-global
 aString
 .
 get

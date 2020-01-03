@@ -511,7 +511,6 @@ CHECK
 JS_CompileUCScript
 (
 cx
-global
 uc_code
 code_size
 options
@@ -569,7 +568,6 @@ CHECK
 JS_CompileUCScript
 (
 cx
-global
 uc_code
 0
 options
@@ -627,7 +625,6 @@ CHECK
 JS_CompileUCScript
 (
 cx
-global
 uc_code
 code_size
 options
