@@ -8193,7 +8193,6 @@ DEFINE_SIMD_FLOAT32X4_FUNCTION
 Name
 Func
 Operands
-Flags
 )
 \
 bool
@@ -8242,7 +8241,6 @@ DEFINE_SIMD_FLOAT64X2_FUNCTION
 Name
 Func
 Operands
-Flags
 )
 \
 bool
@@ -8291,7 +8289,6 @@ DEFINE_SIMD_INT32X4_FUNCTION
 Name
 Func
 Operands
-Flags
 )
 \
 bool
@@ -8350,7 +8347,6 @@ SIMD_FLOAT32X4_FUNCTION_ITEM
 Name
 Func
 Operands
-Flags
 )
 \
 JS_FN
@@ -8365,7 +8361,7 @@ simd_float32x4_
 #
 Name
 Operands
-Flags
+0
 )
 FLOAT32X4_FUNCTION_LIST
 (
@@ -8394,7 +8390,6 @@ SIMD_FLOAT64X2_FUNCTION_ITEM
 Name
 Func
 Operands
-Flags
 )
 \
 JS_FN
@@ -8409,7 +8404,7 @@ simd_float64x2_
 #
 Name
 Operands
-Flags
+0
 )
 FLOAT64X2_FUNCTION_LIST
 (
@@ -8438,7 +8433,6 @@ SIMD_INT32X4_FUNCTION_ITEM
 Name
 Func
 Operands
-Flags
 )
 \
 JS_FN
@@ -8453,7 +8447,7 @@ simd_int32x4_
 #
 Name
 Operands
-Flags
+0
 )
 INT32X4_FUNCTION_LIST
 (
