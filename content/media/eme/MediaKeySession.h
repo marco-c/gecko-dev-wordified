@@ -522,6 +522,11 @@ system_code
 )
 ;
 void
+DispatchKeysChange
+(
+)
+;
+void
 OnClosed
 (
 )

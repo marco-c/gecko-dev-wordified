@@ -3797,6 +3797,13 @@ keycode
 )
 GK_ATOM
 (
+keyschange
+"
+keyschange
+"
+)
+GK_ATOM
+(
 keydown
 "
 keydown
