@@ -329,7 +329,7 @@ must
 be
 called
 while
-mLock
+mMonitor
 is
 held
 .
@@ -400,6 +400,9 @@ mNotified
 ;
 bool
 mSleeping
+;
+TimeStamp
+mLastTimerEventLoopRun
 ;
 nsTArray
 <
