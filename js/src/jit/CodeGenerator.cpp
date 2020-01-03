@@ -33081,10 +33081,7 @@ NewDeclEnvObjectFn
 JSContext
 *
 HandleFunction
-gc
-:
-:
-InitialHeap
+NewObjectKind
 )
 ;
 static
@@ -33212,10 +33209,7 @@ funMaybeLazy
 )
 Imm32
 (
-gc
-:
-:
-DefaultHeap
+GenericObject
 )
 )
 StoreRegisterTo
