@@ -416,7 +416,7 @@ bool
 RecvNotifyRadioStateChanged
 (
 const
-nsString
+int32_t
 &
 aRadioState
 )
@@ -495,7 +495,7 @@ mData
 nsString
 mIccId
 ;
-nsString
+int32_t
 mRadioState
 ;
 nsString

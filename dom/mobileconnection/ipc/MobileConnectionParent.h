@@ -240,7 +240,7 @@ aIccId
 int32_t
 *
 aNetworkSelectionMode
-nsString
+int32_t
 *
 aRadioState
 nsTArray

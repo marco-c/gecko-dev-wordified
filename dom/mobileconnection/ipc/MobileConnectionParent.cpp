@@ -882,7 +882,7 @@ aIccId
 int32_t
 *
 aNetworkSelectionMode
-nsString
+int32_t
 *
 aRadioState
 nsTArray
@@ -981,7 +981,6 @@ mMobileConnection
 >
 GetRadioState
 (
-*
 aRadioState
 )
 false
@@ -1454,7 +1453,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsAutoString
+int32_t
 radioState
 ;
 rv
@@ -1464,6 +1463,7 @@ mMobileConnection
 >
 GetRadioState
 (
+&
 radioState
 )
 ;
