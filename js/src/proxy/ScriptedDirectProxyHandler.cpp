@@ -6141,7 +6141,6 @@ args
 array
 (
 )
-true
 args
 .
 rval
@@ -6171,11 +6170,6 @@ ObjectValue
 (
 *
 argsArray
-)
-args
-.
-newTarget
-(
 )
 }
 ;

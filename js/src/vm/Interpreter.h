@@ -654,8 +654,6 @@ const
 Value
 *
 argv
-bool
-newTargetInArgv
 MutableHandleValue
 rval
 )
@@ -2520,8 +2518,6 @@ HandleValue
 callee
 HandleValue
 arr
-HandleValue
-newTarget
 MutableHandleValue
 res
 )
