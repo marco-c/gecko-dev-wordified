@@ -13709,6 +13709,13 @@ gestures
 support
 GK_ATOM
 (
+onMozSwipeGestureMayStart
+"
+onMozSwipeGestureMayStart
+"
+)
+GK_ATOM
+(
 onMozSwipeGestureStart
 "
 onMozSwipeGestureStart
