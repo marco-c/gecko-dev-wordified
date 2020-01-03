@@ -7792,6 +7792,13 @@ querySpinningly
 stmt
 )
 ;
+PlacesUtils
+.
+invalidateCachedGuidFor
+(
+id
+)
+;
 return
 guid
 ;
