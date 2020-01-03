@@ -373,12 +373,8 @@ base
 ThreadLocalBoolean
 >
 lazy_tls_bool
-(
-base
-:
-:
-LINKER_INITIALIZED
-)
+=
+LAZY_INSTANCE_INITIALIZER
 ;
 }
 /

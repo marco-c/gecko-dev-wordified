@@ -85,12 +85,8 @@ NotificationService
 >
 >
 lazy_tls_ptr
-(
-base
-:
-:
-LINKER_INITIALIZED
-)
+=
+LAZY_INSTANCE_INITIALIZER
 ;
 /
 /
