@@ -5147,7 +5147,7 @@ storeBuffer
 storeBuffer
 -
 >
-putCellFromAnyThread
+putRelocatableCellFromAnyThread
 (
 static_cast
 <
@@ -5227,7 +5227,7 @@ gcStoreBufferPtr
 )
 -
 >
-unputCellFromAnyThread
+removeRelocatableCellFromAnyThread
 (
 static_cast
 <
