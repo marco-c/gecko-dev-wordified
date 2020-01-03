@@ -1682,6 +1682,12 @@ WorkerControlRunnable
 )
 {
 }
+NS_IMETHOD
+Cancel
+(
+)
+override
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
