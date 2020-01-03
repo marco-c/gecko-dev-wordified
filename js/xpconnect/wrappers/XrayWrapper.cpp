@@ -564,6 +564,9 @@ JSProto_Array
 case
 JSProto_Function
 :
+case
+JSProto_TypedArray
+:
 return
 true
 ;
