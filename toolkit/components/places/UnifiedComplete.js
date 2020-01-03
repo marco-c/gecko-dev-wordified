@@ -6253,11 +6253,11 @@ length
 0
 &
 &
-(
-yield
 PlacesUtils
 .
-promiseHrefAndPostDataForKeyword
+bookmarks
+.
+getURIForKeyword
 (
 this
 .
@@ -6266,9 +6266,6 @@ _searchTokens
 0
 ]
 )
-)
-.
-href
 )
 {
 /
