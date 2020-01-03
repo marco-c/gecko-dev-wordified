@@ -2055,7 +2055,7 @@ options
 =
 self
 .
-config
+tree_config
 [
 '
 suite_definitions
