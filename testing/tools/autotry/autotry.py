@@ -209,30 +209,22 @@ _use_git
 True
     
 def
-manifests_by_flavor
+resolve_manifests
 (
 self
 paths
-)
-:
-        
-manifests_by_flavor
 =
-defaultdict
-(
-set
+None
+tags
+=
+None
 )
-        
-if
-not
-paths
 :
-            
-return
-dict
-(
-manifests_by_flavor
-)
+        
+assert
+tags
+or
+paths
         
 tests
 =
@@ -244,6 +236,10 @@ resolver
 .
 resolve_tests
 (
+tags
+=
+tags
+                                                 
 paths
 =
 paths
@@ -256,6 +252,13 @@ mach_context
 .
 cwd
 )
+)
+        
+manifests_by_flavor
+=
+defaultdict
+(
+set
 )
         
 for
