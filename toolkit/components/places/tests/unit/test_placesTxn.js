@@ -4876,15 +4876,6 @@ function
 (
 )
 {
-const
-POST_DATA_ANNO
-=
-"
-bookmarkProperties
-/
-POSTData
-"
-;
 let
 postData
 =
