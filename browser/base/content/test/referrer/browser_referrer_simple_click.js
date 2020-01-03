@@ -85,6 +85,17 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+5
+)
+;
+/
+/
+slowwww
+shutdown
+on
+e10s
 startReferrerTest
 (
 startSimpleClickTestCase
