@@ -1353,7 +1353,7 @@ SetupTransaction
 )
 ;
 void
-SetupTransactionSchedulingContext
+SetupTransactionLoadGroupInfo
 (
 )
 ;
