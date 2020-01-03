@@ -4861,12 +4861,6 @@ mError
 =
 true
 ;
-decoder
-.
-mNeedDraining
-=
-true
-;
 ScheduleUpdate
 (
 aTrack
@@ -7035,12 +7029,6 @@ if
 decoder
 .
 mError
-&
-&
-!
-decoder
-.
-mDecoder
 )
 {
 decoder
