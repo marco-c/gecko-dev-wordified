@@ -2434,10 +2434,12 @@ to
 collect
 instead
 .
-ncx
+rt
 -
 >
-gcIfNeeded
+gc
+.
+gcIfRequested
 (
 )
 ;

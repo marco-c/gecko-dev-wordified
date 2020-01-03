@@ -4848,7 +4848,7 @@ nullptr
 ;
 }
 bool
-gcIfNeeded
+gcIfRequested
 (
 JSContext
 *
