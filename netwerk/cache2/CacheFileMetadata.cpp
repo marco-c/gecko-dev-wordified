@@ -235,6 +235,10 @@ mHandle
 (
 aHandle
 )
+mFirstRead
+(
+true
+)
 mHashArray
 (
 nullptr
