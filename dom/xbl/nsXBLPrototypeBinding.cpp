@@ -4989,6 +4989,8 @@ interfaceCount
 nsIID
 iid
 ;
+rv
+=
 aStream
 -
 >
@@ -4996,6 +4998,12 @@ ReadID
 (
 &
 iid
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mInterfaceTable
