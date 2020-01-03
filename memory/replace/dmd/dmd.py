@@ -115,7 +115,7 @@ handles
 .
 outputVersion
 =
-2
+3
 #
 If
 -
@@ -5000,6 +5000,25 @@ n
 )
 )
         
+if
+dmdEnvVar
+=
+=
+None
+:
+            
+out
+(
+'
+DMD
+is
+undefined
+'
+)
+        
+else
+:
+            
 out
 (
 '

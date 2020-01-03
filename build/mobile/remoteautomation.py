@@ -383,17 +383,6 @@ dmdPath
 env
 [
 '
-DMD
-'
-]
-=
-'
-1
-'
-            
-env
-[
-'
 MOZ_REPLACE_MALLOC_LIB
 '
 ]
