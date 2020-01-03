@@ -738,17 +738,11 @@ aSurface
 CairoSurface
 (
 )
-ToIntSize
-(
-gfxIntSize
-(
 aSurface
 -
 >
 GetSize
 (
-)
-)
 )
 &
 format

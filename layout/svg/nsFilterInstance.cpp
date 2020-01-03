@@ -1914,13 +1914,10 @@ GetPlatform
 >
 CreateOffscreenContentDrawTarget
 (
-ToIntSize
-(
 neededRect
 .
 Size
 (
-)
 )
 SurfaceFormat
 :
@@ -2244,13 +2241,10 @@ GetPlatform
 >
 CreateOffscreenContentDrawTarget
 (
-ToIntSize
-(
 neededRect
 .
 Size
 (
-)
 )
 SurfaceFormat
 :

@@ -900,14 +900,11 @@ mDrawTarget
 IntSize
 size
 =
-ToIntSize
-(
 mSurface
 -
 >
 GetSize
 (
-)
 )
 ;
 mDrawTarget

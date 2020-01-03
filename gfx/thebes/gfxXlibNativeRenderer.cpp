@@ -3695,10 +3695,7 @@ native
 .
 mSize
 =
-ToIntSize
-(
 size
-)
 ;
 RefPtr
 <
@@ -3970,10 +3967,7 @@ native
 .
 mSize
 =
-ToIntSize
-(
 size
-)
 ;
 RefPtr
 <

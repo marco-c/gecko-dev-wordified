@@ -122,17 +122,6 @@ AppendToString
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-/
-/
-for
-ToIntSize
-#
-include
-"
 mozilla
 /
 gfx

@@ -1064,13 +1064,7 @@ const
 override
 {
 return
-gfx
-:
-:
-ToIntSize
-(
 mSize
-)
 ;
 }
 /

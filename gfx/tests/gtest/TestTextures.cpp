@@ -1259,14 +1259,11 @@ texture
 >
 AllocateForSurface
 (
-ToIntSize
-(
 surface
 -
 >
 GetSize
 (
-)
 )
 )
 ;

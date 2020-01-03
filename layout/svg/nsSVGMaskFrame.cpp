@@ -1622,8 +1622,6 @@ resultOverflows
 IntSize
 maskSurfaceSize
 =
-ToIntSize
-(
 nsSVGUtils
 :
 :
@@ -1636,7 +1634,6 @@ Size
 )
 &
 resultOverflows
-)
 )
 ;
 if

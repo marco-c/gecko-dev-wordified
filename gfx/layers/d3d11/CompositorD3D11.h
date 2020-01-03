@@ -954,13 +954,7 @@ const
 override
 {
 return
-gfx
-:
-:
-ToIntSize
-(
 mSize
-)
 ;
 }
 RefPtr
@@ -1001,7 +995,10 @@ nsIWidget
 *
 mWidget
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 HWND

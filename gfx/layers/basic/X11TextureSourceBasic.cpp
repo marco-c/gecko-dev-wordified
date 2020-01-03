@@ -157,14 +157,11 @@ GetSize
 const
 {
 return
-ToIntSize
-(
 mSurface
 -
 >
 GetSize
 (
-)
 )
 ;
 }
