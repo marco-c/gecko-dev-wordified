@@ -4838,10 +4838,6 @@ haveTestPlugin
 !
 !
 testPlugin
-&
-&
-!
-gBrowserIsRemote
 ;
 /
 /
