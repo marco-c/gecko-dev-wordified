@@ -2695,7 +2695,6 @@ cx
 Constructor
 ctorNargs
 JSFUN_CONSTRUCTOR
-global
 name
 )
 ;
