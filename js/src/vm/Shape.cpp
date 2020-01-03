@@ -9091,7 +9091,8 @@ isObject
 (
 )
 )
-Mark
+{
+TraceManuallyBarrieredEdge
 (
 trc
 reinterpret_cast
@@ -9111,6 +9112,7 @@ proto
 "
 )
 ;
+}
 if
 (
 proto
