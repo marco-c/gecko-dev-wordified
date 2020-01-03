@@ -5520,6 +5520,13 @@ const
 TargetConfig
 &
 aTargetConfig
+const
+InfallibleTArray
+<
+PluginWindowData
+>
+&
+aUnused
 bool
 aIsFirstPaint
 bool
@@ -7925,6 +7932,13 @@ const
 TargetConfig
 &
 aTargetConfig
+const
+InfallibleTArray
+<
+PluginWindowData
+>
+&
+aPlugins
 bool
 aIsFirstPaint
 bool

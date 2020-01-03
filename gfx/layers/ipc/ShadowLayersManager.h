@@ -155,6 +155,13 @@ const
 TargetConfig
 &
 aTargetConfig
+const
+InfallibleTArray
+<
+PluginWindowData
+>
+&
+aPlugins
 bool
 aIsFirstPaint
 bool

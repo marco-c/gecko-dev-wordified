@@ -1230,6 +1230,10 @@ const
 TargetConfig
 &
 targetConfig
+PluginsArray
+&
+&
+aPlugins
 const
 bool
 &
@@ -1264,6 +1268,10 @@ cset
 )
 aTransactionId
 targetConfig
+Move
+(
+aPlugins
+)
 isFirstPaint
 scheduleComposite
 paintSequenceNumber
@@ -1348,6 +1356,10 @@ const
 TargetConfig
 &
 targetConfig
+PluginsArray
+&
+&
+aPlugins
 const
 bool
 &
@@ -3710,6 +3722,7 @@ ShadowLayersUpdated
 this
 aTransactionId
 targetConfig
+aPlugins
 isFirstPaint
 scheduleComposite
 paintSequenceNumber

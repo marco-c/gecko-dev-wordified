@@ -1031,6 +1031,13 @@ const
 TargetConfig
 &
 aTargetConfig
+const
+InfallibleTArray
+<
+PluginWindowData
+>
+&
+aPlugins
 bool
 aIsFirstPaint
 bool
@@ -1739,6 +1746,12 @@ mApzTestData
 LayerTransactionParent
 *
 mLayerTree
+;
+nsTArray
+<
+PluginWindowData
+>
+mPluginData
 ;
 }
 ;
