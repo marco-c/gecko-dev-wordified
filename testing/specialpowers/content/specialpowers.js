@@ -560,7 +560,7 @@ function
 (
 )
 {
-addMessageListener
+removeMessageListener
 (
 "
 SPProcessCrashService
