@@ -339,9 +339,9 @@ uint32_t
 aKeyFlags
 bool
 aAllowToDispatchKeypress
-bool
+uint32_t
 &
-aDoDefault
+aConsumedFlags
 )
 ;
 nsresult
