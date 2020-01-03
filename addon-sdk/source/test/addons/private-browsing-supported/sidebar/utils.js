@@ -122,6 +122,9 @@ menu_historySidebar
 '
 menu_bookmarksSidebar
 '
+'
+menu_readingListSidebar
+'
 ]
 ;
 function
