@@ -5507,7 +5507,7 @@ ScreenPixel
 transformToGecko
 wheelInput
 .
-mLocalOrigin
+mOrigin
 )
 ;
 }
