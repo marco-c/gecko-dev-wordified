@@ -2043,12 +2043,8 @@ version
 GLContext
 :
 :
-Extension_None
-{
-GLContext
-:
-:
 ARB_transform_feedback2
+{
 GLContext
 :
 :
