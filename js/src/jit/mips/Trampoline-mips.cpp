@@ -1613,7 +1613,7 @@ EnterJitBaseline
 Handle
 OSR
 .
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
@@ -5271,9 +5271,9 @@ masm
 cx
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 GeneralRegisterSet
 (
 Register
@@ -5283,6 +5283,7 @@ Codes
 :
 :
 WrapperMask
+)
 )
 ;
 static_assert
@@ -6510,7 +6511,7 @@ masm
 cx
 )
 ;
-RegisterSet
+LiveRegisterSet
 save
 ;
 if
@@ -6527,6 +6528,10 @@ jitSupportsFloatingPoint
 )
 {
 save
+.
+set
+(
+)
 =
 RegisterSet
 (
@@ -6550,6 +6555,10 @@ VolatileMask
 else
 {
 save
+.
+set
+(
+)
 =
 RegisterSet
 (
