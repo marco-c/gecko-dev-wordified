@@ -7391,9 +7391,12 @@ if
 mTransaction
 -
 >
-IsFinished
+IsCommittingOrDone
 (
 )
+|
+|
+mDeletedSpec
 )
 {
 aRv
