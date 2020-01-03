@@ -202,6 +202,26 @@ self
         
 msg
 =
+None
+        
+if
+self
+.
+buildbot_config
+[
+'
+sourcestamp
+'
+]
+[
+'
+changes
+'
+]
+:
+            
+msg
+=
 self
 .
 buildbot_config
@@ -226,6 +246,10 @@ comments
 ]
         
 if
+msg
+is
+None
+or
 len
 (
 msg
