@@ -1163,6 +1163,8 @@ neutrals
 .
 *
 /
+public
+:
 SHORT
 indexToLocFormat
 ;
@@ -1190,8 +1192,6 @@ format
 .
 *
 /
-public
-:
 DEFINE_SIZE_STATIC
 (
 54
