@@ -2986,11 +2986,6 @@ created
 by
 captureStreamUntilEnded
 .
-void
-UpdateStreamBlockingForPlayState
-(
-)
-;
 /
 *
 *
