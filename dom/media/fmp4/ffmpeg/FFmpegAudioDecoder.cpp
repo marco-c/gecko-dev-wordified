@@ -193,10 +193,6 @@ mCallback
 (
 aCallback
 )
-mConfig
-(
-aConfig
-)
 {
 MOZ_COUNT_CTOR
 (
