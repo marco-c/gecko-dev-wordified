@@ -1148,6 +1148,7 @@ nsISimpleEnumerator
 {
 public
 :
+explicit
 nsWatcherWindowEnumerator
 (
 nsWindowWatcher

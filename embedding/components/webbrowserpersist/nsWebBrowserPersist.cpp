@@ -848,6 +848,7 @@ mSelfProgress
 int64_t
 mSelfProgressMax
 ;
+explicit
 UploadData
 (
 nsIURI
