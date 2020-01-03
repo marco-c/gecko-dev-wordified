@@ -2921,7 +2921,7 @@ copy
 (
 mData
 oldData
-XPCOM_MIN
+XPCOM_MAX
 (
 mLength
 newLength
