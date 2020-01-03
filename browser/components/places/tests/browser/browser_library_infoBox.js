@@ -463,8 +463,6 @@ ContentTree
 .
 view
 .
-treeBoxObject
-.
 view
 ;
 ok
@@ -726,8 +724,6 @@ view
 ContentTree
 .
 view
-.
-treeBoxObject
 .
 view
 ;

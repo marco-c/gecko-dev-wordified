@@ -1974,13 +1974,6 @@ scrollBoxObject
 scrollbox
 .
 boxObject
-.
-QueryInterface
-(
-Ci
-.
-nsIScrollBoxObject
-)
 ;
 for
 (

@@ -1469,12 +1469,6 @@ DOMCI_DATA
 TreeSelection
 nsTreeSelection
 )
-/
-/
-QueryInterface
-implementation
-for
-nsBoxObject
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsTreeSelection

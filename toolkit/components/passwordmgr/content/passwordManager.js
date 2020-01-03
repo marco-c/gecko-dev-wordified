@@ -766,8 +766,6 @@ the
 table
 signonsTree
 .
-treeBoxObject
-.
 view
 =
 signonsTreeView

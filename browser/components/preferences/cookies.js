@@ -345,8 +345,6 @@ this
 .
 _tree
 .
-treeBoxObject
-.
 view
 =
 this
@@ -5962,8 +5960,6 @@ _loadCookies
 this
 .
 _tree
-.
-treeBoxObject
 .
 view
 =

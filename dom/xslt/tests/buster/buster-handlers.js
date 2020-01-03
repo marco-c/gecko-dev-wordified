@@ -111,15 +111,6 @@ view
 tree
 .
 boxObject
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsITreeBoxObject
-)
 ;
 {
 view

@@ -181,6 +181,9 @@ dom
 class
 Element
 ;
+class
+TreeBoxObject
+;
 }
 /
 /
@@ -720,7 +723,13 @@ MOZ_OVERRIDE
 /
 /
 WebIDL
-nsITreeBoxObject
+mozilla
+:
+:
+dom
+:
+:
+TreeBoxObject
 *
 GetTree
 (

@@ -3819,7 +3819,7 @@ mPosition
 /
 One
 of
-nsIPopupBoxObject
+PopupBoxObject
 :
 :
 ROLLUP_DEFAULT
@@ -3827,7 +3827,7 @@ ROLLUP_DEFAULT
 ROLLUP_CONSUME
 /
 ROLLUP_NO_CONSUME
-int8_t
+uint8_t
 mConsumeRollupEvent
 ;
 FlipType

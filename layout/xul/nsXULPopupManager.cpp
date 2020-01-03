@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIPopupBoxObject
-.
-h
-"
-#
-include
-"
 nsMenuBarListener
 .
 h

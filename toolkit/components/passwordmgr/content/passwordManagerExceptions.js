@@ -396,8 +396,6 @@ the
 table
 rejectsTree
 .
-treeBoxObject
-.
 view
 =
 rejectsTreeView

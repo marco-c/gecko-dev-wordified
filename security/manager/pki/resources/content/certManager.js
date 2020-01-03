@@ -458,8 +458,6 @@ tree
 '
 )
 .
-treeBoxObject
-.
 view
 =
 caTreeView
@@ -498,8 +496,6 @@ server
 tree
 '
 )
-.
-treeBoxObject
 .
 view
 =
@@ -540,8 +536,6 @@ tree
 '
 )
 .
-treeBoxObject
-.
 view
 =
 emailTreeView
@@ -581,8 +575,6 @@ tree
 '
 )
 .
-treeBoxObject
-.
 view
 =
 userTreeView
@@ -621,8 +613,6 @@ orphan
 tree
 '
 )
-.
-treeBoxObject
 .
 view
 =

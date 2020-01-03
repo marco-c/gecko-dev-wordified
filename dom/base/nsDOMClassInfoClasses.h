@@ -154,10 +154,6 @@ DOMCI_CLASS
 (
 XULControllers
 )
-DOMCI_CLASS
-(
-BoxObject
-)
 #
 ifdef
 MOZ_XUL

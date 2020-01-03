@@ -503,15 +503,6 @@ detailView
 .
 boxObject
 ;
-boxObject
-.
-QueryInterface
-(
-Ci
-.
-nsIScrollBoxObject
-)
-;
 ok
 (
 detailView

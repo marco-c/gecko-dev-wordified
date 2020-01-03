@@ -918,8 +918,6 @@ prettyDumpTree
 '
 )
 .
-treeBoxObject
-.
 view
 .
 QueryInterface
@@ -1025,8 +1023,6 @@ getElementById
 prettyDumpTree
 '
 )
-.
-treeBoxObject
 .
 view
 =
@@ -1764,8 +1760,6 @@ getElementById
 prettyDumpTree
 '
 )
-.
-treeBoxObject
 .
 view
 .

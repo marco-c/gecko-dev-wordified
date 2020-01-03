@@ -130,15 +130,6 @@ service
 "
 ;
 const
-nsITreeBoxObject
-=
-Components
-.
-interfaces
-.
-nsITreeBoxObject
-;
-const
 nsIFileView
 =
 Components
@@ -938,8 +929,6 @@ seltype
 )
 ;
 tree
-.
-treeBoxObject
 .
 view
 =

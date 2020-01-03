@@ -276,11 +276,11 @@ nsITreeColumn
 *
 aColumn
 const
-nsCString
+nsAString
 &
 aPseudoElt
 =
-EmptyCString
+EmptyString
 (
 )
 )
