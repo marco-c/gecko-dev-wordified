@@ -1871,6 +1871,10 @@ mLineOrPageDeltaY
 (
 0
 )
+mHandledByAPZ
+(
+false
+)
 {
 }
 bool
@@ -1978,6 +1982,9 @@ mLineOrPageDeltaX
 ;
 int32_t
 mLineOrPageDeltaY
+;
+bool
+mHandledByAPZ
 ;
 }
 ;
@@ -2828,6 +2835,10 @@ mOrigin
 (
 aOrigin
 )
+mHandledByAPZ
+(
+false
+)
 mDeltaX
 (
 aDeltaX
@@ -2879,6 +2890,9 @@ mScrollMode
 ;
 ScreenPoint
 mOrigin
+;
+bool
+mHandledByAPZ
 ;
 /
 /

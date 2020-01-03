@@ -1430,7 +1430,7 @@ mFlags
 .
 mHandledByAPZ
 =
-true
+mHandledByAPZ
 ;
 return
 wheelEvent
@@ -1769,7 +1769,7 @@ mFlags
 .
 mHandledByAPZ
 =
-true
+mHandledByAPZ
 ;
 return
 wheelEvent
