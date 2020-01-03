@@ -10321,13 +10321,6 @@ NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 }
-mWebSocket
--
->
-mOriginalURL
-=
-aURL
-;
 rv
 =
 parsedURL
@@ -10344,6 +10337,15 @@ NS_SUCCEEDED
 (
 rv
 )
+)
+;
+CopyUTF8toUTF16
+(
+mURI
+mWebSocket
+-
+>
+mURI
 )
 ;
 return
@@ -11615,7 +11617,7 @@ IsEmpty
 {
 aURL
 =
-mOriginalURL
+mURI
 ;
 }
 else
@@ -12986,7 +12988,7 @@ CopyUTF16toUTF8
 mWebSocket
 -
 >
-mOriginalURL
+mURI
 aName
 )
 ;
