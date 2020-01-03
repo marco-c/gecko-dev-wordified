@@ -4066,6 +4066,17 @@ isHeapBusy
 return
 nullptr
 ;
+if
+(
+!
+oom
+:
+:
+IsSimulatedOOMAllocation
+(
+)
+)
+{
 /
 *
 *
@@ -4169,6 +4180,7 @@ p
 return
 p
 ;
+}
 if
 (
 maybecx
