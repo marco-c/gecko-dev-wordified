@@ -21557,9 +21557,7 @@ with
 the
 given
 version
-nsAutoMicroTask
-mt
-;
+.
 /
 /
 We
