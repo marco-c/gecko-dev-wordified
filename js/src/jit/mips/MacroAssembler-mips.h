@@ -9606,7 +9606,7 @@ NYI
 ;
 }
 void
-storeFloat32x
+storeFloat32x3
 (
 FloatRegister
 src
