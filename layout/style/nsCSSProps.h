@@ -4281,13 +4281,6 @@ kImageOrientationFlipKTable
 static
 const
 KTableValue
-kIsolationKTable
-[
-]
-;
-static
-const
-KTableValue
 kIMEModeKTable
 [
 ]

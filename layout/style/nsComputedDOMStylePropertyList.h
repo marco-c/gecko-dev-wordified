@@ -1084,11 +1084,6 @@ IMEMode
 )
 COMPUTED_STYLE_PROP
 (
-isolation
-Isolation
-)
-COMPUTED_STYLE_PROP
-(
 justify_content
 JustifyContent
 )
