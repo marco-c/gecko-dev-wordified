@@ -23594,7 +23594,7 @@ NewDenseCopyOnWriteArray
 JSContext
 *
 cx
-HandleNativeObject
+HandleArrayObject
 templateObject
 gc
 :

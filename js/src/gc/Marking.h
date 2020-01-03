@@ -974,6 +974,11 @@ NestedScopeObject
 DeclMarker
 (
 Object
+PlainObject
+)
+DeclMarker
+(
+Object
 SavedFrame
 )
 DeclMarker
