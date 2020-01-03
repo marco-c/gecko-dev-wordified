@@ -1624,8 +1624,9 @@ PROXY_MAKE_EXT
 (
 outerObject
 innerObject
-isWrappedNative
+iteratorObject
 \
+isWrappedNative
 objectMoved
 )
 \
@@ -1634,6 +1635,8 @@ objectMoved
 outerObject
 \
 innerObject
+\
+iteratorObject
 \
 isWrappedNative
 \
@@ -1895,6 +1898,13 @@ nullptr
 /
 *
 innerObject
+*
+/
+\
+nullptr
+/
+*
+iteratorObject
 *
 /
 \
