@@ -861,14 +861,6 @@ rv
 rv
 )
 ;
-aRenderingContext
--
->
-SetFont
-(
-fontMet
-)
-;
 lineHeight
 =
 nsHTMLReflowState

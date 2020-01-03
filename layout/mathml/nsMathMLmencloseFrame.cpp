@@ -2029,13 +2029,6 @@ fm
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 GetRuleThickness
 (
 aRenderingContext

@@ -6953,13 +6953,6 @@ this
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 /
 /
 Format

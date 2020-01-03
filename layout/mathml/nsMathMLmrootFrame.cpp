@@ -1250,13 +1250,6 @@ fm
 )
 )
 ;
-renderingContext
-.
-SetFont
-(
-fm
-)
-;
 nscoord
 ruleThickness
 leading

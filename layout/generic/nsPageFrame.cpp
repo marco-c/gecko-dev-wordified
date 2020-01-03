@@ -4536,13 +4536,6 @@ fontMet
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fontMet
-)
-;
 nscoord
 ascent
 =
