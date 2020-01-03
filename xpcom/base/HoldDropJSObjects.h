@@ -159,16 +159,6 @@ mozilla
 namespace
 cyclecollector
 {
-/
-/
-These
-methods
-are
-defined
-in
-nsCycleCollector
-.
-cpp
 void
 HoldJSObjectsImpl
 (
