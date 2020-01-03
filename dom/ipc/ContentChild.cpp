@@ -789,13 +789,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsThreadManager
 .
 h

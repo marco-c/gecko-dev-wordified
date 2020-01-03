@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

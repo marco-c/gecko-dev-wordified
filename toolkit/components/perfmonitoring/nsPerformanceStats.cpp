@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
