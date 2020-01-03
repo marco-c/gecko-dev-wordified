@@ -349,7 +349,7 @@ has
 been
 marked
 .
-Enties
+Entries
 are
 marked
 /
@@ -368,6 +368,7 @@ happens
 /
 /
 when
+as
 many
 keys
 as
