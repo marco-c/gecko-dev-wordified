@@ -698,6 +698,13 @@ Update
 keyStatuses
 )
 ;
+if
+(
+EME_LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 message
 (
@@ -848,6 +855,7 @@ get
 )
 )
 ;
+}
 }
 MediaKeyStatusMap
 *
@@ -1081,6 +1089,13 @@ here
 nsAutoCString
 base64InitData
 ;
+if
+(
+EME_LOG_ENABLED
+(
+)
+)
+{
 nsDependentCSubstring
 rawInitData
 (
@@ -1129,6 +1144,7 @@ logging
 "
 )
 ;
+}
 }
 PromiseId
 pid
@@ -1684,6 +1700,13 @@ here
 nsAutoCString
 base64Response
 ;
+if
+(
+EME_LOG_ENABLED
+(
+)
+)
+{
 nsDependentCSubstring
 rawResponse
 (
@@ -1732,6 +1755,7 @@ logging
 "
 )
 ;
+}
 }
 PromiseId
 pid
@@ -2360,6 +2384,13 @@ uint8_t
 aMessage
 )
 {
+if
+(
+EME_LOG_ENABLED
+(
+)
+)
+{
 nsAutoCString
 base64MsgData
 ;
@@ -2469,6 +2500,7 @@ get
 )
 )
 ;
+}
 nsRefPtr
 <
 MediaKeyMessageEvent

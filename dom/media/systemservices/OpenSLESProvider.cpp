@@ -175,8 +175,8 @@ LOG_ENABLED
 )
 PR_LOG_TEST
 (
-gLoadManagerLog
-5
+gOpenSLESProviderLog
+PR_LOG_DEBUG
 )
 namespace
 mozilla
