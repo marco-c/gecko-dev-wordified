@@ -14856,6 +14856,9 @@ dblclick
 multiline
 :
 true
+trimOutput
+:
+false
 done
 :
 (
