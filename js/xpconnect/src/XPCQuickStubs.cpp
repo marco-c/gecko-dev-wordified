@@ -2325,8 +2325,6 @@ JSREPORT_STRICT_MODE_ERROR
 js_GetErrorMessage
 nullptr
 JSMSG_GETTER_ONLY
-"
-"
 )
 ;
 }
