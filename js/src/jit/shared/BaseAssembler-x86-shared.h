@@ -19389,7 +19389,6 @@ vmovsd
 "
 VEX_SD
 OP2_MOVSD_VsdWsd
-0
 X86Registers
 :
 :
@@ -19414,7 +19413,6 @@ vmovss
 "
 VEX_SS
 OP2_MOVSD_VsdWsd
-0
 X86Registers
 :
 :
@@ -19439,7 +19437,6 @@ vmovsd
 "
 VEX_SD
 OP2_MOVSD_WsdVsd
-0
 X86Registers
 :
 :
@@ -19464,7 +19461,6 @@ vmovss
 "
 VEX_SS
 OP2_MOVSD_WsdVsd
-0
 X86Registers
 :
 :
@@ -19489,7 +19485,6 @@ vmovdqa
 "
 VEX_PD
 OP2_MOVDQ_WdqVdq
-0
 X86Registers
 :
 :
@@ -19514,7 +19509,6 @@ vmovdqa
 "
 VEX_PS
 OP2_MOVAPS_WsdVsd
-0
 X86Registers
 :
 :
@@ -20096,7 +20090,6 @@ vmovaps
 "
 VEX_PS
 OP2_MOVAPS_VsdWsd
-0
 X86Registers
 :
 :
@@ -20121,7 +20114,6 @@ vmovdqa
 "
 VEX_PD
 OP2_MOVDQ_VdqWdq
-0
 X86Registers
 :
 :
@@ -23980,8 +23972,6 @@ VexOperandType
 ty
 TwoByteOpcodeID
 opcode
-int
-ripOffset
 XMMRegisterID
 src0
 XMMRegisterID
@@ -24009,7 +23999,7 @@ m_formatter
 twoByteRipOp
 (
 opcode
-ripOffset
+0
 dst
 )
 ;
@@ -24042,9 +24032,6 @@ s
 Lfrom
 %
 d
-%
-+
-d
 (
 %
 %
@@ -24064,7 +24051,6 @@ label
 offset
 (
 )
-ripOffset
 )
 ;
 else
@@ -24077,9 +24063,6 @@ spew
 .
 Lfrom
 %
-d
-%
-+
 d
 (
 %
@@ -24098,7 +24081,6 @@ label
 offset
 (
 )
-ripOffset
 XMMRegName
 (
 dst
@@ -24115,7 +24097,7 @@ twoByteRipOpVex
 (
 ty
 opcode
-ripOffset
+0
 src0
 dst
 )
@@ -24160,9 +24142,6 @@ s
 Lfrom
 %
 d
-%
-+
-d
 (
 %
 %
@@ -24179,7 +24158,6 @@ label
 offset
 (
 )
-ripOffset
 )
 ;
 else
@@ -24192,9 +24170,6 @@ spew
 .
 Lfrom
 %
-d
-%
-+
 d
 (
 %
@@ -24210,7 +24185,6 @@ label
 offset
 (
 )
-ripOffset
 XMMRegName
 (
 dst
@@ -24230,9 +24204,6 @@ spew
 Lfrom
 %
 d
-%
-+
-d
 (
 %
 %
@@ -24249,7 +24220,6 @@ label
 offset
 (
 )
-ripOffset
 XMMRegName
 (
 src0
