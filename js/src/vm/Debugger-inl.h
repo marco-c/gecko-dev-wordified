@@ -444,6 +444,9 @@ dispatchHook
 cx
 vp
 OnDebuggerStatement
+NullPtr
+(
+)
 )
 :
 JSTRAP_CONTINUE
