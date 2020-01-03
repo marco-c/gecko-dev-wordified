@@ -119,10 +119,10 @@ started
 /
 #
 ifndef
-MOZILLA_IMAGELIB_SHUTDOWNTRACKER_H_
+mozilla_image_src_ShutdownTracker_h
 #
 define
-MOZILLA_IMAGELIB_SHUTDOWNTRACKER_H_
+mozilla_image_src_ShutdownTracker_h
 namespace
 mozilla
 {
@@ -159,8 +159,8 @@ the
 need
 for
 registering
-many
 *
+many
 '
 xpcom
 -
@@ -174,8 +174,8 @@ short
 lived
 objects
 which
-would
 *
+would
 have
 an
 unnecessary
@@ -296,4 +296,4 @@ mozilla
 endif
 /
 /
-MOZILLA_IMAGELIB_SHUTDOWNTRACKER_H_
+mozilla_image_src_ShutdownTracker_h
