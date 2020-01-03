@@ -51324,6 +51324,11 @@ aOpenParams
 .
 ignoreQueryString
 ;
+delete
+aOpenParams
+.
+replaceQueryString
+;
 /
 /
 This
