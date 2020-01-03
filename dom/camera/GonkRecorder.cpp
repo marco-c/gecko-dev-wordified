@@ -8002,7 +8002,10 @@ OK
 uint32_t
 encoder_flags
 =
-0
+OMXCodec
+:
+:
+kHardwareCodecsOnly
 ;
 if
 (
@@ -8031,14 +8034,6 @@ kStoreMetaDataInVideoBuffers
 ;
 #
 else
-encoder_flags
-|
-=
-OMXCodec
-:
-:
-kHardwareCodecsOnly
-;
 encoder_flags
 |
 =
