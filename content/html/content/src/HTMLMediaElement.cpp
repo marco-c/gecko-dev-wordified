@@ -18606,7 +18606,7 @@ we
 activate
 autoplay
 on
-HAVE_CURRENT_DATA
+HAVE_METADATA
 because
 /
 /
@@ -18663,7 +18663,7 @@ mReadyState
 nsIDOMHTMLMediaElement
 :
 :
-HAVE_CURRENT_DATA
+HAVE_METADATA
 )
 )
 &
