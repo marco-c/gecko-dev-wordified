@@ -1384,8 +1384,7 @@ background
 -
 color
 :
-#
-0069d9
+Highlight
 ;
 background
 -
@@ -1430,6 +1429,10 @@ rgba
 )
 transparent
 )
+;
+color
+:
+HighlightText
 ;
 }
 media
