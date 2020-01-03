@@ -801,6 +801,14 @@ lir
 )
 ;
 void
+visitNurseryObject
+(
+LNurseryObject
+*
+lir
+)
+;
+void
 visitSlots
 (
 LSlots

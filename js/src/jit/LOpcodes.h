@@ -1758,6 +1758,11 @@ ThrowUninitializedLexical
 \
 _
 (
+NurseryObject
+)
+\
+_
+(
 Debugger
 )
 #
