@@ -114,13 +114,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -445,7 +438,7 @@ BackendTypeBit
 BackendType
 :
 :
-CAIRO
+COREGRAPHICS
 )
 ;
 InitBackendPrefs
@@ -459,7 +452,7 @@ contentMask
 BackendType
 :
 :
-CAIRO
+COREGRAPHICS
 )
 ;
 }
@@ -549,7 +542,7 @@ gfxASurface
 newSurface
 =
 new
-gfxImageSurface
+gfxQuartzSurface
 (
 ThebesIntSize
 (
