@@ -149,9 +149,6 @@ mozilla
 namespace
 psm
 {
-struct
-ChainValidationCallbackState
-;
 /
 /
 These

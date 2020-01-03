@@ -186,6 +186,11 @@ cps
 "
 '
 )
+default_validity_in_days
+=
+10
+*
+365
 def
 generate_cert_generic
 (
@@ -216,6 +221,10 @@ key_size
 '
 2048
 '
+                          
+validity_in_days
+=
+default_validity_in_days
 )
 :
     
@@ -408,6 +417,20 @@ size
 for
 RSA
 certs
+      
+validity_in_days
+-
+-
+the
+number
+of
+days
+the
+cert
+will
+be
+valid
+for
     
 output
 :
@@ -682,13 +705,21 @@ req
 -
 sha256
 -
-days
-3650
--
 in
 "
 +
 csr_name
++
+                   
+"
+-
+days
+"
++
+str
+(
+validity_in_days
+)
 +
                    
 "
@@ -744,9 +775,6 @@ req
 -
 sha256
 -
-days
-3650
--
 in
 "
 +
@@ -773,6 +801,17 @@ signer_cert_filename
 CAform
 DER
 "
++
+                   
+"
+-
+days
+"
++
+str
+(
+validity_in_days
+)
 +
                    
 "
@@ -823,6 +862,10 @@ key_type
 '
 rsa
 '
+                        
+ee_validity_in_days
+=
+default_validity_in_days
 )
 :
     
@@ -1089,6 +1132,24 @@ ecparam
 -
 list_curves
 '
+      
+ee_validity_in_days
+-
+-
+the
+number
+of
+days
+the
+end
+-
+entity
+cert
+will
+be
+                             
+valid
+for
     
 output
 :
@@ -1196,9 +1257,11 @@ ee_cert
 =
 generate_cert_generic
 (
+        
 db_dir
+        
 dest_dir
-                                              
+        
 random
 .
 randint
@@ -1206,13 +1269,20 @@ randint
 100
 40000000
 )
-                                              
+        
 key_type
+        
 name
-                                              
+        
 ee_ext_text
+        
 int_key
+        
 int_cert
+        
+validity_in_days
+=
+ee_validity_in_days
 )
     
 return
