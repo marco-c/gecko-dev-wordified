@@ -1210,6 +1210,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 mCache
 =

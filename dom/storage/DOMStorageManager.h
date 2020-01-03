@@ -314,6 +314,7 @@ nsACString
 &
 aScopePrefix
 )
+MOZ_OVERRIDE
 ;
 /
 /
