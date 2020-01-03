@@ -264,8 +264,15 @@ Tests
 *
 *
 /
-function
+let
 test_bulk_send_error
+=
+Task
+.
+async
+(
+function
+*
 (
 transportFactory
 )
@@ -282,6 +289,7 @@ defer
 let
 transport
 =
+yield
 transportFactory
 (
 )
@@ -370,3 +378,5 @@ deferred
 promise
 ;
 }
+)
+;

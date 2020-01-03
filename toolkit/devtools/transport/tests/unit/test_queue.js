@@ -184,8 +184,15 @@ Tests
 *
 *
 /
-function
+let
 test_transport
+=
+Task
+.
+async
+(
+function
+*
 (
 transportFactory
 )
@@ -259,6 +266,7 @@ length
 let
 transport
 =
+yield
 transportFactory
 (
 )
@@ -829,6 +837,8 @@ promise
 )
 ;
 }
+)
+;
 /
 *
 *
