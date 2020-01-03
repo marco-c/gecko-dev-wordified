@@ -575,7 +575,7 @@ xpinstall
 "
 gBrowser
 .
-contentWindow
+selectedBrowser
 gBrowser
 .
 currentURI
