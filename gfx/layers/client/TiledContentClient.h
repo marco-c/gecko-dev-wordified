@@ -2480,10 +2480,11 @@ GetSurfaceDescriptorTiles
 ;
 protected
 :
-TileClient
+void
 ValidateTile
 (
 TileClient
+&
 aTile
 const
 nsIntPoint
@@ -2508,6 +2509,7 @@ void
 UnlockTile
 (
 TileClient
+&
 aTile
 )
 ;
@@ -2515,6 +2517,7 @@ void
 ReleaseTile
 (
 TileClient
+&
 aTile
 )
 {
