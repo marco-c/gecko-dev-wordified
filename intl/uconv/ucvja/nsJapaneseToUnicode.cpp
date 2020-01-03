@@ -4830,12 +4830,9 @@ EncodingUtils
 :
 DecoderForEncoding
 (
-NS_LITERAL_CSTRING
-(
 "
-GB2312
+gb18030
 "
-)
 )
 ;
 }
