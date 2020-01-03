@@ -874,6 +874,9 @@ working
 at
 all
 .
+#
+ifdef
+DEBUG
 static
 const
 size_t
@@ -881,6 +884,8 @@ NUM_TEST_EV_ROOTS
 =
 2
 ;
+#
+endif
 static
 struct
 nsMyTrustedEVInfo
