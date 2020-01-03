@@ -24596,6 +24596,15 @@ Binding
 ARGUMENT
 &
 &
+!
+bi
+-
+>
+aliased
+(
+)
+&
+&
 bi
 .
 frameIndex
