@@ -1442,9 +1442,8 @@ versions
 ?
 *
 /
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
@@ -1521,9 +1520,8 @@ versions
 ?
 *
 /
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented

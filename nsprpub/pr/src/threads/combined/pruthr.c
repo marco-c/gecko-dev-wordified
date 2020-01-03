@@ -435,7 +435,7 @@ char
 (
 (
 (
-long
+PRWord
 )
 &
 type
@@ -496,7 +496,7 @@ char
 (
 (
 (
-long
+PRWord
 )
 &
 type
@@ -945,7 +945,7 @@ char
 (
 (
 (
-long
+PRWord
 )
 &
 ts
@@ -999,7 +999,7 @@ char
 (
 (
 (
-long
+PRWord
 )
 &
 ts

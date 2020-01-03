@@ -6067,9 +6067,8 @@ shl_unload
 .
 *
 /
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 _pr_loadmap
 and

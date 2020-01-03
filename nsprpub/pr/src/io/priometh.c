@@ -479,9 +479,8 @@ _PR_InvalidInt
 void
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 I
 /
@@ -514,9 +513,8 @@ _PR_InvalidInt16
 void
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 I
 /
@@ -559,9 +557,8 @@ rv
 1
 )
 ;
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 I
 /
@@ -604,9 +601,8 @@ _PR_InvalidStatus
 void
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 I
 /
@@ -651,9 +647,8 @@ _PR_InvalidDesc
 void
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 I
 /

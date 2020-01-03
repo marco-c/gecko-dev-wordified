@@ -718,9 +718,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -1035,9 +1034,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -1239,9 +1237,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -1528,9 +1525,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -1750,9 +1746,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -1935,9 +1930,8 @@ out_flags
 )
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Whoa
 !
@@ -2268,9 +2262,8 @@ break
 }
 }
 else
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 How
 '

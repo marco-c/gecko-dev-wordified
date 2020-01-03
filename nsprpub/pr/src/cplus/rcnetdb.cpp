@@ -294,9 +294,8 @@ break
 ;
 default
 :
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 This
 can
