@@ -261,7 +261,7 @@ h
 '
     
 '
-nsAutoPtr
+nsRefPtr
 .
 h
 '
