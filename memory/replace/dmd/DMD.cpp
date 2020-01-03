@@ -5388,7 +5388,7 @@ bit
 0
 :
 |
-mSampled
+mIsSampled
 |
 -
 was
@@ -5412,7 +5412,7 @@ StackTrace
 *
 const
 >
-mAllocStackTrace_mSampled
+mAllocStackTrace_mIsSampled
 ;
 /
 /
@@ -5565,7 +5565,7 @@ StackTrace
 *
 aAllocStackTrace
 bool
-aSampled
+aIsSampled
 )
 :
 mPtr
@@ -5576,10 +5576,10 @@ mReqSize
 (
 aReqSize
 )
-mAllocStackTrace_mSampled
+mAllocStackTrace_mIsSampled
 (
 aAllocStackTrace
-aSampled
+aIsSampled
 )
 mReportStackTrace_mReportedOnAlloc
 (
@@ -5675,7 +5675,7 @@ IsSampled
 const
 {
 return
-mAllocStackTrace_mSampled
+mAllocStackTrace_mIsSampled
 .
 Tag
 (
@@ -5691,7 +5691,7 @@ AllocStackTrace
 const
 {
 return
-mAllocStackTrace_mSampled
+mAllocStackTrace_mIsSampled
 .
 Ptr
 (
@@ -6774,7 +6774,7 @@ aT
 )
 /
 *
-sampled
+isSampled
 *
 /
 true
@@ -6826,7 +6826,7 @@ aT
 )
 /
 *
-sampled
+isSampled
 *
 /
 false
