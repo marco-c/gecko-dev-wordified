@@ -7935,7 +7935,7 @@ nsRefPtr
 <
 nsISupports
 >
-obj
+qiResult
 ;
 /
 /
@@ -8043,14 +8043,14 @@ QueryInterface
 iid
 getter_AddRefs
 (
-obj
+qiResult
 )
 )
 )
 |
 |
 !
-obj
+qiResult
 )
 {
 aTearOff
@@ -8101,7 +8101,7 @@ alternate_identity
 (
 do_QueryInterface
 (
-obj
+qiResult
 )
 )
 ;
@@ -8334,7 +8334,7 @@ wrappedJS
 (
 do_QueryInterface
 (
-obj
+qiResult
 )
 )
 ;
@@ -8855,7 +8855,7 @@ aTearOff
 >
 SetNative
 (
-obj
+qiResult
 .
 forget
 (
