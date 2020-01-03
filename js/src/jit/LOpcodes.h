@@ -193,6 +193,11 @@ Float32x4
 \
 _
 (
+SimdReinterpretCast
+)
+\
+_
+(
 SimdExtractElementI
 )
 \

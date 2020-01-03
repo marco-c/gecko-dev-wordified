@@ -1810,6 +1810,14 @@ ins
 )
 ;
 void
+visitSimdReinterpretCast
+(
+LSimdReinterpretCast
+*
+lir
+)
+;
+void
 visitSimdExtractElementI
 (
 LSimdExtractElementI
