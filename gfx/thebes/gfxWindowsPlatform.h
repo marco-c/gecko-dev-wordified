@@ -1746,14 +1746,6 @@ CanUseD3D11ImageBridge
 (
 )
 ;
-bool
-ContentAdapterIsParentAdapter
-(
-ID3D11Device
-*
-device
-)
-;
 IDXGIAdapter1
 *
 GetDXGIAdapter

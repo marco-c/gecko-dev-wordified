@@ -781,10 +781,13 @@ CreateForDrawing
 mSurfaceAllocator
 mFormat
 mSize
-BackendSelector
+gfx
 :
 :
-Content
+BackendType
+:
+:
+NONE
 TextureFlags
 :
 :

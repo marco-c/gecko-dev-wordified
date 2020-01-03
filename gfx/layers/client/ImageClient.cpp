@@ -1582,10 +1582,13 @@ image
 GetSize
 (
 )
-BackendSelector
+gfx
 :
 :
-Content
+BackendType
+:
+:
+NONE
 mTextureFlags
 )
 ;
