@@ -487,6 +487,16 @@ Utilities
 .
 h
 "
+#
+define
+BAD_TLS_INDEX
+(
+(
+uint32_t
+)
+-
+1
+)
 /
 /
 The
