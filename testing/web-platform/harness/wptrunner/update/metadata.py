@@ -239,11 +239,8 @@ message
 =
 "
 Update
-web
--
-platform
--
-tests
+%
+s
 expected
 data
 to
@@ -252,9 +249,14 @@ revision
 s
 "
 %
+(
+state
+.
+suite_name
 sync_tree
 .
 rev
+)
         
 else
 :
@@ -273,14 +275,15 @@ message
 =
 "
 Update
-web
--
-platform
--
-tests
+%
+s
 expected
 data
 "
+%
+state
+.
+suite_name
         
 local_tree
 .

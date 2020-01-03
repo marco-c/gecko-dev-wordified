@@ -1163,20 +1163,22 @@ rev
                                 
 "
 Update
-web
--
-platform
--
-tests
+%
+s
 to
 revision
 %
 s
 "
 %
+(
+state
+.
+suite_name
 sync_tree
 .
 rev
+)
 )
         
 local_tree
