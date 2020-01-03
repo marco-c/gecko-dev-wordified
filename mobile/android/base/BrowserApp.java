@@ -12837,6 +12837,17 @@ if
 AppConstants
 .
 MOZ_STUMBLER_BUILD_TIME_ENABLED
+&
+&
+RestrictedProfiles
+.
+isAllowed
+(
+this
+Restriction
+.
+DISALLOW_LOCATION_SERVICE
+)
 )
 {
 /
