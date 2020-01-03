@@ -207,7 +207,6 @@ MP4Stream
 (
 resource
 )
-0
 &
 mMonitor
 )

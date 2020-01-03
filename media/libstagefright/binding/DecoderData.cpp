@@ -1379,9 +1379,6 @@ Update
 int64_t
 &
 aMediaTime
-int64_t
-&
-aTimestampOffset
 )
 {
 sp
@@ -1437,8 +1434,6 @@ FindInt64
 m
 kKeyDecodingTime
 )
-+
-aTimestampOffset
 ;
 composition_timestamp
 =
@@ -1449,8 +1444,6 @@ kKeyTime
 )
 -
 aMediaTime
-+
-aTimestampOffset
 ;
 duration
 =

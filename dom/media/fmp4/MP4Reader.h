@@ -788,9 +788,6 @@ MP4Stream
 >
 mStream
 ;
-int64_t
-mTimestampOffset
-;
 nsAutoPtr
 <
 mp4_demuxer

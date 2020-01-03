@@ -1433,17 +1433,6 @@ GetResource
 )
 )
 ;
-mTimestampOffset
-=
-GetDecoder
-(
-)
--
->
-GetTimestampOffset
-(
-)
-;
 InitLayersBackendType
 (
 )
@@ -2211,7 +2200,6 @@ new
 MP4Demuxer
 (
 mStream
-mTimestampOffset
 &
 mDemuxerMonitor
 )
