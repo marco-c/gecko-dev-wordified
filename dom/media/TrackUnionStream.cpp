@@ -2426,11 +2426,7 @@ map
 >
 mEndOfConsumedInputTicks
 =
-TimeToTicksRoundDown
-(
-rate
 inputStart
-)
 -
 1
 ;
