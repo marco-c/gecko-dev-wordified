@@ -4294,25 +4294,6 @@ options
 logFile
 )
         
-#
-Note
-that
-all
-tests
-under
-options
-.
-subsuite
-need
-to
-be
-browser
-chrome
-        
-#
-tests
-.
-        
 if
 options
 .
@@ -4321,10 +4302,6 @@ or
 options
 .
 chrome
-or
-options
-.
-subsuite
 or
 \
            

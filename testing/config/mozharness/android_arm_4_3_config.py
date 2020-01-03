@@ -456,27 +456,15 @@ total
 -
 chunks
 =
-2
+4
 "
                 
 "
 -
 -
-manifest
+subsuite
 =
-tests
-/
-dom
-/
-canvas
-/
-test
-/
-_webgl
--
-conformance
-.
-ini
+webgl
 "
             
 ]

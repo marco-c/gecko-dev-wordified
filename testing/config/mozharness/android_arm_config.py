@@ -508,21 +508,9 @@ chunks
 "
 -
 -
-manifest
+subsuite
 =
-tests
-/
-dom
-/
-canvas
-/
-test
-/
-_webgl
--
-conformance
-.
-ini
+webgl
 "
             
 ]
