@@ -12018,6 +12018,7 @@ nsCycleCollectionParticipant
 *
 aCp
 nsCString
+&
 aEdgeName
 )
 {
