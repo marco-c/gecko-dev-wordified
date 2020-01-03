@@ -116,11 +116,11 @@ gView
 EventListeners
 ;
 let
-gDispatcher
+gStore
 =
 gDebugger
 .
-dispatcher
+store
 ;
 let
 constants
@@ -201,7 +201,7 @@ fetched
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 FETCH_EVENT_LISTENERS
@@ -325,7 +325,7 @@ fetched
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 FETCH_EVENT_LISTENERS
@@ -512,7 +512,7 @@ function
 (
 )
 {
-gDispatcher
+gStore
 .
 dispatch
 (

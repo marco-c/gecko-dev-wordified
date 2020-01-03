@@ -8547,7 +8547,7 @@ tab
 "
 )
 {
-dispatcher
+store
 .
 dispatch
 (
@@ -13967,6 +13967,13 @@ EventEmitter
 decorate
 (
 this
+)
+;
+EventEmitter
+.
+decorate
+(
+DebuggerController
 )
 ;
 /

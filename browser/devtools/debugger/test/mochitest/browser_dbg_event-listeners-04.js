@@ -314,11 +314,11 @@ panel
 panelWin
 ;
 let
-gDispatcher
+gStore
 =
 gDebugger
 .
-dispatcher
+store
 ;
 let
 constants
@@ -337,7 +337,7 @@ constants
 )
 ;
 let
-eventListeners
+actions
 =
 gDebugger
 .
@@ -348,7 +348,7 @@ require
 /
 content
 /
-stores
+actions
 /
 event
 -
@@ -361,7 +361,7 @@ fetched
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 FETCH_EVENT_LISTENERS
@@ -378,12 +378,10 @@ fetch
 "
 )
 ;
-gDispatcher
+gStore
 .
 dispatch
 (
-eventListeners
-.
 actions
 .
 fetchEventListeners

@@ -109,7 +109,7 @@ asynchronously
 *
 /
 function
-thunkMiddleware
+thunk
 (
 {
 dispatch
@@ -148,9 +148,9 @@ action
 ;
 }
 }
-module
-.
 exports
+.
+thunk
 =
-thunkMiddleware
+thunk
 ;
