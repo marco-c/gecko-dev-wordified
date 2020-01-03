@@ -4617,7 +4617,7 @@ nsStyleContext
 *
 aStyleContext
 nscoord
-aBlockHeight
+aBlockBSize
 float
 aFontSizeInflation
 )

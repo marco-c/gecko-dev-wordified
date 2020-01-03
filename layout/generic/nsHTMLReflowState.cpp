@@ -18032,7 +18032,7 @@ nsStyleContext
 *
 aStyleContext
 nscoord
-aBlockHeight
+aBlockBSize
 float
 aFontSizeInflation
 )
@@ -18237,14 +18237,14 @@ value
 ;
 if
 (
-aBlockHeight
+aBlockBSize
 !
 =
 NS_AUTOHEIGHT
 )
 {
 return
-aBlockHeight
+aBlockBSize
 ;
 }
 }
@@ -18284,7 +18284,7 @@ CalcLineHeight
 const
 {
 nscoord
-blockHeight
+blockBSize
 =
 nsLayoutUtils
 :
@@ -18294,7 +18294,7 @@ IsNonWrapperBlock
 frame
 )
 ?
-ComputedHeight
+ComputedBSize
 (
 )
 :
@@ -18304,7 +18304,7 @@ mCBReflowState
 mCBReflowState
 -
 >
-ComputedHeight
+ComputedBSize
 (
 )
 :
@@ -18326,7 +18326,7 @@ frame
 StyleContext
 (
 )
-blockHeight
+blockBSize
 nsLayoutUtils
 :
 :
@@ -18355,7 +18355,7 @@ nsStyleContext
 *
 aStyleContext
 nscoord
-aBlockHeight
+aBlockBSize
 float
 aFontSizeInflation
 )
@@ -18378,7 +18378,7 @@ lineHeight
 ComputeLineHeight
 (
 aStyleContext
-aBlockHeight
+aBlockBSize
 aFontSizeInflation
 )
 ;

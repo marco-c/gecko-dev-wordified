@@ -1428,7 +1428,15 @@ CalcIntrinsicSize
 nsRenderingContext
 *
 aRenderingContext
-nsSize
+mozilla
+:
+:
+WritingMode
+aWM
+mozilla
+:
+:
+LogicalSize
 &
 aIntrinsicSize
 float
