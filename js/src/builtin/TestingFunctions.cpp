@@ -14548,7 +14548,6 @@ JS
 CloneAndExecuteScript
 (
 cx
-global
 script
 )
 )

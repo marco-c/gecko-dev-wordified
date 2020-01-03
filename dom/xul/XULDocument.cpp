@@ -21718,7 +21718,6 @@ JS
 CloneAndExecuteScript
 (
 cx
-global
 scriptObject
 )
 ;
