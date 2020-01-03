@@ -3428,7 +3428,7 @@ mem
 .
 decodeondraw
 "
-false
+true
 )
 ;
 pref
