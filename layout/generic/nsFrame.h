@@ -2471,7 +2471,7 @@ nsReflowStatus
 &
 aStatus
 bool
-aConstrainHeight
+aConstrainBSize
 =
 true
 )
@@ -2493,7 +2493,7 @@ nsReflowStatus
 &
 aStatus
 bool
-aConstrainHeight
+aConstrainBSize
 =
 true
 )

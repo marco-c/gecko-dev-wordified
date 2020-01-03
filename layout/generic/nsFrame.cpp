@@ -29654,7 +29654,7 @@ nsReflowStatus
 &
 aStatus
 bool
-aConstrainHeight
+aConstrainBSize
 )
 {
 ReflowAbsoluteFrames
@@ -29663,7 +29663,7 @@ aPresContext
 aDesiredSize
 aReflowState
 aStatus
-aConstrainHeight
+aConstrainBSize
 )
 ;
 FinishAndStoreOverflow
@@ -29693,7 +29693,7 @@ nsReflowStatus
 &
 aStatus
 bool
-aConstrainHeight
+aConstrainBSize
 )
 {
 if
@@ -29839,7 +29839,7 @@ aPresContext
 aReflowState
 aStatus
 containingBlock
-aConstrainHeight
+aConstrainBSize
 true
 true
 /
