@@ -517,7 +517,7 @@ colNames
 =
 ReadingList
 .
-ItemBasicPropertyNames
+ItemRecordProperties
 ;
 let
 conn
@@ -1413,8 +1413,7 @@ the
 *
 ReadingList
 .
-ItemBasicPropertyNames
-properties
+ItemRecordProperties
 lifted
 from
 the
@@ -1454,7 +1453,7 @@ name
 of
 ReadingList
 .
-ItemBasicPropertyNames
+ItemRecordProperties
 )
 {
 item

@@ -486,7 +486,7 @@ ListStatusRequest
 :
 ReadingList
 .
-containsURL
+hasItemForURL
 (
 message
 .
@@ -584,7 +584,7 @@ it
 .
 ReadingList
 .
-getItemForURL
+itemForURL
 (
 message
 .
