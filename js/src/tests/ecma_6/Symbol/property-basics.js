@@ -60,6 +60,12 @@ two
 Symbol
 .
 iterator
+Object
+(
+Symbol
+(
+)
+)
 ]
 ;
 for
