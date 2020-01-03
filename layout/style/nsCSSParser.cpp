@@ -34052,11 +34052,6 @@ AssertInitialState
 (
 )
 ;
-if
-(
-declaration
-)
-{
 for
 (
 ;
@@ -34132,7 +34127,6 @@ the
 next
 declaration
 .
-}
 }
 declaration
 -
