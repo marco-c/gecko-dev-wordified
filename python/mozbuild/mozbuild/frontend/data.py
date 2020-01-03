@@ -930,6 +930,10 @@ __slots__
 (
         
 '
+add_to_manifest
+'
+        
+'
 basename
 '
         
@@ -950,6 +954,7 @@ self
 context
 source
 module
+add_to_manifest
 )
 :
         
@@ -983,6 +988,12 @@ self
 module
 =
 module
+        
+self
+.
+add_to_manifest
+=
+add_to_manifest
         
 self
 .

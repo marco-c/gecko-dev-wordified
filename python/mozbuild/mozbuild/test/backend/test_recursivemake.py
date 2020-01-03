@@ -4706,6 +4706,20 @@ xpt
 m
 )
         
+self
+.
+assertIn
+(
+'
+components
+/
+interfaces
+.
+manifest
+'
+m
+)
+        
 m
 =
 InstallManifest

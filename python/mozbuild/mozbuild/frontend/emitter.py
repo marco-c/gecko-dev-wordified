@@ -5921,6 +5921,15 @@ idl
 )
                 
 xpidl_module
+add_to_manifest
+=
+not
+context
+[
+'
+XPIDL_NO_MANIFEST
+'
+]
 )
     
 def
