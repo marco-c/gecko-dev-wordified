@@ -2914,7 +2914,7 @@ aEvent
 /
 text
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 return
 HandleText

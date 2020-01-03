@@ -2025,7 +2025,7 @@ flushed
 to
 editor
 through
-NS_COMPOSITION_CHANGE
+eCompositionChange
 .
 /
 /

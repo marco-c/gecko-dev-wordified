@@ -1939,7 +1939,7 @@ case
 eCompositionEnd
 :
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs
@@ -2075,7 +2075,7 @@ E
 g
 .
 previous
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 made
 the
@@ -2117,7 +2117,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 &
 &
 !
@@ -2146,7 +2146,7 @@ widget
 may
 dispatch
 redundant
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 /
 /
@@ -2184,7 +2184,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 &
 &
 mLastData
@@ -2269,7 +2269,7 @@ the
 event
 message
 as
-NS_COMPOSITION_CHANGE
+eCompositionChange
 because
 due
 to
@@ -2311,7 +2311,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 )
 {
 aCompositionEvent
@@ -2322,7 +2322,7 @@ mFlags
 CloneAndDispatchAs
 (
 aCompositionEvent
-NS_COMPOSITION_CHANGE
+eCompositionChange
 aStatus
 aCallBack
 )
@@ -3939,7 +3939,7 @@ break
 ;
 }
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs

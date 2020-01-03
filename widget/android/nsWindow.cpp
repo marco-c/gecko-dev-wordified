@@ -10360,7 +10360,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 this
 )
 ;
@@ -11007,7 +11007,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 this
 )
 ;

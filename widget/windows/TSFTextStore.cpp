@@ -11345,7 +11345,7 @@ WidgetCompositionEvent
 compositionChange
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 mWidget
 )
 ;
@@ -11427,7 +11427,7 @@ mRanges
 /
 When
 the
-NS_COMPOSITION_CHANGE
+eCompositionChange
 causes
 a
 DOM
@@ -16210,7 +16210,7 @@ be
 /
 sent
 in
-NS_COMPOSITION_CHANGE
+eCompositionChange
 nsRefPtr
 <
 ITfProperty
@@ -16599,7 +16599,7 @@ least
 one
 range
 to
-NS_COMPOSITION_CHANGE
+eCompositionChange
 newRange
 .
 mStartOffset
@@ -36823,7 +36823,7 @@ to
 be
 sent
 in
-NS_COMPOSITION_CHANGE
+eCompositionChange
 not
 just
 the
@@ -36834,7 +36834,7 @@ part
 /
 The
 actual
-NS_COMPOSITION_CHANGE
+eCompositionChange
 will
 be
 sent

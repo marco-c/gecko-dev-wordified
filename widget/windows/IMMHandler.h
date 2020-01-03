@@ -2146,7 +2146,7 @@ DispatchCompositionChangeEvent
 (
 )
 dispatches
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 *
 with

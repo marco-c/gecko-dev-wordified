@@ -1576,7 +1576,7 @@ reset
 /
 /
 when
-NS_COMPOSITION_CHANGE
+eCompositionChange
 is
 being
 dispatched

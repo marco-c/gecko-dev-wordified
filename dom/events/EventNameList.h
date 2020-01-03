@@ -2058,7 +2058,7 @@ instead
 NON_IDL_EVENT
 (
 text
-NS_COMPOSITION_CHANGE
+eCompositionChange
 EventNameType_XUL
 eCompositionEventClass
 )

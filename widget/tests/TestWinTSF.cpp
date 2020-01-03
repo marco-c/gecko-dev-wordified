@@ -10584,10 +10584,10 @@ InsertTextAtSelection
 eSetSelection
 bug
 or
-NS_COMPOSITION_
+eComposition
 *
 /
-NS_COMPOSITION_CHANGE
+eCompositionChange
 bug
 *
 /

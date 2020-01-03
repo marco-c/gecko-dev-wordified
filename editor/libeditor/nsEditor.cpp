@@ -2126,7 +2126,7 @@ string
 when
 this
 receives
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 next
 time
@@ -29581,7 +29581,7 @@ case
 eCompositionUpdate
 :
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs

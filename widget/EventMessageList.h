@@ -994,7 +994,7 @@ mozilla
 TextComposition
 automatically
 if
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 /
 /
@@ -1012,7 +1012,7 @@ eCompositionEventFirst
 )
 /
 /
-NS_COMPOSITION_CHANGE
+eCompositionChange
 is
 the
 message
@@ -1069,7 +1069,7 @@ event
 .
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_CHANGE
+eCompositionChange
 eCompositionEventFirst
 +
 3
@@ -1113,7 +1113,7 @@ tree
 as
 /
 /
-NS_COMPOSITION_CHANGE
+eCompositionChange
 without
 clause
 information
@@ -1179,7 +1179,7 @@ the
 DOM
 tree
 as
-NS_COMPOSITION_CHANGE
+eCompositionChange
 without
 clause
 information

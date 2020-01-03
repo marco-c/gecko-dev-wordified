@@ -671,7 +671,7 @@ be
 *
 dispatched
 with
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 by
 calling
@@ -1584,7 +1584,7 @@ be
 used
 for
 dispatching
-NS_COMPOSITION_CHANGE
+eCompositionChange
 event
 /
 /

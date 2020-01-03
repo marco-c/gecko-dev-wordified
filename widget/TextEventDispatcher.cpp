@@ -3162,7 +3162,7 @@ WidgetCompositionEvent
 compChangeEvent
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 widget
 )
 ;
