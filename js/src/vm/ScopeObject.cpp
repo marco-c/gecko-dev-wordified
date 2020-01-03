@@ -16740,7 +16740,8 @@ enclosingScope
 ;
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 &
 enclosing
@@ -16772,7 +16773,8 @@ enclosingScope
 )
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 o
 )

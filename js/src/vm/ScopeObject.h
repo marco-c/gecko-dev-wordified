@@ -7160,7 +7160,7 @@ js
 {
 inline
 bool
-IsValidTerminatingScope
+IsSyntacticScope
 (
 JSObject
 *
@@ -7168,7 +7168,6 @@ scope
 )
 {
 return
-!
 scope
 -
 >
@@ -7178,9 +7177,10 @@ ScopeObject
 >
 (
 )
-|
-|
+&
+&
 (
+!
 scope
 -
 >
@@ -7190,9 +7190,8 @@ DynamicWithObject
 >
 (
 )
-&
-&
-!
+|
+|
 scope
 -
 >
@@ -7468,7 +7467,8 @@ done
 ;
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 scope_
 )

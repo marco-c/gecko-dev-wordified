@@ -1345,7 +1345,8 @@ WithObject
 .
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 scope
 )
@@ -1764,7 +1765,8 @@ isDebuggerEvalFrame
 )
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 scopeChain
 (
@@ -1893,7 +1895,8 @@ isGlobalFrame
 {
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 scopeChain
 (
