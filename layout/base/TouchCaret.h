@@ -658,7 +658,7 @@ GetCaretYCenterPosition
 *
 Retrieve
 the
-rect
+position
 of
 the
 touch
@@ -667,7 +667,7 @@ caret
 *
 The
 returned
-rect
+point
 is
 relative
 to
@@ -677,8 +677,8 @@ frame
 .
 *
 /
-nsRect
-GetTouchCaretRect
+nsPoint
+GetTouchCaretPosition
 (
 )
 ;
@@ -702,7 +702,7 @@ boundary
 *
 The
 returned
-rect
+point
 is
 relative
 to
@@ -712,13 +712,13 @@ frame
 .
 *
 /
-nsRect
-ClampRectToScrollFrame
+nsPoint
+ClampPositionToScrollFrame
 (
 const
-nsRect
+nsPoint
 &
-aRect
+aPosition
 )
 ;
 /
@@ -748,9 +748,9 @@ void
 SetTouchFramePos
 (
 const
-nsRect
+nsPoint
 &
-aRect
+aOrigin
 )
 ;
 void
