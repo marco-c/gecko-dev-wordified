@@ -2868,6 +2868,8 @@ true
 ;
 break
 ;
+default
+:
 }
 return
 NS_OK
