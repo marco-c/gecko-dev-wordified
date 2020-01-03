@@ -209,6 +209,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -311,6 +322,7 @@ content
 .
 *
 /
+RobocopTarget
 public
 static
 enum
