@@ -2896,6 +2896,10 @@ waterfall
 marker
 -
 bullet
+marker
+-
+color
+-
 {
 blueprint
 .
@@ -3220,6 +3224,10 @@ waterfall
 marker
 -
 bar
+marker
+-
+color
+-
 {
 blueprint
 .
