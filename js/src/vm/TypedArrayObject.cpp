@@ -10985,13 +10985,6 @@ innerObject
 *
 /
 \
-nullptr
-/
-*
-iteratorObject
-*
-/
-\
 false
 /
 *

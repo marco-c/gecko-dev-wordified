@@ -181,12 +181,6 @@ js
 :
 :
 proxy_innerObject
-nullptr
-/
-*
-iteratorObject
-*
-/
 false
 /
 *
