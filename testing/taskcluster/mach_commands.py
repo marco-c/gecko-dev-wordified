@@ -1659,14 +1659,14 @@ https
 :
 /
 /
-github
+hg
 .
-com
-/
-lightsofapollo
+mozilla
+.
+org
 /
 build
--
+/
 mozharness
 '
         
