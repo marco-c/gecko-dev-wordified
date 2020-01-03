@@ -349,9 +349,10 @@ Name
 maxSize
 :
 2
-currSize
+participants
 :
-0
+[
+]
 ctime
 :
 1405517546
@@ -383,9 +384,10 @@ Name
 maxSize
 :
 2
-currSize
+participants
 :
-0
+[
+]
 ctime
 :
 1405517418
@@ -420,9 +422,10 @@ maxSize
 clientMaxSize
 :
 2
-currSize
+participants
 :
-1
+[
+]
 ctime
 :
 1405518241
@@ -575,7 +578,7 @@ be
 .
 a
 .
-null
+undefined
 ;
 expect
 (
@@ -671,7 +674,7 @@ be
 .
 a
 .
-null
+undefined
 ;
 expect
 (
