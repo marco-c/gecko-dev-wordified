@@ -212,9 +212,11 @@ Bridge
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 AndroidBridge
 :
 :
@@ -310,9 +312,11 @@ aIconSize
 bits
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ASSERTION
 (
 bits
@@ -342,9 +346,11 @@ Length
 =
 bufSize
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 memcpy
 (
 aBuf
@@ -501,6 +507,7 @@ XRE_GetProcessType
 =
 GeckoProcessType_Default
 )
+{
 rv
 =
 GetIconForExtension
@@ -510,7 +517,9 @@ aIconSize
 out
 )
 ;
+}
 else
+{
 rv
 =
 CallRemoteGetIconForExtension
@@ -520,6 +529,7 @@ aIconSize
 out
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 rv

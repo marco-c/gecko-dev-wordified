@@ -6,7 +6,7 @@ for
 PNG
 encoding
 in
-libpr0n
+ImageLib
 *
 *
 /

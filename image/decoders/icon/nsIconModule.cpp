@@ -137,6 +137,7 @@ require
 generic
 constructors
 /
+/
 *
 *
 *
@@ -213,13 +214,11 @@ constructors
 *
 *
 *
-*
-*
-*
-Protocol
-CIDs
 *
 /
+/
+Protocol
+CIDs
 #
 define
 NS_ICONPROTOCOL_CID
@@ -227,6 +226,7 @@ NS_ICONPROTOCOL_CID
 0xd0f9db12
 0x249c
 0x11d5
+\
 {
 0x99
 0x5

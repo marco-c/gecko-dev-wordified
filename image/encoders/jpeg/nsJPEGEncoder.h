@@ -153,6 +153,7 @@ define
 NS_JPEGENCODER_CID
 \
 {
+\
 /
 *
 ac2bb8fe
@@ -349,7 +350,7 @@ uint32_t
 mNotifyThreshold
 ;
 /
-*
+/
 nsJPEGEncoder
 is
 designed
@@ -363,6 +364,8 @@ data
 into
 it
 while
+/
+/
 another
 reads
 from
@@ -376,6 +379,8 @@ that
 the
 buffer
 remains
+/
+/
 append
 -
 only
@@ -394,6 +399,8 @@ realloced
 and
 to
 ensure
+/
+/
 that
 only
 one
@@ -407,8 +414,6 @@ call
 to
 AsyncWait
 .
-*
-/
 ReentrantMonitor
 mReentrantMonitor
 ;

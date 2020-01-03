@@ -1506,6 +1506,7 @@ mNumIcons
 =
 0
 )
+{
 return
 ;
 /
@@ -1514,6 +1515,7 @@ Nothing
 to
 do
 .
+}
 uint16_t
 colorDepth
 =
@@ -1745,6 +1747,7 @@ aCount
 =
 0
 )
+{
 return
 ;
 /
@@ -1752,6 +1755,7 @@ return
 Need
 more
 data
+}
 IconDirEntry
 e
 ;
@@ -2051,10 +2055,12 @@ toSkip
 >
 aCount
 )
+{
 toSkip
 =
 aCount
 ;
+}
 mPos
 +
 =
@@ -2586,10 +2592,12 @@ toCopy
 >
 aCount
 )
+{
 toCopy
 =
 aCount
 ;
+}
 memcpy
 (
 mBIHraw
@@ -3105,8 +3113,10 @@ IsSizeDecode
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Sometimes

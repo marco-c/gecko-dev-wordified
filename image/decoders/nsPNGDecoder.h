@@ -182,6 +182,7 @@ aCount
 DecodeStrategy
 aStrategy
 )
+MOZ_OVERRIDE
 ;
 virtual
 Telemetry
@@ -543,12 +544,11 @@ uint32_t
 mNumFrames
 ;
 /
-*
-*
+/
 libpng
 callbacks
-*
-*
+/
+/
 We
 put
 these
@@ -563,8 +563,6 @@ access
 protected
 members
 .
-*
-/
 static
 void
 PNGAPI

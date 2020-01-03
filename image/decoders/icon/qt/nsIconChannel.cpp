@@ -754,6 +754,8 @@ is
 a
 workaround
 for
+/
+/
 https
 :
 /
@@ -784,6 +786,8 @@ fallback
 to
 empty
 QIcon
+/
+/
 if
 failed
 .

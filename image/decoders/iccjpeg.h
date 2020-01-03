@@ -59,7 +59,7 @@ MPL
 /
 *
 *
-iccprofile
+iccjpeg
 .
 h
 *
@@ -221,6 +221,12 @@ details
 .
 *
 /
+#
+ifndef
+ICCJPEG_H
+#
+define
+ICCJPEG_H
 #
 include
 <
@@ -535,3 +541,8 @@ icc_data_len
 )
 )
 ;
+#
+endif
+/
+/
+ICCJPEG_H

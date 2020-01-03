@@ -126,9 +126,8 @@ nsCOMPtr
 h
 "
 /
-*
-*
-*
+/
+/
 This
 class
 is
@@ -141,7 +140,9 @@ nsIconChannel
 It
 basically
 asks
-*
+/
+/
+/
 qt
 for
 an
@@ -152,7 +153,9 @@ a
 new
 channel
 for
-*
+/
+/
+/
 that
 file
 to
@@ -163,8 +166,6 @@ will
 be
 proxied
 .
-*
-/
 class
 nsIconChannel
 MOZ_FINAL
@@ -194,9 +195,8 @@ nsIconChannel
 }
 ;
 /
-*
-*
-*
+/
+/
 Called
 by
 nsIconProtocolHandler
@@ -206,7 +206,9 @@ creates
 this
 channel
 .
-*
+/
+/
+/
 Must
 be
 called
@@ -219,7 +221,9 @@ on
 this
 object
 .
-*
+/
+/
+/
 If
 this
 method
@@ -234,8 +238,6 @@ on
 this
 object
 .
-*
-/
 nsresult
 Init
 (
@@ -254,9 +256,8 @@ nsIconChannel
 }
 ;
 /
-*
-*
-*
+/
+/
 The
 channel
 to
@@ -278,7 +279,9 @@ tmp
 html
 )
 .
-*
+/
+/
+/
 Will
 always
 be
@@ -290,8 +293,6 @@ a
 successful
 Init
 .
-*
-/
 nsCOMPtr
 <
 nsIChannel

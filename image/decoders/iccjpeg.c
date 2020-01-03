@@ -59,7 +59,7 @@ MPL
 /
 *
 *
-iccprofile
+iccjpeg
 .
 c
 *
@@ -1134,6 +1134,7 @@ num_markers
 =
 0
 )
+{
 num_markers
 =
 GETJOCTET
@@ -1147,6 +1148,7 @@ data
 ]
 )
 ;
+}
 else
 if
 (
@@ -1164,6 +1166,7 @@ data
 ]
 )
 )
+{
 return
 FALSE
 ;
@@ -1174,6 +1177,7 @@ num_markers
 fields
 *
 /
+}
 seq_no
 =
 GETJOCTET
@@ -1199,6 +1203,7 @@ seq_no
 >
 num_markers
 )
+{
 return
 FALSE
 ;
@@ -1209,6 +1214,7 @@ sequence
 number
 *
 /
+}
 if
 (
 marker_present
@@ -1216,6 +1222,7 @@ marker_present
 seq_no
 ]
 )
+{
 return
 FALSE
 ;
@@ -1226,6 +1233,7 @@ sequence
 numbers
 *
 /
+}
 marker_present
 [
 seq_no
@@ -1254,9 +1262,11 @@ num_markers
 =
 0
 )
+{
 return
 FALSE
 ;
+}
 /
 *
 Check
@@ -1312,6 +1322,7 @@ seq_no
 =
 0
 )
+{
 return
 FALSE
 ;
@@ -1322,6 +1333,7 @@ sequence
 number
 *
 /
+}
 data_offset
 [
 seq_no
@@ -1345,6 +1357,7 @@ total_length
 =
 0
 )
+{
 return
 FALSE
 ;
@@ -1357,6 +1370,7 @@ markers
 ?
 *
 /
+}
 /
 *
 Allocate
@@ -1389,6 +1403,7 @@ icc_data
 =
 NULL
 )
+{
 return
 FALSE
 ;
@@ -1400,6 +1415,7 @@ of
 memory
 *
 /
+}
 /
 *
 and

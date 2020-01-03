@@ -202,6 +202,8 @@ for
 this
 image
 .
+/
+/
 Typically
 16
 32
@@ -219,6 +221,8 @@ explicitly
 specifying
 the
 content
+/
+/
 type
 nsCString
 mFileName
@@ -240,6 +244,8 @@ we
 '
 re
 just
+/
+/
 given
 a
 filename
@@ -262,6 +268,8 @@ specified
 otherwise
 index
 into
+/
+/
 kSizeStrings
 int32_t
 mIconState
@@ -276,6 +284,8 @@ specified
 otherwise
 index
 into
+/
+/
 kStateStrings
 }
 ;

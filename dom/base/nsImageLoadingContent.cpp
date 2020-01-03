@@ -5497,9 +5497,9 @@ when
 the
 outermost
 state
-/
-/
 changer
+/
+/
 is
 destroyed
 .
@@ -5512,7 +5512,7 @@ the
 fact
 that
 some
-libpr0n
+ImageLib
 /
 /
 stuff
