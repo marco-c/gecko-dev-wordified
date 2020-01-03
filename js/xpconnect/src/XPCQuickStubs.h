@@ -165,10 +165,6 @@ void
 *
 *
 ppArg
-nsISupports
-*
-*
-ppArgRef
 )
 ;
 #
