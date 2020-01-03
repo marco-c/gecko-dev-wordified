@@ -7485,6 +7485,12 @@ hardware
 int64_t
 mAudioEndTime
 ;
+int64_t
+AudioEndTime
+(
+)
+const
+;
 /
 /
 The
