@@ -9395,10 +9395,7 @@ class_hint
 res_class
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 class_hint
 -
@@ -9648,10 +9645,7 @@ class_hint
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 class_hint
 -
@@ -9659,10 +9653,7 @@ class_hint
 res_class
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 class_hint
 -

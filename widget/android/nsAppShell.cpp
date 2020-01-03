@@ -3220,10 +3220,7 @@ Run
 (
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 uri
 )
@@ -3232,10 +3229,7 @@ if
 (
 flag
 )
-nsMemory
-:
-:
-Free
+free
 (
 flag
 )

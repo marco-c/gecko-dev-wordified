@@ -1377,10 +1377,7 @@ char
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 len
 *

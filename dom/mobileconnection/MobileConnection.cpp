@@ -2214,10 +2214,7 @@ type
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 types
 )

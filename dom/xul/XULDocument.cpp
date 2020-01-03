@@ -26656,10 +26656,7 @@ rest
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 str
 )

@@ -1117,10 +1117,7 @@ nullptr
 =
 tempMessage
 )
-nsMemory
-:
-:
-Free
+free
 (
 tempMessage
 )
@@ -1132,10 +1129,7 @@ nullptr
 =
 tempSourceName
 )
-nsMemory
-:
-:
-Free
+free
 (
 tempSourceName
 )
@@ -1147,10 +1141,7 @@ nullptr
 =
 tempSourceLine
 )
-nsMemory
-:
-:
-Free
+free
 (
 tempSourceLine
 )

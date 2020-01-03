@@ -1750,10 +1750,7 @@ free
 d
 using
 using
-nsMemory
-:
-:
-Free
+free
 )
 *
 /
@@ -3848,10 +3845,7 @@ free
 d
 using
 using
-nsMemory
-:
-:
-Free
+free
 )
 *
 /

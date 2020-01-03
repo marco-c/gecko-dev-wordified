@@ -3797,10 +3797,7 @@ mozilla
 fallible
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 fullEntityText
 )

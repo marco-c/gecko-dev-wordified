@@ -442,10 +442,7 @@ aFmt
 sprintf
 into
 a
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 '
 d
 buffer
@@ -576,10 +573,7 @@ substitute
 calling
 smprintf_free
 with
-nsMemory
-:
-:
-Free
+free
 *
 /
 static

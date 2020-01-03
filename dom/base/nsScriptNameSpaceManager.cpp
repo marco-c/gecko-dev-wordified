@@ -3408,10 +3408,7 @@ cid
 *
 cidPtr
 ;
-nsMemory
-:
-:
-Free
+free
 (
 cidPtr
 )

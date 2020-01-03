@@ -374,10 +374,7 @@ if
 (
 mDeviceName
 )
-nsMemory
-:
-:
-Free
+free
 (
 mDeviceName
 )
@@ -386,10 +383,7 @@ if
 (
 mDriverName
 )
-nsMemory
-:
-:
-Free
+free
 (
 mDriverName
 )
@@ -440,10 +434,7 @@ if
 mDeviceName
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mDeviceName
 )
@@ -535,10 +526,7 @@ if
 mDriverName
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mDriverName
 )

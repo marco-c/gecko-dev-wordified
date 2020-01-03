@@ -1195,10 +1195,7 @@ long
 unsigned
 int
 but
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 size_t
 )
@@ -1228,10 +1225,7 @@ more
 than
 4GB
 using
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 )
 if
@@ -1253,10 +1247,7 @@ result
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 dstSize
 )
@@ -2928,10 +2919,7 @@ resultBuffer
 char16_t
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 aSourceBufferLen
 *

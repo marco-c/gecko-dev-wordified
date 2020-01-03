@@ -9135,10 +9135,7 @@ target
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 size
 +
@@ -9174,10 +9171,7 @@ size
 0
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 target
 )
@@ -9442,10 +9436,7 @@ newTarget
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 target
 newSize
@@ -9518,10 +9509,7 @@ linkLen
 '
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 target
 )

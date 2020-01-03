@@ -1102,10 +1102,7 @@ resultString
 T
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1216,10 +1213,7 @@ resultString
 T
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1408,10 +1402,7 @@ resultString
 T
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -2143,10 +2134,7 @@ resultString
 T
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

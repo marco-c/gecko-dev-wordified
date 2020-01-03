@@ -8257,10 +8257,7 @@ if
 (
 currentDirPath
 )
-nsMemory
-:
-:
-Free
+free
 (
 currentDirPath
 )

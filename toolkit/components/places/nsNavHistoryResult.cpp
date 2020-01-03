@@ -11869,10 +11869,7 @@ nsINavHistoryQuery
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 mQueries
 .
@@ -18626,10 +18623,7 @@ queryIndex
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 queries
 )
@@ -18766,10 +18760,7 @@ nsINavHistoryQuery
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

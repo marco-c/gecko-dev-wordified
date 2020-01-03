@@ -9911,10 +9911,7 @@ free
 the
 array
 itself
-nsMemory
-:
-:
-Free
+free
 (
 p
 )
@@ -13613,10 +13610,7 @@ type
 "
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 param
 .
@@ -15664,10 +15658,7 @@ if
 (
 className
 )
-nsMemory
-:
-:
-Free
+free
 (
 className
 )
@@ -15676,10 +15667,7 @@ if
 (
 contractID
 )
-nsMemory
-:
-:
-Free
+free
 (
 contractID
 )

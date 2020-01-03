@@ -4097,10 +4097,7 @@ argArray
 i
 ]
 )
-nsMemory
-:
-:
-Free
+free
 (
 argArray
 [

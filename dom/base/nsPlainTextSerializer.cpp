@@ -11293,10 +11293,7 @@ totLen
 foo
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 foo
 )

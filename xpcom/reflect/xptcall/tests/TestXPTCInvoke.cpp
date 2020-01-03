@@ -2064,10 +2064,7 @@ ret
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -3048,10 +3045,7 @@ n
 outS
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 outS
 )

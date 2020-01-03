@@ -19841,10 +19841,7 @@ if
 actualAlignmentType
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 actualAlignmentType
 )

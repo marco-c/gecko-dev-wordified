@@ -1023,10 +1023,7 @@ r
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 decryptedLen
 +

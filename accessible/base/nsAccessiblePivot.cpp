@@ -204,10 +204,7 @@ if
 (
 mAcceptRoles
 )
-nsMemory
-:
-:
-Free
+free
 (
 mAcceptRoles
 )

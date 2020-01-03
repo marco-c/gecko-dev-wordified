@@ -1150,10 +1150,7 @@ GLchar
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 count
 *

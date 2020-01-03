@@ -22513,10 +22513,7 @@ if
 class_hint
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 res_name
 )
@@ -22597,10 +22594,7 @@ endif
 MOZ_X11
 *
 /
-nsMemory
-:
-:
-Free
+free
 (
 res_name
 )

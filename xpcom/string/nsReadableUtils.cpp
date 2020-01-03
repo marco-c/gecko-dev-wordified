@@ -1447,10 +1447,7 @@ must
 free
 with
 |
-nsMemory
-:
-:
-Free
+free
 |
 .
 *
@@ -1483,10 +1480,7 @@ ToCharT
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 (
 aSource
@@ -1643,10 +1637,7 @@ char
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 calculator
 .
@@ -2133,10 +2124,7 @@ char16_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 buffer_size
 )

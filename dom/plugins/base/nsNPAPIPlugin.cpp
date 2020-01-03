@@ -5705,10 +5705,7 @@ if
 (
 ptr
 )
-nsMemory
-:
-:
-Free
+free
 (
 ptr
 )
@@ -13455,10 +13452,7 @@ size
 )
 ;
 return
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 size
 )

@@ -2921,10 +2921,7 @@ aDst
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -3212,10 +3209,7 @@ char16_t
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 *
 aSuggestionCount
@@ -3317,10 +3311,7 @@ index
 char16_t
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

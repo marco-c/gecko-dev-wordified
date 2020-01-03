@@ -2093,10 +2093,7 @@ char16_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -3997,10 +3994,7 @@ if
 keyparamsString
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 keyparamsString
 )
@@ -4015,10 +4009,7 @@ challenge
 data
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 pkac
 .

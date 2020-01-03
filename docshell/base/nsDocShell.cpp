@@ -64446,10 +64446,7 @@ SCROLL_SMOOTH_AUTO
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 str
 )

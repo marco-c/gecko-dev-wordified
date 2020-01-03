@@ -566,10 +566,7 @@ new
 |
 .
 return
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 aSize
 )
@@ -707,10 +704,7 @@ this
 float
 manager
 .
-nsMemory
-:
-:
-Free
+free
 (
 aPtr
 )
@@ -780,10 +774,7 @@ if
 (
 floatManager
 )
-nsMemory
-:
-:
-Free
+free
 (
 floatManager
 )

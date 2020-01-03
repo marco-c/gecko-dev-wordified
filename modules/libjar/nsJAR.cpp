@@ -5613,10 +5613,7 @@ n
 messageCstr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 messageCstr
 )

@@ -1818,10 +1818,7 @@ outTokenLen
 nullptr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 outToken
 )
@@ -1880,10 +1877,7 @@ creds
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 kNegotiateLen
 +
@@ -2424,10 +2418,7 @@ end
 1
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 hostList
 )

@@ -2839,10 +2839,7 @@ char16_t
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -2883,10 +2880,7 @@ char16_t
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

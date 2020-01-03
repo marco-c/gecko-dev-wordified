@@ -1395,10 +1395,7 @@ DWORD
 tempOutData
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 tempOutData
 )

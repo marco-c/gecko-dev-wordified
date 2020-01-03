@@ -1471,10 +1471,7 @@ char16_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 (
 *
@@ -1795,10 +1792,7 @@ if
 buffer
 was
 reallocated
-nsMemory
-:
-:
-Free
+free
 (
 oldBuffer
 )
@@ -1924,10 +1918,7 @@ if
 buffer
 was
 reallocated
-nsMemory
-:
-:
-Free
+free
 (
 oldBuffer
 )

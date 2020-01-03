@@ -2465,10 +2465,7 @@ get
 cid
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 cid
 )
@@ -3713,10 +3710,7 @@ nsIID
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 count
 *

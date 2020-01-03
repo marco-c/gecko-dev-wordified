@@ -238,10 +238,7 @@ char
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 bytes
 )
@@ -299,10 +296,7 @@ char
 *
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 mSegmentArray
 bytes
@@ -741,10 +735,7 @@ i
 ;
 }
 }
-nsMemory
-:
-:
-Free
+free
 (
 mSegmentArray
 )

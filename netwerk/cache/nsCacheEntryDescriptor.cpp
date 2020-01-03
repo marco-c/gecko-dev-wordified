@@ -4935,10 +4935,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 mReadBuffer
 newBufLen
@@ -5272,10 +5269,7 @@ if
 mReadBuffer
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mReadBuffer
 )
@@ -7186,10 +7180,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 mWriteBufferLen
 )
@@ -7642,10 +7633,7 @@ if
 mWriteBuffer
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mWriteBuffer
 )

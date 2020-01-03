@@ -1120,10 +1120,7 @@ if
 (
 mMustFreeName
 )
-nsMemory
-:
-:
-Free
+free
 (
 mName
 )

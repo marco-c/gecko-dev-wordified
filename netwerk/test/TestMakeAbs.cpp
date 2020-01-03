@@ -452,10 +452,7 @@ rv
 return
 rv
 ;
-nsMemory
-:
-:
-Free
+free
 (
 absURLString
 )
@@ -470,10 +467,7 @@ rel
 absURLString
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 absURLString
 )

@@ -1317,10 +1317,7 @@ aClassID
 nsCID
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

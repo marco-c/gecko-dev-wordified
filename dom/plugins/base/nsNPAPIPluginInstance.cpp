@@ -6586,10 +6586,7 @@ uses
 /
 nsMemory
 .
-nsMemory
-:
-:
-Free
+free
 (
 value
 )

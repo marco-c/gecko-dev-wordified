@@ -2847,10 +2847,7 @@ NTLM_TYPE1_HEADER_LEN
 *
 outBuf
 =
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 *
 outLen
@@ -5713,10 +5710,7 @@ NS_ERROR_FAILURE
 *
 outBuf
 =
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 totalLen
 .

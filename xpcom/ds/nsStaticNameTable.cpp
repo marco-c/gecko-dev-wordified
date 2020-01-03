@@ -687,10 +687,7 @@ nsDependentCString
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 (
 void
@@ -788,10 +785,7 @@ mNameArray
 nsDependentCString
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 aLength
 *

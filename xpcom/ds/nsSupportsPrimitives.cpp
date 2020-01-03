@@ -319,10 +319,7 @@ if
 mData
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mData
 )
@@ -2744,10 +2741,7 @@ result
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 2
 *
@@ -4427,10 +4421,7 @@ if
 mIID
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mIID
 )
@@ -4601,10 +4592,7 @@ if
 mIID
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mIID
 )

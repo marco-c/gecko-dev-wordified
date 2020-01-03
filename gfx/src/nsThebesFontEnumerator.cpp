@@ -442,10 +442,7 @@ char16_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 fontList
 .

@@ -2151,10 +2151,7 @@ if
 (
 mPtr
 )
-nsMemory
-:
-:
-Free
+free
 (
 mPtr
 )

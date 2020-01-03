@@ -1486,10 +1486,7 @@ get
 uStr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 uStr
 )
@@ -1575,10 +1572,7 @@ get
 uStr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 uStr
 )
@@ -1722,10 +1716,7 @@ get
 uStr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 uStr
 )

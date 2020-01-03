@@ -7329,10 +7329,7 @@ funobj
 ;
 }
 }
-nsMemory
-:
-:
-Free
+free
 (
 data
 )

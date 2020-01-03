@@ -1019,10 +1019,7 @@ Length
 unescData
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 unescData
 )
@@ -2223,10 +2220,7 @@ Append
 escapedDate
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 escapedDate
 )

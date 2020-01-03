@@ -369,10 +369,7 @@ if
 (
 key
 )
-nsMemory
-:
-:
-Free
+free
 (
 key
 )

@@ -5975,10 +5975,7 @@ the
 heap
 (
 using
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 )
 /
 /

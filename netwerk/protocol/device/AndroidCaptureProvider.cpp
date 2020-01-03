@@ -270,10 +270,7 @@ GetSize
 0
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mFrameQueue
 -
@@ -436,10 +433,7 @@ GetSize
 MAX_FRAMES_QUEUED
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mFrameQueue
 -
@@ -473,10 +467,7 @@ fullFrame
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 mFrameSize
 )
@@ -1069,10 +1060,7 @@ VideoData
 Create
 (
 )
-nsMemory
-:
-:
-Free
+free
 (
 frame
 )

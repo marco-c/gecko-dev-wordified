@@ -990,10 +990,7 @@ nsSubstring
 F_OWNED
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 aData
 )

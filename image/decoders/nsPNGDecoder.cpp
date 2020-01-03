@@ -715,10 +715,7 @@ if
 mCMSLine
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mCMSLine
 )
@@ -729,10 +726,7 @@ if
 interlacebuf
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 interlacebuf
 )

@@ -375,10 +375,7 @@ rv
 )
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 buffer
 )

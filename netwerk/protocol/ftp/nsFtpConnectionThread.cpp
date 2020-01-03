@@ -5073,10 +5073,7 @@ formattedString
 )
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 ucs2Response
 )

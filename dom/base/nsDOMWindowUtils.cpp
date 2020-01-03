@@ -12548,10 +12548,7 @@ frameIntervals
 float
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 *
 frameCount

@@ -6673,10 +6673,7 @@ false
 )
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mInputData
 .
@@ -15609,10 +15606,7 @@ mParserCreating
 }
 else
 {
-nsMemory
-:
-:
-Free
+free
 (
 mInputData
 .

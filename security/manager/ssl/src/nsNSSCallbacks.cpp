@@ -3890,10 +3890,7 @@ formatStrings
 promptString
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 const_cast
 <

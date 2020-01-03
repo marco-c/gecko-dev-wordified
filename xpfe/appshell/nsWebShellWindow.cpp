@@ -4065,10 +4065,7 @@ nullptr
 nullptr
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 urlChar
 )

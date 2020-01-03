@@ -322,10 +322,7 @@ if
 (
 mByteData
 )
-nsMemory
-:
-:
-Free
+free
 (
 mByteData
 )
@@ -468,10 +465,7 @@ mByteData
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 AssertedCast
 <
@@ -593,10 +587,7 @@ newBuffer
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 mByteData
 newSize

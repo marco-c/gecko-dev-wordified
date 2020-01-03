@@ -4303,10 +4303,7 @@ if
 sPopupAllowedEvents
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 sPopupAllowedEvents
 )
@@ -4383,10 +4380,7 @@ if
 sPopupAllowedEvents
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 sPopupAllowedEvents
 )

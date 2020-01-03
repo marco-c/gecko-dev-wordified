@@ -567,10 +567,7 @@ char
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 n
 *
@@ -648,10 +645,7 @@ i
 +
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 k
 [
@@ -660,10 +654,7 @@ i
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 k
 )

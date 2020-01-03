@@ -481,10 +481,7 @@ p
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 (
 al
@@ -568,10 +565,7 @@ sb
 )
 )
 \
-nsMemory
-:
-:
-Free
+free
 (
 p
 )

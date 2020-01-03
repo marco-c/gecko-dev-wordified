@@ -2124,10 +2124,7 @@ uint8_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -2179,10 +2176,7 @@ numRead
 available
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 buffer
 )
@@ -2212,10 +2206,7 @@ rv
 )
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 buffer
 )
@@ -2245,10 +2236,7 @@ mimeType
 aExpiration
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 buffer
 )

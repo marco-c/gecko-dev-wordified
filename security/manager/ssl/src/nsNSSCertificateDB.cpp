@@ -2209,10 +2209,7 @@ true
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 der
 .
@@ -2608,10 +2605,7 @@ false
 true
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 der
 .
@@ -6703,10 +6697,7 @@ char16_t
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -8755,10 +8746,7 @@ false
 true
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 der
 .
