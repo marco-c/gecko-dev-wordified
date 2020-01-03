@@ -968,7 +968,7 @@ R
 .
 color
 .
-home_text_color
+placeholder_active_grey
 ;
 deviceExpandedResId
 =
