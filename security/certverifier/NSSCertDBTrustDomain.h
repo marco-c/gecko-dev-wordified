@@ -398,6 +398,16 @@ SignatureDigestOption
 optional
 *
 /
+PinningTelemetryInfo
+*
+pinningTelemetryInfo
+=
+nullptr
+/
+*
+optional
+*
+/
 const
 char
 *
@@ -909,6 +919,10 @@ mValidityCheckingMode
 ;
 SignatureDigestOption
 mSignatureDigestOption
+;
+PinningTelemetryInfo
+*
+mPinningTelemetryInfo
 ;
 const
 char
