@@ -874,9 +874,6 @@ mWithCredentials
 bool
 mWaitingForOnStopRequest
 ;
-bool
-mInterrupted
-;
 /
 /
 used
