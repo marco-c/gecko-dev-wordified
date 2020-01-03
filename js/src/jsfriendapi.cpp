@@ -4062,7 +4062,7 @@ funname
 fun
 -
 >
-atom
+displayAtom
 (
 )
 ;
