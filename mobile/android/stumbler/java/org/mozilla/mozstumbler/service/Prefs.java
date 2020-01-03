@@ -70,13 +70,6 @@ android
 .
 annotation
 .
-SuppressLint
-;
-import
-android
-.
-annotation
-.
 TargetApi
 ;
 import
@@ -1254,12 +1247,6 @@ failed
 ;
 }
 }
-SuppressLint
-(
-"
-InlinedApi
-"
-)
 private
 SharedPreferences
 getPrefs
