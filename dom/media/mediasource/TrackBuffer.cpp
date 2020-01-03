@@ -1570,13 +1570,6 @@ GetReentrantMonitor
 )
 )
 ;
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 double
 highestEndTime
 =

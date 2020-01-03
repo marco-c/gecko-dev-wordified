@@ -320,6 +320,14 @@ ranges
 in
 aRanges
 .
+This
+may
+be
+called
+on
+any
+thread
+.
 double
 Buffered
 (
