@@ -4724,7 +4724,7 @@ void
 TextureHostD3D9
 :
 :
-Updated
+UpdatedInternal
 (
 const
 nsIntRegion

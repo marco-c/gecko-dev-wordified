@@ -273,6 +273,15 @@ SetHWComposed
 (
 )
 ;
+static
+void
+ContentChanged
+(
+TextureHost
+*
+host
+)
+;
 private
 :
 static

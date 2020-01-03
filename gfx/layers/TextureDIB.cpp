@@ -1524,7 +1524,7 @@ void
 DIBTextureHost
 :
 :
-Updated
+UpdatedInternal
 (
 const
 nsIntRegion
@@ -1708,7 +1708,7 @@ void
 TextureHostFileMapping
 :
 :
-Updated
+UpdatedInternal
 (
 const
 nsIntRegion
