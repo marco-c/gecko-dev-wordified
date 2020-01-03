@@ -3,8 +3,6 @@ BaseHTTPServer
 import
 errno
 import
-logging
-import
 os
 import
 re
@@ -26,6 +24,14 @@ import
 types
 import
 urlparse
+import
+routes
+as
+default_routes
+from
+logger
+import
+get_logger
 from
 request
 import
@@ -39,32 +45,10 @@ from
 router
 import
 Router
-import
-routes
-as
-default_routes
 from
 utils
 import
 HTTPException
-logger
-=
-logging
-.
-getLogger
-(
-"
-wptserve
-"
-)
-logger
-.
-setLevel
-(
-logging
-.
-DEBUG
-)
 "
 "
 "
@@ -403,6 +387,14 @@ register
 *
 rule
 )
+        
+self
+.
+logger
+=
+get_logger
+(
+)
     
 def
 register
@@ -606,6 +598,8 @@ in
 methods
 :
                 
+self
+.
 logger
 .
 debug
@@ -682,6 +676,10 @@ errno
 .
 ECONNABORTED
 )
+    
+request_queue_size
+=
+2000
     
 #
 Ensure
@@ -942,6 +940,14 @@ else
 http
 "
         
+self
+.
+logger
+=
+get_logger
+(
+)
+        
 if
 bind_hostname
 :
@@ -1010,6 +1016,8 @@ config
 else
 :
             
+self
+.
 logger
 .
 debug
@@ -1181,6 +1189,8 @@ sent
 else
 :
             
+self
+.
 logger
 .
 error
@@ -1230,6 +1240,12 @@ self
 response
 =
 None
+        
+logger
+=
+get_logger
+(
+)
         
 try
 :
@@ -1462,7 +1478,7 @@ err
             
 logger
 .
-info
+debug
 (
 "
 %
@@ -1486,13 +1502,15 @@ status
 [
 0
 ]
+                                               
 request
 .
 method
-                                         
+                                               
 request
 .
 request_path
+                                               
 request
 .
 headers
@@ -1503,6 +1521,7 @@ get
 Referer
 '
 )
+                                               
 request
 .
 raw_input
@@ -1754,28 +1773,28 @@ raw_requestline
 >
 65536
 :
-                
+            
 self
 .
 requestline
 =
 '
 '
-                
+            
 self
 .
 request_version
 =
 '
 '
-                
+            
 self
 .
 command
 =
 '
 '
-                
+            
 return
 False
         
@@ -2265,6 +2284,14 @@ use_ssl
 =
 use_ssl
         
+self
+.
+logger
+=
+get_logger
+(
+)
+        
 if
 server_cls
 is
@@ -2381,6 +2408,8 @@ except
 Exception
 :
             
+self
+.
 logger
 .
 error
@@ -2455,6 +2484,8 @@ thread
 "
 "
         
+self
+.
 logger
 .
 info
@@ -2615,6 +2646,8 @@ server_thread
 =
 None
                 
+self
+.
 logger
 .
 info

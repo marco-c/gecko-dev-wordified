@@ -205,6 +205,7 @@ function
 compare_Array
 (
 callback
+callback_is_async
 )
 {
 return
@@ -270,6 +271,10 @@ input
 if
 (
 test_obj
+&
+&
+!
+callback_is_async
 )
 test_obj
 .
@@ -283,6 +288,7 @@ function
 compare_Object
 (
 callback
+callback_is_async
 )
 {
 return
@@ -346,6 +352,10 @@ input
 if
 (
 test_obj
+&
+&
+!
+callback_is_async
 )
 test_obj
 .
@@ -359,6 +369,7 @@ function
 enumerate_props
 (
 compare_func
+test_obj
 )
 {
 return
@@ -386,6 +397,7 @@ input
 [
 x
 ]
+test_obj
 )
 ;
 }
@@ -3494,7 +3506,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3539,7 +3553,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3592,7 +3608,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3646,7 +3664,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3693,7 +3713,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3733,7 +3755,9 @@ compare_Array
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3777,7 +3801,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3826,7 +3852,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3883,7 +3911,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3941,7 +3971,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -3992,7 +4024,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
@@ -4036,7 +4070,9 @@ compare_Object
 enumerate_props
 (
 compare_Blob
+test_obj
 )
+true
 )
 test_obj
 )
