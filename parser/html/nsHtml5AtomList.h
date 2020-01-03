@@ -2484,6 +2484,13 @@ tabindex
 )
 HTML5_ATOM
 (
+property
+"
+property
+"
+)
+HTML5_ATOM
+(
 readonly
 "
 readonly
