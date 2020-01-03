@@ -169,6 +169,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h
@@ -1466,7 +1475,7 @@ estimation
 .
 static
 const
-int64_t
+uint64_t
 ESTIMATED_DURATION_FUZZ_FACTOR_USECS
 =
 USECS_PER_S
@@ -9488,10 +9497,10 @@ aDuration
 duration
 &
 &
-std
+mozilla
 :
 :
-abs
+Abs
 (
 aDuration
 -
