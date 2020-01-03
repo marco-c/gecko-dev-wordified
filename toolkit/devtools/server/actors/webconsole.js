@@ -3022,6 +3022,17 @@ FileActivity
 :
 if
 (
+this
+.
+window
+instanceof
+Ci
+.
+nsIDOMWindow
+)
+{
+if
+(
 !
 this
 .
@@ -3062,6 +3073,7 @@ push
 listener
 )
 ;
+}
 break
 ;
 case
