@@ -4756,7 +4756,8 @@ argc
 Value
 *
 argv
-MutableHandleValue
+Value
+*
 rval
 )
 ;
