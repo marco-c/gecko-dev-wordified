@@ -10250,7 +10250,7 @@ function
 global
 let
 is
-var
+let
 assertLocalDecl
 (
 "
@@ -10264,7 +10264,7 @@ y
 foo
 ;
 "
-varDecl
+letDecl
 (
 [
 {
@@ -11889,7 +11889,7 @@ join
 "
 ;
 "
-varDecl
+letDecl
 (
 pattPatts
 [
