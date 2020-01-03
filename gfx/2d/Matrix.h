@@ -3096,6 +3096,10 @@ const
 Rect
 &
 aRect
+const
+Rect
+&
+aClip
 )
 const
 ;
