@@ -47445,15 +47445,9 @@ mode
 nsIDocument
 :
 :
-ExitFullscreen
+AsyncExitFullscreen
 (
 nullptr
-/
-*
-async
-*
-/
-true
 )
 ;
 }

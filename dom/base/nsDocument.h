@@ -6912,15 +6912,6 @@ BlockedTrackingNodes
 )
 const
 ;
-static
-void
-ExitFullscreen
-(
-nsIDocument
-*
-aDoc
-)
-;
 /
 /
 Do

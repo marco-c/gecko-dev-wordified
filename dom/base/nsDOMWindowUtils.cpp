@@ -15747,15 +15747,9 @@ doc
 nsIDocument
 :
 :
-ExitFullscreen
+ExitFullscreenInDocTree
 (
 doc
-/
-*
-async
-*
-/
-false
 )
 ;
 return
