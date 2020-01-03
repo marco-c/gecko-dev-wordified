@@ -1854,7 +1854,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_ENDED
+eEnded
 eMediaEventFirst
 +
 16
