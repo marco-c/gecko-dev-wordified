@@ -242,6 +242,9 @@ Promise
 >
 Claim
 (
+ErrorResult
+&
+aRv
 )
 ;
 JSObject

@@ -1070,6 +1070,9 @@ mSecurityInfo
 uint64_t
 mWindowID
 ;
+uint64_t
+mServiceWorkerID
+;
 bool
 mFromWindow
 ;
