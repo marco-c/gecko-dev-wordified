@@ -3439,6 +3439,15 @@ addObserver
 this
 )
 ;
+NewTabUtils
+.
+links
+.
+addObserver
+(
+this
+)
+;
 return
 Task
 .
