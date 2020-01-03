@@ -34,7 +34,8 @@ zero
 Tests
 that
 the
-JsFlamegraphs
+js
+flamegraphs
 get
 rerendered
 when
@@ -83,6 +84,7 @@ PLATFORM_DATA_PREF
 false
 )
 ;
+yield
 DetailsView
 .
 selectView

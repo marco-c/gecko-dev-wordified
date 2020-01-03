@@ -180,6 +180,11 @@ front
 .
 stopRecording
 (
+{
+withAllocations
+:
+true
+}
 )
 ;
 ok

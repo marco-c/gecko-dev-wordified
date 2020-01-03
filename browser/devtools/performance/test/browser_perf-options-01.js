@@ -73,6 +73,7 @@ panel
 .
 panelWin
 ;
+yield
 DetailsView
 .
 selectView

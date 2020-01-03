@@ -694,7 +694,6 @@ function
 (
 _
 prefName
-value
 )
 {
 /
