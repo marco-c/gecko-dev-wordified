@@ -432,13 +432,6 @@ AccessibleWrap
 :
 sIDGen
 ;
-static
-const
-uint32_t
-kNoID
-=
-0
-;
 #
 endif
 static
