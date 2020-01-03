@@ -14315,6 +14315,15 @@ purge
 (
 )
 ;
+rt
+-
+>
+regExpTestCache
+.
+purge
+(
+)
+;
 }
 /
 *
