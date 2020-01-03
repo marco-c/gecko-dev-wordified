@@ -4009,10 +4009,7 @@ size
 BCBorderOwner
 owner
 ;
-mozilla
-:
-:
-Side
+LogicalSide
 side
 ;
 bool
@@ -4102,7 +4099,7 @@ size
 =
 cd
 .
-GetTopEdge
+GetBStartEdge
 (
 owner
 segStart
@@ -4142,7 +4139,7 @@ size
 =
 cd
 .
-GetLeftEdge
+GetIStartEdge
 (
 owner
 segStart
@@ -4224,7 +4221,7 @@ size
 =
 cd
 .
-GetTopEdge
+GetBStartEdge
 (
 owner
 segStart
@@ -4264,7 +4261,7 @@ size
 =
 cd
 .
-GetLeftEdge
+GetIStartEdge
 (
 owner
 segStart
@@ -5146,7 +5143,7 @@ nsTableCellMap
 :
 ResetTopStart
 (
-uint8_t
+LogicalSide
 aSide
 nsCellMap
 &
@@ -5187,7 +5184,7 @@ aSide
 )
 {
 case
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 :
 aRowIndex
 +
@@ -5197,7 +5194,7 @@ aRowIndex
 /
 FALLTHROUGH
 case
-NS_SIDE_TOP
+eLogicalSideBStart
 :
 cellData
 =
@@ -5234,7 +5231,7 @@ NS_ASSERTION
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 "
 program
 error
@@ -5307,7 +5304,7 @@ aColIndex
 break
 ;
 case
-NS_SIDE_RIGHT
+eLogicalSideIEnd
 :
 aColIndex
 +
@@ -5317,7 +5314,7 @@ aColIndex
 /
 FALLTHROUGH
 case
-NS_SIDE_LEFT
+eLogicalSideIStart
 :
 cellData
 =
@@ -5354,7 +5351,7 @@ NS_ASSERTION
 aSide
 =
 =
-NS_SIDE_RIGHT
+eLogicalSideIEnd
 "
 program
 error
@@ -5380,7 +5377,7 @@ bcData
 bcData
 -
 >
-SetTopStart
+SetBStartStart
 (
 false
 )
@@ -5476,10 +5473,7 @@ nsTableCellMap
 :
 SetBCBorderEdge
 (
-mozilla
-:
-:
-Side
+LogicalSide
 aSide
 nsCellMap
 &
@@ -5544,7 +5538,7 @@ aSide
 )
 {
 case
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 :
 rgYPos
 +
@@ -5555,7 +5549,7 @@ yPos
 +
 ;
 case
-NS_SIDE_TOP
+eLogicalSideBStart
 :
 lastIndex
 =
@@ -5681,7 +5675,7 @@ NS_ASSERTION
 aSide
 =
 =
-NS_SIDE_BOTTOM
+eLogicalSideBEnd
 "
 program
 error
@@ -5840,7 +5834,7 @@ bcData
 bcData
 -
 >
-SetTopEdge
+SetBStartEdge
 (
 aOwner
 aSize
@@ -5865,14 +5859,14 @@ found
 break
 ;
 case
-NS_SIDE_RIGHT
+eLogicalSideIEnd
 :
 xPos
 +
 +
 ;
 case
-NS_SIDE_LEFT
+eLogicalSideIStart
 :
 /
 /
@@ -5949,7 +5943,7 @@ cellData
 >
 mData
 .
-SetLeftEdge
+SetIStartEdge
 (
 aOwner
 aSize
@@ -5964,7 +5958,7 @@ NS_ASSERTION
 aSide
 =
 =
-NS_SIDE_RIGHT
+eLogicalSideIEnd
 "
 program
 error
@@ -5990,7 +5984,7 @@ bcData
 bcData
 -
 >
-SetLeftEdge
+SetIStartEdge
 (
 aOwner
 aSize
@@ -6092,10 +6086,7 @@ uint32_t
 aRowIndex
 uint32_t
 aColIndex
-mozilla
-:
-:
-Side
+LogicalSide
 aOwner
 nscoord
 aSubSize
@@ -16123,10 +16114,7 @@ size
 BCBorderOwner
 owner
 ;
-mozilla
-:
-:
-Side
+LogicalSide
 side
 ;
 bool
@@ -16208,7 +16196,7 @@ cd
 >
 mData
 .
-GetTopEdge
+GetBStartEdge
 (
 owner
 segStart
@@ -16251,7 +16239,7 @@ cd
 >
 mData
 .
-GetLeftEdge
+GetIStartEdge
 (
 owner
 segStart
