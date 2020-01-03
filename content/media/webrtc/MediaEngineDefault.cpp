@@ -1123,6 +1123,7 @@ DOMFile
 :
 CreateFromFile
 (
+nullptr
 localFile
 )
 ;

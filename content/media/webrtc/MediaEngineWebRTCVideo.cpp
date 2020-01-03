@@ -5926,6 +5926,7 @@ DOMFile
 :
 CreateMemoryFile
 (
+nullptr
 mPhoto
 .
 Elements

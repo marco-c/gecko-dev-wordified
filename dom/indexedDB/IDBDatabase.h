@@ -213,9 +213,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMBlob
-;
-class
 nsIWeakReference
 ;
 class
@@ -233,6 +230,9 @@ EventChainPostVisitor
 namespace
 dom
 {
+class
+DOMFile
+;
 class
 DOMStringList
 ;
@@ -673,7 +673,7 @@ PBackgroundIDBDatabaseFileChild
 *
 GetOrCreateFileActorForBlob
 (
-nsIDOMBlob
+DOMFile
 *
 aBlob
 )
@@ -689,7 +689,7 @@ aFileActor
 void
 NoteReceivedBlob
 (
-nsIDOMBlob
+DOMFile
 *
 aBlob
 )

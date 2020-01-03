@@ -145,9 +145,6 @@ ErrorResult
 h
 "
 class
-nsIDOMBlob
-;
-class
 nsIInputStream
 ;
 namespace
@@ -156,6 +153,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMFile
+;
 class
 DOMFileImpl
 ;
@@ -180,7 +180,7 @@ const
 nsAString
 &
 aPath
-nsIDOMBlob
+DOMFile
 *
 aBlobData
 InfallibleTArray
@@ -317,9 +317,9 @@ on
 main
 thread
 .
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+DOMFile
 >
 mBlobData
 ;

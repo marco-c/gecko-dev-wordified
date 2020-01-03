@@ -1460,6 +1460,7 @@ DOMFile
 :
 CreateMemoryFile
 (
+mDOMCameraControl
 static_cast
 <
 void

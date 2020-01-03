@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsDOMFile
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -225,8 +232,8 @@ const
 GlobalObject
 &
 aGlobal
-nsIDOMBlob
-*
+DOMFile
+&
 aBlob
 const
 ArchiveReaderOptions
@@ -237,11 +244,6 @@ ErrorResult
 aError
 )
 {
-MOZ_ASSERT
-(
-aBlob
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -334,8 +336,8 @@ ArchiveReader
 :
 ArchiveReader
 (
-nsIDOMBlob
-*
+DOMFile
+&
 aBlob
 nsPIDOMWindow
 *
@@ -348,6 +350,7 @@ aEncoding
 :
 mBlob
 (
+&
 aBlob
 )
 mWindow
@@ -363,11 +366,6 @@ mEncoding
 aEncoding
 )
 {
-MOZ_ASSERT
-(
-aBlob
-)
-;
 MOZ_ASSERT
 (
 aWindow

@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsDOMFile
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -4319,8 +4326,8 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
-*
+DOMFile
+&
 aBlob
 ErrorResult
 &
@@ -4428,6 +4435,7 @@ bs
 SendFile
 (
 aDeviceAddress
+&
 aBlob
 results
 )
@@ -4472,6 +4480,7 @@ cc
 >
 GetOrCreateActorForBlob
 (
+&
 aBlob
 )
 ;

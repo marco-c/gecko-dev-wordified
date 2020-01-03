@@ -1574,6 +1574,9 @@ fileSnapshot
 new
 DOMFile
 (
+GetOwner
+(
+)
 impl
 )
 ;
