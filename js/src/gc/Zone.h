@@ -2242,6 +2242,14 @@ bool
 isOnList
 (
 )
+const
+;
+Zone
+*
+nextZone
+(
+)
+const
 ;
 friend
 bool
