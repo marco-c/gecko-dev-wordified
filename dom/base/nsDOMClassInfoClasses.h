@@ -123,10 +123,6 @@ CSSStyleRule
 )
 DOMCI_CLASS
 (
-CSSCharsetRule
-)
-DOMCI_CLASS
-(
 CSSImportRule
 )
 DOMCI_CLASS
