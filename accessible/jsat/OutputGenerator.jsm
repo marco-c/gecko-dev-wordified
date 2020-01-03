@@ -1932,6 +1932,8 @@ combobox
 '
 :
 INCLUDE_DESC
+|
+INCLUDE_VALUE
 '
 droplist
 '
@@ -2110,12 +2112,6 @@ calendar
 INCLUDE_DESC
 |
 INCLUDE_NAME
-'
-combobox
-list
-'
-:
-INCLUDE_DESC
 '
 combobox
 option
