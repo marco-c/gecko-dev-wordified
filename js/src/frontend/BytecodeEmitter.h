@@ -617,6 +617,11 @@ bytecode
 generation
 *
 /
+ExclusiveContext
+*
+const
+cx
+;
 BytecodeEmitter
 *
 const
