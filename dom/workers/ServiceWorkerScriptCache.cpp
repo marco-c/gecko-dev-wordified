@@ -459,6 +459,9 @@ const
 nsAString
 &
 aURL
+nsILoadGroup
+*
+aLoadGroup
 )
 {
 MOZ_ASSERT
@@ -523,8 +526,6 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-)
-;
 /
 /
 FIXME
@@ -533,6 +534,9 @@ nsm
 )
 :
 TYPE_SERVICEWORKER
+aLoadGroup
+)
+;
 if
 (
 NS_WARN_IF
@@ -1247,6 +1251,9 @@ const
 nsAString
 &
 aCacheName
+nsILoadGroup
+*
+aLoadGroup
 )
 {
 AssertIsOnMainThread
@@ -1354,6 +1361,7 @@ Initialize
 (
 aPrincipal
 aURL
+aLoadGroup
 )
 ;
 if
@@ -4350,6 +4358,9 @@ aURL
 CompareCallback
 *
 aCallback
+nsILoadGroup
+*
+aLoadGroup
 )
 {
 AssertIsOnMainThread
@@ -4399,6 +4410,7 @@ Initialize
 aPrincipal
 aURL
 aCacheName
+aLoadGroup
 )
 ;
 if
