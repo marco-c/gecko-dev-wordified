@@ -1664,16 +1664,6 @@ mIgnoreVary
 ;
 aOut
 .
-prefixMatch
-(
-)
-=
-aIn
-.
-mPrefixMatch
-;
-aOut
-.
 cacheNameSet
 (
 )
