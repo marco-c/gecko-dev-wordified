@@ -2013,7 +2013,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 speakerforcedchange
-NS_SPEAKERMANAGER_SPEAKERFORCEDCHANGE
+eSpeakerForcedChange
 EventNameType_None
 eBasicEventClass
 )
