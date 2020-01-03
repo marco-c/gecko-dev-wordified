@@ -472,10 +472,6 @@ getCrashes
 .
 then
 (
-SpecialPowers
-.
-wrapCallback
-(
 function
 (
 crashes
@@ -507,10 +503,15 @@ record
 var
 crash
 =
+SpecialPowers
+.
+wrap
+(
 crashes
 [
 0
 ]
+)
 ;
 ok
 (
@@ -648,7 +649,6 @@ tryGetCrash
 ;
 }
 }
-)
 function
 (
 err
