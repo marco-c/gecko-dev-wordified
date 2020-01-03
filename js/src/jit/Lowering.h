@@ -2308,14 +2308,6 @@ ins
 )
 ;
 void
-visitNurseryObject
-(
-MNurseryObject
-*
-ins
-)
-;
-void
 visitNewTarget
 (
 MNewTarget
