@@ -3715,6 +3715,10 @@ bookmarks
 .
 getFolderIdForItem
 (
+this
+.
+_paneInfo
+.
 itemId
 )
 =
