@@ -1318,9 +1318,9 @@ HandleObject
 obj
 HandleId
 id
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 {
 MarkTypePropertyNonData
@@ -1351,7 +1351,7 @@ op
 cx
 obj
 id
-succeeded
+result
 )
 ;
 return
@@ -1367,7 +1367,7 @@ NativeObject
 (
 )
 id
-succeeded
+result
 )
 ;
 }
@@ -1385,9 +1385,9 @@ HandleObject
 obj
 uint32_t
 index
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 {
 RootedId
@@ -1416,7 +1416,7 @@ DeleteProperty
 cx
 obj
 id
-succeeded
+result
 )
 ;
 }

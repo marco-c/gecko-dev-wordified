@@ -1321,9 +1321,6 @@ idVar
 ReturnStatus
 *
 rs
-bool
-*
-success
 )
 {
 AutoJSAPI
@@ -1356,11 +1353,6 @@ jsapi
 cx
 (
 )
-;
-*
-success
-=
-false
 ;
 RootedObject
 obj
@@ -1430,10 +1422,13 @@ cx
 rs
 )
 ;
+ObjectOpResult
+success
+;
 if
 (
 !
-JS_DeletePropertyById2
+JS_DeletePropertyById
 (
 cx
 obj
@@ -1452,6 +1447,7 @@ return
 ok
 (
 rs
+success
 )
 ;
 }

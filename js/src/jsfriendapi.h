@@ -2225,9 +2225,12 @@ JS
 :
 HandleId
 id
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 extern

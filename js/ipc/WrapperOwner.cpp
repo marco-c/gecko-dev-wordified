@@ -546,9 +546,9 @@ HandleObject
 proxy
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -1453,9 +1453,9 @@ HandleObject
 proxy
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1466,7 +1466,7 @@ delete_
 cx
 proxy
 id
-bp
+result
 )
 )
 ;
@@ -1484,9 +1484,9 @@ HandleObject
 proxy
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 {
 ObjectId
@@ -1526,7 +1526,6 @@ objId
 idVar
 &
 status
-bp
 )
 )
 return
@@ -1544,6 +1543,7 @@ ok
 (
 cx
 status
+result
 )
 ;
 }

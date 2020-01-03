@@ -235,9 +235,6 @@ id
 ReturnStatus
 *
 rs
-bool
-*
-success
 )
 ;
 bool

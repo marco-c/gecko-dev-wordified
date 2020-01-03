@@ -1137,13 +1137,16 @@ object
 :
 -
 (
-bool
+JS
+:
+:
+ObjectOpResult
 succeeded
 ;
 if
 (
 !
-JS_DeleteUCProperty2
+JS_DeleteUCProperty
 (
 aCx
 targetObject
@@ -1157,7 +1160,6 @@ targetObjectPropName
 Length
 (
 )
-&
 succeeded
 )
 )

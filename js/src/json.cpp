@@ -5067,8 +5067,8 @@ iii
 .
 *
 /
-bool
-succeeded
+ObjectOpResult
+ignored
 ;
 if
 (
@@ -5078,8 +5078,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+ignored
 )
 )
 return
@@ -5275,8 +5274,8 @@ ii
 .
 *
 /
-bool
-succeeded
+ObjectOpResult
+ignored
 ;
 if
 (
@@ -5286,8 +5285,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+ignored
 )
 )
 return

@@ -2005,7 +2005,7 @@ bool
 strict
 >
 bool
-DeleteProperty
+DeletePropertyJit
 (
 JSContext
 *
@@ -2025,7 +2025,7 @@ bool
 strict
 >
 bool
-DeleteElement
+DeleteElementJit
 (
 JSContext
 *

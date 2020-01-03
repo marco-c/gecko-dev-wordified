@@ -225,9 +225,9 @@ HandleObject
 wrapper
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
