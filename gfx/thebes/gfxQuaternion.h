@@ -190,6 +190,7 @@ aW
 )
 {
 }
+explicit
 gfxQuaternion
 (
 const
