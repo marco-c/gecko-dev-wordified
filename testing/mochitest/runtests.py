@@ -14279,27 +14279,8 @@ resolve_runtime_file
 (
 self
 options
-info
 )
 :
-        
-platform
-=
-info
-[
-'
-platform_guess
-'
-]
-        
-buildtype
-=
-info
-[
-'
-buildtype_guess
-'
-]
         
 data_dir
 =
@@ -14313,20 +14294,6 @@ SCRIPT_DIR
 '
 runtimes
 '
-'
-{
-}
--
-{
-}
-'
-.
-format
-(
-            
-platform
-buildtype
-)
 )
         
 flavor
@@ -14782,7 +14749,6 @@ self
 resolve_runtime_file
 (
 options
-info
 )
                     
 if
