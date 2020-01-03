@@ -202,7 +202,9 @@ correctly
 "
 )
 ;
-toggleSidebar
+SidebarUI
+.
+hide
 (
 )
 ;
@@ -547,7 +549,9 @@ function
 (
 )
 {
-toggleSidebar
+SidebarUI
+.
+show
 (
 currentTest
 .
@@ -670,11 +674,10 @@ function
 (
 )
 {
-toggleSidebar
-(
-currentTest
+SidebarUI
 .
-sidebarName
+hide
+(
 )
 ;
 currentTest
