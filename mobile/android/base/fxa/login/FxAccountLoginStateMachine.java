@@ -79,7 +79,7 @@ java
 .
 util
 .
-HashSet
+EnumSet
 ;
 import
 java
@@ -247,12 +247,13 @@ StateLabel
 >
 stateLabelsSeen
 =
-new
-HashSet
-<
-StateLabel
->
+EnumSet
+.
+noneOf
 (
+StateLabel
+.
+class
 )
 ;
 protected
