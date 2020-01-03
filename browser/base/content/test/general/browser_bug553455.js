@@ -1460,7 +1460,7 @@ notification
 getAttribute
 (
 "
-originhost
+origin
 "
 )
 "
