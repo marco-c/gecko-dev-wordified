@@ -1336,6 +1336,11 @@ is
 (
 tooltipText
 EXTERNAL_STYLESHEET_URL
++
+"
+:
+1
+"
 "
 rule
 view
