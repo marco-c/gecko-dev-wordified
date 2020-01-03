@@ -400,13 +400,10 @@ nullptr
 )
 )
 ;
+*
 heapData
--
->
-set
-(
+=
 initialObj
-)
 ;
 /
 *

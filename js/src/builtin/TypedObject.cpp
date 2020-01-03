@@ -13190,13 +13190,10 @@ index
 )
 {
 id
-.
-set
-(
+=
 INT_TO_JSID
 (
 index
-)
 )
 ;
 properties
@@ -13264,9 +13261,7 @@ index
 )
 {
 id
-.
-set
-(
+=
 AtomToId
 (
 &
@@ -13283,7 +13278,6 @@ StructTypeDescr
 fieldName
 (
 index
-)
 )
 )
 ;

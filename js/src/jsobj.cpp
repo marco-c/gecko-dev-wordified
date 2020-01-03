@@ -9520,15 +9520,12 @@ isObject
 )
 )
 ctor
-.
-set
-(
+=
 &
 v
 .
 toObject
 (
-)
 )
 ;
 }

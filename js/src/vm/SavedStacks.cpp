@@ -3546,14 +3546,11 @@ principals
 )
 ;
 parentFrame
-.
-set
-(
+=
 getOrCreateSavedFrame
 (
 cx
 lookup
-)
 )
 ;
 if
