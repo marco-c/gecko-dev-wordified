@@ -1823,6 +1823,9 @@ TagInfo
 result
 .
 techList
+result
+.
+tagId
 )
 ;
 this
@@ -2341,6 +2344,7 @@ function
 TagInfo
 (
 techList
+tagId
 )
 {
 this
@@ -2348,6 +2352,12 @@ this
 techList
 =
 techList
+;
+this
+.
+tagId
+=
+tagId
 ;
 }
 TagInfo
@@ -2368,6 +2378,9 @@ nsITagInfo
 ]
 )
 techList
+:
+null
+tagId
 :
 null
 }

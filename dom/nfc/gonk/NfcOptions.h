@@ -632,6 +632,12 @@ uint8_t
 >
 mTechList
 ;
+nsTArray
+<
+uint8_t
+>
+mTagId
+;
 int32_t
 mIsP2P
 ;
