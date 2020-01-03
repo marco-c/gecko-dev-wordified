@@ -4495,6 +4495,15 @@ isGuard
 def
 -
 >
+isGuardRangeBailouts
+(
+)
+&
+&
+!
+def
+-
+>
 isControlInstruction
 (
 )

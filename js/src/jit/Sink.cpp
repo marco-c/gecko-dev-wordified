@@ -496,6 +496,14 @@ isGuard
 ins
 -
 >
+isGuardRangeBailouts
+(
+)
+|
+|
+ins
+-
+>
 isRecoveredOnBailout
 (
 )
@@ -509,8 +517,10 @@ canRecoverOnBailout
 (
 )
 )
+{
 continue
 ;
+}
 /
 /
 Compute
