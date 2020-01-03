@@ -1124,6 +1124,12 @@ uint32_t
 aFormatFlags
 )
 ;
+virtual
+bool
+DidRenderingDeviceReset
+(
+)
+;
 /
 *
 Find

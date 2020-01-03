@@ -2491,6 +2491,16 @@ return
 false
 ;
 }
+virtual
+bool
+DidRenderingDeviceReset
+(
+)
+{
+return
+false
+;
+}
 void
 GetPrefFonts
 (
