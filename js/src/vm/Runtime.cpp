@@ -1385,9 +1385,10 @@ if
 (
 size
 )
-SetMarkStackLimit
+gc
+.
+setMarkStackLimit
 (
-this
 atoi
 (
 size

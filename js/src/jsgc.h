@@ -7728,6 +7728,13 @@ friend
 class
 MinorCollectionTracer
 ;
+friend
+class
+js
+:
+:
+TenuringTracer
+;
 /
 *
 The
