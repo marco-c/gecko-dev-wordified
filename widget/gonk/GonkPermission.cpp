@@ -733,6 +733,12 @@ if
 uid
 =
 =
+AID_SYSTEM
+|
+|
+uid
+=
+=
 AID_RADIO
 |
 |
