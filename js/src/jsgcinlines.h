@@ -2381,7 +2381,7 @@ PossiblyFail
 (
 )
 {
-JS_OOM_POSSIBLY_FAIL
+JS_OOM_POSSIBLY_FAIL_BOOL
 (
 )
 ;
