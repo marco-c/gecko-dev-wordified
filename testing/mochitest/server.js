@@ -158,7 +158,6 @@ a
 network
 .
 let
-(
 ios
 =
 Cc
@@ -184,8 +183,7 @@ Ci
 .
 nsIIOService2
 )
-)
-{
+;
 ios
 .
 manageOfflineStatus
@@ -198,7 +196,6 @@ offline
 =
 false
 ;
-}
 var
 server
 ;
