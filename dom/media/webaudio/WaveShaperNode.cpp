@@ -1044,6 +1044,7 @@ bool
 *
 aFinished
 )
+MOZ_OVERRIDE
 {
 uint32_t
 channelCount

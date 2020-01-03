@@ -352,6 +352,7 @@ bool
 *
 aFinished
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

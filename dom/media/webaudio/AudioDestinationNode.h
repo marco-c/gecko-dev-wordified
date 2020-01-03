@@ -328,6 +328,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 AudioChannel
 MozAudioChannelType
@@ -421,6 +422,7 @@ NodeType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "
