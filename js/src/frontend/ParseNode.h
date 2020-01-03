@@ -6196,6 +6196,10 @@ AllowConstantObjects
 allowObjects
 MutableHandleValue
 vp
+NewObjectKind
+newKind
+=
+TenuredObject
 )
 ;
 inline
@@ -10489,13 +10493,13 @@ ObjectBox
 {
 public
 :
-NativeObject
+JSObject
 *
 object
 ;
 ObjectBox
 (
-NativeObject
+JSObject
 *
 object
 ObjectBox
