@@ -831,6 +831,11 @@ mClauses
 TextRange
 mCaret
 ;
+void
+EnsureClauseArray
+(
+)
+;
 }
 ;
 PendingComposition
