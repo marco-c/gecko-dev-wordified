@@ -452,7 +452,7 @@ switch
 (
 this
 .
-_prefSvc
+_prefBranch
 .
 getPrefType
 (
@@ -470,7 +470,7 @@ PREF_STRING
 return
 this
 .
-_prefSvc
+_prefBranch
 .
 getComplexValue
 (
@@ -490,7 +490,7 @@ PREF_INT
 return
 this
 .
-_prefSvc
+_prefBranch
 .
 getIntPref
 (
@@ -507,7 +507,7 @@ PREF_BOOL
 return
 this
 .
-_prefSvc
+_prefBranch
 .
 getBoolPref
 (
@@ -554,7 +554,7 @@ is
 +
 this
 .
-_prefSvc
+_prefBranch
 .
 getPrefType
 (
@@ -567,10 +567,10 @@ I
 don
 '
 t
-know
 "
 +
 "
+know
 how
 to
 handle
@@ -904,7 +904,7 @@ String
 :
 {
 let
-string
+str
 =
 Cc
 [
@@ -928,7 +928,7 @@ Ci
 nsISupportsString
 )
 ;
-string
+str
 .
 data
 =
@@ -936,7 +936,7 @@ prefValue
 ;
 this
 .
-_prefSvc
+_prefBranch
 .
 setComplexValue
 (
@@ -944,7 +944,7 @@ prefName
 Ci
 .
 nsISupportsString
-string
+str
 )
 ;
 }
@@ -1089,7 +1089,7 @@ strings
 ;
 this
 .
-_prefSvc
+_prefBranch
 .
 setIntPref
 (
@@ -1182,7 +1182,7 @@ Boolean
 :
 this
 .
-_prefSvc
+_prefBranch
 .
 setBoolPref
 (
@@ -1382,29 +1382,10 @@ this
 )
 ;
 return
-this
-.
-_has
-(
-prefName
-)
-;
-}
-;
-Preferences
-.
-_has
-=
-function
-(
-prefName
-)
-{
-return
 (
 this
 .
-_prefSvc
+_prefBranch
 .
 getPrefType
 (
@@ -1600,7 +1581,7 @@ prefName
 &
 this
 .
-_prefSvc
+_prefBranch
 .
 prefHasUserValue
 (
@@ -1696,7 +1677,7 @@ return
 }
 this
 .
-_prefSvc
+_prefBranch
 .
 clearUserPref
 (
@@ -1773,7 +1754,7 @@ this
 ;
 this
 .
-_prefSvc
+_prefBranch
 .
 lockPref
 (
@@ -1848,7 +1829,7 @@ this
 ;
 this
 .
-_prefSvc
+_prefBranch
 .
 unlockPref
 (
@@ -1975,7 +1956,7 @@ this
 return
 this
 .
-_prefSvc
+_prefBranch
 .
 prefIsLocked
 (
@@ -2135,7 +2116,7 @@ thisObject
 ;
 Preferences
 .
-_prefSvc
+_prefBranch
 .
 addObserver
 (
@@ -2484,7 +2465,7 @@ observer
 {
 Preferences
 .
-_prefSvc
+_prefBranch
 .
 removeObserver
 (
@@ -2524,7 +2505,7 @@ try
 {
 this
 .
-_prefSvc
+_prefBranch
 .
 resetBranch
 (
@@ -2576,7 +2557,7 @@ reset
 (
 this
 .
-_prefSvc
+_prefBranch
 .
 getChildList
 (
@@ -2645,7 +2626,7 @@ not
 use
 !
 Use
-_prefSvc
+_prefBranch
 below
 instead
 .
@@ -2681,13 +2662,13 @@ defineProperty
 (
 Preferences
 "
-_prefSvc
+_prefBranch
 "
 {
 get
 :
 function
-_prefSvc
+_prefBranch
 (
 )
 {
