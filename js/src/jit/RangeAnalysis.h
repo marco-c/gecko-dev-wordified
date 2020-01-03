@@ -1476,7 +1476,7 @@ function
 simply
 makes
 several
-JS_ASSERTs
+MOZ_ASSERTs
 to
 verify
 the

@@ -2033,7 +2033,7 @@ Mozilla
 with
 a
 fatal
-JS_ASSERT
+MOZ_ASSERT
 !
 *
 /
