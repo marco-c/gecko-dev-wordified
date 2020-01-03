@@ -1797,8 +1797,6 @@ screenshot
 logArrays
 [
 "
-logshake
--
 screenshot
 .
 png
