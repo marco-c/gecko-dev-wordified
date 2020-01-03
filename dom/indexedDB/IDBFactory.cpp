@@ -2298,6 +2298,7 @@ persistenceType
 PersistenceTypeFromStorage
 (
 aStorageType
+PERSISTENCE_TYPE_PERSISTENT
 )
 ;
 persistenceTypeIsExplicit

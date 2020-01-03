@@ -194,7 +194,7 @@ Count
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 ContainsPattern
@@ -202,7 +202,7 @@ ContainsPattern
 aPattern
 )
 )
-{
+;
 mPatterns
 .
 AppendElement
@@ -210,7 +210,6 @@ AppendElement
 aPattern
 )
 ;
-}
 }
 bool
 ContainsOrigin
@@ -276,7 +275,7 @@ nsACString
 aOrigin
 )
 {
-if
+MOZ_ASSERT
 (
 !
 ContainsOrigin
@@ -284,7 +283,7 @@ ContainsOrigin
 aOrigin
 )
 )
-{
+;
 mOrigins
 .
 PutEntry
@@ -292,7 +291,6 @@ PutEntry
 aOrigin
 )
 ;
-}
 }
 private
 :
