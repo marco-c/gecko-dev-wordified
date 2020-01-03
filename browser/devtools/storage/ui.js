@@ -684,6 +684,13 @@ storageTypes
 ;
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 this
 .
