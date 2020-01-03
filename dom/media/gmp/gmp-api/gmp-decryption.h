@@ -413,9 +413,12 @@ kGMPLicenseRenewal
 kGMPLicenseRelease
 =
 2
-kGMPMessageInvalid
+kGMPIndividualizationRequest
 =
 3
+kGMPMessageInvalid
+=
+4
 /
 /
 Must
@@ -1547,7 +1550,7 @@ eme
 -
 decrypt
 -
-v3
+v4
 "
 /
 /
