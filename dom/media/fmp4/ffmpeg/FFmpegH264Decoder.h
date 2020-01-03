@@ -254,8 +254,8 @@ AVCodecID
 GetCodecId
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 ;

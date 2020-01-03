@@ -421,11 +421,13 @@ header
 .
 if
 (
-strcmp
-(
+!
 aConfig
 .
 mime_type
+.
+EqualsLiteral
+(
 "
 audio
 /
@@ -434,9 +436,6 @@ mp4a
 latm
 "
 )
-!
-=
-0
 )
 {
 mUseAdts

@@ -196,8 +196,8 @@ bool
 SupportsAudioMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 override
@@ -220,8 +220,8 @@ MediaData
 Type
 aType
 const
-char
-*
+nsACString
+&
 aMimeType
 widget
 :
@@ -297,10 +297,7 @@ MediaData
 Type
 mType
 ;
-nsAutoPtr
-<
-char
->
+nsAutoCString
 mMimeType
 ;
 widget

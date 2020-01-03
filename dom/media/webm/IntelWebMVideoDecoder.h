@@ -339,8 +339,8 @@ bool
 IsSupportedVideoMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 ;
