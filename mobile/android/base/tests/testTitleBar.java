@@ -132,7 +132,7 @@ ROBOCOP_BLANK_PAGE_01_TITLE
 Loading
 a
 page
-loadUrl
+loadUrlAndWait
 (
 blank1
 )
@@ -160,7 +160,7 @@ mStringHelper
 SHOW_PAGE_TITLE_LABEL
 )
 ;
-loadUrl
+loadUrlAndWait
 (
 blank1
 )
@@ -189,7 +189,7 @@ mStringHelper
 SHOW_PAGE_ADDRESS_LABEL
 )
 ;
-loadUrl
+loadUrlAndWait
 (
 blank1
 )

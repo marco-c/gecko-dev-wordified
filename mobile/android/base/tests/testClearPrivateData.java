@@ -264,7 +264,7 @@ mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
-loadUrl
+loadUrlAndWait
 (
 blank1
 )
