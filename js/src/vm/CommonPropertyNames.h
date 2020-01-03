@@ -326,6 +326,15 @@ caseFirst
 \
 macro
 (
+class_
+class_
+"
+class
+"
+)
+\
+macro
+(
 Collator
 Collator
 "
