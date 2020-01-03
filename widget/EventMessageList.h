@@ -2348,7 +2348,7 @@ ePrintEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_BEFOREPRINT
+eBeforePrint
 ePrintEventFirst
 )
 NS_EVENT_MESSAGE

@@ -1603,7 +1603,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 beforeprint
-NS_BEFOREPRINT
+eBeforePrint
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly
