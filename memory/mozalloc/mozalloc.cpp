@@ -209,7 +209,7 @@ h
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -969,7 +969,7 @@ code
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 /
@@ -1216,7 +1216,7 @@ return
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 return
 malloc_size
