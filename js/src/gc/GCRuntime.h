@@ -4867,8 +4867,7 @@ slices
 .
 *
 /
-volatile
-uintptr_t
+bool
 interFrameGC
 ;
 /

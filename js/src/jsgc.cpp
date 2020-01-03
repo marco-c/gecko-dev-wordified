@@ -7406,7 +7406,7 @@ nullptr
 endif
 interFrameGC
 (
-0
+false
 )
 sliceBudget
 (
@@ -38441,6 +38441,14 @@ notifyDidPaint
 (
 )
 {
+MOZ_ASSERT
+(
+CurrentThreadCanAccessRuntime
+(
+rt
+)
+)
+;
 #
 ifdef
 JS_GC_ZEAL
