@@ -5563,6 +5563,8 @@ aIn
 nsISupports
 *
 out
+=
+nullptr
 ;
 aIn
 -
@@ -8285,6 +8287,11 @@ nsISupports
 in
 question
 .
+*
+aCp
+=
+nullptr
+;
 CallQueryInterface
 (
 aPtr
@@ -22753,6 +22760,8 @@ aHolder
 nsXPCOMCycleCollectionParticipant
 *
 participant
+=
+nullptr
 ;
 CallQueryInterface
 (
@@ -22892,6 +22901,8 @@ DEBUG
 nsXPCOMCycleCollectionParticipant
 *
 participant
+=
+nullptr
 ;
 CallQueryInterface
 (
