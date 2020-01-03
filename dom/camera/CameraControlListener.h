@@ -138,6 +138,7 @@ CameraControlListener
 enum
 HardwareState
 {
+kHardwareUninitialized
 kHardwareClosed
 kHardwareOpen
 kHardwareOpenFailed
