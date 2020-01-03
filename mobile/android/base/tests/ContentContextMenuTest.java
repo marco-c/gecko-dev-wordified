@@ -64,8 +64,16 @@ final
 int
 MAX_TEST_TIMEOUT
 =
-10000
+30000
 ;
+/
+/
+30
+seconds
+(
+worst
+case
+)
 /
 /
 This
