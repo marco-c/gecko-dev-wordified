@@ -2591,40 +2591,6 @@ append
 option
 )
         
-tests
-=
-self
-.
-config
-[
-"
-suite_definitions
-"
-]
-[
-suite
-]
-.
-get
-(
-"
-tests
-"
-[
-]
-)
-        
-if
-tests
-:
-            
-cmd
-.
-extend
-(
-tests
-)
-        
 return
 cmd
     
@@ -3091,15 +3057,6 @@ _query_abs_base_cmd
 suite
 )
         
-cmd
-=
-self
-.
-append_harness_extra_args
-(
-cmd
-)
-        
 cwd
 =
 dirs
@@ -3112,6 +3069,15 @@ s_dir
 %
 suite
 ]
+        
+cmd
+=
+self
+.
+append_harness_extra_args
+(
+cmd
+)
         
 #
 TODO
