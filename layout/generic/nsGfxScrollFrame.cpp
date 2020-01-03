@@ -11798,7 +11798,7 @@ PresContext
 PresShell
 (
 )
-ScreenMargin
+LayerMargin
 (
 )
 gfxPrefs

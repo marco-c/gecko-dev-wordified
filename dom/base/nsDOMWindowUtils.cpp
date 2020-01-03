@@ -2403,10 +2403,10 @@ signature
 and
 /
 /
-ScreenMargin
+LayerMargin
 constructor
 .
-ScreenMargin
+LayerMargin
 displayportMargins
 (
 aTopMargin

@@ -550,7 +550,7 @@ static
 *
 /
 const
-ScreenMargin
+LayerMargin
 APZCTreeManager
 :
 :
