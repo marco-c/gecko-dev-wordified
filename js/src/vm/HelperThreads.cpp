@@ -641,6 +641,9 @@ IonBuilder
 builder
 )
 {
+if
+(
+!
 HelperThreadState
 (
 )
@@ -652,6 +655,13 @@ ionFinishedList
 append
 (
 builder
+)
+)
+CrashAtUnhandlableOOM
+(
+"
+FinishOffThreadIonCompile
+"
 )
 ;
 }
