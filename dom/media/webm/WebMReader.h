@@ -577,15 +577,6 @@ GetBuffered
 override
 ;
 virtual
-int64_t
-GetEvictionOffset
-(
-double
-aTime
-)
-override
-;
-virtual
 bool
 IsMediaSeekable
 (
