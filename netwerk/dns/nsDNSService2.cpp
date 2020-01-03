@@ -1617,6 +1617,11 @@ iterCopy
 =
 mIter
 ;
+int
+iterGenCntCopy
+=
+mIterGenCnt
+;
 NetAddr
 addr
 ;
@@ -1636,6 +1641,10 @@ addr
 mIter
 =
 iterCopy
+;
+mIterGenCnt
+=
+iterGenCntCopy
 ;
 mDone
 =
