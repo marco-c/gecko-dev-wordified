@@ -412,6 +412,12 @@ Get
 (
 )
 ;
+virtual
+~
+BluetoothHfpManager
+(
+)
+;
 static
 void
 InitHfpInterface
@@ -695,14 +701,6 @@ nsAString
 aBdAddress
 )
 MOZ_OVERRIDE
-;
-protected
-:
-virtual
-~
-BluetoothHfpManager
-(
-)
 ;
 private
 :

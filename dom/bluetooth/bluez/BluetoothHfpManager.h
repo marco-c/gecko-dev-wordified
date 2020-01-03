@@ -405,6 +405,11 @@ Get
 (
 )
 ;
+~
+BluetoothHfpManager
+(
+)
+;
 /
 /
 The
@@ -692,13 +697,6 @@ ToggleCalls
 ;
 #
 endif
-protected
-:
-~
-BluetoothHfpManager
-(
-)
-;
 private
 :
 void

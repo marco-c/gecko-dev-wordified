@@ -184,6 +184,12 @@ Get
 (
 )
 ;
+virtual
+~
+BluetoothA2dpManager
+(
+)
+;
 /
 /
 A2DP
@@ -285,14 +291,6 @@ GetTitle
 nsAString
 &
 aTitle
-)
-;
-protected
-:
-virtual
-~
-BluetoothA2dpManager
-(
 )
 ;
 private

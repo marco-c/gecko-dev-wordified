@@ -135,6 +135,12 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 BluetoothSetupResultHandler
 )
 virtual
+~
+BluetoothSetupResultHandler
+(
+)
+;
+virtual
 void
 OnError
 (
@@ -157,14 +163,6 @@ UnregisterModule
 virtual
 void
 Configuration
-(
-)
-;
-protected
-:
-virtual
-~
-BluetoothSetupResultHandler
 (
 )
 ;
