@@ -2678,6 +2678,14 @@ int32_t
 offset
 )
 ;
+aOutput
+-
+>
+ApplyVolume
+(
+mVolume
+)
+;
 }
 static
 void
