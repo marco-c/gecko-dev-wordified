@@ -542,6 +542,9 @@ aManager
 BlobChild
 *
 aOther
+FileImpl
+*
+aBlobImpl
 )
 ;
 /
@@ -642,6 +645,9 @@ CommonInit
 BlobChild
 *
 aOther
+FileImpl
+*
+aBlobImpl
 )
 ;
 void
@@ -735,6 +741,9 @@ aRemoteBlob
 nsIContentChild
 *
 aManager
+FileImpl
+*
+aBlobImpl
 )
 ;
 static
@@ -748,6 +757,9 @@ aRemoteBlob
 PBackgroundChild
 *
 aManager
+FileImpl
+*
+aBlobImpl
 )
 ;
 void

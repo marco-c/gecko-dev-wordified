@@ -7712,6 +7712,13 @@ EnsureFresh
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mNames
 .
 Clear

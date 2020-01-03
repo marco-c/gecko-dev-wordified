@@ -79,13 +79,6 @@ testSteps
 )
 {
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 name
 =
 this

@@ -260,6 +260,13 @@ IDBWrapperCache
 public
 nsIRunnable
 {
+class
+WorkerFeature
+;
+friend
+class
+WorkerFeature
+;
 public
 :
 enum
@@ -336,6 +343,12 @@ IDBObjectStore
 >
 >
 mDeletedObjectStores
+;
+nsAutoPtr
+<
+WorkerFeature
+>
+mWorkerFeature
 ;
 /
 /
@@ -416,6 +429,9 @@ mMode
 ;
 bool
 mCreating
+;
+bool
+mRegistered
 ;
 bool
 mAbortedByScript

@@ -616,6 +616,7 @@ WorkerPrivate
 :
 :
 LoadInfo
+*
 aLoadInfo
 const
 nsAString
@@ -1075,6 +1076,7 @@ WorkerPrivate
 :
 :
 LoadInfo
+*
 aLoadInfo
 const
 nsAString
