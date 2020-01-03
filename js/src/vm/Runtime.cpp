@@ -528,10 +528,6 @@ ionCompiling
 (
 false
 )
-ionCompilingSafeForMinorGC
-(
-false
-)
 gcSweeping
 (
 false

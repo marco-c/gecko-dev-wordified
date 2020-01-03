@@ -1329,6 +1329,15 @@ char
 message
 )
 ;
+MInstruction
+*
+constantMaybeNursery
+(
+JSObject
+*
+obj
+)
+;
 JSFunction
 *
 getSingleCallTarget

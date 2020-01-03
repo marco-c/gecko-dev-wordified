@@ -2812,7 +2812,7 @@ Assembler
 :
 NotEqual
 proto
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 obj
 -
@@ -2892,7 +2892,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 pobj
 )
@@ -5558,7 +5558,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 holder
 )
@@ -6835,7 +6835,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 holder
 )
@@ -7258,7 +7258,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 target
 )
@@ -7678,7 +7678,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 holder
 )
@@ -11498,7 +11498,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 holder
 )
@@ -15946,7 +15946,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 holder
 )
@@ -17399,7 +17399,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 target
 )
@@ -24147,7 +24147,7 @@ Assembler
 :
 NotEqual
 proto
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 obj
 -
@@ -24198,7 +24198,7 @@ masm
 .
 movePtr
 (
-ImmGCPtr
+ImmMaybeNurseryPtr
 (
 pobj
 )

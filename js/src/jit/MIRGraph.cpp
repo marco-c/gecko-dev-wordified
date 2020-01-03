@@ -300,9 +300,10 @@ instrumentedProfilingIsCached_
 (
 false
 )
-safeForMinorGC_
+nurseryObjects_
 (
-true
+*
+alloc
 )
 outOfBoundsLabel_
 (

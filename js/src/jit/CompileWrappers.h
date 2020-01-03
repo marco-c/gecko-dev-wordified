@@ -516,11 +516,6 @@ gcNursery
 (
 )
 ;
-void
-setMinorGCShouldCancelIonCompilations
-(
-)
-;
 }
 ;
 class

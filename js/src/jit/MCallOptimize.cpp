@@ -4435,7 +4435,6 @@ alloc
 (
 )
 templateObject
-this
 )
 ;
 current
@@ -5505,7 +5504,9 @@ if
 (
 PropertyWriteNeedsTypeBarrier
 (
-this
+alloc
+(
+)
 constraints
 (
 )
@@ -11785,7 +11786,6 @@ alloc
 (
 )
 templateObject
-this
 )
 ;
 current
@@ -12237,7 +12237,6 @@ templateObject
 constraints
 (
 )
-this
 )
 ;
 current
@@ -14459,7 +14458,6 @@ alloc
 (
 )
 templateObject
-this
 )
 ;
 current
