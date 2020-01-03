@@ -11755,9 +11755,7 @@ if
 (
 AppConstants
 .
-Versions
-.
-feature12Plus
+ANDROID_DOWNLOADS_INTEGRATION
 )
 {
 final
