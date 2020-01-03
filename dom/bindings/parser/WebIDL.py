@@ -31169,14 +31169,6 @@ identifier
 "
 BinaryName
 "
-or
-              
-identifier
-=
-=
-"
-MethodIdentityTestable
-"
 )
 :
             
