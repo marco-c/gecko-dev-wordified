@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 imgINotificationObserver
 .
 h
@@ -2298,13 +2291,6 @@ imgIContainer
 :
 FLAG_SYNC_DECODE
 ;
-nsRenderingContext
-rendCtx
-(
-&
-aContext
-)
-;
 if
 (
 mImageContainer
@@ -2427,8 +2413,7 @@ nsLayoutUtils
 :
 DrawSingleImage
 (
-&
-rendCtx
+aContext
 PresContext
 (
 )
@@ -2470,8 +2455,7 @@ nsLayoutUtils
 :
 DrawSingleUnscaledImage
 (
-&
-rendCtx
+aContext
 PresContext
 (
 )

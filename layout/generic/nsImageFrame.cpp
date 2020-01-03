@@ -8114,8 +8114,8 @@ nsLayoutUtils
 :
 DrawSingleImage
 (
-&
-aRenderingContext
+*
+gfx
 PresContext
 (
 )
@@ -9625,8 +9625,12 @@ nsLayoutUtils
 :
 DrawSingleImage
 (
-&
+*
 aRenderingContext
+.
+ThebesContext
+(
+)
 PresContext
 (
 )
