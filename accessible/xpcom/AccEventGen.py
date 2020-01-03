@@ -2398,10 +2398,8 @@ tables
 global
 options
     
-(
 options
 filenames
-)
 =
 o
 .
@@ -2517,9 +2515,6 @@ if
 options
 .
 stub_output
-is
-not
-None
 :
         
 makeutils
@@ -2533,8 +2528,7 @@ options
 stub_output
 )
         
-outfd
-=
+with
 open
 (
 options
@@ -2544,26 +2538,20 @@ stub_output
 w
 '
 )
-        
+as
+fh
+:
+            
 print_cpp_file
 (
-outfd
+fh
 conf
-)
-        
-outfd
-.
-close
-(
 )
         
 if
 options
 .
 makedepend_output
-is
-not
-None
 :
             
 makeutils
@@ -2579,13 +2567,9 @@ if
 options
 .
 header_output
-is
-not
-None
 :
         
-outfd
-=
+with
 open
 (
 options
@@ -2595,17 +2579,14 @@ header_output
 w
 '
 )
-        
+as
+fh
+:
+            
 print_header_file
 (
-outfd
+fh
 conf
-)
-        
-outfd
-.
-close
-(
 )
 if
 __name__
