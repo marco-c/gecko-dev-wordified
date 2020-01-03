@@ -1361,7 +1361,7 @@ return
 NS_OK
 ;
 }
-void
+bool
 HTMLLabelElement
 :
 :
@@ -1393,6 +1393,8 @@ if
 (
 element
 )
+{
+return
 element
 -
 >
@@ -1402,6 +1404,7 @@ aKeyCausesActivation
 aIsTrustedEvent
 )
 ;
+}
 }
 else
 {
@@ -1419,8 +1422,11 @@ if
 !
 presContext
 )
+{
 return
+false
 ;
+}
 /
 /
 Click
@@ -1485,6 +1491,9 @@ event
 )
 ;
 }
+return
+aKeyCausesActivation
+;
 }
 nsGenericHTMLElement
 *

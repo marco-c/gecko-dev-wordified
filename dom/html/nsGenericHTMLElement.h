@@ -3448,7 +3448,7 @@ aTabIndex
 )
 ;
 virtual
-void
+bool
 PerformAccesskey
 (
 bool
