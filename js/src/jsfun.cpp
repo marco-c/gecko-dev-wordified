@@ -6130,9 +6130,10 @@ nullptr
 protoType
 -
 >
-interpretedFunction
-=
+setInterpretedFunction
+(
 functionProto
+)
 ;
 script
 -
