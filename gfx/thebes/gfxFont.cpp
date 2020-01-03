@@ -11921,6 +11921,7 @@ Translate
 gfxPoint
 (
 0
+(
 metrics
 .
 emAscent
@@ -11931,6 +11932,7 @@ emDescent
 )
 /
 2
+)
 )
 )
 ;
