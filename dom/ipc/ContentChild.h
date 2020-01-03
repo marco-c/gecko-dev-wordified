@@ -1894,6 +1894,17 @@ override
 ;
 virtual
 bool
+RecvVolumeRemoved
+(
+const
+nsString
+&
+aFsName
+)
+override
+;
+virtual
+bool
 RecvNuwaFork
 (
 )
