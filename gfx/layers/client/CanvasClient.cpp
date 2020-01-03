@@ -550,7 +550,7 @@ mTextureFlags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 {
 flags
@@ -559,7 +559,7 @@ flags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 ;
 }
 gfx

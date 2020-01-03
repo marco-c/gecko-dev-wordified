@@ -1724,7 +1724,7 @@ mask
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 |
 TextureFlags
 :

@@ -430,8 +430,11 @@ gfx
 :
 IntSize
 aSize
-bool
-aInverted
+gl
+:
+:
+OriginPos
+aOriginPos
 )
 ;
 ~
