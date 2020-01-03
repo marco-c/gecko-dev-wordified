@@ -381,10 +381,6 @@ enterCompartmentDepth
 (
 0
 )
-totalTime
-(
-0
-)
 data
 (
 nullptr
