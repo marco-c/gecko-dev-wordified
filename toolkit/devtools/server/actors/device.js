@@ -1827,6 +1827,18 @@ form
 {
 if
 (
+!
+form
+.
+deviceActor
+)
+{
+return
+null
+;
+}
+if
+(
 _knownDeviceFronts
 .
 has
@@ -1834,6 +1846,7 @@ has
 client
 )
 )
+{
 return
 _knownDeviceFronts
 .
@@ -1842,6 +1855,7 @@ get
 client
 )
 ;
+}
 let
 front
 =
@@ -1864,3 +1878,4 @@ return
 front
 ;
 }
+;

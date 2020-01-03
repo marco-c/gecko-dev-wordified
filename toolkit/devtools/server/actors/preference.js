@@ -789,6 +789,18 @@ form
 {
 if
 (
+!
+form
+.
+preferenceActor
+)
+{
+return
+null
+;
+}
+if
+(
 _knownPreferenceFronts
 .
 has
@@ -796,6 +808,7 @@ has
 client
 )
 )
+{
 return
 _knownPreferenceFronts
 .
@@ -804,6 +817,7 @@ get
 client
 )
 ;
+}
 let
 front
 =

@@ -807,7 +807,7 @@ CONNECTED
 &
 AppManager
 .
-deviceFront
+preferenceFront
 )
 {
 /
