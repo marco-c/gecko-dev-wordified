@@ -567,12 +567,14 @@ the
 normal
 action
 (
-eg
+e
+.
+g
 .
 "
 Set
 up
-sync
+Sync
 !
 "
 )
