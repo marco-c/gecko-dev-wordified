@@ -8187,7 +8187,7 @@ void
 CompositorOGL
 :
 :
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *
@@ -8208,7 +8208,7 @@ rendering
 /
 Instead
 use
-FBAcquireFence
+DispAcquireFence
 as
 layer
 buffer
@@ -8225,9 +8225,9 @@ tearing
 .
 /
 /
-FBAcquireFence
+DispAcquireFence
 is
-FramebufferSurface
+DisplaySurface
 '
 s
 AcquireFence
@@ -8285,7 +8285,7 @@ GetGonkDisplay
 )
 -
 >
-GetPrevFBAcquireFd
+GetPrevDispAcquireFd
 (
 )
 )
@@ -8375,7 +8375,7 @@ void
 CompositorOGL
 :
 :
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *

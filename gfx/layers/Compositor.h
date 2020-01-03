@@ -2374,7 +2374,7 @@ EndFrame
 ;
 virtual
 void
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *

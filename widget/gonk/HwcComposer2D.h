@@ -617,7 +617,7 @@ void
 Prepare
 (
 buffer_handle_t
-fbHandle
+dispHandle
 int
 fence
 )
