@@ -5795,6 +5795,11 @@ ScrollOptions
 aOptions
 )
 ;
+void
+MozScrollSnap
+(
+)
+;
 int32_t
 GetInnerWidth
 (
