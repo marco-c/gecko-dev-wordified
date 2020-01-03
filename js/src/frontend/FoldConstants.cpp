@@ -3885,7 +3885,7 @@ pn
 >
 isKind
 (
-PNK_NEW
+PNK_TAGGED_TEMPLATE
 )
 )
 &
