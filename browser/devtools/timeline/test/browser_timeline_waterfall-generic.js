@@ -453,6 +453,11 @@ timeline
 marker
 -
 sidebar
+:
+not
+(
+spacer
+)
 >
 .
 timeline
@@ -490,6 +495,11 @@ timeline
 marker
 -
 sidebar
+:
+not
+(
+spacer
+)
 >
 .
 timeline
@@ -564,6 +574,11 @@ timeline
 marker
 -
 waterfall
+:
+not
+(
+spacer
+)
 >
 .
 timeline
