@@ -1699,6 +1699,15 @@ vSource
 if
 (
 mHasTabVideoSource
+|
+|
+MediaSourceType
+:
+:
+Browser
+=
+=
+aMediaSource
 )
 aVSources
 -
