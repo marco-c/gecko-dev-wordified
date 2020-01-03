@@ -1353,6 +1353,7 @@ nsRunnable
 {
 public
 :
+explicit
 ConsoleRunnable
 (
 Console
