@@ -704,10 +704,6 @@ aEnd
 >
 BLOCK_INDEX_SHIFT
 ;
-blockIndex
-=
-startBlock
-;
 for
 (
 blockIndex
