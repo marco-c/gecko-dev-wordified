@@ -3738,7 +3738,6 @@ Length
 )
 ;
 }
-const
 StreamBuffer
 &
 GetStreamBuffer
