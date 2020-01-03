@@ -942,6 +942,10 @@ zone
 MOZ_ASSERT_IF
 (
 p
+.
+found
+(
+)
 p
 -
 >
@@ -954,6 +958,10 @@ value
 ;
 return
 p
+.
+found
+(
+)
 ;
 }
 private

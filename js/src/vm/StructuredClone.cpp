@@ -5364,6 +5364,10 @@ if
 backref
 =
 p
+.
+found
+(
+)
 )
 )
 return
