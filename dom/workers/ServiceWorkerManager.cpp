@@ -13564,7 +13564,7 @@ void
 ServiceWorkerManager
 :
 :
-GetServicedClients
+GetAllClients
 (
 const
 nsCString

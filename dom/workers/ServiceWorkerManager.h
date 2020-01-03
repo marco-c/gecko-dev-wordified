@@ -1659,7 +1659,7 @@ aFlags
 )
 ;
 void
-GetServicedClients
+GetAllClients
 (
 const
 nsCString

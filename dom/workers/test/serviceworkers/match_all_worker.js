@@ -7,7 +7,7 @@ self
 .
 clients
 .
-getServiced
+matchAll
 (
 )
 .
@@ -38,7 +38,7 @@ e
 /
 /
 spam
-getServiced
+matchAll
 until
 the
 worker
