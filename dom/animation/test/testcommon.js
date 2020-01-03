@@ -580,6 +580,11 @@ cs
 marginLeft
 ;
 }
+if
+(
+opener
+)
+{
 for
 (
 var
@@ -680,4 +685,5 @@ done
 (
 )
 ;
+}
 }
