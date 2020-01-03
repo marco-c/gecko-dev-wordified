@@ -8145,16 +8145,6 @@ InputContextAction
 aAction
 )
 {
-/
-/
-XXX
-This
-should
-set
-mInputContext
-.
-mNativeIMEContext
-properly
 mInputContext
 =
 aContext
@@ -8321,6 +8311,8 @@ OnFocusChange
 true
 this
 mInputContext
+.
+mIMEState
 )
 ;
 case
@@ -8335,6 +8327,8 @@ OnFocusChange
 false
 this
 mInputContext
+.
+mIMEState
 )
 ;
 case

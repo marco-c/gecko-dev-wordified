@@ -1072,6 +1072,8 @@ aWindow
 GetInputContext
 (
 )
+.
+mIMEState
 )
 ;
 case
@@ -1091,6 +1093,8 @@ aWindow
 GetInputContext
 (
 )
+.
+mIMEState
 )
 ;
 case
@@ -1284,6 +1288,8 @@ aWindow
 GetInputContext
 (
 )
+.
+mIMEState
 )
 ;
 }
@@ -1698,7 +1704,7 @@ mNativeIMEContext
 nsTextStore
 :
 :
-GetThreadManager
+GetTextStore
 (
 )
 ;
@@ -2059,7 +2065,7 @@ mNativeIMEContext
 nsTextStore
 :
 :
-GetThreadManager
+GetTextStore
 (
 )
 ;
