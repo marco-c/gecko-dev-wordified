@@ -568,6 +568,12 @@ device
 context
 if
 (
+displayId
+!
+=
+EGL_DEFAULT_DISPLAY
+&
+&
 WindowFromDC
 (
 displayId
