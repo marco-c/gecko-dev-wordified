@@ -310,6 +310,9 @@ PACKAGE_VERSION
 )
 :
                     
+try
+:
+                        
 minus_version
 =
 StrictVersion
@@ -333,6 +336,12 @@ strip
 '
 )
 )
+                    
+except
+ValueError
+:
+                        
+pass
                 
 elif
 line
@@ -346,6 +355,9 @@ PACKAGE_VERSION
 )
 :
                     
+try
+:
+                        
 plus_version
 =
 StrictVersion
@@ -369,6 +381,12 @@ strip
 '
 )
 )
+                    
+except
+ValueError
+:
+                        
+break
                     
 #
 make
