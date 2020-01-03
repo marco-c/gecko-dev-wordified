@@ -1771,6 +1771,12 @@ GenerateKeyPair
 (
 )
 ;
+TestKeyPair
+*
+GenerateDSSKeyPair
+(
+)
+;
 inline
 void
 DeleteTestKeyPair
