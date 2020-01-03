@@ -171,7 +171,7 @@ AddPropertyTester
 "
 0
 AddProperty
-nullptr
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -189,6 +189,9 @@ JS_StrictPropertyStub
 setProperty
 *
 /
+JS_EnumerateStub
+JS_ResolveStub
+JS_ConvertStub
 }
 ;
 BEGIN_TEST

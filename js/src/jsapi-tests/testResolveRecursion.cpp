@@ -157,11 +157,11 @@ my_resolve_class
 MyResolve
 "
 JSCLASS_HAS_PRIVATE
-nullptr
+JS_PropertyStub
 /
 /
 add
-nullptr
+JS_DeletePropertyStub
 /
 /
 delete
@@ -173,8 +173,9 @@ JS_StrictPropertyStub
 /
 /
 set
-nullptr
+JS_EnumerateStub
 my_resolve
+JS_ConvertStub
 }
 ;
 obj1

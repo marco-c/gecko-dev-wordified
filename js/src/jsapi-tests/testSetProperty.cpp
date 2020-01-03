@@ -553,7 +553,6 @@ t
 .
 MOZ_ASSERT
 (
-!
 JS_GetClass
 (
 global
@@ -561,6 +560,10 @@ global
 -
 >
 resolve
+=
+=
+&
+JS_ResolveStub
 )
 ;
 CHECK

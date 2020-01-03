@@ -2072,10 +2072,6 @@ receiver
 id
 )
 ;
-if
-(
-op
-)
 return
 op
 (
@@ -2084,14 +2080,6 @@ receiver
 id
 succeeded
 )
-;
-*
-succeeded
-=
-true
-;
-return
-true
 ;
 }
 inline

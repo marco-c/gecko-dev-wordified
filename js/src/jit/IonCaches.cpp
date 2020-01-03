@@ -17653,6 +17653,9 @@ If
 object
 has
 a
+non
+-
+default
 resolve
 hook
 don
@@ -17670,6 +17673,9 @@ getClass
 -
 >
 resolve
+!
+=
+JS_ResolveStub
 )
 return
 false
@@ -17678,7 +17684,10 @@ false
 /
 Likewise
 for
-an
+a
+non
+-
+default
 addProperty
 hook
 since
@@ -17686,6 +17695,8 @@ we
 '
 ll
 need
+/
+/
 to
 invoke
 it
@@ -17701,6 +17712,9 @@ getClass
 -
 >
 addProperty
+!
+=
+JS_PropertyStub
 )
 return
 false
@@ -17906,6 +17920,9 @@ getClass
 -
 >
 resolve
+!
+=
+JS_ResolveStub
 )
 return
 false

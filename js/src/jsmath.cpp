@@ -510,13 +510,13 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Math
 )
-nullptr
+JS_PropertyStub
 /
 *
 addProperty
 *
 /
-nullptr
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -534,6 +534,9 @@ JS_StrictPropertyStub
 setProperty
 *
 /
+JS_EnumerateStub
+JS_ResolveStub
+JS_ConvertStub
 }
 ;
 bool
