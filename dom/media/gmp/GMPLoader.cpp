@@ -1121,12 +1121,6 @@ aOriginSaltLen
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_GMP_SANDBOX
-)
 /
 /
 Start
@@ -1183,8 +1177,6 @@ aLibPath
 )
 ;
 }
-#
-endif
 /
 /
 Load
