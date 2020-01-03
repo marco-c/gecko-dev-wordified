@@ -314,6 +314,16 @@ osLocale
 appLocale
 .
 *
+4
+:
+Add
+experiments
+as
+add
+-
+ons
+.
+*
 /
 public
 static
@@ -321,7 +331,7 @@ final
 int
 FORMAT_VERSION
 =
-3
+4
 ;
 protected
 boolean
