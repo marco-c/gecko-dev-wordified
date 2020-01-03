@@ -593,6 +593,22 @@ respectively
 '
 arguments
 '
+        
+#
+Argument
+groups
+added
+to
+this
+command
+'
+s
+parser
+.
+        
+'
+argument_group_names
+'
     
 )
     
@@ -617,6 +633,10 @@ parser
 =
 None
 arguments
+=
+None
+        
+argument_group_names
 =
 None
 pass_context
@@ -675,6 +695,15 @@ self
 arguments
 =
 arguments
+or
+[
+]
+        
+self
+.
+argument_group_names
+=
+argument_group_names
 or
 [
 ]
