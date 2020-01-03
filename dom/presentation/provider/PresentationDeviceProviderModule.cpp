@@ -234,6 +234,9 @@ kPresentationDeviceProviderCategories
 {
 #
 if
+0
+/
+/
 defined
 (
 MOZ_WIDGET_GONK
