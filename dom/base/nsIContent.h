@@ -6444,6 +6444,14 @@ content
 IsSVGElement
 (
 )
+|
+|
+content
+-
+>
+IsXULElement
+(
+)
 )
 )
 {
