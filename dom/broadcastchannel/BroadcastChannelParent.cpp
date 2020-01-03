@@ -174,6 +174,8 @@ const
 nsAString
 &
 aChannel
+bool
+aPrivateBrowsing
 )
 :
 mService
@@ -192,6 +194,10 @@ aOrigin
 mChannel
 (
 aChannel
+)
+mPrivateBrowsing
+(
+aPrivateBrowsing
 )
 {
 AssertIsOnBackgroundThread
@@ -258,6 +264,7 @@ this
 aData
 mOrigin
 mChannel
+mPrivateBrowsing
 )
 ;
 return
@@ -381,6 +388,8 @@ const
 nsString
 &
 aChannel
+bool
+aPrivateBrowsing
 )
 {
 AssertIsOnBackgroundThread
@@ -399,6 +408,12 @@ aChannel
 =
 =
 mChannel
+&
+&
+aPrivateBrowsing
+=
+=
+mPrivateBrowsing
 )
 {
 /
