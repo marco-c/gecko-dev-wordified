@@ -1192,7 +1192,7 @@ nsHTMLReflowState
 aReflowState
 const
 FlexItem
-*
+&
 aItem
 mozilla
 :
