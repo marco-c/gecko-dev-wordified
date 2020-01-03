@@ -4772,14 +4772,6 @@ sDoNotReturnNoLayoutErrorToMSJapaneseIMEAtCaret
 ;
 static
 bool
-sDoNotReturnNoLayoutErrorToGoogleJaInputAtFirstChar
-;
-static
-bool
-sDoNotReturnNoLayoutErrorToGoogleJaInputAtCaret
-;
-static
-bool
 sHackQueryInsertForMSSimplifiedTIP
 ;
 static
