@@ -26065,7 +26065,10 @@ const
 char
 *
 location
+Maybe
+<
 unsigned
+>
 lineno
 )
 override
@@ -26192,9 +26195,10 @@ buf
 if
 (
 lineno
-!
-=
-UINT32_MAX
+.
+isSome
+(
+)
 )
 Sprint
 (
@@ -26209,6 +26213,7 @@ line
 %
 u
 "
+*
 lineno
 )
 ;

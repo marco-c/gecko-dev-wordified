@@ -1256,7 +1256,9 @@ function
 Otherwise
 it
 is
-UINT32_MAX
+Nothing
+(
+)
 .
 /
 /
@@ -1295,7 +1297,13 @@ const
 char
 *
 location
+mozilla
+:
+:
+Maybe
+<
 unsigned
+>
 lineno
 )
 =

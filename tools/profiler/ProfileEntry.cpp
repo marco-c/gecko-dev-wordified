@@ -1474,7 +1474,10 @@ const
 char
 *
 location
+Maybe
+<
 unsigned
+>
 lineno
 )
 override
@@ -1562,9 +1565,10 @@ location
 if
 (
 lineno
-!
-=
-UINT32_MAX
+.
+isSome
+(
+)
 )
 {
 mWriter
@@ -1574,6 +1578,7 @@ NameValue
 "
 line
 "
+*
 lineno
 )
 ;
