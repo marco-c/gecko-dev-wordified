@@ -15286,6 +15286,8 @@ MediaDecoderStateMachine
 :
 OnSeekCompleted
 (
+int64_t
+aTime
 )
 {
 ReentrantMonitorAutoEnter

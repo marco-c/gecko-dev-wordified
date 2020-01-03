@@ -4058,6 +4058,8 @@ MediaSourceReader
 :
 OnSeekCompleted
 (
+int64_t
+aTime
 )
 {
 mPendingSeeks
@@ -4172,7 +4174,7 @@ mSeekPromise
 .
 Resolve
 (
-true
+mPendingSeekTime
 __func__
 )
 ;

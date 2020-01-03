@@ -2859,6 +2859,8 @@ aReason
 void
 OnSeekCompleted
 (
+int64_t
+aTime
 )
 ;
 void

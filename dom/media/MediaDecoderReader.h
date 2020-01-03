@@ -351,7 +351,7 @@ VideoDataPromise
 typedef
 MediaPromise
 <
-bool
+int64_t
 nsresult
 >
 SeekPromise

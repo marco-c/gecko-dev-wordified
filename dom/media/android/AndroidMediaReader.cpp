@@ -2466,7 +2466,7 @@ SeekPromise
 :
 CreateAndResolve
 (
-true
+mAudioSeekTimeUs
 __func__
 )
 ;
