@@ -82,6 +82,8 @@ re
 import
 shutil
 import
+signal
+import
 subprocess
 import
 sys
