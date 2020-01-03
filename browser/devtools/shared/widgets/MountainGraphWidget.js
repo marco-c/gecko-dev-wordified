@@ -103,7 +103,7 @@ ddd
 const
 GRAPH_STROKE_WIDTH
 =
-2
+1
 ;
 /
 /
@@ -820,6 +820,8 @@ length
 let
 firstTick
 =
+totalTicks
+?
 this
 .
 _data
@@ -828,10 +830,14 @@ _data
 ]
 .
 delta
+:
+0
 ;
 let
 lastTick
 =
+totalTicks
+?
 this
 .
 _data
@@ -842,6 +848,8 @@ totalTicks
 ]
 .
 delta
+:
+0
 ;
 let
 duration

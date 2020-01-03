@@ -229,6 +229,12 @@ container
 =
 null
 ;
+this
+.
+threadNode
+=
+null
+;
 DetailsSubview
 .
 destroy
@@ -372,6 +378,10 @@ threadNode
 =
 this
 .
+threadNode
+=
+this
+.
 _prepareCallTree
 (
 profile
@@ -505,6 +515,9 @@ OptimizationsListView
 .
 setCurrentFrame
 (
+this
+.
+threadNode
 treeItem
 .
 frame
