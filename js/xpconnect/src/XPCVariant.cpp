@@ -4543,12 +4543,10 @@ retval
 )
 {
 return
-nsVariant
-:
-:
+mData
+.
 ConvertToID
 (
-mData
 retval
 )
 ;
