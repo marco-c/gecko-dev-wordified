@@ -5423,9 +5423,9 @@ aError
 void
 Scroll
 (
-int32_t
+double
 aXScroll
-int32_t
+double
 aYScroll
 const
 mozilla
@@ -5442,9 +5442,9 @@ aOptions
 void
 ScrollTo
 (
-int32_t
+double
 aXScroll
-int32_t
+double
 aYScroll
 const
 mozilla
@@ -5461,9 +5461,9 @@ aOptions
 void
 ScrollBy
 (
-int32_t
+double
 aXScrollDif
-int32_t
+double
 aYScrollDif
 const
 mozilla
