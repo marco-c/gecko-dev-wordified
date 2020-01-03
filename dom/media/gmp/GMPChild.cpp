@@ -2483,9 +2483,15 @@ if
 mozilla
 :
 :
-CanSandboxMediaPlugin
+MediaPluginSandboxStatus
 (
 )
+!
+=
+mozilla
+:
+:
+kSandboxingWouldFail
 )
 {
 mozilla

@@ -2793,13 +2793,15 @@ MOZ_GMP_SANDBOX
 )
 if
 (
-!
 mozilla
 :
 :
-CanSandboxMediaPlugin
+MediaPluginSandboxStatus
 (
 )
+=
+=
+kSandboxingWouldFail
 )
 {
 NS_WARNING

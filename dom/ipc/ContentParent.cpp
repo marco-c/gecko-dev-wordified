@@ -3940,10 +3940,12 @@ RecvSetProcessSandbox
 .
 if
 (
-!
-CanSandboxContentProcess
+ContentProcessSandboxStatus
 (
 )
+=
+=
+kSandboxingWouldFail
 )
 {
 /
