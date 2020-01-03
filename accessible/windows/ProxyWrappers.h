@@ -185,6 +185,8 @@ HyperTextProxyAccessibleWrap
 public
 HyperTextAccessibleWrap
 {
+public
+:
 HyperTextProxyAccessibleWrap
 (
 ProxyAccessible
