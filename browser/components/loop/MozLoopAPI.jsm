@@ -4864,7 +4864,7 @@ histogram
 *
 param
 {
-string
+String
 }
 histogramId
 Name
@@ -4878,7 +4878,7 @@ update
 *
 param
 {
-string
+String
 }
 value
 Label
@@ -4892,7 +4892,7 @@ histogram
 .
 *
 /
-telemetryAddKeyedValue
+telemetryAddValue
 :
 {
 enumerable
@@ -4913,7 +4913,7 @@ Services
 .
 telemetry
 .
-getKeyedHistogramById
+getHistogramById
 (
 histogramId
 )
