@@ -8570,7 +8570,7 @@ layer
 tree
 and
 paint
-ThebesLayers
+PaintedLayers
 .
 If
 this
@@ -8590,7 +8590,7 @@ the
 layer
 tree
 lost
-ThebesLayer
+PaintedLayer
 contents
 *
 we

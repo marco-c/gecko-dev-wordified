@@ -238,7 +238,7 @@ aTexture
 surface
 in
 the
-ThebesLayer
+PaintedLayer
 *
 coordinate
 system

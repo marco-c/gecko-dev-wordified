@@ -3186,7 +3186,7 @@ roots
 are
 in
 different
-ThebesLayers
+PaintedLayers
 *
 so
 that

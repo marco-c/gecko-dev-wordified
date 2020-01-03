@@ -1769,7 +1769,7 @@ as
 part
 of
 a
-ThebesLayer
+PaintedLayer
 .
 FRAME_STATE_BIT
 (

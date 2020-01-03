@@ -103,14 +103,14 @@ h
 #
 include
 "
-ThebesLayerComposite
+PaintedLayerComposite
 .
 h
 "
 /
 /
 for
-ThebesLayerComposite
+PaintedLayerComposite
 #
 include
 "

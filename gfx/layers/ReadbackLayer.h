@@ -751,7 +751,7 @@ was
 drawn
 into
 a
-ThebesLayer
+PaintedLayer
 (
 gfxContext
 would
@@ -771,7 +771,7 @@ again
 when
 compositing
 the
-ThebesLayer
+PaintedLayer
 )
 .
 mEffectiveTransform
@@ -1066,9 +1066,9 @@ nullptr
 ;
 }
 void
-NotifyThebesLayerRemoved
+NotifyPaintedLayerRemoved
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 )
@@ -1259,10 +1259,10 @@ any
 earlier
 )
 sibling
-ThebesLayer
+PaintedLayer
 .
 That
-ThebesLayer
+PaintedLayer
 /
 /
 must
@@ -1274,7 +1274,7 @@ it
 .
 If
 the
-ThebesLayer
+PaintedLayer
 is
 removed
 /
@@ -1289,12 +1289,12 @@ set
 to
 null
 by
-NotifyThebesLayerRemoved
+NotifyPaintedLayerRemoved
 .
 /
 /
 This
-ThebesLayer
+PaintedLayer
 contains
 the
 contents
@@ -1309,7 +1309,7 @@ to
 mSink
 .
 The
-ThebesLayer
+PaintedLayer
 had
 only
 an
@@ -1338,7 +1338,7 @@ integer
 translation
 transform
 .
-ThebesLayer
+PaintedLayer
 *
 mBackgroundLayer
 ;

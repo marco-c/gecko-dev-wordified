@@ -2123,7 +2123,7 @@ It
 s
 a
 fancy
-ThebesLayer
+PaintedLayer
 feature
 used
 for

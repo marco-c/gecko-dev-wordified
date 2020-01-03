@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-GFX_ThebesLayerComposite_H
+GFX_PaintedLayerComposite_H
 #
 define
-GFX_ThebesLayerComposite_H
+GFX_PaintedLayerComposite_H
 #
 include
 "
@@ -247,7 +247,7 @@ By
 using
 different
 ContentHosts
-ThebesLayerComposite
+PaintedLayerComposite
 support
 tiled
 and
@@ -275,17 +275,17 @@ class
 TiledLayerComposer
 ;
 class
-ThebesLayerComposite
+PaintedLayerComposite
 :
 public
-ThebesLayer
+PaintedLayer
 public
 LayerComposite
 {
 public
 :
 explicit
-ThebesLayerComposite
+PaintedLayerComposite
 (
 LayerManagerComposite
 *
@@ -296,7 +296,7 @@ protected
 :
 virtual
 ~
-ThebesLayerComposite
+PaintedLayerComposite
 (
 )
 ;
@@ -409,7 +409,7 @@ aRegion
 NS_RUNTIMEABORT
 (
 "
-ThebesLayerComposites
+PaintedLayerComposites
 can
 '
 t
@@ -460,7 +460,7 @@ Mutated
 MOZ_LAYER_DECL_NAME
 (
 "
-ThebesLayerComposite
+PaintedLayerComposite
 "
 TYPE_THEBES
 )
@@ -529,6 +529,6 @@ mozilla
 endif
 /
 *
-GFX_ThebesLayerComposite_H
+GFX_PaintedLayerComposite_H
 *
 /

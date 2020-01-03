@@ -442,7 +442,7 @@ class
 SurfaceDescriptor
 ;
 class
-ThebesLayerComposite
+PaintedLayerComposite
 ;
 class
 TiledLayerComposer
@@ -743,7 +743,7 @@ virtual
 void
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -842,9 +842,9 @@ MOZ_OVERRIDE
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 MOZ_OVERRIDE
@@ -891,9 +891,9 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-ThebesLayerComposite
+PaintedLayerComposite
 >
-CreateThebesLayerComposite
+CreatePaintedLayerComposite
 (
 )
 ;

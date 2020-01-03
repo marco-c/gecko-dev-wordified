@@ -133,7 +133,7 @@ h
 #
 include
 "
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 h
 "
@@ -236,17 +236,17 @@ mozilla
 :
 gfx
 ;
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
-ThebesLayerD3D10
+PaintedLayerD3D10
 (
 LayerManagerD3D10
 *
 aManager
 )
 :
-ThebesLayer
+PaintedLayer
 (
 aManager
 nullptr
@@ -275,17 +275,17 @@ this
 )
 ;
 }
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 ~
-ThebesLayerD3D10
+PaintedLayerD3D10
 (
 )
 {
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 InvalidateRegion
@@ -321,7 +321,7 @@ mInvalidRegion
 ;
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 CopyRegion
@@ -528,7 +528,7 @@ retainedRegion
 ;
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 RenderLayer
@@ -927,7 +927,7 @@ ShaderConstantRectD3D10
 ;
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 Validate
@@ -1262,7 +1262,7 @@ UsedForReadback
 aReadback
 -
 >
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 (
 this
 &
@@ -1648,7 +1648,7 @@ never
 need
 to
 update
-ThebesLayers
+PaintedLayers
 in
 an
 empty
@@ -1734,7 +1734,7 @@ ReportFailure
 NS_LITERAL_CSTRING
 (
 "
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 Validate
@@ -1820,7 +1820,7 @@ neededRegion
 }
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 LayerManagerDestroyed
@@ -1834,7 +1834,7 @@ nullptr
 }
 Layer
 *
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 GetLayer
@@ -1846,7 +1846,7 @@ this
 ;
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 VerifyContentType
@@ -1919,7 +1919,7 @@ to
 create
 drawtarget
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 "
 )
@@ -1983,7 +1983,7 @@ SetEmpty
 }
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 FillTexturesBlackWhite
@@ -2438,7 +2438,7 @@ oldScissor
 }
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 DrawRegion
@@ -2646,7 +2646,7 @@ CallbackData
 ;
 }
 void
-ThebesLayerD3D10
+PaintedLayerD3D10
 :
 :
 CreateNewTextures
@@ -2761,7 +2761,7 @@ create
 new
 texture
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 !
 "
 )
@@ -2804,7 +2804,7 @@ shader
 resource
 view
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 "
 )
@@ -2865,7 +2865,7 @@ create
 new
 texture
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 !
 "
 )
@@ -2908,7 +2908,7 @@ shader
 resource
 view
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 "
 )
@@ -2996,7 +2996,7 @@ to
 create
 DrawTarget
 for
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 "
 )

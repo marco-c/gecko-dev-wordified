@@ -8579,7 +8579,7 @@ manager
 drawing
 into
 the
-ThebesLayers
+PaintedLayers
 .
 *
 /
@@ -9491,7 +9491,7 @@ EndTransaction
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 aBuilder
 flags
 )
@@ -20480,7 +20480,7 @@ in
 the
 same
 *
-ThebesLayer
+PaintedLayer
 -
 -
 -

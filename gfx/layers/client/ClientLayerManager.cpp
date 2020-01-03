@@ -1302,7 +1302,7 @@ the
 entire
 buffer
 of
-thebes
+painted
 layers
 might
 be
@@ -1485,7 +1485,7 @@ ClientLayerManager
 :
 EndTransactionInternal
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1608,11 +1608,11 @@ ApplyPendingUpdatesToSubtree
 (
 )
 ;
-mThebesLayerCallback
+mPaintedLayerCallback
 =
 aCallback
 ;
-mThebesLayerCallbackData
+mPaintedLayerCallbackData
 =
 aCallbackData
 ;
@@ -1666,11 +1666,11 @@ Mutated
 )
 ;
 }
-mThebesLayerCallback
+mPaintedLayerCallback
 =
 nullptr
 ;
-mThebesLayerCallbackData
+mPaintedLayerCallbackData
 =
 nullptr
 ;
@@ -1768,7 +1768,7 @@ ClientLayerManager
 :
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *

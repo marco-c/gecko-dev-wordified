@@ -149,7 +149,7 @@ h
 #
 include
 "
-ThebesLayerD3D9
+PaintedLayerD3D9
 .
 h
 "

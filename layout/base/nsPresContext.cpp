@@ -5250,7 +5250,7 @@ void
 nsPresContext
 :
 :
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 {
@@ -5308,7 +5308,7 @@ so
 ensure
 that
 all
-ThebesLayer
+PaintedLayer
 drawing
 /
 /
@@ -5333,7 +5333,7 @@ AppUnitsPerDevPixelChanged
 (
 )
 {
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 ;
@@ -5965,7 +5965,7 @@ true
 )
 ;
 }
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 ;

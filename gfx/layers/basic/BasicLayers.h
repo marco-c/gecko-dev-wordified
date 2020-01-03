@@ -323,7 +323,7 @@ the
 drawing
 phase
 each
-ThebesLayer
+PaintedLayer
 is
 painted
 directly
@@ -394,7 +394,7 @@ rendering
 to
 happen
 .
-ThebesLayers
+PaintedLayers
 will
 not
 *
@@ -439,7 +439,7 @@ rendering
 to
 happen
 .
-ThebesLayers
+PaintedLayers
 will
 be
 *
@@ -457,14 +457,14 @@ visible
 contents
 of
 *
-ThebesLayers
+PaintedLayers
 as
 cairo
 surfaces
 .
 We
 create
-ThebesLayer
+PaintedLayer
 buffers
 by
 *
@@ -767,7 +767,7 @@ virtual
 void
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -807,9 +807,9 @@ aLayer
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 ;
@@ -1241,7 +1241,7 @@ aTarget
 Layer
 *
 aLayer
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1267,7 +1267,7 @@ aLayer
 bool
 EndTransactionInternal
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1298,7 +1298,7 @@ as
 the
 basis
 for
-ThebesLayer
+PaintedLayer
 /
 /
 buffers

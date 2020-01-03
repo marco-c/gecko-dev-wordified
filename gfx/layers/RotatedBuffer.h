@@ -277,7 +277,7 @@ class
 TextureClient
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 /
 *
@@ -889,7 +889,7 @@ The
 area
 of
 the
-ThebesLayer
+PaintedLayer
 that
 is
 covered
@@ -1273,7 +1273,7 @@ buffer
 used
 to
 retain
-ThebesLayer
+PaintedLayer
 contents
 *
 i
@@ -1338,7 +1338,7 @@ as
 the
 bounds
 of
-ThebesLayer
+PaintedLayer
 '
 s
 visible
@@ -1836,7 +1836,7 @@ this
 PaintState
 BeginPaint
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -2280,7 +2280,7 @@ aTarget
 void
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfx

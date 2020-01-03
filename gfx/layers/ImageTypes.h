@@ -266,7 +266,7 @@ useful
 even
 though
 a
-ThebesLayer
+PaintedLayer
 could
 be
 used

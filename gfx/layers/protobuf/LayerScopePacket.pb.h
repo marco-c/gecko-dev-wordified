@@ -242,7 +242,7 @@ LayersPacket_Layer_LayerType_LayerManager
 LayersPacket_Layer_LayerType_ContainerLayer
 =
 2
-LayersPacket_Layer_LayerType_ThebesLayer
+LayersPacket_Layer_LayerType_PaintedLayer
 =
 3
 LayersPacket_Layer_LayerType_CanvasLayer
@@ -7466,9 +7466,9 @@ LayersPacket_Layer_LayerType_ContainerLayer
 static
 const
 LayerType
-ThebesLayer
+PaintedLayer
 =
-LayersPacket_Layer_LayerType_ThebesLayer
+LayersPacket_Layer_LayerType_PaintedLayer
 ;
 static
 const

@@ -636,7 +636,7 @@ They
 may
 just
 be
-ThebesLayers
+PaintedLayers
 or
 ColorLayers
 for

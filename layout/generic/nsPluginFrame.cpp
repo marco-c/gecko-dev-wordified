@@ -6189,7 +6189,7 @@ paint
 /
 /
 in
-ThebesLayers
+PaintedLayers
 there
 .
 return

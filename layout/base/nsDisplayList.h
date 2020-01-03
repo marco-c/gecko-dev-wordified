@@ -7327,7 +7327,7 @@ the
 layer
 into
 a
-ThebesLayer
+PaintedLayer
 with
 other
 content
@@ -7425,7 +7425,7 @@ collapsed
 onto
 a
 single
-ThebesLayer
+PaintedLayer
 .
 *
 Return
@@ -7628,7 +7628,7 @@ via
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 .
 *
 /
@@ -9272,8 +9272,8 @@ mozilla
 layers
 :
 :
-ThebesLayer
-ThebesLayer
+PaintedLayer
+PaintedLayer
 ;
 /
 *
@@ -10387,7 +10387,7 @@ see
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 )
 .
 *
@@ -15972,7 +15972,7 @@ its
 regions
 to
 the
-ThebesLayer
+PaintedLayer
 it
 is
 placed
@@ -16027,7 +16027,7 @@ leaf
 layers
 other
 than
-ThebesLayers
+PaintedLayers
 transparent
 to
 events
@@ -16056,7 +16056,7 @@ is
 logically
 in
 the
-ThebesLayer
+PaintedLayer
 behind
 the
 *
@@ -18153,7 +18153,7 @@ layer
 so
 call
 *
-ComputeFrameMetrics
+RecordFrameMetrics
 etc
 .
 *

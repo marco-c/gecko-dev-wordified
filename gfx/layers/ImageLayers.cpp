@@ -400,7 +400,7 @@ was
 drawn
 into
 a
-ThebesLayer
+PaintedLayer
 (
 gfxContext
 would
@@ -420,7 +420,7 @@ again
 when
 compositing
 the
-ThebesLayer
+PaintedLayer
 )
 .
 mEffectiveTransform

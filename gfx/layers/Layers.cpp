@@ -7116,14 +7116,14 @@ Layer
 aLayer
 )
 {
-ThebesLayer
+PaintedLayer
 *
 tl
 =
 aLayer
 -
 >
-AsThebesLayer
+AsPaintedLayer
 (
 )
 ;
@@ -7183,7 +7183,7 @@ l
 )
 -
 >
-NotifyThebesLayerRemoved
+NotifyPaintedLayerRemoved
 (
 tl
 )
@@ -10570,7 +10570,7 @@ get
 }
 }
 void
-ThebesLayer
+PaintedLayer
 :
 :
 PrintInfo
@@ -10623,7 +10623,7 @@ valid
 }
 }
 void
-ThebesLayer
+PaintedLayer
 :
 :
 DumpPacket
@@ -10692,7 +10692,7 @@ LayersPacket
 Layer
 :
 :
-ThebesLayer
+PaintedLayer
 )
 ;
 if

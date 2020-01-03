@@ -378,7 +378,7 @@ class
 BasicLayerManager
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 /
 *
@@ -439,7 +439,7 @@ rendering
 so
 that
 *
-BasicThebesLayer
+BasicPaintedLayer
 has
 only
 one
@@ -495,7 +495,7 @@ is
 used
 by
 the
-BasicThebesLayer
+BasicPaintedLayer
 *
 methods
 -
@@ -837,7 +837,7 @@ RotatedContentBuffer
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -1084,7 +1084,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -1162,7 +1162,7 @@ aReturned
 void
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfx
@@ -1502,7 +1502,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -2582,7 +2582,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t

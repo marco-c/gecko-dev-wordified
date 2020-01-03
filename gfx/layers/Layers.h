@@ -637,7 +637,7 @@ class
 LayerMetricsWrapper
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 class
 ContainerLayer
@@ -1203,7 +1203,7 @@ phase
 )
 Drawing
 :
-ThebesLayers
+PaintedLayers
 are
 rendered
 into
@@ -1223,7 +1223,7 @@ finished
 drawing
 into
 the
-ThebesLayers
+PaintedLayers
 it
 should
 *
@@ -1655,7 +1655,7 @@ not
 composite
 after
 drawing
-thebes
+painted
 layer
 contents
 .
@@ -1743,7 +1743,7 @@ this
 to
 fail
 ;
-ThebesLayers
+PaintedLayers
 may
 need
 to
@@ -1808,7 +1808,7 @@ the
 contents
 of
 each
-ThebesLayer
+PaintedLayer
 .
 *
 aRegionToDraw
@@ -1872,7 +1872,7 @@ to
 0
 in
 the
-ThebesLayer
+PaintedLayer
 .
 *
 *
@@ -1948,7 +1948,7 @@ to
 0
 in
 the
-ThebesLayer
+PaintedLayer
 .
 *
 aRegionToInvalidate
@@ -2028,7 +2028,7 @@ is
 0
 in
 the
-ThebesLayer
+PaintedLayer
 .
 *
 /
@@ -2036,10 +2036,10 @@ typedef
 void
 (
 *
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 )
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfxContext
@@ -2087,7 +2087,7 @@ the
 drawing
 phase
 all
-ThebesLayers
+PaintedLayers
 in
 the
 tree
@@ -2122,7 +2122,7 @@ virtual
 void
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -2669,7 +2669,7 @@ content
 *
 /
 enum
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 {
 NONE
 SCROLLABLE
@@ -2688,7 +2688,7 @@ optimized
 for
 the
 given
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 .
 *
 /
@@ -2696,10 +2696,10 @@ virtual
 bool
 IsOptimizedFor
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 aCreationHint
 )
 {
@@ -2717,7 +2717,7 @@ ONLY
 *
 Create
 a
-ThebesLayer
+PaintedLayer
 for
 this
 manager
@@ -2731,9 +2731,9 @@ tree
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 =
@@ -2749,7 +2749,7 @@ ONLY
 *
 Create
 a
-ThebesLayer
+PaintedLayer
 for
 this
 manager
@@ -2777,15 +2777,15 @@ created
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayerWithHint
+CreatePaintedLayerWithHint
 (
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 )
 {
 return
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 ;
@@ -5202,7 +5202,7 @@ visible
 region
 of
 the
-ThebesLayer
+PaintedLayer
 .
 This
 enables
@@ -9134,14 +9134,14 @@ is
 not
 *
 a
-ThebesLayer
+PaintedLayer
 .
 *
 /
 virtual
-ThebesLayer
+PaintedLayer
 *
-AsThebesLayer
+AsPaintedLayer
 (
 )
 {
@@ -11414,7 +11414,7 @@ infinite
 surface
 but
 each
-ThebesLayer
+PaintedLayer
 has
 an
 associated
@@ -11434,7 +11434,7 @@ which
 is
 finite
 .
-ThebesLayer
+PaintedLayer
 *
 implementations
 can
@@ -11445,7 +11445,7 @@ paints
 .
 *
 *
-ThebesLayers
+PaintedLayers
 are
 rendered
 into
@@ -11464,7 +11464,7 @@ the
 contents
 of
 a
-ThebesLayer
+PaintedLayer
 are
 in
 the
@@ -11477,7 +11477,7 @@ space
 *
 /
 class
-ThebesLayer
+PaintedLayer
 :
 public
 Layer
@@ -11575,7 +11575,7 @@ ideal
 transform
 for
 this
-ThebesLayer
+PaintedLayer
 .
 *
 When
@@ -11678,9 +11678,9 @@ mValidRegion
 ;
 }
 virtual
-ThebesLayer
+PaintedLayer
 *
-AsThebesLayer
+AsPaintedLayer
 (
 )
 {
@@ -11691,7 +11691,7 @@ this
 MOZ_LAYER_DECL_NAME
 (
 "
-ThebesLayer
+PaintedLayer
 "
 TYPE_THEBES
 )
@@ -11883,7 +11883,7 @@ aTransformToSurface
 LayerManager
 :
 :
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 GetCreationHint
 (
 )
@@ -11931,7 +11931,7 @@ drawing
 *
 into
 the
-ThebesLayer
+PaintedLayer
 so
 that
 when
@@ -12014,7 +12014,7 @@ mResidualTranslation
 }
 protected
 :
-ThebesLayer
+PaintedLayer
 (
 LayerManager
 *
@@ -12025,7 +12025,7 @@ aImplData
 LayerManager
 :
 :
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 aCreationHint
 =
 LayerManager
@@ -12159,7 +12159,7 @@ const
 LayerManager
 :
 :
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 mCreationHint
 ;
 /
@@ -12169,7 +12169,7 @@ mCreationHint
 Set
 when
 this
-ThebesLayer
+PaintedLayer
 is
 participating
 in
@@ -14270,7 +14270,7 @@ was
 drawn
 into
 a
-ThebesLayer
+PaintedLayer
 (
 gfxContext
 would
@@ -14290,7 +14290,7 @@ again
 when
 compositing
 the
-ThebesLayer
+PaintedLayer
 )
 .
 mEffectiveTransform

@@ -14183,7 +14183,7 @@ currentLayerVal
 Convert
 back
 from
-ThebesLayer
+PaintedLayer
 space
 to
 appunits
@@ -14805,7 +14805,7 @@ content
 to
 its
 own
-ThebesLayer
+PaintedLayer
 .
 gfxSize
 scale
@@ -14813,7 +14813,7 @@ scale
 FrameLayerBuilder
 :
 :
-GetThebesLayerScaleForFrame
+GetPaintedLayerScaleForFrame
 (
 mScrolledFrame
 )
@@ -14896,7 +14896,7 @@ actually
 draw
 into
 a
-ThebesLayer
+PaintedLayer
 the
 coordinates
 /
@@ -18371,7 +18371,7 @@ layer
 to
 make
 a
-ComputeFrameMetrics
+RecordFrameMetrics
 call
 for
 us
@@ -18384,7 +18384,7 @@ nsDisplayList
 PaintForFrame
 already
 calls
-ComputeFrameMetrics
+RecordFrameMetrics
 for
 us
 .

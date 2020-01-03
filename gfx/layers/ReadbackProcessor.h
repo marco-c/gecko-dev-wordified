@@ -145,7 +145,7 @@ class
 ReadbackLayer
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 class
 ReadbackProcessor
@@ -193,7 +193,7 @@ other
 than
 ColorLayers
 and
-ThebesLayers
+PaintedLayers
 )
 .
 *
@@ -220,7 +220,7 @@ that
 *
 if
 a
-ThebesLayer
+PaintedLayer
 needs
 its
 contents
@@ -239,11 +239,11 @@ internally
 and
 later
 the
-ThebesLayer
+PaintedLayer
 should
 call
 *
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 when
 it
 paints
@@ -287,7 +287,7 @@ Update
 The
 layer
 a
-ThebesLayer
+PaintedLayer
 should
 send
 its
@@ -314,7 +314,7 @@ should
 send
 in
 the
-ThebesLayer
+PaintedLayer
 '
 s
 *
@@ -329,7 +329,7 @@ to
 be
 in
 the
-ThebesLayer
+PaintedLayer
 '
 s
 *
@@ -409,7 +409,7 @@ to
 call
 this
 for
-ThebesLayers
+PaintedLayers
 *
 that
 have
@@ -438,12 +438,12 @@ aLayer
 *
 If
 a
-ThebesLayer
+PaintedLayer
 doesn
 '
 t
 call
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 then
 all
 the
@@ -454,7 +454,7 @@ needed
 data
 from
 that
-ThebesLayer
+PaintedLayer
 will
 be
 marked
@@ -486,9 +486,9 @@ mUpdateRects
 *
 /
 void
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 nsTArray

@@ -173,7 +173,7 @@ h
 /
 /
 for
-ThebesLayer
+PaintedLayer
 Layer
 etc
 #
@@ -1550,7 +1550,7 @@ RotatedContentBuffer
 :
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 DrawTarget
@@ -2899,7 +2899,7 @@ RotatedContentBuffer
 :
 BeginPaint
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t

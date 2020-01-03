@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 .
 h
 "
@@ -265,10 +265,10 @@ mozilla
 namespace
 layers
 {
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 (
 ClientLayerManager
 *
@@ -277,11 +277,11 @@ aManager
 ClientLayerManager
 :
 :
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 aCreationHint
 )
 :
-ThebesLayer
+PaintedLayer
 (
 aManager
 static_cast
@@ -302,7 +302,7 @@ mContentClient
 {
 MOZ_COUNT_CTOR
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 )
 ;
 mPaintData
@@ -322,22 +322,22 @@ mFirstPaint
 true
 ;
 }
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 ~
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 )
 ;
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 ClearCachedResources
@@ -369,7 +369,7 @@ nullptr
 ;
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 FillSpecificAttributes
@@ -381,7 +381,7 @@ aAttrs
 {
 aAttrs
 =
-ThebesLayerAttributes
+PaintedLayerAttributes
 (
 GetValidRegion
 (
@@ -576,7 +576,7 @@ transform
 ;
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 GetAncestorLayers
@@ -719,7 +719,7 @@ displayPortAncestor
 }
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 BeginPaint
@@ -1387,7 +1387,7 @@ c_str
 ;
 }
 bool
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 UseFastPath
@@ -1488,7 +1488,7 @@ IsEmpty
 ;
 }
 bool
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 RenderHighPrecision
@@ -1503,7 +1503,7 @@ aVisibleRegion
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1904,7 +1904,7 @@ true
 ;
 }
 bool
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 RenderLowPrecision
@@ -1919,7 +1919,7 @@ aVisibleRegion
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -2400,7 +2400,7 @@ false
 ;
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 EndPaint
@@ -2444,7 +2444,7 @@ this
 ;
 }
 void
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 :
 :
 RenderLayer
@@ -2454,7 +2454,7 @@ RenderLayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 callback
 =
 ClientManager
@@ -2462,7 +2462,7 @@ ClientManager
 )
 -
 >
-GetThebesLayerCallback
+GetPaintedLayerCallback
 (
 )
 ;
@@ -2475,7 +2475,7 @@ ClientManager
 )
 -
 >
-GetThebesLayerCallbackData
+GetPaintedLayerCallbackData
 (
 )
 ;

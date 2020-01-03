@@ -339,7 +339,7 @@ class
 TextureClient
 ;
 class
-ThebesLayerComposite
+PaintedLayerComposite
 ;
 class
 ThebesBuffer
@@ -1417,7 +1417,7 @@ process
 *
 /
 void
-CreatedThebesLayer
+CreatedPaintedLayer
 (
 ShadowableLayer
 *

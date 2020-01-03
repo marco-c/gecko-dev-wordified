@@ -210,7 +210,7 @@ h
 #
 include
 "
-ClientThebesLayer
+ClientPaintedLayer
 .
 h
 "

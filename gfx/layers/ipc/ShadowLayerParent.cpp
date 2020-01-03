@@ -156,7 +156,7 @@ mozilla
 /
 layers
 /
-ThebesLayerComposite
+PaintedLayerComposite
 .
 h
 "
@@ -546,12 +546,12 @@ get
 nullptr
 ;
 }
-ThebesLayerComposite
+PaintedLayerComposite
 *
 ShadowLayerParent
 :
 :
-AsThebesLayerComposite
+AsPaintedLayerComposite
 (
 )
 const
@@ -575,7 +575,7 @@ TYPE_THEBES
 ?
 static_cast
 <
-ThebesLayerComposite
+PaintedLayerComposite
 *
 >
 (

@@ -148,7 +148,7 @@ class
 LayerD3D9
 ;
 class
-ThebesLayerD3D9
+PaintedLayerD3D9
 ;
 /
 *
@@ -403,7 +403,7 @@ END_DEFAULT
 struct
 CallbackInfo
 {
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 Callback
 ;
 void
@@ -416,7 +416,7 @@ virtual
 void
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -510,9 +510,9 @@ GetMaxTextureSize
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 ;

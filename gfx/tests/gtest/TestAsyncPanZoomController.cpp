@@ -13433,7 +13433,7 @@ Point
 TEST_F
 (
 APZCTreeManagerTester
-ScrollableThebesLayers
+ScrollablePaintedLayers
 )
 {
 CreateSimpleMultiLayerTree

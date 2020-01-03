@@ -252,7 +252,7 @@ BasicContainerLayer
 +
 -
 >
-ThebesLayer
+PaintedLayer
 |
 |
 *
@@ -265,7 +265,7 @@ ThebesLayer
 +
 -
 >
-BasicThebesLayer
+BasicPaintedLayer
 <
 -
 -
@@ -444,7 +444,7 @@ Paint
 but
 called
 for
-ThebesLayers
+PaintedLayers
 with
 the
 additional
@@ -495,7 +495,7 @@ aMasklayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -510,7 +510,7 @@ Validate
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *

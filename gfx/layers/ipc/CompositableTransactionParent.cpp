@@ -336,7 +336,7 @@ mozilla
 /
 layers
 /
-ThebesLayerComposite
+PaintedLayerComposite
 .
 h
 "
@@ -774,7 +774,7 @@ MOZ_LAYERS_LOG
 ParentSide
 ]
 Paint
-ThebesLayer
+PaintedLayer
 "
 )
 )
@@ -834,13 +834,13 @@ return
 false
 ;
 }
-ThebesLayerComposite
+PaintedLayerComposite
 *
 thebes
 =
 static_cast
 <
-ThebesLayerComposite
+PaintedLayerComposite
 *
 >
 (
@@ -949,7 +949,7 @@ MOZ_LAYERS_LOG
 ParentSide
 ]
 Paint
-ThebesLayer
+PaintedLayer
 "
 )
 )

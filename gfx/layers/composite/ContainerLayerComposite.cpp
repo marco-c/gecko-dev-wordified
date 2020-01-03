@@ -2450,7 +2450,7 @@ translation
 /
 for
 the
-thebes
+painted
 layer
 whereas
 the

@@ -3959,7 +3959,7 @@ ContentClientIncremental
 :
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t

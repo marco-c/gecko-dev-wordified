@@ -1141,7 +1141,7 @@ protocol
 BUFFER_CONTENT_INC
 /
 /
-thebes
+painted
 layer
 interface
 only
@@ -1168,7 +1168,7 @@ BUFFER_TILED
 /
 /
 tiled
-thebes
+painted
 layer
 BUFFER_SIMPLE_TILED
 /
@@ -1193,7 +1193,7 @@ buffer
 CONTENT_SINGLE
 /
 /
-thebes
+painted
 layer
 interface
 single
@@ -1201,7 +1201,7 @@ buffering
 CONTENT_DOUBLE
 /
 /
-thebes
+painted
 layer
 interface
 double

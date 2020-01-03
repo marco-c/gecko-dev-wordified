@@ -6357,7 +6357,7 @@ endif
 protected
 :
 void
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 ;

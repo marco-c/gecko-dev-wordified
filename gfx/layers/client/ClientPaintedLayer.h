@@ -92,10 +92,10 @@ MPL
 /
 #
 ifndef
-GFX_CLIENTTHEBESLAYER_H
+GFX_CLIENTPAINTEDLAYER_H
 #
 define
-GFX_CLIENTTHEBESLAYER_H
+GFX_CLIENTPAINTEDLAYER_H
 #
 include
 "
@@ -118,7 +118,7 @@ h
 /
 /
 for
-ThebesLayer
+PaintedLayer
 etc
 #
 include
@@ -235,7 +235,7 @@ h
 /
 /
 for
-ThebesLayerAttributes
+PaintedLayerAttributes
 class
 gfxContext
 ;
@@ -255,10 +255,10 @@ class
 SpecificLayerAttributes
 ;
 class
-ClientThebesLayer
+ClientPaintedLayer
 :
 public
-ThebesLayer
+PaintedLayer
 public
 ClientLayer
 {
@@ -279,7 +279,7 @@ ContentType
 ContentType
 ;
 explicit
-ClientThebesLayer
+ClientPaintedLayer
 (
 ClientLayerManager
 *
@@ -287,7 +287,7 @@ aLayerManager
 LayerManager
 :
 :
-ThebesLayerCreationHint
+PaintedLayerCreationHint
 aCreationHint
 =
 LayerManager
@@ -296,7 +296,7 @@ LayerManager
 NONE
 )
 :
-ThebesLayer
+PaintedLayer
 (
 aLayerManager
 static_cast
@@ -318,7 +318,7 @@ nullptr
 {
 MOZ_COUNT_CTOR
 (
-ClientThebesLayer
+ClientPaintedLayer
 )
 ;
 }
@@ -326,7 +326,7 @@ protected
 :
 virtual
 ~
-ClientThebesLayer
+ClientPaintedLayer
 (
 )
 {
@@ -349,7 +349,7 @@ nullptr
 }
 MOZ_COUNT_DTOR
 (
-ClientThebesLayer
+ClientPaintedLayer
 )
 ;
 }
@@ -386,7 +386,7 @@ phase
 "
 )
 ;
-ThebesLayer
+PaintedLayer
 :
 :
 SetVisibleRegion
@@ -513,7 +513,7 @@ aAttrs
 {
 aAttrs
 =
-ThebesLayerAttributes
+PaintedLayerAttributes
 (
 GetValidRegion
 (

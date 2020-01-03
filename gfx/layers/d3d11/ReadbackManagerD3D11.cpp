@@ -223,7 +223,7 @@ the
 contents
 of
 the
-thebeslayer
+paintedlayer
 to
 .
 nsRefPtr

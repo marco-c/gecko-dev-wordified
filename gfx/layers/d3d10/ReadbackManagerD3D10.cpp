@@ -211,7 +211,7 @@ the
 contents
 of
 the
-thebeslayer
+paintedlayer
 to
 .
 nsRefPtr
@@ -273,7 +273,7 @@ mUpdate
 The
 origin
 in
-ThebesLayer
+PaintedLayer
 coordinates
 of
 mReadbackTexture
@@ -516,7 +516,7 @@ going
 to
 get
 our
-ThebesLayer
+PaintedLayer
 content
 .
 update

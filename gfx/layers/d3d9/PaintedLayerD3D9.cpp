@@ -133,7 +133,7 @@ h
 #
 include
 "
-ThebesLayerD3D9
+PaintedLayerD3D9
 .
 h
 "
@@ -200,17 +200,17 @@ using
 namespace
 gfx
 ;
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
-ThebesLayerD3D9
+PaintedLayerD3D9
 (
 LayerManagerD3D9
 *
 aManager
 )
 :
-ThebesLayer
+PaintedLayer
 (
 aManager
 nullptr
@@ -247,11 +247,11 @@ this
 )
 ;
 }
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 ~
-ThebesLayerD3D9
+PaintedLayerD3D9
 (
 )
 {
@@ -320,7 +320,7 @@ define
 RETENTION_THRESHOLD
 16384
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 InvalidateRegion
@@ -356,7 +356,7 @@ mInvalidRegion
 ;
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 CopyRegion
@@ -659,7 +659,7 @@ retainedRegion
 ;
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 UpdateTextures
@@ -961,7 +961,7 @@ region
 }
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 RenderRegion
@@ -1123,10 +1123,10 @@ D3DPT_TRIANGLESTRIP
 }
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
-RenderThebesLayer
+RenderPaintedLayer
 (
 ReadbackProcessor
 *
@@ -1434,7 +1434,7 @@ UsedForReadback
 aReadback
 -
 >
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 (
 this
 &
@@ -1450,7 +1450,7 @@ Because
 updates
 to
 D3D9
-ThebesLayers
+PaintedLayers
 are
 rendered
 with
@@ -1591,7 +1591,7 @@ never
 need
 to
 update
-ThebesLayers
+PaintedLayers
 in
 an
 empty
@@ -1848,7 +1848,7 @@ ShaderConstantRect
 ;
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 CleanResources
@@ -1871,7 +1871,7 @@ SetEmpty
 ;
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 LayerManagerDestroyed
@@ -1900,7 +1900,7 @@ nullptr
 }
 Layer
 *
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 GetLayer
@@ -1912,7 +1912,7 @@ this
 ;
 }
 bool
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 IsEmpty
@@ -1925,7 +1925,7 @@ mTexture
 ;
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 VerifyContentType
@@ -2918,7 +2918,7 @@ aColor
 }
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 DrawRegion
@@ -3985,7 +3985,7 @@ point
 }
 }
 void
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 CreateNewTextures
@@ -4086,7 +4086,7 @@ ReportFailure
 NS_LITERAL_CSTRING
 (
 "
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 CreateNewTextures
@@ -4155,7 +4155,7 @@ ReportFailure
 NS_LITERAL_CSTRING
 (
 "
-ThebesLayerD3D9
+PaintedLayerD3D9
 :
 :
 CreateNewTextures
