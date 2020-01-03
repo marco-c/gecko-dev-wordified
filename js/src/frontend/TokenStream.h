@@ -1720,6 +1720,9 @@ u
 name
 -
 >
+JSAtom
+:
+:
 asPropertyName
 (
 )
