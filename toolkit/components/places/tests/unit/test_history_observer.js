@@ -313,7 +313,9 @@ now
 1000
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -932,7 +934,9 @@ title
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

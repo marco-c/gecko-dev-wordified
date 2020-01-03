@@ -716,7 +716,9 @@ UnvisitedTyped
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -980,7 +982,9 @@ lastIndexOf
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -1016,7 +1020,9 @@ matchTitle
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

@@ -2530,7 +2530,9 @@ pURI
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 nsiuri
 )
@@ -4148,7 +4150,9 @@ pURI
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 nsiuri
 )
@@ -5528,7 +5532,9 @@ aCallback
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )

@@ -2715,7 +2715,9 @@ increase
 visit
 count
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

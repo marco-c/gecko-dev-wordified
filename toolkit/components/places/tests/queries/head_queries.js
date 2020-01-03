@@ -477,7 +477,9 @@ for
 this
 node
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -755,7 +757,9 @@ details
 for
 testing
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

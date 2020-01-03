@@ -215,7 +215,9 @@ tld
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )
@@ -411,7 +413,9 @@ tld
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 )
@@ -528,7 +532,9 @@ tld
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )
@@ -647,7 +653,9 @@ tld
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 )
@@ -687,7 +695,9 @@ tld
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 )

@@ -204,7 +204,9 @@ TOTAL_SITES
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

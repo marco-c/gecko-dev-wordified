@@ -163,7 +163,9 @@ tagged
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -1605,7 +1607,9 @@ tp
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

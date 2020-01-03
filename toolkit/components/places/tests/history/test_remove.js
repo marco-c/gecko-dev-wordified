@@ -173,7 +173,9 @@ random
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 WITNESS_URI
 )
@@ -270,7 +272,9 @@ random
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -1231,7 +1235,9 @@ random
 ;
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 WITNESS_URI
 )
@@ -1442,7 +1448,9 @@ page
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 page
 )

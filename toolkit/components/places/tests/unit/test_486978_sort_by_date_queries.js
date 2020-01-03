@@ -344,7 +344,9 @@ pages
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

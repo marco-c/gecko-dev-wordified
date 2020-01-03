@@ -234,7 +234,9 @@ foo
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

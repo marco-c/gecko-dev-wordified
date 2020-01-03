@@ -327,7 +327,9 @@ transitions
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

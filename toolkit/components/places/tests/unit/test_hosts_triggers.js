@@ -473,7 +473,9 @@ place
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )
@@ -904,7 +906,9 @@ TRANSITION_TYPED
 ]
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )
@@ -987,7 +991,9 @@ TRANSITION_TYPED
 ]
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )
@@ -1192,7 +1198,9 @@ com
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -1278,7 +1286,9 @@ com
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -1396,7 +1406,9 @@ TEST_URI_2
 ]
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )

@@ -233,7 +233,9 @@ test
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

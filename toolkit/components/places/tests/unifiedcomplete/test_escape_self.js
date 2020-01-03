@@ -131,7 +131,9 @@ escapeduri
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

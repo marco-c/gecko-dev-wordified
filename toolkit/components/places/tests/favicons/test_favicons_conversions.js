@@ -351,7 +351,9 @@ page
 aFileName
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

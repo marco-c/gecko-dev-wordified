@@ -124,7 +124,9 @@ typed
 false
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -197,7 +199,9 @@ typed
 false
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -277,7 +281,9 @@ typed
 true
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -345,7 +351,9 @@ typed
 true
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -428,7 +436,9 @@ typed
 true
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -502,7 +512,9 @@ typed
 true
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

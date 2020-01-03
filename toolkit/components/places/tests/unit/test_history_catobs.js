@@ -349,7 +349,9 @@ a
 visit
 .
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

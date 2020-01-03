@@ -83,7 +83,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -171,7 +173,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -262,7 +266,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -346,7 +352,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

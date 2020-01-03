@@ -1598,7 +1598,9 @@ aNoVisit
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -2202,7 +2204,9 @@ aURIs
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

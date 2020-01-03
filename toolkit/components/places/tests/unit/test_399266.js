@@ -286,7 +286,9 @@ TRANSITION_FRAMED_LINK
 }
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )

@@ -281,7 +281,9 @@ to
 the
 url
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 T_URI
 )
@@ -587,7 +589,9 @@ to
 the
 url
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 T_URI
 )
@@ -793,7 +797,9 @@ promiseDBConnection
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 T_URI
 )

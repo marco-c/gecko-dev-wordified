@@ -361,7 +361,9 @@ in
 TRANSITION_LINK
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

@@ -562,7 +562,9 @@ nodeInserted
 add
 a
 visit
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )
@@ -621,7 +623,9 @@ for
 a
 leaf
 node
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -674,7 +678,9 @@ com
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 removedURI
 )

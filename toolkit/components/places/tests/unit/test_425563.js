@@ -254,7 +254,9 @@ each
 transition
 type
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

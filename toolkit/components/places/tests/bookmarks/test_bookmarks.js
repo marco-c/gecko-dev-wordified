@@ -4601,7 +4601,9 @@ DEFAULT_INDEX
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri1
 )

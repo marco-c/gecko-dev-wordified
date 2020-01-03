@@ -111,7 +111,9 @@ typed
 false
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -193,7 +195,9 @@ typed
 false
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

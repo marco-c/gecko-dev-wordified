@@ -188,7 +188,9 @@ ThisPageIsInHistory
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -713,7 +715,9 @@ s
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

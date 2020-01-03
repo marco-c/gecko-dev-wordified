@@ -305,7 +305,9 @@ SEARCH_TERM
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

@@ -198,7 +198,9 @@ simple
 visit
 .
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

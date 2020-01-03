@@ -65,7 +65,9 @@ test_prefix_space_noautofill
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -149,7 +151,9 @@ test_trailing_space_noautofill
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -1292,7 +1296,9 @@ test_prefix_autofill
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -1321,7 +1327,9 @@ TRANSITION_TYPED
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

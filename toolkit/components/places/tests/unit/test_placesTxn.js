@@ -4349,7 +4349,9 @@ org
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )

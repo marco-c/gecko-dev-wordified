@@ -567,7 +567,9 @@ test_dh_addMultiRemoveDownload
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

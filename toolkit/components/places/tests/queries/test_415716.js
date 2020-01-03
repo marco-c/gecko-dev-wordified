@@ -380,7 +380,9 @@ today
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 places
 )

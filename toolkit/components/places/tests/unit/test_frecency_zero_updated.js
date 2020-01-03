@@ -183,7 +183,9 @@ should
 increase
 .
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

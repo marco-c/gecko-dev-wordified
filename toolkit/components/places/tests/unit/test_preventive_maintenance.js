@@ -10836,7 +10836,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -10882,7 +10884,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -10934,7 +10938,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -10988,7 +10994,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -11393,7 +11401,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -11865,7 +11875,9 @@ bunch
 of
 items
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -12412,7 +12424,9 @@ the
 database
 .
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

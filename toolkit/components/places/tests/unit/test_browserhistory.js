@@ -148,7 +148,9 @@ test_addPage
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )
@@ -244,7 +246,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pages
 .
@@ -578,7 +582,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -713,7 +719,9 @@ test_removePagesFromHost
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )
@@ -754,7 +762,9 @@ test_removePagesFromHost_keepSubdomains
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -846,7 +856,9 @@ hasHistoryEntries
 cache
 .
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )

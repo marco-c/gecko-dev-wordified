@@ -458,7 +458,9 @@ TEST_URI
 0
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )
@@ -885,7 +887,9 @@ TEST_URI
 0
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )

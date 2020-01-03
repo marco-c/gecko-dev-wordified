@@ -279,7 +279,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -620,7 +622,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -997,7 +1001,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -1335,7 +1341,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -1702,7 +1710,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -1960,7 +1970,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -2243,7 +2255,9 @@ i
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -2553,7 +2567,9 @@ URI
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

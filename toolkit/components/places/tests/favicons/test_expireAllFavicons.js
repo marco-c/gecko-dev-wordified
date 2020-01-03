@@ -358,7 +358,9 @@ a
 visited
 page
 .
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

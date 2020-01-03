@@ -4181,7 +4181,9 @@ v
 }
 ]
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

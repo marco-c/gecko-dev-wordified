@@ -150,7 +150,9 @@ tld
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
