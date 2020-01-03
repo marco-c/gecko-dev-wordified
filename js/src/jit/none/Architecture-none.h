@@ -701,6 +701,17 @@ MOZ_CRASH
 )
 ;
 }
+Encoding
+encoding
+(
+)
+const
+{
+MOZ_CRASH
+(
+)
+;
+}
 const
 char
 *
