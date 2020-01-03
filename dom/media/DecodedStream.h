@@ -746,6 +746,14 @@ GetReentrantMonitor
 (
 )
 ;
+void
+Connect
+(
+OutputStreamData
+*
+aStream
+)
+;
 private
 :
 UniquePtr
