@@ -516,21 +516,6 @@ description
 '
         
 #
-Whether
-to
-allow
-all
-arguments
-from
-the
-parser
-.
-        
-'
-allow_all_arguments
-'
-        
-#
 Functions
 used
 to
@@ -625,9 +610,6 @@ description
 =
 None
         
-allow_all_arguments
-=
-False
 conditions
 =
 None
@@ -637,7 +619,6 @@ None
 arguments
 =
 None
-        
 pass_context
 =
 False
@@ -673,12 +654,6 @@ self
 description
 =
 description
-        
-self
-.
-allow_all_arguments
-=
-allow_all_arguments
         
 self
 .

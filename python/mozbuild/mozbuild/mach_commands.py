@@ -6470,25 +6470,6 @@ extend
 params
 )
     
-if
-'
--
--
-'
-in
-args
-:
-        
-args
-.
-remove
-(
-'
--
--
-'
-)
-    
 return
 args
 CommandProvider
@@ -6522,9 +6503,6 @@ post
 -
 build
 '
-allow_all_args
-=
-True
         
 description
 =
@@ -6542,9 +6520,6 @@ CommandArgument
 '
 params
 '
-default
-=
-None
 nargs
 =
 '
@@ -6592,11 +6567,11 @@ used
 CommandArgument
 (
 '
-+
+-
 remote
 '
 '
-+
+-
 r
 '
 action
@@ -6626,11 +6601,11 @@ default
 CommandArgument
 (
 '
-+
+-
 background
 '
 '
-+
+-
 b
 '
 action
@@ -6659,11 +6634,11 @@ Mac
 CommandArgument
 (
 '
-+
+-
 noprofile
 '
 '
-+
+-
 n
 '
 action
@@ -6765,9 +6740,6 @@ post
 -
 build
 '
-allow_all_args
-=
-True
         
 description
 =
@@ -6785,9 +6757,6 @@ CommandArgument
 '
 params
 '
-default
-=
-None
 nargs
 =
 '
@@ -6835,11 +6804,11 @@ used
 CommandArgument
 (
 '
-+
+-
 remote
 '
 '
-+
+-
 r
 '
 action
@@ -6868,11 +6837,11 @@ default
 CommandArgument
 (
 '
-+
+-
 background
 '
 '
-+
+-
 b
 '
 action
@@ -6901,7 +6870,7 @@ Mac
 CommandArgument
 (
 '
-+
+-
 debugger
 '
 default
@@ -6925,7 +6894,7 @@ launch
 CommandArgument
 (
 '
-+
+-
 debugparams
 '
 default
@@ -7037,7 +7006,7 @@ bug
 CommandArgument
 (
 '
-+
+-
 slowscript
 '
 action
@@ -7079,11 +7048,11 @@ code
 CommandArgument
 (
 '
-+
+-
 noprofile
 '
 '
-+
+-
 n
 '
 action
@@ -7173,7 +7142,7 @@ print
 (
 "
 The
-+
+-
 debugparams
 you
 passed
@@ -7632,9 +7601,6 @@ CommandArgument
 '
 params
 '
-default
-=
-None
 nargs
 =
 '
