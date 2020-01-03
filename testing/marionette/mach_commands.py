@@ -209,7 +209,7 @@ import
         
 MarionetteTestRunner
         
-BaseMarionetteOptions
+BaseMarionetteArguments
         
 startTestRunner
     
@@ -217,7 +217,7 @@ startTestRunner
     
 parser
 =
-BaseMarionetteOptions
+BaseMarionetteArguments
 (
 )
     
@@ -228,12 +228,11 @@ add_logging_group
 parser
 )
     
-options
 args
 =
 parser
 .
-parse_known_args
+parse_args
 (
 )
     
@@ -252,7 +251,7 @@ path
 join
 (
 topsrcdir
-                    
+                 
 '
 testing
 /
@@ -273,11 +272,17 @@ ini
 )
 ]
     
+args
+.
+tests
+=
+tests
+    
 if
 b2g_path
 :
         
-options
+args
 .
 homedir
 =
@@ -287,7 +292,7 @@ if
 emulator
 :
             
-options
+args
 .
 emulator
 =
@@ -296,7 +301,7 @@ emulator
 else
 :
         
-options
+args
 .
 binary
 =
@@ -311,7 +316,7 @@ path
 .
 split
 (
-options
+args
 .
 binary
 )
@@ -329,7 +334,7 @@ iteritems
         
 setattr
 (
-options
+args
 k
 v
 )
@@ -338,11 +343,10 @@ parser
 .
 verify_usage
 (
-options
-tests
+args
 )
     
-options
+args
 .
 logger
 =
@@ -355,9 +359,9 @@ Marionette
 Unit
 Tests
 "
-                                               
-options
-                                               
+                                            
+args
+                                            
 {
 "
 mach
@@ -374,8 +378,7 @@ runner
 startTestRunner
 (
 MarionetteTestRunner
-options
-tests
+args
 )
     
 if

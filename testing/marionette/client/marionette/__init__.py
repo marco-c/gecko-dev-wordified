@@ -61,10 +61,6 @@ __version__
 18
 '
 from
-argparse
-import
-ArgumentParser
-from
 .
 marionette_test
 import
@@ -84,17 +80,17 @@ B2GTestCaseMixin
         
 B2GTestResultMixin
         
-BaseMarionetteOptions
+BaseMarionetteArguments
         
 BaseMarionetteTestRunner
         
 BrowserMobProxyTestCaseMixin
         
-EnduranceOptionsMixin
+EnduranceArguments
         
 EnduranceTestCaseMixin
         
-HTMLReportingOptionsMixin
+HTMLReportingArguments
         
 HTMLReportingTestResultMixin
         

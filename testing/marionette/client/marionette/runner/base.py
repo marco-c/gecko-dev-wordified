@@ -1719,7 +1719,7 @@ test
 return
 result
 class
-BaseMarionetteOptions
+BaseMarionetteArguments
 (
 ArgumentParser
 )
@@ -1753,25 +1753,10 @@ kwargs
         
 self
 .
-parse_args_handlers
+argument_containers
 =
 [
 ]
-#
-Used
-by
-mixins
-        
-self
-.
-verify_usage_handlers
-=
-[
-]
-#
-Used
-by
-mixins
         
 self
 .
@@ -3348,6 +3333,54 @@ tags
 )
     
 def
+register_argument_container
+(
+self
+container
+)
+:
+        
+group
+=
+self
+.
+add_argument_group
+(
+container
+.
+name
+)
+        
+for
+cli
+kwargs
+in
+container
+.
+args
+:
+            
+group
+.
+add_argument
+(
+*
+cli
+*
+*
+kwargs
+)
+        
+self
+.
+argument_containers
+.
+append
+(
+container
+)
+    
+def
 parse_args
 (
 self
@@ -3372,40 +3405,45 @@ values
 )
         
 for
-handler
+container
 in
 self
 .
-parse_args_handlers
+argument_containers
 :
             
-handler
+if
+hasattr
 (
-options
-tests
+container
+'
+parse_args_handler
+'
+)
+:
+                
+container
+.
+parse_args_handler
+(
 args
-values
 )
         
 return
-(
 args
-args
-.
-tests
-)
     
 def
 verify_usage
 (
 self
-options
-tests
+args
 )
 :
         
 if
 not
+args
+.
 tests
 :
             
@@ -3432,17 +3470,17 @@ exit
         
 if
 not
-options
+args
 .
 emulator
 and
 not
-options
+args
 .
 address
 and
 not
-options
+args
 .
 binary
 :
@@ -3471,11 +3509,11 @@ exit
 )
         
 if
-options
+args
 .
 emulator
 and
-options
+args
 .
 binary
 :
@@ -3515,17 +3553,17 @@ emulator
 runs
         
 if
-options
+args
 .
 emulator
 and
 not
-options
+args
 .
 logdir
 :
             
-options
+args
 .
 logdir
 =
@@ -3546,14 +3584,14 @@ try
 :
             
 if
-options
+args
 .
 emulator_res
 :
                 
 dims
 =
-options
+args
 .
 emulator_res
 .
@@ -3599,7 +3637,7 @@ dims
 )
 )
                 
-options
+args
 .
 emulator_res
 =
@@ -3641,14 +3679,14 @@ like
 )
         
 if
-options
+args
 .
 total_chunks
 is
 not
 None
 and
-options
+args
 .
 this_chunk
 is
@@ -3672,14 +3710,14 @@ run
 )
         
 if
-options
+args
 .
 this_chunk
 is
 not
 None
 and
-options
+args
 .
 total_chunks
 is
@@ -3707,7 +3745,7 @@ into
 )
         
 if
-options
+args
 .
 total_chunks
 is
@@ -3720,7 +3758,7 @@ not
 1
 <
 =
-options
+args
 .
 total_chunks
 :
@@ -3746,12 +3784,12 @@ not
 1
 <
 =
-options
+args
 .
 this_chunk
 <
 =
-options
+args
 .
 total_chunks
 :
@@ -3774,18 +3812,18 @@ s
 .
 '
 %
-options
+args
 .
 total_chunks
 )
         
 if
-options
+args
 .
 jsdebugger
 :
             
-options
+args
 .
 app_args
 .
@@ -3797,19 +3835,19 @@ jsdebugger
 '
 )
             
-options
+args
 .
 socket_timeout
 =
 None
         
 if
-options
+args
 .
 e10s
 :
             
-options
+args
 .
 prefs
 =
@@ -3830,24 +3868,32 @@ True
 }
         
 for
-handler
+container
 in
 self
 .
-verify_usage_handlers
+argument_containers
 :
             
-handler
+if
+hasattr
 (
-options
-tests
+container
+'
+verify_usage_handler
+'
+)
+:
+                
+container
+.
+verify_usage_handler
+(
+args
 )
         
 return
-(
-options
-tests
-)
+args
 class
 BaseMarionetteTestRunner
 (
@@ -3994,7 +4040,7 @@ None
                  
 socket_timeout
 =
-BaseMarionetteOptions
+BaseMarionetteArguments
 .
 socket_timeout_default
                  

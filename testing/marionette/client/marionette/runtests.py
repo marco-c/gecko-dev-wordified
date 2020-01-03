@@ -87,9 +87,9 @@ import
     
 BaseMarionetteTestRunner
     
-BaseMarionetteOptions
+BaseMarionetteArguments
     
-BrowserMobProxyOptionsMixin
+BrowserMobProxyArguments
 )
 import
 mozlog
@@ -129,11 +129,9 @@ MarionetteTestCase
 MarionetteJSTestCase
 ]
 class
-MarionetteOptions
+MarionetteArguments
 (
-BaseMarionetteOptions
-                        
-BrowserMobProxyOptionsMixin
+BaseMarionetteArguments
 )
 :
     
@@ -147,7 +145,7 @@ kwargs
 )
 :
         
-BaseMarionetteOptions
+BaseMarionetteArguments
 .
 __init__
 (
@@ -157,26 +155,24 @@ self
 kwargs
 )
         
-BrowserMobProxyOptionsMixin
-.
-__init__
-(
 self
-*
-*
-kwargs
+.
+register_argument_container
+(
+BrowserMobProxyArguments
+(
+)
 )
 def
 startTestRunner
 (
 runner_class
-options
-tests
+args
 )
 :
     
 if
-options
+args
 .
 pydebugger
 :
@@ -187,9 +183,27 @@ pydebugger
 =
 __import__
 (
-options
+args
 .
 pydebugger
+)
+    
+args
+=
+vars
+(
+args
+)
+    
+tests
+=
+args
+.
+pop
+(
+'
+tests
+'
 )
     
 runner
@@ -198,10 +212,7 @@ runner_class
 (
 *
 *
-vars
-(
-options
-)
+args
 )
     
 runner
@@ -221,7 +232,7 @@ runner_class
 MarionetteTestRunner
 parser_class
 =
-MarionetteOptions
+MarionetteArguments
 )
 :
     
@@ -304,8 +315,7 @@ add_logging_group
 parser
 )
     
-options
-tests
+args
 =
 parser
 .
@@ -317,8 +327,7 @@ parser
 .
 verify_usage
 (
-options
-tests
+args
 )
     
 logger
@@ -330,10 +339,10 @@ commandline
 setup_logging
 (
         
-options
+args
 .
 logger_name
-options
+args
 {
 "
 tbpl
@@ -345,7 +354,7 @@ stdout
 }
 )
     
-options
+args
 .
 logger
 =
@@ -356,8 +365,7 @@ runner
 startTestRunner
 (
 runner_class
-options
-tests
+args
 )
     
 if
