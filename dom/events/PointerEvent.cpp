@@ -518,7 +518,7 @@ mRelatedTarget
 e
 -
 >
-InitializeExtraMouseEventDictionaryMembers
+InitModifiers
 (
 aParam
 )

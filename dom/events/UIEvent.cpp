@@ -655,9 +655,6 @@ GetMovementPoint
 if
 (
 mPrivateDataDuplicated
-|
-|
-mEventIsInternal
 )
 {
 return
