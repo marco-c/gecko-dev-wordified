@@ -1816,6 +1816,8 @@ oneByteOp
 OP_GROUP1_EvIb
 offset
 base
+index
+scale
 GROUP1_OP_ADD
 )
 ;
@@ -1836,6 +1838,8 @@ oneByteOp
 OP_GROUP1_EvIz
 offset
 base
+index
+scale
 GROUP1_OP_ADD
 )
 ;
@@ -4577,6 +4581,8 @@ oneByteOp
 OP_GROUP1_EvIb
 offset
 base
+index
+scale
 GROUP1_OP_AND
 )
 ;
@@ -4597,6 +4603,8 @@ oneByteOp
 OP_GROUP1_EvIz
 offset
 base
+index
+scale
 GROUP1_OP_AND
 )
 ;
@@ -5697,6 +5705,8 @@ oneByteOp
 OP_GROUP1_EvIb
 offset
 base
+index
+scale
 GROUP1_OP_OR
 )
 ;
@@ -5717,6 +5727,8 @@ oneByteOp
 OP_GROUP1_EvIz
 offset
 base
+index
+scale
 GROUP1_OP_OR
 )
 ;
@@ -6373,6 +6385,8 @@ oneByteOp
 OP_GROUP1_EvIb
 offset
 base
+index
+scale
 GROUP1_OP_SUB
 )
 ;
@@ -6393,6 +6407,8 @@ oneByteOp
 OP_GROUP1_EvIz
 offset
 base
+index
+scale
 GROUP1_OP_SUB
 )
 ;
@@ -7019,6 +7035,8 @@ oneByteOp
 OP_GROUP1_EvIb
 offset
 base
+index
+scale
 GROUP1_OP_XOR
 )
 ;
@@ -7039,6 +7057,8 @@ oneByteOp
 OP_GROUP1_EvIz
 offset
 base
+index
+scale
 GROUP1_OP_XOR
 )
 ;
