@@ -26453,7 +26453,7 @@ plugins
 .
 contentTimeoutSecs
 "
-45
+10
 )
 ;
 /
