@@ -1017,9 +1017,6 @@ broken
 "
 )
 ;
-return
-false
-;
 }
 /
 /

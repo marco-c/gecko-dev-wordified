@@ -8778,9 +8778,19 @@ for
 video
 if
 (
+(
 flags
 &
 PIPELINE_VIDEO
+)
+&
+&
+!
+(
+flags
+&
+PIPELINE_SEND
+)
 )
 {
 mozilla
@@ -17156,7 +17166,7 @@ GetPacketsReceived
 )
 >
 =
-40
+80
 kDefaultTimeout
 *
 2
@@ -17183,7 +17193,7 @@ GetPacketsSent
 )
 >
 =
-40
+80
 kDefaultTimeout
 *
 2

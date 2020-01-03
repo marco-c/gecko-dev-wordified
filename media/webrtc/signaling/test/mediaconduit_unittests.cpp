@@ -2956,7 +2956,6 @@ AudioSessionConduit
 :
 :
 Create
-nullptr
 &
 mAudioSession
 )
@@ -2996,7 +2995,6 @@ AudioSessionConduit
 :
 :
 Create
-nullptr
 &
 mAudioSession2
 )
@@ -3063,7 +3061,7 @@ err
 mAudioSession
 -
 >
-AttachTransport
+SetTransmitterTransport
 (
 mAudioTransport
 )
@@ -3082,7 +3080,7 @@ err
 mAudioSession2
 -
 >
-AttachTransport
+SetReceiverTransport
 (
 mAudioTransport
 )
@@ -3661,8 +3659,6 @@ VideoSessionConduit
 :
 :
 Create
-nullptr
-false
 &
 mVideoSession
 )
@@ -3710,8 +3706,6 @@ VideoSessionConduit
 :
 :
 Create
-nullptr
-true
 &
 mVideoSession2
 )
@@ -3827,7 +3821,7 @@ err
 mVideoSession
 -
 >
-AttachTransport
+SetTransmitterTransport
 (
 mVideoTransport
 )
@@ -3846,7 +3840,7 @@ err
 mVideoSession2
 -
 >
-AttachTransport
+SetReceiverTransport
 (
 mVideoTransport
 )
@@ -4491,8 +4485,6 @@ VideoSessionConduit
 :
 :
 Create
-nullptr
-true
 &
 videoSession
 )
@@ -6087,8 +6079,6 @@ VideoSessionConduit
 :
 :
 Create
-nullptr
-false
 &
 mVideoSession
 )

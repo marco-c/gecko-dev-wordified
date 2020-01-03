@@ -235,7 +235,7 @@ aConduit
 )
 ;
 nsresult
-CreateAudioConduit
+GetOrCreateAudioConduit
 (
 const
 JsepTrackPair
@@ -254,7 +254,7 @@ aConduitp
 )
 ;
 nsresult
-CreateVideoConduit
+GetOrCreateVideoConduit
 (
 const
 JsepTrackPair
