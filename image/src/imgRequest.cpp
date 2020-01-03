@@ -4728,7 +4728,7 @@ methods
 /
 struct
 NewPartResult
-MOZ_FINAL
+final
 {
 explicit
 NewPartResult
@@ -5321,7 +5321,7 @@ result
 }
 class
 FinishPreparingForNewPartRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -5358,7 +5358,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mImgRequest
 -
