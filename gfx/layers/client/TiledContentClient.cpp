@@ -10103,10 +10103,7 @@ if
 mResolution
 !
 =
-CSSToParentLayerScale
-(
 1
-)
 )
 {
 /
