@@ -945,8 +945,11 @@ pump
 void
 OverrideWithSynthesizedResponse
 (
+nsAutoPtr
+<
 nsHttpResponseHead
-*
+>
+&
 aResponseHead
 nsInputStreamPump
 *
