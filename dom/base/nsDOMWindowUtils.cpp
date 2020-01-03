@@ -278,7 +278,7 @@ MOZ_FMP4
 #
 include
 "
-MP4Reader
+MP4Decoder
 .
 h
 "
@@ -11093,7 +11093,7 @@ NS_ERROR_FAILURE
 *
 retval
 =
-MP4Reader
+MP4Decoder
 :
 :
 IsVideoAccelerated
