@@ -262,16 +262,6 @@ BluetoothGattInterface
 *
 sBluetoothGattInterface
 ;
-static
-BluetoothGattClientInterface
-*
-sBluetoothGattClientInterface
-;
-static
-BluetoothGattServerInterface
-*
-sBluetoothGattServerInterface
-;
 }
 /
 /
@@ -1254,34 +1244,6 @@ NS_ERROR_FAILURE
 return
 ;
 }
-sBluetoothGattClientInterface
-=
-sBluetoothGattInterface
--
->
-GetBluetoothGattClientInterface
-(
-)
-;
-NS_ENSURE_TRUE_VOID
-(
-sBluetoothGattClientInterface
-)
-;
-sBluetoothGattServerInterface
-=
-sBluetoothGattInterface
--
->
-GetBluetoothGattServerInterface
-(
-)
-;
-NS_ENSURE_TRUE_VOID
-(
-sBluetoothGattServerInterface
-)
-;
 if
 (
 !
@@ -1397,14 +1359,6 @@ Cleanup
 )
 override
 {
-sBluetoothGattClientInterface
-=
-nullptr
-;
-sBluetoothGattServerInterface
-=
-nullptr
-;
 sBluetoothGattInterface
 =
 nullptr
@@ -1610,7 +1564,7 @@ RegisterClientResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -1643,7 +1597,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 RegisterClient
@@ -1769,7 +1723,7 @@ UnregisterClientResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -1891,7 +1845,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 UnregisterClient
@@ -2049,7 +2003,7 @@ mUnregisterClientRunnable
 =
 aRunnable
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 UnregisterClient
@@ -2071,7 +2025,7 @@ StartLeScanResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -2135,7 +2089,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 StartLeScan
@@ -2251,7 +2205,7 @@ StopLeScanResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -2349,7 +2303,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 StopLeScan
@@ -2563,7 +2517,7 @@ proceeded
 after
 client
 registered
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 RegisterClient
@@ -2680,7 +2634,7 @@ ElementAt
 index
 )
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 Scan
@@ -2715,7 +2669,7 @@ ConnectResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -2748,7 +2702,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 Connect
@@ -2976,7 +2930,7 @@ mClientIf
 0
 )
 {
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 Connect
@@ -3027,7 +2981,7 @@ proceeded
 after
 client
 registered
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 RegisterClient
@@ -3050,7 +3004,7 @@ DisconnectResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -3083,7 +3037,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 Disconnect
@@ -3292,7 +3246,7 @@ mDisconnectRunnable
 =
 aRunnable
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 Disconnect
@@ -3322,7 +3276,7 @@ DiscoverResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -3355,7 +3309,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 Discover
@@ -3604,7 +3558,7 @@ in
 .
 *
 /
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 SearchService
@@ -3638,7 +3592,7 @@ ReadRemoteRssiResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -3671,7 +3625,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 ReadRemoteRssi
@@ -3849,7 +3803,7 @@ mReadRemoteRssiRunnable
 =
 aRunnable
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 ReadRemoteRssi
@@ -3872,7 +3826,7 @@ RegisterNotificationsResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -3997,7 +3951,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 RegisterNotifications
@@ -4207,7 +4161,7 @@ mRegisterNotificationsRunnable
 =
 aRunnable
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 RegisterNotification
@@ -4238,7 +4192,7 @@ DeregisterNotificationsResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -4363,7 +4317,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 DeregisterNotifications
@@ -4557,7 +4511,7 @@ mDeregisterNotificationsRunnable
 =
 aRunnable
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 DeregisterNotification
@@ -4588,7 +4542,7 @@ ReadCharacteristicValueResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -4621,7 +4575,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 ReadCharacteristicValue
@@ -4933,7 +4887,7 @@ link
 .
 *
 /
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 ReadCharacteristic
@@ -4961,7 +4915,7 @@ WriteCharacteristicValueResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -4994,7 +4948,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 WriteCharacteristicValue
@@ -5319,7 +5273,7 @@ link
 .
 *
 /
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 WriteCharacteristic
@@ -5349,7 +5303,7 @@ ReadDescriptorValueResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -5382,7 +5336,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 ReadDescriptorValue
@@ -5695,7 +5649,7 @@ link
 .
 *
 /
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 ReadDescriptor
@@ -5724,7 +5678,7 @@ WriteDescriptorValueResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -5757,7 +5711,7 @@ override
 BT_WARNING
 (
 "
-BluetoothGattClientInterface
+BluetoothGattInterface
 :
 :
 WriteDescriptorValue
@@ -6078,7 +6032,7 @@ false
 aRunnable
 )
 ;
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 WriteDescriptor
@@ -6416,7 +6370,7 @@ remaining
 startLeScan
 request
 .
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 Scan
@@ -6455,7 +6409,7 @@ remaining
 connect
 request
 .
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 Connect
@@ -6490,7 +6444,7 @@ ScanDeviceTypeResultHandler
 final
 :
 public
-BluetoothGattClientResultHandler
+BluetoothGattResultHandler
 {
 public
 :
@@ -6709,7 +6663,7 @@ NS_IsMainThread
 ;
 NS_ENSURE_TRUE_VOID
 (
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 )
 ;
 /
@@ -6730,7 +6684,7 @@ BluetoothTypeOfDevice
 of
 the
 device
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetDeviceType
@@ -7410,7 +7364,7 @@ IsEmpty
 )
 )
 {
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetIncludedService
@@ -7718,7 +7672,7 @@ characteristic
 of
 this
 service
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetCharacteristic
@@ -7950,7 +7904,7 @@ descriptor
 of
 this
 characteristic
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetDescriptor
@@ -8198,7 +8152,7 @@ service
 of
 this
 service
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetIncludedService
@@ -8305,7 +8259,7 @@ characteristics
 of
 this
 service
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetCharacteristic
@@ -8985,7 +8939,7 @@ with
 another
 authentication
 requirement
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 ReadCharacteristic
@@ -9197,7 +9151,7 @@ with
 another
 authentication
 requirement
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 WriteCharacteristic
@@ -9496,7 +9450,7 @@ with
 another
 authentication
 requirement
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 ReadDescriptor
@@ -9711,7 +9665,7 @@ with
 another
 authentication
 requirement
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 WriteDescriptor
@@ -10314,7 +10268,7 @@ IsEmpty
 )
 )
 {
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetDescriptor
@@ -10373,7 +10327,7 @@ IsEmpty
 )
 )
 {
-sBluetoothGattClientInterface
+sBluetoothGattInterface
 -
 >
 GetIncludedService
