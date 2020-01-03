@@ -2555,17 +2555,6 @@ function
 {
 this
 .
-setStoreState
-(
-{
-pendingInitialRetrieval
-:
-true
-}
-)
-;
-this
-.
 _mozLoop
 .
 rooms
