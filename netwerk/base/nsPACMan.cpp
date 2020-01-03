@@ -2728,7 +2728,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -2808,10 +2808,9 @@ NS_SUCCEEDED
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 mLoader
-nullptr
 )
 )
 )
