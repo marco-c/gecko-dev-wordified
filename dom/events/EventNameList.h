@@ -1630,7 +1630,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 languagechange
-NS_LANGUAGECHANGE
+eLanguageChange
 EventNameType_HTMLBodyOrFramesetOnly
 eBasicEventClass
 )

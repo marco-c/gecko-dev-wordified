@@ -337,7 +337,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LANGUAGECHANGE
+eLanguageChange
 eWindowEventFirst
 +
 70
