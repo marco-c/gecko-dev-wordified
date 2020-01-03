@@ -302,6 +302,11 @@ int32_t
 aCORSMode
 )
 ;
+void
+ClearLoader
+(
+)
+;
 /
 /
 Callers
@@ -1137,6 +1142,11 @@ bool
 block
 )
 const
+;
+bool
+HasConsumers
+(
+)
 ;
 public
 :
