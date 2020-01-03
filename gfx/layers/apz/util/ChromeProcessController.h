@@ -357,6 +357,11 @@ MessageLoop
 *
 mUILoop
 ;
+void
+InitializeRoot
+(
+)
+;
 }
 ;
 }
