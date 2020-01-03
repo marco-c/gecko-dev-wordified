@@ -1537,6 +1537,7 @@ CurrentX11TimeGetter
 {
 public
 :
+explicit
 CurrentX11TimeGetter
 (
 GdkWindow
