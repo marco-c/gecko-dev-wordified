@@ -250,7 +250,7 @@ public
 MediaDecoderReader
 {
 typedef
-mp4_demuxer
+TrackInfo
 :
 :
 TrackType
@@ -658,9 +658,6 @@ MediaRawData
 >
 PopSample
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -671,9 +668,6 @@ MediaRawData
 >
 PopSampleLocked
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -704,9 +698,6 @@ functions
 void
 Output
 (
-mp4_demuxer
-:
-:
 TrackType
 aType
 MediaData
@@ -717,9 +708,6 @@ aSample
 void
 InputExhausted
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -727,9 +715,6 @@ aTrack
 void
 Error
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -737,9 +722,6 @@ aTrack
 void
 Flush
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -747,9 +729,6 @@ aTrack
 void
 DrainComplete
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -850,9 +829,6 @@ DecoderCallback
 MP4Reader
 *
 aReader
-mp4_demuxer
-:
-:
 TrackType
 aType
 )
@@ -971,9 +947,6 @@ MP4Reader
 *
 mReader
 ;
-mp4_demuxer
-:
-:
 TrackType
 mType
 ;
@@ -1484,9 +1457,6 @@ DecoderData
 &
 GetDecoderData
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
