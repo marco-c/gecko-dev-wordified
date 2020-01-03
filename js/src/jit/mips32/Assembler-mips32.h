@@ -651,6 +651,7 @@ ScratchRegisterScope
 public
 AutoRegisterScope
 {
+explicit
 ScratchRegisterScope
 (
 MacroAssembler
@@ -673,6 +674,7 @@ SecondScratchRegisterScope
 public
 AutoRegisterScope
 {
+explicit
 SecondScratchRegisterScope
 (
 MacroAssembler
