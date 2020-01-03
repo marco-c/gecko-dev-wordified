@@ -124,9 +124,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetAccessibleCaretLog
@@ -160,11 +157,6 @@ return
 log
 ;
 }
-#
-endif
-/
-/
-PR_LOGGING
 }
 /
 /
