@@ -922,6 +922,14 @@ interception
 opaque
 .
 enabled
+WORKERPREF_PERFORMANCE_LOGGING_ENABLED
+/
+/
+dom
+.
+performance
+.
+enable_user_timing_logging
 WORKERPREF_COUNT
 }
 ;
