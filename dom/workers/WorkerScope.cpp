@@ -2161,7 +2161,7 @@ false
 namespace
 {
 class
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 ;
 class
 UnregisterResultRunnable
@@ -2184,7 +2184,7 @@ UnregisterResultRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 *
 aRunnable
 State
@@ -2241,7 +2241,7 @@ private
 :
 nsRefPtr
 <
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 >
 mRunnable
 ;
@@ -2254,7 +2254,7 @@ mValue
 }
 ;
 class
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 MOZ_FINAL
 :
 public
@@ -2283,7 +2283,7 @@ mCleanedUp
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 (
 WorkerPrivate
 *
@@ -2510,7 +2510,7 @@ true
 private
 :
 ~
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 (
 )
 {
@@ -2669,7 +2669,7 @@ true
 ;
 NS_IMPL_ISUPPORTS_INHERITED
 (
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 nsRunnable
 nsIServiceWorkerUnregisterCallback
 )
@@ -2815,12 +2815,12 @@ nullptr
 }
 nsRefPtr
 <
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 >
 runnable
 =
 new
-UnregisterRunnable
+WorkerScopeUnregisterRunnable
 (
 mWorkerPrivate
 promise

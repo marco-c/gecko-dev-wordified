@@ -431,6 +431,9 @@ swm
 >
 Register
 (
+GetOwner
+(
+)
 aOptions
 .
 mScope
