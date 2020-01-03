@@ -12414,10 +12414,7 @@ aWindow
 GetDocumentURI
 (
 )
-getter_Copies
-(
 origin
-)
 )
 ;
 bool

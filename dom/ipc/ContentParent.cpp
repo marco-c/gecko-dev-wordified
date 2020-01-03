@@ -22954,10 +22954,7 @@ principal
 >
 GetOrigin
 (
-getter_Copies
-(
 origin
-)
 )
 ;
 nsRefPtr

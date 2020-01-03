@@ -12269,10 +12269,7 @@ aPrincipal
 >
 GetOrigin
 (
-getter_Copies
-(
 origin
-)
 )
 ;
 NS_ENSURE_SUCCESS

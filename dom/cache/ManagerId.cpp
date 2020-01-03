@@ -341,10 +341,7 @@ aPrincipal
 >
 GetOrigin
 (
-getter_Copies
-(
 origin
-)
 )
 ;
 if

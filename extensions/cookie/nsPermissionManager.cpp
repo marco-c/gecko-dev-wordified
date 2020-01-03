@@ -1094,10 +1094,7 @@ aPrincipal
 >
 GetOrigin
 (
-getter_Copies
-(
 aHost
-)
 )
 ;
 if
