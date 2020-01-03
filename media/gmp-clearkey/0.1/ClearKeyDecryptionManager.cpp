@@ -250,6 +250,7 @@ DestroyTask
 public
 GMPTask
 {
+explicit
 DestroyTask
 (
 ClearKeyDecryptor
