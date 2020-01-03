@@ -1138,7 +1138,7 @@ key
 .
 debugger
 )
-TraceManuallyBarrieredEdge
+Mark
 (
 trc
 &
@@ -1224,7 +1224,7 @@ getTraceKind
 JSTRACE_OBJECT
 )
 ;
-TraceManuallyBarrieredEdge
+Mark
 (
 trc
 reinterpret_cast
@@ -3369,7 +3369,7 @@ it
 .
 *
 /
-TraceEdge
+MarkValue
 (
 trc
 wrapper
@@ -3561,7 +3561,7 @@ unbarrieredGet
 )
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 global_
 .
@@ -3612,7 +3612,7 @@ unbarrieredGet
 )
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 (
 JSObject
@@ -3841,7 +3841,7 @@ if
 gc
 :
 :
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 iterObj
@@ -4012,7 +4012,7 @@ JSTRACE_OBJECT
 ;
 keyDying
 =
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 reinterpret_cast
 <
@@ -4057,7 +4057,7 @@ JSTRACE_STRING
 ;
 keyDying
 =
-IsStringAboutToBeFinalized
+IsStringAboutToBeFinalizedFromAnyThread
 (
 reinterpret_cast
 <
@@ -4102,7 +4102,7 @@ JSTRACE_SCRIPT
 ;
 keyDying
 =
-IsScriptAboutToBeFinalized
+IsScriptAboutToBeFinalizedFromAnyThread
 (
 reinterpret_cast
 <
@@ -4135,7 +4135,7 @@ kind
 bool
 valDying
 =
-IsValueAboutToBeFinalized
+IsValueAboutToBeFinalizedFromAnyThread
 (
 e
 .
@@ -4160,7 +4160,7 @@ key
 debugger
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 key

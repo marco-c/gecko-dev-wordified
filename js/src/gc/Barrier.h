@@ -2339,7 +2339,7 @@ the
 jits
 .
 void
-MarkValueForBarrier
+MarkValueUnbarriered
 (
 JSTracer
 *
@@ -3267,7 +3267,7 @@ js
 gc
 :
 :
-MarkValueForBarrier
+MarkValueUnbarriered
 (
 shadowZone
 -

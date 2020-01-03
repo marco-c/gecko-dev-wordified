@@ -3218,7 +3218,7 @@ setTracingLocation
 prior
 )
 ;
-TraceManuallyBarrieredEdge
+Mark
 (
 trc
 &
@@ -10254,7 +10254,7 @@ groupNoBarrier
 ;
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 &
 group
@@ -10296,7 +10296,7 @@ TaggedProto
 LazyProto
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 key
@@ -10312,7 +10312,7 @@ true
 }
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 e
 .
@@ -10435,7 +10435,7 @@ false
 ;
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 entry
 .
@@ -10452,7 +10452,7 @@ true
 ;
 if
 (
-IsShapeAboutToBeFinalized
+IsShapeAboutToBeFinalizedFromAnyThread
 (
 entry
 .
@@ -10518,7 +10518,7 @@ i
 ;
 if
 (
-IsStringAboutToBeFinalized
+IsStringAboutToBeFinalizedFromAnyThread
 (
 &
 str
@@ -10582,7 +10582,7 @@ i
 ;
 if
 (
-IsSymbolAboutToBeFinalized
+IsSymbolAboutToBeFinalizedFromAnyThread
 (
 &
 sym
@@ -10643,7 +10643,7 @@ groupNoBarrier
 ;
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 &
 group
@@ -10762,7 +10762,7 @@ key
 bool
 keyDying
 =
-IsScriptAboutToBeFinalized
+IsScriptAboutToBeFinalizedFromAnyThread
 (
 &
 key
@@ -10773,7 +10773,7 @@ script
 bool
 valDying
 =
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 e
 .
@@ -10904,7 +10904,7 @@ front
 ;
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsObjectGroupAboutToBeFinalizedFromAnyThread
 (
 entry
 .
@@ -10922,7 +10922,7 @@ entry
 associated
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 entry

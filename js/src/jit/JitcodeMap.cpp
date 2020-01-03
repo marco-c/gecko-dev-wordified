@@ -5356,7 +5356,7 @@ trc
 if
 (
 !
-IsJitCodeMarked
+IsJitCodeMarkedFromAnyThread
 (
 &
 jitcode_
@@ -5397,7 +5397,7 @@ isJitcodeMarkedFromAnyThread
 )
 {
 return
-IsJitCodeMarked
+IsJitCodeMarkedFromAnyThread
 (
 &
 jitcode_
@@ -5451,7 +5451,7 @@ trc
 if
 (
 !
-IsScriptMarked
+IsScriptMarkedFromAnyThread
 (
 &
 script_
@@ -5513,7 +5513,7 @@ isMarkedFromAnyThread
 )
 {
 return
-IsScriptMarked
+IsScriptMarkedFromAnyThread
 (
 &
 script_
@@ -5571,7 +5571,7 @@ i
 if
 (
 !
-IsScriptMarked
+IsScriptMarkedFromAnyThread
 (
 &
 sizedScriptList
@@ -5660,7 +5660,7 @@ if
 TypeSet
 :
 :
-IsTypeMarked
+IsTypeMarkedFromAnyThread
 (
 &
 iter
@@ -5706,7 +5706,7 @@ hasAllocationSite
 &
 &
 !
-IsScriptMarked
+IsScriptMarkedFromAnyThread
 (
 &
 iter
@@ -5754,7 +5754,7 @@ hasConstructor
 &
 &
 !
-IsObjectMarked
+IsObjectMarkedFromAnyThread
 (
 &
 iter
@@ -5999,7 +5999,7 @@ i
 if
 (
 !
-IsScriptMarked
+IsScriptMarkedFromAnyThread
 (
 &
 sizedScriptList
@@ -6085,7 +6085,7 @@ if
 TypeSet
 :
 :
-IsTypeMarked
+IsTypeMarkedFromAnyThread
 (
 &
 iter

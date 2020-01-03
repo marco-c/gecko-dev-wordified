@@ -4584,7 +4584,7 @@ nuke
 to
 cope
 .
-TraceCrossCompartmentEdge
+MarkCrossCompartmentSlot
 (
 trc
 obj
@@ -4599,7 +4599,7 @@ private
 "
 )
 ;
-TraceEdge
+MarkValue
 (
 trc
 proxy
@@ -4663,7 +4663,7 @@ CrossCompartmentWrapperObject
 (
 )
 )
-TraceEdge
+MarkValue
 (
 trc
 proxy

@@ -5255,7 +5255,7 @@ obj
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 obj
@@ -7030,7 +7030,7 @@ get
 ;
 if
 (
-IsScriptAboutToBeFinalized
+IsScriptAboutToBeFinalizedFromAnyThread
 (
 &
 script

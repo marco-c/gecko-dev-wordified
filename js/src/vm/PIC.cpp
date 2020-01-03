@@ -1675,7 +1675,10 @@ shape
 "
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trc
 &
@@ -1688,7 +1691,10 @@ builtin
 "
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trc
 &

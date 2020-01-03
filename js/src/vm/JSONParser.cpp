@@ -399,7 +399,10 @@ j
 +
 +
 )
-TraceRoot
+gc
+:
+:
+MarkValueRoot
 (
 trc
 &
@@ -449,7 +452,10 @@ j
 +
 )
 {
-TraceRoot
+gc
+:
+:
+MarkValueRoot
 (
 trc
 &
@@ -466,7 +472,10 @@ value
 "
 )
 ;
-TraceRoot
+gc
+:
+:
+MarkIdRoot
 (
 trc
 &

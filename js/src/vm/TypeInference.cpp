@@ -4624,7 +4624,7 @@ bool
 TypeSet
 :
 :
-IsTypeMarked
+IsTypeMarkedFromAnyThread
 (
 TypeSet
 :
@@ -4660,7 +4660,7 @@ singletonNoBarrier
 ;
 rv
 =
-IsObjectMarked
+IsObjectMarkedFromAnyThread
 (
 &
 obj
@@ -4702,7 +4702,7 @@ groupNoBarrier
 ;
 rv
 =
-IsObjectGroupMarked
+IsObjectGroupMarkedFromAnyThread
 (
 &
 group

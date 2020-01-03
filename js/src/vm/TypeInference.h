@@ -3386,7 +3386,7 @@ name
 ;
 static
 bool
-IsTypeMarked
+IsTypeMarkedFromAnyThread
 (
 Type
 *

@@ -2140,7 +2140,6 @@ Value
 &
 wrapped
 )
-const
 {
 return
 crossCompartmentWrappers

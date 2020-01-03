@@ -7828,7 +7828,7 @@ staticScope_
 )
 MOZ_ALWAYS_FALSE
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 staticScope_
 .
@@ -12710,7 +12710,7 @@ unsafeGet
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 debugScope
 )
@@ -13020,7 +13020,7 @@ DebugScopeObject
 /
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 scope

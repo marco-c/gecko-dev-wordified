@@ -19498,6 +19498,9 @@ ReferenceTypeDescr
 TYPE_ANY
 :
 {
+js
+:
+:
 HeapValue
 *
 heapValue
@@ -19514,7 +19517,10 @@ HeapValue
 mem
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trace_
 heapValue
@@ -19535,6 +19541,9 @@ ReferenceTypeDescr
 TYPE_OBJECT
 :
 {
+js
+:
+:
 HeapPtrObject
 *
 objectPtr
@@ -19580,6 +19589,9 @@ ReferenceTypeDescr
 TYPE_STRING
 :
 {
+js
+:
+:
 HeapPtrString
 *
 stringPtr

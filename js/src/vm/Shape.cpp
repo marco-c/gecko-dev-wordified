@@ -8543,7 +8543,7 @@ unbarrieredGet
 ;
 if
 (
-IsBaseShapeAboutToBeFinalized
+IsBaseShapeAboutToBeFinalizedFromAnyThread
 (
 &
 base
@@ -9091,8 +9091,7 @@ isObject
 (
 )
 )
-{
-TraceManuallyBarrieredEdge
+Mark
 (
 trc
 reinterpret_cast
@@ -9112,7 +9111,6 @@ proto
 "
 )
 ;
-}
 if
 (
 proto
@@ -10380,7 +10378,7 @@ raw
 ;
 if
 (
-IsShapeAboutToBeFinalized
+IsShapeAboutToBeFinalizedFromAnyThread
 (
 &
 shape
@@ -10397,7 +10395,7 @@ isObject
 )
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 proto

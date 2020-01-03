@@ -731,7 +731,7 @@ script
 MarkExactStackRootList
 <
 jsid
-TraceRoot
+MarkIdRoot
 >
 (
 trc
@@ -746,7 +746,7 @@ id
 MarkExactStackRootList
 <
 Value
-TraceRoot
+MarkValueRoot
 >
 (
 trc
@@ -891,7 +891,10 @@ tag_
 IDARRAY
 )
 ;
-TraceRange
+gc
+:
+:
+MarkIdRange
 (
 trc
 idArray
@@ -901,9 +904,7 @@ length
 idArray
 -
 >
-begin
-(
-)
+vector
 "
 JSAutoIdArray
 .
@@ -963,7 +964,7 @@ this
 >
 idArray
 ;
-TraceRange
+MarkIdRange
 (
 trc
 ida
@@ -973,9 +974,7 @@ length
 ida
 -
 >
-begin
-(
-)
+vector
 "
 JS
 :
@@ -1070,7 +1069,7 @@ this
 >
 vector
 ;
-TraceRootRange
+MarkValueRootRange
 (
 trc
 vector
@@ -1119,7 +1118,7 @@ this
 >
 vector
 ;
-TraceRootRange
+MarkIdRootRange
 (
 trc
 vector
@@ -1188,7 +1187,7 @@ i
 +
 )
 {
-TraceRoot
+MarkIdRoot
 (
 trc
 &
@@ -1207,7 +1206,7 @@ id
 "
 )
 ;
-TraceRoot
+MarkValueRoot
 (
 trc
 &
@@ -1543,7 +1542,7 @@ AutoValueArray
 this
 )
 ;
-TraceRootRange
+MarkValueRootRange
 (
 trc
 array
@@ -2034,13 +2033,13 @@ We
 need
 to
 use
-TraceManuallyBarrieredEdge
+MarkValueUnbarriered
 here
 because
 we
 mark
-*
 wrapper
+*
 roots
 in
 every
@@ -2054,8 +2053,8 @@ some
 rule
 -
 breaking
-*
 in
+*
 RemapAllWrappersForObject
 ;
 see
@@ -2064,7 +2063,7 @@ there
 .
 *
 /
-TraceManuallyBarrieredEdge
+MarkValueUnbarriered
 (
 trc
 &
@@ -2126,13 +2125,13 @@ We
 need
 to
 use
-TraceManuallyBarrieredEdge
+MarkValueUnbarriered
 here
 because
 we
 mark
-*
 wrapper
+*
 roots
 in
 every
@@ -2146,8 +2145,8 @@ some
 rule
 -
 breaking
-*
 in
+*
 RemapAllWrappersForObject
 ;
 see
@@ -2180,7 +2179,7 @@ p
 +
 +
 )
-TraceManuallyBarrieredEdge
+MarkValueUnbarriered
 (
 trc
 &
@@ -2276,7 +2275,7 @@ this
 >
 array
 )
-TraceRootRange
+MarkValueRootRange
 (
 trc
 tag_
@@ -2448,7 +2447,7 @@ JSTracer
 trc
 )
 {
-TraceRoot
+MarkValueRoot
 (
 trc
 reinterpret_cast
@@ -2497,7 +2496,7 @@ base
 "
 )
 ;
-TraceRoot
+MarkIdRoot
 (
 trc
 (
@@ -2595,7 +2594,7 @@ obj
 "
 )
 ;
-TraceRoot
+MarkValueRoot
 (
 trc
 &
@@ -3041,7 +3040,7 @@ jsid
 :
 markChain
 <
-TraceRoot
+MarkIdRoot
 >
 (
 trc
@@ -3065,7 +3064,7 @@ Value
 :
 markChain
 <
-TraceRoot
+MarkValueRoot
 >
 (
 trc
@@ -3316,7 +3315,7 @@ front
 (
 )
 ;
-TraceRoot
+MarkValueRoot
 (
 trc
 entry

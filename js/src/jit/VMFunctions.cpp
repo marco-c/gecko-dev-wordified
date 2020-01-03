@@ -7732,7 +7732,10 @@ Value
 vp
 )
 {
-TraceManuallyBarrieredEdge
+gc
+:
+:
+MarkValueUnbarriered
 (
 &
 rt
