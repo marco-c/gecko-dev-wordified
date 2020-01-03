@@ -87,7 +87,7 @@ C
 )
 1998
 -
-2011
+2014
 International
 Business
 Machines
@@ -1265,7 +1265,7 @@ UChar
 }
 #
 if
-DEBUG
+UCBUF_DEBUG
 memset
 (
 pTarget
@@ -2051,7 +2051,7 @@ pTarget
 ;
 #
 if
-DEBUG
+UCBUF_DEBUG
 {
 int
 i
@@ -4992,8 +4992,6 @@ c
 &
 &
 temp
-+
-1
 <
 =
 buf
@@ -5003,11 +5001,7 @@ bufLimit
 &
 &
 *
-(
 temp
-+
-1
-)
 =
 =
 0x0a
@@ -5197,8 +5191,6 @@ c
 &
 &
 temp
-+
-1
 <
 =
 buf
@@ -5208,11 +5200,7 @@ bufLimit
 &
 &
 *
-(
 temp
-+
-1
-)
 =
 =
 0x0a

@@ -355,6 +355,10 @@ const
 char
 *
 outputDir
+const
+char
+*
+filename
 UBool
 makeBinaryCollation
 UBool

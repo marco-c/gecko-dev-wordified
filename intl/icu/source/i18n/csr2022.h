@@ -77,7 +77,7 @@ C
 )
 2005
 -
-2012
+2015
 International
 Business
 Machines
@@ -424,6 +424,10 @@ const
 ;
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 class
 CharsetRecog_2022KR
 :
@@ -496,6 +500,8 @@ const
 ;
 }
 ;
+#
+endif
 U_NAMESPACE_END
 #
 endif

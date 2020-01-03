@@ -84,13 +84,12 @@ C
 )
 1996
 -
-2011
+2014
 International
 Business
 Machines
 Corporation
 and
-*
 *
 others
 .
@@ -98,7 +97,6 @@ All
 Rights
 Reserved
 .
-*
 *
 *
 *
@@ -834,7 +832,7 @@ current_length
 nfd
 (
 *
-Normalizer2Factory
+Normalizer2
 :
 :
 getNFDInstance
@@ -2247,8 +2245,7 @@ NULL
 int32_t
 el
 =
--
-1
+UHASH_FIRST
 ;
 UnicodeString
 subPermuteString
@@ -2761,8 +2758,7 @@ NULL
 int32_t
 el
 =
--
-1
+UHASH_FIRST
 ;
 /
 /
@@ -2860,8 +2856,7 @@ NULL
 int32_t
 el2
 =
--
-1
+UHASH_FIRST
 ;
 /
 /
@@ -3240,8 +3235,7 @@ result_len
 ;
 el
 =
--
-1
+UHASH_FIRST
 ;
 ne
 =
@@ -3541,8 +3535,7 @@ cp2
 int32_t
 el
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

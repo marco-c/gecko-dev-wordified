@@ -87,7 +87,7 @@ C
 )
 2012
 -
-2013
+2014
 International
 Business
 Machines
@@ -310,9 +310,6 @@ form
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 #
 include
 "
@@ -550,7 +547,7 @@ ignored
 p
 >
 *
-draft
+stable
 ICU
 51
 *
@@ -604,7 +601,7 @@ returned
 here
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -646,7 +643,7 @@ copied
 from
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -666,7 +663,7 @@ source
 Destructor
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -696,7 +693,7 @@ be
 copied
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -746,7 +743,7 @@ this
 CompactDecimalFormat
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -807,7 +804,7 @@ semantically
 equal
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -907,7 +904,7 @@ appendTo
 parameter
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -1122,7 +1119,7 @@ appendTo
 parameter
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -1735,7 +1732,7 @@ change
 see
 Formattable
 *
-draft
+stable
 ICU
 51
 *
@@ -1796,7 +1793,7 @@ to
 U_UNSUPPORTED_ERROR
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -1818,24 +1815,6 @@ status
 )
 const
 ;
-/
-*
-Cannot
-use
-#
-ifndef
-U_HIDE_INTERNAL_API
-for
-the
-following
-draft
-method
-since
-it
-is
-virtual
-*
-/
 /
 *
 *
@@ -2147,7 +2126,7 @@ this
 class
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -2247,7 +2226,7 @@ class
 IDs
 .
 *
-draft
+stable
 ICU
 51
 *
@@ -2313,13 +2292,6 @@ const
 }
 ;
 U_NAMESPACE_END
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

@@ -87,7 +87,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -761,6 +761,9 @@ leadByte
 \
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 <
@@ -768,6 +771,9 @@ leadByte
 ?
 \
 (
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -778,6 +784,9 @@ leadByte
 +
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 >
@@ -786,6 +795,9 @@ leadByte
 )
 :
 \
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -796,6 +808,9 @@ leadByte
 +
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 >
@@ -804,6 +819,9 @@ leadByte
 )
 +
 (
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -2284,9 +2302,6 @@ c
 ;
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2494,7 +2509,7 @@ error
 see
 U8_GET
 *
-draft
+stable
 ICU
 51
 *
@@ -2537,13 +2552,6 @@ c
 ;
 \
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 definitions
@@ -3532,9 +3540,6 @@ c
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3740,7 +3745,7 @@ error
 see
 U8_NEXT
 *
-draft
+stable
 ICU
 51
 *
@@ -4115,13 +4120,6 @@ c
 }
 \
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -6412,9 +6410,6 @@ c
 }
 \
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -6631,7 +6626,7 @@ error
 see
 U8_PREV
 *
-draft
+stable
 ICU
 51
 *
@@ -6703,13 +6698,6 @@ c
 }
 \
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

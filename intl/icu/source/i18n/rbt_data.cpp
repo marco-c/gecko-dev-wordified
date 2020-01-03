@@ -77,7 +77,7 @@ C
 )
 1999
 -
-2011
+2014
 International
 Business
 Machines
@@ -420,8 +420,7 @@ uprv_deleteUObject
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -652,8 +651,8 @@ n
 0
 ;
 n
-+
-+
+-
+-
 )
 {
 delete

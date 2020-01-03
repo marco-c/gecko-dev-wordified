@@ -77,7 +77,7 @@ c
 )
 2001
 -
-2008
+2014
 International
 Business
 Machines
@@ -3421,6 +3421,13 @@ class
 }
 ;
 U_NAMESPACE_END
+U_CFUNC
+UBool
+utrans_transliterator_cleanup
+(
+void
+)
+;
 #
 endif
 /

@@ -87,7 +87,7 @@ C
 )
 2001
 -
-2005
+2014
 International
 Business
 Machines
@@ -324,13 +324,6 @@ h
 include
 "
 charstr
-.
-h
-"
-#
-include
-"
-ucln_cmn
 .
 h
 "
@@ -752,6 +745,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 id
 :
@@ -769,6 +765,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 kind
 :
@@ -804,6 +803,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 SimpleLocaleKeyFactory
 "

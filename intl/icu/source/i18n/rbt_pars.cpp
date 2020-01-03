@@ -77,7 +77,7 @@ C
 )
 1999
 -
-2011
+2014
 International
 Business
 Machines
@@ -8488,8 +8488,7 @@ removeAll
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

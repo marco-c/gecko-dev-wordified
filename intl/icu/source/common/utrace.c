@@ -86,7 +86,7 @@ C
 )
 2003
 -
-2008
+2014
 International
 Business
 Machines
@@ -2941,6 +2941,12 @@ ucol_nextSortKeyPart
 "
 "
 ucol_strcollIter
+"
+"
+ucol_openFromShortString
+"
+"
+ucol_strcollUTF8
 "
 NULL
 }

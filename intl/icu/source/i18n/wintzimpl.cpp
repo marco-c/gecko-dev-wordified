@@ -87,7 +87,7 @@ C
 )
 2009
 -
-2011
+2013
 International
 Business
 Machines
@@ -281,6 +281,10 @@ h
 #
 if
 U_PLATFORM_HAS_WIN32_API
+&
+&
+!
+UCONFIG_NO_FORMATTING
 #
 include
 "

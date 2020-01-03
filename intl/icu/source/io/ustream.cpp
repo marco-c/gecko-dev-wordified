@@ -77,7 +77,7 @@ C
 )
 2001
 -
-2011
+2014
 International
 Business
 Machines
@@ -281,6 +281,10 @@ utypes
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_CONVERSION
 #
 include
 "
@@ -1152,5 +1156,7 @@ stream
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif

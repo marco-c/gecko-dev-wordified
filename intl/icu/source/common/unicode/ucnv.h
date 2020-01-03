@@ -77,7 +77,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -5970,6 +5970,13 @@ of
 bytes
 per
 UChar
+(
+16
+bit
+code
+unit
+)
+*
 that
 are
 output
@@ -5984,6 +5991,7 @@ used
 together
 with
 UCNV_GET_MAX_BYTES_FOR_STRING
+*
 for
 buffer
 allocation
@@ -6209,6 +6217,10 @@ the
 minimum
 byte
 length
+(
+per
+codepoint
+)
 for
 characters
 in
@@ -6237,6 +6249,8 @@ minimum
 number
 of
 bytes
+per
+codepoint
 allowed
 by
 this

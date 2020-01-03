@@ -86,7 +86,7 @@ C
 )
 1998
 -
-2006
+2014
 International
 Business
 Machines
@@ -363,6 +363,10 @@ ustr_cnv
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_CONVERSION
 #
 define
 DIGIT_0
@@ -1558,3 +1562,5 @@ return
 target
 ;
 }
+#
+endif

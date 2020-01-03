@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2011
+2014
 International
 Business
 Machines
@@ -2057,8 +2057,7 @@ return
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -2231,8 +2230,7 @@ return
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

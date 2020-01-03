@@ -87,7 +87,7 @@ C
 )
 2001
 -
-2012
+2014
 International
 Business
 Machines
@@ -584,6 +584,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 id
 :
@@ -619,6 +622,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 ICUServiceKey
 "
@@ -941,6 +947,9 @@ toAppendTo
 .
 append
 (
+(
+UnicodeString
+)
 "
 id
 :
@@ -958,6 +967,9 @@ toAppendTo
 .
 append
 (
+(
+UnicodeString
+)
 "
 visible
 :
@@ -970,10 +982,16 @@ append
 (
 _visible
 ?
+(
+UnicodeString
+)
 "
 T
 "
 :
+(
+UnicodeString
+)
 "
 F
 "
@@ -1001,6 +1019,9 @@ toAppendTo
 .
 append
 (
+(
+UnicodeString
+)
 "
 SimpleFactory
 "
@@ -3512,8 +3533,7 @@ for
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 ;
 )
@@ -4266,8 +4286,7 @@ result
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -4467,8 +4486,7 @@ be
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

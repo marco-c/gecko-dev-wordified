@@ -86,7 +86,7 @@ C
 )
 1997
 -
-2013
+2014
 International
 Business
 Machines
@@ -388,6 +388,13 @@ digitlst
 .
 h
 "
+#
+include
+"
+fmtableimp
+.
+h
+"
 /
 /
 *
@@ -555,13 +562,6 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 (
 Formattable
 )
-#
-include
-"
-fmtableimp
-.
-h
-"
 /
 /
 -

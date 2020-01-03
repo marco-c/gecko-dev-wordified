@@ -86,6 +86,8 @@ Copyright
 C
 )
 2013
+-
+2014
 International
 Business
 Machines
@@ -415,9 +417,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -465,7 +464,7 @@ Formattable
 :
 Type
 *
-draft
+stable
 ICU
 52
 *
@@ -643,7 +642,7 @@ icu
 :
 Formattable
 *
-draft
+stable
 ICU
 52
 *
@@ -691,7 +690,7 @@ example
 code
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -715,7 +714,7 @@ Formattable
 )
 *
 /
-U_DRAFT
+U_STABLE
 UFormattable
 *
 U_EXPORT2
@@ -745,7 +744,7 @@ fmt
 the
 formatter
 *
-draft
+stable
 ICU
 52
 *
@@ -753,7 +752,7 @@ see
 ufmt_open
 *
 /
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ufmt_close
@@ -806,7 +805,7 @@ LocalPointerBase
 see
 LocalPointer
 *
-draft
+stable
 ICU
 52
 *
@@ -880,12 +879,12 @@ getType
 )
 const
 *
-draft
+stable
 ICU
 52
 *
 /
-U_DRAFT
+U_STABLE
 UFormattableType
 U_EXPORT2
 ufmt_getType
@@ -948,12 +947,12 @@ isNumeric
 )
 const
 *
-draft
+stable
 ICU
 52
 *
 /
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 ufmt_isNumeric
@@ -1021,7 +1020,7 @@ return
 the
 value
 *
-draft
+stable
 ICU
 52
 *
@@ -1040,7 +1039,7 @@ UErrorCode
 const
 *
 /
-U_DRAFT
+U_STABLE
 UDate
 U_EXPORT2
 ufmt_getDate
@@ -1175,7 +1174,7 @@ return
 the
 value
 *
-draft
+stable
 ICU
 52
 *
@@ -1194,7 +1193,7 @@ UErrorCode
 const
 *
 /
-U_DRAFT
+U_STABLE
 double
 U_EXPORT2
 ufmt_getDouble
@@ -1373,7 +1372,7 @@ return
 the
 value
 *
-draft
+stable
 ICU
 52
 *
@@ -1392,7 +1391,7 @@ UErrorCode
 const
 *
 /
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ufmt_getLong
@@ -1556,7 +1555,7 @@ return
 the
 value
 *
-draft
+stable
 ICU
 52
 *
@@ -1575,7 +1574,7 @@ UErrorCode
 const
 *
 /
-U_DRAFT
+U_STABLE
 int64_t
 U_EXPORT2
 ufmt_getInt64
@@ -1660,7 +1659,7 @@ C
 object
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -1677,7 +1676,7 @@ getObject
 const
 *
 /
-U_DRAFT
+U_STABLE
 const
 void
 *
@@ -1825,7 +1824,7 @@ this
 UFormattable
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -1844,7 +1843,7 @@ UnicodeString
 const
 *
 /
-U_DRAFT
+U_STABLE
 const
 UChar
 *
@@ -1919,7 +1918,7 @@ an
 array
 type
 *
-draft
+stable
 ICU
 52
 *
@@ -1927,7 +1926,7 @@ see
 ufmt_getArrayItemByIndex
 *
 /
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ufmt_getArrayLength
@@ -2031,7 +2030,7 @@ an
 array
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -2052,7 +2051,7 @@ UErrorCode
 const
 *
 /
-U_DRAFT
+U_STABLE
 UFormattable
 *
 U_EXPORT2
@@ -2265,7 +2264,7 @@ this
 object
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -2283,7 +2282,7 @@ UErrorCode
 )
 *
 /
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -2301,13 +2300,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 #

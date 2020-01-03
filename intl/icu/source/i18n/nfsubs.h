@@ -85,7 +85,7 @@ C
 )
 1997
 -
-2007
+2014
 International
 Business
 Machines
@@ -923,6 +923,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -1023,6 +1026,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;

@@ -87,7 +87,7 @@ C
 )
 1997
 -
-2013
+2014
 International
 Business
 Machines
@@ -4041,9 +4041,6 @@ getStaticClassID
 (
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4100,7 +4097,7 @@ in
 scope
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -4174,7 +4171,7 @@ in
 scope
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -4234,7 +4231,7 @@ in
 scope
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -4288,7 +4285,7 @@ in
 scope
 .
 *
-draft
+stable
 ICU
 52
 *
@@ -4302,13 +4299,6 @@ toUFormattable
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -4788,9 +4778,6 @@ endif
 U_HIDE_DEPRECATED_API
 *
 /
-#
-ifndef
-U_HIDE_DRAFT_API
 inline
 UFormattable
 *
@@ -4887,13 +4874,6 @@ fmt
 )
 ;
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 U_NAMESPACE_END
 #
 endif

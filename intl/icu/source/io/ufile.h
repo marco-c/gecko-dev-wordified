@@ -87,7 +87,7 @@ C
 )
 1998
 -
-2010
+2014
 International
 Business
 Machines
@@ -314,6 +314,10 @@ utypes
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_CONVERSION
 #
 include
 "
@@ -871,5 +875,7 @@ UFILE
 f
 )
 ;
+#
+endif
 #
 endif

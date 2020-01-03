@@ -85,7 +85,7 @@ C
 )
 2010
 -
-2012
+2014
 International
 Business
 Machines
@@ -452,9 +452,6 @@ UDialectHandling
 dialectHandling
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -524,7 +521,7 @@ a
 LocaleDisplayNames
 instance
 *
-draft
+stable
 ICU
 51
 *
@@ -546,13 +543,6 @@ int32_t
 length
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 /
 getters
@@ -681,7 +671,7 @@ specified
 type
 .
 *
-draft
+stable
 ICU
 51
 *

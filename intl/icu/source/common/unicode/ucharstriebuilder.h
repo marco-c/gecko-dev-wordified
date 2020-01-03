@@ -86,7 +86,7 @@ C
 )
 2010
 -
-2013
+2014
 International
 Business
 Machines
@@ -1215,9 +1215,6 @@ UCharsTrie
 kMaxLinearMatchLength
 ;
 }
-#
-ifndef
-U_HIDE_INTERNAL_API
 class
 UCTLinearMatchNode
 :
@@ -1270,8 +1267,6 @@ s
 ;
 }
 ;
-#
-endif
 virtual
 Node
 *

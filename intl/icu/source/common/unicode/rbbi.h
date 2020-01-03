@@ -82,7 +82,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -606,6 +606,11 @@ p
 class
 U_COMMON_API
 RuleBasedBreakIterator
+/
+*
+U_FINAL
+*
+/
 :
 public
 BreakIterator
@@ -3128,6 +3133,8 @@ beginning
 of
 the
 text
+position
+zero
 .
 *
 return
@@ -3139,6 +3146,7 @@ beginning
 of
 the
 text
+zero
 .
 *
 stable

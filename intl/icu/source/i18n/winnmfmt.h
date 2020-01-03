@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2013
+2014
 International
 Business
 Machines
@@ -1127,6 +1127,7 @@ numDigits
 UnicodeString
 &
 appendTo
+const
 wchar_t
 *
 format

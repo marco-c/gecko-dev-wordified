@@ -86,7 +86,7 @@ C
 )
 1996
 -
-2011
+2014
 International
 Business
 Machines
@@ -853,6 +853,7 @@ ICU
 class
 U_COMMON_API
 CanonicalIterator
+U_FINAL
 :
 public
 UObject

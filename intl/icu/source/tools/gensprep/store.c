@@ -87,7 +87,7 @@ C
 )
 1999
 -
-2012
+2014
 International
 Business
 Machines
@@ -1777,8 +1777,7 @@ storeMappingData
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

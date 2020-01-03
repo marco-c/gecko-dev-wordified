@@ -77,7 +77,7 @@ C
 )
 2000
 -
-2011
+2015
 International
 Business
 Machines
@@ -229,6 +229,10 @@ UCONFIG_NO_CONVERSION
 &
 !
 UCONFIG_NO_LEGACY_CONVERSION
+&
+&
+!
+UCONFIG_ONLY_HTML_CONVERSION
 #
 include
 "
@@ -2758,11 +2762,6 @@ args
 source
 )
 ;
-int32_t
-length
-=
-0
-;
 uint32_t
 targetUniChar
 =
@@ -2802,8 +2801,6 @@ isTargetUCharDBCS
 ;
 UBool
 oldIsTargetUCharDBCS
-=
-isTargetUCharDBCS
 ;
 int
 len
@@ -3006,10 +3003,6 @@ mySourceChar
 0x7f
 )
 {
-length
-=
-1
-;
 targetUniChar
 =
 mySourceChar
@@ -3017,6 +3010,7 @@ mySourceChar
 }
 else
 {
+int32_t
 length
 =
 ucnv_MBCSFromUChar32
@@ -4467,6 +4461,14 @@ endif
 #
 if
 !
+UCONFIG_NO_CONVERSION
+&
+&
+!
 UCONFIG_NO_LEGACY_CONVERSION
+&
+&
+!
+UCONFIG_ONLY_HTML_CONVERSION
 *
 /

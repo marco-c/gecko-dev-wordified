@@ -87,6 +87,7 @@ C
 2010
 -
 2012
+2014
 International
 Business
 Machines
@@ -1159,6 +1160,13 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
+/
+*
+U_HIDE_INTERNAL_API
+*
+/
 /
 *
 *
@@ -1316,6 +1324,9 @@ UHashtable
 *
 nodes
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 /
 *
 *

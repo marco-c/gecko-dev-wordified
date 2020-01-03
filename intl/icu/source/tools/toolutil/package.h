@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2013
+2014
 International
 Business
 Machines
@@ -314,7 +314,7 @@ STRING_STORE_SIZE
 #
 define
 MAX_PKG_NAME_LENGTH
-32
+64
 typedef
 void
 CheckDependency

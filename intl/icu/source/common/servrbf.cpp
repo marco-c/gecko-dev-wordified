@@ -87,7 +87,7 @@ C
 )
 2001
 -
-2005
+2014
 International
 Business
 Machines
@@ -623,6 +623,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 bundle
 :
@@ -656,6 +659,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 ICUResourceBundleFactory
 "

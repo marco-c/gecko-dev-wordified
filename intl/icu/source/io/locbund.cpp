@@ -87,7 +87,7 @@ C
 )
 1998
 -
-2013
+2014
 International
 Business
 Machines
@@ -320,6 +320,10 @@ h
 if
 !
 UCONFIG_NO_FORMATTING
+&
+&
+!
+UCONFIG_NO_CONVERSION
 #
 include
 "

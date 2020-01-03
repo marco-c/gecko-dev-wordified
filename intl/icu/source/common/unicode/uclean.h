@@ -85,7 +85,7 @@ C
 )
 2001
 -
-2013
+2014
 International
 Business
 Machines
@@ -1388,6 +1388,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 /
 *
 *
@@ -2409,6 +2412,13 @@ UErrorCode
 status
 )
 ;
+#
+endif
+/
+*
+U_HIDE_DEPRECATED_API
+*
+/
 #
 endif
 /

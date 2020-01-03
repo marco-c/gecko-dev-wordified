@@ -86,7 +86,7 @@ C
 )
 1998
 -
-2012
+2014
 International
 Business
 Machines
@@ -9819,7 +9819,7 @@ STRLEN
 DEREF
 )
 \
-int32_t
+uint32_t
 hash
 =
 0
@@ -9914,7 +9914,13 @@ inc
 }
 \
 return
+static_cast
+<
+int32_t
+>
+(
 hash
+)
 /
 *
 Used

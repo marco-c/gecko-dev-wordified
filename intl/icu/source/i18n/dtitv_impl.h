@@ -87,6 +87,7 @@ C
 2007
 -
 2008
+2014
 International
 Business
 Machines
@@ -738,6 +739,15 @@ CAP_T
 UChar
 )
 0x0054
+)
+#
+define
+CAP_U
+(
+(
+UChar
+)
+0x0055
 )
 #
 define

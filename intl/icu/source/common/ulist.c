@@ -85,7 +85,7 @@ C
 )
 2009
 -
-2012
+2014
 International
 Business
 Machines
@@ -1063,12 +1063,6 @@ listHead
 =
 NULL
 ;
-UListNode
-*
-listPointer
-=
-NULL
-;
 if
 (
 list
@@ -1084,10 +1078,6 @@ list
 >
 head
 ;
-listPointer
-=
-listHead
-;
 while
 (
 listHead
@@ -1096,6 +1086,8 @@ listHead
 NULL
 )
 {
+UListNode
+*
 listPointer
 =
 listHead

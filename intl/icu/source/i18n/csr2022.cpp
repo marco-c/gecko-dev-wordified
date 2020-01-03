@@ -77,7 +77,7 @@ C
 )
 2005
 -
-2012
+2015
 International
 Business
 Machines
@@ -872,6 +872,10 @@ ISO
 7
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 uint8_t
@@ -1057,6 +1061,8 @@ SS2
 SS3
 }
 ;
+#
+endif
 CharsetRecog_2022JP
 :
 :
@@ -1140,6 +1146,10 @@ confidence
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 CharsetRecog_2022KR
 :
 :
@@ -1306,6 +1316,8 @@ confidence
 )
 ;
 }
+#
+endif
 CharsetRecog_2022
 :
 :

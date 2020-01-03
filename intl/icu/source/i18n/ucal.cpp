@@ -86,7 +86,7 @@ C
 )
 1996
 -
-2013
+2015
 International
 Business
 Machines
@@ -4140,9 +4140,6 @@ return
 FALSE
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -4344,13 +4341,6 @@ return
 resultLen
 ;
 }
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 endif
 /

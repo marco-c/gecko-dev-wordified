@@ -77,7 +77,7 @@ C
 )
 2005
 -
-2013
+2015
 International
 Business
 Machines
@@ -259,6 +259,15 @@ hitCount
 =
 0
 ;
+}
+NGramParser
+:
+:
+~
+NGramParser
+(
+)
+{
 }
 /
 *
@@ -787,6 +796,10 @@ rawPercent
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 uint8_t
@@ -1620,6 +1633,8 @@ mb
 }
 }
 }
+#
+endif
 CharsetRecog_sbcs
 :
 :
@@ -4575,6 +4590,10 @@ charMap_KOI8_R
 0xDF
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 int32_t
@@ -5667,6 +5686,8 @@ F
 0x40
 }
 ;
+#
+endif
 /
 /
 ISO
@@ -8527,6 +8548,10 @@ confidence
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 CharsetRecog_IBM424_he
 :
 :
@@ -8930,6 +8955,8 @@ confidence
 )
 ;
 }
+#
+endif
 U_NAMESPACE_END
 #
 endif

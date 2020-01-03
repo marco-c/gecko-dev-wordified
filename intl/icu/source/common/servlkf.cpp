@@ -87,7 +87,7 @@ C
 )
 2001
 -
-2005
+2014
 International
 Business
 Machines
@@ -604,7 +604,7 @@ NULL
 int32_t
 pos
 =
-0
+UHASH_FIRST
 ;
 while
 (
@@ -942,6 +942,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 name
 :
@@ -959,6 +962,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 coverage
 :
@@ -994,6 +1000,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 LocaleKeyFactory
 "

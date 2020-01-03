@@ -88,7 +88,7 @@ C
 )
 1996
 -
-2013
+2014
 International
 Business
 Machines
@@ -3579,6 +3579,10 @@ udbg_knownIssue_close
 knownList
 )
 ;
+knownList
+=
+NULL
+;
 }
 if
 (
@@ -4574,6 +4578,8 @@ s
 )
 %
 s
+\
+n
 "
 ticket
 buf
@@ -4594,6 +4600,8 @@ s
 )
 %
 s
+\
+n
 "
 ticket
 buf

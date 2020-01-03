@@ -82,7 +82,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -318,6 +318,7 @@ Forward
 Declarations
 .
 void
+U_CALLCONV
 UnicodeSet_initInclusion
 (
 int32_t
@@ -3763,6 +3764,7 @@ ICU
 class
 U_COMMON_API
 UnicodeSet
+U_FINAL
 :
 public
 UnicodeFilter
@@ -14363,6 +14365,7 @@ ec
 ;
 friend
 void
+U_CALLCONV
 UnicodeSet_initInclusion
 (
 int32_t

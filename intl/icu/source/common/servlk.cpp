@@ -87,7 +87,7 @@ C
 )
 2001
 -
-2004
+2014
 International
 Business
 Machines
@@ -324,13 +324,6 @@ h
 include
 "
 charstr
-.
-h
-"
-#
-include
-"
-ucln_cmn
 .
 h
 "
@@ -1000,6 +993,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 kind
 :
@@ -1017,6 +1013,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 primaryID
 :
@@ -1034,6 +1033,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 fallbackID
 :
@@ -1051,6 +1053,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 currentID
 :
@@ -1086,6 +1091,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 LocaleKey
 "

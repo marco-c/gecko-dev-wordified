@@ -333,6 +333,7 @@ U_NAMESPACE_BEGIN
 Forward
 Declaration
 void
+U_CALLCONV
 GenderInfo_initCache
 (
 UErrorCode
@@ -743,6 +744,7 @@ GenderInfoTest
 ;
 friend
 void
+U_CALLCONV
 GenderInfo_initCache
 (
 UErrorCode

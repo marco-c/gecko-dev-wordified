@@ -84,7 +84,7 @@ C
 )
 1996
 -
-2013
+2014
 International
 Business
 Machines
@@ -394,6 +394,9 @@ declaration
 /
 class
 RuleBasedCollator
+;
+class
+CollationKeyByteSink
 ;
 /
 *

@@ -76,6 +76,8 @@ Copyright
 C
 )
 2009
+-
+2014
 International
 Business
 Machines
@@ -216,6 +218,14 @@ U_ICUDATA_NAME
 U_TREE_SEPARATOR_STRING
 "
 zone
+"
+#
+define
+U_ICUDATA_UNIT
+U_ICUDATA_NAME
+U_TREE_SEPARATOR_STRING
+"
+unit
 "
 U_CDECL_END
 #

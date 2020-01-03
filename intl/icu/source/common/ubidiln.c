@@ -86,7 +86,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -1160,15 +1160,12 @@ start
 &
 DIRPROP_FLAG
 (
-PURE_DIRPROP
-(
 dirProps
 [
 start
 -
 1
 ]
-)
 )
 &
 MASK_WS

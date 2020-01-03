@@ -86,7 +86,7 @@ C
 )
 2001
 -
-2013
+2014
 International
 Business
 Machines
@@ -2580,6 +2580,7 @@ int32_t
 U_EXPORT2
 utrie2_serialize
 (
+const
 UTrie2
 *
 trie

@@ -86,8 +86,7 @@ C
 )
 2008
 -
-2011
-2013
+2014
 International
 Business
 Machines
@@ -1540,6 +1539,7 @@ ICU
 class
 U_I18N_API
 DateIntervalInfo
+U_FINAL
 :
 public
 UObject

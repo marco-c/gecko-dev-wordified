@@ -86,7 +86,7 @@ C
 )
 1997
 -
-2011
+2015
 International
 Business
 Machines
@@ -831,6 +831,12 @@ U_REGEX_TIME_OUT
 "
 "
 U_REGEX_STOPPED_BY_CALLER
+"
+"
+U_REGEX_PATTERN_TOO_BIG
+"
+"
+U_REGEX_INVALID_CAPTURE_GROUP_NAME
 "
 }
 ;

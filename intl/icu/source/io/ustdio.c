@@ -86,7 +86,7 @@ C
 )
 1998
 -
-2011
+2014
 International
 Business
 Machines
@@ -320,6 +320,10 @@ ustdio
 .
 h
 "
+#
+if
+!
+UCONFIG_NO_CONVERSION
 #
 include
 "
@@ -4381,3 +4385,5 @@ return
 read
 ;
 }
+#
+endif

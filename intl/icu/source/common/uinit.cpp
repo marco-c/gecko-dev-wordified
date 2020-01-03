@@ -446,6 +446,8 @@ uinit_cleanup
 )
 ;
 }
+U_NAMESPACE_END
+U_NAMESPACE_USE
 /
 *
 *
@@ -491,4 +493,3 @@ status
 )
 ;
 }
-U_NAMESPACE_END

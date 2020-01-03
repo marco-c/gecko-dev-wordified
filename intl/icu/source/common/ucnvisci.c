@@ -77,7 +77,7 @@ C
 )
 2000
 -
-2012
+2015
 International
 Business
 Machines
@@ -235,6 +235,10 @@ UCONFIG_NO_CONVERSION
 &
 !
 UCONFIG_NO_LEGACY_CONVERSION
+&
+&
+!
+UCONFIG_ONLY_HTML_CONVERSION
 #
 include
 "

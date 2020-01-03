@@ -86,7 +86,7 @@ C
 )
 2010
 -
-2013
+2014
 International
 Business
 Machines
@@ -1196,9 +1196,6 @@ BytesTrie
 kMaxLinearMatchLength
 ;
 }
-#
-ifndef
-U_HIDE_INTERNAL_API
 /
 *
 *
@@ -1258,13 +1255,6 @@ s
 ;
 }
 ;
-#
-endif
-/
-*
-U_HIDE_INTERNAL_API
-*
-/
 virtual
 Node
 *
