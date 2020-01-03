@@ -3655,6 +3655,8 @@ rv
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 ReleaseMediaOperationResource
 (
@@ -3667,6 +3669,7 @@ mOnTracksAvailableCallback
 .
 forget
 (
+)
 )
 )
 )
@@ -3707,6 +3710,8 @@ log
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 ErrorCallbackRunnable
 <
@@ -3718,6 +3723,7 @@ mOnFailure
 *
 error
 mWindowID
+)
 )
 )
 ;
@@ -6463,6 +6469,10 @@ mOnFailure
 NS_DispatchToMainThread
 (
 runnable
+.
+forget
+(
+)
 )
 ;
 /
@@ -6482,11 +6492,14 @@ window
 list
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 GetUserMediaListenerRemove
 (
 mWindowID
 mListener
+)
 )
 )
 ;
@@ -6725,6 +6738,8 @@ mPeerIdentity
 }
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 GetUserMediaStreamRunnable
 (
@@ -6757,6 +6772,7 @@ GetSource
 nullptr
 )
 peerIdentity
+)
 )
 )
 ;
@@ -7715,6 +7731,8 @@ forget
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 NewRunnableFrom
 (
 [
@@ -7796,6 +7814,7 @@ return
 NS_OK
 ;
 }
+)
 )
 )
 ;
@@ -14098,6 +14117,10 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 mReply
+.
+forget
+(
+)
 )
 )
 )
@@ -17029,11 +17052,14 @@ been
 activated
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 GetUserMediaListenerRemove
 (
 mWindowID
 this
+)
 )
 )
 ;

@@ -315,6 +315,10 @@ thread
 Dispatch
 (
 runnable_ref
+.
+forget
+(
+)
 flags
 )
 ;
