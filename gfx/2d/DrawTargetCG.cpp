@@ -11201,6 +11201,16 @@ create
 CG
 context
 "
+<
+<
+mSize
+<
+<
+"
+"
+<
+<
+aStride
 ;
 return
 false
@@ -11881,6 +11891,9 @@ context
 at
 Init
 "
+<
+<
+aSize
 ;
 return
 false
