@@ -535,6 +535,9 @@ UpdateRootFrame
 nsIDOMWindowUtils
 *
 aUtils
+nsIPresShell
+*
+aPresShell
 FrameMetrics
 &
 aMetrics
