@@ -874,6 +874,13 @@ TouchManager
 .
 h
 "
+#
+include
+"
+MediaDecoder
+.
+h
+"
 using
 namespace
 mozilla
@@ -1689,6 +1696,13 @@ Initialize
 ;
 #
 endif
+MediaDecoder
+:
+:
+InitStatics
+(
+)
+;
 return
 NS_OK
 ;
