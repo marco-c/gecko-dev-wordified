@@ -1993,7 +1993,7 @@ ServiceWorkerManager
 ServiceWorkerManager
 :
 :
-FactoryCreate
+GetInstance
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
