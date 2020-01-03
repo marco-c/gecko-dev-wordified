@@ -770,7 +770,7 @@ dispatcher
 ;
 var
 conversationAppStore
-localRoomStore
+roomStore
 ;
 function
 mountTestComponent
@@ -795,9 +795,9 @@ client
 conversation
 :
 conversation
-localRoomStore
+roomStore
 :
-localRoomStore
+roomStore
 sdk
 :
 {
@@ -920,14 +920,14 @@ sdkDriver
 }
 )
 ;
-localRoomStore
+roomStore
 =
 new
 loop
 .
 store
 .
-LocalRoomStore
+RoomStore
 (
 {
 mozLoop
