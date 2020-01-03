@@ -2313,6 +2313,12 @@ if
 this
 .
 _editing
+|
+|
+!
+this
+.
+isHandlingFocus
 )
 {
 return
