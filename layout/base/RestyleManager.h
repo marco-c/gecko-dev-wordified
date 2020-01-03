@@ -3102,10 +3102,6 @@ aRestyleHint
 uint32_t
 *
 aSwappedStructs
-nsIFrame
-*
-*
-aProviderFrame
 )
 ;
 /
