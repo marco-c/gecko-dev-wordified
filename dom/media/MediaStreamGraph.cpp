@@ -8701,9 +8701,9 @@ GetCurrentTimeStamp
 TimeDuration
 :
 :
-FromMilliseconds
+FromSeconds
 (
-double
+MediaTimeToSeconds
 (
 startTime
 -
