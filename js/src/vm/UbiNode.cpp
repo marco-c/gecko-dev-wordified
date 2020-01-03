@@ -564,6 +564,9 @@ Node
 ConstructFunctor
 :
 public
+js
+:
+:
 BoolDefaultAdaptor
 <
 Value
@@ -617,6 +620,12 @@ void
 ptr
 )
 {
+js
+:
+:
+gc
+:
+:
 CallTyped
 (
 ConstructFunctor

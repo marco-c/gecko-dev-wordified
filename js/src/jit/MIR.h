@@ -52654,14 +52654,14 @@ MOZ_ASSERT_IF
 group
 -
 >
-maybeUnboxedLayout
+maybeUnboxedLayoutDontCheckGeneration
 (
 )
 !
 group
 -
 >
-unboxedLayout
+unboxedLayoutDontCheckGeneration
 (
 )
 .

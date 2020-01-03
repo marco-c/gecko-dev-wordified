@@ -209,6 +209,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+UnboxedObject
+-
+inl
+.
+h
+"
 namespace
 js
 {
