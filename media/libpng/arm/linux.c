@@ -36,10 +36,10 @@ libpng
 .
 6
 .
-10
+16
 [
-March
-6
+December
+22
 2014
 ]
 *
@@ -134,6 +134,7 @@ is
 probably
 moderately
 portable
+;
 it
 does
 *
@@ -145,6 +146,7 @@ stdio
 h
 >
 and
+it
 assumes
 that
 /
@@ -834,6 +836,9 @@ bug
 }
 }
 }
+#
+ifdef
+PNG_WARNINGS_SUPPORTED
 else
 png_warning
 (
@@ -848,6 +853,8 @@ failed
 "
 )
 ;
+#
+endif
 return
 0
 ;

@@ -35,10 +35,10 @@ libpng
 .
 6
 .
-10
+16
 [
-March
-6
+December
+22
 2014
 ]
 *
@@ -174,7 +174,7 @@ of
 detecting
 the
 *
-presense
+presence
 of
 the
 required
@@ -183,7 +183,7 @@ therefore
 run
 -
 time
-detectioon
+detection
 is
 extremely
 *
@@ -880,6 +880,6 @@ PNG_ARM_NEON_OPT
 endif
 /
 *
-PNG_READ_SUPPORTED
+READ
 *
 /
