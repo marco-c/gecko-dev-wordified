@@ -4508,7 +4508,7 @@ char
 *
 entryLimit
 =
-entryAddr
+mEntryStore
 +
 tableSize
 ;
@@ -5603,7 +5603,10 @@ char
 *
 entryLimit
 =
-mEntryAddr
+mTable
+-
+>
+mEntryStore
 +
 tableSize
 ;
