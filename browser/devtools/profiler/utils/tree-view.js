@@ -621,7 +621,7 @@ this
 .
 frame
 .
-duration
+samples
 /
 this
 .
@@ -629,7 +629,7 @@ root
 .
 frame
 .
-duration
+samples
 *
 100
 ;
