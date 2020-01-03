@@ -2356,9 +2356,6 @@ globally
 bool
 mKeepaliveEnabledPref
 ;
-bool
-mServeMultipleEventsPerPollIter
-;
 mozilla
 :
 :
