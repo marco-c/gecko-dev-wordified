@@ -4098,6 +4098,7 @@ nsRect
 &
 aRect
 )
+const
 {
 return
 aRect
@@ -4122,6 +4123,7 @@ nsRegion
 &
 aRegion
 )
+const
 {
 return
 aRegion
@@ -4150,6 +4152,7 @@ aSnap
 =
 false
 )
+const
 {
 if
 (
@@ -4193,6 +4196,7 @@ aSnap
 =
 false
 )
+const
 {
 if
 (
@@ -4236,6 +4240,7 @@ aSnap
 =
 false
 )
+const
 {
 if
 (
@@ -4279,6 +4284,7 @@ aSnap
 =
 false
 )
+const
 {
 if
 (
