@@ -12678,13 +12678,13 @@ Print
 :
 PrintUtils
 .
-print
+printWindow
 (
 gBrowser
 .
 selectedBrowser
 .
-contentWindowAsCPOW
+outerWindowID
 gBrowser
 .
 selectedBrowser

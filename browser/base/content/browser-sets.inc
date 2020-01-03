@@ -369,7 +369,7 @@ oncommand
 "
 PrintUtils
 .
-print
+printWindow
 (
 window
 .
@@ -377,7 +377,7 @@ gBrowser
 .
 selectedBrowser
 .
-contentWindowAsCPOW
+outerWindowID
 window
 .
 gBrowser
