@@ -5347,6 +5347,9 @@ isEmpty
 bool
 relocateArenas
 (
+Zone
+*
+zone
 ArenaHeader
 *
 &
