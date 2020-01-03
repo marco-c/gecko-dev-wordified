@@ -622,8 +622,10 @@ char
 kKindTableDefaultString
 =
 kKindTable
--
->
+[
+0
+]
+.
 tag
 ;
 /
