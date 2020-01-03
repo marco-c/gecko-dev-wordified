@@ -984,6 +984,8 @@ dropped
 "
 )
 ;
+return
+;
 }
 MOZ_ASSERT
 (
@@ -1397,6 +1399,14 @@ rv
 !
 =
 noErr
+&
+&
+!
+(
+flags
+&
+kVTDecodeInfo_FrameDropped
+)
 )
 {
 NS_WARNING
