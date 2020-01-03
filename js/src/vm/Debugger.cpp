@@ -2237,6 +2237,10 @@ maxAllocationsLogLength
 (
 DEFAULT_MAX_ALLOCATIONS_LOG_LENGTH
 )
+allocationsLogOverflowed
+(
+false
+)
 frames
 (
 cx
@@ -10417,6 +10421,10 @@ getFirst
 (
 )
 )
+;
+allocationsLogOverflowed
+=
+true
 ;
 }
 else
