@@ -5458,8 +5458,10 @@ mLineNum
 uint64_t
 mInnerWindowID
 ;
+nsRefPtr
+<
 nsCSPContext
-*
+>
 mCSPContext
 ;
 }
