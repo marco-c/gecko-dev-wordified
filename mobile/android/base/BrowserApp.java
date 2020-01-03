@@ -17149,6 +17149,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction
@@ -17192,6 +17193,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction
@@ -17214,6 +17216,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction
@@ -17236,6 +17239,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction

@@ -1120,6 +1120,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+mContext
 RestrictedProfiles
 .
 Restriction
