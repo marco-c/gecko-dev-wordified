@@ -28992,6 +28992,7 @@ MOZ_OVERRIDE
 public
 :
 \
+explicit
 name
 (
 JSRuntime
