@@ -22258,7 +22258,7 @@ Unwrap
 while
 checking
 the
-jsclass
+class
 -
 if
 the
@@ -22278,7 +22278,10 @@ too
 .
 if
 (
-JS_GetClass
+nsNPObjWrapper
+:
+:
+IsWrapper
 (
 js
 :
@@ -22288,10 +22291,6 @@ UncheckedUnwrap
 proto
 )
 )
-=
-=
-&
-sNPObjectJSWrapperClass
 )
 {
 /
