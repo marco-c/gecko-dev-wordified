@@ -1086,6 +1086,14 @@ static
 bool
 sGonkDecoderEnabled
 ;
+static
+bool
+sAndroidMCDecoderPreferred
+;
+static
+bool
+sAndroidMCDecoderEnabled
+;
 }
 ;
 /
