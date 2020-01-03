@@ -911,10 +911,14 @@ AccessibleType
 #
 endif
 virtual
+nsStyleContext
+*
+GetParentStyleContext
+(
 nsIFrame
 *
-GetParentStyleContextFrame
-(
+*
+aProviderFrame
 )
 const
 MOZ_OVERRIDE
