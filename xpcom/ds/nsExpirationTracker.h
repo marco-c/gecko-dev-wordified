@@ -102,15 +102,6 @@ NSEXPIRATIONTRACKER_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 prlog
 .
 h
@@ -169,7 +160,7 @@ include
 "
 mozilla
 /
-Services
+Attributes
 .
 h
 "
@@ -178,7 +169,7 @@ include
 "
 mozilla
 /
-Attributes
+Services
 .
 h
 "
