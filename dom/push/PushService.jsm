@@ -430,7 +430,7 @@ const
 kPUSHDB_DB_NAME
 =
 "
-push
+pushapi
 "
 ;
 const
@@ -451,7 +451,7 @@ const
 kPUSHDB_STORE_NAME
 =
 "
-push
+pushapi
 "
 ;
 const
