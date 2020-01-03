@@ -858,6 +858,9 @@ tolerant
 uint16_t
 intolerant
 ;
+PRErrorCode
+intoleranceReason
+;
 void
 AssertInvariant
 (
@@ -915,6 +918,8 @@ uint16_t
 intolerant
 uint16_t
 minVersion
+PRErrorCode
+intoleranceReason
 )
 ;
 void
@@ -936,6 +941,17 @@ out
 SSLVersionRange
 &
 range
+)
+;
+PRErrorCode
+getIntoleranceReason
+(
+const
+nsACString
+&
+hostname
+int16_t
+port
 )
 ;
 void
