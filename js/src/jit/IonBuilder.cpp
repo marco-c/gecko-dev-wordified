@@ -46889,7 +46889,7 @@ setCompareType
 MCompare
 :
 :
-Compare_Value
+Compare_Bitwise
 )
 ;
 ins

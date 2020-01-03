@@ -658,12 +658,12 @@ CompareBAndBranch
 \
 _
 (
-CompareV
+CompareBitwise
 )
 \
 _
 (
-CompareVAndBranch
+CompareBitwiseAndBranch
 )
 \
 _

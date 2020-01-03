@@ -17264,7 +17264,7 @@ case
 Compare_Unknown
 :
 case
-Compare_Value
+Compare_Bitwise
 :
 return
 MIRType_Value
@@ -21246,7 +21246,7 @@ Compare_Object
 compareType_
 =
 =
-Compare_Value
+Compare_Bitwise
 )
 ;
 if

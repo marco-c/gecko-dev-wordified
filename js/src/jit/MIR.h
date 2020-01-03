@@ -22392,7 +22392,7 @@ Compare
 2
 values
 bitwise
-Compare_Value
+Compare_Bitwise
 /
 /
 All
@@ -22828,7 +22828,7 @@ MOZ_ASSERT
 compareType_
 <
 =
-Compare_Value
+Compare_Bitwise
 )
 ;
 return

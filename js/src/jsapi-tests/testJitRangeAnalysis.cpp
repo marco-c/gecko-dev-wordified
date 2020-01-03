@@ -2377,7 +2377,7 @@ Compare_Object
 MCompare
 :
 :
-Compare_Value
+Compare_Bitwise
 MCompare
 :
 :

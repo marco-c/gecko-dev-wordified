@@ -1298,7 +1298,7 @@ compareType
 MCompare
 :
 :
-Compare_Value
+Compare_Bitwise
 )
 {
 continue

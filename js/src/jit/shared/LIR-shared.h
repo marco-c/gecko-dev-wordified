@@ -10605,7 +10605,7 @@ cmpMir_
 }
 ;
 class
-LCompareV
+LCompareBitwise
 :
 public
 LInstructionHelper
@@ -10621,7 +10621,7 @@ public
 :
 LIR_HEADER
 (
-CompareV
+CompareBitwise
 )
 static
 const
@@ -10656,7 +10656,7 @@ toCompare
 }
 ;
 class
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 :
 public
 LControlInstructionHelper
@@ -10676,7 +10676,7 @@ public
 :
 LIR_HEADER
 (
-CompareVAndBranch
+CompareBitwiseAndBranch
 )
 static
 const
@@ -10692,7 +10692,7 @@ RhsInput
 =
 BOX_PIECES
 ;
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 (
 MCompare
 *
