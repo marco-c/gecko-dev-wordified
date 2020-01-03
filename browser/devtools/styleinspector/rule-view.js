@@ -12031,6 +12031,12 @@ this
 newRule
 )
 ;
+newRule
+.
+editor
+=
+editor
+;
 /
 /
 Insert
