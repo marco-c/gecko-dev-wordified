@@ -582,6 +582,12 @@ aType
 RAW_SENSOR_ORIENTATION
 )
 ;
+virtual
+bool
+IsEmulated
+(
+)
+;
 /
 *
 *
@@ -838,6 +844,9 @@ mRawSensorOrientation
 ;
 int
 mSensorOrientation
+;
+bool
+mEmulated
 ;
 private
 :
