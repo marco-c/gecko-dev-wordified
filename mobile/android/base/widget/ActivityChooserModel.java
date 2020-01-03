@@ -4619,7 +4619,7 @@ R
 .
 drawable
 .
-share_plane
+icon_shareplane
 ;
 }
 mActivities
