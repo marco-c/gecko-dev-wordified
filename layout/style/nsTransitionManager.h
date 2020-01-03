@@ -116,7 +116,7 @@ mozilla
 /
 dom
 /
-Animation
+AnimationPlayer
 .
 h
 "
@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+KeyframeEffect
 .
 h
 "
@@ -336,7 +336,7 @@ public
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 {
 ElementPropertyTransition
 (
@@ -363,7 +363,7 @@ aTiming
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 (
 aDocument
 aTarget
