@@ -3131,6 +3131,15 @@ response
 raw_input
 (
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
             
 if
 response
