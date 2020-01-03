@@ -766,7 +766,7 @@ gCSSProperties
 )
 {
 var
-info
+entry
 =
 gCSSProperties
 [
@@ -775,7 +775,7 @@ prop
 ;
 if
 (
-info
+entry
 .
 pref
 &
@@ -785,7 +785,7 @@ SpecialPowers
 .
 getBoolPref
 (
-info
+entry
 .
 pref
 )
@@ -796,7 +796,7 @@ continue
 }
 if
 (
-info
+entry
 .
 type
 =
@@ -812,7 +812,7 @@ ok
 subproperties
 "
 in
-info
+entry
 )
 "
 longhand
@@ -836,7 +836,7 @@ list
 else
 if
 (
-info
+entry
 .
 type
 =
@@ -850,7 +850,7 @@ ok
 subproperties
 "
 in
-info
+entry
 "
 shorthand
 property
@@ -882,7 +882,7 @@ if
 subproperties
 "
 in
-info
+entry
 )
 {
 var
@@ -892,7 +892,7 @@ true
 ;
 if
 (
-info
+entry
 .
 subproperties
 .
@@ -929,7 +929,7 @@ for
 var
 idx
 in
-info
+entry
 .
 subproperties
 )
@@ -937,7 +937,7 @@ subproperties
 var
 subprop
 =
-info
+entry
 .
 subproperties
 [
@@ -1013,10 +1013,10 @@ ok
 initial_values
 "
 in
-info
+entry
 &
 &
-info
+entry
 .
 initial_values
 .
@@ -1047,10 +1047,10 @@ ok
 other_values
 "
 in
-info
+entry
 &
 &
-info
+entry
 .
 other_values
 .
@@ -1103,7 +1103,7 @@ gCSSProperties
 )
 {
 var
-info
+entry
 =
 gCSSProperties
 [
@@ -1112,14 +1112,14 @@ prop
 ;
 if
 (
-info
+entry
 .
 logical
 )
 {
 is
 (
-info
+entry
 .
 type
 CSS_TYPE_LONGHAND
@@ -1175,7 +1175,7 @@ gCSSProperties
 )
 {
 var
-info
+entry
 =
 gCSSProperties
 [
@@ -1184,14 +1184,14 @@ prop
 ;
 if
 (
-info
+entry
 .
 axis
 )
 {
 ok
 (
-info
+entry
 .
 logical
 "
@@ -1251,7 +1251,7 @@ gCSSProperties
 )
 {
 var
-info
+entry
 =
 gCSSProperties
 [
@@ -1313,7 +1313,7 @@ cssFloat
 }
 is
 (
-info
+entry
 .
 domProp
 expectedDOMProp
