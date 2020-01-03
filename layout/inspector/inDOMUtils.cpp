@@ -3567,6 +3567,17 @@ AppendElement
 )
 ;
 }
+InsertNoDuplicates
+(
+aArray
+NS_LITERAL_STRING
+(
+"
+currentColor
+"
+)
+)
+;
 }
 return
 ;
