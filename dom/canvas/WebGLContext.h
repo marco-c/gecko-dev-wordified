@@ -7554,10 +7554,10 @@ WebGLContextValidate
 .
 cpp
 )
-GLenum
+TexFormat
 BaseTexFormat
 (
-GLenum
+TexInternalFormat
 internalFormat
 )
 const
