@@ -11431,6 +11431,9 @@ jsop_initelem_array
 case
 JSOP_INITPROP
 :
+case
+JSOP_INITLOCKEDPROP
+:
 {
 PropertyName
 *
@@ -43387,6 +43390,11 @@ alloc
 obj
 name
 value
+*
+pc
+=
+=
+JSOP_INITLOCKEDPROP
 )
 ;
 current
