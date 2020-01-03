@@ -2915,9 +2915,9 @@ aPending
 player
 -
 >
-mIsRunningOnCompositor
-=
-true
+SetIsRunningOnCompositor
+(
+)
 ;
 }
 }

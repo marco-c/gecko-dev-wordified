@@ -2105,9 +2105,9 @@ synchronized
 oldPlayer
 -
 >
-mIsRunningOnCompositor
-=
-false
+ClearIsRunningOnCompositor
+(
+)
 ;
 /
 /

@@ -6258,7 +6258,9 @@ canThrottleTick
 player
 -
 >
-mIsRunningOnCompositor
+IsRunningOnCompositor
+(
+)
 )
 {
 /
