@@ -1271,7 +1271,10 @@ success
 if
 (
 !
-JS_DefinePropertyById
+js
+:
+:
+DefineOwnProperty
 (
 cx
 obj

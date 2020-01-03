@@ -5479,7 +5479,7 @@ Steps
 if
 (
 !
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj

@@ -5134,7 +5134,7 @@ JSPROP_ENUMERATE
 if
 (
 !
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj
@@ -5352,7 +5352,7 @@ JSPROP_ENUMERATE
 if
 (
 !
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj
