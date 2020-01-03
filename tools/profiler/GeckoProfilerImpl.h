@@ -1066,9 +1066,14 @@ MOZ_USE_SYSTRACE
 ifdef
 MOZ_USE_SYSTRACE
 #
+ifndef
+ATRACE_TAG
+#
 define
 ATRACE_TAG
 ATRACE_TAG_ALWAYS
+#
+endif
 /
 /
 We
