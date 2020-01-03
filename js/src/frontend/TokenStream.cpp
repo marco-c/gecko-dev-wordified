@@ -11742,6 +11742,14 @@ skipChars
 )
 ;
 }
+updateLineInfoForEOL
+(
+)
+;
+updateFlagsForEOL
+(
+)
+;
 }
 else
 if
