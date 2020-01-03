@@ -485,7 +485,6 @@ function
 do_close_profile
 (
 generator
-cleanse
 )
 {
 /
@@ -545,11 +544,10 @@ before
 -
 change
 "
-cleanse
-?
-cleanse
-:
 "
+shutdown
+-
+persist
 "
 )
 ;
