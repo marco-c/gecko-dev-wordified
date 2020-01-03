@@ -1805,7 +1805,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1828,7 +1828,7 @@ IsCallable
 predicate
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -2048,7 +2048,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -2071,7 +2071,7 @@ IsCallable
 predicate
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -2279,7 +2279,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -2300,7 +2300,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -3433,7 +3433,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -3456,7 +3456,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -3722,7 +3722,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -3745,7 +3745,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -3777,7 +3777,7 @@ length
 =
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -4036,7 +4036,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -4059,7 +4059,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -4091,7 +4091,7 @@ length
 =
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -4925,7 +4925,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -4948,7 +4948,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -5800,7 +5800,7 @@ IsConstructor
 C
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
 DecompileArg
@@ -5840,7 +5840,7 @@ IsCallable
 f
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -6167,7 +6167,7 @@ IsObject
 next
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NEXT_RETURNED_PRIMITIVE
 )
@@ -6711,7 +6711,7 @@ IsConstructor
 C
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
 typeof
