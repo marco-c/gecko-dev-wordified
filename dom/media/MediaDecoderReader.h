@@ -2393,6 +2393,17 @@ mVideoDiscontinuity
 bool
 mShutdown
 ;
+public
+:
+bool
+IsShutdown
+(
+)
+{
+return
+mShutdown
+;
+}
 }
 ;
 /
