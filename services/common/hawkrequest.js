@@ -567,6 +567,14 @@ method
 "
 PUT
 "
+|
+|
+method
+=
+=
+"
+PATCH
+"
 )
 {
 contentType
