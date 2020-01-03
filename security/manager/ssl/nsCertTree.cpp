@@ -4473,6 +4473,10 @@ certdi
 -
 >
 mAddonInfo
+.
+get
+(
+)
 :
 nullptr
 ;
