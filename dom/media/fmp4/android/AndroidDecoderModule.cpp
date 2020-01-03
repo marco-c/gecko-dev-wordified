@@ -1020,7 +1020,6 @@ GLContextProvider
 :
 CreateHeadless
 (
-false
 )
 ;
 return
