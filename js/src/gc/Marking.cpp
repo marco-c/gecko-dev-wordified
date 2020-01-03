@@ -13381,7 +13381,10 @@ markIfUnmarked
 (
 )
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 this
 t

@@ -1809,7 +1809,10 @@ edges
 wantNames
 )
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 &
 tracer

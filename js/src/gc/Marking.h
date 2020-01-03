@@ -285,7 +285,10 @@ GC
 does
 not
 call
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 to
 mark
 *
@@ -306,7 +309,10 @@ put
 aside
 and
 *
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 is
 called
 later

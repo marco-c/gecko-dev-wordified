@@ -7682,7 +7682,10 @@ might
 use
 /
 /
-JS_TraceChildren
+JS
+:
+:
+TraceChildren
 to
 to
 get
@@ -8988,7 +8991,10 @@ supported
 by
 /
 /
-JS_TraceChildren
+JS
+:
+:
+TraceChildren
 .
 template
 <
@@ -9110,7 +9116,10 @@ ptr
 /
 /
 For
-JS_TraceChildren
+JS
+:
+:
+TraceChildren
 -
 based
 types

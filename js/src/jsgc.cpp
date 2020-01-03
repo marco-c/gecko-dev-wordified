@@ -23213,7 +23213,10 @@ trc
 srcKind
 )
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 &
 trc
