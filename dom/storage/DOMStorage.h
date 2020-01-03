@@ -186,6 +186,9 @@ nsIPrincipal
 class
 nsIDOMWindow
 ;
+class
+nsPIDOMWindow
+;
 namespace
 mozilla
 {
@@ -622,6 +625,9 @@ static
 bool
 CanUseStorage
 (
+nsPIDOMWindow
+*
+aWindow
 DOMStorage
 *
 aStorage
