@@ -11006,6 +11006,15 @@ return
 ;
 }
 }
+if
+(
+!
+mD3D11Device
+)
+{
+return
+;
+}
 mD3D11Device
 -
 >
