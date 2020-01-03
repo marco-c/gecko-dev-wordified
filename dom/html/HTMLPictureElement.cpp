@@ -358,15 +358,13 @@ child
 child
 -
 >
-Tag
+IsHTMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 source
+)
 )
 {
 nextSibling

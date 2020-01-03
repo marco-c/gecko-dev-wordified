@@ -2742,15 +2742,13 @@ if
 child
 -
 >
-Tag
+IsHTMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 br
+)
 )
 {
 -
