@@ -1735,8 +1735,8 @@ None
             
 local_changes
 =
-[
-]
+{
+}
         
 if
 committed_changes
@@ -3244,6 +3244,33 @@ return
 ManualTest
 (
 url
+)
+]
+    
+if
+filename
+.
+endswith
+(
+"
+.
+worker
+.
+js
+"
+)
+:
+        
+return
+[
+TestharnessTest
+(
+url
+[
+:
+-
+3
+]
 )
 ]
     
