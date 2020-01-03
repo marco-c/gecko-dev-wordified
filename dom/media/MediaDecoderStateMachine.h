@@ -3390,7 +3390,7 @@ UpdateRenderedVideoFrames
 /
 Stops
 the
-audio
+media
 sink
 and
 shut
@@ -3421,7 +3421,7 @@ machine
 thread
 .
 void
-StopAudioSink
+StopMediaSink
 (
 )
 ;
@@ -3431,7 +3431,7 @@ Create
 and
 start
 the
-audio
+media
 sink
 .
 /
@@ -3458,7 +3458,7 @@ machine
 thread
 .
 void
-StartAudioSink
+StartMediaSink
 (
 )
 ;
@@ -4625,7 +4625,7 @@ private
 Resolved
 by
 the
-AudioSink
+MediaSink
 to
 signal
 that
@@ -4644,7 +4644,7 @@ shutting
 down
 .
 void
-OnAudioSinkComplete
+OnMediaSinkComplete
 (
 )
 ;
@@ -4653,13 +4653,13 @@ OnAudioSinkComplete
 Rejected
 by
 the
-AudioSink
+MediaSink
 to
 signal
 errors
 .
 void
-OnAudioSinkError
+OnMediaSinkError
 (
 )
 ;
@@ -6741,7 +6741,7 @@ mFragmentEndTime
 /
 /
 The
-audio
+media
 sink
 resource
 .
@@ -6759,7 +6759,7 @@ media
 :
 MediaSink
 >
-mAudioSink
+mMediaSink
 ;
 /
 /
@@ -6813,12 +6813,10 @@ been
 pushed
 onto
 the
-audio
+media
 sink
 /
 /
-or
-DecodedStream
 in
 microseconds
 .
@@ -9038,7 +9036,7 @@ MozPromiseRequestHolder
 <
 GenericPromise
 >
-mAudioSinkPromise
+mMediaSinkPromise
 ;
 MozPromiseRequestHolder
 <

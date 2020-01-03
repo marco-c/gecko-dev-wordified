@@ -2351,7 +2351,7 @@ GetAudioChannel
 ;
 }
 ;
-mAudioSink
+mMediaSink
 =
 new
 AudioSinkWrapper
@@ -2916,7 +2916,7 @@ Duration
 ;
 if
 (
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -2962,7 +2962,7 @@ AssertCurrentThreadInMonitor
 MOZ_ASSERT
 (
 !
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -7243,7 +7243,7 @@ IsPlaying
 )
 )
 ;
-StartAudioSink
+StartMediaSink
 (
 )
 ;
@@ -7584,7 +7584,7 @@ GetReentrantMonitor
 )
 )
 ;
-mAudioSink
+mMediaSink
 -
 >
 SetVolume
@@ -8395,7 +8395,7 @@ Reset
 (
 )
 ;
-mAudioSink
+mMediaSink
 -
 >
 Shutdown
@@ -9700,7 +9700,7 @@ void
 MediaDecoderStateMachine
 :
 :
-StopAudioSink
+StopMediaSink
 (
 )
 {
@@ -9717,7 +9717,7 @@ AssertCurrentThreadInMonitor
 ;
 if
 (
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -9729,18 +9729,18 @@ DECODER_LOG
 (
 "
 Stop
-AudioSink
+MediaSink
 "
 )
 ;
-mAudioSink
+mMediaSink
 -
 >
 Stop
 (
 )
 ;
-mAudioSinkPromise
+mMediaSinkPromise
 .
 DisconnectIfExists
 (
@@ -11396,7 +11396,7 @@ void
 MediaDecoderStateMachine
 :
 :
-StartAudioSink
+StartMediaSink
 (
 )
 {
@@ -11419,7 +11419,7 @@ mAudioCaptured
 MOZ_ASSERT
 (
 !
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -11433,7 +11433,7 @@ return
 if
 (
 !
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -11445,7 +11445,7 @@ mAudioCompleted
 =
 false
 ;
-mAudioSink
+mMediaSink
 -
 >
 Start
@@ -11459,7 +11459,7 @@ mInfo
 auto
 promise
 =
-mAudioSink
+mMediaSink
 -
 >
 OnEnded
@@ -11475,7 +11475,7 @@ if
 promise
 )
 {
-mAudioSinkPromise
+mMediaSinkPromise
 .
 Begin
 (
@@ -11493,12 +11493,12 @@ this
 MediaDecoderStateMachine
 :
 :
-OnAudioSinkComplete
+OnMediaSinkComplete
 &
 MediaDecoderStateMachine
 :
 :
-OnAudioSinkError
+OnMediaSinkError
 )
 )
 ;
@@ -11741,7 +11741,7 @@ hardware
 int64_t
 pushed
 =
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -12009,7 +12009,7 @@ GetSize
 &
 &
 !
-mAudioSink
+mMediaSink
 -
 >
 HasUnplayedFrames
@@ -16044,7 +16044,7 @@ before
 stopping
 playback
 .
-StopAudioSink
+StopMediaSink
 (
 )
 ;
@@ -16176,7 +16176,7 @@ audio
 thread
 .
 Otherwise
-AudioSink
+MediaSink
 might
 be
 accessing
@@ -16206,7 +16206,7 @@ to
 be
 popped
 .
-StopAudioSink
+StopMediaSink
 (
 )
 ;
@@ -17184,7 +17184,7 @@ else
 {
 clock_time
 =
-mAudioSink
+mMediaSink
 -
 >
 GetPosition
@@ -19428,7 +19428,7 @@ mPlayStartTime
 =
 aTimeStamp
 ;
-mAudioSink
+mMediaSink
 -
 >
 SetPlaying
@@ -19825,7 +19825,7 @@ mPlaybackRate
 =
 mLogicalPlaybackRate
 ;
-mAudioSink
+mMediaSink
 -
 >
 SetPlaybackRate
@@ -19864,7 +19864,7 @@ GetReentrantMonitor
 )
 )
 ;
-mAudioSink
+mMediaSink
 -
 >
 SetPreservesPitch
@@ -19914,7 +19914,7 @@ AssertCurrentThreadInMonitor
 ;
 if
 (
-mAudioSink
+mMediaSink
 -
 >
 IsStarted
@@ -19923,7 +19923,7 @@ IsStarted
 )
 {
 return
-mAudioSink
+mMediaSink
 -
 >
 GetEndTime
@@ -19971,7 +19971,7 @@ void
 MediaDecoderStateMachine
 :
 :
-OnAudioSinkComplete
+OnMediaSinkComplete
 (
 )
 {
@@ -20008,7 +20008,7 @@ audio
 "
 )
 ;
-mAudioSinkPromise
+mMediaSinkPromise
 .
 Complete
 (
@@ -20023,7 +20023,7 @@ void
 MediaDecoderStateMachine
 :
 :
-OnAudioSinkError
+OnMediaSinkError
 (
 )
 {
@@ -20060,7 +20060,7 @@ audio
 "
 )
 ;
-mAudioSinkPromise
+mMediaSinkPromise
 .
 Complete
 (
@@ -20383,7 +20383,7 @@ mAudioCaptured
 /
 Stop
 the
-audio
+media
 sink
 if
 it
@@ -20394,7 +20394,7 @@ running
 self
 -
 >
-StopAudioSink
+StopMediaSink
 (
 )
 ;
@@ -20548,7 +20548,7 @@ StopDecodedStream
 Start
 again
 the
-audio
+media
 sink
 .
 self
@@ -20571,7 +20571,7 @@ IsPlaying
 self
 -
 >
-StartAudioSink
+StartMediaSink
 (
 )
 ;
