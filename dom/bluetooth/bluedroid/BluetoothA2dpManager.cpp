@@ -5017,8 +5017,8 @@ return
 ;
 }
 #
-ifndef
-MOZ_B2G_BT_API_V1
+ifdef
+MOZ_B2G_BT_API_V2
 bs
 -
 >
