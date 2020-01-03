@@ -222,6 +222,13 @@ endif
 #
 ifdef
 PR_LOGGING
+extern
+PRLogModuleInfo
+*
+GetMediaSourceLog
+(
+)
+;
 #
 define
 MSE_DEBUG

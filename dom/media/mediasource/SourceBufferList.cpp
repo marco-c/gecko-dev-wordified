@@ -198,6 +198,13 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
+GetMediaSourceLog
+(
+)
+;
+extern
+PRLogModuleInfo
+*
 GetMediaSourceAPILog
 (
 )
