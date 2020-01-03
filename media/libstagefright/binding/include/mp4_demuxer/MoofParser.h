@@ -88,9 +88,6 @@ class
 Box
 ;
 class
-BoxContext
-;
-class
 Moof
 ;
 class
@@ -564,14 +561,6 @@ MediaByteRange
 aByteRanges
 )
 ;
-void
-RebuildFragmentedIndex
-(
-BoxContext
-&
-aContext
-)
-;
 Interval
 <
 Microseconds
@@ -628,11 +617,6 @@ ParseMvex
 Box
 &
 aBox
-)
-;
-bool
-BlockingReadNextMoof
-(
 )
 ;
 mozilla
