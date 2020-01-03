@@ -201,7 +201,7 @@ final
 int
 VERSION_CODE
 =
-1
+2
 ;
 public
 static
@@ -251,6 +251,16 @@ KEY_CELLS_SENT
 =
 "
 cells_sent
+"
+;
+public
+static
+final
+String
+KEY_OBSERVATIONS_PER_DAY
+=
+"
+obs_per_day
 "
 ;
 }
