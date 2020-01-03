@@ -5303,6 +5303,7 @@ bool
 isConstantValue
 (
 )
+const
 {
 return
 isConstant
