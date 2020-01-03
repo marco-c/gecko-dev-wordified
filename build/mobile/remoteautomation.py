@@ -965,8 +965,20 @@ s
 "
 %
 traces
+            
+except
+IOError
+:
                 
-pass
+print
+"
+Error
+pulling
+%
+s
+"
+%
+traces
         
 else
 :
