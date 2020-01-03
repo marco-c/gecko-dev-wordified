@@ -1258,7 +1258,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvContentReceivedTouch
+RecvContentReceivedInputBlock
 (
 const
 ScrollableLayerGuid

@@ -3240,7 +3240,7 @@ void
 RenderFrameParent
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 const
 ScrollableLayerGuid
@@ -3279,7 +3279,7 @@ Unexpected
 layers
 id
 in
-ContentReceivedTouch
+ContentReceivedInputBlock
 ;
 dropping
 message
@@ -3304,7 +3304,7 @@ GetApzcTreeManager
 )
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aPreventDefault

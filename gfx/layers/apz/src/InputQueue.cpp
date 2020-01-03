@@ -1259,7 +1259,7 @@ will
 still
 receive
 a
-ContentReceivedTouch
+ContentReceivedInputBlock
 /
 /
 callback
@@ -1932,7 +1932,7 @@ void
 InputQueue
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId

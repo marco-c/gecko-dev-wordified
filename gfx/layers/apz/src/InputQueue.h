@@ -340,7 +340,7 @@ aInputBlockId
 *
 /
 void
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId

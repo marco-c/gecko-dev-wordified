@@ -394,7 +394,7 @@ controller
 controller
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aDefaultPrevented

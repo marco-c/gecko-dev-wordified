@@ -6117,7 +6117,7 @@ return
 mController
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 true
@@ -6150,7 +6150,7 @@ return
 mController
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 false

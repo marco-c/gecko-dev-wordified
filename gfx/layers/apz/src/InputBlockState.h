@@ -161,12 +161,6 @@ OverscrollHandoffChain
 class
 CancelableBlockState
 ;
-class
-TouchBlockState
-;
-class
-WheelBlockState
-;
 /
 *
 *

@@ -956,7 +956,7 @@ aOutInputBlockId
 ;
 }
 void
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId
@@ -969,7 +969,7 @@ GetInputQueue
 )
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aPreventDefault
@@ -4438,7 +4438,7 @@ block
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -6062,7 +6062,7 @@ queue
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -8130,7 +8130,7 @@ blockId
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -8323,7 +8323,7 @@ stopped
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 aPreventDefault
@@ -8849,7 +8849,7 @@ touchstart
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -9115,7 +9115,7 @@ nothing
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -9357,7 +9357,7 @@ touchstart
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -9572,7 +9572,7 @@ event
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -10272,7 +10272,7 @@ touchstarts
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10284,7 +10284,7 @@ false
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10408,7 +10408,7 @@ touchstarts
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10420,7 +10420,7 @@ false
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10544,7 +10544,7 @@ touchstarts
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10556,7 +10556,7 @@ true
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10680,7 +10680,7 @@ touchstarts
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -10692,7 +10692,7 @@ true
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -17269,7 +17269,7 @@ processed
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -17579,7 +17579,7 @@ processed
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -17679,7 +17679,7 @@ processed
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 secondBlockId
 false
