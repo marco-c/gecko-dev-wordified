@@ -3398,7 +3398,7 @@ cx
 if
 (
 !
-FromPropertyDescriptor
+FromPropertyDescriptorToObject
 (
 cx
 desc
