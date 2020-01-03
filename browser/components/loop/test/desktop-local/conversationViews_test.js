@@ -46,6 +46,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 var
 sandbox
 oldTitle

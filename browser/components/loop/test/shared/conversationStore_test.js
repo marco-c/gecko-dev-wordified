@@ -40,6 +40,8 @@ describe
 "
 loop
 .
+store
+.
 ConversationStore
 "
 function
