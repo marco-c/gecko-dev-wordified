@@ -1263,7 +1263,8 @@ only
 "
 "
         
-return
+if
+not
 self
 .
 _checkCmd
@@ -1275,6 +1276,23 @@ forward
 local
 remote
 ]
+)
+=
+=
+0
+:
+            
+raise
+DMError
+(
+"
+Failed
+to
+forward
+socket
+connection
+.
+"
 )
     
 def
