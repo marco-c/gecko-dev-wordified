@@ -965,3 +965,14 @@ MozBorderStartWidth
 "
 "
 )
+CSS_PROP_ALIAS
+(
+-
+moz
+-
+hyphens
+hyphens
+MozHyphens
+"
+"
+)
