@@ -14516,6 +14516,9 @@ variable
 ;
 if
 (
+preview
+&
+&
 "
 timestamp
 "
@@ -14572,6 +14575,10 @@ anchorClass
 ;
 if
 (
+!
+preview
+|
+|
 !
 (
 "
