@@ -1671,7 +1671,6 @@ return
 new
 BroadcastChannelParent
 (
-aPrincipalInfo
 aOrigin
 aChannel
 aPrivateBrowsing

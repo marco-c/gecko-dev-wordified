@@ -210,10 +210,6 @@ const
 nsACString
 &
 aOrigin
-uint64_t
-aAppId
-bool
-aIsInBrowserElement
 const
 nsAString
 &
