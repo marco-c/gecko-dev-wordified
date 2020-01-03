@@ -561,7 +561,7 @@ BY
 date
 DESC
 LIMIT
-10
+20
 "
 )
 ;
