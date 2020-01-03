@@ -2054,12 +2054,13 @@ bool
 TagCanContainTag
 (
 nsIAtom
-*
+&
 aParentTag
 nsIAtom
-*
+&
 aChildTag
 )
+MOZ_OVERRIDE
 ;
 /
 *

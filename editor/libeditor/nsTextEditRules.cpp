@@ -4341,10 +4341,9 @@ mEditor
 >
 CanContainTag
 (
-GetAsDOMNode
-(
+*
 selNode
-)
+*
 nsGkAtoms
 :
 :
