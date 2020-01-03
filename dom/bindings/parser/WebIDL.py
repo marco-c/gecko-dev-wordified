@@ -12223,7 +12223,6 @@ dictionaryContainsDictionary
 memberType
 .
 inner
-\
                                                                      
 dictionary
 )
@@ -13301,7 +13300,6 @@ isArrayBuffer
 (
 )
 or
-\
                                        
 self
 .
@@ -13309,7 +13307,6 @@ isArrayBufferView
 (
 )
 or
-\
                                        
 self
 .
@@ -13317,7 +13314,6 @@ isSharedArrayBuffer
 (
 )
 or
-\
                                        
 self
 .
@@ -13325,7 +13321,6 @@ isSharedArrayBufferView
 (
 )
 or
-\
                                        
 self
 .
@@ -13333,7 +13328,6 @@ isTypedArray
 (
 )
 or
-\
                                        
 self
 .
@@ -46347,6 +46341,8 @@ primary
 global
 already
 .
+        
+#
 Note
 that
 we
@@ -46357,6 +46353,8 @@ set
 _globalScope
 .
 primaryGlobalAttr
+        
+#
 so
 we
 '
