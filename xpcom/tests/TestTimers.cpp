@@ -322,7 +322,7 @@ AutoMon
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mReentrantMonitor
 "
@@ -401,7 +401,7 @@ aTimer
 )
 override
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mThreadPtr
 "
@@ -434,7 +434,7 @@ mon
 mReentrantMonitor
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 *
@@ -597,10 +597,7 @@ timer
 InitWithCallback
 (
 callback
-PR_MillisecondsToInterval
-(
 2000
-)
 nsITimer
 :
 :
@@ -748,10 +745,7 @@ timer
 InitWithCallback
 (
 callback
-PR_MillisecondsToInterval
-(
 100
-)
 nsITimer
 :
 :
