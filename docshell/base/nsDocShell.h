@@ -314,7 +314,7 @@ include
 "
 timeline
 /
-TimelineMarker
+ObservedDocShell
 .
 h
 "
@@ -332,7 +332,7 @@ include
 "
 timeline
 /
-ObservedDocShell
+TimelineMarker
 .
 h
 "

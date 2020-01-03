@@ -160,14 +160,14 @@ nsDocShell
 class
 nsIDocShell
 ;
-class
-TimelineMarker
-;
 namespace
 mozilla
 {
 class
 ObservedDocShell
+;
+class
+TimelineMarker
 ;
 class
 TimelineConsumers
