@@ -250,7 +250,13 @@ gMediaPromiseLog
 MOZ_LOG
 (
 gMediaPromiseLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 (
 x
 #

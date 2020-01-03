@@ -290,7 +290,10 @@ GetLog
 eGfxLog_fontlist
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 args
 )
 #
@@ -309,7 +312,10 @@ GetLog
 eGfxLog_fontlist
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 #
 define
@@ -327,7 +333,10 @@ GetLog
 eGfxLog_cmapdata
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 static
 __inline

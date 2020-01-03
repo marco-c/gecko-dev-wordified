@@ -188,7 +188,13 @@ args
 MOZ_LOG
 (
 gMediaChildLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 namespace

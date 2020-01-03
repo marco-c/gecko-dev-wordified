@@ -500,7 +500,10 @@ gStateWatchingLog
 MOZ_LOG
 (
 gStateWatchingLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 x
 #

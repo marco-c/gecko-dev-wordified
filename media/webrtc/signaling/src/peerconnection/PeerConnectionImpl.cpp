@@ -2085,7 +2085,10 @@ MOZ_LOG_TEST
 signalingLogInfo
 (
 )
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 )
 ?
 create_timecard

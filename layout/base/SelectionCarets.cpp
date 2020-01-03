@@ -406,7 +406,10 @@ message
 MOZ_LOG
 (
 gSelectionCaretsLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "
@@ -451,7 +454,10 @@ message
 MOZ_LOG
 (
 gSelectionCaretsLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "

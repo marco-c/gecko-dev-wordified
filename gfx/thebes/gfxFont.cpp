@@ -485,7 +485,10 @@ GetLog
 eGfxLog_fontinit
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 args
 )
 #
@@ -504,7 +507,10 @@ GetLog
 eGfxLog_fontinit
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 /
 *

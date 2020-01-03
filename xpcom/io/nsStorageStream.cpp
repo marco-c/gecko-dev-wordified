@@ -366,7 +366,10 @@ log
 /
 this
 enables
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 level
 information
 and
@@ -434,7 +437,13 @@ MOZ_LOG
 GetStorageStreamLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 nsStorageStream

@@ -993,7 +993,10 @@ MOZ_LOG
 GetLatencyLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Latency
@@ -1027,7 +1030,10 @@ MOZ_LOG
 GetLatencyLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Latency
@@ -1153,7 +1159,10 @@ MOZ_LOG_TEST
 GetLatencyLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

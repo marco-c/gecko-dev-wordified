@@ -325,7 +325,13 @@ MOZ_LOG
 GetMediaManagerLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 msg
 )
 /

@@ -16047,7 +16047,10 @@ if
 MOZ_LOG_TEST
 (
 sKeyboardLayoutLogger
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -16079,7 +16082,10 @@ MAPVK_VSC_TO_VK
 MOZ_LOG
 (
 sKeyboardLayoutLogger
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Logging
@@ -16162,7 +16168,10 @@ mKeyboardLayout
 MOZ_LOG
 (
 sKeyboardLayoutLogger
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 0x

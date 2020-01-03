@@ -149,7 +149,10 @@ const
 {
 STREAM_LOG
 (
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 DumpTracks
@@ -203,7 +206,10 @@ IsEnded
 {
 STREAM_LOG
 (
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 Track
@@ -231,7 +237,10 @@ else
 {
 STREAM_LOG
 (
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 Track

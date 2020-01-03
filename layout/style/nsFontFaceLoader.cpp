@@ -240,7 +240,13 @@ gfxUserFontSet
 GetUserFontsLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #
@@ -257,7 +263,10 @@ GetUserFontsLog
 (
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 nsFontFaceLoader
 :

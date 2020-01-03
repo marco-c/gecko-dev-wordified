@@ -363,7 +363,13 @@ args
 MOZ_LOG
 (
 gPredictorLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

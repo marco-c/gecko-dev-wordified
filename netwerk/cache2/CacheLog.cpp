@@ -125,7 +125,10 @@ log
 /
 this
 enables
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 level
 information
 and

@@ -2921,7 +2921,10 @@ prioritizer
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 "
 Couldn
 '
@@ -2955,7 +2958,10 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 "
 Couldn
 '
@@ -4214,7 +4220,10 @@ wrapper
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 "
 Couldn
 '
