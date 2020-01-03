@@ -35381,6 +35381,12 @@ ResetTimeZone
 #
 if
 ENABLE_INTL_API
+&
+&
+defined
+(
+ICU_TZ_HAS_RECREATE_DEFAULT
+)
 icu
 :
 :
