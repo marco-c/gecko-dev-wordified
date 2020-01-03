@@ -8876,10 +8876,10 @@ ImmWord
 Address
 (
 obj
-JSObject
+UnboxedPlainObject
 :
 :
-offsetOfShape
+offsetOfExpando
 (
 )
 )
