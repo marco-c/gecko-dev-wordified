@@ -1453,7 +1453,7 @@ ifdef
 DEBUG
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -1636,7 +1636,7 @@ ifdef
 DEBUG
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -1813,7 +1813,7 @@ ifdef
 DEBUG
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -2167,7 +2167,7 @@ ifdef
 DEBUG
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCommandLog
 PR_LOG_NOTICE

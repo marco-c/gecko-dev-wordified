@@ -1127,7 +1127,7 @@ rv
 )
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gConPolLog
 PR_LOG_DEBUG

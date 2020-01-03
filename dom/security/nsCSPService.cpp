@@ -796,7 +796,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -1508,7 +1508,7 @@ csp
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -1640,7 +1640,7 @@ aDecision
 else
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCspPRLog
 PR_LOG_DEBUG
@@ -2131,7 +2131,7 @@ if
 newUri
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCspPRLog
 PR_LOG_DEBUG

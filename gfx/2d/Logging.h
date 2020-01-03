@@ -1092,7 +1092,7 @@ true
 else
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetGFX2DLog
 (
@@ -1301,7 +1301,7 @@ n
 else
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetGFX2DLog
 (

@@ -3219,7 +3219,7 @@ result
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gResLog
 PR_LOG_DEBUG
