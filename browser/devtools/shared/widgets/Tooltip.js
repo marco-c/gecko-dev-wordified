@@ -3234,13 +3234,7 @@ target
 )
 ;
 }
-)
-.
-catch
-(
-(
 reason
-)
 =
 >
 {
