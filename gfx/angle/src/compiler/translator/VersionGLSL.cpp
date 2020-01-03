@@ -410,6 +410,10 @@ ShShaderType
 type
 )
 :
+mShaderType
+(
+type
+)
 mVersion
 (
 GLSL_VERSION_110
