@@ -169,6 +169,10 @@ SCHEDULER_STATE_SHUTDOWN
 ;
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+MediaDecoderStateMachineScheduler
+)
 MediaDecoderStateMachineScheduler
 (
 ReentrantMonitor
@@ -188,11 +192,6 @@ void
 aClosure
 bool
 aRealTime
-)
-;
-~
-MediaDecoderStateMachineScheduler
-(
 )
 ;
 nsresult
@@ -285,6 +284,11 @@ SCHEDULER_STATE_FROZEN_WITH_PENDING_TASK
 }
 private
 :
+~
+MediaDecoderStateMachineScheduler
+(
+)
+;
 void
 ResetTimer
 (

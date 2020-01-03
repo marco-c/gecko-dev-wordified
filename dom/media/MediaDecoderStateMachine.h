@@ -5674,7 +5674,7 @@ state
 machine
 .
 const
-nsAutoPtr
+nsRefPtr
 <
 MediaDecoderStateMachineScheduler
 >
