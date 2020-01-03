@@ -643,7 +643,7 @@ owner
 ;
 if
 (
-isAboutToOverflow
+isLowOnSpace
 (
 )
 )
