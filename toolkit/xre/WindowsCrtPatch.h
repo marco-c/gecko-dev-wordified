@@ -858,6 +858,10 @@ if
 !
 strcmp
 (
+(
+char
+*
+)
 import
 -
 >
