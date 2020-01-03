@@ -2676,6 +2676,17 @@ MediaDecoderStateMachine
 SameOriginMediaChanged
 )
 ;
+/
+/
+Propagate
+mSameOriginMedia
+to
+mDecodedStream
+.
+SameOriginMediaChanged
+(
+)
+;
 }
 bool
 MediaDecoderStateMachine
