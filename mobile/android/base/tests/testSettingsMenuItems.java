@@ -1497,6 +1497,13 @@ TITLE_BAR_LABEL_ARR
 )
 ;
 }
+if
+(
+AppConstants
+.
+MOZ_STUMBLER_BUILD_TIME_ENABLED
+)
+{
 /
 /
 Anonymous
@@ -1505,15 +1512,6 @@ tower
 /
 wifi
 collection
--
-only
-built
-if
-*
-not
-*
-release
-build
 String
 [
 ]
@@ -1588,6 +1586,7 @@ add
 learnMoreUi
 )
 ;
+}
 }
 /
 /
