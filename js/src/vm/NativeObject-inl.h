@@ -2128,8 +2128,6 @@ Handle
 TaggedProto
 >
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -2147,7 +2145,9 @@ NewObjectWithGivenTaggedProto
 cx
 clasp
 proto
-parent
+NullPtr
+(
+)
 allocKind
 newKind
 )
@@ -2171,8 +2171,6 @@ Handle
 TaggedProto
 >
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -2187,7 +2185,9 @@ NewObjectWithGivenTaggedProto
 cx
 clasp
 proto
-parent
+NullPtr
+(
+)
 newKind
 )
 )
