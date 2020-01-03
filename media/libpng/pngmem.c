@@ -293,7 +293,7 @@ zlib
 may
 allocate
 more
-then
+than
 64K
 if
 you

@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-15
+17
 [
-November
-20
-2014
+March
+25
+2015
 ]
 *
 Copyright
@@ -33,7 +33,7 @@ c
 )
 1998
 -
-2014
+2015
 Glenn
 Randers
 -
@@ -177,14 +177,10 @@ buf
 png_byte
 )
 (
-(
 i
 >
 >
 24
-)
-&
-0xff
 )
 ;
 buf
@@ -196,14 +192,10 @@ buf
 png_byte
 )
 (
-(
 i
 >
 >
 16
-)
-&
-0xff
 )
 ;
 buf
@@ -215,14 +207,10 @@ buf
 png_byte
 )
 (
-(
 i
 >
 >
 8
-)
-&
-0xff
 )
 ;
 buf
@@ -235,8 +223,6 @@ png_byte
 )
 (
 i
-&
-0xff
 )
 ;
 }
@@ -300,14 +286,10 @@ buf
 png_byte
 )
 (
-(
 i
 >
 >
 8
-)
-&
-0xff
 )
 ;
 buf
@@ -320,8 +302,6 @@ png_byte
 )
 (
 i
-&
-0xff
 )
 ;
 }
@@ -4416,14 +4396,10 @@ ch
 (
 png_byte
 )
-(
-0xff
-&
 *
 key
 +
 +
-)
 ;
 if
 (
@@ -5344,7 +5320,7 @@ endif
 *
 Save
 the
-relevent
+relevant
 information
 *
 /
@@ -10830,7 +10806,7 @@ png_const_bytep
 text
 comp
 .
-input_len
+output_len
 )
 ;
 png_write_chunk_end
@@ -14498,6 +14474,11 @@ filter
 /
 static
 void
+/
+*
+PRIVATE
+*
+/
 png_write_filtered_row
 (
 png_structrp
@@ -15421,7 +15402,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -15432,9 +15412,6 @@ int
 )
 *
 lp
-)
-&
-0xff
 )
 ;
 }
@@ -15775,7 +15752,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -15786,9 +15762,6 @@ int
 )
 *
 lp
-)
-&
-0xff
 )
 ;
 sum
@@ -16082,7 +16055,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -16093,9 +16065,6 @@ int
 )
 *
 pp
-)
-&
-0xff
 )
 ;
 }
@@ -16346,7 +16315,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -16361,9 +16329,6 @@ int
 pp
 +
 +
-)
-&
-0xff
 )
 ;
 sum
@@ -16651,7 +16616,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -16670,9 +16634,6 @@ pp
 /
 2
 )
-)
-&
-0xff
 )
 ;
 }
@@ -16703,7 +16664,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -16732,9 +16692,6 @@ lp
 /
 2
 )
-)
-&
-0xff
 )
 ;
 }
@@ -16986,7 +16943,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -17005,9 +16961,6 @@ pp
 /
 2
 )
-)
-&
-0xff
 )
 ;
 sum
@@ -17065,7 +17018,6 @@ rp
 -
 (
 (
-(
 int
 )
 *
@@ -17084,9 +17036,6 @@ lp
 /
 2
 )
-)
-&
-0xff
 )
 ;
 sum
@@ -17380,7 +17329,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -17395,9 +17343,6 @@ int
 pp
 +
 +
-)
-&
-0xff
 )
 ;
 }
@@ -17576,7 +17521,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -17585,9 +17529,6 @@ rp
 +
 -
 p
-)
-&
-0xff
 )
 ;
 }
@@ -17840,7 +17781,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -17855,9 +17795,6 @@ int
 pp
 +
 +
-)
-&
-0xff
 )
 ;
 sum
@@ -18139,7 +18076,6 @@ png_byte
 )
 (
 (
-(
 int
 )
 *
@@ -18148,9 +18084,6 @@ rp
 +
 -
 p
-)
-&
-0xff
 )
 ;
 sum
@@ -18563,6 +18496,9 @@ full_row_length
 Z_NO_FLUSH
 )
 ;
+#
+ifdef
+PNG_WRITE_FILTER_SUPPORTED
 /
 *
 Swap
@@ -18612,6 +18548,13 @@ row_buf
 tptr
 ;
 }
+#
+endif
+/
+*
+WRITE_FILTER
+*
+/
 /
 *
 Finish

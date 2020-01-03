@@ -20,11 +20,11 @@ libpng
 .
 6
 .
-15
+17
 [
-November
-20
-2014
+March
+25
+2015
 ]
 *
 Copyright
@@ -33,7 +33,7 @@ c
 )
 1998
 -
-2014
+2015
 Glenn
 Randers
 -
@@ -9284,6 +9284,9 @@ errmsg
 truncated
 "
 ;
+#
+ifndef
+__COVERITY__
 else
 errmsg
 =
@@ -9294,6 +9297,8 @@ zstream
 .
 msg
 ;
+#
+endif
 }
 /
 *
@@ -17294,7 +17299,8 @@ negative
 :
 An
 error
-occured
+occurred
+;
 png_chunk_error
 will
 be

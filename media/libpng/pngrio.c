@@ -18,11 +18,11 @@ libpng
 .
 6
 .
-15
+17
 [
-November
-20
-2014
+March
+25
+2015
 ]
 *
 Copyright
@@ -31,7 +31,7 @@ c
 )
 1998
 -
-2014
+2015
 Glenn
 Randers
 -
@@ -251,7 +251,7 @@ asked
 to
 read
 more
-then
+than
 64K
 on
 a
