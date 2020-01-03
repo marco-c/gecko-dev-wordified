@@ -395,6 +395,7 @@ CONNECTING
 CONNECTED
 SEEKING
 PAUSING
+PAUSED
 PLAYING
 }
 ;
@@ -470,6 +471,9 @@ mDisconnectReplyID
 ;
 uint64_t
 mLatestPausedUnit
+;
+bool
+mPlayPending
 ;
 sp
 <
