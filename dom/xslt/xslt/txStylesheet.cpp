@@ -763,12 +763,6 @@ mFirstNotImported
 if
 defined
 (
-PR_LOGGING
-)
-&
-&
-defined
-(
 TX_TO_STRING
 )
 txPattern
@@ -920,12 +914,6 @@ frame
 if
 defined
 (
-PR_LOGGING
-)
-&
-&
-defined
-(
 TX_TO_STRING
 )
 match
@@ -940,9 +928,6 @@ endif
 }
 }
 }
-#
-ifdef
-PR_LOGGING
 nsAutoString
 mode
 nodeName
@@ -1087,8 +1072,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 !

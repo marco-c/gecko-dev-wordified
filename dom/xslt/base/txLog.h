@@ -106,9 +106,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 class
 txLog
 {
@@ -177,15 +174,5 @@ PR_NewLogModule
 xslt
 "
 )
-#
-else
-#
-define
-TX_LG_IMPL
-#
-define
-TX_LG_CREATE
-#
-endif
 #
 endif
