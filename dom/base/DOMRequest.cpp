@@ -1600,6 +1600,9 @@ thread
 "
 )
 ;
+mozilla
+:
+:
 ThreadsafeAutoSafeJSContext
 cx
 ;
