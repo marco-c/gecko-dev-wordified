@@ -5972,10 +5972,6 @@ preflightChannel
 )
 uri
 loadInfo
-nullptr
-/
-/
-aChannelPolicy
 loadGroup
 nullptr
 /
@@ -6014,10 +6010,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
-/
-/
-aChannelPolicy
 loadGroup
 nullptr
 /

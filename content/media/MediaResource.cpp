@@ -6186,10 +6186,6 @@ nsIContentPolicy
 :
 :
 TYPE_MEDIA
-nullptr
-/
-/
-aChannelPolicy
 loadGroup
 nullptr
 /
@@ -8898,10 +8894,6 @@ nsIContentPolicy
 :
 :
 TYPE_MEDIA
-nullptr
-/
-/
-aChannelPolicy
 loadGroup
 )
 ;

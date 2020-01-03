@@ -770,10 +770,6 @@ TYPE_OTHER
 nullptr
 /
 /
-aChannelPolicy
-nullptr
-/
-/
 aLoadGroup
 nullptr
 /
