@@ -9051,6 +9051,7 @@ Instantiate
 the
 appropriate
 decoder
+.
 switch
 (
 type
@@ -9064,7 +9065,6 @@ mDecoder
 new
 nsPNGDecoder
 (
-*
 this
 )
 ;
@@ -9078,7 +9078,6 @@ mDecoder
 new
 nsGIFDecoder2
 (
-*
 this
 )
 ;
@@ -9110,12 +9109,12 @@ doing
 a
 progressive
 decode
+.
 mDecoder
 =
 new
 nsJPEGDecoder
 (
-*
 this
 mHasBeenDecoded
 ?
@@ -9140,7 +9139,6 @@ mDecoder
 new
 nsBMPDecoder
 (
-*
 this
 )
 ;
@@ -9154,7 +9152,6 @@ mDecoder
 new
 nsICODecoder
 (
-*
 this
 )
 ;
@@ -9168,7 +9165,6 @@ mDecoder
 new
 nsIconDecoder
 (
-*
 this
 )
 ;
@@ -9176,16 +9172,12 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT_UNREACHABLE
 (
-0
 "
-Shouldn
-'
-t
-get
-here
-!
+Unknown
+decoder
+type
 "
 )
 ;

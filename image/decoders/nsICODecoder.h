@@ -146,7 +146,7 @@ explicit
 nsICODecoder
 (
 RasterImage
-&
+*
 aImage
 )
 ;
