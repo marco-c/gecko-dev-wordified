@@ -335,7 +335,8 @@ test
 function
 onSuccess
 (
-d
+camera
+config
 )
 {
 ok
@@ -348,8 +349,6 @@ incorrectly
 "
 )
 ;
-d
-.
 camera
 .
 release
@@ -409,10 +408,6 @@ getCamera
 (
 whichCamera
 initialConfig
-)
-.
-then
-(
 onSuccess
 onError
 )
@@ -475,7 +470,8 @@ test
 function
 onSuccess
 (
-d
+camera
+config
 )
 {
 ok
@@ -488,8 +484,6 @@ correctly
 "
 )
 ;
-d
-.
 camera
 .
 release
@@ -549,10 +543,6 @@ getCamera
 (
 whichCamera
 initialConfig
-)
-.
-then
-(
 onSuccess
 onError
 )
