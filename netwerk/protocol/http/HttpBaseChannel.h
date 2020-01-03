@@ -1691,7 +1691,7 @@ nsISupports
 aSecurityInfo
 )
 ;
-void
+nsresult
 OverrideURI
 (
 nsIURI
