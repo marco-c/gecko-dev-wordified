@@ -15303,7 +15303,7 @@ message
 ;
 message
 .
-dispose
+disposeNative
 (
 )
 ;
