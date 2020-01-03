@@ -1813,9 +1813,7 @@ mEGLImage
 {
 MOZ_ASSERT
 (
-gl
-(
-)
+mCompositor
 )
 ;
 if
