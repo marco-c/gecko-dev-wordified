@@ -330,8 +330,11 @@ create
 ExclusiveContext
 *
 cx
+Handle
+<
 GlobalObject
 *
+>
 parent
 )
 ;

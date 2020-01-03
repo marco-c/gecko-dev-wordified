@@ -353,7 +353,9 @@ memoryProto
 toObject
 (
 )
-nullptr
+NullPtr
+(
+)
 )
 )
 ;

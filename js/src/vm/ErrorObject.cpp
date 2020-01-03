@@ -880,7 +880,9 @@ NewObjectWithGivenProto
 cx
 clasp
 proto
-nullptr
+NullPtr
+(
+)
 )
 ;
 if

@@ -1147,7 +1147,9 @@ cx
 &
 js_NoSuchMethodClass
 nullptr
-nullptr
+NullPtr
+(
+)
 )
 ;
 if
