@@ -8454,7 +8454,7 @@ mEvent
 mMessage
 =
 =
-NS_DRAGDROP_START
+eDragStart
 |
 |
 aVisitor

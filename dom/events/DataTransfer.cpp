@@ -598,7 +598,7 @@ NS_COPY
 aEventMessage
 =
 =
-NS_DRAGDROP_START
+eDragStart
 |
 |
 aEventMessage
@@ -835,7 +835,7 @@ NS_DRAGDROP_GESTURE
 aEventMessage
 !
 =
-NS_DRAGDROP_START
+eDragStart
 "
 invalid
 event
