@@ -622,6 +622,7 @@ nsIContentSink
 *
 aSink
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -670,6 +671,7 @@ GetContentSink
 (
 void
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -755,6 +757,7 @@ nsCString
 &
 aCommand
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -767,6 +770,7 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -777,6 +781,7 @@ SetCommand
 eParserCommands
 aParserCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -848,6 +853,7 @@ aCharset
 int32_t
 aSource
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -862,6 +868,7 @@ int32_t
 &
 aSource
 )
+MOZ_OVERRIDE
 {
 aCharset
 =
@@ -944,6 +951,7 @@ aMode
 =
 eDTDMode_autodetect
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -969,6 +977,7 @@ nsString
 &
 aTagStack
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1026,11 +1035,13 @@ BuildModel
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ContinueInterruptedParsing
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1039,6 +1050,7 @@ void
 BlockParser
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1047,6 +1059,7 @@ void
 UnblockParser
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1055,12 +1068,14 @@ void
 ContinueInterruptedParsingAsync
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Terminate
 (
 void
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1100,6 +1115,7 @@ bool
 IsParserEnabled
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1142,6 +1158,7 @@ bool
 IsComplete
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1484,6 +1501,7 @@ nsIChannel
 *
 aChannel
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1533,6 +1551,7 @@ nsIDTD
 *
 aDTD
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1552,6 +1571,7 @@ nsIStreamListener
 GetStreamListener
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetSinkCharset
@@ -1583,6 +1603,7 @@ NS_IMETHODIMP
 CancelParsingEvents
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1598,6 +1619,7 @@ bool
 IsInsertionPointDefined
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1614,6 +1636,7 @@ void
 BeginEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1630,6 +1653,7 @@ void
 EndEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1650,6 +1674,7 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1665,6 +1690,7 @@ bool
 IsScriptCreated
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1813,6 +1839,7 @@ void
 Reset
 (
 )
+MOZ_OVERRIDE
 {
 Cleanup
 (

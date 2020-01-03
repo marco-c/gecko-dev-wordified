@@ -290,6 +290,7 @@ nsIContentSink
 *
 aSink
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -314,6 +315,7 @@ nsIContentSink
 GetContentSink
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -340,6 +342,7 @@ nsCString
 &
 aCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -365,6 +368,7 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -388,6 +392,7 @@ SetCommand
 eParserCommands
 aParserCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -446,6 +451,7 @@ aCharset
 int32_t
 aSource
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -476,6 +482,7 @@ int32_t
 &
 aSource
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -530,6 +537,7 @@ nsIChannel
 *
 aChannel
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -553,6 +561,7 @@ nsIDTD
 *
 aDTD
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -573,6 +582,7 @@ nsIStreamListener
 GetStreamListener
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -594,6 +604,7 @@ NS_IMETHOD
 ContinueInterruptedParsing
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -612,6 +623,7 @@ void
 BlockParser
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -630,6 +642,7 @@ void
 UnblockParser
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -648,6 +661,7 @@ void
 ContinueInterruptedParsingAsync
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -679,6 +693,7 @@ bool
 IsParserEnabled
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -705,6 +720,7 @@ bool
 IsComplete
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -780,6 +796,7 @@ aMode
 =
 eDTDMode_autodetect
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -867,7 +884,7 @@ only
 )
 *
 /
-NS_IMETHOD
+nsresult
 Parse
 (
 const
@@ -903,6 +920,7 @@ NS_IMETHOD
 Terminate
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -935,6 +953,7 @@ nsString
 &
 aTagStack
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -956,6 +975,7 @@ NS_IMETHOD
 BuildModel
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -977,6 +997,7 @@ NS_IMETHODIMP
 CancelParsingEvents
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -999,28 +1020,7 @@ void
 Reset
 (
 )
-;
-/
-*
-*
-*
-True
-in
-fragment
-mode
-and
-during
-synchronous
-document
-.
-write
-*
-/
-virtual
-bool
-CanInterrupt
-(
-)
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1045,6 +1045,7 @@ bool
 IsInsertionPointDefined
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1069,6 +1070,7 @@ void
 BeginEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1092,6 +1094,7 @@ void
 EndEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1158,6 +1161,7 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1181,6 +1185,7 @@ bool
 IsScriptCreated
 (
 )
+MOZ_OVERRIDE
 ;
 /
 *
