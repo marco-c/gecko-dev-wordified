@@ -16174,14 +16174,10 @@ original
 exception
 back
 .
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-"
-"
-"
 )
 ;
 JS_SetPendingException

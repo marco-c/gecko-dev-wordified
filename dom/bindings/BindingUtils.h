@@ -589,7 +589,7 @@ aProtoId
 ;
 inline
 bool
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 JSContext
 *
@@ -597,14 +597,6 @@ cx
 ErrorResult
 &
 rv
-const
-char
-*
-ifaceName
-const
-char
-*
-memberName
 )
 {
 if

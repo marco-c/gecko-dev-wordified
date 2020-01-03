@@ -12889,18 +12889,10 @@ Failed
 )
 {
                 
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 aCx
 rv
-"
-{
-descriptorName
-}
-"
-"
-navigatorConstructor
-"
 )
 ;
                 
@@ -55405,44 +55397,15 @@ CGGeneric
 (
 '
 return
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-%
-s
-"
-"
-%
-s
-"
 )
 ;
 \
 n
 '
-                         
-%
-(
-self
-.
-descriptor
-.
-interface
-.
-identifier
-.
-name
-                            
-self
-.
-idlNode
-.
-identifier
-.
-name
-)
 )
     
 def
@@ -63069,17 +63032,10 @@ Failed
 {
               
 return
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-%
-s
-"
-"
-enumerate
-"
 )
 ;
             
@@ -79589,17 +79545,10 @@ Failed
 {
               
 return
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-%
-s
-"
-"
-enumerate
-"
 )
 ;
             
