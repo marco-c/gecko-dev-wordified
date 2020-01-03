@@ -3211,9 +3211,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-USE_INTERFACE_PRIORITIZER
 nr_interface_prioritizer
 *
 prioritizer
@@ -3286,11 +3283,6 @@ return
 nullptr
 ;
 }
-#
-endif
-/
-/
-USE_INTERFACE_PRIORITIZER
 if
 (
 ctx
