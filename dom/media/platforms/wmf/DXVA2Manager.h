@@ -356,6 +356,8 @@ SupportsConfig
 IMFMediaType
 *
 aType
+float
+aFramerate
 )
 =
 0
