@@ -118,10 +118,7 @@ is
 as
 follows
 :
-<
-empty
-string
->
+default
 :
 a
 2048
@@ -1968,14 +1965,16 @@ __init__
 (
 self
 specification
-=
-None
 )
 :
         
 if
-not
 specification
+=
+=
+'
+default
+'
 :
             
 self
