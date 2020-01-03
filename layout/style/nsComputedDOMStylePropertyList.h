@@ -1361,6 +1361,11 @@ Right
 )
 COMPUTED_STYLE_PROP
 (
+ruby_position
+RubyPosition
+)
+COMPUTED_STYLE_PROP
+(
 scroll_behavior
 ScrollBehavior
 )

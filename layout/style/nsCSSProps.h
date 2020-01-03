@@ -4529,6 +4529,13 @@ kResizeKTable
 static
 const
 KTableValue
+kRubyPositionKTable
+[
+]
+;
+static
+const
+KTableValue
 kScrollBehaviorKTable
 [
 ]
