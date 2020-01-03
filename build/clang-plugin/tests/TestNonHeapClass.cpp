@@ -312,7 +312,7 @@ a
 non
 -
 heap
-class
+type
 because
 member
 '
@@ -323,7 +323,7 @@ a
 non
 -
 heap
-class
+type
 '
 NonHeap
 '
@@ -370,7 +370,7 @@ a
 non
 -
 heap
-class
+type
 because
 it
 inherits
@@ -379,7 +379,7 @@ a
 non
 -
 heap
-class
+type
 '
 NonHeap
 '
@@ -461,7 +461,7 @@ overrides
 non
 -
 heap
-classes
+typees
 .
 struct
 MOZ_STACK_CLASS
@@ -494,7 +494,7 @@ InferredStackClass
 is
 a
 stack
-class
+type
 because
 member
 '
@@ -503,7 +503,7 @@ stackClass
 is
 a
 stack
-class
+type
 '
 StackClass
 '

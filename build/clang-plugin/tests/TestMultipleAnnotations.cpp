@@ -85,9 +85,11 @@ error
 {
 {
 Unused
-MOZ_MUST_USE
 value
 of
+must
+-
+use
 type
 '
 TestClass
