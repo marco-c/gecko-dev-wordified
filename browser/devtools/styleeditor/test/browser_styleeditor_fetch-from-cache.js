@@ -92,10 +92,6 @@ function
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 info
 (
 "
