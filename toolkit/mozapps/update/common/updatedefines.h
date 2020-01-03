@@ -271,6 +271,17 @@ NS_T
 \
 '
 )
+#
+if
+defined
+(
+_MSC_VER
+)
+&
+&
+_MSC_VER
+<
+1900
 /
 /
 On
@@ -436,6 +447,8 @@ result
 define
 snprintf
 mysnprintf
+#
+endif
 static
 inline
 int
