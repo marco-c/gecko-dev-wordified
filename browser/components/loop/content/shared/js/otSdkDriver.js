@@ -6266,8 +6266,14 @@ DISABLED
 ;
 if
 (
-!
+typeof
 bucket
+=
+=
+=
+"
+undefined
+"
 )
 {
 console
