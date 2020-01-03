@@ -235,6 +235,8 @@ class
 AnimationPlayer
 :
 public
+nsISupports
+public
 nsWrapperCache
 {
 protected
@@ -270,11 +272,8 @@ false
 )
 {
 }
-NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
-(
-AnimationPlayer
-)
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 AnimationPlayer
 )
