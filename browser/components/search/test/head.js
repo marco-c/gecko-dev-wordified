@@ -581,7 +581,6 @@ removePopupShownListener
 ;
 }
 function
-*
 promiseEvent
 (
 aTarget
