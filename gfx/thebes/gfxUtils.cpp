@@ -8328,7 +8328,6 @@ NS_ConvertASCIItoUTF16
 (
 string
 )
-nullptr
 )
 ;
 }

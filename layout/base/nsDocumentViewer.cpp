@@ -15410,17 +15410,6 @@ href
 onto
 the
 clipboard
-nsCOMPtr
-<
-nsIDOMDocument
->
-doc
-=
-do_QueryInterface
-(
-mDocument
-)
-;
 return
 clipboard
 -
@@ -15428,7 +15417,6 @@ clipboard
 CopyString
 (
 locationText
-doc
 )
 ;
 }
