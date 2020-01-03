@@ -7554,6 +7554,16 @@ function
 (
 )
 {
+if
+(
+projectList
+.
+sidebarsEnabled
+)
+{
+return
+;
+}
 let
 panel
 =
