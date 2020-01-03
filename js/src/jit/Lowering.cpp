@@ -28480,13 +28480,13 @@ Input
 input
 )
 ;
-add
+assignSnapshot
 (
 lir
-ins
+Bailout_UninitializedLexical
 )
 ;
-assignSafepoint
+add
 (
 lir
 ins
