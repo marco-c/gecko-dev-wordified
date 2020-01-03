@@ -657,6 +657,9 @@ int32_t
 colorDepth
 pixelDepth
 ;
+int16_t
+angle
+;
 ScreenOrientationInternal
 orientation
 ;
@@ -733,6 +736,15 @@ GetScreenOrientation
 )
 )
 ;
+angle
+=
+bridge
+-
+>
+GetScreenAngle
+(
+)
+;
 *
 aScreenConfiguration
 =
@@ -743,6 +755,7 @@ ScreenConfiguration
 (
 rect
 orientation
+angle
 colorDepth
 pixelDepth
 )

@@ -2825,6 +2825,15 @@ return
 mScreenOrientation
 ;
 }
+short
+ScreenAngle
+(
+)
+{
+return
+mScreenAngle
+;
+}
 RefCountedJavaObject
 *
 ByteBuffer
@@ -3119,6 +3128,9 @@ mDHCPGateway
 ;
 short
 mScreenOrientation
+;
+short
+mScreenAngle
 ;
 nsRefPtr
 <
@@ -3479,6 +3491,10 @@ jDHCPGatewayField
 static
 jfieldID
 jScreenOrientationField
+;
+static
+jfieldID
+jScreenAngleField
 ;
 static
 jfieldID

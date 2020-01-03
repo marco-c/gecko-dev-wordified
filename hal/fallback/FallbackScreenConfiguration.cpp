@@ -268,6 +268,7 @@ ScreenConfiguration
 (
 rect
 orientation
+0
 colorDepth
 pixelDepth
 )

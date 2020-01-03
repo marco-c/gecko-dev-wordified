@@ -1157,6 +1157,10 @@ short
 mScreenOrientation
 ;
 private
+short
+mScreenAngle
+;
+private
 ByteBuffer
 mBuffer
 ;
@@ -4873,6 +4877,8 @@ createScreenOrientationEvent
 (
 short
 aScreenOrientation
+short
+aScreenAngle
 )
 {
 GeckoEvent
@@ -4892,6 +4898,12 @@ event
 mScreenOrientation
 =
 aScreenOrientation
+;
+event
+.
+mScreenAngle
+=
+aScreenAngle
 ;
 return
 event
