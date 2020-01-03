@@ -980,8 +980,6 @@ aLastSwitchNextIterationStart
 GraphTime
 aLastSwitchNextIterationEnd
 GraphTime
-aLastSwitchNextStateComputedTime
-GraphTime
 aLastSwitchStateComputedTime
 )
 ;
@@ -1189,9 +1187,6 @@ computed
 .
 GraphTime
 mStateComputedTime
-;
-GraphTime
-mNextStateComputedTime
 ;
 /
 /

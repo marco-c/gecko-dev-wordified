@@ -319,10 +319,6 @@ mStateComputedTime
 (
 0
 )
-mNextStateComputedTime
-(
-0
-)
 mGraphImpl
 (
 aGraphImpl
@@ -365,8 +361,6 @@ GraphTime
 aLastSwitchNextIterationEnd
 GraphTime
 aLastSwitchStateComputedTime
-GraphTime
-aLastSwitchNextStateComputedTime
 )
 {
 /
@@ -429,10 +423,6 @@ aLastSwitchNextIterationEnd
 mStateComputedTime
 =
 aLastSwitchStateComputedTime
-;
-mNextStateComputedTime
-=
-aLastSwitchNextStateComputedTime
 ;
 STREAM_LOG
 (
@@ -1593,7 +1583,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
@@ -1875,15 +1864,8 @@ advance
 )
 ;
 }
-MOZ_ASSERT
-(
-mStateComputedTime
-=
-=
-mNextStateComputedTime
-)
-;
-mNextStateComputedTime
+GraphTime
+nextStateComputedTime
 =
 mGraphImpl
 -
@@ -1941,7 +1923,7 @@ mStateComputedTime
 (
 long
 )
-mNextStateComputedTime
+nextStateComputedTime
 )
 )
 ;
@@ -1974,7 +1956,7 @@ mIterationEnd
 StateComputedTime
 (
 )
-mNextStateComputedTime
+nextStateComputedTime
 )
 ;
 if
@@ -2009,7 +1991,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
@@ -3416,7 +3397,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
@@ -3951,7 +3931,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
@@ -4915,14 +4894,6 @@ Available
 )
 )
 {
-MOZ_ASSERT
-(
-mStateComputedTime
-=
-=
-mNextStateComputedTime
-)
-;
 /
 /
 State
@@ -4964,7 +4935,8 @@ the
 graph
 constant
 .
-mNextStateComputedTime
+GraphTime
+nextStateComputedTime
 =
 mGraphImpl
 -
@@ -5056,7 +5028,7 @@ interval
 [
 mStateComputedTime
 ;
-mNextStateComputedTime
+nextStateComputedTime
 ]
 .
 We
@@ -5195,7 +5167,7 @@ mStateComputedTime
 (
 long
 )
-mNextStateComputedTime
+nextStateComputedTime
 (
 long
 )
@@ -5208,7 +5180,7 @@ durationMS
 long
 )
 (
-mNextStateComputedTime
+nextStateComputedTime
 -
 mStateComputedTime
 )
@@ -5263,7 +5235,7 @@ OneIteration
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
+nextStateComputedTime
 )
 ;
 }
@@ -5379,7 +5351,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
@@ -6082,7 +6053,6 @@ this
 mIterationStart
 mIterationEnd
 mStateComputedTime
-mNextStateComputedTime
 )
 ;
 mGraphImpl
