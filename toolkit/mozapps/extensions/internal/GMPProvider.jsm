@@ -688,7 +688,7 @@ getLogger
 "
 Toolkit
 .
-OpenH264Provider
+GMPProvider
 "
 )
 ;
@@ -1526,7 +1526,7 @@ spawn
 (
 function
 *
-OpenH264Provider_updateTask
+GMPProvider_updateTask
 (
 )
 {
@@ -1810,7 +1810,7 @@ length
 }
 ;
 let
-OpenH264Provider
+GMPProvider
 =
 {
 get
@@ -1818,7 +1818,7 @@ name
 (
 )
 "
-OpenH264Provider
+GMPProvider
 "
 startup
 :
@@ -1843,10 +1843,10 @@ getLoggerWithMessagePrefix
 "
 Toolkit
 .
-OpenH264Provider
+GMPProvider
 "
 "
-OpenH264Provider
+GMPProvider
 "
 +
 "
@@ -1868,7 +1868,7 @@ getLoggerWithMessagePrefix
 "
 Toolkit
 .
-OpenH264Provider
+GMPProvider
 "
 "
 OpenH264Wrapper
@@ -2719,7 +2719,7 @@ AddonManagerPrivate
 .
 registerProvider
 (
-OpenH264Provider
+GMPProvider
 [
 new
 AddonManagerPrivate

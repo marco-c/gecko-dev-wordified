@@ -1383,7 +1383,7 @@ path
 }
 ;
 let
-OpenH264Scope
+GMPScope
 =
 Cu
 .
@@ -1400,13 +1400,13 @@ modules
 /
 addons
 /
-OpenH264Provider
+GMPProvider
 .
 jsm
 "
 )
 ;
-OpenH264Scope
+GMPScope
 .
 gmpService
 =
@@ -1846,7 +1846,7 @@ test_periodicUpdate
 )
 {
 let
-OpenH264Scope
+GMPScope
 =
 Cu
 .
@@ -1863,7 +1863,7 @@ modules
 /
 addons
 /
-OpenH264Provider
+GMPProvider
 .
 jsm
 "
@@ -1873,7 +1873,7 @@ Object
 .
 defineProperty
 (
-OpenH264Scope
+GMPScope
 "
 GMPInstallManager
 "
