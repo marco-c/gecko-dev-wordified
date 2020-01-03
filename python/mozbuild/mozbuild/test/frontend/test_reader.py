@@ -367,9 +367,6 @@ reader
 .
 config
             
-filesystem_absolute
-=
-True
 descend
 =
 False
