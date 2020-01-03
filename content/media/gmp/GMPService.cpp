@@ -2983,6 +2983,17 @@ NS_GetCurrentThread
 mGMPThread
 )
 ;
+MOZ_ASSERT
+(
+!
+mAsyncShutdownPlugins
+.
+Contains
+(
+aParent
+)
+)
+;
 mAsyncShutdownPlugins
 .
 AppendElement

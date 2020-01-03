@@ -128,6 +128,13 @@ ReadContinuation
 public
 :
 virtual
+~
+ReadContinuation
+(
+)
+{
+}
+virtual
 void
 ReadComplete
 (
@@ -272,6 +279,13 @@ OpenContinuation
 {
 public
 :
+virtual
+~
+OpenContinuation
+(
+)
+{
+}
 virtual
 void
 OpenComplete
