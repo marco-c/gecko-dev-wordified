@@ -8034,6 +8034,7 @@ mozilla
 :
 ToString
 (
+*
 this
 )
 .
