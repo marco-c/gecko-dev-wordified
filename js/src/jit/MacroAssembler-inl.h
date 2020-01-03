@@ -246,8 +246,11 @@ value
 framePushed_
 >
 =
+uint32_t
+(
 -
 value
+)
 )
 ;
 setFramePushed
