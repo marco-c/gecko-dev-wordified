@@ -2966,7 +2966,7 @@ take
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3432,7 +3432,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3552,7 +3552,7 @@ take
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3881,7 +3881,7 @@ take
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -4094,7 +4094,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

@@ -454,7 +454,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

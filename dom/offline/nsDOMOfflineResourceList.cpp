@@ -1128,7 +1128,7 @@ aItems
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

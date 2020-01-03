@@ -6053,7 +6053,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -6340,7 +6340,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -6432,7 +6432,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21240,7 +21240,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -25512,7 +25512,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -25709,7 +25709,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -26105,7 +26105,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -26711,7 +26711,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27135,7 +27135,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27330,7 +27330,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27667,7 +27667,7 @@ aReturn
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -28327,7 +28327,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -30301,7 +30301,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -30454,7 +30454,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -31652,7 +31652,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -32163,7 +32163,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -32254,7 +32254,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -32527,7 +32527,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -32616,7 +32616,7 @@ result
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

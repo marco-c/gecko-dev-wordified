@@ -2211,7 +2211,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

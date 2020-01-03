@@ -1736,7 +1736,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3022,7 +3022,7 @@ aResult
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3108,7 +3108,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3206,7 +3206,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3379,7 +3379,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3477,7 +3477,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3787,7 +3787,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3934,7 +3934,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -4119,7 +4119,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

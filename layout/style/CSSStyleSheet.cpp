@@ -9973,7 +9973,7 @@ aCssRules
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

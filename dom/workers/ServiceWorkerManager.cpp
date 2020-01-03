@@ -5275,7 +5275,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -6938,7 +6938,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -7441,7 +7441,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -8389,7 +8389,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

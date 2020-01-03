@@ -18071,7 +18071,7 @@ _retval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18345,7 +18345,7 @@ _retval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18822,7 +18822,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18868,7 +18868,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19204,7 +19204,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19517,7 +19517,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19679,7 +19679,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19860,7 +19860,7 @@ aRetval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

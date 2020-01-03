@@ -10384,7 +10384,7 @@ mNumWordsInSpellSelection
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

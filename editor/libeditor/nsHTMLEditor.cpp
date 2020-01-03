@@ -7354,7 +7354,7 @@ endif
 return
 err
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

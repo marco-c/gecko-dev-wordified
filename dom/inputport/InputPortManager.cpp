@@ -980,7 +980,7 @@ Failed
 return
 erv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -995,7 +995,7 @@ ports
 return
 erv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

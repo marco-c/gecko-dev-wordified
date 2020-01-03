@@ -464,7 +464,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1449,7 +1449,7 @@ ERROR_TEMPLATE_BAD_XPATH
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1605,7 +1605,7 @@ ERROR_TEMPLATE_BAD_ASSIGN_XPATH
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1803,7 +1803,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

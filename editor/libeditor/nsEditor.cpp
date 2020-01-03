@@ -7935,7 +7935,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -16326,7 +16326,7 @@ firstNodeLength
 return
 err
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

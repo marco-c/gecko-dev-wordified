@@ -215,7 +215,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -274,7 +274,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

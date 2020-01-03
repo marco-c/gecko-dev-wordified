@@ -908,7 +908,7 @@ Failed
 return
 err
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
