@@ -4310,7 +4310,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 |
 |
 aVisitor
@@ -4859,7 +4859,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 )
 ?
 "

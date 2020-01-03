@@ -486,7 +486,7 @@ case
 eMouseEnterIntoWidget
 :
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 if
 (

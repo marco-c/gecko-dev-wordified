@@ -15179,7 +15179,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 |
 |
 aEvent

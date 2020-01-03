@@ -1979,7 +1979,7 @@ StopPropagation
 break
 ;
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 {
 aVisitor

@@ -1249,7 +1249,7 @@ eMouseEventClass
 EVENT
 (
 mouseover
-NS_MOUSE_OVER
+eMouseOver
 EventNameType_All
 eMouseEventClass
 )
