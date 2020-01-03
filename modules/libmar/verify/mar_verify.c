@@ -313,12 +313,12 @@ fileData
 }
 }
 }
+}
 fclose
 (
 f
 )
 ;
-}
 return
 result
 ;
