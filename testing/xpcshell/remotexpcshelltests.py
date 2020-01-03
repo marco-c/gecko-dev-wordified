@@ -166,6 +166,12 @@ args
 kwargs
 )
         
+self
+.
+shellReturnCode
+=
+None
+        
 #
 embed
 the
