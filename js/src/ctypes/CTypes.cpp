@@ -5701,7 +5701,7 @@ RootedObject
 prototype
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -6313,7 +6313,7 @@ typeProto
 .
 set
 (
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -6507,7 +6507,7 @@ dataProto
 .
 set
 (
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -22746,7 +22746,7 @@ RootedObject
 typeObj
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -22849,7 +22849,7 @@ RootedObject
 prototype
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -33571,7 +33571,7 @@ RootedObject
 prototype
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -44314,7 +44314,7 @@ RootedObject
 dataObj
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -47908,7 +47908,7 @@ JSObject
 *
 objResult
 =
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -48612,7 +48612,7 @@ JSObject
 *
 objResult
 =
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -50624,7 +50624,7 @@ RootedObject
 result
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 clasp
