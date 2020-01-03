@@ -284,14 +284,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 AsyncUploader
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private

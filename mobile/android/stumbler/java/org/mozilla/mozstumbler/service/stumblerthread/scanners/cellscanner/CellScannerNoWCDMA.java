@@ -266,14 +266,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 CellScannerNoWCDMA
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 protected

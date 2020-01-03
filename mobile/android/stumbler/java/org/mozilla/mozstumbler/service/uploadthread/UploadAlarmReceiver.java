@@ -327,14 +327,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 UploadAlarmReceiver
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private

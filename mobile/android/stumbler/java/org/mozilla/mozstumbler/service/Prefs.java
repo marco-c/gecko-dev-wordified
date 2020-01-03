@@ -134,12 +134,17 @@ final
 String
 LOG_TAG
 =
+AppGlobals
+.
+makeLogTag
+(
 Prefs
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private
