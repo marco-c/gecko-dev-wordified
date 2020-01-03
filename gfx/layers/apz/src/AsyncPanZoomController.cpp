@@ -21158,6 +21158,17 @@ GetClipRect
 )
 )
 ;
+mFrameMetrics
+.
+SetIsLayersIdRoot
+(
+aLayerMetrics
+.
+IsLayersIdRoot
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
