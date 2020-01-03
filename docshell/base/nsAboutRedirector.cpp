@@ -688,6 +688,8 @@ global
 /
 content
 /
+aboutwebrtc
+/
 aboutWebrtc
 .
 xhtml
