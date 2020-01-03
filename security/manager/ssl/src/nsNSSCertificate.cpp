@@ -5299,12 +5299,9 @@ mCert
 subjectName
 )
 ;
-return
-NS_OK
-;
 }
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -5354,12 +5351,9 @@ mCert
 issuerName
 )
 ;
-return
-NS_OK
-;
 }
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_IMETHODIMP
