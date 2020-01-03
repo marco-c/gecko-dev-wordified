@@ -2343,6 +2343,7 @@ parser
 new
 OutputParser
 (
+document
 )
 ;
 for

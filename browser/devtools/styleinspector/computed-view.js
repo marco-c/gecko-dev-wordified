@@ -1059,6 +1059,7 @@ _outputParser
 new
 OutputParser
 (
+document
 )
 ;
 let
