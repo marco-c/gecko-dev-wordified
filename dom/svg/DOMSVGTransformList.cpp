@@ -1751,6 +1751,8 @@ ToSVGTransform
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 mItems
 .
 InsertElementAt
@@ -1760,6 +1762,7 @@ domItem
 .
 get
 (
+)
 )
 )
 ;

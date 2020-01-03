@@ -1598,12 +1598,15 @@ ToSVGNumber
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 mItems
 .
 InsertElementAt
 (
 index
 domItem
+)
 )
 ;
 /

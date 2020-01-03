@@ -2663,6 +2663,8 @@ allocated
 the
 necessary
 space
+MOZ_ALWAYS_TRUE
+(
 transforms
 .
 AppendElement
@@ -2673,6 +2675,7 @@ aList
 [
 i
 ]
+)
 )
 )
 ;

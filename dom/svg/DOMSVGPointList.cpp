@@ -2014,12 +2014,15 @@ ToSVGPoint
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 mItems
 .
 InsertElementAt
 (
 aIndex
 domItem
+)
 )
 ;
 /
