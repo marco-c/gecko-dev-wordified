@@ -2561,6 +2561,10 @@ Reader
 Added
 "
 item
+.
+toJSON
+(
+)
 )
 ;
 return
@@ -3287,6 +3291,10 @@ Reader
 Removed
 "
 item
+.
+toJSON
+(
+)
 )
 ;
 this
