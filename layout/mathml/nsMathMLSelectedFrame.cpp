@@ -852,6 +852,14 @@ nsReflowStatus
 aStatus
 )
 {
+mPresentationData
+.
+flags
+&
+=
+~
+NS_MATHML_ERROR
+;
 aStatus
 =
 NS_FRAME_COMPLETE

@@ -1198,6 +1198,14 @@ nsReflowStatus
 aStatus
 )
 {
+mPresentationData
+.
+flags
+&
+=
+~
+NS_MATHML_ERROR
+;
 aDesiredSize
 .
 ClearSize
