@@ -6804,7 +6804,7 @@ exports
 obj
 ;
 else
-window
+self
 .
 WebIDL2
 =
