@@ -17127,6 +17127,12 @@ AddonManager
 .
 PERM_CAN_UPGRADE
 )
+&
+&
+!
+addon
+.
+isCompatible
 )
 {
 logger
