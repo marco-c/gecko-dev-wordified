@@ -1078,6 +1078,7 @@ ranges
 not
 yet
 implemented
+virtual
 already_AddRefed
 <
 gfxUserFontEntry
@@ -1110,6 +1111,8 @@ gfxSparseBitSet
 *
 aUnicodeRanges
 )
+=
+0
 ;
 /
 /
