@@ -2760,21 +2760,12 @@ isExternal
 )
 :
             
-if
+assert
+not
 self
 .
 workers
-:
-                
-nativeTypeDefault
-=
-"
-JSObject
-"
             
-else
-:
-                
 nativeTypeDefault
 =
 "
