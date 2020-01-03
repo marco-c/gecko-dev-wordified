@@ -46,22 +46,6 @@ debug
 only
 code
 #
-ifdef
-NDEBUG
-#
-define
-DEBUG
-#
-undef
-NDEBUG
-#
-endif
-/
-/
-#
-ifdef
-NDEBUG
-#
 if
 defined
 (
@@ -76,13 +60,6 @@ h
 "
 #
 endif
-#
-include
-<
-assert
-.
-h
->
 #
 include
 <
@@ -165,6 +142,13 @@ h
 include
 <
 stdio
+.
+h
+>
+#
+include
+<
+stdlib
 .
 h
 >
@@ -455,7 +439,7 @@ critical_section
 #
 ifdef
 DEBUG
-assert
+XASSERT
 (
 owner
 !
@@ -565,7 +549,7 @@ return
 .
 *
 /
-assert
+XASSERT
 (
 owner
 =
@@ -1967,7 +1951,7 @@ int32_t
 out_channels
 )
 {
-assert
+XASSERT
 (
 out_channels
 >
@@ -2141,7 +2125,7 @@ int32_t
 out_channels
 )
 {
-assert
+XASSERT
 (
 in_channels
 >
@@ -2419,7 +2403,7 @@ out_frames
 0
 )
 {
-assert
+XASSERT
 (
 false
 )
@@ -2495,7 +2479,7 @@ though
 .
 *
 /
-assert
+XASSERT
 (
 out_frames
 =
@@ -2979,7 +2963,7 @@ false
 continue
 ;
 }
-assert
+XASSERT
 (
 padding
 <
@@ -3156,7 +3140,7 @@ break
 case
 WAIT_TIMEOUT
 :
-assert
+XASSERT
 (
 stm
 -
@@ -3410,7 +3394,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -4177,7 +4161,7 @@ return
 CUBEB_ERROR
 ;
 }
-assert
+XASSERT
 (
 ctx
 &
@@ -5065,7 +5049,7 @@ break
 ;
 default
 :
-assert
+XASSERT
 (
 false
 &
@@ -5281,7 +5265,7 @@ WAVEFORMATEXTENSIBLE
 closest
 )
 ;
-assert
+XASSERT
 (
 closest_pcm
 -
@@ -5439,7 +5423,7 @@ return
 CUBEB_ERROR
 ;
 }
-assert
+XASSERT
 (
 !
 stm
@@ -6323,7 +6307,7 @@ return
 CUBEB_ERROR
 ;
 }
-assert
+XASSERT
 (
 context
 &
@@ -6348,7 +6332,7 @@ cubeb_stream
 )
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -6727,7 +6711,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -6820,7 +6804,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -6896,7 +6880,7 @@ stm
 stream_reset_lock
 )
 ;
-assert
+XASSERT
 (
 stm
 &
@@ -7087,7 +7071,7 @@ cubeb_stream
 stm
 )
 {
-assert
+XASSERT
 (
 stm
 )
@@ -7204,7 +7188,7 @@ uint64_t
 position
 )
 {
-assert
+XASSERT
 (
 stm
 &
@@ -7235,7 +7219,7 @@ uint32_t
 latency
 )
 {
-assert
+XASSERT
 (
 stm
 &
@@ -7413,7 +7397,7 @@ return
 CUBEB_ERROR
 ;
 }
-assert
+XASSERT
 (
 channels
 <
