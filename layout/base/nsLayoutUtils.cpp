@@ -17937,6 +17937,17 @@ aFrame
 GetParent
 (
 )
+&
+&
+(
+aFlags
+&
+(
+PAINT_WIDGET_LAYERS
+|
+PAINT_TO_WINDOW
+)
+)
 )
 {
 nsRect

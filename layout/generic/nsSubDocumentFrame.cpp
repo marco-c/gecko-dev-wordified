@@ -2544,11 +2544,10 @@ displayPort
 ;
 if
 (
-!
 aBuilder
 -
 >
-IsForEventDelivery
+IsPaintingToWindow
 (
 )
 &
