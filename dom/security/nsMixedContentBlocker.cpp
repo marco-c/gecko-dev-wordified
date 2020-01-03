@@ -1898,7 +1898,7 @@ parameters
 .
 *
 /
-nsresult
+NS_IMETHODIMP
 nsMixedContentBlocker
 :
 :
@@ -2032,7 +2032,7 @@ ShouldLoad
 .
 *
 /
-NS_IMETHODIMP
+nsresult
 nsMixedContentBlocker
 :
 :
