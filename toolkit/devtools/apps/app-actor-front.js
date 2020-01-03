@@ -413,7 +413,7 @@ comment
 *
 /
 function
-getResultTest
+getResultText
 (
 code
 )
