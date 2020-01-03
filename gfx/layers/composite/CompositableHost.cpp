@@ -648,6 +648,13 @@ aTextureOnBlack
 aTextureOnWhite
 )
 ;
+if
+(
+GetCompositor
+(
+)
+)
+{
 aTextureOnBlack
 -
 >
@@ -668,6 +675,7 @@ GetCompositor
 )
 )
 ;
+}
 }
 void
 CompositableHost
@@ -692,6 +700,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 mCompositor
 =
 aCompositor

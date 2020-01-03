@@ -2640,6 +2640,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 CompositorD3D9
 *
 d3dCompositor
@@ -5053,6 +5058,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 mCompositor
 =
 static_cast
@@ -5209,6 +5219,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 mCompositor
 =
 static_cast

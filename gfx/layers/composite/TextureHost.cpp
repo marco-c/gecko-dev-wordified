@@ -2226,6 +2226,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 if
 (
 mCompositor

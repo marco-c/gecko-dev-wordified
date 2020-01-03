@@ -602,6 +602,9 @@ aManager
 if
 (
 mBuffer
+&
+&
+mCompositor
 )
 {
 mBuffer

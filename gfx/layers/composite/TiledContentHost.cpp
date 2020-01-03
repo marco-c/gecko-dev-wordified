@@ -1418,6 +1418,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 if
 (
 !
@@ -2469,6 +2474,11 @@ nullptr
 /
 )
 {
+MOZ_ASSERT
+(
+mCompositor
+)
+;
 if
 (
 mPendingUpload
