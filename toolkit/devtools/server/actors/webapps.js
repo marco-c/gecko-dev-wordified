@@ -4196,6 +4196,14 @@ removable
 =
 =
 false
+&
+&
+!
+this
+.
+_isUnrestrictedAccessAllowed
+(
+)
 )
 {
 return
