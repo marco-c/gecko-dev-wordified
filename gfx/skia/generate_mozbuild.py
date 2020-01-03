@@ -445,6 +445,9 @@ S
 '
         
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True
 FINAL_LIBRARY
 =
 '

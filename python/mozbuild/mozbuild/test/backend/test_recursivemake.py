@@ -2509,6 +2509,21 @@ expected
 {
             
 '
+ALLOW_COMPILER_WARNINGS
+'
+:
+[
+                
+'
+ALLOW_COMPILER_WARNINGS
+:
+=
+1
+'
+            
+]
+            
+'
 DISABLE_STL_WRAPPING
 '
 :
@@ -2584,21 +2599,6 @@ foo
 pp
 .
 js
-'
-            
-]
-            
-'
-FAIL_ON_WARNINGS
-'
-:
-[
-                
-'
-FAIL_ON_WARNINGS
-:
-=
-1
 '
             
 ]
