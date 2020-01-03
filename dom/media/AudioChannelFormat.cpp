@@ -455,7 +455,7 @@ needed
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 inputChannelCount
 >
@@ -468,7 +468,7 @@ channels
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 outputChannelCount
 >
