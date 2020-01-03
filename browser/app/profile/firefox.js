@@ -22653,7 +22653,7 @@ false
 endif
 /
 /
-Disable
+Enable
 ReadingList
 browser
 UI
@@ -22669,7 +22669,7 @@ readinglist
 .
 enabled
 "
-false
+true
 )
 ;
 pref
