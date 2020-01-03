@@ -11567,7 +11567,6 @@ panDisplacement
 y
 )
 )
-)
 ;
 OverscrollHandoffState
 handoffState
