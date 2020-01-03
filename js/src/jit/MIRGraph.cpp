@@ -5220,10 +5220,8 @@ pred
 )
 -
 >
-setSuccessorWithPhis
+clearSuccessorWithPhis
 (
-nullptr
-0
 )
 ;
 }
@@ -5717,10 +5715,8 @@ pred
 )
 -
 >
-setSuccessorWithPhis
+clearSuccessorWithPhis
 (
-nullptr
-0
 )
 ;
 }
@@ -8068,10 +8064,8 @@ predIndex
 pred
 -
 >
-setSuccessorWithPhis
+clearSuccessorWithPhis
 (
-nullptr
-0
 )
 ;
 for
