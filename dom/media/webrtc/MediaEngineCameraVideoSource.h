@@ -541,8 +541,10 @@ frames
 .
 nsTArray
 <
+nsRefPtr
+<
 SourceMediaStream
-*
+>
 >
 mSources
 ;
