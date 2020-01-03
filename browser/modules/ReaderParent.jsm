@@ -1287,8 +1287,6 @@ browser
 ;
 }
 buttonClick
-:
-function
 (
 event
 )
