@@ -16227,6 +16227,13 @@ MemberIsUnforgeable
 stringifier
 descriptor
 )
+and
+                
+isMaybeExposedIn
+(
+stringifier
+descriptor
+)
 )
 :
                 
@@ -16320,7 +16327,26 @@ Jsonifier
 ]
             
 if
+(
 jsonifier
+and
+                
+unforgeable
+=
+=
+MemberIsUnforgeable
+(
+jsonifier
+descriptor
+)
+and
+                
+isMaybeExposedIn
+(
+jsonifier
+descriptor
+)
+)
 :
                 
 toJSONDesc
