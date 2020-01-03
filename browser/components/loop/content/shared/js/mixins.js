@@ -1353,7 +1353,7 @@ not
 /
 really
 connected
-o
+to
 the
 room
 but
@@ -1410,6 +1410,15 @@ state
 ROOM_STATES
 .
 JOINED
+|
+|
+state
+=
+=
+=
+ROOM_STATES
+.
+ENDED
 ;
 }
 /

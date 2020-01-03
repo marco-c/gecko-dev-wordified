@@ -388,6 +388,13 @@ function
 )
 {
 }
+getAudioBlob
+:
+function
+(
+)
+{
+}
 getLoopPref
 :
 function
@@ -424,6 +431,13 @@ return
 true
 ;
 }
+}
+setLoopPref
+:
+function
+(
+)
+{
 }
 releaseCallData
 :
