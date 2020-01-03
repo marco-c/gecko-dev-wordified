@@ -406,6 +406,9 @@ nsICSSDeclaration
 class
 nsISMILAttr
 ;
+class
+nsDocument
+;
 namespace
 mozilla
 {
@@ -2252,6 +2255,12 @@ class
 :
 :
 nsFocusManager
+;
+friend
+class
+:
+:
+nsDocument
 ;
 /
 /
