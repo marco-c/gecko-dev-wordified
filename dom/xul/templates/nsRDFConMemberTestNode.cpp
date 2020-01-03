@@ -156,16 +156,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 nsRDFConMemberTestNode
 :
 :
@@ -202,9 +197,6 @@ mMemberVariable
 aMemberVariable
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -421,8 +413,6 @@ get
 )
 ;
 }
-#
-endif
 }
 nsresult
 nsRDFConMemberTestNode
@@ -727,9 +717,6 @@ memberValue
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -831,8 +818,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 hasContainerBinding
@@ -1366,9 +1351,6 @@ node
 return
 NS_ERROR_UNEXPECTED
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1414,8 +1396,6 @@ get
 )
 ;
 }
-#
-endif
 Instantiation
 newinst
 =
@@ -1893,9 +1873,6 @@ source
 return
 NS_ERROR_UNEXPECTED
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1936,8 +1913,6 @@ container
 )
 ;
 }
-#
-endif
 /
 /
 Add
@@ -2266,9 +2241,6 @@ value
 )
 continue
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2314,8 +2286,6 @@ get
 )
 ;
 }
-#
-endif
 }
 else
 {
@@ -2356,9 +2326,6 @@ value
 =
 valueRes
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2399,8 +2366,6 @@ s
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -2693,9 +2658,6 @@ aProperty
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2805,8 +2767,6 @@ false
 )
 ;
 }
-#
-endif
 if
 (
 canpropagate

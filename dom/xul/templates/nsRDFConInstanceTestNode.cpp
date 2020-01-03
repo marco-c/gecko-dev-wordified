@@ -150,9 +150,6 @@ prlog
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 include
 "
 nsXULContentUtils
@@ -222,8 +219,6 @@ return
 "
 ;
 }
-#
-endif
 nsRDFConInstanceTestNode
 :
 :
@@ -265,9 +260,6 @@ mEmpty
 aEmpty
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -461,8 +453,6 @@ aEmpty
 )
 ;
 }
-#
-endif
 }
 nsresult
 nsRDFConInstanceTestNode
@@ -639,9 +629,6 @@ inst
 continue
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -700,8 +687,6 @@ container
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIRDFContainer
@@ -1512,9 +1497,6 @@ aProperty
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1624,8 +1606,6 @@ false
 )
 ;
 }
-#
-endif
 if
 (
 canpropagate

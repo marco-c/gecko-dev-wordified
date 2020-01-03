@@ -225,16 +225,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 class
 nsIContent
 ;

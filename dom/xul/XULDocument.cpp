@@ -2462,9 +2462,6 @@ nsIContentSink
 aSink
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2549,8 +2546,6 @@ get
 }
 }
 }
-#
-endif
 /
 /
 NOTE
@@ -3734,9 +3729,6 @@ OnPrototypeLoadDone
 true
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -3793,8 +3785,6 @@ get
 ;
 }
 }
-#
-endif
 }
 NS_IMETHODIMP
 XULDocument
@@ -11155,9 +11145,6 @@ uidirection
 this
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -11172,8 +11159,6 @@ XULDocument
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -13160,9 +13145,6 @@ if
 proto
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -13232,8 +13214,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -14788,9 +14768,6 @@ aFailureFromContent
 =
 false
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -14896,8 +14873,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 aIsDynamic
@@ -21752,9 +21727,6 @@ rv
 =
 NS_OK
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -21800,8 +21772,6 @@ get
 )
 ;
 }
-#
-endif
 nsRefPtr
 <
 Element
@@ -23470,9 +23440,6 @@ return
 eResolve_Error
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -23516,8 +23483,6 @@ get
 )
 ;
 }
-#
-endif
 mResolved
 =
 true
@@ -24614,9 +24579,6 @@ OverlayForwardReference
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -24763,8 +24725,6 @@ get
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -24911,9 +24871,6 @@ BroadcasterHookup
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -25081,8 +25038,6 @@ get
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -26283,9 +26238,6 @@ StealNSResult
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 /
 /
 Tell
@@ -26408,8 +26360,6 @@ get
 )
 ;
 }
-#
-endif
 *
 aNeedsHookup
 =

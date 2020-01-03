@@ -306,16 +306,11 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gCommandLog
 ;
-#
-endif
 /
 /
 /
@@ -407,9 +402,6 @@ mUpdaters
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -424,8 +416,6 @@ nsXULCommandDispatcher
 "
 )
 ;
-#
-endif
 }
 nsXULCommandDispatcher
 :

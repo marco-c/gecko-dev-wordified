@@ -463,16 +463,11 @@ nsContentTypeParser
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gContentSinkLog
 ;
-#
-endif
 /
 /
 -
@@ -1000,9 +995,6 @@ mState
 eInProlog
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -1017,8 +1009,6 @@ nsXULContentSink
 "
 )
 ;
-#
-endif
 }
 XULContentSinkImpl
 :
@@ -4185,9 +4175,6 @@ rv
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -4250,8 +4237,6 @@ in
 line
 number
 }
-#
-endif
 return
 rv
 ;
@@ -4398,9 +4383,6 @@ rv
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -4455,8 +4437,6 @@ aLineNumber
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -5548,9 +5528,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -5670,8 +5647,6 @@ get
 )
 ;
 }
-#
-endif
 }
 return
 NS_OK

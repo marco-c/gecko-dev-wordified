@@ -156,16 +156,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 nsContentTestNode
 :
 :
@@ -200,9 +195,6 @@ mTag
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -306,8 +298,6 @@ get
 )
 ;
 }
-#
-endif
 }
 nsresult
 nsContentTestNode
