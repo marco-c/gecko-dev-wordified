@@ -12496,6 +12496,11 @@ new_
 IonBuilder
 >
 (
+(
+JSContext
+*
+)
+nullptr
 CompileCompartment
 :
 :

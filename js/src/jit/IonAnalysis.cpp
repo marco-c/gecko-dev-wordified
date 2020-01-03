@@ -20985,6 +20985,7 @@ cx
 IonBuilder
 builder
 (
+cx
 CompileCompartment
 :
 :
@@ -22696,6 +22697,7 @@ cx
 IonBuilder
 builder
 (
+nullptr
 CompileCompartment
 :
 :

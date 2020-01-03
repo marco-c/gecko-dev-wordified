@@ -9176,6 +9176,16 @@ jsid
 id
 )
 ;
+void
+ensureTrackedProperty
+(
+JSContext
+*
+cx
+jsid
+id
+)
+;
 TypeObject
 *
 maybeType

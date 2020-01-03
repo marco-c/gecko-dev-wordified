@@ -3160,6 +3160,7 @@ barrier
 =
 PropertyReadNeedsTypeBarrier
 (
+analysisContext
 constraints
 (
 )
