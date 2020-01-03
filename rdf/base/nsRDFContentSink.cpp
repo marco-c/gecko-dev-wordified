@@ -1367,8 +1367,10 @@ RDFContextStackElement
 *
 mContextStack
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 mDocumentURL
 ;
 private
@@ -1642,10 +1644,6 @@ mContextStack
 (
 nullptr
 )
-mDocumentURL
-(
-nullptr
-)
 {
 if
 (
@@ -1874,11 +1872,6 @@ gInstanceCount
 ;
 #
 endif
-NS_IF_RELEASE
-(
-mDocumentURL
-)
-;
 if
 (
 mContextStack
@@ -3340,11 +3333,6 @@ NS_ERROR_NULL_POINTER
 mDocumentURL
 =
 aURL
-;
-NS_ADDREF
-(
-aURL
-)
 ;
 mState
 =
