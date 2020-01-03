@@ -492,7 +492,8 @@ value
 =
 /
 /
-Call
+Simple
+call
 functions
 .
 void

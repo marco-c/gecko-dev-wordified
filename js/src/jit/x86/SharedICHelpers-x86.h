@@ -317,7 +317,7 @@ masm
 .
 call
 (
-Operand
+Address
 (
 ICStubReg
 ICStub
@@ -1473,7 +1473,7 @@ masm
 .
 call
 (
-Operand
+Address
 (
 ICStubReg
 ICStub
