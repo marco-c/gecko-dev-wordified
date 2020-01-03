@@ -2003,7 +2003,7 @@ target
 =
 0
 .
-96420
+96420f
 ;
 target
 [
@@ -2012,7 +2012,7 @@ target
 =
 1
 .
-00000
+00000f
 ;
 target
 [
@@ -2021,7 +2021,7 @@ target
 =
 0
 .
-82491
+82491f
 ;
 /
 /
@@ -2078,7 +2078,7 @@ tolerance
 =
 0
 .
-02
+02f
 ;
 tolerance
 [
@@ -2087,7 +2087,7 @@ tolerance
 =
 0
 .
-02
+02f
 ;
 tolerance
 [
@@ -2096,7 +2096,7 @@ tolerance
 =
 0
 .
-04
+04f
 ;
 /
 /
@@ -5064,12 +5064,17 @@ i
 ;
 i
 <
+(
+uint32_t
+)
+(
 lut
 -
 >
 num_input_table_entries
 *
 in_chan
+)
 ;
 i
 +
@@ -5349,12 +5354,17 @@ i
 ;
 i
 <
+(
+uint32_t
+)
+(
 lut
 -
 >
 num_output_table_entries
 *
 out_chan
+)
 ;
 i
 +
@@ -8566,7 +8576,6 @@ size
 {
 uint32_t
 length
-offset
 index
 xyz_count
 trc_count
