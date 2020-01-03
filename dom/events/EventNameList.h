@@ -1109,7 +1109,7 @@ eDragEventClass
 EVENT
 (
 durationchange
-NS_DURATIONCHANGE
+eDurationChange
 EventNameType_HTML
 eBasicEventClass
 )
