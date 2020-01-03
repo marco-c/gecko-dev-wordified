@@ -125,6 +125,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIAsyncInputStream
 .
