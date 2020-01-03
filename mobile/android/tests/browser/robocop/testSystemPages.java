@@ -361,15 +361,10 @@ about
 :
 page
 loads
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 /

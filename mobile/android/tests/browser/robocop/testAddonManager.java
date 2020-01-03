@@ -330,15 +330,10 @@ Add
 -
 on
 Manager
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 /
