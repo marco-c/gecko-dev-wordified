@@ -6398,7 +6398,6 @@ return
 false
 ;
 }
-else
 if
 (
 (
