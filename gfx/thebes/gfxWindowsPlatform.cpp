@@ -11734,6 +11734,7 @@ gfxWindowsPlatform
 SupportsApzTouchInput
 (
 )
+const
 {
 int
 value
