@@ -1419,6 +1419,14 @@ eCSSUnit_XHeight
 unit
 )
 {
+aPresContext
+-
+>
+SetUsesExChUnits
+(
+true
+)
+;
 nsRefPtr
 <
 nsFontMetrics
