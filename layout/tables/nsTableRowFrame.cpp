@@ -950,7 +950,7 @@ StyleContext
 )
 )
 {
-nsIntRect
+TableArea
 damageArea
 (
 0

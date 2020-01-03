@@ -1490,7 +1490,7 @@ cells
 originating
 in
 them
-nsIntRect
+TableArea
 damageArea
 (
 colIndex

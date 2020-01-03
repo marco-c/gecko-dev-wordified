@@ -171,6 +171,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+TableArea
+.
+h
+"
 class
 nsTableCellFrame
 ;
@@ -2002,7 +2009,10 @@ void
 AddBCDamageArea
 (
 const
-nsIntRect
+mozilla
+:
+:
+TableArea
 &
 aValue
 )
@@ -4976,7 +4986,10 @@ CalcBCBorders
 void
 ExpandBCDamageArea
 (
-nsIntRect
+mozilla
+:
+:
+TableArea
 &
 aRect
 )

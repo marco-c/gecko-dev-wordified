@@ -1071,7 +1071,7 @@ is
 a
 degenerated
 colgroup
-nsIntRect
+TableArea
 damageArea
 (
 GetFirstColumn
