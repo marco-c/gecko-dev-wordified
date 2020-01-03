@@ -328,6 +328,15 @@ override
 ;
 virtual
 void
+FullscreenChanged
+(
+bool
+aInFullscreen
+)
+override
+;
+virtual
+void
 OSToolbarButtonPressed
 (
 )
