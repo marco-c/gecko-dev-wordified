@@ -1324,6 +1324,15 @@ gotMedia
 {
 if
 (
+mParser
+-
+>
+IsMediaSegmentPresent
+(
+aData
+)
+&
+&
 mLastEndTimestamp
 &
 &
@@ -1691,12 +1700,6 @@ return
 p
 ;
 }
-else
-if
-(
-gotMedia
-)
-{
 /
 /
 Tell
@@ -1733,7 +1736,6 @@ MaybeNotifyHaveData
 (
 )
 ;
-}
 mInitializationPromise
 .
 Resolve
