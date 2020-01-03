@@ -2019,13 +2019,9 @@ gconf
 -
 2
 setting
-static
-const
-char
-sGconfAccessibilityKey
-[
-]
-=
+#
+define
+GCONF_A11Y_KEY
 "
 /
 desktop
@@ -2036,7 +2032,6 @@ interface
 /
 accessibility
 "
-;
 nsresult
 rv
 =
@@ -2072,7 +2067,7 @@ GetBool
 (
 NS_LITERAL_CSTRING
 (
-sGconfAccessibilityKey
+GCONF_A11Y_KEY
 )
 &
 sShouldEnable
