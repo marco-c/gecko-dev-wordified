@@ -7419,12 +7419,10 @@ if
 (
 aRv
 .
-ErrorCode
+ErrorCodeIs
 (
-)
-=
-=
 NS_ERROR_NOT_AVAILABLE
+)
 )
 {
 /
@@ -7440,8 +7438,10 @@ true
 )
 ;
 aRv
-=
-NS_OK
+.
+SuppressException
+(
+)
 ;
 }
 }
