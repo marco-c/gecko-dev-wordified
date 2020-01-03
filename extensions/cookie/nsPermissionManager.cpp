@@ -2052,6 +2052,11 @@ as
 a
 principal
 .
+bool
+foundHistory
+=
+false
+;
 nsCOMPtr
 <
 nsINavHistoryService
@@ -2063,6 +2068,11 @@ do_GetService
 NS_NAVHISTORYSERVICE_CONTRACTID
 )
 ;
+if
+(
+histSrv
+)
+{
 nsCOMPtr
 <
 nsINavHistoryQuery
@@ -2370,11 +2380,6 @@ rv
 rv
 )
 ;
-bool
-foundHistory
-=
-false
-;
 for
 (
 uint32_t
@@ -2666,6 +2671,7 @@ rv
 rv
 )
 ;
+}
 /
 /
 If
