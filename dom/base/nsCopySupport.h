@@ -465,7 +465,7 @@ which
 should
 be
 either
-NS_CUT
+eCut
 eCopy
 or
 *

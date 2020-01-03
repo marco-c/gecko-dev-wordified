@@ -6806,7 +6806,7 @@ if
 (
 FireClipboardEvent
 (
-NS_CUT
+eCut
 nsIClipboard
 :
 :

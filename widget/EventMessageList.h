@@ -1387,7 +1387,7 @@ eClipboardEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CUT
+eCut
 eClipboardEventFirst
 +
 1

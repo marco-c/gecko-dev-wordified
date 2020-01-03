@@ -3738,7 +3738,7 @@ NS_ASSERTION
 aEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 aEventMessage
@@ -4475,7 +4475,7 @@ if
 aEventMessage
 !
 =
-NS_CUT
+eCut
 |
 |
 content
