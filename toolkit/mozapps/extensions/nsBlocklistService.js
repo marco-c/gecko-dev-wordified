@@ -319,6 +319,7 @@ mozilla
 .
 org
 "
+;
 const
 KEY_PROFILEDIR
 =
