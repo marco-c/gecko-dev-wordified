@@ -322,9 +322,13 @@ uint16_t
 )
 )
 ;
-sprintf
+snprintf
 (
 uuidStr
+sizeof
+(
+uuidStr
+)
 "
 %
 .
