@@ -7916,6 +7916,11 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
+if
+(
+target
+)
+{
 CopyToTarget
 (
 target
@@ -7933,6 +7938,7 @@ this
 target
 )
 ;
+}
 }
 #
 endif
@@ -8491,6 +8497,11 @@ Matrix
 aTransform
 )
 {
+MOZ_ASSERT
+(
+aTarget
+)
+;
 IntRect
 rect
 ;

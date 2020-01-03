@@ -17833,6 +17833,11 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
+if
+(
+tempDT
+)
+{
 context
 =
 new
@@ -17862,6 +17867,7 @@ y
 )
 )
 ;
+}
 }
 #
 endif
@@ -17997,6 +18003,9 @@ gfxUtils
 :
 :
 sDumpPainting
+&
+&
+tempDT
 )
 {
 RefPtr
