@@ -14456,6 +14456,7 @@ singleOverlay
 HeapReg
 ptrReg
 0
+0
 Assembler
 :
 :
@@ -14470,6 +14471,7 @@ ma_vstr
 vd
 HeapReg
 ptrReg
+0
 0
 Assembler
 :
@@ -14567,6 +14569,7 @@ singleOverlay
 HeapReg
 ptrReg
 0
+0
 Assembler
 :
 :
@@ -14581,6 +14584,7 @@ ma_vstr
 vd
 HeapReg
 ptrReg
+0
 0
 Assembler
 :
