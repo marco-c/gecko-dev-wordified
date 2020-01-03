@@ -567,6 +567,7 @@ bool
 aTruthValue
 )
 ;
+explicit
 Assertion
 (
 nsIRDFResource
@@ -1513,6 +1514,7 @@ nsIRDFNode
 target
 )
 ;
+explicit
 InMemoryDataSource
 (
 nsISupports
@@ -10600,6 +10602,7 @@ VisitorClosure
 {
 public
 :
+explicit
 VisitorClosure
 (
 rdfITripleVisitor

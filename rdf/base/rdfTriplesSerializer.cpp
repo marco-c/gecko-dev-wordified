@@ -209,6 +209,7 @@ rdfITripleVisitor
 {
 public
 :
+explicit
 TriplesVisitor
 (
 nsIOutputStream

@@ -232,6 +232,7 @@ friend
 class
 nsNameSpaceMap
 ;
+explicit
 const_iterator
 (
 const

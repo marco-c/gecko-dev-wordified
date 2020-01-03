@@ -476,6 +476,7 @@ CompositeDataSourceImpl
 void
 )
 ;
+explicit
 CompositeDataSourceImpl
 (
 char
