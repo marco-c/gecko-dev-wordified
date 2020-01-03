@@ -1033,10 +1033,6 @@ details
 class
 MediaDecoderStateMachine
 {
-friend
-class
-AudioSink
-;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaDecoderStateMachine
