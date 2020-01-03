@@ -14099,9 +14099,11 @@ if
 !
 mNodeInfo
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 /
 /
 Read
@@ -14164,9 +14166,11 @@ if
 !
 mAttributes
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsAutoString
 attributeValue
 ;
@@ -14233,9 +14237,11 @@ if
 !
 ni
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 mAttributes
 [
 i
