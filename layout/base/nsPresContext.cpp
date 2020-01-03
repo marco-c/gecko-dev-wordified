@@ -10746,6 +10746,8 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 {
 if
@@ -10771,15 +10773,6 @@ here
 return
 ;
 }
-/
-/
-FIXME
-:
-Pass
-through
-from
-callers
-.
 RestyleManager
 (
 )
@@ -10788,7 +10781,7 @@ RestyleManager
 PostRebuildAllStyleDataEvent
 (
 aExtraHint
-eRestyle_Subtree
+aRestyleHint
 )
 ;
 }
@@ -12661,6 +12654,7 @@ changed
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
+eRestyle_Subtree
 )
 ;
 }
@@ -12798,6 +12792,7 @@ NotifyCounterStylesAreDirty
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
+eRestyle_Subtree
 )
 ;
 }
