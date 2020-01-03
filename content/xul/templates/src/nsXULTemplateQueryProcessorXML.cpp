@@ -988,7 +988,7 @@ doc
 root
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

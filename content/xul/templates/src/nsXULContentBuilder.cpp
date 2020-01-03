@@ -6507,7 +6507,7 @@ MOZ_AUTO_DOC_UPDATE
 container
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 UPDATE_CONTENT_MODEL

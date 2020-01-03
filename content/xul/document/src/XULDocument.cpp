@@ -9983,7 +9983,7 @@ NS_ASSERTION
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -22574,7 +22574,7 @@ document
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -23471,7 +23471,7 @@ notify
 target
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =

@@ -3068,7 +3068,7 @@ should
 we
 instead
 use
-GetCurrentDoc
+GetComposedDoc
 (
 )
 /
@@ -4033,6 +4033,26 @@ IsEmpty
 )
 )
 {
+/
+/
+XXXsmaug
+Should
+we
+use
+ShadowRoot
+:
+:
+GetElementById
+in
+case
+/
+/
+content
+is
+in
+Shadow
+DOM
+?
 nsCOMPtr
 <
 nsIDOMDocument
@@ -4044,7 +4064,7 @@ do_QueryInterface
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -6657,7 +6677,7 @@ fireSelectionHandler
 (
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
@@ -6718,7 +6738,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -7218,7 +7238,7 @@ nsIDocument
 *
 document
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -7729,7 +7749,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -8634,7 +8654,7 @@ domDoc
 (
 do_QueryInterface
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -9183,7 +9203,7 @@ xuldoc
 =
 do_QueryInterface
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -10790,7 +10810,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -10908,7 +10928,7 @@ nsIDocument
 >
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -11161,7 +11181,7 @@ nsIDocument
 >
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -11736,7 +11756,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -11895,7 +11915,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
