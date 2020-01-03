@@ -36284,3 +36284,17 @@ return
 NS_OK
 ;
 }
+int32_t
+nsWindow
+:
+:
+RoundsWidgetCoordinatesTo
+(
+)
+{
+return
+GdkScaleFactor
+(
+)
+;
+}
