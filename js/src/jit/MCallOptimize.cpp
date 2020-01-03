@@ -4814,9 +4814,7 @@ if
 (
 ArrayPrototypeHasIndexedProperty
 (
-constraints
-(
-)
+this
 script
 (
 )
@@ -5686,9 +5684,7 @@ if
 (
 ArrayPrototypeHasIndexedProperty
 (
-constraints
-(
-)
+this
 script
 (
 )
@@ -6306,9 +6302,7 @@ if
 (
 ArrayPrototypeHasIndexedProperty
 (
-constraints
-(
-)
+this
 script
 (
 )
@@ -7070,9 +7064,7 @@ if
 (
 ArrayPrototypeHasIndexedProperty
 (
-constraints
-(
-)
+this
 script
 (
 )
@@ -14669,9 +14661,7 @@ if
 (
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 )
