@@ -1079,6 +1079,11 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 DeprecatedTextureHostFlags
 )
+typedef
+void
+*
+SyncHandle
+;
 /
 *
 *
@@ -1149,6 +1154,9 @@ mSupportsTextureBlitting
 bool
 mSupportsPartialUploads
 ;
+SyncHandle
+mSyncHandle
+;
 explicit
 TextureFactoryIdentifier
 (
@@ -1175,6 +1183,10 @@ bool
 aSupportsPartialUploads
 =
 false
+SyncHandle
+aSyncHandle
+=
+nullptr
 )
 :
 mParentBackend
@@ -1206,6 +1218,10 @@ aSupportsTextureBlitting
 mSupportsPartialUploads
 (
 aSupportsPartialUploads
+)
+mSyncHandle
+(
+aSyncHandle
 )
 {
 }
