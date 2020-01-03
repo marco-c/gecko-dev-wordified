@@ -620,8 +620,10 @@ JS_TraceShapeCycleCollectorChildren
 JSTracer
 *
 trc
-void
-*
+JS
+:
+:
+GCCellPtr
 shape
 )
 ;
