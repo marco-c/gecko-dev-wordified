@@ -4958,7 +4958,6 @@ nsIURI
 >
 fileURI
 ;
-nsresult
 rv
 =
 ioService

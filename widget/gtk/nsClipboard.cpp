@@ -3088,10 +3088,7 @@ nsCOMPtr
 <
 nsISupports
 >
-item
-;
-uint32_t
-len
+imageItem
 ;
 nsCOMPtr
 <
@@ -3135,7 +3132,7 @@ i
 ]
 getter_AddRefs
 (
-item
+imageItem
 )
 &
 len
@@ -3145,7 +3142,7 @@ ptrPrimitive
 =
 do_QueryInterface
 (
-item
+imageItem
 )
 ;
 }

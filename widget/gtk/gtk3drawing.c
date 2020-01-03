@@ -13742,10 +13742,6 @@ MOZ_GTK_BUTTON
 *
 *
 /
-GtkStyleContext
-*
-style
-;
 ensure_tree_header_cell_widget
 (
 )

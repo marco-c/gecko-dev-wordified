@@ -13037,9 +13037,6 @@ size
 )
 return
 ;
-nsIntRect
-rect
-;
 /
 /
 Invalidate
