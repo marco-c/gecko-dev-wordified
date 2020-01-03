@@ -348,6 +348,16 @@ check
 ULONG
 mIPInterfaceChecksum
 ;
+/
+/
+Network
+changed
+events
+are
+enabled
+bool
+mAllowChangedEvent
+;
 }
 ;
 #
