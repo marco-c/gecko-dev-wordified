@@ -109,9 +109,6 @@ function
 (
 )
 {
-let
-doc
-=
 yield
 addTab
 (

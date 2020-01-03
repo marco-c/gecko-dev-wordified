@@ -56,17 +56,12 @@ Check
 that
 the
 timeline
--
-based
-UI
 shows
 correct
 time
 graduations
 in
 the
-/
-/
 header
 .
 const
@@ -144,7 +139,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;

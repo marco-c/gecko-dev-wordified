@@ -155,9 +155,6 @@ function
 (
 )
 {
-let
-doc
-=
 yield
 addTab
 (
@@ -312,10 +309,10 @@ this
 executes
 the
 first
-short
 "
 +
 "
+short
 animation
 should
 have

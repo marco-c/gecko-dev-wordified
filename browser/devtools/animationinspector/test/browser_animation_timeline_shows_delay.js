@@ -61,14 +61,11 @@ visualized
 in
 the
 timeline
--
-based
-UI
 when
 the
-/
-/
 animation
+/
+/
 is
 delayed
 .
@@ -119,7 +116,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;

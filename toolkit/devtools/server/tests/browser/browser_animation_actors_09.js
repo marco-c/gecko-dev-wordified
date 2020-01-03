@@ -142,9 +142,6 @@ nodes
 "
 )
 ;
-let
-doc
-=
 yield
 addTab
 (

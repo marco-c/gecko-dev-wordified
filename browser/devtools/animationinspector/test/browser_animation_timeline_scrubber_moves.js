@@ -59,15 +59,10 @@ scrubber
 in
 the
 timeline
--
-based
-UI
 moves
 when
 animations
 are
-/
-/
 playing
 .
 /
@@ -137,7 +132,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;

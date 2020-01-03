@@ -56,9 +56,6 @@ Check
 that
 the
 timeline
--
-based
-UI
 contains
 the
 right
@@ -89,7 +86,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;

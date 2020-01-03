@@ -56,9 +56,6 @@ Check
 that
 the
 timeline
--
-based
-UI
 is
 displays
 as
@@ -66,10 +63,10 @@ many
 iteration
 elements
 as
-/
-/
 there
 are
+/
+/
 iterations
 in
 an
@@ -101,7 +98,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;
