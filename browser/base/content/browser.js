@@ -48734,7 +48734,7 @@ brandBundle
 getString
 (
 "
-brandShortName
+brandShorterName
 "
 )
 ;
