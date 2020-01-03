@@ -5778,12 +5778,9 @@ inline
 void
 addToAvailableList
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 )
 ;
 inline
