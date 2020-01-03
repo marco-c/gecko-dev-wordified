@@ -280,6 +280,7 @@ mContext
 context
 ;
 }
+Override
 public
 GeckoProfile
 getProfile
@@ -331,6 +332,7 @@ Bug
 :
 Implement
 this
+Override
 public
 PromptService
 getPromptService
@@ -341,6 +343,7 @@ return
 null
 ;
 }
+Override
 public
 Activity
 getActivity
@@ -354,6 +357,7 @@ Activity
 mContext
 ;
 }
+Override
 public
 String
 getDefaultUAString
@@ -383,6 +387,7 @@ Bug
 :
 Implement
 this
+Override
 public
 LocationListener
 getLocationListener
@@ -400,6 +405,7 @@ Bug
 :
 Implement
 this
+Override
 public
 SensorEventListener
 getSensorEventListener
@@ -417,6 +423,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 doRestart
@@ -424,6 +431,7 @@ doRestart
 )
 {
 }
+Override
 public
 void
 setFullScreen
@@ -471,6 +479,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 addPluginView
@@ -494,6 +503,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 removePluginView
@@ -514,6 +524,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 enableCameraView
@@ -528,6 +539,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 disableCameraView
@@ -542,6 +554,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 addAppStateListener
@@ -560,6 +573,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 removeAppStateListener
@@ -578,6 +592,7 @@ Bug
 :
 Implement
 this
+Override
 public
 View
 getCameraView
@@ -595,6 +610,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 notifyWakeLockChanged
@@ -613,6 +629,7 @@ Bug
 :
 Implement
 this
+Override
 public
 FormAssistPopup
 getFormAssistPopup
@@ -623,6 +640,7 @@ return
 null
 ;
 }
+Override
 public
 boolean
 areTabsShown
@@ -640,6 +658,7 @@ Bug
 :
 Implement
 this
+Override
 public
 AbsoluteLayout
 getPluginContainer
@@ -650,6 +669,7 @@ return
 null
 ;
 }
+Override
 public
 void
 notifyCheckUpdateResult
@@ -676,6 +696,7 @@ result
 )
 ;
 }
+Override
 public
 boolean
 hasTabsSideBar
@@ -693,6 +714,7 @@ Bug
 :
 Implement
 this
+Override
 public
 void
 invalidateOptionsMenu

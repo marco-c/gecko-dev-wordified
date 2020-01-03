@@ -132,6 +132,7 @@ callback
 .
 *
 /
+Override
 public
 void
 onReady
@@ -209,6 +210,7 @@ requests
 .
 *
 /
+Override
 public
 void
 onAlert
@@ -302,6 +304,7 @@ requests
 .
 *
 /
+Override
 public
 void
 onConfirm
@@ -407,6 +410,7 @@ requests
 .
 *
 /
+Override
 public
 void
 onPrompt
@@ -482,6 +486,7 @@ requests
 .
 *
 /
+Override
 public
 void
 onDebugRequest

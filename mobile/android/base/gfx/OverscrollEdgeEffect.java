@@ -274,6 +274,7 @@ context
 ;
 }
 }
+Override
 public
 void
 setSize
@@ -435,6 +436,7 @@ postInvalidateDelayed
 ;
 }
 }
+Override
 public
 void
 setVelocity
@@ -513,6 +515,7 @@ invalidate
 )
 ;
 }
+Override
 public
 void
 setDistance
@@ -598,6 +601,7 @@ invalidate
 )
 ;
 }
+Override
 public
 void
 draw

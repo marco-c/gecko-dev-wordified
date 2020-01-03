@@ -353,6 +353,7 @@ type
 .
 *
 /
+Override
 public
 String
 getMime
@@ -402,6 +403,7 @@ Uri
 .
 *
 /
+Override
 public
 String
 getUri

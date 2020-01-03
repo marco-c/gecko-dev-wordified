@@ -253,6 +253,7 @@ Ready
 ;
 }
 }
+Override
 public
 void
 handleMessage
@@ -295,6 +296,7 @@ init
 ;
 }
 }
+Override
 public
 boolean
 onTouchEvent
@@ -321,6 +323,7 @@ wrapped
 )
 ;
 }
+Override
 public
 boolean
 onMotionEvent
@@ -338,6 +341,7 @@ return
 false
 ;
 }
+Override
 public
 boolean
 onKeyEvent
@@ -355,6 +359,7 @@ return
 false
 ;
 }
+Override
 public
 PointF
 getVelocityVector
@@ -375,6 +380,7 @@ PointF
 )
 ;
 }
+Override
 public
 void
 pageRectUpdated
@@ -391,6 +397,7 @@ APZC
 I
 think
 }
+Override
 public
 void
 abortPanning
@@ -407,6 +414,7 @@ APZC
 I
 think
 }
+Override
 public
 void
 notifyDefaultActionPrevented
@@ -458,6 +466,7 @@ this
 )
 ;
 }
+Override
 public
 native
 void
@@ -490,6 +499,7 @@ GeckoEvent
 event
 )
 ;
+Override
 public
 native
 void
@@ -497,6 +507,7 @@ destroy
 (
 )
 ;
+Override
 public
 native
 boolean
@@ -504,6 +515,7 @@ getRedrawHint
 (
 )
 ;
+Override
 public
 native
 void
@@ -513,6 +525,7 @@ int
 overscrollMode
 )
 ;
+Override
 public
 native
 int
@@ -567,6 +580,7 @@ resolution
 )
 ;
 }
+Override
 public
 void
 setOverscrollHandler

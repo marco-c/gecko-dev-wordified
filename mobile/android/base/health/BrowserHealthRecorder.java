@@ -845,6 +845,7 @@ volatile
 SessionInformation
 session
 ;
+Override
 public
 void
 setCurrentSession
@@ -860,6 +861,7 @@ session
 session
 ;
 }
+Override
 public
 void
 recordGeckoStartupTime
@@ -891,6 +893,7 @@ duration
 )
 ;
 }
+Override
 public
 void
 recordJavaStartupTime
@@ -1234,6 +1237,7 @@ prefs
 appPrefs
 ;
 }
+Override
 public
 boolean
 isEnabled
@@ -1265,6 +1269,7 @@ uninitialization
 .
 *
 /
+Override
 public
 synchronized
 void
@@ -1426,6 +1431,7 @@ EVENT_SEARCH
 )
 ;
 }
+Override
 public
 void
 onAppLocaleChanged
@@ -1469,6 +1475,7 @@ to
 )
 ;
 }
+Override
 public
 void
 onAddonChanged
@@ -1530,6 +1537,7 @@ e
 ;
 }
 }
+Override
 public
 void
 onAddonUninstalling
@@ -1670,6 +1678,7 @@ thread
 .
 *
 /
+Override
 public
 synchronized
 void
@@ -1729,6 +1738,7 @@ orphan
 .
 *
 /
+Override
 public
 synchronized
 void
@@ -4607,6 +4617,7 @@ SEARCH_LOCATIONS
 .
 *
 /
+Override
 public
 void
 recordSearch
@@ -5625,6 +5636,7 @@ e
 ;
 }
 }
+Override
 public
 void
 checkForOrphanSessions
@@ -5810,6 +5822,7 @@ submitter
 .
 }
 }
+Override
 public
 void
 recordSessionEnd
@@ -5876,6 +5889,7 @@ change
 .
 *
 /
+Override
 public
 void
 recordSessionEnd

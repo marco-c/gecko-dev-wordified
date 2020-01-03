@@ -5492,6 +5492,7 @@ return
 true
 ;
 }
+Override
 public
 int
 compareTo
@@ -5645,6 +5646,7 @@ ActivityResolveInfo
 (
 )
 ;
+Override
 public
 void
 sort

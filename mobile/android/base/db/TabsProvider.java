@@ -1575,6 +1575,7 @@ return
 null
 ;
 }
+Override
 SuppressWarnings
 (
 "
@@ -1862,6 +1863,7 @@ return
 deleted
 ;
 }
+Override
 public
 Uri
 insertInTransaction
@@ -2056,6 +2058,7 @@ return
 null
 ;
 }
+Override
 public
 int
 updateInTransaction

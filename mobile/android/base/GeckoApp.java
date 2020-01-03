@@ -1461,6 +1461,7 @@ getLayout
 (
 )
 ;
+Override
 abstract
 public
 boolean
@@ -1589,6 +1590,7 @@ this
 )
 ;
 }
+Override
 public
 Activity
 getActivity
@@ -1599,6 +1601,7 @@ return
 this
 ;
 }
+Override
 public
 LocationListener
 getLocationListener
@@ -1609,6 +1612,7 @@ return
 this
 ;
 }
+Override
 public
 SensorEventListener
 getSensorEventListener
@@ -1619,6 +1623,7 @@ return
 this
 ;
 }
+Override
 public
 View
 getCameraView
@@ -1629,6 +1634,7 @@ return
 mCameraView
 ;
 }
+Override
 public
 void
 addAppStateListener
@@ -1647,6 +1653,7 @@ listener
 )
 ;
 }
+Override
 public
 void
 removeAppStateListener
@@ -1665,6 +1672,7 @@ listener
 )
 ;
 }
+Override
 public
 FormAssistPopup
 getFormAssistPopup
@@ -3150,6 +3158,7 @@ return
 false
 ;
 }
+Override
 public
 boolean
 areTabsShown
@@ -5544,6 +5553,7 @@ mFullScreenPluginView
 view
 ;
 }
+Override
 public
 void
 addPluginView
@@ -5846,6 +5856,7 @@ false
 )
 ;
 }
+Override
 public
 void
 removePluginView
@@ -6779,6 +6790,7 @@ requestRender
 )
 ;
 }
+Override
 public
 void
 setFullScreen
@@ -10795,6 +10807,7 @@ e
 ;
 }
 }
+Override
 public
 synchronized
 GeckoProfile
@@ -11201,6 +11214,7 @@ build
 )
 ;
 }
+Override
 public
 void
 enableCameraView
@@ -11358,6 +11372,7 @@ LayoutParams
 ;
 }
 }
+Override
 public
 void
 disableCameraView
@@ -11415,6 +11430,7 @@ mCameraView
 ;
 }
 }
+Override
 public
 String
 getDefaultUAString
@@ -13695,6 +13711,7 @@ c
 ;
 }
 }
+Override
 public
 void
 doRestart
@@ -14394,6 +14411,7 @@ apply
 }
 }
 }
+Override
 public
 PromptService
 getPromptService
@@ -14691,6 +14709,7 @@ data
 ;
 }
 }
+Override
 public
 AbsoluteLayout
 getPluginContainer
@@ -14840,6 +14859,7 @@ Hal
 WakeLock
 is
 changed
+Override
 public
 void
 notifyWakeLockChanged
@@ -15003,6 +15023,7 @@ topic
 ;
 }
 }
+Override
 public
 void
 notifyCheckUpdateResult

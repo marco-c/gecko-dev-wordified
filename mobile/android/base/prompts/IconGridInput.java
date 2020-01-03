@@ -1200,6 +1200,7 @@ BitmapLoader
 (
 )
 {
+Override
 public
 void
 onBitmapFound
