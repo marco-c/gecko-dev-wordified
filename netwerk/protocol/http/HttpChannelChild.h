@@ -553,6 +553,12 @@ IsSuspended
 (
 )
 ;
+bool
+RecvNotifyTrackingProtectionDisabled
+(
+)
+MOZ_OVERRIDE
+;
 void
 FlushedForDiversion
 (
