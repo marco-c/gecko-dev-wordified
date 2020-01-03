@@ -3139,6 +3139,7 @@ nsISupports
 *
 aStatement
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_SUCCESS
 (
@@ -3216,6 +3217,7 @@ mozIStorageResultSet
 *
 aResults
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -3253,6 +3255,7 @@ mozIStorageError
 *
 aError
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -3288,6 +3291,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -8445,6 +8449,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -8475,6 +8480,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -8786,6 +8792,7 @@ NS_IMETHOD
 HandleCompletion
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -11767,6 +11774,7 @@ nsISupports
 *
 aConnection
 )
+MOZ_OVERRIDE
 {
 if
 (

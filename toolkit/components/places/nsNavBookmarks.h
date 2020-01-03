@@ -1754,6 +1754,7 @@ NS_IMETHOD
 DoTransaction
 (
 )
+MOZ_OVERRIDE
 {
 nsNavBookmarks
 *
@@ -1844,6 +1845,7 @@ NS_IMETHOD
 UndoTransaction
 (
 )
+MOZ_OVERRIDE
 {
 nsNavBookmarks
 *
@@ -1889,6 +1891,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
+MOZ_OVERRIDE
 {
 return
 DoTransaction
@@ -1903,6 +1906,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -1923,6 +1927,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult

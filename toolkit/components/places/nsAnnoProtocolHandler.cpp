@@ -831,6 +831,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
+MOZ_OVERRIDE
 {
 /
 /
@@ -1172,6 +1173,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1418,6 +1420,7 @@ nsIRequest
 nsISupports
 *
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -1433,6 +1436,7 @@ nsISupports
 nsresult
 aStatusCode
 )
+MOZ_OVERRIDE
 {
 /
 /
