@@ -1106,6 +1106,10 @@ panel
 >
 #
 loop
+-
+panel
+-
+iframe
 "
 )
 ;
@@ -1205,6 +1209,10 @@ panel
 >
 #
 loop
+-
+panel
+-
+iframe
 "
 )
 ;
@@ -1418,6 +1426,10 @@ panel
 >
 #
 loop
+-
+panel
+-
+iframe
 "
 )
 ;
