@@ -238,9 +238,8 @@ restore
 the
 tab
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

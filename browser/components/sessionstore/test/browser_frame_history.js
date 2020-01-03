@@ -316,9 +316,8 @@ place
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -736,9 +735,8 @@ place
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

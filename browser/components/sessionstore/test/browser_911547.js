@@ -308,9 +308,8 @@ URI
 close
 the
 tab
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

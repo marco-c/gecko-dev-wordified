@@ -130,9 +130,8 @@ close
 }
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -544,9 +543,8 @@ promiseTabRestored
 tab2
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab2
 )
@@ -1126,9 +1124,8 @@ flushAsync
 browser
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

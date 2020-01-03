@@ -143,9 +143,8 @@ collected
 form
 data
 .
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
