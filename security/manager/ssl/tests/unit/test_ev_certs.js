@@ -1084,8 +1084,8 @@ staleness
 of
 up
 to
-1
-day
+30
+hours
 Services
 .
 prefs
@@ -1099,7 +1099,7 @@ onecrl
 .
 maximum_staleness_in_seconds
 "
-86400
+108000
 )
 ;
 /
@@ -1340,8 +1340,8 @@ staleness
 of
 up
 to
-1
-day
+30
+hours
 Services
 .
 prefs
@@ -1355,7 +1355,7 @@ onecrl
 .
 maximum_staleness_in_seconds
 "
-86400
+108000
 )
 ;
 /
@@ -1409,7 +1409,7 @@ now
 1000
 )
 -
-86480
+108080
 )
 ;
 clearOCSPCache
