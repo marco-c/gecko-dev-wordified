@@ -930,16 +930,6 @@ Count
 (
 )
 ;
-MonitorType
-&
-GetReentrantMonitor
-(
-)
-{
-return
-mMonitor
-;
-}
 }
 ;
 #
