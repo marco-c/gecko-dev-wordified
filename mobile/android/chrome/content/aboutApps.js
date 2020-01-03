@@ -911,6 +911,8 @@ src
 manifest
 .
 biggestIconURL
+(
+)
 |
 |
 DEFAULT_ICON
