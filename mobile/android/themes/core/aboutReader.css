@@ -3352,6 +3352,15 @@ height
 }
 .
 toolbar
+{
+bottom
+:
+-
+57px
+;
+}
+.
+toolbar
 >
 *
 {
