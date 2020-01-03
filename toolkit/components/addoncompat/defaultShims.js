@@ -190,17 +190,6 @@ Ci
 nsISupportsWeakReference
 ]
 )
-getWhitelist
-:
-function
-(
-)
-{
-return
-[
-]
-;
-}
 interposeProperty
 :
 function
