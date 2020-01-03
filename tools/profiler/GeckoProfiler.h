@@ -618,6 +618,13 @@ stdint
 .
 h
 >
+#
+include
+<
+stdarg
+.
+h
+>
 /
 /
 Insert
