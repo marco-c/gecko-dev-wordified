@@ -77,10 +77,6 @@ xpcshell
 import
 tempfile
 from
-automationutils
-import
-replaceBackSlashes
-from
 zipfile
 import
 ZipFile
@@ -291,9 +287,17 @@ s
 '
 %
                  
-replaceBackSlashes
-(
 remoteName
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
 ]
     
