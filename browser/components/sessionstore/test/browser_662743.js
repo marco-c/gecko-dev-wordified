@@ -581,6 +581,12 @@ addTab
 testURL
 )
 ;
+aFormData
+.
+url
+=
+testURL
+;
 let
 tabState
 =
@@ -592,11 +598,11 @@ entries
 url
 :
 testURL
+}
+]
 formdata
 :
 aFormData
-}
-]
 }
 ;
 promiseBrowserLoaded
