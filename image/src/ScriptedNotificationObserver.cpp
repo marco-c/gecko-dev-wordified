@@ -191,6 +191,7 @@ imgINotificationObserver
 :
 SIZE_AVAILABLE
 )
+{
 return
 mInner
 -
@@ -200,6 +201,7 @@ SizeAvailable
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -210,6 +212,7 @@ imgINotificationObserver
 :
 FRAME_UPDATE
 )
+{
 return
 mInner
 -
@@ -219,6 +222,7 @@ FrameUpdate
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -229,6 +233,7 @@ imgINotificationObserver
 :
 FRAME_COMPLETE
 )
+{
 return
 mInner
 -
@@ -238,6 +243,7 @@ FrameComplete
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -248,6 +254,7 @@ imgINotificationObserver
 :
 DECODE_COMPLETE
 )
+{
 return
 mInner
 -
@@ -257,6 +264,7 @@ DecodeComplete
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -267,6 +275,7 @@ imgINotificationObserver
 :
 LOAD_COMPLETE
 )
+{
 return
 mInner
 -
@@ -276,6 +285,7 @@ LoadComplete
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -286,6 +296,7 @@ imgINotificationObserver
 :
 DISCARD
 )
+{
 return
 mInner
 -
@@ -295,6 +306,7 @@ Discard
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -305,6 +317,7 @@ imgINotificationObserver
 :
 IS_ANIMATED
 )
+{
 return
 mInner
 -
@@ -314,6 +327,7 @@ IsAnimated
 aRequest
 )
 ;
+}
 if
 (
 aType
@@ -324,6 +338,7 @@ imgINotificationObserver
 :
 HAS_TRANSPARENCY
 )
+{
 return
 mInner
 -
@@ -333,6 +348,7 @@ HasTransparency
 aRequest
 )
 ;
+}
 return
 NS_OK
 ;
