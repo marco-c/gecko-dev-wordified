@@ -296,11 +296,6 @@ SpeechSynthesisVoice
 aResult
 )
 ;
-void
-ForceEnd
-(
-)
-;
 private
 :
 virtual

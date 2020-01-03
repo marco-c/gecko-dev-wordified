@@ -132,7 +132,7 @@ aWhy
 override
 ;
 bool
-RecvReadVoicesAndState
+RecvReadVoiceList
 (
 InfallibleTArray
 <
@@ -146,9 +146,6 @@ nsString
 >
 *
 aDefaults
-bool
-*
-aIsSpeaking
 )
 override
 ;
@@ -295,13 +292,6 @@ override
 virtual
 bool
 RecvCancel
-(
-)
-override
-;
-virtual
-bool
-RecvForceEnd
 (
 )
 override
