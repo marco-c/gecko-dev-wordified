@@ -122,6 +122,14 @@ nsClipboard
 (
 )
 ;
+protected
+:
+~
+nsClipboard
+(
+)
+{
+}
 }
 ;
 #
