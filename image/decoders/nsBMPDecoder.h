@@ -400,7 +400,10 @@ mBIH
 char
 mRawBuf
 [
-WIN_V3_INTERNAL_BIH_LENGTH
+BIH_INTERNAL_LENGTH
+:
+:
+WIN_V3
 ]
 ;
 /
