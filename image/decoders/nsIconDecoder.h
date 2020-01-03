@@ -503,8 +503,6 @@ char
 aBuffer
 uint32_t
 aCount
-DecodeStrategy
-aStrategy
 )
 MOZ_OVERRIDE
 ;

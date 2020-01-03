@@ -2896,8 +2896,6 @@ char
 aBuffer
 uint32_t
 aCount
-DecodeStrategy
-aStrategy
 )
 ;
 nsresult
@@ -2905,8 +2903,6 @@ DecodeSomeData
 (
 size_t
 aMaxBytes
-DecodeStrategy
-aStrategy
 )
 ;
 bool
