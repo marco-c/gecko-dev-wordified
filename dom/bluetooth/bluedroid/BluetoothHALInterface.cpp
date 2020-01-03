@@ -328,8 +328,10 @@ MOZ_ASSERT
 aRes
 )
 ;
+nsRefPtr
+<
 nsRunnable
-*
+>
 runnable
 ;
 if
