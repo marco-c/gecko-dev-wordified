@@ -1715,6 +1715,10 @@ HandleObject
 frame
 int64_t
 when
+const
+char
+*
+className
 )
 :
 frame
@@ -1724,6 +1728,10 @@ frame
 when
 (
 when
+)
+className
+(
+className
 )
 {
 MOZ_ASSERT_IF
@@ -1750,6 +1758,11 @@ frame
 ;
 int64_t
 when
+;
+const
+char
+*
+className
 ;
 }
 ;
@@ -1960,6 +1973,8 @@ appendAllocationSite
 JSContext
 *
 cx
+HandleObject
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -3741,6 +3756,8 @@ slowPathOnLogAllocationSite
 JSContext
 *
 cx
+HandleObject
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -4975,6 +4992,9 @@ onLogAllocationSite
 JSContext
 *
 cx
+JSObject
+*
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -7217,6 +7237,9 @@ onLogAllocationSite
 JSContext
 *
 cx
+JSObject
+*
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -7258,6 +7281,13 @@ empty
 return
 true
 ;
+RootedObject
+hobj
+(
+cx
+obj
+)
+;
 return
 Debugger
 :
@@ -7265,6 +7295,7 @@ Debugger
 slowPathOnLogAllocationSite
 (
 cx
+hobj
 frame
 when
 *

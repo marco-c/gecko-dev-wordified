@@ -4558,6 +4558,7 @@ metadata
 objectMetadataCallback
 (
 cx
+obj
 )
 )
 {

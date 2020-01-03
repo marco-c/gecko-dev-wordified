@@ -1765,6 +1765,13 @@ enter
 cx
 )
 ;
+RootedObject
+hobj
+(
+cx
+obj
+)
+;
 cx
 -
 >
@@ -1776,7 +1783,7 @@ compartment
 setNewObjectMetadata
 (
 cx
-obj
+hobj
 )
 ;
 }

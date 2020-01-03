@@ -15935,6 +15935,9 @@ ObjectMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+obj
 )
 ;
 /

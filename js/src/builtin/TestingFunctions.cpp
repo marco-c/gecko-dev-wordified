@@ -8663,6 +8663,8 @@ ShellObjectMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
 )
 {
 RootedObject
