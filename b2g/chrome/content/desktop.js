@@ -527,9 +527,9 @@ number
 .
 /
 /
-DebuggerServer
+SocketListener
 .
-openListener
+open
 detects
 that
 it
@@ -542,10 +542,10 @@ path
 (
 string
 )
-/
-/
 and
 starts
+/
+/
 listening
 on
 the
