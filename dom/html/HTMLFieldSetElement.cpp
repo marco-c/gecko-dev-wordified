@@ -210,14 +210,6 @@ nsGenericHTMLFormElement
 (
 aNodeInfo
 )
-mElements
-(
-nullptr
-)
-mFirstLegend
-(
-nullptr
-)
 mInvalidElementsCount
 (
 0
@@ -312,6 +304,8 @@ HTMLFieldSetElement
 nsGenericHTMLFormElement
 mValidity
 mElements
+mDependentElements
+mFirstLegend
 )
 NS_IMPL_ADDREF_INHERITED
 (
