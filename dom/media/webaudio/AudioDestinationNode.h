@@ -443,11 +443,6 @@ CreateAudioChannelAgent
 (
 )
 ;
-void
-DestroyAudioChannelAgent
-(
-)
-;
 virtual
 const
 char
