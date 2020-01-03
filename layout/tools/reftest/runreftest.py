@@ -1889,6 +1889,23 @@ autostart
 =
 False
     
+prefs
+[
+'
+browser
+.
+tabs
+.
+remote
+.
+autostart
+.
+2
+'
+]
+=
+False
+    
 if
 options
 .
