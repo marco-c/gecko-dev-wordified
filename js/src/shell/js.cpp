@@ -491,6 +491,15 @@ include
 "
 js
 /
+GCAPI
+.
+h
+"
+#
+include
+"
+js
+/
 StructuredClone
 .
 h
@@ -10033,6 +10042,9 @@ depth
 -
 -
 ;
+JS
+:
+:
 PrepareForFullGC
 (
 rt
@@ -10045,6 +10057,9 @@ GCForReason
 (
 rt
 GC_NORMAL
+JS
+:
+:
 gcreason
 :
 :
@@ -10138,6 +10153,9 @@ gc
 .
 evictNursery
 (
+JS
+:
+:
 gcreason
 :
 :
