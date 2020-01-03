@@ -477,7 +477,7 @@ aContext
 ChannelCountMode
 :
 :
-Explicit
+Max
 ChannelInterpretation
 :
 :
