@@ -1108,7 +1108,7 @@ Pattern
 type
 :
 "
-ArrowExpression
+ArrowFunctionExpression
 "
 params
 :

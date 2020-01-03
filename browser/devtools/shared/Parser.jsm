@@ -2355,7 +2355,7 @@ Node
 aNode
 *
 /
-onArrowExpression
+onArrowFunctionExpression
 :
 function
 (
@@ -9539,7 +9539,7 @@ expression
 *
 *
 interface
-ArrowExpression
+ArrowFunctionExpression
 <
 :
 Function
@@ -9549,7 +9549,7 @@ Expression
 type
 :
 "
-ArrowExpression
+ArrowFunctionExpression
 "
 ;
 *
@@ -9594,7 +9594,7 @@ boolean
 }
 *
 /
-ArrowExpression
+ArrowFunctionExpression
 :
 function
 (
@@ -9649,12 +9649,12 @@ if
 (
 aCallbacks
 .
-onArrowExpression
+onArrowFunctionExpression
 )
 {
 aCallbacks
 .
-onArrowExpression
+onArrowFunctionExpression
 (
 aNode
 )
