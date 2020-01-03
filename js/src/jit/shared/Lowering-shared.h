@@ -1548,7 +1548,7 @@ capture
 appropriate
 state
 .
-bool
+void
 assignSnapshot
 (
 LInstruction
