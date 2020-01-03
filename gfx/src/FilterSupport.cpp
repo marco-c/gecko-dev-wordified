@@ -4111,7 +4111,7 @@ aOutMatrix
 =
 lumB
 -
-oneMinusLumB
+lumB
 *
 c
 -
