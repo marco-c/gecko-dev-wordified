@@ -2922,7 +2922,7 @@ NS_OK
 ;
 }
 nsresult
-CreateCache
+CreateCacheId
 (
 mozIStorageConnection
 *
@@ -3104,7 +3104,7 @@ rv
 ;
 }
 nsresult
-DeleteCache
+DeleteCacheId
 (
 mozIStorageConnection
 *
