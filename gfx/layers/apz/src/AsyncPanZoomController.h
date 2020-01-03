@@ -6558,12 +6558,11 @@ overscroll
 is
 allowed
 during
-a
-wheel
+an
 event
 .
 bool
-AllowScrollHandoffInWheelTransaction
+AllowScrollHandoffInCurrentBlock
 (
 )
 const
