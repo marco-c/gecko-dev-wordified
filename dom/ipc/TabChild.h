@@ -2083,6 +2083,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsEventStatus
+&
+aApzResponse
 )
 override
 ;
@@ -2102,6 +2106,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsEventStatus
+&
+aApzResponse
 )
 override
 ;

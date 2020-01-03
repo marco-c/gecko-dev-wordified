@@ -185,6 +185,17 @@ do
 default
 processing
 nsEventStatus_eConsumeDoDefault
+/
+/
+Value
+is
+not
+for
+use
+only
+for
+serialization
+nsEventStatus_eSentinel
 }
 ;
 namespace

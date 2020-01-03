@@ -760,6 +760,15 @@ nsIScriptError
 h
 "
 #
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
+#
 define
 BROWSER_ELEMENT_CHILD_SCRIPT
 \
@@ -13506,6 +13515,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsEventStatus
+&
+aApzResponse
 )
 {
 TABC_LOG
@@ -13677,7 +13690,7 @@ ProcessTouchEvent
 localEvent
 aGuid
 aInputBlockId
-nsEventStatus_eIgnore
+aApzResponse
 )
 ;
 return
@@ -13702,6 +13715,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsEventStatus
+&
+aApzResponse
 )
 {
 return
@@ -13710,6 +13727,7 @@ RecvRealTouchEvent
 aEvent
 aGuid
 aInputBlockId
+aApzResponse
 )
 ;
 }
