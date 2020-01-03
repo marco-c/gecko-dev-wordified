@@ -402,11 +402,6 @@ colgroup
 nsGkAtoms
 :
 :
-command
-&
-nsGkAtoms
-:
-:
 datalist
 &
 nsGkAtoms
