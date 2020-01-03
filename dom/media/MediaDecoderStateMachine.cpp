@@ -1711,12 +1711,7 @@ IsRealTime
 ?
 0
 :
-mReader
--
->
-GetBufferingWait
-(
-)
+30
 ;
 mLowDataThresholdUsecs
 =
