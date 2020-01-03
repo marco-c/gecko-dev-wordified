@@ -54,6 +54,7 @@ MPL
 /
 .
 from
+.
 marionette_test
 import
 MarionetteTestCase
@@ -63,6 +64,7 @@ expectedFailure
 skip
 SkipTest
 from
+.
 runner
 import
 (

@@ -56,6 +56,8 @@ MPL
 import
 sys
 from
+marionette
+.
 marionette_test
 import
 MarionetteTestCase
@@ -65,6 +67,8 @@ mozlog
 import
 structured
 from
+marionette
+.
 runner
 import
 (
