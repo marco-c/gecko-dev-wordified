@@ -1080,9 +1080,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -3255,7 +3255,7 @@ clipboardCaps
 DomainPolicyClone
 *
 domainPolicy
-StructuredCloneIPCHelper
+StructuredCloneData
 *
 initialData
 )
@@ -4210,7 +4210,7 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetvals
@@ -4245,7 +4245,7 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetvals

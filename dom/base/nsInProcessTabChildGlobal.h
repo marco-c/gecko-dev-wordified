@@ -277,8 +277,11 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
+StructuredCloneData
 ;
 public
 :
@@ -502,9 +505,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -519,7 +522,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetVal
@@ -539,9 +542,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :

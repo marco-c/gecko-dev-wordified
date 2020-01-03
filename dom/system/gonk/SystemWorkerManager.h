@@ -331,6 +331,9 @@ mWifiWorker
 ;
 nsRefPtr
 <
+mozilla
+:
+:
 ipc
 :
 :

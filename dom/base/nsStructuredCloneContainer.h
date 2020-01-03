@@ -143,7 +143,9 @@ mozilla
 /
 dom
 /
-StructuredCloneIPCHelper
+ipc
+/
+StructuredCloneData
 .
 h
 "
@@ -216,7 +218,10 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 {
 public
 :
