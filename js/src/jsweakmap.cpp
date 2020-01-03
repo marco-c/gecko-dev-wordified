@@ -3537,10 +3537,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -3773,10 +3770,7 @@ h
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 pairObject
@@ -3799,10 +3793,7 @@ j
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 pairObject

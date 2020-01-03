@@ -2692,10 +2692,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -2747,10 +2744,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -2799,10 +2793,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -2848,10 +2839,7 @@ lineno
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj

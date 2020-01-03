@@ -1426,10 +1426,7 @@ g
 .
 .
 *
-JSObject
-:
-:
-getElement
+GetElement
 corresponding
 to
 '

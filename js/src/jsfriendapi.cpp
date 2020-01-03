@@ -3014,10 +3014,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 obj
@@ -4898,10 +4895,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 obj

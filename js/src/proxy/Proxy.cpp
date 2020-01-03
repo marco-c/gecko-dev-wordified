@@ -2218,10 +2218,7 @@ INVOKE_ON_PROTOTYPE
 cx
 handler
 proxy
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 proto

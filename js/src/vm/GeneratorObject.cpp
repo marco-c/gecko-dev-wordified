@@ -293,10 +293,7 @@ Bug
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 fun

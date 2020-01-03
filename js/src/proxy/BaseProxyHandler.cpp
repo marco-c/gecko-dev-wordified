@@ -665,10 +665,7 @@ if
 proto
 )
 return
-JSObject
-:
-:
-setGeneric
+SetProperty
 (
 cx
 proto

@@ -1579,10 +1579,7 @@ target
 )
 ;
 return
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 target
@@ -1642,10 +1639,7 @@ target
 )
 ;
 return
-JSObject
-:
-:
-setGeneric
+SetProperty
 (
 cx
 target

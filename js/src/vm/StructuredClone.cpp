@@ -7925,10 +7925,7 @@ key
 |
 |
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 context
 (

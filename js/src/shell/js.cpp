@@ -31686,10 +31686,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 callee

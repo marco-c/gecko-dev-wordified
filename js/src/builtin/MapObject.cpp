@@ -8994,10 +8994,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -9204,10 +9201,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 pairObj
@@ -9229,10 +9223,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 pairObj
@@ -12711,10 +12702,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj

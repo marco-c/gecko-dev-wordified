@@ -13948,10 +13948,7 @@ Int32Value
 )
 ;
 return
-JSObject
-:
-:
-setProperty
+SetProperty
 (
 cx
 obj_
@@ -27751,10 +27748,7 @@ toObject
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj

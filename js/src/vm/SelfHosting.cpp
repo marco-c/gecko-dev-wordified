@@ -2035,10 +2035,7 @@ cloneAtCallsite
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 flags
@@ -2087,10 +2084,7 @@ inline
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 flags
@@ -2805,10 +2799,7 @@ strict
 if
 (
 !
-JSObject
-:
-:
-setElement
+SetElement
 (
 cx
 arrobj

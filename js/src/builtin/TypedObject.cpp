@@ -1157,10 +1157,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 obj
@@ -5204,10 +5201,7 @@ descriptor
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 fields
@@ -11716,10 +11710,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 proto
@@ -11920,10 +11911,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 proto
