@@ -464,6 +464,9 @@ expected_property_names
 next
 "
 "
+return
+"
+"
 throw
 "
 "
