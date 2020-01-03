@@ -4404,7 +4404,7 @@ void
 Console
 :
 :
-__noSuchMethod__
+NoopMethod
 (
 )
 {

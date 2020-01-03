@@ -563,7 +563,7 @@ aData
 )
 ;
 void
-__noSuchMethod__
+NoopMethod
 (
 )
 ;
