@@ -20450,9 +20450,10 @@ _setAsDefaultTimer
 .
 init
 (
-function
 (
 )
+=
+>
 {
 let
 isDefault
