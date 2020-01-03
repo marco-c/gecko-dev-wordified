@@ -6229,6 +6229,11 @@ gtk_widget_destroy
 window
 )
 ;
+gtk_widget_path_free
+(
+path
+)
+;
 }
 /
 /
