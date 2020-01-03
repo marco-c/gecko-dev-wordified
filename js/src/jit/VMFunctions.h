@@ -4871,11 +4871,6 @@ HandleValue
 value
 )
 ;
-template
-<
-bool
-Locked
->
 bool
 InitProp
 (
@@ -4888,6 +4883,9 @@ HandlePropertyName
 name
 HandleValue
 value
+jsbytecode
+*
+pc
 )
 ;
 template
