@@ -316,7 +316,6 @@ NS_IMPL_ISUPPORTS
 (
 nsXPConnect
 nsIXPConnect
-nsISupportsWeakReference
 nsIThreadObserver
 )
 nsXPConnect
