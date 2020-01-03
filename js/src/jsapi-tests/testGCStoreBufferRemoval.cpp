@@ -315,7 +315,7 @@ buffer
 entries
 added
 by
-RelocatablePtr
+HeapPtr
 <
 T
 >
@@ -340,13 +340,13 @@ punnedPtr
 =
 nullptr
 ;
-RelocatablePtrObject
+HeapPtrObject
 *
 relocPtr
 =
 reinterpret_cast
 <
-RelocatablePtrObject
+HeapPtrObject
 *
 >
 (
@@ -358,7 +358,7 @@ new
 (
 relocPtr
 )
-RelocatablePtrObject
+HeapPtrObject
 ;
 *
 relocPtr
@@ -371,7 +371,7 @@ relocPtr
 -
 >
 ~
-RelocatablePtrObject
+HeapPtrObject
 (
 )
 ;
@@ -393,7 +393,7 @@ new
 (
 relocPtr
 )
-RelocatablePtrObject
+HeapPtrObject
 ;
 *
 relocPtr
@@ -411,7 +411,7 @@ relocPtr
 -
 >
 ~
-RelocatablePtrObject
+HeapPtrObject
 (
 )
 ;
@@ -433,7 +433,7 @@ new
 (
 relocPtr
 )
-RelocatablePtrObject
+HeapPtrObject
 ;
 *
 relocPtr
@@ -451,7 +451,7 @@ relocPtr
 -
 >
 ~
-RelocatablePtrObject
+HeapPtrObject
 (
 )
 ;
@@ -480,19 +480,19 @@ buffer
 entries
 added
 by
-RelocatableValue
+HeapValue
 .
 {
 Value
 punnedValue
 ;
-RelocatableValue
+HeapValue
 *
 relocValue
 =
 reinterpret_cast
 <
-RelocatableValue
+HeapValue
 *
 >
 (
@@ -504,7 +504,7 @@ new
 (
 relocValue
 )
-RelocatableValue
+HeapValue
 ;
 *
 relocValue
@@ -521,7 +521,7 @@ relocValue
 -
 >
 ~
-RelocatableValue
+HeapValue
 (
 )
 ;
@@ -545,7 +545,7 @@ new
 (
 relocValue
 )
-RelocatableValue
+HeapValue
 ;
 *
 relocValue
@@ -571,7 +571,7 @@ relocValue
 -
 >
 ~
-RelocatableValue
+HeapValue
 (
 )
 ;
@@ -595,7 +595,7 @@ new
 (
 relocValue
 )
-RelocatableValue
+HeapValue
 ;
 *
 relocValue
@@ -619,7 +619,7 @@ relocValue
 -
 >
 ~
-RelocatableValue
+HeapValue
 (
 )
 ;

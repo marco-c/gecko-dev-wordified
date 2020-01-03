@@ -177,7 +177,7 @@ execution
 VectorMatchPairs
 matches
 ;
-RelocatablePtrLinearString
+HeapPtrLinearString
 matchesInput
 ;
 /
@@ -216,7 +216,7 @@ evalcx
 .
 *
 /
-RelocatablePtrAtom
+HeapPtrAtom
 lazySource
 ;
 RegExpFlag
@@ -237,7 +237,7 @@ execution
 .
 *
 /
-RelocatablePtrString
+HeapPtrString
 pendingInput
 ;
 RegExpFlag

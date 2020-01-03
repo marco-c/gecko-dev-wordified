@@ -11591,7 +11591,7 @@ return
 fp_
 ;
 }
-RelocatableValue
+HeapValue
 &
 RInstructionResults
 :

@@ -678,7 +678,7 @@ TokenStream
 struct
 RegExpCompilation
 {
-RelocatablePtrJitCode
+HeapPtrJitCode
 jitCode
 ;
 uint8_t
@@ -745,7 +745,7 @@ compilation
 .
 *
 /
-RelocatablePtrAtom
+HeapPtrAtom
 source
 ;
 RegExpFlag
