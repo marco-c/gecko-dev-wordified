@@ -1638,7 +1638,7 @@ pkiBundle
 getString
 (
 "
-pageInfo_Privacy_Mixed1
+pageInfo_Privacy_Broken1
 "
 )
 ;
