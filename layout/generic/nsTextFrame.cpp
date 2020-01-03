@@ -57098,6 +57098,17 @@ GetLength
 )
 &
 &
+!
+StyleContext
+(
+)
+-
+>
+IsInlineDescendantOfRuby
+(
+)
+&
+&
 (
 mTextRun
 -
