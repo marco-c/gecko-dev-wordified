@@ -3880,9 +3880,6 @@ dispatcher
 store
 :
 store
-feedbackStore
-:
-feedbackStore
 }
 )
 )
@@ -4394,9 +4391,6 @@ sdk
 conversationAppStore
 :
 conversationAppStore
-feedbackStore
-:
-feedbackStore
 }
 )
 )
