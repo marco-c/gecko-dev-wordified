@@ -247,10 +247,6 @@ mConsumer
 (
 nullptr
 )
-mUserData
-(
-nullptr
-)
 {
 MOZ_COUNT_CTOR_INHERITED
 (
@@ -343,10 +339,6 @@ aPayloadSize
 )
 :
 mConsumer
-(
-nullptr
-)
-mUserData
 (
 nullptr
 )
@@ -626,7 +618,7 @@ the
 /
 /
 result
-runnable
+handler
 in
 the
 consumer
@@ -634,7 +626,7 @@ consumer
 mConsumer
 -
 >
-StoreUserData
+StoreResultHandler
 (
 *
 this
