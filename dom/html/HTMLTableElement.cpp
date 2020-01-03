@@ -3825,7 +3825,7 @@ marginLeft
 aData
 -
 >
-ValueForMarginLeft
+ValueForMarginLeftValue
 (
 )
 ;
@@ -3855,7 +3855,7 @@ marginRight
 aData
 -
 >
-ValueForMarginRight
+ValueForMarginRightValue
 (
 )
 ;
@@ -3959,7 +3959,7 @@ marginLeft
 aData
 -
 >
-ValueForMarginLeft
+ValueForMarginLeftValue
 (
 )
 ;
@@ -3999,7 +3999,7 @@ marginRight
 aData
 -
 >
-ValueForMarginRight
+ValueForMarginRightValue
 (
 )
 ;
@@ -4452,7 +4452,7 @@ borderLeftColor
 aData
 -
 >
-ValueForBorderLeftColor
+ValueForBorderLeftColorValue
 (
 )
 ;
@@ -4483,7 +4483,7 @@ borderRightColor
 aData
 -
 >
-ValueForBorderRightColor
+ValueForBorderRightColorValue
 (
 )
 ;
@@ -4649,7 +4649,7 @@ borderLeftWidth
 aData
 -
 >
-ValueForBorderLeftWidth
+ValueForBorderLeftWidthValue
 (
 )
 ;
@@ -4684,7 +4684,7 @@ borderRightWidth
 aData
 -
 >
-ValueForBorderRightWidth
+ValueForBorderRightWidthValue
 (
 )
 ;
@@ -5038,7 +5038,7 @@ paddingLeft
 aData
 -
 >
-ValueForPaddingLeft
+ValueForPaddingLeftValue
 (
 )
 ;
@@ -5068,7 +5068,7 @@ paddingRight
 aData
 -
 >
-ValueForPaddingRight
+ValueForPaddingRightValue
 (
 )
 ;

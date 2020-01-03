@@ -707,7 +707,7 @@ borderLeftWidth
 aData
 -
 >
-ValueForBorderLeftWidth
+ValueForBorderLeftWidthValue
 (
 )
 ;
@@ -741,7 +741,7 @@ borderRightWidth
 aData
 -
 >
-ValueForBorderRightWidth
+ValueForBorderRightWidthValue
 (
 )
 ;
