@@ -2417,7 +2417,7 @@ function
 .
 masm
 .
-call
+callJitNoProfiler
 (
 reg_code
 )

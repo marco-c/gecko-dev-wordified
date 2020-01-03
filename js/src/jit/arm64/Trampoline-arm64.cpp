@@ -1848,7 +1848,7 @@ lr
 .
 masm
 .
-call
+callJitNoProfiler
 (
 reg_code
 )

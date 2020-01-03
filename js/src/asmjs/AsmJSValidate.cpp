@@ -75942,7 +75942,7 @@ sizeOfRetAddr
 ;
 masm
 .
-callJitFromAsmJS
+callJitNoProfiler
 (
 callee
 )

@@ -2490,7 +2490,7 @@ stack
 .
 masm
 .
-ma_callJitHalfPush
+callJitNoProfiler
 (
 reg_code
 )

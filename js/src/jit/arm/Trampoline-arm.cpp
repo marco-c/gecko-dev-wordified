@@ -2696,7 +2696,7 @@ function
 .
 masm
 .
-ma_callJitHalfPush
+callJitNoProfiler
 (
 r0
 )
