@@ -4017,7 +4017,7 @@ innermostStmt_
 }
 StmtInfo
 *
-innermostScopal
+innermostScopeStmt
 (
 )
 const
@@ -4109,7 +4109,7 @@ stmt
 type
 )
 ;
-linkAsInnermostScopal
+linkAsInnermostScopeStmt
 (
 stmt
 staticScope
@@ -4152,7 +4152,7 @@ enclosingScope
 ;
 }
 void
-linkAsInnermostScopal
+linkAsInnermostScopeStmt
 (
 StmtInfo
 *
@@ -4167,9 +4167,7 @@ MOZ_ASSERT
 stmt
 !
 =
-innermostScopal
-(
-)
+innermostScopeStmt_
 )
 ;
 MOZ_ASSERT
@@ -4235,7 +4233,7 @@ isBlockScope
 =
 true
 ;
-linkAsInnermostScopal
+linkAsInnermostScopeStmt
 (
 innermostStmt_
 blockObj

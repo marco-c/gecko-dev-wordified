@@ -2213,7 +2213,7 @@ const
 return
 stmtStack
 .
-innermostScopal
+innermostScopeStmt
 (
 )
 ;
