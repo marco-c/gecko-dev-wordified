@@ -26365,9 +26365,6 @@ tooltiptext
 "
 showInPrivateBrowsing
 "
-"
-viewId
-"
 ]
 ;
 for
