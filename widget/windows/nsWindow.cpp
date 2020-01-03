@@ -37502,7 +37502,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 this
 )
 ;

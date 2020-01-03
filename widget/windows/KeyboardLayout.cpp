@@ -8126,7 +8126,7 @@ APPCOMMAND_CUT
 :
 contentCommandMessage
 =
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 ;
 break
 ;

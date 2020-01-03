@@ -4633,7 +4633,7 @@ AsSelectionEvent
 break
 ;
 case
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 :
 case
 NS_CONTENT_COMMAND_COPY
@@ -30675,7 +30675,7 @@ mMessage
 )
 {
 case
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 :
 cmd
 =
