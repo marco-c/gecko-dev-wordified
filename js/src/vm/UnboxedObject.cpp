@@ -1953,11 +1953,11 @@ false
 for
 (
 size_t
-i
+j
 =
 0
 ;
-i
+j
 <
 types
 .
@@ -1965,7 +1965,7 @@ length
 (
 )
 ;
-i
+j
 +
 +
 )
@@ -1979,7 +1979,7 @@ property
 id
 types
 [
-i
+j
 ]
 )
 ;
