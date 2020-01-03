@@ -392,6 +392,17 @@ aDecision
 )
 ;
 static
+void
+AccumulateMixedContentHSTS
+(
+nsIURI
+*
+aURI
+bool
+aActive
+)
+;
+static
 bool
 sBlockMixedScript
 ;
