@@ -1157,11 +1157,6 @@ buffer
 1024
 ]
 ;
-const
-char
-*
-name
-=
 getTracingEdgeName
 (
 buffer
@@ -1170,6 +1165,13 @@ sizeof
 buffer
 )
 )
+;
+const
+char
+*
+name
+=
+buffer
 ;
 /
 /

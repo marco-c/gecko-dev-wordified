@@ -1321,9 +1321,7 @@ contextName
 and
 contextIndex
 .
-const
-char
-*
+void
 getTracingEdgeName
 (
 char
