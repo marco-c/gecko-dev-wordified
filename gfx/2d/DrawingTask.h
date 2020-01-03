@@ -254,6 +254,7 @@ CommandBuffer
 (
 )
 ;
+const
 DrawingCommand
 *
 GetDrawingCommand

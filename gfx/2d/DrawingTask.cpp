@@ -327,6 +327,7 @@ size
 )
 )
 {
+const
 DrawingCommand
 *
 cmd
@@ -388,6 +389,7 @@ Clear
 )
 ;
 }
+const
 DrawingCommand
 *
 CommandBuffer

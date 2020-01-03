@@ -186,6 +186,7 @@ aTransform
 =
 nullptr
 )
+const
 =
 0
 ;
@@ -201,6 +202,7 @@ Matrix
 &
 aTransform
 )
+const
 {
 return
 false
@@ -621,6 +623,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -720,6 +723,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -793,6 +797,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -866,6 +871,7 @@ Matrix
 *
 aTransform
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1011,6 +1017,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -1034,6 +1041,7 @@ Matrix
 &
 aTransform
 )
+const
 {
 aDeviceRect
 =
@@ -1174,6 +1182,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -1284,6 +1293,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -1380,6 +1390,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -1403,6 +1414,7 @@ Matrix
 &
 aTransform
 )
+const
 {
 aDeviceRect
 =
@@ -1713,6 +1725,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -1737,6 +1750,7 @@ Matrix
 &
 aTransform
 )
+const
 {
 aDeviceRect
 =
@@ -1889,6 +1903,7 @@ const
 Matrix
 *
 )
+const
 {
 GlyphBuffer
 buf
@@ -2014,6 +2029,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -2110,6 +2126,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -2190,6 +2207,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -2251,6 +2269,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -2300,6 +2319,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
@@ -2353,6 +2373,7 @@ Matrix
 *
 aMatrix
 )
+const
 {
 if
 (
@@ -2425,6 +2446,7 @@ const
 Matrix
 *
 )
+const
 {
 aDT
 -
