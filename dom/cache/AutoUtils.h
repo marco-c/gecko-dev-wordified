@@ -319,13 +319,6 @@ typedef
 TypeUtils
 :
 :
-ReferrerAction
-ReferrerAction
-;
-typedef
-TypeUtils
-:
-:
 SchemeAction
 SchemeAction
 ;
@@ -353,8 +346,6 @@ InternalRequest
 aRequest
 BodyAction
 aBodyAction
-ReferrerAction
-aReferrerAction
 SchemeAction
 aSchemeAction
 ErrorResult
@@ -370,8 +361,6 @@ InternalRequest
 aRequest
 BodyAction
 aBodyAction
-ReferrerAction
-aReferrerAction
 SchemeAction
 aSchemeAction
 Response

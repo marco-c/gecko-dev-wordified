@@ -678,12 +678,6 @@ case
 CacheOpResult
 :
 :
-TCacheAddAllResult
-:
-case
-CacheOpResult
-:
-:
 TCachePutAllResult
 :
 {
