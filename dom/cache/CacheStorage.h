@@ -549,6 +549,13 @@ Feature
 aFeature
 )
 ;
+explicit
+CacheStorage
+(
+nsresult
+aFailureResult
+)
+;
 ~
 CacheStorage
 (
@@ -610,8 +617,8 @@ Entry
 >
 mPendingRequests
 ;
-bool
-mFailedActor
+nsresult
+mStatus
 ;
 public
 :
