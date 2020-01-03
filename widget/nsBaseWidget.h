@@ -2157,6 +2157,12 @@ ConfigureAPZCTreeManager
 )
 ;
 virtual
+void
+ConfigureAPZControllerThread
+(
+)
+;
+virtual
 already_AddRefed
 <
 GeckoContentController
