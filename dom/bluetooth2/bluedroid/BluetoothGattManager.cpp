@@ -2173,7 +2173,7 @@ BluetoothGattManager
 :
 RegisterClientNotification
 (
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -2276,12 +2276,11 @@ bs
 if
 (
 aStatus
+!
+=
+GATT_STATUS_SUCCESS
 )
 {
-/
-/
-operation
-failed
 BT_API2_LOGR
 (
 "
@@ -2497,7 +2496,7 @@ ConnectNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -2582,12 +2581,11 @@ index
 if
 (
 aStatus
+!
+=
+GATT_STATUS_SUCCESS
 )
 {
-/
-/
-operation
-failed
 BT_API2_LOGR
 (
 "
@@ -2757,7 +2755,7 @@ DisconnectNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -2842,12 +2840,11 @@ index
 if
 (
 aStatus
+!
+=
+GATT_STATUS_SUCCESS
 )
 {
-/
-/
-operation
-failed
 /
 /
 Notify
@@ -2994,7 +2991,7 @@ SearchCompleteNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 )
 {
@@ -3022,7 +3019,7 @@ GetCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -3045,7 +3042,7 @@ GetDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -3070,7 +3067,7 @@ GetIncludedServiceNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -3093,7 +3090,7 @@ int
 aConnId
 int
 aIsRegister
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -3129,7 +3126,7 @@ ReadCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattReadParam
@@ -3146,7 +3143,7 @@ WriteCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattWriteParam
@@ -3163,7 +3160,7 @@ ReadDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattReadParam
@@ -3180,7 +3177,7 @@ WriteDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattWriteParam
@@ -3197,7 +3194,7 @@ ExecuteWriteNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 )
 {
@@ -3216,7 +3213,7 @@ nsAString
 aBdAddr
 int
 aRssi
-int
+BluetoothGattStatus
 aStatus
 )
 {
@@ -3227,7 +3224,7 @@ BluetoothGattManager
 :
 ListenNotification
 (
-int
+BluetoothGattStatus
 aStatus
 int
 aServerIf
