@@ -626,10 +626,6 @@ updateTimeZoneAdjustment
 (
 )
 ;
-activeAnalysis
-=
-false
-;
 if
 (
 !

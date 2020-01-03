@@ -1252,9 +1252,6 @@ Allocator
 workerAllocator
 )
 ;
-bool
-activeAnalysis
-;
 /
 *
 Type

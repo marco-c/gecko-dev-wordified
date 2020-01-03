@@ -1205,7 +1205,7 @@ nullptr
 ;
 }
 void
-sweepAnalysis
+beginSweepTypes
 (
 js
 :

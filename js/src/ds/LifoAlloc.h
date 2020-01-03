@@ -1431,6 +1431,12 @@ other
 markCount
 )
 ;
+MOZ_ASSERT
+(
+!
+latest
+)
+;
 /
 /
 Copy
