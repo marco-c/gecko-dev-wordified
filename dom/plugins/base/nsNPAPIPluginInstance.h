@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsInterfaceHashtable
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
