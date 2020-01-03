@@ -5662,6 +5662,11 @@ thread
 "
 )
 ;
+if
+(
+mVideoDecoder
+)
+{
 nsresult
 rv
 =
@@ -5678,6 +5683,7 @@ rv
 rv
 )
 ;
+}
 LOG
 (
 PR_LOG_DEBUG
