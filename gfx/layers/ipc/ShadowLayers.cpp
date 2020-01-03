@@ -1054,6 +1054,10 @@ mWindowOverlayChanged
 (
 false
 )
+mPaintSyncId
+(
+0
+)
 {
 mTxn
 =
@@ -4300,6 +4304,7 @@ aScheduleComposite
 aPaintSequenceNumber
 aIsRepeatTransaction
 aTransactionStart
+mPaintSyncId
 aReplies
 )
 )
@@ -4417,6 +4422,7 @@ aScheduleComposite
 aPaintSequenceNumber
 aIsRepeatTransaction
 aTransactionStart
+mPaintSyncId
 )
 )
 {
@@ -4450,6 +4456,10 @@ true
 mIsFirstPaint
 =
 false
+;
+mPaintSyncId
+=
+0
 ;
 MOZ_LAYERS_LOG
 (

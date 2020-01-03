@@ -1457,9 +1457,11 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aLayersUpdated
-ParentLayerPoint
+int32_t
+aPaintSyncId
+ParentLayerRect
 &
-aScrollOffset
+aScrollRect
 CSSToParentLayerScale
 &
 aScale

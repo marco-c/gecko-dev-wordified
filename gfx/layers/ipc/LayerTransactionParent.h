@@ -595,6 +595,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+int32_t
+&
+aPaintSyncId
 EditReplyArray
 *
 reply
@@ -644,6 +648,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+int32_t
+&
+aPaintSyncId
 )
 override
 ;
