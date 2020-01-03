@@ -7339,6 +7339,14 @@ aLogFwd
 )
 ;
 static
+uint32_t
+GetMaxSurfaceSize
+(
+BackendType
+aType
+)
+;
+static
 LogForwarder
 *
 GetLogForwarder

@@ -4113,6 +4113,10 @@ mFormat
 if
 (
 !
+bufSize
+|
+|
+!
 Allocate
 (
 bufSize

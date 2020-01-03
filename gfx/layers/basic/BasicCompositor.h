@@ -611,11 +611,7 @@ GetMaxTextureSize
 )
 const
 MOZ_OVERRIDE
-{
-return
-INT32_MAX
 ;
-}
 virtual
 void
 SetDestinationSurfaceSize
@@ -806,6 +802,9 @@ mInvalidRect
 ;
 nsIntRegion
 mInvalidRegion
+;
+uint32_t
+mMaxTextureSize
 ;
 }
 ;
