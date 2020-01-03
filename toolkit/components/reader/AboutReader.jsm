@@ -4008,6 +4008,12 @@ Ci
 nsIParserUtils
 .
 SanitizerDropForms
+|
+Ci
+.
+nsIParserUtils
+.
+SanitizerAllowStyle
 false
 articleUri
 this
