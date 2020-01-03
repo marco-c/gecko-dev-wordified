@@ -202,6 +202,10 @@ true
 >
 AppendPromise
 ;
+typedef
+AppendPromise
+RangeRemovalPromise
+;
 static
 already_AddRefed
 <
@@ -405,7 +409,10 @@ frame
 -
 removal
 virtual
-bool
+nsRefPtr
+<
+RangeRemovalPromise
+>
 RangeRemoval
 (
 TimeUnit
