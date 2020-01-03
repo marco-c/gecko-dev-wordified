@@ -2463,6 +2463,9 @@ prop_order
 debug
 "
 "
+e10s
+"
+"
 os
 "
 "
@@ -2614,6 +2617,9 @@ set
 [
 "
 debug
+"
+"
+e10s
 "
 ]
 )

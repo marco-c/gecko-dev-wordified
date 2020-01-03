@@ -387,6 +387,9 @@ self
 metadata_root
 product
 debug
+extras
+=
+None
 )
 :
         
@@ -453,6 +456,20 @@ debug
 ]
 =
 False
+        
+if
+extras
+is
+not
+None
+:
+            
+self
+.
+update
+(
+extras
+)
     
 def
 _update_mozinfo
