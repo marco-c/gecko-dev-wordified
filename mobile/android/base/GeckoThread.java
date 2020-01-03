@@ -377,6 +377,15 @@ JNI_READY
 /
 After
 initializing
+profile
+and
+prefs
+.
+PROFILE_READY
+/
+/
+After
+initializing
 frontend
 JS
 (
