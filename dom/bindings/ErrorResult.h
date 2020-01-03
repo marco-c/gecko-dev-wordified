@@ -1268,6 +1268,17 @@ ErrorResult
 delete
 ;
 void
+operator
+=
+(
+const
+ErrorResult
+&
+)
+=
+delete
+;
+void
 ThrowErrorWithMessage
 (
 va_list
