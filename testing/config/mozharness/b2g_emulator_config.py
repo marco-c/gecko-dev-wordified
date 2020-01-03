@@ -76,11 +76,12 @@ is
 still
 needed
 for
-mulet
-mochitests
+taskcluster
+emulator
+tests
+#
 but
 should
-#
 be
 removed
 once
