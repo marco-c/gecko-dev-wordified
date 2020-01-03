@@ -2559,6 +2559,7 @@ point
 *
 /
 class
+MOZ_STACK_CLASS
 AutoEntryScript
 :
 public
@@ -2735,6 +2736,7 @@ either
 .
 nsIPrincipal
 *
+MOZ_NON_OWNING_REF
 mWebIDLCallerPrincipal
 ;
 friend
@@ -2744,8 +2746,10 @@ GetWebIDLCallerPrincipal
 (
 )
 ;
+nsCOMPtr
+<
 nsIDocShell
-*
+>
 mDocShellForJSRunToCompletion
 ;
 bool
