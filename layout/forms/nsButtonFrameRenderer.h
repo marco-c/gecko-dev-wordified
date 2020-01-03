@@ -371,12 +371,6 @@ nsRefPtr
 <
 nsStyleContext
 >
-mBorderStyle
-;
-nsRefPtr
-<
-nsStyleContext
->
 mInnerFocusStyle
 ;
 nsRefPtr
