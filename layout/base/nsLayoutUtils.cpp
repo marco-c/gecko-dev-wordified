@@ -5009,10 +5009,10 @@ either
 if
 (
 !
-gfxPrefs
+gfxPlatform
 :
 :
-AsyncPanZoomEnabledDoNotUseDirectly
+AsyncPanZoomEnabled
 (
 )
 )
