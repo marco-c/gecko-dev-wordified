@@ -5132,6 +5132,14 @@ attr_type
 =
 SDP_ATTR_IMAGEATTR
 )
+&
+&
+(
+attr_type
+!
+=
+SDP_ATTR_SIMULCAST
+)
 )
 {
 return
