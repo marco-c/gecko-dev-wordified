@@ -4933,6 +4933,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineConstantStringSplit
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineStringSplit
 (
 CallInfo

@@ -8314,17 +8314,6 @@ temp
 =
 slots
 ;
-MOZ_ASSERT
-(
-!
-ntemplate
--
->
-getDenseInitializedLength
-(
-)
-)
-;
 int
 elementsOffset
 =
