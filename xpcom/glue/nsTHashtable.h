@@ -2336,9 +2336,10 @@ EntryType
 :
 ALLOW_MEMMOVE
 ?
+PLDHashTable
 :
 :
-PL_DHashMoveEntryStub
+MoveEntryStub
 :
 s_CopyEntry
 s_ClearEntry

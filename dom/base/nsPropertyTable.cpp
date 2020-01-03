@@ -1617,7 +1617,10 @@ aName
 )
 mObjectValueMap
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof

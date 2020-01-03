@@ -731,7 +731,10 @@ hash_table_ops
 {
 GlobalNameHashHashKey
 GlobalNameHashMatchEntry
-PL_DHashMoveEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
 GlobalNameHashClearEntry
 GlobalNameHashInitEntry
 }

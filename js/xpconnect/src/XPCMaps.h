@@ -182,9 +182,12 @@ struct
 that
 the
 default
-OPs
+ops
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 )

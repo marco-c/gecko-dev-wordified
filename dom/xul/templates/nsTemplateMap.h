@@ -145,7 +145,10 @@ nsTemplateMap
 :
 mTable
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof
