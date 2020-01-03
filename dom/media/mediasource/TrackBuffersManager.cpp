@@ -5230,6 +5230,12 @@ new
 WebMDemuxer
 (
 mCurrentInputBuffer
+true
+/
+*
+IsMediaSource
+*
+/
 )
 ;
 return
