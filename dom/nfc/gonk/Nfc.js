@@ -1369,6 +1369,14 @@ target
 return
 ;
 }
+options
+.
+tabId
+=
+this
+.
+focusApp
+;
 target
 .
 sendAsyncMessage
