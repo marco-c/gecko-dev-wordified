@@ -1064,6 +1064,17 @@ return
 mNPNToken
 ;
 }
+const
+nsCString
+&
+GetUsername
+(
+)
+{
+return
+mUsername
+;
+}
 /
 /
 Returns
