@@ -2386,12 +2386,9 @@ MOZ_WIDGET_GTK
 )
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 configuration
@@ -4696,12 +4693,9 @@ offset
 ;
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 nsCOMPtr

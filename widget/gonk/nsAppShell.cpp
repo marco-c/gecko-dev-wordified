@@ -4463,12 +4463,9 @@ InitGonkMemoryPressureMonitoring
 ;
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 printf

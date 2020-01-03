@@ -517,12 +517,9 @@ mInitializedSystemColors
 {
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 rv
 =
@@ -1933,12 +1930,9 @@ mInitializedShowPassword
 {
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 mShowPassword

@@ -1345,12 +1345,9 @@ gDBManager
 {
 sIsMainProcess
 =
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 ;
 if
 (
@@ -3136,12 +3133,9 @@ initialized
 NS_ASSERTION
 (
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 =
 =
