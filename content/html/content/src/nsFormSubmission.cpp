@@ -4976,7 +4976,7 @@ NS_ASSERTION
 aForm
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 "

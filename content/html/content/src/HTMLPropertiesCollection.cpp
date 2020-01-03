@@ -295,7 +295,7 @@ mDoc
 aRoot
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -1128,7 +1128,7 @@ doc
 mRoot
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -1491,7 +1491,7 @@ mDoc
 aParent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )

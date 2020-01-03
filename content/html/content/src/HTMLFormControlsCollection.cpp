@@ -640,7 +640,7 @@ doc
 mForm
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

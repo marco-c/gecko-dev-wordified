@@ -5561,7 +5561,7 @@ aContent
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !

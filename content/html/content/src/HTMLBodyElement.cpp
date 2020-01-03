@@ -2654,7 +2654,7 @@ OwnerDoc
 (
 )
 or
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ?
