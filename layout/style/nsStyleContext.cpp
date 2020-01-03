@@ -4889,7 +4889,11 @@ nsChangeHint_RepaintFrame
 }
 }
 return
+NS_SubtractHint
+(
 hint
+nsChangeHint_NeutralChange
+)
 ;
 }
 void
