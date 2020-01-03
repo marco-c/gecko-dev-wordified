@@ -7190,12 +7190,6 @@ GetSameOriginChecker
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-req
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsCOMPtr
 <
 nsILoadGroup

@@ -31767,7 +31767,7 @@ SameOriginChecker
 (
 )
 ;
-NS_IF_ADDREF
+NS_ADDREF
 (
 sSameOriginChecker
 )

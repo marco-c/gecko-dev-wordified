@@ -6857,12 +6857,6 @@ GetSameOriginChecker
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-sameOriginChecker
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 channel
 -
 >
