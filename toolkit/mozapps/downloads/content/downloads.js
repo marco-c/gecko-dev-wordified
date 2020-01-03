@@ -75,6 +75,11 @@ MPL
 0
 /
 .
+"
+use
+strict
+"
+;
 /
 /
 /
@@ -3105,7 +3110,6 @@ the
 string
 bundle
 let
-(
 sb
 =
 document
@@ -3116,8 +3120,7 @@ getElementById
 downloadStrings
 "
 )
-)
-{
+;
 let
 getStr
 =
@@ -3170,7 +3173,6 @@ map
 getStr
 )
 ;
-}
 initStatement
 (
 )
@@ -5612,11 +5614,10 @@ each
 download
 item
 for
-each
 (
 let
 item
-in
+of
 items
 )
 performCommand
@@ -6610,13 +6611,11 @@ DOWNLOAD_DIRTY
 :
 {
 let
-(
 stateSize
 =
 {
 }
-)
-{
+;
 stateSize
 [
 nsIDM
@@ -6808,7 +6807,6 @@ state
 )
 )
 ;
-}
 let
 [
 displayHost
@@ -7528,7 +7526,6 @@ a
 shallow
 copy
 let
-(
 empty
 =
 gDownloadsView
@@ -7537,8 +7534,7 @@ cloneNode
 (
 false
 )
-)
-{
+;
 gDownloadsView
 .
 parentNode
@@ -7553,7 +7549,6 @@ gDownloadsView
 =
 empty
 ;
-}
 try
 {
 gStmt
@@ -7966,7 +7961,6 @@ s
 not
 null
 let
-(
 referrer
 =
 gStmt
@@ -7975,8 +7969,7 @@ getString
 (
 7
 )
-)
-{
+;
 if
 (
 referrer
@@ -7987,7 +7980,6 @@ referrer
 =
 referrer
 ;
-}
 /
 /
 If
@@ -8576,11 +8568,10 @@ combinedSearch
 "
 ;
 for
-each
 (
 let
 attr
-in
+of
 gSearchAttributes
 )
 combinedSearch
@@ -8611,11 +8602,10 @@ terms
 are
 found
 for
-each
 (
 let
 term
-in
+of
 gSearchTerms
 )
 if
