@@ -6698,14 +6698,10 @@ t
 read
 afterwards
 .
-if
-(
-src
-!
+FloatRegister
+srcCopy
 =
-dest
-)
-moveFloat32x4
+reusedInputFloat32x4
 (
 src
 dest
@@ -6714,8 +6710,8 @@ dest
 vshufps
 (
 mask
-dest
-dest
+srcCopy
+srcCopy
 dest
 )
 ;
@@ -6745,7 +6741,7 @@ a
 cross
 -
 domain
-penaly
+penalty
 on
 CPU
 where
