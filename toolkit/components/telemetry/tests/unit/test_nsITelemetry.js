@@ -1175,7 +1175,7 @@ uneval
 do_check_eq
 (
 s
-1
+0
 )
 ;
 /
@@ -1188,7 +1188,7 @@ h
 .
 add
 (
-2
+1
 )
 ;
 var
@@ -1231,7 +1231,7 @@ uneval
 ;
 do_check_eq
 (
-s
+s2
 1
 )
 ;
@@ -1247,7 +1247,7 @@ h
 .
 add
 (
-3
+1
 )
 ;
 var
@@ -1305,7 +1305,7 @@ snapshot
 histogram_type
 Telemetry
 .
-FLAG_HISTOGRAM
+HISTOGRAM_FLAG
 )
 ;
 }
@@ -2965,6 +2965,10 @@ histogramSnapshots
 )
 ;
 test_boolean_histogram
+(
+)
+;
+test_flag_histogram
 (
 )
 ;
