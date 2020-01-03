@@ -1124,6 +1124,7 @@ NS_ASSERTION
 (
 aValue
 =
+=
 mCachedStyleAttrs
 .
 Get
