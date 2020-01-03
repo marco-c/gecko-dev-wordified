@@ -660,6 +660,9 @@ unsupported
 return
 ;
 }
+nsAutoCString
+message
+;
 MediaKeySystemStatus
 status
 =
@@ -670,6 +673,7 @@ GetKeySystemStatus
 (
 keySystem
 minCdmVersion
+message
 )
 ;
 if

@@ -294,6 +294,9 @@ nsAString
 aKeySystem
 int32_t
 aMinCdmVersion
+nsACString
+&
+aOutExceptionMessage
 )
 ;
 static
