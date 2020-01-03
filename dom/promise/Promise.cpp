@@ -7873,10 +7873,6 @@ cx
 endif
 if
 (
-!
-mGlobal
-|
-|
 mGlobal
 -
 >
