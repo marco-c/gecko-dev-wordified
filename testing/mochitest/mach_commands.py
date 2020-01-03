@@ -7999,15 +7999,15 @@ self
 topobjdir
                 
 '
-build
+_tests
 '
                 
 '
-mobile
+testing
 '
                 
 '
-robocop
+mochitest
 '
                 
 '
