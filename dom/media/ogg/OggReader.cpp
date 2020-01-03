@@ -6132,10 +6132,7 @@ aPacket
 -
 >
 granulepos
-ToIntRect
-(
 mPicture
-)
 )
 ;
 if

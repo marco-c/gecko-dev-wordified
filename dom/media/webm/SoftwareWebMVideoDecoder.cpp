@@ -1368,10 +1368,7 @@ GetPicture
 IntRect
 picture
 =
-ToIntRect
-(
 pictureRect
-)
 ;
 nsIntSize
 initFrame

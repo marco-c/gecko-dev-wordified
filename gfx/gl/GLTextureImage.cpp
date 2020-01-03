@@ -1010,10 +1010,7 @@ mTextureState
 =
 =
 Created
-ToIntPoint
-(
 mUpdateOffset
-)
 relative
 )
 ;
@@ -1905,11 +1902,8 @@ do
 IntRect
 tileRect
 =
-ThebesIntRect
-(
 GetSrcTileRect
 (
-)
 )
 ;
 int

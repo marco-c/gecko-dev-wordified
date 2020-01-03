@@ -9087,13 +9087,7 @@ gfx
 IntRect
 relative_picture_rect
 =
-gfx
-:
-:
-ToIntRect
-(
 picture_rect
-)
 ;
 if
 (

@@ -2243,8 +2243,6 @@ inputIndex
 ?
 mTargetBBoxInFilterSpace
 :
-ThebesIntRect
-(
 aPrimitiveDescrs
 [
 inputIndex
@@ -2252,7 +2250,6 @@ inputIndex
 .
 PrimitiveSubregion
 (
-)
 )
 ;
 nsTArray
@@ -2283,13 +2280,10 @@ inputExtents
 IntRect
 outputBounds
 =
-ToIntRect
-(
 outputExtents
 .
 GetBounds
 (
-)
 )
 ;
 aDescr

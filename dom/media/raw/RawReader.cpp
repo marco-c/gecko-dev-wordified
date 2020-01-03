@@ -1423,10 +1423,7 @@ a
 keyframe
 -
 1
-ToIntRect
-(
 mPicture
-)
 )
 ;
 if
