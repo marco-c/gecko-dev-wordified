@@ -3753,7 +3753,7 @@ implementation
 -
 -
 double
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ToSeconds
@@ -3790,7 +3790,7 @@ sFrequencyPerSec
 ;
 }
 double
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ToSecondsSigDigits
@@ -3860,7 +3860,7 @@ kNsPerSecd
 ;
 }
 int64_t
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 TicksFromMilliseconds
@@ -3877,7 +3877,7 @@ aMilliseconds
 ;
 }
 int64_t
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ResolutionInTicks
