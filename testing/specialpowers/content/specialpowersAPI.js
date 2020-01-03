@@ -7255,8 +7255,6 @@ appId
 =
 permission
 .
-principal
-.
 appId
 &
 &

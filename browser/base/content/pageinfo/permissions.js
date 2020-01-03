@@ -173,11 +173,12 @@ if
 (
 permission
 .
-matchesURI
-(
+host
+=
+=
 gPermURI
-true
-)
+.
+host
 )
 {
 if
@@ -285,7 +286,7 @@ value
 =
 gPermURI
 .
-prePath
+host
 ;
 for
 (

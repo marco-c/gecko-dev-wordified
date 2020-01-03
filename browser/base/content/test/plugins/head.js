@@ -1728,9 +1728,7 @@ permission
 +
 perm
 .
-principal
-.
-origin
+host
 +
 "
 "
