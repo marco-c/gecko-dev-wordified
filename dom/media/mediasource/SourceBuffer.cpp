@@ -938,6 +938,11 @@ MediaSourceReadyState
 :
 :
 Ended
+&
+&
+highestEndTime
+>
+0
 )
 {
 /
