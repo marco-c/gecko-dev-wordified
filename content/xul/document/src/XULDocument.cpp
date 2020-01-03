@@ -21642,6 +21642,8 @@ JSAddonId
 *
 addonId
 =
+mCurrentPrototype
+?
 MapURIToAddonID
 (
 mCurrentPrototype
@@ -21651,6 +21653,8 @@ GetURI
 (
 )
 )
+:
+nullptr
 ;
 JS
 :
