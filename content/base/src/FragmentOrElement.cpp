@@ -17639,7 +17639,7 @@ shadowRoot
 shadowRoot
 -
 >
-GetOlderShadow
+GetOlderShadowRoot
 (
 )
 ;

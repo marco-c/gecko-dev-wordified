@@ -822,7 +822,7 @@ projectedShadow
 containingShadow
 -
 >
-GetOlderShadow
+GetOlderShadowRoot
 (
 )
 ;
@@ -938,7 +938,7 @@ projectedShadow
 oldContainingShadow
 -
 >
-GetOlderShadow
+GetOlderShadowRoot
 (
 )
 ;
@@ -1275,7 +1275,7 @@ youngerShadow
 containingShadow
 -
 >
-GetYoungerShadow
+GetYoungerShadowRoot
 (
 )
 ;
@@ -1470,7 +1470,7 @@ youngerShadow
 containingShadow
 -
 >
-GetYoungerShadow
+GetYoungerShadowRoot
 (
 )
 ;
@@ -1565,7 +1565,7 @@ olderShadow
 containingShadow
 -
 >
-GetOlderShadow
+GetOlderShadowRoot
 (
 )
 ;
@@ -1748,7 +1748,7 @@ youngerShadow
 containingShadow
 -
 >
-GetYoungerShadow
+GetYoungerShadowRoot
 (
 )
 ;
