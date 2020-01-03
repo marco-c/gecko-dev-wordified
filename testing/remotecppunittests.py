@@ -83,6 +83,8 @@ mozcrash
 import
 mozfile
 import
+mozinfo
+import
 StringIO
 import
 posixpath
@@ -2496,38 +2498,11 @@ options
 xre_path
 )
     
-if
-options
+cppunittests
 .
-with_b2g_emulator
-:
-        
-environ
-=
-{
-'
-os
-'
-:
-'
-b2g
-'
-}
-    
-else
-:
-        
-environ
-=
-{
-'
-os
-'
-:
-'
-android
-'
-}
+update_mozinfo
+(
+)
     
 progs
 =
@@ -2536,7 +2511,9 @@ cppunittests
 extract_unittests_from_args
 (
 args
-environ
+mozinfo
+.
+info
 )
     
 tester
