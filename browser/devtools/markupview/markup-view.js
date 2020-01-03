@@ -12005,6 +12005,12 @@ stopPropagation
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 /
 /
 Start
