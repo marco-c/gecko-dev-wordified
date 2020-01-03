@@ -72584,15 +72584,6 @@ Length
 i
 )
 {
-ErrorResult
-dummy
-;
-nsRefPtr
-<
-Promise
->
-d
-=
 mAudioContexts
 [
 i
@@ -72601,7 +72592,6 @@ i
 >
 Suspend
 (
-dummy
 )
 ;
 }
@@ -72980,15 +72970,6 @@ Length
 i
 )
 {
-ErrorResult
-dummy
-;
-nsRefPtr
-<
-Promise
->
-d
-=
 mAudioContexts
 [
 i
@@ -72997,7 +72978,6 @@ i
 >
 Resume
 (
-dummy
 )
 ;
 }
