@@ -152,6 +152,9 @@ waitForCondition
 condition
 nextTest
 errorMsg
+numTries
+=
+30
 )
 {
 var
@@ -173,7 +176,7 @@ if
 tries
 >
 =
-30
+numTries
 )
 {
 ok
