@@ -117,10 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
-dom
-/
 MobileCellInfo
 .
 h

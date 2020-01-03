@@ -69,6 +69,17 @@ mozilla
 /
 dom
 /
+MobileConnectionCallback
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MobileConnectionInfo
 .
 h
@@ -80,8 +91,6 @@ mozilla
 /
 dom
 /
-mobileconnection
-/
 PMobileConnectionChild
 .
 h
@@ -92,8 +101,6 @@ include
 mozilla
 /
 dom
-/
-mobileconnection
 /
 PMobileConnectionRequestChild
 .
@@ -127,9 +134,6 @@ nsIVariant
 .
 h
 "
-class
-nsIMobileConnectionCallback
-;
 namespace
 mozilla
 {
