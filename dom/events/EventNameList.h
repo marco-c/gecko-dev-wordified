@@ -2196,7 +2196,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 SVGResize
-NS_SVG_RESIZE
+eSVGResize
 EventNameType_None
 eBasicEventClass
 )

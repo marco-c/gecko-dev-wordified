@@ -1327,7 +1327,7 @@ eSVGEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SVG_RESIZE
+eSVGResize
 eSVGEventFirst
 +
 4
