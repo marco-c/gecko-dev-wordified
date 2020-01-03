@@ -14653,19 +14653,6 @@ dt
 jobs
 )
     
-#
-skipping
-on
-e10s
-jobs
-as
-we
-have
-a
-few
-extra
-failures
-    
 if
 options
 .
@@ -14675,11 +14662,6 @@ not
 options
 .
 subsuite
-and
-not
-options
-.
-e10s
 :
       
 options
