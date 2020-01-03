@@ -1408,16 +1408,6 @@ AutoObjectVector
 )
 ;
 friend
-JSObject
-*
-SavedStacksMetadataCallback
-(
-JSContext
-*
-cx
-)
-;
-friend
 void
 JS
 :
