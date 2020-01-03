@@ -140,6 +140,9 @@ namespace
 jit
 {
 class
+BacktrackingAllocator
+;
+class
 MDefinition
 ;
 class
@@ -150,9 +153,6 @@ MBasicBlock
 ;
 class
 MIRGraph
-;
-class
-LinearScanAllocator
 ;
 class
 LNode
@@ -219,7 +219,7 @@ const
 char
 *
 pass
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 )
@@ -253,7 +253,7 @@ spewIntervals
 FILE
 *
 fp
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 LNode
@@ -273,7 +273,7 @@ fp
 MBasicBlock
 *
 block
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 size_t

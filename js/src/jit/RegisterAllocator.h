@@ -2156,10 +2156,6 @@ by
 an
 OSI
 point
-and
-/
-or
-Nop
 .
 /
 /
@@ -2209,15 +2205,6 @@ id
 ;
 if
 (
-!
-next
--
->
-isNop
-(
-)
-&
-&
 !
 next
 -

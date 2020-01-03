@@ -10127,14 +10127,6 @@ if
 iter
 -
 >
-isLabel
-(
-)
-|
-|
-iter
--
->
 isMoveGroup
 (
 )
