@@ -5487,7 +5487,7 @@ a
 stronger
 optimization
 for
-mVResize
+IsBResize
 if
 /
 /
@@ -5518,7 +5518,7 @@ tested
 there
 along
 with
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 .
 /
 /
@@ -5537,7 +5537,7 @@ which
 /
 /
 frames
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 is
 marked
 on
@@ -5555,13 +5555,13 @@ NS_FRAME_IS_DIRTY
 )
 |
 |
-IsHResize
+IsIResize
 (
 )
 |
 |
 (
-IsVResize
+IsBResize
 (
 )
 &
@@ -5574,7 +5574,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 )
 ;

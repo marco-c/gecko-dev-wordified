@@ -4186,7 +4186,7 @@ if
 (
 aReflowState
 .
-IsVResize
+IsBResize
 (
 )
 &
@@ -4199,7 +4199,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 )
 {
@@ -4212,7 +4212,9 @@ it
 '
 s
 being
-vertically
+block
+-
+dir
 resized
 too
 .
@@ -4227,7 +4229,7 @@ framesets
 .
 kidReflowState
 .
-SetVResize
+SetBResize
 (
 true
 )

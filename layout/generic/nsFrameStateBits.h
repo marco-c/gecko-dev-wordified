@@ -639,7 +639,9 @@ a
 /
 /
 percentage
-height
+block
+-
+size
 that
 depends
 on
@@ -691,7 +693,7 @@ FRAME_STATE_BIT
 (
 Generic
 5
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 /
 /
