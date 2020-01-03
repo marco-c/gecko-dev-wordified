@@ -685,8 +685,8 @@ mozilla
 dom
 :
 :
-ScreenOrientation
-mOrientation
+ScreenOrientationInternal
+mOrientationInternal
 ;
 private
 :

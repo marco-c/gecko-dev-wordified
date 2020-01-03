@@ -1222,7 +1222,7 @@ transaction
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 if

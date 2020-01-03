@@ -1637,7 +1637,7 @@ CSSSize
 &
 size
 const
-ScreenOrientation
+ScreenOrientationInternal
 &
 orientation
 const
@@ -2390,10 +2390,11 @@ uint32_t
 aTouchPoints
 )
 ;
-ScreenOrientation
+ScreenOrientationInternal
 GetOrientation
 (
 )
+const
 {
 return
 mOrientation
@@ -3522,7 +3523,7 @@ mNotified
 bool
 mTriedBrowserInit
 ;
-ScreenOrientation
+ScreenOrientationInternal
 mOrientation
 ;
 bool

@@ -176,7 +176,7 @@ pixelDepth
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 nsCOMPtr
@@ -280,7 +280,7 @@ const
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 &
 aOrientation
 )

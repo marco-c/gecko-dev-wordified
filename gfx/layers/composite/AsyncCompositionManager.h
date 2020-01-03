@@ -812,9 +812,10 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
+const
 {
 return
 mTargetConfig

@@ -8936,7 +8936,7 @@ CSSSize
 &
 size
 const
-ScreenOrientation
+ScreenOrientationInternal
 &
 orientation
 const

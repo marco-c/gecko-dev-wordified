@@ -337,7 +337,7 @@ need
 Matrix4x4
 RemapMatrixForOrientation
 (
-ScreenOrientation
+ScreenOrientationInternal
 screenConfig
 const
 Matrix4x4

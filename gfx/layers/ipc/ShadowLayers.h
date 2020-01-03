@@ -1293,7 +1293,7 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 ;

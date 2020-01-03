@@ -2288,7 +2288,7 @@ static
 int
 GetRotateAmount
 (
-ScreenOrientation
+ScreenOrientationInternal
 aScreen
 int
 aCameraMountAngle

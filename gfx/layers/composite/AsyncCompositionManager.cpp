@@ -560,12 +560,12 @@ IsSameDimension
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 o1
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 o2
 )
 {
@@ -732,7 +732,7 @@ IsEmpty
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 chromeOrientation
 =
 aTargetConfig
@@ -744,7 +744,7 @@ orientation
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 contentOrientation
 =
 state
