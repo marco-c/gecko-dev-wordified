@@ -416,7 +416,7 @@ mPagePoint
 CSSIntPoint
 mClientPoint
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mScreenPoint
 ;
 nsIntPoint

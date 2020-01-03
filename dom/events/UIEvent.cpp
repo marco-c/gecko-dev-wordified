@@ -1710,7 +1710,7 @@ to
 right
 coordinates
 .
-nsIntPoint
+LayoutDeviceIntPoint
 screenPoint
 =
 Event
@@ -1749,13 +1749,7 @@ mEvent
 >
 refPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 screenPoint
-)
 ;
 }
 return

@@ -4373,7 +4373,7 @@ sPopupAllowedEvents
 ;
 }
 }
-nsIntPoint
+LayoutDeviceIntPoint
 Event
 :
 :
@@ -4476,7 +4476,7 @@ eSimpleGestureEventClass
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -4504,13 +4504,7 @@ widget
 )
 {
 return
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aPoint
-)
 ;
 }
 LayoutDeviceIntPoint
@@ -4544,7 +4538,7 @@ AppUnitsPerDevPixelAtUnitFullZoom
 )
 ;
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 nsPresContext
 :

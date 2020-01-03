@@ -1379,7 +1379,7 @@ is
 locked
 .
 static
-nsIntPoint
+LayoutDeviceIntPoint
 sLastScreenPoint
 ;
 /

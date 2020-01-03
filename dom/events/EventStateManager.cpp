@@ -2012,13 +2012,13 @@ sLastRefPoint
 =
 kInvalidRefPoint
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 EventStateManager
 :
 :
 sLastScreenPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0

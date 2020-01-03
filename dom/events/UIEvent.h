@@ -251,7 +251,7 @@ aIter
 MOZ_OVERRIDE
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 CalculateScreenPoint
 (
 nsPresContext
@@ -325,7 +325,7 @@ eSimpleGestureEventClass
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -353,16 +353,10 @@ widget
 )
 {
 return
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aEvent
 -
 >
 refPoint
-)
 ;
 }
 LayoutDeviceIntPoint
@@ -399,7 +393,7 @@ AppUnitsPerDevPixelAtUnitFullZoom
 )
 ;
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 nsPresContext
 :
