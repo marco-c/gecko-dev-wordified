@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-DriverInitCrashDetection
+DriverCrashGuard
 .
 h
 "
@@ -199,17 +199,17 @@ namespace
 gfx
 {
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 sEnvironmentHasBeenUpdated
 =
 false
 ;
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
-DriverInitCrashDetection
+DriverCrashGuard
 (
 )
 :
@@ -436,11 +436,11 @@ Okay
 )
 ;
 }
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 ~
-DriverInitCrashDetection
+DriverCrashGuard
 (
 )
 {
@@ -547,7 +547,7 @@ endif
 }
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 DisableAcceleration
@@ -574,7 +574,7 @@ Recovered
 ;
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 InitLockFilePath
@@ -631,7 +631,7 @@ true
 ;
 }
 void
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 AllowDriverInitAttempt
@@ -776,7 +776,7 @@ NS_LITERAL_CSTRING
 endif
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 RecoverFromDriverInitCrash
@@ -952,7 +952,7 @@ false
 ;
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 UpdateEnvironment
@@ -1213,7 +1213,7 @@ changed
 ;
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 FeatureEnabled
@@ -1257,7 +1257,7 @@ FEATURE_STATUS_OK
 ;
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 CheckAndUpdateBoolPref
@@ -1313,7 +1313,7 @@ true
 ;
 }
 bool
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 CheckAndUpdatePref
@@ -1365,7 +1365,7 @@ true
 ;
 }
 void
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 FlushPreferences
@@ -1397,7 +1397,7 @@ nullptr
 }
 }
 void
-DriverInitCrashDetection
+DriverCrashGuard
 :
 :
 RecordTelemetry
