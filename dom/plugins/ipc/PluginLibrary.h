@@ -614,6 +614,14 @@ aRunID
 =
 0
 ;
+virtual
+void
+SetHasLocalInstance
+(
+)
+=
+0
+;
 }
 ;
 }
