@@ -908,9 +908,6 @@ JS_PUBLIC_API
 (
 void
 )
-JS
-:
-:
 ForEachProfiledFrame
 (
 JSRuntime

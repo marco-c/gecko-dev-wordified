@@ -127,6 +127,15 @@ LulPlatformMacros
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 /
 /
 LUL

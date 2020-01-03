@@ -1847,7 +1847,7 @@ default
 SingleLineStyle
 }
 ;
-private
+protected
 :
 const
 UniquePtr
