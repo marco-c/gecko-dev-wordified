@@ -4775,10 +4775,18 @@ GetWidthHeight
 (
 )
 ;
+nsCOMPtr
+<
+nsICanvasRenderingContextInternal
+>
+currentContext
+=
+mCurrentContext
+;
 nsresult
 rv
 =
-mCurrentContext
+currentContext
 -
 >
 SetIsOpaque
@@ -4811,7 +4819,7 @@ rv
 }
 rv
 =
-mCurrentContext
+currentContext
 -
 >
 SetContextOptions
@@ -4838,7 +4846,7 @@ rv
 }
 rv
 =
-mCurrentContext
+currentContext
 -
 >
 SetDimensions
