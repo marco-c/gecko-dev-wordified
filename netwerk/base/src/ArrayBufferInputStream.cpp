@@ -306,6 +306,11 @@ return
 NS_BASE_STREAM_CLOSED
 ;
 }
+if
+(
+mArrayBuffer
+)
+{
 uint32_t
 buflen
 =
@@ -330,6 +335,15 @@ mPos
 :
 0
 ;
+}
+else
+{
+*
+aCount
+=
+0
+;
+}
 return
 NS_OK
 ;
