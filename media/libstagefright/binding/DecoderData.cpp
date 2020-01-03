@@ -835,6 +835,14 @@ aMetaData
 kKeyDuration
 )
 ;
+media_time
+=
+FindInt64
+(
+aMetaData
+kKeyMediaTime
+)
+;
 mTrackId
 =
 FindInt32
@@ -1299,6 +1307,9 @@ MP4Sample
 :
 Update
 (
+int64_t
+&
+aMediaTime
 )
 {
 sp
@@ -1329,6 +1340,8 @@ FindInt64
 m
 kKeyTime
 )
+-
+aMediaTime
 ;
 duration
 =
