@@ -214,6 +214,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 MP3FrameParser
 .
 h
@@ -1721,6 +1728,9 @@ fpsNum
 ;
 int
 fpsDen
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

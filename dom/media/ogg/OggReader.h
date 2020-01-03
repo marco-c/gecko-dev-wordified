@@ -175,6 +175,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 OggCodecState
 .
 h
@@ -2396,6 +2403,9 @@ far
 .
 int64_t
 mDecodedAudioFrames
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

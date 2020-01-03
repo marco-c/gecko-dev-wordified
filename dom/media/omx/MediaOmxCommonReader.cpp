@@ -220,6 +220,10 @@ MediaDecoderReader
 (
 aDecoder
 )
+mStreamSource
+(
+nullptr
+)
 {
 if
 (

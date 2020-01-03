@@ -2454,7 +2454,7 @@ GetResource
 )
 -
 >
-SilentReadAt
+MediaReadAt
 (
 aOffset
 aLength

@@ -253,9 +253,6 @@ private
 bool
 ReadFromResource
 (
-MediaResource
-*
-aResource
 uint8_t
 *
 aBuf
@@ -277,6 +274,9 @@ mFrameSize
 ;
 nsIntRect
 mPicture
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

@@ -132,6 +132,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -660,6 +667,9 @@ bytes
 .
 int64_t
 mWavePCMOffset
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;
