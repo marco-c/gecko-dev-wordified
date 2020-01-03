@@ -190,7 +190,7 @@ R
 .
 color
 .
-private_toolbar_grey
+tabs_tray_grey_pressed
 )
 ;
 setBackgroundColor
