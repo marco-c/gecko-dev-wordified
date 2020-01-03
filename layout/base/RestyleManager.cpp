@@ -8825,7 +8825,7 @@ GetPseudoType
 (
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 transitions
 =
@@ -8862,7 +8862,7 @@ create
 /
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 animations
 =

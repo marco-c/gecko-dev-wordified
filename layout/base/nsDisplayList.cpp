@@ -3591,7 +3591,7 @@ content
 return
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 transitions
 =
@@ -3604,7 +3604,7 @@ content
 aProperty
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 animations
 =
@@ -34951,7 +34951,7 @@ animation
 "
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -35270,7 +35270,7 @@ animation
 "
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -35652,7 +35652,7 @@ Append
 '
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 LogAsyncAnimationFailure

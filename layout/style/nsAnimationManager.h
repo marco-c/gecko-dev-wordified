@@ -1207,7 +1207,7 @@ static
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 *
 GetAnimationsForCompositor
 (
@@ -1245,7 +1245,7 @@ UpdateStyleAndEvents
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 *
 aEA
 mozilla
@@ -1266,7 +1266,7 @@ QueueEvents
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 *
 aEA
 mozilla
@@ -1283,7 +1283,7 @@ MaybeUpdateCascadeResults
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 )
@@ -1678,7 +1678,7 @@ aStyleContext
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 *
 aElementAnimations
 )

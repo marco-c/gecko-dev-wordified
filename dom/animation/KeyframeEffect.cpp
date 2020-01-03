@@ -2127,7 +2127,7 @@ Animations
 are
 composed
 by
-AnimationPlayerCollection
+AnimationCollection
 by
 iterating
 /

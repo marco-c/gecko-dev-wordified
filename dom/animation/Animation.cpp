@@ -117,7 +117,7 @@ h
 /
 /
 For
-AnimationPlayerCollection
+AnimationCollection
 /
 /
 CommonAnimationManager
@@ -4505,7 +4505,7 @@ PostUpdate
 (
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
@@ -5352,7 +5352,7 @@ GetPresContext
 )
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 Animation
 :

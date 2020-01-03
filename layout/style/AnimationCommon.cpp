@@ -396,7 +396,7 @@ CommonAnimationManager
 :
 AddElementCollection
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 )
@@ -481,13 +481,13 @@ mElementCollections
 )
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 head
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -656,7 +656,7 @@ if
 (
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -676,7 +676,7 @@ return
 false
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 CommonAnimationManager
 :
@@ -706,13 +706,13 @@ MayHaveAnimations
 return
 nullptr
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -747,7 +747,7 @@ collection
 >
 CanPerformOnCompositorThread
 (
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanAnimate_AllowPartial
@@ -1260,13 +1260,13 @@ next
 mElementCollections
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -1343,7 +1343,7 @@ CommonAnimationManager
 :
 NotifyCollectionUpdated
 (
-AnimationPlayerCollection
+AnimationCollection
 &
 aCollection
 )
@@ -1467,7 +1467,7 @@ return
 result
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 CommonAnimationManager
 :
@@ -1607,13 +1607,13 @@ return
 nullptr
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -1647,7 +1647,7 @@ allocating
 collection
 =
 new
-AnimationPlayerCollection
+AnimationCollection
 (
 aElement
 propName
@@ -1665,7 +1665,7 @@ SetProperty
 propName
 collection
 &
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 PropertyDtor
@@ -1815,7 +1815,7 @@ return
 nullptr
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
@@ -2630,7 +2630,7 @@ css
 *
 /
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanAnimatePropertyOnCompositor
@@ -3042,7 +3042,7 @@ static
 *
 /
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 IsCompositorAnimationDisabledForFrame
@@ -3087,7 +3087,7 @@ prop
 ;
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanPerformOnCompositorThread
@@ -3520,7 +3520,7 @@ true
 ;
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 PostUpdateLayerAnimations
@@ -3688,7 +3688,7 @@ changeHint
 }
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 HasAnimationOfProperty
@@ -3773,7 +3773,7 @@ dom
 :
 Element
 *
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 GetElementToRestyle
@@ -3894,7 +3894,7 @@ AsElement
 ;
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 NotifyPlayerUpdated
@@ -3940,7 +3940,7 @@ static
 *
 /
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 LogAsyncAnimationFailure
@@ -4081,7 +4081,7 @@ static
 *
 /
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 PropertyDtor
@@ -4100,13 +4100,13 @@ void
 aData
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -4147,7 +4147,7 @@ collection
 ;
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 Tick
@@ -4191,7 +4191,7 @@ Tick
 }
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 EnsureStyleRuleFor
@@ -4584,7 +4584,7 @@ MaybeStartObservingRefreshDriver
 ;
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanThrottleTransformChanges
@@ -4814,7 +4814,7 @@ false
 ;
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanThrottleAnimation
@@ -4961,7 +4961,7 @@ true
 ;
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 UpdateAnimationGeneration
@@ -4987,7 +4987,7 @@ GetAnimationGeneration
 ;
 }
 void
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 UpdateCheckGeneration
@@ -5013,7 +5013,7 @@ GetAnimationGeneration
 ;
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 HasCurrentAnimations
@@ -5064,7 +5064,7 @@ false
 ;
 }
 bool
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 HasCurrentAnimationsForProperties
