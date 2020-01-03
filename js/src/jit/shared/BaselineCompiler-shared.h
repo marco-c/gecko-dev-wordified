@@ -395,15 +395,6 @@ inCall_
 CodeOffsetLabel
 spsPushToggleOffset_
 ;
-CodeOffsetLabel
-traceLoggerEnterToggleOffset_
-;
-CodeOffsetLabel
-traceLoggerExitToggleOffset_
-;
-CodeOffsetLabel
-traceLoggerScriptTextIdOffset_
-;
 BaselineCompilerShared
 (
 JSContext
