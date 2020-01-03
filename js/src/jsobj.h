@@ -8077,6 +8077,9 @@ js
 bool
 LookupPropertyPure
 (
+ThreadSafeContext
+*
+cx
 JSObject
 *
 obj
