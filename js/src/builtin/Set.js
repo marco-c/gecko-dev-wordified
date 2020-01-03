@@ -102,7 +102,7 @@ IsObject
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -156,7 +156,7 @@ in
 that
 case
 .
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -187,7 +187,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
