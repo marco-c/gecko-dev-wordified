@@ -2201,7 +2201,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5392,7 +5392,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5454,7 +5454,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5513,7 +5513,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5573,7 +5573,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5634,7 +5634,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5693,7 +5693,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5785,7 +5785,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5847,7 +5847,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5909,7 +5909,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -5972,7 +5972,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -6034,7 +6034,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
@@ -6095,7 +6095,7 @@ ons
 /
 Code_snippets
 /
-ViewSource
+View_Source_for_XUL_Applications
 "
 )
 ;
