@@ -133,8 +133,9 @@ ContentParent
 aContentParent
 bool
 aForceBridgeNow
-=
-false
+nsresult
+*
+rv
 )
 ;
 bool
