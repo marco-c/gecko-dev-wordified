@@ -353,7 +353,7 @@ body
 .
 textContent
 .
-includes
+contains
 (
 '
 {

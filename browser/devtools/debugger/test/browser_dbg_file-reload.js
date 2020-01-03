@@ -188,7 +188,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 bacon
@@ -366,7 +366,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 bacon

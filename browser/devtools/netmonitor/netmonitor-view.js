@@ -6765,7 +6765,7 @@ mimeType
 &
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6789,7 +6789,7 @@ mimeType
 &
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6814,7 +6814,7 @@ mimeType
 (
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6825,7 +6825,7 @@ ecmascript
 |
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6836,7 +6836,7 @@ javascript
 |
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6886,7 +6886,7 @@ mimeType
 (
 mimeType
 .
-includes
+contains
 (
 "
 font
@@ -6897,7 +6897,7 @@ font
 |
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -6910,7 +6910,7 @@ font
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -6921,7 +6921,7 @@ eot
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -6932,7 +6932,7 @@ ttf
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -6943,7 +6943,7 @@ otf
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -6967,7 +6967,7 @@ mimeType
 &
 mimeType
 .
-includes
+contains
 (
 "
 image
@@ -6998,7 +6998,7 @@ mimeType
 (
 mimeType
 .
-includes
+contains
 (
 "
 audio
@@ -7009,7 +7009,7 @@ audio
 |
 mimeType
 .
-includes
+contains
 (
 "
 video
@@ -7020,7 +7020,7 @@ video
 |
 mimeType
 .
-includes
+contains
 (
 "
 model
@@ -7055,7 +7055,7 @@ mimeType
 (
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -7068,7 +7068,7 @@ flv
 |
 mimeType
 .
-includes
+contains
 (
 "
 /
@@ -7085,7 +7085,7 @@ flash
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -7096,7 +7096,7 @@ swf
 |
 url
 .
-includes
+contains
 (
 "
 .
@@ -9829,7 +9829,7 @@ if
 (
 mimeType
 .
-includes
+contains
 (
 "
 image
@@ -11823,7 +11823,7 @@ mimeType
 &
 mimeType
 .
-includes
+contains
 (
 "
 image
@@ -12171,7 +12171,7 @@ content
 .
 mimeType
 .
-includes
+contains
 (
 "
 image
@@ -17096,7 +17096,7 @@ if
 (
 contentType
 .
-includes
+contains
 (
 "
 x
@@ -18157,7 +18157,7 @@ if
 (
 mimeType
 .
-includes
+contains
 (
 "
 image
@@ -18603,7 +18603,7 @@ key
 >
 mimeType
 .
-includes
+contains
 (
 key
 )

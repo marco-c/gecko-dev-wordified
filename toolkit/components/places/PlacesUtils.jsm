@@ -9877,7 +9877,7 @@ aURL
 (
 aURL
 .
-includes
+contains
 (
 "
 #

@@ -189,7 +189,7 @@ ok
 (
 globalActor
 .
-includes
+contains
 (
 "
 test_one

@@ -496,7 +496,7 @@ _local_offer
 .
 sdp
 .
-includes
+contains
 (
 "
 a
@@ -957,7 +957,7 @@ _remote_answer
 .
 sdp
 .
-includes
+contains
 (
 "
 a

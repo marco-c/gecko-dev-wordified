@@ -157,7 +157,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 321

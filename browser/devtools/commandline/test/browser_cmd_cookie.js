@@ -618,7 +618,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zip
@@ -633,7 +633,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zop
@@ -694,7 +694,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zap
@@ -709,7 +709,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zep
@@ -724,7 +724,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zip
@@ -739,7 +739,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zop
@@ -800,7 +800,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zap
@@ -815,7 +815,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zep
@@ -830,7 +830,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zip
@@ -845,7 +845,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zop
@@ -860,7 +860,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 zup
@@ -875,7 +875,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 banana
@@ -890,7 +890,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 Edit

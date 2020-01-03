@@ -207,7 +207,7 @@ body
 .
 textContent
 .
-includes
+contains
 (
 '
 testProp
@@ -482,7 +482,7 @@ body
 .
 textContent
 .
-includes
+contains
 (
 "
 Location

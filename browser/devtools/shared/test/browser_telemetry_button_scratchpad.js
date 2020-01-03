@@ -799,7 +799,7 @@ DEVTOOLS_INSPECTOR_
 !
 histId
 .
-includes
+contains
 (
 histIdFocus
 )

@@ -332,7 +332,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR
@@ -366,7 +366,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR
@@ -522,7 +522,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR

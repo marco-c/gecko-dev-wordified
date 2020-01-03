@@ -819,7 +819,7 @@ value
 "
 )
 .
-includes
+contains
 (
 L10N
 .

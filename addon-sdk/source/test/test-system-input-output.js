@@ -301,7 +301,7 @@ ok
 (
 topic
 .
-includes
+contains
 (
 addonID
 )
@@ -1817,7 +1817,7 @@ input
 .
 topic
 .
-includes
+contains
 (
 addonID
 )

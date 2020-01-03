@@ -949,7 +949,7 @@ if
 !
 url
 .
-includes
+contains
 (
 "
 :

@@ -7218,7 +7218,7 @@ if
 (
 aCurrentString
 .
-includes
+contains
 (
 "
 return
@@ -11891,7 +11891,7 @@ if
 !
 lowerCaseName
 .
-includes
+contains
 (
 aLowerCaseQuery
 )
@@ -11900,7 +11900,7 @@ aLowerCaseQuery
 !
 lowerCaseValue
 .
-includes
+contains
 (
 aLowerCaseQuery
 )

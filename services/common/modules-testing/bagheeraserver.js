@@ -1184,7 +1184,7 @@ if
 (
 id
 .
-includes
+contains
 (
 "
 /

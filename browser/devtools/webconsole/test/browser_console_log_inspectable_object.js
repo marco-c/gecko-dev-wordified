@@ -307,7 +307,7 @@ body
 .
 textContent
 .
-includes
+contains
 (
 '
 {

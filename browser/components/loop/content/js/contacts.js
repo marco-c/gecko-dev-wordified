@@ -3259,7 +3259,7 @@ toLocaleLowerCase
 (
 )
 .
-includes
+contains
 (
 filter
 )
@@ -3279,7 +3279,7 @@ toLocaleLowerCase
 (
 )
 .
-includes
+contains
 (
 filter
 )

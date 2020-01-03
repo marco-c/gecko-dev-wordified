@@ -31,7 +31,7 @@ e
 .
 message
 .
-includes
+contains
 (
 "
 someName
@@ -95,7 +95,7 @@ e
 .
 message
 .
-includes
+contains
 (
 "
 someName

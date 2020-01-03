@@ -1841,7 +1841,7 @@ if
 !
 sourceUrl
 .
-includes
+contains
 (
 aUrl
 )
@@ -1938,7 +1938,7 @@ source
 .
 url
 .
-includes
+contains
 (
 aUrlOrSource
 )

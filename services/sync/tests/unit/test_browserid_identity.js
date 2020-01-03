@@ -1099,7 +1099,7 @@ _headers
 .
 authorization
 .
-includes
+contains
 (
 '
 nonce

@@ -475,7 +475,7 @@ s
 .
 url
 .
-includes
+contains
 (
 ADDON_MODULE_URL
 )

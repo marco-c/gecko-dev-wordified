@@ -1489,7 +1489,7 @@ do_check_false
 (
 xpiState
 .
-includes
+contains
 (
 "
 \

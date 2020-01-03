@@ -2080,7 +2080,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 lowerCaseToken
 )
@@ -2266,7 +2266,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 lowerCaseToken
 )
@@ -2283,7 +2283,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 lowerCaseToken
 )
@@ -2435,7 +2435,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 lowerCaseToken
 )

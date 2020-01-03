@@ -572,7 +572,7 @@ if
 (
 name
 .
-includes
+contains
 (
 path
 [
@@ -669,7 +669,7 @@ Function
 (
 displayName
 .
-includes
+contains
 (
 point
 )

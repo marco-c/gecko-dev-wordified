@@ -8989,7 +8989,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 this
 .
@@ -9345,7 +9345,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 this
 .

@@ -381,7 +381,7 @@ ok
 !
 state
 .
-includes
+contains
 (
 PASS
 )

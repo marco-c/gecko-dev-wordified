@@ -1169,7 +1169,7 @@ x
 >
 x
 .
-includes
+contains
 (
 "
 test_state
@@ -1204,7 +1204,7 @@ x
 >
 x
 .
-includes
+contains
 (
 filename
 )

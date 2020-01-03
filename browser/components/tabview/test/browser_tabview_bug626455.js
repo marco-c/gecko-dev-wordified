@@ -342,7 +342,7 @@ ok
 (
 url
 .
-includes
+contains
 (
 "
 onbeforeunload

@@ -451,7 +451,7 @@ e
 .
 message
 .
-includes
+contains
 (
 "
 displayURL

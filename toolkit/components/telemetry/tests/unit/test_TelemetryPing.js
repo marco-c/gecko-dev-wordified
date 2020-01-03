@@ -3985,7 +3985,7 @@ request1
 .
 path
 .
-includes
+contains
 (
 "
 test

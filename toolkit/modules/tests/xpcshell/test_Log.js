@@ -3655,7 +3655,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 '
 Exception
@@ -3677,7 +3677,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 (
@@ -3702,7 +3702,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 '
 Exception
@@ -3743,7 +3743,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 '
 Exception
@@ -3795,7 +3795,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 '
 Exception
@@ -4737,7 +4737,7 @@ messages
 0
 ]
 .
-includes
+contains
 (
 '
 {
@@ -4840,7 +4840,7 @@ messages
 1
 ]
 .
-includes
+contains
 (
 '
 Structured
@@ -5134,7 +5134,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 ReferenceError
@@ -5146,7 +5146,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 ERROR_FILE
@@ -5160,7 +5160,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 Ref
@@ -5212,7 +5212,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 SyntaxError
@@ -5249,7 +5249,7 @@ do_check_true
 (
 str
 .
-includes
+contains
 (
 "
 :

@@ -682,7 +682,7 @@ aMessage
 .
 category
 .
-includes
+contains
 (
 "
 CSS

@@ -223,7 +223,7 @@ ok
 (
 result
 .
-includes
+contains
 (
 "
 location

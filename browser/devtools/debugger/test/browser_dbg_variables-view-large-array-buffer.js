@@ -448,7 +448,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -566,7 +566,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -681,7 +681,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token

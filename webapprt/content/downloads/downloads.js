@@ -3334,7 +3334,7 @@ getAttribute
 attr
 )
 .
-includes
+contains
 (
 term
 )

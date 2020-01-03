@@ -242,7 +242,7 @@ text
 .
 className
 .
-includes
+contains
 (
 className
 )

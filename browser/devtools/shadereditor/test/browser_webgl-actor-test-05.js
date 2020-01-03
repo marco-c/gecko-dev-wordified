@@ -126,7 +126,7 @@ ok
 (
 vertSource
 .
-includes
+contains
 (
 "
 gl_Position
@@ -158,7 +158,7 @@ ok
 (
 fragSource
 .
-includes
+contains
 (
 "
 gl_FragColor

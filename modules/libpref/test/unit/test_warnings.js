@@ -230,7 +230,7 @@ write
 &
 message
 .
-includes
+contains
 (
 pref
 )

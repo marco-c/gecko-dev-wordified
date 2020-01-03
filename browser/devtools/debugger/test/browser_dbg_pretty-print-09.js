@@ -425,7 +425,7 @@ ok
 !
 source
 .
-includes
+contains
 (
 "
 \

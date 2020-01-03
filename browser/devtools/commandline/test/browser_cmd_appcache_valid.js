@@ -532,7 +532,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 index
@@ -775,7 +775,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 index
@@ -796,7 +796,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 page1
@@ -817,7 +817,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 page2
@@ -838,7 +838,7 @@ ok
 !
 text
 .
-includes
+contains
 (
 "
 page3

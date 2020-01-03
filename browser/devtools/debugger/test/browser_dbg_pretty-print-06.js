@@ -366,7 +366,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 myFunction
@@ -441,7 +441,7 @@ ok
 (
 error
 .
-includes
+contains
 (
 "
 prettyPrintError
@@ -504,7 +504,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 myFunction
@@ -526,7 +526,7 @@ ok
 (
 text
 .
-includes
+contains
 (
 "
 myFunction
