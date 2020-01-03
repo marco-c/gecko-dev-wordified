@@ -146,7 +146,7 @@ android
 .
 annotation
 .
-SuppressLint
+TargetApi
 ;
 import
 android
@@ -318,11 +318,9 @@ widget
 LAUNCH_NEW_TAB
 "
 ;
-SuppressLint
+TargetApi
 (
-"
-NewApi
-"
+16
 )
 Override
 public
@@ -399,11 +397,9 @@ ids
 )
 ;
 }
-SuppressLint
+TargetApi
 (
-"
-NewApi
-"
+16
 )
 Override
 public
