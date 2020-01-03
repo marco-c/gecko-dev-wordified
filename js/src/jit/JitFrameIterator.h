@@ -579,9 +579,6 @@ returnAddressToFp_
 size_t
 frameSize_
 ;
-ExecutionMode
-mode_
-;
 private
 :
 mutable
@@ -611,7 +608,7 @@ JitFrameIterator
 explicit
 JitFrameIterator
 (
-ThreadSafeContext
+JSContext
 *
 cx
 )
@@ -3298,7 +3295,7 @@ public
 :
 InlineFrameIterator
 (
-ThreadSafeContext
+JSContext
 *
 cx
 const
@@ -3320,7 +3317,7 @@ iter
 ;
 InlineFrameIterator
 (
-ThreadSafeContext
+JSContext
 *
 cx
 const
@@ -3556,7 +3553,7 @@ LocalOp
 void
 readFrameArgsAndLocals
 (
-ThreadSafeContext
+JSContext
 *
 cx
 ArgOp

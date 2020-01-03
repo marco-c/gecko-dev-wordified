@@ -2819,13 +2819,6 @@ thread
 such
 as
 parsing
-and
-for
-Parallel
-JS
-worker
-*
-threads
 .
 *
 /

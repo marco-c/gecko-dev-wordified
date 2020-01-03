@@ -4791,7 +4791,7 @@ Activation
 :
 Activation
 (
-ThreadSafeContext
+JSContext
 *
 cx
 Kind
@@ -4807,7 +4807,9 @@ compartment_
 cx
 -
 >
-compartment_
+compartment
+(
+)
 )
 prev_
 (
