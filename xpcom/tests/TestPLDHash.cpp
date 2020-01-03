@@ -1177,6 +1177,11 @@ IsInitialized
 )
 )
 {
+PL_DHashTableDestroy
+(
+t
+)
+;
 return
 false
 ;
