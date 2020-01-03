@@ -1912,8 +1912,6 @@ public
 nsIInterfaceRequestor
 public
 PRCListStr
-public
-nsIDOMWindowPerformance
 #
 ifdef
 MOZ_B2G
@@ -2138,10 +2136,6 @@ endif
 /
 /
 MOZ_WEBSPEECH
-/
-/
-nsIDOMWindowPerformance
-NS_DECL_NSIDOMWINDOWPERFORMANCE
 /
 /
 nsIDOMJSWindow
