@@ -325,11 +325,13 @@ define
 jit_shared_BaseAssembler_x86_shared_h
 #
 include
-<
-inttypes
+"
+mozilla
+/
+IntegerPrintfMacros
 .
 h
->
+"
 #
 include
 <
