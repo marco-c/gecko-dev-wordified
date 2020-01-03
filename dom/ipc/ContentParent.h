@@ -4398,6 +4398,9 @@ mCalledCloseWithError
 bool
 mCalledKillHard
 ;
+bool
+mCreatedPairedMinidumps
+;
 friend
 class
 CrashReporterParent
