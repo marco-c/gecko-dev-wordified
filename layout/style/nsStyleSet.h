@@ -935,7 +935,7 @@ animation
 /
 data
 with
-eRestyle_ChangeAnimationPhase
+eRestyle_AllHintsWithAnimations
 or
 by
 using

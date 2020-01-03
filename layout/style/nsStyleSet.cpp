@@ -8973,13 +8973,7 @@ eRestyle_ChangeAnimationPhaseDescendants
 aReplacements
 |
 =
-eRestyle_CSSTransitions
-|
-eRestyle_CSSAnimations
-|
-eRestyle_SVGAttrAnimations
-|
-eRestyle_StyleAttribute
+eRestyle_AllHintsWithAnimations
 ;
 }
 /
