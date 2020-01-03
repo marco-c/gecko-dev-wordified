@@ -1878,6 +1878,27 @@ runtime
 >
 }
     
+:
+param
+default_runtime
+:
+value
+in
+seconds
+to
+assign
+tests
+that
+don
+'
+t
+exist
+                            
+in
+the
+runtimes
+file
+    
 "
 "
 "
@@ -1889,6 +1910,9 @@ self
 this_chunk
 total_chunks
 runtimes
+default_runtime
+=
+0
 )
 :
         
@@ -1907,7 +1931,11 @@ total_chunks
 #
 defaultdict
 (
+lambda
+:
+<
 int
+>
 )
 assigns
 all
@@ -1915,15 +1943,16 @@ non
 -
 existent
 keys
-a
+the
 value
 of
-0
-.
-This
         
 #
-essentially
+<
+int
+>
+.
+This
 means
 all
 tests
@@ -1940,15 +1969,10 @@ the
 #
 runtimes
 file
-won
-'
-t
-factor
-in
-to
-the
-chunking
-determination
+will
+be
+assigned
+default_runtime
 .
         
 self
@@ -1957,7 +1981,9 @@ runtimes
 =
 defaultdict
 (
-int
+lambda
+:
+default_runtime
 )
         
 self
