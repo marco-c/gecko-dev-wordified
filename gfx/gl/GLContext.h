@@ -485,7 +485,6 @@ query_time_elapsed
 read_buffer
 renderbuffer_color_float
 renderbuffer_color_half_float
-robust_buffer_access_behavior
 robustness
 sRGB_framebuffer
 sRGB_texture
@@ -1806,7 +1805,6 @@ ARB_invalidate_subdata
 ARB_map_buffer_range
 ARB_occlusion_query2
 ARB_pixel_buffer_object
-ARB_robust_buffer_access_behavior
 ARB_robustness
 ARB_sampler_objects
 ARB_sync
@@ -1858,7 +1856,6 @@ IMG_read_format
 IMG_texture_compression_pvrtc
 IMG_texture_npot
 KHR_debug
-KHR_robust_buffer_access_behavior
 NV_draw_instanced
 NV_fence
 NV_framebuffer_blit
@@ -2134,13 +2131,6 @@ profile
 void
 InitFeatures
 (
-)
-;
-void
-MarkSupported
-(
-GLFeature
-feature
 )
 ;
 /
@@ -18028,17 +18018,6 @@ DataSourceSurface
 dest
 )
 ;
-virtual
-bool
-NeedsDrawElementsValidation
-(
-)
-const
-{
-return
-true
-;
-}
 }
 ;
 bool
