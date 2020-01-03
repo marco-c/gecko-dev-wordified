@@ -245,7 +245,7 @@ public
 :
 virtual
 void
-mark
+trace
 (
 JSTracer
 *
@@ -846,7 +846,7 @@ v
 }
 /
 *
-Mark
+Trace
 the
 source
 of
@@ -860,7 +860,7 @@ buffer
 *
 /
 void
-mark
+trace
 (
 StoreBuffer
 *
@@ -1028,7 +1028,7 @@ LowAvailableThreshold
 }
 /
 *
-Mark
+Trace
 all
 generic
 edges
@@ -1036,7 +1036,7 @@ edges
 *
 /
 void
-mark
+trace
 (
 StoreBuffer
 *
@@ -1392,7 +1392,7 @@ edge
 ;
 }
 void
-mark
+trace
 (
 TenuringTracer
 &
@@ -1620,7 +1620,7 @@ edge
 ;
 }
 void
-mark
+trace
 (
 TenuringTracer
 &
@@ -1969,7 +1969,7 @@ object
 ;
 }
 void
-mark
+trace
 (
 TenuringTracer
 &
@@ -2156,7 +2156,7 @@ edge
 ;
 }
 void
-mark
+trace
 (
 TenuringTracer
 &
@@ -2188,7 +2188,7 @@ typedef
 void
 (
 *
-MarkCallback
+TraceCallback
 )
 (
 JSTracer
@@ -2204,7 +2204,7 @@ data
 ;
 CallbackRef
 (
-MarkCallback
+TraceCallback
 cb
 Key
 *
@@ -2230,7 +2230,7 @@ d
 }
 virtual
 void
-mark
+trace
 (
 JSTracer
 *
@@ -2247,7 +2247,7 @@ data
 }
 private
 :
-MarkCallback
+TraceCallback
 callback
 ;
 Key
@@ -2984,7 +2984,7 @@ data
 *
 Methods
 to
-mark
+trace
 the
 source
 of
@@ -2998,7 +2998,7 @@ buffer
 *
 /
 void
-markValues
+traceValues
 (
 TenuringTracer
 &
@@ -3007,7 +3007,7 @@ mover
 {
 bufferVal
 .
-mark
+trace
 (
 this
 mover
@@ -3015,7 +3015,7 @@ mover
 ;
 }
 void
-markCells
+traceCells
 (
 TenuringTracer
 &
@@ -3024,7 +3024,7 @@ mover
 {
 bufferCell
 .
-mark
+trace
 (
 this
 mover
@@ -3032,7 +3032,7 @@ mover
 ;
 }
 void
-markSlots
+traceSlots
 (
 TenuringTracer
 &
@@ -3041,7 +3041,7 @@ mover
 {
 bufferSlot
 .
-mark
+trace
 (
 this
 mover
@@ -3049,7 +3049,7 @@ mover
 ;
 }
 void
-markWholeCells
+traceWholeCells
 (
 TenuringTracer
 &
@@ -3058,7 +3058,7 @@ mover
 {
 bufferWholeCell
 .
-mark
+trace
 (
 this
 mover
@@ -3066,7 +3066,7 @@ mover
 ;
 }
 void
-markRelocatableValues
+traceRelocatableValues
 (
 TenuringTracer
 &
@@ -3075,7 +3075,7 @@ mover
 {
 bufferRelocVal
 .
-mark
+trace
 (
 this
 mover
@@ -3083,7 +3083,7 @@ mover
 ;
 }
 void
-markRelocatableCells
+traceRelocatableCells
 (
 TenuringTracer
 &
@@ -3092,7 +3092,7 @@ mover
 {
 bufferRelocCell
 .
-mark
+trace
 (
 this
 mover
@@ -3100,7 +3100,7 @@ mover
 ;
 }
 void
-markGenericEntries
+traceGenericEntries
 (
 JSTracer
 *
@@ -3109,7 +3109,7 @@ trc
 {
 bufferGeneric
 .
-mark
+trace
 (
 this
 trc

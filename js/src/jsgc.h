@@ -6273,6 +6273,13 @@ js
 :
 Nursery
 ;
+friend
+class
+js
+:
+:
+TenuringTracer
+;
 }
 ;
 /

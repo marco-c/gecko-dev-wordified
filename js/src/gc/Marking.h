@@ -2193,12 +2193,13 @@ k
 {
 }
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 {
 Key
 prior

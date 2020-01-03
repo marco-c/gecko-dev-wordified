@@ -10251,12 +10251,13 @@ BufferableRef
 public
 :
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 ;
 }
 ;
@@ -10264,7 +10265,7 @@ void
 MarkOffThreadNurseryObjects
 :
 :
-mark
+trace
 (
 JSTracer
 *

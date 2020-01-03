@@ -8322,12 +8322,13 @@ k
 {
 }
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 {
 MOZ_ASSERT
 (
