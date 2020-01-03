@@ -7308,7 +7308,7 @@ to
 date
 .
 final
-Integer
+int
 id
 =
 getIDForFaviconURL
