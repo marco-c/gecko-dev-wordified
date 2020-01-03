@@ -1848,6 +1848,8 @@ mInnerSize
 ;
 uint32_t
 presShellId
+=
+0
 ;
 mozilla
 :
@@ -1860,6 +1862,11 @@ FrameMetrics
 :
 ViewID
 viewId
+=
+FrameMetrics
+:
+:
+NULL_SCROLL_ID
 ;
 bool
 scrollIdentifiersValid
