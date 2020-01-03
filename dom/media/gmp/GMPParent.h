@@ -659,6 +659,14 @@ return
 mNodeId
 ;
 }
+const
+nsCString
+&
+GetVersion
+(
+)
+const
+;
 /
 /
 Returns
