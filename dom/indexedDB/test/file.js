@@ -30,15 +30,6 @@ zero
 /
 *
 /
-const
-DEFAULT_QUOTA
-=
-50
-*
-1024
-*
-1024
-;
 var
 bufferCache
 =
