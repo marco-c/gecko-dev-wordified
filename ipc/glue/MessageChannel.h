@@ -1359,6 +1359,10 @@ const
 Message
 &
 aMsg
+Message
+*
+&
+aReply
 )
 ;
 void
