@@ -4192,19 +4192,6 @@ DetachFromTopLevelWidget
 ;
 }
 }
-nsRefPtr
-<
-nsDeviceContext
->
-dx
-=
-mViewManager
--
->
-GetDeviceContext
-(
-)
-;
 /
 /
 Note
@@ -4241,7 +4228,6 @@ nsIWidget
 UsePuppetWidgets
 (
 )
-dx
 )
 ;
 if
