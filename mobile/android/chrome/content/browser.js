@@ -42265,6 +42265,7 @@ id
 aSearchString
 aElement
 null
+null
 resultsAvailable
 )
 ;
