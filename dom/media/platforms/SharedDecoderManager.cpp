@@ -410,7 +410,7 @@ false
 mMonitor
 (
 "
-SharedDecoderManager
+SharedDecoderProxy
 "
 )
 mDecoderReleasedResources
@@ -790,7 +790,6 @@ mActiveProxy
 aProxy
 )
 {
-{
 MonitorAutoLock
 mon
 (
@@ -801,6 +800,10 @@ mWaitForInternalDrain
 =
 true
 ;
+nsresult
+rv
+;
+{
 /
 /
 We
@@ -817,7 +820,7 @@ calling
 Drain
 (
 )
-as
+has
 some
 /
 /
@@ -829,8 +832,12 @@ DrainComplete
 )
 immediately
 .
-}
-nsresult
+MonitorAutoUnlock
+mon
+(
+mMonitor
+)
+;
 rv
 =
 mActiveProxy
@@ -840,6 +847,7 @@ Drain
 (
 )
 ;
+}
 if
 (
 NS_SUCCEEDED
@@ -848,12 +856,6 @@ rv
 )
 )
 {
-MonitorAutoLock
-mon
-(
-mMonitor
-)
-;
 while
 (
 mWaitForInternalDrain
