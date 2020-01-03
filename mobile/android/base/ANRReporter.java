@@ -203,9 +203,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
 .
-Versions
+WrapForJNI
 ;
 import
 org
@@ -214,11 +214,9 @@ mozilla
 .
 gecko
 .
-mozglue
+AppConstants
 .
-generatorannotations
-.
-WrapElementForJNI
+Versions
 ;
 import
 org
@@ -457,7 +455,7 @@ volatile
 boolean
 mPendingANR
 ;
-WrapElementForJNI
+WrapForJNI
 private
 static
 native
@@ -468,7 +466,7 @@ boolean
 unwind
 )
 ;
-WrapElementForJNI
+WrapForJNI
 private
 static
 native
@@ -477,7 +475,7 @@ getNativeStack
 (
 )
 ;
-WrapElementForJNI
+WrapForJNI
 private
 static
 native

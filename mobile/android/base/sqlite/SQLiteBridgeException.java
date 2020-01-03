@@ -105,13 +105,11 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
-WrapElementForJNI
+WrapForJNI
 public
 class
 SQLiteBridgeException

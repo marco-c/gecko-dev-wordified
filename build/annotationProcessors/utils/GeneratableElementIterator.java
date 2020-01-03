@@ -440,11 +440,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 "
 )
 )
@@ -586,11 +584,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 "
 )
 )
@@ -857,7 +853,7 @@ find
 expected
 field
 on
-WrapElementForJNI
+WrapForJNI
 annotation
 .
 Did
@@ -902,7 +898,7 @@ IllegalAccessException
 reading
 fields
 on
-WrapElementForJNI
+WrapForJNI
 annotation
 .
 Seems
@@ -952,7 +948,7 @@ InvocationTargetException
 reading
 fields
 on
-WrapElementForJNI
+WrapForJNI
 annotation
 .
 This

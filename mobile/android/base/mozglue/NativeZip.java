@@ -107,9 +107,7 @@ gecko
 .
 mozglue
 .
-generatorannotations
-.
-WrapElementForJNI
+JNITarget
 ;
 import
 java
@@ -412,7 +410,7 @@ String
 path
 )
 ;
-WrapElementForJNI
+JNITarget
 private
 InputStream
 createInputStream

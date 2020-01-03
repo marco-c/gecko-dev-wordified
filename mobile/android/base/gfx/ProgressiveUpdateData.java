@@ -105,11 +105,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 /
 *
@@ -161,7 +159,7 @@ continuing
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 class
 ProgressiveUpdateData

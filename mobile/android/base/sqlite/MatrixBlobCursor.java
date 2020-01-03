@@ -195,7 +195,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
+.
+WrapForJNI
 ;
 import
 org
@@ -204,11 +206,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-generatorannotations
-.
-WrapElementForJNI
+AppConstants
 ;
 import
 android
@@ -408,7 +406,7 @@ in
 rows
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 MatrixBlobCursor
 (
@@ -510,7 +508,7 @@ this
 cursor
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 MatrixBlobCursor
 (
@@ -825,7 +823,7 @@ construction
 time
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 void
 addRow
@@ -963,7 +961,7 @@ construction
 time
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 void
 addRow
@@ -1150,7 +1148,7 @@ ArrayList
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 private
 void
 addRow

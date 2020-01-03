@@ -105,6 +105,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+WrapForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoAppShell
 ;
 import
@@ -166,19 +177,6 @@ gecko
 mozglue
 .
 RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-generatorannotations
-.
-WrapElementForJNI
 ;
 import
 org
@@ -3046,7 +3044,7 @@ return
 mDisplayPort
 ;
 }
-WrapElementForJNI
+WrapForJNI
 DisplayPortMetrics
 getDisplayPort
 (
@@ -3208,7 +3206,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 void
 contentDocumentChanged
 (
@@ -3219,7 +3217,7 @@ mContentDocumentIsDisplayed
 false
 ;
 }
-WrapElementForJNI
+WrapForJNI
 boolean
 isContentDocumentDisplayed
 (
@@ -3310,7 +3308,7 @@ is
 wasted
 effort
 .
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -4287,7 +4285,7 @@ syncViewportInfo
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -4759,7 +4757,7 @@ syncViewportInfo
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -4989,7 +4987,7 @@ mCurrentViewTransform
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -5413,7 +5411,7 @@ return
 mCurrentViewTransform
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -5482,7 +5480,7 @@ layersUpdated
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -5571,7 +5569,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -5590,7 +5588,7 @@ activateDefaultProgram
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =

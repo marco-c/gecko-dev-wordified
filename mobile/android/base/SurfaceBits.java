@@ -70,11 +70,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 import
 java
@@ -83,7 +81,7 @@ nio
 .
 ByteBuffer
 ;
-WrapElementForJNI
+WrapForJNI
 public
 class
 SurfaceBits

@@ -81,9 +81,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
 .
-Versions
+WrapForJNI
 ;
 import
 org
@@ -92,11 +92,9 @@ mozilla
 .
 gecko
 .
-mozglue
+AppConstants
 .
-generatorannotations
-.
-WrapElementForJNI
+Versions
 ;
 import
 android
@@ -254,7 +252,7 @@ getApplicationContext
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -409,7 +407,7 @@ return
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -643,7 +641,7 @@ otherwise
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -737,7 +735,7 @@ clipboard
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 public
 static
 void

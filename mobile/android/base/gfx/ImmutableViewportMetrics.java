@@ -105,11 +105,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 import
 org
@@ -384,7 +382,7 @@ signature
 .
 *
 /
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
