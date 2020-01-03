@@ -3605,5 +3605,16 @@ detune
 :
 0
 }
+"
+StereoPannerNode
+"
+:
+{
+"
+pan
+"
+:
+0
+}
 }
 ;

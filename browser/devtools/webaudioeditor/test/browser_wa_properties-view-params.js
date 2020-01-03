@@ -131,12 +131,12 @@ create
 -
 node
 "
-14
+15
 )
 waitForGraphRendered
 (
 panelWin
-14
+15
 0
 )
 ]

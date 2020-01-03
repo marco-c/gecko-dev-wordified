@@ -98,7 +98,7 @@ create
 -
 node
 "
-14
+15
 )
 ]
 )
@@ -171,6 +171,9 @@ DynamicsCompressorNode
 "
 "
 OscillatorNode
+"
+"
+StereoPannerNode
 "
 ]
 ;
