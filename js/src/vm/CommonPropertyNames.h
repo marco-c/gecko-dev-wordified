@@ -1876,15 +1876,6 @@ toLocaleString
 \
 macro
 (
-ToObject
-ToObject
-"
-ToObject
-"
-)
-\
-macro
-(
 toSource
 toSource
 "
