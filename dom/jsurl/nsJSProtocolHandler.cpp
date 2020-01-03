@@ -1600,6 +1600,9 @@ nsJSUtils
 :
 EvaluateOptions
 evalOptions
+(
+cx
+)
 ;
 evalOptions
 .
