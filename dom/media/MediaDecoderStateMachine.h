@@ -5985,7 +5985,10 @@ and
 AV
 thread
 .
+Watchable
+<
 State
+>
 mState
 ;
 /
@@ -6394,6 +6397,9 @@ compute
 ready
 state
 .
+WatcherHolder
+mNextFrameStatusUpdater
+;
 Canonical
 <
 NextFrameStatus
@@ -8345,7 +8351,10 @@ to
 the
 MediaStream
 .
+Watchable
+<
 bool
+>
 mAudioCompleted
 ;
 /

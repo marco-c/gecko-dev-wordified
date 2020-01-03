@@ -562,7 +562,7 @@ AbstractWatcher
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 AbstractWatcher
 )
@@ -740,6 +740,8 @@ AddWatcher
 AbstractWatcher
 *
 aWatcher
+bool
+aSkipInitialNotify
 )
 {
 MOZ_ASSERT
@@ -760,6 +762,12 @@ AppendElement
 aWatcher
 )
 ;
+if
+(
+!
+aSkipInitialNotify
+)
+{
 aWatcher
 -
 >
@@ -767,6 +775,7 @@ Notify
 (
 )
 ;
+}
 }
 void
 RemoveWatcher
@@ -1330,6 +1339,10 @@ Watch
 WatchTarget
 &
 aTarget
+bool
+aSkipInitialNotify
+=
+false
 )
 {
 aTarget
@@ -1337,6 +1350,7 @@ aTarget
 AddWatcher
 (
 this
+aSkipInitialNotify
 )
 ;
 }
