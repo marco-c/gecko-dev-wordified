@@ -1030,7 +1030,6 @@ mozilla
 WritingMode
 aLineWM
 nscoord
-&
 aLineWidth
 nscoord
 aStart
@@ -2614,7 +2613,6 @@ mozilla
 WritingMode
 aContainerWM
 nscoord
-&
 aContainerWidth
 )
 ;
@@ -2945,10 +2943,8 @@ mozilla
 WritingMode
 aLineWM
 nscoord
-&
 aLineWidth
 nscoord
-&
 aStart
 )
 ;
