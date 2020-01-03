@@ -959,7 +959,7 @@ inliningMaxCallerBytecodeLength
 const
 {
 return
-inlineMaxTotalBytecodeLength_
+inliningMaxCallerBytecodeLength_
 ;
 }
 uint32_t
