@@ -235,6 +235,17 @@ nsCString
 aHostSpec
 )
 ;
+bool
+IsDomainWhitelisted
+(
+const
+nsAutoCString
+aAsciiHost
+const
+uint32_t
+aDotLoc
+)
+;
 }
 ;
 class
