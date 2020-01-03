@@ -536,6 +536,8 @@ if
 len
 <
 FIRST_SSRC_OFFSET
++
+4
 )
 {
 return
