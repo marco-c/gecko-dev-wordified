@@ -6772,7 +6772,7 @@ Key_F14
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 )
 ;
 }
@@ -6828,7 +6828,7 @@ nativeVirtualKey
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 )
 ;
 }

@@ -37577,7 +37577,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 this
 )
 ;
@@ -37745,7 +37745,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 this
 true
 )

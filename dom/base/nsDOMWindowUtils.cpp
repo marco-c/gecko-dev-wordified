@@ -10220,7 +10220,7 @@ undo
 )
 msg
 =
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 ;
 else
 if
