@@ -437,6 +437,10 @@ aac_profile
 (
 0
 )
+extended_profile
+(
+0
+)
 {
 }
 uint32_t
@@ -453,6 +457,9 @@ frequency_index
 ;
 int8_t
 aac_profile
+;
+int8_t
+extended_profile
 ;
 mozilla
 :
