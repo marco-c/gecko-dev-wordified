@@ -130,7 +130,7 @@ SurfaceTexture
 API
 (
 see
-nsSurfaceTexture
+AndroidSurfaceTexture
 )
 /
 /
