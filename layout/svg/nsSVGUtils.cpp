@@ -7345,9 +7345,11 @@ Invert
 )
 ;
 matrix
-*
-=
+.
+PreMultiply
+(
 outerSVGToUser
+)
 ;
 }
 double
