@@ -130,7 +130,7 @@ SurfaceTexture
 API
 (
 see
-AndroidSurfaceTexture
+nsSurfaceTexture
 )
 /
 /
@@ -191,13 +191,6 @@ Fill
 GLContext
 *
 aContext
-)
-;
-static
-GLContext
-*
-GetGLContext
-(
 )
 ;
 /

@@ -252,6 +252,13 @@ AndroidBridge
 h
 "
 #
+include
+"
+nsSurfaceTexture
+.
+h
+"
+#
 endif
 #
 include

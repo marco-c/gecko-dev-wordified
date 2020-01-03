@@ -1069,13 +1069,7 @@ MOZ_ASSERT
 out_image
 )
 ;
-mozilla
-:
-:
-gl
-:
-:
-AndroidSurfaceTexture
+nsSurfaceTexture
 *
 surfTex
 =
