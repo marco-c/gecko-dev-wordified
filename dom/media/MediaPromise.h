@@ -1087,6 +1087,10 @@ Then
 TargetType
 *
 aResponseTarget
+const
+char
+*
+aCallSite
 ThisType
 *
 aThisVal
@@ -1094,10 +1098,6 @@ ResolveMethodType
 aResolveMethod
 RejectMethodType
 aRejectMethod
-const
-char
-*
-aCallSite
 )
 {
 MutexAutoLock

@@ -492,7 +492,10 @@ video
 data
 .
 virtual
-void
+nsRefPtr
+<
+VideoDataPromise
+>
 RequestVideoData
 (
 bool
@@ -513,7 +516,10 @@ video
 data
 .
 virtual
-void
+nsRefPtr
+<
+AudioDataPromise
+>
 RequestAudioData
 (
 )
