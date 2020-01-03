@@ -94,9 +94,7 @@ background
 .
 common
 .
-log
-.
-Logger
+PrefsBranch
 ;
 import
 org
@@ -105,11 +103,13 @@ mozilla
 .
 gecko
 .
-sync
+background
 .
-SyncConfiguration
+common
 .
-ConfigurationBranch
+log
+.
+Logger
 ;
 import
 org
@@ -162,7 +162,7 @@ localBundle
 public
 SynchronizerConfiguration
 (
-ConfigurationBranch
+PrefsBranch
 config
 )
 throws
@@ -225,7 +225,7 @@ public
 void
 load
 (
-ConfigurationBranch
+PrefsBranch
 config
 )
 throws
@@ -386,7 +386,7 @@ public
 void
 persist
 (
-ConfigurationBranch
+PrefsBranch
 config
 )
 {
