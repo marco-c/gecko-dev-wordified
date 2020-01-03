@@ -21576,7 +21576,10 @@ positionData
 mHeight
 true
 nullptr
-nullptr
+nsCSSProps
+:
+:
+kWidthKTable
 minHeight
 maxHeight
 )
@@ -21824,6 +21827,10 @@ nsComputedDOMStyle
 :
 :
 GetCBContentHeight
+nsCSSProps
+:
+:
+kWidthKTable
 )
 ;
 return
@@ -21991,6 +21998,10 @@ nsComputedDOMStyle
 :
 :
 GetCBContentHeight
+nsCSSProps
+:
+:
+kWidthKTable
 )
 ;
 return
