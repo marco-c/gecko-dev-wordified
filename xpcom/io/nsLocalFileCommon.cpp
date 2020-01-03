@@ -792,7 +792,7 @@ suffix
 #
 endif
 nsresult
-rv
+rvCreate
 =
 Create
 (
@@ -802,14 +802,14 @@ aAttributes
 ;
 if
 (
-rv
+rvCreate
 !
 =
 NS_ERROR_FILE_ALREADY_EXISTS
 )
 {
 return
-rv
+rvCreate
 ;
 }
 }

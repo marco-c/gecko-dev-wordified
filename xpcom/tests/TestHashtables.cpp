@@ -4001,14 +4001,14 @@ exit
 ;
 }
 nsAutoCString
-str
+myEntStr
 ;
 myEnt
 -
 >
 GetString
 (
-str
+myEntStr
 )
 ;
 printf
@@ -4020,7 +4020,7 @@ s
 \
 n
 "
-str
+myEntStr
 .
 get
 (

@@ -496,7 +496,7 @@ seekable
 )
 {
 nsresult
-rv
+rvSeek
 =
 seekable
 -
@@ -514,7 +514,7 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rvSeek
 )
 )
 {
@@ -613,7 +613,7 @@ is
 set
 .
 nsresult
-rv
+rvSeek
 =
 aSeekable
 -
@@ -631,7 +631,7 @@ if
 (
 NS_SUCCEEDED
 (
-rv
+rvSeek
 )
 )
 {

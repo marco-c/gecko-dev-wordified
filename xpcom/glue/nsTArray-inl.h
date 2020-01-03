@@ -2016,7 +2016,7 @@ aElemSize
 ;
 char
 *
-base
+baseAddr
 =
 reinterpret_cast
 <
@@ -2036,10 +2036,10 @@ Copy
 :
 MoveElements
 (
-base
+baseAddr
 +
 aNewLen
-base
+baseAddr
 +
 aOldLen
 num

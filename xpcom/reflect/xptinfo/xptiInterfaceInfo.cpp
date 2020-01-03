@@ -2921,7 +2921,7 @@ IsIID
 const
 nsIID
 *
-IID
+iid
 bool
 *
 _retval
@@ -2951,7 +2951,7 @@ mIID
 Equals
 (
 *
-IID
+iid
 )
 ;
 return

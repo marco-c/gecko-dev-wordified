@@ -370,7 +370,7 @@ nsCOMPtr
 <
 nsIComponentRegistrar
 >
-r
+registrar
 =
 do_QueryInterface
 (
@@ -402,7 +402,7 @@ cid
 e
 )
 {
-r
+registrar
 -
 >
 RegisterFactoryLocation
@@ -449,7 +449,7 @@ contractid
 e
 )
 {
-r
+registrar
 -
 >
 RegisterFactoryLocation
@@ -520,7 +520,7 @@ NS_CATEGORYMANAGER_CONTRACTID
 ;
 }
 nsAutoCString
-r
+prevValue
 ;
 catman
 -
@@ -543,7 +543,7 @@ true
 true
 getter_Copies
 (
-r
+prevValue
 )
 )
 ;

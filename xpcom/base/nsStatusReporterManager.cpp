@@ -437,7 +437,7 @@ dummy
 ;
 \
 nsresult
-rv
+rvDump
 =
 (
 o
@@ -464,13 +464,13 @@ NS_WARN_IF
 (
 NS_FAILED
 (
-rv
+rvDump
 )
 )
 )
 \
 return
-rv
+rvDump
 ;
 \
 }
