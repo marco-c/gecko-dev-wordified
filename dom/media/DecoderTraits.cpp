@@ -1651,11 +1651,6 @@ false
 ;
 #
 else
-bool
-haveAAC
-haveMP3
-haveH264
-;
 return
 Preferences
 :
@@ -1682,9 +1677,6 @@ CanHandleMediaType
 (
 aType
 aCodecs
-haveAAC
-haveH264
-haveMP3
 )
 ;
 #
