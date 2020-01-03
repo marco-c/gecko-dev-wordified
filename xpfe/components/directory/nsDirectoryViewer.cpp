@@ -7456,6 +7456,10 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
+/
+/
+aChannelPolicy
 aLoadGroup
 )
 ;
