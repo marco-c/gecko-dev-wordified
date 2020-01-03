@@ -10725,14 +10725,6 @@ GET_IT
 WANT_HASINSTANCE
 )
 bool
-WantOuterObject
-(
-)
-GET_IT
-(
-WANT_OUTER_OBJECT
-)
-bool
 UseJSStubForAddProperty
 (
 )
