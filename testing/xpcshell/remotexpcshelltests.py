@@ -3436,10 +3436,6 @@ BadCertServer
 "
                     
 "
-ClientAuthServer
-"
-                    
-"
 OCSPStaplingServer
 "
                     
