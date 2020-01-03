@@ -1299,6 +1299,10 @@ catch
 e
 )
 {
+/
+/
+Do
+nothing
 }
 }
 }
@@ -5211,6 +5215,10 @@ catch
 e
 )
 {
+/
+/
+Do
+nothing
 }
 if
 (

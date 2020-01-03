@@ -3179,6 +3179,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 }
 )
@@ -3294,6 +3298,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 }
 )

@@ -190,6 +190,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 Assert
 .

@@ -4599,6 +4599,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 if
 (
@@ -4639,6 +4643,10 @@ catch
 ex
 )
 {
+/
+/
+Do
+nothing
 }
 if
 (

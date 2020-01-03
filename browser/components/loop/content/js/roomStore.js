@@ -3185,6 +3185,15 @@ catch
 ex
 )
 {
+/
+/
+URL
+may
+throw
+default
+to
+false
+;
 }
 if
 (
