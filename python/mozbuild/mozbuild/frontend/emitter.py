@@ -3972,10 +3972,6 @@ IS_GYP_DIR
 '
             
 '
-MSVC_ENABLE_PGO
-'
-            
-'
 NO_DIST_INSTALL
 '
             
