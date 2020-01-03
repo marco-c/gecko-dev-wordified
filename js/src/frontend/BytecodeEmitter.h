@@ -184,7 +184,7 @@ namespace
 js
 {
 class
-StaticEvalObject
+ScopeObject
 ;
 namespace
 frontend
