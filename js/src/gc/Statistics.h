@@ -1000,6 +1000,13 @@ endGC
 )
 ;
 void
+recordPhaseEnd
+(
+Phase
+phase
+)
+;
+void
 gcDuration
 (
 int64_t
