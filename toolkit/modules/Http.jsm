@@ -782,11 +782,13 @@ aOptions
 postData
 |
 |
-"
-"
+null
 ;
 if
 (
+POSTData
+&
+&
 Array
 .
 isArray
