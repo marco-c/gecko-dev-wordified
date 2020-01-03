@@ -352,7 +352,7 @@ mDXVA2Manager
 ;
 RefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

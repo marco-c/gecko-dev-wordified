@@ -7000,7 +7000,7 @@ mAudioTrack
 .
 mTaskQueue
 =
-CreateMediaDecodeTaskQueue
+CreateFlushableMediaDecodeTaskQueue
 (
 )
 ;
@@ -7041,7 +7041,7 @@ mVideoTrack
 .
 mTaskQueue
 =
-CreateMediaDecodeTaskQueue
+CreateFlushableMediaDecodeTaskQueue
 (
 )
 ;

@@ -164,7 +164,7 @@ LIBAV_VER
 :
 FFmpegAudioDecoder
 (
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

@@ -663,7 +663,7 @@ GonkMediaDataDecoder
 GonkDecoderManager
 *
 aDecoderManager
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -875,7 +875,7 @@ ProcessDrain
 ;
 RefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

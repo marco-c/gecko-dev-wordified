@@ -213,7 +213,7 @@ aCallback
 )
 mTaskQueue
 (
-CreateMediaDecodeTaskQueue
+CreateFlushableMediaDecodeTaskQueue
 (
 )
 )
@@ -302,7 +302,7 @@ DeliverDecrypted
 EMEDecryptor
 *
 aDecryptor
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 )
@@ -468,7 +468,7 @@ mDecryptor
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;
@@ -915,7 +915,7 @@ mCallback
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;
@@ -960,7 +960,7 @@ aCallback
 CDMProxy
 *
 aProxy
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 )
@@ -1167,7 +1167,7 @@ aCallback
 CDMProxy
 *
 aProxy
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 )
@@ -1287,7 +1287,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -1433,7 +1433,7 @@ const
 AudioDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

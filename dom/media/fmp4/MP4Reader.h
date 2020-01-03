@@ -1071,7 +1071,7 @@ created
 .
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

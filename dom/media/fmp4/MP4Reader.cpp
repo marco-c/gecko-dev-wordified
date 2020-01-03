@@ -1608,7 +1608,7 @@ mAudio
 mTaskQueue
 =
 new
-MediaTaskQueue
+FlushableMediaTaskQueue
 (
 GetMediaDecodeThreadPool
 (
@@ -1628,7 +1628,7 @@ mVideo
 mTaskQueue
 =
 new
-MediaTaskQueue
+FlushableMediaTaskQueue
 (
 GetMediaDecodeThreadPool
 (
@@ -2832,9 +2832,6 @@ HasAudio
 (
 )
 HasVideo
-(
-)
-GetTaskQueue
 (
 )
 )

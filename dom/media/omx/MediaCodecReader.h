@@ -266,7 +266,7 @@ namespace
 mozilla
 {
 class
-MediaTaskQueue
+FlushableMediaTaskQueue
 ;
 class
 MP3FrameParser
@@ -995,7 +995,7 @@ mDiscontinuity
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

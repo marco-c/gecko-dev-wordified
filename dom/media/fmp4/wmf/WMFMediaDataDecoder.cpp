@@ -197,7 +197,7 @@ WMFMediaDataDecoder
 MFTManager
 *
 aMFTManager
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

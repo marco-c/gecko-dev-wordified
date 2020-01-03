@@ -145,7 +145,7 @@ class
 CDMProxy
 ;
 class
-MediaTaskQueue
+FlushableMediaTaskQueue
 ;
 class
 EMEDecoderModule
@@ -241,7 +241,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -269,7 +269,7 @@ mp4_demuxer
 AudioDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback
@@ -331,7 +331,7 @@ queue
 .
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

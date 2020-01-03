@@ -223,7 +223,7 @@ BlankMediaDataDecoder
 BlankMediaDataCreator
 *
 aCreator
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -491,7 +491,7 @@ mCreator
 ;
 RefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;
@@ -1267,7 +1267,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -1336,7 +1336,7 @@ mp4_demuxer
 AudioDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

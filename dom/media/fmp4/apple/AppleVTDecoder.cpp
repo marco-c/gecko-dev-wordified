@@ -291,7 +291,7 @@ mp4_demuxer
 VideoDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
