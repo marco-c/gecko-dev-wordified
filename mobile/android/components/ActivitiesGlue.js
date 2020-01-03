@@ -185,7 +185,9 @@ aActivities
 aCallback
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequestForResult
 (
 {
 type
@@ -210,6 +212,10 @@ aOptions
 data
 }
 }
+)
+.
+then
+(
 (
 result
 )

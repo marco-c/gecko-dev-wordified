@@ -614,7 +614,9 @@ the
 remote
 debugger
 .
-sendMessageToJava
+Messaging
+.
+sendRequestForResult
 (
 {
 type
@@ -625,6 +627,10 @@ NativeApp
 IsDebuggable
 "
 }
+)
+.
+then
+(
 (
 response
 )
