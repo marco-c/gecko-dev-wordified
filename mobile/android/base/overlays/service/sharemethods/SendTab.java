@@ -2261,7 +2261,7 @@ R
 .
 string
 .
-sync_text_tab_not_sent
+overlay_share_tab_not_sent
 )
 ;
 }
