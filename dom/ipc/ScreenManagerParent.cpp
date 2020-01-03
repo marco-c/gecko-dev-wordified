@@ -859,6 +859,16 @@ ScreenDetails
 aDetails
 )
 {
+if
+(
+!
+aScreen
+)
+{
+return
+false
+;
+}
 uint32_t
 id
 ;
