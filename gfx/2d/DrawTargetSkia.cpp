@@ -5236,11 +5236,7 @@ adopt
 new
 SkCanvas
 (
-new
-SkBitmapDevice
-(
 bitmap
-)
 )
 )
 ;
