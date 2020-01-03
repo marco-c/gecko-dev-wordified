@@ -790,7 +790,7 @@ OnTaskQueue
 )
 {
 return
-GetTaskQueue
+TaskQueue
 (
 )
 -
@@ -2085,7 +2085,7 @@ aStartTime
 ;
 MediaTaskQueue
 *
-GetTaskQueue
+TaskQueue
 (
 )
 {

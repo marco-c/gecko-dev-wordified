@@ -1838,12 +1838,7 @@ RequestAudioData
 {
 MOZ_ASSERT
 (
-GetTaskQueue
-(
-)
--
->
-IsCurrentThreadIn
+OnTaskQueue
 (
 )
 )
@@ -1917,12 +1912,7 @@ aTimeThreshold
 {
 MOZ_ASSERT
 (
-GetTaskQueue
-(
-)
--
->
-IsCurrentThreadIn
+OnTaskQueue
 (
 )
 )
@@ -3600,7 +3590,7 @@ CreateMediaCodecs
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__

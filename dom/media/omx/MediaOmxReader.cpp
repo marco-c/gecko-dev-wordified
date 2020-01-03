@@ -1496,7 +1496,7 @@ AllocateMediaResources
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
