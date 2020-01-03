@@ -2389,13 +2389,6 @@ NS_EVENT_MESSAGE
 eOpen
 eOpenCloseEventFirst
 )
-NS_EVENT_MESSAGE
-(
-NS_CLOSE
-eOpenCloseEventFirst
-+
-1
-)
 /
 /
 Device
