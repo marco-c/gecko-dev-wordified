@@ -586,6 +586,10 @@ OverrideWithSynthesizedResponse
 nsIInputStream
 *
 aSynthesizedInput
+const
+nsACString
+&
+aContentType
 )
 ;
 nsCString
