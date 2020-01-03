@@ -217,11 +217,9 @@ MOZ_EXPORT
 MetaData
 ;
 struct
-MOZ_EXPORT
 ABuffer
 ;
 struct
-MOZ_EXPORT
 ALooper
 ;
 struct

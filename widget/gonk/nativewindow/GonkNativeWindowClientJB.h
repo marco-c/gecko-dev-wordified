@@ -235,7 +235,6 @@ GonkBufferQueue
 h
 "
 struct
-MOZ_EXPORT
 ANativeWindow_Buffer
 ;
 namespace

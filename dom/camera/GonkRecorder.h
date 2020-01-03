@@ -214,7 +214,6 @@ MOZ_EXPORT
 MediaSource
 ;
 struct
-MOZ_EXPORT
 MediaWriter
 ;
 class

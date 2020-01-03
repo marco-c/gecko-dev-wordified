@@ -157,7 +157,6 @@ namespace
 android
 {
 struct
-MOZ_EXPORT
 AMessage
 ;
 struct
