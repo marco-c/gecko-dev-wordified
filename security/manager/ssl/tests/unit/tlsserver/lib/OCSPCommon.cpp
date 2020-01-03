@@ -962,7 +962,10 @@ nextUpdate
 =
 oldNow
 +
-10
+Time
+:
+:
+ONE_DAY_IN_SECONDS
 ;
 }
 if
