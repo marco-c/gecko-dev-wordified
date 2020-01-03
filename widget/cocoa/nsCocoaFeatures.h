@@ -222,6 +222,12 @@ OnYosemiteOrLater
 ;
 static
 bool
+OnElCapitanOrLater
+(
+)
+;
+static
+bool
 AccelerateByDefault
 (
 )
