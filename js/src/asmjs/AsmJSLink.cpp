@@ -621,9 +621,10 @@ object
 ;
 if
 (
+!
 desc
 .
-hasGetterOrSetterObject
+isDataDescriptor
 (
 )
 )

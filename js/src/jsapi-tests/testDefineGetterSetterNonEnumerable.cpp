@@ -427,9 +427,10 @@ hasSetterObject
 ;
 CHECK
 (
+!
 desc
 .
-isPermanent
+configurable
 (
 )
 )
@@ -439,7 +440,7 @@ CHECK
 !
 desc
 .
-isEnumerable
+enumerable
 (
 )
 )

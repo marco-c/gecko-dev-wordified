@@ -702,7 +702,7 @@ object
 &
 desc
 .
-isEnumerable
+enumerable
 (
 )
 )
@@ -1322,7 +1322,7 @@ if
 (
 desc
 .
-hasGetterOrSetterObject
+isAccessorDescriptor
 (
 )
 )
