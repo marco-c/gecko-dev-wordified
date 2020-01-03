@@ -1305,7 +1305,7 @@ MOZ_CRASH
 ;
 }
 void
-callIonFromAsmJS
+callJitFromAsmJS
 (
 Register
 callee

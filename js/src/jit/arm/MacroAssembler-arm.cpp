@@ -12399,7 +12399,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-callIonFromAsmJS
+callJitFromAsmJS
 (
 Register
 callee
@@ -12413,7 +12413,7 @@ callee
 /
 /
 The
-Ion
+JIT
 ABI
 has
 the

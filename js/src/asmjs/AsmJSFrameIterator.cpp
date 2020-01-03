@@ -568,7 +568,7 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 :
 case
 AsmJSModule
@@ -3408,7 +3408,7 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 :
 case
 AsmJSModule
@@ -3853,7 +3853,7 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 :
 case
 AsmJSModule
@@ -4606,7 +4606,7 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 :
 case
 AsmJSModule
@@ -5146,7 +5146,7 @@ js
 const
 char
 *
-ionFFIDescription
+jitFFIDescription
 =
 "
 fast
@@ -5225,10 +5225,10 @@ case
 AsmJSExit
 :
 :
-Reason_IonFFI
+Reason_JitFFI
 :
 return
-ionFFIDescription
+jitFFIDescription
 ;
 case
 AsmJSExit
@@ -5340,10 +5340,10 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 :
 return
-ionFFIDescription
+jitFFIDescription
 ;
 case
 AsmJSModule
