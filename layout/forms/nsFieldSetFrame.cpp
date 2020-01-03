@@ -1517,7 +1517,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 clipRect
 appUnitsPerDevPixel
@@ -1599,7 +1599,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 clipRect
 appUnitsPerDevPixel
@@ -1669,7 +1669,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 clipRect
 appUnitsPerDevPixel

@@ -2075,7 +2075,7 @@ onePixel
 Rect
 devPixelRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 r
 appUnitsPerDevPixel

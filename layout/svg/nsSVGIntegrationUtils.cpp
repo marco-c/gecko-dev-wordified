@@ -4185,7 +4185,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 clipRect
 aFrame

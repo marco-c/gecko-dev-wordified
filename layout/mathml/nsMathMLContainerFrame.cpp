@@ -719,7 +719,7 @@ GetDrawTarget
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 nsRect
 (

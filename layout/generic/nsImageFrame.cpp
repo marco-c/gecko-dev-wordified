@@ -7875,7 +7875,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 inner
 PresContext

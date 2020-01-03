@@ -3642,7 +3642,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 overflowRect
 aFrame

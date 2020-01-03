@@ -2229,7 +2229,7 @@ GetDrawTarget
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 mRect
 +

@@ -3086,7 +3086,7 @@ hookRect
 Rect
 devPxCaretRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 caretRect
 +
@@ -3099,7 +3099,7 @@ drawTarget
 Rect
 devPxHookRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 hookRect
 +

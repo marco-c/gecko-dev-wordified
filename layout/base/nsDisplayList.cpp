@@ -12367,7 +12367,7 @@ GetDrawTarget
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 mVisibleRect
 appUnitsPerDevPixel
@@ -19937,7 +19937,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 rects
 [

@@ -45275,7 +45275,7 @@ aAppUnitsPerPixel
 ;
 }
 Rect
-NSRectToRect
+NSRectToSnappedRect
 (
 const
 nsRect

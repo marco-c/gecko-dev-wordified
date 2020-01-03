@@ -1468,7 +1468,7 @@ AppUnitsPerDevPixel
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 bgClipRect
 appUnitsPerDevPixel
