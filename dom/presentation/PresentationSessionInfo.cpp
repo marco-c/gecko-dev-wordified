@@ -694,6 +694,14 @@ nsresult
 aReason
 )
 {
+NS_WARN_IF
+(
+NS_FAILED
+(
+aReason
+)
+)
+;
 /
 /
 Close
@@ -1456,9 +1464,12 @@ nullptr
 ;
 if
 (
+NS_WARN_IF
+(
 !
 IsSessionReady
 (
+)
 )
 )
 {
@@ -1479,7 +1490,7 @@ callback
 return
 ReplyError
 (
-aReason
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -1954,7 +1965,7 @@ mServerSocket
 return
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2400,7 +2411,7 @@ rv
 return
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2661,7 +2672,7 @@ close
 return
 ReplyError
 (
-aReason
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2727,7 +2738,7 @@ mTransport
 return
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2836,9 +2847,12 @@ aStatus
 ;
 if
 (
+NS_WARN_IF
+(
 !
 IsSessionReady
 (
+)
 )
 )
 {
@@ -2859,7 +2873,7 @@ callback
 return
 ReplyError
 (
-aStatus
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -3789,7 +3803,7 @@ rv
 return
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -3824,7 +3838,7 @@ aDescription
 return
 ReplyError
 (
-NS_ERROR_INVALID_ARG
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -3883,7 +3897,7 @@ rv
 return
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -4054,7 +4068,7 @@ close
 return
 ReplyError
 (
-aReason
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -4157,7 +4171,7 @@ isObject
 {
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4193,7 +4207,7 @@ obj
 {
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4240,7 +4254,7 @@ frame
 {
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4272,7 +4286,7 @@ owner
 {
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4310,7 +4324,7 @@ rv
 {
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4436,7 +4450,7 @@ rv
 {
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4487,7 +4501,7 @@ rv
 {
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -4557,7 +4571,7 @@ nullptr
 }
 ReplyError
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }

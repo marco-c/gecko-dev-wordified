@@ -570,7 +570,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_DOM_NETWORK_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -612,7 +612,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_DOM_NETWORK_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -696,7 +696,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_DOM_PROP_ACCESS_DENIED
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 }
@@ -1320,7 +1320,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1356,7 +1356,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1398,7 +1398,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1492,7 +1492,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1558,11 +1558,16 @@ info
 /
 /
 TODO
+Bug
+1195605
+.
 Update
 here
 after
 session
-resumption
+join
+/
+resume
 becomes
 supported
 .
@@ -1571,7 +1576,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -1614,7 +1619,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1662,7 +1667,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
@@ -1671,7 +1676,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -1712,7 +1717,7 @@ ctrlChannel
 >
 Close
 (
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -1721,7 +1726,7 @@ info
 >
 ReplyError
 (
-rv
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2070,7 +2075,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
@@ -2116,7 +2121,7 @@ info
 >
 ReplyError
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 }
