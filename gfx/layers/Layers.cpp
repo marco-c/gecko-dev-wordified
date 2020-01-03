@@ -1339,6 +1339,12 @@ ScrollDirection
 :
 NONE
 )
+mScrollbarThumbRatio
+(
+0
+.
+0f
+)
 mIsScrollbarContainer
 (
 false

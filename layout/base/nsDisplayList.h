@@ -19850,6 +19850,12 @@ FrameMetrics
 :
 :
 NULL_SCROLL_ID
+float
+aScrollbarThumbRatio
+=
+0
+.
+0f
 )
 ;
 #
@@ -19975,6 +19981,9 @@ mFlags
 ;
 ViewID
 mScrollTarget
+;
+float
+mScrollbarThumbRatio
 ;
 }
 ;
