@@ -319,14 +319,6 @@ final
 override
 ;
 virtual
-int64_t
-GetMediaDuration
-(
-)
-final
-override
-;
-virtual
 void
 UpdateEstimatedMediaDuration
 (

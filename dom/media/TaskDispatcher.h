@@ -168,6 +168,11 @@ nsThreadUtils
 .
 h
 "
+#
+include
+<
+queue
+>
 namespace
 mozilla
 {
