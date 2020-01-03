@@ -1932,7 +1932,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-AnswerGetProfile
+RecvGetProfile
 (
 nsCString
 *

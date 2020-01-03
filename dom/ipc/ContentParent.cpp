@@ -16124,7 +16124,7 @@ result
 unused
 <
 <
-CallGetProfile
+SendGetProfile
 (
 &
 result
