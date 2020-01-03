@@ -292,7 +292,7 @@ called
 on
 the
 *
-main
+consumer
 thread
 .
 *

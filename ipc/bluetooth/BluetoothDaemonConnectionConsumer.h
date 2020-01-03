@@ -185,7 +185,7 @@ for
 socket
 success
 .
-Main
+Consumer
 -
 thread
 only
@@ -226,7 +226,7 @@ for
 socket
 errors
 .
-Main
+Consumer
 -
 thread
 only
@@ -267,7 +267,7 @@ for
 socket
 disconnect
 .
-Main
+Consumer
 -
 thread
 only

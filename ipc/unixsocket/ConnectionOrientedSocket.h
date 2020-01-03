@@ -167,7 +167,7 @@ I
 /
 O
 and
-main
+consumer
 thread
 .
 *
@@ -252,7 +252,7 @@ accepting
 a
 connection
 .
-Main
+Consumer
 -
 thread
 only

@@ -520,7 +520,7 @@ different
 than
 the
 *
-main
+consumer
 thread
 .
 *

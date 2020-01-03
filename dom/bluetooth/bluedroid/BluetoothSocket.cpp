@@ -702,20 +702,20 @@ manipulated
 *
 directly
 from
-main
+consumer
 thread
 .
 All
 non
 -
-main
+consumer
 -
 thread
 accesses
 should
+*
 happen
 with
-*
 mImpl
 as
 container
@@ -779,7 +779,7 @@ GetDataSocket
 ;
 }
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -811,7 +811,7 @@ mShuttingDownOnIOThread
 ;
 }
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -826,7 +826,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1843,7 +1843,7 @@ if
 mImpl
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1961,7 +1961,7 @@ if
 mImpl
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2495,7 +2495,7 @@ BluetoothSocket
 |
 on
 the
-main
+consumer
 thread
 .
 *
@@ -2575,7 +2575,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2797,7 +2797,7 @@ if
 mImpl
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2908,7 +2908,7 @@ if
 mImpl
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -3462,7 +3462,7 @@ MOZ_ASSERT
 mImpl
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -3589,7 +3589,7 @@ implementation
 mImpl
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

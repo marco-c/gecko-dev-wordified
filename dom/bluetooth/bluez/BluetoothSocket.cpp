@@ -429,7 +429,7 @@ GetSocketBase
 override
 ;
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -443,7 +443,7 @@ const
 override
 ;
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -484,20 +484,20 @@ manipulated
 *
 directly
 from
-main
+consumer
 thread
 .
 All
 non
 -
-main
+consumer
 -
 thread
 accesses
 should
+*
 happen
 with
-*
 mIO
 as
 container
@@ -605,7 +605,8 @@ only
 be
 access
 on
-main
+consumer
+*
 thread
 .
 *
@@ -717,7 +718,7 @@ IsConsumerThread
 ;
 MOZ_ASSERT
 (
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1773,7 +1774,7 @@ Close
 /
 Tell
 the
-main
+consumer
 thread
 we
 '
@@ -1878,7 +1879,7 @@ BluetoothSocket
 |
 on
 the
-main
+consumer
 thread
 .
 *
@@ -1961,7 +1962,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2114,7 +2115,7 @@ BluetoothSocket
 BluetoothSocketIO
 :
 :
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -2140,7 +2141,7 @@ BluetoothSocket
 BluetoothSocketIO
 :
 :
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 {
@@ -2154,7 +2155,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2446,7 +2447,7 @@ if
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -3213,7 +3214,7 @@ MOZ_ASSERT
 mIO
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -3320,7 +3321,7 @@ implementation
 mIO
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

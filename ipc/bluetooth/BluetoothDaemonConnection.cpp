@@ -1293,7 +1293,7 @@ GetSocketBase
 override
 ;
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -1307,7 +1307,7 @@ const
 override
 ;
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -1677,7 +1677,7 @@ Close
 /
 Tell
 the
-main
+consumer
 thread
 we
 '
@@ -1939,7 +1939,7 @@ bool
 BluetoothDaemonConnectionIO
 :
 :
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -1975,7 +1975,7 @@ void
 BluetoothDaemonConnectionIO
 :
 :
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 {
@@ -1989,7 +1989,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2307,7 +2307,7 @@ IsConsumerThread
 mIO
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

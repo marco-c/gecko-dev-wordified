@@ -424,7 +424,7 @@ GetSocketBase
 override
 ;
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -438,7 +438,7 @@ const
 override
 ;
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -476,20 +476,20 @@ manipulated
 *
 directly
 from
-main
+consumer
 thread
 .
 All
 non
 -
-main
+consumer
 -
 thread
 accesses
 should
+*
 happen
 with
-*
 mIO
 as
 container
@@ -597,7 +597,8 @@ only
 be
 access
 on
-main
+consumer
+*
 thread
 .
 *
@@ -768,7 +769,7 @@ IsConsumerThread
 ;
 MOZ_ASSERT
 (
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1399,7 +1400,7 @@ Close
 /
 Tell
 the
-main
+consumer
 thread
 we
 '
@@ -1617,7 +1618,7 @@ StreamSocket
 |
 on
 the
-main
+consumer
 thread
 .
 *
@@ -1697,7 +1698,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1838,7 +1839,7 @@ bool
 StreamSocketIO
 :
 :
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -1874,7 +1875,7 @@ void
 StreamSocketIO
 :
 :
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 {
@@ -1888,7 +1889,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2090,7 +2091,7 @@ if
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2470,7 +2471,7 @@ MOZ_ASSERT
 mIO
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -2578,7 +2579,7 @@ object
 mIO
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

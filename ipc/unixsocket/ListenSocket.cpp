@@ -314,7 +314,7 @@ GetSocketBase
 override
 ;
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -328,7 +328,7 @@ const
 override
 ;
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -366,20 +366,20 @@ manipulated
 *
 directly
 from
-main
+consumer
 thread
 .
 All
 non
 -
-main
+consumer
 -
 thread
 accesses
 should
+*
 happen
 with
-*
 mIO
 as
 container
@@ -553,7 +553,7 @@ IsConsumerThread
 ;
 MOZ_ASSERT
 (
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -909,7 +909,7 @@ Close
 /
 Tell
 the
-main
+consumer
 thread
 we
 '
@@ -1082,7 +1082,7 @@ bool
 ListenSocketIO
 :
 :
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -1118,7 +1118,7 @@ void
 ListenSocketIO
 :
 :
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 {
@@ -1132,7 +1132,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1727,7 +1727,7 @@ implementation
 mIO
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

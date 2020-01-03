@@ -1145,7 +1145,7 @@ be
 called
 *
 from
-main
+consumer
 thread
 .
 *
@@ -1183,7 +1183,7 @@ Will
 be
 run
 on
-main
+consumer
 thread
 before
 any
@@ -1217,7 +1217,7 @@ Will
 be
 run
 on
-main
+consumer
 thread
 .
 *
@@ -1243,7 +1243,7 @@ Will
 be
 run
 on
-main
+consumer
 thread
 .
 *
@@ -1541,7 +1541,7 @@ otherwise
 /
 virtual
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -1603,7 +1603,7 @@ down
 /
 virtual
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 =
@@ -1715,7 +1715,7 @@ O
 thread
 to
 the
-main
+consumer
 thread
 .
 *
@@ -1800,7 +1800,7 @@ thread
 back
 to
 the
-main
+consumer
 thread
 .
 *
@@ -1864,7 +1864,7 @@ SocketBase
 *
 to
 the
-main
+consumer
 thread
 .
 *
@@ -1908,7 +1908,7 @@ an
 object
 on
 the
-main
+consumer
 thread
 .
 *
@@ -2097,7 +2097,7 @@ sends
 it
 to
 the
-main
+consumer
 thread
 for
 destruction

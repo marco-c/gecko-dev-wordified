@@ -1293,7 +1293,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1463,7 +1463,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1693,12 +1693,12 @@ a
 message
 to
 the
-main
+consumer
 thread
 to
+/
+/
 delete
-/
-/
 |
 io
 |
