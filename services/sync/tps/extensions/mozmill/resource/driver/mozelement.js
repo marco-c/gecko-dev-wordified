@@ -4130,6 +4130,10 @@ touchend
 |
 touchmove
 |
+touchenter
+|
+touchleave
+|
 touchcancel
 ]
 *
