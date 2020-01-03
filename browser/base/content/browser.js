@@ -25819,13 +25819,15 @@ URI
 spec
 ;
 let
-uriCopy
+entryURI
 =
 BrowserUtils
 .
-makeURI
+makeURIFromCPOW
 (
-uri
+entry
+.
+URI
 )
 ;
 item
@@ -25877,7 +25879,7 @@ favicons
 .
 getFaviconURLForPage
 (
-uriCopy
+entryURI
 function
 (
 aURI
