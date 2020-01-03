@@ -859,6 +859,9 @@ cx
 void
 FinishOffThreadBuilder
 (
+JSContext
+*
+cx
 IonBuilder
 *
 builder
@@ -870,6 +873,15 @@ StopAllOffThreadCompilations
 JSCompartment
 *
 comp
+)
+;
+uint8_t
+*
+LazyLinkTopActivation
+(
+JSContext
+*
+cx
 )
 ;
 static

@@ -250,6 +250,9 @@ inline
 void
 SetIonScript
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -273,6 +276,7 @@ script
 >
 setIonScript
 (
+cx
 ionScript
 )
 ;
