@@ -2939,12 +2939,6 @@ static
 int
 sTrimOnMinimize
 ;
-static
-const
-char
-*
-sDefaultMainWindowClass
-;
 /
 /
 Always
