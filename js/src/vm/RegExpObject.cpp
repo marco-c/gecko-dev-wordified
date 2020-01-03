@@ -4992,7 +4992,10 @@ cx
 NewDenseUnallocatedArray
 (
 cx
-0
+RegExpObject
+:
+:
+MaxPairCount
 nullptr
 TenuredObject
 )
