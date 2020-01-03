@@ -20738,6 +20738,12 @@ ComputeFrameMetrics
 (
 mScrolledFrame
 mOuter
+mOuter
+-
+>
+GetContent
+(
+)
 aContainerReferenceFrame
 aLayer
 mScrollParentID
