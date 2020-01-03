@@ -19446,14 +19446,12 @@ soft
 start
 .
 loop
--
-dev
 .
-stage
+services
 .
-mozaws
+mozilla
 .
-net
+com
 "
 )
 ;
