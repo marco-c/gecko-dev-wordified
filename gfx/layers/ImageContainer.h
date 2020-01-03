@@ -1906,11 +1906,11 @@ SYNCHRONOUS
 )
 ;
 typedef
-int32_t
+uint32_t
 FrameID
 ;
 typedef
-int32_t
+uint32_t
 ProducerID
 ;
 /
