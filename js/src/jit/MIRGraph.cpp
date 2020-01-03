@@ -2347,7 +2347,9 @@ the
 inherited
 block
 .
-callerResumePoint_
+MResumePoint
+*
+callerResumePoint
 =
 pred
 ?
@@ -2384,6 +2386,7 @@ this
 pc
 (
 )
+callerResumePoint
 MResumePoint
 :
 :
@@ -2863,15 +2866,6 @@ pred
 nullptr
 )
 ;
-callerResumePoint_
-=
-pred
--
->
-callerResumePoint
-(
-)
-;
 if
 (
 !
@@ -2959,6 +2953,9 @@ New
 alloc
 this
 pc
+(
+)
+callerResumePoint
 (
 )
 MResumePoint
