@@ -4304,7 +4304,7 @@ TabParent
 Show
 (
 const
-nsIntSize
+ScreenIntSize
 &
 size
 bool
@@ -4789,7 +4789,7 @@ nsIntRect
 &
 rect
 const
-nsIntSize
+ScreenIntSize
 &
 size
 const

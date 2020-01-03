@@ -1470,7 +1470,7 @@ void
 Show
 (
 const
-nsIntSize
+ScreenIntSize
 &
 size
 bool
@@ -1485,7 +1485,7 @@ nsIntRect
 &
 rect
 const
-nsIntSize
+ScreenIntSize
 &
 size
 const
@@ -2493,7 +2493,7 @@ mEventCaptureDepth
 nsIntRect
 mRect
 ;
-nsIntSize
+ScreenIntSize
 mDimensions
 ;
 ScreenOrientation

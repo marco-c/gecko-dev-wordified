@@ -2104,7 +2104,7 @@ mRemoteBrowserShown
 |
 ShowRemoteFrame
 (
-nsIntSize
+ScreenIntSize
 (
 0
 0
@@ -4490,7 +4490,7 @@ true
 ;
 }
 }
-nsIntSize
+ScreenIntSize
 size
 =
 frame
@@ -5103,7 +5103,7 @@ nsFrameLoader
 ShowRemoteFrame
 (
 const
-nsIntSize
+ScreenIntSize
 &
 size
 nsSubDocumentFrame
@@ -11791,7 +11791,7 @@ if
 mRemoteBrowser
 )
 {
-nsIntSize
+ScreenIntSize
 size
 =
 aIFrame
@@ -11942,7 +11942,7 @@ us
 return
 ;
 }
-nsIntSize
+ScreenIntSize
 size
 =
 aIFrame
@@ -14371,7 +14371,7 @@ ChildID
 ;
 ShowRemoteFrame
 (
-nsIntSize
+ScreenIntSize
 (
 0
 0
