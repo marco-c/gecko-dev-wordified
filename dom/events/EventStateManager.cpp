@@ -24084,7 +24084,7 @@ DispatchMouseOrPointerEvent
 aMouseEvent
 isPointer
 ?
-NS_POINTER_OUT
+ePointerOut
 :
 eMouseOut
 wrapper

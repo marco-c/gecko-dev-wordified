@@ -3456,7 +3456,7 @@ pointerout
 {
 msg
 =
-NS_POINTER_OUT
+ePointerOut
 ;
 }
 else
