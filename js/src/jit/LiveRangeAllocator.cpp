@@ -277,7 +277,17 @@ buf
 ;
 int
 n
+=
+-
+1
 ;
+/
+/
+initialize
+to
+silence
+GCC
+warning
 switch
 (
 kind

@@ -1375,7 +1375,16 @@ newChars
 ;
 uint32_t
 newLength
+=
+0
 ;
+/
+/
+initialize
+to
+silence
+GCC
+warning
 if
 (
 str

@@ -1164,7 +1164,16 @@ ptr
 LAsmJSStoreHeap
 *
 lir
+=
+nullptr
 ;
+/
+/
+initialize
+to
+silence
+GCC
+warning
 switch
 (
 ins
