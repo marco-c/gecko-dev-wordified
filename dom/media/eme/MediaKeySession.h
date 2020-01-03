@@ -208,6 +208,15 @@ include
 "
 mozilla
 /
+DetailedPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MediaKeySessionBinding
