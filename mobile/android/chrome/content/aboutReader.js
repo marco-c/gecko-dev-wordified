@@ -2053,8 +2053,6 @@ zoomToRect
 newRect
 -
 1
-false
-false
 )
 ;
 }
