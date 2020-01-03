@@ -21693,6 +21693,10 @@ MOZ_COUNT_CTOR
 nsDisplayWrapList
 )
 ;
+mBaseVisibleRect
+=
+mVisibleRect
+;
 mList
 .
 AppendToTop
@@ -22069,6 +22073,10 @@ MOZ_COUNT_CTOR
 (
 nsDisplayWrapList
 )
+;
+mBaseVisibleRect
+=
+mVisibleRect
 ;
 mList
 .
