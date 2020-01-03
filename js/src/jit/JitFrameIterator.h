@@ -1655,6 +1655,13 @@ NoGC_UndefinedValue
 NoGC_MagicOptimizedOut
 }
 ;
+enum
+FallbackConsequence
+{
+Fallback_Invalidate
+Fallback_DoNothing
+}
+;
 JSContext
 *
 maybeCx
@@ -1670,6 +1677,10 @@ frame
 const
 NoGCValue
 unreadablePlaceholder_
+;
+const
+FallbackConsequence
+consequence
 ;
 MaybeReadFallback
 (
@@ -1702,6 +1713,10 @@ noGCPlaceholder
 placeholder
 )
 )
+consequence
+(
+Fallback_Invalidate
+)
 {
 }
 MaybeReadFallback
@@ -1715,6 +1730,10 @@ activation
 JitFrameIterator
 *
 frame
+FallbackConsequence
+consequence
+=
+Fallback_Invalidate
 )
 :
 maybeCx
@@ -1732,6 +1751,10 @@ frame
 unreadablePlaceholder_
 (
 NoGC_UndefinedValue
+)
+consequence
+(
+consequence
 )
 {
 }
