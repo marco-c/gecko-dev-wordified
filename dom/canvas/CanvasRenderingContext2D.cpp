@@ -11896,6 +11896,10 @@ GetMetricsFor
 (
 mFont
 mFontLanguage
+gfxFont
+:
+:
+eHorizontal
 nullptr
 tp
 *

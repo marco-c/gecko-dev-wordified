@@ -63925,6 +63925,10 @@ StyleFont
 -
 >
 mLanguage
+gfxFont
+:
+:
+eHorizontal
 aPresContext
 -
 >

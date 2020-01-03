@@ -4423,6 +4423,10 @@ mPD
 >
 mHeadFootFont
 nullptr
+gfxFont
+:
+:
+eHorizontal
 pc
 -
 >

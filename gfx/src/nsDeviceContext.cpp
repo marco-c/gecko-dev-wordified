@@ -545,6 +545,11 @@ aFont
 nsIAtom
 *
 aLanguage
+gfxFont
+:
+:
+Orientation
+aOrientation
 gfxUserFontSet
 *
 aUserFontSet
@@ -857,6 +862,11 @@ aFont
 nsIAtom
 *
 aLanguage
+gfxFont
+:
+:
+Orientation
+aOrientation
 gfxUserFontSet
 *
 aUserFontSet
@@ -976,6 +986,17 @@ Language
 =
 =
 aLanguage
+&
+&
+fm
+-
+>
+Orientation
+(
+)
+=
+=
+aOrientation
 )
 {
 if
@@ -1075,6 +1096,7 @@ Init
 (
 aFont
 aLanguage
+aOrientation
 mContext
 aUserFontSet
 aTextPerf
@@ -1215,6 +1237,7 @@ Init
 (
 aFont
 aLanguage
+aOrientation
 mContext
 aUserFontSet
 aTextPerf
@@ -1767,6 +1790,11 @@ aFont
 nsIAtom
 *
 aLanguage
+gfxFont
+:
+:
+Orientation
+aOrientation
 gfxUserFontSet
 *
 aUserFontSet
@@ -1814,6 +1842,7 @@ GetMetricsFor
 (
 aFont
 aLanguage
+aOrientation
 aUserFontSet
 aTextPerf
 aMetrics

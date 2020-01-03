@@ -4143,6 +4143,10 @@ StyleFont
 -
 >
 mLanguage
+gfxFont
+:
+:
+eHorizontal
 pc
 -
 >
