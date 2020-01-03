@@ -213,7 +213,10 @@ FFmpegH264Decoder
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

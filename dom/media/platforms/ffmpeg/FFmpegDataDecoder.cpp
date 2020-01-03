@@ -398,7 +398,7 @@ LIBAV_VER
 >
 :
 :
-Init
+InitDecoder
 (
 )
 {

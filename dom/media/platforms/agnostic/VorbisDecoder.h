@@ -184,7 +184,10 @@ VorbisDataDecoder
 (
 )
 ;
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

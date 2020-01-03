@@ -172,7 +172,10 @@ AppleVTDecoder
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

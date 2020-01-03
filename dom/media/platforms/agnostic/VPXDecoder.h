@@ -203,7 +203,10 @@ VPXDecoder
 (
 )
 ;
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

@@ -365,7 +365,10 @@ aCallback
 {
 }
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )
