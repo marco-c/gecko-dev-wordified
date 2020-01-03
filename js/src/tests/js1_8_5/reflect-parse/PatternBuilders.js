@@ -1043,10 +1043,10 @@ type
 "
 ClassStatement
 "
-id
+name
 :
 id
-superClass
+heritage
 :
 heritage
 body
@@ -1073,10 +1073,10 @@ type
 "
 ClassExpression
 "
-id
+name
 :
 id
-superClass
+heritage
 :
 heritage
 body
