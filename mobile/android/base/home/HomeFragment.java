@@ -482,6 +482,7 @@ OnUrlOpenListener
 .
 *
 /
+public
 abstract
 class
 HomeFragment
