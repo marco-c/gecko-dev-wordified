@@ -159,7 +159,11 @@ h
 #
 include
 "
-JavaScriptParent
+mozilla
+/
+jsipc
+/
+CrossProcessObjectWrappers
 .
 h
 "
