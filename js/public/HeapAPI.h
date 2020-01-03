@@ -668,7 +668,9 @@ DefaultNurseryBytes
 =
 16
 *
-ChunkSize
+1024
+*
+1024
 ;
 /
 *
