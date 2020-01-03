@@ -1591,7 +1591,7 @@ AnimationPlayerCollection
 *
 collection
 =
-GetElementTransitions
+GetAnimationPlayers
 (
 aElement
 pseudoType
@@ -4543,7 +4543,7 @@ aElementTransitions
 {
 aElementTransitions
 =
-GetElementTransitions
+GetAnimationPlayers
 (
 aElement
 aNewStyleContext
@@ -4783,7 +4783,7 @@ AnimationPlayerCollection
 nsTransitionManager
 :
 :
-GetElementTransitions
+GetAnimationPlayers
 (
 dom
 :
@@ -5071,7 +5071,7 @@ AnimationPlayerCollection
 *
 collection
 =
-GetElementTransitions
+GetAnimationPlayers
 (
 aElement
 aPseudoType
