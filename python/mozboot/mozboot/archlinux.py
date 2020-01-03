@@ -160,6 +160,10 @@ gtk2
 '
         
 '
+gtk3
+'
+        
+'
 hicolor
 -
 icon

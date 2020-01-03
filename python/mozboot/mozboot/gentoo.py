@@ -159,6 +159,26 @@ firefox
 '
 ]
 )
+        
+self
+.
+run_as_root
+(
+[
+'
+emerge
+'
+'
+-
+-
+quiet
+'
+'
+gtk
++
+'
+]
+)
     
 def
 _update_package_manager
