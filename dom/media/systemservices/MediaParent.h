@@ -236,6 +236,10 @@ const
 bool
 &
 aPrivateBrowsing
+const
+bool
+&
+aPersist
 )
 =
 0
@@ -329,6 +333,10 @@ const
 bool
 &
 aPrivateBrowsing
+const
+bool
+&
+aPersist
 )
 override
 ;
