@@ -930,6 +930,14 @@ dom
 performance
 .
 enable_user_timing_logging
+WORKERPREF_PUSH
+/
+/
+dom
+.
+push
+.
+enabled
 WORKERPREF_COUNT
 }
 ;
