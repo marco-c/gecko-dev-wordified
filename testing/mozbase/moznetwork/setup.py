@@ -62,7 +62,7 @@ PACKAGE_VERSION
 '
 0
 .
-25
+26
 '
 deps
 =
@@ -70,6 +70,16 @@ deps
 '
 mozinfo
 '
+        
+'
+mozlog
+>
+=
+2
+.
+11
+'
+        
 ]
 setup
 (
