@@ -2138,7 +2138,7 @@ timeCompensation
 {
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )
@@ -2657,7 +2657,7 @@ scroll
 .
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )
