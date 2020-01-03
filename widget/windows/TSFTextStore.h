@@ -3449,6 +3449,16 @@ mInitialized
 true
 ;
 }
+void
+OnLayoutChanged
+(
+)
+{
+mMinTextModifiedOffset
+=
+NOT_MODIFIED
+;
+}
 const
 nsDependentSubstring
 GetSelectedText
