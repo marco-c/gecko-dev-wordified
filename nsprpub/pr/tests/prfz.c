@@ -128,6 +128,9 @@ unsigned_small
 =
 266
 ;
+#
+ifdef
+XP_UNIX
 ssize_t
 signed_small_p
 =
@@ -139,6 +142,8 @@ signed_small_n
 -
 1
 ;
+#
+endif
 size_t
 unsigned_max
 =
@@ -149,11 +154,16 @@ unsigned_min
 =
 0
 ;
+#
+ifdef
+XP_UNIX
 ssize_t
 signed_max
 =
 SSIZE_MAX
 ;
+#
+endif
 printf
 (
 "
@@ -231,6 +241,9 @@ n
 "
 )
 ;
+#
+ifdef
+XP_UNIX
 printf
 (
 "
@@ -388,6 +401,8 @@ n
 "
 )
 ;
+#
+endif
 printf
 (
 "
@@ -541,6 +556,9 @@ n
 "
 )
 ;
+#
+ifdef
+XP_UNIX
 printf
 (
 "
@@ -631,6 +649,8 @@ n
 "
 )
 ;
+#
+endif
 return
 0
 ;
