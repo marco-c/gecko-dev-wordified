@@ -363,7 +363,7 @@ APZPaintLogHelper
 class
 OverscrollHandoffChain
 ;
-class
+struct
 OverscrollHandoffState
 ;
 class
