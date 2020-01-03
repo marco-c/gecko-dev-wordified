@@ -663,17 +663,12 @@ GMP
 Thread
 only
 .
-#
-ifndef
-MOZ_WIDGET_GONK
 nsCOMPtr
 <
 nsIFile
 >
 mStorageBaseDir
 ;
-#
-endif
 /
 /
 Hashes
