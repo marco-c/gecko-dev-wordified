@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 TestRunner
 .
 logEnabled
@@ -117,9 +122,8 @@ Helper
 function
 *
 /
-parseQueryString
-=
 function
+parseQueryString
 (
 encodedString
 useArrays
@@ -141,6 +145,13 @@ var
 qstr
 =
 (
+encodedString
+.
+length
+>
+0
+&
+&
 encodedString
 [
 0

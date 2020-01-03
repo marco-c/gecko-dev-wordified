@@ -60,6 +60,11 @@ for
 LoggerInit
 *
 /
+"
+use
+strict
+"
+;
 function
 getElement
 (
@@ -1814,6 +1819,12 @@ message
 expected
 |
 |
+(
+message
+.
+level
+&
+&
 message
 .
 level
@@ -1823,6 +1834,7 @@ level
 "
 ERROR
 "
+)
 )
 {
 TestRunner
