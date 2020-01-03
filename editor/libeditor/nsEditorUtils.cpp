@@ -871,6 +871,7 @@ nsDOMIterator
 :
 AppendList
 (
+const
 nsBoolDomIterFunctor
 &
 functor
@@ -950,6 +951,7 @@ nsDOMIterator
 :
 AppendList
 (
+const
 nsBoolDomIterFunctor
 &
 functor
