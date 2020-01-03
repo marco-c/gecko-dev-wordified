@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 cache
@@ -278,7 +287,9 @@ FetchPut
 aFetchPut
 RequestId
 aRequestId
-nsresult
+const
+ErrorResult
+&
 aRv
 )
 =
@@ -563,7 +574,7 @@ mStateList
 uint32_t
 mPendingCount
 ;
-nsresult
+ErrorResult
 mResult
 ;
 nsCOMPtr
