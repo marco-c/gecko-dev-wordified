@@ -1699,7 +1699,7 @@ d
 ;
 res
 .
-setDouble
+setNumber
 (
 result
 )
