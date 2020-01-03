@@ -2353,7 +2353,7 @@ ePrintEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_AFTERPRINT
+eAfterPrint
 ePrintEventFirst
 +
 1
