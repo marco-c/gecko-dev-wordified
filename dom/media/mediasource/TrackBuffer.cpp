@@ -1077,11 +1077,16 @@ aTimestampOffset
 mDecoderPerSegment
 |
 |
+(
+mCurrentDecoder
+&
+&
 mCurrentDecoder
 -
 >
 WasTrimmed
 (
+)
 )
 )
 )
