@@ -7775,13 +7775,6 @@ non
 incremental
 GC
 .
-friend
-class
-js
-:
-:
-GCMarker
-;
 enum
 class
 GrayBufferState
