@@ -364,6 +364,9 @@ class
 OverscrollHandoffChain
 ;
 class
+OverscrollHandoffState
+;
+class
 LayerMetricsWrapper
 ;
 /
@@ -2847,12 +2850,9 @@ ScreenPoint
 aStartPoint
 ScreenPoint
 aEndPoint
-const
-OverscrollHandoffChain
+OverscrollHandoffState
 &
-aOverscrollHandoffChain
-uint32_t
-aOverscrollHandoffChainIndex
+aOverscrollHandoffState
 )
 ;
 /

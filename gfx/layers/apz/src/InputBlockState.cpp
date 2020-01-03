@@ -147,7 +147,7 @@ gfxPrefs
 #
 include
 "
-OverscrollHandoffChain
+OverscrollHandoffState
 .
 h
 "
