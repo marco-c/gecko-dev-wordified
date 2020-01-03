@@ -3836,12 +3836,12 @@ hidden
 {
 version
 }
-)
 =
 yield
 get_tooltip_info
 (
 item
+)
 )
 ;
 Assert
