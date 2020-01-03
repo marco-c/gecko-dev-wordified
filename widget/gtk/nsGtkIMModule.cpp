@@ -7166,9 +7166,6 @@ targetOffset
 =
 compositionChangeEvent
 .
-mRanges
--
->
 TargetClauseOffset
 (
 )
@@ -7225,9 +7222,6 @@ mLength
 =
 compositionChangeEvent
 .
-mRanges
--
->
 TargetClauseLength
 (
 )
