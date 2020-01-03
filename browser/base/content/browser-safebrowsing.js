@@ -83,9 +83,7 @@ documentURI
 var
 uri
 =
-getBrowser
-(
-)
+gBrowser
 .
 currentURI
 ;
