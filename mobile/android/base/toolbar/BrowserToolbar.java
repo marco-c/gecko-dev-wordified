@@ -3110,6 +3110,17 @@ progress
 ;
 progressBar
 .
+setPrivateMode
+(
+selectedTab
+.
+isPrivate
+(
+)
+)
+;
+progressBar
+.
 setVisibility
 (
 View
