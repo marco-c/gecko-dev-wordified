@@ -534,17 +534,6 @@ h
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-/
-/
-for
-TiledLayerComposer
-#
-include
-"
 HeapCopyOfStackArray
 .
 h

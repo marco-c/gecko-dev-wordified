@@ -400,7 +400,7 @@ class
 ThebesBufferData
 ;
 class
-TiledLayerComposer
+TiledContentHost
 ;
 class
 CompositableParentManager
@@ -911,9 +911,9 @@ aLayer
 ;
 }
 virtual
-TiledLayerComposer
+TiledContentHost
 *
-AsTiledLayerComposer
+AsTiledContentHost
 (
 )
 {

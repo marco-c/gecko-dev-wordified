@@ -456,9 +456,6 @@ class
 PaintedLayerComposite
 ;
 class
-TiledLayerComposer
-;
-class
 TextRenderer
 ;
 class
@@ -2233,17 +2230,6 @@ CleanupResources
 =
 0
 ;
-virtual
-TiledLayerComposer
-*
-GetTiledLayerComposer
-(
-)
-{
-return
-nullptr
-;
-}
 virtual
 void
 DestroyFrontBuffer
