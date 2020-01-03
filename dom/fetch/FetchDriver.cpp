@@ -3505,6 +3505,17 @@ MOZ_ASSERT
 aResponse
 )
 ;
+if
+(
+!
+aResponse
+-
+>
+FinalURL
+(
+)
+)
+{
 nsAutoCString
 reqURL
 ;
@@ -3524,6 +3535,7 @@ SetUrl
 reqURL
 )
 ;
+}
 /
 /
 FIXME
