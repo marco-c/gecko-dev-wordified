@@ -993,9 +993,8 @@ default
 :
 Assert
 .
-isTrue
+fail
 (
-false
 "
 Unknown
 share
