@@ -1299,7 +1299,10 @@ void
 )
 JS_TraceShapeCycleCollectorChildren
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 JS
@@ -1318,7 +1321,7 @@ isShape
 )
 )
 ;
-MarkCycleCollectorChildren
+TraceCycleCollectorChildren
 (
 trc
 static_cast
@@ -1342,7 +1345,10 @@ void
 )
 JS_TraceObjectGroupCycleCollectorChildren
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 JS
@@ -1361,7 +1367,7 @@ isObjectGroup
 )
 )
 ;
-MarkCycleCollectorChildren
+TraceCycleCollectorChildren
 (
 trc
 static_cast

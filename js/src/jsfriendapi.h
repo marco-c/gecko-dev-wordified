@@ -680,7 +680,10 @@ void
 )
 JS_TraceShapeCycleCollectorChildren
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 JS
@@ -697,7 +700,10 @@ void
 )
 JS_TraceObjectGroupCycleCollectorChildren
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 JS
