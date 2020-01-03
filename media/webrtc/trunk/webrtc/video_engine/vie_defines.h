@@ -291,6 +291,13 @@ kViECaptureDefaultFramerate
 ;
 enum
 {
+kViEScreenCaptureDefaultFramerate
+=
+3
+}
+;
+enum
+{
 kViECaptureMaxSnapshotWaitTimeMs
 =
 500
