@@ -1305,7 +1305,7 @@ min
 (
 pageRectRight
 -
-getWidthWithoutMargins
+getWidth
 (
 )
 Math
@@ -1332,7 +1332,7 @@ viewportRectTop
 dy
 pageRectBottom
 -
-getHeightWithoutMargins
+getHeight
 (
 )
 )
@@ -1357,7 +1357,7 @@ viewportRectLeft
 dx
 pageRectRight
 -
-getWidthWithoutMargins
+getWidth
 (
 )
 )
@@ -1376,7 +1376,7 @@ viewportRectTop
 dy
 pageRectBottom
 -
-getHeightWithoutMargins
+getHeight
 (
 )
 )
