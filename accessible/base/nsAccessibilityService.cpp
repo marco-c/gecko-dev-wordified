@@ -11345,7 +11345,7 @@ ePluginType
 {
 nsPluginFrame
 *
-objectFrame
+pluginFrame
 =
 do_QueryFrame
 (
@@ -11356,7 +11356,7 @@ newAcc
 =
 CreatePluginAccessible
 (
-objectFrame
+pluginFrame
 aContent
 aContext
 )

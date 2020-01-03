@@ -1301,7 +1301,7 @@ beginning
 gfxSize
 resolution
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -1753,7 +1753,7 @@ mPluginWindow
 =
 nullptr
 ;
-mObjectFrame
+mPluginFrame
 =
 nullptr
 ;
@@ -1944,7 +1944,7 @@ event
 )
 ;
 }
-mObjectFrame
+mPluginFrame
 =
 nullptr
 ;
@@ -2776,7 +2776,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-mObjectFrame
+mPluginFrame
 )
 {
 return
@@ -2789,7 +2789,7 @@ nsIDocShellTreeItem
 >
 docShellItem
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -3012,7 +3012,7 @@ mWaitingForPaint
 &
 (
 !
-mObjectFrame
+mPluginFrame
 |
 |
 IsUpToDate
@@ -3080,7 +3080,7 @@ false
 if
 (
 !
-mObjectFrame
+mPluginFrame
 |
 |
 !
@@ -3331,7 +3331,7 @@ ScaleRoundOut
 scaleFactor
 )
 ;
-mObjectFrame
+mPluginFrame
 -
 >
 InvalidateLayer
@@ -3372,10 +3372,10 @@ RedrawPlugin
 {
 if
 (
-mObjectFrame
+mPluginFrame
 )
 {
-mObjectFrame
+mPluginFrame
 -
 >
 InvalidateLayer
@@ -3405,7 +3405,7 @@ value
 if
 (
 !
-mObjectFrame
+mPluginFrame
 )
 {
 NS_WARNING
@@ -3452,7 +3452,7 @@ nsViewManager
 *
 vm
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -3882,7 +3882,7 @@ nsIWidget
 *
 win
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetNearestWidget
@@ -4113,7 +4113,7 @@ nsIWidget
 *
 win
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetNearestWidget
@@ -6451,7 +6451,7 @@ page
 nsRect
 bounds
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -6460,7 +6460,7 @@ GetContentRectRelativeToSelf
 +
 GetOffsetRootContent
 (
-mObjectFrame
+mPluginFrame
 )
 ;
 LayoutDeviceIntRect
@@ -6472,7 +6472,7 @@ LayoutDeviceIntRect
 FromAppUnitsToNearest
 (
 bounds
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -7699,7 +7699,7 @@ key
 events
 if
 (
-mObjectFrame
+mPluginFrame
 &
 &
 mPluginWindow
@@ -8570,7 +8570,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 /
 /
@@ -8703,10 +8703,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mObjectFrame
+mPluginFrame
 )
 -
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -8721,7 +8721,7 @@ nsPresContext
 *
 presContext
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -8855,7 +8855,7 @@ nsFrameSelection
 >
 frameselection
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetFrameSelection
@@ -8882,7 +8882,7 @@ GetCapturingContent
 )
 =
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetContent
@@ -9063,7 +9063,7 @@ GetCapturingContent
 )
 !
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetContent
@@ -9823,10 +9823,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mObjectFrame
+mPluginFrame
 )
 -
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -9841,7 +9841,7 @@ nsPresContext
 *
 presContext
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -9876,7 +9876,7 @@ widgetPtPx
 =
 ptPx
 +
-mObjectFrame
+mPluginFrame
 -
 >
 GetWindowOriginInPixels
@@ -10150,7 +10150,7 @@ nsPresContext
 *
 presContext
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -10167,10 +10167,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mObjectFrame
+mPluginFrame
 )
 -
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -11249,7 +11249,7 @@ nsPresContext
 *
 presContext
 =
-mObjectFrame
+mPluginFrame
 -
 >
 PresContext
@@ -11266,10 +11266,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-mObjectFrame
+mPluginFrame
 )
 -
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -12105,7 +12105,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 return
 ;
@@ -12238,7 +12238,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 return
 ;
@@ -12374,7 +12374,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 return
 ;
@@ -12448,7 +12448,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 |
 |
 !
@@ -12856,7 +12856,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 return
 ;
@@ -15248,7 +15248,7 @@ endif
 }
 if
 (
-mObjectFrame
+mPluginFrame
 )
 {
 /
@@ -15263,7 +15263,7 @@ in
 windowless
 setup
 .
-mObjectFrame
+mPluginFrame
 -
 >
 PrepForDrawing
@@ -15553,7 +15553,7 @@ mInstance
 |
 |
 !
-mObjectFrame
+mPluginFrame
 )
 return
 nullptr
@@ -15647,7 +15647,7 @@ nsIWidget
 *
 widget
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetNearestWidget
@@ -16568,7 +16568,7 @@ NPWindowTypeDrawable
 nsIntPoint
 origin
 =
-mObjectFrame
+mPluginFrame
 -
 >
 GetWindowOriginInPixels
@@ -16934,10 +16934,10 @@ CallSetWindow
 {
 if
 (
-mObjectFrame
+mPluginFrame
 )
 {
-mObjectFrame
+mPluginFrame
 -
 >
 CallSetWindow
@@ -17142,7 +17142,7 @@ changed
 .
 if
 (
-mObjectFrame
+mPluginFrame
 =
 =
 aFrame
@@ -17170,7 +17170,7 @@ away
 .
 if
 (
-mObjectFrame
+mPluginFrame
 )
 {
 /
@@ -17189,7 +17189,7 @@ reference
 to
 us
 .
-mObjectFrame
+mPluginFrame
 -
 >
 SetInstanceOwner
@@ -17210,7 +17210,7 @@ or
 no
 frame
 )
-mObjectFrame
+mPluginFrame
 =
 aFrame
 ;
@@ -17223,10 +17223,10 @@ new
 frame
 if
 (
-mObjectFrame
+mPluginFrame
 )
 {
-mObjectFrame
+mPluginFrame
 -
 >
 SetInstanceOwner
@@ -17276,7 +17276,7 @@ if
 mWidgetCreationComplete
 )
 {
-mObjectFrame
+mPluginFrame
 -
 >
 PrepForDrawing
@@ -17285,12 +17285,12 @@ mWidget
 )
 ;
 }
-mObjectFrame
+mPluginFrame
 -
 >
 FixupWindow
 (
-mObjectFrame
+mPluginFrame
 -
 >
 GetContentRectRelativeToSelf
@@ -17302,7 +17302,7 @@ Size
 )
 )
 ;
-mObjectFrame
+mPluginFrame
 -
 >
 InvalidateFrame
@@ -17367,7 +17367,7 @@ GetFrame
 )
 {
 return
-mObjectFrame
+mPluginFrame
 ;
 }
 NS_IMETHODIMP

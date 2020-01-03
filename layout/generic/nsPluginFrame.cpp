@@ -1521,7 +1521,7 @@ MakeFrameName
 NS_LITERAL_STRING
 (
 "
-ObjectFrame
+PluginFrame
 "
 )
 aResult
