@@ -635,7 +635,7 @@ BarrieredBase
 "
 )
 class
-PreBarriered
+BarrieredBase
 (
 Common
 )
