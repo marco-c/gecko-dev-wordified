@@ -3500,7 +3500,6 @@ struct
 Identity
 {
 static
-inline
 T
 apply
 (
@@ -3523,7 +3522,6 @@ struct
 Abs
 {
 static
-inline
 T
 apply
 (
@@ -3552,7 +3550,6 @@ struct
 Neg
 {
 static
-inline
 T
 apply
 (
@@ -3578,7 +3575,6 @@ struct
 Not
 {
 static
-inline
 T
 apply
 (
@@ -3602,7 +3598,6 @@ struct
 RecApprox
 {
 static
-inline
 T
 apply
 (
@@ -3627,7 +3622,6 @@ struct
 RecSqrtApprox
 {
 static
-inline
 T
 apply
 (
@@ -3655,7 +3649,6 @@ struct
 Sqrt
 {
 static
-inline
 T
 apply
 (
@@ -3686,7 +3679,6 @@ struct
 Add
 {
 static
-inline
 T
 apply
 (
@@ -3713,7 +3705,6 @@ struct
 Sub
 {
 static
-inline
 T
 apply
 (
@@ -3740,7 +3731,6 @@ struct
 Div
 {
 static
-inline
 T
 apply
 (
@@ -3767,7 +3757,6 @@ struct
 Mul
 {
 static
-inline
 T
 apply
 (
@@ -3794,7 +3783,6 @@ struct
 Minimum
 {
 static
-inline
 T
 apply
 (
@@ -3823,7 +3811,6 @@ struct
 MinNum
 {
 static
-inline
 T
 apply
 (
@@ -3868,7 +3855,6 @@ struct
 Maximum
 {
 static
-inline
 T
 apply
 (
@@ -3897,7 +3883,6 @@ struct
 MaxNum
 {
 static
-inline
 T
 apply
 (
@@ -3942,7 +3927,6 @@ struct
 LessThan
 {
 static
-inline
 int32_t
 apply
 (
@@ -3973,7 +3957,6 @@ struct
 LessThanOrEqual
 {
 static
-inline
 int32_t
 apply
 (
@@ -4005,7 +3988,6 @@ struct
 GreaterThan
 {
 static
-inline
 int32_t
 apply
 (
@@ -4036,7 +4018,6 @@ struct
 GreaterThanOrEqual
 {
 static
-inline
 int32_t
 apply
 (
@@ -4068,7 +4049,6 @@ struct
 Equal
 {
 static
-inline
 int32_t
 apply
 (
@@ -4100,7 +4080,6 @@ struct
 NotEqual
 {
 static
-inline
 int32_t
 apply
 (
@@ -4132,7 +4111,6 @@ struct
 Xor
 {
 static
-inline
 T
 apply
 (
@@ -4159,7 +4137,6 @@ struct
 And
 {
 static
-inline
 T
 apply
 (
@@ -4186,7 +4163,6 @@ struct
 Or
 {
 static
-inline
 T
 apply
 (
@@ -4213,7 +4189,6 @@ struct
 WithX
 {
 static
-inline
 T
 apply
 (
@@ -4247,7 +4222,6 @@ struct
 WithY
 {
 static
-inline
 T
 apply
 (
@@ -4281,7 +4255,6 @@ struct
 WithZ
 {
 static
-inline
 T
 apply
 (
@@ -4315,7 +4288,6 @@ struct
 WithW
 {
 static
-inline
 T
 apply
 (
@@ -4398,7 +4370,6 @@ struct
 ShiftLeft
 {
 static
-inline
 int32_t
 apply
 (
@@ -4431,7 +4402,6 @@ struct
 ShiftRightArithmetic
 {
 static
-inline
 int32_t
 apply
 (
@@ -4466,7 +4436,6 @@ struct
 ShiftRightLogical
 {
 static
-inline
 int32_t
 apply
 (
