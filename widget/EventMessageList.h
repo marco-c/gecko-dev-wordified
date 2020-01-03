@@ -590,7 +590,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POPSTATE
+ePopState
 eStreamEventFirst
 +
 5

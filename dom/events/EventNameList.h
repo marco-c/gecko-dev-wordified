@@ -1726,7 +1726,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 popstate
-NS_POPSTATE
+ePopState
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly
