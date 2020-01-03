@@ -5691,9 +5691,6 @@ bool
 strict
 )
 ;
-#
-ifdef
-DEBUG
 void
 AssertValidObjectPtr
 (
@@ -5752,8 +5749,6 @@ Value
 v
 )
 ;
-#
-endif
 void
 MarkValueFromIon
 (

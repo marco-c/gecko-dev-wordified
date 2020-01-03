@@ -1778,6 +1778,16 @@ AssertRangeV
 \
 _
 (
+AssertResultV
+)
+\
+_
+(
+AssertResultT
+)
+\
+_
+(
 LexicalCheck
 )
 \
