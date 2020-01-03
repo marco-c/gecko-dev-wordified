@@ -1498,6 +1498,14 @@ lir
 )
 ;
 bool
+visitSimdSplatX4
+(
+LSimdSplatX4
+*
+lir
+)
+;
+bool
 visitInt32x4
 (
 LInt32x4
