@@ -302,6 +302,15 @@ nsGkAtoms
 :
 controls
 )
+|
+|
+HTMLMediaElement
+:
+:
+IsInteractiveHTMLContent
+(
+aIgnoreTabindex
+)
 ;
 }
 already_AddRefed

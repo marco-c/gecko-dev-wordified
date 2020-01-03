@@ -701,6 +701,15 @@ nsGkAtoms
 :
 controls
 )
+|
+|
+HTMLMediaElement
+:
+:
+IsInteractiveHTMLContent
+(
+aIgnoreTabindex
+)
 ;
 }
 uint32_t
