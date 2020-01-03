@@ -1582,7 +1582,7 @@ multi
 -
 parented
 child
-int
+size_t
 dagSlot
 ;
 }
@@ -2183,6 +2183,7 @@ PHASE_NO_PARENT
 }
 }
 ;
+static
 ExtraPhaseInfo
 phaseExtra
 [
