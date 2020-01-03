@@ -7843,10 +7843,8 @@ this
 .
 _textInputProcessor
 .
-commitComposition
+commitCompositionWith
 (
-null
-0
 text
 ?
 text
