@@ -290,6 +290,15 @@ nsIDebug2
 isDebugBuild
 ;
 const
+SSS_STATE_FILE_NAME
+=
+"
+SiteSecurityServiceState
+.
+txt
+"
+;
+const
 SEC_ERROR_BASE
 =
 Ci
