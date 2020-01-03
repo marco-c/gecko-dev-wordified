@@ -2935,7 +2935,7 @@ React
 .
 PropTypes
 .
-object
+array
 }
 handleClick
 :
