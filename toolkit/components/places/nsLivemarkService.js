@@ -4979,10 +4979,12 @@ for
 bug
 449811
 .
+let
 localObserver
 =
 observer
 ;
+let
 localNode
 =
 node
