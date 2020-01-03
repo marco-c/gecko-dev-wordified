@@ -2943,6 +2943,14 @@ stm
 draining
 )
 {
+if
+(
+padding
+=
+=
+0
+)
+{
 stm
 -
 >
@@ -2960,6 +2968,7 @@ is_playing
 =
 false
 ;
+}
 continue
 ;
 }
