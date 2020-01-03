@@ -424,11 +424,16 @@ linux_distribution
             
 if
 distro
-=
-=
+in
+(
 '
 CentOS
 '
+'
+CentOS
+Linux
+'
+)
 :
                 
 cls
