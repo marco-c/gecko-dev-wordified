@@ -1663,6 +1663,7 @@ aValue
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 URLSearchParams
+mParent
 mObserver
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -1688,6 +1689,9 @@ URLSearchParams
 :
 URLSearchParams
 (
+nsISupports
+*
+aParent
 URLSearchParamsObserver
 *
 aObserver
@@ -1700,6 +1704,10 @@ URLParams
 (
 )
 )
+mParent
+(
+aParent
+)
 mObserver
 (
 aObserver
@@ -1711,6 +1719,9 @@ URLSearchParams
 :
 URLSearchParams
 (
+nsISupports
+*
+aParent
 const
 URLSearchParams
 &
@@ -1731,6 +1742,10 @@ get
 (
 )
 )
+)
+mParent
+(
+aParent
 )
 mObserver
 (
@@ -1822,6 +1837,11 @@ sp
 new
 URLSearchParams
 (
+aGlobal
+.
+GetAsSupports
+(
+)
 nullptr
 )
 ;
@@ -1879,6 +1899,11 @@ sp
 new
 URLSearchParams
 (
+aGlobal
+.
+GetAsSupports
+(
+)
 aInit
 )
 ;
