@@ -75,6 +75,13 @@ io
 UnsupportedEncodingException
 ;
 import
+java
+.
+util
+.
+Map
+;
+import
 org
 .
 mozilla
@@ -200,6 +207,12 @@ PasswordStretcher
 passwordStretcher
 FxAccountClient
 client
+Map
+<
+String
+String
+>
+queryParameters
 RequestDelegate
 <
 LoginResponse
@@ -214,6 +227,7 @@ super
 context
 progressDisplay
 client
+queryParameters
 delegate
 )
 ;
@@ -262,6 +276,7 @@ createAccountAndGetKeys
 (
 emailUTF8
 passwordStretcher
+queryParameters
 innerDelegate
 )
 ;

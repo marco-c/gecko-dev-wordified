@@ -1228,6 +1228,9 @@ this
 email
 passwordStretcher
 client
+getQueryParameters
+(
+)
 delegate
 )
 .
