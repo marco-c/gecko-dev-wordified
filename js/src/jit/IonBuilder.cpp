@@ -11100,12 +11100,6 @@ jsop_initelem_getter_setter
 )
 ;
 case
-JSOP_ENDINIT
-:
-return
-true
-;
-case
 JSOP_FUNCALL
 :
 return
