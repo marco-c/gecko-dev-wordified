@@ -668,7 +668,7 @@ outside
 the
 [
 32
-2048
+32768
 ]
 range
 if
@@ -680,7 +680,7 @@ aValue
 |
 aValue
 >
-2048
+32768
 |
 |
 (
