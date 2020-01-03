@@ -19228,6 +19228,14 @@ PAINT_WIDGET_LAYERS
 PAINT_TO_WINDOW
 )
 )
+&
+&
+gfxPrefs
+:
+:
+LayoutUseContainersForRootFrames
+(
+)
 )
 {
 nsRect
