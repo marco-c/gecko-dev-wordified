@@ -1045,7 +1045,7 @@ aHasEndDate
 ;
 data
 .
-startDate
+endDate
 (
 )
 =
