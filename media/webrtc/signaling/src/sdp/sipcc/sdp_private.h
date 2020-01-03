@@ -314,7 +314,7 @@ sdp_find_media_level
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 )
 ;
@@ -326,9 +326,9 @@ sdp_find_bw_line
 void
 *
 sdp_ptr
-u16
+uint16_t
 level
-u16
+uint16_t
 inst_num
 )
 ;
@@ -361,7 +361,7 @@ sdp_parse_attribute
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -1571,9 +1571,9 @@ sdp_find_attr_list
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
-u8
+uint8_t
 cap_num
 sdp_attr_t
 *
@@ -1592,13 +1592,13 @@ sdp_find_attr
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
-u8
+uint8_t
 cap_num
 sdp_attr_e
 attr_type
-u16
+uint16_t
 inst_num
 )
 ;
@@ -1610,9 +1610,9 @@ sdp_find_capability
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
-u8
+uint8_t
 cap_num
 )
 ;
@@ -1872,7 +1872,7 @@ sdp_parse_version
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -1887,7 +1887,7 @@ sdp_build_version
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -1901,7 +1901,7 @@ sdp_parse_owner
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -1916,7 +1916,7 @@ sdp_build_owner
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -1930,7 +1930,7 @@ sdp_parse_sessname
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -1945,7 +1945,7 @@ sdp_build_sessname
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -1959,7 +1959,7 @@ sdp_parse_sessinfo
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -1974,7 +1974,7 @@ sdp_build_sessinfo
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -1988,7 +1988,7 @@ sdp_parse_uri
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2003,7 +2003,7 @@ sdp_build_uri
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2017,7 +2017,7 @@ sdp_parse_email
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2032,7 +2032,7 @@ sdp_build_email
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2046,7 +2046,7 @@ sdp_parse_phonenum
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2061,7 +2061,7 @@ sdp_build_phonenum
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2075,7 +2075,7 @@ sdp_parse_connection
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2090,7 +2090,7 @@ sdp_build_connection
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2104,7 +2104,7 @@ sdp_parse_bandwidth
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2119,7 +2119,7 @@ sdp_build_bandwidth
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2133,7 +2133,7 @@ sdp_parse_timespec
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2148,7 +2148,7 @@ sdp_build_timespec
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2162,7 +2162,7 @@ sdp_parse_repeat_time
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2177,7 +2177,7 @@ sdp_build_repeat_time
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2191,7 +2191,7 @@ sdp_parse_timezone_adj
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2206,7 +2206,7 @@ sdp_build_timezone_adj
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2220,7 +2220,7 @@ sdp_parse_encryption
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2235,7 +2235,7 @@ sdp_build_encryption
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2249,7 +2249,7 @@ sdp_parse_media
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2264,7 +2264,7 @@ sdp_build_media
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2278,7 +2278,7 @@ sdp_parse_attribute
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 const
 char
@@ -2293,7 +2293,7 @@ sdp_build_attribute
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 token
 flex_string
 *
@@ -2375,7 +2375,7 @@ sdp_mca_t
 *
 sdp_alloc_mca
 (
-u32
+uint32_t
 line
 )
 ;
@@ -2428,7 +2428,7 @@ result
 )
 ;
 extern
-u32
+uint32_t
 sdp_getnextnumtok
 (
 const
@@ -2450,7 +2450,7 @@ result
 )
 ;
 extern
-u32
+uint32_t
 sdp_getnextnumtok_or_null
 (
 const
@@ -2506,7 +2506,7 @@ buf
 char
 *
 mkiVal
-u16
+uint16_t
 *
 mkiLen
 )

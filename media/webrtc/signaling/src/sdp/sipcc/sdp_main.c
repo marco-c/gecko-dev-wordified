@@ -6663,7 +6663,7 @@ sdp_p
 int
 i
 ;
-u16
+uint16_t
 num_media_levels
 ;
 /
@@ -7082,10 +7082,10 @@ size_t
 len
 )
 {
-u8
+uint8_t
 i
 ;
-u16
+uint16_t
 cur_level
 =
 SDP_SESSION_LEVEL
@@ -8793,7 +8793,7 @@ build_func
 (
 sdp_p
 (
-u16
+uint16_t
 )
 i
 fs
@@ -8922,7 +8922,7 @@ build_func
 (
 sdp_p
 (
-u16
+uint16_t
 )
 i
 fs

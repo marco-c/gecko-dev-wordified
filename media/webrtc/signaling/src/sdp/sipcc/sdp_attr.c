@@ -518,7 +518,7 @@ sdp_parse_attribute
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -529,7 +529,7 @@ ptr
 int
 i
 ;
-u8
+uint8_t
 xcpar_flag
 =
 FALSE
@@ -1256,7 +1256,7 @@ sdp_build_attribute
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -2917,19 +2917,19 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
-u32
+uint32_t
 mapword
 ;
-u32
+uint32_t
 bmap
 ;
-u8
+uint8_t
 low_val
 ;
-u8
+uint8_t
 high_val
 ;
 const
@@ -2994,37 +2994,37 @@ temp
 =
 NULL
 ;
-u16
+uint16_t
 custom_x
 =
 0
 ;
-u16
+uint16_t
 custom_y
 =
 0
 ;
-u16
+uint16_t
 custom_mpi
 =
 0
 ;
-u16
+uint16_t
 par_height
 =
 0
 ;
-u16
+uint16_t
 par_width
 =
 0
 ;
-u16
+uint16_t
 cpcf
 =
 0
 ;
-u16
+uint16_t
 iter
 =
 0
@@ -3066,7 +3066,7 @@ fmtp
 payload_num
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -3881,7 +3881,7 @@ fmtp_p
 bitrate
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -4054,7 +4054,7 @@ fmtp_p
 mode
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -4232,7 +4232,7 @@ fmtp_p
 qcif
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -4410,7 +4410,7 @@ fmtp_p
 cif
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -4589,7 +4589,7 @@ fmtp_p
 maxbr
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -4767,7 +4767,7 @@ fmtp_p
 sqcif
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -4945,7 +4945,7 @@ fmtp_p
 cif4
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5123,7 +5123,7 @@ fmtp_p
 cif16
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5318,7 +5318,7 @@ iter
 custom_x
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5332,7 +5332,7 @@ iter
 custom_y
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5346,7 +5346,7 @@ iter
 custom_mpi
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5643,7 +5643,7 @@ iter
 par_width
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5651,7 +5651,7 @@ else
 par_height
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -5891,7 +5891,7 @@ else
 cpcf
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -6110,7 +6110,7 @@ fmtp_p
 bpp
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -6289,7 +6289,7 @@ fmtp_p
 hrd
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -7123,7 +7123,7 @@ fmtp_p
 packetization_mode
 =
 (
-int16
+int16_t
 )
 strtoul_result
 ;
@@ -7302,7 +7302,7 @@ fmtp_p
 interleaving_depth
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -7441,7 +7441,7 @@ fmtp_p
 deint_buf_req
 =
 (
-u32
+uint32_t
 )
 l_val
 ;
@@ -7649,7 +7649,7 @@ fmtp_p
 max_don_diff
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -7788,7 +7788,7 @@ fmtp_p
 init_buf_time
 =
 (
-u32
+uint32_t
 )
 l_val
 ;
@@ -7996,7 +7996,7 @@ fmtp_p
 max_mbps
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -8179,7 +8179,7 @@ fmtp_p
 max_fs
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -8358,7 +8358,7 @@ fmtp_p
 max_cpb
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -8537,7 +8537,7 @@ fmtp_p
 max_dpb
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -8716,7 +8716,7 @@ fmtp_p
 max_br
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -9013,7 +9013,7 @@ fmtp_p
 deint_buf_cap
 =
 (
-u32
+uint32_t
 )
 l_val
 ;
@@ -9181,7 +9181,7 @@ fmtp_p
 max_rcmd_nalu_size
 =
 (
-u32
+uint32_t
 )
 l_val
 ;
@@ -9383,7 +9383,7 @@ fmtp_p
 parameter_add
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -9777,7 +9777,7 @@ fmtp_p
 annex_k_val
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -9956,7 +9956,7 @@ fmtp_p
 annex_n_val
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -10156,7 +10156,7 @@ fmtp_p
 annex_p_val_picture_resize
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -10174,7 +10174,7 @@ fmtp_p
 annex_p_val_warp
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -10550,7 +10550,7 @@ fmtp_p
 maxaveragebitrate
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -10723,7 +10723,7 @@ fmtp_p
 usedtx
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -10896,7 +10896,7 @@ fmtp_p
 stereo
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -11069,7 +11069,7 @@ fmtp_p
 useinbandfec
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -11383,7 +11383,7 @@ fmtp_p
 cbr
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -11566,7 +11566,7 @@ fmtp_p
 max_fr
 =
 (
-u32
+uint32_t
 )
 strtoul_result
 ;
@@ -12874,7 +12874,7 @@ tmp
 low_val
 =
 (
-u8
+uint8_t
 )
 sdp_getnextnumtok
 (
@@ -12910,7 +12910,7 @@ ptr2
 high_val
 =
 (
-u8
+uint8_t
 )
 sdp_getnextnumtok
 (
@@ -13194,21 +13194,21 @@ flex_string
 fs
 )
 {
-u16
+uint16_t
 event_id
 ;
-u32
+uint32_t
 mask
 ;
-u32
+uint32_t
 mapword
 ;
-u8
+uint8_t
 min
 =
 0
 ;
-u8
+uint8_t
 max
 =
 0
@@ -14392,7 +14392,7 @@ min
 max
 =
 (
-u8
+uint8_t
 )
 event_id
 ;
@@ -14402,7 +14402,7 @@ else
 max
 =
 (
-u8
+uint8_t
 )
 event_id
 ;
@@ -14671,7 +14671,7 @@ tmp
 SDP_MAX_STRING_LEN
 ]
 ;
-u32
+uint32_t
 streams
 ;
 /
@@ -14694,7 +14694,7 @@ sctpmap
 port
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -18282,7 +18282,7 @@ transport_map
 payload_num
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -18590,7 +18590,7 @@ transport_map
 num_chan
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -20550,7 +20550,7 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
 sdp_result_e
@@ -20894,7 +20894,7 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
 sdp_result_e
@@ -21905,7 +21905,7 @@ flex_string
 fs
 )
 {
-u16
+uint16_t
 i
 j
 ;
@@ -22534,7 +22534,7 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
 sdp_result_e
@@ -25661,7 +25661,7 @@ Find
 silenceTimer
 -
 -
-u16
+uint16_t
 or
 "
 -
@@ -25678,7 +25678,7 @@ silencesupp
 timer
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok_or_null
 (
@@ -26131,7 +26131,7 @@ Find
 fxnslevel
 -
 -
-u8
+uint8_t
 or
 "
 -
@@ -26148,7 +26148,7 @@ silencesupp
 fxnslevel
 =
 (
-u8
+uint8_t
 )
 sdp_getnextnumtok_or_null
 (
@@ -27197,7 +27197,7 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
 /
@@ -30431,7 +30431,7 @@ ptr
 sdp_result_e
 result
 ;
-u32
+uint32_t
 i
 ;
 char
@@ -30799,7 +30799,7 @@ attr_p
 tinybool
 result
 ;
-u16
+uint16_t
 mkiLen
 ;
 char
@@ -34265,7 +34265,7 @@ rtcp_fb_p
 payload_num
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -35817,7 +35817,7 @@ extmap
 id
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
