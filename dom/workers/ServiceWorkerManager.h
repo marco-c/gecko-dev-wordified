@@ -1737,6 +1737,9 @@ aServiceWorker
 NS_IMETHOD
 CreateServiceWorker
 (
+nsIPrincipal
+*
+aPrincipal
 const
 nsACString
 &
