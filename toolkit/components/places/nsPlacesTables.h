@@ -719,6 +719,16 @@ UNIQUE
 "
 \
 "
+place_id
+INTEGER
+"
+\
+"
+post_data
+TEXT
+"
+\
+"
 )
 "
 \

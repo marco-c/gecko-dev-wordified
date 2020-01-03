@@ -278,8 +278,8 @@ in
 the
 database
 .
-const
-URI
+let
+uri
 =
 NetUtil
 .
@@ -518,7 +518,9 @@ addVisits
 {
 uri
 :
-uri
+NetUtil
+.
+newURI
 (
 "
 http
