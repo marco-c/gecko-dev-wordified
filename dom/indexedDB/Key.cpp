@@ -1290,8 +1290,12 @@ obj
 if
 (
 !
-js_DateIsValid
+js
+:
+:
+DateIsValid
 (
+aCx
 obj
 )
 )
@@ -1302,8 +1306,12 @@ NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 }
 EncodeNumber
 (
-js_DateGetMsecSinceEpoch
+js
+:
+:
+DateGetMsecSinceEpoch
 (
+aCx
 obj
 )
 eDate

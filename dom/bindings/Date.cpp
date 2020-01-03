@@ -147,7 +147,7 @@ h
 /
 /
 for
-js_DateGetMsecSinceEpoch
+DateGetMsecSinceEpoch
 #
 include
 "
@@ -313,8 +313,12 @@ false
 }
 mMsecSinceEpoch
 =
-js_DateGetMsecSinceEpoch
+js
+:
+:
+DateGetMsecSinceEpoch
 (
+aCx
 obj
 )
 ;
