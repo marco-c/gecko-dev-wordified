@@ -1246,10 +1246,7 @@ if
 mBlockedOnRwin
 &
 &
-mUpstreamState
-!
-=
-GENERATING_HEADERS
+mOpenGenerated
 &
 &
 !
@@ -1278,11 +1275,6 @@ mQueued
 MOZ_ASSERT
 (
 mRequestHeadersDone
-)
-;
-MOZ_ASSERT
-(
-mOpenGenerated
 )
 ;
 LOG3
@@ -8061,7 +8053,12 @@ this
 )
 ;
 return
+*
+countRead
+?
 NS_OK
+:
+NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
 if
