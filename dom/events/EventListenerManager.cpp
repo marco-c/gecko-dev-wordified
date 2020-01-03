@@ -1894,7 +1894,7 @@ ondeviceorientation
 {
 EnableDevice
 (
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 )
 ;
 }
@@ -2583,7 +2583,7 @@ aEventMessage
 )
 {
 case
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 :
 case
 NS_DEVICE_MOTION
@@ -2644,7 +2644,7 @@ aEventMessage
 )
 {
 case
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 :
 window
 -
@@ -2767,7 +2767,7 @@ aEventMessage
 )
 {
 case
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 :
 window
 -

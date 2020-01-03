@@ -2397,7 +2397,7 @@ eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
