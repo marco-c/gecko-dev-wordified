@@ -436,13 +436,7 @@ false
 )
 ;
 }
-nsRefPtr
-<
-MediaDecoderReader
-:
-:
-AudioDataPromise
->
+void
 RtspMediaCodecReader
 :
 :
@@ -454,7 +448,6 @@ EnsureActive
 (
 )
 ;
-return
 MediaCodecReader
 :
 :
@@ -463,13 +456,7 @@ RequestAudioData
 )
 ;
 }
-nsRefPtr
-<
-MediaDecoderReader
-:
-:
-VideoDataPromise
->
+void
 RtspMediaCodecReader
 :
 :
@@ -485,7 +472,6 @@ EnsureActive
 (
 )
 ;
-return
 MediaCodecReader
 :
 :
