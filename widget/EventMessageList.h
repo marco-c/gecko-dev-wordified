@@ -2630,7 +2630,7 @@ is
 changed
 NS_EVENT_MESSAGE
 (
-NS_MOZ_TIME_CHANGE_EVENT
+eTimeChange
 5500
 )
 /

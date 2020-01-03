@@ -2934,7 +2934,7 @@ timeChangeEvent
 aEventMessage
 =
 =
-NS_MOZ_TIME_CHANGE_EVENT
+eTimeChange
 )
 ;
 bool
