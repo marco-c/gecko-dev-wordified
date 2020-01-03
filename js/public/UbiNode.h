@@ -2754,13 +2754,12 @@ pointer
 ish
 types
 .
-explicit
 Node
 (
 JS
 :
 :
-Value
+HandleValue
 value
 )
 ;
