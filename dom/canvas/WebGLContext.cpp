@@ -1672,11 +1672,7 @@ mActiveProgramLinkInfo
 =
 nullptr
 ;
-mBoundDrawFramebuffer
-=
-nullptr
-;
-mBoundReadFramebuffer
+mBoundFramebuffer
 =
 nullptr
 ;
@@ -10677,8 +10673,7 @@ mBoundPixelUnpackBuffer
 mBoundTransformFeedbackBuffer
 mBoundUniformBuffer
 mCurrentProgram
-mBoundDrawFramebuffer
-mBoundReadFramebuffer
+mBoundFramebuffer
 mBoundRenderbuffer
 mBoundVertexArray
 mDefaultVertexArray
