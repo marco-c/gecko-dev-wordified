@@ -30690,6 +30690,8 @@ _useSourceMaps
 !
 aScript
 .
+source
+.
 sourceMapURL
 )
 {
@@ -30868,6 +30870,8 @@ dbg_assert
 (
 aScript
 .
+source
+.
 sourceMapURL
 "
 Script
@@ -30886,6 +30890,8 @@ this
 _normalize
 (
 aScript
+.
+source
 .
 sourceMapURL
 aScript
