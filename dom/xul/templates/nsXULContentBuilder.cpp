@@ -654,6 +654,7 @@ aElement
 bool
 aForceCreation
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HasGeneratedContent
@@ -668,6 +669,7 @@ bool
 *
 aGenerated
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetResultForContent
@@ -680,6 +682,7 @@ nsIXULTemplateResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -713,15 +716,16 @@ Traverse
 (
 nsCycleCollectionTraversalCallback
 &
-cb
+aCb
 )
 const
+MOZ_OVERRIDE
 {
 mSortState
 .
 Traverse
 (
-cb
+aCb
 )
 ;
 }
@@ -732,6 +736,7 @@ Uninit
 bool
 aIsFinal
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1584,6 +1589,7 @@ nsresult
 RebuildAll
 (
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1655,6 +1661,7 @@ nsIContent
 *
 aLocations
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1700,6 +1707,7 @@ void
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 /
 *
@@ -1745,6 +1753,7 @@ nsIXULTemplateResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 /
 *
