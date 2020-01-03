@@ -4085,7 +4085,7 @@ NS_DRAGDROP_OVER
 :
 /
 /
-NS_DRAGDROP_DROP
+eDrop
 is
 fired
 before
@@ -4100,7 +4100,7 @@ enter
 exit
 events
 before
-NS_DRAGDROP_DROP
+eDrop
 .
 GenerateDragDropEnterExit
 (
@@ -7029,7 +7029,7 @@ case
 NS_DRAGDROP_EXIT
 :
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 return
 true
@@ -20593,7 +20593,7 @@ dropEffect
 break
 ;
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 {
 /

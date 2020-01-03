@@ -2405,7 +2405,7 @@ dragEvent
 /
 drop
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 {
 nsCOMPtr

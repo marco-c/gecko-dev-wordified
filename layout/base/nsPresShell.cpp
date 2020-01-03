@@ -47736,7 +47736,7 @@ true
 break
 ;
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 {
 nsCOMPtr

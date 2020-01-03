@@ -929,7 +929,7 @@ case
 NS_DRAGDROP_START
 :
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 case
 eDragLeave
