@@ -4871,6 +4871,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineArraySlice
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineArrayJoin
 (
 CallInfo

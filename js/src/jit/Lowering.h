@@ -1596,6 +1596,14 @@ ins
 )
 ;
 void
+visitArraySlice
+(
+MArraySlice
+*
+ins
+)
+;
+void
 visitArrayJoin
 (
 MArrayJoin

@@ -1457,7 +1457,7 @@ void
 )
 type
 .
-singleton
+singletonNoBarrier
 (
 )
 )
@@ -1483,7 +1483,7 @@ void
 )
 type
 .
-group
+groupNoBarrier
 (
 )
 )
