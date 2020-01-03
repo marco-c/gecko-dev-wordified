@@ -550,6 +550,15 @@ mRefCnt
 (
 0
 )
+#
+ifdef
+DEBUG
+mComputingStruct
+(
+nsStyleStructID_None
+)
+#
+endif
 {
 /
 /

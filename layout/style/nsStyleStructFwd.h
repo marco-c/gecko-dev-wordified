@@ -190,6 +190,10 @@ other
 .
 *
 /
+nsStyleStructID_None
+=
+-
+1
 nsStyleStructID_Inherited_Start
 =
 0
