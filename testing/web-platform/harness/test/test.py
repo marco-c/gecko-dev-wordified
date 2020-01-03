@@ -1068,11 +1068,6 @@ nargs
 "
 *
 "
-type
-=
-wptcommandline
-.
-slash_prefixed
                         
 help
 =
