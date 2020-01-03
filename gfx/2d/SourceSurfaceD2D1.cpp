@@ -607,10 +607,6 @@ BytesPerPixel
 mFormat
 )
 ;
-mDrawTarget
-=
-nullptr
-;
 /
 /
 We
