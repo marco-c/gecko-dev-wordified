@@ -982,8 +982,14 @@ addChild
 resource
 )
 ;
-return
+throw
+new
+Task
+.
+Result
+(
 resource
+)
 ;
 }
 .
