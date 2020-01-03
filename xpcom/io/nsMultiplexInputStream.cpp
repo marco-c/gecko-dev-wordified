@@ -156,6 +156,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
