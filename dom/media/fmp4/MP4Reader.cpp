@@ -3932,9 +3932,6 @@ MediaData
 :
 :
 VIDEO_DATA
-RequestSampleCallback
-:
-:
 END_OF_STREAM
 )
 ;
@@ -4342,9 +4339,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 DECODE_ERROR
 )
 ;
@@ -4546,9 +4540,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 CANCELED
 )
 ;
@@ -4692,9 +4683,6 @@ MediaData
 :
 :
 VIDEO_DATA
-RequestSampleCallback
-:
-:
 END_OF_STREAM
 )
 ;
