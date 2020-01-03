@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-jit_mips_shared_Architecture_mips_h
+jit_mips_shared_Architecture_mips_shared_h
 #
 define
-jit_mips_shared_Architecture_mips_h
+jit_mips_shared_Architecture_mips_shared_h
 #
 include
 "
@@ -1595,6 +1595,6 @@ js
 endif
 /
 *
-jit_mips_shared_Architecture_mips_h
+jit_mips_shared_Architecture_mips_shared_h
 *
 /

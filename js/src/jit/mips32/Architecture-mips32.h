@@ -330,6 +330,8 @@ shared
 Architecture
 -
 mips
+-
+shared
 .
 h
 "
