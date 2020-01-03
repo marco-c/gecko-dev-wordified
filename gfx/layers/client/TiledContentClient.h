@@ -2417,6 +2417,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 )
 ;
 void
@@ -2541,6 +2545,9 @@ nsIntRegion
 nsIntRegion
 (
 )
+nsIntRegion
+(
+)
 )
 ;
 mResolution
@@ -2617,6 +2624,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 )
 ;
 void
