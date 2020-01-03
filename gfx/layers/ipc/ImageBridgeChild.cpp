@@ -2481,7 +2481,7 @@ aContainer
 aContainer
 -
 >
-ClearCurrentImage
+ClearImagesFromImageBridge
 (
 )
 ;

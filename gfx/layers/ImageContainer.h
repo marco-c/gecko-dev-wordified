@@ -2230,7 +2230,7 @@ ClearAllImages
 Clear
 the
 current
-image
+images
 .
 *
 This
@@ -2264,7 +2264,7 @@ Bug
 *
 /
 void
-ClearCurrentImage
+ClearImagesFromImageBridge
 (
 )
 ;
