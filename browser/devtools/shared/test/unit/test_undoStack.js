@@ -70,13 +70,6 @@ zero
 /
 *
 /
-const
-Cu
-=
-Components
-.
-utils
-;
 let
 {
 Loader
