@@ -6110,10 +6110,7 @@ fieldTypes
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 userFieldOffsets
@@ -6125,10 +6122,7 @@ nullptr
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 userFieldTypes

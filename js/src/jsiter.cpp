@@ -9644,10 +9644,7 @@ proto
 |
 |
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 proto

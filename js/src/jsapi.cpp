@@ -12388,10 +12388,7 @@ obj
 )
 ;
 return
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 obj
@@ -12474,10 +12471,7 @@ true
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 obj

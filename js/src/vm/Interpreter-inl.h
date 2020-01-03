@@ -4376,10 +4376,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 raw
@@ -4391,10 +4388,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 cso
