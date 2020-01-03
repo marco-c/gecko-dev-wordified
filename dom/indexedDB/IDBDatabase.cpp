@@ -947,6 +947,9 @@ mFilename
 uint32_t
 mLineNumber
 ;
+uint32_t
+mColumnNumber
+;
 uint64_t
 mInnerWindowID
 ;
@@ -967,6 +970,8 @@ nsAString
 aFilename
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 bool
 aIsChrome
 uint64_t
@@ -984,6 +989,10 @@ aFilename
 mLineNumber
 (
 aLineNumber
+)
+mColumnNumber
+(
+aColumnNumber
 )
 mInnerWindowID
 (
@@ -1017,6 +1026,8 @@ nsAString
 aFilename
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 bool
 aIsChrome
 uint64_t
@@ -4645,6 +4656,7 @@ filename
 ;
 uint32_t
 lineNo
+column
 ;
 transaction
 -
@@ -4654,6 +4666,8 @@ GetCallerLocation
 filename
 &
 lineNo
+&
+column
 )
 ;
 aDatabase
@@ -4664,6 +4678,7 @@ LogWarning
 kWarningMessage
 filename
 lineNo
+column
 )
 ;
 }
@@ -6352,6 +6367,8 @@ nsAString
 aFilename
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 )
 {
 AssertIsOnOwningThread
@@ -6378,6 +6395,7 @@ LogWarning
 aMessageName
 aFilename
 aLineNumber
+aColumnNumber
 mFactory
 -
 >
@@ -6407,6 +6425,7 @@ LogWarningRunnable
 aMessageName
 aFilename
 aLineNumber
+aColumnNumber
 mFactory
 -
 >
@@ -7599,6 +7618,8 @@ nsAString
 aFilename
 uint32_t
 aLineNumber
+uint32_t
+aColumnNumber
 bool
 aIsChrome
 uint64_t
@@ -7741,12 +7762,7 @@ EmptyString
 (
 )
 aLineNumber
-/
-*
 aColumnNumber
-*
-/
-0
 nsIScriptError
 :
 :
@@ -7780,12 +7796,7 @@ EmptyString
 (
 )
 aLineNumber
-/
-*
 aColumnNumber
-*
-/
-0
 nsIScriptError
 :
 :
@@ -7850,6 +7861,7 @@ get
 )
 mFilename
 mLineNumber
+mColumnNumber
 mIsChrome
 mInnerWindowID
 )

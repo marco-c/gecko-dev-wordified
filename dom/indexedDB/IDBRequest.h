@@ -346,6 +346,9 @@ mErrorCode
 uint32_t
 mLineNo
 ;
+uint32_t
+mColumn
+;
 bool
 mHaveResultOrErrorCode
 ;
@@ -415,6 +418,9 @@ aFilename
 uint32_t
 *
 aLineNo
+uint32_t
+*
+aColumn
 )
 ;
 static
@@ -530,6 +536,9 @@ aFilename
 uint32_t
 *
 aLineNo
+uint32_t
+*
+aColumn
 )
 const
 ;
