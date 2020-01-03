@@ -8019,12 +8019,12 @@ int64_t
 aOffset
 )
 {
-ReentrantMonitorAutoEnter
-mon
-(
 GetReentrantMonitor
 (
 )
+.
+AssertCurrentThreadIn
+(
 )
 ;
 mPlaybackPosition

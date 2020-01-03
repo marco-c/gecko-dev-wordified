@@ -1133,7 +1133,7 @@ endTime
 mStateMachine
 -
 >
-OnAudioEndTimeUpdate
+DispatchOnAudioEndTimeUpdate
 (
 endTime
 )
@@ -1406,7 +1406,7 @@ mAudioStream
 mStateMachine
 -
 >
-OnAudioSinkComplete
+DispatchOnAudioSinkComplete
 (
 )
 ;
@@ -1900,7 +1900,7 @@ mOffset
 mStateMachine
 -
 >
-OnPlaybackOffsetUpdate
+DispatchOnPlaybackOffsetUpdate
 (
 audio
 -
