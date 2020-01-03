@@ -115,7 +115,7 @@ js
 ;
 check_do_get_profile
 (
-false
+true
 )
 ;
 }
