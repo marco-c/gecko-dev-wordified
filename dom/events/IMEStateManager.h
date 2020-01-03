@@ -1014,10 +1014,6 @@ static
 bool
 sIsGettingNewIMEState
 ;
-static
-bool
-sCheckForIMEUnawareWebApps
-;
 class
 MOZ_STACK_CLASS
 GettingNewIMEStateBlocker
