@@ -598,10 +598,6 @@ friend
 class
 DecodeWorker
 ;
-friend
-class
-NotifyDecodeCompleteWorker
-;
 DecodePool
 (
 )
