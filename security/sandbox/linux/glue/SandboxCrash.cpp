@@ -985,6 +985,14 @@ gSandboxCrashFunc
 SandboxCrash
 ;
 }
+#
+ifndef
+ANDROID
+SandboxCrashFunc
+gSandboxCrashFunc
+;
+#
+endif
 }
 /
 /

@@ -428,9 +428,14 @@ MOZ_ASAN
 namespace
 mozilla
 {
+#
+ifdef
+ANDROID
 SandboxCrashFunc
 gSandboxCrashFunc
 ;
+#
+endif
 #
 ifdef
 MOZ_GMP_SANDBOX
