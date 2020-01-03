@@ -32766,9 +32766,9 @@ PushState
 {
 isArticle
 :
-gBrowser
+this
 .
-selectedBrowser
+browser
 .
 isArticle
 }
