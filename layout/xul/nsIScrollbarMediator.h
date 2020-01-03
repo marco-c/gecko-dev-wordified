@@ -588,6 +588,15 @@ const
 =
 0
 ;
+virtual
+bool
+IsScrollbarOnRight
+(
+)
+const
+=
+0
+;
 }
 ;
 #
