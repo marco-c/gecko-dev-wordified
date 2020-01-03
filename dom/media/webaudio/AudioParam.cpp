@@ -638,10 +638,7 @@ nodeStream
 AllocateInputPort
 (
 mStream
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
+0
 )
 ;
 }
