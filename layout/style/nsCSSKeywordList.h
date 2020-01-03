@@ -2377,6 +2377,11 @@ luminosity
 )
 CSS_KEY
 (
+mandatory
+mandatory
+)
+CSS_KEY
+(
 manipulation
 manipulation
 )
@@ -2811,6 +2816,11 @@ proportional
 -
 width
 proportional_width
+)
+CSS_KEY
+(
+proximity
+proximity
 )
 CSS_KEY
 (
