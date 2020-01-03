@@ -325,6 +325,9 @@ std
 :
 vector
 <
+base
+:
+:
 string16
 >
 capabilities

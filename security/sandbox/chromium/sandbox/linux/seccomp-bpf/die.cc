@@ -213,7 +213,10 @@ other
 strategies
 too
 .
-SandboxSyscall
+Syscall
+:
+:
+Call
 (
 __NR_exit_group
 1
@@ -294,7 +297,10 @@ SIGSEGV
 SIG_DFL
 )
 ;
-SandboxSyscall
+Syscall
+:
+:
+Call
 (
 __NR_prctl
 PR_SET_DUMPABLE
@@ -410,7 +416,10 @@ for
 ;
 )
 {
-SandboxSyscall
+Syscall
+:
+:
+Call
 (
 __NR_exit_group
 1
@@ -664,7 +673,10 @@ ignore_result
 (
 HANDLE_EINTR
 (
-SandboxSyscall
+Syscall
+:
+:
+Call
 (
 __NR_write
 2

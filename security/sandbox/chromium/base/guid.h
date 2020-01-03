@@ -224,7 +224,7 @@ endif
 /
 /
 namespace
-guid
+base
 #
 endif
 /

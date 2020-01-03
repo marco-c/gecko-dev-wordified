@@ -773,6 +773,7 @@ WeakPtr
 )
 .
 class
+BASE_EXPORT
 Flag
 :
 public
