@@ -712,6 +712,14 @@ int64_t
 aTimecode
 IntSize
 aDisplay
+layers
+:
+:
+ImageContainer
+:
+:
+FrameID
+aFrameID
 )
 :
 MediaData
@@ -724,6 +732,10 @@ aDuration
 mDisplay
 (
 aDisplay
+)
+mFrameID
+(
+aFrameID
 )
 mSentToCompositor
 (
@@ -929,6 +941,10 @@ aOther
 -
 >
 mDisplay
+aOther
+-
+>
+mFrameID
 )
 ;
 v
@@ -1021,6 +1037,10 @@ aOther
 -
 >
 mDisplay
+aOther
+-
+>
+mFrameID
 )
 ;
 v
@@ -1108,6 +1128,10 @@ aOther
 -
 >
 mDisplay
+aOther
+-
+>
+mFrameID
 )
 ;
 v
@@ -1492,6 +1516,7 @@ aTimecode
 aInfo
 .
 mDisplay
+0
 )
 )
 ;
@@ -1851,6 +1876,7 @@ aTimecode
 aInfo
 .
 mDisplay
+0
 )
 )
 ;
@@ -2408,6 +2434,7 @@ aTimecode
 aInfo
 .
 mDisplay
+0
 )
 )
 ;
@@ -2522,6 +2549,7 @@ aTimecode
 aInfo
 .
 mDisplay
+0
 )
 )
 ;
@@ -2712,6 +2740,7 @@ aTimecode
 aInfo
 .
 mDisplay
+0
 )
 )
 ;

@@ -1513,6 +1513,9 @@ Image
 >
 mImage
 ;
+int32_t
+mFrameID
+;
 bool
 mSentToCompositor
 ;
@@ -1530,6 +1533,8 @@ int64_t
 aTimecode
 IntSize
 aDisplay
+int32_t
+aFrameID
 )
 ;
 protected
