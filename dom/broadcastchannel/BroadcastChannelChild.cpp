@@ -656,6 +656,17 @@ StructuredCloneHelper
 TransferringNotSupported
 )
 ;
+cloneHelper
+.
+BlobImpls
+(
+)
+.
+AppendElements
+(
+blobs
+)
+;
 JS
 :
 :
@@ -702,7 +713,6 @@ data
 buffer
 .
 dataLength
-blobs
 &
 value
 )

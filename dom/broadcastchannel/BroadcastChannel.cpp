@@ -831,7 +831,7 @@ blobImpls
 mData
 -
 >
-ClonedBlobImpls
+BlobImpls
 (
 )
 ;
@@ -2060,7 +2060,7 @@ blobImpls
 data
 -
 >
-ClonedBlobImpls
+BlobImpls
 (
 )
 ;
