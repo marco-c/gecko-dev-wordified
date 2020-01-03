@@ -29438,7 +29438,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptAnyThread
+RequestInterruptUrgent
 )
 ;
 }
