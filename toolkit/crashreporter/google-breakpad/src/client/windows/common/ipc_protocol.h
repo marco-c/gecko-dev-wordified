@@ -307,14 +307,14 @@ CLIENT_WINDOWS_COMMON_IPC_PROTOCOL_H__
 #
 include
 <
-Windows
+windows
 .
 h
 >
 #
 include
 <
-DbgHelp
+dbghelp
 .
 h
 >

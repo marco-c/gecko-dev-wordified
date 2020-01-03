@@ -455,7 +455,7 @@ else
 #
 include
 <
-WTypes
+wtypes
 .
 h
 >

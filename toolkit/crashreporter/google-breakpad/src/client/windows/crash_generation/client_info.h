@@ -307,14 +307,14 @@ CLIENT_WINDOWS_CRASH_GENERATION_CLIENT_INFO_H__
 #
 include
 <
-Windows
+windows
 .
 h
 >
 #
 include
 <
-DbgHelp
+dbghelp
 .
 h
 >
