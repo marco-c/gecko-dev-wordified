@@ -3113,7 +3113,7 @@ true
 addEventListener
 (
 "
-pageshow
+DOMContentLoaded
 "
 this
 false
@@ -3344,7 +3344,7 @@ break
 ;
 case
 "
-pageshow
+DOMContentLoaded
 "
 :
 if
