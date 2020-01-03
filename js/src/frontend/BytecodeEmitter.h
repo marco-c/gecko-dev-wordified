@@ -1799,7 +1799,7 @@ operands
 .
 *
 /
-ptrdiff_t
+bool
 Emit3
 (
 ExclusiveContext
