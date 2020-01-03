@@ -8357,14 +8357,14 @@ AppendLiteral
 )
 ;
 }
-nsAutoString
-buffer
-;
 if
 (
 mSelector
 )
 {
+nsAutoString
+buffer
+;
 mSelector
 -
 >
@@ -8399,6 +8399,9 @@ nullptr
 mDeclaration
 )
 {
+nsAutoString
+buffer
+;
 str
 .
 AppendLiteral
