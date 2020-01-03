@@ -1676,6 +1676,9 @@ reject
 =
 >
 {
+let
+observe
+;
 Services
 .
 obs
