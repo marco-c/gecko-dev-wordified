@@ -557,6 +557,10 @@ mHavePendingNonAnimationRestyles
 (
 false
 )
+mRestyleGeneration
+(
+1
+)
 mHoverGeneration
 (
 0
