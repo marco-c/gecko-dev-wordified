@@ -6969,6 +6969,9 @@ mCheckMalware
 |
 |
 mCheckPhishing
+|
+|
+aTrackingProtectionEnabled
 )
 )
 {
