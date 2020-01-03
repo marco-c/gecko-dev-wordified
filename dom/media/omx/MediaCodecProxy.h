@@ -926,8 +926,7 @@ void
 resourceCanceled
 (
 )
-{
-}
+;
 private
 :
 /
