@@ -15310,16 +15310,12 @@ if
 (
 gInitialPages
 .
-indexOf
+contains
 (
 uri
 .
 spec
 )
-!
-=
--
-1
 )
 value
 =
