@@ -1248,6 +1248,9 @@ return
 true
 ;
 case
+LOCAL_GL_SRGB8
+:
+case
 LOCAL_GL_SRGB8_ALPHA8_EXT
 :
 return
