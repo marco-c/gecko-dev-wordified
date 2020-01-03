@@ -959,7 +959,7 @@ single
 test
 .
         
-verbose_output
+single_test
 =
 (
 test_path
@@ -967,7 +967,7 @@ is
 not
 None
 or
-                          
+                       
 (
 manifest
 and
@@ -983,10 +983,19 @@ test_paths
 =
 1
 )
-or
-                          
-verbose
 )
+        
+verbose_output
+=
+verbose
+or
+single_test
+        
+sequential
+=
+sequential
+or
+single_test
         
 args
 =
