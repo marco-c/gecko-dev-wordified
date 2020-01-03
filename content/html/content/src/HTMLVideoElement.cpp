@@ -1292,6 +1292,9 @@ mPaused
 &
 !
 hidden
+&
+&
+mHasVideo
 )
 {
 nsRefPtr
