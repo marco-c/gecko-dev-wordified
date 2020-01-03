@@ -171,6 +171,9 @@ Units
 h
 "
 class
+nsCanvasFrame
+;
+class
 nsIFrame
 ;
 class
@@ -468,7 +471,7 @@ caret
 .
 *
 /
-nsIFrame
+nsCanvasFrame
 *
 GetCanvasFrame
 (
