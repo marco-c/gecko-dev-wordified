@@ -271,13 +271,6 @@ aLastPart
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
-OnNewSourceData
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 void
 OnSurfaceDiscarded
 (

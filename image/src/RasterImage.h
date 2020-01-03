@@ -1471,13 +1471,6 @@ aLastPart
 )
 MOZ_OVERRIDE
 ;
-virtual
-nsresult
-OnNewSourceData
-(
-)
-MOZ_OVERRIDE
-;
 static
 already_AddRefed
 <
