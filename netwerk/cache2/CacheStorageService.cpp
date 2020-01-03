@@ -240,15 +240,6 @@ include
 "
 mozilla
 /
-VisualEventTracer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Services
 .
 h
