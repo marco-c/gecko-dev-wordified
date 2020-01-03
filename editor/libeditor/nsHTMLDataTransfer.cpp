@@ -6822,6 +6822,7 @@ aDestinationNode
 aDestOffset
 aDoDeleteSelection
 aIsSafe
+false
 )
 ;
 }
