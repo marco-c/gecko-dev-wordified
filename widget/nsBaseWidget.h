@@ -2969,6 +2969,7 @@ instance
 .
 *
 /
+virtual
 void
 DestroyCompositor
 (

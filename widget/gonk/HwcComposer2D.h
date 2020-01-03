@@ -744,13 +744,11 @@ mPrepared
 bool
 mHasHWVsync
 ;
-nsRefPtr
-<
 layers
 :
 :
 CompositorParent
->
+*
 mCompositorParent
 ;
 Mutex

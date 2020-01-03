@@ -588,6 +588,12 @@ aAllowRetaining
 nullptr
 )
 ;
+virtual
+void
+DestroyCompositor
+(
+)
+;
 NS_IMETHOD_
 (
 void
