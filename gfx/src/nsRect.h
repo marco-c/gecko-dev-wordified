@@ -1074,7 +1074,7 @@ rectangle
 MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 int32_t
 aFromAPP
@@ -1086,7 +1086,7 @@ const
 MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 int32_t
 aFromAPP
@@ -1444,7 +1444,7 @@ nsRect
 nsRect
 :
 :
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 int32_t
 aFromAPP
@@ -1560,7 +1560,7 @@ nsRect
 nsRect
 :
 :
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 int32_t
 aFromAPP

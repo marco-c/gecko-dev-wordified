@@ -1783,7 +1783,7 @@ applies
 nsRect
 :
 :
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 /
 In
 to
@@ -1827,7 +1827,7 @@ region
 /
 MOZ_WARN_UNUSED_RESULT
 nsRegion
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 int32_t
 aFromAPP
@@ -1838,7 +1838,7 @@ const
 ;
 MOZ_WARN_UNUSED_RESULT
 nsRegion
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 int32_t
 aFromAPP

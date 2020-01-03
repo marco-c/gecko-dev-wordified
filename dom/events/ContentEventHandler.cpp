@@ -7545,7 +7545,7 @@ ptInTarget
 =
 ptInTarget
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 rootAPD
 targetAPD

@@ -30896,7 +30896,7 @@ false
 return
 bounds
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 mAPD
 mParentAPD
@@ -30993,7 +30993,7 @@ TopLeft
 (
 )
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 mParentAPD
 mAPD
@@ -31017,7 +31017,7 @@ rect
 =
 aRect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 mParentAPD
 mAPD
@@ -31085,7 +31085,7 @@ visibleRegion
 =
 visibleRegion
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 mParentAPD
 mAPD
@@ -31101,7 +31101,7 @@ transformedVisibleRect
 =
 mVisibleRect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 mParentAPD
 mAPD
@@ -31231,7 +31231,7 @@ removed
 =
 removed
 .
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 mAPD
 mParentAPD

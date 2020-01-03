@@ -260,7 +260,7 @@ to
 MOZ_WARN_UNUSED_RESULT
 inline
 nsSize
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 int32_t
 aFromAPP
@@ -435,7 +435,7 @@ nsSize
 nsSize
 :
 :
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 int32_t
 aFromAPP

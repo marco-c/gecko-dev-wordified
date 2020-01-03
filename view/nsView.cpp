@@ -5112,7 +5112,7 @@ offset
 =
 docOffset
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -5154,7 +5154,7 @@ offset
 =
 docOffset
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -5453,7 +5453,7 @@ pt
 =
 pt
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 widgetAPD
 ourAPD
@@ -5656,7 +5656,7 @@ pt
 =
 docPt
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -5709,7 +5709,7 @@ pt
 =
 docPt
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -5778,7 +5778,7 @@ pt
 =
 docPt
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -5915,7 +5915,7 @@ AppUnitsPerDevPixel
 return
 mDimBounds
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 ourAPD
 parentAPD
@@ -5951,7 +5951,7 @@ aPt
 =
 aPt
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 parent
 -

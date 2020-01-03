@@ -4003,7 +4003,7 @@ nsRegion
 nsRegion
 :
 :
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 int32_t
 aFromAPP
@@ -4079,7 +4079,7 @@ rect
 =
 rect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 aFromAPP
 aToAPP
@@ -4150,7 +4150,7 @@ nsRegion
 nsRegion
 :
 :
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 int32_t
 aFromAPP
@@ -4226,7 +4226,7 @@ rect
 =
 rect
 .
-ConvertAppUnitsRoundIn
+ScaleToOtherAppUnitsRoundIn
 (
 aFromAPP
 aToAPP
