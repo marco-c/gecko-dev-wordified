@@ -200,6 +200,13 @@ TimelineMarker
 {
 public
 :
+enum
+TimelineStackRequest
+{
+STACK
+NO_STACK
+}
+;
 TimelineMarker
 (
 nsDocShell
@@ -228,6 +235,10 @@ const
 nsAString
 &
 aCause
+TimelineStackRequest
+aStackRequest
+=
+STACK
 )
 ;
 virtual
@@ -349,6 +360,9 @@ virtual
 void
 AddDetails
 (
+JSContext
+*
+aCx
 mozilla
 :
 :
