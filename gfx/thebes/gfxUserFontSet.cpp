@@ -2040,10 +2040,12 @@ GetPlatform
 >
 LookupLocalFont
 (
-this
 currSrc
 .
 mLocalName
+mWeight
+mStretch
+mItalic
 )
 ;
 aLocalRulesUsed
@@ -3081,7 +3083,10 @@ GetPlatform
 >
 MakePlatformFont
 (
-this
+mName
+mWeight
+mStretch
+mItalic
 saneData
 saneLen
 )
