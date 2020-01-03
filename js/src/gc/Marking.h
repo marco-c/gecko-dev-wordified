@@ -1340,11 +1340,6 @@ DeclMarker
 String
 PropertyName
 )
-DeclMarker
-(
-ObjectGroup
-ObjectGroup
-)
 #
 undef
 DeclMarker

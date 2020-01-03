@@ -28163,7 +28163,7 @@ JSTracer
 trc
 )
 {
-MarkObjectGroup
+TraceEdge
 (
 trc
 &

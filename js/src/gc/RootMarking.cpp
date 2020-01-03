@@ -628,7 +628,7 @@ MarkExactStackRootList
 <
 ObjectGroup
 *
-MarkObjectGroupRoot
+TraceRoot
 >
 (
 trc

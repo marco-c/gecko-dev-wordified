@@ -387,7 +387,7 @@ if
 (
 nativeGroup_
 )
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -415,7 +415,7 @@ if
 (
 replacementNewGroup_
 )
-MarkObjectGroup
+TraceEdge
 (
 trc
 &

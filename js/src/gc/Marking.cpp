@@ -7637,14 +7637,6 @@ DeclMarkerImpl
 String
 PropertyName
 )
-DeclMarkerImpl
-(
-ObjectGroup
-js
-:
-:
-ObjectGroup
-)
 }
 /
 *
@@ -11202,7 +11194,7 @@ maybeOriginalUnboxedGroup
 )
 )
 {
-MarkObjectGroupUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
