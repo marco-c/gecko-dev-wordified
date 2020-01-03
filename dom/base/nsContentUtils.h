@@ -9621,6 +9621,12 @@ uint32_t
 aLevel
 )
 ;
+static
+void
+PerformMainThreadMicroTaskCheckpoint
+(
+)
+;
 /
 *
 Process
