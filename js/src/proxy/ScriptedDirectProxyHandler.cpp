@@ -2607,7 +2607,7 @@ true
 ;
 }
 return
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 proto

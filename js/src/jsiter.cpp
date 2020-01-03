@@ -8027,7 +8027,7 @@ cx
 if
 (
 !
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 proto
@@ -8064,7 +8064,7 @@ continue
 *
 *
 If
-JS_GetPropertyDescriptorById
+GetPropertyDescriptorById
 above
 removed
 a

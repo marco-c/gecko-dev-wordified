@@ -219,7 +219,7 @@ target
 )
 ;
 return
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 target
