@@ -952,7 +952,7 @@ mRv
 }
 ;
 class
-BCPostMessageRunnable
+PostMessageRunnable
 MOZ_FINAL
 :
 public
@@ -961,7 +961,7 @@ nsICancelableRunnable
 public
 :
 NS_DECL_ISUPPORTS
-BCPostMessageRunnable
+PostMessageRunnable
 (
 BroadcastChannelChild
 *
@@ -1195,7 +1195,7 @@ NS_OK
 private
 :
 ~
-BCPostMessageRunnable
+PostMessageRunnable
 (
 )
 {
@@ -1216,7 +1216,7 @@ mData
 ;
 NS_IMPL_ISUPPORTS
 (
-BCPostMessageRunnable
+PostMessageRunnable
 nsICancelableRunnable
 nsIRunnable
 )
@@ -2518,12 +2518,12 @@ mActor
 {
 nsRefPtr
 <
-BCPostMessageRunnable
+PostMessageRunnable
 >
 runnable
 =
 new
-BCPostMessageRunnable
+PostMessageRunnable
 (
 mActor
 aData
