@@ -18234,7 +18234,6 @@ graph
 >
 StartNonRealtimeProcessing
 (
-1
 0
 )
 ;
@@ -19217,8 +19216,6 @@ MediaStreamGraph
 :
 StartNonRealtimeProcessing
 (
-TrackRate
-aRate
 uint32_t
 aTicksToProcess
 )
