@@ -7268,7 +7268,7 @@ window
 *
 or
 '
-tab
+browser
 '
 .
 *
