@@ -1946,7 +1946,7 @@ mCbCrStride
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -1981,7 +1981,7 @@ v
 ;
 for
 (
-int
+size_t
 j
 =
 0
