@@ -84,13 +84,6 @@ prtime
 .
 h
 "
-#
-include
-<
-LocationApi
-.
-h
->
 namespace
 mozilla
 {

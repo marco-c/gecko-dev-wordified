@@ -79,7 +79,7 @@ h
 #
 include
 <
-LocationApi
+locationapi
 .
 h
 >
@@ -106,6 +106,12 @@ WindowsLocationProvider
 ;
 private
 :
+~
+WindowsLocationProvider
+(
+)
+{
+}
 nsRefPtr
 <
 ILocation
