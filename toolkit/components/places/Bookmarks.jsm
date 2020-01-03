@@ -2983,7 +2983,7 @@ If
 the
 item
 was
-move
+moved
 notify
 onItemMoved
 .
@@ -3042,7 +3042,7 @@ item
 parentGuid
 updatedItem
 .
-newParentGuid
+parentGuid
 ]
 )
 ;
