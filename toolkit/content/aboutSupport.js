@@ -2119,6 +2119,11 @@ message
 )
 )
 ;
+delete
+data
+.
+indices
+;
 }
 else
 {
