@@ -1221,6 +1221,8 @@ addonId
 diff
 .
 totalCPOWTime
+/
+1000
 )
 ;
 }
