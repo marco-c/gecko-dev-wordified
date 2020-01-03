@@ -1524,7 +1524,7 @@ dom
 .
 enable_resource_timing
 "
-false
+true
 )
 ;
 /
