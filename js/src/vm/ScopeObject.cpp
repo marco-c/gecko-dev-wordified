@@ -9905,6 +9905,7 @@ scope
 )
 &
 &
+!
 scope
 .
 as
@@ -9923,7 +9924,7 @@ nonLazyScript
 )
 -
 >
-argumentsHasVarBinding
+needsArgsObj
 (
 )
 )
