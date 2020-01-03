@@ -260,7 +260,7 @@ let
 {
 gFront
 EVENTS
-WebAudioInspectorView
+InspectorView
 }
 =
 panelWin
@@ -268,7 +268,7 @@ panelWin
 let
 gVars
 =
-WebAudioInspectorView
+InspectorView
 .
 _propsView
 ;
