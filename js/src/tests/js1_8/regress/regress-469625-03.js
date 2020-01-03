@@ -385,10 +385,9 @@ intermediate
 value
 )
 [
-(
-intermediate
-value
-)
+Symbol
+.
+iterator
 ]
 (
 .
