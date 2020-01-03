@@ -9,6 +9,7 @@ the
 Public
 Domain
 .
+*
 http
 :
 /
@@ -332,14 +333,6 @@ workerHelper
 .
 postedMessage
 ;
-equal
-(
-postedMessage
-.
-errorMsg
-GECKO_ERROR_SUCCESS
-)
-;
 ok
 (
 postedMessage
@@ -564,14 +557,6 @@ postedMessage
 workerHelper
 .
 postedMessage
-;
-equal
-(
-postedMessage
-.
-errorMsg
-GECKO_ERROR_SUCCESS
-)
 ;
 ok
 (

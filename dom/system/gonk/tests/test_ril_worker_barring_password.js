@@ -9,6 +9,7 @@ the
 Public
 Domain
 .
+*
 http
 :
 /
@@ -274,14 +275,6 @@ barringPasswordOptions
 .
 newPin
 NEW_PIN
-)
-;
-equal
-(
-message
-.
-errorMsg
-GECKO_ERROR_SUCCESS
 )
 ;
 }
