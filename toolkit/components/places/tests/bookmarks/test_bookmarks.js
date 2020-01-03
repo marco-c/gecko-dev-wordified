@@ -1142,7 +1142,7 @@ getItemLastModified
 newId
 )
 ;
-do_print
+LOG
 (
 "
 test
@@ -1150,7 +1150,7 @@ setItemTitle
 "
 )
 ;
-do_print
+LOG
 (
 "
 dateAdded
@@ -1160,7 +1160,7 @@ dateAdded
 dateAdded
 )
 ;
-do_print
+LOG
 (
 "
 beforeSetTitle
@@ -1170,7 +1170,7 @@ beforeSetTitle
 beforeSetTitle
 )
 ;
-do_print
+LOG
 (
 "
 lastModified
@@ -1180,7 +1180,7 @@ lastModified
 lastModified
 )
 ;
-do_print
+LOG
 (
 "
 lastModified2
@@ -2758,7 +2758,7 @@ rootNode
 .
 childCount
 ;
-do_print
+LOG
 (
 "
 bookmark
@@ -3276,7 +3276,7 @@ getItemLastModified
 newId10
 )
 ;
-do_print
+LOG
 (
 "
 test
@@ -3284,7 +3284,7 @@ changeBookmarkURI
 "
 )
 ;
-do_print
+LOG
 (
 "
 dateAdded
@@ -3294,7 +3294,7 @@ dateAdded
 dateAdded
 )
 ;
-do_print
+LOG
 (
 "
 lastModified
@@ -3304,7 +3304,7 @@ lastModified
 lastModified
 )
 ;
-do_print
+LOG
 (
 "
 lastModified2
@@ -4668,7 +4668,7 @@ getItemDateAdded
 parent
 )
 ;
-do_print
+LOG
 (
 "
 check
@@ -4684,7 +4684,7 @@ dateAdded
 "
 )
 ;
-do_print
+LOG
 (
 "
 beforeCreate
@@ -4694,7 +4694,7 @@ beforeCreate
 beforeCreate
 )
 ;
-do_print
+LOG
 (
 "
 dateCreated
@@ -4780,7 +4780,7 @@ getItemDateAdded
 sep
 )
 ;
-do_print
+LOG
 (
 "
 check
@@ -4796,7 +4796,7 @@ dateAdded
 "
 )
 ;
-do_print
+LOG
 (
 "
 beforeInsert
@@ -4806,7 +4806,7 @@ beforeInsert
 beforeInsert
 )
 ;
-do_print
+LOG
 (
 "
 dateAdded

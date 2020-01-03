@@ -586,7 +586,7 @@ result
 /
 set
 .
-do_print
+LOG
 (
 "
 begin
@@ -601,7 +601,7 @@ testData
 root
 )
 ;
-do_print
+LOG
 (
 "
 end
@@ -796,7 +796,7 @@ re
 query
 and
 test
-do_print
+LOG
 (
 "
 begin
@@ -813,7 +813,7 @@ testData
 root
 )
 ;
-do_print
+LOG
 (
 "
 end
@@ -945,7 +945,7 @@ re
 query
 and
 test
-do_print
+LOG
 (
 "
 begin
@@ -960,7 +960,7 @@ testData
 root
 )
 ;
-do_print
+LOG
 (
 "
 end

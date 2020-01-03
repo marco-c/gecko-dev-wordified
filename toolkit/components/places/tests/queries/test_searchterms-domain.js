@@ -775,7 +775,7 @@ containerOpen
 =
 true
 ;
-do_print
+LOG
 (
 "
 Number
@@ -810,7 +810,7 @@ childCount
 i
 )
 {
-do_print
+LOG
 (
 "
 result
@@ -869,7 +869,7 @@ to
 the
 query
 set
-do_print
+LOG
 (
 "
 Adding
@@ -878,7 +878,6 @@ to
 query
 "
 )
-;
 var
 change1
 =
@@ -941,7 +940,7 @@ Update
 an
 existing
 URI
-do_print
+LOG
 (
 "
 Updating
@@ -1021,7 +1020,7 @@ to
 the
 query
 .
-do_print
+LOG
 (
 "
 Updating
@@ -1196,7 +1195,7 @@ And
 now
 delete
 one
-do_print
+LOG
 (
 "
 Deleting

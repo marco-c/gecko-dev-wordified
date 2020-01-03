@@ -1198,7 +1198,7 @@ instantiation
 of
 qdata
 failed
-do_print
+LOG
 (
 "
 Problem
@@ -1950,7 +1950,7 @@ aArray
 aRoot
 )
 {
-do_print
+LOG
 (
 "
 Comparing
@@ -2040,7 +2040,7 @@ moz_historyvisits
 "
 )
 ;
-do_print
+LOG
 (
 "
 Found
@@ -2067,7 +2067,7 @@ i
 +
 )
 {
-do_print
+LOG
 (
 aRoot
 .
@@ -2080,7 +2080,7 @@ uri
 )
 ;
 }
-do_print
+LOG
 (
 "
 Expected
@@ -2115,7 +2115,7 @@ i
 .
 isInQuery
 )
-do_print
+LOG
 (
 aArray
 [
@@ -2180,7 +2180,7 @@ inQueryIndex
 ;
 /
 /
-do_print
+LOG
 (
 "
 testing
@@ -2224,7 +2224,7 @@ i
 isSeparator
 )
 {
-do_print
+LOG
 (
 "
 testing
@@ -2476,7 +2476,7 @@ containerOpen
 =
 false
 ;
-do_print
+LOG
 (
 "
 Comparing
@@ -2761,7 +2761,7 @@ debugging
 things
 .
 It
-prints
+LOGs
 the
 contents
 of
@@ -2813,7 +2813,7 @@ Empty
 result
 set
 ?
-do_print
+LOG
 (
 "
 Result
@@ -2843,7 +2843,7 @@ childCount
 i
 )
 {
-do_print
+LOG
 (
 "
 Result
