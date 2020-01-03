@@ -739,6 +739,14 @@ testing
 /
 mozbase
 /
+mozscreenshot
+'
+    
+'
+testing
+/
+mozbase
+/
 moztest
 '
     

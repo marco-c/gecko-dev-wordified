@@ -151,17 +151,6 @@ zipfile
 import
 bisection
 from
-automationutils
-import
-(
-    
-dumpScreen
-    
-printstatus
-    
-setAutomationLog
-)
-from
 datetime
 import
 datetime
@@ -231,6 +220,10 @@ mozrunner
 utils
 import
 test_environment
+from
+mozscreenshot
+import
+dump_screen
 import
 mozleak
 here
@@ -3908,13 +3901,6 @@ log
 self
 .
 log
-            
-setAutomationLog
-(
-self
-.
-log
-)
         
 self
 .
@@ -12300,9 +12286,12 @@ haveDumpedScreen
 =
 True
         
-dumpScreen
+dump_screen
 (
 utilityPath
+self
+.
+log
 )
     
 def
@@ -13805,6 +13794,19 @@ proc
 pid
 )
             
+self
+.
+log
+.
+process_start
+(
+"
+Main
+app
+process
+"
+)
+            
 if
 onLaunch
 is
@@ -13942,14 +13944,18 @@ wait
 (
 )
             
-printstatus
+self
+.
+log
+.
+process_exit
 (
-status
 "
 Main
 app
 process
 "
+status
 )
             
 runner

@@ -130,15 +130,6 @@ insert
 0
 SCRIPT_DIRECTORY
 )
-from
-automationutils
-import
-(
-    
-dumpScreen
-    
-printstatus
-)
 import
 mozcrash
 import
@@ -159,6 +150,11 @@ mozrunner
 utils
 import
 test_environment
+from
+mozscreenshot
+import
+printstatus
+dump_screen
 here
 =
 os
@@ -3846,9 +3842,10 @@ haveDumpedScreen
 =
 True
         
-dumpScreen
+dump_screen
 (
 utilityPath
+log
 )
     
 def
@@ -4009,10 +4006,10 @@ wait
                     
 printstatus
 (
-status
 "
 crashinject
 "
+status
 )
                     
 if
