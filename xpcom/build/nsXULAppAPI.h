@@ -200,6 +200,15 @@ Vector
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 /
 *
 *
@@ -2553,7 +2562,10 @@ XRE_StartupTimelineRecord
 (
 int
 aEvent
-PRTime
+mozilla
+:
+:
+TimeStamp
 aWhen
 )
 )
