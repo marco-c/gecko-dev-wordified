@@ -84,6 +84,15 @@ prenv
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 static
 PRLogModuleInfo
 *
