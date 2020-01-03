@@ -34580,9 +34580,9 @@ false
 rt
 -
 >
-freeLifoAlloc
+gc
 .
-transferFrom
+freeAllLifoBlocksAfterSweeping
 (
 &
 sweepTypeLifoAlloc

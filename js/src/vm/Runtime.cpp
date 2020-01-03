@@ -769,10 +769,6 @@ tempLifoAlloc
 (
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
-freeLifoAlloc
-(
-TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
-)
 execAlloc_
 (
 nullptr
