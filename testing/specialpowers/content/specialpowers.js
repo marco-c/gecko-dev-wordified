@@ -263,6 +263,9 @@ SPSetTestPluginEnabledState
 "
 SPWebAppService
 "
+"
+SPPeriodicServiceWorkerUpdates
+"
 ]
 ;
 this
