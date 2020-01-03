@@ -3195,7 +3195,7 @@ ThreadInfo
 info
 =
 new
-ThreadInfo
+StackOwningThreadInfo
 (
 aName
 id
