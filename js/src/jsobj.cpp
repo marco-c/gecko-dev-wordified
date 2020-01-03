@@ -27769,6 +27769,7 @@ i
 .
 scopeChain
 (
+cx
 )
 )
 ;

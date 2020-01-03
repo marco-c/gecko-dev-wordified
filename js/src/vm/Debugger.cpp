@@ -36089,6 +36089,7 @@ iter
 .
 scopeChain
 (
+cx
 )
 )
 ;
@@ -38982,6 +38983,7 @@ iter
 >
 scopeChain
 (
+cx
 )
 )
 ;

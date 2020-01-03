@@ -4312,6 +4312,7 @@ iter
 .
 scopeChain
 (
+cx
 )
 )
 ;
@@ -4594,6 +4595,7 @@ iter
 .
 callObj
 (
+cx
 )
 .
 aliasedVar

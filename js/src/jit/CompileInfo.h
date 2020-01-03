@@ -2829,6 +2829,12 @@ The
 |
 this
 |
+and
+the
+|
+scopeChain
+|
+values
 can
 be
 recovered
@@ -2839,6 +2845,14 @@ slot
 =
 =
 thisSlot
+(
+)
+|
+|
+slot
+=
+=
+scopeChainSlot
 (
 )
 )
