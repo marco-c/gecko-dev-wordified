@@ -85,7 +85,6 @@ from
 runreftest
 import
 RefTest
-ReftestOptions
 from
 marionette_driver
 import
@@ -353,47 +352,22 @@ def
 run_tests
 (
 self
-test_path
+tests
 options
 )
 :
         
-reftestlist
+manifests
 =
 self
 .
-getManifestPath
-(
-test_path
-)
-        
-if
-not
-reftestlist
+resolver
 .
-startswith
+resolveManifests
 (
-'
-file
-:
-/
-/
-'
+options
+tests
 )
-:
-            
-reftestlist
-=
-'
-file
-:
-/
-/
-%
-s
-'
-%
-reftestlist
         
 self
 .
@@ -404,7 +378,7 @@ self
 create_profile
 (
 options
-reftestlist
+manifests
                                            
 profile_to_clone
 =
@@ -786,7 +760,7 @@ create_profile
 (
 self
 options
-reftestlist
+manifests
 profile_to_clone
 =
 None
@@ -801,7 +775,7 @@ createReftestProfile
 (
 self
 options
-reftestlist
+manifests
                                                
 profile_to_clone
 =
@@ -1137,22 +1111,6 @@ remote
 ]
 =
 False
-        
-prefs
-[
-"
-reftest
-.
-uri
-"
-]
-=
-"
-%
-s
-"
-%
-reftestlist
         
 #
 Set
@@ -1623,7 +1581,6 @@ run_desktop_reftests
 (
 parser
 options
-args
 )
 :
     
@@ -1696,29 +1653,12 @@ B2GDesktopReftest
 marionette_args
 )
     
-options
-=
-ReftestOptions
-.
-verifyCommonOptions
-(
 parser
+.
+validate
+(
 options
 reftest
-)
-    
-if
-options
-=
-=
-None
-:
-        
-sys
-.
-exit
-(
-1
 )
     
 #
@@ -1849,10 +1789,9 @@ reftest
 .
 run_tests
 (
-args
-[
-0
-]
+options
+.
+tests
 options
 )
 )
