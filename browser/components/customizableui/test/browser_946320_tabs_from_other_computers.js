@@ -771,7 +771,6 @@ return
 new
 AccountState
 (
-this
 storageManager
 )
 ;

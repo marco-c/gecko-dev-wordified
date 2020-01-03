@@ -4879,7 +4879,6 @@ return
 new
 AccountState
 (
-this
 storageManager
 )
 ;
@@ -5432,7 +5431,6 @@ return
 new
 AccountState
 (
-this
 storageManager
 )
 ;
