@@ -5288,7 +5288,7 @@ mMessage
 )
 {
 case
-NS_IMAGE_ABORT
+eImageAbort
 :
 case
 eLoadError

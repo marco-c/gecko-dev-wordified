@@ -1000,7 +1000,7 @@ BEFOREUNLOAD_EVENT
 EVENT
 (
 abort
-NS_IMAGE_ABORT
+eImageAbort
 EventNameType_All
 eBasicEventClass
 )

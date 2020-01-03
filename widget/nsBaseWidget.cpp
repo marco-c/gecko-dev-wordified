@@ -20678,9 +20678,9 @@ NS_FORM_SUBMIT
 ;
 _ASSIGN_eventName
 (
-NS_IMAGE_ABORT
+eImageAbort
 "
-NS_IMAGE_ABORT
+eImageAbort
 "
 )
 ;

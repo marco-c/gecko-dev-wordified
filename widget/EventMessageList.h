@@ -576,7 +576,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_IMAGE_ABORT
+eImageAbort
 eStreamEventFirst
 +
 3
