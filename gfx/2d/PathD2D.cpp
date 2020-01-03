@@ -1631,7 +1631,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -1739,7 +1742,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -1790,7 +1796,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -1968,7 +1977,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 ;
@@ -2193,7 +2205,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 Rect
@@ -2299,7 +2314,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 Rect

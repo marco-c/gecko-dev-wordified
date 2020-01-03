@@ -1581,7 +1581,13 @@ Code
 "
 <
 <
+gfx
+:
+:
+hexa
+(
 hr
+)
 ;
 return
 ;
@@ -2020,7 +2026,13 @@ Code
 "
 <
 <
+gfx
+:
+:
+hexa
+(
 hr
+)
 ;
 return
 false

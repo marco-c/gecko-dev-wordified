@@ -397,7 +397,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -532,7 +535,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 }
 return
@@ -813,7 +819,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -931,7 +940,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
@@ -1445,7 +1457,10 @@ code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 false
@@ -1581,7 +1596,10 @@ Code
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 ;
