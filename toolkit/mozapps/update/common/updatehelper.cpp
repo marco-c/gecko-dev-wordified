@@ -212,6 +212,15 @@ WCHAR
 argv
 )
 ;
+BOOL
+PathAppendSafe
+(
+LPWSTR
+base
+LPCWSTR
+extra
+)
+;
 /
 *
 *
