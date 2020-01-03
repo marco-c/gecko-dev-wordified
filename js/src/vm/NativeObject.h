@@ -9115,8 +9115,6 @@ HandleValue
 v
 HandleValue
 receiver
-bool
-objHasOwn
 ObjectOpResult
 &
 result
