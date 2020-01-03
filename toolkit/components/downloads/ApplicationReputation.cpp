@@ -6667,7 +6667,7 @@ aTriggeringPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -6866,10 +6866,9 @@ rv
 mChannel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 this
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
