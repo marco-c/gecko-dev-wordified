@@ -124,6 +124,8 @@ querySelector
 (
 "
 #
+global
+-
 toolbar
 "
 )
@@ -206,6 +208,8 @@ querySelector
 (
 "
 #
+global
+-
 toolbar
 "
 )

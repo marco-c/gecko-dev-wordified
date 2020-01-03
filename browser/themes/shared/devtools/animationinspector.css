@@ -251,6 +251,8 @@ button
 *
 /
 #
+global
+-
 toolbar
 {
 border
@@ -307,6 +309,8 @@ height
 ;
 }
 #
+global
+-
 toolbar
 .
 label

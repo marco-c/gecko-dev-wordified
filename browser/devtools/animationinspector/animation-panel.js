@@ -336,7 +336,7 @@ the
 /
 /
 whole
-bottom
+global
 toolbar
 .
 if
@@ -355,6 +355,8 @@ querySelector
 (
 "
 #
+global
+-
 toolbar
 "
 )
