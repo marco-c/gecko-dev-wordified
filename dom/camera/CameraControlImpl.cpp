@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsIWeakReferenceUtils
 .
 h
