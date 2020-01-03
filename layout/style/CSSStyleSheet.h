@@ -1546,6 +1546,16 @@ nsAString
 aInput
 )
 ;
+void
+SetInRuleProcessorCache
+(
+)
+{
+mInRuleProcessorCache
+=
+true
+;
+}
 /
 /
 nsIDOMStyleSheet
@@ -2315,6 +2325,9 @@ mDirty
 has
 been
 modified
+bool
+mInRuleProcessorCache
+;
 nsRefPtr
 <
 dom
