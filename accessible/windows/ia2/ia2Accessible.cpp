@@ -2198,7 +2198,7 @@ aStates
 IA2_STATE_DEFUNCT
 ;
 return
-CO_E_OBJNOTCONNECTED
+S_OK
 ;
 }
 uint64_t
