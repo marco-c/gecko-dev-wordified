@@ -345,13 +345,6 @@ LayerMetricsWrapper
 #
 include
 "
-nsCSSPropList
-.
-h
-"
-#
-include
-"
 nsCoord
 .
 h
