@@ -463,7 +463,7 @@ TEST_ORIGIN
 spec
 +
 "
-!
+^
 appId
 =
 1000
