@@ -556,6 +556,8 @@ exists
 require
 (
 '
+sdk
+/
 test
 '
 )

@@ -131,6 +131,8 @@ tests
 require
 (
 "
+sdk
+/
 test
 "
 )

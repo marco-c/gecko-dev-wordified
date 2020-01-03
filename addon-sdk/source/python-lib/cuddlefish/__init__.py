@@ -7729,10 +7729,6 @@ enable_mobile
 options
 .
 enable_mobile
-                                
-harness_options
-=
-harness_options
 )
     
 if

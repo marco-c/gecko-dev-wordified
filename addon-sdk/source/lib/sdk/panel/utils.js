@@ -2170,15 +2170,12 @@ onContentChange
 (
 {
 subject
+:
+document
 type
 }
 )
 {
-let
-document
-=
-subject
-;
 if
 (
 document

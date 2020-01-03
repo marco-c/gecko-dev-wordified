@@ -282,6 +282,8 @@ platform
 require
 (
 "
+sdk
+/
 test
 "
 )

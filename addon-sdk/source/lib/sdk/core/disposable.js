@@ -374,6 +374,12 @@ disposable
 ;
 }
 ;
+exports
+.
+setupDisposable
+=
+setupDisposable
+;
 /
 /
 Tears
@@ -395,6 +401,12 @@ addonUnloadTopic
 )
 ;
 }
+;
+exports
+.
+disposeDisposable
+=
+disposeDisposable
 ;
 /
 /

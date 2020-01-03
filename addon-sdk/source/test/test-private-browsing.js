@@ -887,6 +887,8 @@ test
 .
 run
 (
+module
+.
 exports
 )
 ;

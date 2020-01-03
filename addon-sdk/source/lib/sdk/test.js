@@ -92,9 +92,7 @@ const
 Task
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -149,6 +147,7 @@ const
 {
 isFunction
 isObject
+isGenerator
 }
 =
 require
@@ -524,15 +523,9 @@ runs
 .
 if
 (
-test
-.
-isGenerator
-&
-&
-test
-.
 isGenerator
 (
+test
 )
 )
 {
@@ -555,9 +548,8 @@ assert
 )
 )
 .
-then
+catch
 (
-null
 assert
 .
 fail

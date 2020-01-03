@@ -1410,6 +1410,8 @@ pref
 require
 (
 "
+sdk
+/
 test
 "
 )
