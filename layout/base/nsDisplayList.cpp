@@ -2380,7 +2380,10 @@ const
 AnimationProperty
 &
 aProperty
-AnimationPlayer
+dom
+:
+:
+Animation
 *
 aPlayer
 Layer
@@ -2937,7 +2940,10 @@ playerIdx
 +
 )
 {
-AnimationPlayer
+dom
+:
+:
+Animation
 *
 player
 =

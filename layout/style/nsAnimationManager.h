@@ -118,7 +118,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -345,7 +345,7 @@ public
 dom
 :
 :
-AnimationPlayer
+Animation
 {
 public
 :
@@ -363,7 +363,7 @@ aTimeline
 dom
 :
 :
-AnimationPlayer
+Animation
 (
 aTimeline
 )
@@ -933,7 +933,7 @@ E
 The
 base
 class
-AnimationPlayer
+Animation
 already
 provides
 a

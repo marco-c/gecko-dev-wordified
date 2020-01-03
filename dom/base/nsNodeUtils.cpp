@@ -257,7 +257,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -1313,7 +1313,7 @@ Element
 *
 GetTarget
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -1431,7 +1431,7 @@ nsNodeUtils
 :
 AnimationAdded
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -1492,7 +1492,7 @@ nsNodeUtils
 :
 AnimationChanged
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -1553,7 +1553,7 @@ nsNodeUtils
 :
 AnimationRemoved
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )

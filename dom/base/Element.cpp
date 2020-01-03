@@ -180,7 +180,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -18163,7 +18163,7 @@ nsTArray
 <
 nsRefPtr
 <
-AnimationPlayer
+Animation
 >
 >
 &
@@ -18279,7 +18279,7 @@ playerIdx
 +
 )
 {
-AnimationPlayer
+Animation
 *
 player
 =

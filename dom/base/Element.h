@@ -716,7 +716,7 @@ namespace
 dom
 {
 class
-AnimationPlayer
+Animation
 ;
 class
 Link
@@ -4696,7 +4696,7 @@ nsTArray
 <
 nsRefPtr
 <
-AnimationPlayer
+Animation
 >
 >
 &

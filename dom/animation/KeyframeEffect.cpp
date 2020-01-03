@@ -1613,7 +1613,7 @@ KeyframeEffectReadonly
 IsInPlay
 (
 const
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -1682,7 +1682,7 @@ KeyframeEffectReadonly
 IsCurrent
 (
 const
-AnimationPlayer
+Animation
 &
 aPlayer
 )
