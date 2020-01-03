@@ -9153,7 +9153,7 @@ error
 =
 >
 {
-this
+MozLoopServiceInternal
 .
 _hawkRequestError
 (
