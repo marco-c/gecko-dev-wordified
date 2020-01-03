@@ -1536,6 +1536,9 @@ if
 Available
 (
 )
+|
+|
+mIsDone
 )
 {
 SpdyStream31
@@ -1576,6 +1579,10 @@ X
 %
 u
 ]
+done
+=
+%
+d
 \
 n
 "
@@ -1588,6 +1595,7 @@ StreamID
 Available
 (
 )
+mIsDone
 )
 )
 ;
