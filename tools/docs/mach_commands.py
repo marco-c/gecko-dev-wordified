@@ -215,16 +215,14 @@ virtualenv_manager
 install_pip_package
 (
 '
-mdn
--
-sphinx
--
-theme
+sphinx_rtd_theme
 =
 =
 0
 .
-4
+1
+.
+6
 '
 )
         
