@@ -625,10 +625,8 @@ mTaskQueue
 bool
 QueueInitializeDecoder
 (
-nsRefPtr
-<
 SourceBufferDecoder
->
+*
 aDecoder
 )
 ;
@@ -656,10 +654,8 @@ pool
 void
 InitializeDecoder
 (
-nsRefPtr
-<
 SourceBufferDecoder
->
+*
 aDecoder
 )
 ;
@@ -713,10 +709,8 @@ registered
 bool
 RegisterDecoder
 (
-nsRefPtr
-<
 SourceBufferDecoder
->
+*
 aDecoder
 )
 ;
@@ -797,10 +791,8 @@ function
 void
 RemoveDecoder
 (
-nsRefPtr
-<
 SourceBufferDecoder
->
+*
 aDecoder
 )
 ;
