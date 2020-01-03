@@ -3554,7 +3554,10 @@ isLatin1
 JSInlineString
 :
 :
-latin1LengthFits
+lengthFits
+<
+Latin1Char
+>
 (
 wholeLength
 )
@@ -3562,7 +3565,10 @@ wholeLength
 JSInlineString
 :
 :
-twoByteLengthFits
+lengthFits
+<
+char16_t
+>
 (
 wholeLength
 )
@@ -6506,7 +6512,10 @@ if
 JSInlineString
 :
 :
-latin1LengthFits
+lengthFits
+<
+Latin1Char
+>
 (
 n
 )
