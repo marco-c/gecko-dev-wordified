@@ -231,7 +231,6 @@ preventDefault
 "
 )
 ;
-let
 request
 =
 objectStore

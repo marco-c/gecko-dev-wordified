@@ -1538,7 +1538,6 @@ scrollTop
 =
 0
 ;
-let
 quad
 =
 helper

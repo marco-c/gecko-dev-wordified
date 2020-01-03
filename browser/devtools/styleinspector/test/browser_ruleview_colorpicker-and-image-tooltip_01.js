@@ -564,7 +564,6 @@ link
 "
 )
 ;
-let
 anchor
 =
 yield

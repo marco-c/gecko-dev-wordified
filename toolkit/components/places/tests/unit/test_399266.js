@@ -616,7 +616,6 @@ test
 .
 com
 /
-let
 options
 =
 PlacesUtils
@@ -643,7 +642,6 @@ options
 .
 RESULTS_AS_URI
 ;
-let
 root
 =
 PlacesUtils
@@ -670,7 +668,6 @@ containerOpen
 =
 true
 ;
-let
 cc
 =
 root

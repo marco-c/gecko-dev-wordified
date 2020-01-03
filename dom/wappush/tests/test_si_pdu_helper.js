@@ -389,7 +389,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI
@@ -533,7 +532,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI
@@ -710,7 +708,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI
@@ -905,7 +902,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI
@@ -1163,7 +1159,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI
@@ -1423,7 +1418,6 @@ si
 >
 "
 ;
-let
 msg
 =
 SI

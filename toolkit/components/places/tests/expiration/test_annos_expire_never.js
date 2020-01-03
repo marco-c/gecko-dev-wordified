@@ -803,7 +803,6 @@ promiseForceExpirationStep
 10
 )
 ;
-let
 pages
 =
 as
@@ -842,7 +841,6 @@ length
 0
 )
 ;
-let
 items
 =
 as

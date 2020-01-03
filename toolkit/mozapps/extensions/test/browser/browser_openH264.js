@@ -1980,7 +1980,6 @@ deferred
 .
 promise
 ;
-let
 button
 =
 doc

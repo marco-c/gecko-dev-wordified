@@ -335,7 +335,6 @@ removable
 "
 )
 ;
-let
 btn
 =
 document

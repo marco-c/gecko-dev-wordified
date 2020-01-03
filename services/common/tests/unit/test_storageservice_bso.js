@@ -149,7 +149,6 @@ ttl
 null
 )
 ;
-let
 bso
 =
 new
@@ -186,7 +185,6 @@ data
 0
 )
 ;
-let
 bso
 =
 new
@@ -449,7 +447,6 @@ JSON
 "
 )
 ;
-let
 json
 =
 '
@@ -461,7 +458,6 @@ foobar
 }
 '
 ;
-let
 bso
 =
 new
@@ -511,7 +507,6 @@ JSON
 "
 )
 ;
-let
 json
 =
 '
@@ -540,7 +535,6 @@ irrelevant
 }
 '
 ;
-let
 bso
 =
 new
@@ -607,7 +601,6 @@ works
 "
 )
 ;
-let
 bso
 =
 new
@@ -671,7 +664,6 @@ caught
 "
 )
 ;
-let
 bso
 =
 new

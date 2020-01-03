@@ -263,7 +263,6 @@ bar
 1
 "
 ;
-let
 result
 =
 CryptoUtils
@@ -447,7 +446,6 @@ nonce
 length
 )
 ;
-let
 result
 =
 get_mac
@@ -468,7 +466,6 @@ nonce
 length
 )
 ;
-let
 result
 =
 get_mac
@@ -489,7 +486,6 @@ nonce
 length
 )
 ;
-let
 result
 =
 get_mac

@@ -1049,7 +1049,6 @@ doc
 defaultView
 )
 ;
-let
 id
 =
 yield
@@ -1286,7 +1285,6 @@ class
 "
 )
 ;
-let
 nodes
 =
 doc
@@ -1488,7 +1486,6 @@ class
 "
 )
 ;
-let
 nodes
 =
 doc
@@ -1714,7 +1711,6 @@ class
 "
 )
 ;
-let
 nodes
 =
 doc
@@ -1917,7 +1913,6 @@ class
 "
 )
 ;
-let
 nodes
 =
 doc

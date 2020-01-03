@@ -289,7 +289,7 @@ pref
 "
 )
 ;
-let
+(
 {
 tab
 }
@@ -299,8 +299,8 @@ loadTab
 (
 TEST_URI
 )
+)
 ;
-let
 target
 =
 TargetFactory
@@ -609,7 +609,7 @@ pref
 "
 )
 ;
-let
+(
 {
 tab
 }
@@ -619,8 +619,8 @@ loadTab
 (
 TEST_URI
 )
+)
 ;
-let
 target
 =
 TargetFactory

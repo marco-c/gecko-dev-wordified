@@ -339,7 +339,6 @@ changed
 "
 )
 ;
-let
 oldFragSource
 =
 yield
@@ -349,7 +348,6 @@ getText
 (
 )
 ;
-let
 newFragSource
 =
 oldFragSource
@@ -376,7 +374,6 @@ vec4
 "
 )
 ;
-let
 status
 =
 yield

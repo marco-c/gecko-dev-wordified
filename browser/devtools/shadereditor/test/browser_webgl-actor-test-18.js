@@ -185,7 +185,6 @@ canvas
 .
 "
 )
-let
 pixel
 =
 yield

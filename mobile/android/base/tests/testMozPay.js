@@ -599,7 +599,6 @@ defer
 (
 )
 ;
-let
 id
 =
 getRequestId

@@ -346,7 +346,6 @@ change
 "
 )
 ;
-let
 updated
 =
 waitForDebuggerEvents
@@ -442,7 +441,6 @@ keyup
 "
 )
 ;
-let
 updated
 =
 waitForDebuggerEvents
@@ -540,7 +538,6 @@ keyup
 "
 )
 ;
-let
 updated
 =
 waitForDebuggerEvents

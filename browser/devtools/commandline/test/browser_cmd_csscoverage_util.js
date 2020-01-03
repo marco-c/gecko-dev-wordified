@@ -165,7 +165,6 @@ a
 '
 |
 '
-let
 rule
 =
 csscoverage

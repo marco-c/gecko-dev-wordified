@@ -1108,7 +1108,6 @@ folderListPrefName
 2
 )
 ;
-let
 downloadDir
 =
 yield
@@ -1363,7 +1362,6 @@ folderListPrefName
 999
 )
 ;
-let
 downloadDir
 =
 yield

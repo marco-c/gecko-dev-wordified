@@ -1722,7 +1722,6 @@ param1
 param2
 )
 {
-let
 stmt
 =
 cps

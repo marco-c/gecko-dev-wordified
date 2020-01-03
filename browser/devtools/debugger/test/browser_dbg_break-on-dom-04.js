@@ -334,7 +334,6 @@ change
 "
 )
 ;
-let
 updated
 =
 waitForDebuggerEvents

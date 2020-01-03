@@ -329,7 +329,6 @@ crypto
 "
 )
 ;
-let
 [
 all
 version
@@ -460,7 +459,6 @@ storage
 "
 )
 ;
-let
 [
 all
 version
@@ -532,6 +530,10 @@ storage
 )
 ;
 let
+storage
+collection
+id
+;
 [
 all
 storage

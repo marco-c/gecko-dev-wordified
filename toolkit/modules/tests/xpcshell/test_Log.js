@@ -1294,7 +1294,6 @@ errored
 )
 ;
 }
-let
 errored
 =
 false
@@ -1371,7 +1370,6 @@ for
 these
 cases
 .
-let
 appender
 =
 new
@@ -1385,7 +1383,6 @@ StructuredFormatter
 )
 )
 ;
-let
 logger
 =
 Log
@@ -3025,7 +3022,6 @@ on
 an
 object
 .
-let
 ob
 =
 function
@@ -3691,7 +3687,6 @@ NS_ERROR_FAILURE
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3726,7 +3721,6 @@ exception
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3767,7 +3761,6 @@ exception
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3836,7 +3829,6 @@ formatted
 params
 object
 .
-let
 str
 =
 formatMessage
@@ -3887,7 +3879,6 @@ exactly
 that
 string
 .
-let
 str
 =
 formatMessage

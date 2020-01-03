@@ -373,7 +373,6 @@ color
 .
 "
 )
-let
 fontSize
 =
 getRuleViewPropertyValue

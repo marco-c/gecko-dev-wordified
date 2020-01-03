@@ -294,7 +294,7 @@ addTab
 TEST_URI_XUL
 )
 ;
-let
+(
 {
 toolbox
 inspector
@@ -305,8 +305,8 @@ yield
 openRuleView
 (
 )
+)
 ;
-let
 target
 =
 getNode

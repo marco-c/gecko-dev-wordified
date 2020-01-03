@@ -694,7 +694,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -805,7 +804,6 @@ as
 evironment
 bindings
 .
-let
 fetched
 =
 waitForDebuggerEvents
@@ -944,7 +942,6 @@ arguments
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -1015,7 +1012,6 @@ arguments
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -1103,7 +1099,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -1174,7 +1169,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents

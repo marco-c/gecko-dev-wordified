@@ -1190,6 +1190,7 @@ do_test_pending
 (
 )
 ;
+let
 logger
 =
 Log
@@ -1639,7 +1640,6 @@ Observe
 logging
 messages
 .
-let
 logger
 =
 res

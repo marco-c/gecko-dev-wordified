@@ -1015,7 +1015,6 @@ crypto
 "
 )
 ;
-let
 [
 all
 version
@@ -1146,7 +1145,6 @@ storage
 "
 )
 ;
-let
 [
 all
 version
@@ -1218,6 +1216,10 @@ storage
 )
 ;
 let
+storage
+collection
+id
+;
 [
 all
 storage
@@ -1528,7 +1530,6 @@ col1
 "
 )
 ;
-let
 request
 =
 localRequest
@@ -1543,7 +1544,6 @@ password
 "
 )
 ;
-let
 error
 =
 doGetRequest
@@ -2415,7 +2415,6 @@ response
 headers
 )
 ;
-let
 request
 =
 localRequest
@@ -2470,7 +2469,6 @@ serverTime
 )
 )
 ;
-let
 error
 =
 doGetRequest
@@ -2780,7 +2778,6 @@ through
 "
 )
 ;
-let
 request
 =
 localRequest
@@ -2842,7 +2839,6 @@ time
 1
 )
 ;
-let
 error
 =
 doPutRequest
@@ -2924,7 +2920,6 @@ through
 "
 )
 ;
-let
 request
 =
 localRequest
@@ -2984,7 +2979,6 @@ Since
 time
 )
 ;
-let
 error
 =
 doPutRequest
@@ -3422,7 +3416,6 @@ exist
 "
 )
 ;
-let
 request
 =
 localRequest
@@ -3450,7 +3443,6 @@ password
 "
 )
 ;
-let
 error
 =
 doGetRequest
@@ -3716,7 +3708,6 @@ work
 "
 )
 ;
-let
 request
 =
 localRequest
@@ -3749,7 +3740,6 @@ modified
 1000
 )
 ;
-let
 error
 =
 doDeleteRequest
@@ -3998,7 +3988,6 @@ serverModified
 1
 )
 ;
-let
 error
 =
 doGetRequest
@@ -4237,7 +4226,6 @@ serverModified
 1
 )
 ;
-let
 error
 =
 doGetRequest

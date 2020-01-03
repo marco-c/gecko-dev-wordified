@@ -437,7 +437,6 @@ keydown
 "
 )
 ;
-let
 updated
 =
 waitForDebuggerEvents

@@ -470,7 +470,6 @@ as
 root
 node
 .
-let
 query
 =
 PlacesUtils
@@ -491,7 +490,6 @@ setFolders
 1
 )
 ;
-let
 options
 =
 PlacesUtils
@@ -502,7 +500,6 @@ getNewQueryOptions
 (
 )
 ;
-let
 root
 =
 PlacesUtils

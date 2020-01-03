@@ -412,7 +412,6 @@ VK_DOWN
 yield
 onUpdated
 ;
-let
 onUpdated
 =
 inspector
@@ -475,7 +474,6 @@ keyboard
 "
 )
 ;
-let
 onUpdated
 =
 inspector

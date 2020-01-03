@@ -877,7 +877,6 @@ Ci
 nsIMozIconURI
 )
 ;
-let
 fileURL
 =
 null

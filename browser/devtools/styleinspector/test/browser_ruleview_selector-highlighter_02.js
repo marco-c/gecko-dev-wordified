@@ -441,7 +441,6 @@ p
 inspector
 )
 ;
-let
 selectorSpan
 =
 getRuleViewSelector
@@ -527,7 +526,6 @@ body
 inspector
 )
 ;
-let
 selectorSpan
 =
 getRuleViewSelector

@@ -192,7 +192,6 @@ constructor
 "
 )
 ;
-let
 event
 =
 new

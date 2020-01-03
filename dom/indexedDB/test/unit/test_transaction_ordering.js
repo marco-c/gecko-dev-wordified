@@ -232,7 +232,6 @@ readonly
 "
 )
 ;
-let
 request
 =
 trans3
@@ -261,7 +260,6 @@ onerror
 =
 errorHandler
 ;
-let
 event
 =
 yield

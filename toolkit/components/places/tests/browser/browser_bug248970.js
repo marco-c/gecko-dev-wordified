@@ -911,7 +911,6 @@ nsINavHistoryQueryOptions
 .
 QUERY_TYPE_HISTORY
 ;
-let
 root
 =
 PlacesUtils

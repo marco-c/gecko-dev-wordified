@@ -621,7 +621,6 @@ toolbar
 "
 )
 ;
-let
 homeButtonPlacement
 =
 CustomizableUI

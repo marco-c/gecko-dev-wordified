@@ -2215,7 +2215,7 @@ return
 ;
 }
 let
-hud
+contentHud
 =
 HUDService
 .
@@ -2227,7 +2227,7 @@ content
 if
 (
 !
-hud
+contentHud
 )
 {
 finish
@@ -2239,12 +2239,12 @@ return
 }
 if
 (
-hud
+contentHud
 .
 jsterm
 )
 {
-hud
+contentHud
 .
 jsterm
 .
@@ -2256,7 +2256,7 @@ true
 }
 closeConsole
 (
-hud
+contentHud
 .
 target
 .
@@ -2264,7 +2264,7 @@ tab
 finish
 )
 ;
-hud
+contentHud
 =
 null
 ;

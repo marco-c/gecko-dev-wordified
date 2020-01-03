@@ -937,7 +937,6 @@ the
 unique
 index
 .
-let
 cookie
 =
 new

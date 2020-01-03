@@ -427,7 +427,6 @@ location
 }
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents

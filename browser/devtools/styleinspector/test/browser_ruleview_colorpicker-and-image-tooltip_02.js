@@ -449,7 +449,6 @@ link
 "
 )
 ;
-let
 onShown
 =
 ruleView
@@ -510,7 +509,6 @@ correct
 "
 )
 ;
-let
 swatch
 =
 value

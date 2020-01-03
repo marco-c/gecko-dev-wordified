@@ -389,7 +389,6 @@ remove
 (
 )
 ;
-let
 placement
 =
 CustomizableUI
@@ -430,7 +429,6 @@ startCustomizing
 (
 )
 ;
-let
 placement
 =
 CustomizableUI

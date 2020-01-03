@@ -999,6 +999,7 @@ testDcs
 [
 ]
 ;
+let
 dcs
 =
 0
@@ -1062,7 +1063,6 @@ coding
 group
 skip
 .
-let
 dcs
 =
 (

@@ -695,7 +695,6 @@ VK_ESCAPE
 yield
 hiddenPanelPromise
 ;
-let
 navbar
 =
 document

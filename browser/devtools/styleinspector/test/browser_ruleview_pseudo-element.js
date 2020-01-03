@@ -1022,7 +1022,6 @@ element
 "
 )
 ;
-let
 firstProp
 =
 elementRuleView

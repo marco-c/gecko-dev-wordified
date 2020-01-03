@@ -576,7 +576,6 @@ data
 was
 deleted
 .
-let
 result
 =
 yield

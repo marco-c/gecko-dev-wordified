@@ -471,7 +471,6 @@ similarly
 looking
 glyphs
 .
-let
 loginInfo
 =
 TestData

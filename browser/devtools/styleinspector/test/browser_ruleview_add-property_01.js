@@ -611,7 +611,6 @@ blur
 "
 )
 ;
-let
 onModifications
 =
 elementRuleEditor

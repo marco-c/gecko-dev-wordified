@@ -370,7 +370,6 @@ tab
 "
 )
 ;
-let
 deferred
 =
 Promise

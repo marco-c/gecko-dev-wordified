@@ -400,7 +400,6 @@ change
 "
 )
 ;
-let
 ruleViewRefreshed
 =
 inspector

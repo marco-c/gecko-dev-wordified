@@ -243,7 +243,6 @@ record
 "
 )
 ;
-let
 rec
 =
 {
@@ -314,7 +313,6 @@ record
 "
 )
 ;
-let
 rec
 =
 {

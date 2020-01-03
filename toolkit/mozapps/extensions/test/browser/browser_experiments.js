@@ -4784,7 +4784,6 @@ experiment
 "
 )
 ;
-let
 el
 =
 gManagerWindow

@@ -455,14 +455,12 @@ onceEditorActivated
 projecteditor
 )
 ;
-let
 editor
 =
 projecteditor
 .
 currentEditor
 ;
-let
 images
 =
 editor

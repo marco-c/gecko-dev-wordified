@@ -738,7 +738,6 @@ the
 frame
 script
 .
-let
 tab
 =
 win
@@ -754,7 +753,6 @@ mozilla
 "
 )
 ;
-let
 browser
 =
 tab
@@ -789,7 +787,6 @@ tab
 as
 private
 .
-let
 state
 =
 JSON

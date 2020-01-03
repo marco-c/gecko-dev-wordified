@@ -172,7 +172,6 @@ projecteditor2
 .
 menubar
 ;
-let
 fileMenu
 =
 projecteditor2
@@ -188,7 +187,6 @@ menu
 "
 )
 ;
-let
 editMenu
 =
 projecteditor2

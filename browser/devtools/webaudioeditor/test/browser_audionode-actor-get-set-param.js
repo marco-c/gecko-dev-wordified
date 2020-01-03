@@ -165,7 +165,6 @@ AudioParam
 "
 )
 ;
-let
 type
 =
 yield
@@ -228,7 +227,6 @@ frequency
 220
 )
 ;
-let
 freq
 =
 yield
@@ -289,7 +287,6 @@ square
 "
 )
 ;
-let
 type
 =
 yield

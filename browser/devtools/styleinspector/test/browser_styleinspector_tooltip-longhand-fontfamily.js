@@ -257,7 +257,7 @@ view
 "
 )
 ;
-let
+(
 {
 toolbox
 inspector
@@ -267,6 +267,7 @@ view
 yield
 openComputedView
 (
+)
 )
 ;
 yield

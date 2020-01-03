@@ -2101,7 +2101,6 @@ keyIndex
 =
 2
 ;
-let
 keyRange
 =
 IDBKeyRange
@@ -2249,7 +2248,6 @@ keyIndex
 =
 1
 ;
-let
 keyRange
 =
 IDBKeyRange

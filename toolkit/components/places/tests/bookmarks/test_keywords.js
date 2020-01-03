@@ -206,6 +206,7 @@ check_orphans
 (
 )
 {
+let
 stmt
 =
 DBConn
@@ -270,7 +271,6 @@ entries
 "
 )
 ;
-let
 stmt
 =
 DBConn

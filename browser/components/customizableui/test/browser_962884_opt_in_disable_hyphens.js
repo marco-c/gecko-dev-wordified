@@ -331,7 +331,6 @@ text
 "
 )
 ;
-let
 multilineTextCS
 =
 getComputedStyle
@@ -484,7 +483,6 @@ mode
 "
 )
 ;
-let
 multilineText
 =
 document
@@ -504,7 +502,6 @@ text
 "
 )
 ;
-let
 multilineTextCS
 =
 getComputedStyle

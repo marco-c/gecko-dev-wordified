@@ -382,7 +382,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -396,6 +396,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -634,7 +635,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -648,6 +649,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1205,7 +1207,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -1219,6 +1221,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1346,7 +1349,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -1360,6 +1363,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1584,7 +1588,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -1598,6 +1602,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1855,7 +1860,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -1869,6 +1874,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1976,7 +1982,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -1990,6 +1996,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;

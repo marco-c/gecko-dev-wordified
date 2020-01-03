@@ -77,8 +77,6 @@ html
 "
 ;
 let
-panel
-debuggee
 gDebugger
 searchBox
 ;

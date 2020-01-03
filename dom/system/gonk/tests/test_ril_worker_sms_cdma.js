@@ -911,7 +911,6 @@ writeByte
 Bearer
 Data
 Length
-let
 dataLength
 =
 pdu

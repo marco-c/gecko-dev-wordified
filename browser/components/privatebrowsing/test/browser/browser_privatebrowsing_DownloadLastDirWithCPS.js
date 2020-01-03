@@ -2209,7 +2209,6 @@ moveAlong
 ;
 yield
 ;
-let
 pbWin
 =
 yield
@@ -2222,7 +2221,6 @@ true
 }
 )
 ;
-let
 pbDownloadLastDir
 =
 new

@@ -581,7 +581,6 @@ ua
 "
 )
 ;
-let
 userRules
 =
 view
@@ -602,7 +601,6 @@ editor
 isEditable
 )
 ;
-let
 uaRules
 =
 view
@@ -672,7 +670,6 @@ ua
 "
 )
 ;
-let
 userRules
 =
 view
@@ -693,7 +690,6 @@ editor
 isEditable
 )
 ;
-let
 uaRules
 =
 view
@@ -1001,7 +997,6 @@ inspector
 view
 )
 ;
-let
 userRules
 =
 view
@@ -1022,7 +1017,6 @@ editor
 isEditable
 )
 ;
-let
 uaRules
 =
 view
@@ -1088,7 +1082,6 @@ inspector
 view
 )
 ;
-let
 userRules
 =
 view
@@ -1109,7 +1102,6 @@ editor
 isEditable
 )
 ;
-let
 uaRules
 =
 view

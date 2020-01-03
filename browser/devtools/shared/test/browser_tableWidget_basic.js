@@ -2742,7 +2742,6 @@ col2
 "
 )
 ;
-let
 cell
 =
 table
@@ -2786,7 +2785,6 @@ col2
 "
 )
 ;
-let
 cell
 =
 table
@@ -2840,7 +2838,6 @@ col4
 "
 )
 ;
-let
 cell
 =
 table
@@ -2901,7 +2898,6 @@ col4
 "
 )
 ;
-let
 cell
 =
 table

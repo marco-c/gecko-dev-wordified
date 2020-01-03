@@ -403,7 +403,6 @@ a
 true
 )
 ;
-let
 vertSource
 =
 yield
@@ -413,7 +412,6 @@ getText
 (
 )
 ;
-let
 fragSource
 =
 yield
@@ -497,7 +495,6 @@ replace
 "
 )
 ;
-let
 status
 =
 yield
@@ -613,7 +610,6 @@ a
 true
 )
 ;
-let
 vertSource
 =
 yield
@@ -623,7 +619,6 @@ getText
 (
 )
 ;
-let
 fragSource
 =
 yield

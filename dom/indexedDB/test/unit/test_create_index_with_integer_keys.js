@@ -178,7 +178,6 @@ close
 (
 )
 ;
-let
 request
 =
 indexedDB
@@ -214,7 +213,6 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield

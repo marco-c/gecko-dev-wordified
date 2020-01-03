@@ -285,7 +285,6 @@ is
 as
 expected
 .
-let
 stmt
 =
 db

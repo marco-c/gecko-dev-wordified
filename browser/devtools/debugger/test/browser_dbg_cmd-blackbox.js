@@ -309,7 +309,6 @@ unblackbox
 BLACKBOXME_URL
 )
 ;
-let
 bbButton
 =
 yield
@@ -381,7 +380,6 @@ g
 ]
 )
 ;
-let
 bbButton
 =
 yield
@@ -535,7 +533,6 @@ js
 2
 )
 ;
-let
 bbButton
 =
 yield
@@ -644,7 +641,6 @@ g
 ]
 )
 ;
-let
 bbButton
 =
 yield
@@ -833,7 +829,6 @@ js
 3
 )
 ;
-let
 bbButton
 =
 yield

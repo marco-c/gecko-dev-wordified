@@ -183,7 +183,7 @@ selection
 "
 )
 ;
-let
+(
 {
 view
 }
@@ -191,6 +191,7 @@ view
 yield
 openComputedView
 (
+)
 )
 ;
 yield

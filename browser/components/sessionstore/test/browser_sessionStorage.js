@@ -304,7 +304,7 @@ flush
 (
 )
 ;
-let
+(
 {
 storage
 }
@@ -318,6 +318,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -443,7 +444,7 @@ flush
 (
 )
 ;
-let
+(
 {
 storage
 }
@@ -457,6 +458,7 @@ ss
 getTabState
 (
 tab2
+)
 )
 )
 ;
@@ -580,7 +582,7 @@ flush
 (
 )
 ;
-let
+(
 {
 storage
 }
@@ -594,6 +596,7 @@ ss
 getTabState
 (
 tab2
+)
 )
 )
 ;
@@ -711,7 +714,7 @@ flush
 (
 )
 ;
-let
+(
 {
 storage
 }
@@ -725,6 +728,7 @@ ss
 getTabState
 (
 tab2
+)
 )
 )
 ;
@@ -1227,7 +1231,6 @@ privacy_level
 1
 )
 ;
-let
 tab
 =
 gBrowser
@@ -1257,7 +1260,6 @@ removeTab
 tab
 )
 ;
-let
 [
 {
 state
@@ -1374,7 +1376,6 @@ all
 private
 data
 .
-let
 tab
 =
 gBrowser
@@ -1438,7 +1439,6 @@ any
 sessionStorage
 data
 .
-let
 [
 {
 state
@@ -1528,7 +1528,6 @@ persist
 all
 data
 .
-let
 [
 {
 state

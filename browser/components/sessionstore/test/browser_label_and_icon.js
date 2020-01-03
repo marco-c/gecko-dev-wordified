@@ -226,7 +226,6 @@ to
 restore
 into
 .
-let
 tab
 =
 gBrowser

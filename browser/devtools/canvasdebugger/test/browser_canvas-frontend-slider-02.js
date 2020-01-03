@@ -271,7 +271,6 @@ index
 "
 )
 ;
-let
 thumbnailImageElementSet
 =
 waitForMozSetImageElement
@@ -292,7 +291,6 @@ value
 =
 2
 ;
-let
 thumbnailPixels
 =
 yield
@@ -356,7 +354,6 @@ index
 "
 )
 ;
-let
 thumbnailImageElementSet
 =
 waitForMozSetImageElement
@@ -377,7 +374,6 @@ value
 =
 7
 ;
-let
 thumbnailPixels
 =
 yield
@@ -441,7 +437,6 @@ index
 "
 )
 ;
-let
 thumbnailImageElementSet
 =
 waitForMozSetImageElement
@@ -462,7 +457,6 @@ value
 =
 4
 ;
-let
 thumbnailPixels
 =
 yield
@@ -526,7 +520,6 @@ index
 "
 )
 ;
-let
 thumbnailImageElementSet
 =
 waitForMozSetImageElement
@@ -547,7 +540,6 @@ value
 =
 0
 ;
-let
 thumbnailPixels
 =
 yield

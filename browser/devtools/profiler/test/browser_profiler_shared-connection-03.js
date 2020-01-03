@@ -164,7 +164,6 @@ active
 "
 )
 ;
-let
 result
 =
 yield

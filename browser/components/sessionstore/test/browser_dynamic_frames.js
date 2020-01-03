@@ -837,7 +837,7 @@ flush
 (
 )
 ;
-let
+(
 {
 entries
 }
@@ -851,6 +851,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;

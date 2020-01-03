@@ -632,7 +632,6 @@ secondtestA
 "
 )
 ;
-let
 objLoadingContent
 =
 secondtest

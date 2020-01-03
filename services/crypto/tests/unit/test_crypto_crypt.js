@@ -242,7 +242,6 @@ c
 1
 )
 ;
-let
 cipherText
 =
 cryptoSvc

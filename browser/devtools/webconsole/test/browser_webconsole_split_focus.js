@@ -289,7 +289,6 @@ XUL
 textarea
 element
 .
-let
 activeElement
 =
 getActiveElement
@@ -384,7 +383,6 @@ a
 XUL
 element
 .
-let
 activeElement
 =
 getActiveElement

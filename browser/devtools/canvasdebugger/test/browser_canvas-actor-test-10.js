@@ -779,7 +779,6 @@ component
 "
 )
 ;
-let
 gl
 =
 debuggee

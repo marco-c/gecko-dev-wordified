@@ -841,8 +841,7 @@ host
 ;
 ok
 (
-!
-testSite2
+testSite1
 "
 test
 site
@@ -896,8 +895,7 @@ host
 ;
 ok
 (
-!
-testSite2
+testSite3
 "
 test
 site

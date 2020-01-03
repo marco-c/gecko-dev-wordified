@@ -725,7 +725,6 @@ the
 pref
 set
 .
-let
 tab
 =
 browser

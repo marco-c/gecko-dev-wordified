@@ -1750,6 +1750,12 @@ cancel_during_repopulate
 (
 )
 {
+let
+a5
+a8
+a9
+a10
+;
 Services
 .
 prefs
@@ -1919,7 +1925,6 @@ xml
 "
 )
 ;
-let
 [
 a5
 a8
@@ -2193,7 +2198,6 @@ should
 not
 have
 updated
-let
 [
 a5
 a8
@@ -2372,6 +2376,11 @@ cancel_during_findUpdates
 (
 )
 {
+let
+a5
+a8
+a9
+;
 Services
 .
 prefs
@@ -2517,7 +2526,6 @@ sjs
 "
 )
 ;
-let
 [
 a8
 ]
@@ -2701,7 +2709,6 @@ should
 not
 have
 updated
-let
 [
 a5
 a8
@@ -2900,6 +2907,13 @@ cancel_mismatch
 (
 )
 {
+let
+a3
+a5
+a7
+a8
+a9
+;
 Services
 .
 prefs
@@ -3027,7 +3041,6 @@ sjs
 "
 )
 ;
-let
 [
 a8
 ]
@@ -3061,7 +3074,6 @@ out
 not
 compatible
 .
-let
 [
 a3
 a7
@@ -3278,7 +3290,6 @@ should
 not
 have
 updated
-let
 [
 a5
 a8
@@ -3451,6 +3462,10 @@ cancel_mismatch_no_updates
 (
 )
 {
+let
+a3
+a5
+a6
 Services
 .
 prefs
@@ -3546,7 +3561,6 @@ out
 not
 compatible
 .
-let
 [
 a3
 a5
@@ -3714,7 +3728,6 @@ promise_window_close
 compatWindow
 )
 ;
-let
 [
 a3
 a5

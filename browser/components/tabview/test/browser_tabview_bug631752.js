@@ -156,7 +156,6 @@ document
 .
 documentElement
 ;
-let
 tabItem
 =
 groupItem

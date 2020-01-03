@@ -504,7 +504,6 @@ click
 (
 )
 ;
-let
 color
 =
 panelWin
@@ -544,7 +543,6 @@ click
 (
 )
 ;
-let
 color
 =
 panelWin

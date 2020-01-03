@@ -717,7 +717,6 @@ value
 "
 )
 ;
-let
 onFocus
 =
 once
@@ -801,7 +800,6 @@ it
 "
 )
 ;
-let
 onBlur
 =
 once
@@ -1043,7 +1041,6 @@ rule
 .
 _applyingModifications
 ;
-let
 newValue
 =
 yield

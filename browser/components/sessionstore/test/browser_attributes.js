@@ -302,7 +302,7 @@ custom
 "
 )
 ;
-let
+(
 {
 attributes
 }
@@ -316,6 +316,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -493,7 +494,7 @@ attributes
 are
 stored
 .
-let
+(
 {
 attributes
 }
@@ -507,6 +508,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;

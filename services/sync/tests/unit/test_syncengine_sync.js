@@ -3022,7 +3022,6 @@ rotary
 wbo
 )
 ;
-let
 record
 =
 encryptPayload
@@ -3041,7 +3040,6 @@ local
 }
 )
 ;
-let
 wbo
 =
 new
@@ -3656,7 +3654,6 @@ count
 )
 )
 ;
-let
 wbo
 =
 collection
@@ -4005,7 +4002,6 @@ count
 )
 )
 ;
-let
 wbo
 =
 collection
@@ -4337,7 +4333,6 @@ count
 )
 )
 ;
-let
 wbo
 =
 collection
@@ -4681,7 +4676,6 @@ count
 )
 )
 ;
-let
 wbo
 =
 collection

@@ -1083,7 +1083,6 @@ setSignedInUser
 credentials
 )
 ;
-let
 result
 =
 yield
@@ -1159,7 +1158,6 @@ internal
 .
 signedInUser
 ;
-let
 result
 =
 yield
@@ -1225,7 +1223,6 @@ undefined
 after
 sign
 out
-let
 result
 =
 yield

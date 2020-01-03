@@ -294,7 +294,6 @@ do_check_true
 exists
 )
 ;
-let
 fileInfo
 =
 yield
@@ -485,7 +484,6 @@ do_check_true
 exists
 )
 ;
-let
 fileInfo
 =
 yield

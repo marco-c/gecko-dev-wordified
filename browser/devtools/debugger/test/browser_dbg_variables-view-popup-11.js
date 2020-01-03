@@ -449,7 +449,6 @@ primitive
 value
 variable
 .
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -501,7 +500,6 @@ opened
 "
 )
 ;
-let
 popupHiding
 =
 once
@@ -512,7 +510,6 @@ popuphiding
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -575,7 +572,6 @@ of
 an
 object
 .
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -626,7 +622,6 @@ opened
 "
 )
 ;
-let
 popupHiding
 =
 once
@@ -637,7 +632,6 @@ popuphiding
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents

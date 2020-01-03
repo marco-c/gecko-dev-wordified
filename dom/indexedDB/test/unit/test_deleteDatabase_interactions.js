@@ -235,7 +235,6 @@ close
 (
 )
 ;
-let
 request
 =
 indexedDB

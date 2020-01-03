@@ -1095,7 +1095,6 @@ DOWN
 content
 )
 ;
-let
 [
 name
 data
@@ -1200,7 +1199,6 @@ DOWN
 content
 )
 ;
-let
 [
 name
 data
@@ -1321,7 +1319,6 @@ DOWN
 content
 )
 ;
-let
 [
 name
 data
@@ -1650,7 +1647,6 @@ LEFT
 content
 )
 ;
-let
 [
 name
 data
@@ -1795,7 +1791,6 @@ DOWN
 content
 )
 ;
-let
 [
 name
 data

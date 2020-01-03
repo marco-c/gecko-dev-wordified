@@ -1054,7 +1054,6 @@ reloadBlocklist
 (
 )
 ;
-let
 blocklist
 =
 AM_Cc

@@ -2093,7 +2093,6 @@ true
 }
 )
 ;
-let
 imgNode
 =
 networkPanel

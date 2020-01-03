@@ -217,7 +217,6 @@ event
 yield
 undefined
 ;
-let
 objectStore
 =
 db

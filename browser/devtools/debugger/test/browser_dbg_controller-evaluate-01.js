@@ -576,7 +576,6 @@ frame
 while
 paused
 .
-let
 updatedView
 =
 waitForDebuggerEvents

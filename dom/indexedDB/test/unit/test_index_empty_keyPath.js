@@ -324,7 +324,6 @@ set
 "
 )
 ;
-let
 request
 =
 index
@@ -348,7 +347,6 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield
@@ -371,7 +369,6 @@ result
 "
 )
 ;
-let
 request
 =
 objectStore
@@ -399,7 +396,6 @@ grabEventAndContinueHandler
 yield
 undefined
 ;
-let
 request
 =
 index
@@ -423,7 +419,6 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield
@@ -446,7 +441,6 @@ result
 "
 )
 ;
-let
 request
 =
 objectStore

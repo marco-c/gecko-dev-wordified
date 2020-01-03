@@ -341,7 +341,6 @@ removeListener
 closeListener
 )
 ;
-let
 windows
 =
 [

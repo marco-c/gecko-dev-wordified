@@ -270,13 +270,14 @@ gain
 "
 )
 ;
-let
+(
 {
 source
 dest
 }
 =
 connect2
+)
 ;
 is
 (

@@ -875,7 +875,6 @@ fooItem
 target
 )
 ;
-let
 eventItem
 =
 yield
@@ -949,7 +948,6 @@ barItem
 target
 )
 ;
-let
 eventItem
 =
 yield

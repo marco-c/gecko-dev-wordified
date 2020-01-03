@@ -2132,7 +2132,6 @@ prepareTest
 (
 )
 ;
-let
 promisePreventPopup
 =
 promiseEvent

@@ -628,7 +628,6 @@ panelWin
 TAB_UPDATED
 )
 ;
-let
 tab
 =
 document
@@ -647,7 +646,6 @@ tab
 2
 ]
 ;
-let
 tabpanel
 =
 document

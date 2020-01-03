@@ -378,7 +378,6 @@ hidden
 "
 )
 ;
-let
 navigating
 =
 once

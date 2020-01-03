@@ -2549,7 +2549,6 @@ k
 /
 test
 getKeywordForURI
-let
 k
 =
 bs
@@ -2631,7 +2630,6 @@ bookmark
 separator
 folder
 )
-let
 tmpFolder
 =
 bs
@@ -3354,7 +3352,6 @@ DEFAULT_INDEX
 "
 )
 ;
-let
 dateAdded
 =
 bs
@@ -3374,7 +3371,6 @@ should
 not
 be
 set
-let
 lastModified
 =
 bs
@@ -3460,7 +3456,6 @@ change
 the
 bookmark
 uri
-let
 lastModified2
 =
 bs
@@ -4464,7 +4459,6 @@ DEFAULT_INDEX
 "
 )
 ;
-let
 dateAdded
 =
 bs
@@ -4474,7 +4468,6 @@ getItemDateAdded
 newId14
 )
 ;
-let
 lastModified
 =
 bs

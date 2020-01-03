@@ -249,7 +249,6 @@ column
 6
 }
 ;
-let
 [
 firstResponse
 firstBpClient
@@ -262,7 +261,6 @@ gThreadClient
 columnLocation
 )
 ;
-let
 [
 secondResponse
 secondBpClient

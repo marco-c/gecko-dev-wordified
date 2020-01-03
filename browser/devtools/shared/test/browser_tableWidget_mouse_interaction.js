@@ -1051,7 +1051,6 @@ it
 "
 )
 ;
-let
 event
 =
 table
@@ -1122,7 +1121,6 @@ click
 node2
 )
 ;
-let
 id
 =
 yield
@@ -1226,7 +1224,6 @@ to
 sort
 by
 it
-let
 event
 =
 table
@@ -1240,7 +1237,6 @@ EVENTS
 COLUMN_SORTED
 )
 ;
-let
 node
 =
 table
@@ -1352,7 +1348,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -1462,7 +1457,6 @@ event
 listener
 for
 popupshown
-let
 event
 =
 Promise
@@ -1519,7 +1513,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -1624,7 +1617,6 @@ on
 second
 column
 label
-let
 event
 =
 table
@@ -1638,7 +1630,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -1706,7 +1697,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -1770,7 +1760,6 @@ event
 listener
 for
 popupshown
-let
 event
 =
 Promise
@@ -1827,7 +1816,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -1891,7 +1879,6 @@ on
 second
 column
 label
-let
 event
 =
 table
@@ -1905,7 +1892,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -1973,7 +1959,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -2044,7 +2029,6 @@ event
 listener
 for
 popupshown
-let
 event
 =
 Promise
@@ -2101,7 +2085,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -2265,7 +2248,6 @@ on
 second
 column
 label
-let
 event
 =
 table
@@ -2279,7 +2261,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -2348,7 +2329,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -2412,7 +2392,6 @@ event
 listener
 for
 popupshown
-let
 event
 =
 Promise
@@ -2469,7 +2448,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -2507,7 +2485,6 @@ on
 second
 column
 label
-let
 event
 =
 table
@@ -2521,7 +2498,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -2590,7 +2566,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield

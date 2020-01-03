@@ -306,7 +306,6 @@ createWidget
 spec
 )
 ;
-let
 toolbarNode
 =
 createToolbarWithPlacements

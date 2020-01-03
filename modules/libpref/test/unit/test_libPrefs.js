@@ -1980,7 +1980,6 @@ intPref
 23
 )
 ;
-let
 pb_1
 =
 ps
@@ -2008,7 +2007,6 @@ intPref
 23
 )
 ;
-let
 pb_2
 =
 ps
@@ -2047,7 +2045,6 @@ anotherPref
 69
 )
 ;
-let
 pb_3
 =
 ps
@@ -2100,7 +2097,6 @@ _char
 "
 )
 ;
-let
 pb_1
 =
 ps
@@ -2130,7 +2126,6 @@ _char
 "
 )
 ;
-let
 pb_2
 =
 ps
@@ -2173,7 +2168,6 @@ _another
 "
 )
 ;
-let
 pb_3
 =
 ps
