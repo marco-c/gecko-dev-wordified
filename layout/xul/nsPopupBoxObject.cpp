@@ -284,6 +284,8 @@ nsPopupBoxObject
 :
 HidePopup
 (
+bool
+aCancel
 )
 {
 nsXULPopupManager
@@ -313,7 +315,7 @@ mContent
 false
 true
 false
-false
+aCancel
 )
 ;
 return

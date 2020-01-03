@@ -1723,6 +1723,7 @@ panel
 .
 hidePopup
 (
+true
 )
 ;
 }

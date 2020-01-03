@@ -1347,7 +1347,7 @@ aPopupType
 bool
 aDeselectMenu
 bool
-aIsRollup
+aIsCancel
 )
 :
 mPopup
@@ -1372,7 +1372,7 @@ aDeselectMenu
 )
 mIsRollup
 (
-aIsRollup
+aIsCancel
 )
 {
 NS_ASSERTION
@@ -2764,7 +2764,7 @@ a
 frame
 .
 *
-aIsRollup
+aIsCancel
 -
 true
 if
@@ -2774,11 +2774,8 @@ is
 hiding
 due
 to
-a
-rollup
-or
-escape
-keypress
+being
+cancelled
 .
 *
 aLastPopup
@@ -2820,7 +2817,7 @@ aDeselectMenu
 bool
 aAsynchronous
 bool
-aIsRollup
+aIsCancel
 nsIContent
 *
 aLastPopup
@@ -4344,7 +4341,7 @@ when
 hiding
 it
 *
-aIsRollup
+aIsCancel
 -
 true
 if
@@ -4354,11 +4351,9 @@ is
 hiding
 due
 to
-a
-rollup
-or
-escape
-keypress
+being
+cancelled
+.
 *
 /
 void
@@ -4381,7 +4376,7 @@ aPopupType
 bool
 aDeselectMenu
 bool
-aIsRollup
+aIsCancel
 )
 ;
 /

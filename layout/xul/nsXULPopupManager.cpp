@@ -5314,7 +5314,7 @@ aDeselectMenu
 bool
 aAsynchronous
 bool
-aIsRollup
+aIsCancel
 nsIContent
 *
 aLastPopup
@@ -6070,7 +6070,7 @@ nextPopup
 lastPopup
 type
 deselectMenu
-aIsRollup
+aIsCancel
 )
 ;
 NS_DispatchToCurrentThread
@@ -6094,7 +6094,7 @@ PresContext
 )
 type
 deselectMenu
-aIsRollup
+aIsCancel
 )
 ;
 }
@@ -8590,7 +8590,7 @@ aPopupType
 bool
 aDeselectMenu
 bool
-aIsRollup
+aIsCancel
 )
 {
 nsCOMPtr
@@ -9142,7 +9142,7 @@ cancel
 )
 |
 |
-aIsRollup
+aIsCancel
 )
 )
 {
