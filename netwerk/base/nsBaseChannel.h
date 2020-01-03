@@ -1975,12 +1975,6 @@ mOwner
 ;
 nsCOMPtr
 <
-nsILoadInfo
->
-mLoadInfo
-;
-nsCOMPtr
-<
 nsISupports
 >
 mSecurityInfo
@@ -2031,6 +2025,12 @@ nsCOMPtr
 nsILoadGroup
 >
 mLoadGroup
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsCOMPtr
 <
