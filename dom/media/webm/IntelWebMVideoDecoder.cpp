@@ -513,7 +513,7 @@ mTaskQueue
 aReader
 -
 >
-GetTaskQueue
+GetVideoTaskQueue
 (
 )
 ;
