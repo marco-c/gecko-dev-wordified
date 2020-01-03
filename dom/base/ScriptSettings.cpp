@@ -816,6 +816,9 @@ if
 (
 !
 entryWin
+&
+&
+global
 )
 {
 entryWin
