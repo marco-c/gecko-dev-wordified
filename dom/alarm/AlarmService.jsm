@@ -70,7 +70,7 @@ functions
 const
 DEBUG
 =
-false
+true
 ;
 function
 debug
