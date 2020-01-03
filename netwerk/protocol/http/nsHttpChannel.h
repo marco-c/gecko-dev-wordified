@@ -1389,11 +1389,6 @@ IsHTTPS
 (
 )
 ;
-void
-RetrieveSSLOptions
-(
-)
-;
 nsresult
 ContinueOnStartRequest1
 (
