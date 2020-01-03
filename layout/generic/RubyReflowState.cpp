@@ -141,6 +141,8 @@ RubyReflowState
 :
 RubyReflowState
 (
+WritingMode
+aLineWM
 const
 nsTArray
 <
@@ -194,6 +196,7 @@ AppendElement
 (
 TextContainerInfo
 (
+aLineWM
 aTextContainers
 [
 i

@@ -2980,14 +2980,6 @@ GetFinalLineBSize
 )
 )
 ;
-textContainer
--
->
-SetLineSize
-(
-lineSize
-)
-;
 aReflowState
 .
 mRubyReflowState
@@ -2997,6 +2989,7 @@ SetTextContainerInfo
 (
 i
 textContainer
+lineSize
 )
 ;
 lineLayout

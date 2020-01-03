@@ -1495,6 +1495,7 @@ Length
 RubyReflowState
 rubyReflowState
 (
+lineWM
 textContainers
 )
 ;
