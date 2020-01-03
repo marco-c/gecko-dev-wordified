@@ -1311,6 +1311,17 @@ uri
 )
 "
 ;
+this
+.
+_nodes
+.
+text
+.
+placeholder
+=
+"
+"
+;
 }
 else
 {
@@ -1327,7 +1338,6 @@ backgroundImage
 "
 "
 ;
-}
 this
 .
 _nodes
@@ -1338,8 +1348,9 @@ placeholder
 =
 engine
 .
-placeholder
+name
 ;
+}
 /
 /
 Set
