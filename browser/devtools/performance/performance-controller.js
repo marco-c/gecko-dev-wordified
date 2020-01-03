@@ -2010,7 +2010,7 @@ _onRecordingStateChange
 ;
 gFront
 .
-on
+off
 (
 "
 profiler
