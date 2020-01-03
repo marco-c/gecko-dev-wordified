@@ -521,6 +521,15 @@ aOriginSuffix
 final
 ;
 NS_IMETHOD
+GetCookieJar
+(
+nsACString
+&
+aCookieJar
+)
+final
+;
+NS_IMETHOD
 GetAppStatus
 (
 uint16_t
