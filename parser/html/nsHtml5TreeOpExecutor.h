@@ -904,6 +904,15 @@ nsAString
 aURL
 )
 ;
+void
+AddBase
+(
+const
+nsAString
+&
+aURL
+)
+;
 static
 void
 InitializeStatics
