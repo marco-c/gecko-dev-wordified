@@ -482,17 +482,6 @@ InitCertVerifierLog
 (
 )
 ;
-SECStatus
-IsCertBuiltInRoot
-(
-CERTCertificate
-*
-cert
-bool
-&
-result
-)
-;
 }
 }
 /
