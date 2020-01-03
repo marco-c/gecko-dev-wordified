@@ -267,9 +267,13 @@ frame
 ok
 )
 ;
-assertNotInFrameMaps
+MOZ_ASSERT
+(
+!
+inFrameMaps
 (
 frame
+)
 )
 ;
 return

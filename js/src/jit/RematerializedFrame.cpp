@@ -651,12 +651,16 @@ frames
 i
 ]
 ;
+MOZ_ASSERT
+(
+!
 Debugger
 :
 :
-assertNotInFrameMaps
+inFrameMaps
 (
 f
+)
 )
 ;
 f

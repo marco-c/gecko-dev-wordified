@@ -5099,8 +5099,8 @@ which
 )
 ;
 static
-void
-assertNotInFrameMaps
+bool
+inFrameMaps
 (
 AbstractFramePtr
 frame
