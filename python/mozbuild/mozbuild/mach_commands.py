@@ -5172,15 +5172,6 @@ debugger
 being
 used
 .
-The
-following
-arguments
-have
-no
-effect
-without
-this
-.
 '
 )
     
@@ -5339,6 +5330,10 @@ unittest
         
 if
 debug
+or
+debugger
+or
+debugger_args
 :
             
 args
@@ -6976,15 +6971,6 @@ debugger
 being
 used
 .
-The
-following
-arguments
-have
-no
-effect
-without
-this
-.
 '
 )
     
@@ -7634,6 +7620,10 @@ extra_env
         
 if
 debug
+or
+debugger
+or
+debugparams
 :
             
 import
