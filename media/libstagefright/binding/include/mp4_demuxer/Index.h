@@ -336,7 +336,7 @@ Stream
 *
 mSource
 ;
-nsTArray
+FallibleTArray
 <
 Sample
 >

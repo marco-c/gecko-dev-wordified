@@ -278,7 +278,7 @@ Move
 audioInfo
 )
 ;
-nsTArray
+FallibleTArray
 <
 Index
 :
@@ -386,7 +386,7 @@ Move
 videoInfo
 )
 ;
-nsTArray
+FallibleTArray
 <
 Index
 :

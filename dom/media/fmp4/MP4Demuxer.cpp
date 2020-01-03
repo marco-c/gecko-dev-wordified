@@ -1008,7 +1008,7 @@ MOZ_ASSERT
 mInfo
 )
 ;
-nsTArray
+FallibleTArray
 <
 mp4_demuxer
 :
