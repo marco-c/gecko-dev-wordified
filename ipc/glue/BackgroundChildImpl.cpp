@@ -1496,10 +1496,6 @@ const
 nsString
 &
 aChannel
-const
-bool
-&
-aPrivateBrowsing
 )
 {
 nsRefPtr
@@ -1518,6 +1514,7 @@ dom
 BroadcastChannelChild
 (
 aOrigin
+aChannel
 )
 ;
 return

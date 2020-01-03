@@ -390,8 +390,6 @@ const
 nsAString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 :
 mParent
@@ -409,10 +407,6 @@ aOrigin
 mChannel
 (
 aChannel
-)
-mPrivateBrowsing
-(
-aPrivateBrowsing
 )
 {
 MOZ_ASSERT
@@ -580,9 +574,6 @@ const
 nsString
 mChannel
 ;
-bool
-mPrivateBrowsing
-;
 }
 ;
 PLDHashOperator
@@ -660,10 +651,6 @@ data
 -
 >
 mChannel
-data
--
->
-mPrivateBrowsing
 )
 ;
 }
@@ -697,8 +684,6 @@ const
 nsAString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 {
 AssertIsOnBackgroundThread
@@ -727,7 +712,6 @@ aParent
 aData
 aOrigin
 aChannel
-aPrivateBrowsing
 )
 ;
 mAgents

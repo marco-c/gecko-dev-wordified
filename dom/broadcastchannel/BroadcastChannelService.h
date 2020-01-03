@@ -156,8 +156,6 @@ const
 nsAString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 ;
 private
