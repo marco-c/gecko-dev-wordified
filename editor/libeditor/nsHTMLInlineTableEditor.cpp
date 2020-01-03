@@ -861,7 +861,10 @@ bool
 hideResizersWithInlineTableUI
 =
 (
+GetAsDOMNode
+(
 mResizedObject
+)
 =
 =
 tableElement
