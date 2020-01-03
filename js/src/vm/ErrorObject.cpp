@@ -1692,7 +1692,9 @@ setStack_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

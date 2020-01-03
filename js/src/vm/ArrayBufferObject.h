@@ -807,7 +807,9 @@ byteLengthGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -818,7 +820,9 @@ fun_slice_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1473,7 +1477,9 @@ createDataViewForThisImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1503,7 +1509,9 @@ createTypedArrayFromBufferImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;

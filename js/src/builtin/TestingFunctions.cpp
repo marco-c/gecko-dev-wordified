@@ -10161,7 +10161,9 @@ setCloneBuffer_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10442,7 +10444,9 @@ getCloneBuffer_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

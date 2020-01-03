@@ -986,7 +986,9 @@ iterator_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 IteratorKind
 kind
@@ -999,7 +1001,9 @@ size_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1024,7 +1028,9 @@ get_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1049,7 +1055,9 @@ has_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1060,7 +1068,9 @@ set_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1085,7 +1095,9 @@ delete_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1110,7 +1122,9 @@ keys_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1135,7 +1149,9 @@ values_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1160,7 +1176,9 @@ entries_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1171,7 +1189,9 @@ clear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1660,7 +1680,9 @@ iterator_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 IteratorKind
 kind
@@ -1673,7 +1695,9 @@ size_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1698,7 +1722,9 @@ has_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1709,7 +1735,9 @@ add_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1734,7 +1762,9 @@ delete_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1759,7 +1789,9 @@ values_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1770,7 +1802,9 @@ entries_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -1795,7 +1829,9 @@ clear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;

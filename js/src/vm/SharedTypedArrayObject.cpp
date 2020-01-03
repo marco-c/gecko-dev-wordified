@@ -2026,7 +2026,9 @@ GetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2174,7 +2176,9 @@ BufferGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

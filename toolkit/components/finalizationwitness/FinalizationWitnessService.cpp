@@ -805,10 +805,12 @@ ForgetImpl
 JSContext
 *
 cx
+const
 JS
 :
 :
 CallArgs
+&
 args
 )
 {

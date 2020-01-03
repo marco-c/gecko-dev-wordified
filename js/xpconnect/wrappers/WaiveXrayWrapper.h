@@ -380,10 +380,12 @@ JS
 :
 NativeImpl
 impl
+const
 JS
 :
 :
 CallArgs
+&
 args
 )
 const

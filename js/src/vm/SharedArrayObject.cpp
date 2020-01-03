@@ -1202,7 +1202,9 @@ byteLengthGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

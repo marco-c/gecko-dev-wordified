@@ -6434,7 +6434,9 @@ iterator_next_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

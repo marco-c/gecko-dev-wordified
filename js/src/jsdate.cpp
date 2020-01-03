@@ -8757,7 +8757,9 @@ getTime_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -8848,7 +8850,9 @@ getYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9021,7 +9025,9 @@ getFullYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9138,7 +9144,9 @@ getUTCFullYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9252,7 +9260,9 @@ getMonth_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9369,7 +9379,9 @@ getUTCMonth_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9472,7 +9484,9 @@ getDate_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9589,7 +9603,9 @@ getUTCDate_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9703,7 +9719,9 @@ getDay_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9820,7 +9838,9 @@ getUTCDay_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -9934,7 +9954,9 @@ getHours_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10051,7 +10073,9 @@ getUTCHours_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10165,7 +10189,9 @@ getMinutes_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10282,7 +10308,9 @@ getUTCMinutes_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10407,7 +10435,9 @@ getUTCSeconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10535,7 +10565,9 @@ getUTCMilliseconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10649,7 +10681,9 @@ getTimezoneOffset_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -10817,7 +10851,9 @@ date_setTime_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -11145,7 +11181,9 @@ date_setMilliseconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -11375,7 +11413,9 @@ date_setUTCMilliseconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -11579,7 +11619,9 @@ date_setSeconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -11839,7 +11881,9 @@ date_setUTCSeconds_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -12073,7 +12117,9 @@ date_setMinutes_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -12356,7 +12402,9 @@ date_setUTCMinutes_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -12613,7 +12661,9 @@ date_setHours_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -12919,7 +12969,9 @@ date_setUTCHours_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -13199,7 +13251,9 @@ date_setDate_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -13432,7 +13486,9 @@ date_setUTCDate_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -13751,7 +13807,9 @@ date_setMonth_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -14007,7 +14065,9 @@ date_setUTCMonth_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -14330,7 +14390,9 @@ date_setFullYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -14600,7 +14662,9 @@ date_setUTCFullYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -14846,7 +14910,9 @@ date_setYear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -15613,7 +15679,9 @@ date_toGMTString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -15770,7 +15838,9 @@ date_toISOString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -17908,7 +17978,9 @@ date_toLocaleString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18007,7 +18079,9 @@ date_toLocaleDateString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18188,7 +18262,9 @@ date_toLocaleTimeString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18286,7 +18362,9 @@ date_toLocaleFormat_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18528,7 +18606,9 @@ date_toTimeString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18624,7 +18704,9 @@ date_toDateString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -18710,7 +18792,9 @@ date_toSource_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -19038,7 +19122,9 @@ date_valueOf_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

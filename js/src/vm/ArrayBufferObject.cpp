@@ -978,7 +978,9 @@ byteLengthGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1074,7 +1076,9 @@ fun_slice_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1521,7 +1525,9 @@ TransferAsmJSMappedBuffer
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 Handle
 <
@@ -5404,7 +5410,9 @@ createDataViewForThisImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

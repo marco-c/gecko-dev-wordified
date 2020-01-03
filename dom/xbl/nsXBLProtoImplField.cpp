@@ -1686,10 +1686,12 @@ FieldGetterImpl
 JSContext
 *
 cx
+const
 JS
 :
 :
 CallArgs
+&
 args
 )
 {
@@ -1975,10 +1977,12 @@ FieldSetterImpl
 JSContext
 *
 cx
+const
 JS
 :
 :
 CallArgs
+&
 args
 )
 {

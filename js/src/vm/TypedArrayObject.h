@@ -1356,7 +1356,9 @@ GetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2260,7 +2262,9 @@ getterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2589,7 +2593,9 @@ getInt8Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2614,7 +2620,9 @@ getUint8Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2639,7 +2647,9 @@ getInt16Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2664,7 +2674,9 @@ getUint16Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2689,7 +2701,9 @@ getInt32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2714,7 +2728,9 @@ getUint32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2739,7 +2755,9 @@ getFloat32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2764,7 +2782,9 @@ getFloat64Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2789,7 +2809,9 @@ setInt8Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2814,7 +2836,9 @@ setUint8Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2839,7 +2863,9 @@ setInt16Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2864,7 +2890,9 @@ setUint16Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2889,7 +2917,9 @@ setInt32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2914,7 +2944,9 @@ setUint32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2939,7 +2971,9 @@ setFloat32Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -2964,7 +2998,9 @@ setFloat64Impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -3018,6 +3054,7 @@ DataViewObject
 *
 >
 obj
+const
 CallArgs
 &
 args
@@ -3048,6 +3085,7 @@ DataViewObject
 *
 >
 obj
+const
 CallArgs
 &
 args

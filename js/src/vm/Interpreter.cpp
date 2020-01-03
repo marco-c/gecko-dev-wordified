@@ -4694,7 +4694,9 @@ Invoke
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 MaybeConstruct
 construct

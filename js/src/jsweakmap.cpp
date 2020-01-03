@@ -1500,7 +1500,9 @@ WeakMap_has_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1674,7 +1676,9 @@ WeakMap_clear_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1806,7 +1810,9 @@ WeakMap_get_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1989,7 +1995,9 @@ WeakMap_delete_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2613,7 +2621,9 @@ WeakMap_set_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
