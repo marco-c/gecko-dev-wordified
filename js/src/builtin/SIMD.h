@@ -671,6 +671,14 @@ Float32x4Clamp
 \
 V
 (
+select
+Float32x4Select
+3
+0
+)
+\
+V
+(
 shuffleMix
 FuncShuffle
 <
