@@ -665,7 +665,7 @@ const
 uint32_t
 kCount
 =
-5
+2
 ;
 /
 /
