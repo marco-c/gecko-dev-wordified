@@ -7188,14 +7188,13 @@ switchtab
 +
 escapedURL
 "
-action
+switchtab
 "
 ]
 :
 [
 escapedURL
-"
-"
+null
 ]
 ;
 /
@@ -7590,9 +7589,7 @@ style
 action
 "
 +
-match
-.
-style
+action
 ;
 match
 .
