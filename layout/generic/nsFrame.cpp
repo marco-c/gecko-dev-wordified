@@ -15777,7 +15777,7 @@ isPositioned
 disp
 -
 >
-IsPositioned
+IsAbsPosContainingBlock
 (
 child
 )
@@ -58766,7 +58766,7 @@ mOpacity
 disp
 -
 >
-IsPositioned
+IsAbsPosContainingBlock
 (
 this
 )

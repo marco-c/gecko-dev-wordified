@@ -14180,7 +14180,7 @@ if
 mFrame
 -
 >
-IsPositioned
+IsAbsPosContaininingBlock
 (
 )
 &

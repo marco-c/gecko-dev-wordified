@@ -310,7 +310,7 @@ bool
 nsIFrame
 :
 :
-IsPositioned
+IsAbsPosContaininingBlock
 (
 )
 const
@@ -321,7 +321,7 @@ StyleDisplay
 )
 -
 >
-IsPositioned
+IsAbsPosContainingBlock
 (
 this
 )
