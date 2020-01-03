@@ -1373,7 +1373,6 @@ nsIURI
 *
 proxyURI
 )
-MOZ_OVERRIDE
 ;
 inline
 void
