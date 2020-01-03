@@ -714,6 +714,12 @@ using
 mozilla
 :
 :
+Atomic
+;
+using
+mozilla
+:
+:
 MakeUnique
 ;
 using
@@ -900,11 +906,11 @@ gTimeoutInterval
 0
 ;
 static
-volatile
+Atomic
+<
 bool
+>
 gServiceInterrupt
-=
-false
 ;
 static
 JS
