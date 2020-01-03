@@ -3839,7 +3839,15 @@ standalone
 }
 UnsupportedBrowserView
 (
-null
+{
+helper
+:
+{
+isFirefox
+:
+returnFalse
+}
+}
 )
 )
 )
