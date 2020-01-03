@@ -3149,7 +3149,7 @@ memory
 leak
 (
 see
-CairoTextureClientD3D9
+TextureClientD3D9
 for
 example
 )

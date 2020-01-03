@@ -1971,7 +1971,7 @@ GetD3D9Device
 texture
 =
 new
-CairoTextureClientD3D9
+TextureClientD3D9
 (
 aAllocator
 aFormat
