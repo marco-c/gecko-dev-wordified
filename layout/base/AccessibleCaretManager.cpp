@@ -1932,6 +1932,10 @@ CaretChangedReason
 Longpressonemptycontent
 )
 ;
+UpdateCarets
+(
+)
+;
 return
 NS_OK
 ;
