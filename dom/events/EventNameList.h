@@ -1957,7 +1957,7 @@ eUIEventClass
 NON_IDL_EVENT
 (
 DOMMouseScroll
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 EventNameType_HTMLXUL
 eMouseScrollEventClass
 )

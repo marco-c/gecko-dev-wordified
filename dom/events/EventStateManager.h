@@ -572,14 +572,14 @@ DispatchLegacyMouseScrollEvents
 (
 )
 dispatches
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
+*
 event
 and
-*
 NS_MOUSE_PIXEL_SCROLL
 event
 for
-compatiblity
+compatibility
 with
 old
 Gecko

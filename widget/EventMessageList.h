@@ -821,7 +821,7 @@ eLegacyMouseScrollEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 eLegacyMouseScrollEventFirst
 )
 NS_EVENT_MESSAGE
