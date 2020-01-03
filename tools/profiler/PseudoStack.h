@@ -701,6 +701,7 @@ float
 GetTime
 (
 )
+const
 ;
 private
 :
