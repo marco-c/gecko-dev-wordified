@@ -463,16 +463,6 @@ final
 override
 ;
 virtual
-void
-UpdateEstimatedMediaDuration
-(
-int64_t
-aDuration
-)
-final
-override
-;
-virtual
 bool
 HasInitializationData
 (
