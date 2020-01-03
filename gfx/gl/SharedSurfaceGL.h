@@ -270,9 +270,6 @@ DataSourceSurface
 >
 mData
 ;
-bool
-mIsDataCurrent
-;
 SharedSurface_Basic
 (
 GLContext
