@@ -391,6 +391,12 @@ ImageContainer
 >
 mImageContainer
 ;
+uint32_t
+mDisplayWidth
+;
+uint32_t
+mDisplayHeight
+;
 }
 ;
 }
