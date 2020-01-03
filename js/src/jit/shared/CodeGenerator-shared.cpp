@@ -6978,8 +6978,14 @@ nop
 )
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+masm
+.
+oom
+(
+)
 masm
 .
 currentOffset
