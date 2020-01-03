@@ -478,11 +478,11 @@ null
 )
 ;
 let
-appID
+app
 =
 appsService
 .
-getAppLocalIdByManifestURL
+getAppByManifestURL
 (
 aManifestURL
 )
@@ -497,7 +497,9 @@ scriptSecurityManager
 getAppCodebasePrincipal
 (
 uri
-appID
+app
+.
+localId
 aBrowserFlag
 )
 ;
@@ -508,6 +510,9 @@ aPermName
 principal
 .
 appStatus
+app
+.
+kind
 )
 ;
 }

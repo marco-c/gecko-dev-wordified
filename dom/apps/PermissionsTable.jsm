@@ -2950,6 +2950,7 @@ function
 (
 aPermName
 aIntStatus
+aAppKind
 )
 {
 /
@@ -3025,6 +3026,19 @@ s
 app
 appStatus
 =
+aAppKind
+=
+=
+"
+hosted
+-
+trusted
+"
+?
+"
+trusted
+"
+:
 "
 app
 "
