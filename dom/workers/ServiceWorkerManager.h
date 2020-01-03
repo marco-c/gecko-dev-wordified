@@ -1192,7 +1192,7 @@ QueueFireUpdateFoundRunnable
 ;
 friend
 class
-UnregisterRunnable
+ServiceWorkerUnregisterJob
 ;
 public
 :
