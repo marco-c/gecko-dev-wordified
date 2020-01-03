@@ -3404,6 +3404,7 @@ generate
 bar
 .
 py
+baz
 bar
 .
 c
@@ -3469,6 +3470,7 @@ generate
 foo
 .
 py
+main
 foo
 .
 c
