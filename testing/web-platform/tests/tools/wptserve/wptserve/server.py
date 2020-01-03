@@ -710,13 +710,16 @@ RequestHandlerClass
 router
 rewriter
 bind_hostname
+                 
 config
 =
 None
-                 
 use_ssl
 =
 False
+key_file
+=
+None
 certificate
 =
 None
@@ -837,9 +840,27 @@ SSL
         
 :
 param
+key_file
+:
+Path
+to
+key
+file
+to
+use
+if
+SSL
+is
+enabled
+.
+        
+:
+param
 certificate
 :
-Certificate
+Path
+to
+certificate
 to
 use
 if
@@ -1063,6 +1084,10 @@ wrap_socket
 self
 .
 socket
+                                          
+keyfile
+=
+key_file
                                           
 certfile
 =
@@ -1394,19 +1419,29 @@ message
                         
 err
 =
+[
 e
 .
 message
+]
                     
 else
 :
                         
 err
 =
+[
+]
+                        
+err
+.
+append
+(
 traceback
 .
 format_exc
 (
+)
 )
                     
 response
@@ -1414,7 +1449,15 @@ response
 set_error
 (
 500
+"
+\
+n
+"
+.
+join
+(
 err
+)
 )
             
 logger
@@ -1847,9 +1890,26 @@ supplied
     
 :
 param
+key_file
+:
+Path
+to
+key
+file
+to
+use
+if
+ssl
+is
+enabled
+    
+:
+param
 certificate
 :
-Certificate
+Path
+to
+certificate
 file
 to
 use
@@ -2119,6 +2179,9 @@ WebTestRequestHandler
 use_ssl
 =
 False
+key_file
+=
+None
 certificate
 =
 None
@@ -2216,6 +2279,23 @@ if
 use_ssl
 :
             
+if
+key_file
+is
+not
+None
+:
+                
+assert
+os
+.
+path
+.
+exists
+(
+key_file
+)
+            
 assert
 certificate
 is
@@ -2266,6 +2346,10 @@ bind_hostname
 use_ssl
 =
 use_ssl
+                                    
+key_file
+=
+key_file
                                     
 certificate
 =

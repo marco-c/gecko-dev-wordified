@@ -102,9 +102,7 @@ body
 "
 )
 .
-get_text
-(
-)
+text
         
 self
 .
@@ -150,9 +148,7 @@ body
 "
 )
 .
-get_text
-(
-)
+text
         
 self
 .
@@ -199,9 +195,7 @@ body
 "
 )
 .
-get_text
-(
-)
+text
         
 self
 .
@@ -224,9 +218,7 @@ body
 "
 )
 .
-get_text
-(
-)
+text
         
 self
 .

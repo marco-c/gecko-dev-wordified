@@ -20,6 +20,13 @@ assert_equals
 (
 attr
 .
+textContent
+v
+)
+assert_equals
+(
+attr
+.
 localName
 ln
 )
@@ -43,6 +50,13 @@ attr
 .
 name
 n
+)
+assert_equals
+(
+attr
+.
+specified
+true
 )
 }
 function
@@ -124,8 +138,6 @@ i
 0
 ]
 )
-/
-/
 assert_equals
 (
 el
