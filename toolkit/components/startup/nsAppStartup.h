@@ -386,6 +386,15 @@ Quit
 (
 eRestartTouchEnvironment
 )
+bool
+mRestartNotSameProfile
+;
+/
+/
+Quit
+(
+eRestartNotSameProfile
+)
 #
 if
 defined

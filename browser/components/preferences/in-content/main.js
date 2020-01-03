@@ -1314,7 +1314,7 @@ Ci
 .
 nsIAppStartup
 .
-eRestart
+eRestartNotSameProfile
 )
 ;
 }

@@ -23618,6 +23618,12 @@ rv
 =
 =
 NS_SUCCESS_RESTART_METRO_APP
+|
+|
+rv
+=
+=
+NS_SUCCESS_RESTART_APP_NOT_SAME_PROFILE
 )
 {
 appInitiatedRestart
@@ -23782,6 +23788,14 @@ RestoreStateForAppInitiatedRestart
 (
 )
 ;
+if
+(
+rv
+!
+=
+NS_SUCCESS_RESTART_APP_NOT_SAME_PROFILE
+)
+{
 /
 /
 Ensure
@@ -23816,6 +23830,7 @@ XRE_PROFILE_NAME
 mProfileName
 )
 ;
+}
 #
 ifdef
 MOZ_WIDGET_GTK
