@@ -31,7 +31,9 @@ Array
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -48,7 +50,9 @@ Map
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -65,7 +69,9 @@ Set
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

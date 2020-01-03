@@ -120,7 +120,9 @@ Array
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 ;
 assertThrowsInstanceOf

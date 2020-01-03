@@ -37,7 +37,9 @@ iter
 =
 set
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

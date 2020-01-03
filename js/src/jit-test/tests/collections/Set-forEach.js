@@ -123,7 +123,9 @@ iterator
 =
 initialSet
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

@@ -89,7 +89,9 @@ ret
 ;
 ret
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
@@ -108,7 +110,9 @@ IteratorWrapper
 (
 iterable
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

@@ -46,7 +46,9 @@ getPrototypeOf
 [
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

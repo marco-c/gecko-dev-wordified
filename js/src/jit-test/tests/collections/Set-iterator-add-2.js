@@ -38,7 +38,9 @@ iter0
 =
 set
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -46,7 +48,9 @@ iter1
 =
 set
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

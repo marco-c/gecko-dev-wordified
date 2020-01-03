@@ -42,12 +42,9 @@ obj
 ;
 obj
 [
-{
-uneval
-(
-std_iterator
-)
-}
+Symbol
+.
+iterator
 ]
 =
 function

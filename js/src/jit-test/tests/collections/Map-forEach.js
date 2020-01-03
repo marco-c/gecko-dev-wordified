@@ -142,7 +142,9 @@ iterator
 =
 initialMap
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -434,7 +436,9 @@ getPrototypeOf
 (
 m
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

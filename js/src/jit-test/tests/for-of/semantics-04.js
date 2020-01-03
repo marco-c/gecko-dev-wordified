@@ -43,7 +43,9 @@ a
 ;
 a
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
@@ -91,7 +93,9 @@ ok
 ;
 a
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 undefined

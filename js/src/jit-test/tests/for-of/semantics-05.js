@@ -42,7 +42,9 @@ String
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 ;
 assertThrowsInstanceOf

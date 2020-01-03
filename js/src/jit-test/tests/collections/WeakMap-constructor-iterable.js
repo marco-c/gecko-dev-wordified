@@ -62,7 +62,9 @@ iterable
 ;
 iterable
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

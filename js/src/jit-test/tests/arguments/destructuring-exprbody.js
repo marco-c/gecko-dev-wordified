@@ -32,7 +32,9 @@ o
 =
 {
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 :
 function

@@ -337,7 +337,9 @@ assertBuiltinFunction
 String
 .
 prototype
-std_iterator
+Symbol
+.
+iterator
 0
 )
 ;
@@ -354,7 +356,9 @@ iter
 "
 "
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -429,7 +433,9 @@ iterProto
 .
 hasOwnProperty
 (
-std_iterator
+Symbol
+.
+iterator
 )
 true
 )
@@ -451,7 +457,9 @@ function
 assertBuiltinFunction
 (
 iterProto
-std_iterator
+Symbol
+.
+iterator
 0
 )
 ;
@@ -520,7 +528,9 @@ assertEq
 (
 iterProto
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 .
 call

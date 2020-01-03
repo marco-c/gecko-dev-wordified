@@ -389,7 +389,9 @@ f
 3
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -476,7 +478,9 @@ itr
 ;
 itr
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

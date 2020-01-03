@@ -485,7 +485,9 @@ if
 name
 =
 =
-std_iterator
+Symbol
+.
+iterator
 )
 {
 modified

@@ -36,7 +36,9 @@ it
 =
 m
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -89,7 +91,9 @@ it
 =
 m
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

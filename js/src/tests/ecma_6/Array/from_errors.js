@@ -1275,7 +1275,9 @@ from
 (
 {
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

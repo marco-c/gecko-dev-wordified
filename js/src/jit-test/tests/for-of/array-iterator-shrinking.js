@@ -60,7 +60,9 @@ it
 =
 arr
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

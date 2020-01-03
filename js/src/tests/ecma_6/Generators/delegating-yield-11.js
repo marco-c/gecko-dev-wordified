@@ -54,7 +54,9 @@ next
 ;
 this
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

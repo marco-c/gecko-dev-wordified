@@ -113,7 +113,9 @@ u
 ;
 a
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
