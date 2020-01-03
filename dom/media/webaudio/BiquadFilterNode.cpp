@@ -864,9 +864,7 @@ Length
 =
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )
@@ -957,9 +955,7 @@ SetLength
 (
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )

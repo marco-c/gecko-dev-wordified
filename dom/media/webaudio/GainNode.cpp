@@ -504,9 +504,7 @@ AllocateAudioBlock
 (
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 aOutput
@@ -598,9 +596,7 @@ channel
 aOutput
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

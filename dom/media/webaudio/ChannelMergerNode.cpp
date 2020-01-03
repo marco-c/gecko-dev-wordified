@@ -272,9 +272,7 @@ aInput
 i
 ]
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
@@ -377,9 +375,7 @@ aInput
 i
 ]
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

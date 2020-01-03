@@ -265,9 +265,7 @@ aInput
 0
 ]
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )

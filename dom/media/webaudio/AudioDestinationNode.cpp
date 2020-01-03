@@ -569,9 +569,7 @@ inputChannelCount
 =
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

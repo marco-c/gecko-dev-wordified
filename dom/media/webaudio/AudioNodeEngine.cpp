@@ -298,9 +298,7 @@ i
 aChunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
