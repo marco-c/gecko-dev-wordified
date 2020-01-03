@@ -16028,10 +16028,11 @@ in
 this
 array
 .
-decltype
-(
-mProfileTimelineMarkers
-)
+nsTArray
+<
+InternalProfileTimelineMarker
+*
+>
 keptMarkers
 ;
 for
