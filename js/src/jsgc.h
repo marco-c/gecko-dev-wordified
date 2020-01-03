@@ -7119,7 +7119,7 @@ static_assert
 offsetof
 (
 JSObject
-shape_
+group_
 )
 =
 =
@@ -7132,7 +7132,7 @@ newLocation_
 forwarding
 pointer
 and
-shape
+group
 should
 be
 at

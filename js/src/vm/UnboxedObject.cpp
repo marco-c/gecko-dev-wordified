@@ -2005,6 +2005,7 @@ AddTypePropertyId
 (
 cx
 nativeGroup
+nullptr
 id
 types
 [

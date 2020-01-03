@@ -8052,6 +8052,9 @@ cx
 ObjectGroup
 *
 group
+JSObject
+*
+obj
 const
 Value
 *
@@ -8087,6 +8090,7 @@ group
 getProperty
 (
 cx
+obj
 JSID_VOID
 )
 ;
@@ -8243,6 +8247,7 @@ InitArrayTypes
 (
 cx
 group
+obj
 vector
 count
 )
@@ -20043,6 +20048,7 @@ InitArrayTypes
 (
 cx
 group
+nullptr
 args
 .
 array

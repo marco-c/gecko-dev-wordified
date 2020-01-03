@@ -2540,6 +2540,7 @@ group
 getProperty
 (
 cx
+obj
 id
 )
 )
@@ -2860,6 +2861,9 @@ cx
 ObjectGroup
 *
 group
+JSObject
+*
+obj
 jsid
 id
 TypeSet
@@ -2878,6 +2882,9 @@ cx
 ObjectGroup
 *
 group
+JSObject
+*
+obj
 jsid
 id
 const
@@ -2944,6 +2951,7 @@ obj
 group
 (
 )
+obj
 id
 type
 )
@@ -2992,6 +3000,7 @@ obj
 group
 (
 )
+obj
 id
 value
 )
@@ -3123,6 +3132,7 @@ group
 markPropertyNonData
 (
 cx
+obj
 id
 )
 ;
@@ -3168,6 +3178,7 @@ group
 markPropertyNonWritable
 (
 cx
+obj
 id
 )
 ;
@@ -7162,6 +7173,9 @@ getProperty
 ExclusiveContext
 *
 cx
+JSObject
+*
+obj
 jsid
 id
 )
@@ -7214,6 +7228,28 @@ MOZ_ASSERT
 unknownProperties
 (
 )
+)
+;
+MOZ_ASSERT_IF
+(
+obj
+obj
+-
+>
+group
+(
+)
+=
+=
+this
+)
+;
+MOZ_ASSERT_IF
+(
+singleton
+(
+)
+obj
 )
 ;
 if
@@ -7332,6 +7368,7 @@ base
 updateNewPropertyTypes
 (
 cx
+obj
 id
 &
 base
