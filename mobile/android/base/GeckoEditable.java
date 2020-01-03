@@ -3676,8 +3676,6 @@ setUpdateGecko
 (
 boolean
 update
-boolean
-force
 )
 {
 if
@@ -3733,7 +3731,7 @@ update
 {
 icUpdateGecko
 (
-force
+false
 )
 ;
 }
