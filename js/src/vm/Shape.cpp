@@ -10277,7 +10277,7 @@ unbarrieredGet
 ;
 if
 (
-IsBaseShapeAboutToBeFinalized
+IsBaseShapeAboutToBeFinalizedFromAnyThread
 (
 &
 base
@@ -10300,6 +10300,10 @@ base
 e
 .
 front
+(
+)
+.
+unbarrieredGet
 (
 )
 )
@@ -12257,7 +12261,7 @@ raw
 ;
 if
 (
-IsShapeAboutToBeFinalized
+IsShapeAboutToBeFinalizedFromAnyThread
 (
 &
 shape
@@ -12274,7 +12278,7 @@ isObject
 )
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 proto
@@ -12315,7 +12319,7 @@ parent
 |
 |
 !
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 parent
