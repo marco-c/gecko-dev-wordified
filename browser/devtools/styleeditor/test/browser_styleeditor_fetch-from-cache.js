@@ -86,10 +86,7 @@ doc_uncached
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 (

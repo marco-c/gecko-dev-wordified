@@ -56,10 +56,7 @@ Test
 ProjectEditor
 basic
 functionality
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

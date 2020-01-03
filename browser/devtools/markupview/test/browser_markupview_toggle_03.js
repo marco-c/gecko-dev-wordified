@@ -85,10 +85,7 @@ doc_markup_toggle
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

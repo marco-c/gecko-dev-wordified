@@ -74,10 +74,7 @@ doc_markup_svg_attributes
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

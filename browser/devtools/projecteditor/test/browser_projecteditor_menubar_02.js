@@ -69,10 +69,7 @@ enabled
 disabled
 state
 .
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

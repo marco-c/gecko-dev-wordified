@@ -676,7 +676,7 @@ view
 ;
 *
 *
-asyncTest
+add_task
 is
 the
 way
@@ -760,7 +760,7 @@ anyway
 .
 Thanks
 to
-asyncTest
+add_task
 test
 steps
 even
@@ -809,7 +809,7 @@ case
 *
 all
 in
-asyncTest
+add_task
 and
 delegate
 actual

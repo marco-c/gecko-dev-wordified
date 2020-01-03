@@ -114,10 +114,7 @@ the
 content
 area
 .
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

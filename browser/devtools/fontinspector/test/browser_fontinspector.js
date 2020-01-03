@@ -128,10 +128,7 @@ let
 view
 viewDoc
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

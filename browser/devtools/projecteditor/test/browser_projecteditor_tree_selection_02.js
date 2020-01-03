@@ -137,10 +137,7 @@ id
 =
 1011116
 .
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

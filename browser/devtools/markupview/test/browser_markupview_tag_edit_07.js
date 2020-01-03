@@ -763,10 +763,7 @@ DATA_URL_ATTRIBUTE_COLLAPSED
 }
 ]
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

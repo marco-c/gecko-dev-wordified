@@ -71,10 +71,7 @@ doc_markup_anonymous
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

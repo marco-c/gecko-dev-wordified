@@ -70,10 +70,7 @@ disabled
 state
 in
 editor
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

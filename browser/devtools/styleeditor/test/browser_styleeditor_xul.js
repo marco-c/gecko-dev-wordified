@@ -72,10 +72,7 @@ about
 config
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
