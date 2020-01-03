@@ -444,6 +444,10 @@ mDoRebuildAllStyleData
 (
 false
 )
+mInRebuildAllStyleData
+(
+false
+)
 mObservingRefreshDriver
 (
 false
@@ -10621,6 +10625,10 @@ RestyleTracker
 aRestyleTracker
 )
 {
+mInRebuildAllStyleData
+=
+true
+;
 /
 /
 Tell
@@ -11039,6 +11047,11 @@ FlushOverflowChangedTracker
 (
 )
 ;
+if
+(
+mInRebuildAllStyleData
+)
+{
 /
 /
 Tell
@@ -11114,6 +11127,11 @@ EndReconstruct
 (
 )
 ;
+mInRebuildAllStyleData
+=
+false
+;
+}
 }
 void
 RestyleManager
