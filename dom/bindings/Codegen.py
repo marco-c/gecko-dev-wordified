@@ -3040,13 +3040,6 @@ getOwnPropertyDescriptor
 nullptr
 /
 *
-getGenericAttributes
-*
-/
-                      
-nullptr
-/
-*
 setGenericAttributes
 *
 /
