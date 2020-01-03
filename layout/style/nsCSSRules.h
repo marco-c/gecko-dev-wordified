@@ -688,6 +688,14 @@ aKey
 )
 override
 ;
+bool
+UseForPresentation
+(
+nsPresContext
+*
+aPresContext
+)
+;
 enum
 Function
 {
