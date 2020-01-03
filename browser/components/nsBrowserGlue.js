@@ -5409,6 +5409,16 @@ addon
 name
 ]
 )
+accessKey
+:
+"
+"
+/
+/
+workaround
+for
+bug
+1192901
 callback
 :
 function
