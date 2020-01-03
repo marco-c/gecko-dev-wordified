@@ -36,6 +36,7 @@ const
 {
 PushDB
 PushService
+PushServiceWebSocket
 }
 =
 serviceExports
@@ -155,7 +156,7 @@ helloDefer
 resolve
 )
 ;
-PushService
+PushServiceWebSocket
 .
 _generateID
 =
@@ -170,6 +171,20 @@ PushService
 init
 (
 {
+serverURI
+:
+"
+wss
+:
+/
+/
+push
+.
+example
+.
+org
+/
+"
 networkInfo
 :
 new
