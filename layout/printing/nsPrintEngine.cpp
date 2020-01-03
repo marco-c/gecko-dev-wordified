@@ -13502,6 +13502,17 @@ rv
 )
 ;
 }
+if
+(
+PR_LOG_TEST
+(
+GetPrintingLog
+(
+)
+PR_LOG_DEBUG
+)
+)
+{
 float
 calcRatio
 =
@@ -13819,6 +13830,7 @@ n
 )
 )
 ;
+}
 }
 /
 /
