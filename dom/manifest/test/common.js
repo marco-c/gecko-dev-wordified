@@ -67,17 +67,9 @@ json
 )
 docURL
 =
-new
-URL
-(
-'
-'
 document
 .
 location
-.
-origin
-)
 seperators
 =
 '
