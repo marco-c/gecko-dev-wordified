@@ -342,6 +342,7 @@ size
 )
 ;
 }
+virtual
 ~
 VP8Sample
 (
