@@ -1222,6 +1222,7 @@ clusters
 SetLength
 (
 aLength
+fallible
 )
 |
 |
@@ -1231,6 +1232,7 @@ gids
 SetLength
 (
 glyphCount
+fallible
 )
 |
 |
@@ -1240,6 +1242,7 @@ xLocs
 SetLength
 (
 glyphCount
+fallible
 )
 |
 |
@@ -1249,6 +1252,7 @@ yLocs
 SetLength
 (
 glyphCount
+fallible
 )
 )
 {

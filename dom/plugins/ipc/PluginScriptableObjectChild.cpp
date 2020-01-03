@@ -4415,6 +4415,10 @@ convertedArgs
 SetLength
 (
 argCount
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -4770,6 +4774,10 @@ convertedArgs
 SetLength
 (
 argCount
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -6089,6 +6097,10 @@ convertedArgs
 SetLength
 (
 argCount
+mozilla
+:
+:
+fallible
 )
 )
 {

@@ -798,6 +798,7 @@ outArray
 SetLength
 (
 mTotalPrefixes
+fallible
 )
 )
 {

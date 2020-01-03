@@ -5909,6 +5909,7 @@ mCloneBuffer
 nbytes
 (
 )
+fallible
 )
 )
 )

@@ -1677,6 +1677,7 @@ mChannelBuffers
 SetLength
 (
 channelCount
+fallible
 )
 )
 {

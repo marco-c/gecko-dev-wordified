@@ -1600,6 +1600,7 @@ mData
 SetLength
 (
 aLength
+fallible
 )
 ;
 }

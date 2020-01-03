@@ -2128,6 +2128,7 @@ woff
 -
 >
 metaCompLen
+fallible
 )
 )
 {

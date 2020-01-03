@@ -686,6 +686,7 @@ mItems
 SetLength
 (
 aNumberOfItems
+fallible
 )
 ;
 }

@@ -3676,6 +3676,7 @@ mTarget
 mPadding
 +
 RAW_DATA_ALIGNMENT
+fallible
 )
 )
 ;

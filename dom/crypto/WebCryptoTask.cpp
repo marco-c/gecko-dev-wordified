@@ -2647,6 +2647,7 @@ mResult
 SetLength
 (
 maxLen
+fallible
 )
 )
 {
@@ -3285,6 +3286,7 @@ Length
 )
 +
 8
+fallible
 )
 )
 {
@@ -3933,6 +3935,7 @@ mResult
 SetLength
 (
 mStrength
+fallible
 )
 )
 {
@@ -4454,6 +4457,7 @@ mResult
 SetLength
 (
 HASH_LENGTH_MAX
+fallible
 )
 )
 {
@@ -5861,6 +5865,7 @@ mResult
 SetLength
 (
 hashLen
+fallible
 )
 )
 {
@@ -13174,6 +13179,7 @@ mResult
 SetLength
 (
 mLength
+fallible
 )
 )
 {
@@ -13671,6 +13677,7 @@ mResult
 SetLength
 (
 mLength
+fallible
 )
 )
 {

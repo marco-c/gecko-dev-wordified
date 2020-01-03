@@ -840,6 +840,7 @@ mItems
 SetLength
 (
 aNewLength
+fallible
 )
 )
 {

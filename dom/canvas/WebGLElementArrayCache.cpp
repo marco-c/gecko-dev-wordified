@@ -2664,6 +2664,7 @@ SetLength
 2
 *
 requiredNumLeaves
+fallible
 )
 )
 {
@@ -3280,6 +3281,7 @@ mBytes
 SetLength
 (
 byteLength
+fallible
 )
 )
 {

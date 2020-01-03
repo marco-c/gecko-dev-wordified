@@ -609,6 +609,7 @@ mNumbers
 SetLength
 (
 aNumberOfItems
+fallible
 )
 ;
 }

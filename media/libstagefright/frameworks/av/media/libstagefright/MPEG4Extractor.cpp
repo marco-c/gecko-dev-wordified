@@ -13134,6 +13134,10 @@ SetLength
 size
 +
 1
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -19306,6 +19310,10 @@ mSrcBackend
 SetLength
 (
 aSize
+mozilla
+:
+:
+fallible
 )
 )
 {

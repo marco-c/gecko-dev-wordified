@@ -2643,6 +2643,15 @@ args
 =
 [
 lenexpr
+ExprVar
+(
+'
+mozilla
+:
+:
+fallible
+'
+)
 ]
 )
 )

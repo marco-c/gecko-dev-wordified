@@ -1314,6 +1314,7 @@ SetLength
 mParser
 .
 mInitEndOffset
+fallible
 )
 )
 {
@@ -2264,6 +2265,7 @@ mInitData
 SetLength
 (
 length
+fallible
 )
 )
 {
