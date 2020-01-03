@@ -291,10 +291,6 @@ CSSFontFeatureValuesRule
 )
 DOMCI_CLASS
 (
-UserDataHandler
-)
-DOMCI_CLASS
-(
 XULControlElement
 )
 DOMCI_CLASS

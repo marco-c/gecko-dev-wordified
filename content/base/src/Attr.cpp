@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsIDOMUserDataHandler
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
