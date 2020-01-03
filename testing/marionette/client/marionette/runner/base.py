@@ -4419,6 +4419,9 @@ self
 prefs
 =
 prefs
+or
+{
+}
         
 def
 gather_debug
