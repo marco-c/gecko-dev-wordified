@@ -137,6 +137,17 @@ include
 "
 mozilla
 /
+layers
+/
+APZThreadUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1380,7 +1391,7 @@ GetSingleton
 (
 )
 ;
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 SetThreadAssertionsEnabled
@@ -11380,7 +11391,7 @@ GetSingleton
 (
 )
 ;
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 SetThreadAssertionsEnabled
