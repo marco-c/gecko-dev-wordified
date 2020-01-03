@@ -376,14 +376,6 @@ name
 "
 )
 ;
-writeProperty
-(
-file
-"
-mozFullPath
-"
-)
-;
 /
 /
 Bad
