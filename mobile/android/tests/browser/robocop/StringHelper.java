@@ -278,6 +278,17 @@ home
 public
 final
 String
+ABOUT_PRIVATE_BROWSING_URL
+=
+"
+about
+:
+privatebrowsing
+"
+;
+public
+final
+String
 ABOUT_ADDONS_URL
 =
 "
