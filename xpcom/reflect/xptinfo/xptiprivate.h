@@ -2323,6 +2323,7 @@ char
 *
 aName
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2347,6 +2348,7 @@ nsIID
 *
 aIID
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2370,6 +2372,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2393,6 +2396,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2423,6 +2427,7 @@ nsIInterfaceInfo
 *
 aParent
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -2459,6 +2464,7 @@ uint16_t
 *
 aMethodCount
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2482,6 +2488,7 @@ uint16_t
 *
 aConstantCount
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2509,6 +2516,7 @@ nsXPTMethodInfo
 *
 info
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2542,6 +2550,7 @@ nsXPTMethodInfo
 *
 info
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2575,6 +2584,7 @@ char
 *
 name
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2607,6 +2617,7 @@ nsIInterfaceInfo
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2639,6 +2650,7 @@ nsIID
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2672,6 +2684,7 @@ nsXPTType
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2706,6 +2719,7 @@ uint8_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2738,6 +2752,7 @@ uint8_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2767,6 +2782,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2793,6 +2809,7 @@ char
 *
 name
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2818,6 +2835,7 @@ nsIID
 *
 iid
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2841,6 +2859,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2868,6 +2887,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -2898,6 +2918,7 @@ nsIID
 *
 iid
 )
+MOZ_OVERRIDE
 {
 return
 !

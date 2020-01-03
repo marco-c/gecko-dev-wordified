@@ -307,6 +307,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSISIMPLEENUMERATOR
 private
