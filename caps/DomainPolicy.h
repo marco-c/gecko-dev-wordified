@@ -177,6 +177,7 @@ SUPER_WHITELIST
 ;
 class
 DomainSet
+final
 :
 public
 nsIDomainSet
@@ -237,6 +238,7 @@ mType
 ;
 class
 DomainPolicy
+final
 :
 public
 nsIDomainPolicy
