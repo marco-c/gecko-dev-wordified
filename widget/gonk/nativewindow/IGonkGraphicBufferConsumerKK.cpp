@@ -189,7 +189,7 @@ h
 #
 include
 "
-IGonkGraphicBufferConsumer
+IGonkGraphicBufferConsumerKK
 .
 h
 "

@@ -2932,13 +2932,6 @@ for
 all
 slots
 .
-/
-/
-void
-freeAllBuffersLocked
-(
-)
-;
 void
 freeAllBuffersLocked
 (
