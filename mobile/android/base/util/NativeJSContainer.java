@@ -109,7 +109,7 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 ;
 import
 org
@@ -209,7 +209,7 @@ it
 *
 /
 JNITarget
-WrapEntireClassForJNI
+WrapElementForJNI
 public
 final
 class

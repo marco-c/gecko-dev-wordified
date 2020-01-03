@@ -74,7 +74,7 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 ;
 import
 java
@@ -83,7 +83,7 @@ nio
 .
 ByteBuffer
 ;
-WrapEntireClassForJNI
+WrapElementForJNI
 public
 class
 SurfaceBits

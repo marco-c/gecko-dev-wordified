@@ -109,9 +109,9 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 ;
-WrapEntireClassForJNI
+WrapElementForJNI
 public
 class
 SQLiteBridgeException

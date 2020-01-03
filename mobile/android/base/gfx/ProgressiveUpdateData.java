@@ -109,7 +109,7 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 ;
 /
 *
@@ -161,7 +161,7 @@ continuing
 .
 *
 /
-WrapEntireClassForJNI
+WrapElementForJNI
 public
 class
 ProgressiveUpdateData
