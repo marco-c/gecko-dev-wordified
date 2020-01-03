@@ -1662,6 +1662,10 @@ urlIndex
 =
 content
 .
+toUpperCase
+(
+)
+.
 indexOf
 (
 "
