@@ -691,6 +691,9 @@ aMaxAge
 bool
 *
 aIncludeSubdomains
+uint32_t
+*
+aFailureResult
 )
 ;
 nsresult
@@ -711,6 +714,9 @@ aMaxAge
 bool
 *
 aIncludeSubdomains
+uint32_t
+*
+aFailureResult
 )
 ;
 nsresult
@@ -734,6 +740,9 @@ aMaxAge
 bool
 *
 aIncludeSubdomains
+uint32_t
+*
+aFailureResult
 )
 ;
 nsresult

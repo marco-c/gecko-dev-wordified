@@ -274,6 +274,7 @@ hdr
 maxAge
 &
 includeSubdomains
+nullptr
 )
 ;
 EXPECT_SUCCESS
@@ -440,6 +441,7 @@ HEADER_HSTS
 dummyUri
 hdr
 0
+nullptr
 nullptr
 nullptr
 )
