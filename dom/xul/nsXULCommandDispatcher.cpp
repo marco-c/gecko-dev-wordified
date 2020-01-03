@@ -2231,7 +2231,7 @@ WidgetEvent
 event
 (
 true
-NS_XUL_COMMAND_UPDATE
+eXULCommandUpdate
 )
 ;
 EventDispatcher

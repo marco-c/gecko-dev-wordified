@@ -800,7 +800,7 @@ eXULEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_COMMAND_UPDATE
+eXULCommandUpdate
 eXULEventFirst
 +
 6
