@@ -324,7 +324,7 @@ work
 )
 ;
 void
-reset
+makeUnlimited
 (
 )
 {
