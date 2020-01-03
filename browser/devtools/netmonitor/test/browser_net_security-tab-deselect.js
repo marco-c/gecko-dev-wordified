@@ -143,8 +143,6 @@ example
 .
 com
 "
-+
-CORS_SJS_PATH
 )
 ;
 debuggee
@@ -161,8 +159,6 @@ example
 .
 com
 "
-+
-CORS_SJS_PATH
 )
 ;
 yield

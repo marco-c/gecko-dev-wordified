@@ -138,8 +138,6 @@ example
 .
 com
 "
-+
-CORS_SJS_PATH
 )
 ;
 yield

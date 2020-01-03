@@ -141,12 +141,7 @@ https
 example
 .
 com
-"
-+
-CORS_SJS_PATH
-+
-"
-?
+/
 request_2
 "
 )
@@ -171,12 +166,7 @@ https
 example
 .
 com
-"
-+
-CORS_SJS_PATH
-+
-"
-?
+/
 request_1
 "
 )
