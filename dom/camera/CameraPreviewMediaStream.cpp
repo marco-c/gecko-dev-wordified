@@ -684,6 +684,14 @@ TRACK_EVENT_CREATED
 tmpSegment
 )
 ;
+l
+-
+>
+NotifyFinishedTrackCreation
+(
+mFakeMediaStreamGraph
+)
+;
 }
 }
 }
