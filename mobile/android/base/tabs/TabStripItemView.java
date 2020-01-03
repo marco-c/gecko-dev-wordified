@@ -466,7 +466,7 @@ R
 .
 dimen
 .
-tab_strip_favicon_size
+new_tablet_tab_strip_favicon_size
 )
 ;
 LayoutInflater
