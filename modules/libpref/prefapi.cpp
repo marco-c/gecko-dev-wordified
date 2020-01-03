@@ -978,7 +978,7 @@ flags
 define
 PREF_HASHTABLE_INITIAL_LENGTH
 1024
-nsresult
+void
 PREF_Init
 (
 )
@@ -1014,9 +1014,6 @@ PREFNAME_ARENA_SIZE
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 *
