@@ -275,6 +275,11 @@ MDefinition
 rhs
 )
 ;
+template
+<
+size_t
+Temps
+>
 bool
 lowerForFPU
 (
@@ -282,7 +287,7 @@ LInstructionHelper
 <
 1
 2
-0
+Temps
 >
 *
 ins
