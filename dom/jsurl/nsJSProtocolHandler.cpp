@@ -1438,6 +1438,9 @@ work
 javascript
 -
 protocol
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (

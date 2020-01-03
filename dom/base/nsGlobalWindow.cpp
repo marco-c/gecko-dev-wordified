@@ -65860,6 +65860,9 @@ timer
 initialisation
 -
 steps
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (

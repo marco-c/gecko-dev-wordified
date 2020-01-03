@@ -7616,6 +7616,9 @@ return
 false
 ;
 }
+nsAutoMicroTask
+mt
+;
 dom
 :
 :

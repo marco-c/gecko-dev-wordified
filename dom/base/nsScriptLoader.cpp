@@ -7197,6 +7197,9 @@ the
 script
 -
 block
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (
