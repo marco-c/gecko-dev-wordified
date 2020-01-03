@@ -208,7 +208,10 @@ nsresult
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const
@@ -300,8 +303,8 @@ aDesiredTime
 MOZ_OVERRIDE
 ;
 virtual
-bool
-SatisfiesConstraintSets
+uint32_t
+GetBestFitnessDistance
 (
 const
 nsTArray
@@ -513,7 +516,10 @@ nsresult
 Allocate
 (
 const
-AudioTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const

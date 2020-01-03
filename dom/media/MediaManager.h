@@ -2708,8 +2708,8 @@ GetSource
 (
 )
 ;
-bool
-SatisfiesConstraintSets
+uint32_t
+GetBestFitnessDistance
 (
 const
 nsTArray
@@ -2761,8 +2761,8 @@ GetSource
 (
 )
 ;
-bool
-SatisfiesConstraintSets
+uint32_t
+GetBestFitnessDistance
 (
 const
 nsTArray

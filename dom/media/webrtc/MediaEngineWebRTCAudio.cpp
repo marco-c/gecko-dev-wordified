@@ -1523,7 +1523,10 @@ MediaEngineWebRTCAudioSource
 Allocate
 (
 const
-AudioTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const

@@ -124,12 +124,6 @@ class
 File
 ;
 }
-struct
-VideoTrackConstraintsN
-;
-struct
-AudioTrackConstraintsN
-;
 /
 *
 *
@@ -1277,7 +1271,10 @@ nsresult
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const
@@ -1289,8 +1286,8 @@ aPrefs
 0
 ;
 virtual
-bool
-SatisfiesConstraintSets
+uint32_t
+GetBestFitnessDistance
 (
 const
 nsTArray
@@ -1380,7 +1377,10 @@ nsresult
 Allocate
 (
 const
-AudioTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const

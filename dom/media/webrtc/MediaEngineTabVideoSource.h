@@ -143,7 +143,10 @@ nsresult
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 const
 mozilla
@@ -272,8 +275,8 @@ Browser
 ;
 }
 virtual
-bool
-SatisfiesConstraintSets
+uint32_t
+GetBestFitnessDistance
 (
 const
 nsTArray
@@ -291,7 +294,7 @@ aConstraintSets
 MOZ_OVERRIDE
 {
 return
-true
+0
 ;
 }
 virtual
