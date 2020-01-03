@@ -14425,11 +14425,7 @@ advance
 glyphRect
 +
 =
-gfxPoint
-(
-x
-0
-)
+glyphPt
 ;
 metrics
 .
