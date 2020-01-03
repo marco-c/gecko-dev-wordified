@@ -52792,6 +52792,13 @@ ICSetProp_Fallback
 MAX_OPTIMIZED_STUBS
 &
 &
+lhs
+.
+isObject
+(
+)
+&
+&
 !
 TryAttachSetAccessorPropStub
 (
@@ -53076,6 +53083,13 @@ if
 (
 !
 attached
+&
+&
+lhs
+.
+isObject
+(
+)
 &
 &
 !
