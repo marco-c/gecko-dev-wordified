@@ -111,10 +111,9 @@ WebGL2RenderingContextBinding
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 WebGLSync
 :
 :
@@ -122,12 +121,12 @@ WebGLSync
 (
 WebGLContext
 *
-context
+webgl
 )
 :
 WebGLContextBoundObject
 (
-context
+webgl
 )
 {
 MOZ_CRASH
@@ -310,3 +309,8 @@ WebGLSync
 Release
 )
 ;
+}
+/
+/
+namespace
+mozilla

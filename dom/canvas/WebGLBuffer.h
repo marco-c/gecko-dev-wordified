@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGLBUFFER_H_
+WEBGL_BUFFER_H_
 #
 define
-WEBGLBUFFER_H_
+WEBGL_BUFFER_H_
 #
 include
 "
@@ -148,14 +148,14 @@ h
 #
 include
 "
-WebGLTypes
+WebGLStrongTypes
 .
 h
 "
 #
 include
 "
-WebGLStrongTypes
+WebGLTypes
 .
 h
 "
@@ -196,7 +196,7 @@ WebGLBuffer
 (
 WebGLContext
 *
-context
+webgl
 GLuint
 buf
 )
@@ -213,7 +213,7 @@ mozilla
 :
 :
 MallocSizeOf
-aMallocSizeOf
+mallocSizeOf
 )
 const
 ;
@@ -247,7 +247,7 @@ void
 *
 ptr
 size_t
-buffer_size_in_bytes
+bufferSizeInBytes
 )
 ;
 void
@@ -260,7 +260,7 @@ void
 *
 ptr
 size_t
-update_size_in_bytes
+updateSizeInBytes
 )
 ;
 bool
@@ -276,6 +276,7 @@ size_t
 count
 uint32_t
 *
+const
 out_upperBound
 )
 ;
@@ -298,6 +299,7 @@ Context
 )
 ;
 }
+;
 virtual
 JSObject
 *
@@ -343,8 +345,12 @@ mCache
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /
 /
-WEBGLBUFFER_H_
+WEBGL_BUFFER_H_

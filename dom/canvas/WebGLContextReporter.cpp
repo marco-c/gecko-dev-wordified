@@ -124,12 +124,11 @@ CollectReports
 (
 nsIHandleReportCallback
 *
-aHandleReport
+handleReport
 nsISupports
 *
-aData
+data
 bool
-aAnonymize
 )
 {
 #
@@ -152,7 +151,7 @@ rv
 \
 rv
 =
-aHandleReport
+handleReport
 -
 >
 Callback
@@ -173,7 +172,7 @@ NS_LITERAL_CSTRING
 (
 _desc
 )
-aData
+data
 )
 ;
 \

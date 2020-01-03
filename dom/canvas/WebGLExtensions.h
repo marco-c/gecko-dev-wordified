@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGLEXTENSIONS_H_
+WEBGL_EXTENSIONS_H_
 #
 define
-WEBGLEXTENSIONS_H_
+WEBGL_EXTENSIONS_H_
 #
 include
 "
@@ -163,7 +163,7 @@ WebGLExtensionBase
 (
 WebGLContext
 *
-aValue
+webgl
 )
 ;
 WebGLContext
@@ -846,14 +846,14 @@ WebGLContext
 static
 const
 size_t
-sMinColorAttachments
+kMinColorAttachments
 =
 4
 ;
 static
 const
 size_t
-sMinDrawBuffers
+kMinDrawBuffers
 =
 4
 ;
@@ -918,7 +918,7 @@ WebGLExtensionVertexArray
 (
 WebGLContext
 *
-aValue
+webgl
 )
 ;
 virtual
@@ -959,16 +959,6 @@ WebGLVertexArray
 array
 )
 ;
-static
-bool
-IsSupported
-(
-const
-WebGLContext
-*
-context
-)
-;
 DECL_WEBGL_EXTENSION_GOOP
 }
 ;
@@ -985,7 +975,7 @@ WebGLExtensionInstancedArrays
 (
 WebGLContext
 *
-aContext
+webgl
 )
 ;
 virtual
@@ -1038,7 +1028,7 @@ IsSupported
 const
 WebGLContext
 *
-context
+webgl
 )
 ;
 DECL_WEBGL_EXTENSION_GOOP
@@ -1057,7 +1047,7 @@ WebGLExtensionBlendMinMax
 (
 WebGLContext
 *
-aValue
+webgl
 )
 ;
 virtual
@@ -1087,4 +1077,4 @@ mozilla
 endif
 /
 /
-WEBGLEXTENSIONS_H_
+WEBGL_EXTENSIONS_H_

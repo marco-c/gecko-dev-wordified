@@ -95,14 +95,16 @@ MPL
 /
 #
 ifndef
-WEBGLACTIVEINFO_H_
+WEBGL_ACTIVE_INFO_H_
 #
 define
-WEBGLACTIVEINFO_H_
+WEBGL_ACTIVE_INFO_H_
 #
 include
 "
-WebGLObjectModel
+js
+/
+TypeDecls
 .
 h
 "
@@ -116,9 +118,7 @@ h
 #
 include
 "
-js
-/
-TypeDecls
+WebGLObjectModel
 .
 h
 "
@@ -250,3 +250,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+WEBGL_ACTIVE_INFO_H_

@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGLUNIFORMLOCATION_H_
+WEBGL_UNIFORM_LOCATION_H_
 #
 define
-WEBGLUNIFORMLOCATION_H_
+WEBGL_UNIFORM_LOCATION_H_
 #
 include
 "
@@ -321,3 +321,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+WEBGL_UNIFORM_LOCATION_H_
