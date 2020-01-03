@@ -162,6 +162,7 @@ MediaDecoder
 Clone
 (
 )
+override
 {
 if
 (
@@ -188,6 +189,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
+override
 ;
 /
 /
