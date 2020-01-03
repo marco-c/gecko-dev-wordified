@@ -276,6 +276,9 @@ NativeIterator
 class
 Nursery
 ;
+class
+ObjectElements
+;
 struct
 StackShape
 ;
