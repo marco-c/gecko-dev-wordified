@@ -506,9 +506,6 @@ typedef
 Vector
 <
 ReceiverGuard
-:
-:
-StackGuard
 4
 JitAllocPolicy
 >
