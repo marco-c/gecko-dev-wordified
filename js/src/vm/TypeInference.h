@@ -3082,16 +3082,6 @@ this
 )
 ;
 }
-bool
-objectsIntersect
-(
-const
-TypeSet
-*
-other
-)
-const
-;
 /
 *
 Forward
