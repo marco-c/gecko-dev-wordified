@@ -33,7 +33,7 @@ Class
 to
 test
 methods
-assosiated
+associated
 with
 logcat
 "
@@ -70,9 +70,9 @@ SUTAgentAndroid
 :
 onCreate
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -109,9 +109,9 @@ paused
 total
 38ms
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -153,9 +153,9 @@ Permission
 denied
 )
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -185,9 +185,9 @@ writeable
 test
 root
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -213,9 +213,9 @@ profile
 cache
 .
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -261,9 +261,9 @@ times
 .
 json
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -294,9 +294,9 @@ creation
 time
 .
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -328,9 +328,9 @@ creation
 =
 1374026758604
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -355,9 +355,9 @@ Requested
 prefs
 .
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -379,9 +379,9 @@ SUTAgentAndroid
 )
 :
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -409,9 +409,9 @@ Memory
 3176
 kb
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -440,9 +440,9 @@ Memory
 5679
 kb
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -470,9 +470,9 @@ Memory
 9216
 kb
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -535,9 +535,9 @@ NetworkStateTracker
 :
 S
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -576,9 +576,9 @@ for
 byte
 allocation
 \
-n
-\
 r
+\
+n
 "
         
 "
@@ -690,12 +690,23 @@ logcat_output
 17
 ]
 .
-split
+replace
 (
 '
 \
 r
+\
+n
 '
+'
+\
+n
+'
+)
+.
+splitlines
+(
+True
 )
 d
 .
