@@ -195,6 +195,16 @@ debugToken
 ;
 #
 endif
+JSPrincipals
+(
+)
+:
+refcount
+(
+0
+)
+{
+}
 void
 setDebugToken
 (

@@ -113,6 +113,14 @@ GetWorkerPrincipal
 (
 )
 ;
+void
+DestroyWorkerPrincipals
+(
+JSPrincipals
+*
+aPrincipals
+)
+;
 END_WORKERS_NAMESPACE
 #
 endif
