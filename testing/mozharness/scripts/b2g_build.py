@@ -4725,15 +4725,31 @@ Workaround
 bug
 984061
             
+#
+wcosta
+:
+blobfree
+builds
+also
+should
+run
+with
+-
+j1
+            
 if
 target
-=
-=
+in
+(
 '
 package
 -
 tests
 '
+'
+blobfree
+'
+)
 :
                 
 cmd
