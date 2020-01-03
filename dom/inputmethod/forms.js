@@ -6558,6 +6558,16 @@ local
 :
 case
 "
+month
+"
+:
+case
+"
+week
+"
+:
+case
+"
 range
 "
 :
