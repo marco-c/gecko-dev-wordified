@@ -21780,6 +21780,10 @@ i
 ]
 dynamicEnclosingScope
 staticWith
+DynamicWithObject
+:
+:
+NonSyntacticWith
 )
 ;
 if
