@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
