@@ -3709,17 +3709,6 @@ _logger
 null
 /
 /
-Timer
-for
-scheduled
-ping
-sends
-.
-_pingSendTimer
-:
-null
-/
-/
 This
 tracks
 all
