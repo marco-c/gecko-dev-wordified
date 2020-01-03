@@ -526,6 +526,10 @@ ThenableResolverTask
 ;
 friend
 class
+FastThenableResolverTask
+;
+friend
+class
 WrapperPromiseCallback
 ;
 public
