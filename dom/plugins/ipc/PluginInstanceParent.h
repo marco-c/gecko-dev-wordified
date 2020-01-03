@@ -1626,6 +1626,12 @@ mSharedSize
 HWND
 mPluginHWND
 ;
+HWND
+mChildPluginHWND
+;
+HWND
+mChildPluginsParentHWND
+;
 WNDPROC
 mPluginWndProc
 ;
