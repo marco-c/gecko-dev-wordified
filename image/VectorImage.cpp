@@ -5863,10 +5863,6 @@ aParams
 .
 animationTime
 )
-Lifetime
-:
-:
-Persistent
 )
 ;
 /

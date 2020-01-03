@@ -1537,11 +1537,9 @@ the
 SurfaceCache
 discards
 a
-persistent
 surface
 belonging
 to
-*
 this
 image
 .
