@@ -4024,6 +4024,8 @@ static
 nsresult
 GetEntryForEviction
 (
+bool
+aIgnoreEmptyEntries
 SHA1Sum
 :
 :
