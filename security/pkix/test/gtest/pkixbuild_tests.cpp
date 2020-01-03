@@ -528,7 +528,7 @@ CreateEncodedCertificate
 (
 arena
 v3
-SEC_OID_PKCS1_SHA256_WITH_RSA_ENCRYPTION
+sha256WithRSAEncryption
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -536,7 +536,10 @@ oneDayAfterNow
 subjectDER
 extensions
 issuerKey
-SEC_OID_SHA256
+SignatureAlgorithm
+:
+:
+rsa_pkcs1_with_sha256
 subjectKey
 )
 )
