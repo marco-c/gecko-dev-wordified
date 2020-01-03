@@ -549,7 +549,7 @@ container
 container
 -
 >
-SetCurrentFrame
+ClearCurrentFrame
 (
 gfxIntSize
 (
@@ -559,16 +559,6 @@ width
 displaySize
 .
 height
-)
-nullptr
-mozilla
-:
-:
-TimeStamp
-:
-:
-Now
-(
 )
 )
 ;

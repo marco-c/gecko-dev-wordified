@@ -4148,7 +4148,7 @@ container
 container
 -
 >
-SetCurrentFrame
+ClearCurrentFrame
 (
 gfxIntSize
 (
@@ -4166,16 +4166,6 @@ mVideo
 mDisplay
 .
 height
-)
-nullptr
-mozilla
-:
-:
-TimeStamp
-:
-:
-Now
-(
 )
 )
 ;
