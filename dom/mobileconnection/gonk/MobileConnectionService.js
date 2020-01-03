@@ -4488,7 +4488,7 @@ false
 }
 aCallback
 .
-notifySuccessWithString
+notifyGetRoamingPreferenceSuccess
 (
 aResponse
 .
