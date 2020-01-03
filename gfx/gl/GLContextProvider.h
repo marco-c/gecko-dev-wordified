@@ -127,7 +127,10 @@ h
 /
 /
 for
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 needed
 by

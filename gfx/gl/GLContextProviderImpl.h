@@ -498,7 +498,13 @@ GLContext
 CreateOffscreen
 (
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 size
 const
