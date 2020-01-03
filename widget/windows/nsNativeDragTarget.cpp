@@ -1998,7 +1998,7 @@ into
 Gecko
 DispatchDragDropEvent
 (
-NS_DRAGDROP_EXIT
+eDragExit
 gDragLastPoint
 )
 ;

@@ -7026,7 +7026,7 @@ case
 eDragOver
 :
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 case
 eDrop
@@ -20797,7 +20797,7 @@ break
 ;
 }
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 /
 /
@@ -20814,7 +20814,7 @@ after
 the
 /
 /
-NS_DRAGDROP_EXIT
+eDragExit
 event
 otherwise
 we
@@ -26449,7 +26449,7 @@ PresContext
 (
 )
 aDragEvent
-NS_DRAGDROP_EXIT
+eDragExit
 targetContent
 lastContent
 sLastDragOverFrame
@@ -26496,7 +26496,7 @@ mCurrentTarget
 break
 ;
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 {
 /
@@ -26550,7 +26550,7 @@ FireDragEnterOrExit
 (
 lastDragOverFramePresContext
 aDragEvent
-NS_DRAGDROP_EXIT
+eDragExit
 nullptr
 lastContent
 sLastDragOverFrame
@@ -26768,7 +26768,7 @@ nsEventStatus_eConsumeNoDefault
 aMessage
 =
 =
-NS_DRAGDROP_EXIT
+eDragExit
 )
 {
 SetContentState
@@ -26818,7 +26818,7 @@ eDragLeave
 aMessage
 =
 =
-NS_DRAGDROP_EXIT
+eDragExit
 |
 |
 aMessage

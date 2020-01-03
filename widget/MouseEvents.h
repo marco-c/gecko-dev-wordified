@@ -2182,7 +2182,7 @@ mCancelable
 aMessage
 !
 =
-NS_DRAGDROP_EXIT
+eDragExit
 &
 &
 aMessage

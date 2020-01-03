@@ -16458,7 +16458,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_EXIT
+eDragExit
 )
 {
 /

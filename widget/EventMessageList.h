@@ -696,7 +696,7 @@ eDragDropEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DRAGDROP_EXIT
+eDragExit
 eDragDropEventFirst
 +
 2
