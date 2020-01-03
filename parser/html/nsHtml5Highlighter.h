@@ -160,6 +160,7 @@ this
 highlighter
 *
 /
+explicit
 nsHtml5Highlighter
 (
 nsAHtml5TreeOpSink

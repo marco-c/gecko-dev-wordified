@@ -989,6 +989,7 @@ nsParser
 >
 mParser
 ;
+explicit
 nsParserContinueEvent
 (
 nsParser

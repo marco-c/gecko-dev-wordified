@@ -833,6 +833,7 @@ mExecutor
 ;
 public
 :
+explicit
 nsHtml5ExecutorFlusher
 (
 nsHtml5TreeOpExecutor
@@ -892,6 +893,7 @@ mExecutor
 ;
 public
 :
+explicit
 nsHtml5LoadFlusher
 (
 nsHtml5TreeOpExecutor
@@ -6456,6 +6458,7 @@ mStreamParser
 ;
 public
 :
+explicit
 nsHtml5RequestStopper
 (
 nsHtml5StreamParser
@@ -8606,6 +8609,7 @@ mStreamParser
 ;
 public
 :
+explicit
 nsHtml5StreamParserContinuation
 (
 nsHtml5StreamParser
@@ -9754,6 +9758,7 @@ mStreamParser
 ;
 public
 :
+explicit
 nsHtml5TimerKungFu
 (
 nsHtml5StreamParser
