@@ -2800,8 +2800,9 @@ screenshot
 %
 s
 "
-%
              
+%
+(
 utility
 [
 0
@@ -2809,6 +2810,7 @@ utility
 err
 .
 strerror
+)
 )
     
 return
