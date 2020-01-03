@@ -792,6 +792,9 @@ is
 session
 level
 let
+idMatch
+;
+let
 mLineMatch
 =
 sdp
@@ -803,6 +806,11 @@ PeerConnectionIdp
 _mLinePattern
 )
 ;
+if
+(
+mLineMatch
+)
+{
 let
 sessionLevel
 =
@@ -816,7 +824,6 @@ mLineMatch
 index
 )
 ;
-let
 idMatch
 =
 sessionLevel
@@ -828,6 +835,7 @@ PeerConnectionIdp
 _identityPattern
 )
 ;
+}
 if
 (
 idMatch
