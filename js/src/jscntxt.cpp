@@ -2490,6 +2490,11 @@ onError
 cx
 -
 >
+runtime
+(
+)
+-
+>
 errorReporter
 )
 {
@@ -5599,6 +5604,11 @@ onError
 cx
 -
 >
+runtime
+(
+)
+-
+>
 errorReporter
 )
 onError
@@ -6775,10 +6785,6 @@ cycleDetectorSet
 MOZ_THIS_IN_INITIALIZER_LIST
 (
 )
-)
-errorReporter
-(
-nullptr
 )
 data
 (

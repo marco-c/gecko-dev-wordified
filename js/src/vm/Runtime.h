@@ -6552,6 +6552,17 @@ telemetryCallback
 ;
 /
 *
+Optional
+error
+reporter
+.
+*
+/
+JSErrorReporter
+errorReporter
+;
+/
+*
 AsmJSCache
 callbacks
 are
