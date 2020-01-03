@@ -374,6 +374,12 @@ if
 AppConstants
 .
 MOZ_ANDROID_TAB_QUEUE
+|
+|
+!
+AppConstants
+.
+NIGHTLY_BUILD
 )
 {
 loadNormally
