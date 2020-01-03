@@ -362,7 +362,7 @@ with
 the
 members
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aList
 &
@@ -379,7 +379,7 @@ arg
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IndexIsValid
 (

@@ -1331,7 +1331,7 @@ ErrorResult
 aRv
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1457,7 +1457,7 @@ ErrorResult
 aRv
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1558,7 +1558,7 @@ ErrorResult
 aRv
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

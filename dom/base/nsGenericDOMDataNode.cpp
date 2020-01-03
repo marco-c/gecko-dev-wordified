@@ -344,7 +344,7 @@ nsIContent
 aNodeInfo
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNodeInfo
 -
@@ -448,7 +448,7 @@ nsIContent
 aNodeInfo
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNodeInfo
 -

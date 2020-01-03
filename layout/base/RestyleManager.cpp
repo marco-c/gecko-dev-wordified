@@ -1430,7 +1430,7 @@ GetFirstPrincipalChild
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 -
@@ -1459,7 +1459,7 @@ child
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 -
@@ -1907,15 +1907,13 @@ NotifyGlyphMetricsChange
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
 unexpected
 frame
 got
-"
-"
 nsChangeHint_UpdateTextPath
 "
 )
@@ -6096,7 +6094,7 @@ GetNextSibling
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 childFrame
 -
@@ -11290,7 +11288,7 @@ restyles
 .
 .
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsProcessingRestyles

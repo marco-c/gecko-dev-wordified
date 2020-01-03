@@ -345,7 +345,7 @@ if
 mMatchesValid
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasListeners
@@ -434,7 +434,7 @@ if
 mMatchesValid
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasListeners

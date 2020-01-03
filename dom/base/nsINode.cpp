@@ -6294,7 +6294,7 @@ break
 }
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -7728,7 +7728,7 @@ IsBlack
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 parent
 -
@@ -15574,7 +15574,7 @@ Element
 aElement
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mElement

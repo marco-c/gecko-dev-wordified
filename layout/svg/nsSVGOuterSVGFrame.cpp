@@ -2383,7 +2383,7 @@ IsPercentage
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 intrinsicSize
 .
@@ -2401,8 +2401,6 @@ should
 have
 reported
 no
-"
-"
 intrinsic
 width
 "
@@ -2500,7 +2498,7 @@ IsPercentage
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 intrinsicSize
 .
@@ -2518,8 +2516,6 @@ should
 have
 reported
 no
-"
-"
 intrinsic
 height
 "
@@ -2569,7 +2565,7 @@ aWM
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 intrinsicSize
 .
@@ -3366,7 +3362,7 @@ ReflowSVG
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 anonKid
@@ -3386,6 +3382,8 @@ frame
 wrapping
 our
 real
+"
+"
 children
 "
 )
@@ -5656,7 +5654,7 @@ uint32_t
 aFlags
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFlags
 &
@@ -6958,7 +6956,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aParent
 -

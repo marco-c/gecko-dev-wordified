@@ -352,7 +352,7 @@ mMutex
 "
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -454,7 +454,7 @@ lock
 mMutex
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIPCState
 =
@@ -504,7 +504,7 @@ lock
 mMutex
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIPCState
 !
@@ -2042,7 +2042,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2054,7 +2054,7 @@ thread
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aURI
 &

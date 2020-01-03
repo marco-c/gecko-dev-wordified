@@ -263,17 +263,6 @@ already_AddRefed
 #
 include
 "
-nsDebug
-.
-h
-"
-/
-/
-for
-NS_ABORT_IF_FALSE
-#
-include
-"
 nsIObserver
 .
 h
@@ -2130,7 +2119,7 @@ PLayerChild
 aShadow
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mShadow
@@ -2380,7 +2369,7 @@ aLayer
 XXX
 error
 handling
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shadow
 "

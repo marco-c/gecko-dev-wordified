@@ -3050,7 +3050,7 @@ GetFirstFloat
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsInline
 (
@@ -3103,7 +3103,7 @@ nsFloatCacheFreeList
 aFreeList
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsInline
 (
@@ -3169,7 +3169,7 @@ nsFloatCacheFreeList
 aFreeList
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsInline
 (
@@ -3242,7 +3242,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsInline
 (

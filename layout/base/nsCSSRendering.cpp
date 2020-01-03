@@ -11631,7 +11631,7 @@ empty
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aDirtyRect
@@ -14758,7 +14758,7 @@ radiusY
 =
 0
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -16958,7 +16958,7 @@ lineStart
 y
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aGradient
 -
@@ -17338,7 +17338,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -18074,7 +18074,7 @@ stops
 .
 mPosition
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 firstStop
 >
@@ -32750,7 +32750,7 @@ srcImage
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (

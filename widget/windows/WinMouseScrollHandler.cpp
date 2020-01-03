@@ -3775,7 +3775,7 @@ LPARAM
 aLParam
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aMessage
@@ -4147,7 +4147,7 @@ LPARAM
 aLParam
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aMessage
@@ -4713,7 +4713,7 @@ LPARAM
 aLParam
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aMessage
 =

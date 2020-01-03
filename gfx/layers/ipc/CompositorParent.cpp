@@ -591,7 +591,7 @@ h
 /
 /
 for
-NS_ABORT_IF_FALSE
+NS_ASSERTION
 etc
 #
 include
@@ -2640,7 +2640,7 @@ Destroy
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ManagedPLayerTransactionParent
 (

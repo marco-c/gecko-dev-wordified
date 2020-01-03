@@ -874,7 +874,7 @@ nsString
 aTokens
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aAttr
 "
@@ -1010,7 +1010,7 @@ to
 be
 kept
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 lastTokenRemoved
@@ -1140,7 +1140,7 @@ IsEmpty
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 nsContentUtils

@@ -343,6 +343,13 @@ RestyleManager
 .
 h
 "
+#
+include
+<
+inttypes
+.
+h
+>
 using
 namespace
 mozilla
@@ -4632,7 +4639,7 @@ if
 aOldAnimRule
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 n
 -
@@ -4649,7 +4656,7 @@ rule
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 n
 -
@@ -4679,7 +4686,7 @@ GetParent
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsMoreSpecificThanAnimation
@@ -5469,7 +5476,7 @@ result
 aElementForAnimation
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 result
 -
@@ -5487,7 +5494,7 @@ node
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 result
@@ -5508,7 +5515,7 @@ node
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aVisitedRuleNode
@@ -5536,7 +5543,7 @@ node
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aVisitedRuleNode
@@ -5593,7 +5600,7 @@ animRule
 :
 nullptr
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 visitedRuleNode
@@ -8811,7 +8818,7 @@ date
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -8865,8 +8872,8 @@ replacement
 bits
 0x
 %
-lX
 "
+PRIX32
 uint32_t
 (
 aReplacements
@@ -13297,7 +13304,7 @@ GetParent
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ruleNode
 -

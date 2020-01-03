@@ -378,7 +378,7 @@ mDocument
 aDoc
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aDoc
 "
@@ -502,7 +502,7 @@ Disconnect
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mDocument
 "
@@ -520,7 +520,7 @@ connected
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRefCnt
 .
@@ -1448,7 +1448,7 @@ added
 its
 1st
 element
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationElementTable
 .
@@ -2087,7 +2087,7 @@ driver
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 GetRefreshDriver
@@ -2218,7 +2218,7 @@ GetRefreshDriver
 return
 null
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 GetRefreshDriver
@@ -3488,7 +3488,7 @@ void
 aData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aData
 "
@@ -4152,7 +4152,7 @@ get
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 elem
 "
@@ -4316,7 +4316,7 @@ void
 aData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 "
@@ -4331,7 +4331,7 @@ table
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 -
@@ -4350,7 +4350,7 @@ table
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aData
 "
@@ -4458,7 +4458,7 @@ void
 aData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 "
@@ -4473,7 +4473,7 @@ table
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 -
@@ -4492,7 +4492,7 @@ table
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aData
 "
@@ -4969,7 +4969,7 @@ GetCurrentTime
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 timeContainer

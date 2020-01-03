@@ -615,7 +615,7 @@ bool
 aCompileEventHandlers
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mHrefTarget
@@ -632,8 +632,6 @@ href
 -
 target
 yet
-"
-"
 (
 or
 it
@@ -1219,7 +1217,7 @@ href
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mHrefTarget

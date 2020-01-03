@@ -590,7 +590,7 @@ uint32_t
 aNumProps
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBaseSize
 =
@@ -863,7 +863,7 @@ i
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -893,7 +893,7 @@ i
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -920,7 +920,7 @@ CompressedProperties
 i
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 nsCSSProps
@@ -998,7 +998,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <
@@ -1960,7 +1960,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1997,7 +1997,7 @@ aProperty
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <

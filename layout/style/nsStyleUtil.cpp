@@ -1780,7 +1780,7 @@ char16_t
 }
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aMaskedValue
 =
@@ -3478,7 +3478,7 @@ GetArrayValue
 nsAutoCString
 buf
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 sources
 .

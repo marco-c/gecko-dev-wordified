@@ -3428,7 +3428,7 @@ nsresult
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRedirectCallback
 "
@@ -3440,7 +3440,7 @@ callback
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNewRedirectChannel
 "

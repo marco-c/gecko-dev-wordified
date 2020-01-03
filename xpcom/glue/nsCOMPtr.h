@@ -228,9 +228,6 @@ h
 /
 for
 |
-NS_ABORT_IF_FALSE
-|
-|
 NS_ASSERTION
 |
 #
@@ -3954,7 +3951,7 @@ operator
 const
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -4041,7 +4038,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -5531,7 +5528,7 @@ operator
 const
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !
@@ -5618,7 +5615,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRawPtr
 !

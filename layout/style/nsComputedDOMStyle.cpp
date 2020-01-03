@@ -2138,7 +2138,7 @@ StyleType
 aStyleType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElement
 "
@@ -3680,7 +3680,7 @@ require
 chrome
 privilege
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mExposeVisitedStyle
@@ -3934,7 +3934,7 @@ SubpropertyEntryFor
 prop
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 subprops
 [
@@ -5633,7 +5633,7 @@ str
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_None
 !
@@ -10948,7 +10948,7 @@ aCoord
 mHasPercent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCoord
 .
@@ -11518,7 +11518,7 @@ Size
 eCover
 :
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -11657,7 +11657,7 @@ eCSSKeyword_auto
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -11708,7 +11708,7 @@ mLength
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -11831,7 +11831,7 @@ eCSSKeyword_auto
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -11882,7 +11882,7 @@ mLength
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 size
 .
@@ -18751,7 +18751,7 @@ NS_STYLE_ALIGN_ITEMS_INITIAL_VALUE
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 computedAlignSelf
 !
@@ -23605,7 +23605,7 @@ val
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCoord
 .
@@ -23689,7 +23689,7 @@ val
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCoord
 .
@@ -23992,7 +23992,7 @@ result
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCoord
 .
@@ -25958,7 +25958,7 @@ nsStyleCoord
 aBoxValues
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBoxValues
 .
@@ -26495,7 +26495,7 @@ Coordinates
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 radii
 .
@@ -27494,7 +27494,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -27612,7 +27612,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -27730,7 +27730,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28157,7 +28157,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28241,7 +28241,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28401,7 +28401,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28519,7 +28519,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28637,7 +28637,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28721,7 +28721,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28841,7 +28841,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -28961,7 +28961,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -
@@ -29153,7 +29153,7 @@ GetROCSSValueList
 true
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 display
 -

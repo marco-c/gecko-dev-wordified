@@ -974,7 +974,7 @@ nsRect
 aPreFilterRect
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 -
@@ -1129,7 +1129,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 -
@@ -1463,7 +1463,7 @@ GetParent
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 f
 -
@@ -1497,7 +1497,7 @@ nsSVGOuterSVGFrame
 f
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 outerSVGFrame
 &
@@ -1627,7 +1627,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 -
@@ -1685,7 +1685,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -5694,7 +5694,7 @@ nsSVGUtils
 :
 FrameSpaceInCSSPxToUserSpaceOffset
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 content
 -
@@ -7029,7 +7029,7 @@ GetContent
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 content
 -

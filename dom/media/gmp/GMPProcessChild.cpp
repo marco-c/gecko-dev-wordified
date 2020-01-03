@@ -281,7 +281,7 @@ argv
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 values
 .
@@ -342,7 +342,7 @@ GetLooseValues
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 values
 .

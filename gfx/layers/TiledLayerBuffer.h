@@ -124,7 +124,7 @@ h
 /
 /
 for
-NS_ABORT_IF_FALSE
+NS_ASSERTION
 #
 include
 "
@@ -3621,7 +3621,7 @@ oldTileCount
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aNewValidRegion
 .
@@ -3659,7 +3659,7 @@ aPaintRegion
 ;
 #
 endif
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 oldAndPainted
 .
@@ -4205,7 +4205,7 @@ mRetainedHeight
 +
 tileY
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 index
 >
@@ -4518,7 +4518,7 @@ oldTileCount
 should
 be
 zero
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 oldTileCount
 =

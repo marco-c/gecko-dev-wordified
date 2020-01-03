@@ -426,7 +426,7 @@ than
 8
 bytes
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElemAlign
 <
@@ -891,7 +891,7 @@ GetAutoArrayBuffer
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 diff
 >
@@ -2901,7 +2901,7 @@ malloc
 ed
 space
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UsesAutoArrayBuffer
 (
@@ -3194,7 +3194,7 @@ arrays
 '
 lengths
 .
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aOther

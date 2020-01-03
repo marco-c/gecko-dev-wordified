@@ -1726,7 +1726,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aParent
 -

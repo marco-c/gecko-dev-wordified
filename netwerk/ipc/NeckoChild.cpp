@@ -362,7 +362,7 @@ InitNeckoChild
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNeckoChild
 (
@@ -472,7 +472,7 @@ DestroyNeckoChild
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNeckoChild
 (
@@ -494,7 +494,7 @@ alreadyDestroyed
 =
 false
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 alreadyDestroyed
@@ -598,7 +598,7 @@ PHttpChannelChild
 channel
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNeckoChild
 (
@@ -701,7 +701,7 @@ PFTPChannelChild
 channel
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNeckoChild
 (
@@ -872,7 +872,7 @@ PWyciwygChannelChild
 channel
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNeckoChild
 (

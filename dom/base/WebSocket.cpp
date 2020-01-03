@@ -7988,7 +7988,7 @@ ErrorResult
 aRv
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -8324,7 +8324,7 @@ AssertIsOnMainThread
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mChannel

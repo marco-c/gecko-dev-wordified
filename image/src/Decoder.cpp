@@ -591,7 +591,7 @@ No
 re
 -
 initializing
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInitialized
@@ -3403,7 +3403,7 @@ Orientation
 /
 /
 Validate
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aWidth
 >
@@ -3420,7 +3420,7 @@ negative
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aHeight
 >
@@ -3496,7 +3496,7 @@ be
 mid
 -
 frame
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInFrame
@@ -3779,7 +3779,7 @@ be
 mid
 -
 frame
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mInFrame
 "
@@ -3796,7 +3796,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentFrame
 "
@@ -3885,7 +3885,7 @@ aLoopCount
 /
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsSizeDecode
@@ -3906,7 +3906,7 @@ decode
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInFrame
@@ -3928,7 +3928,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDecodeDone
@@ -3996,7 +3996,7 @@ nsresult
 aFailureCode
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (

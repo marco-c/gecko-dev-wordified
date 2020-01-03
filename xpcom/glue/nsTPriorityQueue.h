@@ -458,7 +458,7 @@ Top
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mElements
@@ -679,7 +679,7 @@ Pop
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mElements
