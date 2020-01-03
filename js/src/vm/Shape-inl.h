@@ -1426,6 +1426,9 @@ attributes
 )
 ;
 }
+#
+ifdef
+JSGC_COMPACTING
 inline
 void
 BaseShape
@@ -1450,6 +1453,8 @@ fixupAfterMovingGC
 )
 ;
 }
+#
+endif
 }
 /
 *

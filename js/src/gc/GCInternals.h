@@ -745,6 +745,9 @@ rt
 ;
 #
 endif
+#
+ifdef
+JSGC_COMPACTING
 struct
 MovingTracer
 :
@@ -802,6 +805,8 @@ Visit
 }
 }
 ;
+#
+endif
 }
 /
 *
