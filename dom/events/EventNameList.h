@@ -1405,7 +1405,7 @@ eBasicEventClass
 EVENT
 (
 progress
-NS_PROGRESS
+eProgress
 EventNameType_HTML
 eBasicEventClass
 )

@@ -1749,7 +1749,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PROGRESS
+eProgress
 eMediaEventFirst
 +
 1
