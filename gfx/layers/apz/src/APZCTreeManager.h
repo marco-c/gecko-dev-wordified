@@ -2087,7 +2087,7 @@ FrameMetrics
 &
 aFrameMetrics
 const
-ScreenPoint
+ParentLayerPoint
 &
 aVelocity
 double
@@ -2919,9 +2919,9 @@ DispatchScroll
 AsyncPanZoomController
 *
 aApzc
-ScreenPoint
+ParentLayerPoint
 aStartPoint
-ScreenPoint
+ParentLayerPoint
 aEndPoint
 OverscrollHandoffState
 &
@@ -3163,7 +3163,7 @@ DispatchFling
 AsyncPanZoomController
 *
 aApzc
-ScreenPoint
+ParentLayerPoint
 aVelocity
 nsRefPtr
 <

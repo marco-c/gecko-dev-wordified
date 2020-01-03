@@ -8936,10 +8936,10 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aLayersUpdated
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aScale
 LayerMargin
@@ -9047,7 +9047,7 @@ viewTransformJObj
 ;
 aScrollOffset
 =
-ScreenPoint
+ParentLayerPoint
 (
 viewTransform
 -
@@ -9151,7 +9151,7 @@ AndroidBridge
 SyncFrameMetrics
 (
 const
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
 float
@@ -11539,10 +11539,10 @@ float
 aDisplayResolution
 bool
 aDrawingCritical
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 )
