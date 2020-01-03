@@ -46841,7 +46841,7 @@ clasp
 >
 ops
 .
-lookupGeneric
+lookupProperty
 )
 ;
 }
@@ -63272,8 +63272,8 @@ called
 .
 Ignore
 the
-getGeneric
-hook
+getProperty
+op
 for
 typed
 arrays
@@ -63300,7 +63300,7 @@ clasp
 >
 ops
 .
-getGeneric
+getProperty
 &
 &
 !
@@ -63323,7 +63323,7 @@ clasp
 >
 ops
 .
-setGeneric
+setProperty
 )
 return
 false

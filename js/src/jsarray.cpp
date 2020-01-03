@@ -17848,7 +17848,7 @@ with
 /
 resolve
 /
-lookupGeneric
+lookupProperty
 hooks
 or
 indexed
@@ -17958,7 +17958,7 @@ getOps
 )
 -
 >
-lookupGeneric
+lookupProperty
 )
 return
 true

@@ -15131,7 +15131,7 @@ clasp
 >
 ops
 .
-lookupGeneric
+lookupProperty
 |
 |
 clasp
@@ -15139,7 +15139,7 @@ clasp
 >
 ops
 .
-getGeneric
+getProperty
 |
 |
 IsAnyTypedArrayClass
