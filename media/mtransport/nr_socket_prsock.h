@@ -886,6 +886,7 @@ fd
 int16_t
 outflags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -895,6 +896,7 @@ PRFileDesc
 *
 fd
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -904,12 +906,14 @@ bool
 *
 aIsLocal
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 ByteCountSent
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -920,6 +924,7 @@ uint64_t
 ByteCountReceived
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -954,6 +959,7 @@ function
 int
 line
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -962,6 +968,7 @@ cancel
 int
 how
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -978,6 +985,7 @@ nr_transport_addr
 *
 addr
 )
+MOZ_OVERRIDE
 ;
 /
 /
@@ -1007,6 +1015,7 @@ nr_transport_addr
 *
 to
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1026,6 +1035,7 @@ nr_transport_addr
 *
 from
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1035,12 +1045,14 @@ nr_transport_addr
 *
 addrp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 close
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1050,6 +1062,7 @@ nr_transport_addr
 *
 addr
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1065,6 +1078,7 @@ size_t
 *
 written
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1079,6 +1093,7 @@ size_t
 *
 len
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -1220,6 +1235,7 @@ nr_transport_addr
 *
 addr
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1237,6 +1253,7 @@ nr_transport_addr
 *
 to
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1256,6 +1273,7 @@ nr_transport_addr
 *
 from
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1265,12 +1283,14 @@ nr_transport_addr
 *
 addrp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 close
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1280,6 +1300,7 @@ nr_transport_addr
 *
 addr
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1295,6 +1316,7 @@ size_t
 *
 written
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -1309,6 +1331,7 @@ size_t
 *
 len
 )
+MOZ_OVERRIDE
 ;
 private
 :
