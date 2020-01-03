@@ -11849,14 +11849,12 @@ aIFrame
 baseWindow
 -
 >
-GetPositionAndSize
+GetPosition
 (
 &
 x
 &
 y
-nullptr
-nullptr
 )
 ;
 if
@@ -11871,7 +11869,7 @@ IsAlive
 {
 /
 /
-GetPositionAndSize
+GetPosition
 (
 )
 killed
