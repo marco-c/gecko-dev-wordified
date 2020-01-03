@@ -228,8 +228,7 @@ height
 :
 u32
 }
-extern
-crate
+mod
 byteorder
 ;
 use
