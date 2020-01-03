@@ -8449,6 +8449,11 @@ y
 scroll
 .
 Y
+rtl
+:
+this
+.
+_targetIsRTL
 hidden
 :
 checkHidden
