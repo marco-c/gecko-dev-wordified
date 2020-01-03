@@ -12354,6 +12354,8 @@ tab
 .
 this
 .
+selectedTab
+.
 isSearch
 =
 true
