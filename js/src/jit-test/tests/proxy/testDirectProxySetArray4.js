@@ -118,6 +118,9 @@ ponies
 "
 )
 ;
+return
+true
+;
 }
 }
 )

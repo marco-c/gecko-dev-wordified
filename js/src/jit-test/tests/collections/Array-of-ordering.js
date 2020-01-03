@@ -59,6 +59,9 @@ value
 ]
 )
 ;
+return
+true
+;
 }
 set
 :
@@ -81,6 +84,9 @@ name
 value
 ]
 )
+;
+return
+true
 ;
 }
 }

@@ -129,6 +129,9 @@ hits
 +
 +
 ;
+return
+true
+;
 }
 }
 )
