@@ -225,11 +225,13 @@ js
 "
         
 "
-%
-(
-test_manifest
-)
-s
+jsreftest
+/
+tests
+/
+jstests
+.
+list
 "
     
 ]
@@ -587,11 +589,15 @@ oop
 "
         
 "
-%
-(
-test_manifest
-)
-s
+tests
+/
+layout
+/
+reftests
+/
+reftest
+.
+list
 "
     
 ]
@@ -746,11 +752,15 @@ s
 "
         
 "
-%
-(
-test_manifest
-)
-s
+tests
+/
+testing
+/
+crashtest
+/
+crashtests
+.
+list
 "
     
 ]
@@ -811,11 +821,11 @@ s
 -
 manifest
 =
-%
-(
-test_manifest
-)
-s
+tests
+/
+xpcshell_b2g
+.
+ini
 "
 "
 -
