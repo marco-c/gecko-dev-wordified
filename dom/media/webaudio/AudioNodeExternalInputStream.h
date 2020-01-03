@@ -190,6 +190,8 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
+uint32_t
+aContextId
 )
 ;
 protected
