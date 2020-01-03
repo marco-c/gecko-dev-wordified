@@ -46558,6 +46558,7 @@ track
 -
 breadth
 >
+.
 bool
 CSSParserImpl
 :
@@ -46574,6 +46575,8 @@ if
 ParseNonNegativeVariant
 (
 aValue
+VARIANT_AUTO
+|
 VARIANT_LPCALC
 |
 VARIANT_KEYWORD
@@ -46606,6 +46609,7 @@ fr
 "
 unit
 )
+.
 if
 (
 !
@@ -46683,6 +46687,7 @@ track
 -
 size
 >
+.
 CSSParseResult
 CSSParserImpl
 :
@@ -46699,10 +46704,6 @@ aValue
 Attempt
 to
 parse
-'
-auto
-'
-or
 a
 single
 <
@@ -46710,19 +46711,12 @@ track
 -
 breadth
 >
+.
 if
 (
 ParseGridTrackBreadth
 (
 aValue
-)
-|
-|
-ParseVariant
-(
-aValue
-VARIANT_AUTO
-nullptr
 )
 )
 {
@@ -46743,6 +46737,7 @@ minmax
 (
 )
 function
+.
 if
 (
 !
