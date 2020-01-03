@@ -229,11 +229,6 @@ PRLogModuleInfo
 *
 gMediaPromiseLog
 ;
-void
-EnsureMediaPromiseLog
-(
-)
-;
 #
 define
 PROMISE_LOG
