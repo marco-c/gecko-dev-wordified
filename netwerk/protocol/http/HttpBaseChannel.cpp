@@ -8137,6 +8137,12 @@ nsACString
 aValue
 )
 {
+aValue
+.
+Truncate
+(
+)
+;
 /
 /
 XXX
@@ -8554,6 +8560,12 @@ nsACString
 value
 )
 {
+value
+.
+Truncate
+(
+)
+;
 if
 (
 !

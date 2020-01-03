@@ -559,6 +559,12 @@ nsACString
 _retval
 )
 {
+_retval
+.
+Truncate
+(
+)
+;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -763,6 +769,12 @@ nsACString
 _retval
 )
 {
+_retval
+.
+Truncate
+(
+)
+;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
