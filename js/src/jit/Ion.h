@@ -1200,11 +1200,6 @@ JitSupportsFloatingPoint
 (
 )
 ;
-bool
-JitSupportsSimd
-(
-)
-;
 }
 /
 /

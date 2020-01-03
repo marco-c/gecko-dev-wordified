@@ -1878,7 +1878,7 @@ it
 is
 /
 /
-SIMD
+double
 -
 aligned
 .
@@ -1893,7 +1893,10 @@ masm
 bytesNeeded
 (
 )
-SimdStackAlignment
+sizeof
+(
+double
+)
 )
 ;
 /
@@ -3582,7 +3585,7 @@ Normally
 the
 types
 should
-correspond
+corresond
 since
 we
 just

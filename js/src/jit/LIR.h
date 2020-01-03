@@ -8845,7 +8845,7 @@ const
 /
 Round
 to
-ABIStackAlignment
+StackAlignment
 but
 also
 round
@@ -8856,9 +8856,9 @@ sizeof
 (
 Value
 )
-/
-/
 in
+/
+/
 case
 that
 '
@@ -8867,9 +8867,9 @@ greater
 because
 StackOffsetOfPassedArg
 rounds
-/
-/
 argument
+/
+/
 slots
 to
 8
@@ -8884,7 +8884,7 @@ Max
 (
 size_t
 (
-ABIStackAlignment
+StackAlignment
 )
 sizeof
 (

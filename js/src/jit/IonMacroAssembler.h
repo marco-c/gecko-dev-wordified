@@ -9249,8 +9249,6 @@ liveRegs
 void
 assertStackAlignment
 (
-uint32_t
-alignment
 )
 {
 #
@@ -9263,7 +9261,7 @@ JS_ASSERT
 (
 IsPowerOfTwo
 (
-alignment
+StackAlignment
 )
 )
 ;
@@ -9276,7 +9274,7 @@ Zero
 StackPointer
 Imm32
 (
-alignment
+StackAlignment
 -
 1
 )
@@ -9628,8 +9626,6 @@ inline
 size_t
 StackDecrementForCall
 (
-uint32_t
-alignment
 size_t
 bytesAlreadyPushed
 size_t
@@ -9644,7 +9640,7 @@ ComputeByteAlignment
 bytesAlreadyPushed
 +
 bytesToPush
-alignment
+StackAlignment
 )
 ;
 }
