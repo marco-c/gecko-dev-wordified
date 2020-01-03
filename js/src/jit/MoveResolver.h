@@ -1255,6 +1255,15 @@ PendingMove
 first
 )
 ;
+bool
+addOrderedMove
+(
+const
+MoveOp
+&
+move
+)
+;
 /
 /
 Internal
