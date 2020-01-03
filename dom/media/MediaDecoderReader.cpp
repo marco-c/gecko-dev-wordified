@@ -1336,7 +1336,7 @@ if
 !
 mDuration
 .
-ReadOnWrongThread
+Ref
 (
 )
 .
@@ -1357,7 +1357,7 @@ GetEstimatedBufferedTimeRanges
 stream
 mDuration
 .
-ReadOnWrongThread
+Ref
 (
 )
 .
