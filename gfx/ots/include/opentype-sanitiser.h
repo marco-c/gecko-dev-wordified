@@ -1469,6 +1469,7 @@ experimental
 )
 .
 void
+OTS_API
 EnableWOFF2
 (
 )
