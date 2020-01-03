@@ -93,10 +93,10 @@ MPL
 /
 #
 ifndef
-ImageMetadata_h___
+mozilla_image_src_ImageMetadata_h
 #
 define
-ImageMetadata_h___
+mozilla_image_src_ImageMetadata_h
 #
 include
 <
@@ -410,4 +410,4 @@ mozilla
 endif
 /
 /
-ImageMetadata_h___
+mozilla_image_src_ImageMetadata_h
