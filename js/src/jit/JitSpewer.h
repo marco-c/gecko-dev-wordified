@@ -658,6 +658,9 @@ JitSpew_Terminator
 class
 MIRGenerator
 ;
+class
+TempAllocator
+;
 /
 /
 The
