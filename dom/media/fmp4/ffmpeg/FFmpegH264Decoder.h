@@ -249,6 +249,16 @@ Flush
 )
 MOZ_OVERRIDE
 ;
+static
+AVCodecID
+GetCodecId
+(
+const
+char
+*
+aMimeType
+)
+;
 private
 :
 void
