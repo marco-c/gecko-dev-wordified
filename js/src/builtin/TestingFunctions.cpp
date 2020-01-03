@@ -11244,7 +11244,7 @@ obj
 return
 false
 ;
-js_DumpObject
+DumpObject
 (
 obj
 )
@@ -11487,7 +11487,7 @@ argc
 vp
 )
 ;
-js_DumpBacktrace
+DumpBacktrace
 (
 cx
 )

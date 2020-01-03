@@ -29865,7 +29865,7 @@ colspan
 =
 SN_OFFSET_TO_COLSPAN
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -29903,7 +29903,7 @@ lineno
 =
 size_t
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0

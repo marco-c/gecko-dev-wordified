@@ -16798,7 +16798,7 @@ i_
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 v
 )
@@ -16872,7 +16872,7 @@ fun
 #
 ifdef
 DEBUG
-js_DumpObject
+DumpObject
 (
 callee
 (
@@ -17102,7 +17102,7 @@ valueSlot
 i
 )
 ;
-js_DumpValue
+DumpValue
 (
 *
 v
@@ -17202,7 +17202,7 @@ fun
 #
 ifdef
 DEBUG
-js_DumpObject
+DumpObject
 (
 callee
 (
@@ -17557,7 +17557,7 @@ i
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 si
 .

@@ -906,7 +906,7 @@ endOfTry
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0

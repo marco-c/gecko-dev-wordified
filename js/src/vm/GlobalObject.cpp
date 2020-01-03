@@ -433,7 +433,7 @@ obj
 MOZ_CRASH
 (
 "
-js_InitViaClassSpec
+InitViaClassSpec
 (
 )
 should
@@ -719,7 +719,10 @@ is
 /
 the
 class
-js_InitFoo
+js
+:
+:
+InitFoo
 hook
 defined
 in

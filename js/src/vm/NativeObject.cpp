@@ -9188,7 +9188,10 @@ parseInt
 /
 /
 -
-js_InitNumber
+js
+:
+:
+InitNumberClass
 is
 called
 to
@@ -9198,7 +9201,10 @@ parseInt
 /
 /
 -
-js_InitNumber
+js
+:
+:
+InitNumberClass
 tries
 to
 define
@@ -9207,6 +9213,8 @@ Number
 constructor
 on
 the
+/
+/
 global
 .
 /
@@ -9235,7 +9243,10 @@ hook
 /
 /
 -
-js_InitNumber
+js
+:
+:
+InitNumberClass
 is
 called
 again

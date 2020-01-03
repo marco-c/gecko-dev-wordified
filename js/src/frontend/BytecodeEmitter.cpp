@@ -54493,7 +54493,10 @@ JS_FRIEND_API
 (
 unsigned
 )
-js_SrcNoteLength
+js
+:
+:
+SrcNoteLength
 (
 jssrcnote
 *
@@ -54555,7 +54558,10 @@ JS_FRIEND_API
 (
 ptrdiff_t
 )
-js_GetSrcNoteOffset
+js
+:
+:
+GetSrcNoteOffset
 (
 jssrcnote
 *

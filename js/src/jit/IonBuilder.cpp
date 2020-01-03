@@ -18809,7 +18809,7 @@ ifne
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -18996,7 +18996,7 @@ LOOPHEAD
 int
 condition_offset
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -19029,7 +19029,7 @@ pc
 int
 offset
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn2
 0
@@ -19469,7 +19469,7 @@ SRC_WHILE
 int
 ifneOffset
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -19866,7 +19866,7 @@ condpc
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -19878,7 +19878,7 @@ updatepc
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 1
@@ -19890,7 +19890,7 @@ ifne
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 2
@@ -20706,7 +20706,7 @@ exitpc
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -25103,7 +25103,7 @@ exitpc
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -25115,7 +25115,7 @@ firstCase
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 1
@@ -25270,7 +25270,7 @@ SRC_NEXTCASE
 ptrdiff_t
 off
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 caseSn
 0
@@ -25844,7 +25844,7 @@ pc
 ptrdiff_t
 off
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -27871,7 +27871,7 @@ trueEnd
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -28255,7 +28255,7 @@ endpc
 =
 pc
 +
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0

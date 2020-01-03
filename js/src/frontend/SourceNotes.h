@@ -1791,7 +1791,10 @@ arity
 1
 \
 :
-js_SrcNoteLength
+js
+:
+:
+SrcNoteLength
 (
 sn
 )
@@ -1853,12 +1856,15 @@ js_SrcNoteSpec
 [
 ]
 ;
+namespace
+js
+{
 extern
 JS_FRIEND_API
 (
 unsigned
 )
-js_SrcNoteLength
+SrcNoteLength
 (
 jssrcnote
 *
@@ -1893,7 +1899,7 @@ JS_FRIEND_API
 (
 ptrdiff_t
 )
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 jssrcnote
 *
@@ -1902,6 +1908,7 @@ unsigned
 which
 )
 ;
+}
 #
 endif
 /

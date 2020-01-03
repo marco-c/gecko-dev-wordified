@@ -605,7 +605,7 @@ atom
 "
 )
 ;
-js_DumpAtom
+DumpAtom
 (
 r
 .
@@ -756,7 +756,7 @@ atom
 "
 )
 ;
-js_DumpAtom
+DumpAtom
 (
 r
 .

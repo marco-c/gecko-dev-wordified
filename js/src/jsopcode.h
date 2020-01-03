@@ -2899,7 +2899,7 @@ SRC_SETLINE
 )
 lineno
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
