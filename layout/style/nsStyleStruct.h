@@ -12967,7 +12967,7 @@ nsChangeHint_UpdateOverflow
 |
 nsChangeHint_UpdatePostTransformOverflow
 |
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 |
 nsChangeHint_NeutralChange
 )
