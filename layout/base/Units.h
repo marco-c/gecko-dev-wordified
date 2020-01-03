@@ -215,7 +215,7 @@ FalseType
 /
 See
 struct
-decleration
+declaration
 for
 a
 description
@@ -223,6 +223,7 @@ of
 each
 unit
 type
+.
 struct
 CSSPixel
 ;
