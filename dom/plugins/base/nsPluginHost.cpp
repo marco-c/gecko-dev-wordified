@@ -6883,6 +6883,8 @@ nsPluginTag
 >
 &
 aPluginArray
+bool
+aIncludeDisabled
 )
 {
 aPluginArray
@@ -6917,6 +6919,9 @@ plugin
 IsEnabled
 (
 )
+|
+|
+aIncludeDisabled
 )
 {
 aPluginArray
@@ -14766,6 +14771,7 @@ plugins
 GetPlugins
 (
 plugins
+true
 )
 ;
 for
