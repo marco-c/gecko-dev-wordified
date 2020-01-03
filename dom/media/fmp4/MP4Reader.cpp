@@ -4405,6 +4405,11 @@ mon
 mDemuxerMonitor
 )
 ;
+if
+(
+mDemuxer
+)
+{
 mDemuxer
 -
 >
@@ -4413,6 +4418,7 @@ SeekVideo
 0
 )
 ;
+}
 }
 Flush
 (
@@ -4426,6 +4432,11 @@ mon
 mDemuxerMonitor
 )
 ;
+if
+(
+mDemuxer
+)
+{
 mDemuxer
 -
 >
@@ -4434,6 +4445,7 @@ SeekAudio
 0
 )
 ;
+}
 }
 return
 MediaDecoderReader
