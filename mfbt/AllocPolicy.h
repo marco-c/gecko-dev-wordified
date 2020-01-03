@@ -489,9 +489,11 @@ T
 :
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <
@@ -581,9 +583,11 @@ T
 :
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <
