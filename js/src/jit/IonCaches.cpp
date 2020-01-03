@@ -10196,6 +10196,17 @@ INT32_MAX
 return
 true
 ;
+if
+(
+!
+allowArrayLength
+(
+cx
+)
+)
+return
+true
+;
 *
 emitted
 =
