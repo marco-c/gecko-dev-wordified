@@ -482,6 +482,10 @@ the
 chrome
 cache
 .
+mRuleProcessor
+=
+nullptr
+;
 nsTArray
 <
 nsRefPtr
@@ -745,7 +749,6 @@ nsStyleSet
 :
 eDocSheet
 nullptr
-mRuleProcessor
 )
 ;
 }
