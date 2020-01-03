@@ -2170,12 +2170,6 @@ members
 .
 nsCOMPtr
 <
-nsIObserverService
->
-mObserverService
-;
-nsCOMPtr
-<
 nsICookiePermission
 >
 mPermissionService
