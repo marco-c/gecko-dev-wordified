@@ -217,9 +217,6 @@ bool
 checkRangeAnalysis
 ;
 bool
-compileTryCatch
-;
-bool
 disableScalarReplacement
 ;
 bool
