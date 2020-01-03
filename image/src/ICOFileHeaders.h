@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_ICOHEADERS_H_
+mozilla_image_src_ICOFileHeaders_h
 #
 define
-MOZILLA_IMAGELIB_ICOHEADERS_H_
+mozilla_image_src_ICOFileHeaders_h
 namespace
 mozilla
 {
@@ -216,7 +216,7 @@ that
 the
 icon
 file
-containts
+contains
 there
 must
 be
@@ -434,3 +434,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_image_src_ICOFileHeaders_h

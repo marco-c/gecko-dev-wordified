@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_IMAGELIB_BMPHEADERS_H_
+mozilla_image_src_BMPFileHeaders_h
 #
 define
-MOZILLA_IMAGELIB_BMPHEADERS_H_
+mozilla_image_src_BMPFileHeaders_h
 namespace
 mozilla
 {
@@ -186,6 +186,8 @@ as
 contained
 in
 the
+/
+/
 bihsize
 field
 of
@@ -208,6 +210,8 @@ as
 contained
 in
 the
+/
+/
 bihsize
 field
 of
@@ -230,6 +234,8 @@ as
 contained
 in
 the
+/
+/
 bihsize
 field
 of
@@ -377,6 +383,8 @@ Can
 be
 0
 if
+/
+/
 compression
 =
 =
@@ -761,6 +769,10 @@ count
 of
 existing
 data
+/
+/
+/
+<
 to
 read
 eRLEStateAbsoluteModePadded
@@ -777,6 +789,10 @@ of
 data
 has
 to
+/
+/
+/
+<
 be
 read
 as
@@ -785,3 +801,6 @@ padding
 ;
 #
 endif
+/
+/
+mozilla_image_src_BMPFileHeaders_h
