@@ -192,7 +192,7 @@ class
 nsCOMPtr
 ;
 class
-nsIDOMWindowUtils
+nsIPresShell
 ;
 class
 nsIWidget
@@ -331,7 +331,7 @@ ProcessLongTap
 const
 nsCOMPtr
 <
-nsIDOMWindowUtils
+nsIPresShell
 >
 &
 aUtils

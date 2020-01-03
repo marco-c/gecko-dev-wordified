@@ -972,10 +972,10 @@ DispatchMouseEvent
 const
 nsCOMPtr
 <
-nsIDOMWindowUtils
+nsIPresShell
 >
 &
-aUtils
+aPresShell
 const
 nsString
 &

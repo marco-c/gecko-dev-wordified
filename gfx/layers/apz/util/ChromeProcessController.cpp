@@ -1010,7 +1010,7 @@ mAPZEventState
 >
 ProcessLongTap
 (
-GetDOMWindowUtils
+GetPresShell
 (
 )
 aPoint
