@@ -627,7 +627,7 @@ _pendingSetInputMethodActive
 ;
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 false
 ;
@@ -1015,11 +1015,11 @@ false
 addEventListener
 (
 '
-mozselectionchange
+mozselectionstatechanged
 '
 this
 .
-_selectionChangeHandler
+_selectionStateChangedHandler
 .
 bind
 (
@@ -3945,7 +3945,7 @@ detail
 )
 ;
 }
-_selectionChangeHandler
+_selectionStateChangedHandler
 :
 function
 (
@@ -3994,7 +3994,7 @@ isMouseUp
 (
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -4024,17 +4024,17 @@ if
 !
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 )
 {
 /
 /
-SelectionChange
+SelectionStateChanged
 events
 with
 the
 following
-reasons
+states
 are
 not
 /
@@ -4059,7 +4059,7 @@ if
 (
 e
 .
-reasons
+states
 .
 length
 =
@@ -4069,7 +4069,7 @@ length
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -4084,7 +4084,7 @@ drag
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -4099,7 +4099,7 @@ keypress
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -4119,7 +4119,7 @@ return
 /
 The
 collapsed
-SelectionChange
+SelectionStateChanged
 event
 is
 unnecessary
@@ -4256,7 +4256,7 @@ touch
 here
 sets
 the
-forceDispatchSelectionChange
+forceDispatchSelectionStateChanged
 flag
 as
 true
@@ -4297,7 +4297,7 @@ isCollapsed
 {
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 true
 ;
@@ -4306,7 +4306,7 @@ else
 {
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 false
 ;
@@ -4409,11 +4409,11 @@ paste
 zoomFactor
 :
 zoomFactor
-reasons
+states
 :
 e
 .
-reasons
+states
 isCollapsed
 :
 (
@@ -4524,7 +4524,7 @@ parent
 sendAsyncMsg
 (
 '
-selectionchange
+selectionstatechanged
 '
 detail
 )
