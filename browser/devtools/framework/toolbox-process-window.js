@@ -519,7 +519,7 @@ setBoolPref
 "
 devtools
 .
-performance
+profiler
 .
 ui
 .

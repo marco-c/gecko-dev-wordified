@@ -85,7 +85,7 @@ enabled
 "
 devtools
 .
-performance
+profiler
 .
 enabled
 "

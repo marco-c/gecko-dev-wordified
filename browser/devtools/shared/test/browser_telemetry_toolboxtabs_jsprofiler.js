@@ -119,7 +119,7 @@ openAndCloseToolbox
 2
 TOOL_DELAY
 "
-performance
+jsprofiler
 "
 )
 ;
