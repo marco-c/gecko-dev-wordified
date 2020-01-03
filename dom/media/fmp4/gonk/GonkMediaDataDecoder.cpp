@@ -1095,6 +1095,10 @@ rv
 =
 =
 NS_ERROR_NOT_AVAILABLE
+&
+&
+!
+mSignaledEOS
 )
 {
 mCallback
