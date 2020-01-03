@@ -466,8 +466,8 @@ Notify
 this
 Axis
 that
-a
-touch
+the
+gesture
 has
 ended
 forcefully
@@ -518,7 +518,7 @@ place
 *
 /
 void
-CancelTouch
+CancelGesture
 (
 )
 ;

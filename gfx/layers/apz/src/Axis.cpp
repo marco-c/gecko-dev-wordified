@@ -3181,7 +3181,7 @@ void
 Axis
 :
 :
-CancelTouch
+CancelGesture
 (
 )
 {
