@@ -545,6 +545,13 @@ PrintableKey
 MozPrintableKey
 "
 )
+DEFINE_KEYNAME_INTERNAL
+(
+HomeScreen
+"
+MozHomeScreen
+"
+)
 /
 *
 *
