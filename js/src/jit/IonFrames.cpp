@@ -3586,6 +3586,11 @@ UndefinedValue
 ;
 if
 (
+unwoundScopeToPc
+)
+{
+if
+(
 frame
 .
 baselineFrame
@@ -3596,9 +3601,6 @@ baselineFrame
 isDebuggee
 (
 )
-&
-&
-unwoundScopeToPc
 )
 frame
 .
@@ -3612,6 +3614,11 @@ setUnwoundScopeOverridePc
 unwoundScopeToPc
 )
 ;
+pc
+=
+unwoundScopeToPc
+;
+}
 ForcedReturn
 (
 cx
