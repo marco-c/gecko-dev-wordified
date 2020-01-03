@@ -202,7 +202,6 @@ These
 operations
 may
 throw
-internal
 errors
 try
 {
