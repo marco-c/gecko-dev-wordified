@@ -2404,6 +2404,10 @@ READING_LIST
 :
 mDB
 .
+getReadingListAccessor
+(
+)
+.
 removeReadingListItemWithURL
 (
 cr

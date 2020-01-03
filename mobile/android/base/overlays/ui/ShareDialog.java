@@ -1924,6 +1924,10 @@ isReadingListItem
 =
 browserDB
 .
+getReadingListAccessor
+(
+)
+.
 isReadingListItem
 (
 contentResolver
