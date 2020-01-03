@@ -2196,12 +2196,8 @@ point
 including
 removing
 hooks
-preview
--
->
-mWnd
-=
-nullptr
+return
+false
 ;
 }
 else
