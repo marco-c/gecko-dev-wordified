@@ -29583,9 +29583,6 @@ structs
 }
 #
 endif
-#
-ifdef
-DEBUG
 /
 *
 static
@@ -29811,6 +29808,9 @@ return
 result
 ;
 }
+#
+ifdef
+DEBUG
 /
 *
 static
