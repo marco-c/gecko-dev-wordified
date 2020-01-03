@@ -5172,7 +5172,7 @@ equal
 !
 equal
 )
-NS_ERROR
+NS_WARNING
 (
 "
 mTempFile
