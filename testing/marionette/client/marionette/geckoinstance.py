@@ -227,16 +227,6 @@ autostart
 "
 :
 False
-                      
-"
-dom
-.
-ipc
-.
-reportProcessHangs
-"
-:
-False
 }
     
 def

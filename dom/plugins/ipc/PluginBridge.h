@@ -153,13 +153,6 @@ uint32_t
 aNewPluginEpoch
 )
 ;
-void
-TerminatePlugin
-(
-uint32_t
-aPluginId
-)
-;
 }
 /
 /
