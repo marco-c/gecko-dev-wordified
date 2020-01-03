@@ -19535,6 +19535,9 @@ protected
 ViewID
 mScrollParentId
 ;
+bool
+mForceDispatchToContentRegion
+;
 }
 ;
 /
