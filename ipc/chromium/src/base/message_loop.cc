@@ -2402,7 +2402,7 @@ into
 this
 queue
 .
-scoped_refptr
+nsRefPtr
 <
 base
 :

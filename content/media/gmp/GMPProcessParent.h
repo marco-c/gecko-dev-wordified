@@ -140,15 +140,6 @@ include
 "
 base
 /
-scoped_ptr
-.
-h
-"
-#
-include
-"
-base
-/
 thread
 .
 h
