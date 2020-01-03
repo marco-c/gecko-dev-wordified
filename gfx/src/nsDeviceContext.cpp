@@ -1019,7 +1019,7 @@ GetThebesFontGroup
 )
 -
 >
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;

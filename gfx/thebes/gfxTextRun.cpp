@@ -9188,7 +9188,7 @@ rather
 than
 only
 do
-UpdateFontList
+UpdateUserFonts
 (
 )
 if
@@ -16734,7 +16734,7 @@ GetGeneration
 -
 1
 ;
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;
@@ -16770,7 +16770,7 @@ note
 :
 gfxPangoFontGroup
 overrides
-UpdateFontList
+UpdateUserFonts
 such
 that
 /
@@ -16783,7 +16783,7 @@ void
 gfxFontGroup
 :
 :
-UpdateFontList
+UpdateUserFonts
 (
 )
 {

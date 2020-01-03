@@ -217,7 +217,7 @@ i
 ;
 virtual
 void
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;

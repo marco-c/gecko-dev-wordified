@@ -7900,7 +7900,7 @@ font
 groups
 to
 call
-UpdateFontList
+UpdateUserFonts
 at
 appropriate
 times
@@ -7912,7 +7912,7 @@ instead
 consider
 just
 calling
-UpdateFontList
+UpdateUserFonts
 from
 someplace
 /
@@ -7949,7 +7949,7 @@ have
 "
 "
 called
-UpdateFontList
+UpdateUserFonts
 on
 it
 "
@@ -7979,7 +7979,7 @@ void
 gfxPangoFontGroup
 :
 :
-UpdateFontList
+UpdateUserFonts
 (
 )
 {

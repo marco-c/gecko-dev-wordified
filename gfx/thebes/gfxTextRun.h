@@ -5385,7 +5385,7 @@ font
 groups
 to
 call
-UpdateFontList
+UpdateUserFonts
 at
 appropriate
 times
@@ -5397,7 +5397,7 @@ instead
 consider
 just
 calling
-UpdateFontList
+UpdateUserFonts
 from
 someplace
 /
@@ -5434,7 +5434,7 @@ have
 "
 "
 called
-UpdateFontList
+UpdateUserFonts
 on
 it
 "
@@ -6357,7 +6357,7 @@ aTextPerf
 This
 will
 call
-UpdateFontList
+UpdateUserFonts
 (
 )
 if
@@ -6402,7 +6402,7 @@ updating
 .
 virtual
 void
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;
@@ -6477,7 +6477,7 @@ group
 /
 or
 until
-UpdateFontList
+UpdateUserFonts
 is
 called
 or
