@@ -102,6 +102,17 @@ MPL
 .
 *
 /
+/
+*
+globals
+ViewHelpers
+Task
+AnimationsPanel
+promise
+EventEmitter
+AnimationsFront
+*
+/
 "
 use
 strict
@@ -400,6 +411,9 @@ not
 loaded
 in
 the
+"
++
+"
 animationinspector
 window
 "
@@ -1326,8 +1340,6 @@ async
 function
 *
 (
-e
-id
 )
 {
 if
@@ -1548,7 +1560,7 @@ hasToggleAll
 )
 {
 return
-promis
+promise
 .
 resolve
 (

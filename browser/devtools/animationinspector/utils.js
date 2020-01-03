@@ -195,6 +195,9 @@ TIME_INTERVAL_COLOR
 144
 ]
 ;
+/
+/
+byte
 const
 TIME_INTERVAL_OPACITY_MIN
 =
@@ -208,9 +211,6 @@ TIME_INTERVAL_OPACITY_ADD
 =
 32
 ;
-/
-/
-byte
 /
 *
 *
