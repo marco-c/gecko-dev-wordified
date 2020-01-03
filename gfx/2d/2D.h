@@ -7493,6 +7493,12 @@ GetD2D1Device
 (
 )
 ;
+static
+bool
+SupportsD2D1
+(
+)
+;
 #
 endif
 static
