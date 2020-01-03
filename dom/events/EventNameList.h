@@ -2182,7 +2182,7 @@ events
 NON_IDL_EVENT
 (
 SVGLoad
-NS_SVG_LOAD
+eSVGLoad
 EventNameType_None
 eBasicEventClass
 )
