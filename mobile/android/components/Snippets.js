@@ -2015,6 +2015,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
