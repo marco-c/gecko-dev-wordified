@@ -575,6 +575,13 @@ this
 props
 .
 dispatcher
+mozLoop
+:
+this
+.
+props
+.
+mozLoop
 outgoing
 :
 false

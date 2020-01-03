@@ -2153,6 +2153,9 @@ extend
 dispatcher
 :
 dispatcher
+mozLoop
+:
+fakeMozLoop
 outgoing
 :
 true
