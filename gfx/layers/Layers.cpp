@@ -1339,6 +1339,10 @@ ScrollDirection
 :
 NONE
 )
+mIsScrollbarContainer
+(
+false
+)
 mDebugColorIndex
 (
 0
