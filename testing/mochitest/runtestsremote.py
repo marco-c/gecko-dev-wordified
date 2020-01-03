@@ -2226,6 +2226,14 @@ options
 sslPort
 )
     
+if
+options
+.
+log_mach
+is
+None
+:
+        
 mochitest
 .
 printDeviceInfo
@@ -2503,6 +2511,14 @@ retVal
 =
 1
     
+if
+options
+.
+log_mach
+is
+None
+:
+        
 mochitest
 .
 printDeviceInfo
