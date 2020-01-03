@@ -1326,6 +1326,13 @@ end
     
 tests
 =
+list
+(
+tests
+)
+    
+tests
+=
 tests
 [
 :
