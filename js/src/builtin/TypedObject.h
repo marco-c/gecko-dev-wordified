@@ -4521,6 +4521,9 @@ memory
 void
 attach
 (
+JSContext
+*
+cx
 ArrayBufferObject
 &
 buffer
@@ -4545,6 +4548,9 @@ typedObj
 void
 attach
 (
+JSContext
+*
+cx
 TypedObject
 &
 typedObj
