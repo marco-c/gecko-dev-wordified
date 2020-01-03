@@ -209,6 +209,11 @@ COPY_OPT_FIELD
 mTechType
 0
 )
+COPY_OPT_FIELD
+(
+mIsP2P
+false
+)
 if
 (
 !
@@ -494,6 +499,9 @@ mPowerLevel
 ;
 int32_t
 mTechType
+;
+bool
+mIsP2P
 ;
 nsTArray
 <
