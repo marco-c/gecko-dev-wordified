@@ -2506,6 +2506,10 @@ TYPE_OTHER
 nullptr
 /
 /
+aChannelPolicy
+nullptr
+/
+/
 loadGroup
 callbacks
 )
@@ -2828,6 +2832,10 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
+/
+/
+aChannelPolicy
 nullptr
 /
 /
