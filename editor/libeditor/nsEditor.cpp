@@ -10630,6 +10630,17 @@ break
 case
 eNotifyEditorObserversOfBefore
 :
+if
+(
+NS_WARN_IF
+(
+mIsInEditAction
+)
+)
+{
+break
+;
+}
 mIsInEditAction
 =
 true
