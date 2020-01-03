@@ -1002,7 +1002,7 @@ MOZ_B2G_BT
 if
 (
 !
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 )
@@ -1164,7 +1164,7 @@ changes
 .
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 &
@@ -1391,7 +1391,7 @@ table
 .
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 &

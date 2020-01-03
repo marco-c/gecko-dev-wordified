@@ -351,10 +351,7 @@ aParent
 {
 MOZ_ASSERT
 (
-FileSystemUtils
-:
-:
-IsParentProcess
+XRE_IsParentProcess
 (
 )
 "
@@ -712,10 +709,7 @@ Work
 {
 MOZ_ASSERT
 (
-FileSystemUtils
-:
-:
-IsParentProcess
+XRE_IsParentProcess
 (
 )
 "
@@ -1363,10 +1357,7 @@ ifdef
 DEBUG
 if
 (
-FileSystemUtils
-:
-:
-IsParentProcess
+XRE_IsParentProcess
 (
 )
 )

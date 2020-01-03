@@ -378,12 +378,9 @@ ifdef
 OS_MACOSX
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 /

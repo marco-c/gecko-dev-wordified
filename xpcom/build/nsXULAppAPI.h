@@ -2407,6 +2407,13 @@ XRE_IsParentProcess
 (
 )
 )
+XRE_API
+(
+bool
+XRE_IsContentProcess
+(
+)
+)
 typedef
 void
 (

@@ -1607,12 +1607,9 @@ Content
 process
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 &
 &
 aIID
