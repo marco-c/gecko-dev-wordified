@@ -9397,6 +9397,10 @@ gfxCriticalNote
 RenderTargetViewNeedsRecreating
 "
 ;
+gANGLESupportsD3D11
+=
+false
+;
 }
 keyedMutex
 -
