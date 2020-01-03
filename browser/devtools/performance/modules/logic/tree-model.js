@@ -3155,6 +3155,16 @@ this
 .
 isMetaCategory
 ;
+parsedData
+.
+hasOptimizations
+=
+this
+.
+hasOptimizations
+(
+)
+;
 return
 this
 .
