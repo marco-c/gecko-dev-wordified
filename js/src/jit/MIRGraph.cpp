@@ -284,10 +284,6 @@ usesSimdCached_
 (
 false
 )
-minAsmJSHeapLength_
-(
-0
-)
 modifiesFrameArguments_
 (
 false
