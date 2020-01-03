@@ -1592,7 +1592,9 @@ mContainerWidth
 =
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 ;
 mSpace
 =

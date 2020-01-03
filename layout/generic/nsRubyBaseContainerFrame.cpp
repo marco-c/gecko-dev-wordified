@@ -2816,7 +2816,7 @@ container
 hence
 leave
 container
-width
+size
 0
 here
 for
@@ -2839,7 +2839,11 @@ NS_UNCONSTRAINEDSIZE
 false
 false
 lineWM
+nsSize
+(
 0
+0
+)
 )
 ;
 lineLayout
