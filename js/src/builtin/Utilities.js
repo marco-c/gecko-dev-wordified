@@ -133,9 +133,6 @@ false
 IsCallable
 :
 false
-ThrowError
-:
-false
 ThrowRangeError
 :
 false
