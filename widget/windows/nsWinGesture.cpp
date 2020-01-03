@@ -1771,7 +1771,7 @@ evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_MAGNIFY_START
+eMagnifyGestureStart
 ;
 evt
 .

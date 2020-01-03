@@ -6195,10 +6195,12 @@ MozMagnifyGestureStart
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY_START
+eMagnifyGestureStart
 ;
+}
 else
 if
 (

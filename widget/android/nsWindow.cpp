@@ -6339,7 +6339,7 @@ ACTION_MAGNIFY_START
 :
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY_START
+eMagnifyGestureStart
 ;
 mStartDist
 =
