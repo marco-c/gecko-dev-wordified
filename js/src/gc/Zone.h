@@ -1178,6 +1178,14 @@ onTooMuchMalloc
 (
 )
 ;
+bool
+isCloseToAllocTrigger
+(
+bool
+highFrequencyGC
+)
+const
+;
 void
 *
 onOutOfMemory
