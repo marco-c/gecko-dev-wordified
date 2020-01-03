@@ -665,7 +665,6 @@ self
 .
 _add_sources
 (
-self
 reldir
 obj
 )
@@ -682,7 +681,6 @@ self
 .
 _add_sources
 (
-self
 reldir
 obj
 )
@@ -699,7 +697,6 @@ self
 .
 _add_sources
 (
-self
 reldir
 obj
 )
@@ -714,9 +711,8 @@ UnifiedSources
             
 self
 .
-_addr_sources
+_add_sources
 (
-self
 reldir
 obj
 )
