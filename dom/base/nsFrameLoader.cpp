@@ -1201,11 +1201,9 @@ Disconnect
 )
 ;
 }
-nsFrameLoader
-:
-:
-Destroy
+MOZ_RELEASE_ASSERT
 (
+mDestroyCalled
 )
 ;
 }
