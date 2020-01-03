@@ -9930,7 +9930,7 @@ aLayer
 {
 EXPECT_EQ
 (
-1
+1u
 aLayer
 -
 >
