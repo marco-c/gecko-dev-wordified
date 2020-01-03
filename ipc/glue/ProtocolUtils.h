@@ -901,11 +901,6 @@ class
 ListenerT
 >
 class
-/
-*
-NS_INTERFACE_CLASS
-*
-/
 IProtocolManager
 {
 public
