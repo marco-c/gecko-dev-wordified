@@ -140,7 +140,9 @@ some
 cpu
 activity
 let
-recordingData
+{
+profile
+}
 =
 yield
 front
@@ -148,15 +150,6 @@ front
 stopRecording
 (
 )
-;
-let
-profile
-=
-recordingData
-.
-profilerData
-.
-profile
 ;
 let
 sampleCount
@@ -254,7 +247,8 @@ sampleCount
 >
 0
 "
-Atleast
+At
+least
 some
 samples
 have

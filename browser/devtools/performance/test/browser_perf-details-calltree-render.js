@@ -38,6 +38,7 @@ call
 tree
 view
 renders
+content
 after
 recording
 .
@@ -107,9 +108,10 @@ true
 "
 CallTreeView
 rendered
-on
+after
 recording
-completed
+is
+stopped
 .
 "
 )
