@@ -911,7 +911,7 @@ return
 Number
 }
 The
-optional
+optimal
 interval
 in
 pixels
@@ -931,11 +931,6 @@ let
 timingStep
 =
 TIME_INTERVAL_MULTIPLE
-;
-let
-maxIters
-=
-OPTIMAL_TIME_INTERVAL_MAX_ITERS
 ;
 let
 numIters
@@ -971,7 +966,7 @@ if
 +
 numIters
 >
-maxIters
+OPTIMAL_TIME_INTERVAL_MAX_ITERS
 )
 {
 return
