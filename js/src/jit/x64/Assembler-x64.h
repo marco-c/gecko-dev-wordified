@@ -3829,7 +3829,7 @@ dest
 {
 masm
 .
-shlq_i8r
+shlq_ir
 (
 imm
 .
@@ -3853,7 +3853,7 @@ dest
 {
 masm
 .
-shrq_i8r
+shrq_ir
 (
 imm
 .
@@ -3877,7 +3877,7 @@ dest
 {
 masm
 .
-sarq_i8r
+sarq_ir
 (
 imm
 .

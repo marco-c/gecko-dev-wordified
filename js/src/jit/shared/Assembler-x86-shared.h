@@ -4686,7 +4686,7 @@ dest
 {
 masm
 .
-movb_i8r
+movb_ir
 (
 src
 .
@@ -4830,7 +4830,7 @@ MEM_REG_DISP
 :
 masm
 .
-movb_i8m
+movb_im
 (
 src
 .
@@ -4857,7 +4857,7 @@ MEM_SCALE
 :
 masm
 .
-movb_i8m
+movb_im
 (
 src
 .
@@ -5225,7 +5225,7 @@ MEM_REG_DISP
 :
 masm
 .
-movw_i16m
+movw_im
 (
 src
 .
@@ -5252,7 +5252,7 @@ MEM_SCALE
 :
 masm
 .
-movw_i16m
+movw_im
 (
 src
 .
@@ -6750,7 +6750,7 @@ frame
 .
 masm
 .
-ret
+ret_i
 (
 n
 .
@@ -9483,7 +9483,7 @@ dest
 {
 masm
 .
-shrl_i8r
+shrl_ir
 (
 imm
 .
@@ -9508,7 +9508,7 @@ dest
 {
 masm
 .
-shll_i8r
+shll_ir
 (
 imm
 .
@@ -9533,7 +9533,7 @@ dest
 {
 masm
 .
-sarl_i8r
+sarl_ir
 (
 imm
 .
