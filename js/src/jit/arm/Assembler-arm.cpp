@@ -17231,7 +17231,7 @@ bool
 isNatural
 )
 {
-STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -17240,6 +17240,15 @@ PoolHeader
 =
 =
 4
+"
+PoolHandler
+must
+have
+the
+correct
+size
+.
+"
 )
 ;
 uint8_t
