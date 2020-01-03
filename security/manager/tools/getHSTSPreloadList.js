@@ -1050,6 +1050,11 @@ out
 /
 '
 comments
+while
+not
+mangling
+the
+json
 var
 result
 =
@@ -1058,6 +1063,13 @@ resultDecoded
 replace
 (
 /
+^
+(
+\
+s
+*
+)
+?
 \
 /
 \
@@ -1071,7 +1083,7 @@ n
 \
 n
 /
-g
+mg
 "
 "
 )

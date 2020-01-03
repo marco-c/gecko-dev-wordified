@@ -1420,6 +1420,11 @@ out
 /
 '
 comments
+while
+not
+mangling
+the
+json
 let
 result
 =
@@ -1431,6 +1436,13 @@ filename
 replace
 (
 /
+^
+(
+\
+s
+*
+)
+?
 \
 /
 \
@@ -1444,7 +1456,7 @@ n
 \
 n
 /
-g
+mg
 "
 "
 )
