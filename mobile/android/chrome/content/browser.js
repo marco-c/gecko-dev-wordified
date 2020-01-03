@@ -3874,13 +3874,13 @@ fullScreen
 "
 ToggleChrome
 :
-Show
+Hide
 "
 :
 "
 ToggleChrome
 :
-Hide
+Show
 "
 }
 )
