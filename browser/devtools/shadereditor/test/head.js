@@ -491,12 +491,6 @@ enabled
 "
 )
 ;
-gDevTools
-.
-testing
-=
-true
-;
 registerCleanupFunction
 (
 (
