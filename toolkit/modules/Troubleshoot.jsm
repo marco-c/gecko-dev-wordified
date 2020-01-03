@@ -1363,6 +1363,13 @@ nsIHttpProtocolHandler
 )
 .
 userAgent
+safeMode
+:
+Services
+.
+appinfo
+.
+inSafeMode
 }
 ;
 if
