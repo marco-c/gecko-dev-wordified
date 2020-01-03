@@ -491,6 +491,10 @@ do_get_profile
 (
 )
 ;
+startAddonManagerOnly
+(
+)
+;
 yield
 initialiseTelemetry
 (
