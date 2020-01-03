@@ -1449,6 +1449,17 @@ aState
 (
 void
 )
+setSheetAttachmentPosition
+:
+(
+CGFloat
+)
+aY
+;
+-
+(
+void
+)
 placeWindowButtons
 :
 (

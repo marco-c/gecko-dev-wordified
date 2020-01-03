@@ -189,6 +189,7 @@ eThemeGeometryTypeUnknown
 +
 1
 eThemeGeometryTypeToolbar
+eThemeGeometryTypeToolbox
 eThemeGeometryTypeWindowButtons
 eThemeGeometryTypeFullscreenButton
 eThemeGeometryTypeMenu
