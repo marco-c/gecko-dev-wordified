@@ -127,6 +127,9 @@ h
 class
 nsIXMLHttpRequest
 ;
+class
+nsIInputStream
+;
 /
 *
 This
@@ -159,10 +162,9 @@ public
 explicit
 UploadStumbleRunnable
 (
-const
-nsACString
-&
-aUploadData
+nsIInputStream
+*
+aUploadInputStream
 )
 ;
 NS_IMETHOD
@@ -180,9 +182,11 @@ UploadStumbleRunnable
 )
 {
 }
-const
-nsCString
-mUploadData
+nsCOMPtr
+<
+nsIInputStream
+>
+mUploadInputStream
 ;
 nsresult
 Upload
@@ -204,8 +208,6 @@ UploadEventListener
 nsIXMLHttpRequest
 *
 aXHR
-int64_t
-aFileSize
 )
 ;
 NS_DECL_ISUPPORTS
@@ -224,9 +226,6 @@ nsCOMPtr
 nsIXMLHttpRequest
 >
 mXHR
-;
-int64_t
-mFileSize
 ;
 }
 ;
