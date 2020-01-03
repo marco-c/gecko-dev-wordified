@@ -665,7 +665,7 @@ void
 AnimationPlayer
 :
 :
-ResolveStartTime
+StartNow
 (
 )
 {
@@ -1304,7 +1304,7 @@ mReady
 =
 nullptr
 ;
-ResolveStartTime
+StartNow
 (
 )
 ;
