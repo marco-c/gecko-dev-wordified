@@ -103,17 +103,6 @@ content
 .
 Context
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-db
-.
-BrowserDB
-;
 public
 class
 PrivateTab
@@ -204,9 +193,6 @@ protected
 void
 saveThumbnailToDB
 (
-final
-BrowserDB
-db
 )
 {
 }

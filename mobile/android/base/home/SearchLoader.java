@@ -112,7 +112,7 @@ mozilla
 .
 gecko
 .
-GeckoProfile
+Telemetry
 ;
 import
 org
@@ -121,7 +121,9 @@ mozilla
 .
 gecko
 .
-Telemetry
+db
+.
+BrowserDB
 ;
 import
 org
@@ -569,7 +571,6 @@ number
 of
 search
 results
-.
 private
 static
 final
@@ -588,7 +589,6 @@ associated
 with
 the
 loader
-.
 private
 final
 String
@@ -603,7 +603,6 @@ associated
 with
 the
 loader
-.
 private
 final
 EnumSet
@@ -611,11 +610,6 @@ EnumSet
 FilterFlags
 >
 mFlags
-;
-private
-final
-GeckoProfile
-mProfile
 ;
 public
 SearchCursorLoader
@@ -644,15 +638,6 @@ mFlags
 =
 flags
 ;
-mProfile
-=
-GeckoProfile
-.
-get
-(
-context
-)
-;
 }
 Override
 public
@@ -675,11 +660,7 @@ final
 Cursor
 cursor
 =
-mProfile
-.
-getDB
-(
-)
+BrowserDB
 .
 filter
 (
