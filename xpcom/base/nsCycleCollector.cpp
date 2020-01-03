@@ -11304,10 +11304,6 @@ JS
 GCThingIsMarkedGray
 (
 thing
-.
-asCell
-(
-)
 )
 ;
 }
@@ -11342,7 +11338,7 @@ GCThingIsMarkedGray
 (
 value
 .
-toGCThing
+toGCCellPtr
 (
 )
 )

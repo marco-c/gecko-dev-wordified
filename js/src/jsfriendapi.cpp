@@ -3618,7 +3618,7 @@ obj
 JS
 :
 :
-GCThingIsMarkedGray
+ObjectIsMarkedGray
 (
 obj
 )

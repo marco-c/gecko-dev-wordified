@@ -702,7 +702,10 @@ if
 obj
 &
 &
-xpc_IsGrayGCThing
+JS
+:
+:
+ObjectIsMarkedGray
 (
 obj
 )

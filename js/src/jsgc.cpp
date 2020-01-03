@@ -5814,11 +5814,14 @@ bitmap
 to
 guard
 against
-xpc_IsGrayGCThing
+JS
+:
+:
+GCThingIsMarkedGray
 being
 called
-on
 *
+on
 uninitialized
 data
 which

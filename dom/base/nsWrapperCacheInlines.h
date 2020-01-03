@@ -186,7 +186,7 @@ o
 JS
 :
 :
-GCThingIsMarkedGray
+ObjectIsMarkedGray
 (
 o
 )
@@ -239,10 +239,6 @@ JS
 GCThingIsMarkedGray
 (
 aGCThing
-.
-asCell
-(
-)
 )
 )
 {

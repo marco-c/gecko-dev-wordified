@@ -11176,7 +11176,10 @@ Callable
 MOZ_ASSERT
 (
 !
-xpc_IsGrayGCThing
+JS
+:
+:
+ObjectIsMarkedGray
 (
 o
 .
