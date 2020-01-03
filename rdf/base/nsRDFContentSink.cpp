@@ -5961,7 +5961,7 @@ kRDFAtom
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 /
 /
 (
@@ -7103,7 +7103,7 @@ kLiAtom
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_ERROR
 (
 "
 rdfxml

@@ -189,14 +189,14 @@ args
 )
 #
 define
-LOG_ALWAYS
+LOG_INFO
 (
 args
 )
 MOZ_LOG
 (
 gFTPLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 args
 )
 /
@@ -444,7 +444,7 @@ mPort
 port
 )
 {
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
@@ -468,7 +468,7 @@ nsFtpControlConnection
 (
 )
 {
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
@@ -889,7 +889,7 @@ NS_OK
 /
 already
 disconnected
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "

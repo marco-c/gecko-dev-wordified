@@ -287,7 +287,7 @@ msg
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -403,7 +403,7 @@ DEBUG
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 is_vk_down

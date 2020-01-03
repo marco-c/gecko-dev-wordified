@@ -2454,7 +2454,7 @@ txLog
 :
 :
 xslt
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TX_LoadSheet
