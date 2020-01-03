@@ -205,6 +205,10 @@ loopUnrolling_
 =
 true
 ;
+reordering_
+=
+true
+;
 autoTruncate_
 =
 true

@@ -353,6 +353,11 @@ EliminateDeadCode
 \
 _
 (
+ReorderInstructions
+)
+\
+_
+(
 EdgeCaseAnalysis
 )
 \
