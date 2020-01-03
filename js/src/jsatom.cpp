@@ -422,16 +422,6 @@ class
 ;
 const
 char
-js_close_str
-[
-]
-=
-"
-close
-"
-;
-const
-char
 js_const_str
 [
 ]

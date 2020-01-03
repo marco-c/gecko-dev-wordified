@@ -15,9 +15,7 @@ works
 and
 /
 /
-does
-not
-close
+closes
 the
 generator
 -
@@ -174,11 +172,10 @@ enabled
 =
 false
 ;
-assertIteratorNext
+assertIteratorDone
 (
 g
 .
 it
-1
 )
 ;

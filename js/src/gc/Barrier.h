@@ -264,11 +264,6 @@ fields
 in
 private
 data
-like
-JSGenerator
-:
-:
-obj
 *
 -
 writes
