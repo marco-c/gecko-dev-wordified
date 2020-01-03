@@ -2130,6 +2130,8 @@ aPresContext
 aReflowState
 .
 rendContext
+*
+fm
 mOpenChar
 NS_MATHML_OPERATOR_FORM_PREFIX
 font
@@ -2190,6 +2192,8 @@ aPresContext
 aReflowState
 .
 rendContext
+*
+fm
 &
 mSeparatorsChar
 [
@@ -2241,6 +2245,8 @@ aPresContext
 aReflowState
 .
 rendContext
+*
+fm
 mCloseChar
 NS_MATHML_OPERATOR_FORM_POSTFIX
 font
@@ -2809,6 +2815,9 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsMathMLChar
 *
 aMathMLChar
@@ -3030,6 +3039,7 @@ data
 Length
 (
 )
+aFontMetrics
 aRenderingContext
 )
 ;

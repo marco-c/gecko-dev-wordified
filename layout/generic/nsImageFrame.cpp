@@ -6544,6 +6544,9 @@ aMaxFit
 nsRenderingContext
 &
 aContext
+nsFontMetrics
+&
+aFontMetrics
 )
 {
 nscoord
@@ -6551,13 +6554,8 @@ totalWidth
 =
 0
 ;
-aContext
+aFontMetrics
 .
-FontMetrics
-(
-)
--
->
 SetTextRunRTL
 (
 false
@@ -6566,13 +6564,8 @@ false
 nscoord
 spaceWidth
 =
-aContext
+aFontMetrics
 .
-FontMetrics
-(
-)
--
->
 SpaceWidth
 (
 )
@@ -6690,6 +6683,7 @@ GetStringWidth
 this
 &
 aContext
+aFontMetrics
 aString
 len
 )
@@ -7190,6 +7184,8 @@ aRect
 width
 maxFit
 aRenderingContext
+*
+fm
 )
 ;
 /
@@ -7244,6 +7240,8 @@ NSBIDI_RTL
 aPresContext
 aRenderingContext
 aRenderingContext
+*
+fm
 aRect
 .
 XMost
@@ -7270,6 +7268,8 @@ NSBIDI_LTR
 aPresContext
 aRenderingContext
 aRenderingContext
+*
+fm
 aRect
 .
 x
@@ -7303,6 +7303,8 @@ y
 +
 maxAscent
 )
+*
+fm
 aRenderingContext
 )
 ;

@@ -1817,6 +1817,9 @@ GetXPosition
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 const
 nsRect
 &
@@ -1840,6 +1843,7 @@ GetStringWidth
 this
 &
 aRenderingContext
+aFontMetrics
 aStr
 .
 get
@@ -2052,6 +2056,9 @@ DrawHeaderFooter
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsHeaderFooterEnum
 aHeaderFooter
 const
@@ -2151,6 +2158,7 @@ IsEmpty
 DrawHeaderFooter
 (
 aRenderingContext
+aFontMetrics
 aHeaderFooter
 nsIPrintSettings
 :
@@ -2177,6 +2185,7 @@ IsEmpty
 DrawHeaderFooter
 (
 aRenderingContext
+aFontMetrics
 aHeaderFooter
 nsIPrintSettings
 :
@@ -2203,6 +2212,7 @@ IsEmpty
 DrawHeaderFooter
 (
 aRenderingContext
+aFontMetrics
 aHeaderFooter
 nsIPrintSettings
 :
@@ -2323,6 +2333,9 @@ DrawHeaderFooter
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsHeaderFooterEnum
 aHeaderFooter
 int32_t
@@ -2486,6 +2499,7 @@ BinarySearchForPosition
 (
 &
 aRenderingContext
+aFontMetrics
 text
 0
 0
@@ -2700,6 +2714,7 @@ x
 GetXPosition
 (
 aRenderingContext
+aFontMetrics
 aRect
 aJust
 str
@@ -2831,6 +2846,7 @@ nsLayoutUtils
 DrawString
 (
 this
+aFontMetrics
 &
 aRenderingContext
 str
@@ -4618,6 +4634,8 @@ headerRight
 DrawHeaderFooter
 (
 aRenderingContext
+*
+fontMet
 eHeader
 headerLeft
 headerCenter
@@ -4677,6 +4695,8 @@ footerRight
 DrawHeaderFooter
 (
 aRenderingContext
+*
+fontMet
 eFooter
 footerLeft
 footerCenter

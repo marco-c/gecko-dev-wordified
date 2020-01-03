@@ -2486,6 +2486,8 @@ CalculateUnderline
 (
 *
 refContext
+*
+fontMet
 )
 ;
 nscolor
@@ -2623,6 +2625,8 @@ presContext
 aRenderingContext
 *
 refContext
+*
+fontMet
 aTextRect
 .
 x
@@ -2675,6 +2679,8 @@ presContext
 aRenderingContext
 *
 refContext
+*
+fontMet
 aTextRect
 .
 x
@@ -2691,8 +2697,9 @@ rv
 )
 )
 {
-aRenderingContext
-.
+fontMet
+-
+>
 SetTextRunRTL
 (
 false
@@ -2777,6 +2784,8 @@ mAccessKeyInfo
 -
 >
 mAccesskeyIndex
+*
+fontMet
 *
 refContext
 )
@@ -3006,6 +3015,9 @@ CalculateUnderline
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 )
 {
 if
@@ -3055,7 +3067,7 @@ get
 (
 )
 ;
-aRenderingContext
+aFontMetrics
 .
 SetTextRunRTL
 (
@@ -3079,6 +3091,7 @@ mAccessKeyInfo
 >
 mAccesskeyIndex
 ]
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -3086,19 +3099,8 @@ nscoord
 offset
 baseline
 ;
-nsFontMetrics
-*
-metrics
-=
-aRenderingContext
+aFontMetrics
 .
-FontMetrics
-(
-)
-;
-metrics
--
->
 GetUnderline
 (
 offset
@@ -3110,9 +3112,8 @@ mAccessUnderlineSize
 ;
 baseline
 =
-metrics
--
->
+aFontMetrics
+.
 MaxAscent
 (
 )
@@ -3212,6 +3213,8 @@ GetStringWidth
 this
 &
 aRenderingContext
+*
+fm
 mTitle
 .
 get
@@ -3317,8 +3320,9 @@ can
 ?
 )
 .
-aRenderingContext
-.
+fm
+-
+>
 SetTextRunRTL
 (
 false
@@ -3332,6 +3336,8 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 kEllipsis
+*
+fm
 aRenderingContext
 )
 ;
@@ -3476,6 +3482,8 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+*
+fm
 aRenderingContext
 )
 ;
@@ -3612,6 +3620,8 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+*
+fm
 aRenderingContext
 )
 ;
@@ -3695,6 +3705,8 @@ GetStringWidth
 this
 &
 aRenderingContext
+*
+fm
 mTitle
 .
 get
@@ -3782,8 +3794,9 @@ Length
 -
 1
 ;
-aRenderingContext
-.
+fm
+-
+>
 SetTextRunRTL
 (
 false
@@ -3830,6 +3843,8 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+*
+fm
 aRenderingContext
 )
 ;
@@ -3922,6 +3937,8 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+*
+fm
 aRenderingContext
 )
 ;
@@ -4004,6 +4021,8 @@ GetStringWidth
 this
 &
 aRenderingContext
+*
+fm
 mCroppedTitle
 .
 get
@@ -5270,6 +5289,8 @@ GetStringWidth
 this
 &
 aRenderingContext
+*
+fontMet
 aString
 .
 get

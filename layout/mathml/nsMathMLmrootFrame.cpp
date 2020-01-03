@@ -1320,6 +1320,8 @@ AppUnitBoundsOfString
 &
 one
 1
+*
+fm
 renderingContext
 )
 ;

@@ -140,6 +140,9 @@ struct
 BidiLineData
 ;
 class
+nsFontMetrics
+;
+class
 nsIFrame
 ;
 class
@@ -1357,6 +1360,9 @@ aRenderingContext
 nsRenderingContext
 &
 aTextRunConstructionContext
+nsFontMetrics
+&
+aFontMetrics
 nscoord
 aX
 nscoord
@@ -1381,6 +1387,7 @@ aBaseLevel
 aPresContext
 aRenderingContext
 aTextRunConstructionContext
+aFontMetrics
 MODE_DRAW
 aX
 aY
@@ -1408,6 +1415,9 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 )
 {
 nscoord
@@ -1424,6 +1434,7 @@ aBaseLevel
 aPresContext
 aRenderingContext
 aRenderingContext
+aFontMetrics
 MODE_MEASURE
 0
 0
@@ -2349,6 +2360,9 @@ aRenderingContext
 nsRenderingContext
 &
 aTextRunConstructionContext
+nsFontMetrics
+&
+aFontMetrics
 Mode
 aMode
 nscoord

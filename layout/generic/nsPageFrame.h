@@ -123,6 +123,9 @@ nsLeafFrame
 h
 "
 class
+nsFontMetrics
+;
+class
 nsSharedPageData
 ;
 /
@@ -390,6 +393,9 @@ GetXPosition
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 const
 nsRect
 &
@@ -408,6 +414,9 @@ DrawHeaderFooter
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsHeaderFooterEnum
 aHeaderFooter
 int32_t
@@ -434,6 +443,9 @@ DrawHeaderFooter
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsHeaderFooterEnum
 aHeaderFooter
 const

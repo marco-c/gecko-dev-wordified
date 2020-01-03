@@ -2073,6 +2073,8 @@ AppUnitBoundsOfString
 &
 one
 1
+*
+fm
 aRenderingContext
 )
 ;

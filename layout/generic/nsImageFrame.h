@@ -186,6 +186,9 @@ nsTObserverArray
 h
 "
 class
+nsFontMetrics
+;
+class
 nsImageMap
 ;
 class
@@ -1053,6 +1056,9 @@ aMaxFit
 nsRenderingContext
 &
 aContext
+nsFontMetrics
+&
+aFontMetrics
 )
 ;
 void

@@ -115,6 +115,9 @@ nsMathMLContainerFrame
 .
 h
 "
+class
+nsFontMetrics
+;
 /
 /
 /
@@ -332,6 +335,9 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsMathMLChar
 *
 aMathMLChar

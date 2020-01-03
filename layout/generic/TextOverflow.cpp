@@ -1475,6 +1475,8 @@ nsLayoutUtils
 DrawString
 (
 mFrame
+*
+fm
 aCtx
 mStyle
 -
@@ -4918,6 +4920,8 @@ GetStringWidth
 (
 aFrame
 rc
+*
+fm
 mStyle
 -
 >

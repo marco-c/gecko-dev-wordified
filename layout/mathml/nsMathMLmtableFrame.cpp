@@ -5700,14 +5700,7 @@ GetAxisHeight
 aReflowState
 .
 rendContext
-aReflowState
-.
-rendContext
--
->
-FontMetrics
-(
-)
+fm
 axisHeight
 )
 ;

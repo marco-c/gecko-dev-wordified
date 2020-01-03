@@ -6562,6 +6562,9 @@ BinarySearchForPosition
 nsRenderingContext
 *
 acx
+nsFontMetrics
+&
+aFontMetrics
 const
 char16_t
 *
@@ -8873,6 +8876,9 @@ AppUnitWidthOfString
 (
 char16_t
 aC
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 &
 aContext
@@ -8884,6 +8890,7 @@ AppUnitWidthOfString
 &
 aC
 1
+aFontMetrics
 aContext
 )
 ;
@@ -8896,6 +8903,9 @@ const
 nsString
 &
 aString
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 &
 aContext
@@ -8911,6 +8921,9 @@ char16_t
 aString
 uint32_t
 aLength
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 &
 aContext
@@ -8926,6 +8939,9 @@ char16_t
 aString
 uint32_t
 aLength
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 &
 aContext
@@ -8939,6 +8955,9 @@ const
 nsIFrame
 *
 aFrame
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 *
 aContext
@@ -8990,6 +9009,9 @@ uint32_t
 aLength
 nsPoint
 aPoint
+nsFontMetrics
+&
+aFontMetrics
 nsRenderingContext
 &
 aContext
@@ -9006,6 +9028,9 @@ aFrame
 nsRenderingContext
 *
 aContext
+nsFontMetrics
+&
+aFontMetrics
 const
 char16_t
 *

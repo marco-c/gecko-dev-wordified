@@ -2659,6 +2659,8 @@ nsLayoutUtils
 DrawString
 (
 this
+*
+fm
 &
 aRenderingContext
 text
@@ -3758,6 +3760,8 @@ GetStringWidth
 (
 this
 aRenderingContext
+*
+fm
 text
 .
 get
