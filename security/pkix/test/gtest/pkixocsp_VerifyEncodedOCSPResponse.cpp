@@ -377,6 +377,8 @@ IssuerChecker
 &
 Time
 )
+final
+override
 {
 ADD_FAILURE
 (
