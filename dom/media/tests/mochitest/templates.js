@@ -1442,6 +1442,8 @@ if
 (
 test
 .
+testOptions
+.
 steeplechase
 )
 {
@@ -1811,6 +1813,8 @@ if
 (
 test
 .
+testOptions
+.
 steeplechase
 )
 {
@@ -1848,6 +1852,8 @@ if
 (
 test
 .
+testOptions
+.
 steeplechase
 )
 {
@@ -1884,6 +1890,8 @@ test
 if
 (
 test
+.
+testOptions
 .
 steeplechase
 )
@@ -1960,6 +1968,8 @@ test
 if
 (
 test
+.
+testOptions
 .
 steeplechase
 )
@@ -2082,6 +2092,8 @@ test
 if
 (
 test
+.
+testOptions
 .
 steeplechase
 )
@@ -2219,6 +2231,8 @@ if
 (
 !
 test
+.
+testOptions
 .
 steeplechase
 )
@@ -2490,6 +2504,8 @@ if
 (
 test
 .
+testOptions
+.
 steeplechase
 )
 {
@@ -2608,6 +2624,8 @@ if
 (
 !
 test
+.
+testOptions
 .
 steeplechase
 )
@@ -2968,6 +2986,8 @@ checkStats
 stats
 test
 .
+testOptions
+.
 steeplechase
 )
 ;
@@ -3004,6 +3024,8 @@ checkStats
 (
 stats
 test
+.
+testOptions
 .
 steeplechase
 )
