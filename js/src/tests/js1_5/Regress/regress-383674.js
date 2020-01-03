@@ -513,7 +513,7 @@ function
 (
 )
 {
-const
+var
 a
 =
 (

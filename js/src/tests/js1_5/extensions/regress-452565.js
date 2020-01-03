@@ -217,7 +217,7 @@ jit
 true
 )
 ;
-const
+var
 c
 =
 undefined
