@@ -1566,13 +1566,8 @@ Cancel
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-Menu
-)
-/
-/
-Rename
-to
 ContextMenu
+)
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
 Esc
