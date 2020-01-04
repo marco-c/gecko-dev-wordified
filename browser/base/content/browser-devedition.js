@@ -846,9 +846,6 @@ null
 }
 }
 ;
-#
-ifndef
-RELEASE_BUILD
 /
 /
 If
@@ -895,6 +892,12 @@ loading
 .
 if
 (
+!
+AppConstants
+.
+RELEASE_BUILD
+&
+&
 this
 !
 =
@@ -917,5 +920,3 @@ createStyleSheet
 )
 ;
 }
-#
-endif
