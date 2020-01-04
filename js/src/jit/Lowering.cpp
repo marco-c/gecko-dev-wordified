@@ -11762,7 +11762,7 @@ alloc
 )
 LMulI64
 ;
-lowerForALUInt64
+lowerForMulInt64
 (
 lir
 ins
