@@ -2944,11 +2944,6 @@ GetFormat
 )
 const
 {
-MOZ_ASSERT
-(
-mTextureSource
-)
-;
 return
 mTextureSource
 ?

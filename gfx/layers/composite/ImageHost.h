@@ -783,6 +783,11 @@ time
 BIAS_POSITIVE
 }
 ;
+bool
+IsOpaque
+(
+)
+;
 protected
 :
 struct
