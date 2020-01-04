@@ -3885,6 +3885,8 @@ extensions
 /
 loop
 /
+chrome
+/
 test
 /
 mochitest
