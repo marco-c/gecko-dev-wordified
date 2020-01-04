@@ -2438,16 +2438,6 @@ warn_viewing_mixed
 :
 False
     
-'
-browser
-.
-panorama
-.
-experienced_first_run
-'
-:
-True
-    
 #
 Set
 a
