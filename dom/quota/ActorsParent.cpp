@@ -20741,7 +20741,13 @@ gFixedLimitKB
 {
 mTemporaryStorageLimit
 =
+static_cast
+<
+uint64_t
+>
+(
 gFixedLimitKB
+)
 *
 1024
 ;
