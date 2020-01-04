@@ -203,7 +203,9 @@ H
 /
 AVC
 /
-MPEG4
+MPEG
+-
+4
 part10
 prediction
 functions
@@ -5513,7 +5515,9 @@ h
 v
 prediction
 for
-h264
+H
+.
+264
 *
 /
 \

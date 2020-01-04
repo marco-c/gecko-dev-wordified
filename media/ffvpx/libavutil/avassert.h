@@ -332,7 +332,8 @@ be
 enabled
 without
 fearing
-speedloss
+speed
+loss
 .
 *
 /
