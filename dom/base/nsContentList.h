@@ -1078,7 +1078,7 @@ aMatchAtom
 is
 the
 *
-tagName
+localName
 to
 match
 .
@@ -1301,6 +1301,13 @@ passed
 back
 to
 aFunc
+.
+Is
+allowed
+to
+be
+kNameSpaceID_Unknown
+.
 *
 param
 aFuncMayDependOnAttr
