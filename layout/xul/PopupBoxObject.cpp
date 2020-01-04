@@ -1940,6 +1940,9 @@ menuPopupFrame
 SetOverrideConstraintRect
 (
 LayoutDeviceIntRect
+:
+:
+Truncate
 (
 aRect
 .

@@ -7806,6 +7806,11 @@ invalid
 ;
 IntRect
 bounds
+=
+IntRect
+:
+:
+Truncate
 (
 0
 0
@@ -7927,6 +7932,9 @@ IntRect
 clipRect
 =
 IntRect
+:
+:
+Truncate
 (
 0
 0
