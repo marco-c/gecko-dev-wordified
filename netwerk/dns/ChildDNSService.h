@@ -223,6 +223,12 @@ DNSRequestChild
 aDnsRequest
 )
 ;
+bool
+GetOffline
+(
+)
+const
+;
 private
 :
 virtual
@@ -255,9 +261,6 @@ aHashKey
 ;
 bool
 mFirstTime
-;
-bool
-mOffline
 ;
 bool
 mDisablePrefetch
