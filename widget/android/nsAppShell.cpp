@@ -3580,7 +3580,10 @@ SensorData
 sdata
 (
 type
-PR_Now
+curEvent
+-
+>
+Time
 (
 )
 values

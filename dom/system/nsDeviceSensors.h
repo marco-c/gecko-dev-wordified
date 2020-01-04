@@ -389,6 +389,8 @@ EventTarget
 target
 uint32_t
 type
+PRTime
+timestamp
 double
 x
 double

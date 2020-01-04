@@ -2833,6 +2833,17 @@ jobj
 jMetaStateField
 )
 ;
+mTime
+=
+jenv
+-
+>
+GetLongField
+(
+jobj
+jTimeField
+)
+;
 break
 ;
 case
