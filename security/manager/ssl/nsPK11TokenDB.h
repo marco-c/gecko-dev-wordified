@@ -194,7 +194,7 @@ friend
 class
 nsPK11TokenDB
 ;
-void
+nsresult
 refreshTokenInfo
 (
 const
