@@ -23764,12 +23764,11 @@ lastAccessed
 {
 tab
 .
-updateLastAccessed
-(
+lastAccessed
+=
 tabData
 .
 lastAccessed
-)
 ;
 }
 if
