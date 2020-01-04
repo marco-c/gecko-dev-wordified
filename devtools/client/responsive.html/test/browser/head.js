@@ -209,6 +209,12 @@ browser
 /
 "
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 DevToolsUtils
 .
 testing
