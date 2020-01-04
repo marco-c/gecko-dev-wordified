@@ -1645,6 +1645,11 @@ val
 )
 ;
 bool
+emitCheckThis
+(
+)
+;
+bool
 addPCMappingEntry
 (
 bool

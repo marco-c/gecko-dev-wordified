@@ -2397,6 +2397,14 @@ MAtomicIsLockFree
 ins
 )
 ;
+void
+visitCheckReturn
+(
+MCheckReturn
+*
+ins
+)
+;
 }
 ;
 }

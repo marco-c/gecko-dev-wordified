@@ -2608,6 +2608,14 @@ ins
 )
 ;
 void
+visitCheckReturn
+(
+LCheckReturn
+*
+ins
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
