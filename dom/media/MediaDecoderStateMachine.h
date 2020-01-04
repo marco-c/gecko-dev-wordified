@@ -968,6 +968,8 @@ PlaybackEnded
 SeekStarted
 DecodeError
 Invalidate
+EnterVideoSuspend
+ExitVideoSuspend
 }
 ;
 /
