@@ -18619,8 +18619,6 @@ get
 GetOriginAttributes
 (
 )
-.
-mUserContextId
 !
 =
 static_cast
@@ -18640,8 +18638,6 @@ get
 GetOriginAttributes
 (
 )
-.
-mUserContextId
 )
 {
 return
