@@ -299,6 +299,11 @@ nsDisplayItemGeometry
 aItem
 aBuilder
 )
+nsImageGeometryMixin
+(
+aItem
+aBuilder
+)
 mContentRect
 (
 aItem
