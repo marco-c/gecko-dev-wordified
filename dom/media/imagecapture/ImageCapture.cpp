@@ -816,12 +816,6 @@ new
 CaptureTask
 (
 this
-mVideoStreamTrack
--
->
-GetTrackID
-(
-)
 )
 ;
 /

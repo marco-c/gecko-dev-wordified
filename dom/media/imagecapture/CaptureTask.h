@@ -450,6 +450,7 @@ on
 main
 thread
 .
+explicit
 CaptureTask
 (
 dom
@@ -458,17 +459,11 @@ dom
 ImageCapture
 *
 aImageCapture
-TrackID
-aTrackID
 )
 :
 mImageCapture
 (
 aImageCapture
-)
-mTrackID
-(
-aTrackID
 )
 mImageGrabbedOrTrackEnd
 (
@@ -571,9 +566,6 @@ dom
 ImageCapture
 >
 mImageCapture
-;
-TrackID
-mTrackID
 ;
 /
 /

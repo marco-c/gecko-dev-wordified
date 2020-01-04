@@ -4440,8 +4440,10 @@ std
 :
 string
 streamId
-TrackID
-numericTrackId
+const
+MediaStreamTrack
+&
+track
 std
 :
 :
@@ -4509,7 +4511,7 @@ info
 >
 GetTrackId
 (
-numericTrackId
+track
 trackId
 )
 ;
