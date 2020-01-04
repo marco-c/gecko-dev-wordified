@@ -15736,7 +15736,7 @@ HANDLE
 (
 static_cast
 <
-int
+INT_PTR
 >
 (
 aActiveCaption
