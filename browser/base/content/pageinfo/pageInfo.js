@@ -56,14 +56,9 @@ MPL
 .
 *
 /
-var
-Cu
-=
 Components
 .
 utils
-;
-Cu
 .
 import
 (
@@ -82,7 +77,9 @@ jsm
 "
 )
 ;
-Cu
+Components
+.
+utils
 .
 import
 (
