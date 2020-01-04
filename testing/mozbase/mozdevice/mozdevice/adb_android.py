@@ -59,17 +59,13 @@ import
 re
 import
 time
+import
+version_codes
 from
 adb
 import
 ADBDevice
 ADBError
-from
-distutils
-.
-version
-import
-StrictVersion
 class
 ADBAndroid
 (
@@ -2581,7 +2577,7 @@ build
 .
 version
 .
-release
+sdk
 "
                                     
 timeout
@@ -2593,20 +2589,15 @@ root
 )
         
 if
-StrictVersion
+int
 (
 version
 )
 >
 =
-StrictVersion
-(
-'
-3
+version_codes
 .
-0
-'
-)
+HONEYCOMB
 :
             
 self
