@@ -174,6 +174,9 @@ value
 for
 OS2v2
 .
+WIN_ICO
+=
+WIN_V3
 }
 ;
 }
