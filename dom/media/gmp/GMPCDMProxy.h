@@ -994,10 +994,11 @@ aReason
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mProxy
 -

@@ -16382,10 +16382,11 @@ aBlob
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 /
 /
@@ -16690,10 +16691,11 @@ take
 ;
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 ASSERT_WEBRTC
 (

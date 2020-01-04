@@ -4992,6 +4992,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsDOMMutationObserver
 :

@@ -47503,6 +47503,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -49764,6 +49765,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsGlobalWindow
 :
@@ -50305,6 +50307,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsCOMPtr
 <
@@ -52588,6 +52591,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsCOMPtr
 <
@@ -52711,6 +52715,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mDispatcher
@@ -56907,6 +56912,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 NS_PRECONDITION
 (
@@ -60201,6 +60207,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (

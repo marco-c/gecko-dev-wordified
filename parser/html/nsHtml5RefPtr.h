@@ -142,10 +142,11 @@ aPtr
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mPtr
 -

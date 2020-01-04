@@ -232,6 +232,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 char
 stackBaseGuess

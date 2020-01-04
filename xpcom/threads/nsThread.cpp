@@ -1284,6 +1284,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 ReentrantMonitorAutoEnter
 mon
@@ -1990,6 +1991,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mThread
 -

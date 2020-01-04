@@ -695,6 +695,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 /
 /
@@ -822,6 +823,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

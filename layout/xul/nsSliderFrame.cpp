@@ -1056,10 +1056,11 @@ aUserChanged
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mListener
@@ -1123,10 +1124,11 @@ aDragBeginning
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mListener

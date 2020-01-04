@@ -16263,6 +16263,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsInProcessTabChildGlobal
 *

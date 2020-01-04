@@ -7391,10 +7391,11 @@ forget
 ;
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

@@ -675,6 +675,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mTransport
 -
@@ -10921,6 +10922,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsSocketTransport
 :

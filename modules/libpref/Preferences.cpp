@@ -2417,6 +2417,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 RegisterStrongMemoryReporter

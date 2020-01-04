@@ -12240,10 +12240,11 @@ aToDelete
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 NS_OK
@@ -12336,6 +12337,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 *
 mResult

@@ -7741,6 +7741,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsAutoScriptBlocker
 scriptBlocker

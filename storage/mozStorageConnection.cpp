@@ -2009,10 +2009,11 @@ aAsyncExecutionThread
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 #
 ifdef
@@ -2335,6 +2336,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

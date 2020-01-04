@@ -242,10 +242,11 @@ aValue
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 nsCOMPtr
 <

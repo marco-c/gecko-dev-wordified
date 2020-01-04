@@ -2273,10 +2273,11 @@ aTimeThreshold
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -2372,10 +2373,11 @@ aReader
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

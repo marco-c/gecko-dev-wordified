@@ -2219,10 +2219,11 @@ AssertIsDead
 ;
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 PROMISE_LOG
 (
@@ -6339,10 +6340,11 @@ aMethodCall
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 RefPtr
 <

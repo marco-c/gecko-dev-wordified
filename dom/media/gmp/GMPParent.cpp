@@ -2850,6 +2850,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -6188,6 +6189,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 for
 (

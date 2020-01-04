@@ -7108,10 +7108,11 @@ aRequest
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mLoader

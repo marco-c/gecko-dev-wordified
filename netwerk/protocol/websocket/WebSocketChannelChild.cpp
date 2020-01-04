@@ -665,6 +665,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mChannelEvent
 -
@@ -2196,6 +2197,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2390,6 +2392,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2692,6 +2695,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

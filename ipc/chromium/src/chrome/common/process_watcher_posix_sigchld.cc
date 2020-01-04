@@ -469,13 +469,11 @@ KillProcess
 )
 ;
 }
-/
-/
-override
 NS_IMETHOD
 Run
 (
 )
+override
 {
 /
 /

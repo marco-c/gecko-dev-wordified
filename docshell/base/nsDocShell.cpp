@@ -55217,6 +55217,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mDocShell
@@ -79667,6 +79668,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsAutoPopupStatePusher
 popupStatePusher

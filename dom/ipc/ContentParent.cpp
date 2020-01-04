@@ -10267,10 +10267,11 @@ aObj
 No
 -
 op
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 NS_OK
