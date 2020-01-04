@@ -4431,7 +4431,7 @@ is
 transferred
 elsewhere
 void
-neuter
+notifyBufferDetached
 (
 void
 *

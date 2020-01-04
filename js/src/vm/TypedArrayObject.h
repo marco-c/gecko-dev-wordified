@@ -1088,7 +1088,7 @@ d
 )
 ;
 void
-neuter
+notifyBufferDetached
 (
 void
 *
@@ -3378,7 +3378,7 @@ cx
 ;
 static
 void
-neuter
+notifyBufferDetached
 (
 JSObject
 *
@@ -3445,7 +3445,7 @@ method
 )
 ;
 void
-neuter
+notifyBufferDetached
 (
 void
 *

@@ -1415,7 +1415,7 @@ newContents
 view
 -
 >
-neuter
+notifyBufferDetached
 (
 newContents
 .
@@ -6511,7 +6511,7 @@ void
 ArrayBufferViewObject
 :
 :
-neuter
+notifyBufferDetached
 (
 void
 *
@@ -6543,7 +6543,7 @@ DataViewObject
 (
 )
 .
-neuter
+notifyBufferDetached
 (
 newData
 )
@@ -6582,7 +6582,7 @@ TypedArrayObject
 (
 )
 .
-neuter
+notifyBufferDetached
 (
 newData
 )
@@ -6597,7 +6597,7 @@ OutlineTypedObject
 (
 )
 .
-neuter
+notifyBufferDetached
 (
 newData
 )

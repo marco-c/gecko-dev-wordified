@@ -506,7 +506,7 @@ void
 TypedArrayObject
 :
 :
-neuter
+notifyBufferDetached
 (
 void
 *
@@ -14199,7 +14199,7 @@ void
 DataViewObject
 :
 :
-neuter
+notifyBufferDetached
 (
 void
 *
