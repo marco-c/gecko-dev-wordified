@@ -1316,17 +1316,6 @@ MOZ_CRASH
 ;
 }
 uint32_t
-actualOffset
-(
-uint32_t
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-uint32_t
 labelOffsetToPatchOffset
 (
 uint32_t
