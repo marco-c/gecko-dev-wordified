@@ -280,6 +280,11 @@ name
 =
 grip
 .
+userDisplayName
+|
+|
+grip
+.
 displayName
 |
 |
