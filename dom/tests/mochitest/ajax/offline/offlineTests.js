@@ -1906,7 +1906,7 @@ groupID
 =
 serv
 .
-buildGroupID
+buildGroupIDForInfo
 (
 this
 .

@@ -14008,10 +14008,6 @@ scheduleAppUpdate
 appcacheURI
 docURI
 principal
-aApp
-.
-localId
-false
 aProfileDir
 )
 ;
@@ -15079,10 +15075,6 @@ null
 null
 )
 principal
-app
-.
-localId
-false
 updateObserver
 )
 ;
@@ -16954,10 +16946,6 @@ null
 null
 )
 principal
-aApp
-.
-localId
-false
 (
 aSubject
 aTopic

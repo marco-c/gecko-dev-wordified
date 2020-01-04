@@ -330,12 +330,6 @@ nsIObserverService
 >
 mObserverService
 ;
-uint32_t
-mAppID
-;
-bool
-mInBrowser
-;
 /
 *
 Clients

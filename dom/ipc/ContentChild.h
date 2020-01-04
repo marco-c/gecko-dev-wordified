@@ -2589,10 +2589,6 @@ const
 bool
 &
 stickDocument
-const
-TabId
-&
-aTabId
 )
 override
 ;

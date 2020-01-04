@@ -3969,7 +3969,7 @@ appcachegroupid
 =
 appcacheserv
 .
-buildGroupID
+buildGroupIDForInfo
 (
 makeURI
 (
