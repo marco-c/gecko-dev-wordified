@@ -388,7 +388,7 @@ userAgent
 ;
 (
 "
-osarch
+os
 -
 box
 "
@@ -399,13 +399,6 @@ textContent
 data
 .
 osVersion
-+
-"
-"
-+
-data
-.
-arch
 ;
 (
 "
