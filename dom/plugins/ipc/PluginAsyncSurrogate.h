@@ -449,11 +449,7 @@ NPP
 GetNPP
 (
 )
-{
-return
-mInstance
 ;
-}
 bool
 GetPropertyHelper
 (
@@ -919,7 +915,13 @@ instance
 nsCString
 mMimeType
 ;
-NPP
+mozilla
+:
+:
+WeakPtr
+<
+nsNPAPIPluginInstance
+>
 mInstance
 ;
 uint16_t
