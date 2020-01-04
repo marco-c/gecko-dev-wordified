@@ -8392,14 +8392,6 @@ bl
 return
 !
 stmt
-|
-|
-sc
--
->
-isModuleBox
-(
-)
 ;
 }
 uint32_t
