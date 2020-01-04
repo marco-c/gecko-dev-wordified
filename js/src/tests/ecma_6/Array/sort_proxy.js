@@ -281,7 +281,7 @@ for
 (
 let
 i
-of
+in
 arr
 )
 assertEq
