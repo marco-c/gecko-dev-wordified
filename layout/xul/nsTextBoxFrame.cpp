@@ -435,7 +435,7 @@ nsTextBoxFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsTextBoxFrameSuper
+nsLeafBoxFrame
 )
 nsresult
 nsTextBoxFrame
@@ -624,7 +624,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsTextBoxFrameSuper
+nsLeafBoxFrame
 :
 :
 Init
@@ -685,7 +685,7 @@ RegUnregAccessKey
 false
 )
 ;
-nsTextBoxFrameSuper
+nsLeafBoxFrame
 :
 :
 DestroyFrom
@@ -5438,7 +5438,7 @@ mNeedsRecalc
 =
 true
 ;
-nsTextBoxFrameSuper
+nsLeafBoxFrame
 :
 :
 MarkIntrinsicISizesDirty

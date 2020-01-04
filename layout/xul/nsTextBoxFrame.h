@@ -124,15 +124,11 @@ nsAsyncAccesskeyUpdate
 class
 nsFontMetrics
 ;
-typedef
-nsLeafBoxFrame
-nsTextBoxFrameSuper
-;
 class
 nsTextBoxFrame
 :
 public
-nsTextBoxFrameSuper
+nsLeafBoxFrame
 {
 public
 :
