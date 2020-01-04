@@ -12387,6 +12387,9 @@ charLen
 }
 charType
 =
+unicode
+:
+:
 GetBidiCat
 (
 ch
