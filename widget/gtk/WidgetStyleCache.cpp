@@ -2369,7 +2369,8 @@ GTK_STYLE_CLASS_VIEW
 case
 MOZ_GTK_FRAME_BORDER
 :
-return
+style
+=
 CreateChildCSSNode
 (
 "
@@ -2377,6 +2378,8 @@ border
 "
 MOZ_GTK_FRAME
 )
+;
+break
 ;
 case
 MOZ_GTK_TREEVIEW_VIEW
