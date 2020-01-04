@@ -16867,6 +16867,11 @@ return
 mUserHasInteracted
 ;
 }
+bool
+HasScriptsBlockedBySandbox
+(
+)
+;
 void
 ReportHasScrollLinkedEffect
 (

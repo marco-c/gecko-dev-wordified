@@ -4698,11 +4698,9 @@ if
 doc
 -
 >
-GetSandboxFlags
+HasScriptsBlockedBySandbox
 (
 )
-&
-SANDBOXED_SCRIPTS
 )
 {
 return
