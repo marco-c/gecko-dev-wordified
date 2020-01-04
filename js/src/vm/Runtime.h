@@ -607,17 +607,6 @@ endif
 /
 namespace
 jit
-namespace
-wasm
-{
-class
-Module
-;
-}
-/
-/
-namespace
-wasm
 /
 *
 *

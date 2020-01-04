@@ -1061,10 +1061,6 @@ instantiateTable
 JSContext
 *
 cx
-const
-CodeSegment
-&
-codeSegment
 HandleWasmTableObject
 tableImport
 SharedTableVector

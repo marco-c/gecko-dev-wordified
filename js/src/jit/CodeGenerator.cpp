@@ -64009,8 +64009,11 @@ CodeGenerator
 :
 generateWasm
 (
-uint32_t
-sigIndex
+wasm
+:
+:
+SigIdDesc
+sigId
 wasm
 :
 :
@@ -64041,7 +64044,7 @@ masm
 frameSize
 (
 )
-sigIndex
+sigId
 offsets
 )
 ;

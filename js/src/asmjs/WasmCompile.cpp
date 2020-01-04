@@ -3932,7 +3932,7 @@ ModuleGeneratorData
 &
 init
 const
-DeclaredSig
+SigWithId
 *
 *
 sig
@@ -4947,7 +4947,7 @@ newFormat
 )
 {
 const
-DeclaredSig
+SigWithId
 *
 sig
 =
@@ -5215,7 +5215,7 @@ Function
 :
 {
 const
-DeclaredSig
+SigWithId
 *
 sig
 =
@@ -7044,7 +7044,7 @@ ValTypeVector
 locals
 ;
 const
-DeclaredSig
+Sig
 &
 sig
 =
@@ -7356,7 +7356,7 @@ function
 )
 ;
 const
-DeclaredSig
+Sig
 &
 sig
 =

@@ -2530,6 +2530,9 @@ funcImports
 FuncExportVector
 funcExports
 ;
+SigWithIdVector
+sigIds
+;
 TableDescVector
 tables
 ;

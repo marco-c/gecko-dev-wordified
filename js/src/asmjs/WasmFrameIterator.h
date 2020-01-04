@@ -223,6 +223,9 @@ CodeRange
 class
 Instance
 ;
+class
+SigIdDesc
+;
 struct
 CallThunk
 ;
@@ -723,8 +726,10 @@ MacroAssembler
 masm
 unsigned
 framePushed
-uint32_t
-sigIndex
+const
+SigIdDesc
+&
+sigId
 FuncOffsets
 *
 offsets

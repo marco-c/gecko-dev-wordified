@@ -7039,6 +7039,11 @@ x64
 /
 Branch
 functions
+template
+<
+class
+L
+>
 inline
 void
 branch32
@@ -7049,8 +7054,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 PER_SHARED_ARCH
