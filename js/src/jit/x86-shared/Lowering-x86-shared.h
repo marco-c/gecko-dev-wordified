@@ -410,6 +410,14 @@ ins
 )
 ;
 void
+visitAsmSelect
+(
+MAsmSelect
+*
+ins
+)
+;
+void
 lowerMulI
 (
 MMul

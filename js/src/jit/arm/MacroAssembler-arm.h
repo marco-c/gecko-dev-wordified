@@ -8284,12 +8284,17 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
+=
+Always
 )
 {
 ma_vmov
 (
 src
 dest
+cc
 )
 ;
 }
@@ -11422,6 +11427,10 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
+=
+Always
 )
 {
 as_vmov
@@ -11442,6 +11451,7 @@ src
 singleOverlay
 (
 )
+cc
 )
 ;
 }

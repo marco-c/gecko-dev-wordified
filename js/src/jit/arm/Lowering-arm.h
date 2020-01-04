@@ -702,6 +702,14 @@ ins
 )
 ;
 void
+visitAsmSelect
+(
+MAsmSelect
+*
+ins
+)
+;
+void
 visitAsmJSUnsignedToDouble
 (
 MAsmJSUnsignedToDouble

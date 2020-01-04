@@ -1454,6 +1454,11 @@ AsmJSCall
 \
 _
 (
+AsmSelect
+)
+\
+_
+(
 NewDerivedTypedObject
 )
 \
