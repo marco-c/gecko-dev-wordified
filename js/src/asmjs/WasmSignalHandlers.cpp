@@ -358,9 +358,7 @@ any
 /
 currently
 executing
-asm
-.
-js
+wasm
 code
 .
 static
@@ -10630,9 +10628,7 @@ loop
 backedges
 and
 all
-asm
-.
-js
+wasm
 code
 )
 are
@@ -10660,9 +10656,9 @@ a
 stub
 that
 handles
+/
+/
 the
-/
-/
 interrupt
 ;
 /
@@ -10678,9 +10674,7 @@ s
 pc
 is
 inside
-asm
-.
-js
+wasm
 code
 the
 pc
@@ -10721,9 +10715,7 @@ installed
 then
 Ion
 and
-asm
-.
-js
+wasm
 emit
 normal
 /
@@ -10805,9 +10797,7 @@ pc
 is
 not
 in
-asm
-.
-js
+wasm
 code
 (
 so
@@ -10817,9 +10807,7 @@ nothing
 to
 do
 for
-asm
-.
-js
+wasm
 )
 and
 we
