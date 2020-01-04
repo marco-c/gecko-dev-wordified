@@ -8738,7 +8738,7 @@ scratch1
 ;
 masm
 .
-add32
+addPtr
 (
 Imm32
 (
@@ -8934,7 +8934,7 @@ scratch1
 ;
 masm
 .
-add32
+addPtr
 (
 Imm32
 (
