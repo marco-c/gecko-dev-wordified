@@ -143,11 +143,6 @@ cycles
 =
 1
         
-test_name_extension
-=
-'
-'
-        
 profile_path
 =
 '
@@ -3024,24 +3019,6 @@ tpmozafterpaint
 None
 )
     
-#
-add
-test_name_extension
-to
-config
-    
-if
-mozAfterPaint
-:
-        
-test_instance
-.
-test_name_extension
-=
-'
-_paint
-'
-    
 test_instance
 .
 update
@@ -3466,13 +3443,6 @@ symbols_path
 '
 :
 None
-                
-'
-test_name_extension
-'
-:
-'
-'
                 
 '
 test_timeout

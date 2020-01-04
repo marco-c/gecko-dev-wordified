@@ -682,10 +682,6 @@ tpmozafterpaint
 '
         
 '
-test_name_extension
-'
-        
-'
 extensions
 '
         
@@ -1664,15 +1660,11 @@ cleanup
 '
             
 '
-test_name_extension
-'
-'
 lower_is_better
 '
 '
 alert_threshold
 '
-            
 '
 unit
 '

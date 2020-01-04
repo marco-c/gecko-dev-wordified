@@ -644,23 +644,6 @@ name
 ]
     
 def
-extension
-(
-self
-)
-:
-        
-return
-self
-.
-test_config
-[
-'
-test_name_extension
-'
-]
-    
-def
 mainthread
 (
 self
