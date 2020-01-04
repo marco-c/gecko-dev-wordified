@@ -1496,6 +1496,12 @@ ShutdownDecoder
 (
 )
 {
+mInitPromise
+.
+DisconnectIfExists
+(
+)
+;
 MonitorAutoLock
 mon
 (
