@@ -246,9 +246,6 @@ return
 names
 ;
 }
-return
-null
-;
 }
 /
 *
