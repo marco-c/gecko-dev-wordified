@@ -5126,9 +5126,15 @@ offset
 offset
 <
 =
+static_cast
+<
+int32_t
+>
+(
 word
 .
 mLength
+)
 )
 return
 index
