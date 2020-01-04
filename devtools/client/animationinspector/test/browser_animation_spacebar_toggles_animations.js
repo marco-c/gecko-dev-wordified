@@ -118,7 +118,7 @@ function
 yield
 addTab
 (
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_simple_animation
@@ -155,7 +155,7 @@ node
 without
 animations
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .

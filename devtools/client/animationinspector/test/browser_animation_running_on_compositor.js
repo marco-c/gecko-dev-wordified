@@ -121,7 +121,7 @@ function
 yield
 addTab
 (
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_simple_animation
@@ -168,7 +168,7 @@ compositor
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .
@@ -259,7 +259,7 @@ compositor
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .
