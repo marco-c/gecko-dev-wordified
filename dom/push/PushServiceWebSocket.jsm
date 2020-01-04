@@ -1944,6 +1944,13 @@ upperLimit
 '
 )
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 _reconnect
 :

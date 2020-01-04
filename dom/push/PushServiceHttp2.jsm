@@ -3401,6 +3401,13 @@ _serverURI
 =
 aServerURL
 ;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 _retryAfterBackoff
 :
