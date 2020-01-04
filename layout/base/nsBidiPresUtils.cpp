@@ -7698,12 +7698,16 @@ MOZ_ASSERT
 frame
 -
 >
-GetFirstChild
+GetChildList
 (
 nsIFrame
 :
 :
 kOverflowList
+)
+.
+FirstChild
+(
 )
 "
 should

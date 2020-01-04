@@ -30304,12 +30304,16 @@ fixedChild
 parentFrame
 -
 >
-GetFirstChild
+GetChildList
 (
 nsIFrame
 :
 :
 kFixedList
+)
+.
+FirstChild
+(
 )
 ;
 fixedChild
