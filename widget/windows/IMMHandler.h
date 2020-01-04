@@ -2857,6 +2857,10 @@ static
 bool
 sHasFocus
 ;
+static
+bool
+sNativeCaretIsCreatedForPlugin
+;
 }
 ;
 }
