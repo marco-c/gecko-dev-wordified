@@ -293,6 +293,13 @@ NodePosition
 NodePosition
 ;
 typedef
+ContentEventHandler
+:
+:
+NodePositionBefore
+NodePositionBefore
+;
+typedef
 widget
 :
 :
