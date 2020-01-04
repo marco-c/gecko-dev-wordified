@@ -1330,7 +1330,7 @@ title
 :
 group
 .
-title
+tabGroupsMigrationTitle
 |
 |
 gBrowserBundle
