@@ -7655,6 +7655,8 @@ skipLazyInnerFunction
 (
 Node
 pn
+FunctionSyntaxKind
+kind
 bool
 tryAnnexB
 )
