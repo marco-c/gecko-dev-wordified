@@ -168,6 +168,13 @@ Exceptions
 .
 h
 "
+#
+include
+"
+nsStringGlue
+.
+h
+"
 using
 namespace
 mozilla
@@ -243,7 +250,10 @@ Throw
 (
 cx
 rv
+nsDependentCString
+(
 format
+)
 )
 ;
 }
@@ -507,7 +517,10 @@ Throw
 (
 ccx
 rv
+nsDependentCString
+(
 sz
+)
 )
 ;
 if
@@ -757,7 +770,10 @@ Throw
 (
 ccx
 result
+nsDependentCString
+(
 sz
+)
 )
 ;
 if
@@ -853,7 +869,10 @@ Throw
 (
 ccx
 rv
+nsDependentCString
+(
 sz
+)
 )
 ;
 if
