@@ -824,6 +824,15 @@ int32_t
 index
 )
 ;
+extern
+int32_t
+GetFirstDollarIndexRawFlat
+(
+JSLinearString
+*
+text
+)
+;
 /
 /
 RegExp
