@@ -317,14 +317,9 @@ type
 for
 (
 let
-[
 transition
-]
-in
-Iterator
-(
+of
 transitions
-)
 )
 {
 yield

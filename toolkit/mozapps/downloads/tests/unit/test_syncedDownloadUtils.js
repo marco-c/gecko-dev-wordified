@@ -222,8 +222,10 @@ let
 time
 text
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 downloadTimes
 )

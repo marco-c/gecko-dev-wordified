@@ -217,8 +217,10 @@ let
 k
 v
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 extraOptions
 )
@@ -305,8 +307,10 @@ let
 k
 v
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 TABLES
 )

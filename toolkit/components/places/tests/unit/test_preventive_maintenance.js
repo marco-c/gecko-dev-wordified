@@ -12537,14 +12537,9 @@ defaultBookmarksMaxId
 for
 (
 let
-[
 test
-]
-in
-Iterator
-(
+of
 tests
-)
 )
 {
 dump

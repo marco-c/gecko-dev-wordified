@@ -826,8 +826,10 @@ let
 name
 value
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 prefName
 )

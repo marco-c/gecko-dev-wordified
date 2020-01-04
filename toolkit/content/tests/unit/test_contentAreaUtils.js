@@ -431,14 +431,9 @@ SaveLinkTitle
 for
 (
 let
-[
 filePickerTitleKey
-]
-in
-Iterator
-(
+of
 validFilePickerTitleKeys
-)
 )
 {
 /
