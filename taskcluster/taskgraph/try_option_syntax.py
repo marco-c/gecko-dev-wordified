@@ -745,9 +745,9 @@ chrome
 '
 mochitest
 -
+e10s
+-
 bc
--
-e10s
 '
 :
 alias_prefix
@@ -755,11 +755,11 @@ alias_prefix
 '
 mochitest
 -
+e10s
+-
 browser
 -
 chrome
--
-e10s
 '
 )
     
@@ -785,11 +785,11 @@ chrome
 '
 mochitest
 -
+e10s
+-
 browser
 -
 chrome
--
-e10s
 '
 :
 alias_prefix
@@ -797,11 +797,11 @@ alias_prefix
 '
 mochitest
 -
+e10s
+-
 browser
 -
 chrome
--
-e10s
 '
 )
     
@@ -840,9 +840,9 @@ chrome
 '
 mochitest
 -
-dt
--
 e10s
+-
+dt
 '
 :
 alias_prefix
@@ -850,11 +850,11 @@ alias_prefix
 '
 mochitest
 -
+e10s
+-
 devtools
 -
 chrome
--
-e10s
 '
 )
     
