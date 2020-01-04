@@ -4063,10 +4063,11 @@ DOMMediaStream
 GetTrackById
 (
 const
-nsString
+nsAString
 &
 aId
 )
+const
 {
 for
 (
@@ -4127,7 +4128,7 @@ DOMMediaStream
 GetOwnedTrackById
 (
 const
-nsString
+nsAString
 &
 aId
 )
