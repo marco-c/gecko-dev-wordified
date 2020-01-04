@@ -675,6 +675,9 @@ ensureBallast
 return
 false
 ;
+if
+(
+!
 localTypes_
 .
 append
@@ -688,6 +691,9 @@ index
 )
 ]
 )
+)
+return
+false
 ;
 }
 for
@@ -938,6 +944,9 @@ ensureBallast
 return
 false
 ;
+if
+(
+!
 localTypes_
 .
 append
@@ -948,6 +957,9 @@ type
 (
 )
 )
+)
+return
+false
 ;
 }
 return
