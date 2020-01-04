@@ -611,7 +611,7 @@ false
 if
 (
 !
-extraTextId
+textIdPayloads
 .
 init
 (
@@ -933,7 +933,7 @@ nullptr
 }
 if
 (
-extraTextId
+textIdPayloads
 .
 initialized
 (
@@ -948,7 +948,7 @@ TextIdHashMap
 Range
 r
 =
-extraTextId
+textIdPayloads
 .
 all
 (
@@ -1470,7 +1470,7 @@ TextIdHashMap
 Ptr
 p
 =
-extraTextId
+textIdPayloads
 .
 lookup
 (
@@ -1799,7 +1799,7 @@ TextIdHashMap
 AddPtr
 p
 =
-extraTextId
+textIdPayloads
 .
 lookupForAdd
 (
@@ -1838,7 +1838,7 @@ nullptr
 if
 (
 !
-extraTextId
+textIdPayloads
 .
 add
 (
@@ -1968,13 +1968,7 @@ len
 uint32_t
 textId
 =
-extraTextId
-.
-count
-(
-)
-+
-TraceLogger_Last
+nextTextId
 ;
 TraceLoggerEventPayload
 *
@@ -2007,7 +2001,7 @@ nullptr
 if
 (
 !
-extraTextId
+textIdPayloads
 .
 putNew
 (
@@ -2056,6 +2050,10 @@ addTextId
 textId
 str
 )
+;
+nextTextId
++
++
 ;
 return
 payload
@@ -2335,13 +2333,7 @@ len
 uint32_t
 textId
 =
-extraTextId
-.
-count
-(
-)
-+
-TraceLogger_Last
+nextTextId
 ;
 TraceLoggerEventPayload
 *
@@ -2374,7 +2366,7 @@ nullptr
 if
 (
 !
-extraTextId
+textIdPayloads
 .
 putNew
 (
@@ -2423,6 +2415,10 @@ addTextId
 textId
 str
 )
+;
+nextTextId
++
++
 ;
 return
 payload
@@ -2959,7 +2955,7 @@ TextIdHashMap
 Enum
 e
 (
-extraTextId
+textIdPayloads
 )
 ;
 !

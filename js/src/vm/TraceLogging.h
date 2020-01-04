@@ -1004,7 +1004,10 @@ PointerHashMap
 pointerMap
 ;
 TextIdHashMap
-extraTextId
+textIdPayloads
+;
+uint32_t
+nextTextId
 ;
 ContinuousSpace
 <
@@ -1065,6 +1068,10 @@ false
 )
 graph
 (
+)
+nextTextId
+(
+TraceLogger_Last
 )
 iteration_
 (
