@@ -1561,6 +1561,12 @@ aGivenProto
 )
 override
 ;
+bool
+RequireInteraction
+(
+)
+const
+;
 void
 GetData
 (
@@ -1862,6 +1868,8 @@ const
 nsAString
 &
 aIconUrl
+bool
+aRequireNotification
 const
 NotificationBehavior
 &
@@ -2142,6 +2150,10 @@ mTag
 const
 nsString
 mIconUrl
+;
+const
+bool
+mRequireInteraction
 ;
 nsString
 mDataAsBase64

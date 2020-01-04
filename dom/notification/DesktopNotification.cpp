@@ -1112,6 +1112,12 @@ EmptyString
 )
 principal
 inPrivateBrowsing
+false
+/
+*
+requireInteraction
+*
+/
 )
 ;
 NS_ENSURE_SUCCESS

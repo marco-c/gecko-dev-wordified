@@ -279,6 +279,9 @@ mDir
 nsString
 mLang
 ;
+bool
+mRequireInteraction
+;
 nsString
 mData
 ;
