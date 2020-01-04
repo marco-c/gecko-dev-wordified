@@ -17692,7 +17692,7 @@ the
 fallback
 entry
 .
-RefPtr
+nsRefPtr
 <
 nsIChannel
 >
@@ -18531,7 +18531,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 LoadContextInfo
 >
@@ -19183,7 +19183,7 @@ GetCallback
 controller
 )
 ;
-RefPtr
+nsRefPtr
 <
 InterceptedChannelChrome
 >
@@ -33178,7 +33178,7 @@ host
 port
 )
 ;
-RefPtr
+nsRefPtr
 <
 AltSvcMapping
 >
@@ -33850,7 +33850,7 @@ on
 local
 blocklists
 .
-RefPtr
+nsRefPtr
 <
 nsChannelClassifier
 >
@@ -39051,7 +39051,7 @@ finished
 .
 /
 /
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
@@ -39127,7 +39127,7 @@ conn
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
@@ -46108,7 +46108,7 @@ rv
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 LoadContextInfo
 >
@@ -46684,7 +46684,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsHttpChannel
 >
@@ -46809,6 +46809,14 @@ SetCouldBeSynthesized
 (
 )
 {
+MOZ_ASSERT
+(
+!
+BypassServiceWorker
+(
+)
+)
+;
 mResponseCouldBeSynthesized
 =
 true
