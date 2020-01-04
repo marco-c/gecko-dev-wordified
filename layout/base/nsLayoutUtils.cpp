@@ -29343,7 +29343,7 @@ IsFrameOfType
 nsIFrame
 :
 :
-eReplaced
+eReplacedSizing
 )
 )
 {
