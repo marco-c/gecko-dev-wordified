@@ -38281,10 +38281,10 @@ cache
 enum
 AsmJSCacheResult
 {
-AsmJSCache_MIN
 AsmJSCache_Success
-=
 AsmJSCache_MIN
+=
+AsmJSCache_Success
 AsmJSCache_ModuleTooSmall
 AsmJSCache_SynchronousScript
 AsmJSCache_QuotaExceeded
