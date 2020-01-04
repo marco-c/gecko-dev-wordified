@@ -1,6 +1,3 @@
-var
-test
-=
 class
 foo
 extends
@@ -102,18 +99,6 @@ foo
 "
 return
 "
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

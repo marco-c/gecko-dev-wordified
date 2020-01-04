@@ -1,6 +1,3 @@
-var
-test
-=
 function
 testBase
 (
@@ -289,18 +286,6 @@ nt
 testBase
 (
 p
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

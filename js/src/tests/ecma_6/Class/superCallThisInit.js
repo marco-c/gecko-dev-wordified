@@ -1,6 +1,3 @@
-var
-test
-=
 function
 base
 (
@@ -225,18 +222,6 @@ canCatchThrow
 .
 prop
 42
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

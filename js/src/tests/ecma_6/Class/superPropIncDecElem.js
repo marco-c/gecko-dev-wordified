@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 #
@@ -76,18 +73,6 @@ d
 test
 (
 )
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
-;
 if
 (
 typeof

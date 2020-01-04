@@ -1,6 +1,3 @@
-var
-test
-=
 let
 superArrow
 ;
@@ -168,18 +165,6 @@ thisArrow
 (
 )
 thisStash
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

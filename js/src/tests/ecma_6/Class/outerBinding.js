@@ -60,9 +60,6 @@ lexical
 outer
 binding
 .
-var
-test
-=
 class
 Foo
 {
@@ -76,10 +73,8 @@ assertEq
 (
 typeof
 Foo
-\
 "
 function
-\
 "
 )
 ;
@@ -107,10 +102,8 @@ assertEq
 (
 typeof
 foo
-\
 "
 function
-\
 "
 )
 ;
@@ -232,7 +225,6 @@ x
 ;
 eval
 (
-\
 class
 x
 {
@@ -251,7 +243,6 @@ function
 "
 )
 ;
-\
 )
 ;
 assertEq
@@ -264,18 +255,6 @@ x
 strictEvalShadows
 (
 )
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
-;
 if
 (
 typeof

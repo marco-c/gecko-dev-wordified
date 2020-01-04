@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 This
@@ -253,7 +250,7 @@ obj
 )
 ;
 let
-test
+testSolo
 =
 derivedInstance
 .
@@ -301,7 +298,7 @@ assertThrowsInstanceOf
 )
 =
 >
-test
+testSolo
 (
 undefined
 )
@@ -500,18 +497,6 @@ llama
 alpaca
 "
 ]
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

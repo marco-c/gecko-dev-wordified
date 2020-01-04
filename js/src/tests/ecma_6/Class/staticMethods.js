@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 basic
@@ -92,18 +89,6 @@ hits
 (
 )
 78
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

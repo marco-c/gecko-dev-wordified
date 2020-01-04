@@ -1,6 +1,3 @@
-var
-test
-=
 function
 testBuiltinInstanceIsInstanceOf
 (
@@ -543,18 +540,6 @@ these
 are
 elements
 "
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

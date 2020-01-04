@@ -1,6 +1,3 @@
-var
-test
-=
 function
 base
 (
@@ -120,18 +117,6 @@ beforeThrow
 (
 )
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 Super
@@ -144,18 +141,6 @@ toStrOL
 .
 test
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

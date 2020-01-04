@@ -344,12 +344,6 @@ foo
 "
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
 parseAndEvaluate
 (
 "
@@ -522,13 +516,6 @@ a
 "
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 parseAndEvaluate
 (
 "
@@ -564,7 +551,6 @@ constructor
 "
 )
 ;
-}
 /
 /
 Test

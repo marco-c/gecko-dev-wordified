@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 It
@@ -25,7 +22,6 @@ assertThrowsInstanceOf
 >
 eval
 (
-\
 class
 a
 extends
@@ -39,7 +35,6 @@ constructor
 {
 }
 }
-\
 )
 TypeError
 )
@@ -52,7 +47,6 @@ assertThrowsInstanceOf
 >
 eval
 (
-\
 (
 class
 a
@@ -68,7 +62,6 @@ constructor
 }
 }
 )
-\
 )
 TypeError
 )
@@ -587,18 +580,6 @@ assertThrowsInstanceOf
 (
 stillNoExpr
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

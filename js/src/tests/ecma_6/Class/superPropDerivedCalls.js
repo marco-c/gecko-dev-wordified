@@ -1,6 +1,3 @@
-var
-test
-=
 let
 derivedInstance
 ;
@@ -388,18 +385,6 @@ derivedInstance
 .
 testInArrow
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

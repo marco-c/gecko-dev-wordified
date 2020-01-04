@@ -277,16 +277,6 @@ bound
 /
 Classes
 :
-if
-(
-classesEnabled
-(
-)
-)
-{
-eval
-(
-{
 class
 Base
 {
@@ -401,10 +391,6 @@ g
 )
 )
 ;
-}
-)
-;
-}
 /
 /
 Cross

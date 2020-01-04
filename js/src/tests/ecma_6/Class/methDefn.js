@@ -1730,6 +1730,17 @@ method
 ReferenceError
 )
 ;
+if
+(
+typeof
+reportCompare
+=
+=
+=
+'
+function
+'
+)
 reportCompare
 (
 0

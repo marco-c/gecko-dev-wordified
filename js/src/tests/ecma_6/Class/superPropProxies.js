@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -528,18 +525,6 @@ method
 (
 )
 42
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

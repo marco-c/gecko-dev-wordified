@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 /
 /
 Test
@@ -264,13 +253,6 @@ default
 ]
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testInitialEnvironment
 (
 "
@@ -338,4 +320,3 @@ default
 ]
 )
 ;
-}

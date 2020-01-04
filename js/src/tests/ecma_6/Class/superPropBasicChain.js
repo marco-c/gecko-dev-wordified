@@ -1,7 +1,4 @@
 var
-test
-=
-var
 o
 =
 {
@@ -27,18 +24,6 @@ o
 .
 access
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -128,18 +125,6 @@ base
 .
 answer
 42
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

@@ -294,15 +294,6 @@ prototype
 sym
 ]
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
-eval
-(
 /
 /
 Getting
@@ -475,9 +466,6 @@ isW
 true
 )
 ;
-)
-;
-}
 /
 /
 Deleting

@@ -30,16 +30,6 @@ it
 should
 throw
 .
-if
-(
-classesEnabled
-(
-)
-)
-{
-var
-test
-=
 class
 Foof
 {
@@ -184,7 +174,6 @@ assertThrowsInstanceOf
 >
 eval
 (
-\
 class
 Bar
 {
@@ -203,7 +192,6 @@ Bar
 }
 ;
 }
-\
 )
 ReferenceError
 )
@@ -216,7 +204,6 @@ assertThrowsInstanceOf
 >
 eval
 (
-\
 (
 class
 Bar
@@ -237,7 +224,6 @@ Bar
 ;
 }
 )
-\
 )
 ReferenceError
 )
@@ -578,13 +564,6 @@ orig_X
 .
 f
 (
-)
-;
-}
-;
-eval
-(
-test
 )
 ;
 }

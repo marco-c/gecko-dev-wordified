@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base1
 {
@@ -117,18 +114,6 @@ defaultInst
 .
 base
 2
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

@@ -2498,6 +2498,17 @@ x
 3
 )
 ;
+if
+(
+typeof
+reportCompare
+=
+=
+=
+'
+function
+'
+)
 reportCompare
 (
 0

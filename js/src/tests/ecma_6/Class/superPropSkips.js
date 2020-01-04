@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 Ensure
@@ -283,18 +280,6 @@ instance
 .
 testSkipSet
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

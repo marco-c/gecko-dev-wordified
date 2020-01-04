@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 /
 /
 Test
@@ -231,13 +220,6 @@ x
 ]
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testLocalExportEntries
 (
 '
@@ -275,7 +257,6 @@ foo
 ]
 )
 ;
-}
 testLocalExportEntries
 (
 '

@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 First
@@ -309,18 +306,6 @@ x
 "
 yeehaw
 "
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

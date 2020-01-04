@@ -1,6 +1,3 @@
-var
-test
-=
 class
 func
 extends
@@ -140,18 +137,6 @@ bound
 (
 )
 4
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

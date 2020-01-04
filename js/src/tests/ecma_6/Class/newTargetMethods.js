@@ -1,6 +1,3 @@
-var
-test
-=
 /
 /
 Just
@@ -442,18 +439,6 @@ clInst
 cl
 =
 4
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
 ;
 if
 (

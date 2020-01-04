@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -590,18 +587,6 @@ instance
 .
 testCompoundAssignProp
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if
