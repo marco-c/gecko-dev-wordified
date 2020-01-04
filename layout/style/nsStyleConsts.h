@@ -1262,6 +1262,15 @@ NS_STYLE_WILL_CHANGE_OPACITY
 <
 3
 )
+#
+define
+NS_STYLE_WILL_CHANGE_FIXPOS_CB
+(
+1
+<
+<
+4
+)
 /
 /
 See
