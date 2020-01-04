@@ -1,4 +1,23 @@
 #
+-
+*
+-
+fill
+-
+column
+:
+100
+;
+comment
+-
+column
+:
+100
+;
+-
+*
+-
+#
 This
 Source
 Code
@@ -55,14 +74,14 @@ MPL
 .
 from
 marionette_driver
-import
+.
 errors
+import
+MarionetteException
 from
 marionette
 import
 MarionetteTestCase
-skip_if_b2g
-skip_if_desktop
 from
 mozrunner
 .
@@ -96,52 +115,12 @@ MarionetteTestCase
 :
     
 def
-setUp
-(
-self
-)
-:
-        
-MarionetteTestCase
-.
-setUp
-(
-self
-)
-        
-self
-.
-is_mobile
-=
-self
-.
-marionette
-.
-session_capabilities
-[
-"
-platformName
-"
-]
-!
-=
-"
-Firefox
-"
-    
-def
 tearDown
 (
 self
 )
 :
         
-if
-self
-.
-is_mobile
-:
-            
 self
 .
 marionette
@@ -150,7 +129,7 @@ set_orientation
 (
 default_orientation
 )
-            
+        
 self
 .
 assertEqual
@@ -167,14 +146,15 @@ state
 "
 )
         
+super
+(
 MarionetteTestCase
+self
+)
 .
 tearDown
 (
-self
 )
-    
-skip_if_desktop
     
 def
 test_set_orientation_to_portrait_primary
@@ -246,8 +226,6 @@ EmulatorScreen
 SO_PORTRAIT_PRIMARY
 )
     
-skip_if_desktop
-    
 def
 test_set_orientation_to_landscape_primary
 (
@@ -317,8 +295,6 @@ EmulatorScreen
 .
 SO_LANDSCAPE_PRIMARY
 )
-    
-skip_if_desktop
     
 def
 test_set_orientation_to_portrait_secondary
@@ -390,8 +366,6 @@ EmulatorScreen
 SO_PORTRAIT_SECONDARY
 )
     
-skip_if_desktop
-    
 def
 test_set_orientation_to_landscape_secondary
 (
@@ -461,8 +435,6 @@ EmulatorScreen
 .
 SO_LANDSCAPE_SECONDARY
 )
-    
-skip_if_desktop
     
 def
 test_set_orientation_to_shorthand_portrait
@@ -587,8 +559,6 @@ EmulatorScreen
 SO_PORTRAIT_PRIMARY
 )
     
-skip_if_desktop
-    
 def
 test_set_orientation_to_shorthand_landscape
 (
@@ -657,8 +627,6 @@ EmulatorScreen
 SO_LANDSCAPE_PRIMARY
 )
     
-skip_if_desktop
-    
 def
 test_set_orientation_with_mixed_casing
 (
@@ -697,8 +665,6 @@ primary
 "
 )
     
-skip_if_desktop
-    
 def
 test_set_invalid_orientation
 (
@@ -711,8 +677,6 @@ self
 .
 assertRaisesRegexp
 (
-errors
-.
 MarionetteException
 unknown_orientation
 %
@@ -733,8 +697,6 @@ cheese
 "
 )
     
-skip_if_desktop
-    
 def
 test_set_null_orientation
 (
@@ -747,8 +709,6 @@ self
 .
 assertRaisesRegexp
 (
-errors
-.
 MarionetteException
 unknown_orientation
 %
@@ -765,37 +725,4 @@ marionette
 set_orientation
 (
 None
-)
-    
-skip_if_b2g
-    
-def
-test_unsupported_operation_on_desktop
-(
-self
-)
-:
-        
-with
-self
-.
-assertRaises
-(
-errors
-.
-UnsupportedOperationException
-)
-:
-            
-self
-.
-marionette
-.
-set_orientation
-(
-"
-landscape
--
-primary
-"
 )
