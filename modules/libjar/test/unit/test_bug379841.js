@@ -14,14 +14,14 @@ modified
 time
 ignores
 seconds
-const
+var
 Cc
 =
 Components
 .
 classes
 ;
-const
+var
 Ci
 =
 Components

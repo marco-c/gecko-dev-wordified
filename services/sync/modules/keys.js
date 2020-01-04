@@ -74,7 +74,7 @@ SyncKeyBundle
 "
 ]
 ;
-const
+var
 {
 classes
 :

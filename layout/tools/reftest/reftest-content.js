@@ -97,7 +97,7 @@ MPL
 .
 *
 /
-const
+var
 CC
 =
 Components

@@ -2669,7 +2669,7 @@ prePath
 }
 }
 ;
-let
+var
 singleton
 ;
 /

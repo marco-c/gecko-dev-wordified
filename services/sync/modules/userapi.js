@@ -71,7 +71,7 @@ UserAPI10Client
 "
 ]
 ;
-const
+var
 {
 utils
 :

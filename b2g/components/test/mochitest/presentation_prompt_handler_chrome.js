@@ -79,7 +79,7 @@ n
 )
 ;
 }
-const
+var
 {
 classes
 :

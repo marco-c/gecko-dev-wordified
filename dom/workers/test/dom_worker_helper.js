@@ -30,7 +30,7 @@ zero
 /
 *
 /
-const
+var
 {
 classes
 :

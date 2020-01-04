@@ -428,7 +428,7 @@ window
 .
 *
 /
-let
+var
 installedHelperSheets
 =
 new

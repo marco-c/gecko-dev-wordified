@@ -125,7 +125,7 @@ the
 browser_action
 icon
 .
-let
+var
 imageRendererMap
 =
 new

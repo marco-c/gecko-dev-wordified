@@ -43,7 +43,7 @@ for
 timeline
 tests
 .
-const
+var
 {
 classes
 :

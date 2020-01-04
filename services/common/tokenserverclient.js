@@ -80,7 +80,7 @@ TokenServerClientServerError
 "
 ]
 ;
-const
+var
 {
 classes
 :

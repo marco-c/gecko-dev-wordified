@@ -42,7 +42,7 @@ test
 newtab
 /
 .
-const
+var
 {
 classes
 :

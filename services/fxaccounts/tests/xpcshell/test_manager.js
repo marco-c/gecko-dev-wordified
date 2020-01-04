@@ -33,7 +33,7 @@ use
 strict
 "
 ;
-const
+var
 Cm
 =
 Components

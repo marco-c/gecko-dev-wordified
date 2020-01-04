@@ -66,7 +66,7 @@ function
 (
 )
 {
-const
+var
 {
 classes
 :

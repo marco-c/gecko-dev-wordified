@@ -200,7 +200,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 Log
@@ -1675,7 +1675,7 @@ error
 .
 *
 /
-let
+var
 computeHash
 =
 Task
@@ -1882,7 +1882,7 @@ error
 .
 *
 /
-let
+var
 verifyFile
 =
 Task

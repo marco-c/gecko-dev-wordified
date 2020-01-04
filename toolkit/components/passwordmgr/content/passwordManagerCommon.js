@@ -104,7 +104,7 @@ CODE
 *
 *
 /
-const
+var
 {
 classes
 :

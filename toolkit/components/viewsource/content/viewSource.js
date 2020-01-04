@@ -79,7 +79,7 @@ MPL
 .
 *
 /
-const
+var
 {
 utils
 :

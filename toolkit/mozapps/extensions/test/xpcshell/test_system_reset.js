@@ -74,7 +74,7 @@ Build
 the
 test
 sets
-let
+var
 dir
 =
 FileUtils

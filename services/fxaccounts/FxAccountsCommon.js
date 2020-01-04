@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-const
+var
 {
 interfaces
 :

@@ -75,7 +75,7 @@ chrome
 "
 )
 ;
-let
+var
 protocol
 =
 require
@@ -89,7 +89,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 RetVal
@@ -132,7 +132,7 @@ core
 "
 )
 ;
-let
+var
 MemprofActor
 =
 protocol

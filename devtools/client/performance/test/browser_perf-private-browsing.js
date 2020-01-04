@@ -44,7 +44,7 @@ mode
 .
 *
 /
-let
+var
 gPanelWinTuples
 =
 [

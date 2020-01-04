@@ -69,7 +69,7 @@ TabSetRecord
 "
 ]
 ;
-const
+var
 {
 classes
 :

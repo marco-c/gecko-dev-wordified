@@ -68,7 +68,7 @@ WebrtcGlobalInformation
 document
 *
 /
-const
+var
 Cu
 =
 Components

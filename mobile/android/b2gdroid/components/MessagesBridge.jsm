@@ -289,7 +289,7 @@ flight
 setting
 changes
 .
-let
+var
 _blockedSettings
 =
 new

@@ -69,7 +69,7 @@ SyncScheduler
 "
 ]
 ;
-const
+var
 {
 classes
 :

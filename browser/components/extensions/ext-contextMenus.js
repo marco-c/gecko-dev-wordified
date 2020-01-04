@@ -74,7 +74,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 contextMenuItems
@@ -120,7 +120,7 @@ a
 weak
 map
 .
-let
+var
 contextMenuMap
 =
 new
@@ -141,7 +141,7 @@ for
 event
 pages
 .
-let
+var
 onClickedCallbacksMap
 =
 new
@@ -164,7 +164,7 @@ use
 an
 integer
 .
-let
+var
 nextID
 =
 0
@@ -294,7 +294,7 @@ in
 contentData
 |
 .
-let
+var
 menuBuilder
 =
 {
@@ -2148,7 +2148,7 @@ true
 }
 }
 ;
-let
+var
 extCount
 =
 0

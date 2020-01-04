@@ -360,7 +360,7 @@ URL
 ]
 )
 ;
-let
+var
 CtypesKernelHelpers
 =
 MSMigrationUtils

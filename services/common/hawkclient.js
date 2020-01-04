@@ -265,7 +265,7 @@ HawkClient
 "
 ]
 ;
-const
+var
 {
 interfaces
 :

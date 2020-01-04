@@ -44,7 +44,7 @@ message
 .
 *
 /
-const
+var
 {
 utils
 :

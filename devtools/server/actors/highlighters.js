@@ -671,7 +671,7 @@ HighlighterActor
 class
 *
 /
-let
+var
 HighlighterActor
 =
 exports
@@ -2673,7 +2673,7 @@ null
 }
 )
 ;
-let
+var
 HighlighterFront
 =
 protocol
@@ -2766,7 +2766,7 @@ it
 .
 *
 /
-let
+var
 CustomHighlighterActor
 =
 exports
@@ -3428,7 +3428,7 @@ true
 }
 )
 ;
-let
+var
 CustomHighlighterFront
 =
 protocol

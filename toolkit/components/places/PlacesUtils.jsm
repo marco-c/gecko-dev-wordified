@@ -14030,7 +14030,7 @@ can
 be
 closed
 .
-let
+var
 promiseCanCloseConnection
 =
 function

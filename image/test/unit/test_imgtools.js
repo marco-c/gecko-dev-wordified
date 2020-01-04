@@ -6,14 +6,14 @@ for
 imgITools
 *
 /
-const
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-const
+var
 Cc
 =
 Components
