@@ -1260,6 +1260,8 @@ quiet
 "
 -
 -
+flavor
+=
 chrome
 "
                 

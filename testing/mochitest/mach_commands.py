@@ -535,10 +535,12 @@ extra_args
 {
             
 '
-chrome
+flavor
 '
 :
-True
+'
+chrome
+'
         
 }
     
@@ -602,10 +604,12 @@ extra_args
 {
             
 '
-browserChrome
+flavor
 '
 :
-True
+'
+browser
+'
         
 }
     
@@ -668,10 +672,14 @@ extra_args
 {
             
 '
-jetpackPackage
+flavor
 '
 :
-True
+'
+jetpack
+-
+package
+'
         
 }
     
@@ -734,10 +742,14 @@ extra_args
 {
             
 '
-jetpackAddon
+flavor
 '
 :
-True
+'
+jetpack
+-
+addon
+'
         
 }
     
@@ -792,10 +804,12 @@ extra_args
 {
             
 '
-a11y
+flavor
 '
 :
-True
+'
+a11y
+'
         
 }
     

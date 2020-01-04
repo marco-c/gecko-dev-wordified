@@ -1110,7 +1110,12 @@ remote_log
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
                 
 #
@@ -1503,7 +1508,12 @@ append
 (
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 )
             
 self
@@ -1781,7 +1791,12 @@ init
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
                 
 self

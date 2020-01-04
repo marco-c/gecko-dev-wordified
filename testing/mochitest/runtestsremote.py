@@ -1419,7 +1419,12 @@ webapp
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
             
 #
@@ -1711,7 +1716,12 @@ remoteChromeTestDir
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
             
 self
@@ -2342,10 +2352,14 @@ plain
 mochitests
     
 if
-not
 options
 .
+flavor
+!
+=
+'
 chrome
+'
 :
         
 options

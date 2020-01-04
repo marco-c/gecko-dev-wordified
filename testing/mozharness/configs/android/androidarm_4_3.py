@@ -1242,6 +1242,8 @@ fail
 "
 -
 -
+flavor
+=
 chrome
 "
             

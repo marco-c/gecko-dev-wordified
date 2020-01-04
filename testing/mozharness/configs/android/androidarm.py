@@ -3364,6 +3364,8 @@ extra_args
 "
 -
 -
+flavor
+=
 chrome
 "
 ]
