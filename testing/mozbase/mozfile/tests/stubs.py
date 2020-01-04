@@ -199,7 +199,6 @@ tempdir
     
 except
 Exception
-e
 :
         
 try
@@ -218,4 +217,3 @@ except
 pass
         
 raise
-e

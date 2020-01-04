@@ -2197,6 +2197,7 @@ except
 IOError
 KeyError
 )
+as
 e
 :
             
@@ -2421,6 +2422,7 @@ node
         
 except
 Exception
+as
 e
 :
             
@@ -2683,6 +2685,7 @@ path
         
 except
 AddonFormatError
+as
 e
 :
             

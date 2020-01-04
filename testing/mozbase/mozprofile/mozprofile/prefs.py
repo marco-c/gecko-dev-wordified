@@ -627,6 +627,7 @@ raise
             
 except
 Exception
+as
 e
 :
                 
@@ -661,6 +662,7 @@ path
         
 except
 Exception
+as
 e
 :
             
@@ -677,6 +679,7 @@ path
             
 except
 Exception
+as
 f
 :
                 

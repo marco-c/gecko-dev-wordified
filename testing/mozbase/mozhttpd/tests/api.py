@@ -499,6 +499,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             
@@ -1002,6 +1003,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             
@@ -1125,6 +1127,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             
@@ -1199,6 +1202,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             
@@ -2020,6 +2024,7 @@ except
 urllib2
 .
 HTTPError
+as
 e
 :
             

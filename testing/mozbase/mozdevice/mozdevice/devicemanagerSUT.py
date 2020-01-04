@@ -950,6 +950,7 @@ return
             
 except
 DMError
+as
 err
 :
                 
@@ -1284,6 +1285,7 @@ except
 socket
 .
 error
+as
 msg
 :
                 
@@ -1357,6 +1359,7 @@ except
 socket
 .
 error
+as
 msg
 :
                 
@@ -1407,6 +1410,7 @@ except
 socket
 .
 error
+as
 msg
 :
                 
@@ -1674,6 +1678,7 @@ except
 socket
 .
 error
+as
 msg
 :
                 
@@ -1995,6 +2000,7 @@ except
 socket
 .
 error
+as
 err
 :
                         
@@ -4671,6 +4677,7 @@ True
                 
 except
 DMError
+as
 err
 :
                     
@@ -4801,6 +4808,7 @@ return
                 
 except
 DMError
+as
 err
 :
                     
@@ -6453,6 +6461,7 @@ except
 socket
 .
 error
+as
 e
 :
                 

@@ -1558,6 +1558,7 @@ not_existing_path
         
 except
 OSError
+as
 exc
 :
             

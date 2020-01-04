@@ -1746,6 +1746,7 @@ asanOptions
         
 except
 OSError
+as
 err
 :
             
