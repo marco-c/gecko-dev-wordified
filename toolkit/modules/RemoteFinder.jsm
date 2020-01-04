@@ -1059,6 +1059,7 @@ function
 (
 aHighlight
 aWord
+aLinksOnly
 )
 {
 this
@@ -1078,6 +1079,9 @@ Highlight
 highlight
 :
 aHighlight
+linksOnly
+:
+aLinksOnly
 word
 :
 aWord
@@ -1868,6 +1872,9 @@ highlight
 data
 .
 word
+data
+.
+linksOnly
 )
 ;
 break
