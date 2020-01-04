@@ -13488,7 +13488,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 bo
 .
@@ -14156,7 +14156,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 bo
 .
@@ -14415,7 +14415,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 maybeCmpOffset
 )
@@ -14649,7 +14649,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 maybeCmpOffset
 )
@@ -14974,7 +14974,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 maybeCmpOffset
 )
@@ -15254,7 +15254,7 @@ append
 wasm
 :
 :
-HeapAccess
+BoundsCheck
 (
 maybeCmpOffset
 )

@@ -1468,11 +1468,11 @@ static
 void
 UpdateBoundsCheck
 (
-uint64_t
-logHeapSize
-Instruction
+uint8_t
 *
-inst
+patchAt
+uint32_t
+heapLength
 )
 ;
 }

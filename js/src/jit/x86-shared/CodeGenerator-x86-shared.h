@@ -541,8 +541,7 @@ this
 ;
 private
 :
-MOZ_MUST_USE
-uint32_t
+void
 emitAsmJSBoundsCheckBranch
 (
 const
@@ -582,8 +581,7 @@ of
 bounds
 )
 :
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitThrowingAsmJSBoundsCheck
 (
 const
@@ -617,8 +615,7 @@ a
 bounds
 check
 :
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitAsmJSLoadBoundsCheck
 (
 const
@@ -651,8 +648,7 @@ a
 bounds
 check
 :
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitAsmJSStoreBoundsCheck
 (
 const

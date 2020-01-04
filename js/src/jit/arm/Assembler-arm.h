@@ -12181,11 +12181,11 @@ static
 void
 UpdateBoundsCheck
 (
-uint32_t
-logHeapSize
-Instruction
+uint8_t
 *
-inst
+patchAt
+uint32_t
+heapLength
 )
 ;
 void
