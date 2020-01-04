@@ -5495,11 +5495,6 @@ id
 "
 testframe
 "
-"
-allowfullscreen
-"
-:
-true
 }
 )
 )
