@@ -10823,9 +10823,9 @@ Bar
 *
 /
 #
-nav
+main
 -
-bar
+window
 {
 -
 -
@@ -10860,9 +10860,9 @@ color
 ;
 }
 #
-nav
+main
 -
-bar
+window
 :
 -
 moz
@@ -10940,9 +10940,9 @@ win8
 )
 {
 #
-nav
+main
 -
-bar
+window
 :
 not
 (
@@ -11050,9 +11050,9 @@ win10
 )
 {
 #
-nav
+main
 -
-bar
+window
 :
 not
 (
