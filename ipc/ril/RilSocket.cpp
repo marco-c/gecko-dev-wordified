@@ -488,7 +488,7 @@ received
 data
 *
 /
-nsAutoPtr
+UniquePtr
 <
 UnixSocketRawData
 >
@@ -730,8 +730,10 @@ mBuffer
 {
 mBuffer
 =
-new
+MakeUnique
+<
 UnixSocketRawData
+>
 (
 MAX_READ_SIZE
 )
@@ -928,7 +930,7 @@ RilSocketIO
 *
 mIO
 ;
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -956,7 +958,7 @@ ReceiveTask
 this
 mBuffer
 .
-forget
+release
 (
 )
 )
@@ -1387,7 +1389,7 @@ ReceiveSocketData
 JSContext
 *
 aCx
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

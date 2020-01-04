@@ -295,7 +295,7 @@ ReceiveSocketData
 JSContext
 *
 aCx
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
