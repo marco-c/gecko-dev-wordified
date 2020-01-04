@@ -1604,6 +1604,14 @@ ins
 )
 ;
 void
+visitLoadFixedSlotAndUnbox
+(
+LLoadFixedSlotAndUnbox
+*
+lir
+)
+;
+void
 visitLoadFixedSlotT
 (
 LLoadFixedSlotT
