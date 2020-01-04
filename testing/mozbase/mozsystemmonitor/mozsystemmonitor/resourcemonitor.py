@@ -2032,6 +2032,51 @@ done
 =
 False
         
+#
+The
+child
+process
+will
+send
+each
+data
+sample
+over
+the
+pipe
+        
+#
+as
+a
+separate
+data
+structure
+.
+When
+it
+has
+finished
+sending
+        
+#
+samples
+it
+sends
+a
+special
+"
+done
+"
+message
+to
+indicate
+it
+        
+#
+is
+finished
+.
+        
 while
 self
 .
@@ -2039,9 +2084,9 @@ _pipe
 .
 poll
 (
-0
-.
 1
+.
+0
 )
 :
             
@@ -2063,6 +2108,23 @@ recv
 (
 )
             
+#
+There
+should
+be
+nothing
+after
+the
+"
+done
+"
+message
+so
+            
+#
+terminate
+.
+            
 if
 start_time
 =
@@ -2076,7 +2138,7 @@ done
 =
 True
                 
-continue
+break
             
 io
 =
