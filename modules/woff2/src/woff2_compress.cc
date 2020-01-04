@@ -407,6 +407,15 @@ SetFileContents
 (
 outfilename
 output
+.
+begin
+(
+)
+output
+.
+end
+(
+)
 )
 ;
 return

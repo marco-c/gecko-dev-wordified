@@ -429,6 +429,9 @@ struct
 FontCollection
 {
 uint32_t
+flavor
+;
+uint32_t
 header_version
 ;
 /
