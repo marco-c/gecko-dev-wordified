@@ -466,7 +466,7 @@ _enabled
 )
 =
 =
-OPTION_ALWAYS
+OPTION_NEVER
 |
 |
 (
