@@ -594,7 +594,7 @@ been
 created
 or
 is
-JS_UNINITIALIED_LEXICAL
+JS_UNINITIALIZED_LEXICAL
 /
 /
 we
