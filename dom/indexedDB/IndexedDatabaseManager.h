@@ -195,6 +195,9 @@ nsITimer
 .
 h
 "
+class
+nsIEventTarget
+;
 struct
 PRLogModuleInfo
 ;
@@ -427,6 +430,14 @@ IsFileHandleEnabled
 void
 ClearBackgroundActor
 (
+)
+;
+void
+NoteBackgroundThread
+(
+nsIEventTarget
+*
+aBackgroundThread
 )
 ;
 already_AddRefed
@@ -687,6 +698,12 @@ void
 *
 aClosure
 )
+;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mBackgroundThread
 ;
 nsCOMPtr
 <
