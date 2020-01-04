@@ -1429,7 +1429,7 @@ sumBits_Q5
 =
 nBits_ptr
 [
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 ]
@@ -1647,7 +1647,7 @@ else
 ec_enc_icdf
 (
 psRangeEnc
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 cdf_ptr
@@ -1677,7 +1677,7 @@ k
 ec_enc_icdf
 (
 psRangeEnc
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 silk_pulses_per_block_iCDF

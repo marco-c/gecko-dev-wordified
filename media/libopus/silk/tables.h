@@ -562,7 +562,7 @@ silk_pulses_per_block_iCDF
 N_RATE_LEVELS
 ]
 [
-MAX_PULSES
+SILK_MAX_PULSES
 +
 2
 ]
@@ -582,7 +582,7 @@ N_RATE_LEVELS
 1
 ]
 [
-MAX_PULSES
+SILK_MAX_PULSES
 +
 2
 ]
@@ -698,7 +698,7 @@ const
 opus_uint8
 silk_shell_code_table_offsets
 [
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 ]

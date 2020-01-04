@@ -902,7 +902,7 @@ i
 ]
 =
 =
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 )
@@ -932,7 +932,7 @@ to
 not
 allow
 (
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 )

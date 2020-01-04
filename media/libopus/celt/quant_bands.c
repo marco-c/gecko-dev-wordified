@@ -2300,7 +2300,13 @@ lfe
 )
 max_decay
 =
+QCONST16
+(
 3
+.
+f
+DB_SHIFT
+)
 ;
 enc_start_state
 =

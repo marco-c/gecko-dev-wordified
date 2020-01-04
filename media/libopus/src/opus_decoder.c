@@ -461,6 +461,9 @@ DecControl
 int
 decode_gain
 ;
+int
+arch
+;
 /
 *
 Everything
@@ -512,9 +515,6 @@ softclip_mem
 endif
 opus_uint32
 rangeFinal
-;
-int
-arch
 ;
 }
 ;

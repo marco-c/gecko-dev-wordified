@@ -1129,7 +1129,7 @@ frame
 /
 #
 define
-MAX_PULSES
+SILK_MAX_PULSES
 16
 #
 define
