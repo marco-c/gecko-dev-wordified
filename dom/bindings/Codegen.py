@@ -104686,11 +104686,6 @@ forwardDeclareForType
 self
 t
 config
-workerness
-=
-'
-both
-'
 )
 :
         
@@ -104720,31 +104715,9 @@ identifier
 .
 name
             
-#
-Find
-and
-add
-the
-non
--
-worker
-implementation
-if
-any
-.
-            
-if
-workerness
-!
-=
-'
-workeronly
-'
-:
-                
 try
 :
-                    
+                
 desc
 =
 config
@@ -104754,7 +104727,7 @@ getDescriptor
 name
 False
 )
-                    
+                
 self
 .
 add
@@ -104763,59 +104736,11 @@ desc
 .
 nativeType
 )
-                
+            
 except
 NoSuchDescriptorError
 :
-                    
-pass
-            
-#
-Find
-and
-add
-the
-worker
-implementation
-if
-any
-.
-            
-if
-workerness
-!
-=
-'
-mainthreadonly
-'
-:
                 
-try
-:
-                    
-desc
-=
-config
-.
-getDescriptor
-(
-name
-True
-)
-                    
-self
-.
-add
-(
-desc
-.
-nativeType
-)
-                
-except
-NoSuchDescriptorError
-:
-                    
 pass
         
 #
@@ -104977,7 +104902,6 @@ t
 .
 inner
 config
-workerness
 )
         
 #
@@ -105074,8 +104998,7 @@ __init__
 self
 config
 descriptors
-mainCallbacks
-workerCallbacks
+callbacks
                  
 dictionaries
 callbackInterfaces
@@ -105425,7 +105348,7 @@ True
 for
 callback
 in
-mainCallbacks
+callbacks
 :
             
 builder
@@ -105454,51 +105377,6 @@ forwardDeclareForType
 (
 t
 config
-                                              
-workerness
-=
-'
-mainthreadonly
-'
-)
-        
-for
-callback
-in
-workerCallbacks
-:
-            
-builder
-.
-addInMozillaDom
-(
-callback
-.
-identifier
-.
-name
-)
-            
-for
-t
-in
-getTypesFromCallback
-(
-callback
-)
-:
-                
-builder
-.
-forwardDeclareForType
-(
-t
-config
-workerness
-=
-'
-workeronly
-'
 )
         
 for
@@ -106406,8 +106284,6 @@ config
 getDictionaries
 (
 webIDLFile
-=
-webIDLFile
 )
         
 def
@@ -106507,34 +106383,13 @@ in
 dictionaries
 )
         
-mainCallbacks
+callbacks
 =
 config
 .
 getCallbacks
 (
 webIDLFile
-=
-webIDLFile
-                                            
-workers
-=
-False
-)
-        
-workerCallbacks
-=
-config
-.
-getCallbacks
-(
-webIDLFile
-=
-webIDLFile
-                                              
-workers
-=
-True
 )
         
 callbackDescriptors
@@ -106710,9 +106565,7 @@ or
 dictionaries
 or
                    
-mainCallbacks
-or
-workerCallbacks
+callbacks
 )
         
 bindingHeaders
@@ -107330,7 +107183,7 @@ config
 for
 c
 in
-mainCallbacks
+callbacks
 )
         
 cgthings
@@ -107352,56 +107205,7 @@ c
 for
 c
 in
-mainCallbacks
-]
-)
-        
-cgthings
-.
-extend
-(
-CGCallbackFunction
-(
-c
-config
-)
-                        
-for
-c
-in
-workerCallbacks
-if
-c
-not
-in
-mainCallbacks
-)
-        
-cgthings
-.
-extend
-(
-[
-CGNamespace
-(
-'
-binding_detail
-'
-CGFastCallback
-(
-c
-)
-)
-                         
-for
-c
-in
-workerCallbacks
-if
-c
-not
-in
-mainCallbacks
+callbacks
 ]
 )
         
@@ -107662,8 +107466,7 @@ CGForwardDeclarations
 config
 descriptors
                                              
-mainCallbacks
-workerCallbacks
+callbacks
                                              
 dictionaries
                                              
@@ -107737,9 +107540,7 @@ descriptors
                          
 dictionaries
                          
-mainCallbacks
-+
-workerCallbacks
+callbacks
                          
 callbackDescriptors
                          

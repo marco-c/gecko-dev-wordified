@@ -620,7 +620,7 @@ result
 .
 inputs
 )
-5
+4
 )
         
 output
