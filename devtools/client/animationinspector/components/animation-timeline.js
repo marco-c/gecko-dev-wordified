@@ -1050,6 +1050,12 @@ onAnimationStateChanged
 )
 ;
 }
+this
+.
+stopAnimatingScrubber
+(
+)
+;
 TimeScale
 .
 reset
