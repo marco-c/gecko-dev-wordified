@@ -499,7 +499,7 @@ the
 cache
 entry
 .
-NS_METHOD
+nsresult
 ConsumeData
 (
 const
