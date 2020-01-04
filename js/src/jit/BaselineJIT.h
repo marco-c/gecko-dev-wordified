@@ -1618,8 +1618,6 @@ prologueOffset
 uint32_t
 epilogueOffset
 uint32_t
-postDebugPrologueOffset
-uint32_t
 profilerEnterToggleOffset
 uint32_t
 profilerExitToggleOffset
@@ -1627,6 +1625,8 @@ uint32_t
 traceLoggerEnterToggleOffset
 uint32_t
 traceLoggerExitToggleOffset
+uint32_t
+postDebugPrologueOffset
 size_t
 icEntries
 size_t
