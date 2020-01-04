@@ -664,6 +664,16 @@ decoder
 s
 state
 .
+DecoderFinalStatus
+finalStatus
+=
+aDecoder
+-
+>
+FinalStatus
+(
+)
+;
 ImageMetadata
 metadata
 =
@@ -764,6 +774,7 @@ aImage
 FinalizeDecoder
 (
 aDecoder
+finalStatus
 metadata
 telemetry
 progress
@@ -830,6 +841,7 @@ decoder
 get
 (
 )
+finalStatus
 metadata
 telemetry
 progress
