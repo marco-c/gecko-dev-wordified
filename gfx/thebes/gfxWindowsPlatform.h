@@ -1826,9 +1826,6 @@ AttemptD3D11ContentDeviceCreation
 )
 ;
 bool
-gfxWindowsPlatform
-:
-:
 AttemptD3D11ContentDeviceCreationHelper
 (
 IDXGIAdapter1
