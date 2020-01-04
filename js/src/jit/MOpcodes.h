@@ -814,11 +814,6 @@ RegExpPrototypeOptimizable
 \
 _
 (
-RegExpInstanceOptimizable
-)
-\
-_
-(
 RegExpReplace
 )
 \

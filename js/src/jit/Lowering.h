@@ -1287,14 +1287,6 @@ ins
 )
 ;
 void
-visitRegExpInstanceOptimizable
-(
-MRegExpInstanceOptimizable
-*
-ins
-)
-;
-void
 visitRegExpReplace
 (
 MRegExpReplace
