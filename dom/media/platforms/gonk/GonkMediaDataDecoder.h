@@ -265,6 +265,7 @@ the
 queued
 sample
 .
+virtual
 nsresult
 Flush
 (
