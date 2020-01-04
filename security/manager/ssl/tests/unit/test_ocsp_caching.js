@@ -266,7 +266,7 @@ generateOCSPResponses
 (
 args
 "
-tlsserver
+ocsp_certs
 "
 )
 ;
@@ -369,7 +369,7 @@ generateOCSPResponses
 (
 args
 "
-tlsserver
+ocsp_certs
 "
 )
 ;
@@ -517,6 +517,9 @@ add_tls_server_setup
 (
 "
 OCSPStaplingServer
+"
+"
+ocsp_certs
 "
 )
 ;

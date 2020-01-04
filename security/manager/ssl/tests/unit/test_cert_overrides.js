@@ -683,6 +683,9 @@ add_tls_server_setup
 "
 BadCertServer
 "
+"
+bad_certs
+"
 )
 ;
 let
@@ -1031,16 +1034,6 @@ host
 "
 will
 present
-(
-see
-/
-/
-tlsserver
-/
-generate_certs
-.
-sh
-)
 .
 add_cert_override_test
 (
@@ -1148,7 +1141,7 @@ rootCert
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 test
 -
@@ -1201,7 +1194,7 @@ rootCert
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 test
 -
@@ -1448,7 +1441,7 @@ v1Cert
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 v1Cert
 .
@@ -1518,7 +1511,7 @@ v1Cert
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 v1Cert
 .
@@ -1932,7 +1925,7 @@ PRErrorCodeSuccess
 add_distrust_test
 (
 "
-tlsserver
+bad_certs
 /
 default
 -
@@ -1953,7 +1946,7 @@ SEC_ERROR_UNTRUSTED_CERT
 add_distrust_test
 (
 "
-tlsserver
+bad_certs
 /
 other
 -
@@ -1976,7 +1969,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 add_distrust_test
 (
 "
-tlsserver
+bad_certs
 /
 test
 -

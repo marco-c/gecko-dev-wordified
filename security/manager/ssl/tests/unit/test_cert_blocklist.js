@@ -792,7 +792,7 @@ int
 .
 pem
 in
-tlsserver
+bad_certs
 /
 "
 <
@@ -871,7 +871,7 @@ ca
 .
 pem
 in
-tlsserver
+bad_certs
 /
 (
 for
@@ -1243,7 +1243,7 @@ let
 file
 =
 "
-tlsserver
+bad_certs
 /
 "
 +
@@ -1700,7 +1700,7 @@ let
 file
 =
 "
-tlsserver
+test_onecrl
 /
 test
 -
@@ -1754,7 +1754,7 @@ blocklist
 file
 =
 "
-tlsserver
+bad_certs
 /
 other
 -
@@ -1803,7 +1803,7 @@ blocklist
 file
 =
 "
-tlsserver
+test_onecrl
 /
 same
 -
@@ -2418,7 +2418,7 @@ let
 file
 =
 "
-tlsserver
+test_onecrl
 /
 test
 -
@@ -2451,7 +2451,7 @@ failure
 file
 =
 "
-tlsserver
+bad_certs
 /
 other
 -
@@ -2484,7 +2484,7 @@ failure
 file
 =
 "
-tlsserver
+test_onecrl
 /
 same
 -
@@ -2515,7 +2515,7 @@ OK
 file
 =
 "
-tlsserver
+bad_certs
 /
 default
 -
@@ -2546,7 +2546,7 @@ issuer
 file
 =
 "
-tlsserver
+bad_certs
 /
 unknownissuer
 .
