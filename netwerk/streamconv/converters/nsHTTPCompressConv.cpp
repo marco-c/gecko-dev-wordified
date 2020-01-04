@@ -931,12 +931,17 @@ true
 if
 (
 mBrotli
+&
+&
+(
+mBrotli
 -
 >
 mTotalOut
 =
 =
 0
+)
 &
 &
 !
