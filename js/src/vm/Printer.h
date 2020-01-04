@@ -531,6 +531,7 @@ free
 char
 in
 buffer
+MOZ_MUST_USE
 bool
 realloc_
 (
@@ -567,6 +568,7 @@ false
 on
 error
 .
+MOZ_MUST_USE
 bool
 init
 (
@@ -886,6 +888,7 @@ false
 on
 error
 .
+MOZ_MUST_USE
 bool
 init
 (
