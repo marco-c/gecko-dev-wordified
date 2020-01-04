@@ -3762,7 +3762,7 @@ const
 JS
 :
 :
-AutoAssertOnGC
+AutoRequireNoGC
 &
 )
 const
@@ -3805,7 +3805,7 @@ const
 JS
 :
 :
-AutoAssertOnGC
+AutoRequireNoGC
 &
 nogc
 )
@@ -4777,7 +4777,7 @@ const
 JS
 :
 :
-AutoAssertOnGC
+AutoRequireNoGC
 &
 )
 const

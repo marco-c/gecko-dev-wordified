@@ -9737,7 +9737,7 @@ const
 JS
 :
 :
-AutoAssertOnGC
+AutoRequireNoGC
 &
 nogc
 )
