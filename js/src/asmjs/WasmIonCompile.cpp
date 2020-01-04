@@ -7853,6 +7853,19 @@ uncheckedReadFixedU8
 ;
 }
 uint32_t
+readU32
+(
+)
+{
+return
+decoder_
+.
+uncheckedReadFixedU32
+(
+)
+;
+}
+uint32_t
 readVarS32
 (
 )
@@ -15790,7 +15803,7 @@ i
 =
 f
 .
-readVarU32
+readU32
 (
 )
 ;
@@ -15799,7 +15812,7 @@ defaultDepth
 =
 f
 .
-readVarU32
+readU32
 (
 )
 ;

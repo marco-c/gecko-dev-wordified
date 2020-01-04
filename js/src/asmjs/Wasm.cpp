@@ -3240,7 +3240,7 @@ d
 (
 )
 .
-readVarU32
+readFixedU32
 (
 &
 depth
@@ -3300,7 +3300,7 @@ d
 (
 )
 .
-readVarU32
+readFixedU32
 (
 &
 defaultDepth

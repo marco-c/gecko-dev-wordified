@@ -22948,7 +22948,7 @@ if
 !
 e
 .
-writeVarU32
+writeFixedU32
 (
 elem
 .
@@ -22966,7 +22966,7 @@ if
 !
 e
 .
-writeVarU32
+writeFixedU32
 (
 bt
 .
