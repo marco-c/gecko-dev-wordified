@@ -723,6 +723,8 @@ k
 24
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 10
 :
@@ -742,6 +744,8 @@ k
 16
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 9
 :
@@ -760,6 +764,8 @@ k
 <
 8
 )
+;
+MOZ_FALLTHROUGH
 ;
 /
 *
@@ -796,6 +802,8 @@ k
 24
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -814,6 +822,8 @@ k
 <
 16
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 6
@@ -834,6 +844,8 @@ k
 8
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -844,6 +856,8 @@ k
 [
 4
 ]
+;
+MOZ_FALLTHROUGH
 ;
 case
 4
@@ -864,6 +878,8 @@ k
 24
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -883,6 +899,8 @@ k
 16
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -901,6 +919,8 @@ k
 <
 8
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 1
@@ -1304,6 +1324,8 @@ data
 <
 16
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -1317,6 +1339,8 @@ data
 <
 <
 8
+;
+MOZ_FALLTHROUGH
 ;
 case
 1

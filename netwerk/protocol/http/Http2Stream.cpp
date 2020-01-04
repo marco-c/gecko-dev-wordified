@@ -8902,10 +8902,8 @@ ChangeState
 SENDING_BODY
 )
 ;
-/
-/
-NO
-BREAK
+MOZ_FALLTHROUGH
+;
 case
 SENDING_BODY
 :

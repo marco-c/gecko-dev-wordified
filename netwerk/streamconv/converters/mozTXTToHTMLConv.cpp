@@ -383,6 +383,8 @@ break
 else
 fall
 through
+MOZ_FALLTHROUGH
+;
 default
 :
 aStringToAppendTo
@@ -711,6 +713,8 @@ break
 else
 fall
 through
+MOZ_FALLTHROUGH
+;
 default
 :
 i
@@ -3645,11 +3649,8 @@ RFC2396E
 =
 unchecked
 ;
-/
-/
-no
-break
-here
+MOZ_FALLTHROUGH
+;
 case
 '
 .

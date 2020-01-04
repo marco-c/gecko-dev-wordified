@@ -3611,13 +3611,8 @@ stop
 =
 true
 ;
-/
-/
-fall
-through
-.
-.
-.
+MOZ_FALLTHROUGH
+;
 case
 '
 /

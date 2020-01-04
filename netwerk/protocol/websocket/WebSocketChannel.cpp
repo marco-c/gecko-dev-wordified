@@ -13732,6 +13732,8 @@ into
 binary
 string
 case
+MOZ_FALLTHROUGH
+;
 case
 kMsgTypeBinaryString
 :

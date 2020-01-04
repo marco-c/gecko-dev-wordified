@@ -7475,6 +7475,8 @@ the
 next
 upgrade
 .
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -7834,6 +7836,8 @@ the
 next
 upgrade
 .
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -8547,6 +8551,8 @@ the
 next
 upgrade
 .
+MOZ_FALLTHROUGH
+;
 case
 4
 :
@@ -8929,6 +8935,8 @@ the
 next
 upgrade
 .
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -9371,6 +9379,8 @@ version
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 6
 :
@@ -9759,6 +9769,8 @@ rv
 RESULT_RETRY
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 COOKIES_SCHEMA_VERSION
 :
@@ -9888,6 +9900,8 @@ through
 to
 downgrade
 check
+MOZ_FALLTHROUGH
+;
 /
 /
 downgrading
