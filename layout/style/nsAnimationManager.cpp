@@ -2631,13 +2631,6 @@ collection
 collection
 -
 >
-mStyleRule
-=
-nullptr
-;
-collection
--
->
 mStyleRuleRefreshTime
 =
 TimeStamp
