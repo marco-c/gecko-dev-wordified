@@ -850,6 +850,13 @@ FILTERNODESETINPUT
 +
 1
 ;
+virtual
+~
+RecordedEvent
+(
+)
+{
+}
 static
 std
 :
