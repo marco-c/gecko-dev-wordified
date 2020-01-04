@@ -14814,6 +14814,14 @@ pattern
 )
 )
 ;
+if
+(
+!
+pat
+)
+return
+nullptr
+;
 size_t
 patternLength
 =
