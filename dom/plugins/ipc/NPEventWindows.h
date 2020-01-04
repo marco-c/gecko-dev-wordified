@@ -196,6 +196,9 @@ windowpos
 }
 lParamData
 ;
+double
+contentsScaleFactor
+;
 }
 ;
 }

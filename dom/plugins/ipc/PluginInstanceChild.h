@@ -1841,6 +1841,12 @@ defined
 (
 XP_DARWIN
 )
+|
+|
+defined
+(
+XP_WIN
+)
 double
 mContentsScaleFactor
 ;
