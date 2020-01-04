@@ -14637,7 +14637,7 @@ obj_enumerate
 nullptr
 /
 *
-thisObject
+thisValue
 *
 /
 \

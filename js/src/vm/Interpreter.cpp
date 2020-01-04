@@ -3658,7 +3658,7 @@ We
 must
 call
 the
-thisObject
+thisValue
 hook
 in
 case

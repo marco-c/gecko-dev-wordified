@@ -6836,7 +6836,7 @@ obj_enumerate
 nullptr
 /
 *
-thisObject
+thisValue
 *
 /
 }
@@ -11610,7 +11610,7 @@ obj_enumerate
 nullptr
 /
 *
-thisObject
+thisValue
 *
 /
 }

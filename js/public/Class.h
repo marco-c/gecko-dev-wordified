@@ -5499,7 +5499,7 @@ watch
 *
 unwatch
 and
-thisObject
+thisValue
 (
 don
 '

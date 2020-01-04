@@ -46100,13 +46100,13 @@ it
 should
 have
 a
-thisObject
+thisValue
 hook
 that
 returns
 the
-*
 appropriate
+*
 outer
 object
 .

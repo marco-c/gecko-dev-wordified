@@ -34697,12 +34697,10 @@ override
 getAliasSet
 :
 the
-thisObject
+thisValue
 hook
 can
 be
-/
-/
 effectful
 .
 }
