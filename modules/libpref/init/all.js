@@ -4943,6 +4943,7 @@ allowed
 "
 MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
+MediaCannotInitializePulseAudio
 "
 )
 ;
