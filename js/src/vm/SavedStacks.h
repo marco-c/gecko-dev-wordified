@@ -2418,7 +2418,6 @@ source
 )
 ;
 return
-!
 IsAboutToBeFinalized
 (
 &
