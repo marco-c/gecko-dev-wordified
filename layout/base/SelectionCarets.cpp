@@ -2945,7 +2945,7 @@ endFrame
 nsRect
 selectionRectInRootFrame
 =
-nsContentUtils
+nsLayoutUtils
 :
 :
 GetSelectionBoundingRect
@@ -6151,7 +6151,7 @@ Flush_Layout
 nsRect
 rect
 =
-nsContentUtils
+nsLayoutUtils
 :
 :
 GetSelectionBoundingRect

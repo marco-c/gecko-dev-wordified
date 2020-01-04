@@ -5418,7 +5418,7 @@ doc
 nsRect
 rect
 =
-nsContentUtils
+nsLayoutUtils
 :
 :
 GetSelectionBoundingRect
