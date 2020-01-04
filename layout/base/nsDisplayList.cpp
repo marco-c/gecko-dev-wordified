@@ -11798,7 +11798,7 @@ presShell
 presContext
 -
 >
-GetPresShell
+PresShell
 (
 )
 ;
@@ -12008,15 +12008,6 @@ nsIDocument
 *
 document
 =
-nullptr
-;
-if
-(
-presShell
-)
-{
-document
-=
 presShell
 -
 >
@@ -12024,7 +12015,6 @@ GetDocument
 (
 )
 ;
-}
 if
 (
 !
