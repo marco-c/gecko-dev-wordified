@@ -12715,7 +12715,13 @@ false
 }
 }
 return
-true
+!
+sprinter
+-
+>
+hadOutOfMemory
+(
+)
 ;
 }
 static
