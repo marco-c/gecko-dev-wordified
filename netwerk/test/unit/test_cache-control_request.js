@@ -800,7 +800,7 @@ store
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -838,7 +838,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -869,7 +868,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -907,7 +906,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -945,7 +943,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -983,7 +981,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1036,7 +1033,7 @@ store
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1074,7 +1071,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1199,7 +1195,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1237,7 +1233,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1280,7 +1275,7 @@ cache
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1318,7 +1313,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1443,7 +1437,7 @@ resource_age_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1481,7 +1475,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1530,7 +1523,7 @@ age
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1568,7 +1561,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1635,7 +1627,7 @@ stale
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1673,7 +1665,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1723,7 +1714,7 @@ age
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1761,7 +1752,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1877,7 +1867,7 @@ resource_stale_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1936,7 +1926,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -1982,7 +1971,7 @@ resource_stale_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2022,7 +2011,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2059,7 +2047,7 @@ stale
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2099,7 +2087,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2141,7 +2128,7 @@ stale
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2181,7 +2168,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2234,7 +2220,7 @@ stale
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2272,7 +2258,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2388,7 +2373,7 @@ resource_fresh_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2426,7 +2411,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2462,7 +2446,7 @@ resource_fresh_100_url
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2500,7 +2484,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2541,7 +2524,7 @@ fresh
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2579,7 +2562,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2617,7 +2599,7 @@ fresh
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2655,7 +2637,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2798,7 +2779,7 @@ fresh
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2836,7 +2817,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
@@ -2870,7 +2850,7 @@ fresh
 ;
 ch
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2908,7 +2888,6 @@ run_next_test
 }
 null
 )
-null
 )
 ;
 }
