@@ -152,9 +152,9 @@ mozilla
 .
 gecko
 .
-telemetry
+util
 .
-TelemetryPingFromStore
+FileUtils
 ;
 import
 org
@@ -165,7 +165,7 @@ gecko
 .
 util
 .
-FileUtils
+StringUtils
 ;
 import
 java
@@ -411,7 +411,6 @@ link
 #
 storePing
 (
-long
 TelemetryPing
 )
 }
@@ -507,6 +506,10 @@ final
 String
 LOGTAG
 =
+StringUtils
+.
+safeSubstring
+(
 "
 Gecko
 "
@@ -517,6 +520,9 @@ class
 .
 getSimpleName
 (
+)
+0
+23
 )
 ;
 VisibleForTesting
@@ -769,9 +775,6 @@ void
 storePing
 (
 final
-long
-uniqueID
-final
 TelemetryPing
 ping
 )
@@ -862,7 +865,11 @@ FileOutputStream
 (
 getPingFile
 (
-uniqueID
+ping
+.
+getUniqueID
+(
+)
 )
 false
 )
@@ -1153,7 +1160,7 @@ Override
 public
 ArrayList
 <
-TelemetryPingFromStore
+TelemetryPing
 >
 getAllPings
 (
@@ -1178,7 +1185,7 @@ PingFileFilter
 final
 ArrayList
 <
-TelemetryPingFromStore
+TelemetryPing
 >
 out
 =
@@ -1467,7 +1474,7 @@ out
 add
 (
 new
-TelemetryPingFromStore
+TelemetryPing
 (
 url
 payload
@@ -1936,7 +1943,7 @@ redundant
 closed
 when
 the
-steram
+stream
 is
 closed
 but

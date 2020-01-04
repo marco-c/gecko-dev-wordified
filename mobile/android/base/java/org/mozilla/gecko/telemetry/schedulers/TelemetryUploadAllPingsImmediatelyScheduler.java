@@ -179,7 +179,7 @@ scheduleUpload
 (
 final
 Context
-context
+applicationContext
 final
 TelemetryPingStore
 store
@@ -201,7 +201,7 @@ i
 .
 setClass
 (
-context
+applicationContext
 TelemetryUploadService
 .
 class
@@ -217,7 +217,7 @@ EXTRA_STORE
 store
 )
 ;
-context
+applicationContext
 .
 startService
 (
