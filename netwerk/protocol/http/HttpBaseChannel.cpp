@@ -505,10 +505,6 @@ mApplyConversion
 (
 true
 )
-mHaveListenerForTraceableChannel
-(
-false
-)
 mCanceled
 (
 false
@@ -15552,10 +15548,6 @@ _retval
 mListener
 =
 aListener
-;
-mHaveListenerForTraceableChannel
-=
-true
 ;
 return
 NS_OK
