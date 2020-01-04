@@ -20832,6 +20832,10 @@ const
 nsStyleDisplay
 *
 aDisp
+const
+nsStyleEffects
+*
+aEffects
 nsRect
 *
 aRect
