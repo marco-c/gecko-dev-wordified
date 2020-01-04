@@ -2019,6 +2019,7 @@ TabManager
 getTab
 (
 tabId
+context
 )
 :
 null
@@ -2061,6 +2062,7 @@ TabManager
 getTab
 (
 tabId
+context
 )
 :
 null
@@ -2107,6 +2109,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2191,6 +2194,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2247,6 +2251,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2312,6 +2317,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2360,6 +2366,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2416,6 +2423,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2527,6 +2535,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2583,6 +2592,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
@@ -2686,6 +2696,7 @@ getTab
 details
 .
 tabId
+context
 )
 :
 null
