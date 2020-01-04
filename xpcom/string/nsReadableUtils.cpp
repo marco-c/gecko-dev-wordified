@@ -203,8 +203,7 @@ void
 LossyCopyUTF16toASCII
 (
 const
-char16_t
-*
+char16ptr_t
 aSource
 nsACString
 &
@@ -416,8 +415,7 @@ void
 CopyUTF16toUTF8
 (
 const
-char16_t
-*
+char16ptr_t
 aSource
 nsACString
 &
@@ -736,8 +734,7 @@ void
 LossyAppendUTF16toASCII
 (
 const
-char16_t
-*
+char16ptr_t
 aSource
 nsACString
 &
@@ -1327,8 +1324,7 @@ void
 AppendUTF16toUTF8
 (
 const
-char16_t
-*
+char16ptr_t
 aSource
 nsACString
 &
