@@ -279,7 +279,7 @@ p
 =
 mallocx
 (
-arena_maxclass
+large_maxclass
 +
 1
 0
@@ -619,7 +619,7 @@ large
 =
 mallocx
 (
-arena_maxclass
+large_maxclass
 0
 )
 ;
@@ -1374,7 +1374,7 @@ p
 =
 mallocx
 (
-arena_maxclass
+large_maxclass
 0
 )
 ;

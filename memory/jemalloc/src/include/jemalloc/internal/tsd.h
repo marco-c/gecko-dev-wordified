@@ -1265,6 +1265,7 @@ a_name
 #
 tsd_boot1
 (
+void
 )
 \
 {
@@ -1506,6 +1507,7 @@ a_name
 #
 tsd_boot1
 (
+void
 )
 \
 {
@@ -2212,6 +2214,7 @@ a_name
 #
 tsd_boot1
 (
+void
 )
 \
 {
@@ -3025,6 +3028,7 @@ a_name
 #
 tsd_boot1
 (
+void
 )
 \
 {

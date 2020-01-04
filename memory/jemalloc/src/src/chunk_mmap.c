@@ -112,12 +112,9 @@ commit
 void
 *
 ret
-*
-pages
 ;
 size_t
 alloc_size
-leadsize
 ;
 alloc_size
 =
@@ -150,6 +147,13 @@ NULL
 ;
 do
 {
+void
+*
+pages
+;
+size_t
+leadsize
+;
 pages
 =
 pages_map

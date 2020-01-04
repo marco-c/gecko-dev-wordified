@@ -731,7 +731,7 @@ test_junk
 SMALL_MAXCLASS
 +
 1
-arena_maxclass
+large_maxclass
 )
 ;
 }
@@ -749,7 +749,7 @@ config_fill
 ;
 test_junk
 (
-arena_maxclass
+large_maxclass
 +
 1
 chunksize
@@ -837,7 +837,7 @@ usize
 assert_zu_eq
 (
 old_usize
-arena_maxclass
+large_maxclass
 "
 Unexpected
 old_usize
@@ -849,7 +849,7 @@ assert_zu_eq
 usize
 shrink_size
 (
-arena_maxclass
+large_maxclass
 )
 "
 Unexpected
@@ -877,7 +877,7 @@ p1
 =
 mallocx
 (
-arena_maxclass
+large_maxclass
 0
 )
 ;
@@ -908,7 +908,7 @@ rallocx
 p1
 shrink_size
 (
-arena_maxclass
+large_maxclass
 )
 0
 )
