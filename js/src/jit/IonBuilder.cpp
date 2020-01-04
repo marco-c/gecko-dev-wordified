@@ -33628,9 +33628,7 @@ if
 clonedTypes
 )
 return
-oom
-(
-)
+false
 ;
 MTypeBarrier
 *
