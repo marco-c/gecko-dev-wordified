@@ -154,7 +154,7 @@ MOZ_HIDE_RESULTS_TABLE
 '
             
 '
-NSPR_LOG_MODULES
+MOZ_LOG
 '
 :
 '
