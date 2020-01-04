@@ -167,6 +167,9 @@ HttpChannelChild
 class
 nsHttpResponseHead
 ;
+class
+InterceptStreamListener
+;
 /
 /
 An
@@ -608,9 +611,9 @@ the
 actual
 channel
 .
-nsCOMPtr
+RefPtr
 <
-nsIStreamListener
+InterceptStreamListener
 >
 mStreamListener
 ;
@@ -624,7 +627,7 @@ aChannel
 nsINetworkInterceptController
 *
 aController
-nsIStreamListener
+InterceptStreamListener
 *
 aListener
 )
