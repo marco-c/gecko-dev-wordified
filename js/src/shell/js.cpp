@@ -15498,7 +15498,11 @@ input
 PR_PRIORITY_NORMAL
 PR_GLOBAL_THREAD
 PR_JOINABLE_THREAD
-0
+gMaxStackSize
++
+128
+*
+1024
 )
 ;
 if
@@ -38913,6 +38917,12 @@ gZealStr
 ;
 #
 endif
+JS_SetNativeStackQuota
+(
+rt
+gMaxStackSize
+)
+;
 }
 static
 int
