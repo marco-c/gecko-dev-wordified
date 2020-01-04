@@ -1518,6 +1518,13 @@ aSurrogate
 nullptr
 )
 ;
+virtual
+bool
+RecvPluginDidSetCursor
+(
+)
+override
+;
 private
 :
 /

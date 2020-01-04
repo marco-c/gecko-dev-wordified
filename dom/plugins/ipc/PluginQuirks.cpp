@@ -229,6 +229,11 @@ quirks
 =
 QUIRK_FLASH_FIXUP_MOUSE_CAPTURE
 ;
+quirks
+|
+=
+QUIRK_FLASH_FIXUP_MOUSE_CURSOR
+;
 #
 endif
 }
