@@ -1719,6 +1719,8 @@ maxLevel
 uint32_t
 MaxEffectiveMipmapLevel
 (
+uint32_t
+texUnit
 )
 const
 ;
@@ -2100,6 +2102,8 @@ const
 bool
 IsMipmapComplete
 (
+uint32_t
+texUnit
 )
 const
 ;
@@ -2112,6 +2116,8 @@ const
 bool
 IsComplete
 (
+uint32_t
+texUnit
 const
 char
 *

@@ -1769,6 +1769,13 @@ texTarget
 )
 ;
 }
+void
+InvalidateResolveCacheForTextureWithTexUnit
+(
+const
+GLuint
+)
+;
 already_AddRefed
 <
 Layer
