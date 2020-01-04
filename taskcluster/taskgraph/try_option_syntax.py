@@ -189,6 +189,10 @@ static
 -
 analysis
 '
+    
+'
+spidermonkey
+'
 ]
 )
 #
