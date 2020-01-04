@@ -104,9 +104,6 @@ current
 -
 work
 '
-"
-r
-"
 )
 encoding
 =
