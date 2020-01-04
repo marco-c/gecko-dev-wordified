@@ -8402,6 +8402,10 @@ mDidFireDOMContentLoaded
 (
 true
 )
+mUserHasInteracted
+(
+false
+)
 {
 SetInDocument
 (
