@@ -439,6 +439,11 @@ locales
 self
 .
 buildbot_config
+[
+'
+properties
+'
+]
 .
 get
 (
@@ -2084,7 +2089,7 @@ locale
 )
                 
 '
-tag
+revision
 '
 :
 tag
