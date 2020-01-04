@@ -204,7 +204,7 @@ onload
 >
 {
 let
-background
+color
 =
 window
 .
@@ -215,7 +215,7 @@ document
 body
 )
 .
-backgroundColor
+color
 ;
 browser
 .
@@ -226,12 +226,12 @@ assertEq
 "
 rgb
 (
-252
-252
-252
+34
+36
+38
 )
 "
-background
+color
 )
 ;
 browser
