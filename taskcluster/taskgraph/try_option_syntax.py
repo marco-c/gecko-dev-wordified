@@ -155,6 +155,10 @@ BUILD_KINDS
 set
 (
 [
+    
+'
+build
+'
 ]
 )
 #
