@@ -2788,9 +2788,6 @@ funcExports
 [
 i
 ]
-usesMemory
-(
-)
 )
 ;
 if
@@ -2874,9 +2871,6 @@ funcImports
 [
 i
 ]
-usesMemory
-(
-)
 )
 ;
 }
