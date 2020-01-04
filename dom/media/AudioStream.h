@@ -550,7 +550,7 @@ the
 playback
 rate
 )
-int
+uint32_t
 mOutRate
 ;
 /
@@ -567,7 +567,7 @@ media
 being
 played
 )
-int
+uint32_t
 mInRate
 ;
 /
@@ -1755,9 +1755,9 @@ etc
 nsresult
 Init
 (
-int32_t
+uint32_t
 aNumChannels
-int32_t
+uint32_t
 aRate
 const
 dom
@@ -1949,7 +1949,7 @@ IsPaused
 (
 )
 ;
-int
+uint32_t
 GetRate
 (
 )
@@ -1958,7 +1958,7 @@ return
 mOutRate
 ;
 }
-int
+uint32_t
 GetChannels
 (
 )
@@ -1967,7 +1967,7 @@ return
 mChannels
 ;
 }
-int
+uint32_t
 GetOutChannels
 (
 )
@@ -2272,7 +2272,7 @@ media
 being
 played
 )
-int
+uint32_t
 mInRate
 ;
 /
@@ -2288,13 +2288,13 @@ the
 playback
 rate
 )
-int
+uint32_t
 mOutRate
 ;
-int
+uint32_t
 mChannels
 ;
-int
+uint32_t
 mOutChannels
 ;
 #

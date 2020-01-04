@@ -453,7 +453,7 @@ servicedFrames
 uint32_t
 totalFrames
 ;
-int
+uint32_t
 rate
 ;
 }
@@ -510,7 +510,7 @@ uint32_t
 aServiced
 uint32_t
 aUnderrun
-int
+uint32_t
 aRate
 )
 {
@@ -2006,9 +2006,9 @@ AudioStream
 :
 Init
 (
-int32_t
+uint32_t
 aNumChannels
-int32_t
+uint32_t
 aRate
 const
 dom
@@ -2045,16 +2045,6 @@ CubebUtils
 GetCubebContext
 (
 )
-|
-|
-aNumChannels
-<
-0
-|
-|
-aRate
-<
-0
 )
 {
 return
@@ -4545,7 +4535,7 @@ mOutRate
 =
 static_cast
 <
-int
+uint32_t
 >
 (
 mInRate
