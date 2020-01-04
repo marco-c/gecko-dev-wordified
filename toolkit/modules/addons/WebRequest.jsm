@@ -3703,8 +3703,7 @@ opts
 blocking
 )
 {
-return
-true
+continue
 ;
 }
 if
