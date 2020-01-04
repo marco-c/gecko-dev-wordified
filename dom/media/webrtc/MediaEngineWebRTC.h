@@ -598,6 +598,7 @@ in
 MediaManager
 .
 cpp
+*
 aOutHandle
 =
 nullptr

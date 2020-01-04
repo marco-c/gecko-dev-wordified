@@ -1143,6 +1143,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
+*
 aOutHandle
 =
 nullptr
