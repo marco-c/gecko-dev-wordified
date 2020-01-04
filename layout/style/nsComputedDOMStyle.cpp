@@ -33579,7 +33579,7 @@ firstLayer
 mOrigin
 !
 =
-NS_STYLE_IMAGELAYER_ORIGIN_PADDING
+NS_STYLE_IMAGELAYER_ORIGIN_BORDER
 |
 |
 firstLayer
@@ -33615,6 +33615,13 @@ mRepeat
 .
 IsInitialValue
 (
+nsStyleImageLayers
+:
+:
+LayerType
+:
+:
+Mask
 )
 |
 |
