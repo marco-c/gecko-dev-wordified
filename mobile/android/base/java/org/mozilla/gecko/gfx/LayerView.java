@@ -856,7 +856,7 @@ this
 ;
 GeckoAccessibility
 .
-setAccessibilityManagerListeners
+setAccessibilityStateChangeListener
 (
 getContext
 (
