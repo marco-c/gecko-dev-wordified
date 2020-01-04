@@ -479,6 +479,12 @@ Destroy
 (
 )
 {
+mVRDevices
+.
+Clear
+(
+)
+;
 for
 (
 uint32_t
