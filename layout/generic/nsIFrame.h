@@ -698,6 +698,9 @@ EventStates
 struct
 ReflowInput
 ;
+class
+nsHTMLReflowMetrics
+;
 namespace
 layers
 {
@@ -3386,6 +3389,14 @@ mozilla
 :
 :
 ReflowInput
+;
+using
+nsHTMLReflowMetrics
+=
+mozilla
+:
+:
+nsHTMLReflowMetrics
 ;
 using
 Visibility

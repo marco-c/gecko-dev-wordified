@@ -280,6 +280,9 @@ aStretchDirection
 nsBoundingMetrics
 &
 aContainerSize
+mozilla
+:
+:
 nsHTMLReflowMetrics
 &
 aDesiredStretchSize

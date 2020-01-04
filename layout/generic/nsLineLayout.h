@@ -265,6 +265,14 @@ mozilla
 :
 ReflowInput
 ;
+using
+nsHTMLReflowMetrics
+=
+mozilla
+:
+:
+nsHTMLReflowMetrics
+;
 public
 :
 /

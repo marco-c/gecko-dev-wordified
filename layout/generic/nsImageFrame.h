@@ -198,9 +198,6 @@ class
 nsILoadGroup
 ;
 class
-nsHTMLReflowMetrics
-;
-class
 nsDisplayImage
 ;
 class
