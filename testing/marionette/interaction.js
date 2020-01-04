@@ -477,6 +477,7 @@ el
 ;
 if
 (
+!
 visible
 )
 {
