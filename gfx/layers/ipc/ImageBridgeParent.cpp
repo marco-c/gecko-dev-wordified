@@ -581,6 +581,12 @@ ProcessId
 aChildProcessId
 )
 :
+CompositableParentManager
+(
+"
+ImageBridgeParent
+"
+)
 mMessageLoop
 (
 aLoop
