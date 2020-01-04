@@ -809,6 +809,9 @@ yield
 "
 genFunExpr
 (
+"
+legacy
+"
 null
 [
 ]

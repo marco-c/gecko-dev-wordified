@@ -260,6 +260,7 @@ false
 function
 genFunDecl
 (
+style
 id
 params
 body
@@ -290,6 +291,9 @@ body
 generator
 :
 true
+style
+:
+style
 }
 )
 ;
@@ -1165,6 +1169,7 @@ false
 function
 genFunExpr
 (
+style
 id
 args
 body
@@ -1191,6 +1196,9 @@ body
 generator
 :
 true
+style
+:
+style
 }
 )
 ;
