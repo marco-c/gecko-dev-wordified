@@ -110,8 +110,8 @@ owned_critical_section
 (
 )
 #
-ifdef
-DEBUG
+ifndef
+NDEBUG
 :
 owner
 (
@@ -151,8 +151,8 @@ critical_section
 )
 ;
 #
-ifdef
-DEBUG
+ifndef
+NDEBUG
 XASSERT
 (
 owner
@@ -184,8 +184,8 @@ leave
 )
 {
 #
-ifdef
-DEBUG
+ifndef
+NDEBUG
 /
 *
 GetCurrentThreadId
@@ -244,8 +244,8 @@ assert_current_thread_owns
 )
 {
 #
-ifdef
-DEBUG
+ifndef
+NDEBUG
 /
 *
 This
@@ -281,8 +281,8 @@ CRITICAL_SECTION
 critical_section
 ;
 #
-ifdef
-DEBUG
+ifndef
+NDEBUG
 DWORD
 owner
 ;

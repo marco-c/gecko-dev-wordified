@@ -51,6 +51,13 @@ h
 "
 #
 include
+"
+cubeb_log
+.
+h
+"
+#
+include
 <
 stdio
 .
