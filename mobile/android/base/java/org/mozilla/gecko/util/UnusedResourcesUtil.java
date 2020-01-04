@@ -197,6 +197,11 @@ R
 .
 drawable
 .
+network_offline
+R
+.
+drawable
+.
 pause
 R
 .
