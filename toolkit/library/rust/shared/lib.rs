@@ -58,13 +58,9 @@ MPL
 .
 extern
 crate
-gkrust_shared
+mp4parse_capi
 ;
 extern
 crate
-mp4parse_gtest
-;
-extern
-crate
-nsstring_gtest
+nsstring
 ;

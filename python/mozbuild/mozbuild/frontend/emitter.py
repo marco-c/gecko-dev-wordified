@@ -3174,7 +3174,7 @@ crate_type
 !
 =
 '
-rlib
+staticlib
 '
 :
             
@@ -3386,6 +3386,26 @@ profile_name
 context
 )
         
+dependencies
+=
+set
+(
+config
+.
+get
+(
+'
+dependencies
+'
+{
+}
+)
+.
+iterkeys
+(
+)
+)
+        
 return
 RustLibrary
 (
@@ -3393,6 +3413,8 @@ context
 libname
 cargo_file
 crate_type
+                           
+dependencies
 *
 *
 static_args
