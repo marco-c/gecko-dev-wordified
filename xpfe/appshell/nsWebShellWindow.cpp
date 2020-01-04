@@ -813,7 +813,7 @@ CSS
 XUL
 /
 RDF
-nsIntRect
+LayoutDeviceIntRect
 r
 (
 initialX
@@ -1051,6 +1051,10 @@ Native
 parent
 widget
 r
+.
+ToUnknownRect
+(
+)
 /
 /
 Widget
@@ -1067,7 +1071,7 @@ data
 mWindow
 -
 >
-GetClientBoundsUntyped
+GetClientBounds
 (
 r
 )
