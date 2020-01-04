@@ -1198,6 +1198,9 @@ SPSProfiler
 :
 enter
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -1224,9 +1227,16 @@ str
 =
 nullptr
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 #
 ifdef
 DEBUG

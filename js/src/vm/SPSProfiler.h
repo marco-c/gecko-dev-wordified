@@ -1533,6 +1533,9 @@ made
 bool
 enter
 (
+JSContext
+*
+cx
 JSScript
 *
 script
