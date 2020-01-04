@@ -475,6 +475,7 @@ nsDocLoader
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -539,6 +540,7 @@ docloader
 service
 .
 static
+MOZ_MUST_USE
 nsresult
 AddDocLoaderAsChildOfRoot
 (
@@ -599,6 +601,7 @@ mParent
 /
 pointer
 .
+MOZ_MUST_USE
 nsresult
 RemoveChildLoader
 (
@@ -631,6 +634,7 @@ to
 this
 |
 .
+MOZ_MUST_USE
 nsresult
 AddChildLoader
 (
@@ -713,6 +717,7 @@ nsDocLoader
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 SetDocLoaderParent
 (
@@ -997,6 +1002,7 @@ uint32_t
 aFlags
 )
 ;
+MOZ_MUST_USE
 bool
 RefreshAttempted
 (
@@ -1150,6 +1156,7 @@ onload
 /
 handler
 .
+MOZ_MUST_USE
 bool
 ChildEnteringOnload
 (
