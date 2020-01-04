@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsIStyleSheet
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h

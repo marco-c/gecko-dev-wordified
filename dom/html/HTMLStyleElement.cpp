@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsIStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

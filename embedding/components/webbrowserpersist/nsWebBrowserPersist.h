@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDocumentEncoder
 .
 h

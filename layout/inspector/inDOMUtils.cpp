@@ -647,9 +647,12 @@ NS_ENSURE_ARG_POINTER
 aDocument
 )
 ;
-nsCOMArray
+nsTArray
 <
-nsIStyleSheet
+RefPtr
+<
+CSSStyleSheet
+>
 >
 sheets
 ;
@@ -937,7 +940,7 @@ moz_xmalloc
 (
 sheets
 .
-Count
+Length
 (
 )
 *
@@ -951,7 +954,7 @@ nsISupports
 ;
 for
 (
-int32_t
+size_t
 i
 =
 0
@@ -960,7 +963,7 @@ i
 <
 sheets
 .
-Count
+Length
 (
 )
 ;
@@ -976,10 +979,15 @@ ret
 i
 ]
 =
+NS_ISUPPORTS_CAST
+(
+nsIDOMCSSStyleSheet
+*
 sheets
 [
 i
 ]
+)
 )
 ;
 }
@@ -988,7 +996,7 @@ aLength
 =
 sheets
 .
-Count
+Length
 (
 )
 ;
