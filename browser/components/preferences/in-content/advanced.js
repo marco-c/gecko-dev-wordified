@@ -354,7 +354,7 @@ initTelemetry
 ;
 #
 ifdef
-MOZ_SERVICES_HEALTHREPORT
+MOZ_TELEMETRY_REPORTING
 this
 .
 initSubmitHealthReport
@@ -419,7 +419,7 @@ tabSelectionChanged
 ;
 #
 ifdef
-MOZ_SERVICES_HEALTHREPORT
+MOZ_TELEMETRY_REPORTING
 setEventListener
 (
 "
@@ -1906,7 +1906,7 @@ endif
 }
 #
 ifdef
-MOZ_SERVICES_HEALTHREPORT
+MOZ_TELEMETRY_REPORTING
 /
 *
 *
