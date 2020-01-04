@@ -1198,6 +1198,9 @@ fontFound
 true
 ;
 }
+if
+(
+!
 aU16FullNames
 .
 append
@@ -1207,7 +1210,12 @@ Move
 name
 )
 )
+)
+{
+return
+false
 ;
+}
 }
 return
 fontFound

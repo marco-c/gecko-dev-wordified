@@ -219,6 +219,9 @@ int32_t
 aDefault
 )
 {
+if
+(
+!
 Int32Prefs
 (
 )
@@ -231,7 +234,13 @@ aName
 aVar
 }
 )
+)
+{
+MOZ_CRASH
+(
+)
 ;
+}
 return
 aDefault
 ;
