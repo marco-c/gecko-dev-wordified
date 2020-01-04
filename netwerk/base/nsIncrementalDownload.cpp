@@ -133,6 +133,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsIIncrementalDownload
 .
 h
@@ -1021,6 +1030,9 @@ nsITimer
 >
 mTimer
 ;
+mozilla
+:
+:
 UniquePtr
 <
 char
@@ -3919,6 +3931,9 @@ diff
 ;
 mChunk
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char
