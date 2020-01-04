@@ -10659,7 +10659,7 @@ StartTouch
 (
 aEvent
 .
-mFocusPoint
+mLocalFocusPoint
 .
 x
 aEvent
@@ -10673,7 +10673,7 @@ StartTouch
 (
 aEvent
 .
-mFocusPoint
+mLocalFocusPoint
 .
 y
 aEvent
