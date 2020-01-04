@@ -442,12 +442,6 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
-RefPtr
-<
-gfxASurface
->
-mPrintingSurface
-;
 }
 ;
 /
