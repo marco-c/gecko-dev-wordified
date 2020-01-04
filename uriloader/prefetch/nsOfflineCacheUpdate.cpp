@@ -6004,7 +6004,6 @@ n
 '
 )
 {
-nsresult
 rv
 =
 manifest
