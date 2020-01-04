@@ -2446,7 +2446,7 @@ Display
 *
 mXDisplay
 ;
-Drawable
+Window
 mXWindow
 ;
 Visual
