@@ -988,13 +988,7 @@ aPreviousBlock
 nsIDOMNode
 *
 aNewBlock
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIDOMNode
 *
 *
 aOutBrNode
