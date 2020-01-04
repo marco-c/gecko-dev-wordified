@@ -7241,13 +7241,7 @@ APZCTreeManager
 :
 SetAllowedTouchBehavior
 aInputBlockId
-nsTArray
-<
-TouchBehaviorFlags
->
-(
 aFlags
-)
 )
 )
 ;
@@ -7472,13 +7466,7 @@ get
 )
 setTargetApzcFunc
 aInputBlockId
-nsTArray
-<
-ScrollableLayerGuid
->
-(
 aTargets
-)
 )
 )
 ;
@@ -10423,7 +10411,7 @@ nsBaseWidget
 :
 ShowsResizeIndicator
 (
-nsIntRect
+LayoutDeviceIntRect
 *
 aResizerRect
 )
