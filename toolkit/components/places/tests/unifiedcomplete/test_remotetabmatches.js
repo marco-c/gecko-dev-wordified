@@ -764,6 +764,12 @@ Example
 icon
 :
 "
+moz
+-
+anno
+:
+favicon
+:
 http
 :
 /
