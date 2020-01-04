@@ -10283,6 +10283,11 @@ MaybeRescheduleAnimationFrameNotifications
 (
 )
 ;
+void
+ClearAllBoxObjects
+(
+)
+;
 /
 /
 Returns
