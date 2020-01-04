@@ -4480,7 +4480,7 @@ Prefs
 ignore
 (
 "
-clients
+client
 .
 name
 "
