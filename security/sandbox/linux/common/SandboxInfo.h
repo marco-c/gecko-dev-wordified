@@ -348,6 +348,17 @@ kHasPrivilegedUserNamespaces
 <
 <
 6
+/
+/
+Env
+var
+MOZ_PERMISSIVE_CONTENT_SANDBOX
+kPermissive
+=
+1
+<
+<
+7
 }
 ;
 bool
