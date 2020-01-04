@@ -188,14 +188,15 @@ yasm
 ]
         
 if
+not
 self
 .
-flavor
-=
-=
+which
+(
 '
-dragonfly
+unzip
 '
+)
 :
             
 self
