@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -1663,7 +1672,7 @@ const
 int32_t
 iteratorAliasMethodIndex
 ;
-constexpr
+MOZ_CONSTEXPR
 const
 NativePropertiesN
 <
