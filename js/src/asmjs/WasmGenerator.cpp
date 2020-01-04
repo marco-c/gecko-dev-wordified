@@ -3559,12 +3559,8 @@ finish
 (
 HeapUsage
 heapUsage
-MutedErrorsBool
-mutedErrors
 CacheableChars
 filename
-CacheableTwoByteChars
-displayURL
 UniqueModuleData
 *
 module
@@ -3593,13 +3589,6 @@ module_
 heapUsage
 =
 heapUsage
-;
-module_
--
->
-mutedErrors
-=
-mutedErrors
 ;
 module_
 -

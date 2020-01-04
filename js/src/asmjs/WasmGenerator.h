@@ -1223,12 +1223,8 @@ finish
 (
 HeapUsage
 heapUsage
-MutedErrorsBool
-mutedErrors
 CacheableChars
 filename
-CacheableTwoByteChars
-displayURL
 UniqueModuleData
 *
 module
