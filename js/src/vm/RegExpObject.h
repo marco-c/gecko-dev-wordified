@@ -1886,6 +1886,17 @@ RegExp
 .
 prototype
 .
+flags
+getter
+is
+not
+modified
+*
+*
+RegExp
+.
+prototype
+.
 global
 getter
 is

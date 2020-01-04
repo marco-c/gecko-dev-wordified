@@ -919,6 +919,10 @@ script
 /
 /
 *
+flags
+/
+/
+*
 global
 /
 /
