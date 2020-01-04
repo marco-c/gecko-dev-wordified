@@ -945,6 +945,13 @@ mImageHost
 mImageHost
 -
 >
+CleanupResources
+(
+)
+;
+mImageHost
+-
+>
 Detach
 (
 this
