@@ -5040,6 +5040,7 @@ know
 the
 type
 .
+MOZ_UBSAN_BLACKLIST_FUNCTION
 static
 void
 TraceWrapped
