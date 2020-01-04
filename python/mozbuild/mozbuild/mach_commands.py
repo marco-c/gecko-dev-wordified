@@ -12555,58 +12555,21 @@ return
 artifacts
     
 def
-_compute_defaults
+_compute_platform
 (
 self
-tree
-=
-None
 job
 =
 None
 )
 :
-        
-#
-Firefox
-front
--
-end
-developers
-mostly
-use
-fx
--
-team
-.
-Post
-auto
--
-land
-make
-this
-central
-.
-        
-tree
-=
-tree
-or
-'
-fx
--
-team
-'
         
 if
 job
 :
             
 return
-(
-tree
 job
-)
         
 if
 self
@@ -12647,7 +12610,6 @@ x86
 :
                 
 return
-tree
 '
 android
 -
@@ -12655,7 +12617,6 @@ x86
 '
             
 return
-tree
 '
 android
 -
@@ -12708,7 +12669,6 @@ False
 :
             
 return
-tree
 '
 linux64
 '
@@ -12728,7 +12688,6 @@ False
 :
             
 return
-tree
 '
 macosx64
 '
@@ -12748,7 +12707,6 @@ False
 :
             
 return
-tree
 '
 win32
 '
@@ -12888,14 +12846,12 @@ _set_log_level
 verbose
 )
         
-tree
 job
 =
 self
 .
-_compute_defaults
+_compute_platform
 (
-tree
 job
 )
         
@@ -13102,14 +13058,12 @@ _set_log_level
 verbose
 )
         
-tree
 job
 =
 self
 .
-_compute_defaults
+_compute_platform
 (
-tree
 job
 )
         
@@ -13181,14 +13135,12 @@ _set_log_level
 verbose
 )
         
-tree
 job
 =
 self
 .
-_compute_defaults
+_compute_platform
 (
-tree
 job
 )
         
@@ -13262,14 +13214,12 @@ _set_log_level
 verbose
 )
         
-tree
 job
 =
 self
 .
-_compute_defaults
+_compute_platform
 (
-tree
 job
 )
         
