@@ -148,6 +148,8 @@ mozilla
 MediaRawData
 *
 aSample
+bool
+aAddSPS
 )
 {
 MOZ_ASSERT
@@ -368,6 +370,9 @@ keyframes
 .
 if
 (
+aAddSPS
+&
+&
 aSample
 -
 >
