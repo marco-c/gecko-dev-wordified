@@ -376,7 +376,6 @@ alertText
 ;
 }
 }
-;
 /
 *
 *
@@ -834,7 +833,7 @@ progress
 see
 NotificationHandler
 #
-isProgressStyle
+isOngoing
 (
 int
 )
