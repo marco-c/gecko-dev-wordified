@@ -604,9 +604,10 @@ Step
 5
 if
 (
+GetModuleEnvironment
+(
 module
-.
-environment
+)
 !
 =
 =
@@ -626,9 +627,10 @@ module
 let
 env
 =
+GetModuleEnvironment
+(
 module
-.
-environment
+)
 ;
 /
 /
@@ -839,9 +841,7 @@ importedModule
 /
 CreateNamespaceBinding
 (
-module
-.
-environment
+env
 imp
 .
 localName
