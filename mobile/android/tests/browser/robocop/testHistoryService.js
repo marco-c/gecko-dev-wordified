@@ -412,7 +412,7 @@ url
 /
 /
 Wait
-4
+6
 seconds
 for
 the
@@ -432,6 +432,19 @@ const
 PENDING_VISIT_WAIT
 =
 6000
+;
+/
+/
+Longer
+wait
+required
+after
+first
+load
+const
+PENDING_VISIT_WAIT_LONG
+=
+20000
 ;
 /
 /
@@ -744,7 +757,7 @@ html
 yield
 sleep
 (
-PENDING_VISIT_WAIT
+PENDING_VISIT_WAIT_LONG
 )
 ;
 do_print
