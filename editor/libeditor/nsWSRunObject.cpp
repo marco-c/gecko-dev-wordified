@@ -10265,7 +10265,7 @@ First
 insert
 an
 nbsp
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -12569,7 +12569,7 @@ First
 insert
 a
 space
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -12832,7 +12832,7 @@ the
 ASCII
 ws
 run
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -13077,7 +13077,7 @@ First
 insert
 a
 space
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -13375,7 +13375,7 @@ First
 insert
 a
 space
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor

@@ -4722,7 +4722,7 @@ System
 change
 the
 selection
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -22328,7 +22328,7 @@ aInRange
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this
@@ -27666,7 +27666,7 @@ selection
 this
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this

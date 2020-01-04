@@ -755,7 +755,7 @@ kMozTextInternal
 )
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this

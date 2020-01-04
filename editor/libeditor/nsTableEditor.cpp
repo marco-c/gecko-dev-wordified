@@ -887,7 +887,7 @@ System
 change
 the
 selection
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -1261,7 +1261,7 @@ Rules
 System
 selection
 munging
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -2581,7 +2581,7 @@ Rules
 System
 selection
 munging
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -3356,7 +3356,7 @@ Rules
 System
 selection
 munging
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -4531,7 +4531,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -5268,7 +5268,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -5430,7 +5430,7 @@ System
 change
 the
 selection
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -6967,7 +6967,7 @@ change
 selection
 during
 deletions
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -9970,7 +9970,7 @@ Rules
 System
 selection
 munging
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -11550,7 +11550,7 @@ System
 change
 the
 selection
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this

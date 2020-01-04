@@ -415,6 +415,9 @@ namespace
 mozilla
 {
 class
+AutoTransactionsConserveSelection
+;
+class
 ErrorResult
 ;
 class
@@ -5351,7 +5354,10 @@ serviceMgr
 ;
 friend
 class
-nsAutoTxnsConserveSelection
+mozilla
+:
+:
+AutoTransactionsConserveSelection
 ;
 friend
 class

@@ -3282,7 +3282,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -9286,7 +9286,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -15353,7 +15353,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -18056,7 +18056,7 @@ NameAtom
 ;
 }
 }
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -22928,7 +22928,7 @@ aSelection
 mHTMLEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -41162,7 +41162,7 @@ with
 our
 selection
 !
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor

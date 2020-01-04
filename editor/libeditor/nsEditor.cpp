@@ -8895,7 +8895,7 @@ ret
 )
 ;
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 conserveSelection
 (
 this
@@ -9567,7 +9567,7 @@ nullptr
 )
 ;
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 conserveSelection
 (
 this
@@ -13015,7 +13015,7 @@ must
 have
 already
 used
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 /
 /
 stack

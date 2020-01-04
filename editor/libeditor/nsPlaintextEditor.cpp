@@ -4556,7 +4556,7 @@ my
 selection
 in
 subtransactions
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this
