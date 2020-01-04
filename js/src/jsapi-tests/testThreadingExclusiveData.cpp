@@ -235,6 +235,8 @@ NumThreads
 void
 printDiagnosticMessage
 (
+uint8_t
+bit
 uint64_t
 seen
 )
@@ -252,12 +254,10 @@ stderr
 "
 Thread
 %
-p
+d
 saw
 "
-PR_GetCurrentThread
-(
-)
+bit
 )
 ;
 for
@@ -356,6 +356,10 @@ lock
 ;
 printDiagnosticMessage
 (
+counterAndBit
+-
+>
+bit
 guard
 )
 ;
@@ -412,6 +416,10 @@ lock
 ;
 printDiagnosticMessage
 (
+counterAndBit
+-
+>
+bit
 guard
 )
 ;
