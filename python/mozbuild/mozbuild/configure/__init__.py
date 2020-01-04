@@ -2616,6 +2616,27 @@ remove
 implied_option
 )
             
+if
+(
+implied_option
+.
+when
+and
+                
+not
+self
+.
+_value_for
+(
+implied_option
+.
+when
+)
+)
+:
+                
+continue
+            
 value
 =
 self
@@ -5678,6 +5699,9 @@ value
 reason
 =
 None
+when
+=
+None
 )
 :
         
@@ -6377,6 +6401,28 @@ call
 option
 )
         
+if
+when
+is
+not
+None
+:
+            
+when
+=
+self
+.
+_dependency
+(
+when
+'
+imply_option
+'
+'
+when
+'
+)
+        
 prefix
 name
 values
@@ -6451,6 +6497,10 @@ stack
 reason
 =
 reason
+            
+when
+=
+when
         
 )
 )
