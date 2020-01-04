@@ -489,6 +489,15 @@ false
 )
 ;
 }
+visible
+=
+element
+.
+isInteractable
+(
+el
+)
+;
 }
 else
 {
