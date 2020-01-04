@@ -1597,7 +1597,7 @@ result
 js
 :
 :
-ReportErrorWithId
+ReportASCIIErrorWithId
 (
 cx
 "
@@ -1692,7 +1692,7 @@ result
 js
 :
 :
-ReportErrorWithId
+ReportASCIIErrorWithId
 (
 cx
 "

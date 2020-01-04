@@ -17352,7 +17352,7 @@ JS_FRIEND_API
 (
 void
 )
-ReportErrorWithId
+ReportASCIIErrorWithId
 (
 JSContext
 *
