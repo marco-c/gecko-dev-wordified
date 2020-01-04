@@ -676,7 +676,8 @@ insertMany
 visits
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -689,6 +690,7 @@ visits
 ]
 .
 url
+)
 )
 5
 "
@@ -715,12 +717,14 @@ url
 ;
 ok
 (
+(
 yield
 PlacesTestUtils
 .
 isPageInDB
 (
 testUrl
+)
 )
 "
 expected
@@ -756,7 +760,8 @@ deleted
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -764,6 +769,7 @@ PlacesTestUtils
 isPageInDB
 (
 testUrl
+)
 )
 false
 "
@@ -877,6 +883,7 @@ onVisitRemoved
 ;
 ok
 (
+(
 yield
 PlacesTestUtils
 .
@@ -889,6 +896,7 @@ visits
 .
 url
 )
+)
 "
 expected
 uri
@@ -899,7 +907,8 @@ database
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -912,6 +921,7 @@ visits
 ]
 .
 url
+)
 )
 2
 "
@@ -928,6 +938,7 @@ database
 ;
 ok
 (
+(
 yield
 PlacesTestUtils
 .
@@ -940,6 +951,7 @@ visits
 .
 url
 )
+)
 "
 expected
 uri
@@ -950,7 +962,8 @@ database
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -963,6 +976,7 @@ visits
 ]
 .
 url
+)
 )
 1
 "
@@ -1050,7 +1064,8 @@ deleted
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -1064,6 +1079,7 @@ visits
 .
 url
 )
+)
 false
 "
 expected
@@ -1076,7 +1092,8 @@ database
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -1089,6 +1106,7 @@ visits
 ]
 .
 url
+)
 )
 0
 "
@@ -1103,7 +1121,8 @@ database
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -1117,6 +1136,7 @@ visits
 .
 url
 )
+)
 false
 "
 expected
@@ -1129,7 +1149,8 @@ database
 "
 )
 ;
-is
+equal
+(
 (
 yield
 PlacesTestUtils
@@ -1142,6 +1163,7 @@ visits
 ]
 .
 url
+)
 )
 0
 "
@@ -1158,6 +1180,7 @@ database
 ;
 ok
 (
+(
 yield
 PlacesTestUtils
 .
@@ -1169,6 +1192,7 @@ visits
 ]
 .
 url
+)
 )
 "
 expected
@@ -1208,7 +1232,7 @@ cleared
 "
 )
 ;
-is
+equal
 (
 PlacesUtils
 .
@@ -1223,7 +1247,7 @@ empty
 "
 )
 ;
-is
+equal
 (
 historyClearedCount
 2
@@ -1238,7 +1262,7 @@ history
 "
 )
 ;
-is
+equal
 (
 removedUrls
 .
@@ -1996,7 +2020,7 @@ url
 results
 )
 ;
-isnot
+notEqual
 (
 result
 null
@@ -2012,7 +2036,7 @@ url
 }
 )
 ;
-is
+equal
 (
 result
 .
@@ -2031,7 +2055,7 @@ s
 )
 )
 ;
-is
+equal
 (
 result
 .
@@ -2113,7 +2137,7 @@ search
 "
 )
 ;
-is
+equal
 (
 results
 .
@@ -2167,7 +2191,7 @@ search
 "
 )
 ;
-is
+equal
 (
 results
 .
@@ -2209,7 +2233,7 @@ search
 "
 )
 ;
-is
+equal
 (
 results
 .
@@ -2250,7 +2274,7 @@ search
 "
 )
 ;
-is
+equal
 (
 results
 .
@@ -2788,6 +2812,7 @@ results
 {
 ok
 (
+(
 yield
 PlacesTestUtils
 .
@@ -2798,6 +2823,7 @@ results
 details
 .
 url
+)
 )
 {
 results
@@ -2835,7 +2861,7 @@ id
 "
 )
 ;
-is
+equal
 (
 results
 .
@@ -2867,7 +2893,7 @@ details
 visitTime
 )
 {
-is
+equal
 (
 results
 .
@@ -3955,7 +3981,7 @@ id
 "
 )
 ;
-is
+equal
 (
 onVisited
 .
@@ -4001,7 +4027,7 @@ cgi
 id
 =
 1287928
-is
+equal
 (
 onVisited
 .
@@ -4017,7 +4043,7 @@ title
 "
 )
 ;
-is
+equal
 (
 onVisited
 .
@@ -4034,7 +4060,7 @@ time
 "
 )
 ;
-is
+equal
 (
 onVisited
 .
