@@ -8676,6 +8676,15 @@ rv
 {
 MOZ_CRASH
 (
+"
+ssManager
+-
+>
+Init
+(
+)
+failed
+"
 )
 ;
 }

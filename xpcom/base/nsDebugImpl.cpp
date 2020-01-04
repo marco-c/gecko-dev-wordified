@@ -3160,6 +3160,9 @@ aSize
 endif
 MOZ_CRASH
 (
+"
+OOM
+"
 )
 ;
 }

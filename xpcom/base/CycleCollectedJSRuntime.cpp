@@ -3469,6 +3469,10 @@ this
 {
 MOZ_CRASH
 (
+"
+JS_AddExtraGCRootsTracer
+failed
+"
 )
 ;
 }
