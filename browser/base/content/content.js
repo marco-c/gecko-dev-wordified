@@ -3064,6 +3064,16 @@ false
 referrerPolicy
 :
 referrerPolicy
+originAttributes
+:
+principal
+?
+principal
+.
+originAttributes
+:
+{
+}
 }
 ;
 if

@@ -1534,6 +1534,7 @@ function
 referrerTestCaseLoaded
 (
 aTestNumber
+aParams
 )
 {
 let
@@ -1628,6 +1629,7 @@ browser
 addTab
 (
 url
+aParams
 )
 ;
 return
@@ -1724,6 +1726,10 @@ aTestNumber
 aNewWindow
 aNewTab
 aStartTestCase
+aParams
+=
+{
+}
 )
 {
 referrerResultExtracted
@@ -1887,6 +1893,7 @@ nextTestNumber
 referrerTestCaseLoaded
 (
 nextTestNumber
+aParams
 )
 .
 then
@@ -1924,6 +1931,7 @@ rounds
 referrerTestCaseLoaded
 (
 nextTestNumber
+aParams
 )
 .
 then
@@ -2014,6 +2022,10 @@ function
 startReferrerTest
 (
 aStartTestCase
+params
+=
+{
+}
 )
 {
 waitForExplicitFinish
@@ -2096,6 +2108,7 @@ function
 referrerTestCaseLoaded
 (
 0
+params
 )
 .
 then
