@@ -104,10 +104,10 @@ it
 const
 TRANSACTIONS_QUEUE_TIMEOUT_MS
 =
-240000
+120000
 /
 /
-4
+2
 minutes
 Cu
 .
