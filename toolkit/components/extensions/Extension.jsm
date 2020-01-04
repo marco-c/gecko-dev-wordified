@@ -4787,7 +4787,7 @@ frameElement
 ;
 }
 let
-type
+viewType
 =
 "
 tab
@@ -4809,7 +4809,7 @@ type
 )
 )
 {
-type
+viewType
 =
 browser
 .
@@ -4877,7 +4877,7 @@ pop
 -
 ups
 .
-type
+viewType
 =
 "
 popup
@@ -4911,7 +4911,7 @@ ExtensionContext
 (
 extension
 {
-type
+viewType
 contentWindow
 uri
 docShell
@@ -4920,7 +4920,7 @@ docShell
 ;
 if
 (
-type
+viewType
 =
 =
 "

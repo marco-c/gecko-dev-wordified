@@ -1027,7 +1027,7 @@ pages
 /
 /
 (
-type
+viewType
 =
 "
 background
@@ -1035,7 +1035,7 @@ background
 )
 popups
 (
-type
+viewType
 =
 "
 popup
@@ -1052,7 +1052,7 @@ into
 browser
 tabs
 (
-type
+viewType
 =
 "
 tab
@@ -1077,7 +1077,7 @@ properties
 /
 /
 |
-type
+viewType
 |
 is
 one
@@ -1214,7 +1214,7 @@ processes
 }
 let
 {
-type
+viewType
 uri
 contentWindow
 }
@@ -1223,9 +1223,9 @@ params
 ;
 this
 .
-type
+viewType
 =
-type
+viewType
 ;
 this
 .
@@ -1432,8 +1432,6 @@ envType
 addon_parent
 "
 viewType
-:
-type
 url
 :
 uri

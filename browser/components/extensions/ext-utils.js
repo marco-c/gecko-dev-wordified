@@ -670,7 +670,7 @@ if
 (
 context
 .
-type
+viewType
 =
 =
 "

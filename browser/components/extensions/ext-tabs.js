@@ -558,7 +558,7 @@ if
 (
 params
 .
-type
+viewType
 =
 =
 "
@@ -568,7 +568,7 @@ tab
 |
 params
 .
-type
+viewType
 =
 =
 "
@@ -663,7 +663,7 @@ if
 (
 context
 .
-type
+viewType
 =
 =
 "
