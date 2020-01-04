@@ -1334,7 +1334,16 @@ RedrawAll
 mozilla
 :
 :
-AndroidLayerRendererFrame
+widget
+:
+:
+LayerRenderer
+:
+:
+Frame
+:
+:
+GlobalRef
 mLayerRendererFrame
 ;
 static
