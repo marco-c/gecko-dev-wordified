@@ -65,9 +65,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 promises
 "
