@@ -9811,6 +9811,9 @@ return
 nsAutoCString
 urlCStr
 ;
+nsresult
+rv
+=
 exposableURI
 -
 >
@@ -9819,8 +9822,14 @@ GetSpec
 urlCStr
 )
 ;
-nsresult
+if
+(
+NS_FAILED
+(
 rv
+)
+)
+return
 ;
 nsCOMPtr
 <
