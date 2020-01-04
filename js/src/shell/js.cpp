@@ -619,6 +619,15 @@ include
 "
 shell
 /
+jsshell
+.
+h
+"
+#
+include
+"
+shell
+/
 OSObject
 .
 h
