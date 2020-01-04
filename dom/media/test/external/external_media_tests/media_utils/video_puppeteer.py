@@ -549,6 +549,10 @@ stall_wait_time
 timeout
 =
 60
+                 
+autostart
+=
+True
 )
 :
         
@@ -823,6 +827,24 @@ obtained
 "
 )
             
+if
+autostart
+:
+                
+self
+.
+start
+(
+)
+;
+    
+def
+start
+(
+self
+)
+:
+        
 #
 To
 get
@@ -833,7 +855,7 @@ playback
 must
 have
 started
-            
+        
 wait
 =
 Wait
@@ -845,7 +867,7 @@ self
 .
 timeout
 )
-            
+        
 verbose_until
 (
 wait
@@ -858,7 +880,7 @@ v
 current_time
 >
 0
-                          
+                      
 "
 Check
 if
@@ -868,7 +890,7 @@ current_time
 0
 "
 )
-            
+        
 self
 .
 _start_time
@@ -876,7 +898,7 @@ _start_time
 self
 .
 current_time
-            
+        
 self
 .
 _start_wall_time
@@ -884,7 +906,7 @@ _start_wall_time
 clock
 (
 )
-            
+        
 self
 .
 update_expected_duration
