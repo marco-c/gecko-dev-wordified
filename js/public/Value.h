@@ -7328,6 +7328,7 @@ UndefinedValue
 )
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 inline
 bool

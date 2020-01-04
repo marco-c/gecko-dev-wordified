@@ -1616,6 +1616,7 @@ maybeGroup
 )
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 /
 /
@@ -2059,6 +2060,7 @@ data
 ;
 }
 }
+JS_HAZ_GC_POINTER
 ;
 static
 inline
@@ -3434,6 +3436,7 @@ v
 )
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 /
 *
