@@ -87,11 +87,9 @@ with
 undefined
 expressions
 *
-are
-stored
-as
-plain
-breakpoints
+maintain
+their
+conditions
 when
 re
 -
@@ -294,7 +292,8 @@ is
 bp
 .
 condition
-undefined
+"
+"
 "
 The
 conditional
