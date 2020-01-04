@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsInternetCiter
+InternetCiter
 .
 h
 "
@@ -177,6 +177,9 @@ nsStringIterator
 .
 h
 "
+namespace
+mozilla
+{
 const
 char16_t
 gt
@@ -217,6 +220,7 @@ r
 /
 *
 *
+*
 Mail
 citations
 using
@@ -229,10 +233,11 @@ This
 is
 a
 citation
+.
 *
 /
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 GetCiteString
@@ -432,7 +437,7 @@ NS_OK
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 StripCitesAndLinebreaks
@@ -728,7 +733,7 @@ NS_OK
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 StripCites
@@ -900,7 +905,7 @@ nbsp
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 Rewrap
@@ -2427,3 +2432,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla
