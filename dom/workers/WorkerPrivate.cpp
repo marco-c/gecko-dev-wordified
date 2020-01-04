@@ -7431,7 +7431,9 @@ explicit
 #
 endif
 class
-WorkerJSRuntimeStats
+MOZ_STACK_CLASS
+WorkerJSContextStats
+final
 :
 public
 JS
@@ -7447,7 +7449,7 @@ mRtPath
 public
 :
 explicit
-WorkerJSRuntimeStats
+WorkerJSContextStats
 (
 const
 nsACString
@@ -7469,7 +7471,7 @@ aRtPath
 {
 }
 ~
-WorkerJSRuntimeStats
+WorkerJSContextStats
 (
 )
 {
@@ -9922,7 +9924,7 @@ AssertIsOnMainThread
 /
 Assumes
 that
-WorkerJSRuntimeStats
+WorkerJSContextStats
 will
 hold
 a
@@ -9949,8 +9951,8 @@ it
 nsCString
 path
 ;
-WorkerJSRuntimeStats
-rtStats
+WorkerJSContextStats
+cxStats
 (
 path
 )
@@ -10170,7 +10172,7 @@ mWorkerPrivate
 BlockAndCollectRuntimeStats
 (
 &
-rtStats
+cxStats
 aAnonymize
 )
 )
@@ -10196,7 +10198,7 @@ xpc
 :
 ReportJSRuntimeExplicitTreeStats
 (
-rtStats
+cxStats
 path
 aHandleReport
 aData
