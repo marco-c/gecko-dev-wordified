@@ -4375,6 +4375,17 @@ cssPxToDevPxMatrix
 opacity
 &
 maskTransform
+svgReset
+-
+>
+mMask
+.
+mLayers
+[
+0
+]
+.
+mMaskMode
 )
 ;
 }
