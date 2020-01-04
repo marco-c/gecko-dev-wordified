@@ -950,6 +950,14 @@ const
 OriginScope
 &
 aOriginScope
+Nullable
+<
+Client
+:
+:
+Type
+>
+aClientType
 bool
 aExclusive
 OpenDirectoryListener
