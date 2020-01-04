@@ -604,7 +604,7 @@ visibleRegion
 l
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

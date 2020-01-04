@@ -7812,7 +7812,7 @@ incompleteRegion
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

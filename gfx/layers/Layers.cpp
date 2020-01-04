@@ -3984,7 +3984,7 @@ LayerIntRegion
 Layer
 :
 :
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 {
@@ -6447,7 +6447,7 @@ offset
 ;
 aResult
 =
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -6782,7 +6782,7 @@ siblingVisibleRegion
 sibling
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -9048,7 +9048,7 @@ useIntermediateSurface
 &
 &
 !
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -9187,7 +9187,7 @@ UseIntermediateSurface
 {
 if
 (
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

@@ -1727,7 +1727,7 @@ aTarget
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -1795,7 +1795,7 @@ might
 sample
 pixels
 outside
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 which
@@ -1818,7 +1818,7 @@ aTarget
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

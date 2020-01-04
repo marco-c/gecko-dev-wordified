@@ -940,7 +940,7 @@ mVisibleRegion
 mLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
