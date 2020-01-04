@@ -1349,7 +1349,7 @@ CLEANUP_DEFERRAL_SECONDS
 15
 ;
 protected
-OuterLayout
+RelativeLayout
 mRootLayout
 ;
 protected
@@ -8318,7 +8318,7 @@ layout
 mRootLayout
 =
 (
-OuterLayout
+RelativeLayout
 )
 findViewById
 (
