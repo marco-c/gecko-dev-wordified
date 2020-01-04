@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
