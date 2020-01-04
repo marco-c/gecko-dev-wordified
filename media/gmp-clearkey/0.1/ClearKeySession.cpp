@@ -517,6 +517,12 @@ aInitDataType
 "
 webm
 "
+&
+&
+aInitDataSize
+=
+=
+16
 )
 {
 /
