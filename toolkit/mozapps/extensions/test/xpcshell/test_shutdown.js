@@ -51,6 +51,9 @@ IGNORE
 =
 [
 "
+getPreferredIconURL
+"
+"
 escapeAddonURI
 "
 "

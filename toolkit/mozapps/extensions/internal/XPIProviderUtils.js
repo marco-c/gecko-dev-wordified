@@ -654,6 +654,9 @@ optionsType
 aboutURL
 "
 "
+icons
+"
+"
 iconURL
 "
 "
