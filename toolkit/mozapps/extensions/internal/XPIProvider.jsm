@@ -42830,6 +42830,16 @@ version
 )
 <
 0
+&
+&
+!
+this
+.
+addon
+.
+_installLocation
+.
+locked
 )
 {
 for
