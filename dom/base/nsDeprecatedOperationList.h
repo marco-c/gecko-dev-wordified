@@ -294,3 +294,7 @@ DEPRECATED_OPERATION
 (
 PrefixedFullscreenAPI
 )
+DEPRECATED_OPERATION
+(
+LenientSetter
+)
