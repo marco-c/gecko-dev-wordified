@@ -2262,16 +2262,6 @@ max_chrome_script_run_time
 0
 )
 ;
-pref
-(
-"
-dom
-.
-max_child_script_run_time
-"
-0
-)
-;
 /
 /
 plugins
