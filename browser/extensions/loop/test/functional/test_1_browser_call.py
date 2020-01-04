@@ -27,6 +27,8 @@ os
 import
 sys
 import
+time
+import
 urlparse
 sys
 .
@@ -616,6 +618,25 @@ switch_to_frame
 )
         
 #
+Added
+time
+lapse
+to
+allow
+for
+DOM
+to
+catch
+up
+        
+time
+.
+sleep
+(
+2
+)
+        
+#
 XXX
 should
 be
@@ -1006,7 +1027,7 @@ By
 CSS_SELECTOR
                                                 
 selector
-20
+30
 )
         
 self
