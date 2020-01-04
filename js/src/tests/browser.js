@@ -2111,7 +2111,7 @@ testpathparts
 .
 length
 <
-3
+2
 )
 {
 /
@@ -2121,8 +2121,6 @@ have
 at
 least
 suitepath
-/
-subsuite
 /
 testcase
 .
