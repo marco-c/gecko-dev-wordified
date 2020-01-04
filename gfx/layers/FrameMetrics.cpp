@@ -151,8 +151,11 @@ mUsesContainerScrolling
 aValue
 ;
 }
+StaticAutoPtr
+<
 const
 ScrollMetadata
+>
 ScrollMetadata
 :
 :

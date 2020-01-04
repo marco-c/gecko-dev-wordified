@@ -1589,6 +1589,7 @@ GetScrollMetadataCount
 )
 {
 return
+*
 ScrollMetadata
 :
 :
@@ -2521,7 +2522,8 @@ ScrollMetadata
 :
 :
 sNullMetadata
-.
+-
+>
 GetMetrics
 (
 )
@@ -2590,7 +2592,8 @@ ScrollMetadata
 :
 :
 sNullMetadata
-.
+-
+>
 GetMetrics
 (
 )
@@ -2634,7 +2637,8 @@ ScrollMetadata
 :
 :
 sNullMetadata
-.
+-
+>
 GetMetrics
 (
 )

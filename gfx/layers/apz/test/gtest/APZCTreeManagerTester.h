@@ -145,6 +145,13 @@ APZTestCommon
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 class
 APZCTreeManagerTester
 :
@@ -168,6 +175,13 @@ gfxPrefs
 :
 :
 GetSingleton
+(
+)
+;
+gfxPlatform
+:
+:
+GetPlatform
 (
 )
 ;
