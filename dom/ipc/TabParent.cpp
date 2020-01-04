@@ -7849,6 +7849,9 @@ GetTopLevelDocAccessible
 )
 const
 {
+#
+ifdef
+ACCESSIBILITY
 /
 /
 XXX
@@ -7938,6 +7941,8 @@ doc
 ;
 }
 }
+#
+endif
 return
 nullptr
 ;
