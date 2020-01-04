@@ -3870,9 +3870,6 @@ FastGetGlobalJSObject
 ;
 if
 (
-reflector
-&
-&
 JS
 :
 :
