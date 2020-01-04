@@ -824,6 +824,9 @@ NodeInfo
 aNodeInfo
 FromParser
 aFromParser
+nsAString
+*
+aIs
 )
 {
 RefPtr
@@ -868,6 +871,7 @@ forget
 (
 )
 aFromParser
+aIs
 )
 ;
 }
