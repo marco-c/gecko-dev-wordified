@@ -291,6 +291,13 @@ WidgetUtils
 .
 h
 "
+#
+include
+"
+CompositorWidgetProxy
+.
+h
+"
 /
 *
 *

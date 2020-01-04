@@ -129,6 +129,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsCSSPseudoElements
+.
+h
+"
 class
 nsMeterFrame
 :
@@ -428,6 +435,9 @@ Element
 *
 GetPseudoElement
 (
+mozilla
+:
+:
 CSSPseudoElementType
 aType
 )
