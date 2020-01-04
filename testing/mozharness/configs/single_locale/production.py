@@ -76,11 +76,17 @@ UPLOAD_HOST
 "
 :
 "
-stage
+upload
 .
-mozilla
+ffxbld
 .
-org
+productdelivery
+.
+prod
+.
+mozaws
+.
+net
 "
         
 "
