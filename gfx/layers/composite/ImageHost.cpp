@@ -2348,7 +2348,7 @@ CreateTexturedEffect
 mCurrentTextureHost
 -
 >
-GetFormat
+GetReadFormat
 (
 )
 mCurrentTextureSource
@@ -3919,7 +3919,7 @@ CreateTexturedEffect
 mCurrentTextureHost
 -
 >
-GetFormat
+GetReadFormat
 (
 )
 mCurrentTextureSource
