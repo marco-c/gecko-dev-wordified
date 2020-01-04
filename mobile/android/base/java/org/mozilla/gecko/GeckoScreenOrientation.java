@@ -898,6 +898,12 @@ getAngle
 )
 ;
 }
+GeckoAppShell
+.
+resetScreenSize
+(
+)
+;
 return
 true
 ;
