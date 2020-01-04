@@ -1288,6 +1288,14 @@ vcs
 '
 gittool
 '
+            
+env
+=
+self
+.
+query_env
+(
+)
         
 )
     
