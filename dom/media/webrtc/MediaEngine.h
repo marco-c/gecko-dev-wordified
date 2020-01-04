@@ -876,11 +876,6 @@ const
 nsString
 &
 aDeviceId
-const
-char
-*
-*
-aOutBadConstraint
 )
 =
 0
@@ -1125,11 +1120,6 @@ BaseAllocationHandle
 *
 *
 aOutHandle
-const
-char
-*
-*
-aOutBadConstraint
 )
 =
 0

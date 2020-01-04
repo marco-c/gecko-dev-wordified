@@ -1299,11 +1299,6 @@ BaseAllocationHandle
 *
 *
 aOutHandle
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 AssertIsOnOwningThread
@@ -1524,7 +1519,6 @@ nullptr
 aConstraints
 aPrefs
 aDeviceId
-aOutBadConstraint
 )
 ;
 }
@@ -1552,11 +1546,6 @@ const
 nsString
 &
 aDeviceId
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 MOZ_ASSERT
@@ -4736,11 +4725,6 @@ const
 nsString
 &
 aDeviceId
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 MOZ_ASSERT
