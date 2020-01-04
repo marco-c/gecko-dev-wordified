@@ -762,7 +762,7 @@ name
 ;
 }
 static
-void
+bool
 needsSweep
 (
 T
