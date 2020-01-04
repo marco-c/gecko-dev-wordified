@@ -9378,6 +9378,16 @@ mLineNumber
 uint32_t
 mLineOffset
 ;
+uint16_t
+mLevel
+;
+/
+/
+an
+nsStyleSet
+:
+:
+sheetType
 private
 :
 nsCSSValueTokenStream

@@ -245,6 +245,13 @@ nsDeviceContext
 .
 h
 "
+#
+include
+"
+nsStyleSet
+.
+h
+"
 using
 namespace
 mozilla
@@ -15578,6 +15585,13 @@ eCSSProperty_UNKNOWN
 mShorthandPropertyID
 (
 eCSSProperty_UNKNOWN
+)
+mLevel
+(
+nsStyleSet
+:
+:
+eSheetTypeCount
 )
 {
 MOZ_COUNT_CTOR
