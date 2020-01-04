@@ -2252,7 +2252,7 @@ Tell
 Debuggers
 in
 |
-runtime
+cx
 |
 to
 use
@@ -2277,9 +2277,9 @@ void
 )
 SetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-runtime
+cx
 mozilla
 :
 :
@@ -2296,7 +2296,7 @@ function
 that
 the
 given
-runtime
+context
 is
 using
 to
@@ -2320,9 +2320,9 @@ MallocSizeOf
 )
 GetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-runtime
+cx
 )
 ;
 /

@@ -3857,7 +3857,7 @@ dbg
 :
 SetDebuggerMallocSizeOf
 (
-mJSRuntime
+mJSContext
 moz_malloc_size_of
 )
 ;
