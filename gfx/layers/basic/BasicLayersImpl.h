@@ -643,8 +643,8 @@ aSurface
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -717,8 +717,8 @@ aSurface
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :

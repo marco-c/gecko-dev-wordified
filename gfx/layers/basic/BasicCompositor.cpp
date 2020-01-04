@@ -1252,8 +1252,8 @@ aTextureCoords
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 DrawOptions
 &
@@ -1520,7 +1520,7 @@ FillRectWithMask
 aDest
 aDestRect
 aSource
-aFilter
+aSamplingFilter
 aOptions
 mode
 aMask
@@ -2795,7 +2795,7 @@ mTextureCoords
 texturedEffect
 -
 >
-mFilter
+mSamplingFilter
 DrawOptions
 (
 aOpacity
@@ -2894,7 +2894,7 @@ mTextureCoords
 texturedEffect
 -
 >
-mFilter
+mSamplingFilter
 DrawOptions
 (
 aOpacity
@@ -3058,7 +3058,7 @@ mTextureCoords
 effectRenderTarget
 -
 >
-mFilter
+mSamplingFilter
 DrawOptions
 (
 aOpacity

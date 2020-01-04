@@ -701,8 +701,8 @@ aRect
 SourceSurface
 *
 aSurface
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 DrawOptions
 &
@@ -788,7 +788,7 @@ source
 aSurface
 aExtendMode
 transform
-aFilter
+aSamplingFilter
 )
 ;
 aDT
@@ -853,7 +853,7 @@ aSurfaceTransform
 Matrix
 (
 )
-aFilter
+aSamplingFilter
 )
 aOptions
 )
@@ -879,8 +879,8 @@ aRect
 SourceSurface
 *
 aSurface
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 DrawOptions
 &
@@ -920,7 +920,7 @@ FillRectWithMask
 aDT
 aRect
 aSurface
-aFilter
+aSamplingFilter
 aOptions
 ExtendMode
 :
@@ -943,7 +943,7 @@ FillRectWithMask
 aDT
 aRect
 aSurface
-aFilter
+aSamplingFilter
 aOptions
 ExtendMode
 :

@@ -1432,7 +1432,7 @@ SurfaceFormat
 :
 B8G8R8A8
 mTexture
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -1682,7 +1682,7 @@ SurfaceFormat
 :
 B8G8R8A8
 mTexture
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -1922,7 +1922,7 @@ SurfaceFormat
 :
 B8G8R8A8
 mTexture
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -2158,7 +2158,7 @@ SurfaceFormat
 :
 B8G8R8A8
 mTexture
-Filter
+SamplingFilter
 :
 :
 POINT

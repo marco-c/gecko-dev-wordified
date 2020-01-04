@@ -681,7 +681,7 @@ GetEffectiveOpacity
 GetEffectiveTransformForBuffer
 (
 )
-GetEffectFilter
+GetSamplingFilter
 (
 )
 clipRect
@@ -1168,16 +1168,16 @@ nullptr
 gfx
 :
 :
-Filter
+SamplingFilter
 ImageLayerComposite
 :
 :
-GetEffectFilter
+GetSamplingFilter
 (
 )
 {
 return
-mFilter
+mSamplingFilter
 ;
 }
 void
@@ -1206,7 +1206,7 @@ mImageHost
 >
 GenEffect
 (
-GetEffectFilter
+GetSamplingFilter
 (
 )
 )

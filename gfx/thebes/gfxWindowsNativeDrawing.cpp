@@ -1787,7 +1787,7 @@ mScale
 height
 )
 ;
-Filter
+SamplingFilter
 filter
 =
 (
@@ -1796,12 +1796,12 @@ mNativeDrawFlags
 DO_NEAREST_NEIGHBOR_FILTERING
 )
 ?
-Filter
+SamplingFilter
 :
 :
 LINEAR
 :
-Filter
+SamplingFilter
 :
 :
 GOOD

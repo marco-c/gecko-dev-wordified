@@ -1918,7 +1918,7 @@ CAIRO_FILTER_FAST
 *
 /
 "
-Filter
+SamplingFilter
 :
 :
 GOOD

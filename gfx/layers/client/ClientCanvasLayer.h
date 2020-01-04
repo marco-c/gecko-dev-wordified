@@ -436,7 +436,7 @@ aAttrs
 =
 CanvasLayerAttributes
 (
-mFilter
+mSamplingFilter
 mBounds
 )
 ;

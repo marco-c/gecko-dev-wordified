@@ -2985,7 +2985,7 @@ false
 canvasLayer
 -
 >
-SetFilter
+SetSamplingFilter
 (
 specific
 .
@@ -2993,7 +2993,7 @@ get_CanvasLayerAttributes
 (
 )
 .
-filter
+samplingFilter
 (
 )
 )
@@ -3148,11 +3148,11 @@ get_ImageLayerAttributes
 imageLayer
 -
 >
-SetFilter
+SetSamplingFilter
 (
 attrs
 .
-filter
+samplingFilter
 (
 )
 )

@@ -833,13 +833,13 @@ EnsureSize
 )
 ;
 void
-SetSamplerForFilter
+SetSamplerForSamplingFilter
 (
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 ;
 void

@@ -466,7 +466,7 @@ aAttrs
 =
 ImageLayerAttributes
 (
-mFilter
+mSamplingFilter
 mScaleToSize
 mScaleMode
 )

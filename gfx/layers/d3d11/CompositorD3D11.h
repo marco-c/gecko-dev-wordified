@@ -972,13 +972,13 @@ UpdateConstantBuffers
 )
 ;
 void
-SetSamplerForFilter
+SetSamplerForSamplingFilter
 (
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 ;
 ID3D11PixelShader

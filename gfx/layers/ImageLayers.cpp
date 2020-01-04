@@ -176,12 +176,12 @@ Layer
 aManager
 aImplData
 )
-mFilter
+mSamplingFilter
 (
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 GOOD

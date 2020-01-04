@@ -221,10 +221,7 @@ h
 /
 /
 for
-Filter
-:
-:
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -805,7 +802,7 @@ GetEffectiveOpacity
 GetEffectiveTransform
 (
 )
-GetEffectFilter
+GetSamplingFilter
 (
 )
 clipRect
@@ -918,7 +915,7 @@ mBuffer
 >
 GenEffect
 (
-GetEffectFilter
+GetSamplingFilter
 (
 )
 )

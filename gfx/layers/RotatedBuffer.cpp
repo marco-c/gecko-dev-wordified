@@ -1203,7 +1203,7 @@ ExtendMode
 :
 CLAMP
 transform
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -1269,7 +1269,7 @@ MOZ_GFX_OPTIMIZE_MOBILE
 DrawSurfaceOptions
 options
 (
-Filter
+SamplingFilter
 :
 :
 POINT

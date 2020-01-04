@@ -240,9 +240,8 @@ aSamplingRect
 ExtendMode
 aExtendMode
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 gfxFloat
 aOpacity
 )
@@ -354,7 +353,7 @@ ExtendMode
 :
 :
 CLAMP
-aFilter
+aSamplingFilter
 aOpacity
 gfxMatrix
 (
@@ -381,9 +380,8 @@ aFillRect
 ExtendMode
 aExtendMode
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 gfxFloat
 aOpacity
 const
@@ -427,7 +425,7 @@ IntRect
 (
 )
 aExtendMode
-aFilter
+aSamplingFilter
 aOpacity
 aTransform
 )
@@ -460,9 +458,8 @@ aSamplingRect
 ExtendMode
 aExtendMode
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 gfxFloat
 aOpacity
 const
@@ -493,7 +490,7 @@ pattern
 mSourceSurface
 aExtendMode
 patternTransform
-aFilter
+aSamplingFilter
 aSamplingRect
 )
 ;
@@ -606,8 +603,8 @@ gfxCallbackDrawable
 MakeSurfaceDrawable
 (
 const
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 SurfaceFormat
@@ -710,7 +707,7 @@ ExtendMode
 :
 :
 CLAMP
-aFilter
+aSamplingFilter
 )
 ;
 RefPtr
@@ -813,9 +810,8 @@ aFillRect
 ExtendMode
 aExtendMode
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 gfxFloat
 aOpacity
 const
@@ -850,7 +846,7 @@ mSurfaceDrawable
 =
 MakeSurfaceDrawable
 (
-aFilter
+aSamplingFilter
 )
 ;
 }
@@ -867,7 +863,7 @@ Draw
 aContext
 aFillRect
 aExtendMode
-aFilter
+aSamplingFilter
 aOpacity
 aTransform
 )
@@ -884,7 +880,7 @@ mCallback
 (
 aContext
 aFillRect
-aFilter
+aSamplingFilter
 aTransform
 )
 ;
@@ -978,9 +974,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &
@@ -1003,7 +998,7 @@ ExtendMode
 :
 :
 CLAMP
-aFilter
+aSamplingFilter
 1
 .
 0
@@ -1081,9 +1076,8 @@ aFillRect
 ExtendMode
 aExtendMode
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 gfxFloat
 aOpacity
 const
@@ -1237,7 +1231,7 @@ Draw
 aContext
 aFillRect
 aExtendMode
-aFilter
+aSamplingFilter
 aOpacity
 aTransform
 )

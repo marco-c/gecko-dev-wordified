@@ -153,7 +153,7 @@ h
 /
 /
 for
-Filter
+SamplingFilter
 SurfaceFormat
 #
 include
@@ -1674,8 +1674,8 @@ mozilla
 gfx
 :
 :
-Filter
-filter
+SamplingFilter
+samplingFilter
 const
 char
 *

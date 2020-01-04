@@ -353,7 +353,7 @@ mBounds
 height
 )
 mSurface
-mFilter
+mSamplingFilter
 DrawOptions
 (
 GetEffectiveOpacity

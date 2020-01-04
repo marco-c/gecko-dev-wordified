@@ -1864,18 +1864,17 @@ TexturePacket
 *
 aTexturePacket
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 switch
 (
-aFilter
+aSamplingFilter
 )
 {
 case
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -1894,7 +1893,7 @@ GOOD
 break
 ;
 case
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -1913,7 +1912,7 @@ LINEAR
 break
 ;
 case
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -1942,7 +1941,7 @@ Can
 t
 dump
 unexpected
-mFilter
+mSamplingFilter
 to
 texture
 packet
@@ -5247,7 +5246,7 @@ LOCAL_GL_TEXTURE0
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -5927,7 +5926,7 @@ texturePacket
 aEffect
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 DumpRect

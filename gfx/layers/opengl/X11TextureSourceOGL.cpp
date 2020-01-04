@@ -252,8 +252,8 @@ aTextureUnit
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 gl
@@ -362,12 +362,12 @@ false
 ;
 }
 }
-ApplyFilterToBoundTexture
+ApplySamplingFilterToBoundTexture
 (
 gl
 (
 )
-aFilter
+aSamplingFilter
 LOCAL_GL_TEXTURE_2D
 )
 ;

@@ -1547,9 +1547,9 @@ SurfaceFormat
 :
 UNKNOWN
 )
-mFilter
+mSamplingFilter
 (
-Filter
+SamplingFilter
 :
 :
 GOOD

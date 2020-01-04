@@ -203,7 +203,7 @@ h
 /
 /
 for
-Filter
+SamplingFilter
 #
 include
 "
@@ -420,9 +420,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -628,9 +627,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 override
 ;
@@ -1130,9 +1128,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :

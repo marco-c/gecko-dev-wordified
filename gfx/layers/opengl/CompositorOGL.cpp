@@ -622,7 +622,7 @@ aTexUnit
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -8351,13 +8351,13 @@ mPremultiplied
 gfx
 :
 :
-Filter
-filter
+SamplingFilter
+samplingFilter
 =
 texturedEffect
 -
 >
-mFilter
+mSamplingFilter
 ;
 source
 -
@@ -8370,7 +8370,7 @@ AsSourceOGL
 BindTexture
 (
 LOCAL_GL_TEXTURE0
-filter
+samplingFilter
 )
 ;
 program
@@ -8585,7 +8585,7 @@ LOCAL_GL_TEXTURE0
 effectYCbCr
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 sourceCb
@@ -8597,7 +8597,7 @@ LOCAL_GL_TEXTURE1
 effectYCbCr
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 sourceCr
@@ -8609,7 +8609,7 @@ LOCAL_GL_TEXTURE2
 effectYCbCr
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 program
@@ -8805,7 +8805,7 @@ LOCAL_GL_TEXTURE0
 effectNV12
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 sourceCbCr
@@ -8817,7 +8817,7 @@ LOCAL_GL_TEXTURE1
 effectNV12
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 if
@@ -9357,7 +9357,7 @@ LOCAL_GL_TEXTURE0
 effectComponentAlpha
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 sourceOnWhite
@@ -9369,7 +9369,7 @@ LOCAL_GL_TEXTURE1
 effectComponentAlpha
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 program

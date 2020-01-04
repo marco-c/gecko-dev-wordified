@@ -1012,7 +1012,7 @@ EffectRGB
 (
 src
 true
-Filter
+SamplingFilter
 :
 :
 LINEAR

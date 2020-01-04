@@ -242,7 +242,7 @@ premultiplied
 AppendToString
 (
 aStream
-mFilter
+mSamplingFilter
 "
 [
 filter

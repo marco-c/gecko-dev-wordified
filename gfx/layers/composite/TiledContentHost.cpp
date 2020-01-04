@@ -677,9 +677,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 /
@@ -791,7 +790,7 @@ tile
 .
 mTextureSource
 nullptr
-aFilter
+aSamplingFilter
 true
 tile
 .
@@ -2520,9 +2519,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -2922,7 +2920,7 @@ aEffectChain
 lowPrecisionOpacityReduction
 *
 aOpacity
-aFilter
+aSamplingFilter
 aClipRect
 *
 renderRegion
@@ -2935,7 +2933,7 @@ mTiledBuffer
 nullptr
 aEffectChain
 aOpacity
-aFilter
+aSamplingFilter
 aClipRect
 *
 renderRegion
@@ -2968,9 +2966,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -3111,7 +3108,7 @@ mTextureSource
 aTile
 .
 mTextureSourceOnWhite
-aFilter
+aSamplingFilter
 true
 aTile
 .
@@ -3341,9 +3338,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -3954,7 +3950,7 @@ tile
 aEffectChain
 aOpacity
 aTransform
-aFilter
+aSamplingFilter
 aClipRect
 tileDrawRegion
 tileOffset

@@ -2037,7 +2037,7 @@ stringstream
 &
 aStream
 const
-Filter
+SamplingFilter
 filter
 const
 char
@@ -2060,7 +2060,7 @@ filter
 )
 {
 case
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -2069,7 +2069,7 @@ aStream
 <
 <
 "
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -2078,7 +2078,7 @@ GOOD
 break
 ;
 case
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -2087,7 +2087,7 @@ aStream
 <
 <
 "
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -2096,7 +2096,7 @@ LINEAR
 break
 ;
 case
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -2105,7 +2105,7 @@ aStream
 <
 <
 "
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -2119,7 +2119,7 @@ NS_ERROR
 (
 "
 unknown
-filter
+SamplingFilter
 type
 "
 )

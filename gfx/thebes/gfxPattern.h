@@ -466,7 +466,7 @@ CairoStatus
 )
 ;
 void
-SetFilter
+SetSamplingFilter
 (
 mozilla
 :
@@ -474,8 +474,8 @@ mozilla
 gfx
 :
 :
-Filter
-filter
+SamplingFilter
+aSamplingFilter
 )
 ;
 mozilla
@@ -484,8 +484,8 @@ mozilla
 gfx
 :
 :
-Filter
-Filter
+SamplingFilter
+SamplingFilter
 (
 )
 const
