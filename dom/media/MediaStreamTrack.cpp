@@ -1202,10 +1202,6 @@ port
 BlockSourceTrackId
 (
 mInputTrackID
-BlockingMode
-:
-:
-CREATION
 )
 ;
 Unused
