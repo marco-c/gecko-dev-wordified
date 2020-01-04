@@ -290,6 +290,10 @@ FloatRegisters
 :
 :
 d31
+FloatRegisters
+:
+:
+Double
 }
 ;
 static
@@ -302,6 +306,10 @@ FloatRegisters
 :
 :
 d0
+FloatRegisters
+:
+:
+Double
 }
 ;
 static
@@ -358,6 +366,10 @@ FloatRegisters
 :
 :
 invalid_fpreg
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
@@ -566,6 +578,10 @@ FloatRegisters
 :
 :
 d0
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
@@ -578,6 +594,10 @@ FloatRegisters
 :
 :
 d31
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
@@ -1218,6 +1238,10 @@ FloatRegisters
 :
 :
 d14
+FloatRegisters
+:
+:
+Single
 }
 ;
 /

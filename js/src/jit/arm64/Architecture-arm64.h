@@ -2758,6 +2758,7 @@ k
 )
 {
 }
+explicit
 constexpr
 FloatRegister
 (
