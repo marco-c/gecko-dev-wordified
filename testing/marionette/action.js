@@ -153,7 +153,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-actions
+action
 "
 ]
 ;
@@ -173,7 +173,7 @@ Marionette
 ;
 this
 .
-actions
+action
 =
 {
 }
@@ -193,7 +193,7 @@ chains
 .
 *
 /
-actions
+action
 .
 Chain
 =
@@ -359,7 +359,7 @@ null
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -644,7 +644,7 @@ present
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -811,7 +811,7 @@ completes
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -935,7 +935,7 @@ chain
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -1932,7 +1932,7 @@ used
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -2051,7 +2051,7 @@ screenY
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -2174,7 +2174,7 @@ viewport
 .
 *
 /
-actions
+action
 .
 Chain
 .
@@ -2881,7 +2881,7 @@ checkForInterrupted
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
