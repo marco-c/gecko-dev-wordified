@@ -2041,7 +2041,7 @@ STREAM_LOG
 LogLevel
 :
 :
-Debug
+Verbose
 (
 "
 interval
