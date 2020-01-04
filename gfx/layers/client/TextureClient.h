@@ -2837,6 +2837,7 @@ aReleaseFenceHandle
 )
 ;
 }
+virtual
 FenceHandle
 GetAndResetReleaseFenceHandle
 (
@@ -2871,6 +2872,7 @@ mAcquireFenceHandle
 aAcquireFenceHandle
 ;
 }
+virtual
 const
 FenceHandle
 &
