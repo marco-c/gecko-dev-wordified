@@ -544,6 +544,12 @@ Intl
 return
 mIntl
 .
+IsAccessible
+(
+)
+?
+mIntl
+.
 AsAccessible
 (
 )
@@ -552,6 +558,8 @@ AsAccessible
 AsTable
 (
 )
+:
+nullptr
 ;
 }
 xpcAccessibleTable
