@@ -762,6 +762,15 @@ media
 TimeUnit
 mNextRandomAccessPoint
 ;
+Maybe
+<
+media
+:
+:
+TimeUnit
+>
+mLastSeek
+;
 }
 ;
 }
