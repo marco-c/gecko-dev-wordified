@@ -2064,14 +2064,6 @@ MainThreadRun
 ;
 public
 :
-bool
-Dispatch
-(
-JSContext
-*
-aCx
-)
-;
 /
 /
 Dispatch
