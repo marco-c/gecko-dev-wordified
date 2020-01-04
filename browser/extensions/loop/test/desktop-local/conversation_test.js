@@ -357,6 +357,17 @@ return
 }
 ;
 }
+GetConversationWindowData
+:
+function
+(
+)
+{
+return
+{
+}
+;
+}
 }
 )
 ;
