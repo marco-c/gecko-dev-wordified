@@ -1432,6 +1432,10 @@ GetDocumentController
 GetOwner
 (
 )
+nullptr
+/
+/
+aLoadFailedRunnable
 getter_AddRefs
 (
 serviceWorker
