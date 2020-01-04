@@ -16285,7 +16285,7 @@ angle
 gfxPrefs
 :
 :
-APZAxisLockAngle
+APZAxisBreakoutAngle
 (
 )
 )
