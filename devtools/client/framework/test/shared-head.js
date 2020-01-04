@@ -1509,7 +1509,7 @@ toolbox
 *
 /
 var
-loadToolbox
+openNewTabAndToolbox
 =
 Task
 .
@@ -1596,7 +1596,7 @@ closed
 *
 /
 function
-unloadToolbox
+closeToolboxAndTab
 (
 toolbox
 )

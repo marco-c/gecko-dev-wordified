@@ -60,7 +60,7 @@ let
 toolbox
 =
 yield
-loadToolbox
+openNewTabAndToolbox
 (
 URL
 )
@@ -190,7 +190,7 @@ close
 )
 ;
 yield
-unloadToolbox
+closeToolboxAndTab
 (
 toolbox
 )

@@ -75,7 +75,7 @@ let
 toolbox
 =
 yield
-loadToolbox
+openNewTabAndToolbox
 (
 URL
 )
@@ -303,7 +303,7 @@ editor
 )
 ;
 yield
-unloadToolbox
+closeToolboxAndTab
 (
 toolbox
 )
