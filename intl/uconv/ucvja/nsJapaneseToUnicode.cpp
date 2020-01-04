@@ -2236,6 +2236,8 @@ through
 to
 error
 handler
+MOZ_FALLTHROUGH
+;
 }
 case
 5
