@@ -145,9 +145,6 @@ namespace
 layers
 {
 static
-gfx
-:
-:
 SurfaceFormat
 HalFormatToSurfaceFormat
 (
@@ -375,9 +372,6 @@ format
 )
 ;
 return
-gfx
-:
-:
 SurfaceFormat
 :
 :
@@ -810,9 +804,6 @@ false
 }
 surf
 =
-gfx
-:
-:
 Factory
 :
 :
@@ -1201,9 +1192,6 @@ TopLeft
 )
 =
 =
-gfx
-:
-:
 IntPoint
 (
 0

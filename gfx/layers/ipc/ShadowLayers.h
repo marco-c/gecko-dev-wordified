@@ -1676,6 +1676,16 @@ aTexture
 )
 override
 ;
+virtual
+void
+RemoveTexture
+(
+TextureClient
+*
+aTexture
+)
+override
+;
 /
 *
 *

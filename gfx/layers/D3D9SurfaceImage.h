@@ -144,7 +144,7 @@ namespace
 layers
 {
 class
-TextureClient
+SharedTextureClientD3D9
 ;
 class
 D3D9RecycleAllocator
@@ -177,7 +177,7 @@ aDevice
 }
 already_AddRefed
 <
-TextureClient
+SharedTextureClientD3D9
 >
 CreateOrRecycleClient
 (
@@ -430,7 +430,7 @@ mQuery
 ;
 RefPtr
 <
-TextureClient
+SharedTextureClientD3D9
 >
 mTextureClient
 ;
