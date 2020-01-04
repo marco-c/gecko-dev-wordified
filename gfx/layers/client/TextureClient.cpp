@@ -5688,8 +5688,6 @@ InitIPDLActor
 TextureForwarder
 *
 aForwarder
-LayersBackend
-aBackend
 )
 {
 MOZ_ASSERT
@@ -5872,7 +5870,12 @@ aForwarder
 CreateTexture
 (
 desc
-aBackend
+aForwarder
+-
+>
+GetCompositorBackendType
+(
+)
 GetFlags
 (
 )

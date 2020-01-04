@@ -3632,8 +3632,6 @@ InitIPDLActor
 TextureForwarder
 *
 aForwarder
-LayersBackend
-aBackendType
 )
 ;
 /
