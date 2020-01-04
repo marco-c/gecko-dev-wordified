@@ -732,13 +732,8 @@ this
 webapps
 =
 list
-?
-list
 .
 webapps
-:
-{
-}
 ;
 /
 /
