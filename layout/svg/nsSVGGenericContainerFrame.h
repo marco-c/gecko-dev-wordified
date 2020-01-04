@@ -155,15 +155,11 @@ nsIPresShell
 class
 nsStyleContext
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGGenericContainerFrameBase
-;
 class
 nsSVGGenericContainerFrame
 :
 public
-nsSVGGenericContainerFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -188,7 +184,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGGenericContainerFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
