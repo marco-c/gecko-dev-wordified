@@ -3463,7 +3463,7 @@ tooltiptext
 Leave
 Responsive
 Design
-View
+Mode
 "
 /
 >
@@ -4237,7 +4237,7 @@ GetStringFromName
 "
 responsiveUI
 .
-close
+close1
 "
 )
 )
@@ -6141,7 +6141,7 @@ GetStringFromName
 "
 responsiveUI
 .
-customNamePromptTitle
+customNamePromptTitle1
 "
 )
 ;
