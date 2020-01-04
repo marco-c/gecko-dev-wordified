@@ -7258,15 +7258,12 @@ rv
 rv
 )
 ;
-/
-/
-Cleanup
 if
 (
 mURLShortcut
 )
 {
-SendMessage
+SendNotifyMessage
 (
 HWND_BROADCAST
 WM_SETTINGCHANGE
