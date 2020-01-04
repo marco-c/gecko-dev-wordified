@@ -377,7 +377,7 @@ calculateNetworkId
 void
 )
 ;
-void
+bool
 findMac
 (
 char
