@@ -3407,7 +3407,6 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 Stop
 (
