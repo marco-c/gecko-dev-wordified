@@ -44,9 +44,6 @@ search
 species
 "
 "
-split
-"
-"
 toPrimitive
 "
 "
