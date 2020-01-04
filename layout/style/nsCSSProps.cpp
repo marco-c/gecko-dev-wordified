@@ -7293,7 +7293,7 @@ NS_STYLE_DISPLAY_INLINE_GRID
 /
 The
 next
-two
+4
 entries
 are
 controlled
@@ -7315,6 +7315,14 @@ NS_STYLE_DISPLAY_WEBKIT_BOX
 {
 eCSSKeyword__webkit_inline_box
 NS_STYLE_DISPLAY_WEBKIT_INLINE_BOX
+}
+{
+eCSSKeyword__webkit_flex
+NS_STYLE_DISPLAY_FLEX
+}
+{
+eCSSKeyword__webkit_inline_flex
+NS_STYLE_DISPLAY_INLINE_FLEX
 }
 /
 /
