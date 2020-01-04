@@ -531,7 +531,7 @@ switch
 (
 mClipPathStyle
 .
-GetSizingBox
+GetReferenceBox
 (
 )
 )

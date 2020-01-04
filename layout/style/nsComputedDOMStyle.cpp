@@ -33313,7 +33313,7 @@ svg
 >
 mClipPath
 .
-GetSizingBox
+GetReferenceBox
 (
 )
 )
@@ -33333,7 +33333,7 @@ svg
 >
 mClipPath
 .
-GetSizingBox
+GetReferenceBox
 (
 )
 )
