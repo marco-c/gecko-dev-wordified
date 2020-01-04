@@ -3946,6 +3946,9 @@ WIN32
 Bug
 1170547
 #
+ifndef
+XP_MACOSX
+#
 ifdef
 DEBUG
 if
@@ -4087,6 +4090,11 @@ endif
 /
 /
 DEBUG
+#
+endif
+/
+/
+XP_MACOSX
 #
 endif
 /
