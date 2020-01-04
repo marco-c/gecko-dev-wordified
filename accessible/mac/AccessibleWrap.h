@@ -310,13 +310,6 @@ Shutdown
 override
 ;
 virtual
-void
-InvalidateChildren
-(
-)
-override
-;
-virtual
 bool
 InsertChildAt
 (

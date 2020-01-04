@@ -359,13 +359,6 @@ FocusedChild
 )
 override
 ;
-virtual
-void
-InvalidateChildren
-(
-)
-override
-;
 /
 /
 ActionAccessible
