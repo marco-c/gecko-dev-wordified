@@ -106,6 +106,17 @@ mozilla
 /
 dom
 /
+FontFaceSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FontFaceSetBinding
 .
 h

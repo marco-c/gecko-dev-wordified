@@ -111,6 +111,13 @@ mozilla_SheetType_h
 #
 define
 mozilla_SheetType_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {
