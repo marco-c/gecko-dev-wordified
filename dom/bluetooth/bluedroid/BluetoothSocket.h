@@ -181,6 +181,14 @@ BluetoothSocket
 (
 )
 ;
+void
+SetObserver
+(
+BluetoothSocketObserver
+*
+aObserver
+)
+;
 nsresult
 Connect
 (
@@ -429,6 +437,11 @@ private
 :
 nsresult
 LoadSocketInterface
+(
+)
+;
+void
+Cleanup
 (
 )
 ;
