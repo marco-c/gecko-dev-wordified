@@ -7437,7 +7437,7 @@ clamped
 (
 val
 0
-0xff
+2
 )
 ;
 }
