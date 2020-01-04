@@ -1880,6 +1880,13 @@ FlushShapedWordCaches
 )
 ;
 }
+gfxPlatform
+:
+:
+PurgeSkiaFontCache
+(
+)
+;
 mFontFamilies
 .
 Clear
