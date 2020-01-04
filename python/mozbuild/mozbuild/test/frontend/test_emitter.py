@@ -90,8 +90,6 @@ Exports
     
 GeneratedFile
     
-GeneratedInclude
-    
 GeneratedSources
     
 HostDefines
@@ -5600,7 +5598,7 @@ if
 isinstance
 (
 o
-GeneratedInclude
+LocalInclude
 )
 ]
         
@@ -5609,6 +5607,7 @@ expected
 [
             
 '
+!
 /
 bar
 /
@@ -5616,8 +5615,74 @@ baz
 '
             
 '
+!
 foo
 '
+        
+]
+        
+self
+.
+assertEqual
+(
+generated_includes
+expected
+)
+        
+generated_includes
+=
+[
+o
+.
+path
+.
+full_path
+                              
+for
+o
+in
+objs
+if
+isinstance
+(
+o
+LocalInclude
+)
+]
+        
+expected
+=
+[
+            
+mozpath
+.
+join
+(
+reader
+.
+config
+.
+topobjdir
+'
+bar
+/
+baz
+'
+)
+            
+mozpath
+.
+join
+(
+reader
+.
+config
+.
+topobjdir
+'
+foo
+'
+)
         
 ]
         

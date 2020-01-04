@@ -140,8 +140,6 @@ GeneratedEventWebIDLFile
     
 GeneratedFile
     
-GeneratedInclude
-    
 GeneratedSources
     
 GeneratedWebIDLFile
@@ -4614,13 +4612,6 @@ IPDLFile
             
 (
 '
-GENERATED_INCLUDES
-'
-GeneratedInclude
-)
-            
-(
-'
 PREPROCESSED_TEST_WEBIDL_FILES
 '
 PreprocessedTestWebIDLFile
@@ -4699,6 +4690,15 @@ LOCAL_INCLUDES
 :
             
 if
+(
+not
+isinstance
+(
+local_include
+ObjDirPath
+)
+and
+                    
 not
 os
 .
@@ -4709,6 +4709,7 @@ exists
 local_include
 .
 full_path
+)
 )
 :
                 
