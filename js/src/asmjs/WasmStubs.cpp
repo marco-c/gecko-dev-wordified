@@ -4785,7 +4785,7 @@ tlsDataOffset
 offsetof
 (
 FuncImportTls
-fun
+obj
 )
 callee
 )
