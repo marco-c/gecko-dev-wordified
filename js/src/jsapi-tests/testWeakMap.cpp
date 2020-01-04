@@ -1053,8 +1053,6 @@ trace
 /
 JS_NULL_CLASS_SPEC
 {
-nullptr
-nullptr
 false
 GetKeyDelegate
 }
@@ -1294,8 +1292,6 @@ construct
 JS_GlobalObjectTraceHook
 JS_NULL_CLASS_SPEC
 {
-nullptr
-nullptr
 false
 nullptr
 DelegateObjectMoved
