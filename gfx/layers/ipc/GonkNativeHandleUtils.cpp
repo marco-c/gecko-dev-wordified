@@ -314,7 +314,7 @@ nbytes
 aMsg
 -
 >
-ReadBytes
+ReadBytesInto
 (
 aIter
 &
