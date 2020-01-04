@@ -461,7 +461,7 @@ namespace
 mozilla
 /
 /
-5ms
+250ms
 .
 This
 is
@@ -490,7 +490,7 @@ reason
 #
 define
 PAINTLOCK_EVENT_DELAY
-5
+250
 class
 PresShell
 final
