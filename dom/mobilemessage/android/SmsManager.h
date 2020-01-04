@@ -134,6 +134,8 @@ static
 void
 NotifySmsReceived
 (
+int32_t
+aId
 jni
 :
 :
@@ -152,6 +154,8 @@ Param
 aBody
 int32_t
 aMessageClass
+int64_t
+aSentTimestamp
 int64_t
 aTimestamp
 )

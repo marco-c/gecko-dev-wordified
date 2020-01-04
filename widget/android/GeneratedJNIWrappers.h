@@ -15634,6 +15634,7 @@ jni
 :
 Args
 <
+int32_t
 mozilla
 :
 :
@@ -15655,6 +15656,7 @@ String
 :
 Param
 int32_t
+int64_t
 int64_t
 >
 Args
@@ -15679,7 +15681,7 @@ signature
 =
 "
 (
-Ljava
+ILjava
 /
 lang
 /
@@ -15691,7 +15693,7 @@ lang
 /
 String
 ;
-IJ
+IJJ
 )
 V
 "

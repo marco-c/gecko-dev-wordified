@@ -238,6 +238,8 @@ SmsManager
 :
 NotifySmsReceived
 (
+int32_t
+aId
 jni
 :
 :
@@ -256,6 +258,8 @@ Param
 aBody
 int32_t
 aMessageClass
+int64_t
+aSentTimestamp
 int64_t
 aTimestamp
 )
@@ -283,7 +287,7 @@ id
 (
 )
 =
-0
+aId
 ;
 message
 .
@@ -391,7 +395,7 @@ sentTimestamp
 (
 )
 =
-aTimestamp
+aSentTimestamp
 ;
 message
 .
