@@ -2958,7 +2958,7 @@ calls
 into
 an
 appropriate
-InvokeImport
+callImport
 C
 +
 +
@@ -3017,7 +3017,10 @@ setFramePushed
 Argument
 types
 for
-InvokeImport_
+Module
+:
+:
+callImport_
 *
 :
 static
@@ -3258,7 +3261,10 @@ for
 the
 call
 to
-InvokeImport_
+Module
+:
+:
+callImport_
 *
 .
 ABIArgMIRTypeIter
@@ -3547,7 +3553,7 @@ call
 SymbolicAddress
 :
 :
-InvokeImport_Void
+CallImport_Void
 )
 ;
 masm
@@ -3581,7 +3587,7 @@ call
 SymbolicAddress
 :
 :
-InvokeImport_I32
+CallImport_I32
 )
 ;
 masm
@@ -3630,7 +3636,7 @@ call
 SymbolicAddress
 :
 :
-InvokeImport_I64
+CallImport_I64
 )
 ;
 masm
@@ -3672,7 +3678,7 @@ call
 SymbolicAddress
 :
 :
-InvokeImport_F64
+CallImport_F64
 )
 ;
 masm
@@ -3722,7 +3728,7 @@ call
 SymbolicAddress
 :
 :
-InvokeImport_F64
+CallImport_F64
 )
 ;
 masm
