@@ -1337,9 +1337,11 @@ ReflowScrolledFrame
 nsOverflowAreas
 mContentsOverflowAreas
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mReflowedContentsWithHScrollbar
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mReflowedContentsWithVScrollbar
 ;
@@ -1379,6 +1381,7 @@ show
 the
 horizontal
 scrollbar
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mShowHScrollbar
 ;
@@ -1392,6 +1395,7 @@ show
 the
 vertical
 scrollbar
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mShowVScrollbar
 ;
