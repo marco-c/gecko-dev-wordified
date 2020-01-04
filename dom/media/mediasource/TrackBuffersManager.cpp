@@ -4658,7 +4658,7 @@ InitSegmentRange
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -4861,7 +4861,7 @@ MediaSegmentRange
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -8513,7 +8513,7 @@ if
 (
 mediaRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -9740,7 +9740,7 @@ MediaSegmentRange
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )

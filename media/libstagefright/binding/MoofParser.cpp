@@ -299,7 +299,7 @@ moov
 &
 mInitRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -570,7 +570,7 @@ LastElement
 (
 )
 .
-Extents
+Span
 (
 box
 .
@@ -1106,7 +1106,7 @@ mInitRange
 =
 aFtyp
 .
-Extents
+Span
 (
 aMoov
 )
@@ -3889,7 +3889,7 @@ mMdatRange
 =
 mMdatRange
 .
-Extents
+Span
 (
 sample
 .

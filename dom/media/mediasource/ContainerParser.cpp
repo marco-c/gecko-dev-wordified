@@ -1935,7 +1935,7 @@ if
 (
 mCompleteMediaHeaderRange
 .
-IsNull
+IsEmpty
 (
 )
 )

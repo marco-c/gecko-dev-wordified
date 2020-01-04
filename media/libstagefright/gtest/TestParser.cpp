@@ -790,7 +790,7 @@ parser
 .
 mInitRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -846,7 +846,7 @@ FirstCompleteMediaSegment
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -859,7 +859,7 @@ FirstCompleteMediaHeader
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2327,7 +2327,7 @@ parser
 .
 mInitRange
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2383,7 +2383,7 @@ FirstCompleteMediaSegment
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
@@ -2396,7 +2396,7 @@ FirstCompleteMediaHeader
 (
 )
 .
-IsNull
+IsEmpty
 (
 )
 )
