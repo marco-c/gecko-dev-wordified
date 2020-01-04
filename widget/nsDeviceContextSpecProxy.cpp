@@ -376,7 +376,7 @@ nsIPrintSession
 )
 ;
 return
-rv
+NS_ERROR_FAILURE
 ;
 }
 rv
@@ -423,7 +423,7 @@ RemotePrintJobChild
 )
 ;
 return
-rv
+NS_ERROR_FAILURE
 ;
 }
 return
