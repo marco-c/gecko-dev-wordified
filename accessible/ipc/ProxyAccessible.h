@@ -1654,6 +1654,14 @@ KeyboardShortcut
 (
 )
 ;
+void
+AtkKeyBinding
+(
+nsString
+&
+aBinding
+)
+;
 double
 CurValue
 (
