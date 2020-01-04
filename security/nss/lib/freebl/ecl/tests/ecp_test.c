@@ -164,6 +164,7 @@ M_TimeOperation
 op
 k
 )
+\
 {
 \
 double
@@ -231,8 +232,10 @@ i
 {
 \
 {
+\
 op
 ;
+\
 }
 \
 }
@@ -282,6 +285,7 @@ if
 (
 dUserTime
 )
+\
 printf
 (
 "

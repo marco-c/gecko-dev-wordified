@@ -23782,6 +23782,7 @@ Plo
 )
 \
 {
+\
 unsigned
 long
 long
@@ -23817,6 +23818,7 @@ product
 MP_DIGIT_BIT
 )
 ;
+\
 }
 #
 elif
@@ -23835,6 +23837,7 @@ Plo
 )
 \
 {
+\
 Plo
 =
 asm
@@ -23870,6 +23873,7 @@ a
 b
 )
 ;
+\
 }
 #
 else
@@ -23884,6 +23888,7 @@ Plo
 )
 \
 {
+\
 mp_digit
 a0b1
 a1b0
@@ -24679,6 +24684,7 @@ Plo
 )
 \
 {
+\
 unsigned
 long
 long
@@ -24714,6 +24720,7 @@ square
 MP_DIGIT_BIT
 )
 ;
+\
 }
 #
 elif
@@ -24731,6 +24738,7 @@ Plo
 )
 \
 {
+\
 Plo
 =
 asm
@@ -24764,6 +24772,7 @@ v0
 a
 )
 ;
+\
 }
 #
 else
@@ -24777,6 +24786,7 @@ Plo
 )
 \
 {
+\
 mp_digit
 Pmid
 ;
@@ -25347,7 +25357,6 @@ defined
 MP_NO_DIV_WORD
 )
 )
-\
 &
 &
 !
@@ -27510,6 +27519,7 @@ CMP_AB
 (
 n
 )
+\
 if
 (
 (
@@ -27531,6 +27541,7 @@ n
 ]
 )
 )
+\
 goto
 done
 pa

@@ -83,6 +83,7 @@ Plo
 )
 \
 {
+\
 Plo
 =
 asm
@@ -118,8 +119,8 @@ a
 b
 )
 ;
-}
 \
+}
 /
 *
 This
@@ -188,7 +189,6 @@ carry
 =
 a1b1
 ;
-\
 #
 define
 FOUR_MUL
@@ -200,7 +200,6 @@ ONE_MUL
 ONE_MUL
 \
 ONE_MUL
-\
 #
 define
 SIXTEEN_MUL
@@ -212,7 +211,6 @@ FOUR_MUL
 FOUR_MUL
 \
 FOUR_MUL
-\
 #
 define
 THIRTYTWO_MUL
@@ -220,7 +218,6 @@ THIRTYTWO_MUL
 SIXTEEN_MUL
 \
 SIXTEEN_MUL
-\
 #
 define
 ONETWENTYEIGHT_MUL
@@ -232,7 +229,6 @@ THIRTYTWO_MUL
 THIRTYTWO_MUL
 \
 THIRTYTWO_MUL
-\
 #
 define
 EXPAND_256
@@ -405,7 +401,6 @@ a_len
 ;
 \
 }
-\
 #
 define
 FUNC_NAME
@@ -433,7 +428,6 @@ c
 mp_digit
 carry
 )
-\
 #
 define
 DECLARE_MUL_256
@@ -480,7 +474,6 @@ carry
 ;
 \
 }
-\
 /
 *
 Expanding
@@ -717,7 +710,6 @@ a_i
 +
 a1b1
 ;
-\
 /
 *
 Need

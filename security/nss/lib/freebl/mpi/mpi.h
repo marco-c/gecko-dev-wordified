@@ -2025,6 +2025,7 @@ MP_CHECKOK
 (
 x
 )
+\
 if
 (
 MP_OKAY
@@ -2037,6 +2038,7 @@ x
 )
 )
 )
+\
 goto
 CLEANUP
 #
@@ -2045,6 +2047,7 @@ MP_CHECKERR
 (
 x
 )
+\
 if
 (
 MP_OKAY
@@ -2057,6 +2060,7 @@ x
 )
 )
 )
+\
 goto
 CLEANUP
 #
@@ -2158,7 +2162,9 @@ ARGCHK
 X
 Y
 )
+\
 {
+\
 if
 (
 !
@@ -2167,12 +2173,15 @@ X
 )
 )
 {
+\
 return
 (
 Y
 )
 ;
+\
 }
+\
 }
 #
 elif

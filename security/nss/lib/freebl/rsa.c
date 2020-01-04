@@ -5364,7 +5364,6 @@ isn
 t
 valid
 find
-*
 another
 .
 *

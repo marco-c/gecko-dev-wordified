@@ -1810,6 +1810,7 @@ add
 subtract
 method
 from
+\
 *
 standard
 *

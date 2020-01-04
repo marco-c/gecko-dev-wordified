@@ -553,9 +553,8 @@ Connect
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 server_
@@ -585,14 +584,6 @@ receive
 another
 packet
 .
-client_
--
->
-SetExpectedReadError
-(
-false
-)
-;
 server_
 -
 >
@@ -1150,9 +1141,8 @@ value
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 client_
@@ -1190,9 +1180,8 @@ kTlsAlertUnexpectedMessage
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 client_

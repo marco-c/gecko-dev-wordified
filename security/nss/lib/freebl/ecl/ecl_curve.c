@@ -101,6 +101,7 @@ CHECK
 (
 func
 )
+\
 if
 (
 (
@@ -111,13 +112,16 @@ func
 NULL
 )
 {
+\
 res
 =
 0
 ;
+\
 goto
 CLEANUP
 ;
+\
 }
 /
 *

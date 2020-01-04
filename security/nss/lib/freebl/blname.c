@@ -1,7 +1,6 @@
 /
 *
 *
-*
 blname
 .
 c
@@ -12,9 +11,6 @@ freebl
 library
 name
 .
-*
-*
-*
 *
 This
 Source
@@ -29,7 +25,6 @@ of
 the
 Mozilla
 Public
-*
 *
 License
 v
@@ -49,7 +44,6 @@ not
 distributed
 with
 this
-*
 *
 file
 You

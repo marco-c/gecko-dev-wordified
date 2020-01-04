@@ -121,6 +121,7 @@ CHECK_OK
 (
 func
 )
+\
 if
 (
 func
@@ -128,6 +129,7 @@ func
 =
 NULL
 )
+\
 goto
 cleanup
 #
@@ -136,6 +138,7 @@ CHECK_SEC_OK
 (
 func
 )
+\
 if
 (
 SECSuccess
@@ -147,6 +150,7 @@ rv
 func
 )
 )
+\
 goto
 cleanup
 /

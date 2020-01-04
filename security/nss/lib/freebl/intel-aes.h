@@ -621,8 +621,8 @@ keysize
 16
 ?
 intel_aes_encrypt_ecb_128
-:
 \
+:
 (
 keysize
 )
@@ -631,8 +631,8 @@ keysize
 24
 ?
 intel_aes_encrypt_ecb_192
-:
 \
+:
 intel_aes_encrypt_ecb_256
 )
 \
@@ -646,8 +646,8 @@ keysize
 16
 ?
 intel_aes_decrypt_ecb_128
-:
 \
+:
 (
 keysize
 )
@@ -656,8 +656,8 @@ keysize
 24
 ?
 intel_aes_decrypt_ecb_192
-:
 \
+:
 intel_aes_decrypt_ecb_256
 )
 )
@@ -684,8 +684,8 @@ keysize
 16
 ?
 intel_aes_encrypt_cbc_128
-:
 \
+:
 (
 keysize
 )
@@ -694,8 +694,8 @@ keysize
 24
 ?
 intel_aes_encrypt_cbc_192
-:
 \
+:
 intel_aes_encrypt_cbc_256
 )
 \
@@ -709,8 +709,8 @@ keysize
 16
 ?
 intel_aes_decrypt_cbc_128
-:
 \
+:
 (
 keysize
 )
@@ -719,8 +719,8 @@ keysize
 24
 ?
 intel_aes_decrypt_cbc_192
-:
 \
+:
 intel_aes_decrypt_cbc_256
 )
 )
@@ -740,8 +740,8 @@ nr
 10
 ?
 intel_aes_encrypt_ctr_128
-:
 \
+:
 (
 nr
 )
@@ -750,8 +750,8 @@ nr
 12
 ?
 intel_aes_encrypt_ctr_192
-:
 \
+:
 intel_aes_encrypt_ctr_256
 )
 #

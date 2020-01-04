@@ -266,7 +266,9 @@ PUTU32
 ct
 st
 )
+\
 {
+\
 *
 (
 (
@@ -283,6 +285,7 @@ SHA_HTONL
 st
 )
 ;
+\
 }
 #
 else
@@ -315,7 +318,6 @@ pt
 <
 24
 )
-\
 ^
 (
 (
@@ -331,7 +333,6 @@ pt
 <
 16
 )
-\
 ^
 (
 (
@@ -347,7 +348,6 @@ pt
 <
 8
 )
-\
 ^
 (
 (
@@ -368,6 +368,7 @@ PUTU32
 ct
 st
 )
+\
 {
 \
 (
@@ -444,6 +445,7 @@ PRUint8
 st
 )
 ;
+\
 }
 #
 endif
@@ -934,8 +936,8 @@ ir
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP0222
 (
 (
@@ -947,16 +949,16 @@ t1
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP3033
 (
 t1
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP4404
 (
 (
@@ -983,16 +985,16 @@ t0
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP0222
 (
 t0
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP3033
 (
 (
@@ -1004,8 +1006,8 @@ il
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP4404
 (
 il
@@ -1176,8 +1178,8 @@ xr
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP0222
 (
 (
@@ -1189,8 +1191,8 @@ xr
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP3033
 (
 (
@@ -1202,8 +1204,8 @@ xr
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP4404
 (
 (
@@ -1230,8 +1232,8 @@ xl
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP0222
 (
 (
@@ -1243,8 +1245,8 @@ xl
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP3033
 (
 (
@@ -1256,8 +1258,8 @@ xl
 &
 0xff
 )
-\
 ^
+\
 CAMELLIA_SP4404
 (
 xl

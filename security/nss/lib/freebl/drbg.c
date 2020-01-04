@@ -267,8 +267,10 @@ must
 be
 less
 than
+\
 *
 PRNG_MAX_ADDITIONAL_BYTES
+\
 *
 /
 /
