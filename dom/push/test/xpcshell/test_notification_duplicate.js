@@ -276,11 +276,9 @@ notifyPromise
 =
 promiseObserverNotification
 (
-'
-push
--
-message
-'
+PushServiceComponent
+.
+pushTopic
 )
 ;
 let

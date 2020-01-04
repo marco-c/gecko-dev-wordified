@@ -350,13 +350,9 @@ notifyPromise
 =
 promiseObserverNotification
 (
-'
-push
--
-subscription
--
-change
-'
+PushServiceComponent
+.
+subscriptionChangeTopic
 _
 =
 >

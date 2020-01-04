@@ -1190,11 +1190,9 @@ messageReceived
 =
 promiseObserverNotification
 (
-'
-push
--
-message
-'
+PushServiceComponent
+.
+pushTopic
 (
 subject
 data
