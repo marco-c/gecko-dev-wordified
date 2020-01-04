@@ -4929,7 +4929,6 @@ Result
 ERROR_OCSP_MALFORMED_RESPONSE
 ;
 }
-static
 uint8_t
 hashBuf
 [
