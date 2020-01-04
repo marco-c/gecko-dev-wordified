@@ -4495,6 +4495,13 @@ buffer
 -
 >
 len
+&
+&
+!
+buffer
+-
+>
+in_error
 )
 {
 if

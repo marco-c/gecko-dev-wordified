@@ -2756,11 +2756,11 @@ last_syllable
 syllable
 ;
 hb_glyph_info_t
-info
+ginfo
 =
 dottedcircle
 ;
-info
+ginfo
 .
 cluster
 =
@@ -2773,7 +2773,7 @@ cur
 .
 cluster
 ;
-info
+ginfo
 .
 mask
 =
@@ -2786,7 +2786,7 @@ cur
 .
 mask
 ;
-info
+ginfo
 .
 syllable
 (
@@ -2808,7 +2808,7 @@ buffer
 >
 output_info
 (
-info
+ginfo
 )
 ;
 }
@@ -3023,6 +3023,12 @@ NULL
 preprocess_text
 *
 /
+NULL
+/
+*
+postprocess_glyphs
+*
+/
 HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 NULL
 /
@@ -3077,6 +3083,12 @@ NULL
 /
 *
 preprocess_text
+*
+/
+NULL
+/
+*
+postprocess_glyphs
 *
 /
 HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT

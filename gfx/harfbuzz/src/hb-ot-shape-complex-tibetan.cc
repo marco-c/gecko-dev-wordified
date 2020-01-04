@@ -352,6 +352,12 @@ NULL
 preprocess_text
 *
 /
+NULL
+/
+*
+postprocess_glyphs
+*
+/
 HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 NULL
 /
