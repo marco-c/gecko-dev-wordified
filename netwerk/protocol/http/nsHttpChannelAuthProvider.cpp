@@ -4974,7 +4974,7 @@ if
 loadInfo
 -
 >
-GetExternalContentPolicyType
+GetContentPolicyType
 (
 )
 =
@@ -5085,7 +5085,7 @@ if
 loadInfo
 -
 >
-GetExternalContentPolicyType
+GetContentPolicyType
 (
 )
 =
@@ -5101,7 +5101,7 @@ TYPE_DOCUMENT
 loadInfo
 -
 >
-GetExternalContentPolicyType
+GetContentPolicyType
 (
 )
 =

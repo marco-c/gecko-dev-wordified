@@ -2699,7 +2699,7 @@ resultPrincipal
 loadInfo
 -
 >
-InternalContentPolicyType
+GetContentPolicyType
 (
 )
 )
@@ -2794,7 +2794,7 @@ TYPE_DOCUMENT
 loadInfo
 -
 >
-InternalContentPolicyType
+GetContentPolicyType
 (
 )
 )
