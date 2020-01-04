@@ -470,7 +470,7 @@ eq
 }
 static
 bool
-DefinitelyEqualURIsAndPrincipal
+MaybeUnresolvedURIEquals
 (
 css
 :
@@ -493,6 +493,15 @@ aURI1
 aURI2
 |
 |
+/
+/
+handle
+null
+=
+=
+null
+and
+optimize
 (
 aURI1
 &
@@ -503,7 +512,7 @@ aURI2
 aURI1
 -
 >
-DefinitelyEqualURIsAndPrincipal
+MaybeUnresolvedURIEquals
 (
 *
 aURI2
@@ -17327,7 +17336,7 @@ nsChangeHint
 if
 (
 !
-DefinitelyEqualURIsAndPrincipal
+MaybeUnresolvedURIEquals
 (
 mBinding
 aNewData
