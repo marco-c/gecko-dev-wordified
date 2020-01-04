@@ -1543,9 +1543,8 @@ devices
 mulet
 /
 simulators
-graphene
 and
-b2gdroid
+graphene
 .
 /
 /
