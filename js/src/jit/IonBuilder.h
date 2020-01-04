@@ -7125,8 +7125,10 @@ jsid
 id
 )
 ;
-MOZ_MUST_USE
+ResultWithOOM
+<
 bool
+>
 testNotDefinedProperty
 (
 MDefinition
