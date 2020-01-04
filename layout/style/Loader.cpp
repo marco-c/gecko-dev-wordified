@@ -1781,6 +1781,7 @@ has
 been
 called
 .
+MOZ_INIT_OUTSIDE_CTOR
 nsresult
 mStatus
 ;
