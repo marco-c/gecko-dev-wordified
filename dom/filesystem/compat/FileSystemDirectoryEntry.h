@@ -241,7 +241,7 @@ override
 virtual
 already_AddRefed
 <
-DirectoryReader
+FileSystemDirectoryReader
 >
 CreateReader
 (

@@ -124,7 +124,7 @@ h
 #
 include
 "
-RootDirectoryReader
+FileSystemRootDirectoryReader
 .
 h
 "
@@ -265,7 +265,7 @@ FILESYSTEM_DOM_PATH_SEPARATOR_LITERAL
 }
 already_AddRefed
 <
-DirectoryReader
+FileSystemDirectoryReader
 >
 FileSystemRootDirectoryEntry
 :
@@ -277,12 +277,12 @@ const
 {
 RefPtr
 <
-DirectoryReader
+FileSystemDirectoryReader
 >
 reader
 =
 new
-RootDirectoryReader
+FileSystemRootDirectoryReader
 (
 GetParentObject
 (

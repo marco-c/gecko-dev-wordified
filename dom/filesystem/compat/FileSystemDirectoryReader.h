@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DirectoryReader_h
+mozilla_dom_FileSystemDirectoryReader_h
 #
 define
-mozilla_dom_DirectoryReader_h
+mozilla_dom_FileSystemDirectoryReader_h
 #
 include
 "
@@ -179,7 +179,7 @@ class
 FileSystem
 ;
 class
-DirectoryReader
+FileSystemDirectoryReader
 :
 public
 nsISupports
@@ -191,10 +191,10 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-DirectoryReader
+FileSystemDirectoryReader
 )
 explicit
-DirectoryReader
+FileSystemDirectoryReader
 (
 nsIGlobalObject
 *
@@ -264,7 +264,7 @@ protected
 :
 virtual
 ~
-DirectoryReader
+FileSystemDirectoryReader
 (
 )
 ;
@@ -307,4 +307,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DirectoryReader_h
+mozilla_dom_FileSystemDirectoryReader_h
