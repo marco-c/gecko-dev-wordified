@@ -3592,7 +3592,6 @@ favicon
 getFaviconAsImage
 (
 null
-null
 PrivateBrowsingUtils
 .
 isWindowPrivate
