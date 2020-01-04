@@ -821,6 +821,7 @@ VideoToolbox
 for
 decoding
 .
+virtual
 nsresult
 ProcessDecode
 (
