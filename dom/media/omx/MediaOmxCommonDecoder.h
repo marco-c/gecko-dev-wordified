@@ -326,6 +326,11 @@ ResumeStateMachine
 (
 )
 ;
+void
+DisableStateMachineAudioOffloading
+(
+)
+;
 MediaOmxCommonReader
 *
 mReader
