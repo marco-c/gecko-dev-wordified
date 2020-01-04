@@ -582,7 +582,10 @@ cairo_font_face_t
 *
 mFontFace
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxFontShaper
 >

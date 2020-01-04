@@ -753,8 +753,10 @@ mCoreTextShaper
 {
 mCoreTextShaper
 =
-new
+MakeUnique
+<
 gfxCoreTextShaper
+>
 (
 this
 )

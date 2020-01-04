@@ -99,13 +99,6 @@ GFX_DRAWABLE_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h

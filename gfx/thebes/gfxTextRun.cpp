@@ -13048,7 +13048,7 @@ if
 dt
 )
 {
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >
@@ -16302,6 +16302,10 @@ aAppUnitsPerDevPixel
 {
 return
 mCachedEllipsisTextRun
+.
+get
+(
+)
 ;
 }
 /
@@ -16435,8 +16439,11 @@ nullptr
 ;
 }
 mCachedEllipsisTextRun
-=
+.
+reset
+(
 textRun
+)
 ;
 textRun
 -

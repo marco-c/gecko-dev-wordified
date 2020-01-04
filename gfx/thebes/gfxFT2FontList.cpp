@@ -9221,8 +9221,12 @@ fe
 >
 mUserFontData
 =
-new
+MakeUnique
+<
 gfxUserFontData
+>
+(
+)
 ;
 fe
 -

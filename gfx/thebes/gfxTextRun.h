@@ -7321,7 +7321,10 @@ appUnitsPerDevPixel
 size
 and
 orientation
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxTextRun
 >

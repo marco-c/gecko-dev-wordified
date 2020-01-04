@@ -1623,8 +1623,12 @@ aFontEntry
 >
 mUserFontData
 =
-new
+MakeUnique
+<
 gfxUserFontData
+>
+(
+)
 ;
 }
 gfxUserFontData
@@ -1635,6 +1639,10 @@ aFontEntry
 -
 >
 mUserFontData
+.
+get
+(
+)
 ;
 userFontData
 -
@@ -6675,6 +6683,10 @@ aFontEntry
 -
 >
 mUserFontData
+.
+get
+(
+)
 ;
 if
 (

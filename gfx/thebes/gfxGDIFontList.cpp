@@ -690,8 +690,11 @@ mUnicodeRanges
 )
 {
 mUserFontData
-=
+.
+reset
+(
 aUserFontData
+)
 ;
 mStyle
 =

@@ -2373,7 +2373,10 @@ mPostscriptNames
 ;
 }
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ExtraNames
 >
@@ -2392,7 +2395,10 @@ takes
 a
 long
 time
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <
@@ -2415,7 +2421,10 @@ takes
 a
 long
 time
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <
@@ -2440,7 +2449,10 @@ mozilla
 :
 RangedArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 PrefFontList
 >

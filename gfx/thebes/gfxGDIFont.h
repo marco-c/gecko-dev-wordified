@@ -621,7 +621,10 @@ sfnt
 fonts
 only
 )
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <
@@ -648,7 +651,10 @@ fixed
 -
 point
 pixels
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <

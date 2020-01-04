@@ -107,6 +107,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
 <
 dwrite
 .
@@ -510,7 +519,10 @@ fixed
 -
 point
 pixels
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <

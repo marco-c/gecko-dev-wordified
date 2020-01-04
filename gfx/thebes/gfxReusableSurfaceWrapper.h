@@ -76,13 +76,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 *
 *
