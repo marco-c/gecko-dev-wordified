@@ -239,12 +239,6 @@ mozilla
 namespace
 dom
 {
-extern
-bool
-IsAudioAPIEnabled
-(
-)
-;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLAudioElement
