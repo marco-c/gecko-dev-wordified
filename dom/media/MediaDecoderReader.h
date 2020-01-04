@@ -445,7 +445,10 @@ SeekPromise
 =
 MozPromise
 <
-int64_t
+media
+:
+:
+TimeUnit
 nsresult
 IsExclusive
 >

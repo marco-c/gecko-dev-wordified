@@ -9568,10 +9568,6 @@ mSeekPromise
 Resolve
 (
 aTime
-.
-ToMicroseconds
-(
-)
 __func__
 )
 ;
@@ -9719,10 +9715,6 @@ mSeekPromise
 Resolve
 (
 aTime
-.
-ToMicroseconds
-(
-)
 __func__
 )
 ;
