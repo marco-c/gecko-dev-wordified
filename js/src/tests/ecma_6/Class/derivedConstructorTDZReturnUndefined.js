@@ -1,3 +1,6 @@
+var
+test
+=
 class
 foo
 extends
@@ -71,6 +74,18 @@ foo
 this
 |
 "
+)
+;
+;
+if
+(
+classesEnabled
+(
+)
+)
+eval
+(
+test
 )
 ;
 if

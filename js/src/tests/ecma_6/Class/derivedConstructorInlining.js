@@ -1,3 +1,6 @@
+var
+test
+=
 /
 /
 Since
@@ -95,6 +98,18 @@ intermediate
 this
 |
 "
+)
+;
+;
+if
+(
+classesEnabled
+(
+)
+)
+eval
+(
+test
 )
 ;
 if
