@@ -4145,7 +4145,7 @@ DXGID3D9TextureData
 gfxWindowsPlatform
 :
 :
-sD3D9SharedTextureUsed
+sD3D9SharedTextures
 -
 =
 mDesc
@@ -4340,7 +4340,7 @@ surfaceDesc
 gfxWindowsPlatform
 :
 :
-sD3D9SharedTextureUsed
+sD3D9SharedTextures
 +
 =
 aSize

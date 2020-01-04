@@ -235,7 +235,7 @@ aMemoryUsed
 gfxWindowsPlatform
 :
 :
-sD3D11MemoryUsed
+sD3D11SharedTextures
 +
 =
 mMemoryUsed
@@ -345,7 +345,7 @@ refCnt
 gfxWindowsPlatform
 :
 :
-sD3D11MemoryUsed
+sD3D11SharedTextures
 -
 =
 mMemoryUsed
