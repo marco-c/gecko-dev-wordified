@@ -694,7 +694,7 @@ container
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoRubyTextContainerArray
 final
 :
