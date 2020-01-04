@@ -2827,7 +2827,7 @@ abs_symbols_dir
         
 self
 .
-download_unpack
+download_unzip
 (
 self
 .
@@ -3004,7 +3004,7 @@ query_symbols_url
         
 self
 .
-download_unpack
+download_unzip
 (
 self
 .
@@ -3020,7 +3020,7 @@ abs_symbols_dir
         
 self
 .
-download_unpack
+download_unzip
 (
 self
 .
