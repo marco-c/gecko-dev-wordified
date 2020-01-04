@@ -222,7 +222,7 @@ mozilla
 gfx
 :
 :
-VRStateValidFlags
+VRDisplayCapabilityFlags
 >
 :
 public
@@ -234,17 +234,17 @@ mozilla
 gfx
 :
 :
-VRStateValidFlags
+VRDisplayCapabilityFlags
 mozilla
 :
 :
 gfx
 :
 :
-VRStateValidFlags
+VRDisplayCapabilityFlags
 :
 :
-State_All
+Cap_All
 >
 {
 }
@@ -542,7 +542,7 @@ WriteParam
 aMsg
 aParam
 .
-mSupportedSensorBits
+mCapabilityFlags
 )
 ;
 WriteParam
@@ -724,7 +724,7 @@ aIter
 aResult
 -
 >
-mSupportedSensorBits
+mCapabilityFlags
 )
 )
 |
