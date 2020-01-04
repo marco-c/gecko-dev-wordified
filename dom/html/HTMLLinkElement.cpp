@@ -2470,6 +2470,9 @@ preconnect
 "
 icon
 "
+"
+search
+"
 nullptr
 }
 ;
