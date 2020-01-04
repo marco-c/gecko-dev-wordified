@@ -5499,7 +5499,7 @@ counter
 =
 %
 "
-PRIu32
+PRIuSIZE
 "
 level
 =
