@@ -360,6 +360,9 @@ nsMemoryReporterManager
 h
 "
 #
+ifdef
+MOZ_STACKWALKING
+#
 include
 "
 mozilla
@@ -368,6 +371,8 @@ StackWalk_windows
 .
 h
 "
+#
+endif
 class
 PlatformData
 {
@@ -1244,6 +1249,9 @@ kSuspendFailed
 )
 return
 ;
+#
+ifdef
+MOZ_STACKWALKING
 /
 /
 Threads
@@ -1460,6 +1468,8 @@ ReleaseStackWalkWorkaroundLock
 )
 ;
 }
+#
+endif
 /
 /
 Using
