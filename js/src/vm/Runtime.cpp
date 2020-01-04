@@ -1052,15 +1052,6 @@ hadOutOfMemory
 false
 )
 #
-ifdef
-DEBUG
-handlingInitFailure
-(
-false
-)
-#
-endif
-#
 if
 defined
 (
