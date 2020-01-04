@@ -181,6 +181,7 @@ prop
 in
 validatedData
 )
+{
 this
 [
 prop
@@ -191,6 +192,7 @@ validatedData
 prop
 ]
 ;
+}
 this
 .
 name

@@ -2486,8 +2486,6 @@ roomUrl
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2495,7 +2493,6 @@ _renderDefaultIcon
 (
 )
 ;
-}
 }
 }
 )
