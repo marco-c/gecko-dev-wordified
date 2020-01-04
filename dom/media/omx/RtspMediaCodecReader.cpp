@@ -507,7 +507,7 @@ MetadataPromise
 RtspMediaCodecReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 {
@@ -534,7 +534,7 @@ p
 MediaCodecReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 ;

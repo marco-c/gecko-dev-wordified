@@ -1406,7 +1406,7 @@ MetadataPromise
 MediaFormatReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 {
