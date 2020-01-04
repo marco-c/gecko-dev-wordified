@@ -329,6 +329,13 @@ PropTypes
 bool
 .
 isRequired
+indent
+:
+PropTypes
+.
+number
+.
+isRequired
 }
 getDefaultProps
 :
@@ -341,6 +348,9 @@ return
 open
 :
 false
+indent
+:
+0
 }
 ;
 }
