@@ -661,9 +661,8 @@ final
 ExtendedJSONObject
 noCrypto
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_JSON_NO_CRYPTO
 )
@@ -786,9 +785,8 @@ infoCollections
 new
 InfoCollections
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_JSON_OLD_CRYPTO
 )
@@ -946,9 +944,8 @@ infoCollections
 new
 InfoCollections
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_JSON_NEW_CRYPTO
 )
@@ -1171,9 +1168,8 @@ infoCollections
 new
 InfoCollections
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_JSON_NEW_CRYPTO
 )
@@ -1449,9 +1445,8 @@ infoCollections
 new
 InfoCollections
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_JSON_NEW_CRYPTO
 )

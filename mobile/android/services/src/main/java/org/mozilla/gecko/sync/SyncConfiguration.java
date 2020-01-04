@@ -1205,9 +1205,8 @@ final
 ExtendedJSONObject
 o
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 json
 )
@@ -1466,9 +1465,8 @@ try
 ExtendedJSONObject
 o
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 json
 )
