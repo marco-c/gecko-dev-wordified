@@ -619,9 +619,6 @@ input_str
 now
 =
 None
-datetime_format
-=
-False
 )
 :
     
@@ -653,19 +650,6 @@ the
 definition
 of
 now
-    
-:
-param
-boolean
-datetime_format
-:
-Set
-True
-to
-get
-a
-datetime
-output
     
 :
 returns
@@ -708,18 +692,6 @@ value_of
 input_str
 )
     
-if
-datetime_format
-is
-True
-:
-        
-return
-time
-    
-else
-:
-        
 #
 Sorta
 a
@@ -736,7 +708,7 @@ does
 not
 like
 the
-        
+    
 #
 ISO
 dates
@@ -753,7 +725,7 @@ added
 .
 .
 .
-        
+    
 return
 time
 .
@@ -767,28 +739,12 @@ Z
 def
 current_json_time
 (
-datetime_format
-=
-False
 )
 :
     
 '
 '
 '
-    
-:
-param
-boolean
-datetime_format
-:
-Set
-True
-to
-get
-a
-datetime
-output
     
 :
 returns
@@ -806,24 +762,6 @@ time
 '
 '
     
-if
-datetime_format
-is
-True
-:
-        
-return
-datetime
-.
-datetime
-.
-utcnow
-(
-)
-    
-else
-:
-        
 return
 datetime
 .
