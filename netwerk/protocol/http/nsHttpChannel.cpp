@@ -18780,14 +18780,6 @@ mInterceptCache
 INTERCEPTED
 )
 {
-cacheEntryOpenFlags
-|
-=
-nsICacheStorage
-:
-:
-OPEN_INTERCEPTED
-;
 DebugOnly
 <
 bool
