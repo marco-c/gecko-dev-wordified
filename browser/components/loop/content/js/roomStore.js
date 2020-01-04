@@ -2105,7 +2105,7 @@ mozL10n
 get
 (
 "
-share_email_subject6
+share_email_subject7
 "
 )
 ;
@@ -2116,7 +2116,7 @@ mozL10n
 get
 (
 "
-share_email_body6
+share_email_body7
 "
 {
 callUrl
@@ -2135,7 +2135,7 @@ mozL10n
 get
 (
 "
-share_email_footer
+share_email_footer2
 "
 )
 ;
