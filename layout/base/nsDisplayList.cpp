@@ -43589,6 +43589,9 @@ mOpacity
 1
 .
 0f
+&
+&
+mHandleOpacity
 )
 {
 first
@@ -44398,6 +44401,9 @@ mOpacity
 1
 .
 0f
+&
+&
+mHandleOpacity
 )
 {
 first
