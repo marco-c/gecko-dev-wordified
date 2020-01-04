@@ -3894,6 +3894,11 @@ if
 window
 .
 arguments
+&
+&
+window
+.
+arguments
 [
 0
 ]
