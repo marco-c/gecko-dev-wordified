@@ -6354,7 +6354,7 @@ false
 return
 mg
 .
-declareExport
+declareFuncExport
 (
 Move
 (
@@ -6494,7 +6494,7 @@ false
 return
 mg
 .
-declareExport
+declareFuncExport
 (
 Move
 (

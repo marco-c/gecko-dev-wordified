@@ -12013,17 +12013,17 @@ the
 /
 /
 module
-ExportVector
+FuncExportVector
 .
 uint32_t
-exportIndex
+funcExportIndex
 ;
 if
 (
 !
 mg_
 .
-declareExport
+declareFuncExport
 (
 Move
 (
@@ -12035,7 +12035,7 @@ index
 (
 )
 &
-exportIndex
+funcExportIndex
 )
 )
 return
@@ -12068,7 +12068,7 @@ AsmJSExports
 .
 MOZ_ASSERT
 (
-exportIndex
+funcExportIndex
 <
 =
 asmJSMetadata_
@@ -12082,7 +12082,7 @@ length
 )
 ;
 return
-exportIndex
+funcExportIndex
 <
 asmJSMetadata_
 -

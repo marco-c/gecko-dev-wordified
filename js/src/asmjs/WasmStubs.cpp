@@ -746,9 +746,9 @@ MacroAssembler
 &
 masm
 const
-Export
+FuncExport
 &
-exp
+fe
 bool
 usesHeap
 )
@@ -1319,7 +1319,7 @@ AlignBytes
 (
 StackArgBytes
 (
-exp
+fe
 .
 sig
 (
@@ -1361,7 +1361,7 @@ for
 ABIArgValTypeIter
 iter
 (
-exp
+fe
 .
 sig
 (
@@ -1993,7 +1993,7 @@ CallSiteDesc
 :
 Relative
 )
-exp
+fe
 .
 funcIndex
 (
@@ -2077,7 +2077,7 @@ argv
 ]
 switch
 (
-exp
+fe
 .
 sig
 (

@@ -222,9 +222,6 @@ WasmInstanceObject
 namespace
 wasm
 {
-class
-ExportMap
-;
 /
 /
 Instance
@@ -620,7 +617,7 @@ JSContext
 *
 cx
 uint32_t
-exportIndex
+funcExportIndex
 CallArgs
 args
 )
