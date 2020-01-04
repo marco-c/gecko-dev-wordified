@@ -273,7 +273,7 @@ magic
 -
 based
 on
-nsSVGUseElement
+SVGUseElement
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 SVGMPathElement
