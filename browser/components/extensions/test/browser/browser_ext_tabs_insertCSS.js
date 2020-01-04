@@ -342,7 +342,11 @@ checkCSS
 .
 then
 (
+(
+[
 result
+]
+)
 =
 >
 {
