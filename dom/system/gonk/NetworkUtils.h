@@ -993,6 +993,7 @@ nsString
 mCurExternalIfname
 ;
 long
+long
 mThreshold
 ;
 long
