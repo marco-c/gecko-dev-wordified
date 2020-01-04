@@ -414,7 +414,7 @@ bool
 aIsOnlyNode
 )
 ;
-void
+nsresult
 CreateAudioChannelAgent
 (
 )
