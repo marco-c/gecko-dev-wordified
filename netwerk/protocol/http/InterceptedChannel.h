@@ -167,9 +167,6 @@ HttpChannelChild
 class
 nsHttpResponseHead
 ;
-class
-InterceptStreamListener
-;
 /
 /
 An
@@ -465,10 +462,6 @@ override
 NS_IMETHOD
 FinishSynthesizedResponse
 (
-const
-nsACString
-&
-aFinalURLSpec
 )
 override
 ;
@@ -611,9 +604,9 @@ the
 actual
 channel
 .
-RefPtr
+nsCOMPtr
 <
-InterceptStreamListener
+nsIStreamListener
 >
 mStreamListener
 ;
@@ -627,7 +620,7 @@ aChannel
 nsINetworkInterceptController
 *
 aController
-InterceptStreamListener
+nsIStreamListener
 *
 aListener
 )
@@ -641,10 +634,6 @@ override
 NS_IMETHOD
 FinishSynthesizedResponse
 (
-const
-nsACString
-&
-aFinalURLSpec
 )
 override
 ;
