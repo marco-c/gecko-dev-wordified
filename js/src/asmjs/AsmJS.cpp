@@ -11507,7 +11507,7 @@ if
 !
 JitOptions
 .
-wasmTestMode
+asmJSAtomicsEnable
 )
 return
 failCurrentOffset

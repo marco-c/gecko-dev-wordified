@@ -381,6 +381,9 @@ bool
 osr
 ;
 bool
+asmJSAtomicsEnable
+;
+bool
 wasmTestMode
 ;
 bool
