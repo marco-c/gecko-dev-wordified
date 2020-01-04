@@ -12460,6 +12460,11 @@ is
 /
 stopped
 .
+case
+Cr
+.
+NS_ERROR_PARSED_DATA_CACHED
+:
 return
 ;
 /
