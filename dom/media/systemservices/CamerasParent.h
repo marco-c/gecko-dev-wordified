@@ -712,6 +712,16 @@ aWhy
 )
 override
 ;
+virtual
+bool
+RecvEnsureInitialized
+(
+const
+CaptureEngine
+&
+)
+override
+;
 nsIThread
 *
 GetBackgroundThread
