@@ -5495,6 +5495,11 @@ id
 "
 testframe
 "
+"
+allowfullscreen
+"
+:
+true
 }
 )
 )
