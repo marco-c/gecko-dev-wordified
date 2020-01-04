@@ -69,10 +69,10 @@ properties
 /
 #
 ifndef
-nsCSSPropertySet_h__
+nsCSSPropertyIDSet_h__
 #
 define
-nsCSSPropertySet_h__
+nsCSSPropertyIDSet_h__
 #
 include
 "
@@ -113,7 +113,7 @@ CHAR_BIT
 *
 *
 *
-nsCSSPropertySet
+nsCSSPropertyIDSet
 maintains
 a
 set
@@ -152,11 +152,11 @@ set
 *
 /
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 {
 public
 :
-nsCSSPropertySet
+nsCSSPropertyIDSet
 (
 )
 {
@@ -413,7 +413,7 @@ bool
 Equals
 (
 const
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aOther
 )
@@ -615,7 +615,7 @@ endif
 !
 defined
 (
-nsCSSPropertySet_h__
+nsCSSPropertyIDSet_h__
 )
 *
 /

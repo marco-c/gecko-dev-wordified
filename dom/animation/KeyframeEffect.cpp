@@ -239,7 +239,7 @@ ReportToConsole
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -3582,10 +3582,10 @@ and
 mIsRunningOnCompositor
 flags
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 winningInCascadeProperties
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 runningOnCompositorProperties
 ;
 for
@@ -3743,7 +3743,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aSetProperties
 )

@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -1989,7 +1989,7 @@ block
 .
 *
 /
-nsCSSPropertySet
+nsCSSPropertyIDSet
 mPropertiesSet
 ;
 /
@@ -2007,7 +2007,7 @@ important
 .
 *
 /
-nsCSSPropertySet
+nsCSSPropertyIDSet
 mPropertiesImportant
 ;
 /

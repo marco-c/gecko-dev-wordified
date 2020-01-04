@@ -246,7 +246,7 @@ GetPresShellForContent
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -3556,7 +3556,7 @@ t
 change
 it
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 properties
 ;
 for
@@ -3637,7 +3637,7 @@ aStyleContext
 EffectSet
 &
 aEffectSet
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aPropertiesOverridden
 )
@@ -3653,7 +3653,7 @@ kRecords
 propertiesToTrack
 ;
 {
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesToTrackAsSet
 ;
 for
@@ -3962,7 +3962,7 @@ usual
 cascade
 applies
 .
-nsCSSPropertySet
+nsCSSPropertyIDSet
 overriddenProperties
 ;
 if
@@ -3983,7 +3983,7 @@ changed
 =
 false
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 animatedProperties
 ;
 /
