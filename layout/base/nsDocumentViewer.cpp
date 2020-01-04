@@ -3187,6 +3187,14 @@ element
 !
 =
 mDocument
+&
+&
+parent_doc
+-
+>
+EventHandlingSuppressed
+(
+)
 )
 {
 mDocument
