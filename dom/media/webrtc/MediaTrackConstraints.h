@@ -129,6 +129,11 @@ include
 <
 set
 >
+#
+include
+<
+vector
+>
 namespace
 mozilla
 {

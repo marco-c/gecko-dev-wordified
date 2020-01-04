@@ -186,6 +186,17 @@ MozMobileConnectionBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ScriptSettings
+.
+h
+"
 using
 mozilla
 :
