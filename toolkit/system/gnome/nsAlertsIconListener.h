@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsStringAPI
+nsString
 .
 h
 "

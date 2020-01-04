@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
