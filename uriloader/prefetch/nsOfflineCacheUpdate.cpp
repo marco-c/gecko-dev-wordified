@@ -1426,6 +1426,11 @@ nsIRequest
 :
 :
 LOAD_BYPASS_CACHE
+|
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
 )
 ;
 NS_ENSURE_SUCCESS
