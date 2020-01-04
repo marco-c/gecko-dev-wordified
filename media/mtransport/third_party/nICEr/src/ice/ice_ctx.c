@@ -1954,7 +1954,7 @@ stun_server_ct
 r_log
 (
 LOG_ICE
-LOG_WARNING
+LOG_DEBUG
 "
 ICE
 (
@@ -1966,6 +1966,9 @@ No
 STUN
 servers
 specified
+in
+nICEr
+registry
 "
 ctx
 -
@@ -2149,7 +2152,7 @@ turn_server_ct
 r_log
 (
 LOG_ICE
-LOG_NOTICE
+LOG_DEBUG
 "
 ICE
 (
@@ -2161,6 +2164,9 @@ No
 TURN
 servers
 specified
+in
+nICEr
+registry
 "
 ctx
 -
