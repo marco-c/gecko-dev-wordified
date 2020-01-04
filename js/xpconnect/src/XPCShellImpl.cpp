@@ -8931,7 +8931,7 @@ scb
 =
 JS_GetSecurityCallbacks
 (
-rt
+cx
 )
 ;
 MOZ_ASSERT
@@ -8961,7 +8961,7 @@ scb
 ;
 JS_SetSecurityCallbacks
 (
-rt
+cx
 &
 shellSecurityCallbacks
 )

@@ -48863,7 +48863,7 @@ fullyTrusted
 ;
 JS_SetSecurityCallbacks
 (
-rt
+cx
 &
 ShellPrincipals
 :
