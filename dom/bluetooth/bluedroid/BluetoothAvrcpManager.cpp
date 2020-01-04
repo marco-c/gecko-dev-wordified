@@ -2071,7 +2071,7 @@ mManager
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
@@ -2206,7 +2206,7 @@ mManager
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )

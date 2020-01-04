@@ -3160,7 +3160,7 @@ NS_IsMainThread
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )

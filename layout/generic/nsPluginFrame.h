@@ -565,7 +565,7 @@ aOldStyleContext
 )
 override
 ;
-NS_METHOD
+NS_IMETHOD
 GetPluginInstance
 (
 nsNPAPIPluginInstance

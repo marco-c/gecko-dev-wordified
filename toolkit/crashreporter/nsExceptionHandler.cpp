@@ -11241,7 +11241,7 @@ true
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
