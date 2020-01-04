@@ -32204,6 +32204,9 @@ Length
 =
 =
 (
+type
+=
+=
 nsStyleBasicShape
 :
 :
