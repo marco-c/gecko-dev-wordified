@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Cu
 .
 import
@@ -113,6 +118,12 @@ jsm
 "
 )
 ;
+/
+*
+globals
+AutoMigrate
+*
+/
 let
 gShimmedMigratorKeyPicker
 =
