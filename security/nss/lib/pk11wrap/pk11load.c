@@ -3437,9 +3437,6 @@ if
 disableUnload
 )
 {
-#
-ifdef
-DEBUG
 PRStatus
 status
 =
@@ -3456,15 +3453,6 @@ PR_SUCCESS
 status
 )
 ;
-#
-else
-PR_UnloadLibrary
-(
-softokenLib
-)
-;
-#
-endif
 }
 softokenLib
 =

@@ -735,6 +735,7 @@ crlNode
 crl
 &
 &
+&
 crlNode
 -
 >
@@ -744,11 +745,6 @@ crl
 crl
 .
 derName
-.
-data
-!
-=
-NULL
 )
 {
 cert
@@ -3750,10 +3746,6 @@ signCrl
 NULL
 )
 {
-rv
-=
-SECFailure
-;
 goto
 loser
 ;
@@ -3782,10 +3774,6 @@ cert
 NULL
 )
 {
-rv
-=
-SECFailure
-;
 goto
 loser
 ;
@@ -3883,15 +3871,9 @@ if
 !
 signCrl
 )
-{
-rv
-=
-SECFailure
-;
 goto
 loser
 ;
-}
 }
 rv
 =

@@ -1508,7 +1508,6 @@ tries
 +
 )
 {
-unsigned
 int
 methodNum
 =
@@ -1631,10 +1630,6 @@ methodFlags
 chainVerificationState
 &
 revStatus
-(
-CERTCRLEntryReasonCode
-*
-)
 pReasonCode
 plContext
 )
@@ -1771,10 +1766,6 @@ procParams
 methodFlags
 &
 revStatus
-(
-CERTCRLEntryReasonCode
-*
-)
 pReasonCode
 &
 nbioContext

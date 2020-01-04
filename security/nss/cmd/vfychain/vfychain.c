@@ -2498,8 +2498,6 @@ NULL
 PRUint64
 *
 revFlags
-=
-NULL
 ;
 for
 (

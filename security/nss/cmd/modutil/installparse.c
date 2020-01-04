@@ -1874,7 +1874,6 @@ getenv
 ;
 if
 (
-(
 yys
 =
 getenv
@@ -1883,10 +1882,6 @@ getenv
 YYDEBUG
 "
 )
-)
-!
-=
-NULL
 )
 {
 yyn
@@ -1956,17 +1951,12 @@ yyloop
 :
 if
 (
-(
 yyn
 =
 yydefred
 [
 yystate
 ]
-)
-!
-=
-0
 )
 goto
 yyreduce

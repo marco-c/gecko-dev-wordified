@@ -2734,7 +2734,7 @@ true
 *
 /
 SECStatus
-ssl3_MasterSecretDeriveBypass
+ssl3_MasterKeyDeriveBypass
 (
 ssl3CipherSpec
 *

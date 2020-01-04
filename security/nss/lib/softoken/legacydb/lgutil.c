@@ -1686,9 +1686,6 @@ len
 handle
 =
 (
-(
-CK_OBJECT_HANDLE
-)
 hashBuf
 [
 0
@@ -1699,9 +1696,6 @@ hashBuf
 )
 |
 (
-(
-CK_OBJECT_HANDLE
-)
 hashBuf
 [
 1
@@ -1712,9 +1706,6 @@ hashBuf
 )
 |
 (
-(
-CK_OBJECT_HANDLE
-)
 hashBuf
 [
 2
@@ -1724,9 +1715,6 @@ hashBuf
 8
 )
 |
-(
-CK_OBJECT_HANDLE
-)
 hashBuf
 [
 3

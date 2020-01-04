@@ -2912,7 +2912,6 @@ _consts
 ]
 ;
 const
-unsigned
 int
 constCount
 =
@@ -10175,7 +10174,6 @@ ConstType
 type
 )
 {
-unsigned
 int
 i
 ;
@@ -10277,7 +10275,6 @@ ConstAttribute
 )
 ;
 }
-unsigned
 int
 totalKnownType
 (
@@ -10285,13 +10282,11 @@ ConstType
 type
 )
 {
-unsigned
 int
 count
 =
 0
 ;
-unsigned
 int
 i
 ;

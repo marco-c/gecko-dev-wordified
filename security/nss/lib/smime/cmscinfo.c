@@ -1177,10 +1177,15 @@ cinfo
 SECOidTag
 tag
 =
+(
+cinfo
+&
+&
 cinfo
 -
 >
 contentTypeTag
+)
 ?
 cinfo
 -

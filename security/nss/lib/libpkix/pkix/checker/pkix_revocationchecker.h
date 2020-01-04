@@ -85,13 +85,6 @@ pkixt
 h
 "
 #
-include
-"
-certt
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern

@@ -2812,13 +2812,6 @@ defined
 (
 XP_UNIX
 )
-&
-&
-!
-defined
-(
-DARWIN
-)
 #
 include
 <

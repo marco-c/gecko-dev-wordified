@@ -113,7 +113,7 @@ h
 #
 define
 CRMF_DEFAULT_ALLOC_SIZE
-1024U
+1024
 SECStatus
 crmf_init_encoder_callback_arg
 (
@@ -218,6 +218,10 @@ CRMFCertReqMsg
 inCertReqMsg
 )
 {
+SECItem
+*
+dummy
+;
 CRMFProofOfPossession
 *
 pop
@@ -332,9 +336,8 @@ pop
 =
 pop
 ;
-(
-void
-)
+dummy
+=
 SEC_ASN1EncodeItem
 (
 poolp

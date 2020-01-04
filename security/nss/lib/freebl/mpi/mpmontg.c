@@ -408,6 +408,8 @@ i
 ;
 *
 /
+MP_CHECKOK
+(
 s_mp_mul_d_add_offset
 (
 &
@@ -418,6 +420,7 @@ N
 m_i
 T
 i
+)
 )
 ;
 }

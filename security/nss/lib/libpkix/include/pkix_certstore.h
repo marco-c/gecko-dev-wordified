@@ -86,13 +86,6 @@ pkixt
 h
 "
 #
-include
-"
-certt
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
@@ -2488,7 +2481,7 @@ PKIX_PL_Date
 date
 PKIX_Boolean
 crlDownloadDone
-CERTCRLEntryReasonCode
+PKIX_UInt32
 *
 reasonCode
 PKIX_RevocationStatus

@@ -2827,6 +2827,8 @@ threadmark_mark
 *
 *
 pw
+*
+tm
 ;
 if
 (
@@ -2952,6 +2954,11 @@ available
 /
 ;
 }
+tm
+=
+*
+pw
+;
 *
 pw
 =
@@ -3154,6 +3161,8 @@ threadmark_mark
 *
 *
 pw
+*
+tm
 ;
 PZ_Lock
 (
@@ -3302,6 +3311,11 @@ available
 /
 ;
 }
+tm
+=
+*
+pw
+;
 *
 pw
 =

@@ -105,12 +105,6 @@ enabled
 .
 *
 /
-#
-ifndef
-_NSSLOWHASH_H_
-#
-define
-_NSSLOWHASH_H_
 typedef
 struct
 NSSLOWInitContextStr
@@ -215,5 +209,3 @@ NSSLOWHASHContext
 context
 )
 ;
-#
-endif

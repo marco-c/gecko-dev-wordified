@@ -1037,8 +1037,6 @@ certHandle
 CERTCertificate
 *
 cert
-=
-NULL
 ;
 PLOptState
 *

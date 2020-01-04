@@ -3900,6 +3900,11 @@ sec_PKCS12SafeBag
 *
 safeBag
 ;
+PRBool
+setName
+=
+PR_TRUE
+;
 void
 *
 mark
@@ -4116,6 +4121,10 @@ sec_PKCS12SafeContents
 *
 )
 bagData
+;
+setName
+=
+PR_FALSE
 ;
 break
 ;
@@ -8202,6 +8211,9 @@ p12exp
 pwdIntegrity
 )
 {
+SECStatus
+rv
+;
 /
 *
 create
@@ -8286,8 +8298,8 @@ goto
 loser
 ;
 }
-PORT_CheckSuccess
-(
+rv
+=
 SEC_PKCS7AddSigningTime
 (
 p12enc
@@ -8295,6 +8307,13 @@ p12enc
 >
 aSafeCinfo
 )
+;
+PORT_Assert
+(
+rv
+=
+=
+SECSuccess
 )
 ;
 }

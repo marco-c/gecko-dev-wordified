@@ -4127,6 +4127,10 @@ pResultCode
 =
 *
 (
+char
+*
+)
+(
 resultMsg
 -
 >

@@ -1432,7 +1432,6 @@ unsigned
 int
 tmpLen
 ;
-unsigned
 int
 fullblocks
 pad

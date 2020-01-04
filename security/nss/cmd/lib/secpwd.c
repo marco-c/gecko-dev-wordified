@@ -464,8 +464,6 @@ infd
 )
 ;
 }
-if
-(
 QUIET_FGETS
 (
 phrase
@@ -475,15 +473,7 @@ phrase
 )
 input
 )
-=
-=
-NULL
-)
-{
-return
-NULL
 ;
-}
 if
 (
 isTTY
@@ -554,7 +544,7 @@ if
 isTTY
 )
 return
-NULL
+0
 ;
 fprintf
 (

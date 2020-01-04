@@ -7185,7 +7185,6 @@ by
 devices
 *
 /
-unsigned
 int
 index
 ;
@@ -7510,7 +7509,6 @@ c
 >
 object
 ;
-unsigned
 int
 i
 ;
