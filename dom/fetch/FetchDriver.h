@@ -590,14 +590,6 @@ filtered
 /
 response
 .
-void
-BeginResponse
-(
-InternalResponse
-*
-aResponse
-)
-;
 nsresult
 FailWithNetworkError
 (
