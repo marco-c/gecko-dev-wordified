@@ -2672,11 +2672,6 @@ browser
 .
 js
 '
-'
-jsref
-.
-js
-'
 )
 :
                 
