@@ -1981,7 +1981,7 @@ mLineOrPageDeltaX
 ;
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 mLineOrPageDeltaY
 ;
@@ -2293,7 +2293,7 @@ mLineOrPageDeltaY
 (
 aWheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 )
 mScrollSeriesNumber
 (
@@ -2457,7 +2457,7 @@ mLineOrPageDeltaX
 ;
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 mLineOrPageDeltaY
 ;

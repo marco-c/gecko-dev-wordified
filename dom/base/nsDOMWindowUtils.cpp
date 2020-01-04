@@ -3860,7 +3860,7 @@ aLineOrPageDeltaX
 ;
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 aLineOrPageDeltaY
 ;

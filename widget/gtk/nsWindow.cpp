@@ -17884,7 +17884,7 @@ mDeltaY
 =
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 -
 3
@@ -17900,7 +17900,7 @@ mDeltaY
 =
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 3
 ;

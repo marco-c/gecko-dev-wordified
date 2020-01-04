@@ -4360,7 +4360,7 @@ MOZ_WM_VSCROLL
 ?
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 :
 wheelEvent
 .
@@ -4563,7 +4563,7 @@ mLineOrPageDeltaX
 :
 %
 d
-lineOrPageDeltaY
+mLineOrPageDeltaY
 :
 %
 d
@@ -4625,7 +4625,7 @@ wheelEvent
 mLineOrPageDeltaX
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 GetBoolName
 (
 wheelEvent
@@ -5648,7 +5648,7 @@ mIsVertical
 ?
 aWheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 :
 aWheelEvent
 .
@@ -6004,7 +6004,7 @@ mLineOrPageDeltaX
 :
 %
 d
-lineOrPageDeltaY
+mLineOrPageDeltaY
 :
 %
 d
@@ -6062,7 +6062,7 @@ aWheelEvent
 mLineOrPageDeltaX
 aWheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 GetBoolName
 (
 aWheelEvent

@@ -3058,7 +3058,7 @@ mLineOrPageDeltaX
 =
 aWheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 0
 ;
