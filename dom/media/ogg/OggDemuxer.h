@@ -1031,10 +1031,8 @@ Demux
 next
 Ogg
 packet
-RefPtr
-<
-MediaRawData
->
+ogg_packet
+*
 GetNextPacket
 (
 TrackInfo
