@@ -381,5 +381,9 @@ mPtr
 }
 ;
 }
+/
+/
+namespace
+mp4_demuxer
 #
 endif
