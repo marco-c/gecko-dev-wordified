@@ -978,6 +978,8 @@ DaemonNotificationRunnable2
 <
 NotificationHandlerWrapper
 void
+uint8_t
+uint8_t
 int
 int
 >
@@ -994,9 +996,6 @@ GetPlayerAppValueInitOp
 ;
 class
 GetPlayerAppValuesTextInitOp
-;
-class
-PassthroughCmdInitOp
 ;
 class
 RemoteFeatureInitOp
