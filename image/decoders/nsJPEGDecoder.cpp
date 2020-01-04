@@ -438,6 +438,12 @@ State
 JPEG_DATA
 SIZE_MAX
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mDecodeStyle
 (

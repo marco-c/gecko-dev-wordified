@@ -621,6 +621,12 @@ State
 PNG_DATA
 SIZE_MAX
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mPNG
 (

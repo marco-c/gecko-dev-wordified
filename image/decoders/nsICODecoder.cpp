@@ -376,6 +376,12 @@ ICOState
 HEADER
 ICOHEADERSIZE
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mBiggestResourceColorDepth
 (
