@@ -84,6 +84,7 @@ DOM
 dom
 createClass
 PropTypes
+addons
 }
 =
 require
@@ -113,6 +114,13 @@ displayName
 "
 GlobalToolbar
 "
+mixins
+:
+[
+addons
+.
+PureRenderMixin
+]
 propTypes
 :
 {

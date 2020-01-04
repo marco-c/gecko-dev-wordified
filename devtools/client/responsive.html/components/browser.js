@@ -68,6 +68,7 @@ DOM
 dom
 createClass
 PropTypes
+addons
 }
 =
 require
@@ -110,6 +111,13 @@ displayName
 "
 Browser
 "
+mixins
+:
+[
+addons
+.
+PureRenderMixin
+]
 propTypes
 :
 {

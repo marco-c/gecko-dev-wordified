@@ -68,6 +68,7 @@ DOM
 dom
 createClass
 PropTypes
+addons
 }
 =
 require
@@ -97,6 +98,13 @@ displayName
 "
 ViewportToolbar
 "
+mixins
+:
+[
+addons
+.
+PureRenderMixin
+]
 propTypes
 :
 {
