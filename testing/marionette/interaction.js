@@ -481,7 +481,7 @@ container
 let
 visible
 =
-elements
+element
 .
 checkVisible
 (
@@ -572,7 +572,7 @@ el
 ;
 if
 (
-elements
+element
 .
 isXULElement
 (
@@ -1025,7 +1025,7 @@ true
 ;
 if
 (
-elements
+element
 .
 isXULElement
 (
@@ -1245,7 +1245,7 @@ true
 ;
 if
 (
-elements
+element
 .
 isXULElement
 (

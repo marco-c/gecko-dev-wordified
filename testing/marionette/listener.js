@@ -6446,7 +6446,7 @@ view
 let
 visible
 =
-elements
+element
 .
 checkVisible
 (
