@@ -559,10 +559,16 @@ len
 list
 '
 '
+tuple
+'
+'
 set
 '
 '
 dict
+'
+'
+isinstance
 '
 )
     
