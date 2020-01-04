@@ -2386,9 +2386,6 @@ NPNVsupportsAdvancedKeyHandling
 NPNVdocumentOrigin
 =
 22
-NPNVCSSZoomFactor
-=
-23
 NPNVpluginDrawingModel
 =
 1000
