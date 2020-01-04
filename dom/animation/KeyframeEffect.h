@@ -318,9 +318,6 @@ nsPresContext
 namespace
 mozilla
 {
-struct
-AnimationCollection
-;
 class
 AnimValuesStyleRule
 ;
@@ -1062,7 +1059,7 @@ calling
 RequestRestyle
 on
 its
-AnimationCollection
+EffectCompositor
 and
 when
 the
@@ -2229,14 +2226,6 @@ const
 nsPresContext
 *
 GetPresContext
-(
-)
-const
-;
-inline
-AnimationCollection
-*
-GetCollection
 (
 )
 const
