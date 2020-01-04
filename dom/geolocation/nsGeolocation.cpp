@@ -1563,6 +1563,12 @@ this
 err
 )
 ;
+err
+.
+SuppressException
+(
+)
+;
 }
 }
 else
@@ -3216,6 +3222,12 @@ Call
 *
 wrapped
 err
+)
+;
+err
+.
+SuppressException
+(
 )
 ;
 }
