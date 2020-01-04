@@ -3698,8 +3698,8 @@ subgrid
 )
 CSS_KEY
 (
-substract
-substract
+subtract
+subtract
 )
 CSS_KEY
 (

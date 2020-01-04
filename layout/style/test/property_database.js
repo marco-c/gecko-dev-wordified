@@ -71169,13 +71169,13 @@ add
 %
 "
 "
-substract
+subtract
 "
 "
 0
 %
 top
-substract
+subtract
 alpha
 repeat
 none
@@ -71419,7 +71419,7 @@ png
 repeat
 -
 x
-substract
+subtract
 none
 "
 "
@@ -71443,7 +71443,7 @@ png
 top
 "
 "
-substract
+subtract
 repeat
 -
 y
@@ -72221,7 +72221,7 @@ other_values
 :
 [
 "
-substract
+subtract
 "
 "
 intersect
@@ -72234,12 +72234,12 @@ add
 add
 "
 "
-substract
+subtract
 intersect
 "
 "
-substract
-substract
+subtract
+subtract
 add
 "
 ]
@@ -72248,7 +72248,7 @@ invalid_values
 [
 "
 add
-substract
+subtract
 "
 "
 intersect
