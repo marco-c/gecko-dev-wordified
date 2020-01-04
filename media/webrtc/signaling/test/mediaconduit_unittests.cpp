@@ -143,6 +143,13 @@ h
 #
 include
 "
+FakeLogging
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
