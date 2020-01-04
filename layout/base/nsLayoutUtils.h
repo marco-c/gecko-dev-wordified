@@ -15585,7 +15585,7 @@ enabled
 /
 static
 bool
-IsTextAlignUnsafeValueEnabled
+IsTextAlignTrueValueEnabled
 (
 )
 ;
