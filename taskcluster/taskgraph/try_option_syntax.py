@@ -159,6 +159,12 @@ set
 '
 build
 '
+    
+'
+artifact
+-
+build
+'
 ]
 )
 #
