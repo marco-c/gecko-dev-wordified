@@ -2139,10 +2139,9 @@ logins
 .
 some
 (
-function
-(
 l
-)
+=
+>
 login
 .
 matches

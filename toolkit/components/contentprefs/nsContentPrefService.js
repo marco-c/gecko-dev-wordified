@@ -543,10 +543,9 @@ supportedIIDs
 .
 some
 (
-function
-(
 i
-)
+=
+>
 iid
 .
 equals

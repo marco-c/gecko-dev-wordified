@@ -8769,10 +8769,9 @@ logins
 .
 map
 (
-function
-(
 l
-)
+=
+>
 l
 .
 username

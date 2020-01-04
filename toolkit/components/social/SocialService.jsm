@@ -404,6 +404,8 @@ get
 enabled
 (
 )
+{
+return
 this
 .
 providerArray
@@ -411,6 +413,8 @@ providerArray
 length
 >
 0
+;
+}
 get
 providerArray
 (
@@ -1143,11 +1147,12 @@ providerList
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 b
 .
 frecency

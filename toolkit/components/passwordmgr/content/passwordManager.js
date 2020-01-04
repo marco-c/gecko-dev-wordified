@@ -2132,10 +2132,9 @@ signons
 .
 filter
 (
-function
-(
 s
-)
+=
+>
 SignonMatchesFilter
 (
 s
