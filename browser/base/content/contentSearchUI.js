@@ -1793,6 +1793,11 @@ id
 "
 contentSearchDefaultEngineHeader
 "
+|
+|
+aEvent
+instanceof
+KeyboardEvent
 )
 {
 searchTerms
