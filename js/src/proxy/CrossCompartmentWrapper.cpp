@@ -2806,15 +2806,6 @@ wrapper
 {
 MOZ_ASSERT
 (
-!
-IsInsideNursery
-(
-wrapper
-)
-)
-;
-MOZ_ASSERT
-(
 wrapper
 -
 >
