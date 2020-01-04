@@ -429,6 +429,7 @@ null
 }
 try
 {
+final
 LoadFaviconResult
 result
 =
@@ -664,6 +665,7 @@ we
 were
 given
 .
+final
 HttpURLConnection
 connection
 =
@@ -809,6 +811,7 @@ throws
 URISyntaxException
 IOException
 {
+final
 HashSet
 <
 String
@@ -887,6 +890,7 @@ return
 null
 ;
 }
+final
 HttpURLConnection
 connection
 =
@@ -903,6 +907,7 @@ response
 a
 failure
 ?
+final
 int
 status
 =
@@ -1090,6 +1095,7 @@ throws
 URISyntaxException
 IOException
 {
+final
 HttpURLConnection
 connection
 =
@@ -1313,6 +1319,7 @@ it
 s
 useful
 .
+final
 int
 bufferSize
 ;
@@ -1397,6 +1404,7 @@ byte
 [
 ]
 .
+final
 IOUtils
 .
 ConsumedInputStream
