@@ -146,7 +146,7 @@ devtools
 /
 client
 /
-main
+definitions
 "
 )
 ;
