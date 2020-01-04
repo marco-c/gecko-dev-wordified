@@ -606,10 +606,6 @@ head_ref
 '
         
 '
-revision_hash
-'
-        
-'
 message
 '
         

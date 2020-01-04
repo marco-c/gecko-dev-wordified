@@ -271,6 +271,20 @@ parameters
 {
             
 '
+pushlog_id
+'
+:
+params
+.
+get
+(
+'
+pushlog_id
+'
+0
+)
+            
+'
 pushdate
 '
 :
@@ -429,17 +443,6 @@ now
 current_json_time
 (
 )
-            
-'
-revision_hash
-'
-:
-params
-[
-'
-revision_hash
-'
-]
             
 '
 source
