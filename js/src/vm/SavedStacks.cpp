@@ -2793,6 +2793,7 @@ SavedFrame
 :
 class_
 proto
+TenuredObject
 )
 )
 ;
