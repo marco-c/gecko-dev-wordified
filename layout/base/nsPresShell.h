@@ -1878,8 +1878,10 @@ override
 #
 endif
 static
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gLog
 ;
 virtual
