@@ -165,6 +165,16 @@ background
 in
 seconds
 )
+/
+/
+0
+means
+"
+download
+everything
+at
+once
+"
 pref
 (
 "
@@ -176,7 +186,7 @@ download
 .
 backgroundInterval
 "
-60
+0
 )
 ;
 /
