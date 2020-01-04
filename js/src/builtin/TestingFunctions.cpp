@@ -9120,7 +9120,7 @@ promise
 >
 setReservedSlot
 (
-PROMISE_RESULT_SLOT
+PROMISE_REACTIONS_OR_RESULT_SLOT
 UndefinedValue
 (
 )

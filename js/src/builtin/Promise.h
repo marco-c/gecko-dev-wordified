@@ -256,7 +256,7 @@ Fulfilled
 return
 getFixedSlot
 (
-PROMISE_RESULT_SLOT
+PROMISE_REACTIONS_OR_RESULT_SLOT
 )
 ;
 }
@@ -284,7 +284,7 @@ Rejected
 return
 getFixedSlot
 (
-PROMISE_RESULT_SLOT
+PROMISE_REACTIONS_OR_RESULT_SLOT
 )
 ;
 }
