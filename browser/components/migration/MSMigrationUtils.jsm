@@ -2009,7 +2009,6 @@ return
 null
 ;
 }
-;
 function
 Bookmarks
 (
