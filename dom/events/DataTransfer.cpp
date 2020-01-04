@@ -3194,12 +3194,6 @@ eDrop
 mEventMessage
 !
 =
-eLegacyDragDrop
-&
-&
-mEventMessage
-!
-=
 ePaste
 )
 ;
