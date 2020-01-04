@@ -901,9 +901,6 @@ originalTarget
 ;
 fire
 (
-{
-tab
-:
 TabManager
 .
 convert
@@ -911,7 +908,6 @@ convert
 extension
 tab
 )
-}
 )
 ;
 }
@@ -937,9 +933,6 @@ tabs
 {
 fire
 (
-{
-tab
-:
 TabManager
 .
 convert
@@ -947,7 +940,6 @@ convert
 extension
 tab
 )
-}
 )
 ;
 }
