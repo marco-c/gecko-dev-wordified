@@ -1407,6 +1407,8 @@ True
         
 abspath
 =
+normcase
+(
 os
 .
 path
@@ -1414,6 +1416,7 @@ path
 abspath
 (
 p
+)
 )
         
 if
@@ -1498,6 +1501,8 @@ True
         
 abspath
 =
+normcase
+(
 os
 .
 path
@@ -1510,6 +1515,7 @@ p
 os
 .
 sep
+)
         
 if
 any
