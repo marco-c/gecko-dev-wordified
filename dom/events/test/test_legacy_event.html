@@ -1554,7 +1554,7 @@ that
 level
 .
 function
-mpTestAncestorsWithDiffListeners
+mpTestDiffListenersEventBubbling
 (
 eventInfo
 )
@@ -1674,9 +1674,6 @@ event
 object
 should
 bubble
-"
-+
-"
 despite
 difference
 in
@@ -1745,9 +1742,6 @@ event
 object
 should
 bubble
-"
-+
-"
 despite
 difference
 in
@@ -1860,7 +1854,7 @@ gLegacyEventInfo
 .
 map
 (
-mpTestAncestorsWithDiffListeners
+mpTestDiffListenersEventBubbling
 )
 )
 ;
