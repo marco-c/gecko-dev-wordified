@@ -233,6 +233,14 @@ Allow
 Disallow
 }
 ;
+enum
+class
+UpdateType
+{
+Default
+InternalOrHSTSRedirect
+}
+;
 class
 nsCORSListenerProxy
 final
@@ -388,6 +396,8 @@ nsIChannel
 aChannel
 DataURIHandling
 aAllowDataURI
+UpdateType
+aUpdateType
 )
 ;
 nsresult
@@ -404,6 +414,8 @@ CheckPreflightNeeded
 nsIChannel
 *
 aChannel
+UpdateType
+aUpdateType
 )
 ;
 nsCOMPtr
