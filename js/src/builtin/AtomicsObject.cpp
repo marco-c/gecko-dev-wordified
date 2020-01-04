@@ -3680,7 +3680,7 @@ heap
 =
 instance
 .
-heap
+memoryBase
 (
 )
 .
@@ -3697,7 +3697,7 @@ length
 =
 instance
 .
-heapLength
+memoryLength
 (
 )
 ;

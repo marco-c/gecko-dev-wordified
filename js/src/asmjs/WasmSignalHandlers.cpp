@@ -5568,7 +5568,7 @@ base
 =
 instance
 .
-heap
+memoryBase
 (
 )
 )
@@ -5740,7 +5740,7 @@ accessAddress
 =
 instance
 .
-heap
+memoryBase
 (
 )
 "
@@ -5768,7 +5768,7 @@ size
 =
 instance
 .
-heap
+memoryBase
 (
 )
 +
@@ -5799,13 +5799,13 @@ size
 >
 instance
 .
-heap
+memoryBase
 (
 )
 +
 instance
 .
-heapLength
+memoryLength
 (
 )
 "
@@ -6002,7 +6002,7 @@ accessAddress
 -
 instance
 .
-heap
+memoryBase
 (
 )
 .
@@ -6010,8 +6010,6 @@ unwrap
 (
 /
 *
-safe
--
 for
 value
 *
@@ -6053,7 +6051,7 @@ size
 <
 instance
 .
-heapLength
+memoryLength
 (
 )
 ;
@@ -6121,7 +6119,7 @@ wrappedBaseOffset
 =
 instance
 .
-heapLength
+memoryLength
 (
 )
 )
@@ -6176,7 +6174,7 @@ wrappedAddress
 =
 instance
 .
-heap
+memoryBase
 (
 )
 +
@@ -6189,7 +6187,7 @@ wrappedAddress
 =
 instance
 .
-heap
+memoryBase
 (
 )
 )
@@ -6212,13 +6210,13 @@ size
 =
 instance
 .
-heap
+memoryBase
 (
 )
 +
 instance
 .
-heapLength
+memoryLength
 (
 )
 )
@@ -6664,7 +6662,7 @@ accessLimit
 =
 instance
 .
-heapLength
+memoryLength
 (
 )
 ;
@@ -6677,7 +6675,7 @@ metadata
 (
 )
 .
-usesHeap
+usesMemory
 (
 )
 &
@@ -6687,7 +6685,7 @@ faultingAddress
 =
 instance
 .
-heap
+memoryBase
 (
 )
 &
@@ -6696,7 +6694,7 @@ faultingAddress
 <
 instance
 .
-heap
+memoryBase
 (
 )
 +

@@ -409,7 +409,7 @@ helpers
 uint8_t
 *
 *
-addressOfHeapPtr
+addressOfMemoryBase
 (
 )
 const
@@ -682,13 +682,13 @@ SharedMem
 uint8_t
 *
 >
-heap
+memoryBase
 (
 )
 const
 ;
 size_t
-heapLength
+memoryLength
 (
 )
 const
