@@ -985,11 +985,6 @@ Tick
 (
 )
 ;
-void
-EnsureStyleRuleFor
-(
-)
-;
 public
 :
 /
