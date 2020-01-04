@@ -196,6 +196,10 @@ mCache
 (
 kDefaultCacheLength
 )
+mRemote
+(
+false
+)
 {
 }
 xpcAccessibleDocument
@@ -215,6 +219,10 @@ aInterfaces
 mCache
 (
 kDefaultCacheLength
+)
+mRemote
+(
+true
 )
 {
 }
@@ -415,6 +423,12 @@ Accessible
 aAccessible
 )
 {
+MOZ_ASSERT
+(
+!
+mRemote
+)
+;
 xpcAccessibleGeneric
 *
 xpcAcc
@@ -484,6 +498,9 @@ void
 xpcAccessibleGeneric
 >
 mCache
+;
+bool
+mRemote
 ;
 }
 ;

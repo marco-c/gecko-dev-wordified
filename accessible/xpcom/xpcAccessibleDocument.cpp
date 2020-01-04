@@ -954,6 +954,12 @@ Accessible
 aAccessible
 )
 {
+MOZ_ASSERT
+(
+!
+mRemote
+)
+;
 if
 (
 ToXPCDocument
