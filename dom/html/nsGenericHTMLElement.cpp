@@ -15937,10 +15937,14 @@ TabIndex
 )
 ;
 bool
-override
 disabled
 =
 false
+;
+bool
+disallowOverridingFocusability
+=
+true
 ;
 if
 (
@@ -15958,7 +15962,7 @@ always
 be
 focusable
 .
-override
+disallowOverridingFocusability
 =
 true
 ;
@@ -16015,7 +16019,7 @@ tabIndex
 }
 else
 {
-override
+disallowOverridingFocusability
 =
 false
 ;
@@ -16104,7 +16108,7 @@ tabindex
 )
 ;
 return
-override
+disallowOverridingFocusability
 ;
 }
 void
