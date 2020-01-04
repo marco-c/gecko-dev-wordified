@@ -725,9 +725,12 @@ ServoComputedValues
 >
 computedValues
 =
+dont_AddRef
+(
 Servo_InheritComputedValues
 (
 parent
+)
 )
 ;
 MOZ_ASSERT
@@ -831,6 +834,8 @@ ServoComputedValues
 >
 computedValues
 =
+dont_AddRef
+(
 Servo_GetComputedValuesForPseudoElement
 (
 aParentContext
@@ -857,6 +862,7 @@ is_probe
 *
 /
 false
+)
 )
 ;
 MOZ_ASSERT
@@ -1908,6 +1914,8 @@ ServoComputedValues
 >
 computedValues
 =
+dont_AddRef
+(
 Servo_GetComputedValuesForPseudoElement
 (
 aParentContext
@@ -1934,6 +1942,7 @@ is_probe
 *
 /
 true
+)
 )
 ;
 if
