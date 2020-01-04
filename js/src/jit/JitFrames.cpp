@@ -6618,13 +6618,15 @@ might
 have
 lazy
 arguments
+or
+rest
 in
 which
 case
+/
+/
 we
 mark
-/
-/
 them
 as
 well
@@ -6640,6 +6642,8 @@ we
 have
 a
 LazyLink
+/
+/
 frame
 .
 JitFrameLayout
@@ -6746,7 +6750,7 @@ nonLazyScript
 )
 -
 >
-argumentsHasVarBinding
+mayReadFrameArgsDirectly
 (
 )
 )
