@@ -19891,13 +19891,6 @@ mTextRun
 >
 MeasureText
 (
-0
-mTextRun
--
->
-GetLength
-(
-)
 mDoMeasureBoundingBox
 ?
 gfxFont
@@ -19910,7 +19903,6 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mDrawTarget
-nullptr
 )
 ;
 /
@@ -20126,13 +20118,6 @@ mTextRun
 >
 MeasureText
 (
-0
-mTextRun
--
->
-GetLength
-(
-)
 mDoMeasureBoundingBox
 ?
 gfxFont
@@ -20145,7 +20130,6 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mDrawTarget
-nullptr
 )
 ;
 inlineCoord
