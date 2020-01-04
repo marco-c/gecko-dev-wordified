@@ -861,11 +861,6 @@ mGeneration
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTimerEvent
-)
-;
 /
 /
 Note
@@ -1035,11 +1030,6 @@ nsTimerEvent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsTimerEvent
-)
-;
 MOZ_ASSERT
 (
 !
