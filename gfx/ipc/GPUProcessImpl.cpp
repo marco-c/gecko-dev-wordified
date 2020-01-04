@@ -132,6 +132,13 @@ IOThreadChild
 .
 h
 "
+#
+include
+"
+nsXPCOM
+.
+h
+"
 namespace
 mozilla
 {
@@ -205,6 +212,11 @@ CleanUp
 (
 )
 {
+NS_ShutdownXPCOM
+(
+nullptr
+)
+;
 }
 }
 /
