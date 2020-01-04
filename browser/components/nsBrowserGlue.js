@@ -6932,6 +6932,9 @@ tab
 "
 )
 ;
+return
+true
+;
 }
 }
 ]
