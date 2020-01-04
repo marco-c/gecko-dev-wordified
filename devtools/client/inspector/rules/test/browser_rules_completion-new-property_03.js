@@ -338,9 +338,11 @@ synthesizeMouseAtCenter
 node
 {
 }
-view
+editor
 .
-styleWindow
+popup
+.
+_window
 )
 ;
 is
