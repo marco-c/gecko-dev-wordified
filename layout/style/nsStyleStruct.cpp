@@ -11486,10 +11486,6 @@ doc
 RemoveImage
 (
 mImage
-nsIDocument
-:
-:
-REQUEST_DISCARD
 )
 ;
 }
@@ -19508,10 +19504,6 @@ RemoveImage
 mContent
 .
 mImage
-nsIDocument
-:
-:
-REQUEST_DISCARD
 )
 ;
 }
