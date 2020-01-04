@@ -2966,11 +2966,12 @@ std
 :
 wstring
 wpath
-=
+(
 path
 .
 get
 (
+)
 )
 ;
 aCmdLine
