@@ -7600,10 +7600,6 @@ comparefn
 undefined
 )
 {
-comparefn
-=
-TypedArrayCompare
-;
 /
 /
 CountingSort
@@ -7612,7 +7608,9 @@ doesn
 t
 invoke
 the
-comparefn
+comparator
+function
+.
 if
 (
 IsUint8TypedArray
@@ -7691,7 +7689,7 @@ false
 floating
 *
 /
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -7728,7 +7726,7 @@ false
 floating
 *
 /
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -7765,7 +7763,7 @@ false
 floating
 *
 /
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -7802,7 +7800,7 @@ false
 floating
 *
 /
-comparefn
+TypedArrayCompare
 )
 ;
 }
@@ -7839,10 +7837,18 @@ true
 floating
 *
 /
-comparefn
+TypedArrayCompare
 )
 ;
 }
+return
+QuickSort
+(
+obj
+len
+TypedArrayCompare
+)
+;
 }
 /
 /
