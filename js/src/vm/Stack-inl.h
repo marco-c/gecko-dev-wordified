@@ -5040,10 +5040,6 @@ mostRecentProfiling
 :
 nullptr
 )
-savedFrameChain_
-(
-0
-)
 hideScriptedCallerCount_
 (
 0
