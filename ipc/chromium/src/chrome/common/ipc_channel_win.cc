@@ -2645,7 +2645,7 @@ buf
 char
 *
 )
-malloc
+moz_xmalloc
 (
 len
 )
