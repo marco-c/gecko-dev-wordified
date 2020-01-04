@@ -294,6 +294,8 @@ new
 TelemetryJSONFilePingStore
 (
 testDir
+"
+"
 )
 ;
 }

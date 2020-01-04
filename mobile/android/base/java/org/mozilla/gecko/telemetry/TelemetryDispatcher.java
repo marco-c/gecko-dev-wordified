@@ -597,6 +597,9 @@ TelemetryDispatcher
 final
 String
 profilePath
+final
+String
+profileName
 )
 {
 final
@@ -681,6 +684,7 @@ File
 storePath
 CORE_STORE_DIR_NAME
 )
+profileName
 )
 ;
 uploadAllPingsImmediatelyScheduler
