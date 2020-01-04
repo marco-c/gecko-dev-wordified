@@ -129,6 +129,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+CallSuper
+;
+import
+android
+.
 util
 .
 Log
@@ -243,7 +252,7 @@ gecko
 .
 delegates
 .
-ForegroundAwareDelegate
+TabsTrayVisibilityAwareDelegate
 ;
 import
 org
@@ -310,7 +319,7 @@ public
 class
 AddToHomeScreenPromotion
 extends
-ForegroundAwareDelegate
+TabsTrayVisibilityAwareDelegate
 implements
 Tabs
 .
@@ -417,6 +426,7 @@ private
 int
 lastVisitMaximumAgeMs
 ;
+CallSuper
 Override
 public
 void
@@ -778,8 +788,9 @@ return
 }
 if
 (
-!
-isInForeground
+isTabsTrayVisible
+(
+)
 )
 {
 /
