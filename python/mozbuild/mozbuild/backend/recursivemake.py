@@ -10680,6 +10680,9 @@ backend_file
 :
         
 #
+Bug
+1177710
+-
 We
 '
 d
@@ -10690,11 +10693,11 @@ these
 via
 manifests
 as
+        
+#
 preprocessed
 files
 .
-        
-#
 But
 they
 currently
@@ -10704,11 +10707,11 @@ non
 -
 standard
 flags
+        
+#
 being
 added
 via
-        
-#
 some
 Makefiles
 so
@@ -10719,10 +10722,10 @@ just
 pass
 them
 through
-to
-the
         
 #
+to
+the
 underlying
 Makefile
 .
