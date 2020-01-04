@@ -895,6 +895,15 @@ isPrivate
 |
 |
 false
+parentId
+:
+window
+.
+BrowserApp
+.
+selectedTab
+.
+id
 }
 )
 ;
