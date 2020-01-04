@@ -2636,10 +2636,10 @@ aDispatchResult
 )
 {
 }
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 :
 :
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 (
 WorkerPrivate
 *
@@ -2668,6 +2668,10 @@ mResult
 aResult
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -2683,7 +2687,7 @@ mSyncLoopTarget
 endif
 }
 nsresult
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 :
 :
 Cancel
@@ -2747,7 +2751,7 @@ rv2
 ;
 }
 bool
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 :
 :
 WorkerRun
@@ -2810,7 +2814,7 @@ true
 ;
 }
 bool
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 :
 :
 DispatchInternal
@@ -2824,7 +2828,7 @@ mSyncLoopTarget
 ;
 RefPtr
 <
-StopSyncLoopRunnable
+MainThreadStopSyncLoopRunnable
 >
 runnable
 (
