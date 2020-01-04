@@ -10528,7 +10528,7 @@ input
 .
 selectionStart
 -
-query
+startCheckQuery
 .
 length
 ;
