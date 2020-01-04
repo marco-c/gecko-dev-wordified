@@ -592,9 +592,12 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 unhandled
 program
 type
+image
 "
 )
 ;

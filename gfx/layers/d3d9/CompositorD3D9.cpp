@@ -1199,6 +1199,8 @@ YCBCRLAYER
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 effect
 type
@@ -3667,6 +3669,8 @@ mFailedResetAttempts
 MOZ_CRASH
 (
 "
+GFX
+:
 Unable
 to
 get

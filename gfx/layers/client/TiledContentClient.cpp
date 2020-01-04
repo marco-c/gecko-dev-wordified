@@ -6381,6 +6381,8 @@ height
 MOZ_CRASH
 (
 "
+GFX
+:
 long
 src
 memcpy
@@ -6398,6 +6400,8 @@ bitmap
 MOZ_CRASH
 (
 "
+GFX
+:
 short
 src
 memcpy
@@ -6421,6 +6425,8 @@ height
 MOZ_CRASH
 (
 "
+GFX
+:
 long
 dst
 mempcy
@@ -6438,6 +6444,8 @@ bitmap
 MOZ_CRASH
 (
 "
+GFX
+:
 short
 dst
 mempcy

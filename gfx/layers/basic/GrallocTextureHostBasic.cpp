@@ -367,6 +367,8 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 HAL
 pixel
@@ -508,10 +510,13 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 HAL
 pixel
 format
+YUV
 "
 )
 ;

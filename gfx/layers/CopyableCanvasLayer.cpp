@@ -579,6 +579,8 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 CanvasLayer
 created
 without

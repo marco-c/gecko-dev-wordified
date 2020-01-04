@@ -1131,6 +1131,10 @@ SourceSurfaceIncompatible
 GlyphAllocFailedCairo
 GlyphAllocFailedCG
 InvalidRect
+CannotDraw3D
+/
+/
+20
 /
 /
 End
