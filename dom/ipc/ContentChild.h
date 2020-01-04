@@ -1821,6 +1821,17 @@ override
 ;
 virtual
 bool
+RecvVarUpdate
+(
+const
+GfxVarUpdate
+&
+pref
+)
+override
+;
+virtual
+bool
 RecvDataStoragePut
 (
 const
