@@ -4223,7 +4223,7 @@ spec
 aURI
 -
 >
-GetAsciiSpec
+GetSpecIgnoringRef
 (
 spec
 )
