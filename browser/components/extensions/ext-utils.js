@@ -3416,7 +3416,7 @@ if
 (
 listeners
 .
-length
+size
 =
 =
 0
