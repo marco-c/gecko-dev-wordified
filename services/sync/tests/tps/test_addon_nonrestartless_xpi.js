@@ -229,6 +229,9 @@ id
 ]
 STATE_ENABLED
 ]
+[
+Sync
+]
 ]
 )
 ;
@@ -266,6 +269,9 @@ verify
 id
 ]
 STATE_ENABLED
+]
+[
+Sync
 ]
 ]
 )
@@ -318,6 +324,9 @@ id
 ]
 STATE_DISABLED
 ]
+[
+Sync
+]
 ]
 )
 ;
@@ -356,6 +365,9 @@ verify
 id
 ]
 STATE_DISABLED
+]
+[
+Sync
 ]
 ]
 )
@@ -409,6 +421,9 @@ id
 ]
 STATE_ENABLED
 ]
+[
+Sync
+]
 ]
 )
 ;
@@ -447,6 +462,9 @@ verify
 id
 ]
 STATE_ENABLED
+]
+[
+Sync
 ]
 ]
 )
@@ -503,6 +521,9 @@ verifyNot
 id
 ]
 ]
+[
+Sync
+]
 ]
 )
 ;
@@ -540,6 +561,9 @@ verifyNot
 [
 id
 ]
+]
+[
+Sync
 ]
 ]
 )
