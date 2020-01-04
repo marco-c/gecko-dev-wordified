@@ -2638,6 +2638,19 @@ matchData
 hasKey
 (
 "
+guid
+"
+)
+)
+{
+if
+(
+!
+matchData
+.
+hasKey
+(
+"
 hostname
 "
 )
@@ -2697,6 +2710,7 @@ recommended
 "
 )
 ;
+}
 }
 return
 this
