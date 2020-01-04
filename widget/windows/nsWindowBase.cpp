@@ -201,7 +201,7 @@ ePluginInputEvent
 this
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0

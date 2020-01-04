@@ -786,7 +786,10 @@ InitEvent
 WidgetGUIEvent
 &
 aEvent
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 *
 aPoint
 =
