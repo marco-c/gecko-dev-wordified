@@ -1680,9 +1680,6 @@ LifoAlloc
 &
 lifo_
 ;
-RetType
-retType_
-;
 const
 AsmFunction
 &
@@ -1762,14 +1759,6 @@ lifo_
 (
 lifo
 )
-retType_
-(
-func
-.
-returnedType
-(
-)
-)
 func_
 (
 func
@@ -1841,7 +1830,11 @@ returnedType
 const
 {
 return
-retType_
+func_
+.
+returnedType
+(
+)
 ;
 }
 bool
