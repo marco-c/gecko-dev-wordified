@@ -313,17 +313,6 @@ ElementHasHref
 const
 {
 return
-(
-(
-!
-mElement
--
->
-IsSVGElement
-(
-)
-&
-&
 mElement
 -
 >
@@ -334,7 +323,6 @@ nsGkAtoms
 :
 :
 href
-)
 )
 |
 |
@@ -358,7 +346,6 @@ nsGkAtoms
 :
 :
 href
-)
 )
 )
 ;
