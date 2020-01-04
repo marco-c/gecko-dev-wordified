@@ -202,7 +202,7 @@ addons
 )
 {
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -2814,7 +2814,7 @@ conflicting
 addon
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -9858,7 +9858,7 @@ experiments
 API
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -10060,7 +10060,7 @@ _unregisterWithAddonManager
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -10295,7 +10295,7 @@ false
 try
 {
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -11365,7 +11365,7 @@ active
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (

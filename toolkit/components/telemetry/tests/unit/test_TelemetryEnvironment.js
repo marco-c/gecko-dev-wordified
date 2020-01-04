@@ -6383,7 +6383,7 @@ registerCheckpointPromise
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -6424,7 +6424,7 @@ let
 addon
 =
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 getAddonById
 (
@@ -6507,7 +6507,7 @@ registerCheckpointPromise
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -7081,7 +7081,7 @@ resolve
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -7089,7 +7089,7 @@ DICTIONARY_ADDON_INSTALL_URL
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -7407,7 +7407,7 @@ some
 data
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -7812,7 +7812,7 @@ the
 addon
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -8004,7 +8004,7 @@ the
 addon
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -8225,7 +8225,7 @@ resolve
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -8821,7 +8821,7 @@ registerCheckpointPromise
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -9011,7 +9011,7 @@ valid
 addon
 .
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
