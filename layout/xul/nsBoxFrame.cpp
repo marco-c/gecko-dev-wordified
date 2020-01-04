@@ -6955,7 +6955,7 @@ nsIFrame
 *
 parent
 =
-GetParentBox
+GetParentXULBox
 (
 this
 )

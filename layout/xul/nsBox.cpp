@@ -5137,7 +5137,7 @@ nsIFrame
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 const
 nsIFrame
