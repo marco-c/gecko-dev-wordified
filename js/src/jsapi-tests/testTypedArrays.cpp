@@ -462,6 +462,9 @@ JS_GetFloat64ArrayData
 cx
 )
 ;
+#
+ifdef
+ENABLE_SHARED_ARRAY_BUFFER
 ok
 =
 ok
@@ -583,6 +586,11 @@ JS_GetFloat64ArrayData
 cx
 )
 ;
+#
+endif
+/
+/
+ENABLE_SHARED_ARRAY_BUFFER
 return
 ok
 ;
