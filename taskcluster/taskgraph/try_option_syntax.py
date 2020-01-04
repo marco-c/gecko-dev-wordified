@@ -4311,15 +4311,41 @@ talos_try_name
 return
 False
         
-else
+elif
+attr
+(
+'
+kind
+'
+)
+in
+(
+'
+desktop
+-
+test
+'
+'
+android
+-
+test
+'
+)
 :
             
-#
-TODO
+return
+match_test
+(
+self
+.
+unittests
+'
+unittest_try_name
+'
+)
+        
+else
 :
-match
-other
-kinds
             
 return
 False

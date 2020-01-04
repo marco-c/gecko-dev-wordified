@@ -68,7 +68,7 @@ os
 from
 .
 .
-kind
+task
 import
 docker_image
 from

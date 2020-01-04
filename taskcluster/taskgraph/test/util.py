@@ -62,7 +62,7 @@ unicode_literals
 from
 .
 .
-kind
+task
 import
 base
 class

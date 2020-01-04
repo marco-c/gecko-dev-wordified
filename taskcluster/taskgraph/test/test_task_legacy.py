@@ -64,7 +64,7 @@ unittest
 from
 .
 .
-kind
+task
 .
 legacy
 import

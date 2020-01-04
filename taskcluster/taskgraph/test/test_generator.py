@@ -76,7 +76,7 @@ graph
 from
 .
 .
-kind
+task
 import
 base
 from

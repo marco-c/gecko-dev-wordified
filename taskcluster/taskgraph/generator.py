@@ -1101,9 +1101,8 @@ kinds
 kind_name
 ]
             
-for
-task
-in
+new_tasks
+=
 kind
 .
 load_tasks
@@ -1120,6 +1119,11 @@ values
 )
 )
 )
+            
+for
+task
+in
+new_tasks
 :
                 
 if
@@ -1153,6 +1157,31 @@ label
 ]
 =
 task
+            
+logger
+.
+info
+(
+"
+Generated
+{
+}
+tasks
+for
+kind
+{
+}
+"
+.
+format
+(
+len
+(
+new_tasks
+)
+kind_name
+)
+)
         
 full_task_set
 =

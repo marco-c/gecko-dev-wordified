@@ -237,6 +237,28 @@ False
     
 }
     
+'
+ash
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+ash_tasks
+'
+        
+'
+optimize_target_tasks
+'
+:
+True
+    
+}
+    
 #
 the
 default
