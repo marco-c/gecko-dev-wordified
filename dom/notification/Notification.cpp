@@ -559,7 +559,7 @@ mBehavior
 ;
 const
 nsString
-mServiceWorkerRegistrationScope
+mServiceWorkerRegistrationID
 ;
 }
 ;
@@ -632,7 +632,7 @@ aBehavior
 const
 nsAString
 &
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 )
 final
 {
@@ -681,7 +681,7 @@ mScope
 .
 Equals
 (
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 )
 )
 {
@@ -731,7 +731,7 @@ aBehavior
 )
 nsString
 (
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 )
 }
 ;
@@ -947,7 +947,7 @@ mStrings
 i
 ]
 .
-mServiceWorkerRegistrationScope
+mServiceWorkerRegistrationID
 result
 )
 ;
@@ -5099,7 +5099,7 @@ aData
 const
 nsAString
 &
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 ErrorResult
 &
 aRv
@@ -5207,7 +5207,7 @@ notification
 >
 SetScope
 (
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 )
 ;
 return
@@ -10637,7 +10637,7 @@ mStrings
 i
 ]
 .
-mServiceWorkerRegistrationScope
+mServiceWorkerRegistrationID
 result
 )
 ;

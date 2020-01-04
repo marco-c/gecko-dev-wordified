@@ -543,7 +543,7 @@ icon
 alertName
 data
 behavior
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 {
 if
@@ -620,9 +620,9 @@ data
 mozbehavior
 :
 behavior
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 :
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 }
 ;
 this
@@ -897,7 +897,7 @@ tag
 icon
 data
 behavior
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 {
 if
@@ -925,7 +925,7 @@ tag
 icon
 data
 behavior
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 ;
 }
@@ -1517,7 +1517,7 @@ notification
 mozbehavior
 notification
 .
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 Ci
 .
