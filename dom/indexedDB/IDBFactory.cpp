@@ -3165,8 +3165,10 @@ Value
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_INVALID_VERSION
+>
+(
 )
 ;
 return
