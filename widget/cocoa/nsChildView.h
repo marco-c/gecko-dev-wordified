@@ -3752,8 +3752,11 @@ gfx
 :
 DrawTarget
 >
-StartRemoteDrawing
+StartRemoteDrawingInRegion
 (
+nsIntRegion
+&
+aInvalidRegion
 )
 override
 ;
