@@ -1029,12 +1029,6 @@ they
 do
 .
 }
-reader
-.
-DiscardRemaining
-(
-)
-;
 return
 annexB
 .
@@ -2451,12 +2445,6 @@ ReadU8
 )
 &
 0x1f
-;
-reader
-.
-DiscardRemaining
-(
-)
 ;
 return
 numSps

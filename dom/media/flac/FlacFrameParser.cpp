@@ -155,7 +155,7 @@ using
 mp4_demuxer
 :
 :
-AutoByteReader
+ByteReader
 ;
 namespace
 mozilla
@@ -354,7 +354,7 @@ return
 false
 ;
 }
-AutoByteReader
+ByteReader
 br
 (
 aPacket
@@ -1285,7 +1285,7 @@ aPacket
 /
 Ogg
 packet
-AutoByteReader
+ByteReader
 br
 (
 aPacket
@@ -1323,7 +1323,7 @@ FLAC
 )
 ;
 }
-AutoByteReader
+ByteReader
 br
 (
 aPacket
