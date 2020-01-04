@@ -4361,7 +4361,7 @@ mIterations
 =
 animation
 .
-iterationCount
+iterations
 (
 )
 ;

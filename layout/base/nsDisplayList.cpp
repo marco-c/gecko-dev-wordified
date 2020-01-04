@@ -2737,7 +2737,7 @@ mIterationDuration
 animation
 -
 >
-iterationCount
+iterations
 (
 )
 =
