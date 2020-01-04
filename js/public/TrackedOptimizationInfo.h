@@ -198,6 +198,11 @@ _
 GetProp_InlineCache
 )
 \
+_
+(
+GetProp_SharedCache
+)
+\
 \
 _
 (

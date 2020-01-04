@@ -3225,6 +3225,17 @@ TemporaryTypeSet
 types
 )
 ;
+bool
+getPropTrySharedStub
+(
+bool
+*
+emitted
+MDefinition
+*
+obj
+)
+;
 /
 /
 jsop_setprop
