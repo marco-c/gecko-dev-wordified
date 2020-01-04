@@ -329,6 +329,9 @@ mWorkerPrivateCondVar
 uint32_t
 mOtherThreadsDispatchingViaEventTarget
 ;
+#
+ifdef
+DEBUG
 /
 /
 Protected
@@ -338,12 +341,11 @@ nsThread
 :
 mLock
 .
-DebugOnly
-<
 bool
->
 mAcceptingNonWorkerRunnables
 ;
+#
+endif
 public
 :
 static

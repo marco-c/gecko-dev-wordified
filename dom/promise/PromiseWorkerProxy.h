@@ -1619,6 +1619,9 @@ mCleanedUp
 Mutex
 mCleanUpLock
 ;
+#
+ifdef
+DEBUG
 /
 /
 Maybe
@@ -1631,12 +1634,11 @@ and
 rely
 on
 mCleanedUp
-DebugOnly
-<
 bool
->
 mFeatureAdded
 ;
+#
+endif
 }
 ;
 }

@@ -1756,10 +1756,15 @@ mHasContentOpener
 (
 false
 )
+#
+ifdef
+DEBUG
 mActiveSupressDisplayportCount
 (
 0
 )
+#
+endif
 {
 MOZ_ASSERT
 (
@@ -14477,6 +14482,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+DEBUG
 if
 (
 aEnabled
@@ -14502,6 +14510,8 @@ mActiveSupressDisplayportCount
 0
 )
 ;
+#
+endif
 Unused
 <
 <
