@@ -8173,10 +8173,14 @@ robustness
 bool
 hasRobustness
 =
-true
+false
 ;
 if
 (
+!
+hasRobustness
+&
+&
 IsExtensionSupported
 (
 ARB_robustness
@@ -8211,7 +8215,6 @@ END_SYMBOLS
 ;
 if
 (
-!
 fnLoadForExt
 (
 symbols
@@ -8221,7 +8224,7 @@ ARB_robustness
 {
 hasRobustness
 =
-false
+true
 ;
 }
 }
@@ -8265,7 +8268,6 @@ END_SYMBOLS
 ;
 if
 (
-!
 fnLoadForExt
 (
 symbols
@@ -8275,7 +8277,7 @@ EXT_robustness
 {
 hasRobustness
 =
-false
+true
 ;
 }
 }
