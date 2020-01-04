@@ -5739,13 +5739,15 @@ add_argument
 '
 -
 -
+disable
+-
 e10s
 '
                         
 action
 =
 '
-store_true
+store_false
 '
                         
 dest
@@ -5764,13 +5766,13 @@ chunk
 with
 electrolysis
 preferences
-enabled
+disabled
 .
 '
                         
 default
 =
-False
+True
 )
     
 parser
