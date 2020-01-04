@@ -10109,7 +10109,7 @@ nsBaseWidget
 :
 ShowsResizeIndicator
 (
-nsIntRect
+LayoutDeviceIntRect
 *
 aResizerRect
 )

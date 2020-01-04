@@ -31576,7 +31576,7 @@ GetNearestWidget
 offset
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 widgetRect
 ;
 if
