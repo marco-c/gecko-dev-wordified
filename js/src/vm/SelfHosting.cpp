@@ -13023,7 +13023,7 @@ JS_INLINABLE_FN
 RegExpMatcher
 "
 RegExpMatcher
-5
+4
 0
 RegExpMatcher
 )
@@ -13033,7 +13033,7 @@ JS_INLINABLE_FN
 RegExpTester
 "
 RegExpTester
-5
+4
 0
 RegExpTester
 )
