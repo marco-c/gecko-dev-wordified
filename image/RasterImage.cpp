@@ -8110,7 +8110,6 @@ ToSurfaceFlags
 (
 aFlags
 )
-mRequestedResolution
 )
 ;
 }
@@ -8133,7 +8132,6 @@ ToSurfaceFlags
 aFlags
 )
 mRequestedSampleSize
-mRequestedResolution
 )
 ;
 }
@@ -8436,7 +8434,6 @@ mDecoderType
 this
 mSourceBuffer
 mRequestedSampleSize
-mRequestedResolution
 )
 ;
 /
