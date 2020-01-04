@@ -2218,6 +2218,16 @@ max_fr
 "
 10
 ]
+[
+"
+media
+.
+autoplay
+.
+enabled
+"
+true
+]
 )
 ;
 }
