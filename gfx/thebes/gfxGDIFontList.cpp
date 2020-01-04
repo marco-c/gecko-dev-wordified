@@ -116,6 +116,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 gfxGDIFontList
 .
 h
@@ -456,7 +465,7 @@ buf
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -1109,7 +1118,7 @@ prefix
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 prefix
 "
