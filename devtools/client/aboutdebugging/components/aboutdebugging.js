@@ -94,7 +94,7 @@ lazyRequireGetter
 (
 this
 "
-AddonsComponent
+AddonsTab
 "
 "
 devtools
@@ -106,6 +106,8 @@ aboutdebugging
 components
 /
 addons
+-
+tab
 "
 true
 )
@@ -116,7 +118,7 @@ lazyRequireGetter
 (
 this
 "
-TabMenuComponent
+TabMenu
 "
 "
 devtools
@@ -140,7 +142,7 @@ lazyRequireGetter
 (
 this
 "
-WorkersComponent
+WorkersTab
 "
 "
 devtools
@@ -152,6 +154,8 @@ aboutdebugging
 components
 /
 workers
+-
+tab
 "
 true
 )
@@ -221,7 +225,7 @@ svg
 "
 component
 :
-AddonsComponent
+AddonsTab
 }
 {
 id
@@ -260,7 +264,7 @@ svg
 "
 component
 :
-WorkersComponent
+WorkersTab
 }
 ]
 ;
@@ -447,7 +451,7 @@ React
 .
 createElement
 (
-TabMenuComponent
+TabMenu
 {
 tabs
 selectedTabId

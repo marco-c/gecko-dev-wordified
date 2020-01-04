@@ -60,7 +60,6 @@ MPL
 *
 global
 React
-TargetComponent
 *
 /
 "
@@ -95,7 +94,7 @@ lazyRequireGetter
 (
 this
 "
-TargetComponent
+Target
 "
 "
 devtools
@@ -179,7 +178,7 @@ toLowerCase
 ;
 exports
 .
-TargetListComponent
+TargetList
 =
 React
 .
@@ -189,7 +188,7 @@ createClass
 displayName
 :
 "
-TargetListComponent
+TargetList
 "
 render
 (
@@ -230,7 +229,7 @@ React
 .
 createElement
 (
-TargetComponent
+Target
 {
 client
 target

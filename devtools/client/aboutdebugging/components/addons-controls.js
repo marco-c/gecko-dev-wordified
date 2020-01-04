@@ -175,7 +175,7 @@ properties
 ;
 exports
 .
-AddonsControlsComponent
+AddonsControls
 =
 React
 .
@@ -185,7 +185,7 @@ createClass
 displayName
 :
 "
-AddonsControlsComponent
+AddonsControls
 "
 render
 (

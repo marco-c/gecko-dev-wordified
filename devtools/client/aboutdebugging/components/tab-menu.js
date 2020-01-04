@@ -94,7 +94,7 @@ lazyRequireGetter
 (
 this
 "
-TabMenuEntryComponent
+TabMenuEntry
 "
 "
 devtools
@@ -116,7 +116,7 @@ true
 ;
 exports
 .
-TabMenuComponent
+TabMenu
 =
 React
 .
@@ -126,7 +126,7 @@ createClass
 displayName
 :
 "
-TabMenuComponent
+TabMenu
 "
 render
 (
@@ -173,7 +173,7 @@ React
 .
 createElement
 (
-TabMenuEntryComponent
+TabMenuEntry
 {
 tabId
 :

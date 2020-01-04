@@ -90,7 +90,7 @@ react
 ;
 exports
 .
-TabHeaderComponent
+TabHeader
 =
 React
 .
@@ -100,7 +100,7 @@ createClass
 displayName
 :
 "
-TabHeaderComponent
+TabHeader
 "
 render
 (
