@@ -1312,16 +1312,6 @@ e
 }
 if
 (
-QUEUED_CALLS
-.
-size
-(
-)
-=
-=
-0
-&
-&
 isStateAtLeast
 (
 state
