@@ -260,7 +260,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 case
 HAL_PIXEL_FORMAT_YCbCr_422_SP
@@ -316,7 +316,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 default
 :
@@ -356,7 +356,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 }
 else
