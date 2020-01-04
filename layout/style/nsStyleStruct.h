@@ -4261,10 +4261,7 @@ mImage
 [
 reset
 ]
-nsCOMPtr
-<
-nsIURI
->
+FragmentOrURL
 mSourceURI
 ;
 /
