@@ -22615,6 +22615,12 @@ stretch
 ;
 systemFont
 .
+decorations
+=
+NS_FONT_DECORATION_NONE
+;
+systemFont
+.
 size
 =
 NSFloatPixelsToAppUnits
