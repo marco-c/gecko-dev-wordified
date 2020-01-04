@@ -18661,8 +18661,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+already_AddRefed
+<
 nsHttpConnection
-*
+>
 SpdySession31
 :
 :

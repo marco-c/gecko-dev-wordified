@@ -24663,8 +24663,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+already_AddRefed
+<
 nsHttpConnection
-*
+>
 Http2Session
 :
 :

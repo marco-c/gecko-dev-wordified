@@ -2324,8 +2324,10 @@ mConnInfo
 ;
 nsTArray
 <
+RefPtr
+<
 nsHttpTransaction
-*
+>
 >
 mPendingQ
 ;
@@ -2336,8 +2338,10 @@ transaction
 queue
 nsTArray
 <
+RefPtr
+<
 nsHttpConnection
-*
+>
 >
 mActiveConns
 ;
@@ -2347,8 +2351,10 @@ active
 connections
 nsTArray
 <
+RefPtr
+<
 nsHttpConnection
-*
+>
 >
 mIdleConns
 ;
