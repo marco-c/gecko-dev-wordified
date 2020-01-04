@@ -1846,6 +1846,9 @@ isSystem
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 const
 override

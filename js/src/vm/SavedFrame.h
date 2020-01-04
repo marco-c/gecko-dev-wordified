@@ -411,6 +411,9 @@ getPrincipals
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 ;
 /
@@ -1998,6 +2001,9 @@ next
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 const
 override
@@ -2009,6 +2015,7 @@ get
 .
 isSelfHosted
 (
+cx
 )
 ;
 }

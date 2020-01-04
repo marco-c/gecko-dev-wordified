@@ -1185,6 +1185,7 @@ selfHostedFrame
 >
 isSelfHosted
 (
+cx
 )
 )
 ;
