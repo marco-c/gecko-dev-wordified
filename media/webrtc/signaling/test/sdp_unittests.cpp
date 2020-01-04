@@ -200,6 +200,13 @@ h
 #
 include
 "
+FakeLogging
+.
+h
+"
+#
+include
+"
 PeerConnectionImpl
 .
 h
