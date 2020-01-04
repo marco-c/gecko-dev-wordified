@@ -235,7 +235,7 @@ inlineMaxBytecodePerCallSiteOffThread_
 ;
 inlineMaxCalleeInlinedBytecodeLength_
 =
-3000
+3350
 ;
 inlineMaxTotalBytecodeLength_
 =
