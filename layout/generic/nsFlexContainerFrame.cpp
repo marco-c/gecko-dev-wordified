@@ -29802,6 +29802,10 @@ IsOrderLEQWithDOMFallback
 )
 ;
 }
+RenumberLists
+(
+)
+;
 const
 FlexboxAxisTracker
 axisTracker
@@ -34042,6 +34046,10 @@ this
 minWidth
 )
 ;
+RenumberLists
+(
+)
+;
 const
 nsStylePosition
 *
@@ -34212,6 +34220,10 @@ DISPLAY_PREF_WIDTH
 (
 this
 prefWidth
+)
+;
+RenumberLists
+(
 )
 ;
 /
