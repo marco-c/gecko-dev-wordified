@@ -6029,6 +6029,16 @@ isFull
 ;
 }
 bool
+isCompactingGc
+(
+)
+const
+{
+return
+isCompacting
+;
+}
+bool
 shouldCleanUpEverything
 (
 )

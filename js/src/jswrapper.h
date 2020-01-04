@@ -2198,7 +2198,7 @@ JSObject
 wrapper
 )
 ;
-bool
+void
 RemapWrapper
 (
 JSContext
