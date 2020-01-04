@@ -239,6 +239,7 @@ NewConsoleOutput
 function
 (
 parentNode
+store
 )
 {
 console
@@ -258,6 +259,7 @@ new
 OutputWrapperThingy
 (
 parentNode
+store
 )
 ;
 }
