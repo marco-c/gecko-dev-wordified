@@ -152,6 +152,12 @@ mozbuild
 '
 python
 /
+mozversioncontrol
+'
+    
+'
+python
+/
 which
 '
     
