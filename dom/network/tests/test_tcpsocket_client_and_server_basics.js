@@ -1070,6 +1070,13 @@ test_basics
 (
 )
 {
+if
+(
+enablePrefsAndPermissions
+(
+)
+)
+{
 /
 /
 Enable
@@ -1152,6 +1159,7 @@ permDeferred
 .
 promise
 ;
+}
 /
 /
 See
@@ -1213,8 +1221,7 @@ socket
 let
 listeningServer
 =
-new
-TCPServerSocket
+createServer
 (
 serverPort
 {
@@ -1248,8 +1255,7 @@ server
 let
 clientSocket
 =
-new
-TCPSocket
+createSocket
 (
 '
 127
@@ -2251,8 +2257,7 @@ listeningServer
 ;
 clientSocket
 =
-new
-TCPSocket
+createSocket
 (
 '
 127
@@ -2495,8 +2500,7 @@ listeningServer
 ;
 clientSocket
 =
-new
-TCPSocket
+createSocket
 (
 '
 127
@@ -2811,8 +2815,7 @@ listeningServer
 ;
 clientSocket
 =
-new
-TCPSocket
+createSocket
 (
 '
 127
@@ -3054,8 +3057,7 @@ an
 error
 clientSocket
 =
-new
-TCPSocket
+createSocket
 (
 '
 127
