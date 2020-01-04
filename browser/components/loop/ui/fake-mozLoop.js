@@ -1281,13 +1281,6 @@ gravatars
 promo
 "
 :
-case
-"
-contextInConversations
-.
-enabled
-"
-:
 return
 true
 ;

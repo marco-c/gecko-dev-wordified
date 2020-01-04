@@ -216,16 +216,6 @@ prefName
 {
 case
 "
-contextInConversations
-.
-enabled
-"
-:
-return
-false
-;
-case
-"
 debug
 .
 sdk
