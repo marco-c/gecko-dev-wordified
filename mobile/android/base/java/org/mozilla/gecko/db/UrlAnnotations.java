@@ -73,6 +73,13 @@ content
 ContentResolver
 ;
 import
+android
+.
+database
+.
+Cursor
+;
+import
 org
 .
 mozilla
@@ -99,6 +106,13 @@ String
 key
 String
 value
+)
+;
+Cursor
+getScreenshots
+(
+ContentResolver
+cr
 )
 ;
 }
