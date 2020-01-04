@@ -2494,6 +2494,10 @@ Init
 mCreatePromiseId
 origin
 topLevelOrigin
+KeySystemToGMPName
+(
+mKeySystem
+)
 inPrivateBrowsing
 )
 ;

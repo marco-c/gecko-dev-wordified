@@ -7504,6 +7504,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 nsACString
@@ -8417,6 +8421,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 UniquePtr
@@ -8438,6 +8446,7 @@ GetNodeId
 (
 aOrigin
 aTopLevelOrigin
+aGMPName
 aInPrivateBrowsing
 nodeId
 )
@@ -10493,6 +10502,10 @@ nsString
 &
 aTopLevelOrigin
 const
+nsString
+&
+aGMPName
+const
 bool
 &
 aInPrivateBrowsing
@@ -10511,6 +10524,7 @@ GetNodeId
 (
 aOrigin
 aTopLevelOrigin
+aGMPName
 aInPrivateBrowsing
 *
 aID

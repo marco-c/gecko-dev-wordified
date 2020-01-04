@@ -254,6 +254,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsingMode
 UniquePtr

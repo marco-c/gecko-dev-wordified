@@ -242,6 +242,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsingMode
 UniquePtr
@@ -382,6 +386,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 nsACString
@@ -1021,6 +1029,10 @@ const
 nsString
 &
 aTopLevelOrigin
+const
+nsString
+&
+aGMPName
 const
 bool
 &
