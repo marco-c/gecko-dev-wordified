@@ -2031,13 +2031,15 @@ resolution
 .
 if
 (
-presShellResolution
 !
-=
+FuzzyEqualsMultiplicative
+(
+presShellResolution
 aMetrics
 .
 GetPresShellResolution
 (
+)
 )
 )
 {
