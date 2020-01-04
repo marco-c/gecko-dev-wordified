@@ -1367,12 +1367,6 @@ defined
 (
 DEBUG
 )
-|
-|
-defined
-(
-ENABLE_TESTS
-)
 /
 *
 *

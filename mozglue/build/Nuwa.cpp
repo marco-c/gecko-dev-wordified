@@ -12244,12 +12244,6 @@ defined
 (
 DEBUG
 )
-|
-|
-defined
-(
-ENABLE_TESTS
-)
 MFBT_API
 void
 NuwaAssertNotFrozen
