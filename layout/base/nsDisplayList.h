@@ -10223,9 +10223,6 @@ virtual
 bool
 ProvidesFontSmoothingBackgroundColor
 (
-nsDisplayListBuilder
-*
-aBuilder
 nscolor
 *
 aColor
@@ -11166,9 +11163,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -17933,9 +17927,6 @@ virtual
 bool
 ProvidesFontSmoothingBackgroundColor
 (
-nsDisplayListBuilder
-*
-aBuilder
 nscolor
 *
 aColor
@@ -20551,9 +20542,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -21417,9 +21405,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -21577,10 +21562,6 @@ aFrame
 nsDisplayList
 *
 aList
-uint32_t
-aFlags
-=
-0
 )
 ;
 #
@@ -21694,9 +21675,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -21815,9 +21793,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -22141,9 +22116,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -22641,9 +22613,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -23357,9 +23326,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -24229,9 +24195,6 @@ virtual
 bool
 TryMerge
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
