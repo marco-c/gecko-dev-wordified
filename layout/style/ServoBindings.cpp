@@ -1104,6 +1104,12 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNS
+aElement
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 NS_ENSURE_TRUE
