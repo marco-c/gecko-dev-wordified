@@ -1331,7 +1331,7 @@ box
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 box
 )

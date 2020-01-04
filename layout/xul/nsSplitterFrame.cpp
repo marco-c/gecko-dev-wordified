@@ -3912,7 +3912,7 @@ childBox
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 childBox
 )
@@ -4967,7 +4967,7 @@ childBox
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 childBox
 )
@@ -5076,7 +5076,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )

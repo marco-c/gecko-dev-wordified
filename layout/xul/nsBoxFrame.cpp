@@ -8756,7 +8756,7 @@ spacerSize
 }
 kid
 =
-GetNextBox
+GetNextXULBox
 (
 kid
 )
@@ -10867,7 +10867,7 @@ NS_OK
 }
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -10933,7 +10933,7 @@ aDebug
 ;
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -11512,7 +11512,7 @@ child
 }
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )

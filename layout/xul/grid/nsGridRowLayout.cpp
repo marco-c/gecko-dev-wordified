@@ -594,7 +594,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -815,7 +815,7 @@ next
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 aBox
 )

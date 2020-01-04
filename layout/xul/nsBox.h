@@ -533,7 +533,7 @@ aFrame
 static
 nsIFrame
 *
-GetNextBox
+GetNextXULBox
 (
 const
 nsIFrame
