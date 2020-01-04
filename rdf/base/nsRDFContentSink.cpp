@@ -1359,7 +1359,7 @@ mParseMode
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 RDFContextStackElement
 8
@@ -8671,7 +8671,7 @@ mContextStack
 mContextStack
 =
 new
-nsAutoTArray
+AutoTArray
 <
 RDFContextStackElement
 8

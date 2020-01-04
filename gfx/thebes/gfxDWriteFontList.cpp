@@ -507,7 +507,7 @@ hr
 BOOL
 exists
 ;
-nsAutoTArray
+AutoTArray
 <
 wchar_t
 32
@@ -730,7 +730,7 @@ return
 E_FAIL
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 wchar_t
 32
@@ -3620,7 +3620,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 IDWriteFontFile
 *
@@ -8520,7 +8520,7 @@ aFamilyName
 lookup
 the
 family
-nsAutoTArray
+AutoTArray
 <
 wchar_t
 32

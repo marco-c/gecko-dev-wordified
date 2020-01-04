@@ -467,9 +467,9 @@ need
 to
 grow
 the
-nsAutoTArray
+AutoTArray
 .
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

@@ -402,7 +402,7 @@ InternalHeaders
 aHeaders
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCString
 16
@@ -549,7 +549,7 @@ CacheReadStream
 aReadStreamOut
 )
 {
-nsAutoTArray
+AutoTArray
 <
 FileDescriptor
 4
@@ -708,7 +708,7 @@ MOZ_ASSERT
 aHeaders
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 InternalHeaders
 :

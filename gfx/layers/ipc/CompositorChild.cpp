@@ -713,7 +713,7 @@ mLayerManager
 nullptr
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 PLayerTransactionChild
 *

@@ -3835,7 +3835,7 @@ in
 our
 mOwnedStream
 .
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -3855,7 +3855,7 @@ in
 our
 mPlaybackStream
 .
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

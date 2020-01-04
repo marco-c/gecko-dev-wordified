@@ -549,7 +549,7 @@ nsHtml5DocumentBuilder
 ;
 protected
 :
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

@@ -11242,7 +11242,7 @@ frame
 .
 *
 /
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -11273,7 +11273,7 @@ tree
 .
 *
 /
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 8

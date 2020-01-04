@@ -4118,7 +4118,7 @@ HasCreateContextAttribs
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 int
 11

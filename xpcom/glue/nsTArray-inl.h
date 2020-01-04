@@ -362,7 +362,7 @@ AlignedElem
 &
 sizeof
 (
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :
@@ -751,7 +751,7 @@ nsTArrayHeader
 /
 /
 Since
-nsAutoTArray
+AutoTArray
 always
 contains
 an
@@ -824,7 +824,7 @@ memory
 owned
 by
 this
-nsAutoTArray
+AutoTArray
 .
 We
 statically
@@ -3455,7 +3455,7 @@ flagrant
 violation
 of
 the
-nsAutoTArray
+AutoTArray
 invariants
 .
 It
@@ -3478,7 +3478,7 @@ don
 '
 t
 the
-nsAutoTArray
+AutoTArray
 will
 forget
 /

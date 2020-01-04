@@ -1084,7 +1084,7 @@ nullptr
 mPatterns
 is
 an
-nsAutoTArray
+AutoTArray
 with
 1
 space
@@ -5426,7 +5426,7 @@ Japanese
 text
 .
 )
-nsAutoTArray
+AutoTArray
 <
 LangSupportEntry
 10
@@ -7775,7 +7775,7 @@ void
 aClosure
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsString
 5
@@ -8942,7 +8942,7 @@ lang
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsString
 20

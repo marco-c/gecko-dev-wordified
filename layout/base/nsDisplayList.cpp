@@ -6628,7 +6628,7 @@ nsRect
 aDirtyRect
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 :
@@ -9898,7 +9898,7 @@ anyVisible
 =
 false
 ;
-nsAutoTArray
+AutoTArray
 <
 nsDisplayItem
 *
@@ -12747,7 +12747,7 @@ item
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 FramesWithDepth
 16
@@ -12960,7 +12960,7 @@ aRect
 continue
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -13056,7 +13056,7 @@ r
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -24008,7 +24008,7 @@ PresContext
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsRect
 10
@@ -24529,7 +24529,7 @@ PresContext
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsRect
 10

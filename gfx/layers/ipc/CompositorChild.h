@@ -1270,7 +1270,7 @@ these
 client
 layer
 managers
-nsAutoTArray
+AutoTArray
 <
 ClientLayerManager
 *

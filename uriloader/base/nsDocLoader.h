@@ -846,7 +846,7 @@ not
 to
 .
 typedef
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

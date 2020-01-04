@@ -10702,7 +10702,7 @@ endif
 }
 else
 {
-nsAutoTArray
+AutoTArray
 <
 Layer
 *

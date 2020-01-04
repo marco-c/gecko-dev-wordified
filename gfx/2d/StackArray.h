@@ -88,7 +88,7 @@ similar
 in
 purpose
 to
-nsAutoTArray
+AutoTArray
 *
 /
 template

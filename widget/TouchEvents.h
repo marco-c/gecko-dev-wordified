@@ -1248,7 +1248,7 @@ Touch
 TouchArray
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

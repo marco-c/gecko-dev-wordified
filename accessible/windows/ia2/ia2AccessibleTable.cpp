@@ -1547,7 +1547,7 @@ mTable
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 30
@@ -2741,7 +2741,7 @@ mTable
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -2929,7 +2929,7 @@ mTable
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 30
@@ -3068,7 +3068,7 @@ mTable
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 30

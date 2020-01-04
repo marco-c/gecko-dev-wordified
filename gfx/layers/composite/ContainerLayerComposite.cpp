@@ -449,7 +449,7 @@ h
 /
 /
 for
-nsAutoTArray
+AutoTArray
 #
 include
 "
@@ -1575,7 +1575,7 @@ SetRenderTarget
 surface
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 Layer
 *
@@ -2840,7 +2840,7 @@ CompositingRenderTarget
 >
 mTmpTarget
 ;
-nsAutoTArray
+AutoTArray
 <
 PreparedLayer
 12
@@ -3025,7 +3025,7 @@ draw
 .
 *
 /
-nsAutoTArray
+AutoTArray
 <
 Layer
 *

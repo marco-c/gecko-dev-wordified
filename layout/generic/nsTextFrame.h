@@ -4156,7 +4156,7 @@ aOther
 struct
 TextDecorations
 {
-nsAutoTArray
+AutoTArray
 <
 LineDecoration
 1

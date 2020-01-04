@@ -581,7 +581,7 @@ aFrame
 ;
 protected
 :
-nsAutoTArray
+AutoTArray
 <
 FrameChildList
 4

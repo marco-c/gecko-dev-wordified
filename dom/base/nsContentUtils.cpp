@@ -12340,7 +12340,7 @@ the
 chain
 of
 parents
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -12601,7 +12601,7 @@ aOffset2
 0
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -23603,7 +23603,7 @@ forget
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsString
 32
@@ -38182,7 +38182,7 @@ NS_EVENT_BITS_MUTATION_NODEINSERTED
 )
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -44558,7 +44558,7 @@ GetChildCount
 childCount
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -44735,7 +44735,7 @@ GetChildCount
 childCount
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -48021,7 +48021,7 @@ break
 }
 }
 }
-nsAutoTArray
+AutoTArray
 <
 Unit
 STRING_BUFFER_UNITS

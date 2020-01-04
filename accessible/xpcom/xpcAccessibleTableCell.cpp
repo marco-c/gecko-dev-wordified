@@ -664,7 +664,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -787,7 +787,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

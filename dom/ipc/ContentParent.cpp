@@ -3519,7 +3519,7 @@ bool
 aAnonymize
 )
 {
-nsAutoTArray
+AutoTArray
 <
 ContentParent
 *
@@ -5316,7 +5316,7 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 ContentParent
 *
@@ -27797,7 +27797,7 @@ NotifyUpdatedDictionaries
 (
 )
 {
-nsAutoTArray
+AutoTArray
 <
 ContentParent
 *

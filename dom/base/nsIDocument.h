@@ -10872,7 +10872,7 @@ mObservers
 }
 protected
 :
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

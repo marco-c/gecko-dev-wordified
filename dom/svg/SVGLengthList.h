@@ -838,7 +838,7 @@ like
 we
 should
 use
-nsAutoTArray
+AutoTArray
 <
 SVGLength
 1
@@ -919,7 +919,7 @@ Header
 )
 .
 An
-nsAutoTArray
+AutoTArray
 <
 class
 E
@@ -1011,7 +1011,7 @@ were
 to
 go
 the
-nsAutoTArray
+AutoTArray
 <
 SVGLength
 1

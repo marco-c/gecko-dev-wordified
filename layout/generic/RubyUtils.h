@@ -699,7 +699,7 @@ AutoRubyTextContainerArray
 final
 :
 public
-nsAutoTArray
+AutoTArray
 <
 nsRubyTextContainerFrame
 *
@@ -835,7 +835,7 @@ nsRubyBaseFrame
 *
 mBaseFrame
 ;
-nsAutoTArray
+AutoTArray
 <
 nsRubyTextFrame
 *
@@ -1324,7 +1324,7 @@ for
 more
 info
 .
-nsAutoTArray
+AutoTArray
 <
 nsRubyContentFrame
 *

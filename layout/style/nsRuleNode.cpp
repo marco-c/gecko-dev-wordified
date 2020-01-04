@@ -26498,7 +26498,7 @@ the
 desired
 generic
 font
-nsAutoTArray
+AutoTArray
 <
 nsStyleContext
 *
@@ -45537,7 +45537,7 @@ const
 nsCSSValue
 &
 aValue
-nsAutoTArray
+AutoTArray
 <
 nsStyleImageLayers
 :
@@ -45548,7 +45548,7 @@ Layer
 &
 aLayers
 const
-nsAutoTArray
+AutoTArray
 <
 nsStyleImageLayers
 :
@@ -45859,7 +45859,7 @@ const
 nsCSSValue
 &
 aValue
-nsAutoTArray
+AutoTArray
 <
 nsStyleImageLayers
 :
@@ -45870,7 +45870,7 @@ Layer
 &
 aLayers
 const
-nsAutoTArray
+AutoTArray
 <
 nsStyleImageLayers
 :
@@ -46200,7 +46200,7 @@ static
 void
 FillBackgroundList
 (
-nsAutoTArray
+AutoTArray
 <
 nsStyleImageLayers
 :
@@ -65588,7 +65588,7 @@ return
 true
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsRuleNode
 *

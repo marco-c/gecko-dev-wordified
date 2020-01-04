@@ -5741,7 +5741,7 @@ nsPresContext
 const
 mPresContext
 ;
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :

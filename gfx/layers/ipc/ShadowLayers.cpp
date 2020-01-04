@@ -405,7 +405,7 @@ h
 /
 /
 for
-nsAutoTArray
+AutoTArray
 nsTArray
 etc
 #
@@ -2228,7 +2228,7 @@ IsConnected
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 TimedTexture
 4

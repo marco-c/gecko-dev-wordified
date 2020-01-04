@@ -219,7 +219,7 @@ dom
 :
 Animation
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -260,9 +260,9 @@ sCount
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -3180,7 +3180,7 @@ sScheduledMutationObservers
 sScheduledMutationObservers
 =
 new
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -5085,7 +5085,7 @@ while
 sScheduledMutationObservers
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -5778,9 +5778,9 @@ sCurrentlyHandlingObservers
 sCurrentlyHandlingObservers
 =
 new
-nsAutoTArray
+AutoTArray
 <
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

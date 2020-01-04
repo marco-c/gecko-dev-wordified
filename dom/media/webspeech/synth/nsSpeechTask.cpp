@@ -1565,7 +1565,7 @@ return
 AudioSegment
 segment
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 int16_t

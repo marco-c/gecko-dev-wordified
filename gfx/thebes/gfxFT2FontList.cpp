@@ -8821,7 +8821,7 @@ nsStringHashKey
 aSkipSpaceLookupCheck
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsString
 5

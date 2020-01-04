@@ -8705,7 +8705,7 @@ of
 OffsetIndexedKeyframe
 objects
 .
-nsAutoTArray
+AutoTArray
 <
 OffsetIndexedKeyframe
 4

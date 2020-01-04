@@ -888,7 +888,7 @@ all
 the
 time
 .
-nsAutoTArray
+AutoTArray
 <
 ServiceWorker
 *

@@ -575,7 +575,7 @@ mStart
 }
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 TimeRange
 4

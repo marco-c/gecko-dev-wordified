@@ -3727,7 +3727,7 @@ the
 RDF
 :
 Description
-nsAutoTArray
+AutoTArray
 <
 nsIRDFResource
 *

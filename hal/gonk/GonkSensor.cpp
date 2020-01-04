@@ -1233,7 +1233,7 @@ private
 SensorData
 mSensorData
 ;
-nsAutoTArray
+AutoTArray
 <
 float
 4

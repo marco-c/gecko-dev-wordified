@@ -1305,7 +1305,7 @@ entry
 in
 mRules
 .
-nsAutoTArray
+AutoTArray
 <
 RuleValue
 1
@@ -4843,7 +4843,7 @@ entry
 is
 cheap
 .
-nsAutoTArray
+AutoTArray
 <
 SelectorPair
 2
@@ -25111,7 +25111,7 @@ Collect
 up
 the
 ancestors
-nsAutoTArray
+AutoTArray
 <
 Element
 *
@@ -25233,7 +25233,7 @@ Collect
 up
 the
 ancestors
-nsAutoTArray
+AutoTArray
 <
 Element
 *

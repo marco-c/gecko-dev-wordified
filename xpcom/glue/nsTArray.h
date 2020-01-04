@@ -409,7 +409,7 @@ T
 >
 /
 /
-nsAutoTArray
+AutoTArray
 <
 T
 N
@@ -429,7 +429,7 @@ N
 /
 nsTArray
 and
-nsAutoTArray
+AutoTArray
 are
 infallible
 ;
@@ -509,7 +509,7 @@ nsTArray
 and
 /
 /
-nsAutoTArray
+AutoTArray
 .
 /
 /
@@ -3006,7 +3006,7 @@ array
 /
 is
 an
-nsAutoTArray
+AutoTArray
 that
 it
 doesn
@@ -3040,7 +3040,7 @@ this
 nsTArray
 is
 an
-nsAutoTArray
+AutoTArray
 with
 a
 built
@@ -3074,7 +3074,7 @@ in
 buffer
 of
 this
-nsAutoTArray
+AutoTArray
 .
 Header
 *
@@ -3155,7 +3155,7 @@ in
 buffer
 of
 this
-nsAutoTArray
+AutoTArray
 but
 doesn
 '
@@ -3167,7 +3167,7 @@ that
 we
 are
 an
-nsAutoTArray
+AutoTArray
 .
 Header
 *
@@ -3224,7 +3224,7 @@ if
 this
 is
 an
-nsAutoTArray
+AutoTArray
 and
 it
 currently
@@ -5064,7 +5064,7 @@ nsTArray
 FallibleTArray
 /
 /
-nsAutoTArray
+AutoTArray
 and
 AutoFallibleTArray
 .
@@ -14833,7 +14833,7 @@ class
 for
 AutoFallibleTArray
 and
-nsAutoTArray
+AutoTArray
 .
 /
 /
@@ -14962,7 +14962,7 @@ need
 this
 constructor
 because
-nsAutoTArray
+AutoTArray
 and
 friends
 all
@@ -15542,7 +15542,7 @@ TArrayBase
 /
 /
 /
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15574,7 +15574,7 @@ inside
 an
 /
 /
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15604,7 +15604,7 @@ you
 can
 cast
 an
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15632,7 +15632,7 @@ size_t
 N
 >
 class
-nsAutoTArray
+AutoTArray
 :
 public
 nsAutoArrayBase
@@ -15645,7 +15645,7 @@ N
 >
 {
 typedef
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15665,7 +15665,7 @@ Base
 ;
 public
 :
-nsAutoTArray
+AutoTArray
 (
 )
 {
@@ -15676,7 +15676,7 @@ typename
 Allocator
 >
 explicit
-nsAutoTArray
+AutoTArray
 (
 const
 nsTArray_Impl
@@ -15703,7 +15703,7 @@ typename
 Allocator
 >
 explicit
-nsAutoTArray
+AutoTArray
 (
 nsTArray_Impl
 <
@@ -15956,7 +15956,7 @@ this
 }
 operator
 const
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15971,7 +15971,7 @@ return
 reinterpret_cast
 <
 const
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -15995,7 +15995,7 @@ N
 struct
 nsTArray_CopyChooser
 <
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -16005,7 +16005,7 @@ N
 typedef
 nsTArray_CopyWithConstructors
 <
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -16019,7 +16019,7 @@ Type
 /
 Assert
 that
-nsAutoTArray
+AutoTArray
 doesn
 '
 t
@@ -16059,7 +16059,7 @@ e
 .
 g
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 1
@@ -16070,7 +16070,7 @@ t
 work
 .
 Since
-nsAutoTArray
+AutoTArray
 /
 /
 contains
@@ -16140,7 +16140,7 @@ rule
 If
 we
 used
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 1
@@ -16196,7 +16196,7 @@ static_assert
 (
 sizeof
 (
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -16222,7 +16222,7 @@ uint32_t
 *
 2
 "
-nsAutoTArray
+AutoTArray
 shouldn
 '
 t

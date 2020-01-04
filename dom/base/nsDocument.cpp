@@ -18603,7 +18603,7 @@ bool
 aFlushLayout
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -19439,7 +19439,7 @@ a
 reminder
 to
 wait
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -62413,7 +62413,7 @@ GetFullscreenLeaf
 this
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsDocument
 *
@@ -66221,7 +66221,7 @@ order
 as
 specified
 .
-nsAutoTArray
+AutoTArray
 <
 nsIDocument
 *

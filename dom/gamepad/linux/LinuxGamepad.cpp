@@ -505,7 +505,7 @@ currently
 connected
 gamepads
 .
-nsAutoTArray
+AutoTArray
 <
 Gamepad
 4

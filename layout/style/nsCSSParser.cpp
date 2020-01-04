@@ -3461,7 +3461,7 @@ that
 character
 .
 typedef
-nsAutoTArray
+AutoTArray
 <
 char16_t
 16
@@ -14635,7 +14635,7 @@ currently
 open
 constructs
 .
-nsAutoTArray
+AutoTArray
 <
 char16_t
 16
@@ -24127,7 +24127,7 @@ ident
 integer
 +
 ]
-nsAutoTArray
+AutoTArray
 <
 gfxFontFeatureValueSet
 :
@@ -24304,7 +24304,7 @@ continue
 /
 value
 list
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 4
@@ -28167,7 +28167,7 @@ tk
 &
 mToken
 ;
-nsAutoTArray
+AutoTArray
 <
 char16_t
 16
@@ -28410,7 +28410,7 @@ tk
 &
 mToken
 ;
-nsAutoTArray
+AutoTArray
 <
 char16_t
 16
@@ -99955,7 +99955,7 @@ reference
 s
 fallback
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 16

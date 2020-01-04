@@ -3414,7 +3414,7 @@ is
 really
 expected
 .
-nsAutoTArray
+AutoTArray
 <
 nsAutoPtr
 <
@@ -3505,7 +3505,7 @@ mUnscaledInnerSize
 bool
 mDidSetRealShowInfo
 ;
-nsAutoTArray
+AutoTArray
 <
 bool
 NUMBER_OF_AUDIO_CHANNELS

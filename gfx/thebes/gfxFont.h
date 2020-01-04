@@ -13241,7 +13241,7 @@ mExpirationState
 gfxFontStyle
 mStyle
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxGlyphExtents
 *

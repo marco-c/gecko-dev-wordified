@@ -6602,14 +6602,14 @@ mOffsetIntoTextRun
 ;
 private
 :
-nsAutoTArray
+AutoTArray
 <
 MappedFlow
 10
 >
 mMappedFlows
 ;
-nsAutoTArray
+AutoTArray
 <
 nsTextFrame
 *
@@ -6617,7 +6617,7 @@ nsTextFrame
 >
 mLineBreakBeforeFrames
 ;
-nsAutoTArray
+AutoTArray
 <
 nsAutoPtr
 <
@@ -6627,7 +6627,7 @@ BreakSink
 >
 mBreakSinks
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxTextRun
 *
@@ -12886,7 +12886,7 @@ gfxTextRunFactory
 TEXT_INCOMING_ARABICCHAR
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 int32_t
 50
@@ -14661,7 +14661,7 @@ iter
 skipChars
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 50
@@ -15605,7 +15605,7 @@ false
 gfxSkipChars
 skipChars
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 50

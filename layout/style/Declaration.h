@@ -2529,7 +2529,7 @@ declaration
 is
 for
 .
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 8

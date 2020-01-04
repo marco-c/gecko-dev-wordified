@@ -1829,7 +1829,7 @@ nsCString
 >
 mInitializedOrigins
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

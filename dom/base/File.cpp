@@ -1474,7 +1474,7 @@ aRv
 )
 const
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

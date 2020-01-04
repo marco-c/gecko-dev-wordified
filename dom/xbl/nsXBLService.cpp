@@ -1187,7 +1187,7 @@ nsIStreamListener
 >
 mInner
 ;
-nsAutoTArray
+AutoTArray
 <
 nsXBLBindingRequest
 *
@@ -4017,7 +4017,7 @@ bug
 comment
 18
 .
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

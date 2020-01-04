@@ -2867,7 +2867,7 @@ are
 being
 constructed
 .
-nsAutoTArray
+AutoTArray
 <
 nsDOMMutationRecord
 *
@@ -2936,7 +2936,7 @@ uint64_t
 sCount
 ;
 static
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -2957,9 +2957,9 @@ uint32_t
 sMutationLevel
 ;
 static
-nsAutoTArray
+AutoTArray
 <
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -3515,7 +3515,7 @@ nsAutoMutationBatch
 *
 mPreviousBatch
 ;
-nsAutoTArray
+AutoTArray
 <
 BatchObserver
 2
@@ -4245,7 +4245,7 @@ nsAutoAnimationMutationBatch
 *
 sCurrentBatch
 ;
-nsAutoTArray
+AutoTArray
 <
 nsDOMMutationObserver
 *

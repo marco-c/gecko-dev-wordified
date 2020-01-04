@@ -1500,7 +1500,7 @@ negotiated
 bool
 mAllocateEven
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -1554,7 +1554,7 @@ mQueuedData
 Streams
 pending
 reset
-nsAutoTArray
+AutoTArray
 <
 uint16_t
 4

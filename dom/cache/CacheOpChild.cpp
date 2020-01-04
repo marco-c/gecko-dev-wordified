@@ -1140,7 +1140,7 @@ CacheResponse
 aResponseList
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -1230,7 +1230,7 @@ CacheRequest
 aRequestList
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

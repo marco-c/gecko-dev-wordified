@@ -1743,7 +1743,7 @@ family
 continue
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 gfxFontEntry
 *

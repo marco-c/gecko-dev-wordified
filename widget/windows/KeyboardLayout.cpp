@@ -13555,7 +13555,7 @@ cnt
 skipUnshiftedChars
 ]
 ;
-nsAutoTArray
+AutoTArray
 <
 AlternativeCharCode
 5
@@ -20023,7 +20023,7 @@ VK_NUMLOCK
 break
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 KeyPair
 10
@@ -20360,7 +20360,7 @@ HandleKeyDownMessage
 }
 else
 {
-nsAutoTArray
+AutoTArray
 <
 NativeKey
 :

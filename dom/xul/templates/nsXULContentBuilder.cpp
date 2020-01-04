@@ -7656,7 +7656,7 @@ for
 generated
 content
 .
-nsAutoTArray
+AutoTArray
 <
 nsIContent
 *

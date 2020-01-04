@@ -3109,7 +3109,7 @@ up
 the
 tree
 .
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *

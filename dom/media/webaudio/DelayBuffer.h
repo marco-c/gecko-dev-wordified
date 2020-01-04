@@ -659,7 +659,7 @@ upmixed
 channel
 arrays
 .
-nsAutoTArray
+AutoTArray
 <
 const
 float

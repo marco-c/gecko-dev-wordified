@@ -11038,7 +11038,7 @@ scope
 root
 here
 .
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

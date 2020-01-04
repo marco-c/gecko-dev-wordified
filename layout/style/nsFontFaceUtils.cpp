@@ -757,7 +757,7 @@ gfxUserFontEntry
 aFont
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -849,7 +849,7 @@ they
 use
 the
 font
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
