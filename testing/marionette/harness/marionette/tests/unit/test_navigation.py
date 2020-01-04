@@ -56,8 +56,6 @@ MPL
 import
 time
 import
-unittest
-import
 urllib
 from
 marionette
@@ -1292,22 +1290,6 @@ ID
 mozLink
 "
 )
-)
-    
-unittest
-.
-skip
-(
-"
-Bug
-1302707
--
-No
-timeout
-exception
-raised
-.
-"
 )
     
 def
