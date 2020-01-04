@@ -622,6 +622,17 @@ IsInitialized
 )
 ;
 }
+/
+/
+Clear
+all
+state
+.
+void
+Reset
+(
+)
+;
 private
 :
 void
