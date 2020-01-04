@@ -4974,7 +4974,7 @@ doc
 dragNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
