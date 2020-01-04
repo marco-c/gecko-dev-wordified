@@ -3033,6 +3033,12 @@ result
 nsresult
 NS_NewHTTPCompressConv
 (
+mozilla
+:
+:
+net
+:
+:
 nsHTTPCompressConv
 *
 *
@@ -3909,6 +3915,12 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
+mozilla
+:
+:
+net
+:
+:
 nsHTTPCompressConv
 *
 inst
