@@ -10647,6 +10647,14 @@ identifier
 "
 CheckAllPermissions
 "
+or
+                  
+identifier
+=
+=
+"
+Deprecated
+"
 )
 :
                 
