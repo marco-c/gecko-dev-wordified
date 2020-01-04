@@ -2573,9 +2573,8 @@ iff
 the
 property
 was
-*
-was
 defined
+*
 on
 |
 obj
