@@ -9466,7 +9466,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 this
 )
@@ -14338,7 +14338,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 buffer
 )

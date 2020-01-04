@@ -2425,7 +2425,7 @@ return
 sb
 -
 >
-putValueFromAnyThread
+putValue
 (
 vp
 )
@@ -2486,7 +2486,7 @@ storeBuffer
 sb
 -
 >
-unputValueFromAnyThread
+unputValue
 (
 vp
 )
@@ -4757,7 +4757,7 @@ storeBuffer
 )
 -
 >
-putSlotFromAnyThread
+putSlot
 (
 owner
 kind

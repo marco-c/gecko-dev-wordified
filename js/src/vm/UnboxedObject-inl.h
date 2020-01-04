@@ -579,7 +579,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 unboxedObject
 )
@@ -940,7 +940,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 unboxedObject
 )
@@ -4649,7 +4649,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 dst
 )
