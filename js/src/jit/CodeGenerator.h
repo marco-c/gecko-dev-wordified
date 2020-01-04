@@ -399,9 +399,9 @@ generate
 bool
 generateAsmJS
 (
-AsmJSFunctionLabels
+AsmJSFunctionOffsets
 *
-labels
+offsets
 )
 ;
 bool
