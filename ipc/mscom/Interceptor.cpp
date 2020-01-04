@@ -179,7 +179,7 @@ mozilla
 /
 mscom
 /
-utils
+Utils
 .
 h
 "
