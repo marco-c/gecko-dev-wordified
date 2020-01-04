@@ -17181,6 +17181,12 @@ aSource
 .
 mAnimationIterationCountCount
 )
+mShapeOutside
+(
+aSource
+.
+mShapeOutside
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -18742,6 +18748,14 @@ mScrollSnapCoordinate
 aNewData
 .
 mScrollSnapCoordinate
+|
+|
+mShapeOutside
+!
+=
+aNewData
+.
+mShapeOutside
 )
 )
 {
