@@ -7684,15 +7684,6 @@ function
 (
 )
 {
-let
-root
-=
-this
-.
-selection
-.
-nodeFront
-;
 if
 (
 !
@@ -7700,7 +7691,6 @@ this
 .
 canAddHTMLChild
 (
-root
 )
 )
 {
@@ -7756,7 +7746,11 @@ walker
 .
 insertAdjacentHTML
 (
-root
+this
+.
+selection
+.
+nodeFront
 "
 beforeEnd
 "
