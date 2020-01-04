@@ -10460,6 +10460,16 @@ OnSeekTaskRejected
 MOZ_ASSERT
 (
 !
+mQueuedSeek
+.
+Exists
+(
+)
+)
+;
+MOZ_ASSERT
+(
+!
 mCurrentSeek
 .
 Exists
