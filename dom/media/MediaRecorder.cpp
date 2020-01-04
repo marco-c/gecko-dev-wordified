@@ -2939,7 +2939,6 @@ gm
 >
 CreateTrackUnionStream
 (
-nullptr
 )
 ;
 MOZ_ASSERT

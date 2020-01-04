@@ -339,14 +339,10 @@ TrackUnionStream
 :
 TrackUnionStream
 (
-DOMMediaStream
-*
-aWrapper
 )
 :
 ProcessedMediaStream
 (
-aWrapper
 )
 mNextAvailableTrackID
 (

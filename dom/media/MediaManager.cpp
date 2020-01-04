@@ -4886,7 +4886,6 @@ msg
 >
 CreateSourceStream
 (
-nullptr
 )
 ;
 /

@@ -990,7 +990,6 @@ Graph
 >
 CreateSourceStream
 (
-nullptr
 )
 )
 /
