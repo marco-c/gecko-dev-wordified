@@ -8258,7 +8258,10 @@ minusOne
 {
 vpcmpeqw
 (
+Operand
+(
 dest
+)
 dest
 dest
 )
