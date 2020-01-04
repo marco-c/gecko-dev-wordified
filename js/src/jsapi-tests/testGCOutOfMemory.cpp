@@ -535,7 +535,10 @@ nullptr
 ;
 setNativeStackQuota
 (
+JS_GetContext
+(
 rt
+)
 )
 ;
 return

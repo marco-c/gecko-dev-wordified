@@ -4150,7 +4150,7 @@ value
 }
 JS_SetNativeStackQuota
 (
-aRuntime
+workerCx
 WORKER_CONTEXT_NATIVE_STACK_LIMIT
 )
 ;

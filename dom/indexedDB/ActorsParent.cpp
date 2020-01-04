@@ -112451,6 +112451,13 @@ return
 false
 ;
 }
+mContext
+=
+JS_GetContext
+(
+mRuntime
+)
+;
 /
 /
 Not
@@ -112466,7 +112473,7 @@ positives
 .
 JS_SetNativeStackQuota
 (
-mRuntime
+mContext
 128
 *
 sizeof
@@ -112475,13 +112482,6 @@ size_t
 )
 *
 1024
-)
-;
-mContext
-=
-JS_GetContext
-(
-mRuntime
 )
 ;
 if

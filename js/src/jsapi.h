@@ -11042,7 +11042,7 @@ void
 )
 JS_SetNativeStackQuota
 (
-JSRuntime
+JSContext
 *
 cx
 size_t
