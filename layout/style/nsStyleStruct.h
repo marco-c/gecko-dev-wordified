@@ -4952,10 +4952,9 @@ are
 /
 present
 .
-AutoTArray
+nsStyleAutoArray
 <
 Layer
-1
 >
 mLayers
 ;
