@@ -702,6 +702,13 @@ aData
 ;
 }
 }
+aData
+-
+>
+mLineIsEmpty
+=
+false
+;
 }
 /
 *

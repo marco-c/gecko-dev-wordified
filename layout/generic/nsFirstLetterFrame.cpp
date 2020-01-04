@@ -766,6 +766,13 @@ nsLayoutUtils
 PREF_ISIZE
 )
 ;
+aData
+-
+>
+mLineIsEmpty
+=
+false
+;
 }
 /
 /
