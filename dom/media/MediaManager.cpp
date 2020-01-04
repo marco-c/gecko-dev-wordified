@@ -1481,6 +1481,8 @@ Substring
 domainWhiteList
 begin
 end
+-
+begin
 )
 domainName
 )
