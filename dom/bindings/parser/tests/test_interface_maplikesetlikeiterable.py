@@ -765,10 +765,16 @@ IDLIterable
     
 valueIterableMembers
 =
-list
+[
 (
-iterableMembers
+"
+__iterable
+"
+WebIDL
+.
+IDLIterable
 )
+]
     
 valueIterableMembers
 .
