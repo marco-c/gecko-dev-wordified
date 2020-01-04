@@ -9463,6 +9463,14 @@ Disconnect
 )
 ;
 }
+mMessageManager
+=
+nullptr
+;
+mChildMessageManager
+=
+nullptr
+;
 }
 NS_IMETHODIMP
 nsFrameLoader
