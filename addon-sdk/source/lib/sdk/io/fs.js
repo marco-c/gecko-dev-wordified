@@ -413,13 +413,7 @@ nsISeekableStream
 const
 FILE_PERMISSION
 =
-parseInt
-(
-"
-0666
-"
-8
-)
+0o666
 ;
 const
 PR_UINT32_MAX

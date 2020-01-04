@@ -822,13 +822,7 @@ file
 .
 permissions
 =
-parseInt
-(
-'
-0777
-'
-8
-)
+0o777
 ;
 }
 function
