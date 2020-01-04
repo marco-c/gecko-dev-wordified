@@ -2538,6 +2538,9 @@ arrayBufferFromDataURI
 (
 uri
 )
+hidden
+:
+false
 }
 )
 ;
