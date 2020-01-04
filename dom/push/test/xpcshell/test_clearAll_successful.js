@@ -259,9 +259,9 @@ aeebdb8d493c
 )
 ;
 yield
-PushNotificationService
+PushService
 .
-clearAll
+_clearAll
 (
 )
 ;
