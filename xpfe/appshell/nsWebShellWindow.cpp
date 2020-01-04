@@ -813,8 +813,8 @@ CSS
 XUL
 /
 RDF
-LayoutDeviceIntRect
-r
+DesktopIntRect
+deskRect
 (
 initialX
 initialY
@@ -1050,7 +1050,7 @@ nullptr
 Native
 parent
 widget
-r
+deskRect
 /
 /
 Widget
@@ -1064,6 +1064,9 @@ widgetInitData
 Widget
 initialization
 data
+LayoutDeviceIntRect
+r
+;
 mWindow
 -
 >
