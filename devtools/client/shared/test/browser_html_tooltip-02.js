@@ -500,9 +500,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 useXulWrapper
 }
@@ -634,9 +632,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 consumeOutsideClicks
 :
@@ -807,9 +803,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 consumeOutsideClicks
 :
@@ -955,9 +949,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 consumeOutsideClicks
 :
@@ -1158,9 +1150,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 useXulWrapper
 }
@@ -1278,9 +1268,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 consumeOutsideClicks
 :

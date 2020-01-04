@@ -3435,6 +3435,18 @@ network
 request
 item
 .
+/
+/
+The
+popup
+will
+be
+attached
+to
+the
+toolbox
+document
+.
 this
 .
 tooltip
@@ -3445,6 +3457,8 @@ HTMLTooltip
 NetMonitorController
 .
 _toolbox
+.
+doc
 {
 type
 :

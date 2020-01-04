@@ -671,9 +671,7 @@ popup
 new
 AutocompletePopup
 (
-{
 doc
-}
 {
 autoSelect
 :

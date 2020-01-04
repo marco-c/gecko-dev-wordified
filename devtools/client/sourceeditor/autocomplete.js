@@ -1041,15 +1041,11 @@ popup
 new
 AutocompletePopup
 (
-{
-doc
-:
 win
 .
 parent
 .
 document
-}
 {
 position
 :

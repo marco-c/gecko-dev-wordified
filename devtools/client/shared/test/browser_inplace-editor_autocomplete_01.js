@@ -389,11 +389,7 @@ popup
 new
 AutocompletePopup
 (
-{
-doc
-:
 xulDocument
-}
 {
 autoSelect
 :

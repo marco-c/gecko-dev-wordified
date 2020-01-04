@@ -401,9 +401,7 @@ tooltip
 new
 HTMLTooltip
 (
-{
 doc
-}
 {
 useXulWrapper
 :
