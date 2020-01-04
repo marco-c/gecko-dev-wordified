@@ -2208,6 +2208,19 @@ deck
 .
 download_and_install
 )
+                
+message
+=
+'
+Download
+of
+the
+update
+has
+been
+started
+.
+'
 )
         
 #
@@ -2309,6 +2322,17 @@ dialog
 wizard
 .
 updates_found_basic
+                
+message
+=
+'
+An
+update
+has
+been
+found
+.
+'
 )
             
 download_via_update_wizard
