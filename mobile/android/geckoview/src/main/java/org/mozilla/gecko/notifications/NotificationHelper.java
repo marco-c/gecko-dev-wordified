@@ -1660,7 +1660,7 @@ res
 =
 PendingIntent
 .
-getActivity
+getBroadcast
 (
 mContext
 0
