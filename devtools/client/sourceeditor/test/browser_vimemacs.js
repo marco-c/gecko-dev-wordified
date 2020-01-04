@@ -32,11 +32,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-2
-)
-;
 const
 URI
 =
@@ -85,7 +80,7 @@ test
 {
 requestLongerTimeout
 (
-3
+4
 )
 ;
 waitForExplicitFinish
