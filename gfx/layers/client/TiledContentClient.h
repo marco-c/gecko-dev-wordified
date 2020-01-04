@@ -2164,7 +2164,7 @@ bool
 aHasPendingNewThebesContent
 bool
 aLowPrecision
-ViewTransform
+AsyncTransform
 &
 aViewTransform
 )

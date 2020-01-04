@@ -1443,7 +1443,7 @@ aIncrement
 bool
 SampleContentTransformForFrame
 (
-ViewTransform
+AsyncTransform
 *
 aOutTransform
 ParentLayerPoint
@@ -1959,7 +1959,7 @@ FromMilliseconds
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 mcc
@@ -2036,7 +2036,7 @@ false
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 while
@@ -7402,7 +7402,7 @@ SimpleTransform
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 apzc
@@ -7425,7 +7425,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -7910,7 +7910,7 @@ childMetrics
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 /
@@ -7976,7 +7976,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8028,7 +8028,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8095,7 +8095,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8152,7 +8152,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8221,7 +8221,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8278,7 +8278,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (
@@ -8554,7 +8554,7 @@ touchEnd
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 nsTArray
@@ -8617,7 +8617,7 @@ pointOut
 ;
 EXPECT_NE
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -8636,7 +8636,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -8704,7 +8704,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -8733,7 +8733,7 @@ touchEnd
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 uint64_t
@@ -8832,7 +8832,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -9177,7 +9177,7 @@ touchEnd
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 /
@@ -10496,7 +10496,7 @@ IsOverscrolled
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 /
@@ -10966,7 +10966,7 @@ milliseconds
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 apzc
@@ -11242,7 +11242,7 @@ ParentLayerPoint
 point
 finalPoint
 ;
-ViewTransform
+AsyncTransform
 viewTransform
 ;
 apzc
@@ -12723,7 +12723,7 @@ status
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 apzc
@@ -12746,7 +12746,7 @@ pointOut
 ;
 EXPECT_EQ
 (
-ViewTransform
+AsyncTransform
 (
 )
 viewTransformOut
@@ -14433,7 +14433,7 @@ FromMilliseconds
 ParentLayerPoint
 pointOut
 ;
-ViewTransform
+AsyncTransform
 viewTransformOut
 ;
 mcc
@@ -20983,7 +20983,7 @@ swi
 mOrigin
 )
 ;
-ViewTransform
+AsyncTransform
 viewTransform
 ;
 ParentLayerPoint

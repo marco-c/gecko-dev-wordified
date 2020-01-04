@@ -329,7 +329,7 @@ class
 PCompositorParent
 ;
 struct
-ViewTransform
+AsyncTransform
 ;
 class
 AsyncPanZoomAnimation
@@ -1380,7 +1380,7 @@ parameter
 void
 SampleContentTransformForFrame
 (
-ViewTransform
+AsyncTransform
 *
 aOutTransform
 ParentLayerPoint
@@ -1777,7 +1777,7 @@ amount
 .
 *
 /
-ViewTransform
+AsyncTransform
 GetCurrentAsyncTransform
 (
 )
