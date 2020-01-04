@@ -1892,6 +1892,9 @@ virtual
 void
 ProduceBlockBeforeInput
 (
+AudioNodeStream
+*
+aStream
 GraphTime
 aFrom
 AudioBlock

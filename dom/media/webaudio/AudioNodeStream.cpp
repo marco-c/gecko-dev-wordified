@@ -3494,6 +3494,7 @@ mEngine
 >
 ProduceBlockBeforeInput
 (
+this
 aFrom
 &
 mLastChunks
