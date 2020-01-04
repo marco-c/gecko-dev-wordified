@@ -110,7 +110,7 @@ h
 #
 include
 "
-DeleteTextTxn
+DeleteTextTransaction
 .
 h
 "
@@ -833,12 +833,12 @@ aNode
 ;
 RefPtr
 <
-DeleteTextTxn
+DeleteTextTransaction
 >
-txn
+transaction
 =
 new
-DeleteTextTxn
+DeleteTextTransaction
 (
 *
 mEditor
@@ -852,7 +852,7 @@ mRangeUpdater
 nsresult
 res
 =
-txn
+transaction
 -
 >
 Init
@@ -867,7 +867,7 @@ res
 ;
 AppendChild
 (
-txn
+transaction
 )
 ;
 return
@@ -1089,12 +1089,12 @@ aNode
 ;
 RefPtr
 <
-DeleteTextTxn
+DeleteTextTransaction
 >
-txn
+transaction
 =
 new
-DeleteTextTxn
+DeleteTextTransaction
 (
 *
 mEditor
@@ -1108,7 +1108,7 @@ mRangeUpdater
 nsresult
 res
 =
-txn
+transaction
 -
 >
 Init
@@ -1123,7 +1123,7 @@ res
 ;
 AppendChild
 (
-txn
+transaction
 )
 ;
 }
