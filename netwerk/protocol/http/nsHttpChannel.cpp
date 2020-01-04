@@ -41120,10 +41120,6 @@ stickyConn
 mUpgradeProtocolCallback
 )
 ;
-mUpgradeProtocolCallback
-=
-nullptr
-;
 }
 }
 /
