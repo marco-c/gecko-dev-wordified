@@ -1630,7 +1630,7 @@ Init
 nsPermissionManager
 :
 :
-AppClearDataObserverInit
+ClearOriginDataObserverInit
 (
 )
 ;
