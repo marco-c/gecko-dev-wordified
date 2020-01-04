@@ -1346,6 +1346,14 @@ char
 aName
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
+/
+*
+=
+STACK
+*
+/
 )
 {
 bool
@@ -1406,6 +1414,7 @@ TimelineMarker
 (
 aName
 aTracingType
+aStackRequest
 )
 ;
 if
@@ -1457,6 +1466,14 @@ TimeStamp
 aTime
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
+/
+*
+=
+STACK
+*
+/
 )
 {
 bool
@@ -1518,6 +1535,7 @@ TimelineMarker
 aName
 aTime
 aTracingType
+aStackRequest
 )
 ;
 if

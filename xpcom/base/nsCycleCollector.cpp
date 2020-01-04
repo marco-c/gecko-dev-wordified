@@ -15559,6 +15559,10 @@ nsCycleCollector
 :
 ForgetSkippable
 "
+MarkerStackRequest
+:
+:
+NO_STACK
 )
 ;
 }
@@ -20799,6 +20803,10 @@ nsCycleCollector
 :
 Collect
 "
+MarkerStackRequest
+:
+:
+NO_STACK
 )
 ;
 }
