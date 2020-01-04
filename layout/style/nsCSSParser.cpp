@@ -24490,12 +24490,6 @@ Takes
 ownership
 of
 declaration
-and
-steals
-contents
-of
-selectorList
-.
 RefPtr
 <
 nsCSSKeyframeRule
@@ -24505,7 +24499,10 @@ rule
 new
 nsCSSKeyframeRule
 (
+Move
+(
 selectorList
+)
 declaration
 linenum
 colnum
