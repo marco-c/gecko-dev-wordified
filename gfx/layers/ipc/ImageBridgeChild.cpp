@@ -717,6 +717,7 @@ and
 bug
 1215265
 .
+MOZ_INIT_OUTSIDE_CTOR
 PseudoStack
 *
 mPseudoStackHack
