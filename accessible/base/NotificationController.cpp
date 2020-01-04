@@ -3062,12 +3062,6 @@ Process
 (
 )
 ;
-mEventTree
-.
-Clear
-(
-)
-;
 ProcessEventQueue
 (
 )
