@@ -10699,7 +10699,7 @@ setObject
 promise
 -
 >
-GetWrapper
+PromiseObj
 (
 )
 )
@@ -10767,7 +10767,7 @@ setObject
 promise
 -
 >
-GetWrapper
+PromiseObj
 (
 )
 )
