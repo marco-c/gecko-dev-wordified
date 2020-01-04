@@ -43150,13 +43150,6 @@ fn
 funbox
 &
 newDirectives
-/
-*
-blockScopeDepth
-=
-*
-/
-0
 )
 ;
 if
