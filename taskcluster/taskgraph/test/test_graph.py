@@ -963,7 +963,7 @@ green
 )
     
 def
-test_transitive_closure_disjoint
+test_transitive_closure_disjoint_edges
 (
 self
 )

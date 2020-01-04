@@ -765,6 +765,7 @@ self
 .
 assertEqual
 (
+            
 self
 .
 tgg
@@ -772,7 +773,7 @@ tgg
 optimized_task_graph
 .
 graph
-             
+            
 graph
 .
 Graph
@@ -804,7 +805,7 @@ t
 ]
 }
 {
-                 
+                
 (
 tid
 [
@@ -826,7 +827,7 @@ t
 prev
 '
 )
-                 
+                
 (
 tid
 [
@@ -848,9 +849,10 @@ t
 prev
 '
 )
-             
+            
 }
 )
+            
 )
 if
 __name__

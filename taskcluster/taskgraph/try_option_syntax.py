@@ -1985,6 +1985,7 @@ nargs
 '
 ?
 '
+                            
 dest
 =
 '
@@ -2020,6 +2021,7 @@ nargs
 '
 ?
 '
+                            
 dest
 =
 '
@@ -2085,6 +2087,7 @@ i
 -
 interactive
 '
+                            
 dest
 =
 '
@@ -2220,6 +2223,7 @@ self
 .
 parse_test_option
 (
+            
 "
 unittest_try_name
 "
@@ -2354,7 +2358,7 @@ get
 build_type
 )
 for
-                
+                             
 build_type
 in
 build_types_arg

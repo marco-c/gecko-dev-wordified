@@ -259,7 +259,6 @@ revision
 '
 ]
 )
-;
 if
 args
 .

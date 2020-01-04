@@ -98,6 +98,8 @@ key
 )
 )
 :
+#
+noqa
             
 dest
 [
@@ -294,7 +296,6 @@ self
 root
 =
 root
-;
     
 def
 _inherits

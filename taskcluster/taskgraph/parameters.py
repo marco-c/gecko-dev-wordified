@@ -74,8 +74,6 @@ unicode_literals
 import
 json
 import
-sys
-import
 yaml
 from
 mozbuild

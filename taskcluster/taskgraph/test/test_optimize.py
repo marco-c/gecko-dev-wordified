@@ -79,21 +79,12 @@ from
 .
 .
 import
-optimize
-from
-.
-.
-import
 types
 from
 .
 .
 import
 graph
-from
-mozunit
-import
-main
 class
 TestResolveTaskReferences
 (
@@ -498,7 +489,9 @@ self
 .
 assertRaisesRegexp
 (
+            
 KeyError
+            
 "
 task
 '
@@ -515,9 +508,9 @@ no
 such
 '
 "
+            
 lambda
 :
-            
 resolve_task_references
 (
 '
@@ -541,6 +534,7 @@ such
 {
 }
 )
+            
 )
 class
 FakeKind
@@ -763,6 +757,7 @@ task_id
 got_annotations
 =
 {
+            
 t
 .
 label
@@ -788,6 +783,7 @@ tasks
 itervalues
 (
 )
+            
 }
         
 self
@@ -894,15 +890,12 @@ image
         
 )
         
-opt
-=
 annotate_task_graph
 (
 graph
 set
 (
 )
-                
 graph
 .
 graph
@@ -918,6 +911,7 @@ self
 .
 assert_annotations
 (
+            
 graph
             
 task1
@@ -940,6 +934,7 @@ task3
 False
 None
 )
+            
 )
     
 def
@@ -999,10 +994,11 @@ self
 .
 assertRaises
 (
+            
 Exception
+            
 lambda
 :
-            
 annotate_task_graph
 (
 graph
@@ -1019,6 +1015,7 @@ named_links_dict
 {
 }
 )
+            
 )
     
 def
@@ -1114,10 +1111,11 @@ self
 .
 assertRaises
 (
+            
 Exception
+            
 lambda
 :
-            
 annotate_task_graph
 (
 graph
@@ -1134,6 +1132,7 @@ named_links_dict
 {
 }
 )
+            
 )
     
 def
@@ -1216,8 +1215,6 @@ label_to_taskid
 {
 }
         
-opt
-=
 annotate_task_graph
 (
 graph
@@ -1229,7 +1226,7 @@ task1
 task2
 '
 }
-                
+                            
 graph
 .
 graph
@@ -1244,6 +1241,7 @@ self
 .
 assert_annotations
 (
+            
 graph
             
 task1
@@ -1259,6 +1257,7 @@ task2
 False
 None
 )
+            
 )
         
 self
@@ -1293,6 +1292,7 @@ self
 .
 make_kind
 (
+            
 lambda
 task
 deps
@@ -1317,6 +1317,7 @@ True
 taskid
 '
 )
+            
 )
         
 graph
@@ -1379,15 +1380,13 @@ image
         
 )
         
-opt
-=
 annotate_task_graph
 (
 graph
 set
 (
 )
-                
+                            
 graph
 .
 graph
@@ -1403,6 +1402,7 @@ self
 .
 assert_annotations
 (
+            
 graph
             
 task1
@@ -1439,6 +1439,7 @@ True
 taskid
 '
 )
+            
 )
     
 def
@@ -2130,9 +2131,11 @@ self
 .
 make_task
 (
+                
 '
 task2
 '
+                
 optimized
 =
 False
@@ -2166,6 +2169,7 @@ test
 '
 }
 }
+                
 )
             
 (
@@ -2400,6 +2404,7 @@ self
 .
 make_kind
 (
+            
 lambda
 task
 deps
@@ -2424,6 +2429,7 @@ else
 False
 None
 )
+            
 )
         
 input

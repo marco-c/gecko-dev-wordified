@@ -358,8 +358,6 @@ t
 raise
 .
         
-time
-=
 json_time_from_now
 (
 '
@@ -396,7 +394,7 @@ years
 '
 now
 )
-                
+                         
 '
 2015
 -
@@ -422,7 +420,7 @@ days
 '
 now
 )
-                
+                         
 '
 2014
 -

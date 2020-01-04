@@ -64,8 +64,6 @@ unittest
 import
 tempfile
 import
-shutil
-import
 os
 from
 .
@@ -74,16 +72,9 @@ kind
 import
 docker_image
 from
-.
-.
-types
-import
-Task
-from
 mozunit
 import
 main
-MockedOpen
 class
 TestDockerImageKind
 (
