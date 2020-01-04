@@ -8199,11 +8199,6 @@ artist
 Artist
 Name
 "
-comments
-:
-"
-Comments
-"
 }
 }
 {
