@@ -11723,17 +11723,6 @@ mozconfig
 configure_args
 '
 ]
-and
-\
-                    
-'
-COMM_BUILD
-'
-not
-in
-os
-.
-environ
 :
                 
 print
