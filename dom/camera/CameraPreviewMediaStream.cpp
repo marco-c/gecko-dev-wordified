@@ -344,8 +344,6 @@ AddVideoOutput
 MediaStreamVideoSink
 *
 aSink
-TrackID
-aID
 )
 {
 MutexAutoLock
@@ -369,7 +367,6 @@ sink
 forget
 (
 )
-aID
 )
 ;
 }
@@ -382,8 +379,6 @@ RemoveVideoOutput
 MediaStreamVideoSink
 *
 aSink
-TrackID
-aID
 )
 {
 MutexAutoLock
@@ -395,7 +390,6 @@ mMutex
 RemoveVideoOutputImpl
 (
 aSink
-aID
 )
 ;
 }
@@ -629,12 +623,8 @@ mInvalidatePending
 ;
 for
 (
-const
-TrackBound
-<
 MediaStreamVideoSink
->
-&
+*
 sink
 :
 mVideoOutputs
@@ -645,8 +635,6 @@ VideoFrameContainer
 output
 =
 sink
-.
-mListener
 -
 >
 AsVideoFrameContainer
@@ -806,12 +794,8 @@ Now
 ;
 for
 (
-const
-TrackBound
-<
 MediaStreamVideoSink
->
-&
+*
 sink
 :
 mVideoOutputs
@@ -822,8 +806,6 @@ VideoFrameContainer
 output
 =
 sink
-.
-mListener
 -
 >
 AsVideoFrameContainer
@@ -885,12 +867,8 @@ mMutex
 ;
 for
 (
-const
-TrackBound
-<
 MediaStreamVideoSink
->
-&
+*
 sink
 :
 mVideoOutputs
@@ -901,8 +879,6 @@ VideoFrameContainer
 output
 =
 sink
-.
-mListener
 -
 >
 AsVideoFrameContainer
