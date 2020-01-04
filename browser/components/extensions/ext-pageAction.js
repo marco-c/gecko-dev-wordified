@@ -1019,7 +1019,7 @@ if
 popup
 )
 {
-togglePanel
+openPanel
 (
 this
 .
