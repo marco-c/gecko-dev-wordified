@@ -358,6 +358,9 @@ false
 useOnlyCssZoom
 :
 false
+externalLinkTarget
+:
+0
 }
 ;
 var
