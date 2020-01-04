@@ -1309,6 +1309,7 @@ mMPS
 >
 GetGMPAudioDecoder
 (
+nullptr
 &
 tags
 GetNodeId

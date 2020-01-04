@@ -308,6 +308,9 @@ here
 bool
 GetContentParentFrom
 (
+GMPCrashHelper
+*
+aHelper
 const
 nsACString
 &

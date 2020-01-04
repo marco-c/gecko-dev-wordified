@@ -623,6 +623,9 @@ aDirectory
 bool
 GetContentParentFrom
 (
+GMPCrashHelper
+*
+aHelper
 const
 nsACString
 &

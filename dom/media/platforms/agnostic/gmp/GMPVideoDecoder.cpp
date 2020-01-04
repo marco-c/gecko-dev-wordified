@@ -1744,6 +1744,7 @@ mMPS
 >
 GetGMPVideoDecoder
 (
+nullptr
 &
 tags
 GetNodeId

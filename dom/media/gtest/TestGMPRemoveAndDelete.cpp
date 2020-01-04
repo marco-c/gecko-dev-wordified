@@ -1894,6 +1894,7 @@ GetService
 >
 GetGMPVideoDecoder
 (
+nullptr
 &
 tags
 aNodeId
