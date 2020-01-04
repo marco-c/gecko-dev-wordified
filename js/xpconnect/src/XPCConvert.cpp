@@ -5416,12 +5416,10 @@ for
 this
 object
 .
-AutoMarkingNativeInterfacePtr
-iface
-(
-cx
-)
-;
+RefPtr
+<
+XPCNativeInterface
+>
 iface
 =
 XPCNativeInterface
