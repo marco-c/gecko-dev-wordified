@@ -150,6 +150,17 @@ mozilla
 /
 dom
 /
+KeyframeAnimationOptionsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyframeEffectBinding
 .
 h
