@@ -22198,9 +22198,7 @@ error
 .
 *
 /
-:
-:
-DOMPoint
+EditorDOMPoint
 nsEditor
 :
 :
@@ -22276,9 +22274,7 @@ GetParentNode
 (
 )
 ;
-:
-:
-DOMPoint
+EditorDOMPoint
 ret
 ;
 while
@@ -22340,9 +22336,7 @@ rightNodeToJoin
 NS_ENSURE_SUCCESS
 (
 res
-:
-:
-DOMPoint
+EditorDOMPoint
 (
 )
 )

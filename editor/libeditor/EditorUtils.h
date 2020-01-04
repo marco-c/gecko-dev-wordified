@@ -1603,6 +1603,9 @@ true
 }
 }
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -1768,7 +1771,8 @@ struct
 /
 struct
 MOZ_STACK_CLASS
-DOMPoint
+EditorDOMPoint
+final
 {
 nsCOMPtr
 <
@@ -1779,7 +1783,7 @@ node
 int32_t
 offset
 ;
-DOMPoint
+EditorDOMPoint
 (
 )
 :
@@ -1794,7 +1798,7 @@ offset
 )
 {
 }
-DOMPoint
+EditorDOMPoint
 (
 nsINode
 *
@@ -1813,7 +1817,7 @@ aOffset
 )
 {
 }
-DOMPoint
+EditorDOMPoint
 (
 nsIDOMNode
 *
@@ -1878,9 +1882,6 @@ aOffset
 }
 }
 ;
-namespace
-mozilla
-{
 class
 EditorUtils
 final

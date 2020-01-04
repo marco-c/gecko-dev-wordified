@@ -212,6 +212,9 @@ nsRulesInfo
 namespace
 mozilla
 {
+struct
+EditorDOMPoint
+;
 namespace
 dom
 {
@@ -231,9 +234,6 @@ dom
 /
 namespace
 mozilla
-struct
-DOMPoint
-;
 struct
 StyleCache
 :
@@ -892,9 +892,10 @@ Selection
 aSelection
 )
 ;
+mozilla
 :
 :
-DOMPoint
+EditorDOMPoint
 GetGoodSelPointForNode
 (
 nsINode
@@ -1706,9 +1707,10 @@ outArrayOfNodes
 nsresult
 GetNodesFromPoint
 (
+mozilla
 :
 :
-DOMPoint
+EditorDOMPoint
 aPoint
 EditAction
 aOperation
@@ -1972,9 +1974,10 @@ nsIDOMNode
 aBlock
 )
 ;
+mozilla
 :
 :
-DOMPoint
+EditorDOMPoint
 JoinNodesSmart
 (
 nsIContent

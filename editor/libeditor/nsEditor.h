@@ -411,9 +411,6 @@ nsString
 class
 nsTransactionManager
 ;
-struct
-DOMPoint
-;
 namespace
 mozilla
 {
@@ -422,6 +419,9 @@ ErrorResult
 ;
 class
 TextComposition
+;
+struct
+EditorDOMPoint
 ;
 namespace
 dom
@@ -3833,9 +3833,10 @@ outRightNode
 nullptr
 )
 ;
+mozilla
 :
 :
-DOMPoint
+EditorDOMPoint
 JoinNodeDeep
 (
 nsIContent
