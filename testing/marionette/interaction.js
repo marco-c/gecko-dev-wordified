@@ -486,9 +486,6 @@ element
 isVisible
 (
 el
-container
-.
-frame
 )
 ;
 if

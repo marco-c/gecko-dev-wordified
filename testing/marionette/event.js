@@ -5881,7 +5881,6 @@ element
 isVisible
 (
 el
-window
 )
 )
 {
