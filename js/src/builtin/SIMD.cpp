@@ -1372,12 +1372,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 TypeDescr
 :
 :

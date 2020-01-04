@@ -1974,12 +1974,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 SharedArrayBufferObject
 :
 :

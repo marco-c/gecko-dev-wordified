@@ -14461,7 +14461,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 JS_GlobalObjectTraceHook
 }
 ;
@@ -33164,7 +33163,6 @@ nullptr
 global_enumerate
 global_resolve
 global_mayResolve
-nullptr
 nullptr
 nullptr
 nullptr

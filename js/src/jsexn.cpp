@@ -497,13 +497,6 @@ mayResolve
 *
 /
 \
-nullptr
-/
-*
-convert
-*
-/
-\
 exn_finalize
 \
 nullptr
@@ -626,12 +619,6 @@ nullptr
 /
 *
 mayResolve
-*
-/
-nullptr
-/
-*
-convert
 *
 /
 exn_finalize

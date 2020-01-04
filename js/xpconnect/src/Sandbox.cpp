@@ -3430,12 +3430,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 sandbox_finalize
 nullptr
 nullptr
@@ -3528,12 +3522,6 @@ nullptr
 /
 *
 mayResolve
-*
-/
-nullptr
-/
-*
-convert
 *
 /
 sandbox_finalize

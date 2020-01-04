@@ -4601,12 +4601,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 ArgumentsObject
 :
 :
@@ -4726,12 +4720,6 @@ nullptr
 /
 *
 mayResolve
-*
-/
-nullptr
-/
-*
-convert
 *
 /
 ArgumentsObject

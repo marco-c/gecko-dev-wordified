@@ -363,12 +363,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 resc_finalize
 nullptr
 /

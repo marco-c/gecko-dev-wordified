@@ -2760,12 +2760,6 @@ nullptr
 mayResolve
 *
 /
-nullptr
-/
-*
-convert
-*
-/
 WeakMap_finalize
 nullptr
 /
