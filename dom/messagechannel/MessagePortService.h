@@ -217,6 +217,10 @@ const
 nsID
 &
 aUUID
+bool
+aForced
+=
+false
 )
 ;
 void
