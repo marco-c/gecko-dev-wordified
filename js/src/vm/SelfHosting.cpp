@@ -9507,7 +9507,7 @@ intrinsic_functions
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Array
@@ -9515,6 +9515,7 @@ std_Array
 ArrayConstructor
 1
 0
+Array
 )
 JS_FN
 (
@@ -9525,7 +9526,7 @@ array_join
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Array_push
@@ -9533,8 +9534,9 @@ std_Array_push
 array_push
 1
 0
+ArrayPush
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Array_pop
@@ -9542,8 +9544,9 @@ std_Array_pop
 array_pop
 0
 0
+ArrayPop
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Array_shift
@@ -9551,6 +9554,7 @@ std_Array_shift
 array_shift
 0
 0
+ArrayShift
 )
 JS_FN
 (
@@ -9561,7 +9565,7 @@ array_unshift
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Array_slice
@@ -9569,6 +9573,7 @@ std_Array_slice
 array_slice
 2
 0
+ArraySlice
 )
 JS_FN
 (
@@ -9615,7 +9620,7 @@ fun_apply
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_floor
@@ -9623,8 +9628,9 @@ std_Math_floor
 math_floor
 1
 0
+MathFloor
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_max
@@ -9632,8 +9638,9 @@ std_Math_max
 math_max
 2
 0
+MathMax
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_min
@@ -9641,8 +9648,9 @@ std_Math_min
 math_min
 2
 0
+MathMin
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_abs
@@ -9650,8 +9658,9 @@ std_Math_abs
 math_abs
 1
 0
+MathAbs
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_imul
@@ -9659,8 +9668,9 @@ std_Math_imul
 math_imul
 2
 0
+MathImul
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Math_log2
@@ -9668,6 +9678,7 @@ std_Math_log2
 math_log2
 1
 0
+MathLog2
 )
 JS_FN
 (
@@ -9702,7 +9713,7 @@ num_valueOf
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_Object_create
@@ -9710,6 +9721,7 @@ std_Object_create
 obj_create
 2
 0
+ObjectCreate
 )
 JS_FN
 (
@@ -9807,7 +9819,7 @@ values
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_fromCharCode
@@ -9815,8 +9827,9 @@ std_String_fromCharCode
 str_fromCharCode
 1
 0
+StringFromCharCode
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_charCodeAt
@@ -9824,6 +9837,7 @@ std_String_charCodeAt
 str_charCodeAt
 1
 0
+StringCharCodeAt
 )
 JS_FN
 (
@@ -9852,7 +9866,7 @@ str_match
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_replace
@@ -9860,8 +9874,9 @@ std_String_replace
 str_replace
 2
 0
+StringReplace
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_split
@@ -9869,6 +9884,7 @@ std_String_split
 str_split
 2
 0
+StringSplit
 )
 JS_FN
 (
@@ -9942,7 +9958,7 @@ WeakMap_clear
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_SIMD_Int32x4_extractLane
@@ -9950,8 +9966,9 @@ std_SIMD_Int32x4_extractLane
 simd_int32x4_extractLane
 2
 0
+SimdInt32x4
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_SIMD_Float32x4_extractLane
@@ -9959,6 +9976,7 @@ std_SIMD_Float32x4_extractLane
 simd_float32x4_extractLane
 2
 0
+SimdFloat32x4
 )
 JS_FN
 (
