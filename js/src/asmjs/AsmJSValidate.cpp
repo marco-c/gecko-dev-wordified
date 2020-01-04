@@ -9671,12 +9671,6 @@ Hand
 in
 code
 ranges
-script
-counts
-and
-perf
-profiling
-data
 to
 the
 AsmJSModule

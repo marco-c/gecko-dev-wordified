@@ -9249,7 +9249,7 @@ begin_
 (
 l
 .
-begin
+profilingEntry
 .
 offset
 (
@@ -9269,7 +9269,7 @@ end_
 (
 l
 .
-end
+endAfterOOL
 .
 offset
 (
@@ -9298,7 +9298,7 @@ setDeltas
 (
 l
 .
-entry
+nonProfilingEntry
 .
 offset
 (
@@ -9323,7 +9323,7 @@ MOZ_ASSERT
 (
 l
 .
-begin
+profilingEntry
 .
 offset
 (
@@ -9331,7 +9331,7 @@ offset
 <
 l
 .
-entry
+nonProfilingEntry
 .
 offset
 (
@@ -9342,7 +9342,7 @@ MOZ_ASSERT
 (
 l
 .
-entry
+nonProfilingEntry
 .
 offset
 (
@@ -9407,7 +9407,7 @@ offset
 <
 l
 .
-end
+endAfterOOL
 .
 offset
 (

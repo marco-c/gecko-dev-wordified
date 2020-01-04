@@ -2103,7 +2103,7 @@ None
 labels
 -
 >
-begin
+profilingEntry
 )
 ;
 Label
@@ -2138,7 +2138,7 @@ bind
 labels
 -
 >
-entry
+nonProfilingEntry
 )
 ;
 PushRetAddr
