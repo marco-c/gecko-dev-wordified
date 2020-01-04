@@ -348,12 +348,6 @@ const
 nsAString
 &
 aToken
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 void
