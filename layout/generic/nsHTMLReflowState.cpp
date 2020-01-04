@@ -511,17 +511,6 @@ mLineLayout
 =
 nullptr
 ;
-memset
-(
-&
-mFlags
-0
-sizeof
-(
-mFlags
-)
-)
-;
 mDiscoveredClearance
 =
 nullptr
@@ -1164,6 +1153,9 @@ aContainingBlockISize
 aContainingBlockISize
 )
 ;
+ReflowStateFlags
+flags
+;
 InitOffsets
 (
 aContainingBlockWritingMode
@@ -1174,6 +1166,7 @@ frame
 GetType
 (
 )
+flags
 )
 ;
 }
@@ -16016,6 +16009,7 @@ wm
 aContainingBlockSize
 )
 aFrameType
+mFlags
 aBorder
 aPadding
 )
@@ -16464,6 +16458,7 @@ wm
 )
 )
 aFrameType
+mFlags
 aBorder
 aPadding
 )
@@ -18337,6 +18332,8 @@ aPercentBasis
 nsIAtom
 *
 aFrameType
+ReflowStateFlags
+aFlags
 const
 nsMargin
 *
