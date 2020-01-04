@@ -2964,29 +2964,6 @@ prefix
 options
 )
         
-elif
-options
-.
-max_jobs
->
-1
-and
-jittests
-.
-HAVE_MULTIPROCESSING
-:
-            
-ok
-=
-jittests
-.
-run_tests_parallel
-(
-job_list
-prefix
-options
-)
-        
 else
 :
             
