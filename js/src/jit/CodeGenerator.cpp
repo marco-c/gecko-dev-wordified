@@ -12344,6 +12344,16 @@ fun
 allowSuperProperty
 (
 )
+|
+|
+info
+.
+fun
+-
+>
+isAsync
+(
+)
 )
 ;
 static_assert
