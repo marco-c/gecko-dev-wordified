@@ -29171,12 +29171,6 @@ getJitcodeGlobalTable
 jit
 :
 :
-JitcodeGlobalEntry
-entry
-;
-jit
-:
-:
 IonScript
 *
 ion
@@ -29193,6 +29187,13 @@ ionScript
 (
 )
 ;
+jit
+:
+:
+JitcodeGlobalEntry
+&
+entry
+=
 table
 -
 >
@@ -29209,9 +29210,6 @@ method
 raw
 (
 )
-&
-entry
-rt
 )
 ;
 if
