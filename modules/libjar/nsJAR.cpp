@@ -750,6 +750,10 @@ nsJAR
 mLock
 "
 )
+mMtime
+(
+0
+)
 mTotalItemsInManifest
 (
 0
@@ -7335,6 +7339,10 @@ nsZipReaderCache
 .
 mLock
 "
+)
+mCacheSize
+(
+0
 )
 mZips
 (
