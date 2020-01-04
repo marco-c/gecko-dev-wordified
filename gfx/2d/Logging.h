@@ -948,6 +948,7 @@ InvalidFont
 PAllocTextureBackendMismatch
 GetFontFileDataFailed
 MessageChannelCloseFailure
+TextureAliveAfterShutdown
 /
 /
 End
