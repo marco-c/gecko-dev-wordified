@@ -1734,12 +1734,12 @@ MOZILLA_PKIX_ERROR_BASE
 5
 ;
 const
-PREF_BLOCKLIST_CLOCK_SKEW_SECONDS
+PREF_KINTO_CLOCK_SKEW_SECONDS
 =
 "
 services
 .
-blocklist
+kinto
 .
 clock_skew_seconds
 "
@@ -2077,7 +2077,7 @@ MOZILLA_PKIX_ERROR_NOT_YET_VALID_CERTIFICATE
 /
 /
 use
-blocklist
+Kinto
 stats
 if
 available
@@ -2089,7 +2089,7 @@ prefs
 .
 getPrefType
 (
-PREF_BLOCKLIST_CLOCK_SKEW_SECONDS
+PREF_KINTO_CLOCK_SKEW_SECONDS
 )
 )
 {
@@ -2102,7 +2102,7 @@ prefs
 .
 getIntPref
 (
-PREF_BLOCKLIST_CLOCK_SKEW_SECONDS
+PREF_KINTO_CLOCK_SKEW_SECONDS
 )
 ;
 /

@@ -1114,7 +1114,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1402,7 +1402,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1562,7 +1562,7 @@ behavior
 when
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1653,7 +1653,7 @@ past
 (
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1795,7 +1795,7 @@ behavior
 when
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1856,7 +1856,7 @@ now
 set
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1874,7 +1874,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1987,7 +1987,7 @@ clearUserPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .

@@ -1715,7 +1715,7 @@ repositorySearchURL
 /
 /
 Ensure
-blocklist
+kinto
 updates
 don
 '
@@ -1728,9 +1728,9 @@ user_pref
 "
 services
 .
-settings
+kinto
 .
-server
+base
 "
 "
 http
