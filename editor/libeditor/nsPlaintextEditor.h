@@ -194,6 +194,9 @@ mozilla
 class
 AutoEditInitRulesTrigger
 ;
+class
+HTMLEditRules
+;
 namespace
 dom
 {
@@ -1318,7 +1321,10 @@ AutoEditInitRulesTrigger
 ;
 friend
 class
-nsHTMLEditRules
+mozilla
+:
+:
+HTMLEditRules
 ;
 friend
 class

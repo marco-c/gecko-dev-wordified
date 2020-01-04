@@ -349,6 +349,9 @@ namespace
 mozilla
 {
 class
+HTMLEditRules
+;
+class
 TypeInState
 ;
 class
@@ -6270,11 +6273,14 @@ class
 mozilla
 :
 :
-WSRunObject
+HTMLEditRules
 ;
 friend
 class
-nsHTMLEditRules
+mozilla
+:
+:
+WSRunObject
 ;
 friend
 class

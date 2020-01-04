@@ -155,14 +155,14 @@ class
 nsHTMLEditor
 ;
 class
-nsHTMLEditRules
-;
-class
 nsIDOMNode
 ;
 namespace
 mozilla
 {
+class
+HTMLEditRules
+;
 struct
 EditorDOMPoint
 ;
@@ -2812,7 +2812,7 @@ pillaging
 .
 friend
 class
-nsHTMLEditRules
+HTMLEditRules
 ;
 /
 /

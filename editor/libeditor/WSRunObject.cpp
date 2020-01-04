@@ -886,7 +886,7 @@ WillInsertText
 in
 /
 /
-nsHTMLEditRules
+HTMLEditRules
 .
 cpp
 NS_ENSURE_TRUE
@@ -1464,7 +1464,7 @@ WillInsertText
 in
 /
 /
-nsHTMLEditRules
+HTMLEditRules
 .
 cpp
 /

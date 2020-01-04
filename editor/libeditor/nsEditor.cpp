@@ -12563,7 +12563,7 @@ InsertTextImpl
 in
 /
 /
-nsHTMLEditRules
+HTMLEditRules
 .
 return
 ;
