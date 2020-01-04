@@ -2947,7 +2947,9 @@ GlobalObject
 :
 valueIsEval
 (
+const
 Value
+&
 val
 )
 {

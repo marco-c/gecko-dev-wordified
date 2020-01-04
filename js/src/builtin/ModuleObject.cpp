@@ -5101,10 +5101,12 @@ ModuleObject
 :
 setHostDefinedField
 (
+const
 JS
 :
 :
 Value
+&
 value
 )
 {

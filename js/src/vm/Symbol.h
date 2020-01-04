@@ -859,10 +859,12 @@ result
 bool
 IsSymbolOrSymbolWrapper
 (
+const
 JS
 :
 :
 Value
+&
 v
 )
 ;
@@ -873,10 +875,12 @@ Symbol
 *
 ToSymbolPrimitive
 (
+const
 JS
 :
 :
 Value
+&
 v
 )
 ;

@@ -7902,10 +7902,12 @@ GetParen
 JSLinearString
 *
 matched
+const
 JS
 :
 :
 Value
+&
 capture
 JSSubString
 *

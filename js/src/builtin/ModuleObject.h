@@ -1298,10 +1298,12 @@ self
 void
 setHostDefinedField
 (
+const
 JS
 :
 :
 Value
+&
 value
 )
 ;

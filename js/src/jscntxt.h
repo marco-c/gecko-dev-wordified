@@ -3085,10 +3085,12 @@ isClosingGenerator
 void
 setPendingException
 (
+const
 js
 :
 :
 Value
+&
 v
 )
 ;

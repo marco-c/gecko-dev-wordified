@@ -3171,10 +3171,12 @@ JSObject
 obj_
 jsid
 id_
+const
 JS
 :
 :
 Value
+&
 old
 JS
 :

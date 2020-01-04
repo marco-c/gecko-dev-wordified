@@ -4487,7 +4487,9 @@ global
 bool
 valueIsEval
 (
+const
 Value
+&
 val
 )
 ;

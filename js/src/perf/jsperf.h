@@ -805,7 +805,9 @@ PerfMeasurement
 )
 ExtractPerfMeasurement
 (
+const
 Value
+&
 wrapper
 )
 ;

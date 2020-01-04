@@ -9034,7 +9034,9 @@ int
 spindex
 int
 skipStackHits
+const
 Value
+&
 v
 jsbytecode
 *

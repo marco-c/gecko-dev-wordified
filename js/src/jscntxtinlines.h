@@ -2303,10 +2303,12 @@ JSContext
 :
 setPendingException
 (
+const
 js
 :
 :
 Value
+&
 v
 )
 {

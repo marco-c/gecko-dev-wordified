@@ -7602,7 +7602,9 @@ JSContext
 cx
 JSTrapStatus
 status
+const
 Value
+&
 value
 MutableHandleValue
 result
