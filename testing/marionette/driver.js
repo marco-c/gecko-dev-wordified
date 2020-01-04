@@ -13028,14 +13028,8 @@ listener
 .
 actionChain
 (
-{
-chain
-:
 chain
 nextId
-:
-nextId
-}
 )
 ;
 break
