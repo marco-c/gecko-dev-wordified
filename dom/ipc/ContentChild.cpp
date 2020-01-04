@@ -12030,6 +12030,9 @@ originNoSuffix
 PrincipalOriginAttributes
 attrs
 ;
+bool
+success
+=
 attrs
 .
 PopulateFromOrigin
@@ -12038,6 +12041,12 @@ permission
 .
 origin
 originNoSuffix
+)
+;
+NS_ENSURE_TRUE
+(
+success
+false
 )
 ;
 nsCOMPtr
