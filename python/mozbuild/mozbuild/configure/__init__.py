@@ -1675,6 +1675,14 @@ in
 self
 .
 _templates
+and
+                
+not
+issubclass
+(
+value
+Exception
+)
 )
 :
             
