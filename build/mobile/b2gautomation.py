@@ -1534,9 +1534,6 @@ startTime
                       
 debuggerInfo
 symbolsPath
-outputHandler
-=
-None
 )
 :
         
@@ -1588,7 +1585,7 @@ while
 True
 :
             
-lines
+currentlog
 =
 proc
 .
@@ -1598,43 +1595,11 @@ timeout
 )
             
 if
-lines
-:
-                
 currentlog
-=
-'
-\
-n
-'
-.
-join
-(
-lines
-)
+:
                 
-if
-outputHandler
-:
-                    
-for
-line
-in
-lines
-:
-                        
-outputHandler
-(
-line
-)
-                
-else
-:
-                    
 print
-(
 currentlog
-)
                 
 #
 Match
@@ -1729,16 +1694,6 @@ testStartFilenames
 ]
                 
 if
-(
-outputHandler
-and
-outputHandler
-.
-suite_finished
-)
-or
-(
-                        
 hasattr
 (
 self
@@ -1752,7 +1707,6 @@ self
 logFinish
 in
 currentlog
-)
 :
                     
 return
@@ -3625,14 +3579,9 @@ any
 additional
 lines
             
-if
-not
-lines
-:
-                
 try
 :
-                    
+                
 lines
 .
 append
@@ -3647,17 +3596,25 @@ True
 timeout
 )
 )
-                
+            
 except
 Queue
 .
 Empty
 :
-                    
+                
 pass
             
 return
+'
+\
+n
+'
+.
+join
+(
 lines
+)
         
 def
 wait

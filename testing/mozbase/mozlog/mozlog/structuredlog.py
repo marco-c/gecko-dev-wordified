@@ -1668,19 +1668,6 @@ optional
 =
 True
 )
-                
-Dict
-(
-"
-extra
-"
-default
-=
-None
-optional
-=
-True
-)
 )
     
 def
@@ -1788,18 +1775,6 @@ data
     
 log_action
 (
-Dict
-(
-"
-extra
-"
-default
-=
-None
-optional
-=
-True
-)
 )
     
 def
