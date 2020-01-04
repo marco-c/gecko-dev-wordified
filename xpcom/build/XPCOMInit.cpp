@@ -4622,6 +4622,7 @@ if
 (
 observerService
 )
+{
 mozilla
 :
 :
@@ -4643,6 +4644,7 @@ NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 nullptr
 )
 ;
+}
 gXPCOMThreadsShutDown
 =
 true
