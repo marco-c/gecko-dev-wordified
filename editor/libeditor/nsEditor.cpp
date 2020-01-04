@@ -212,7 +212,7 @@ h
 /
 /
 for
-nsAutoRules
+AutoRules
 etc
 #
 include
@@ -5101,7 +5101,7 @@ hasTransaction
 NS_OK
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5266,7 +5266,7 @@ hasTransaction
 NS_OK
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7575,7 +7575,7 @@ aTag
 aParent
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7788,7 +7788,7 @@ int32_t
 aPosition
 )
 {
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7987,7 +7987,7 @@ ErrorResult
 aResult
 )
 {
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8240,7 +8240,7 @@ MOZ_ASSERT
 parent
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8472,7 +8472,7 @@ nsINode
 aNode
 )
 {
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -14559,7 +14559,7 @@ NS_ENSURE_STATE
 txn
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -22751,7 +22751,7 @@ res
 )
 )
 {
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

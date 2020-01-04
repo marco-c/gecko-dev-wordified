@@ -7025,7 +7025,7 @@ processing
 rules
 get
 confused
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7064,7 +7064,7 @@ ForceCompositionEnd
 Do
 not
 use
-nsAutoRules
+AutoRules
 -
 -
 rules
@@ -9074,7 +9074,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -11961,7 +11961,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -12417,7 +12417,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -12600,7 +12600,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -12776,7 +12776,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -13239,7 +13239,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -13732,7 +13732,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -27645,7 +27645,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

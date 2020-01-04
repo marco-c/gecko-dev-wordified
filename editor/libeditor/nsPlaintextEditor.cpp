@@ -110,7 +110,7 @@ h
 /
 /
 nsAutoEditBatch
-nsAutoRules
+AutoRules
 #
 include
 "
@@ -3079,7 +3079,7 @@ br
 treatment
 by
 rules
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -3789,7 +3789,7 @@ nsGkAtoms
 DeleteTxnName
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -4119,7 +4119,7 @@ this
 nullptr
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -4334,7 +4334,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6311,7 +6311,7 @@ NotifyEditorObservers
 eNotifyEditorObserversOfBefore
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6453,7 +6453,7 @@ NotifyEditorObservers
 eNotifyEditorObserversOfBefore
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8110,7 +8110,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

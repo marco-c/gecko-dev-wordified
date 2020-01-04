@@ -6884,7 +6884,7 @@ any
 post
 -
 processing
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 mEditor

@@ -2436,7 +2436,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -3232,7 +3232,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -4364,7 +4364,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5405,7 +5405,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5588,7 +5588,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5834,7 +5834,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6829,7 +6829,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7317,7 +7317,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -9929,7 +9929,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -11240,7 +11240,7 @@ cell
 created
 by
 ReplaceContainer
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -12874,7 +12874,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -13657,7 +13657,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -14799,7 +14799,7 @@ we
 '
 re
 done
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
