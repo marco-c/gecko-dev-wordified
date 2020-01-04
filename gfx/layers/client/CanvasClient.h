@@ -830,12 +830,7 @@ OnDetach
 (
 )
 override
-{
-ClearSurfaces
-(
-)
 ;
-}
 }
 ;
 /
