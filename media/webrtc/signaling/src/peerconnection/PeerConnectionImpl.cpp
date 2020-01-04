@@ -4019,6 +4019,10 @@ credential
 aServer
 .
 mCredential
+.
+Value
+(
+)
 )
 ;
 NS_ConvertUTF16toUTF8
@@ -4027,6 +4031,10 @@ username
 aServer
 .
 mUsername
+.
+Value
+(
+)
 )
 ;
 if
