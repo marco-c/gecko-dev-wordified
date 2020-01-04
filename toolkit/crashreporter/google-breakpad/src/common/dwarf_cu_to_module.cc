@@ -405,13 +405,6 @@ h
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -1119,7 +1112,7 @@ string
 &
 name
 const
-uint8_t
+char
 *
 contents
 uint64
@@ -2973,12 +2966,10 @@ table
 .
 if
 (
-(
 declaration_
 &
 &
 qualified_name
-)
 |
 |
 (
@@ -5504,7 +5495,7 @@ return
 ;
 }
 const
-uint8_t
+char
 *
 section_start
 =
