@@ -518,7 +518,6 @@ ulValueLen
 ;
 \
 }
-\
 else
 {
 \
@@ -591,7 +590,6 @@ PR_TRUE
 ;
 \
 }
-\
 else
 {
 \
