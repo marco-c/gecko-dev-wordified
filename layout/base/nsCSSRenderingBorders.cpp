@@ -12120,7 +12120,7 @@ corners
 so
 we
 get
-OPERATOR_ADD
+OP_ADD
 for
 the
 corners
@@ -12996,7 +12996,7 @@ We
 could
 draw
 using
-OPERATOR_ADD
+OP_ADD
 to
 /
 /

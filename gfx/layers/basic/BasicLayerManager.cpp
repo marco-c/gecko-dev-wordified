@@ -3039,7 +3039,7 @@ destination
 /
 /
 using
-OPERATOR_SOURCE
+OP_SOURCE
 to
 ensure
 that
@@ -3049,9 +3049,9 @@ in
 a
 transparent
 window
-/
-/
 are
+/
+/
 cleared
 .
 This
@@ -3060,7 +3060,7 @@ also
 be
 faster
 than
-OPERATOR_OVER
+OP_OVER
 .
 if
 (
@@ -5542,10 +5542,7 @@ setOperator
 aPaintContext
 .
 mTarget
-ThebesOp
-(
 op
-)
 )
 ;
 PaintWithMask
