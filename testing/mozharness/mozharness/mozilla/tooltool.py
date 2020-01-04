@@ -684,6 +684,22 @@ self
 .
 run_command
         
+timeout
+=
+self
+.
+config
+.
+get
+(
+'
+tooltool_timeout
+'
+10
+*
+60
+)
+        
 self
 .
 retry
@@ -717,6 +733,12 @@ privileged
 '
 :
 privileged
+                    
+'
+output_timeout
+'
+:
+timeout
                     
 }
             
