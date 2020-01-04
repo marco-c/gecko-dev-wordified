@@ -3989,10 +3989,6 @@ nsObjectLoadingContent
 (
 )
 :
-mRewrittenYoutubeEmbed
-(
-false
-)
 mType
 (
 eType_Loading
@@ -10445,10 +10441,6 @@ tag
 )
 ;
 }
-mRewrittenYoutubeEmbed
-=
-false
-;
 /
 /
 Note
@@ -10568,10 +10560,6 @@ OwnerDoc
 )
 newBaseURI
 )
-;
-mRewrittenYoutubeEmbed
-=
-true
 ;
 newMime
 =
