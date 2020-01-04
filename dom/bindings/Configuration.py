@@ -7807,9 +7807,9 @@ maplikeOrSetlikeOrIterable
 if
 iterableDecl
 .
-valueType
-is
-None
+isValueIterator
+(
+)
 :
         
 iterClass
