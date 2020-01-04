@@ -688,9 +688,6 @@ slot
 Slot
 *
 start
-KernCollider
-&
-coll
 int
 dir
 float
