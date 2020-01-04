@@ -103,7 +103,7 @@ RemoteException
 public
 final
 class
-CodecManager
+MediaManager
 extends
 Service
 {
@@ -112,7 +112,7 @@ Binder
 mBinder
 =
 new
-ICodecManager
+IMediaManager
 .
 Stub
 (
