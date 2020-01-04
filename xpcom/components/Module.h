@@ -770,6 +770,7 @@ kPStaticModules
 M
 "
 )
+dllexport
 )
 #
 elif
@@ -851,6 +852,7 @@ section
 kPStaticModules
 "
 )
+dllexport
 )
 )
 #
