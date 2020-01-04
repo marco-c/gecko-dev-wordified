@@ -517,7 +517,7 @@ EnableResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -982,7 +982,7 @@ DisableResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -3480,7 +3480,7 @@ GetRemoteDevicePropertiesResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -3931,7 +3931,7 @@ DispatchReplyErrorResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -4335,7 +4335,7 @@ GetRemoteServiceRecordResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -4586,7 +4586,7 @@ aManager
 ;
 RefPtr
 <
-BluetoothResultHandler
+BluetoothCoreResultHandler
 >
 res
 =
@@ -4706,7 +4706,7 @@ GetRemoteServicesResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -4954,7 +4954,7 @@ aManager
 ;
 RefPtr
 <
-BluetoothResultHandler
+BluetoothCoreResultHandler
 >
 res
 =
@@ -5140,7 +5140,7 @@ PinReplyResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -5305,7 +5305,7 @@ SspReplyResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :
@@ -7948,7 +7948,7 @@ SetAdapterPropertyDiscoverableResultHandler
 final
 :
 public
-BluetoothResultHandler
+BluetoothCoreResultHandler
 {
 public
 :

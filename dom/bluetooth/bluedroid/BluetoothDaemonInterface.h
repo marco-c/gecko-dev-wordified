@@ -262,7 +262,7 @@ override
 void
 Enable
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -271,7 +271,7 @@ override
 void
 Disable
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -286,7 +286,7 @@ Properties
 void
 GetAdapterProperties
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -297,7 +297,7 @@ GetAdapterProperty
 (
 BluetoothPropertyType
 aType
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -310,7 +310,7 @@ const
 BluetoothProperty
 &
 aProperty
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -330,7 +330,7 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -345,7 +345,7 @@ BluetoothAddress
 aRemoteAddr
 BluetoothPropertyType
 aType
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -362,7 +362,7 @@ const
 BluetoothProperty
 &
 aProperty
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -385,7 +385,7 @@ const
 BluetoothUuid
 &
 aUuid
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -398,7 +398,7 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -412,7 +412,7 @@ Discovery
 void
 StartDiscovery
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -421,7 +421,7 @@ override
 void
 CancelDiscovery
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -441,7 +441,7 @@ BluetoothAddress
 aBdAddr
 BluetoothTransport
 aTransport
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -454,7 +454,7 @@ const
 BluetoothAddress
 &
 aBdAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -467,7 +467,7 @@ const
 BluetoothAddress
 &
 aBdAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -485,7 +485,7 @@ const
 BluetoothAddress
 &
 aBdAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -509,7 +509,7 @@ const
 BluetoothPinCode
 &
 aPinCode
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -528,7 +528,7 @@ bool
 aAccept
 uint32_t
 aPasskey
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -545,7 +545,7 @@ DutModeConfigure
 (
 bool
 aEnable
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -560,7 +560,7 @@ uint8_t
 aBuf
 uint8_t
 aLen
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -582,7 +582,7 @@ uint8_t
 aBuf
 uint8_t
 aLen
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -597,7 +597,7 @@ Information
 void
 ReadEnergyInfo
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -709,6 +709,26 @@ override
 ;
 private
 :
+void
+DispatchError
+(
+BluetoothCoreResultHandler
+*
+aRes
+BluetoothStatus
+aStatus
+)
+;
+void
+DispatchError
+(
+BluetoothCoreResultHandler
+*
+aRes
+nsresult
+aRv
+)
+;
 void
 DispatchError
 (

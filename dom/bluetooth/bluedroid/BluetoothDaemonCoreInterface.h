@@ -328,7 +328,7 @@ Commands
 nsresult
 EnableCmd
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -336,7 +336,7 @@ aRes
 nsresult
 DisableCmd
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -344,7 +344,7 @@ aRes
 nsresult
 GetAdapterPropertiesCmd
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -354,7 +354,7 @@ GetAdapterPropertyCmd
 (
 BluetoothPropertyType
 aType
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -366,7 +366,7 @@ const
 BluetoothProperty
 &
 aProperty
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -378,7 +378,7 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -392,7 +392,7 @@ BluetoothAddress
 aRemoteAddr
 BluetoothPropertyType
 aType
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -408,7 +408,7 @@ const
 BluetoothProperty
 &
 aProperty
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -424,7 +424,7 @@ const
 BluetoothUuid
 &
 aUuid
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -436,7 +436,7 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -444,7 +444,7 @@ aRes
 nsresult
 StartDiscoveryCmd
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -452,7 +452,7 @@ aRes
 nsresult
 CancelDiscoveryCmd
 (
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -466,7 +466,7 @@ BluetoothAddress
 aBdAddr
 BluetoothTransport
 aTransport
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -478,7 +478,7 @@ const
 BluetoothAddress
 &
 aBdAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -490,7 +490,7 @@ const
 BluetoothAddress
 &
 aBdAddr
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -508,7 +508,7 @@ const
 BluetoothPinCode
 &
 aPinCode
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -526,7 +526,7 @@ bool
 aAccept
 uint32_t
 aPasskey
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -536,7 +536,7 @@ DutModeConfigureCmd
 (
 bool
 aEnable
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -551,7 +551,7 @@ uint8_t
 aBuf
 uint8_t
 aLen
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -566,7 +566,7 @@ uint8_t
 aBuf
 uint8_t
 aLen
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -606,7 +606,7 @@ ipc
 :
 DaemonResultRunnable0
 <
-BluetoothResultHandler
+BluetoothCoreResultHandler
 void
 >
 ResultRunnable
@@ -620,7 +620,7 @@ ipc
 :
 DaemonResultRunnable1
 <
-BluetoothResultHandler
+BluetoothCoreResultHandler
 void
 BluetoothStatus
 BluetoothStatus
@@ -637,7 +637,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -652,7 +652,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -667,7 +667,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -682,7 +682,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -697,7 +697,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -712,7 +712,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -727,7 +727,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -742,7 +742,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -757,7 +757,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -772,7 +772,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -787,7 +787,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -802,7 +802,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -817,7 +817,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -832,7 +832,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -847,7 +847,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -862,7 +862,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -877,7 +877,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -892,7 +892,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -907,7 +907,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -922,7 +922,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
@@ -937,7 +937,7 @@ aHeader
 DaemonSocketPDU
 &
 aPDU
-BluetoothResultHandler
+BluetoothCoreResultHandler
 *
 aRes
 )
