@@ -343,7 +343,7 @@ window
 .
 #
 define
-NS_THEME_RESIZER_PANEL
+NS_THEME_RESIZERPANEL
 25
 /
 /
@@ -787,7 +787,7 @@ text
 area
 #
 define
-NS_THEME_TEXTFIELD_CARET
+NS_THEME_CARET
 96
 /
 /
