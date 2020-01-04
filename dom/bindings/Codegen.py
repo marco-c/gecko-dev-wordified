@@ -11633,25 +11633,7 @@ freeOp
 finalize
 =
 "
-JSBindingFinalized
-<
-%
-s
->
-:
-:
-Finalized
-(
-self
-)
-;
-\
-n
 "
-%
-descriptor
-.
-nativeType
     
 if
 descriptor
