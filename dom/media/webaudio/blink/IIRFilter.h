@@ -149,6 +149,11 @@ float
 phaseResponse
 )
 ;
+bool
+buffersAreZero
+(
+)
+;
 private
 :
 /
