@@ -584,11 +584,6 @@ GetParentObject
 (
 )
 ;
-MOZ_ASSERT
-(
-globalObject
-)
-;
 AutoJSAPI
 jsapi
 ;
