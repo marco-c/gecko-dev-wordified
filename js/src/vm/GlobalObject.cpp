@@ -4467,6 +4467,8 @@ GlobalDebuggees_class
 GlobalDebuggee
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 GlobalDebuggees_classOps
 }

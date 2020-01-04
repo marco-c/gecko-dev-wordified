@@ -384,6 +384,8 @@ class_
 RegExpStatics
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 RegExpStaticsObjectClassOps
 }

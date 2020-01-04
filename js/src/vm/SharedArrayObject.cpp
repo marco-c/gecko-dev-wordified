@@ -2214,6 +2214,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_SharedArrayBuffer
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 SharedArrayBufferObjectClassOps
 JS_NULL_CLASS_SPEC

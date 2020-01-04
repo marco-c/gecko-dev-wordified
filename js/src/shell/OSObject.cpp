@@ -2629,6 +2629,8 @@ FileObject
 :
 NUM_SLOTS
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 FileObjectClassOps
 }

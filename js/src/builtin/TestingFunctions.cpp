@@ -9441,6 +9441,8 @@ FinalizeCounterClass
 FinalizeCounter
 "
 JSCLASS_IS_ANONYMOUS
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 FinalizeCounterClassOps
 }
@@ -13477,6 +13479,8 @@ CloneBufferObject
 :
 NUM_SLOTS
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 CloneBufferObjectClassOps
 }

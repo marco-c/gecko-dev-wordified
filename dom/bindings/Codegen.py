@@ -3121,6 +3121,8 @@ classFlags
 "
 JSCLASS_IS_DOMJSCLASS
 |
+JSCLASS_FOREGROUND_FINALIZE
+|
 "
         
 if

@@ -2246,6 +2246,8 @@ WasmModuleObject
 :
 RESERVED_SLOTS
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 WasmModuleObject
 :
@@ -3081,6 +3083,8 @@ WasmInstanceObject
 :
 RESERVED_SLOTS
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 WasmInstanceObject
 :
@@ -5244,6 +5248,8 @@ WasmTableObject
 :
 RESERVED_SLOTS
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 WasmTableObject
 :
