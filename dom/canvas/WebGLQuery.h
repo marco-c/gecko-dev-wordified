@@ -164,6 +164,7 @@ bool
 HasEverBeenActive
 (
 )
+const
 {
 return
 mType
