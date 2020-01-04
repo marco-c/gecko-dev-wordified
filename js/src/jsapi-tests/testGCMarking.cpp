@@ -354,6 +354,12 @@ global1
 JS
 :
 :
+CompartmentOptions
+options
+;
+JS
+:
+:
 RootedObject
 global2
 (
@@ -369,6 +375,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;

@@ -164,6 +164,12 @@ global
 JS
 :
 :
+CompartmentOptions
+options
+;
+JS
+:
+:
 RootedObject
 g
 (
@@ -179,6 +185,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;

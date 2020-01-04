@@ -649,6 +649,12 @@ len
 JS
 :
 :
+CompartmentOptions
+globalOptions
+;
+JS
+:
+:
 RootedObject
 global
 (
@@ -664,6 +670,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+globalOptions
 )
 )
 ;

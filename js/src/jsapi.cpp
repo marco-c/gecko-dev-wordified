@@ -9960,17 +9960,6 @@ JS
 CompartmentOptions
 &
 options
-/
-*
-=
-JS
-:
-:
-CompartmentOptions
-(
-)
-*
-/
 )
 {
 AssertHeapIsIdle
