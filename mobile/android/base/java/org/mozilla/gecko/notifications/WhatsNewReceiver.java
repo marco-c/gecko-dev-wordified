@@ -166,13 +166,6 @@ text
 TextUtils
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 com
 .
 keepsafe
@@ -252,8 +245,6 @@ org
 mozilla
 .
 gecko
-.
-util
 .
 Experiments
 ;
