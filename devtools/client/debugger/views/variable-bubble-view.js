@@ -333,16 +333,6 @@ useCapture
 :
 true
 }
-{
-emitter
-:
-document
-event
-:
-"
-keydown
-"
-}
 ]
 }
 )
