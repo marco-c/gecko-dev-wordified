@@ -346,7 +346,8 @@ log
 '
 '
 -
-T
+-
+template
 '
 '
 {
