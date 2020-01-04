@@ -20342,7 +20342,7 @@ Accept
 dontAcceptForeign
 2
 -
-dontUse
+dontAcceptAny
 3
 -
 limitForeign
@@ -20404,6 +20404,9 @@ lifetimePolicy
 0
 -
 accept
+1
+-
+dontUse
 2
 -
 acceptForSession
@@ -20448,6 +20451,18 @@ days
 90
 )
 ;
+/
+/
+Ignored
+unless
+network
+.
+cookie
+.
+lifetimePolicy
+is
+3
+.
 /
 /
 The
