@@ -1020,21 +1020,6 @@ mk
 '
 )
         
-#
-XPIDLFiles
-attached
-to
-this
-file
-.
-        
-self
-.
-idls
-=
-[
-]
-        
 self
 .
 xpt_name
@@ -2644,15 +2629,6 @@ obj
 XPIDLFile
 )
 :
-            
-backend_file
-.
-idls
-.
-append
-(
-obj
-)
             
 backend_file
 .
