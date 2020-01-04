@@ -6029,9 +6029,8 @@ Step
 var
 A
 =
-ArraySpeciesCreate
+std_Array
 (
-O
 0
 )
 ;
