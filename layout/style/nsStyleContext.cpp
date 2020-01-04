@@ -6818,7 +6818,9 @@ EXTRA_DIFF_ARGS
 #
 define
 EXTRA_DIFF_ARGS
-this
+PeekStyleVisibility
+(
+)
 DO_STRUCT_DIFFERENCE
 (
 Position
