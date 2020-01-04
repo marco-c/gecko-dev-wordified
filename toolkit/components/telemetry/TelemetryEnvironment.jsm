@@ -2370,6 +2370,13 @@ aString
 =
 =
 null
+|
+|
+aString
+=
+=
+=
+undefined
 )
 {
 return
