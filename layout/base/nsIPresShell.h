@@ -2368,6 +2368,10 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aHeightChanging
+=
+true
 )
 =
 0
@@ -2401,6 +2405,8 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aHeightChanging
 )
 =
 0

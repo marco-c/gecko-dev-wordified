@@ -1098,6 +1098,19 @@ being
 set
 elsewhere
 .
+const
+bool
+isHeightChanging
+=
+(
+oldDim
+.
+height
+!
+=
+aHeight
+)
+;
 mRootView
 -
 >
@@ -1119,6 +1132,7 @@ ResizeReflow
 (
 aWidth
 aHeight
+isHeightChanging
 )
 ;
 }
