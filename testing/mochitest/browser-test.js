@@ -600,16 +600,6 @@ testRoot
 "
 browser
 "
-|
-|
-gConfig
-.
-testRoot
-=
-=
-"
-webapprtChrome
-"
 )
 {
 /

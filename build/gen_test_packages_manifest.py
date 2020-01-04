@@ -95,10 +95,6 @@ reftest
 '
     
 '
-webapprt
-'
-    
-'
 xpcshell
 '
     

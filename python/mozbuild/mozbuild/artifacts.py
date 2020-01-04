@@ -1690,14 +1690,6 @@ updater
 '
 firefox
 /
-webapprt
--
-stub
-'
-        
-'
-firefox
-/
 *
 *
 /
@@ -2682,12 +2674,6 @@ fakeopenh264
 libfakeopenh264
 .
 dylib
-'
-                
-'
-webapprt
--
-stub
 '
             
 ]
