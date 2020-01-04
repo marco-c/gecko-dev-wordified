@@ -557,6 +557,16 @@ forget
 )
 ;
 }
+already_AddRefed
+<
+ServiceWorkerInfo
+>
+GetServiceWorkerInfoById
+(
+uint64_t
+aId
+)
+;
 void
 StartControllingADocument
 (

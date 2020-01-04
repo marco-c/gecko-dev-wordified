@@ -234,6 +234,9 @@ const
 nsAString
 &
 aUrl
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
