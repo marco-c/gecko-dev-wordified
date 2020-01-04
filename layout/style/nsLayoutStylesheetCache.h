@@ -547,7 +547,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 mozilla
 :
@@ -572,7 +572,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 mozilla
 :
@@ -597,7 +597,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 mozilla
 :
@@ -656,7 +656,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 nsPresContext
 *

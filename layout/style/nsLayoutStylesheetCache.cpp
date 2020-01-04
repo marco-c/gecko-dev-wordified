@@ -531,6 +531,7 @@ scrollbars
 .
 css
 "
+&
 mScrollbarsSheet
 eAuthorSheetFeatures
 )
@@ -579,6 +580,7 @@ forms
 .
 css
 "
+&
 mFormsSheet
 eAgentSheetFeatures
 )
@@ -629,6 +631,7 @@ control
 .
 css
 "
+&
 mNumberControlSheet
 eAgentSheetFeatures
 )
@@ -691,6 +694,7 @@ ua
 .
 css
 "
+&
 mUASheet
 eAgentSheetFeatures
 )
@@ -729,6 +733,7 @@ html
 .
 css
 "
+&
 mHTMLSheet
 eAgentSheetFeatures
 )
@@ -815,6 +820,7 @@ mathml
 .
 css
 "
+&
 mMathMLSheet
 eAgentSheetFeatures
 )
@@ -865,6 +871,7 @@ noscript
 .
 css
 "
+&
 mNoScriptSheet
 eAgentSheetFeatures
 )
@@ -903,6 +910,7 @@ noframes
 .
 css
 "
+&
 mNoFramesSheet
 eAgentSheetFeatures
 )
@@ -931,6 +939,7 @@ mChromePreferenceSheet
 {
 BuildPreferenceSheet
 (
+&
 mChromePreferenceSheet
 aPresContext
 )
@@ -959,6 +968,7 @@ mContentPreferenceSheet
 {
 BuildPreferenceSheet
 (
+&
 mContentPreferenceSheet
 aPresContext
 )
@@ -997,6 +1007,7 @@ contenteditable
 .
 css
 "
+&
 mContentEditableSheet
 eAgentSheetFeatures
 )
@@ -1035,6 +1046,7 @@ designmode
 .
 css
 "
+&
 mDesignModeSheet
 eAgentSheetFeatures
 )
@@ -1457,6 +1469,7 @@ counterstyles
 .
 css
 "
+&
 mCounterStylesSheet
 eAgentSheetFeatures
 )
@@ -1478,6 +1491,7 @@ xul
 .
 css
 "
+&
 mMinimalXULSheet
 eAgentSheetFeatures
 )
@@ -1497,6 +1511,7 @@ quirk
 .
 css
 "
+&
 mQuirkSheet
 eAgentSheetFeatures
 )
@@ -1516,6 +1531,7 @@ svg
 .
 css
 "
+&
 mSVGSheet
 eAgentSheetFeatures
 )
@@ -1535,6 +1551,7 @@ xul
 .
 css
 "
+&
 mXULSheet
 eAgentSheetFeatures
 )
@@ -1993,6 +2010,7 @@ css
 LoadSheetFile
 (
 contentFile
+&
 mUserContentSheet
 eUserSheetFeatures
 )
@@ -2000,6 +2018,7 @@ eUserSheetFeatures
 LoadSheetFile
 (
 chromeFile
+&
 mUserChromeSheet
 eUserSheetFeatures
 )
@@ -2019,7 +2038,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 SheetParsingMode
 aParsingMode
@@ -2087,7 +2106,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 SheetParsingMode
 aParsingMode
@@ -4077,7 +4096,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 SheetParsingMode
 aParsingMode
@@ -4179,7 +4198,6 @@ LoadSheetSync
 aURI
 aParsingMode
 true
-&
 aSheet
 )
 ;
@@ -4685,7 +4703,7 @@ StyleSheetHandle
 :
 :
 RefPtr
-&
+*
 aSheet
 nsPresContext
 *
@@ -4703,6 +4721,7 @@ StyleBackendType
 Gecko
 )
 {
+*
 aSheet
 =
 new
@@ -4721,6 +4740,7 @@ RP_Default
 }
 else
 {
+*
 aSheet
 =
 new
@@ -4743,7 +4763,13 @@ SRIMetadata
 )
 ;
 }
+StyleSheetHandle
+sheet
+=
+*
 aSheet
+;
+sheet
 -
 >
 SetParsingMode
@@ -4784,7 +4810,7 @@ fail
 "
 )
 ;
-aSheet
+sheet
 -
 >
 SetURIs
@@ -4794,7 +4820,7 @@ uri
 uri
 )
 ;
-aSheet
+sheet
 -
 >
 AsStyleSheet
@@ -5596,7 +5622,7 @@ reallocation
 ;
 if
 (
-aSheet
+sheet
 -
 >
 IsGecko
@@ -5604,7 +5630,7 @@ IsGecko
 )
 )
 {
-aSheet
+sheet
 -
 >
 AsGecko
@@ -5620,7 +5646,7 @@ sheetText
 }
 else
 {
-aSheet
+sheet
 -
 >
 AsServo
