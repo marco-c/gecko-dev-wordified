@@ -384,6 +384,17 @@ NonReference
 )
 const
 ;
+void
+SetGofInfo
+(
+const
+GofInfoVP9
+&
+gof_info
+size_t
+idx
+)
+;
 /
 /
 Increments

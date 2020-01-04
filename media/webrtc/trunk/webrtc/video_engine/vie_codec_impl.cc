@@ -823,6 +823,16 @@ specific
 settings
 "
 ;
+/
+/
+XXX
+FIX
+!
+!
+log
+VP9
+specific
+settings
 }
 }
 ViECodec
