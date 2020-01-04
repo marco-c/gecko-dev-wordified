@@ -26403,6 +26403,16 @@ override
 return
 mList
 .
+GetChildren
+(
+)
+-
+>
+GetTop
+(
+)
+-
+>
 ShouldBuildLayerEvenIfInvisible
 (
 aBuilder
