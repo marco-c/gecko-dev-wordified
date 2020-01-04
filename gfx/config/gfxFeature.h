@@ -243,6 +243,17 @@ Process
 "
 )
 \
+_
+(
+HW_VIDEO_DECODING
+Feature
+"
+Hardware
+Video
+Decoding
+"
+)
+\
 /
 *
 Add
