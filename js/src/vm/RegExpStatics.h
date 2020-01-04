@@ -2252,6 +2252,10 @@ size_t
 1
 )
 ;
+lazySticky
+=
+false
+;
 pendingInput
 =
 nullptr
