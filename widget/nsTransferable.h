@@ -149,6 +149,9 @@ nsIPrincipal
 h
 "
 class
+nsIMutableArray
+;
+class
 nsString
 ;
 /
@@ -414,13 +417,12 @@ w
 /
 out
 converter
-nsresult
+already_AddRefed
+<
+nsIMutableArray
+>
 GetTransferDataFlavors
 (
-nsISupportsArray
-*
-*
-aDataFlavorList
 )
 ;
 nsTArray

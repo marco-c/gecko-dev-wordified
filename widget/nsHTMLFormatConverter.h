@@ -102,6 +102,13 @@ nsHTMLFormatConverter_h__
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIFormatConverter
 .
 h
@@ -113,6 +120,9 @@ nsString
 .
 h
 "
+class
+nsIMutableArray
+;
 class
 nsHTMLFormatConverter
 :
@@ -141,8 +151,11 @@ nsHTMLFormatConverter
 nsresult
 AddFlavorToList
 (
-nsISupportsArray
-*
+nsCOMPtr
+<
+nsIMutableArray
+>
+&
 inList
 const
 char
