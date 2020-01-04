@@ -4660,7 +4660,7 @@ XXX
 its
 auto
 equivalent
-nsAutoUpdateViewBatch
+AutoUpdateViewBatch
 to
 ensure
 that
