@@ -32171,9 +32171,12 @@ SetDecorationColor
 parentContext
 -
 >
-GetTextFillColor
+StyleColor
 (
 )
+-
+>
+mColor
 )
 ;
 }

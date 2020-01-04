@@ -5578,14 +5578,12 @@ mColor
 aFrame
 -
 >
-StyleContext
+StyleColor
 (
 )
 -
 >
-GetTextFillColor
-(
-)
+mColor
 ;
 mLine
 =
