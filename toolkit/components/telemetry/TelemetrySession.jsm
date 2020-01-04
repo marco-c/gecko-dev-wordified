@@ -12860,6 +12860,12 @@ uninstall
 (
 )
 ;
+Telemetry
+.
+flushBatchedChildTelemetry
+(
+)
+;
 this
 .
 sendContentProcessPing
