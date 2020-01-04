@@ -285,6 +285,11 @@ nsRect
 aRefBox
 )
 ;
+nsRect
+ComputeHTMLReferenceRect
+(
+)
+;
 /
 *
 *
