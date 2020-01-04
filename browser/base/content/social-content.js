@@ -403,6 +403,7 @@ social
 specific
 error
 page
+const
 SocialErrorListener
 =
 {
