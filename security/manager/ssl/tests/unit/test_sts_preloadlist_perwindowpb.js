@@ -597,7 +597,7 @@ site
 from
 the
 list
-var
+let
 uri
 =
 Services
@@ -1669,7 +1669,7 @@ IS_PRIVATE
 )
 )
 ;
-var
+let
 uri
 =
 Services

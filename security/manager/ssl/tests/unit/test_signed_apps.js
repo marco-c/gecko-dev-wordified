@@ -274,7 +274,7 @@ modifications
 newEntries
 )
 {
-var
+let
 writer
 =
 Cc
@@ -311,7 +311,7 @@ PR_TRUNCATE
 ;
 try
 {
-var
+let
 reader
 =
 Cc
@@ -347,7 +347,7 @@ inFilePath
 ;
 try
 {
-var
+let
 entries
 =
 reader
@@ -367,7 +367,7 @@ hasMore
 )
 )
 {
-var
+let
 entryName
 =
 entries
@@ -376,7 +376,7 @@ getNext
 (
 )
 ;
-var
+let
 inEntry
 =
 reader
@@ -386,7 +386,7 @@ getEntry
 entryName
 )
 ;
-var
+let
 entryInput
 =
 reader
@@ -398,7 +398,7 @@ entryName
 ;
 try
 {
-var
+let
 f
 =
 modifications
@@ -406,7 +406,7 @@ modifications
 entryName
 ]
 ;
-var
+let
 outEntry
 outEntryInput
 ;
@@ -629,7 +629,7 @@ function
 newEntry
 )
 {
-var
+let
 sis
 =
 Cc
@@ -775,7 +775,7 @@ entry
 )
 ;
 }
-var
+let
 content
 =
 Cc
@@ -1114,7 +1114,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1174,7 +1174,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1240,7 +1240,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1306,7 +1306,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1372,7 +1372,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1434,7 +1434,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1496,7 +1496,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path
@@ -1571,7 +1571,7 @@ function
 (
 )
 {
-var
+let
 tampered
 =
 tampered_app_path

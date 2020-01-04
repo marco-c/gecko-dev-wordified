@@ -20,7 +20,7 @@ run_test
 (
 )
 {
-var
+let
 SSService
 =
 Cc
