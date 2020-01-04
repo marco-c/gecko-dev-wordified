@@ -6008,7 +6008,7 @@ mLastEventID
 )
 ;
 }
-int32_t
+size_t
 sizeBefore
 =
 mMessagesToDispatch
