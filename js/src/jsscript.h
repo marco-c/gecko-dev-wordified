@@ -4926,7 +4926,7 @@ SharedImmutableString
 &
 raw
 size_t
-length
+sourceLength
 )
 ;
 /
