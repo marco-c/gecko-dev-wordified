@@ -18521,10 +18521,6 @@ new
 DocumentTimeline
 (
 this
-TimeDuration
-(
-0
-)
 )
 ;
 }
