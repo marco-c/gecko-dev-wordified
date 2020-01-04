@@ -426,7 +426,7 @@ file
 menu
 '
 '
-menu_closeWindow
+menu_close
 '
 )
             
