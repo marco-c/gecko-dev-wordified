@@ -1294,6 +1294,14 @@ mobile
 android
 /
 base
+/
+java
+/
+org
+/
+mozilla
+/
+gecko
 '
 )
         
