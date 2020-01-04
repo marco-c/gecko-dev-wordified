@@ -188,7 +188,7 @@ addObserver
 this
 pushService
 .
-subscriptionLostTopic
+subscriptionModifiedTopic
 false
 )
 ;
