@@ -2117,6 +2117,15 @@ GetAnimationFrame
 )
 const
 ;
+bool
+CanThrottleTransformChanges
+(
+nsIFrame
+&
+aFrame
+)
+const
+;
 /
 /
 Returns
