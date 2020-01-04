@@ -1317,9 +1317,7 @@ version
 specificationLevel
 "
 :
-"
-1
-"
+0
 /
 /
 supported
