@@ -294,6 +294,13 @@ h
 #
 include
 <
+math
+.
+h
+>
+#
+include
+<
 nr_api
 .
 h
