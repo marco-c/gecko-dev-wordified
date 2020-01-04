@@ -1721,11 +1721,13 @@ timestamp
 u
 ntp_time
 %
-lu
+"
+PRIu64
+"
 render_time
 %
-lu
 "
+PRIu64
 frame_num
 +
 +
