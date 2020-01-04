@@ -920,9 +920,15 @@ i
 .
 setClassName
 (
-AppConstants
+view
 .
-ANDROID_PACKAGE_NAME
+getContext
+(
+)
+.
+getPackageName
+(
+)
 AppConstants
 .
 MOZ_ANDROID_BROWSER_INTENT_CLASS
