@@ -1145,11 +1145,18 @@ font
 property
 value
 .
+RefPtr
+<
 Declaration
+>
 declaration
+=
+new
+Declaration
 ;
 declaration
-.
+-
+>
 InitializeEmpty
 (
 )
@@ -1186,7 +1193,6 @@ mDocument
 NodePrincipal
 (
 )
-&
 declaration
 &
 changed
@@ -1222,7 +1228,8 @@ changed
 =
 (
 declaration
-.
+-
+>
 HasProperty
 (
 eCSSProperty_font_family
@@ -1230,7 +1237,8 @@ eCSSProperty_font_family
 &
 &
 declaration
-.
+-
+>
 HasProperty
 (
 eCSSProperty_font_style
@@ -1238,7 +1246,8 @@ eCSSProperty_font_style
 &
 &
 declaration
-.
+-
+>
 HasProperty
 (
 eCSSProperty_font_weight
@@ -1246,7 +1255,8 @@ eCSSProperty_font_weight
 &
 &
 declaration
-.
+-
+>
 HasProperty
 (
 eCSSProperty_font_stretch
@@ -1275,7 +1285,8 @@ nsCSSCompressedDataBlock
 data
 =
 declaration
-.
+-
+>
 GetNormalBlock
 (
 )
@@ -1284,7 +1295,8 @@ MOZ_ASSERT
 (
 !
 declaration
-.
+-
+>
 GetImportantBlock
 (
 )

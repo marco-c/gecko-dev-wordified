@@ -8234,9 +8234,6 @@ StyleRule
 delete
 mSelector
 ;
-delete
-mDeclaration
-;
 if
 (
 mDOMRule
