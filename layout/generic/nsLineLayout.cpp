@@ -270,7 +270,7 @@ h
 #
 include
 "
-nsRubyFrame
+nsRubyBaseContainerFrame
 .
 h
 "
@@ -12593,7 +12593,7 @@ GetType
 nsGkAtoms
 :
 :
-rubyFrame
+rubyBaseContainerFrame
 )
 {
 /
@@ -12646,11 +12646,11 @@ line
 -
 height
 auto
-rubyFrame
+rbc
 =
 static_cast
 <
-nsRubyFrame
+nsRubyBaseContainerFrame
 *
 >
 (
@@ -12661,12 +12661,14 @@ nscoord
 startLeading
 endLeading
 ;
-rubyFrame
+rbc
 -
 >
 GetBlockLeadings
 (
+&
 startLeading
+&
 endLeading
 )
 ;
