@@ -210,17 +210,12 @@ i
 }
 }
 }
-add_task
-(
 function
 *
+run_test
 (
 )
 {
-do_get_profile
-(
-)
-;
 yield
 TelemetrySession
 .
@@ -423,5 +418,3 @@ shutdown
 )
 ;
 }
-)
-;
