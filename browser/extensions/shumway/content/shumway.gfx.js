@@ -8762,8 +8762,9 @@ _map
 this
 .
 _map
-.
-clear
+=
+new
+WeakMap
 (
 )
 :
