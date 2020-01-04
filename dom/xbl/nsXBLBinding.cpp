@@ -1648,6 +1648,13 @@ servoStyleSet
 RestyleSubtree
 (
 child
+/
+*
+aForce
+=
+*
+/
+true
 )
 ;
 }
