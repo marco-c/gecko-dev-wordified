@@ -589,6 +589,8 @@ uint64_t
 aOuterWindowID
 uint64_t
 aParentOuterWindowID
+uint64_t
+aFrameOuterWindowID
 bool
 aEnforceSecurity
 bool
@@ -783,6 +785,9 @@ mOuterWindowID
 ;
 uint64_t
 mParentOuterWindowID
+;
+uint64_t
+mFrameOuterWindowID
 ;
 bool
 mEnforceSecurity

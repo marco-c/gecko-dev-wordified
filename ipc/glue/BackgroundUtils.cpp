@@ -1404,6 +1404,12 @@ GetParentOuterWindowID
 aLoadInfo
 -
 >
+GetFrameOuterWindowID
+(
+)
+aLoadInfo
+-
+>
 GetEnforceSecurity
 (
 )
@@ -1749,6 +1755,11 @@ outerWindowID
 loadInfoArgs
 .
 parentOuterWindowID
+(
+)
+loadInfoArgs
+.
+frameOuterWindowID
 (
 )
 loadInfoArgs
