@@ -5783,10 +5783,10 @@ GfxDriverInfo
 :
 :
 allDevices
-GfxDriverInfo
+nsIGfxInfo
 :
 :
-allFeatures
+FEATURE_HARDWARE_VIDEO_DECODING
 nsIGfxInfo
 :
 :
