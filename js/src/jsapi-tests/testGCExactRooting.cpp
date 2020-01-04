@@ -158,6 +158,10 @@ tests
 .
 h
 "
+using
+namespace
+js
+;
 BEGIN_TEST
 (
 testGCExactRooting

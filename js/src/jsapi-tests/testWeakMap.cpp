@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 gc
 /
 Zone
@@ -530,6 +537,9 @@ RootedValue
 delegateValue
 (
 cx
+JS
+:
+:
 ObjectValue
 (
 *
