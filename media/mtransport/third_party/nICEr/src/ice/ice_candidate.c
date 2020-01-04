@@ -6326,9 +6326,11 @@ ctx
 >
 flags
 &
+(
 NR_ICE_CTX_FLAGS_RELAY_ONLY
 |
 NR_ICE_CTX_FLAGS_ONLY_DEFAULT_ADDRS
+)
 )
 ?
 &
