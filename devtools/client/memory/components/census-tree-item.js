@@ -896,7 +896,7 @@ name
 style
 :
 {
-marginLeft
+marginInlineStart
 :
 depth
 *

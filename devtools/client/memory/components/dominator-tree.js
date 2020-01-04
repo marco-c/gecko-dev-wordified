@@ -439,7 +439,7 @@ throbber
 style
 :
 {
-marginLeft
+marginInlineStart
 :
 depth
 *
@@ -681,7 +681,7 @@ name
 style
 :
 {
-marginLeft
+marginInlineStart
 :
 depth
 *
