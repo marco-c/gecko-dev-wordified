@@ -6361,13 +6361,6 @@ fun
 options
 formals
 srcBuf
-/
-*
-enclosingScope
-=
-*
-/
-nullptr
 )
 )
 return

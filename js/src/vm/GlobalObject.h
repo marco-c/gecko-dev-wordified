@@ -224,6 +224,12 @@ Debugger
 class
 TypedObjectModuleObject
 ;
+class
+StaticBlockObject
+;
+class
+ClonedBlockObject
+;
 /
 *
 *
@@ -709,6 +715,7 @@ ins
 .
 *
 /
+LEXICAL_SCOPE
 ARRAY_ITERATOR_PROTO
 STRING_ITERATOR_PROTO
 LEGACY_GENERATOR_OBJECT_PROTO
@@ -888,6 +895,13 @@ errorNumber
 ;
 public
 :
+ClonedBlockObject
+&
+lexicalScope
+(
+)
+const
+;
 void
 setThrowTypeError
 (
