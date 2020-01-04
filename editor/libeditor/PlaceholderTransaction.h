@@ -337,7 +337,7 @@ Init
 nsIAtom
 *
 aName
-nsSelectionState
+SelectionState
 *
 aSelState
 nsEditor
@@ -359,7 +359,7 @@ override
 NS_IMETHOD
 StartSelectionEquals
 (
-nsSelectionState
+SelectionState
 *
 aSelState
 bool
@@ -527,11 +527,11 @@ exist
 .
 nsAutoPtr
 <
-nsSelectionState
+SelectionState
 >
 mStartSel
 ;
-nsSelectionState
+SelectionState
 mEndSel
 ;
 /
