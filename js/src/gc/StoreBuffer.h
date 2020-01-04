@@ -3100,6 +3100,7 @@ bits
 ;
 public
 :
+explicit
 ArenaCellSet
 (
 Arena
