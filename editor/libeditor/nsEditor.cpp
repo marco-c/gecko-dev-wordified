@@ -9876,7 +9876,7 @@ internal
 selection
 state
 listener
-nsAutoMoveNodeSelNotify
+AutoMoveNodeSelNotify
 selNotify
 (
 mRangeUpdater
