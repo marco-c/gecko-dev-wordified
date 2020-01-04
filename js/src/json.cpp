@@ -2057,7 +2057,6 @@ cx
 GetErrorMessage
 nullptr
 JSMSG_JSON_CYCLIC_VALUE
-js_object_str
 )
 ;
 return
