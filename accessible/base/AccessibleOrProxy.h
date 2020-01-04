@@ -227,6 +227,9 @@ aProxy
 :
 mBits
 (
+aProxy
+?
+(
 reinterpret_cast
 <
 uintptr_t
@@ -236,6 +239,9 @@ aProxy
 )
 |
 IS_PROXY
+)
+:
+0
 )
 {
 }
