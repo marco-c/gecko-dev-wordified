@@ -1031,6 +1031,9 @@ aN
 ;
 }
 #
+ifdef
+HAVE_MALLINFO
+#
 define
 HAVE_SYSTEM_HEAP_REPORTER
 1
@@ -1215,6 +1218,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 #
 elif
 defined
