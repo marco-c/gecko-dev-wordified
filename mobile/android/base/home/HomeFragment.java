@@ -1447,7 +1447,6 @@ info
 getDisplayTitle
 (
 )
-false
 )
 ;
 /
