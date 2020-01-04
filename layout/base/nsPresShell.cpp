@@ -41638,7 +41638,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -41662,7 +41662,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -45765,7 +45765,7 @@ Count
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -45864,7 +45864,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -45888,7 +45888,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -46155,7 +46155,7 @@ the
 event
 -
 >
-touches
+mTouches
 array
 .
 touchmove
@@ -46183,7 +46183,7 @@ newTargetFrame
 touchEvent
 -
 >
-touches
+mTouches
 .
 RemoveElementAt
 (
@@ -47109,7 +47109,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 )
 {
 if
@@ -50889,7 +50889,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 )
 {
 if

@@ -710,7 +710,7 @@ i
 aEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -728,7 +728,7 @@ touch
 aEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -922,9 +922,7 @@ any
 changed
 touches
 from
-the
-touches
-array
+mTouches
 WidgetTouchEvent
 :
 :
@@ -942,7 +940,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (
@@ -1015,7 +1013,7 @@ this
 touchEvent
 -
 >
-touches
+mTouches
 )
 ;
 }
@@ -1067,7 +1065,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (
@@ -1236,7 +1234,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (

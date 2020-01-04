@@ -3317,7 +3317,7 @@ AsTouchEvent
 )
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -3329,7 +3329,7 @@ Length
 Unexpected
 number
 of
-touches
+mTouches
 "
 )
 ;
@@ -3343,7 +3343,7 @@ AsTouchEvent
 )
 -
 >
-touches
+mTouches
 [
 0
 ]

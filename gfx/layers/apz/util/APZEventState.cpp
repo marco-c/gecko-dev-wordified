@@ -1501,7 +1501,7 @@ eTouchStart
 &
 aEvent
 .
-touches
+mTouches
 .
 Length
 (
@@ -1517,7 +1517,7 @@ SetTargetElement
 (
 aEvent
 .
-touches
+mTouches
 [
 0
 ]
@@ -1894,7 +1894,7 @@ i
 <
 cancelEvent
 .
-touches
+mTouches
 .
 Length
 (
@@ -1919,7 +1919,7 @@ touch
 =
 cancelEvent
 .
-touches
+mTouches
 [
 i
 ]

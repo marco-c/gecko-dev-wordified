@@ -19122,7 +19122,7 @@ Next
 {
 event
 .
-touches
+mTouches
 .
 AppendElement
 (
@@ -19167,7 +19167,7 @@ GDK_TOUCH_CANCEL
 *
 event
 .
-touches
+mTouches
 .
 AppendElement
 (

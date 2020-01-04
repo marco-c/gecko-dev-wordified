@@ -2112,7 +2112,7 @@ WriteParam
 aMsg
 aParam
 .
-touches
+mTouches
 )
 ;
 const
@@ -2125,7 +2125,7 @@ touches
 =
 aParam
 .
-touches
+mTouches
 ;
 WriteParam
 (
@@ -2376,7 +2376,7 @@ false
 aResult
 -
 >
-touches
+mTouches
 .
 AppendElement
 (

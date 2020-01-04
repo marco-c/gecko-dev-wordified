@@ -8493,7 +8493,7 @@ WidgetInputEvent
 .
 touchEvent
 .
-touches
+mTouches
 .
 Clear
 (
@@ -8501,7 +8501,7 @@ Clear
 ;
 touchEvent
 .
-touches
+mTouches
 .
 SetCapacity
 (
@@ -8539,7 +8539,7 @@ i
 *
 touchEvent
 .
-touches
+mTouches
 .
 AppendElement
 (

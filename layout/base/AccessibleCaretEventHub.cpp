@@ -3345,7 +3345,7 @@ if
 aEvent
 -
 >
-touches
+mTouches
 .
 IsEmpty
 (
@@ -3392,7 +3392,7 @@ kInvalidTouchId
 aEvent
 -
 >
-touches
+mTouches
 [
 0
 ]
@@ -4508,7 +4508,7 @@ touch
 aEvent
 -
 >
-touches
+mTouches
 )
 {
 if

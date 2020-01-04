@@ -3558,7 +3558,7 @@ i
 <
 event
 .
-touches
+mTouches
 .
 Length
 (
@@ -3571,7 +3571,7 @@ i
 {
 event
 .
-touches
+mTouches
 [
 i
 ]
@@ -3583,7 +3583,7 @@ ApplyCallbackTransform
 (
 event
 .
-touches
+mTouches
 [
 i
 ]
@@ -5449,7 +5449,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -5471,7 +5471,7 @@ rootFrame
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -5590,7 +5590,7 @@ i
 <
 aEvent
 .
-touches
+mTouches
 .
 Length
 (
@@ -5616,7 +5616,7 @@ GetAllowedTouchBehavior
 aWidget
 aEvent
 .
-touches
+mTouches
 [
 i
 ]

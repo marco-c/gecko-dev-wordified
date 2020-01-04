@@ -1200,7 +1200,7 @@ aContent
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (
