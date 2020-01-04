@@ -2559,6 +2559,16 @@ ir
 SetBody
 (
 body
+mCN
+-
+>
+Buffer
+(
+)
+.
+Length
+(
+)
 )
 ;
 ir

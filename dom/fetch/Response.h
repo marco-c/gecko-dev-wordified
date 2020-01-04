@@ -586,6 +586,8 @@ SetBody
 nsIInputStream
 *
 aBody
+int64_t
+aBodySize
 )
 ;
 already_AddRefed

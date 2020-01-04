@@ -224,6 +224,10 @@ HeadersGuardEnum
 Response
 )
 )
+mBodySize
+(
+UNKNOWN_BODY_SIZE
+)
 {
 }
 InternalResponse
