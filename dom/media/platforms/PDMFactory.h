@@ -499,15 +499,6 @@ sGMPDecoderEnabled
 ;
 #
 ifdef
-MOZ_FFVPX
-static
-bool
-sFFVPXDecoderEnabled
-;
-#
-endif
-#
-ifdef
 MOZ_FFMPEG
 static
 bool
