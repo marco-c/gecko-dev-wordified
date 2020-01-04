@@ -1064,12 +1064,15 @@ aIndex
 aIndex
 <
 =
+int32_t
+(
 aColumn
 .
 mTextFrames
 .
 Length
 (
+)
 )
 )
 )
