@@ -316,12 +316,9 @@ active
 )
 ;
 yield
-toolbox
-.
-highlighterUtils
-.
 startPicker
 (
+toolbox
 )
 ;
 info

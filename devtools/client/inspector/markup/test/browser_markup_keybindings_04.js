@@ -485,14 +485,11 @@ testActor
 )
 {
 yield
+startPicker
+(
 inspector
 .
 toolbox
-.
-highlighterUtils
-.
-startPicker
-(
 )
 ;
 yield

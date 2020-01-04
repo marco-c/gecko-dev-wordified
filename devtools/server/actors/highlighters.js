@@ -2264,16 +2264,6 @@ _currentNode
 ;
 this
 .
-_tabActor
-.
-window
-.
-focus
-(
-)
-;
-this
-.
 _startPickerListeners
 (
 )
