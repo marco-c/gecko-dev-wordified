@@ -183,6 +183,12 @@ symbols
 '
 valgrind
 '
+    
+'
+static
+-
+analysis
+'
 ]
 )
 #
