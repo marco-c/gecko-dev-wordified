@@ -14145,9 +14145,21 @@ TaskCluster
 "
 "
         
+#
+This
+may
+need
+expanding
+in
+the
+future
+to
+work
+on
+        
 return
 '
-TASKCLUSTER_INSTANCE_TYPE
+TASKCLUSTER_WORKER_TYPE
 '
 in
 os

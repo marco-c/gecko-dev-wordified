@@ -489,6 +489,21 @@ default
 configuration
 instead
         
+default_config
+=
+{
+}
+if
+self
+.
+is_taskcluster
+(
+)
+else
+self
+.
+PROXXY_CONFIG
+        
 self
 .
 config
@@ -500,9 +515,7 @@ get
 '
 proxxy
 '
-self
-.
-PROXXY_CONFIG
+default_config
 )
         
 self
