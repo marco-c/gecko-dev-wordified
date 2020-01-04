@@ -2672,7 +2672,7 @@ c
 /
 *
 should
-imporve
+improve
 error
 check
 later
@@ -4211,7 +4211,7 @@ c
 /
 *
 should
-imporve
+improve
 error
 check
 later

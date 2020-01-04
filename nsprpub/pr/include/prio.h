@@ -1928,7 +1928,7 @@ alive
 PR_SockOpt_RecvBufferSize
 /
 *
-send
+receive
 buffer
 size
 *
@@ -1936,7 +1936,7 @@ size
 PR_SockOpt_SendBufferSize
 /
 *
-receive
+send
 buffer
 size
 *

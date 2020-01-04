@@ -119,7 +119,7 @@ on
 the
 existing
 PRLock
-definiion
+definition
 *
 *
 is
@@ -179,13 +179,13 @@ lock
 ordering
 detection
 is
-complile
+compile
 -
 time
 enabled
 only
 .
-in
+In
 *
 *
 optimized
@@ -230,6 +230,7 @@ at
 *
 *
 compile
+-
 time
 .
 Ordered
@@ -248,6 +249,7 @@ defining
 FORCE_NSPR_ORDERED_LOCK
 at
 compile
+-
 time
 .
 Both
