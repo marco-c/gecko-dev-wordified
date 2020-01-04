@@ -5295,8 +5295,7 @@ false
 )
 )
 )
-{
-}
+;
 cmdLine
 .
 preventDefault
