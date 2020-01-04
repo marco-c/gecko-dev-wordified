@@ -957,6 +957,7 @@ AsyncTransactionTimeout
 /
 30
 TextureCreation
+InvalidCacheSurface
 /
 /
 End
