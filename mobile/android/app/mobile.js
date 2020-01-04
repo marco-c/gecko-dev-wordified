@@ -6118,13 +6118,6 @@ SHA
 -
 1
 certificates
-only
-before
-2016
--
-01
--
-01
 pref
 (
 "
@@ -6134,7 +6127,7 @@ pki
 .
 sha1_enforcement_level
 "
-2
+0
 )
 ;
 /
