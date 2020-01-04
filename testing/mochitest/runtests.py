@@ -3950,6 +3950,12 @@ None
         
 self
 .
+nsprLogs
+=
+None
+        
+self
+.
 start_script_args
 =
 [
