@@ -19881,6 +19881,11 @@ return
 mVerticalPanRegion
 ;
 }
+nsRegion
+CombinedTouchActionRegion
+(
+)
+;
 virtual
 void
 WriteDebugInfo
