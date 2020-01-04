@@ -4148,9 +4148,6 @@ WorkerDebuggerGlobalScope
 :
 SetImmediate
 (
-JSContext
-*
-aCx
 Function
 &
 aHandler
@@ -4164,7 +4161,6 @@ mWorkerPrivate
 >
 SetDebuggerImmediate
 (
-aCx
 aHandler
 aRv
 )
