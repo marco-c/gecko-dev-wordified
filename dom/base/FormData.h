@@ -245,9 +245,6 @@ FormDataTuple
 nsString
 name
 ;
-bool
-wasNullBlob
-;
 OwningBlobOrUSVString
 value
 ;
@@ -301,10 +298,6 @@ const
 nsAString
 &
 aValue
-bool
-aWasNullBlob
-=
-false
 )
 ;
 void
@@ -610,7 +603,7 @@ NS_OK
 }
 virtual
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
