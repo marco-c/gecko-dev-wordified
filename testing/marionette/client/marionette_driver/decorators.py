@@ -57,6 +57,7 @@ from
 errors
 import
 MarionetteException
+TimeoutException
 from
 functools
 import
@@ -136,7 +137,7 @@ raise
 return
 m
 def
-do_crash_check
+do_process_check
 (
 func
 always
@@ -151,13 +152,40 @@ False
 Decorator
 which
 checks
-for
-crashes
+the
+process
 after
 the
 function
 has
 run
+.
+    
+There
+is
+a
+check
+for
+crashes
+which
+always
+gets
+executed
+.
+And
+in
+the
+case
+of
+    
+connection
+issues
+the
+process
+will
+be
+force
+closed
 .
     
 :
@@ -205,12 +233,6 @@ kwargs
 )
 :
         
-def
-check
-(
-)
-:
-            
 m
 =
 _find_marionette_in_args
@@ -221,6 +243,12 @@ args
 *
 kwargs
 )
+        
+def
+check_for_crash
+(
+)
+:
             
 try
 :
@@ -307,7 +335,29 @@ not
 always
 :
                     
-check
+check_for_crash
+(
+)
+            
+if
+not
+isinstance
+(
+e
+MarionetteException
+)
+or
+type
+(
+e
+)
+is
+TimeoutException
+:
+                
+m
+.
+force_shutdown
 (
 )
             
@@ -323,8 +373,9 @@ if
 always
 :
                 
-check
+check_for_crash
 (
+m
 )
     
 return
