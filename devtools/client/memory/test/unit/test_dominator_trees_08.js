@@ -62,7 +62,7 @@ snapshotState
 states
 dominatorTreeState
 viewState
-dominatorTreeDisplays
+labelDisplays
 treeMapState
 }
 =
@@ -81,7 +81,7 @@ constants
 ;
 const
 {
-setDominatorTreeDisplayAndRefresh
+setLabelDisplayAndRefresh
 }
 =
 require
@@ -95,9 +95,7 @@ memory
 /
 actions
 /
-dominator
--
-tree
+label
 -
 display
 "
@@ -339,7 +337,7 @@ getState
 (
 )
 .
-dominatorTreeDisplay
+labelDisplay
 "
 We
 have
@@ -362,8 +360,8 @@ getState
 (
 )
 .
-dominatorTreeDisplay
-dominatorTreeDisplays
+labelDisplay
+labelDisplays
 .
 coarseType
 "
@@ -382,7 +380,7 @@ getState
 (
 )
 .
-dominatorTreeDisplay
+labelDisplay
 getState
 (
 )
@@ -418,10 +416,10 @@ display
 .
 dispatch
 (
-setDominatorTreeDisplayAndRefresh
+setLabelDisplayAndRefresh
 (
 heapWorker
-dominatorTreeDisplays
+labelDisplays
 .
 allocationStack
 )
@@ -513,7 +511,7 @@ snapshots
 dominatorTree
 .
 display
-dominatorTreeDisplays
+labelDisplays
 .
 allocationStack
 "
@@ -535,8 +533,8 @@ getState
 (
 )
 .
-dominatorTreeDisplay
-dominatorTreeDisplays
+labelDisplay
+labelDisplays
 .
 allocationStack
 "

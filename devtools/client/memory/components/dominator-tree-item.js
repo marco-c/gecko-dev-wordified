@@ -226,8 +226,6 @@ arrow
 PropTypes
 .
 object
-.
-isRequired
 focused
 :
 PropTypes
