@@ -603,6 +603,12 @@ OnLayoutChange
 (
 )
 ;
+TextEventDispatcher
+*
+GetTextEventDispatcher
+(
+)
+;
 protected
 :
 ~
