@@ -960,16 +960,6 @@ tooltip
 "
 )
 }
-L10N
-.
-getStr
-(
-"
-diff
--
-snapshots
-"
-)
 )
 dom
 .
