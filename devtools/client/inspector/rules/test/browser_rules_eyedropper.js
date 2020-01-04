@@ -506,11 +506,6 @@ closed
 "
 )
 ;
-yield
-waitForTick
-(
-)
-;
 }
 )
 ;
