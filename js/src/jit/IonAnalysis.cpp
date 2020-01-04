@@ -10191,13 +10191,13 @@ MIRType_Float32
 else
 if
 (
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 type
 )
 &
 &
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 in
 -
@@ -10638,7 +10638,7 @@ double
 .
 if
 (
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 use
 -
@@ -10649,7 +10649,7 @@ type
 )
 &
 &
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 phi
 -
@@ -19661,6 +19661,9 @@ RSimdBox
 recover
 case
 MIRType_SinCosDouble
+:
+case
+MIRType_Int64
 :
 return
 false

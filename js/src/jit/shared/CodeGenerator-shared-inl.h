@@ -241,7 +241,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;
