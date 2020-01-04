@@ -4571,7 +4571,7 @@ element
 .
 *
 /
-virtual
+inline
 mozilla
 :
 :
@@ -4584,8 +4584,6 @@ GetShadowRoot
 (
 )
 const
-=
-0
 ;
 /
 *
