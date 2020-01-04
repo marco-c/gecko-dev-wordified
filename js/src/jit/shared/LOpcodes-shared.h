@@ -1838,11 +1838,6 @@ IsCallable
 \
 _
 (
-IsConstructor
-)
-\
-_
-(
 IsObject
 )
 \
