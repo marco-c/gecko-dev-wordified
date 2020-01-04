@@ -2059,7 +2059,7 @@ EnsureTimerStartedFlags
 eNone
 =
 0
-eForceAdjustTimer
+eAdjustingTimer
 =
 1
 <
@@ -2071,12 +2071,6 @@ eAllowTimeToGoBackwards
 <
 <
 1
-eNeverAdjustTimer
-=
-1
-<
-<
-2
 }
 ;
 void
