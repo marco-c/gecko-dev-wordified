@@ -3232,7 +3232,6 @@ to
 buffer
 a
 given
-output
 stream
 .
 If
@@ -3245,7 +3244,6 @@ the
 passed
 -
 in
-output
 stream
 .
 *
@@ -3316,6 +3314,19 @@ NS_BufferOutputStream
 nsIOutputStream
 *
 aOutputStream
+uint32_t
+aBufferSize
+)
+;
+already_AddRefed
+<
+nsIInputStream
+>
+NS_BufferInputStream
+(
+nsIInputStream
+*
+aInputStream
 uint32_t
 aBufferSize
 )
