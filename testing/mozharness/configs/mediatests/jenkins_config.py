@@ -59,30 +59,6 @@ config
 =
 {
     
-'
-env
-'
-:
-{
-        
-'
-PIP_TRUSTED_HOST
-'
-:
-'
-pypi
-.
-pub
-.
-build
-.
-mozilla
-.
-org
-'
-    
-}
-    
 #
 PIP
     
