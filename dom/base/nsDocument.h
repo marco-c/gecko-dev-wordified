@@ -4469,6 +4469,7 @@ virtual
 int32_t
 GetIndexOfStyleSheet
 (
+const
 mozilla
 :
 :
@@ -8443,6 +8444,7 @@ RemoveDocStyleSheetsFromStyleSets
 void
 RemoveStyleSheetsFromStyleSets
 (
+const
 nsTArray
 <
 mozilla

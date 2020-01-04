@@ -13074,6 +13074,7 @@ nsDocument
 :
 RemoveStyleSheetsFromStyleSets
 (
+const
 nsTArray
 <
 StyleSheetHandle
@@ -23382,6 +23383,7 @@ nsDocument
 :
 GetIndexOfStyleSheet
 (
+const
 StyleSheetHandle
 aSheet
 )
