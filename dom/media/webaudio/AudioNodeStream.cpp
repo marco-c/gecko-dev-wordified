@@ -876,13 +876,7 @@ aContext
 DestinationStream
 (
 )
-aContext
--
->
-DOMTimeToStreamTime
-(
 aStreamTime
-)
 )
 )
 ;

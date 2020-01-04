@@ -4046,13 +4046,7 @@ ns
 SetDoubleParameter
 (
 START
-mContext
--
->
-DOMTimeToStreamTime
-(
 aWhen
-)
 )
 ;
 }
