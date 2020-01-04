@@ -712,7 +712,7 @@ result
 ;
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 result
 =
 pthread_setname_np

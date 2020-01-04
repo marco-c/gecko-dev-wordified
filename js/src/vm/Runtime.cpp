@@ -168,7 +168,7 @@ h
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -220,7 +220,7 @@ endif
 /
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
@@ -6489,7 +6489,7 @@ systemTime
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 /
@@ -6933,7 +6933,7 @@ endif
 /
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |

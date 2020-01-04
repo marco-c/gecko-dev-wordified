@@ -2377,7 +2377,7 @@ endif
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 define
@@ -3077,7 +3077,7 @@ handler
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -3633,7 +3633,7 @@ if
 !
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 MOZ_COLD
 static
@@ -4678,7 +4678,7 @@ endif
 /
 /
 !
-XP_MACOSX
+XP_DARWIN
 #
 endif
 /
@@ -6820,7 +6820,7 @@ EXCEPTION_CONTINUE_SEARCH
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -9564,7 +9564,7 @@ rt
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -10067,7 +10067,7 @@ false
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 /

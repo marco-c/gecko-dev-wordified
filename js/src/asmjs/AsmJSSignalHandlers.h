@@ -187,7 +187,7 @@ asmjs_AsmJSSignalHandlers_h
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
@@ -313,7 +313,7 @@ rt
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &
