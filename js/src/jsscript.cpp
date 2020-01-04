@@ -26675,10 +26675,6 @@ FreeOp
 fop
 )
 {
-if
-(
-table_
-)
 fop
 -
 >

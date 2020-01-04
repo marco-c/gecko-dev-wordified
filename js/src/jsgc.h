@@ -1270,7 +1270,7 @@ AllocKind
 SCRIPT
 *
 /
-false
+true
 /
 *
 AllocKind
