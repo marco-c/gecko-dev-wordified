@@ -7949,11 +7949,6 @@ nsStyleGradient
 (
 )
 ;
-if
-(
-gradient
-)
-{
 SetGradient
 (
 aValue
@@ -7976,7 +7971,6 @@ SetGradientData
 gradient
 )
 ;
-}
 break
 ;
 }
