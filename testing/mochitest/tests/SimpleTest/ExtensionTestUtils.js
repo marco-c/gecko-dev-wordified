@@ -11,9 +11,6 @@ loadExtension
 function
 (
 ext
-id
-=
-null
 )
 {
 /
@@ -542,7 +539,6 @@ SpecialPowers
 .
 loadExtension
 (
-id
 ext
 handler
 )

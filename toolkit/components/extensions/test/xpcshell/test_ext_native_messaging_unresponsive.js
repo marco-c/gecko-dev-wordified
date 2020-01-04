@@ -370,6 +370,17 @@ background
 manifest
 :
 {
+applications
+:
+{
+gecko
+:
+{
+id
+:
+ID
+}
+}
 permissions
 :
 [
@@ -379,7 +390,6 @@ nativeMessaging
 ]
 }
 }
-ID
 )
 ;
 yield

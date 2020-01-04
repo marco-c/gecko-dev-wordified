@@ -75,7 +75,6 @@ Extension
 .
 generateXPI
 (
-ID
 {
 files
 :
