@@ -735,6 +735,24 @@ set
 (
 )
         
+#
+Store
+the
+real
+function
+and
+its
+dependencies
+behind
+each
+        
+#
+DummyFunction
+generated
+from
+depends
+.
+        
 self
 .
 _depends
@@ -1620,6 +1638,7 @@ self
 _depends
             
 func
+deps
 =
 self
 .
@@ -1647,10 +1666,12 @@ _results
 if
 need_help_dependency
 and
-not
-func
+self
 .
-with_help
+_help_option
+not
+in
+deps
 :
                 
 raise
@@ -2278,11 +2299,12 @@ argument
 '
 )
         
-with_help
-=
-False
-        
 resolved_args
+=
+[
+]
+        
+dependencies
 =
 [
 ]
@@ -2408,6 +2430,13 @@ add
 arg
 )
                 
+dependencies
+.
+append
+(
+arg
+)
+                
 assert
 arg
 in
@@ -2445,7 +2474,15 @@ self
 .
 _depends
                 
+dependencies
+.
+append
+(
 arg
+)
+                
+arg
+_
 =
 self
 .
@@ -2500,6 +2537,13 @@ resolved_args
 append
 (
 resolved_arg
+)
+        
+dependencies
+=
+tuple
+(
+dependencies
 )
         
 def
@@ -2581,12 +2625,15 @@ dummy
 ]
 =
 func
+dependencies
             
-func
-.
 with_help
 =
-with_help
+self
+.
+_help_option
+in
+dependencies
             
 if
 with_help
@@ -2599,30 +2646,36 @@ args
 :
                     
 if
-(
 isinstance
 (
 arg
 DummyFunction
 )
-and
-                            
-not
+:
+                        
+_
+deps
+=
 self
 .
 _depends
 [
 arg
 ]
-.
-with_help
-)
-:
                         
+if
+self
+.
+_help_option
+not
+in
+deps
+:
+                            
 raise
 ConfigureError
 (
-                            
+                                
 "
 %
 s
@@ -2638,7 +2691,7 @@ and
 s
 .
 "
-                            
+                                
 "
 %
 s
@@ -2651,7 +2704,7 @@ on
 help
 '
 "
-                            
+                                
 %
 (
 func
@@ -2723,22 +2776,17 @@ deps
 ]
                     
 for
-name
-value
+arg
 in
-zip
-(
-args
-resolved_args
-)
+dependencies
 :
                         
 if
 not
 isinstance
 (
-value
-OptionValue
+arg
+Option
 )
 :
                             
@@ -2761,55 +2809,35 @@ option
 )
                         
 if
-name
+arg
 =
 =
-'
--
--
-help
-'
+self
+.
+_help_option
 :
                             
 continue
-                        
-prefix
-opt
-values
-=
-Option
-.
-split_option
-(
-name
-)
                         
 deps
 .
 append
 (
-value
-.
-format
-(
-                            
 self
 .
 _raw_options
 .
 get
 (
+arg
+)
+or
+                                    
 self
 .
-_options
-[
-opt
-]
-)
-                            
-or
-name
-)
+arg
+.
+option
 )
                     
 if
