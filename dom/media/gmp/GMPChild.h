@@ -158,6 +158,13 @@ prlink
 .
 h
 "
+#
+include
+"
+GMPUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -220,10 +227,6 @@ XP_WIN
 bool
 PreLoadLibraries
 (
-const
-nsAString
-&
-aPluginPath
 )
 ;
 #
@@ -498,6 +501,9 @@ nsTArray
 uint8_t
 >
 mSandboxVoucher
+;
+GMPInfoFileParser
+mInfoParser
 ;
 }
 ;
