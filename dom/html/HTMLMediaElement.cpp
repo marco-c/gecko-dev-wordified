@@ -4276,6 +4276,13 @@ mError
 =
 nullptr
 ;
+mCurrentPlayRangeStart
+=
+-
+1
+.
+0
+;
 mLoadedDataFired
 =
 false
