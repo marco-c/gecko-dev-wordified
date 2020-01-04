@@ -84,6 +84,8 @@ import
     
 Manifest
     
+ManifestBinaryComponent
+    
 ManifestChrome
     
 ManifestInterfaces
@@ -1755,14 +1757,29 @@ paths
 containing
 addons
 .
+(
+key
+is
+path
+value
+is
+whether
+it
+        
+#
+should
+be
+packed
+or
+unpacked
+)
         
 self
 .
 _addons
 =
-set
-(
-)
+{
+}
         
 #
 All
@@ -1916,16 +1933,16 @@ rdf
 self
 .
 _addons
-.
-add
-(
+[
 mozpath
 .
 dirname
 (
 path
 )
-)
+]
+=
+True
     
 def
 _add_manifest_file
@@ -2163,6 +2180,63 @@ base
 )
 )
             
+#
+If
+a
+binary
+component
+is
+added
+to
+an
+addon
+prevent
+the
+addon
+            
+#
+from
+being
+packed
+.
+            
+if
+isinstance
+(
+e
+ManifestBinaryComponent
+)
+:
+                
+addon
+=
+mozpath
+.
+basedir
+(
+e
+.
+base
+self
+.
+_addons
+)
+                
+if
+addon
+:
+                    
+self
+.
+_addons
+[
+addon
+]
+=
+'
+unpacked
+'
+            
 if
 isinstance
 (
@@ -2298,9 +2372,12 @@ addons
 all_bases
 -
 =
+set
+(
 self
 .
 _addons
+)
         
 else
 :
@@ -2329,9 +2406,12 @@ manifest
 all_bases
 |
 =
+set
+(
 self
 .
 _addons
+)
         
 return
 all_bases
@@ -2464,7 +2544,10 @@ bases
 for
 base
 in
+sorted
+(
 bases
+)
 :
             
 self
@@ -2474,11 +2557,15 @@ formatter
 add_base
 (
 base
-base
-in
 self
 .
 _addons
+.
+get
+(
+base
+False
+)
 )
         
 self
