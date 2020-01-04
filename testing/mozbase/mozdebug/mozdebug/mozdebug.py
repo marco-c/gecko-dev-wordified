@@ -1213,6 +1213,23 @@ KeepLooking
 '
 '
     
+mozinfo
+.
+find_and_update_from_json
+(
+)
+    
+os
+=
+mozinfo
+.
+info
+[
+'
+os
+'
+]
+    
 #
 Find
 out
@@ -1231,12 +1248,8 @@ debuggerPriorities
 =
 _DEBUGGER_PRIORITIES
 [
-mozinfo
-.
 os
 if
-mozinfo
-.
 os
 in
 _DEBUGGER_PRIORITIES
