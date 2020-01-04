@@ -1339,7 +1339,9 @@ this
 actions
 =
 new
-ActionChain
+actions
+.
+Chain
 (
 utils
 )
