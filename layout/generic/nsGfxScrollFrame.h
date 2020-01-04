@@ -2269,6 +2269,11 @@ nsRect
 aDisplayPort
 )
 ;
+bool
+AllowDisplayPortExpiration
+(
+)
+;
 void
 TriggerDisplayPortExpiration
 (
