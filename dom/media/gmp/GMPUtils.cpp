@@ -796,7 +796,6 @@ length
 )
 ;
 }
-static
 bool
 ReadIntoString
 (
