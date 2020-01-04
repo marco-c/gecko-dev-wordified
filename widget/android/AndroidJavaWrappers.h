@@ -2232,7 +2232,7 @@ return
 mRect
 ;
 }
-nsAString
+nsString
 &
 Characters
 (
@@ -2242,7 +2242,7 @@ return
 mCharacters
 ;
 }
-nsAString
+nsString
 &
 CharactersExtra
 (
@@ -2252,7 +2252,7 @@ return
 mCharactersExtra
 ;
 }
-nsAString
+nsString
 &
 Data
 (
