@@ -1780,15 +1780,6 @@ selection
 isElementNode
 (
 )
-|
-|
-gInspector
-.
-selection
-.
-isPseudoElementNode
-(
-)
 )
 {
 this
