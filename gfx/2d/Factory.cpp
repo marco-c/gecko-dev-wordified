@@ -3330,7 +3330,7 @@ return
 nullptr
 ;
 }
-void
+bool
 Factory
 :
 :
@@ -3369,6 +3369,7 @@ aDevice
 )
 {
 return
+true
 ;
 }
 RefPtr
@@ -3452,7 +3453,17 @@ hexa
 hr
 )
 ;
+mD3D11Device
+=
+nullptr
+;
+return
+false
+;
 }
+return
+true
+;
 }
 ID3D11Device
 *
