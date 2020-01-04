@@ -12870,6 +12870,10 @@ aRejectCallback
 {
 if
 (
+!
+mGlobal
+|
+|
 mGlobal
 -
 >
