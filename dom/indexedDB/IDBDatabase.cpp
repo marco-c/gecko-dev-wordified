@@ -5425,6 +5425,7 @@ QuotaManager
 GetInfoForChrome
 (
 nullptr
+nullptr
 &
 aOrigin
 nullptr
@@ -5480,6 +5481,7 @@ QuotaManager
 GetInfoFromPrincipal
 (
 principal
+nullptr
 nullptr
 &
 aOrigin

@@ -2850,6 +2850,9 @@ PersistenceType
 mPersistence
 ;
 nsCString
+mSuffix
+;
+nsCString
 mGroup
 ;
 nsCString
@@ -3446,6 +3449,8 @@ GetInfoFromPrincipal
 (
 principal
 &
+mSuffix
+&
 mGroup
 &
 mOrigin
@@ -3621,6 +3626,7 @@ qm
 EnsureOriginIsInitialized
 (
 mPersistence
+mSuffix
 mGroup
 mOrigin
 mIsApp

@@ -2465,6 +2465,10 @@ principal
 &
 mQuotaInfo
 .
+mSuffix
+&
+mQuotaInfo
+.
 mGroup
 &
 mQuotaInfo
@@ -2784,6 +2788,9 @@ qm
 EnsureOriginIsInitialized
 (
 PERSISTENCE_TYPE_DEFAULT
+mQuotaInfo
+.
+mSuffix
 mQuotaInfo
 .
 mGroup

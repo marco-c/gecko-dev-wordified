@@ -14370,6 +14370,7 @@ GetInfoFromWindow
 (
 window
 nullptr
+nullptr
 &
 origin
 nullptr
