@@ -1158,9 +1158,12 @@ prototype
 }
 /
 /
-ES6
+ES
+2016
 draft
-20150317
+Mar
+25
+2016
 7
 .
 3
@@ -1195,10 +1198,8 @@ object
 ;
 /
 /
-Steps
+Step
 2
--
-3
 .
 var
 ctor
@@ -1210,7 +1211,7 @@ constructor
 /
 /
 Step
-4
+3
 .
 if
 (
@@ -1226,7 +1227,7 @@ defaultConstructor
 /
 /
 Step
-5
+4
 .
 if
 (
@@ -1253,9 +1254,7 @@ property
 /
 /
 Steps
-6
--
-7
+5
 .
 var
 s
@@ -1268,7 +1267,7 @@ std_species
 /
 /
 Step
-8
+6
 .
 if
 (
@@ -1291,7 +1290,7 @@ defaultConstructor
 /
 /
 Step
-9
+7
 .
 if
 (
@@ -1306,7 +1305,7 @@ s
 /
 /
 Step
-10
+8
 .
 ThrowTypeError
 (
