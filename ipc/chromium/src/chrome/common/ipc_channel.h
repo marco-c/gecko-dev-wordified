@@ -430,7 +430,7 @@ error
 .
 kMaximumMessageSize
 =
-128
+256
 *
 1024
 *
