@@ -166,7 +166,7 @@ devtools
 /
 shared
 /
-styleinspector
+inspector
 /
 css
 -
@@ -277,7 +277,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+shared
 /
 test
 /
@@ -301,7 +303,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+shared
 /
 test
 /
