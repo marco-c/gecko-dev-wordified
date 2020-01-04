@@ -499,10 +499,6 @@ appUpdateChannel
 '
 +
 appBuildId
-+
-'
-/
-'
 ;
 }
 /
