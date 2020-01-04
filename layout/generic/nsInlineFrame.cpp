@@ -459,7 +459,7 @@ InvalidateFrame
 return
 ;
 }
-nsInlineFrameBase
+nsContainerFrame
 :
 :
 InvalidateFrame
@@ -517,7 +517,7 @@ InvalidateFrame
 return
 ;
 }
-nsInlineFrameBase
+nsContainerFrame
 :
 :
 InvalidateFrameWithRect
@@ -3221,7 +3221,7 @@ aModType
 nsresult
 rv
 =
-nsInlineFrameBase
+nsContainerFrame
 :
 :
 AttributeChanged
