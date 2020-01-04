@@ -5911,7 +5911,7 @@ dmdPath
 =
 build_obj
 .
-bin_dir
+bindir
             
 else
 :
