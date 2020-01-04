@@ -881,6 +881,14 @@ finishOutstandingTask
 )
 ;
 bool
+funcIsDefined
+(
+uint32_t
+funcIndex
+)
+const
+;
+bool
 finishTask
 (
 IonCompileTask
