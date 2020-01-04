@@ -379,9 +379,6 @@ int32_t
 outNumTestsFailed
 )
 {
-nsresult
-result
-;
 NS_ENSURE_TRUE
 (
 outNumTests
@@ -401,7 +398,8 @@ outNumTestsFailed
 =
 0
 ;
-result
+nsresult
+rv
 =
 InitDoc
 (
@@ -409,7 +407,7 @@ InitDoc
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 /
@@ -430,7 +428,7 @@ insert
 some
 simple
 text
-result
+rv
 =
 mTextEditor
 -
@@ -447,7 +445,7 @@ NS_LITERAL_STRING
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 (
@@ -461,9 +459,10 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
+{
 +
 +
 (
@@ -471,13 +470,14 @@ result
 outNumTestsFailed
 )
 ;
+}
 /
 /
 insert
 some
 more
 text
-result
+rv
 =
 mTextEditor
 -
@@ -531,7 +531,7 @@ everywhere
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 (
@@ -545,9 +545,10 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
+{
 +
 +
 (
@@ -555,7 +556,8 @@ result
 outNumTestsFailed
 )
 ;
-result
+}
+rv
 =
 TestInsertBreak
 (
@@ -563,7 +565,7 @@ TestInsertBreak
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 (
@@ -577,9 +579,10 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
+{
 +
 +
 (
@@ -587,7 +590,8 @@ result
 outNumTestsFailed
 )
 ;
-result
+}
+rv
 =
 TestTextProperties
 (
@@ -595,7 +599,7 @@ TestTextProperties
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 (
@@ -609,9 +613,10 @@ if
 (
 NS_FAILED
 (
-result
+rv
 )
 )
+{
 +
 +
 (
@@ -619,6 +624,7 @@ result
 outNumTestsFailed
 )
 ;
+}
 /
 /
 get
@@ -628,7 +634,7 @@ to
 the
 original
 document
-result
+rv
 =
 mEditor
 -
@@ -640,11 +646,11 @@ Undo
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 return
-result
+rv
 ;
 }
 nsresult
@@ -656,7 +662,7 @@ InitDoc
 )
 {
 nsresult
-result
+rv
 =
 mEditor
 -
@@ -667,10 +673,10 @@ SelectAll
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 mEditor
 -
@@ -689,11 +695,11 @@ eStrip
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 return
-result
+rv
 ;
 }
 nsresult
@@ -711,7 +717,7 @@ nsISelection
 selection
 ;
 nsresult
-result
+rv
 =
 mEditor
 -
@@ -726,7 +732,7 @@ selection
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -744,7 +750,7 @@ nsIDOMNode
 >
 anchor
 ;
-result
+rv
 =
 selection
 -
@@ -759,7 +765,7 @@ anchor
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -796,7 +802,7 @@ n
 "
 )
 ;
-result
+rv
 =
 mTextEditor
 -
@@ -807,7 +813,7 @@ InsertLineBreak
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 mEditor
@@ -839,7 +845,7 @@ n
 "
 )
 ;
-result
+rv
 =
 mTextEditor
 -
@@ -850,7 +856,7 @@ InsertLineBreak
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 mEditor
@@ -861,7 +867,7 @@ DebugDumpContent
 )
 ;
 return
-result
+rv
 ;
 }
 nsresult
@@ -879,7 +885,7 @@ nsIDOMDocument
 doc
 ;
 nsresult
-result
+rv
 =
 mEditor
 -
@@ -894,7 +900,7 @@ doc
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -936,7 +942,7 @@ text
 )
 )
 ;
-result
+rv
 =
 doc
 -
@@ -952,7 +958,7 @@ nodeList
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -1001,7 +1007,7 @@ nsIDOMNode
 >
 textNode
 ;
-result
+rv
 =
 nodeList
 -
@@ -1019,7 +1025,7 @@ textNode
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -1062,7 +1068,7 @@ nsISelection
 >
 selection
 ;
-result
+rv
 =
 mEditor
 -
@@ -1077,7 +1083,7 @@ selection
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -1174,7 +1180,7 @@ EmptyString
 (
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1197,7 +1203,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1242,7 +1248,7 @@ false
 "
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1259,10 +1265,10 @@ empty
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1285,7 +1291,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1362,7 +1368,7 @@ n
 "
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1378,10 +1384,10 @@ empty
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1404,7 +1410,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1521,7 +1527,7 @@ length
 1
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1538,10 +1544,10 @@ empty
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1564,7 +1570,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1624,7 +1630,7 @@ that
 same
 text
 italic
-result
+rv
 =
 htmlEditor
 -
@@ -1641,10 +1647,10 @@ empty
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1667,7 +1673,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1712,7 +1718,7 @@ true
 "
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1735,7 +1741,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -1803,7 +1809,7 @@ and
 last
 2
 characters
-result
+rv
 =
 doc
 -
@@ -1819,7 +1825,7 @@ nodeList
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -1859,7 +1865,7 @@ document
 "
 )
 ;
-result
+rv
 =
 nodeList
 -
@@ -1877,7 +1883,7 @@ textNode
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 TEST_POINTER
@@ -1938,7 +1944,7 @@ length
 2
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1955,10 +1961,10 @@ empty
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
-result
+rv
 =
 htmlEditor
 -
@@ -1981,7 +1987,7 @@ all
 ;
 TEST_RESULT
 (
-result
+rv
 )
 ;
 NS_ASSERTION
@@ -2034,7 +2040,7 @@ DebugDumpContent
 )
 ;
 return
-result
+rv
 ;
 }
 #

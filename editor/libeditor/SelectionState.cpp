@@ -2241,7 +2241,7 @@ as
 inserting
 aNewLeftnode
 nsresult
-result
+rv
 =
 SelAdjInsertNode
 (
@@ -2253,8 +2253,8 @@ offset
 ;
 NS_ENSURE_SUCCESS
 (
-result
-result
+rv
+rv
 )
 ;
 /
