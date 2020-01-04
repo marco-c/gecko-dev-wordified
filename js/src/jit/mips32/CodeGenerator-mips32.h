@@ -376,6 +376,14 @@ ins
 )
 ;
 void
+visitAsmSelectI64
+(
+LAsmSelectI64
+*
+lir
+)
+;
+void
 visitExtendInt32ToInt64
 (
 LExtendInt32ToInt64
