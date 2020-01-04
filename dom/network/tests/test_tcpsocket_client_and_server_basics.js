@@ -253,8 +253,9 @@ event
 loop
 where
 TCPSocket
-.
-open
+'
+s
+constructor
 is
 called
 or
@@ -1197,7 +1198,7 @@ serverPort
 8085
 ;
 let
-TCPSocket
+mozTCPSocket
 =
 navigator
 .
@@ -1215,7 +1216,7 @@ socket
 let
 listeningServer
 =
-TCPSocket
+mozTCPSocket
 .
 listen
 (
@@ -1251,9 +1252,8 @@ server
 let
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -2255,9 +2255,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -2500,9 +2499,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -2817,9 +2815,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -3061,9 +3058,8 @@ an
 error
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127

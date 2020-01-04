@@ -592,6 +592,9 @@ DeviceStorageAreaListener
 class
 Presentation
 ;
+class
+LegacyMozTCPSocket
+;
 namespace
 time
 {
@@ -1294,6 +1297,14 @@ GetInputPortManager
 ErrorResult
 &
 aRv
+)
+;
+already_AddRefed
+<
+LegacyMozTCPSocket
+>
+MozTCPSocket
+(
 )
 ;
 network
