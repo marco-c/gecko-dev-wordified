@@ -482,6 +482,14 @@ LInt64ToFloatingPoint
 lir
 )
 ;
+void
+visitTestI64AndBranch
+(
+LTestI64AndBranch
+*
+lir
+)
+;
 /
 /
 Out
