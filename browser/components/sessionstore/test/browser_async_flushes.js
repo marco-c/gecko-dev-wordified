@@ -532,8 +532,6 @@ completes
 let
 promise1
 =
-BrowserTestUtils
-.
 crashBrowser
 (
 browser
