@@ -180,9 +180,9 @@ devtools
 /
 client
 /
-app
--
-manager
+webide
+/
+modules
 /
 app
 -
