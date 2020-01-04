@@ -192,7 +192,7 @@ class
 nsITVProgramData
 ;
 class
-nsITVService
+nsITVSourceListener
 ;
 namespace
 mozilla
@@ -459,11 +459,6 @@ Init
 (
 )
 ;
-void
-Shutdown
-(
-)
-;
 nsresult
 DispatchCurrentChannelChangedEvent
 (
@@ -497,12 +492,6 @@ TVProgram
 aPrograms
 )
 ;
-nsCOMPtr
-<
-nsITVService
->
-mTVService
-;
 RefPtr
 <
 TVTuner
@@ -514,6 +503,12 @@ RefPtr
 TVChannel
 >
 mCurrentChannel
+;
+nsCOMPtr
+<
+nsITVSourceListener
+>
+mSourceListener
 ;
 TVSourceType
 mType

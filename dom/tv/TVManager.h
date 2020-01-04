@@ -129,9 +129,6 @@ DOMEventTargetHelper
 .
 h
 "
-class
-nsITVService
-;
 namespace
 mozilla
 {
@@ -265,12 +262,6 @@ bool
 Init
 (
 )
-;
-nsCOMPtr
-<
-nsITVService
->
-mTVService
 ;
 nsTArray
 <
