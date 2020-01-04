@@ -46,7 +46,7 @@ HEAP32
 new
 stdlib
 .
-SharedInt32Array
+Int32Array
 (
 heap
 )

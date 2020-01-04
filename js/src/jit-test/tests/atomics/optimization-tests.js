@@ -110,11 +110,6 @@ Atomics
 this
 .
 SharedArrayBuffer
-&
-&
-this
-.
-SharedInt8Array
 )
 )
 quit
@@ -685,7 +680,7 @@ i8a
 new
 stdlib
 .
-SharedInt8Array
+Int8Array
 (
 heap
 )
@@ -785,9 +780,13 @@ var
 i8a
 =
 new
-SharedInt8Array
+Int8Array
+(
+new
+SharedArrayBuffer
 (
 65536
+)
 )
 ;
 var
