@@ -981,7 +981,7 @@ aDiagnostics
 aDiagnostics
 -
 >
-SetVideoFormatNotSupport
+SetVideoNotSupported
 (
 )
 ;

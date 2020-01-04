@@ -1230,7 +1230,7 @@ kVideoFormatNotSupported
 diagnostics
 -
 >
-SetVideoFormatNotSupport
+SetVideoNotSupported
 (
 )
 ;
@@ -1253,7 +1253,7 @@ kAudioFormatNotSupported
 diagnostics
 -
 >
-SetAudioFormatNotSupport
+SetAudioNotSupported
 (
 )
 ;

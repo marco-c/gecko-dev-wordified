@@ -544,7 +544,7 @@ mGMPPDMFailedToStartup
 ;
 }
 void
-SetVideoFormatNotSupport
+SetVideoNotSupported
 (
 )
 {
@@ -554,7 +554,7 @@ true
 ;
 }
 void
-SetAudioFormatNotSupport
+SetAudioNotSupported
 (
 )
 {
