@@ -3463,6 +3463,8 @@ LayoutDeviceIntRect
 selfBounds
 parentBounds
 ;
+selfBounds
+=
 aFrame
 -
 >
@@ -3473,9 +3475,10 @@ GetNearestWidget
 >
 GetScreenBounds
 (
-selfBounds
 )
 ;
+parentBounds
+=
 parent
 -
 >
@@ -3486,7 +3489,6 @@ GetNearestWidget
 >
 GetScreenBounds
 (
-parentBounds
 )
 ;
 *

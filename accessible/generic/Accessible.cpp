@@ -3468,13 +3468,12 @@ nullptr
 ;
 LayoutDeviceIntRect
 rootRect
-;
+=
 rootWidget
 -
 >
 GetScreenBounds
 (
-rootRect
 )
 ;
 WidgetMouseEvent

@@ -32831,13 +32831,12 @@ changed
 resolution
 LayoutDeviceIntRect
 r
-;
+=
 mParentWidget
 -
 >
 GetClientBounds
 (
-r
 )
 ;
 SetPositionAndSize

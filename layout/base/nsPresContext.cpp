@@ -16513,7 +16513,7 @@ continue
 ;
 LayoutDeviceIntRect
 bounds
-;
+=
 pluginsToMove
 [
 j
@@ -16524,7 +16524,6 @@ mChild
 >
 GetBounds
 (
-bounds
 )
 ;
 AutoTArray

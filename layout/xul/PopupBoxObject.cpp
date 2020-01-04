@@ -1519,13 +1519,12 @@ widget
 {
 LayoutDeviceIntRect
 screenRect
-;
+=
 widget
 -
 >
 GetScreenBounds
 (
-screenRect
 )
 ;
 int32_t

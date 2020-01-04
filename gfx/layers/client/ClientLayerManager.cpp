@@ -2947,13 +2947,12 @@ into
 dt
 LayoutDeviceIntRect
 outerBounds
-;
+=
 mWidget
 -
 >
 GetBounds
 (
-outerBounds
 )
 ;
 IntRect

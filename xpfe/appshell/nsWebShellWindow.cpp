@@ -1066,13 +1066,12 @@ initialization
 data
 LayoutDeviceIntRect
 r
-;
+=
 mWindow
 -
 >
 GetClientBounds
 (
-r
 )
 ;
 /

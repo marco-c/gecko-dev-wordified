@@ -3786,13 +3786,12 @@ toplevel
 widget
 LayoutDeviceIntRect
 bounds
-;
+=
 childWidget
 -
 >
 GetBounds
 (
-bounds
 )
 ;
 nsTArray
