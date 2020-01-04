@@ -3307,6 +3307,13 @@ IsArrayAnswer
 answer
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 return
 proxy
 -
