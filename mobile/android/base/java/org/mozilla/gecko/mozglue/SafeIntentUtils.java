@@ -95,7 +95,7 @@ Log
 ;
 public
 class
-ContextUtils
+SafeIntentUtils
 {
 private
 static

@@ -632,7 +632,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 ;
 import
 org
@@ -643,7 +643,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 .
 SafeIntent
 ;
@@ -5580,7 +5580,7 @@ final
 String
 hostExtra
 =
-ContextUtils
+SafeIntentUtils
 .
 getStringExtra
 (

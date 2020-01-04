@@ -163,7 +163,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 ;
 import
 android
@@ -419,13 +419,13 @@ setFlags
 flags
 )
 ;
-ContextUtils
+SafeIntentUtils
 .
 SafeIntent
 safeIntent
 =
 new
-ContextUtils
+SafeIntentUtils
 .
 SafeIntent
 (
