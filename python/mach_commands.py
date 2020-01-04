@@ -1849,6 +1849,19 @@ zero
 exit
 code
 .
+            
+require_unix_environment
+=
+True
+#
+eslint
+is
+not
+a
+valid
+Win32
+binary
+.
         
 )
     
