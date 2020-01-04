@@ -3791,9 +3791,9 @@ nullptr
 ;
 rv
 =
-nsContentUtils
-:
-:
+statefulFrame
+-
+>
 GenerateStateKey
 (
 content
@@ -4224,9 +4224,9 @@ GetCurrentDoc
 nsresult
 rv
 =
-nsContentUtils
-:
-:
+statefulFrame
+-
+>
 GenerateStateKey
 (
 content
