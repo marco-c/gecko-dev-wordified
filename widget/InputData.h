@@ -3015,6 +3015,7 @@ pixel
 modes
 .
 SCROLLDELTA_LINE
+SCROLLDELTA_PAGE
 SCROLLDELTA_PIXEL
 }
 ;
@@ -3039,6 +3040,15 @@ DOM_DELTA_LINE
 :
 return
 SCROLLDELTA_LINE
+;
+case
+nsIDOMWheelEvent
+:
+:
+DOM_DELTA_PAGE
+:
+return
+SCROLLDELTA_PAGE
 ;
 case
 nsIDOMWheelEvent
