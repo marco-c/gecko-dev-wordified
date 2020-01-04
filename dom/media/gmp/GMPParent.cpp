@@ -185,7 +185,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "
@@ -5355,7 +5355,10 @@ mAPITags
 .
 Contains
 (
+nsCString
+(
 kEMEKeySystemPrimetime
+)
 )
 &
 &
@@ -5727,7 +5730,10 @@ mAPITags
 .
 AppendElement
 (
+nsCString
+(
 kEMEKeySystemWidevine
+)
 )
 ;
 mCapabilities
@@ -5755,7 +5761,10 @@ mAPITags
 .
 AppendElement
 (
+nsCString
+(
 kEMEKeySystemWidevine
+)
 )
 ;
 mCapabilities

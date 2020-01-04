@@ -72,10 +72,6 @@ h
 #
 include
 "
-mozilla
-/
-media
-/
 DeviceChangeCallback
 .
 h
@@ -94,7 +90,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "

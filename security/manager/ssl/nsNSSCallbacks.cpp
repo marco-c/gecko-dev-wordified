@@ -148,7 +148,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "
@@ -3559,10 +3559,7 @@ return
 }
 shutdown
 (
-ShutdownCalledFrom
-:
-:
-Object
+calledFromObject
 )
 ;
 }
