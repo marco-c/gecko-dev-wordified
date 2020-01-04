@@ -458,6 +458,11 @@ _
 SimdFloat32x4
 )
 \
+_
+(
+SimdBool32x4
+)
+\
 \
 _
 (
