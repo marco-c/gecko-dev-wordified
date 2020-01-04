@@ -635,6 +635,11 @@ Bookmarks
 verifyNot
 bookmarks_to_delete
 ]
+[
+Bookmarks
+.
+skipValidation
+]
 ]
 )
 ;
