@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-AccCollector
+EmbeddedObjCollector
 .
 h
 "
