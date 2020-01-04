@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 socket
 try
@@ -477,6 +481,29 @@ port
 =
 address
     
+if
+host
+.
+startswith
+(
+'
+[
+'
+)
+:
+        
+host
+=
+host
+.
+strip
+(
+'
+[
+]
+'
+)
+    
 err
 =
 None
@@ -595,12 +622,12 @@ socket
 .
 error
 as
-_
+e
 :
             
 err
 =
-_
+e
             
 if
 sock
@@ -614,6 +641,10 @@ sock
 close
 (
 )
+                
+sock
+=
+None
     
 if
 err
@@ -625,9 +656,6 @@ None
 raise
 err
     
-else
-:
-        
 raise
 socket
 .

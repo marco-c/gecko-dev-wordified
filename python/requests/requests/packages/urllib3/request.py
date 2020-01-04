@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 try
 :
     
@@ -494,6 +498,10 @@ url
 fields
 =
 None
+headers
+=
+None
+                           
 *
 *
 urlopen_kw
@@ -539,6 +547,35 @@ etc
 "
         
 if
+headers
+is
+None
+:
+            
+headers
+=
+self
+.
+headers
+        
+extra_kw
+=
+{
+'
+headers
+'
+:
+headers
+}
+        
+extra_kw
+.
+update
+(
+urlopen_kw
+)
+        
+if
 fields
 :
             
@@ -563,7 +600,7 @@ method
 url
 *
 *
-urlopen_kw
+extra_kw
 )
     
 def
@@ -975,29 +1012,26 @@ urlopen_kw
 raise
 TypeError
 (
-'
+                    
+"
 request
 got
 values
 for
 both
-\
 '
 fields
-\
 '
 and
-\
 '
 body
-\
 '
 can
 only
 specify
 one
 .
-'
+"
 )
             
 if

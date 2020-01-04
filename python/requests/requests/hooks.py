@@ -70,27 +70,19 @@ default_hooks
 )
 :
     
-hooks
-=
-{
-}
-    
+return
+dict
+(
+(
+event
+[
+]
+)
 for
 event
 in
 HOOKS
-:
-        
-hooks
-[
-event
-]
-=
-[
-]
-    
-return
-hooks
+)
 #
 TODO
 :
@@ -137,12 +129,6 @@ dict
 (
 )
     
-if
-key
-in
-hooks
-:
-        
 hooks
 =
 hooks
@@ -151,6 +137,10 @@ get
 (
 key
 )
+    
+if
+hooks
+:
         
 if
 hasattr

@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 #
 The
 default
@@ -1829,7 +1833,7 @@ is
 not
 None
 and
-            
+                
 self
 .
 total
@@ -1839,7 +1843,7 @@ self
 .
 DEFAULT_TIMEOUT
 and
-            
+                
 self
 .
 _read
@@ -1847,7 +1851,7 @@ is
 not
 None
 and
-            
+                
 self
 .
 _read

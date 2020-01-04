@@ -49,6 +49,8 @@ import
 time
 import
 hashlib
+import
+threading
 from
 base64
 import
@@ -376,37 +378,106 @@ password
 =
 password
         
+#
+Keep
+state
+in
+per
+-
+thread
+local
+storage
+        
 self
+.
+_thread_local
+=
+threading
+.
+local
+(
+)
+    
+def
+init_per_thread_state
+(
+self
+)
+:
+        
+#
+Ensure
+state
+is
+initialized
+just
+once
+per
+-
+thread
+        
+if
+not
+hasattr
+(
+self
+.
+_thread_local
+'
+init
+'
+)
+:
+            
+self
+.
+_thread_local
+.
+init
+=
+True
+            
+self
+.
+_thread_local
 .
 last_nonce
 =
 '
 '
-        
+            
 self
+.
+_thread_local
 .
 nonce_count
 =
 0
-        
+            
 self
+.
+_thread_local
 .
 chal
 =
 {
 }
-        
+            
 self
+.
+_thread_local
 .
 pos
 =
 None
-        
+            
 self
+.
+_thread_local
 .
 num_401_calls
 =
-1
+None
     
 def
 build_digest_header
@@ -421,6 +492,8 @@ realm
 =
 self
 .
+_thread_local
+.
 chal
 [
 '
@@ -432,6 +505,8 @@ nonce
 =
 self
 .
+_thread_local
+.
 chal
 [
 '
@@ -442,6 +517,8 @@ nonce
 qop
 =
 self
+.
+_thread_local
 .
 chal
 .
@@ -455,6 +532,8 @@ qop
 algorithm
 =
 self
+.
+_thread_local
 .
 chal
 .
@@ -468,6 +547,8 @@ algorithm
 opaque
 =
 self
+.
+_thread_local
 .
 chal
 .
@@ -676,11 +757,32 @@ urlparse
 url
 )
         
+#
+:
+path
+is
+request
+-
+uri
+defined
+in
+RFC
+2616
+which
+should
+not
+be
+empty
+        
 path
 =
 p_parsed
 .
 path
+or
+"
+/
+"
         
 if
 p_parsed
@@ -757,10 +859,14 @@ nonce
 =
 self
 .
+_thread_local
+.
 last_nonce
 :
             
 self
+.
+_thread_local
 .
 nonce_count
 +
@@ -771,6 +877,8 @@ else
 :
             
 self
+.
+_thread_local
 .
 nonce_count
 =
@@ -785,6 +893,8 @@ ncvalue
 %
 self
 .
+_thread_local
+.
 nonce_count
         
 s
@@ -792,6 +902,8 @@ s
 str
 (
 self
+.
+_thread_local
 .
 nonce_count
 )
@@ -866,33 +978,6 @@ hexdigest
 ]
 )
         
-noncebit
-=
-"
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-:
-%
-s
-"
-%
-(
-nonce
-ncvalue
-cnonce
-qop
-HA2
-)
-        
 if
 _algorithm
 =
@@ -927,9 +1012,8 @@ cnonce
 )
         
 if
+not
 qop
-is
-None
 :
             
 respdig
@@ -972,6 +1056,37 @@ split
 )
 :
             
+noncebit
+=
+"
+%
+s
+:
+%
+s
+:
+%
+s
+:
+%
+s
+:
+%
+s
+"
+%
+(
+                
+nonce
+ncvalue
+cnonce
+'
+auth
+'
+HA2
+                
+)
+            
 respdig
 =
 KD
@@ -995,6 +1110,8 @@ return
 None
         
 self
+.
+_thread_local
 .
 last_nonce
 =
@@ -1187,6 +1304,8 @@ is_redirect
             
 self
 .
+_thread_local
+.
 num_401_calls
 =
 1
@@ -1223,6 +1342,8 @@ needed
         
 if
 self
+.
+_thread_local
 .
 pos
 is
@@ -1261,18 +1382,9 @@ seek
 (
 self
 .
+_thread_local
+.
 pos
-)
-        
-num_401_calls
-=
-getattr
-(
-self
-'
-num_401_calls
-'
-1
 )
         
 s_auth
@@ -1303,12 +1415,18 @@ lower
 (
 )
 and
+self
+.
+_thread_local
+.
 num_401_calls
 <
 2
 :
             
 self
+.
+_thread_local
 .
 num_401_calls
 +
@@ -1333,6 +1451,8 @@ IGNORECASE
 )
             
 self
+.
+_thread_local
 .
 chal
 =
@@ -1379,9 +1499,7 @@ content
             
 r
 .
-raw
-.
-release_conn
+close
 (
 )
             
@@ -1473,6 +1591,8 @@ _r
         
 self
 .
+_thread_local
+.
 num_401_calls
 =
 1
@@ -1489,6 +1609,21 @@ r
 :
         
 #
+Initialize
+per
+-
+thread
+state
+if
+needed
+        
+self
+.
+init_per_thread_state
+(
+)
+        
+#
 If
 we
 have
@@ -1501,6 +1636,8 @@ the
         
 if
 self
+.
+_thread_local
 .
 last_nonce
 :
@@ -1530,6 +1667,8 @@ try
 :
             
 self
+.
+_thread_local
 .
 pos
 =
@@ -1593,6 +1732,8 @@ None
             
 self
 .
+_thread_local
+.
 pos
 =
 None
@@ -1620,6 +1761,14 @@ self
 .
 handle_redirect
 )
+        
+self
+.
+_thread_local
+.
+num_401_calls
+=
+1
         
 return
 r
