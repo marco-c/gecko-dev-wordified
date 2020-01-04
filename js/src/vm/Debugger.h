@@ -3813,7 +3813,7 @@ maybeThis
 HandleValue
 rval
 JSTrapStatus
-*
+&
 statusp
 MutableHandleValue
 vp
