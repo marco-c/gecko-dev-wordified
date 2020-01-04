@@ -873,12 +873,27 @@ zero
 *
 *
 Since
+[
 version
 3
 .
 6
 .
 18
+]
+(
+[
+dateof
+:
+3
+.
+6
+.
+18
+]
+)
+*
+*
 SQLite
 source
 code
@@ -1023,29 +1038,29 @@ SQLITE_VERSION
 "
 3
 .
-14
+15
 .
-1
+0
 "
 #
 define
 SQLITE_VERSION_NUMBER
-3014001
+3015000
 #
 define
 SQLITE_SOURCE_ID
 "
 2016
 -
-08
+10
 -
-11
-18
+14
+10
 :
-53
+20
 :
-32
-a12d8059770df4bca59e321c266410344242bf7b
+30
+707875582fcba352b4906a595ad89198d84711d8
 "
 /
 *
@@ -1379,7 +1394,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_libversion
 (
 void
@@ -1389,7 +1403,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_sourceid
 (
 void
@@ -1397,7 +1410,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_libversion_number
 (
 void
@@ -1609,7 +1621,6 @@ ifndef
 SQLITE_OMIT_COMPILEOPTION_DIAGS
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_compileoption_used
 (
 const
@@ -1622,7 +1633,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_compileoption_get
 (
 int
@@ -2018,7 +2028,6 @@ information
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_threadsafe
 (
 void
@@ -2854,7 +2863,6 @@ op
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_close
 (
 sqlite3
@@ -2863,7 +2871,6 @@ sqlite3
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_close_v2
 (
 sqlite3
@@ -3630,7 +3637,6 @@ ul
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_exec
 (
 sqlite3
@@ -4301,6 +4307,17 @@ version
 3
 .
 8
+[
+dateof
+:
+3
+.
+3
+.
+8
+]
+*
+*
 and
 later
 )
@@ -14060,7 +14077,6 @@ failure
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_initialize
 (
 void
@@ -14068,7 +14084,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_shutdown
 (
 void
@@ -14076,7 +14091,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_os_init
 (
 void
@@ -14084,7 +14098,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_os_end
 (
 void
@@ -14415,7 +14428,6 @@ code
 /
 SQLITE_API
 int
-SQLITE_CDECL
 sqlite3_config
 (
 int
@@ -14581,7 +14593,6 @@ successful
 /
 SQLITE_API
 int
-SQLITE_CDECL
 sqlite3_db_config
 (
 sqlite3
@@ -20928,9 +20939,132 @@ dd
 *
 *
 <
+dt
+>
+SQLITE_DBCONFIG_MAINDBNAME
+<
+/
+dt
+>
+*
+*
+<
+dd
+>
+^
+This
+option
+is
+used
+to
+change
+the
+name
+of
+the
+"
+main
+"
+database
+*
+*
+schema
+.
+^
+The
+sole
+argument
+is
+a
+pointer
+to
+a
+constant
+UTF8
+string
+*
+*
+which
+will
+become
+the
+new
+schema
+name
+in
+place
+of
+"
+main
+"
+.
+^
+SQLite
+*
+*
+does
+not
+make
+a
+copy
+of
+the
+new
+main
+schema
+name
+string
+so
+the
+application
+*
+*
+must
+ensure
+that
+the
+argument
+passed
+into
+this
+DBCONFIG
+option
+is
+unchanged
+*
+*
+until
+after
+the
+database
+connection
+closes
+.
+*
+*
+<
+/
+dd
+>
+*
+*
+*
+*
+<
 /
 dl
 >
+*
+/
+#
+define
+SQLITE_DBCONFIG_MAINDBNAME
+1000
+/
+*
+const
+char
+*
 *
 /
 #
@@ -21050,7 +21184,6 @@ compatibility
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_extended_result_codes
 (
 sqlite3
@@ -21612,7 +21745,6 @@ rowid
 /
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_last_insert_rowid
 (
 sqlite3
@@ -22163,7 +22295,6 @@ meaningful
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_changes
 (
 sqlite3
@@ -22384,7 +22515,6 @@ meaningful
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_total_changes
 (
 sqlite3
@@ -22799,7 +22929,6 @@ happen
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_interrupt
 (
 sqlite3
@@ -23163,7 +23292,6 @@ order
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_complete
 (
 const
@@ -23174,7 +23302,6 @@ sql
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_complete16
 (
 const
@@ -23826,7 +23953,6 @@ handler
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_busy_handler
 (
 sqlite3
@@ -24044,7 +24170,6 @@ busy_timeout
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_busy_timeout
 (
 sqlite3
@@ -24873,7 +24998,6 @@ sqlite3_errmsg
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_get_table
 (
 sqlite3
@@ -24953,7 +25077,6 @@ here
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_free_table
 (
 char
@@ -26123,7 +26246,6 @@ string
 SQLITE_API
 char
 *
-SQLITE_CDECL
 sqlite3_mprintf
 (
 const
@@ -26137,7 +26259,6 @@ char
 SQLITE_API
 char
 *
-SQLITE_STDCALL
 sqlite3_vmprintf
 (
 const
@@ -26149,7 +26270,6 @@ va_list
 SQLITE_API
 char
 *
-SQLITE_CDECL
 sqlite3_snprintf
 (
 int
@@ -26166,7 +26286,6 @@ char
 SQLITE_API
 char
 *
-SQLITE_STDCALL
 sqlite3_vsnprintf
 (
 int
@@ -27206,7 +27325,6 @@ sqlite3_realloc
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_malloc
 (
 int
@@ -27215,7 +27333,6 @@ int
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_malloc64
 (
 sqlite3_uint64
@@ -27224,7 +27341,6 @@ sqlite3_uint64
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_realloc
 (
 void
@@ -27235,7 +27351,6 @@ int
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_realloc64
 (
 void
@@ -27245,7 +27360,6 @@ sqlite3_uint64
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_free
 (
 void
@@ -27254,7 +27368,6 @@ void
 ;
 SQLITE_API
 sqlite3_uint64
-SQLITE_STDCALL
 sqlite3_msize
 (
 void
@@ -27512,7 +27625,6 @@ reset
 /
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_memory_used
 (
 void
@@ -27520,7 +27632,6 @@ void
 ;
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_memory_highwater
 (
 int
@@ -27761,7 +27872,6 @@ method
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_randomness
 (
 int
@@ -28709,7 +28819,6 @@ change
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_set_authorizer
 (
 sqlite3
@@ -29878,7 +29987,6 @@ SQLITE_API
 SQLITE_DEPRECATED
 void
 *
-SQLITE_STDCALL
 sqlite3_trace
 (
 sqlite3
@@ -29903,7 +30011,6 @@ SQLITE_API
 SQLITE_DEPRECATED
 void
 *
-SQLITE_STDCALL
 sqlite3_profile
 (
 sqlite3
@@ -30833,7 +30940,6 @@ deprecated
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_trace_v2
 (
 sqlite3
@@ -31189,7 +31295,6 @@ paragraph
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_progress_handler
 (
 sqlite3
@@ -34194,7 +34299,6 @@ sqlite3_temp_directory
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_open
 (
 const
@@ -34229,7 +34333,6 @@ handle
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_open16
 (
 const
@@ -34264,7 +34367,6 @@ handle
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_open_v2
 (
 const
@@ -34823,7 +34925,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_uri_parameter
 (
 const
@@ -34838,7 +34939,6 @@ zParam
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_uri_boolean
 (
 const
@@ -34855,7 +34955,6 @@ bDefault
 ;
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_uri_int64
 (
 const
@@ -35318,7 +35417,6 @@ set
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_errcode
 (
 sqlite3
@@ -35328,7 +35426,6 @@ db
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_extended_errcode
 (
 sqlite3
@@ -35340,7 +35437,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_errmsg
 (
 sqlite3
@@ -35351,7 +35447,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_errmsg16
 (
 sqlite3
@@ -35362,7 +35457,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_errstr
 (
 int
@@ -36073,7 +36167,6 @@ releases
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_limit
 (
 sqlite3
@@ -37732,7 +37825,6 @@ ol
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_prepare
 (
 sqlite3
@@ -37804,7 +37896,6 @@ zSql
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_prepare_v2
 (
 sqlite3
@@ -37876,7 +37967,6 @@ zSql
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_prepare16
 (
 sqlite3
@@ -37948,7 +38038,6 @@ zSql
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_prepare16_v2
 (
 sqlite3
@@ -38365,7 +38454,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_sql
 (
 sqlite3_stmt
@@ -38376,7 +38464,6 @@ pStmt
 SQLITE_API
 char
 *
-SQLITE_STDCALL
 sqlite3_expanded_sql
 (
 sqlite3_stmt
@@ -38703,7 +38790,6 @@ disk
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_stmt_readonly
 (
 sqlite3_stmt
@@ -38924,7 +39010,6 @@ open
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_stmt_busy
 (
 sqlite3_stmt
@@ -40683,7 +40768,6 @@ sqlite3_bind_parameter_index
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_blob
 (
 sqlite3_stmt
@@ -40706,7 +40790,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_blob64
 (
 sqlite3_stmt
@@ -40728,7 +40811,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_double
 (
 sqlite3_stmt
@@ -40739,7 +40821,6 @@ double
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_int
 (
 sqlite3_stmt
@@ -40750,7 +40831,6 @@ int
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_int64
 (
 sqlite3_stmt
@@ -40761,7 +40841,6 @@ sqlite3_int64
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_null
 (
 sqlite3_stmt
@@ -40771,7 +40850,6 @@ int
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_text
 (
 sqlite3_stmt
@@ -40793,7 +40871,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_text16
 (
 sqlite3_stmt
@@ -40815,7 +40892,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_text64
 (
 sqlite3_stmt
@@ -40840,7 +40916,6 @@ encoding
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_value
 (
 sqlite3_stmt
@@ -40853,7 +40928,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_zeroblob
 (
 sqlite3_stmt
@@ -40865,7 +40939,6 @@ n
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_zeroblob64
 (
 sqlite3_stmt
@@ -41064,7 +41137,6 @@ sqlite3_bind_parameter_index
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_parameter_count
 (
 sqlite3_stmt
@@ -41366,7 +41438,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_bind_parameter_name
 (
 sqlite3_stmt
@@ -41517,7 +41588,6 @@ sqlite3_bind_parameter_name
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_bind_parameter_index
 (
 sqlite3_stmt
@@ -41598,7 +41668,6 @@ NULL
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_clear_bindings
 (
 sqlite3_stmt
@@ -41690,7 +41759,6 @@ sqlite3_data_count
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_column_count
 (
 sqlite3_stmt
@@ -42006,7 +42074,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_column_name
 (
 sqlite3_stmt
@@ -42019,7 +42086,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_name16
 (
 sqlite3_stmt
@@ -42514,7 +42580,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_column_database_name
 (
 sqlite3_stmt
@@ -42526,7 +42591,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_database_name16
 (
 sqlite3_stmt
@@ -42538,7 +42602,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_column_table_name
 (
 sqlite3_stmt
@@ -42550,7 +42613,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_table_name16
 (
 sqlite3_stmt
@@ -42562,7 +42624,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_column_origin_name
 (
 sqlite3_stmt
@@ -42574,7 +42635,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_origin_name16
 (
 sqlite3_stmt
@@ -42886,7 +42946,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_column_decltype
 (
 sqlite3_stmt
@@ -42898,7 +42957,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_decltype16
 (
 sqlite3_stmt
@@ -43646,6 +43704,7 @@ sqlite3_step
 .
 But
 after
+[
 version
 3
 .
@@ -43654,6 +43713,21 @@ version
 23
 .
 1
+]
+(
+[
+dateof
+:
+3
+.
+6
+.
+23
+.
+1
+]
+*
+*
 sqlite3_step
 (
 )
@@ -43910,7 +43984,6 @@ recommended
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_step
 (
 sqlite3_stmt
@@ -44137,7 +44210,6 @@ sqlite3_column_count
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_data_count
 (
 sqlite3_stmt
@@ -46329,7 +46401,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_blob
 (
 sqlite3_stmt
@@ -46340,7 +46411,6 @@ iCol
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_column_bytes
 (
 sqlite3_stmt
@@ -46351,7 +46421,6 @@ iCol
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_column_bytes16
 (
 sqlite3_stmt
@@ -46362,7 +46431,6 @@ iCol
 ;
 SQLITE_API
 double
-SQLITE_STDCALL
 sqlite3_column_double
 (
 sqlite3_stmt
@@ -46373,7 +46441,6 @@ iCol
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_column_int
 (
 sqlite3_stmt
@@ -46384,7 +46451,6 @@ iCol
 ;
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_column_int64
 (
 sqlite3_stmt
@@ -46398,7 +46464,6 @@ const
 unsigned
 char
 *
-SQLITE_STDCALL
 sqlite3_column_text
 (
 sqlite3_stmt
@@ -46411,7 +46476,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_column_text16
 (
 sqlite3_stmt
@@ -46422,7 +46486,6 @@ iCol
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_column_type
 (
 sqlite3_stmt
@@ -46434,7 +46497,6 @@ iCol
 SQLITE_API
 sqlite3_value
 *
-SQLITE_STDCALL
 sqlite3_column_value
 (
 sqlite3_stmt
@@ -46719,7 +46781,6 @@ corruption
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_finalize
 (
 sqlite3_stmt
@@ -46999,7 +47060,6 @@ S
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_reset
 (
 sqlite3_stmt
@@ -48120,7 +48180,6 @@ running
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_function
 (
 sqlite3
@@ -48176,7 +48235,6 @@ sqlite3_context
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_function16
 (
 sqlite3
@@ -48232,7 +48290,6 @@ sqlite3_context
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_function_v2
 (
 sqlite3
@@ -48543,7 +48600,6 @@ SQLITE_OMIT_DEPRECATED
 SQLITE_API
 SQLITE_DEPRECATED
 int
-SQLITE_STDCALL
 sqlite3_aggregate_count
 (
 sqlite3_context
@@ -48553,7 +48609,6 @@ sqlite3_context
 SQLITE_API
 SQLITE_DEPRECATED
 int
-SQLITE_STDCALL
 sqlite3_expired
 (
 sqlite3_stmt
@@ -48563,7 +48618,6 @@ sqlite3_stmt
 SQLITE_API
 SQLITE_DEPRECATED
 int
-SQLITE_STDCALL
 sqlite3_transfer_bindings
 (
 sqlite3_stmt
@@ -48575,7 +48629,6 @@ sqlite3_stmt
 SQLITE_API
 SQLITE_DEPRECATED
 int
-SQLITE_STDCALL
 sqlite3_global_recover
 (
 void
@@ -48584,7 +48637,6 @@ void
 SQLITE_API
 SQLITE_DEPRECATED
 void
-SQLITE_STDCALL
 sqlite3_thread_cleanup
 (
 void
@@ -48593,7 +48645,6 @@ void
 SQLITE_API
 SQLITE_DEPRECATED
 int
-SQLITE_STDCALL
 sqlite3_memory_alarm
 (
 void
@@ -49108,7 +49159,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_value_blob
 (
 sqlite3_value
@@ -49117,7 +49167,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_value_bytes
 (
 sqlite3_value
@@ -49126,7 +49175,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_value_bytes16
 (
 sqlite3_value
@@ -49135,7 +49183,6 @@ sqlite3_value
 ;
 SQLITE_API
 double
-SQLITE_STDCALL
 sqlite3_value_double
 (
 sqlite3_value
@@ -49144,7 +49191,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_value_int
 (
 sqlite3_value
@@ -49153,7 +49199,6 @@ sqlite3_value
 ;
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_value_int64
 (
 sqlite3_value
@@ -49165,7 +49210,6 @@ const
 unsigned
 char
 *
-SQLITE_STDCALL
 sqlite3_value_text
 (
 sqlite3_value
@@ -49176,7 +49220,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_value_text16
 (
 sqlite3_value
@@ -49187,7 +49230,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_value_text16le
 (
 sqlite3_value
@@ -49198,7 +49240,6 @@ SQLITE_API
 const
 void
 *
-SQLITE_STDCALL
 sqlite3_value_text16be
 (
 sqlite3_value
@@ -49207,7 +49248,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_value_type
 (
 sqlite3_value
@@ -49216,7 +49256,6 @@ sqlite3_value
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_value_numeric_type
 (
 sqlite3_value
@@ -49358,7 +49397,6 @@ another
 SQLITE_API
 unsigned
 int
-SQLITE_STDCALL
 sqlite3_value_subtype
 (
 sqlite3_value
@@ -49512,7 +49550,6 @@ op
 SQLITE_API
 sqlite3_value
 *
-SQLITE_STDCALL
 sqlite3_value_dup
 (
 const
@@ -49522,7 +49559,6 @@ sqlite3_value
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_value_free
 (
 sqlite3_value
@@ -49959,7 +49995,6 @@ running
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_aggregate_context
 (
 sqlite3_context
@@ -50069,7 +50104,6 @@ running
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_user_data
 (
 sqlite3_context
@@ -50153,7 +50187,6 @@ function
 SQLITE_API
 sqlite3
 *
-SQLITE_STDCALL
 sqlite3_context_db_handle
 (
 sqlite3_context
@@ -50749,7 +50782,6 @@ running
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_get_auxdata
 (
 sqlite3_context
@@ -50760,7 +50792,6 @@ N
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_set_auxdata
 (
 sqlite3_context
@@ -52263,7 +52294,6 @@ undefined
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_blob
 (
 sqlite3_context
@@ -52284,7 +52314,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_blob64
 (
 sqlite3_context
@@ -52305,7 +52334,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_double
 (
 sqlite3_context
@@ -52315,7 +52343,6 @@ double
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_error
 (
 sqlite3_context
@@ -52328,7 +52355,6 @@ int
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_error16
 (
 sqlite3_context
@@ -52341,7 +52367,6 @@ int
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_error_toobig
 (
 sqlite3_context
@@ -52350,7 +52375,6 @@ sqlite3_context
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_error_nomem
 (
 sqlite3_context
@@ -52359,7 +52383,6 @@ sqlite3_context
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_error_code
 (
 sqlite3_context
@@ -52369,7 +52392,6 @@ int
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_int
 (
 sqlite3_context
@@ -52379,7 +52401,6 @@ int
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_int64
 (
 sqlite3_context
@@ -52389,7 +52410,6 @@ sqlite3_int64
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_null
 (
 sqlite3_context
@@ -52398,7 +52418,6 @@ sqlite3_context
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_text
 (
 sqlite3_context
@@ -52419,7 +52438,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_text64
 (
 sqlite3_context
@@ -52443,7 +52461,6 @@ encoding
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_text16
 (
 sqlite3_context
@@ -52464,7 +52481,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_text16le
 (
 sqlite3_context
@@ -52485,7 +52501,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_text16be
 (
 sqlite3_context
@@ -52506,7 +52521,6 @@ void
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_value
 (
 sqlite3_context
@@ -52517,7 +52531,6 @@ sqlite3_value
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_zeroblob
 (
 sqlite3_context
@@ -52528,7 +52541,6 @@ n
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_result_zeroblob64
 (
 sqlite3_context
@@ -52647,7 +52659,6 @@ SQLite
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_result_subtype
 (
 sqlite3_context
@@ -53500,7 +53511,6 @@ sqlite3_collation_needed16
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_collation
 (
 sqlite3
@@ -53535,7 +53545,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_collation_v2
 (
 sqlite3
@@ -53579,7 +53588,6 @@ void
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_collation16
 (
 sqlite3
@@ -53883,7 +53891,6 @@ sqlite3_create_collation_v2
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_collation_needed
 (
 sqlite3
@@ -53909,7 +53916,6 @@ char
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_collation_needed16
 (
 sqlite3
@@ -53987,7 +53993,6 @@ SQLite
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_key
 (
 sqlite3
@@ -54017,7 +54022,6 @@ key
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_key_v2
 (
 sqlite3
@@ -54127,7 +54131,6 @@ SQLite
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_rekey
 (
 sqlite3
@@ -54158,7 +54161,6 @@ key
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_rekey_v2
 (
 sqlite3
@@ -54228,7 +54230,6 @@ work
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_activate_see
 (
 const
@@ -54277,7 +54278,6 @@ work
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_activate_cerod
 (
 const
@@ -54458,7 +54458,6 @@ paragraphs
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_sleep
 (
 int
@@ -55734,7 +55733,6 @@ undefined
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_get_autocommit
 (
 sqlite3
@@ -55845,7 +55843,6 @@ place
 SQLITE_API
 sqlite3
 *
-SQLITE_STDCALL
 sqlite3_db_handle
 (
 sqlite3_stmt
@@ -56011,7 +56008,6 @@ SQLITE_API
 const
 char
 *
-SQLITE_STDCALL
 sqlite3_db_filename
 (
 sqlite3
@@ -56098,7 +56094,6 @@ D
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_db_readonly
 (
 sqlite3
@@ -56248,7 +56243,6 @@ pointer
 SQLITE_API
 sqlite3_stmt
 *
-SQLITE_STDCALL
 sqlite3_next_stmt
 (
 sqlite3
@@ -56784,7 +56778,6 @@ interface
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_commit_hook
 (
 sqlite3
@@ -56804,7 +56797,6 @@ void
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_rollback_hook
 (
 sqlite3
@@ -57354,7 +57346,6 @@ interfaces
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_update_hook
 (
 sqlite3
@@ -57473,13 +57464,28 @@ change
 as
 of
 SQLite
+[
 version
 3
 .
 5
 .
 0
+]
+(
+[
+dateof
+:
+3
 .
+5
+.
+0
+]
+)
+.
+*
+*
 In
 prior
 versions
@@ -57730,7 +57736,6 @@ Mode
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_enable_shared_cache
 (
 int
@@ -57871,7 +57876,6 @@ sqlite3_db_release_memory
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_release_memory
 (
 int
@@ -57970,7 +57974,6 @@ sqlite3_release_memory
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_db_release_memory
 (
 sqlite3
@@ -58386,12 +58389,27 @@ ul
 Beginning
 with
 SQLite
+[
 version
 3
 .
 7
 .
 3
+]
+(
+[
+dateof
+:
+3
+.
+7
+.
+3
+]
+)
+*
+*
 the
 soft
 heap
@@ -58525,7 +58543,6 @@ SQLite
 /
 SQLITE_API
 sqlite3_int64
-SQLITE_STDCALL
 sqlite3_soft_heap_limit64
 (
 sqlite3_int64
@@ -58601,7 +58618,6 @@ one
 SQLITE_API
 SQLITE_DEPRECATED
 void
-SQLITE_STDCALL
 sqlite3_soft_heap_limit
 (
 int
@@ -59359,7 +59375,6 @@ schema
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_table_column_metadata
 (
 sqlite3
@@ -59947,7 +59962,6 @@ function
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_load_extension
 (
 sqlite3
@@ -60275,7 +60289,6 @@ capabilities
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_enable_load_extension
 (
 sqlite3
@@ -60677,7 +60690,6 @@ sqlite3_cancel_auto_extension
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_auto_extension
 (
 void
@@ -60780,7 +60792,6 @@ routines
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_cancel_auto_extension
 (
 void
@@ -60829,7 +60840,6 @@ sqlite3_auto_extension
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_reset_auto_extension
 (
 void
@@ -62477,13 +62487,28 @@ sqlite3_index_info
 structure
 for
 SQLite
+[
 version
 3
 .
 8
 .
 2
+]
+(
+[
+dateof
+:
+3
 .
+8
+.
+2
+]
+)
+.
+*
+*
 If
 a
 virtual
@@ -62569,13 +62594,28 @@ field
 was
 added
 for
+[
 version
 3
 .
 9
 .
 0
+]
+(
+[
+dateof
+:
+3
 .
+9
+.
+0
+]
+)
+.
+*
+*
 It
 may
 therefore
@@ -63359,7 +63399,6 @@ destructor
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_module
 (
 sqlite3
@@ -63416,7 +63455,6 @@ xConnect
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_create_module_v2
 (
 sqlite3
@@ -63999,7 +64037,6 @@ implement
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_declare_vtab
 (
 sqlite3
@@ -64185,7 +64222,6 @@ table
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_overload_function
 (
 sqlite3
@@ -65300,7 +65336,6 @@ sqlite3_blob_close
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_open
 (
 sqlite3
@@ -65614,7 +65649,6 @@ message
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_reopen
 (
 sqlite3_blob
@@ -65860,7 +65894,6 @@ returning
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_close
 (
 sqlite3_blob
@@ -66012,7 +66045,6 @@ behavior
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_bytes
 (
 sqlite3_blob
@@ -66317,7 +66349,6 @@ sqlite3_blob_write
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_read
 (
 sqlite3_blob
@@ -66799,7 +66830,6 @@ sqlite3_blob_read
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_blob_write
 (
 sqlite3_blob
@@ -67126,7 +67156,6 @@ arbitrary
 SQLITE_API
 sqlite3_vfs
 *
-SQLITE_STDCALL
 sqlite3_vfs_find
 (
 const
@@ -67137,7 +67166,6 @@ zVfsName
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_vfs_register
 (
 sqlite3_vfs
@@ -67148,7 +67176,6 @@ makeDflt
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_vfs_unregister
 (
 sqlite3_vfs
@@ -68191,7 +68218,6 @@ sqlite3_mutex_notheld
 SQLITE_API
 sqlite3_mutex
 *
-SQLITE_STDCALL
 sqlite3_mutex_alloc
 (
 int
@@ -68199,7 +68225,6 @@ int
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_mutex_free
 (
 sqlite3_mutex
@@ -68208,7 +68233,6 @@ sqlite3_mutex
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_mutex_enter
 (
 sqlite3_mutex
@@ -68217,7 +68241,6 @@ sqlite3_mutex
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_mutex_try
 (
 sqlite3_mutex
@@ -68226,7 +68249,6 @@ sqlite3_mutex
 ;
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_mutex_leave
 (
 sqlite3_mutex
@@ -69352,7 +69374,6 @@ ifndef
 NDEBUG
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_mutex_held
 (
 sqlite3_mutex
@@ -69361,7 +69382,6 @@ sqlite3_mutex
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_mutex_notheld
 (
 sqlite3_mutex
@@ -69496,7 +69516,7 @@ SQLITE_MUTEX_STATIC_PRNG
 5
 /
 *
-sqlite3_random
+sqlite3_randomness
 (
 )
 *
@@ -69701,7 +69721,6 @@ pointer
 SQLITE_API
 sqlite3_mutex
 *
-SQLITE_STDCALL
 sqlite3_db_mutex
 (
 sqlite3
@@ -70062,7 +70081,6 @@ SQLITE_FCNTL_LOCKSTATE
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_file_control
 (
 sqlite3
@@ -70243,7 +70261,6 @@ next
 /
 SQLITE_API
 int
-SQLITE_CDECL
 sqlite3_test_control
 (
 int
@@ -70408,6 +70425,10 @@ NOT
 USED
 *
 /
+#
+define
+SQLITE_TESTCTRL_ONCE_RESET_THRESHOLD
+19
 #
 define
 SQLITE_TESTCTRL_NEVER_CORRUPT
@@ -70719,7 +70740,6 @@ sqlite3_db_status
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_status
 (
 int
@@ -70736,7 +70756,6 @@ resetFlag
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_status64
 (
 int
@@ -71986,7 +72005,6 @@ sqlite3_stmt_status
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_db_status
 (
 sqlite3
@@ -73424,7 +73442,6 @@ sqlite3_db_status
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_stmt_status
 (
 sqlite3_stmt
@@ -78524,7 +78541,6 @@ values
 SQLITE_API
 sqlite3_backup
 *
-SQLITE_STDCALL
 sqlite3_backup_init
 (
 sqlite3
@@ -78573,7 +78589,6 @@ name
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_backup_step
 (
 sqlite3_backup
@@ -78585,7 +78600,6 @@ nPage
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_backup_finish
 (
 sqlite3_backup
@@ -78595,7 +78609,6 @@ p
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_backup_remaining
 (
 sqlite3_backup
@@ -78605,7 +78618,6 @@ p
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_backup_pagecount
 (
 sqlite3_backup
@@ -79963,7 +79975,6 @@ SQLITE_LOCKED
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_unlock_notify
 (
 sqlite3
@@ -80085,7 +80096,6 @@ identifiers
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_stricmp
 (
 const
@@ -80098,7 +80108,6 @@ char
 ;
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_strnicmp
 (
 const
@@ -80266,7 +80275,6 @@ sqlite3_strlike
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_strglob
 (
 const
@@ -80522,7 +80530,6 @@ sqlite3_strglob
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_strlike
 (
 const
@@ -80749,7 +80756,6 @@ buffer
 /
 SQLITE_API
 void
-SQLITE_CDECL
 sqlite3_log
 (
 int
@@ -81163,7 +81169,6 @@ settings
 SQLITE_API
 void
 *
-SQLITE_STDCALL
 sqlite3_wal_hook
 (
 sqlite3
@@ -81443,7 +81448,6 @@ application
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_wal_autocheckpoint
 (
 sqlite3
@@ -81655,7 +81659,6 @@ sqlite3_wal_checkpoint_v2
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_wal_checkpoint
 (
 sqlite3
@@ -82766,7 +82769,6 @@ SQL
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_wal_checkpoint_v2
 (
 sqlite3
@@ -83090,7 +83092,6 @@ future
 /
 SQLITE_API
 int
-SQLITE_CDECL
 sqlite3_vtab_config
 (
 sqlite3
@@ -83636,7 +83637,6 @@ table
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_vtab_on_conflict
 (
 sqlite3
@@ -84723,7 +84723,6 @@ sqlite3_stmt_scanstatus_reset
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_stmt_scanstatus
 (
 sqlite3_stmt
@@ -84836,7 +84835,6 @@ defined
 /
 SQLITE_API
 void
-SQLITE_STDCALL
 sqlite3_stmt_scanstatus_reset
 (
 sqlite3_stmt
@@ -85216,7 +85214,6 @@ functions
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_db_cacheflush
 (
 sqlite3
@@ -86140,7 +86137,6 @@ SQLITE_API
 SQLITE_EXPERIMENTAL
 void
 *
-SQLITE_STDCALL
 sqlite3_preupdate_hook
 (
 sqlite3
@@ -86244,7 +86240,6 @@ void
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_preupdate_old
 (
 sqlite3
@@ -86258,7 +86253,6 @@ sqlite3_value
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_preupdate_count
 (
 sqlite3
@@ -86268,7 +86262,6 @@ sqlite3
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_preupdate_depth
 (
 sqlite3
@@ -86278,7 +86271,6 @@ sqlite3
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_preupdate_new
 (
 sqlite3
@@ -86397,7 +86389,6 @@ forth
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_system_errno
 (
 sqlite3
@@ -86881,7 +86872,6 @@ used
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_snapshot_get
 (
 sqlite3
@@ -87276,7 +87266,6 @@ used
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_snapshot_open
 (
 sqlite3
@@ -87376,7 +87365,6 @@ used
 SQLITE_API
 SQLITE_EXPERIMENTAL
 void
-SQLITE_STDCALL
 sqlite3_snapshot_free
 (
 sqlite3_snapshot
@@ -87600,7 +87588,6 @@ P2
 SQLITE_API
 SQLITE_EXPERIMENTAL
 int
-SQLITE_STDCALL
 sqlite3_snapshot_cmp
 (
 sqlite3_snapshot
@@ -87968,7 +87955,6 @@ params
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_rtree_geometry_callback
 (
 sqlite3
@@ -88172,7 +88158,6 @@ params
 /
 SQLITE_API
 int
-SQLITE_STDCALL
 sqlite3_rtree_query_callback
 (
 sqlite3
@@ -90053,7 +90038,7 @@ attached
 to
 the
 Session
-oject
+object
 the
 filter
 is
@@ -92851,7 +92836,7 @@ a
 single
 table
 are
-visted
+visited
 *
 *
 consecutively
@@ -93744,7 +93729,7 @@ not
 *
 *
 If
-argumet
+argument
 pnCol
 is
 not
@@ -95745,9 +95730,10 @@ changeset
 *
 *
 *
+CAPI3REF
+:
 Changegroup
-handle
-.
+Handle
 *
 /
 typedef
@@ -95761,16 +95747,11 @@ sqlite3_changegroup
 *
 CAPI3REF
 :
-Combine
-two
-or
-more
-changesets
-into
-a
-single
-changeset
-.
+Create
+A
+New
+Changegroup
+Object
 *
 *
 *
@@ -96115,6 +96096,18 @@ pp
 *
 *
 *
+CAPI3REF
+:
+Add
+A
+Changeset
+To
+A
+Changegroup
+*
+*
+*
+*
 Add
 all
 changes
@@ -96270,7 +96263,6 @@ key
 Changes
 to
 rows
-that
 that
 do
 not
@@ -97015,6 +97007,19 @@ pData
 *
 *
 *
+CAPI3REF
+:
+Obtain
+A
+Composite
+Changeset
+From
+A
+Changegroup
+*
+*
+*
+*
 Obtain
 a
 buffer
@@ -97306,11 +97311,12 @@ buffer
 *
 *
 *
+CAPI3REF
+:
 Delete
-a
-changegroup
-object
-.
+A
+Changegroup
+Object
 *
 /
 void
