@@ -363,11 +363,6 @@ TextureSharingWorks
 )
 ;
 bool
-AlphaTextureSharingWorks
-(
-)
-;
-bool
 IsWARP
 (
 )
