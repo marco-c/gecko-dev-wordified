@@ -13443,7 +13443,6 @@ GetAnimatedGeometryRootForFrame
 (
 mBuilder
 fParent
-mContainerAnimatedGeometryRoot
 )
 )
 {
@@ -18008,14 +18007,6 @@ nsIFrame
 (
 aAnimatedGeometryRoot
 )
-Builder
-(
-)
--
->
-RootReferenceFrame
-(
-)
 )
 ;
 MOZ_ASSERT_IF
@@ -18106,14 +18097,6 @@ Builder
 FindAnimatedGeometryRootFor
 (
 parent
-Builder
-(
-)
--
->
-RootReferenceFrame
-(
-)
 )
 ;
 }
@@ -24916,7 +24899,6 @@ GetAnimatedGeometryRootForFrame
 (
 aBuilder
 fParent
-aStopAtAnimatedGeometryRoot
 )
 )
 {
@@ -25680,12 +25662,6 @@ item
 -
 >
 Frame
-(
-)
-item
--
->
-ReferenceFrame
 (
 )
 )
@@ -31794,7 +31770,6 @@ this
 >
 mBuilder
 fParent
-mContainerAnimatedGeometryRoot
 )
 )
 {
@@ -32870,7 +32845,6 @@ mAnimatedGeometryRoot
 GetParent
 (
 )
-mContainerAnimatedGeometryRoot
 )
 =
 =
