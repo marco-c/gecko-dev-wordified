@@ -6105,13 +6105,14 @@ internal
 state
 relating
 to
+touch
 input
 handling
 .
 *
 /
 void
-ResetInputState
+ResetTouchInputState
 (
 )
 ;
