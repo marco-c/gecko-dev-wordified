@@ -7136,10 +7136,14 @@ MOZ_ASSERT
 count
 <
 =
+(
 JSString
 :
 :
 MAX_LENGTH
++
+1
+)
 )
 ;
 size_t
