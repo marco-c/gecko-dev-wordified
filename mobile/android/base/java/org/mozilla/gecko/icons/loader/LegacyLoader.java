@@ -149,7 +149,7 @@ mozilla
 .
 gecko
 .
-favicons
+icons
 .
 decoders
 .

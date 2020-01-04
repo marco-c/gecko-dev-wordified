@@ -150,7 +150,7 @@ mozilla
 .
 gecko
 .
-favicons
+icons
 .
 decoders
 .
@@ -191,13 +191,6 @@ android
 content
 .
 ContentResolver
-;
-import
-android
-.
-content
-.
-ContentValues
 ;
 import
 android

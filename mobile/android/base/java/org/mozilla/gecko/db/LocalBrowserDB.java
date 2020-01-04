@@ -385,7 +385,7 @@ mozilla
 .
 gecko
 .
-favicons
+icons
 .
 decoders
 .
@@ -398,7 +398,7 @@ mozilla
 .
 gecko
 .
-favicons
+icons
 .
 decoders
 .
