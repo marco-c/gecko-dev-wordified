@@ -273,10 +273,6 @@ DirectionSetting
 :
 _empty
 ;
-mActive
-=
-false
-;
 }
 TextTrackCue
 :

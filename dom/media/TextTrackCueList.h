@@ -367,11 +367,6 @@ TextTrackCue
 aCues
 )
 ;
-void
-SetCuesInactive
-(
-)
-;
 private
 :
 ~
