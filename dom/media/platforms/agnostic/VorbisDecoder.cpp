@@ -161,16 +161,6 @@ h
 #
 undef
 LOG
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 define
 LOG
@@ -180,9 +170,7 @@ msg
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 type
 msg
 )

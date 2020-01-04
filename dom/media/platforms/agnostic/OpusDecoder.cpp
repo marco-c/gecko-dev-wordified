@@ -189,16 +189,6 @@ h
 /
 For
 PRId64
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 define
 OPUS_DEBUG
@@ -210,9 +200,7 @@ arg
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 mozilla
 :
 :

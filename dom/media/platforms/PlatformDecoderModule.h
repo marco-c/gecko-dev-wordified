@@ -211,6 +211,15 @@ TaskQueue
 class
 CDMProxy
 ;
+static
+LazyLogModule
+sPDMLog
+(
+"
+PlatformDecoderModule
+"
+)
+;
 /
 /
 The
