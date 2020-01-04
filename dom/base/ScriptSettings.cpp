@@ -3667,6 +3667,13 @@ cx
 (
 )
 exn
+js
+:
+:
+ErrorReport
+:
+:
+WithSideEffects
 )
 )
 {
