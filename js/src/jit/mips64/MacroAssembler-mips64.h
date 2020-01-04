@@ -1255,13 +1255,6 @@ dest
 )
 ;
 void
-negateDouble
-(
-FloatRegister
-reg
-)
-;
-void
 movq
 (
 Register

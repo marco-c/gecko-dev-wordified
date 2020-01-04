@@ -1224,13 +1224,6 @@ dest
 )
 ;
 void
-negateDouble
-(
-FloatRegister
-reg
-)
-;
-void
 computeScaledAddress
 (
 const

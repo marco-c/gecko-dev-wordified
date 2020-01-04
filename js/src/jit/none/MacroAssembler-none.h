@@ -1869,17 +1869,6 @@ MOZ_CRASH
 )
 ;
 }
-void
-negateDouble
-(
-FloatRegister
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
 template
 <
 typename

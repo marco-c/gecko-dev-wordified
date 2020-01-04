@@ -5796,6 +5796,15 @@ arm64
 x86_shared
 )
 ;
+inline
+void
+negateDouble
+(
+FloatRegister
+reg
+)
+PER_SHARED_ARCH
+;
 /
 /
 =
