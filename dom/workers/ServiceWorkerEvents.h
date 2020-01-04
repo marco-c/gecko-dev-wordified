@@ -562,7 +562,7 @@ FetchEvent
 final
 :
 public
-Event
+ExtendableEvent
 {
 nsMainThreadPtrHandle
 <
@@ -624,7 +624,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 FetchEvent
-Event
+ExtendableEvent
 )
 NS_FORWARD_TO_EVENT
 virtual
