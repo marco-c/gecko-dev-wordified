@@ -214,8 +214,10 @@ RootLayerTreeId
 const
 override
 ;
+already_AddRefed
+<
 APZCTreeManager
-*
+>
 GetAPZCTreeManager
 (
 )
@@ -448,8 +450,10 @@ RootLayerTreeId
 )
 ;
 }
+already_AddRefed
+<
 APZCTreeManager
-*
+>
 InProcessCompositorSession
 :
 :
