@@ -2927,7 +2927,7 @@ length
 "
 GfxLoggingCrashLength
 uint32_t
-6
+16
 )
 ;
 /
