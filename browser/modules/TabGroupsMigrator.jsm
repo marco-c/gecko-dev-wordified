@@ -753,7 +753,7 @@ properties
 :
 *
 -
-title
+tabGroupsMigrationTitle
 :
 the
 title
@@ -1011,6 +1011,8 @@ tabs
 :
 [
 ]
+tabGroupsMigrationTitle
+:
 title
 }
 ;
@@ -1730,19 +1732,6 @@ if
 group
 )
 {
-group
-.
-tabGroupsMigrationTitle
-=
-group
-.
-title
-;
-delete
-group
-.
-title
-;
 stateToReturn
 .
 windows
