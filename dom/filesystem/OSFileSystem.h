@@ -209,6 +209,17 @@ aDir
 const
 override
 ;
+virtual
+void
+SerializeDOMPath
+(
+nsAString
+&
+aOutput
+)
+const
+override
+;
 /
 /
 CC
