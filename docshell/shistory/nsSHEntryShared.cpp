@@ -644,12 +644,12 @@ mChildShells
 newEntry
 -
 >
-mOwner
+mTriggeringPrincipal
 =
 aEntry
 -
 >
-mOwner
+mTriggeringPrincipal
 ;
 newEntry
 -

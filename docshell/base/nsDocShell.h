@@ -1840,7 +1840,7 @@ load
 Note
 :
 whatever
-owner
+principal
 is
 /
 /
@@ -1864,7 +1864,7 @@ to
 not
 have
 an
-owner
+principal
 on
 the
 channel
@@ -1967,9 +1967,9 @@ bool
 aSendReferrer
 uint32_t
 aReferrerPolicy
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 const
 char
 *
@@ -2170,7 +2170,7 @@ returned
 Either
 aChannel
 or
-aOwner
+aTriggeringPrincipal
 must
 be
 null
@@ -2215,9 +2215,9 @@ aURI
 nsIChannel
 *
 aChannel
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 uint32_t
 aLoadType
 bool
@@ -2337,9 +2337,9 @@ aURI
 nsIChannel
 *
 aChannel
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 bool
 aCloneChildren
 nsISHEntry

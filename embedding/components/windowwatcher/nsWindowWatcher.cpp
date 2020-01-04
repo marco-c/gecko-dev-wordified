@@ -7359,7 +7359,7 @@ subjectPrincipal
 loadInfo
 -
 >
-SetOwner
+SetTriggeringPrincipal
 (
 subjectPrincipal
 )

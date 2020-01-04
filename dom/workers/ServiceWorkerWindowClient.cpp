@@ -2234,7 +2234,7 @@ rv
 loadInfo
 -
 >
-SetOwner
+SetTriggeringPrincipal
 (
 aPrincipal
 )
