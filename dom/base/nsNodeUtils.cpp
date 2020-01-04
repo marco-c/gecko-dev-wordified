@@ -2246,6 +2246,10 @@ RemovedFromDocument
 (
 elem
 ownerDoc
+nsBindingManager
+:
+:
+eRunDtor
 )
 ;
 }

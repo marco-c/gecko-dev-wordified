@@ -9975,6 +9975,10 @@ RemovedFromDocumentInternal
 (
 mContent
 mDoc
+nsBindingManager
+:
+:
+eRunDtor
 )
 ;
 }
