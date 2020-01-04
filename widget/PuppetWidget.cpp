@@ -4838,10 +4838,8 @@ length
 stride
 )
 ;
-nsCString
+nsDependentCString
 cursorData
-=
-nsCString
 (
 surfaceData
 .
