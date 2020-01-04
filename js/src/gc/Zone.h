@@ -280,7 +280,17 @@ the
 GC
 heap
 .
+mozilla
+:
+:
+Atomic
+<
 size_t
+mozilla
+:
+:
+Relaxed
+>
 gcTriggerBytes_
 ;
 public
