@@ -2052,8 +2052,6 @@ mFrameAnimator
 >
 GetCompositedFrame
 (
-*
-mAnimationState
 aFrameNum
 )
 ;
