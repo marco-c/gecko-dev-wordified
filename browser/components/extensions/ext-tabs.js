@@ -120,12 +120,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-aboutNewTabService
-*
-/
 Cu
 .
 import

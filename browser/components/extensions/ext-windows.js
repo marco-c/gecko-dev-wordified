@@ -74,12 +74,6 @@ nsIAboutNewTabService
 "
 )
 ;
-/
-*
-globals
-aboutNewTabService
-*
-/
 Cu
 .
 import
