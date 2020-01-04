@@ -324,7 +324,7 @@ border
 .
 virtual
 void
-SetLayoutManager
+SetXULLayoutManager
 (
 nsBoxLayout
 *

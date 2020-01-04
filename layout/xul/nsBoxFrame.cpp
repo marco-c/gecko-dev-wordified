@@ -954,7 +954,7 @@ layout
 )
 ;
 }
-SetLayoutManager
+SetXULLayoutManager
 (
 layout
 )
@@ -5425,7 +5425,7 @@ manager
 and
 child
 boxes
-SetLayoutManager
+SetXULLayoutManager
 (
 nullptr
 )
