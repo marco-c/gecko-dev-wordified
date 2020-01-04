@@ -51901,6 +51901,7 @@ cx
 argc
 vp
 fnname
+args
 object
 )
 \
@@ -55491,6 +55492,7 @@ vp
 "
 isExtensible
 "
+args
 object
 )
 bool
@@ -55549,6 +55551,7 @@ vp
 "
 isSealed
 "
+args
 object
 )
 bool
@@ -55607,6 +55610,7 @@ vp
 "
 isFrozen
 "
+args
 object
 )
 bool
@@ -55858,6 +55862,7 @@ vp
 "
 getOwnPropertyNames
 "
+args
 object
 )
 AutoIdVector
@@ -55939,6 +55944,7 @@ vp
 "
 getOwnPropertySymbols
 "
+args
 object
 )
 AutoIdVector
@@ -56020,6 +56026,7 @@ vp
 "
 getOwnPropertyDescriptor
 "
+args
 object
 )
 RootedId
@@ -56115,6 +56122,7 @@ vp
 "
 preventExtensions
 "
+args
 object
 )
 if
@@ -56168,6 +56176,7 @@ vp
 "
 seal
 "
+args
 object
 )
 if
@@ -56221,6 +56230,7 @@ vp
 "
 freeze
 "
+args
 object
 )
 if
@@ -56274,6 +56284,7 @@ vp
 "
 defineProperty
 "
+args
 object
 )
 if
@@ -56404,6 +56415,7 @@ vp
 "
 defineProperties
 "
+args
 object
 )
 ;
@@ -56583,6 +56595,7 @@ vp
 "
 deleteProperty
 "
+args
 object
 )
 RootedId
@@ -59712,7 +59725,7 @@ referent
 ;
 Debugger
 *
-owner
+dbg
 =
 object
 -
@@ -59797,7 +59810,7 @@ debugger
 if
 (
 !
-owner
+dbg
 -
 >
 wrapDebuggeeValue
@@ -59839,7 +59852,7 @@ getterObject
 if
 (
 !
-owner
+dbg
 -
 >
 wrapDebuggeeValue
@@ -59890,7 +59903,7 @@ setterObject
 if
 (
 !
-owner
+dbg
 -
 >
 wrapDebuggeeValue
@@ -60184,7 +60197,7 @@ referent
 ;
 Debugger
 *
-owner
+dbg
 =
 object
 -
@@ -60196,7 +60209,7 @@ owner
 if
 (
 !
-owner
+dbg
 -
 >
 unwrapPropertyDescriptor
@@ -60326,7 +60339,7 @@ referent
 ;
 Debugger
 *
-owner
+dbg
 =
 object
 -
@@ -60363,7 +60376,7 @@ i
 if
 (
 !
-owner
+dbg
 -
 >
 unwrapPropertyDescriptor
