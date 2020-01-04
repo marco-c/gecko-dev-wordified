@@ -665,6 +665,13 @@ CompositorSession
 h
 "
 #
+include
+"
+InProcessCompositorWidget
+.
+h
+"
+#
 ifdef
 DEBUG
 #

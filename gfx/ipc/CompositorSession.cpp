@@ -158,6 +158,10 @@ mozilla
 namespace
 layers
 {
+using
+namespace
+widget
+;
 class
 InProcessCompositorSession
 final
