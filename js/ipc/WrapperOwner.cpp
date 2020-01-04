@@ -6605,6 +6605,16 @@ obj
 return
 nullptr
 ;
+nextCPOWNumber_
+=
+objId
+.
+serialNumber
+(
+)
++
+1
+;
 /
 /
 Incref
