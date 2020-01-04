@@ -6836,6 +6836,8 @@ it
 s
 an
 expanded
+or
+system
 principal
 .
 if
@@ -6844,11 +6846,12 @@ subjectPrincipal
 &
 &
 !
-subjectPrincipal
--
->
-GetIsExpandedPrincipal
+nsContentUtils
+:
+:
+IsSystemOrExpandedPrincipal
 (
+subjectPrincipal
 )
 &
 &
