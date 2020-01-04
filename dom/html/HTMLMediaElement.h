@@ -2994,7 +2994,10 @@ ErrorResult
 aRv
 )
 ;
-void
+already_AddRefed
+<
+Promise
+>
 SeekToNextFrame
 (
 ErrorResult
@@ -6206,7 +6209,10 @@ preceeding
 seek
 target
 .
-void
+already_AddRefed
+<
+Promise
+>
 Seek
 (
 double
