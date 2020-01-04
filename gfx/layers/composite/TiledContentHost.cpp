@@ -910,7 +910,7 @@ future
 /
 For
 !
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 textures
@@ -2397,7 +2397,7 @@ tile
 mTextureHost
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 )

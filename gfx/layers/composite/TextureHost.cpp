@@ -2120,7 +2120,7 @@ SurfaceFormat
 :
 YUV
 ;
-mHasInternalBuffer
+mHasIntermediateBuffer
 =
 true
 ;
@@ -2161,11 +2161,11 @@ format
 (
 )
 ;
-mHasInternalBuffer
+mHasIntermediateBuffer
 =
 rgb
 .
-hasInternalBuffer
+hasIntermediateBuffer
 (
 )
 ;
@@ -2608,7 +2608,7 @@ EnsureWrappingTextureSource
 MOZ_ASSERT
 (
 !
-mHasInternalBuffer
+mHasIntermediateBuffer
 )
 ;
 MOZ_ASSERT
@@ -2732,7 +2732,7 @@ aTexture
 if
 (
 !
-mHasInternalBuffer
+mHasIntermediateBuffer
 )
 {
 EnsureWrappingTextureSource
@@ -3379,7 +3379,7 @@ false
 if
 (
 !
-mHasInternalBuffer
+mHasIntermediateBuffer
 &
 &
 EnsureWrappingTextureSource

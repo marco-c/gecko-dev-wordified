@@ -239,7 +239,7 @@ aFlags
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -427,7 +427,7 @@ AndroidSurfaceTextureData
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const

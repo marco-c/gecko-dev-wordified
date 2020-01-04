@@ -2557,7 +2557,7 @@ bool
 TextureClient
 :
 :
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -2573,7 +2573,7 @@ return
 mData
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 ;

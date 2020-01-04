@@ -3268,7 +3268,7 @@ side
 /
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -3750,14 +3750,14 @@ override
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
 override
 {
 return
-mHasInternalBuffer
+mHasIntermediateBuffer
 ;
 }
 protected
@@ -3840,7 +3840,7 @@ bool
 mNeedsFullUpdate
 ;
 bool
-mHasInternalBuffer
+mHasIntermediateBuffer
 ;
 }
 ;

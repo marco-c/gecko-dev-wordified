@@ -1203,7 +1203,7 @@ if
 backBuffer
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 )

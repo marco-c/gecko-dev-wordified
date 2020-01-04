@@ -236,7 +236,7 @@ true
 }
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -760,7 +760,7 @@ a
 mistake
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const

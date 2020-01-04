@@ -4438,7 +4438,7 @@ mFrontBuffer
 mFrontBuffer
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 &
@@ -9058,7 +9058,7 @@ if
 backBuffer
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 )

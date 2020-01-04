@@ -1083,7 +1083,7 @@ bool
 BufferTextureData
 :
 :
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -1114,7 +1114,7 @@ get_RGBDescriptor
 (
 )
 .
-hasInternalBuffer
+hasIntermediateBuffer
 (
 )
 ;
@@ -2560,7 +2560,7 @@ AsCompositableForwarder
 nullptr
 ;
 bool
-hasInternalBuffer
+hasIntermediateBuffer
 =
 fwd
 ?
@@ -2592,7 +2592,7 @@ RGBDescriptor
 (
 aSize
 aFormat
-hasInternalBuffer
+hasIntermediateBuffer
 )
 ;
 return
@@ -2946,7 +2946,7 @@ AsCompositableForwarder
 )
 ;
 bool
-hasInternalBuffer
+hasIntermediateBuffer
 =
 fwd
 ?
@@ -2970,7 +2970,7 @@ RGBDescriptor
 (
 aSize
 aFormat
-hasInternalBuffer
+hasIntermediateBuffer
 )
 ;
 return

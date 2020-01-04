@@ -1113,7 +1113,7 @@ false
 }
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -2630,7 +2630,7 @@ side
 *
 /
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
