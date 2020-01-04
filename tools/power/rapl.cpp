@@ -4362,7 +4362,7 @@ perf_event_open
 attr
 /
 *
-pid
+aPid
 =
 *
 /
@@ -4370,14 +4370,14 @@ pid
 1
 /
 *
-cpu
+aCpu
 =
 *
 /
 0
 /
 *
-group_fd
+aGroupFd
 =
 *
 /
@@ -4385,7 +4385,7 @@ group_fd
 1
 /
 *
-flags
+aFlags
 =
 *
 /
