@@ -4602,7 +4602,7 @@ nsIWidget
 aChild
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aChild
@@ -4654,12 +4654,12 @@ append
 to
 the
 list
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mLastChild
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mLastChild
