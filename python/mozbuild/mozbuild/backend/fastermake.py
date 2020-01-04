@@ -1157,6 +1157,15 @@ e
 source
 )
                 
+src
+=
+mozpath
+.
+normpath
+(
+src
+)
+                
 if
 '
 *
