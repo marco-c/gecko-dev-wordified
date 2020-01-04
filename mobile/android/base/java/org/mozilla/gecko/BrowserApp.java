@@ -12228,6 +12228,11 @@ ensureTabsPanelExists
 ;
 if
 (
+AppConstants
+.
+NIGHTLY_BUILD
+&
+&
 mZoomedView
 =
 =
