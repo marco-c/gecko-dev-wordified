@@ -17528,7 +17528,7 @@ type
 InterpreterFrame
 :
 :
-GLOBAL
+GLOBAL_OR_MODULE
 )
 )
 {
