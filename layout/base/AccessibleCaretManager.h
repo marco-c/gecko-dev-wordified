@@ -2025,6 +2025,16 @@ carets
 NotShown
 during
 scroll
+and
+while
+/
+/
+cursor
+is
+on
+an
+empty
+input
 .
 static
 bool
