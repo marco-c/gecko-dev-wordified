@@ -30,11 +30,6 @@ f
 ;
 }
 '
-{
-newContext
-:
-true
-}
 )
 ;
 for

@@ -16,12 +16,6 @@ evaluate
 throw
 3
 "
-{
-newContext
-:
-new
-Set
-}
 )
 ;
 }

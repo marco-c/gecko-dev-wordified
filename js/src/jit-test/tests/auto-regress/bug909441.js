@@ -70,10 +70,6 @@ x
 "
 {
 \
-newContext
-:
-true
-\
 catchTermination
 :
 (
