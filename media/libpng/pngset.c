@@ -6674,6 +6674,8 @@ width
 in
 fcTL
 (
+0
+or
 >
 2
 ^
@@ -6705,6 +6707,8 @@ height
 in
 fcTL
 (
+0
+or
 >
 2
 ^

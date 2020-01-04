@@ -62,6 +62,9 @@ PNGLCONF_H
 #
 define
 PNGLCONF_H
+#
+define
+MOZ_EMBEDDED_LIBPNG
 /
 *
 Limit
