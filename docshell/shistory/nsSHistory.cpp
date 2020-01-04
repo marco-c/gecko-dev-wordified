@@ -1382,6 +1382,10 @@ mRequestedIndex
 -
 1
 )
+mRootDocShell
+(
+nullptr
+)
 {
 /
 /
@@ -5392,6 +5396,10 @@ mTransaction
 (
 aTrans
 )
+mLastTouched
+(
+0
+)
 mDistance
 (
 aDist
@@ -5474,10 +5482,6 @@ nsISHEntryInternal
 ?
 "
 )
-;
-mLastTouched
-=
-0
 ;
 }
 }
