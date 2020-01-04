@@ -1009,6 +1009,11 @@ aRegion
 )
 ;
 bool
+SendAllPluginsCaptured
+(
+)
+;
+bool
 IsSameProcess
 (
 )
