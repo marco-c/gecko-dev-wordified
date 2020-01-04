@@ -5183,6 +5183,17 @@ IsWMFEnabled
 ;
 #
 endif
+#
+ifdef
+MOZ_APPLEMEDIA
+static
+bool
+IsAppleMP3Enabled
+(
+)
+;
+#
+endif
 /
 /
 Return
