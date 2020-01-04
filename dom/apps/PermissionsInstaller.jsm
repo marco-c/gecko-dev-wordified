@@ -1130,6 +1130,9 @@ aApp
 .
 origin
 false
+aApp
+.
+isCachedPackage
 )
 ;
 if
@@ -1263,8 +1266,9 @@ properties
 used
 are
 manifestURL
-and
 origin
+appId
+isCachedPackage
 .
 *
 returns
@@ -1306,6 +1310,16 @@ aPermValue
 browserFlag
 :
 false
+localId
+:
+aApp
+.
+localId
+isCachedPackage
+:
+aApp
+.
+isCachedPackage
 }
 )
 ;
