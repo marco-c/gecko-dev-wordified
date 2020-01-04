@@ -481,6 +481,9 @@ const
 void
 GetStack
 (
+JSContext
+*
+aCx
 nsAString
 &
 aStack
