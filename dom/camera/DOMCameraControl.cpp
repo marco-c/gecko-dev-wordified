@@ -2926,6 +2926,10 @@ aTrackID
 nsString
 (
 )
+new
+BasicUnstoppableTrackSource
+(
+)
 )
 ;
 RefPtr

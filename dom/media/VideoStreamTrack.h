@@ -138,6 +138,9 @@ const
 nsString
 &
 aLabel
+MediaStreamTrackSource
+*
+aSource
 )
 :
 MediaStreamTrack
@@ -145,6 +148,7 @@ MediaStreamTrack
 aStream
 aTrackID
 aLabel
+aSource
 )
 {
 }
