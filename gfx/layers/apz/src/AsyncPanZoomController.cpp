@@ -5785,13 +5785,6 @@ InitializeGlobalState
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 static
 bool
 sInitialized
@@ -5807,6 +5800,13 @@ return
 sInitialized
 =
 true
+;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
 ;
 gZoomAnimationFunction
 =
