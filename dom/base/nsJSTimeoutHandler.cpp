@@ -320,7 +320,7 @@ aWindow
 Function
 &
 aFunction
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -371,7 +371,7 @@ aWorkerPrivate
 Function
 &
 aFunction
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -499,7 +499,7 @@ Init
 JSContext
 *
 aCx
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -1246,7 +1246,7 @@ aWindow
 Function
 &
 aFunction
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -1482,7 +1482,7 @@ aWorkerPrivate
 Function
 &
 aFunction
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -1602,7 +1602,7 @@ Init
 JSContext
 *
 aCx
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -1766,7 +1766,7 @@ ErrorResult
 aError
 )
 {
-FallibleTArray
+nsTArray
 <
 JS
 :
@@ -1934,7 +1934,7 @@ ErrorResult
 aError
 )
 {
-FallibleTArray
+nsTArray
 <
 JS
 :
