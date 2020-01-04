@@ -26653,7 +26653,7 @@ orient
 InternalScrollPortEvent
 :
 :
-vertical
+eVertical
 ;
 mVerticalOverflow
 =
