@@ -380,8 +380,6 @@ StealFrame
 nsIFrame
 *
 aChild
-bool
-aForceNormal
 )
 override
 ;
