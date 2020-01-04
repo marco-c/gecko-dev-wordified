@@ -777,11 +777,6 @@ uint8_t
 buf
 size_t
 buf_size
-/
-*
-OUT
-*
-/
 size_t
 *
 buf_used

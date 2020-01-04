@@ -453,7 +453,7 @@ creat
 ;
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -601,7 +601,7 @@ bytes_read
 }
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -628,7 +628,7 @@ false
 }
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -773,7 +773,7 @@ false
 }
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -942,7 +942,7 @@ bytes_written_partial
 }
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
