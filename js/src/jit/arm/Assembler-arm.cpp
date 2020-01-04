@@ -13211,6 +13211,15 @@ pe
 markAsBranch
 )
 ;
+propagateOOM
+(
+offs
+.
+assigned
+(
+)
+)
+;
 #
 ifdef
 JS_DISASM_ARM
