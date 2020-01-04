@@ -8297,6 +8297,9 @@ break
 ;
 }
 case
+eCSSProperty_align_items
+:
+case
 eCSSProperty_justify_items
 :
 case
