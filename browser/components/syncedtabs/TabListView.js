@@ -703,6 +703,9 @@ list
 firstChild
 )
 {
+const
+firstTab
+=
 this
 .
 list
@@ -726,6 +729,13 @@ item
 title
 "
 )
+;
+if
+(
+firstTab
+)
+{
+firstTab
 .
 setAttribute
 (
@@ -735,6 +745,7 @@ tabindex
 2
 )
 ;
+}
 }
 }
 destroy
