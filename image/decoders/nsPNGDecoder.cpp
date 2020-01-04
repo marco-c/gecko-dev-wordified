@@ -633,10 +633,6 @@ SurfaceFormat
 :
 UNKNOWN
 )
-mHeaderBytesRead
-(
-0
-)
 mCMSMode
 (
 0
