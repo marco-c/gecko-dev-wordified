@@ -12033,14 +12033,6 @@ gfxPrefs
 LayersOffMainThreadCompositionForceEnabled
 (
 )
-|
-|
-gfxPrefs
-:
-:
-LayersOffMainThreadCompositionTestingEnabled
-(
-)
 ;
 #
 if
