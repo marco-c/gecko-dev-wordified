@@ -779,15 +779,6 @@ GetChromeDisplacement
 aModifiers
 aGuid
 aInputBlockId
-(
-aType
-=
-=
-TapType
-:
-:
-eSingleTap
-)
 )
 ;
 }

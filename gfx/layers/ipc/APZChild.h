@@ -222,10 +222,6 @@ const
 uint64_t
 &
 aInputBlockId
-const
-bool
-&
-aCallTakeFocusForClickFromTap
 )
 override
 ;
