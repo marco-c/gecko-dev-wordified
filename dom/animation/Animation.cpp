@@ -8155,11 +8155,13 @@ return
 mEffect
 -
 >
-GetComputedTiming
+SpecifiedTiming
 (
 )
 .
-mEndTime
+EndTime
+(
+)
 ;
 }
 nsIDocument
