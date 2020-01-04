@@ -1504,7 +1504,7 @@ s
 .
 *
 /
-checkVisible
+assertVisible
 (
 accessible
 element
@@ -1694,7 +1694,7 @@ s
 .
 *
 /
-checkEnabled
+assertEnabled
 (
 accessible
 element
@@ -1918,7 +1918,7 @@ accessible
 .
 *
 /
-checkActionable
+assertActionable
 (
 accessible
 element
@@ -2150,7 +2150,7 @@ s
 .
 *
 /
-checkSelected
+assertSelected
 (
 accessible
 element
