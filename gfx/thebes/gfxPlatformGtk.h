@@ -670,6 +670,17 @@ override
 endif
 protected
 :
+virtual
+bool
+AccelerateLayersByDefault
+(
+)
+override
+{
+return
+true
+;
+}
 static
 gfxFontconfigUtils
 *
