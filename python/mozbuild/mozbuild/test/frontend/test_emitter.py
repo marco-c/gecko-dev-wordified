@@ -2513,9 +2513,9 @@ objs
 0
 ]
 .
-srcdir_files
+files
 .
-iteritems
+walk
 (
 )
 :
