@@ -322,6 +322,15 @@ props
 object
 }
 )
+div
+(
+{
+className
+:
+"
+treeTableBox
+"
+}
 DomTree
 (
 {
@@ -340,6 +349,7 @@ props
 .
 filter
 }
+)
 )
 )
 )
