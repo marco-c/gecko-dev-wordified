@@ -2237,6 +2237,16 @@ NS_EVENT_MESSAGE
 (
 eSelectionChange
 )
+/
+/
+Details
+element
+events
+.
+NS_EVENT_MESSAGE
+(
+eToggle
+)
 #
 ifdef
 UNDEF_NS_EVENT_MESSAGE_FIRST_LAST

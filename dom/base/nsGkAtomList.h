@@ -6862,6 +6862,13 @@ ontext
 )
 GK_ATOM
 (
+ontoggle
+"
+ontoggle
+"
+)
+GK_ATOM
+(
 ontouchstart
 "
 ontouchstart
