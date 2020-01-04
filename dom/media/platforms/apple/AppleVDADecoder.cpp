@@ -1982,6 +1982,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+DECODE_ERROR
 )
 ;
 return
@@ -2479,6 +2483,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 return
@@ -2960,6 +2968,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 return

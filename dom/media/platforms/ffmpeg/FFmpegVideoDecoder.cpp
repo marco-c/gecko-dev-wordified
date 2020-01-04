@@ -1388,7 +1388,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 /
@@ -2107,7 +2107,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 mCallback

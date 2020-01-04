@@ -896,7 +896,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 int64_t
@@ -1016,7 +1016,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 uint32_t

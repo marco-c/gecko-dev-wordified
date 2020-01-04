@@ -1207,6 +1207,8 @@ DecoderCallbackFuzzingWrapper
 :
 Error
 (
+MediaDataDecoderError
+aError
 )
 {
 if
@@ -1226,6 +1228,9 @@ mTaskQueue
 Dispatch
 (
 NewRunnableMethod
+<
+MediaDataDecoderError
+>
 (
 this
 &
@@ -1233,6 +1238,7 @@ DecoderCallbackFuzzingWrapper
 :
 :
 Error
+aError
 )
 )
 ;
@@ -1259,6 +1265,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 }

@@ -135,6 +135,8 @@ MediaDataDecoderCallbackProxy
 :
 Error
 (
+MediaDataDecoderError
+aError
 )
 {
 mProxyCallback
@@ -142,6 +144,7 @@ mProxyCallback
 >
 Error
 (
+aError
 )
 ;
 }
