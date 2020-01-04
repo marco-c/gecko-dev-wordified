@@ -826,6 +826,8 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
+LoadTainting
+aTainting
 bool
 aUpgradeInsecureRequests
 bool
@@ -895,10 +897,7 @@ aContentPolicyType
 )
 mTainting
 (
-LoadTainting
-:
-:
-Basic
+aTainting
 )
 mUpgradeInsecureRequests
 (

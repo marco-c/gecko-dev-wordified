@@ -496,6 +496,8 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
+LoadTainting
+aTainting
 bool
 aUpgradeInsecureRequests
 bool
