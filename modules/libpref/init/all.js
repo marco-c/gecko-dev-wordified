@@ -57936,7 +57936,7 @@ memory
 .
 low_virtual_memory_threshold_mb
 "
-128
+256
 )
 ;
 /
@@ -57944,9 +57944,6 @@ low_virtual_memory_threshold_mb
 On
 Windows
 32
--
-or
-64
 -
 bit
 fire
@@ -57984,7 +57981,7 @@ memory
 .
 low_commit_space_threshold_mb
 "
-128
+256
 )
 ;
 /
@@ -57992,9 +57989,6 @@ low_commit_space_threshold_mb
 On
 Windows
 32
--
-or
-64
 -
 bit
 fire
@@ -58037,9 +58031,6 @@ low_physical_memory_threshold_mb
 On
 Windows
 32
--
-or
-64
 -
 bit
 don
