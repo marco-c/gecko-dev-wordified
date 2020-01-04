@@ -303,6 +303,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CDMWrapper
 )
+explicit
 CDMWrapper
 (
 cdm
