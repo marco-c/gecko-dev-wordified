@@ -12178,7 +12178,7 @@ HandleObject
 regexp
 HandleString
 input
-int32_t
+uint32_t
 lastIndex
 bool
 sticky
@@ -13157,7 +13157,7 @@ HandleObject
 regexp
 HandleString
 input
-int32_t
+uint32_t
 lastIndex
 bool
 sticky
