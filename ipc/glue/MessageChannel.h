@@ -1601,6 +1601,8 @@ necessarily
 bool
 WaitForSyncNotify
 (
+bool
+aHandleWindowsMessages
 )
 ;
 bool

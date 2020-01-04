@@ -5989,6 +5989,18 @@ return
 false
 ;
 }
+bool
+handleWindowsMessages
+=
+mListener
+-
+>
+HandleWindowsMessages
+(
+*
+aMsg
+)
+;
 mLink
 -
 >
@@ -6067,6 +6079,7 @@ maybeTimedOut
 !
 WaitForSyncNotify
 (
+handleWindowsMessages
 )
 ;
 if
@@ -9911,6 +9924,12 @@ MessageChannel
 :
 WaitForSyncNotify
 (
+bool
+/
+*
+aHandleWindowsMessages
+*
+/
 )
 {
 PRIntervalTime
@@ -10007,6 +10026,7 @@ WaitForInterruptNotify
 return
 WaitForSyncNotify
 (
+true
 )
 ;
 }
