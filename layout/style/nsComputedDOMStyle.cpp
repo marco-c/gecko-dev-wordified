@@ -6027,7 +6027,7 @@ case
 eStyleContentType_String
 :
 {
-nsString
+nsAutoString
 str
 ;
 nsStyleUtil
@@ -8386,7 +8386,7 @@ closeVal
 new
 nsROCSSPrimitiveValue
 ;
-nsString
+nsAutoString
 s
 ;
 nsStyleUtil
@@ -9129,7 +9129,7 @@ eCSSKeyword_normal
 }
 else
 {
-nsString
+nsAutoString
 str
 ;
 nsStyleUtil
@@ -19047,7 +19047,7 @@ AsAnonymous
 (
 )
 ;
-nsString
+nsAutoString
 tmp
 ;
 if
@@ -20742,7 +20742,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-nsString
+nsAutoString
 tmp
 ;
 nsStyleUtil
@@ -21050,7 +21050,7 @@ mType
 NS_STYLE_TEXT_OVERFLOW_STRING
 )
 {
-nsString
+nsAutoString
 str
 ;
 nsStyleUtil
@@ -21143,7 +21143,7 @@ mType
 NS_STYLE_TEXT_OVERFLOW_STRING
 )
 {
-nsString
+nsAutoString
 str
 ;
 nsStyleUtil
