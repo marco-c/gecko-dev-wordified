@@ -213,6 +213,15 @@ include
 "
 libavutil
 /
+internal
+.
+h
+"
+#
+include
+"
+libavutil
+/
 mem
 .
 h
@@ -525,6 +534,10 @@ key_frame
 -
 1
 ;
+#
+if
+FF_API_CONVERGENCE_DURATION
+FF_DISABLE_DEPRECATION_WARNINGS
 s
 -
 >
@@ -532,6 +545,9 @@ convergence_duration
 =
 0
 ;
+FF_ENABLE_DEPRECATION_WARNINGS
+#
+endif
 s
 -
 >

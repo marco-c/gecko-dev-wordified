@@ -168,6 +168,12 @@ USA
 *
 /
 #
+ifndef
+COMPAT_VA_COPY_H
+#
+define
+COMPAT_VA_COPY_H
+#
 include
 <
 stdarg
@@ -237,3 +243,10 @@ src
 )
 #
 endif
+#
+endif
+/
+*
+COMPAT_VA_COPY_H
+*
+/

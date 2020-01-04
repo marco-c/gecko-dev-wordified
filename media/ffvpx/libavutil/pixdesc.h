@@ -2038,6 +2038,12 @@ out
 h_shift
 store
 log2_chroma_w
+(
+horizontal
+/
+width
+shift
+)
 *
 param
 [
@@ -2046,6 +2052,12 @@ out
 v_shift
 store
 log2_chroma_h
+(
+vertical
+/
+height
+shift
+)
 *
 *
 return

@@ -169,6 +169,12 @@ USA
 *
 /
 #
+ifndef
+AVUTIL_QSORT_H
+#
+define
+AVUTIL_QSORT_H
+#
 include
 "
 common
@@ -1080,3 +1086,10 @@ while
 (
 0
 )
+#
+endif
+/
+*
+AVUTIL_QSORT_H
+*
+/

@@ -221,6 +221,9 @@ AVHWAccel
 ff_mpeg2_videotoolbox_hwaccel
 ;
 AVHWAccel
+ff_mpeg4_mmal_hwaccel
+;
+AVHWAccel
 ff_mpeg4_vaapi_hwaccel
 ;
 AVHWAccel
@@ -383,6 +386,9 @@ AVCodec
 ff_cdxl_decoder
 ;
 AVCodec
+ff_cfhd_decoder
+;
+AVCodec
 ff_cinepak_encoder
 ;
 AVCodec
@@ -435,6 +441,9 @@ ff_dpx_decoder
 ;
 AVCodec
 ff_dsicinvideo_decoder
+;
+AVCodec
+ff_dvaudio_decoder
 ;
 AVCodec
 ff_dvvideo_encoder
@@ -699,6 +708,9 @@ ff_mpeg4_decoder
 ;
 AVCodec
 ff_mpeg4_crystalhd_decoder
+;
+AVCodec
+ff_mpeg4_mmal_decoder
 ;
 AVCodec
 ff_mpeg4_vdpau_decoder
@@ -1050,6 +1062,9 @@ ff_vc1image_decoder
 ;
 AVCodec
 ff_vc1_qsv_decoder
+;
+AVCodec
+ff_vc2_encoder
 ;
 AVCodec
 ff_vcr1_decoder
@@ -2121,6 +2136,9 @@ ff_dnxhd_parser
 ;
 AVCodecParser
 ff_dpx_parser
+;
+AVCodecParser
+ff_dvaudio_parser
 ;
 AVCodecParser
 ff_dvbsub_parser

@@ -1838,7 +1838,7 @@ avx
 }
 if
 (
-EXTERNAL_AVX2
+EXTERNAL_AVX2_FAST
 (
 cpu_flags
 )

@@ -206,7 +206,7 @@ ff_pw_3
 ;
 extern
 const
-xmm_reg
+ymm_reg
 ff_pw_4
 ;
 extern
@@ -346,7 +346,7 @@ ff_pb_80
 ;
 extern
 const
-xmm_reg
+ymm_reg
 ff_pb_FE
 ;
 extern
