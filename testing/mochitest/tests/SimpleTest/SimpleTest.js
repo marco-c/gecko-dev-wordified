@@ -2480,8 +2480,6 @@ executed
 *
 (
 For
-b2g
-and
 android
 mochitest
 are
@@ -12154,8 +12152,6 @@ to
 distinguish
 the
 android
-and
-B2G
 platform
 .
 var

@@ -130,8 +130,6 @@ manifest
 format
 for
 mobile
-/
-b2g
 if
 (
 "
