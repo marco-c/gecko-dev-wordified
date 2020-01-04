@@ -158,7 +158,7 @@ PerformanceTiming
 :
 PerformanceTiming
 (
-nsPerformance
+Performance
 *
 aPerformance
 nsITimedChannel

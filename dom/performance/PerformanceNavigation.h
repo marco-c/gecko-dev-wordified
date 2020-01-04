@@ -132,14 +132,18 @@ h
 #
 include
 "
-nsDOMNavigationTiming
+mozilla
+/
+dom
+/
+Performance
 .
 h
 "
 #
 include
 "
-nsPerformance
+nsDOMNavigationTiming
 .
 h
 "
@@ -194,7 +198,7 @@ TYPE_RESERVED
 explicit
 PerformanceNavigation
 (
-nsPerformance
+Performance
 *
 aPerformance
 )
@@ -239,7 +243,7 @@ Timing
 )
 ;
 }
-nsPerformance
+Performance
 *
 GetParentObject
 (
@@ -307,7 +311,7 @@ PerformanceNavigation
 ;
 RefPtr
 <
-nsPerformance
+Performance
 >
 mPerformance
 ;

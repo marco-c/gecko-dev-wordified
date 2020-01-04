@@ -3490,7 +3490,7 @@ will
 be
 returned
 in
-nsPerformance
+Performance
 .
 if
 (

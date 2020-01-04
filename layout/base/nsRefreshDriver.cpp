@@ -414,7 +414,11 @@ h
 #
 include
 "
-nsPerformance
+mozilla
+/
+dom
+/
+Performance
 .
 h
 "
@@ -9143,7 +9147,13 @@ IsInnerWindow
 )
 )
 {
-nsPerformance
+mozilla
+:
+:
+dom
+:
+:
+Performance
 *
 perf
 =

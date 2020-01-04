@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsPerformance
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -151,7 +144,7 @@ h
 #
 include
 "
-nsDOMNavigationTiming
+Performance
 .
 h
 "
@@ -222,7 +215,7 @@ PerformanceResourceTiming
 PerformanceTiming
 *
 aPerformanceTiming
-nsPerformance
+Performance
 *
 aPerformance
 const

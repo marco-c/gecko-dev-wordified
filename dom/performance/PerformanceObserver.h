@@ -167,9 +167,6 @@ h
 class
 nsPIDOMWindowInner
 ;
-class
-PerformanceBase
-;
 namespace
 mozilla
 {
@@ -181,6 +178,9 @@ dom
 {
 class
 GlobalObject
+;
+class
+Performance
 ;
 class
 PerformanceEntry
@@ -345,7 +345,7 @@ mCallback
 ;
 RefPtr
 <
-PerformanceBase
+Performance
 >
 mPerformance
 ;

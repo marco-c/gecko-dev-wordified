@@ -146,14 +146,14 @@ h
 #
 include
 "
-nsPerformance
+nsWrapperCache
 .
 h
 "
 #
 include
 "
-nsWrapperCache
+Performance
 .
 h
 "
@@ -359,7 +359,7 @@ timing
 /
 PerformanceTiming
 (
-nsPerformance
+Performance
 *
 aPerformance
 nsITimedChannel
@@ -396,7 +396,7 @@ GetDOMTiming
 )
 ;
 }
-nsPerformance
+Performance
 *
 GetParentObject
 (
@@ -1450,7 +1450,7 @@ aChannel
 ;
 RefPtr
 <
-nsPerformance
+Performance
 >
 mPerformance
 ;

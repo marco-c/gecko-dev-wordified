@@ -284,7 +284,11 @@ h
 #
 include
 "
-nsPerformance
+mozilla
+/
+dom
+/
+Performance
 .
 h
 "
@@ -1310,7 +1314,7 @@ GetInnerWindow
 )
 )
 {
-nsPerformance
+Performance
 *
 perf
 =
