@@ -315,7 +315,7 @@ net
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsSocketTransport
 :
@@ -359,7 +359,7 @@ Debug
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 UDPSocket
 :

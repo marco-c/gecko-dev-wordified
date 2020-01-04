@@ -354,7 +354,7 @@ gHostLimitDigits
 /
 /
 setenv
-NSPR_LOG_MODULES
+MOZ_LOG
 nsStandardURL
 :
 5

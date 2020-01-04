@@ -130,7 +130,7 @@ details
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsWyciwyg
 :
@@ -138,7 +138,7 @@ nsWyciwyg
 /
 /
 set
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 wyciwyg
 .
@@ -147,7 +147,7 @@ log
 /
 /
 /
-this
+This
 enables
 LogLevel
 :
@@ -167,6 +167,7 @@ file
 wyciwyg
 .
 log
+.
 /
 /
 extern

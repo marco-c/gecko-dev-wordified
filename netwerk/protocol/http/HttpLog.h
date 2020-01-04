@@ -405,7 +405,7 @@ details
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsHttp
 :
@@ -413,7 +413,7 @@ nsHttp
 /
 /
 set
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 http
 .
@@ -422,7 +422,7 @@ log
 /
 /
 /
-this
+This
 enables
 LogLevel
 :
@@ -442,6 +442,7 @@ file
 http
 .
 log
+.
 /
 /
 namespace

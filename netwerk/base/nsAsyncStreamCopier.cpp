@@ -139,7 +139,7 @@ LOG
 /
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsStreamCopier
 :

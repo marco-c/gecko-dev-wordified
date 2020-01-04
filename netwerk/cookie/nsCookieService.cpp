@@ -1452,7 +1452,7 @@ set
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 cookie
 :
@@ -1465,7 +1465,7 @@ cookies
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 cookie
 :
@@ -1480,7 +1480,7 @@ cookies
 /
 /
 set
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 cookie
 .

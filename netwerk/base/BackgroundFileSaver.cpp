@@ -264,7 +264,7 @@ net
 {
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 BackgroundFileSaver
 :
