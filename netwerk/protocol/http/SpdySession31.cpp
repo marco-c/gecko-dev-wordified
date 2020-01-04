@@ -2487,7 +2487,7 @@ stream
 #
 ifdef
 DEBUG
-int32_t
+size_t
 qsize
 =
 mQueuedStreams
@@ -2498,7 +2498,7 @@ GetSize
 ;
 for
 (
-int32_t
+size_t
 i
 =
 0
@@ -5639,7 +5639,7 @@ nsDeque
 queue
 )
 {
-uint32_t
+size_t
 size
 =
 queue
@@ -5650,7 +5650,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0
@@ -9545,7 +9545,7 @@ deletion
 and
 restart
 .
-uint32_t
+size_t
 size
 =
 self
@@ -9559,7 +9559,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0
@@ -9697,7 +9697,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0

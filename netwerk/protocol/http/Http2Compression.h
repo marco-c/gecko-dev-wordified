@@ -300,7 +300,7 @@ VariableLength
 )
 const
 ;
-uint32_t
+size_t
 StaticLength
 (
 )
@@ -318,7 +318,7 @@ operator
 [
 ]
 (
-int32_t
+size_t
 index
 )
 const
