@@ -10036,7 +10036,7 @@ INCOMING_ARABICCHAR
 }
 else
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -14089,7 +14089,7 @@ buffer
 then
 expand
 .
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -15543,7 +15543,7 @@ gfxTextRun
 aTextRun
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -16110,7 +16110,7 @@ buffer
 then
 expand
 .
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -39158,7 +39158,7 @@ for
 each
 character
 .
-AutoFallibleTArray
+AutoTArray
 <
 SelectionDetails
 *
@@ -40042,7 +40042,7 @@ for
 this
 selection
 .
-AutoFallibleTArray
+AutoTArray
 <
 SelectionDetails
 *
@@ -51101,7 +51101,7 @@ iter
 flowEndInTextRun
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 bool
 BIG_TEXT_NODE_SIZE

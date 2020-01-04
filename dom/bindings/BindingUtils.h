@@ -12752,7 +12752,7 @@ class
 AutoSequence
 :
 public
-AutoFallibleTArray
+AutoTArray
 <
 T
 16
@@ -12764,7 +12764,7 @@ AutoSequence
 (
 )
 :
-AutoFallibleTArray
+AutoTArray
 <
 T
 16

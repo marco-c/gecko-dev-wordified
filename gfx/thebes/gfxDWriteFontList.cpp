@@ -1827,7 +1827,7 @@ idx
 ;
 }
 }
-AutoFallibleTArray
+AutoTArray
 <
 WCHAR
 32
@@ -6342,7 +6342,7 @@ englishIdx
 0
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 WCHAR
 32
@@ -6564,7 +6564,7 @@ nameIndex
 UINT32
 nameLen
 ;
-AutoFallibleTArray
+AutoTArray
 <
 WCHAR
 32
@@ -7658,7 +7658,7 @@ index
 0
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 WCHAR
 32
