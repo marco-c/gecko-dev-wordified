@@ -1671,15 +1671,6 @@ TabId
 aTabId
 )
 ;
-static
-bool
-GetBrowserConfiguration
-(
-BrowserConfiguration
-&
-aConfig
-)
-;
 void
 ReportChildAlreadyBlocked
 (

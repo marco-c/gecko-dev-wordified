@@ -1598,10 +1598,6 @@ nsCString
 &
 aURI
 const
-BrowserConfiguration
-&
-aConfiguration
-const
 ShowInfo
 &
 aInfo

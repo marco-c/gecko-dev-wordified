@@ -2940,14 +2940,6 @@ aActive
 )
 override
 ;
-bool
-InitBrowserConfiguration
-(
-BrowserConfiguration
-&
-aConfiguration
-)
-;
 ContentCacheInParent
 mContentCache
 ;
