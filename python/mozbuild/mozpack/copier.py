@@ -3746,12 +3746,64 @@ _preload
 [
 ]
         
+self
+.
+_compress_options
+=
+{
+}
+#
+Map
+path
+to
+compress
+boolean
+option
+.
+        
 FileRegistry
 .
 __init__
 (
 self
 )
+    
+def
+add
+(
+self
+path
+content
+compress
+=
+None
+)
+:
+        
+FileRegistry
+.
+add
+(
+self
+path
+content
+)
+        
+if
+compress
+is
+not
+None
+:
+            
+self
+.
+_compress_options
+[
+path
+]
+=
+compress
     
 def
 copy
@@ -4160,6 +4212,20 @@ in
 self
 :
                 
+compress
+=
+self
+.
+_compress_options
+.
+get
+(
+path
+self
+.
+compress
+)
+                
 if
 path
 in
@@ -4174,8 +4240,6 @@ old_contents
 [
 path
 ]
-self
-.
 compress
 )
                 
@@ -4188,8 +4252,6 @@ DeflaterDest
 (
 compress
 =
-self
-.
 compress
 )
                 
@@ -4214,6 +4276,9 @@ mode
 file
 .
 mode
+compress
+=
+compress
 )
             
 if
