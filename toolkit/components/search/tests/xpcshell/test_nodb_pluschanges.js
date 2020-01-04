@@ -69,6 +69,8 @@ order
 search
 .
 json
+.
+mozlz4
 is
 updated
 ;
@@ -78,6 +80,8 @@ this
 search
 .
 json
+.
+mozlz4
 can
 be
 parsed
@@ -91,6 +95,8 @@ in
 search
 .
 json
+.
+mozlz4
 is
 consistent
 .
