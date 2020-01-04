@@ -37,7 +37,7 @@ html
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
