@@ -78,8 +78,6 @@ devtools
 shared
 /
 protocol
-.
-js
 "
 )
 ;
