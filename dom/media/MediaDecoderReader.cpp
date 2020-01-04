@@ -1638,7 +1638,7 @@ mBaseVideoPromise
 .
 RejectIfExists
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -1668,7 +1668,7 @@ mBaseAudioPromise
 .
 RejectIfExists
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -1908,7 +1908,7 @@ p
 >
 Reject
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -2647,7 +2647,7 @@ mBaseVideoPromise
 .
 Reject
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -2900,9 +2900,9 @@ Reject
 (
 mHitAudioDecodeError
 ?
-DECODE_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 :
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -2957,7 +2957,7 @@ mBaseAudioPromise
 .
 RejectIfExists
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -2965,7 +2965,7 @@ mBaseVideoPromise
 .
 RejectIfExists
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
