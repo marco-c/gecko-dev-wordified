@@ -1081,6 +1081,10 @@ kNS_APPSHELL_CID
 false
 nullptr
 nsAppShellConstructor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 &
@@ -1353,6 +1357,10 @@ gtk
 "
 &
 kNS_APPSHELL_CID
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 "
@@ -1823,6 +1831,10 @@ nullptr
 nullptr
 nsAppShellInit
 nsWidgetGtk2ModuleDtor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 ;
 NSMODULE_DEFN
