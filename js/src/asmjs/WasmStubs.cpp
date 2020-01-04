@@ -198,6 +198,15 @@ h
 #
 include
 "
+asmjs
+/
+WasmIonCompile
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
