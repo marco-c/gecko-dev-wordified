@@ -3476,21 +3476,6 @@ error_level
 WARNING
 )
             
-else
-:
-                
-self
-.
-mkdir_p
-(
-dirs
-[
-'
-abs_work_dir
-'
-]
-)
-            
 #
 make
 this
@@ -3620,6 +3605,18 @@ query_python_path
         
 else
 :
+            
+self
+.
+mkdir_p
+(
+dirs
+[
+'
+abs_work_dir
+'
+]
+)
             
 self
 .
