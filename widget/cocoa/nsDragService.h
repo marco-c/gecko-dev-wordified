@@ -164,7 +164,7 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
-nsISupportsArray
+nsIArray
 *
 anArrayTransferables
 nsIScriptableRegion
@@ -289,7 +289,7 @@ item
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 mDataItems
 ;

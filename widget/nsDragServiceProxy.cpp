@@ -214,7 +214,7 @@ nsDragServiceProxy
 :
 InvokeDragSessionImpl
 (
-nsISupportsArray
+nsIArray
 *
 aArrayTransferables
 nsIScriptableRegion

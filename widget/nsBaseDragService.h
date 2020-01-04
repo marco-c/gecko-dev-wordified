@@ -398,7 +398,7 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
-nsISupportsArray
+nsIArray
 *
 aTransferableArray
 nsIScriptableRegion

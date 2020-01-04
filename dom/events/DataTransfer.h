@@ -1165,7 +1165,7 @@ operations
 .
 already_AddRefed
 <
-nsISupportsArray
+nsIArray
 >
 GetTransferables
 (
@@ -1176,7 +1176,7 @@ aDragTarget
 ;
 already_AddRefed
 <
-nsISupportsArray
+nsIArray
 >
 GetTransferables
 (

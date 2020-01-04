@@ -15800,7 +15800,7 @@ static
 void
 TransferablesToIPCTransferables
 (
-nsISupportsArray
+nsIArray
 *
 aTransferables
 nsTArray

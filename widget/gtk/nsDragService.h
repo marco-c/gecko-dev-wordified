@@ -310,7 +310,7 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
-nsISupportsArray
+nsIArray
 *
 anArrayTransferables
 nsIScriptableRegion
@@ -330,7 +330,7 @@ InvokeDragSession
 nsIDOMNode
 *
 aDOMNode
-nsISupportsArray
+nsIArray
 *
 anArrayTransferables
 nsIScriptableRegion
@@ -1032,7 +1032,7 @@ data
 items
 nsCOMPtr
 <
-nsISupportsArray
+nsIArray
 >
 mSourceDataItems
 ;
