@@ -199,10 +199,6 @@ define
 C_BL
 NS_CORNER_BOTTOM_LEFT
 #
-define
-BORDER_SEGMENT_COUNT_MAX
-100
-#
 endif
 /
 *
