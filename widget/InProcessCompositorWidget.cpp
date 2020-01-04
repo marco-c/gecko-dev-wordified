@@ -97,7 +97,7 @@ if
 !
 defined
 (
-XP_WIN
+MOZ_WIDGET_SUPPORTS_OOP_COMPOSITING
 )
 /
 *
