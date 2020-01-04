@@ -2900,7 +2900,7 @@ Services
 .
 telemetry
 .
-getKeyedHistogramById
+getHistogramById
 (
 '
 PLUGIN_TINY_CONTENT
@@ -2909,7 +2909,7 @@ PLUGIN_TINY_CONTENT
 .
 add
 (
-key
+1
 )
 ;
 }
