@@ -436,6 +436,7 @@ enumerator
 ;
 /
 /
+MOZ_MUST_USE
 nsresult
 NS_NewStringEnumerator
 (
@@ -455,6 +456,7 @@ nsISupports
 aOwner
 )
 ;
+MOZ_MUST_USE
 nsresult
 NS_NewUTF8StringEnumerator
 (
@@ -471,6 +473,7 @@ nsCString
 aArray
 )
 ;
+MOZ_MUST_USE
 nsresult
 NS_NewStringEnumerator
 (
@@ -579,6 +582,7 @@ result
 array
 )
 ;
+MOZ_MUST_USE
 nsresult
 NS_NewAdoptingStringEnumerator
 (
@@ -594,6 +598,7 @@ nsString
 aArray
 )
 ;
+MOZ_MUST_USE
 nsresult
 NS_NewAdoptingUTF8StringEnumerator
 (
@@ -712,6 +717,7 @@ this
 }
 /
 /
+MOZ_MUST_USE
 nsresult
 NS_NewUTF8StringEnumerator
 (

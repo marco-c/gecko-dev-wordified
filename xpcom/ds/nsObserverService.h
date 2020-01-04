@@ -220,6 +220,7 @@ Shutdown
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 Create
 (
