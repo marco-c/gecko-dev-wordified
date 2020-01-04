@@ -704,6 +704,11 @@ NeckoOriginAttributes
 aAttrs
 )
 ;
+void
+StripUserContextIdAndFirstPartyDomain
+(
+)
+;
 }
 ;
 /
@@ -1997,6 +2002,14 @@ Kind
 )
 =
 0
+;
+already_AddRefed
+<
+BasePrincipal
+>
+CloneStrippingUserContextIdAndFirstPartyDomain
+(
+)
 ;
 protected
 :
