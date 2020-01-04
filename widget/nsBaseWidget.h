@@ -3071,6 +3071,11 @@ OnRenderingDeviceReset
 (
 )
 ;
+bool
+UseAPZ
+(
+)
+;
 protected
 :
 /

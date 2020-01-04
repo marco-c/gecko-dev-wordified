@@ -20318,6 +20318,12 @@ new
 CompositorBridgeParent
 (
 this
+GetDefaultScale
+(
+)
+UseAPZ
+(
+)
 true
 aSurfaceWidth
 aSurfaceHeight
