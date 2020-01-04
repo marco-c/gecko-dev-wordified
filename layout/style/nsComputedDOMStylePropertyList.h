@@ -1459,6 +1459,11 @@ COMPUTED_STYLE_PROP
 scroll_snap_type_y
 ScrollSnapTypeY
 )
+COMPUTED_STYLE_PROP
+(
+shape_outside
+ShapeOutside
+)
 /
 /
 /

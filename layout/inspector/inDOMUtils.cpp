@@ -4862,6 +4862,9 @@ eCSSProperty_cursor
 case
 eCSSProperty_clip_path
 :
+case
+eCSSProperty_shape_outside
+:
 supported
 =
 VARIANT_URL
