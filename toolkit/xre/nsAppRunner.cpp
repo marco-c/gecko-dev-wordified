@@ -1695,6 +1695,11 @@ required
 by
 PR_SetEnv
 .
+MOZ_LSAN_INTENTIONALLY_LEAK_OBJECT
+(
+expr
+)
+;
 }
 /
 /
