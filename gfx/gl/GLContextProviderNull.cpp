@@ -114,6 +114,8 @@ CreateForWindow
 (
 nsIWidget
 *
+bool
+aForceAccelerated
 )
 {
 return

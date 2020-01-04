@@ -305,6 +305,16 @@ a
 context
 for
 *
+param
+aForceAccelerated
+true
+if
+only
+accelerated
+contexts
+are
+allowed
+*
 *
 return
 Context
@@ -325,6 +335,8 @@ CreateForWindow
 nsIWidget
 *
 widget
+bool
+aForceAccelerated
 )
 ;
 /
