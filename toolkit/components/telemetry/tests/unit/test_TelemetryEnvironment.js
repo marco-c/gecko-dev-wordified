@@ -2032,6 +2032,11 @@ e10sEnabled
 "
 boolean
 "
+e10sCohort
+:
+"
+string
+"
 telemetryEnabled
 :
 "
