@@ -3858,7 +3858,7 @@ available_sizes
 i
 ]
 .
-y_ppem
+x_ppem
 /
 64
 .
