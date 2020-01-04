@@ -11991,6 +11991,14 @@ toString
 )
 )
 ;
+if
+(
+!
+strArg
+)
+return
+false
+;
 #
 define
 JIT_COMPILER_MATCH
