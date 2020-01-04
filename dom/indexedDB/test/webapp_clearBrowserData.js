@@ -778,13 +778,6 @@ manifestURL
 }
 )
 ;
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-true
-)
-;
 window
 .
 addEventListener

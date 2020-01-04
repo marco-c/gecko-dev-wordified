@@ -629,12 +629,6 @@ jsm
 '
 )
 ;
-DOMApplicationRegistry
-.
-allAppsLaunchable
-=
-true
-;
 XPCOMUtils
 .
 defineLazyServiceGetter
