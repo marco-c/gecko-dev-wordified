@@ -274,7 +274,7 @@ EditAggregateTransaction
 -
 -
 -
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (

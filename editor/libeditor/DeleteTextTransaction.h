@@ -102,7 +102,7 @@ DeleteTextTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -178,7 +178,7 @@ DeleteTextTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -267,7 +267,7 @@ Init
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DeleteTextTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMETHOD
 QueryInterface
@@ -281,7 +281,7 @@ aInstancePtr
 )
 override
 ;
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 uint32_t
 GetOffset
 (

@@ -542,7 +542,7 @@ nullptr
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 AddStyleSheetTransaction
-EditTxn
+EditTransactionBase
 mSheet
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -551,7 +551,7 @@ AddStyleSheetTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 NS_IMETHODIMP
 AddStyleSheetTransaction
@@ -841,7 +841,7 @@ nullptr
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 RemoveStyleSheetTransaction
-EditTxn
+EditTransactionBase
 mSheet
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -850,7 +850,7 @@ RemoveStyleSheetTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 NS_IMETHODIMP
 RemoveStyleSheetTransaction

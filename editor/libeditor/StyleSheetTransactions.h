@@ -102,15 +102,15 @@ StylesheetTransactions_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
 /
 /
 for
-EditTxn
-NS_DECL_EDITTXN
+EditTransactionBase
+etc
 #
 include
 "
@@ -167,7 +167,7 @@ AddStyleSheetTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -214,7 +214,7 @@ AddStyleSheetTransaction
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AddStyleSheetTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMETHOD
 QueryInterface
@@ -228,7 +228,7 @@ aInstancePtr
 )
 override
 ;
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 protected
 :
 /
@@ -268,7 +268,7 @@ RemoveStyleSheetTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -317,7 +317,7 @@ RemoveStyleSheetTransaction
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 RemoveStyleSheetTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMETHOD
 QueryInterface
@@ -331,7 +331,7 @@ aInstancePtr
 )
 override
 ;
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 protected
 :
 /

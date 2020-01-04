@@ -170,7 +170,7 @@ DeleteNodeTransaction
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 DeleteNodeTransaction
-EditTxn
+EditTransactionBase
 mNode
 mParent
 mRefNode
@@ -178,12 +178,12 @@ mRefNode
 NS_IMPL_ADDREF_INHERITED
 (
 DeleteNodeTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 DeleteNodeTransaction
-EditTxn
+EditTransactionBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -191,7 +191,7 @@ DeleteNodeTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 nsresult
 DeleteNodeTransaction

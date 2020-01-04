@@ -247,7 +247,7 @@ node
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 DeleteTextTransaction
-EditTxn
+EditTransactionBase
 mCharData
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -256,7 +256,7 @@ DeleteTextTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 nsresult
 DeleteTextTransaction

@@ -102,7 +102,7 @@ DeleteNodeTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -175,7 +175,7 @@ DeleteNodeTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -219,9 +219,9 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DeleteNodeTransaction
-EditTxn
+EditTransactionBase
 )
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (
