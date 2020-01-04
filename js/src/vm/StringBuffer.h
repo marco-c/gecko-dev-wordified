@@ -514,6 +514,7 @@ TwoByteCharBuffer
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 inflateChars
 (
@@ -558,7 +559,7 @@ cx
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 reserve
 (
@@ -600,7 +601,7 @@ len
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 resize
 (
@@ -632,7 +633,6 @@ len
 )
 ;
 }
-inline
 bool
 empty
 (
@@ -661,7 +661,6 @@ empty
 )
 ;
 }
-inline
 size_t
 length
 (
@@ -690,7 +689,6 @@ length
 )
 ;
 }
-inline
 char16_t
 getChar
 (
@@ -719,7 +717,7 @@ idx
 ]
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 ensureTwoByteChars
 (
@@ -753,7 +751,7 @@ return
 true
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -814,7 +812,7 @@ c
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -846,7 +844,7 @@ c
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -865,6 +863,7 @@ c
 ;
 }
 inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -878,7 +877,7 @@ char16_t
 end
 )
 ;
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -900,7 +899,7 @@ len
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -940,7 +939,7 @@ end
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -962,7 +961,7 @@ len
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -994,7 +993,7 @@ len
 )
 ;
 }
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 appendN
 (
@@ -1031,6 +1030,7 @@ n
 ;
 }
 inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -1040,6 +1040,7 @@ str
 )
 ;
 inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -1049,6 +1050,7 @@ str
 )
 ;
 inline
+MOZ_WARN_UNUSED_RESULT
 bool
 appendSubstring
 (
@@ -1062,6 +1064,7 @@ len
 )
 ;
 inline
+MOZ_WARN_UNUSED_RESULT
 bool
 appendSubstring
 (
@@ -1074,7 +1077,7 @@ size_t
 len
 )
 ;
-inline
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
@@ -1107,6 +1110,7 @@ template
 size_t
 ArrayLength
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 append
 (
