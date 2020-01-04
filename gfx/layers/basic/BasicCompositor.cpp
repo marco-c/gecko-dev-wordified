@@ -1732,6 +1732,9 @@ DrawTarget
 aBuffer
 )
 {
+#
+ifdef
+MOZILLA_SSE_HAVE_CPUID_DETECTION
 if
 (
 !
@@ -2179,11 +2182,14 @@ true
 ;
 }
 else
-{
+#
+endif
+/
+/
+MOZILLA_SSE_HAVE_CPUID_DETECTION
 return
 false
 ;
-}
 }
 void
 BasicCompositor
