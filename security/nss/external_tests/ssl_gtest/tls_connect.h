@@ -789,6 +789,8 @@ void
 ZeroRttSendReceive
 (
 bool
+expect_writable
+bool
 expect_readable
 std
 :

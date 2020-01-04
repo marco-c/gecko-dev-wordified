@@ -483,6 +483,11 @@ size_t
 count
 )
 {
+assert
+(
+val
+)
+;
 if
 (
 index
@@ -515,6 +520,11 @@ Always
 >
 0
 .
+if
+(
+data_
+)
+{
 memcpy
 (
 static_cast
@@ -537,6 +547,7 @@ data_
 len_
 )
 ;
+}
 if
 (
 index
@@ -577,6 +588,11 @@ len_
 newlen
 ;
 }
+if
+(
+data_
+)
+{
 memcpy
 (
 static_cast
@@ -601,6 +617,7 @@ val
 count
 )
 ;
+}
 return
 index
 +
@@ -926,6 +943,11 @@ remove
 0
 )
 {
+assert
+(
+ins
+)
+;
 uint8_t
 *
 old_value

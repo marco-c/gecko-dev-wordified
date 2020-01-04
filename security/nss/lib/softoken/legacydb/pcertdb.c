@@ -11359,6 +11359,16 @@ i
 +
 )
 {
+if
+(
+keyIDs
+[
+i
+]
+.
+len
+)
+{
 PORT_Memcpy
 (
 tmpbuf
@@ -11386,6 +11396,7 @@ i
 .
 len
 ;
+}
 }
 if
 (

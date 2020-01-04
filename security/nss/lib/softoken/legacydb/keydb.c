@@ -772,6 +772,18 @@ copy
 salt
 *
 /
+if
+(
+dbkey
+-
+>
+salt
+.
+len
+>
+0
+)
+{
 PORT_Memcpy
 (
 &
@@ -793,6 +805,7 @@ salt
 len
 )
 ;
+}
 /
 *
 copy
