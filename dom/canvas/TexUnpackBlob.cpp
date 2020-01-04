@@ -2005,8 +2005,13 @@ mDepth
 nullptr
 )
 ;
+if
+(
+*
+out_error
+)
 return
-true
+false
 ;
 }
 do
