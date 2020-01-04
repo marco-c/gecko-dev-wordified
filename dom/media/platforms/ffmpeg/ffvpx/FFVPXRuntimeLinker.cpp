@@ -276,6 +276,10 @@ NS_IsMainThread
 )
 )
 ;
+sLinkStatus
+=
+LinkStatus_FAILED
+;
 /
 /
 We
@@ -533,10 +537,6 @@ return
 true
 ;
 }
-sLinkStatus
-=
-LinkStatus_FAILED
-;
 return
 false
 ;
