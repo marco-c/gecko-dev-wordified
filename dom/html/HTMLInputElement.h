@@ -7623,6 +7623,12 @@ FileList
 >
 mFileList
 ;
+nsRefPtr
+<
+Promise
+>
+mFilesAndDirectoriesPromise
+;
 nsString
 mStaticDocFileList
 ;
