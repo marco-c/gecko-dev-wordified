@@ -149,7 +149,7 @@ SimdValueX4
 \
 _
 (
-SimdSplatX4
+SimdSplat
 )
 \
 _

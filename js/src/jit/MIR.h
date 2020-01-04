@@ -9878,10 +9878,13 @@ Generic
 constructor
 of
 SIMD
-valuesX4
+values
+with
+identical
+lanes
 .
 class
-MSimdSplatX4
+MSimdSplat
 :
 public
 MUnaryInstruction
@@ -9896,7 +9899,7 @@ Data
 {
 protected
 :
-MSimdSplatX4
+MSimdSplat
 (
 MIRType
 type
@@ -9932,10 +9935,10 @@ public
 :
 INSTRUCTION_HEADER
 (
-SimdSplatX4
+SimdSplat
 )
 static
-MSimdSplatX4
+MSimdSplat
 *
 New
 (
@@ -9954,7 +9957,7 @@ new
 (
 alloc
 )
-MSimdSplatX4
+MSimdSplat
 (
 type
 v
@@ -10032,7 +10035,7 @@ override
 ;
 ALLOW_CLONE
 (
-MSimdSplatX4
+MSimdSplat
 )
 }
 ;

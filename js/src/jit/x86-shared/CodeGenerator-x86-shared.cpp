@@ -19891,7 +19891,7 @@ output
 )
 )
 ;
-MSimdSplatX4
+MSimdSplat
 *
 mir
 =
