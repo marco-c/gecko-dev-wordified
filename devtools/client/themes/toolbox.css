@@ -2859,6 +2859,8 @@ button
 frames
 {
 background
+-
+image
 :
 url
 (
@@ -2878,6 +2880,11 @@ dropmarker
 svg
 "
 )
+;
+background
+-
+repeat
+:
 no
 -
 repeat
