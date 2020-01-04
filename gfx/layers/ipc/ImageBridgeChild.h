@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -1928,7 +1937,10 @@ CompositableTransaction
 *
 mTxn
 ;
+Atomic
+<
 bool
+>
 mShuttingDown
 ;
 }
