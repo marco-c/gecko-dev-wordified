@@ -1483,6 +1483,17 @@ bindingName
 ;
 }
 }
+/
+/
+Step
+16
+.
+iv
+InstantiateModuleFunctionDeclarations
+(
+module
+)
+;
 }
 /
 /
