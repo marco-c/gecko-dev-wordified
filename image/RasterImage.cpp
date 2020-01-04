@@ -10112,9 +10112,7 @@ height
 ;
 MOZ_LOG
 (
-GetImgLog
-(
-)
+gImgLog
 LogLevel
 :
 :
