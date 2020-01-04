@@ -807,8 +807,6 @@ name
 "
 )
 ;
-return
-;
 }
 if
 (
