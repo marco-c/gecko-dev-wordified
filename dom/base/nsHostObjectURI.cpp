@@ -316,6 +316,12 @@ aBlobImpl
 {
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 BlobImpl
 >
 blobImpl
