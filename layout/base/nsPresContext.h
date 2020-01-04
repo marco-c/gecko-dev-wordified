@@ -835,7 +835,8 @@ aDeviceContext
 *
 *
 Set
-the
+and
+detach
 presentation
 shell
 that
@@ -861,11 +862,16 @@ shell
 *
 /
 void
-SetShell
+AttachShell
 (
 nsIPresShell
 *
 aShell
+)
+;
+void
+DetachShell
+(
 )
 ;
 nsPresContextType

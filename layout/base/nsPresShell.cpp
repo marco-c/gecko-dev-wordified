@@ -5506,7 +5506,7 @@ aPresContext
 aPresContext
 -
 >
-SetShell
+AttachShell
 (
 this
 )
@@ -7774,9 +7774,8 @@ the
 mPresContext
 -
 >
-SetShell
+DetachShell
 (
-nullptr
 )
 below
 so
@@ -7846,9 +7845,8 @@ called
 mPresContext
 -
 >
-SetShell
+DetachShell
 (
-nullptr
 )
 )
 and
@@ -8273,7 +8271,7 @@ this
 before
 we
 call
-SetShell
+DetachShell
 (
 )
 on
@@ -8401,9 +8399,8 @@ nullptr
 mPresContext
 -
 >
-SetShell
+DetachShell
 (
-nullptr
 )
 ;
 /
