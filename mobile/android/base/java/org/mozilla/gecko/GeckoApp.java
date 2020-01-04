@@ -13996,7 +13996,7 @@ isEnabled
 /
 Closing
 a
-BrowserHealthRecorder
+HealthRecorder
 could
 incur
 a
@@ -17453,7 +17453,8 @@ locales
 *
 and
 poke
-HealthRecorder
+the
+system
 to
 tell
 it

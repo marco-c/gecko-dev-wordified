@@ -137,17 +137,6 @@ org
 .
 mozilla
 .
-gecko
-.
-health
-.
-BrowserHealthRecorder
-;
-import
-org
-.
-mozilla
-.
 search
 .
 autocomplete
@@ -1453,6 +1442,8 @@ query
 ;
 try
 {
+/
+/
 BrowserHealthRecorder
 .
 recordSearchDelayed
