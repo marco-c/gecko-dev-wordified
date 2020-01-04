@@ -2453,6 +2453,14 @@ result
 .
 _currentFound
 ;
+result
+.
+limit
+=
+this
+.
+matchesCountLimit
+;
 if
 (
 result
@@ -2460,9 +2468,9 @@ result
 total
 =
 =
-this
+result
 .
-matchesCountLimit
+limit
 )
 result
 .
