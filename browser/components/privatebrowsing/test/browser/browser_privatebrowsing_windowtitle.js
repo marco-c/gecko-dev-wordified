@@ -233,6 +233,7 @@ pb_about_pb_title
 =
 "
 You
+'
 re
 browsing
 privately
@@ -308,6 +309,7 @@ pb_about_pb_title
 =
 "
 You
+'
 re
 browsing
 privately
