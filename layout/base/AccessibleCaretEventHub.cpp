@@ -3776,6 +3776,7 @@ aAccessibleCaretEventHub
 )
 {
 auto
+*
 self
 =
 static_cast
@@ -4098,6 +4099,7 @@ aAccessibleCaretEventHub
 )
 {
 auto
+*
 self
 =
 static_cast
