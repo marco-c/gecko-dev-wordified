@@ -987,6 +987,7 @@ simple
 "
 "
 "
+true
 URL
 +
 safebrowsingUpdatePath

@@ -280,7 +280,9 @@ aURI
 const
 nsACString
 &
-aRequestBody
+aRequest
+bool
+aIsPostRequest
 const
 nsACString
 &
@@ -311,7 +313,9 @@ aURI
 const
 nsACString
 &
-aRequestBody
+aRequest
+bool
+aIsPostRequest
 const
 nsACString
 &
@@ -385,7 +389,10 @@ nsCString
 mTables
 ;
 nsCString
-mRequest
+mRequestPayload
+;
+bool
+mIsPostRequest
 ;
 nsCString
 mUrl
