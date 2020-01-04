@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-ContentHelper
+TouchActionHelper
 .
 h
 "
@@ -149,7 +149,7 @@ namespace
 widget
 {
 void
-ContentHelper
+TouchActionHelper
 :
 :
 UpdateAllowedBehavior
@@ -158,6 +158,12 @@ uint32_t
 aTouchActionValue
 bool
 aConsiderPanning
+mozilla
+:
+:
+layers
+:
+:
 TouchBehaviorFlags
 &
 aOutBehavior
@@ -359,11 +365,14 @@ HORIZONTAL_PAN
 }
 }
 }
-ContentHelper
+mozilla
+:
+:
+layers
 :
 :
 TouchBehaviorFlags
-ContentHelper
+TouchActionHelper
 :
 :
 GetAllowedTouchBehavior
