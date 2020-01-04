@@ -1241,7 +1241,6 @@ mozilla
 :
 Range
 <
-const
 CharT
 >
 chars
