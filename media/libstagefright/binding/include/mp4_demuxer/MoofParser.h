@@ -525,7 +525,7 @@ mAuxInfoType
 uint32_t
 mAuxInfoTypeParameter
 ;
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -557,7 +557,7 @@ mAuxInfoType
 uint32_t
 mAuxInfoTypeParameter
 ;
-nsTArray
+FallibleTArray
 <
 uint64_t
 >
