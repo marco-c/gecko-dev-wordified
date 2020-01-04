@@ -2040,6 +2040,17 @@ nextRecheck
 hangTime
 )
 ;
+if
+(
+currentThread
+-
+>
+mTimeout
+!
+=
+PR_INTERVAL_NO_TIMEOUT
+)
+{
 /
 *
 We
@@ -2076,6 +2087,7 @@ mTimeout
 4
 )
 ;
+}
 }
 }
 /
