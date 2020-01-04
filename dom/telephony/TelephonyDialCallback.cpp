@@ -354,10 +354,10 @@ CreateCall
 id
 aClientId
 aCallIndex
-nsITelephonyService
+TelephonyCallState
 :
 :
-CALL_STATE_DIALING
+Dialing
 )
 ;
 mPromise

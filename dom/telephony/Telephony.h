@@ -886,14 +886,6 @@ uint32_t
 aServiceId
 )
 ;
-static
-bool
-IsActiveState
-(
-uint16_t
-aCallState
-)
-;
 uint32_t
 GetServiceId
 (
@@ -987,8 +979,8 @@ uint32_t
 aServiceId
 uint32_t
 aCallIndex
-uint16_t
-aCallState
+TelephonyCallState
+aState
 bool
 aEmergency
 =
