@@ -71279,7 +71279,7 @@ center
 "
 "
 center
-centerp
+center
 no
 -
 repeat
