@@ -10251,7 +10251,7 @@ wParam
 {
 keypressEvent
 .
-charCode
+mCharCode
 =
 static_cast
 <
@@ -10950,7 +10950,7 @@ mWidget
 ;
 keypressEvent
 .
-charCode
+mCharCode
 =
 uniChar
 ;
@@ -10959,7 +10959,7 @@ if
 !
 keypressEvent
 .
-charCode
+mCharCode
 )
 {
 keypressEvent
@@ -14333,7 +14333,7 @@ return
 /
 If
 the
-charCode
+mCharCode
 is
 not
 ASCII
@@ -14344,7 +14344,7 @@ replace
 the
 /
 /
-charCode
+mCharCode
 with
 ASCII
 character
@@ -14362,10 +14362,10 @@ don
 t
 replace
 the
-charCode
+mCharCode
 when
 the
-charCode
+mCharCode
 is
 not
 same
@@ -14882,7 +14882,7 @@ skipUniChars
 /
 /
 The
-charCode
+mCharCode
 was
 set
 from
@@ -14925,7 +14925,7 @@ we
 need
 to
 modify
-charCode
+mCharCode
 value
 here
 .

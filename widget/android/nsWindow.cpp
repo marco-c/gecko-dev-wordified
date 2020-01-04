@@ -13753,7 +13753,7 @@ charCode
 ;
 event
 .
-charCode
+mCharCode
 =
 event
 .
@@ -13908,7 +13908,7 @@ false
 ;
 event
 .
-charCode
+mCharCode
 =
 0
 ;

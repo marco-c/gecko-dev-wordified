@@ -1544,7 +1544,7 @@ modifiers
 .
 event
 .
-charCode
+mCharCode
 =
 static_cast
 <
@@ -1560,7 +1560,7 @@ if
 !
 event
 .
-charCode
+mCharCode
 )
 {
 event
@@ -1578,7 +1578,7 @@ isChar
 !
 event
 .
-charCode
+mCharCode
 ;
 event
 .

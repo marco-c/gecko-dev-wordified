@@ -16086,7 +16086,7 @@ keyEvent
 mKeyCode
 keyEvent
 .
-charCode
+mCharCode
 )
 ;
 /

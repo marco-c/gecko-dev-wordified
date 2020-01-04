@@ -8247,7 +8247,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 )
 )
 ;
@@ -8257,7 +8257,7 @@ return
 /
 /
 The
-charCode
+mCharCode
 was
 set
 from
@@ -8300,7 +8300,7 @@ we
 need
 to
 modify
-charCode
+mCharCode
 value
 here
 .
@@ -8356,7 +8356,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -8372,7 +8372,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 )
 )
@@ -8449,7 +8449,7 @@ t
 change
 event
 .
-charCode
+mCharCode
 .
 On
 some
@@ -8657,7 +8657,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -8689,7 +8689,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 altCharCodes
 .
@@ -8759,7 +8759,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -8793,7 +8793,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 altCharCodes
 .
@@ -8925,7 +8925,7 @@ altLatinCharCodes
 /
 If
 the
-charCode
+mCharCode
 is
 not
 Latin
@@ -8942,7 +8942,7 @@ should
 /
 replace
 the
-charCode
+mCharCode
 to
 Latin
 char
@@ -9051,7 +9051,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -9107,7 +9107,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 minGroup
 altCharCodes

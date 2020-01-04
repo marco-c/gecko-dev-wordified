@@ -2692,7 +2692,7 @@ WriteParam
 aMsg
 aParam
 .
-charCode
+mCharCode
 )
 ;
 WriteParam
@@ -2977,7 +2977,7 @@ aIter
 aResult
 -
 >
-charCode
+mCharCode
 )
 &
 &

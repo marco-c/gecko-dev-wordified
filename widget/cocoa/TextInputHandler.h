@@ -1164,7 +1164,7 @@ and
 recompute
 aKeyEvent
 .
-charCode
+mCharCode
 if
 it
 '

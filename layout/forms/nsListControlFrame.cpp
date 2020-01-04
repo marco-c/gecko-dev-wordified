@@ -14911,7 +14911,7 @@ if
 keyEvent
 -
 >
-charCode
+mCharCode
 !
 =
 '
@@ -14951,7 +14951,7 @@ isControlOrMeta
 keyEvent
 -
 >
-charCode
+mCharCode
 !
 =
 '
@@ -14974,7 +14974,7 @@ event
 is
 not
 0
-charCode
+mCharCode
 is
 always
 0
@@ -15000,7 +15000,7 @@ if
 keyEvent
 -
 >
-charCode
+mCharCode
 )
 {
 /
@@ -15279,7 +15279,7 @@ if
 keyEvent
 -
 >
-charCode
+mCharCode
 =
 =
 '
@@ -15311,7 +15311,7 @@ mEndSelectionIndex
 keyEvent
 -
 >
-charCode
+mCharCode
 keyEvent
 -
 >
@@ -15364,7 +15364,7 @@ char16_t
 keyEvent
 -
 >
-charCode
+mCharCode
 )
 )
 ;

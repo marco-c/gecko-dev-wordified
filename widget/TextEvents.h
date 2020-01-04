@@ -883,7 +883,7 @@ aIgnoreShift
 /
 /
 The
-charCode
+mCharCode
 value
 which
 must
@@ -1117,7 +1117,7 @@ mKeyCode
 (
 0
 )
-charCode
+mCharCode
 (
 0
 )
@@ -1234,7 +1234,7 @@ mKeyCode
 (
 0
 )
-charCode
+mCharCode
 (
 0
 )
@@ -1530,7 +1530,7 @@ a
 keypress
 event
 whose
-charCode
+mCharCode
 is
 0
 this
@@ -1604,7 +1604,7 @@ and
 AltGr
 .
 uint32_t
-charCode
+mCharCode
 ;
 /
 /
@@ -1623,7 +1623,7 @@ event
 /
 This
 stores
-charCode
+mCharCode
 value
 of
 keypress
@@ -2137,7 +2137,7 @@ const
 ;
 /
 /
-charCode
+mCharCode
 value
 of
 non
@@ -2172,7 +2172,7 @@ item
 should
 be
 the
-charCode
+mCharCode
 value
 of
 following
@@ -2185,7 +2185,7 @@ PseudoCharCode
 (
 )
 returns
-charCode
+mCharCode
 value
 for
 eKeyPress
@@ -2218,7 +2218,7 @@ mMessage
 =
 eKeyPress
 ?
-charCode
+mCharCode
 :
 mPseudoCharCode
 ;
@@ -2238,7 +2238,7 @@ mMessage
 eKeyPress
 )
 {
-charCode
+mCharCode
 =
 aCharCode
 ;
@@ -2668,11 +2668,11 @@ aEvent
 .
 mKeyCode
 ;
-charCode
+mCharCode
 =
 aEvent
 .
-charCode
+mCharCode
 ;
 mPseudoCharCode
 =
