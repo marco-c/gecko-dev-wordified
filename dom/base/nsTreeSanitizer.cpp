@@ -1149,11 +1149,6 @@ min
 nsGkAtoms
 :
 :
-mozdonotsend
-&
-nsGkAtoms
-:
-:
 multiple
 &
 nsGkAtoms
