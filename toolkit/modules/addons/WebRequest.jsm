@@ -3297,6 +3297,7 @@ responseHeaderNames
 let
 includeStatus
 =
+(
 kind
 =
 =
@@ -3331,6 +3332,14 @@ kind
 "
 onStop
 "
+)
+&
+&
+channel
+instanceof
+Ci
+.
+nsIHttpChannel
 ;
 let
 commonData
