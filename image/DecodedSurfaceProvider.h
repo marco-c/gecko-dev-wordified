@@ -366,12 +366,6 @@ implementation
 /
 public
 :
-DrawableFrameRef
-DrawableRef
-(
-)
-override
-;
 bool
 IsFinished
 (
@@ -388,6 +382,12 @@ override
 ;
 protected
 :
+DrawableFrameRef
+DrawableRef
+(
+)
+override
+;
 bool
 IsLocked
 (

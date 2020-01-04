@@ -2167,7 +2167,7 @@ aFrameNum
 )
 ;
 }
-DrawableFrameRef
+DrawableSurface
 RasterImage
 :
 :
@@ -2256,7 +2256,7 @@ IsEmpty
 )
 {
 return
-DrawableFrameRef
+DrawableSurface
 (
 )
 ;
@@ -2313,7 +2313,7 @@ Give
 up
 .
 return
-DrawableFrameRef
+DrawableSurface
 (
 )
 ;
@@ -2499,7 +2499,7 @@ Give
 up
 .
 return
-DrawableFrameRef
+DrawableSurface
 (
 )
 ;
@@ -2508,7 +2508,7 @@ if
 (
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -2519,7 +2519,7 @@ GetCompositingFailed
 )
 {
 return
-DrawableFrameRef
+DrawableSurface
 (
 )
 ;
@@ -2529,7 +2529,7 @@ MOZ_ASSERT
 !
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -2607,7 +2607,7 @@ FLAG_SYNC_DECODE
 {
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -2689,7 +2689,7 @@ FLAG_SYNC_DECODE_IF_FAST
 &
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -2700,7 +2700,7 @@ IsAborted
 )
 {
 return
-DrawableFrameRef
+DrawableSurface
 (
 )
 ;
@@ -2710,7 +2710,7 @@ Move
 (
 result
 .
-DrawableRef
+Surface
 (
 )
 )
@@ -3470,8 +3470,8 @@ passing
 /
 /
 FLAG_SYNC_DECODE
-DrawableFrameRef
-frameRef
+DrawableSurface
+surface
 =
 LookupFrame
 (
@@ -3486,7 +3486,7 @@ aFlags
 if
 (
 !
-frameRef
+surface
 )
 {
 /
@@ -3525,9 +3525,9 @@ RefPtr
 <
 SourceSurface
 >
-frameSurf
+sourceSurface
 =
-frameRef
+surface
 -
 >
 GetSurface
@@ -3537,7 +3537,7 @@ GetSurface
 if
 (
 !
-frameRef
+surface
 -
 >
 IsFinished
@@ -3554,7 +3554,7 @@ DrawResult
 INCOMPLETE
 Move
 (
-frameSurf
+sourceSurface
 )
 )
 ;
@@ -3568,7 +3568,7 @@ DrawResult
 SUCCESS
 Move
 (
-frameSurf
+sourceSurface
 )
 )
 ;
@@ -7810,10 +7810,10 @@ RasterImage
 :
 DrawInternal
 (
-DrawableFrameRef
+DrawableSurface
 &
 &
-aFrameRef
+aSurface
 gfxContext
 *
 aContext
@@ -7846,7 +7846,7 @@ aRegion
 bool
 frameIsFinished
 =
-aFrameRef
+aSurface
 -
 >
 IsFinished
@@ -7883,7 +7883,7 @@ accordingly
 IntSize
 finalSize
 =
-aFrameRef
+aSurface
 -
 >
 GetImageSize
@@ -7982,7 +7982,7 @@ aFlags
 if
 (
 !
-aFrameRef
+aSurface
 -
 >
 Draw
@@ -8320,8 +8320,8 @@ aFlags
 ~
 FLAG_HIGH_QUALITY_SCALING
 ;
-DrawableFrameRef
-ref
+DrawableSurface
+surface
 =
 LookupFrame
 (
@@ -8336,7 +8336,7 @@ flags
 if
 (
 !
-ref
+surface
 )
 {
 /
@@ -8392,7 +8392,7 @@ IsNull
 )
 &
 &
-ref
+surface
 -
 >
 IsFinished
@@ -8406,7 +8406,7 @@ DrawInternal
 (
 Move
 (
-ref
+surface
 )
 aContext
 aSize
