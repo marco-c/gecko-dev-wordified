@@ -2637,7 +2637,7 @@ appId
 principal
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

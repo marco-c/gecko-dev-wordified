@@ -683,7 +683,7 @@ originAttributes
 appId
 :
 currentAppId
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

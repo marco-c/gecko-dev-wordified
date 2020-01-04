@@ -4079,7 +4079,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinned
 )
@@ -4117,7 +4117,7 @@ anonymous
 =
 %
 d
-inBrowser
+inIsolatedMozBrowser
 =
 %
 d
@@ -4133,7 +4133,7 @@ aHash
 )
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aPinned
 )
 )
@@ -4305,7 +4305,7 @@ IsCollision
 entry
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 )
 )
 {
@@ -4421,7 +4421,7 @@ IsCollision
 updated
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 )
 )
 {
@@ -4474,7 +4474,7 @@ IsCollision
 entry
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 )
 )
 {
@@ -4618,7 +4618,7 @@ Init
 (
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aPinned
 )
 ;
@@ -4639,7 +4639,7 @@ Init
 (
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aPinned
 )
 ;
@@ -8229,7 +8229,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 )
 {
 if
@@ -8274,12 +8274,12 @@ aAnonymous
 aEntry
 -
 >
-InBrowser
+InIsolatedMozBrowser
 (
 )
 !
 =
-aInBrowser
+aInIsolatedMozBrowser
 )
 {
 LOG
@@ -8324,7 +8324,7 @@ anonymous
 d
 "
 "
-inBrowser
+inIsolatedMozBrowser
 =
 %
 d
@@ -8340,7 +8340,9 @@ anonymous
 =
 %
 d
-inBrowser
+"
+"
+inIsolatedMozBrowser
 =
 %
 d
@@ -8357,7 +8359,7 @@ Hash
 )
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aEntry
 -
 >
@@ -8373,7 +8375,7 @@ Anonymous
 aEntry
 -
 >
-InBrowser
+InIsolatedMozBrowser
 (
 )
 )
@@ -14576,7 +14578,7 @@ OriginAttributes
 (
 )
 .
-mInBrowser
+mInIsolatedMozBrowser
 aMetaData
 -
 >

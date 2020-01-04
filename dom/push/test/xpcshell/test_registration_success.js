@@ -303,7 +303,7 @@ originAttributesToSuffix
 appId
 :
 42
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

@@ -3460,7 +3460,7 @@ originAttributesToSuffix
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

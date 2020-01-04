@@ -1932,7 +1932,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinning
 )

@@ -775,7 +775,7 @@ principal
 .
 originAttributes
 .
-inBrowser
+inIsolatedMozBrowser
 =
 =
 null

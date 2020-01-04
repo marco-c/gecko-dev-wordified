@@ -9580,7 +9580,7 @@ mAppId
 (
 0
 )
-mInBrowser
+mInIsolatedMozBrowser
 (
 false
 )

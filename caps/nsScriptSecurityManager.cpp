@@ -1460,7 +1460,7 @@ inMozBrowser
 aPrin
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 )
 ;
@@ -7173,7 +7173,7 @@ aURI
 uint32_t
 aAppId
 bool
-aInMozBrowser
+aInIsolatedMozBrowser
 nsIPrincipal
 *
 *
@@ -7196,7 +7196,7 @@ PrincipalOriginAttributes
 attrs
 (
 aAppId
-aInMozBrowser
+aInIsolatedMozBrowser
 )
 ;
 nsCOMPtr
@@ -9462,7 +9462,7 @@ GetJarPrefix
 uint32_t
 aAppId
 bool
-aInMozBrowser
+aInIsolatedMozBrowser
 nsACString
 &
 aJarPrefix
@@ -9520,7 +9520,7 @@ NO_APP_ID
 &
 &
 !
-aInMozBrowser
+aInIsolatedMozBrowser
 )
 {
 return
@@ -9569,7 +9569,7 @@ aJarPrefix
 .
 Append
 (
-aInMozBrowser
+aInIsolatedMozBrowser
 ?
 '
 t
@@ -9606,7 +9606,7 @@ GetJarPrefix
 uint32_t
 aAppId
 bool
-aInMozBrowser
+aInIsolatedMozBrowser
 nsACString
 &
 aJarPrefix
@@ -9629,7 +9629,7 @@ mozilla
 GetJarPrefix
 (
 aAppId
-aInMozBrowser
+aInIsolatedMozBrowser
 aJarPrefix
 )
 ;

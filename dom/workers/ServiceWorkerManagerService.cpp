@@ -390,7 +390,7 @@ the
 same
 appId
 and
-inBrowser
+inIsolatedMozBrowser
 values
 .
 /
@@ -464,7 +464,7 @@ IsBrowserElement
 =
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 )
 {

@@ -191,7 +191,7 @@ kURI1
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -354,7 +354,7 @@ stringify
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

@@ -438,7 +438,7 @@ uint32_t
 mAppId
 ;
 bool
-mIsInBrowserElement
+mIsInIsolatedMozBrowserElement
 ;
 nsCOMPtr
 <

@@ -817,7 +817,7 @@ aURI
 uint32_t
 aAppId
 bool
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 nsIPrincipal
 *
 *
@@ -842,7 +842,7 @@ PrincipalOriginAttributes
 attrs
 (
 aAppId
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 nsCOMPtr
@@ -2144,7 +2144,7 @@ aModificationTime
 uint32_t
 aAppId
 bool
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 UpgradeHostToOriginHelper
 *
 aHelper
@@ -2355,7 +2355,7 @@ GetPrincipal
 (
 uri
 aAppId
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
 principal
@@ -3144,7 +3144,7 @@ GetPrincipal
 (
 uri
 aAppId
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
 principal
@@ -3468,7 +3468,7 @@ GetPrincipal
 (
 uri
 aAppId
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
 principal
@@ -3551,7 +3551,7 @@ GetPrincipal
 (
 uri
 aAppId
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 getter_AddRefs
 (
 principal

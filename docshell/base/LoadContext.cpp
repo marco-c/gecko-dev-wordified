@@ -1042,7 +1042,7 @@ aIsInBrowserElement
 =
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 ;
 return
 NS_OK

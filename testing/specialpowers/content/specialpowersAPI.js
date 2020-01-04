@@ -5954,7 +5954,7 @@ url
 /
 appid
 /
-isInBrowserElement
+isInIsolatedMozBrowserElement
 }
 or
 null

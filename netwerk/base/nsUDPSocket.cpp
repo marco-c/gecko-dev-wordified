@@ -1690,7 +1690,7 @@ mAppId
 (
 NECKO_UNKNOWN_APP_ID
 )
-mIsInBrowserElement
+mIsInIsolatedMozBrowserElement
 (
 false
 )
@@ -3953,10 +3953,10 @@ rv
 aPrincipal
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 &
-mIsInBrowserElement
+mIsInIsolatedMozBrowserElement
 )
 ;
 if
@@ -4710,7 +4710,7 @@ new
 SaveNetworkStatsEvent
 (
 mAppId
-mIsInBrowserElement
+mIsInIsolatedMozBrowserElement
 mActiveNetworkInfo
 mByteReadCount
 mByteWriteCount

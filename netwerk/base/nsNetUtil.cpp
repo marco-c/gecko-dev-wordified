@@ -2736,7 +2736,7 @@ uint32_t
 principalAppId
 ;
 bool
-principalInBrowserElement
+principalInIsolatedBrowser
 ;
 rv
 =
@@ -2760,10 +2760,10 @@ rv
 aPrincipal
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 &
-principalInBrowserElement
+principalInIsolatedBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2782,7 +2782,7 @@ principalAppId
 contextInBrowserElement
 =
 =
-principalInBrowserElement
+principalInIsolatedBrowser
 ;
 }
 nsresult

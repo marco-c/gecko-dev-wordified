@@ -325,7 +325,7 @@ clearIf
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -350,7 +350,7 @@ originAttributes
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -382,7 +382,7 @@ originAttributes
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -392,7 +392,7 @@ clearIf
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -424,7 +424,7 @@ clearIf
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -449,7 +449,7 @@ originAttributes
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -459,7 +459,7 @@ clearIf
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -484,14 +484,14 @@ originAttributes
 appId
 :
 3
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
 clearIf
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -516,14 +516,14 @@ originAttributes
 appId
 :
 4
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
 clearIf
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -795,7 +795,7 @@ records
 /
 /
 where
-inBrowser
+inIsolatedMozBrowser
 is
 true
 .
@@ -807,7 +807,7 @@ testRecords
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -824,7 +824,7 @@ app
 ID
 1
 where
-inBrowser
+inIsolatedMozBrowser
 is
 true
 .
@@ -855,7 +855,7 @@ ID
 where
 /
 /
-inBrowser
+inIsolatedMozBrowser
 is
 true
 .
@@ -867,7 +867,7 @@ testRecords
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -879,7 +879,7 @@ Removes
 all
 records
 where
-inBrowser
+inIsolatedMozBrowser
 is
 true
 .
@@ -888,7 +888,7 @@ clearForPattern
 (
 testRecords
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

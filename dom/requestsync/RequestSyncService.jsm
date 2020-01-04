@@ -3148,7 +3148,7 @@ aObj
 .
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 !
 =
 aData
@@ -3422,7 +3422,7 @@ aObj
 .
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 !
 =
 aData
@@ -3703,7 +3703,7 @@ aObj
 .
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 }
 ;
 let

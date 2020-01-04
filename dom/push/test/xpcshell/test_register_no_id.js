@@ -300,7 +300,7 @@ Ci
 nsIScriptSecurityManager
 .
 NO_APP_ID
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }

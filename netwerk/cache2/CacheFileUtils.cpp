@@ -484,7 +484,7 @@ oldformatted
 entries
 originAttribs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 true
 ;

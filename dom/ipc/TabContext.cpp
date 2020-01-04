@@ -243,7 +243,7 @@ const
 return
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 ;
 }
 bool
@@ -1589,7 +1589,7 @@ if
 !
 originAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 {
 /
@@ -1600,7 +1600,7 @@ to
 OwnOrContainingAppId
 ;
 if
-mInBrowser
+mInIsolatedMozBrowser
 is
 /
 /

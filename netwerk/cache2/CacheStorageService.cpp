@@ -430,7 +430,7 @@ isAnon
 |
 appId
 |
-inBrowser
+inIsolatedMozBrowser
 >
 which
 builds

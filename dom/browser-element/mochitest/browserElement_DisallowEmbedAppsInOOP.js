@@ -224,7 +224,7 @@ org
 originAttributes
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

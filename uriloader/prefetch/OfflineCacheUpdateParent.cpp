@@ -1622,7 +1622,7 @@ return
 mLoadingPrincipal
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 aIsInBrowserElement
 )

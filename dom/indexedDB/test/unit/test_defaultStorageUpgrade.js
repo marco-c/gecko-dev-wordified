@@ -590,7 +590,7 @@ org
 appId
 :
 1007
-inMozBrowser
+inIsolatedMozBrowser
 :
 false
 url
@@ -644,7 +644,7 @@ net
 appId
 :
 1007
-inMozBrowser
+inIsolatedMozBrowser
 :
 true
 url
@@ -1145,11 +1145,11 @@ appId
 ssm
 .
 NO_APPID
-inBrowser
+inIsolatedMozBrowser
 :
 params
 .
-inMozBrowser
+inIsolatedMozBrowser
 }
 )
 ;

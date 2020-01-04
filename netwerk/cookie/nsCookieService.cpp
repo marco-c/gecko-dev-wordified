@@ -4877,7 +4877,7 @@ attrs
 mAppId
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 ;
 }
@@ -6446,7 +6446,7 @@ rv
 ;
 int32_t
 appId
-inBrowser
+inIsolatedMozBrowser
 ;
 rv
 =
@@ -6475,7 +6475,7 @@ GetInt32
 (
 1
 &
-inBrowser
+inIsolatedMozBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6493,7 +6493,7 @@ object
 by
 appId
 and
-inBrowserElemnt
+inIsolatedMozBrowser
 .
 /
 /
@@ -6511,7 +6511,7 @@ attrs
 (
 appId
 (
-inBrowser
+inIsolatedMozBrowser
 ?
 1
 :
@@ -6772,7 +6772,7 @@ SetAsInt32
 (
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8997,7 +8997,7 @@ encapsulates
 "
 appId
 /
-inBrowser
+inIsolatedMozBrowser
 "
 in
 nsIPrincipal
@@ -9006,10 +9006,10 @@ nsIPrincipal
 originAttributes
 to
 make
+/
+/
 it
 easier
-/
-/
 to
 modify
 the
@@ -20133,7 +20133,7 @@ have
 appId
 =
 0
-inBrowser
+inIsolatedMozBrowser
 =
 false
 set
@@ -31403,7 +31403,7 @@ GetCookiesForApp
 uint32_t
 aAppId
 bool
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 nsISimpleEnumerator
 *
 *
@@ -31500,7 +31500,7 @@ aAppId
 |
 |
 (
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 &
 &
 !
@@ -31509,7 +31509,7 @@ entry
 >
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 )
 {
@@ -31583,7 +31583,7 @@ RemoveCookiesForApp
 uint32_t
 aAppId
 bool
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 )
 {
 nsCOMPtr
@@ -31598,7 +31598,7 @@ rv
 GetCookiesForApp
 (
 aAppId
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 getter_AddRefs
 (
 enumerator
@@ -31712,7 +31712,7 @@ carry
 the
 appId
 /
-inBrowserElement
+isIsolatedBrowser
 information
 .
 /
@@ -31734,7 +31734,7 @@ not
 for
 /
 /
-inBrowserElement
+isIsolatedBrowser
 flag
 .
 /
@@ -31753,7 +31753,7 @@ cookie
 with
 /
 /
-inBrowserElement
+isIsolatedBrowser
 =
 true
 and
@@ -31792,7 +31792,9 @@ likely
 be
 looking
 for
-unexistant
+non
+-
+existent
 /
 /
 cookies
@@ -31838,12 +31840,12 @@ false
 if
 (
 !
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 )
 {
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 false
 ;
