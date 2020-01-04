@@ -12839,7 +12839,9 @@ const
 RValueAllocation
 &
 alloc
+const
 Value
+&
 v
 )
 {
@@ -14185,7 +14187,9 @@ SnapshotIterator
 :
 storeInstructionResult
 (
+const
 Value
+&
 v
 )
 {
@@ -15709,7 +15713,9 @@ InlineFrameIterator
 :
 computeEnvironmentChain
 (
+const
 Value
+&
 envChainValue
 MaybeReadFallback
 &

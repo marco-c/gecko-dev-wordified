@@ -1541,7 +1541,9 @@ true
 bool
 writeValue
 (
+const
 Value
+&
 val
 const
 char

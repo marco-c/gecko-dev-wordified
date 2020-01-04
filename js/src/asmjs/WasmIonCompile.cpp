@@ -2105,7 +2105,9 @@ MDefinition
 *
 constant
 (
+const
 Value
+&
 v
 MIRType
 type

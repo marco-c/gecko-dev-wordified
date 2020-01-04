@@ -2022,7 +2022,9 @@ UndefinedValue
 NoGCValue
 noGCPlaceholder
 (
+const
 Value
+&
 v
 )
 const
@@ -2345,7 +2347,9 @@ const
 RValueAllocation
 &
 a
+const
 Value
+&
 v
 )
 ;
@@ -2502,7 +2506,9 @@ array
 void
 storeInstructionResult
 (
+const
 Value
+&
 v
 )
 ;
@@ -3563,7 +3569,9 @@ JSObject
 *
 computeEnvironmentChain
 (
+const
 Value
+&
 envChainValue
 MaybeReadFallback
 &
