@@ -357,7 +357,7 @@ ConnectionStateNotification
 BluetoothHandsfreeConnectionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -372,7 +372,7 @@ AudioStateNotification
 BluetoothHandsfreeAudioState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -387,7 +387,7 @@ VoiceRecognitionNotification
 BluetoothHandsfreeVoiceRecognitionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -400,7 +400,7 @@ BluetoothHandsfreeNotificationHandler
 AnswerCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -413,7 +413,7 @@ BluetoothHandsfreeNotificationHandler
 HangupCallNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -430,7 +430,7 @@ aType
 int
 aVolume
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -447,7 +447,7 @@ nsAString
 &
 aNumber
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -462,7 +462,7 @@ DtmfNotification
 char
 aDtmf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -477,7 +477,7 @@ NRECNotification
 BluetoothHandsfreeNRECState
 aNrec
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -492,7 +492,7 @@ WbsNotification
 BluetoothHandsfreeWbsConfig
 aWbs
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -507,7 +507,7 @@ CallHoldNotification
 BluetoothHandsfreeCallHoldType
 aChld
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -520,7 +520,7 @@ BluetoothHandsfreeNotificationHandler
 CnumNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -533,7 +533,7 @@ BluetoothHandsfreeNotificationHandler
 CindNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -546,7 +546,7 @@ BluetoothHandsfreeNotificationHandler
 CopsNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -559,7 +559,7 @@ BluetoothHandsfreeNotificationHandler
 ClccNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -576,7 +576,7 @@ nsACString
 &
 aAtString
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -589,7 +589,7 @@ BluetoothHandsfreeNotificationHandler
 KeyPressedNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
