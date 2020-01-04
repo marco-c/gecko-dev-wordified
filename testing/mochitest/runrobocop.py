@@ -3979,11 +3979,19 @@ self
 .
 localProfile
 browserArgs
+                
 timeout
 =
 self
 .
 NO_OUTPUT_TIMEOUT
+symbolsPath
+=
+self
+.
+options
+.
+symbolsPath
 )
             
 self
