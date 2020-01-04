@@ -1262,14 +1262,6 @@ extension
 ;
 this
 .
-extensionId
-=
-extension
-.
-id
-;
-this
-.
 jsonSandbox
 =
 null
@@ -2897,7 +2889,9 @@ extensionId
 :
 this
 .
-extensionId
+extension
+.
+id
 contextId
 :
 this
