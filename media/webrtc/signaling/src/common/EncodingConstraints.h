@@ -170,6 +170,12 @@ maxDpb
 (
 0
 )
+scaleDownBy
+(
+1
+.
+0
+)
 {
 }
 bool
@@ -242,6 +248,14 @@ decoded
 picture
 buffer
 size
+double
+scaleDownBy
+;
+/
+/
+To
+preserve
+resolution
 }
 ;
 }
