@@ -410,7 +410,7 @@ AsSimpleGestureEvent
 )
 -
 >
-delta
+mDelta
 ;
 }
 NS_IMETHODIMP
@@ -587,7 +587,7 @@ aDirectionArg
 simpleGestureEvent
 -
 >
-delta
+mDelta
 =
 aDeltaArg
 ;

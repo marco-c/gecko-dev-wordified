@@ -840,7 +840,7 @@ mClickCount
 (
 0
 )
-delta
+mDelta
 (
 0
 .
@@ -887,11 +887,11 @@ mClickCount
 (
 0
 )
-delta
+mDelta
 (
 aOther
 .
-delta
+mDelta
 )
 {
 }
@@ -1006,7 +1006,7 @@ and
 rotate
 events
 double
-delta
+mDelta
 ;
 /
 /
@@ -1047,11 +1047,11 @@ aEvent
 .
 mDirection
 ;
-delta
+mDelta
 =
 aEvent
 .
-delta
+mDelta
 ;
 mClickCount
 =
