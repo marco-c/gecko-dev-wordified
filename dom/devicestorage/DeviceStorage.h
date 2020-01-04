@@ -1634,8 +1634,12 @@ aRv
 nsresult
 CheckPermission
 (
+already_AddRefed
+<
 DeviceStorageRequest
-*
+>
+&
+&
 aRequest
 )
 ;
