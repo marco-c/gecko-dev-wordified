@@ -748,6 +748,13 @@ state
 ;
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 String
@@ -898,6 +905,13 @@ getAbsolutePath
 }
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 void

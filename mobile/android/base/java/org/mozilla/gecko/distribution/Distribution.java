@@ -5484,6 +5484,13 @@ dataDir
 ;
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 String

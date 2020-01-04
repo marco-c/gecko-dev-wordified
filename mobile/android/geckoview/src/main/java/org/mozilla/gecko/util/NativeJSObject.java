@@ -165,6 +165,13 @@ Java
 *
 /
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 class
 NativeJSObject

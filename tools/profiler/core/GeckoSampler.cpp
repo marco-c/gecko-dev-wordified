@@ -3145,7 +3145,7 @@ java
 GeckoJavaSampler
 :
 :
-GetSampleTimeJavaProfiling
+GetSampleTime
 (
 0
 sampleId
@@ -3615,7 +3615,7 @@ java
 GeckoJavaSampler
 :
 :
-PauseJavaProfiling
+Pause
 (
 )
 ;
@@ -3644,7 +3644,7 @@ java
 GeckoJavaSampler
 :
 :
-UnpauseJavaProfiling
+Unpause
 (
 )
 ;

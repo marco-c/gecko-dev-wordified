@@ -2900,11 +2900,6 @@ signature
 *
 /
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 beginDrawing
@@ -3338,11 +3333,6 @@ signature
 *
 /
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 drawBackground
@@ -3412,11 +3402,6 @@ mBackgroundColor
 ;
 }
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 drawForeground
@@ -3779,11 +3764,6 @@ signature
 *
 /
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 endDrawing

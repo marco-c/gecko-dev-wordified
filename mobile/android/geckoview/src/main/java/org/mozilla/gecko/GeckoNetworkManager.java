@@ -1953,6 +1953,13 @@ currentConnectionSubtype
 ;
 }
 WrapForJNI
+(
+dispatchTo
+=
+"
+gecko
+"
+)
 private
 static
 native
@@ -1970,6 +1977,13 @@ DHCPGateway
 )
 ;
 WrapForJNI
+(
+dispatchTo
+=
+"
+gecko
+"
+)
 private
 static
 native

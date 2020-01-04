@@ -340,16 +340,6 @@ COLOR_QCOM_FORMATYUV420PackedSemiPlanar32m
 }
 ;
 WrapForJNI
-(
-allowMultithread
-=
-true
-stubName
-=
-"
-FindDecoderCodecInfoForMimeType
-"
-)
 public
 static
 boolean

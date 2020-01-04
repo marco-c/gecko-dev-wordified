@@ -196,6 +196,13 @@ it
 *
 /
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 final
 class

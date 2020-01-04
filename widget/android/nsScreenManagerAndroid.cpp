@@ -372,7 +372,7 @@ java
 GeckoAppShell
 :
 :
-GetScreenDepthWrapper
+GetScreenDepth
 (
 )
 ;

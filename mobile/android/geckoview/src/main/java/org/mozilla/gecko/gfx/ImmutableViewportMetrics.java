@@ -362,9 +362,11 @@ signature
 /
 WrapForJNI
 (
-allowMultithread
+calledFrom
 =
-true
+"
+gecko
+"
 )
 public
 ImmutableViewportMetrics

@@ -122,12 +122,11 @@ manually
 /
 WrapForJNI
 (
-allowMultithread
+exceptionMode
 =
-true
-catchException
-=
-true
+"
+nsresult
+"
 )
 public
 class

@@ -197,7 +197,7 @@ gecko
 .
 annotation
 .
-WrapForJNI
+JNITarget
 ;
 import
 org
@@ -406,7 +406,7 @@ in
 rows
 *
 /
-WrapForJNI
+JNITarget
 public
 MatrixBlobCursor
 (
@@ -508,7 +508,7 @@ this
 cursor
 *
 /
-WrapForJNI
+JNITarget
 public
 MatrixBlobCursor
 (
@@ -823,7 +823,7 @@ construction
 time
 *
 /
-WrapForJNI
+JNITarget
 public
 void
 addRow
@@ -961,7 +961,7 @@ construction
 time
 *
 /
-WrapForJNI
+JNITarget
 public
 void
 addRow
@@ -1148,7 +1148,7 @@ ArrayList
 .
 *
 /
-WrapForJNI
+JNITarget
 private
 void
 addRow

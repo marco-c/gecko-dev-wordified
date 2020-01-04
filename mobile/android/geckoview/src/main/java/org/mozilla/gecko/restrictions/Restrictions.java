@@ -616,6 +616,13 @@ url
 ;
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 boolean
@@ -681,6 +688,13 @@ restrictable
 ;
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 boolean
