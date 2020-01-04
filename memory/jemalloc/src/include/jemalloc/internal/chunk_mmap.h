@@ -265,6 +265,9 @@ void
 *
 chunk_alloc_mmap
 (
+void
+*
+new_addr
 size_t
 size
 size_t

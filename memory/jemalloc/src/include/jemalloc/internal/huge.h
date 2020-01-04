@@ -272,7 +272,7 @@ arena_t
 *
 arena
 size_t
-size
+usize
 bool
 zero
 tcache_t
@@ -291,7 +291,7 @@ arena_t
 *
 arena
 size_t
-size
+usize
 size_t
 alignment
 bool
@@ -304,6 +304,9 @@ tcache
 bool
 huge_ralloc_no_move
 (
+tsd_t
+*
+tsd
 void
 *
 ptr

@@ -371,15 +371,7 @@ generation
 .
 *
 /
-#
-define
-CKH_A
-1103515241
-#
-define
-CKH_C
-12347
-uint32_t
+uint64_t
 prng_state
 ;
 /
@@ -657,7 +649,7 @@ ckh
 const
 void
 *
-seachkey
+searchkey
 void
 *
 *
