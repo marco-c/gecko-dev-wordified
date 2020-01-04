@@ -127,13 +127,6 @@ MediaResource
 h
 "
 namespace
-mozilla
-{
-class
-MediaByteRange
-;
-}
-namespace
 stagefright
 {
 class

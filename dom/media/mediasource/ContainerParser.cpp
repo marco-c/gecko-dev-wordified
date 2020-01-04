@@ -3135,10 +3135,13 @@ byteRanges
 =
 MediaByteRange
 (
+int64_t
+(
 mParser
 -
 >
 mOffset
+)
 mResource
 -
 >
@@ -4266,9 +4269,12 @@ mCompleteInitSegmentRange
 MediaByteRange
 (
 0
+int64_t
+(
 header
 .
 header_length
+)
 )
 ;
 /

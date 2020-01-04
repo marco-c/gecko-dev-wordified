@@ -717,11 +717,14 @@ InitSegmentRange
 MediaByteRange
 (
 0
+int64_t
+(
 header
 -
 >
 Length
 (
+)
 )
 )
 )
