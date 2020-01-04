@@ -135,6 +135,15 @@ RefPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -518,7 +527,7 @@ cache
 it
 here
 .
-nsAutoPtr
+UniquePtr
 <
 ClippedImageCachedSurface
 >

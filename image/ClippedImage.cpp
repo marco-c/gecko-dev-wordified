@@ -1694,8 +1694,10 @@ surface
 .
 mCachedSurface
 =
-new
+MakeUnique
+<
 ClippedImageCachedSurface
+>
 (
 target
 -
