@@ -522,6 +522,9 @@ immutableUpdate
 (
 createSnapshot
 (
+getState
+(
+)
 )
 {
 path

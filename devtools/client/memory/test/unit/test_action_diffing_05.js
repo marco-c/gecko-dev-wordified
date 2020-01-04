@@ -334,6 +334,7 @@ READ
 ]
 )
 ;
+yield
 dispatch
 (
 toggleDiffing

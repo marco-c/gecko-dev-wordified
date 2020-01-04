@@ -327,6 +327,8 @@ utils
 .
 createSnapshot
 (
+{
+}
 )
 ;
 let
@@ -336,6 +338,8 @@ utils
 .
 createSnapshot
 (
+{
+}
 )
 ;
 equal

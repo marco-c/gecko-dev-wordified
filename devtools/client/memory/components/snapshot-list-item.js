@@ -163,11 +163,7 @@ createClass
 displayName
 :
 "
-snapshot
--
-list
--
-item
+SnapshotListItem
 "
 propTypes
 :
