@@ -167,6 +167,13 @@ GPUParent
 (
 )
 ;
+static
+GPUParent
+*
+GetSingleton
+(
+)
+;
 bool
 Init
 (
