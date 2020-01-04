@@ -590,6 +590,11 @@ GetURLValue
 (
 )
 ;
+if
+(
+imageURI
+)
+{
 bool
 isEqualExceptRef
 =
@@ -621,6 +626,7 @@ isEqualExceptRef
 {
 return
 ;
+}
 }
 }
 #
