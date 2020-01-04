@@ -825,7 +825,7 @@ return
 SECFailure
 ;
 }
-ScopedSECItem
+UniqueSECItem
 secitem
 (
 :

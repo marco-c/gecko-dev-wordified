@@ -291,7 +291,7 @@ UnsafeMapInputToSECItem
 candidateCertDER
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 candidateCert
 (
 CERT_NewTempCertificate
