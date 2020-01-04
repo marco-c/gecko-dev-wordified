@@ -1288,7 +1288,7 @@ uint64_t
 aId
 )
 ;
-nsresult
+void
 SetSkipWaitingFlag
 (
 nsIPrincipal
