@@ -1496,15 +1496,6 @@ indexedDB
 :
 {
 }
-"
-pointerLock
-"
-:
-{
-exactHostMatch
-:
-true
-}
 }
 ;
 const
