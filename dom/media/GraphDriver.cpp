@@ -3941,6 +3941,10 @@ destroyed
 )
 )
 ;
+mAudioInput
+=
+nullptr
+;
 mAudioStream
 .
 reset
