@@ -8200,9 +8200,6 @@ GetFilesHelper
 >
 mGetFilesNonRecursiveHelper
 ;
-#
-ifndef
-MOZ_CHILD_PERMISSIONS
 /
 *
 *
@@ -8229,8 +8226,6 @@ picker
 nsString
 mFirstFilePath
 ;
-#
-endif
 RefPtr
 <
 FileList
