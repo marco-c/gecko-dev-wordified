@@ -7276,8 +7276,8 @@ SurfaceCache
 :
 LockImage
 (
-Image
-*
+const
+ImageKey
 aImageKey
 )
 {
@@ -7319,8 +7319,8 @@ SurfaceCache
 :
 UnlockImage
 (
-Image
-*
+const
+ImageKey
 aImageKey
 )
 {
@@ -7405,8 +7405,8 @@ SurfaceCache
 :
 RemoveImage
 (
-Image
-*
+const
+ImageKey
 aImageKey
 )
 {
