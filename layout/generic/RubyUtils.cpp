@@ -500,7 +500,7 @@ mIndex
 ;
 }
 }
-auto
+int32_t
 numTextFrames
 =
 mColumn
