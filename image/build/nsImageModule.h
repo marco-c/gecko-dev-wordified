@@ -113,7 +113,7 @@ namespace
 image
 {
 nsresult
-InitModule
+EnsureModuleInitialized
 (
 )
 ;
