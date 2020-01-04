@@ -308,7 +308,8 @@ consoleOptions
 }
 )
 ;
-let
+this
+.
 Screenshot
 =
 {

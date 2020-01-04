@@ -56,6 +56,13 @@ MPL
 .
 *
 /
+/
+*
+exported
+TestRunner
+shouldCapture
+*
+/
 "
 use
 strict
