@@ -10580,6 +10580,14 @@ fun
 isInterpreted
 (
 )
+|
+|
+fun
+-
+>
+isClassConstructor
+(
+)
 )
 return
 Match_None

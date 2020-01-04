@@ -22613,6 +22613,14 @@ fun
 isInterpreted
 (
 )
+|
+|
+fun
+-
+>
+isClassConstructor
+(
+)
 )
 return
 true
