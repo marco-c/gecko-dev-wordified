@@ -1185,6 +1185,9 @@ aItem
 GetAnimatedGeometryRoot
 (
 )
+-
+>
+mFrame
 )
 ;
 nsRegionRectIterator
