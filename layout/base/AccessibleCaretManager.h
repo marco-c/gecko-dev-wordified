@@ -979,8 +979,6 @@ aHint
 void
 UpdateCaretsForSelectionMode
 (
-UpdateCaretsHint
-aHint
 )
 ;
 /

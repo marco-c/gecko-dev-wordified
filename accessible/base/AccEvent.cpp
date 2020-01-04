@@ -1536,9 +1536,6 @@ AccHideEvent
 Accessible
 *
 aTarget
-nsINode
-*
-aTargetNode
 bool
 aNeedsShutdown
 )
@@ -1552,7 +1549,6 @@ nsIAccessibleEvent
 :
 EVENT_HIDE
 aTarget
-aTargetNode
 )
 mNeedsShutdown
 (
@@ -1749,9 +1745,6 @@ AccShowEvent
 Accessible
 *
 aTarget
-nsINode
-*
-aTargetNode
 )
 :
 AccMutationEvent
@@ -1763,7 +1756,6 @@ nsIAccessibleEvent
 :
 EVENT_SHOW
 aTarget
-aTargetNode
 )
 {
 }

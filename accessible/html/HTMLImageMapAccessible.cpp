@@ -1164,7 +1164,6 @@ new
 AccShowEvent
 (
 area
-areaContent
 )
 ;
 mDoc
