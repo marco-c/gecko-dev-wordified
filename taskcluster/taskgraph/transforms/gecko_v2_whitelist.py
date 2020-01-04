@@ -396,12 +396,6 @@ opt
 '
     
 '
-linux
--
-pgo
-'
-    
-'
 macosx64
 -
 debug
