@@ -2542,11 +2542,8 @@ HasDirtyDescendantsForServo
 aContent
 -
 >
-UnsetFlags
+UnsetIsDirtyAndHasDirtyDescendantsForServo
 (
-NODE_IS_DIRTY_FOR_SERVO
-|
-NODE_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 )
 ;
 if
@@ -2635,9 +2632,8 @@ Document
 doc
 -
 >
-UnsetFlags
+UnsetHasDirtyDescendantsForServo
 (
-NODE_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 )
 ;
 /
