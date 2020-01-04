@@ -4665,8 +4665,8 @@ PREF_KINTO_UPDATE_ENABLED
 )
 )
 {
-let
-KintoUpdater
+const
+updater
 =
 Components
 .
@@ -4693,7 +4693,7 @@ js
 }
 )
 ;
-KintoUpdater
+updater
 .
 checkVersions
 (

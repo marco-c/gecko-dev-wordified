@@ -152,7 +152,9 @@ services
 -
 common
 /
-KintoBlocklist
+blocklist
+-
+clients
 .
 js
 "
