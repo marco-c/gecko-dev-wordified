@@ -6790,7 +6790,9 @@ openQueuedUrls
 BrowserApp
 .
 this
-mProfile
+getProfile
+(
+)
 TabQueueHelper
 .
 FILE_NAME
@@ -22074,7 +22076,9 @@ getCharEncodingState
 ;
 if
 (
-mProfile
+getProfile
+(
+)
 .
 inGuestMode
 (
