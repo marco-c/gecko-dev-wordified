@@ -3579,9 +3579,9 @@ type
 JSString
 *
 name
-Value
+HandleValue
 size
-Value
+HandleValue
 align
 ffi_type
 *
@@ -3613,9 +3613,9 @@ char
 name
 TypeCode
 type
-Value
+HandleValue
 size
-Value
+HandleValue
 align
 ffi_type
 *
@@ -4010,7 +4010,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-Value
+HandleValue
 errVal
 PRFuncPtr
 *
