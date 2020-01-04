@@ -77,7 +77,7 @@ C
 )
 2009
 -
-2014
+2015
 International
 Business
 Machines
@@ -10190,6 +10190,11 @@ status
 =
 U_MEMORY_ALLOCATION_ERROR
 ;
+ultag_close
+(
+t
+)
+;
 return
 NULL
 ;
@@ -11684,7 +11689,7 @@ t
 ;
 error
 :
-uprv_free
+ultag_close
 (
 t
 )

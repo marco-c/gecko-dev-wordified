@@ -379,11 +379,6 @@ secondary
 tertiary
 weights
 .
-U_ALIGN_CODE
-(
-16
-)
-;
 for
 (
 ;

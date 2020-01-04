@@ -86,7 +86,7 @@ C
 )
 2011
 -
-2014
+2015
 International
 Business
 Machines
@@ -1471,9 +1471,6 @@ ICU
 UTZFMT_PARSE_OPTION_ALL_STYLES
 =
 0x01
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1522,7 +1519,7 @@ TimeZoneFormat
 }
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -1530,13 +1527,6 @@ ICU
 UTZFMT_PARSE_OPTION_TZ_DATABASE_ABBREVIATIONS
 =
 0x02
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 }
 UTimeZoneFormatParseOption
 ;

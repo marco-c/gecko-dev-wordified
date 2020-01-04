@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2012
+2015
 International
 Business
 Machines
@@ -1098,6 +1098,9 @@ utypes
 .
 h
 "
+#
+if
+UCONFIG_ENABLE_PLUGINS
 /
 *
 =
@@ -2709,3 +2712,15 @@ U_HIDE_INTERNAL_API
 /
 #
 endif
+/
+*
+UCONFIG_ENABLE_PLUGINS
+*
+/
+#
+endif
+/
+*
+_ICUPLUG
+*
+/

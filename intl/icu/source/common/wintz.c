@@ -87,7 +87,7 @@ C
 )
 2005
 -
-2014
+2015
 International
 Business
 Machines
@@ -418,6 +418,8 @@ TimeZoneInformation
 \
 "
 ;
+/
+*
 static
 const
 char
@@ -429,6 +431,11 @@ STANDARD_NAME_REGKEY
 StandardName
 "
 ;
+Currently
+unused
+constant
+*
+/
 static
 const
 char

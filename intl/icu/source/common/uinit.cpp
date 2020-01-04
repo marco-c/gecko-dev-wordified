@@ -85,7 +85,7 @@ C
 )
 2001
 -
-2013
+2015
 International
 Business
 Machines
@@ -319,6 +319,9 @@ UErrorCode
 status
 )
 {
+#
+if
+UCONFIG_ENABLE_PLUGINS
 /
 *
 initialize
@@ -331,6 +334,8 @@ uplug_init
 status
 )
 ;
+#
+endif
 #
 if
 !

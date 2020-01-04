@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2011
+2015
 International
 Business
 Machines
@@ -1059,6 +1059,10 @@ private
 friend
 class
 DecimalFormat
+;
+friend
+class
+DecimalFormatImpl
 ;
 void
 initialize

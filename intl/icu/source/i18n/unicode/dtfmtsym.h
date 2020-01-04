@@ -3458,9 +3458,6 @@ endif
 U_HIDE_DRAFT_API
 *
 /
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3553,7 +3550,7 @@ this
 calendar
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -3666,7 +3663,7 @@ supported
 )
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -3777,7 +3774,7 @@ this
 calendar
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -3888,7 +3885,7 @@ supported
 )
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -3908,13 +3905,6 @@ DtWidthType
 width
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API

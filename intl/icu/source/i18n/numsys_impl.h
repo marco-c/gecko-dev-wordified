@@ -84,7 +84,7 @@ Copyright
 (
 C
 )
-2011
+2015
 International
 Business
 Machines
@@ -318,11 +318,17 @@ StringEnumeration
 {
 public
 :
+/
+/
+NumsysNameEnumeration
+instance
+adopts
+numsysNames
 NumsysNameEnumeration
 (
 UVector
 *
-fNumsysNames
+numsysNames
 UErrorCode
 &
 status

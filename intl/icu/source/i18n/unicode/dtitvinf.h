@@ -86,7 +86,7 @@ C
 )
 2008
 -
-2014
+2015
 International
 Business
 Machines
@@ -2758,6 +2758,7 @@ kIPI_DATE
 kIPI_AM_PM
 kIPI_HOUR
 kIPI_MINUTE
+kIPI_SECOND
 kIPI_MAX_INDEX
 }
 ;

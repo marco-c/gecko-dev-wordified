@@ -95,6 +95,8 @@ Copyright
 C
 )
 2014
+-
+2015
 International
 Business
 Machines
@@ -334,9 +336,6 @@ ICU
 UDISPCTX_TYPE_CAPITALIZATION
 =
 1
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -357,7 +356,7 @@ UDISPCTX_LENGTH_FULL
 UDISPCTX_LENGTH_SHORT
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -365,13 +364,6 @@ ICU
 UDISPCTX_TYPE_DISPLAY_LENGTH
 =
 2
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 }
 ;
 /
@@ -874,9 +866,6 @@ UDISPCTX_TYPE_CAPITALIZATION
 )
 +
 4
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -969,7 +958,7 @@ for
 US
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -1018,7 +1007,7 @@ for
 US
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -1033,13 +1022,6 @@ UDISPCTX_TYPE_DISPLAY_LENGTH
 )
 +
 1
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 }
 ;
 /

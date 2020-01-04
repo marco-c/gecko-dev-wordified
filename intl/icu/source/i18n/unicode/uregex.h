@@ -3490,7 +3490,7 @@ and
 <
 code
 >
-uregexp_group
+uregex_group
 (
 )
 <
@@ -3759,7 +3759,7 @@ and
 <
 code
 >
-uregexp_group
+uregex_group
 (
 )
 <

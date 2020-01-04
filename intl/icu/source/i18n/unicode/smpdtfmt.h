@@ -12561,9 +12561,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -12604,7 +12601,7 @@ the
 NumbeferFormat
 used
 *
-draft
+stable
 ICU
 54
 *
@@ -12779,7 +12776,7 @@ operation
 succeeds
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -12823,7 +12820,7 @@ UDateFormatField
 to
 get
 *
-draft
+stable
 ICU
 54
 *
@@ -12838,13 +12835,6 @@ field
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API

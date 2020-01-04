@@ -86,7 +86,7 @@ C
 )
 2007
 -
-2013
+2015
 International
 Business
 Machines
@@ -353,6 +353,12 @@ AndConstraint
 ;
 class
 RuleChain
+;
+class
+DigitInterval
+;
+class
+VisibleDigits
 ;
 static
 const
@@ -1485,6 +1491,15 @@ explicit
 FixedDecimal
 (
 double
+n
+)
+;
+explicit
+FixedDecimal
+(
+const
+VisibleDigits
+&
 n
 )
 ;

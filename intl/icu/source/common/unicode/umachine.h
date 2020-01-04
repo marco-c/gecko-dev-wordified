@@ -86,7 +86,7 @@ C
 )
 1999
 -
-2014
+2015
 International
 Business
 Machines
@@ -1288,16 +1288,10 @@ internal
 /
 #
 if
-defined
-(
-__cplusplus
-)
-&
-&
-__cplusplus
+U_CPLUSPLUS_VERSION
 >
 =
-201103L
+11
 /
 *
 C

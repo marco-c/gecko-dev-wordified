@@ -9494,6 +9494,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 /
 *
 *
@@ -9599,6 +9602,13 @@ UErrorCode
 status
 )
 ;
+#
+endif
+/
+*
+U_HIDE_DEPRECATED_API
+*
+/
 /
 *
 *

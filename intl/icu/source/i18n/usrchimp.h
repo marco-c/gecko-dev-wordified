@@ -77,7 +77,7 @@ C
 )
 2001
 -
-2014
+2015
 IBM
 and
 others
@@ -533,7 +533,7 @@ reset
 )
 ;
 UBool
-empty
+isEmpty
 (
 )
 const
@@ -547,6 +547,9 @@ int32_t
 ixLow
 int32_t
 ixHigh
+UErrorCode
+&
+errorCode
 )
 ;
 const

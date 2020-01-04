@@ -79,7 +79,7 @@ c
 )
 2008
 -
-2013
+2015
 International
 Business
 Machines
@@ -266,6 +266,9 @@ UDAT_SHORT
 /
 #
 endif
+#
+if
+UCONFIG_ENABLE_PLUGINS
 UDBG_UPlugReason
 /
 *
@@ -282,6 +285,8 @@ COUNT
 UPLUG_LEVEL_COUNT
 *
 /
+#
+endif
 UDBG_UAcceptResult
 /
 *

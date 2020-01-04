@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2010
+2015
 International
 Business
 Machines
@@ -231,6 +231,7 @@ class
 null
 implementation
 class
+U_I18N_API
 FieldPositionHandler
 :
 public
@@ -270,6 +271,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;
@@ -329,6 +331,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;
@@ -487,6 +490,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;

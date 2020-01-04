@@ -230,18 +230,6 @@ UBIDIIMP_H
 #
 define
 UBIDIIMP_H
-/
-*
-set
-import
-/
-export
-definitions
-*
-/
-#
-ifdef
-U_COMMON_IMPLEMENTATION
 #
 include
 "
@@ -3782,7 +3770,5 @@ sizeof
 Isolate
 )
 )
-#
-endif
 #
 endif

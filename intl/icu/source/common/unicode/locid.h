@@ -4335,9 +4335,6 @@ void
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4464,7 +4461,7 @@ to
 -
 left
 *
-draft
+stable
 ICU
 54
 *
@@ -4475,13 +4472,6 @@ isRightToLeft
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

@@ -87,7 +87,7 @@ C
 )
 2002
 -
-2014
+2015
 International
 Business
 Machines
@@ -271,13 +271,6 @@ h
 #
 include
 "
-reslist
-.
-h
-"
-#
-include
-"
 toolutil
 .
 h
@@ -319,9 +312,7 @@ genrb
 define
 GENRB_VERSION
 "
-3
-.
-3
+56
 "
 U_CDECL_BEGIN
 U_CAPI

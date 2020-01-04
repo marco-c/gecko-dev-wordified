@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2010
+2015
 International
 Business
 Machines
@@ -257,6 +257,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 FALSE
@@ -412,6 +413,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 pos
@@ -721,6 +723,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 U_SUCCESS

@@ -86,7 +86,7 @@ C
 )
 1998
 -
-2014
+2015
 International
 Business
 Machines
@@ -4066,9 +4066,6 @@ char
 codepage
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4248,12 +4245,12 @@ error
 occurred
 .
 *
-draft
+stable
 ICU
 54
 *
 /
-U_DRAFT
+U_STABLE
 UFILE
 *
 U_EXPORT2
@@ -4277,13 +4274,6 @@ char
 codepage
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

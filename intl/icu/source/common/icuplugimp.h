@@ -86,7 +86,7 @@ C
 )
 2009
 -
-2010
+2015
 International
 Business
 Machines
@@ -304,6 +304,9 @@ icuplug
 .
 h
 "
+#
+if
+UCONFIG_ENABLE_PLUGINS
 /
 *
 =
@@ -639,5 +642,7 @@ void
 }
 *
 /
+#
+endif
 #
 endif

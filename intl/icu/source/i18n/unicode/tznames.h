@@ -86,7 +86,7 @@ C
 )
 2011
 -
-2014
+2015
 International
 Business
 Machines
@@ -1487,9 +1487,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1594,7 +1591,7 @@ not
 localized
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -1614,13 +1611,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

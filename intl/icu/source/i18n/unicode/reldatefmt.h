@@ -340,9 +340,6 @@ UCONFIG_NO_FORMATTING
 &
 !
 UCONFIG_NO_BREAK_ITERATION
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -351,7 +348,7 @@ The
 formatting
 style
 *
-draft
+stable
 ICU
 54
 *
@@ -369,7 +366,7 @@ spelled
 out
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -385,7 +382,7 @@ when
 possible
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -402,7 +399,7 @@ possible
 form
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -418,7 +415,7 @@ of
 styles
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -427,13 +424,6 @@ UDAT_STYLE_COUNT
 }
 UDateRelativeDateTimeFormatterStyle
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -1676,9 +1666,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1785,7 +1772,7 @@ returned
 here
 .
 *
-draft
+stable
 ICU
 54
 *
@@ -1808,13 +1795,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -2275,9 +2255,6 @@ getNumberFormat
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -2289,7 +2266,7 @@ context
 .
 *
 *
-draft
+stable
 ICU
 54
 *
@@ -2311,7 +2288,7 @@ style
 .
 *
 *
-draft
+stable
 ICU
 54
 *
@@ -2322,13 +2299,6 @@ getFormatStyle
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 private
 :
 const

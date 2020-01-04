@@ -86,7 +86,7 @@ C
 )
 1996
 -
-2014
+2015
 International
 Business
 Machines
@@ -2708,11 +2708,6 @@ int32_t
 targetLength
 )
 {
-U_ALIGN_CODE
-(
-16
-)
-;
 UTRACE_ENTRY
 (
 UTRACE_UCOL_STRCOLL
@@ -2839,11 +2834,6 @@ UErrorCode
 status
 )
 {
-U_ALIGN_CODE
-(
-16
-)
-;
 UTRACE_ENTRY
 (
 UTRACE_UCOL_STRCOLLUTF8
