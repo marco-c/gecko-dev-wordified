@@ -110,6 +110,9 @@ optimize_task_graph
 (
 target_task_graph
 do_not_optimize
+existing_tasks
+=
+None
 )
 :
     
@@ -221,9 +224,24 @@ populated
 annotate_task_graph
 (
 target_task_graph
+=
+target_task_graph
+                        
 do_not_optimize
+=
+do_not_optimize
+                        
 named_links_dict
+=
+named_links_dict
+                        
 label_to_taskid
+=
+label_to_taskid
+                        
+existing_tasks
+=
+existing_tasks
 )
     
 return
@@ -424,8 +442,10 @@ annotate_task_graph
 (
 target_task_graph
 do_not_optimize
+                        
 named_links_dict
 label_to_taskid
+existing_tasks
 )
 :
     
@@ -680,6 +700,41 @@ dependencies
 optimized
 =
 False
+        
+#
+Let
+'
+s
+check
+whether
+this
+task
+has
+been
+created
+before
+        
+elif
+existing_tasks
+is
+not
+None
+and
+label
+in
+existing_tasks
+:
+            
+optimized
+=
+True
+            
+replacement_task_id
+=
+existing_tasks
+[
+label
+]
         
 #
 otherwise
