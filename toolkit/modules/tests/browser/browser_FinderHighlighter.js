@@ -2484,7 +2484,7 @@ expectedResult
 {
 rectCount
 :
-1
+2
 insertCalls
 :
 [
