@@ -4128,6 +4128,11 @@ ResetResponse
 (
 )
 ;
+bool
+ShouldBlockAuthPrompt
+(
+)
+;
 struct
 RequestHeader
 {

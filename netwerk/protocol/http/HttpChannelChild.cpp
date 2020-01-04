@@ -11098,6 +11098,14 @@ cacheKey
 ;
 openArgs
 .
+blockAuthPrompt
+(
+)
+=
+mBlockAuthPrompt
+;
+openArgs
+.
 allowStaleCacheContent
 (
 )
