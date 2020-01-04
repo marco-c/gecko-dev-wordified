@@ -5730,7 +5730,6 @@ CHECKED
 ;
 }
 else
-if
 (
 isCheckbox
 &
