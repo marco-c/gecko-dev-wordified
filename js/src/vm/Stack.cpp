@@ -990,14 +990,15 @@ module
 (
 )
 .
-script
+staticScope
 (
 )
 =
 =
+&
 i
 .
-moduleScript
+module
 (
 )
 )

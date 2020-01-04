@@ -173,6 +173,12 @@ ModuleEnvironmentObject
 class
 ModuleObject
 ;
+class
+StaticScope
+;
+class
+StaticModuleScope
+;
 namespace
 frontend
 {
@@ -1033,7 +1039,11 @@ create
 ExclusiveContext
 *
 cx
-HandleObject
+Handle
+<
+StaticScope
+*
+>
 enclosingStaticScope
 )
 ;
@@ -1077,9 +1087,9 @@ script
 )
 const
 ;
-JSObject
+StaticModuleScope
 *
-enclosingStaticScope
+staticScope
 (
 )
 const

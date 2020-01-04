@@ -3196,6 +3196,11 @@ return
 module
 (
 )
+-
+>
+staticScope
+(
+)
 ;
 }
 void
