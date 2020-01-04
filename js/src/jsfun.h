@@ -5078,8 +5078,6 @@ cx
 HandleFunction
 fun
 bool
-bodyOnly
-bool
 lambdaParen
 )
 ;
