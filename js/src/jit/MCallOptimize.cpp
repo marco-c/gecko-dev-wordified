@@ -20268,7 +20268,17 @@ js
 :
 :
 simd_int32x4_shiftRightArithmeticByScalar
+|
+|
+native
+=
+=
+js
+:
+:
+simd_int32x4_shiftRightByScalar
 )
+{
 return
 inlineBinarySimd
 <
@@ -20287,6 +20297,7 @@ SimdTypeDescr
 Int32x4
 )
 ;
+}
 if
 (
 native
