@@ -287,6 +287,9 @@ aX
 const
 float
 aY
+const
+bool
+aIsRootContent
 )
 override
 ;
@@ -299,6 +302,9 @@ aX
 const
 float
 aY
+const
+bool
+aIsRootContent
 )
 override
 ;

@@ -890,12 +890,12 @@ virtual
 void
 UpdateOverscrollVelocity
 (
-const
 float
 aX
-const
 float
 aY
+bool
+aIsRootContent
 )
 {
 }
@@ -903,12 +903,12 @@ virtual
 void
 UpdateOverscrollOffset
 (
-const
 float
 aX
-const
 float
 aY
+bool
+aIsRootContent
 )
 {
 }
@@ -916,7 +916,6 @@ virtual
 void
 SetScrollingRootContent
 (
-const
 bool
 isRootContent
 )
