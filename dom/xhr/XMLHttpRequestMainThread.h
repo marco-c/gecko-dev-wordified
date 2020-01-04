@@ -2471,6 +2471,8 @@ aTarget
 const
 ProgressEventType
 aType
+bool
+aLengthComputable
 int64_t
 aLoaded
 int64_t
@@ -2790,11 +2792,6 @@ InUploadPhase
 (
 )
 const
-;
-void
-OnBodyParseEnd
-(
-)
 ;
 void
 ChangeStateToDone
@@ -3491,6 +3488,9 @@ int64_t
 mUploadTotal
 ;
 bool
+mUploadLengthComputable
+;
+bool
 mUploadComplete
 ;
 bool
@@ -3539,6 +3539,9 @@ mWarnAboutMultipartHtml
 ;
 bool
 mWarnAboutSyncHtml
+;
+bool
+mLoadLengthComputable
 ;
 int64_t
 mLoadTotal
@@ -4072,7 +4075,7 @@ get
 )
 -
 >
-OnBodyParseEnd
+ChangeStateToDone
 (
 )
 ;

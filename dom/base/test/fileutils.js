@@ -873,12 +873,7 @@ is
 event
 .
 lengthComputable
-event
-.
-total
-!
-=
-0
+true
 "
 [
 XHR
