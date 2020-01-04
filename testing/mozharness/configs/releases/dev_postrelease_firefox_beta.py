@@ -2,6 +2,16 @@ config
 =
 {
     
+#
+date
+is
+used
+for
+staging
+mozilla
+-
+beta
+    
 "
 log_name
 "
@@ -37,6 +47,16 @@ repo
 "
 :
 {
+        
+#
+date
+is
+used
+for
+staging
+mozilla
+-
+beta
         
 "
 repo
@@ -83,6 +103,16 @@ hg
 "
     
 }
+    
+#
+date
+is
+used
+for
+staging
+mozilla
+-
+beta
     
 "
 push_dest
