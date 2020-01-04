@@ -1095,6 +1095,12 @@ mResolution
 )
 mTileSize
 (
+mozilla
+:
+:
+gfx
+:
+:
 gfxVars
 :
 :
