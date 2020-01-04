@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
