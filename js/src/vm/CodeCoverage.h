@@ -629,9 +629,6 @@ sso
 private
 :
 typedef
-mozilla
-:
-:
 Vector
 <
 LCovSource
