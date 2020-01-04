@@ -339,6 +339,10 @@ const
 ComputedGridTrackInfo
 *
 aTrackInfo
+const
+ComputedGridLineInfo
+*
+aLineInfo
 )
 {
 mLines
@@ -347,6 +351,7 @@ mLines
 SetLineInfo
 (
 aTrackInfo
+aLineInfo
 )
 ;
 }
