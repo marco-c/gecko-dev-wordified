@@ -236,7 +236,7 @@ aCreateSessionToken
 dom
 :
 :
-SessionType
+MediaKeySessionType
 aSessionType
 PromiseId
 aPromiseId
@@ -663,7 +663,7 @@ CreateSessionData
 dom
 :
 :
-SessionType
+MediaKeySessionType
 mSessionType
 ;
 uint32_t

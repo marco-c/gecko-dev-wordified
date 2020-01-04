@@ -2953,6 +2953,8 @@ kGMPPersistentSession
 return
 "
 persistent
+-
+license
 "
 ;
 default
