@@ -5134,6 +5134,11 @@ i
 +
 +
 )
+{
+-
+-
+j
+;
 MOZ_ASSERT
 (
 memory
@@ -5143,8 +5148,6 @@ has
 &
 objs
 [
--
--
 j
 ]
 .
@@ -5154,6 +5157,7 @@ toObject
 )
 )
 ;
+}
 #
 endif
 }
