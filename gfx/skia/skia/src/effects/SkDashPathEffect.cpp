@@ -1738,13 +1738,6 @@ a
 sane
 value
 .
-static
-const
-SkScalar
-kMaxPoints
-=
-1000000
-;
 SkScalar
 numIntervals
 =
@@ -1763,7 +1756,10 @@ numIntervals
 |
 numIntervals
 >
-kMaxPoints
+SkDashPath
+:
+:
+kMaxDashCount
 )
 {
 return
