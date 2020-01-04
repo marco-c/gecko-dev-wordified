@@ -6351,8 +6351,12 @@ this
 .
 pendingFindMatches
 =
-{
-}
+Object
+.
+create
+(
+null
+)
 ;
 this
 .
