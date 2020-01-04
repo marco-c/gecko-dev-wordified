@@ -5509,6 +5509,8 @@ SaveImageTitle
 aChosenData
 aBaseURI
 null
+false
+null
 gDocInfo
 .
 isContentWindowPrivate
