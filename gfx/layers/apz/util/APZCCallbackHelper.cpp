@@ -5355,9 +5355,6 @@ flags
 .
 AppendElement
 (
-widget
-:
-:
 TouchActionHelper
 :
 :
