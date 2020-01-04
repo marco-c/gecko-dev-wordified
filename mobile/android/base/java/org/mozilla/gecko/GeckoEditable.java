@@ -6421,10 +6421,13 @@ match
 text
 if
 (
-start
-!
-=
-0
+unboundedOldEnd
+<
+Integer
+.
+MAX_VALUE
+/
+2
 &
 &
 unboundedNewEnd
