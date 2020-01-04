@@ -828,7 +828,7 @@ empty
 )
 ;
 }
-bool
+void
 CancelCurrentTransaction
 (
 )
