@@ -285,7 +285,7 @@ MOZ_ASSERT
 ins
 -
 >
-obj
+object
 (
 )
 -
@@ -318,7 +318,7 @@ useRegisterAtStart
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -347,7 +347,7 @@ ins
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -369,7 +369,7 @@ MOZ_ASSERT
 ins
 -
 >
-obj
+object
 (
 )
 -
@@ -402,7 +402,7 @@ useRegisterAtStart
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -431,7 +431,7 @@ ins
 ins
 -
 >
-obj
+object
 (
 )
 )

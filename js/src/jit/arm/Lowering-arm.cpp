@@ -2900,7 +2900,7 @@ MOZ_ASSERT
 ins
 -
 >
-obj
+object
 (
 )
 -
@@ -2944,7 +2944,7 @@ useRegister
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -2974,7 +2974,7 @@ ins
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -2996,7 +2996,7 @@ MOZ_ASSERT
 ins
 -
 >
-obj
+object
 (
 )
 -
@@ -3040,7 +3040,7 @@ useRegister
 ins
 -
 >
-obj
+object
 (
 )
 )
@@ -3070,7 +3070,7 @@ ins
 ins
 -
 >
-obj
+object
 (
 )
 )
