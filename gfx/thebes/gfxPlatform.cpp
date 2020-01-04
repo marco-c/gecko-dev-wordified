@@ -12083,6 +12083,16 @@ BrowserTabsRemoteAutostart
 )
 )
 ;
+gfxVars
+:
+:
+SetOffscreenFormat
+(
+GetOffscreenFormat
+(
+)
+)
+;
 }
 nsCOMPtr
 <
