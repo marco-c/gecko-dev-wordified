@@ -469,6 +469,7 @@ run_test
 {
 for
 (
+let
 algo
 in
 hashes

@@ -1,3 +1,15 @@
+/
+*
+import
+-
+globals
+-
+from
+mixedContentTest
+.
+js
+*
+/
 document
 .
 open

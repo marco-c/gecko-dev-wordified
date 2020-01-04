@@ -1,3 +1,15 @@
+/
+*
+import
+-
+globals
+-
+from
+head_psm
+.
+js
+*
+/
 function
 run_test
 (
