@@ -7689,7 +7689,13 @@ MediaStreamGraphImpl
 :
 OpenAudioInput
 aID
+RefPtr
+<
+AudioDataListener
+>
+(
 aListener
+)
 )
 )
 ;
@@ -8111,7 +8117,13 @@ MediaStreamGraphImpl
 :
 :
 CloseAudioInput
+RefPtr
+<
+AudioDataListener
+>
+(
 aListener
+)
 )
 )
 ;
