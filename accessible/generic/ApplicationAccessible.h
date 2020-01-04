@@ -374,6 +374,11 @@ override
 /
 ApplicationAccessible
 void
+Init
+(
+)
+;
+void
 AppName
 (
 nsAString
@@ -485,13 +490,6 @@ ApplicationAccessible
 /
 /
 Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 virtual
 Accessible
 *
