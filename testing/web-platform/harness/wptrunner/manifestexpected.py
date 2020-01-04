@@ -177,9 +177,8 @@ SubtestNode
 raise
 ValueError
 def
-bool_prop
+disabled
 (
-name
 node
 )
 :
@@ -188,7 +187,12 @@ node
 "
 "
 Boolean
-property
+indicating
+whether
+the
+test
+is
+disabled
 "
 "
 "
@@ -201,7 +205,9 @@ node
 .
 get
 (
-name
+"
+disabled
+"
 )
     
 except
@@ -743,31 +749,8 @@ self
 :
         
 return
-bool_prop
-(
-"
 disabled
-"
-self
-)
-    
-property
-    
-def
-restart_after
 (
-self
-)
-:
-        
-return
-bool_prop
-(
-"
-restart
--
-after
-"
 self
 )
     
@@ -817,31 +800,8 @@ self
 :
         
 return
-bool_prop
-(
-"
 disabled
-"
-self
-)
-    
-property
-    
-def
-restart_after
 (
-self
-)
-:
-        
-return
-bool_prop
-(
-"
-restart
--
-after
-"
 self
 )
     
@@ -1068,31 +1028,8 @@ self
 :
         
 return
-bool_prop
-(
-"
 disabled
-"
-self
-)
-    
-property
-    
-def
-restart_after
 (
-self
-)
-:
-        
-return
-bool_prop
-(
-"
-restart
--
-after
-"
 self
 )
     

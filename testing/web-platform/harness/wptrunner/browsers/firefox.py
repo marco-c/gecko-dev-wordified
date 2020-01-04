@@ -603,6 +603,10 @@ set
 (
 )
     
+init_timeout
+=
+60
+    
 def
 __init__
 (

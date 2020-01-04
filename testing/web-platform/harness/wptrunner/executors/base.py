@@ -1380,6 +1380,8 @@ get_hash
 (
 self
 test
+viewport_size
+dpi
 )
 :
         
@@ -1393,10 +1395,18 @@ self
 .
 timeout_multiplier
         
-if
+key
+=
+(
 test
 .
 url
+viewport_size
+dpi
+)
+        
+if
+key
 not
 in
 self
@@ -1414,6 +1424,8 @@ executor
 screenshot
 (
 test
+viewport_size
+dpi
 )
             
 if
@@ -1446,9 +1458,7 @@ self
 .
 screenshot_cache
 [
-test
-.
-url
+key
 ]
 =
 (
@@ -1458,7 +1468,6 @@ None
             
 rv
 =
-True
 (
 hash_value
 screenshot
@@ -1469,14 +1478,11 @@ else
             
 rv
 =
-True
 self
 .
 screenshot_cache
 [
-test
-.
-url
+key
 ]
         
 self
@@ -1498,15 +1504,13 @@ test
 url
 rv
 [
-1
-]
-[
 0
 ]
 )
 )
         
 return
+True
 rv
     
 def
@@ -1597,6 +1601,18 @@ self
 test
 )
 :
+        
+viewport_size
+=
+test
+.
+viewport_size
+        
+dpi
+=
+test
+.
+dpi
         
 self
 .
@@ -1701,6 +1717,8 @@ self
 get_hash
 (
 node
+viewport_size
+dpi
 )
                 
 if
@@ -1866,6 +1884,8 @@ self
 retake_screenshot
 (
 node
+viewport_size
+dpi
 )
                 
 if
@@ -1970,6 +1990,8 @@ retake_screenshot
 (
 self
 node
+viewport_size
+dpi
 )
 :
         
@@ -1983,6 +2005,8 @@ executor
 screenshot
 (
 node
+viewport_size
+dpi
 )
         
 if
@@ -1994,6 +2018,16 @@ return
 False
 data
         
+key
+=
+(
+node
+.
+url
+viewport_size
+dpi
+)
+        
 hash_val
 _
 =
@@ -2001,18 +2035,14 @@ self
 .
 screenshot_cache
 [
-node
-.
-url
+key
 ]
         
 self
 .
 screenshot_cache
 [
-node
-.
-url
+key
 ]
 =
 hash_val
