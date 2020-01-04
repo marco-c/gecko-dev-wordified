@@ -13942,6 +13942,14 @@ level
 >
 =
 2
+or
+Win64
+#
+ifdef
+_WIN64
+{
+#
+else
 if
 (
 mSandboxLevel
@@ -13950,6 +13958,8 @@ mSandboxLevel
 2
 )
 {
+#
+endif
 NS_NAMED_LITERAL_CSTRING
 (
 wmodeAttributeName
