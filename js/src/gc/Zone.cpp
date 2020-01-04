@@ -484,6 +484,13 @@ gcZoneGroupEdges
 init
 (
 )
+&
+&
+gcWeakKeys
+.
+init
+(
+)
 ;
 }
 void
