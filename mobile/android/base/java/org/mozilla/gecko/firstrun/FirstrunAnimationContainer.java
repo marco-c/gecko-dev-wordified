@@ -409,7 +409,7 @@ Session
 EXPERIMENT
 Experiments
 .
-ONBOARDING2_A
+ONBOARDING3_A
 )
 ;
 Telemetry
@@ -423,7 +423,7 @@ Session
 EXPERIMENT
 Experiments
 .
-ONBOARDING2_B
+ONBOARDING3_B
 )
 ;
 Telemetry
@@ -437,7 +437,7 @@ Session
 EXPERIMENT
 Experiments
 .
-ONBOARDING2_C
+ONBOARDING3_C
 )
 ;
 }
