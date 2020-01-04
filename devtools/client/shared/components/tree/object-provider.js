@@ -348,7 +348,7 @@ object
 .
 length
 >
-0
+1
 ;
 }
 getLabel
