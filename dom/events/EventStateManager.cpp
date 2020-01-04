@@ -19881,7 +19881,7 @@ if
 wheelEvent
 -
 >
-mayHaveMomentum
+mMayHaveMomentum
 &
 &
 nsLayoutUtils

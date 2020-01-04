@@ -3298,7 +3298,7 @@ mCustomizedByUserPrefs
 (
 false
 )
-mayHaveMomentum
+mMayHaveMomentum
 (
 false
 )
@@ -3638,7 +3638,7 @@ follow
 it
 .
 bool
-mayHaveMomentum
+mMayHaveMomentum
 ;
 /
 /
@@ -4196,11 +4196,11 @@ aEvent
 .
 mCustomizedByUserPrefs
 ;
-mayHaveMomentum
+mMayHaveMomentum
 =
 aEvent
 .
-mayHaveMomentum
+mMayHaveMomentum
 ;
 isMomentum
 =
