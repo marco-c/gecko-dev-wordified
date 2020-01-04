@@ -317,6 +317,14 @@ Compartment
 (
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 /
 /
 Before
