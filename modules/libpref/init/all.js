@@ -14080,7 +14080,6 @@ secure
 "
 gzip
 deflate
-brotli
 "
 )
 ;
