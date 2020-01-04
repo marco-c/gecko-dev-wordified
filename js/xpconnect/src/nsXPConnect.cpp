@@ -5803,12 +5803,11 @@ GetSafeJSContext
 namespace
 xpc
 {
-bool
+void
 PushNullJSContext
 (
 )
 {
-return
 XPCJSRuntime
 :
 :

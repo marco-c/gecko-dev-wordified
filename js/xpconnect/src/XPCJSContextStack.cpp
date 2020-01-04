@@ -409,7 +409,7 @@ return
 cx
 ;
 }
-bool
+void
 XPCJSContextStack
 :
 :
@@ -440,9 +440,6 @@ AppendElement
 (
 cx
 )
-;
-return
-true
 ;
 }
 JSContext
