@@ -248,9 +248,10 @@ false
 ;
 activityStream
 .
-setOnUrlOpenListener
+setOnUrlOpenListeners
 (
 mUrlOpenListener
+mUrlOpenInBackgroundListener
 )
 ;
 }

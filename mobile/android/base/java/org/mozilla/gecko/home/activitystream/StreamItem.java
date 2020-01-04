@@ -650,6 +650,16 @@ HighlightItem
 final
 View
 itemView
+final
+HomePager
+.
+OnUrlOpenListener
+onUrlOpenListener
+final
+HomePager
+.
+OnUrlOpenInBackgroundListener
+onUrlOpenInBackgroundListener
 )
 {
 super

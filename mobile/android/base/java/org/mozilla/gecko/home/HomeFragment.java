@@ -662,7 +662,7 @@ in
 the
 background
 .
-private
+protected
 OnUrlOpenInBackgroundListener
 mUrlOpenInBackgroundListener
 ;
