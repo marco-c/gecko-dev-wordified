@@ -136,6 +136,7 @@ spawn_test
 (
 test
 prefix
+env
 passthrough
 =
 False
@@ -269,13 +270,14 @@ prefix
     
 os
 .
-execvp
+execvpe
 (
 cmd
 [
 0
 ]
 cmd
+env
 )
 def
 total_seconds
@@ -1358,6 +1360,35 @@ tasks
 [
 ]
     
+#
+Add
+any
+needed
+environment
+variables
+.
+    
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+    
+env
+[
+'
+XRE_NO_WINDOWS_CRASH_DIALOG
+'
+]
+=
+'
+1
+'
+    
 while
 len
 (
@@ -1423,6 +1454,7 @@ spawn_test
 (
 test
 prefix
+env
 options
 .
 passthrough
