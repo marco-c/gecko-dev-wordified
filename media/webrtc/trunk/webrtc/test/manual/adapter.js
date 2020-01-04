@@ -41,9 +41,6 @@ object
 .
 RTCPeerConnection
 =
-RTCPeerConnection
-|
-|
 mozRTCPeerConnection
 ;
 /

@@ -2053,7 +2053,7 @@ prototype
 classDescription
 :
 "
-RTCIceCandidate
+mozRTCIceCandidate
 "
 classID
 :
@@ -2158,7 +2158,7 @@ prototype
 classDescription
 :
 "
-RTCSessionDescription
+mozRTCSessionDescription
 "
 classID
 :
@@ -2707,7 +2707,7 @@ prototype
 classDescription
 :
 "
-RTCPeerConnection
+mozRTCPeerConnection
 "
 classID
 :
@@ -3572,7 +3572,7 @@ this
 .
 _win
 .
-RTCPeerConnection
+mozRTCPeerConnection
 .
 generateCertificate
 (
@@ -5740,7 +5740,7 @@ this
 .
 _win
 .
-RTCSessionDescription
+mozRTCSessionDescription
 (
 {
 type
@@ -6040,7 +6040,7 @@ this
 .
 _win
 .
-RTCSessionDescription
+mozRTCSessionDescription
 (
 {
 type
@@ -8079,7 +8079,7 @@ this
 .
 _win
 .
-RTCSessionDescription
+mozRTCSessionDescription
 (
 {
 type
@@ -8134,7 +8134,7 @@ this
 .
 _win
 .
-RTCSessionDescription
+mozRTCSessionDescription
 (
 {
 type
@@ -9303,7 +9303,7 @@ _dompc
 .
 _win
 .
-RTCIceCandidate
+mozRTCIceCandidate
 (
 {
 candidate
@@ -10440,7 +10440,7 @@ prototype
 classDescription
 :
 "
-RTCPeerConnectionStatic
+mozRTCPeerConnectionStatic
 "
 QueryInterface
 :
