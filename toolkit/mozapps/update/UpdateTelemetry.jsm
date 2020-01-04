@@ -2027,6 +2027,7 @@ telemetry
 .
 getHistogramById
 (
+id
 )
 .
 add
