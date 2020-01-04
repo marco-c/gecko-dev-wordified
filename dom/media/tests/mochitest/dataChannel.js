@@ -1538,7 +1538,7 @@ chain
 insertBefore
 (
 '
-PC_LOCAL_CHECK_MEDIA_TRACKS
+PC_LOCAL_WAIT_FOR_MEDIA_FLOW
 '
 commandsWaitForDataChannel
 )
