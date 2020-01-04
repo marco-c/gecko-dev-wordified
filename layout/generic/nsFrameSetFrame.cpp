@@ -4882,12 +4882,12 @@ TopBottom
 )
 ;
 ReflowOutput
-metrics
+reflowOutput
 (
 aReflowInput
 )
 ;
-metrics
+reflowOutput
 .
 Width
 (
@@ -4897,7 +4897,7 @@ aSize
 .
 width
 ;
-metrics
+reflowOutput
 .
 Height
 (
@@ -4914,7 +4914,7 @@ ReflowChild
 (
 aChild
 aPresContext
-metrics
+reflowOutput
 reflowInput
 aOffset
 .
@@ -4945,7 +4945,7 @@ and
 size
 the
 child
-metrics
+reflowOutput
 .
 Width
 (
@@ -4955,7 +4955,7 @@ aSize
 .
 width
 ;
-metrics
+reflowOutput
 .
 Height
 (
@@ -4969,7 +4969,7 @@ FinishReflowChild
 (
 aChild
 aPresContext
-metrics
+reflowOutput
 nullptr
 aOffset
 .
