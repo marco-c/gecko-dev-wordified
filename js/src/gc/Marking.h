@@ -2884,6 +2884,11 @@ gc
 pointer
 type
 .
+if
+(
+*
+thingp
+)
 TraceManuallyBarrieredEdge
 (
 trc
@@ -2937,6 +2942,10 @@ pointer
 type
 .
 return
+*
+thingp
+&
+&
 gc
 :
 :
