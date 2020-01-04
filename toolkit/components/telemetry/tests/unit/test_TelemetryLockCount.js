@@ -109,7 +109,13 @@ PR_TRUNCATE
 const
 RW_OWNER
 =
+parseInt
+(
+"
 0600
+"
+8
+)
 ;
 function
 write_string_to_file
