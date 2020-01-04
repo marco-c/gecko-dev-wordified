@@ -40,6 +40,9 @@ response
 .
 iter_content
 (
+read_file
+=
+True
 )
 )
     
@@ -1557,43 +1560,11 @@ resolve_content
 response
 )
     
-modified_content
-=
-[
-]
-    
 offset
 =
 [
 0
 ]
-    
-def
-sleep
-(
-seconds
-)
-:
-        
-def
-inner
-(
-)
-:
-            
-time
-.
-sleep
-(
-seconds
-)
-            
-return
-"
-"
-        
-return
-inner
     
 def
 add_content
@@ -1627,10 +1598,7 @@ bytes
 "
 :
                 
-modified_content
-.
-append
-(
+yield
 content
 [
 offset
@@ -1645,7 +1613,6 @@ offset
 +
 value
 ]
-)
                 
 offset
 [
@@ -1664,14 +1631,11 @@ delay
 "
 :
                 
-modified_content
+time
 .
-append
-(
 sleep
 (
 value
-)
 )
             
 elif
@@ -1683,9 +1647,9 @@ repeat
 "
 :
                 
-assert
+if
 i
-=
+!
 =
 len
 (
@@ -1693,6 +1657,9 @@ delays
 )
 -
 1
+:
+                    
+continue
                 
 while
 offset
@@ -1706,6 +1673,9 @@ content
 )
 :
                     
+for
+item
+in
 add_content
 (
 delays
@@ -1722,6 +1692,10 @@ value
 ]
 True
 )
+:
+                        
+yield
+item
         
 if
 not
@@ -1738,10 +1712,7 @@ content
 )
 :
             
-modified_content
-.
-append
-(
+yield
 content
 [
 offset
@@ -1750,18 +1721,15 @@ offset
 ]
 :
 ]
-)
-    
-add_content
-(
-delays
-)
     
 response
 .
 content
 =
-modified_content
+add_content
+(
+delays
+)
     
 return
 response
