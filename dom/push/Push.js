@@ -677,6 +677,10 @@ let
 keyView
 =
 new
+this
+.
+_window
+.
 Uint8Array
 (
 ArrayBuffer
