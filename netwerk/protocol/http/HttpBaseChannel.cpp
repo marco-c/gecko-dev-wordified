@@ -8768,7 +8768,8 @@ rv
 }
 else
 {
-NS_WARNING
+LOG
+(
 (
 "
 no
@@ -8784,6 +8785,7 @@ cross
 -
 origin
 "
+)
 )
 ;
 }
