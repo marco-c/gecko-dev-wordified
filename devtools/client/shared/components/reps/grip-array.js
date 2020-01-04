@@ -255,6 +255,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+GripArray
+"
 propTypes
 :
 {
@@ -282,11 +287,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-GripArray
-"
 getLength
 :
 function
@@ -874,6 +874,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+GripArrayItem
+"
 propTypes
 :
 {
@@ -885,11 +890,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-GripArrayItem
-"
 render
 :
 function

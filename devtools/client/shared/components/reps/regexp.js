@@ -221,6 +221,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+regexp
+"
 propTypes
 :
 {
@@ -234,11 +239,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-regexp
-"
 getTitle
 :
 function

@@ -190,6 +190,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+LabelCell
+"
 /
 /
 See
@@ -219,11 +224,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-LabelCell
-"
 render
 :
 function

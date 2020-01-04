@@ -153,6 +153,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+Frame
+"
 propTypes
 :
 {
@@ -296,11 +301,6 @@ false
 }
 ;
 }
-displayName
-:
-"
-Frame
-"
 render
 (
 )

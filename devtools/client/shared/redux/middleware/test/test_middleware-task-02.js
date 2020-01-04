@@ -427,6 +427,7 @@ data
 )
 ;
 }
+;
 }
 function
 fetchSync

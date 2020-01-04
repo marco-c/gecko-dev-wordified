@@ -87,7 +87,6 @@ const
 {
 executeSoon
 isGenerator
-isPromise
 reportException
 }
 =
@@ -150,9 +149,9 @@ is
 called
 with
 dispatch
+*
 and
 getState
-*
 allowing
 the
 action

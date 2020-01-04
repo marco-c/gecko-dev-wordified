@@ -182,6 +182,7 @@ deferred
 resolve
 (
 )
+;
 }
 }
 /

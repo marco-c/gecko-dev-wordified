@@ -500,6 +500,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeView
+"
 /
 /
 The
@@ -788,11 +793,6 @@ string
 )
 )
 }
-displayName
-:
-"
-TreeView
-"
 getDefaultProps
 :
 function

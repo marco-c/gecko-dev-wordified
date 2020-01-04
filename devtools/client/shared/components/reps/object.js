@@ -246,6 +246,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Obj
+"
 propTypes
 :
 {
@@ -264,11 +269,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-Obj
-"
 getTitle
 :
 function
@@ -957,6 +957,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+PropRep
+"
 propTypes
 :
 {
@@ -996,11 +1001,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-PropRep
-"
 render
 :
 function

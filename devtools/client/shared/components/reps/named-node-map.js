@@ -702,6 +702,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+PropRep
+"
 propTypes
 :
 {
@@ -720,11 +725,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-PropRep
-"
 render
 :
 function

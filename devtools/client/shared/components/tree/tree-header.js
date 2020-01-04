@@ -204,6 +204,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeHeader
+"
 /
 /
 See
@@ -255,11 +260,6 @@ PropTypes
 .
 array
 }
-displayName
-:
-"
-TreeHeader
-"
 getDefaultProps
 :
 function

@@ -418,10 +418,11 @@ push
 action
 )
 ;
+return
+null
+;
 }
-else
-{
-var
+let
 result
 =
 next
@@ -438,7 +439,7 @@ return
 result
 ;
 }
-}
+;
 }
 exports
 .

@@ -379,6 +379,7 @@ fetch2
 "
 data
 }
+;
 }
 function
 reducer

@@ -232,6 +232,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Window
+"
 propTypes
 :
 {
@@ -245,11 +250,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-Window
-"
 getLocation
 :
 function

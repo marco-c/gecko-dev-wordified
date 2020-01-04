@@ -215,6 +215,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeCell
+"
 /
 /
 See
@@ -260,11 +265,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-TreeCell
-"
 /
 *
 *

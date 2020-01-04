@@ -590,6 +590,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Rep
+"
 propTypes
 :
 {
@@ -608,11 +613,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-Rep
-"
 render
 :
 function

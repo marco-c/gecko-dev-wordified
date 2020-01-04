@@ -232,6 +232,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Document
+"
 propTypes
 :
 {
@@ -245,11 +250,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-Document
-"
 getLocation
 :
 function

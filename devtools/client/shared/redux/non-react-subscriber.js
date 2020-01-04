@@ -755,6 +755,7 @@ listener
 (
 payload
 )
+;
 }
 )
 ;
@@ -860,7 +861,6 @@ return
 store
 ;
 }
-;
 /
 *
 *
@@ -1000,9 +1000,9 @@ only
 pass
 in
 correct
+/
+/
 state
-/
-/
 the
 error
 checking
@@ -1029,6 +1029,8 @@ action
 )
 =
 >
+{
+return
 reducers
 [
 key
@@ -1038,6 +1040,8 @@ state
 action
 emitChange
 )
+;
+}
 ;
 return
 newReducers

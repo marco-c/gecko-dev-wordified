@@ -233,6 +233,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Grip
+"
 propTypes
 :
 {
@@ -253,11 +258,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-Grip
-"
 getTitle
 :
 function
@@ -1107,6 +1107,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+PropRep
+"
 propTypes
 :
 {
@@ -1132,11 +1137,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-PropRep
-"
 render
 :
 function

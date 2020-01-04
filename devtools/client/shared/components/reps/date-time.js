@@ -225,6 +225,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Date
+"
 propTypes
 :
 {
@@ -238,11 +243,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-Date
-"
 getTitle
 :
 function
