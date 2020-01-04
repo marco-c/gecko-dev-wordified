@@ -1065,8 +1065,6 @@ in
 /
 /
 which
-/
-/
 case
 it
 is

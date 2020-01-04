@@ -495,7 +495,9 @@ null
 AnimationTiming
 timingToUse
 =
-mTiming
+Timing
+(
+)
 ;
 timingToUse
 .

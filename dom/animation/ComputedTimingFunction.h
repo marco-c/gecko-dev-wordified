@@ -366,4 +366,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_AnimationEffectReadOnly_h
+mozilla_ComputedTimingFunction_h
