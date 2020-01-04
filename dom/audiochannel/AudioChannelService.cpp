@@ -683,10 +683,15 @@ active
 =
 %
 d
+reason
+=
+%
+d
 \
 n
 "
 mActive
+mReason
 )
 )
 ;
