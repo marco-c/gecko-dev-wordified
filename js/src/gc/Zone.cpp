@@ -1282,7 +1282,7 @@ active
 /
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 this
@@ -1390,7 +1390,7 @@ this
 ;
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 this
