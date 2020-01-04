@@ -1090,13 +1090,13 @@ DaemonNotificationRunnable3
 NotificationHandlerWrapper
 void
 BluetoothAddress
-nsString
+BluetoothRemoteName
 uint32_t
 const
 BluetoothAddress
 &
 const
-nsAString
+BluetoothRemoteName
 &
 >
 PinRequestNotification
@@ -1113,7 +1113,7 @@ DaemonNotificationRunnable5
 NotificationHandlerWrapper
 void
 BluetoothAddress
-nsString
+BluetoothRemoteName
 uint32_t
 BluetoothSspVariant
 uint32_t
@@ -1121,7 +1121,7 @@ const
 BluetoothAddress
 &
 const
-nsAString
+BluetoothRemoteName
 &
 >
 SspRequestNotification

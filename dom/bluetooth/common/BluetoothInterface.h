@@ -3706,7 +3706,7 @@ BluetoothAddress
 &
 aRemoteBdAddr
 const
-nsAString
+BluetoothRemoteName
 &
 aBdName
 uint32_t
@@ -3722,7 +3722,7 @@ BluetoothAddress
 &
 aRemoteBdAddr
 const
-nsAString
+BluetoothRemoteName
 &
 aBdName
 uint32_t
