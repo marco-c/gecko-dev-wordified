@@ -937,6 +937,13 @@ RestyleManager
 .
 h
 "
+#
+include
+"
+LayoutLogging
+.
+h
+"
 /
 /
 Make
@@ -31969,7 +31976,7 @@ expected
 "
 )
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 aContainingBlockISize
 !
