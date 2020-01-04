@@ -20178,7 +20178,7 @@ bool
 isAsmJSAccess
 (
 const
-MWasmMemoryAccess
+MemoryAccessDesc
 &
 access
 )
@@ -20192,7 +20192,7 @@ isCompilingAsmJS
 !
 access
 .
-isSimdAccess
+isSimd
 (
 )
 &
@@ -20200,7 +20200,7 @@ isSimdAccess
 !
 access
 .
-isAtomicAccess
+isAtomic
 (
 )
 ;
@@ -20471,7 +20471,7 @@ private
 void
 checkOffset
 (
-MWasmMemoryAccess
+MemoryAccessDesc
 *
 access
 RegI32
@@ -20532,7 +20532,7 @@ MOZ_MUST_USE
 bool
 load
 (
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 RegI32
 ptr
@@ -20574,7 +20574,7 @@ AsmJSLoadOOB
 (
 access
 .
-accessType
+type
 (
 )
 dest
@@ -20684,10 +20684,6 @@ masm
 wasmLoadI64
 (
 access
-.
-accessType
-(
-)
 srcAddr
 dest
 .
@@ -20704,11 +20700,6 @@ masm
 wasmLoad
 (
 access
-.
-accessType
-(
-)
-0
 srcAddr
 dest
 .
@@ -20771,10 +20762,6 @@ masm
 wasmLoadI64
 (
 access
-.
-accessType
-(
-)
 srcAddr
 dest
 .
@@ -20836,11 +20823,6 @@ masm
 wasmLoad
 (
 access
-.
-accessType
-(
-)
-0
 srcAddr
 out
 )
@@ -20904,7 +20886,7 @@ MOZ_MUST_USE
 bool
 store
 (
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 RegI32
 ptr
@@ -21007,11 +20989,6 @@ masm
 wasmStore
 (
 access
-.
-accessType
-(
-)
-0
 src
 .
 any
@@ -21059,7 +21036,7 @@ if
 (
 access
 .
-accessType
+type
 (
 )
 =
@@ -21074,6 +21051,7 @@ masm
 .
 wasmStoreI64
 (
+access
 src
 .
 i64
@@ -21185,11 +21163,6 @@ masm
 wasmStore
 (
 access
-.
-accessType
-(
-)
-0
 value
 dstAddr
 )
@@ -34510,7 +34483,7 @@ minimum
 heap
 length
 .
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -34833,7 +34806,7 @@ minimum
 heap
 length
 .
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -35140,7 +35113,7 @@ minimum
 heap
 length
 .
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -36907,7 +36880,7 @@ minimum
 heap
 length
 .
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType

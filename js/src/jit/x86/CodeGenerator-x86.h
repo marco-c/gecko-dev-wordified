@@ -204,13 +204,6 @@ size_t
 pos
 )
 ;
-void
-memoryBarrier
-(
-MemoryBarrierBits
-barrier
-)
-;
 template
 <
 typename

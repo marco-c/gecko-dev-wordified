@@ -4455,7 +4455,7 @@ private
 void
 checkOffsetAndBounds
 (
-MWasmMemoryAccess
+MemoryAccessDesc
 *
 access
 MDefinition
@@ -4642,7 +4642,7 @@ bool
 isAsmJSAccess
 (
 const
-MWasmMemoryAccess
+MemoryAccessDesc
 &
 access
 )
@@ -4660,7 +4660,7 @@ isAsmJS
 !
 access
 .
-isSimdAccess
+isSimd
 (
 )
 &
@@ -4668,7 +4668,7 @@ isSimdAccess
 !
 access
 .
-isAtomicAccess
+isAtomic
 (
 )
 ;
@@ -4682,7 +4682,7 @@ load
 MDefinition
 *
 base
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 ValType
 result
@@ -4736,7 +4736,7 @@ alloc
 base
 access
 .
-accessType
+type
 (
 )
 )
@@ -4789,7 +4789,7 @@ store
 MDefinition
 *
 base
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 MDefinition
 *
@@ -4843,7 +4843,7 @@ alloc
 base
 access
 .
-accessType
+type
 (
 )
 v
@@ -4892,7 +4892,7 @@ atomicCompareExchangeHeap
 MDefinition
 *
 base
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 MDefinition
 *
@@ -4957,7 +4957,7 @@ atomicExchangeHeap
 MDefinition
 *
 base
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 MDefinition
 *
@@ -5026,7 +5026,7 @@ op
 MDefinition
 *
 base
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 MDefinition
 *
@@ -14519,7 +14519,7 @@ addr
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -14610,7 +14610,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -14692,7 +14692,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -14847,7 +14847,7 @@ store
 "
 )
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -15224,7 +15224,7 @@ viewType
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -15314,7 +15314,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -15411,7 +15411,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -15502,7 +15502,7 @@ newValue
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -15587,7 +15587,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -16925,7 +16925,7 @@ addr
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
@@ -17039,7 +17039,7 @@ value
 return
 false
 ;
-MWasmMemoryAccess
+MemoryAccessDesc
 access
 (
 viewType
