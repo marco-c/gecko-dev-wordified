@@ -1402,6 +1402,11 @@ Invalidate
 )
 ;
 void
+Recomposite
+(
+)
+;
+void
 RequestFullScreen
 (
 )
