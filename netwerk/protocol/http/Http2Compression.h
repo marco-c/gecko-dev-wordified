@@ -371,6 +371,13 @@ aMallocSizeOf
 )
 const
 ;
+nsresult
+SetInitialMaxBufferSize
+(
+uint32_t
+maxBufferSize
+)
+;
 protected
 :
 const
@@ -424,6 +431,9 @@ mMaxBuffer
 ;
 uint32_t
 mMaxBufferSetting
+;
+bool
+mSetInitialMaxBufferSizeAllowed
 ;
 uint32_t
 mPeakSize
