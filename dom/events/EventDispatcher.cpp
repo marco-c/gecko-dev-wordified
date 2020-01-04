@@ -5798,6 +5798,13 @@ TouchEvent
 :
 PrefEnabled
 (
+nsContentUtils
+:
+:
+GetDocShellForEventTarget
+(
+aOwner
+)
 )
 )
 return
