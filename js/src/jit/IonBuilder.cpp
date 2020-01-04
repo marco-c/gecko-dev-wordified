@@ -12560,6 +12560,9 @@ case
 JSOP_CALL
 :
 case
+JSOP_CALLITER
+:
+case
 JSOP_NEW
 :
 case

@@ -920,6 +920,12 @@ JSOP_EVAL
 op
 =
 =
+JSOP_CALLITER
+|
+|
+op
+=
+=
 JSOP_STRICTEVAL
 |
 |
@@ -7663,6 +7669,9 @@ target
 ;
 case
 JSOP_CALL
+:
+case
+JSOP_CALLITER
 :
 case
 JSOP_FUNCALL
