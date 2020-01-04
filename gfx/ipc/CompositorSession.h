@@ -323,8 +323,10 @@ this
 compositor
 .
 virtual
+already_AddRefed
+<
 APZCTreeManager
-*
+>
 GetAPZCTreeManager
 (
 )
