@@ -6972,6 +6972,11 @@ net
 miriadax
 .
 net
+*
+.
+wire
+.
+com
 "
 )
 ;
@@ -7410,6 +7415,11 @@ net
 miriadax
 .
 net
+*
+.
+wire
+.
+com
 "
 )
 ;
@@ -60915,7 +60925,7 @@ blockedURIs
 .
 enabled
 "
-false
+true
 )
 ;
 pref
