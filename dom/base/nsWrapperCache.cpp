@@ -416,7 +416,7 @@ obj
 DOMProxyHandler
 :
 :
-GetAndClearExpandoObject
+ClearExternalRefsForWrapperRelease
 (
 obj
 )
