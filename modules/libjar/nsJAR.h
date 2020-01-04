@@ -740,6 +740,9 @@ mTotalItemsInManifest
 bool
 mOpened
 ;
+bool
+mIsOmnijar
+;
 nsresult
 ParseManifest
 (
