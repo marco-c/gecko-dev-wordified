@@ -549,7 +549,7 @@ test_config
 global_counters
 =
 None
-extensions
+framework
 =
 None
 )
@@ -592,9 +592,9 @@ all_counter_results
         
 self
 .
-extensions
+framework
 =
-extensions
+framework
         
 self
 .

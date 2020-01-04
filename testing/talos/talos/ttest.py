@@ -688,6 +688,15 @@ TestResults
 test_config
             
 global_counters
+            
+browser_config
+.
+get
+(
+'
+framework
+'
+)
         
 )
         
