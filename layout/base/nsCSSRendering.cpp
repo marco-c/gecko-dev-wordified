@@ -8373,9 +8373,6 @@ shadows
 )
 return
 ;
-gfxContextAutoSaveRestore
-gfxStateRestorer
-;
 bool
 hasBorderRadius
 ;
