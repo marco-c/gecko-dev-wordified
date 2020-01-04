@@ -320,6 +320,9 @@ UnownedBaseShape
 class
 WasmInstanceObject
 ;
+class
+WasmMemoryObject
+;
 namespace
 jit
 {
@@ -739,6 +742,15 @@ js
 :
 :
 WasmInstanceObject
+*
+)
+\
+D
+(
+js
+:
+:
+WasmMemoryObject
 *
 )
 \

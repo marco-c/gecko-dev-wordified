@@ -388,12 +388,8 @@ const
 TypedFuncTableVector
 typedFuncTables_
 ;
-GCPtr
-<
-ArrayBufferObjectMaybeShared
-*
->
-heap_
+GCPtrWasmMemoryObject
+memory_
 ;
 bool
 profilingEnabled_
@@ -596,8 +592,8 @@ TypedFuncTableVector
 &
 &
 typedFuncTables
-HandleArrayBufferObjectMaybeShared
-heap
+HandleWasmMemoryObject
+memory
 )
 ;
 public
@@ -623,8 +619,8 @@ TypedFuncTableVector
 &
 &
 typedFuncTables
-HandleArrayBufferObjectMaybeShared
-heap
+HandleWasmMemoryObject
+memoryObject
 Handle
 <
 FunctionVector
