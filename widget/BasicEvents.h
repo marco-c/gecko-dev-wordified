@@ -2146,7 +2146,7 @@ bug
 )
 .
 TimeStamp
-timeStamp
+mTimeStamp
 ;
 WidgetEventTime
 (
@@ -2156,7 +2156,7 @@ mTime
 (
 0
 )
-timeStamp
+mTimeStamp
 (
 TimeStamp
 :
@@ -2179,7 +2179,7 @@ mTime
 (
 aTime
 )
-timeStamp
+mTimeStamp
 (
 aTimeStamp
 )
@@ -2200,11 +2200,11 @@ aOther
 .
 mTime
 ;
-timeStamp
+mTimeStamp
 =
 aOther
 .
-timeStamp
+mTimeStamp
 ;
 }
 }

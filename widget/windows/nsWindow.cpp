@@ -43088,7 +43088,7 @@ GetMessageTime
 ;
 wheelEvent
 .
-timeStamp
+mTimeStamp
 =
 GetMessageTimeStamp
 (
@@ -43295,7 +43295,7 @@ GetMessageTime
 ;
 event
 .
-timeStamp
+mTimeStamp
 =
 GetMessageTimeStamp
 (

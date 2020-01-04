@@ -1327,11 +1327,11 @@ aOther
 .
 mTime
 ;
-timeStamp
+mTimeStamp
 =
 aOther
 .
-timeStamp
+mTimeStamp
 ;
 touches
 .

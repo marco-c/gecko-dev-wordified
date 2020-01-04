@@ -248,7 +248,7 @@ aMouseEvent
 mTime
 aMouseEvent
 .
-timeStamp
+mTimeStamp
 aMouseEvent
 .
 modifiers
@@ -741,7 +741,7 @@ mTime
 ;
 event
 .
-timeStamp
+mTimeStamp
 =
 mTimeStamp
 ;
@@ -805,7 +805,7 @@ aTouchEvent
 mTime
 aTouchEvent
 .
-timeStamp
+mTimeStamp
 aTouchEvent
 .
 modifiers
@@ -1161,7 +1161,7 @@ mTime
 ;
 event
 .
-timeStamp
+mTimeStamp
 =
 this
 -
@@ -1581,7 +1581,7 @@ aMouseEvent
 mTime
 aMouseEvent
 .
-timeStamp
+mTimeStamp
 aMouseEvent
 .
 modifiers
@@ -1914,7 +1914,7 @@ mTime
 ;
 wheelEvent
 .
-timeStamp
+mTimeStamp
 =
 mTimeStamp
 ;
@@ -2245,7 +2245,7 @@ aWheelEvent
 mTime
 aWheelEvent
 .
-timeStamp
+mTimeStamp
 aWheelEvent
 .
 modifiers
@@ -2387,7 +2387,7 @@ mTime
 ;
 wheelEvent
 .
-timeStamp
+mTimeStamp
 =
 mTimeStamp
 ;

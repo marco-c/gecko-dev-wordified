@@ -5441,7 +5441,7 @@ if
 mEvent
 -
 >
-timeStamp
+mTimeStamp
 .
 IsNull
 (
@@ -5540,7 +5540,7 @@ TimeStampToDOMHighRes
 mEvent
 -
 >
-timeStamp
+mTimeStamp
 )
 ;
 }
@@ -5608,7 +5608,7 @@ duration
 mEvent
 -
 >
-timeStamp
+mTimeStamp
 -
 workerPrivate
 -
