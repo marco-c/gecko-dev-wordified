@@ -956,6 +956,12 @@ findbar
 case
 -
 sensitive
+.
+findbar
+-
+entire
+-
+word
 {
 margin
 -

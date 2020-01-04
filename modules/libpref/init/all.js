@@ -10731,6 +10731,16 @@ modalHighlight
 false
 )
 ;
+pref
+(
+"
+findbar
+.
+entireword
+"
+false
+)
+;
 /
 /
 use
