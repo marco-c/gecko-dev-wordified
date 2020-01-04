@@ -1437,7 +1437,7 @@ mBoxState
 (
 aState
 .
-frame
+mFrame
 -
 >
 PresContext

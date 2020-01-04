@@ -1089,7 +1089,7 @@ nscoord
 aContainingBlockISize
 )
 :
-frame
+mFrame
 (
 aFrame
 )
@@ -1186,7 +1186,7 @@ InitOffsets
 (
 aContainingBlockWritingMode
 cbSize
-frame
+mFrame
 -
 >
 GetType
@@ -1398,7 +1398,7 @@ mFlags
 .
 mSpecialBSizeReflow
 )
-frame
+mFrame
 -
 >
 AddStateBits
@@ -1406,7 +1406,7 @@ AddStateBits
 mParentReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetStateBits
@@ -1531,7 +1531,7 @@ mFloatManager
 ;
 if
 (
-frame
+mFrame
 -
 >
 IsFrameOfType
@@ -1620,7 +1620,7 @@ CheckNextInFlowParenthood
 aFrame
 aParentReflowState
 .
-frame
+mFrame
 )
 ;
 mFlags
@@ -1735,7 +1735,7 @@ mFlags
 mDummyParentReflowState
 &
 &
-frame
+mFrame
 -
 >
 GetType
@@ -1802,7 +1802,7 @@ nsLayoutUtils
 ComputeISizeValue
 (
 rendContext
-frame
+mFrame
 aContainingBlockISize
 aContentEdgeToBoxSizing
 aBoxSizingToMarginEdge
@@ -1972,7 +1972,7 @@ aComputedWidth
 {
 NS_ASSERTION
 (
-frame
+mFrame
 "
 Must
 have
@@ -2186,7 +2186,7 @@ nsIAtom
 *
 frameType
 =
-frame
+mFrame
 -
 >
 GetType
@@ -2221,7 +2221,7 @@ IsVertical
 {
 InitResizeFlags
 (
-frame
+mFrame
 -
 >
 PresContext
@@ -2245,7 +2245,7 @@ aComputedHeight
 {
 NS_ASSERTION
 (
-frame
+mFrame
 "
 Must
 have
@@ -2395,7 +2395,7 @@ nsIAtom
 *
 frameType
 =
-frame
+mFrame
 -
 >
 GetType
@@ -2423,7 +2423,7 @@ IsVertical
 {
 InitResizeFlags
 (
-frame
+mFrame
 -
 >
 PresContext
@@ -2590,7 +2590,7 @@ calculation
 ;
 mStylePosition
 =
-frame
+mFrame
 -
 >
 StylePosition
@@ -2599,7 +2599,7 @@ StylePosition
 ;
 mStyleDisplay
 =
-frame
+mFrame
 -
 >
 StyleDisplay
@@ -2608,7 +2608,7 @@ StyleDisplay
 ;
 mStyleVisibility
 =
-frame
+mFrame
 -
 >
 StyleVisibility
@@ -2617,7 +2617,7 @@ StyleVisibility
 ;
 mStyleBorder
 =
-frame
+mFrame
 -
 >
 StyleBorder
@@ -2626,7 +2626,7 @@ StyleBorder
 ;
 mStyleMargin
 =
-frame
+mFrame
 -
 >
 StyleMargin
@@ -2635,7 +2635,7 @@ StyleMargin
 ;
 mStylePadding
 =
-frame
+mFrame
 -
 >
 StylePadding
@@ -2644,7 +2644,7 @@ StylePadding
 ;
 mStyleText
 =
-frame
+mFrame
 -
 >
 StyleText
@@ -2655,7 +2655,7 @@ nsIAtom
 *
 type
 =
-frame
+mFrame
 -
 >
 GetType
@@ -2711,7 +2711,7 @@ nsIFrame
 *
 parent
 =
-frame
+mFrame
 -
 >
 GetParent
@@ -2766,7 +2766,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 )
 )
 {
-frame
+mFrame
 -
 >
 AddStateBits
@@ -2800,7 +2800,7 @@ block
 -
 size
 .
-frame
+mFrame
 -
 >
 AddStateBits
@@ -2875,7 +2875,7 @@ html
 elements
 .
 (
-frame
+mFrame
 -
 >
 GetContent
@@ -2885,7 +2885,7 @@ GetContent
 &
 !
 (
-frame
+mFrame
 -
 >
 GetContent
@@ -2963,7 +2963,7 @@ nsIFrame
 *
 containingBlk
 =
-frame
+mFrame
 ;
 while
 (
@@ -3044,7 +3044,7 @@ HasPercent
 )
 )
 {
-frame
+mFrame
 -
 >
 AddStateBits
@@ -3131,7 +3131,7 @@ block
 -
 size
 .
-frame
+mFrame
 -
 >
 RemoveStateBits
@@ -3147,7 +3147,7 @@ continue
 }
 else
 {
-frame
+mFrame
 -
 >
 RemoveStateBits
@@ -3162,7 +3162,7 @@ break
 }
 else
 {
-frame
+mFrame
 -
 >
 RemoveStateBits
@@ -3307,7 +3307,7 @@ NS_CSS_FRAME_TYPE_INLINE
 &
 &
 !
-frame
+mFrame
 -
 >
 IsFrameOfType
@@ -3392,10 +3392,10 @@ if
 mParentReflowState
 -
 >
-frame
+mFrame
 =
 =
-frame
+mFrame
 -
 >
 GetContainingBlock
@@ -3424,7 +3424,7 @@ frame
 .
 if
 (
-frame
+mFrame
 -
 >
 GetType
@@ -3621,7 +3621,7 @@ if
 rs
 -
 >
-frame
+mFrame
 -
 >
 IsAbsolutelyPositioned
@@ -3667,7 +3667,7 @@ shorthand
 bool
 isIResize
 =
-frame
+mFrame
 -
 >
 ISize
@@ -3692,7 +3692,7 @@ wm
 if
 (
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -3807,7 +3807,7 @@ dirty
 |
 (
 !
-frame
+mFrame
 -
 >
 GetParent
@@ -4093,7 +4093,7 @@ set
 .
 if
 (
-frame
+mFrame
 -
 >
 GetType
@@ -4120,7 +4120,7 @@ a
 special
 way
 .
-frame
+mFrame
 -
 >
 AddStateBits
@@ -4132,7 +4132,7 @@ nsIFrame
 *
 kid
 =
-frame
+mFrame
 -
 >
 PrincipalChildList
@@ -4160,7 +4160,7 @@ NS_FRAME_IS_DIRTY
 }
 else
 {
-frame
+mFrame
 -
 >
 AddStateBits
@@ -4387,7 +4387,7 @@ stack
 .
 AppendElement
 (
-frame
+mFrame
 )
 ;
 do
@@ -4523,7 +4523,7 @@ SetIResize
 (
 !
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -4575,7 +4575,7 @@ mSpecialBSizeReflow
 |
 |
 (
-frame
+mFrame
 -
 >
 FirstInFlow
@@ -4593,7 +4593,7 @@ NS_TABLE_CELL_HAD_SPECIAL_REFLOW
 &
 &
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -4646,7 +4646,7 @@ if
 mCBReflowState
 &
 &
-frame
+mFrame
 -
 >
 IsBlockWrapper
@@ -4720,7 +4720,7 @@ nsLayoutUtils
 :
 GetAsBlock
 (
-frame
+mFrame
 )
 )
 {
@@ -5016,7 +5016,7 @@ IsBResize
 |
 NS_SUBTREE_DIRTY
 (
-frame
+mFrame
 )
 )
 ;
@@ -5080,7 +5080,7 @@ IsBResize
 |
 NS_SUBTREE_DIRTY
 (
-frame
+mFrame
 )
 )
 ;
@@ -5098,7 +5098,7 @@ block
 size
 SetBResize
 (
-frame
+mFrame
 -
 >
 BSize
@@ -5209,7 +5209,7 @@ wm
 eStyleUnit_Auto
 |
 |
-frame
+mFrame
 -
 >
 IsXULBoxFrame
@@ -5262,7 +5262,7 @@ depends
 on
 block
 bsize
-frame
+mFrame
 -
 >
 AddStateBits
@@ -5294,7 +5294,7 @@ nsLayoutUtils
 :
 IsNonWrapperBlock
 (
-frame
+mFrame
 )
 ;
 }
@@ -5402,7 +5402,7 @@ IS_TABLE_CELL
 mCBReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -5588,7 +5588,7 @@ if
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetStateBits
@@ -5609,7 +5609,7 @@ further
 rs
 -
 >
-frame
+mFrame
 -
 >
 AddStateBits
@@ -5718,7 +5718,7 @@ rs
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -5782,7 +5782,7 @@ cases
 }
 if
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -5817,7 +5817,7 @@ re
 set
 this
 .
-frame
+mFrame
 -
 >
 RemoveStateBits
@@ -5979,7 +5979,7 @@ containing
 block
 DISPLAY_INIT_TYPE
 (
-frame
+mFrame
 this
 )
 ;
@@ -6003,7 +6003,7 @@ return
 }
 NS_ASSERTION
 (
-frame
+mFrame
 -
 >
 StyleDisplay
@@ -6031,7 +6031,7 @@ style
 ;
 NS_ASSERTION
 (
-frame
+mFrame
 -
 >
 StyleDisplay
@@ -6059,7 +6059,7 @@ style
 ;
 if
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -6076,7 +6076,7 @@ disp
 >
 IsAbsolutelyPositioned
 (
-frame
+mFrame
 )
 )
 {
@@ -6110,7 +6110,7 @@ revisit
 later
 if
 (
-frame
+mFrame
 -
 >
 GetPrevInFlow
@@ -6130,7 +6130,7 @@ disp
 >
 IsFloating
 (
-frame
+mFrame
 )
 )
 {
@@ -6300,7 +6300,7 @@ is
 replaced
 if
 (
-frame
+mFrame
 -
 >
 IsFrameOfType
@@ -6323,7 +6323,7 @@ frameType
 else
 if
 (
-frame
+mFrame
 -
 >
 IsFrameOfType
@@ -7667,7 +7667,7 @@ NS_ASSERTION
 aFrame
 !
 =
-frame
+mFrame
 "
 How
 did
@@ -7742,7 +7742,7 @@ state
 state
 -
 >
-frame
+mFrame
 !
 =
 aFrame
@@ -9108,7 +9108,7 @@ knowIntrinsicSize
 =
 GetIntrinsicSizeFor
 (
-frame
+mFrame
 intrinsicSize
 aFrameType
 )
@@ -10369,7 +10369,7 @@ nsLayoutUtils
 :
 IsReallyFixedPos
 (
-frame
+mFrame
 )
 )
 {
@@ -10565,7 +10565,7 @@ GetOffsetTo
 cbrs
 -
 >
-frame
+mFrame
 )
 ;
 break
@@ -10584,7 +10584,7 @@ containingBlock
 cbrs
 -
 >
-frame
+mFrame
 )
 ;
 }
@@ -10652,7 +10652,7 @@ GetOffsetTo
 cbrs
 -
 >
-frame
+mFrame
 )
 ;
 }
@@ -11396,7 +11396,7 @@ frames
 ;
 NS_ASSERTION
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -11595,7 +11595,7 @@ PresShell
 >
 GetPlaceholderFrameFor
 (
-frame
+mFrame
 )
 ;
 NS_ASSERTION
@@ -12080,12 +12080,12 @@ wm
 AutoMaybeDisableFontInflation
 an
 (
-frame
+mFrame
 )
 ;
 computedSize
 =
-frame
+mFrame
 -
 >
 ComputeSize
@@ -14283,7 +14283,7 @@ frameType
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -14448,7 +14448,7 @@ if
 rs
 -
 >
-frame
+mFrame
 -
 >
 IsAbsolutelyPositioned
@@ -14507,7 +14507,7 @@ prevInFlow
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetPrevInFlow
@@ -14722,7 +14722,7 @@ frameContent
 firstAncestorRS
 -
 >
-frame
+mFrame
 -
 >
 GetContent
@@ -14769,7 +14769,7 @@ frameContent
 secondAncestorRS
 -
 >
-frame
+mFrame
 -
 >
 GetContent
@@ -14857,7 +14857,7 @@ rs
 mParentReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -15039,7 +15039,7 @@ NS_CSS_FRAME_TYPE_ABSOLUTE
 |
 |
 (
-frame
+mFrame
 -
 >
 GetType
@@ -15053,7 +15053,7 @@ nsGkAtoms
 tableFrame
 &
 &
-frame
+mFrame
 -
 >
 IsAbsolutelyPositioned
@@ -15062,7 +15062,7 @@ IsAbsolutelyPositioned
 &
 &
 (
-frame
+mFrame
 -
 >
 GetParent
@@ -15215,7 +15215,7 @@ wm
 aContainingBlockRS
 -
 >
-frame
+mFrame
 -
 >
 ISize
@@ -15260,7 +15260,7 @@ wm
 aContainingBlockRS
 -
 >
-frame
+mFrame
 -
 >
 BSize
@@ -15857,7 +15857,7 @@ GetWritingMode
 ;
 DISPLAY_INIT_CONSTRAINTS
 (
-frame
+mFrame
 this
 aContainingBlockSize
 .
@@ -15928,7 +15928,7 @@ InitOffsets
 wm
 OffsetPercentBasis
 (
-frame
+mFrame
 wm
 aContainingBlockSize
 )
@@ -16261,7 +16261,7 @@ fType
 cbrs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -16371,7 +16371,7 @@ InitOffsets
 cbwm
 OffsetPercentBasis
 (
-frame
+mFrame
 cbwm
 cbSize
 .
@@ -16849,7 +16849,7 @@ mStyleDisplay
 >
 IsRelativelyPositioned
 (
-frame
+mFrame
 )
 &
 &
@@ -16865,7 +16865,7 @@ mPosition
 ComputeRelativeOffsets
 (
 cbwm
-frame
+mFrame
 cbSize
 .
 ConvertTo
@@ -17445,7 +17445,7 @@ else
 AutoMaybeDisableFontInflation
 an
 (
-frame
+mFrame
 )
 ;
 bool
@@ -17525,7 +17525,7 @@ nsIFrame
 *
 parent
 =
-frame
+mFrame
 -
 >
 GetParent
@@ -17596,7 +17596,7 @@ mStylePosition
 >
 ComputedAlignSelf
 (
-frame
+mFrame
 -
 >
 StyleContext
@@ -17614,7 +17614,7 @@ mStylePosition
 >
 ComputedJustifySelf
 (
-frame
+mFrame
 -
 >
 StyleContext
@@ -17738,7 +17738,7 @@ nsGkAtoms
 legendFrame
 &
 &
-frame
+mFrame
 -
 >
 StyleContext
@@ -17768,7 +17768,7 @@ nsGkAtoms
 scrollFrame
 &
 &
-frame
+mFrame
 -
 >
 GetContentInsertionFrame
@@ -17989,7 +17989,7 @@ AvailableISize
 LogicalSize
 size
 =
-frame
+mFrame
 -
 >
 ComputeSize
@@ -18124,7 +18124,7 @@ isBlock
 !
 IsSideCaption
 (
-frame
+mFrame
 mStyleDisplay
 cbwm
 )
@@ -18270,7 +18270,7 @@ aPadding
 {
 DISPLAY_INIT_OFFSETS
 (
-frame
+mFrame
 this
 aPercentBasis
 aBorder
@@ -18315,7 +18315,7 @@ nsPresContext
 *
 presContext
 =
-frame
+mFrame
 -
 >
 PresContext
@@ -18331,7 +18331,7 @@ presContext
 PropertyTable
 (
 )
-frame
+mFrame
 )
 ;
 props
@@ -18483,7 +18483,7 @@ nsStyleDisplay
 *
 disp
 =
-frame
+mFrame
 -
 >
 StyleDisplay
@@ -18493,7 +18493,7 @@ StyleDisplay
 bool
 isThemed
 =
-frame
+mFrame
 -
 >
 IsThemed
@@ -18528,7 +18528,7 @@ presContext
 DeviceContext
 (
 )
-frame
+mFrame
 disp
 -
 >
@@ -18610,7 +18610,7 @@ false
 else
 if
 (
-frame
+mFrame
 -
 >
 IsSVGText
@@ -18657,7 +18657,7 @@ aPadding
 ;
 needPaddingProp
 =
-frame
+mFrame
 -
 >
 StylePadding
@@ -18671,7 +18671,7 @@ IsWidthDependent
 |
 |
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -18742,7 +18742,7 @@ found
 nscoord
 val
 =
-frame
+mFrame
 -
 >
 Properties
@@ -18908,7 +18908,7 @@ presContext
 DeviceContext
 (
 )
-frame
+mFrame
 disp
 -
 >
@@ -18985,7 +18985,7 @@ left
 else
 if
 (
-frame
+mFrame
 -
 >
 IsSVGText
@@ -19033,7 +19033,7 @@ ComputedPhysicalBorderPadding
 (
 )
 =
-frame
+mFrame
 -
 >
 StyleBorder
@@ -19076,7 +19076,7 @@ nsTableFrame
 *
 >
 (
-frame
+mFrame
 )
 ;
 if
@@ -19259,7 +19259,7 @@ border
 nsSize
 size
 (
-frame
+mFrame
 -
 >
 GetSize
@@ -19970,7 +19970,7 @@ NS_ASSERTION
 prs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -20801,7 +20801,7 @@ nsLayoutUtils
 :
 IsNonWrapperBlock
 (
-frame
+mFrame
 )
 ?
 ComputedBSize
@@ -20824,13 +20824,13 @@ NS_AUTOHEIGHT
 return
 CalcLineHeight
 (
-frame
+mFrame
 -
 >
 GetContent
 (
 )
-frame
+mFrame
 -
 >
 StyleContext
@@ -20842,7 +20842,7 @@ nsLayoutUtils
 :
 FontSizeInflationFor
 (
-frame
+mFrame
 )
 )
 ;
@@ -21013,7 +21013,7 @@ margin
 .
 if
 (
-frame
+mFrame
 -
 >
 IsSVGText
@@ -21045,7 +21045,7 @@ nsStyleMargin
 *
 styleMargin
 =
-frame
+mFrame
 -
 >
 StyleMargin
@@ -21283,7 +21283,7 @@ marginAdjustment
 =
 FontSizeInflationListMarginAdjustment
 (
-frame
+mFrame
 )
 ;
 if
@@ -21356,7 +21356,7 @@ nsStylePadding
 *
 stylePadding
 =
-frame
+mFrame
 -
 >
 StylePadding
@@ -22591,7 +22591,7 @@ mStyleDisplay
 >
 IsFloating
 (
-frame
+mFrame
 )
 ;
 }
@@ -22610,7 +22610,7 @@ mStyleDisplay
 >
 GetDisplay
 (
-frame
+mFrame
 )
 ;
 }

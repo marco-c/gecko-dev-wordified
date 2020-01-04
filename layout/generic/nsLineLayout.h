@@ -2175,7 +2175,7 @@ return
 mBlockReflowState
 -
 >
-frame
+mFrame
 ;
 }
 const

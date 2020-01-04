@@ -522,7 +522,7 @@ nsBCTableCellFrame
 )
 aReflowState
 .
-frame
+mFrame
 ;
 if
 (

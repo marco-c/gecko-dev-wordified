@@ -60589,7 +60589,7 @@ outerReflowState
 outerReflowState
 -
 >
-frame
+mFrame
 !
 =
 this
@@ -60620,7 +60620,7 @@ outerReflowState
 outerReflowState
 -
 >
-frame
+mFrame
 =
 =
 parentFrame
@@ -67034,7 +67034,7 @@ parentRS
 parentRS
 -
 >
-frame
+mFrame
 :
 nullptr
 ;

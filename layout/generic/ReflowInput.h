@@ -641,13 +641,14 @@ LogicalMargin
 ;
 /
 /
-the
+The
 frame
 being
 reflowed
+.
 nsIFrame
 *
-frame
+mFrame
 ;
 /
 /
@@ -1025,7 +1026,7 @@ nsRenderingContext
 aRenderingContext
 )
 :
-frame
+mFrame
 (
 aFrame
 )
@@ -5854,7 +5855,7 @@ on
 .
 return
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -5877,7 +5878,7 @@ IsBResize
 &
 &
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -6176,7 +6177,7 @@ const
 {
 ApplyRelativePositioning
 (
-frame
+mFrame
 ComputedPhysicalOffsets
 (
 )
@@ -6347,7 +6348,7 @@ const
 {
 ApplyRelativePositioning
 (
-frame
+mFrame
 mWritingMode
 ComputedLogicalOffsets
 (

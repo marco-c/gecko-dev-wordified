@@ -12855,7 +12855,7 @@ aReflowState
 aReflowState
 -
 >
-frame
+mFrame
 =
 =
 mFrame
@@ -32471,7 +32471,7 @@ do_QueryFrame
 cbRS
 -
 >
-frame
+mFrame
 )
 ;
 if
@@ -32507,7 +32507,7 @@ frameType
 cbRS
 -
 >
-frame
+mFrame
 -
 >
 GetType

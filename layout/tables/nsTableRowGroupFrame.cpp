@@ -1919,7 +1919,7 @@ do_QueryFrame
 (
 aReflowState
 .
-frame
+mFrame
 )
 ;
 if
@@ -11110,7 +11110,7 @@ tableFrame
 parentRS
 -
 >
-frame
+mFrame
 )
 )
 {
@@ -11134,7 +11134,7 @@ tableFrame
 parentRS
 -
 >
-frame
+mFrame
 )
 &
 &

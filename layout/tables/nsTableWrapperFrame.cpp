@@ -1501,7 +1501,7 @@ if
 (
 aReflowState
 .
-frame
+mFrame
 =
 =
 InnerTableFrame

@@ -703,7 +703,7 @@ cellRS
 cellRS
 -
 >
-frame
+mFrame
 =
 =
 this
@@ -855,7 +855,7 @@ cellRS
 mParentReflowState
 -
 >
-frame
+mFrame
 -
 >
 HasAnyStateBits
@@ -892,7 +892,7 @@ mParentReflowState
 rs
 -
 >
-frame
+mFrame
 -
 >
 AddStateBits
@@ -965,7 +965,7 @@ if
 rs
 -
 >
-frame
+mFrame
 =
 =
 this
@@ -1057,7 +1057,7 @@ fType
 =
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -1165,7 +1165,7 @@ return
 rs
 -
 >
-frame
+mFrame
 =
 =
 this

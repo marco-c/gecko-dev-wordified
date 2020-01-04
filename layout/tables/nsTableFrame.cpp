@@ -665,7 +665,7 @@ MOZ_ASSERT
 (
 reflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -700,7 +700,7 @@ nsTableFrame
 (
 reflowState
 .
-frame
+mFrame
 -
 >
 FirstInFlow
@@ -10924,7 +10924,7 @@ rs
 rs
 -
 >
-frame
+mFrame
 ;
 rs
 =
@@ -10941,7 +10941,7 @@ frameType
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -11130,7 +11130,7 @@ IS_TABLE_CELL
 (
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -11141,7 +11141,7 @@ GetType
 |
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -11157,7 +11157,7 @@ tableRowFrame
 |
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -11173,7 +11173,7 @@ tableRowGroupFrame
 |
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetType
@@ -11206,7 +11206,7 @@ if
 !
 aReflowState
 .
-frame
+mFrame
 -
 >
 GetPrevInFlow
@@ -11417,7 +11417,7 @@ rs
 rs
 -
 >
-frame
+mFrame
 ;
 rs
 =
@@ -11434,7 +11434,7 @@ frameType
 rs
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -11484,7 +11484,7 @@ type
 rs
 -
 >
-frame
+mFrame
 -
 >
 AddStateBits
@@ -18849,7 +18849,7 @@ nsTableRowGroupFrame
 (
 aReflowState
 .
-frame
+mFrame
 )
 ;
 WritingMode

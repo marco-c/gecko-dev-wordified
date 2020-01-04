@@ -6035,7 +6035,7 @@ frame
 =
 aReflowState
 .
-frame
+mFrame
 ;
 LogicalSize
 cbSize
@@ -6318,7 +6318,7 @@ aLastRS
 mParentReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetContent
@@ -6340,7 +6340,7 @@ aLastRS
 mParentReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -6418,7 +6418,7 @@ do_QueryFrame
 aLastRS
 -
 >
-frame
+mFrame
 )
 ;
 nsMargin
@@ -6445,7 +6445,7 @@ GetDesiredScrollbarSizes
 aLastRS
 -
 >
-frame
+mFrame
 -
 >
 PresContext
@@ -26774,7 +26774,7 @@ nsFrame
 ListTag
 (
 stdout
-frame
+mFrame
 )
 ;
 printf
@@ -26983,7 +26983,7 @@ nsFrame
 ListTag
 (
 stdout
-frame
+mFrame
 )
 ;
 printf
@@ -27056,7 +27056,7 @@ nsFrame
 ListTag
 (
 stdout
-frame
+mFrame
 )
 ;
 printf
@@ -27119,7 +27119,7 @@ nsFrame
 ListTag
 (
 stdout
-frame
+mFrame
 )
 ;
 printf

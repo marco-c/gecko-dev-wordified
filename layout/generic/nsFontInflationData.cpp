@@ -264,7 +264,7 @@ bfc
 =
 aReflowState
 .
-frame
+mFrame
 ;
 NS_ASSERTION
 (
@@ -806,7 +806,7 @@ ancestorFrame
 =
 aAncestorReflowState
 .
-frame
+mFrame
 -
 >
 FirstInFlow
@@ -1069,7 +1069,7 @@ FirstInFlow
 =
 parentReflowState
 .
-frame
+mFrame
 -
 >
 FirstInFlow
@@ -1108,7 +1108,7 @@ len
 1
 ]
 .
-frame
+mFrame
 =
 =
 aDescendantFrame
@@ -1189,7 +1189,7 @@ bfc
 =
 aReflowState
 .
-frame
+mFrame
 ;
 NS_ASSERTION
 (
