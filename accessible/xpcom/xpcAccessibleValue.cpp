@@ -492,7 +492,7 @@ AsProxy
 )
 -
 >
-MinValue
+CurValue
 (
 )
 ;
