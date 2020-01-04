@@ -5331,6 +5331,9 @@ env
 halt_on_failure
 =
 True
+ignore_errors
+=
+False
 )
 :
         
@@ -5382,6 +5385,10 @@ True
 halt_on_failure
 =
 halt_on_failure
+                                            
+ignore_errors
+=
+ignore_errors
 )
     
 def
@@ -5885,6 +5892,39 @@ abs_locales_dir
 '
 ]
         
+#
+Bug
+1242771
+-
+echo
+-
+variable
+-
+UPLOAD_FILES
+via
+mozharness
+fails
+when
+stderr
+is
+found
+        
+#
+we
+should
+ignore
+stderr
+as
+unfortunately
+it
+'
+s
+expected
+when
+parsing
+for
+values
+        
 output
 =
 self
@@ -5900,6 +5940,9 @@ cwd
 env
 =
 env
+ignore_errors
+=
+True
 )
         
 self
