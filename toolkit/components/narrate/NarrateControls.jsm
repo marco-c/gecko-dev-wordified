@@ -1584,11 +1584,11 @@ GetStringFromName
 speaking
 ?
 "
-start
+stop
 "
 :
 "
-stop
+start
 "
 )
 ;
