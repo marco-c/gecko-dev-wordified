@@ -691,6 +691,15 @@ GetOrCreate
 ;
 if
 (
+!
+service
+)
+{
+return
+;
+}
+if
+(
 isActive
 )
 {

@@ -21830,6 +21830,11 @@ GetOrCreate
 (
 )
 ;
+if
+(
+service
+)
+{
 service
 -
 >
@@ -21840,6 +21845,7 @@ GetOuterWindow
 )
 )
 ;
+}
 }
 bool
 nsPIDOMWindow
@@ -21895,6 +21901,11 @@ GetOrCreate
 (
 )
 ;
+if
+(
+service
+)
+{
 service
 -
 >
@@ -21906,6 +21917,7 @@ GetOuterWindow
 mWindowID
 )
 ;
+}
 return
 NS_OK
 ;
