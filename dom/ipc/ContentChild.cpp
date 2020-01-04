@@ -16231,6 +16231,7 @@ pushNotifier
 NotifyPushObservers
 (
 aScope
+aPrincipal
 Nothing
 (
 )
@@ -16355,6 +16356,7 @@ pushNotifier
 NotifyPushObservers
 (
 aScope
+aPrincipal
 Some
 (
 aData
@@ -16470,6 +16472,7 @@ pushNotifier
 NotifySubscriptionChangeObservers
 (
 aScope
+aPrincipal
 )
 ;
 Unused

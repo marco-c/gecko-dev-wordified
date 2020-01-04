@@ -334,7 +334,7 @@ let
 {
 subject
 :
-notification
+message
 data
 :
 scope
@@ -345,7 +345,16 @@ notifyPromise
 ;
 equal
 (
-notification
+message
+.
+QueryInterface
+(
+Ci
+.
+nsIPushMessage
+)
+.
+data
 null
 '
 Unexpected

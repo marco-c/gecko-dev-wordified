@@ -31068,6 +31068,13 @@ nsCString
 &
 aScope
 const
+IPC
+:
+:
+Principal
+&
+aPrincipal
+const
 nsString
 &
 aMessageId
@@ -31119,6 +31126,7 @@ pushNotifier
 NotifyPushObservers
 (
 aScope
+aPrincipal
 Nothing
 (
 )
@@ -31151,6 +31159,13 @@ const
 nsCString
 &
 aScope
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 const
 nsString
 &
@@ -31210,6 +31225,7 @@ pushNotifier
 NotifyPushObservers
 (
 aScope
+aPrincipal
 Some
 (
 aData
@@ -31243,6 +31259,13 @@ const
 nsCString
 &
 aScope
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 {
 #
@@ -31291,6 +31314,7 @@ pushNotifier
 NotifySubscriptionChangeObservers
 (
 aScope
+aPrincipal
 )
 ;
 Unused

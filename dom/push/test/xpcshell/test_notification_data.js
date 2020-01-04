@@ -1278,6 +1278,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 equal
 (
