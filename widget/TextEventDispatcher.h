@@ -903,7 +903,10 @@ TextRangeType
 :
 eSelectedRawClause
 *
-NS_TEXTRANGE_CONVERTEDTEXT
+TextRangeType
+:
+:
+eConvertedClause
 or
 *
 NS_TEXTRANGE_SELECTEDCONVERTEDTEXT

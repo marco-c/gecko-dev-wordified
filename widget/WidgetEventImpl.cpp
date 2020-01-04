@@ -525,7 +525,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 :
 case
 TextRangeType
@@ -659,11 +659,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 :
 return
 "
-NS_TEXTRANGE_CONVERTEDTEXT
+TextRangeType
+:
+:
+eConvertedClause
 "
 ;
 case

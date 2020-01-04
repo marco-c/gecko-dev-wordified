@@ -10720,7 +10720,10 @@ the
 clause
 is
 *
-NS_TEXTRANGE_CONVERTEDTEXT
+TextRangeType
+:
+:
+eConvertedClause
 .
 *
 3
@@ -11040,7 +11043,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 ;
 }
 MOZ_LOG
