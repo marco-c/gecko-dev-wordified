@@ -65,10 +65,14 @@ require
 "
 devtools
 /
-shared
+server
+/
+actors
+/
+utils
 /
 webconsole
-/
+-
 utils
 "
 )

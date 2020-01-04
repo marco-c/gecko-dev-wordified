@@ -220,7 +220,7 @@ require
 "
 devtools
 /
-shared
+client
 /
 webconsole
 /
@@ -317,10 +317,14 @@ require
 "
 devtools
 /
-shared
+server
+/
+actors
+/
+utils
 /
 webconsole
-/
+-
 utils
 "
 )
