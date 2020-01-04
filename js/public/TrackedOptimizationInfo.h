@@ -155,6 +155,11 @@ GetProp_Constant
 \
 _
 (
+GetProp_NotDefined
+)
+\
+_
+(
 GetProp_StaticName
 )
 \
@@ -452,6 +457,11 @@ NotStruct
 _
 (
 NotUnboxed
+)
+\
+_
+(
+NotUndefined
 )
 \
 _
