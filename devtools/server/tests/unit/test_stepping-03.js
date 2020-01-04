@@ -218,7 +218,7 @@ gDebuggee
 .
 line0
 +
-5
+4
 )
 ;
 do_check_eq
