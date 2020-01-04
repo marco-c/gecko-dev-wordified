@@ -717,6 +717,11 @@ IsEmpty
 (
 )
 ;
+uint32_t
+ImpreciseLengthForHeuristics
+(
+)
+;
 /
 /
 Returns
