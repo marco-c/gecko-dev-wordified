@@ -636,7 +636,7 @@ https
 :
 /
 /
-services
+discovery
 .
 addons
 .
