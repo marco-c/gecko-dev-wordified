@@ -535,7 +535,6 @@ aVersion
 ;
 }
 else
-{
 if
 (
 aItem
@@ -543,6 +542,7 @@ aItem
 =
 null
 )
+{
 do_throw
 (
 "

@@ -2890,7 +2890,6 @@ bindingParams
 }
 }
 else
-{
 if
 (
 aParams
@@ -2916,7 +2915,6 @@ aParams
 field
 ]
 ;
-}
 }
 }
 return

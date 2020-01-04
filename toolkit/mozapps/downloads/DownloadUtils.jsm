@@ -3447,7 +3447,6 @@ Infinity
 ;
 }
 else
-{
 if
 (
 typeof
@@ -3522,7 +3521,6 @@ replace
 gDecimalSymbol
 )
 ;
-}
 }
 }
 return

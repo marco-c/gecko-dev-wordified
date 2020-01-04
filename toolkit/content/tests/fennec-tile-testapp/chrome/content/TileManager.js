@@ -5353,7 +5353,6 @@ boundRect
 ;
 }
 else
-{
 if
 (
 !
@@ -5361,6 +5360,7 @@ this
 .
 _dirtyTileCanvasRect
 )
+{
 this
 .
 _dirtyTileCanvasRect
@@ -5374,6 +5374,7 @@ this
 boundRect
 )
 ;
+}
 else
 if
 (
@@ -5386,6 +5387,7 @@ this
 boundRect
 )
 )
+{
 this
 .
 _dirtyTileCanvasRect

@@ -1648,6 +1648,10 @@ run
 ;
 }
 else
+if
+(
+wasCollapsed
+)
 {
 /
 /
@@ -1658,11 +1662,6 @@ toolbar
 if
 needed
 .
-if
-(
-wasCollapsed
-)
-{
 promiseSetToolbarVisibility
 (
 toolbar
@@ -1681,7 +1680,6 @@ finish
 (
 )
 ;
-}
 }
 }
 var

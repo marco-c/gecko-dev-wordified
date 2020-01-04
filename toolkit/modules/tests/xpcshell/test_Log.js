@@ -804,7 +804,6 @@ toString
 ;
 }
 else
-{
 if
 (
 expected
@@ -842,7 +841,6 @@ key
 ]
 )
 ;
-}
 }
 }
 for

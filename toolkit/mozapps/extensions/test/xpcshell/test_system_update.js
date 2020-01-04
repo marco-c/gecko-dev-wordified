@@ -3241,6 +3241,13 @@ initialState
 ;
 }
 else
+if
+(
+finalState
+[
+0
+]
+)
 {
 /
 /
@@ -3258,13 +3265,6 @@ directory
 will
 exist
 .
-if
-(
-finalState
-[
-0
-]
-)
 expectedDirs
 +
 +

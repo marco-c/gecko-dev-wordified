@@ -236,7 +236,6 @@ value
 ;
 }
 else
-{
 if
 (
 value
@@ -259,7 +258,6 @@ value
 =
 value
 ;
-}
 }
 }
 }

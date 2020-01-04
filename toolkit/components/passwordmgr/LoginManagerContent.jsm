@@ -2573,7 +2573,6 @@ formLike
 ;
 }
 else
-{
 if
 (
 window
@@ -2662,7 +2661,6 @@ arm
 }
 )
 ;
-}
 }
 }
 /
@@ -5371,6 +5369,13 @@ null
 }
 }
 else
+if
+(
+pw1
+=
+=
+pw2
+)
 {
 /
 /
@@ -5380,14 +5385,6 @@ length
 =
 =
 2
-if
-(
-pw1
-=
-=
-pw2
-)
-{
 /
 /
 Treat
@@ -5442,7 +5439,6 @@ pwFields
 .
 element
 ;
-}
 }
 log
 (

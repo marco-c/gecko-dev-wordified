@@ -4854,7 +4854,6 @@ true
 ;
 }
 else
-{
 if
 (
 this
@@ -4888,7 +4887,6 @@ playPlugin
 (
 )
 ;
-}
 }
 }
 }
@@ -6985,6 +6983,13 @@ event
 ;
 }
 else
+if
+(
+!
+doc
+.
+mozNoPluginCrashedNotification
+)
 {
 /
 /
@@ -7014,14 +7019,6 @@ a
 notification
 bar
 .
-if
-(
-!
-doc
-.
-mozNoPluginCrashedNotification
-)
-{
 this
 .
 global
@@ -7084,7 +7081,6 @@ crashed
 false
 )
 ;
-}
 }
 }
 NPAPIPluginCrashReportSubmitted

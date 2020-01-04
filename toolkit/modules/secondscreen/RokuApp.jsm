@@ -1064,7 +1064,6 @@ listener
 }
 }
 else
-{
 if
 (
 callback
@@ -1074,7 +1073,6 @@ callback
 (
 )
 ;
-}
 }
 }
 }

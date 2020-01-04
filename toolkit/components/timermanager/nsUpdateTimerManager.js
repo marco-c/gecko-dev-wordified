@@ -1970,7 +1970,6 @@ now
 ;
 }
 else
-{
 if
 (
 Date
@@ -1991,6 +1990,7 @@ _timer
 .
 delay
 )
+{
 this
 .
 _timer

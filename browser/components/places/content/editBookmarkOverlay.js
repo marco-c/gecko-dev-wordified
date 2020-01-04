@@ -7133,7 +7133,6 @@ label
 ;
 }
 else
-{
 if
 (
 curTagIndex
@@ -7142,6 +7141,7 @@ curTagIndex
 -
 1
 )
+{
 tags
 .
 splice

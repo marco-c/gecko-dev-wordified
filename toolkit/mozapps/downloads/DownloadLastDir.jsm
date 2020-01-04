@@ -1497,7 +1497,6 @@ null
 ;
 }
 else
-{
 if
 (
 aFile
@@ -1508,6 +1507,7 @@ interfaces
 .
 nsIFile
 )
+{
 Services
 .
 prefs
@@ -1519,6 +1519,7 @@ nsIFile
 aFile
 )
 ;
+}
 else
 if
 (
@@ -1531,6 +1532,7 @@ prefHasUserValue
 LAST_DIR_PREF
 )
 )
+{
 Services
 .
 prefs

@@ -4689,6 +4689,12 @@ _nextBox
 ;
 }
 else
+if
+(
+this
+.
+_canGoForward
+)
 {
 /
 /
@@ -4782,13 +4788,6 @@ it
 exists
 )
 .
-if
-(
-this
-.
-_canGoForward
-)
-{
 this
 .
 _nextBox
@@ -4854,7 +4853,6 @@ aVal
 dampValue
 )
 ;
-}
 }
 }
 _getCurrentHistoryIndex

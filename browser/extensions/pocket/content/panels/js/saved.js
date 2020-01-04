@@ -2218,7 +2218,6 @@ text
 }
 }
 else
-{
 if
 (
 (
@@ -2251,7 +2250,6 @@ stopImmediatePropagation
 (
 )
 ;
-}
 }
 }
 )
