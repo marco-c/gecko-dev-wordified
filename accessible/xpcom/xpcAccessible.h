@@ -277,6 +277,16 @@ final
 override
 ;
 NS_IMETHOD
+GetId
+(
+nsAString
+&
+aID
+)
+final
+override
+;
+NS_IMETHOD
 GetDocument
 (
 nsIAccessibleDocument
