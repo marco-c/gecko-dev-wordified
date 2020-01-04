@@ -1346,6 +1346,15 @@ aAppStatus
 final
 ;
 NS_IMETHOD
+GetAddonId
+(
+nsAString
+&
+aAddonId
+)
+final
+;
+NS_IMETHOD
 GetIsInIsolatedMozBrowserElement
 (
 bool
