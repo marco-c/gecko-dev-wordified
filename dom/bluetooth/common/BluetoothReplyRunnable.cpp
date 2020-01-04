@@ -479,9 +479,6 @@ Value
 >
 v
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
