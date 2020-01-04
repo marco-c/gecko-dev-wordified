@@ -407,6 +407,9 @@ aRequest
 .
 cancel
 (
+Cr
+.
+NS_ERROR_DOM_NOT_FOUND_ERR
 )
 ;
 }
@@ -442,6 +445,9 @@ aRequest
 .
 cancel
 (
+Cr
+.
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 )
 ;
 break
