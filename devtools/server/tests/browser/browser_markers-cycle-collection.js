@@ -102,7 +102,7 @@ requestLongerTimeout
 )
 ;
 let
-doc
+browser
 =
 yield
 addTab
@@ -115,6 +115,13 @@ doc_force_cc
 html
 "
 )
+;
+let
+doc
+=
+browser
+.
+contentDocument
 ;
 initDebuggerServer
 (

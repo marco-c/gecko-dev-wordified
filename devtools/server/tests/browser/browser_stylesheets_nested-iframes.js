@@ -101,7 +101,7 @@ function
 )
 {
 let
-doc
+browser
 =
 yield
 addTab
@@ -118,6 +118,13 @@ iframes
 html
 "
 )
+;
+let
+doc
+=
+browser
+.
+contentDocument
 ;
 info
 (

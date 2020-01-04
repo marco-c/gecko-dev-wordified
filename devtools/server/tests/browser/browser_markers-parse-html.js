@@ -77,7 +77,7 @@ function
 )
 {
 let
-doc
+browser
 =
 yield
 addTab
@@ -90,6 +90,13 @@ doc_innerHTML
 html
 "
 )
+;
+let
+doc
+=
+browser
+.
+contentDocument
 ;
 initDebuggerServer
 (

@@ -154,7 +154,7 @@ function
 )
 {
 let
-doc
+browser
 =
 yield
 addTab
@@ -174,6 +174,13 @@ utf
 mop
 "
 )
+;
+let
+doc
+=
+browser
+.
+contentDocument
 ;
 initDebuggerServer
 (
