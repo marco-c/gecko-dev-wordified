@@ -337,6 +337,15 @@ NotifyController
 (
 )
 ;
+virtual
+nsIConsoleReportCollector
+*
+GetConsoleReportCollector
+(
+)
+const
+override
+;
 }
 ;
 }

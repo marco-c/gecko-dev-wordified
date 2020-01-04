@@ -684,3 +684,17 @@ mController
 nullptr
 ;
 }
+nsIConsoleReportCollector
+*
+InterceptedJARChannel
+:
+:
+GetConsoleReportCollector
+(
+)
+const
+{
+return
+nullptr
+;
+}
