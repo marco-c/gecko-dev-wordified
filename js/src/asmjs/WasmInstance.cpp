@@ -2814,7 +2814,7 @@ setExtendedSlot
 FunctionExtended
 :
 :
-WASM_MODULE_SLOT
+WASM_INSTANCE_SLOT
 ObjectValue
 (
 *
@@ -2848,17 +2848,9 @@ CreateExportObject
 JSContext
 *
 cx
-Handle
-<
-WasmInstanceObject
-*
->
+HandleWasmInstanceObject
 instanceObj
-Handle
-<
-ArrayBufferObjectMaybeShared
-*
->
+HandleArrayBufferObjectMaybeShared
 heap
 const
 ExportMap
@@ -6345,7 +6337,7 @@ getExtendedSlot
 FunctionExtended
 :
 :
-WASM_MODULE_SLOT
+WASM_INSTANCE_SLOT
 )
 ;
 return
