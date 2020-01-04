@@ -1740,7 +1740,10 @@ T
 ;
 \
 return
+MOZ_LIKELY
+(
 memory
+)
 \
 ?
 new
