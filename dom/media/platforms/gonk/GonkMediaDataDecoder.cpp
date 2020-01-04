@@ -894,10 +894,7 @@ mInitPromise
 .
 RejectIfExists
 (
-DecoderFailureReason
-:
-:
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;

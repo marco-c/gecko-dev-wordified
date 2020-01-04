@@ -1329,11 +1329,8 @@ this
 ref
 ]
 (
-MediaDataDecoder
-:
-:
-DecoderFailureReason
-aReason
+MediaResult
+aError
 )
 {
 MainThreadShutdown

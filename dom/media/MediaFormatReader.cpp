@@ -2867,11 +2867,8 @@ self
 aTrack
 ]
 (
-MediaDataDecoder
-:
-:
-DecoderFailureReason
-aResult
+MediaResult
+aError
 )
 {
 auto
@@ -2906,6 +2903,7 @@ self
 NotifyError
 (
 aTrack
+aError
 )
 ;
 }

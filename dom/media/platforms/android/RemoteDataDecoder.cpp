@@ -956,10 +956,7 @@ InitPromise
 :
 CreateAndReject
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -1039,10 +1036,7 @@ InitPromise
 :
 CreateAndReject
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -1492,10 +1486,7 @@ InitPromise
 :
 CreateAndReject
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;

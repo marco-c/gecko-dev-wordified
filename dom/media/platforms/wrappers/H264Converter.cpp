@@ -1302,11 +1302,8 @@ H264Converter
 :
 OnDecoderInitFailed
 (
-MediaDataDecoder
-:
-:
-DecoderFailureReason
-aReason
+MediaResult
+aError
 )
 {
 mInitPromiseRequest
