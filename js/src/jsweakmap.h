@@ -2330,9 +2330,9 @@ getClass
 )
 -
 >
-ext
-.
-weakmapKeyDelegateOp
+extWeakmapKeyDelegateOp
+(
+)
 ;
 return
 op

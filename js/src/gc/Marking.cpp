@@ -16952,9 +16952,9 @@ getClass
 )
 -
 >
-ext
-.
-objectMovedOp
+extObjectMovedOp
+(
+)
 )
 {
 op

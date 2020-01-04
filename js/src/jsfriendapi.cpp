@@ -3734,9 +3734,9 @@ getClass
 )
 -
 >
-ext
-.
-weakmapKeyDelegateOp
+extWeakmapKeyDelegateOp
+(
+)
 )
 return
 op
@@ -7573,9 +7573,9 @@ obj
 )
 -
 >
-ext
-.
-objectMovedOp
+extObjectMovedOp
+(
+)
 ;
 }
 #

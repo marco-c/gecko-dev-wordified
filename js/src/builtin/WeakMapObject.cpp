@@ -755,9 +755,9 @@ getClass
 )
 -
 >
-ext
-.
-isWrappedNative
+extIsWrappedNative
+(
+)
 |
 |
 (
@@ -1002,9 +1002,9 @@ getClass
 )
 -
 >
-ext
-.
-weakmapKeyDelegateOp
+extWeakmapKeyDelegateOp
+(
+)
 )
 {
 RootedObject

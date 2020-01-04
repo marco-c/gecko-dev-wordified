@@ -1918,9 +1918,9 @@ return
 clazz
 -
 >
-ext
-.
-isWrappedNative
+extIsWrappedNative
+(
+)
 ;
 }
 static
