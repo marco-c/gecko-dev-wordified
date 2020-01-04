@@ -349,6 +349,9 @@ namespace
 mozilla
 {
 class
+HTMLEditorEventListener
+;
+class
 HTMLEditRules
 ;
 class
@@ -6276,6 +6279,13 @@ class
 mozilla
 :
 :
+HTMLEditorEventListener
+;
+friend
+class
+mozilla
+:
+:
 HTMLEditRules
 ;
 friend
@@ -6291,10 +6301,6 @@ mozilla
 :
 :
 WSRunObject
-;
-friend
-class
-nsHTMLEditorEventListener
 ;
 private
 :

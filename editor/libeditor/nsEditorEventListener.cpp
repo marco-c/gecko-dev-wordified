@@ -4716,7 +4716,7 @@ may
 be
 called
 by
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 MouseDown
