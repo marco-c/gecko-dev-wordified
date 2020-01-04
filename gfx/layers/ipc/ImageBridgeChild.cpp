@@ -540,7 +540,7 @@ h
 /
 /
 for
-AutoInfallibleTArray
+AutoTArray
 #
 include
 "
@@ -3738,7 +3738,7 @@ IsEmpty
 return
 ;
 }
-AutoInfallibleTArray
+AutoTArray
 <
 CompositableOperation
 10
@@ -3812,7 +3812,7 @@ PlatformSyncBeforeUpdate
 )
 ;
 }
-AutoInfallibleTArray
+AutoTArray
 <
 EditReply
 10

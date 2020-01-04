@@ -4493,7 +4493,7 @@ else
 in
 CSS
 .
-AutoInfallibleTArray
+AutoTArray
 <
 KeyframeData
 16
@@ -4972,7 +4972,7 @@ has
 the
 property
 .
-AutoInfallibleTArray
+AutoTArray
 <
 uint32_t
 16

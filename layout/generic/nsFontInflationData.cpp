@@ -848,7 +848,7 @@ ComputedISize
 )
 ;
 }
-AutoInfallibleTArray
+AutoTArray
 <
 nsIFrame
 *

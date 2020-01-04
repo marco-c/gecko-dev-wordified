@@ -90380,7 +90380,7 @@ accepts
 .
 *
 /
-AutoInfallibleTArray
+AutoTArray
 <
 nsCSSValue
 16
