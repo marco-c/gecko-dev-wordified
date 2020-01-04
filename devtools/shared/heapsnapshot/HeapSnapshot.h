@@ -330,7 +330,7 @@ struct
 DeserializedStackFrame
 ;
 friend
-struct
+class
 JS
 :
 :
