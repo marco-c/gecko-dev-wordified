@@ -383,7 +383,7 @@ require
 =
 >
 {
-let
+const
 uri
 =
 require

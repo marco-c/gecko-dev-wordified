@@ -400,9 +400,6 @@ children
 undefined
 }
 ]
-id
-:
-1
 }
 ;
 function

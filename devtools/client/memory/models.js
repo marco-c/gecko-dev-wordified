@@ -376,7 +376,7 @@ if
 !
 stateNames
 .
-includes
+contains
 (
 current
 )
@@ -403,7 +403,7 @@ if
 (
 shouldHavePath
 .
-includes
+contains
 (
 current
 )
@@ -436,7 +436,7 @@ if
 (
 shouldHaveCensus
 .
-includes
+contains
 (
 current
 )
