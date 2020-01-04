@@ -818,11 +818,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 deinterlacingConfig
 removeFrameRectConfig
 downscalingConfig
@@ -843,11 +838,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 removeFrameRectConfig
 downscalingConfig
 surfaceConfig
@@ -873,7 +863,6 @@ pipe
 =
 MakePipe
 (
-aInputSize
 deinterlacingConfig
 downscalingConfig
 surfaceConfig
@@ -893,7 +882,6 @@ pipe
 =
 MakePipe
 (
-aInputSize
 downscalingConfig
 surfaceConfig
 )
@@ -924,11 +912,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 deinterlacingConfig
 removeFrameRectConfig
 surfaceConfig
@@ -948,11 +931,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 removeFrameRectConfig
 surfaceConfig
 )
@@ -977,7 +955,6 @@ pipe
 =
 MakePipe
 (
-aInputSize
 deinterlacingConfig
 surfaceConfig
 )
@@ -996,7 +973,6 @@ pipe
 =
 MakePipe
 (
-aInputSize
 surfaceConfig
 )
 ;
@@ -1305,11 +1281,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 deinterlacingConfig
 palettedSurfaceConfig
 )
@@ -1321,11 +1292,6 @@ pipe
 =
 MakePipe
 (
-aFrameRect
-.
-Size
-(
-)
 palettedSurfaceConfig
 )
 ;
@@ -1351,10 +1317,6 @@ SurfacePipe
 >
 MakePipe
 (
-const
-nsIntSize
-&
-aInputSize
 Configs
 .
 .
