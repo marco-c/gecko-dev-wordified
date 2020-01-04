@@ -10825,7 +10825,13 @@ guaranteed
 to
 succeed
 .
-NS_ASSERTION
+entry
+=
+static_cast
+<
+NPObjWrapperHashEntry
+*
+>
 (
 sNPObjWrappers
 -
@@ -10834,6 +10840,11 @@ Search
 (
 npobj
 )
+)
+;
+NS_ASSERTION
+(
+entry
 "
 Hashtable
 didn
