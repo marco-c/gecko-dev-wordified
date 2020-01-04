@@ -214,10 +214,9 @@ TypedArrays
 .
 forEach
 (
-function
-(
 f
-)
+=
+>
 sb
 .
 ta
