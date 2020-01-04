@@ -4051,9 +4051,9 @@ gfxContext
 SetDeviceColor
 (
 const
-gfxRGBA
+Color
 &
-c
+aColor
 )
 {
 CurrentState
@@ -4086,10 +4086,7 @@ CurrentState
 .
 color
 =
-ToColor
-(
-c
-)
+aColor
 ;
 }
 bool
