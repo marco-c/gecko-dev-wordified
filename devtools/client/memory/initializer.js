@@ -319,6 +319,9 @@ createElement
 (
 App
 {
+toolbox
+:
+gToolbox
 front
 :
 gFront
