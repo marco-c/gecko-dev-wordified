@@ -29,6 +29,8 @@ Flags
 :
 /
 /
+this
+.
 __defineGetter__
 (
 "

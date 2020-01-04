@@ -19,6 +19,8 @@ Flags
 :
 /
 /
+this
+.
 __defineSetter__
 (
 "

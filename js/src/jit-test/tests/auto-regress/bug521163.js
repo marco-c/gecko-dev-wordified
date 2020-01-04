@@ -42,6 +42,8 @@ in
 let
 c
 =
+this
+.
 __defineGetter__
 (
 "

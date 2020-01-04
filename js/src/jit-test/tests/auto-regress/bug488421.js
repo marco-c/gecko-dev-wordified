@@ -31,6 +31,8 @@ x
 eval
 (
 "
+this
+.
 __defineGetter__
 (
 \

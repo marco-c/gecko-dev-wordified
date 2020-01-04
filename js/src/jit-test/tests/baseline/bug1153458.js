@@ -16,6 +16,8 @@ error
 TypeError
 try
 {
+this
+.
 __defineGetter__
 (
 "
