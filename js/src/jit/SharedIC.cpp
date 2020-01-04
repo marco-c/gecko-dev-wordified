@@ -10099,7 +10099,7 @@ truncateABICall
 ;
 masm
 .
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 FloatReg0
 scratchReg
@@ -11013,7 +11013,7 @@ truncateABICall
 ;
 masm
 .
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 FloatReg0
 scratchReg

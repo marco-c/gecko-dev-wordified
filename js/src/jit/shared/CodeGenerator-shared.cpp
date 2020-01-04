@@ -9746,7 +9746,7 @@ mir
 ;
 masm
 .
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 src
 dest
@@ -9811,7 +9811,7 @@ mir
 ;
 masm
 .
-branchTruncateFloat32
+branchTruncateFloat32MaybeModUint32
 (
 src
 dest

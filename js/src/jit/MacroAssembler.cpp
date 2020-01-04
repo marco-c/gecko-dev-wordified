@@ -13177,7 +13177,7 @@ break
 case
 IntConversion_Truncate
 :
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 src
 output
