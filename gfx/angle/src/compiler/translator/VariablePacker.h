@@ -103,11 +103,6 @@ A
 section
 7
 .
-template
-<
-typename
-VarT
->
 bool
 CheckVariablesWithinPackingLimits
 (
@@ -120,7 +115,10 @@ std
 :
 vector
 <
-VarT
+sh
+:
+:
+ShaderVariable
 >
 &
 in_variables

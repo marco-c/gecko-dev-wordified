@@ -74,9 +74,9 @@ LIBANGLE_RENDERER_D3D_D3D9_RENDERER9UTILS_H_
 #
 include
 "
-libANGLE
+common
 /
-angletypes
+Color
 .
 h
 "

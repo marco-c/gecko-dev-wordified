@@ -1627,7 +1627,7 @@ FramebufferIncompleteDepthStencilAttachment
 {
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -1730,6 +1730,8 @@ std
 :
 :
 endl
+;
+return
 ;
 }
 glBindFramebuffer

@@ -655,6 +655,10 @@ fragmentStaticUse
 (
 false
 )
+computeStaticUse
+(
+false
+)
 {
 }
 UniformBlock
@@ -697,6 +701,10 @@ vertexStaticUse
 false
 )
 fragmentStaticUse
+(
+false
+)
+computeStaticUse
 (
 false
 )

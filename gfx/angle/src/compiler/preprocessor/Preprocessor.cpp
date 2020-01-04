@@ -154,7 +154,6 @@ directiveParser
 &
 macroSet
 diag
-false
 )
 {
 }

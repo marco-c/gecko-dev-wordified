@@ -504,6 +504,9 @@ renderer
 EGLImageD3D
 *
 image
+RenderTarget9
+*
+renderTarget9
 )
 ;
 ~

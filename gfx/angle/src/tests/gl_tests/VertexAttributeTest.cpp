@@ -4561,7 +4561,7 @@ GL_UNSIGNED_SHORT
 ;
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 >

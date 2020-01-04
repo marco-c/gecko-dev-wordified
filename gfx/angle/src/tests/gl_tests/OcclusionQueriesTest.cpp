@@ -255,7 +255,7 @@ IsOccluded
 {
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -474,7 +474,7 @@ IsNotOccluded
 {
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -632,7 +632,7 @@ Errors
 {
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -1059,7 +1059,7 @@ MultiContext
 {
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <

@@ -339,13 +339,6 @@ generateConfigs
 override
 ;
 bool
-isDeviceLost
-(
-)
-const
-override
-;
-bool
 testDeviceLost
 (
 )
@@ -765,6 +758,9 @@ mHasARBCreateContext
 ;
 bool
 mHasARBCreateContextProfile
+;
+bool
+mHasARBCreateContextRobustness
 ;
 bool
 mHasEXTCreateContextES2Profile

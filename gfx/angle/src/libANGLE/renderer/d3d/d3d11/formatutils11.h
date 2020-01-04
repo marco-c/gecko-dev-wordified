@@ -178,9 +178,6 @@ stencilBits
 GLenum
 componentType
 ;
-FastCopyFunctionMap
-fastCopyFunctions
-;
 NativeMipmapGenerationSupportFunction
 nativeMipmapSupport
 ;

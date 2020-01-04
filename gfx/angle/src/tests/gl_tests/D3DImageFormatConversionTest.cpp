@@ -71,9 +71,7 @@ h
 #
 include
 "
-libANGLE
-/
-renderer
+image_util
 /
 imageformats
 .
@@ -902,9 +900,6 @@ return
 }
 runTest
 <
-rx
-:
-:
 R4G4B4A4
 >
 (
@@ -1017,9 +1012,6 @@ return
 }
 runTest
 <
-rx
-:
-:
 R5G5B5A1
 >
 (
@@ -1132,9 +1124,6 @@ return
 }
 runTest
 <
-rx
-:
-:
 R5G6B5
 >
 (
@@ -1247,9 +1236,6 @@ return
 }
 runTest
 <
-rx
-:
-:
 R8G8B8A8
 >
 (
@@ -1368,9 +1354,6 @@ GL_UNPACK_ALIGNMENT
 ;
 runTest
 <
-rx
-:
-:
 R8G8B8
 >
 (
