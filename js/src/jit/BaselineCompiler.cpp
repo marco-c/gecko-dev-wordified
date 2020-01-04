@@ -3513,6 +3513,9 @@ CheckOverRecursedWithExtraFn
 >
 (
 CheckOverRecursedWithExtra
+"
+CheckOverRecursedWithExtra
+"
 )
 ;
 bool
@@ -4013,6 +4016,9 @@ jit
 :
 :
 DebugPrologue
+"
+DebugPrologue
+"
 )
 ;
 bool
@@ -4228,6 +4234,9 @@ jit
 :
 :
 InitGlobalOrEvalScopeObjects
+"
+InitGlobalOrEvalScopeObjects
+"
 )
 ;
 typedef
@@ -4257,6 +4266,9 @@ jit
 :
 :
 InitFunctionScopeObjects
+"
+InitFunctionScopeObjects
+"
 )
 ;
 bool
@@ -4629,6 +4641,9 @@ InterruptCheckFn
 >
 (
 InterruptCheck
+"
+InterruptCheck
+"
 )
 ;
 bool
@@ -4733,6 +4748,9 @@ IonCompileScriptForBaselineFn
 >
 (
 IonCompileScriptForBaseline
+"
+IonCompileScriptForBaseline
+"
 )
 ;
 bool
@@ -7915,6 +7933,9 @@ ThrowCheckIsObjectFn
 >
 (
 ThrowCheckIsObject
+"
+ThrowCheckIsObject
+"
 )
 ;
 bool
@@ -8030,6 +8051,9 @@ ThrowUninitializedThisFn
 >
 (
 BaselineThrowUninitializedThis
+"
+BaselineThrowUninitializedThis
+"
 )
 ;
 bool
@@ -8173,6 +8197,9 @@ jit
 :
 :
 ThrowBadDerivedReturn
+"
+ThrowBadDerivedReturn
+"
 )
 ;
 bool
@@ -8384,6 +8411,9 @@ jit
 :
 :
 BaselineGetFunctionThis
+"
+BaselineGetFunctionThis
+"
 )
 ;
 bool
@@ -8592,6 +8622,9 @@ js
 :
 :
 GetNonSyntacticGlobalThis
+"
+GetNonSyntacticGlobalThis
+"
 )
 ;
 bool
@@ -9033,6 +9066,9 @@ DeepCloneObjectLiteralFn
 >
 (
 DeepCloneObjectLiteral
+"
+DeepCloneObjectLiteral
+"
 )
 ;
 bool
@@ -9302,6 +9338,9 @@ CloneRegExpObjectFn
 >
 (
 CloneRegExpObject
+"
+CloneRegExpObject
+"
 )
 ;
 bool
@@ -9404,6 +9443,9 @@ js
 :
 :
 Lambda
+"
+Lambda
+"
 )
 ;
 bool
@@ -9535,6 +9577,9 @@ js
 :
 :
 LambdaArrow
+"
+LambdaArrow
+"
 )
 ;
 bool
@@ -10864,6 +10909,9 @@ js
 :
 :
 NewDenseCopyOnWriteArray
+"
+NewDenseCopyOnWriteArray
+"
 )
 ;
 bool
@@ -11561,6 +11609,9 @@ MutateProtoFn
 >
 (
 MutatePrototype
+"
+MutatePrototype
+"
 )
 ;
 bool
@@ -11803,6 +11854,9 @@ NewbornArrayPushFn
 >
 (
 NewbornArrayPush
+"
+NewbornArrayPush
+"
 )
 ;
 bool
@@ -12109,6 +12163,9 @@ DeleteElementJit
 <
 true
 >
+"
+DeleteElementStrict
+"
 )
 ;
 static
@@ -12125,6 +12182,9 @@ DeleteElementJit
 <
 false
 >
+"
+DeleteElementNonStrict
+"
 )
 ;
 bool
@@ -12855,6 +12915,9 @@ jit
 :
 :
 BindVar
+"
+BindVar
+"
 )
 ;
 bool
@@ -13237,6 +13300,9 @@ DeletePropertyJit
 <
 true
 >
+"
+DeletePropertyStrict
+"
 )
 ;
 static
@@ -13253,6 +13319,9 @@ DeletePropertyJit
 <
 false
 >
+"
+DeletePropertyNonStrict
+"
 )
 ;
 bool
@@ -14247,6 +14316,9 @@ DeleteNameFn
 >
 (
 DeleteNameOperation
+"
+DeleteNameOperation
+"
 )
 ;
 bool
@@ -14716,6 +14788,9 @@ DefVarFn
 >
 (
 DefVar
+"
+DefVar
+"
 )
 ;
 bool
@@ -14844,6 +14919,9 @@ DefLexicalFn
 >
 (
 DefLexical
+"
+DefLexical
+"
 )
 ;
 bool
@@ -14986,6 +15064,9 @@ DefFunOperationFn
 >
 (
 DefFunOperation
+"
+DefFunOperation
+"
 )
 ;
 bool
@@ -15098,6 +15179,9 @@ InitPropGetterSetterFn
 >
 (
 InitGetterSetterOperation
+"
+InitPropGetterSetterOperation
+"
 )
 ;
 bool
@@ -15362,6 +15446,9 @@ InitElemGetterSetterFn
 >
 (
 InitGetterSetterOperation
+"
+InitElemGetterSetterOperation
+"
 )
 ;
 bool
@@ -16839,6 +16926,9 @@ jit
 :
 :
 ThrowRuntimeLexicalError
+"
+ThrowRuntimeLexicalError
+"
 )
 ;
 bool
@@ -17607,6 +17697,9 @@ OptimizeSpreadCallFn
 >
 (
 OptimizeSpreadCall
+"
+OptimizeSpreadCall
+"
 )
 ;
 bool
@@ -17708,6 +17801,9 @@ ImplicitThisFn
 >
 (
 ImplicitThisOperation
+"
+ImplicitThisOperation
+"
 )
 ;
 bool
@@ -17973,6 +18069,9 @@ js
 :
 :
 ThrowMsgOperation
+"
+ThrowMsgOperation
+"
 )
 ;
 bool
@@ -18031,6 +18130,9 @@ js
 :
 :
 Throw
+"
+Throw
+"
 )
 ;
 bool
@@ -18099,6 +18201,9 @@ js
 :
 :
 ThrowingOperation
+"
+ThrowingOperation
+"
 )
 ;
 bool
@@ -18450,6 +18555,9 @@ jit
 :
 :
 PushBlockScope
+"
+PushBlockScope
+"
 )
 ;
 bool
@@ -18562,6 +18670,9 @@ jit
 :
 :
 PopBlockScope
+"
+PopBlockScope
+"
 )
 ;
 typedef
@@ -18593,6 +18704,9 @@ jit
 :
 :
 DebugLeaveThenPopBlockScope
+"
+DebugLeaveThenPopBlockScope
+"
 )
 ;
 bool
@@ -18691,6 +18805,9 @@ jit
 :
 :
 FreshenBlockScope
+"
+FreshenBlockScope
+"
 )
 ;
 typedef
@@ -18722,6 +18839,9 @@ jit
 :
 :
 DebugLeaveThenFreshenBlockScope
+"
+DebugLeaveThenFreshenBlockScope
+"
 )
 ;
 bool
@@ -18822,6 +18942,9 @@ jit
 :
 :
 DebugLeaveBlock
+"
+DebugLeaveBlock
+"
 )
 ;
 bool
@@ -18913,6 +19036,9 @@ jit
 :
 :
 EnterWith
+"
+EnterWith
+"
 )
 ;
 bool
@@ -19047,6 +19173,9 @@ jit
 :
 :
 LeaveWith
+"
+LeaveWith
+"
 )
 ;
 bool
@@ -19127,6 +19256,9 @@ GetAndClearExceptionFn
 >
 (
 GetAndClearException
+"
+GetAndClearException
+"
 )
 ;
 bool
@@ -19195,6 +19327,9 @@ jit
 :
 :
 OnDebuggerStatement
+"
+OnDebuggerStatement
+"
 )
 ;
 bool
@@ -19352,6 +19487,9 @@ jit
 :
 :
 DebugEpilogueOnBaselineReturn
+"
+DebugEpilogueOnBaselineReturn
+"
 )
 ;
 bool
@@ -19833,6 +19971,9 @@ js
 :
 :
 ToIdOperation
+"
+ToIdOperation
+"
 )
 ;
 bool
@@ -20000,6 +20141,9 @@ ThrowObjectCoercibleFn
 >
 (
 ThrowObjectCoercible
+"
+ThrowObjectCoercible
+"
 )
 ;
 bool
@@ -20130,6 +20274,9 @@ ToStringFn
 >
 (
 ToStringSlow
+"
+ToStringSlow
+"
 )
 ;
 bool
@@ -20739,6 +20886,9 @@ jit
 :
 :
 NewArgumentsObject
+"
+NewArgumentsObject
+"
 )
 ;
 bool
@@ -21017,6 +21167,9 @@ js
 :
 :
 RunOnceScriptPrologue
+"
+RunOnceScriptPrologue
+"
 )
 ;
 bool
@@ -21203,6 +21356,9 @@ jit
 :
 :
 CreateGenerator
+"
+CreateGenerator
+"
 )
 ;
 bool
@@ -21654,6 +21810,9 @@ jit
 :
 :
 NormalSuspend
+"
+NormalSuspend
+"
 )
 ;
 bool
@@ -22046,6 +22205,9 @@ jit
 :
 :
 DebugAfterYield
+"
+DebugAfterYield
+"
 )
 ;
 bool
@@ -22132,6 +22294,9 @@ jit
 :
 :
 FinalSuspend
+"
+FinalSuspend
+"
 )
 ;
 bool
@@ -22272,6 +22437,9 @@ jit
 :
 :
 InterpretResume
+"
+InterpretResume
+"
 )
 ;
 typedef
@@ -22308,6 +22476,9 @@ jit
 :
 :
 GeneratorThrowOrClose
+"
+GeneratorThrowOrClose
+"
 TailCall
 )
 ;
@@ -24173,6 +24344,9 @@ js
 :
 :
 Debug_CheckSelfHosted
+"
+Debug_CheckSelfHosted
+"
 )
 ;
 bool

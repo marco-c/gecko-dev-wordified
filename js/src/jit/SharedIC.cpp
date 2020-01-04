@@ -8480,6 +8480,9 @@ DoBinaryArithFallbackFn
 >
 (
 DoBinaryArithFallback
+"
+DoBinaryArithFallback
+"
 TailCall
 PopValues
 (
@@ -8665,6 +8668,9 @@ DoConcatStringsFn
 >
 (
 DoConcatStrings
+"
+DoConcatStrings
+"
 TailCall
 )
 ;
@@ -9126,6 +9132,9 @@ DoConcatStringObjectFn
 >
 (
 DoConcatStringObject
+"
+DoConcatStringObject
+"
 TailCall
 PopValues
 (
@@ -10822,6 +10831,9 @@ DoUnaryArithFallbackFn
 >
 (
 DoUnaryArithFallback
+"
+DoUnaryArithFallback
+"
 TailCall
 PopValues
 (
@@ -12654,6 +12666,9 @@ DoCompareFallbackFn
 >
 (
 DoCompareFallback
+"
+DoCompareFallback
+"
 TailCall
 PopValues
 (
@@ -19146,6 +19161,9 @@ DoGetPropFallbackFn
 >
 (
 DoGetPropFallback
+"
+DoGetPropFallback
+"
 TailCall
 PopValues
 (
@@ -21674,6 +21692,9 @@ DoCallNativeGetterFn
 >
 (
 DoCallNativeGetter
+"
+DoCallNativeGetter
+"
 )
 ;
 bool
@@ -23775,6 +23796,9 @@ ProxyGetFn
 >
 (
 ProxyGet
+"
+ProxyGet
+"
 )
 ;
 bool
@@ -24593,6 +24617,9 @@ DoGetPropGenericFn
 >
 (
 DoGetPropGeneric
+"
+DoGetPropGeneric
+"
 )
 ;
 bool
@@ -27123,6 +27150,9 @@ DoTypeMonitorFallbackFn
 >
 (
 DoTypeMonitorFallback
+"
+DoTypeMonitorFallback
+"
 TailCall
 )
 ;
@@ -28657,6 +28687,9 @@ DoNewArrayFn
 >
 (
 DoNewArray
+"
+DoNewArray
+"
 TailCall
 )
 ;
@@ -29285,6 +29318,9 @@ DoNewObjectFn
 >
 (
 DoNewObject
+"
+DoNewObject
+"
 TailCall
 )
 ;
