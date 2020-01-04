@@ -1820,7 +1820,7 @@ return
 true
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
@@ -2118,19 +2118,14 @@ to
 become
 Dead
 .
-if
+NS_WARN_IF_FALSE
 (
-!
 cr
 -
 >
 Dispatch
 (
 )
-)
-{
-NS_WARNING
-(
 "
 Failed
 to
@@ -2139,7 +2134,6 @@ WorkerFetchResponseEndControlRunnable
 "
 )
 ;
-}
 }
 }
 namespace
