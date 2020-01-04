@@ -5809,7 +5809,7 @@ String
 boolean
 hasProcessedAnySuggestedSites
 =
-true
+false
 ;
 final
 int
@@ -5881,7 +5881,6 @@ UNION
 ALL
 if
 (
-!
 hasProcessedAnySuggestedSites
 )
 {
@@ -5900,7 +5899,7 @@ else
 {
 hasProcessedAnySuggestedSites
 =
-false
+true
 ;
 }
 suggestedSitesBuilder
@@ -6219,7 +6218,6 @@ ignoreForTopSitesArgs
 ;
 if
 (
-!
 hasProcessedAnySuggestedSites
 )
 {
