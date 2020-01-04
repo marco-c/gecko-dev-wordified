@@ -4538,9 +4538,6 @@ NS_ENSURE_ARG
 _rvChain
 )
 ;
-nsresult
-rv
-;
 MOZ_LOG
 (
 gPIPNSSLog
@@ -4977,8 +4974,8 @@ if
 array
 )
 {
-goto
-done
+return
+NS_ERROR_FAILURE
 ;
 }
 CERTCertListNode
@@ -5082,14 +5079,8 @@ NS_IF_ADDREF
 _rvChain
 )
 ;
-rv
-=
-NS_OK
-;
-done
-:
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
