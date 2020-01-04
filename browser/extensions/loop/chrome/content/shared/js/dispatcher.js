@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -137,7 +142,6 @@ loop
 .
 Dispatcher
 =
-(
 function
 (
 )
@@ -252,6 +256,7 @@ names
 register
 :
 function
+register
 (
 store
 eventTypes
@@ -356,6 +361,7 @@ names
 unregister
 :
 function
+unregister
 (
 store
 eventTypes
@@ -475,6 +481,7 @@ stores
 dispatch
 :
 function
+dispatch
 (
 action
 )
@@ -531,6 +538,7 @@ active
 _dispatchNextAction
 :
 function
+_dispatchNextAction
 (
 )
 {
@@ -698,7 +706,6 @@ return
 Dispatcher
 ;
 }
-)
 (
 )
 ;

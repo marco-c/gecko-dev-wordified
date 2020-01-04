@@ -557,8 +557,6 @@ entry
 received
 >
 p
->
-span
 "
 )
         

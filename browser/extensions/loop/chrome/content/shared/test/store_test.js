@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -442,6 +447,7 @@ b
 a
 :
 function
+a
 (
 )
 {
@@ -449,6 +455,7 @@ function
 b
 :
 function
+b
 (
 )
 {
@@ -540,6 +547,7 @@ b
 a
 :
 function
+a
 (
 )
 {
@@ -625,6 +633,7 @@ createStore
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -1218,6 +1227,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+testComp
+"
 mixins
 :
 [
@@ -1235,6 +1249,7 @@ store
 render
 :
 function
+render
 (
 )
 {

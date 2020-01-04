@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -147,6 +152,7 @@ requestStubs
 GetDoNotDisturb
 :
 function
+GetDoNotDisturb
 (
 )
 {
@@ -157,6 +163,7 @@ true
 GetAllStrings
 :
 function
+GetAllStrings
 (
 )
 {
@@ -178,6 +185,7 @@ fakeText
 GetLocale
 :
 function
+GetLocale
 (
 )
 {
@@ -195,6 +203,7 @@ setLoopPrefStub
 GetLoopPref
 :
 function
+GetLoopPref
 (
 prefName
 )
@@ -237,6 +246,7 @@ fake
 GetAllConstants
 :
 function
+GetAllConstants
 (
 )
 {
@@ -284,6 +294,7 @@ stub
 GetAppVersionInfo
 :
 function
+GetAppVersionInfo
 (
 )
 {
@@ -344,6 +355,7 @@ ogg
 GetSelectedTabMetadata
 :
 function
+GetSelectedTabMetadata
 (
 )
 {
@@ -355,6 +367,7 @@ return
 GetConversationWindowData
 :
 function
+GetConversationWindowData
 (
 )
 {
@@ -390,6 +403,7 @@ document
 addEventListener
 :
 function
+addEventListener
 (
 )
 {
@@ -397,6 +411,7 @@ function
 removeEventListener
 :
 function
+removeEventListener
 (
 )
 {
@@ -463,6 +478,7 @@ initialize
 getStrings
 :
 function
+getStrings
 (
 )
 {
@@ -589,7 +605,7 @@ sandbox
 .
 stub
 (
-React
+ReactDOM
 "
 render
 "
@@ -778,7 +794,7 @@ assert
 .
 calledOnce
 (
-React
+ReactDOM
 .
 render
 )
@@ -789,7 +805,7 @@ assert
 .
 calledWith
 (
-React
+ReactDOM
 .
 render
 sinon
@@ -1107,13 +1123,11 @@ store
 .
 ConversationAppStore
 (
+dispatcher
 {
 activeRoomStore
 :
 activeRoomStore
-dispatcher
-:
-dispatcher
 feedbackPeriod
 :
 42

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -260,6 +265,11 @@ values
 )
 {
 var
+_this
+=
+this
+;
+var
 validatedData
 =
 new
@@ -285,15 +295,21 @@ values
 }
 )
 ;
-for
+Object
+.
+keys
 (
-var
-prop
-in
 validatedData
 )
+.
+forEach
+(
+function
+(
+prop
+)
 {
-this
+_this
 [
 prop
 ]
@@ -304,6 +320,8 @@ prop
 ]
 ;
 }
+)
+;
 }
 loop
 .
@@ -532,6 +550,7 @@ updateRoomList
 initialize
 :
 function
+initialize
 (
 options
 )
@@ -617,6 +636,7 @@ this
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -681,6 +701,7 @@ events
 startListeningToRoomEvents
 :
 function
+startListeningToRoomEvents
 (
 )
 {
@@ -850,6 +871,7 @@ state
 _onActiveRoomStoreChange
 :
 function
+_onActiveRoomStoreChange
 (
 )
 {
@@ -903,6 +925,7 @@ data
 _onRoomAdded
 :
 function
+_onRoomAdded
 (
 addedRoomData
 )
@@ -1021,10 +1044,11 @@ room
 _onRoomClose
 :
 function
+_onRoomClose
 (
 )
 {
-let
+var
 state
 =
 this
@@ -1140,6 +1164,7 @@ room
 _onRoomOpen
 :
 function
+_onRoomOpen
 (
 roomToken
 )
@@ -1184,6 +1209,7 @@ data
 _onRoomUpdated
 :
 function
+_onRoomUpdated
 (
 updatedRoomData
 )
@@ -1263,6 +1289,7 @@ data
 _onRoomRemoved
 :
 function
+_onRoomRemoved
 (
 removedRoomData
 )
@@ -1326,6 +1353,7 @@ accounts
 _onRoomsRefresh
 :
 function
+_onRoomsRefresh
 (
 )
 {
@@ -1386,6 +1414,7 @@ Array
 _processRoomList
 :
 function
+_processRoomList
 (
 rawRoomList
 )
@@ -1474,6 +1503,7 @@ information
 createRoom
 :
 function
+createRoom
 (
 actionData
 )
@@ -1720,6 +1750,7 @@ created
 createdRoom
 :
 function
+createdRoom
 (
 actionData
 )
@@ -1785,6 +1816,7 @@ data
 createRoomError
 :
 function
+createRoomError
 (
 actionData
 )
@@ -1879,6 +1911,7 @@ data
 copyRoomUrl
 :
 function
+copyRoomUrl
 (
 actionData
 )
@@ -2029,6 +2062,7 @@ data
 emailRoomUrl
 :
 function
+emailRoomUrl
 (
 actionData
 )
@@ -2189,6 +2223,7 @@ data
 facebookShareRoomUrl
 :
 function
+facebookShareRoomUrl
 (
 actionData
 )
@@ -2241,9 +2276,10 @@ shareUrl
 .
 then
 (
+function
+(
 results
-=
->
+)
 {
 var
 app_id
@@ -2328,10 +2364,9 @@ finalURL
 .
 then
 (
+function
 (
 )
-=
->
 {
 loop
 .
@@ -2472,6 +2507,7 @@ data
 shareRoomUrl
 :
 function
+shareRoomUrl
 (
 actionData
 )
@@ -2646,6 +2682,7 @@ provider
 addSocialShareProvider
 :
 function
+addSocialShareProvider
 (
 )
 {
@@ -2686,6 +2723,7 @@ data
 deleteRoom
 :
 function
+deleteRoom
 (
 actionData
 )
@@ -2714,14 +2752,12 @@ result
 var
 isError
 =
-(
 result
 &
 &
 result
 .
 isError
-)
 ;
 if
 (
@@ -2835,6 +2871,7 @@ data
 deleteRoomError
 :
 function
+deleteRoomError
 (
 actionData
 )
@@ -2874,6 +2911,7 @@ API
 getAllRooms
 :
 function
+getAllRooms
 (
 )
 {
@@ -3077,6 +3115,7 @@ data
 getAllRoomsError
 :
 function
+getAllRoomsError
 (
 actionData
 )
@@ -3122,6 +3161,7 @@ data
 updateRoomList
 :
 function
+updateRoomList
 (
 actionData
 )
@@ -3173,6 +3213,7 @@ data
 openRoom
 :
 function
+openRoom
 (
 actionData
 )
@@ -3236,6 +3277,7 @@ actionData
 updateRoomContext
 :
 function
+updateRoomContext
 (
 actionData
 )
@@ -3778,14 +3820,12 @@ result2
 var
 isError
 =
-(
 result2
 &
 &
 result2
 .
 isError
-)
 ;
 var
 action
@@ -3849,6 +3889,7 @@ action
 updateRoomContextDone
 :
 function
+updateRoomContextDone
 (
 )
 {
@@ -3892,6 +3933,7 @@ actionData
 updateRoomContextError
 :
 function
+updateRoomContextError
 (
 actionData
 )

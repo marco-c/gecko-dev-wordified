@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 Any
@@ -2322,6 +2327,7 @@ var
 handler
 =
 function
+handler
 (
 )
 {
@@ -2396,6 +2402,7 @@ var
 handler
 =
 function
+handler
 (
 )
 {

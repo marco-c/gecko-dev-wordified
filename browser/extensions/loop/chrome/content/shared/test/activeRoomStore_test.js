@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 Any
@@ -3356,6 +3361,7 @@ return
 then
 :
 function
+then
 (
 resolve
 reject
@@ -3584,6 +3590,7 @@ return
 then
 :
 function
+then
 (
 resolve
 )

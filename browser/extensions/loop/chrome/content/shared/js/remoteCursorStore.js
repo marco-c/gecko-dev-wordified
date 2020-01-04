@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -101,7 +106,6 @@ store
 .
 RemoteCursorStore
 =
-(
 function
 (
 )
@@ -211,6 +215,7 @@ events
 initialize
 :
 function
+initialize
 (
 options
 )
@@ -304,6 +309,7 @@ room
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -338,6 +344,7 @@ sdk
 _cursorClickListener
 :
 function
+_cursorClickListener
 (
 )
 {
@@ -421,6 +428,7 @@ and
 _cursorPositionChangeListener
 :
 function
+_cursorPositionChangeListener
 (
 event
 )
@@ -553,6 +561,7 @@ CLICK
 sendCursorData
 :
 function
+sendCursorData
 (
 actionData
 )
@@ -613,6 +622,7 @@ actionData
 receivedCursorData
 :
 function
+receivedCursorData
 (
 actionData
 )
@@ -697,6 +707,7 @@ actionData
 videoDimensionsChanged
 :
 function
+videoDimensionsChanged
 (
 actionData
 )
@@ -803,6 +814,7 @@ actionData
 videoScreenStreamChanged
 :
 function
+videoScreenStreamChanged
 (
 actionData
 )
@@ -836,7 +848,6 @@ return
 RemoteCursorStore
 ;
 }
-)
 (
 )
 ;

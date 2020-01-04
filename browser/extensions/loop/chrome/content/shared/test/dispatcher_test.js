@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 Any
@@ -605,6 +610,7 @@ mediaConnectedStore1
 mediaConnected
 :
 function
+mediaConnected
 (
 )
 {

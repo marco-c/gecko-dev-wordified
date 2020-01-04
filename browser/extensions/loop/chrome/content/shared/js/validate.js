@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -69,7 +74,6 @@ loop
 .
 validate
 =
-(
 function
 (
 )
@@ -374,6 +378,7 @@ fails
 validate
 :
 function
+validate
 (
 values
 )
@@ -435,6 +440,7 @@ TypeError
 _checkRequiredTypes
 :
 function
+_checkRequiredTypes
 (
 values
 )
@@ -601,6 +607,7 @@ missing
 _checkRequiredProperties
 :
 function
+_checkRequiredProperties
 (
 values
 )
@@ -751,6 +758,7 @@ types
 _dependencyMatchTypes
 :
 function
+_dependencyMatchTypes
 (
 value
 types
@@ -870,7 +878,6 @@ Validator
 }
 ;
 }
-)
 (
 )
 ;

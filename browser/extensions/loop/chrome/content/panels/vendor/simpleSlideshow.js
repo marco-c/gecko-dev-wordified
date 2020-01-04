@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 /
 This
@@ -328,6 +333,7 @@ actions
 toggleNext
 :
 function
+toggleNext
 (
 )
 {
@@ -371,6 +377,7 @@ render
 togglePrev
 :
 function
+togglePrev
 (
 )
 {
@@ -411,6 +418,7 @@ render
 toggleSlide
 :
 function
+toggleSlide
 (
 id
 )
@@ -430,9 +438,11 @@ el
 )
 {
 return
+(
 el
 .
 id
+)
 ;
 }
 )
@@ -489,10 +499,12 @@ isRequired
 render
 :
 function
+render
 (
 )
 {
 return
+(
 React
 .
 createElement
@@ -547,6 +559,7 @@ null
 )
 )
 )
+)
 ;
 }
 }
@@ -581,6 +594,7 @@ isRequired
 render
 :
 function
+render
 (
 )
 {
@@ -613,6 +627,7 @@ currentSlide
 index
 ;
 return
+(
 React
 .
 createElement
@@ -644,11 +659,13 @@ slideNode
 title
 }
 )
+)
 ;
 }
 )
 ;
 return
+(
 React
 .
 createElement
@@ -664,6 +681,7 @@ slides
 "
 }
 slidesNodes
+)
 )
 ;
 }
@@ -735,6 +753,7 @@ isRequired
 render
 :
 function
+render
 (
 )
 {
@@ -765,6 +784,7 @@ active
 )
 ;
 return
+(
 React
 .
 createElement
@@ -865,6 +885,7 @@ text
 )
 )
 )
+)
 ;
 }
 }
@@ -886,6 +907,7 @@ Controls
 togglePrev
 :
 function
+togglePrev
 (
 )
 {
@@ -899,6 +921,7 @@ togglePrev
 toggleNext
 :
 function
+toggleNext
 (
 )
 {
@@ -912,6 +935,7 @@ toggleNext
 render
 :
 function
+render
 (
 )
 {
@@ -1006,6 +1030,7 @@ toggleNext
 ;
 }
 return
+(
 React
 .
 createElement
@@ -1022,6 +1047,7 @@ controls
 }
 showPrev
 showNext
+)
 )
 ;
 }
@@ -1044,10 +1070,12 @@ EmptyMessage
 render
 :
 function
+render
 (
 )
 {
 return
+(
 React
 .
 createElement
@@ -1068,6 +1096,7 @@ message
 No
 Data
 "
+)
 )
 ;
 }
@@ -1129,7 +1158,7 @@ null
 )
 ;
 }
-React
+ReactDOM
 .
 render
 (

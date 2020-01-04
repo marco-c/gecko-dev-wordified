@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 /
 This
@@ -317,7 +322,6 @@ shared
 .
 urlRegExps
 =
-(
 function
 (
 )
@@ -802,7 +806,6 @@ fullUrlMatch
 }
 ;
 }
-)
 (
 )
 ;

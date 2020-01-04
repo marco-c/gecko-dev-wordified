@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -69,7 +74,6 @@ loop
 .
 OTSdkDriver
 =
-(
 function
 (
 )
@@ -164,6 +168,7 @@ var
 OTSdkDriver
 =
 function
+OTSdkDriver
 (
 options
 )
@@ -863,6 +868,7 @@ driver
 _resetMetrics
 :
 function
+_resetMetrics
 (
 )
 {
@@ -933,6 +939,7 @@ js
 setupStreamElements
 :
 function
+setupStreamElements
 (
 actionData
 )
@@ -1219,6 +1226,7 @@ js
 setMute
 :
 function
+setMute
 (
 actionData
 )
@@ -1385,6 +1393,7 @@ SDK
 startScreenShare
 :
 function
+startScreenShare
 (
 options
 )
@@ -1575,6 +1584,7 @@ browser
 switchAcquiredWindow
 :
 function
+switchAcquiredWindow
 (
 windowId
 )
@@ -1652,6 +1662,7 @@ Boolean
 endScreenShare
 :
 function
+endScreenShare
 (
 )
 {
@@ -1770,6 +1781,7 @@ js
 toggleBrowserSharing
 :
 function
+toggleBrowserSharing
 (
 actionData
 )
@@ -1899,6 +1911,7 @@ session
 connectSession
 :
 function
+connectSession
 (
 sessionData
 )
@@ -2118,6 +2131,7 @@ session
 disconnectSession
 :
 function
+disconnectSession
 (
 )
 {
@@ -2424,6 +2438,7 @@ ousted
 forceDisconnectAll
 :
 function
+forceDisconnectAll
 (
 callback
 )
@@ -2587,6 +2602,7 @@ error
 _onSessionConnectionCompleted
 :
 function
+_onSessionConnectionCompleted
 (
 error
 )
@@ -2781,6 +2797,7 @@ html
 _onConnectionDestroyed
 :
 function
+_onConnectionDestroyed
 (
 event
 )
@@ -2797,7 +2814,6 @@ if
 connection
 &
 &
-(
 connection
 .
 id
@@ -2805,7 +2821,6 @@ in
 this
 .
 connections
-)
 )
 {
 delete
@@ -2933,6 +2948,7 @@ html
 _onSessionDisconnected
 :
 function
+_onSessionDisconnected
 (
 event
 )
@@ -3091,6 +3107,7 @@ html
 _onConnectionCreated
 :
 function
+_onConnectionCreated
 (
 event
 )
@@ -3212,6 +3229,7 @@ received
 _getConnectionState
 :
 function
+_getConnectionState
 (
 )
 {
@@ -3347,6 +3365,7 @@ client
 _notifyMetricsEvent
 :
 function
+_notifyMetricsEvent
 (
 eventName
 clientType
@@ -3795,6 +3814,7 @@ html
 _handleRemoteScreenShareCreated
 :
 function
+_handleRemoteScreenShareCreated
 (
 stream
 )
@@ -3998,6 +4018,7 @@ html
 _onRemoteStreamCreated
 :
 function
+_onRemoteStreamCreated
 (
 event
 )
@@ -4314,6 +4335,7 @@ testing
 _onSubscribeCompleted
 :
 function
+_onSubscribeCompleted
 (
 err
 sdkSubscriberObject
@@ -4588,6 +4610,7 @@ testing
 _onScreenShareSubscribeCompleted
 :
 function
+_onScreenShareSubscribeCompleted
 (
 err
 sdkSubscriberObject
@@ -4769,6 +4792,7 @@ stream
 _setupDataChannelIfNeeded
 :
 function
+_setupDataChannelIfNeeded
 (
 sdkSubscriberObject
 )
@@ -4872,11 +4896,9 @@ message
 .
 receivedTimestamp
 =
-(
 new
 Date
 (
-)
 )
 .
 toISOString
@@ -5081,6 +5103,7 @@ on
 message
 :
 function
+message
 (
 ev
 )
@@ -5130,6 +5153,7 @@ ex
 close
 :
 function
+close
 (
 )
 {
@@ -5271,6 +5295,7 @@ completes
 _onReadyForDataChannel
 :
 function
+_onReadyForDataChannel
 (
 )
 {
@@ -5491,6 +5516,7 @@ on
 close
 :
 function
+close
 (
 )
 {
@@ -5584,6 +5610,7 @@ them
 _checkDataChannelsAvailable
 :
 function
+_checkDataChannelsAvailable
 (
 )
 {
@@ -5651,6 +5678,7 @@ send
 sendTextChatMessage
 :
 function
+sendTextChatMessage
 (
 message
 )
@@ -5700,6 +5728,7 @@ send
 sendCursorMessage
 :
 function
+sendCursorMessage
 (
 message
 )
@@ -5798,6 +5827,7 @@ html
 _onLocalStreamCreated
 :
 function
+_onLocalStreamCreated
 (
 event
 )
@@ -6162,6 +6192,7 @@ private
 _setTwoWayMediaStartTime
 :
 function
+_setTwoWayMediaStartTime
 (
 start
 )
@@ -6221,6 +6252,7 @@ start
 _getTwoWayMediaStartTime
 :
 function
+_getTwoWayMediaStartTime
 (
 )
 {
@@ -6282,6 +6314,7 @@ html
 _onRemoteStreamDestroyed
 :
 function
+_onRemoteStreamDestroyed
 (
 event
 )
@@ -6433,6 +6466,7 @@ destroyed
 _onLocalStreamDestroyed
 :
 function
+_onLocalStreamDestroyed
 (
 )
 {
@@ -6547,6 +6581,7 @@ event
 _onAccessDialogOpened
 :
 function
+_onAccessDialogOpened
 (
 event
 )
@@ -6582,6 +6617,7 @@ event
 _onPublishAllowed
 :
 function
+_onPublishAllowed
 (
 event
 )
@@ -6651,6 +6687,7 @@ error
 _onPublishComplete
 :
 function
+_onPublishComplete
 (
 error
 )
@@ -6830,6 +6867,7 @@ event
 _onPublishDenied
 :
 function
+_onPublishDenied
 (
 event
 )
@@ -6909,6 +6947,7 @@ event
 _onOTException
 :
 function
+_onOTException
 (
 event
 )
@@ -7182,6 +7221,7 @@ stream
 _onStreamPropertyChanged
 :
 function
+_onStreamPropertyChanged
 (
 event
 )
@@ -7377,6 +7417,7 @@ private
 _onVideoEnabled
 :
 function
+_onVideoEnabled
 (
 )
 {
@@ -7482,6 +7523,7 @@ private
 _onVideoDisabled
 :
 function
+_onVideoDisabled
 (
 )
 {
@@ -7530,6 +7572,7 @@ ready
 _maybePublishLocalStream
 :
 function
+_maybePublishLocalStream
 (
 )
 {
@@ -7658,6 +7701,7 @@ are
 _checkAllStreamsConnected
 :
 function
+_checkAllStreamsConnected
 (
 )
 {
@@ -7693,6 +7737,7 @@ session
 _onScreenShareGranted
 :
 function
+_onScreenShareGranted
 (
 )
 {
@@ -7763,6 +7808,7 @@ error
 _onScreenSharePublishComplete
 :
 function
+_onScreenSharePublishComplete
 (
 error
 )
@@ -7875,6 +7921,7 @@ stores
 _onScreenSharePublishError
 :
 function
+_onScreenSharePublishError
 (
 )
 {
@@ -7948,6 +7995,7 @@ published
 _onScreenShareStreamCreated
 :
 function
+_onScreenShareStreamCreated
 (
 )
 {
@@ -8121,6 +8169,7 @@ private
 _noteConnectionLength
 :
 function
+_noteConnectionLength
 (
 callLengthSeconds
 )
@@ -8327,6 +8376,7 @@ private
 _noteConnectionLengthIfNeeded
 :
 function
+_noteConnectionLengthIfNeeded
 (
 startTime
 endTime
@@ -8477,7 +8527,6 @@ return
 OTSdkDriver
 ;
 }
-)
 (
 )
 ;

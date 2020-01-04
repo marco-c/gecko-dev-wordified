@@ -1950,7 +1950,6 @@ kCreateRoomData
 ;
 }
 else
-{
 if
 (
 req
@@ -2044,7 +2043,6 @@ values
 )
 )
 ;
-}
 }
 res
 .
@@ -3011,7 +3009,6 @@ match
 about
 :
 loopconversation
-\
 #
 (
 \
@@ -4531,8 +4528,6 @@ addContext
 url
 =
 >
-{
-return
 LoopRooms
 .
 promise
@@ -4553,8 +4548,6 @@ url
 ]
 }
 )
-;
-}
 ;
 /
 /

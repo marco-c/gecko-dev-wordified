@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -346,7 +351,7 @@ extraProps
 )
 {
 return
-React
+ReactDOMServer
 .
 renderToStaticMarkup
 (
@@ -1009,10 +1014,11 @@ Simulate
 .
 click
 (
-comp
+ReactDOM
 .
-getDOMNode
+findDOMNode
 (
+comp
 )
 .
 querySelector
@@ -1056,6 +1062,7 @@ var
 linkClickHandler
 =
 function
+linkClickHandler
 (
 )
 {

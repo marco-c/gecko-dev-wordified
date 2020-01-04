@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -67,11 +72,11 @@ loop
 ;
 loop
 .
-shared
+panel
 =
 loop
 .
-shared
+panel
 |
 |
 {
@@ -79,11 +84,10 @@ shared
 ;
 loop
 .
-shared
+panel
 .
 models
 =
-(
 function
 (
 )
@@ -174,7 +178,6 @@ NotificationModel
 }
 ;
 }
-)
 (
 )
 ;

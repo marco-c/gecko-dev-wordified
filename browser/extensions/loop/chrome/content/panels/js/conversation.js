@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -249,6 +254,7 @@ RoomStore
 componentWillMount
 :
 function
+componentWillMount
 (
 )
 {
@@ -294,6 +300,7 @@ _onRemoteCursorClick
 _onRemoteCursorPositionChange
 :
 function
+_onRemoteCursorPositionChange
 (
 )
 {
@@ -322,10 +329,11 @@ remoteCursorPosition
 _onRemoteCursorClick
 :
 function
+_onRemoteCursorClick
 (
 )
 {
-let
+var
 click
 =
 this
@@ -402,6 +410,7 @@ click
 getInitialState
 :
 function
+getInitialState
 (
 )
 {
@@ -416,6 +425,7 @@ getStoreState
 _renderFeedbackForm
 :
 function
+_renderFeedbackForm
 (
 )
 {
@@ -474,6 +484,7 @@ window
 handleCallTerminated
 :
 function
+handleCallTerminated
 (
 )
 {
@@ -497,6 +508,7 @@ LeaveConversation
 render
 :
 function
+render
 (
 )
 {
@@ -912,6 +924,7 @@ locale
 getStrings
 :
 function
+getStrings
 (
 key
 )
@@ -1014,6 +1027,7 @@ overrideGuidStorage
 get
 :
 function
+get
 (
 callback
 )
@@ -1028,6 +1042,7 @@ currGuid
 set
 :
 function
+set
 (
 guid
 callback
@@ -1159,13 +1174,11 @@ store
 .
 ConversationAppStore
 (
+dispatcher
 {
 activeRoomStore
 :
 activeRoomStore
-dispatcher
-:
-dispatcher
 feedbackPeriod
 :
 results
@@ -1302,7 +1315,7 @@ textChatStore
 }
 )
 ;
-React
+ReactDOM
 .
 render
 (

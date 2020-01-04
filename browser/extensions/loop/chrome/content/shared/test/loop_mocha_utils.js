@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 Any
@@ -37,7 +42,6 @@ LoopMochaUtils
 var
 LoopMochaUtils
 =
-(
 function
 (
 global
@@ -2053,7 +2057,6 @@ trapErrors
 }
 ;
 }
-)
 (
 this
 _

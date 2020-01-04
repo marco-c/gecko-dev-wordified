@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -1169,6 +1174,7 @@ kPushMessageName
 gListeningForPushMessages
 =
 function
+gListeningForPushMessages
 (
 message
 )

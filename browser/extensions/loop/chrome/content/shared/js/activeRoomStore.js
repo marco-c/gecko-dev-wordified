@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -290,7 +295,6 @@ store
 .
 ActiveRoomStore
 =
-(
 function
 (
 mozL10n
@@ -623,6 +627,7 @@ fetchServerData
 initialize
 :
 function
+initialize
 (
 options
 )
@@ -815,6 +820,7 @@ well
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -1108,6 +1114,7 @@ actionData
 roomFailure
 :
 function
+roomFailure
 (
 actionData
 )
@@ -1295,6 +1302,7 @@ failure
 retryAfterRoomFailure
 :
 function
+retryAfterRoomFailure
 (
 )
 {
@@ -1502,6 +1510,7 @@ performed
 _registerPostSetupActions
 :
 function
+_registerPostSetupActions
 (
 )
 {
@@ -1918,6 +1927,7 @@ actionData
 setupWindowData
 :
 function
+setupWindowData
 (
 actionData
 )
@@ -2264,6 +2274,7 @@ not
 fetchServerData
 :
 function
+fetchServerData
 (
 actionData
 )
@@ -2464,6 +2475,7 @@ complete
 _getRoomDataForStandalone
 :
 function
+_getRoomDataForStandalone
 (
 roomCryptoKey
 )
@@ -2882,6 +2894,7 @@ room
 _promiseDetectUserAgentHandles
 :
 function
+_promiseDetectUserAgentHandles
 (
 )
 {
@@ -3228,6 +3241,7 @@ actionData
 updateRoomInfo
 :
 function
+updateRoomInfo
 (
 actionData
 )
@@ -3347,6 +3361,7 @@ actionData
 userAgentHandlesRoom
 :
 function
+userAgentHandlesRoom
 (
 actionData
 )
@@ -3399,6 +3414,7 @@ actionData
 updateSocialShareInfo
 :
 function
+updateSocialShareInfo
 (
 actionData
 )
@@ -3447,6 +3463,7 @@ roomData
 _handleRoomUpdate
 :
 function
+_handleRoomUpdate
 (
 roomData
 )
@@ -3520,6 +3537,7 @@ API
 _handleRoomDelete
 :
 function
+_handleRoomDelete
 (
 )
 {
@@ -3577,6 +3595,7 @@ API
 _handleSocialShareUpdate
 :
 function
+_handleSocialShareUpdate
 (
 )
 {
@@ -3665,6 +3684,7 @@ NO_MEDIA
 _checkDevicesAndJoinRoom
 :
 function
+_checkDevicesAndJoinRoom
 (
 )
 {
@@ -3816,6 +3836,7 @@ Firefox
 _handoffRoomJoin
 :
 function
+_handoffRoomJoin
 (
 )
 {
@@ -3928,7 +3949,6 @@ could
 ;
 }
 else
-{
 if
 (
 e
@@ -3995,7 +4015,6 @@ expires
 )
 )
 ;
-}
 }
 }
 channelListener
@@ -4094,6 +4113,7 @@ room
 joinRoom
 :
 function
+joinRoom
 (
 )
 {
@@ -4260,6 +4280,7 @@ room
 gotMediaPermission
 :
 function
+gotMediaPermission
 (
 )
 {
@@ -4499,6 +4520,7 @@ actionData
 joinedRoom
 :
 function
+joinedRoom
 (
 actionData
 )
@@ -4673,6 +4695,7 @@ servers
 connectedToSdkServers
 :
 function
+connectedToSdkServers
 (
 )
 {
@@ -4719,6 +4742,7 @@ actionData
 connectionFailure
 :
 function
+connectionFailure
 (
 actionData
 )
@@ -4850,6 +4874,7 @@ type
 setMute
 :
 function
+setMute
 (
 actionData
 )
@@ -4919,6 +4944,7 @@ actionData
 mediaStreamCreated
 :
 function
+mediaStreamCreated
 (
 actionData
 )
@@ -5015,6 +5041,7 @@ actionData
 mediaStreamDestroyed
 :
 function
+mediaStreamDestroyed
 (
 actionData
 )
@@ -5080,6 +5107,7 @@ actionData
 remoteVideoStatus
 :
 function
+remoteVideoStatus
 (
 actionData
 )
@@ -5116,6 +5144,7 @@ connected
 mediaConnected
 :
 function
+mediaConnected
 (
 )
 {
@@ -5148,6 +5177,7 @@ state
 screenSharingState
 :
 function
+screenSharingState
 (
 actionData
 )
@@ -5227,6 +5257,7 @@ clearer
 receivingScreenShare
 :
 function
+receivingScreenShare
 (
 actionData
 )
@@ -5386,6 +5417,7 @@ sharing
 _handleSwitchBrowserShare
 :
 function
+_handleSwitchBrowserShare
 (
 windowId
 )
@@ -5645,6 +5677,7 @@ context
 _checkTabContext
 :
 function
+_checkTabContext
 (
 )
 {
@@ -5807,6 +5840,7 @@ actionData
 startBrowserShare
 :
 function
+startBrowserShare
 (
 )
 {
@@ -6016,6 +6050,7 @@ session
 endScreenShare
 :
 function
+endScreenShare
 (
 )
 {
@@ -6135,6 +6170,7 @@ actionData
 toggleBrowserSharing
 :
 function
+toggleBrowserSharing
 (
 actionData
 )
@@ -6202,6 +6238,7 @@ servers
 remotePeerConnected
 :
 function
+remotePeerConnected
 (
 )
 {
@@ -6257,13 +6294,15 @@ soon
 as
 *
 one
-participantleaves
+participant
+leaves
 .
 *
 /
 remotePeerDisconnected
 :
 function
+remotePeerDisconnected
 (
 )
 {
@@ -6372,6 +6411,7 @@ actionData
 connectionStatus
 :
 function
+connectionStatus
 (
 actionData
 )
@@ -6426,6 +6466,7 @@ left
 windowUnload
 :
 function
+windowUnload
 (
 )
 {
@@ -6567,6 +6608,7 @@ actionData
 leaveRoom
 :
 function
+leaveRoom
 (
 actionData
 )
@@ -6621,6 +6663,7 @@ seconds
 _setRefreshTimeout
 :
 function
+_setRefreshTimeout
 (
 expireTime
 )
@@ -6679,6 +6722,7 @@ cycle
 _refreshMembership
 :
 function
+_refreshMembership
 (
 )
 {
@@ -6895,6 +6939,7 @@ desktop
 _leaveRoom
 :
 function
+_leaveRoom
 (
 nextState
 failedJoinRequest
@@ -7276,6 +7321,7 @@ again
 feedbackComplete
 :
 function
+feedbackComplete
 (
 )
 {
@@ -7372,6 +7418,7 @@ actionData
 videoDimensionsChanged
 :
 function
+videoDimensionsChanged
 (
 actionData
 )
@@ -7512,6 +7559,7 @@ actionData
 videoScreenStreamChanged
 :
 function
+videoScreenStreamChanged
 (
 actionData
 )
@@ -7620,6 +7668,7 @@ actionData
 _handleTextChatMessage
 :
 function
+_handleTextChatMessage
 (
 actionData
 )
@@ -7755,6 +7804,7 @@ actionData
 receivedTextChatMessage
 :
 function
+receivedTextChatMessage
 (
 actionData
 )
@@ -7797,6 +7847,7 @@ actionData
 sendTextChatMessage
 :
 function
+sendTextChatMessage
 (
 actionData
 )
@@ -7829,6 +7880,7 @@ participants
 _hasParticipants
 :
 function
+_hasParticipants
 (
 )
 {
@@ -7898,7 +7950,6 @@ return
 ActiveRoomStore
 ;
 }
-)
 (
 navigator
 .

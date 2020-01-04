@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -227,6 +232,7 @@ pluralRule
 getStrings
 :
 function
+getStrings
 (
 key
 )

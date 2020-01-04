@@ -985,6 +985,6 @@ conversationPopOut
 .
 enabled
 "
-true
+false
 )
 ;

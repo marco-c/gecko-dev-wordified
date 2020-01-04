@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 /
 *
 This
@@ -293,6 +298,7 @@ PureRenderMixin
 _handleClickEvent
 :
 function
+_handleClickEvent
 (
 e
 )
@@ -326,6 +332,7 @@ href
 _generateLinkAttributes
 :
 function
+_generateLinkAttributes
 (
 href
 )
@@ -497,6 +504,7 @@ order
 parseStringToElements
 :
 function
+parseStringToElements
 (
 s
 )
@@ -792,10 +800,12 @@ elements
 render
 :
 function
+render
 (
 )
 {
 return
+(
 React
 .
 createElement
@@ -813,6 +823,7 @@ this
 props
 .
 rawText
+)
 )
 )
 ;
