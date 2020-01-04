@@ -4345,7 +4345,7 @@ deltaY
 :
 wheelEvent
 .
-deltaX
+mDeltaX
 ;
 int32_t
 &
@@ -4549,7 +4549,7 @@ y
 %
 d
 }
-deltaX
+mDeltaX
 :
 %
 f
@@ -4616,7 +4616,7 @@ refPoint
 y
 wheelEvent
 .
-deltaX
+mDeltaX
 wheelEvent
 .
 deltaY
@@ -5638,7 +5638,7 @@ deltaY
 :
 aWheelEvent
 .
-deltaX
+mDeltaX
 ;
 int32_t
 &
@@ -5990,7 +5990,7 @@ y
 %
 d
 }
-deltaX
+mDeltaX
 :
 %
 f
@@ -6053,7 +6053,7 @@ refPoint
 y
 aWheelEvent
 .
-deltaX
+mDeltaX
 aWheelEvent
 .
 deltaY

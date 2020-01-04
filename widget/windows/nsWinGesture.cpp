@@ -3038,7 +3038,7 @@ aWheelEvent
 {
 aWheelEvent
 .
-deltaX
+mDeltaX
 =
 aWheelEvent
 .
@@ -3169,7 +3169,7 @@ mXAxisFeedback
 {
 aWheelEvent
 .
-deltaX
+mDeltaX
 =
 mPixelScrollDelta
 .
@@ -3195,7 +3195,7 @@ return
 (
 aWheelEvent
 .
-deltaX
+mDeltaX
 !
 =
 0

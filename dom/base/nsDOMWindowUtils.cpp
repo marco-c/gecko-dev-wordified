@@ -3791,7 +3791,7 @@ aModifiers
 ;
 wheelEvent
 .
-deltaX
+mDeltaX
 =
 aDeltaX
 ;

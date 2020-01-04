@@ -403,7 +403,7 @@ deltaX
 aEvent
 -
 >
-deltaX
+mDeltaX
 )
 deltaY
 (
@@ -1223,7 +1223,7 @@ scrollToFrame
 aEvent
 -
 >
-deltaX
+mDeltaX
 aEvent
 -
 >
@@ -2787,7 +2787,7 @@ if
 aEvent
 -
 >
-deltaX
+mDeltaX
 &
 &
 !

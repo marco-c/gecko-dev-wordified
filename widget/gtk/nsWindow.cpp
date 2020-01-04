@@ -17768,7 +17768,7 @@ behaviour
 .
 wheelEvent
 .
-deltaX
+mDeltaX
 =
 aEvent
 -
@@ -17911,7 +17911,7 @@ GDK_SCROLL_LEFT
 :
 wheelEvent
 .
-deltaX
+mDeltaX
 =
 wheelEvent
 .
@@ -17927,7 +17927,7 @@ GDK_SCROLL_RIGHT
 :
 wheelEvent
 .
-deltaX
+mDeltaX
 =
 wheelEvent
 .

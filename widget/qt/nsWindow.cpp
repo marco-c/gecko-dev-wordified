@@ -7169,7 +7169,7 @@ Horizontal
 :
 wheelEvent
 .
-deltaX
+mDeltaX
 =
 wheelEvent
 .
