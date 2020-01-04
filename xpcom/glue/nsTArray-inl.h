@@ -1736,7 +1736,8 @@ aElemAlign
 ;
 /
 /
-Copy
+Move
+the
 data
 but
 don
@@ -1749,6 +1750,7 @@ to
 avoid
 overwriting
 mCapacity
+.
 header
 -
 >
@@ -1759,7 +1761,7 @@ length
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 header
 +
@@ -3216,7 +3218,7 @@ FailureResult
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 temp
 .
@@ -3231,7 +3233,7 @@ aElemSize
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 smallerElements
 largerElements
@@ -3242,7 +3244,7 @@ aElemSize
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 largerElements
 temp
