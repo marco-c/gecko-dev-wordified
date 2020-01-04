@@ -9978,7 +9978,7 @@ fullscreenElement
 document
 -
 >
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 )

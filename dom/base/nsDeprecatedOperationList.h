@@ -294,3 +294,7 @@ DEPRECATED_OPERATION
 (
 AppCache
 )
+DEPRECATED_OPERATION
+(
+PrefixedFullscreenAPI
+)

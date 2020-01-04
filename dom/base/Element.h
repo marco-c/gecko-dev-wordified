@@ -4283,7 +4283,7 @@ isNullOrUndefined
 (
 )
 void
-MozRequestFullScreen
+RequestFullscreen
 (
 JSContext
 *
@@ -11024,7 +11024,7 @@ rv
 Element
 :
 :
-MozRequestFullScreen
+RequestFullscreen
 (
 nullptr
 JS
