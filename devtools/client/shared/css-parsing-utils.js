@@ -7094,7 +7094,6 @@ this
 decl
 )
 {
-return
 this
 .
 createProperty
@@ -7104,6 +7103,8 @@ name
 value
 priority
 )
+;
+return
 ;
 }
 /
