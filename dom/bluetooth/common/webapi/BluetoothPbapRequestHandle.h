@@ -151,17 +151,6 @@ DOMRequest
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-BlobSet
-.
-h
-"
 namespace
 mozilla
 {
