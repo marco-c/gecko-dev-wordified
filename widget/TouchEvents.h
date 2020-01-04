@@ -836,7 +836,7 @@ mDirection
 (
 0
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -883,7 +883,7 @@ aOther
 .
 mDirection
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -995,7 +995,7 @@ for
 tap
 events
 uint32_t
-clickCount
+mClickCount
 ;
 /
 /
@@ -1053,11 +1053,11 @@ aEvent
 .
 delta
 ;
-clickCount
+mClickCount
 =
 aEvent
 .
-clickCount
+mClickCount
 ;
 }
 }
