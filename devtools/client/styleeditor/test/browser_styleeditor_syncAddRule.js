@@ -86,9 +86,7 @@ devtools
 /
 client
 /
-inspector
-/
-shared
+styleinspector
 /
 test
 /

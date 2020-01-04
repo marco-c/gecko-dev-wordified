@@ -113,7 +113,7 @@ devtools
 /
 shared
 /
-inspector
+styleinspector
 /
 css
 -

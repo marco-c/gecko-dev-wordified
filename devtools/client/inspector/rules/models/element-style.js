@@ -162,9 +162,7 @@ devtools
 /
 client
 /
-inspector
-/
-shared
+styleinspector
 /
 utils
 "
