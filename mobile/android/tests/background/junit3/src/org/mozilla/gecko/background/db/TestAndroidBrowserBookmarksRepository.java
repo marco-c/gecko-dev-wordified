@@ -2083,9 +2083,8 @@ lastModified
 +
 3000
 ;
-assert
+assertFalse
 (
-!
 record0
 .
 guid
