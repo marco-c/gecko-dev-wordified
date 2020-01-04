@@ -1011,7 +1011,7 @@ nsSize
 nsGridLayout2
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *
@@ -1027,7 +1027,7 @@ maxSize
 nsStackLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aBox
 aState

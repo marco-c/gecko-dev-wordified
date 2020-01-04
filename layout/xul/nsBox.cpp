@@ -2065,7 +2065,7 @@ aState
 nsSize
 maxSize
 =
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )
@@ -2175,7 +2175,7 @@ nsSize
 nsBox
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

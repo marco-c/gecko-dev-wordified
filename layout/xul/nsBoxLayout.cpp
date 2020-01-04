@@ -282,7 +282,7 @@ nsSize
 nsBoxLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *

@@ -9380,7 +9380,7 @@ nsSize
 nsXULScrollFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

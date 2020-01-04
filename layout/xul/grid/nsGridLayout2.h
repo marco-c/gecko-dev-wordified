@@ -298,7 +298,7 @@ override
 ;
 virtual
 nsSize
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *

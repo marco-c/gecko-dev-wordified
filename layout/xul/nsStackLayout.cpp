@@ -633,7 +633,7 @@ nsSize
 nsStackLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *
@@ -697,7 +697,7 @@ max
 child
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )
@@ -1751,7 +1751,7 @@ max
 child
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

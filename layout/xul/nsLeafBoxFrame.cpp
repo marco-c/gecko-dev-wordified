@@ -1494,7 +1494,7 @@ state
 nsSize
 maxSize
 =
-GetMaxSize
+GetXULMaxSize
 (
 state
 )
@@ -2095,7 +2095,7 @@ nsSize
 nsLeafBoxFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &
@@ -2106,7 +2106,7 @@ return
 nsBox
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

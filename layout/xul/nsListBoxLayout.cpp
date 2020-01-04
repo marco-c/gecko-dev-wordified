@@ -579,7 +579,7 @@ nsSize
 nsListBoxLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *
@@ -595,7 +595,7 @@ maxSize
 nsGridRowGroupLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aBox
 aBoxLayoutState

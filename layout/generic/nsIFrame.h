@@ -21211,7 +21211,7 @@ size
 /
 virtual
 nsSize
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

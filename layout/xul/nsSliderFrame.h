@@ -312,7 +312,7 @@ override
 ;
 virtual
 nsSize
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

@@ -3202,7 +3202,7 @@ aState
 nsSize
 maxSize
 =
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

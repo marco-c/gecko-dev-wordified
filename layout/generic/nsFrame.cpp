@@ -58518,7 +58518,7 @@ nsSize
 nsFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &
@@ -58603,7 +58603,7 @@ size
 nsBox
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

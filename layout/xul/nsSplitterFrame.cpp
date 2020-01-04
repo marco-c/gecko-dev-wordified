@@ -3512,7 +3512,7 @@ minSize
 childBox
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 state
 )

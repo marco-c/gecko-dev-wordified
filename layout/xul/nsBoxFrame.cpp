@@ -3987,7 +3987,7 @@ state
 nsSize
 maxSize
 =
-GetMaxSize
+GetXULMaxSize
 (
 state
 )
@@ -4606,7 +4606,7 @@ aBoxLayoutState
 nsSize
 maxSize
 =
-GetMaxSize
+GetXULMaxSize
 (
 aBoxLayoutState
 )
@@ -4871,7 +4871,7 @@ nsSize
 nsBoxFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &
@@ -4983,7 +4983,7 @@ layoutSize
 mLayoutManager
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 this
 aBoxLayoutState
@@ -5023,7 +5023,7 @@ size
 nsBox
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aBoxLayoutState
 )
@@ -10699,7 +10699,7 @@ maxSize
 child
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 state
 )
