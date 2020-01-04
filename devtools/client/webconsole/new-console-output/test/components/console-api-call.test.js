@@ -982,14 +982,6 @@ filepath
 {
 tempfilePath
 }
-?
-key
-=
-console
-.
-trace
-(
-)
 ;
 expect
 (
