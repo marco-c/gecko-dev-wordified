@@ -863,7 +863,7 @@ that
 a
 window
 has
-recieved
+received
 data
 from
 a
