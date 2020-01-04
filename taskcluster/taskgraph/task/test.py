@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+codecs
+import
 copy
 import
 logging
@@ -1284,12 +1286,19 @@ name
 )
     
 with
+codecs
+.
 open
 (
 filename
-"
+'
 rb
-"
+'
+'
+utf
+-
+8
+'
 )
 as
 f
