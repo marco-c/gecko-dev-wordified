@@ -483,7 +483,7 @@ roomName
 "
 :
 "
-Forth
+Fourth
 Room
 Name
 "
@@ -634,6 +634,14 @@ roomName
 Sixth
 Room
 Name
+is
+a
+little
+longer
+to
+check
+the
+ellipsis
 "
 }
 "
