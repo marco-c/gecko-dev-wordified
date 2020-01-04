@@ -318,7 +318,7 @@ nsIFile
 *
 )
 ;
-void
+nsresult
 unicodeToItem
 (
 const
