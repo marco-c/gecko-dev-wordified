@@ -277,14 +277,6 @@ bool
 aIsAvailable
 )
 ;
-bool
-IsAppInstalled
-(
-nsIURI
-*
-aUri
-)
-;
 /
 /
 This
