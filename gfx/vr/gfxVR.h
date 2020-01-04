@@ -482,7 +482,7 @@ destinationScaleAndOffset
 }
 ;
 struct
-VRDeviceInfo
+VRDisplayInfo
 {
 VRHMDType
 GetType
@@ -646,7 +646,7 @@ mSupportedSensorBits
 VRFieldOfView
 mMaximumEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -655,7 +655,7 @@ NumEyes
 VRFieldOfView
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -664,7 +664,7 @@ NumEyes
 VRFieldOfView
 mEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -673,7 +673,7 @@ NumEyes
 Point3D
 mEyeTranslation
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -682,7 +682,7 @@ NumEyes
 Matrix4x4
 mEyeProjectionMatrix
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -737,7 +737,7 @@ operator
 =
 (
 const
-VRDeviceInfo
+VRDisplayInfo
 &
 other
 )
@@ -946,7 +946,7 @@ operator
 =
 (
 const
-VRDeviceInfo
+VRDisplayInfo
 &
 other
 )
@@ -1076,9 +1076,9 @@ mSensorState
 }
 ;
 struct
-VRDeviceUpdate
+VRDisplayUpdate
 {
-VRDeviceUpdate
+VRDisplayUpdate
 (
 )
 {
@@ -1090,10 +1090,10 @@ Required
 for
 ipdl
 binding
-VRDeviceUpdate
+VRDisplayUpdate
 (
 const
-VRDeviceInfo
+VRDisplayInfo
 &
 aDeviceInfo
 const
@@ -1113,7 +1113,7 @@ aSensorState
 {
 }
 ;
-VRDeviceInfo
+VRDisplayInfo
 mDeviceInfo
 ;
 VRHMDSensorState
@@ -1465,7 +1465,7 @@ mConfiguration
 ;
 }
 const
-VRDeviceInfo
+VRDisplayInfo
 &
 GetDeviceInfo
 (
@@ -1700,13 +1700,13 @@ VRHMDInfo
 VRHMDConfiguration
 mConfiguration
 ;
-VRDeviceInfo
+VRDisplayInfo
 mDeviceInfo
 ;
 VRDistortionMesh
 mDistortionMesh
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes

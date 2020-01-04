@@ -1864,7 +1864,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -1884,7 +1884,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right
@@ -1904,7 +1904,7 @@ mDeviceInfo
 .
 mMaximumEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -1924,7 +1924,7 @@ mDeviceInfo
 .
 mMaximumEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right
@@ -2016,7 +2016,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -2025,7 +2025,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right
@@ -2146,7 +2146,7 @@ eye
 ;
 eye
 <
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -2334,7 +2334,7 @@ max
 (
 texSize
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -2343,7 +2343,7 @@ Eye_Left
 w
 texSize
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right
@@ -2365,7 +2365,7 @@ max
 (
 texSize
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -2374,7 +2374,7 @@ Eye_Left
 h
 texSize
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right

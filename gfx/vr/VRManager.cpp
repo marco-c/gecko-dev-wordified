@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-VRDevice
+VRDisplay
 .
 h
 "
@@ -398,7 +398,7 @@ Destroy
 (
 )
 {
-mVRDevices
+mVRDisplays
 .
 Clear
 (
@@ -593,7 +593,7 @@ for
 auto
 iter
 =
-mVRDevices
+mVRDisplays
 .
 Iter
 (
@@ -635,7 +635,7 @@ aVsyncTimestamp
 )
 ;
 }
-DispatchVRDeviceSensorUpdate
+DispatchVRDisplaySensorUpdate
 (
 )
 ;
@@ -644,7 +644,7 @@ void
 VRManager
 :
 :
-RefreshVRDevices
+RefreshVRDisplays
 (
 )
 {
@@ -706,7 +706,7 @@ Length
 )
 !
 =
-mVRDevices
+mVRDisplays
 .
 Count
 (
@@ -794,7 +794,7 @@ if
 deviceInfoChanged
 )
 {
-mVRDevices
+mVRDisplays
 .
 Clear
 (
@@ -810,7 +810,7 @@ device
 devices
 )
 {
-mVRDevices
+mVRDisplays
 .
 Put
 (
@@ -829,7 +829,7 @@ device
 ;
 }
 }
-DispatchVRDeviceInfoUpdate
+DispatchVRDisplayInfoUpdate
 (
 )
 ;
@@ -838,13 +838,13 @@ void
 VRManager
 :
 :
-DispatchVRDeviceInfoUpdate
+DispatchVRDisplayInfoUpdate
 (
 )
 {
 nsTArray
 <
-VRDeviceUpdate
+VRDisplayUpdate
 >
 update
 ;
@@ -853,7 +853,7 @@ for
 auto
 iter
 =
-mVRDevices
+mVRDisplays
 .
 Iter
 (
@@ -890,7 +890,7 @@ update
 .
 AppendElement
 (
-VRDeviceUpdate
+VRDisplayUpdate
 (
 device
 -
@@ -959,7 +959,7 @@ void
 VRManager
 :
 :
-DispatchVRDeviceSensorUpdate
+DispatchVRDisplaySensorUpdate
 (
 )
 {
@@ -974,7 +974,7 @@ for
 auto
 iter
 =
-mVRDevices
+mVRDisplays
 .
 Iter
 (
@@ -1121,7 +1121,7 @@ device
 ;
 if
 (
-mVRDevices
+mVRDisplays
 .
 Get
 (

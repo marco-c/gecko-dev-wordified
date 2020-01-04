@@ -1102,7 +1102,7 @@ mozilla
 /
 dom
 /
-VRDevice
+VRDisplay
 .
 h
 "

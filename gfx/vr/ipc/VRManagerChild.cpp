@@ -121,7 +121,7 @@ h
 #
 include
 "
-VRDeviceProxy
+VRDisplayProxy
 .
 h
 "
@@ -665,7 +665,7 @@ RecvUpdateDeviceInfo
 (
 nsTArray
 <
-VRDeviceUpdate
+VRDisplayUpdate
 >
 &
 &
@@ -701,7 +701,7 @@ nsTArray
 <
 RefPtr
 <
-VRDeviceProxy
+VRDisplayProxy
 >
 >
 devices
@@ -785,7 +785,7 @@ devices
 AppendElement
 (
 new
-VRDeviceProxy
+VRDisplayProxy
 (
 deviceUpdate
 )
@@ -809,7 +809,7 @@ mNavigatorCallbacks
 nav
 -
 >
-NotifyVRDevicesUpdated
+NotifyVRDisplaysUpdated
 (
 )
 ;
@@ -932,13 +932,13 @@ bool
 VRManagerChild
 :
 :
-GetVRDevices
+GetVRDisplays
 (
 nsTArray
 <
 RefPtr
 <
-VRDeviceProxy
+VRDisplayProxy
 >
 >
 &
@@ -957,7 +957,7 @@ bool
 VRManagerChild
 :
 :
-RefreshVRDevicesWithCallback
+RefreshVRDisplaysWithCallback
 (
 dom
 :

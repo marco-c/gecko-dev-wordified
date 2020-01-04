@@ -138,7 +138,7 @@ class
 Navigator
 ;
 class
-VRDevice
+VRDisplay
 ;
 }
 /
@@ -149,7 +149,7 @@ namespace
 gfx
 {
 class
-VRDeviceProxy
+VRDisplayProxy
 ;
 class
 VRManagerChild
@@ -169,13 +169,13 @@ GetInputFrameID
 )
 ;
 bool
-GetVRDevices
+GetVRDisplays
 (
 nsTArray
 <
 RefPtr
 <
-VRDeviceProxy
+VRDisplayProxy
 >
 >
 &
@@ -183,7 +183,7 @@ aDevices
 )
 ;
 bool
-RefreshVRDevicesWithCallback
+RefreshVRDisplaysWithCallback
 (
 dom
 :
@@ -278,7 +278,7 @@ RecvUpdateDeviceInfo
 (
 nsTArray
 <
-VRDeviceUpdate
+VRDisplayUpdate
 >
 &
 &
@@ -313,7 +313,7 @@ nsTArray
 <
 RefPtr
 <
-VRDeviceProxy
+VRDisplayProxy
 >
 >
 mDevices

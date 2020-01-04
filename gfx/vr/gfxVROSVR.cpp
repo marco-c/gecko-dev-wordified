@@ -1532,7 +1532,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -1541,7 +1541,7 @@ mDeviceInfo
 .
 mRecommendedEyeFOV
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right
@@ -1846,7 +1846,7 @@ mConfiguration
 .
 fov
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Left
@@ -1858,7 +1858,7 @@ mConfiguration
 .
 fov
 [
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 Eye_Right

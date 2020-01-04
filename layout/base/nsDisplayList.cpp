@@ -193,7 +193,7 @@ h
 #
 include
 "
-VRDeviceProxy
+VRDisplayProxy
 .
 h
 "

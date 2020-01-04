@@ -1421,7 +1421,7 @@ mozilla
 /
 dom
 /
-VRDevice
+VRDisplay
 .
 h
 "
@@ -11534,7 +11534,7 @@ mCacheStorage
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mVRDevices
+mVRDisplays
 )
 /
 /
@@ -11819,7 +11819,7 @@ mCacheStorage
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mVRDevices
+mVRDisplays
 )
 /
 /
@@ -76001,7 +76001,7 @@ bool
 nsGlobalWindow
 :
 :
-UpdateVRDevices
+UpdateVRDisplays
 (
 nsTArray
 <
@@ -76013,7 +76013,7 @@ mozilla
 dom
 :
 :
-VRDevice
+VRDisplay
 >
 >
 &
@@ -76022,19 +76022,19 @@ aDevices
 {
 FORWARD_TO_INNER
 (
-UpdateVRDevices
+UpdateVRDisplays
 (
 aDevices
 )
 false
 )
 ;
-VRDevice
+VRDisplay
 :
 :
-UpdateVRDevices
+UpdateVRDisplays
 (
-mVRDevices
+mVRDisplays
 ToSupports
 (
 this
@@ -76043,7 +76043,7 @@ this
 ;
 aDevices
 =
-mVRDevices
+mVRDisplays
 ;
 return
 true

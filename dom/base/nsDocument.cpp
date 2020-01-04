@@ -1963,7 +1963,7 @@ MOZ_WEBRTC
 #
 include
 "
-VRDeviceProxy
+VRDisplayProxy
 .
 h
 "
