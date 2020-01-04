@@ -65,8 +65,6 @@ json
 import
 os
 import
-re
-import
 mozpack
 .
 path
