@@ -297,6 +297,15 @@ aY
 override
 ;
 void
+SetScrollingRootContent
+(
+const
+bool
+isRootContent
+)
+override
+;
+void
 NotifyAPZStateChange
 (
 const
