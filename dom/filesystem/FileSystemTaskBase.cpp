@@ -248,6 +248,7 @@ namespace
 {
 class
 FileSystemReleaseRunnable
+final
 :
 public
 nsRunnable
