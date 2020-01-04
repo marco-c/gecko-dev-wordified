@@ -44003,6 +44003,16 @@ GetOuterWindowInternal
 origin
 this
 providedPrincipal
+callerInnerWin
+?
+callerInnerWin
+-
+>
+GetDoc
+(
+)
+:
+nullptr
 nsContentUtils
 :
 :
