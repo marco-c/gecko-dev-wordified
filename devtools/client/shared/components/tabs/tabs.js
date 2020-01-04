@@ -1319,11 +1319,6 @@ DOM
 a
 (
 {
-href
-:
-"
-#
-"
 tabIndex
 :
 this
