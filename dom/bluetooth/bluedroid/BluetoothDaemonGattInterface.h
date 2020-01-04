@@ -1140,7 +1140,7 @@ int
 aConnId
 int
 aTransId
-BluetoothGattStatus
+uint16_t
 aStatus
 const
 BluetoothGattResponse
@@ -2446,7 +2446,7 @@ void
 int
 int
 nsString
-int
+BluetoothAttributeHandle
 int
 bool
 int
@@ -2454,7 +2454,9 @@ int
 const
 nsAString
 &
-int
+const
+BluetoothAttributeHandle
+&
 int
 bool
 >
@@ -2474,7 +2476,7 @@ void
 int
 int
 nsString
-int
+BluetoothAttributeHandle
 int
 int
 nsAutoArrayPtr
@@ -2488,7 +2490,9 @@ int
 const
 nsAString
 &
-int
+const
+BluetoothAttributeHandle
+&
 int
 int
 const
@@ -3840,7 +3844,7 @@ int
 aConnId
 int
 aTransId
-BluetoothGattStatus
+uint16_t
 aStatus
 const
 BluetoothGattResponse

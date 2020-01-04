@@ -1874,7 +1874,9 @@ const
 nsAString
 &
 aBdAddr
-int
+const
+BluetoothAttributeHandle
+&
 aAttributeHandle
 int
 aOffset
@@ -1897,7 +1899,9 @@ const
 nsAString
 &
 aBdAddr
-int
+const
+BluetoothAttributeHandle
+&
 aAttributeHandle
 int
 aOffset

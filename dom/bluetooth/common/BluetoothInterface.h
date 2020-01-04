@@ -2285,7 +2285,9 @@ const
 nsAString
 &
 aBdAddr
-int
+const
+BluetoothAttributeHandle
+&
 aAttributeHandle
 int
 aOffset
@@ -2305,7 +2307,9 @@ const
 nsAString
 &
 aBdAddr
-int
+const
+BluetoothAttributeHandle
+&
 aAttributeHandle
 int
 aOffset
@@ -3593,7 +3597,7 @@ int
 aConnId
 int
 aTransId
-BluetoothGattStatus
+uint16_t
 aStatus
 const
 BluetoothGattResponse
