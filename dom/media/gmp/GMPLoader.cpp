@@ -433,7 +433,6 @@ GMPLoaderImpl
 )
 {
 }
-virtual
 bool
 Load
 (
@@ -455,7 +454,6 @@ aPlatformAPI
 )
 override
 ;
-virtual
 GMPErr
 GetAPI
 (
@@ -473,7 +471,6 @@ aPluginAPI
 )
 override
 ;
-virtual
 void
 Shutdown
 (
@@ -492,7 +489,6 @@ defined
 (
 MOZ_GMP_SANDBOX
 )
-virtual
 void
 SetSandboxInfo
 (

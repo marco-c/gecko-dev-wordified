@@ -474,14 +474,12 @@ aFrameData
 /
 /
 GMPVideoFrame
-virtual
 GMPVideoFrameFormat
 GetFrameFormat
 (
 )
 override
 ;
-virtual
 void
 Destroy
 (
@@ -491,7 +489,6 @@ override
 /
 /
 GMPVideoEncodedFrame
-virtual
 GMPErr
 CreateEmptyFrame
 (
@@ -500,7 +497,6 @@ aSize
 )
 override
 ;
-virtual
 GMPErr
 CopyFrame
 (
@@ -511,7 +507,6 @@ aFrame
 )
 override
 ;
-virtual
 void
 SetEncodedWidth
 (
@@ -520,14 +515,12 @@ aEncodedWidth
 )
 override
 ;
-virtual
 uint32_t
 EncodedWidth
 (
 )
 override
 ;
-virtual
 void
 SetEncodedHeight
 (
@@ -536,7 +529,6 @@ aEncodedHeight
 )
 override
 ;
-virtual
 uint32_t
 EncodedHeight
 (
@@ -546,7 +538,6 @@ override
 /
 /
 Microseconds
-virtual
 void
 SetTimeStamp
 (
@@ -555,7 +546,6 @@ aTimeStamp
 )
 override
 ;
-virtual
 uint64_t
 TimeStamp
 (
@@ -626,7 +616,6 @@ a
 large
 gap
 )
-virtual
 void
 SetDuration
 (
@@ -635,7 +624,6 @@ aDuration
 )
 override
 ;
-virtual
 uint64_t
 Duration
 (
@@ -643,7 +631,6 @@ Duration
 const
 override
 ;
-virtual
 void
 SetFrameType
 (
@@ -652,14 +639,12 @@ aFrameType
 )
 override
 ;
-virtual
 GMPVideoFrameType
 FrameType
 (
 )
 override
 ;
-virtual
 void
 SetAllocatedSize
 (
@@ -668,14 +653,12 @@ aNewSize
 )
 override
 ;
-virtual
 uint32_t
 AllocatedSize
 (
 )
 override
 ;
-virtual
 void
 SetSize
 (
@@ -684,14 +667,12 @@ aSize
 )
 override
 ;
-virtual
 uint32_t
 Size
 (
 )
 override
 ;
-virtual
 void
 SetCompleteFrame
 (
@@ -700,14 +681,12 @@ aCompleteFrame
 )
 override
 ;
-virtual
 bool
 CompleteFrame
 (
 )
 override
 ;
-virtual
 const
 uint8_t
 *
@@ -717,7 +696,6 @@ Buffer
 const
 override
 ;
-virtual
 uint8_t
 *
 Buffer
@@ -725,7 +703,6 @@ Buffer
 )
 override
 ;
-virtual
 GMPBufferType
 BufferType
 (
@@ -733,7 +710,6 @@ BufferType
 const
 override
 ;
-virtual
 void
 SetBufferType
 (
@@ -742,7 +718,6 @@ aBufferType
 )
 override
 ;
-virtual
 const
 GMPEncryptedBufferMetadata
 *

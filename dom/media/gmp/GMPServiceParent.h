@@ -198,7 +198,6 @@ GeckoMediaPluginServiceParent
 (
 )
 ;
-virtual
 nsresult
 Init
 (
@@ -536,14 +535,12 @@ GMPParent
 aOld
 )
 ;
-virtual
 void
 InitializePlugins
 (
 )
 override
 ;
-virtual
 bool
 GetContentParentFrom
 (
@@ -975,7 +972,6 @@ GMPServiceParent
 (
 )
 ;
-virtual
 bool
 RecvLoadGMP
 (
@@ -1016,7 +1012,6 @@ aPluginId
 )
 override
 ;
-virtual
 bool
 RecvGetGMPNodeId
 (
@@ -1065,7 +1060,6 @@ nsCString
 aVersion
 )
 ;
-virtual
 void
 ActorDestroy
 (

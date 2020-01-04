@@ -195,7 +195,6 @@ protected
 /
 /
 GMPTimerChild
-virtual
 bool
 RecvTimerExpired
 (

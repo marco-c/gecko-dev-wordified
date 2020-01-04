@@ -189,21 +189,18 @@ aClient
 /
 GMPRecord
 .
-virtual
 GMPErr
 Open
 (
 )
 override
 ;
-virtual
 GMPErr
 Read
 (
 )
 override
 ;
-virtual
 GMPErr
 Write
 (
@@ -216,7 +213,6 @@ aDataSize
 )
 override
 ;
-virtual
 GMPErr
 Close
 (
@@ -405,7 +401,6 @@ GMPStorageChild
 /
 /
 PGMPStorageChild
-virtual
 bool
 RecvOpenComplete
 (
@@ -420,7 +415,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 RecvReadComplete
 (
@@ -442,7 +436,6 @@ aBytes
 )
 override
 ;
-virtual
 bool
 RecvWriteComplete
 (
@@ -457,7 +450,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 RecvRecordNames
 (
@@ -475,7 +467,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 RecvShutdown
 (

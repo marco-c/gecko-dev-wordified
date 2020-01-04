@@ -173,7 +173,6 @@ aPlugin
 /
 /
 GMPDecryptorProxy
-virtual
 uint32_t
 GetPluginId
 (
@@ -185,7 +184,6 @@ return
 mPluginId
 ;
 }
-virtual
 nsresult
 Init
 (
@@ -195,7 +193,6 @@ aCallback
 )
 override
 ;
-virtual
 void
 CreateSession
 (
@@ -219,7 +216,6 @@ aSessionType
 )
 override
 ;
-virtual
 void
 LoadSession
 (
@@ -232,7 +228,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 UpdateSession
 (
@@ -252,7 +247,6 @@ aResponse
 )
 override
 ;
-virtual
 void
 CloseSession
 (
@@ -265,7 +259,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 RemoveSession
 (
@@ -278,7 +271,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 SetServerCertificate
 (
@@ -294,7 +286,6 @@ aServerCert
 )
 override
 ;
-virtual
 void
 Decrypt
 (
@@ -314,7 +305,6 @@ aBuffer
 )
 override
 ;
-virtual
 void
 Close
 (
@@ -336,7 +326,6 @@ GMPDecryptorParent
 /
 /
 PGMPDecryptorParent
-virtual
 bool
 RecvSetSessionId
 (
@@ -351,7 +340,6 @@ aSessionId
 )
 override
 ;
-virtual
 bool
 RecvResolveLoadSessionPromise
 (
@@ -366,7 +354,6 @@ aSuccess
 )
 override
 ;
-virtual
 bool
 RecvResolvePromise
 (
@@ -377,7 +364,6 @@ aPromiseId
 )
 override
 ;
-virtual
 bool
 RecvRejectPromise
 (
@@ -396,7 +382,6 @@ aMessage
 )
 override
 ;
-virtual
 bool
 RecvSessionMessage
 (
@@ -418,7 +403,6 @@ aMessage
 )
 override
 ;
-virtual
 bool
 RecvExpirationChange
 (
@@ -433,7 +417,6 @@ aExpiryTime
 )
 override
 ;
-virtual
 bool
 RecvSessionClosed
 (
@@ -444,7 +427,6 @@ aSessionId
 )
 override
 ;
-virtual
 bool
 RecvSessionError
 (
@@ -467,7 +449,6 @@ aMessage
 )
 override
 ;
-virtual
 bool
 RecvKeyStatusChanged
 (
@@ -489,7 +470,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 RecvDecrypted
 (
@@ -511,7 +491,6 @@ aBuffer
 )
 override
 ;
-virtual
 bool
 RecvSetCaps
 (
@@ -522,14 +501,12 @@ aCaps
 )
 override
 ;
-virtual
 bool
 RecvShutdown
 (
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -538,7 +515,6 @@ aWhy
 )
 override
 ;
-virtual
 bool
 Recv__delete__
 (

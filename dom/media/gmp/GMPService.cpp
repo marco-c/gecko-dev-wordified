@@ -2005,7 +2005,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (
@@ -2191,7 +2190,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (
@@ -2398,7 +2396,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (
@@ -2605,7 +2602,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (

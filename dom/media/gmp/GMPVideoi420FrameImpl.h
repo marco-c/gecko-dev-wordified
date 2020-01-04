@@ -227,14 +227,12 @@ aType
 /
 /
 GMPVideoFrame
-virtual
 GMPVideoFrameFormat
 GetFrameFormat
 (
 )
 override
 ;
-virtual
 void
 Destroy
 (
@@ -244,7 +242,6 @@ override
 /
 /
 GMPVideoi420Frame
-virtual
 GMPErr
 CreateEmptyFrame
 (
@@ -261,7 +258,6 @@ aStride_v
 )
 override
 ;
-virtual
 GMPErr
 CreateFrame
 (
@@ -296,7 +292,6 @@ aStride_v
 )
 override
 ;
-virtual
 GMPErr
 CopyFrame
 (
@@ -307,7 +302,6 @@ aFrame
 )
 override
 ;
-virtual
 void
 SwapFrame
 (
@@ -317,7 +311,6 @@ aFrame
 )
 override
 ;
-virtual
 uint8_t
 *
 Buffer
@@ -327,7 +320,6 @@ aType
 )
 override
 ;
-virtual
 const
 uint8_t
 *
@@ -339,7 +331,6 @@ aType
 const
 override
 ;
-virtual
 int32_t
 AllocatedSize
 (
@@ -349,7 +340,6 @@ aType
 const
 override
 ;
-virtual
 int32_t
 Stride
 (
@@ -359,7 +349,6 @@ aType
 const
 override
 ;
-virtual
 GMPErr
 SetWidth
 (
@@ -368,7 +357,6 @@ aWidth
 )
 override
 ;
-virtual
 GMPErr
 SetHeight
 (
@@ -377,7 +365,6 @@ aHeight
 )
 override
 ;
-virtual
 int32_t
 Width
 (
@@ -385,7 +372,6 @@ Width
 const
 override
 ;
-virtual
 int32_t
 Height
 (
@@ -393,7 +379,6 @@ Height
 const
 override
 ;
-virtual
 void
 SetTimestamp
 (
@@ -402,7 +387,6 @@ aTimestamp
 )
 override
 ;
-virtual
 uint64_t
 Timestamp
 (
@@ -410,7 +394,6 @@ Timestamp
 const
 override
 ;
-virtual
 void
 SetDuration
 (
@@ -419,7 +402,6 @@ aDuration
 )
 override
 ;
-virtual
 uint64_t
 Duration
 (
@@ -427,7 +409,6 @@ Duration
 const
 override
 ;
-virtual
 bool
 IsZeroSize
 (
@@ -435,7 +416,6 @@ IsZeroSize
 const
 override
 ;
-virtual
 void
 ResetSize
 (

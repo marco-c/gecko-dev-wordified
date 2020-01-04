@@ -165,14 +165,12 @@ GMPProcessChild
 (
 )
 ;
-virtual
 bool
 Init
 (
 )
 override
 ;
-virtual
 void
 CleanUp
 (

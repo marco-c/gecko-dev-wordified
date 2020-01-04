@@ -248,7 +248,6 @@ aFrame
 /
 /
 GMPVideoHost
-virtual
 GMPErr
 CreateFrame
 (
@@ -261,7 +260,6 @@ aFrame
 )
 override
 ;
-virtual
 GMPErr
 CreatePlane
 (
