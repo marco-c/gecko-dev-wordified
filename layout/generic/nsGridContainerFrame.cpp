@@ -32549,6 +32549,12 @@ childStatus
 ;
 MOZ_ASSERT
 (
+NS_INLINE_IS_BREAK_BEFORE
+(
+childStatus
+)
+|
+|
 !
 NS_FRAME_IS_FULLY_COMPLETE
 (
