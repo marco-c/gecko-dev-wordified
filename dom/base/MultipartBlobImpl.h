@@ -353,7 +353,10 @@ aCx
 const
 Sequence
 <
-OwningArrayBufferOrArrayBufferViewOrBlobOrString
+Blob
+:
+:
+BlobPart
 >
 &
 aData
