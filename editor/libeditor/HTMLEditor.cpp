@@ -6392,8 +6392,10 @@ return
 NS_OK
 ;
 }
+already_AddRefed
+<
 Element
-*
+>
 HTMLEditor
 :
 :
@@ -6474,6 +6476,10 @@ outBRNode
 ;
 return
 ret
+.
+forget
+(
+)
 ;
 }
 NS_IMETHODIMP

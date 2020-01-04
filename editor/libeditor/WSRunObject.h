@@ -1551,11 +1551,13 @@ begin
 with
 nbsp
 .
+already_AddRefed
+<
 dom
 :
 :
 Element
-*
+>
 InsertBreak
 (
 nsCOMPtr
