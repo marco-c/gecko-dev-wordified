@@ -1252,6 +1252,9 @@ case
 ePopupShowing
 :
 case
+ePopupPositioning
+:
+case
 ePopupOpening
 :
 case

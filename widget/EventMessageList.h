@@ -813,6 +813,10 @@ eXULPopupShown
 )
 NS_EVENT_MESSAGE
 (
+eXULPopupPositioned
+)
+NS_EVENT_MESSAGE
+(
 eXULPopupHiding
 )
 NS_EVENT_MESSAGE
