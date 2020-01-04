@@ -11119,7 +11119,7 @@ ind
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 (
 -

@@ -7154,7 +7154,7 @@ inp
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 "
 1em

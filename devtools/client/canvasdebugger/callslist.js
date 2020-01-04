@@ -3221,7 +3221,7 @@ contents
 .
 style
 .
-MozPaddingStart
+paddingInlineStart
 =
 (
 i

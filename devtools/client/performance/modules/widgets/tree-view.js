@@ -2014,7 +2014,7 @@ cell
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 (
 frameLevel

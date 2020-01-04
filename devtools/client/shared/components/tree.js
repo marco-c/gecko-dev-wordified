@@ -4377,7 +4377,7 @@ completely
 hide
 it
 .
-MozMarginStart
+marginInlineStart
 :
 "
 -

@@ -497,7 +497,7 @@ indentation
 *
 node
 .
-MozMarginStart
+marginInlineStart
 =
 (
 this

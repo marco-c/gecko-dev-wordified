@@ -11563,10 +11563,10 @@ marginBottom
 marginLeft
 "
 "
-MozMarginStart
+marginInlineStart
 "
 "
-MozMarginEnd
+marginInlineEnd
 "
 ]
 ;
