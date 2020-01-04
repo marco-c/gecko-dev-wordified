@@ -654,7 +654,7 @@ bug
 .
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
