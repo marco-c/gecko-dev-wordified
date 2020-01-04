@@ -5170,6 +5170,13 @@ resolve
 )
 ;
 }
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 return

@@ -1711,6 +1711,13 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 resolve
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }
@@ -1870,6 +1877,13 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 resolve
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }

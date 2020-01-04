@@ -145,6 +145,13 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 onSetComplete
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }

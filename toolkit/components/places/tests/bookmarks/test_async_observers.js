@@ -695,6 +695,14 @@ PlacesUtils
 favicons
 .
 FAVICON_LOAD_NON_PRIVATE
+null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 yield
