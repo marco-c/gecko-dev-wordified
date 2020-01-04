@@ -4396,6 +4396,17 @@ uint32_t
 earlyCheck
 )
 ;
+JSObject
+*
+BindVar
+(
+JSContext
+*
+cx
+HandleObject
+scopeChain
+)
+;
 bool
 DefVar
 (
