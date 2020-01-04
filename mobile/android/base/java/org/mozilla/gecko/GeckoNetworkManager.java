@@ -1578,9 +1578,8 @@ SecurityException
 se
 )
 {
-}
 /
-/
+*
 if
 we
 don
@@ -1594,6 +1593,9 @@ through
 to
 null
 check
+*
+/
+}
 if
 (
 ni
