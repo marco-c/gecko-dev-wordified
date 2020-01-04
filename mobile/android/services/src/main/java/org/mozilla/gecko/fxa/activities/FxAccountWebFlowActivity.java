@@ -151,6 +151,7 @@ flow
 *
 /
 public
+abstract
 class
 FxAccountWebFlowActivity
 extends

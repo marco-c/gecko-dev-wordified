@@ -89,6 +89,7 @@ app
 AppCompatActivity
 ;
 public
+abstract
 class
 GeckoActivity
 extends
