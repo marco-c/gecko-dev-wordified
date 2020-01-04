@@ -7725,9 +7725,11 @@ principal
 =
 secMan
 .
-getSimpleCodebasePrincipal
+createCodebasePrincipal
 (
 aURL
+{
+}
 )
 ;
 if

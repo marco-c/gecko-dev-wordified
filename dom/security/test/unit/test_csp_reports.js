@@ -739,9 +739,11 @@ principal
 =
 ssm
 .
-getSimpleCodebasePrincipal
+createCodebasePrincipal
 (
 selfuri
+{
+}
 )
 ;
 csp
