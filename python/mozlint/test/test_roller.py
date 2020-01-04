@@ -494,7 +494,9 @@ self
 lint
 .
 lintargs
-=
+.
+update
+(
 {
 '
 exclude
@@ -511,6 +513,7 @@ js
 '
 ]
 }
+)
         
 self
 .
