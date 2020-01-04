@@ -3312,6 +3312,8 @@ dom
 Element
 *
 aElement
+int32_t
+aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -3334,6 +3336,10 @@ aPresContext
 aElement
 nullptr
 aTreeMatchContext
+)
+mNameSpaceID
+(
+aNameSpaceID
 )
 mAttribute
 (
@@ -3367,6 +3373,17 @@ here
 )
 ;
 }
+int32_t
+mNameSpaceID
+;
+/
+/
+Namespace
+of
+the
+attribute
+involved
+.
 nsIAtom
 *
 mAttribute

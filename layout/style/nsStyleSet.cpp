@@ -14830,6 +14830,8 @@ aPresContext
 Element
 *
 aElement
+int32_t
+aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -14850,6 +14852,7 @@ AttributeRuleProcessorData
 (
 aPresContext
 aElement
+aNameSpaceID
 aAttribute
 aModType
 aAttrHasChanged
@@ -14951,6 +14954,8 @@ HasAttributeDependentStyle
 Element
 *
 aElement
+int32_t
+aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -14999,6 +15004,7 @@ PresContext
 (
 )
 aElement
+aNameSpaceID
 aAttribute
 aModType
 aAttrHasChanged

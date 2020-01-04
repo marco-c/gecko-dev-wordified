@@ -8701,6 +8701,7 @@ StyleSet
 HasAttributeDependentStyle
 (
 aElement
+aNameSpaceID
 aAttribute
 aModType
 false
@@ -9326,6 +9327,7 @@ StyleSet
 HasAttributeDependentStyle
 (
 aElement
+aNameSpaceID
 aAttribute
 aModType
 true
