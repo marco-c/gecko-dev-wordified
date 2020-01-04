@@ -8971,6 +8971,14 @@ arrayBuffer
 isWasm
 (
 )
+|
+|
+arrayBuffer
+-
+>
+isPreparedForAsmJS
+(
+)
 )
 {
 JS_ReportErrorNumber
