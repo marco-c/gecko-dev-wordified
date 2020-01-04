@@ -414,6 +414,14 @@ return
 mWindow
 ;
 }
+MediaStream
+*
+GetCameraStream
+(
+)
+const
+override
+;
 /
 /
 Attributes

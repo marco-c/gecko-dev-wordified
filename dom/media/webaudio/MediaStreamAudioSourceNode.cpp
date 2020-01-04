@@ -301,7 +301,7 @@ AllocateInputPort
 aMediaStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 )

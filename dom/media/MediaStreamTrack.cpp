@@ -139,7 +139,7 @@ TrackID
 aTrackID
 )
 :
-mStream
+mOwningStream
 (
 aStream
 )
@@ -245,7 +245,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 MediaStreamTrack
 DOMEventTargetHelper
-mStream
+mOwningStream
 )
 NS_IMPL_ADDREF_INHERITED
 (
@@ -296,7 +296,7 @@ mEnabled
 =
 aEnabled
 ;
-mStream
+mOwningStream
 -
 >
 SetTrackEnabled
@@ -314,7 +314,7 @@ Stop
 (
 )
 {
-mStream
+mOwningStream
 -
 >
 StopTrack
@@ -342,7 +342,9 @@ aRv
 )
 {
 return
-mStream
+GetStream
+(
+)
 -
 >
 ApplyConstraintsToTrack

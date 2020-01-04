@@ -2917,7 +2917,7 @@ GetMediaStream
 )
 -
 >
-GetStream
+GetInputStream
 (
 )
 aTrack
@@ -3002,7 +3002,7 @@ GetMediaStream
 )
 -
 >
-GetStream
+GetInputStream
 (
 )
 aTrack
