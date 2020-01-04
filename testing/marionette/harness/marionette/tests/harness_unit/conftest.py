@@ -448,7 +448,7 @@ shuffle_seed
 socket_timeout
 '
 :
-360
+60
 .
 0
         
