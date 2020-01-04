@@ -476,6 +476,7 @@ disturb
 menuitem
 "
 )
+;
 }
 function
 onAlertClosing
