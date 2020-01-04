@@ -1474,13 +1474,12 @@ callback
 )
 ;
 }
-void
+NS_IMETHODIMP
 GeckoMediaPluginService
 :
 :
 RunPluginCrashCallbacks
 (
-const
 uint32_t
 aPluginId
 const
@@ -1647,6 +1646,9 @@ RemoveElementAt
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsresult
 GeckoMediaPluginService
