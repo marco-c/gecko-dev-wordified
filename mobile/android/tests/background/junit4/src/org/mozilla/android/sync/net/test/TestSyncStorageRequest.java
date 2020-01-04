@@ -245,6 +245,16 @@ junit
 .
 Assert
 .
+assertNotNull
+;
+import
+static
+org
+.
+junit
+.
+Assert
+.
 assertTrue
 ;
 import
@@ -1016,7 +1026,7 @@ EXPECTED_RETRY_AFTER_ERROR_MESSAGE
 ;
 response
 .
-set
+setValue
 (
 "
 Retry
@@ -1234,7 +1244,7 @@ response
 {
 response
 .
-set
+setValue
 (
 "
 X
@@ -1532,7 +1542,7 @@ response
 {
 response
 .
-set
+setValue
 (
 "
 X
@@ -1550,7 +1560,7 @@ Remaining
 ;
 response
 .
-set
+setValue
 (
 "
 X
@@ -1569,7 +1579,7 @@ string
 ;
 response
 .
-add
+addValue
 (
 "
 X
@@ -1588,7 +1598,7 @@ string
 ;
 response
 .
-set
+setValue
 (
 "
 X
@@ -1715,11 +1725,11 @@ Response
 response
 )
 {
-assertTrue
+assertNotNull
 (
 request
 .
-contains
+getValue
 (
 "
 x

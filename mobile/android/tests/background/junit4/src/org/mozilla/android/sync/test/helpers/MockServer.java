@@ -273,7 +273,7 @@ code
 ;
 response
 .
-set
+setValue
 (
 "
 Content
@@ -285,7 +285,7 @@ contentType
 ;
 response
 .
-set
+setValue
 (
 "
 Server
@@ -340,7 +340,7 @@ time
 ;
 response
 .
-set
+setValue
 (
 "
 X
