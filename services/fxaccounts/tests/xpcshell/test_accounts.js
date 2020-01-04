@@ -4024,6 +4024,7 @@ MockFxAccounts
 do_check_throws
 (
 function
+*
 (
 )
 {
