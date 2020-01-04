@@ -1389,9 +1389,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-int64_t
-*
-aMemoryCounter
 )
 {
 RefPtr
@@ -1418,7 +1415,6 @@ GetPlatform
 GetPreferredCanvasBackend
 (
 )
-aMemoryCounter
 )
 ;
 if
@@ -1447,7 +1443,6 @@ GetPlatform
 GetFallbackCanvasBackend
 (
 )
-aMemoryCounter
 )
 ;
 }

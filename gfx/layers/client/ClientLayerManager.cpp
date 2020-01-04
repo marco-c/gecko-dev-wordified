@@ -4614,9 +4614,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-int64_t
-*
-aMemoryCounter
 )
 {
 /
@@ -4703,7 +4700,6 @@ aFormat
 AsShadowForwarder
 (
 )
-aMemoryCounter
 )
 ;
 if
@@ -4728,7 +4724,6 @@ CreatePersistentBufferProvider
 (
 aSize
 aFormat
-aMemoryCounter
 )
 ;
 }
