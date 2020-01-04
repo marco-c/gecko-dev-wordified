@@ -1009,6 +1009,9 @@ of
 days
 mCookiesLifetimeSec
 =
+(
+int64_t
+)
 val
 *
 24
