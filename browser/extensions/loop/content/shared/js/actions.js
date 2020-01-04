@@ -1835,9 +1835,13 @@ updateRoomContext
 roomToken
 :
 String
+/
+/
 newRoomName
 :
 String
+Optional
+.
 /
 /
 newRoomDescription
