@@ -10404,7 +10404,11 @@ apply
 null
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )
@@ -10427,7 +10431,11 @@ apply
 null
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )

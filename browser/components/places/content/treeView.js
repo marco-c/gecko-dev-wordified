@@ -2066,6 +2066,8 @@ by
 /
 Array
 .
+prototype
+.
 concat
 )
 is

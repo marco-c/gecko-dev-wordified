@@ -4190,7 +4190,11 @@ index
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 parentElt
 .
@@ -4408,7 +4412,11 @@ index
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 parentElt
 .
@@ -9324,7 +9332,11 @@ eltIndex
 =
 Array
 .
+prototype
+.
 indexOf
+.
+call
 (
 this
 .
