@@ -2091,7 +2091,7 @@ LAST_TYPE
 ;
 const
 Class
-SIMDObject
+SimdObject
 :
 :
 class_
@@ -2266,7 +2266,7 @@ NewObjectWithGivenProto
 (
 cx
 &
-SIMDObject
+SimdObject
 :
 :
 class_
@@ -2877,7 +2877,7 @@ undef
 CREATE_
 }
 bool
-SIMDObject
+SimdObject
 :
 :
 resolve
@@ -3010,7 +3010,7 @@ JSObject
 js
 :
 :
-InitSIMDClass
+InitSimdClass
 (
 JSContext
 *

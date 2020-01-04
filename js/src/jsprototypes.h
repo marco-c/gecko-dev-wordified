@@ -1015,10 +1015,10 @@ imaginary
 (
 SIMD
 41
-InitSIMDClass
+InitSimdClass
 OCLASP
 (
-SIMD
+Simd
 )
 )
 \
