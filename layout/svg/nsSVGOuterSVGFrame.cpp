@@ -6250,7 +6250,7 @@ aFlags
 nsISVGChildFrame
 methods
 :
-DrawResult
+nsresult
 nsSVGOuterSVGFrame
 :
 :

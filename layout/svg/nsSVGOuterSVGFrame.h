@@ -699,7 +699,7 @@ nsISVGChildFrame
 methods
 :
 virtual
-DrawResult
+nsresult
 PaintSVG
 (
 gfxContext

@@ -292,7 +292,7 @@ nsISVGChildFrame
 interface
 :
 virtual
-DrawResult
+nsresult
 PaintSVG
 (
 gfxContext
@@ -579,7 +579,7 @@ aLists
 ;
 }
 }
-DrawResult
+nsresult
 nsSVGSwitchFrame
 :
 :
@@ -649,10 +649,7 @@ mOpacity
 0
 )
 return
-DrawResult
-:
-:
-SUCCESS
+NS_OK
 ;
 nsIFrame
 *
@@ -724,10 +721,7 @@ aDirtyRect
 ;
 }
 return
-DrawResult
-:
-:
-SUCCESS
+NS_OK
 ;
 }
 nsIFrame

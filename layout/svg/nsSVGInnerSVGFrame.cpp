@@ -189,13 +189,6 @@ mozilla
 :
 gfx
 ;
-using
-namespace
-mozilla
-:
-:
-image
-;
 nsIFrame
 *
 NS_NewSVGInnerSVGFrame
@@ -472,7 +465,7 @@ svgInnerSVGFrame
 /
 nsISVGChildFrame
 methods
-DrawResult
+nsresult
 nsSVGInnerSVGFrame
 :
 :
@@ -586,10 +579,7 @@ height
 )
 {
 return
-DrawResult
-:
-:
-SUCCESS
+NS_OK
 ;
 }
 autoSR

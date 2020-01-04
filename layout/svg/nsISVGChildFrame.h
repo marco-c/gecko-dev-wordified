@@ -274,16 +274,6 @@ mozilla
 SVGUserUnitList
 SVGUserUnitList
 ;
-typedef
-mozilla
-:
-:
-image
-:
-:
-DrawResult
-DrawResult
-;
 NS_DECL_QUERYFRAME_TARGET
 (
 nsISVGChildFrame
@@ -560,7 +550,7 @@ coordinates
 *
 /
 virtual
-DrawResult
+nsresult
 PaintSVG
 (
 gfxContext
