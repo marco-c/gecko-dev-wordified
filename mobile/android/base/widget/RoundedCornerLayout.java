@@ -378,6 +378,14 @@ oldw
 oldh
 )
 ;
+if
+(
+cannotClipPath
+)
+{
+return
+;
+}
 final
 RectF
 r
