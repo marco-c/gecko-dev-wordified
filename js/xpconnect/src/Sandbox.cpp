@@ -7643,6 +7643,9 @@ sandbox
 return
 NS_ERROR_XPC_UNEXPECTED
 ;
+#
+ifndef
+SPIDERMONKEY_PROMISE
 /
 /
 Promise
@@ -7681,6 +7684,11 @@ sandbox
 return
 NS_ERROR_XPC_UNEXPECTED
 ;
+#
+endif
+/
+/
+SPIDERMONKEY_PROMISE
 }
 /
 /

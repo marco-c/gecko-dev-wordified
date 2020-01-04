@@ -40514,6 +40514,34 @@ exceptionCode
 ErrorResult
 promiseRv
 ;
+                
+#
+ifdef
+SPIDERMONKEY_PROMISE
+                  
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+promiseCtor
+(
+cx
+JS
+:
+:
+GetPromiseConstructor
+(
+cx
+)
+)
+;
+                
+#
+else
                   
 JS
 :
@@ -40535,6 +40563,12 @@ cx
 globalObj
 )
 ;
+                
+#
+endif
+/
+/
+SPIDERMONKEY_PROMISE
                   
 if
 (
