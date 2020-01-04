@@ -422,7 +422,9 @@ is
 (
 browser1
 .
-contentTitle
+contentDocument
+.
+title
 '
 ?
 old
@@ -442,7 +444,9 @@ is
 (
 browser1
 .
-contentPrincipal
+contentDocument
+.
+nodePrincipal
 .
 userContextId
 1
@@ -459,7 +463,9 @@ is
 (
 browser2
 .
-contentTitle
+contentDocument
+.
+title
 '
 ?
 old
@@ -479,7 +485,9 @@ is
 (
 browser2
 .
-contentPrincipal
+contentDocument
+.
+nodePrincipal
 .
 userContextId
 2
@@ -545,7 +553,9 @@ if
 (
 browser
 .
-contentTitle
+contentDocument
+.
+title
 =
 =
 '
@@ -558,7 +568,9 @@ is
 (
 browser
 .
-contentPrincipal
+contentDocument
+.
+nodePrincipal
 .
 userContextId
 1
