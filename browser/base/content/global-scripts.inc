@@ -635,6 +635,9 @@ js
 "
 /
 >
+#
+ifdef
+MOZ_SAFE_BROWSING
 <
 script
 type
@@ -663,6 +666,8 @@ js
 "
 /
 >
+#
+endif
 <
 script
 type
