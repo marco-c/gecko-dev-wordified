@@ -22824,6 +22824,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_WIN
+)
 NPError
 err
 =
