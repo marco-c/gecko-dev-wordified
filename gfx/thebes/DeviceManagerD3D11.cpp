@@ -1773,6 +1773,13 @@ recreating
 )
 ;
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 /
 /
 It
@@ -1798,6 +1805,7 @@ WarnOnAdapterMismatch
 mCompositorDevice
 )
 ;
+}
 mCompositorDevice
 -
 >
