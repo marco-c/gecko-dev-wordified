@@ -26080,6 +26080,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 NS_IMETHODIMP
 nsWindow
 :
@@ -26550,6 +26553,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 already_AddRefed
 <
 mozilla
