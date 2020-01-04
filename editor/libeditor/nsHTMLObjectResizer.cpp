@@ -103,6 +103,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -170,13 +177,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

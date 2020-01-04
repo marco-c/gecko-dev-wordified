@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsEditorUtils
+EditorUtils
 .
 h
 "
@@ -1130,8 +1130,11 @@ utils
 *
 *
 /
+namespace
+mozilla
+{
 bool
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -1229,7 +1232,7 @@ false
 ;
 }
 bool
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -1286,7 +1289,7 @@ aOffset
 ;
 }
 bool
-nsEditorUtils
+EditorUtils
 :
 :
 IsLeafNode
@@ -1319,6 +1322,11 @@ return
 hasChildren
 ;
 }
+}
+/
+/
+namespace
+mozilla
 /
 *
 *

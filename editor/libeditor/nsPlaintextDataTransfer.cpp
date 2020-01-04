@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -168,13 +175,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

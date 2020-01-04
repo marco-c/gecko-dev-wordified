@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsEditorUtils_h__
+EditorUtils_h
 #
 define
-nsEditorUtils_h__
+EditorUtils_h
 #
 include
 "
@@ -1869,8 +1869,12 @@ aOffset
 }
 }
 ;
+namespace
+mozilla
+{
 class
-nsEditorUtils
+EditorUtils
+final
 {
 public
 :
@@ -1919,6 +1923,11 @@ aNode
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 class
 nsIDOMEvent
 ;
@@ -1969,4 +1978,6 @@ aEnumerator
 endif
 /
 /
-nsEditorUtils_h__
+#
+ifndef
+EditorUtils_h

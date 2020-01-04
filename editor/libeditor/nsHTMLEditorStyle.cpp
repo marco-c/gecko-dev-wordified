@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 TypeInState
 .
 h
@@ -193,13 +200,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

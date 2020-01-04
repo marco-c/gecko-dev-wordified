@@ -128,6 +128,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -252,13 +259,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "
@@ -10391,7 +10391,7 @@ GetActiveEditingHost
 if
 (
 !
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -17958,7 +17958,7 @@ rightList
 &
 &
 !
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -17971,7 +17971,7 @@ offset
 &
 &
 !
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -18105,7 +18105,7 @@ from
 leftBlock
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -18433,7 +18433,7 @@ rightBlock
 else
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -21293,7 +21293,7 @@ curList
 &
 &
 !
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -21535,7 +21535,7 @@ if
 curList
 |
 |
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -27907,7 +27907,7 @@ descendant
 ?
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -28874,7 +28874,7 @@ startNode
 rememberedLeftBQ
 |
 |
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -28980,7 +28980,7 @@ startNode
 rememberedRightBQ
 |
 |
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -29244,7 +29244,7 @@ of
 aBlock
 MOZ_ASSERT
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -29256,7 +29256,7 @@ aBlock
 )
 &
 &
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -48054,7 +48054,7 @@ descendant
 ?
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -55160,7 +55160,7 @@ NS_OK
 }
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -55224,7 +55224,7 @@ NS_OK
 }
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
