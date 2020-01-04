@@ -282,6 +282,13 @@ bool
 false
 )
 \
+_
+(
+CanUseHardwareVideoDecoding
+bool
+false
+)
+\
 /
 *
 Add
