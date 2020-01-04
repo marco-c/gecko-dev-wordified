@@ -2016,9 +2016,10 @@ completions
 .
 every
 (
+function
+(
 x
-=
->
+)
 x
 .
 _completed

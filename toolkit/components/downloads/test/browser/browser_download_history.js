@@ -700,10 +700,9 @@ false
 ;
 executeSoon
 (
+function
 (
 )
-=
->
 aCallback
 (
 win
@@ -757,10 +756,9 @@ true
 ;
 executeSoon
 (
+function
 (
 )
-=
->
 aCallback
 (
 browser

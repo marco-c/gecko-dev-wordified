@@ -362,9 +362,10 @@ params
 {
 handleResult
 :
+function
+(
 result
-=
->
+)
 results
 .
 push
@@ -512,9 +513,10 @@ obj
 {
 handleResult
 :
+function
+(
 result
-=
->
+)
 count
 =
 result

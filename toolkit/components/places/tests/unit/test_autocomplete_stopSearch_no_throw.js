@@ -491,9 +491,10 @@ tests
 .
 forEach
 (
+function
+(
 test
-=
->
+)
 test
 (
 )

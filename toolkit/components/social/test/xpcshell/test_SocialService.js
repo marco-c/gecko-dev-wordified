@@ -651,9 +651,10 @@ providers
 .
 map
 (
+function
+(
 p
-=
->
+)
 p
 .
 origin
