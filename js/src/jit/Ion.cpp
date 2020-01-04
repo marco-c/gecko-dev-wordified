@@ -6053,7 +6053,7 @@ i
 +
 )
 {
-ICEntry
+IonICEntry
 &
 ent
 =
@@ -7599,7 +7599,7 @@ i
 +
 )
 {
-ICEntry
+IonICEntry
 &
 entry
 =
@@ -7908,7 +7908,7 @@ i
 +
 )
 {
-ICEntry
+IonICEntry
 &
 entry
 =

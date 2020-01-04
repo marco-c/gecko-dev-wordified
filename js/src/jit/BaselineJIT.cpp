@@ -2740,7 +2740,7 @@ icEntries
 *
 sizeof
 (
-ICEntry
+BaselineICEntry
 )
 ;
 size_t
@@ -3115,7 +3115,7 @@ i
 +
 )
 {
-ICEntry
+BaselineICEntry
 &
 ent
 =
@@ -3624,7 +3624,7 @@ break
 }
 }
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -3777,7 +3777,7 @@ baseline
 )
 {
 }
-ICEntry
+BaselineICEntry
 &
 operator
 [
@@ -3800,7 +3800,7 @@ index
 }
 }
 ;
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -3837,7 +3837,7 @@ numICEntries
 returnOffset
 ]
 (
-ICEntry
+BaselineICEntry
 &
 entry
 )
@@ -3967,7 +3967,7 @@ numICEntries
 pcOffset
 ]
 (
-ICEntry
+BaselineICEntry
 &
 entry
 )
@@ -4020,7 +4020,7 @@ BaselineScript
 returnAddressForIC
 (
 const
-ICEntry
+BaselineICEntry
 &
 ent
 )
@@ -4046,7 +4046,7 @@ offset
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4247,7 +4247,7 @@ entry
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4256,7 +4256,7 @@ icEntryFromPCOffset
 (
 uint32_t
 pcOffset
-ICEntry
+BaselineICEntry
 *
 prevLookedUpEntry
 )
@@ -4322,7 +4322,7 @@ pcOffset
 10
 )
 {
-ICEntry
+BaselineICEntry
 *
 firstEntry
 =
@@ -4332,7 +4332,7 @@ icEntry
 0
 )
 ;
-ICEntry
+BaselineICEntry
 *
 lastEntry
 =
@@ -4346,7 +4346,7 @@ numICEntries
 1
 )
 ;
-ICEntry
+BaselineICEntry
 *
 curEntry
 =
@@ -4426,7 +4426,7 @@ pcOffset
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4590,7 +4590,7 @@ entry
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4744,7 +4744,7 @@ found
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4845,7 +4845,7 @@ found
 )
 ;
 }
-ICEntry
+BaselineICEntry
 &
 BaselineScript
 :
@@ -4991,7 +4991,7 @@ JSScript
 *
 script
 const
-ICEntry
+BaselineICEntry
 *
 entries
 MacroAssembler
@@ -5050,7 +5050,7 @@ i
 +
 )
 {
-ICEntry
+BaselineICEntry
 &
 realEntry
 =
@@ -6957,7 +6957,7 @@ i
 +
 )
 {
-ICEntry
+BaselineICEntry
 &
 entry
 =
@@ -7233,7 +7233,7 @@ i
 +
 )
 {
-ICEntry
+BaselineICEntry
 &
 entry
 =

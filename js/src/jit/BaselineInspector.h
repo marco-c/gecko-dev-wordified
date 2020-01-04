@@ -260,7 +260,7 @@ JSScript
 *
 script
 ;
-ICEntry
+BaselineICEntry
 *
 prevLookedUpEntry
 ;
@@ -345,7 +345,7 @@ pc
 }
 #
 endif
-ICEntry
+BaselineICEntry
 &
 icEntryFromPC
 (
@@ -369,7 +369,7 @@ pc
 )
 )
 ;
-ICEntry
+BaselineICEntry
 &
 ent
 =
@@ -426,7 +426,7 @@ Kind
 expectedFallbackKind
 )
 {
-ICEntry
+BaselineICEntry
 *
 ent
 =

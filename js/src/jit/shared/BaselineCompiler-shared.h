@@ -203,7 +203,7 @@ js
 :
 Vector
 <
-ICEntry
+BaselineICEntry
 16
 SystemAllocPolicy
 >
@@ -376,7 +376,7 @@ JSScript
 script
 )
 ;
-ICEntry
+BaselineICEntry
 *
 allocateICEntry
 (
@@ -417,7 +417,7 @@ icEntries_
 .
 append
 (
-ICEntry
+BaselineICEntry
 (
 script
 -
@@ -440,7 +440,7 @@ return
 nullptr
 ;
 }
-ICEntry
+BaselineICEntry
 &
 vecEntry
 =
@@ -505,7 +505,7 @@ uint32_t
 returnOffset
 )
 {
-ICEntry
+BaselineICEntry
 entry
 (
 script
