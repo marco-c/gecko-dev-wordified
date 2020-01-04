@@ -5668,6 +5668,9 @@ case
 GetProp_CallNative
 :
 case
+GetProp_CallNativeGlobal
+:
+case
 GetProp_CallDOMProxyNative
 :
 case
@@ -5746,6 +5749,9 @@ GetProp_NativePrototype
 :
 case
 GetProp_Native
+:
+case
+GetName_Global
 :
 #
 endif

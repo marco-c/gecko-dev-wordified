@@ -16425,6 +16425,10 @@ script
 global
 (
 )
+.
+lexicalScope
+(
+)
 ;
 }
 bool

@@ -429,6 +429,11 @@ GetName_Fallback
 \
 _
 (
+GetName_GlobalLexical
+)
+\
+_
+(
 GetName_Global
 )
 \
@@ -543,6 +548,11 @@ GetProp_CallScripted
 _
 (
 GetProp_CallNative
+)
+\
+_
+(
+GetProp_CallNativeGlobal
 )
 \
 _

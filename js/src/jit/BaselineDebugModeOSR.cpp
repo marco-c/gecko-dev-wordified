@@ -4624,6 +4624,11 @@ GetProp_CallNative
 \
 _
 (
+GetProp_CallNativeGlobal
+)
+\
+_
+(
 GetProp_CallDOMProxyNative
 )
 \
@@ -4679,6 +4684,11 @@ GetProp_NativePrototype
 _
 (
 GetProp_Native
+)
+\
+_
+(
+GetName_Global
 )
 #
 endif
