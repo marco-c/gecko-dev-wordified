@@ -1305,7 +1305,7 @@ _cbPanel
 removeEventListener
 (
 "
-popupshowing
+popupshown
 "
 this
 .
