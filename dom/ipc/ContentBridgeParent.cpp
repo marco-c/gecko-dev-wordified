@@ -531,10 +531,6 @@ const
 nsString
 &
 aMsg
-const
-ClonedMessageData
-&
-aData
 InfallibleTArray
 <
 jsipc
@@ -552,6 +548,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+ClonedMessageData
+&
+aData
 )
 {
 return
@@ -561,12 +561,12 @@ nsIContentParent
 RecvAsyncMessage
 (
 aMsg
-aData
 Move
 (
 aCpows
 )
 aPrincipal
+aData
 )
 ;
 }

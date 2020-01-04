@@ -663,10 +663,6 @@ const
 nsString
 &
 aMsg
-const
-ClonedMessageData
-&
-aData
 InfallibleTArray
 <
 CpowEntry
@@ -681,6 +677,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+ClonedMessageData
+&
+aData
 )
 {
 RefPtr
