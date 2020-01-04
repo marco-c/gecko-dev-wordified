@@ -7734,7 +7734,7 @@ aEvent
 >
 mFlags
 .
-mExceptionHasBeenRisen
+mExceptionWasRaised
 =
 true
 ;

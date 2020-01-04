@@ -939,7 +939,7 @@ mIsSynthesizedForTests
 /
 /
 If
-mExceptionHasBeenRisen
+mExceptionWasRaised
 is
 true
 one
@@ -948,14 +948,14 @@ the
 event
 handlers
 has
-risen
+raised
 an
 /
 /
 exception
 .
 bool
-mExceptionHasBeenRisen
+mExceptionWasRaised
 :
 1
 ;

@@ -1390,7 +1390,7 @@ internalEvent
 >
 mFlags
 .
-mExceptionHasBeenRisen
+mExceptionWasRaised
 )
 {
 result
@@ -6545,7 +6545,7 @@ WidgetEventPtr
 >
 mFlags
 .
-mExceptionHasBeenRisen
+mExceptionWasRaised
 )
 {
 /
