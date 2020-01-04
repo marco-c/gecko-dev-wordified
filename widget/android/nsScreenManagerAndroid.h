@@ -315,6 +315,9 @@ nsScreenManagerAndroid
 ;
 public
 :
+class
+ScreenManagerHelperSupport
+;
 nsScreenManagerAndroid
 (
 )
