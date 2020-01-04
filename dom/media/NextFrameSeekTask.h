@@ -278,7 +278,7 @@ TimeUnit
 &
 aDuration
 int64_t
-aCurrentMediaTime
+aCurrentTime
 MediaQueue
 <
 MediaData
@@ -504,7 +504,7 @@ state
 /
 const
 int64_t
-mCurrentTimeBeforeSeek
+mCurrentTime
 ;
 media
 :
