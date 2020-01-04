@@ -1407,13 +1407,6 @@ addonListener
 }
 else
 {
-if
-(
-this
-.
-addonListener
-)
-{
 AddonManager
 .
 removeAddonListener
@@ -1423,7 +1416,6 @@ this
 addonListener
 )
 ;
-}
 }
 }
 }
