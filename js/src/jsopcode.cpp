@@ -6413,12 +6413,8 @@ sizeof
 numBuf
 "
 %
-lx
+x
 "
-(
-unsigned
-long
-)
 cs
 -
 >
