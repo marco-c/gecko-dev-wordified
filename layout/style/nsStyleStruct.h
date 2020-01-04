@@ -3556,6 +3556,8 @@ Position
 bool
 IsInitialValue
 (
+LayerType
+aType
 )
 const
 ;
