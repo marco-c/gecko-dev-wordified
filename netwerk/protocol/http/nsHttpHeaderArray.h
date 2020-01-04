@@ -990,6 +990,10 @@ ParamTraits
 nsHttpHeaderArray
 >
 ;
+friend
+class
+nsHttpRequestHead
+;
 }
 ;
 /
