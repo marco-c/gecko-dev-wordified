@@ -663,7 +663,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -789,7 +789,7 @@ dying
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -1521,7 +1521,7 @@ Post
 -
 process
 return
-mRules
+rules
 -
 >
 DidDoAction
@@ -7983,7 +7983,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -7991,7 +7991,7 @@ mRules
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8726,7 +8726,7 @@ Post
 process
 res
 =
-mRules
+rules
 -
 >
 DidDoAction

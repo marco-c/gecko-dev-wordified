@@ -2887,12 +2887,6 @@ bool
 aAfter
 )
 {
-RefPtr
-<
-Selection
->
-selection
-;
 nsCOMPtr
 <
 nsIDOMElement
@@ -6018,12 +6012,6 @@ nsCOMPtr
 nsIDOMElement
 >
 cell
-;
-nsCOMPtr
-<
-nsIDOMElement
->
-cellInDeleteCol
 ;
 int32_t
 startRowIndex

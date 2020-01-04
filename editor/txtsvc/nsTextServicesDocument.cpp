@@ -15150,12 +15150,6 @@ nsIContentIterator
 aIterator
 )
 {
-nsCOMPtr
-<
-nsIContent
->
-content
-;
 nsresult
 result
 ;
