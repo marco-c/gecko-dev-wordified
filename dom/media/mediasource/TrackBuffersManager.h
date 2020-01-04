@@ -1948,6 +1948,13 @@ reset
 void
 CheckSequenceDiscontinuity
 (
+const
+media
+:
+:
+TimeUnit
+&
+aPresentationTime
 )
 ;
 void
