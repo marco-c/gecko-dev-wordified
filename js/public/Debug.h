@@ -3148,6 +3148,10 @@ cx
 JSFunction
 *
 function
+HandleValue
+asyncStack
+HandleString
+asyncCause
 )
 =
 0
@@ -3202,6 +3206,10 @@ cx
 JSScript
 *
 script
+HandleValue
+asyncStack
+HandleString
+asyncCause
 )
 =
 0
