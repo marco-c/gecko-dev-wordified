@@ -126,6 +126,17 @@ h
 /
 for
 ImageBridgeChild
+#
+include
+"
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
 namespace
 mozilla
 {
@@ -265,6 +276,9 @@ maxCount
 {
 gfxDevCrash
 (
+gfx
+:
+:
 LogReason
 :
 :
