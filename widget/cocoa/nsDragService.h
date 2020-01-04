@@ -199,13 +199,11 @@ nsDragService
 ;
 /
 /
-nsIDragService
-NS_IMETHOD
-InvokeDragSession
+nsBaseDragService
+virtual
+nsresult
+InvokeDragSessionImpl
 (
-nsIDOMNode
-*
-aDOMNode
 nsISupportsArray
 *
 anArrayTransferables
@@ -216,6 +214,9 @@ uint32_t
 aActionType
 )
 ;
+/
+/
+nsIDragService
 NS_IMETHOD
 EndDragSession
 (

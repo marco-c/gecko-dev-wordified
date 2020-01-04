@@ -119,13 +119,11 @@ nsDragServiceProxy
 NS_DECL_ISUPPORTS_INHERITED
 /
 /
-nsIDragService
-NS_IMETHOD
-InvokeDragSession
+nsBaseDragService
+virtual
+nsresult
+InvokeDragSessionImpl
 (
-nsIDOMNode
-*
-aDOMNode
 nsISupportsArray
 *
 anArrayTransferables
