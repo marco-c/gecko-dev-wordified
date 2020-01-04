@@ -815,10 +815,6 @@ static
 int
 mInstanceCount
 ;
-nsNSSShutDownList
-*
-mShutdownObjectList
-;
 #
 ifndef
 MOZ_NO_SMART_CARDS
