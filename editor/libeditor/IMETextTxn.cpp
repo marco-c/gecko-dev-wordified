@@ -796,8 +796,8 @@ methods
 *
 /
 static
-SelectionType
-ToSelectionType
+RawSelectionType
+ToRawSelectionType
 (
 TextRangeType
 aTextRangeType
@@ -970,7 +970,7 @@ composition
 .
 static
 const
-SelectionType
+RawSelectionType
 kIMESelections
 [
 ]
@@ -1591,7 +1591,7 @@ selCon
 >
 GetSelection
 (
-ToSelectionType
+ToRawSelectionType
 (
 textRange
 .

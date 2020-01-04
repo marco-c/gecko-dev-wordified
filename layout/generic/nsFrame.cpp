@@ -11554,7 +11554,7 @@ if
 details
 -
 >
-mType
+mRawSelectionType
 =
 =
 nsISelectionController
@@ -22642,7 +22642,7 @@ if
 curDetail
 -
 >
-mType
+mRawSelectionType
 !
 =
 nsISelectionController
@@ -22654,7 +22654,7 @@ SELECTION_SPELLCHECK
 curDetail
 -
 >
-mType
+mRawSelectionType
 !
 =
 nsISelectionController
@@ -22666,7 +22666,7 @@ SELECTION_FIND
 curDetail
 -
 >
-mType
+mRawSelectionType
 !
 =
 nsISelectionController
@@ -22678,7 +22678,7 @@ SELECTION_URLSECONDARY
 curDetail
 -
 >
-mType
+mRawSelectionType
 !
 =
 nsISelectionController

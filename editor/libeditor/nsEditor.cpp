@@ -14905,7 +14905,7 @@ NUM_SELECTIONTYPES
 i
 )
 {
-SelectionType
+RawSelectionType
 type
 (
 1
@@ -15871,7 +15871,7 @@ NUM_SELECTIONTYPES
 i
 )
 {
-SelectionType
+RawSelectionType
 type
 (
 1
@@ -29428,8 +29428,8 @@ INT32_MAX
 ;
 static
 const
-SelectionType
-kIMESelectionTypes
+RawSelectionType
+kIMERawSelectionTypes
 [
 ]
 =
@@ -29455,9 +29455,9 @@ SELECTION_IME_SELECTEDCONVERTEDTEXT
 for
 (
 auto
-selectionType
+rawSelectionType
 :
-kIMESelectionTypes
+kIMERawSelectionTypes
 )
 {
 RefPtr
@@ -29468,7 +29468,7 @@ selection
 =
 GetSelection
 (
-selectionType
+rawSelectionType
 )
 ;
 if

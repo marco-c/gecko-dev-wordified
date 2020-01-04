@@ -9501,8 +9501,8 @@ PresShell
 :
 GetSelection
 (
-SelectionType
-aType
+RawSelectionType
+aRawSelectionType
 nsISelection
 *
 *
@@ -9529,7 +9529,7 @@ mSelection
 >
 GetSelection
 (
-aType
+aRawSelectionType
 )
 ;
 if
@@ -9560,8 +9560,8 @@ PresShell
 :
 GetCurrentSelection
 (
-SelectionType
-aType
+RawSelectionType
+aRawSelectionType
 )
 {
 if
@@ -9578,7 +9578,7 @@ mSelection
 >
 GetSelection
 (
-aType
+aRawSelectionType
 )
 ;
 }
@@ -9588,8 +9588,8 @@ PresShell
 :
 ScrollSelectionIntoView
 (
-SelectionType
-aType
+RawSelectionType
+aRawSelectionType
 SelectionRegion
 aRegion
 int16_t
@@ -9610,7 +9610,7 @@ mSelection
 >
 ScrollSelectionIntoView
 (
-aType
+aRawSelectionType
 aRegion
 aFlags
 )
@@ -9622,8 +9622,8 @@ PresShell
 :
 RepaintSelection
 (
-SelectionType
-aType
+RawSelectionType
+aRawSelectionType
 )
 {
 if
@@ -9640,7 +9640,7 @@ mSelection
 >
 RepaintSelection
 (
-aType
+aRawSelectionType
 )
 ;
 }
