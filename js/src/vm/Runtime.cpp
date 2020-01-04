@@ -3699,7 +3699,11 @@ code
 and
 /
 /
-futexWait
+Atomics
+.
+wait
+(
+)
 .
 fx
 .

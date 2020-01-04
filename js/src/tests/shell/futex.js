@@ -143,7 +143,9 @@ shell
 /
 Tests
 the
-futex
+wait
+/
+wake
 functionality
 in
 the
@@ -775,7 +777,7 @@ assertEq
 (
 Atomics
 .
-futexWake
+wake
 (
 mem
 0
@@ -807,7 +809,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -957,7 +959,9 @@ the
 default
 argument
 to
-futexWake
+atomics
+.
+wake
 (
 )
 setSharedArrayBuffer
@@ -1000,7 +1004,7 @@ assertEq
 (
 Atomics
 .
-futexWake
+wake
 (
 mem
 0
@@ -1013,7 +1017,7 @@ mem
 Last
 argument
 to
-futexWake
+wake
 should
 default
 to
@@ -1048,7 +1052,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -1174,7 +1178,7 @@ we
 will
 execute
 a
-futexWait
+wait
 .
 This
 is
@@ -1218,7 +1222,7 @@ timeout
 ;
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -1258,7 +1262,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0

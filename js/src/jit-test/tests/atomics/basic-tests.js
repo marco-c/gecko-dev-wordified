@@ -42,7 +42,9 @@ do
 not
 test
 the
-futex
+wait
+/
+wake
 operations
 .
 load
