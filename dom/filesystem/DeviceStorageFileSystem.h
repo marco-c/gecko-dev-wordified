@@ -228,6 +228,17 @@ aDir
 const
 override
 ;
+virtual
+void
+SerializeDOMPath
+(
+nsAString
+&
+aSerializedString
+)
+const
+override
+;
 private
 :
 virtual
