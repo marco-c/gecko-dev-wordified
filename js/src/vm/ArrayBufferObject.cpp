@@ -1938,7 +1938,7 @@ setByteLength
 buffer
 -
 >
-setIsNeutered
+setIsDetached
 (
 )
 ;
@@ -7341,7 +7341,7 @@ ArrayBufferObject
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 ;
@@ -7688,7 +7688,7 @@ if
 buffer
 -
 >
-isNeutered
+isDetached
 (
 )
 )

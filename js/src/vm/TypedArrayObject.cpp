@@ -2711,7 +2711,7 @@ get
 )
 )
 .
-isNeutered
+isDetached
 (
 )
 buffer
@@ -4002,7 +4002,7 @@ if
 (
 buf
 .
-isNeutered
+isDetached
 (
 )
 )
@@ -4839,7 +4839,7 @@ TypedArrayObject
 (
 )
 .
-isNeutered
+hasDetachedBuffer
 (
 )
 )
@@ -7519,7 +7519,7 @@ if
 buffer
 -
 >
-isNeutered
+isDetached
 (
 )
 )
@@ -9222,7 +9222,7 @@ arrayBuffer
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 )
@@ -9588,7 +9588,7 @@ arrayBuffer
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 )

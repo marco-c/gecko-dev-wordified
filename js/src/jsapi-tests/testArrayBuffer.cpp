@@ -774,7 +774,7 @@ cx
 ;
 CHECK
 (
-isNeutered
+hasDetachedBuffer
 (
 view
 )
@@ -909,7 +909,7 @@ contents
 ;
 CHECK
 (
-isNeutered
+hasDetachedBuffer
 (
 view1
 )
@@ -917,7 +917,7 @@ view1
 ;
 CHECK
 (
-isNeutered
+hasDetachedBuffer
 (
 view2
 )
@@ -1001,7 +1001,7 @@ to
 end
 }
 bool
-isNeutered
+hasDetachedBuffer
 (
 JS
 :

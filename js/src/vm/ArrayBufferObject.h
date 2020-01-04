@@ -1557,7 +1557,7 @@ false
 ;
 /
 /
-Neutered
+Detached
 contents
 aren
 '
@@ -1567,10 +1567,10 @@ because
 we
 want
 a
-neutered
+detached
 /
 /
-array
+buffer
 '
 s
 contents
@@ -1612,8 +1612,8 @@ for
 a
 /
 /
-neutered
-array
+detached
+buffer
 -
 -
 not
@@ -1623,7 +1623,7 @@ byteLength
 .
 return
 !
-isNeutered
+isDetached
 (
 )
 ;
@@ -2075,7 +2075,7 @@ MAPPED
 ;
 }
 bool
-isNeutered
+isDetached
 (
 )
 const
@@ -2324,7 +2324,7 @@ ASMJS_MALLOCED
 ;
 }
 void
-setIsNeutered
+setIsDetached
 (
 )
 {

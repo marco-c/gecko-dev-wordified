@@ -8885,7 +8885,7 @@ ArrayBufferObject
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 ;
@@ -8959,7 +8959,7 @@ ArrayBufferObject
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 )
@@ -9049,7 +9049,7 @@ ArrayBufferObject
 (
 )
 .
-isNeutered
+isDetached
 (
 )
 )
@@ -15218,7 +15218,7 @@ opaque
 buffer
 -
 >
-isNeutered
+isDetached
 (
 )
 )
