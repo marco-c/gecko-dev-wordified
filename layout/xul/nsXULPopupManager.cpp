@@ -3392,7 +3392,7 @@ cssPos
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 aPnt
 )

@@ -37230,7 +37230,7 @@ refPoint
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 touchPoint
 )
@@ -42439,7 +42439,7 @@ aIdentifier
 ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 touchPoint
 )

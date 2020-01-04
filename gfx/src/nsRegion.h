@@ -5053,7 +5053,7 @@ aRegion
 }
 static
 IntRegionTyped
-FromUntyped
+FromUnknownRegion
 (
 const
 IntRegionTyped
@@ -5087,7 +5087,7 @@ so
 calling
 code
 uses
-FromUntyped
+FromUnknownRegion
 (
 )
 .

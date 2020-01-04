@@ -1550,10 +1550,10 @@ rect
 IntersectRect
 (
 rect
-LayoutDevicePixel
+LayoutDeviceIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 screenRectPixels
 )

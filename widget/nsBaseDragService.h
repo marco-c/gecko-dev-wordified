@@ -305,7 +305,7 @@ mozilla
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 aEndDragPoint
 )

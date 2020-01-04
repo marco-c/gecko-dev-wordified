@@ -6706,10 +6706,10 @@ RootLayer
 >
 Prepare
 (
-RenderTargetPixel
+RenderTargetIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 clipRect
 )

@@ -768,7 +768,7 @@ return
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 GetWindowPosition
 (
