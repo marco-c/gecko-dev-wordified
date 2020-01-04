@@ -3263,13 +3263,6 @@ icon
 icon
 )
 ;
-return
-Promise
-.
-resolve
-(
-)
-;
 }
 setBadgeText
 :
