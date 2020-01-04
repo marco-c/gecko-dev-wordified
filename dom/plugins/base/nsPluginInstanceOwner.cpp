@@ -14819,7 +14819,10 @@ pluginSurface
 new
 gfxImageSurface
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 aFrameRect
 .

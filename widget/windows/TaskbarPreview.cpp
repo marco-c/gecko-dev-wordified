@@ -1912,7 +1912,10 @@ surface
 new
 gfxWindowsSurface
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 width
 height

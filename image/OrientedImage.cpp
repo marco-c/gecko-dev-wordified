@@ -424,7 +424,7 @@ the
 underlying
 dimensions
 .
-gfxIntSize
+IntSize
 size
 ;
 rv

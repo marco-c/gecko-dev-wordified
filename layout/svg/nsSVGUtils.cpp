@@ -4916,7 +4916,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-gfxIntSize
+IntSize
 nsSVGUtils
 :
 :
@@ -4931,7 +4931,7 @@ bool
 aResultOverflows
 )
 {
-gfxIntSize
+IntSize
 surfaceSize
 (
 ClampToInt

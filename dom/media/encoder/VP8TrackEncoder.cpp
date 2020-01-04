@@ -1524,7 +1524,10 @@ VideoFrame
 :
 CreateBlackImage
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 mFrameWidth
 mFrameHeight

@@ -335,7 +335,10 @@ void
 SetCurrentFrame
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 Image

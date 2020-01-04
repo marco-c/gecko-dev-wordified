@@ -17231,7 +17231,10 @@ mElement
 return
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 ;
 {
@@ -17294,7 +17297,10 @@ if
 mInitialSize
 !
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 0
 0
@@ -17369,7 +17375,10 @@ GetIntrinsicSize
 )
 !
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 0
 0
@@ -17454,7 +17463,10 @@ thread
 Mutex
 mMutex
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mInitialSize
 ;
 }

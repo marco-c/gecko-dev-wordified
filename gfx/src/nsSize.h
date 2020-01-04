@@ -147,10 +147,6 @@ gfx
 IntSize
 nsIntSize
 ;
-typedef
-nsIntSize
-gfxIntSize
-;
 struct
 nsSize
 :

@@ -27992,7 +27992,10 @@ gfxASurface
 :
 CheckSurfaceSize
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 int32_t
 (
@@ -29239,7 +29242,10 @@ gfxASurface
 :
 CheckSurfaceSize
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 w
 h
@@ -31690,7 +31696,10 @@ imgsurf
 new
 gfxImageSurface
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 copyWidth
 copyHeight

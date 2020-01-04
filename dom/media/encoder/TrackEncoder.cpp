@@ -1179,7 +1179,10 @@ GetSize
 (
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 intrinsicSize
 =
 chunk

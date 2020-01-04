@@ -14023,7 +14023,13 @@ the
 surface
 *
 /
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 mSize
 ;
 /

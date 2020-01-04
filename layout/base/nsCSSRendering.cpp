@@ -33648,7 +33648,7 @@ ready
 "
 )
 ;
-gfxIntSize
+IntSize
 surfaceSize
 =
 mImageElementSurface
@@ -35064,7 +35064,7 @@ Size
 (
 )
 ;
-gfxIntSize
+IntSize
 imageSize
 (
 roundedOut
@@ -36536,7 +36536,7 @@ MAX_BLUR_RADIUS
 }
 static
 inline
-gfxIntSize
+IntSize
 ComputeBlurRadius
 (
 nscoord
@@ -36644,10 +36644,10 @@ return
 nullptr
 ;
 }
-gfxIntSize
+IntSize
 blurRadius
 ;
-gfxIntSize
+IntSize
 spreadRadius
 ;
 GetBlurAndSpreadRadius
@@ -36977,7 +36977,7 @@ int32_t
 aAppUnitsPerDevPixel
 )
 {
-gfxIntSize
+IntSize
 blurRadius
 =
 ComputeBlurRadius
@@ -37401,10 +37401,10 @@ nscoord
 aBlurRadius
 nscoord
 aSpreadRadius
-gfxIntSize
+IntSize
 &
 aOutBlurRadius
-gfxIntSize
+IntSize
 &
 aOutSpreadRadius
 bool
@@ -37561,7 +37561,7 @@ scaleY
 ;
 aOutSpreadRadius
 =
-gfxIntSize
+IntSize
 (
 int32_t
 (
@@ -37677,10 +37677,10 @@ return
 false
 ;
 }
-gfxIntSize
+IntSize
 blurRadius
 ;
-gfxIntSize
+IntSize
 spreadRadius
 ;
 /

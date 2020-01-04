@@ -1191,7 +1191,13 @@ nsSize
 &
 aPaintServerSize
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 aRenderSize
 const

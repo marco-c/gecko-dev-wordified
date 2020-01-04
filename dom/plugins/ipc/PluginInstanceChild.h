@@ -584,7 +584,10 @@ const
 WindowsSharedMemoryHandle
 &
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 const
 bool

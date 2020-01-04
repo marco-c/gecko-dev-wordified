@@ -2169,7 +2169,13 @@ use
 *
 /
 static
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 ConvertToSurfaceSize
 (
 const

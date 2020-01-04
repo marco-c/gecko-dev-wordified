@@ -206,7 +206,10 @@ Image
 &
 aImage
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 )
@@ -325,7 +328,10 @@ mForceBlack
 ;
 }
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 GetIntrinsicSize
 (
@@ -373,7 +379,10 @@ Image
 CreateBlackImage
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -440,7 +449,10 @@ video
 frame
 at
 .
-gfxIntSize
+gfx
+:
+:
+IntSize
 mIntrinsicSize
 ;
 bool

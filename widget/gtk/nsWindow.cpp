@@ -34419,7 +34419,7 @@ gfxXlibSurface
 xDisplay
 xDrawable
 xVisual
-gfxIntSize
+IntSize
 (
 aSize
 .
@@ -34525,7 +34525,7 @@ gfxXlibSurface
 xScreen
 xDrawable
 pf
-gfxIntSize
+IntSize
 (
 aSize
 .

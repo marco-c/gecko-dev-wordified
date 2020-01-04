@@ -18538,7 +18538,7 @@ cursor
 /
 No
 scaling
-gfxIntSize
+IntSize
 size
 (
 0
@@ -46477,7 +46477,7 @@ newSurface
 new
 gfxWindowsSurface
 (
-gfxIntSize
+IntSize
 (
 aNewWidth
 aNewHeight
