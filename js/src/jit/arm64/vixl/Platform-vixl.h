@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2014
+2013
 ARM
 Limited
 /
@@ -299,6 +299,17 @@ platform
 specific
 functionalities
 .
+/
+/
+TODO
+:
+Remove
+used
+of
+signal
+.
+h
+.
 #
 include
 <
@@ -341,3 +352,6 @@ namespace
 vixl
 #
 endif
+/
+/
+VIXL_PLATFORM_H
