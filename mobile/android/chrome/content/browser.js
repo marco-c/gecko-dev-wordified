@@ -32288,8 +32288,6 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
-aRequest
-=
 this
 .
 browser
@@ -32305,18 +32303,6 @@ fixedURI
 null
 )
 ;
-if
-(
-aRequest
-)
-{
-fixedURI
-=
-aRequest
-.
-URI
-;
-}
 }
 let
 contentType
