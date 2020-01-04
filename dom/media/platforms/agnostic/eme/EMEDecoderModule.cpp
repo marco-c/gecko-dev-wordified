@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

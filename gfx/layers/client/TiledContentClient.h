@@ -351,17 +351,6 @@ delete
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsISupportsImpl
 .
 h

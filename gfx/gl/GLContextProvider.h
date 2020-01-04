@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SurfaceTypes
 .
 h

@@ -113,17 +113,6 @@ class
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-nsRefPtr
-members
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

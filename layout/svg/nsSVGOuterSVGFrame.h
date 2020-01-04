@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISVGSVGFrame
 .
 h

@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIVariant
 .
 h

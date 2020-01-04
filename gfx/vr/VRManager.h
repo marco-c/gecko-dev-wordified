@@ -99,13 +99,6 @@ GFX_VR_MANAGER_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h

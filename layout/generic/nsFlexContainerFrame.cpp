@@ -123,6 +123,13 @@ flex
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsFlexContainerFrame
 .
 h

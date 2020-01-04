@@ -135,6 +135,13 @@ IIRFilter
 .
 h
 "
+#
+include
+"
+nsGkAtoms
+.
+h
+"
 namespace
 mozilla
 {

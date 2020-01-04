@@ -162,17 +162,6 @@ etc
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsContentUtils
 .
 h

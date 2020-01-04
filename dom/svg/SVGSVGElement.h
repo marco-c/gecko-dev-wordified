@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISVGPoint
 .
 h

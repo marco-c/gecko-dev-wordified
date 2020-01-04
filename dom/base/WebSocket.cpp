@@ -279,6 +279,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

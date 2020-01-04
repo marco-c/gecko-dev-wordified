@@ -123,13 +123,6 @@ nsTextEditorState_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

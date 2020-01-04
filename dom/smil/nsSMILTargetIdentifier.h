@@ -131,13 +131,6 @@ Element
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 *
 *

@@ -233,6 +233,13 @@ etc
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

@@ -102,13 +102,6 @@ nsRDFQuery_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h

@@ -102,13 +102,6 @@ nsEditorEventListener_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

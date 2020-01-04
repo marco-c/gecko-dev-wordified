@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

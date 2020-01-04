@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsDOMString
 .
 h

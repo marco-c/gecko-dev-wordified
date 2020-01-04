@@ -99,6 +99,13 @@ FRAMELAYERBUILDER_H_
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

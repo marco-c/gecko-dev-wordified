@@ -146,13 +146,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 /
 Classes

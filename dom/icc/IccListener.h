@@ -123,13 +123,6 @@ mozilla_dom_IccListener_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIIccService
 .
 h

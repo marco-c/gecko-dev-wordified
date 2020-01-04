@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNodeInfoManager
 .
 h

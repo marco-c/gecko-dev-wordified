@@ -172,13 +172,6 @@ nsTArray
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 if
 defined
 (

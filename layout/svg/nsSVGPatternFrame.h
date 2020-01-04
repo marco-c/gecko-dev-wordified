@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsSVGPaintServerFrame
 .
 h

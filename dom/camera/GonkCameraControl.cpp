@@ -266,17 +266,6 @@ NS_STREAMTRANSPORTSERVICE_CONTRACTID
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsAutoArrayPtr
-#
-include
-"
 nsCOMPtr
 .
 h

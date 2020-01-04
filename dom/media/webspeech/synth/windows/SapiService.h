@@ -123,13 +123,6 @@ mozilla_dom_SapiService_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISpeechService
 .
 h

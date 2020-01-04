@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes

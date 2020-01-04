@@ -149,17 +149,6 @@ h
 /
 for
 PLayerParent
-#
-include
-"
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
 namespace
 mozilla
 {

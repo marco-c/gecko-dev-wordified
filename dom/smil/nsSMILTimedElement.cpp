@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsSMILTimedElement
 .
 h

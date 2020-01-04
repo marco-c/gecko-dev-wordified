@@ -123,13 +123,6 @@ MOZILLA_DOMSVGANIMATEDNUMBERLIST_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

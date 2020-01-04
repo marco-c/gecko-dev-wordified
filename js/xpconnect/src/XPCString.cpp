@@ -221,6 +221,13 @@ support
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nscore
 .
 h

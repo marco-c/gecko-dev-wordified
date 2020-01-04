@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCSSProperty
 .
 h

@@ -208,6 +208,13 @@ sRecords
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsStyleChangeList
 .
 h

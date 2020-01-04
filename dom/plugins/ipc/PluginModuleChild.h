@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

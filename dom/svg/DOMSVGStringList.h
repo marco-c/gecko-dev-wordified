@@ -123,13 +123,6 @@ MOZILLA_DOMSVGSTRINGLIST_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

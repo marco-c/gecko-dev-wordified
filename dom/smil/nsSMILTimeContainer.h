@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsSMILMilestone
 .
 h

@@ -123,13 +123,6 @@ mozilla_dom_SpeakerManagerService_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

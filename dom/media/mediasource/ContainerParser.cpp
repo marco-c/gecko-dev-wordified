@@ -213,6 +213,13 @@ endif
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 SourceBufferResource
 .
 h

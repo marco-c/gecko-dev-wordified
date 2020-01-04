@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h

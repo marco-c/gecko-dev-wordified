@@ -100,6 +100,13 @@ runnable_utils
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 scoped_ptr

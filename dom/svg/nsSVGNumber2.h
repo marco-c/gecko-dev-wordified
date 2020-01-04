@@ -123,13 +123,6 @@ __NS_SVGNUMBER2_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

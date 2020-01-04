@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 AudioMixer
 .
 h

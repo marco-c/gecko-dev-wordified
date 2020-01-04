@@ -207,13 +207,6 @@ h
 "
 #
 include
-"
-nsAutoPtr
-.
-h
-"
-#
-include
 <
 math
 .

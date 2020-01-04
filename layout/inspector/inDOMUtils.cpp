@@ -128,6 +128,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h

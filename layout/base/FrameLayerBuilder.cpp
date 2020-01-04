@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsAnimationManager
 .
 h

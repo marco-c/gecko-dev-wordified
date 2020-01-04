@@ -72,13 +72,6 @@ nsAuth
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 /
 -

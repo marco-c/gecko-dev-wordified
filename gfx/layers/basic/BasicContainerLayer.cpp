@@ -179,17 +179,6 @@ new
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsCOMPtr
 .
 h

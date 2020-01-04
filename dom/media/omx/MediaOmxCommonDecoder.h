@@ -125,6 +125,13 @@ MediaDecoder
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 namespace
 android
 {

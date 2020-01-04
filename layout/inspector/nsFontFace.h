@@ -69,13 +69,6 @@ nsIDOMFontFace
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 gfxFontEntry
 ;

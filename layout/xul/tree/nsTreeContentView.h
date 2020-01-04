@@ -102,13 +102,6 @@ nsTreeContentView_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

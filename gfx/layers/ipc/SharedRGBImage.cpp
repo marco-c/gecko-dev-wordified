@@ -235,17 +235,6 @@ etc
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsDebug
 .
 h

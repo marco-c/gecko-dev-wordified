@@ -102,13 +102,6 @@ EncodedFrameContainer_H_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

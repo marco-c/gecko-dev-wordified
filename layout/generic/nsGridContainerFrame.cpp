@@ -193,13 +193,6 @@ clamped
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h

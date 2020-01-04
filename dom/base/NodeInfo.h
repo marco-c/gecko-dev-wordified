@@ -239,13 +239,6 @@ mozilla_dom_NodeInfo_h___
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

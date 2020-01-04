@@ -93,6 +93,13 @@ RTCStatsReportBinding
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 typedef
 mozilla
 :

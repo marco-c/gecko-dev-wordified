@@ -123,7 +123,7 @@ mozilla_dom_WindowsLocationProvider_h__
 #
 include
 "
-nsAutoPtr
+nsCOMPtr
 .
 h
 "

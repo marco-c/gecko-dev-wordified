@@ -154,13 +154,6 @@ XMLSerializerBinding
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsINode
 ;

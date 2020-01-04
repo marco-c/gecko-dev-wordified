@@ -197,17 +197,6 @@ for
 operator
 new
 etc
-#
-include
-"
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
 using
 namespace
 mozilla

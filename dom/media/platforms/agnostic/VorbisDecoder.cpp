@@ -152,13 +152,6 @@ SyncRunnable
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 undef
 LOG
 #

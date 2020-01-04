@@ -310,13 +310,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

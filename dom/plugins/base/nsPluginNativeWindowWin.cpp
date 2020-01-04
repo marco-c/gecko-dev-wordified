@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTWeakRef
 .
 h

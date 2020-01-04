@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

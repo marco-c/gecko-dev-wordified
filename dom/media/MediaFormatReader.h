@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 PDMFactory
 .
 h

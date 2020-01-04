@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsExpirationTracker
 .
 h

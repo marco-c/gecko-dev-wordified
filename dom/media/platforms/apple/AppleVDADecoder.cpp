@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

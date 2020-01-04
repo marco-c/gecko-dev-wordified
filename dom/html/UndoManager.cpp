@@ -290,13 +290,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTransactionManager
 .
 h

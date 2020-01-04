@@ -102,13 +102,6 @@ nsMathMLChar_h___
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsColor
 .
 h

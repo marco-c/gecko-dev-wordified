@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 OMX_Core
 .
 h

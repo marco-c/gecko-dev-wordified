@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 DBusUtils
 .
 h

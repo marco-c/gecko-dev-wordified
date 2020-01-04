@@ -208,6 +208,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

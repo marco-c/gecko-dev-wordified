@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 AudioNodeEngine
 .
 h

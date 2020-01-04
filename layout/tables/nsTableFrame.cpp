@@ -346,13 +346,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h

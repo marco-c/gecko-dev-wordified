@@ -106,13 +106,6 @@ nsDeque
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsCycleCollectionTraversalCallback
 ;

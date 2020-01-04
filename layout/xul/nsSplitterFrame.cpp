@@ -244,13 +244,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsContentCID
 .
 h

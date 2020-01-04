@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -89,13 +96,6 @@ h
 include
 "
 nsIWritablePropertyBag2
-.
-h
-"
-#
-include
-"
-nsAutoPtr
 .
 h
 "

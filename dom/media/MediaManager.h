@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIMediaManager
 .
 h

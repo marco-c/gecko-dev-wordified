@@ -123,13 +123,6 @@ MOZILLA_SVGANIMATEDPRESERVEASPECTRATIO_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

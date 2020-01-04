@@ -123,13 +123,6 @@ mozilla_dom_workers_serviceworkerclients_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

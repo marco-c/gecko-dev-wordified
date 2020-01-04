@@ -123,6 +123,13 @@ mozilla_dom_responsiveimageselector_h__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCSSRuleProcessor
 .
 h

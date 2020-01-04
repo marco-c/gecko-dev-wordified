@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIUnicodeDecoder
 .
 h

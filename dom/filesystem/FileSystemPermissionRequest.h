@@ -123,13 +123,6 @@ mozilla_dom_FileSystemPermissionRequest_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIRunnable
 .
 h

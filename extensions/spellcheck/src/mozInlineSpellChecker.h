@@ -102,13 +102,6 @@ __mozinlinespellchecker_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h

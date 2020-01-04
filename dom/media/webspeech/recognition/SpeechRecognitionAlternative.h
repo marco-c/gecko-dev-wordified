@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls

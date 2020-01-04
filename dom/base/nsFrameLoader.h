@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsFrameMessageManager
 .
 h

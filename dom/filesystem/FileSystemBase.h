@@ -123,13 +123,6 @@ mozilla_dom_FileSystemBase_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

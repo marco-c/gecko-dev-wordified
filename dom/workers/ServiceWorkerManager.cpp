@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h

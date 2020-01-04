@@ -123,6 +123,13 @@ mozilla_dom_TimeRanges_h_
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIDOMTimeRanges
 .
 h
@@ -154,13 +161,6 @@ include
 mozilla
 /
 ErrorResult
-.
-h
-"
-#
-include
-"
-nsAutoPtr
 .
 h
 "

@@ -123,13 +123,6 @@ mozilla_dom_indexeddb_fileinfo_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

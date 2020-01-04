@@ -121,13 +121,6 @@ mozilla_dom_nsSynthVoiceRegistry_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISynthVoiceRegistry
 .
 h

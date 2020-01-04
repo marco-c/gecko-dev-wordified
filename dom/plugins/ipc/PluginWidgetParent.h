@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h

@@ -113,17 +113,6 @@ class
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-mTextNode
-mRanges
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

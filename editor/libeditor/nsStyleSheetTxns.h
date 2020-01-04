@@ -114,17 +114,6 @@ NS_DECL_EDITTXN
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 mozilla
 /
 StyleSheetHandle

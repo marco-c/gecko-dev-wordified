@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

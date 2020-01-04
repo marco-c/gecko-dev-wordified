@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIIPCBackgroundChildCreateCallback
 .
 h

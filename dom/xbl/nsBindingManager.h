@@ -123,6 +123,13 @@ nsBindingManager_h_
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

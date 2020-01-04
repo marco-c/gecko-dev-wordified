@@ -145,17 +145,6 @@ PImageContainerParent
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
 namespace
 mozilla
 {

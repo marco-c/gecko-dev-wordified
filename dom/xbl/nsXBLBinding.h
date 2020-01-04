@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsINodeList
 .
 h

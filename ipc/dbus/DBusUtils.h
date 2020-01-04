@@ -220,6 +220,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 /
 /
 LOGE

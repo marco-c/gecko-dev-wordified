@@ -216,6 +216,13 @@ h
 #
 include
 <
+nsAutoPtr
+.
+h
+>
+#
+include
+<
 nsAutoRef
 .
 h

@@ -121,13 +121,6 @@ nsFakeSynthServices_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

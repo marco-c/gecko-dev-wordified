@@ -102,13 +102,6 @@ GRAPHDRIVER_H_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsAutoRef
 .
 h

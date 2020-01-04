@@ -183,17 +183,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsTArrayForwardDeclare
 .
 h

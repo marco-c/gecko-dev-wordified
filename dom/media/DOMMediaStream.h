@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

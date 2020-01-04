@@ -183,13 +183,6 @@ Atomics
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 endif
 namespace
 IPC

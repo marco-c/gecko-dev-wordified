@@ -150,13 +150,6 @@ MediaResource
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 android
 {

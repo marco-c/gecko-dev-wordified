@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

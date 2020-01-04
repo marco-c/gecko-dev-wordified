@@ -166,17 +166,6 @@ member
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

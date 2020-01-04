@@ -123,6 +123,13 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsSVGEnum
 .
 h

@@ -123,13 +123,6 @@ __NS_SVGINTEGER_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

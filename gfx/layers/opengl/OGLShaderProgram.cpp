@@ -139,17 +139,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsString
 .
 h

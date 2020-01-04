@@ -181,17 +181,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nsClassHashtable
 .
 h

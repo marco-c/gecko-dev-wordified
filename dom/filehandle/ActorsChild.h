@@ -124,13 +124,6 @@ PBackgroundMutableFileChild
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsCString
 ;

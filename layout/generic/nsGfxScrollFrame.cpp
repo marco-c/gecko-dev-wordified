@@ -270,13 +270,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsPresState
 .
 h
