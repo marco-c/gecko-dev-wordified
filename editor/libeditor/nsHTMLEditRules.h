@@ -768,7 +768,7 @@ InitFields
 nsHTMLEditRules
 implementation
 methods
-void
+nsresult
 WillInsert
 (
 mozilla
@@ -778,7 +778,7 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 bool
 *
