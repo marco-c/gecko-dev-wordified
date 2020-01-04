@@ -323,6 +323,7 @@ getFormDataSections
 formDataURI
 writeHeaderText
 getKeyWithEvent
+getUriHostPort
 }
 =
 require
@@ -9825,11 +9826,7 @@ header
 let
 domain
 =
-NetMonitorView
-.
-RequestsMenu
-.
-_getUriHostPort
+getUriHostPort
 (
 url
 )
