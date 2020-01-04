@@ -975,6 +975,11 @@ Table
 initial
 :
 4
+element
+:
+"
+anyfunc
+"
 }
 )
 ;
@@ -1122,6 +1127,11 @@ Table
 initial
 :
 1
+element
+:
+"
+anyfunc
+"
 }
 )
 ;

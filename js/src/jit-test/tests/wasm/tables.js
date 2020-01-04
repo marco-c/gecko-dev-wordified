@@ -842,6 +842,11 @@ Table
 initial
 :
 50
+element
+:
+"
+anyfunc
+"
 }
 )
 ;
@@ -1435,6 +1440,11 @@ Table
 initial
 :
 3
+element
+:
+"
+anyfunc
+"
 }
 )
 ;
