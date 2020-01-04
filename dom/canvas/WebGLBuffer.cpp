@@ -162,6 +162,10 @@ Kind
 :
 Undefined
 )
+mUsage
+(
+LOCAL_GL_STATIC_DRAW
+)
 mByteLength
 (
 0
@@ -749,6 +753,10 @@ usage
 )
 ;
 }
+mUsage
+=
+usage
+;
 mByteLength
 =
 size
