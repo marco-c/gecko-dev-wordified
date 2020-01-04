@@ -1933,10 +1933,7 @@ cx
 compartment
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 PerformanceGroup
 >
@@ -2181,10 +2178,7 @@ cx
 compartment
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 PerformanceGroup
 >
@@ -2228,10 +2222,7 @@ used
 continue
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 PerformanceGroup
 >

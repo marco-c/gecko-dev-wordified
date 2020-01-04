@@ -98,7 +98,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -283,7 +283,7 @@ CanvasRenderingContext2D
 >
 mContext
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

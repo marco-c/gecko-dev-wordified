@@ -105,7 +105,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -188,7 +188,7 @@ May
 be
 null
 .
-RefPtr
+nsRefPtr
 <
 layers
 :

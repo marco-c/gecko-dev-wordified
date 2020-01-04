@@ -1957,10 +1957,7 @@ mShColorSpace
 CGContextRef
 mShContext
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 nsCARenderer
 >

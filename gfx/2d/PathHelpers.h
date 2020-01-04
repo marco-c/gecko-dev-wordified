@@ -1297,7 +1297,7 @@ aDrawClockwise
 true
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1966,7 +1966,7 @@ aDrawClockwise
 true
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2086,7 +2086,7 @@ Size
 aDimensions
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

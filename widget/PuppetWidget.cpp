@@ -4067,7 +4067,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4104,10 +4104,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

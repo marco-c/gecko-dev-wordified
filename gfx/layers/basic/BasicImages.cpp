@@ -885,7 +885,7 @@ if
 mSourceSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -927,7 +927,7 @@ GetOffscreenFormat
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -985,7 +985,7 @@ owns
 the
 data
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

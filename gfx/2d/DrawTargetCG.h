@@ -1294,7 +1294,7 @@ uint8_t
 >
 mData
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurfaceCGContext
 >

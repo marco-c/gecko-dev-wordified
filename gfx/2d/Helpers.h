@@ -205,7 +205,7 @@ mOldTransform
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -347,7 +347,7 @@ PopClip
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

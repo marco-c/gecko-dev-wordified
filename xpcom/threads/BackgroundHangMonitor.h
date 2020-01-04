@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -847,7 +847,7 @@ private
 friend
 BackgroundHangManager
 ;
-RefPtr
+nsRefPtr
 <
 BackgroundHangThread
 >

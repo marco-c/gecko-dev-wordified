@@ -1977,10 +1977,7 @@ size
 )
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -5236,10 +5233,7 @@ std
 :
 vector
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -7167,10 +7161,7 @@ std
 :
 vector
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -10459,7 +10450,7 @@ nsIUDPSocketFilter
 >
 filter_
 ;
-RefPtr
+nsRefPtr
 <
 NrIceCtx
 >

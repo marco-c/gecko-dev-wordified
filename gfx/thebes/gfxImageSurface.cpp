@@ -1370,10 +1370,7 @@ SourceSurface
 aSurface
 )
 {
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1547,10 +1544,7 @@ SourceSurface
 aSurface
 )
 {
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1662,7 +1656,7 @@ CopyToB8G8R8A8DataSourceSurface
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

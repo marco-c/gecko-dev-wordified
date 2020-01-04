@@ -44393,7 +44393,7 @@ if
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -44705,7 +44705,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -44755,7 +44755,7 @@ if
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -45079,7 +45079,7 @@ if
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

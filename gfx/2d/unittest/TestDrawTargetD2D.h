@@ -121,10 +121,7 @@ TestDrawTargetD2D
 ;
 private
 :
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ID3D10Device1
 >

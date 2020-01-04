@@ -392,7 +392,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -470,7 +470,7 @@ NumVolumes
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -732,7 +732,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -789,7 +789,7 @@ nsCSubstring
 aName
 )
 {
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -907,7 +907,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -1334,7 +1334,7 @@ nextToken
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -1510,7 +1510,7 @@ nextToken
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -1768,7 +1768,7 @@ set
 to
 false
 .
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -1825,7 +1825,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -1981,7 +1981,7 @@ nextToken
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >
@@ -3264,7 +3264,7 @@ nextToken
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >

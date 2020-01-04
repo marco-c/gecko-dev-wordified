@@ -2038,7 +2038,7 @@ textureTarget
 =
 mFBOTextureTarget
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >

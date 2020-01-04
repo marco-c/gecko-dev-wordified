@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -293,7 +293,7 @@ mHaveReceivedCommands
 false
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -538,7 +538,7 @@ converting
 to
 user
 units
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

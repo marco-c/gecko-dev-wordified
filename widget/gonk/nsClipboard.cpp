@@ -949,7 +949,7 @@ image
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -982,7 +982,7 @@ surface
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1754,7 +1754,7 @@ buffer
 from
 clipboard
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

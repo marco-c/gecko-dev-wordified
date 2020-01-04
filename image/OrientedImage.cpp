@@ -530,7 +530,7 @@ to
 draw
 into
 .
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -577,7 +577,7 @@ Create
 our
 drawable
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

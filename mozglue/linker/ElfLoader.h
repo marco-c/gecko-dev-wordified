@@ -86,7 +86,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1281,10 +1281,7 @@ GetMappable
 *
 /
 mutable
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 Mappable
 >
@@ -2563,10 +2560,7 @@ functions
 .
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 LibHandle
 >
@@ -2637,10 +2631,7 @@ support
 .
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 LibHandle
 >

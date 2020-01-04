@@ -709,7 +709,7 @@ DrawTarget
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -773,7 +773,7 @@ TextureFlags
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 DataTextureSource
 >

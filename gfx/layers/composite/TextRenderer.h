@@ -245,13 +245,13 @@ EnsureInitialized
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >
 mCompositor
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

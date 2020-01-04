@@ -697,7 +697,7 @@ DrawTargetWillChange
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

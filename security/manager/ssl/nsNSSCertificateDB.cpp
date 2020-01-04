@@ -3302,7 +3302,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -4265,7 +4265,7 @@ nsNSSShutDownPreventionLock
 proofOfLock
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -6787,7 +6787,7 @@ cert
 type
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >
@@ -7339,7 +7339,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -9301,7 +9301,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -9685,7 +9685,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >

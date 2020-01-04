@@ -248,7 +248,7 @@ GetByteSize
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -268,7 +268,7 @@ check
 surface
 validity
 .
-RefPtr
+nsRefPtr
 <
 ID3D10Device
 >
@@ -367,7 +367,7 @@ EnsureMappedTexture
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >

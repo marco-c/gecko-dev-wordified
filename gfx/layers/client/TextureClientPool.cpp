@@ -577,7 +577,7 @@ client
 from
 the
 pool
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

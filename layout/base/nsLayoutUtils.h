@@ -13976,10 +13976,7 @@ on
 error
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

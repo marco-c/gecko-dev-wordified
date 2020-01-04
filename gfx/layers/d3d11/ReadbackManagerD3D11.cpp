@@ -246,7 +246,7 @@ read
 back
 to
 .
-RefPtr
+nsRefPtr
 <
 TextureReadbackSink
 >
@@ -404,7 +404,7 @@ NS_OK
 ;
 }
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

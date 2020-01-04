@@ -11135,7 +11135,7 @@ support
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

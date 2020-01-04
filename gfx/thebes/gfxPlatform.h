@@ -184,7 +184,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -4309,10 +4309,7 @@ VsyncSource
 >
 mVsyncSource
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4595,10 +4592,7 @@ gfxPlatform
 >
 mApzSupportCollector
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4610,10 +4604,7 @@ DrawEventRecorder
 >
 mRecorder
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

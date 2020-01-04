@@ -323,7 +323,7 @@ mSize
 int32_t
 mStride
 ;
-RefPtr
+nsRefPtr
 <
 DrawTargetSkia
 >

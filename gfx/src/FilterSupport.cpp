@@ -1845,7 +1845,7 @@ FilterNode
 aInput
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -1903,7 +1903,7 @@ FilterNode
 aInput
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -1961,7 +1961,7 @@ FilterNode
 aInput
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2085,7 +2085,7 @@ FilterNode
 aInput
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2213,7 +2213,7 @@ IntRect
 aRect
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2287,7 +2287,7 @@ IntPoint
 aOffset
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2411,7 +2411,7 @@ stdX
 stdY
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2463,7 +2463,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2480,7 +2480,7 @@ FilterType
 DIRECTIONAL_BLUR
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2589,7 +2589,7 @@ DrawTarget
 aDT
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2657,7 +2657,7 @@ IntPoint
 aSurfacePosition
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2742,7 +2742,7 @@ zero
 .
 0f
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3073,7 +3073,7 @@ ColorModel
 aColorModel
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3094,7 +3094,7 @@ ColorModel
 :
 ToIndex
 .
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3154,7 +3154,7 @@ aFilter
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3239,7 +3239,7 @@ aColorModel
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3337,7 +3337,7 @@ AlphaModel
 Premultiplied
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3393,7 +3393,7 @@ mOriginalColorModel
 mColorSpace
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -3424,7 +3424,7 @@ premultiplied
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -4632,25 +4632,25 @@ aChannel
 DrawTarget
 *
 aDT
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
 &
 aTableTransfer
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
 &
 aDiscreteTransfer
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
 &
 aLinearTransfer
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -4673,7 +4673,7 @@ ATT_TRANSFER_DISABLE_B
 ATT_TRANSFER_DISABLE_A
 }
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -5341,7 +5341,7 @@ DrawTarget
 aDT
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -5356,7 +5356,7 @@ IntRect
 aSourceRegions
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5411,7 +5411,7 @@ GetUint
 eBlendBlendmode
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -5672,7 +5672,7 @@ identityMatrix
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -5777,7 +5777,7 @@ colorMatrix
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -5968,7 +5968,7 @@ MORPHOLOGY_OPERATOR_ERODE
 :
 MORPHOLOGY_OPERATOR_DILATE
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6057,7 +6057,7 @@ GetColor
 eFloodColor
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6108,7 +6108,7 @@ PrimitiveType
 Tile
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6174,7 +6174,7 @@ PrimitiveType
 ComponentTransfer
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6268,7 +6268,7 @@ used
 filters
 nodes
 .
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6339,7 +6339,7 @@ PrimitiveType
 ConvolveMatrix
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6603,7 +6603,7 @@ PrimitiveType
 DisplacementMap
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6756,7 +6756,7 @@ PrimitiveType
 Turbulence
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6931,7 +6931,7 @@ PrimitiveType
 Composite
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7238,7 +7238,7 @@ Length
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7258,7 +7258,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7374,7 +7374,7 @@ PrimitiveType
 DropShadow
 :
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7392,7 +7392,7 @@ aSources
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7413,7 +7413,7 @@ eDropShadowStdDeviation
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7434,7 +7434,7 @@ eDropShadowOffset
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7539,7 +7539,7 @@ ATT_FLOOD_COLOR
 color
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7598,7 +7598,7 @@ IN_COMPOSITE_IN_START
 flood
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -7817,7 +7817,7 @@ DISTANT_SPECULAR
 }
 }
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -8134,7 +8134,7 @@ the
 primitive
 description
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8150,7 +8150,7 @@ eImageInputIndex
 )
 ]
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -8590,7 +8590,7 @@ IntRect
 aStrokePaintRect
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8623,7 +8623,7 @@ RoundOut
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterCachedColorModels
 >
@@ -8634,7 +8634,7 @@ sourceFilters
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FilterCachedColorModels
 >
@@ -8673,7 +8673,7 @@ i
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -8758,7 +8758,7 @@ PrimitiveSubregion
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterCachedColorModels
 >
@@ -8870,7 +8870,7 @@ if
 inputFilter
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -8889,7 +8889,7 @@ IntRect
 >
 primitiveSurfaceRects
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9118,7 +9118,7 @@ inputColorModel
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -9170,7 +9170,7 @@ inputAlphaModels
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterCachedColorModels
 >
@@ -9254,7 +9254,7 @@ IntRect
 aStrokePaintRect
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9271,7 +9271,7 @@ DrawOptions
 aOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >

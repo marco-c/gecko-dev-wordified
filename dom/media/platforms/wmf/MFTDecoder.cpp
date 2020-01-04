@@ -271,7 +271,7 @@ IMFTransform
 *
 >
 (
-byRef
+getter_AddRefs
 (
 mDecoder
 )
@@ -440,7 +440,7 @@ GetAttributes
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 IMFAttributes
 >
@@ -454,7 +454,7 @@ mDecoder
 >
 GetAttributes
 (
-byRef
+getter_AddRefs
 (
 attr
 )
@@ -522,7 +522,7 @@ need
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -546,7 +546,7 @@ GetOutputAvailableType
 typeIndex
 +
 +
-byRef
+getter_AddRefs
 (
 outputType
 )
@@ -732,7 +732,7 @@ uint32_t
 aDataSize
 int64_t
 aTimestamp
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -752,7 +752,7 @@ E_POINTER
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -765,7 +765,7 @@ wmf
 :
 MFCreateSample
 (
-byRef
+getter_AddRefs
 (
 sample
 )
@@ -780,7 +780,7 @@ hr
 hr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaBuffer
 >
@@ -834,7 +834,7 @@ MFCreateAlignedMemoryBuffer
 (
 bufferSize
 alignment
-byRef
+getter_AddRefs
 (
 buffer
 )
@@ -1003,7 +1003,7 @@ MFTDecoder
 :
 CreateOutputSample
 (
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1023,7 +1023,7 @@ E_POINTER
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1036,7 +1036,7 @@ wmf
 :
 MFCreateSample
 (
-byRef
+getter_AddRefs
 (
 sample
 )
@@ -1051,7 +1051,7 @@ hr
 hr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaBuffer
 >
@@ -1092,7 +1092,7 @@ MFCreateAlignedMemoryBuffer
 (
 bufferSize
 alignment
-byRef
+getter_AddRefs
 (
 buffer
 )
@@ -1145,7 +1145,7 @@ MFTDecoder
 :
 Output
 (
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1177,7 +1177,7 @@ providedSample
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1600,7 +1600,7 @@ nullptr
 E_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1746,7 +1746,7 @@ MFTDecoder
 :
 GetOutputMediaType
 (
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1767,7 +1767,7 @@ mDecoder
 GetOutputCurrentType
 (
 0
-byRef
+getter_AddRefs
 (
 aMediaType
 )

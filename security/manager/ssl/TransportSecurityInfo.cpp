@@ -4504,7 +4504,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIX509Cert
 >
@@ -4516,7 +4516,7 @@ sslStatus
 .
 GetServerCert
 (
-byRef
+getter_AddRefs
 (
 ix509
 )

@@ -4074,7 +4074,7 @@ MOZ_ASSERT
 mTextureClientAllocator
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4128,7 +4128,7 @@ if
 textureClient
 )
 {
-RefPtr
+nsRefPtr
 <
 layers
 :

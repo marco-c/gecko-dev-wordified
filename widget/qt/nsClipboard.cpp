@@ -1322,7 +1322,7 @@ type
 ?
 continue
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1350,7 +1350,7 @@ surface
 )
 continue
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

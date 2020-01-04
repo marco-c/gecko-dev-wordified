@@ -2191,7 +2191,7 @@ TextureFlags
 NON_PREMULTIPLIED
 )
 ;
-RefPtr
+nsRefPtr
 <
 TexturedEffect
 >

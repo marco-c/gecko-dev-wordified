@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -707,7 +707,7 @@ of
 our
 Path
 .
-RefPtr
+nsRefPtr
 <
 Path
 >

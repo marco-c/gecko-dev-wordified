@@ -689,7 +689,7 @@ SurfaceFactory
 >
 mFactory
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -698,7 +698,7 @@ SharedSurfaceTextureClient
 >
 mBack
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -806,7 +806,7 @@ get
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

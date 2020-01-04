@@ -11438,7 +11438,7 @@ return
 TRUE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -12201,7 +12201,7 @@ bufferSize
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -34643,7 +34643,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -34691,7 +34691,7 @@ if
 dt
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >

@@ -215,7 +215,7 @@ GetDataSurface
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurfaceD2D
 >
@@ -360,7 +360,7 @@ D2DIntSize
 aSize
 )
 props
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -492,7 +492,7 @@ aRT
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -602,7 +602,7 @@ IID_IDXGISurface
 surf
 &
 props
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -646,7 +646,7 @@ aTexture
 >
 GetDevice
 (
-byRef
+getter_AddRefs
 (
 mDevice
 )
@@ -812,7 +812,7 @@ D3D10_BIND_RENDER_TARGET
 |
 D3D10_BIND_SHADER_RESOURCE
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -832,7 +832,7 @@ CreateTexture2D
 &
 desc
 nullptr
-byRef
+getter_AddRefs
 (
 sourceTexture
 )
@@ -870,7 +870,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -888,7 +888,7 @@ IDXGISurface
 *
 *
 )
-byRef
+getter_AddRefs
 (
 dxgiSurface
 )
@@ -946,7 +946,7 @@ D2D1_ALPHA_MODE_PREMULTIPLIED
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1RenderTarget
 >
@@ -967,7 +967,7 @@ CreateDxgiSurfaceRenderTarget
 dxgiSurface
 &
 rtProps
-byRef
+getter_AddRefs
 (
 renderTarget
 )
@@ -1080,7 +1080,7 @@ height
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -1104,7 +1104,7 @@ ColorF
 :
 White
 )
-byRef
+getter_AddRefs
 (
 brush
 )
@@ -1206,7 +1206,7 @@ CreateTexture2D
 &
 desc
 nullptr
-byRef
+getter_AddRefs
 (
 mTexture
 )

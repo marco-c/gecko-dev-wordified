@@ -2716,7 +2716,7 @@ xPixmapSurface
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2928,7 +2928,7 @@ surf
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -10389,7 +10389,7 @@ nsPresContext
 *
 pc
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

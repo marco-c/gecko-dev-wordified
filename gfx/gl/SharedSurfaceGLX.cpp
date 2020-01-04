@@ -257,7 +257,7 @@ gfxImageFormat
 ARGB32
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -324,7 +324,7 @@ size
 bool
 inSameProcess
 const
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -504,7 +504,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

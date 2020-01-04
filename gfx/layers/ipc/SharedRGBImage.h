@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -321,13 +321,13 @@ gfx
 IntSize
 mSize
 ;
-RefPtr
+nsRefPtr
 <
 ImageClient
 >
 mCompositable
 ;
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >

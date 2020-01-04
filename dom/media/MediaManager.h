@@ -2819,7 +2819,7 @@ protected
 with
 mMutex
 :
-RefPtr
+nsRefPtr
 <
 MediaEngine
 >

@@ -519,10 +519,7 @@ instances
 .
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 Mappable
 >

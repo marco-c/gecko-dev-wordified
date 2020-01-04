@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -676,7 +676,7 @@ protected
 struct
 Buffer
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

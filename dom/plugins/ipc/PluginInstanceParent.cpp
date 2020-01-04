@@ -2648,7 +2648,7 @@ get_IOSurfaceDescriptor
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -4056,7 +4056,7 @@ area
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 gfx
 :

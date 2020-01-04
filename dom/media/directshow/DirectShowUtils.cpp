@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2423,7 +2423,7 @@ pin
 is
 unconnected
 .
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -2437,7 +2437,7 @@ aPin
 >
 ConnectedTo
 (
-byRef
+getter_AddRefs
 (
 peer
 )
@@ -2533,7 +2533,7 @@ PIN_DIRECTION
 aPinDir
 )
 {
-RefPtr
+nsRefPtr
 <
 IEnumPins
 >
@@ -2547,7 +2547,7 @@ aFilter
 >
 EnumPins
 (
-byRef
+getter_AddRefs
 (
 enumPins
 )
@@ -2580,7 +2580,7 @@ re
 looking
 for
 .
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -2597,7 +2597,7 @@ enumPins
 Next
 (
 1
-byRef
+getter_AddRefs
 (
 pin
 )
@@ -2654,7 +2654,7 @@ IBaseFilter
 aInputFilter
 )
 {
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -2672,7 +2672,7 @@ output
 E_FAIL
 )
 ;
-RefPtr
+nsRefPtr
 <
 IPin
 >

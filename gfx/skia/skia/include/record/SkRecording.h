@@ -129,7 +129,7 @@ SkRecording
 skia
 :
 :
-RefPtr
+nsRefPtr
 <
 SkCanvas
 >

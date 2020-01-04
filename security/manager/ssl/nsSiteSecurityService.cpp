@@ -4505,7 +4505,7 @@ Now
 ScopedCERTCertList
 certList
 ;
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -5811,7 +5811,7 @@ nsISiteSecurityService
 HEADER_HPKP
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >

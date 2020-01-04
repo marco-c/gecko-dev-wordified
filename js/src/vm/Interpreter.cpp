@@ -2842,10 +2842,7 @@ monitoring
 that
 group
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -2879,10 +2876,7 @@ monitoring
 that
 group
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -2918,10 +2912,7 @@ monitoring
 that
 group
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :

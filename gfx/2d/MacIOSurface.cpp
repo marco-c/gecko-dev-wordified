@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1925,7 +1925,7 @@ surfaceRef
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -2033,7 +2033,7 @@ surfaceRef
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -2631,7 +2631,7 @@ SurfaceFormat
 :
 B8G8R8X8
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurfaceRawData
 >
@@ -3041,7 +3041,7 @@ surfaceRef
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

@@ -611,7 +611,7 @@ terminates
 before
 Unlock
 .
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1266,7 +1266,7 @@ CreateR8G8B8AX8
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -1408,7 +1408,7 @@ baseFlags
 layersBackend
 )
 ;
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -1948,7 +1948,7 @@ SurfaceFactory
 factory
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedSurfaceTextureClient
 >
@@ -2041,7 +2041,7 @@ MakeCurrent
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

@@ -780,7 +780,7 @@ called
 *
 /
 const
-RefPtr
+nsRefPtr
 <
 BackgroundHangManager
 >
@@ -2766,7 +2766,7 @@ through
 the
 thread
 list
-RefPtr
+nsRefPtr
 <
 BackgroundHangManager
 >

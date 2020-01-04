@@ -1469,7 +1469,7 @@ while
 /
 initializing
 .
-RefPtr
+nsRefPtr
 <
 AudioStream
 >

@@ -2163,7 +2163,7 @@ Dispatch
 private
 :
 const
-RefPtr
+nsRefPtr
 <
 TransportSecurityInfo
 >
@@ -2270,7 +2270,7 @@ RunOnTargetThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -2312,7 +2312,7 @@ nsIX509Cert
 mCert
 ;
 const
-RefPtr
+nsRefPtr
 <
 TransportSecurityInfo
 >
@@ -4500,7 +4500,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >
@@ -4865,7 +4865,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 CertErrorRunnable
 >
@@ -4897,7 +4897,7 @@ SECStatus
 Dispatch
 (
 const
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -4944,7 +4944,7 @@ thread
 SSLServerCertVerificationJob
 (
 const
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -4975,7 +4975,7 @@ prtime
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -4988,7 +4988,7 @@ const
 mFdForLogging
 ;
 const
-RefPtr
+nsRefPtr
 <
 TransportSecurityInfo
 >
@@ -5029,7 +5029,7 @@ SSLServerCertVerificationJob
 SSLServerCertVerificationJob
 (
 const
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -5279,7 +5279,7 @@ nsIX509Cert
 >
 cert
 ;
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -8503,7 +8503,7 @@ t
 already
 know
 .
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -8517,7 +8517,7 @@ SSLStatus
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >
@@ -8878,7 +8878,7 @@ SSLServerCertVerificationJob
 Dispatch
 (
 const
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -9017,7 +9017,7 @@ peerCertChain
 lock
 )
 ;
-RefPtr
+nsRefPtr
 <
 SSLServerCertVerificationJob
 >
@@ -9355,7 +9355,7 @@ ToMilliseconds
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -9459,7 +9459,7 @@ error
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 CertErrorRunnable
 >
@@ -9678,7 +9678,7 @@ error
 PR_INVALID_STATE_ERROR
 ;
 }
-RefPtr
+nsRefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -9761,7 +9761,7 @@ PRBool
 isServer
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -10447,7 +10447,7 @@ error
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 CertErrorRunnable
 >
@@ -10869,7 +10869,7 @@ triggeredCertVerifierInit
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 InitializeIdentityInfo
 >

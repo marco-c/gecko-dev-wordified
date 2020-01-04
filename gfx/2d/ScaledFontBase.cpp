@@ -722,7 +722,7 @@ aBuffer
 mNumGlyphs
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathCairo
 >
@@ -1008,7 +1008,7 @@ aBuffer
 mNumGlyphs
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathCairo
 >

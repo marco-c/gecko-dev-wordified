@@ -155,7 +155,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -213,10 +213,7 @@ MAX_RECONNECT_TIMES
 10
 namespace
 {
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -228,10 +225,7 @@ NetdClient
 >
 gNetdClient
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -274,10 +274,7 @@ for
 VideoConduit
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 VideoSessionConduit
 >
@@ -2865,10 +2862,7 @@ WebrtcVideoConduit
 :
 AttachRenderer
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 VideoRenderer
 >
@@ -3091,10 +3085,7 @@ WebrtcVideoConduit
 :
 SetTransmitterTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -3136,10 +3127,7 @@ WebrtcVideoConduit
 :
 SetReceiverTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >

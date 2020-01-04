@@ -1902,7 +1902,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -1921,7 +1921,7 @@ factory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 path
 )
@@ -1960,7 +1960,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -1973,7 +1973,7 @@ path
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -2076,7 +2076,7 @@ sink
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilderD2D
 >
@@ -2284,7 +2284,7 @@ const
 BOOL
 result
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2450,7 +2450,7 @@ const
 D2D1_RECT_F
 d2dBounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >

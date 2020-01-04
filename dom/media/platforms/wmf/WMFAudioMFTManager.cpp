@@ -791,7 +791,7 @@ Unknown
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 MFTDecoder
 >
@@ -833,7 +833,7 @@ input
 output
 media
 types
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -846,7 +846,7 @@ wmf
 :
 MFCreateMediaType
 (
-byRef
+getter_AddRefs
 (
 inputType
 )
@@ -1006,7 +1006,7 @@ false
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1019,7 +1019,7 @@ wmf
 :
 MFCreateMediaType
 (
-byRef
+getter_AddRefs
 (
 outputType
 )
@@ -1172,7 +1172,7 @@ UpdateOutputType
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1263,7 +1263,7 @@ aOutData
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -1386,7 +1386,7 @@ hr
 hr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaBuffer
 >
@@ -1399,7 +1399,7 @@ sample
 >
 ConvertToContiguousBuffer
 (
-byRef
+getter_AddRefs
 (
 buffer
 )
