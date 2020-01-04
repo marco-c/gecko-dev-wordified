@@ -4356,6 +4356,16 @@ ShutDown
 )
 ;
 }
+else
+{
+CompositorChild
+:
+:
+ShutdownLayersIPC
+(
+)
+;
+}
 }
 gfxPlatform
 :
