@@ -21029,9 +21029,8 @@ false
 }
 if
 (
-Hidden
-(
-)
+!
+mIsShowing
 )
 {
 /
@@ -21040,7 +21039,7 @@ We
 '
 re
 not
-visible
+showing
 (
 probably
 in
