@@ -3700,6 +3700,15 @@ setLCDRenderText
 shouldLCDRenderText
 )
 ;
+paint
+.
+mPaint
+.
+setSubpixelText
+(
+true
+)
+;
 if
 (
 aRenderingOptions
