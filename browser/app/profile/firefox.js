@@ -19984,6 +19984,9 @@ tab
 true
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 /
 /
 Enable
@@ -20016,9 +20019,6 @@ enabled
 true
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 pref
 (
 "
@@ -20033,8 +20033,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Enable
@@ -20053,6 +20051,8 @@ enabled
 true
 )
 ;
+#
+endif
 /
 /
 These
