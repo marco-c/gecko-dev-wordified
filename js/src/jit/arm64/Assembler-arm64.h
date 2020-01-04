@@ -571,14 +571,14 @@ sp
 static
 constexpr
 FloatRegister
-ReturnSimdReg
+ReturnSimd128Reg
 =
 InvalidFloatReg
 ;
 static
 constexpr
 FloatRegister
-ScratchSimdReg
+ScratchSimd128Reg
 =
 InvalidFloatReg
 ;
