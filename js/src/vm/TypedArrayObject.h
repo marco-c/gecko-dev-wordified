@@ -1838,13 +1838,6 @@ staticFunctions
 [
 ]
 ;
-static
-const
-JSPropertySpec
-staticProperties
-[
-]
-;
 /
 *
 Accessors
