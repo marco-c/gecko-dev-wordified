@@ -11181,7 +11181,7 @@ jsop_
 }
 ;
 class
-LCompare64
+LCompareI64
 :
 public
 LInstructionHelper
@@ -11200,7 +11200,7 @@ public
 :
 LIR_HEADER
 (
-Compare64
+CompareI64
 )
 static
 const
@@ -11216,7 +11216,7 @@ Rhs
 =
 INT64_PIECES
 ;
-LCompare64
+LCompareI64
 (
 JSOp
 jsop
@@ -11291,7 +11291,7 @@ jsop_
 }
 ;
 class
-LCompare64AndBranch
+LCompareI64AndBranch
 :
 public
 LControlInstructionHelper
@@ -11314,7 +11314,7 @@ public
 :
 LIR_HEADER
 (
-Compare64AndBranch
+CompareI64AndBranch
 )
 static
 const
@@ -11330,7 +11330,7 @@ Rhs
 =
 INT64_PIECES
 ;
-LCompare64AndBranch
+LCompareI64AndBranch
 (
 MCompare
 *

@@ -5736,7 +5736,7 @@ left
 right
 )
 ;
-LCompare64AndBranch
+LCompareI64AndBranch
 *
 lir
 =
@@ -5746,7 +5746,7 @@ alloc
 (
 )
 )
-LCompare64AndBranch
+LCompareI64AndBranch
 (
 comp
 op
@@ -7494,7 +7494,7 @@ alloc
 (
 )
 )
-LCompare64
+LCompareI64
 (
 op
 useInt64Register

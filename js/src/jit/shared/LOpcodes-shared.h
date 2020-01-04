@@ -713,12 +713,12 @@ CompareAndBranch
 \
 _
 (
-Compare64
+CompareI64
 )
 \
 _
 (
-Compare64AndBranch
+CompareI64AndBranch
 )
 \
 _
