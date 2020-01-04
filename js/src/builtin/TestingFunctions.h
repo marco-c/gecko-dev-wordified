@@ -134,6 +134,8 @@ HandleObject
 obj
 bool
 fuzzingSafe
+bool
+disableOOMFunctions
 )
 ;
 bool
