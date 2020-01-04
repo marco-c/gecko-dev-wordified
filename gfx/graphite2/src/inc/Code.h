@@ -649,7 +649,11 @@ n_bc
 )
 {
 return
+(
 n_bc
++
+1
+)
 *
 (
 sizeof

@@ -335,6 +335,8 @@ size
 )
 )
 cmap
++
+cmap
 .
 size
 (
@@ -363,6 +365,8 @@ size
 (
 )
 )
+cmap
++
 cmap
 .
 size
@@ -393,6 +397,8 @@ size
 )
 )
 cmap
++
+cmap
 .
 size
 (
@@ -422,6 +428,8 @@ size
 )
 )
 cmap
++
+cmap
 .
 size
 (
@@ -450,6 +458,8 @@ size
 (
 )
 )
+cmap
++
 cmap
 .
 size
@@ -519,6 +529,8 @@ size
 )
 )
 cmap
++
+cmap
 .
 size
 (
@@ -547,6 +559,8 @@ size
 (
 )
 )
+cmap
++
 cmap
 .
 size
@@ -632,8 +646,7 @@ prevCodePoint
 while
 (
 codePoint
-!
-=
+<
 limit
 )
 {

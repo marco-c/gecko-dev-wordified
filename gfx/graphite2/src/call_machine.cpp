@@ -566,6 +566,13 @@ direction
 int8
 flags
 ;
+Machine
+:
+:
+status_t
+&
+status
+;
 }
 ;
 typedef
@@ -657,6 +664,12 @@ dir
 reg
 .
 direction
+#
+define
+status
+reg
+.
+status
 #
 include
 "
@@ -786,6 +799,7 @@ dir
 (
 )
 0
+_status
 }
 ;
 /
