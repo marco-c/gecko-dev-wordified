@@ -389,7 +389,7 @@ dnsname
 u
 ;
 int
-index
+id
 ;
 int
 transport
