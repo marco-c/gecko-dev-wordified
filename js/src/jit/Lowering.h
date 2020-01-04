@@ -2535,6 +2535,14 @@ ins
 )
 ;
 void
+visitNaNToZero
+(
+MNaNToZero
+*
+ins
+)
+;
+void
 visitAtomicIsLockFree
 (
 MAtomicIsLockFree

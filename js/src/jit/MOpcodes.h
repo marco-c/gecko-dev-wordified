@@ -304,6 +304,11 @@ Beta
 \
 _
 (
+NaNToZero
+)
+\
+_
+(
 OsrValue
 )
 \
