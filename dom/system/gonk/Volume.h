@@ -967,6 +967,15 @@ VolumeCommand
 aCommand
 )
 ;
+void
+ResolveAndSetMountPoint
+(
+const
+nsCSubstring
+&
+aMountPoint
+)
+;
 bool
 BoolConfigValue
 (
