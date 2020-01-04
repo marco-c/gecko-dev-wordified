@@ -161,10 +161,7 @@ InitInternal
 )
 override
 ;
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator

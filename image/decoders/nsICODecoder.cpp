@@ -4198,10 +4198,7 @@ TerminateSuccess
 )
 ;
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 nsICODecoder
 :
 :

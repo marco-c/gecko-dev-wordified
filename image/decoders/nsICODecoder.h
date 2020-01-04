@@ -373,10 +373,7 @@ FirstResourceOffset
 )
 const
 ;
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator

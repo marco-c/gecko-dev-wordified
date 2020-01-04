@@ -965,10 +965,7 @@ return
 NS_OK
 ;
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 nsJPEGDecoder
 :
 :

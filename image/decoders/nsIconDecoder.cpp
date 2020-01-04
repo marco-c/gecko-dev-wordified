@@ -209,10 +209,7 @@ nsIconDecoder
 )
 {
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 nsIconDecoder
 :
 :

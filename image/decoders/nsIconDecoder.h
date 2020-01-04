@@ -450,10 +450,7 @@ nsIconDecoder
 (
 )
 ;
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator

@@ -974,10 +974,7 @@ return
 mDoesHaveTransparency
 ;
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator
