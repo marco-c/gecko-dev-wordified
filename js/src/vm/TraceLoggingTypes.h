@@ -187,11 +187,6 @@ InlinedScripts
 \
 _
 (
-Invalidation
-)
-\
-_
-(
 IonCompilation
 )
 \
@@ -405,6 +400,11 @@ _
 _
 (
 Bailout
+)
+\
+_
+(
+Invalidation
 )
 \
 _
