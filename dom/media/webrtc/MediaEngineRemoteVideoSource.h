@@ -539,7 +539,6 @@ aHandle
 )
 override
 ;
-;
 nsresult
 Start
 (
@@ -564,6 +563,9 @@ override
 nsresult
 Restart
 (
+BaseAllocationHandle
+*
+aHandle
 const
 dom
 :
@@ -620,10 +622,7 @@ bool
 ChooseCapability
 (
 const
-dom
-:
-:
-MediaTrackConstraints
+NormalizedConstraints
 &
 aConstraints
 const

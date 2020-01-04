@@ -1179,6 +1179,9 @@ MediaEngineDefaultVideoSource
 :
 Restart
 (
+BaseAllocationHandle
+*
+aHandle
 const
 dom
 :
@@ -2746,6 +2749,9 @@ MediaEngineDefaultAudioSource
 :
 Restart
 (
+BaseAllocationHandle
+*
+aHandle
 const
 dom
 :
