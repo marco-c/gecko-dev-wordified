@@ -872,7 +872,7 @@ aMainThreadState
 mDecoderTaskQueue
 (
 new
-FlushableTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (

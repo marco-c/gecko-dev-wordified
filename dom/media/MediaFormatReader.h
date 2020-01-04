@@ -1384,7 +1384,7 @@ created
 .
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
