@@ -861,9 +861,13 @@ Visits
 IS_LOCAL
 isLocal
 ?
-1
+Visits
+.
+VISIT_IS_LOCAL
 :
-0
+Visits
+.
+VISIT_IS_REMOTE
 )
 ;
 cv
