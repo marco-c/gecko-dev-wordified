@@ -3915,16 +3915,6 @@ NONE
 ;
 }
 public
-FullScreenState
-getFullScreenState
-(
-)
-{
-return
-mFullScreenState
-;
-}
-public
 void
 setMaxTranslation
 (
