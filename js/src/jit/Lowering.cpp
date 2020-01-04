@@ -3155,16 +3155,7 @@ visitCall
 return
 ;
 }
-/
-/
-Height
-of
-the
-current
-argument
-vector
-.
-JSFunction
+WrappedFunction
 *
 target
 =

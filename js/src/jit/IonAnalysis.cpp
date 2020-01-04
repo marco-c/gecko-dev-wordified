@@ -15382,7 +15382,9 @@ JSAtom
 *
 name
 ;
-JSFunction
+if
+(
+WrappedFunction
 *
 fun
 =
@@ -15392,10 +15394,6 @@ call
 getSingleTarget
 (
 )
-;
-if
-(
-fun
 )
 {
 if
@@ -15416,6 +15414,11 @@ name
 GetSelfHostedFunctionName
 (
 fun
+-
+>
+rawJSFunction
+(
+)
 )
 ;
 }
