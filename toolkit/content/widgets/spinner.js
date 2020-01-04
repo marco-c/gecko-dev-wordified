@@ -138,7 +138,6 @@ props
 )
 ;
 }
-;
 {
 const
 debug
