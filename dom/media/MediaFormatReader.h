@@ -1007,6 +1007,11 @@ TimeUnit
 aTimeThreshold
 )
 ;
+void
+ResetDemuxers
+(
+)
+;
 size_t
 SizeOfQueue
 (
@@ -2446,6 +2451,11 @@ isSome
 ;
 }
 void
+ScheduleSeek
+(
+)
+;
+void
 AttemptSeek
 (
 )
@@ -2491,6 +2501,9 @@ aFailure
 )
 ;
 }
+bool
+mSeekScheduled
+;
 void
 DoAudioSeek
 (
