@@ -1991,7 +1991,10 @@ width
 rect
 .
 height
-true
+nsIBaseWindow
+:
+:
+eRepaint
 )
 ;
 /

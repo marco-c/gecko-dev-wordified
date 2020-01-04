@@ -4808,7 +4808,10 @@ x
 y
 cx
 cy
-true
+nsIBaseWindow
+:
+:
+eRepaint
 )
 ;
 return
