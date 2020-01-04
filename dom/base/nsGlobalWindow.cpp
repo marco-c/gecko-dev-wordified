@@ -4951,12 +4951,6 @@ OuterWindowProxyClassExtension
 =
 PROXY_MAKE_EXT
 (
-false
-/
-*
-isWrappedNative
-*
-/
 nsOuterWindowProxy
 :
 :

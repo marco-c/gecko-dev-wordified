@@ -385,7 +385,6 @@ ClassExtension
 SimpleGlobalClassExtension
 =
 {
-false
 nullptr
 SimpleGlobal_moved
 }

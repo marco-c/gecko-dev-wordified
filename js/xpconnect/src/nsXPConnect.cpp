@@ -2695,7 +2695,7 @@ clasp
 )
 -
 >
-extIsWrappedNative
+isWrappedNative
 (
 )
 )

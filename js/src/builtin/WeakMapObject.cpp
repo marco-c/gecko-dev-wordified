@@ -755,12 +755,11 @@ getClass
 )
 -
 >
-extIsWrappedNative
+isWrappedNative
 (
 )
 |
 |
-(
 obj
 -
 >
@@ -769,9 +768,8 @@ getClass
 )
 -
 >
-flags
-&
-JSCLASS_IS_DOMJSCLASS
+isDOMClass
+(
 )
 |
 |

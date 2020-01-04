@@ -4297,10 +4297,6 @@ ClassExtension
 XPC_WN_JSClassExtension
 =
 {
-true
-/
-/
-isWrappedNative
 nullptr
 /
 /
@@ -4324,6 +4320,8 @@ XPCWrappedNative_NoHelper
 name
 ;
 WRAPPER_FLAGS
+|
+JSCLASS_IS_WRAPPED_NATIVE
 |
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 /
@@ -6303,6 +6301,8 @@ flags
 WRAPPER_FLAGS
 |
 JSCLASS_PRIVATE_IS_NSISUPPORTS
+|
+JSCLASS_IS_WRAPPED_NATIVE
 ;
 if
 (
@@ -8327,12 +8327,6 @@ ClassExtension
 XPC_WN_Shared_Proto_ClassExtension
 =
 {
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *
@@ -9555,10 +9549,6 @@ ClassExtension
 XPC_WN_Tearoff_JSClassExtension
 =
 {
-false
-/
-/
-isWrappedNative
 nullptr
 /
 /

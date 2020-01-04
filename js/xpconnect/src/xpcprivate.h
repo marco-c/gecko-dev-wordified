@@ -1918,7 +1918,7 @@ return
 clazz
 -
 >
-extIsWrappedNative
+isWrappedNative
 (
 )
 ;

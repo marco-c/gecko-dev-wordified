@@ -1449,12 +1449,6 @@ ClassExtension
 sNPObjectJSWrapperClassExtension
 =
 {
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *

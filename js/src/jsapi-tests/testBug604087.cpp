@@ -159,12 +159,6 @@ OuterWrapperClassExtension
 =
 PROXY_MAKE_EXT
 (
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *

@@ -3405,12 +3405,6 @@ ClassExtension
 SandboxClassExtension
 =
 {
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *

@@ -11426,12 +11426,6 @@ ClassExtension
 UnboxedArrayObjectClassExtension
 =
 {
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *

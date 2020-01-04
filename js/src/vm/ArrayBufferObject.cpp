@@ -626,12 +626,6 @@ ClassExtension
 ArrayBufferObjectClassExtension
 =
 {
-false
-/
-*
-isWrappedNative
-*
-/
 nullptr
 /
 *
