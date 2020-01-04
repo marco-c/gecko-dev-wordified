@@ -803,13 +803,6 @@ mCompositable
 GetForwarder
 (
 )
-gfx
-:
-:
-SurfaceFormat
-:
-:
-YUV
 size
 mCompositable
 -
