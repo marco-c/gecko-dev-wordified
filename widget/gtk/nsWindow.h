@@ -1880,6 +1880,12 @@ GdkDrawable
 *
 aDrawable
 const
+mozilla
+:
+:
+gfx
+:
+:
 IntSize
 &
 aSize
