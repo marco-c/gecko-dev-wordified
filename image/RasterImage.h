@@ -244,6 +244,13 @@ h
 #
 include
 "
+ImageMetadata
+.
+h
+"
+#
+include
+"
 Orientation
 .
 h
@@ -1461,6 +1468,10 @@ FinalizeDecoder
 Decoder
 *
 aDecoder
+const
+ImageMetadata
+&
+aMetadata
 )
 ;
 /

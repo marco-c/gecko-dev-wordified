@@ -9674,6 +9674,10 @@ FinalizeDecoder
 Decoder
 *
 aDecoder
+const
+ImageMetadata
+&
+aMetadata
 )
 {
 MOZ_ASSERT
@@ -9766,12 +9770,7 @@ metadataOK
 =
 SetMetadata
 (
-aDecoder
--
->
-GetImageMetadata
-(
-)
+aMetadata
 wasMetadata
 )
 ;
@@ -9864,9 +9863,8 @@ mHasSize
 |
 |
 !
-aDecoder
--
->
+aMetadata
+.
 HasSize
 (
 )
