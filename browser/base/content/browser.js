@@ -3069,11 +3069,6 @@ HideSessionRestoreButton
 "
 )
 ;
-if
-(
-gURLBar
-)
-{
 /
 /
 Clear
@@ -3092,7 +3087,6 @@ transactionManager
 clear
 (
 )
-}
 }
 }
 ;
@@ -3408,9 +3402,6 @@ if
 this
 .
 _reportButton
-&
-&
-gURLBar
 )
 this
 .
@@ -3454,10 +3445,6 @@ the
 location
 bar
 exists
-)
-if
-(
-gURLBar
 )
 this
 .
@@ -3521,10 +3508,6 @@ false
 return
 ;
 }
-if
-(
-gURLBar
-)
 this
 .
 _reportButton
@@ -7378,11 +7361,6 @@ browser
 UI
 for
 popups
-if
-(
-gURLBar
-)
-{
 gURLBar
 .
 setAttribute
@@ -7407,7 +7385,6 @@ false
 "
 )
 ;
-}
 goSetCommandEnabled
 (
 "
@@ -29802,11 +29779,6 @@ disabled
 )
 ;
 }
-if
-(
-gURLBar
-)
-{
 URLBarSetURI
 (
 aLocationURI
@@ -29837,7 +29809,6 @@ inc
 (
 )
 ;
-}
 /
 /
 Utility
@@ -49784,13 +49755,8 @@ command
 ;
 }
 }
-if
-(
-gURLBar
-)
-{
 let
-value
+urlBarSearchParam
 =
 gURLBar
 .
@@ -49814,7 +49780,7 @@ permanentPrivateBrowsing
 &
 &
 !
-value
+urlBarSearchParam
 .
 includes
 (
@@ -49852,7 +49818,7 @@ browsing
 mode
 though
 .
-value
+urlBarSearchParam
 +
 =
 "
@@ -49867,7 +49833,7 @@ actions
 if
 (
 !
-value
+urlBarSearchParam
 .
 includes
 (
@@ -49879,7 +49845,7 @@ window
 )
 )
 {
-value
+urlBarSearchParam
 +
 =
 "
@@ -49896,10 +49862,9 @@ setAttribute
 "
 autocompletesearchparam
 "
-value
+urlBarSearchParam
 )
 ;
-}
 }
 }
 ;

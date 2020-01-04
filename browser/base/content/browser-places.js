@@ -2736,10 +2736,6 @@ of
 the
 location
 bar
-if
-(
-gURLBar
-)
 gURLBar
 .
 handleRevert
@@ -3230,10 +3226,6 @@ of
 the
 location
 bar
-if
-(
-gURLBar
-)
 gURLBar
 .
 handleRevert

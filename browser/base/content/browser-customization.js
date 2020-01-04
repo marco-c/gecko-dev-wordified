@@ -545,11 +545,6 @@ UpdateUrlbarSearchSplitterState
 Update
 the
 urlbar
-if
-(
-gURLBar
-)
-{
 URLBarSetURI
 (
 )
@@ -560,7 +555,6 @@ asyncUpdateUI
 (
 )
 ;
-}
 /
 /
 Re
