@@ -8647,7 +8647,7 @@ as
 a
 ping
 is
-recieved
+received
 via
 UDP
 *
