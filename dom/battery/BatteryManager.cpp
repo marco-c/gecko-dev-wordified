@@ -855,6 +855,8 @@ if
 doc
 )
 {
+status
+=
 doc
 -
 >
@@ -865,8 +867,6 @@ NodePrincipal
 >
 GetAppStatus
 (
-&
-status
 )
 ;
 }
