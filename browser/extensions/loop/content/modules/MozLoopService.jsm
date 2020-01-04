@@ -6605,9 +6605,7 @@ eventName
 {
 UITour
 .
-availableTargetsCache
-.
-clear
+clearAvailableTargetsCache
 (
 )
 ;
