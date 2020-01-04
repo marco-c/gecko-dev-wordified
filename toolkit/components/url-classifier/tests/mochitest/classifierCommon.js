@@ -134,7 +134,7 @@ requestedTimeout
 sendAsyncMessage
 (
 "
-loadTestFrame
+updateSuccess
 "
 )
 ;
