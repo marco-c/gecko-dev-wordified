@@ -1391,6 +1391,12 @@ needDispatch
 }
 MozCachedMoveEvent
 ;
+nsIWidgetListener
+*
+GetPaintListener
+(
+)
+;
 bool
 CheckForRollup
 (
