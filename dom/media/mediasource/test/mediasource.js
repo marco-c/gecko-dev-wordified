@@ -315,6 +315,7 @@ addEventListener
 (
 name
 function
+onceEvent
 (
 )
 {
@@ -323,9 +324,7 @@ target
 removeEventListener
 (
 name
-arguments
-.
-callee
+onceEvent
 )
 ;
 resolve
