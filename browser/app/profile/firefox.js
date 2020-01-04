@@ -1812,7 +1812,7 @@ org
 /
 update
 /
-3
+6
 /
 %
 PRODUCT
@@ -1840,6 +1840,10 @@ CHANNEL
 /
 %
 OS_VERSION
+%
+/
+%
+SYSTEM_CAPABILITIES
 %
 /
 %
