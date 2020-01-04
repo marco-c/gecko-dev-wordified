@@ -19796,6 +19796,12 @@ return
 mType
 ;
 }
+nsCSSKeyword
+GetShapeTypeName
+(
+)
+const
+;
 int32_t
 GetFillRule
 (
