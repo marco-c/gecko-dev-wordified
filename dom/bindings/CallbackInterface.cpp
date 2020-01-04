@@ -192,7 +192,7 @@ if
 JS_GetPropertyById
 (
 cx
-CallbackPreserveColor
+CallbackKnownNotGray
 (
 )
 aPropId
