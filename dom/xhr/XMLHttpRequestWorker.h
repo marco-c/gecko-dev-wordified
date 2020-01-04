@@ -171,7 +171,7 @@ final
 public
 XMLHttpRequest
 public
-worker
+workers
 :
 :
 WorkerHolder
