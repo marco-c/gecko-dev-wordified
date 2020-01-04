@@ -340,17 +340,10 @@ const
 WEBCONSOLE_STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
 /
-"
-+
-"
 webconsole
 .
 properties

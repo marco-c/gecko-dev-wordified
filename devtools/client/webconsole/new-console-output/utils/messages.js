@@ -129,10 +129,6 @@ const
 STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
