@@ -7396,13 +7396,11 @@ Selection
 *
 selection
 =
-static_cast
-<
-Selection
-*
->
-(
 aSelection
+-
+>
+AsSelection
+(
 )
 ;
 uint32_t

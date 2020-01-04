@@ -31674,13 +31674,11 @@ aSelection
 {
 frameSelection
 =
-static_cast
-<
-Selection
-*
->
-(
 aSelection
+-
+>
+AsSelection
+(
 )
 -
 >
