@@ -5949,21 +5949,6 @@ this
 purpose
 .
             
-replDict
-=
-{
-'
-taskId
-'
-:
-taskId
-'
-name
-'
-:
-artifact_name
-}
-            
 url
 =
 self
@@ -5975,9 +5960,8 @@ buildUrl
 '
 getLatestArtifact
 '
-replDict
-=
-replDict
+taskId
+artifact_name
 )
             
 urls
