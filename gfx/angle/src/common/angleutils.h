@@ -162,6 +162,11 @@ delete
 ;
 }
 ;
+extern
+const
+uintptr_t
+DirtyPointer
+;
 }
 template
 <

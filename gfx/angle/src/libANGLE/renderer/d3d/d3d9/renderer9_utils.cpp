@@ -3241,6 +3241,13 @@ Unimplemented
 extensions
 -
 >
+disjointTimerQuery
+=
+false
+;
+extensions
+-
+>
 robustness
 =
 true
@@ -3405,6 +3412,13 @@ extensions
 -
 >
 vertexArrayObject
+=
+true
+;
+extensions
+-
+>
+noError
 =
 true
 ;

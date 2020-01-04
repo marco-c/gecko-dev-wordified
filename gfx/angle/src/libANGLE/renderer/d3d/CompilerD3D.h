@@ -108,8 +108,8 @@ public
 :
 CompilerD3D
 (
-RendererClass
-rendererClass
+ShShaderOutput
+translatorOutputType
 )
 ;
 ~
