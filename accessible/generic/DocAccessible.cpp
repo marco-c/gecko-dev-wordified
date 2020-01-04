@@ -13512,6 +13512,14 @@ if
 child
 &
 &
+child
+-
+>
+IsInDocument
+(
+)
+&
+&
 !
 child
 -
