@@ -1823,12 +1823,6 @@ a
 }
 )
 ;
-Math
-.
-sin
-(
-)
-;
 wasmEval
 (
 toBuf
