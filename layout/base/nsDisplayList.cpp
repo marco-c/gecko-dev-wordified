@@ -19231,7 +19231,10 @@ true
 /
 /
 For
-NS_STYLE_BOX_DECORATION_BREAK_SLICE
+StyleBoxDecorationBreak
+:
+:
+Slice
 don
 '
 t
@@ -19315,7 +19318,10 @@ StyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_CLONE
+StyleBoxDecorationBreak
+:
+:
+Clone
 |
 |
 (
