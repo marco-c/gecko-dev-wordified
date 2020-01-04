@@ -190,7 +190,6 @@ SetEventResult
 nsIWidget
 *
 aWidget
-const
 mozilla
 :
 :
