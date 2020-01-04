@@ -12042,7 +12042,7 @@ GetPlatform
 )
 -
 >
-UpdateCanUseHardareVideoDecoding
+UpdateCanUseHardwareVideoDecoding
 (
 )
 ;
@@ -12051,7 +12051,7 @@ void
 gfxPlatform
 :
 :
-UpdateCanUseHardareVideoDecoding
+UpdateCanUseHardwareVideoDecoding
 (
 )
 {
