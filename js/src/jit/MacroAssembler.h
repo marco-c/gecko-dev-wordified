@@ -7424,11 +7424,12 @@ Register64
 src
 Register64
 dest
-Register64
+Register
 temp
 )
 DEFINED_ON
 (
+x86
 x64
 )
 ;

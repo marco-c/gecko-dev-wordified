@@ -15699,7 +15699,7 @@ LInt64Allocation
 &
 num
 const
-LInt64Definition
+LDefinition
 &
 temp
 )
@@ -15710,7 +15710,7 @@ setInt64Operand
 num
 )
 ;
-setInt64Temp
+setTemp
 (
 0
 temp

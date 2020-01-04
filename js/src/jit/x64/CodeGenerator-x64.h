@@ -456,14 +456,6 @@ lir
 )
 ;
 void
-visitPopcntI64
-(
-LPopcntI64
-*
-lir
-)
-;
-void
 visitTruncateDToInt32
 (
 LTruncateDToInt32
