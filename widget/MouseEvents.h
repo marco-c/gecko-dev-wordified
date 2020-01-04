@@ -3180,7 +3180,7 @@ mDeltaZ
 .
 0
 )
-deltaMode
+mDeltaMode
 (
 nsIDOMWheelEvent
 :
@@ -3287,7 +3287,7 @@ mDeltaZ
 .
 0
 )
-deltaMode
+mDeltaMode
 (
 nsIDOMWheelEvent
 :
@@ -3572,7 +3572,7 @@ nsIDOMWheelEvent
 DOM_DELTA_
 *
 uint32_t
-deltaMode
+mDeltaMode
 ;
 /
 /
@@ -3734,7 +3734,7 @@ means
 pages
 if
 the
-deltaMode
+mDeltaMode
 is
 DOM_DELTA_PAGE
 otherwise
@@ -4184,11 +4184,11 @@ aEvent
 .
 mDeltaZ
 ;
-deltaMode
+mDeltaMode
 =
 aEvent
 .
-deltaMode
+mDeltaMode
 ;
 customizedByUserPrefs
 =

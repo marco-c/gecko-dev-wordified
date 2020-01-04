@@ -13378,7 +13378,7 @@ switch
 wheelEvent
 -
 >
-deltaMode
+mDeltaMode
 )
 {
 case
@@ -13533,7 +13533,7 @@ switch
 wheelEvent
 -
 >
-deltaMode
+mDeltaMode
 )
 {
 case

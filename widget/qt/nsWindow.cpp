@@ -7049,7 +7049,7 @@ this
 ;
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 nsIDOMWheelEvent
 :

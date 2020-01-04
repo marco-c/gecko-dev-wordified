@@ -13461,7 +13461,7 @@ switch
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 )
 {
 case
@@ -15367,7 +15367,7 @@ isPage
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -15742,7 +15742,7 @@ switch
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 )
 {
 case
@@ -15987,7 +15987,7 @@ isDeltaModePixel
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -32702,7 +32702,7 @@ mHandlingDeltaMode
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 |
 |
 mIsNoLineOrPageDeltaDevice
@@ -32832,7 +32832,7 @@ mHandlingDeltaMode
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 ;
 mIsNoLineOrPageDeltaDevice
 =
@@ -33393,7 +33393,7 @@ customizedByUserPrefs
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -33426,7 +33426,7 @@ if
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent

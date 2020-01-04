@@ -5026,7 +5026,7 @@ aEvent
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -5038,7 +5038,7 @@ DOM_DELTA_LINE
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -5050,7 +5050,7 @@ DOM_DELTA_PIXEL
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -8003,7 +8003,7 @@ SmoothScrollEnabled
 (
 aEvent
 .
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -8024,7 +8024,7 @@ WheelSmoothScrollEnabled
 (
 aEvent
 .
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -8084,7 +8084,7 @@ DeltaTypeForDeltaMode
 (
 aEvent
 .
-deltaMode
+mDeltaMode
 )
 origin
 aEvent

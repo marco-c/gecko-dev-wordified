@@ -3084,7 +3084,7 @@ y
 ;
 aWheelEvent
 .
-deltaMode
+mDeltaMode
 =
 nsIDOMWheelEvent
 :
