@@ -2618,7 +2618,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 internalFormat
 =
@@ -2635,7 +2635,7 @@ surfaceFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 break
 ;

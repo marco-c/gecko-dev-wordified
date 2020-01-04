@@ -630,7 +630,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 CAIRO_FORMAT_RGB16_565
@@ -692,7 +692,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 /
 /
@@ -941,7 +941,7 @@ return
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 default
 :

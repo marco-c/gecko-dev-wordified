@@ -1669,7 +1669,7 @@ GetFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 ;
 const
@@ -1830,7 +1830,7 @@ GetFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 DataSourceSurface
 :
@@ -2499,7 +2499,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 destFormat
 =
@@ -2735,7 +2735,7 @@ readFormatGFX
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 break
 ;
