@@ -175,6 +175,17 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+/
+/
+for
+gfxPrefs
+#
+include
+"
 SharedSurfaceGralloc
 .
 h
