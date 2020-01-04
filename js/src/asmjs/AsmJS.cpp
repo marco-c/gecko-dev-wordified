@@ -24855,7 +24855,7 @@ writeExpr
 Expr
 :
 :
-LoadGlobal
+GetGlobal
 )
 &
 &
@@ -27034,7 +27034,7 @@ writeExpr
 Expr
 :
 :
-StoreGlobal
+SetGlobal
 )
 )
 return
