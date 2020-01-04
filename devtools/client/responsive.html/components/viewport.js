@@ -221,6 +221,13 @@ PropTypes
 func
 .
 isRequired
+onUpdateDeviceModalOpen
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 displayName
 :
@@ -309,8 +316,9 @@ devices
 location
 screenshot
 viewport
-onContentResize
 onBrowserMounted
+onContentResize
+onUpdateDeviceModalOpen
 }
 =
 this
@@ -350,6 +358,7 @@ onChangeViewportDevice
 onContentResize
 onResizeViewport
 onRotateViewport
+onUpdateDeviceModalOpen
 }
 )
 ViewportDimension

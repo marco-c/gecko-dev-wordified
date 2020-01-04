@@ -252,6 +252,13 @@ PropTypes
 func
 .
 isRequired
+onUpdateDeviceModalOpen
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 displayName
 :
@@ -644,6 +651,7 @@ onChangeViewportDevice
 onContentResize
 onResizeViewport
 onRotateViewport
+onUpdateDeviceModalOpen
 }
 =
 this
@@ -728,6 +736,7 @@ device
 onChangeViewportDevice
 onResizeViewport
 onRotateViewport
+onUpdateDeviceModalOpen
 }
 )
 dom
