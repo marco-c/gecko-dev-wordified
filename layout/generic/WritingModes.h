@@ -3654,9 +3654,6 @@ return
 mWritingMode
 ;
 }
-#
-ifdef
-DEBUG
 const
 char
 *
@@ -3779,8 +3776,6 @@ rtl
 "
 ;
 }
-#
-endif
 private
 :
 friend
