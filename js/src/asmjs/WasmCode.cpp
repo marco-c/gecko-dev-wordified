@@ -275,6 +275,17 @@ h
 "
 #
 endif
+#
+include
+"
+vm
+/
+ArrayBufferObject
+-
+inl
+.
+h
+"
 using
 namespace
 js
