@@ -2803,12 +2803,10 @@ Inner
 windows
 only
 .
-virtual
 void
 RefreshCompartmentPrincipal
 (
 )
-override
 ;
 /
 /
