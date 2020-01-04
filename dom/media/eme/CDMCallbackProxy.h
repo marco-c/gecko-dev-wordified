@@ -180,7 +180,6 @@ GMPDecryptorProxyCallback
 {
 public
 :
-virtual
 void
 SetSessionId
 (
@@ -193,7 +192,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 ResolveLoadSessionPromise
 (
@@ -204,7 +202,6 @@ aSuccess
 )
 override
 ;
-virtual
 void
 ResolvePromise
 (
@@ -213,7 +210,6 @@ aPromiseId
 )
 override
 ;
-virtual
 void
 RejectPromise
 (
@@ -228,7 +224,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 SessionMessage
 (
@@ -248,7 +243,6 @@ aMessage
 )
 override
 ;
-virtual
 void
 ExpirationChange
 (
@@ -261,7 +255,6 @@ aExpiryTime
 )
 override
 ;
-virtual
 void
 SessionClosed
 (
@@ -272,7 +265,6 @@ aSessionId
 )
 override
 ;
-virtual
 void
 SessionError
 (
@@ -291,7 +283,6 @@ aMessage
 )
 override
 ;
-virtual
 void
 KeyStatusChanged
 (
@@ -311,7 +302,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 SetCaps
 (
@@ -320,7 +310,6 @@ aCaps
 )
 override
 ;
-virtual
 void
 Decrypted
 (
@@ -338,7 +327,6 @@ aDecryptedData
 )
 override
 ;
-virtual
 void
 Terminated
 (

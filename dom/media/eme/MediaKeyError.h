@@ -193,7 +193,6 @@ MediaKeyError
 (
 )
 ;
-virtual
 JSObject
 *
 WrapObjectInternal

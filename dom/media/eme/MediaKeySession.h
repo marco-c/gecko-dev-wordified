@@ -315,7 +315,6 @@ nsAString
 aSessionId
 )
 ;
-virtual
 JSObject
 *
 WrapObject
