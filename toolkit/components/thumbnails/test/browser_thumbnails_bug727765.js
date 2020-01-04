@@ -92,9 +92,9 @@ Math
 .
 abs
 (
-r
+g
 -
-expectedR
+expectedG
 )
 <
 =
@@ -107,9 +107,9 @@ Math
 .
 abs
 (
-r
+b
 -
-expectedR
+expectedB
 )
 <
 =
