@@ -277,9 +277,6 @@ fill
 (
 void
 *
-input_buffer
-void
-*
 buffer
 long
 frames_needed
@@ -336,9 +333,6 @@ fill
 (
 void
 *
-input_buffer
-void
-*
 buffer
 long
 frames_needed
@@ -351,7 +345,6 @@ data_callback
 (
 stream
 user_ptr
-input_buffer
 buffer
 frames_needed
 )
@@ -425,9 +418,6 @@ virtual
 long
 fill
 (
-void
-*
-input_buffer
 void
 *
 buffer
@@ -733,9 +723,6 @@ fill
 (
 void
 *
-input_buffer
-void
-*
 buffer
 long
 frames_needed
@@ -857,7 +844,6 @@ data_callback
 (
 stream
 user_ptr
-input_buffer
 buffer_start
 frames_requested
 )
@@ -1163,9 +1149,6 @@ cubeb_resampler
 resampler
 void
 *
-input_buffer
-void
-*
 buffer
 long
 frames_needed
@@ -1177,7 +1160,6 @@ resampler
 >
 fill
 (
-input_buffer
 buffer
 frames_needed
 )
