@@ -51981,6 +51981,12 @@ ins
 )
 override
 ;
+bool
+allowDoubleResult
+(
+)
+const
+;
 }
 ;
 /
@@ -53790,12 +53796,6 @@ return
 monitoredResult_
 ;
 }
-bool
-allowDoubleResult
-(
-)
-const
-;
 }
 ;
 class
