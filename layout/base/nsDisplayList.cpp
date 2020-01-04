@@ -2626,7 +2626,7 @@ AddAnimation
 )
 ;
 const
-AnimationTiming
+TimingParams
 &
 timing
 =
@@ -2638,7 +2638,7 @@ GetEffect
 )
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 ;

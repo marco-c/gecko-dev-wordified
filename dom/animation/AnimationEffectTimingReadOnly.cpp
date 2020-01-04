@@ -138,7 +138,7 @@ namespace
 mozilla
 {
 bool
-AnimationTiming
+TimingParams
 :
 :
 operator
@@ -146,7 +146,7 @@ operator
 =
 (
 const
-AnimationTiming
+TimingParams
 &
 aOther
 )

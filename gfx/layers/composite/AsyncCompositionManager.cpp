@@ -4308,7 +4308,7 @@ ToSeconds
 continue
 ;
 }
-AnimationTiming
+TimingParams
 timing
 ;
 timing

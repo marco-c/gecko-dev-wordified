@@ -1109,7 +1109,7 @@ TimeDuration
 mEffect
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 .

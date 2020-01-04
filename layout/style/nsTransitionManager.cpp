@@ -492,10 +492,10 @@ is
 never
 null
 .
-AnimationTiming
+TimingParams
 timingToUse
 =
-Timing
+SpecifiedTiming
 (
 )
 ;
@@ -4927,7 +4927,7 @@ reversePortion
 valuePortion
 ;
 }
-AnimationTiming
+TimingParams
 timing
 ;
 timing

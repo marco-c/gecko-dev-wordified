@@ -202,7 +202,7 @@ already_AddRefed
 <
 AnimationEffectTimingReadOnly
 >
-TimingAsObject
+Timing
 (
 )
 const
@@ -218,8 +218,9 @@ ComputedTimingProperties
 aRetVal
 )
 const
-{
-}
+=
+0
+;
 protected
 :
 virtual
