@@ -352,6 +352,16 @@ return
 mMemoryDC
 ;
 }
+HWND
+GetHwnd
+(
+)
+const
+{
+return
+mWnd
+;
+}
 private
 :
 HDC
