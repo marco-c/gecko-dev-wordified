@@ -147,7 +147,7 @@ h
 :
 /
 /
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DISABLE_CONTEXT_SHARING_GLX
@@ -195,30 +195,7 @@ cached
 .
 #
 define
-DECL_GFX_ENV_LIVE
-(
-Env
-Name
-)
-\
-static
-bool
-Name
-(
-)
-{
-\
-return
-IsEnvSet
-(
-Env
-)
-;
-\
-}
-#
-define
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 Env
 Name
@@ -313,7 +290,7 @@ Debugging
 inside
 of
 ContainerLayerComposite
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 DUMP_DEBUG
@@ -331,7 +308,7 @@ OGLShaderProgram
 in
 DEBUG
 only
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_DEBUG_SHADERS
@@ -346,7 +323,7 @@ context
 sharing
 in
 GLContextProviderGLX
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DISABLE_CONTEXT_SHARING_GLX
@@ -362,7 +339,7 @@ crash
 guard
 in
 DriverCrashGuard
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DISABLE_CRASH_GUARD
@@ -370,7 +347,7 @@ MOZ_DISABLE_CRASH_GUARD
 DisableCrashGuard
 )
 ;
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_FORCE_CRASH_GUARD_NIGHTLY
@@ -401,7 +378,7 @@ variable
 is
 set
 .
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DISABLE_FORCE_PRESENT
@@ -486,7 +463,7 @@ a
 good
 replacement
 .
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_COMPOSITOR_TEXTURES
@@ -502,7 +479,7 @@ layer
 list
 in
 LayerSorter
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_LAYER_SORT_LIST
@@ -520,7 +497,7 @@ MOZ_DUMP_PAINTING
 is
 defined
 .
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_PAINT
@@ -528,7 +505,7 @@ MOZ_DUMP_PAINT
 DumpPaint
 )
 ;
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_PAINT_INTERMEDIATE
@@ -536,7 +513,7 @@ MOZ_DUMP_PAINT_INTERMEDIATE
 DumpPaintIntermediate
 )
 ;
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_PAINT_ITEMS
@@ -544,7 +521,7 @@ MOZ_DUMP_PAINT_ITEMS
 DumpPaintItems
 )
 ;
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_DUMP_PAINT_TO_FILE
@@ -559,7 +536,7 @@ double
 buffering
 in
 ContentClient
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_FORCE_DOUBLE_BUFFERING
@@ -578,7 +555,7 @@ in
 Beta
 and
 Release
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_GFX_CRASH_MOZ_CRASH
@@ -597,7 +574,7 @@ in
 Nightly
 and
 Aurora
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_GFX_CRASH_TELEMETRY
@@ -605,7 +582,7 @@ MOZ_GFX_CRASH_TELEMETRY
 GfxDevCrashTelemetry
 )
 ;
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_GFX_VR_NO_DISTORTION
@@ -618,7 +595,7 @@ VRNoDistortion
 Debugging
 in
 GLContext
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_GL_DEBUG
@@ -626,7 +603,7 @@ MOZ_GL_DEBUG
 GlDebug
 )
 ;
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_GL_DEBUG_VERBOSE
@@ -634,7 +611,7 @@ MOZ_GL_DEBUG_VERBOSE
 GlDebugVerbose
 )
 ;
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_GL_DEBUG_ABORT_ON_ERROR
@@ -647,7 +624,7 @@ GlDebugAbortOnError
 Count
 GL
 extensions
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_GL_DUMP_EXTS
@@ -662,7 +639,7 @@ noisy
 GLContext
 and
 GLContextProviderELG
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 (
 "
 MOZ_GL_SPEW
@@ -683,7 +660,7 @@ GLX
 call
 in
 GLContextProviderGLX
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_GLX_DEBUG
@@ -696,7 +673,7 @@ GlxDebug
 Use
 X
 compositing
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_LAYERS_ENABLE_XLIB_SURFACES
@@ -710,7 +687,7 @@ GL
 compositing
 on
 Windows
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_LAYERS_PREFER_EGL
@@ -727,7 +704,7 @@ for
 main
 layer
 manager
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 MOZ_LAYERS_PREFER_OFFSCREEN
@@ -741,7 +718,7 @@ Stop
 the
 VR
 rendering
-DECL_GFX_ENV_LIVE
+DECL_GFX_ENV
 (
 "
 NO_VR_RENDERING
@@ -880,10 +857,7 @@ delete
 ;
 #
 undef
-DECL_GFX_ENV_LIVE
-#
-undef
-DECL_GFX_ENV_ONCE
+DECL_GFX_ENV
 #
 endif
 /
