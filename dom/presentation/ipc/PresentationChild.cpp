@@ -545,6 +545,10 @@ const
 nsCString
 &
 aData
+const
+bool
+&
+aIsBinary
 )
 {
 if
@@ -566,6 +570,7 @@ NotifyMessage
 (
 aSessionId
 aData
+aIsBinary
 )
 )
 )
