@@ -82691,6 +82691,9 @@ NS_ERROR_INVALID_ARG
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -82702,7 +82705,12 @@ toObject
 (
 )
 )
+)
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 JSContext
 *
 cx

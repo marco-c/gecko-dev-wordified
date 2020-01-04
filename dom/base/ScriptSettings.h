@@ -1882,6 +1882,7 @@ corresponding
 web
 console
 .
+MOZ_MUST_USE
 bool
 Init
 (
@@ -1916,6 +1917,7 @@ Init
 with
 that
 .
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2019,6 +2021,7 @@ corresponding
 web
 console
 .
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2054,6 +2057,7 @@ than
 an
 nsIGlobalObject
 .
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2062,6 +2066,7 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2073,6 +2078,7 @@ JSContext
 aCx
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2081,6 +2087,7 @@ nsGlobalWindow
 aWindow
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -2243,6 +2250,7 @@ the
 current
 compartment
 .
+MOZ_MUST_USE
 bool
 StealException
 (
@@ -2324,6 +2332,7 @@ the
 current
 compartment
 .
+MOZ_MUST_USE
 bool
 PeekException
 (

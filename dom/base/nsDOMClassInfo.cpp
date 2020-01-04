@@ -1564,6 +1564,9 @@ DefineStaticJSVals
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -1575,7 +1578,12 @@ UnprivilegedJunkScope
 (
 )
 )
+)
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 JSContext
 *
 cx

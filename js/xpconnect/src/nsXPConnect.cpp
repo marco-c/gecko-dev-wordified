@@ -7209,6 +7209,9 @@ zone
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -7220,6 +7223,9 @@ PrivilegedJunkScope
 (
 )
 )
+)
+return
+false
 ;
 addonId
 =
@@ -7298,6 +7304,9 @@ zone
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -7309,6 +7318,9 @@ PrivilegedJunkScope
 (
 )
 )
+)
+return
+false
 ;
 addonId
 =

@@ -11398,6 +11398,9 @@ HasException
 )
 )
 {
+if
+(
+!
 aes
 .
 StealException
@@ -11405,7 +11408,12 @@ StealException
 &
 exn
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 }
 /

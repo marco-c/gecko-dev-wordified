@@ -11775,6 +11775,9 @@ exn
 cx
 )
 ;
+if
+(
+!
 jsapi
 .
 StealException
@@ -11782,7 +11785,19 @@ StealException
 &
 exn
 )
+)
+{
+mPromise
+-
+>
+MaybeReject
+(
+NS_ERROR_OUT_OF_MEMORY
+)
 ;
+}
+else
+{
 mPromise
 -
 >
@@ -11792,6 +11807,7 @@ cx
 exn
 )
 ;
+}
 }
 -
 -

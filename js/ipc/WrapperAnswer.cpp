@@ -423,6 +423,9 @@ HasException
 return
 true
 ;
+if
+(
+!
 jsapi
 .
 StealException
@@ -430,6 +433,9 @@ StealException
 &
 exn
 )
+)
+return
+true
 ;
 if
 (
