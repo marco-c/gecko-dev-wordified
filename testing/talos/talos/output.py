@@ -3884,7 +3884,7 @@ is
 more
 than
 one
-test
+subtest
 calculate
 a
 summary
@@ -3893,7 +3893,7 @@ result
 if
 len
 (
-tresults
+subtests
 )
 >
 1
