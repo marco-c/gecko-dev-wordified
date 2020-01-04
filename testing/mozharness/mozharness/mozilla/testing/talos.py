@@ -514,7 +514,7 @@ S
 '
 )
     
-RE_TALOSDATA
+RE_PERF_DATA
 =
 re
 .
@@ -524,19 +524,18 @@ r
 '
 .
 *
-?
-TALOSDATA
+PERFHERDER_DATA
 :
 \
 s
 +
 (
 \
-[
+{
 .
 *
 \
-]
+}
 )
 '
 )
@@ -576,7 +575,7 @@ None
         
 self
 .
-num_times_found_talosdata
+num_times_found_perf_data
 =
 0
     
@@ -727,7 +726,7 @@ group
 if
 self
 .
-RE_TALOSDATA
+RE_PERF_DATA
 .
 match
 (
@@ -737,7 +736,7 @@ line
             
 self
 .
-num_times_found_talosdata
+num_times_found_perf_data
 +
 =
 1
@@ -3379,7 +3378,7 @@ tbpl_level
 elif
 parser
 .
-num_times_found_talosdata
+num_times_found_perf_data
 !
 =
 1
@@ -3390,7 +3389,7 @@ self
 critical
 (
 "
-TALOSDATA
+PERFHERDER_DATA
 was
 seen
 %
@@ -3404,7 +3403,7 @@ expected
 %
 parser
 .
-num_times_found_talosdata
+num_times_found_perf_data
 )
             
 parser
