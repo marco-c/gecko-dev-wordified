@@ -3965,6 +3965,12 @@ gfxPlatform
 (
 )
 ;
+virtual
+void
+InitAcceleration
+(
+)
+;
 /
 *
 *
