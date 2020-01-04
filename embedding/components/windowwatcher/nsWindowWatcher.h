@@ -503,8 +503,8 @@ mozIDOMWindowProxy
 *
 aParent
 const
-char
-*
+nsACString
+&
 aFeatures
 bool
 aFeaturesSpecified
@@ -525,8 +525,8 @@ int32_t
 WinHasOption
 (
 const
-char
-*
+nsACString
+&
 aOptions
 const
 char
@@ -555,8 +555,8 @@ void
 CalcSizeSpec
 (
 const
-char
-*
+nsACString
+&
 aFeatures
 SizeSpec
 &
