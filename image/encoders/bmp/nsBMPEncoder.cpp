@@ -2665,10 +2665,7 @@ mBMPFileHeader
 .
 dataoffset
 =
-FileHeader
-:
-:
-LENGTH
+FILE_HEADER_LENGTH
 +
 InfoHeaderLength
 :
@@ -2688,10 +2685,7 @@ mBMPFileHeader
 .
 dataoffset
 =
-FileHeader
-:
-:
-LENGTH
+FILE_HEADER_LENGTH
 +
 InfoHeaderLength
 :

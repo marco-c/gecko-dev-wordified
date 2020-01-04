@@ -762,10 +762,7 @@ dataOffset
 bmp
 :
 :
-FileHeader
-:
-:
-LENGTH
+FILE_HEADER_LENGTH
 +
 BITMAPINFOSIZE
 ;
