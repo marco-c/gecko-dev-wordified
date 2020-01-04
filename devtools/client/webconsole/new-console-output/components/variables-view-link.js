@@ -182,7 +182,7 @@ PropTypes
 .
 object
 .
-required
+isRequired
 }
 ;
 function
