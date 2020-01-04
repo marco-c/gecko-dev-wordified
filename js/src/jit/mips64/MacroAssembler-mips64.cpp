@@ -13584,7 +13584,7 @@ Label
 label
 )
 {
-branchValueIsNurseryObject
+branchValueIsNurseryObjectImpl
 (
 cond
 address
@@ -13610,7 +13610,7 @@ Label
 label
 )
 {
-branchValueIsNurseryObject
+branchValueIsNurseryObjectImpl
 (
 cond
 value
