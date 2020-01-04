@@ -1424,7 +1424,7 @@ buffer
 10
 "
 %
-d
+u
 "
 offset
 )
