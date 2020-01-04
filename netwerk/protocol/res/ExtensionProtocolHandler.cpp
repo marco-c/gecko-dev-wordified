@@ -194,6 +194,13 @@ are
 web
 -
 accessible
+(
+and
+cross
+-
+origin
+fetchable
+)
 .
 Check
 that
@@ -262,7 +269,11 @@ URI_IS_LOCAL_RESOURCE
 (
 loadableByAnyone
 ?
+(
 URI_LOADABLE_BY_ANYONE
+|
+URI_FETCHABLE_BY_ANYONE
+)
 :
 URI_DANGEROUS_TO_LOAD
 )
