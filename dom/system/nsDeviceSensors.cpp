@@ -2282,7 +2282,10 @@ init
 .
 mValue
 =
+round
+(
 aValue
+)
 ;
 RefPtr
 <
