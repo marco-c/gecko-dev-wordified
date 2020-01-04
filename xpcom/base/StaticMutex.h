@@ -273,7 +273,6 @@ variable
 *
 /
 class
-MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
 StaticMutex
 {
 public
