@@ -948,7 +948,7 @@ ret
 Error
 /
 bad
-result
+expression
 type
 /
 )
@@ -988,7 +988,7 @@ VoidCode
 Error
 /
 bad
-arg
+value
 type
 /
 )
