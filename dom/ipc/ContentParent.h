@@ -5175,16 +5175,6 @@ aPath
 )
 override
 ;
-virtual
-bool
-RecvGetAndroidSystemInfo
-(
-AndroidSystemInfo
-*
-aInfo
-)
-override
-;
 /
 /
 If
