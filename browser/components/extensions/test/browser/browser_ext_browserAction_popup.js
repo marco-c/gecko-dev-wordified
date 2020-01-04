@@ -1666,12 +1666,6 @@ expecting
 waitUntilClosed
 )
 {
-dump
-(
-L0G
-HERE
-)
-;
 let
 panel
 =
