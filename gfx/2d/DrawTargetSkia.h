@@ -939,12 +939,6 @@ AntialiasMode
 aAntialiasMode
 )
 ;
-SkRect
-SkRectCoveringWholeSurface
-(
-)
-const
-;
 bool
 UsingSkiaGPU
 (
