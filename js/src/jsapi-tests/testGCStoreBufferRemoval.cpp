@@ -181,7 +181,6 @@ depth
 ;
 }
 }
-JS_HAZ_GC_SUPPRESSED
 ;
 volatile
 int

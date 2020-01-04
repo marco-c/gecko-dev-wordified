@@ -3343,7 +3343,6 @@ rt
 {
 }
 }
-JS_HAZ_GC_SUPPRESSED
 ;
 /
 *
