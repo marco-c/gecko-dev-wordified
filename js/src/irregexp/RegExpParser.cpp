@@ -1443,6 +1443,8 @@ CharT
 end
 bool
 multiline_mode
+bool
+unicode
 )
 :
 ts
@@ -1480,6 +1482,10 @@ true
 multiline_
 (
 multiline_mode
+)
+unicode_
+(
+unicode
 )
 simple_
 (
@@ -6340,6 +6346,8 @@ bool
 multiline
 bool
 match_only
+bool
+unicode
 RegExpCompileData
 *
 data
@@ -6594,6 +6602,7 @@ chars
 +
 length
 multiline
+unicode
 )
 ;
 data
@@ -6677,6 +6686,8 @@ bool
 multiline
 bool
 match_only
+bool
+unicode
 RegExpCompileData
 *
 data
@@ -6717,6 +6728,7 @@ length
 )
 multiline
 match_only
+unicode
 data
 )
 :
@@ -6741,6 +6753,7 @@ length
 )
 multiline
 match_only
+unicode
 data
 )
 ;
@@ -6769,6 +6782,8 @@ CharT
 chars
 size_t
 length
+bool
+unicode
 )
 {
 LifoAllocScope
@@ -6792,6 +6807,7 @@ chars
 +
 length
 false
+unicode
 )
 ;
 return
@@ -6823,6 +6839,8 @@ alloc
 JSAtom
 *
 str
+bool
+unicode
 )
 {
 JS
@@ -6858,6 +6876,7 @@ str
 length
 (
 )
+unicode
 )
 :
 :
@@ -6879,6 +6898,7 @@ str
 length
 (
 )
+unicode
 )
 ;
 }

@@ -33402,6 +33402,15 @@ at
 lastIndex
 *
 /
+#
+define
+JSREG_UNICODE
+0x10u
+/
+*
+unicode
+*
+/
 extern
 JS_PUBLIC_API
 (
