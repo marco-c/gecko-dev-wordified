@@ -911,6 +911,26 @@ defines
 this
 )
 .
+All
+properties
+defined
+in
+an
+/
+/
+#
+ifndef
+CSS_PROP_LIST_EXCLUDE_INTERNAL
+section
+must
+have
+the
+/
+/
+CSS_PROPERTY_INTERNAL
+flag
+set
+.
 /
 /
 When
@@ -3499,6 +3519,8 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 SystemFont
 )
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 |
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
@@ -5884,6 +5906,8 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ControlCharacterVisibility
 )
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_VALUE
 "
 "
@@ -11044,6 +11068,8 @@ mUnsafeRulesEnabled
 is
 set
 .
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_VALUE
 "
 "
@@ -11118,6 +11144,8 @@ no
 range
 restriction
 ?
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
@@ -11146,6 +11174,8 @@ no
 range
 restriction
 ?
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
@@ -11164,6 +11194,8 @@ math
 variant
 math_variant
 MathVariant
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
@@ -11201,6 +11233,8 @@ mUnsafeRulesEnabled
 is
 set
 .
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_VALUE
 "
 "
@@ -12025,6 +12059,8 @@ x
 lang
 _x_lang
 Lang
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
@@ -12041,6 +12077,8 @@ x
 span
 _x_span
 Span
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
@@ -12059,6 +12097,8 @@ text
 zoom
 _x_text_zoom
 TextZoom
+CSS_PROPERTY_INTERNAL
+|
 CSS_PROPERTY_PARSE_INACCESSIBLE
 "
 "
