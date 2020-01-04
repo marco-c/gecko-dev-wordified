@@ -384,6 +384,10 @@ select
 nsGkAtoms
 :
 :
+style
+nsGkAtoms
+:
+:
 map
 )
 )
