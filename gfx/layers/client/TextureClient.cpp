@@ -3677,6 +3677,13 @@ WaitForCompositorRecycle
 (
 )
 {
+if
+(
+IsSharedWithCompositor
+(
+)
+)
+{
 mActor
 -
 >
@@ -3684,6 +3691,7 @@ WaitForCompositorRecycle
 (
 )
 ;
+}
 }
 void
 TextureClient
