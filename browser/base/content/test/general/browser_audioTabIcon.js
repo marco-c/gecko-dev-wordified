@@ -1578,10 +1578,9 @@ data
 {
 ok
 (
-false
+true
 "
 Should
-not
 see
 an
 audio
@@ -1712,11 +1711,6 @@ event
 is
 dispatched
 .
-This
-should
-not
-happen
-!
 yield
 AudioPlaybackPromise
 ;
