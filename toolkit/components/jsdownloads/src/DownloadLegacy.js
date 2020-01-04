@@ -2177,9 +2177,8 @@ start
 (
 )
 .
-then
+catch
 (
-null
 (
 )
 =
