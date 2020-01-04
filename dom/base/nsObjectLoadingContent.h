@@ -245,6 +245,9 @@ class
 AutoSetInstantiatingToFalse
 ;
 class
+nsIPrincipal
+;
+class
 nsFrameLoader
 ;
 class
@@ -1193,6 +1196,17 @@ nsIDocument
 *
 GetContentDocument
 (
+const
+mozilla
+:
+:
+Maybe
+<
+nsIPrincipal
+*
+>
+&
+aSubjectPrincipal
 )
 ;
 void
