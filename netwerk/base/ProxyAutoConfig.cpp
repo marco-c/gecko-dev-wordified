@@ -4643,11 +4643,15 @@ const
 unsigned
 sRuntimeHeapSize
 =
-2
+4
 <
 <
 20
 ;
+/
+/
+4
+MB
 JSRuntime
 *
 mRuntime
