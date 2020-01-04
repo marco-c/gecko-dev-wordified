@@ -439,11 +439,15 @@ maxSlop
 ;
 if
 (
-aFrames
-*
+samples
+/
 aChannels
 >
 mSamplesPadding
+/
+aChannels
++
+1
 )
 {
 samples
