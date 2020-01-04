@@ -758,9 +758,6 @@ nsISupports
 >
 mData
 ;
-int
-mLineNumber
-;
 bool
 mInitialized
 ;
