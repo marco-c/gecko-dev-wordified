@@ -654,6 +654,16 @@ mTriggeringPrincipal
 newEntry
 -
 >
+mPrincipalToInherit
+=
+aEntry
+-
+>
+mPrincipalToInherit
+;
+newEntry
+-
+>
 mContentType
 .
 Assign

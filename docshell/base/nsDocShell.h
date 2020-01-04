@@ -1970,6 +1970,9 @@ aReferrerPolicy
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aPrincipalToInherit
 const
 char
 *
@@ -2218,6 +2221,9 @@ aChannel
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aPrincipalToInherit
 uint32_t
 aLoadType
 bool
@@ -2340,6 +2346,9 @@ aChannel
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aPrincipalToInherit
 bool
 aCloneChildren
 nsISHEntry
