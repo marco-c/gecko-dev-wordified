@@ -1234,7 +1234,7 @@ mLayer
 nullptr
 ;
 }
-MOZ_EXPLICIT_CONVERSION
+explicit
 operator
 bool
 (
