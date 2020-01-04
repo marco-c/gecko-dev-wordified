@@ -5837,13 +5837,19 @@ context
 )
 :
             
+for
+f
+in
+obj
+.
+outputs
+:
+                
 generated_files
 .
 add
 (
-obj
-.
-output
+f
 )
             
 yield
@@ -7640,7 +7646,7 @@ generated_files
 f
 ]
             
-output
+outputs
 =
 f
             
@@ -7908,7 +7914,7 @@ GeneratedFile
 context
 script
 method
-output
+outputs
 inputs
 )
     

@@ -1606,7 +1606,7 @@ len
 (
 objs
 )
-2
+3
 )
         
 for
@@ -1636,11 +1636,23 @@ foo
 .
 c
 '
+(
+'
+xpidllex
+.
+py
+'
+'
+xpidlyacc
+.
+py
+'
+)
 ]
         
 for
 o
-expected_filename
+f
 in
 zip
 (
@@ -1649,13 +1661,27 @@ expected
 )
 :
             
+expected_filename
+=
+f
+if
+isinstance
+(
+f
+tuple
+)
+else
+(
+f
+)
+            
 self
 .
 assertEqual
 (
 o
 .
-output
+outputs
 expected_filename
 )
             
@@ -1793,8 +1819,10 @@ assertEqual
 (
 o
 .
-output
+outputs
+(
 expected_filename
+)
 )
             
 self
@@ -1883,12 +1911,14 @@ assertEqual
 (
 o
 .
-output
+outputs
+(
 '
 bar
 .
 c
 '
+)
 )
         
 self

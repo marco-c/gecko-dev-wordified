@@ -5273,7 +5273,7 @@ method
 '
         
 '
-output
+outputs
 '
         
 '
@@ -5293,7 +5293,7 @@ self
 context
 script
 method
-output
+outputs
 inputs
 flags
 =
@@ -5324,9 +5324,19 @@ method
         
 self
 .
-output
+outputs
 =
-output
+outputs
+if
+isinstance
+(
+outputs
+tuple
+)
+else
+(
+outputs
+)
         
 self
 .
