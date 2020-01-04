@@ -6526,6 +6526,9 @@ EmptyCString
 )
 username
 nullptr
+NeckoOriginAttributes
+(
+)
 usingSSL
 )
 ;

@@ -11634,6 +11634,15 @@ mProxyInfo
 )
 ;
 }
+NeckoOriginAttributes
+originAttributes
+;
+NS_GetOriginAttributes
+(
+this
+originAttributes
+)
+;
 AltSvcMapping
 :
 :
@@ -11650,6 +11659,7 @@ proxyInfo
 mCaps
 &
 NS_HTTP_DISALLOW_SPDY
+originAttributes
 )
 ;
 }
@@ -36935,6 +36945,15 @@ SetDoNotTrack
 (
 )
 ;
+NeckoOriginAttributes
+originAttributes
+;
+NS_GetOriginAttributes
+(
+this
+originAttributes
+)
+;
 RefPtr
 <
 AltSvcMapping
@@ -37355,6 +37374,7 @@ getter_AddRefs
 mConnectionInfo
 )
 proxyInfo
+originAttributes
 )
 ;
 Telemetry
@@ -37413,6 +37433,7 @@ EmptyCString
 )
 mUsername
 proxyInfo
+originAttributes
 isHttps
 )
 ;

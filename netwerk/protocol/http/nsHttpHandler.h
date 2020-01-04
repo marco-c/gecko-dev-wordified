@@ -1563,6 +1563,10 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
+const
+NeckoOriginAttributes
+&
+originAttributes
 )
 {
 mConnMgr
@@ -1574,6 +1578,7 @@ map
 proxyInfo
 callbacks
 caps
+originAttributes
 )
 ;
 }

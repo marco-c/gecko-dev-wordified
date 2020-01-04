@@ -345,6 +345,10 @@ nsProxyInfo
 proxyInfo
 uint32_t
 caps
+const
+NeckoOriginAttributes
+&
+originAttributes
 )
 {
 MOZ_ASSERT
@@ -1033,6 +1037,7 @@ mapping
 proxyInfo
 callbacks
 caps
+originAttributes
 )
 ;
 }
@@ -1543,6 +1548,10 @@ outCI
 nsProxyInfo
 *
 pi
+const
+NeckoOriginAttributes
+&
+originAttributes
 )
 {
 RefPtr
@@ -1559,6 +1568,7 @@ mOriginPort
 mNPNToken
 mUsername
 pi
+originAttributes
 mAlternateHost
 mAlternatePort
 )
@@ -2520,6 +2530,10 @@ nsIInterfaceRequestor
 aCallbacks
 uint32_t
 caps
+const
+NeckoOriginAttributes
+&
+originAttributes
 )
 {
 MOZ_ASSERT
@@ -2807,6 +2821,7 @@ getter_AddRefs
 ci
 )
 pi
+originAttributes
 )
 ;
 caps
