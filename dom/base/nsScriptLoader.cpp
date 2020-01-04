@@ -7013,7 +7013,7 @@ nsAutoMicroTask
 mt
 ;
 AutoEntryScript
-entryScript
+aes
 (
 globalObject
 "
@@ -7031,12 +7031,6 @@ GetNativeContext
 )
 )
 ;
-entryScript
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JS
 :
 :
@@ -7047,7 +7041,7 @@ JSObject
 >
 global
 (
-entryScript
+aes
 .
 cx
 (
@@ -7208,7 +7202,7 @@ JS
 CompileOptions
 options
 (
-entryScript
+aes
 .
 cx
 (
@@ -7217,7 +7211,7 @@ cx
 ;
 FillCompileOptionsForRequest
 (
-entryScript
+aes
 aRequest
 global
 &
@@ -7231,7 +7225,7 @@ nsJSUtils
 :
 EvaluateString
 (
-entryScript
+aes
 .
 cx
 (

@@ -9575,7 +9575,7 @@ and
 then
 let
 the
-AutoJSAPI
+AutoEntryScript
 destructor
 report
 /
@@ -9586,12 +9586,6 @@ to
 the
 console
 .
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 if
 (
 !

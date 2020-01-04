@@ -3570,12 +3570,6 @@ global
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 RootedObject
 global
 (
@@ -5425,12 +5419,6 @@ loader
 load
 module
 "
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 JSContext

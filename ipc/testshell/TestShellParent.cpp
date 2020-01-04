@@ -396,12 +396,6 @@ TestShellCommand
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

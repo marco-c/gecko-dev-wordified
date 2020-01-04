@@ -1674,12 +1674,6 @@ invocation
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

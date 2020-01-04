@@ -2976,7 +2976,7 @@ HTML
 spec
 .
 AutoEntryScript
-entryScript
+aes
 (
 globalObject
 "
@@ -2989,17 +2989,11 @@ initialization
 true
 )
 ;
-entryScript
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
 =
-entryScript
+aes
 .
 cx
 (
@@ -3260,7 +3254,7 @@ the
 JS_DefineUCProperty
 call
 .
-entryScript
+aes
 .
 ReportException
 (

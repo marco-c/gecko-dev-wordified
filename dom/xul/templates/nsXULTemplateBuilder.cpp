@@ -8152,7 +8152,7 @@ HTML
 spec
 .
 AutoEntryScript
-entryScript
+aes
 (
 innerWin
 "
@@ -8162,17 +8162,11 @@ creation
 true
 )
 ;
-entryScript
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 jscontext
 =
-entryScript
+aes
 .
 cx
 (

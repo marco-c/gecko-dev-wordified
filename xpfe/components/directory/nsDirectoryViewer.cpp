@@ -1026,12 +1026,6 @@ OnFTPControlLog
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
@@ -1443,12 +1437,6 @@ set
 HTTPIndex
 property
 "
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 JSContext

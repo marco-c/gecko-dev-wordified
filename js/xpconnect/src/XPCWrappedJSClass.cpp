@@ -3609,12 +3609,6 @@ aIsMainThread
 true
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 XPCCallContext
 ccx
 (
@@ -6802,12 +6796,6 @@ aIsMainThread
 *
 /
 true
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 XPCCallContext

@@ -3922,6 +3922,10 @@ aReason
 )
 ;
 }
+TakeOwnershipOfErrorReporting
+(
+)
+;
 }
 AutoEntryScript
 :
