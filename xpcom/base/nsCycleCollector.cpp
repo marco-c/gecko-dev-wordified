@@ -18899,6 +18899,11 @@ IsGrayJS
 )
 )
 {
+MOZ_ASSERT
+(
+mJSRuntime
+)
+;
 +
 +
 numWhiteGCed
