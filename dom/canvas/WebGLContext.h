@@ -8573,10 +8573,6 @@ uint32_t
 *
 const
 out_height
-GLenum
-*
-const
-out_mode
 )
 ;
 void
