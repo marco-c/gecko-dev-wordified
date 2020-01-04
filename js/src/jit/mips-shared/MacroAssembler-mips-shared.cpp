@@ -6864,6 +6864,15 @@ label
 )
 ;
 }
+void
+MacroAssembler
+:
+:
+flush
+(
+)
+{
+}
 /
 /
 }

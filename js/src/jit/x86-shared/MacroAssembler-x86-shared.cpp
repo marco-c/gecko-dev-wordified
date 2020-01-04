@@ -3427,6 +3427,15 @@ return
 retAddr
 ;
 }
+void
+MacroAssembler
+:
+:
+flush
+(
+)
+{
+}
 /
 /
 }
