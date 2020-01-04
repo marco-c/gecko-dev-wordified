@@ -1094,7 +1094,6 @@ aSeqno
 const
 char
 *
-const
 name
 (
 )

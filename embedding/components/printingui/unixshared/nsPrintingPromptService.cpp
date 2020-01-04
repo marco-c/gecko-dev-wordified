@@ -514,9 +514,9 @@ mBlock
 operator
 nsIDialogParamBlock
 *
-const
 (
 )
+const
 {
 return
 mBlock

@@ -1611,7 +1611,6 @@ kDefaultClearCacheOnShutdown
 /
 static
 uint32_t
-const
 CacheObserver
 :
 :
@@ -1862,7 +1861,6 @@ capacity
 /
 static
 bool
-const
 CacheObserver
 :
 :
@@ -2508,7 +2506,6 @@ anon
 /
 static
 bool
-const
 CacheObserver
 :
 :

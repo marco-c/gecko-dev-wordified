@@ -325,7 +325,6 @@ return
 mTracingType
 ;
 }
-const
 uint8_t
 GetProcessType
 (
@@ -337,7 +336,6 @@ mProcessType
 ;
 }
 ;
-const
 bool
 IsOffMainThread
 (

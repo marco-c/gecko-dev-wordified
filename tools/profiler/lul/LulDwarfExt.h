@@ -10775,7 +10775,6 @@ IA
 32
 .
 static
-const
 unsigned
 int
 I386
@@ -10793,7 +10792,6 @@ or
 Intel
 64
 static
-const
 unsigned
 int
 X86_64
@@ -10805,7 +10803,6 @@ X86_64
 ARM
 .
 static
-const
 unsigned
 int
 ARM

@@ -1428,7 +1428,6 @@ offset
 length
 *
 /
-const
 off_t
 endOffset
 (
@@ -1453,7 +1452,6 @@ given
 address
 *
 /
-const
 off_t
 offsetOf
 (
@@ -1498,7 +1496,6 @@ LazyMap
 range
 *
 /
-const
 bool
 Contains
 (

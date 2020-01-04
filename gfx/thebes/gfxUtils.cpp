@@ -611,7 +611,6 @@ surf
 }
 }
 static
-const
 uint8_t
 PremultiplyValue
 (
@@ -636,7 +635,6 @@ v
 ;
 }
 static
-const
 uint8_t
 UnpremultiplyValue
 (

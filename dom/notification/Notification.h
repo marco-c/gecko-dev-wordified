@@ -1921,7 +1921,6 @@ auto
 }
 }
 static
-const
 NotificationDirection
 StringToDirection
 (

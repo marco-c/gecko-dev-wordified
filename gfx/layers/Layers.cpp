@@ -6080,7 +6080,6 @@ Mutated
 ;
 }
 }
-const
 float
 Layer
 :

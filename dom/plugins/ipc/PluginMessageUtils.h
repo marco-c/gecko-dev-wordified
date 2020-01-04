@@ -693,7 +693,6 @@ inline
 const
 char
 *
-const
 NPPVariableToString
 (
 NPPVariable

@@ -909,7 +909,6 @@ char
 aKey
 )
 ;
-const
 gint
 Run
 (
@@ -2748,7 +2747,6 @@ index
 ]
 ;
 }
-const
 gint
 nsPrintDialogWidgetGTK
 :

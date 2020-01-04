@@ -552,7 +552,6 @@ or
 false
 .
 static
-const
 bool
 FinalizeStyleAnimationValues
 (

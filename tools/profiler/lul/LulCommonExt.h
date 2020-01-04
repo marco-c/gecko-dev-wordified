@@ -749,7 +749,6 @@ only
 const
 char
 *
-const
 FromUniqueString
 (
 const

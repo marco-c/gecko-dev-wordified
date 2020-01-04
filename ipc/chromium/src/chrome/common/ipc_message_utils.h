@@ -393,7 +393,6 @@ return
 val
 ;
 }
-const
 void
 NextData
 (

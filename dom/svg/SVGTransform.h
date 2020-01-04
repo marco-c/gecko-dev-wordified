@@ -862,7 +862,6 @@ dom
 :
 SVGMatrix
 ;
-const
 bool
 IsAnimVal
 (

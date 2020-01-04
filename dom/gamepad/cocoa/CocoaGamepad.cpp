@@ -619,7 +619,6 @@ superclass
 uint32_t
 mSuperIndex
 ;
-const
 bool
 isDpad
 (

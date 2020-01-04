@@ -267,7 +267,6 @@ contains
 .
 *
 /
-const
 size_type
 length
 (

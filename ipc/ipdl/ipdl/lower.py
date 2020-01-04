@@ -4343,7 +4343,7 @@ const
     
 t
 .
-ptrconst
+ptr
 =
 1
     

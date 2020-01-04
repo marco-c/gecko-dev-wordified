@@ -556,7 +556,6 @@ complete
 zstream
 *
 /
-const
 size_t
 GetUncompressedSize
 (
@@ -591,7 +590,6 @@ given
 chunk
 *
 /
-const
 size_t
 GetChunkSize
 (
@@ -630,7 +628,6 @@ of
 chunks
 *
 /
-const
 size_t
 GetChunksNum
 (
