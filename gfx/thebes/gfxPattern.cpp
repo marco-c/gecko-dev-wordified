@@ -175,7 +175,7 @@ gfxPattern
 gfxPattern
 (
 const
-gfxRGBA
+Color
 &
 aColor
 )
@@ -353,7 +353,7 @@ AddColorStop
 gfxFloat
 offset
 const
-gfxRGBA
+Color
 &
 c
 )
