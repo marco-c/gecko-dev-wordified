@@ -385,10 +385,7 @@ cache
 mozilla
 :
 :
-Forward
-<
-T
->
+Move
 (
 other
 .

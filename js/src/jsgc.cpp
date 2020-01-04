@@ -29554,10 +29554,7 @@ GCParallelTask
 mozilla
 :
 :
-Forward
-<
-GCParallelTask
->
+Move
 (
 other
 )
@@ -29652,10 +29649,7 @@ GCSweepTask
 mozilla
 :
 :
-Forward
-<
-GCSweepTask
->
+Move
 (
 other
 )
