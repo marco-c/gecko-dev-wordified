@@ -11875,7 +11875,7 @@ aWindow
 .
 LoopUI
 .
-openCallPanel
+openPanel
 (
 {
 target
