@@ -974,7 +974,7 @@ aEndOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 trackerStart
 (
 aHTMLEd
@@ -985,7 +985,7 @@ aStartNode
 aStartOffset
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 trackerEnd
 (
 aHTMLEd
@@ -1142,7 +1142,7 @@ aSplitOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 aHTMLEd
@@ -1469,7 +1469,7 @@ true
 Some
 scoping
 for
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 .
 This
 will
@@ -1485,7 +1485,7 @@ tweak
 any
 surrounding
 whitespace
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor
@@ -2115,7 +2115,7 @@ res
 Some
 scoping
 for
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 .
 This
 will
@@ -2131,7 +2131,7 @@ tweak
 any
 surrounding
 whitespace
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor

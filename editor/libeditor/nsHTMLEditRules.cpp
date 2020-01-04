@@ -14767,7 +14767,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor
@@ -15077,7 +15077,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor
@@ -15392,7 +15392,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 startTracker
 (
 mHTMLEditor
@@ -15407,7 +15407,7 @@ startNode
 startOffset
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 endTracker
 (
 mHTMLEditor
@@ -16524,7 +16524,7 @@ start
 end
 nodes
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 startTracker
 (
 mHTMLEditor
@@ -16539,7 +16539,7 @@ startNode
 startOffset
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 endTracker
 (
 mHTMLEditor
@@ -18183,7 +18183,7 @@ trackingRightBlock
 rightBlock
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor
@@ -18513,7 +18513,7 @@ trackingLeftBlock
 leftBlock
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor

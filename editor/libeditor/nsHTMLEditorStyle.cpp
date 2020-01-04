@@ -3698,7 +3698,7 @@ start
 of
 range
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater
@@ -4647,7 +4647,7 @@ put
 /
 selection
 .
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater

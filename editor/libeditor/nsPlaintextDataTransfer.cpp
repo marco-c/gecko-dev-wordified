@@ -613,7 +613,7 @@ after
 the
 delete
 .
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater
