@@ -2849,7 +2849,7 @@ NS_OK
 static
 *
 /
-void
+nsresult
 txXPathNodeUtils
 :
 :
@@ -2864,6 +2864,7 @@ nsAString
 aURI
 )
 {
+return
 aNode
 .
 mNode

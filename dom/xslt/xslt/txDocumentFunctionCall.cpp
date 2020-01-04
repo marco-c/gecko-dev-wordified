@@ -662,6 +662,8 @@ isEmpty
 )
 )
 {
+rv
+=
 txXPathNodeUtils
 :
 :
@@ -675,6 +677,12 @@ get
 0
 )
 baseURI
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
@@ -799,6 +807,8 @@ baseUri
 of
 node
 itself
+rv
+=
 txXPathNodeUtils
 :
 :
@@ -806,6 +816,12 @@ getBaseURI
 (
 node
 baseURI
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
