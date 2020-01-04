@@ -1259,6 +1259,35 @@ _settings
 '
 settings
 )
+            
+wildcard
+=
+any
+(
+s
+=
+=
+'
+*
+'
+for
+s
+in
+self
+.
+_settings
+)
+            
+object
+.
+__setattr__
+(
+self
+'
+_wildcard
+'
+wildcard
+)
         
 property
         
@@ -1293,23 +1322,45 @@ return
 ]
         
 def
-_validate
+get_meta
 (
 self
 option
-value
 )
 :
             
 if
 option
-not
 in
 self
 .
 _settings
 :
                 
+return
+self
+.
+_settings
+[
+option
+]
+            
+if
+self
+.
+_wildcard
+:
+                
+return
+self
+.
+_settings
+[
+'
+*
+'
+]
+            
 raise
 KeyError
 (
@@ -1326,15 +1377,24 @@ s
 %
 option
 )
+        
+def
+_validate
+(
+self
+option
+value
+)
+:
             
 meta
 =
 self
 .
-_settings
-[
+get_meta
+(
 option
-]
+)
             
 meta
 [
@@ -1472,10 +1532,10 @@ meta
 =
 self
 .
-_settings
-[
+get_meta
+(
 k
-]
+)
             
 if
 self
@@ -1581,10 +1641,10 @@ meta
 =
 self
 .
-_settings
-[
+get_meta
+(
 k
-]
+)
             
 if
 not
@@ -2678,10 +2738,10 @@ self
 section
 ]
 .
-_settings
-[
+get_meta
+(
 option
-]
+)
         
 #
 Providers
