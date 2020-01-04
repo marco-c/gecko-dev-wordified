@@ -70,10 +70,6 @@ helpers
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
