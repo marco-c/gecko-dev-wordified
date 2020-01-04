@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -368,7 +368,7 @@ aDestTarget
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -389,7 +389,7 @@ mGLContext
 GLuint
 mCanvasFrontbufferTexID
 ;
-nsRefPtr
+RefPtr
 <
 PersistentBufferProvider
 >
@@ -413,7 +413,7 @@ gl
 OriginPos
 mOriginPos
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

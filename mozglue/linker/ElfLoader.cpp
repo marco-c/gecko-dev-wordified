@@ -325,7 +325,7 @@ int
 flags
 )
 {
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -539,7 +539,7 @@ Dl_info
 info
 )
 {
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -878,7 +878,7 @@ int
 pcount
 )
 {
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -1546,7 +1546,7 @@ Register
 elf
 )
 ;
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -1939,7 +1939,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -2574,7 +2574,7 @@ addr
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -2625,7 +2625,7 @@ mappable
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 Zip
 >
@@ -8647,7 +8647,10 @@ si_code
 SEGV_ACCERR
 )
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 LibHandle
 >

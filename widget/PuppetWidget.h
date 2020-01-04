@@ -186,7 +186,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1793,7 +1793,10 @@ content
 -
 only
 transactions
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DrawTarget
 >

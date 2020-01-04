@@ -519,7 +519,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1683,7 +1683,7 @@ executor
 void
 recv_callback_s
 (
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -1709,7 +1709,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -2216,7 +2216,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_tcp_message
 >

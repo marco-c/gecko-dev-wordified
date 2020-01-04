@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -422,7 +422,7 @@ performs
 the
 decoding
 .
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >
@@ -699,7 +699,7 @@ ProcessShutdown
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

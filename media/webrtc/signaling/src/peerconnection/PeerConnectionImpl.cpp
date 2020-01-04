@@ -5260,7 +5260,10 @@ mCertificate
 }
 #
 endif
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DtlsIdentity
 >
@@ -5298,7 +5301,10 @@ CreateDtlsIdentity
 ;
 #
 else
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DtlsIdentity
 >
@@ -8099,7 +8105,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10271,7 +10277,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10307,7 +10313,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10340,7 +10346,7 @@ end
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10432,7 +10438,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10650,7 +10656,7 @@ end
 j
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -10866,7 +10872,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >

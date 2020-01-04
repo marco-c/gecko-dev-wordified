@@ -152,7 +152,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -518,7 +518,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -998,7 +998,7 @@ frame
 .
 *
 /
-nsRefPtr
+RefPtr
 <
 CompositorOGL
 >

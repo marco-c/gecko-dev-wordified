@@ -121,7 +121,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -942,7 +942,7 @@ the
 image
 container
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -969,7 +969,7 @@ frame
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1227,7 +1227,7 @@ the
 image
 container
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1260,7 +1260,7 @@ frame
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1321,7 +1321,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1609,7 +1609,7 @@ the
 image
 container
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1743,7 +1743,7 @@ aOffsetY
 aHeight
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1815,7 +1815,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

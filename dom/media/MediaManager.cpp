@@ -16086,7 +16086,7 @@ nsRunnable
 >
 mReply
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -16202,7 +16202,7 @@ within
 the
 MediaManager
 thread
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >

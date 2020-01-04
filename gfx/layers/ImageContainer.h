@@ -4908,7 +4908,7 @@ gfx
 IntSize
 mSize
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -5004,7 +5004,7 @@ GetAsSourceSurface
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -5073,7 +5073,7 @@ mSourceSurface
 nsDataHashtable
 <
 nsUint32HashKey
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

@@ -13089,7 +13089,10 @@ gfxCharacterMap
 >
 mUnicodeRangeMap
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -13564,7 +13567,10 @@ GlyphRun
 struct
 TextRunDrawParams
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -13627,7 +13633,10 @@ paintSVGGlyphs
 struct
 FontDrawParams
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -13639,7 +13648,10 @@ ScaledFont
 >
 scaledFont
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

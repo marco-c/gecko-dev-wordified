@@ -206,7 +206,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -2580,7 +2580,7 @@ aDataTransfer
 void
 TakeDragVisualization
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3215,7 +3215,10 @@ DataTransferItem
 >
 mInitialDataTransferItems
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 gfx
 :

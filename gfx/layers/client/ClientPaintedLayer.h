@@ -150,7 +150,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -627,7 +627,7 @@ mContentClient
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ContentClient
 >

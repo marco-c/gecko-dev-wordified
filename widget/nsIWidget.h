@@ -210,7 +210,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -10433,7 +10433,10 @@ virtual
 bool
 CaptureWidgetOnScreen
 (
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

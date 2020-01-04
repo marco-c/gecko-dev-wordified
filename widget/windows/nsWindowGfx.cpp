@@ -488,7 +488,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -3318,7 +3318,7 @@ mWnd
 paintRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -4727,7 +4727,7 @@ Get
 the
 image
 data
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4813,7 +4813,7 @@ iconSize
 frameSize
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -4885,7 +4885,7 @@ mappedOK
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

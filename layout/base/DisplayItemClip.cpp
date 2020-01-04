@@ -660,7 +660,7 @@ aEnd
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -793,7 +793,7 @@ aEnd
 1
 |
 :
-nsRefPtr
+RefPtr
 <
 Path
 >

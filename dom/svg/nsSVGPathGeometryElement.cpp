@@ -649,7 +649,7 @@ GetBackendType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -667,7 +667,7 @@ forget
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -680,7 +680,7 @@ CreatePathBuilder
 aFillRule
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

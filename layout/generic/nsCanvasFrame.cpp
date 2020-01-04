@@ -2230,7 +2230,7 @@ DrawTarget
 aSource
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2340,7 +2340,7 @@ ThebesContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

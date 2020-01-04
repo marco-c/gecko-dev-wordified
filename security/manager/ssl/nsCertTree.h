@@ -244,7 +244,10 @@ mUsageCount
 )
 {
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsIX509Cert
 >
@@ -304,7 +307,10 @@ nsCertTreeDispInfo
 other
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsCertAddonInfo
 >
@@ -587,7 +593,10 @@ kInitialCacheLength
 ;
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsCertTreeDispInfo
 >
@@ -631,7 +640,10 @@ nsICertOverrideService
 >
 mOverrideService
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsCertOverrideService
 >

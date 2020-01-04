@@ -13976,7 +13976,10 @@ on
 error
 *
 /
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >

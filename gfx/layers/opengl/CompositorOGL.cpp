@@ -1532,7 +1532,7 @@ actually
 compile
 a
 shader
-nsRefPtr
+RefPtr
 <
 EffectSolidColor
 >
@@ -3286,7 +3286,7 @@ fbo
 tex
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -3469,7 +3469,7 @@ tex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -4236,7 +4236,7 @@ height
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -8682,7 +8682,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -9469,7 +9469,7 @@ rect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -9932,7 +9932,7 @@ nsWindow
 aWidget
 )
 ;
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :
@@ -10317,7 +10317,7 @@ LOCAL_GL_BACK
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

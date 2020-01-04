@@ -884,7 +884,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -893,7 +893,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1305,7 +1305,7 @@ callback
 .
 vector
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1545,7 +1545,7 @@ Length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureReadbackSink
 >
@@ -1937,7 +1937,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1946,7 +1946,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2690,7 +2690,7 @@ old
 buffer
 from
 CompositableHost
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -2701,7 +2701,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -2773,7 +2773,7 @@ old
 buffer
 from
 CompositableHost
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -2784,7 +2784,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -2863,7 +2863,7 @@ mFrontUpdatedRegion
 =
 aFrontUpdatedRegion
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -3486,7 +3486,7 @@ Unlock
 the
 TextureClients
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3504,7 +3504,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

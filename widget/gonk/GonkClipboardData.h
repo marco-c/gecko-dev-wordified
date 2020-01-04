@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -217,7 +217,7 @@ mPlain
 nsAutoString
 mHTML
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

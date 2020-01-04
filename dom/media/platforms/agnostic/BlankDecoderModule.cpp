@@ -138,7 +138,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -450,7 +450,7 @@ it
 s
 run
 .
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -523,7 +523,7 @@ BlankMediaDataCreator
 >
 mCreator
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -994,7 +994,7 @@ mFrameWidth
 uint32_t
 mFrameHeight
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

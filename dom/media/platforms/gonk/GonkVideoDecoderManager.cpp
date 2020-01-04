@@ -1571,7 +1571,7 @@ mInitialFrame
 height
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :

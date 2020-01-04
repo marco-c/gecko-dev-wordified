@@ -283,7 +283,10 @@ gfxRect
 aBBox
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >
@@ -1895,7 +1898,7 @@ aSource
 >
 mNeededBounds
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2219,7 +2222,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2587,7 +2590,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

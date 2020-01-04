@@ -715,7 +715,10 @@ hardware
 /
 framebuffer
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -807,7 +810,10 @@ during
 /
 destruction
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

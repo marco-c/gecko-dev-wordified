@@ -148,7 +148,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1669,7 +1669,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1870,7 +1870,7 @@ m
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1893,7 +1893,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1944,7 +1944,7 @@ channel
 mask
 for
 output
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1976,7 +1976,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1999,7 +1999,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

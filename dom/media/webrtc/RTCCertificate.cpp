@@ -1750,7 +1750,7 @@ reference
 is
 released
 .
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -1802,7 +1802,7 @@ CERT_DupCertificate
 mCertificate
 )
 ;
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >

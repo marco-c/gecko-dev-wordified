@@ -2842,7 +2842,7 @@ bounds
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

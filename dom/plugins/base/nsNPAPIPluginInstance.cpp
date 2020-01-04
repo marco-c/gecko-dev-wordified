@@ -5199,7 +5199,7 @@ texture
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 AndroidSurfaceTexture
 >
@@ -5391,7 +5391,7 @@ AcquireVideoWindow
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AndroidSurfaceTexture
 >

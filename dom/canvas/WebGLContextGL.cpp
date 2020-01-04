@@ -9245,7 +9245,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 &
 res
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9274,7 +9274,7 @@ mSourceSurface
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

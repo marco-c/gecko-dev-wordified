@@ -9936,7 +9936,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -9973,7 +9973,7 @@ aNumBytes
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

@@ -762,7 +762,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >

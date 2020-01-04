@@ -160,7 +160,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -543,7 +543,10 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >
@@ -607,7 +610,10 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >

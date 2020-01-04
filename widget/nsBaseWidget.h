@@ -2092,7 +2092,10 @@ virtual
 bool
 CaptureWidgetOnScreen
 (
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

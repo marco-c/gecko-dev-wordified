@@ -5180,7 +5180,7 @@ mUpdateScheduled
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -7968,7 +7968,7 @@ aTrack
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -8016,7 +8016,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -8061,7 +8061,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -8106,7 +8106,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -8784,7 +8784,7 @@ Ensure
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

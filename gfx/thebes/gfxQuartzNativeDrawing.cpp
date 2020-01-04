@@ -410,7 +410,7 @@ if
 mTempDrawTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1549,7 +1549,7 @@ CreateImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1653,7 +1653,7 @@ context
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

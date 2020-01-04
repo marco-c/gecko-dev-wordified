@@ -1764,7 +1764,7 @@ AutoMounter
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2002,7 +2002,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2494,7 +2494,7 @@ bool
 aAllowSharing
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2599,7 +2599,7 @@ nsACString
 aVolumeName
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2706,7 +2706,7 @@ nsACString
 aVolumeName
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2817,7 +2817,7 @@ nsACString
 aVolumeName
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -3294,7 +3294,7 @@ mVolumeEventObserver
 AutoVolumeManagerStateObserver
 mVolumeManagerStateObserver
 ;
-nsRefPtr
+RefPtr
 <
 VolumeResponseCallback
 >
@@ -4672,7 +4672,7 @@ volIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -6298,7 +6298,7 @@ volIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -8962,7 +8962,7 @@ volIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >

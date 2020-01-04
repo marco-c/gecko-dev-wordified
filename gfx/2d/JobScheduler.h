@@ -101,7 +101,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -859,13 +859,13 @@ Job
 *
 mNextWaitingJob
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
 mStartSync
 ;
-nsRefPtr
+RefPtr
 <
 SyncObject
 >
@@ -980,7 +980,7 @@ mEvent
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 EventObject
 >

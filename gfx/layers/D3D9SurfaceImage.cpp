@@ -227,7 +227,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -237,7 +237,7 @@ aData
 .
 mSurface
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DDevice9
 >
@@ -250,7 +250,7 @@ surface
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -265,7 +265,7 @@ hr
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3D9
 >
@@ -278,7 +278,7 @@ device
 >
 GetDirect3D
 (
-getter_AddRefs
+byRef
 (
 d3d9
 )
@@ -403,7 +403,7 @@ aData
 .
 mRegion
 ;
-nsRefPtr
+RefPtr
 <
 SharedTextureClientD3D9
 >
@@ -457,7 +457,7 @@ conversion
 if
 necessary
 .
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -568,7 +568,7 @@ to
 /
 complete
 .
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
@@ -582,7 +582,7 @@ device
 CreateQuery
 (
 D3DQUERYTYPE_EVENT
-getter_AddRefs
+byRef
 (
 query
 )
@@ -666,7 +666,7 @@ EnsureSynchronized
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
@@ -864,7 +864,7 @@ nullptr
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -948,7 +948,7 @@ This
 is
 expensive
 .
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -971,7 +971,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DDevice9
 >
@@ -994,7 +994,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -1015,7 +1015,7 @@ mSize
 height
 D3DFMT_X8R8G8B8
 D3DPOOL_SYSTEMMEM
-getter_AddRefs
+byRef
 (
 systemMemorySurface
 )
@@ -1277,7 +1277,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1310,7 +1310,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SharedTextureClientD3D9
 >

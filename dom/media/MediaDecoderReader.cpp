@@ -2025,7 +2025,7 @@ decode
 task
 queue
 .
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2300,7 +2300,7 @@ GetSize
 mTaskQueue
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

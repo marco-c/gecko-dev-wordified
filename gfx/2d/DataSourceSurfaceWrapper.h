@@ -263,7 +263,7 @@ IsValid
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

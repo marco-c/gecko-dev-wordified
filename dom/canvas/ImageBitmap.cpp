@@ -743,7 +743,7 @@ a
 new
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1238,7 +1238,7 @@ into
 a
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1343,7 +1343,7 @@ a
 new
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1443,7 +1443,7 @@ into
 a
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1482,7 +1482,7 @@ Convert
 RGBA
 to
 BGRA
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1495,7 +1495,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2212,7 +2212,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2545,7 +2545,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2634,7 +2634,7 @@ mSurface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2766,7 +2766,7 @@ mSurface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2928,7 +2928,7 @@ SurfaceType
 D2D1_1_IMAGE
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2954,7 +2954,7 @@ mSurface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -3085,7 +3085,7 @@ OptimizeSourceSurface
 mSurface
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -3234,7 +3234,7 @@ security
 /
 checking
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3684,7 +3684,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3722,7 +3722,7 @@ surface
 if
 needed
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3858,7 +3858,7 @@ DataSourceSurface
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -4408,7 +4408,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5157,7 +5157,7 @@ imgIContainer
 :
 FRAME_FIRST
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5233,7 +5233,7 @@ into
 a
 SourceSurface
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5270,7 +5270,7 @@ surface
 if
 needed
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5424,7 +5424,7 @@ moment
 again
 there
 .
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5741,7 +5741,7 @@ nsIGlobalObject
 >
 mGlobalObject
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

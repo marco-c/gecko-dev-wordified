@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -695,7 +695,7 @@ IGraphBuilder
 *
 >
 (
-getter_AddRefs
+byRef
 (
 mGraph
 )
@@ -860,7 +860,7 @@ IMediaControl
 *
 >
 (
-getter_AddRefs
+byRef
 (
 mControl
 )
@@ -893,7 +893,7 @@ IMediaSeeking
 *
 >
 (
-getter_AddRefs
+byRef
 (
 mMediaSeeking
 )
@@ -1029,7 +1029,7 @@ The
 MPEG
 demuxer
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1045,7 +1045,7 @@ L
 "
 MPEG1Splitter
 "
-getter_AddRefs
+byRef
 (
 demuxer
 )
@@ -1066,7 +1066,7 @@ Platform
 MP3
 decoder
 .
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1118,7 +1118,7 @@ Layer
 3
 Decoder
 "
-getter_AddRefs
+byRef
 (
 decoder
 )
@@ -1156,7 +1156,7 @@ hr
 AddMP3DMOWrapperFilter
 (
 mGraph
-getter_AddRefs
+byRef
 (
 decoder
 )
@@ -1623,7 +1623,7 @@ end
 of
 stream
 .
-nsRefPtr
+RefPtr
 <
 IMediaEventSink
 >
@@ -1644,7 +1644,7 @@ IMediaEventSink
 *
 >
 (
-getter_AddRefs
+byRef
 (
 eventSink
 )
@@ -1980,7 +1980,7 @@ is
 shutdown
 )
 .
-nsRefPtr
+RefPtr
 <
 IMediaSample
 >

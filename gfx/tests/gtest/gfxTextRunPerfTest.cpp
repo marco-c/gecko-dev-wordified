@@ -124,7 +124,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -258,7 +258,7 @@ size
 =
 200
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

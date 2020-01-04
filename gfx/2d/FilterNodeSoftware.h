@@ -1357,7 +1357,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1369,7 +1369,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -1488,7 +1488,7 @@ output
 IntRect
 mCachedRect
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

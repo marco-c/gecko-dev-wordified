@@ -6895,7 +6895,7 @@ nullptr
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6906,7 +6906,7 @@ CanvasToDataSourceSurface
 aCanvas1
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -11274,7 +11274,7 @@ AdvanceTimeAndRefresh
 aMilliseconds
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >
@@ -11359,7 +11359,7 @@ the
 /
 compositor
 .
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >

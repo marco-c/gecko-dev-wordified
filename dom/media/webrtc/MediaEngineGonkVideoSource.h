@@ -824,7 +824,7 @@ when
 screen
 rotates
 .
-nsRefPtr
+RefPtr
 <
 layers
 :

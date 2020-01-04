@@ -420,7 +420,7 @@ mSRV
 mTexture
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -431,7 +431,7 @@ mTexture
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -447,7 +447,7 @@ CreateShaderResourceView
 (
 mTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mSRV
 )
@@ -662,7 +662,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -678,7 +678,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -782,7 +782,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -798,7 +798,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -859,7 +859,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1252,7 +1252,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClientD3D11
 >
@@ -1319,7 +1319,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClientD3D11
 >
@@ -1374,7 +1374,7 @@ aAllocFlags
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1972,7 +1972,7 @@ MiscFlags
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -1989,7 +1989,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 tex
 )
@@ -2302,7 +2302,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2467,7 +2467,7 @@ if
 mTexture
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -2478,13 +2478,13 @@ mTexture
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >
@@ -2495,7 +2495,7 @@ device
 >
 GetImmediateContext
 (
-getter_AddRefs
+byRef
 (
 ctx
 )
@@ -2573,7 +2573,7 @@ mStride
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID3D10Device
 >
@@ -2584,7 +2584,7 @@ mTexture10
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -2968,7 +2968,7 @@ CreateTexture2D
 &
 newDesc
 nullptr
-getter_AddRefs
+byRef
 (
 mTexture
 )
@@ -3284,7 +3284,7 @@ CreateTexture2D
 &
 newDesc
 nullptr
-getter_AddRefs
+byRef
 (
 mTexture10
 )
@@ -3439,7 +3439,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGIResource
 >
@@ -3460,7 +3460,7 @@ IDXGIResource
 *
 *
 )
-getter_AddRefs
+byRef
 (
 resource
 )
@@ -3479,7 +3479,7 @@ IDXGIResource
 *
 *
 )
-getter_AddRefs
+byRef
 (
 resource
 )
@@ -3580,7 +3580,7 @@ public
 :
 YCbCrKeepAliveD3D11
 (
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -3623,7 +3623,7 @@ aTextures
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 IUnknown
 >
@@ -3841,7 +3841,7 @@ IUnknown
 D3DSPD_IUNKNOWN
 )
 ;
-nsRefPtr
+RefPtr
 <
 DXGIYCbCrTextureClient
 >
@@ -4064,7 +4064,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DXGIYCbCrTextureClient
 >
@@ -4077,7 +4077,7 @@ aAllocator
 aFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIResource
 >
@@ -4093,7 +4093,7 @@ IDXGIResource
 *
 *
 )
-getter_AddRefs
+byRef
 (
 resource
 )
@@ -4139,7 +4139,7 @@ IDXGIResource
 *
 *
 )
-getter_AddRefs
+byRef
 (
 resource
 )
@@ -4184,7 +4184,7 @@ IDXGIResource
 *
 *
 )
-getter_AddRefs
+byRef
 (
 resource
 )
@@ -4503,7 +4503,7 @@ ID3D11Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mTexture
 )
@@ -4865,7 +4865,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -4905,7 +4905,7 @@ ID3D11Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 textures
 [
@@ -4970,7 +4970,7 @@ ID3D11Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 textures
 [
@@ -5035,7 +5035,7 @@ ID3D11Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 textures
 [
@@ -5802,7 +5802,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 mTexture
 )
@@ -6221,7 +6221,7 @@ CreateTexture2D
 desc
 &
 initData
-getter_AddRefs
+byRef
 (
 mTileTextures
 [
@@ -6316,7 +6316,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -6330,7 +6330,7 @@ mCurrentTile
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -6349,7 +6349,7 @@ mTileTextures
 mCurrentTile
 ]
 nullptr
-getter_AddRefs
+byRef
 (
 mTileSRVs
 [
@@ -6594,7 +6594,7 @@ mTexture
 =
 aTexture
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -6605,7 +6605,7 @@ mTexture
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -6621,7 +6621,7 @@ CreateRenderTargetView
 (
 mTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mRTView
 )
@@ -6845,7 +6845,7 @@ ID3D10Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mD3D10Texture
 )
@@ -6912,7 +6912,7 @@ MOZ_CRASH
 /
 test
 QI
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -6930,7 +6930,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -7024,7 +7024,7 @@ ID3D11Texture2D
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mD3D11Texture
 )
@@ -7091,7 +7091,7 @@ MOZ_CRASH
 /
 test
 QI
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7109,7 +7109,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -7161,7 +7161,7 @@ size
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7179,7 +7179,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -7357,7 +7357,7 @@ size
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -7375,7 +7375,7 @@ IDXGIKeyedMutex
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mutex
 )
@@ -7515,7 +7515,7 @@ MOZ_CRASH
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >
@@ -7526,7 +7526,7 @@ dev
 >
 GetImmediateContext
 (
-getter_AddRefs
+byRef
 (
 ctx
 )

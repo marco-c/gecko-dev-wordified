@@ -131,7 +131,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -665,7 +665,10 @@ flow_
 nullptr
 ;
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 TransportFlow
 >
@@ -1127,7 +1130,10 @@ mozilla
 AudioCodecConfig
 audio_config_
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -1186,7 +1192,10 @@ sending
 it
 too
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -1305,7 +1314,7 @@ flow_
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1316,7 +1325,7 @@ audio_rtp_transport_
 flow_
 )
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >

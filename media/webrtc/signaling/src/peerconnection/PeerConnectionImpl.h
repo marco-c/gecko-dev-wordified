@@ -99,7 +99,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1199,7 +1199,10 @@ internalStats
 ;
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -1209,7 +1212,10 @@ MediaPipeline
 >
 pipelines
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 NrIceCtx
 >
@@ -2007,7 +2013,10 @@ support
 external
 linkage
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DtlsIdentity
 >
@@ -3960,7 +3969,10 @@ mCertificate
 ;
 #
 else
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DtlsIdentity
 >

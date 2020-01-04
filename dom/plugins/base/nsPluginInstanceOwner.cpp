@@ -6745,7 +6745,7 @@ if
 mIOSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >

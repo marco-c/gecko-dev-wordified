@@ -2108,7 +2108,7 @@ mPaintSequenceNumber
 APZTestData
 mApzTestData
 ;
-nsRefPtr
+RefPtr
 <
 ShadowLayerForwarder
 >
@@ -2116,7 +2116,7 @@ mForwarder
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 TextureClientPool
 >

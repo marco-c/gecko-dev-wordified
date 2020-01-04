@@ -138,7 +138,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -927,7 +927,10 @@ mMutex
 typedef
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DbEntry
 >
@@ -937,7 +940,10 @@ UnprotectedDbArray
 typedef
 ProtectedTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DbEntry
 >
@@ -974,7 +980,10 @@ StorageEntry
 typedef
 ProtectedTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 StorageEntry
 >

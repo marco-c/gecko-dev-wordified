@@ -850,7 +850,7 @@ aSource
 BUFFER_BOTH
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1453,7 +1453,7 @@ aSource
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3829,13 +3829,13 @@ GetBounds
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 destDTBuffer
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

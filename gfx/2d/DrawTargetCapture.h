@@ -910,7 +910,7 @@ uint32_t
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

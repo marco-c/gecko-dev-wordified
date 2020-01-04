@@ -803,7 +803,10 @@ std
 :
 vector
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 LibHandle
 >

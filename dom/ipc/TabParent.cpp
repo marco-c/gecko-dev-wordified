@@ -10960,7 +10960,10 @@ aWidth
 aHeight
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 gfx
 :
@@ -18559,7 +18562,7 @@ TabParent
 :
 TakeDragVisualization
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :

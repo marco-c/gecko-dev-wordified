@@ -12805,7 +12805,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -12819,7 +12819,7 @@ GetSurfaceForDescriptor
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

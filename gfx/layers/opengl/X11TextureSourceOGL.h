@@ -324,7 +324,7 @@ aType
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 CompositorOGL
 >
@@ -336,7 +336,7 @@ gfxXlibSurface
 >
 mSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

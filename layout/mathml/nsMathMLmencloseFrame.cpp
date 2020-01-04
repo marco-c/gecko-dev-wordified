@@ -4760,7 +4760,7 @@ case
 NOTATION_CIRCLE
 :
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -4811,7 +4811,7 @@ radius
 radius
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -5018,7 +5018,7 @@ Draw
 the
 arrow
 head
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -5155,7 +5155,7 @@ Close
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

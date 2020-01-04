@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -514,7 +514,7 @@ aValue
 ;
 }
 mutable
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -524,7 +524,7 @@ Path
 mPath
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 gfx
 :

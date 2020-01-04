@@ -2326,7 +2326,7 @@ will
 AddRef
 it
 .
-nsRefPtr
+RefPtr
 <
 IDWriteFactory
 >
@@ -2353,7 +2353,7 @@ IDWriteFactory
 *
 *
 )
-getter_AddRefs
+byRef
 (
 factory
 )
@@ -8489,7 +8489,7 @@ factory1
 EnumAdapters1
 (
 0
-getter_AddRefs
+byRef
 (
 mAdapter
 )
@@ -9780,7 +9780,7 @@ false
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -9871,7 +9871,7 @@ CreateTexture2D
 &
 desc
 NULL
-getter_AddRefs
+byRef
 (
 texture
 )
@@ -10021,7 +10021,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11ShaderResourceView
 >
@@ -10060,7 +10060,7 @@ CreateShaderResourceView
 (
 sharedTexture
 NULL
-getter_AddRefs
+byRef
 (
 sharedView
 )
@@ -10560,7 +10560,7 @@ Length
 (
 )
 D3D11_SDK_VERSION
-getter_AddRefs
+byRef
 (
 mD3D11Device
 )
@@ -10590,7 +10590,7 @@ AttemptD3D11DeviceCreation
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -10842,7 +10842,7 @@ Length
 (
 )
 D3D11_SDK_VERSION
-getter_AddRefs
+byRef
 (
 mD3D11Device
 )
@@ -11244,7 +11244,7 @@ Length
 (
 )
 D3D11_SDK_VERSION
-getter_AddRefs
+byRef
 (
 mD3D11ContentDevice
 )
@@ -11274,7 +11274,7 @@ AttemptD3D11ContentDeviceCreation
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -11558,7 +11558,7 @@ Length
 (
 )
 D3D11_SDK_VERSION
-getter_AddRefs
+byRef
 (
 mD3D11ImageBridgeDevice
 )
@@ -13282,7 +13282,7 @@ CreateD3D11DecoderDeviceHelper
 IDXGIAdapter1
 *
 aAdapter
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -13314,7 +13314,7 @@ Length
 (
 )
 D3D11_SDK_VERSION
-getter_AddRefs
+byRef
 (
 aDevice
 )
@@ -13372,7 +13372,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -13392,7 +13392,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >

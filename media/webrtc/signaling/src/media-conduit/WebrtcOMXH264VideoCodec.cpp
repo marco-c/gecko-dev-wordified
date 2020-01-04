@@ -704,7 +704,7 @@ Release
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -3459,7 +3459,7 @@ OnNewFrame
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -4067,7 +4067,7 @@ GonkNativeWindow
 >
 mNativeWindow
 ;
-nsRefPtr
+RefPtr
 <
 OutputDrain
 >
@@ -8247,7 +8247,7 @@ return
 WEBRTC_VIDEO_CODEC_UNINITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebrtcOMXDecoder
 >

@@ -483,7 +483,7 @@ DataSourceSurface
 CopySurface
 (
 const
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -491,7 +491,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -541,7 +541,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -760,7 +760,7 @@ IsFrameCaptureRequested
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -783,7 +783,7 @@ snapshot
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -944,7 +944,7 @@ HTMLCanvasElement
 const
 mOwningElement
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >
@@ -6161,7 +6161,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

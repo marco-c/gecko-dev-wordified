@@ -383,7 +383,7 @@ size
 format
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -457,7 +457,7 @@ size
 format
 )
 ;
-nsRefPtr
+RefPtr
 <
 VolatileBuffer
 >
@@ -1451,7 +1451,7 @@ mPaletteDepth
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2382,7 +2382,7 @@ SurfaceFormat
 R5G6B5
 )
 {
-nsRefPtr
+RefPtr
 <
 VolatileBuffer
 >
@@ -2404,7 +2404,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2473,7 +2473,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2919,7 +2919,7 @@ padding
 or
 undecoded
 area
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3052,7 +3052,7 @@ pattern
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3404,7 +3404,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3452,7 +3452,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4979,7 +4979,7 @@ IsValid
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5009,7 +5009,7 @@ if
 mImageSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

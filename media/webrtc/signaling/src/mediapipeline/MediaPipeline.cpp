@@ -731,12 +731,12 @@ UpdateTransport_m
 (
 int
 level
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 rtp_transport
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -776,12 +776,12 @@ UpdateTransport_s
 (
 int
 level
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
 rtp_transport
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -4724,7 +4724,7 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 :
@@ -5124,7 +5124,7 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 :
@@ -7645,7 +7645,7 @@ format
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7689,7 +7689,7 @@ failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8299,7 +8299,7 @@ MediaSegment
 *
 segment
 const
-nsRefPtr
+RefPtr
 <
 TrackAddedCallback
 >
@@ -8350,7 +8350,7 @@ MediaStreamListener
 *
 listener
 const
-nsRefPtr
+RefPtr
 <
 TrackAddedCallback
 >
@@ -8657,7 +8657,7 @@ MediaStreamListener
 listener_
 ;
 const
-nsRefPtr
+RefPtr
 <
 TrackAddedCallback
 >
@@ -8894,7 +8894,7 @@ MediaSegment
 segment
 )
 {
-nsRefPtr
+RefPtr
 <
 TrackAddedCallback
 >
@@ -8932,7 +8932,7 @@ source
 TrackID
 track_id
 const
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -9761,7 +9761,7 @@ time_stamp
 int64_t
 render_time
 const
-nsRefPtr
+RefPtr
 <
 Image
 >

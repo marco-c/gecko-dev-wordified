@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -524,7 +524,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageClient
 >
@@ -737,7 +737,7 @@ GetRecycleAllocator
 endif
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -1109,7 +1109,7 @@ img
 .
 mImage
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1591,7 +1591,7 @@ ImageFormat
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :

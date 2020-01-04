@@ -663,7 +663,7 @@ JsepSessionImpl
 AddTrack
 (
 const
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1236,7 +1236,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1260,7 +1260,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1473,7 +1473,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1498,7 +1498,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1523,7 +1523,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -1548,7 +1548,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -2502,7 +2502,7 @@ set
 direction
 etc
 .
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -5274,7 +5274,7 @@ NS_ERROR_FAILURE
 }
 AddTrack
 (
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -6130,7 +6130,7 @@ mTransports
 .
 push_back
 (
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -7154,7 +7154,7 @@ Close
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -7355,7 +7355,7 @@ SdpMediaSection
 &
 local
 const
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -8065,7 +8065,7 @@ SdpAttributeList
 &
 answer
 const
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -9961,7 +9961,7 @@ end
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -11251,7 +11251,7 @@ const
 SdpMediaSection
 &
 msection
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >

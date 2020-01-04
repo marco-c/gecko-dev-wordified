@@ -2465,7 +2465,7 @@ MediaStreamTrack
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 ProcessedMediaStream
 >
@@ -2568,7 +2568,7 @@ aTrack
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -2585,7 +2585,7 @@ MOZ_RELEASE_ASSERT
 addedDOMStream
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >

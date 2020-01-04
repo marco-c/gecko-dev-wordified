@@ -2374,7 +2374,7 @@ data
 and
 convert
 .
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2420,7 +2420,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

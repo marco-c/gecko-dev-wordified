@@ -131,7 +131,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -426,7 +426,10 @@ return
 0
 ;
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Zip
 >
@@ -546,7 +549,10 @@ GetDirectBufferCapacity
 buffer
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Zip
 >

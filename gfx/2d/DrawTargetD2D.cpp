@@ -365,7 +365,7 @@ Flush
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -426,7 +426,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 tmpTexture
 )
@@ -525,7 +525,7 @@ format
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -541,7 +541,7 @@ IDXGISurface
 *
 *
 )
-getter_AddRefs
+byRef
 (
 surf
 )
@@ -561,7 +561,7 @@ IID_IDXGISurface
 surf
 &
 props
-getter_AddRefs
+byRef
 (
 mOldSurfBitmap
 )
@@ -661,7 +661,7 @@ additional
 clipping
 information
 .
-nsRefPtr
+RefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -708,7 +708,7 @@ YMost
 )
 )
 )
-getter_AddRefs
+byRef
 (
 rectGeom
 )
@@ -805,7 +805,7 @@ mTransformDirty
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -844,13 +844,13 @@ mSize
 height
 )
 )
-getter_AddRefs
+byRef
 (
 rectGeom
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -863,13 +863,13 @@ factory
 >
 CreatePathGeometry
 (
-getter_AddRefs
+byRef
 (
 invClippedArea
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -880,7 +880,7 @@ invClippedArea
 >
 Open
 (
-getter_AddRefs
+byRef
 (
 sink
 )
@@ -904,7 +904,7 @@ Close
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1BitmapBrush
 >
@@ -931,7 +931,7 @@ D2D1
 BrushProperties
 (
 )
-getter_AddRefs
+byRef
 (
 brush
 )
@@ -1015,7 +1015,7 @@ dest
 surface
 data
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -1032,7 +1032,7 @@ is
 clipped
 to
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -1168,7 +1168,7 @@ MarkIndependent
 is
 running
 .
-nsRefPtr
+RefPtr
 <
 SourceSurfaceD2DTarget
 >
@@ -1417,7 +1417,7 @@ Flush
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1622,7 +1622,7 @@ Rect
 aSource
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -1711,7 +1711,7 @@ break
 default
 :
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2000,7 +2000,7 @@ height
 data
 stride
 props
-getter_AddRefs
+byRef
 (
 bitmap
 )
@@ -2147,7 +2147,7 @@ SourceSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Image
 >
@@ -2213,7 +2213,7 @@ DrawOptions
 aOptions
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -2339,7 +2339,7 @@ DrawOptions
 aOptions
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1DeviceContext
 >
@@ -2360,7 +2360,7 @@ ID2D1DeviceContext
 *
 *
 )
-getter_AddRefs
+byRef
 (
 dc
 )
@@ -2432,7 +2432,7 @@ ID2D1DeviceContext
 *
 *
 )
-getter_AddRefs
+byRef
 (
 dc
 )
@@ -2595,7 +2595,7 @@ DrawOptions
 aOptions
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -2707,7 +2707,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -2781,7 +2781,7 @@ CompositionOp
 aOperator
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -2910,7 +2910,7 @@ CreateRenderTargetView
 (
 mTempTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mTempRTView
 )
@@ -2949,7 +2949,7 @@ return
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID3D10RenderTargetView
 >
@@ -2957,7 +2957,7 @@ destRTView
 =
 mRTView
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -2966,13 +2966,13 @@ destTexture
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 maskTexture
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -3003,7 +3003,7 @@ CreateShaderResourceView
 (
 mCurrentClipMaskTexture
 nullptr
-getter_AddRefs
+byRef
 (
 maskSRView
 )
@@ -3360,7 +3360,7 @@ MiscFlags
 =
 D3D10_RESOURCE_MISC_GENERATE_MIPS
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -3376,7 +3376,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 mipTexture
 )
@@ -3595,7 +3595,7 @@ D3D10_BIND_RENDER_TARGET
 |
 D3D10_BIND_SHADER_RESOURCE
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -3611,7 +3611,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 tmpDSTexture
 )
@@ -3752,7 +3752,7 @@ CreateShaderResourceView
 (
 mipTexture
 nullptr
-getter_AddRefs
+byRef
 (
 srView
 )
@@ -3766,13 +3766,13 @@ GenerateMips
 srView
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10RenderTargetView
 >
 dsRTView
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -3785,7 +3785,7 @@ CreateRenderTargetView
 (
 tmpDSTexture
 nullptr
-getter_AddRefs
+byRef
 (
 dsRTView
 )
@@ -3798,7 +3798,7 @@ CreateShaderResourceView
 (
 tmpDSTexture
 nullptr
-getter_AddRefs
+byRef
 (
 dsSRView
 )
@@ -4340,19 +4340,19 @@ mSize
 .
 height
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10RenderTargetView
 >
 tmpRTView
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
 tmpSRView
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -4441,7 +4441,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 tmpTexture
 )
@@ -4454,7 +4454,7 @@ CreateRenderTargetView
 (
 tmpTexture
 nullptr
-getter_AddRefs
+byRef
 (
 tmpRTView
 )
@@ -4467,7 +4467,7 @@ CreateShaderResourceView
 (
 tmpTexture
 nullptr
-getter_AddRefs
+byRef
 (
 tmpSRView
 )
@@ -5853,7 +5853,7 @@ PopAxisAlignedClip
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -5890,7 +5890,7 @@ SurfaceFormat
 A8
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -5920,7 +5920,7 @@ D2D1
 BrushProperties
 (
 )
-getter_AddRefs
+byRef
 (
 brush
 )
@@ -6019,7 +6019,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -6115,7 +6115,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -6129,7 +6129,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6233,7 +6233,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -6247,7 +6247,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6421,7 +6421,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -6435,7 +6435,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6601,7 +6601,7 @@ mAntialiasMode
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -7084,7 +7084,7 @@ params
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -7194,7 +7194,7 @@ PrepareForDrawing
 rt
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -7208,7 +7208,7 @@ aOptions
 mAlpha
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -7222,7 +7222,7 @@ aMask
 0f
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Layer
 >
@@ -7403,7 +7403,7 @@ mCurrentClippedGeometry
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 PathD2D
 >
@@ -7631,7 +7631,7 @@ dd316860
 29
 .
 aspx
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -7696,7 +7696,7 @@ Close
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -7896,7 +7896,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SourceSurfaceD2D
 >
@@ -7980,7 +7980,7 @@ SurfaceType
 D2D1_DRAWTARGET
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7997,7 +7997,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8040,7 +8040,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurfaceD2D
 >
@@ -8168,7 +8168,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurfaceD2D
 >
@@ -8254,7 +8254,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
@@ -8329,7 +8329,7 @@ aFillRule
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -8345,7 +8345,7 @@ factory
 >
 CreatePathGeometry
 (
-getter_AddRefs
+byRef
 (
 path
 )
@@ -8386,7 +8386,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -8399,7 +8399,7 @@ path
 >
 Open
 (
-getter_AddRefs
+byRef
 (
 sink
 )
@@ -8553,7 +8553,7 @@ color
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -8574,7 +8574,7 @@ D2DExtend
 (
 aExtendMode
 )
-getter_AddRefs
+byRef
 (
 stopCollection
 )
@@ -8647,7 +8647,7 @@ FilterType
 aType
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1DeviceContext
 >
@@ -8666,7 +8666,7 @@ ID2D1DeviceContext
 *
 *
 )
-getter_AddRefs
+byRef
 (
 dc
 )
@@ -8842,7 +8842,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 mTexture
 )
@@ -8986,7 +8986,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10Device
 >
@@ -8997,7 +8997,7 @@ mTexture
 >
 GetDevice
 (
-getter_AddRefs
+byRef
 (
 device
 )
@@ -9015,7 +9015,7 @@ ID3D10Device1
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mDevice
 )
@@ -9233,7 +9233,7 @@ d2deffect
 0
 mDevice
 nullptr
-getter_AddRefs
+byRef
 (
 mPrivateData
 -
@@ -9366,7 +9366,7 @@ pIAInputSignature
 passDesc
 .
 IAInputSignatureSize
-getter_AddRefs
+byRef
 (
 mPrivateData
 -
@@ -9480,7 +9480,7 @@ CreateBuffer
 bufferDesc
 &
 data
-getter_AddRefs
+byRef
 (
 mPrivateData
 -
@@ -9570,7 +9570,7 @@ GetCachedLayer
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Layer
 >
@@ -9597,7 +9597,7 @@ mRT
 >
 CreateLayer
 (
-getter_AddRefs
+byRef
 (
 mCachedLayers
 [
@@ -9629,7 +9629,7 @@ mRT
 >
 CreateLayer
 (
-getter_AddRefs
+byRef
 (
 layer
 )
@@ -10462,7 +10462,7 @@ CreateBlendState
 (
 &
 desc
-getter_AddRefs
+byRef
 (
 mPrivateData
 -
@@ -10983,13 +10983,13 @@ TopLeftY
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 tmpTexture
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -11178,7 +11178,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 tmpTexture
 )
@@ -11279,7 +11279,7 @@ CreateShaderResourceView
 (
 tmpTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mBckSRView
 )
@@ -11909,7 +11909,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -11950,7 +11950,7 @@ represents
 the
 path
 .
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -12275,7 +12275,7 @@ continue
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -12288,13 +12288,13 @@ factory
 >
 CreatePathGeometry
 (
-getter_AddRefs
+byRef
 (
 newGeom
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -12305,7 +12305,7 @@ newGeom
 >
 Open
 (
-getter_AddRefs
+byRef
 (
 currentSink
 )
@@ -12344,7 +12344,7 @@ currentSink
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -12467,7 +12467,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -12503,13 +12503,13 @@ aFormat
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
 surface
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -12527,7 +12527,7 @@ IDXGISurface
 *
 *
 )
-getter_AddRefs
+byRef
 (
 surface
 )
@@ -12639,7 +12639,7 @@ CreateDxgiSurfaceRenderTarget
 (
 surface
 props
-getter_AddRefs
+byRef
 (
 rt
 )
@@ -12766,7 +12766,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 mTempTexture
 )
@@ -12829,7 +12829,7 @@ CreateShaderResourceView
 (
 mTempTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mSRView
 )
@@ -12885,7 +12885,7 @@ CreateRenderTargetView
 (
 mTexture
 nullptr
-getter_AddRefs
+byRef
 (
 mRTView
 )
@@ -13147,7 +13147,7 @@ mCurrentClipBounds
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -13191,7 +13191,7 @@ CreateTexture2D
 &
 desc
 nullptr
-getter_AddRefs
+byRef
 (
 mCurrentClipMaskTexture
 )
@@ -13223,7 +13223,7 @@ ClipMask
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -13262,7 +13262,7 @@ ClipMask
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -13286,7 +13286,7 @@ ColorF
 :
 White
 )
-getter_AddRefs
+byRef
 (
 brush
 )
@@ -13360,7 +13360,7 @@ aOptions
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >
@@ -13383,7 +13383,7 @@ mRT
 >
 GetTextRenderingParams
 (
-getter_AddRefs
+byRef
 (
 params
 )
@@ -13590,7 +13590,7 @@ aFont
 autoRun
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteGlyphRunAnalysis
 >
@@ -13616,7 +13616,7 @@ renderMode
 measureMode
 0
 0
-getter_AddRefs
+byRef
 (
 analysis
 )
@@ -13779,7 +13779,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -13801,7 +13801,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -13816,7 +13816,7 @@ CreateShaderResourceView
 (
 tex
 nullptr
-getter_AddRefs
+byRef
 (
 srView
 )
@@ -14113,7 +14113,7 @@ clipBounds
 &
 clipBoundsStorage
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -14124,7 +14124,7 @@ GetClippedGeometry
 clipBounds
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -14175,7 +14175,7 @@ rectBounds
 y
 )
 )
-getter_AddRefs
+byRef
 (
 rectGeom
 )
@@ -14233,7 +14233,7 @@ EnsureClipMaskTexture
 clipBounds
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -14248,7 +14248,7 @@ CreateShaderResourceView
 (
 mCurrentClipMaskTexture
 nullptr
-getter_AddRefs
+byRef
 (
 srViewMask
 )
@@ -14388,7 +14388,7 @@ Apply
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10RenderTargetView
 >
@@ -14405,7 +14405,7 @@ CreateRenderTargetView
 (
 mTexture
 nullptr
-getter_AddRefs
+byRef
 (
 rtView
 )
@@ -14470,7 +14470,7 @@ aPattern
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14499,7 +14499,7 @@ ColorF
 .
 0f
 )
-getter_AddRefs
+byRef
 (
 colBrush
 )
@@ -14528,7 +14528,7 @@ PatternType
 COLOR
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14581,7 +14581,7 @@ BrushProperties
 (
 aAlpha
 )
-getter_AddRefs
+byRef
 (
 colBrush
 )
@@ -14610,7 +14610,7 @@ PatternType
 LINEAR_GRADIENT
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1LinearGradientBrush
 >
@@ -14691,7 +14691,7 @@ pat
 mEnd
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14755,7 +14755,7 @@ BrushProperties
 (
 aAlpha
 )
-getter_AddRefs
+byRef
 (
 colBrush
 )
@@ -14812,7 +14812,7 @@ stops
 -
 >
 mStopCollection
-getter_AddRefs
+byRef
 (
 gradBrush
 )
@@ -14841,7 +14841,7 @@ PatternType
 RADIAL_GRADIENT
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1RadialGradientBrush
 >
@@ -14976,7 +14976,7 @@ stops
 -
 >
 mStopCollection
-getter_AddRefs
+byRef
 (
 gradBrush
 )
@@ -15005,7 +15005,7 @@ PatternType
 SURFACE
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1BitmapBrush
 >
@@ -15055,7 +15055,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -15069,7 +15069,7 @@ pat
 >
 mMatrix
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -15131,7 +15131,7 @@ pat
 >
 mSamplingRect
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
@@ -15323,7 +15323,7 @@ break
 default
 :
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15423,7 +15423,7 @@ if
 bitmap
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -15442,7 +15442,7 @@ ColorF
 0
 0
 )
-getter_AddRefs
+byRef
 (
 colBrush
 )
@@ -15507,7 +15507,7 @@ D2DMatrix
 mat
 )
 )
-getter_AddRefs
+byRef
 (
 bmBrush
 )
@@ -16075,7 +16075,7 @@ SysMemPitch
 *
 4
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -16090,7 +16090,7 @@ CreateTexture2D
 desc
 &
 data
-getter_AddRefs
+byRef
 (
 tex
 )
@@ -16495,7 +16495,7 @@ pSysMem
 =
 alignedTextureData
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -16512,7 +16512,7 @@ CreateTexture2D
 desc
 &
 data
-getter_AddRefs
+byRef
 (
 tex
 )
@@ -16687,7 +16687,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -16698,7 +16698,7 @@ CreateGradientTexture
 stops
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -16711,7 +16711,7 @@ CreateShaderResourceView
 (
 tex
 nullptr
-getter_AddRefs
+byRef
 (
 srView
 )
@@ -17441,7 +17441,7 @@ factory
 "
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Factory1
 >
@@ -17459,7 +17459,7 @@ ID2D1Factory1
 *
 *
 )
-getter_AddRefs
+byRef
 (
 factoryD2D1
 )
@@ -17499,7 +17499,7 @@ if
 mFactory
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Factory1
 >
@@ -17518,7 +17518,7 @@ ID2D1Factory1
 *
 *
 )
-getter_AddRefs
+byRef
 (
 factoryD2D1
 )
@@ -17833,7 +17833,7 @@ D2D1_LAYER_OPTIONS1_IGNORE_ALPHA
 D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1DeviceContext
 >
@@ -17859,7 +17859,7 @@ ID2D1DeviceContext
 *
 *
 )
-getter_AddRefs
+byRef
 (
 dc
 )

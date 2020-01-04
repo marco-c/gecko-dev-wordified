@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -261,7 +261,7 @@ for
 our
 purposes
 .
-nsRefPtr
+RefPtr
 <
 SharedThreadPool
 >

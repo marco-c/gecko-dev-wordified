@@ -278,7 +278,7 @@ AudioInfo
 &
 mInfo
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

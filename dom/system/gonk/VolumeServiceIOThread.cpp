@@ -376,7 +376,7 @@ volIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >

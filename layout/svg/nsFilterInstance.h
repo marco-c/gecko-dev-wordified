@@ -526,7 +526,10 @@ gfxRect
 aBBox
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >
@@ -1179,7 +1182,10 @@ ExtractDescriptionAndAdditionalImages
 (
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >
@@ -1494,7 +1500,10 @@ BuildSourceImage
 /
 BuildSourcePaint
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >
@@ -2335,7 +2344,10 @@ mPaintTransform
 ;
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >

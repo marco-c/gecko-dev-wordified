@@ -984,7 +984,7 @@ to
 upload
 data
 .
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -995,7 +995,7 @@ updateSurface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

@@ -634,7 +634,7 @@ std
 map
 <
 uint64_t
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -701,7 +701,7 @@ std
 map
 <
 uint64_t
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -876,7 +876,7 @@ std
 map
 <
 uint64_t
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >

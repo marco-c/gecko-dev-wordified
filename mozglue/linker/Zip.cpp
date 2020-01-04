@@ -348,7 +348,10 @@ size_t
 size
 )
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Zip
 >
@@ -1567,7 +1570,10 @@ path
 )
 )
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Zip
 >

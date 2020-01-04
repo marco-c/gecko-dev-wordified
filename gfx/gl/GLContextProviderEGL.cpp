@@ -4883,7 +4883,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 GLContextEGL
 >
@@ -5365,7 +5365,7 @@ canOffscreenUseHeadless
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 GLContext
 >
