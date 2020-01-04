@@ -633,10 +633,6 @@ nodeStream
 AllocateInputPort
 (
 mStream
-AudioNodeStream
-:
-:
-AUDIO_TRACK
 )
 ;
 }

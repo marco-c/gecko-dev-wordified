@@ -147,13 +147,6 @@ h
 #
 include
 "
-AudioStreamTrack
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -301,7 +294,7 @@ AllocateInputPort
 aMediaStream
 -
 >
-GetPlaybackStream
+GetStream
 (
 )
 )

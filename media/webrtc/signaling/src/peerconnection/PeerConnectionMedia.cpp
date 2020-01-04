@@ -7571,7 +7571,7 @@ GetMediaStream
 )
 -
 >
-GetInputStream
+GetStream
 (
 )
 -

@@ -250,17 +250,11 @@ AudioCaptureStream
 DOMMediaStream
 *
 aWrapper
-TrackID
-aTrackId
 )
 :
 ProcessedMediaStream
 (
 aWrapper
-)
-mTrackId
-(
-aTrackId
 )
 mTrackCreated
 (
@@ -340,7 +334,7 @@ track
 =
 EnsureTrack
 (
-mTrackId
+AUDIO_TRACK
 )
 ;
 /
@@ -399,7 +393,7 @@ NotifyQueuedTrackChanges
 Graph
 (
 )
-mTrackId
+AUDIO_TRACK
 0
 MediaStreamListener
 :
@@ -1009,7 +1003,7 @@ track
 .
 EnsureTrack
 (
-mTrackId
+AUDIO_TRACK
 )
 -
 >

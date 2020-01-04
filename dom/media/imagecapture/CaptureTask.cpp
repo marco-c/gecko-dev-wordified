@@ -427,7 +427,7 @@ stream
 domStream
 -
 >
-GetPlaybackStream
+GetStream
 (
 )
 ;
@@ -501,7 +501,7 @@ stream
 domStream
 -
 >
-GetPlaybackStream
+GetStream
 (
 )
 ;
@@ -556,11 +556,6 @@ const
 MediaSegment
 &
 aQueuedMedia
-MediaStream
-*
-aInputStream
-TrackID
-aInputTrackID
 )
 {
 if

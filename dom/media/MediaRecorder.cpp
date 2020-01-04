@@ -3287,6 +3287,7 @@ mRecorder
 GetSourceMediaStream
 (
 )
+0
 )
 ;
 DOMMediaStream
@@ -4934,7 +4935,6 @@ aSrcAudioNode
 GetStream
 (
 )
-TRACK_ANY
 0
 aSrcOutput
 )
@@ -6996,7 +6996,7 @@ return
 mDOMStream
 -
 >
-GetPlaybackStream
+GetStream
 (
 )
 ;

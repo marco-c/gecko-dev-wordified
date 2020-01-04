@@ -1334,7 +1334,7 @@ mOutputStreamDriver
 new
 AutoDriver
 (
-GetInputStream
+GetStream
 (
 )
 -
@@ -1397,7 +1397,7 @@ mOutputStreamDriver
 new
 TimerDriver
 (
-GetInputStream
+GetStream
 (
 )
 -
