@@ -1118,10 +1118,6 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
@@ -1775,10 +1771,6 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
@@ -2287,10 +2279,6 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
@@ -8439,10 +8427,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 MOZ_ASSERT

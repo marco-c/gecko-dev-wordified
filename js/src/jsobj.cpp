@@ -24733,10 +24733,6 @@ ScriptFrameIter
 i
 (
 cx
-ScriptFrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if

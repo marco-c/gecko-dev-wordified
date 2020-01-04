@@ -7800,10 +7800,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 RootedScript

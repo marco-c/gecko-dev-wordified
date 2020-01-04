@@ -4843,10 +4843,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
@@ -9295,10 +9291,6 @@ FrameIter
 frameIter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
@@ -9671,10 +9663,6 @@ FrameIter
 frameIter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 MOZ_ASSERT

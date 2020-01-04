@@ -36876,10 +36876,6 @@ NonBuiltinFrameIter
 i
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
