@@ -1082,7 +1082,7 @@ this
 )
 ;
 }
-uint16_t
+uint32_t
 mSpecialBSizeReflow
 :
 1
@@ -1115,7 +1115,7 @@ not
 have
 computed
 bsizes
-uint16_t
+uint32_t
 mNextInFlowUntouched
 :
 1
@@ -1142,7 +1142,7 @@ descendants
 /
 is
 changing
-uint16_t
+uint32_t
 mIsTopOfPage
 :
 1
@@ -1189,7 +1189,7 @@ avoid
 infinite
 loops
 .
-uint16_t
+uint32_t
 mAssumingHScrollbar
 :
 1
@@ -1210,7 +1210,7 @@ assuming
 a
 horizontal
 scrollbar
-uint16_t
+uint32_t
 mAssumingVScrollbar
 :
 1
@@ -1231,7 +1231,7 @@ assuming
 a
 vertical
 scrollbar
-uint16_t
+uint32_t
 mIsIResize
 :
 1
@@ -1259,7 +1259,7 @@ size
 than
 before
 ?
-uint16_t
+uint32_t
 mIsBResize
 :
 1
@@ -1309,7 +1309,7 @@ different
 /
 basis
 ?
-uint16_t
+uint32_t
 mTableIsSplittable
 :
 1
@@ -1334,7 +1334,7 @@ insider
 a
 column
 frame
-uint16_t
+uint32_t
 mHeightDependsOnAncestorCell
 :
 1
@@ -1354,7 +1354,7 @@ table
 -
 cell
 ?
-uint16_t
+uint32_t
 mIsColumnBalancing
 :
 1
@@ -1365,7 +1365,7 @@ nsColumnSetFrame
 is
 balancing
 columns
-uint16_t
+uint32_t
 mIsFlexContainerMeasuringHeight
 :
 1
@@ -1387,7 +1387,7 @@ its
 intrinsic
 height
 .
-uint16_t
+uint32_t
 mDummyParentReflowInput
 :
 1
@@ -1415,7 +1415,7 @@ of
 a
 real
 one
-uint16_t
+uint32_t
 mMustReflowPlaceholders
 :
 1
@@ -1474,7 +1474,7 @@ its
 placeholder
 children
 .
-uint16_t
+uint32_t
 mShrinkWrap
 :
 1
@@ -1486,7 +1486,7 @@ the
 COMPUTE_SIZE_SHRINK_WRAP
 ctor
 flag
-uint16_t
+uint32_t
 mUseAutoBSize
 :
 1
@@ -1498,7 +1498,7 @@ the
 COMPUTE_SIZE_USE_AUTO_BSIZE
 ctor
 flag
-uint16_t
+uint32_t
 mStaticPosIsCBOrigin
 :
 1
@@ -4336,6 +4336,9 @@ nsIFrame
 *
 mDiscoveredClearance
 ;
+ReflowInputFlags
+mFlags
+;
 /
 /
 This
@@ -4363,9 +4366,6 @@ tree
 .
 int16_t
 mReflowDepth
-;
-ReflowInputFlags
-mFlags
 ;
 /
 /

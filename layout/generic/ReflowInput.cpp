@@ -1272,6 +1272,12 @@ mOrthogonalLimit
 (
 NS_UNCONSTRAINEDSIZE
 )
+mFlags
+(
+aParentReflowInput
+.
+mFlags
+)
 mReflowDepth
 (
 aParentReflowInput
@@ -1279,12 +1285,6 @@ aParentReflowInput
 mReflowDepth
 +
 1
-)
-mFlags
-(
-aParentReflowInput
-.
-mFlags
 )
 {
 MOZ_ASSERT
