@@ -1134,6 +1134,7 @@ s
 arena
 .
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleFont
 {
 nsStyleFont
@@ -2887,6 +2888,7 @@ endif
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleColor
 {
 explicit
@@ -5209,6 +5211,7 @@ count_
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleBackground
 {
 explicit
@@ -5526,6 +5529,7 @@ define
 NS_SPACING_BORDER
 2
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleMargin
 {
 explicit
@@ -5738,6 +5742,7 @@ mCachedMargin
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStylePadding
 {
 explicit
@@ -7022,6 +7027,7 @@ NS_STYLE_BORDER_STYLE_HIDDEN
 ;
 }
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleBorder
 {
 explicit
@@ -8504,6 +8510,7 @@ delete
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleOutline
 {
 explicit
@@ -9038,6 +9045,7 @@ nsStyleQuoteValues
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleList
 {
 explicit
@@ -10401,6 +10409,7 @@ mRepeatAutoIndex
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStylePosition
 {
 explicit
@@ -12328,6 +12337,7 @@ specified
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleTextReset
 {
 explicit
@@ -12754,6 +12764,7 @@ currentColor
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleText
 {
 explicit
@@ -14114,6 +14125,7 @@ mOrientation
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleVisibility
 {
 explicit
@@ -15704,6 +15716,7 @@ infinite
 namespace
 mozilla
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleDisplay
 {
 explicit
@@ -17490,6 +17503,7 @@ const
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleTable
 {
 explicit
@@ -17688,6 +17702,7 @@ col
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleTableBorder
 {
 explicit
@@ -18154,6 +18169,7 @@ nullptr
 ;
 }
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleContent
 {
 explicit
@@ -18704,6 +18720,7 @@ mResetCount
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleUIReset
 {
 explicit
@@ -19067,6 +19084,7 @@ mImage
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleUserInterface
 {
 explicit
@@ -19385,6 +19403,7 @@ const
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleXUL
 {
 explicit
@@ -19634,6 +19653,7 @@ h
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleColumn
 {
 explicit
@@ -20104,6 +20124,7 @@ aOther
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleSVG
 {
 explicit
@@ -21590,6 +21611,7 @@ Type
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleSVGReset
 {
 explicit
@@ -21852,6 +21874,7 @@ h
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleVariables
 {
 explicit
@@ -22015,6 +22038,7 @@ mVariables
 }
 ;
 struct
+MOZ_NEEDS_MEMMOVABLE_MEMBERS
 nsStyleEffects
 {
 explicit
