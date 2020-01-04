@@ -211,6 +211,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+TextureClientRecycleAllocator
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h
