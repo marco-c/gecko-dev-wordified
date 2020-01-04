@@ -25380,11 +25380,6 @@ for
 the
 elements
 .
-if
-(
-aChild
-)
-{
 for
 (
 auto
@@ -25460,7 +25455,6 @@ Key
 )
 )
 ;
-}
 }
 }
 bool
