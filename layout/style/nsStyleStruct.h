@@ -20991,7 +20991,10 @@ mBoxAlign
 [
 reset
 ]
-uint8_t
+mozilla
+:
+:
+StyleBoxDirection
 mBoxDirection
 ;
 /
@@ -20999,10 +21002,6 @@ mBoxDirection
 [
 reset
 ]
-see
-nsStyleConsts
-.
-h
 uint8_t
 mBoxOrient
 ;

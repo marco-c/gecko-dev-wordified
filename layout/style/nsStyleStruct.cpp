@@ -4692,7 +4692,10 @@ Stretch
 )
 mBoxDirection
 (
-NS_STYLE_BOX_DIRECTION_NORMAL
+StyleBoxDirection
+:
+:
+Normal
 )
 mBoxOrient
 (
