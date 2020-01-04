@@ -192,17 +192,6 @@ PCompositableChild
 h
 "
 #
-include
-"
-mozilla
-/
-layers
-/
-TextureClientRecycleAllocator
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
