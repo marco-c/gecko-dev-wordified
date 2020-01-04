@@ -1296,7 +1296,7 @@ InFrameSwap
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 GetOriginAttributes
 (
 )

@@ -3702,7 +3702,7 @@ public
 PropagateSoftUpdateRunnable
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -3771,7 +3771,7 @@ PropagateSoftUpdateRunnable
 {
 }
 const
-OriginAttributes
+PrincipalOriginAttributes
 mOriginAttributes
 ;
 const
@@ -10397,7 +10397,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 #
 else
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -10564,7 +10564,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 #
 else
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -10670,7 +10670,7 @@ nsAString
 aBehavior
 )
 {
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -11274,7 +11274,7 @@ ServiceWorkerManager
 GetActiveWorkerInfoForScope
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -14404,7 +14404,7 @@ ServiceWorkerManager
 GetServiceWorkerRegistrationInfo
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIURI
@@ -16939,7 +16939,7 @@ ServiceWorkerManager
 PrepareFetchEvent
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIDocument
@@ -17392,7 +17392,7 @@ ServiceWorkerManager
 IsAvailable
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIURI
@@ -18028,7 +18028,7 @@ ServiceWorkerManager
 SoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -20848,7 +20848,7 @@ ServiceWorkerManager
 :
 RemoveAllRegistrations
 (
-OriginAttributes
+PrincipalOriginAttributes
 *
 aParams
 )
@@ -22208,7 +22208,7 @@ XRE_IsParentProcess
 )
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 MOZ_ALWAYS_TRUE
@@ -22420,7 +22420,7 @@ AssertIsOnMainThread
 (
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -22464,7 +22464,7 @@ ServiceWorkerManager
 PropagateSoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
