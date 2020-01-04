@@ -676,6 +676,11 @@ setClipToPadding
 false
 )
 ;
+setVerticalFadingEdgeEnabled
+(
+false
+)
+;
 final
 Resources
 resources
