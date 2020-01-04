@@ -1664,7 +1664,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5202,7 +5202,7 @@ i
 -
 i
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5323,7 +5323,7 @@ aType
 name
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5408,7 +5408,7 @@ nsAString
 aType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5478,7 +5478,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5542,7 +5542,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -5647,7 +5647,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -6859,7 +6859,7 @@ SetLoadGroup
 loadGroup
 )
 ;
-RefPtr
+nsRefPtr
 <
 BeaconStreamListener
 >
@@ -6924,7 +6924,7 @@ parsedCharset
 ;
 rv
 =
-NS_ParseContentType
+NS_ParseRequestContentType
 (
 mimeType
 contentType
@@ -6936,7 +6936,7 @@ if
 crossOrigin
 &
 &
-contentType
+mimeType
 .
 Length
 (
@@ -7877,7 +7877,7 @@ do_QueryInterface
 mWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8077,7 +8077,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -8129,7 +8129,7 @@ promise
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8217,7 +8217,7 @@ do_QueryInterface
 mWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8362,7 +8362,7 @@ GetSingleton
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8631,7 +8631,7 @@ do_QueryInterface
 mWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -9470,7 +9470,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 power
 :
@@ -9775,7 +9775,7 @@ MozTCPSocket
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 LegacyMozTCPSocket
 >
@@ -9969,7 +9969,7 @@ promise
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -10229,7 +10229,7 @@ GetGamepads
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -10354,7 +10354,7 @@ do_QueryInterface
 mWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -10401,7 +10401,7 @@ get
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRDevice
 >
@@ -11375,7 +11375,7 @@ mWindow
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerContainer
 >
@@ -13567,7 +13567,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HasDataStoreSupportRunnable
 >
@@ -15277,7 +15277,7 @@ do_QueryInterface
 mWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >

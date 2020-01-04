@@ -1194,7 +1194,7 @@ bool
 aLoadedAsData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLDocument
 >
@@ -7929,7 +7929,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -8107,7 +8107,7 @@ nsAutoCString
 actualType
 dummy
 ;
-NS_ParseContentType
+NS_ParseRequestContentType
 (
 NS_ConvertUTF16toUTF8
 (
@@ -14513,7 +14513,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHTMLDocument
 >
@@ -14747,7 +14747,7 @@ if
 editor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -20917,7 +20917,7 @@ document
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHTMLDocument
 >

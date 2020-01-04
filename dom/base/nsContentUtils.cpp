@@ -2713,7 +2713,7 @@ like
 PLDHashEntryStub
 public
 :
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -3014,7 +3014,7 @@ URI
 or
 not
 .
-RefPtr
+nsRefPtr
 <
 nsNullPrincipal
 >
@@ -9789,7 +9789,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -17612,7 +17612,7 @@ aRequest
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -23115,7 +23115,7 @@ if
 entry
 )
 {
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -23611,7 +23611,7 @@ if
 isHTML
 )
 {
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -25444,7 +25444,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -34444,7 +34444,7 @@ malloc
 blobLen
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -36317,7 +36317,7 @@ if
 widget
 )
 {
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
@@ -37900,7 +37900,7 @@ olc
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -40306,7 +40306,7 @@ unused
 nsresult
 rv
 =
-NS_ParseContentType
+NS_ParseRequestContentType
 (
 aHeaderValue
 contentType
@@ -42031,6 +42031,9 @@ if
 surface
 )
 {
+mozilla
+:
+:
 RefPtr
 <
 mozilla
