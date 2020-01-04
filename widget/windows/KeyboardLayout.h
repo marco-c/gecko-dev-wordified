@@ -404,9 +404,6 @@ final
 {
 public
 :
-uint32_t
-mLength
-;
 UniCharsAndModifiers
 (
 )
@@ -531,6 +528,16 @@ aIndex
 ]
 ;
 }
+size_t
+Length
+(
+)
+const
+{
+return
+mLength
+;
+}
 void
 FillModifiers
 (
@@ -649,6 +656,9 @@ mModifiers
 [
 5
 ]
+;
+size_t
+mLength
 ;
 }
 ;
