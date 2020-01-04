@@ -20787,6 +20787,7 @@ __init__
 self
 descriptor
 properties
+haveUnscopables
 )
 :
         
@@ -20863,6 +20864,12 @@ self
 properties
 =
 properties
+        
+self
+.
+haveUnscopables
+=
+haveUnscopables
     
 def
 definition_body
@@ -21944,6 +21951,10 @@ chromeProperties
 name
 }
 aDefineOnGlobal
+                                        
+{
+unscopableNames
+}
 )
 ;
             
@@ -22012,6 +22023,20 @@ name
 '
 if
 needInterfaceObject
+else
+"
+nullptr
+"
+            
+unscopableNames
+=
+"
+unscopableNames
+"
+if
+self
+.
+haveUnscopables
 else
 "
 nullptr
@@ -95373,6 +95398,8 @@ CGCreateInterfaceObjectsMethod
 (
 descriptor
 properties
+                                                       
+haveUnscopables
 )
 )
         
