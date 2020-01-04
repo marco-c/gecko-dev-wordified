@@ -132,11 +132,11 @@ jsm
 }
 )
 ;
-loader
-.
-lazyRequireGetter
+const
+Services
+=
+require
 (
-this
 "
 Services
 "
