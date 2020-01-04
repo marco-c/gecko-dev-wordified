@@ -458,7 +458,7 @@ mHalign
 ;
 }
 NS_IMETHOD
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

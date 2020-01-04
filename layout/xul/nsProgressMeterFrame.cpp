@@ -475,7 +475,7 @@ NS_IMETHODIMP
 nsProgressMeterFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -527,7 +527,7 @@ return
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )

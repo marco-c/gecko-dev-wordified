@@ -58760,7 +58760,7 @@ nsresult
 nsFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

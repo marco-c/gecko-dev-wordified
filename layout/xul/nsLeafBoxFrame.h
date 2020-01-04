@@ -464,7 +464,7 @@ false
 protected
 :
 NS_IMETHOD
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

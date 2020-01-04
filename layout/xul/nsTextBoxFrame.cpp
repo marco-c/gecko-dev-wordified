@@ -5041,7 +5041,7 @@ NS_IMETHODIMP
 nsTextBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -5095,7 +5095,7 @@ rv
 nsLeafBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aBoxLayoutState
 )

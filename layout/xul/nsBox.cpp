@@ -849,7 +849,7 @@ NS_IMETHODIMP
 nsBox
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -2466,7 +2466,7 @@ aState
 box
 -
 >
-DoLayout
+DoXULLayout
 (
 aState
 )

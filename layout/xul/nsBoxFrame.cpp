@@ -5096,7 +5096,7 @@ NS_IMETHODIMP
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

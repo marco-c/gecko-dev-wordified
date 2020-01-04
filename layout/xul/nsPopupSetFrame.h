@@ -255,7 +255,7 @@ const
 override
 ;
 NS_IMETHOD
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

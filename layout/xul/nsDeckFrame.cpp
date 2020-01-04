@@ -1003,7 +1003,7 @@ NS_IMETHODIMP
 nsDeckFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -1063,7 +1063,7 @@ rv
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )

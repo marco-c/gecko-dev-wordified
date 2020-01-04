@@ -9462,7 +9462,7 @@ NS_IMETHODIMP
 nsXULScrollFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -9496,7 +9496,7 @@ flags
 nsBox
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )
