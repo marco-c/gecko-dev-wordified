@@ -1428,13 +1428,6 @@ AsmJSIonExitRegE1
 =
 rdi
 ;
-static
-constexpr
-Register
-AsmJSIonExitRegE2
-=
-rbx
-;
 /
 /
 Registers

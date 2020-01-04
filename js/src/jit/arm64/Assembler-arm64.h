@@ -1151,13 +1151,6 @@ AsmJSIonExitRegE1
 =
 r1
 ;
-static
-constexpr
-Register
-AsmJSIonExitRegE2
-=
-r2
-;
 /
 /
 Registers

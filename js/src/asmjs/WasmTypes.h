@@ -5633,8 +5633,8 @@ ExpD
 LogD
 PowD
 ATan2D
-Runtime
-RuntimeInterruptUint32
+Context
+InterruptUint32
 ReportOverRecursed
 HandleExecutionInterrupt
 HandleTrap

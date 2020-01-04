@@ -943,13 +943,6 @@ AsmJSIonExitRegE1
 =
 eax
 ;
-static
-constexpr
-Register
-AsmJSIonExitRegE2
-=
-ebx
-;
 /
 /
 Registers
