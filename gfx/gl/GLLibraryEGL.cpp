@@ -874,10 +874,11 @@ care
 )
 if
 (
+!
 gfxPrefs
 :
 :
-LayersOffMainThreadCompositionEnabled
+LayersOffMainThreadCompositionForceDisabled
 (
 )
 &
