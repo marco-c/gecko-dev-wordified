@@ -674,6 +674,7 @@ IsEmpty
 )
 ;
 }
+virtual
 void
 RemoveAnimation
 (

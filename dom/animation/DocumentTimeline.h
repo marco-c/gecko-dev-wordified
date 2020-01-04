@@ -362,6 +362,15 @@ aAnimation
 )
 override
 ;
+void
+RemoveAnimation
+(
+Animation
+*
+aAnimation
+)
+override
+;
 /
 /
 nsARefreshObserver
