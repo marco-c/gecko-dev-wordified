@@ -21342,7 +21342,7 @@ enough
 to
 just
 call
-Layout
+XULLayout
 or
 SyncLayout
 on
@@ -21383,7 +21383,7 @@ false
 0
 ;
 nsresult
-Layout
+XULLayout
 (
 nsBoxLayoutState
 &

@@ -237,7 +237,7 @@ aState
 override
 ;
 NS_IMETHOD
-Layout
+XULLayout
 (
 nsIFrame
 *

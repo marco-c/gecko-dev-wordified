@@ -3121,7 +3121,7 @@ GetRect
 )
 )
 ;
-Layout
+XULLayout
 (
 aState
 )

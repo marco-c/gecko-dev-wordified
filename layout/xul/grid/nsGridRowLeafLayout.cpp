@@ -1694,7 +1694,7 @@ NS_IMETHODIMP
 nsGridRowLeafLayout
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *
@@ -1708,7 +1708,7 @@ return
 nsGridRowLayout
 :
 :
-Layout
+XULLayout
 (
 aBox
 aBoxLayoutState

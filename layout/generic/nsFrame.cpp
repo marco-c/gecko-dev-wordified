@@ -60561,7 +60561,7 @@ layout
 calls
 SetRect
 before
-Layout
+XULLayout
 whereas
 non
 -
@@ -67419,7 +67419,7 @@ mIndent
 printf
 (
 "
-Layout
+XULLayout
 \
 n
 "
@@ -68305,7 +68305,7 @@ GetRect
 printf
 (
 "
-Layout
+XULLayout
 =
 %
 d

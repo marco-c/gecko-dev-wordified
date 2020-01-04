@@ -6722,7 +6722,7 @@ aRadii
 ;
 }
 nsresult
-Layout
+XULLayout
 (
 nsBoxLayoutState
 &

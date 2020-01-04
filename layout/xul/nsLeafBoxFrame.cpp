@@ -1817,7 +1817,7 @@ r
 layout
 our
 children
-Layout
+XULLayout
 (
 state
 )

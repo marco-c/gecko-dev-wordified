@@ -4224,7 +4224,7 @@ r
 layout
 our
 children
-Layout
+XULLayout
 (
 state
 )
@@ -5139,7 +5139,7 @@ rv
 mLayoutManager
 -
 >
-Layout
+XULLayout
 (
 this
 aState
@@ -11420,7 +11420,7 @@ return
 aBox
 -
 >
-Layout
+XULLayout
 (
 aState
 )

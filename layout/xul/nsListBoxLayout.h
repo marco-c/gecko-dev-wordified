@@ -142,7 +142,7 @@ nsListBoxLayout
 /
 nsBoxLayout
 NS_IMETHOD
-Layout
+XULLayout
 (
 nsIFrame
 *
