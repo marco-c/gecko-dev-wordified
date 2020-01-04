@@ -2490,7 +2490,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSuspended
@@ -2799,7 +2799,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSuspended
@@ -2893,7 +2893,7 @@ TrackType
 aTrack
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 self
@@ -2914,6 +2914,13 @@ self
 GetDecoderData
 (
 aTrack
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+decoder
+.
+mDecoder
 )
 ;
 decoder
@@ -5893,7 +5900,7 @@ decoders
 when
 suspended
 .
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mAudio
