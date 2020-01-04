@@ -13320,7 +13320,7 @@ if
 context
 )
 {
-JS_ReportWarning
+JS_ReportWarningASCII
 (
 context
 "
@@ -13329,6 +13329,8 @@ CanvasRenderingContext2D
 createPattern
 (
 )
+"
+"
 failed
 to
 snapshot
@@ -13540,7 +13542,7 @@ if
 context
 )
 {
-JS_ReportWarning
+JS_ReportWarningASCII
 (
 context
 "
@@ -13549,6 +13551,8 @@ CanvasRenderingContext2D
 createPattern
 (
 )
+"
+"
 failed
 to
 prepare
