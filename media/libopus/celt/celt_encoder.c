@@ -9353,7 +9353,7 @@ N
 COMBFILTER_MAXPERIOD
 )
 {
-OPUS_MOVE
+OPUS_COPY
 (
 prefilter_mem
 +
@@ -9391,7 +9391,7 @@ COMBFILTER_MAXPERIOD
 N
 )
 ;
-OPUS_MOVE
+OPUS_COPY
 (
 prefilter_mem
 +
@@ -10263,7 +10263,16 @@ bitrate
 {
 opus_val16
 rate_factor
+=
+Q15ONE
 ;
+if
+(
+bitrate
+<
+64000
+)
+{
 #
 ifdef
 FIXED_POINT
@@ -10303,6 +10312,7 @@ bitrate
 ;
 #
 endif
+}
 if
 (
 constrained_vbr

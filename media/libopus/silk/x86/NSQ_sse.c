@@ -1869,6 +1869,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 }

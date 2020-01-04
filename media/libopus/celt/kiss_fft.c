@@ -1333,6 +1333,8 @@ Fout
 #
 ifdef
 FIXED_POINT
+/
+*
 epi3
 .
 r
@@ -1340,6 +1342,13 @@ r
 -
 16384
 ;
+*
+/
+/
+*
+Unused
+*
+/
 epi3
 .
 i

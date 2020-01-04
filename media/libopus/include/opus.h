@@ -1183,8 +1183,10 @@ return
 value
 *
 is
-1
-byte
+2
+bytes
+or
+less
 then
 the
 packet

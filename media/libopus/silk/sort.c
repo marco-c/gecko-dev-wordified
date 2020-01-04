@@ -461,7 +461,7 @@ array
 Shell
 short
 :
-http
+https
 :
 /
 /

@@ -5617,6 +5617,10 @@ speech0
 float
 music0
 ;
+float
+p
+q
+;
 /
 *
 One
@@ -5639,16 +5643,6 @@ frame_probs
 1
 ]
 ;
-beta
-=
-.
-05f
-;
-if
-(
-1
-)
-{
 /
 *
 Adapt
@@ -5665,10 +5659,6 @@ prob
 is
 *
 /
-float
-p
-q
-;
 p
 =
 MAX16
@@ -5736,7 +5726,6 @@ p
 )
 )
 ;
-}
 /
 *
 p0

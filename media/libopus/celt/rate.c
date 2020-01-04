@@ -2444,6 +2444,9 @@ j
 ]
 +
 (
+(
+opus_int32
+)
 lo
 *
 bits2
