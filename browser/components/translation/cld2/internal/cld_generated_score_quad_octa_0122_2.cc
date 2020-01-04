@@ -245,7 +245,7 @@ de
 /
 6
 HEBREW
-iw
+he
 960
 0
 0
