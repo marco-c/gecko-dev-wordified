@@ -3674,14 +3674,6 @@ report
 messageArgs
 )
 {
-if
-(
-argumentsType
-=
-=
-ArgumentsAreASCII
-)
-{
 unsigned
 i
 =
@@ -3712,7 +3704,6 @@ i
 ]
 )
 ;
-}
 js_free
 (
 report
@@ -4056,12 +4047,6 @@ column
 ;
 }
 }
-err
-.
-argumentsType
-=
-ArgumentsAreASCII
-;
 if
 (
 !

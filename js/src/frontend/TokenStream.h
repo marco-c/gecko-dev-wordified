@@ -1897,9 +1897,6 @@ char
 *
 message
 ;
-ErrorArgumentsType
-argumentsType
-;
 CompileError
 (
 )
@@ -1907,10 +1904,6 @@ CompileError
 message
 (
 nullptr
-)
-argumentsType
-(
-ArgumentsAreUnicode
 )
 {
 }
