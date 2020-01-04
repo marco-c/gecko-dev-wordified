@@ -3718,6 +3718,27 @@ your
 "
 command
 .
+If
+you
+keep
+getting
+this
+message
+please
+"
+              
+"
+manually
+run
+:
+'
+pip
+install
+-
+U
+mozregression
+'
+.
 "
 )
     
