@@ -262,6 +262,12 @@ e10s
 "
             
 "
+default
+"
+:
+False
+            
+"
 help
 "
 :
@@ -1160,14 +1166,13 @@ test_type
 )
         
 if
+not
 c
-.
-get
-(
+[
 "
 e10s
 "
-)
+]
 :
             
 cmd
@@ -1176,6 +1181,8 @@ append
 (
 "
 -
+-
+disable
 -
 e10s
 "
