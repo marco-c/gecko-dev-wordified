@@ -4642,7 +4642,7 @@ PLAIN
 info
 -
 >
-objectsMallocHeapElementsNonAsmJS
+objectsMallocHeapElementsNormal
 +
 =
 mallocSizeOf
@@ -4662,7 +4662,7 @@ MAPPED
 info
 -
 >
-objectsNonHeapElementsMapped
+objectsNonHeapElementsNormal
 +
 =
 buffer

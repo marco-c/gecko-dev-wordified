@@ -26178,7 +26178,7 @@ this
 info
 -
 >
-objectsMallocHeapElementsNonAsmJS
+objectsMallocHeapElementsNormal
 +
 =
 mallocSizeOf

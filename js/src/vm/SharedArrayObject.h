@@ -361,7 +361,7 @@ mozilla
 :
 ReleaseAcquire
 >
-refcount
+refcount_
 ;
 uint32_t
 length
@@ -399,7 +399,7 @@ uint32_t
 length
 )
 :
-refcount
+refcount_
 (
 1
 )
@@ -560,6 +560,16 @@ const
 {
 return
 length
+;
+}
+uint32_t
+refcount
+(
+)
+const
+{
+return
+refcount_
 ;
 }
 void
