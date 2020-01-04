@@ -45661,16 +45661,6 @@ setActiveEval
 )
 ;
 }
-ExecuteType
-type
-=
-!
-frame
-?
-EXECUTE_GLOBAL_OR_MODULE
-:
-EXECUTE_DEBUG
-;
 return
 ExecuteKernel
 (
@@ -45681,7 +45671,6 @@ env
 NullValue
 (
 )
-type
 frame
 rval
 .
