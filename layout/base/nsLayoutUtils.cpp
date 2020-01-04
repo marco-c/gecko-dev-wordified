@@ -58887,6 +58887,13 @@ CurrentScrollGeneration
 )
 ;
 }
+scrollableFrame
+-
+>
+AllowScrollOriginDowngrade
+(
+)
+;
 nsIAtom
 *
 lastSmoothScrollOrigin
