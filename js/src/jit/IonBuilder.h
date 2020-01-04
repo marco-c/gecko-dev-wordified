@@ -6045,6 +6045,16 @@ RejectWrappedTypedArrays
 }
 ;
 InliningStatus
+inlineTypedArray
+(
+CallInfo
+&
+callInfo
+Native
+native
+)
+;
+InliningStatus
 inlineIsTypedArrayHelper
 (
 CallInfo
