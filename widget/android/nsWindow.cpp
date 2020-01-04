@@ -15333,7 +15333,7 @@ DrawWindowUnderlay
 LayerManagerComposite
 *
 aManager
-nsIntRect
+LayoutDeviceIntRect
 aRect
 )
 {
