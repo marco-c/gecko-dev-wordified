@@ -3724,9 +3724,12 @@ file
 item
 -
 >
-GetAsFileWithPrincipal
+GetAsFile
+(
+Some
 (
 aFilesPrincipal
+)
 rv
 )
 ;
