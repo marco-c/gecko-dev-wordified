@@ -186,9 +186,7 @@ override
 void
 CallSeek
 (
-const
 SeekTarget
-&
 aTarget
 )
 override

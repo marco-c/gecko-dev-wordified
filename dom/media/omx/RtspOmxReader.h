@@ -330,8 +330,8 @@ SeekPromise
 >
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aEndTime
 )

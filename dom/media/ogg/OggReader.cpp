@@ -9758,7 +9758,7 @@ OggReader
 :
 Seek
 (
-int64_t
+SeekTarget
 aTarget
 int64_t
 aEndTime
@@ -9770,6 +9770,8 @@ res
 SeekInternal
 (
 aTarget
+.
+mTime
 aEndTime
 )
 ;
@@ -9801,6 +9803,8 @@ SeekPromise
 CreateAndResolve
 (
 aTarget
+.
+mTime
 __func__
 )
 ;

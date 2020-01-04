@@ -2217,7 +2217,7 @@ AndroidMediaReader
 :
 Seek
 (
-int64_t
+SeekTarget
 aTarget
 int64_t
 aEndTime
@@ -2377,6 +2377,8 @@ seek
 mVideoSeekTimeUs
 =
 aTarget
+.
+mTime
 ;
 RefPtr
 <
@@ -2466,6 +2468,8 @@ self
 mAudioSeekTimeUs
 =
 aTarget
+.
+mTime
 ;
 self
 -
@@ -2475,6 +2479,8 @@ mSeekPromise
 Resolve
 (
 aTarget
+.
+mTime
 __func__
 )
 ;
@@ -2490,12 +2496,16 @@ mAudioSeekTimeUs
 mVideoSeekTimeUs
 =
 aTarget
+.
+mTime
 ;
 mSeekPromise
 .
 Resolve
 (
 aTarget
+.
+mTime
 __func__
 )
 ;

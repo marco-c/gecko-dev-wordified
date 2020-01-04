@@ -196,6 +196,13 @@ TimeUnits
 .
 h
 "
+#
+include
+"
+SeekTarget
+.
+h
+"
 namespace
 mozilla
 {
@@ -1289,8 +1296,8 @@ SeekPromise
 >
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aEndTime
 )
