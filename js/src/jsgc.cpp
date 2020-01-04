@@ -40542,6 +40542,17 @@ ObjectGroupList
 pretenureGroups
 )
 {
+MOZ_ASSERT
+(
+!
+rt
+-
+>
+isHeapBusy
+(
+)
+)
+;
 if
 (
 rt
@@ -40757,7 +40768,7 @@ isGenerationalGCEnabled
 )
 )
 {
-minorGC
+evictNursery
 (
 JS
 :
