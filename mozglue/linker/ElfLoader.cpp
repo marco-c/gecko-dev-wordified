@@ -3165,6 +3165,11 @@ GetZip
 zip_path
 )
 ;
+free
+(
+zip_path
+)
+;
 Zip
 :
 :
