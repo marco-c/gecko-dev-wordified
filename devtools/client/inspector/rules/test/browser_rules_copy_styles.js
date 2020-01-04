@@ -1764,7 +1764,7 @@ copyRule
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )

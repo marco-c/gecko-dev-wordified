@@ -716,7 +716,7 @@ expected
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
@@ -1023,7 +1023,7 @@ expected
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
@@ -1200,7 +1200,7 @@ expected
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )

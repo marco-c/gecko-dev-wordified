@@ -294,7 +294,7 @@ visible
 )
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )

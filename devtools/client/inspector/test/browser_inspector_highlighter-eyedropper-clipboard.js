@@ -220,7 +220,7 @@ helper
 )
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
