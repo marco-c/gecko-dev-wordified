@@ -903,6 +903,7 @@ PageThumbUtils
 createSnapshotThumbnail
 (
 content
+null
 )
 ;
 capture
