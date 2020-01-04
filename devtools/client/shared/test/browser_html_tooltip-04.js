@@ -447,6 +447,9 @@ HTMLTooltip
 doc
 }
 {
+useXulWrapper
+:
+false
 }
 )
 ;
