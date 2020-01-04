@@ -3240,7 +3240,10 @@ enabled
 *
 /
 static
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetLog
 (

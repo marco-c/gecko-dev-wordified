@@ -3505,7 +3505,7 @@ Now
 -
 start
 ;
-PRLogModuleInfo
+LogModule
 *
 log
 =

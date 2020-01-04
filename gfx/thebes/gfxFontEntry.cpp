@@ -8923,7 +8923,7 @@ mCount
 +
 +
 ;
-PRLogModuleInfo
+LogModule
 *
 log
 =

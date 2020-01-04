@@ -1490,7 +1490,7 @@ enabled
 init
 stats
 struct
-PRLogModuleInfo
+LogModule
 *
 log
 =
