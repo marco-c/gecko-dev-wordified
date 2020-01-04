@@ -12444,7 +12444,7 @@ clasp
 {
 if
 (
-IsAnyTypedArrayClass
+IsTypedArrayClass
 (
 clasp
 )
