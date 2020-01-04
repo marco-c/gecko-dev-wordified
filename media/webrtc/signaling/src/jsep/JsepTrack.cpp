@@ -1870,6 +1870,14 @@ constraints
 ;
 }
 }
+encoding
+-
+>
+UpdateMaxBitrate
+(
+remote
+)
+;
 }
 }
 std
