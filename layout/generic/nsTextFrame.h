@@ -3633,6 +3633,12 @@ GetJustificationAssignment
 )
 const
 ;
+uint32_t
+CountGraphemeClusters
+(
+)
+const
+;
 protected
 :
 virtual

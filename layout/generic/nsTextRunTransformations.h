@@ -257,6 +257,11 @@ mMathVariant
 bool
 mExplicitLanguage
 ;
+bool
+mForceNonFullWidth
+=
+false
+;
 private
 :
 ~
