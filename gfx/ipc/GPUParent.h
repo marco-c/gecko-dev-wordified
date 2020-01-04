@@ -347,6 +347,15 @@ aLayersId
 )
 override
 ;
+bool
+RecvGetDeviceStatus
+(
+GPUDeviceData
+*
+aOutStatus
+)
+override
+;
 void
 ActorDestroy
 (
