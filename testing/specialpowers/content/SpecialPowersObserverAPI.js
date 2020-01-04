@@ -3365,6 +3365,7 @@ json
 .
 message
 ;
+return
 this
 .
 _chromeScriptListeners
@@ -3392,7 +3393,7 @@ id
 )
 )
 .
-forEach
+map
 (
 o
 =
@@ -3405,20 +3406,6 @@ message
 )
 )
 ;
-return
-undefined
-;
-/
-/
-See
-comment
-at
-the
-beginning
-of
-this
-function
-.
 }
 case
 "
