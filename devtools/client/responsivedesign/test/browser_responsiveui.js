@@ -198,9 +198,14 @@ ResponsiveUIManager
 ;
 synthesizeKeyFromKeyTag
 (
+document
+.
+getElementById
+(
 "
 key_responsiveUI
 "
+)
 )
 ;
 yield
