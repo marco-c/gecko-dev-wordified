@@ -201,10 +201,8 @@ wasmEvalText
 module
 (
 table
-(
-resizable
 2
-)
+anyfunc
 )
 (
 export
@@ -518,10 +516,8 @@ wasmEvalText
 module
 (
 table
-(
-resizable
 1
-)
+anyfunc
 )
 (
 export
@@ -714,10 +710,8 @@ wasmEvalText
 module
 (
 table
-(
-resizable
 2
-)
+anyfunc
 )
 (
 export
@@ -1716,6 +1710,7 @@ table
 {
 N
 }
+anyfunc
 )
 )
 (
