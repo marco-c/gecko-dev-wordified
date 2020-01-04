@@ -274,6 +274,10 @@ report
 message
 (
 )
+.
+c_str
+(
+)
 "
 uncaught
 exception
@@ -302,6 +306,10 @@ report
 message
 (
 )
+.
+c_str
+(
+)
 "
 uncaught
 exception
@@ -326,6 +334,10 @@ strcmp
 report
 .
 message
+(
+)
+.
+c_str
 (
 )
 "

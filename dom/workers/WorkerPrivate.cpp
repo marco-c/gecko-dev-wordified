@@ -29365,6 +29365,9 @@ message
 IsEmpty
 (
 )
+&
+&
+aFallbackMessage
 )
 {
 nsDependentCString

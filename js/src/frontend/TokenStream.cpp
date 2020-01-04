@@ -3466,7 +3466,6 @@ flags
 CallWarningReporter
 (
 cx
-message
 &
 report
 )
@@ -3618,7 +3617,6 @@ report
 ErrorToException
 (
 cx
-message
 &
 report
 nullptr
@@ -3634,15 +3632,6 @@ CompileError
 (
 )
 {
-js_free
-(
-message
-)
-;
-message
-=
-nullptr
-;
 }
 bool
 TokenStream
@@ -3981,10 +3970,6 @@ cx
 GetErrorMessage
 nullptr
 errorNumber
-&
-err
-.
-message
 nullptr
 ArgumentsAreLatin1
 &

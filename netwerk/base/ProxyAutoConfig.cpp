@@ -3238,10 +3238,6 @@ PACWarningReporter
 JSContext
 *
 aCx
-const
-char
-*
-aMessage
 JSErrorReport
 *
 aReport
