@@ -11673,6 +11673,8 @@ mDashOffset
 0
 .
 5f
+*
+dash
 ;
 DrawOptions
 drawOptions
