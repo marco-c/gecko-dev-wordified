@@ -2860,6 +2860,10 @@ const
 gfxPoint
 &
 aTextBaselinePt
+const
+gfxPoint
+&
+aFramePt
 Range
 aRange
 const
