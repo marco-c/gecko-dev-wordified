@@ -122,7 +122,7 @@ aDevice
 ;
 static
 bool
-DoesD3D11DeviceWork
+DoesDeviceWork
 (
 )
 ;
