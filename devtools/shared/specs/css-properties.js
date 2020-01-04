@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Arg
 RetVal
 generateActorSpec
 }
@@ -99,15 +98,6 @@ getCSSDatabase
 request
 :
 {
-clientBrowserVersion
-:
-Arg
-(
-0
-"
-string
-"
-)
 }
 response
 :
