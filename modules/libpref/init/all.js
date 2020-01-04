@@ -55944,7 +55944,7 @@ transition
 .
 timeout
 "
-500
+1000
 )
 ;
 /
