@@ -131,6 +131,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 js
 /
 TraceableVector
@@ -397,6 +406,13 @@ IndirectBindingMap
 {
 public
 :
+IndirectBindingMap
+(
+Zone
+*
+zone
+)
+;
 bool
 init
 (
@@ -555,7 +571,7 @@ HashMap
 jsid
 Binding
 JsidHasher
-SystemAllocPolicy
+ZoneAllocPolicy
 >
 Map
 ;
@@ -936,6 +952,8 @@ FunctionDeclarationVector
 TraceableVector
 <
 FunctionDeclaration
+0
+ZoneAllocPolicy
 >
 ;
 class
