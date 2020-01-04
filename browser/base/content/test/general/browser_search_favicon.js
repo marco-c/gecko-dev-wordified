@@ -372,9 +372,7 @@ type
 "
 )
 "
-action
 searchengine
-favicon
 "
 "
 Expect

@@ -232,7 +232,6 @@ type
 "
 )
 "
-action
 switchtab
 "
 "
