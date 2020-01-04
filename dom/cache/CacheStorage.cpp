@@ -1425,9 +1425,13 @@ if
 aWorkerPrivate
 -
 >
-IsInPrivateBrowsing
+GetOriginAttributes
 (
 )
+.
+mPrivateBrowsingId
+>
+0
 )
 {
 NS_WARNING

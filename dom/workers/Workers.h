@@ -1200,10 +1200,10 @@ bool
 mStorageAllowed
 ;
 bool
-mPrivateBrowsing
-;
-bool
 mServiceWorkersTestingInWindow
+;
+PrincipalOriginAttributes
+mOriginAttributes
 ;
 WorkerLoadInfo
 (
