@@ -45,6 +45,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 Tests
@@ -155,6 +160,7 @@ ui
 )
 ;
 function
+*
 testLinkifiedConditions
 (
 editor
@@ -279,6 +285,7 @@ rule
 .
 "
 )
+;
 ok
 (
 conditions

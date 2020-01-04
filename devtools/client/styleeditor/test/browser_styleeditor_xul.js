@@ -59,6 +59,11 @@ for
 XUL
 windows
 .
+"
+use
+strict
+"
+;
 waitForExplicitFinish
 (
 )
