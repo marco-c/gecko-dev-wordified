@@ -1386,6 +1386,12 @@ GetEnforceSRI
 aLoadInfo
 -
 >
+GetForceInheritPrincipalDropped
+(
+)
+aLoadInfo
+-
+>
 GetInnerWindowID
 (
 )
@@ -1740,6 +1746,11 @@ verifySignedContent
 loadInfoArgs
 .
 enforceSRI
+(
+)
+loadInfoArgs
+.
+forceInheritPrincipalDropped
 (
 )
 loadInfoArgs

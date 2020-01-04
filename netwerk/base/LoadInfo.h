@@ -587,6 +587,8 @@ bool
 aVerifySignedContent
 bool
 aEnforceSRI
+bool
+aForceInheritPrincipalDropped
 uint64_t
 aInnerWindowID
 uint64_t
@@ -784,6 +786,9 @@ mVerifySignedContent
 ;
 bool
 mEnforceSRI
+;
+bool
+mForceInheritPrincipalDropped
 ;
 uint64_t
 mInnerWindowID
