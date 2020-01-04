@@ -3360,7 +3360,6 @@ Message
 {
 public
 :
-explicit
 CancelMessage
 (
 int
