@@ -2018,7 +2018,7 @@ _subInfo
 record
 .
 originAttributes
-quota
+systemRecord
 :
 this
 .
@@ -2026,7 +2026,7 @@ _subInfo
 .
 record
 .
-maxQuota
+systemRecord
 ctime
 :
 Date

@@ -5703,13 +5703,13 @@ originAttributes
 version
 :
 null
-quota
+systemRecord
 :
 tmp
 .
 record
 .
-maxQuota
+systemRecord
 ctime
 :
 Date
