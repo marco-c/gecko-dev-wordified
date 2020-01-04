@@ -186,6 +186,13 @@ WasmBinaryFormat
 .
 h
 "
+#
+include
+"
+jsprf
+.
+h
+"
 using
 namespace
 js
