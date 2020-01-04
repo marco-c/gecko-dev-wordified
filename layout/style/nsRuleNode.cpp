@@ -8458,12 +8458,6 @@ StyleUserFocus
 None_
 SelectMenu
 )
-DEFINE_ENUM_CLASS_SETTER
-(
-StyleUserSelect
-None_
-All
-)
 #
 undef
 DEF_SET_ENUMERATED_VALUE
@@ -34601,10 +34595,7 @@ parentUI
 -
 >
 mUserSelect
-StyleUserSelect
-:
-:
-Auto
+NS_STYLE_USER_SELECT_AUTO
 )
 ;
 /
