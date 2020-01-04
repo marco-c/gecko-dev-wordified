@@ -320,6 +320,10 @@ Suppress
 GC
 "
 ]
+|
+|
+[
+]
 ;
 var
 gcFunctions
