@@ -51129,11 +51129,6 @@ clear
 temporary
 blocked
 permission
-if
-(
-permissionType
-)
-{
 histogram
 .
 add
@@ -51156,7 +51151,6 @@ id
 permissionType
 )
 ;
-}
 }
 )
 ;
