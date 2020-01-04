@@ -3570,6 +3570,12 @@ global
 "
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 RootedObject
 global
 (
