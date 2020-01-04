@@ -106,7 +106,6 @@ MPL
 *
 global
 URLSearchParams
-URL
 *
 /
 "

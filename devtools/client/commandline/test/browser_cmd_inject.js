@@ -340,7 +340,7 @@ library
 .
 url
 .
-path
+pathname
 .
 indexOf
 (

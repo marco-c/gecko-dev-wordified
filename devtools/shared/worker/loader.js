@@ -3258,6 +3258,11 @@ setImmediate
 "
 :
 setImmediate
+"
+URL
+"
+:
+URL
 }
 loadSubScript
 :
@@ -3285,11 +3290,6 @@ create
 (
 null
 )
-"
-URL
-"
-:
-URL
 "
 chrome
 "
