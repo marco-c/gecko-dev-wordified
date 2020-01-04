@@ -154,6 +154,11 @@ Level
 .
 Trace
 ;
+const
+DEVICE_REGISTRATION_VERSION
+=
+42
+;
 /
 /
 A
@@ -920,9 +925,9 @@ deviceId
 "
 wibble
 "
-isDeviceStale
+deviceRegistrationVersion
 :
-true
+null
 }
 )
 ;
@@ -1018,8 +1023,8 @@ equal
 (
 accountData
 .
-isDeviceStale
-true
+deviceRegistrationVersion
+null
 )
 ;
 /
@@ -1065,9 +1070,9 @@ kB
 "
 kB
 "
-isDeviceStale
+deviceRegistrationVersion
 :
-false
+DEVICE_REGISTRATION_VERSION
 }
 )
 ;
@@ -1122,8 +1127,8 @@ equal
 (
 accountData
 .
-isDeviceStale
-false
+deviceRegistrationVersion
+DEVICE_REGISTRATION_VERSION
 )
 ;
 /
@@ -1161,7 +1166,7 @@ deviceId
 "
 and
 "
-isDeviceStale
+deviceRegistrationVersion
 "
 are
 plain
@@ -1215,8 +1220,8 @@ data
 .
 accountData
 .
-isDeviceStale
-false
+deviceRegistrationVersion
+DEVICE_REGISTRATION_VERSION
 )
 ;
 /
