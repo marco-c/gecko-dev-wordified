@@ -369,6 +369,16 @@ mCheckNetwork
 checkNetwork
 ;
 }
+public
+String
+getSuggestTemplate
+(
+)
+{
+return
+mSuggestTemplate
+;
+}
 /
 *
 *
