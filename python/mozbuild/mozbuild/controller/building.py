@@ -1096,6 +1096,13 @@ self
 .
 topobjdir
 )
+        
+self
+.
+build_objects
+=
+[
+]
     
 def
 start
@@ -1423,6 +1430,31 @@ finish_tier
 (
 tier
 )
+            
+elif
+action
+=
+=
+'
+OBJECT_FILE
+'
+:
+                
+self
+.
+build_objects
+.
+append
+(
+args
+[
+0
+]
+)
+                
+update_needed
+=
+False
             
 else
 :
@@ -2526,6 +2558,12 @@ cpu_times
 io
 =
 io
+            
+objects
+=
+self
+.
+build_objects
         
 )
         
