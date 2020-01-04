@@ -211,7 +211,13 @@ public
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 ImportRule
-nsIStyleRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 )
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 DECL_STYLE_RULE_INHERIT
@@ -237,7 +243,7 @@ GetStyleSheet
 endif
 /
 /
-nsIStyleRule
+Rule
 methods
 #
 ifdef
@@ -261,10 +267,6 @@ override
 ;
 #
 endif
-/
-/
-Rule
-methods
 virtual
 int32_t
 GetType

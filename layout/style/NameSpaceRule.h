@@ -244,11 +244,11 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_CSS_NAMESPACE_RULE_IMPL_CID
 )
 NS_DECL_ISUPPORTS
-DECL_STYLE_RULE_INHERIT
 /
 /
-nsIStyleRule
+Rule
 methods
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -271,10 +271,6 @@ override
 ;
 #
 endif
-/
-/
-Rule
-methods
 virtual
 int32_t
 GetType
