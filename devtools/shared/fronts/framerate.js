@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -117,7 +117,7 @@ exports
 .
 FramerateFront
 =
-FrontClassWithSpec
+FrontClass
 (
 framerateSpec
 {

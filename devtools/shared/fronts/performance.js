@@ -76,7 +76,7 @@ chrome
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 custom
 preEvent
 }
@@ -210,7 +210,7 @@ true
 const
 PerformanceFront
 =
-FrontClassWithSpec
+FrontClass
 (
 performanceSpec
 {

@@ -108,7 +108,7 @@ childSpecs
 {
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 childSpec
 {
@@ -168,7 +168,7 @@ StorageFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 specs
 .

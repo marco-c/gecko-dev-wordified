@@ -269,7 +269,7 @@ ShaderActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 shaderSpec
 {
@@ -598,7 +598,7 @@ ProgramActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 programSpec
 {
@@ -1179,7 +1179,7 @@ WebGLActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 webGLSpec
 {

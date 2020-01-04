@@ -205,7 +205,7 @@ ActorActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 actorActorSpec
 {
@@ -285,7 +285,7 @@ ActorRegistryActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 actorRegistrySpec
 {

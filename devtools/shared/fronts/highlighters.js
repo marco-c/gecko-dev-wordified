@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -99,7 +99,7 @@ highlighters
 const
 HighlighterFront
 =
-FrontClassWithSpec
+FrontClass
 (
 highlighterSpec
 {
@@ -168,7 +168,7 @@ HighlighterFront
 const
 CustomHighlighterFront
 =
-FrontClassWithSpec
+FrontClass
 (
 customHighlighterSpec
 {

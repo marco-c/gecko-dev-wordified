@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -174,7 +174,7 @@ OriginalSourceActor
 const
 OriginalSourceFront
 =
-FrontClassWithSpec
+FrontClass
 (
 originalSourceSpec
 {
@@ -302,7 +302,7 @@ MediaRuleActor
 const
 MediaRuleFront
 =
-FrontClassWithSpec
+FrontClass
 (
 mediaRuleSpec
 {
@@ -537,7 +537,7 @@ StyleSheetActor
 const
 StyleSheetFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleSheetSpec
 {
@@ -964,7 +964,7 @@ StyleSheetsActor
 const
 StyleSheetsFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleSheetsSpec
 {

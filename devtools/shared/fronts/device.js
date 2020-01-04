@@ -126,7 +126,7 @@ DeviceFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 deviceSpec
 {

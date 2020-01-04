@@ -116,7 +116,7 @@ MessagePortFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 messagePortSpec
 {
@@ -172,7 +172,7 @@ DirectorScriptFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 directorScriptSpec
 {
@@ -228,7 +228,7 @@ DirectorManagerFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 directorManagerSpec
 {

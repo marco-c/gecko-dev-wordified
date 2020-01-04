@@ -612,7 +612,7 @@ OriginalSourceActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 originalSourceSpec
 {
@@ -918,7 +918,7 @@ MediaRuleActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 mediaRuleSpec
 {
@@ -1265,7 +1265,7 @@ StyleSheetActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 styleSheetSpec
 {
@@ -4746,7 +4746,7 @@ StyleSheetsActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 styleSheetsSpec
 {

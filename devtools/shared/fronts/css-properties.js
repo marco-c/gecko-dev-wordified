@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-FrontClassWithSpec
+FrontClass
 Front
 }
 =
@@ -425,7 +425,7 @@ supports
 const
 CssPropertiesFront
 =
-FrontClassWithSpec
+FrontClass
 (
 cssPropertiesSpec
 {

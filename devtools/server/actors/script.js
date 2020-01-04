@@ -274,7 +274,7 @@ main
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -2711,7 +2711,7 @@ window
 const
 ThreadActor
 =
-ActorClassWithSpec
+ActorClass
 (
 threadSpec
 {

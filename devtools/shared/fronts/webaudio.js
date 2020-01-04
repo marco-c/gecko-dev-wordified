@@ -206,7 +206,7 @@ AudioNodeFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 audionodeSpec
 {
@@ -359,7 +359,7 @@ WebAudioFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 webAudioSpec
 {

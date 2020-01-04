@@ -92,7 +92,7 @@ task
 const
 {
 Actor
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -332,7 +332,7 @@ documentation
 var
 PerformanceActor
 =
-ActorClassWithSpec
+ActorClass
 (
 performanceSpec
 {

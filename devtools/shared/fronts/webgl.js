@@ -114,7 +114,7 @@ ShaderFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 shaderSpec
 {
@@ -170,7 +170,7 @@ ProgramFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 programSpec
 {
@@ -226,7 +226,7 @@ WebGLFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 webGLSpec
 {

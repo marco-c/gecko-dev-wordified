@@ -140,7 +140,7 @@ LongStringFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 longStringSpec
 {

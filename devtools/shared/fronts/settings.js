@@ -98,7 +98,7 @@ SettingsFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 settingsSpec
 {

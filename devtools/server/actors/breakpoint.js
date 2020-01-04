@@ -117,7 +117,7 @@ strict
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -287,7 +287,7 @@ scripts
 let
 BreakpointActor
 =
-ActorClassWithSpec
+ActorClass
 (
 breakpointSpec
 {

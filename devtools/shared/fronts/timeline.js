@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -112,7 +112,7 @@ TimelineActor
 const
 TimelineFront
 =
-FrontClassWithSpec
+FrontClass
 (
 timelineSpec
 {

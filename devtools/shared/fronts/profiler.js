@@ -76,7 +76,7 @@ chrome
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 custom
 }
 =
@@ -182,7 +182,7 @@ exports
 .
 ProfilerFront
 =
-FrontClassWithSpec
+FrontClass
 (
 profilerSpec
 {

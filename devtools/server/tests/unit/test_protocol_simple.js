@@ -443,7 +443,7 @@ RootActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 rootSpec
 {
@@ -759,7 +759,7 @@ RootFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 rootSpec
 {
@@ -848,7 +848,7 @@ check_except
 let
 badActor
 =
-ActorClassWithSpec
+ActorClass
 (
 {
 }

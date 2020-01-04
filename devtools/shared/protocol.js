@@ -6838,7 +6838,7 @@ definitions
 *
 /
 var
-ActorClassWithSpec
+ActorClass
 =
 function
 (
@@ -6895,9 +6895,9 @@ cls
 ;
 exports
 .
-ActorClassWithSpec
+ActorClass
 =
-ActorClassWithSpec
+ActorClass
 ;
 /
 *
@@ -8973,7 +8973,7 @@ definitions
 *
 /
 var
-FrontClassWithSpec
+FrontClass
 =
 function
 (
@@ -9042,9 +9042,9 @@ cls
 ;
 exports
 .
-FrontClassWithSpec
+FrontClass
 =
-FrontClassWithSpec
+FrontClass
 ;
 exports
 .

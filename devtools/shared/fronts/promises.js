@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -112,7 +112,7 @@ PromisesActor
 const
 PromisesFront
 =
-FrontClassWithSpec
+FrontClass
 (
 promisesSpec
 {

@@ -64,7 +64,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -100,7 +100,7 @@ exports
 .
 EventLoopLagFront
 =
-FrontClassWithSpec
+FrontClass
 (
 eventLoopLagSpec
 {

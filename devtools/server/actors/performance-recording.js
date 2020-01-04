@@ -76,7 +76,7 @@ chrome
 const
 {
 Actor
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -217,7 +217,7 @@ documentation
 const
 PerformanceRecordingActor
 =
-ActorClassWithSpec
+ActorClass
 (
 performanceRecordingSpec
 merge
