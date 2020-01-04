@@ -27,6 +27,12 @@ clone
 tools
 '
         
+'
+checkout
+-
+sources
+'
+        
 #
 '
 setup
