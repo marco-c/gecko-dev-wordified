@@ -1519,6 +1519,7 @@ Lookup
 (
 this
 aStyle
+aUnicodeRangeMap
 )
 ;
 if
