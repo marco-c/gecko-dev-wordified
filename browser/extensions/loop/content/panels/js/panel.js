@@ -5246,10 +5246,6 @@ this
 isMounted
 (
 )
-|
-|
-!
-metadata
 )
 {
 return
