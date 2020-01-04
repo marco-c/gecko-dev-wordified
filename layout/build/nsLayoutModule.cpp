@@ -7880,7 +7880,13 @@ PUSHNOTIFIER_CONTRACTID
 #
 endif
 {
-TOPIC_WEB_APP_CLEAR_DATA
+"
+clear
+-
+origin
+-
+data
+"
 "
 QuotaManagerService
 "

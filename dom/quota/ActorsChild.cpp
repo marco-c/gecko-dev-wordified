@@ -1400,7 +1400,7 @@ case
 RequestResponse
 :
 :
-TClearAppResponse
+TClearOriginsResponse
 :
 case
 RequestResponse
