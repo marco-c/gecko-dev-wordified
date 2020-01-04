@@ -1550,9 +1550,6 @@ if
 callback
 )
 {
-ErrorResult
-err
-;
 callback
 -
 >
@@ -1560,13 +1557,6 @@ Call
 (
 *
 this
-err
-)
-;
-err
-.
-SuppressException
-(
 )
 ;
 }
@@ -3196,9 +3186,6 @@ HasWebIDLCallback
 )
 )
 {
-ErrorResult
-err
-;
 PositionCallback
 *
 callback
@@ -3221,13 +3208,6 @@ Call
 (
 *
 wrapped
-err
-)
-;
-err
-.
-SuppressException
-(
 )
 ;
 }
