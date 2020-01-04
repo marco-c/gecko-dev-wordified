@@ -276,12 +276,6 @@ GetNumDecoderThreads
 (
 )
 ;
-static
-bool
-LowLatencyMFTEnabled
-(
-)
-;
 /
 /
 Accessors

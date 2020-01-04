@@ -243,6 +243,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1594,7 +1601,12 @@ rv
 int32_t
 timeout
 =
-GMP_DEFAULT_ASYNC_SHUTDONW_TIMEOUT
+MediaPrefs
+:
+:
+GMPAsyncShutdownTimeout
+(
+)
 ;
 RefPtr
 <

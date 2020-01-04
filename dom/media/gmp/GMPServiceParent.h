@@ -186,10 +186,6 @@ gmp
 class
 GMPParent
 ;
-#
-define
-GMP_DEFAULT_ASYNC_SHUTDONW_TIMEOUT
-3000
 class
 GeckoMediaPluginServiceParent
 final
