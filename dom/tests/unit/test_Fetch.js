@@ -809,7 +809,7 @@ init
 add_test
 (
 function
-test_GetData
+test_GetDataNoInit
 (
 )
 {
@@ -1329,11 +1329,13 @@ there
 fetch
 (
 "
-ftp
+http
 :
 /
 /
 localhost
+:
+4
 /
 should
 /
@@ -1650,7 +1652,7 @@ text
 add_test
 (
 function
-test_PostJSONData
+test_PostTextData
 (
 )
 {
