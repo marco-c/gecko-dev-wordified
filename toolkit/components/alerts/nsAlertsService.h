@@ -222,7 +222,10 @@ ShouldShowAlert
 (
 )
 ;
-nsXULAlerts
+nsCOMPtr
+<
+nsIAlertsService
+>
 mXULAlerts
 ;
 }
