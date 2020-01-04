@@ -540,13 +540,12 @@ contentType
 ;
 channel
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
 (
 )
-null
 )
 ;
 }
