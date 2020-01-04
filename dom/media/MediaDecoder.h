@@ -4052,13 +4052,6 @@ OnStateMachineTaskQueue
 const
 override
 ;
-bool
-OnDecodeTaskQueue
-(
-)
-const
-override
-;
 MediaDecoderStateMachine
 *
 GetStateMachine
