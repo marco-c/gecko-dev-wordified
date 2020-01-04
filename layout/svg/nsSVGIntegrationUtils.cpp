@@ -3333,7 +3333,7 @@ svgMaskFrame
 =
 aEffectProperties
 .
-GetMaskFrame
+GetFirstMaskFrame
 (
 &
 isOK
@@ -3481,11 +3481,6 @@ aEffectProperties
 )
 )
 ;
-bool
-isOK
-=
-true
-;
 /
 /
 Keep
@@ -3496,10 +3491,6 @@ if
 svgMaskFrame
 is
 nullptr
-or
-isOK
-is
-false
 .
 /
 /
@@ -3526,10 +3517,8 @@ svgMaskFrame
 =
 aEffectProperties
 .
-GetMaskFrame
+GetFirstMaskFrame
 (
-&
-isOK
 )
 ;
 gfxContext
