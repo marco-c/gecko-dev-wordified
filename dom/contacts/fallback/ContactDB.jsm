@@ -7851,10 +7851,9 @@ contactsArray
 .
 map
 (
-function
-(
 el
-)
+=
+>
 el
 .
 id
