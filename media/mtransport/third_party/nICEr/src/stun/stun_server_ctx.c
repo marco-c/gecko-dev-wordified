@@ -2208,6 +2208,14 @@ NR_CLASS_INDICATION
 goto
 skip_response
 ;
+if
+(
+!
+res
+)
+goto
+skip_response
+;
 /
 *
 Now
