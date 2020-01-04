@@ -2293,6 +2293,10 @@ click
 }
 )
 ;
+setupFakeRoom
+(
+)
+;
 LoopRooms
 .
 open
@@ -3195,6 +3199,13 @@ roomName
 fakeTourRoom
 "
 }
+;
+room
+.
+participants
+=
+[
+]
 ;
 let
 roomsMap
