@@ -6183,7 +6183,7 @@ int32_t
 aLength
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 charBufferLen
 +
