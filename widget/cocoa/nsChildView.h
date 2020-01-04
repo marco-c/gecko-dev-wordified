@@ -1979,7 +1979,7 @@ enter
 BOOL
 )
 aEnter
-type
+exitFrom
 :
 (
 mozilla
@@ -1988,9 +1988,9 @@ mozilla
 WidgetMouseEvent
 :
 :
-exitType
+ExitFrom
 )
-aType
+aExitFrom
 ;
 -
 (
