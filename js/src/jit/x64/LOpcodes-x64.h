@@ -141,6 +141,16 @@ DivOrModConstantI
 \
 _
 (
+DivOrModI64
+)
+\
+_
+(
+UDivOrMod64
+)
+\
+_
+(
 SimdValueInt32x4
 )
 \

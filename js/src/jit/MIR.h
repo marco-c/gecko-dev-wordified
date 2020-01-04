@@ -34926,6 +34926,12 @@ specialization_
 =
 =
 MIRType_Int32
+|
+|
+specialization_
+=
+=
+MIRType_Int64
 )
 ;
 MOZ_ASSERT
@@ -34950,6 +34956,12 @@ specialization_
 =
 =
 MIRType_Int32
+|
+|
+specialization_
+=
+=
+MIRType_Int64
 )
 ;
 return
