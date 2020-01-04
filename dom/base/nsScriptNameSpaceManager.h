@@ -524,7 +524,7 @@ mGlobalName
 return
 mKey
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
