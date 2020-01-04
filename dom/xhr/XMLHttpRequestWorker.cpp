@@ -6207,7 +6207,7 @@ return
 false
 ;
 }
-nsXHREventTarget
+XMLHttpRequestEventTarget
 *
 target
 ;
@@ -7235,12 +7235,12 @@ this
 NS_IMPL_ADDREF_INHERITED
 (
 XMLHttpRequestWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_IMPL_RELEASE_INHERITED
 (
 XMLHttpRequestWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -7248,7 +7248,7 @@ XMLHttpRequestWorker
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -7257,7 +7257,7 @@ XMLHttpRequestWorker
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 XMLHttpRequestWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -7267,7 +7267,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 XMLHttpRequestWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 tmp
 -
@@ -7296,7 +7296,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 XMLHttpRequestWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
 (

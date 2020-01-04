@@ -123,7 +123,11 @@ mozilla_dom_workers_xmlhttprequestupload_h__
 #
 include
 "
-nsXMLHttpRequest
+mozilla
+/
+dom
+/
+XMLHttpRequestEventTarget
 .
 h
 "
@@ -136,7 +140,7 @@ XMLHttpRequestUploadWorker
 final
 :
 public
-nsXHREventTarget
+XMLHttpRequestEventTarget
 {
 RefPtr
 <
@@ -194,7 +198,7 @@ aXHR
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 XMLHttpRequestUploadWorker
-nsXHREventTarget
+XMLHttpRequestEventTarget
 )
 NS_DECL_ISUPPORTS_INHERITED
 nsISupports
