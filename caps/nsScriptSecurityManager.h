@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsIChannelEventSink
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -318,8 +311,6 @@ final
 public
 nsIScriptSecurityManager
 public
-nsIChannelEventSink
-public
 nsIObserver
 {
 public
@@ -336,7 +327,6 @@ NS_SCRIPTSECURITYMANAGER_CID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTSECURITYMANAGER
-NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIOBSERVER
 static
 nsScriptSecurityManager
