@@ -2630,10 +2630,6 @@ do_GetWeakReference
 aLoadGroup
 )
 ;
-mFullscreenEnabled
-=
-true
-;
 mChannel
 =
 aChannel
