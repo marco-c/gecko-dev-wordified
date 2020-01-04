@@ -6035,6 +6035,9 @@ WebGLContextVertices
 .
 cpp
 )
+GLenum
+mPrimRestartTypeBytes
+;
 public
 :
 void
