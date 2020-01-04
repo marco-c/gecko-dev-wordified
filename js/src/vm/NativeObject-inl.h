@@ -3370,7 +3370,7 @@ cx
 current
 -
 >
-staticPrototype
+getProto
 (
 )
 )

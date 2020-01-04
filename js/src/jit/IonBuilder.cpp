@@ -42621,7 +42621,7 @@ if
 templateObject
 -
 >
-staticPrototype
+getProto
 (
 )
 !
@@ -43003,7 +43003,7 @@ proto
 templateObject
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -56033,7 +56033,7 @@ checkNurseryObject
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )

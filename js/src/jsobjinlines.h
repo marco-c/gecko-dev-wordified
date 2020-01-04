@@ -885,7 +885,7 @@ getClass
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 )
@@ -1122,7 +1122,11 @@ if
 obj
 -
 >
-hasDynamicPrototype
+getTaggedProto
+(
+)
+.
+isLazy
 (
 )
 )
@@ -1158,6 +1162,8 @@ protop
 )
 ;
 }
+else
+{
 protop
 .
 set
@@ -1165,7 +1171,7 @@ set
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 .
@@ -1177,6 +1183,7 @@ toObjectOrNull
 return
 true
 ;
+}
 }
 inline
 bool
@@ -3590,14 +3597,15 @@ bool
 JSObject
 :
 :
-staticPrototypeIsImmutable
+nonLazyPrototypeIsImmutable
 (
 )
 const
 {
 MOZ_ASSERT
 (
-hasStaticPrototype
+!
+hasLazyPrototype
 (
 )
 )
@@ -4042,7 +4050,7 @@ proto
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -4224,7 +4232,7 @@ obj
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;

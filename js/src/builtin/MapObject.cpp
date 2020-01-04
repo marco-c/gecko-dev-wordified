@@ -1682,7 +1682,7 @@ cx
 resultPairObj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 )
