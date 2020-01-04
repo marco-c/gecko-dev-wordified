@@ -3441,6 +3441,15 @@ pn
 )
 ;
 bool
+emitAsyncWrapper
+(
+unsigned
+index
+bool
+isMethod
+)
+;
+bool
 emitComputedPropertyName
 (
 ParseNode
