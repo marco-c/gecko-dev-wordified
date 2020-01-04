@@ -21016,7 +21016,10 @@ see
 nsStyleConsts
 .
 h
-uint8_t
+mozilla
+:
+:
+StyleBoxPack
 mBoxPack
 ;
 /
@@ -21024,10 +21027,6 @@ mBoxPack
 [
 reset
 ]
-see
-nsStyleConsts
-.
-h
 bool
 mStretchStack
 ;

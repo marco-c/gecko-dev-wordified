@@ -8598,6 +8598,12 @@ End
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleBoxPack
+Start
+Justify
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleBoxSizing
 Content
 Border
@@ -59815,7 +59821,10 @@ parentXUL
 -
 >
 mBoxPack
-NS_STYLE_BOX_PACK_START
+StyleBoxPack
+:
+:
+Start
 )
 ;
 /
