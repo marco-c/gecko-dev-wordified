@@ -394,8 +394,10 @@ SyntaxError
 :
 invalid
 for
-/
+-
 in
+/
+of
 left
 -
 hand
