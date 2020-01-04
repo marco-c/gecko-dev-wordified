@@ -3429,15 +3429,6 @@ _results
 length
 ;
 }
-get
-typeAheadResult
-(
-)
-{
-return
-false
-;
-}
 /
 *
 *
