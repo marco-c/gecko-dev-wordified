@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_CustomElementsRegistry_h
+mozilla_dom_CustomElementRegistry_h
 #
 define
-mozilla_dom_CustomElementsRegistry_h
+mozilla_dom_CustomElementRegistry_h
 #
 include
 "
@@ -816,7 +816,7 @@ mDocOrder
 }
 ;
 class
-CustomElementsRegistry
+CustomElementRegistry
 final
 :
 public
@@ -845,13 +845,13 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-CustomElementsRegistry
+CustomElementRegistry
 )
 public
 :
 static
 bool
-IsCustomElementsEnabled
+IsCustomElementEnabled
 (
 JSContext
 *
@@ -864,7 +864,7 @@ aObject
 static
 already_AddRefed
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 Create
 (
@@ -1037,7 +1037,7 @@ aPrototype
 private
 :
 explicit
-CustomElementsRegistry
+CustomElementRegistry
 (
 nsPIDOMWindowInner
 *
@@ -1045,7 +1045,7 @@ aWindow
 )
 ;
 ~
-CustomElementsRegistry
+CustomElementRegistry
 (
 )
 ;
@@ -1388,7 +1388,7 @@ public
 explicit
 AutoSetRunningFlag
 (
-CustomElementsRegistry
+CustomElementRegistry
 *
 aRegistry
 )
@@ -1438,7 +1438,7 @@ false
 }
 private
 :
-CustomElementsRegistry
+CustomElementRegistry
 *
 mRegistry
 ;
@@ -1546,4 +1546,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_CustomElementsRegistry_h
+mozilla_dom_CustomElementRegistry_h

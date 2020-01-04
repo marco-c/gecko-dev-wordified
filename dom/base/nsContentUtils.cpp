@@ -376,7 +376,7 @@ mozilla
 /
 dom
 /
-CustomElementsRegistry
+CustomElementRegistry
 .
 h
 "
@@ -53533,7 +53533,7 @@ nullptr
 }
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 (
@@ -53679,7 +53679,7 @@ return
 }
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 (
@@ -53805,7 +53805,7 @@ return
 }
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 (
@@ -53938,7 +53938,7 @@ return
 }
 RefPtr
 <
-CustomElementsRegistry
+CustomElementRegistry
 >
 registry
 (

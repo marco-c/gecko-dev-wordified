@@ -651,7 +651,7 @@ class
 Crypto
 ;
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 class
 External
@@ -5084,7 +5084,7 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 *
 CustomElements
 (
@@ -12698,7 +12698,7 @@ mozilla
 dom
 :
 :
-CustomElementsRegistry
+CustomElementRegistry
 >
 mCustomElements
 ;

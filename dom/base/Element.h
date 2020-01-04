@@ -814,7 +814,7 @@ class
 Animation
 ;
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 class
 Link
@@ -2389,7 +2389,7 @@ AddStates
 .
 friend
 class
-CustomElementsRegistry
+CustomElementRegistry
 ;
 /
 /
