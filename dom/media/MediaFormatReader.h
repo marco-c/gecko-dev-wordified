@@ -1049,6 +1049,13 @@ TrackType
 aTrack
 )
 ;
+void
+DropDecodedSamples
+(
+TrackType
+aTrack
+)
+;
 bool
 ShouldSkip
 (
