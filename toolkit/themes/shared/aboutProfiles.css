@@ -422,14 +422,3 @@ float
 left
 ;
 }
-#
-action
--
-box
-button
-{
-display
-:
-block
-;
-}
