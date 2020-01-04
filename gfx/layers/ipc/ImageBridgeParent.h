@@ -392,9 +392,6 @@ SendFenceHandleIfPresent
 PTextureParent
 *
 aTexture
-CompositableHost
-*
-aCompositableHost
 )
 override
 ;
@@ -729,9 +726,6 @@ aTransactionId
 PTextureParent
 *
 aTexture
-CompositableHost
-*
-aCompositableHost
 )
 ;
 static
@@ -750,9 +744,6 @@ aTransactionId
 PTextureParent
 *
 aTexture
-CompositableHost
-*
-aCompositableHost
 )
 ;
 using

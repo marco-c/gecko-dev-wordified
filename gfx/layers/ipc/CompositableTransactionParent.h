@@ -270,9 +270,6 @@ SendFenceHandleIfPresent
 PTextureParent
 *
 aTexture
-CompositableHost
-*
-aCompositableHost
 )
 =
 0

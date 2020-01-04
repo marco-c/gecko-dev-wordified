@@ -462,9 +462,6 @@ SendFenceHandleIfPresent
 PTextureParent
 *
 aTexture
-CompositableHost
-*
-aCompositableHost
 )
 override
 ;

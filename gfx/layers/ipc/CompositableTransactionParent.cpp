@@ -1090,7 +1090,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 break
@@ -1209,7 +1208,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 /
@@ -1269,7 +1267,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 ReplyRemoveTexture
