@@ -135,6 +135,11 @@ structuredlog
 import
 get_default_logger
 set_default_logger
+from
+.
+proxy
+import
+get_proxy_logger
 #
 Backwards
 compatibility
