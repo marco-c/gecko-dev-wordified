@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsScreen
 .
 h

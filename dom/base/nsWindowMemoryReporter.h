@@ -123,6 +123,13 @@ nsWindowMemoryReporter_h__
 #
 include
 "
+nsGlobalWindow
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
