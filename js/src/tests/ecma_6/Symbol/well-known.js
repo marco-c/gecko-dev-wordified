@@ -47,6 +47,9 @@ search
 species
 "
 "
+hasInstance
+"
+"
 split
 "
 "
