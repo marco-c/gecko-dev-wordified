@@ -1727,6 +1727,7 @@ evalText
 module
 (
 import
+imp
 "
 a
 "
@@ -1750,8 +1751,8 @@ result
 i32
 )
 (
-call_import
-0
+call
+imp
 )
 )
 (

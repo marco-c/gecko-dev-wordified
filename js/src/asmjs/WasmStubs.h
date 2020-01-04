@@ -206,7 +206,7 @@ namespace
 wasm
 {
 class
-FuncExport
+FuncDefExport
 ;
 class
 FuncImport
@@ -222,9 +222,9 @@ MacroAssembler
 &
 masm
 const
-FuncExport
+FuncDefExport
 &
-fe
+func
 )
 ;
 extern

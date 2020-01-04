@@ -3126,7 +3126,7 @@ CallSiteDesc
 &
 desc
 uint32_t
-callee
+funcDefIndex
 )
 ;
 CodeOffset

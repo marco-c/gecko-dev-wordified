@@ -4580,7 +4580,7 @@ module
 static
 const
 unsigned
-WASM_FUNC_INDEX_SLOT
+WASM_FUNC_DEF_INDEX_SLOT
 =
 1
 ;
