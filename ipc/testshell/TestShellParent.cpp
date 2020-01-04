@@ -283,10 +283,12 @@ SetCallback
 JSContext
 *
 aCx
+const
 JS
 :
 :
 Value
+&
 aCallback
 )
 {
