@@ -606,7 +606,7 @@ node
 ;
 }
 }
-ScopedCERTCertNicknames
+UniqueCERTCertNicknames
 nicknames
 (
 getNSSCertNicknamesFromCertList

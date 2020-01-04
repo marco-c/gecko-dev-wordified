@@ -685,7 +685,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-ScopedNSSCMSMessage
+UniqueNSSCMSMessage
 cmsMsg
 (
 NSS_CMSMessage_CreateFromDER

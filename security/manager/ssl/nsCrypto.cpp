@@ -298,7 +298,7 @@ MOZ_NO_SMART_CARDS
 mozilla
 :
 :
-ScopedSECMODModule
+UniqueSECMODModule
 module
 (
 SECMOD_FindModule
@@ -535,7 +535,7 @@ MOZ_NO_SMART_CARDS
 mozilla
 :
 :
-ScopedSECMODModule
+UniqueSECMODModule
 module
 (
 SECMOD_FindModule

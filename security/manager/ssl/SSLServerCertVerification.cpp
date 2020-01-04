@@ -7574,7 +7574,7 @@ Parse
 the
 EKU
 extension
-ScopedCERTOidSequence
+UniqueCERTOidSequence
 ekuSequence
 (
 CERT_DecodeOidSequence
