@@ -3111,6 +3111,9 @@ is
 currently
 true
 .
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 id
@@ -3123,6 +3126,8 @@ nextTextId
 +
 +
 ;
+#
+endif
 if
 (
 id

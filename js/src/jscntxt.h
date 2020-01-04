@@ -4383,6 +4383,9 @@ runtime
 mainThreadHasExclusiveAccess
 )
 ;
+#
+ifdef
+DEBUG
 runtime
 -
 >
@@ -4390,6 +4393,8 @@ mainThreadHasExclusiveAccess
 =
 true
 ;
+#
+endif
 }
 }
 public
@@ -4444,6 +4449,9 @@ runtime
 numExclusiveThreads
 )
 {
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 runtime
@@ -4464,6 +4472,8 @@ exclusiveAccessOwner
 =
 nullptr
 ;
+#
+endif
 PR_Unlock
 (
 runtime
@@ -4483,6 +4493,9 @@ runtime
 mainThreadHasExclusiveAccess
 )
 ;
+#
+ifdef
+DEBUG
 runtime
 -
 >
@@ -4490,6 +4503,8 @@ mainThreadHasExclusiveAccess
 =
 false
 ;
+#
+endif
 }
 }
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

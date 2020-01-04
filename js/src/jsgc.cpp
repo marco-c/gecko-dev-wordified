@@ -12243,10 +12243,15 @@ unmarkedArenaStackTop
 =
 arena
 ;
+#
+ifdef
+DEBUG
 markLaterArenas
 +
 +
 ;
+#
+endif
 }
 void
 GCMarker
@@ -21776,8 +21781,6 @@ rt
 gc
 .
 lockOwner
-.
-value
 =
 nullptr
 ;
@@ -21798,8 +21801,6 @@ rt
 gc
 .
 lockOwner
-.
-value
 =
 PR_GetCurrentThread
 (
@@ -31769,6 +31770,9 @@ sweepZoneCallback
 zone
 )
 ;
+#
+ifdef
+DEBUG
 zone
 -
 >
@@ -31776,6 +31780,8 @@ gcLastZoneGroupIndex
 =
 zoneGroupIndex
 ;
+#
+endif
 }
 validateIncrementalMarking
 (
