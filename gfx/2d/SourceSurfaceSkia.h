@@ -232,6 +232,9 @@ DrawTargetSkia
 aOwner
 )
 ;
+#
+ifdef
+USE_SKIA_GPU
 /
 *
 *
@@ -261,13 +264,10 @@ DrawTargetSkia
 *
 /
 bool
-InitFromTexture
+InitFromGrTexture
 (
-DrawTargetSkia
+GrTexture
 *
-aOwner
-unsigned
-int
 aTexture
 const
 IntSize
@@ -277,6 +277,8 @@ SurfaceFormat
 aFormat
 )
 ;
+#
+endif
 virtual
 unsigned
 char
