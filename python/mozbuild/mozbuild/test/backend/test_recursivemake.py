@@ -3425,6 +3425,17 @@ c
 '
             
 '
+EXTRA_MDDEPEND_FILES
++
+=
+bar
+.
+c
+.
+pp
+'
+            
+'
 bar
 .
 c
@@ -3466,6 +3477,15 @@ baz
 bar
 .
 c
+(
+MDDEPDIR
+)
+/
+bar
+.
+c
+.
+pp
 )
 '
 %
@@ -3483,6 +3503,17 @@ GENERATED_FILES
 foo
 .
 c
+'
+            
+'
+EXTRA_MDDEPEND_FILES
++
+=
+foo
+.
+c
+.
+pp
 '
             
 '
@@ -3538,6 +3569,15 @@ main
 foo
 .
 c
+(
+MDDEPDIR
+)
+/
+foo
+.
+c
+.
+pp
 %
 s
 /
@@ -3566,6 +3606,17 @@ GENERATED_FILES
 quux
 .
 c
+'
+            
+'
+EXTRA_MDDEPEND_FILES
++
+=
+quux
+.
+c
+.
+pp
 '
         
 ]
