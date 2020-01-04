@@ -700,6 +700,12 @@ MediaTimer
 >
 mDelayedOutputTimer
 ;
+MozPromiseRequestHolder
+<
+MediaTimerPromise
+>
+mDelayedOutputRequest
+;
 /
 /
 If
