@@ -217,6 +217,11 @@ function
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 info
 (
 "
