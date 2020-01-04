@@ -127,9 +127,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

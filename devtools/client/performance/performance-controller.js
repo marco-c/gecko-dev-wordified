@@ -94,10 +94,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -145,9 +141,6 @@ require
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -785,9 +778,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -815,9 +805,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -844,9 +831,6 @@ clearNamedTimeout
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

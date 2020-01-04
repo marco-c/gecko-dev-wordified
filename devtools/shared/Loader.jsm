@@ -791,10 +791,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 "
 /
@@ -819,9 +815,6 @@ client
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -847,10 +840,6 @@ gcli
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -908,10 +897,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 acorn
@@ -940,10 +925,6 @@ walk
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -975,10 +956,6 @@ map
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -3460,9 +3437,6 @@ require
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

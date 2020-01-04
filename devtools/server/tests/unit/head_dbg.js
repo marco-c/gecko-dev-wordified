@@ -82,10 +82,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -111,10 +107,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -1295,10 +1287,6 @@ tryImport
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

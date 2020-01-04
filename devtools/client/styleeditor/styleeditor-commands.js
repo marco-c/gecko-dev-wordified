@@ -393,9 +393,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

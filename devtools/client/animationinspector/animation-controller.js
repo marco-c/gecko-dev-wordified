@@ -165,10 +165,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -206,9 +202,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

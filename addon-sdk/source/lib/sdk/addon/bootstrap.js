@@ -1203,10 +1203,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 "

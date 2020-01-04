@@ -751,10 +751,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -775,9 +771,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -802,9 +795,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -827,9 +817,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -854,9 +841,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -879,9 +863,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -906,9 +887,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -931,9 +909,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -958,9 +933,6 @@ BrowserLoader
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -1169,10 +1141,6 @@ Parser
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

@@ -203,9 +203,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

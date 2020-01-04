@@ -155,9 +155,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

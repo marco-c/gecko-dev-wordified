@@ -100,9 +100,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

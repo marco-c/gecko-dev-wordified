@@ -575,9 +575,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 ViewHelpers

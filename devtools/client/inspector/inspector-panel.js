@@ -442,9 +442,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

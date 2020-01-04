@@ -165,9 +165,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -195,10 +192,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

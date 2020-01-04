@@ -235,9 +235,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -254,9 +251,6 @@ dev
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

@@ -53,10 +53,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -239,9 +235,6 @@ VENDOR_CONTENT_URL
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -529,9 +522,6 @@ react
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

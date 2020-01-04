@@ -3323,10 +3323,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 "
 /
@@ -3351,9 +3347,6 @@ client
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -3412,10 +3405,6 @@ map
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

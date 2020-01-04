@@ -153,9 +153,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -182,10 +179,6 @@ EventEmitter
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

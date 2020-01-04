@@ -164,9 +164,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -193,9 +190,6 @@ VariablesView
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

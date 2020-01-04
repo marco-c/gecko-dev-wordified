@@ -94,9 +94,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

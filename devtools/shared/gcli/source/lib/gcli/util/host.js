@@ -809,10 +809,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 '

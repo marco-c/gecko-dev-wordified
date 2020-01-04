@@ -244,9 +244,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -517,9 +514,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -538,9 +532,6 @@ TILT_PICKER
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

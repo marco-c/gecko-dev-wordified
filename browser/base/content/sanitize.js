@@ -317,10 +317,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 Console

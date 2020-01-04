@@ -115,10 +115,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -946,9 +942,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -1275,9 +1268,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -1305,10 +1295,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

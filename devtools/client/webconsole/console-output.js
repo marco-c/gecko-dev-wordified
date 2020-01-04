@@ -128,9 +128,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -158,9 +155,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -187,9 +181,6 @@ gDevTools
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

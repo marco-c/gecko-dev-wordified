@@ -141,10 +141,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -168,10 +164,6 @@ require
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -198,10 +190,6 @@ require
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

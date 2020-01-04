@@ -143,9 +143,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 "
 }

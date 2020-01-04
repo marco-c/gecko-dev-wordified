@@ -94,9 +94,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -125,9 +122,6 @@ BrowserLoader
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

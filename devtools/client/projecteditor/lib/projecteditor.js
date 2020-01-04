@@ -331,9 +331,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -363,9 +360,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

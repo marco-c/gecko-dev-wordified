@@ -2995,10 +2995,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 server
@@ -5257,10 +5253,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 server
@@ -6229,10 +6221,6 @@ loadFrameScript
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

@@ -281,10 +281,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -304,10 +300,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 acorn
@@ -324,10 +316,6 @@ importScripts
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -347,10 +335,6 @@ importScripts
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

@@ -1789,10 +1789,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 "
 )
@@ -1811,9 +1807,6 @@ indexOf
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 "

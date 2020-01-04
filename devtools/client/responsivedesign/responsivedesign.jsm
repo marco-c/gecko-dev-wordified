@@ -163,9 +163,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -187,10 +184,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -211,9 +204,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -265,10 +255,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -1151,9 +1137,6 @@ loadFrameScript
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

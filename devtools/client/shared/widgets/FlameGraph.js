@@ -95,9 +95,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -124,9 +121,6 @@ require
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
