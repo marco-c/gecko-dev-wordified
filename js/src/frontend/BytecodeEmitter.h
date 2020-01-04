@@ -4792,10 +4792,6 @@ type
 ParseNode
 *
 pn
-bool
-allowSelfHosted
-=
-false
 )
 ;
 bool
