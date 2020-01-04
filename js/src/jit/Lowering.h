@@ -2409,6 +2409,14 @@ ins
 )
 ;
 void
+visitGuardSharedTypedArray
+(
+MGuardSharedTypedArray
+*
+ins
+)
+;
+void
 visitCheckReturn
 (
 MCheckReturn

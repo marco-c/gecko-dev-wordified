@@ -28625,7 +28625,7 @@ loadPtr
 Address
 (
 obj
-TypedArrayLayout
+TypedArrayObject
 :
 :
 dataOffset

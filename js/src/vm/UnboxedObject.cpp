@@ -7217,6 +7217,8 @@ not
 /
 use
 emptyObjectElements
+/
+emptyObjectElementsShared
 .
 if
 (
