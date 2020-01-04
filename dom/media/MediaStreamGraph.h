@@ -2194,9 +2194,19 @@ s
 bound
 *
 track
+using
+the
+thread
+of
+the
+AppendToTrack
+(
+)
+caller
 .
 The
 MediaSegment
+*
 will
 be
 the
@@ -2206,7 +2216,6 @@ unresampled
 )
 if
 available
-*
 in
 AppendToTrack
 (
@@ -2268,7 +2277,6 @@ NotifyQueuedTrackChanges
 calls
 will
 also
-*
 still
 occur
 .
@@ -3494,8 +3502,8 @@ processed
 on
 the
 graph
-*
 manager
+*
 thread
 we
 immediately

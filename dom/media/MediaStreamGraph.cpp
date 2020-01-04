@@ -1363,7 +1363,7 @@ aStream
 mUpdateFinished
 ;
 bool
-notifiedTrackCreated
+shouldNotifyTrackCreated
 =
 false
 ;
@@ -1729,7 +1729,7 @@ SourceMediaStream
 :
 TRACK_CREATE
 ;
-notifiedTrackCreated
+shouldNotifyTrackCreated
 =
 true
 ;
@@ -1904,7 +1904,7 @@ i
 }
 if
 (
-notifiedTrackCreated
+shouldNotifyTrackCreated
 )
 {
 for
