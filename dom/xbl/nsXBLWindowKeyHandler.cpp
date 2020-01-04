@@ -2378,7 +2378,7 @@ WidgetEventPtr
 )
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 if

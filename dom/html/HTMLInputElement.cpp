@@ -18748,7 +18748,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 !
 =
 this
@@ -18844,7 +18844,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 =
 textControl
@@ -20667,7 +20667,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 if
@@ -21145,7 +21145,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 )
 {

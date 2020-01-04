@@ -29750,7 +29750,7 @@ do_QueryInterface
 aDropEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 if

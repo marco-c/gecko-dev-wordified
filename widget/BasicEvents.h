@@ -985,7 +985,7 @@ target
 is
 set
 to
-originalTarget
+mOriginalTarget
 .
 bool
 mRetargetToNonNativeAnonymous
@@ -2810,7 +2810,7 @@ dom
 :
 EventTarget
 >
-originalTarget
+mOriginalTarget
 ;
 void
 AssignEventData
@@ -2917,13 +2917,13 @@ mCurrentTarget
 :
 nullptr
 ;
-originalTarget
+mOriginalTarget
 =
 aCopyTargets
 ?
 aEvent
 .
-originalTarget
+mOriginalTarget
 :
 nullptr
 ;

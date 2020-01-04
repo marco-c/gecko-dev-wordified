@@ -7345,7 +7345,7 @@ do_QueryInterface
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 RefPtr

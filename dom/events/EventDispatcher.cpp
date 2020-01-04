@@ -2331,7 +2331,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 ;
 /
 /
@@ -2974,7 +2974,7 @@ newTarget
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 target
 ;
@@ -3597,12 +3597,12 @@ retargeted
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 -
 >
 GetTargetForEventTargetChain
@@ -3614,7 +3614,7 @@ NS_ENSURE_STATE
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 }
@@ -3623,7 +3623,7 @@ else
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 aEvent
 -
@@ -3642,7 +3642,7 @@ do_QueryInterface
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 bool
@@ -4504,7 +4504,7 @@ nullptr
 innerEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 nullptr
 ;
