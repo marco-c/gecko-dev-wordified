@@ -328,16 +328,6 @@ HTMLLIAccessible
 )
 {
 }
-/
-/
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 private
 :
 RefPtr

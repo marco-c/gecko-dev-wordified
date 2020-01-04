@@ -6197,7 +6197,7 @@ see
 HTMLTableAccessible
 :
 :
-CacheChildren
+InsertChildAt
 )
 .
 return

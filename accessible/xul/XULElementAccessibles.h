@@ -214,13 +214,6 @@ aName
 )
 override
 ;
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 private
 :
 RefPtr
