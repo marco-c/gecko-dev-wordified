@@ -896,7 +896,7 @@ aList
 ifdef
 DEBUG
 void
-SanityCheckAnonymousGridItems
+SanityCheckGridItemsBeforeReflow
 (
 )
 const
