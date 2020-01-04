@@ -477,7 +477,7 @@ shorthands
 and
 shorthands
 with
-less
+fewer
 components
 are
 sorted
