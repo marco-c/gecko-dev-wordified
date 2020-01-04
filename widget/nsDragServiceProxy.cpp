@@ -327,8 +327,7 @@ DrawDrag
 (
 mSourceNode
 aRegion
-mScreenX
-mScreenY
+mScreenPosition
 &
 dragRect
 &
