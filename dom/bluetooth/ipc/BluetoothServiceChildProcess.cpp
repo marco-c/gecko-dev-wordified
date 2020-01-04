@@ -1958,9 +1958,7 @@ int64_t
 aDuration
 int64_t
 aPosition
-const
-nsAString
-&
+ControlPlayStatus
 aPlayStatus
 BluetoothReplyRunnable
 *
@@ -1974,10 +1972,7 @@ SendPlayStatusRequest
 (
 aDuration
 aPosition
-nsString
-(
 aPlayStatus
-)
 )
 )
 ;
