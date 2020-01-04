@@ -244,6 +244,7 @@ madness
 add_task
 (
 function
+*
 test_onepw_setup_credentials
 (
 )
@@ -473,6 +474,7 @@ unwrapKey
 add_task
 (
 function
+*
 test_client_stretch_kdf
 (
 )

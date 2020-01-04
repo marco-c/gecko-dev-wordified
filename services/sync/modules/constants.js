@@ -1359,6 +1359,16 @@ M
 %
 S
 "
+DEVICE_TYPE_DESKTOP
+:
+"
+desktop
+"
+DEVICE_TYPE_MOBILE
+:
+"
+mobile
+"
 }
 )
 )
