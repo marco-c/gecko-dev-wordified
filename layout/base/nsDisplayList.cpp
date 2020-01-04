@@ -2691,9 +2691,15 @@ direction
 (
 )
 =
+static_cast
+<
+uint32_t
+>
+(
 timing
 .
 mDirection
+)
 ;
 animation
 -
