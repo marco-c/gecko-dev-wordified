@@ -24548,6 +24548,12 @@ true
 return
 !
 sIsDisabled
+&
+&
+!
+XRE_IsContentProcess
+(
+)
 ;
 }
 nsIDOMOfflineResourceList
@@ -48603,11 +48609,6 @@ if
 (
 !
 IsShowModalDialogEnabled
-(
-)
-|
-|
-XRE_IsContentProcess
 (
 )
 )
