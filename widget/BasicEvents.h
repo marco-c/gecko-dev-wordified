@@ -2792,7 +2792,7 @@ dom
 :
 EventTarget
 >
-target
+mTarget
 ;
 nsCOMPtr
 <
@@ -2897,13 +2897,13 @@ it
 s
 necessary
 .
-target
+mTarget
 =
 aCopyTargets
 ?
 aEvent
 .
-target
+mTarget
 :
 nullptr
 ;

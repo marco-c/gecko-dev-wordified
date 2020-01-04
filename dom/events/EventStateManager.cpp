@@ -18187,7 +18187,7 @@ use
 aEvent
 -
 >
-target
+mTarget
 |
 to
 not
@@ -18197,9 +18197,9 @@ we
 do
 not
 check
+/
+/
 an
-/
-/
 anonymous
 node
 of
@@ -18236,7 +18236,7 @@ do_QueryInterface
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 suppressBlur
@@ -18274,7 +18274,7 @@ do_QueryInterface
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 if

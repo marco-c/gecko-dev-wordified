@@ -1800,7 +1800,7 @@ aVisitor
 mEvent
 -
 >
-target
+mTarget
 ;
 uint32_t
 chainLength
@@ -1976,7 +1976,7 @@ aVisitor
 mEvent
 -
 >
-target
+mTarget
 =
 newTarget
 ;
@@ -2152,7 +2152,7 @@ aVisitor
 mEvent
 -
 >
-target
+mTarget
 =
 newTarget
 ;
@@ -2324,7 +2324,7 @@ aVisitor
 mEvent
 -
 >
-target
+mTarget
 =
 aVisitor
 .
@@ -2402,7 +2402,7 @@ aVisitor
 mEvent
 -
 >
-target
+mTarget
 =
 firstTarget
 ;
@@ -3085,7 +3085,7 @@ target
 aEvent
 -
 >
-target
+mTarget
 =
 target
 ;
@@ -3464,7 +3464,7 @@ if
 aEvent
 -
 >
-target
+mTarget
 )
 {
 /
@@ -3489,7 +3489,7 @@ GetTargetForEventTargetChain
 aEvent
 -
 >
-target
+mTarget
 =
 targetEtci
 -
@@ -3568,12 +3568,12 @@ object
 aEvent
 -
 >
-target
+mTarget
 =
 aEvent
 -
 >
-target
+mTarget
 -
 >
 GetTargetForEventTargetChain
@@ -3585,7 +3585,7 @@ NS_ENSURE_STATE
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 }
@@ -3628,7 +3628,7 @@ originalTarget
 aEvent
 -
 >
-target
+mTarget
 ;
 }
 nsCOMPtr
@@ -3845,7 +3845,7 @@ do_QueryInterface
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 targetEtci
@@ -3963,7 +3963,7 @@ preVisitor
 mEvent
 -
 >
-target
+mTarget
 =
 preVisitor
 .
@@ -4497,7 +4497,7 @@ mDispatchedAtLeastOnce
 innerEvent
 -
 >
-target
+mTarget
 =
 nullptr
 ;
