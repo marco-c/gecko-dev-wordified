@@ -62,11 +62,8 @@ char
 sPluginName
 =
 "
+Shockwave
 Flash
-Test
-Plug
--
-in
 "
 ;
 const
