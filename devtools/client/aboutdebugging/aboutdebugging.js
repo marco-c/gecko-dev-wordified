@@ -71,7 +71,6 @@ AddonsComponent
 DebuggerClient
 DebuggerServer
 React
-RuntimesComponent
 WorkersComponent
 *
 /
@@ -88,9 +87,6 @@ Cc
 interfaces
 :
 Ci
-utils
-:
-Cu
 }
 =
 Components
