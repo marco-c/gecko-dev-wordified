@@ -463,6 +463,16 @@ aUsingDisk
 )
 ;
 static
+uint32_t
+MaxShutdownIOLag
+(
+)
+{
+return
+sMaxShutdownIOLag
+;
+}
+static
 bool
 IsPastShutdownIOLag
 (
