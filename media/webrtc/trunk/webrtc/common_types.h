@@ -2565,6 +2565,9 @@ kAudioLinuxAlsa
 kAudioLinuxPulse
 =
 4
+kAudioSndio
+=
+5
 }
 ;
 /
