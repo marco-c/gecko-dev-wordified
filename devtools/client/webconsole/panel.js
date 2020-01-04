@@ -667,9 +667,9 @@ n
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )

@@ -2053,9 +2053,12 @@ if
 tabClient
 )
 {
-Cu
+console
 .
-reportError
+error
+(
+new
+Error
 (
 "
 Responsive
@@ -2066,6 +2069,7 @@ to
 attach
 tab
 "
+)
 )
 ;
 }
@@ -2145,9 +2149,9 @@ pref
 is
 malformated
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Could
@@ -2210,9 +2214,9 @@ presets
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Presets

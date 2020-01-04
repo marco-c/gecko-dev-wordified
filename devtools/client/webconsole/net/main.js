@@ -629,9 +629,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 key
 +

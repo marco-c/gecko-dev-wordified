@@ -365,9 +365,9 @@ onError
 aReason
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 WebAudioEditorPanel

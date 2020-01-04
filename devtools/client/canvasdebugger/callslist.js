@@ -2345,9 +2345,15 @@ index
 .
 catch
 (
-Cu
+e
+=
+>
+console
 .
-reportError
+error
+(
+e
+)
 )
 ;
 }

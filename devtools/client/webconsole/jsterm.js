@@ -1983,9 +1983,9 @@ response
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Evaluation
@@ -5594,9 +5594,9 @@ response
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Web

@@ -684,9 +684,15 @@ resolve
 (
 msgs
 )
-Cu
+e
+=
+>
+console
 .
-reportError
+error
+(
+e
+)
 )
 ;
 return

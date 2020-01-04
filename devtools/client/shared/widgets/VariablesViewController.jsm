@@ -4612,9 +4612,9 @@ aSource
 .
 type
 ;
-Cu
+console
 .
-reportError
+error
 (
 error
 )

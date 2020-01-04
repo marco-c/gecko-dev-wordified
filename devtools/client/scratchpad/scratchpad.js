@@ -3862,9 +3862,9 @@ executionContext
 SCRATCHPAD_CONTEXT_CONTENT
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 this
 .
@@ -14442,9 +14442,9 @@ aAction
 aResponse
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 aAction
 +
