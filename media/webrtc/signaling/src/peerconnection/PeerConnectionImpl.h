@@ -3144,16 +3144,6 @@ ClearSdpParseErrorMessages
 (
 )
 ;
-void
-OnAddIceCandidateError
-(
-)
-{
-+
-+
-mAddCandidateErrorCount
-;
-}
 /
 /
 Called
