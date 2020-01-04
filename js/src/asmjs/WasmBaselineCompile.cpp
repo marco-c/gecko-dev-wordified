@@ -41752,12 +41752,6 @@ defined
 (
 JS_CODEGEN_X64
 )
-|
-|
-defined
-(
-JS_CODEGEN_X86
-)
 if
 (
 !
