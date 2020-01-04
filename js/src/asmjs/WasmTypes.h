@@ -3916,6 +3916,8 @@ OnOutOfBounds
 OnImpreciseConversion
 BadIndirectCall
 UnreachableTrap
+IntegerOverflowTrap
+InvalidConversionToIntegerTrap
 HandleExecutionInterrupt
 InvokeImport_Void
 InvokeImport_I32
@@ -4047,6 +4049,8 @@ OutOfBounds
 ConversionError
 BadIndirectCall
 UnreachableTrap
+IntegerOverflowTrap
+InvalidConversionToIntegerTrap
 Throw
 Limit
 }
