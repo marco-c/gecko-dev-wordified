@@ -666,6 +666,7 @@ message
 messageText
 )
 repeat
+location
 )
 attachment
 )
