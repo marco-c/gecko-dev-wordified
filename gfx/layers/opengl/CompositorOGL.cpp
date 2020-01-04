@@ -7237,7 +7237,7 @@ gfx
 :
 :
 Matrix4x4
-transform
+backdropTransform
 ;
 gfx
 :
@@ -7251,7 +7251,7 @@ aRect
 aClipRect
 aTransform
 &
-transform
+backdropTransform
 )
 ;
 mixBlendBackdrop
@@ -7273,7 +7273,7 @@ program
 >
 SetBackdropTransform
 (
-transform
+backdropTransform
 )
 ;
 }
