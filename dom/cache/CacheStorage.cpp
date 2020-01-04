@@ -699,11 +699,9 @@ get_ContentPrincipalInfo
 (
 )
 .
-attrs
+appId
 (
 )
-.
-mAppId
 =
 =
 nsIScriptSecurityManager
