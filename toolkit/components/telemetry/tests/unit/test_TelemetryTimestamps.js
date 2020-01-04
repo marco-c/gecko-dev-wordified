@@ -292,6 +292,9 @@ head
 .
 .
 /
+.
+.
+/
 mozapps
 /
 extensions
