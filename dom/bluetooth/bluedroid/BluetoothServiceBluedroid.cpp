@@ -5275,6 +5275,11 @@ aRunnable
 if
 (
 aAccept
+&
+&
+aPinCode
+.
+mLength
 )
 {
 sBtCoreInterface
