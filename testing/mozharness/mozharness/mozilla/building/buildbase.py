@@ -8723,25 +8723,6 @@ dated
 builds
 '
 )
-            
-post_upload_cmd
-.
-append
-(
-'
--
--
-release
--
-to
--
-latest
--
-tinderbox
--
-builds
-'
-)
         
 if
 c
