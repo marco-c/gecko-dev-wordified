@@ -1281,12 +1281,15 @@ false
 AccessibleCaretManager
 owns
 us
+by
+a
+UniquePtr
 .
 When
 it
 '
 s
-destroyed
+terminated
 by
 /
 /
@@ -1317,6 +1320,7 @@ No
 need
 to
 worry
+if
 we
 /
 /
