@@ -479,13 +479,6 @@ true
 }
 virtual
 bool
-UseAcceleratedSkiaCanvas
-(
-)
-override
-;
-virtual
-bool
 UseProgressivePaint
 (
 )
