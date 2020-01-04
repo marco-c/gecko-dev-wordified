@@ -1541,12 +1541,7 @@ void
 NotifyAnimationTimingUpdated
 (
 )
-{
-UpdateTargetRegistration
-(
-)
 ;
-}
 Nullable
 <
 TimeDuration
