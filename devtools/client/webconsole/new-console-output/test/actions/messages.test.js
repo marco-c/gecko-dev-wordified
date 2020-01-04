@@ -67,6 +67,8 @@ mock
 store
 "
 )
+.
+default
 ;
 const
 {
