@@ -1041,9 +1041,8 @@ construction
 *
 -
 mPrintSettings
-mPageSetup
 and
-mPaperSize
+mPageSetup
 are
 just
 new
@@ -1084,10 +1083,6 @@ mPrintSettings
 GtkPrinter
 *
 mGTKPrinter
-;
-GtkPaperSize
-*
-mPaperSize
 ;
 bool
 mPrintSelectionOnly
