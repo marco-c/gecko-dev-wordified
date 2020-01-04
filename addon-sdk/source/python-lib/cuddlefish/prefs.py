@@ -544,6 +544,18 @@ xml
 '
     
 '
+media
+.
+gmp
+-
+manager
+.
+updateEnabled
+'
+:
+False
+    
+'
 browser
 .
 aboutHomeSnippets
