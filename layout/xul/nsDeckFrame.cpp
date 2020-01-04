@@ -1088,7 +1088,7 @@ box
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )

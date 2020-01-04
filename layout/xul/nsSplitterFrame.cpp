@@ -3404,7 +3404,7 @@ childBox
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 mParentBox
 )
@@ -4932,7 +4932,7 @@ childBox
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aParentBox
 )
@@ -5052,7 +5052,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 mOuter
 )

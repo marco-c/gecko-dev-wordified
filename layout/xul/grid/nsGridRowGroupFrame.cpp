@@ -329,7 +329,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )

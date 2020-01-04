@@ -522,7 +522,7 @@ aMaxSize
 static
 nsIFrame
 *
-GetChildBox
+GetChildXULBox
 (
 const
 nsIFrame

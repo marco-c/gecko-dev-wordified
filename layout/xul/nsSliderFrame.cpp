@@ -1715,7 +1715,7 @@ thumb
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )
@@ -2119,7 +2119,7 @@ thumbBox
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )
