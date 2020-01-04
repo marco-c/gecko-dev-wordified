@@ -2052,7 +2052,7 @@ context
 =
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 ;
