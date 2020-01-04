@@ -2104,6 +2104,7 @@ if
 (
 sigIndex
 >
+=
 init
 -
 >
