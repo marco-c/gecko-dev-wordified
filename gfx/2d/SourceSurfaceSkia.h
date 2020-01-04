@@ -232,6 +232,15 @@ DrawTargetSkia
 aOwner
 )
 ;
+void
+InitFromBitmap
+(
+const
+SkBitmap
+&
+aBitmap
+)
+;
 #
 ifdef
 USE_SKIA_GPU
