@@ -903,21 +903,8 @@ objects
 when
 COMPILE_ENVIRONMENT
 is
-explicitely
-        
-#
+not
 set
-to
-a
-value
-meaning
-false
-(
-usually
-'
-'
-)
-.
         
 if
 self
@@ -931,7 +918,6 @@ get
 '
 COMPILE_ENVIRONMENT
 '
-True
 )
 :
             
