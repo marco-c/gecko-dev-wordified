@@ -132,8 +132,6 @@ eventNames
 emit
 (
 "
-redux
-:
 activeEventNames
 "
 state
@@ -199,8 +197,8 @@ listeners
 emit
 (
 "
-redux
-:
+event
+-
 listeners
 "
 state

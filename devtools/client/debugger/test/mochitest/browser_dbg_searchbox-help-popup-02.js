@@ -441,8 +441,8 @@ ok
 isCaretPos
 (
 gPanel
-6
-1
+4
+22
 )
 "
 The
@@ -466,8 +466,8 @@ isEditorSel
 (
 gPanel
 [
-165
-165
+125
+131
 ]
 )
 "
@@ -493,6 +493,9 @@ getSelection
 (
 )
 "
+Call
+(
+)
 "
 "
 The
