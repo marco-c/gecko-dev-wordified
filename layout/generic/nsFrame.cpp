@@ -18580,6 +18580,13 @@ Clear
 (
 )
 ;
+clipState
+.
+SetScrollClipForContainingBlockDescendants
+(
+nullptr
+)
+;
 }
 /
 /
