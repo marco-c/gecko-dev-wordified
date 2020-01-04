@@ -122,6 +122,9 @@ NamespaceImports
 h
 "
 #
+if
+ENABLE_INTL_API
+#
 include
 "
 unicode
@@ -130,6 +133,8 @@ utypes
 .
 h
 "
+#
+endif
 /
 *
 *
@@ -1306,6 +1311,9 @@ Value
 vp
 )
 ;
+#
+if
+ENABLE_INTL_API
 /
 *
 *
@@ -1369,6 +1377,11 @@ chars
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_INTL_API
 }
 /
 /
