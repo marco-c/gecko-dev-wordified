@@ -873,7 +873,7 @@ bundlePreferences
 getString
 (
 "
-notificationspermissionstext2
+notificationspermissionstext3
 "
 )
 ;
