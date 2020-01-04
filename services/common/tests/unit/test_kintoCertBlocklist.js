@@ -44,9 +44,7 @@ services
 -
 common
 /
-blocklist
--
-clients
+KintoBlocklist
 .
 js
 "
@@ -347,9 +345,9 @@ setCharPref
 "
 services
 .
-settings
+kinto
 .
-server
+base
 "
 http
 :
@@ -794,9 +792,9 @@ clearUserPref
 "
 services
 .
-settings
+kinto
 .
-server
+base
 "
 )
 ;
@@ -869,7 +867,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -903,7 +901,7 @@ getIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1212,6 +1210,8 @@ settings
 :
 {
 "
+cliquet
+.
 batch_max_requests
 "
 :
