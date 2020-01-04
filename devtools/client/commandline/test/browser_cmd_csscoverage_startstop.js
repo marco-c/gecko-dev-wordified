@@ -47,9 +47,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 csscoverage
 "
@@ -467,7 +467,7 @@ actualVisited
 yield
 usage
 .
-_testOnly_visitedPages
+_testOnlyVisitedPages
 (
 )
 ;
