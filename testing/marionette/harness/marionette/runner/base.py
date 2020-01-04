@@ -5570,6 +5570,21 @@ get
 emulator_bin
 '
 )
+                
+'
+avd
+'
+:
+self
+.
+extra_kwargs
+.
+get
+(
+'
+avd
+'
+)
             
 }
 )
