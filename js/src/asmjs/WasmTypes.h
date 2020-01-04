@@ -540,6 +540,9 @@ SystemAllocPolicy
 Uint32Vector
 ;
 class
+Code
+;
+class
 Memory
 ;
 class
