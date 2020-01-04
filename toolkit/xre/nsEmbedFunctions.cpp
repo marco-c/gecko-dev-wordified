@@ -3598,6 +3598,9 @@ NS_ERROR_FAILURE
 ;
 }
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 if
 defined
 (
@@ -3616,6 +3619,8 @@ InitChildProcessTmpDir
 (
 )
 ;
+#
+endif
 #
 endif
 #
