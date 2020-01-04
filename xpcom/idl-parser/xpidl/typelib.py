@@ -2028,6 +2028,10 @@ only
 care
 about
 interfaces
+that
+are
+scriptable
+.
     
 ifaces
 =
@@ -2051,6 +2055,12 @@ kind
 '
 interface
 '
+and
+p
+.
+attributes
+.
+scriptable
 :
             
 ifaces
