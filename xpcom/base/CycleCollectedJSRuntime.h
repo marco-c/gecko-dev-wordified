@@ -1114,11 +1114,15 @@ uint32_t
 aRecursionDepth
 )
 ;
+public
+:
 void
 ProcessStableStateQueue
 (
 )
 ;
+private
+:
 void
 ProcessMetastableStateQueue
 (
