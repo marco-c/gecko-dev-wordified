@@ -465,8 +465,7 @@ virtual
 GetFilesHelper
 (
 )
-{
-}
+;
 void
 SetDirectoryPath
 (
