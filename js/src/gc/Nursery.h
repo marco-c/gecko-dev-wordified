@@ -425,9 +425,6 @@ Nursery
 class
 HeapSlot
 ;
-class
-ObjectGroup
-;
 void
 SetGCZeal
 (
@@ -1207,16 +1204,6 @@ MaxNurseryBufferSize
 =
 1024
 ;
-typedef
-Vector
-<
-ObjectGroup
-*
-0
-SystemAllocPolicy
->
-ObjectGroupList
-;
 /
 *
 *
@@ -1254,9 +1241,6 @@ gcreason
 :
 Reason
 reason
-ObjectGroupList
-*
-pretenureGroups
 )
 ;
 /
