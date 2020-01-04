@@ -704,12 +704,8 @@ replacement_task_id
 =
 task
 .
-kind
-.
-optimize_task
+optimize
 (
-task
-named_task_dependencies
 )
         
 task
