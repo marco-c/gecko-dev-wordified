@@ -2763,12 +2763,6 @@ OffMainThreadCompositingEnabled
 (
 )
 ;
-static
-bool
-CanUseDirect3D9
-(
-)
-;
 virtual
 bool
 CanUseHardwareVideoDecoding

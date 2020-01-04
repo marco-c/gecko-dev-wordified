@@ -1503,6 +1503,11 @@ InitializeConfig
 )
 ;
 void
+InitializeD3D9Config
+(
+)
+;
+void
 InitializeD3D11Config
 (
 )
