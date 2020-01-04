@@ -6269,6 +6269,14 @@ dataPointer
 nullptr
 )
 ;
+MOZ_ASSERT
+(
+offset
+<
+=
+INT32_MAX
+)
+;
 if
 (
 buf
