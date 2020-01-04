@@ -165,7 +165,7 @@ necessary
 /
 keys
 to
-decypt
+decrypt
 a
 given
 sample
@@ -185,6 +185,9 @@ SamplesWaitingForKey
 MediaDataDecoder
 *
 aDecoder
+MediaDataDecoderCallback
+*
+aCallback
 TaskQueue
 *
 aTaskQueue
@@ -287,6 +290,10 @@ RefPtr
 MediaDataDecoder
 >
 mDecoder
+;
+MediaDataDecoderCallback
+*
+mDecoderCallback
 ;
 RefPtr
 <

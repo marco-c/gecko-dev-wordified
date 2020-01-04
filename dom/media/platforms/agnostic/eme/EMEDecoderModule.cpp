@@ -266,6 +266,10 @@ new
 SamplesWaitingForKey
 (
 this
+this
+-
+>
+mCallback
 mTaskQueue
 mProxy
 )
@@ -1151,6 +1155,7 @@ new
 SamplesWaitingForKey
 (
 this
+aCallback
 aTaskQueue
 aProxy
 )

@@ -157,6 +157,9 @@ SamplesWaitingForKey
 MediaDataDecoder
 *
 aDecoder
+MediaDataDecoderCallback
+*
+aCallback
 TaskQueue
 *
 aTaskQueue
@@ -174,6 +177,10 @@ SamplesWaitingForKey
 mDecoder
 (
 aDecoder
+)
+mDecoderCallback
+(
+aCallback
 )
 mTaskQueue
 (
@@ -280,6 +287,13 @@ aSample
 )
 ;
 }
+mDecoderCallback
+-
+>
+WaitingForKey
+(
+)
+;
 caps
 .
 NotifyWhenKeyIdUsable
