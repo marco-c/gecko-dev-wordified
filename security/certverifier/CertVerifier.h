@@ -842,11 +842,6 @@ mode
 ;
 }
 ;
-void
-InitCertVerifierLog
-(
-)
-;
 mozilla
 :
 :

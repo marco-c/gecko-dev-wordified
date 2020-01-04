@@ -372,12 +372,6 @@ CertVerifier
 )
 {
 }
-void
-InitCertVerifierLog
-(
-)
-{
-}
 Result
 IsCertChainRootBuiltInRoot
 (

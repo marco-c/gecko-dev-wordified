@@ -336,16 +336,6 @@ NSS_NoDB_Init
 nullptr
 )
 ;
-mozilla
-:
-:
-psm
-:
-:
-InitCertVerifierLog
-(
-)
-;
 }
 const
 Time
