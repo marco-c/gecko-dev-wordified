@@ -25432,7 +25432,7 @@ return
 false
 ;
 }
-JS_snprintf
+snprintf
 (
 name
 sizeof

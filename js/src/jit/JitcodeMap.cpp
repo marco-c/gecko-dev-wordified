@@ -2116,10 +2116,13 @@ isForEval
 {
 linenoLength
 =
-JS_snprintf
+snprintf
 (
 linenoStr
-15
+sizeof
+(
+linenoStr
+)
 "
 %
 "

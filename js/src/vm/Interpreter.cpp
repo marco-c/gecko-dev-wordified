@@ -25726,7 +25726,7 @@ numBuf
 12
 ]
 ;
-JS_snprintf
+snprintf
 (
 numBuf
 sizeof

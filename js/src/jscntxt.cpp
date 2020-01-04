@@ -3919,7 +3919,7 @@ messagep
 goto
 error
 ;
-JS_snprintf
+snprintf
 (
 *
 messagep
@@ -4795,7 +4795,7 @@ argbuf
 UniqueChars
 bytes
 ;
-JS_snprintf
+snprintf
 (
 argbuf
 sizeof
@@ -6522,7 +6522,7 @@ msgbuf
 1024
 ]
 ;
-JS_snprintf
+snprintf
 (
 msgbuf
 sizeof

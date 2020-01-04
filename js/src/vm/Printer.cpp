@@ -971,7 +971,7 @@ ap
 int
 i
 =
-JS_vsnprintf
+vsnprintf
 (
 base
 +

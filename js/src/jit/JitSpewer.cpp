@@ -925,7 +925,7 @@ len
 ;
 len
 =
-JS_snprintf
+snprintf
 (
 jsonBuffer
 bufferLength
@@ -980,7 +980,7 @@ jsonBuffer
 ;
 len
 =
-JS_snprintf
+snprintf
 (
 c1Buffer
 bufferLength

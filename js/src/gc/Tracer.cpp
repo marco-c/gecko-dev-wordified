@@ -716,7 +716,7 @@ contextIndex_
 InvalidIndex
 )
 {
-JS_snprintf
+snprintf
 (
 buffer
 bufferSize
@@ -725,7 +725,9 @@ bufferSize
 s
 [
 %
-lu
+"
+PRIuSIZE
+"
 ]
 "
 contextName_
@@ -735,7 +737,7 @@ contextIndex_
 return
 ;
 }
-JS_snprintf
+snprintf
 (
 buffer
 bufferSize
@@ -2785,7 +2787,7 @@ flags
 JSCLASS_HAS_PRIVATE
 )
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -2811,7 +2813,7 @@ getPrivate
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -2850,7 +2852,7 @@ JSScript
 thing
 )
 ;
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -2953,7 +2955,7 @@ bufsize
 ;
 n
 =
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -3013,7 +3015,7 @@ asLinear
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -3122,7 +3124,7 @@ asLinear
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -3138,7 +3140,7 @@ desc
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize

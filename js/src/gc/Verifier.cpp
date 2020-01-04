@@ -2088,7 +2088,7 @@ msgbuf
 1024
 ]
 ;
-JS_snprintf
+snprintf
 (
 msgbuf
 sizeof

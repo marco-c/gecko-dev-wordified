@@ -3795,10 +3795,10 @@ globalRuntimeId
 +
 +
 ;
-size_t
+int
 len
 =
-JS_snprintf
+snprintf
 (
 name
 length
@@ -3832,9 +3832,12 @@ rid
 if
 (
 length
-<
+!
 =
+size_t
+(
 len
+)
 )
 {
 fprintf

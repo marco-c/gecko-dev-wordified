@@ -492,7 +492,7 @@ number
 int
 digits
 =
-JS_snprintf
+snprintf
 (
 number
 sizeof

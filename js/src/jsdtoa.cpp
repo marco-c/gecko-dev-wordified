@@ -996,7 +996,7 @@ numBegin
 '
 ;
 }
-JS_snprintf
+snprintf
 (
 numEnd
 bufferSize

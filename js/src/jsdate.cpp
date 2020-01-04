@@ -15559,7 +15559,7 @@ utctime
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buf
 size
@@ -15674,7 +15674,7 @@ utctime
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buf
 size
@@ -15789,7 +15789,7 @@ utctime
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buf
 size
@@ -15942,7 +15942,7 @@ IsFinite
 utctime
 )
 )
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -16697,7 +16697,7 @@ date
 )
 )
 {
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -17211,7 +17211,7 @@ PST
 )
 *
 /
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -17332,7 +17332,7 @@ Oct
 2000
 *
 /
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -17405,7 +17405,7 @@ PST
 )
 *
 /
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -17555,7 +17555,7 @@ utctime
 )
 )
 {
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -17850,7 +17850,7 @@ YearFromTime
 localtime
 )
 ;
-JS_snprintf
+snprintf
 (
 buf
 +

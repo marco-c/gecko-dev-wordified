@@ -17494,7 +17494,7 @@ isUnlimited
 )
 )
 return
-JS_snprintf
+snprintf
 (
 buffer
 maxlen
@@ -17511,7 +17511,7 @@ isWorkBudget
 )
 )
 return
-JS_snprintf
+snprintf
 (
 buffer
 maxlen
@@ -17531,7 +17531,7 @@ budget
 ;
 else
 return
-JS_snprintf
+snprintf
 (
 buffer
 maxlen

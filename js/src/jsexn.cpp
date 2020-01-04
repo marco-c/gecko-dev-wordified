@@ -4698,7 +4698,7 @@ histogramKey
 64
 ]
 ;
-JS_snprintf
+snprintf
 (
 histogramKey
 sizeof

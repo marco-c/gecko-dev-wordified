@@ -833,7 +833,7 @@ ErrorWrongTypeArg
 JSContext
 *
 cx
-size_t
+unsigned
 argIndex
 Handle
 <
@@ -856,14 +856,14 @@ charArgIndex
 2
 ]
 ;
-JS_snprintf
+snprintf
 (
 charArgIndex
 sizeof
 charArgIndex
 "
 %
-d
+u
 "
 argIndex
 )

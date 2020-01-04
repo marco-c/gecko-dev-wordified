@@ -468,7 +468,7 @@ if
 (
 si
 )
-JS_snprintf
+snprintf
 (
 name
 sizeof
@@ -494,7 +494,7 @@ name
 )
 ;
 else
-JS_snprintf
+snprintf
 (
 name
 sizeof

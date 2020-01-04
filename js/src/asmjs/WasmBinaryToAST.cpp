@@ -624,7 +624,7 @@ sizeof
 "
 ]
 ;
-JS_snprintf
+snprintf
 (
 offsetStr
 sizeof

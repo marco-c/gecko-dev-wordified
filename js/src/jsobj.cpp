@@ -22319,7 +22319,7 @@ if
 (
 slotname
 )
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -22328,7 +22328,7 @@ slotname
 )
 ;
 else
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -22374,7 +22374,7 @@ propid
 )
 )
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -22382,8 +22382,6 @@ bufsize
 %
 "
 PRId32
-"
-"
 JSID_TO_INT
 (
 propid
@@ -22421,7 +22419,7 @@ propid
 )
 )
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize
@@ -22438,7 +22436,7 @@ KEY
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buf
 bufsize

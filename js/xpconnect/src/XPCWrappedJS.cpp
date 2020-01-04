@@ -970,7 +970,7 @@ GetClass
 (
 )
 )
-JS_snprintf
+snprintf
 (
 name
 sizeof
@@ -998,7 +998,7 @@ GetInterfaceName
 )
 ;
 else
-JS_snprintf
+snprintf
 (
 name
 sizeof
