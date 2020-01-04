@@ -94,7 +94,12 @@ mozpack
 .
 manifests
 import
+(
+    
 InstallManifest
+    
+InstallManifestNoSymlinks
+)
 from
 mozbuild
 .
@@ -172,6 +177,10 @@ True
 remove_empty_directories
 =
 True
+        
+no_symlinks
+=
+False
         
 defines
 =
@@ -313,9 +322,17 @@ remove_all_directory_symlinks
 =
 False
     
+manifest_cls
+=
+InstallManifestNoSymlinks
+if
+no_symlinks
+else
+InstallManifest
+    
 manifest
 =
-InstallManifest
+manifest_cls
 (
 )
     
@@ -328,7 +345,7 @@ paths
 manifest
 |
 =
-InstallManifest
+manifest_cls
 (
 path
 =
@@ -565,6 +582,38 @@ add_argument
 '
 -
 -
+no
+-
+symlinks
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Do
+not
+install
+symbolic
+links
+.
+Always
+copy
+files
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
 track
 '
 metavar
@@ -686,6 +735,12 @@ not
 args
 .
 no_remove_empty_directories
+        
+no_symlinks
+=
+args
+.
+no_symlinks
         
 defines
 =
