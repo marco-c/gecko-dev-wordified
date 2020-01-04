@@ -12440,6 +12440,13 @@ if
 (
 !
 ioMan
+|
+|
+!
+ioMan
+-
+>
+mCacheDirectory
 )
 {
 return
