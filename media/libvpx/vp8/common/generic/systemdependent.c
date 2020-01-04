@@ -183,6 +183,13 @@ windows
 .
 h
 >
+#
+include
+<
+intrin
+.
+h
+>
 typedef
 void
 (
