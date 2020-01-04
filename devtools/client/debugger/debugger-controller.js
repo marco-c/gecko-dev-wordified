@@ -941,7 +941,7 @@ client
 debugger
 /
 "
-this
+window
 )
 .
 require
