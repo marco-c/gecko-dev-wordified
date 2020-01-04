@@ -33387,7 +33387,7 @@ allowScrollSpeedOverride
 aEvent
 -
 >
-customizedByUserPrefs
+mCustomizedByUserPrefs
 &
 &
 aEvent
@@ -34507,7 +34507,7 @@ if
 aEvent
 -
 >
-customizedByUserPrefs
+mCustomizedByUserPrefs
 )
 {
 return
@@ -34675,7 +34675,7 @@ lineOrPageDeltaY
 aEvent
 -
 >
-customizedByUserPrefs
+mCustomizedByUserPrefs
 =
 (
 (

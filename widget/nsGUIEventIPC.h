@@ -1084,7 +1084,7 @@ WriteParam
 aMsg
 aParam
 .
-customizedByUserPrefs
+mCustomizedByUserPrefs
 )
 ;
 WriteParam
@@ -1281,7 +1281,7 @@ aIter
 aResult
 -
 >
-customizedByUserPrefs
+mCustomizedByUserPrefs
 )
 &
 &

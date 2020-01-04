@@ -3841,7 +3841,7 @@ WHEEL_EVENT_CAUSED_BY_NO_LINE_OR_PAGE_DELTA_DEVICE
 ;
 wheelEvent
 .
-customizedByUserPrefs
+mCustomizedByUserPrefs
 =
 (
 aOptions
