@@ -562,6 +562,11 @@ _
 IntrinsicIsStringIterator
 )
 \
+_
+(
+IntrinsicIsListIterator
+)
+\
 \
 _
 (

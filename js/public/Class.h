@@ -1253,6 +1253,14 @@ JS_PUBLIC_API
 (
 bool
 )
+failCantSetProto
+(
+)
+;
+JS_PUBLIC_API
+(
+bool
+)
 failNoNamedSetter
 (
 )
