@@ -2864,6 +2864,10 @@ chunk
 -
 >
 mNextChunk
+.
+get
+(
+)
 )
 {
 XPCWrappedNativeTearOff
