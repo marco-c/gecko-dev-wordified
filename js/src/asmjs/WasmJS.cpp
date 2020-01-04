@@ -9736,8 +9736,9 @@ false
 if
 (
 error
-)
-{
+&
+&
+!
 JS_ReportErrorFlagsAndNumber
 (
 cx
@@ -9751,6 +9752,10 @@ get
 (
 )
 )
+)
+{
+return
+false
 ;
 }
 callArgs
