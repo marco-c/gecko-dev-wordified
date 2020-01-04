@@ -1796,16 +1796,6 @@ computeRenderIntegrity
 public
 static
 native
-SurfaceBits
-getSurfaceBits
-(
-Surface
-surface
-)
-;
-public
-static
-native
 void
 addPresentationSurface
 (
@@ -10112,6 +10102,10 @@ Intent
 (
 PLUGIN_ACTION
 )
+PackageManager
+.
+GET_SERVICES
+|
 PackageManager
 .
 GET_META_DATA
