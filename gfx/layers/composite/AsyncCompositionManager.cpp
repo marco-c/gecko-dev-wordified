@@ -4824,7 +4824,7 @@ computedTiming
 dom
 :
 :
-KeyframeEffectReadOnly
+AnimationEffectReadOnly
 :
 :
 GetComputedTimingAt
