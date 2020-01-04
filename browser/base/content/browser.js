@@ -9003,6 +9003,12 @@ init
 (
 )
 ;
+AutoShowBookmarksToolbar
+.
+init
+(
+)
+;
 gPrefService
 .
 addObserver
@@ -11099,6 +11105,12 @@ uninit
 )
 ;
 PanelUI
+.
+uninit
+(
+)
+;
+AutoShowBookmarksToolbar
 .
 uninit
 (
