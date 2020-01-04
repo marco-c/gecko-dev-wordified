@@ -18475,9 +18475,11 @@ pref
 "
 browser
 .
-migration
+migrate
 .
 automigrate
+.
+enabled
 "
 false
 )
