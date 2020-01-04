@@ -753,6 +753,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+CPP_THROW_NEW
 {
 return
 aBuilder
