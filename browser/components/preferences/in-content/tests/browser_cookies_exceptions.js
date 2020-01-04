@@ -37,6 +37,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 testRunner
 .
 runTests
