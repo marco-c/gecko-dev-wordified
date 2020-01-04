@@ -604,10 +604,7 @@ registerSchemaAPI
 "
 webRequest
 "
-(
-extension
 context
-)
 =
 >
 {

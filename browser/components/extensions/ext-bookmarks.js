@@ -551,10 +551,7 @@ registerSchemaAPI
 "
 bookmarks
 "
-(
-extension
 context
-)
 =
 >
 {
