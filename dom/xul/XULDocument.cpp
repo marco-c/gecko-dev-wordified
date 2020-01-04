@@ -4667,7 +4667,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aAttr
 )
@@ -5091,7 +5091,7 @@ nsIAtom
 >
 attr
 =
-do_GetAtom
+NS_Atomize
 (
 aAttr
 )
@@ -5356,7 +5356,7 @@ nsIAtom
 >
 attr
 =
-do_GetAtom
+NS_Atomize
 (
 aAttr
 )
@@ -7495,7 +7495,7 @@ nsIAtom
 >
 attrAtom
 (
-do_GetAtom
+NS_Atomize
 (
 aAttribute
 )
@@ -7622,7 +7622,7 @@ nsIAtom
 >
 attrAtom
 (
-do_GetAtom
+NS_Atomize
 (
 aAttribute
 )
@@ -7935,7 +7935,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 tag
 =
-do_GetAtom
+NS_Atomize
 (
 aAttr
 )
@@ -12592,7 +12592,7 @@ nsIAtom
 >
 attr
 =
-do_GetAtom
+NS_Atomize
 (
 attrstr
 )

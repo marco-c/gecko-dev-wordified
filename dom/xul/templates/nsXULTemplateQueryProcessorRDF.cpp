@@ -1941,7 +1941,7 @@ query
 >
 mMemberVariable
 =
-do_GetAtom
+NS_Atomize
 (
 "
 ?
@@ -2452,7 +2452,7 @@ query
 >
 mRefVariable
 =
-do_GetAtom
+NS_Atomize
 (
 "
 ?
@@ -6638,7 +6638,7 @@ IsEmpty
 {
 tag
 =
-do_GetAtom
+NS_Atomize
 (
 tagstr
 )
@@ -7219,7 +7219,7 @@ char16_t
 )
 svar
 =
-do_GetAtom
+NS_Atomize
 (
 subject
 )
@@ -7379,7 +7379,7 @@ char16_t
 {
 ovar
 =
-do_GetAtom
+NS_Atomize
 (
 object
 )
@@ -7765,7 +7765,7 @@ nsIAtom
 >
 containervar
 =
-do_GetAtom
+NS_Atomize
 (
 container
 )
@@ -7831,7 +7831,7 @@ nsIAtom
 >
 childvar
 =
-do_GetAtom
+NS_Atomize
 (
 child
 )

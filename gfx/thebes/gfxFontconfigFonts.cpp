@@ -7693,7 +7693,7 @@ mStyle
 .
 language
 =
-do_GetAtom
+NS_Atomize
 (
 pango_language_to_string
 (
@@ -8936,7 +8936,7 @@ prefs
 .
 langGroup
 =
-do_GetAtom
+NS_Atomize
 (
 lang
 )

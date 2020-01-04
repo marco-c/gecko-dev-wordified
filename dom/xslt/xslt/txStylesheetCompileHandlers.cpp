@@ -1381,7 +1381,7 @@ rv
 *
 aAtom
 =
-NS_NewAtom
+NS_Atomize
 (
 attr
 -
@@ -12523,7 +12523,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aHandlers
 -

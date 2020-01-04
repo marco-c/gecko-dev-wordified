@@ -8456,7 +8456,7 @@ nsIAtom
 *
 tag
 =
-NS_NewAtom
+NS_Atomize
 (
 "
 mozcombodisplay

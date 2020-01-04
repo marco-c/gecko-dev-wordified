@@ -1432,7 +1432,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )
@@ -1507,7 +1507,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )

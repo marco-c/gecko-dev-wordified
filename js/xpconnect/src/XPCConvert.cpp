@@ -4500,7 +4500,7 @@ nsIAtom
 >
 atom
 =
-NS_NewAtom
+NS_Atomize
 (
 autoStr
 )

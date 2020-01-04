@@ -6740,7 +6740,7 @@ lower
 ;
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 lower
 )
@@ -6750,7 +6750,7 @@ else
 {
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )
@@ -7222,7 +7222,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -7374,7 +7374,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -7795,7 +7795,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -14062,7 +14062,7 @@ mutation
 .
 mNewAttrValue
 =
-do_GetAtom
+NS_Atomize
 (
 newValue
 )
@@ -15302,7 +15302,7 @@ mutation
 .
 mPrevAttrValue
 =
-do_GetAtom
+NS_Atomize
 (
 value
 )

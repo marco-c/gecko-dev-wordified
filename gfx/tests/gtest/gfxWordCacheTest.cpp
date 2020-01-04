@@ -618,7 +618,7 @@ NORMAL
 .
 0
 0
-NS_NewAtom
+NS_Atomize
 (
 NS_LITERAL_STRING
 (

@@ -881,7 +881,7 @@ prefix
 ;
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 "
 RDF
@@ -922,7 +922,7 @@ ns
 ;
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 "
 NC
@@ -1228,7 +1228,7 @@ mPrefixID
 ;
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 qname
 )

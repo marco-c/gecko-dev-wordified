@@ -415,7 +415,7 @@ str
 )
 ;
 return
-do_GetAtom
+NS_Atomize
 (
 str
 )

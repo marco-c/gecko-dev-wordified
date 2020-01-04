@@ -750,7 +750,7 @@ colon
 {
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (
@@ -4213,7 +4213,7 @@ colon
 {
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (

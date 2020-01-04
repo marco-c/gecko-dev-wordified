@@ -3799,7 +3799,7 @@ nsIAtom
 >
 a
 =
-do_GetAtom
+NS_Atomize
 (
 filtersAsString
 [

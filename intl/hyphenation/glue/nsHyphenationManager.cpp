@@ -759,7 +759,7 @@ nsIAtom
 >
 fuzzyLocale
 =
-do_GetAtom
+NS_Atomize
 (
 localeStr
 )
@@ -1353,7 +1353,7 @@ nsIAtom
 >
 localeAtom
 =
-do_GetAtom
+NS_Atomize
 (
 locale
 )
@@ -1699,7 +1699,7 @@ nsIAtom
 >
 localeAtom
 =
-do_GetAtom
+NS_Atomize
 (
 locale
 )
@@ -1878,7 +1878,7 @@ nsIAtom
 >
 aliasAtom
 =
-do_GetAtom
+NS_Atomize
 (
 alias
 )
@@ -1889,7 +1889,7 @@ nsIAtom
 >
 valueAtom
 =
-do_GetAtom
+NS_Atomize
 (
 value
 )

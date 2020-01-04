@@ -322,7 +322,7 @@ AsCommandEvent
 >
 command
 =
-do_GetAtom
+NS_Atomize
 (
 aCommand
 )

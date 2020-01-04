@@ -2960,7 +2960,7 @@ nsIAtom
 >
 inAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aProp
 )

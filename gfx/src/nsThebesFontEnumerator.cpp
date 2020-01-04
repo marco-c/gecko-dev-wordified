@@ -181,7 +181,7 @@ h
 /
 for
 nsIAtom
-do_GetAtom
+NS_Atomize
 #
 include
 "
@@ -367,7 +367,7 @@ lowered
 ;
 langGroupAtom
 =
-do_GetAtom
+NS_Atomize
 (
 lowered
 )

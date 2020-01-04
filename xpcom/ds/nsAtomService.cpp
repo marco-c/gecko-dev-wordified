@@ -160,7 +160,7 @@ aResult
 *
 aResult
 =
-NS_NewAtom
+NS_Atomize
 (
 aString
 )

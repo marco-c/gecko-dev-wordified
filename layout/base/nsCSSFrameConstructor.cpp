@@ -10789,7 +10789,7 @@ contentString
 }
 attrName
 =
-do_GetAtom
+NS_Atomize
 (
 contentString
 )
@@ -10824,7 +10824,7 @@ contentString
 }
 attrName
 =
-do_GetAtom
+NS_Atomize
 (
 contentString
 )

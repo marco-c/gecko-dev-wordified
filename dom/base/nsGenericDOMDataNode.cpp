@@ -2289,7 +2289,7 @@ mutation
 .
 mNewAttrValue
 =
-do_GetAtom
+NS_Atomize
 (
 val
 )
@@ -5887,7 +5887,7 @@ val
 )
 ;
 return
-NS_NewAtom
+NS_Atomize
 (
 val
 )

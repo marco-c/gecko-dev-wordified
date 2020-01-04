@@ -411,7 +411,7 @@ nameEnd
 *
 aPrefix
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (
@@ -473,7 +473,7 @@ nullptr
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (
@@ -573,7 +573,7 @@ end
 *
 aPrefix
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (
@@ -593,7 +593,7 @@ take
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (
@@ -619,7 +619,7 @@ nullptr
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 aName
 )

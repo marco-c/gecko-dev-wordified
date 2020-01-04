@@ -1343,7 +1343,7 @@ id
 ;
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 tag
 )
@@ -1448,7 +1448,7 @@ zzzzz
 ;
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 "
@@ -1474,7 +1474,7 @@ found
 ;
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 zzzzz

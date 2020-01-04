@@ -4782,7 +4782,7 @@ IsEmpty
 {
 mBaseTag
 =
-do_GetAtom
+NS_Atomize
 (
 baseTag
 )
@@ -5417,7 +5417,7 @@ nsIAtom
 >
 atomPrefix
 =
-do_GetAtom
+NS_Atomize
 (
 attrPrefix
 )
@@ -5428,7 +5428,7 @@ nsIAtom
 >
 atomName
 =
-do_GetAtom
+NS_Atomize
 (
 attrName
 )
@@ -6772,7 +6772,7 @@ IsEmpty
 )
 prefixAtom
 =
-do_GetAtom
+NS_Atomize
 (
 prefix
 )
@@ -6799,7 +6799,7 @@ nsIAtom
 >
 tagAtom
 =
-do_GetAtom
+NS_Atomize
 (
 tag
 )
@@ -7036,7 +7036,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 name
 )
@@ -7081,7 +7081,7 @@ IsEmpty
 )
 prefixAtom
 =
-do_GetAtom
+NS_Atomize
 (
 prefix
 )
@@ -7301,7 +7301,7 @@ IsEmpty
 )
 prefixAtom
 =
-do_GetAtom
+NS_Atomize
 (
 prefix
 )
@@ -7312,7 +7312,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 name
 )
@@ -7431,7 +7431,7 @@ nsIAtom
 >
 srcAtom
 =
-do_GetAtom
+NS_Atomize
 (
 srcAttribute
 )
@@ -7442,7 +7442,7 @@ nsIAtom
 >
 destAtom
 =
-do_GetAtom
+NS_Atomize
 (
 destAttribute
 )
@@ -9043,7 +9043,7 @@ nsIAtom
 >
 tagName
 =
-do_GetAtom
+NS_Atomize
 (
 display
 )

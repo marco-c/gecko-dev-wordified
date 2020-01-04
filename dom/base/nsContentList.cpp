@@ -1121,7 +1121,7 @@ nsIAtom
 >
 xmlAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aTagname
 )
@@ -1154,7 +1154,7 @@ lowercaseName
 ;
 htmlAtom
 =
-do_GetAtom
+NS_Atomize
 (
 lowercaseName
 )
@@ -2489,7 +2489,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )

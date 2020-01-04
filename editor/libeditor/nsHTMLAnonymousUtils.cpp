@@ -950,7 +950,7 @@ nsCOMPtr
 nsIAtom
 >
 (
-do_GetAtom
+NS_Atomize
 (
 aTag
 )
@@ -1882,7 +1882,7 @@ nsIAtom
 >
 focusTagAtom
 =
-do_GetAtom
+NS_Atomize
 (
 focusTagName
 )

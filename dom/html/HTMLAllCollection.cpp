@@ -547,7 +547,7 @@ nsIAtom
 >
 id
 =
-do_GetAtom
+NS_Atomize
 (
 aID
 )

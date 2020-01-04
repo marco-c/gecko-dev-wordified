@@ -6867,7 +6867,7 @@ nsIAtom
 >
 attribute
 =
-do_GetAtom
+NS_Atomize
 (
 aAttribute
 )
@@ -7018,7 +7018,7 @@ nsIAtom
 >
 attribute
 =
-do_GetAtom
+NS_Atomize
 (
 aAttribute
 )
@@ -7498,7 +7498,7 @@ nsIAtom
 >
 tag
 =
-do_GetAtom
+NS_Atomize
 (
 aTag
 )

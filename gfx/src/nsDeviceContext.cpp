@@ -282,7 +282,7 @@ h
 /
 for
 nsIAtom
-do_GetAtom
+NS_Atomize
 #
 include
 "
@@ -774,7 +774,7 @@ mLocaleLanguage
 {
 mLocaleLanguage
 =
-do_GetAtom
+NS_Atomize
 (
 "
 x

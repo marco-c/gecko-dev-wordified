@@ -551,7 +551,7 @@ mutation
 >
 mPrevAttrValue
 =
-do_GetAtom
+NS_Atomize
 (
 aPrevValueArg
 )
@@ -570,7 +570,7 @@ mutation
 >
 mNewAttrValue
 =
-do_GetAtom
+NS_Atomize
 (
 aNewValueArg
 )
@@ -590,7 +590,7 @@ mutation
 >
 mAttrName
 =
-do_GetAtom
+NS_Atomize
 (
 aAttrNameArg
 )

@@ -2473,7 +2473,7 @@ nsIAtom
 >
 pingAtom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 ping

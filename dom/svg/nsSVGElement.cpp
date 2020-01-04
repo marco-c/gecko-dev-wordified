@@ -3599,7 +3599,7 @@ nsIAtom
 >
 valAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aValue
 )

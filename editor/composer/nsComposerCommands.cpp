@@ -3591,7 +3591,7 @@ nsIAtom
 >
 fontAtom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 font
@@ -7153,7 +7153,7 @@ nsIAtom
 >
 styleAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aProp
 )
@@ -7326,7 +7326,7 @@ nsIAtom
 >
 styleAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aProp
 )

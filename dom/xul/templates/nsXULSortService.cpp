@@ -2378,7 +2378,7 @@ nsIAtom
 >
 sortkeyatom
 =
-do_GetAtom
+NS_Atomize
 (
 sortResource
 )
@@ -2429,7 +2429,7 @@ nsIAtom
 >
 sortkeyatom2
 =
-do_GetAtom
+NS_Atomize
 (
 sortResource2
 )
@@ -2485,7 +2485,7 @@ nsIAtom
 >
 keyatom
 =
-do_GetAtom
+NS_Atomize
 (
 tokenizer
 .

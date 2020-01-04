@@ -9580,7 +9580,7 @@ nsIAtom
 >
 var
 =
-do_GetAtom
+NS_Atomize
 (
 aVariable
 )
@@ -10503,7 +10503,7 @@ IsEmpty
 )
 mRefVariable
 =
-do_GetAtom
+NS_Atomize
 (
 "
 ?
@@ -10514,7 +10514,7 @@ uri
 else
 mRefVariable
 =
-do_GetAtom
+NS_Atomize
 (
 containervar
 )
@@ -10550,7 +10550,7 @@ nullptr
 else
 mMemberVariable
 =
-do_GetAtom
+NS_Atomize
 (
 membervar
 )
@@ -12129,7 +12129,7 @@ char16_t
 )
 {
 return
-NS_NewAtom
+NS_Atomize
 (
 uri
 )
@@ -12273,7 +12273,7 @@ IsEmpty
 )
 mRefVariable
 =
-do_GetAtom
+NS_Atomize
 (
 uri
 )
@@ -12306,7 +12306,7 @@ IsEmpty
 *
 aTag
 =
-NS_NewAtom
+NS_Atomize
 (
 tag
 )
@@ -12394,7 +12394,7 @@ mMemberVariable
 else
 memberVariable
 =
-do_GetAtom
+NS_Atomize
 (
 "
 rdf
@@ -12561,7 +12561,7 @@ nsIAtom
 >
 tagatom
 =
-do_GetAtom
+NS_Atomize
 (
 tag
 )
@@ -12634,7 +12634,7 @@ nsIAtom
 >
 tagatom
 =
-do_GetAtom
+NS_Atomize
 (
 tag
 )
@@ -12943,7 +12943,7 @@ char16_t
 )
 svar
 =
-do_GetAtom
+NS_Atomize
 (
 subject
 )
@@ -13078,7 +13078,7 @@ char16_t
 {
 vvar
 =
-do_GetAtom
+NS_Atomize
 (
 value
 )
@@ -13508,7 +13508,7 @@ char16_t
 {
 svar
 =
-do_GetAtom
+NS_Atomize
 (
 subject
 )
@@ -13632,7 +13632,7 @@ char16_t
 {
 ovar
 =
-do_GetAtom
+NS_Atomize
 (
 object
 )
@@ -14053,7 +14053,7 @@ nsIAtom
 >
 var
 =
-do_GetAtom
+NS_Atomize
 (
 aVariable
 )

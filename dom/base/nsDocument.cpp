@@ -30526,7 +30526,7 @@ typeAtom
 =
 aTypeExtension
 ?
-do_GetAtom
+NS_Atomize
 (
 *
 aTypeExtension
@@ -32264,7 +32264,7 @@ nsIAtom
 >
 typeAtom
 (
-do_GetAtom
+NS_Atomize
 (
 elemName
 )
@@ -34133,7 +34133,7 @@ nsIAtom
 >
 typeAtom
 (
-do_GetAtom
+NS_Atomize
 (
 lcType
 )
@@ -34867,7 +34867,7 @@ false
 ;
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 lcName
 )
@@ -37997,7 +37997,7 @@ nsIAtom
 >
 attribute
 =
-do_GetAtom
+NS_Atomize
 (
 aAttrName
 )
@@ -47732,7 +47732,7 @@ nsIAtom
 >
 key
 =
-do_GetAtom
+NS_Atomize
 (
 *
 name

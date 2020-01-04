@@ -3836,7 +3836,7 @@ already_AddRefed
 <
 nsIAtom
 >
-NS_NewAtom
+NS_Atomize
 (
 const
 char
@@ -3845,7 +3845,7 @@ aUTF8String
 )
 {
 return
-NS_NewAtom
+NS_Atomize
 (
 nsDependentCString
 (
@@ -3858,7 +3858,7 @@ already_AddRefed
 <
 nsIAtom
 >
-NS_NewAtom
+NS_Atomize
 (
 const
 nsACString
@@ -3998,7 +3998,7 @@ already_AddRefed
 <
 nsIAtom
 >
-NS_NewAtom
+NS_Atomize
 (
 const
 char16_t
@@ -4007,7 +4007,7 @@ aUTF16String
 )
 {
 return
-NS_NewAtom
+NS_Atomize
 (
 nsDependentString
 (
@@ -4020,7 +4020,7 @@ already_AddRefed
 <
 nsIAtom
 >
-NS_NewAtom
+NS_Atomize
 (
 const
 nsAString

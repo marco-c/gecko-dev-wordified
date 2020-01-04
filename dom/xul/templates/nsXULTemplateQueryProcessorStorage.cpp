@@ -399,7 +399,7 @@ nsIAtom
 >
 columnName
 =
-do_GetAtom
+NS_Atomize
 (
 NS_LITERAL_CSTRING
 (

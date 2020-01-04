@@ -2085,7 +2085,7 @@ nsIAtom
 >
 eventTypeAtom
 =
-do_GetAtom
+NS_Atomize
 (
 eventType
 )
@@ -3948,7 +3948,7 @@ nsIAtom
 >
 eventTypeAtom
 =
-do_GetAtom
+NS_Atomize
 (
 eventType
 )

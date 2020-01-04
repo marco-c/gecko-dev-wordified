@@ -1420,7 +1420,7 @@ false
 }
 mPseudo
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (

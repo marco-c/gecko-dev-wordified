@@ -12103,7 +12103,7 @@ nsIAtom
 >
 metric
 =
-do_GetAtom
+NS_Atomize
 (
 pseudoClass
 -

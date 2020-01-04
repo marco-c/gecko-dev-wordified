@@ -953,7 +953,7 @@ nsIAtom
 >
 eventTypeAtom
 =
-do_GetAtom
+NS_Atomize
 (
 onEventType
 )

@@ -677,7 +677,7 @@ nsIAtom
 >
 elementId
 =
-do_GetAtom
+NS_Atomize
 (
 aElementId
 )

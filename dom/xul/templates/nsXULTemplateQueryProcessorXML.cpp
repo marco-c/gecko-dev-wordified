@@ -1603,7 +1603,7 @@ nsIAtom
 >
 varatom
 =
-do_GetAtom
+NS_Atomize
 (
 var
 )
