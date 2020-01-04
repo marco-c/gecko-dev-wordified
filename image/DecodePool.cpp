@@ -1438,6 +1438,10 @@ aQueue
 LastElement
 (
 )
+.
+forget
+(
+)
 ;
 aQueue
 .
