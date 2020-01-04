@@ -1414,11 +1414,6 @@ aKeyObject
 >
 GetKeyObj
 (
-(
-void
-*
-*
-)
 &
 key
 )
