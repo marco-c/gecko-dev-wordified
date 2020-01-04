@@ -2091,7 +2091,7 @@ CallSiteDesc
 CallSiteDesc
 :
 :
-Relative
+FuncDef
 )
 func
 .
