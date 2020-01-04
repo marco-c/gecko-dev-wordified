@@ -747,6 +747,13 @@ nsIContentPolicy
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 using
 namespace
 mozilla
@@ -17979,6 +17986,15 @@ chromehidden
 /
 attribute
 .
+{
+mozAutoDocUpdate
+updateBatch
+(
+this
+UPDATE_STYLE
+true
+)
+;
 uint32_t
 count
 =
@@ -18012,6 +18028,7 @@ i
 ]
 )
 ;
+}
 }
 mOverlaySheets
 .
