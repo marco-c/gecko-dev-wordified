@@ -1404,6 +1404,10 @@ const
 uint64_t
 &
 aWindowId
+const
+bool
+&
+aIsLoading
 )
 {
 MOZ_ASSERT
@@ -1431,6 +1435,7 @@ NotifyReceiverReady
 (
 aSessionId
 aWindowId
+aIsLoading
 )
 )
 )

@@ -374,6 +374,10 @@ const
 uint64_t
 &
 aWindowId
+const
+bool
+&
+aIsLoading
 )
 override
 ;

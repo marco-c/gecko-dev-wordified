@@ -1702,6 +1702,8 @@ nsAString
 aSessionId
 uint64_t
 aWindowId
+bool
+aIsLoading
 )
 {
 MOZ_ASSERT
@@ -1768,6 +1770,7 @@ nsString
 aSessionId
 )
 aWindowId
+aIsLoading
 )
 )
 ;

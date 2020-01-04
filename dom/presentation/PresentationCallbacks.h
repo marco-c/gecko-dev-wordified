@@ -327,6 +327,8 @@ PresentationResponderLoadingCallback
 nsresult
 NotifyReceiverReady
 (
+bool
+aIsLoading
 )
 ;
 nsString
