@@ -2584,7 +2584,7 @@ config
 '
                                     
 '
-mozbase_requirements
+marionette_requirements
 .
 txt
 '
@@ -2615,8 +2615,6 @@ two_pass
 =
 True
 )
-            
-return
     
 def
 _query_symbols_url
