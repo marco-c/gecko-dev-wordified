@@ -7720,7 +7720,7 @@ aNode
 aNode
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 )

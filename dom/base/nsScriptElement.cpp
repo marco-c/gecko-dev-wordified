@@ -597,7 +597,7 @@ mDoneAddingChildren
 cont
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 |

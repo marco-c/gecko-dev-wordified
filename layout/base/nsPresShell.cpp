@@ -28687,7 +28687,7 @@ doc
 startParent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -39791,7 +39791,7 @@ mCurrentEventContent
 mCurrentEventContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -40018,7 +40018,7 @@ content
 content
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
@@ -40177,7 +40177,7 @@ mCurrentEventContent
 mCurrentEventContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -44671,7 +44671,7 @@ retargetEventDoc
 capturingContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -45431,7 +45431,7 @@ NS_ASSERTION
 capturingContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
@@ -46605,7 +46605,7 @@ NS_ASSERTION
 capturingContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =

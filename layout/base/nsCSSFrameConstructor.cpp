@@ -62619,7 +62619,7 @@ NS_ENSURE_TRUE
 aContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 NS_ERROR_FAILURE

@@ -1965,7 +1965,7 @@ nullptr
 ;
 if
 (
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -2075,7 +2075,7 @@ nsIDocument
 *
 doc
 =
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -8817,7 +8817,7 @@ GetUncomposedDoc
 mozAutoDocUpdate
 updateBatch
 (
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
@@ -9534,7 +9534,7 @@ DidMutate
 mozAutoDocUpdate
 updateBatch
 (
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
@@ -12716,7 +12716,7 @@ nullptr
 mozAutoDocUpdate
 batch
 (
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
