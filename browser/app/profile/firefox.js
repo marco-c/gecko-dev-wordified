@@ -17927,18 +17927,11 @@ minHeight
 190
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Enable
 speech
 synthesis
-only
-Nightly
-for
-now
 pref
 (
 "
@@ -17953,8 +17946,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
