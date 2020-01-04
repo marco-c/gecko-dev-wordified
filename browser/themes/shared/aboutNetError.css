@@ -230,6 +230,14 @@ pointer
 ;
 }
 #
+prefChangeContainer
+{
+display
+:
+none
+;
+}
+#
 learnMoreContainer
 {
 display
