@@ -2258,7 +2258,6 @@ S
 struct
 PreBarrierFunctor
 :
-public
 VoidDefaultAdaptor
 <
 S

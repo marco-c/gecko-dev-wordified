@@ -17267,7 +17267,7 @@ pi
 -
 >
 mPointer
-JS
+js
 :
 :
 GCThingTraceKind
@@ -18970,7 +18970,7 @@ pinfo
 -
 >
 mPointer
-JS
+js
 :
 :
 GCThingTraceKind
