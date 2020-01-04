@@ -623,6 +623,9 @@ registerSchemaAPI
 "
 webRequest
 "
+"
+addon_parent
+"
 context
 =
 >

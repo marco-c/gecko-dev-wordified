@@ -551,6 +551,9 @@ registerSchemaAPI
 "
 bookmarks
 "
+"
+addon_parent
+"
 context
 =
 >

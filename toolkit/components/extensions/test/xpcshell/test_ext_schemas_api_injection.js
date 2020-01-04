@@ -243,6 +243,9 @@ noBackgroundAPI
 .
 testnamespace
 "
+"
+addon_child
+"
 context
 =
 >
@@ -332,6 +335,9 @@ registerSchemaAPI
 backgroundAPI
 .
 testnamespace
+"
+"
+addon_child
 "
 context
 =

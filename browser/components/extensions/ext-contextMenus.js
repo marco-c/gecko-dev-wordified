@@ -3079,6 +3079,9 @@ registerSchemaAPI
 "
 contextMenus
 "
+"
+addon_parent
+"
 context
 =
 >

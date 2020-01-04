@@ -2615,6 +2615,9 @@ registerSchemaAPI
 "
 downloads
 "
+"
+addon_parent
+"
 context
 =
 >

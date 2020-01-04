@@ -836,6 +836,9 @@ registerSchemaAPI
 "
 history
 "
+"
+addon_parent
+"
 context
 =
 >

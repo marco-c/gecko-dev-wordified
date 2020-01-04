@@ -1700,6 +1700,9 @@ registerSchemaAPI
 "
 commands
 "
+"
+addon_parent
+"
 context
 =
 >
