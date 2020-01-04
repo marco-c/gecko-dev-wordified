@@ -516,7 +516,7 @@ Volume
 (
 IOThread
 )
-recieves
+receives
 a
 volume
 update
