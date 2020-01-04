@@ -21254,7 +21254,7 @@ s
 /
 virtual
 nsSize
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 nsBoxLayoutState
 &

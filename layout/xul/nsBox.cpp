@@ -2156,7 +2156,7 @@ nsSize
 nsBox
 :
 :
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 nsBoxLayoutState
 &

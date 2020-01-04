@@ -9211,7 +9211,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 aState
 )

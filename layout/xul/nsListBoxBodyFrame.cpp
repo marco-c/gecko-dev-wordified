@@ -1587,7 +1587,7 @@ nsSize
 nsListBoxBodyFrame
 :
 :
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 nsBoxLayoutState
 &
