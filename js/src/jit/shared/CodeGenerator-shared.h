@@ -3404,6 +3404,14 @@ LAllocation
 alloc
 )
 ;
+bool
+isGlobalObject
+(
+JSObject
+*
+object
+)
+;
 }
 ;
 /
