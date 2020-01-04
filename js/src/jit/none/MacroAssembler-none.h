@@ -4662,7 +4662,9 @@ T
 void
 storeUnboxedValue
 (
+const
 ConstantOrRegister
+&
 MIRType
 T
 MIRType

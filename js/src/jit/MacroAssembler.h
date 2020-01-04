@@ -2645,7 +2645,9 @@ v
 void
 Push
 (
+const
 ConstantOrRegister
+&
 v
 )
 ;
@@ -11141,7 +11143,9 @@ T
 void
 storeUnboxedValue
 (
+const
 ConstantOrRegister
+&
 value
 MIRType
 valueType
@@ -12743,7 +12747,9 @@ T
 void
 storeConstantOrRegister
 (
+const
 ConstantOrRegister
+&
 src
 const
 T
@@ -13599,7 +13605,9 @@ T
 address
 JSValueType
 type
+const
 ConstantOrRegister
+&
 value
 Label
 *
@@ -15183,7 +15191,9 @@ convertConstantOrRegisterToFloatingPoint
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 output
@@ -15298,7 +15308,9 @@ convertConstantOrRegisterToDouble
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 output
@@ -15408,7 +15420,9 @@ convertConstantOrRegisterToFloat
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 output
@@ -15650,7 +15664,9 @@ convertConstantOrRegisterToInt
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 temp
@@ -15808,7 +15824,9 @@ convertConstantOrRegisterToInt32
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 temp
@@ -16016,7 +16034,9 @@ truncateConstantOrRegisterToInt32
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 temp
@@ -16205,7 +16225,9 @@ clampConstantOrRegisterToUint8
 JSContext
 *
 cx
+const
 ConstantOrRegister
+&
 src
 FloatRegister
 temp
