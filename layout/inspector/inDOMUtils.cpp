@@ -4915,6 +4915,9 @@ eCSSProperty_grid_row_end
 case
 eCSSProperty_font_weight
 :
+case
+eCSSProperty_initial_letter
+:
 supported
 =
 VARIANT_NUMBER

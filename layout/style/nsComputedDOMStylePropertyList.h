@@ -1119,6 +1119,11 @@ IMEMode
 )
 COMPUTED_STYLE_PROP
 (
+initial_letter
+InitialLetter
+)
+COMPUTED_STYLE_PROP
+(
 isolation
 Isolation
 )

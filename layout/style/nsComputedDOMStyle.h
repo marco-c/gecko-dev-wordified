@@ -2596,6 +2596,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetInitialLetter
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetLineHeight
 (
 )
