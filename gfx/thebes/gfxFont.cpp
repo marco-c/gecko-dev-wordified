@@ -4853,21 +4853,10 @@ mAdjustedSize
 )
 mFUnitsConvFactor
 (
--
-1
+0
 .
 0f
 )
-/
-/
-negative
-to
-indicate
-"
-not
-yet
-initialized
-"
 mAntialiasOption
 (
 anAAOption
@@ -5094,7 +5083,8 @@ aGID
 if
 (
 mFUnitsConvFactor
-<
+=
+=
 0
 .
 0f
@@ -5110,7 +5100,6 @@ NS_ASSERTION
 (
 mFUnitsConvFactor
 >
-=
 0
 .
 0f
@@ -20258,7 +20247,8 @@ len
 if
 (
 mFUnitsConvFactor
-<
+=
+=
 0
 .
 0
@@ -22362,7 +22352,8 @@ UNINITIALIZED_LEADING
 if
 (
 mFUnitsConvFactor
-<
+=
+=
 0
 .
 0
@@ -22454,7 +22445,6 @@ os2Table
 &
 mFUnitsConvFactor
 >
-=
 0
 .
 0
@@ -22737,7 +22727,6 @@ hheaTable
 &
 mFUnitsConvFactor
 >
-=
 0
 .
 0
@@ -22850,7 +22839,6 @@ vheaTable
 &
 mFUnitsConvFactor
 >
-=
 0
 .
 0
