@@ -784,7 +784,12 @@ metadata
 defaultVal
 :
 "
-captions
+subtitles
+"
+invalidVal
+:
+"
+metadata
 "
 }
 src
