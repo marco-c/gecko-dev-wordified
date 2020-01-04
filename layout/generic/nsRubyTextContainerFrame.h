@@ -137,10 +137,6 @@ nsBlockFrame
 .
 h
 "
-typedef
-nsContainerFrame
-nsRubyTextContainerFrameSuper
-;
 /
 *
 *
@@ -176,7 +172,7 @@ nsRubyTextContainerFrame
 final
 :
 public
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 {
 public
 :
@@ -337,7 +333,7 @@ nsStyleContext
 aContext
 )
 :
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 (
 aContext
 )
