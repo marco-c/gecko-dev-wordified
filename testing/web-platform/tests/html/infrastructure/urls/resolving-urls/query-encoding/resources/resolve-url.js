@@ -2920,7 +2920,7 @@ codecs
 =
 "
 theora
-vorbis
+flac
 "
 '
 )
