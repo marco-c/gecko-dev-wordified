@@ -231,6 +231,10 @@ ErrorResult
 aRv
 nsresult
 aLoadResult
+const
+nsAString
+&
+aScriptURL
 )
 ;
 void
