@@ -110,7 +110,7 @@ filters
 )
 ;
 const
-FilterToggleButton
+FilterButton
 =
 createClass
 (
@@ -118,7 +118,7 @@ createClass
 displayName
 :
 "
-FilterToggleButton
+FilterButton
 "
 propTypes
 :
@@ -249,7 +249,7 @@ label
 ;
 exports
 .
-FilterToggleButton
+FilterButton
 =
-FilterToggleButton
+FilterButton
 ;
