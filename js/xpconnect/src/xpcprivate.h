@@ -6790,6 +6790,16 @@ return
 mUseContentXBLScope
 ;
 }
+void
+ClearContentXBLScope
+(
+)
+{
+mContentXBLScope
+=
+nullptr
+;
+}
 bool
 IsAddonScope
 (
