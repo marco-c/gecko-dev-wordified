@@ -262,6 +262,12 @@ name
 {
 return
 new
+content
+.
+window
+.
+wrappedJSObject
+.
 Promise
 (
 resolve
