@@ -1702,7 +1702,7 @@ for
 the
 themed
 widget
-nsIntRect
+LayoutDeviceIntRect
 mRect
 ;
 ThemeGeometry
@@ -1713,7 +1713,7 @@ nsITheme
 ThemeGeometryType
 aType
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

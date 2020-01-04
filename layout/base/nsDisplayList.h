@@ -4212,7 +4212,10 @@ RegisterThemeGeometry
 uint8_t
 aWidgetType
 const
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )

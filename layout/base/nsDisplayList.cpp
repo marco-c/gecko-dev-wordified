@@ -14926,6 +14926,11 @@ aBuilder
 RegisterThemeGeometry
 (
 aType
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 borderBox
 .
 ToNearestPixels
@@ -14940,6 +14945,7 @@ PresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 )
 )

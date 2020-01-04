@@ -492,7 +492,7 @@ UpdateVibrantRegion
 VibrancyType
 aType
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -723,7 +723,7 @@ them
 struct
 VibrantRegion
 {
-nsIntRegion
+LayoutDeviceIntRegion
 region
 ;
 nsTArray
