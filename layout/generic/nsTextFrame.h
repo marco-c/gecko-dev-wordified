@@ -3779,6 +3779,12 @@ IsFloatingFirstLetterChild
 )
 const
 ;
+bool
+IsInitialLetterChild
+(
+)
+const
+;
 virtual
 bool
 ComputeCustomOverflow
