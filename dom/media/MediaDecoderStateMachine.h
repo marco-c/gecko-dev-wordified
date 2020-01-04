@@ -4347,9 +4347,6 @@ slower
 double
 mPlaybackRate
 ;
-int64_t
-mLowDataThresholdUsecs
-;
 /
 /
 If

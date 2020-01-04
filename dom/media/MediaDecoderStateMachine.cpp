@@ -7815,13 +7815,6 @@ InitVideoQueuePrefs
 (
 )
 ;
-mLowDataThresholdUsecs
-=
-detail
-:
-:
-LOW_DATA_THRESHOLD_USECS
-;
 #
 ifdef
 XP_WIN
@@ -15476,7 +15469,10 @@ OnTaskQueue
 return
 HasLowBufferedData
 (
-mLowDataThresholdUsecs
+detail
+:
+:
+LOW_DATA_THRESHOLD_USECS
 )
 ;
 }
