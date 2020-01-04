@@ -1008,7 +1008,7 @@ snapshot
 {
 uint8_t
 *
-code
+bailoutTable
 =
 Assembler
 :
@@ -1022,6 +1022,12 @@ raw
 (
 )
 )
+;
+uint8_t
+*
+code
+=
+bailoutTable
 +
 snapshot
 -
@@ -1037,10 +1043,6 @@ masm
 ma_b
 (
 code
-Relocation
-:
-:
-HARDCODED
 condition
 )
 ;
