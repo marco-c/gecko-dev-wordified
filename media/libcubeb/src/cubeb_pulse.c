@@ -3222,7 +3222,7 @@ minimum
 *
 latency_ms
 =
-25
+40
 ;
 return
 CUBEB_OK
@@ -5701,7 +5701,7 @@ devinfo
 >
 latency_lo_ms
 =
-25
+40
 ;
 devinfo
 -
