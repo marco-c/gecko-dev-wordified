@@ -203,6 +203,15 @@ gfx
 :
 :
 IntRect
+#
+include
+"
+base
+/
+basictypes
+.
+h
+"
 using
 namespace
 mozilla
