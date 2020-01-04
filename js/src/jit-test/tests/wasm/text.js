@@ -417,7 +417,7 @@ a
 (
 func
 (
-call_import
+call
 abc
 )
 )

@@ -262,7 +262,7 @@ inc
 func
 f
 (
-call_import
+call
 imp
 )
 )
@@ -324,7 +324,7 @@ inc
 func
 start
 (
-call_import
+call
 0
 )
 )

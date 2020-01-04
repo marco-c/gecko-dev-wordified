@@ -12043,7 +12043,7 @@ true
 }
 static
 bool
-EmitCallImport
+EmitOldCallImport
 (
 FunctionCompiler
 &
@@ -12083,7 +12083,7 @@ iter
 (
 )
 .
-readCallImport
+readCall
 (
 &
 funcImportIndex
@@ -19628,10 +19628,10 @@ case
 Expr
 :
 :
-CallImport
+OldCallImport
 :
 return
-EmitCallImport
+EmitOldCallImport
 (
 f
 )

@@ -21941,7 +21941,7 @@ emitCall
 ;
 MOZ_MUST_USE
 bool
-emitCallImport
+emitOldCallImport
 (
 )
 ;
@@ -31860,7 +31860,7 @@ bool
 BaseCompiler
 :
 :
-emitCallImport
+emitOldCallImport
 (
 )
 {
@@ -31887,7 +31887,7 @@ if
 !
 iter_
 .
-readCallImport
+readCall
 (
 &
 funcImportIndex
@@ -37791,11 +37791,11 @@ case
 Expr
 :
 :
-CallImport
+OldCallImport
 :
 CHECK_NEXT
 (
-emitCallImport
+emitOldCallImport
 (
 )
 )

@@ -240,7 +240,8 @@ test
 /
 Grow
 during
-call_import
+import
+call
 :
 var
 exports
@@ -1225,7 +1226,8 @@ resize
 /
 Grow
 during
-call_import
+import
+call
 :
 var
 exports

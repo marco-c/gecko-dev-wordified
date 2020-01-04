@@ -245,7 +245,7 @@ f32
 (
 func
 (
-call_import
+call
 0
 (
 f32
@@ -368,7 +368,7 @@ f64
 (
 func
 (
-call_import
+call
 0
 (
 f64

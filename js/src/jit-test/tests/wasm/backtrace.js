@@ -42,7 +42,7 @@ test
 func
 t
 (
-call_import
+call
 i
 )
 )
