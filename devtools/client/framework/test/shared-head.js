@@ -263,7 +263,7 @@ DevToolsUtils
 "
 )
 ;
-const
+let
 promise
 =
 require
