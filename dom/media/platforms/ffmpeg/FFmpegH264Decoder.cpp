@@ -517,6 +517,12 @@ Size
 (
 )
 ;
+#
+if
+LIBAVCODEC_VERSION_MAJOR
+>
+=
+54
 if
 (
 inputSize
@@ -685,6 +691,8 @@ DecodeResult
 DECODE_NO_FRAME
 ;
 }
+#
+endif
 return
 DoDecodeFrame
 (
@@ -2474,6 +2482,12 @@ return
 AV_CODEC_ID_VP6F
 ;
 }
+#
+if
+LIBAVCODEC_VERSION_MAJOR
+>
+=
+54
 if
 (
 aMimeType
@@ -2496,6 +2510,8 @@ return
 AV_CODEC_ID_VP8
 ;
 }
+#
+endif
 #
 if
 LIBAVCODEC_VERSION_MAJOR
