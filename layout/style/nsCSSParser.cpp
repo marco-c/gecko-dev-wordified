@@ -9737,12 +9737,12 @@ aParsingMode
 ;
 mIsChrome
 =
-nsContentUtils
+dom
 :
 :
-IsSystemPrincipal
+IsChromeURI
 (
-aSheetPrincipal
+aSheetURI
 )
 ;
 mReusableSheets
