@@ -1806,14 +1806,6 @@ quiet_NaN
 (
 )
 )
-mReentrantMonitor
-(
-"
-media
-.
-decoder
-"
-)
 #
 ifdef
 MOZ_EME
@@ -6874,7 +6866,7 @@ CanPlayThrough
 #
 ifdef
 MOZ_EME
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 :
@@ -6911,7 +6903,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -6944,7 +6936,7 @@ AreCapsKnown
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 >
@@ -7705,7 +7697,7 @@ mInfo
 >
 mAudio
 ;
-RefPtr
+nsRefPtr
 <
 AudioTrack
 >
@@ -7776,7 +7768,7 @@ mInfo
 >
 mVideo
 ;
-RefPtr
+nsRefPtr
 <
 VideoTrack
 >
