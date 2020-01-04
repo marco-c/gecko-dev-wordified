@@ -224,7 +224,7 @@ mPushedLayers
 (
 1
 )
-mPushedLayersSincePurge
+mUsedCommandListsSincePurge
 (
 0
 )
@@ -658,7 +658,7 @@ Flush
 if
 (
 (
-mPushedLayersSincePurge
+mUsedCommandListsSincePurge
 >
 =
 kPushedLayersBeforePurge
@@ -731,7 +731,7 @@ PopAllClips
 (
 )
 ;
-mPushedLayersSincePurge
+mUsedCommandListsSincePurge
 =
 0
 ;
@@ -1811,6 +1811,10 @@ RefPtr
 ID2D1CommandList
 >
 list
+;
+mUsedCommandListsSincePurge
++
++
 ;
 mDC
 -
@@ -5040,7 +5044,7 @@ CurrentTarget
 )
 )
 ;
-mPushedLayersSincePurge
+mUsedCommandListsSincePurge
 +
 +
 ;
@@ -6993,6 +6997,10 @@ SetTarget
 (
 mCommandList
 )
+;
+mUsedCommandListsSincePurge
++
++
 ;
 PushAllClips
 (
