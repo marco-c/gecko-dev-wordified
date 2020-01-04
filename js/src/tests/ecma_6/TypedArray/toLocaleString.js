@@ -10,21 +10,6 @@ Int8Array
 prototype
 )
 ;
-const
-constructors
-=
-[
-Int8Array
-Uint8Array
-Uint8ClampedArray
-Int16Array
-Uint16Array
-Int32Array
-Uint32Array
-Float32Array
-Float64Array
-]
-;
 /
 /
 %
@@ -116,7 +101,7 @@ property
 .
 assertEq
 (
-constructors
+anyTypedArrayConstructors
 .
 every
 (
@@ -290,7 +275,7 @@ for
 let
 constructor
 of
-constructors
+anyTypedArrayConstructors
 )
 {
 assertEq
@@ -373,7 +358,7 @@ for
 let
 constructor
 of
-constructors
+anyTypedArrayConstructors
 )
 {
 Number
@@ -518,7 +503,7 @@ for
 let
 constructor
 of
-constructors
+anyTypedArrayConstructors
 )
 {
 Number
