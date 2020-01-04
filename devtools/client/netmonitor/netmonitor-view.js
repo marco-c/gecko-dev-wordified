@@ -4828,6 +4828,9 @@ arm
 (
 )
 ;
+return
+undefined
+;
 }
 /
 *
@@ -9072,7 +9075,7 @@ upgrade
 '
 header
 .
-var
+let
 upgradeHeader
 =
 requestHeaders
@@ -10492,6 +10495,9 @@ _flushRequestsTask
 arm
 (
 )
+;
+return
+undefined
 ;
 }
 /
@@ -15761,6 +15767,9 @@ anchor
 )
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -16310,12 +16319,15 @@ separators
 separator
 =
 >
+{
 separator
 .
 hidden
 =
 !
 selectedItem
+;
+}
 )
 ;
 let
@@ -24275,6 +24287,9 @@ EVENTS
 .
 RESPONSE_HTML_PREVIEW_DISPLAYED
 )
+;
+return
+undefined
 ;
 }
 )

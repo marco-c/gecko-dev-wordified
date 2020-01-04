@@ -649,6 +649,9 @@ attrIndex
 +
 ;
 }
+return
+undefined
+;
 }
 function
 *

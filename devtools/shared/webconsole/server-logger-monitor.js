@@ -796,6 +796,9 @@ name
 method
 )
 ;
+return
+undefined
+;
 }
 }
 onAttachChild

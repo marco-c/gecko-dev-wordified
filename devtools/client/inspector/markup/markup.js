@@ -3109,6 +3109,9 @@ tooltip
 )
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -3608,6 +3611,9 @@ this
 maybeFocusNewSelection
 (
 )
+;
+return
+undefined
 ;
 }
 )
@@ -4599,6 +4605,10 @@ cancelDragging
 break
 ;
 }
+/
+/
+falls
+through
 }
 default
 :
@@ -14578,6 +14588,9 @@ return
 true
 ;
 }
+return
+undefined
+;
 }
 /
 *

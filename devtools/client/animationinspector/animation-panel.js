@@ -1977,11 +1977,14 @@ then
 )
 =
 >
+{
 this
 .
 setCurrentTimeAllPromise
 =
 null
+;
+}
 )
 ;
 }

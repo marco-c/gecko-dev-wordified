@@ -888,6 +888,9 @@ destroy
 ;
 }
 }
+return
+undefined
+;
 }
 )
 .

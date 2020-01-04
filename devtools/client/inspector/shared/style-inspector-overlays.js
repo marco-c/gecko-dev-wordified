@@ -2495,6 +2495,9 @@ nodeFront
 )
 ;
 }
+return
+undefined
+;
 }
 _onNewSelection
 :

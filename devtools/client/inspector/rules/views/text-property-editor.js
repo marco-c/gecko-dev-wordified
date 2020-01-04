@@ -1848,6 +1848,9 @@ domRule
 nodeHref
 ;
 }
+return
+undefined
+;
 }
 /
 *

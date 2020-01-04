@@ -269,11 +269,14 @@ registerCleanupFunction
 )
 =
 >
+{
 DevToolsUtils
 .
 testing
 =
 false
+;
+}
 )
 ;
 /
@@ -3562,6 +3565,9 @@ inspector
 )
 ;
 }
+return
+undefined
+;
 }
 /
 *

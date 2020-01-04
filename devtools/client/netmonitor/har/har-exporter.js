@@ -1284,6 +1284,9 @@ reportError
 err
 )
 ;
+return
+undefined
+;
 }
 }
 }
