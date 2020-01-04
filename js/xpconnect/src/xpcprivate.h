@@ -15427,6 +15427,8 @@ nsIVariant
 aResult
 )
 ;
+private
+:
 static
 nsresult
 CheckForException
@@ -15434,6 +15436,15 @@ CheckForException
 XPCCallContext
 &
 ccx
+mozilla
+:
+:
+dom
+:
+:
+AutoEntryScript
+&
+aes
 const
 char
 *
@@ -15446,8 +15457,6 @@ bool
 aForceReport
 )
 ;
-private
-:
 virtual
 ~
 nsXPCWrappedJSClass
