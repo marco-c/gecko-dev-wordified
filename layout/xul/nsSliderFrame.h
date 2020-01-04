@@ -508,12 +508,6 @@ StopDrag
 bool
 StartAPZDrag
 (
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
 )
 ;
 static

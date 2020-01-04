@@ -5174,9 +5174,6 @@ nsSliderFrame
 :
 StartAPZDrag
 (
-WidgetGUIEvent
-*
-aEvent
 )
 {
 if
@@ -5849,7 +5846,6 @@ mScrollingWithAPZ
 =
 StartAPZDrag
 (
-event
 )
 ;
 #
