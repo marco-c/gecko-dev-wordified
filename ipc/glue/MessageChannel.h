@@ -1054,6 +1054,11 @@ Block
 (
 )
 {
+MOZ_ASSERT
+(
+mLink
+)
+;
 mLink
 -
 >
@@ -1067,6 +1072,11 @@ Unblock
 (
 )
 {
+MOZ_ASSERT
+(
+mLink
+)
+;
 mLink
 -
 >
