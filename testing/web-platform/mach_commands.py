@@ -1750,6 +1750,10 @@ editor
 =
 None
         
+proc
+=
+None
+        
 if
 editor
 :
@@ -1832,6 +1836,10 @@ context
 wpt_kwargs
 )
         
+if
+proc
+:
+            
 proc
 .
 wait
