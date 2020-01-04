@@ -324,6 +324,15 @@ aTimelineTime
 const
 override
 ;
+void
+NotifyAnimationUpdated
+(
+Animation
+&
+aAnimation
+)
+override
+;
 /
 /
 nsARefreshObserver
