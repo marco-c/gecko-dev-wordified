@@ -33867,6 +33867,7 @@ nsAString
 &
 aResult
 )
+const
 {
 NS_ENSURE_TRUE
 (
@@ -33901,6 +33902,7 @@ nsAString
 &
 aResult
 )
+const
 {
 nsresult
 rv
