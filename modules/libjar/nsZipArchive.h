@@ -2303,7 +2303,7 @@ nsZipHandle
 (
 )
 ;
-void
+nsresult
 findDataStart
 (
 )
