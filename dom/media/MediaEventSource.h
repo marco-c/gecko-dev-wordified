@@ -687,8 +687,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aTask
 )
 {
@@ -727,8 +725,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aTask
 )
 {
