@@ -2259,7 +2259,8 @@ insertRecompileCheck
 (
 )
 ;
-void
+MOZ_MUST_USE
+bool
 initParameters
 (
 )
@@ -2281,7 +2282,8 @@ int32_t
 argIndex
 )
 ;
-void
+MOZ_MUST_USE
+bool
 rewriteParameters
 (
 )
