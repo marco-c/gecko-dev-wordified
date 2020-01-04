@@ -74,6 +74,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 window
 .
 addEventListener
@@ -85,7 +90,7 @@ function
 (
 )
 {
-var
+let
 ws1
 =
 new
@@ -134,7 +139,7 @@ close
 ;
 }
 ;
-var
+let
 ws2
 =
 new
