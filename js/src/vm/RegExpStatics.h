@@ -532,8 +532,6 @@ cx
 JSString
 *
 newInput
-bool
-newMultiline
 )
 {
 clear
@@ -543,12 +541,6 @@ clear
 pendingInput
 =
 newInput
-;
-setMultiline
-(
-cx
-newMultiline
-)
 ;
 checkInvariants
 (
