@@ -204,8 +204,6 @@ GenerateStubs
 ModuleGenerator
 &
 mg
-bool
-usesHeap
 )
 ;
 }
