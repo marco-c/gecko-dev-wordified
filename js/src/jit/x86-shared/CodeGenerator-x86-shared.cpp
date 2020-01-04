@@ -25929,14 +25929,8 @@ allOnes
 SimdConstant
 :
 :
-CreateX4
+SplatX4
 (
--
-1
--
-1
--
-1
 -
 1
 )
