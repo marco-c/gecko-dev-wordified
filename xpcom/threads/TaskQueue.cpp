@@ -571,6 +571,14 @@ AwaitShutdownAndIdle
 (
 )
 {
+MOZ_ASSERT
+(
+!
+IsCurrentThreadIn
+(
+)
+)
+;
 /
 /
 Make
