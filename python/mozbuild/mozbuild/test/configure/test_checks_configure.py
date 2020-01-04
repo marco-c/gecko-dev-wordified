@@ -180,13 +180,14 @@ __setitem__
 '
 find_program
 '
-self
-.
-template_impl
-(
+lambda
+x
+:
 self
 .
 find_program
+(
+x
 )
 )
     
