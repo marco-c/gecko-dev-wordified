@@ -1647,7 +1647,7 @@ servoStyleSet
 servoStyleSet
 -
 >
-RestyleSubtree
+StyleNewSubtree
 (
 child
 )
