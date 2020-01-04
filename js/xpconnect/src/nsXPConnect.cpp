@@ -1196,7 +1196,7 @@ aReport
 const
 char
 *
-aFallbackMessage
+aToStringResult
 bool
 aIsChrome
 uint64_t
@@ -1242,14 +1242,13 @@ IsEmpty
 )
 &
 &
-aFallbackMessage
+aToStringResult
 )
 {
-mErrorMsg
-.
-AssignWithConversion
+AppendUTF8toUTF16
 (
-aFallbackMessage
+aToStringResult
+mErrorMsg
 )
 ;
 }

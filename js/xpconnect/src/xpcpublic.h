@@ -3015,7 +3015,7 @@ aReport
 const
 char
 *
-aFallbackMessage
+aToStringResult
 bool
 aIsChrome
 uint64_t

@@ -3717,10 +3717,11 @@ cx
 FILE
 *
 file
-const
-char
-*
-message
+JS
+:
+:
+ConstUTF8CharsZ
+toStringResult
 JSErrorReport
 *
 report
