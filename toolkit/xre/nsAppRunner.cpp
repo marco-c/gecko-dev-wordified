@@ -1340,7 +1340,7 @@ gToolkitBuildID
 =
 NS_STRINGIFY
 (
-GRE_BUILDID
+MOZ_BUILDID
 )
 ;
 static

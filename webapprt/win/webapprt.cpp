@@ -1642,7 +1642,7 @@ strcmp
 buildid
 NS_STRINGIFY
 (
-GRE_BUILDID
+MOZ_BUILDID
 )
 )
 )
