@@ -274,7 +274,8 @@ defined
 (
 __NetBSD__
 )
-return
+ret
+=
 _lwp_self
 (
 )
@@ -285,7 +286,8 @@ defined
 (
 __DragonFly__
 )
-return
+ret
+=
 lwp_gettid
 (
 )
@@ -296,7 +298,8 @@ defined
 (
 __OpenBSD__
 )
-return
+ret
+=
 reinterpret_cast
 <
 uintptr_t
@@ -318,7 +321,8 @@ if
 __FreeBSD_version
 >
 900030
-return
+ret
+=
 pthread_getthreadid_np
 (
 )
@@ -334,7 +338,8 @@ thr_self
 lwpid
 )
 ;
-return
+ret
+=
 lwpid
 ;
 #
