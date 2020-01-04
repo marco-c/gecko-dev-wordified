@@ -631,7 +631,7 @@ API
 errors
 *
 /
-PermissionDeniedError
+NotAllowedError
 =
 0
 }
