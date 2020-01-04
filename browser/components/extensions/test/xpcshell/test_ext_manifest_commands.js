@@ -60,6 +60,8 @@ let
 normalized
 =
 yield
+ExtensionTestUtils
+.
 normalizeManifest
 (
 {
