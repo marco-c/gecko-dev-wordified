@@ -517,6 +517,11 @@ IntrinsicIsCallable
 \
 _
 (
+IntrinsicIsConstructor
+)
+\
+_
+(
 IntrinsicToObject
 )
 \

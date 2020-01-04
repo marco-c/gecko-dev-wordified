@@ -15217,7 +15217,7 @@ intrinsic_IsCallable
 0
 IntrinsicIsCallable
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 IsConstructor
@@ -15225,6 +15225,7 @@ IsConstructor
 intrinsic_IsConstructor
 1
 0
+IntrinsicIsConstructor
 )
 JS_FN
 (
