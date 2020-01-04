@@ -57,6 +57,7 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_mobile
 class
 TestPageSource
 (
@@ -262,6 +263,7 @@ xml
 >
 "
 )
+skip_if_mobile
 class
 TestPageSourceChrome
 (
