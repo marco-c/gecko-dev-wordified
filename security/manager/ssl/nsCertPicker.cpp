@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsNSSHelper
+.
+h
+"
+#
+include
+"
 ScopedNSSTypes
 .
 h
