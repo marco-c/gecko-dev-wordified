@@ -4926,7 +4926,6 @@ appContext
 getProfile
 (
 )
-null
 )
 ;
 mAccountsHelper
