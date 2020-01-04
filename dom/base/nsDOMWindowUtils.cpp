@@ -3797,7 +3797,7 @@ aDeltaX
 ;
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 aDeltaY
 ;

@@ -410,7 +410,7 @@ deltaY
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 {
 }
@@ -1227,7 +1227,7 @@ mDeltaX
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 )
 {
@@ -2794,7 +2794,7 @@ mDeltaX
 aEvent
 -
 >
-deltaY
+mDeltaY
 )
 {
 return

@@ -4341,7 +4341,7 @@ MOZ_WM_VSCROLL
 ?
 wheelEvent
 .
-deltaY
+mDeltaY
 :
 wheelEvent
 .
@@ -4553,7 +4553,7 @@ mDeltaX
 :
 %
 f
-deltaY
+mDeltaY
 :
 %
 f
@@ -4619,7 +4619,7 @@ wheelEvent
 mDeltaX
 wheelEvent
 .
-deltaY
+mDeltaY
 wheelEvent
 .
 lineOrPageDeltaX
@@ -5634,7 +5634,7 @@ mIsVertical
 ?
 aWheelEvent
 .
-deltaY
+mDeltaY
 :
 aWheelEvent
 .
@@ -5994,7 +5994,7 @@ mDeltaX
 :
 %
 f
-deltaY
+mDeltaY
 :
 %
 f
@@ -6056,7 +6056,7 @@ aWheelEvent
 mDeltaX
 aWheelEvent
 .
-deltaY
+mDeltaY
 aWheelEvent
 .
 lineOrPageDeltaX

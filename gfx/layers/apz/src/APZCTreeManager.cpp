@@ -8092,7 +8092,7 @@ aEvent
 mDeltaX
 aEvent
 .
-deltaY
+mDeltaY
 aEvent
 .
 mAllowToOverrideSystemScrollSpeed

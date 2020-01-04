@@ -17779,7 +17779,7 @@ delta_x
 ;
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 aEvent
 -
@@ -17880,7 +17880,7 @@ GDK_SCROLL_UP
 :
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 wheelEvent
 .
@@ -17896,7 +17896,7 @@ GDK_SCROLL_DOWN
 :
 wheelEvent
 .
-deltaY
+mDeltaY
 =
 wheelEvent
 .

@@ -1921,7 +1921,7 @@ mDeltaX
 wheelEvent
 -
 >
-deltaY
+mDeltaY
 !
 =
 0
@@ -2745,13 +2745,13 @@ mAllowToOverrideSystemScrollSpeed
 )
 {
 return
-deltaY
+mDeltaY
 ;
 }
 return
 ComputeOverriddenDelta
 (
-deltaY
+mDeltaY
 true
 )
 ;

@@ -3168,7 +3168,7 @@ mDeltaX
 .
 0
 )
-deltaY
+mDeltaY
 (
 0
 .
@@ -3275,7 +3275,7 @@ mDeltaX
 .
 0
 )
-deltaY
+mDeltaY
 (
 0
 .
@@ -3509,7 +3509,7 @@ overflowDeltaX
 NOTE
 :
 mDeltaX
-deltaY
+mDeltaY
 and
 deltaZ
 may
@@ -3555,7 +3555,7 @@ double
 mDeltaX
 ;
 double
-deltaY
+mDeltaY
 ;
 double
 deltaZ
@@ -3967,7 +3967,7 @@ set
 NOTE
 :
 mDeltaX
-deltaY
+mDeltaY
 and
 deltaZ
 may
@@ -4021,7 +4021,7 @@ check
 the
 mDeltaX
 and
-deltaY
+mDeltaY
 .
 double
 overflowDeltaX
@@ -4172,11 +4172,11 @@ aEvent
 .
 mDeltaX
 ;
-deltaY
+mDeltaY
 =
 aEvent
 .
-deltaY
+mDeltaY
 ;
 deltaZ
 =
