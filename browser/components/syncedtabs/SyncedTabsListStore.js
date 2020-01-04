@@ -1138,11 +1138,7 @@ parent
 maxParentRow
 )
 {
-parentRow
-=
-maxParentRow
--
-1
+return
 ;
 }
 let
