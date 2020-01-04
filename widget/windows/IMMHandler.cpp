@@ -11000,7 +11000,7 @@ return
 false
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 r
 ;
 bool
@@ -11022,7 +11022,7 @@ ret
 false
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 screenRect
 ;
 /
@@ -11274,7 +11274,7 @@ rcDocument
 }
 else
 {
-nsIntRect
+LayoutDeviceIntRect
 editorRectInWindow
 =
 editorRect
@@ -11282,10 +11282,6 @@ editorRect
 mReply
 .
 mRect
-.
-ToUnknownRect
-(
-)
 ;
 nsWindow
 *
@@ -11312,7 +11308,7 @@ mFocusedWidget
 :
 aWindow
 ;
-nsIntRect
+LayoutDeviceIntRect
 editorRectInScreen
 ;
 ResolveIMECaretPos
@@ -14029,7 +14025,7 @@ nsWindow
 aWindow
 uint32_t
 aOffset
-nsIntRect
+LayoutDeviceIntRect
 &
 aCharRect
 WritingMode
@@ -14610,10 +14606,6 @@ charRect
 mReply
 .
 mRect
-.
-ToUnknownRect
-(
-)
 ;
 if
 (
@@ -14731,7 +14723,7 @@ GetCaretRect
 nsWindow
 *
 aWindow
-nsIntRect
+LayoutDeviceIntRect
 &
 aCaretRect
 WritingMode
@@ -14873,10 +14865,6 @@ caretRect
 mReply
 .
 mRect
-.
-ToUnknownRect
-(
-)
 ;
 if
 (
@@ -14985,7 +14973,7 @@ IMEContext
 aContext
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 r
 ;
 /
@@ -15040,7 +15028,7 @@ GetTopLevelWindow
 false
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 firstSelectedCharRect
 ;
 ResolveIMECaretPos
@@ -15099,7 +15087,7 @@ Chinese
 on
 XP
 .
-nsIntRect
+LayoutDeviceIntRect
 caretRect
 (
 firstSelectedCharRect
@@ -15264,7 +15252,7 @@ in
 composition
 string
 .
-nsIntRect
+LayoutDeviceIntRect
 firstTargetCharRect
 lastTargetCharRect
 ;
@@ -15459,7 +15447,7 @@ aWindow
 lastTargetCharRect
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 targetClauseRect
 ;
 targetClauseRect
@@ -16668,13 +16656,13 @@ ResolveIMECaretPos
 nsIWidget
 *
 aReferenceWidget
-nsIntRect
+LayoutDeviceIntRect
 &
 aCursorRect
 nsIWidget
 *
 aNewOriginWidget
-nsIntRect
+LayoutDeviceIntRect
 &
 aOutRect
 )
@@ -16703,7 +16691,7 @@ MoveBy
 aReferenceWidget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )
@@ -16720,7 +16708,7 @@ MoveBy
 aNewOriginWidget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )
