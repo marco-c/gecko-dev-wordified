@@ -216,6 +216,13 @@ numThreads
 }
 }
 ;
+const
+static
+bool
+shouldPrint
+=
+false
+;
 void
 printDiagnosticMessage
 (
@@ -223,6 +230,13 @@ uint64_t
 seen
 )
 {
+if
+(
+!
+shouldPrint
+)
+return
+;
 fprintf
 (
 stderr
