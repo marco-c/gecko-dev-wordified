@@ -5573,6 +5573,8 @@ analyser
 fun
 )
 {
+/
+*
 analyser
 .
 enableDebugCanvas
@@ -5598,6 +5600,16 @@ analyser
 disableDebugCanvas
 (
 )
+)
+;
+*
+/
+return
+analyser
+.
+waitForAnalysisSuccess
+(
+fun
 )
 ;
 }
