@@ -9317,6 +9317,7 @@ owner
 const
 ;
 static
+MOZ_MUST_USE
 bool
 callableGetter
 (
@@ -9331,6 +9332,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isBoundFunctionGetter
 (
@@ -9345,6 +9347,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isArrowFunctionGetter
 (
@@ -9359,6 +9362,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 protoGetter
 (
@@ -9373,6 +9377,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 classGetter
 (
@@ -9387,6 +9392,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 nameGetter
 (
@@ -9401,6 +9407,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 displayNameGetter
 (
@@ -9415,6 +9422,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 parameterNamesGetter
 (
@@ -9429,6 +9437,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 scriptGetter
 (
@@ -9443,6 +9452,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 environmentGetter
 (
@@ -9457,6 +9467,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundTargetFunctionGetter
 (
@@ -9471,6 +9482,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundThisGetter
 (
@@ -9485,6 +9497,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 boundArgumentsGetter
 (
@@ -9499,6 +9512,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 globalGetter
 (
@@ -9513,6 +9527,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 allocationSiteGetter
 (
@@ -9527,6 +9542,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 errorMessageNameGetter
 (
@@ -9541,6 +9557,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isExtensibleMethod
 (
@@ -9555,6 +9572,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isSealedMethod
 (
@@ -9569,6 +9587,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 isFrozenMethod
 (
@@ -9583,6 +9602,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertyNamesMethod
 (
@@ -9597,6 +9617,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertySymbolsMethod
 (
@@ -9611,6 +9632,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 getOwnPropertyDescriptorMethod
 (
@@ -9625,6 +9647,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 preventExtensionsMethod
 (
@@ -9639,6 +9662,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 sealMethod
 (
@@ -9653,6 +9677,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 freezeMethod
 (
@@ -9667,6 +9692,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 definePropertyMethod
 (
@@ -9681,6 +9707,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 definePropertiesMethod
 (
@@ -9695,6 +9722,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 deletePropertyMethod
 (
@@ -9709,6 +9737,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 callMethod
 (
@@ -9723,6 +9752,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 applyMethod
 (
@@ -9737,6 +9767,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 asEnvironmentMethod
 (
@@ -9751,6 +9782,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 forceLexicalInitializationByNameMethod
 (
@@ -9765,6 +9797,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 executeInGlobalMethod
 (
@@ -9779,6 +9812,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 executeInGlobalWithBindingsMethod
 (
@@ -9793,6 +9827,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 makeDebuggeeValueMethod
 (
@@ -9807,6 +9842,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 unsafeDereferenceMethod
 (
@@ -9821,6 +9857,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 unwrapMethod
 (
