@@ -1370,8 +1370,6 @@ JSStructuredCloneReader
 aReader
 uint32_t
 aTag
-uint32_t
-aIndex
 )
 ;
 static
