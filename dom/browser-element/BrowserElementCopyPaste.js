@@ -306,6 +306,8 @@ docShell
 .
 doCommand
 (
+this
+.
 COMMAND_MAP
 [
 e
