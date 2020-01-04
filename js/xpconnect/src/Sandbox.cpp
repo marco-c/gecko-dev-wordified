@@ -479,10 +479,6 @@ JS
 ;
 using
 namespace
-js
-;
-using
-namespace
 xpc
 ;
 using
@@ -3593,10 +3589,16 @@ obj
 )
 {
 const
+js
+:
+:
 Class
 *
 clasp
 =
+js
+:
+:
 GetObjectClass
 (
 obj
@@ -6593,6 +6595,9 @@ discardSource
 )
 ;
 const
+js
+:
+:
 Class
 *
 clasp

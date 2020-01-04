@@ -446,12 +446,6 @@ mozilla
 IsNaN
 ;
 using
-mozilla
-:
-:
-UniquePtr
-;
-using
 JS
 :
 :

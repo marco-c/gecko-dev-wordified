@@ -254,10 +254,6 @@ using
 namespace
 JS
 ;
-using
-namespace
-js
-;
 namespace
 xpc
 {
@@ -271,6 +267,9 @@ obj
 {
 obj
 =
+js
+:
+:
 CheckedUnwrap
 (
 obj
@@ -2616,6 +2615,9 @@ restrictions
 .
 targetScope
 =
+js
+:
+:
 CheckedUnwrap
 (
 targetScope
@@ -2623,6 +2625,9 @@ targetScope
 ;
 funObj
 =
+js
+:
+:
 CheckedUnwrap
 (
 funObj

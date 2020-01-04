@@ -489,12 +489,6 @@ mozilla
 PositiveInfinity
 ;
 using
-mozilla
-:
-:
-UniquePtr
-;
-using
 JS
 :
 :

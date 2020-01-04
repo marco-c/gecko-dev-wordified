@@ -142,12 +142,6 @@ JS
 :
 PerfMeasurement
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 /
 /
 You

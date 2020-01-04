@@ -477,12 +477,6 @@ using
 mozilla
 :
 :
-UniquePtr
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 static

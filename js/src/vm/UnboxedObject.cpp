@@ -205,12 +205,6 @@ mozilla
 PodCopy
 ;
 using
-mozilla
-:
-:
-UniquePtr
-;
-using
 namespace
 js
 ;

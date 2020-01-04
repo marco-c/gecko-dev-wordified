@@ -293,12 +293,6 @@ mozilla
 :
 PodArrayZero
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 /
 /
 Required
@@ -378,6 +372,9 @@ SetSourceHook
 JSRuntime
 *
 rt
+mozilla
+:
+:
 UniquePtr
 <
 SourceHook
@@ -398,6 +395,9 @@ hook
 }
 JS_FRIEND_API
 (
+mozilla
+:
+:
 UniquePtr
 <
 SourceHook

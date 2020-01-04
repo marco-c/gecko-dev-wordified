@@ -309,10 +309,6 @@ h
 >
 #
 endif
-using
-namespace
-JS
-;
 namespace
 js
 {

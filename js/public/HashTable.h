@@ -5671,9 +5671,6 @@ mozilla
 :
 :
 UniquePtr
-<
-T
->
 to
 proxy
 the
@@ -5691,6 +5688,8 @@ template
 <
 class
 T
+class
+D
 >
 struct
 DefaultHasher
@@ -5701,6 +5700,7 @@ mozilla
 UniquePtr
 <
 T
+D
 >
 >
 {
@@ -5713,6 +5713,7 @@ mozilla
 UniquePtr
 <
 T
+D
 >
 ;
 using
@@ -5776,6 +5777,7 @@ mozilla
 UniquePtr
 <
 T
+D
 >
 &
 k
@@ -5814,6 +5816,7 @@ mozilla
 UniquePtr
 <
 T
+D
 >
 &
 k
@@ -5823,6 +5826,7 @@ mozilla
 UniquePtr
 <
 T
+D
 >
 &
 &

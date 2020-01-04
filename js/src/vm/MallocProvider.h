@@ -416,7 +416,7 @@ h
 #
 include
 "
-mozilla
+js
 /
 UniquePtr
 .
@@ -888,9 +888,6 @@ template
 class
 T
 >
-mozilla
-:
-:
 UniquePtr
 <
 T
@@ -908,9 +905,6 @@ numElems
 )
 {
 return
-mozilla
-:
-:
 UniquePtr
 <
 T
@@ -1188,9 +1182,6 @@ template
 class
 T
 >
-mozilla
-:
-:
 UniquePtr
 <
 T
@@ -1208,9 +1199,6 @@ numElems
 )
 {
 return
-mozilla
-:
-:
 UniquePtr
 <
 T

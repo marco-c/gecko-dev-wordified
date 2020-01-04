@@ -402,12 +402,6 @@ mozilla
 DebugOnly
 ;
 using
-mozilla
-:
-:
-UniquePtr
-;
-using
 namespace
 js
 ;

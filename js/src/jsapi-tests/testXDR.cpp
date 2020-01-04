@@ -147,12 +147,6 @@ jsscriptinlines
 .
 h
 "
-using
-mozilla
-:
-:
-UniquePtr
-;
 static
 JSScript
 *

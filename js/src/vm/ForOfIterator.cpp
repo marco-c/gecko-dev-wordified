@@ -171,12 +171,6 @@ JS
 :
 ForOfIterator
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 bool
 ForOfIterator
 :

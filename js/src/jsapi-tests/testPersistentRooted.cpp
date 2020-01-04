@@ -80,12 +80,6 @@ using
 namespace
 JS
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 struct
 BarkWhenTracedClass
 {
@@ -448,6 +442,9 @@ reset
 (
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
@@ -615,6 +612,9 @@ reset
 (
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
@@ -652,6 +652,9 @@ construction
 !
 AMAZING
 !
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
@@ -758,6 +761,9 @@ reset
 (
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
@@ -796,6 +802,9 @@ new
 empty
 kennel
 .
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
@@ -880,6 +889,9 @@ barker
 .
 kennel2
 =
+mozilla
+:
+:
 UniquePtr
 <
 Kennel
