@@ -134,7 +134,7 @@ log
 h
 >
 #
-else
+endif
 #
 include
 <
@@ -164,8 +164,6 @@ unistd
 h
 >
 #
-endif
-#
 include
 "
 base
@@ -179,9 +177,6 @@ h
 namespace
 mozilla
 {
-#
-ifndef
-ANDROID
 /
 /
 Alters
@@ -311,8 +306,6 @@ iovcnt
 ;
 }
 }
-#
-endif
 void
 SandboxLogError
 (
@@ -349,7 +342,7 @@ message
 )
 ;
 #
-else
+endif
 static
 const
 char
@@ -476,7 +469,5 @@ written
 )
 ;
 }
-#
-endif
 }
 }
