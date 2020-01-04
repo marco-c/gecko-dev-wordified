@@ -1183,11 +1183,6 @@ errorHandler
 checkServerError
 (
 ex
-"
-meta
-/
-global
-"
 )
 ;
 this
