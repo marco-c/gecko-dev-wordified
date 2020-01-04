@@ -5710,7 +5710,6 @@ a
 (
 global
 i32
-immutable
 )
 )
 (
@@ -5932,7 +5931,6 @@ memOff
 (
 global
 i32
-immutable
 )
 )
 (
@@ -5947,7 +5945,6 @@ tblOff
 (
 global
 i32
-immutable
 )
 )
 (
@@ -6916,7 +6913,6 @@ val
 (
 global
 i32
-immutable
 )
 )
 (
