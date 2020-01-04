@@ -833,10 +833,7 @@ cursor
 state
 -
 >
-pool
--
->
-allocated
+pool_allocated
 <
 header
 -
