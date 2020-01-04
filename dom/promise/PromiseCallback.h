@@ -375,11 +375,7 @@ GetDependentPromise
 (
 )
 override
-{
-return
-mNextPromise
 ;
-}
 WrapperPromiseCallback
 (
 Promise
