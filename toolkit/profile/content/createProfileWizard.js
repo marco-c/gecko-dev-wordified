@@ -841,7 +841,7 @@ gProfileManagerBundle
 getString
 (
 "
-profileFinishText
+profileFinishTextMac
 "
 )
 ;
@@ -859,7 +859,7 @@ gProfileManagerBundle
 getString
 (
 "
-profileFinishTextMac
+profileFinishText
 "
 )
 ;
