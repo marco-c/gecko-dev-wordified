@@ -1559,8 +1559,6 @@ return
 mOriginalContent
 ;
 }
-private
-:
 enum
 IteratorPhase
 {
@@ -1572,6 +1570,18 @@ eAtAfterKid
 eAtEnd
 }
 ;
+IteratorPhase
+Phase
+(
+)
+const
+{
+return
+mPhase
+;
+}
+private
+:
 nsIContent
 *
 mOriginalContent
