@@ -383,7 +383,7 @@ GetFrameMetrics
 c
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 -
@@ -986,7 +986,7 @@ and
 /
 or
 *
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 =
@@ -1005,13 +1005,13 @@ both
 *
 mIndex
 and
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 are
 uint32_t
 and
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 *

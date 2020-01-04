@@ -12174,7 +12174,7 @@ must
 be
 less
 than
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 .
