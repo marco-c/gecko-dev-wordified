@@ -69,7 +69,7 @@ string
 "
 /
 /
-URLUtils
+HTMLHyperlinkElementUtils
 href
 :
 "

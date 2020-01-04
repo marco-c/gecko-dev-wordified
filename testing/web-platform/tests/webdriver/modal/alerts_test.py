@@ -37,9 +37,18 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
+from
+selenium
+.
+webdriver
+.
+support
+import
 wait
 class
 AlertsTest
@@ -74,7 +83,7 @@ ignored_exceptions
 [
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 ]
 )
         
@@ -127,7 +136,7 @@ dismiss
 except
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 :
             
 pass
@@ -146,7 +155,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -186,9 +195,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
     
 def
 test_should_allow_user_to_accept_an_alert_with_no_text
@@ -201,7 +208,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -243,9 +250,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
     
 def
 test_should_allow_user_to_dismiss_an_alert
@@ -258,7 +263,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -298,9 +303,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
     
 def
 test_should_allow_user_to_get_text_of_an_alert
@@ -313,7 +316,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -347,9 +350,7 @@ value
 =
 alert
 .
-get_text
-(
-)
+text
         
 alert
 .
@@ -378,7 +379,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -407,7 +408,7 @@ switch_to_alert
 (
 )
 )
-	
+        
 with
 self
 .
@@ -418,7 +419,7 @@ exceptions
 ElementNotVisibleException
 )
 :
-	    
+            
 alert
 .
 send_keys
@@ -445,7 +446,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -488,15 +489,13 @@ assertRaises
 (
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 )
 :
             
 alert
 .
-get_text
-(
-)
+text
     
 #
 Prompts
@@ -512,7 +511,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -559,7 +558,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -585,7 +584,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -632,7 +631,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -659,7 +658,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -715,7 +714,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -742,7 +741,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -776,9 +775,7 @@ value
 =
 alert
 .
-get_text
-(
-)
+text
         
 alert
 .
@@ -808,7 +805,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -851,15 +848,13 @@ assertRaises
 (
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 )
 :
             
 alert
 .
-get_text
-(
-)
+text
     
 def
 test_prompt_should_use_default_value_if_no_keys_sent
@@ -872,7 +867,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -923,7 +918,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -954,7 +949,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1005,7 +1000,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1035,7 +1030,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1082,7 +1077,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1109,7 +1104,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1156,7 +1151,7 @@ x
 :
 x
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1183,7 +1178,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1250,7 +1245,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1284,9 +1279,7 @@ value
 =
 alert
 .
-get_text
-(
-)
+text
         
 alert
 .
@@ -1315,7 +1308,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #
@@ -1358,15 +1351,16 @@ assertRaises
 (
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 )
 :
             
 alert
 .
-get_text
-(
-)
+text
+"
+"
+"
     
 def
 test_switch_to_missing_alert_fails
@@ -1382,7 +1376,7 @@ assertRaises
 (
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 )
 :
             
@@ -1393,6 +1387,9 @@ driver
 switch_to_alert
 (
 )
+"
+"
+"
 if
 __name__
 =

@@ -7955,6 +7955,11 @@ NOT_SUPPORTED_ERR
 '
 NotSupportedError
 '
+INUSE_ATTRIBUTE_ERR
+:
+'
+InUseAttributeError
+'
 INVALID_STATE_ERR
 :
 '
@@ -8066,6 +8071,9 @@ NotFoundError
 NotSupportedError
 :
 9
+InUseAttributeError
+:
+10
 InvalidStateError
 :
 11

@@ -60,7 +60,9 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
 class
@@ -109,7 +111,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -176,7 +178,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -237,7 +239,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -298,7 +300,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -365,7 +367,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -426,7 +428,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -487,7 +489,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
