@@ -6490,7 +6490,7 @@ already_AddRefed
 layers
 :
 :
-CanvasLayer
+Layer
 >
 WebGLContext
 :
@@ -6500,7 +6500,7 @@ GetCanvasLayer
 nsDisplayListBuilder
 *
 builder
-CanvasLayer
+Layer
 *
 oldLayer
 LayerManager
@@ -6541,7 +6541,7 @@ RefPtr
 layers
 :
 :
-CanvasLayer
+Layer
 >
 ret
 =

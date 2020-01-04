@@ -32947,7 +32947,7 @@ mBufferProvider
 }
 already_AddRefed
 <
-CanvasLayer
+Layer
 >
 CanvasRenderingContext2D
 :
@@ -32957,7 +32957,7 @@ GetCanvasLayer
 nsDisplayListBuilder
 *
 aBuilder
-CanvasLayer
+Layer
 *
 aOldLayer
 LayerManager
@@ -33271,7 +33271,14 @@ this
 )
 &
 &
+static_cast
+<
+CanvasLayer
+*
+>
+(
 aOldLayer
+)
 -
 >
 IsDataValid
@@ -33282,7 +33289,7 @@ data
 {
 RefPtr
 <
-CanvasLayer
+Layer
 >
 ret
 =

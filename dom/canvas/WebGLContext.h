@@ -1767,14 +1767,14 @@ texTarget
 }
 already_AddRefed
 <
-CanvasLayer
+Layer
 >
 GetCanvasLayer
 (
 nsDisplayListBuilder
 *
 builder
-CanvasLayer
+Layer
 *
 oldLayer
 LayerManager
