@@ -172,6 +172,7 @@ static
 const
 char
 *
+const
 kLangGroups
 [
 ]
