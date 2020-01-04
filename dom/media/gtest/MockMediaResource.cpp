@@ -93,6 +93,10 @@ const
 char
 *
 aFileName
+const
+nsACString
+&
+aContentType
 )
 :
 mFileHandle
@@ -105,14 +109,7 @@ aFileName
 )
 mContentType
 (
-NS_LITERAL_CSTRING
-(
-"
-video
-/
-mp4
-"
-)
+aContentType
 )
 {
 }
