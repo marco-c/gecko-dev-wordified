@@ -9770,6 +9770,14 @@ headers
 false
 )
 ;
+mResponseHead
+-
+>
+FlattenOriginalHeader
+(
+headers
+)
+;
 LogHeaders
 (
 headers
