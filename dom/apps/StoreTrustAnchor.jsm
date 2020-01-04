@@ -105,6 +105,9 @@ AppMarketplaceDevReviewersRoot
 AppMarketplaceStageRoot
 "
 "
+PrivilegedPackageRoot
+"
+"
 AppXPCShellRoot
 "
 ]

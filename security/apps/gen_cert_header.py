@@ -308,6 +308,10 @@ addonsPublicRoot
 '
 addonsStageRoot
 '
+  
+'
+privilegedPackageRoot
+'
 ]
 for
 n
