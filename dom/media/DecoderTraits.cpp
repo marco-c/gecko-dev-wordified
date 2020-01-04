@@ -974,6 +974,13 @@ m3u
 type
 .
 "
+application
+/
+x
+-
+mpegurl
+"
+"
 audio
 /
 x
