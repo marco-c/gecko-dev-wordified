@@ -2608,7 +2608,7 @@ visible
 according
 to
 the
-image
+frame
 *
 visibility
 heuristics
@@ -2661,7 +2661,7 @@ want
 to
 expand
 for
-image
+frame
 visibility
 purposes
 .
@@ -3416,7 +3416,7 @@ frame
 is
 getting
 its
-image
+frame
 visibility
 updated
 .
@@ -3424,7 +3424,7 @@ updated
 /
 virtual
 void
-NotifyImageVisibilityUpdate
+NotifyApproximateFrameVisibilityUpdate
 (
 )
 =
@@ -3447,7 +3447,7 @@ port
 at
 the
 last
-image
+frame
 *
 visibility
 update
@@ -3474,7 +3474,7 @@ aDisplayPort
 /
 virtual
 bool
-GetDisplayPortAtLastImageVisibilityUpdate
+GetDisplayPortAtLastApproximateFrameVisibilityUpdate
 (
 nsRect
 *

@@ -1713,7 +1713,7 @@ Mode
 PAINTING
 EVENT_DELIVERY
 PLUGIN_GEOMETRY
-IMAGE_VISIBILITY
+FRAME_VISIBILITY
 TRANSFORM_COMPUTATION
 }
 ;
@@ -1956,14 +1956,14 @@ being
 built
 for
 determining
-image
+frame
 *
 visibility
 .
 *
 /
 bool
-IsForImageVisibility
+IsForFrameVisibility
 (
 )
 {
@@ -1971,7 +1971,7 @@ return
 mMode
 =
 =
-IMAGE_VISIBILITY
+FRAME_VISIBILITY
 ;
 }
 bool

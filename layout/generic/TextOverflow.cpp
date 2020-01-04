@@ -4685,7 +4685,7 @@ for
 event
 processing
 or
-image
+frame
 visibility
 .
 if
@@ -4713,7 +4713,7 @@ IsForEventDelivery
 aBuilder
 -
 >
-IsForImageVisibility
+IsForFrameVisibility
 (
 )
 )

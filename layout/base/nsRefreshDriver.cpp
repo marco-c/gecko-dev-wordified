@@ -10447,7 +10447,8 @@ return
 /
 /
 Recompute
-image
+approximate
+frame
 visibility
 if
 it
@@ -10457,10 +10458,10 @@ necessary
 and
 enough
 time
+/
+/
 has
 passed
-/
-/
 since
 the
 last
@@ -10506,7 +10507,7 @@ false
 presShell
 -
 >
-ScheduleImageVisibilityUpdate
+ScheduleApproximateFrameVisibilityUpdateNow
 (
 )
 ;
