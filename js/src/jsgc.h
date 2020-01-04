@@ -4122,7 +4122,7 @@ BackgroundFinalizeStateEnum
 mozilla
 :
 :
-ReleaseAcquire
+SequentiallyConsistent
 >
 BackgroundFinalizeState
 ;
