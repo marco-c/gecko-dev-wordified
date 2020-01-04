@@ -611,7 +611,7 @@ aBoxLayoutState
 )
 ;
 nsresult
-EndLayout
+EndXULLayout
 (
 nsBoxLayoutState
 &
