@@ -263,10 +263,10 @@ public
 static
 final
 String
-ACTION_PLAY
+ACTION_RESUME
 =
 "
-action_play
+action_resume
 "
 ;
 public
@@ -895,7 +895,7 @@ null
 break
 ;
 case
-ACTION_PLAY
+ACTION_RESUME
 :
 mController
 .
@@ -934,7 +934,7 @@ mActionState
 .
 equals
 (
-ACTION_PLAY
+ACTION_RESUME
 )
 )
 {
@@ -1036,7 +1036,7 @@ mActionState
 .
 equals
 (
-ACTION_PLAY
+ACTION_RESUME
 )
 )
 {
@@ -1229,7 +1229,7 @@ ACTION_PAUSE
 ;
 mActionState
 =
-ACTION_PLAY
+ACTION_RESUME
 ;
 }
 }
@@ -1274,7 +1274,7 @@ resumeMedia
 ;
 mActionState
 =
-ACTION_PLAY
+ACTION_RESUME
 ;
 }
 Override
@@ -1303,7 +1303,7 @@ onPause
 ;
 notifyControlInterfaceChanged
 (
-ACTION_PLAY
+ACTION_RESUME
 )
 ;
 notifyObservers
@@ -1792,7 +1792,7 @@ action
 .
 equals
 (
-ACTION_PLAY
+ACTION_RESUME
 )
 ;
 int
