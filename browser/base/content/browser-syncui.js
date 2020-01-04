@@ -2040,7 +2040,6 @@ openSetup
 }
 else
 {
-return
 this
 .
 doSync

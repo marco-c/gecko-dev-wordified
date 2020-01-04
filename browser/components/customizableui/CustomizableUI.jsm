@@ -14799,7 +14799,6 @@ if
 aWindow
 )
 {
-return
 this
 .
 _dispatchToolboxEventToWindow
@@ -14808,6 +14807,8 @@ aEventType
 aDetails
 aWindow
 )
+;
+return
 ;
 }
 for
@@ -16806,6 +16807,9 @@ reportError
 (
 e
 )
+;
+return
+undefined
 ;
 }
 }
@@ -28320,9 +28324,7 @@ from
 (
 gBuildWindows
 (
-[
-win
-]
+wins
 )
 =
 >
@@ -28330,7 +28332,10 @@ this
 .
 forWindow
 (
-win
+wins
+[
+0
+]
 )
 )
 ;

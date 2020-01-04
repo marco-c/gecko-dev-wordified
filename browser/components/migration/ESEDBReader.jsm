@@ -3617,6 +3617,9 @@ wMilliseconds
 )
 ;
 }
+return
+undefined
+;
 }
 _getColumnInfo
 (

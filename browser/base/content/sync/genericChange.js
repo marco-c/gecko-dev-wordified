@@ -1252,6 +1252,9 @@ doChangePassword
 break
 ;
 }
+return
+undefined
+;
 }
 doGeneratePassphrase
 :

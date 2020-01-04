@@ -1931,6 +1931,9 @@ will
 handle
 the
 error
+return
+null
+;
 }
 }
 const

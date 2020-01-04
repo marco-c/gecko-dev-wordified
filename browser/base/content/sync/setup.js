@@ -935,7 +935,6 @@ ensureMPUnlocked
 )
 )
 return
-false
 ;
 this
 .
@@ -970,7 +969,6 @@ ensureMPUnlocked
 )
 )
 return
-false
 ;
 this
 .
