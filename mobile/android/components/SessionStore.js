@@ -4642,7 +4642,7 @@ true
 ;
 aBrowser
 .
-removeListener
+removeEventListener
 (
 "
 AboutReaderContentReady
