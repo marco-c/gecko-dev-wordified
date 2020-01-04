@@ -167,7 +167,6 @@ due
 to
 Safe
 Mode
-or
 not
 being
 included
@@ -177,6 +176,12 @@ with
 the
 operating
 system
+or
+a
+dependent
+feature
+being
+disabled
 .
 Unavailable
 /
