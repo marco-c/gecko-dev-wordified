@@ -12543,6 +12543,8 @@ closeTagLine
 }
 this
 .
+markup
+.
 GRAB_DELAY
 )
 ;
