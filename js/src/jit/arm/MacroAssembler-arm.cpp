@@ -4506,12 +4506,12 @@ c
 as_alu
 (
 dest
-dest
+src1
 O2Reg
 (
-src1
+dest
 )
-OpAdd
+OpRsb
 s
 c
 )
