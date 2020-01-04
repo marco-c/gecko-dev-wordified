@@ -604,10 +604,6 @@ mProcessState
 (
 CREATING_CHANNEL
 )
-mDelegate
-(
-nullptr
-)
 #
 if
 defined
@@ -630,6 +626,10 @@ mSandboxLevel
 )
 #
 endif
+mDelegate
+(
+nullptr
+)
 mChildProcessHandle
 (
 0
