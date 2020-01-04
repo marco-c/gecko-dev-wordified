@@ -130,15 +130,6 @@ Barrier
 .
 h
 "
-#
-include
-"
-js
-/
-GCHashTable
-.
-h
-"
 namespace
 js
 {
