@@ -10838,7 +10838,7 @@ true
 }
 static
 bool
-AstDecodeFunctionExport
+AstDecodeExport
 (
 AstDecodeContext
 &
@@ -11104,7 +11104,7 @@ nullptr
 if
 (
 !
-AstDecodeFunctionExport
+AstDecodeExport
 (
 c
 &
