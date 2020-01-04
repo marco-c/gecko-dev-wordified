@@ -362,6 +362,17 @@ XMLHttpRequestEventTarget
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+XMLHttpRequestString
+.
+h
+"
+#
 ifdef
 Status
 /
@@ -3058,7 +3069,7 @@ and
 TEXT
 responseTypes
 .
-nsString
+XMLHttpRequestString
 mResponseText
 ;
 /
