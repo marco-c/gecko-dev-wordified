@@ -615,8 +615,6 @@ i64
 loads
 /
 stores
-/
-/
 specTests
 .
 push
@@ -628,12 +626,6 @@ wast
 "
 )
 ;
-/
-/
-TODO
-value
-error
-!
 /
 /
 specTests
