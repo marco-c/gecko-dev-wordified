@@ -2476,15 +2476,11 @@ GetInnerWindowID
 ;
 CSP_LogLocalizedStr
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 upgradeInsecureRequest
 "
-)
-.
-get
-(
 )
 params
 ArrayLength
