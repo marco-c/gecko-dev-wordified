@@ -116,13 +116,6 @@ define
 __xpt_arena_h__
 #
 include
-"
-prcpucfg
-.
-h
-"
-#
-include
 <
 stdlib
 .
