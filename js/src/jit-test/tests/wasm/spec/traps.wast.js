@@ -15,9 +15,11 @@ baseline
 /
 /
 TODO
-trap
-on
-OOB
+dce
+'
+d
+effectful
+instructions
 quit
 (
 )
