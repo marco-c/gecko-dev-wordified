@@ -120,7 +120,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -624,7 +624,7 @@ uint8_t
 >
 mBytes
 ;
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -633,7 +633,7 @@ uint8_t
 >
 mUint8Tree
 ;
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -642,7 +642,7 @@ uint16_t
 >
 mUint16Tree
 ;
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
