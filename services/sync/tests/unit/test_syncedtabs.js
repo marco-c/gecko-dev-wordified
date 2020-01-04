@@ -1207,6 +1207,10 @@ expect
 the
 default
 favicon
+(
+empty
+string
+)
 due
 to
 the
@@ -1227,11 +1231,8 @@ tabs
 ]
 .
 icon
-faviconService
-.
-defaultFavicon
-.
-spec
+"
+"
 )
 ;
 Services
