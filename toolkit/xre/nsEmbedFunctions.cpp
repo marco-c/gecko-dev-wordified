@@ -2035,6 +2035,16 @@ NS_LogInit
 (
 )
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 char
 aLocal
 ;

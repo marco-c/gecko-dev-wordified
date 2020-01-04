@@ -7597,6 +7597,16 @@ NS_LogInit
 (
 )
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 /
 /
 A
