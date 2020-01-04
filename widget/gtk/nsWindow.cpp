@@ -7743,11 +7743,6 @@ aRect
 .
 MoveTo
 (
-LayoutDevicePixel
-:
-:
-ToUntyped
-(
 GdkPointToDevicePixels
 (
 {
@@ -7755,6 +7750,9 @@ x
 y
 }
 )
+.
+ToUnknownPoint
+(
 )
 )
 ;

@@ -11101,12 +11101,10 @@ rootWindow
 >
 DevicePixelsToGdkRectRoundOut
 (
-LayoutDeviceIntRect
-:
-:
-ToUntyped
-(
 rect
+.
+ToUnknownRect
+(
 )
 )
 ;

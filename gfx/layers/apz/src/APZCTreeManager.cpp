@@ -2288,12 +2288,10 @@ GetCompositionBounds
 nsIntRegion
 hitRegion
 (
-ParentLayerIntRect
-:
-:
-ToUntyped
-(
 compositionBounds
+.
+ToUnknownRect
+(
 )
 )
 ;
