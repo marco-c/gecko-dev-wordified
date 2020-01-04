@@ -222,7 +222,7 @@ WasmInstanceObject
 namespace
 wasm
 {
-class
+struct
 ExportMap
 ;
 /
@@ -745,11 +745,12 @@ passing
 the
 bytecode
 to
-the
-/
-/
-constructor
+'
+create
+'
 )
+/
+/
 this
 method
 will
@@ -761,9 +762,9 @@ text
 .
 Otherwise
 a
-/
-/
 diagnostic
+/
+/
 string
 will
 be
