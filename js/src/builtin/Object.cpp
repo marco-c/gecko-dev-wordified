@@ -2916,7 +2916,7 @@ length
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -2959,7 +2959,7 @@ isNullOrUndefined
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -4396,7 +4396,7 @@ length
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -6439,7 +6439,7 @@ length
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

@@ -16149,7 +16149,7 @@ argc
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

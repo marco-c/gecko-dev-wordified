@@ -1632,7 +1632,7 @@ length
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js
@@ -1699,7 +1699,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js
@@ -2015,7 +2015,7 @@ TypedArrayObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -3149,7 +3149,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js
@@ -3597,7 +3597,7 @@ if
 fileObj
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js
@@ -3946,7 +3946,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -4035,7 +4035,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage

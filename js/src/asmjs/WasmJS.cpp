@@ -5798,7 +5798,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -6212,7 +6212,7 @@ uint32_t
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -7489,7 +7489,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -8574,7 +8574,7 @@ uint32_t
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

@@ -6431,7 +6431,7 @@ v
 JSVERSION_LATEST
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -6553,7 +6553,7 @@ length
 3
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -6789,7 +6789,7 @@ offset
 size
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -6906,7 +6906,7 @@ offset
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -7049,7 +7049,7 @@ length
 3
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -7119,7 +7119,7 @@ promise
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -7226,7 +7226,7 @@ JSFunction
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -7821,7 +7821,7 @@ if
 str
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -8664,7 +8664,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -9025,7 +9025,7 @@ length
 2
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -9163,7 +9163,7 @@ isPrimitive
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -9493,7 +9493,7 @@ JSCLASS_IS_GLOBAL
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -9693,7 +9693,7 @@ if
 cacheEntry
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -10916,7 +10916,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -12653,7 +12653,7 @@ length
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -12756,7 +12756,7 @@ length
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -13041,7 +13041,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -22738,7 +22738,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -22996,7 +22996,7 @@ length
 0
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -23343,7 +23343,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -23569,7 +23569,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -23888,7 +23888,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -24305,7 +24305,7 @@ length
 1
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -24425,7 +24425,7 @@ isPrimitive
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -24981,7 +24981,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -27041,7 +27041,7 @@ isObjectOrNull
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -27664,7 +27664,7 @@ isString
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage
@@ -41970,7 +41970,7 @@ isObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
