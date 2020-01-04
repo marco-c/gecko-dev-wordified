@@ -192,8 +192,7 @@ body
 -
 background
 :
-#
-fcfcfc
+white
 ;
 -
 -
@@ -203,8 +202,7 @@ sidebar
 -
 background
 :
-#
-f7f7f7
+white
 ;
 -
 -
@@ -228,7 +226,7 @@ toolbar
 background
 :
 #
-ebeced
+fcfcfc
 ;
 -
 -
@@ -239,7 +237,7 @@ toolbar
 background
 :
 #
-f0f1f2
+fcfcfc
 ;
 -
 -
@@ -267,8 +265,9 @@ rgba
 76
 158
 217
+0
 .
-23
+15
 )
 ;
 -
@@ -291,7 +290,7 @@ splitter
 color
 :
 #
-aaaaaa
+dde1e4
 ;
 -
 -
@@ -300,7 +299,7 @@ theme
 comment
 :
 #
-757873
+696969
 ;
 -
 -
@@ -311,7 +310,7 @@ body
 color
 :
 #
-18191a
+393f4c
 ;
 -
 -
