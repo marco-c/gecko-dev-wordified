@@ -14913,7 +14913,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 ;
 action
 -
@@ -16905,7 +16905,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 ;
 action
 -

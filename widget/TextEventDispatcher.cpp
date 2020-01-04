@@ -3998,7 +3998,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 ;
 return
 NS_OK
@@ -4393,7 +4393,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 )
 {
 mCaret
@@ -4542,7 +4542,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 )
 {
 if

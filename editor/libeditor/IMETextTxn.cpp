@@ -1251,7 +1251,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 )
 {
 NS_ASSERTION
