@@ -777,10 +777,13 @@ aheader
 ;
 span
 =
+*
 aheader
 -
 >
-firstFreeSpan
+getFirstFreeSpan
+(
+)
 ;
 thing
 =

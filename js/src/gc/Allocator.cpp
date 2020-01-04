@@ -2649,6 +2649,11 @@ kind
 ]
 =
 aheader
+-
+>
+getFirstFreeSpan
+(
+)
 ;
 if
 (
@@ -2682,7 +2687,10 @@ TenuredCell
 *
 thing
 =
-aheader
+freeLists
+[
+kind
+]
 -
 >
 allocate

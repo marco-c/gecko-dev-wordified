@@ -395,7 +395,10 @@ const
 size_t
 ArenaZoneOffset
 =
-0
+sizeof
+(
+size_t
+)
 ;
 /
 *
