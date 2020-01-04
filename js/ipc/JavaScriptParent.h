@@ -182,6 +182,15 @@ JSObject
 obj
 )
 ;
+bool
+allowMessage
+(
+JSContext
+*
+cx
+)
+override
+;
 mozilla
 :
 :
