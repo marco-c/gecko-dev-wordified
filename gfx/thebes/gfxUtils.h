@@ -348,10 +348,10 @@ the
 source
 is
 not
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 no
 operation
 is
@@ -923,10 +923,10 @@ will
 be
 set
 to
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB24
+X8R8G8B8_UINT32
 *
 if
 the

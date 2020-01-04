@@ -99,17 +99,6 @@ h
 "
 #
 include
-<
-string
-.
-h
->
-/
-/
-for
-memcpy
-#
-include
 "
 gfx2DGlue
 .

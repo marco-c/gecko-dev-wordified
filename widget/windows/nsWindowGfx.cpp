@@ -3239,10 +3239,10 @@ surfaceSize
 width
 *
 4
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB24
+X8R8G8B8_UINT32
 )
 ;
 if

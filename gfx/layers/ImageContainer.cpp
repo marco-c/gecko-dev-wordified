@@ -2313,10 +2313,10 @@ PLANAR_YCBCR
 )
 mOffscreenFormat
 (
-gfxImageFormat
+SurfaceFormat
 :
 :
-Unknown
+UNKNOWN
 )
 mBufferSize
 (
@@ -2835,10 +2835,10 @@ return
 mOffscreenFormat
 =
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-Unknown
+UNKNOWN
 ?
 gfxPlatform
 :

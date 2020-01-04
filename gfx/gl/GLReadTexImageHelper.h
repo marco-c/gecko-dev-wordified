@@ -380,10 +380,10 @@ as
 the
 format
 a
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 surface
 is
 returned
@@ -402,10 +402,10 @@ as
 the
 format
 a
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB24
+X8R8G8B8_UINT32
 surface
 is
 returned
@@ -419,7 +419,7 @@ as
 the
 format
 a
-gfxImageFormat
+SurfaceFormat
 :
 :
 A8

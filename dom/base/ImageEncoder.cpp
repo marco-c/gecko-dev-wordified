@@ -1979,10 +1979,10 @@ aImage
 gfxImageFormat
 format
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 ;
 uint32_t
 stride

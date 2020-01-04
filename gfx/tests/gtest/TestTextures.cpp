@@ -1613,15 +1613,15 @@ formats
 ]
 =
 {
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
-gfxImageFormat
+A8R8G8B8_UINT32
+SurfaceFormat
 :
 :
-RGB24
-gfxImageFormat
+X8R8G8B8_UINT32
+SurfaceFormat
 :
 :
 A8
@@ -1781,7 +1781,7 @@ IntSize
 400
 300
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
 A8
@@ -1801,7 +1801,7 @@ IntSize
 200
 150
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
 A8
@@ -1821,7 +1821,7 @@ IntSize
 200
 150
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
 A8
