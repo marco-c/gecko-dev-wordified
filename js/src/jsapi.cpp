@@ -406,7 +406,7 @@ h
 "
 #
 ifdef
-ENABLE_BINARYDATA
+ENABLE_SIMD
 #
 include
 "
@@ -416,6 +416,11 @@ SIMD
 .
 h
 "
+#
+endif
+#
+ifdef
+ENABLE_BINARYDATA
 #
 include
 "
@@ -5568,7 +5573,7 @@ JSProto_String
 endif
 #
 ifdef
-ENABLE_BINARYDATA
+ENABLE_SIMD
 {
 EAGER_ATOM
 (
@@ -5576,6 +5581,11 @@ SIMD
 )
 JSProto_SIMD
 }
+#
+endif
+#
+ifdef
+ENABLE_BINARYDATA
 {
 EAGER_ATOM
 (
