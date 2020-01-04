@@ -4412,10 +4412,6 @@ nsNSSCertificate
 GetDbKey
 (
 nssCertificate
-.
-get
-(
-)
 dbKey
 )
 ;

@@ -428,8 +428,12 @@ GetOCSPResponseForType
 (
 OCSPResponseType
 aORT
-CERTCertificate
-*
+const
+mozilla
+:
+:
+UniqueCERTCertificate
+&
 aCert
 const
 mozilla

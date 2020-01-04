@@ -311,7 +311,7 @@ certName
 optional
 *
 /
-ScopedCERTCertificate
+UniqueCERTCertificate
 *
 cert
 /

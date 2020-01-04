@@ -2222,7 +2222,7 @@ nsCString
 fp
 )
 {
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 aCert
@@ -2303,7 +2303,7 @@ aPort
 return
 NS_ERROR_INVALID_ARG
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 aCert

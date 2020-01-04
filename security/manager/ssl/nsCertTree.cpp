@@ -66,6 +66,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -4634,7 +4641,7 @@ but
 remove
 the
 trust
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 cert

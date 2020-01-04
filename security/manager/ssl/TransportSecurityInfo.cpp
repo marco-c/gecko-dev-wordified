@@ -3367,7 +3367,7 @@ n
 '
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 nssCert
 (
 ix509

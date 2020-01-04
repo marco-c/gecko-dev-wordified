@@ -636,9 +636,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-ScopedCERTCertificate
-cert
-;
 char
 *
 asciiname
@@ -689,12 +686,14 @@ asciiname
 )
 )
 ;
+UniqueCERTCertificate
 cert
-=
+(
 PK11_FindCertFromNickname
 (
 asciiname
 nullptr
+)
 )
 ;
 if
@@ -704,13 +703,16 @@ cert
 )
 {
 cert
-=
+.
+reset
+(
 CERT_FindCertByNickname
 (
 CERT_GetDefaultCertDB
 (
 )
 asciiname
+)
 )
 ;
 }
@@ -2257,7 +2259,7 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 tmpCert
 (
 CERT_FindCertByDERCert
@@ -2275,7 +2277,9 @@ tmpCert
 )
 {
 tmpCert
-=
+.
+reset
+(
 CERT_NewTempCertificate
 (
 certdb
@@ -2284,6 +2288,7 @@ der
 nullptr
 false
 true
+)
 )
 ;
 }
@@ -4727,7 +4732,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 aCert
@@ -5005,7 +5010,7 @@ trust
 nsresult
 rv
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 cert
@@ -5311,7 +5316,7 @@ NS_ERROR_NOT_AVAILABLE
 SECStatus
 srv
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 cert
@@ -6214,7 +6219,7 @@ s
 database
 *
 /
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 CERT_FindUserCertByUsage
@@ -6381,7 +6386,7 @@ s
 database
 *
 /
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 CERT_FindUserCertByUsage
@@ -7014,7 +7019,7 @@ len
 =
 lengthDER
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 CERT_NewTempCertificate
@@ -7479,7 +7484,7 @@ tmp
 )
 ;
 }
-ScopedCERTCertificate
+UniqueCERTCertificate
 dummycert
 ;
 if
@@ -7509,7 +7514,9 @@ already
 *
 /
 dummycert
-=
+.
+reset
+(
 CERT_FindCertByNickname
 (
 defaultcertdb
@@ -7517,6 +7524,7 @@ nickname
 .
 get
 (
+)
 )
 )
 ;
@@ -7543,7 +7551,9 @@ card
 *
 /
 dummycert
-=
+.
+reset
+(
 PK11_FindCertFromNickname
 (
 nickname
@@ -7552,6 +7562,7 @@ get
 (
 )
 ctx
+)
 )
 ;
 if
@@ -7829,7 +7840,7 @@ CERT_GetDefaultCertDB
 (
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 tmpCert
 (
 CERT_FindCertByDERCert
@@ -7845,8 +7856,11 @@ if
 !
 tmpCert
 )
+{
 tmpCert
-=
+.
+reset
+(
 CERT_NewTempCertificate
 (
 certdb
@@ -7856,7 +7870,9 @@ nullptr
 false
 true
 )
+)
 ;
+}
 free
 (
 der
@@ -8165,7 +8181,7 @@ SECFailure
 )
 ;
 }
-ScopedCERTCertificate
+UniqueCERTCertificate
 nssCert
 (
 cert
@@ -8410,7 +8426,7 @@ EnsureIdentityInfoLoaded
 ;
 #
 endif
-ScopedCERTCertificate
+UniqueCERTCertificate
 nssCert
 (
 aCert
@@ -8513,6 +8529,10 @@ certVerifier
 VerifyCert
 (
 nssCert
+.
+get
+(
+)
 aUsage
 aTime
 nullptr

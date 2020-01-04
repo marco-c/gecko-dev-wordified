@@ -1055,7 +1055,7 @@ EXIT_FAILURE
 )
 ;
 }
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 PK11_FindCertFromNickname

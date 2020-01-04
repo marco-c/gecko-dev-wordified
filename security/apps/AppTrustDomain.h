@@ -599,7 +599,7 @@ non
 -
 owning
 !
-ScopedCERTCertificate
+UniqueCERTCertificate
 mTrustedRoot
 ;
 unsigned
