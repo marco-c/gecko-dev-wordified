@@ -2820,6 +2820,7 @@ sidebar
 .
 show
 (
+defaultTab
 )
 ;
 this
