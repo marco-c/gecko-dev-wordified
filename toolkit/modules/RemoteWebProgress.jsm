@@ -1497,16 +1497,6 @@ json
 .
 synthetic
 ;
-this
-.
-_browser
-.
-_innerWindowID
-=
-json
-.
-innerWindowID
-;
 }
 this
 .
