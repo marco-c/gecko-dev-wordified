@@ -1062,6 +1062,14 @@ mResponseHead
 (
 nullptr
 )
+mReader
+(
+nullptr
+)
+mWriter
+(
+nullptr
+)
 mContentLength
 (
 -
