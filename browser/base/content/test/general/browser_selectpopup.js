@@ -76,6 +76,11 @@ the
 dropdown
 list
 .
+requestLongerTimeout
+(
+2
+)
+;
 const
 XHTML_DTD
 =
