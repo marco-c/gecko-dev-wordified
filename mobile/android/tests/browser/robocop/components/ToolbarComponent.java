@@ -149,17 +149,6 @@ gecko
 .
 tests
 .
-StringHelper
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-tests
-.
 UITestContext
 ;
 import
