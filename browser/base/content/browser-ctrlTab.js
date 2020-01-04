@@ -1,9 +1,5 @@
 /
 *
-#
-ifdef
-0
-*
 This
 Source
 Code
@@ -58,8 +54,6 @@ MPL
 0
 /
 .
-#
-endif
 *
 /
 /

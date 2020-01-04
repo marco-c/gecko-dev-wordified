@@ -1,6 +1,3 @@
-#
-ifdef
-0
 /
 *
 This
@@ -35,8 +32,8 @@ not
 distributed
 with
 this
-file
 *
+file
 You
 can
 obtain
@@ -59,8 +56,6 @@ MPL
 .
 *
 /
-#
-endif
 /
 *
 *
