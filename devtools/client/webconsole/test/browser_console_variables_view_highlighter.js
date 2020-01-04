@@ -281,7 +281,7 @@ variablesview
 -
 fetched
 "
-onNodeListVviewFetched
+onNodeListViewFetched
 )
 ;
 executeSoon
@@ -307,15 +307,15 @@ iframeWindow
 ;
 }
 function
-onNodeListVviewFetched
+onNodeListViewFetched
 (
-aEvent
-aVar
+event
+variable
 )
 {
 gVariablesView
 =
-aVar
+variable
 .
 _variablesView
 ;
@@ -349,7 +349,7 @@ props
 .
 .
 .
-aVar
+variable
 ]
 .
 map
