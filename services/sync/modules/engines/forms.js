@@ -1405,6 +1405,16 @@ topic
 data
 )
 ;
+if
+(
+this
+.
+ignoreAll
+)
+{
+return
+;
+}
 switch
 (
 topic
