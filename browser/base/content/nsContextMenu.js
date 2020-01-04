@@ -1122,6 +1122,10 @@ menu
 shouldShow
 &
 &
+!
+isWindowPrivate
+&
+&
 showContainers
 )
 ;
