@@ -3306,7 +3306,8 @@ AstDataSegment
 public
 AstNode
 {
-uint32_t
+AstExpr
+*
 offset_
 ;
 AstName
@@ -3316,7 +3317,8 @@ public
 :
 AstDataSegment
 (
-uint32_t
+AstExpr
+*
 offset
 AstName
 text
@@ -3332,7 +3334,8 @@ text
 )
 {
 }
-uint32_t
+AstExpr
+*
 offset
 (
 )
