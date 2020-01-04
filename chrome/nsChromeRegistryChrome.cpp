@@ -817,8 +817,14 @@ prefs
 ;
 if
 (
+prefserv
+)
+{
+if
+(
 safeMode
 )
+{
 prefserv
 -
 >
@@ -831,7 +837,9 @@ prefs
 )
 )
 ;
+}
 else
+{
 prefs
 =
 do_QueryInterface
@@ -839,6 +847,8 @@ do_QueryInterface
 prefserv
 )
 ;
+}
+}
 if
 (
 !
