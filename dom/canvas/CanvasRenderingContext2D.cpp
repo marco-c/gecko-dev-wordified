@@ -12438,8 +12438,11 @@ ErrorResult
 &
 aError
 )
-const
 {
+EnsureTarget
+(
+)
+;
 MatrixToJSObject
 (
 aCx
@@ -12586,8 +12589,11 @@ ErrorResult
 &
 aError
 )
-const
 {
+EnsureTarget
+(
+)
+;
 if
 (
 !
