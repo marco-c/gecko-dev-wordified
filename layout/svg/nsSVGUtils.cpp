@@ -8755,7 +8755,9 @@ GetOpacity
 style
 -
 >
-mFillOpacitySource
+FillOpacitySource
+(
+)
 style
 -
 >
@@ -8845,7 +8847,9 @@ GetOpacity
 style
 -
 >
-mStrokeOpacitySource
+StrokeOpacitySource
+(
+)
 style
 -
 >
@@ -9012,7 +9016,9 @@ GetOpacity
 style
 -
 >
-mFillOpacitySource
+FillOpacitySource
+(
+)
 style
 -
 >
@@ -9370,7 +9376,9 @@ GetOpacity
 style
 -
 >
-mStrokeOpacitySource
+StrokeOpacitySource
+(
+)
 style
 -
 >
@@ -9890,7 +9898,9 @@ aContextPaint
 style
 -
 >
-mStrokeWidthFromObject
+StrokeWidthFromObject
+(
+)
 )
 {
 return
@@ -10054,7 +10064,9 @@ aContextPaint
 style
 -
 >
-mStrokeDasharrayFromObject
+StrokeDasharrayFromObject
+(
+)
 )
 {
 aDashes
@@ -10282,7 +10294,9 @@ aContextPaint
 style
 -
 >
-mStrokeDashoffsetFromObject
+StrokeDashoffsetFromObject
+(
+)
 )
 {
 *
