@@ -2820,6 +2820,18 @@ targets
 )
 )
 {
+if
+(
+this
+.
+messageManagers
+.
+has
+(
+target
+)
+)
+{
 this
 .
 messageManagers
@@ -2835,6 +2847,7 @@ messageName
 handler
 )
 ;
+}
 }
 }
 /
