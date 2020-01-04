@@ -2064,6 +2064,12 @@ using
 ExclusiveContext
 :
 :
+updateMallocCounter
+;
+using
+ExclusiveContext
+:
+:
 wellKnownSymbols
 ;
 JSRuntime
