@@ -302,14 +302,10 @@ or
 ]
         
 if
-not
 isinstance
 (
 res
-(
-list
-tuple
-)
+basestring
 )
 :
             
