@@ -4561,7 +4561,7 @@ cssSize
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 box
 cssSize
@@ -4933,7 +4933,7 @@ cssSize
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aState
 box
@@ -5306,7 +5306,7 @@ cssSize
 nsIFrame
 :
 :
-AddCSSMaxSize
+AddXULMaxSize
 (
 box
 cssSize
@@ -6229,7 +6229,7 @@ GetXULFlex
 nsIFrame
 :
 :
-AddCSSFlex
+AddXULFlex
 (
 parent
 flex
@@ -6289,7 +6289,7 @@ GetXULFlex
 nsIFrame
 :
 :
-AddCSSFlex
+AddXULFlex
 (
 box
 row

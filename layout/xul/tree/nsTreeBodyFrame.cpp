@@ -1292,7 +1292,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aBoxLayoutState
 this

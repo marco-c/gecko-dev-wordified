@@ -3158,7 +3158,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 this
 size
@@ -3617,7 +3617,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aState
 this

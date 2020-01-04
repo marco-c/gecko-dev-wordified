@@ -7875,7 +7875,7 @@ tmpSize
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 this
 tmpSize
