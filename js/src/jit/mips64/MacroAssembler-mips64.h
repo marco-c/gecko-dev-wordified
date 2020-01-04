@@ -7138,7 +7138,7 @@ wasm
 :
 :
 HeapGlobalDataOffset
-dest
+HeapReg
 )
 ;
 }
