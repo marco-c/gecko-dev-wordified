@@ -957,6 +957,9 @@ PlatformHandleHelper
 :
 :
 operator
+FileDescriptor
+:
+:
 PlatformHandleType
 (
 )
