@@ -3525,14 +3525,6 @@ origin
 environment
 '
         
-if
-args
-is
-self
-.
-_extra_args
-:
-            
 origin
 =
 self
