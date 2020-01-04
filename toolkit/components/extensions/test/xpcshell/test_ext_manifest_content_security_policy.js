@@ -204,11 +204,12 @@ is
 missing
 a
 required
-'
-script
+\
+u2018script
 -
 src
-'
+\
+u2019
 directive
 "
 ]
