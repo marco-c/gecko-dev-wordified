@@ -251,16 +251,6 @@ VideoRequestStatus
 (
 )
 ;
-void
-RequestVideoData
-(
-)
-;
-void
-RequestAudioData
-(
-)
-;
 nsresult
 DropAudioUpToSeekTarget
 (
