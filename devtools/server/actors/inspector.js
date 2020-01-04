@@ -771,7 +771,7 @@ require
 "
 devtools
 /
-shared
+server
 /
 event
 -
