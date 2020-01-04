@@ -66288,7 +66288,6 @@ aCalledFromScript
 true
 aDialog
 aNavigate
-nullptr
 argv
 1
 .
@@ -66465,7 +66464,6 @@ aCalledFromScript
 false
 aDialog
 aNavigate
-nullptr
 aExtraArgument
 1
 .
