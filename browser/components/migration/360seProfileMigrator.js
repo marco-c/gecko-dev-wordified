@@ -696,11 +696,12 @@ code
 for
 a
 byte
-function
+let
 toHexString
-(
+=
 charCode
-)
+=
+>
 (
 "
 0
