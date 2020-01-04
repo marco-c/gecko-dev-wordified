@@ -63,10 +63,6 @@ function
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 const
 REDIRECT_URI
 =
