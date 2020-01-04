@@ -6324,6 +6324,13 @@ onopen
 )
 GK_ATOM
 (
+onorientationchange
+"
+onorientationchange
+"
+)
+GK_ATOM
+(
 onotastatuschange
 "
 onotastatuschange
