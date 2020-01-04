@@ -251,6 +251,11 @@ filterTooltip
 view
 )
 ;
+yield
+waitForTick
+(
+)
+;
 }
 )
 ;

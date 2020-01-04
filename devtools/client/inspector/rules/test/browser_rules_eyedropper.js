@@ -506,6 +506,11 @@ closed
 "
 )
 ;
+yield
+waitForTick
+(
+)
+;
 }
 )
 ;
