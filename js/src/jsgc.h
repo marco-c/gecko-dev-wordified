@@ -7437,6 +7437,12 @@ D
 CheckHeapOnMovingGC
 15
 )
+\
+D
+(
+CheckNursery
+16
+)
 enum
 class
 ZealMode
@@ -7460,7 +7466,7 @@ undef
 ZEAL_MODE
 Limit
 =
-15
+16
 }
 ;
 enum
