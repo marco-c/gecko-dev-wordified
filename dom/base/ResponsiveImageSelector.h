@@ -739,7 +739,7 @@ context
 bool
 ComputeFinalWidthForCurrentViewport
 (
-int32_t
+double
 *
 aWidth
 )
@@ -1095,7 +1095,7 @@ width
 double
 Density
 (
-int32_t
+double
 aMatchingWidth
 )
 const
