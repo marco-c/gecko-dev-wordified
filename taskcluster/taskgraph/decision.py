@@ -636,6 +636,7 @@ optimized_task_graph
 tgg
 .
 label_to_taskid
+parameters
 )
 def
 get_decision_parameters
