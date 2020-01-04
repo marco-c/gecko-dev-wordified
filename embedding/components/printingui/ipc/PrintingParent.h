@@ -180,9 +180,9 @@ isForPrinting
 bool
 *
 notifyOnOpen
-bool
+nsresult
 *
-success
+result
 )
 ;
 virtual
