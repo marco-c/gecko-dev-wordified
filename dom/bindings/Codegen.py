@@ -102679,10 +102679,6 @@ isExposedInSystemGlobals
 =
 True
                                                  
-workers
-=
-False
-                                                 
 register
 =
 True
@@ -105825,42 +105821,8 @@ webidl
 "
 )
         
-hasWorkerStuff
-=
-len
-(
-config
-.
-getDescriptors
-(
-webIDLFile
-=
-webIDLFile
-                                                   
-workers
-=
-True
-)
-)
-!
-=
-0
-        
-bindingHeaders
-[
-"
-WorkerPrivate
-.
-h
-"
-]
-=
-hasWorkerStuff
-        
 hasThreadChecks
 =
-hasWorkerStuff
-or
 any
 (
 d
@@ -106849,10 +106811,6 @@ all
 the
 callback
 interfaces
-.
-Skip
-worker
-callbacks
 .
         
 cgthings
@@ -128328,10 +128286,6 @@ hasInterfaceObject
 =
 True
                                                             
-workers
-=
-False
-                                                            
 isExposedInWindow
 =
 True
@@ -128381,10 +128335,6 @@ getDescriptors
 isNavigatorProperty
 =
 True
-                                                                 
-workers
-=
-False
                                                                  
 register
 =
