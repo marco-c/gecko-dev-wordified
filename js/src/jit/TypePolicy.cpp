@@ -6635,6 +6635,19 @@ i
 +
 +
 )
+{
+if
+(
+!
+alloc
+.
+ensureBallast
+(
+)
+)
+return
+false
+;
 EnsureOperandNotFloat32
 (
 alloc
@@ -6648,6 +6661,7 @@ i
 )
 )
 ;
+}
 return
 true
 ;
