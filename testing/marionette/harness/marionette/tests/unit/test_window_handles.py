@@ -102,7 +102,7 @@ platformName
 =
 =
 '
-Darwin
+darwin
 '
 :
             

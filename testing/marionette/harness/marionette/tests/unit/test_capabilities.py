@@ -154,6 +154,10 @@ name
 )
 "
 )
+.
+lower
+(
+)
             
 self
 .
@@ -292,6 +296,10 @@ appinfo
 name
 "
 ]
+.
+lower
+(
+)
 )
         
 self
@@ -812,6 +820,10 @@ appinfo
 name
 "
 ]
+.
+lower
+(
+)
                          
 "
 This
@@ -820,6 +832,7 @@ have
 appname
 not
 ChocolateCake
+.
 "
 )
     
@@ -858,6 +871,10 @@ appinfo
 name
 "
 ]
+.
+lower
+(
+)
 }
 }
         

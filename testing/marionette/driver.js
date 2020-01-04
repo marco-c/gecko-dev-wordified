@@ -1152,6 +1152,10 @@ Services
 appinfo
 .
 name
+.
+toLowerCase
+(
+)
 "
 browserVersion
 "
@@ -1174,6 +1178,10 @@ getProperty
 "
 name
 "
+)
+.
+toLowerCase
+(
 )
 "
 platformVersion

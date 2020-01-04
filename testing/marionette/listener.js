@@ -1159,7 +1159,7 @@ platformName
 =
 =
 "
-B2G
+b2g
 "
 ;
 listenerId
