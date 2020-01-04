@@ -733,7 +733,10 @@ document
 yield
 installAddon
 (
+{
 document
+path
+:
 "
 addons
 /
@@ -743,8 +746,10 @@ install
 .
 rdf
 "
+name
+:
 ADDON_NAME
-ADDON_NAME
+}
 )
 ;
 const
