@@ -2355,6 +2355,11 @@ public
 CompartmentStatsExtras
 (
 )
+:
+sizeOfXPCPrivate
+(
+0
+)
 {
 }
 nsAutoCString
@@ -2368,6 +2373,9 @@ nsCOMPtr
 nsIURI
 >
 location
+;
+size_t
+sizeOfXPCPrivate
 ;
 private
 :

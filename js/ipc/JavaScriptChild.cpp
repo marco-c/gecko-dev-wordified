@@ -197,7 +197,7 @@ AutoSafeJSContext
 ;
 static
 void
-UpdateChildWeakPointersAfterGC
+UpdateChildWeakPointersBeforeSweepingZoneGroup
 (
 JSRuntime
 *
@@ -253,10 +253,10 @@ JavaScriptChild
 (
 )
 {
-JS_RemoveWeakPointerCallback
+JS_RemoveWeakPointerZoneGroupCallback
 (
 rt_
-UpdateChildWeakPointersAfterGC
+UpdateChildWeakPointersBeforeSweepingZoneGroup
 )
 ;
 }
@@ -294,10 +294,10 @@ init
 return
 false
 ;
-JS_AddWeakPointerCallback
+JS_AddWeakPointerZoneGroupCallback
 (
 rt_
-UpdateChildWeakPointersAfterGC
+UpdateChildWeakPointersBeforeSweepingZoneGroup
 this
 )
 ;
