@@ -16146,14 +16146,6 @@ uint64_t
 )
 NO_IMPL
 NS_IMETHOD
-IsAppOfType
-(
-uint32_t
-bool
-*
-)
-NO_IMPL
-NS_IMETHOD
 GetIsContent
 (
 bool
