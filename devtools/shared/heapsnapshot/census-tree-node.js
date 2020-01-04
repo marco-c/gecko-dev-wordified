@@ -4603,7 +4603,7 @@ name
 .
 source
 .
-contains
+includes
 (
 filterString
 )
@@ -4621,7 +4621,7 @@ functionDisplayName
 "
 )
 .
-contains
+includes
 (
 filterString
 )
@@ -4639,7 +4639,7 @@ asyncCause
 "
 )
 .
-contains
+includes
 (
 filterString
 )
@@ -4653,7 +4653,7 @@ node
 name
 )
 .
-contains
+includes
 (
 filterString
 )

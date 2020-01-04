@@ -24,6 +24,11 @@ has
 expected
 properties
 .
+"
+use
+strict
+"
+;
 /
 /
 Whitelisting
@@ -264,7 +269,7 @@ document
 .
 title
 .
-contains
+includes
 (
 WORKER_URL
 )

@@ -128,7 +128,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 native
