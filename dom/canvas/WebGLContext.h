@@ -2672,6 +2672,7 @@ GetError
 (
 )
 ;
+virtual
 JS
 :
 :
