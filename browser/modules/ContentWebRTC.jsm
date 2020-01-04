@@ -641,8 +641,6 @@ mozilla
 .
 org
 /
-supports
--
 array
 ;
 1
@@ -653,7 +651,7 @@ createInstance
 (
 Ci
 .
-nsISupportsArray
+nsIMutableArray
 )
 ;
 for
@@ -675,6 +673,13 @@ devices
 [
 deviceIndex
 ]
+/
+*
+weak
+=
+*
+/
+false
 )
 ;
 Services
