@@ -145,7 +145,7 @@ devtools
 /
 skin
 /
-common
+tooltips
 .
 css
 "
