@@ -333,7 +333,7 @@ class
 GestureEventListener
 ;
 class
-PCompositorParent
+PCompositorBridgeParent
 ;
 struct
 AsyncTransform
@@ -4803,7 +4803,7 @@ thread
 .
 *
 /
-PCompositorParent
+PCompositorBridgeParent
 *
 GetSharedFrameMetricsCompositor
 (

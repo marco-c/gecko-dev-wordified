@@ -10322,9 +10322,9 @@ pushed
 directly
 from
 child
-*
 processes
 to
+*
 the
 compositor
 thread
@@ -10335,10 +10335,10 @@ s
 associated
 with
 a
-*
 CompositorParent
 on
 the
+*
 compositor
 thread
 .
@@ -10346,11 +10346,11 @@ While
 it
 uses
 the
-*
-PCompositor
+PCompositorBridge
 protocol
 to
 manage
+*
 these
 updates
 it
@@ -10358,7 +10358,6 @@ doesn
 '
 t
 actually
-*
 drive
 compositing
 itself
@@ -10366,12 +10365,12 @@ itself
 For
 that
 it
+*
 hands
 off
 work
 to
 the
-*
 CompositorParent
 it
 '
@@ -10386,7 +10385,7 @@ CrossProcessCompositorParent
 final
 :
 public
-PCompositorParent
+PCompositorBridgeParent
 public
 ShadowLayersManager
 {
@@ -11291,7 +11290,7 @@ mNotifyAfterRemotePaint
 ;
 }
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 CompositorParent
 :
@@ -11299,7 +11298,7 @@ CompositorParent
 LayerTreeState
 :
 :
-CrossProcessPCompositor
+CrossProcessPCompositorBridge
 (
 )
 const
@@ -11463,7 +11462,7 @@ current
 Unused
 <
 <
-PCompositorParent
+PCompositorBridgeParent
 :
 :
 SendInvalidateLayers
@@ -12007,7 +12006,7 @@ ok
 static
 *
 /
-PCompositorParent
+PCompositorBridgeParent
 *
 CompositorParent
 :
@@ -14948,7 +14947,7 @@ Transport
 MODE_SERVER
 )
 ;
-PCompositorParent
+PCompositorBridgeParent
 *
 compositor
 =

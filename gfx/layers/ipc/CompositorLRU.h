@@ -145,7 +145,7 @@ namespace
 layers
 {
 class
-PCompositorParent
+PCompositorBridgeParent
 ;
 class
 CompositorLRU
@@ -157,7 +157,7 @@ std
 :
 pair
 <
-PCompositorParent
+PCompositorBridgeParent
 *
 uint64_t
 >
@@ -189,7 +189,7 @@ GetSingleton
 Adds
 the
 (
-PCompositorParent
+PCompositorBridgeParent
 LayerId
 )
 pair
@@ -208,7 +208,7 @@ over
 mLRUSize
 the
 oldest
-PCompositorParent
+PCompositorBridgeParent
 *
 is
 evicted
@@ -218,7 +218,7 @@ evicted
 void
 Add
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -234,7 +234,7 @@ id
 Remove
 the
 (
-PCompositorParent
+PCompositorBridgeParent
 LayersId
 )
 pair
@@ -248,7 +248,7 @@ pool
 void
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -263,7 +263,7 @@ id
 *
 Remove
 all
-PCompositorParents
+PCompositorBridgeParents
 from
 the
 LRU
@@ -274,7 +274,7 @@ pool
 void
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 )

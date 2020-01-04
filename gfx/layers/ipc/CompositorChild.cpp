@@ -873,7 +873,7 @@ false
 static
 *
 /
-PCompositorChild
+PCompositorBridgeChild
 *
 CompositorChild
 :
@@ -3634,7 +3634,7 @@ SendWillStop
 )
 {
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendWillStop
@@ -3666,7 +3666,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendPause
@@ -3698,7 +3698,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendResume
@@ -3734,7 +3734,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendNotifyHidden
@@ -3771,7 +3771,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendNotifyVisible
@@ -3808,7 +3808,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendNotifyChildCreated
@@ -3845,7 +3845,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendAdoptChild
@@ -3889,7 +3889,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendMakeSnapshot
@@ -3923,7 +3923,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendFlushRendering
@@ -3961,7 +3961,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendGetTileSize
@@ -4002,7 +4002,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendStartFrameTimeRecording
@@ -4046,7 +4046,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendStopFrameTimeRecording
@@ -4084,7 +4084,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendNotifyRegionInvalidated
@@ -4117,7 +4117,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendRequestNotifyAfterRemotePaint
@@ -4153,7 +4153,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendClearApproximatelyVisibleRegions
@@ -4195,7 +4195,7 @@ true
 ;
 }
 return
-PCompositorChild
+PCompositorBridgeChild
 :
 :
 SendNotifyApproximatelyVisibleRegion

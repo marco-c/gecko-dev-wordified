@@ -179,7 +179,7 @@ mozilla
 /
 layers
 /
-PCompositorParent
+PCompositorBridgeParent
 .
 h
 "

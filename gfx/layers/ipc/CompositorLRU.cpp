@@ -268,7 +268,7 @@ CompositorLRU
 :
 Add
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -399,7 +399,7 @@ CompositorLRU
 :
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 const
@@ -443,7 +443,7 @@ index
 =
 nsTArray
 <
-PCompositorParent
+PCompositorBridgeParent
 *
 >
 :
@@ -468,7 +468,7 @@ CompositorLRU
 :
 Remove
 (
-PCompositorParent
+PCompositorBridgeParent
 *
 aCompositor
 )
