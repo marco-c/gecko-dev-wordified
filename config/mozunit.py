@@ -213,6 +213,10 @@ file
 }
 |
 {
+klass
+}
+.
+{
 test
 }
 {
@@ -240,6 +244,14 @@ test
 .
 __class__
 )
+            
+klass
+=
+test
+.
+__class__
+.
+__name__
             
 test
 =
