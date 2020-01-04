@@ -5283,7 +5283,7 @@ eIsDefunct
 *
 *
 Return
-true
+false
 if
 the
 accessible
