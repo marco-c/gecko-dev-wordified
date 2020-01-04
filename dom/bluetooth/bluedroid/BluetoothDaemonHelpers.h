@@ -785,18 +785,6 @@ nsresult
 Convert
 (
 const
-nsAString
-&
-aIn
-BluetoothPropertyType
-&
-aOut
-)
-;
-nsresult
-Convert
-(
-const
 BluetoothAttributeHandle
 &
 aIn
@@ -1291,7 +1279,7 @@ nsresult
 PackPDU
 (
 const
-BluetoothNamedValue
+BluetoothProperty
 &
 aIn
 DaemonSocketPDU
