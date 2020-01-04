@@ -3853,6 +3853,16 @@ true
 ;
 printPreviewTB
 .
+setAttribute
+(
+"
+fullscreentoolbar
+"
+true
+)
+;
+printPreviewTB
+.
 id
 =
 "
