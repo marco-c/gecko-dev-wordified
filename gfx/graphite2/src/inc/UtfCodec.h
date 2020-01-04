@@ -981,6 +981,8 @@ u
 0x10
 )
 ;
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -1030,6 +1032,8 @@ u
 0x20
 )
 ;
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -1078,6 +1082,8 @@ u
 <
 0x80
 )
+;
+GR_FALLTHROUGH
 ;
 /
 /

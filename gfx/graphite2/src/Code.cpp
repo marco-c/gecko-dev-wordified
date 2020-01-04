@@ -365,9 +365,7 @@ h
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 ifdef
@@ -2607,6 +2605,8 @@ failure
 underfull_stack
 )
 ;
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -3099,6 +3099,8 @@ set_changed
 0
 )
 ;
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -3219,6 +3221,8 @@ _constraint
 )
 return
 ;
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -3320,6 +3324,8 @@ _code
 _constraint
 )
 return
+;
+GR_FALLTHROUGH
 ;
 /
 /
@@ -3719,9 +3725,15 @@ _pre_context
 ;
 }
 else
+{
+_pre_context
+=
+0
+;
 return
 false
 ;
+}
 }
 return
 bool

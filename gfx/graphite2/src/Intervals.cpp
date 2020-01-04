@@ -1288,6 +1288,8 @@ x
 i
 ;
 }
+GR_FALLTHROUGH
+;
 /
 /
 no
@@ -1348,6 +1350,8 @@ xm
 )
 )
 break
+;
+GR_FALLTHROUGH
 ;
 /
 /

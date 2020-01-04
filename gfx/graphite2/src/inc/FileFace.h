@@ -273,9 +273,7 @@ GRAPHITE2_NFILEFACE
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include
