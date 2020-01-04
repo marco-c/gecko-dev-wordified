@@ -825,7 +825,7 @@ Register
 WasmTableCallPtrReg
 =
 {
-Register
+Registers
 :
 :
 invalid_reg
@@ -837,7 +837,7 @@ Register
 WasmTableCallSigReg
 =
 {
-Register
+Registers
 :
 :
 invalid_reg
