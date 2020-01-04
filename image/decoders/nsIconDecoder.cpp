@@ -511,14 +511,16 @@ GetSize
 )
 ;
 IntRect
-targetFrameRect
+frameRect
 (
 IntPoint
 (
 0
 0
 )
-targetSize
+GetSize
+(
+)
 )
 ;
 Maybe
@@ -538,7 +540,7 @@ GetSize
 (
 )
 targetSize
-targetFrameRect
+frameRect
 SurfaceFormat
 :
 :
