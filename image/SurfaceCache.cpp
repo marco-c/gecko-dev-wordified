@@ -2277,6 +2277,11 @@ sizes
 int64_t
 idealArea
 =
+static_cast
+<
+int64_t
+>
+(
 idealKey
 .
 Size
@@ -2284,7 +2289,13 @@ Size
 )
 .
 width
+)
 *
+static_cast
+<
+int64_t
+>
+(
 idealKey
 .
 Size
@@ -2292,6 +2303,7 @@ Size
 )
 .
 height
+)
 ;
 int64_t
 surfaceArea
