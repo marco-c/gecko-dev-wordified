@@ -425,6 +425,18 @@ firefox
 '
         
 '
+browsermob_port
+'
+:
+None
+        
+'
+browsermob_script
+'
+:
+None
+        
+'
 device_serial
 '
 :
