@@ -458,13 +458,6 @@ nullPrincipal
 as
 the
 loadingPrincipal
-and
-the
-least
-permissive
-/
-/
-securityflag
 .
 nsCOMPtr
 <
@@ -513,7 +506,7 @@ aTriggeringPrincipal
 nsILoadInfo
 :
 :
-SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
+SEC_NORMAL
 nsIContentPolicy
 :
 :
