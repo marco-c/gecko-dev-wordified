@@ -507,6 +507,12 @@ using
 SourceLineResolverBase
 :
 :
+IsModuleCorrupt
+;
+using
+SourceLineResolverBase
+:
+:
 LoadModule
 ;
 using

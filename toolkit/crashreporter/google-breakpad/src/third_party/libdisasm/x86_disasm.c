@@ -48,16 +48,8 @@ x86_operand_list
 h
 "
 #
-if
-defined
-(
+ifdef
 _MSC_VER
-)
-&
-&
-_MSC_VER
-<
-1900
 #
 define
 snprintf
@@ -999,6 +991,9 @@ buffer
 /
 if
 (
+(
+uint32_t
+)
 next_addr
 >
 =

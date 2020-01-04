@@ -363,6 +363,9 @@ std
 string
 ;
 class
+MinidumpModule
+;
+class
 OnDemandSymbolSupplier
 :
 public
@@ -516,6 +519,9 @@ char
 *
 *
 symbol_data
+size_t
+*
+symbol_data_size
 )
 ;
 /
