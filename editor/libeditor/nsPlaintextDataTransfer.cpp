@@ -1388,7 +1388,7 @@ Collapsed
 /
 Only
 the
-nsHTMLEditor
+HTMLEditor
 :
 :
 FindUserSelectAllNode

@@ -6548,7 +6548,7 @@ later
 (
 probably
 by
-nsHTMLEditor
+HTMLEditor
 :
 :
 ParseCFHTML

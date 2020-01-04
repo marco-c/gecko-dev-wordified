@@ -18371,7 +18371,7 @@ to
 be
 overridden
 in
-nsHTMLEditor
+HTMLEditor
 .
 /
 /
@@ -18401,7 +18401,7 @@ across
 both
 nsEditor
 /
-nsHTMLEditor
+HTMLEditor
 .
 return
 false

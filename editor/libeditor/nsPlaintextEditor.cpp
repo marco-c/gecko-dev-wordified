@@ -820,7 +820,7 @@ called
 via
 /
 /
-nsHTMLEditor
+HTMLEditor
 :
 :
 Init

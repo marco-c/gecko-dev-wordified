@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MathAlgorithms
 .
 h
@@ -301,13 +310,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditor
 .
 h
 "
@@ -670,7 +672,7 @@ node
 )
 {
 return
-nsHTMLEditor
+HTMLEditor
 :
 :
 NodeIsBlockStatic
@@ -916,14 +918,14 @@ public
 explicit
 EmptyEditableFunctor
 (
-nsHTMLEditor
+HTMLEditor
 *
-editor
+aHTMLEditor
 )
 :
 mHTMLEditor
 (
-editor
+aHTMLEditor
 )
 {
 }
@@ -1009,7 +1011,7 @@ false
 }
 protected
 :
-nsHTMLEditor
+HTMLEditor
 *
 mHTMLEditor
 ;
@@ -1637,7 +1639,7 @@ by
 /
 /
 ~
-nsHTMLEditor
+HTMLEditor
 in
 which
 case
@@ -1739,7 +1741,7 @@ mHTMLEditor
 =
 static_cast
 <
-nsHTMLEditor
+HTMLEditor
 *
 >
 (
@@ -10538,7 +10540,7 @@ AsContent
 (
 )
 aOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -11465,7 +11467,7 @@ AsContent
 (
 )
 selOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -22747,7 +22749,7 @@ AsContent
 (
 )
 offset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -28693,7 +28695,7 @@ SplitNodeDeep
 aBlock
 startParent
 startOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -28772,7 +28774,7 @@ SplitNodeDeep
 aBlock
 endParent
 endOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -29936,7 +29938,7 @@ bigger
 1
 =
 smaller
-nsHTMLEditor
+HTMLEditor
 :
 :
 FontSize
@@ -29946,7 +29948,7 @@ relFontSize
 >
 0
 ?
-nsHTMLEditor
+HTMLEditor
 :
 :
 FontSize
@@ -29954,7 +29956,7 @@ FontSize
 :
 incr
 :
-nsHTMLEditor
+HTMLEditor
 :
 :
 FontSize
@@ -33782,7 +33784,7 @@ Element
 >
 selCommon
 =
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBlock
@@ -34320,7 +34322,7 @@ Element
 >
 brBlock
 =
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBlock
@@ -41158,7 +41160,7 @@ SplitNodeDeep
 splitDeepNode
 splitParentNode
 splitOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -43468,7 +43470,7 @@ AsContent
 )
 *
 aOffset
-nsHTMLEditor
+HTMLEditor
 :
 :
 EmptyContainers
@@ -56928,7 +56930,7 @@ aElement
 )
 |
 |
-nsHTMLEditor
+HTMLEditor
 :
 :
 HasAttributes

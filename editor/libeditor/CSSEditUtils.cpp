@@ -121,6 +121,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -220,13 +229,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditor
 .
 h
 "
@@ -1815,7 +1817,7 @@ CSSEditUtils
 :
 CSSEditUtils
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 )
@@ -3456,7 +3458,7 @@ span
 )
 |
 |
-nsHTMLEditor
+HTMLEditor
 :
 :
 HasAttributes

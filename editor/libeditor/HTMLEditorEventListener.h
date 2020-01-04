@@ -116,12 +116,12 @@ h
 class
 nsEditor
 ;
-class
-nsHTMLEditor
-;
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 class
 HTMLEditorEventListener
 final
@@ -154,7 +154,7 @@ You
 must
 be
 use
-nsHTMLEditor
+HTMLEditor
 or
 its
 sub
@@ -208,7 +208,7 @@ aMouseEvent
 override
 ;
 inline
-nsHTMLEditor
+HTMLEditor
 *
 GetHTMLEditor
 (

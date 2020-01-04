@@ -59,6 +59,15 @@ MPL
 #
 include
 "
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
+"
 HTMLEditUtils
 .
 h
@@ -105,13 +114,6 @@ h
 #
 include
 "
-nsHTMLEditor
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -141,13 +143,6 @@ h
 include
 "
 nsIDOMNode
-.
-h
-"
-#
-include
-"
-nsIHTMLEditor
 .
 h
 "
@@ -193,10 +188,9 @@ nscore
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 /
 /
 Uncomment
@@ -227,7 +221,7 @@ define
 DISABLE_TABLE_DELETION
 1
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetInlineTableEditingEnabled
@@ -245,7 +239,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetInlineTableEditingEnabled
@@ -265,7 +259,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ShowInlineTableEditingUI
@@ -534,7 +528,7 @@ RefreshInlineTableEditingUI
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 HideInlineTableEditingUI
@@ -719,7 +713,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 DoInlineTableEditingAction
@@ -1035,7 +1029,7 @@ NS_OK
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddMouseClickListener
@@ -1080,7 +1074,7 @@ true
 }
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveMouseClickListener
@@ -1125,7 +1119,7 @@ true
 }
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RefreshInlineTableEditingUI
@@ -1482,3 +1476,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla

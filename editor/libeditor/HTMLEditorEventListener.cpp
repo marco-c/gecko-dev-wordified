@@ -112,6 +112,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Event
@@ -160,13 +169,6 @@ h
 #
 include
 "
-nsHTMLEditor
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -203,13 +205,6 @@ h
 include
 "
 nsIEditor
-.
-h
-"
-#
-include
-"
-nsIHTMLEditor
 .
 h
 "
@@ -306,7 +301,7 @@ htmlEditor
 htmlInlineTableEditor
 "
 Set
-nsHTMLEditor
+HTMLEditor
 or
 its
 sub
@@ -326,7 +321,7 @@ aEditor
 }
 #
 endif
-nsHTMLEditor
+HTMLEditor
 *
 HTMLEditorEventListener
 :
@@ -340,7 +335,7 @@ GetHTMLEditor
 mEditor
 must
 be
-nsHTMLEditor
+HTMLEditor
 or
 its
 subclass
@@ -348,7 +343,7 @@ subclass
 return
 static_cast
 <
-nsHTMLEditor
+HTMLEditor
 *
 >
 (
@@ -367,7 +362,7 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 {
-nsHTMLEditor
+HTMLEditor
 *
 htmlEditor
 =
@@ -476,7 +471,7 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 {
-nsHTMLEditor
+HTMLEditor
 *
 htmlEditor
 =

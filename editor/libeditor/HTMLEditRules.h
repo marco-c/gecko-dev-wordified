@@ -181,9 +181,6 @@ nscore
 h
 "
 class
-nsHTMLEditor
-;
-class
 nsIAtom
 ;
 class
@@ -213,6 +210,9 @@ nsRange
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 class
 RulesInfo
 ;
@@ -2321,7 +2321,7 @@ DocumentModifiedWorker
 ;
 protected
 :
-nsHTMLEditor
+HTMLEditor
 *
 mHTMLEditor
 ;

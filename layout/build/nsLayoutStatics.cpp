@@ -598,13 +598,6 @@ endif
 #
 include
 "
-nsHTMLEditor
-.
-h
-"
-#
-include
-"
 nsTextServicesDocument
 .
 h

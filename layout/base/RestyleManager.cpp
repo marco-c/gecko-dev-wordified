@@ -10900,7 +10900,7 @@ incorrectly
 in
 /
 /
-nsHTMLEditor
+HTMLEditor
 :
 :
 DeleteRefToAnonymousNode

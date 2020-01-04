@@ -152,9 +152,6 @@ class
 nsComputedDOMStyle
 ;
 class
-nsHTMLEditor
-;
-class
 nsIAtom
 ;
 class
@@ -178,6 +175,9 @@ nsString
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 namespace
 dom
 {
@@ -226,7 +226,7 @@ public
 explicit
 CSSEditUtils
 (
-nsHTMLEditor
+HTMLEditor
 *
 aEditor
 )
@@ -2828,7 +2828,7 @@ aStyleType
 ;
 private
 :
-nsHTMLEditor
+HTMLEditor
 *
 mHTMLEditor
 ;
