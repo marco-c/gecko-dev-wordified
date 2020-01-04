@@ -1056,8 +1056,6 @@ interactiveDebugger
 {
 TestRunner
 .
-structuredLogger
-.
 interactiveDebugger
 =
 true
