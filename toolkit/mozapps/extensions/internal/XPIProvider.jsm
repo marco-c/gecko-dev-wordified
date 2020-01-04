@@ -5976,9 +5976,9 @@ id
 TOOLKIT_ID
 minVersion
 :
-AddonManagerPrivate
-.
-webExtensionsMinPlatformVersion
+"
+42a1
+"
 maxVersion
 :
 "
