@@ -793,10 +793,7 @@ protected
 struct
 TimedImage
 {
-RefPtr
-<
-TextureHost
->
+CompositableTextureHostRef
 mTextureHost
 ;
 TimeStamp
@@ -819,7 +816,10 @@ mInputFrameID
 ;
 }
 ;
-CompositableTextureHostRef
+RefPtr
+<
+TextureHost
+>
 mCurrentTextureHost
 ;
 CompositableTextureSourceRef
