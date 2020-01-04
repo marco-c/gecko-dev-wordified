@@ -349,6 +349,7 @@ CrashStore
 add_task
 (
 function
+*
 test_add_crash
 (
 )
@@ -515,6 +516,7 @@ crashesCount
 add_task
 (
 function
+*
 test_reset
 (
 )
@@ -580,6 +582,7 @@ length
 add_task
 (
 function
+*
 test_save_load
 (
 )
@@ -883,6 +886,7 @@ SUBMISSION_RESULT_OK
 add_task
 (
 function
+*
 test_corrupt_json
 (
 )

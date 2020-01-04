@@ -98,6 +98,7 @@ json
 add_task
 (
 function
+*
 test_missing_file
 (
 )

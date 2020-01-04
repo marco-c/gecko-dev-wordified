@@ -98,6 +98,7 @@ data
 add_task
 (
 function
+*
 test_valid_file
 (
 )

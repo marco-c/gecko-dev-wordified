@@ -99,6 +99,7 @@ data
 add_task
 (
 function
+*
 test_invalid_file
 (
 )
