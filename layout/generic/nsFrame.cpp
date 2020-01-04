@@ -5518,6 +5518,10 @@ svgTextFrame
 >
 ScheduleReflowSVGNonDisplayText
 (
+nsIPresShell
+:
+:
+eStyleChange
 )
 ;
 }

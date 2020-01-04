@@ -20410,6 +20410,10 @@ repainted
 .
 ScheduleReflowSVGNonDisplayText
 (
+nsIPresShell
+:
+:
+eStyleChange
 )
 ;
 }
@@ -20632,6 +20636,11 @@ SVGTextFrame
 :
 ScheduleReflowSVGNonDisplayText
 (
+nsIPresShell
+:
+:
+IntrinsicDirty
+aReason
 )
 {
 MOZ_ASSERT
@@ -20951,10 +20960,7 @@ PresShell
 FrameNeedsReflow
 (
 f
-nsIPresShell
-:
-:
-eStyleChange
+aReason
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -33583,6 +33589,10 @@ NS_FRAME_IS_NONDISPLAY
 {
 ScheduleReflowSVGNonDisplayText
 (
+nsIPresShell
+:
+:
+eStyleChange
 )
 ;
 }
