@@ -2510,9 +2510,10 @@ URL
 let
 expected
 =
+yield
 fxAccounts
 .
-getAccountsSignUpURI
+promiseAccountsSignUpURI
 (
 )
 ;
