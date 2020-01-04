@@ -278,7 +278,8 @@ bool
 IsDomainWhitelisted
 (
 const
-nsAutoCString
+nsACString
+&
 aAsciiHost
 const
 uint32_t
