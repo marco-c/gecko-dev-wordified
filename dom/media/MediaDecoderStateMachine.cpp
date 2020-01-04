@@ -533,6 +533,7 @@ __VA_ARGS__
 define
 DECODER_LOG
 (
+x
 .
 .
 .
@@ -547,6 +548,9 @@ Debug
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -555,6 +559,7 @@ __VA_ARGS__
 define
 VERBOSE_LOG
 (
+x
 .
 .
 .
@@ -569,6 +574,9 @@ Verbose
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -577,6 +585,7 @@ __VA_ARGS__
 define
 SAMPLE_LOG
 (
+x
 .
 .
 .
@@ -591,6 +600,9 @@ Debug
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -599,6 +611,7 @@ __VA_ARGS__
 define
 DECODER_WARN
 (
+x
 .
 .
 .
@@ -609,6 +622,9 @@ nsPrintfCString
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -621,6 +637,7 @@ get
 define
 DUMP_LOG
 (
+x
 .
 .
 .
@@ -632,6 +649,9 @@ nsPrintfCString
 (
 FMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -691,6 +711,7 @@ __VA_ARGS__
 define
 SLOG
 (
+x
 .
 .
 .
@@ -705,6 +726,9 @@ Debug
 (
 SFMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -713,6 +737,7 @@ __VA_ARGS__
 define
 SWARN
 (
+x
 .
 .
 .
@@ -723,6 +748,9 @@ nsPrintfCString
 (
 SFMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
@@ -735,6 +763,7 @@ get
 define
 SDUMP
 (
+x
 .
 .
 .
@@ -746,6 +775,9 @@ nsPrintfCString
 (
 SFMT
 (
+x
+#
+#
 __VA_ARGS__
 )
 )
