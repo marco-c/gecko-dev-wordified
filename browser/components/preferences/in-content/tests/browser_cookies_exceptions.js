@@ -2729,11 +2729,10 @@ same
 )
 ;
 for
-each
 (
 let
 prop
-in
+of
 [
 "
 type

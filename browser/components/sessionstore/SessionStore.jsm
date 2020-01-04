@@ -17561,11 +17561,10 @@ _statesToRestore
 )
 {
 for
-each
 (
 let
 winData
-in
+of
 this
 .
 _statesToRestore

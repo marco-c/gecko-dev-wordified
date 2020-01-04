@@ -3795,11 +3795,10 @@ getAllDisabledHosts
 )
 ;
 for
-each
 (
 var
 host
-in
+of
 hosts
 )
 {

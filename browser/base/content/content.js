@@ -6426,11 +6426,10 @@ rel
 )
 {
 for
-each
 (
 let
 relVal
-in
+of
 rel
 .
 split
