@@ -512,7 +512,6 @@ RewrapTaggedPointer
 <
 S
 T
-*
 >
 :
 :
