@@ -15150,7 +15150,7 @@ MOZ_ASSERT_IF
 pn
 -
 >
-pn_kid
+pn_left
 pn
 -
 >
@@ -15161,7 +15161,7 @@ encloses
 pn
 -
 >
-pn_kid
+pn_left
 -
 >
 pn_pos
@@ -15180,7 +15180,7 @@ optExpression
 pn
 -
 >
-pn_kid
+pn_left
 &
 arg
 )
@@ -20603,7 +20603,7 @@ expression
 pnbody
 -
 >
-pn_kid
+pn_left
 body
 )
 ;

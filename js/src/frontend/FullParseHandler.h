@@ -3966,6 +3966,9 @@ newReturnStatement
 ParseNode
 *
 expr
+ParseNode
+*
+genrval
 const
 TokenPos
 &
@@ -3989,13 +3992,14 @@ pn_pos
 return
 new_
 <
-UnaryNode
+BinaryNode
 >
 (
 PNK_RETURN
 JSOP_RETURN
 pos
 expr
+genrval
 )
 ;
 }
