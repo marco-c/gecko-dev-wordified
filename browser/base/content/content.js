@@ -1142,7 +1142,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 )
 {
 referrerPolicy
@@ -2872,7 +2872,7 @@ Ci
 .
 nsIHttpChannel
 .
-REFERRER_POLICY_DEFAULT
+REFERRER_POLICY_UNSET
 )
 {
 referrerPolicy
