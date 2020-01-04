@@ -486,6 +486,15 @@ MediaRawData
 aSample
 )
 ;
+virtual
+const
+VideoInfo
+&
+GetConfig
+(
+)
+const
+;
 private
 :
 class

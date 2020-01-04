@@ -835,6 +835,7 @@ format
 )
 .
 kGMPVideoCodecH264
+kGMPVideoCodecVP9
 kGMPVideoCodecInvalid
 /
 /
