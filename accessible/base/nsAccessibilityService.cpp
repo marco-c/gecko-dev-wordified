@@ -4295,6 +4295,7 @@ Node
 (
 "
 container
+node
 "
 aChildNode
 -
@@ -4311,8 +4312,16 @@ Node
 (
 "
 content
+node
 "
 aChildNode
+)
+;
+logging
+:
+:
+MsgEnd
+(
 )
 ;
 }
