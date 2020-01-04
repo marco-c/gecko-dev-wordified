@@ -817,6 +817,15 @@ popups
 )
 GK_ATOM
 (
+allowpresentation
+"
+allow
+-
+presentation
+"
+)
+GK_ATOM
+(
 allowsameorigin
 "
 allow

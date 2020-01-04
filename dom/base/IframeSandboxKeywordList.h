@@ -281,3 +281,13 @@ sandbox
 allowpopupstoescapesandbox
 SANDBOX_PROPAGATES_TO_AUXILIARY_BROWSING_CONTEXTS
 )
+SANDBOX_KEYWORD
+(
+"
+allow
+-
+presentation
+"
+allowpresentation
+SANDBOXED_PRESENTATION
+)
