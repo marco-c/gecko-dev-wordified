@@ -708,9 +708,9 @@ login
 username
 creds
 .
-email
+uid
 "
-email
+uid
 used
 for
 username
@@ -1396,7 +1396,7 @@ login
 username
 creds1
 .
-email
+uid
 )
 ;
 /
@@ -1611,7 +1611,7 @@ the
 login
 entry
 using
-uid
+email
 as
 a
 key
@@ -1672,7 +1672,10 @@ FXA_PWDMGR_REALM
 /
 aHttpRealm
 "
-uid
+foo
+bar
+.
+com
 "
 /
 /
