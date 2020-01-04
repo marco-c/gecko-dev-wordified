@@ -20156,9 +20156,6 @@ virtual
 nscoord
 GetFlex
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 =
 0
@@ -20434,9 +20431,6 @@ virtual
 nsresult
 RelayoutChildAtOrdinal
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
@@ -20605,9 +20599,6 @@ static
 bool
 AddCSSFlex
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aBox

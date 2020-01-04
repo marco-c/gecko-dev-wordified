@@ -240,9 +240,6 @@ nsGridRowGroupFrame
 :
 GetFlex
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 /
@@ -302,7 +299,6 @@ nsBoxFrame
 :
 GetFlex
 (
-aState
 )
 =
 =
@@ -351,7 +347,6 @@ child
 >
 GetFlex
 (
-aState
 )
 ;
 child

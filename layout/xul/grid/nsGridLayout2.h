@@ -484,9 +484,6 @@ static
 void
 AddOffset
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild

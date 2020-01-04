@@ -1032,9 +1032,6 @@ nsBox
 :
 RelayoutChildAtOrdinal
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
@@ -2252,9 +2249,6 @@ nsBox
 :
 GetFlex
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 nscoord
@@ -2267,7 +2261,6 @@ nsIFrame
 :
 AddCSSFlex
 (
-aState
 this
 flex
 )
@@ -4587,9 +4580,6 @@ nsIFrame
 :
 AddCSSFlex
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aBox

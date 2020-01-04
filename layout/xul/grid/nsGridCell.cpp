@@ -265,7 +265,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInColumn
 pref
 )
@@ -310,7 +309,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInRow
 pref
 )
@@ -415,7 +413,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInColumn
 min
 )
@@ -460,7 +457,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInRow
 min
 )
@@ -565,7 +561,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInColumn
 max
 )
@@ -610,7 +605,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 mBoxInRow
 max
 )

@@ -178,9 +178,6 @@ virtual
 nscoord
 GetFlex
 (
-nsBoxLayoutState
-&
-aState
 )
 override
 ;

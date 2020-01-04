@@ -2123,9 +2123,6 @@ nsLeafBoxFrame
 :
 GetFlex
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 return
@@ -2134,7 +2131,6 @@ nsBox
 :
 GetFlex
 (
-aState
 )
 ;
 }

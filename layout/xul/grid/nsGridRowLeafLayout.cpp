@@ -831,7 +831,6 @@ grid
 >
 GetRowFlex
 (
-aState
 i
 !
 isHorizontal
@@ -855,7 +854,6 @@ grid
 >
 GetRowOffsets
 (
-aState
 i
 left
 right
@@ -1026,7 +1024,6 @@ grid
 >
 GetFirstAndLastRow
 (
-aState
 firstIndex
 lastIndex
 firstRow

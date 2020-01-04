@@ -314,14 +314,6 @@ IsHorizontal
 (
 )
 ;
-nsBoxLayoutState
-state
-(
-PresContext
-(
-)
-)
-;
 int32_t
 firstIndex
 =
@@ -349,7 +341,6 @@ grid
 >
 GetFirstAndLastRow
 (
-state
 firstIndex
 lastIndex
 firstRow
@@ -400,7 +391,6 @@ grid
 >
 GetRowOffsets
 (
-state
 firstIndex
 top
 bottom
@@ -476,7 +466,6 @@ grid
 >
 GetRowOffsets
 (
-state
 lastIndex
 top
 bottom
