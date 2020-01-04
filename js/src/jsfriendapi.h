@@ -3110,9 +3110,9 @@ void
 )
 DumpHeap
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 FILE
 *
 fp

@@ -6919,9 +6919,9 @@ js
 :
 DumpHeap
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 FILE
 *
 fp
@@ -6942,7 +6942,7 @@ js
 :
 CollectNurseryBeforeDump
 )
-rt
+cx
 -
 >
 gc
@@ -6962,7 +6962,7 @@ DumpHeapTracer
 dtrc
 (
 fp
-rt
+cx
 )
 ;
 fprintf
@@ -7040,7 +7040,7 @@ prefix
 ;
 IterateZonesCompartmentsArenasCells
 (
-rt
+cx
 &
 dtrc
 DumpHeapVisitZone
