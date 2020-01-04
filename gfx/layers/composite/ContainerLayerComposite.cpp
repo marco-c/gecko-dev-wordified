@@ -3844,7 +3844,7 @@ if
 aLayer
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 <
@@ -5324,7 +5324,7 @@ i
 layer
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 ;

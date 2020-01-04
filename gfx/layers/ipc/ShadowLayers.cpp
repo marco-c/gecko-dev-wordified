@@ -5220,14 +5220,14 @@ GetInvalidRegion
 ;
 common
 .
-metrics
+scrollMetadata
 (
 )
 =
 mutant
 -
 >
-GetAllFrameMetrics
+GetAllScrollMetadata
 (
 )
 ;

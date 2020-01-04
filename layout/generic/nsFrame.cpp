@@ -35797,7 +35797,7 @@ i
 aLayer
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 ;

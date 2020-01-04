@@ -3031,7 +3031,7 @@ to
 be
 a
 *
-FrameMetrics
+ScrollMetadata
 contributed
 by
 this
@@ -3055,9 +3055,9 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 mozilla
 :
