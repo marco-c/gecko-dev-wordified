@@ -508,10 +508,10 @@ gService
 >
 Get
 (
-SPROP
-(
+sProp
+[
 GRE
-)
+]
 NS_GET_IID
 (
 nsIFile
@@ -530,10 +530,10 @@ gService
 >
 Get
 (
-SPROP
-(
+sProp
+[
 APP
-)
+]
 NS_GET_IID
 (
 nsIFile
