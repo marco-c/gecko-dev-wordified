@@ -8733,11 +8733,9 @@ interface
 addition
 |
 inserted
-at
-position
-|
-position
-|
+after
+existing
+interfaces
 .
 |
 addition
@@ -8763,8 +8761,6 @@ baseSet
 XPCNativeInterface
 *
 addition
-uint16_t
-position
 )
 ;
 ~
