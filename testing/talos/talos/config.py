@@ -576,16 +576,6 @@ notifyUser
 False
         
 '
-xpinstall
-.
-signatures
-.
-required
-'
-:
-False
-        
-'
 hangmonitor
 .
 timeout
