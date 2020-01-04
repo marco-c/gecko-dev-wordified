@@ -4099,7 +4099,7 @@ mozilla
 places
 :
 :
-AsyncStatementCallback
+WeakAsyncStatementCallback
 {
 public
 :
