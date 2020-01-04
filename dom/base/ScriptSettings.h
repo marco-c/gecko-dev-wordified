@@ -2258,7 +2258,7 @@ OwnsErrorReporting
 )
 {
 return
-mOwnErrorReporting
+true
 ;
 }
 /
@@ -2619,9 +2619,6 @@ error
 reporting
 modes
 .
-bool
-mOwnErrorReporting
-;
 bool
 mOldAutoJSAPIOwnsErrorReporting
 ;
