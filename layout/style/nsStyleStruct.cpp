@@ -3328,9 +3328,6 @@ nsStyleOutline
 :
 RecalcData
 (
-nsPresContext
-*
-aContext
 )
 {
 if
@@ -3389,7 +3386,12 @@ max
 CalcCoord
 (
 mOutlineWidth
-aContext
+StaticPresData
+:
+:
+Get
+(
+)
 -
 >
 GetBorderWidthTable
