@@ -248,18 +248,6 @@ mozilla
 class
 nsCSSPseudoClasses
 {
-public
-:
-/
-/
-TODO
-:
-Move
-to
-private
-in
-later
-patch
 typedef
 mozilla
 :
@@ -267,6 +255,8 @@ mozilla
 CSSPseudoClassType
 Type
 ;
+public
+:
 static
 void
 AddRefAtoms

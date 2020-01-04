@@ -336,6 +336,13 @@ h
 #
 include
 "
+nsCSSPseudoClasses
+.
+h
+"
+#
+include
+"
 nsCSSRuleProcessor
 .
 h
