@@ -5784,6 +5784,7 @@ nsAutoPtr
 RTCStatsQuery
 >
 query
+const
 bool
 aIsLoop
 )
