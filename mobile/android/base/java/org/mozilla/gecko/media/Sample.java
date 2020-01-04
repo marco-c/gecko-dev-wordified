@@ -251,6 +251,12 @@ isDummy
 )
 {
 return
+!
+isEOS
+(
+)
+&
+&
 bytes
 =
 =
