@@ -1908,9 +1908,10 @@ HandleEvent
 )
 )
 .
-nsCOMPtr
+DebugOnly
 <
-nsIWidget
+void
+*
 >
 widget
 =

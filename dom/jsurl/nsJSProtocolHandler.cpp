@@ -1226,9 +1226,15 @@ do_QueryInterface
 innerWin
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 nsCOMPtr
 <
 nsIDOMWindow
+>
 >
 domWindow
 (
