@@ -33991,12 +33991,14 @@ NS_STYLE_MASK_MODE_MATCH_SOURCE
 |
 |
 !
+nsStyleImageLayers
+:
+:
+IsInitialPositionForLayerType
+(
 firstLayer
 .
 mPosition
-.
-IsInitialValue
-(
 nsStyleImageLayers
 :
 :
