@@ -193,8 +193,6 @@ gre
 /
 modules
 /
-workers
-/
 lz4
 .
 js
