@@ -107,7 +107,7 @@ MSG
 {
 Services
 .
-ppmm
+mm
 .
 removeMessageListener
 (
@@ -125,12 +125,13 @@ resolve
 ;
 Services
 .
-ppmm
+mm
 .
 addMessageListener
 (
 MSG
 listener
+true
 )
 ;
 }
