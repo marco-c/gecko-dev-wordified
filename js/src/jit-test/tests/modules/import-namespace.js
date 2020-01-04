@@ -123,7 +123,6 @@ a
 =
 parseModule
 (
-"
 export
 var
 a
@@ -136,7 +135,6 @@ b
 =
 2
 ;
-"
 )
 ;
 let
@@ -151,7 +149,6 @@ b
 =
 parseModule
 (
-"
 import
 *
 as
@@ -161,6 +158,12 @@ from
 a
 '
 ;
+export
+{
+ns
+}
+;
+export
 var
 x
 =
@@ -172,7 +175,6 @@ ns
 .
 b
 ;
-"
 )
 ;
 b

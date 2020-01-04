@@ -1290,17 +1290,6 @@ bi
 +
 )
 {
-MOZ_ASSERT_IF
-(
-isModule
-bi
--
->
-aliased
-(
-)
-)
-;
 if
 (
 !
