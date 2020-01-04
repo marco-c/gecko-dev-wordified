@@ -6633,8 +6633,10 @@ nsCSSPseudoClasses
 GetPseudoType
 (
 atom
-true
-true
+CSSEnabledState
+:
+:
+eIgnoreEnabledState
 )
 ;
 /
