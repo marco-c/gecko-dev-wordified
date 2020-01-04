@@ -6397,6 +6397,7 @@ conn
 Close
 (
 NS_ERROR_ABORT
+true
 )
 ;
 NS_RELEASE
