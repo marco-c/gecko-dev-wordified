@@ -1150,7 +1150,7 @@ ok
 isCaretPos
 (
 gPanel
-5
+6
 )
 "
 Editor
@@ -1169,7 +1169,7 @@ gEditor
 getDebugLocation
 (
 )
-4
+5
 "
 Editor
 debugger
@@ -1186,7 +1186,7 @@ gEditor
 .
 hasLineClass
 (
-4
+5
 "
 debug
 -
