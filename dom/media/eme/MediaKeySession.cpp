@@ -536,11 +536,11 @@ aOutKeySystem
 )
 const
 {
-ConstructKeySystem
+aOutKeySystem
+.
+Assign
 (
 mKeySystem
-mCDMVersion
-aOutKeySystem
 )
 ;
 }
