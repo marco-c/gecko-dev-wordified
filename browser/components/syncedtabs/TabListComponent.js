@@ -721,6 +721,8 @@ this
 .
 _window
 .
+top
+.
 PlacesUtils
 .
 bookmarksMenuFolderId
