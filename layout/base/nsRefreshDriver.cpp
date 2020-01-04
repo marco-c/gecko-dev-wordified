@@ -8908,11 +8908,11 @@ NS_RELEASE
 shell
 )
 ;
-}
 mNeedToRecomputeVisibility
 =
 true
 ;
+}
 if
 (
 tracingStyleFlush
@@ -9188,11 +9188,11 @@ NS_RELEASE
 shell
 )
 ;
-}
 mNeedToRecomputeVisibility
 =
 true
 ;
+}
 if
 (
 tracingLayoutFlush
