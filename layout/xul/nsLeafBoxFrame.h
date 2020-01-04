@@ -146,7 +146,7 @@ aContext
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

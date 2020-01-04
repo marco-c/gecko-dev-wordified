@@ -824,7 +824,7 @@ LogicalSize
 prefSize
 (
 wm
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -832,7 +832,7 @@ state
 ;
 /
 /
-GetPrefSize
+GetXULPrefSize
 returns
 border
 -
@@ -870,7 +870,7 @@ want
 to
 subtract
 what
-GetPrefSize
+GetXULPrefSize
 added
 which
 is
@@ -1478,7 +1478,7 @@ NS_INTRINSICSIZE
 {
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -2043,7 +2043,7 @@ nsSize
 nsLeafBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -2054,7 +2054,7 @@ return
 nsBox
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

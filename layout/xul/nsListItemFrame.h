@@ -190,7 +190,7 @@ override
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

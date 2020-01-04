@@ -7918,7 +7918,7 @@ tmpSize
 popupFrame
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -8093,7 +8093,7 @@ nsSize
 nsMenuFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -8106,7 +8106,7 @@ size
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

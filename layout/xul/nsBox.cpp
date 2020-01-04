@@ -1990,7 +1990,7 @@ nsSize
 nsBox
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -2383,7 +2383,7 @@ return
 0
 ;
 return
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -2964,7 +2964,7 @@ types
 requires
 /
 /
-GetPrefSize
+GetXULPrefSize
 /
 GetXULMinSize
 methods
@@ -3811,7 +3811,7 @@ types
 requires
 /
 /
-GetPrefSize
+GetXULPrefSize
 /
 GetXULMinSize
 methods
@@ -4284,7 +4284,7 @@ types
 requires
 /
 /
-GetPrefSize
+GetXULPrefSize
 /
 GetXULMinSize
 methods

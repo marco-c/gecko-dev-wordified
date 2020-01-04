@@ -1784,7 +1784,7 @@ aPref
 aBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -7103,7 +7103,7 @@ size
 mVScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 *
 aState
@@ -7153,7 +7153,7 @@ size
 mHScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 *
 aState
@@ -9012,7 +9012,7 @@ nsSize
 nsXULScrollFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -9037,7 +9037,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -9083,7 +9083,7 @@ mHelper
 mVScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -9132,7 +9132,7 @@ mHelper
 mHScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -29423,7 +29423,7 @@ mHelper
 mHScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -29533,7 +29533,7 @@ mHelper
 mVScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -34439,7 +34439,7 @@ mVScrollbarBox
 mVScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -34511,7 +34511,7 @@ mHScrollbarBox
 mHScrollbarBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

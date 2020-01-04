@@ -2233,7 +2233,7 @@ thumbSize
 thumbBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -7485,7 +7485,7 @@ nsSize
 nsSliderFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -7500,7 +7500,7 @@ return
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

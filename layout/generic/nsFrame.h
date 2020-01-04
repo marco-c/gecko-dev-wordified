@@ -2853,7 +2853,7 @@ layout
 methods
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

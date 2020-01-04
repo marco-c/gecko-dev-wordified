@@ -3469,7 +3469,7 @@ LastChild
 )
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 boxState
 )

@@ -3045,7 +3045,7 @@ nsSize
 nsImageBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -3642,7 +3642,7 @@ aState
 )
 {
 return
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

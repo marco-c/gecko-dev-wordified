@@ -186,7 +186,7 @@ NS_NewGridRowLeafLayout
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *

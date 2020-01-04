@@ -201,7 +201,7 @@ nsSize
 nsListBoxLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -217,7 +217,7 @@ pref
 nsGridRowGroupLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBox
 aBoxLayoutState
@@ -1124,7 +1124,7 @@ size
 box
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

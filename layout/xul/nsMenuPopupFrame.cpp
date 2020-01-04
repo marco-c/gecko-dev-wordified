@@ -2990,7 +2990,7 @@ width
 nsSize
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

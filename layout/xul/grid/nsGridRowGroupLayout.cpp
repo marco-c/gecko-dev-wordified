@@ -350,7 +350,7 @@ nsSize
 nsGridRowGroupLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -366,7 +366,7 @@ vpref
 nsGridRowLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBox
 aState

@@ -4682,7 +4682,7 @@ size
 box
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -4802,7 +4802,7 @@ childSize
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -5055,7 +5055,7 @@ size
 box
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -5427,7 +5427,7 @@ size
 box
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

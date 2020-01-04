@@ -250,7 +250,7 @@ nsDisplayXULImage
 NS_DECL_FRAMEARENA_HELPERS
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

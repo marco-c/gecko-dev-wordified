@@ -2928,7 +2928,7 @@ inflation
 see
 comment
 in
-GetPrefSize
+GetXULPrefSize
 .
 MOZ_ASSERT
 (

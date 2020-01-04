@@ -21165,7 +21165,7 @@ size
 /
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

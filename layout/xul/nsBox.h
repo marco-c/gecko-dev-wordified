@@ -138,7 +138,7 @@ Shutdown
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

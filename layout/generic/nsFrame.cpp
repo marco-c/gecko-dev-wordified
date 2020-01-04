@@ -58131,7 +58131,7 @@ nsSize
 nsFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

@@ -624,7 +624,7 @@ to
 override
 GetXULMinSize
 and
-GetPrefSize
+GetXULPrefSize
 because
 XUL
 uses
@@ -673,7 +673,7 @@ override
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

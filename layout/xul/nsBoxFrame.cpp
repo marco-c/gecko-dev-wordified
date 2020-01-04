@@ -3527,14 +3527,14 @@ aRenderingContext
 nsSize
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
 ;
 /
 /
-GetPrefSize
+GetXULPrefSize
 returns
 border
 -
@@ -3570,7 +3570,7 @@ want
 to
 subtract
 what
-GetPrefSize
+GetXULPrefSize
 added
 which
 is
@@ -3971,7 +3971,7 @@ NS_INTRINSICSIZE
 nsSize
 physicalPrefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -3998,7 +3998,7 @@ XXXbz
 isn
 '
 t
-GetPrefSize
+GetXULPrefSize
 supposed
 to
 bounds
@@ -4436,7 +4436,7 @@ nsSize
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -4548,7 +4548,7 @@ layoutSize
 mLayoutManager
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 this
 aBoxLayoutState
@@ -4588,7 +4588,7 @@ size
 nsBox
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBoxLayoutState
 )
@@ -10677,7 +10677,7 @@ prefSize
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 state
 )

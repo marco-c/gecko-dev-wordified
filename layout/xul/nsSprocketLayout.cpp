@@ -2358,7 +2358,7 @@ prefSize
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -5201,7 +5201,7 @@ pref
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -8179,7 +8179,7 @@ nsSize
 nsSprocketLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -8302,7 +8302,7 @@ pref
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -8600,7 +8600,7 @@ pref
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
