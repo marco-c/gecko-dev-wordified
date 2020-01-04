@@ -475,6 +475,13 @@ aRuleData
 )
 override
 ;
+virtual
+bool
+MightMapInheritedStyleData
+(
+)
+override
+;
 #
 ifdef
 DEBUG
