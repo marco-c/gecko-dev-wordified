@@ -11610,7 +11610,8 @@ parent
 widget
 *
 /
-NS_IMETHOD
+virtual
+void
 ReparentNativeWidget
 (
 nsIWidget

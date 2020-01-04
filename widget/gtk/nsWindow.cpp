@@ -4365,7 +4365,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4456,7 +4456,6 @@ widget
 )
 ;
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -4553,9 +4552,6 @@ newContainer
 newParentWindow
 oldContainer
 )
-;
-return
-NS_OK
 ;
 }
 void

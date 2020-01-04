@@ -511,14 +511,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHOD
-ReparentNativeWidget
-(
-nsIWidget
-*
-aNewParent
-)
-;
 virtual
 nsresult
 MakeFullScreen

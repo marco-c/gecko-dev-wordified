@@ -1831,7 +1831,8 @@ preview
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 ReparentNativeWidget
 (
 nsIWidget
