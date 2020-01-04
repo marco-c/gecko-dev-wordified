@@ -345,16 +345,6 @@ mDoneAudioSeeking
 bool
 mDoneVideoSeeking
 ;
-bool
-mFirstAudioSample
-=
-true
-;
-bool
-mFirstVideoSample
-=
-true
-;
 /
 /
 This

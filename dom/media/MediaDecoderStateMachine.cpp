@@ -4135,10 +4135,6 @@ lld
 %
 lld
 ]
-disc
-=
-%
-d
 "
 audio
 -
@@ -4150,10 +4146,6 @@ audio
 GetEndTime
 (
 )
-audio
--
->
-mDiscontinuity
 )
 ;
 switch
@@ -5157,10 +5149,6 @@ lld
 %
 lld
 ]
-disc
-=
-%
-d
 "
 video
 -
@@ -5172,10 +5160,6 @@ video
 GetEndTime
 (
 )
-video
--
->
-mDiscontinuity
 )
 ;
 switch
