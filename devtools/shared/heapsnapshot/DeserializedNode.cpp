@@ -745,14 +745,10 @@ public
 explicit
 DeserializedEdgeRange
 (
-JSContext
-*
-cx
 )
 :
 edges
 (
-cx
 )
 i
 (
@@ -1017,9 +1013,9 @@ DeserializedNode
 :
 edges
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 bool
 )
 const
@@ -1042,7 +1038,6 @@ js_new
 DeserializedEdgeRange
 >
 (
-cx
 )
 )
 ;

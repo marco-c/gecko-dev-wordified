@@ -2579,7 +2579,10 @@ ubi
 CensusTraversal
 traversal
 (
+JS_GetRuntime
+(
 cx
+)
 handler
 nogc
 )
@@ -4527,7 +4530,10 @@ ubiNode
 .
 edges
 (
+JS_GetRuntime
+(
 cx
+)
 wantNames
 )
 ;
@@ -5228,7 +5234,10 @@ HeapSnapshotHandler
 Traversal
 traversal
 (
+JS_GetRuntime
+(
 cx
+)
 handler
 noGC
 )
@@ -6096,7 +6105,10 @@ ubi
 RootList
 rootList
 (
+JS_GetRuntime
+(
 cx
+)
 maybeNoGC
 wantNames
 )

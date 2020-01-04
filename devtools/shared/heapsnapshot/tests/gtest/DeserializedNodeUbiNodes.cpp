@@ -746,7 +746,10 @@ ubi
 .
 edges
 (
+JS_GetRuntime
+(
 cx
+)
 )
 ;
 }

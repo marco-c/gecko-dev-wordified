@@ -12794,6 +12794,9 @@ Traversal
 ;
 FindPathHandler
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -12821,6 +12824,10 @@ EdgeName
 edges
 )
 :
+cx
+(
+cx
+)
 start
 (
 start
@@ -12941,8 +12948,6 @@ edgeName
 =
 DuplicateString
 (
-traversal
-.
 cx
 edge
 .
@@ -13216,6 +13221,10 @@ return
 true
 ;
 }
+JSContext
+*
+cx
+;
 /
 /
 The
@@ -13706,6 +13715,7 @@ heaptools
 FindPathHandler
 handler
 (
+cx
 start
 target
 nodes
@@ -13722,6 +13732,11 @@ Traversal
 traversal
 (
 cx
+-
+>
+runtime
+(
+)
 handler
 autoCannotGC
 )

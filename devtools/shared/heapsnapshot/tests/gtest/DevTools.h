@@ -864,14 +864,10 @@ size
 explicit
 FakeNode
 (
-JSContext
-*
-cx
 )
 :
 edges
 (
-cx
 )
 compartment
 (
@@ -932,9 +928,9 @@ EdgeRange
 >
 edges
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 bool
 wantNames
 )
@@ -952,7 +948,6 @@ js_new
 PreComputedEdgeRange
 >
 (
-cx
 get
 (
 )
@@ -1237,7 +1232,7 @@ edges
 MATCHER_P2
 (
 EdgesLength
-cx
+rt
 expectedLength
 "
 "
@@ -1250,7 +1245,7 @@ arg
 .
 edges
 (
-cx
+rt
 )
 ;
 if
@@ -1324,7 +1319,7 @@ matcher
 MATCHER_P3
 (
 Edge
-cx
+rt
 n
 matcher
 "
@@ -1338,7 +1333,7 @@ arg
 .
 edges
 (
-cx
+rt
 )
 ;
 if
