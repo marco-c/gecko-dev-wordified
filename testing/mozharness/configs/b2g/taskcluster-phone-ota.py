@@ -488,6 +488,19 @@ q
 }
     
 "
+update_types
+"
+:
+[
+"
+ota
+"
+"
+fota
+"
+]
+    
+"
 is_automation
 "
 :
