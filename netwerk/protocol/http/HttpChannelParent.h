@@ -897,6 +897,14 @@ DivertComplete
 (
 )
 ;
+void
+SynthesizeResponse
+(
+nsIInterceptedChannel
+*
+aChannel
+)
+;
 friend
 class
 DivertDataAvailableEvent
@@ -908,6 +916,10 @@ DivertStopRequestEvent
 friend
 class
 DivertCompleteEvent
+;
+friend
+class
+ResponseSynthesizer
 ;
 nsRefPtr
 <
