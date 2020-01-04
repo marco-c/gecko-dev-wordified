@@ -805,13 +805,6 @@ AUTH_TOKEN_TYPE
 )
 ;
 }
-if
-(
-AppConstants
-.
-MOZ_ANDROID_FIREFOX_ACCOUNT_PROFILES
-)
-{
 list
 .
 add
@@ -819,7 +812,6 @@ add
 PROFILE_OAUTH_TOKEN_TYPE
 )
 ;
-}
 KNOWN_OAUTH_TOKEN_TYPES
 =
 Collections

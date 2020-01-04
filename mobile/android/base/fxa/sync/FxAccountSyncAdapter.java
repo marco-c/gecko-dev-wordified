@@ -3906,13 +3906,6 @@ extras
 fxAccount
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_ANDROID_FIREFOX_ACCOUNT_PROFILES
-)
-{
 /
 /
 Force
@@ -3942,7 +3935,6 @@ fetchProfileJSON
 (
 )
 ;
-}
 }
 catch
 (
