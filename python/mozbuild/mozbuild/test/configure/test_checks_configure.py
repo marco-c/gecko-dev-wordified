@@ -1037,21 +1037,27 @@ StringIO
         
 paths
 =
-(
+{
             
 self
 .
 KNOWN_A
+:
+None
             
 self
 .
 KNOWN_B
+:
+None
             
 self
 .
 KNOWN_C
+:
+None
         
-)
+}
         
 environ
 =
