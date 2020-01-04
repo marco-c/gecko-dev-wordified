@@ -962,6 +962,13 @@ mCacheEntry
 =
 aCacheEntry
 ;
+mCacheEntry
+-
+>
+UpdateLoadTime
+(
+)
+;
 SetLoadId
 (
 aCX
