@@ -4132,9 +4132,6 @@ completes
 SeekJob
 mQueuedSeek
 ;
-SeekJob
-mCurrentSeek
-;
 /
 /
 Media
