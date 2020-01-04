@@ -1978,6 +1978,10 @@ self
 -
 >
 mType
+MediaSourceDemuxer
+:
+:
+EOS_FUZZ
 )
 ;
 }
@@ -2434,6 +2438,10 @@ mManager
 GetNextRandomAccessPoint
 (
 mType
+MediaSourceDemuxer
+:
+:
+EOS_FUZZ
 )
 ;
 }
@@ -2714,6 +2722,10 @@ mManager
 GetNextRandomAccessPoint
 (
 mType
+MediaSourceDemuxer
+:
+:
+EOS_FUZZ
 )
 ;
 }

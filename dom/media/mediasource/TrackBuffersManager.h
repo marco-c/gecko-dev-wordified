@@ -957,6 +957,13 @@ TrackInfo
 :
 TrackType
 aTrack
+const
+media
+:
+:
+TimeUnit
+&
+aFuzz
 )
 ;
 void
