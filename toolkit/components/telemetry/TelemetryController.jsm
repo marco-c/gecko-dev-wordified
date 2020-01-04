@@ -566,7 +566,7 @@ ms
 const
 TELEMETRY_TEST_DELAY
 =
-100
+1
 ;
 /
 /
