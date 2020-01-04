@@ -6672,6 +6672,17 @@ IsAudible
 )
 const
 ;
+bool
+HaveFailedWithSourceNotSupportedError
+(
+)
+const
+;
+void
+OpenUnsupportedMediaWithExtenalAppIfNeeded
+(
+)
+;
 class
 nsAsyncEventRunner
 ;
