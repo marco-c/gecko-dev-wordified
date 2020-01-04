@@ -9516,8 +9516,6 @@ aMaskLayer
 EffectChain
 &
 aEffects
-bool
-aIs3D
 )
 :
 mCompositable
@@ -9590,7 +9588,6 @@ aMaskLayer
 GetEffectiveTransform
 (
 )
-aIs3D
 )
 )
 {

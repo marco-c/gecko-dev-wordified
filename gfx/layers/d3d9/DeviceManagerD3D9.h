@@ -1607,12 +1607,6 @@ mLayerVSMask
 ;
 RefPtr
 <
-IDirect3DVertexShader9
->
-mLayerVSMask3D
-;
-RefPtr
-<
 IDirect3DPixelShader9
 >
 mRGBPSMask
@@ -1622,12 +1616,6 @@ RefPtr
 IDirect3DPixelShader9
 >
 mRGBAPSMask
-;
-RefPtr
-<
-IDirect3DPixelShader9
->
-mRGBAPSMask3D
 ;
 RefPtr
 <

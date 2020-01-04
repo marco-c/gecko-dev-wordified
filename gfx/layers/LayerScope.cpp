@@ -6128,17 +6128,6 @@ mutable_mask
 mask
 -
 >
-set_mis3d
-(
-aEffect
--
->
-mIs3D
-)
-;
-mask
--
->
 mutable_msize
 (
 )
