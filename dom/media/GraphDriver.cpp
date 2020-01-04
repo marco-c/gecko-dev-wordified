@@ -1316,8 +1316,10 @@ NS_OK
 }
 private
 :
+RefPtr
+<
 ThreadedDriver
-*
+>
 mDriver
 ;
 }
