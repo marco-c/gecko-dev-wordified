@@ -4435,6 +4435,9 @@ const
 URIParams
 &
 uri
+PBrowserParent
+*
+windowContext
 )
 override
 ;
