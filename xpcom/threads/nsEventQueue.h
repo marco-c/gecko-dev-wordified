@@ -206,6 +206,13 @@ MonitorType
 class
 nsEventQueueBase
 {
+typedef
+mozilla
+:
+:
+MutexAutoLock
+MutexAutoLock
+;
 public
 :
 typedef
@@ -282,6 +289,8 @@ aEvent
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 /
@@ -386,6 +395,8 @@ aEvent
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 /
@@ -410,6 +421,9 @@ aRunnable
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
+aExtraneousLock
 )
 {
 return
@@ -418,6 +432,7 @@ GetEvent
 false
 aRunnable
 aProofOfLock
+aExtraneousLock
 )
 ;
 }
@@ -427,6 +442,8 @@ Count
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 private
@@ -660,6 +677,13 @@ Monitor
 >
 ;
 typedef
+mozilla
+:
+:
+MutexAutoLock
+MutexAutoLock
+;
+typedef
 Base
 :
 :
@@ -725,6 +749,8 @@ PutEvent
 nsIRunnable
 *
 aEvent
+MutexAutoLock
+&
 )
 ;
 void
@@ -737,6 +763,8 @@ nsIRunnable
 &
 &
 aEvent
+MutexAutoLock
+&
 )
 ;
 /
@@ -838,6 +866,8 @@ nsIRunnable
 *
 *
 aEvent
+MutexAutoLock
+&
 )
 ;
 /
@@ -856,6 +886,9 @@ event
 bool
 HasPendingEvent
 (
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 return
@@ -863,6 +896,7 @@ GetEvent
 (
 false
 nullptr
+aProofOfLock
 )
 ;
 }
@@ -885,6 +919,9 @@ nsIRunnable
 *
 *
 aRunnable
+MutexAutoLock
+&
+aProofOfLock
 )
 {
 return
@@ -892,12 +929,15 @@ GetEvent
 (
 false
 aRunnable
+aProofOfLock
 )
 ;
 }
 size_t
 Count
 (
+MutexAutoLock
+&
 )
 ;
 }

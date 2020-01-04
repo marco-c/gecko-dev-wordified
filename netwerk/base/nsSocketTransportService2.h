@@ -2272,6 +2272,12 @@ NotifyWhenCanAttachSocket
 -
 -
 -
+mozilla
+:
+:
+Mutex
+mEventQueueLock
+;
 nsEventQueue
 mPendingSocketQ
 ;

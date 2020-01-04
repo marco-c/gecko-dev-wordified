@@ -404,6 +404,8 @@ aResult
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 {
 while
@@ -561,6 +563,8 @@ aResult
 MonitorAutoLock
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 bool
@@ -575,6 +579,9 @@ nsIRunnable
 *
 *
 aEvent
+MutexAutoLock
+&
+aExtraneousLock
 )
 {
 MonitorAutoEnterType
@@ -592,6 +599,7 @@ GetEvent
 aMayWait
 aEvent
 mon
+aExtraneousLock
 )
 ;
 }
@@ -619,6 +627,8 @@ aRunnable
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 {
 if
@@ -765,6 +775,8 @@ aRunnable
 MonitorAutoLock
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 void
@@ -776,6 +788,9 @@ PutEvent
 nsIRunnable
 *
 aRunnable
+MutexAutoLock
+&
+aExtraneousLock
 )
 {
 nsCOMPtr
@@ -794,6 +809,7 @@ event
 forget
 (
 )
+aExtraneousLock
 )
 ;
 }
@@ -810,6 +826,9 @@ nsIRunnable
 &
 &
 aRunnable
+MutexAutoLock
+&
+aExtraneousLock
 )
 {
 if
@@ -884,6 +903,7 @@ Move
 aRunnable
 )
 mon
+aExtraneousLock
 )
 ;
 }
@@ -904,6 +924,8 @@ Count
 MonitorAutoEnterType
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 {
 /
@@ -1166,6 +1188,8 @@ Count
 MonitorAutoLock
 &
 aProofOfLock
+MutexAutoLock
+&
 )
 ;
 size_t
@@ -1174,6 +1198,9 @@ nsEventQueue
 :
 Count
 (
+MutexAutoLock
+&
+aExtraneousLock
 )
 {
 MonitorAutoEnterType
@@ -1189,6 +1216,7 @@ Base
 Count
 (
 mon
+aExtraneousLock
 )
 ;
 }
