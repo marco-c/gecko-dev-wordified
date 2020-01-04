@@ -3172,9 +3172,9 @@ mChannelStatus
 mTransportStatus
 mProgress
 mProgressMax
-mData
 mOffset
 mCount
+mData
 )
 ;
 }
@@ -3230,10 +3230,6 @@ uint64_t
 &
 progressMax
 const
-nsCString
-&
-data
-const
 uint64_t
 &
 offset
@@ -3241,6 +3237,10 @@ const
 uint32_t
 &
 count
+const
+nsCString
+&
+data
 )
 {
 LOG
@@ -3459,10 +3459,6 @@ uint64_t
 &
 progressMax
 const
-nsCString
-&
-data
-const
 uint64_t
 &
 offset
@@ -3470,6 +3466,10 @@ const
 uint32_t
 &
 count
+const
+nsCString
+&
+data
 )
 {
 LOG

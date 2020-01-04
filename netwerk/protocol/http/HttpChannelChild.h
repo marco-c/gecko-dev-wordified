@@ -697,10 +697,6 @@ uint64_t
 &
 progressMax
 const
-nsCString
-&
-data
-const
 uint64_t
 &
 offset
@@ -708,6 +704,10 @@ const
 uint32_t
 &
 count
+const
+nsCString
+&
+data
 )
 override
 ;
@@ -1552,10 +1552,6 @@ uint64_t
 &
 progressMax
 const
-nsCString
-&
-data
-const
 uint64_t
 &
 offset
@@ -1563,6 +1559,10 @@ const
 uint32_t
 &
 count
+const
+nsCString
+&
+data
 )
 ;
 void

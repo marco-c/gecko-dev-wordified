@@ -7051,9 +7051,9 @@ channelStatus
 mStoredStatus
 mStoredProgress
 mStoredProgressMax
-data
 aOffset
 toRead
+data
 )
 )
 {
