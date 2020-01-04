@@ -431,6 +431,15 @@ the
 menu
 .
 *
+*
+Is
+run
+on
+the
+UI
+thread
+.
+*
 /
 public
 interface
