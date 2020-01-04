@@ -1605,11 +1605,6 @@ nsIRequest
 .
 INHIBIT_CACHING
 ;
-var
-self
-=
-this
-;
 req
 .
 addEventListener
@@ -1617,9 +1612,10 @@ addEventListener
 "
 load
 "
-function
 (
 )
+=
+>
 {
 if
 (
@@ -1635,7 +1631,7 @@ return
 let
 newData
 =
-self
+this
 .
 parseTheme
 (
@@ -1679,7 +1675,7 @@ return
 var
 currentTheme
 =
-self
+this
 .
 currentTheme
 ;
@@ -1697,7 +1693,7 @@ theme
 .
 id
 )
-self
+this
 .
 currentTheme
 =
