@@ -2613,9 +2613,6 @@ animations
 >
 RequestRestyle
 (
-AnimationCollection
-:
-:
 RestyleType
 :
 :
@@ -2660,9 +2657,6 @@ transitions
 >
 RequestRestyle
 (
-AnimationCollection
-:
-:
 RestyleType
 :
 :
