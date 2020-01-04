@@ -5079,13 +5079,12 @@ Release
 the
 directory
 service
-NS_IF_RELEASE
-(
 nsDirectoryService
 :
 :
 gService
-)
+=
+nullptr
 ;
 free
 (
