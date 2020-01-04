@@ -338,6 +338,8 @@ nsIScriptableRegion
 aRegion
 uint32_t
 aActionType
+nsContentPolicyType
+aContentPolicyType
 )
 override
 ;
