@@ -49154,9 +49154,9 @@ ICTailCallReg
 ;
 masm
 .
-enterFakeExitFrame
+enterFakeExitFrameForNative
 (
-NativeExitFrameLayoutToken
+isConstructing_
 )
 ;
 /
@@ -49813,9 +49813,9 @@ ICTailCallReg
 ;
 masm
 .
-enterFakeExitFrame
+enterFakeExitFrameForNative
 (
-NativeExitFrameLayoutToken
+isConstructing_
 )
 ;
 /
