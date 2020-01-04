@@ -949,6 +949,12 @@ mDraw
 mSamples
 ;
 }
+uint32_t
+DepthBits
+(
+)
+const
+;
 void
 DeletingFB
 (
