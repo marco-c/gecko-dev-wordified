@@ -9590,6 +9590,13 @@ StopTimer
 return
 ;
 }
+presShell
+-
+>
+CheckIfTimeToUnsuppressPainting
+(
+)
+;
 mResizeSuppressed
 =
 false
