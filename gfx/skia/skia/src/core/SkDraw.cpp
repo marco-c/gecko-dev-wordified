@@ -9459,6 +9459,13 @@ paint
 getTypeface
 (
 )
+&
+&
+paint
+.
+getTypeface
+(
+)
 -
 >
 hasColorGlyphs
