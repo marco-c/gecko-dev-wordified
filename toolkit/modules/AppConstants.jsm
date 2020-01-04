@@ -673,6 +673,17 @@ else
 false
 #
 endif
+MOZ_REQUIRE_SIGNING
+:
+#
+ifdef
+MOZ_REQUIRE_SIGNING
+true
+#
+else
+false
+#
+endif
 MOZ_ANDROID_HISTORY
 :
 #
