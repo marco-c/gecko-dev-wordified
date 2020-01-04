@@ -663,7 +663,7 @@ Length
 (
 )
 ;
-ScopedPK11SlotInfo
+UniquePK11SlotInfo
 slot
 (
 PK11_GetBestSlot

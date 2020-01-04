@@ -130,6 +130,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 nsICertBlocklist
 .
 h

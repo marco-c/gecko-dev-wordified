@@ -221,8 +221,12 @@ nsNSSU2FToken
 nsresult
 GetOrCreateWrappingKey
 (
-PK11SlotInfo
-*
+const
+mozilla
+:
+:
+UniquePK11SlotInfo
+&
 aSlot
 const
 nsNSSShutDownPreventionLock

@@ -66,6 +66,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h
@@ -137,7 +144,7 @@ NS_ERROR_NOT_AVAILABLE
 mozilla
 :
 :
-ScopedPK11SlotInfo
+UniquePK11SlotInfo
 slot
 (
 PK11_GetInternalSlot
@@ -187,6 +194,10 @@ srv
 PK11_GenerateRandomOnSlot
 (
 slot
+.
+get
+(
+)
 buf
 aLength
 )
