@@ -6548,9 +6548,8 @@ vp
 )
 ;
 extern
-JSObject
-*
-XPC_WN_JSOp_ThisObject
+bool
+XPC_WN_JSOp_ThisValue
 (
 JSContext
 *
@@ -6560,6 +6559,11 @@ JS
 :
 HandleObject
 obj
+JS
+:
+:
+MutableHandleValue
+vp
 )
 ;
 /
@@ -6652,7 +6656,7 @@ enumerate
 *
 /
 \
-XPC_WN_JSOp_ThisObject
+XPC_WN_JSOp_ThisValue
 \
 }
 #
@@ -6734,7 +6738,7 @@ enumerate
 *
 /
 \
-XPC_WN_JSOp_ThisObject
+XPC_WN_JSOp_ThisValue
 \
 }
 /

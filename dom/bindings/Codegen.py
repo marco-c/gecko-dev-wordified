@@ -3369,10 +3369,16 @@ enumerate
 *
 /
                       
-JS_ObjectToOuterObject
+mozilla
+:
+:
+dom
+:
+:
+ObjectToOuterObjectValue
 /
 *
-thisObject
+thisValue
 *
 /
                     

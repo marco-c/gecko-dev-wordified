@@ -235,8 +235,7 @@ call
 )
 ;
 extern
-JSObject
-*
+bool
 BoxNonStrictThis
 (
 JSContext
@@ -244,6 +243,8 @@ JSContext
 cx
 HandleValue
 thisv
+MutableHandleValue
+vp
 )
 ;
 /
