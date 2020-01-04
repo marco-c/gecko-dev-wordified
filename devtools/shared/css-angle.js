@@ -941,10 +941,10 @@ round
 (
 radValue
 *
-100
+10000
 )
 /
-100
+10000
 }
 {
 unitStr
