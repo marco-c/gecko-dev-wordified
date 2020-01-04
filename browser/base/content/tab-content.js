@@ -5381,10 +5381,9 @@ aEvent
 /
 When
 the
-first
-content
+window
 is
-loaded
+created
 we
 want
 to
@@ -5455,7 +5454,7 @@ sendAsyncMessage
 "
 Browser
 :
-FirstContentLoaded
+WindowCreated
 "
 {
 userContextId
