@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -152,13 +159,6 @@ nsIRunnable
 ;
 class
 nsIThreadPool
-;
-template
-<
-class
->
-class
-nsTArray
 ;
 namespace
 mozilla
