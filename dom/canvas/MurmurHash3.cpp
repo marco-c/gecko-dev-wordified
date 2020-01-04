@@ -170,6 +170,13 @@ MurmurHash3
 .
 h
 "
+#
+include
+<
+stdlib
+.
+h
+>
 namespace
 {
 /
@@ -274,13 +281,6 @@ _MSC_VER
 define
 FORCE_INLINE
 __forceinline
-#
-include
-<
-stdlib
-.
-h
->
 #
 define
 ROTL32
