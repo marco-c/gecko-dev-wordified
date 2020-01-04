@@ -22474,7 +22474,7 @@ has
 finished
 and
 all
-features
+holders
 are
 done
 then
@@ -26190,7 +26190,7 @@ HasMore
 {
 WorkerHolder
 *
-feature
+holder
 =
 iter
 .
@@ -26201,7 +26201,7 @@ GetNext
 if
 (
 !
-feature
+holder
 -
 >
 Notify
@@ -26216,7 +26216,7 @@ NS_WARNING
 Failed
 to
 notify
-feature
+holder
 !
 "
 )
@@ -28685,7 +28685,7 @@ IsNull
 Let
 all
 our
-features
+holders
 know
 the
 new
