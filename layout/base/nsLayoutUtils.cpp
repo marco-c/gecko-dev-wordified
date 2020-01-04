@@ -11633,9 +11633,6 @@ const
 nsIFrame
 *
 aFrame
-nsRect
-*
-aDisplayPort
 )
 {
 /
@@ -11730,7 +11727,6 @@ aFrame
 PresContext
 (
 )
-aDisplayPort
 )
 ;
 }
