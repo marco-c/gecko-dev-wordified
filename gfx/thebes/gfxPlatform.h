@@ -2030,8 +2030,6 @@ nsAString
 &
 aFamilyName
 )
-=
-0
 ;
 /
 *
@@ -2143,11 +2141,7 @@ aStretch
 uint8_t
 aStyle
 )
-{
-return
-nullptr
 ;
-}
 /
 *
 *
