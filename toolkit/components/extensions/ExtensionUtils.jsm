@@ -1348,7 +1348,7 @@ and
 the
 *
 callback
-funciton
+function
 must
 check
 browser
