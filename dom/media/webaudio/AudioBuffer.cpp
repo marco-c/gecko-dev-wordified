@@ -408,9 +408,6 @@ already_AddRefed
 ThreadSharedFloatArrayBufferList
 >
 aInitialContents
-JSContext
-*
-aJSContext
 ErrorResult
 &
 aRv

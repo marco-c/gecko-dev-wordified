@@ -1066,9 +1066,6 @@ AudioBuffer
 >
 CreateBuffer
 (
-JSContext
-*
-aJSContext
 uint32_t
 aNumberOfChannels
 uint32_t

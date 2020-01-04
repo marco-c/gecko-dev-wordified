@@ -2423,7 +2423,6 @@ mInputBuffer
 forget
 (
 )
-cx
 rv
 )
 ;
