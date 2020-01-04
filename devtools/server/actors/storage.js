@@ -4827,7 +4827,7 @@ evt
 {
 mm
 :
-disconnected_mm
+disconnectedMm
 }
 )
 {
@@ -4841,7 +4841,7 @@ message
 managers
 if
 (
-disconnected_mm
+disconnectedMm
 !
 =
 =
@@ -5748,18 +5748,6 @@ sessionStorage
 )
 )
 ;
-let
-CacheAttributes
-=
-[
-"
-url
-"
-"
-status
-"
-]
-;
 types
 .
 addDictType
@@ -5896,6 +5884,8 @@ or
 |
 chrome
 |
+/
+/
 cache
 .
 /
@@ -5939,10 +5929,10 @@ cached
 by
 the
 platform
+/
+/
 hosting
 the
-/
-/
 source
 file
 of
@@ -6125,6 +6115,8 @@ map
 a
 =
 >
+{
+return
 JSON
 .
 stringify
@@ -6133,6 +6125,8 @@ stringify
 a
 ]
 )
+;
+}
 )
 ;
 }
@@ -6154,10 +6148,12 @@ if
 !
 name
 )
+{
 return
 [
 ]
 ;
+}
 /
 /
 UI
@@ -6382,7 +6378,6 @@ function
 *
 (
 host
-window
 )
 {
 let
@@ -10806,7 +10801,7 @@ evt
 {
 mm
 :
-disconnected_mm
+disconnectedMm
 }
 )
 {
@@ -10820,7 +10815,7 @@ message
 managers
 if
 (
-disconnected_mm
+disconnectedMm
 !
 =
 =
@@ -11189,7 +11184,7 @@ for
 let
 [
 store
-actor
+ActorConstructor
 ]
 of
 storageTypePool
@@ -11203,7 +11198,7 @@ set
 (
 store
 new
-actor
+ActorConstructor
 (
 this
 )
@@ -13441,9 +13436,6 @@ Actor
 .
 *
 /
-var
-StorageFront
-=
 exports
 .
 StorageFront

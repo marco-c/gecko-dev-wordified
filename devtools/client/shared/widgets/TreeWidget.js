@@ -108,15 +108,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-const
 HTML_NS
 =
 "
@@ -222,6 +213,7 @@ items
 For
 ex
 .
+*
 '
 js
 '
@@ -425,7 +417,6 @@ Map
 )
 ;
 }
-;
 TreeWidget
 .
 prototype
@@ -1474,6 +1465,7 @@ not
 present
 in
 the
+*
 process
 .
 *
@@ -1891,6 +1883,7 @@ remove
 (
 item
 )
+;
 this
 .
 attachments
@@ -2737,6 +2730,7 @@ this
 document
 =
 document
+;
 this
 .
 node
@@ -2802,8 +2796,6 @@ level
 }
 if
 (
-!
-!
 label
 )
 {
@@ -2901,6 +2893,7 @@ label
 textContent
 =
 label
+;
 }
 else
 {
@@ -3048,8 +3041,8 @@ The
 item
 to
 be
-inserted
 *
+inserted
 can
 be
 a
@@ -3241,9 +3234,9 @@ the
 add
 method
 of
+/
+/
 that
-/
-/
 child
 to
 add
@@ -3314,9 +3307,9 @@ id
 or
 the
 item
+/
+/
 itself
-/
-/
 if
 its
 a
