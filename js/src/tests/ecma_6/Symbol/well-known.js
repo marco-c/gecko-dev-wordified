@@ -29,6 +29,9 @@ names
 =
 [
 "
+isConcatSpreadable
+"
+"
 iterator
 "
 "
