@@ -4433,7 +4433,7 @@ GetDirection
 ;
 timing
 .
-mFillMode
+mFill
 =
 src
 .
