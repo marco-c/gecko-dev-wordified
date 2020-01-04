@@ -479,8 +479,10 @@ WaitForInput
 (
 )
 ;
+already_AddRefed
+<
 MediaRawData
-*
+>
 PeekNextSample
 (
 )
