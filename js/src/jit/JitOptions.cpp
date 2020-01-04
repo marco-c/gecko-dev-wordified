@@ -716,7 +716,7 @@ disabled
 SET_DEFAULT
 (
 disablePgo
-false
+true
 )
 ;
 /
