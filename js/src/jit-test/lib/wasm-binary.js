@@ -498,12 +498,7 @@ GlobalCode
 /
 ResizableFlags
 const
-DefaultFlag
-=
-0x1
-;
-const
 HasMaximumFlag
 =
-0x2
+0x1
 ;

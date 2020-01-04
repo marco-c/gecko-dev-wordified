@@ -2019,7 +2019,7 @@ push
 .
 varU32
 (
-DefaultFlag
+0x0
 )
 )
 ;
@@ -2042,12 +2042,6 @@ initialSize
 )
 )
 ;
-/
-/
-for
-now
-no
-maximum
 return
 {
 name
@@ -2096,7 +2090,7 @@ push
 .
 varU32
 (
-DefaultFlag
+0x0
 )
 )
 ;
@@ -2119,12 +2113,6 @@ initialSize
 )
 )
 ;
-/
-/
-for
-now
-no
-maximum
 return
 {
 name
