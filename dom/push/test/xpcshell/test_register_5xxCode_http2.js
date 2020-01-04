@@ -514,9 +514,6 @@ serverURL
 /
 subscribe5xxCode
 "
-service
-:
-PushServiceHttp2
 db
 }
 )

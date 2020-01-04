@@ -2464,6 +2464,16 @@ EqualsLiteral
 app
 "
 )
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
+wss
+"
+)
 )
 {
 *
