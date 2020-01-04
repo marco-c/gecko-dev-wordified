@@ -4600,12 +4600,12 @@ f
 )
 )
 ;
-gfxContextAutoDisableSubpixelAntialiasing
+DrawTargetAutoDisableSubpixelAntialiasing
 disable
 (
 aRenderingContext
 .
-ThebesContext
+GetDrawTarget
 (
 )
 aDisableSubpixelAA

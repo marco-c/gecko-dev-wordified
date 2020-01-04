@@ -1464,13 +1464,13 @@ nsRenderingContext
 aCtx
 )
 {
-gfxContextAutoDisableSubpixelAntialiasing
+DrawTargetAutoDisableSubpixelAntialiasing
 disable
 (
 aCtx
 -
 >
-ThebesContext
+GetDrawTarget
 (
 )
 mDisableSubpixelAA
