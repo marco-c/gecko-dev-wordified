@@ -43180,14 +43180,14 @@ aInvalidRegion
 )
 {
 const
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 *
 geometry
 =
 static_cast
 <
 const
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 *
 >
 (
@@ -44961,7 +44961,7 @@ PopClip
 (
 )
 ;
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 :
 :
 UpdateDrawResult
@@ -45790,7 +45790,7 @@ PaintFilter
 params
 )
 ;
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 :
 :
 UpdateDrawResult

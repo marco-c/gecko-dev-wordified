@@ -23950,7 +23950,7 @@ override
 {
 return
 new
-nsDisplaySVGEffectsGeometry
+nsDisplayMaskGeometry
 (
 this
 aBuilder
