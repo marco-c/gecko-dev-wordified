@@ -269,11 +269,12 @@ inset
 .
 sort
 (
-function
 (
 x
 y
 )
+=
+>
 x
 -
 y
@@ -1043,11 +1044,12 @@ arr
 .
 sort
 (
-function
 (
 x
 y
 )
+=
+>
 x
 -
 y
