@@ -212,7 +212,7 @@ namespace
 js
 {
 class
-ArrayBufferObject
+TypedArrayObject
 ;
 namespace
 wasm
@@ -377,7 +377,7 @@ JSContext
 cx
 Handle
 <
-ArrayBufferObject
+TypedArrayObject
 *
 >
 code
