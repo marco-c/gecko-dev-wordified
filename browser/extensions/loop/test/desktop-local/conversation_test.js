@@ -227,6 +227,13 @@ debug
 sdk
 "
 :
+case
+"
+debug
+.
+dispatcher
+"
+:
 return
 false
 ;
