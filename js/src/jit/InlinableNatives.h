@@ -657,6 +657,11 @@ IntrinsicPossiblyWrappedArrayBufferByteLength
 \
 _
 (
+TypedArrayConstructor
+)
+\
+_
+(
 IntrinsicIsTypedArray
 )
 \
