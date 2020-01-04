@@ -1702,8 +1702,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 )
 {
 return
@@ -1720,7 +1720,7 @@ LookupLocalFont
 aFontName
 aWeight
 aStretch
-aStyle
+aItalic
 )
 ;
 }
@@ -1739,8 +1739,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 const
 uint8_t
 *
@@ -1763,7 +1763,7 @@ MakePlatformFont
 aFontName
 aWeight
 aStretch
-aStyle
+aItalic
 aFontData
 aLength
 )

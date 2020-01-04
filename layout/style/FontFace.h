@@ -238,8 +238,8 @@ uint32_t
 aWeight
 int32_t
 aStretch
-uint8_t
-aStyle
+uint32_t
+aItalicStyle
 const
 nsTArray
 <
@@ -260,7 +260,7 @@ aFontSet
 aFontFaceSrcList
 aWeight
 aStretch
-aStyle
+aItalicStyle
 aFeatureSettings
 aLanguageOverride
 aUnicodeRanges
