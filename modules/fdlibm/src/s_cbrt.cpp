@@ -628,7 +628,7 @@ values
 *
 ordinary
 integer
-divison
+division
 of
 the
 value
