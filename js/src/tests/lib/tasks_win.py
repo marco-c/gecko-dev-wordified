@@ -110,6 +110,27 @@ timeout
 )
 :
     
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+    
+env
+[
+'
+XRE_NO_WINDOWS_CRASH_DIALOG
+'
+]
+=
+'
+1
+'
+    
 while
 True
 :
@@ -217,6 +238,10 @@ stderr
 subprocess
 .
 PIPE
+                                
+env
+=
+env
 )
         
 #
