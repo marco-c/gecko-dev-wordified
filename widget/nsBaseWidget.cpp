@@ -3134,7 +3134,7 @@ send
 events
 to
 .
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -3186,9 +3186,6 @@ type
 mUseAttachedEvents
 =
 aUseAttachedEvents
-;
-return
-NS_OK
 ;
 }
 nsIWidgetListener

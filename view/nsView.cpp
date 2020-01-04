@@ -4047,9 +4047,6 @@ the
 old
 one
 .
-nsresult
-rv
-=
 aWidget
 -
 >
@@ -4063,16 +4060,6 @@ UsePuppetWidgets
 (
 )
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 mWindow
 =

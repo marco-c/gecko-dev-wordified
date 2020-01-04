@@ -2623,7 +2623,8 @@ listener
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 AttachViewToTopLevel
 (
 bool
