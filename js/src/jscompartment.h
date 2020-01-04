@@ -1902,6 +1902,9 @@ warnedAboutNoSuchMethod
 bool
 warnedAboutFlagsArgument
 ;
+bool
+warnedAboutExprClosure
+;
 /
 /
 A

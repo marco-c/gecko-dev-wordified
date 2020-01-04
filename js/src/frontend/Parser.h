@@ -5995,6 +5995,11 @@ DeprecatedLanguageExtension
 e
 )
 ;
+bool
+warnOnceAboutExprClosure
+(
+)
+;
 friend
 class
 LegacyCompExprTransplanter

@@ -386,6 +386,10 @@ warnedAboutFlagsArgument
 (
 false
 )
+warnedAboutExprClosure
+(
+false
+)
 addonId
 (
 options
