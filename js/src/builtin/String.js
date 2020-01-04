@@ -341,7 +341,6 @@ rx
 RegExpCreate
 (
 regexp
-undefined
 )
 ;
 /
@@ -1489,7 +1488,6 @@ rx
 RegExpCreate
 (
 regexp
-undefined
 )
 ;
 /
