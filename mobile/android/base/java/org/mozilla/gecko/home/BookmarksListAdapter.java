@@ -1731,7 +1731,7 @@ R
 .
 string
 .
-home_move_up_to_filter
+home_move_back_to_filter
 mParentStack
 .
 get
