@@ -1710,8 +1710,8 @@ at
 these
 rates
 .
-skipFracNum
--
+uint32_t
+leadSubsamples
 =
 leadTicks
 *
@@ -1720,6 +1720,11 @@ ratioNum
 0
 .
 5
+;
+skipFracNum
+-
+=
+leadSubsamples
 ;
 MOZ_ASSERT
 (
