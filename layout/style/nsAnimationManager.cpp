@@ -6576,13 +6576,10 @@ eRestyle_AllHintsWithAnimations
 }
 if
 (
-CommonAnimationManager
-<
-CSSAnimation
->
+StyleAnimationValue
 :
 :
-ExtractComputedValueForTransition
+ExtractComputedValue
 (
 aProperty
 mStyleWithoutAnimation

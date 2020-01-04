@@ -3586,7 +3586,10 @@ ToValue
 matching
 currentValue
 !
-ExtractComputedValueForTransition
+StyleAnimationValue
+:
+:
+ExtractComputedValue
 (
 anim
 -
@@ -3970,7 +3973,10 @@ dummyValue
 bool
 haveValues
 =
-ExtractComputedValueForTransition
+StyleAnimationValue
+:
+:
+ExtractComputedValue
 (
 aProperty
 aOldStyleContext
@@ -3978,7 +3984,10 @@ startValue
 )
 &
 &
-ExtractComputedValueForTransition
+StyleAnimationValue
+:
+:
+ExtractComputedValue
 (
 aProperty
 aNewStyleContext
@@ -5951,7 +5960,10 @@ currentValue
 if
 (
 !
-ExtractComputedValueForTransition
+StyleAnimationValue
+:
+:
+ExtractComputedValue
 (
 anim
 -
