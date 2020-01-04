@@ -128,7 +128,6 @@ createChild
 appendText
 advanceValidate
 blurOnMultipleProperties
-throttle
 }
 =
 require
@@ -587,6 +586,10 @@ this
 .
 _onValidate
 =
+this
+.
+ruleView
+.
 throttle
 (
 this
@@ -1652,6 +1655,11 @@ popup
 this
 .
 popup
+cssProperties
+:
+this
+.
+cssProperties
 }
 )
 ;
@@ -2142,6 +2150,11 @@ getBoundingClientRect
 )
 .
 width
+cssProperties
+:
+this
+.
+cssProperties
 }
 )
 ;
