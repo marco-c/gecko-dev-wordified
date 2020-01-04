@@ -333,7 +333,7 @@ i
 ;
 i
 <
-_countof
+ArraySize
 (
 indices
 )

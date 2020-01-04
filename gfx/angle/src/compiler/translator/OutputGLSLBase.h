@@ -161,6 +161,15 @@ postStr
 )
 ;
 void
+writeLayoutQualifier
+(
+const
+TType
+&
+type
+)
+;
+void
 writeVariableType
 (
 const

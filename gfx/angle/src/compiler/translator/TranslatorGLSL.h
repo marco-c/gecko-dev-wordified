@@ -121,6 +121,9 @@ root
 void
 writeExtensionBehavior
 (
+TIntermNode
+*
+root
 )
 ;
 }

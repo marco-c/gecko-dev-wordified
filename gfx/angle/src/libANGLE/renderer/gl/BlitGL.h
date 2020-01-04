@@ -250,7 +250,10 @@ GLuint
 mBlitProgram
 ;
 GLuint
-mScratchTexture
+mScratchTextures
+[
+2
+]
 ;
 GLuint
 mScratchFBO

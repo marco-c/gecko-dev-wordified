@@ -180,7 +180,6 @@ iterations
 ;
 }
 ;
-inline
 std
 :
 :

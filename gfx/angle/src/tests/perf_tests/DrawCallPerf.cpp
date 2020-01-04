@@ -212,7 +212,6 @@ numTris
 ;
 }
 ;
-inline
 std
 :
 :

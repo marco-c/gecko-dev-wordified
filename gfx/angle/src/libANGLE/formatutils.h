@@ -591,6 +591,10 @@ vertexFormatType
 )
 ;
 }
+/
+/
+namespace
+gl
 #
 endif
 /

@@ -169,7 +169,6 @@ iterations
 ;
 }
 ;
-inline
 std
 :
 :

@@ -1880,6 +1880,7 @@ requiredSize
 ;
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 return
@@ -2203,6 +2204,7 @@ size
 ;
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 return
@@ -2454,6 +2456,7 @@ getDataRevision
 ;
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 }
@@ -2617,6 +2620,7 @@ getDataRevision
 }
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 }

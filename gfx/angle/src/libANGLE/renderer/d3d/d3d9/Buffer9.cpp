@@ -205,6 +205,7 @@ size
 }
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 updateD3DBufferUsage
@@ -360,6 +361,7 @@ size
 }
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 return
@@ -442,6 +444,7 @@ size
 ;
 invalidateStaticData
 (
+D3D_BUFFER_INVALIDATE_WHOLE_CACHE
 )
 ;
 return

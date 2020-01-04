@@ -72,6 +72,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 common
 /

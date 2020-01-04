@@ -212,14 +212,6 @@ mData
 maxAttribs
 )
 {
-ASSERT
-(
-mVertexArray
-!
-=
-nullptr
-)
-;
 }
 VertexArray
 :

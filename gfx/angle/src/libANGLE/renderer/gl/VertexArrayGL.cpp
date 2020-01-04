@@ -300,6 +300,8 @@ array
 size
 GLint
 maxVertexAttribs
+=
+0
 ;
 mFunctions
 -

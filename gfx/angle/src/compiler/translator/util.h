@@ -160,9 +160,9 @@ clamp
 the
 value
 to
-INT_MIN
+UINT_MIN
 or
-INT_MAX
+UINT_MAX
 .
 /
 /
@@ -179,6 +179,7 @@ const
 char
 *
 str
+unsigned
 int
 *
 value

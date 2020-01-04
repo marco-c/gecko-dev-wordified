@@ -3401,6 +3401,13 @@ packSubimage
 =
 true
 ;
+extensions
+-
+>
+vertexArrayObject
+=
+true
+;
 /
 /
 D3D9
