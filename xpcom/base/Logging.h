@@ -129,6 +129,13 @@ h
 >
 #
 include
+<
+stdarg
+.
+h
+>
+#
+include
 "
 prlog
 .
