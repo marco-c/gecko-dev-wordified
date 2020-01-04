@@ -906,7 +906,10 @@ payload
 )
 do
 {
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ProfilerMarkerPayload
 >
