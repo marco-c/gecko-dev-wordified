@@ -6384,11 +6384,7 @@ Helper
 function
 used
 by
-TakeOverFling
-(
-)
-and
-HandleFlingOverscroll
+AttemptFling
 (
 )
 .
