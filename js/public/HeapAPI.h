@@ -420,6 +420,11 @@ sizeof
 (
 size_t
 )
++
+sizeof
+(
+uintptr_t
+)
 ;
 /
 *
