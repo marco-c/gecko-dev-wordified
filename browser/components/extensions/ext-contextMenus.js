@@ -355,6 +355,12 @@ if
 rootElement
 .
 firstChild
+|
+|
+!
+rootElement
+.
+firstChild
 .
 childNodes
 .
