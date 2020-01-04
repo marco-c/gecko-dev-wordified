@@ -194,11 +194,6 @@ LaunchHTTPHandlerPane
 (
 )
 ;
-private
-:
-bool
-mCheckedThisSession
-;
 }
 ;
 #

@@ -140,11 +140,6 @@ public
 nsMacShellService
 (
 )
-:
-mCheckedThisSession
-(
-false
-)
 {
 }
 ;
@@ -169,9 +164,6 @@ nsCOMPtr
 nsIFile
 >
 mBackgroundFile
-;
-bool
-mCheckedThisSession
 ;
 }
 ;
