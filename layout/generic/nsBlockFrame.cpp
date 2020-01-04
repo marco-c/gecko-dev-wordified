@@ -2340,7 +2340,7 @@ empty
 )
 )
 {
-const_line_iterator
+ConstLineIterator
 line
 =
 begin_lines
@@ -2455,7 +2455,7 @@ nestedPfx
 "
 "
 ;
-const_line_iterator
+ConstLineIterator
 line
 =
 overflowLines
@@ -3037,7 +3037,7 @@ empty
 )
 )
 {
-const_line_iterator
+ConstLineIterator
 line
 =
 begin_lines
@@ -4277,7 +4277,7 @@ GetNextContinuation
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 curFrame
@@ -4841,7 +4841,7 @@ GetNextContinuation
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 curFrame
@@ -5388,7 +5388,7 @@ GetNextContinuation
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 curFrame
@@ -8936,7 +8936,7 @@ deltaX
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -10318,14 +10318,14 @@ CheckForCollapsedBEndMarginFromClearanceLine
 (
 )
 {
-line_iterator
+LineIterator
 begin
 =
 begin_lines
 (
 )
 ;
-line_iterator
+LineIterator
 line
 =
 end_lines
@@ -12350,7 +12350,7 @@ aDisplay
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -12668,7 +12668,7 @@ values
 .
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -12973,7 +12973,7 @@ NS_BLOCK_LOOK_FOR_DIRTY_FRAMES
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -13080,7 +13080,7 @@ nsBlockFrame
 :
 MarkLineDirty
 (
-line_iterator
+LineIterator
 aLine
 const
 nsLineList
@@ -13658,7 +13658,7 @@ n
 endif
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -14065,7 +14065,7 @@ everything
 dirty
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -15394,7 +15394,7 @@ GetWritingMode
 )
 )
 {
-line_iterator
+LineIterator
 lastLine
 =
 end_lines
@@ -15549,7 +15549,7 @@ aState
 .
 mFloatBreakType
 ;
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -18918,7 +18918,7 @@ this
 optimization
 .
 )
-line_iterator
+LineIterator
 lineIter
 =
 this
@@ -20701,7 +20701,7 @@ ReflowLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -20822,7 +20822,7 @@ PullFrame
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 )
 {
@@ -22622,7 +22622,7 @@ false
 }
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -22684,7 +22684,7 @@ false
 }
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -22857,7 +22857,7 @@ essentially
 the
 first
 line
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -23045,7 +23045,7 @@ ReflowBlockFrame
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -26238,7 +26238,7 @@ collapsedBEndMargin
 )
 )
 {
-line_iterator
+LineIterator
 nextLine
 =
 aLine
@@ -26750,7 +26750,7 @@ block
 ;
 for
 (
-line_iterator
+LineIterator
 line
 =
 nifBlock
@@ -27541,7 +27541,7 @@ ReflowInlineFrames
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -28063,7 +28063,7 @@ PushTruncatedLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -28105,7 +28105,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsFlowAreaRect
 &
@@ -30079,7 +30079,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsIFrame
 *
@@ -31691,7 +31691,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsIFrame
 *
@@ -32177,7 +32177,7 @@ IsLastLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 )
 {
@@ -32302,7 +32302,7 @@ nextInFlow
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 nextInFlow
@@ -32395,7 +32395,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsFloatManager
 :
@@ -34621,7 +34621,7 @@ N
 ?
 for
 (
-line_iterator
+LineIterator
 line
 =
 overflowLines
@@ -39346,7 +39346,7 @@ the
 float
 cache
 .
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -39912,7 +39912,7 @@ nsBlockInFlowLineIterator
 nsBlockFrame
 *
 aFrame
-line_iterator
+LineIterator
 aLine
 )
 :
@@ -39973,7 +39973,7 @@ nsBlockInFlowLineIterator
 nsBlockFrame
 *
 aFrame
-line_iterator
+LineIterator
 aLine
 bool
 aInOverflow
@@ -40225,7 +40225,7 @@ child
 )
 return
 ;
-line_iterator
+LineIterator
 line_end
 =
 aFrame
@@ -40291,7 +40291,7 @@ cursor
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 aFrame
@@ -40305,7 +40305,7 @@ cursor
 nsBlockFrame
 :
 :
-reverse_line_iterator
+ReverseLineIterator
 rline
 =
 aFrame
@@ -40319,7 +40319,7 @@ cursor
 nsBlockFrame
 :
 :
-reverse_line_iterator
+ReverseLineIterator
 rline_end
 =
 aFrame
@@ -40679,7 +40679,7 @@ Next
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 nsBlockInFlowLineIterator
 :
 :
@@ -40704,7 +40704,7 @@ IsLastLineInList
 (
 )
 {
-line_iterator
+LineIterator
 end
 =
 End
@@ -40754,7 +40754,7 @@ Prev
 (
 )
 {
-line_iterator
+LineIterator
 begin
 =
 mLineList
@@ -40942,7 +40942,7 @@ FindValidLine
 (
 )
 {
-line_iterator
+LineIterator
 end
 =
 mLineList
@@ -41717,7 +41717,7 @@ if
 isLastFrameOnLine
 )
 {
-line_iterator
+LineIterator
 next
 =
 line
@@ -45190,7 +45190,7 @@ nsBlockFrame
 b
 )
 ;
-line_iterator
+LineIterator
 endLine
 =
 block
@@ -46172,7 +46172,7 @@ for
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -46922,7 +46922,7 @@ aDirtyRect
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 &
 aLine
 int32_t
@@ -47772,7 +47772,7 @@ aDirtyRect
 y
 )
 ;
-line_iterator
+LineIterator
 line_end
 =
 end_lines
@@ -47786,7 +47786,7 @@ cursor
 {
 for
 (
-line_iterator
+LineIterator
 line
 =
 mLines
@@ -47922,7 +47922,7 @@ INT32_MIN
 ;
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -48672,7 +48672,7 @@ LineCursorProperty
 )
 )
 ;
-line_iterator
+LineIterator
 cursor
 =
 mLines
@@ -48921,7 +48921,7 @@ the
 second
 line
 .
-line_iterator
+LineIterator
 bulletLine
 =
 begin_lines
@@ -51894,7 +51894,7 @@ lineFloats
 ;
 for
 (
-line_iterator
+LineIterator
 line
 =
 begin_lines
@@ -53519,7 +53519,7 @@ count
 =
 0
 ;
-line_iterator
+LineIterator
 line
 line_end
 ;
@@ -53809,7 +53809,7 @@ if
 overflowLines
 )
 {
-line_iterator
+LineIterator
 line
 =
 overflowLines
@@ -53821,7 +53821,7 @@ begin
 (
 )
 ;
-line_iterator
+LineIterator
 line_end
 =
 overflowLines
@@ -54444,7 +54444,7 @@ if
 cursor
 )
 {
-line_iterator
+LineIterator
 line
 =
 flow
@@ -54454,7 +54454,7 @@ begin_lines
 (
 )
 ;
-line_iterator
+LineIterator
 line_end
 =
 flow

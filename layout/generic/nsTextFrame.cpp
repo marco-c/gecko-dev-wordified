@@ -9549,7 +9549,7 @@ block
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 startLine
 =
 backIterator
@@ -9776,7 +9776,7 @@ backIterator
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 backIterator
@@ -10097,7 +10097,7 @@ do
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 forwardIterator
@@ -33760,7 +33760,7 @@ for
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 aBlockFrame

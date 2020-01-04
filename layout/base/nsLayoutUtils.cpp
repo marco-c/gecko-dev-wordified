@@ -41185,7 +41185,7 @@ for
 nsBlockFrame
 :
 :
-const_line_iterator
+ConstLineIterator
 line
 =
 block
@@ -41502,7 +41502,7 @@ for
 nsBlockFrame
 :
 :
-const_reverse_line_iterator
+ConstReverseLineIterator
 line
 =
 block
@@ -41784,7 +41784,7 @@ for
 nsBlockFrame
 :
 :
-line_iterator
+LineIterator
 line
 =
 aFrame

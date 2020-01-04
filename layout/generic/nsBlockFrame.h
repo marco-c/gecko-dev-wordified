@@ -706,30 +706,30 @@ nsLineList
 :
 :
 iterator
-line_iterator
+LineIterator
 ;
 typedef
 nsLineList
 :
 :
 const_iterator
-const_line_iterator
+ConstLineIterator
 ;
 typedef
 nsLineList
 :
 :
 reverse_iterator
-reverse_line_iterator
+ReverseLineIterator
 ;
 typedef
 nsLineList
 :
 :
 const_reverse_iterator
-const_reverse_line_iterator
+ConstReverseLineIterator
 ;
-line_iterator
+LineIterator
 begin_lines
 (
 )
@@ -742,7 +742,7 @@ begin
 )
 ;
 }
-line_iterator
+LineIterator
 end_lines
 (
 )
@@ -755,7 +755,7 @@ end
 )
 ;
 }
-const_line_iterator
+ConstLineIterator
 begin_lines
 (
 )
@@ -769,7 +769,7 @@ begin
 )
 ;
 }
-const_line_iterator
+ConstLineIterator
 end_lines
 (
 )
@@ -783,7 +783,7 @@ end
 )
 ;
 }
-reverse_line_iterator
+ReverseLineIterator
 rbegin_lines
 (
 )
@@ -796,7 +796,7 @@ rbegin
 )
 ;
 }
-reverse_line_iterator
+ReverseLineIterator
 rend_lines
 (
 )
@@ -809,7 +809,7 @@ rend
 )
 ;
 }
-const_reverse_line_iterator
+ConstReverseLineIterator
 rbegin_lines
 (
 )
@@ -823,7 +823,7 @@ rbegin
 )
 ;
 }
-const_reverse_line_iterator
+ConstReverseLineIterator
 rend_lines
 (
 )
@@ -837,7 +837,7 @@ rend
 )
 ;
 }
-line_iterator
+LineIterator
 line
 (
 nsLineBox
@@ -854,7 +854,7 @@ aList
 )
 ;
 }
-reverse_line_iterator
+ReverseLineIterator
 rline
 (
 nsLineBox
@@ -4480,7 +4480,7 @@ ReflowLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -4533,7 +4533,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsFloatManager
 :
@@ -4668,7 +4668,7 @@ line
 void
 MarkLineDirty
 (
-line_iterator
+LineIterator
 aLine
 const
 nsLineList
@@ -4688,7 +4688,7 @@ IsLastLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 )
 ;
@@ -4779,7 +4779,7 @@ ReflowBlockFrame
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -4792,7 +4792,7 @@ ReflowInlineFrames
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -4808,7 +4808,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsFlowAreaRect
 &
@@ -4841,7 +4841,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsIFrame
 *
@@ -5192,7 +5192,7 @@ PushTruncatedLine
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 bool
 *
@@ -5208,7 +5208,7 @@ aState
 nsLineLayout
 &
 aLineLayout
-line_iterator
+LineIterator
 aLine
 nsIFrame
 *
@@ -5264,7 +5264,7 @@ PullFrame
 BlockReflowInput
 &
 aState
-line_iterator
+LineIterator
 aLine
 )
 ;
@@ -6209,8 +6209,8 @@ typedef
 nsBlockFrame
 :
 :
-line_iterator
-line_iterator
+LineIterator
+LineIterator
 ;
 /
 *
@@ -6247,7 +6247,7 @@ nsBlockInFlowLineIterator
 nsBlockFrame
 *
 aFrame
-line_iterator
+LineIterator
 aLine
 )
 ;
@@ -6411,7 +6411,7 @@ bool
 aFoundValidLine
 )
 ;
-line_iterator
+LineIterator
 GetLine
 (
 )
@@ -6510,7 +6510,7 @@ in
 .
 *
 /
-line_iterator
+LineIterator
 End
 (
 )
@@ -6616,7 +6616,7 @@ nsBlockInFlowLineIterator
 nsBlockFrame
 *
 aFrame
-line_iterator
+LineIterator
 aLine
 bool
 aInOverflow
@@ -6626,7 +6626,7 @@ nsBlockFrame
 *
 mFrame
 ;
-line_iterator
+LineIterator
 mLine
 ;
 nsLineList
