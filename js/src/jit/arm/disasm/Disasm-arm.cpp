@@ -14734,11 +14734,8 @@ instr
 break
 ;
 }
-/
-/
-else
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 0xB
 :

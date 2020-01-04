@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Casting
 .
 h
@@ -31025,9 +31034,9 @@ r1
 ReturnDoubleReg
 )
 ;
+}
 break
 ;
-}
 case
 MoveOp
 :
@@ -31061,9 +31070,9 @@ singleOverlay
 )
 )
 ;
+}
 break
 ;
-}
 case
 MoveOp
 :
