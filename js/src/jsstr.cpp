@@ -11430,8 +11430,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 HasSubstringAt
 (
 JSLinearString
