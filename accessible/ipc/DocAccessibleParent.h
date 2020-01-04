@@ -169,6 +169,9 @@ mozilla
 namespace
 a11y
 {
+class
+xpcAccessibleGeneric
+;
 /
 *
 *
@@ -966,6 +969,15 @@ CheckDocTree
 (
 )
 const
+;
+xpcAccessibleGeneric
+*
+GetXPCAccessible
+(
+ProxyAccessible
+*
+aProxy
+)
 ;
 nsTArray
 <
