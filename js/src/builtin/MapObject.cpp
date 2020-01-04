@@ -904,6 +904,12 @@ nullptr
 mayResolve
 *
 /
+nullptr
+/
+*
+convert
+*
+/
 MapIteratorObject
 :
 :
@@ -1725,6 +1731,10 @@ nullptr
 /
 /
 mayResolve
+nullptr
+/
+/
+convert
 finalize
 nullptr
 /
@@ -5492,6 +5502,12 @@ nullptr
 mayResolve
 *
 /
+nullptr
+/
+*
+convert
+*
+/
 SetIteratorObject
 :
 :
@@ -6419,6 +6435,10 @@ nullptr
 /
 /
 mayResolve
+nullptr
+/
+/
+convert
 finalize
 nullptr
 /

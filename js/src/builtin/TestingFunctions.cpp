@@ -6815,6 +6815,12 @@ nullptr
 mayResolve
 *
 /
+nullptr
+/
+*
+convert
+*
+/
 finalize_counter_finalize
 }
 ;
@@ -10929,6 +10935,12 @@ nullptr
 /
 *
 mayResolve
+*
+/
+nullptr
+/
+*
+convert
 *
 /
 Finalize

@@ -149,6 +149,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 JS_GlobalObjectTraceHook
 }
 ;

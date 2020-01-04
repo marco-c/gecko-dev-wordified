@@ -5621,6 +5621,12 @@ fun_mayResolve
 nullptr
 /
 *
+convert
+*
+/
+nullptr
+/
+*
 finalize
 *
 /
@@ -15523,6 +15529,14 @@ AllocKind
 FUNCTION
 *
 /
+NewObjectKind
+newKind
+/
+*
+=
+GenericObject
+*
+/
 )
 {
 GetterOp
@@ -15691,7 +15705,7 @@ JSFunction
 INTERPRETED_LAZY
 atom
 allocKind
-GenericObject
+newKind
 obj
 )
 ;
@@ -15711,6 +15725,7 @@ native
 nargs
 atom
 allocKind
+newKind
 )
 ;
 else
@@ -15723,6 +15738,7 @@ native
 nargs
 atom
 allocKind
+newKind
 )
 ;
 if

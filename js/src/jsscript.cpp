@@ -10135,6 +10135,12 @@ nullptr
 mayResolve
 *
 /
+nullptr
+/
+*
+convert
+*
+/
 finalize
 nullptr
 /

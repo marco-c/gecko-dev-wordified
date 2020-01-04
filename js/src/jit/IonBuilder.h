@@ -4418,11 +4418,6 @@ jsop_neg
 )
 ;
 bool
-jsop_tostring
-(
-)
-;
-bool
 jsop_setarg
 (
 uint32_t

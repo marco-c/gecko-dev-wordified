@@ -1657,9 +1657,13 @@ mayResolve
 nullptr
 /
 *
-finalize
+convert
 *
 /
+ModuleObject
+:
+:
+finalize
 nullptr
 /
 *

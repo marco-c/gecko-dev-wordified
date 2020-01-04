@@ -7163,6 +7163,12 @@ nullptr
 mayResolve
 *
 /
+nullptr
+/
+*
+convert
+*
+/
 AsmJSModuleObject_finalize
 nullptr
 /
