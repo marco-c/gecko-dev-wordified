@@ -114,10 +114,11 @@ Menu
 Toolbar
 Unsorted
 Tags
+Mobile
 const
 PLACES_ROOTS_COUNT
 =
-4
+5
 ;
 var
 tests

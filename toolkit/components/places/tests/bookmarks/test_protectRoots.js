@@ -51,6 +51,9 @@ tagsFolderId
 PlacesUtils
 .
 placesRootId
+PlacesUtils
+.
+mobileFolderId
 ]
 ;
 for

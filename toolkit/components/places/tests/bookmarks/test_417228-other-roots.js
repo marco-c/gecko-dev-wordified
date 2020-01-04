@@ -201,7 +201,7 @@ do_check_eq
 rootNode
 .
 childCount
-4
+5
 )
 ;
 /
@@ -247,7 +247,7 @@ do_check_eq
 rootNode
 .
 childCount
-5
+6
 )
 ;
 /
@@ -325,6 +325,9 @@ toolbarFolderId
 PlacesUtils
 .
 unfiledBookmarksFolderId
+PlacesUtils
+.
+mobileFolderId
 this
 .
 _folderId
@@ -432,7 +435,7 @@ do_check_eq
 rootNode
 .
 childCount
-6
+7
 )
 ;
 this
@@ -646,7 +649,7 @@ do_check_eq
 rootNode
 .
 childCount
-6
+7
 )
 ;
 var
