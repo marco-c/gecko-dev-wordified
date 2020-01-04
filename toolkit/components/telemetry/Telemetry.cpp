@@ -13635,6 +13635,7 @@ rv
 ;
 }
 }
+;
 StatisticsRecorder
 :
 :
@@ -21468,6 +21469,13 @@ if
 (
 !
 sTelemetry
+|
+|
+!
+sTelemetry
+-
+>
+mCanRecordExtended
 )
 return
 ;
