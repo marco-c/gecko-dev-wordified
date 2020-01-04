@@ -387,10 +387,6 @@ mContentParent
 aContentParent
 ;
 }
-static
-StaticMutex
-gProtocolMutex
-;
 IToplevelProtocol
 :
 :
@@ -414,12 +410,6 @@ IToplevelProtocol
 (
 )
 {
-StaticMutexAutoLock
-al
-(
-gProtocolMutex
-)
-;
 if
 (
 mTrans
