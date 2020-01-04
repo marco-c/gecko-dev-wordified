@@ -950,6 +950,7 @@ GetFontFileDataFailed
 MessageChannelCloseFailure
 TextureAliveAfterShutdown
 InvalidContext
+InvalidCommandList
 /
 /
 End
