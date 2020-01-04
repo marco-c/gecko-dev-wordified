@@ -1786,13 +1786,10 @@ setShowActionsInCompactView
 ;
 final
 boolean
-isMediaPlaying
+isPlaying
 =
-action
-.
-equals
+isMediaPlaying
 (
-ACTION_PAUSE
 )
 ;
 final
@@ -1894,7 +1891,7 @@ action
 .
 setOngoing
 (
-isMediaPlaying
+isPlaying
 )
 .
 setShowWhen
@@ -1918,7 +1915,7 @@ build
 ;
 if
 (
-isMediaPlaying
+isPlaying
 )
 {
 startForeground
