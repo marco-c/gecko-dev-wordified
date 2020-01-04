@@ -69,6 +69,10 @@ warnings
 import
 which
 from
+argparse
+import
+Namespace
+from
 mozbuild
 .
 base
@@ -369,6 +373,9 @@ s
 lstrip
 (
 )
+parser
+=
+None
 class
 ReftestRunner
 (
@@ -553,9 +560,7 @@ def
 _setup_objdir
 (
 self
-*
-*
-kwargs
+args
 )
 :
         
@@ -582,12 +587,9 @@ reftest_dir
         
 if
 not
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 :
             
 test_subdir
@@ -632,20 +634,14 @@ crashtest
             
 }
 [
-kwargs
-[
-'
+args
+.
 suite
-'
-]
 ]
             
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 =
 [
 test_subdir
@@ -804,13 +800,19 @@ crashtest
 "
 "
         
-if
+args
+=
+Namespace
+(
+*
+*
 kwargs
-[
-"
+)
+        
+if
+args
+.
 suite
-"
-]
 not
 in
 (
@@ -841,9 +843,7 @@ self
 .
 _setup_objdir
 (
-*
-*
-kwargs
+args
 )
         
 import
@@ -855,12 +855,9 @@ path
 in
 enumerate
 (
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 )
 :
             
@@ -926,12 +923,9 @@ topsrcdir
 )
 )
             
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 [
 i
 ]
@@ -993,42 +987,30 @@ s
 remote
 '
 %
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 b2g_home
 )
 )
         
-kwargs
-[
-"
+args
+.
 b2gPath
-"
-]
 =
 b2g_home
         
-kwargs
-[
-"
+args
+.
 logdir
-"
-]
 =
 self
 .
 reftest_dir
         
-kwargs
-[
-"
+args
+.
 httpdPath
-"
-]
 =
 os
 .
@@ -1050,21 +1032,15 @@ httpserver
 '
 )
         
-kwargs
-[
-"
+args
+.
 xrePath
-"
-]
 =
 xre_path
         
-kwargs
-[
-"
+args
+.
 ignoreWindowSize
-"
-]
 =
 True
         
@@ -1084,12 +1060,9 @@ in
 automation
         
 if
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 =
 =
 '
@@ -1097,23 +1070,19 @@ reftest
 '
 :
             
-kwargs
-[
-"
+args
+.
 oop
-"
-]
 =
 True
         
 return
 runreftestb2g
 .
-run
+run_test_harness
 (
-*
-*
-kwargs
+parser
+args
 )
     
 def
@@ -1138,13 +1107,20 @@ reftest
 "
 "
         
-self
-.
-_setup_objdir
+args
+=
+Namespace
 (
 *
 *
 kwargs
+)
+        
+self
+.
+_setup_objdir
+(
+args
 )
         
 import
@@ -1187,12 +1163,9 @@ return
         
 if
 not
-kwargs
-[
-"
+args
+.
 profile
-"
-]
 :
             
 gaia_profile
@@ -1221,12 +1194,9 @@ GAIA_PROFILE_NOT_FOUND
 return
 1
             
-kwargs
-[
-"
+args
+.
 profile
-"
-]
 =
 gaia_profile
         
@@ -1243,12 +1213,9 @@ path
 .
 join
 (
-kwargs
-[
-"
+args
+.
 profile
-"
-]
 '
 extensions
 '
@@ -1267,23 +1234,17 @@ print
 (
 GAIA_PROFILE_IS_DEBUG
 %
-kwargs
-[
-"
+args
+.
 profile
-"
-]
 )
             
 return
 1
         
-kwargs
-[
-'
+args
+.
 app
-'
-]
 =
 self
 .
@@ -1291,39 +1252,27 @@ get_binary_path
 (
 )
         
-kwargs
-[
-'
+args
+.
 mulet
-'
-]
 =
 True
         
-kwargs
-[
-'
+args
+.
 oop
-'
-]
 =
 True
         
 if
-kwargs
-[
-'
+args
+.
 oop
-'
-]
 :
             
-kwargs
-[
-'
+args
+.
 browser_arg
-'
-]
 =
 '
 -
@@ -1332,12 +1281,9 @@ oop
         
 if
 not
-kwargs
-[
-'
+args
+.
 app
-'
-]
 .
 endswith
 (
@@ -1348,12 +1294,9 @@ bin
 )
 :
             
-kwargs
-[
-'
+args
+.
 app
-'
-]
 =
 '
 %
@@ -1362,12 +1305,9 @@ s
 bin
 '
 %
-kwargs
-[
-'
+args
+.
 app
-'
-]
         
 if
 not
@@ -1377,28 +1317,19 @@ path
 .
 isfile
 (
-kwargs
-[
-'
+args
+.
 app
-'
-]
 )
 :
             
-kwargs
-[
-'
+args
+.
 app
-'
-]
 =
-kwargs
-[
-'
+args
+.
 app
-'
-]
 [
 :
 -
@@ -1414,11 +1345,10 @@ bin
 return
 runreftestmulet
 .
-run
+run_test_harness
 (
-*
-*
-kwargs
+parser
+args
 )
     
 def
@@ -1448,13 +1378,19 @@ Firefox
 import
 runreftest
         
-if
+args
+=
+Namespace
+(
+*
+*
 kwargs
-[
-"
+)
+        
+if
+args
+.
 suite
-"
-]
 not
 in
 (
@@ -1562,12 +1498,9 @@ list
         
 }
         
-kwargs
-[
-"
+args
+.
 extraProfileFiles
-"
-]
 .
 append
 (
@@ -1589,12 +1522,9 @@ plugins
 )
 )
         
-kwargs
-[
-"
+args
+.
 symbolsPath
-"
-]
 =
 os
 .
@@ -1614,20 +1544,14 @@ symbols
         
 if
 not
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 =
 [
 os
@@ -1639,23 +1563,17 @@ join
 *
 default_manifest
 [
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 ]
 )
 ]
         
 if
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 =
 =
 "
@@ -1663,12 +1581,9 @@ jstestbrowser
 "
 :
             
-kwargs
-[
-"
+args
+.
 extraProfileFiles
-"
-]
 .
 append
 (
@@ -1720,11 +1635,10 @@ rv
 =
 runreftest
 .
-run
+run_test_harness
 (
-*
-*
-kwargs
+parser
+args
 )
         
 finally
@@ -1766,13 +1680,19 @@ Android
 "
 "
         
-if
+args
+=
+Namespace
+(
+*
+*
 kwargs
-[
-"
+)
+        
+if
+args
+.
 suite
-"
-]
 not
 in
 (
@@ -1803,14 +1723,12 @@ type
 )
         
 if
-"
-ipc
-"
-in
-kwargs
-.
-keys
+hasattr
 (
+args
+'
+ipc
+'
 )
 :
             
@@ -1832,9 +1750,7 @@ self
 .
 _setup_objdir
 (
-*
-*
-kwargs
+args
 )
         
 import
@@ -1908,20 +1824,14 @@ list
         
 if
 not
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 =
 [
 os
@@ -1933,22 +1843,16 @@ join
 *
 default_manifest
 [
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 ]
 )
 ]
         
-kwargs
-[
-"
+args
+.
 extraProfileFiles
-"
-]
 .
 append
 (
@@ -2026,12 +1930,9 @@ dic
 )
 :
                     
-kwargs
-[
-"
+args
+.
 extraProfileFiles
-"
-]
 .
 append
 (
@@ -2048,20 +1949,14 @@ filename
         
 if
 not
-kwargs
-[
-"
+args
+.
 httpdPath
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 httpdPath
-"
-]
 =
 os
 .
@@ -2079,20 +1974,14 @@ modules
         
 if
 not
-kwargs
-[
-"
+args
+.
 symbolsPath
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 symbolsPath
-"
-]
 =
 os
 .
@@ -2112,20 +2001,14 @@ symbols
         
 if
 not
-kwargs
-[
-"
+args
+.
 xrePath
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 xrePath
-"
-]
 =
 os
 .
@@ -2140,20 +2023,14 @@ MOZ_HOST_BIN
         
 if
 not
-kwargs
-[
-"
+args
+.
 app
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 app
-"
-]
 =
 self
 .
@@ -2166,54 +2043,36 @@ ANDROID_PACKAGE_NAME
         
 if
 not
-kwargs
-[
-"
+args
+.
 utilityPath
-"
-]
 :
             
-kwargs
-[
-"
+args
+.
 utilityPath
-"
-]
 =
-kwargs
-[
-"
+args
+.
 xrePath
-"
-]
         
-kwargs
-[
-"
+args
+.
 dm_trans
-"
-]
 =
 "
 adb
 "
         
-kwargs
-[
-"
+args
+.
 ignoreWindowSize
-"
-]
 =
 True
         
-kwargs
-[
-"
+args
+.
 printDeviceInfo
-"
-]
 =
 False
         
@@ -2268,12 +2127,9 @@ path
 .
         
 if
-kwargs
-[
-"
+args
+.
 suite
-"
-]
 =
 =
 "
@@ -2341,12 +2197,9 @@ staged_js_dir
 tests
 )
             
-kwargs
-[
-"
+args
+.
 extraProfileFiles
-"
-]
 .
 append
 (
@@ -2415,12 +2268,9 @@ path
 in
 enumerate
 (
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 )
 :
                 
@@ -2486,12 +2336,9 @@ topsrcdir
 )
 )
                 
-kwargs
-[
-"
+args
+.
 tests
-"
-]
 [
 i
 ]
@@ -2654,6 +2501,9 @@ get_parser
 )
 :
     
+global
+parser
+    
 here
 =
 os
@@ -2692,7 +2542,8 @@ build_obj
 )
 :
         
-return
+parser
+=
 reftestcommandline
 .
 RemoteArgumentsParser
@@ -2708,7 +2559,8 @@ build_obj
 )
 :
         
-return
+parser
+=
 reftestcommandline
 .
 B2GArgumentParser
@@ -2718,12 +2570,16 @@ B2GArgumentParser
 else
 :
         
-return
+parser
+=
 reftestcommandline
 .
 DesktopArgumentsParser
 (
 )
+    
+return
+parser
 CommandProvider
 class
 MachCommands
@@ -3342,9 +3198,7 @@ is_emulator
              
 parser
 =
-reftestcommandline
-.
-B2GArgumentParser
+get_parser
 )
     
 def
@@ -3423,9 +3277,7 @@ is_emulator
              
 parser
 =
-reftestcommandline
-.
-B2GArgumentParser
+get_parser
 )
     
 def
