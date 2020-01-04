@@ -312,8 +312,7 @@ CompileError
 /
 TypeError
 /
-wasm
-validation
+compile
 error
 /
 )
@@ -343,8 +342,7 @@ CompileError
 /
 TypeError
 /
-wasm
-validation
+compile
 error
 /
 )

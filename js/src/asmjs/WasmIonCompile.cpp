@@ -540,9 +540,6 @@ mg
 )
 iter_
 (
-IonCompilePolicy
-(
-)
 decoder
 )
 func_
