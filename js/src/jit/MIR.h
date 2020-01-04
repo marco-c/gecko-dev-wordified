@@ -62238,7 +62238,12 @@ const
 override
 {
 return
-true
+IsFloatingPointType
+(
+type
+(
+)
+)
 ;
 }
 bool
