@@ -64,6 +64,7 @@ marionette
 import
 BrowserMobProxyTestCaseMixin
 MarionetteTestCase
+Marionette
 from
 marionette_driver
 import
@@ -325,9 +326,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -425,9 +426,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
@@ -526,9 +527,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -644,9 +645,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -976,9 +977,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -1133,9 +1134,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -1288,9 +1289,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -1711,9 +1712,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
@@ -1806,9 +1807,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
                 
@@ -1895,9 +1896,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                 
@@ -2012,9 +2013,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
@@ -2132,9 +2133,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
@@ -2361,9 +2362,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
@@ -2540,9 +2541,9 @@ marionette
 .
 using_context
 (
-'
-chrome
-'
+Marionette
+.
+CONTEXT_CHROME
 )
 :
             
