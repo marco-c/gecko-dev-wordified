@@ -1238,6 +1238,10 @@ mType
 (
 aType
 )
+mHandledByAPZ
+(
+false
+)
 {
 }
 MultiTouchInput
@@ -1247,6 +1251,10 @@ MultiTouchInput
 InputData
 (
 MULTITOUCH_INPUT
+)
+mHandledByAPZ
+(
+false
 )
 {
 }
@@ -1276,6 +1284,12 @@ mType
 aOther
 .
 mType
+)
+mHandledByAPZ
+(
+aOther
+.
+mHandledByAPZ
 )
 {
 mTouches
@@ -1458,6 +1472,9 @@ nsTArray
 SingleTouchData
 >
 mTouches
+;
+bool
+mHandledByAPZ
 ;
 }
 ;

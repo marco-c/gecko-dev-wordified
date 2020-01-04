@@ -1211,6 +1211,8 @@ for
 /
 /
 wheel
+and
+touch
 events
 .
 bool

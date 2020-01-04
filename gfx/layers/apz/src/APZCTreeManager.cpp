@@ -5399,6 +5399,12 @@ AsMultiTouchInput
 (
 )
 ;
+touchInput
+.
+mHandledByAPZ
+=
+true
+;
 result
 =
 ProcessTouchInput
