@@ -206,7 +206,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -1401,7 +1403,7 @@ aBufSize
 )
 const
 {
-PR_snprintf
+snprintf_literal
 (
 aBuf
 aBufSize
