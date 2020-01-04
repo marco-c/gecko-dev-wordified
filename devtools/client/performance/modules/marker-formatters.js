@@ -536,6 +536,9 @@ label
 }
 ;
 }
+return
+null
+;
 }
 /
 *
@@ -824,6 +827,9 @@ label
 }
 ;
 }
+return
+null
+;
 }
 GCLabel
 :
@@ -901,8 +907,6 @@ nonIncremental
 )
 ;
 }
-else
-{
 return
 L10N
 .
@@ -919,7 +923,6 @@ incremental
 "
 )
 ;
-}
 }
 GCFields
 :
@@ -1239,6 +1242,9 @@ label
 }
 ;
 }
+return
+null
+;
 }
 MessagePortFields
 :
@@ -1295,6 +1301,9 @@ label
 }
 ;
 }
+return
+null
+;
 }
 /
 *

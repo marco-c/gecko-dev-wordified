@@ -66,6 +66,9 @@ exports
 Constants
 =
 {
+/
+/
+ms
 FRAMERATE_GRAPH_LOW_RES_INTERVAL
 :
 100
@@ -75,8 +78,5 @@ ms
 FRAMERATE_GRAPH_HIGH_RES_INTERVAL
 :
 16
-/
-/
-ms
 }
 ;

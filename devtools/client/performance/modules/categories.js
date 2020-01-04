@@ -373,6 +373,18 @@ const
 CATEGORY_MAPPINGS
 =
 {
+/
+/
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 "
 16
 "
@@ -392,7 +404,7 @@ ProfileEntry
 Category
 :
 :
-OTHER
+CSS
 "
 32
 "
@@ -412,7 +424,7 @@ ProfileEntry
 Category
 :
 :
-CSS
+JS
 "
 64
 "
@@ -432,7 +444,7 @@ ProfileEntry
 Category
 :
 :
-JS
+GC
 "
 128
 "
@@ -452,7 +464,7 @@ ProfileEntry
 Category
 :
 :
-GC
+CC
 "
 256
 "
@@ -472,7 +484,7 @@ ProfileEntry
 Category
 :
 :
-CC
+NETWORK
 "
 512
 "
@@ -492,7 +504,7 @@ ProfileEntry
 Category
 :
 :
-NETWORK
+GRAPHICS
 "
 1024
 "
@@ -512,7 +524,7 @@ ProfileEntry
 Category
 :
 :
-GRAPHICS
+STORAGE
 "
 2048
 "
@@ -532,7 +544,7 @@ ProfileEntry
 Category
 :
 :
-STORAGE
+EVENTS
 "
 4096
 "
@@ -541,18 +553,6 @@ CATEGORIES
 [
 7
 ]
-/
-/
-js
-:
-:
-ProfileEntry
-:
-:
-Category
-:
-:
-EVENTS
 /
 /
 non
@@ -861,8 +861,6 @@ name
 )
 ;
 }
-else
-{
 return
 bitmasksForCategory
 [
@@ -874,7 +872,6 @@ index
 1
 ]
 ;
-}
 }
 }
 function

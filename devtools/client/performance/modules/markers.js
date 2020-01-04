@@ -84,7 +84,6 @@ global
 const
 {
 Formatters
-labelForProperty
 }
 =
 require
