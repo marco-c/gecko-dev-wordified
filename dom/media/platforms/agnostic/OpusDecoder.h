@@ -169,7 +169,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -293,9 +293,10 @@ AudioInfo
 &
 mInfo
 ;
+const
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
