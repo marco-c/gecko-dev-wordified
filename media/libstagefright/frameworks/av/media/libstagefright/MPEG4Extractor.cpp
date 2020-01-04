@@ -2188,6 +2188,8 @@ sinf
 next
 ;
 delete
+[
+]
 sinf
 -
 >
