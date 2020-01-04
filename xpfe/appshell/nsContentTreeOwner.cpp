@@ -6283,7 +6283,7 @@ docshell
 docshell
 -
 >
-GetIsInBrowserOrApp
+GetIsInMozBrowserOrApp
 (
 )
 &

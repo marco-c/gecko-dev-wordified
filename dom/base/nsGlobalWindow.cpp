@@ -22373,7 +22373,7 @@ if
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -23185,7 +23185,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsInBrowserOrApp
+GetIsInMozBrowserOrApp
 (
 )
 )
@@ -39931,7 +39931,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -40192,7 +40192,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -45323,7 +45323,7 @@ IsFrame
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsMozBrowserOrApp
 (
 )
 )
@@ -48408,7 +48408,7 @@ mDocShell
 mDocShell
 -
 >
-GetIsBrowserOrApp
+GetIsMozBrowserOrApp
 (
 )
 )

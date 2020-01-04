@@ -219,7 +219,7 @@ docShell
 &
 docShell
 .
-isBrowserOrApp
+isMozBrowserOrApp
 )
 {
 return
