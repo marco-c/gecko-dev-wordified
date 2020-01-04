@@ -384,6 +384,8 @@ removetrack
 )
 bool
 mPendingTextTrackChange
+=
+false
 ;
 private
 :
