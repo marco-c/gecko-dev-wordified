@@ -161,8 +161,8 @@ js
 namespace
 jit
 {
+DefaultJitOptions
 JitOptions
-js_JitOptions
 ;
 static
 void
@@ -458,10 +458,10 @@ JIT_OPTION_
 var
 dflt
 )
-JitOptions
+DefaultJitOptions
 :
 :
-JitOptions
+DefaultJitOptions
 (
 )
 {
@@ -1255,7 +1255,7 @@ false
 ;
 }
 bool
-JitOptions
+DefaultJitOptions
 :
 :
 isSmallFunction
@@ -1279,7 +1279,7 @@ smallFunctionMaxBytecodeLength_
 ;
 }
 void
-JitOptions
+DefaultJitOptions
 :
 :
 enableGvn
@@ -1295,7 +1295,7 @@ enable
 ;
 }
 void
-JitOptions
+DefaultJitOptions
 :
 :
 setEagerCompilation
@@ -1325,7 +1325,7 @@ emplace
 ;
 }
 void
-JitOptions
+DefaultJitOptions
 :
 :
 setCompilerWarmUpThreshold
@@ -1366,7 +1366,7 @@ warmUpThreshold
 jit
 :
 :
-JitOptions
+DefaultJitOptions
 defaultValues
 ;
 eagerCompilation
@@ -1382,7 +1382,7 @@ baselineWarmUpThreshold
 }
 }
 void
-JitOptions
+DefaultJitOptions
 :
 :
 resetCompilerWarmUpThreshold
@@ -1408,7 +1408,7 @@ eagerCompilation
 jit
 :
 :
-JitOptions
+DefaultJitOptions
 defaultValues
 ;
 eagerCompilation

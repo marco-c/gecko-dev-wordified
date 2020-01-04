@@ -844,7 +844,7 @@ CHECK_OSIPOINT_REGISTERS
 /
 /
 See
-js_JitOptions
+JitOptions
 .
 checkOsiPointRegisters
 .

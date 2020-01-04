@@ -295,7 +295,7 @@ Nothing
 ;
 }
 struct
-JitOptions
+DefaultJitOptions
 {
 bool
 checkGraphConsistency
@@ -427,7 +427,7 @@ JIT
 bool
 disableUnboxedObjects
 ;
-JitOptions
+DefaultJitOptions
 (
 )
 ;
@@ -467,8 +467,8 @@ val
 }
 ;
 extern
+DefaultJitOptions
 JitOptions
-js_JitOptions
 ;
 }
 /

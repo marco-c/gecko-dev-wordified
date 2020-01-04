@@ -752,7 +752,7 @@ inlineInterpreted_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableInlining
 ;
@@ -768,7 +768,7 @@ inlineNative_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableInlining
 ;
@@ -798,7 +798,7 @@ eagerSimdUnbox_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableEagerSimdUnbox
 ;
@@ -814,7 +814,7 @@ gvn_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableGvn
 ;
@@ -830,7 +830,7 @@ licm_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableLicm
 ;
@@ -846,7 +846,7 @@ rangeAnalysis_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableRangeAnalysis
 ;
@@ -862,7 +862,7 @@ loopUnrolling_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableLoopUnrolling
 ;
@@ -878,7 +878,7 @@ reordering_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableInstructionReordering
 ;
@@ -909,7 +909,7 @@ sincos_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableSincos
 ;
@@ -925,7 +925,7 @@ sink_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableSink
 ;
@@ -941,7 +941,7 @@ eaa_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableEaa
 ;
@@ -957,7 +957,7 @@ ama_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableAma
 ;
@@ -973,7 +973,7 @@ edgeCaseAnalysis_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableEdgeCaseAnalysis
 ;
@@ -996,7 +996,7 @@ const
 {
 if
 (
-js_JitOptions
+JitOptions
 .
 forcedRegisterAllocator
 .
@@ -1005,7 +1005,7 @@ isSome
 )
 )
 return
-js_JitOptions
+JitOptions
 .
 forcedRegisterAllocator
 .
@@ -1028,7 +1028,7 @@ scalarReplacement_
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 disableScalarReplacement
 ;
@@ -1076,7 +1076,7 @@ offThread
 |
 |
 !
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 )
@@ -1129,7 +1129,7 @@ compilerWarmUpThreshold_
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .
@@ -1139,7 +1139,7 @@ isSome
 )
 compilerWarmUpThreshold
 =
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .

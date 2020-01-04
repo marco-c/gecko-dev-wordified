@@ -13777,7 +13777,7 @@ if
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableUnboxedObjects
 )

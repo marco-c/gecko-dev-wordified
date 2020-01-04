@@ -1014,7 +1014,7 @@ nargs
 return
 nargs
 >
-js_JitOptions
+JitOptions
 .
 maxStackArgs
 ;

@@ -6692,7 +6692,7 @@ invalidations
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 disablePgo
 &

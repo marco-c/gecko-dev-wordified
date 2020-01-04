@@ -439,7 +439,7 @@ compilerWarmUpThreshold_
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .
@@ -449,7 +449,7 @@ isSome
 )
 warmUpThreshold
 =
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .
@@ -569,7 +569,7 @@ if
 pc
 |
 |
-js_JitOptions
+JitOptions
 .
 eagerCompilation
 )

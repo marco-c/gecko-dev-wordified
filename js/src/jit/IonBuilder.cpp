@@ -15750,7 +15750,7 @@ body
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 )
@@ -32123,7 +32123,7 @@ cache
 .
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )
@@ -35327,7 +35327,7 @@ maxInlineDepth
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 isSmallFunction
 (
@@ -48142,7 +48142,7 @@ cache
 .
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )
@@ -80296,7 +80296,7 @@ cache
 .
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )

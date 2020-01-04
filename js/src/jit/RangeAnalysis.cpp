@@ -12994,7 +12994,7 @@ place
 .
 MOZ_ASSERT
 (
-js_JitOptions
+JitOptions
 .
 maxStackArgs
 <
@@ -13018,7 +13018,7 @@ NewUInt32Range
 (
 alloc
 0
-js_JitOptions
+JitOptions
 .
 maxStackArgs
 )
@@ -17019,7 +17019,7 @@ addRangeAssertions
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 checkRangeAnalysis
 )

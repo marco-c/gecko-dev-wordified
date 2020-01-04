@@ -17009,7 +17009,7 @@ InliningStatus_NotInlined
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 checkRangeAnalysis
 )

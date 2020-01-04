@@ -2047,7 +2047,7 @@ incWarmUpCounter
 )
 <
 =
-js_JitOptions
+JitOptions
 .
 baselineWarmUpThreshold
 )

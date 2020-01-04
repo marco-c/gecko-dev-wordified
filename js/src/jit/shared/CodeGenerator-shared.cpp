@@ -457,7 +457,7 @@ ifdef
 CHECK_OSIPOINT_REGISTERS
 checkOsiPointRegisters
 (
-js_JitOptions
+JitOptions
 .
 checkOsiPointRegisters
 )

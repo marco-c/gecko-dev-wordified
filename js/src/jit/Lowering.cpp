@@ -3846,7 +3846,7 @@ MIRType_Value
 &
 &
 !
-js_JitOptions
+JitOptions
 .
 eagerCompilation
 )

@@ -8408,7 +8408,7 @@ forceInlineCaches
 return
 MOZ_UNLIKELY
 (
-js_JitOptions
+JitOptions
 .
 forceInlineCaches
 )

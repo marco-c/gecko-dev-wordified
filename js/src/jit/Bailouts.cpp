@@ -2252,7 +2252,7 @@ numBailouts
 )
 >
 =
-js_JitOptions
+JitOptions
 .
 frequentBailoutThreshold
 )

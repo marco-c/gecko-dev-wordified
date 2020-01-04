@@ -2211,7 +2211,7 @@ ifdef
 DEBUG
 if
 (
-js_JitOptions
+JitOptions
 .
 runExtraChecks
 &
