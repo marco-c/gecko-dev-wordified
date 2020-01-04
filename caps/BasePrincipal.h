@@ -1701,6 +1701,16 @@ final
 ;
 virtual
 bool
+AddonHasPermission
+(
+const
+nsAString
+&
+aPerm
+)
+;
+virtual
+bool
 IsOnCSSUnprefixingWhitelist
 (
 )
