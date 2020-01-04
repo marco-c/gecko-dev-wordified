@@ -1579,9 +1579,6 @@ return
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 mozilla
@@ -2739,9 +2736,6 @@ NotifyAll
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 mozilla
@@ -3003,9 +2997,6 @@ aCall
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 mozilla
@@ -3094,9 +3085,6 @@ mGLController
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 [
@@ -6921,7 +6909,9 @@ resize
 nsAppShell
 :
 :
-gAppShell
+Get
+(
+)
 -
 >
 ResendLastResizeEvent
@@ -13324,9 +13314,6 @@ window
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 [
@@ -14535,9 +14522,6 @@ true
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 [
