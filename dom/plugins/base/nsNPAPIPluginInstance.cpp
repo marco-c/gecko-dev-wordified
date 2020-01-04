@@ -587,6 +587,9 @@ if
 sPluginContext
 )
 {
+nsCString
+failureId
+;
 sPluginContext
 =
 GLContextProvider
@@ -598,6 +601,7 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
+failureId
 )
 ;
 }

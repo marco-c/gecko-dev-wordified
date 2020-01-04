@@ -3070,6 +3070,8 @@ CreateOffscreen
 dummySize
 caps
 flags
+*
+out_failureId
 )
 ;
 if
@@ -3212,6 +3214,8 @@ CreateOffscreen
 dummySize
 caps
 flags
+*
+out_failureId
 )
 ;
 if
@@ -3442,6 +3446,8 @@ CreateOffscreen
 dummySize
 caps
 flags
+*
+out_failureId
 )
 ;
 if
