@@ -214,8 +214,6 @@ const
 OptimizationInfo
 *
 optimizationInfo
-bool
-usesSignalHandlersForAsmJSOOB
 )
 :
 compartment
@@ -303,10 +301,14 @@ ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
 )
 usesSignalHandlersForAsmJSOOB_
 (
-usesSignalHandlersForAsmJSOOB
+false
 )
 #
 endif
+minAsmJSHeapLength_
+(
+0
+)
 options
 (
 options
