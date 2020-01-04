@@ -1047,6 +1047,13 @@ false
 ;
 #
 else
+PlatformDecoderModule
+:
+:
+Init
+(
+)
+;
 nsRefPtr
 <
 PlatformDecoderModule
