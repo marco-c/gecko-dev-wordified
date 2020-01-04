@@ -94,6 +94,17 @@ null
 "
 console
 .
+log
+(
+'
+\
+u9f2c
+'
+)
+"
+"
+console
+.
 clear
 (
 )
