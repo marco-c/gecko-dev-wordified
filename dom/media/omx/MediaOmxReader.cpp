@@ -642,16 +642,6 @@ mOmxReader
 >
 NotifyDataArrived
 (
-Interval
-<
-int64_t
->
-(
-mOffset
-mOffset
-+
-length
-)
 )
 ;
 mLength

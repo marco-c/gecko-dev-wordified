@@ -1984,10 +1984,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-1
-mReportedOffset
-+
-+
 /
 *
 aThrottleUpdates
@@ -2989,10 +2985,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-1
-mReportedOffset
-+
-+
 /
 *
 aThrottleUpdates

@@ -3053,14 +3053,6 @@ mCallback
 >
 NotifyDataArrived
 (
-aCount
-closure
--
->
-mResource
--
->
-mOffset
 /
 *
 aThrottleUpdates
