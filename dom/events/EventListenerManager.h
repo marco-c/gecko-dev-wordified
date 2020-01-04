@@ -577,7 +577,7 @@ flags
 }
 inline
 EventListenerFlags
-AllEventsAtBubbe
+AllEventsAtBubble
 (
 )
 {
