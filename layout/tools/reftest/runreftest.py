@@ -4975,6 +4975,15 @@ use_marionette
 marionette_args
 =
 {
+                
+'
+socket_timeout
+'
+:
+options
+.
+marionette_socket_timeout
+                
 '
 symbols_path
 '
@@ -4982,6 +4991,7 @@ symbols_path
 options
 .
 symbolsPath
+            
 }
             
 if
@@ -5038,6 +5048,11 @@ marionette
 .
 start_session
 (
+timeout
+=
+options
+.
+marionette_port_timeout
 )
             
 addons
