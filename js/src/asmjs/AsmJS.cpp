@@ -44910,6 +44910,13 @@ JSFunction
 :
 INTERPRETED
 name
+/
+*
+proto
+=
+*
+/
+nullptr
 gc
 :
 :
@@ -51137,6 +51144,13 @@ JSFunction
 :
 INTERPRETED_NORMAL
 name
+/
+*
+proto
+=
+*
+/
+nullptr
 gc
 :
 :

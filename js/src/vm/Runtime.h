@@ -5947,6 +5947,16 @@ nargs
 js
 :
 :
+HandleObject
+proto
+js
+:
+:
+NewObjectKind
+newKind
+js
+:
+:
 MutableHandleFunction
 fun
 )
