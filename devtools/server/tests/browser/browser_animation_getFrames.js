@@ -273,9 +273,10 @@ API
 unmodified
 .
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

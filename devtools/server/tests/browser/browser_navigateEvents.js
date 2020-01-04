@@ -1143,6 +1143,10 @@ client
 .
 close
 (
+)
+.
+then
+(
 function
 (
 )

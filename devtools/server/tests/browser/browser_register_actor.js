@@ -243,6 +243,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 (
 )
 =

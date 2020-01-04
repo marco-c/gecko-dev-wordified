@@ -337,9 +337,10 @@ destroy
 )
 ;
 yield
-closeDebuggerClient
-(
 client2
+.
+close
+(
 )
 ;
 ok
@@ -373,9 +374,10 @@ destroy
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 ok

@@ -398,9 +398,10 @@ pmmClearFrameScripts
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

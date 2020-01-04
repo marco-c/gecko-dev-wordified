@@ -443,6 +443,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 gCallback
 )
 ;

@@ -1079,6 +1079,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 finish
 )
 ;

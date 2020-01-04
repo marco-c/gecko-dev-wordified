@@ -285,6 +285,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 do_test_finished
 )
 ;

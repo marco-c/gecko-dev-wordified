@@ -450,6 +450,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 gCallback
 )
 ;

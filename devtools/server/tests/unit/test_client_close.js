@@ -199,6 +199,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 function
 (
 )

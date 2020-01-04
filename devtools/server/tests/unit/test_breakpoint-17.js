@@ -663,6 +663,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 gCallback
 )
 ;

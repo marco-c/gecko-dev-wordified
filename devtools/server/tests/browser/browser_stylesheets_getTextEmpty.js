@@ -314,9 +314,10 @@ empty
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 }
