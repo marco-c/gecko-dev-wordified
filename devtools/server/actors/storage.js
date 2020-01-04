@@ -5357,10 +5357,10 @@ remove
 origHost
 origName
 origPath
+false
 cookie
 .
 originAttributes
-false
 )
 ;
 break
@@ -5588,10 +5588,10 @@ name
 cookie
 .
 path
+false
 cookie
 .
 originAttributes
-false
 )
 ;
 }
