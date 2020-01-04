@@ -1646,6 +1646,13 @@ typedef
 mozilla
 :
 :
+LayoutDeviceIntRegion
+LayoutDeviceIntRegion
+;
+typedef
+mozilla
+:
+:
 LayoutDeviceIntSize
 LayoutDeviceIntSize
 ;
@@ -7477,7 +7484,7 @@ DrawWindowOverlay
 LayerManagerComposite
 *
 aManager
-nsIntRect
+LayoutDeviceIntRect
 aRect
 )
 =
@@ -9111,7 +9118,7 @@ virtual
 bool
 ShowsResizeIndicator
 (
-nsIntRect
+LayoutDeviceIntRect
 *
 aResizerRect
 )
