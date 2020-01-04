@@ -872,7 +872,9 @@ uri
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 dupes
 )

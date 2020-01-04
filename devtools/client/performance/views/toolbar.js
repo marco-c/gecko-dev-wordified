@@ -94,7 +94,6 @@ js
 *
 globals
 document
-Iterator
 *
 /
 "
@@ -478,7 +477,9 @@ markerName
 markerDetails
 ]
 of
-Iterator
+Object
+.
+entries
 (
 TIMELINE_BLUEPRINT
 )

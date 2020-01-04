@@ -90,12 +90,6 @@ view
 js
 *
 /
-/
-*
-globals
-Iterator
-*
-/
 "
 use
 strict
@@ -2155,7 +2149,9 @@ graphName
 requirements
 ]
 of
-Iterator
+Object
+.
+entries
 (
 GRAPH_REQUIREMENTS
 )
