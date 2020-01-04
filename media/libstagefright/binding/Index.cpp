@@ -1348,18 +1348,11 @@ uint32_t
 aTrackId
 bool
 aIsAudio
-Monitor
-*
-aMonitor
 )
 :
 mSource
 (
 aSource
-)
-mMonitor
-(
-aMonitor
 )
 {
 if
@@ -1379,7 +1372,6 @@ MoofParser
 aSource
 aTrackId
 aIsAudio
-aMonitor
 )
 ;
 }
