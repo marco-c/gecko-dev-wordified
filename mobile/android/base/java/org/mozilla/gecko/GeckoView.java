@@ -2565,10 +2565,6 @@ SELECTED
 )
 ;
 }
-geckoConnected
-(
-)
-;
 GeckoAppShell
 .
 sendEventToGecko

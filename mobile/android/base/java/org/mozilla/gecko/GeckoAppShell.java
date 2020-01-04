@@ -9380,6 +9380,7 @@ return
 sScreenDepth
 ;
 }
+WrapForJNI
 public
 static
 synchronized
