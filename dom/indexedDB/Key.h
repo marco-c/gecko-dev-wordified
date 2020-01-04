@@ -1021,9 +1021,11 @@ static
 int16_t
 CompareKeys
 (
+const
 Key
 &
 aFirst
+const
 Key
 &
 aSecond
