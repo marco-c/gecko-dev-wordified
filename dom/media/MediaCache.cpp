@@ -4414,13 +4414,6 @@ MediaCache
 (
 )
 ;
-if
-(
-!
-gMediaCache
-)
-return
-;
 nsresult
 rv
 =

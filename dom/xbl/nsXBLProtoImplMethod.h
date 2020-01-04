@@ -360,13 +360,6 @@ aText
 if
 (
 !
-param
-)
-return
-;
-if
-(
-!
 mParameters
 )
 mParameters
