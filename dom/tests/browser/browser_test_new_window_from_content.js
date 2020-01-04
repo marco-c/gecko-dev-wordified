@@ -492,7 +492,7 @@ false
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
