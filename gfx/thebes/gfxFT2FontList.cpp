@@ -7091,9 +7091,7 @@ AgeAllGenerations
 (
 )
 ;
-mPrefFonts
-.
-Clear
+ClearLangGroupPrefFonts
 (
 )
 ;
