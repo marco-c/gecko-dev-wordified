@@ -225,6 +225,11 @@ TextPanel
 createClass
 (
 {
+displayName
+:
+"
+TextPanel
+"
 propTypes
 :
 {
@@ -239,11 +244,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-TextPanel
-"
 getInitialState
 :
 function
@@ -345,6 +345,11 @@ createFactory
 createClass
 (
 {
+displayName
+:
+"
+TextToolbar
+"
 propTypes
 :
 {
@@ -354,11 +359,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-TextToolbar
-"
 /
 /
 Commands

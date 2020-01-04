@@ -299,6 +299,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+MainToolbar
+"
 propTypes
 :
 {
@@ -317,11 +322,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-MainToolbar
-"
 onRefresh
 :
 function

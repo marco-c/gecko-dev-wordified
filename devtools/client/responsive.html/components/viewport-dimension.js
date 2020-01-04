@@ -118,6 +118,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+ViewportDimension
+"
 propTypes
 :
 {
@@ -148,11 +153,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-ViewportDimension
-"
 getInitialState
 (
 )

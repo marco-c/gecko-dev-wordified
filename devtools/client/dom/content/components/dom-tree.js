@@ -320,6 +320,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+DomTree
+"
 propTypes
 :
 {
@@ -346,11 +351,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-DomTree
-"
 /
 *
 *

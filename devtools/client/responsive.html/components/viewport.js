@@ -140,6 +140,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+Viewport
+"
 propTypes
 :
 {
@@ -229,11 +234,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-Viewport
-"
 onChangeViewportDevice
 (
 device

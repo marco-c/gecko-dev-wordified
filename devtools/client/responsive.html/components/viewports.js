@@ -121,6 +121,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+Viewports
+"
 propTypes
 :
 {
@@ -215,11 +220,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-Viewports
-"
 render
 (
 )

@@ -239,6 +239,11 @@ page
 .
 *
 /
+displayName
+:
+"
+Browser
+"
 propTypes
 :
 {
@@ -264,11 +269,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-Browser
-"
 mixins
 :
 [

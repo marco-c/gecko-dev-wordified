@@ -160,6 +160,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Toolbar
+"
 propTypes
 :
 {
@@ -185,11 +190,6 @@ element
 ]
 )
 }
-displayName
-:
-"
-Toolbar
-"
 render
 :
 function
@@ -241,6 +241,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+ToolbarButton
+"
 propTypes
 :
 {
@@ -266,11 +271,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-ToolbarButton
-"
 render
 :
 function
