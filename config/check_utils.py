@@ -102,6 +102,11 @@ repository
 '
 '
     
+failed_cmds
+=
+[
+]
+    
 try
 :
         
@@ -152,7 +157,12 @@ all_filenames
 except
 :
         
-pass
+failed_cmds
+.
+append
+(
+cmd
+)
     
 try
 :
@@ -272,7 +282,12 @@ all_filenames
 except
 :
         
-pass
+failed_cmds
+.
+append
+(
+cmd
+)
     
 raise
 Exception
@@ -288,5 +303,5 @@ repo
 manifest
 commands
 '
-cmds
+failed_cmds
 )
