@@ -301,6 +301,13 @@ vixl
 .
 h
 "
+#
+include
+<
+ctype
+.
+h
+>
 namespace
 vixl
 {
