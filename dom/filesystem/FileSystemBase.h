@@ -627,7 +627,7 @@ methods
 are
 used
 in
-FileSystemTaskBase
+FileSystemTaskChildBase
 .
 virtual
 bool
@@ -745,7 +745,7 @@ the
 validation
 of
 any
-FileSystemTaskBase
+FileSystemTaskChildBase
 .
 /
 /

@@ -302,6 +302,13 @@ __________________________________
 |
 *
 |
+|
+|
+|
+|
+|
+*
+|
 V
 |
 IPC
@@ -314,7 +321,7 @@ on
 |
 [
 new
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 )
 ]
@@ -659,6 +666,7 @@ SetRequestResult
 -
 -
 -
+-
 [
 GetRequestResult
 ]
@@ -699,11 +707,11 @@ IPC
 |
 _______
 |
-______________________
+_________________________
 |
 |
 |
-__________________________________
+_________________________________
 |
 *
 |
@@ -761,7 +769,7 @@ The
 base
 constructor
 [
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 )
 ]
@@ -770,6 +778,7 @@ the
 task
 should
 be
+*
 called
 .
 *
@@ -777,7 +786,7 @@ called
 2
 )
 The
-FileSystemTaskBase
+FileSystemTaskChildBase
 object
 is
 given
@@ -1092,13 +1101,14 @@ are
 the
 *
 same
-FileSystemTaskBase
+FileSystemTaskChildBase
 can
 handle
 the
 error
 message
 without
+*
 interfering
 .
 *
@@ -1187,7 +1197,7 @@ page
 *
 /
 class
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 public
 PFileSystemRequestChild
@@ -1196,7 +1206,7 @@ public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 )
 /
 *
@@ -1407,7 +1417,7 @@ request
 *
 /
 explicit
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 FileSystemBase
 *
@@ -1416,7 +1426,7 @@ aFileSystem
 ;
 virtual
 ~
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 )
 ;
@@ -1667,10 +1677,12 @@ alter
 ego
 '
 of
-FileSystemTaskBase
+FileSystemTaskChildBase
 in
 the
 PBackground
+/
+/
 world
 .
 class

@@ -3046,7 +3046,7 @@ RefPtr
 dom
 :
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 >
 child
 =
@@ -3057,7 +3057,7 @@ static_cast
 dom
 :
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 *
 >
 (

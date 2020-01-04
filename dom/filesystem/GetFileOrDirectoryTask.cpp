@@ -241,7 +241,7 @@ dom
 *
 *
 *
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 *
 /
 /
@@ -251,9 +251,9 @@ static
 /
 already_AddRefed
 <
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 >
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 Create
@@ -298,12 +298,12 @@ aFileSystem
 ;
 RefPtr
 <
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 >
 task
 =
 new
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 (
 aFileSystem
 aTargetPath
@@ -400,10 +400,10 @@ forget
 )
 ;
 }
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 (
 FileSystemBase
 *
@@ -420,7 +420,7 @@ bool
 aDirectoryOnly
 )
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 aFileSystem
 )
@@ -458,11 +458,11 @@ aFileSystem
 )
 ;
 }
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 ~
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 (
 )
 {
@@ -478,7 +478,7 @@ already_AddRefed
 <
 Promise
 >
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 GetPromise
@@ -515,7 +515,7 @@ forget
 ;
 }
 FileSystemParams
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 GetRequestParams
@@ -592,7 +592,7 @@ eDOMRootDirectory
 ;
 }
 void
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 SetSuccessRequestResult
@@ -759,7 +759,7 @@ break
 }
 }
 void
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 HandlerCallback
@@ -901,7 +901,7 @@ nullptr
 ;
 }
 void
-GetFileOrDirectoryTask
+GetFileOrDirectoryTaskChild
 :
 :
 GetPermissionAccessType

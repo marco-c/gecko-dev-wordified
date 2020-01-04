@@ -323,7 +323,7 @@ dom
 *
 *
 *
-CreateFileTask
+CreateFileTaskChild
 *
 /
 /
@@ -333,9 +333,9 @@ static
 /
 already_AddRefed
 <
-CreateFileTask
+CreateFileTaskChild
 >
-CreateFileTask
+CreateFileTaskChild
 :
 :
 Create
@@ -384,12 +384,12 @@ aFileSystem
 ;
 RefPtr
 <
-CreateFileTask
+CreateFileTaskChild
 >
 task
 =
 new
-CreateFileTask
+CreateFileTaskChild
 (
 aFileSystem
 aTargetPath
@@ -513,10 +513,10 @@ forget
 )
 ;
 }
-CreateFileTask
+CreateFileTaskChild
 :
 :
-CreateFileTask
+CreateFileTaskChild
 (
 FileSystemBase
 *
@@ -528,7 +528,7 @@ bool
 aReplace
 )
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 aFileSystem
 )
@@ -562,11 +562,11 @@ aFileSystem
 )
 ;
 }
-CreateFileTask
+CreateFileTaskChild
 :
 :
 ~
-CreateFileTask
+CreateFileTaskChild
 (
 )
 {
@@ -582,7 +582,7 @@ already_AddRefed
 <
 Promise
 >
-CreateFileTask
+CreateFileTaskChild
 :
 :
 GetPromise
@@ -619,7 +619,7 @@ forget
 ;
 }
 FileSystemParams
-CreateFileTask
+CreateFileTaskChild
 :
 :
 GetRequestParams
@@ -820,7 +820,7 @@ param
 ;
 }
 void
-CreateFileTask
+CreateFileTaskChild
 :
 :
 SetSuccessRequestResult
@@ -899,7 +899,7 @@ return
 }
 }
 void
-CreateFileTask
+CreateFileTaskChild
 :
 :
 HandlerCallback
@@ -994,7 +994,7 @@ nullptr
 ;
 }
 void
-CreateFileTask
+CreateFileTaskChild
 :
 :
 GetPermissionAccessType

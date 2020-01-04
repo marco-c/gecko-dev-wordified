@@ -395,10 +395,10 @@ FileSystemTaskBase
 class
 *
 /
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 FileSystemBase
 *
@@ -443,11 +443,11 @@ null
 )
 ;
 }
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 ~
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 )
 {
@@ -461,7 +461,7 @@ AssertIsOnOwningThread
 }
 FileSystemBase
 *
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 GetFileSystem
@@ -485,7 +485,7 @@ get
 ;
 }
 void
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 Start
@@ -516,7 +516,7 @@ NS_NewRunnableMethod
 (
 this
 &
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 HandlerCallback
@@ -692,7 +692,7 @@ params
 ;
 }
 void
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 SetRequestResult
@@ -761,7 +761,7 @@ StealNSResult
 }
 }
 bool
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 Recv__delete__
@@ -793,7 +793,7 @@ true
 ;
 }
 void
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 :
 SetError

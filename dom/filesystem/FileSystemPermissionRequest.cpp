@@ -221,7 +221,7 @@ FileSystemPermissionRequest
 :
 RequestForTask
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 *
 aTask
 )
@@ -269,7 +269,7 @@ FileSystemPermissionRequest
 :
 FileSystemPermissionRequest
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 *
 aTask
 )

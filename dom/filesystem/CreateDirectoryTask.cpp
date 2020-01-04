@@ -215,7 +215,7 @@ dom
 *
 *
 *
-CreateDirectoryTask
+CreateDirectoryTaskChild
 *
 /
 /
@@ -225,9 +225,9 @@ static
 /
 already_AddRefed
 <
-CreateDirectoryTask
+CreateDirectoryTaskChild
 >
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 Create
@@ -265,12 +265,12 @@ aFileSystem
 ;
 RefPtr
 <
-CreateDirectoryTask
+CreateDirectoryTaskChild
 >
 task
 =
 new
-CreateDirectoryTask
+CreateDirectoryTaskChild
 (
 aFileSystem
 aTargetPath
@@ -365,10 +365,10 @@ forget
 )
 ;
 }
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
-CreateDirectoryTask
+CreateDirectoryTaskChild
 (
 FileSystemBase
 *
@@ -378,7 +378,7 @@ nsIFile
 aTargetPath
 )
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 aFileSystem
 )
@@ -408,11 +408,11 @@ aFileSystem
 )
 ;
 }
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 ~
-CreateDirectoryTask
+CreateDirectoryTaskChild
 (
 )
 {
@@ -428,7 +428,7 @@ already_AddRefed
 <
 Promise
 >
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 GetPromise
@@ -465,7 +465,7 @@ forget
 ;
 }
 FileSystemParams
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 GetRequestParams
@@ -535,7 +535,7 @@ path
 ;
 }
 void
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 SetSuccessRequestResult
@@ -605,7 +605,7 @@ Failed
 ;
 }
 void
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 HandlerCallback
@@ -710,7 +710,7 @@ nullptr
 ;
 }
 void
-CreateDirectoryTask
+CreateDirectoryTaskChild
 :
 :
 GetPermissionAccessType
