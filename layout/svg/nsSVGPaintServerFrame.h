@@ -181,15 +181,11 @@ nsStyleContext
 struct
 gfxRect
 ;
-typedef
-nsSVGContainerFrame
-nsSVGPaintServerFrameBase
-;
 class
 nsSVGPaintServerFrame
 :
 public
-nsSVGPaintServerFrameBase
+nsSVGContainerFrame
 {
 protected
 :
@@ -211,7 +207,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGPaintServerFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
@@ -369,7 +365,7 @@ const
 override
 {
 return
-nsSVGPaintServerFrameBase
+nsSVGContainerFrame
 :
 :
 IsFrameOfType
