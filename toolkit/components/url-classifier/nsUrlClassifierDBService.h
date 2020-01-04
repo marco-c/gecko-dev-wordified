@@ -295,6 +295,15 @@ ProtocolParser
 class
 TableUpdate
 ;
+nsresult
+TablesToResponse
+(
+const
+nsACString
+&
+tables
+)
+;
 }
 /
 /
