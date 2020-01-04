@@ -7808,6 +7808,12 @@ ZealIncrementalMarkingValidator
 ;
 const
 int
+ZealElementsBarrier
+=
+12
+;
+const
+int
 ZealCheckHashTablesOnMinorGC
 =
 13
