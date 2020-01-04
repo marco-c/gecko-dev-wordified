@@ -960,9 +960,6 @@ nsAString
 >
 &
 aProtocol
-nsACString
-&
-aNegotiatedExtensions
 ErrorResult
 &
 aRv
@@ -1004,7 +1001,6 @@ conn
 HandleAcceptWebSocket
 (
 aProtocol
-aNegotiatedExtensions
 aRv
 )
 ;
@@ -4282,9 +4278,6 @@ nsAString
 >
 &
 aProtocol
-nsACString
-&
-aNegotiatedExtensions
 ErrorResult
 &
 aRv
@@ -4543,6 +4536,7 @@ aRv
 ;
 nsAutoCString
 extensions
+negotiatedExtensions
 ;
 mPendingWebSocketRequest
 -
@@ -4577,13 +4571,13 @@ net
 ProcessServerWebSocketExtensions
 (
 extensions
-aNegotiatedExtensions
+negotiatedExtensions
 )
 ;
 if
 (
 !
-aNegotiatedExtensions
+negotiatedExtensions
 .
 IsEmpty
 (
@@ -4605,7 +4599,7 @@ WebSocket
 Extensions
 "
 )
-aNegotiatedExtensions
+negotiatedExtensions
 aRv
 )
 ;

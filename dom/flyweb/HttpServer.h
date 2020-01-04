@@ -345,9 +345,6 @@ nsAString
 >
 &
 aProtocol
-nsACString
-&
-aNegotiatedExtensions
 ErrorResult
 &
 aRv
@@ -526,9 +523,6 @@ nsAString
 >
 &
 aProtocol
-nsACString
-&
-aNegotiatedExtensions
 ErrorResult
 &
 aRv
