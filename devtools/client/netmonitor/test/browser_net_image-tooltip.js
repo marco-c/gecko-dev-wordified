@@ -362,12 +362,12 @@ is
 (
 tooltip
 .
-content
+panel
 .
 querySelector
 (
 "
-image
+img
 "
 )
 .
