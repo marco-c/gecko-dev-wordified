@@ -1192,11 +1192,6 @@ testMany
 args
 )
 {
-"
-use
-strict
-"
-;
 for
 (
 var
@@ -1269,6 +1264,10 @@ pass
 "
 args
 )
+.
+toString
+(
+)
 "
 pass
 "
@@ -1305,6 +1304,10 @@ testMany
 pass
 "
 args
+)
+.
+toString
+(
 )
 "
 pass

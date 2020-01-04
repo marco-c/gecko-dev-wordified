@@ -9,8 +9,7 @@ arguments
 is
 strict
 if
-the
-body
+arrow
 is
 strict
 load
@@ -33,6 +32,11 @@ assertThrowsInstanceOf
 Function
 (
 "
+'
+use
+strict
+'
+;
 (
 a
 =
@@ -54,11 +58,6 @@ f
 =
 >
 {
-'
-use
-strict
-'
-;
 }
 "
 )
@@ -74,6 +73,11 @@ assertThrowsInstanceOf
 Function
 (
 "
+'
+use
+strict
+'
+;
 (
 a
 =
@@ -94,11 +98,6 @@ f
 =
 >
 {
-'
-use
-strict
-'
-;
 }
 "
 )
