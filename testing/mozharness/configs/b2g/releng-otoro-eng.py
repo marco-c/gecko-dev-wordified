@@ -69,6 +69,17 @@ upload
 upload
 '
         
+#
+bug
+1222227
+-
+temporarily
+disable
+for
+S3
+migration
+        
+#
 '
 make
 -
@@ -77,6 +88,7 @@ socorro
 json
 '
         
+#
 '
 upload
 -
@@ -369,11 +381,17 @@ upload_remote_host
 "
 :
 "
-stage
+upload
 .
-mozilla
+ffxbld
 .
-org
+productdelivery
+.
+prod
+.
+mozaws
+.
+net
 "
             
 "
