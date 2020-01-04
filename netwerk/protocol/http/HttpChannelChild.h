@@ -1042,12 +1042,6 @@ nsInputStreamPump
 >
 mSynthesizedResponsePump
 ;
-nsAutoPtr
-<
-nsHttpResponseHead
->
-mSynthesizedResponseHead
-;
 nsCOMPtr
 <
 nsIInputStream
