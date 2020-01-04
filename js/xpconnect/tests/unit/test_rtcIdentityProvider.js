@@ -218,7 +218,7 @@ sb
 .
 rtcIdentityProvider
 .
-idp
+hasIdp
 )
 ;
 Cu
@@ -240,7 +240,7 @@ ok
 (
 rtcIdentityProvider
 .
-idp
+hasIdp
 )
 ;
 }
