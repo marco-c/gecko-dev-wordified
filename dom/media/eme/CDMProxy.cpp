@@ -215,9 +215,7 @@ h
 #
 include
 "
-mozilla
-/
-CDMCallbackProxy
+GMPCDMCallbackProxy
 .
 h
 "
@@ -764,7 +762,7 @@ aCDM
 mCallback
 =
 new
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 this
 )

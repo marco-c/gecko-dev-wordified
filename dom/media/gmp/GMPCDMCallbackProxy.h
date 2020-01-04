@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-CDMCallbackProxy_h_
+GMPCDMCallbackProxy_h_
 #
 define
-CDMCallbackProxy_h_
+GMPCDMCallbackProxy_h_
 #
 include
 "
@@ -173,7 +173,7 @@ main
 thread
 .
 class
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 public
 GMPDecryptorProxyCallback
@@ -326,7 +326,7 @@ Terminated
 override
 ;
 ~
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 )
 {
@@ -338,7 +338,7 @@ class
 CDMProxy
 ;
 explicit
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 CDMProxy
 *
@@ -367,4 +367,4 @@ mozilla
 endif
 /
 /
-CDMCallbackProxy_h_
+GMPCDMCallbackProxy_h_
