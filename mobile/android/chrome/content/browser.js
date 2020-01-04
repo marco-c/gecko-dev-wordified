@@ -43081,6 +43081,14 @@ scrollChange
 id
 )
 ;
+if
+(
+!
+AppConstants
+.
+MOZ_ANDROID_APZ
+)
+{
 let
 win
 =
@@ -43104,6 +43112,7 @@ scrollChange
 y
 )
 ;
+}
 }
 }
 /
