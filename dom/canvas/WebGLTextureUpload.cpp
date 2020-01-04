@@ -13129,7 +13129,7 @@ funcName
 ]
 =
 "
-CopyTexImage2D
+copyTexImage2D
 "
 ;
 /
