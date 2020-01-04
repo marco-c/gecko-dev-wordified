@@ -10352,13 +10352,6 @@ intermediateResult
 ;
 loser
 :
-if
-(
-buffer
-!
-=
-NULL
-)
 PORT_ZFree
 (
 buffer

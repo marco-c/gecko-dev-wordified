@@ -3684,11 +3684,6 @@ db
 if
 (
 dbsp
-)
-{
-if
-(
-dbsp
 -
 >
 blobdir
@@ -3708,7 +3703,6 @@ PORT_Free
 dbsp
 )
 ;
-}
 return
 NULL
 ;

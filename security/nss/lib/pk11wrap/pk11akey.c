@@ -5762,15 +5762,6 @@ length
 -
 ;
 }
-if
-(
-theTemplate
-.
-pValue
-!
-=
-NULL
-)
 PORT_Free
 (
 theTemplate

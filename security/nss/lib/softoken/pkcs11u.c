@@ -4921,6 +4921,15 @@ SFTKObjectFreeList
 list
 )
 {
+if
+(
+!
+list
+-
+>
+lock
+)
+{
 list
 -
 >
@@ -4931,6 +4940,7 @@ PZ_NewLock
 nssILockObject
 )
 ;
+}
 }
 void
 sftk_InitFreeLists
@@ -10443,11 +10453,6 @@ object
 ;
 loser
 :
-if
-(
-object
-)
-{
 (
 void
 )
@@ -10456,7 +10461,6 @@ sftk_DestroyObject
 object
 )
 ;
-}
 return
 NULL
 ;

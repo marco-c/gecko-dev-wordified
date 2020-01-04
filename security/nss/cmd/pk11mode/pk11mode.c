@@ -4079,10 +4079,6 @@ goto
 cleanup
 ;
 }
-if
-(
-pSlotList
-)
 free
 (
 pSlotList
@@ -12336,10 +12332,6 @@ n
 "
 )
 ;
-if
-(
-pSlotList
-)
 free
 (
 pSlotList

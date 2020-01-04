@@ -964,17 +964,11 @@ gcm
 ;
 loser
 :
-if
-(
-gcm
-)
-{
 PORT_Free
 (
 gcm
 )
 ;
-}
 return
 NULL
 ;

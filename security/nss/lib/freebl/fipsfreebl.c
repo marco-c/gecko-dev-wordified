@@ -9030,14 +9030,6 @@ key
 arena
 *
 /
-if
-(
-ecdsa_private_key
-!
-=
-NULL
-)
-{
 PORT_FreeArena
 (
 ecdsa_private_key
@@ -9049,7 +9041,6 @@ arena
 PR_FALSE
 )
 ;
-}
 if
 (
 ecdsaStatus

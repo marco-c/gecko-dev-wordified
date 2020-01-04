@@ -7191,11 +7191,6 @@ crv
 CKR_FUNCTION_NOT_SUPPORTED
 ;
 }
-if
-(
-ck_id
-)
-{
 SECITEM_FreeItem
 (
 ck_id
@@ -7206,7 +7201,6 @@ ck_id
 =
 NULL
 ;
-}
 if
 (
 crv

@@ -3848,11 +3848,6 @@ slotName
 )
 )
 {
-if
-(
-tmpSlot
-)
-{
 PK11_AddSlotToList
 (
 slotList
@@ -3864,7 +3859,6 @@ slotcount
 +
 +
 ;
-}
 }
 }
 }
