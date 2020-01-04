@@ -630,12 +630,6 @@ xpcshell
 '
     
 '
-tools
-/
-mercurial
-'
-    
-'
 xpcom
 /
 idl
