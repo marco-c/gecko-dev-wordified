@@ -978,9 +978,11 @@ inherited
 from
 root
 .
+MOZ_INIT_OUTSIDE_CTOR
 T
 mNativeValue
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsDefined
 ;
@@ -1006,9 +1008,11 @@ derived
 classes
 )
 .
+MOZ_INIT_OUTSIDE_CTOR
 T
 mRootNativeValue
 ;
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsRootDefined
 ;
