@@ -269,16 +269,6 @@ R
 xml
 .
 searchable
-R
-.
-xml
-.
-sync_authenticator
-R
-.
-xml
-.
-sync_syncadapter
 }
 ;
 public
