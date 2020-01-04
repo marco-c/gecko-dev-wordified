@@ -752,6 +752,27 @@ self
 )
 :
         
+weeks
+=
+52
+        
+if
+self
+.
+buildbot
+=
+=
+'
+buildbot
+-
+try
+'
+:
+            
+weeks
+=
+3
+        
 return
 datetime
 .
@@ -763,7 +784,7 @@ timedelta
 (
 weeks
 =
-52
+weeks
 )
     
 def
