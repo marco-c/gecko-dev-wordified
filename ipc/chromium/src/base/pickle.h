@@ -2244,7 +2244,7 @@ successful
 resizing
 )
 .
-bool
+void
 Resize
 (
 uint32_t
