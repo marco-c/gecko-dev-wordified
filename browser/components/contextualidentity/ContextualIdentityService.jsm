@@ -257,7 +257,7 @@ userContextId
 icon
 :
 "
-chome
+chrome
 :
 /
 /
