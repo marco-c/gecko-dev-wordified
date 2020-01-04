@@ -9002,6 +9002,8 @@ AbstractFramePtr
 frame
 MutableHandleValue
 vp
+bool
+callHook
 )
 {
 vp
@@ -9020,7 +9022,7 @@ handleUncaughtException
 (
 ac
 vp
-true
+callHook
 thisVForCheck
 frame
 )
@@ -9079,7 +9081,7 @@ handleUncaughtException
 (
 ac
 vp
-true
+callHook
 thisVForCheck
 frame
 )
@@ -9120,6 +9122,8 @@ jsbytecode
 pc
 MutableHandleValue
 vp
+bool
+callHook
 )
 {
 JSContext
@@ -9254,6 +9258,7 @@ rv
 thisArg
 frame
 vp
+callHook
 )
 ;
 }
@@ -9283,6 +9288,8 @@ AbstractFramePtr
 frame
 MutableHandleValue
 vp
+bool
+callHook
 )
 {
 JSContext
@@ -9338,6 +9345,7 @@ rv
 thisArg
 frame
 vp
+callHook
 )
 ;
 }
@@ -11291,6 +11299,7 @@ pc
 (
 )
 vp
+true
 )
 ;
 if
