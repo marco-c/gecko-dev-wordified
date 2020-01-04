@@ -2586,6 +2586,8 @@ cloning
 CryptoKey
 *
 key
+=
+nullptr
 ;
 if
 (
@@ -2639,6 +2641,8 @@ cloning
 RTCCertificate
 *
 cert
+=
+nullptr
 ;
 if
 (
@@ -2757,6 +2761,8 @@ MOZ_NFC
 MozNDEFRecord
 *
 ndefRecord
+=
+nullptr
 ;
 if
 (
