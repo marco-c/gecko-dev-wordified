@@ -12086,7 +12086,7 @@ index
 ]
 -
 >
-Suspend
+ParentWindowPaused
 (
 )
 ;
@@ -12151,7 +12151,7 @@ index
 ]
 -
 >
-Resume
+ParentWindowResumed
 (
 )
 ;
