@@ -1285,6 +1285,7 @@ rv
 BuildPrimitives
 (
 aFilterChain
+aTargetFrame
 )
 ;
 if
@@ -1544,6 +1545,9 @@ nsStyleFilter
 >
 &
 aFilterChain
+nsIFrame
+*
+aTargetFrame
 )
 {
 NS_ASSERTION
@@ -1594,6 +1598,7 @@ aFilterChain
 [
 i
 ]
+aTargetFrame
 )
 ;
 if
@@ -1630,6 +1635,9 @@ const
 nsStyleFilter
 &
 aFilter
+nsIFrame
+*
+aTargetFrame
 )
 {
 NS_ASSERTION
@@ -1687,6 +1695,7 @@ nsSVGFilterInstance
 svgFilterInstance
 (
 aFilter
+aTargetFrame
 mTargetContent
 mMetrics
 mTargetBBox

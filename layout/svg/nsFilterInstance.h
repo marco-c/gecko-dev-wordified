@@ -1672,6 +1672,9 @@ nsStyleFilter
 >
 &
 aFilterChain
+nsIFrame
+*
+aTargetFrame
 )
 ;
 /
@@ -1711,6 +1714,9 @@ const
 nsStyleFilter
 &
 aFilter
+nsIFrame
+*
+aTargetFrame
 )
 ;
 /
