@@ -8460,7 +8460,7 @@ TouchPointerState
 &
 aPointerState
 const
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 const
@@ -8531,7 +8531,7 @@ TabParent
 RecvSynthesizeNativeTouchTap
 (
 const
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 const

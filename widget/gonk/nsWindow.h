@@ -459,7 +459,7 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure

@@ -1656,6 +1656,13 @@ mozilla
 LayoutDeviceIntSize
 LayoutDeviceIntSize
 ;
+typedef
+mozilla
+:
+:
+ScreenIntPoint
+ScreenIntPoint
+;
 /
 /
 Used
@@ -10186,7 +10193,7 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure
@@ -10278,7 +10285,7 @@ virtual
 nsresult
 SynthesizeNativeTouchTap
 (
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 bool
 aLongTap
@@ -10501,7 +10508,7 @@ LongTapInfo
 (
 int32_t
 aPointerId
-nsIntPoint
+ScreenIntPoint
 &
 aPoint
 mozilla
@@ -10547,7 +10554,7 @@ Now
 int32_t
 mPointerId
 ;
-nsIntPoint
+ScreenIntPoint
 mPosition
 ;
 mozilla

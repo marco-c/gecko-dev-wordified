@@ -576,7 +576,7 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure
@@ -644,7 +644,7 @@ InjectTouchPoint
 (
 uint32_t
 aId
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 POINTER_FLAGS
@@ -668,7 +668,7 @@ PointerInfo
 (
 int32_t
 aPointerId
-nsIntPoint
+ScreenIntPoint
 &
 aPoint
 )
@@ -686,7 +686,7 @@ aPoint
 int32_t
 mPointerId
 ;
-nsIntPoint
+ScreenIntPoint
 mPosition
 ;
 }
