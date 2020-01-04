@@ -53717,6 +53717,9 @@ principalToAllowFocusFor
 &
 &
 allowFocusCheckbox
+&
+&
+allowFocusCheckbox
 .
 checked
 )
