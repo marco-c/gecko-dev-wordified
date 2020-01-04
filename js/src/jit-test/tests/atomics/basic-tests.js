@@ -2792,10 +2792,10 @@ all
 /
 supported
 platforms
-though
-this
+only
+the
+last
 is
-not
 guaranteed
 by
 the
