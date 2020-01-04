@@ -740,6 +740,7 @@ string
 &
 log
 )
+;
 void
 Clear
 (
