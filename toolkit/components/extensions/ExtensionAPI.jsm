@@ -321,7 +321,7 @@ let
 addonId
 =
 {
-apiName
+api
 }
 experiments
 .
