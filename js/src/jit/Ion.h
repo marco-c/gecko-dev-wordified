@@ -302,6 +302,10 @@ TempAllocator
 temp
 )
 ;
+JitContext
+(
+)
+;
 ~
 JitContext
 (
