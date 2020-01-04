@@ -3626,11 +3626,16 @@ setNeedSideEffect
 (
 )
 ;
+masm
+.
+propagateOOM
+(
 snapshots_
 .
 add
 (
 alloc
+)
 )
 ;
 *

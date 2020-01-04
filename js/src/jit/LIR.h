@@ -5414,6 +5414,7 @@ MBasicBlock
 block
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -6449,6 +6450,7 @@ operands_
 ;
 public
 :
+MOZ_MUST_USE
 bool
 init
 (
@@ -6628,6 +6630,7 @@ TempAllocator
 alloc
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -6659,6 +6662,7 @@ the
 current
 instruction
 .
+MOZ_MUST_USE
 bool
 appendOperands
 (
@@ -6667,6 +6671,7 @@ MNode
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 appendDefinition
 (
@@ -6675,6 +6680,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 appendResumePoint
 (
@@ -7117,6 +7123,7 @@ BailoutKind
 kind
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -8138,6 +8145,7 @@ return
 gcRegs_
 ;
 }
+MOZ_MUST_USE
 bool
 addGcSlot
 (
@@ -8222,6 +8230,7 @@ assertInvariants
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addSlotsOrElementsSlot
 (
@@ -8257,6 +8266,7 @@ return
 result
 ;
 }
+MOZ_MUST_USE
 bool
 addSlotsOrElementsPointer
 (
@@ -8414,6 +8424,7 @@ return
 false
 ;
 }
+MOZ_MUST_USE
 bool
 addGcPointer
 (
@@ -8575,6 +8586,7 @@ return
 false
 ;
 }
+MOZ_MUST_USE
 bool
 addValueSlot
 (
@@ -8684,6 +8696,7 @@ false
 #
 ifdef
 JS_NUNBOX32
+MOZ_MUST_USE
 bool
 addNunboxParts
 (
@@ -8722,6 +8735,7 @@ return
 result
 ;
 }
+MOZ_MUST_USE
 bool
 addNunboxType
 (
@@ -8855,6 +8869,7 @@ return
 result
 ;
 }
+MOZ_MUST_USE
 bool
 addNunboxPayload
 (
@@ -9240,6 +9255,7 @@ return
 valueRegs_
 ;
 }
+MOZ_MUST_USE
 bool
 addBoxedValue
 (
@@ -9946,6 +9962,7 @@ MIRGraph
 mir
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -10031,6 +10048,7 @@ numBlockIds
 )
 ;
 }
+MOZ_MUST_USE
 bool
 initBlock
 (
@@ -10345,6 +10363,7 @@ argumentsSize
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addConstantToPool
 (

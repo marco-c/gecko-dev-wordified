@@ -126,6 +126,15 @@ Code
 Motion
 optimization
 pass
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 js
 {
@@ -138,6 +147,7 @@ MIRGenerator
 class
 MIRGraph
 ;
+MOZ_MUST_USE
 bool
 LICM
 (

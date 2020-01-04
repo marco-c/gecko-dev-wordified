@@ -308,6 +308,7 @@ the
 original
 LUses
 .
+MOZ_MUST_USE
 bool
 record
 (
@@ -363,6 +364,7 @@ with
 liveness
 information
 .
+MOZ_MUST_USE
 bool
 check
 (
@@ -848,6 +850,7 @@ IntegrityItemSet
 IntegrityItemSet
 seen
 ;
+MOZ_MUST_USE
 bool
 checkIntegrity
 (
@@ -865,6 +868,7 @@ bool
 populateSafepoints
 )
 ;
+MOZ_MUST_USE
 bool
 checkSafepointAllocation
 (
@@ -879,6 +883,7 @@ bool
 populateSafepoints
 )
 ;
+MOZ_MUST_USE
 bool
 addPredecessor
 (
@@ -1416,6 +1421,7 @@ insData_
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -1808,6 +1814,7 @@ FramePointer
 ;
 }
 }
+MOZ_MUST_USE
 bool
 init
 (

@@ -4335,6 +4335,7 @@ setReturnOverride
 }
 }
 ;
+MOZ_MUST_USE
 bool
 InvokeFunction
 (
@@ -4354,6 +4355,7 @@ MutableHandleValue
 rval
 )
 ;
+MOZ_MUST_USE
 bool
 InvokeFunctionShuffleNewTarget
 (
@@ -4407,6 +4409,7 @@ HandleObject
 scopeChain
 )
 ;
+MOZ_MUST_USE
 bool
 DefVar
 (
@@ -4421,6 +4424,7 @@ HandleObject
 scopeChain
 )
 ;
+MOZ_MUST_USE
 bool
 DefLexical
 (
@@ -4435,6 +4439,7 @@ HandleObject
 scopeChain
 )
 ;
+MOZ_MUST_USE
 bool
 DefGlobalLexical
 (
@@ -4447,6 +4452,7 @@ unsigned
 attrs
 )
 ;
+MOZ_MUST_USE
 bool
 MutatePrototype
 (
@@ -4459,6 +4465,7 @@ HandleValue
 value
 )
 ;
+MOZ_MUST_USE
 bool
 InitProp
 (
@@ -4596,6 +4603,7 @@ bool
 res
 )
 ;
+MOZ_MUST_USE
 bool
 ArrayPopDense
 (
@@ -4608,6 +4616,7 @@ MutableHandleValue
 rval
 )
 ;
+MOZ_MUST_USE
 bool
 ArrayPushDense
 (
@@ -4623,6 +4632,7 @@ uint32_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 ArrayShiftDense
 (
@@ -4648,6 +4658,7 @@ HandleString
 sep
 )
 ;
+MOZ_MUST_USE
 bool
 CharCodeAt
 (
@@ -4674,6 +4685,7 @@ int32_t
 code
 )
 ;
+MOZ_MUST_USE
 bool
 SetProperty
 (
@@ -4693,6 +4705,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 InterruptCheck
 (
@@ -4781,6 +4794,7 @@ bool
 out
 )
 ;
+MOZ_MUST_USE
 bool
 GetIntrinsicValue
 (
@@ -4793,6 +4807,7 @@ MutableHandleValue
 rval
 )
 ;
+MOZ_MUST_USE
 bool
 CreateThis
 (
@@ -4867,6 +4882,7 @@ JSString
 str
 )
 ;
+MOZ_MUST_USE
 bool
 DebugPrologue
 (
@@ -4884,6 +4900,7 @@ bool
 mustReturn
 )
 ;
+MOZ_MUST_USE
 bool
 DebugEpilogue
 (
@@ -4900,6 +4917,7 @@ bool
 ok
 )
 ;
+MOZ_MUST_USE
 bool
 DebugEpilogueOnBaselineReturn
 (
@@ -4934,6 +4952,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 NormalSuspend
 (
@@ -4952,6 +4971,7 @@ uint32_t
 stackDepth
 )
 ;
+MOZ_MUST_USE
 bool
 FinalSuspend
 (
@@ -4968,6 +4988,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 InterpretResume
 (
@@ -4984,6 +5005,7 @@ MutableHandleValue
 rval
 )
 ;
+MOZ_MUST_USE
 bool
 DebugAfterYield
 (
@@ -4995,6 +5017,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 GeneratorThrowOrClose
 (
@@ -5016,6 +5039,7 @@ uint32_t
 resumeKind
 )
 ;
+MOZ_MUST_USE
 bool
 GlobalNameConflictsCheckFromIon
 (
@@ -5026,6 +5050,7 @@ HandleScript
 script
 )
 ;
+MOZ_MUST_USE
 bool
 InitGlobalOrEvalScopeObjects
 (
@@ -5037,6 +5062,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 InitFunctionScopeObjects
 (
@@ -5048,6 +5074,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 NewArgumentsObject
 (
@@ -5079,6 +5106,7 @@ HandleObject
 res
 )
 ;
+MOZ_MUST_USE
 bool
 HandleDebugTrap
 (
@@ -5096,6 +5124,7 @@ bool
 mustReturn
 )
 ;
+MOZ_MUST_USE
 bool
 OnDebuggerStatement
 (
@@ -5113,6 +5142,7 @@ bool
 mustReturn
 )
 ;
+MOZ_MUST_USE
 bool
 GlobalHasLiveOnDebuggerStatement
 (
@@ -5121,6 +5151,7 @@ JSContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 EnterWith
 (
@@ -5140,6 +5171,7 @@ StaticWithScope
 templ
 )
 ;
+MOZ_MUST_USE
 bool
 LeaveWith
 (
@@ -5151,6 +5183,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 PushBlockScope
 (
@@ -5168,6 +5201,7 @@ StaticBlockScope
 block
 )
 ;
+MOZ_MUST_USE
 bool
 PopBlockScope
 (
@@ -5179,6 +5213,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 DebugLeaveThenPopBlockScope
 (
@@ -5193,6 +5228,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 FreshenBlockScope
 (
@@ -5204,6 +5240,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 DebugLeaveThenFreshenBlockScope
 (
@@ -5218,6 +5255,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 DebugLeaveBlock
 (
@@ -5232,6 +5270,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 InitBaselineFrameForOsr
 (
@@ -5260,6 +5299,7 @@ int32_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 ArraySpliceDense
 (
@@ -5274,6 +5314,7 @@ uint32_t
 deleteCount
 )
 ;
+MOZ_MUST_USE
 bool
 Recompile
 (
@@ -5282,6 +5323,7 @@ JSContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 ForcedRecompile
 (
@@ -5305,6 +5347,7 @@ HandleString
 repl
 )
 ;
+MOZ_MUST_USE
 bool
 SetDenseOrUnboxedArrayElement
 (
@@ -5552,6 +5595,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 ThrowRuntimeLexicalError
 (
@@ -5562,6 +5606,7 @@ unsigned
 errorNumber
 )
 ;
+MOZ_MUST_USE
 bool
 BaselineThrowUninitializedThis
 (
@@ -5573,6 +5618,7 @@ BaselineFrame
 frame
 )
 ;
+MOZ_MUST_USE
 bool
 ThrowBadDerivedReturn
 (
@@ -5583,6 +5629,7 @@ HandleValue
 v
 )
 ;
+MOZ_MUST_USE
 bool
 ThrowObjectCoercible
 (
@@ -5593,6 +5640,7 @@ HandleValue
 v
 )
 ;
+MOZ_MUST_USE
 bool
 BaselineGetFunctionThis
 (

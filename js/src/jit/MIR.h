@@ -476,6 +476,7 @@ false
 .
 static
 inline
+MOZ_MUST_USE
 bool
 MaybeSimdTypeToMIRType
 (
@@ -2266,6 +2267,7 @@ toResumePoint
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -2882,6 +2884,7 @@ alloc
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -5702,6 +5705,7 @@ one
 another
 .
 virtual
+MOZ_MUST_USE
 bool
 updateForReplacement
 (
@@ -8968,6 +8972,7 @@ Magic
 *
 .
 bool
+MOZ_MUST_USE
 valueToBoolean
 (
 bool
@@ -9072,6 +9077,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 updateForReplacement
 (
@@ -17949,6 +17955,7 @@ ObjectGroup
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 MergeTypes
 (
@@ -18686,6 +18693,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -19427,6 +19435,7 @@ return
 vmCall_
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -20086,6 +20095,7 @@ out
 const
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -20633,6 +20643,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -20729,6 +20740,7 @@ uint8_t
 >
 map
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -20848,6 +20860,7 @@ MObjectState
 state
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -20963,6 +20976,7 @@ the
 template
 object
 .
+MOZ_MUST_USE
 bool
 initFromTemplateObject
 (
@@ -21290,6 +21304,7 @@ def
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -21529,6 +21544,7 @@ def
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -24015,6 +24031,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -24806,6 +24823,7 @@ CompareType
 compareType
 )
 ;
+MOZ_MUST_USE
 bool
 tryFold
 (
@@ -24814,6 +24832,7 @@ bool
 result
 )
 ;
+MOZ_MUST_USE
 bool
 evaluateConstantOperands
 (
@@ -25217,6 +25236,7 @@ MCompare
 )
 protected
 :
+MOZ_MUST_USE
 bool
 tryFoldEqualOperands
 (
@@ -25225,6 +25245,7 @@ bool
 result
 )
 ;
+MOZ_MUST_USE
 bool
 tryFoldTypeOf
 (
@@ -26992,6 +27013,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -28472,6 +28494,7 @@ kind
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -28826,6 +28849,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -30509,6 +30533,7 @@ true
 }
 #
 endif
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -31025,6 +31050,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -31284,6 +31310,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -31804,6 +31831,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -32011,6 +32039,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -32182,6 +32211,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -32405,6 +32435,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -32547,6 +32578,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -32731,6 +32763,7 @@ collectRangeInfoPreTrunc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -33305,6 +33338,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -33558,6 +33592,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -34398,6 +34433,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -34712,6 +34748,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -34843,6 +34880,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -35088,6 +35126,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -35325,6 +35364,7 @@ collectRangeInfoPreTrunc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -35779,6 +35819,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -36059,6 +36100,7 @@ index
 const
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -36284,6 +36326,7 @@ index
 const
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -36684,6 +36727,7 @@ canBeNegativeZero_
 negativeZero
 ;
 }
+MOZ_MUST_USE
 bool
 updateForReplacement
 (
@@ -36773,6 +36817,7 @@ return
 mode_
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -37408,6 +37453,7 @@ index
 const
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -37832,6 +37878,7 @@ return
 trapOnError_
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -38113,6 +38160,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -38280,6 +38328,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -38412,6 +38461,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -38822,6 +38872,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -42298,6 +42349,7 @@ getOperand
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -42493,6 +42545,7 @@ getOperand
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -42699,6 +42752,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -43254,6 +43308,7 @@ None
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -43881,6 +43936,7 @@ return
 info_
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -47703,6 +47759,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -56448,6 +56505,7 @@ return
 pc_
 ;
 }
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -57046,6 +57104,7 @@ block
 )
 override
 ;
+MOZ_MUST_USE
 bool
 updateForReplacement
 (
@@ -57282,6 +57341,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addReceiver
 (
@@ -57667,6 +57727,7 @@ name
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addReceiver
 (
@@ -58364,6 +58425,7 @@ block
 }
 public
 :
+MOZ_MUST_USE
 bool
 addCase
 (
@@ -59423,6 +59485,7 @@ getOperand
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addReceiver
 (
@@ -63130,6 +63193,7 @@ return
 info_
 ;
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -63967,6 +64031,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -64164,6 +64229,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -64361,6 +64427,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -64549,6 +64616,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -65703,6 +65771,7 @@ alloc
 )
 override
 ;
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -68822,6 +68891,7 @@ releaseProducer
 ;
 }
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (
@@ -69943,6 +70013,7 @@ ins
 )
 ;
 }
+MOZ_MUST_USE
 bool
 writeRecoverData
 (

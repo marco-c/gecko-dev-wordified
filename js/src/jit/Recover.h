@@ -1001,6 +1001,7 @@ iterator
 too
 .
 virtual
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1256,6 +1257,7 @@ return
 numOperands_
 ;
 }
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1284,6 +1286,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 BitNot
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1312,6 +1315,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 BitAnd
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1340,6 +1344,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 BitOr
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1368,6 +1373,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 BitXor
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1396,6 +1402,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Lsh
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1424,6 +1431,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Rsh
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1452,6 +1460,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Ursh
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1485,6 +1494,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Add
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1518,6 +1528,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Sub
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1554,6 +1565,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Mul
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1587,6 +1599,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Div
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1615,6 +1628,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Mod
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1643,6 +1657,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Not
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1671,6 +1686,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Concat
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1699,6 +1715,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 StringLength
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1727,6 +1744,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 ArgumentsLength
 0
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1755,6 +1773,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Floor
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1783,6 +1802,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Ceil
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1811,6 +1831,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Round
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1839,6 +1860,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 CharCodeAt
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1867,6 +1889,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 FromCharCode
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1895,6 +1918,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Pow
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1923,6 +1947,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 PowHalf
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1956,6 +1981,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 MinMax
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -1984,6 +2010,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Abs
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2017,6 +2044,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Sqrt
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2045,6 +2073,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Atan2
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2088,6 +2117,7 @@ return
 numOperands_
 ;
 }
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2121,6 +2151,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 MathFunction
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2149,6 +2180,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 StringSplit
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2177,6 +2209,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 RegExpMatcher
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2205,6 +2238,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 RegExpSearcher
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2233,6 +2267,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 RegExpTester
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2266,6 +2301,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 StringReplace
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2294,6 +2330,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 TypeOf
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2322,6 +2359,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 ToDouble
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2350,6 +2388,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 ToFloat32
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2378,6 +2417,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 TruncateToInt32
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2414,6 +2454,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 NewObject
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2447,6 +2488,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 NewArray
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2475,6 +2517,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 NewDerivedTypedObject
 3
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2503,6 +2546,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 CreateThisWithTemplate
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2531,6 +2575,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 Lambda
 2
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2564,6 +2609,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 SimdBox
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2635,6 +2681,7 @@ numSlots
 1
 ;
 }
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2709,6 +2756,7 @@ numElements
 2
 ;
 }
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2737,6 +2785,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 AtomicIsLockFree
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (
@@ -2765,6 +2814,7 @@ RINSTRUCTION_HEADER_NUM_OP_
 AssertRecoveredOnBailout
 1
 )
+MOZ_MUST_USE
 bool
 recover
 (

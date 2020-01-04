@@ -12818,6 +12818,7 @@ MIRType
 outputType
 )
 ;
+MOZ_MUST_USE
 bool
 convertValueToFloatingPoint
 (
@@ -12837,6 +12838,7 @@ MIRType
 outputType
 )
 ;
+MOZ_MUST_USE
 bool
 convertConstantOrRegisterToFloatingPoint
 (
@@ -12906,6 +12908,7 @@ Double
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertValueToDouble
 (
@@ -12937,6 +12940,7 @@ Double
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertConstantOrRegisterToDouble
 (
@@ -13014,6 +13018,7 @@ Float32
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertValueToFloat
 (
@@ -13045,6 +13050,7 @@ Float32
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertConstantOrRegisterToFloat
 (
@@ -13266,6 +13272,7 @@ behavior
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertValueToInt
 (
@@ -13285,6 +13292,7 @@ IntConversionBehavior
 behavior
 )
 ;
+MOZ_MUST_USE
 bool
 convertConstantOrRegisterToInt
 (
@@ -13407,6 +13415,7 @@ conversion
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertValueToInt32
 (
@@ -13441,6 +13450,7 @@ IntConversion_Normal
 )
 ;
 }
+MOZ_MUST_USE
 bool
 convertConstantOrRegisterToInt32
 (
@@ -13619,6 +13629,7 @@ IntConversion_Truncate
 )
 ;
 }
+MOZ_MUST_USE
 bool
 truncateValueToInt32
 (
@@ -13647,6 +13658,7 @@ IntConversion_Truncate
 )
 ;
 }
+MOZ_MUST_USE
 bool
 truncateConstantOrRegisterToInt32
 (
@@ -13806,6 +13818,7 @@ IntConversion_ClampToUint8
 )
 ;
 }
+MOZ_MUST_USE
 bool
 clampValueToUint8
 (
@@ -13834,6 +13847,7 @@ IntConversion_ClampToUint8
 )
 ;
 }
+MOZ_MUST_USE
 bool
 clampConstantOrRegisterToUint8
 (
@@ -13955,6 +13969,7 @@ LiveRegisterSet
 liveRegs
 )
 ;
+MOZ_MUST_USE
 bool
 icBuildOOLFakeExitFrame
 (

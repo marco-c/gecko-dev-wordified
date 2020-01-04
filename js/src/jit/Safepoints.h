@@ -194,6 +194,7 @@ uint32_t
 argumentCount
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -403,6 +404,7 @@ advanceFromNunboxSlots
 (
 )
 ;
+MOZ_MUST_USE
 bool
 getSlotFromBitmap
 (
@@ -535,6 +537,7 @@ no
 more
 slots
 .
+MOZ_MUST_USE
 bool
 getGcSlot
 (
@@ -561,6 +564,7 @@ more
 value
 slots
 .
+MOZ_MUST_USE
 bool
 getValueSlot
 (
@@ -590,6 +594,7 @@ more
 nunbox
 slots
 .
+MOZ_MUST_USE
 bool
 getNunboxSlot
 (
@@ -618,6 +623,7 @@ no
 more
 slots
 .
+MOZ_MUST_USE
 bool
 getSlotsOrElementsSlot
 (

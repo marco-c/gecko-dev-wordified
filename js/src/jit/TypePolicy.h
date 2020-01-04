@@ -262,6 +262,7 @@ possible
 )
 .
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -427,6 +428,7 @@ public
 SPECIALIZATION_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -439,6 +441,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -473,6 +476,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -498,6 +502,7 @@ public
 :
 EMPTY_DATA_
 ;
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -523,6 +528,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -549,6 +555,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -582,6 +589,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -608,6 +616,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -634,6 +643,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -675,6 +685,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -725,6 +736,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -737,6 +749,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -792,6 +805,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -804,6 +818,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -862,6 +877,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -874,6 +890,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -932,6 +949,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -944,6 +962,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -999,6 +1018,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1011,6 +1031,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1066,6 +1087,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1078,6 +1100,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1136,6 +1159,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1148,6 +1172,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1206,6 +1231,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1218,6 +1244,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1293,6 +1320,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1324,6 +1352,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1336,6 +1365,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1392,6 +1422,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1432,6 +1463,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1444,6 +1476,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1492,6 +1525,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1504,6 +1538,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1549,6 +1584,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1561,6 +1597,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1600,6 +1637,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1612,6 +1650,7 @@ ins
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1710,6 +1749,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1722,6 +1762,7 @@ def
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1756,6 +1797,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1787,6 +1829,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1813,6 +1856,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1839,6 +1883,7 @@ public
 SPECIALIZATION_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1894,6 +1939,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1906,6 +1952,7 @@ ins
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -1945,6 +1992,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -1957,6 +2005,7 @@ ins
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2008,6 +2057,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -2019,6 +2069,7 @@ MInstruction
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2072,6 +2123,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -2083,6 +2135,7 @@ MInstruction
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2129,6 +2182,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -2162,6 +2216,7 @@ ins
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2211,6 +2266,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -2254,6 +2310,7 @@ ins
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2311,6 +2368,7 @@ public
 EMPTY_DATA_
 ;
 static
+MOZ_MUST_USE
 bool
 staticAdjustInputs
 (
@@ -2364,6 +2422,7 @@ ins
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2398,6 +2457,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2455,6 +2515,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2484,6 +2545,7 @@ TypePolicy
 private
 :
 static
+MOZ_MUST_USE
 bool
 adjustValueInput
 (
@@ -2518,6 +2580,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2544,6 +2607,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2570,6 +2634,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2596,6 +2661,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2634,6 +2700,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (
@@ -2660,6 +2727,7 @@ public
 EMPTY_DATA_
 ;
 virtual
+MOZ_MUST_USE
 bool
 adjustInputs
 (

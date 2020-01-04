@@ -329,6 +329,7 @@ basicBlocks_
 public
 :
 virtual
+MOZ_MUST_USE
 bool
 startBasicBlock
 (
@@ -341,6 +342,7 @@ masm
 )
 ;
 virtual
+MOZ_MUST_USE
 bool
 endBasicBlock
 (
@@ -349,6 +351,7 @@ MacroAssembler
 masm
 )
 ;
+MOZ_MUST_USE
 bool
 noteEndInlineCode
 (
@@ -414,6 +417,7 @@ PerfSpewer
 {
 public
 :
+MOZ_MUST_USE
 bool
 startBasicBlock
 (
@@ -429,6 +433,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 endBasicBlock
 (

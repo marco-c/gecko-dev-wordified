@@ -1284,6 +1284,7 @@ JitRuntime
 (
 )
 ;
+MOZ_MUST_USE
 bool
 initialize
 (
@@ -1336,6 +1337,7 @@ trc
 )
 ;
 static
+MOZ_MUST_USE
 bool
 MarkJitcodeGlobalTableIteratively
 (
@@ -2710,6 +2712,7 @@ return
 nullptr
 ;
 }
+MOZ_MUST_USE
 bool
 putStubCode
 (
@@ -2831,6 +2834,7 @@ return
 nullptr
 ;
 }
+MOZ_MUST_USE
 bool
 putCacheIRStubCode
 (
@@ -3035,6 +3039,7 @@ JitCompartment
 (
 )
 ;
+MOZ_MUST_USE
 bool
 initialize
 (
@@ -3055,6 +3060,7 @@ Ion
 not
 Baseline
 .
+MOZ_MUST_USE
 bool
 ensureIonStubsExist
 (
@@ -3107,6 +3113,7 @@ return
 regExpMatcherStub_
 ;
 }
+MOZ_MUST_USE
 bool
 ensureRegExpMatcherStubExists
 (
@@ -3147,6 +3154,7 @@ return
 regExpSearcherStub_
 ;
 }
+MOZ_MUST_USE
 bool
 ensureRegExpSearcherStubExists
 (
@@ -3187,6 +3195,7 @@ return
 regExpTesterStub_
 ;
 }
+MOZ_MUST_USE
 bool
 ensureRegExpTesterStubExists
 (

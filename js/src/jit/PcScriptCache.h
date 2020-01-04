@@ -323,6 +323,7 @@ perform
 lazy
 allocation
 .
+MOZ_MUST_USE
 bool
 get
 (

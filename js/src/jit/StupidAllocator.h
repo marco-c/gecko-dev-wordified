@@ -361,6 +361,7 @@ graph
 )
 {
 }
+MOZ_MUST_USE
 bool
 go
 (
@@ -368,6 +369,7 @@ go
 ;
 private
 :
+MOZ_MUST_USE
 bool
 init
 (

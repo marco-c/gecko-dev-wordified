@@ -424,6 +424,7 @@ oldest
 frame
 .
 static
+MOZ_MUST_USE
 bool
 RematerializeInlineFrames
 (
@@ -672,6 +673,7 @@ ScopeObject
 scope
 )
 ;
+MOZ_MUST_USE
 bool
 initFunctionScopeObjects
 (

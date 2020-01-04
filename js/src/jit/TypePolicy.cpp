@@ -6938,6 +6938,9 @@ be
 an
 object
 .
+if
+(
+!
 SingleObjectPolicy
 :
 :
@@ -6946,6 +6949,9 @@ staticAdjustInputs
 alloc
 ins
 )
+)
+return
+false
 ;
 /
 /
@@ -7074,6 +7080,9 @@ MIRType
 :
 Object
 )
+if
+(
+!
 BoxPolicy
 <
 0
@@ -7085,6 +7094,9 @@ staticAdjustInputs
 alloc
 def
 )
+)
+return
+false
 ;
 return
 true
@@ -7747,6 +7759,9 @@ MInstruction
 ins
 )
 {
+if
+(
+!
 SingleObjectPolicy
 :
 :
@@ -7755,6 +7770,9 @@ staticAdjustInputs
 alloc
 ins
 )
+)
+return
+false
 ;
 MStoreUnboxedScalar
 *
@@ -8016,6 +8034,9 @@ MInstruction
 ins
 )
 {
+if
+(
+!
 ObjectPolicy
 <
 0
@@ -8027,7 +8048,13 @@ staticAdjustInputs
 alloc
 ins
 )
+)
+return
+false
 ;
+if
+(
+!
 ObjectPolicy
 <
 3
@@ -8039,6 +8066,9 @@ staticAdjustInputs
 alloc
 ins
 )
+)
+return
+false
 ;
 /
 /

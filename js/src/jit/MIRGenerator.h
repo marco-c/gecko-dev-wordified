@@ -320,6 +320,7 @@ return
 graph_
 ;
 }
+MOZ_MUST_USE
 bool
 ensureBallast
 (
@@ -472,6 +473,11 @@ message
 .
 )
 ;
+/
+/
+always
+returns
+false
 bool
 abortFmt
 (
@@ -483,6 +489,11 @@ va_list
 ap
 )
 ;
+/
+/
+always
+returns
+false
 bool
 errored
 (
@@ -493,6 +504,7 @@ return
 error_
 ;
 }
+MOZ_MUST_USE
 bool
 instrumentedProfiling
 (
