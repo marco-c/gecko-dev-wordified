@@ -382,7 +382,6 @@ certdb
 .
 findCertByNickname
 (
-null
 cert_name
 )
 ;
@@ -409,7 +408,6 @@ certdb
 .
 findCertByNickname
 (
-null
 cert_name
 )
 ;
@@ -826,7 +824,6 @@ certdb
 .
 findCertByNickname
 (
-null
 evrootnick
 )
 ;
@@ -908,7 +905,6 @@ certdb
 .
 findCertByNickname
 (
-null
 evrootnick
 )
 ;
@@ -2054,7 +2050,6 @@ certdb
 .
 findCertByNickname
 (
-null
 "
 ev
 -
@@ -2703,7 +2698,6 @@ certdb
 .
 findCertByNickname
 (
-null
 cert_name
 )
 ;

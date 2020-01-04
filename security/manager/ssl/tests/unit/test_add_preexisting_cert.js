@@ -368,7 +368,6 @@ certDB
 .
 findCertByNickname
 (
-null
 "
 int
 -

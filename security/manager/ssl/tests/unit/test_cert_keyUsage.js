@@ -502,7 +502,6 @@ certdb
 .
 findCertByNickname
 (
-null
 ca
 )
 ;

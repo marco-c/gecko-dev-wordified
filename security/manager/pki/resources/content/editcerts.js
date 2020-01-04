@@ -184,7 +184,6 @@ certdb
 findCertByDBKey
 (
 dbkey
-null
 )
 ;
 var

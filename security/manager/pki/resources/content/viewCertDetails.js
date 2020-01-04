@@ -610,7 +610,6 @@ certdb
 .
 findCertByNickname
 (
-null
 myName
 )
 ;
@@ -1866,7 +1865,6 @@ certdb
 findCertByDBKey
 (
 dbKey
-null
 )
 ;
 asn1Tree
@@ -2064,7 +2062,6 @@ certdb
 findCertByDBKey
 (
 dbKey
-null
 )
 ;
 return

@@ -642,9 +642,6 @@ nsNSSCertificateDB
 :
 FindCertByNickname
 (
-nsISupports
-*
-aToken
 const
 nsAString
 &
@@ -828,9 +825,6 @@ const
 char
 *
 aDBkey
-nsISupports
-*
-aToken
 nsIX509Cert
 *
 *
@@ -1353,9 +1347,6 @@ nsNSSCertificateDB
 :
 FindCertNicknames
 (
-nsISupports
-*
-aToken
 uint32_t
 aType
 uint32_t
@@ -6132,9 +6123,6 @@ nsNSSCertificateDB
 :
 ImportCertsFromFile
 (
-nsISupports
-*
-aToken
 nsIFile
 *
 aFile
@@ -7377,9 +7365,6 @@ nsNSSCertificateDB
 :
 FindCertByEmailAddress
 (
-nsISupports
-*
-aToken
 const
 char
 *
