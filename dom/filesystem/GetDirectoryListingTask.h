@@ -186,6 +186,9 @@ Create
 FileSystemBase
 *
 aFileSystem
+Directory
+*
+aDirectory
 nsIFile
 *
 aTargetPath
@@ -246,6 +249,9 @@ GetDirectoryListingTaskChild
 FileSystemBase
 *
 aFileSystem
+Directory
+*
+aDirectory
 nsIFile
 *
 aTargetPath
@@ -296,6 +302,12 @@ RefPtr
 Promise
 >
 mPromise
+;
+RefPtr
+<
+Directory
+>
+mDirectory
 ;
 nsCOMPtr
 <
