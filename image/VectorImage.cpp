@@ -5539,6 +5539,17 @@ rerasterize
 CreateSurfaceAndShow
 (
 params
+aContext
+-
+>
+GetDrawTarget
+(
+)
+-
+>
+GetBackendType
+(
+)
 )
 ;
 return
@@ -5773,6 +5784,8 @@ const
 SVGDrawingParameters
 &
 aParams
+BackendType
+aBackend
 )
 {
 mSVGDocumentWrapper
@@ -6077,6 +6090,7 @@ POINT
 aParams
 .
 flags
+aBackend
 )
 ;
 /
