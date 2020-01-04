@@ -3001,6 +3001,14 @@ ToMicroseconds
 >
 =
 0
+&
+&
+!
+nextKeyframe
+.
+IsInfinite
+(
+)
 ;
 }
 RefPtr
