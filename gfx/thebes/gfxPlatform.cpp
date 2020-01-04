@@ -7348,11 +7348,14 @@ h
 =
 clamped
 (
-NextPowerOfTwo
+int32_t
+(
+RoundUpPow2
 (
 screenSize
 .
 width
+)
 )
 /
 4
