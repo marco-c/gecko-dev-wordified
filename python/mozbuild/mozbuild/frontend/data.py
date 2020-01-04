@@ -2681,6 +2681,10 @@ cargo_file
 '
 crate_type
 '
+        
+'
+deps_path
+'
     
 )
     
@@ -2784,7 +2788,7 @@ crate_type
 =
 =
 '
-staticlib
+rlib
 '
         
 self
@@ -2792,22 +2796,13 @@ self
 lib_name
 =
 '
+lib
 %
 s
-%
-s
-%
-s
+.
+rlib
 '
 %
-(
-            
-context
-.
-config
-.
-lib_prefix
-            
 basename
 .
 replace
@@ -2818,14 +2813,6 @@ replace
 '
 _
 '
-)
-            
-context
-.
-config
-.
-lib_suffix
-        
 )
         
 #
@@ -2893,23 +2880,12 @@ rust_build_kind
 debug
 '
         
-self
-.
-import_name
+build_dir
 =
-'
-%
-s
-/
-%
-s
-/
-%
-s
-'
-%
+mozpath
+.
+join
 (
-            
 context
 .
 config
@@ -2920,13 +2896,36 @@ substs
 RUST_TARGET
 '
 ]
-            
+                                 
 rust_build_kind
-            
+)
+        
+self
+.
+import_name
+=
+mozpath
+.
+join
+(
+build_dir
 self
 .
 lib_name
+)
         
+self
+.
+deps_path
+=
+mozpath
+.
+join
+(
+build_dir
+'
+deps
+'
 )
 class
 SharedLibrary
