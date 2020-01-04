@@ -7921,13 +7921,7 @@ mWnd
 ;
 }
 return
-WinUtils
-:
-:
-LogToPhysFactor
-(
-mWnd
-)
+mDefaultScale
 ;
 }
 int32_t
