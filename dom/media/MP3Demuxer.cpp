@@ -919,9 +919,6 @@ return
 pos
 ;
 }
-#
-ifdef
-ENABLE_TESTS
 const
 FrameParser
 :
@@ -964,8 +961,6 @@ FindNextFrame
 )
 ;
 }
-#
-endif
 const
 ID3Parser
 :
@@ -4376,15 +4371,10 @@ Reset
 )
 ;
 }
-#
-ifdef
-ENABLE_TESTS
 mPrevFrame
 =
 mFrame
 ;
-#
-endif
 mFrame
 .
 Reset
@@ -4410,9 +4400,6 @@ return
 mFrame
 ;
 }
-#
-ifdef
-ENABLE_TESTS
 const
 FrameParser
 :
@@ -4431,8 +4418,6 @@ return
 mPrevFrame
 ;
 }
-#
-endif
 const
 FrameParser
 :
