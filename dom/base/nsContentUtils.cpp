@@ -50723,6 +50723,15 @@ topFrameElement
 )
 )
 ;
+if
+(
+!
+topFrameElement
+)
+{
+return
+;
+}
 topFrameElement
 -
 >
