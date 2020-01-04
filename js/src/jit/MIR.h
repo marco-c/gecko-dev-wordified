@@ -38431,6 +38431,10 @@ initOperand
 sticky
 )
 ;
+setMovable
+(
+)
+;
 /
 /
 May
@@ -38656,6 +38660,10 @@ initOperand
 (
 3
 sticky
+)
+;
+setMovable
+(
 )
 ;
 setResultType
