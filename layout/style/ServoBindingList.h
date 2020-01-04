@@ -398,6 +398,16 @@ void
 ServoDeclarationBlockBorrowed
 declarations
 )
+SERVO_BINDING_FUNC
+(
+Servo_DeclarationBlock_SerializeOneValue
+void
+ServoDeclarationBlockBorrowed
+declarations
+nsString
+*
+buffer
+)
 /
 /
 CSS
