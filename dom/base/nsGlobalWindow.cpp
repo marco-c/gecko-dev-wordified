@@ -30433,6 +30433,11 @@ GetScrollFrame
 )
 {
 return
+nsPresContext
+:
+:
+AppUnitsToIntCSSPixels
+(
 sf
 -
 >
@@ -30443,6 +30448,7 @@ GetScrollRange
 Edge
 (
 aSide
+)
 )
 ;
 }
