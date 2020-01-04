@@ -762,6 +762,26 @@ file
 '
 '
     
+replDict
+=
+{
+'
+taskId
+'
+:
+task_id
+'
+runId
+'
+:
+run_id
+'
+name
+'
+:
+name
+}
+    
 url
 =
 queue
@@ -771,9 +791,9 @@ buildUrl
 '
 getArtifact
 '
-task_id
-run_id
-name
+replDict
+=
+replDict
 )
     
 fn
