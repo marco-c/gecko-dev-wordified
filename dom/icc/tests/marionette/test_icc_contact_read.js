@@ -40,6 +40,12 @@ head
 js
 "
 ;
+MARIONETTE_CONTEXT
+=
+"
+chrome
+"
+;
 function
 testReadContacts
 (
