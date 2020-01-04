@@ -1411,8 +1411,8 @@ result
 .
 emplace
 (
+*
 mTarget
-mPseudoType
 )
 ;
 }
@@ -2359,9 +2359,9 @@ UpdateTargetRegistration
 (
 )
 ;
-nsCOMPtr
+Maybe
 <
-Element
+OwningAnimationTarget
 >
 mTarget
 ;
@@ -2376,9 +2376,6 @@ RefPtr
 AnimationEffectTimingReadOnly
 >
 mTiming
-;
-CSSPseudoElementType
-mPseudoType
 ;
 /
 /
