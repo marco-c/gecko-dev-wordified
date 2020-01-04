@@ -194,10 +194,6 @@ utf
 aq
 =
 t
-&
-client
-=
-firefox
 "
 ;
 check_submission
@@ -361,10 +357,6 @@ search
 q
 =
 foo
-&
-client
-=
-firefox
 "
 ;
 check_submission
