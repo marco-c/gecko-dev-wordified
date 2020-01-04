@@ -238,7 +238,7 @@ basename
 (
 path
 )
-            
+        
 #
 This
 matches
@@ -250,7 +250,7 @@ config
 /
 rules
 .
-            
+        
 if
 target
 .
@@ -262,7 +262,7 @@ in
 '
 )
 :
-                
+            
 target
 =
 target
@@ -507,6 +507,12 @@ f
 full_path
 path
                                              
+target
+=
+f
+.
+target_basename
+                                             
 defines
 =
 defines
@@ -536,12 +542,9 @@ mozpath
 join
 (
 path
-mozpath
-.
-basename
-(
 f
-)
+.
+target_basename
 )
                         
 )

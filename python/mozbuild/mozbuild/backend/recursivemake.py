@@ -119,6 +119,8 @@ import
     
 Path
     
+RenamedSourcePath
+    
 SourcePath
     
 ObjDirPath
@@ -10240,6 +10242,14 @@ in
 files
 :
                 
+assert
+not
+isinstance
+(
+f
+RenamedSourcePath
+)
+                
 dest
 =
 mozpath
@@ -10248,15 +10258,9 @@ join
 (
 reltarget
 path
-                                    
-mozpath
-.
-basename
-(
 f
 .
-full_path
-)
+target_basename
 )
                 
 if
