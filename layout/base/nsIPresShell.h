@@ -7927,7 +7927,7 @@ mObservesMutationsForPrint
 ;
 }
 virtual
-void
+nsresult
 SetIsActive
 (
 bool
