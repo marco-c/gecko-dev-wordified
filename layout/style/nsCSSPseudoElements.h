@@ -476,11 +476,15 @@ its
 underlying
 type
 .
+typedef
+uint8_t
+CSSPseudoElementTypeBase
+;
 enum
 class
 CSSPseudoElementType
 :
-uint8_t
+CSSPseudoElementTypeBase
 {
 /
 /
