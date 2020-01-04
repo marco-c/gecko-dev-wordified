@@ -33834,7 +33834,7 @@ deck
 addEventListener
 (
 "
-OpenMediaWithExtenalApp
+OpenMediaWithExternalApp
 "
 this
 true
@@ -33982,7 +33982,7 @@ break
 ;
 case
 '
-OpenMediaWithExtenalApp
+OpenMediaWithExternalApp
 '
 :
 ExternalApps
