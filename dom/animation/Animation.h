@@ -1827,8 +1827,6 @@ GetEffect
 >
 IsInPlay
 (
-*
-this
 )
 ;
 }
@@ -1851,8 +1849,6 @@ GetEffect
 >
 IsCurrent
 (
-*
-this
 )
 ;
 }
@@ -2229,7 +2225,7 @@ sample
 void
 ComposeStyle
 (
-RefPtr
+nsRefPtr
 <
 AnimValuesStyleRule
 >
@@ -2711,13 +2707,13 @@ GetCollection
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 AnimationTimeline
 >
 mTimeline
 ;
-RefPtr
+nsRefPtr
 <
 KeyframeEffectReadOnly
 >
@@ -2834,7 +2830,7 @@ current
 ready
 -
 promise
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2917,7 +2913,7 @@ current
 finished
 -
 promise
-RefPtr
+nsRefPtr
 <
 Promise
 >

@@ -5236,7 +5236,6 @@ effect
 >
 IsCurrent
 (
-anim
 )
 &
 &
