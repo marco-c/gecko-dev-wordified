@@ -1765,6 +1765,13 @@ AsmJSMetadata
 (
 )
 :
+Metadata
+(
+ModuleKind
+:
+:
+AsmJS
+)
 cacheResult
 (
 CacheResult
