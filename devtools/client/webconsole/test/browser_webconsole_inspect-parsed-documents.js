@@ -218,7 +218,7 @@ xml
 output
 :
 "
-XMLDocument
+SVGDocument
 "
 inspectable
 :
