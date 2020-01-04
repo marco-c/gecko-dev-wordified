@@ -2706,6 +2706,11 @@ texData
 TextureFlags
 :
 :
+RECYCLE
+|
+TextureFlags
+:
+:
 DEALLOCATE_CLIENT
 allocator
 )

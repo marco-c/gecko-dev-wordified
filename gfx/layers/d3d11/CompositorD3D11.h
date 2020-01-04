@@ -282,14 +282,6 @@ Initialize
 override
 ;
 virtual
-void
-Destroy
-(
-)
-override
-{
-}
-virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (

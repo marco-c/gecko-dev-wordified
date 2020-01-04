@@ -1115,6 +1115,13 @@ Destroy
 (
 )
 {
+Compositor
+:
+:
+Destroy
+(
+)
+;
 if
 (
 mTexturePool

@@ -1833,7 +1833,7 @@ tex
 tex
 -
 >
-CancelWaitForCompositorRecycle
+CancelWaitForRecycle
 (
 )
 ;
