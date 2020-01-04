@@ -20487,6 +20487,8 @@ aFrame
 nsDisplayList
 *
 aList
+bool
+aForEventsOnly
 )
 ;
 #
@@ -20685,6 +20687,9 @@ private
 :
 float
 mOpacity
+;
+bool
+mForEventsOnly
 ;
 }
 ;
