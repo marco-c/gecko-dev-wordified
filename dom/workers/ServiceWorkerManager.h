@@ -453,6 +453,9 @@ ServiceWorkerInfo
 >
 mInstallingWorker
 ;
+uint64_t
+mLastUpdateCheckTime
+;
 /
 /
 When
@@ -628,6 +631,17 @@ FinishActivate
 bool
 aSuccess
 )
+;
+void
+RefreshLastUpdateCheckTime
+(
+)
+;
+bool
+IsLastUpdateCheckTimeOverOneDay
+(
+)
+const
 ;
 }
 ;

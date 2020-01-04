@@ -650,6 +650,9 @@ uint8_t
 >
 &
 aData
+ServiceWorkerRegistrationInfo
+*
+aRegistration
 )
 ;
 nsresult
