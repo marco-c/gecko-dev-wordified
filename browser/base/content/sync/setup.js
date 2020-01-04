@@ -3930,9 +3930,6 @@ pageIndex
 case
 NEW_ACCOUNT_START_PAGE
 :
-case
-EXISTING_ACCOUNT_LOGIN_PAGE
-:
 this
 .
 wizard
