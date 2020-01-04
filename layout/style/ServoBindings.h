@@ -410,6 +410,14 @@ document
 Selector
 Matching
 .
+uint8_t
+Gecko_ElementState
+(
+RawGeckoElement
+*
+element
+)
+;
 int
 Gecko_IsHTMLElementInHTMLDocument
 (
