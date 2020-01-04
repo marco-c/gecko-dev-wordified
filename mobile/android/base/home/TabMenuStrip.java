@@ -333,6 +333,18 @@ int
 shadowSize
 ;
 public
+interface
+OnTitleClickListener
+{
+void
+onTitleClicked
+(
+int
+index
+)
+;
+}
+public
 TabMenuStrip
 (
 Context
@@ -731,8 +743,6 @@ public
 void
 setOnTitleClickListener
 (
-HomePager
-.
 OnTitleClickListener
 onTitleClickListener
 )

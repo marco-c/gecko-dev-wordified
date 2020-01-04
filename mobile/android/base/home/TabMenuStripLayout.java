@@ -242,7 +242,7 @@ View
 OnFocusChangeListener
 {
 private
-HomePager
+TabMenuStrip
 .
 OnTitleClickListener
 onTitleClickListener
@@ -1337,7 +1337,7 @@ i
 void
 setOnTitleClickListener
 (
-HomePager
+TabMenuStrip
 .
 OnTitleClickListener
 onTitleClickListener
