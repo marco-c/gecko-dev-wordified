@@ -655,6 +655,11 @@ TimeMarchesOn
 )
 ;
 void
+DispatchUpdateCueDisplay
+(
+)
+;
+void
 NotifyShutdown
 (
 )
@@ -853,6 +858,9 @@ mLastTimeMarchesOnCalled
 ;
 bool
 mTimeMarchesOnDispatched
+;
+bool
+mUpdateCueDisplayDispatched
 ;
 static
 StaticRefPtr

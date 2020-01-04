@@ -484,10 +484,6 @@ TextTrackMode
 Disabled
 )
 {
-SetCuesInactive
-(
-)
-;
 /
 /
 Remove
@@ -557,6 +553,10 @@ i
 }
 }
 }
+SetCuesInactive
+(
+)
+;
 }
 else
 {
