@@ -618,7 +618,7 @@ if
 DecoderTraits
 :
 :
-IsMP4Type
+IsMP4TypeAndEnabled
 (
 mimeTypeUTF8
 )
@@ -685,7 +685,7 @@ if
 DecoderTraits
 :
 :
-IsWebMType
+IsWebMTypeAndEnabled
 (
 mimeTypeUTF8
 )

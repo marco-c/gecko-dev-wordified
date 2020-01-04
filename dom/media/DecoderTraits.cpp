@@ -952,7 +952,7 @@ bool
 DecoderTraits
 :
 :
-IsWebMType
+IsWebMTypeAndEnabled
 (
 const
 nsACString
@@ -1009,7 +1009,7 @@ if
 DecoderTraits
 :
 :
-IsWebMType
+IsWebMTypeAndEnabled
 (
 aMimeType
 )
@@ -1733,7 +1733,7 @@ bool
 DecoderTraits
 :
 :
-IsMP4Type
+IsMP4TypeAndEnabled
 (
 const
 nsACString
@@ -2116,7 +2116,7 @@ MOZ_OMX_WEBM_DECODER
 )
 if
 (
-IsWebMType
+IsWebMTypeAndEnabled
 (
 nsDependentCString
 (
@@ -2137,7 +2137,7 @@ ifdef
 MOZ_FMP4
 if
 (
-IsMP4Type
+IsMP4TypeAndEnabled
 (
 nsDependentCString
 (
@@ -2610,7 +2610,7 @@ CANPLAY_MAYBE
 endif
 if
 (
-IsMP4Type
+IsMP4TypeAndEnabled
 (
 nsDependentCString
 (
@@ -2632,7 +2632,7 @@ MOZ_OMX_WEBM_DECODER
 )
 if
 (
-IsWebMType
+IsWebMTypeAndEnabled
 (
 nsDependentCString
 (
@@ -3318,7 +3318,7 @@ if
 DecoderTraits
 :
 :
-IsWebMType
+IsWebMTypeAndEnabled
 (
 aType
 )
@@ -3768,7 +3768,7 @@ else
 endif
 if
 (
-IsWebMType
+IsWebMTypeAndEnabled
 (
 aType
 )
@@ -4056,7 +4056,7 @@ aType
 |
 #
 endif
-IsWebMType
+IsWebMTypeAndEnabled
 (
 aType
 )

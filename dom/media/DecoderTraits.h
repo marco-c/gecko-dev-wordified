@@ -542,7 +542,7 @@ aType
 ;
 static
 bool
-IsWebMType
+IsWebMTypeAndEnabled
 (
 const
 nsACString
@@ -552,7 +552,7 @@ aType
 ;
 static
 bool
-IsMP4Type
+IsMP4TypeAndEnabled
 (
 const
 nsACString
