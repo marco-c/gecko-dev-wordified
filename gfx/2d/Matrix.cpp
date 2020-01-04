@@ -786,7 +786,7 @@ newMatrix
 Float
 s
 =
-sin
+sinf
 (
 aAngle
 )
@@ -794,7 +794,7 @@ aAngle
 Float
 c
 =
-cos
+cosf
 (
 aAngle
 )

@@ -1506,7 +1506,7 @@ x
 +
 aRadius
 *
-cos
+cosf
 (
 aEndAngle
 )
@@ -1521,7 +1521,7 @@ y
 +
 aRadius
 *
-sin
+sinf
 (
 aEndAngle
 )
@@ -1639,7 +1639,7 @@ x
 +
 aRadius
 *
-cos
+cosf
 (
 midAngle
 )
@@ -1654,7 +1654,7 @@ y
 +
 aRadius
 *
-sin
+sinf
 (
 midAngle
 )
