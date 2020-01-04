@@ -410,11 +410,11 @@ gVariables
 _store
 .
 length
-4
+3
 "
 Should
 have
-four
+three
 scopes
 .
 "
@@ -631,11 +631,11 @@ gVariables
 _store
 .
 length
-4
+3
 "
 Should
 have
-four
+three
 scopes
 .
 "

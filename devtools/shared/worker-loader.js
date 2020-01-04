@@ -3013,10 +3013,6 @@ return
 Debugger
 createSandbox
 dump
-:
-this
-.
-dump
 rpc
 loadSubScript
 reportError

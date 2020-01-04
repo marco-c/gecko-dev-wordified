@@ -56,7 +56,7 @@ doc_promise
 html
 "
 ;
-var
+const
 test
 =
 Task

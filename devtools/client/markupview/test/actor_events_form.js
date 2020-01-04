@@ -141,7 +141,7 @@ inspector
 "
 )
 ;
-var
+const
 EventsFormActor
 =
 ActorClass
@@ -293,7 +293,7 @@ value
 }
 )
 ;
-var
+const
 EventsFormFront
 =
 FrontClass

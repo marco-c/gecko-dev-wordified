@@ -79,7 +79,7 @@ Cu
 =
 Components
 ;
-var
+const
 loader
 =
 Cc

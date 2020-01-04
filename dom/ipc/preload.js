@@ -94,12 +94,12 @@ a
 frame
 script
 .
-var
+const
 BrowserElementIsPreloaded
 =
 true
 ;
-var
+const
 DoPreloadPostfork
 =
 function

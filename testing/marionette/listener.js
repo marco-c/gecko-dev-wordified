@@ -4469,7 +4469,7 @@ return
 script
 =
 "
-var
+let
 __marionetteFunc
 =
 function
@@ -5484,7 +5484,7 @@ marionetteScriptFinished
 "
 +
 "
-var
+let
 __marionetteFunc
 =
 function

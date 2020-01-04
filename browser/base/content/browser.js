@@ -25132,17 +25132,6 @@ where
 }
 }
 ;
-XPCOMUtils
-.
-defineConstant
-(
-this
-"
-BrowserSearch
-"
-BrowserSearch
-)
-;
 function
 FillHistoryMenu
 (

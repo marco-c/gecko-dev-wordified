@@ -733,17 +733,6 @@ UIInspectorResize
 "
 }
 ;
-XPCOMUtils
-.
-defineConstant
-(
-this
-"
-EVENTS
-"
-EVENTS
-)
-;
 /
 *
 *

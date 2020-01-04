@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-var
+const
 loader
 =
 Cc
@@ -568,7 +568,7 @@ Context
 "
 ]
 ;
-var
+const
 FRAME_SCRIPT
 =
 "
@@ -6962,7 +6962,7 @@ directInject
 script
 =
 "
-var
+let
 func
 =
 function
@@ -8466,7 +8466,7 @@ returnFunc
 "
 +
 "
-var
+let
 marionetteScriptFinished
 =
 returnFunc
@@ -8474,7 +8474,7 @@ returnFunc
 "
 +
 "
-var
+let
 __marionetteFunc
 =
 function

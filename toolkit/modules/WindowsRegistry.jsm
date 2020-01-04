@@ -89,7 +89,7 @@ WindowsRegistry
 "
 ]
 ;
-var
+const
 WindowsRegistry
 =
 {
