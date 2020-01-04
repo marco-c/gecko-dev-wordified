@@ -3501,6 +3501,16 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+NS_GetCurrentThread
+(
+)
+-
+>
+SetCanInvokeJS
+(
+true
+)
+;
 if
 (
 !
