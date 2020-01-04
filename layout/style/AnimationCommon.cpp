@@ -2249,15 +2249,6 @@ disconnected
 return
 ;
 }
-if
-(
-!
-mStyleChanging
-)
-{
-return
-;
-}
 /
 /
 Update
@@ -2384,7 +2375,6 @@ PseudoElementType
 (
 )
 cascadeLevel
-mStyleChanging
 )
 ;
 }
@@ -2527,10 +2517,6 @@ RestyleType
 Layer
 )
 {
-mStyleChanging
-=
-true
-;
 /
 /
 Prompt

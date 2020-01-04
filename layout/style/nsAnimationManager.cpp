@@ -3762,13 +3762,6 @@ SwapElements
 newAnimations
 )
 ;
-collection
--
->
-mStyleChanging
-=
-true
-;
 /
 /
 Cancel

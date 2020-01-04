@@ -764,9 +764,6 @@ Type
 aPseudoType
 CascadeLevel
 aCascadeLevel
-bool
-&
-aStyleChanging
 )
 ;
 /
@@ -1195,9 +1192,6 @@ CascadeLevel
 aCascadeLevel
 TimeStamp
 aRefreshTime
-bool
-&
-aStyleChanging
 )
 ;
 static
