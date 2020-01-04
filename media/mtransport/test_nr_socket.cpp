@@ -4248,13 +4248,13 @@ TestNrSocket
 test_sock_v
 )
 ;
-NrSocket
+NrSocketBase
 *
 real_socket
 =
 static_cast
 <
-NrSocket
+NrSocketBase
 *
 >
 (
