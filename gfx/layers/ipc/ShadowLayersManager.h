@@ -303,9 +303,9 @@ aTargets
 0
 ;
 virtual
-CompositorBridgeParentIPCAllocator
+HostIPCAllocator
 *
-AsCompositorBridgeParentIPCAllocator
+GetIPCAllocator
 (
 )
 {
