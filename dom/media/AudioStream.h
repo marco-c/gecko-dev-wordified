@@ -2118,7 +2118,6 @@ cubeb_stream
 void
 *
 aThis
-const
 void
 *
 /

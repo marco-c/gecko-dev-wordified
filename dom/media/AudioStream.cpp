@@ -2393,8 +2393,6 @@ stream
 AudioStream
 "
 nullptr
-nullptr
-nullptr
 &
 aParams
 latency
