@@ -836,11 +836,6 @@ nlmsghdr
 *
 nlh
 ;
-struct
-rtmsg
-*
-route_entry
-;
 /
 /
 The
@@ -905,9 +900,6 @@ struct
 ifaddrmsg
 *
 newifam
-;
-bool
-link_local
 ;
 /
 /
