@@ -15529,13 +15529,9 @@ onFinish
 (
 )
 {
-BrowserApp
-.
-this
-.
-mFirstrunPane
-=
-null
+enterEditingMode
+(
+)
 ;
 }
 }
