@@ -955,15 +955,10 @@ lock
 "
 )
 ;
-#
-ifdef
-DEBUG
 lockOwner_
 =
 nullptr
 ;
-#
-endif
 redirection_
 =
 nullptr
