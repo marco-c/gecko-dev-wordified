@@ -328,7 +328,7 @@ AsTransitionEvent
 internalEvent
 -
 >
-propertyName
+mPropertyName
 =
 aParam
 .
@@ -337,7 +337,7 @@ mPropertyName
 internalEvent
 -
 >
-elapsedTime
+mElapsedTime
 =
 aParam
 .
@@ -346,7 +346,7 @@ mElapsedTime
 internalEvent
 -
 >
-pseudoElement
+mPseudoElement
 =
 aParam
 .
@@ -389,7 +389,7 @@ AsTransitionEvent
 )
 -
 >
-propertyName
+mPropertyName
 ;
 return
 NS_OK
@@ -434,7 +434,7 @@ AsTransitionEvent
 )
 -
 >
-elapsedTime
+mElapsedTime
 ;
 }
 NS_IMETHODIMP
@@ -458,7 +458,7 @@ AsTransitionEvent
 )
 -
 >
-pseudoElement
+mPseudoElement
 ;
 return
 NS_OK
