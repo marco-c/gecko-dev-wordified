@@ -429,7 +429,7 @@ param
 .
 *
 *
-NS_METHOD
+nsresult
 GetBlah
 (
 nsAString
@@ -577,7 +577,7 @@ param
 .
 *
 *
-NS_METHOD
+nsresult
 SetBlah
 (
 const

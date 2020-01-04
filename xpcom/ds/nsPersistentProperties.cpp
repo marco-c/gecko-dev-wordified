@@ -3587,7 +3587,7 @@ PropertyElement
 /
 /
 /
-NS_METHOD
+nsresult
 nsPropertyElement
 :
 :

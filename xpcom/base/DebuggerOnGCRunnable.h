@@ -219,7 +219,7 @@ aGCData
 public
 :
 static
-NS_METHOD
+nsresult
 Enqueue
 (
 JSContext

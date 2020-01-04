@@ -261,7 +261,7 @@ aValue
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPROPERTYELEMENT
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

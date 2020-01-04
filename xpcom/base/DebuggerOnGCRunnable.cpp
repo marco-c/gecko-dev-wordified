@@ -169,7 +169,7 @@ mozilla
 static
 *
 /
-NS_METHOD
+nsresult
 DebuggerOnGCRunnable
 :
 :
