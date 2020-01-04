@@ -323,7 +323,7 @@ fpregs
 uint32_t
 nr_gpr
 =
-1
+1u
 ;
 /
 /
@@ -338,10 +338,12 @@ that
 uint32_t
 nr_fpr
 =
-0
+0u
 ;
 uint64_t
 value
+=
+0u
 ;
 for
 (
