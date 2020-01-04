@@ -130,9 +130,6 @@ def
 __init__
 (
 self
-title
-date
-browser_config
 )
 :
         
@@ -142,30 +139,6 @@ results
 =
 [
 ]
-        
-#
-info
-needed
-for
-graphserver
-        
-self
-.
-title
-=
-title
-        
-self
-.
-date
-=
-date
-        
-self
-.
-browser_config
-=
-browser_config
     
 def
 add
