@@ -627,7 +627,6 @@ audio
 packet
 queue
 .
-virtual
 void
 PushAudioPacket
 (
@@ -650,7 +649,6 @@ video
 packet
 queue
 .
-virtual
 void
 PushVideoPacket
 (
@@ -764,7 +762,6 @@ GetBuffered
 (
 )
 ;
-virtual
 nsresult
 SeekInternal
 (

@@ -164,7 +164,6 @@ false
 )
 {
 }
-virtual
 MediaDecoder
 *
 Clone
@@ -195,7 +194,6 @@ aOwner
 )
 ;
 }
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine

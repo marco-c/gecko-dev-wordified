@@ -276,7 +276,6 @@ Indice
 indices
 )
 ;
-virtual
 UniquePtr
 <
 TrackInfo
@@ -287,7 +286,6 @@ GetInfo
 const
 override
 ;
-virtual
 RefPtr
 <
 SeekPromise
@@ -302,7 +300,6 @@ aTime
 )
 override
 ;
-virtual
 RefPtr
 <
 SamplesPromise
@@ -316,14 +313,12 @@ aNumSamples
 )
 override
 ;
-virtual
 void
 Reset
 (
 )
 override
 ;
-virtual
 nsresult
 GetNextRandomAccessPoint
 (
@@ -350,7 +345,6 @@ aTimeThreshold
 )
 override
 ;
-virtual
 media
 :
 :
@@ -360,7 +354,6 @@ GetBuffered
 )
 override
 ;
-virtual
 void
 BreakCycles
 (

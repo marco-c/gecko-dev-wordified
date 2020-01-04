@@ -257,7 +257,6 @@ aOwner
 )
 {
 }
-virtual
 MediaDecoder
 *
 Clone
@@ -266,6 +265,7 @@ MediaDecoderOwner
 *
 aOwner
 )
+override
 {
 if
 (
@@ -287,12 +287,12 @@ aOwner
 )
 ;
 }
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine
 (
 )
+override
 ;
 }
 ;

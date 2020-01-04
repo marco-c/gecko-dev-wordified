@@ -175,14 +175,12 @@ WaveReader
 ;
 public
 :
-virtual
 bool
 DecodeAudioData
 (
 )
 override
 ;
-virtual
 bool
 DecodeVideoFrame
 (
@@ -194,7 +192,6 @@ aTimeThreshold
 )
 override
 ;
-virtual
 nsresult
 ReadMetadata
 (
@@ -208,7 +205,6 @@ aTags
 )
 override
 ;
-virtual
 RefPtr
 <
 SeekPromise
@@ -222,7 +218,6 @@ aEndTime
 )
 override
 ;
-virtual
 media
 :
 :

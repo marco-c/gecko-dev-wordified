@@ -334,21 +334,18 @@ OggReader
 ;
 public
 :
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 nsresult
 ResetDecode
 (
 )
 override
 ;
-virtual
 bool
 DecodeAudioData
 (
@@ -393,7 +390,6 @@ valid
 time
 info
 .
-virtual
 bool
 DecodeVideoFrame
 (
@@ -405,7 +401,6 @@ aTimeThreshold
 )
 override
 ;
-virtual
 nsresult
 ReadMetadata
 (
@@ -419,7 +414,6 @@ aTags
 )
 override
 ;
-virtual
 RefPtr
 <
 SeekPromise
@@ -433,7 +427,6 @@ aEndTime
 )
 override
 ;
-virtual
 media
 :
 :
