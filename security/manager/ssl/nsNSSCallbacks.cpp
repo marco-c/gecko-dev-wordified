@@ -3975,6 +3975,16 @@ channelInfo
 protocolVersion
 )
 ;
+infoObject
+-
+>
+SetEarlyDataAccepted
+(
+channelInfo
+.
+earlyDataAccepted
+)
+;
 SSLCipherSuiteInfo
 cipherInfo
 ;
