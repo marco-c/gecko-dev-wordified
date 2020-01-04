@@ -1078,9 +1078,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 AllocKind
 :
@@ -1101,9 +1098,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 AllocKind
 :
@@ -1147,9 +1141,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 AllocKind
 :
@@ -1170,9 +1161,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 AllocKind
 :
@@ -1223,9 +1211,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 AllocKind
 :
@@ -1298,9 +1283,6 @@ mozilla
 :
 :
 MakeEnumeratedRange
-<
-int
->
 (
 first
 limit
