@@ -263,14 +263,8 @@ protocol
 ;
 const
 {
-ActorClass
 Actor
-FrontClass
-Front
-Arg
-method
-RetVal
-types
+ActorClassWithSpec
 }
 =
 protocol
