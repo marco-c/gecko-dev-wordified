@@ -52468,7 +52468,7 @@ xrender
 .
 enabled
 "
-true
+false
 )
 ;
 #
