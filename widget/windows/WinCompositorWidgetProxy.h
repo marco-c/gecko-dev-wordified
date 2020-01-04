@@ -254,6 +254,9 @@ nsWindow
 *
 mWindow
 ;
+HWND
+mWnd
+;
 }
 ;
 }
