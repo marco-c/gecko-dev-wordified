@@ -2172,14 +2172,14 @@ const
 int
 BUFFER_SIZE
 =
-4096
+64
 ;
 static
 const
 int
 MAX_SKIPPED_BYTES
 =
-10
+1024
 *
 BUFFER_SIZE
 ;
