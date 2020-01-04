@@ -1438,7 +1438,7 @@ return
 osrPc_
 ;
 }
-NestedScopeObject
+NestedStaticScopeObject
 *
 osrStaticScope
 (
@@ -2228,7 +2228,7 @@ isSlotAliased
 (
 uint32_t
 index
-NestedScopeObject
+NestedStaticScopeObject
 *
 staticScope
 )
@@ -3237,7 +3237,7 @@ jsbytecode
 *
 osrPc_
 ;
-NestedScopeObject
+NestedStaticScopeObject
 *
 osrStaticScope_
 ;

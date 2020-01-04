@@ -2121,7 +2121,7 @@ SharedContext
 {
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope_
@@ -2133,7 +2133,7 @@ GlobalSharedContext
 ExclusiveContext
 *
 cx
-ScopeObject
+StaticScopeObject
 *
 staticScope
 Directives
@@ -3992,7 +3992,7 @@ scope
 .
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 staticScope
@@ -4382,7 +4382,7 @@ StmtInfo
 stmt
 StmtType
 type
-NestedScopeObject
+NestedStaticScopeObject
 &
 staticScope
 )
@@ -4441,7 +4441,7 @@ linkAsInnermostScopeStmt
 StmtInfo
 *
 stmt
-NestedScopeObject
+NestedStaticScopeObject
 &
 staticScope
 )

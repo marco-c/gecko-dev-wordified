@@ -4572,7 +4572,7 @@ innermostScopeStmt
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 outer
@@ -4971,7 +4971,7 @@ to
 a
 /
 /
-NestedScopeObject
+NestedStaticScopeObject
 in
 the
 object
@@ -4983,9 +4983,9 @@ script
 That
 scope
 object
+/
+/
 is
-/
-/
 linked
 to
 the
@@ -5000,9 +5000,9 @@ if
 any
 .
 The
+/
+/
 static
-/
-/
 scope
 chain
 at
@@ -5375,7 +5375,7 @@ stmtType
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 scopeObj
@@ -5390,7 +5390,7 @@ object
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
@@ -5875,7 +5875,7 @@ find
 blockObjIndex
 )
 ;
-NestedScopeObject
+NestedStaticScopeObject
 *
 staticScope
 =
@@ -5888,7 +5888,7 @@ object
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )

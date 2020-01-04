@@ -3269,7 +3269,7 @@ compartment
 {
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope

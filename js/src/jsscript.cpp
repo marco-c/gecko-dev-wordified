@@ -3646,7 +3646,7 @@ FindScopeObjectIndex
 JSScript
 *
 script
-NestedScopeObject
+NestedStaticScopeObject
 &
 scope
 )
@@ -6946,7 +6946,7 @@ mode
 XDR_ENCODE
 )
 {
-NestedScopeObject
+NestedStaticScopeObject
 &
 scope
 =
@@ -6958,14 +6958,14 @@ objp
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
 ;
 if
 (
-NestedScopeObject
+NestedStaticScopeObject
 *
 enclosing
 =
@@ -23275,7 +23275,7 @@ obj
 >
 is
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
@@ -23283,7 +23283,7 @@ NestedScopeObject
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 innerBlock
@@ -23295,7 +23295,7 @@ obj
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
@@ -23309,7 +23309,7 @@ cx
 ;
 if
 (
-NestedScopeObject
+NestedStaticScopeObject
 *
 enclosingBlock
 =
@@ -25053,7 +25053,7 @@ JSContext
 cx
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingScope
@@ -26894,7 +26894,7 @@ nfixed
 nlivefixed
 )
 {
-NestedScopeObject
+NestedStaticScopeObject
 *
 staticScope
 =
@@ -27018,7 +27018,7 @@ return
 nlivefixed
 ;
 }
-NestedScopeObject
+NestedStaticScopeObject
 *
 JSScript
 :
@@ -27065,7 +27065,7 @@ blockScopes
 (
 )
 ;
-NestedScopeObject
+NestedStaticScopeObject
 *
 blockChain
 =
@@ -27332,7 +27332,7 @@ index
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )

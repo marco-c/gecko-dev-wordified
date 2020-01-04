@@ -8346,7 +8346,7 @@ lexicalScope
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope

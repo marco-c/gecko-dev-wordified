@@ -23247,7 +23247,7 @@ from
 scope
 chain
 .
-NestedScopeObject
+NestedStaticScopeObject
 *
 scope
 =
@@ -30368,7 +30368,7 @@ scope
 .
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 scope

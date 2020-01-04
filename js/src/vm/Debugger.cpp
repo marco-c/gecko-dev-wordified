@@ -45403,7 +45403,7 @@ chain
 /
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -45591,7 +45591,7 @@ scope
 .
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
