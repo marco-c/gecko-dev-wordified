@@ -70,8 +70,6 @@ re
 import
 urllib2
 import
-tarfile
-import
 time
 from
 .
@@ -85,6 +83,8 @@ util
 docker
 import
 (
+    
+create_context_tar
     
 docker_image
     
@@ -1297,29 +1297,10 @@ destination
 )
 )
         
-with
-tarfile
-.
-open
-(
-destination
-'
-w
-:
-gz
-'
-)
-as
-tar
-:
-            
-tar
-.
-add
+create_context_tar
 (
 context_dir
-arcname
-=
+destination
 image_name
 )
     
