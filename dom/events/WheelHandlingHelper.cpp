@@ -3369,6 +3369,8 @@ nsIScrollableFrame
 *
 target
 =
+do_QueryFrame
+(
 aESM
 -
 >
@@ -3388,6 +3390,7 @@ EventStateManager
 :
 :
 COMPUTE_DEFAULT_ACTION_TARGET
+)
 )
 ;
 nsIScrollbarMediator

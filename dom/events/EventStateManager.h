@@ -3732,7 +3732,7 @@ START_FROM_PARENT
 )
 }
 ;
-nsIScrollableFrame
+nsIFrame
 *
 ComputeScrollTarget
 (
@@ -3746,7 +3746,7 @@ ComputeScrollTargetOptions
 aOptions
 )
 ;
-nsIScrollableFrame
+nsIFrame
 *
 ComputeScrollTarget
 (
