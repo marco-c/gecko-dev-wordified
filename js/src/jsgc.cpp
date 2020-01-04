@@ -46815,6 +46815,12 @@ nobarrier
 cx
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 for
 (
 JS
