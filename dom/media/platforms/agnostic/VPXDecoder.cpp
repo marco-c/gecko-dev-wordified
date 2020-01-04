@@ -575,7 +575,7 @@ int
 VPXDecoder
 :
 :
-DoDecodeFrame
+DoDecode
 (
 MediaRawData
 *
@@ -1342,7 +1342,7 @@ void
 VPXDecoder
 :
 :
-DecodeFrame
+ProcessDecode
 (
 MediaRawData
 *
@@ -1351,7 +1351,7 @@ aSample
 {
 if
 (
-DoDecodeFrame
+DoDecode
 (
 aSample
 )
@@ -1418,14 +1418,8 @@ this
 VPXDecoder
 :
 :
-DecodeFrame
-RefPtr
-<
-MediaRawData
->
-(
+ProcessDecode
 aSample
-)
 )
 )
 ;
@@ -1437,7 +1431,7 @@ void
 VPXDecoder
 :
 :
-DoDrain
+ProcessDrain
 (
 )
 {
@@ -1469,7 +1463,7 @@ this
 VPXDecoder
 :
 :
-DoDrain
+ProcessDrain
 )
 )
 ;
