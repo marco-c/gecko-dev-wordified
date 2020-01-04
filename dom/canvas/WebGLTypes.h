@@ -820,6 +820,7 @@ RA32F
 /
 /
 OES_texture_float
+RG8
 /
 /
 3
