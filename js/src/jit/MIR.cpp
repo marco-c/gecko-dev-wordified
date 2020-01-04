@@ -36606,6 +36606,14 @@ DontSaveTls
 nullptr
 )
 ;
+if
+(
+!
+call
+)
+return
+nullptr
+;
 MOZ_ASSERT
 (
 instanceArg
