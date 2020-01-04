@@ -168,7 +168,7 @@ func
 =
 frame
 .
-functionDisplayFrame
+functionDisplayName
 |
 |
 "
