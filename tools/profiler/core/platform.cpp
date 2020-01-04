@@ -3154,7 +3154,7 @@ mozilla
 jni
 :
 :
-IsAvailable
+IsFennec
 (
 )
 )

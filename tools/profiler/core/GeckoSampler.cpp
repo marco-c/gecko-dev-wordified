@@ -1304,6 +1304,17 @@ js
 ;
 mProfileJava
 =
+mozilla
+:
+:
+jni
+:
+:
+IsFennec
+(
+)
+&
+&
 hasFeature
 (
 aFeatures

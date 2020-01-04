@@ -16707,6 +16707,16 @@ GetMIMEType
 contentType
 )
 ;
+if
+(
+jni
+:
+:
+IsFennec
+(
+)
+)
+{
 java
 :
 :
@@ -16722,6 +16732,7 @@ contentType
 )
 )
 ;
+}
 }
 #
 else
