@@ -1134,11 +1134,6 @@ StoreElementHole
 \
 _
 (
-FallibleStoreElement
-)
-\
-_
-(
 StoreUnboxedScalar
 )
 \

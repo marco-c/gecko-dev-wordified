@@ -5757,17 +5757,6 @@ errorNumber
 ;
 MOZ_MUST_USE
 bool
-ThrowReadOnlyError
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-;
-MOZ_MUST_USE
-bool
 BaselineThrowUninitializedThis
 (
 JSContext
