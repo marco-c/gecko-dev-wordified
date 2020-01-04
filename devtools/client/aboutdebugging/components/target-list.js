@@ -205,6 +205,15 @@ props
 client
 ;
 let
+debugDisabled
+=
+this
+.
+props
+.
+debugDisabled
+;
+let
 targets
 =
 this
@@ -233,6 +242,7 @@ TargetComponent
 {
 client
 target
+debugDisabled
 }
 )
 ;
