@@ -2745,6 +2745,11 @@ values
 eStyleAnimType_Shadow
 /
 /
+discrete
+values
+eStyleAnimType_Discrete
+/
+/
 property
 not
 animatable
