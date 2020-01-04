@@ -2288,6 +2288,13 @@ return
 host
 :
 hostname
+path
+:
+channel
+.
+URI
+.
+path
 realm
 :
 httpRealm

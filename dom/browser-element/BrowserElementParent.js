@@ -3062,6 +3062,11 @@ host
 authDetail
 .
 host
+path
+:
+authDetail
+.
+path
 realm
 :
 authDetail
