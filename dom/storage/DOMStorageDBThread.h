@@ -1984,12 +1984,6 @@ nsCStringHashKey
 >
 mScopesHavingData
 ;
-StatementCache
-mWorkerStatements
-;
-StatementCache
-mReaderStatements
-;
 /
 /
 Connection
@@ -2028,6 +2022,12 @@ nsCOMPtr
 mozIStorageConnection
 >
 mReaderConnection
+;
+StatementCache
+mWorkerStatements
+;
+StatementCache
+mReaderStatements
 ;
 /
 /
