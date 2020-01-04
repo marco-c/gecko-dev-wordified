@@ -5023,8 +5023,7 @@ mIndex
 .
 RemoveEntry
 (
-*
-aHash
+entry
 )
 ;
 entry
