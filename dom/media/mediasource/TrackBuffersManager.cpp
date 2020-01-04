@@ -12559,6 +12559,15 @@ frame
 /
 length
 .
+if
+(
+aIntervals
+.
+Length
+(
+)
+)
+{
 TimeIntervals
 range
 (
@@ -12583,6 +12592,7 @@ mSanitizedBufferedRanges
 =
 range
 ;
+}
 }
 void
 TrackBuffersManager
