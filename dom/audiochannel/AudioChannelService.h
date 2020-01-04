@@ -186,6 +186,9 @@ nsIRunnable
 class
 nsPIDOMWindow
 ;
+class
+PRLogModuleInfo
+;
 namespace
 mozilla
 {
@@ -268,6 +271,13 @@ GetOrCreate
 static
 bool
 IsAudioChannelMutedByDefault
+(
+)
+;
+static
+PRLogModuleInfo
+*
+GetAudioChannelLog
 (
 )
 ;
