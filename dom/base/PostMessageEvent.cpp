@@ -1145,15 +1145,7 @@ EmptyString
 (
 )
 source
-Sequence
-<
-OwningNonNull
-<
-MessagePort
->
->
-(
-)
+nullptr
 )
 ;
 nsTArray
