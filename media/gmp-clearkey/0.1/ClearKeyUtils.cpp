@@ -2587,6 +2587,16 @@ keyId
 empty
 (
 )
+&
+&
+keyId
+.
+size
+(
+)
+<
+=
+kMaxKeyIdsLength
 )
 {
 aOutKeyIds
