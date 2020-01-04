@@ -768,13 +768,6 @@ MediaDecoderReader
 first
 .
 mDecoderReader
--
->
-BreakCycles
-(
-)
-;
-mDecoderReader
 =
 nullptr
 ;
