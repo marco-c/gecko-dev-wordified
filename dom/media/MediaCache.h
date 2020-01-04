@@ -1949,8 +1949,6 @@ MediaCacheStream
 {
 public
 :
-enum
-{
 /
 /
 This
@@ -1961,10 +1959,12 @@ a
 power
 of
 two
+static
+const
+int64_t
 BLOCK_SIZE
 =
 32768
-}
 ;
 enum
 ReadMode
