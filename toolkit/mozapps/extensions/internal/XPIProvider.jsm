@@ -1823,9 +1823,6 @@ extension
 "
 locale
 "
-"
-experiment
-"
 ]
 )
 ;
