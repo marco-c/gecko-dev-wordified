@@ -46838,6 +46838,9 @@ JS
 :
 AutoSuppressGCAnalysis
 suppress
+(
+cx
+)
 ;
 for
 (
