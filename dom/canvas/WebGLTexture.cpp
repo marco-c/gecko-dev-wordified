@@ -3960,12 +3960,6 @@ IsDataInitialized
 )
 ;
 const
-bool
-respecifyTexture
-=
-false
-;
-const
 auto
 &
 usage
@@ -4008,7 +4002,6 @@ ZeroTextureData
 (
 mContext
 funcName
-respecifyTexture
 mGLName
 target
 level

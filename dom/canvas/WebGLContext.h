@@ -10823,8 +10823,6 @@ const
 char
 *
 funcName
-bool
-respecifyTexture
 GLuint
 tex
 TexImageTarget
