@@ -1003,16 +1003,6 @@ prefHasUserValue
 username
 "
 )
-&
-&
-prefs
-.
-prefHasUserValue
-(
-"
-clusterURL
-"
-)
 ;
 }
 observe
