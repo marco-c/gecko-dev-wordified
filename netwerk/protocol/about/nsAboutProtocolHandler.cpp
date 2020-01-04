@@ -388,6 +388,7 @@ NS_IMPL_ISUPPORTS
 (
 nsAboutProtocolHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 /
 /
@@ -1553,6 +1554,7 @@ NS_IMPL_ISUPPORTS
 (
 nsSafeAboutProtocolHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 /
 /
