@@ -557,11 +557,16 @@ AppendPrintf
 Gamma
 :
 %
-d
+.
+4g
 "
 params
 .
 gamma
+/
+1000
+.
+0
 )
 ;
 }
