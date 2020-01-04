@@ -4784,6 +4784,9 @@ MOZ_ASSERT
 constraints
 )
 ;
+(
+void
+)
 key
 -
 >
