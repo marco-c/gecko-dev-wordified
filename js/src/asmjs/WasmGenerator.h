@@ -612,6 +612,9 @@ metadata_
 ExportVector
 exports_
 ;
+ImportVector
+imports_
+;
 DataSegmentVector
 dataSegments_
 ;
@@ -674,7 +677,7 @@ JumpSiteArray
 jumpThunks_
 ;
 bool
-tableExported_
+externalTable_
 ;
 /
 /
@@ -804,6 +807,10 @@ public
 explicit
 ModuleGenerator
 (
+ImportVector
+&
+&
+imports
 )
 ;
 ~
@@ -1284,10 +1291,6 @@ source
 SharedModule
 finish
 (
-ImportVector
-&
-&
-imports
 const
 ShareableBytes
 &

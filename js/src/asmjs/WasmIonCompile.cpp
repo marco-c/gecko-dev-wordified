@@ -10526,7 +10526,7 @@ funcPtrCall
 sigIndex
 table
 .
-length
+initial
 table
 .
 globalDataOffset

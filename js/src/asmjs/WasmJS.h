@@ -1476,9 +1476,12 @@ table
 )
 const
 ;
-void
+bool
 setInstance
 (
+JSContext
+*
+cx
 uint32_t
 index
 HandleWasmInstanceObject

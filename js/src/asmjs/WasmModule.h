@@ -1073,9 +1073,12 @@ tables
 )
 const
 ;
-void
+bool
 initElems
 (
+JSContext
+*
+cx
 HandleWasmInstanceObject
 instanceObj
 HandleWasmTableObject

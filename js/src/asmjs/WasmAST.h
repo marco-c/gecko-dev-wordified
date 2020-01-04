@@ -2704,6 +2704,8 @@ AstName
 module
 AstName
 field
+DefinitionKind
+kind
 AstResizable
 resizable
 )
@@ -2722,10 +2724,7 @@ field
 )
 kind_
 (
-DefinitionKind
-:
-:
-Memory
+kind
 )
 resizable_
 (
@@ -2795,7 +2794,7 @@ funcSig_
 ;
 }
 AstResizable
-memory
+resizable
 (
 )
 const
@@ -2803,12 +2802,12 @@ const
 MOZ_ASSERT
 (
 kind_
-=
+!
 =
 DefinitionKind
 :
 :
-Memory
+Function
 )
 ;
 return
