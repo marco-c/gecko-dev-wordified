@@ -3833,7 +3833,7 @@ mozL10n
 get
 (
 "
-delete_conversation_menuitem
+delete_conversation_menuitem2
 "
 )
 )
