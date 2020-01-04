@@ -1263,6 +1263,14 @@ mManager
 mLock
 )
 ;
+if
+(
+mWaiting
+)
+{
+return
+;
+}
 Update
 (
 )
