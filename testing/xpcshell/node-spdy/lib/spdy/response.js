@@ -1089,15 +1089,6 @@ socket
 ;
 socket
 .
-connection
-.
-_addStream
-(
-stream
-)
-;
-socket
-.
 _lock
 (
 function

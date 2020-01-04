@@ -61,6 +61,15 @@ require
 .
 constants
 ;
+var
+empty
+=
+new
+Buffer
+(
+0
+)
+;
 function
 Framer
 (
@@ -2153,8 +2162,7 @@ return
 callback
 (
 null
-[
-]
+empty
 )
 ;
 var
