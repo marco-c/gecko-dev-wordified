@@ -2389,7 +2389,7 @@ Animation
 >
 mAnimation
 ;
-OwningNonNull
+RefPtr
 <
 AnimationEffectTimingReadOnly
 >
