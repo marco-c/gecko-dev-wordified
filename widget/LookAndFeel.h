@@ -188,6 +188,8 @@ cpp
 .
 enum
 ColorID
+:
+uint8_t
 {
 /
 /
