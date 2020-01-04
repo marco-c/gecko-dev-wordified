@@ -1630,14 +1630,6 @@ emitDebugTrap
 (
 )
 ;
-void
-emitCoverage
-(
-jsbytecode
-*
-pc
-)
-;
 MOZ_MUST_USE
 bool
 emitTraceLoggerEnter
