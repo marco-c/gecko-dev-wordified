@@ -4119,7 +4119,7 @@ GetClipRect
 ;
 }
 const
-nsIntRegion
+LayerIntRegion
 &
 Layer
 :
@@ -6548,6 +6548,10 @@ aResult
 GetEffectiveVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 ;
 for
 (
@@ -6877,6 +6881,10 @@ sibling
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 )
@@ -12118,6 +12126,10 @@ AppendToString
 (
 aStream
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 "
 [
 visible
@@ -13267,6 +13279,10 @@ lc
 GetShadowVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -13326,6 +13342,10 @@ if
 !
 mVisibleRegion
 .
+ToUnknownRegion
+(
+)
+.
 IsEmpty
 (
 )
@@ -13340,6 +13360,10 @@ mutable_vregion
 (
 )
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -15985,6 +16009,10 @@ aLayerComposite
 GetShadowVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 "
 [
 shadow
@@ -16064,6 +16092,10 @@ aLayer
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

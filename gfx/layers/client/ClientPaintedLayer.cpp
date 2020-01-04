@@ -629,6 +629,10 @@ mRegionToInvalidate
 GetEffectiveVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 )
 ;
 bool
@@ -841,6 +845,10 @@ state
 .
 mRegionToDraw
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 state
 .
 mDidSelfCopy

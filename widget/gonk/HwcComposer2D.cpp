@@ -1577,13 +1577,16 @@ false
 ;
 const
 nsIntRegion
-&
 visibleRegion
 =
 aLayer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 ;

@@ -3078,6 +3078,10 @@ layerSize
 =
 mVisibleRegion
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -3331,6 +3335,10 @@ nsIntRegion
 neededRegion
 =
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 ;
 #
 ifndef

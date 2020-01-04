@@ -1345,10 +1345,16 @@ layer
 >
 SetVisibleRegion
 (
+LayerIntRegion
+:
+:
+FromUnknownRegion
+(
 aVisibleRegions
 [
 layerNumber
 ]
+)
 )
 ;
 layer

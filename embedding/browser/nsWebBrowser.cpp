@@ -9551,7 +9551,13 @@ root
 >
 SetVisibleRegion
 (
+LayerIntRegion
+:
+:
+FromUnknownRegion
+(
 dirtyRect
+)
 )
 ;
 layerManager

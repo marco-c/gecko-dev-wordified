@@ -2001,7 +2001,7 @@ return
 nullptr
 ;
 }
-nsIntRegion
+LayerIntRegion
 GetVisibleRegion
 (
 )
@@ -2030,7 +2030,7 @@ GetVisibleRegion
 )
 ;
 }
-nsIntRegion
+LayerIntRegion
 region
 =
 mLayer

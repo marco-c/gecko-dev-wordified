@@ -420,7 +420,7 @@ void
 SetVisibleRegion
 (
 const
-nsIntRegion
+LayerIntRegion
 &
 aRegion
 )

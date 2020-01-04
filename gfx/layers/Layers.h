@@ -5718,7 +5718,7 @@ void
 SetVisibleRegion
 (
 const
-nsIntRegion
+LayerIntRegion
 &
 aRegion
 )
@@ -8738,7 +8738,7 @@ mLayerBounds
 ;
 }
 const
-nsIntRegion
+LayerIntRegion
 &
 GetVisibleRegion
 (
@@ -10364,7 +10364,7 @@ GetEffectiveClipRect
 )
 ;
 const
-nsIntRegion
+LayerIntRegion
 &
 GetEffectiveVisibleRegion
 (
@@ -11597,6 +11597,10 @@ mInvalidRegion
 GetVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 ;
 }
 /
@@ -12597,7 +12601,7 @@ gfx
 IntRect
 mLayerBounds
 ;
-nsIntRegion
+LayerIntRegion
 mVisibleRegion
 ;
 nsTArray
@@ -14580,6 +14584,10 @@ RenderTargetIntRect
 FromUnknownRect
 (
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

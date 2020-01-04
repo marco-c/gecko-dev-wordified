@@ -576,6 +576,10 @@ IntersectWithClip
 GetEffectiveVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 aContext
 )
 ;
@@ -1160,6 +1164,10 @@ state
 .
 mRegionToInvalidate
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 )

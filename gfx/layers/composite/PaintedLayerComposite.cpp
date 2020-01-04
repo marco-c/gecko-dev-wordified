@@ -707,10 +707,13 @@ corrupted
 ;
 const
 nsIntRegion
-&
 visibleRegion
 =
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 ;
