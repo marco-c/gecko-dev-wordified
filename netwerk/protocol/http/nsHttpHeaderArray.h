@@ -1503,6 +1503,15 @@ nsHttp
 :
 :
 Location
+|
+|
+header
+=
+=
+nsHttp
+:
+:
+Access_Control_Allow_Origin
 ;
 }
 inline
