@@ -5761,12 +5761,6 @@ rv
 =
 NS_OK
 ;
-nsCOMPtr
-<
-nsIAtom
->
-charsetAtom
-;
 bool
 rewriteEncodingDeclaration
 =
@@ -8991,12 +8985,6 @@ opEndNode
 int32_t
 opStartOffset
 opEndOffset
-;
-nsCOMPtr
-<
-nsIDOMRange
->
-opRange
 ;
 /
 /

@@ -2141,12 +2141,6 @@ to
 .
 .
 .
-nsCOMPtr
-<
-nsIOutputStream
->
-outstream
-;
 rv
 =
 NS_NewLocalFileOutputStream

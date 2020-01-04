@@ -823,15 +823,6 @@ bool
 aTerminated
 )
 {
-RefPtr
-<
-nsParserBase
->
-kungFuDeathGrip
-(
-mParser
-)
-;
 /
 /
 Drop

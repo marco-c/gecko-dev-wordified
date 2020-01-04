@@ -34511,12 +34511,6 @@ AssertIsOnIOThread
 (
 )
 ;
-nsCOMPtr
-<
-nsIFile
->
-permanentStorageDir
-;
 for
 (
 uint32_t

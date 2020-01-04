@@ -3485,12 +3485,6 @@ nsISupports
 >
 supports
 ;
-nsCOMPtr
-<
-nsIDOMHTMLElement
->
-beforeElement
-;
 /
 /
 whether
