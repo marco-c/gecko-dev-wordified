@@ -1759,6 +1759,15 @@ isSourceMapped
 this
 .
 isSourceMapped
+sourceMapURL
+:
+source
+?
+source
+.
+sourceMapURL
+:
+null
 introductionUrl
 :
 introductionUrl
