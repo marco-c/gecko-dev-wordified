@@ -4611,9 +4611,6 @@ CancelAllTimeouts
 bool
 ScheduleKillCloseEventRunnable
 (
-JSContext
-*
-aCx
 )
 ;
 bool
