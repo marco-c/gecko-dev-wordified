@@ -291,7 +291,7 @@ GetBaseValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGLengthList
 >
@@ -340,7 +340,7 @@ GetAnimValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGLengthList
 >
@@ -382,7 +382,7 @@ uint8_t
 aAxis
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedLengthList
 >
@@ -615,7 +615,7 @@ memory
 )
 !
 !
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedLengthList
 >

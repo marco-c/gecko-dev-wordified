@@ -470,7 +470,7 @@ uint16_t
 >
 mCdmaServiceCategory
 ;
-RefPtr
+nsRefPtr
 <
 CellBroadcastEtwsInfo
 >

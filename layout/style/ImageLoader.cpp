@@ -745,7 +745,7 @@ something
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1483,7 +1483,7 @@ aOriginPrincipal
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1530,7 +1530,7 @@ request
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

@@ -162,7 +162,7 @@ mDBRefCnt
 ThreadSafeAutoRefCnt
 mSliceRefCnt
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >

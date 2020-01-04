@@ -329,7 +329,7 @@ nsIWorkerHolder
 >
 mWifiWorker
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

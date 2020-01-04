@@ -1976,7 +1976,7 @@ doc
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -12465,7 +12465,7 @@ mozilla
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -12484,7 +12484,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

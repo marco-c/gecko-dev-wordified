@@ -233,7 +233,7 @@ delete
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -250,7 +250,7 @@ mBlobImplArray
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

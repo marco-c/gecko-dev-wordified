@@ -118,7 +118,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -719,7 +719,7 @@ lock
 mImageMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >

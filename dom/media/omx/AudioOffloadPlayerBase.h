@@ -450,7 +450,7 @@ NEXT_FRAME_UNAVAILABLE
 ;
 }
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 :

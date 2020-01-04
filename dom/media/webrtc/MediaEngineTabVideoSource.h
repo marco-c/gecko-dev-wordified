@@ -385,7 +385,7 @@ Run
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaEngineTabVideoSource
 >
@@ -420,7 +420,7 @@ Run
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaEngineTabVideoSource
 >
@@ -455,7 +455,7 @@ Run
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaEngineTabVideoSource
 >
@@ -504,7 +504,7 @@ nsIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

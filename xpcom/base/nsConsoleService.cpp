@@ -805,7 +805,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -873,7 +873,7 @@ nsIConsoleMessage
 >
 mMessage
 ;
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -1131,7 +1131,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 LogMessageRunnable
 >
@@ -1724,7 +1724,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsConsoleMessage
 >

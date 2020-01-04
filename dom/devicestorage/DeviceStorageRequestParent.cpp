@@ -297,7 +297,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -340,7 +340,7 @@ blobParent
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -384,7 +384,7 @@ Failed
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -439,7 +439,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -482,7 +482,7 @@ blobParent
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -526,7 +526,7 @@ Failed
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -581,7 +581,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -607,7 +607,7 @@ relpath
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -660,7 +660,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -691,7 +691,7 @@ relpath
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -744,7 +744,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -770,7 +770,7 @@ relpath
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -823,7 +823,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -844,7 +844,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FreeSpaceFileEvent
 >
@@ -913,7 +913,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -934,7 +934,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 UsedSpaceFileEvent
 >
@@ -970,7 +970,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -991,7 +991,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostAvailableResultEvent
 >
@@ -1038,7 +1038,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1059,7 +1059,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostStatusResultEvent
 >
@@ -1106,7 +1106,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1127,7 +1127,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostFormatResultEvent
 >
@@ -1174,7 +1174,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1195,7 +1195,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostMountResultEvent
 >
@@ -1242,7 +1242,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1263,7 +1263,7 @@ storageName
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostUnmountResultEvent
 >
@@ -1310,7 +1310,7 @@ p
 =
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1341,7 +1341,7 @@ NS_LITERAL_STRING
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >
@@ -2454,7 +2454,7 @@ GetFullPath
 fullPath
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3974,7 +3974,7 @@ r
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >

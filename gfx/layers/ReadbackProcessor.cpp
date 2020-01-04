@@ -941,7 +941,7 @@ opaque
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

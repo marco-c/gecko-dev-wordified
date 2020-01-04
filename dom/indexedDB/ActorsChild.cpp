@@ -2683,7 +2683,7 @@ BackgroundFactoryRequestChild
 *
 mActor
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -2771,7 +2771,7 @@ BackgroundFactoryRequestChild
 *
 mActor
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -2964,7 +2964,7 @@ get_PBlobChild
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2982,7 +2982,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -3307,7 +3307,7 @@ Category
 STORAGE
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -3315,7 +3315,7 @@ request
 =
 aRequest
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -3704,7 +3704,7 @@ Category
 STORAGE
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -3729,7 +3729,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -4080,7 +4080,7 @@ final
 public
 WorkerControlRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerPermissionChallenge
 >
@@ -4154,7 +4154,7 @@ final
 public
 PermissionRequestBase
 {
-RefPtr
+nsRefPtr
 <
 WorkerPermissionChallenge
 >
@@ -4253,7 +4253,7 @@ final
 public
 PIndexedDBPermissionRequestChild
 {
-RefPtr
+nsRefPtr
 <
 WorkerPermissionChallenge
 >
@@ -4464,7 +4464,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 WorkerPermissionOperationCompleted
 >
@@ -4507,7 +4507,7 @@ MaybeCollectGarbageOnIPCMessage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -4701,7 +4701,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 WorkerPermissionRequest
 >
@@ -4841,7 +4841,7 @@ BackgroundFactoryRequestChild
 *
 mActor
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -5189,7 +5189,7 @@ MaybeCollectGarbageOnIPCMessage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -6841,7 +6841,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerPermissionChallenge
 >
@@ -7022,7 +7022,7 @@ SendPermissionRetry
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PermissionRequestMainProcessHelper
 >
@@ -7114,7 +7114,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -7247,7 +7247,7 @@ blockedEvent
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -8162,7 +8162,7 @@ BackgroundVersionChangeTransactionChild
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBOpenDBRequest
 >
@@ -8180,7 +8180,7 @@ MOZ_ASSERT
 request
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -8503,7 +8503,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDBDatabase
 >
@@ -11091,7 +11091,7 @@ MOZ_ASSERT
 database
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBMutableFile
 >
@@ -12470,7 +12470,7 @@ BackgroundCursorChild
 *
 mActor
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -13119,7 +13119,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >
@@ -13584,7 +13584,7 @@ cloneReadInfo
 mFiles
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >
@@ -13774,7 +13774,7 @@ ObjectStoreKeyCursorResponse
 aResponse
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >
@@ -13948,7 +13948,7 @@ cloneReadInfo
 mFiles
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >
@@ -14120,7 +14120,7 @@ IndexKeyCursorResponse
 aResponse
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >
@@ -14388,7 +14388,7 @@ MaybeCollectGarbageOnIPCMessage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -14401,7 +14401,7 @@ swap
 request
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >

@@ -1735,7 +1735,7 @@ mSpec
 bool
 mAllowlistOnly
 ;
-RefPtr
+nsRefPtr
 <
 PendingLookup
 >
@@ -3203,7 +3203,7 @@ RemoveElementAt
 index
 )
 ;
-RefPtr
+nsRefPtr
 <
 PendingDBLookup
 >
@@ -3347,7 +3347,7 @@ RemoveElementAt
 index
 )
 ;
-RefPtr
+nsRefPtr
 <
 PendingDBLookup
 >
@@ -7879,7 +7879,7 @@ the
 call
 chain
 .
-RefPtr
+nsRefPtr
 <
 PendingLookup
 >

@@ -678,13 +678,13 @@ and
 the
 DOM
 .
-RefPtr
+nsRefPtr
 <
 ChromeTooltipListener
 >
 mChromeTooltipListener
 ;
-RefPtr
+nsRefPtr
 <
 ChromeContextMenuListener
 >

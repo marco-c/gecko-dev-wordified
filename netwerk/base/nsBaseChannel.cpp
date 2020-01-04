@@ -721,7 +721,7 @@ an
 internal
 redirect
 .
-RefPtr
+nsRefPtr
 <
 nsAsyncRedirectVerifyHelper
 >
@@ -1719,7 +1719,7 @@ mLoadFlags
 LOAD_CLASSIFY_URI
 )
 {
-RefPtr
+nsRefPtr
 <
 nsChannelClassifier
 >
@@ -4408,7 +4408,7 @@ OnTransportStatusAsyncEvent
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 nsBaseChannel
 >

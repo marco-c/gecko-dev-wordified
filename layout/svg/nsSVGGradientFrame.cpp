@@ -1702,7 +1702,7 @@ nStops
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -1820,7 +1820,7 @@ stopOpacity
 *
 aGraphicOpacity
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -1975,7 +1975,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -3410,7 +3410,7 @@ SVGLinearGradientElement
 ATTR_Y2
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -4489,7 +4489,7 @@ cy
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >

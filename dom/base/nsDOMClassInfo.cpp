@@ -8911,7 +8911,7 @@ ci_data
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMConstructor
 >
@@ -11443,7 +11443,7 @@ object
 .
 .
 .
-RefPtr
+nsRefPtr
 <
 nsDOMConstructor
 >
@@ -12130,7 +12130,7 @@ nsGlobalNameStruct
 eTypeExternalConstructor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMConstructor
 >

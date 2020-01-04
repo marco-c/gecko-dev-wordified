@@ -392,7 +392,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >

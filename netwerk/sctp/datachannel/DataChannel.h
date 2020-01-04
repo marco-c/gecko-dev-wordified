@@ -1458,7 +1458,7 @@ static
 void
 ReleaseTransportFlow
 (
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -1502,7 +1502,7 @@ mAllocateEven
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -1599,7 +1599,7 @@ mLock
 #
 ifdef
 SCTP_DTLS_SUPPORTED
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -2304,7 +2304,7 @@ uint32_t
 size
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -2923,13 +2923,13 @@ XXX
 should
 use
 union
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
 mChannel
 ;
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >

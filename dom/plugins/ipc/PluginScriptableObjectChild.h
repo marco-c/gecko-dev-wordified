@@ -957,7 +957,7 @@ StackIdentifier
 PluginIdentifier
 mIdentifier
 ;
-RefPtr
+nsRefPtr
 <
 StoredIdentifier
 >
@@ -1316,7 +1316,7 @@ typedef
 nsDataHashtable
 <
 nsCStringHashKey
-RefPtr
+nsRefPtr
 <
 StoredIdentifier
 >

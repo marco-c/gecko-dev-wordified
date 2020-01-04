@@ -496,7 +496,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

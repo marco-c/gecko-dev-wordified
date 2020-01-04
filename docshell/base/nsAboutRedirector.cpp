@@ -1142,7 +1142,7 @@ void
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsAboutRedirector
 >

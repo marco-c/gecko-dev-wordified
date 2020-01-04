@@ -1287,7 +1287,7 @@ nsISimpleEnumerator
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGroupsEnumerator
 >
@@ -1351,7 +1351,7 @@ groupKey
 may
 be
 null
-RefPtr
+nsRefPtr
 <
 nsNamedGroupEnumerator
 >

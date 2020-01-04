@@ -2384,7 +2384,7 @@ ForRGBA
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextWGL
 >
@@ -2855,7 +2855,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextWGL
 >
@@ -3071,7 +3071,7 @@ ForRGBA
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextWGL
 >
@@ -3127,7 +3127,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContextWGL
 >
@@ -3231,7 +3231,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -3277,7 +3277,7 @@ CreateContextFlags
 flags
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -3320,7 +3320,7 @@ forget
 ;
 }
 static
-RefPtr
+nsRefPtr
 <
 GLContextWGL
 >

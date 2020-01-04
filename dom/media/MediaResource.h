@@ -2152,7 +2152,7 @@ uint32_t
 aCount
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -5151,7 +5151,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ChannelMediaResource
 >
@@ -5397,7 +5397,7 @@ only
 int64_t
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 Listener
 >
@@ -5501,7 +5501,7 @@ mChannelStatistics
 Mutex
 mLock
 ;
-RefPtr
+nsRefPtr
 <
 MediaChannelStatistics
 >
@@ -6585,7 +6585,7 @@ GetLength
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaResource
 >

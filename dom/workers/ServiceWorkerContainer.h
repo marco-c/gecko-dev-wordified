@@ -382,7 +382,7 @@ calling
 /
 claim
 .
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -391,7 +391,7 @@ ServiceWorker
 >
 mControllerWorker
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

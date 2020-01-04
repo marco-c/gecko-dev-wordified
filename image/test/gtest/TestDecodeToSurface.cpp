@@ -144,7 +144,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -273,7 +273,7 @@ public
 :
 DecodeToSurfaceRunnable
 (
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -427,7 +427,7 @@ TEST_CASE_IS_FUZZY
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -532,7 +532,7 @@ thread
 only
 code
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -733,7 +733,7 @@ inputStream
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

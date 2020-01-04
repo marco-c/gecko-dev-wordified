@@ -1100,7 +1100,7 @@ NS_ENSURE_ARG_POINTER
 aSheetURI
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -1117,7 +1117,7 @@ Loader
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -1309,7 +1309,7 @@ param
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -1339,7 +1339,7 @@ to
 use
 unsafe
 rules
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

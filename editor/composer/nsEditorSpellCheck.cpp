@@ -1021,7 +1021,7 @@ DictionaryFetcher
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsEditorSpellCheck
 >
@@ -1923,7 +1923,7 @@ domSelection
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1977,7 +1977,7 @@ count
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -2048,7 +2048,7 @@ copy
 of
 it
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -2239,7 +2239,7 @@ guaranteed
 async
 behavior
 .
-RefPtr
+nsRefPtr
 <
 CallbackCaller
 >
@@ -3009,7 +3009,7 @@ mSpellChecker
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsEditorSpellCheck
 >
@@ -3525,7 +3525,7 @@ aCallback
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsEditorSpellCheck
 >
@@ -3706,7 +3706,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DictionaryFetcher
 >
@@ -4043,7 +4043,7 @@ MOZ_ASSERT
 aFetcher
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsEditorSpellCheck
 >

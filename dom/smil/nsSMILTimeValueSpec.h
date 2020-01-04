@@ -685,7 +685,7 @@ Element
 aTo
 )
 {
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -811,7 +811,7 @@ mSpec
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 EventListener
 >

@@ -757,7 +757,7 @@ aStorageName
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -775,7 +775,7 @@ Length
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -800,7 +800,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -825,7 +825,7 @@ aStorageName
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -882,7 +882,7 @@ we
 use
 pictures
 .
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -941,7 +941,7 @@ uint64_t
 aTotalSoFar
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1068,7 +1068,7 @@ uint64_t
 aTotalUsedSize
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -2523,7 +2523,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -3744,7 +3744,7 @@ uint32_t
 aFileAttributes
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -5346,7 +5346,7 @@ CollectFiles
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -5393,7 +5393,7 @@ collectFilesInternal
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -5686,7 +5686,7 @@ if
 isFile
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -7838,7 +7838,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -8276,7 +8276,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -8546,7 +8546,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageCursorRequest
 >
@@ -8683,7 +8683,7 @@ main
 thread
 *
 /
-RefPtr
+nsRefPtr
 <
 DeviceStorageCursorRequest
 >
@@ -8757,7 +8757,7 @@ u
 mId
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -9543,7 +9543,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -11593,7 +11593,7 @@ DeviceStoragePermissionCheck
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -13144,7 +13144,7 @@ aType
 storageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13226,7 +13226,7 @@ aType
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13279,7 +13279,7 @@ get
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13576,7 +13576,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13636,7 +13636,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13707,7 +13707,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -13896,7 +13896,7 @@ IsEmpty
 nsString
 status
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -14055,7 +14055,7 @@ IsAvailable
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -14338,7 +14338,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -14467,7 +14467,7 @@ aPath
 nsString
 storagePath
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -14506,7 +14506,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -14537,7 +14537,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -14605,7 +14605,7 @@ forget
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -14703,7 +14703,7 @@ aPath
 nsString
 storagePath
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -14741,7 +14741,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -14782,7 +14782,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -14813,7 +14813,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -14885,7 +14885,7 @@ aPath
 nsString
 storagePath
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -14922,7 +14922,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -14955,7 +14955,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -14986,7 +14986,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15043,7 +15043,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15056,7 +15056,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15087,7 +15087,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15163,7 +15163,7 @@ MOZ_ASSERT
 usedSpaceCache
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15176,7 +15176,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15207,7 +15207,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15264,7 +15264,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15277,7 +15277,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15308,7 +15308,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15365,7 +15365,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15378,7 +15378,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15409,7 +15409,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15466,7 +15466,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15479,7 +15479,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15510,7 +15510,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15567,7 +15567,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15580,7 +15580,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15611,7 +15611,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15668,7 +15668,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15681,7 +15681,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15712,7 +15712,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -15820,7 +15820,7 @@ aPath
 nsString
 storagePath
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -15858,7 +15858,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -15915,7 +15915,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -15946,7 +15946,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -16322,7 +16322,7 @@ toDouble
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -16347,7 +16347,7 @@ SetEditable
 aEditable
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageCursorRequest
 >
@@ -16358,7 +16358,7 @@ DeviceStorageCursorRequest
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorageCursor
 >
@@ -16519,7 +16519,7 @@ location
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageChangeEvent
 >
@@ -16636,7 +16636,7 @@ mReason
 =
 aStatus
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageChangeEvent
 >
@@ -16744,7 +16744,7 @@ mReason
 =
 aStorageStatus
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageChangeEvent
 >
@@ -16840,7 +16840,7 @@ IsOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -16985,7 +16985,7 @@ ignore
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -17178,7 +17178,7 @@ AssignWithConversion
 aReason
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageChangeEvent
 >
@@ -17287,7 +17287,7 @@ STORAGE_CHANGE_EVENT
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -17317,7 +17317,7 @@ Failed
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -17330,7 +17330,7 @@ mStorageType
 mStorageName
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequest
 >
@@ -17874,7 +17874,7 @@ MOZ_ASSERT
 aCursor
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorageCursor
 >
@@ -17946,7 +17946,7 @@ MOZ_ASSERT
 aRequest
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -18122,7 +18122,7 @@ u
 aId
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >
@@ -18284,7 +18284,7 @@ u
 aId
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >
@@ -18564,7 +18564,7 @@ aId
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >
@@ -18855,7 +18855,7 @@ mLastModifiedDate
 UINT64_MAX
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -19066,7 +19066,7 @@ aId
 aBlobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >
@@ -19074,7 +19074,7 @@ self
 =
 this
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -19256,7 +19256,7 @@ POST_ERROR_EVENT_UNKNOWN
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -19432,7 +19432,7 @@ state
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -19708,7 +19708,7 @@ state
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -19865,7 +19865,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >

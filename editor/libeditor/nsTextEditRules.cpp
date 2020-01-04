@@ -963,7 +963,7 @@ back
 to
 our
 editor
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1265,7 +1265,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1366,7 +1366,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3042,7 +3042,7 @@ nodes
 NodeFilterHolder
 filter
 ;
-RefPtr
+nsRefPtr
 <
 NodeIterator
 >
@@ -6378,7 +6378,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -6438,7 +6438,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIContent
 >
@@ -7937,7 +7937,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >

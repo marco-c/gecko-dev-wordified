@@ -688,7 +688,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWebShellWindow
 >
@@ -1713,7 +1713,7 @@ nsIWebBrowserChrome2
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 WebBrowserChrome2Stub
 >
@@ -1954,7 +1954,7 @@ nsIWebBrowserChrome2
 stub
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIWebNavigation
 >
@@ -2491,7 +2491,7 @@ parent
 =
 aParent
 ;
-RefPtr
+nsRefPtr
 <
 nsWebShellWindow
 >

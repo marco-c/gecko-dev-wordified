@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -425,7 +425,7 @@ private
 nsWeakPtr
 mWidget
 ;
-RefPtr
+nsRefPtr
 <
 ActiveElementManager
 >

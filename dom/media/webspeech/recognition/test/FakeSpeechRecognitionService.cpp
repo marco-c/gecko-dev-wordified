@@ -471,7 +471,7 @@ EVENT_RECOGNITIONSERVICE_FINAL_RESULT
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SpeechEvent
 >

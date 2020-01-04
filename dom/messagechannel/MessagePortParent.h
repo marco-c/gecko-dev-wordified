@@ -233,7 +233,7 @@ aWhy
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 MessagePortService
 >

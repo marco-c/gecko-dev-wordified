@@ -165,7 +165,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -255,7 +255,7 @@ channel
 being
 intercepted
 .
-RefPtr
+nsRefPtr
 <
 nsJARChannel
 >

@@ -416,7 +416,7 @@ ANY_CONTEXT
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 txResultRecycler
 >
@@ -431,7 +431,7 @@ context
 recycler
 )
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

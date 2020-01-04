@@ -307,7 +307,7 @@ includes
 the
 specific
 userfont
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

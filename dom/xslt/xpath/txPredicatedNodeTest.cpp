@@ -202,7 +202,7 @@ aNode
 aContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

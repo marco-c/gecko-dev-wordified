@@ -1788,7 +1788,7 @@ if
 displaySelection
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >

@@ -397,7 +397,7 @@ for
 chrome
 code
 .
-RefPtr
+nsRefPtr
 <
 DOMError
 >

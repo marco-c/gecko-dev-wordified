@@ -183,7 +183,7 @@ aMozMtpServer
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MozMtpStorage
 >
@@ -219,7 +219,7 @@ StorageUnavailable
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozMtpServer
 >
@@ -231,7 +231,7 @@ MtpStorage
 >
 mMtpStorage
 ;
-RefPtr
+nsRefPtr
 <
 Volume
 >

@@ -200,7 +200,7 @@ NS_NewGridRowGroupLayout
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBoxLayout
 >

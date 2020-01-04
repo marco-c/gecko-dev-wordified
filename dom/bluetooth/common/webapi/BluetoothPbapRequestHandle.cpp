@@ -245,7 +245,7 @@ MOZ_ASSERT
 aOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothPbapRequestHandle
 >
@@ -309,7 +309,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -321,7 +321,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -513,7 +513,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -525,7 +525,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -719,7 +719,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -731,7 +731,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >

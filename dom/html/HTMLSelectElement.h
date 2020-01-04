@@ -581,7 +581,7 @@ mutated
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 HTMLSelectElement
 >
@@ -3542,7 +3542,7 @@ options
 array
 *
 /
-RefPtr
+nsRefPtr
 <
 HTMLOptionsCollection
 >
@@ -3828,7 +3828,7 @@ options
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

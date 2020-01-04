@@ -313,7 +313,7 @@ IsContextLost
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 WebGLVertexArray
 >

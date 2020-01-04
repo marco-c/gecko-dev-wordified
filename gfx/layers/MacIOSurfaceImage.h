@@ -243,13 +243,13 @@ MAC_IOSURFACE
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
 mSurface
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

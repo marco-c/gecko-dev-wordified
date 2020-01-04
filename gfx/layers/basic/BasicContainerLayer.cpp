@@ -1133,7 +1133,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContainerLayer
 >

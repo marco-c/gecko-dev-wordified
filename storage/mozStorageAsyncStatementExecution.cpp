@@ -599,7 +599,7 @@ mozIStorageResultSet
 >
 mResults
 ;
-RefPtr
+nsRefPtr
 <
 AsyncExecuteStatements
 >
@@ -753,7 +753,7 @@ mozIStorageError
 >
 mErrorObj
 ;
-RefPtr
+nsRefPtr
 <
 AsyncExecuteStatements
 >
@@ -1028,7 +1028,7 @@ run
 in
 the
 background
-RefPtr
+nsRefPtr
 <
 AsyncExecuteStatements
 >
@@ -2366,7 +2366,7 @@ mResultSet
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-RefPtr
+nsRefPtr
 <
 Row
 >
@@ -2815,7 +2815,7 @@ the
 async
 thread
 .
-RefPtr
+nsRefPtr
 <
 CompletionNotifier
 >
@@ -2954,7 +2954,7 @@ mCallback
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 ErrorNotifier
 >
@@ -3012,7 +3012,7 @@ callback
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 CallbackResultNotifier
 >

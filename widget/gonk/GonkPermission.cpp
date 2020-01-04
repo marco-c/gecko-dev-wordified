@@ -350,7 +350,7 @@ int32_t
 pid
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkPermissionChecker
 >
@@ -987,7 +987,7 @@ camera
 "
 permission
 .
-RefPtr
+nsRefPtr
 <
 GonkPermissionChecker
 >

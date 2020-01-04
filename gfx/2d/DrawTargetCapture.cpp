@@ -228,7 +228,7 @@ Snapshot
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

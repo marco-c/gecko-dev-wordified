@@ -1690,7 +1690,7 @@ Failed
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ArchiveInputStream
 >
@@ -1746,7 +1746,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

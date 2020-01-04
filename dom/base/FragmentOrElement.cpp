@@ -4125,7 +4125,7 @@ uint32_t
 aFilter
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleContentList
 >
@@ -6471,7 +6471,7 @@ process
 mAttachedStack
 )
 .
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -7840,7 +7840,7 @@ if
 mNext
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentUnbinder
 >
@@ -7885,7 +7885,7 @@ UnbindAll
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentUnbinder
 >
@@ -8025,7 +8025,7 @@ SUBTREE_UNBINDINGS_PER_RUNNABLE
 >
 mSubtreeRoots
 ;
-RefPtr
+nsRefPtr
 <
 ContentUnbinder
 >
@@ -17226,7 +17226,7 @@ oldChildCount
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >

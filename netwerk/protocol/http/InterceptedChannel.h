@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -387,7 +387,7 @@ channel
 being
 intercepted
 .
-RefPtr
+nsRefPtr
 <
 nsHttpChannel
 >
@@ -580,7 +580,7 @@ channel
 being
 intercepted
 .
-RefPtr
+nsRefPtr
 <
 HttpChannelChild
 >

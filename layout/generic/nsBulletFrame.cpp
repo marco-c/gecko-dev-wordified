@@ -654,7 +654,7 @@ if
 needNewRequest
 )
 {
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1636,7 +1636,7 @@ aFlags
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -1756,7 +1756,7 @@ rect
 appUnitsPerDevPixel
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1784,7 +1784,7 @@ Size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2180,7 +2180,7 @@ rect
 y
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2414,7 +2414,7 @@ appUnitsPerDevPixel
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3251,7 +3251,7 @@ StyleList
 nscoord
 ascent
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -5392,7 +5392,7 @@ aWritingMode
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

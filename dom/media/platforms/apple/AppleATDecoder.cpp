@@ -411,7 +411,7 @@ mConverter
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -556,7 +556,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -568,7 +568,7 @@ AppleATDecoder
 :
 :
 SubmitSample
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1671,7 +1671,7 @@ Length
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -2647,7 +2647,7 @@ to
 AAC
 audio
 .
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

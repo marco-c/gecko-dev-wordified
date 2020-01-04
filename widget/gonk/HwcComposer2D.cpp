@@ -1314,7 +1314,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScreenManagerGonk
 >
@@ -5257,7 +5257,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :
@@ -5380,7 +5380,7 @@ releaseFenceFd
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

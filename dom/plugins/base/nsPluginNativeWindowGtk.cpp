@@ -419,7 +419,7 @@ nsPluginNativeWindowGtk
 :
 CallSetWindow
 (
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >

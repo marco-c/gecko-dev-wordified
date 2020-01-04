@@ -2791,7 +2791,7 @@ nsIPerformanceSnapshot
 aSnapshot
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPerformanceSnapshot
 >

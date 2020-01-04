@@ -669,7 +669,7 @@ FindCharVariantFunction
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFT2FontBase
 >

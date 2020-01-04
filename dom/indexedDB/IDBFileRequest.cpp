@@ -324,7 +324,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBFileRequest
 >
@@ -697,7 +697,7 @@ mTotal
 =
 aTotal
 ;
-RefPtr
+nsRefPtr
 <
 ProgressEvent
 >

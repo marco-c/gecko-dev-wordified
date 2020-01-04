@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -144,12 +144,6 @@ gfx
 :
 :
 DataSourceSurface
-;
-using
-gfx
-:
-:
-Filter
 ;
 using
 gfx
@@ -831,7 +825,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -1184,7 +1178,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

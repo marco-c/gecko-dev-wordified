@@ -1574,7 +1574,7 @@ aValue
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1594,7 +1594,7 @@ SetBlobImpls
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1679,7 +1679,7 @@ mValue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2160,7 +2160,7 @@ selected
 filenames
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2390,7 +2390,7 @@ if
 blob
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2721,7 +2721,7 @@ bool
 aTrustedUpdate
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -3709,7 +3709,7 @@ defaultName
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -5215,7 +5215,7 @@ NodeInfo
 >
 ni
 =
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5233,7 +5233,7 @@ forget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -8091,7 +8091,7 @@ aSetValueChanged
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -8920,7 +8920,7 @@ aValue
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
@@ -11423,7 +11423,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -11450,7 +11450,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -11534,7 +11534,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -11689,7 +11689,7 @@ GetScopeObject
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -12772,7 +12772,7 @@ SetFiles
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -12815,7 +12815,7 @@ bool
 aSetValueChanged
 )
 {
-RefPtr
+nsRefPtr
 <
 FileList
 >
@@ -12869,7 +12869,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -13460,7 +13460,7 @@ Clear
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -15066,7 +15066,7 @@ ref
 across
 the
 event
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -15819,7 +15819,7 @@ GetFocusManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18669,7 +18669,7 @@ UpdateForValueChange
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -21391,7 +21391,7 @@ FLAG_BYMOVEFOCUS
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -21786,7 +21786,7 @@ name
 name
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLInputElement
 >
@@ -23178,7 +23178,7 @@ strong
 ref
 while
 dispatching
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -28377,7 +28377,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 OSFileSystem
 >
@@ -28484,7 +28484,7 @@ mFilesAndDirectoriesPromise
 )
 {
 return
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -28527,7 +28527,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -28558,7 +28558,7 @@ nullptr
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -28626,7 +28626,7 @@ GetInnerWindow
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 OSFileSystem
 >
@@ -29075,7 +29075,7 @@ aResult
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsIControllers
 >
@@ -29311,7 +29311,7 @@ ScrollSelectionIntoView
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -30487,7 +30487,7 @@ nsIDOMFileList
 aFileList
 )
 {
-RefPtr
+nsRefPtr
 <
 FileList
 >
@@ -31079,7 +31079,7 @@ do_QueryInterface
 aTarget
 )
 ;
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -31888,7 +31888,7 @@ files
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -32074,7 +32074,7 @@ SaveState
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 HTMLInputElementState
 >
@@ -33296,7 +33296,7 @@ VALUE_MODE_FILENAME
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -33333,7 +33333,7 @@ global
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -33363,7 +33363,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -35470,7 +35470,7 @@ VALUE_MODE_FILENAME
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >

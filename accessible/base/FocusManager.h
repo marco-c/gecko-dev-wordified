@@ -655,13 +655,13 @@ const
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Accessible
 >
 mActiveItem
 ;
-RefPtr
+nsRefPtr
 <
 Accessible
 >

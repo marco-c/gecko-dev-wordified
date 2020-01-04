@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -245,7 +245,7 @@ mDelegate
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 OSXNotificationInfo
 >
@@ -254,7 +254,7 @@ mActiveAlerts
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 OSXNotificationInfo
 >

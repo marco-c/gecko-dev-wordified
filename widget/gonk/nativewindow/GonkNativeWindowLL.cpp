@@ -791,7 +791,7 @@ return
 NULL
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -964,7 +964,7 @@ GetAndResetReleaseFenceHandle
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

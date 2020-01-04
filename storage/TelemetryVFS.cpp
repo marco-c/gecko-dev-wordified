@@ -991,7 +991,7 @@ object
 for
 this
 file
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >
@@ -4592,7 +4592,7 @@ pAppData
 int
 rc
 ;
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >

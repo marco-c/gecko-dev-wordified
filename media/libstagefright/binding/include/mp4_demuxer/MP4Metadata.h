@@ -324,7 +324,7 @@ mPrivate
 CryptoFile
 mCrypto
 ;
-RefPtr
+nsRefPtr
 <
 Stream
 >

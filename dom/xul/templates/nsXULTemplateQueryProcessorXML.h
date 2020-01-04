@@ -479,7 +479,7 @@ XPathExpression
 >
 mResultsExpr
 ;
-RefPtr
+nsRefPtr
 <
 nsXMLBindingSet
 >
@@ -525,7 +525,7 @@ from
 assign
 >
 nodes
-RefPtr
+nsRefPtr
 <
 nsXMLBindingSet
 >
@@ -540,7 +540,7 @@ contained
 in
 this
 enumerator
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -743,7 +743,7 @@ Element
 >
 mRoot
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

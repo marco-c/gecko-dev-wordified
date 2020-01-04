@@ -185,7 +185,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1666,7 +1666,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -2224,7 +2224,7 @@ gWifiCertService
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 WifiCertService
 >
@@ -2265,7 +2265,7 @@ nsAString
 aCertNickname
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -2280,7 +2280,7 @@ Blob
 aCertBlob
 )
 ;
-RefPtr
+nsRefPtr
 <
 CryptoTask
 >
@@ -2321,7 +2321,7 @@ nsAString
 aCertNickname
 )
 {
-RefPtr
+nsRefPtr
 <
 CryptoTask
 >

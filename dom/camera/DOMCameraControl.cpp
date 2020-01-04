@@ -704,7 +704,7 @@ mState
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >
@@ -932,7 +932,7 @@ start
 the
 preview
 .
-RefPtr
+nsRefPtr
 <
 ICameraControl
 >
@@ -1217,7 +1217,7 @@ BindToOwner
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCameraConfiguration
 >
@@ -3909,7 +3909,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CameraCapabilities
 >
@@ -3995,7 +3995,7 @@ __LINE__
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4112,7 +4112,7 @@ DeviceStorageFileDescriptor
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4430,7 +4430,7 @@ a
 little
 helper
 .
-RefPtr
+nsRefPtr
 <
 CloseFileRunnable
 >
@@ -4690,7 +4690,7 @@ THROW_IF_NO_CAMERACONTROL
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4922,7 +4922,7 @@ THROW_IF_NO_CAMERACONTROL
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5184,7 +5184,7 @@ THROW_IF_NO_CAMERACONTROL
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5496,7 +5496,7 @@ __LINE__
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6113,7 +6113,7 @@ nsDOMCameraControl
 :
 AbortPromise
 (
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6121,7 +6121,7 @@ Promise
 aPromise
 )
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6266,7 +6266,7 @@ mNewState
 =
 aState
 ;
-RefPtr
+nsRefPtr
 <
 CameraStateChangeEvent
 >
@@ -6322,7 +6322,7 @@ t
 started
 yet
 .
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6522,7 +6522,7 @@ if
 mSetInitialConfig
 )
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6650,7 +6650,7 @@ SystemFailure
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 CameraClosedEvent
 >
@@ -6956,7 +6956,7 @@ mOptions
 mCreatePoster
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -7004,7 +7004,7 @@ mData
 =
 blob
 ;
-RefPtr
+nsRefPtr
 <
 BlobEvent
 >
@@ -7125,7 +7125,7 @@ CameraControlListener
 kRecorderStarted
 :
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -7696,7 +7696,7 @@ false
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -7806,7 +7806,7 @@ mPictureSize
 mHeight
 )
 ;
-RefPtr
+nsRefPtr
 <
 CameraConfigurationEvent
 >
@@ -7871,7 +7871,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8130,7 +8130,7 @@ SetValue
 faces
 )
 ;
-RefPtr
+nsRefPtr
 <
 CameraFacesDetectedEvent
 >
@@ -8201,7 +8201,7 @@ MOZ_ASSERT
 aPicture
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8235,7 +8235,7 @@ picture
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -8259,7 +8259,7 @@ mData
 =
 blob
 ;
-RefPtr
+nsRefPtr
 <
 BlobEvent
 >
@@ -8335,7 +8335,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

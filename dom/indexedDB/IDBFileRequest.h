@@ -204,7 +204,7 @@ DOMRequest
 public
 FileRequestBase
 {
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >

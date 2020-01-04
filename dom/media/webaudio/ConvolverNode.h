@@ -355,7 +355,7 @@ ConvolverNode
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioBuffer
 >

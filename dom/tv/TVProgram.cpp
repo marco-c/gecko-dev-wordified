@@ -426,7 +426,7 @@ Channel
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TVChannel
 >

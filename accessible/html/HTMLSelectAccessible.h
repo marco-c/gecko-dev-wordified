@@ -1136,7 +1136,7 @@ const
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 HTMLComboboxListAccessible
 >

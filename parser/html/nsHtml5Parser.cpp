@@ -1107,7 +1107,7 @@ to
 these
 too
 .
-RefPtr
+nsRefPtr
 <
 nsHtml5StreamParser
 >
@@ -1118,7 +1118,7 @@ GetStreamParser
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -2004,13 +2004,13 @@ plain
 pointer
 again
 .
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
 prevSearchBuf
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -2570,7 +2570,7 @@ suspension
 requests
 }
 }
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -3427,7 +3427,7 @@ kungFuDeathGrip
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5StreamParser
 >
@@ -3438,7 +3438,7 @@ GetStreamParser
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >

@@ -2301,7 +2301,7 @@ Register
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >
@@ -3744,7 +3744,7 @@ object
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -4262,7 +4262,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -4468,7 +4468,7 @@ on
 the
 owning
 thread
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -4512,7 +4512,7 @@ DeviceStorageFile
 aFile
 )
 {
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >
@@ -4525,7 +4525,7 @@ data
 =
 aData
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -4552,7 +4552,7 @@ file
 >
 void
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -4607,7 +4607,7 @@ bool
 aLowDiskSpace
 )
 {
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >
@@ -4633,7 +4633,7 @@ aLowDiskSpace
 >
 void
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -4685,7 +4685,7 @@ OnWritableNameChanged
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >
@@ -4710,7 +4710,7 @@ self
 >
 void
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >
@@ -4767,7 +4767,7 @@ nsIVolume
 aVolume
 )
 {
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >
@@ -4801,7 +4801,7 @@ volume
 >
 void
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDeviceStorage
 >

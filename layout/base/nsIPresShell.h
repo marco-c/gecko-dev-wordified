@@ -10538,7 +10538,7 @@ nsIDocument
 >
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -10584,7 +10584,7 @@ to
 nsPresArena
 mFrameArena
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -11214,7 +11214,7 @@ here
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

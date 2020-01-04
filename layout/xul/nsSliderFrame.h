@@ -875,7 +875,7 @@ aChange
 nsPoint
 mDestinationPoint
 ;
-RefPtr
+nsRefPtr
 <
 nsSliderMediator
 >

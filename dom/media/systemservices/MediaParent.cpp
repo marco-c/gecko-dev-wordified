@@ -2000,7 +2000,7 @@ GetSingleton
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaManager
 >
@@ -2215,7 +2215,7 @@ for
 this
 request
 .
-RefPtr
+nsRefPtr
 <
 Pledge
 <
@@ -2259,7 +2259,7 @@ MOZ_ASSERT
 sts
 )
 ;
-RefPtr
+nsRefPtr
 <
 OriginKeyStore
 >
@@ -2407,7 +2407,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Pledge
 <
@@ -2538,7 +2538,7 @@ aKey
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 MediaManager
 >
@@ -2561,7 +2561,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Pledge
 <
@@ -2699,7 +2699,7 @@ MOZ_ASSERT
 sts
 )
 ;
-RefPtr
+nsRefPtr
 <
 OriginKeyStore
 >

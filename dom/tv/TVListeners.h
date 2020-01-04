@@ -215,7 +215,7 @@ aSourceType
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TVSource
 >

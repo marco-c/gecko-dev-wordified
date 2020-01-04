@@ -1505,7 +1505,7 @@ the
 downloader
 receives
 OnStopRequest
-RefPtr
+nsRefPtr
 <
 CacheEntryWriter
 >
@@ -1641,7 +1641,7 @@ to
 the
 downloader
 .
-RefPtr
+nsRefPtr
 <
 PackagedAppVerifier
 >
@@ -1881,7 +1881,7 @@ PackagedAppChannelListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 PackagedAppDownloader
 >

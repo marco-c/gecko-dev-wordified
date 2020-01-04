@@ -592,7 +592,7 @@ NodeInfo
 aNodeInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >
@@ -7706,7 +7706,7 @@ attributes
 were
 parsed
 }
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -8571,7 +8571,7 @@ ParseMappedAttrAnimValueCallback
 mappedAttrParser
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :

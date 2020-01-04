@@ -783,7 +783,7 @@ mPoints
 int
 mTabId
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedJavaObject
 >
@@ -3210,7 +3210,7 @@ ByteBuffer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ThumbnailRunnable
 >
@@ -3318,7 +3318,7 @@ X
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedJavaObject
 >

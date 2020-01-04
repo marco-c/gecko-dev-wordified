@@ -696,7 +696,7 @@ char
 *
 mFileData
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >

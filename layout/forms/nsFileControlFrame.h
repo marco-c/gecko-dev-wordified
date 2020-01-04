@@ -678,7 +678,7 @@ destruction
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DnDListener
 >

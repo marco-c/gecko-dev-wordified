@@ -1798,7 +1798,7 @@ presShell
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -2686,7 +2686,7 @@ pixmap
 to
 render
 on
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2716,7 +2716,7 @@ xPixmapSurface
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2928,7 +2928,7 @@ surf
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -10389,7 +10389,7 @@ nsPresContext
 *
 pc
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -11977,7 +11977,7 @@ gpointer
 data
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDragService
 >

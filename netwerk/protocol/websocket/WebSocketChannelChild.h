@@ -484,7 +484,7 @@ MaybeReleaseIPCObject
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ChannelEventQueue
 >

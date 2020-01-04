@@ -618,7 +618,7 @@ accessible
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -635,7 +635,7 @@ accessible
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -651,7 +651,7 @@ position
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 Accessible
 >

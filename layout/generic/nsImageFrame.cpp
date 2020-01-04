@@ -4793,7 +4793,7 @@ imgIContainer
 :
 FLAG_ASYNC_NOTIFY
 ;
-Filter
+GraphicsFilter
 filter
 =
 nsLayoutUtils
@@ -9265,7 +9265,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -9293,7 +9293,7 @@ Size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >

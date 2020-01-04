@@ -2858,7 +2858,7 @@ mConnMgr
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 EventTokenBucket
 >
@@ -4061,7 +4061,7 @@ on
 the
 other
 process
-RefPtr
+nsRefPtr
 <
 nsAsyncRedirectVerifyHelper
 >
@@ -11301,7 +11301,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpHandler
 >
@@ -13211,7 +13211,7 @@ nsIChannel
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 HttpBaseChannel
 >

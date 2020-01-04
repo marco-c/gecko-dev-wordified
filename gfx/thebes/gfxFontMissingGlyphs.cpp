@@ -142,7 +142,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1131,7 +1131,7 @@ DrawTarget
 FillRect
 )
 .
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1278,7 +1278,7 @@ glyphBits
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Path
 >

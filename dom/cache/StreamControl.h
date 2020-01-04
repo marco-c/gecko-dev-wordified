@@ -138,7 +138,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -512,7 +512,7 @@ ref
 typedef
 nsTObserverArray
 <
-RefPtr
+nsRefPtr
 <
 ReadStream
 :

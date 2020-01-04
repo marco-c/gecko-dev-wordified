@@ -2430,7 +2430,7 @@ cx
 callback
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXPCWrappedJS
 >

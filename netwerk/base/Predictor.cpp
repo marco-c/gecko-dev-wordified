@@ -3057,7 +3057,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 LoadContextInfo
 >
@@ -3379,7 +3379,7 @@ CheckForAndDeleteOldDBFiles
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PredictorThreadShutdownRunner
 >
@@ -3713,7 +3713,7 @@ NS_DISPATCH_NORMAL
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 PredictorOldCleanupRunner
 >
@@ -3822,7 +3822,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-RefPtr
+nsRefPtr
 <
 Predictor
 >
@@ -4587,7 +4587,7 @@ predictor
 only
 cache
 entry
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -4755,7 +4755,7 @@ originKey
 targetOrigin
 ;
 }
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -5368,7 +5368,7 @@ nsINetworkPredictor
 :
 PREDICT_LOAD
 ;
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -7544,7 +7544,7 @@ only
 entries
 to
 open
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -7807,7 +7807,7 @@ predictor
 only
 )
 entry
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -8997,7 +8997,7 @@ resourceCount
 mMaxResourcesPerEntry
 )
 {
-RefPtr
+nsRefPtr
 <
 Predictor
 :
@@ -10075,7 +10075,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Predictor
 :

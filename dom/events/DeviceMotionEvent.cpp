@@ -480,7 +480,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeviceMotionEvent
 >
@@ -1127,7 +1127,7 @@ WidgetEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceMotionEvent
 >

@@ -312,7 +312,7 @@ nsXULPrototypeNode
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -630,7 +630,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -663,7 +663,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -973,7 +973,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1005,7 +1005,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1064,7 +1064,7 @@ aTrc
 nsPrototypeArray
 mChildren
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1196,7 +1196,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1239,7 +1239,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1634,7 +1634,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1666,7 +1666,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1760,7 +1760,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1792,7 +1792,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3588,7 +3588,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >

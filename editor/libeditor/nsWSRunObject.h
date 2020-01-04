@@ -2449,7 +2449,7 @@ struct
 MOZ_STACK_CLASS
 WSPoint
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3149,7 +3149,7 @@ implicated
 by
 end
 reason
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3180,7 +3180,7 @@ mFirstNBSPOffset
 .
 .
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3224,7 +3224,7 @@ this
 run
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -192,7 +192,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 ADivertableParentChannel
 >

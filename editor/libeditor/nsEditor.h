@@ -5075,7 +5075,7 @@ nsIInlineSpellChecker
 >
 mInlineSpellChecker
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionManager
 >
@@ -5098,7 +5098,7 @@ mRootElement
 cached
 root
 node
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5220,7 +5220,7 @@ and
 /
 compositionend
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

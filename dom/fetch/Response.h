@@ -588,7 +588,7 @@ nsIGlobalObject
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -598,7 +598,7 @@ mInternalResponse
 /
 Lazily
 created
-RefPtr
+nsRefPtr
 <
 Headers
 >

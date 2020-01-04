@@ -588,7 +588,7 @@ virtual
 nsresult
 CallSetWindow
 (
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -660,7 +660,7 @@ mPrevWinProc
 PluginWindowWeakRef
 mWeakRef
 ;
-RefPtr
+nsRefPtr
 <
 PluginWindowEvent
 >
@@ -874,7 +874,7 @@ inst
 NS_DECL_NSIRUNNABLE
 private
 :
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -1088,7 +1088,7 @@ that
 bug
 374229
 .
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3009,7 +3009,7 @@ hWnd
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3295,7 +3295,7 @@ nsPluginNativeWindowWin
 :
 CallSetWindow
 (
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >

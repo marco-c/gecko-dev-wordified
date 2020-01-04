@@ -313,7 +313,7 @@ nsITVTunerData
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 TVTuner
 >
@@ -479,7 +479,7 @@ supported
 source
 type
 .
-RefPtr
+nsRefPtr
 <
 TVSource
 >
@@ -827,7 +827,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -909,7 +909,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1051,7 +1051,7 @@ GetCurrentSource
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TVSource
 >
@@ -1079,7 +1079,7 @@ GetStream
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -1130,7 +1130,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -1231,7 +1231,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1432,7 +1432,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TVChannel
 >
@@ -1576,7 +1576,7 @@ mediacapture
 -
 fromelement
 /
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >

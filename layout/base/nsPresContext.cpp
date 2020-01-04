@@ -776,7 +776,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -993,7 +993,7 @@ void
 instance_data
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -5449,7 +5449,7 @@ nscoord
 oldWidthAppUnits
 oldHeightAppUnits
 ;
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -7606,7 +7606,7 @@ charset
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CharSetChangingRunnable
 >
@@ -9613,7 +9613,7 @@ StyleSet
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -9837,7 +9837,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -11435,7 +11435,7 @@ GetExtantDoc
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPIWindowRoot
 >
@@ -12556,7 +12556,7 @@ if
 cv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -13544,7 +13544,7 @@ execution
 though
 )
 .
-RefPtr
+nsRefPtr
 <
 NotifyPaintEvent
 >
@@ -14741,7 +14741,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

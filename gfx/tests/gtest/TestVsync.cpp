@@ -97,7 +97,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -393,7 +393,7 @@ mVsyncSource
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 VsyncSource
 >
@@ -634,7 +634,7 @@ IsVsyncEnabled
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositorVsyncDispatcher
 >
@@ -645,7 +645,7 @@ CompositorVsyncDispatcher
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestVsyncObserver
 >
@@ -754,7 +754,7 @@ IsVsyncEnabled
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >
@@ -774,7 +774,7 @@ vsyncDispatcher
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestVsyncObserver
 >
@@ -906,7 +906,7 @@ IsVsyncEnabled
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >
@@ -926,7 +926,7 @@ vsyncDispatcher
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestVsyncObserver
 >

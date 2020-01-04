@@ -2106,7 +2106,7 @@ f
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -2243,7 +2243,7 @@ ascent
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -3285,7 +3285,7 @@ return
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -5043,7 +5043,7 @@ textRect
 =
 mTextDrawRect
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -5377,7 +5377,7 @@ nscoord
 aAscent
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

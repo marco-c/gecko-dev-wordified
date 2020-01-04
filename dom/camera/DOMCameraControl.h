@@ -1363,7 +1363,7 @@ aRv
 void
 AbortPromise
 (
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1407,7 +1407,7 @@ nsString
 aState
 )
 ;
-RefPtr
+nsRefPtr
 <
 ICameraControl
 >
@@ -1481,13 +1481,13 @@ CameraRegion
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCameraConfiguration
 >
 mCurrentConfiguration
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1502,7 +1502,7 @@ camera
 control
 pending
 promises
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1511,7 +1511,7 @@ Promise
 >
 mGetCameraPromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1520,7 +1520,7 @@ Promise
 >
 mAutoFocusPromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1529,7 +1529,7 @@ Promise
 >
 mTakePicturePromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1538,7 +1538,7 @@ Promise
 >
 mStartRecordingPromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1547,7 +1547,7 @@ Promise
 >
 mReleasePromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1599,7 +1599,7 @@ mListener
 our
 viewfinder
 stream
-RefPtr
+nsRefPtr
 <
 CameraPreviewMediaStream
 >
@@ -1626,7 +1626,7 @@ dom
 CameraStartRecordingOptions
 mOptions
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFileDescriptor
 >

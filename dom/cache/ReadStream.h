@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -639,7 +639,7 @@ stream
 is
 destroyed
 .
-RefPtr
+nsRefPtr
 <
 Inner
 >

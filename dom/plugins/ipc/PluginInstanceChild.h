@@ -1957,7 +1957,7 @@ mShColorSpace
 CGContextRef
 mShContext
 ;
-RefPtr
+nsRefPtr
 <
 nsCARenderer
 >
@@ -2590,7 +2590,7 @@ surface
 available
 for
 rendering
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2612,7 +2612,7 @@ is
 on
 ParentProcess
 side
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2709,7 +2709,7 @@ alpha
 recovery
 otherwise
 .
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2902,7 +2902,7 @@ that
 surface
 here
 .
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

@@ -512,7 +512,7 @@ aParent
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -535,7 +535,7 @@ JSStructuredCloneWriter
 aWriter
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -891,7 +891,7 @@ buffer
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -900,7 +900,7 @@ Image
 >
 mData
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

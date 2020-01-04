@@ -138,6 +138,13 @@ h
 #
 include
 "
+GraphicsFilter
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -151,7 +158,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1266,10 +1273,7 @@ mWrapMode
 void
 SetFilter
 (
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 )
 {
@@ -1404,10 +1408,7 @@ gfx
 SurfaceFormat
 mTextureFormat
 ;
-gfx
-:
-:
-Filter
+GraphicsFilter
 mFilter
 ;
 Flags
@@ -1765,7 +1766,7 @@ GLContext
 >
 mGLContext
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2089,7 +2090,7 @@ cross
 tile
 updates
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

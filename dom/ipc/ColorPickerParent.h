@@ -248,7 +248,7 @@ CreateColorPicker
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ColorPickerShownCallback
 >

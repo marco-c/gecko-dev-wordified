@@ -464,7 +464,7 @@ ShareMainThread
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -512,7 +512,7 @@ Length
 index
 )
 {
-RefPtr
+nsRefPtr
 <
 ArchiveItem
 >
@@ -635,7 +635,7 @@ is
 a
 File
 :
-RefPtr
+nsRefPtr
 <
 File
 >

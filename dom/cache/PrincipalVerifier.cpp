@@ -318,7 +318,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PrincipalVerifier
 >
@@ -653,7 +653,7 @@ leaving
 this
 method
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -669,7 +669,7 @@ mActor
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsIPrincipal
 >

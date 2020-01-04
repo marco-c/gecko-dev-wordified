@@ -2042,7 +2042,7 @@ nsIUnicharInputStream
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 StringUnicharInputStream
 >
@@ -2091,7 +2091,7 @@ Create
 converter
 input
 stream
-RefPtr
+nsRefPtr
 <
 UTF8InputStream
 >

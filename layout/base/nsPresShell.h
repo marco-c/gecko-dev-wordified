@@ -3337,7 +3337,7 @@ if
 mPresShell
 )
 {
-RefPtr
+nsRefPtr
 <
 PresShell
 >
@@ -4277,7 +4277,7 @@ ref
 may
 be
 null
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4394,13 +4394,13 @@ nsIContent
 >
 mLastAnchorScrolledTo
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
 mCaret
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -4420,13 +4420,13 @@ TouchManager
 TouchManager
 mTouchManager
 ;
-RefPtr
+nsRefPtr
 <
 ZoomConstraintsClient
 >
 mZoomConstraintsClient
 ;
-RefPtr
+nsRefPtr
 <
 MobileViewportManager
 >
@@ -4435,7 +4435,7 @@ mMobileViewportManager
 /
 /
 TouchCaret
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4444,7 +4444,7 @@ TouchCaret
 >
 mTouchCaret
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4453,7 +4453,7 @@ SelectionCarets
 >
 mSelectionCarets
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

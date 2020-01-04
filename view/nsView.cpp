@@ -1790,7 +1790,7 @@ widget
 nsIntRect
 newBounds
 ;
-RefPtr
+nsRefPtr
 <
 nsDeviceContext
 >
@@ -6281,7 +6281,7 @@ GetRootView
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDeviceContext
 >
@@ -6550,7 +6550,7 @@ nsIWidget
 aWidget
 )
 {
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -6601,7 +6601,7 @@ widget
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -6633,7 +6633,7 @@ DidPaintWindow
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -6921,7 +6921,7 @@ if
 view
 )
 {
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >

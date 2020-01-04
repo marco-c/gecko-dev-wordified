@@ -83,7 +83,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -202,7 +202,7 @@ ResourceStream
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

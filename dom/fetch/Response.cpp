@@ -338,7 +338,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -351,7 +351,7 @@ NetworkError
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -552,7 +552,7 @@ GetLocationInfo
 mHref
 )
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -671,7 +671,7 @@ mStatus
 =
 aStatus
 ;
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -995,7 +995,7 @@ OK
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -1136,7 +1136,7 @@ GetChannelInfo
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -1192,7 +1192,7 @@ unwrap
 the
 HeadersInit
 .
-RefPtr
+nsRefPtr
 <
 Headers
 >
@@ -1465,7 +1465,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -1478,7 +1478,7 @@ Clone
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -1539,7 +1539,7 @@ GetInternalResponse
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >

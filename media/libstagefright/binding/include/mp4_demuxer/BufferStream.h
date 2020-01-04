@@ -231,7 +231,7 @@ BufferStream
 int64_t
 mStartOffset
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

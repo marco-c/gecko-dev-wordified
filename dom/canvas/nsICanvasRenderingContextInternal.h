@@ -152,9 +152,16 @@ h
 #
 include
 "
+GraphicsFilter
+.
+h
+"
+#
+include
+"
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "

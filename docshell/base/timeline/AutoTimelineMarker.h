@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -270,7 +270,7 @@ with
 this
 marker
 .
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >

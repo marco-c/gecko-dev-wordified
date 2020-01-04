@@ -296,7 +296,7 @@ const
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -311,7 +311,7 @@ aTime
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SamplesPromise
 >
@@ -344,7 +344,7 @@ aTime
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 SkipAccessPointPromise
 >
@@ -391,7 +391,7 @@ UpdateSamples
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -410,13 +410,13 @@ SetNextKeyFrameTime
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MP4Demuxer
 >
 mParent
 ;
-RefPtr
+nsRefPtr
 <
 mp4_demuxer
 :
@@ -461,7 +461,7 @@ held
 Monitor
 mMonitor
 ;
-RefPtr
+nsRefPtr
 <
 mp4_demuxer
 :
@@ -501,7 +501,7 @@ not
 yet
 returned
 .
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -839,7 +839,7 @@ MediaByteBuffer
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MP4Demuxer
 :
@@ -943,7 +943,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 mp4_demuxer
 :
@@ -1173,7 +1173,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP4TrackDemuxer
 >
@@ -1736,7 +1736,7 @@ mNeedReIndex
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP4TrackDemuxer
 :
@@ -1838,7 +1838,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP4TrackDemuxer
 :
@@ -1858,7 +1858,7 @@ EnsureUpToDateIndex
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SamplesHolder
 >
@@ -1917,7 +1917,7 @@ mon
 mMonitor
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -2111,7 +2111,7 @@ UpdateSamples
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -2176,7 +2176,7 @@ sample
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -2409,7 +2409,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP4TrackDemuxer
 :
@@ -2461,7 +2461,7 @@ found
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

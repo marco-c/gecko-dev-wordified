@@ -2908,7 +2908,7 @@ const
 nsString
 &
 aString
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -6913,7 +6913,7 @@ nsIContent
 const
 mContent
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -7849,7 +7849,7 @@ the
 new
 frame
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

@@ -962,7 +962,7 @@ sAnimSVGLengthTearOffTable
 :
 sBaseSVGLengthTearOffTable
 ;
-RefPtr
+nsRefPtr
 <
 DOMSVGLength
 >

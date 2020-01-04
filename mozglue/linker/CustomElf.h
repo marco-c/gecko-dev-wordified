@@ -803,7 +803,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 LibHandle
 >

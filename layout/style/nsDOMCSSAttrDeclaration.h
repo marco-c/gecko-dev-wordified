@@ -296,7 +296,7 @@ DocToUpdate
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >

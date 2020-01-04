@@ -293,7 +293,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -620,7 +620,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -679,7 +679,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -1818,7 +1818,7 @@ uint8_t
 aCanBreakBeforeArray
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -2013,7 +2013,7 @@ str
 i
 ]
 ;
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -3944,7 +3944,7 @@ canBreakBeforeArray
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >

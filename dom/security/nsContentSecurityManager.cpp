@@ -560,7 +560,7 @@ LoadingPrincipal
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCORSListenerProxy
 >

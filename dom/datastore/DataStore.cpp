@@ -313,7 +313,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStore
 >

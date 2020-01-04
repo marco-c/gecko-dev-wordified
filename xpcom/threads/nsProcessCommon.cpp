@@ -1606,7 +1606,7 @@ void
 aArg
 )
 {
-RefPtr
+nsRefPtr
 <
 nsProcess
 >

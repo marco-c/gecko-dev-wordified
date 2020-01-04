@@ -476,6 +476,13 @@ h
 #
 include
 "
+GraphicsFilter
+.
+h
+"
+#
+include
+"
 nsInlineFrame
 .
 h
@@ -9424,7 +9431,7 @@ outside
 that
 area
 .
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -9468,7 +9475,7 @@ frameGfxRect
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -10926,7 +10933,7 @@ if
 hasBorderRadius
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -12840,7 +12847,7 @@ EnsureSaved
 aCtx
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -13201,7 +13208,7 @@ Clip
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -19556,10 +19563,7 @@ stopOrigin
 )
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -26958,7 +26962,7 @@ y
 endBevelOffset
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -27022,7 +27026,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -30693,7 +30697,7 @@ skipCycles
 cycleLength
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -30705,7 +30709,7 @@ CreatePathBuilder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -34711,7 +34715,7 @@ DrawResult
 SUCCESS
 ;
 }
-Filter
+GraphicsFilter
 filter
 =
 nsLayoutUtils
@@ -36174,8 +36178,8 @@ srcRect
 )
 ;
 }
-Filter
-filter
+GraphicsFilter
+graphicsFilter
 =
 nsLayoutUtils
 :
@@ -36210,7 +36214,7 @@ ThebesContext
 )
 aPresContext
 subImage
-filter
+graphicsFilter
 aFill
 aDirtyRect
 nullptr
@@ -36247,7 +36251,7 @@ ThebesContext
 )
 aPresContext
 subImage
-filter
+graphicsFilter
 tile
 aFill
 tile
@@ -37195,7 +37199,7 @@ if
 aCornerRadii
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >

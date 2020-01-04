@@ -4148,7 +4148,7 @@ NativeScrollbarView
 [
 STRONG
 ]
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4494,7 +4494,7 @@ VibrancyManager
 >
 mVibrancyManager
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -1386,7 +1386,7 @@ mFillMatrix
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -1436,7 +1436,7 @@ mStrokeMatrix
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -1488,13 +1488,13 @@ mStrokePattern
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
 mFillPattern
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >

@@ -254,7 +254,7 @@ aGivenProto
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >

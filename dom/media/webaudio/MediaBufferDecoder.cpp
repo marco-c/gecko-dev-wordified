@@ -781,13 +781,13 @@ mDecodeJob
 PhaseEnum
 mPhase
 ;
-RefPtr
+nsRefPtr
 <
 BufferDecoder
 >
 mBufferDecoder
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -921,7 +921,7 @@ GetPrincipal
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BufferMediaResource
 >
@@ -1667,7 +1667,7 @@ UnknownError
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -1686,7 +1686,7 @@ PopFront
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -2395,7 +2395,7 @@ event
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecodeTask
 >

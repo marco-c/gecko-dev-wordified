@@ -2754,7 +2754,7 @@ EventHub
 >
 mEventHub
 ;
-RefPtr
+nsRefPtr
 <
 GeckoTouchDispatcher
 >
@@ -2902,7 +2902,7 @@ matched
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
@@ -5790,7 +5790,7 @@ InputReaderConfiguration
 CHANGE_DISPLAY_INFO
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >

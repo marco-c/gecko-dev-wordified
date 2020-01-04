@@ -614,7 +614,7 @@ public
 explicit
 LoadMonitorAddObserver
 (
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -686,7 +686,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -705,7 +705,7 @@ public
 explicit
 LoadMonitorRemoveObserver
 (
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -769,7 +769,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -867,7 +867,7 @@ mLoadInfoThread
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 LoadMonitorRemoveObserver
 >
@@ -2964,12 +2964,12 @@ public
 :
 LoadInfoCollectRunner
 (
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
 loadMonitor
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >
@@ -3288,13 +3288,13 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >
 mLoadInfo
 ;
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -3426,7 +3426,7 @@ LoadMonitor
 :
 Init
 (
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >
@@ -3444,7 +3444,7 @@ LoadMonitor
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >
@@ -3491,7 +3491,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 LoadMonitorAddObserver
 >
@@ -3521,7 +3521,7 @@ mLoadInfoThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 LoadInfoCollectRunner
 >

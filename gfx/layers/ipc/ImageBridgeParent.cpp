@@ -1185,7 +1185,7 @@ CompositorLoop
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImageBridgeParent
 >
@@ -1331,7 +1331,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -2417,7 +2417,7 @@ CompositableHost
 aCompositableHost
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -2561,7 +2561,7 @@ CompositableHost
 aCompositableHost
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >

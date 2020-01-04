@@ -1509,7 +1509,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHttpTransaction
 >
@@ -1597,13 +1597,13 @@ mRequestStream
 int64_t
 mRequestSize
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
 mConnection
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -2928,7 +2928,7 @@ mCallbacks
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ASpdySession
 >

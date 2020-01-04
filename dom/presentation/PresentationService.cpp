@@ -461,7 +461,7 @@ the
 session
 info
 .
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -652,7 +652,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -1536,7 +1536,7 @@ reuse
 session
 info
 .
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2013,7 +2013,7 @@ request
 is
 finished
 .
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2166,7 +2166,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2229,7 +2229,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2365,7 +2365,7 @@ MOZ_ASSERT
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2502,7 +2502,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2721,7 +2721,7 @@ uint64_t
 aWindowId
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2920,7 +2920,7 @@ ProcessId
 aProcessId
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >

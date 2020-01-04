@@ -716,7 +716,7 @@ GetComposedDoc
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -745,7 +745,7 @@ the
 anonymous
 child
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

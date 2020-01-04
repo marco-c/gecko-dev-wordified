@@ -486,7 +486,7 @@ override
 nsString
 mDeviceAddress
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

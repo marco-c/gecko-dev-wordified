@@ -482,7 +482,7 @@ mEditor
 /
 /
 weak
-RefPtr
+nsRefPtr
 <
 nsCaret
 >

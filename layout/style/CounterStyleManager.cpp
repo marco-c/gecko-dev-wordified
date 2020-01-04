@@ -5835,7 +5835,7 @@ CounterStyleManager
 *
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSCounterStyleRule
 >
@@ -10709,7 +10709,7 @@ mPresContext
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CounterStyle
 >
@@ -10729,7 +10729,7 @@ const
 nsSubstring
 &
 aKey
-RefPtr
+nsRefPtr
 <
 CounterStyle
 >

@@ -2857,7 +2857,7 @@ w
 h
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRect
 >

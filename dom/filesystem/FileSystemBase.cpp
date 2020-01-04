@@ -266,7 +266,7 @@ nextToken
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeviceStorageFileSystem
 >
@@ -288,7 +288,7 @@ forget
 ;
 }
 return
-RefPtr
+nsRefPtr
 <
 OSFileSystem
 >

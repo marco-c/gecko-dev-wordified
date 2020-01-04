@@ -316,7 +316,7 @@ about
 the
 image
 .
-RefPtr
+nsRefPtr
 <
 ImageURL
 >

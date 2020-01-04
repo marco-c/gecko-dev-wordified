@@ -1076,7 +1076,7 @@ ObtainIntrinsicSizeFrame
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >

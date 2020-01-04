@@ -4860,7 +4860,7 @@ class
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >

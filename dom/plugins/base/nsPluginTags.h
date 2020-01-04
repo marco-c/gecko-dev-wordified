@@ -862,7 +862,7 @@ IsFromExtension
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -911,7 +911,7 @@ PRLibrary
 *
 mLibrary
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPlugin
 >

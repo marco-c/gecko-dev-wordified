@@ -250,7 +250,7 @@ aWhy
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 BroadcastChannelService
 >

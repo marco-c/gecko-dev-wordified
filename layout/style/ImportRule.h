@@ -319,13 +319,13 @@ private
 nsString
 mURLSpec
 ;
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
 mMedia
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

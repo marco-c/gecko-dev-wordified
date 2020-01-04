@@ -1194,7 +1194,7 @@ rv
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TVTuner
 >
@@ -1244,7 +1244,7 @@ tunerData
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 TVTuner
 >
@@ -1531,7 +1531,7 @@ rv
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TVChannel
 >
@@ -1590,7 +1590,7 @@ return
 NS_ERROR_DOM_ABORT_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 TVChannel
 >
@@ -1930,7 +1930,7 @@ return
 NS_ERROR_DOM_ABORT_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 TVProgram
 >
@@ -1963,7 +1963,7 @@ NS_OK
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TVProgram
 >
@@ -2022,7 +2022,7 @@ return
 NS_ERROR_DOM_ABORT_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 TVProgram
 >

@@ -1154,7 +1154,7 @@ ServiceWorkerJobQueue
 *
 mQueue
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerJob
 >
@@ -1262,7 +1262,7 @@ ServiceWorkerJob
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ServiceWorkerJob
 >
@@ -1514,7 +1514,7 @@ Start
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -1808,7 +1808,7 @@ TeardownRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManagerChild
 >
@@ -2106,7 +2106,7 @@ mActiveWorker
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -2456,7 +2456,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrar
 >
@@ -2627,7 +2627,7 @@ final
 public
 ContinueLifecycleTask
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -2666,7 +2666,7 @@ final
 public
 ContinueLifecycleTask
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -2786,7 +2786,7 @@ final
 public
 ServiceWorkerUpdateFinishCallback
 {
-RefPtr
+nsRefPtr
 <
 nsPIDOMWindow
 >
@@ -2816,7 +2816,7 @@ register
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2859,7 +2859,7 @@ aInfo
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationMainThread
 >
@@ -3583,7 +3583,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -3687,7 +3687,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -3795,7 +3795,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -3871,7 +3871,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -3942,7 +3942,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -4007,13 +4007,13 @@ mScope
 nsCString
 mScriptSpec
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
 mRegistration
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerUpdateFinishCallback
 >
@@ -4025,7 +4025,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -4216,7 +4216,7 @@ MOZ_ASSERT
 mCanceled
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -4291,7 +4291,7 @@ if
 mRegistration
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -4467,7 +4467,7 @@ aMaxScope
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -4560,7 +4560,7 @@ SERVICE_WORKER_UPDATED
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -4970,7 +4970,7 @@ mScriptSpec
 aNewCacheName
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerJob
 >
@@ -4994,7 +4994,7 @@ upcasted
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -5150,7 +5150,7 @@ MOZ_ASSERT
 mCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerUpdateFinishCallback
 >
@@ -5224,7 +5224,7 @@ be
 safe
 here
 .
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -5306,7 +5306,7 @@ mSetOfScopesBeingUpdated
 /
 first
 .
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -5453,7 +5453,7 @@ the
 atomic
 block
 .
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -5680,7 +5680,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 LifeCycleEventCallback
 >
@@ -5873,7 +5873,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -5933,7 +5933,7 @@ mInstallingWorker
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -6162,7 +6162,7 @@ cache
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -6286,7 +6286,7 @@ MOZ_ASSERT
 mCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerUpdateFinishCallback
 >
@@ -6360,7 +6360,7 @@ be
 safe
 here
 .
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -6427,7 +6427,7 @@ NS_ERROR_DOM_ABORT_ERR
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -6764,7 +6764,7 @@ be
 notified
 correctly
 .
-RefPtr
+nsRefPtr
 <
 ServiceWorkerJob
 >
@@ -6889,7 +6889,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerJob
 >
@@ -6908,7 +6908,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -7732,7 +7732,7 @@ window
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -7805,7 +7805,7 @@ MOZ_ASSERT
 queue
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerResolveWindowPromiseOnUpdateCallback
 >
@@ -7831,7 +7831,7 @@ GetDocumentLoadGroup
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerLoadInfo
 :
@@ -7944,7 +7944,7 @@ rv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -8162,7 +8162,7 @@ PurgeActiveWorker
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -8250,7 +8250,7 @@ cache
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -8284,7 +8284,7 @@ Activate
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -8305,7 +8305,7 @@ PurgeActiveWorker
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -8462,7 +8462,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 LifeCycleEventCallback
 >
@@ -8555,7 +8555,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8588,7 +8588,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -8694,7 +8694,7 @@ NS_OK
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationMainThread
 >
@@ -8903,7 +8903,7 @@ rv
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationMainThread
 >
@@ -9073,7 +9073,7 @@ window
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -9158,7 +9158,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -9202,7 +9202,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -9391,7 +9391,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -9436,7 +9436,7 @@ registration
 mScope
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationMainThread
 >
@@ -9602,7 +9602,7 @@ window
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -9674,7 +9674,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -9707,7 +9707,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -10294,7 +10294,7 @@ window
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -10622,7 +10622,7 @@ MOZ_ASSERT
 principal
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -10654,7 +10654,7 @@ registration
 mScope
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationMainThread
 >
@@ -10736,7 +10736,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -10781,7 +10781,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -10820,7 +10820,7 @@ final
 public
 ServiceWorkerJob
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -10980,7 +10980,7 @@ false
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -11145,7 +11145,7 @@ false
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -11538,7 +11538,7 @@ MOZ_ASSERT
 queue
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerUnregisterJob
 >
@@ -11763,7 +11763,7 @@ gInstance
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -11973,7 +11973,7 @@ IsRegisterJob
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -12125,7 +12125,7 @@ ServiceWorkerState
 Activated
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -12188,7 +12188,7 @@ principal
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -12999,7 +12999,7 @@ MOZ_ASSERT
 data
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -13202,7 +13202,7 @@ aInfo
 mPrincipal
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -13480,7 +13480,7 @@ MOZ_ASSERT
 aData
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -13601,7 +13601,7 @@ nsACString
 aScope
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -13698,7 +13698,7 @@ ServiceWorkerRegistrationInfo
 aRegistration
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -13928,7 +13928,7 @@ PutEntry
 aDoc
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -13979,7 +13979,7 @@ MOZ_ASSERT
 aDoc
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -14282,7 +14282,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -14547,7 +14547,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationListener
 >
@@ -14896,7 +14896,7 @@ NS_ERROR_DOM_SECURITY_ERR
 /
 /
 /
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -14921,7 +14921,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -15011,7 +15011,7 @@ return
 NS_ERROR_DOM_NOT_FOUND_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -15056,7 +15056,7 @@ ContinueDispatchFetchEventRunnable
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerPrivate
 >
@@ -15403,7 +15403,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -15542,7 +15542,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -15834,7 +15834,7 @@ MOZ_ASSERT
 aURI
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -15887,7 +15887,7 @@ aDoc
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -15973,7 +15973,7 @@ ServiceWorkerRegistrationInfo
 aRegistrationInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -16124,7 +16124,7 @@ GetExtantDoc
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -16165,7 +16165,7 @@ registration
 mActiveWorker
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -16327,7 +16327,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationListener
 >
@@ -16503,7 +16503,7 @@ ServiceWorkerUpdateFinishCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -16615,7 +16615,7 @@ these
 steps
 .
 "
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -16682,7 +16682,7 @@ MOZ_ASSERT
 queue
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerUpdateFinishCallback
 >
@@ -16724,7 +16724,7 @@ its
 argument
 .
 "
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegisterJob
 >
@@ -16785,7 +16785,7 @@ ServiceWorkerClientInfo
 &
 mDocuments
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17009,7 +17009,7 @@ SuppressException
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerContainer
 >
@@ -17160,7 +17160,7 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17274,7 +17274,7 @@ be
 controlling
 the
 client
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17293,7 +17293,7 @@ currently
 controlling
 the
 client
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17365,7 +17365,7 @@ uint64_t
 aId
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17419,7 +17419,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -17508,7 +17508,7 @@ uint64_t
 aServiceWorkerID
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17737,7 +17737,7 @@ aScope
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17841,7 +17841,7 @@ rv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrationInfo
 >
@@ -17912,7 +17912,7 @@ MOZ_ASSERT
 aRegistration
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >
@@ -18726,7 +18726,7 @@ if
 toRemove
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -19201,7 +19201,7 @@ if
 equals
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -19464,7 +19464,7 @@ MOZ_ASSERT
 aData
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerDataInfo
 >
@@ -19955,7 +19955,7 @@ if
 mActor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -20014,7 +20014,7 @@ if
 mActor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -20092,7 +20092,7 @@ if
 mActor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -20492,7 +20492,7 @@ ManagerShuttingDown
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TeardownRunnable
 >
@@ -20653,7 +20653,7 @@ if
 mActor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -20723,7 +20723,7 @@ if
 mActor
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

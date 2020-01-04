@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -198,7 +198,7 @@ SkiaGLGlue
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 GLContext
 >

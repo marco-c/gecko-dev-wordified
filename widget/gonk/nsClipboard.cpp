@@ -292,7 +292,7 @@ the
 clipboard
 proxy
 .
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >
@@ -949,7 +949,7 @@ image
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -982,7 +982,7 @@ surface
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1112,7 +1112,7 @@ the
 clipboard
 proxy
 .
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >
@@ -1754,7 +1754,7 @@ buffer
 from
 clipboard
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1778,7 +1778,7 @@ to
 MIME
 type
 .
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -2168,7 +2168,7 @@ true
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >

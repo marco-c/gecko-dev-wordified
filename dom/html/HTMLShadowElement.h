@@ -432,7 +432,7 @@ shadow
 insertion
 point
 .
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >

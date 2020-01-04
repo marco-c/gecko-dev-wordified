@@ -1977,7 +1977,7 @@ size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -5233,7 +5233,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -7150,7 +7150,7 @@ std
 string
 name_
 ;
-RefPtr
+nsRefPtr
 <
 NrIceCtx
 >
@@ -7161,7 +7161,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -7240,7 +7240,7 @@ sent_
 NrIceResolverFake
 fake_resolver_
 ;
-RefPtr
+nsRefPtr
 <
 NrIceResolver
 >
@@ -7286,7 +7286,7 @@ trickled_
 bool
 simulate_ice_lite_
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10450,7 +10450,7 @@ nsIUDPSocketFilter
 >
 filter_
 ;
-RefPtr
+nsRefPtr
 <
 NrIceCtx
 >

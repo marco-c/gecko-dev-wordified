@@ -638,7 +638,7 @@ aListener
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CameraControlListener
 >

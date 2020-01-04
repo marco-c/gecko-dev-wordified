@@ -836,7 +836,7 @@ eNext
 /
 Get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -980,7 +980,7 @@ selection
 for
 context
 :
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -1359,7 +1359,7 @@ eNext
 /
 Get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -7657,7 +7657,7 @@ aDoDeleteSelection
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -9536,7 +9536,7 @@ eNext
 /
 get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -10811,7 +10811,7 @@ aNodeInserted
 /
 get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -11394,7 +11394,7 @@ aNodeInserted
 /
 get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -12386,7 +12386,7 @@ nsIDOMNode
 >
 contextLeaf
 ;
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -12550,7 +12550,7 @@ nsGkAtoms
 body
 ;
 }
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -12928,7 +12928,7 @@ aTrustedInput
 nsAutoScriptBlockerSuppressNodeRemoved
 autoBlocker
 ;
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -13090,7 +13090,7 @@ Length
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >

@@ -569,7 +569,7 @@ id
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

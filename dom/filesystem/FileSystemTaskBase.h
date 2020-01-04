@@ -1643,13 +1643,13 @@ const
 nsresult
 mErrorValue
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemBase
 >
 mFileSystem
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemRequestParent
 >

@@ -564,7 +564,7 @@ Signed
 Bit
 Audio
 samples
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -868,7 +868,7 @@ layers
 BufferRecycleBin
 bin
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

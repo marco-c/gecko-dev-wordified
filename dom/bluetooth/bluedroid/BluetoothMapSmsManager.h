@@ -660,7 +660,7 @@ BluetoothMapFolder
 *
 mCurrentFolder
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothMapFolder
 >
@@ -768,7 +768,7 @@ vice
 versa
 )
 .
-RefPtr
+nsRefPtr
 <
 BluetoothSocket
 >
@@ -810,7 +810,7 @@ Listen
 is
 called
 .
-RefPtr
+nsRefPtr
 <
 BluetoothSocket
 >
@@ -823,7 +823,7 @@ notification
 service
 client
 socket
-RefPtr
+nsRefPtr
 <
 BluetoothSocket
 >

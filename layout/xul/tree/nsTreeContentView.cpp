@@ -206,7 +206,7 @@ NS_ENSURE_NATIVE_COLUMN
 _col
 )
 \
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >

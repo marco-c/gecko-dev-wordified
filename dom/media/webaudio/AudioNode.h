@@ -981,7 +981,7 @@ AudioNode
 *
 mInputNode
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -1070,7 +1070,7 @@ mInputNodes
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1088,7 +1088,7 @@ mOutputNodes
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioParam
 >
@@ -1333,7 +1333,7 @@ SendChannelMixingParametersToStream
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioContext
 >
@@ -1357,7 +1357,7 @@ null
 unless
 finished
 .
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >
@@ -1451,7 +1451,7 @@ ports
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1522,7 +1522,7 @@ ports
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioParam
 >

@@ -1958,7 +1958,7 @@ localeCompareStrings
 )
 method
 .
-RefPtr
+nsRefPtr
 <
 Service
 >
@@ -2158,7 +2158,7 @@ mValue
 This
 is
 a
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -2198,7 +2198,7 @@ crashes
 XPConnect
 )
 .
-RefPtr
+nsRefPtr
 <
 mozIStorageCompletionCallback
 >

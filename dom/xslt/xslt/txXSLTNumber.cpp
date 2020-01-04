@@ -503,7 +503,7 @@ if
 aValueExpr
 )
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

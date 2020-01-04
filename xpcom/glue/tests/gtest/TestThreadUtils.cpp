@@ -2205,7 +2205,7 @@ Class
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ThreadUtilsObject
 >
@@ -3890,7 +3890,7 @@ SpyWithISupports
 :
 :
 stored_type
-RefPtr
+nsRefPtr
 <
 SpyWithISupports
 >
@@ -3908,7 +3908,7 @@ SpyWithISupports
 stored_type
 should
 be
-RefPtr
+nsRefPtr
 <
 SpyWithISupports
 >
@@ -8346,7 +8346,7 @@ ptr
 /
 Block
 around
-RefPtr
+nsRefPtr
 <
 Spy
 >
@@ -8363,7 +8363,7 @@ printf
 %
 d
 -
-RefPtr
+nsRefPtr
 <
 SpyWithISupports
 >
@@ -8382,7 +8382,7 @@ __LINE__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpyWithISupports
 >
@@ -8507,7 +8507,7 @@ d
 End
 block
 with
-RefPtr
+nsRefPtr
 <
 Spy
 >

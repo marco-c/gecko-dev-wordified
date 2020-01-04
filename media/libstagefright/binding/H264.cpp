@@ -511,7 +511,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3114,7 +3114,7 @@ DiscardRemaining
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3138,7 +3138,7 @@ ptr
 length
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

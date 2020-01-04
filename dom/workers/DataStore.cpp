@@ -879,7 +879,7 @@ true
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -1010,7 +1010,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1308,7 +1308,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1615,7 +1615,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1764,7 +1764,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1896,7 +1896,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2041,7 +2041,7 @@ WorkerDataStoreCursor
 to
 DataStoreCursor
 .
-RefPtr
+nsRefPtr
 <
 DataStoreCursor
 >
@@ -2124,7 +2124,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreGetStringRunnable
 >
@@ -2191,7 +2191,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreGetStringRunnable
 >
@@ -2255,7 +2255,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreGetReadOnlyRunnable
 >
@@ -2329,7 +2329,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2362,7 +2362,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreGetRunnable
 >
@@ -2451,7 +2451,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2484,7 +2484,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStorePutRunnable
 >
@@ -2579,7 +2579,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2612,7 +2612,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreAddRunnable
 >
@@ -2693,7 +2693,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2726,7 +2726,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreRemoveRunnable
 >
@@ -2801,7 +2801,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2834,7 +2834,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreClearRunnable
 >
@@ -2904,7 +2904,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreGetStringRunnable
 >
@@ -3023,7 +3023,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3089,7 +3089,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3122,7 +3122,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreGetLengthRunnable
 >
@@ -3232,7 +3232,7 @@ owns
 the
 WorkerDataStoreCursor
 .
-RefPtr
+nsRefPtr
 <
 WorkerDataStoreCursor
 >
@@ -3262,7 +3262,7 @@ the
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 DataStoreSyncStoreRunnable
 >
@@ -3456,7 +3456,7 @@ MOZ_ASSERT
 mDataStoreChangeEventProxy
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerDataStore
 >
@@ -3508,7 +3508,7 @@ mOwner
 =
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreChangeEvent
 >
@@ -3554,7 +3554,7 @@ DispatchDataStoreChangeEventRunnable
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DataStoreChangeEventProxy
 >
@@ -3845,7 +3845,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreChangeEvent
 >
@@ -3860,7 +3860,7 @@ DataStoreChangeEvent
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 DispatchDataStoreChangeEventRunnable
 >

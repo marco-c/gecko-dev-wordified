@@ -1500,7 +1500,7 @@ nsGenericHTMLElement
 GetUndoManager
 *
 /
-RefPtr
+nsRefPtr
 <
 UndoManager
 >
@@ -1552,7 +1552,7 @@ element
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1586,7 +1586,7 @@ FragmentOrElement
 GetAttributes
 *
 /
-RefPtr
+nsRefPtr
 <
 nsDOMAttributeMap
 >
@@ -1668,7 +1668,7 @@ element
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -1691,7 +1691,7 @@ element
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsDOMTokenList
 >
@@ -1709,7 +1709,7 @@ element
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -1735,7 +1735,7 @@ tree
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -1782,7 +1782,7 @@ element
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -1819,7 +1819,7 @@ data
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 CustomElementData
 >

@@ -1325,7 +1325,7 @@ context
 for
 BeginTransaction
 .
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1339,7 +1339,7 @@ to
 draw
 into
 .
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1352,7 +1352,7 @@ factory
 we
 use
 .
-RefPtr
+nsRefPtr
 <
 ImageFactory
 >

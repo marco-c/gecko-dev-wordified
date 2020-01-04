@@ -375,7 +375,7 @@ sink
 and
 InkCollector
 .
-RefPtr
+nsRefPtr
 <
 IConnectionPointContainer
 >

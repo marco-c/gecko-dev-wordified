@@ -1023,13 +1023,13 @@ owns
 mProtoBinding
 |
 .
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
 mAssociatedBinding
 ;
-RefPtr
+nsRefPtr
 <
 ShadowRootStyleSheetList
 >
@@ -1069,7 +1069,7 @@ ShadowRoot
 was
 created
 .
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -1094,7 +1094,7 @@ ShadowRoot
 was
 created
 .
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -1299,7 +1299,7 @@ ShadowRootStyleSheetList
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >

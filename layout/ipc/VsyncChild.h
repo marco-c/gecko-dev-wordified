@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -324,7 +324,7 @@ side
 vsync
 observer
 .
-RefPtr
+nsRefPtr
 <
 VsyncObserver
 >

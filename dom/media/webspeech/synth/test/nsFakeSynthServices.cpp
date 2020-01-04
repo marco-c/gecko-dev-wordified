@@ -767,7 +767,7 @@ Run
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 FakeSynthCallback
 >
@@ -1146,7 +1146,7 @@ flags
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 FakeSynthCallback
 >
@@ -1629,7 +1629,7 @@ GetInstanceForService
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFakeSynthServices
 >

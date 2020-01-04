@@ -453,7 +453,7 @@ aFlag
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -733,7 +733,7 @@ PickerClosed
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -2344,7 +2344,7 @@ to
 security
 concerns
 .
-RefPtr
+nsRefPtr
 <
 IOleWindow
 >
@@ -3100,7 +3100,7 @@ bool
 aWasInitError
 )
 {
-RefPtr
+nsRefPtr
 <
 IFileOpenDialog
 >
@@ -3194,7 +3194,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 IShellItem
 >
@@ -3262,7 +3262,7 @@ nullptr
 /
 /
 display
-RefPtr
+nsRefPtr
 <
 IShellItem
 >
@@ -3349,13 +3349,13 @@ default
 save
 folder
 .
-RefPtr
+nsRefPtr
 <
 IShellItem
 >
 folderPath
 ;
-RefPtr
+nsRefPtr
 <
 IShellLibrary
 >
@@ -5082,7 +5082,7 @@ bool
 aWasInitError
 )
 {
-RefPtr
+nsRefPtr
 <
 IFileDialog
 >
@@ -5443,7 +5443,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 IShellItem
 >
@@ -5658,7 +5658,7 @@ mMode
 modeOpenMultiple
 )
 {
-RefPtr
+nsRefPtr
 <
 IShellItem
 >
@@ -5702,7 +5702,7 @@ mUnicodeFile
 /
 multiple
 selection
-RefPtr
+nsRefPtr
 <
 IFileOpenDialog
 >
@@ -5735,7 +5735,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IShellItemArray
 >
@@ -5797,7 +5797,7 @@ idx
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 IShellItem
 >

@@ -217,7 +217,7 @@ Update
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TaskbarWindowPreview
 >

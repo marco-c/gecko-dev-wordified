@@ -1454,7 +1454,7 @@ StealNSResult
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXMLQuery
 >
@@ -1770,7 +1770,7 @@ NS_ERROR_FAILURE
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 XPathResult
 >
@@ -1808,7 +1808,7 @@ StealNSResult
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXULTemplateResultSetXML
 >
@@ -1870,7 +1870,7 @@ mGenerationStarted
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 nsXMLBindingSet
 >
@@ -2081,7 +2081,7 @@ rootElement
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsXULTemplateResultXML
 >

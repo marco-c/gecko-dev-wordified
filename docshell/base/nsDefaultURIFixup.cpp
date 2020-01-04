@@ -1069,7 +1069,7 @@ IsEmpty
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDefaultURIFixupInfo
 >
@@ -3123,7 +3123,7 @@ nsIURIFixupInfo
 aInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDefaultURIFixupInfo
 >

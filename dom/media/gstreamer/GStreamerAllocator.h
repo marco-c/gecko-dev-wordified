@@ -138,7 +138,7 @@ GStreamerReader
 aReader
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

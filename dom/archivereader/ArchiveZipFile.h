@@ -355,7 +355,7 @@ Data
 ZipCentral
 mCentral
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

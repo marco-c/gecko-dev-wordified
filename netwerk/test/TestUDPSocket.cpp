@@ -1402,7 +1402,7 @@ to
 process
 UDP
 packets
-RefPtr
+nsRefPtr
 <
 UDPServerListener
 >
@@ -1520,7 +1520,7 @@ clinet
 on
 arbitrary
 port
-RefPtr
+nsRefPtr
 <
 UDPClientListener
 >
@@ -1876,7 +1876,7 @@ return
 1
 ;
 }
-RefPtr
+nsRefPtr
 <
 MulticastTimerCallback
 >

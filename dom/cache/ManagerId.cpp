@@ -146,7 +146,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -271,7 +271,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 ManagerId
 >

@@ -263,7 +263,7 @@ h
 '
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 '

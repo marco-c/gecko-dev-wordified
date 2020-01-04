@@ -747,7 +747,7 @@ GetSize
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 TokenBucketCancelable
 >
@@ -1201,7 +1201,7 @@ UpdateCredits
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TokenBucketCancelable
 >
@@ -1420,7 +1420,7 @@ mUnitCost
 mCredit
 )
 {
-RefPtr
+nsRefPtr
 <
 TokenBucketCancelable
 >

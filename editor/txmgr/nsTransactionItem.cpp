@@ -660,7 +660,7 @@ mUndoStack
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -736,7 +736,7 @@ numItems
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -875,7 +875,7 @@ nsTransactionManager
 aTxMgr
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1167,7 +1167,7 @@ nsTransactionManager
 aTxMgr
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >

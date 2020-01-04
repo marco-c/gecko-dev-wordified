@@ -228,13 +228,13 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRect
 >
 rect
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

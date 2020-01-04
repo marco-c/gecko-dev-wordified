@@ -649,7 +649,7 @@ contentParent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -697,7 +697,7 @@ contentChild
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2396,7 +2396,7 @@ to
 be
 initialized
 .
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3254,7 +3254,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >

@@ -186,7 +186,7 @@ nsIInputStream
 >
 mInputStream
 ;
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -412,7 +412,7 @@ friend
 class
 StreamWrapper
 ;
-RefPtr
+nsRefPtr
 <
 StreamWrapper
 >
@@ -567,7 +567,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -643,7 +643,7 @@ do_QueryReferent
 mFileHandle
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -720,7 +720,7 @@ Failed
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 StreamWrapper
 >
@@ -762,7 +762,7 @@ do_QueryReferent
 mFileHandle
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -854,7 +854,7 @@ IsOnOwningThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CloseRunnable
 >

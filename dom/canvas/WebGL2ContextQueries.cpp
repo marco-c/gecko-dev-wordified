@@ -635,7 +635,7 @@ bug
 *
 /
 }
-RefPtr
+nsRefPtr
 <
 WebGLQuery
 >
@@ -1655,7 +1655,7 @@ GetQuerySlotByTarget
 target
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebGLQuery
 >

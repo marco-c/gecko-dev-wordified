@@ -277,13 +277,13 @@ MozIsoDepTech
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 MozNFCTag
 >

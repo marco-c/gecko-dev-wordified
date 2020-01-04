@@ -8107,7 +8107,7 @@ nsAutoCString
 actualType
 dummy
 ;
-NS_ParseRequestContentType
+NS_ParseContentType
 (
 NS_ConvertUTF16toUTF8
 (

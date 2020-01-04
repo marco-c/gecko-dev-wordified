@@ -1777,7 +1777,7 @@ ShouldUseOffMainThreadCompositing
 bool
 CaptureWidgetOnScreen
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3279,7 +3279,7 @@ full
 level
 alpha
 translucency
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

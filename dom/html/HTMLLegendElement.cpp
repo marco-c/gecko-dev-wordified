@@ -707,7 +707,7 @@ form
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLFormElement
 >

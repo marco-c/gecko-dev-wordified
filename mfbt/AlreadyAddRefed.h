@@ -785,7 +785,7 @@ Foo
 *
 {
 *
-RefPtr
+nsRefPtr
 <
 SubClass
 >
@@ -817,7 +817,7 @@ the
 idiom
 *
 *
-RefPtr
+nsRefPtr
 <
 BaseClass
 >

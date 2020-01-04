@@ -762,7 +762,7 @@ mURI
 ;
 public
 :
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >

@@ -1213,7 +1213,7 @@ ParseCachedDataRunnable
 :
 ParseCachedDataRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaCodecReader
 >
@@ -1226,7 +1226,7 @@ uint32_t
 aLength
 int64_t
 aOffset
-RefPtr
+nsRefPtr
 <
 SignalObject
 >
@@ -1410,7 +1410,7 @@ ProcessCachedDataTask
 :
 ProcessCachedDataTask
 (
-RefPtr
+nsRefPtr
 <
 MediaCodecReader
 >
@@ -1680,7 +1680,7 @@ ReleaseCriticalResources
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -1741,7 +1741,7 @@ mAudioTrack
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1790,7 +1790,7 @@ mVideoTrack
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1826,7 +1826,7 @@ forget
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -1896,7 +1896,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -2552,7 +2552,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -2797,7 +2797,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -2962,7 +2962,7 @@ interval
 intervals
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -3130,7 +3130,7 @@ ProcessCachedData
 (
 int64_t
 aOffset
-RefPtr
+nsRefPtr
 <
 SignalObject
 >
@@ -3389,7 +3389,7 @@ if
 mParseDataFromCache
 )
 {
-RefPtr
+nsRefPtr
 <
 ParseCachedDataRunnable
 >
@@ -3714,7 +3714,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -3808,7 +3808,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -3824,7 +3824,7 @@ Ensure
 __func__
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaCodecReader
 >
@@ -4209,7 +4209,7 @@ height
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MetadataHolder
 >
@@ -4383,7 +4383,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaCodecReader
 >
@@ -4555,7 +4555,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -4665,7 +4665,7 @@ ANDROID_VERSION
 >
 =
 17
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :
@@ -5156,13 +5156,13 @@ mIndex
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 VideoData
 >
 v
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -5956,7 +5956,7 @@ mIndex
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -7296,7 +7296,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaOmxCommonReader
 :
@@ -7315,7 +7315,7 @@ isWaiting
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 MediaResourcePromise
 >
@@ -8323,7 +8323,7 @@ in
 the
 beginning
 .
-RefPtr
+nsRefPtr
 <
 SignalObject
 >

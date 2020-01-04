@@ -770,7 +770,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 WheelEvent
 >
@@ -912,7 +912,7 @@ WidgetWheelEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 WheelEvent
 >

@@ -143,7 +143,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

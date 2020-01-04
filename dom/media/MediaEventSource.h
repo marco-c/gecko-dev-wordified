@@ -1016,7 +1016,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 RevocableToken
 >
@@ -1198,7 +1198,7 @@ T
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 RevocableToken
 >
@@ -1303,14 +1303,14 @@ aEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 RevocableToken
 >
 mToken
 ;
 const
-RefPtr
+nsRefPtr
 <
 Target
 >
@@ -1445,7 +1445,7 @@ mToken
 private
 :
 const
-RefPtr
+nsRefPtr
 <
 RevocableToken
 >
@@ -2298,7 +2298,7 @@ aToken
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 RevocableToken
 >

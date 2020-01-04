@@ -319,7 +319,7 @@ GetRecipients
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -333,7 +333,7 @@ GetOriginators
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -797,7 +797,7 @@ message
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -806,7 +806,7 @@ mOriginators
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >

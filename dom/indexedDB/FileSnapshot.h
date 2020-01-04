@@ -236,7 +236,7 @@ BlobImpl
 public
 PIBlobImplSnapshot
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -487,7 +487,7 @@ virtual
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

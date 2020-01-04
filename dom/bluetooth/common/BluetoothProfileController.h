@@ -1069,7 +1069,7 @@ mConnect
 nsString
 mDeviceAddress
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >

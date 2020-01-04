@@ -391,7 +391,7 @@ GetServices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >
@@ -1176,13 +1176,13 @@ aDescriptor
 BluetoothAttributeHandle
 mHandle
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattCharacteristic
 >
 mCharacteristic
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattDescriptor
 >
@@ -1485,7 +1485,7 @@ server
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >
@@ -1508,7 +1508,7 @@ server
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >

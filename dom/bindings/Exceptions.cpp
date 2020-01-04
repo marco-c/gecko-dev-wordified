@@ -812,7 +812,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Exception
 >
@@ -1037,7 +1037,7 @@ nsDependentCString
 on
 it
 .
-RefPtr
+nsRefPtr
 <
 Exception
 >

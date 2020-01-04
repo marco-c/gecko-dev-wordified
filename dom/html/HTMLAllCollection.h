@@ -458,13 +458,13 @@ nsAString
 aID
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHTMLDocument
 >
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

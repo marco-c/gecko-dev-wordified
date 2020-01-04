@@ -2304,7 +2304,7 @@ ControlMessage
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 CameraControlImpl
 >
@@ -2960,7 +2960,7 @@ mOptions
 bool
 mOptionsPassed
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFileDescriptor
 >
@@ -3504,7 +3504,7 @@ aListener
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 CameraControlListener
 >
@@ -3690,7 +3690,7 @@ lock
 mListenerLock
 )
 ;
-RefPtr
+nsRefPtr
 <
 CameraControlListener
 >

@@ -9126,7 +9126,7 @@ cairo_dwrite_font_face_t
 face
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteGdiInterop
 >

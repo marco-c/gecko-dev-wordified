@@ -245,7 +245,7 @@ UNKNOWN
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -739,7 +739,7 @@ The
 final
 destination
 surface
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -756,7 +756,7 @@ render
 target
 for
 drawing
-RefPtr
+nsRefPtr
 <
 BasicCompositingRenderTarget
 >

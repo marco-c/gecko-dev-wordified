@@ -214,7 +214,7 @@ GetSpec
 spec
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

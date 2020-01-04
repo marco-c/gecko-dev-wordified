@@ -1120,7 +1120,7 @@ mon1
 gReentrantMonitor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Runnable
 >

@@ -1319,7 +1319,7 @@ aGivenProto
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMTokenList
 >

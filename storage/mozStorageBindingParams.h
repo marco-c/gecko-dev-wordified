@@ -384,7 +384,7 @@ usage
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Variant_base
 >

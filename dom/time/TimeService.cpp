@@ -219,7 +219,7 @@ sSingleton
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TimeService
 >

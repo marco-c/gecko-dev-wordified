@@ -954,7 +954,7 @@ Task
 const
 cb_task_
 ;
-RefPtr
+nsRefPtr
 <
 Flag
 >
@@ -1276,7 +1276,7 @@ MessageLoop
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Flag
 >

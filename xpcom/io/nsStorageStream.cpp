@@ -2037,7 +2037,7 @@ nsStorageStream
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsStorageStream
 >
@@ -2176,7 +2176,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStorageInputStream
 >
@@ -3147,7 +3147,7 @@ nsIStorageStream
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStorageStream
 >

@@ -187,7 +187,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1391,7 +1391,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -1450,7 +1450,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -4641,7 +4641,7 @@ the
 restricted
 region
 )
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4712,10 +4712,10 @@ Create
 aSize
 )
 aWhichFrame
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 Nothing
 (
 )
@@ -4880,7 +4880,7 @@ const
 ImageRegion
 &
 aRegion
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -5006,7 +5006,7 @@ imageRect
 ImageRegion
 region
 ;
-Filter
+GraphicsFilter
 filter
 ;
 const
@@ -5142,7 +5142,7 @@ uint32_t
 aWhichFrame
 *
 in
-Filter
+gfxGraphicsFilter
 aFilter
 *
 [
@@ -5181,7 +5181,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -5416,7 +5416,7 @@ if
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5803,10 +5803,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 aParams
 .
 flags
@@ -5910,7 +5910,7 @@ the
 operating
 system
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8381,7 +8381,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

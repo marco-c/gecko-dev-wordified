@@ -229,7 +229,7 @@ aActor
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -256,7 +256,7 @@ MessagePortMessage
 aArray
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -275,7 +275,7 @@ aActor
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -302,7 +302,7 @@ MessagePortMessage
 aArray
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >

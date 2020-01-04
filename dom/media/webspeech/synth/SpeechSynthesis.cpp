@@ -741,7 +741,7 @@ IsEmpty
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisUtterance
 >
@@ -1094,7 +1094,7 @@ GetVoices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisVoice
 >

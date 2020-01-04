@@ -1732,7 +1732,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -1802,7 +1802,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -1869,7 +1869,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -1935,7 +1935,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -2004,7 +2004,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -2073,7 +2073,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -2138,7 +2138,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >
@@ -2203,7 +2203,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FMRadioRequest
 >

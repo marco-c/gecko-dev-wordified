@@ -934,7 +934,7 @@ totalConnSize
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -966,7 +966,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -2083,7 +2083,7 @@ unregistered
 and
 destroyed
 .
-RefPtr
+nsRefPtr
 <
 Service
 >
@@ -2253,7 +2253,7 @@ inout
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -2298,7 +2298,7 @@ minimizeMemory
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -2330,7 +2330,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -4289,7 +4289,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -4543,7 +4543,7 @@ nsISupports
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 CallbackComplete
 >
@@ -4704,7 +4704,7 @@ rawCallback
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -4719,7 +4719,7 @@ mStorageFile
 int32_t
 mGrowthIncrement
 ;
-RefPtr
+nsRefPtr
 <
 mozIStorageCompletionCallback
 >
@@ -5082,7 +5082,7 @@ its
 helper
 thread
 .
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5125,7 +5125,7 @@ already
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncInitDatabase
 >
@@ -5198,7 +5198,7 @@ SQLITE_OPEN_SHAREDCACHE
 |
 SQLITE_OPEN_CREATE
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5284,7 +5284,7 @@ SQLITE_OPEN_PRIVATECACHE
 |
 SQLITE_OPEN_CREATE
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5372,7 +5372,7 @@ SQLITE_OPEN_CREATE
 |
 SQLITE_OPEN_URI
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5831,7 +5831,7 @@ do
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5867,7 +5867,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -5934,7 +5934,7 @@ SCM_CRASH
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >

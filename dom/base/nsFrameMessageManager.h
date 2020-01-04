@@ -1428,7 +1428,7 @@ MessageManagerCallback
 >
 mOwnedCallback
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >

@@ -2293,7 +2293,7 @@ strong
 ref
 while
 dispatching
-RefPtr
+nsRefPtr
 <
 HTMLFormElement
 >

@@ -685,7 +685,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -736,7 +736,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >
@@ -770,7 +770,7 @@ kImpossibleAccuracy_m
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >
@@ -941,7 +941,7 @@ accuracy
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 UpdateLocationEvent
 >
@@ -1471,7 +1471,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -1735,7 +1735,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -1837,7 +1837,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -1907,7 +1907,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -2076,7 +2076,7 @@ GonkGPSGeolocationProvider
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -4384,7 +4384,7 @@ nsIDOMGeoPosition
 position
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkGPSGeolocationProvider
 >
@@ -5079,7 +5079,7 @@ rv
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 NetworkLocationUpdate
 >

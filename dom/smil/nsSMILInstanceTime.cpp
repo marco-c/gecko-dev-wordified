@@ -399,7 +399,7 @@ Unlink
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSMILInstanceTime
 >
@@ -584,7 +584,7 @@ mVisited
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsSMILInstanceTime
 >
@@ -670,7 +670,7 @@ without
 a
 base
 interval
-RefPtr
+nsRefPtr
 <
 nsSMILInstanceTime
 >

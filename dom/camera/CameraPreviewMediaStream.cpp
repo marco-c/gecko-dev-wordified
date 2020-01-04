@@ -342,7 +342,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -451,7 +451,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
@@ -615,7 +615,7 @@ for
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -778,7 +778,7 @@ for
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -868,7 +868,7 @@ for
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >

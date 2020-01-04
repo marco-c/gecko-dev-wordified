@@ -244,7 +244,7 @@ SVGAnimatedNumber
 {
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

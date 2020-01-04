@@ -191,7 +191,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1307,7 +1307,7 @@ mPresShell
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1350,7 +1350,7 @@ dragging
 the
 caret
 .
-RefPtr
+nsRefPtr
 <
 DummyTouchListener
 >

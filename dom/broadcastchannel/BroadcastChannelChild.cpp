@@ -332,7 +332,7 @@ actors
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -395,7 +395,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -771,7 +771,7 @@ value
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >

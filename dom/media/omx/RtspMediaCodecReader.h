@@ -241,7 +241,7 @@ byte
 based
 .
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -432,7 +432,7 @@ video
 data
 .
 virtual
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -456,7 +456,7 @@ audio
 data
 .
 virtual
-RefPtr
+nsRefPtr
 <
 AudioDataPromise
 >
@@ -466,7 +466,7 @@ RequestAudioData
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :

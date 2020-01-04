@@ -239,7 +239,7 @@ GetInstance
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIdleServiceQt
 >

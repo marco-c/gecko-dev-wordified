@@ -97,7 +97,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1057,7 +1057,7 @@ Zip
 reference
 *
 /
-RefPtr
+nsRefPtr
 <
 Zip
 >
@@ -1293,7 +1293,7 @@ Zip
 reference
 *
 /
-RefPtr
+nsRefPtr
 <
 Zip
 >

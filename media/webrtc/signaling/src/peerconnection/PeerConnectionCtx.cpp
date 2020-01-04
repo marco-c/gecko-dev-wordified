@@ -421,7 +421,7 @@ inside
 Observe
 (
 )
-RefPtr
+nsRefPtr
 <
 PeerConnectionCtxShutdown
 >

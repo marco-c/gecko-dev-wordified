@@ -211,13 +211,13 @@ Value
 >
 mResult
 ;
-RefPtr
+nsRefPtr
 <
 DOMError
 >
 mError
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

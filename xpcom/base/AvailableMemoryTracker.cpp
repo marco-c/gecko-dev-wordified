@@ -2983,7 +2983,7 @@ the
 observer
 service
 .
-RefPtr
+nsRefPtr
 <
 nsMemoryPressureWatcher
 >

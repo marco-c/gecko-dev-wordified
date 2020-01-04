@@ -611,7 +611,7 @@ BaseVal
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPreserveAspectRatio
 >
@@ -700,7 +700,7 @@ AnimVal
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPreserveAspectRatio
 >
@@ -1440,7 +1440,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedPreserveAspectRatio
 >

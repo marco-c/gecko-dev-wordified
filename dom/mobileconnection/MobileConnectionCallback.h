@@ -317,7 +317,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >

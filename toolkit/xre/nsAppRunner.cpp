@@ -5410,7 +5410,7 @@ XRE_IsParentProcess
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -19504,7 +19504,7 @@ AnnotateSystemManufacturer
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 IWbemLocator
 >
@@ -19536,7 +19536,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IWbemServices
 >
@@ -19607,7 +19607,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumWbemClassObject
 >
@@ -19662,7 +19662,7 @@ enumerator
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IWbemClassObject
 >

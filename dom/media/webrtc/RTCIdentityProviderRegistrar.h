@@ -104,7 +104,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -310,7 +310,7 @@ nsIGlobalObject
 >
 mGlobal
 ;
-RefPtr
+nsRefPtr
 <
 RTCIdentityProvider
 >

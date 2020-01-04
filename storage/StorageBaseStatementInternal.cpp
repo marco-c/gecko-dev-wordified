@@ -409,13 +409,13 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 StorageBaseStatementInternal
 >
 mStatement
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -574,7 +574,7 @@ forgotten
 /
 LastDitchSqliteStatementFinalizer
 (
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -681,7 +681,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Connection
 >

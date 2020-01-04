@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -390,7 +390,7 @@ aEnable
 Mutex
 mCompositorObserverLock
 ;
-RefPtr
+nsRefPtr
 <
 VsyncObserver
 >
@@ -561,7 +561,7 @@ NeedsVsync
 Mutex
 mRefreshTimersLock
 ;
-RefPtr
+nsRefPtr
 <
 VsyncObserver
 >
@@ -569,7 +569,7 @@ mParentRefreshTimer
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VsyncObserver
 >

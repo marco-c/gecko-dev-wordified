@@ -335,7 +335,7 @@ nsDOMStringMap
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >

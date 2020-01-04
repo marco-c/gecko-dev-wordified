@@ -1727,7 +1727,7 @@ false
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 INetSharingManager
 >
@@ -1747,7 +1747,7 @@ netSharingManager
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 INetSharingPrivateConnectionCollection
 >
@@ -1776,7 +1776,7 @@ privateCollection
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumNetSharingPrivateConnection
 >
@@ -1790,7 +1790,7 @@ hr
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 IUnknown
 >
@@ -1962,7 +1962,7 @@ it
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 INetConnection
 >

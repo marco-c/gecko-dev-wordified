@@ -288,7 +288,7 @@ mController
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

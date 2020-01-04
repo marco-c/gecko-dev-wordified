@@ -542,7 +542,7 @@ GlobalObject
 aGlobal
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -564,7 +564,7 @@ PutAll
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -574,7 +574,7 @@ aRequestList
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Response
 >

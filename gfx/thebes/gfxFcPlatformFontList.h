@@ -482,7 +482,7 @@ aUserFontDataRef
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 FTUserFontData
 >
@@ -809,7 +809,7 @@ font
 data
 when
 needed
-RefPtr
+nsRefPtr
 <
 FTUserFontData
 >

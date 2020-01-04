@@ -191,7 +191,7 @@ Next
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Index
 >

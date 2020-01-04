@@ -711,7 +711,7 @@ uint32_t
 aSampleCount
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -726,7 +726,7 @@ CreateAudioSegment
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -920,7 +920,7 @@ GetUserMediaSuccessCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 SpeechRecognition
 >
@@ -961,7 +961,7 @@ GetUserMediaErrorCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 SpeechRecognition
 >
@@ -1106,13 +1106,13 @@ SpeechEvent
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
 mDOMStream
 ;
-RefPtr
+nsRefPtr
 <
 SpeechStreamListener
 >
@@ -1152,7 +1152,7 @@ feeding
 it
 to
 mEndpointer
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -1173,7 +1173,7 @@ mAborted
 nsString
 mLang
 ;
-RefPtr
+nsRefPtr
 <
 SpeechGrammarList
 >
@@ -1450,7 +1450,7 @@ AudioSegment
 *
 mAudioSegment
 ;
-RefPtr
+nsRefPtr
 <
 SpeechRecognitionResultList
 >
@@ -1472,7 +1472,7 @@ has
 index
 and
 stuff
-RefPtr
+nsRefPtr
 <
 SpeechRecognitionError
 >
@@ -1534,7 +1534,7 @@ event
 gets
 processed
 .
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >

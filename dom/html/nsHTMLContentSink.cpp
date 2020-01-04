@@ -1001,19 +1001,19 @@ run
 int32_t
 mMaxTextRun
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
 mRoot
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
 mBody
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
@@ -1375,7 +1375,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1649,7 +1649,7 @@ element
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
@@ -2240,7 +2240,7 @@ rv
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2284,7 +2284,7 @@ Make
 the
 content
 object
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
@@ -3571,7 +3571,7 @@ NS_ENSURE_ARG_POINTER
 aResult
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLContentSink
 >
@@ -4093,7 +4093,7 @@ maxtextrun
 8191
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

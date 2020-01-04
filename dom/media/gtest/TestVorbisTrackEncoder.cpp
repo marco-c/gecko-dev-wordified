@@ -967,7 +967,7 @@ channels
 rate
 )
 ;
-RefPtr
+nsRefPtr
 <
 TrackMetadataBase
 >
@@ -979,7 +979,7 @@ GetMetadata
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VorbisMetadata
 >
@@ -1102,7 +1102,7 @@ h
 :
 :
 Fake_AudioGenerator
-RefPtr
+nsRefPtr
 <
 mozilla
 :

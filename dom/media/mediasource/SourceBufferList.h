@@ -596,7 +596,7 @@ char
 aName
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaSource
 >
@@ -604,7 +604,7 @@ mMediaSource
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >

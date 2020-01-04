@@ -253,7 +253,7 @@ _sInstance
 )
 {
 \
-RefPtr
+nsRefPtr
 <
 _className
 >
@@ -280,7 +280,7 @@ _className
 )
 ;
 \
-RefPtr
+nsRefPtr
 <
 _className
 >

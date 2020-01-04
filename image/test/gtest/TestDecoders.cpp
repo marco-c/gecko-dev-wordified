@@ -167,7 +167,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -573,7 +573,7 @@ GetCurrentFrameRef
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -747,7 +747,7 @@ into
 a
 SourceBuffer
 .
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -812,7 +812,7 @@ aTestCase
 mMimeType
 )
 ;
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -964,7 +964,7 @@ and
 a
 decoder
 .
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -996,7 +996,7 @@ aTestCase
 mMimeType
 )
 ;
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -1059,7 +1059,7 @@ into
 the
 SourceBuffer
 .
-RefPtr
+nsRefPtr
 <
 NoResume
 >

@@ -241,7 +241,7 @@ GamepadServiceTest
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 GamepadServiceTest
 >

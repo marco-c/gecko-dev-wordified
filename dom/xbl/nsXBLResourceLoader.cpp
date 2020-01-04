@@ -703,7 +703,7 @@ initialDocumentURI
 is
 nullptr
 !
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -837,7 +837,7 @@ rv
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

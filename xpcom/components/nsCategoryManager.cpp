@@ -2273,7 +2273,7 @@ mSuppressNotifications
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 CategoryNotificationRunnable
 >

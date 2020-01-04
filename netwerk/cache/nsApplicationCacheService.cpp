@@ -483,7 +483,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -549,7 +549,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -612,7 +612,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -673,7 +673,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -730,7 +730,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -793,7 +793,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -854,7 +854,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -911,7 +911,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -972,7 +972,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -1033,7 +1033,7 @@ mCacheService
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -1405,7 +1405,7 @@ if
 observerService
 )
 {
-RefPtr
+nsRefPtr
 <
 AppCacheClearDataObserver
 >

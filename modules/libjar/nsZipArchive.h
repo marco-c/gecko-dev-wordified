@@ -1229,7 +1229,7 @@ mBuiltSynthetics
 /
 file
 handle
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >
@@ -1356,7 +1356,7 @@ aNameLen
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -1813,7 +1813,7 @@ mReadlen
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >

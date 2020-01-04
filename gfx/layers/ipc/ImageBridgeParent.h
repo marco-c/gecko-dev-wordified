@@ -889,7 +889,7 @@ destruction
 of
 ourselves
 .
-RefPtr
+nsRefPtr
 <
 ImageBridgeParent
 >
@@ -930,7 +930,7 @@ MessageLoop
 *
 sMainLoop
 ;
-RefPtr
+nsRefPtr
 <
 CompositorThreadHolder
 >

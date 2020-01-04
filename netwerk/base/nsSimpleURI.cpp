@@ -2305,7 +2305,7 @@ pointer
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsSimpleURI
 >
@@ -2626,7 +2626,7 @@ nsIURI
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleURI
 >

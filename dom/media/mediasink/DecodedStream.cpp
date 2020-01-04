@@ -451,7 +451,7 @@ protected
 by
 mMutex
 .
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -821,7 +821,7 @@ replicate
 the
 image
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -886,13 +886,13 @@ this
 stream
 .
 const
-RefPtr
+nsRefPtr
 <
 SourceMediaStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 DecodedStreamGraphListener
 >
@@ -1819,7 +1819,7 @@ mParams
 aParams
 ;
 }
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >
@@ -2066,7 +2066,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DecodedStream
 >
@@ -2295,7 +2295,7 @@ release
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DecodedStream
 >
@@ -2571,7 +2571,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DecodedStream
 >
@@ -3363,7 +3363,7 @@ EnsureAudioBuffer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -3527,7 +3527,7 @@ mRate
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -3765,7 +3765,7 @@ VideoSegment
 aOutput
 )
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -3923,7 +3923,7 @@ mTrackId
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >

@@ -2679,7 +2679,7 @@ height
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2725,7 +2725,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4750,7 +4750,7 @@ aGraphicOpacity
 0f
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -4780,7 +4780,7 @@ it
 Matrix
 pMatrix
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4811,7 +4811,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >

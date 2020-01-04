@@ -2285,7 +2285,7 @@ bool
 aAfter
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3057,7 +3057,7 @@ bool
 aAfter
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4183,7 +4183,7 @@ DeleteTable
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4245,7 +4245,7 @@ int32_t
 aNumber
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5293,7 +5293,7 @@ DeleteTableCellContents
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5649,7 +5649,7 @@ int32_t
 aNumber
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6513,7 +6513,7 @@ rowCount
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6667,7 +6667,7 @@ int32_t
 aNumber
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8074,7 +8074,7 @@ aEndCell
 NS_ERROR_NULL_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8750,7 +8750,7 @@ res
 res
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -9072,7 +9072,7 @@ location
 of
 cell
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -9470,7 +9470,7 @@ location
 of
 cell
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -11253,7 +11253,7 @@ selection
 when
 replacing
 nodes
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -12937,7 +12937,7 @@ where
 cells
 were
 deleted
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -12973,7 +12973,7 @@ res
 res
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -14652,7 +14652,7 @@ nsIDOMElement
 aTable
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -16413,7 +16413,7 @@ aColIndex
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -17249,7 +17249,7 @@ aRange
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -17265,7 +17265,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -17426,7 +17426,7 @@ aRange
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -17485,7 +17485,7 @@ next
 valid
 selected
 cell
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -17822,7 +17822,7 @@ aTable
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -18240,7 +18240,7 @@ aSelectedCount
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >

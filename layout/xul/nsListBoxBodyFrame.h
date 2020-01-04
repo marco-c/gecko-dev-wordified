@@ -1014,7 +1014,7 @@ aChild
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsPositionChangedEvent
 >

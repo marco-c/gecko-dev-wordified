@@ -466,7 +466,7 @@ blobChild
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -868,7 +868,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >

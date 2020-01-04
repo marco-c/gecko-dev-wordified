@@ -3830,7 +3830,7 @@ WakeLockRelease
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WakeLock
 >
@@ -4098,7 +4098,7 @@ void
 NotifyMediaStreamTrackAdded
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -4138,7 +4138,7 @@ void
 NotifyMediaStreamTrackRemoved
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -6053,7 +6053,7 @@ non
 -
 null
 .
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 >
@@ -6091,7 +6091,7 @@ video
 to
 display
 .
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -6120,7 +6120,7 @@ the
 src
 attribute
 .
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -6162,7 +6162,7 @@ non
 -
 null
 .
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -6206,7 +6206,7 @@ the
 capture
 sink
 .
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -6235,7 +6235,7 @@ to
 struct
 OutputMediaStream
 {
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -6270,7 +6270,7 @@ s
 playback
 stream
 .
-RefPtr
+nsRefPtr
 <
 StreamListener
 >
@@ -6293,7 +6293,7 @@ to
 /
 mSrcStream
 .
-RefPtr
+nsRefPtr
 <
 StreamSizeListener
 >
@@ -6321,7 +6321,7 @@ the
 media
 element
 .
-RefPtr
+nsRefPtr
 <
 MediaSource
 >
@@ -6377,7 +6377,7 @@ to
 a
 MediaSource
 .
-RefPtr
+nsRefPtr
 <
 MediaSource
 >
@@ -6456,7 +6456,7 @@ mChannel
 /
 Error
 attribute
-RefPtr
+nsRefPtr
 <
 MediaError
 >
@@ -6536,7 +6536,7 @@ resource
 to
 load
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -7317,7 +7317,7 @@ of
 time
 played
 .
-RefPtr
+nsRefPtr
 <
 TimeRanges
 >
@@ -7348,7 +7348,7 @@ Extension
 media
 keys
 .
-RefPtr
+nsRefPtr
 <
 MediaKeys
 >
@@ -8523,25 +8523,25 @@ nsIAudioChannelAgent
 >
 mAudioChannelAgent
 ;
-RefPtr
+nsRefPtr
 <
 TextTrackManager
 >
 mTextTrackManager
 ;
-RefPtr
+nsRefPtr
 <
 AudioTrackList
 >
 mAudioTrackList
 ;
-RefPtr
+nsRefPtr
 <
 VideoTrackList
 >
 mVideoTrackList
 ;
-RefPtr
+nsRefPtr
 <
 MediaStreamTrackListener
 >

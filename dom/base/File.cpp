@@ -606,7 +606,7 @@ stream
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataOwner
 >
@@ -1003,7 +1003,7 @@ uint64_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1072,7 +1072,7 @@ uint64_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1143,7 +1143,7 @@ nsAString
 aContentType
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1216,7 +1216,7 @@ nsAString
 aContentType
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1361,7 +1361,7 @@ IsDirectory
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1410,7 +1410,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1473,7 +1473,7 @@ const
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1499,7 +1499,7 @@ GetType
 contentType
 )
 ;
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -1513,7 +1513,7 @@ aName
 contentType
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1556,7 +1556,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1586,7 +1586,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1682,7 +1682,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1712,7 +1712,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1866,7 +1866,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -1895,7 +1895,7 @@ IsFile
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1956,7 +1956,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -2017,7 +2017,7 @@ IsFile
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -2297,7 +2297,7 @@ BlobDirState
 aDirState
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2355,7 +2355,7 @@ uint64_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2416,7 +2416,7 @@ int64_t
 aLastModifiedDate
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2469,7 +2469,7 @@ bool
 aTemporary
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2525,7 +2525,7 @@ nsAString
 aContentType
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -2969,7 +2969,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -3048,7 +3048,7 @@ Value
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -3125,7 +3125,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -3198,7 +3198,7 @@ Value
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -3297,7 +3297,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -3372,7 +3372,7 @@ Value
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -3465,7 +3465,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MultipartBlobImpl
 >
@@ -3539,7 +3539,7 @@ Value
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -4609,7 +4609,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -5284,7 +5284,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -6072,7 +6072,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -6234,7 +6234,7 @@ nsACString
 aContentType
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -6475,7 +6475,7 @@ AppendBlobImpls
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

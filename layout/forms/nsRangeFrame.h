@@ -1106,7 +1106,7 @@ style
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1170,7 +1170,7 @@ Init
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DummyTouchListener
 >

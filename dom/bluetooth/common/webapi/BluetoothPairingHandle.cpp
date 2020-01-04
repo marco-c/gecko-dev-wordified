@@ -361,7 +361,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothPairingHandle
 >
@@ -432,7 +432,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -561,7 +561,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -711,7 +711,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >

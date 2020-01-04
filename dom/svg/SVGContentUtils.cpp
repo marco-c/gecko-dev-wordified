@@ -209,7 +209,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1216,7 +1216,7 @@ StrokeOptionFlags
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1526,7 +1526,7 @@ gfxTextContextPaint
 aContextPaint
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1636,7 +1636,7 @@ return
 .
 0f
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1821,7 +1821,7 @@ return
 .
 0f
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1955,7 +1955,7 @@ GetFontXHeight
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -5184,7 +5184,7 @@ return
 NULL
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -5202,7 +5202,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

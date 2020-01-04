@@ -451,7 +451,7 @@ protected
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRangeStore
 >
@@ -850,7 +850,7 @@ protected
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRangeStore
 >
@@ -1000,7 +1000,7 @@ int32_t
 *
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 nsRangeStore
 >

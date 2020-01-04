@@ -383,7 +383,7 @@ public
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1490,7 +1490,7 @@ nsStyleSet
 :
 eScopedDocSheet
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -1076,7 +1076,7 @@ GestureState
 aState
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >

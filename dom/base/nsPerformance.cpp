@@ -2532,7 +2532,7 @@ DispatchBufferFullEvent
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -3027,7 +3027,7 @@ no
 offset
 )
 .
-RefPtr
+nsRefPtr
 <
 nsPerformanceTiming
 >
@@ -3061,7 +3061,7 @@ the
 required
 timings
 .
-RefPtr
+nsRefPtr
 <
 PerformanceResourceTiming
 >
@@ -4057,7 +4057,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PrefEnabledRunnable
 >
@@ -4160,7 +4160,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PrefEnabledRunnable
 >
@@ -4524,7 +4524,7 @@ GetEntries
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -4566,7 +4566,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -4676,7 +4676,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -5023,7 +5023,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 PerformanceMark
 >
@@ -5111,7 +5111,7 @@ aRv
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -5441,7 +5441,7 @@ Now
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PerformanceMeasure
 >
@@ -5687,7 +5687,7 @@ BeginReading
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PerformanceEntryEvent
 >
@@ -6016,7 +6016,7 @@ NotifyObserversTask
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 PerformanceBase
 >

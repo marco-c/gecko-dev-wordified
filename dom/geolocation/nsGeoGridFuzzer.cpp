@@ -1245,7 +1245,7 @@ speed
 0
 error
 .
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >

@@ -1328,7 +1328,7 @@ true
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBObjectStore
 >
@@ -1368,7 +1368,7 @@ StealNSResult
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IDBObjectStore
 >
@@ -1469,7 +1469,7 @@ true
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBIndex
 >
@@ -1636,7 +1636,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 VersionChangeListener
 >
@@ -1706,7 +1706,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -1821,7 +1821,7 @@ nullptr
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 IDBOpenDBRequest
 >

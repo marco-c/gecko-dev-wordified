@@ -240,7 +240,7 @@ OfflineAudioCompletionEvent
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioBuffer
 >

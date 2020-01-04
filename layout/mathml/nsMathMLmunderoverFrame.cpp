@@ -2688,7 +2688,7 @@ CSSPixelsToAppUnits
 /
 Place
 Children
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

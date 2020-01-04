@@ -401,7 +401,7 @@ private
 bool
 mInitialized
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >

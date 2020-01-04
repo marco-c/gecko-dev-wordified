@@ -1240,7 +1240,7 @@ single
 solid
 color
 image
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1260,7 +1260,7 @@ ImageFormat
 PLANAR_YCBCR
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1457,7 +1457,7 @@ giving
 up
 mImage
 here
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2555,7 +2555,7 @@ aTimer
 AudioSegment
 segment
 ;
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -2713,7 +2713,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -2798,7 +2798,7 @@ Allocate
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -2848,7 +2848,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >
@@ -2901,7 +2901,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >
@@ -2960,7 +2960,7 @@ Length
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >

@@ -815,6 +815,13 @@ QueueEvents
 )
 ;
 bool
+HasEndEventToQueue
+(
+)
+const
+override
+;
+bool
 IsStylePaused
 (
 )

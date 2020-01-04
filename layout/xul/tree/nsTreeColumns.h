@@ -817,7 +817,7 @@ mCropStyle
 int8_t
 mTextAlignment
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -1164,7 +1164,7 @@ columns
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >

@@ -159,7 +159,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1065,7 +1065,7 @@ mCompositableCount
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 TextureSource
 >
@@ -1083,7 +1083,7 @@ mCompositableCount
 equivalent
 of
 a
-RefPtr
+nsRefPtr
 <
 TextureSource
 >
@@ -1316,7 +1316,7 @@ mRef
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -3600,13 +3600,13 @@ nullptr
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >
 mCompositor
 ;
-RefPtr
+nsRefPtr
 <
 DataTextureSource
 >
@@ -3789,7 +3789,7 @@ Shmem
 >
 mShmem
 ;
-RefPtr
+nsRefPtr
 <
 ISurfaceAllocator
 >
@@ -3993,7 +3993,7 @@ mLocked
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 TextureHost
 >

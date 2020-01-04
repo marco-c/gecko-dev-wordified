@@ -163,7 +163,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -444,7 +444,7 @@ nsIArray
 aArray
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleArrayEnumerator
 >
@@ -1158,7 +1158,7 @@ nsCOMArray_base
 aArray
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCOMArrayEnumerator
 >

@@ -925,7 +925,7 @@ follow
 COM
 rules
 .
-RefPtr
+nsRefPtr
 <
 HTMLOptionElement
 >

@@ -715,7 +715,7 @@ hardware
 /
 framebuffer
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -807,7 +807,7 @@ during
 /
 destruction
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -889,13 +889,13 @@ MultiTouchInput
 >
 mSynthesizedTouchInput
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
 mScreen
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

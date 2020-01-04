@@ -740,7 +740,7 @@ cwd
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 WaitForConnectionClosed
 >

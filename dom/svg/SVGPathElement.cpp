@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -623,7 +623,7 @@ GetTotalLength
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -664,7 +664,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -830,7 +830,7 @@ CreateSVGPathSegClosePath
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegClosePath
 >
@@ -864,7 +864,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegMovetoAbs
 >
@@ -900,7 +900,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegMovetoRel
 >
@@ -936,7 +936,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoAbs
 >
@@ -972,7 +972,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoRel
 >
@@ -1070,7 +1070,7 @@ of
 first
 )
 .
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicAbs
 >
@@ -1124,7 +1124,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicRel
 >
@@ -1174,7 +1174,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticAbs
 >
@@ -1222,7 +1222,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticRel
 >
@@ -1276,7 +1276,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegArcAbs
 >
@@ -1333,7 +1333,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegArcRel
 >
@@ -1372,7 +1372,7 @@ float
 x
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoHorizontalAbs
 >
@@ -1405,7 +1405,7 @@ float
 x
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoHorizontalRel
 >
@@ -1438,7 +1438,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoVerticalAbs
 >
@@ -1471,7 +1471,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoVerticalRel
 >
@@ -1516,7 +1516,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicSmoothAbs
 >
@@ -1564,7 +1564,7 @@ See
 comment
 in
 CreateSVGPathSegCurvetoCubicAbs
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicSmoothRel
 >
@@ -1602,7 +1602,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticSmoothAbs
 >
@@ -1638,7 +1638,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticSmoothRel
 >
@@ -2181,7 +2181,7 @@ authorsPathLengthEstimate
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2290,7 +2290,7 @@ IsIdentity
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2441,7 +2441,7 @@ strokeWidth
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

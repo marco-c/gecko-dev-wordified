@@ -2211,7 +2211,7 @@ SetDictionary
 might
 destroy
 us
-RefPtr
+nsRefPtr
 <
 mozSpellChecker
 >

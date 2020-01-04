@@ -343,13 +343,13 @@ nsIObserver
 {
 public
 :
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >
 mHTMLBindings
 ;
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >
@@ -3479,7 +3479,7 @@ EventTarget
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXBLWindowKeyHandler
 >

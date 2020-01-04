@@ -531,7 +531,7 @@ long
 long
 mTimestamp
 ;
-RefPtr
+nsRefPtr
 <
 nsIDOMGeoPositionCoords
 >
@@ -744,7 +744,7 @@ mGeoPosition
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Coordinates
 >
@@ -880,7 +880,7 @@ const
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Position
 >

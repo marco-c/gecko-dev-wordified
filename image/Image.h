@@ -1592,7 +1592,7 @@ GetProgressTracker
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -2007,13 +2007,13 @@ of
 this
 abstract
 class
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
 mProgressTracker
 ;
-RefPtr
+nsRefPtr
 <
 ImageURL
 >

@@ -155,7 +155,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -224,7 +224,7 @@ Output
 (
 int64_t
 aStreamOffset
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -348,7 +348,7 @@ mVideoHeight
 nsIntRect
 mPictureRegion
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -363,7 +363,7 @@ DXVA2Manager
 >
 mDXVA2Manager
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >

@@ -434,7 +434,7 @@ process
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -581,7 +581,7 @@ MOZ_ASSERT
 aBlob
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -683,7 +683,7 @@ Principal
 aPrincipal
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >

@@ -699,7 +699,7 @@ OptionalIccInfoData
 TIccInfoData
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccInfo
 >

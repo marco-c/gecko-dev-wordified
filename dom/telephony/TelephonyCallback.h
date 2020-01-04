@@ -182,7 +182,7 @@ TelephonyCallback
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 Promise
 >

@@ -1189,7 +1189,7 @@ session
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >
@@ -1425,7 +1425,7 @@ if
 spdyProxy
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -9003,7 +9003,7 @@ mSocketOut
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >

@@ -765,7 +765,7 @@ aRv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMError
 >
@@ -860,7 +860,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreDB
 >
@@ -1620,7 +1620,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -1736,7 +1736,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1878,7 +1878,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -2072,7 +2072,7 @@ Transaction
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBObjectStore
 >
@@ -2254,7 +2254,7 @@ aTxn
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 IDBObjectStore
 >
@@ -2297,7 +2297,7 @@ MOZ_ASSERT
 store
 )
 ;
-RefPtr
+nsRefPtr
 <
 RevisionAddedEnableStoreCallback
 >
@@ -2356,7 +2356,7 @@ s
 create
 it
 .
-RefPtr
+nsRefPtr
 <
 DataStoreRevision
 >
@@ -2428,7 +2428,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -2441,7 +2441,7 @@ swap
 mRequest
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -2630,7 +2630,7 @@ Failed
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -2694,13 +2694,13 @@ FirstRevisionIdCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -3135,7 +3135,7 @@ toInt32
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -3153,7 +3153,7 @@ MOZ_ASSERT
 service
 )
 ;
-RefPtr
+nsRefPtr
 <
 RetrieveRevisionsCounter
 >
@@ -3238,7 +3238,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3246,7 +3246,7 @@ mPromise
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DataStore
 >
@@ -3290,7 +3290,7 @@ if
 gDataStoreService
 )
 {
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -3326,7 +3326,7 @@ gDataStoreService
 service
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -3369,7 +3369,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -4048,7 +4048,7 @@ window
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4649,7 +4649,7 @@ Length
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DataStore
 >
@@ -4691,7 +4691,7 @@ first
 revision
 Ids
 .
-RefPtr
+nsRefPtr
 <
 RetrieveRevisionsCounter
 >
@@ -4892,7 +4892,7 @@ cx
 dataStoreJS
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreImpl
 >
@@ -4905,7 +4905,7 @@ dataStoreJS
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStore
 >
@@ -6685,7 +6685,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreDB
 >
@@ -6698,7 +6698,7 @@ aManifestURL
 aName
 )
 ;
-RefPtr
+nsRefPtr
 <
 FirstRevisionIdCallback
 >
@@ -7113,7 +7113,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RetrieveRevisionsCounter
 >

@@ -4121,7 +4121,7 @@ range
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -5527,7 +5527,7 @@ if
 compare
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -5876,7 +5876,7 @@ GetLineBreakType
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -6201,7 +6201,7 @@ GetLineBreakType
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -7222,7 +7222,7 @@ guessed
 caret
 rect
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -7396,7 +7396,7 @@ FontSizeInflationFor
 frame
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -8838,7 +8838,7 @@ invalid
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -9789,7 +9789,7 @@ nsIContent
 node
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -10363,7 +10363,7 @@ from
 offset
 and
 length
-RefPtr
+nsRefPtr
 <
 nsRange
 >

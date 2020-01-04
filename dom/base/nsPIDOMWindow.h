@@ -1386,10 +1386,6 @@ bool
 aFreezeChildren
 =
 true
-bool
-aFreezeWorkers
-=
-true
 )
 =
 0
@@ -1413,10 +1409,6 @@ ResumeTimeouts
 (
 bool
 aThawChildren
-=
-true
-bool
-aThawWorkers
 =
 true
 )

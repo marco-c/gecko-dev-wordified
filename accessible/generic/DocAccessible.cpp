@@ -4235,7 +4235,7 @@ this
 exceptional
 case
 .
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4367,7 +4367,7 @@ bool
 aIsFromUserInput
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -5455,7 +5455,7 @@ mStateBitWasOn
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -5477,7 +5477,7 @@ FireDelayedEvent
 enabledChangeEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -5859,7 +5859,7 @@ _true
 eCaseMatters
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -5978,7 +5978,7 @@ AccSelChangeEvent
 :
 eSelectionRemove
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6012,7 +6012,7 @@ nsGkAtoms
 contenteditable
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6126,7 +6126,7 @@ nsGkAtoms
 aria_required
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6161,7 +6161,7 @@ nsGkAtoms
 aria_invalid
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6278,7 +6278,7 @@ nsGkAtoms
 aria_expanded
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6356,7 +6356,7 @@ ATTR_BYPASSOBJ
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6487,7 +6487,7 @@ SetARIAHidden
 isDefined
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6563,7 +6563,7 @@ states
 :
 PRESSED
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6619,7 +6619,7 @@ isMixed
 wasMixed
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6656,7 +6656,7 @@ nsGkAtoms
 aria_readonly
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -7039,7 +7039,7 @@ AccSelChangeEvent
 :
 eSelectionRemove
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -7061,7 +7061,7 @@ event
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -7109,7 +7109,7 @@ NS_EVENT_STATE_INVALID
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -7142,7 +7142,7 @@ NS_EVENT_STATE_VISITED
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -8805,7 +8805,7 @@ Parent
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -8817,7 +8817,7 @@ AccReorderEvent
 oldParent
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -8889,7 +8889,7 @@ AppendChild
 child
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -8901,7 +8901,7 @@ AccReorderEvent
 owner
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -9513,7 +9513,7 @@ one
 is
 destroyed
 .
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -9573,7 +9573,7 @@ like
 a
 shot
 .
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -9804,7 +9804,7 @@ IsRoot
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -9861,7 +9861,7 @@ GetChildAt
 i
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccShowEvent
 >
@@ -10025,7 +10025,7 @@ if
 mLoadEventType
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -10056,7 +10056,7 @@ state
 change
 event
 .
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -10887,7 +10887,7 @@ where
 they
 belonged
 .
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -10962,7 +10962,7 @@ IsRepositioned
 )
 {
 {
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -12271,7 +12271,7 @@ EnsureChildren
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -12750,7 +12750,7 @@ updateFlags
 =
 eNoAccessible
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -13410,7 +13410,7 @@ show
 hide
 event
 .
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >

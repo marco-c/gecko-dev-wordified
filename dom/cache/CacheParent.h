@@ -261,7 +261,7 @@ RecvTeardown
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 cache
 :

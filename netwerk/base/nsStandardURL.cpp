@@ -11645,7 +11645,7 @@ pointer
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -12462,7 +12462,7 @@ nsIURI
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >

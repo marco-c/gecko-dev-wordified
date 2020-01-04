@@ -896,7 +896,7 @@ Terminate
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -2511,7 +2511,7 @@ startFrame
 ErrorResult
 err
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -2650,7 +2650,7 @@ mPresShell
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -2725,7 +2725,7 @@ RangeCount
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -2739,7 +2739,7 @@ GetRangeAt
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -2800,7 +2800,7 @@ rtl
 or
 ltr
 text
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -3813,7 +3813,7 @@ less
 than
 a
 word
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4310,7 +4310,7 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4436,7 +4436,7 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4506,7 +4506,7 @@ frame
 and
 vice
 versa
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -4752,7 +4752,7 @@ return
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4797,7 +4797,7 @@ return
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4842,7 +4842,7 @@ mDragMode
 START_FRAME
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -4880,7 +4880,7 @@ StartOffset
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -4999,7 +4999,7 @@ bool
 aState
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -5034,7 +5034,7 @@ nsDirection
 aDir
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -5648,7 +5648,7 @@ GetSelection
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -5740,7 +5740,7 @@ other
 /
 PresShell
 .
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -6159,7 +6159,7 @@ GetSelectionBoundingRect
 aSelection
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRect
 >
@@ -6211,7 +6211,7 @@ mStates
 =
 aStates
 ;
-RefPtr
+nsRefPtr
 <
 SelectionStateChangedEvent
 >
@@ -6735,7 +6735,7 @@ mState
 =
 aState
 ;
-RefPtr
+nsRefPtr
 <
 ScrollViewChangeEvent
 >
@@ -6853,7 +6853,7 @@ Started
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -7138,7 +7138,7 @@ Updateposition
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -7338,7 +7338,7 @@ void
 aSelectionCarets
 )
 {
-RefPtr
+nsRefPtr
 <
 SelectionCarets
 >
@@ -7538,7 +7538,7 @@ void
 aSelectionCarets
 )
 {
-RefPtr
+nsRefPtr
 <
 SelectionCarets
 >
@@ -7694,7 +7694,7 @@ Updateposition
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 dom
 :

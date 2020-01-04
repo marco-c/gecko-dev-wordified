@@ -818,7 +818,7 @@ nsIContent
 aEndChildNode
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentInsertion
 >
@@ -1564,7 +1564,7 @@ notifications
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ContentInsertion
 >
@@ -2286,7 +2286,7 @@ Length
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DocAccessible
 >
@@ -2588,7 +2588,7 @@ notifications
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Notification
 >

@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -444,7 +444,7 @@ playback
 starts
 .
 virtual
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

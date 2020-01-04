@@ -1891,7 +1891,7 @@ with
 this
 message
 .
-RefPtr
+nsRefPtr
 <
 FileDescriptorSet
 >

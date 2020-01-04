@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -377,7 +377,7 @@ RIL
 worker
 *
 /
-RefPtr
+nsRefPtr
 <
 WorkerCrossThreadDispatcher
 >
@@ -423,7 +423,7 @@ container
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 RilSocket
 >
@@ -944,7 +944,7 @@ ConsumeBuffer
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ReceiveTask
 >

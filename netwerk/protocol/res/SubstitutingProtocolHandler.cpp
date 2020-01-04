@@ -1402,7 +1402,7 @@ result
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 SubstitutingURL
 >

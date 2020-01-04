@@ -351,7 +351,7 @@ gfx
 SurfaceFormat
 mUpdateFormat
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

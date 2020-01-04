@@ -845,7 +845,7 @@ nargs
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -926,7 +926,7 @@ ToPrimitive
 tfunc
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -1612,7 +1612,7 @@ Radius
 Spread
 Color
 Inset
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -2341,7 +2341,7 @@ nsCSSValue
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -2474,7 +2474,7 @@ nsCSSValue
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -7471,7 +7471,7 @@ GetArrayValue
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -8166,7 +8166,7 @@ nsCSSValueList
 aListTail
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -11635,7 +11635,7 @@ getter_Transfers
 result
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -11903,7 +11903,7 @@ function
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -12561,7 +12561,7 @@ result
 ;
 do
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -12653,7 +12653,7 @@ TransformFunctionOf
 a1
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -18043,7 +18043,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -18213,7 +18213,7 @@ css
 :
 :
 StyleRule
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -18331,7 +18331,7 @@ for
 our
 target
 element
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -18368,7 +18368,7 @@ StyleSet
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -19854,7 +19854,7 @@ nsCSSValue
 aCSSValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -20171,7 +20171,7 @@ GetArrayValue
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -22797,7 +22797,7 @@ Document
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >
@@ -22812,7 +22812,7 @@ GetURL
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -23931,7 +23931,7 @@ new
 nsCSSValuePair
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >
@@ -23970,7 +23970,7 @@ Document
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -24164,7 +24164,7 @@ shadowArray
 static_cast
 <
 const
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >

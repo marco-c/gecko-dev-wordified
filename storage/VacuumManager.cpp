@@ -1502,7 +1502,7 @@ rv
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 BaseCallback
 >
@@ -2635,7 +2635,7 @@ Count
 index
 )
 {
-RefPtr
+nsRefPtr
 <
 Vacuumer
 >

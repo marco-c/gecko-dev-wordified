@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1019,7 +1019,7 @@ giving
 up
 mImage
 here
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1417,7 +1417,7 @@ mData
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -1530,7 +1530,7 @@ innerHeight
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1549,7 +1549,7 @@ CreateImageContainer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1586,7 +1586,7 @@ dt
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1653,7 +1653,7 @@ context
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1696,7 +1696,7 @@ mSourceSurface
 =
 surface
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

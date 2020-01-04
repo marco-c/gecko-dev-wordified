@@ -783,7 +783,7 @@ case
 COUNT
 :
 {
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -835,7 +835,7 @@ case
 ID
 :
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -864,7 +864,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -1140,7 +1140,7 @@ Check
 for
 optional
 arg
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -1487,7 +1487,7 @@ case
 CONCAT
 :
 {
-RefPtr
+nsRefPtr
 <
 StringResult
 >
@@ -1732,7 +1732,7 @@ resultStr
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 StringResult
 >
@@ -1997,7 +1997,7 @@ case
 STRING
 :
 {
-RefPtr
+nsRefPtr
 <
 StringResult
 >
@@ -2807,7 +2807,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 StringResult
 >
@@ -3345,7 +3345,7 @@ case
 SUM
 :
 {
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

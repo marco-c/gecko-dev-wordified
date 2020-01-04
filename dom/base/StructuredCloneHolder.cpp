@@ -2005,7 +2005,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 CryptoKey
 >
@@ -2292,7 +2292,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 MozNDEFRecord
 >
@@ -2414,7 +2414,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 RTCCertificate
 >
@@ -2853,7 +2853,7 @@ aManager
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2864,7 +2864,7 @@ aBlobImpl
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3032,7 +3032,7 @@ subBlobCount
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3068,7 +3068,7 @@ index
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3088,7 +3088,7 @@ MOZ_ASSERT
 subBlobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3245,7 +3245,7 @@ Length
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3275,7 +3275,7 @@ blobImpl
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -3360,7 +3360,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -3435,7 +3435,7 @@ MOZ_ASSERT
 aHolder
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3562,7 +3562,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 FileList
 >
@@ -3687,7 +3687,7 @@ Length
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3725,7 +3725,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -3947,7 +3947,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -4060,7 +4060,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 nsFormData
 >
@@ -4161,7 +4161,7 @@ Length
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -4187,7 +4187,7 @@ IsFile
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -5167,7 +5167,7 @@ identifier
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 MessagePort
 >

@@ -327,7 +327,7 @@ the
 range
 *
 /
-RefPtr
+nsRefPtr
 <
 nsRange
 >

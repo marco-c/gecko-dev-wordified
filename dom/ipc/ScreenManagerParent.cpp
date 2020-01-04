@@ -691,7 +691,7 @@ GetSingleton
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabParent
 >

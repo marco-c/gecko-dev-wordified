@@ -137,7 +137,7 @@ getStart
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

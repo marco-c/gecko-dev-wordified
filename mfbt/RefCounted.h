@@ -423,13 +423,13 @@ T
 are
 controlled
 by
-RefPtr
+nsRefPtr
 <
 T
 >
 and
 *
-RefPtr
+nsRefPtr
 <
 super
 /

@@ -183,7 +183,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 FMRadioReplyRunnable
 >

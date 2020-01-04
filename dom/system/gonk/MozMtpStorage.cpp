@@ -644,7 +644,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozMtpDatabase
 >
@@ -750,7 +750,7 @@ removable
 /
 /
 maxFileSize
-RefPtr
+nsRefPtr
 <
 RefCountedMtpServer
 >
@@ -849,7 +849,7 @@ MtpServer
 mStorageID
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedMtpServer
 >
@@ -888,7 +888,7 @@ MozMtpDatabse
 mStorageID
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozMtpDatabase
 >

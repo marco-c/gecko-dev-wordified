@@ -841,7 +841,7 @@ void
 )
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DataChannelShutdown
 >
@@ -1553,7 +1553,7 @@ RUN_ON_THREAD
 mSTS
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -3328,7 +3328,7 @@ RUN_ON_THREAD
 mSTS
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -4157,7 +4157,7 @@ temp_channel
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -4800,7 +4800,7 @@ Dispatch
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -6998,7 +6998,7 @@ SendDeferredMessages
 uint32_t
 i
 ;
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -7993,7 +7993,7 @@ uint16_t
 stream
 )
 {
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -11462,7 +11462,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -11934,7 +11934,7 @@ uint32_t
 n
 i
 ;
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -12464,7 +12464,7 @@ stream
 uint32_t
 i
 ;
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -13897,7 +13897,7 @@ DATA_CHANNEL_FLAGS_OUT_OF_ORDER_ALLOWED
 :
 0
 ;
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -13992,7 +13992,7 @@ DataChannel
 aChannel
 )
 {
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -16391,7 +16391,7 @@ recursion
 .
 Evil
 .
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -16414,7 +16414,7 @@ when
 SendBlob
 returns
 .
-RefPtr
+nsRefPtr
 <
 nsIInputStream
 >
@@ -16665,7 +16665,7 @@ the
 temp
 thread
 !
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -16882,7 +16882,7 @@ thread
 Using
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 DataChannelConnection
 >
@@ -16922,7 +16922,7 @@ an
 extra
 time
 .
-RefPtr
+nsRefPtr
 <
 DataChannelBlobSendRunnable
 >
@@ -17356,7 +17356,7 @@ MOZ_ASSERT
 aChannel
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -17823,7 +17823,7 @@ pending
 opens
 for
 channels
-RefPtr
+nsRefPtr
 <
 DataChannel
 >

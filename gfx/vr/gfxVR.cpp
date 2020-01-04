@@ -670,7 +670,7 @@ VRHMDManagerArray
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VRHMDManager
 >
@@ -914,7 +914,7 @@ GetAllHMDs
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRHMDInfo
 >

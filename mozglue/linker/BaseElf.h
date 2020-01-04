@@ -519,7 +519,7 @@ instances
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 Mappable
 >

@@ -436,7 +436,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -663,7 +663,7 @@ NS_OK
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -1381,7 +1381,7 @@ isn
 t
 safe
 }
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -1534,7 +1534,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >
@@ -1597,7 +1597,7 @@ MediaSourceEnum
 AudioCapture
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaEngineWebRTCAudioCaptureSource
 >
@@ -2060,7 +2060,7 @@ error
 -
 check
 }
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >

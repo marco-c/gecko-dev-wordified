@@ -159,7 +159,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -306,7 +306,7 @@ the
 target
 thread
 .
-RefPtr
+nsRefPtr
 <
 Observer
 >

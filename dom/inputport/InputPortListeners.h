@@ -191,7 +191,7 @@ InputPortListener
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 InputPort
 >

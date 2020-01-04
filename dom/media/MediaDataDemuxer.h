@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -371,7 +371,7 @@ wait
 otherwise
 .
 virtual
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -757,7 +757,7 @@ SamplesHolder
 )
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -826,7 +826,7 @@ SeekPromise
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 SamplesHolder
 >
@@ -946,7 +946,7 @@ access
 point
 time
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -1033,7 +1033,7 @@ audio
 frames
 .
 virtual
-RefPtr
+nsRefPtr
 <
 SamplesPromise
 >
@@ -1289,7 +1289,7 @@ frames
 skipped
 .
 virtual
-RefPtr
+nsRefPtr
 <
 SkipAccessPointPromise
 >

@@ -844,7 +844,7 @@ GetFeature
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Cache
 >
@@ -1105,7 +1105,7 @@ GetFeature
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -1142,7 +1142,7 @@ aResponseList
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -1232,7 +1232,7 @@ aRequestList
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 Request
 >

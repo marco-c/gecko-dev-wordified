@@ -189,7 +189,7 @@ nullptr
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -327,7 +327,7 @@ mFlags
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -435,7 +435,7 @@ RECYCLE
 Set
 recycle
 flag
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >
@@ -598,7 +598,7 @@ textureHolder
 Allocate
 new
 TextureClient
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -678,7 +678,7 @@ GetTextureClient
 textureHolder
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -812,7 +812,7 @@ of
 this
 function
 .
-RefPtr
+nsRefPtr
 <
 TextureClientRecycleAllocator
 >
@@ -829,7 +829,7 @@ SetRecycleAllocator
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >

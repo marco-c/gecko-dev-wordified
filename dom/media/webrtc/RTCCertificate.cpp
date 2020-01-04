@@ -772,8 +772,7 @@ ScopedSECKEYPublicKey
 publicKey
 (
 mKeyPair
--
->
+.
 mPublicKey
 .
 get
@@ -1096,8 +1095,7 @@ ScopedSECKEYPrivateKey
 privateKey
 (
 mKeyPair
--
->
+.
 mPrivateKey
 .
 get
@@ -1351,8 +1349,7 @@ SECKEYPrivateKey
 key
 =
 mKeyPair
--
->
+.
 mPrivateKey
 .
 get
@@ -1753,7 +1750,7 @@ reference
 is
 released
 .
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -1805,7 +1802,7 @@ CERT_DupCertificate
 mCertificate
 )
 ;
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >

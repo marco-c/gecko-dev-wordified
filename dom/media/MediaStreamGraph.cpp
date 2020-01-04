@@ -5832,7 +5832,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -5913,7 +5913,7 @@ NonOwningImage
 >
 newImages
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -9338,7 +9338,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaStreamGraphImpl
 >
@@ -9399,7 +9399,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaStreamGraphImpl
 >
@@ -10164,7 +10164,7 @@ SystemDriver
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -10341,7 +10341,7 @@ SystemDriver
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -11813,7 +11813,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
@@ -11916,7 +11916,7 @@ we
 leave
 this
 method
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -12489,7 +12489,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -12567,7 +12567,7 @@ mContainer
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 VideoFrameContainer
 >
@@ -12929,7 +12929,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
@@ -12980,7 +12980,7 @@ in
 the
 opposite
 order
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
@@ -13065,7 +13065,7 @@ mListener
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
@@ -13641,7 +13641,7 @@ NotifyRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -13649,7 +13649,7 @@ mStream
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -15576,7 +15576,7 @@ Run
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -15759,7 +15759,7 @@ Run
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -15790,7 +15790,7 @@ allowed
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -17501,7 +17501,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >

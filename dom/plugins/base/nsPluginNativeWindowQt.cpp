@@ -180,7 +180,7 @@ virtual
 nsresult
 CallSetWindow
 (
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -434,7 +434,7 @@ nsPluginNativeWindowQt
 :
 CallSetWindow
 (
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >

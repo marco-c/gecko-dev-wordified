@@ -254,13 +254,13 @@ aGivenProto
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsCustomEventDispatch
 >
 mCustomEventDispatch
 ;
-RefPtr
+nsRefPtr
 <
 nsCustomPropertyBag
 >

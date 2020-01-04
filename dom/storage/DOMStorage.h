@@ -701,13 +701,13 @@ nsIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorageManager
 >
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorageCache
 >

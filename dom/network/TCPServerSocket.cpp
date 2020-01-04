@@ -505,7 +505,7 @@ TCPSocketBinaryType
 :
 Arraybuffer
 ;
-RefPtr
+nsRefPtr
 <
 TCPServerSocket
 >
@@ -652,7 +652,7 @@ mSocket
 =
 aSocket
 ;
-RefPtr
+nsRefPtr
 <
 TCPServerSocketEvent
 >
@@ -725,7 +725,7 @@ GetOwnerGlobal
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >
@@ -802,7 +802,7 @@ aStatus
 NS_BINDING_ABORTED
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -911,7 +911,7 @@ global
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >

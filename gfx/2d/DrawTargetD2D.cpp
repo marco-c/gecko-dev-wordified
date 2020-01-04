@@ -365,7 +365,7 @@ Flush
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -525,7 +525,7 @@ format
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -661,7 +661,7 @@ additional
 clipping
 information
 .
-RefPtr
+nsRefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -805,7 +805,7 @@ mTransformDirty
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -850,7 +850,7 @@ rectGeom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -869,7 +869,7 @@ invClippedArea
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -904,7 +904,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1BitmapBrush
 >
@@ -1015,7 +1015,7 @@ dest
 surface
 data
 .
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -1032,7 +1032,7 @@ is
 clipped
 to
 .
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -1168,7 +1168,7 @@ MarkIndependent
 is
 running
 .
-RefPtr
+nsRefPtr
 <
 SourceSurfaceD2DTarget
 >
@@ -1417,7 +1417,7 @@ Flush
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1622,7 +1622,7 @@ Rect
 aSource
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -1711,7 +1711,7 @@ break
 default
 :
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2147,7 +2147,7 @@ SourceSurface
 aSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -2213,7 +2213,7 @@ DrawOptions
 aOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -2339,7 +2339,7 @@ DrawOptions
 aOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1DeviceContext
 >
@@ -2595,7 +2595,7 @@ DrawOptions
 aOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -2707,7 +2707,7 @@ size
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2781,7 +2781,7 @@ CompositionOp
 aOperator
 )
 {
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -2949,7 +2949,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID3D10RenderTargetView
 >
@@ -2957,7 +2957,7 @@ destRTView
 =
 mRTView
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -2966,13 +2966,13 @@ destTexture
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
 maskTexture
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -3360,7 +3360,7 @@ MiscFlags
 =
 D3D10_RESOURCE_MISC_GENERATE_MIPS
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -3595,7 +3595,7 @@ D3D10_BIND_RENDER_TARGET
 |
 D3D10_BIND_SHADER_RESOURCE
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -3766,13 +3766,13 @@ GenerateMips
 srView
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10RenderTargetView
 >
 dsRTView
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -4340,19 +4340,19 @@ mSize
 .
 height
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10RenderTargetView
 >
 tmpRTView
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
 tmpSRView
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -5853,7 +5853,7 @@ PopAxisAlignedClip
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -5890,7 +5890,7 @@ SurfaceFormat
 A8
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -6019,7 +6019,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -6115,7 +6115,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -6129,7 +6129,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6233,7 +6233,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -6247,7 +6247,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6421,7 +6421,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -6435,7 +6435,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -6601,7 +6601,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -7084,7 +7084,7 @@ params
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -7194,7 +7194,7 @@ PrepareForDrawing
 rt
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -7208,7 +7208,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -7222,7 +7222,7 @@ aMask
 0f
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Layer
 >
@@ -7403,7 +7403,7 @@ mCurrentClippedGeometry
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 PathD2D
 >
@@ -7631,7 +7631,7 @@ dd316860
 29
 .
 aspx
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -7696,7 +7696,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -7896,7 +7896,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurfaceD2D
 >
@@ -7980,7 +7980,7 @@ SurfaceType
 D2D1_DRAWTARGET
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -7997,7 +7997,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -8040,7 +8040,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurfaceD2D
 >
@@ -8168,7 +8168,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurfaceD2D
 >
@@ -8254,7 +8254,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetD2D
 >
@@ -8329,7 +8329,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -8386,7 +8386,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -8553,7 +8553,7 @@ color
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -8647,7 +8647,7 @@ FilterType
 aType
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1DeviceContext
 >
@@ -8986,7 +8986,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D10Device
 >
@@ -9570,7 +9570,7 @@ GetCachedLayer
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Layer
 >
@@ -10983,13 +10983,13 @@ TopLeftY
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
 tmpTexture
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -11909,7 +11909,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -11950,7 +11950,7 @@ represents
 the
 path
 .
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -12275,7 +12275,7 @@ continue
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -12294,7 +12294,7 @@ newGeom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -12344,7 +12344,7 @@ currentSink
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -12467,7 +12467,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -12503,13 +12503,13 @@ aFormat
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
 surface
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1RenderTarget
 >
@@ -13147,7 +13147,7 @@ mCurrentClipBounds
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -13223,7 +13223,7 @@ ClipMask
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1RenderTarget
 >
@@ -13262,7 +13262,7 @@ ClipMask
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -13360,7 +13360,7 @@ aOptions
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteRenderingParams
 >
@@ -13590,7 +13590,7 @@ aFont
 autoRun
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteGlyphRunAnalysis
 >
@@ -13779,7 +13779,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -13801,7 +13801,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -14113,7 +14113,7 @@ clipBounds
 &
 clipBoundsStorage
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -14124,7 +14124,7 @@ GetClippedGeometry
 clipBounds
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -14233,7 +14233,7 @@ EnsureClipMaskTexture
 clipBounds
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -14388,7 +14388,7 @@ Apply
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D10RenderTargetView
 >
@@ -14470,7 +14470,7 @@ aPattern
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14528,7 +14528,7 @@ PatternType
 COLOR
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14610,7 +14610,7 @@ PatternType
 LINEAR_GRADIENT
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1LinearGradientBrush
 >
@@ -14691,7 +14691,7 @@ pat
 mEnd
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -14841,7 +14841,7 @@ PatternType
 RADIAL_GRADIENT
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1RadialGradientBrush
 >
@@ -15005,7 +15005,7 @@ PatternType
 SURFACE
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1BitmapBrush
 >
@@ -15055,7 +15055,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -15069,7 +15069,7 @@ pat
 >
 mMatrix
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -15131,7 +15131,7 @@ pat
 >
 mSamplingRect
 ;
-RefPtr
+nsRefPtr
 <
 DrawTargetD2D
 >
@@ -15323,7 +15323,7 @@ break
 default
 :
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -15423,7 +15423,7 @@ if
 bitmap
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -16075,7 +16075,7 @@ SysMemPitch
 *
 4
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -16495,7 +16495,7 @@ pSysMem
 =
 alignedTextureData
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -16687,7 +16687,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -16698,7 +16698,7 @@ CreateGradientTexture
 stops
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -17441,7 +17441,7 @@ factory
 "
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Factory1
 >
@@ -17499,7 +17499,7 @@ if
 mFactory
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Factory1
 >
@@ -17833,7 +17833,7 @@ D2D1_LAYER_OPTIONS1_IGNORE_ALPHA
 D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1DeviceContext
 >

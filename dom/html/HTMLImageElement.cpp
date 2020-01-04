@@ -678,7 +678,7 @@ ImageLoadTask
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 HTMLImageElement
 >
@@ -3890,7 +3890,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLImageElement
 >
@@ -6314,7 +6314,7 @@ false
 Try
 to
 parse
-RefPtr
+nsRefPtr
 <
 ResponsiveImageSelector
 >
@@ -6742,7 +6742,7 @@ for
 this
 tag
 .
-RefPtr
+nsRefPtr
 <
 ResponsiveImageSelector
 >

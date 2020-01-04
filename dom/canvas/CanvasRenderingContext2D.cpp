@@ -2200,7 +2200,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2348,7 +2348,7 @@ mCtx
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2361,7 +2361,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2379,7 +2379,7 @@ Style
 FILL
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2480,13 +2480,13 @@ mTarget
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2833,7 +2833,7 @@ mCtx
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2912,13 +2912,13 @@ TopLeft
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3831,7 +3831,7 @@ GetBounds
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -6819,7 +6819,7 @@ height
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9341,7 +9341,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9363,7 +9363,7 @@ snapshot
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -11487,7 +11487,7 @@ an
 Azure
 canvas
 !
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -11630,7 +11630,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -14989,7 +14989,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -15253,7 +15253,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -15913,7 +15913,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -17096,7 +17096,7 @@ if
 mDSPathBuilder
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -18685,7 +18685,7 @@ ErrorResult
 error
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -18990,7 +18990,7 @@ options
 .
 mControl
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -19926,7 +19926,7 @@ GetCharacterGlyphs
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ScaledFont
 >
@@ -20212,7 +20212,7 @@ mat
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 GlyphRenderingOptions
 >
@@ -21021,7 +21021,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -23982,7 +23982,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -24178,7 +24178,7 @@ EnsureTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -24353,7 +24353,7 @@ roundedOutSourceRectInt
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -24370,7 +24370,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -24398,7 +24398,7 @@ if
 subrectDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -25133,7 +25133,7 @@ dh
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -27310,10 +27310,10 @@ height
 image
 .
 mWhichFrame
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 Some
 (
 svgContext
@@ -28493,7 +28493,7 @@ gfxContext
 >
 thebes
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -28692,7 +28692,7 @@ if
 drawDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -28705,7 +28705,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -28754,7 +28754,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -29566,7 +29566,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -30386,7 +30386,7 @@ Intersect
 destRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -30408,7 +30408,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -31006,7 +31006,7 @@ sErrorTarget
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -32122,7 +32122,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -33692,7 +33692,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -33774,7 +33774,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -34833,7 +34833,7 @@ SVGMatrix
 aMatrix
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -34928,7 +34928,7 @@ IsIdentity
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -35066,7 +35066,7 @@ fillRule
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -35124,7 +35124,7 @@ if
 mPath
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -35181,7 +35181,7 @@ GetBackendType
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -35227,7 +35227,7 @@ GetFillRule
 fillRule
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -35251,7 +35251,7 @@ Finish
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

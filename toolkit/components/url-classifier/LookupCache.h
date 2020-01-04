@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -923,7 +923,7 @@ be
 in
 the
 database
-RefPtr
+nsRefPtr
 <
 nsUrlClassifierPrefixSet
 >

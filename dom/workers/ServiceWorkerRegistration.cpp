@@ -865,7 +865,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -930,7 +930,7 @@ MOZ_ASSERT
 mListeningForEvents
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -984,7 +984,7 @@ mListeningForEvents
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -1089,7 +1089,7 @@ INSTALLING_WORKER
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -1140,7 +1140,7 @@ WAITING_WORKER
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -1191,7 +1191,7 @@ ACTIVE_WORKER
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorker
 >
@@ -1317,7 +1317,7 @@ MOZ_ASSERT
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -1371,7 +1371,7 @@ final
 public
 ServiceWorkerUpdateFinishCallback
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1456,7 +1456,7 @@ final
 public
 WorkerRunnable
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -1577,7 +1577,7 @@ final
 public
 ServiceWorkerUpdateFinishCallback
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -1660,7 +1660,7 @@ mPromiseProxy
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -1705,7 +1705,7 @@ Init
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 UpdateResultRunnable
 >
@@ -1801,7 +1801,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 WorkerThreadUpdateCallback
 >
@@ -1842,7 +1842,7 @@ UpdateRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -1861,7 +1861,7 @@ final
 public
 nsIServiceWorkerUnregisterCallback
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1957,7 +1957,7 @@ final
 public
 WorkerRunnable
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -2024,7 +2024,7 @@ aWorkerPrivate
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2091,7 +2091,7 @@ final
 public
 nsIServiceWorkerUnregisterCallback
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -2195,7 +2195,7 @@ mPromiseWorkerProxy
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -2231,7 +2231,7 @@ CleanedUp
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 WorkerRunnable
 >
@@ -2319,7 +2319,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -2498,7 +2498,7 @@ MOZ_ASSERT
 principal
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerUnregisterCallback
 >
@@ -2616,7 +2616,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2667,7 +2667,7 @@ MOZ_ASSERT
 doc
 )
 ;
-RefPtr
+nsRefPtr
 <
 MainThreadUpdateCallback
 >
@@ -3020,7 +3020,7 @@ GetServiceWorkerManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3051,7 +3051,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 UnregisterCallback
 >
@@ -3207,7 +3207,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -3252,7 +3252,7 @@ do_QueryInterface
 window
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3538,7 +3538,7 @@ globalObject
 mScope
 )
 ;
-RefPtr
+nsRefPtr
 <
 PushManagerImpl
 >
@@ -3605,7 +3605,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 PushManager
 >
@@ -3813,7 +3813,7 @@ MOZ_ASSERT
 mWorkerPrivate
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -3878,7 +3878,7 @@ MOZ_ASSERT
 mListeningForEvents
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -4354,7 +4354,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4387,7 +4387,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -4419,7 +4419,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 UpdateRunnable
 >
@@ -4541,7 +4541,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4574,7 +4574,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -4606,7 +4606,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 StartUnregisterRunnable
 >
@@ -4645,7 +4645,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerListener
 >
@@ -4764,7 +4764,7 @@ feature
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 StartListeningRunnable
 >
@@ -4795,7 +4795,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerListener
 >
@@ -4843,7 +4843,7 @@ final
 public
 WorkerMainThreadRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerListener
 >
@@ -5014,7 +5014,7 @@ aReason
 RegistrationIsGoingAway
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncStopListeningRunnable
 >
@@ -5047,7 +5047,7 @@ aReason
 WorkerIsGoingAway
 )
 {
-RefPtr
+nsRefPtr
 <
 SyncStopListeningRunnable
 >
@@ -5139,7 +5139,7 @@ final
 public
 WorkerRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerListener
 >
@@ -5300,7 +5300,7 @@ if
 mWorkerPrivate
 )
 {
-RefPtr
+nsRefPtr
 <
 FireUpdateFoundRunnable
 >
@@ -5417,7 +5417,7 @@ only
 /
 once
 .
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5532,7 +5532,7 @@ mScope
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 WorkerPushManager
 >

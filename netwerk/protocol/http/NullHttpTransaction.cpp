@@ -385,7 +385,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 NullHttpChannel
 >
@@ -1195,7 +1195,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >

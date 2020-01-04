@@ -646,7 +646,7 @@ only
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -731,7 +731,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothAdapter
 >
@@ -902,7 +902,7 @@ only
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -990,7 +990,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothAdapter
 >
@@ -1121,7 +1121,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothAdapter
 >
@@ -1263,7 +1263,7 @@ get_ArrayOfBluetoothNamedValue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -1343,7 +1343,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -1508,7 +1508,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothAdapter
 >
@@ -1912,7 +1912,7 @@ GetLeScanUuid
 uuid
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -2098,7 +2098,7 @@ NS_ENSURE_TRUE_VOID
 bs
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -2588,7 +2588,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothAdapter
 >
@@ -3023,7 +3023,7 @@ mStatus
 =
 status
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothStatusChangedEvent
 >
@@ -3337,7 +3337,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3567,7 +3567,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3730,7 +3730,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3787,7 +3787,7 @@ promise
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -3865,7 +3865,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3962,7 +3962,7 @@ GetLeScanUuid
 scanUuid
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4041,7 +4041,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4253,7 +4253,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4457,7 +4457,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4469,7 +4469,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4557,7 +4557,7 @@ GetPairedDevices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -4662,7 +4662,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4919,7 +4919,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5018,7 +5018,7 @@ runnable
 to
 handle
 result
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -5123,7 +5123,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5222,7 +5222,7 @@ runnable
 to
 handle
 result
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -6075,7 +6075,7 @@ BluetoothDevice
 to
 check
 existence
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -6387,7 +6387,7 @@ adapter
 s
 devices
 array
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -7278,7 +7278,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothPhonebookPullingEvent
 >
@@ -7531,7 +7531,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVCardPullingEvent
 >
@@ -7917,7 +7917,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVCardListingEvent
 >
@@ -8071,7 +8071,7 @@ mAttrs
 =
 aTypes
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothAttributeEvent
 >
@@ -8112,7 +8112,7 @@ BluetoothDeviceEventInit
 aInit
 )
 {
-RefPtr
+nsRefPtr
 <
 BluetoothDeviceEvent
 >
@@ -8146,7 +8146,7 @@ nsAString
 aType
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -8236,7 +8236,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8248,7 +8248,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -8407,7 +8407,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8419,7 +8419,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -8558,7 +8558,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8570,7 +8570,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -8760,7 +8760,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8772,7 +8772,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -8876,7 +8876,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8888,7 +8888,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -8987,7 +8987,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -8999,7 +8999,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -9096,7 +9096,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9108,7 +9108,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -9205,7 +9205,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9217,7 +9217,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -9317,7 +9317,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9329,7 +9329,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -9446,7 +9446,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9458,7 +9458,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -9575,7 +9575,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9587,7 +9587,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -9705,7 +9705,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9717,7 +9717,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -9836,7 +9836,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -9848,7 +9848,7 @@ DOMRequest
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >

@@ -262,7 +262,7 @@ ErrorResult
 aRV
 )
 {
-RefPtr
+nsRefPtr
 <
 VRFieldOfView
 >
@@ -324,7 +324,7 @@ ErrorResult
 aRV
 )
 {
-RefPtr
+nsRefPtr
 <
 VRFieldOfView
 >
@@ -1481,7 +1481,7 @@ VRHMDInfo
 :
 Eye_Right
 ;
-RefPtr
+nsRefPtr
 <
 VREyeParameters
 >
@@ -1781,7 +1781,7 @@ GetSensorState
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VRPositionState
 >
@@ -1843,7 +1843,7 @@ GetSensorState
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VRPositionState
 >
@@ -1881,7 +1881,7 @@ ZeroSensor
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1910,7 +1910,7 @@ nsISupports
 aParent
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRDevice
 >
@@ -1921,7 +1921,7 @@ aDevices
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfx
 :

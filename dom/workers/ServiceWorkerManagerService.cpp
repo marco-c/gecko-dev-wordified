@@ -268,7 +268,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManagerService
 >
@@ -304,7 +304,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManagerService
 >
@@ -680,7 +680,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -995,7 +995,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

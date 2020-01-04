@@ -256,7 +256,7 @@ NS_NewLayoutHistoryState
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLayoutHistoryState
 >

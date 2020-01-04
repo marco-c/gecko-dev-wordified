@@ -532,7 +532,7 @@ nsOnStartRequestEvent
 public
 nsARequestObserverEvent
 {
-RefPtr
+nsRefPtr
 <
 nsRequestObserverProxy
 >
@@ -902,7 +902,7 @@ nsOnStopRequestEvent
 public
 nsARequestObserverEvent
 {
-RefPtr
+nsRefPtr
 <
 nsRequestObserverProxy
 >

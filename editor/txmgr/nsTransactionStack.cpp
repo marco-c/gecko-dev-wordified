@@ -245,7 +245,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -299,7 +299,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -353,7 +353,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -413,7 +413,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -450,7 +450,7 @@ empty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >

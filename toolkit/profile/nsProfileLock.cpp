@@ -3496,7 +3496,7 @@ if
 aUnlocker
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -575,7 +575,7 @@ is
 the
 last
 reference
-RefPtr
+nsRefPtr
 <
 GMPVideoDecoderParent
 >
@@ -1104,7 +1104,7 @@ mIsAwaitingResetComplete
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 GMPVideoDecoderParent
 >

@@ -763,7 +763,7 @@ keep
 it
 alive
 .
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

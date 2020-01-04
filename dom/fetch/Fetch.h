@@ -1065,7 +1065,7 @@ thread
 ConsumeType
 mConsumeType
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

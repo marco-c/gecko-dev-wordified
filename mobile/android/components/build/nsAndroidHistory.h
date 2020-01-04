@@ -385,7 +385,7 @@ redirect
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsITimer
 >

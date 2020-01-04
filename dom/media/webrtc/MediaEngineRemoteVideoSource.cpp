@@ -102,7 +102,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1425,7 +1425,7 @@ to
 the
 track
 .
-RefPtr
+nsRefPtr
 <
 layers
 :

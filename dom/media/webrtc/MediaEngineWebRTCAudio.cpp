@@ -3290,7 +3290,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >

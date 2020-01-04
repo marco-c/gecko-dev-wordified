@@ -5370,7 +5370,7 @@ friend
 class
 NuwaParent
 ;
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -5469,7 +5469,7 @@ actor
 is
 destroyed
 .
-RefPtr
+nsRefPtr
 <
 NuwaParent
 >
@@ -5478,7 +5478,7 @@ mNuwaParent
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5573,7 +5573,7 @@ ParentIdleListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :

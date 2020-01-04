@@ -931,7 +931,7 @@ root
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -1463,7 +1463,7 @@ root
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCacheableFuncStringContentList
 >

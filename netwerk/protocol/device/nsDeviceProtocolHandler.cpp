@@ -319,7 +319,7 @@ nsIURI
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleURI
 >
@@ -376,7 +376,7 @@ nsIChannel
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDeviceChannel
 >

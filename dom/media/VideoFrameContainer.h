@@ -650,7 +650,7 @@ HTMLMediaElement
 *
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >

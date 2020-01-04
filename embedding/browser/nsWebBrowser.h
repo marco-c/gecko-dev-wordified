@@ -606,7 +606,7 @@ override
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsDocShellTreeOwner
 >
@@ -727,7 +727,7 @@ mPersistFlags
 /
 /
 stream
-RefPtr
+nsRefPtr
 <
 nsEmbedStream
 >

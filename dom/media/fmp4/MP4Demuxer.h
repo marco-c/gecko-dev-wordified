@@ -194,7 +194,7 @@ aResource
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -288,13 +288,13 @@ friend
 class
 MP4TrackDemuxer
 ;
-RefPtr
+nsRefPtr
 <
 MediaResource
 >
 mResource
 ;
-RefPtr
+nsRefPtr
 <
 mp4_demuxer
 :
@@ -303,7 +303,7 @@ ResourceStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -320,7 +320,7 @@ mMetadata
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MP4TrackDemuxer
 >

@@ -3359,7 +3359,7 @@ loops
 TaskQueue
 deferred_non_nestable_work_queue_
 ;
-RefPtr
+nsRefPtr
 <
 base
 :

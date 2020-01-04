@@ -1591,7 +1591,7 @@ uint64_t
 aCallbackId
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :

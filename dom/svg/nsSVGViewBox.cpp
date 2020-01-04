@@ -1048,7 +1048,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1131,7 +1131,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMBaseVal
 >
@@ -1246,7 +1246,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMAnimVal
 >

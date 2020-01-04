@@ -406,7 +406,7 @@ WrapperPromiseCallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -422,7 +422,7 @@ JSObject
 >
 mGlobal
 ;
-RefPtr
+nsRefPtr
 <
 AnyCallback
 >
@@ -520,7 +520,7 @@ ResolvePromiseCallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -628,7 +628,7 @@ RejectPromiseCallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -718,7 +718,7 @@ NativePromiseCallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PromiseNativeHandler
 >

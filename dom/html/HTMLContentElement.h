@@ -643,7 +643,7 @@ DistributedContentList
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HTMLContentElement
 >

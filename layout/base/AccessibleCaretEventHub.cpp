@@ -2762,7 +2762,7 @@ mInitialized
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >

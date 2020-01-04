@@ -530,7 +530,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >
@@ -882,7 +882,7 @@ NodeInfo
 table
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1061,7 +1061,7 @@ rv
 tmp
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1202,7 +1202,7 @@ nsXULPrototypeNode
 eType_PI
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -1361,7 +1361,7 @@ nsXULPrototypeElement
 aPrototype
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1430,7 +1430,7 @@ mNumAttributes
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1823,7 +1823,7 @@ NodeInfo
 table
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2388,7 +2388,7 @@ NS_OK
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >

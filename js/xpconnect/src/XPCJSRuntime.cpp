@@ -8743,7 +8743,7 @@ cx
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -22391,7 +22391,7 @@ a
 /
 window
 .
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >

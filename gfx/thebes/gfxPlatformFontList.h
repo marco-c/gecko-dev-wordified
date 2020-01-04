@@ -703,7 +703,7 @@ GetFontFamilyList
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -1171,7 +1171,7 @@ aFamilyList
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -1863,7 +1863,7 @@ nsStringHashKey
 :
 KeyType
 aKey
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -1961,7 +1961,7 @@ eFontPrefLang
 aPrefLang
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -2253,7 +2253,7 @@ mOtherNamesMissed
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -2338,7 +2338,7 @@ with
 lots
 of
 problems
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -2390,7 +2390,7 @@ loading
 process
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >

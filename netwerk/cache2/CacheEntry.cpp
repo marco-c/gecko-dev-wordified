@@ -2547,7 +2547,7 @@ if
 mDoomCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 DoomCallbackRunnable
 >
@@ -2626,13 +2626,13 @@ mPreventCallbacks
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
 handle
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -2899,7 +2899,7 @@ our
 memory
 pools
 .
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -3392,7 +3392,7 @@ to
 the
 target
 thread
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -4509,7 +4509,7 @@ to
 the
 right
 thread
-RefPtr
+nsRefPtr
 <
 AvailableCallbackRunnable
 >
@@ -4690,7 +4690,7 @@ FRECENCYUPDATE
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -4857,7 +4857,7 @@ metadata
 and
 data
 .
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -6433,7 +6433,7 @@ rv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheOutputCloseListener
 >
@@ -7396,7 +7396,7 @@ lock
 mLock
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -8930,7 +8930,7 @@ thread
 .
 .
 .
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <

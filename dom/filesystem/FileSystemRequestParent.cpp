@@ -299,7 +299,7 @@ null
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemTaskBase
 >

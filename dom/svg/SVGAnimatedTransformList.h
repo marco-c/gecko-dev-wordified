@@ -904,7 +904,7 @@ of
 their
 items
 .
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

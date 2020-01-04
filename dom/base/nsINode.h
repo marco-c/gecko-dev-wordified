@@ -6861,7 +6861,7 @@ nsGenericHTMLElement
 GetChildNodes
 *
 /
-RefPtr
+nsRefPtr
 <
 nsChildContentList
 >
@@ -10989,7 +10989,7 @@ GetBoundMutationObservers
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDOMMutationObserver
 >
@@ -11728,7 +11728,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMQuad
 >
@@ -12640,7 +12640,7 @@ nsINode
 tmp
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

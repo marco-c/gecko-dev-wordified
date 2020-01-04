@@ -258,7 +258,7 @@ GetSurfaces
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

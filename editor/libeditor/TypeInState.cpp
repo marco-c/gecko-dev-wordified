@@ -757,7 +757,7 @@ in
 -
 state
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >

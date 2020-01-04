@@ -2007,7 +2007,7 @@ the
 XBL
 scope
 .
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -2086,7 +2086,7 @@ bound
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 EventHandlerNonNull
 >

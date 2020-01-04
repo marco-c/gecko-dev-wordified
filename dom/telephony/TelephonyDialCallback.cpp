@@ -326,7 +326,7 @@ nsAString
 aNumber
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCallId
 >
@@ -340,7 +340,7 @@ CreateCallId
 aNumber
 )
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >

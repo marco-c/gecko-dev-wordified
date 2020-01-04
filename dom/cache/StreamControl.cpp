@@ -314,7 +314,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ReadStream
 :
@@ -435,7 +435,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ReadStream
 :

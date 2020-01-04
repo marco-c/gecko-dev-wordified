@@ -2063,7 +2063,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3739,7 +3739,7 @@ if
 mSnapshot
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3777,7 +3777,7 @@ mSurface
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -7678,7 +7678,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurfaceCairo
 >
@@ -7795,7 +7795,7 @@ aSurface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8192,7 +8192,7 @@ forget
 DestroyPixmap
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTargetCairo
 >
@@ -8431,7 +8431,7 @@ similar
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetCairo
 >
@@ -8835,7 +8835,7 @@ aSigma
 0F
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetCairo
 >
@@ -8942,7 +8942,7 @@ cairo_surface_destroy
 similar
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTargetCairo
 >

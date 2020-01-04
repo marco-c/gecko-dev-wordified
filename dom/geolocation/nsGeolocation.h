@@ -1154,7 +1154,7 @@ fulfilled
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -1163,7 +1163,7 @@ mPendingCallbacks
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -1205,7 +1205,7 @@ owning
 back
 pointer
 .
-RefPtr
+nsRefPtr
 <
 nsGeolocationService
 >
@@ -1232,7 +1232,7 @@ not
 ready
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -1337,7 +1337,7 @@ PositionError
 int16_t
 mCode
 ;
-RefPtr
+nsRefPtr
 <
 Geolocation
 >

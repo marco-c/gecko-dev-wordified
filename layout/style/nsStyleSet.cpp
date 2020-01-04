@@ -3130,7 +3130,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3429,7 +3429,7 @@ scope
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3556,7 +3556,7 @@ aType
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3593,7 +3593,7 @@ i_end
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3827,7 +3827,7 @@ aType
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3864,7 +3864,7 @@ i_end
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3993,7 +3993,7 @@ nsIStyleSheet
 aSheet
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5041,7 +5041,7 @@ nsIStyleSheet
 aSheet
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5948,7 +5948,7 @@ RelevantLinkVisited
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -6047,7 +6047,7 @@ if
 aVisitedRuleNode
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -6621,7 +6621,7 @@ rule
 .
 NS_ASSERTION
 (
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -6789,7 +6789,7 @@ GetParent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -6894,7 +6894,7 @@ GetRule
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -11182,7 +11182,7 @@ SetSkipAnimationRules
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -12125,7 +12125,7 @@ flags
 eSkipParentDisplayBasedStyleFixup
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -13409,7 +13409,7 @@ featureValues
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >
@@ -14056,7 +14056,7 @@ GetParent
 aNewParentContext
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

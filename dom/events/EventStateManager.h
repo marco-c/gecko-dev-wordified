@@ -4846,7 +4846,7 @@ const
 uint32_t
 &
 aIdx
-RefPtr
+nsRefPtr
 <
 OverOutElementsWrapper
 >
@@ -5244,7 +5244,7 @@ need
 to
 be
 owner
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -5277,7 +5277,7 @@ static
 TimeStamp
 sHandlingInputStart
 ;
-RefPtr
+nsRefPtr
 <
 OverOutElementsWrapper
 >

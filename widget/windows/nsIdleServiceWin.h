@@ -203,7 +203,7 @@ GetInstance
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIdleServiceWin
 >

@@ -597,7 +597,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMFileReader
 >
@@ -929,7 +929,7 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -980,7 +980,7 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1034,7 +1034,7 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1085,7 +1085,7 @@ NS_ERROR_NULL_POINTER
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1347,7 +1347,7 @@ swap
 stream
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >

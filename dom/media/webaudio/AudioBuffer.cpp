@@ -501,7 +501,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 AudioBuffer
 >
@@ -1383,7 +1383,7 @@ the
 invoker
 .
 "
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

@@ -1029,7 +1029,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAngle
 >
@@ -1092,7 +1092,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAngle
 >
@@ -1540,7 +1540,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAnimatedAngle
 >

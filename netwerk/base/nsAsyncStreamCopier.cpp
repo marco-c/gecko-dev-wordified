@@ -325,7 +325,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsAsyncStreamCopier
 >

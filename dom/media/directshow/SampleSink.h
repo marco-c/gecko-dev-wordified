@@ -148,7 +148,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -323,7 +323,7 @@ EOS
 HRESULT
 Extract
 (
-RefPtr
+nsRefPtr
 <
 IMediaSample
 >
@@ -434,7 +434,7 @@ mMonitor
 ReentrantMonitor
 mMonitor
 ;
-RefPtr
+nsRefPtr
 <
 IMediaSample
 >

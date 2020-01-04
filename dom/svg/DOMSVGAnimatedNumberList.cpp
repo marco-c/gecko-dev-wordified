@@ -302,7 +302,7 @@ GetBaseValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGNumberList
 >
@@ -351,7 +351,7 @@ GetAnimValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGNumberList
 >
@@ -391,7 +391,7 @@ uint8_t
 aAttrEnum
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedNumberList
 >
@@ -623,7 +623,7 @@ memory
 )
 !
 !
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedNumberList
 >

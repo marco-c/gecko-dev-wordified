@@ -2714,7 +2714,7 @@ to
 the
 element
 node
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >

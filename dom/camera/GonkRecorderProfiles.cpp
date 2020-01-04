@@ -1223,7 +1223,7 @@ aUserArg
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ICameraControl
 :
@@ -1238,7 +1238,7 @@ static_cast
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ICameraControl
 :
@@ -1319,7 +1319,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GonkRecorderProfile
 >
@@ -1493,7 +1493,7 @@ p
 quality
 ;
 }
-RefPtr
+nsRefPtr
 <
 GonkRecorderProfile
 >
@@ -1729,7 +1729,7 @@ CAMCORDER_QUALITY_LIST_END
 q
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkRecorderProfile
 >
@@ -1928,7 +1928,7 @@ uint32_t
 aCameraId
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ICameraControl
 :

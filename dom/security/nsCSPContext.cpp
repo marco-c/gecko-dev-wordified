@@ -5227,7 +5227,7 @@ when
 posting
 the
 reports
-RefPtr
+nsRefPtr
 <
 CSPReportRedirectSink
 >
@@ -5639,7 +5639,7 @@ POST
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CSPViolationReportListener
 >
@@ -6364,7 +6364,7 @@ mLineNum
 uint64_t
 mInnerWindowID
 ;
-RefPtr
+nsRefPtr
 <
 nsCSPContext
 >

@@ -1048,7 +1048,7 @@ aMcc
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 InputQueue
 >
@@ -1095,7 +1095,7 @@ Time
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MockContentControllerDelayed
 >
@@ -1281,7 +1281,7 @@ uint64_t
 aInputBlockId
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -2196,25 +2196,25 @@ AsyncPanZoomController
 GestureBehavior
 mGestureBehavior
 ;
-RefPtr
+nsRefPtr
 <
 MockContentControllerDelayed
 >
 mcc
 ;
-RefPtr
+nsRefPtr
 <
 TaskThrottler
 >
 mPaintThrottler
 ;
-RefPtr
+nsRefPtr
 <
 TestAPZCTreeManager
 >
 tm
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -2514,7 +2514,7 @@ void
 SetDefaultAllowedTouchBehavior
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -2681,7 +2681,7 @@ nsEventStatus
 TouchDown
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -2748,7 +2748,7 @@ nsEventStatus
 TouchMove
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -2810,7 +2810,7 @@ nsEventStatus
 TouchUp
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -2872,7 +2872,7 @@ void
 Tap
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -3087,7 +3087,7 @@ void
 TapAndCheckStatus
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -3150,7 +3150,7 @@ void
 Pan
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -3706,7 +3706,7 @@ void
 Pan
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -3806,7 +3806,7 @@ void
 PanAndCheckStatus
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -3912,7 +3912,7 @@ void
 ApzcPanNoFling
 (
 const
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -3962,7 +3962,7 @@ void
 PinchWithPinchInput
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -4148,7 +4148,7 @@ void
 PinchWithPinchInputAndCheckStatus
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -4225,7 +4225,7 @@ void
 PinchWithTouchInput
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -4732,7 +4732,7 @@ void
 PinchWithTouchInputAndCheckStatus
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -6351,7 +6351,7 @@ all
 /
 sides
 .
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -6494,20 +6494,20 @@ child
 layer
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Layer
 >
 >
 layers
 ;
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
 lm
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -11768,7 +11768,7 @@ void
 DoubleTap
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -12074,7 +12074,7 @@ void
 DoubleTapAndCheckStatus
 (
 const
-RefPtr
+nsRefPtr
 <
 InputReceiver
 >
@@ -13287,7 +13287,7 @@ increment
 for
 (
 const
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -13322,7 +13322,7 @@ pointOut
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 MockContentControllerDelayed
 >
@@ -13330,26 +13330,26 @@ mcc
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Layer
 >
 >
 layers
 ;
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
 lm
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >
 root
 ;
-RefPtr
+nsRefPtr
 <
 TestAPZCTreeManager
 >
@@ -14301,7 +14301,7 @@ ScreenPoint
 aPoint
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -15131,7 +15131,7 @@ at
 20
 20
 )
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -15983,7 +15983,7 @@ the
 child
 layers
 .
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -17408,7 +17408,7 @@ false
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -17421,7 +17421,7 @@ GetRootNode
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -17439,7 +17439,7 @@ GetFirstChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18707,7 +18707,7 @@ like
 the
 layer
 tree
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18720,7 +18720,7 @@ GetRootNode
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18733,7 +18733,7 @@ GetLastChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18746,7 +18746,7 @@ GetPrevSibling
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18759,7 +18759,7 @@ GetPrevSibling
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18772,7 +18772,7 @@ GetPrevSibling
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18785,7 +18785,7 @@ GetLastChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18798,7 +18798,7 @@ GetLastChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18811,7 +18811,7 @@ GetPrevSibling
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18824,7 +18824,7 @@ GetPrevSibling
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 HitTestingTreeNode
 >
@@ -18947,7 +18947,7 @@ GetLastChild
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -21074,7 +21074,7 @@ float
 kAcceleration
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -21637,7 +21637,7 @@ CreateOverscrollHandoffLayerTree2
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -22326,7 +22326,7 @@ ScreenPoint
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22337,7 +22337,7 @@ ApzcOf
 root
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22459,7 +22459,7 @@ CreateOverscrollHandoffLayerTree3
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22473,7 +22473,7 @@ layers
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22487,7 +22487,7 @@ layers
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22501,7 +22501,7 @@ layers
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22661,7 +22661,7 @@ CreateScrollgrabLayerTree
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -22783,7 +22783,7 @@ CreateScrollgrabLayerTree
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestAsyncPanZoomController
 >
@@ -25036,7 +25036,7 @@ mcc
 HitTestResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -25089,7 +25089,7 @@ CreateBug1119497LayerTree
 HitTestResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -25569,7 +25569,7 @@ metrics
 TimeStamp
 now
 ;
-RefPtr
+nsRefPtr
 <
 TaskThrottler
 >

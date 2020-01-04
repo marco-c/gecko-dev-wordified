@@ -302,7 +302,7 @@ buffer
 -
 append
 virtual
-RefPtr
+nsRefPtr
 <
 AppendPromise
 >
@@ -411,7 +411,7 @@ frame
 -
 removal
 virtual
-RefPtr
+nsRefPtr
 <
 RangeRemovalPromise
 >

@@ -2887,7 +2887,7 @@ nsIWindowsRegKey
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindowsRegKey
 >

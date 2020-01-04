@@ -1417,7 +1417,7 @@ mozIStorageFunction
 userData
 )
 ;
-RefPtr
+nsRefPtr
 <
 ArgValueArray
 >
@@ -1639,7 +1639,7 @@ mozIStorageAggregateFunction
 userData
 )
 ;
-RefPtr
+nsRefPtr
 <
 ArgValueArray
 >
@@ -1720,7 +1720,7 @@ mozIStorageAggregateFunction
 userData
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIVariant
 >
@@ -2400,7 +2400,7 @@ mCallbackEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -2635,7 +2635,7 @@ nsISupports
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 CallbackComplete
 >
@@ -2821,13 +2821,13 @@ rawCallback
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Connection
 >
 mConnection
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -7379,7 +7379,7 @@ flags
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -7393,7 +7393,7 @@ flags
 mAsyncOnly
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncInitializeClone
 >
@@ -7855,7 +7855,7 @@ flags
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -8290,7 +8290,7 @@ mDBConn
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 Statement
 >
@@ -8377,7 +8377,7 @@ mDBConn
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 AsyncStatement
 >

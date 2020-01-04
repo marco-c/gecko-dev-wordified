@@ -415,7 +415,7 @@ private
 nsAutoRefCnt
 mRefCnt
 ;
-RefPtr
+nsRefPtr
 <
 txResultRecycler
 >

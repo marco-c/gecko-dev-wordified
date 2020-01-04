@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -418,7 +418,7 @@ the
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >

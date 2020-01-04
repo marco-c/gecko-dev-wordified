@@ -346,7 +346,10 @@ mBounds
 height
 )
 mSurface
+ToFilter
+(
 mFilter
+)
 DrawOptions
 (
 GetEffectiveOpacity

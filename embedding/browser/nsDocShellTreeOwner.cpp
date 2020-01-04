@@ -2542,7 +2542,7 @@ aShellItem
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -505,7 +505,7 @@ cache
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -579,7 +579,7 @@ GetSheetURI
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

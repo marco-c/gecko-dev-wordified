@@ -339,7 +339,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MozIsoDepTech
 >
@@ -420,7 +420,7 @@ ComputeLengthAndData
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

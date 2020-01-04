@@ -1262,7 +1262,7 @@ the
 load
 fails
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1296,7 +1296,7 @@ rule
 backed
 FontFace
 .
-RefPtr
+nsRefPtr
 <
 nsCSSFontFaceRule
 >
@@ -1335,7 +1335,7 @@ is
 explicitly
 loaded
 .
-RefPtr
+nsRefPtr
 <
 Entry
 >
@@ -1547,7 +1547,7 @@ in
 the
 set
 .
-RefPtr
+nsRefPtr
 <
 FontFaceSet
 >

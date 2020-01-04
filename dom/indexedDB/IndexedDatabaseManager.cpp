@@ -686,7 +686,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -701,7 +701,7 @@ aPersistenceType
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -733,7 +733,7 @@ aPersistenceType
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -742,7 +742,7 @@ mPersistentStorageFileManagers
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -751,7 +751,7 @@ mTemporaryStorageFileManagers
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -1051,7 +1051,7 @@ done
 State_Completed
 }
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -1063,7 +1063,7 @@ int64_t
 >
 mFileIds
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -1644,7 +1644,7 @@ available
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IndexedDatabaseManager
 >
@@ -2459,7 +2459,7 @@ to
 an
 IDBRequest
 .
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -2491,7 +2491,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMError
 >
@@ -2699,7 +2699,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerGlobalScope
 >
@@ -2717,7 +2717,7 @@ MOZ_ASSERT
 globalScope
 )
 ;
-RefPtr
+nsRefPtr
 <
 ErrorEvent
 >
@@ -3263,7 +3263,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -3743,7 +3743,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -4268,7 +4268,7 @@ IsMainProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 GetFileReferencesHelper
 >
@@ -4938,7 +4938,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteFilesRunnable
 >
@@ -5009,7 +5009,7 @@ AssertIsOnIOThread
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5043,7 +5043,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5068,7 +5068,7 @@ DatabaseName
 aName
 )
 {
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5106,7 +5106,7 @@ AssertIsOnIOThread
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5274,7 +5274,7 @@ AssertIsOnIOThread
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5345,7 +5345,7 @@ AssertIsOnIOThread
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5378,7 +5378,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -5424,7 +5424,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -6396,7 +6396,7 @@ fail
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -6417,7 +6417,7 @@ if
 fileManager
 )
 {
-RefPtr
+nsRefPtr
 <
 FileInfo
 >

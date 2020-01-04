@@ -3664,7 +3664,7 @@ mSource
 source
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >
@@ -4302,7 +4302,7 @@ err
 INFO_DISCONTINUITY
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >
@@ -4382,7 +4382,7 @@ trackIndex
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >
@@ -4550,7 +4550,7 @@ mDisconnectedToPauseLiveStream
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >

@@ -649,7 +649,7 @@ GetBackendType
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -667,7 +667,7 @@ forget
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -680,7 +680,7 @@ CreatePathBuilder
 aFillRule
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -750,7 +750,7 @@ FILL_WINDING
 Equivalent
 to
 NS_STYLE_FILL_RULE_NONZERO
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

@@ -237,7 +237,7 @@ SVGAnimatedInteger
 {
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

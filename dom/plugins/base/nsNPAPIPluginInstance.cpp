@@ -567,7 +567,7 @@ mCanceled
 }
 ;
 static
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -1684,7 +1684,7 @@ Length
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -1900,7 +1900,7 @@ mOwner
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -1934,7 +1934,7 @@ doc
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsPIDOMWindow
 >
@@ -3243,7 +3243,7 @@ nsNPAPIPluginStreamListener
 listener
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -4865,7 +4865,7 @@ mPostedEvents
 .
 AppendElement
 (
-RefPtr
+nsRefPtr
 <
 PluginEventRunnable
 >
@@ -5199,7 +5199,7 @@ texture
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 AndroidSurfaceTexture
 >
@@ -5391,7 +5391,7 @@ AcquireVideoWindow
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AndroidSurfaceTexture
 >
@@ -7896,7 +7896,7 @@ mOwner
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -8508,7 +8508,7 @@ nsPluginTagType_Applet
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >

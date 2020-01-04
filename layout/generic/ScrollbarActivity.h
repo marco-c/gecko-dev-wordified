@@ -546,7 +546,7 @@ void
 aSelf
 )
 {
-RefPtr
+nsRefPtr
 <
 ScrollbarActivity
 >

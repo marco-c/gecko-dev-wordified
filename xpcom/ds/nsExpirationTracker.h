@@ -2307,7 +2307,7 @@ private
 class
 ExpirationTrackerObserver
 ;
-RefPtr
+nsRefPtr
 <
 ExpirationTrackerObserver
 >

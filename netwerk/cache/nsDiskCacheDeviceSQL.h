@@ -1192,7 +1192,7 @@ mozIStorageConnection
 >
 mDB
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheEvictionFunction
 >

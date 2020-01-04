@@ -939,7 +939,7 @@ already
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -994,7 +994,7 @@ InsertChildAt
 mBullet
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccShowEvent
 >
@@ -1031,7 +1031,7 @@ event
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 AccHideEvent
 >

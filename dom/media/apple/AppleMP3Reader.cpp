@@ -2627,7 +2627,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -2879,7 +2879,7 @@ interval
 intervals
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >

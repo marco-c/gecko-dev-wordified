@@ -4560,7 +4560,7 @@ cr
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SystemCairoClipper
 >
@@ -4745,7 +4745,7 @@ cr
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SystemCairoClipper
 >
@@ -4859,7 +4859,7 @@ the
 widget
 into
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

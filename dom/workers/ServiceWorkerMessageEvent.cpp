@@ -651,7 +651,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerMessageEvent
 >
@@ -907,7 +907,7 @@ IsNull
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MessagePort
 >

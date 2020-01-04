@@ -185,7 +185,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -304,7 +304,7 @@ mozilla
 MediaSystemResourceType
 mType
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -2521,7 +2521,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 WebGLShader
 >
@@ -7311,7 +7311,7 @@ WebGLExtensionID
 :
 :
 Max
-RefPtr
+nsRefPtr
 <
 WebGLExtensionBase
 >
@@ -8275,7 +8275,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 &
 res
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -8816,7 +8816,7 @@ WebGLProgram
 >
 mCurrentProgram
 ;
-RefPtr
+nsRefPtr
 <
 const
 webgl
@@ -9245,7 +9245,7 @@ mViewportHeight
 bool
 mAlreadyWarnedAboutViewportLargerThanDest
 ;
-RefPtr
+nsRefPtr
 <
 WebGLContextLossHandler
 >
@@ -9675,7 +9675,7 @@ mForceDiscreteGPUHelper
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 WebGLObserver
 >

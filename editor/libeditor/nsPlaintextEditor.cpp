@@ -2910,7 +2910,7 @@ outBRNode
 offset
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3101,7 +3101,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3784,7 +3784,7 @@ aAction
 pre
 -
 process
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4114,7 +4114,7 @@ eNext
 pre
 -
 process
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4332,7 +4332,7 @@ eNext
 pre
 -
 process
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4969,7 +4969,7 @@ ps
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5090,7 +5090,7 @@ NotifyEditorObservers
 eNotifyEditorObserversOfBefore
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -6398,7 +6398,7 @@ EditAction
 undo
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6540,7 +6540,7 @@ EditAction
 redo
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6626,7 +6626,7 @@ PasswordFieldAllowed
 aPasswordFieldAllowed
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6715,7 +6715,7 @@ presShell
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -7235,7 +7235,7 @@ nsIDocumentEncoder
 OutputSelectionOnly
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8152,7 +8152,7 @@ n
 /
 get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8365,7 +8365,7 @@ nsAString
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >

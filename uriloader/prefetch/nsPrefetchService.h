@@ -486,7 +486,7 @@ nsPrefetchNode
 *
 mQueueTail
 ;
-RefPtr
+nsRefPtr
 <
 nsPrefetchNode
 >
@@ -755,7 +755,7 @@ nsPrefetchNode
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsPrefetchService
 >

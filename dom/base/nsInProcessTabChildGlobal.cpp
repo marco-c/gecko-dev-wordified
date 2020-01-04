@@ -313,7 +313,7 @@ aCx
 aCpows
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >
@@ -446,7 +446,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsInProcessTabChildGlobal
 >
@@ -495,7 +495,7 @@ Get
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAsyncMessageToParent
 >
@@ -1292,7 +1292,7 @@ do_QueryInterface
 mOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -1611,7 +1611,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsInProcessTabChildGlobal
 >

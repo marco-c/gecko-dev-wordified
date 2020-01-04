@@ -734,7 +734,7 @@ the
 font
 is
 matched
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >

@@ -1703,13 +1703,13 @@ CallPrintCallback
 CanvasContextType
 mCurrentContextType
 ;
-RefPtr
+nsRefPtr
 <
 HTMLCanvasElement
 >
 mOriginalCanvas
 ;
-RefPtr
+nsRefPtr
 <
 PrintCallback
 >
@@ -1721,7 +1721,7 @@ nsICanvasRenderingContextInternal
 >
 mCurrentContext
 ;
-RefPtr
+nsRefPtr
 <
 HTMLCanvasPrintState
 >
@@ -1736,7 +1736,7 @@ FrameCaptureListener
 >
 mRequestedFrameListeners
 ;
-RefPtr
+nsRefPtr
 <
 RequestedFrameRefreshObserver
 >
@@ -1934,7 +1934,7 @@ mPendingNotify
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 HTMLCanvasElement
 >

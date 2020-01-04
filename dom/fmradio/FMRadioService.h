@@ -1659,7 +1659,7 @@ nsIThread
 >
 mTuneThread
 ;
-RefPtr
+nsRefPtr
 <
 FMRadioReplyRunnable
 >

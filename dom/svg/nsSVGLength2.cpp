@@ -1701,7 +1701,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGLength
 >
@@ -1743,7 +1743,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGLength
 >
@@ -2068,7 +2068,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAnimatedLength
 >

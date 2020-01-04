@@ -167,7 +167,7 @@ TYPE_IMAGE
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >

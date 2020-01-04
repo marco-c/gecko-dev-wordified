@@ -279,7 +279,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 IccListener
 >

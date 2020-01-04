@@ -1091,7 +1091,7 @@ vice
 versa
 )
 .
-RefPtr
+nsRefPtr
 <
 BluetoothSocket
 >
@@ -1133,7 +1133,7 @@ Listen
 is
 called
 .
-RefPtr
+nsRefPtr
 <
 BluetoothSocket
 >

@@ -98,7 +98,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -277,13 +277,13 @@ SVGMatrix
 matrix
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasRenderingContext2D
 >
 mContext
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

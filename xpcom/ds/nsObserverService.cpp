@@ -1227,7 +1227,7 @@ Create
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsObserverService
 >
@@ -1279,7 +1279,7 @@ a
 recursive
 GetService
 .
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <

@@ -646,7 +646,7 @@ mTarget
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BackgroundFileSaver
 >
@@ -3379,7 +3379,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 NotifyTargetChangeRunnable
 >

@@ -796,7 +796,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1021,7 +1021,7 @@ of
 our
 request
 .
-RefPtr
+nsRefPtr
 <
 ImageURL
 >

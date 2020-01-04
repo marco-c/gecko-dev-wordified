@@ -248,7 +248,7 @@ DelayNodeEngine
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioParam
 >

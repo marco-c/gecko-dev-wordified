@@ -145,7 +145,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -386,7 +386,7 @@ aParams
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >
@@ -536,7 +536,7 @@ OnAudioEnded
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -548,13 +548,13 @@ Creator
 >
 mCreator
 ;
-RefPtr
+nsRefPtr
 <
 AudioSink
 >
 mAudioSink
 ;
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

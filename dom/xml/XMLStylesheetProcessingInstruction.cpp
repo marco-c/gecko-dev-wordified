@@ -887,7 +887,7 @@ GetData
 data
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -944,7 +944,7 @@ NS_OK
 ;
 }
 static
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -960,7 +960,7 @@ uint32_t
 aDataLen
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1280,7 +1280,7 @@ JS_GetTypedArrayLength
 tsrc
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1413,7 +1413,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1444,7 +1444,7 @@ nsSpeechTask
 :
 SendAudioImpl
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1901,7 +1901,7 @@ Destroy
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisUtterance
 >

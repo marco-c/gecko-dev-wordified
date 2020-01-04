@@ -283,7 +283,7 @@ mCacheValid
 bool
 mCacheWillInvalidate
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -386,7 +386,7 @@ loop
 struct
 ScreenCacheEntry
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -398,7 +398,7 @@ ScreenProxy
 >
 mScreenProxy
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

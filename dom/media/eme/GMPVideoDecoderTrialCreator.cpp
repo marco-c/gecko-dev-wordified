@@ -758,7 +758,7 @@ Failed
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 AbstractPromiseLike
 >
@@ -874,7 +874,7 @@ Succeeded
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 AbstractPromiseLike
 >
@@ -979,7 +979,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1586,7 +1586,7 @@ mGMP
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1649,7 +1649,7 @@ mGMP
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -2746,7 +2746,7 @@ Get
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -2814,7 +2814,7 @@ Add
 crash
 handler
 .
-RefPtr
+nsRefPtr
 <
 gmp
 :
@@ -2890,7 +2890,7 @@ ActorCreated
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

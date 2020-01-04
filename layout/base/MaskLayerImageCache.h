@@ -1627,7 +1627,7 @@ MaskLayerImageKey
 >
 mKey
 ;
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >

@@ -4141,7 +4141,7 @@ Clone
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -5006,7 +5006,7 @@ true
 struct
 ChildSheetListBuilder
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5290,7 +5290,7 @@ fake
 /
 /
 nsIDOMCSSStyleSheets
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5937,7 +5937,7 @@ type
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -7043,7 +7043,7 @@ be
 ok
 )
 .
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -7097,7 +7097,7 @@ mDocument
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -7240,7 +7240,7 @@ Length
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -8536,7 +8536,7 @@ if
 sheet
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -8616,7 +8616,7 @@ WillDirty
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -8721,7 +8721,7 @@ WillDirty
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -9577,7 +9577,7 @@ aCloneOwningNode
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -11079,7 +11079,7 @@ childSheet
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -11214,7 +11214,7 @@ update
 kills
 the
 document
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -11266,7 +11266,7 @@ UPDATE_STYLE
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -11974,7 +11974,7 @@ die
 when
 we
 RemoveObjectAt
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12121,7 +12121,7 @@ sheet
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12320,7 +12320,7 @@ update
 kills
 the
 document
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12383,7 +12383,7 @@ WillDirty
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12902,7 +12902,7 @@ update
 kills
 the
 document
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -13005,7 +13005,7 @@ Count
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -13103,7 +13103,7 @@ childSheet
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -13408,7 +13408,7 @@ Count
 index
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :

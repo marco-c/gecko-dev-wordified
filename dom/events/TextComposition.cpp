@@ -2942,7 +2942,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -3828,7 +3828,7 @@ any
 events
 anymore
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

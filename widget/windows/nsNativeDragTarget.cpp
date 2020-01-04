@@ -2406,7 +2406,7 @@ from
 destroying
 these
 :
-RefPtr
+nsRefPtr
 <
 nsNativeDragTarget
 >

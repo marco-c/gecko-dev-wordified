@@ -444,7 +444,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

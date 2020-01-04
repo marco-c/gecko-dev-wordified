@@ -1701,7 +1701,7 @@ result
 return
 NS_ERROR_NULL_POINTER
 ;
-RefPtr
+nsRefPtr
 <
 XULDocument
 >
@@ -5730,7 +5730,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -7444,7 +7444,7 @@ nsString
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -7626,7 +7626,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -7736,7 +7736,7 @@ tag
 int32_t
 nameSpaceID
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -11861,7 +11861,7 @@ for
 the
 overlay
 .
-RefPtr
+nsRefPtr
 <
 XULContentSinkImpl
 >
@@ -13348,7 +13348,7 @@ indexOfRoot
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -13464,7 +13464,7 @@ document
 s
 prototype
 .
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -13764,7 +13764,7 @@ ptr
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProcessingInstruction
 >
@@ -15618,7 +15618,7 @@ a
 missing
 overlay
 .
-RefPtr
+nsRefPtr
 <
 ParserObserver
 >
@@ -16782,7 +16782,7 @@ nsXULPrototypeElement
 childproto
 )
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -17351,7 +17351,7 @@ overlay
 get
 ignored
 .
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -21778,7 +21778,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -21901,7 +21901,7 @@ for
 this
 node
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -21961,7 +21961,7 @@ newNodeInfo
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -22050,7 +22050,7 @@ aResult
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -22889,7 +22889,7 @@ sheets
 i
 ]
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

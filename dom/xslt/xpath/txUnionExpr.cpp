@@ -295,7 +295,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -351,7 +351,7 @@ len
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -408,7 +408,7 @@ return
 NS_ERROR_XSLT_NODESET_EXPECTED
 ;
 }
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

@@ -243,7 +243,7 @@ mWindow
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MobileConnection
 >

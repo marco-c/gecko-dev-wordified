@@ -2328,7 +2328,7 @@ old
 mAnchorFocusRange
 )
 .
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -2979,7 +2979,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -3982,7 +3982,7 @@ mCaretBidiLevel
 =
 aLevel
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -4490,7 +4490,7 @@ caret
 as
 selection
 listener
-RefPtr
+nsRefPtr
 <
 TouchCaret
 >
@@ -4548,7 +4548,7 @@ caret
 as
 selection
 listener
-RefPtr
+nsRefPtr
 <
 SelectionCarets
 >
@@ -4598,7 +4598,7 @@ selectionCarets
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 AccessibleCaretEventHub
 >
@@ -4698,7 +4698,7 @@ worry
 about
 that
 !
-RefPtr
+nsRefPtr
 <
 SelectionChangeListener
 >
@@ -4881,7 +4881,7 @@ nsISelectionController
 SELECTION_NORMAL
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -9225,7 +9225,7 @@ RemoveCollapsedRanges
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -11366,7 +11366,7 @@ nsISelectionController
 SELECTION_NORMAL
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -14026,7 +14026,7 @@ the
 only
 owner
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -14694,7 +14694,7 @@ sometimes
 remove
 the
 range
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -17453,7 +17453,7 @@ aParentNode
 return
 NS_ERROR_NULL_POINTER
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -17738,7 +17738,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -17770,7 +17770,7 @@ RangeCount
 rangeIdx
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -18011,7 +18011,7 @@ caret
 as
 selection
 listener
-RefPtr
+nsRefPtr
 <
 TouchCaret
 >
@@ -18052,7 +18052,7 @@ touchCaret
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SelectionCarets
 >
@@ -18093,7 +18093,7 @@ selectionCarets
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccessibleCaretEventHub
 >
@@ -19746,7 +19746,7 @@ the
 end
 of
 range
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -19896,7 +19896,7 @@ the
 start
 of
 aSubtract
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -20029,7 +20029,7 @@ nsRange
 aItem
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -20206,7 +20206,7 @@ mUserInitiated
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -20305,7 +20305,7 @@ be
 re
 -
 generated
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -22100,7 +22100,7 @@ nullptr
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -22286,7 +22286,7 @@ bool
 aAllowAdjacent
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -26466,7 +26466,7 @@ return
 nothing
 to
 do
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -26798,7 +26798,7 @@ SetInterlinePosition
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27259,7 +27259,7 @@ range
 '
 s
 frames
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27721,7 +27721,7 @@ return
 nsresult
 result
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27790,7 +27790,7 @@ ClearTableCellSelection
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -28770,7 +28770,7 @@ NS_ENSURE_TRUE_VOID
 mAnchorFocusRange
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -29358,7 +29358,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -29441,7 +29441,7 @@ FocusOffset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -29731,7 +29731,7 @@ false
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -32498,7 +32498,7 @@ Revoke
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ScrollSelectionIntoViewEvent
 >
@@ -34517,7 +34517,7 @@ frameStart
 frameEnd
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -35803,7 +35803,7 @@ implemented
 by
 Selection
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -36240,7 +36240,7 @@ if
 target
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

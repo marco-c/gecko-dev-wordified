@@ -1545,7 +1545,7 @@ the
 frame
 state
 .
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >
@@ -2174,7 +2174,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -2304,7 +2304,7 @@ std
 map
 <
 TabId
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -2328,7 +2328,7 @@ std
 map
 <
 TabId
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -2388,7 +2388,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -2867,7 +2867,7 @@ IPC
 will
 crash
 .
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -3098,7 +3098,7 @@ IsBrowserOrApp
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -3161,7 +3161,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -6125,7 +6125,7 @@ GetID
 tabId
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -6194,7 +6194,7 @@ this
 ref
 in
 DeallocPBrowserChild
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -6905,7 +6905,7 @@ info
 mCanceled
 )
 ;
-RefPtr
+nsRefPtr
 <
 CloseFileRunnable
 >
@@ -7422,7 +7422,7 @@ SetProcessNameToAppName
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerManager
 >
@@ -7796,7 +7796,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CloseFileRunnable
 >
@@ -8162,7 +8162,7 @@ mCallback
 =
 aCallback
 ;
-RefPtr
+nsRefPtr
 <
 CachedFileDescriptorCallbackRunnable
 >
@@ -10796,7 +10796,7 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
-RefPtr
+nsRefPtr
 <
 DelayedFireContextMenuEvent
 >
@@ -12662,7 +12662,7 @@ chromeHandler
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentListener
 >
@@ -12806,7 +12806,7 @@ aData
 data
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >
@@ -13001,7 +13001,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -13523,7 +13523,7 @@ presShell
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -13888,7 +13888,7 @@ chromeHandler
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabChildGlobal
 >
@@ -15666,7 +15666,7 @@ if
 presShell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -15832,7 +15832,7 @@ if
 presShell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

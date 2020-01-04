@@ -1544,7 +1544,7 @@ mEITBroadcastedTimer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-RefPtr
+nsRefPtr
 <
 EITBroadcastedCallback
 >
@@ -1636,7 +1636,7 @@ mScanCompleteTimer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-RefPtr
+nsRefPtr
 <
 ScanCompleteCallback
 >

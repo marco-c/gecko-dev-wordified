@@ -7187,7 +7187,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -11438,7 +11438,7 @@ return
 TRUE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -11459,7 +11459,7 @@ return
 FALSE
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -11937,7 +11937,7 @@ if
 painted
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -12201,7 +12201,7 @@ bufferSize
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -13842,7 +13842,7 @@ gPluginFocusWindow
 this
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -15936,7 +15936,7 @@ if
 gPluginFocusWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -15967,7 +15967,7 @@ if
 gFocusWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -18569,7 +18569,7 @@ guard
 against
 infinite
 recursion
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -25990,7 +25990,7 @@ if
 gPluginFocusWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -26898,7 +26898,7 @@ nsIRunnable
 >
 mCallback
 ;
-RefPtr
+nsRefPtr
 <
 FullscreenTransitionWindow
 >
@@ -29517,7 +29517,7 @@ GdkEventExpose
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29576,7 +29576,7 @@ aWindow
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29779,7 +29779,7 @@ GdkEventConfigure
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29818,7 +29818,7 @@ GtkWidget
 widget
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29856,7 +29856,7 @@ GtkAllocation
 allocation
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29895,7 +29895,7 @@ GdkEventAny
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -29937,7 +29937,7 @@ GdkEventCrossing
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -30076,7 +30076,7 @@ return
 TRUE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -30385,7 +30385,7 @@ GdkEventFocus
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -30428,7 +30428,7 @@ GdkEventFocus
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -30958,7 +30958,7 @@ xevent
 Window
 xeventWindow
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -31497,7 +31497,7 @@ window
 return
 FALSE
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -31802,7 +31802,7 @@ window
 return
 FALSE
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -31836,7 +31836,7 @@ GdkEventProperty
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -31936,7 +31936,7 @@ GdkEventVisibility
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32158,7 +32158,7 @@ GdkEventWindowState
 event
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32205,7 +32205,7 @@ nsWindow
 data
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32359,7 +32359,7 @@ gpointer
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32419,7 +32419,7 @@ retx
 rety
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32502,7 +32502,7 @@ gpointer
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32740,7 +32740,7 @@ gpointer
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32800,7 +32800,7 @@ retx
 rety
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -32892,7 +32892,7 @@ gpointer
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -34416,7 +34416,7 @@ gdk_x11_drawable_get_xid
 aDrawable
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -34643,7 +34643,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -34691,7 +34691,7 @@ if
 dt
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >

@@ -519,7 +519,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1683,7 +1683,7 @@ executor
 void
 recv_callback_s
 (
-RefPtr
+nsRefPtr
 <
 nr_udp_message
 >
@@ -1709,14 +1709,14 @@ std
 :
 queue
 <
-RefPtr
+nsRefPtr
 <
 nr_udp_message
 >
 >
 received_msgs_
 ;
-RefPtr
+nsRefPtr
 <
 nsIUDPSocketChild
 >
@@ -1775,7 +1775,7 @@ nsresult
 Init
 (
 const
-RefPtr
+nsRefPtr
 <
 NrUdpSocketIpc
 >
@@ -1791,7 +1791,7 @@ NrUdpSocketIpcProxy
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 NrUdpSocketIpc
 >
@@ -2216,7 +2216,7 @@ std
 :
 queue
 <
-RefPtr
+nsRefPtr
 <
 nr_tcp_message
 >
@@ -2243,7 +2243,7 @@ writes_in_flight_
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 dom
 :

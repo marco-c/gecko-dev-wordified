@@ -287,7 +287,7 @@ GetKnownDocShells
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -560,7 +560,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -581,7 +581,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -606,7 +606,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -748,7 +748,7 @@ AddOTMTMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >

@@ -1305,7 +1305,7 @@ NodeInfo
 >
 ni
 =
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2181,7 +2181,7 @@ if
 frame
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -2214,7 +2214,7 @@ CreateSVGNumber
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGNumber
 >
@@ -2294,7 +2294,7 @@ Init
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGAngle
 >
@@ -2362,7 +2362,7 @@ CreateSVGMatrix
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGMatrix
 >
@@ -2410,7 +2410,7 @@ CreateSVGTransform
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2443,7 +2443,7 @@ SVGMatrix
 matrix
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >

@@ -472,7 +472,7 @@ DaemonSocketIOConsumer
 *
 mConsumer
 ;
-RefPtr
+nsRefPtr
 <
 DaemonSocketResultHandler
 >

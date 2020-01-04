@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -428,7 +428,7 @@ use
 by
 PeerConnectionImpl
 .
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -571,7 +571,7 @@ aLockProof
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 nsIGlobalObject
 >

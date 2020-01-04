@@ -1442,7 +1442,7 @@ move
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlockChange
 >

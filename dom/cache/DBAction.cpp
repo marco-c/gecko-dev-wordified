@@ -913,7 +913,7 @@ main
 thread
 here
 .
-RefPtr
+nsRefPtr
 <
 nsFileProtocolHandler
 >

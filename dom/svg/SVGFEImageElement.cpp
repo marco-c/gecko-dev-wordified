@@ -172,7 +172,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1458,7 +1458,7 @@ bool
 aInputsAreTainted
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1532,7 +1532,7 @@ imageContainer
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1647,12 +1647,15 @@ y
 Filter
 filter
 =
+ToFilter
+(
 nsLayoutUtils
 :
 :
 GetGraphicsFilterForFrame
 (
 frame
+)
 )
 ;
 FilterPrimitiveDescription

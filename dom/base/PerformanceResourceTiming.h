@@ -666,7 +666,7 @@ PerformanceResourceTiming
 nsString
 mInitiatorType
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformanceTiming
 >

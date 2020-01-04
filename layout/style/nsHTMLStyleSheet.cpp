@@ -1213,7 +1213,7 @@ LangRuleTableEntry
 public
 PLDHashEntryHdr
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLStyleSheet
 :
@@ -2754,7 +2754,7 @@ nsHTMLStyleSheet
 :
 ImplLinkColorSetter
 (
-RefPtr
+nsRefPtr
 <
 HTMLColorRule
 >
@@ -3022,7 +3022,7 @@ mAttributes
 aMapped
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >

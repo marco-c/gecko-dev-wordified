@@ -1002,7 +1002,7 @@ Cleanup
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebMDemuxer
 :
@@ -1280,7 +1280,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebMTrackDemuxer
 >
@@ -1449,7 +1449,7 @@ it
 to
 BufferedState
 .
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -2867,7 +2867,7 @@ EnsureUpToDateIndex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3012,7 +3012,7 @@ TrackInfo
 kAudioTrack
 )
 {
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3108,7 +3108,7 @@ TrackInfo
 kVideoTrack
 )
 {
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3418,7 +3418,7 @@ length
 isKeyframe
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -3535,7 +3535,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3727,7 +3727,7 @@ PopFront
 }
 do
 {
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3823,7 +3823,7 @@ true
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -3897,7 +3897,7 @@ Tell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 NesteggPacketHolder
 >
@@ -4809,7 +4809,7 @@ Clone
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebMTrackDemuxer
 :
@@ -4908,7 +4908,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -4960,7 +4960,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -5015,7 +5015,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebMTrackDemuxer
 :
@@ -5031,7 +5031,7 @@ int32_t
 aNumSamples
 )
 {
-RefPtr
+nsRefPtr
 <
 SamplesHolder
 >
@@ -5065,7 +5065,7 @@ while
 aNumSamples
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -5185,7 +5185,7 @@ reset
 MediaRawDataQueue
 skipSamplesQueue
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -5641,7 +5641,7 @@ UpdateSamples
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -5761,7 +5761,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebMTrackDemuxer
 :
@@ -5790,7 +5790,7 @@ found
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

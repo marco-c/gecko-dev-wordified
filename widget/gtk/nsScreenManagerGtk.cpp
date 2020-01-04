@@ -887,7 +887,7 @@ numScreens
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 nsScreenGtk
 >
@@ -1046,7 +1046,7 @@ numScreens
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScreenGtk
 >

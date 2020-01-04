@@ -425,7 +425,7 @@ better
 than
 crashing
 .
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -854,7 +854,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >
@@ -903,7 +903,7 @@ mSource
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -1016,7 +1016,7 @@ GetShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

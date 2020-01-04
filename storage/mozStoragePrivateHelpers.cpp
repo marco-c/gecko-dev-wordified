@@ -935,7 +935,7 @@ nsIVariant
 aVariant
 )
 {
-RefPtr
+nsRefPtr
 <
 Variant_base
 >

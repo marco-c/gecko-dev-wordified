@@ -1421,7 +1421,7 @@ timeout
 =
 GMP_DEFAULT_ASYNC_SHUTDONW_TIMEOUT
 ;
-RefPtr
+nsRefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -2029,7 +2029,7 @@ mAsyncShutdownInProgress
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 GMPParent
 >
@@ -2557,7 +2557,7 @@ GMPStateClosing
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 GMPParent
 >
@@ -2733,7 +2733,7 @@ ChildTerminated
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GMPParent
 >
@@ -2838,7 +2838,7 @@ Dispatch
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 GMPParent
 >
@@ -3659,7 +3659,7 @@ nullptr
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gmp
 :
@@ -3827,7 +3827,7 @@ AbnormalShutdown
 aWhy
 )
 {
-RefPtr
+nsRefPtr
 <
 GMPParent
 >
@@ -5528,7 +5528,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 GMPContentParent
 >
@@ -5601,7 +5601,7 @@ ipc
 ParentSide
 )
 ;
-RefPtr
+nsRefPtr
 <
 RunCreateContentParentCallbacks
 >

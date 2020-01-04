@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -384,10 +384,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe

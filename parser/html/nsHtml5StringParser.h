@@ -323,7 +323,7 @@ operation
 executor
 *
 /
-RefPtr
+nsRefPtr
 <
 nsHtml5OplessBuilder
 >

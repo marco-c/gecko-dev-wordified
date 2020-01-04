@@ -277,7 +277,7 @@ script
 /
 /
 /
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -369,7 +369,7 @@ handlers
 /
 /
 /
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -727,7 +727,7 @@ worker
 /
 /
 /
-RefPtr
+nsRefPtr
 <
 FinishTaskWorkerRunnable
 >
@@ -910,7 +910,7 @@ AssertIsOnWorkerThread
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1516,7 +1516,7 @@ Worker
 thread
 only
 .
-RefPtr
+nsRefPtr
 <
 Promise
 >

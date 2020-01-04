@@ -2801,7 +2801,7 @@ mDeferRequests
 nsScriptLoadRequestList
 mXSLTRequests
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -2824,7 +2824,7 @@ element
 struct
 PreloadInfo
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -2921,7 +2921,7 @@ sure
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -3017,7 +3017,7 @@ true
 bool
 mWasEnabled
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >

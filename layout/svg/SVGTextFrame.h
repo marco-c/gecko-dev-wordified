@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -3532,7 +3532,7 @@ subtree
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 MutationObserver
 >

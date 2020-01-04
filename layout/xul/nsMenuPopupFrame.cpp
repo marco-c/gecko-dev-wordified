@@ -2459,7 +2459,7 @@ Run
 is
 finished
 .
-RefPtr
+nsRefPtr
 <
 nsXULPopupShownEvent
 >

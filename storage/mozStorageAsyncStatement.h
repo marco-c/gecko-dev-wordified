@@ -429,7 +429,7 @@ asynchronously
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BindingParamsArray
 >

@@ -1917,7 +1917,7 @@ ForceWALCheckpoint
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Database
 >

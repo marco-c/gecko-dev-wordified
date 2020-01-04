@@ -195,7 +195,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -519,7 +519,7 @@ R8G8B8A8
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1684,7 +1684,7 @@ MapSrcAndCreateMappedDest
 DataSourceSurface
 *
 srcSurf
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1814,7 +1814,7 @@ on
 the
 src
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1938,7 +1938,7 @@ DataSourceSurface
 srcSurf
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1981,7 +1981,7 @@ failed
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2058,7 +2058,7 @@ DataSourceSurface
 srcSurf
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2101,7 +2101,7 @@ failed
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2679,7 +2679,7 @@ Height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2745,10 +2745,10 @@ TopLeft
 (
 )
 true
-Filter
+GraphicsFilter
 :
 :
-LINEAR
+FILTER_FAST
 1
 .
 0
@@ -2765,7 +2765,7 @@ TopLeft
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3321,10 +3321,10 @@ computeResamplingMode
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
 static
-Filter
+GraphicsFilter
 ReduceResamplingFilter
 (
-Filter
+GraphicsFilter
 aFilter
 int
 aImgWidth
@@ -3460,10 +3460,10 @@ lines
 )
 .
 return
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 ;
 }
 if
@@ -3576,10 +3576,10 @@ aImgHeight
 5
 )
 return
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 ;
 /
 /
@@ -3807,10 +3807,10 @@ aFilter
 #
 else
 static
-Filter
+GraphicsFilter
 ReduceResamplingFilter
 (
-Filter
+GraphicsFilter
 aFilter
 int
 aImgWidth
@@ -3997,7 +3997,7 @@ aRegion
 Rect
 aImageRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -4292,7 +4292,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4379,7 +4379,7 @@ gfxMatrix
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4492,7 +4492,10 @@ REPEAT
 Matrix
 (
 )
+ToFilter
+(
 aFilter
+)
 )
 ;
 destDrawTarget
@@ -4543,7 +4546,7 @@ aRegion
 const
 SurfaceFormat
 aFormat
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aImageFlags
@@ -5146,7 +5149,7 @@ nsIntRegion
 aRegion
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -5340,7 +5343,7 @@ height
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -7294,7 +7297,7 @@ the
 /
 GPU
 .
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -7418,7 +7421,7 @@ OP_OVER
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -7679,7 +7682,7 @@ format
 /
 conversion
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -7733,7 +7736,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -8182,7 +8185,7 @@ size
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -9427,7 +9430,7 @@ char
 aFile
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9526,7 +9529,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9688,7 +9691,7 @@ FILE
 aFile
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9935,7 +9938,7 @@ DrawTarget
 aDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -10033,7 +10036,7 @@ DrawTarget
 aDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

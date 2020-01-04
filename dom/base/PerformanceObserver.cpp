@@ -492,7 +492,7 @@ IsInnerWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PerformanceObserver
 >
@@ -537,7 +537,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-RefPtr
+nsRefPtr
 <
 PerformanceObserver
 >
@@ -611,7 +611,7 @@ IsEmpty
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 PerformanceObserverEntryList
 >

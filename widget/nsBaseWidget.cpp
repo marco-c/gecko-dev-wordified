@@ -1476,7 +1476,7 @@ See
 bug
 1133426
 .
-RefPtr
+nsRefPtr
 <
 CompositorChild
 >
@@ -1484,7 +1484,7 @@ compositorChild
 =
 mCompositorChild
 ;
-RefPtr
+nsRefPtr
 <
 CompositorParent
 >
@@ -7012,7 +7012,7 @@ CreateRootContentController
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GeckoContentController
 >
@@ -7061,7 +7061,7 @@ GetDPI
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 APZCTreeManager
 >
@@ -7188,7 +7188,7 @@ aFlags
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 GeckoContentController
 >
@@ -8224,7 +8224,7 @@ aWidth
 aHeight
 )
 ;
-RefPtr
+nsRefPtr
 <
 ClientLayerManager
 >
@@ -12805,7 +12805,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -12819,7 +12819,7 @@ GetSurfaceForDescriptor
 surface
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

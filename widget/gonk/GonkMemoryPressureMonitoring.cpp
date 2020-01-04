@@ -1977,7 +1977,7 @@ the
 observer
 service
 .
-RefPtr
+nsRefPtr
 <
 MemoryPressureWatcher
 >

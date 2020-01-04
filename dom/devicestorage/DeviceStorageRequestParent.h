@@ -367,7 +367,7 @@ CancelableRun
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestParent
 >
@@ -493,7 +493,7 @@ mLength
 uint64_t
 mLastModificationDate
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -595,7 +595,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -640,7 +640,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -689,7 +689,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -729,7 +729,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -769,7 +769,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -809,7 +809,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -854,7 +854,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -898,7 +898,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -942,7 +942,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1064,7 +1064,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1104,7 +1104,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1144,7 +1144,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1184,7 +1184,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1224,7 +1224,7 @@ CancelableRun
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1296,7 +1296,7 @@ mActorDestroyed
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CancelableRunnable
 >

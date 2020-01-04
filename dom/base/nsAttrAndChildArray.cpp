@@ -2903,7 +2903,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -3558,7 +3558,7 @@ aLocalName
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -3637,7 +3637,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -4443,7 +4443,7 @@ we
 do
 loading
 right
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -4466,7 +4466,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >

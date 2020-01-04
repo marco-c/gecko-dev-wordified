@@ -1299,7 +1299,7 @@ as
 a
 cache
 .
-RefPtr
+nsRefPtr
 <
 SourceSurfaceCairo
 >

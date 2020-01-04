@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -455,7 +455,7 @@ queue
 goes
 empty
 .
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -637,7 +637,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 SharedThreadPool
 >
@@ -1069,7 +1069,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >

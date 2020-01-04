@@ -3736,7 +3736,7 @@ typeToUse
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoWin
 >
@@ -4315,7 +4315,7 @@ type
 do
 the
 lookup
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoWin
 >
@@ -4591,7 +4591,7 @@ mi
 hasDefault
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoWin
 >

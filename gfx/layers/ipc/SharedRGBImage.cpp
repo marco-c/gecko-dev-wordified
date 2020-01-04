@@ -391,7 +391,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -428,7 +428,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedRGBImage
 >

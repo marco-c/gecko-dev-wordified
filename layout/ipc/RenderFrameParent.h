@@ -616,13 +616,13 @@ context
 uint64_t
 mLayersId
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
 mFrameLoader
 ;
-RefPtr
+nsRefPtr
 <
 ContainerLayer
 >
@@ -661,7 +661,7 @@ the
 compositor
 thread
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -670,7 +670,7 @@ APZCTreeManager
 >
 mApzcTreeManager
 ;
-RefPtr
+nsRefPtr
 <
 RemoteContentController
 >

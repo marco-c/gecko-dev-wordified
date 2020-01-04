@@ -4625,7 +4625,7 @@ width
 height
 of
 strings
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

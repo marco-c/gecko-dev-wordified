@@ -618,7 +618,7 @@ things
 are
 good
 .
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2327,13 +2327,13 @@ protected
 nsString
 mTitle
 ;
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
 mMedia
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2358,7 +2358,7 @@ mOwnerRule
 /
 weak
 ref
-RefPtr
+nsRefPtr
 <
 CSSRuleListImpl
 >
@@ -2401,7 +2401,7 @@ modified
 bool
 mInRuleProcessorCache
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

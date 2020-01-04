@@ -8026,7 +8026,7 @@ Get
 target
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXPCClassInfo
 >

@@ -383,7 +383,7 @@ size
 format
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -457,7 +457,7 @@ size
 format
 )
 ;
-RefPtr
+nsRefPtr
 <
 VolatileBuffer
 >
@@ -1359,7 +1359,7 @@ aSize
 const
 SurfaceFormat
 aFormat
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aImageFlags
@@ -1451,7 +1451,7 @@ mPaletteDepth
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2382,7 +2382,7 @@ SurfaceFormat
 R5G6B5
 )
 {
-RefPtr
+nsRefPtr
 <
 VolatileBuffer
 >
@@ -2404,7 +2404,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2473,7 +2473,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2919,7 +2919,7 @@ padding
 or
 undecoded
 area
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3052,7 +3052,7 @@ pattern
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3198,7 +3198,7 @@ const
 ImageRegion
 &
 aRegion
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aImageFlags
@@ -3404,7 +3404,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3452,7 +3452,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4979,7 +4979,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5009,7 +5009,7 @@ if
 mImageSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

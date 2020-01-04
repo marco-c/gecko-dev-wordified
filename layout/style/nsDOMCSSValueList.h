@@ -339,7 +339,7 @@ only
 ?
 InfallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSValue
 >

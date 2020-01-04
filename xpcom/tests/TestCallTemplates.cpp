@@ -481,7 +481,7 @@ mySupportsCOMPtr
 myITestService
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTestService
 >

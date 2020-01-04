@@ -1178,7 +1178,7 @@ char
 aMsg
 )
 {
-RefPtr
+nsRefPtr
 <
 OnFTPControlLogRunnable
 >

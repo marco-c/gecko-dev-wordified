@@ -237,7 +237,7 @@ SampleRate
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioNodeExternalInputStream
 >

@@ -152,7 +152,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1458,7 +1458,7 @@ MaybeAllowContextToClose
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ManagerId
 >

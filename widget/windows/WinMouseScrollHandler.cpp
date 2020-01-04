@@ -4006,7 +4006,7 @@ DOM
 event
 handler
 .
-RefPtr
+nsRefPtr
 <
 nsWindowBase
 >

@@ -203,7 +203,7 @@ MediaStreamList
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionImpl
 >

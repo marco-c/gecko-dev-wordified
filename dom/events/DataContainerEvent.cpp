@@ -490,7 +490,7 @@ WidgetEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 DataContainerEvent
 >

@@ -115,7 +115,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -946,7 +946,7 @@ size
 =
 200
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -973,7 +973,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1345,7 +1345,7 @@ gfxContext
 ctx
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFontGroup
 >
@@ -1656,7 +1656,7 @@ SetupTests
 testList
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

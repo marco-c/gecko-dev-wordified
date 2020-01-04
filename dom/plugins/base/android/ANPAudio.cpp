@@ -1621,7 +1621,7 @@ now
 owns
 the
 ANPAudioTrack
-RefPtr
+nsRefPtr
 <
 AudioRunnable
 >

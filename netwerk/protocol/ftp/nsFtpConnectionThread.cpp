@@ -3717,7 +3717,7 @@ prompter
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 nsAuthInformationHolder
 >
@@ -4216,7 +4216,7 @@ prompter
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 nsAuthInformationHolder
 >
@@ -12438,7 +12438,7 @@ the
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >

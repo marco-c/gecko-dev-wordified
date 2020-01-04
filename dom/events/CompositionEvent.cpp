@@ -461,7 +461,7 @@ WidgetCompositionEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 CompositionEvent
 >

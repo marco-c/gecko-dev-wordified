@@ -2644,7 +2644,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContextEGL
 >
@@ -3764,7 +3764,7 @@ config
 =
 EGL_NO_CONFIG
 ;
-RefPtr
+nsRefPtr
 <
 GLContextEGL
 >
@@ -3940,7 +3940,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextEGL
 >
@@ -4883,7 +4883,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContextEGL
 >
@@ -5065,7 +5065,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextEGL
 >
@@ -5365,7 +5365,7 @@ canOffscreenUseHeadless
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContext
 >

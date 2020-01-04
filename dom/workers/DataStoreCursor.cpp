@@ -467,7 +467,7 @@ final
 public
 DataStoreCursorRunnable
 {
-RefPtr
+nsRefPtr
 <
 PromiseWorkerProxy
 >
@@ -611,7 +611,7 @@ AssertIsOnMainThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -819,7 +819,7 @@ MOZ_ASSERT
 mWorkerStore
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerDataStore
 >
@@ -873,7 +873,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -906,7 +906,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataStoreCursorNextRunnable
 >
@@ -972,7 +972,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreCursorCloseRunnable
 >

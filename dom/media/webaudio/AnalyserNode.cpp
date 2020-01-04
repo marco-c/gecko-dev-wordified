@@ -282,7 +282,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AnalyserNode
 >
@@ -327,7 +327,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >
@@ -480,7 +480,7 @@ mChunksToProcess
 CHUNK_COUNT
 ;
 }
-RefPtr
+nsRefPtr
 <
 TransferBuffer
 >

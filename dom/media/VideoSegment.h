@@ -431,7 +431,7 @@ in
 this
 case
 .
-RefPtr
+nsRefPtr
 <
 Image
 >

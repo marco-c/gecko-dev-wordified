@@ -1171,7 +1171,7 @@ MOZ_ASSERT
 aBlob
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1341,7 +1341,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >
@@ -1507,7 +1507,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >
@@ -1664,7 +1664,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >

@@ -974,7 +974,7 @@ IndexIsValid
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 DOMSVGNumberList
 >

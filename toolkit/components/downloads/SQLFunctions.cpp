@@ -402,7 +402,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 GenerateGUIDFunction
 >

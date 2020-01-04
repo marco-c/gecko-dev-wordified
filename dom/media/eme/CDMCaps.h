@@ -651,7 +651,7 @@ aListener
 CencKeyId
 mKeyId
 ;
-RefPtr
+nsRefPtr
 <
 SamplesWaitingForKey
 >

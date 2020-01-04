@@ -1522,7 +1522,7 @@ NS_ENSURE_STATE
 element
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1605,7 +1605,7 @@ rules
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1737,7 +1737,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 StyleRule
 >
@@ -2122,7 +2122,7 @@ aCount
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 StyleRule
 >
@@ -2208,7 +2208,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 StyleRule
 >
@@ -2336,7 +2336,7 @@ StealNSResult
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 StyleRule
 >
@@ -5947,7 +5947,7 @@ NS_ENSURE_ARG_POINTER
 aElement
 )
 ;
-RefPtr
+nsRefPtr
 <
 EventStateManager
 >
@@ -6193,7 +6193,7 @@ EnsureSafeToHandOutCSSRules
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -6787,7 +6787,7 @@ nsAString
 aInput
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

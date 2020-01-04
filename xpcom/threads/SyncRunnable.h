@@ -227,7 +227,7 @@ Typical
 usage
 :
 *
-RefPtr
+nsRefPtr
 <
 SyncRunnable
 >
@@ -437,7 +437,7 @@ aForceDispatch
 false
 )
 {
-RefPtr
+nsRefPtr
 <
 SyncRunnable
 >

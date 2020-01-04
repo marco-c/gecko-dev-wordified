@@ -801,7 +801,7 @@ MaxListIndex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >
@@ -1358,7 +1358,7 @@ here
 if
 necessary
 .
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1437,7 +1437,7 @@ error
 bool
 found
 ;
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1606,7 +1606,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1893,7 +1893,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2179,7 +2179,7 @@ it
 if
 necessary
 :
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2273,7 +2273,7 @@ SVGMatrix
 matrix
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2468,7 +2468,7 @@ append
 the
 new
 transform
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2618,7 +2618,7 @@ IsAnimValList
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -2812,7 +2812,7 @@ done
 with
 it
 .
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >

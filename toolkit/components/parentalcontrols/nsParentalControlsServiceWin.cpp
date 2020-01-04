@@ -310,7 +310,7 @@ hr
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 IWPCSettings
 >
@@ -693,7 +693,7 @@ mEnabled
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-RefPtr
+nsRefPtr
 <
 IWPCWebSettings
 >
@@ -780,7 +780,7 @@ general
 purpose
 logging
 flag
-RefPtr
+nsRefPtr
 <
 IWPCSettings
 >
@@ -1114,7 +1114,7 @@ GetDesktopWindow
 BOOL
 ret
 ;
-RefPtr
+nsRefPtr
 <
 IWPCWebSettings
 >
@@ -1515,7 +1515,7 @@ NS_ERROR_INVALID_ARG
 BOOL
 ret
 ;
-RefPtr
+nsRefPtr
 <
 IWPCWebSettings
 >

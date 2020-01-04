@@ -749,7 +749,7 @@ task
 is
 eDragTaskLeave
 .
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -805,7 +805,7 @@ completed
 or
 left
 .
-RefPtr
+nsRefPtr
 <
 nsWindow
 >

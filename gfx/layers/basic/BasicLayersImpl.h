@@ -312,7 +312,7 @@ OP_OVER
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

@@ -1799,7 +1799,7 @@ aOptions
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryQueryOptions
 >
@@ -7610,7 +7610,7 @@ _retval
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryQuery
 >
@@ -8264,7 +8264,7 @@ result
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryQueryOptions
 >

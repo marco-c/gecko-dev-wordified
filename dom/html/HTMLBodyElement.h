@@ -804,7 +804,7 @@ aGivenProto
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 BodyRule
 >

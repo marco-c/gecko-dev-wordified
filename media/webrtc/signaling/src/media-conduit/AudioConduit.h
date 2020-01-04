@@ -728,7 +728,7 @@ virtual
 MediaConduitErrorCode
 SetTransmitterTransport
 (
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -740,7 +740,7 @@ virtual
 MediaConduitErrorCode
 SetReceiverTransport
 (
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -1701,13 +1701,13 @@ mozilla
 ReentrantMonitor
 mTransportMonitor
 ;
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
 mTransmitterTransport
 ;
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >

@@ -1863,7 +1863,7 @@ this
 request
 *
 /
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1988,7 +1988,7 @@ this
 request
 *
 /
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1999,7 +1999,7 @@ ImageLoadType
 aImageLoadType
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -2340,13 +2340,13 @@ ON_NONVISIBLE_NO_ACTION
 MEMBERS
 *
 /
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
 mCurrentRequest
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

@@ -224,7 +224,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -655,7 +655,7 @@ events
 TimeDuration
 mOldTouchThreshold
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

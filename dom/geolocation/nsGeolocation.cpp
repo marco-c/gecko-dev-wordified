@@ -596,7 +596,7 @@ PositionOptions
 >
 mOptions
 ;
-RefPtr
+nsRefPtr
 <
 Geolocation
 >
@@ -814,7 +814,7 @@ value
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -899,7 +899,7 @@ true
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -939,7 +939,7 @@ bool
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGeolocationService
 >
@@ -1032,7 +1032,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -1111,7 +1111,7 @@ private
 bool
 mAllow
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -1172,13 +1172,13 @@ nsIDOMGeoPosition
 >
 mPosition
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 Geolocation
 >
@@ -2145,7 +2145,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGeolocationService
 >
@@ -2609,7 +2609,7 @@ speed
 0
 error
 .
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >
@@ -2700,7 +2700,7 @@ get
 the
 settings
 cache
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -3035,7 +3035,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Position
 >
@@ -3380,7 +3380,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PositionError
 >
@@ -3482,7 +3482,7 @@ mOptions
 mEnableHighAccuracy
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGeolocationService
 >
@@ -3801,7 +3801,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 GeolocationSettingsCallback
 >
@@ -5613,7 +5613,7 @@ GetGeolocationService
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGeolocationService
 >
@@ -6921,7 +6921,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >
@@ -7244,7 +7244,7 @@ mLastWatchId
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationRequest
 >

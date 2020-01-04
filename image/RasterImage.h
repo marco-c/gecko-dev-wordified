@@ -1837,10 +1837,7 @@ const
 ImageRegion
 &
 aRegion
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags
@@ -1864,7 +1861,7 @@ aFlags
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 gfx
 :

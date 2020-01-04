@@ -250,7 +250,7 @@ aRule
 NS_PRECONDITION
 (
 !
-RefPtr
+nsRefPtr
 <
 mozilla
 :

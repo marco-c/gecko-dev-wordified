@@ -3518,7 +3518,7 @@ ReadBPP
 )
 above
 ?
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -3751,7 +3751,7 @@ PrepareForMask
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -4358,7 +4358,7 @@ RowBuffer
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -4646,7 +4646,7 @@ the
 image
 data
 .
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -4788,7 +4788,7 @@ PostHasTransparency
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >

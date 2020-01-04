@@ -229,7 +229,7 @@ struct
 Attachment
 final
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >

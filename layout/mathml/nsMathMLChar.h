@@ -1383,7 +1383,7 @@ aDefaultFamily
 nsFont
 &
 aFont
-RefPtr
+nsRefPtr
 <
 gfxFontGroup
 >

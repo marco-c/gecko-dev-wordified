@@ -509,13 +509,13 @@ nsIMobileConnectionListener
 >
 mListeners
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionInfo
 >
 mVoice
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionInfo
 >

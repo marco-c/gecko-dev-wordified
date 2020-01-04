@@ -1065,7 +1065,7 @@ NS_OK
 Fetch
 the
 tags
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -8210,7 +8210,7 @@ get
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -8378,7 +8378,7 @@ work
 with
 it
 .
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -14420,7 +14420,7 @@ object
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryQuery
 >
@@ -14566,7 +14566,7 @@ object
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryQuery
 >
@@ -14793,7 +14793,7 @@ it
 to
 check
 .
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -15469,7 +15469,7 @@ to
 the
 result
 .
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -16676,7 +16676,7 @@ matching
 URI
 nodes
 .
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -21193,7 +21193,7 @@ INT32_MAX
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -22668,7 +22668,7 @@ history
 NS_OK
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -25243,7 +25243,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -26086,7 +26086,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNavHistoryFolderResultNode
 >
@@ -26108,7 +26108,7 @@ folder
 uint32_t
 nodeIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >

@@ -1463,7 +1463,7 @@ deadlock
 on
 mLock
 !
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >

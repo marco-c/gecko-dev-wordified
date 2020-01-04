@@ -2949,7 +2949,7 @@ nsIRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 nsExternalHelperAppService
 >

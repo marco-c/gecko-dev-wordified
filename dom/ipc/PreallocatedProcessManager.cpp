@@ -471,7 +471,7 @@ nsAutoTArray
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -556,7 +556,7 @@ mEnabled
 bool
 mShutdown
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -1333,7 +1333,7 @@ true
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -1578,7 +1578,7 @@ Length
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -1857,7 +1857,7 @@ Length
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentParent
 >

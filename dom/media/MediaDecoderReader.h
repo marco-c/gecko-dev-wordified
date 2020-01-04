@@ -382,7 +382,7 @@ CANCELED
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MetadataHolder
 >
@@ -400,7 +400,7 @@ MetadataPromise
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -418,7 +418,7 @@ AudioDataPromise
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -778,7 +778,7 @@ decode
 thread
 .
 virtual
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -1015,7 +1015,7 @@ and
 deadlock
 .
 virtual
-RefPtr
+nsRefPtr
 <
 AudioDataPromise
 >
@@ -1090,7 +1090,7 @@ aTimeThreshold
 microseconds
 .
 virtual
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -1166,7 +1166,7 @@ false
 ;
 }
 virtual
-RefPtr
+nsRefPtr
 <
 WaitForDataPromise
 >
@@ -1236,7 +1236,7 @@ async
 implementation
 .
 virtual
-RefPtr
+nsRefPtr
 <
 MetadataPromise
 >
@@ -1387,7 +1387,7 @@ removed
 somehow
 .
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -2151,7 +2151,7 @@ bool
 aThrottleUpdates
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -2286,7 +2286,7 @@ return
 mDecoder
 ;
 }
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -2338,7 +2338,7 @@ int64_t
 aStartTime
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -2827,7 +2827,7 @@ Decode
 task
 queue
 .
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
@@ -2850,7 +2850,7 @@ mWatchManager
 /
 MediaTimer
 .
-RefPtr
+nsRefPtr
 <
 MediaTimer
 >

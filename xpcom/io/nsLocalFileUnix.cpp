@@ -1313,7 +1313,7 @@ copy
 -
 construct
 ourselves
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >
@@ -9595,7 +9595,7 @@ nsISimpleEnumerator
 aEntries
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDirEnumeratorUnix
 >
@@ -10601,7 +10601,7 @@ nsIFile
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >
@@ -13527,7 +13527,7 @@ nsILocalFileMac
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >
@@ -13594,7 +13594,7 @@ nsILocalFileMac
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >

@@ -3566,7 +3566,7 @@ aIsSelectionEditable
 get
 current
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4717,7 +4717,7 @@ start
 a
 batch
 change
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5555,7 +5555,7 @@ mPlaceHolderName
 =
 aName
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5630,7 +5630,7 @@ mPlaceHolderBatch
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5750,7 +5750,7 @@ once
 in
 ScrollSelectionIntoView
 .
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -6180,7 +6180,7 @@ ForceCompositionEnd
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6226,7 +6226,7 @@ NS_ERROR_NOT_INITIALIZED
 get
 the
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6436,7 +6436,7 @@ NS_ERROR_NOT_INITIALIZED
 /
 get
 selection
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -6841,7 +6841,7 @@ do_GetAtom
 aAttribute
 )
 ;
-RefPtr
+nsRefPtr
 <
 ChangeAttributeTxn
 >
@@ -6992,7 +6992,7 @@ do_GetAtom
 aAttribute
 )
 ;
-RefPtr
+nsRefPtr
 <
 ChangeAttributeTxn
 >
@@ -7588,7 +7588,7 @@ Element
 >
 ret
 ;
-RefPtr
+nsRefPtr
 <
 CreateElementTxn
 >
@@ -7797,7 +7797,7 @@ aPosition
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 InsertNodeTxn
 >
@@ -7991,7 +7991,7 @@ aOffset
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SplitNodeTxn
 >
@@ -8314,7 +8314,7 @@ AsDOMNode
 nsresult
 result
 ;
-RefPtr
+nsRefPtr
 <
 JoinNodeTxn
 >
@@ -8484,7 +8484,7 @@ AsDOMNode
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -10291,7 +10291,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsEditor
 >
@@ -12122,7 +12122,7 @@ aDest
 Clear
 existing
 attributes
-RefPtr
+nsRefPtr
 <
 nsDOMAttributeMap
 >
@@ -12137,7 +12137,7 @@ Attributes
 ;
 while
 (
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -12211,7 +12211,7 @@ the
 source
 element
 has
-RefPtr
+nsRefPtr
 <
 nsDOMAttributeMap
 >
@@ -12250,7 +12250,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -13182,7 +13182,7 @@ create
 a
 text
 node
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -13398,7 +13398,7 @@ with
 the
 text
 )
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -13486,7 +13486,7 @@ bool
 aSuppressIME
 )
 {
-RefPtr
+nsRefPtr
 <
 EditTxn
 >
@@ -14464,7 +14464,7 @@ int32_t
 aOffset
 )
 {
-RefPtr
+nsRefPtr
 <
 InsertTextTxn
 >
@@ -14503,7 +14503,7 @@ uint32_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -14644,7 +14644,7 @@ uint32_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -14702,7 +14702,7 @@ uint32_t
 aOffset
 )
 {
-RefPtr
+nsRefPtr
 <
 SplitNodeTxn
 >
@@ -14742,7 +14742,7 @@ nsINode
 aRightNode
 )
 {
-RefPtr
+nsRefPtr
 <
 JoinNodeTxn
 >
@@ -14792,7 +14792,7 @@ methods
 struct
 SavedRange
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -14960,7 +14960,7 @@ RangeCount
 j
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -15397,7 +15397,7 @@ GetShouldTxnSetSelection
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -15629,7 +15629,7 @@ aOffset
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -15703,7 +15703,7 @@ at
 split
 point
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -15926,7 +15926,7 @@ RangeCount
 j
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -16436,7 +16436,7 @@ GetShouldTxnSetSelection
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -16677,7 +16677,7 @@ mEndOffset
 firstNodeLength
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -16751,7 +16751,7 @@ at
 join
 point
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -19214,7 +19214,7 @@ one
 it
 is
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -21476,7 +21476,7 @@ grab
 its
 style
 context
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -22759,7 +22759,7 @@ updates
 and
 notifications
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -22845,7 +22845,7 @@ notifications
 back
 on
 .
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -22911,7 +22911,7 @@ aStripWrappers
 eNoStrip
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -22926,7 +22926,7 @@ NS_ENSURE_STATE
 selection
 )
 ;
-RefPtr
+nsRefPtr
 <
 EditAggregateTxn
 >
@@ -23228,7 +23228,7 @@ res
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -23431,7 +23431,7 @@ DeleteSelectionAndPrepareToCreateNode
 nsresult
 res
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -24044,7 +24044,7 @@ nsAString
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 ChangeAttributeTxn
 >
@@ -24084,7 +24084,7 @@ nsIAtom
 aAttribute
 )
 {
-RefPtr
+nsRefPtr
 <
 ChangeAttributeTxn
 >
@@ -24125,7 +24125,7 @@ int32_t
 aPosition
 )
 {
-RefPtr
+nsRefPtr
 <
 CreateElementTxn
 >
@@ -24168,7 +24168,7 @@ int32_t
 aPosition
 )
 {
-RefPtr
+nsRefPtr
 <
 InsertNodeTxn
 >
@@ -24213,7 +24213,7 @@ aNode
 NS_ERROR_NULL_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -24304,7 +24304,7 @@ with
 TextComposition
 class
 .
-RefPtr
+nsRefPtr
 <
 IMETextTxn
 >
@@ -24351,7 +24351,7 @@ AddStyleSheetTxn
 aTxn
 )
 {
-RefPtr
+nsRefPtr
 <
 AddStyleSheetTxn
 >
@@ -24409,7 +24409,7 @@ RemoveStyleSheetTxn
 aTxn
 )
 {
-RefPtr
+nsRefPtr
 <
 RemoveStyleSheetTxn
 >
@@ -24486,7 +24486,7 @@ aTxn
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -24543,7 +24543,7 @@ out
 -
 param
 transaction
-RefPtr
+nsRefPtr
 <
 EditAggregateTxn
 >
@@ -24575,7 +24575,7 @@ RangeCount
 rangeIdx
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -24627,7 +24627,7 @@ Collapsed
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DeleteRangeTxn
 >
@@ -25215,7 +25215,7 @@ eDATA_NODE
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -25266,7 +25266,7 @@ NS_ENSURE_STATE
 length
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -25329,7 +25329,7 @@ parent
 to
 delete
 it
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -25466,7 +25466,7 @@ eDATA_NODE
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -25517,7 +25517,7 @@ NS_ENSURE_STATE
 length
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -25580,7 +25580,7 @@ parent
 to
 delete
 it
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -25638,7 +25638,7 @@ eDATA_NODE
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -25670,7 +25670,7 @@ at
 the
 proper
 offset
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -25891,7 +25891,7 @@ eDATA_NODE
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -25947,7 +25947,7 @@ Length
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -25998,7 +25998,7 @@ GetNumCharsToDelete
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -26102,7 +26102,7 @@ aNode
 NS_ERROR_NULL_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -26159,7 +26159,7 @@ aNode
 parentNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -26211,7 +26211,7 @@ ClearSelection
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -27009,7 +27009,7 @@ HasFlag
 NODE_IS_EDITABLE
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -27068,7 +27068,7 @@ rv
 Init
 the
 caret
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -27539,7 +27539,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -29700,7 +29700,7 @@ selectionType
 kIMESelectionTypes
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -29741,7 +29741,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -29950,7 +29950,7 @@ NS_ENSURE_TRUE_VOID
 presShell
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >

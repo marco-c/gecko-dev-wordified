@@ -234,7 +234,7 @@ TX_DECL_EVAL_CONTEXT
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

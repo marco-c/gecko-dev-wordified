@@ -2646,7 +2646,7 @@ Run
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 RefCountedTask
 >
@@ -2668,7 +2668,7 @@ mListener
 ChannelState
 mChannelState
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedMonitor
 >
@@ -2734,7 +2734,7 @@ one
 pending
 message
 .
-RefPtr
+nsRefPtr
 <
 RefCountedTask
 >
@@ -4715,7 +4715,7 @@ the
 same
 time
 .
-RefPtr
+nsRefPtr
 <
 RefCountedTask
 >

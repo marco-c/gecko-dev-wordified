@@ -398,7 +398,7 @@ nsAnnotationService
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

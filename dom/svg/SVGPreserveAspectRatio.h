@@ -688,7 +688,7 @@ it
 belongs
 to
 mSVGElement
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

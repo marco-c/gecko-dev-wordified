@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -697,7 +697,7 @@ uint32_t
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -772,10 +772,10 @@ Create
 aSize
 )
 aWhichFrame
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 Nothing
 (
 )
@@ -918,7 +918,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -1293,7 +1293,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

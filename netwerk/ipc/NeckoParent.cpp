@@ -1275,7 +1275,7 @@ PBrowserOrId
 TPBrowserParent
 :
 {
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -1930,7 +1930,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -2027,7 +2027,7 @@ uint32_t
 channelId
 )
 {
-RefPtr
+nsRefPtr
 <
 DataChannelParent
 >
@@ -2061,7 +2061,7 @@ PDataChannelParent
 actor
 )
 {
-RefPtr
+nsRefPtr
 <
 DataChannelParent
 >
@@ -2613,7 +2613,7 @@ unused
 /
 )
 {
-RefPtr
+nsRefPtr
 <
 UDPSocketParent
 >
@@ -4581,7 +4581,7 @@ erase
 aCallbackId
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAuthInformationHolder
 >

@@ -6924,7 +6924,7 @@ parsedCharset
 ;
 rv
 =
-NS_ParseRequestContentType
+NS_ParseContentType
 (
 mimeType
 contentType
@@ -6936,7 +6936,7 @@ if
 crossOrigin
 &
 &
-mimeType
+contentType
 .
 Length
 (

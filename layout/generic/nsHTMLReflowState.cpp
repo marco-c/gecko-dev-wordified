@@ -20043,7 +20043,7 @@ aBlockBSize
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

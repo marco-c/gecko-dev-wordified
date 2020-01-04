@@ -115,7 +115,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -231,7 +231,7 @@ imgIContainer
 aImage
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -455,7 +455,7 @@ gdk_pixbuf_get_pixels
 pixbuf
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

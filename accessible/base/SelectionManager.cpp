@@ -256,7 +256,7 @@ aReason
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1067,7 +1067,7 @@ mCaretOffset
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 AccCaretMoveEvent
 >
@@ -1208,7 +1208,7 @@ manager
 is
 destroyed
 .
-RefPtr
+nsRefPtr
 <
 SelData
 >
@@ -1442,7 +1442,7 @@ nsISelectionController
 SELECTION_NORMAL
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >

@@ -2089,7 +2089,7 @@ Length
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >
@@ -3844,7 +3844,7 @@ aUTF8String
 str
 )
 ;
-RefPtr
+nsRefPtr
 <
 AtomImpl
 >
@@ -3956,7 +3956,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AtomImpl
 >

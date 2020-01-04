@@ -290,7 +290,7 @@ Disconnect
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >

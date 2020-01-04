@@ -701,7 +701,7 @@ LPARAM
 lParam
 )
 {
-RefPtr
+nsRefPtr
 <
 TaskbarTabPreview
 >

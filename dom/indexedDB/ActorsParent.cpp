@@ -2633,7 +2633,7 @@ const
 nsString
 mName
 ;
-RefPtr
+nsRefPtr
 <
 MetadataType
 >
@@ -15895,7 +15895,7 @@ upgrade_key
 |
 function
 .
-RefPtr
+nsRefPtr
 <
 UpgradeKeyFunction
 >
@@ -15951,7 +15951,7 @@ insert_idv
 |
 function
 .
-RefPtr
+nsRefPtr
 <
 InsertIndexDataValuesFunction
 >
@@ -19269,7 +19269,7 @@ final
 public
 mozIStorageFunction
 {
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -19704,7 +19704,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 UpgradeFileIdsFunction
 >
@@ -20831,7 +20831,7 @@ Category
 STORAGE
 )
 ;
-RefPtr
+nsRefPtr
 <
 UpgradeIndexDataValuesFunction
 >
@@ -25438,7 +25438,7 @@ mozIStorageConnection
 >
 mStorageConnection
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -25451,7 +25451,7 @@ mozIStorageStatement
 >
 mCachedStatements
 ;
-RefPtr
+nsRefPtr
 <
 UpdateRefcountFunction
 >
@@ -26163,7 +26163,7 @@ friend
 class
 UpdateRefcountFunction
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -26789,7 +26789,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 ThreadRunnable
 >
@@ -26829,7 +26829,7 @@ nsAutoPtr
 DatabaseInfo
 >
 ;
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -26839,7 +26839,7 @@ const
 nsCString
 mDatabaseId
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseConnection
 >
@@ -27111,13 +27111,13 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
 mConnectionPool
 ;
-RefPtr
+nsRefPtr
 <
 FinishCallback
 >
@@ -28498,7 +28498,7 @@ TransactionDatabaseOperationBase
 public
 DatabaseOperationBase
 {
-RefPtr
+nsRefPtr
 <
 TransactionBase
 >
@@ -28902,7 +28902,7 @@ static
 uint64_t
 sFactoryInstanceCount
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseLoggingInfo
 >
@@ -29236,7 +29236,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -29301,25 +29301,25 @@ StartTransactionOp
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Factory
 >
 mFactory
 ;
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
 mMetadata
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
 mFileManager
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -29343,7 +29343,7 @@ MutableFile
 >
 mMutableFiles
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseConnection
 >
@@ -30258,13 +30258,13 @@ friend
 class
 Database
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
 mBlobImpl
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -30501,7 +30501,7 @@ Mode
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -30509,7 +30509,7 @@ mDatabase
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -31260,7 +31260,7 @@ friend
 class
 TransactionBase
 ;
-RefPtr
+nsRefPtr
 <
 TransactionBase
 >
@@ -31368,7 +31368,7 @@ Database
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -31399,7 +31399,7 @@ Mode
 aMode
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -31571,13 +31571,13 @@ friend
 class
 OpenDatabaseOp
 ;
-RefPtr
+nsRefPtr
 <
 OpenDatabaseOp
 >
 mOpenDatabaseOp
 ;
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -31843,13 +31843,13 @@ MutableFile
 public
 BackgroundMutableFileParentBase
 {
-RefPtr
+nsRefPtr
 <
 Database
 >
 mDatabase
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -32489,7 +32489,7 @@ the
 background
 thread
 !
-RefPtr
+nsRefPtr
 <
 Factory
 >
@@ -32505,7 +32505,7 @@ the
 main
 thread
 !
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -32521,13 +32521,13 @@ the
 main
 thread
 !
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
 mDirectoryLock
 ;
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -32937,7 +32937,7 @@ FactoryOp
 MaybeBlockedDatabaseInfo
 final
 {
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -33067,7 +33067,7 @@ VersionChangeOp
 OptionalContentId
 mOptionalContentParentId
 ;
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -33079,19 +33079,19 @@ mRequestedVersion
 nsString
 mDatabaseFilePath
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
 mFileManager
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
 mDatabase
 ;
-RefPtr
+nsRefPtr
 <
 VersionChangeTransaction
 >
@@ -33359,7 +33359,7 @@ friend
 class
 OpenDatabaseOp
 ;
-RefPtr
+nsRefPtr
 <
 OpenDatabaseOp
 >
@@ -33621,7 +33621,7 @@ friend
 class
 DeleteDatabaseOp
 ;
-RefPtr
+nsRefPtr
 <
 DeleteDatabaseOp
 >
@@ -33744,7 +33744,7 @@ PBackgroundIDBDatabaseRequestParent
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -33940,7 +33940,7 @@ const
 CreateFileParams
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -34134,7 +34134,7 @@ class
 VersionChangeTransaction
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -34259,7 +34259,7 @@ UniqueIndexTable
 >
 mMaybeUniqueIndexTable
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -34543,13 +34543,13 @@ final
 public
 mozIStorageFunction
 {
-RefPtr
+nsRefPtr
 <
 CreateIndexOp
 >
 mOp
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseConnection
 >
@@ -34928,7 +34928,7 @@ an
 autoIncrement
 objectStore
 .
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -34940,7 +34940,7 @@ StoredFileInfo
 >
 mStoredFileInfos
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -35059,13 +35059,13 @@ ObjectStoreAddOrPutRequestOp
 StoredFileInfo
 final
 {
-RefPtr
+nsRefPtr
 <
 DatabaseFile
 >
 mFileActor
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -35144,7 +35144,7 @@ const
 uint32_t
 mObjectStoreId
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -35538,7 +35538,7 @@ NormalTransactionOp
 protected
 :
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -35609,7 +35609,7 @@ friend
 class
 TransactionBase
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -35888,19 +35888,19 @@ Type
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 TransactionBase
 >
 mTransaction
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
 mDatabase
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -35954,13 +35954,13 @@ advance
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
 mObjectStoreMetadata
 ;
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -36200,7 +36200,7 @@ TransactionDatabaseOperationBase
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 Cursor
 >
@@ -36771,7 +36771,7 @@ nsAutoPtr
 DatabaseActorInfo
 >
 ;
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -36784,7 +36784,7 @@ Database
 >
 mLiveDatabases
 ;
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -37070,7 +37070,7 @@ final
 public
 BlobImplFile
 {
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -37625,13 +37625,13 @@ nsIEventTarget
 >
 mBackgroundThread
 ;
-RefPtr
+nsRefPtr
 <
 ShutdownWorkThreadsRunnable
 >
 mShutdownRunnable
 ;
-RefPtr
+nsRefPtr
 <
 nsThreadPool
 >
@@ -38784,7 +38784,7 @@ nsString
 >
 mDatabasePaths
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -38974,7 +38974,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 QuotaClient
 >
@@ -39067,7 +39067,7 @@ mOrigin
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -39191,7 +39191,7 @@ final
 public
 OpenDirectoryListener
 {
-RefPtr
+nsRefPtr
 <
 QuotaClient
 >
@@ -40098,7 +40098,7 @@ fallible
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -40200,7 +40200,7 @@ fallible
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -40530,7 +40530,7 @@ Globals
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -41372,7 +41372,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Factory
 >
@@ -41460,7 +41460,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Factory
 >
@@ -41501,7 +41501,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PermissionRequestHelper
 >
@@ -41637,7 +41637,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 PermissionRequestHelper
 >
@@ -41683,7 +41683,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 QuotaClient
 >
@@ -42410,7 +42410,7 @@ MOZ_ASSERT
 mFileManager
 )
 ;
-RefPtr
+nsRefPtr
 <
 UpdateRefcountFunction
 >
@@ -46471,7 +46471,7 @@ entry
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -48656,7 +48656,7 @@ MOZ_ASSERT
 dbInfo
 )
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseConnection
 >
@@ -49592,7 +49592,7 @@ Category
 STORAGE
 )
 ;
-RefPtr
+nsRefPtr
 <
 FinishCallbackWrapper
 >
@@ -50576,7 +50576,7 @@ MOZ_ASSERT
 mTotalThreadCount
 )
 ;
-RefPtr
+nsRefPtr
 <
 ThreadRunnable
 >
@@ -51057,7 +51057,7 @@ with
 the
 profiler
 .
-RefPtr
+nsRefPtr
 <
 ThreadRunnable
 >
@@ -53866,7 +53866,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -54110,7 +54110,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -54593,7 +54593,7 @@ MOZ_ASSERT
 mHasRunOnce
 )
 ;
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -54604,7 +54604,7 @@ Move
 mConnectionPool
 )
 ;
-RefPtr
+nsRefPtr
 <
 FinishCallback
 >
@@ -56075,7 +56075,7 @@ the
 copy
 constructor
 .
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -56158,7 +56158,7 @@ Data
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -56245,7 +56245,7 @@ Data
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -56864,7 +56864,7 @@ endif
 /
 DEBUG
 }
-RefPtr
+nsRefPtr
 <
 DatabaseLoggingInfo
 >
@@ -57020,7 +57020,7 @@ loggingInfo
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Factory
 >
@@ -57572,7 +57572,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -57588,7 +57588,7 @@ Manager
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -57768,7 +57768,7 @@ back
 from
 IPDL
 .
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -57842,7 +57842,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -58078,7 +58078,7 @@ State
 Initial
 )
 ;
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -58170,7 +58170,7 @@ State
 WaitingForTransactions
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleThreadPool
 >
@@ -58812,7 +58812,7 @@ true
 }
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 TransactionBase
 >
@@ -58917,7 +58917,7 @@ index
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 TransactionBase
 >
@@ -58991,7 +58991,7 @@ true
 }
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -59096,7 +59096,7 @@ index
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -59833,7 +59833,7 @@ Database
 ConnectionClosedCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 WaitForTransactionsHelper
 >
@@ -59895,7 +59895,7 @@ if
 mDirectoryLock
 )
 {
-RefPtr
+nsRefPtr
 <
 UnlockDirectoryRunnable
 >
@@ -60207,7 +60207,7 @@ MOZ_ASSERT
 aBlobParent
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -60232,19 +60232,19 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
 fileInfo
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseFile
 >
 actor
 ;
-RefPtr
+nsRefPtr
 <
 BlobImplStoredFile
 >
@@ -60379,7 +60379,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseFile
 >
@@ -60503,7 +60503,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DatabaseOp
 >
@@ -60670,7 +60670,7 @@ back
 from
 IPDL
 .
-RefPtr
+nsRefPtr
 <
 DatabaseOp
 >
@@ -60927,7 +60927,7 @@ nullptr
 }
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -61115,7 +61115,7 @@ break
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -61129,7 +61129,7 @@ SwapElements
 fallibleObjectStores
 )
 ;
-RefPtr
+nsRefPtr
 <
 NormalTransaction
 >
@@ -61307,7 +61307,7 @@ NormalTransaction
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 StartTransactionOp
 >
@@ -61422,7 +61422,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 NormalTransaction
 >
@@ -61505,7 +61505,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 VersionChangeTransaction
 >
@@ -61591,7 +61591,7 @@ back
 from
 IPDL
 .
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -62538,7 +62538,7 @@ mHasBeenActive
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 CommitOp
 >
@@ -62599,7 +62599,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -62698,7 +62698,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -62973,7 +62973,7 @@ get_ObjectStoreGetParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63051,7 +63051,7 @@ get_ObjectStoreGetAllParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63129,7 +63129,7 @@ get_ObjectStoreGetAllKeysParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63247,7 +63247,7 @@ get_ObjectStoreDeleteParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63365,7 +63365,7 @@ get_ObjectStoreClearParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63419,7 +63419,7 @@ get_ObjectStoreCountParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63497,7 +63497,7 @@ get_IndexGetParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63530,7 +63530,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -63609,7 +63609,7 @@ get_IndexGetKeyParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63642,7 +63642,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -63721,7 +63721,7 @@ get_IndexGetAllParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63754,7 +63754,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -63833,7 +63833,7 @@ get_IndexGetAllKeysParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63866,7 +63866,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -63945,7 +63945,7 @@ get_IndexCountParams
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -63978,7 +63978,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -64276,7 +64276,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -64530,7 +64530,7 @@ index
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -65166,7 +65166,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 NormalTransactionOp
 >
@@ -65579,7 +65579,7 @@ back
 from
 IPDL
 .
-RefPtr
+nsRefPtr
 <
 NormalTransactionOp
 >
@@ -65665,13 +65665,13 @@ type
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
 objectStoreMetadata
 ;
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -66112,7 +66112,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Cursor
 >
@@ -66250,7 +66250,7 @@ back
 from
 IPDL
 .
-RefPtr
+nsRefPtr
 <
 Cursor
 >
@@ -66448,7 +66448,7 @@ Mode
 aMode
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -67264,7 +67264,7 @@ mOldMetadata
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -67284,7 +67284,7 @@ MOZ_ASSERT
 origMetadata
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -67514,7 +67514,7 @@ const
 uint64_t
 &
 aKey
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -67590,7 +67590,7 @@ const
 uint64_t
 &
 aKey
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -67647,7 +67647,7 @@ mActorWasAlive
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -67870,7 +67870,7 @@ State
 SendingResults
 )
 ;
-RefPtr
+nsRefPtr
 <
 OpenDatabaseOp
 >
@@ -68127,7 +68127,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -68233,7 +68233,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -68310,7 +68310,7 @@ mNextObjectStoreId
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 CreateObjectStoreOp
 >
@@ -68583,7 +68583,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -68635,7 +68635,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -68686,7 +68686,7 @@ mDeleted
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 DeleteObjectStoreOp
 >
@@ -68803,7 +68803,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -68849,7 +68849,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -68877,7 +68877,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -68939,7 +68939,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -68991,7 +68991,7 @@ mNextIndexId
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 CreateIndexOp
 >
@@ -69286,7 +69286,7 @@ false
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullDatabaseMetadata
 >
@@ -69370,7 +69370,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -69398,7 +69398,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -69450,7 +69450,7 @@ mDeleted
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 DeleteIndexOp
 >
@@ -70226,7 +70226,7 @@ mIndexMetadata
 ifdef
 DEBUG
 {
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -70290,7 +70290,7 @@ TIndexOpenKeyCursorParams
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -70694,7 +70694,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 OpenOp
 >
@@ -71527,7 +71527,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContinueOp
 >
@@ -72273,7 +72273,7 @@ refcount
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -72741,7 +72741,7 @@ aId
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -72826,7 +72826,7 @@ mLastFileId
 id
 ;
 }
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -76599,7 +76599,7 @@ if
 mBackgroundThread
 )
 {
-RefPtr
+nsRefPtr
 <
 AbortOperationsRunnable
 >
@@ -76659,7 +76659,7 @@ if
 mBackgroundThread
 )
 {
-RefPtr
+nsRefPtr
 <
 AbortOperationsRunnable
 >
@@ -77038,7 +77038,7 @@ if
 mBackgroundThread
 )
 {
-RefPtr
+nsRefPtr
 <
 ShutdownWorkThreadsRunnable
 >
@@ -77800,7 +77800,7 @@ if
 mMaintenanceThreadPool
 )
 {
-RefPtr
+nsRefPtr
 <
 nsThreadPool
 >
@@ -79251,7 +79251,7 @@ key
 maintenanceInfo
 )
 ;
-RefPtr
+nsRefPtr
 <
 GetDirectoryLockListener
 >
@@ -82672,7 +82672,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ConnectionPool
 >
@@ -82701,7 +82701,7 @@ gConnectionPool
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FileHandleThreadPool
 >
@@ -83460,7 +83460,7 @@ or
 code
 duplication
 .
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -84694,7 +84694,7 @@ id
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileInfo
 >
@@ -85489,7 +85489,7 @@ PL_DHASH_NEXT
 }
 ;
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -88411,7 +88411,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -88584,7 +88584,7 @@ if
 aReadOnly
 )
 {
-RefPtr
+nsRefPtr
 <
 FileInputStream
 >
@@ -88621,7 +88621,7 @@ stream
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 FileStream
 >
@@ -88692,7 +88692,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -88792,7 +88792,7 @@ if
 gFileHandleThreadPool
 )
 {
-RefPtr
+nsRefPtr
 <
 FileHandleThreadPool
 >
@@ -89134,7 +89134,7 @@ on
 this
 thread
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -89632,7 +89632,7 @@ on
 this
 thread
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -89891,7 +89891,7 @@ index
 -
 )
 {
-RefPtr
+nsRefPtr
 <
 FactoryOp
 >
@@ -90217,7 +90217,7 @@ State
 :
 WaitingForTransactionsToComplete
 ;
-RefPtr
+nsRefPtr
 <
 WaitForTransactionsHelper
 >
@@ -90278,7 +90278,7 @@ on
 this
 thread
 .
-RefPtr
+nsRefPtr
 <
 Factory
 >
@@ -93663,7 +93663,7 @@ MOZ_ASSERT
 mgr
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -94318,7 +94318,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -94719,7 +94719,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -94970,7 +94970,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -96327,7 +96327,7 @@ mMetadata
 mMetadata
 )
 ;
-RefPtr
+nsRefPtr
 <
 VersionChangeTransaction
 >
@@ -96960,7 +96960,7 @@ ConnectionPool
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 VersionChangeOp
 >
@@ -97101,7 +97101,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 VersionChangeTransaction
 >
@@ -97271,7 +97271,7 @@ by
 the
 gLiveDatabaseHashtable
 .
-RefPtr
+nsRefPtr
 <
 OpenDatabaseOp
 >
@@ -97655,7 +97655,7 @@ OpenDatabaseOp
 ConnectionClosedCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 WaitForTransactionsHelper
 >
@@ -97706,7 +97706,7 @@ MOZ_ASSERT
 mDirectoryLock
 )
 ;
-RefPtr
+nsRefPtr
 <
 UnlockDirectoryRunnable
 >
@@ -100222,7 +100222,7 @@ on
 this
 thread
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -100897,7 +100897,7 @@ State
 :
 DatabaseWorkVersionChange
 ;
-RefPtr
+nsRefPtr
 <
 VersionChangeOp
 >
@@ -101219,7 +101219,7 @@ if
 mDirectoryLock
 )
 {
-RefPtr
+nsRefPtr
 <
 UnlockDirectoryRunnable
 >
@@ -102507,7 +102507,7 @@ State
 DatabaseWorkVersionChange
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteDatabaseOp
 >
@@ -102764,7 +102764,7 @@ index
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -104062,7 +104062,7 @@ VERSION_CHANGE
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -104166,7 +104166,7 @@ index
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -104440,7 +104440,7 @@ VERSION_CHANGE
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -104494,7 +104494,7 @@ index
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -105900,7 +105900,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -106431,7 +106431,7 @@ mResultCode
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MutableFile
 >
@@ -108561,7 +108561,7 @@ Global
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 UpdateIndexDataValuesFunction
 >
@@ -114709,7 +114709,7 @@ indexUpdateInfos
 index
 ]
 ;
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >
@@ -114926,7 +114926,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -116767,7 +116767,7 @@ copy
 the
 stream
 .
-RefPtr
+nsRefPtr
 <
 FileOutputStream
 >
@@ -117405,7 +117405,7 @@ mStoredFileInfos
 index
 ]
 ;
-RefPtr
+nsRefPtr
 <
 DatabaseFile
 >
@@ -118796,7 +118796,7 @@ MOZ_ASSERT
 aTransaction
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -119211,7 +119211,7 @@ MOZ_ASSERT
 aTransaction
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -120183,7 +120183,7 @@ here
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 FullObjectStoreMetadata
 >
@@ -120202,7 +120202,7 @@ MOZ_ASSERT
 objectStoreMetadata
 )
 ;
-RefPtr
+nsRefPtr
 <
 FullIndexMetadata
 >

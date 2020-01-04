@@ -325,7 +325,7 @@ uint32_t
 aIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 SpeechRecognitionResult
 >

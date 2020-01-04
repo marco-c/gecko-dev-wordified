@@ -1045,7 +1045,7 @@ know
 the
 load
 finished
-RefPtr
+nsRefPtr
 <
 Loader
 >
@@ -1130,7 +1130,7 @@ re
 loading
 data
 for
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -1179,7 +1179,7 @@ ed
 during
 the
 parse
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -2778,7 +2778,7 @@ while
 doing
 that
 !
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -3031,7 +3031,7 @@ FindReusableStyleSheet
 nsIURI
 *
 aURL
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -6355,7 +6355,7 @@ RemoveEntriesWithURI
 URIPrincipalReferrerPolicyAndCORSModeHashKey
 *
 aKey
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -6984,7 +6984,7 @@ aSheetState
 =
 eSheetComplete
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -7912,7 +7912,7 @@ sriMetadata
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -8078,7 +8078,7 @@ sheet
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -10980,7 +10980,7 @@ withCredentials
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCORSListenerProxy
 >
@@ -11659,7 +11659,7 @@ rare
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -13086,7 +13086,7 @@ ReferrerPolicy
 StyleSheetState
 state
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -13616,7 +13616,7 @@ check
 StyleSheetState
 state
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -14599,7 +14599,7 @@ loop
 do
 so
 .
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -15270,7 +15270,7 @@ state
 bool
 isAlternate
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -15535,7 +15535,7 @@ element
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -16790,7 +16790,7 @@ report
 it
 .
 const
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

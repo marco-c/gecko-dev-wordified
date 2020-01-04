@@ -785,7 +785,7 @@ mLexer
 The
 lexer
 .
-RefPtr
+nsRefPtr
 <
 Decoder
 >

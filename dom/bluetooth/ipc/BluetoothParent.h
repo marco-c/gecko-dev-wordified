@@ -420,7 +420,7 @@ SentNotificationsStopped
 Dead
 }
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothService
 >
@@ -734,7 +734,7 @@ friend
 class
 ReplyRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothService
 >

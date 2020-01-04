@@ -749,13 +749,13 @@ mLoopback
 SocketReadyState
 mReadyState
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
 mOpened
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -773,7 +773,7 @@ nsIUDPSocketChild
 >
 mSocketChild
 ;
-RefPtr
+nsRefPtr
 <
 ListenerProxy
 >

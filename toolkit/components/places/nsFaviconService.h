@@ -734,7 +734,7 @@ nsFaviconService
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

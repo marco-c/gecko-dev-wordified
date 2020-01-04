@@ -338,7 +338,7 @@ received
 )
 private
 :
-RefPtr
+nsRefPtr
 <
 Listener
 >

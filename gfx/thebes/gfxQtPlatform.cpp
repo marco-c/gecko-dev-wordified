@@ -543,7 +543,7 @@ gfxImageFormat
 aFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

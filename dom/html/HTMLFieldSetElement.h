@@ -709,7 +709,7 @@ form
 controls
 elements
 .
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

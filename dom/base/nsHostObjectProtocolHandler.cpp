@@ -1333,7 +1333,7 @@ aInfo
 mObject
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2772,7 +2772,7 @@ GetDataInfo
 aSpec
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHostObjectURI
 >
@@ -3436,7 +3436,7 @@ nsIInputStream
 aStream
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -3595,7 +3595,7 @@ nsIURI
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIURI
 >

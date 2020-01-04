@@ -1307,7 +1307,7 @@ final
 public
 DirectoryLock
 {
-RefPtr
+nsRefPtr
 <
 QuotaManager
 >
@@ -1345,7 +1345,7 @@ Type
 >
 mClientType
 ;
-RefPtr
+nsRefPtr
 <
 OpenDirectoryListener
 >
@@ -2289,7 +2289,7 @@ IsEmpty
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -2369,7 +2369,7 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -2410,7 +2410,7 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -2446,7 +2446,7 @@ aPersistenceType
 PERSISTENCE_TYPE_PERSISTENT
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -2479,7 +2479,7 @@ mTemporaryStorageGroupInfo
 mDefaultStorageGroupInfo
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -2490,13 +2490,13 @@ PersistenceType
 aPersistenceType
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
 mTemporaryStorageGroupInfo
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -2535,7 +2535,7 @@ mMutex
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -2595,7 +2595,7 @@ BlockAndReturnOriginsForEviction
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -2839,7 +2839,7 @@ OriginOperationBase
 public
 OpenDirectoryListener
 {
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -3346,7 +3346,7 @@ OriginOperationBase
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -3360,7 +3360,7 @@ FinalizeOriginEvictionOp
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -5782,7 +5782,7 @@ bool
 aPersistent
 )
 {
-RefPtr
+nsRefPtr
 <
 StorageDirectoryHelper
 >
@@ -8267,7 +8267,7 @@ mSize
 aSize
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -8482,7 +8482,7 @@ waitting
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -8536,7 +8536,7 @@ mQuotaMutex
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -9428,7 +9428,7 @@ if
 gInstance
 )
 {
-RefPtr
+nsRefPtr
 <
 QuotaManager
 >
@@ -9810,7 +9810,7 @@ aInternal
 aOpenListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -10004,7 +10004,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -10565,7 +10565,7 @@ uint64_t
 aMinSizeToBeFreed
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -10709,7 +10709,7 @@ Closure
 aUserArg
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -10789,7 +10789,7 @@ GetInactiveOriginInfos
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -11361,7 +11361,7 @@ originInfo
 inactiveOrigins
 )
 {
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -11950,7 +11950,7 @@ the
 GroupInfoPair
 .
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -11990,7 +11990,7 @@ groupInfo
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -12077,7 +12077,7 @@ pair
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -12100,7 +12100,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -12193,7 +12193,7 @@ pair
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -12216,7 +12216,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -12256,7 +12256,7 @@ autoUnlock
 mQuotaMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 SaveOriginAccessTimeOp
 >
@@ -12328,7 +12328,7 @@ pointer
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -12589,7 +12589,7 @@ esc_Query
 tempStorage2
 )
 ;
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >
@@ -12623,7 +12623,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -12647,7 +12647,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -12937,7 +12937,7 @@ NS_IsMainThread
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 Client
 >
@@ -14700,7 +14700,7 @@ in
 persistent
 storage
 .
-RefPtr
+nsRefPtr
 <
 StorageDirectoryHelper
 >
@@ -15089,7 +15089,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -15169,7 +15169,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -17623,7 +17623,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 GetUsageOp
 >
@@ -17699,7 +17699,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ResetOrClearOp
 >
@@ -17879,7 +17879,7 @@ origin
 pattern
 )
 ;
-RefPtr
+nsRefPtr
 <
 OriginClearOp
 >
@@ -17951,7 +17951,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ResetOrClearOp
 >
@@ -18321,7 +18321,7 @@ thread
 }
 for
 (
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -18402,7 +18402,7 @@ operations
 .
 for
 (
-RefPtr
+nsRefPtr
 <
 Client
 >
@@ -18567,7 +18567,7 @@ uint64_t
 aMinSizeToBeFreed
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -18582,7 +18582,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CollectOriginsHelper
 >
@@ -18739,7 +18739,7 @@ pair
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -18872,7 +18872,7 @@ aBrowserOnly
 pattern
 )
 ;
-RefPtr
+nsRefPtr
 <
 OriginClearOp
 >
@@ -18958,7 +18958,7 @@ groupUsage
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -18986,7 +18986,7 @@ temporaryGroupInfo
 mUsage
 ;
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -19261,7 +19261,7 @@ OriginInfo
 aUserArg
 )
 ;
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -19828,7 +19828,7 @@ FinalizeOriginEviction
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -19850,7 +19850,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 FinalizeOriginEvictionOp
 >
@@ -20393,7 +20393,7 @@ AssertCurrentThreadOwnsQuotaMutex
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -20414,7 +20414,7 @@ mOrigin
 aOrigin
 )
 {
-RefPtr
+nsRefPtr
 <
 OriginInfo
 >
@@ -20772,7 +20772,7 @@ index
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 GroupInfo
 >
@@ -20894,7 +20894,7 @@ BlockAndReturnOriginsForEviction
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -21019,7 +21019,7 @@ held
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -23573,7 +23573,7 @@ OTHER
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >

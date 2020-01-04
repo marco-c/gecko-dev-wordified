@@ -227,7 +227,7 @@ mVideoSeekTimeUs
 int64_t
 mAudioSeekTimeUs
 ;
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -344,7 +344,7 @@ aTags
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -358,7 +358,7 @@ aEndTime
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -449,7 +449,7 @@ ImageContainer
 *
 mImageContainer
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >

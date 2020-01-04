@@ -647,7 +647,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 HeapSnapshot
 >
@@ -8541,7 +8541,7 @@ Failed
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 HeapSnapshot
 >

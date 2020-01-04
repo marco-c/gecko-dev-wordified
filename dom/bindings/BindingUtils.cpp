@@ -5779,7 +5779,7 @@ GetID
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -16356,7 +16356,7 @@ cx
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -16953,7 +16953,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXPCWrappedJS
 >

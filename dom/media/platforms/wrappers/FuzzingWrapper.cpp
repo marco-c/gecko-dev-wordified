@@ -389,7 +389,7 @@ DFW_LOGV
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -971,7 +971,7 @@ push_back
 (
 MakePair
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -1048,7 +1048,7 @@ push_back
 (
 MakePair
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -1612,7 +1612,7 @@ IsCurrentThreadIn
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DecoderCallbackFuzzingWrapper
 >

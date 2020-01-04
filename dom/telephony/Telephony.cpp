@@ -454,7 +454,7 @@ global
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -690,7 +690,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Telephony
 >
@@ -942,7 +942,7 @@ aGetIfActiveCall
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1089,7 +1089,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1304,7 +1304,7 @@ uint16_t
 aNamePresentation
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCallId
 >
@@ -1387,7 +1387,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1522,7 +1522,7 @@ uint32_t
 aCallIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1548,7 +1548,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1615,7 +1615,7 @@ uint32_t
 aCallIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1748,7 +1748,7 @@ GetIsMergeable
 isMergeable
 )
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -1766,7 +1766,7 @@ if
 call
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCallId
 >
@@ -1864,7 +1864,7 @@ GetNumber
 number
 )
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCallId
 >
@@ -2029,7 +2029,7 @@ fireEvent
 Group
 changed
 .
-RefPtr
+nsRefPtr
 <
 TelephonyCallGroup
 >
@@ -2283,7 +2283,7 @@ GetServiceId
 aServiceId
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2338,7 +2338,7 @@ GetServiceId
 aServiceId
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2426,7 +2426,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3389,7 +3389,7 @@ Calls
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 CallsList
 >
@@ -3417,7 +3417,7 @@ ConferenceGroup
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCallGroup
 >
@@ -3465,7 +3465,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -3572,7 +3572,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4018,7 +4018,7 @@ Length
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -4167,7 +4167,7 @@ uint16_t
 aNotification
 )
 {
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -4303,7 +4303,7 @@ Length
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCall
 >
@@ -4330,7 +4330,7 @@ ServiceId
 aServiceId
 )
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCallId
 >
@@ -4467,7 +4467,7 @@ mCall
 =
 aCall
 ;
-RefPtr
+nsRefPtr
 <
 CallEvent
 >

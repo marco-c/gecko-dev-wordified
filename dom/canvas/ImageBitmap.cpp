@@ -743,7 +743,7 @@ a
 new
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1118,7 +1118,7 @@ mSourceSurface
 =
 aSurface
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1238,7 +1238,7 @@ into
 a
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1343,7 +1343,7 @@ a
 new
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1443,7 +1443,7 @@ into
 a
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1482,7 +1482,7 @@ Convert
 RGBA
 to
 BGRA
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1495,7 +1495,7 @@ GetDataSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1643,7 +1643,7 @@ the
 BGRA
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1883,7 +1883,7 @@ MainThreadRun
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2212,7 +2212,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2545,7 +2545,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2634,7 +2634,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2766,7 +2766,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2928,7 +2928,7 @@ SurfaceType
 D2D1_1_IMAGE
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2954,7 +2954,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -3085,7 +3085,7 @@ OptimizeSourceSurface
 mSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -3234,7 +3234,7 @@ security
 /
 checking
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3268,7 +3268,7 @@ nullptr
 Create
 ImageBitmap
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -3299,7 +3299,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -3565,7 +3565,7 @@ GetImage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -3684,7 +3684,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3722,7 +3722,7 @@ surface
 if
 needed
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3858,7 +3858,7 @@ DataSourceSurface
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3924,7 +3924,7 @@ from
 the
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -3955,7 +3955,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -4206,7 +4206,7 @@ layers
 :
 :
 Image
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4242,7 +4242,7 @@ aRv
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 CreateImageFromRawDataInMainThreadSyncTask
 >
@@ -4306,7 +4306,7 @@ Create
 an
 ImageBimtap
 .
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -4408,7 +4408,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4480,7 +4480,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4511,7 +4511,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -4616,7 +4616,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4629,7 +4629,7 @@ aImageBitmap
 .
 mData
 ;
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -4729,13 +4729,13 @@ mImageBitmap
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Promise
 >
 mPromise
 ;
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -4892,7 +4892,7 @@ thread
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 FulfillImageBitmapPromiseWorkerTask
 >
@@ -5157,7 +5157,7 @@ imgIContainer
 :
 FRAME_FIRST
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5233,7 +5233,7 @@ into
 a
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5270,7 +5270,7 @@ surface
 if
 needed
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5424,7 +5424,7 @@ moment
 again
 there
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -5489,7 +5489,7 @@ the
 source
 surface
 .
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -5571,7 +5571,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -5729,7 +5729,7 @@ aRv
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5741,7 +5741,7 @@ nsIGlobalObject
 >
 mGlobalObject
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5833,7 +5833,7 @@ aRv
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -5872,7 +5872,7 @@ Create
 ImageBitmap
 object
 .
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -5975,7 +5975,7 @@ MainThreadRun
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -6133,7 +6133,7 @@ aRv
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -6142,7 +6142,7 @@ Image
 >
 data
 ;
-RefPtr
+nsRefPtr
 <
 DecodeBlobInMainThreadSyncTask
 >
@@ -6213,7 +6213,7 @@ Create
 ImageBitmap
 object
 .
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -6297,7 +6297,7 @@ thread
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 CreateImageBitmapFromBlobWorkerTask
 >
@@ -6380,7 +6380,7 @@ MOZ_ASSERT
 aGlobal
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -6459,7 +6459,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -6775,7 +6775,7 @@ aParent
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -6920,7 +6920,7 @@ Length
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -7005,7 +7005,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 ImageBitmap
 >
@@ -7105,7 +7105,7 @@ JSStructuredCloneWriter
 aWriter
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 layers
 :

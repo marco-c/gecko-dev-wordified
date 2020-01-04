@@ -365,7 +365,7 @@ void
 void
 set_a_Foo
 (
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -373,7 +373,7 @@ Foo
 result
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1053,7 +1053,7 @@ NS_OK
 void
 set_a_Foo
 (
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1079,7 +1079,7 @@ assert
 result
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1111,7 +1111,7 @@ n
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1132,7 +1132,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1729,7 +1729,7 @@ TestBloat_Smart
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Bar
 >
@@ -1746,7 +1746,7 @@ barP
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -1986,7 +1986,7 @@ function
 is
 invoked
 by
-RefPtr
+nsRefPtr
 <
 const
 T
@@ -2006,7 +2006,7 @@ n
 #
 undef
 NS_INLINE_DECL_THREADSAFE_MUTABLE_REFCOUNTING
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2035,7 +2035,7 @@ printf
 "
 sizeof
 (
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2052,7 +2052,7 @@ unsigned
 (
 sizeof
 (
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2101,7 +2101,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2388,7 +2388,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2433,7 +2433,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2516,7 +2516,7 @@ AVoidPtrPtrContext
 foo1p
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -2949,7 +2949,7 @@ n
 ;
 if
 (
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3229,7 +3229,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3243,7 +3243,7 @@ raw_foo1p
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3286,7 +3286,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3318,7 +3318,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3344,7 +3344,7 @@ n
 ;
 CreateFoo
 (
-RefPtrGetterAddRefs
+nsRefPtrGetterAddRefs
 <
 Foo
 >
@@ -3386,7 +3386,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3456,7 +3456,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3546,7 +3546,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3619,7 +3619,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3633,7 +3633,7 @@ new
 Foo
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3708,7 +3708,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Bar
 >
@@ -3752,7 +3752,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3816,7 +3816,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3858,7 +3858,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3887,7 +3887,7 @@ n
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3928,7 +3928,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -3952,7 +3952,7 @@ you
 construct
 an
 |
-RefPtr
+nsRefPtr
 <
 const
 T
@@ -3961,7 +3961,7 @@ T
 from
 an
 |
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -3972,7 +3972,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 const
 Foo
@@ -4001,7 +4001,7 @@ method
 on
 an
 |
-RefPtr
+nsRefPtr
 <
 const
 T
@@ -4044,7 +4044,7 @@ method
 on
 an
 |
-RefPtr
+nsRefPtr
 <
 const
 T
@@ -4078,14 +4078,14 @@ to
 construct
 an
 |
-RefPtr
+nsRefPtr
 <
 T
 >
 from
 an
 |
-RefPtr
+nsRefPtr
 <
 const
 T
@@ -4094,7 +4094,7 @@ T
 ?
 /
 /
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -4161,7 +4161,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -4170,7 +4170,7 @@ foop
 new
 Foo
 ;
-RefPtr
+nsRefPtr
 <
 Foo
 >
@@ -4179,7 +4179,7 @@ foop2
 new
 Bar
 ;
-RefPtr
+nsRefPtr
 <
 const
 ObjectForConstPtr
@@ -4417,7 +4417,7 @@ const
 member
 function
 via
-RefPtr
+nsRefPtr
 <
 const
 T

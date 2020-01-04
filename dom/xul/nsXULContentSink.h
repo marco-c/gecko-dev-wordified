@@ -537,7 +537,7 @@ int32_t
 aLength
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNodeInfoManager
 >
@@ -602,7 +602,7 @@ protected
 struct
 Entry
 {
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -690,7 +690,7 @@ aState
 nsresult
 GetTopNode
 (
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -748,7 +748,7 @@ mDocumentURL
 [
 OWNER
 ]
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >
@@ -759,7 +759,7 @@ mPrototype
 [
 OWNER
 ]
-RefPtr
+nsRefPtr
 <
 nsParserBase
 >

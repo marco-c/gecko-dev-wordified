@@ -226,7 +226,7 @@ InputQueue
 ReceiveInputEvent
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -446,7 +446,7 @@ IsReadyForHandling
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -541,7 +541,7 @@ InputQueue
 ReceiveTouchInput
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -1127,7 +1127,7 @@ from
 the
 block
 .
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -1295,7 +1295,7 @@ InputQueue
 ReceiveScrollWheelInput
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -1646,7 +1646,7 @@ y
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -1687,7 +1687,7 @@ InputQueue
 ReceivePanGestureInput
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -2283,7 +2283,7 @@ InputQueue
 MaybeRequestContentResponse
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -2704,7 +2704,7 @@ InputQueue
 StartNewTouchBlock
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -3086,7 +3086,7 @@ InputQueue
 ScheduleMainThreadTimeout
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -3435,7 +3435,7 @@ SetConfirmedTargetApzc
 uint64_t
 aInputBlockId
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -3783,7 +3783,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -4069,7 +4069,7 @@ InputQueue
 UpdateActiveApzc
 (
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >

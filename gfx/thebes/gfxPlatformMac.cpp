@@ -724,7 +724,7 @@ gfxImageFormat
 aFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -3161,7 +3161,7 @@ thread
 CVDisplayLinkRef
 mDisplayLink
 ;
-RefPtr
+nsRefPtr
 <
 nsITimer
 >
@@ -3426,7 +3426,7 @@ CreateHardwareVsyncSource
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 VsyncSource
 >

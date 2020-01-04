@@ -847,7 +847,7 @@ net
 NeckoParent
 NeckoParent
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >

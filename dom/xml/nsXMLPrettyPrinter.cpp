@@ -956,7 +956,7 @@ Load
 the
 bindings
 .
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -1005,7 +1005,7 @@ it
 resultFragment
 |
 .
-RefPtr
+nsRefPtr
 <
 CustomEvent
 >

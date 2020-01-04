@@ -1277,7 +1277,7 @@ during
 initialization
 )
 .
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -1311,7 +1311,7 @@ of
 this
 iteration
 .
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -1728,7 +1728,7 @@ AudioContextOperation
 aOperation
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -3323,7 +3323,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 AudioCallbackDriver
 >
@@ -3332,7 +3332,7 @@ mDriver
 AsyncCubebOperation
 mOperation
 ;
-RefPtr
+nsRefPtr
 <
 MediaStreamGraphImpl
 >

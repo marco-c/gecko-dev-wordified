@@ -894,7 +894,7 @@ nr_socket_
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DummySocket
 >
@@ -1023,7 +1023,7 @@ nr_socket_
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 DummySocket
 >

@@ -424,7 +424,7 @@ sSingleton
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PowerManagerService
 >
@@ -1258,7 +1258,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 WakeLock
 >
@@ -1326,7 +1326,7 @@ mozilla
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 WakeLock
 >
@@ -1397,7 +1397,7 @@ ContentParent
 aContentParent
 )
 {
-RefPtr
+nsRefPtr
 <
 WakeLock
 >

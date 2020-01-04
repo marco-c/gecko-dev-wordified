@@ -686,7 +686,7 @@ nsRunnable
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 nsAppStartup
 >

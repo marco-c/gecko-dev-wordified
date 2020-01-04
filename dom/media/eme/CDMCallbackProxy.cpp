@@ -273,7 +273,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -383,7 +383,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -548,7 +548,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -688,7 +688,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -824,7 +824,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -1012,7 +1012,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >

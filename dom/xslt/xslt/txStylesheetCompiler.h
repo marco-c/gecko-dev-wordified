@@ -240,7 +240,7 @@ mForwardsCompatibleParsing
 nsString
 mBaseURI
 ;
-RefPtr
+nsRefPtr
 <
 txNamespaceMap
 >
@@ -763,7 +763,7 @@ shutdown
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 txStylesheet
 >
@@ -800,7 +800,7 @@ mDisAllowed
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 txACompileObserver
 >

@@ -238,7 +238,7 @@ buffer
 queue
 *
 /
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

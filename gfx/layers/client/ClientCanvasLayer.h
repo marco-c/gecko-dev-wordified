@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -511,7 +511,7 @@ GetCanvasClientType
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasClient
 >

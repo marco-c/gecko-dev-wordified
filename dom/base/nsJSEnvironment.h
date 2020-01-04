@@ -1108,7 +1108,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 xpc
 :

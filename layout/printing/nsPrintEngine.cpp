@@ -1357,7 +1357,7 @@ nullptr
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsPrintEngine
 >
@@ -3368,7 +3368,7 @@ nsIDOMDocument
 aDoc
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPrintEngine
 >
@@ -12361,7 +12361,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -15369,7 +15369,7 @@ the
 new
 Print
 PresShell
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -17248,7 +17248,7 @@ n
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -18662,7 +18662,7 @@ NS_ENSURE_TRUE_VOID
 newStartNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -18758,7 +18758,7 @@ origShell
 shell
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -18775,7 +18775,7 @@ nsISelectionController
 SELECTION_NORMAL
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -19454,7 +19454,7 @@ fail
 for
 large
 dimensions
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -19516,7 +19516,7 @@ startRect
 nsRect
 endRect
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -20504,7 +20504,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -28281,7 +28281,7 @@ GetPrintPageDelay
 printPageDelay
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPagePrintTimer
 >
@@ -30421,7 +30421,7 @@ n
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

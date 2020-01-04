@@ -660,7 +660,7 @@ Handle
 aHandle
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >
@@ -753,7 +753,7 @@ Handle
 aHandle
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >
@@ -2183,7 +2183,7 @@ SystemPageSize
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >
@@ -2536,7 +2536,7 @@ type
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >
@@ -2994,7 +2994,7 @@ unused
 /
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >
@@ -3197,7 +3197,7 @@ type
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 SharedMemory
 >

@@ -3422,7 +3422,7 @@ mBeginProcessing
 StreamTime
 mStop
 ;
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -4077,7 +4077,7 @@ if
 mBuffer
 )
 {
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -4621,7 +4621,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioBufferSourceNode
 >

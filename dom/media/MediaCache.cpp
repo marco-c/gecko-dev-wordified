@@ -2681,7 +2681,7 @@ writing
 cache
 blocks
 .
-RefPtr
+nsRefPtr
 <
 FileBlockCache
 >

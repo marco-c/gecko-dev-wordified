@@ -424,7 +424,7 @@ GetShouldTxnSetSelection
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >

@@ -242,7 +242,7 @@ PerformanceEntryFilterOptions
 aFilter
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -260,7 +260,7 @@ Clear
 for
 (
 const
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -423,7 +423,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -441,7 +441,7 @@ Clear
 for
 (
 const
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -495,7 +495,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -513,7 +513,7 @@ Clear
 for
 (
 const
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >

@@ -278,7 +278,7 @@ BlobImpls
 .
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -394,7 +394,7 @@ BlobImpls
 .
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -614,7 +614,7 @@ written
 by
 CloseAll
 .
-RefPtr
+nsRefPtr
 <
 MessagePortService
 >

@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -531,7 +531,7 @@ SSL
 Status
 *
 /
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >

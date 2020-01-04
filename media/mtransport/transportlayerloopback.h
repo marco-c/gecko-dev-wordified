@@ -642,7 +642,7 @@ PRLock
 *
 packets_lock_
 ;
-RefPtr
+nsRefPtr
 <
 Deliverer
 >

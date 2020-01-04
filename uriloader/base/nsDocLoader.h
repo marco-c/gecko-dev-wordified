@@ -848,7 +848,7 @@ to
 typedef
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDocLoader
 >

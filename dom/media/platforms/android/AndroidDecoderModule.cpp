@@ -401,7 +401,7 @@ aConfig
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -780,7 +780,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1143,7 +1143,7 @@ presentationTimeUs
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -1241,13 +1241,13 @@ VideoInfo
 &
 mConfig
 ;
-RefPtr
+nsRefPtr
 <
 AndroidSurfaceTexture
 >
 mSurfaceTexture
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -1599,7 +1599,7 @@ presentationTimeUs
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -1809,7 +1809,7 @@ format
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -1901,7 +1901,7 @@ format
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -2043,7 +2043,7 @@ Shutdown
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -2481,7 +2481,7 @@ GetEnvForThread
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

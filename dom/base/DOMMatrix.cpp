@@ -273,7 +273,7 @@ aTz
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -323,7 +323,7 @@ aOriginY
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -375,7 +375,7 @@ aOriginZ
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -432,7 +432,7 @@ aOriginZ
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -485,7 +485,7 @@ aOriginY
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -533,7 +533,7 @@ y
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -584,7 +584,7 @@ aAngle
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -631,7 +631,7 @@ aSx
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -675,7 +675,7 @@ aSy
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -721,7 +721,7 @@ other
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -763,7 +763,7 @@ FlipX
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -870,7 +870,7 @@ FlipY
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -977,7 +977,7 @@ Inverse
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -1068,7 +1068,7 @@ point
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DOMPoint
 >
@@ -2068,7 +2068,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -2114,7 +2114,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -2171,7 +2171,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -2512,7 +2512,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -2580,7 +2580,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >
@@ -2651,7 +2651,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMMatrix
 >

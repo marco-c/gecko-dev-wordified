@@ -430,7 +430,7 @@ LOADED
 3U
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -1281,7 +1281,7 @@ nsIObserverService
 >
 mObserverService
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineManifestItem
 >
@@ -1299,7 +1299,7 @@ mItemsInProgress
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdateItem
 >
@@ -1392,7 +1392,7 @@ increaded
 uint32_t
 mPinnedEntryRetriesCount
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -1591,7 +1591,7 @@ ProcessNextUpdate
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >

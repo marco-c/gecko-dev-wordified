@@ -379,7 +379,7 @@ chan
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsWyciwygChannel
 >
@@ -4591,7 +4591,7 @@ mLoadFlags
 &
 LOAD_ANONYMOUS
 ;
-RefPtr
+nsRefPtr
 <
 LoadContextInfo
 >

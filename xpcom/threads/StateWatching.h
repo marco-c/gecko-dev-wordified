@@ -940,7 +940,7 @@ i
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AbstractWatcher
 >
@@ -1804,7 +1804,7 @@ MOZ_ASSERT
 mStrongRef
 )
 ;
-RefPtr
+nsRefPtr
 <
 OwnerType
 >
@@ -1838,7 +1838,7 @@ mOwner
 Never
 null
 .
-RefPtr
+nsRefPtr
 <
 OwnerType
 >
@@ -1853,7 +1853,7 @@ null
 when
 notifying
 .
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -1992,7 +1992,7 @@ watcher
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerCallbackWatcher
 >
@@ -2003,7 +2003,7 @@ OwnerType
 *
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >

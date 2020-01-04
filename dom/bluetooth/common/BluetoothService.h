@@ -628,7 +628,7 @@ FactoryCreate
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 BluetoothService
 >

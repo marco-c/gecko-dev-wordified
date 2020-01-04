@@ -1416,7 +1416,7 @@ NS_DECL_NSIWEBBROWSERPERSISTDOCUMENTRECEIVER
 NS_DECL_ISUPPORTS
 private
 :
-RefPtr
+nsRefPtr
 <
 WebBrowserPersistLocalDocument
 >
@@ -1724,7 +1724,7 @@ NS_ENSURE_STATE
 loaderOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -3435,7 +3435,7 @@ PersistNodeFixup
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 WebBrowserPersistLocalDocument
 >
@@ -6759,7 +6759,7 @@ do_QueryInterface
 aNodeOut
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -7182,7 +7182,7 @@ MOZ_ASSERT
 walker
 )
 ;
-RefPtr
+nsRefPtr
 <
 ResourceReader
 >

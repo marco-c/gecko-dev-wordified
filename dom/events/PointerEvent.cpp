@@ -448,7 +448,7 @@ PointerEventInit
 aParam
 )
 {
-RefPtr
+nsRefPtr
 <
 PointerEvent
 >
@@ -894,7 +894,7 @@ WidgetPointerEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 PointerEvent
 >

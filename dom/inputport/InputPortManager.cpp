@@ -266,7 +266,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 InputPortManager
 >
@@ -491,7 +491,7 @@ SetInputPorts
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 InputPort
 >
@@ -623,7 +623,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -786,7 +786,7 @@ erv
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 InputPort
 >
@@ -853,7 +853,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 InputPort
 >

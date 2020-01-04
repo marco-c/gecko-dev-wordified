@@ -3085,7 +3085,7 @@ mChar
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -3413,7 +3413,7 @@ mChar
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -4672,7 +4672,7 @@ ws
 nodes
 if
 (
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -4960,7 +4960,7 @@ priorNode
 else
 if
 (
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -5364,7 +5364,7 @@ ws
 nodes
 if
 (
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -5680,7 +5680,7 @@ nextNode
 else
 if
 (
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -8780,7 +8780,7 @@ mChar
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -9088,7 +9088,7 @@ mChar
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -9389,7 +9389,7 @@ aStartOffset
 nsresult
 res
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -9416,7 +9416,7 @@ idx
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -10333,7 +10333,7 @@ ws
 it
 will
 replace
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -10454,7 +10454,7 @@ outEndNode
 outEndOffset
 )
 ;
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11130,7 +11130,7 @@ cmp
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11340,7 +11340,7 @@ the
 last
 node
 .
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11391,7 +11391,7 @@ of
 our
 range
 .
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11508,7 +11508,7 @@ cmp
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11711,7 +11711,7 @@ the
 last
 character
 .
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -11783,7 +11783,7 @@ the
 /
 appropriate
 character
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -12781,7 +12781,7 @@ for
 the
 moose
 .
-RefPtr
+nsRefPtr
 <
 Text
 >

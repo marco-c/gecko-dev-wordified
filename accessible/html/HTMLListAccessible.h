@@ -340,7 +340,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 HTMLListBulletAccessible
 >

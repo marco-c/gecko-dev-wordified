@@ -1287,7 +1287,7 @@ roles
 :
 LIST
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumns
 >
@@ -1643,7 +1643,7 @@ found
 item
 accessible
 .
-RefPtr
+nsRefPtr
 <
 XULTreeItemAccessibleBase
 >
@@ -3370,7 +3370,7 @@ cachedTreeItem
 return
 cachedTreeItem
 ;
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -3544,7 +3544,7 @@ if
 treeItem
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3952,7 +3952,7 @@ if
 accessible
 )
 {
-RefPtr
+nsRefPtr
 <
 XULTreeItemAccessibleBase
 >
@@ -4047,7 +4047,7 @@ each
 tree
 item
 .
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -4190,7 +4190,7 @@ aRow
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 Accessible
 >

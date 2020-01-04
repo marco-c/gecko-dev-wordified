@@ -2211,7 +2211,7 @@ Create
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BasePrincipal
 >
@@ -2237,7 +2237,7 @@ a
 codebase
 principal
 .
-RefPtr
+nsRefPtr
 <
 nsPrincipal
 >

@@ -523,7 +523,7 @@ mozilla
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

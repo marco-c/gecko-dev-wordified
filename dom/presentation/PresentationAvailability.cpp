@@ -233,7 +233,7 @@ nsPIDOMWindow
 aWindow
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationAvailability
 >

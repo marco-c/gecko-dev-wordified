@@ -8493,7 +8493,7 @@ circular
 /
 reference
 .
-RefPtr
+nsRefPtr
 <
 nsParserBase
 >

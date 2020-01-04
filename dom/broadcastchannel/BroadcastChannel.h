@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -480,7 +480,7 @@ return
 mIsKeptAlive
 ;
 }
-RefPtr
+nsRefPtr
 <
 BroadcastChannelChild
 >
@@ -488,7 +488,7 @@ mActor
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BroadcastChannelMessage
 >

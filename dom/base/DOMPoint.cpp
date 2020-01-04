@@ -202,7 +202,7 @@ ErrorResult
 aRV
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMPoint
 >
@@ -264,7 +264,7 @@ ErrorResult
 aRV
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMPoint
 >

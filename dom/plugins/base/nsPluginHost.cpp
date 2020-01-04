@@ -2429,7 +2429,7 @@ sInst
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -2744,13 +2744,13 @@ are
 no
 running
 plugins
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
 prev
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -2758,7 +2758,7 @@ next
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -3290,7 +3290,7 @@ if
 target
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3668,7 +3668,7 @@ if
 target
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3905,7 +3905,7 @@ proxyService
 return
 res
 ;
-RefPtr
+nsRefPtr
 <
 nsProtocolProxyService
 >
@@ -4445,7 +4445,7 @@ true
 }
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -4455,7 +4455,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -4465,7 +4465,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -5120,7 +5120,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -5285,7 +5285,7 @@ rv
 NS_PLUGIN_INIT_PENDING
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -5912,7 +5912,7 @@ ReloadPlugins
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 nsNPAPIPlugin
 >
@@ -6014,7 +6014,7 @@ Version
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -6450,7 +6450,7 @@ an
 enabled
 plugin
 .
-RefPtr
+nsRefPtr
 <
 nsIInternalPluginTag
 >
@@ -6999,7 +6999,7 @@ Length
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -8008,7 +8008,7 @@ nsPluginTag
 aPluginTag
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPlugin
 >
@@ -8289,7 +8289,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -8441,7 +8441,7 @@ off
 the
 stack
 .
-RefPtr
+nsRefPtr
 <
 nsPluginUnloadRunnable
 >
@@ -9338,7 +9338,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFakePluginTag
 >
@@ -9550,7 +9550,7 @@ nsIFakePluginTag
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFakePluginTag
 >
@@ -10489,7 +10489,7 @@ NS_OK
 nsCString
 domain
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -12644,7 +12644,7 @@ filePath
 utf16FilePath
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -12784,7 +12784,7 @@ false
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -12996,7 +12996,7 @@ info
 fMimeTypeArray
 )
 {
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -14605,7 +14605,7 @@ aPluginsChanged
 {
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -14615,7 +14615,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -14777,7 +14777,7 @@ aPluginsChanged
 {
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -14787,7 +14787,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -14974,7 +14974,7 @@ aPluginsChanged
 {
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -14984,7 +14984,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -15083,7 +15083,7 @@ Remove
 unseen
 invalid
 plugins
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -15105,7 +15105,7 @@ invalidPlugins
 mSeen
 )
 {
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -15230,7 +15230,7 @@ aCreatePluginList
 {
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -15240,7 +15240,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -15300,7 +15300,7 @@ up
 .
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -15310,7 +15310,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -15351,7 +15351,7 @@ XRE_IsParentProcess
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -15702,7 +15702,7 @@ WritePluginInfo
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -15712,7 +15712,7 @@ mNext
 ;
 NS_ITERATIVE_UNREF_LIST
 (
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -16914,7 +16914,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -18786,7 +18786,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -19037,7 +19037,7 @@ lastModifiedTimeStamp
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 nsInvalidPluginTag
 >
@@ -19126,13 +19126,13 @@ nsPluginTag
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
 prev
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -19389,7 +19389,7 @@ case
 aURL
 is
 relative
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -19460,7 +19460,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginStreamListenerPeer
 >
@@ -20610,7 +20610,7 @@ NS_ENSURE_ARG_POINTER
 aStreamListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginStreamListenerPeer
 >
@@ -23101,7 +23101,7 @@ nsITimer
 timer
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginTag
 >
@@ -24134,7 +24134,7 @@ stoppedCount
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -24417,7 +24417,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -24620,7 +24620,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -24675,7 +24675,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -24875,7 +24875,7 @@ of
 a
 runnable
 .
-RefPtr
+nsRefPtr
 <
 nsPluginDestroyRunnable
 >

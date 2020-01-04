@@ -439,7 +439,7 @@ mOwningThread
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ListenerWrapper
 >

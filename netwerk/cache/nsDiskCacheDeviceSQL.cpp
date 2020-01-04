@@ -799,7 +799,7 @@ mozIStorageConnection
 *
 mDB
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheEvictionFunction
 >
@@ -1611,7 +1611,7 @@ get
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheDevice
 >
@@ -9354,7 +9354,7 @@ pick
 best
 generation
 number
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheBinding
 >
@@ -10777,7 +10777,7 @@ moz_cache
 nsOfflineCacheRecord
 rec
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheEntryInfo
 >
@@ -14953,7 +14953,7 @@ Shutdown
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCacheService
 >

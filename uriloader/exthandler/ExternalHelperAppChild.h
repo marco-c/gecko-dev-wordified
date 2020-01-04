@@ -228,7 +228,7 @@ nsIRequest
 request
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsExternalAppHandler
 >

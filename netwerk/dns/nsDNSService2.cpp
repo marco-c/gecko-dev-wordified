@@ -641,7 +641,7 @@ nsDNSRecord
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >
@@ -2020,7 +2020,7 @@ MallocSizeOf
 const
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >
@@ -2518,7 +2518,7 @@ mDone
 nsresult
 mStatus
 ;
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >
@@ -3685,7 +3685,7 @@ do_GetService
 NS_IDNSERVICE_CONTRACTID
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >
@@ -3894,7 +3894,7 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >
@@ -4233,7 +4233,7 @@ simultaneous
 shutdown
 !
 !
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >
@@ -4620,7 +4620,7 @@ simultaneous
 shutdown
 !
 !
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >
@@ -4775,7 +4775,7 @@ simultaneous
 shutdown
 !
 !
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >

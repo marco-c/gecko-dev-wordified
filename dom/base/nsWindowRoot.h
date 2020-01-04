@@ -546,7 +546,7 @@ attached
 to
 us
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

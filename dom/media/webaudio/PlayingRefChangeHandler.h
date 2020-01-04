@@ -178,7 +178,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -241,7 +241,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >

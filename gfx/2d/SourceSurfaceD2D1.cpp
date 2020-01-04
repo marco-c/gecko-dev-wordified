@@ -262,7 +262,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >
@@ -514,7 +514,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1DeviceContext
 >
@@ -652,7 +652,7 @@ MOZ_ASSERT
 mRealizedBitmap
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >

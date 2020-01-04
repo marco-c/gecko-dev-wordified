@@ -629,7 +629,7 @@ defined
 (
 OS_MACOSX
 )
-RefPtr
+nsRefPtr
 <
 mozilla
 :

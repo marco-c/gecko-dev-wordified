@@ -246,7 +246,7 @@ UpdateAndGetShowingCues
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -387,14 +387,14 @@ TextTrackList
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrack
 >
 >
 mTextTracks
 ;
-RefPtr
+nsRefPtr
 <
 TextTrackManager
 >

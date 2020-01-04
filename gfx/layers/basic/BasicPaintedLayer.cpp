@@ -662,7 +662,7 @@ OP_OVER
 |
 aMaskLayer
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1224,7 +1224,7 @@ GetBounds
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1407,7 +1407,7 @@ GetBackgroundLayerOffset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1573,7 +1573,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 PaintedLayer
 >

@@ -777,7 +777,7 @@ before
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -789,7 +789,7 @@ Database
 >
 mDB
 ;
-RefPtr
+nsRefPtr
 <
 ConcurrentStatementsHolder
 >

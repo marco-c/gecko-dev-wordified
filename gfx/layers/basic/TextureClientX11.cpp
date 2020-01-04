@@ -283,7 +283,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -781,7 +781,7 @@ SurfaceFormatToImageFormat
 mFormat
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

@@ -261,7 +261,7 @@ SpeechSynthesisRequestParent
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechTaskParent
 >

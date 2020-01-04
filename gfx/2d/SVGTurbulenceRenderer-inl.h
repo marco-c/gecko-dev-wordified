@@ -2611,7 +2611,7 @@ aOffset
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

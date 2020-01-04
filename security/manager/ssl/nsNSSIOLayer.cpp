@@ -1975,7 +1975,7 @@ onto
 this
 connection
 .
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -5273,7 +5273,7 @@ mErrorCode
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNSSSocketInfo
 >
@@ -6582,7 +6582,7 @@ GetErrorCode
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SyncRunnableBase
 >
@@ -11003,7 +11003,7 @@ return
 SECFailure
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNSSSocketInfo
 >
@@ -11174,7 +11174,7 @@ asynchronously
 see
 bug
 696976
-RefPtr
+nsRefPtr
 <
 ClientAuthDataRunnable
 >
@@ -11949,7 +11949,7 @@ hostname
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsClientAuthRememberService
 >
@@ -12726,7 +12726,7 @@ node
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >

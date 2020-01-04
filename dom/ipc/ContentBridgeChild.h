@@ -428,7 +428,7 @@ protected
 /
 /
 members
-RefPtr
+nsRefPtr
 <
 ContentBridgeChild
 >

@@ -1512,7 +1512,7 @@ stripped
 nsCString
 mURL
 ;
-RefPtr
+nsRefPtr
 <
 InternalHeaders
 >

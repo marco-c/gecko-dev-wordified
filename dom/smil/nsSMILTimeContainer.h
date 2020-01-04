@@ -1289,7 +1289,7 @@ const
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1767,7 +1767,7 @@ In
 container
 time
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

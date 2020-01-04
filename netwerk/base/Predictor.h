@@ -155,7 +155,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -457,7 +457,7 @@ mStartTime
 uint8_t
 mStackCount
 ;
-RefPtr
+nsRefPtr
 <
 Predictor
 >
@@ -512,7 +512,7 @@ nsCString
 >
 mKeysToDelete
 ;
-RefPtr
+nsRefPtr
 <
 Predictor
 >
@@ -592,7 +592,7 @@ nsCString
 >
 mLongKeysToDelete
 ;
-RefPtr
+nsRefPtr
 <
 Predictor
 >
@@ -2167,7 +2167,7 @@ nsIDNSService
 >
 mDnsService
 ;
-RefPtr
+nsRefPtr
 <
 DNSListener
 >

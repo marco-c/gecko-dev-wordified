@@ -958,7 +958,7 @@ mCallback
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -1330,7 +1330,7 @@ Grab
 the
 next
 entry
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1586,7 +1586,7 @@ mContextKey
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1738,7 +1738,7 @@ visit
 is
 required
 .
-RefPtr
+nsRefPtr
 <
 CacheIOThread
 >
@@ -1879,7 +1879,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 WalkDiskCacheRunnable
 >
@@ -2313,7 +2313,7 @@ for
 this
 entry
 .
-RefPtr
+nsRefPtr
 <
 OnCacheEntryInfoRunnable
 >
@@ -2373,7 +2373,7 @@ info
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsILoadContextInfo
 >
@@ -2426,7 +2426,7 @@ ITERATE_METADATA
 }
 mPass
 ;
-RefPtr
+nsRefPtr
 <
 CacheIndexIterator
 >
@@ -2855,7 +2855,7 @@ thread
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 CleaupCacheDirectoriesRunnable
 >
@@ -3130,7 +3130,7 @@ IsOnManagementThread
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -3226,7 +3226,7 @@ nsIRunnable
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheIOThread
 >
@@ -4461,7 +4461,7 @@ bool
 aOverwrite
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -4574,7 +4574,7 @@ bool
 aOverwrite
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -5744,7 +5744,7 @@ hence
 rather
 dispatch
 .
-RefPtr
+nsRefPtr
 <
 nsIEventTarget
 >
@@ -6381,7 +6381,7 @@ YieldAndRerun
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -6564,7 +6564,7 @@ YieldAndRerun
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -6707,7 +6707,7 @@ YieldAndRerun
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -6949,13 +6949,13 @@ BeginReading
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
 entry
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -8129,7 +8129,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -8475,7 +8475,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryDoomByKeyCallback
 >
@@ -8561,7 +8561,7 @@ if
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -9129,7 +9129,7 @@ if
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -9214,7 +9214,7 @@ WriteToDisk
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 WalkDiskCacheRunnable
 >
@@ -9242,7 +9242,7 @@ Walk
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 WalkMemoryCacheRunnable
 >
@@ -9351,7 +9351,7 @@ entries
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -9487,7 +9487,7 @@ aURISpec
 entryKey
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -10665,7 +10665,7 @@ and
 MEMORY_ONLY
 hashtables
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

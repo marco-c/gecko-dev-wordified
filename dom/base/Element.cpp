@@ -2338,7 +2338,7 @@ from
 the
 style
 context
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -3067,7 +3067,7 @@ before
 returning
 obj
 .
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -5174,7 +5174,7 @@ GetBoundingClientRect
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRect
 >
@@ -5269,7 +5269,7 @@ GetClientRects
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRectList
 >
@@ -5655,7 +5655,7 @@ aError
 nsAutoScriptBlocker
 scriptBlocker
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5691,7 +5691,7 @@ nsIDOMNode
 DOCUMENT_FRAGMENT_NODE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >
@@ -5864,7 +5864,7 @@ shadowroot
 protoBinding
 )
 ;
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -6037,7 +6037,7 @@ ownership
 of
 docInfo
 .
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -6416,7 +6416,7 @@ GetDestinationInsertionPoints
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DestinationInsertionPointList
 >
@@ -7132,7 +7132,7 @@ ErrorResult
 aError
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10164,7 +10164,7 @@ GetParent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsINode
 >
@@ -11391,7 +11391,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13485,7 +13485,7 @@ aParsedValue
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13583,7 +13583,7 @@ NODE_FORCE_XBL_BINDINGS
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -14674,7 +14674,7 @@ from
 the
 attr
 map
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -14907,7 +14907,7 @@ NODE_FORCE_XBL_BINDINGS
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -18624,7 +18624,7 @@ eDOM_PROPERTIES
 error
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -18844,7 +18844,7 @@ GetAnimations
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Animation
 >
@@ -19000,7 +19000,7 @@ Sort
 (
 AnimationPtrComparator
 <
-RefPtr
+nsRefPtr
 <
 Animation
 >
@@ -19236,7 +19236,7 @@ namespaceID
 kNameSpaceID_XHTML
 ;
 }
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -19349,7 +19349,7 @@ element
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

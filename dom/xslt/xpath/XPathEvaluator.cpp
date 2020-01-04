@@ -550,7 +550,7 @@ do_QueryInterface
 aInResult
 )
 ;
-RefPtr
+nsRefPtr
 <
 XPathResult
 >
@@ -911,7 +911,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 XPathEvaluator
 >

@@ -1006,7 +1006,7 @@ text
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMTokenList
 >

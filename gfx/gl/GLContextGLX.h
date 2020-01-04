@@ -399,7 +399,7 @@ GLXLibrary
 *
 mGLX
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >

@@ -999,7 +999,7 @@ GetOutputFormat
 format
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

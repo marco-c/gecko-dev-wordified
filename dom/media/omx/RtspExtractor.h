@@ -394,7 +394,7 @@ for
 the
 extractor
 .
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolController
 >

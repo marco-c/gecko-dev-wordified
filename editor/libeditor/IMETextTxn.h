@@ -364,7 +364,7 @@ operate
 upon
 *
 /
-RefPtr
+nsRefPtr
 <
 Text
 >
@@ -400,7 +400,7 @@ list
 *
 *
 /
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >

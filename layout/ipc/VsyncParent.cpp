@@ -181,7 +181,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -202,7 +202,7 @@ GetHardwareVsync
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VsyncParent
 >

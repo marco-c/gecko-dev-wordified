@@ -726,7 +726,7 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -784,7 +784,7 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >

@@ -352,7 +352,7 @@ static
 nsresult
 GetSeparator
 (
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -432,7 +432,7 @@ nsIJumpListItem
 >
 &
 item
-RefPtr
+nsRefPtr
 <
 IShellItem2
 >
@@ -549,7 +549,7 @@ nsIJumpListItem
 >
 &
 item
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >

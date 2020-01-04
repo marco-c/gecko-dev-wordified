@@ -567,7 +567,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 ScreenProxy
 >
@@ -796,7 +796,7 @@ NS_ERROR_FAILURE
 ScreenCacheEntry
 newEntry
 ;
-RefPtr
+nsRefPtr
 <
 ScreenProxy
 >

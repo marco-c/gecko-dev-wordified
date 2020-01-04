@@ -2061,7 +2061,7 @@ level
 nsHttpConnection
 object
 .
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >

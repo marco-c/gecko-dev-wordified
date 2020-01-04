@@ -236,7 +236,7 @@ mConnected
 nsString
 mDeviceAddress
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

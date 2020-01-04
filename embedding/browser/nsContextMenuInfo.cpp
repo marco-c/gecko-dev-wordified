@@ -854,7 +854,7 @@ NS_ENSURE_STATE
 mDOMNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -910,7 +910,7 @@ NS_ENSURE_STATE
 mDOMNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1022,7 +1022,7 @@ aDOMNode
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1524,7 +1524,7 @@ bgUri
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgLoader
 >

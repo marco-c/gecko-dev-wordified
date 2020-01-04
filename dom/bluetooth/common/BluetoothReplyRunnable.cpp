@@ -1002,7 +1002,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SubTask
 >
@@ -1054,7 +1054,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SubTask
 >

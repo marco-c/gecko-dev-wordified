@@ -6415,7 +6415,7 @@ this
 )
 ;
 return
-rv
+NS_ERROR_ILLEGAL_VALUE
 ;
 }
 nsAutoCString
@@ -6865,7 +6865,7 @@ this
 )
 ;
 return
-rv
+NS_ERROR_ILLEGAL_VALUE
 ;
 }
 nsCString

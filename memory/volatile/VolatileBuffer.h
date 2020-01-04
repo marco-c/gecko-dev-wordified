@@ -85,7 +85,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -606,7 +606,7 @@ mPurged
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 VolatileBuffer
 >

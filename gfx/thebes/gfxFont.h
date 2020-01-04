@@ -493,7 +493,7 @@ inferred
 from
 the
 charset
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
@@ -625,7 +625,7 @@ the
 font
 is
 matched
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >
@@ -1656,7 +1656,7 @@ uint32_t
 start
 end
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -12474,7 +12474,7 @@ nsUint32HashKey
 *
 sDefaultFeatures
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontEntry
 >
@@ -13083,13 +13083,13 @@ ranges
 supported
 by
 font
-RefPtr
+nsRefPtr
 <
 gfxCharacterMap
 >
 mUnicodeRangeMap
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13564,7 +13564,7 @@ GlyphRun
 struct
 TextRunDrawParams
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13627,7 +13627,7 @@ paintSVGGlyphs
 struct
 FontDrawParams
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13639,7 +13639,7 @@ ScaledFont
 >
 scaledFont
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

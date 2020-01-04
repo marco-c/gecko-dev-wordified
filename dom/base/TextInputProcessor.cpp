@@ -673,7 +673,7 @@ IsValidStateForComposition
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -988,7 +988,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -1062,7 +1062,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -1470,7 +1470,7 @@ mCallback
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 TextInputProcessorNotification
 >
@@ -2111,7 +2111,7 @@ aSucceeded
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -2273,7 +2273,7 @@ IsCallerChrome
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -2336,7 +2336,7 @@ IsCallerChrome
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -2423,7 +2423,7 @@ IsCallerChrome
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -2545,7 +2545,7 @@ aSucceeded
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -2917,7 +2917,7 @@ aSucceeded
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -3168,7 +3168,7 @@ uint32_t
 aKeyFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -3336,7 +3336,7 @@ if
 mCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 TextInputProcessorNotification
 >
@@ -4400,7 +4400,7 @@ GetActiveModifiers
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >
@@ -4806,7 +4806,7 @@ GetActiveModifiers
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextEventDispatcher
 >

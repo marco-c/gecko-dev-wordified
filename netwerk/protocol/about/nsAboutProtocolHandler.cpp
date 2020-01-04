@@ -1276,7 +1276,7 @@ nullptr
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNestedAboutURI
 >

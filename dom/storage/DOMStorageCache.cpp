@@ -585,7 +585,7 @@ Release
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -1232,7 +1232,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStorageCache
 >
@@ -1331,7 +1331,7 @@ the
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -1386,7 +1386,7 @@ timer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStorageCacheHolder
 >
@@ -3680,7 +3680,7 @@ from
 the
 DB
 thread
-RefPtr
+nsRefPtr
 <
 LoadUsageRunnable
 >
@@ -3926,7 +3926,7 @@ local
 storage
 manager
 .
-RefPtr
+nsRefPtr
 <
 DOMStorageDBChild
 >

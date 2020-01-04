@@ -519,7 +519,7 @@ bool
 aInputsAreTainted
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -528,7 +528,7 @@ SourceSurface
 aInputImages
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGComponentTransferFunctionElement
 >
@@ -562,7 +562,7 @@ GetNextSibling
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGComponentTransferFunctionElement
 >

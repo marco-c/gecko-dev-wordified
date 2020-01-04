@@ -553,7 +553,7 @@ GetAllHandles
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheFileHandle
 >
@@ -567,7 +567,7 @@ GetActiveHandles
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheFileHandle
 >
@@ -820,7 +820,7 @@ GetHandles
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheFileHandle
 >
@@ -2237,7 +2237,7 @@ mStartTime
 bool
 mShuttingDown
 ;
-RefPtr
+nsRefPtr
 <
 CacheIOThread
 >
@@ -2348,7 +2348,7 @@ mSpecialHandles
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheFile
 >
@@ -2391,7 +2391,7 @@ nsCString
 >
 mFailedTrashDirs
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileContextEvictor
 >

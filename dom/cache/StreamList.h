@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -322,13 +322,13 @@ mStream
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 Manager
 >
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >

@@ -1541,7 +1541,7 @@ capabilities
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothClassOfDevice
 >
@@ -1643,7 +1643,7 @@ device
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothGatt
 >
@@ -1688,7 +1688,7 @@ comparison
 of
 *
 '
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -1711,7 +1711,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1724,7 +1724,7 @@ bluetooth
 :
 BluetoothDevice
 >
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1745,7 +1745,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1761,7 +1761,7 @@ BluetoothDevice
 &
 aDeviceA
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1846,7 +1846,7 @@ comparison
 between
 *
 '
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -1872,7 +1872,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1894,7 +1894,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :

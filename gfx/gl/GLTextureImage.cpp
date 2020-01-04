@@ -959,7 +959,7 @@ GLXPixmap
 ?
 )
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -975,7 +975,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1443,10 +1443,10 @@ aContentType
 )
 mFilter
 (
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 )
 mFlags
 (
@@ -2667,7 +2667,7 @@ forward
 the
 actual
 call
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2914,7 +2914,7 @@ GetTextureFormat
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2930,7 +2930,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

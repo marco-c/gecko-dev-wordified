@@ -479,7 +479,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -933,7 +933,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1607,7 +1607,7 @@ StartUpdating
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -2535,7 +2535,7 @@ u
 aLength
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -3495,7 +3495,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -3557,7 +3557,7 @@ NS_IsMainThread
 ErrorResult
 dummy
 ;
-RefPtr
+nsRefPtr
 <
 TimeRanges
 >
@@ -3606,7 +3606,7 @@ NS_IsMainThread
 ErrorResult
 dummy
 ;
-RefPtr
+nsRefPtr
 <
 TimeRanges
 >

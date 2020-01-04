@@ -288,7 +288,7 @@ aCloneDonor
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -338,7 +338,7 @@ aTags
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -440,7 +440,7 @@ guint
 aLength
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -464,7 +464,7 @@ GstBuffer
 *
 *
 aOutBuffer
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1026,7 +1026,7 @@ GstBuffer
 *
 *
 aBuf
-RefPtr
+nsRefPtr
 <
 layers
 :

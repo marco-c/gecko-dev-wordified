@@ -5220,7 +5220,7 @@ callback
 before
 returning
 .
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >
@@ -7165,7 +7165,7 @@ nsresult
 status
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >

@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -447,7 +447,7 @@ BufferRecycleBin
 aRecycleBin
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1438,7 +1438,7 @@ if
 mImageClient
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -3208,7 +3208,7 @@ if
 mSourceSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -3301,7 +3301,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -3456,7 +3456,7 @@ GetForwarder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -3483,7 +3483,7 @@ return
 textureClient
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3552,7 +3552,7 @@ CompositableHost
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 TextureClientRecycleAllocator
 >

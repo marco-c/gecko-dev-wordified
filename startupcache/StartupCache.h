@@ -1205,7 +1205,7 @@ nsCString
 >
 mPendingWrites
 ;
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -1223,7 +1223,7 @@ nsIObserverService
 >
 mObserverService
 ;
-RefPtr
+nsRefPtr
 <
 StartupCacheListener
 >

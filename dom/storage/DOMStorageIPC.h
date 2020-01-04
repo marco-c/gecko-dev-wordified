@@ -586,7 +586,7 @@ forward
 answers
 to
 .
-RefPtr
+nsRefPtr
 <
 DOMLocalStorageManager
 >
@@ -936,7 +936,7 @@ LoadWait
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMStorageDBParent
 >
@@ -1026,7 +1026,7 @@ usage
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMStorageDBParent
 >

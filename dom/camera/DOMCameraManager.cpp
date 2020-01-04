@@ -616,7 +616,7 @@ WindowTable
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDOMCameraManager
 >
@@ -754,7 +754,7 @@ aPrincipal
 nsPIDOMWindow
 *
 aWindow
-RefPtr
+nsRefPtr
 <
 nsDOMCameraManager
 >
@@ -765,7 +765,7 @@ const
 CameraConfiguration
 &
 aInitialConfig
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -844,7 +844,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMCameraManager
 >
@@ -856,7 +856,7 @@ mCameraId
 CameraConfiguration
 mInitialConfig
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1342,7 +1342,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1636,7 +1636,7 @@ it
 fails
 )
 .
-RefPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >
@@ -1803,7 +1803,7 @@ i
 -
 i
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >
@@ -1951,7 +1951,7 @@ i
 -
 i
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >

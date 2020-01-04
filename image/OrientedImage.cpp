@@ -530,7 +530,7 @@ to
 draw
 into
 .
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -577,7 +577,7 @@ Create
 our
 drawable
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -656,10 +656,10 @@ Create
 size
 )
 surfaceFormat
-Filter
+GraphicsFilter
 :
 :
-LINEAR
+FILTER_FAST
 )
 ;
 return
@@ -1567,7 +1567,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -1824,7 +1824,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

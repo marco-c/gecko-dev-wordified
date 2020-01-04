@@ -402,7 +402,7 @@ nsIVoicemailService
 >
 mService
 ;
-RefPtr
+nsRefPtr
 <
 Listener
 >
@@ -453,7 +453,7 @@ since
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 VoicemailStatus
 >

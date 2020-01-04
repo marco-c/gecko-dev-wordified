@@ -402,13 +402,13 @@ const
 CacheOpArgs
 mOpArgs
 ;
-RefPtr
+nsRefPtr
 <
 Manager
 >
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 PrincipalVerifier
 >

@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2594,7 +2594,7 @@ bool
 IsAARDefault
 (
 const
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -2835,7 +2835,7 @@ bool
 SaveWin8RegistryHash
 (
 const
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -3019,7 +3019,7 @@ bool
 RestoreWin8RegistryHash
 (
 const
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -3486,7 +3486,7 @@ bool
 aIsDefaultBrowser
 )
 {
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -3636,7 +3636,7 @@ bool
 aClaimAllTypes
 )
 {
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -3838,7 +3838,7 @@ bool
 aIsDefaultBrowser
 )
 {
-RefPtr
+nsRefPtr
 <
 IApplicationAssociationRegistration
 >
@@ -6712,7 +6712,7 @@ aImage
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6829,7 +6829,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

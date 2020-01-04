@@ -2486,7 +2486,7 @@ need
 /
 to
 check
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -3280,7 +3280,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozInlineSpellChecker
 >
@@ -6877,7 +6877,7 @@ int32_t
 aEndOffset
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -7467,7 +7467,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozInlineSpellResume
 >
@@ -7734,7 +7734,7 @@ the
 selection
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -8776,7 +8776,7 @@ PR_Now
 nsAutoString
 wordText
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -9021,7 +9021,7 @@ erv
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -9529,7 +9529,7 @@ mDelta
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozInlineSpellChecker
 >
@@ -11537,7 +11537,7 @@ UpdateCurrentDictionaryCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 mozInlineSpellChecker
 >
@@ -11638,7 +11638,7 @@ Truncate
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 UpdateCurrentDictionaryCallback
 >

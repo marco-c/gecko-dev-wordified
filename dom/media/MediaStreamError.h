@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -463,7 +463,7 @@ MediaStreamError
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsPIDOMWindow
 >

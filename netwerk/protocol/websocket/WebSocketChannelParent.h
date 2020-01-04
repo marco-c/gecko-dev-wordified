@@ -349,7 +349,7 @@ GetAppId
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 OfflineObserver
 >

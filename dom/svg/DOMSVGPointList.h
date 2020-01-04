@@ -1481,7 +1481,7 @@ nsISVGPoint
 items
 too
 .
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

@@ -164,7 +164,7 @@ fallible_t
 &
 )
 {
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

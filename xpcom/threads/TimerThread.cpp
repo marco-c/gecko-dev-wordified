@@ -905,7 +905,7 @@ sAllocatorUsers
 -
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -1426,7 +1426,7 @@ nullptr
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 TimerObserverRunnable
 >
@@ -2284,7 +2284,7 @@ nsTimerImpl
 :
 Release
 .
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -3629,7 +3629,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -3762,7 +3762,7 @@ being
 /
 canceled
 .
-RefPtr
+nsRefPtr
 <
 nsTimerEvent
 >

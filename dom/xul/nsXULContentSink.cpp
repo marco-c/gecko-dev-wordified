@@ -717,7 +717,7 @@ ContextStack
 :
 GetTopNode
 (
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -2052,7 +2052,7 @@ aCreateTextNode
 )
 break
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -2468,7 +2468,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2714,7 +2714,7 @@ localName
 nameSpaceID
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2884,7 +2884,7 @@ planet
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -3531,7 +3531,7 @@ mRefCnt
 =
 =
 1
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -5084,7 +5084,7 @@ GetWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeScript
 >

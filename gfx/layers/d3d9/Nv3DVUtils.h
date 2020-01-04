@@ -392,7 +392,7 @@ interface
 pointer
 *
 /
-RefPtr
+nsRefPtr
 <
 INv3DVStreaming
 >

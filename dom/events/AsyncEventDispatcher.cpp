@@ -383,7 +383,7 @@ MOZ_ASSERT
 mTarget
 )
 ;
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -452,7 +452,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -567,7 +567,7 @@ PostDOMEvent
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -590,7 +590,7 @@ RunDOMEventWhenSafe
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

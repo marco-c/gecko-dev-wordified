@@ -185,7 +185,7 @@ prfd
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 FileDescriptorOutputStream
 >

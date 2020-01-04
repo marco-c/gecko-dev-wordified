@@ -892,7 +892,7 @@ mEncrypted
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -1135,7 +1135,7 @@ mStatusCode
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -1344,7 +1344,7 @@ mMessage
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -1665,7 +1665,7 @@ mSize
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -1858,7 +1858,7 @@ mReason
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -2342,7 +2342,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -2552,7 +2552,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >
@@ -2838,7 +2838,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 WebSocketChannelChild
 >

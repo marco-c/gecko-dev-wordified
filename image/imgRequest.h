@@ -1487,7 +1487,7 @@ issues
 with
 nsStandardURL
 .
-RefPtr
+nsRefPtr
 <
 ImageURL
 >
@@ -1611,7 +1611,7 @@ have
 observers
 *
 /
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >
@@ -1817,13 +1817,13 @@ of
 this
 bitfield
 .
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
 mProgressTracker
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >

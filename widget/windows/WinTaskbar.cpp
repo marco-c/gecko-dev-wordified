@@ -2042,7 +2042,7 @@ toplevelHWND
 return
 NS_ERROR_INVALID_ARG
 ;
-RefPtr
+nsRefPtr
 <
 TaskbarTabPreview
 >
@@ -2168,7 +2168,7 @@ if
 preview
 )
 {
-RefPtr
+nsRefPtr
 <
 DefaultController
 >

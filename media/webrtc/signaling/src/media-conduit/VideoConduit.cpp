@@ -274,7 +274,7 @@ for
 VideoConduit
 *
 /
-RefPtr
+nsRefPtr
 <
 VideoSessionConduit
 >
@@ -2862,7 +2862,7 @@ WebrtcVideoConduit
 :
 AttachRenderer
 (
-RefPtr
+nsRefPtr
 <
 VideoRenderer
 >
@@ -3085,7 +3085,7 @@ WebrtcVideoConduit
 :
 SetTransmitterTransport
 (
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -3127,7 +3127,7 @@ WebrtcVideoConduit
 :
 SetReceiverTransport
 (
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >

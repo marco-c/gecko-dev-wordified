@@ -262,7 +262,7 @@ mPlayState
 PLAY_STATE_ENDED
 )
 {
-RefPtr
+nsRefPtr
 <
 RtspMediaResource
 >

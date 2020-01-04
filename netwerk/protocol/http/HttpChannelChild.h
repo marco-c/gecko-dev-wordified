@@ -1032,13 +1032,13 @@ nsIChildChannel
 >
 mRedirectChannelChild
 ;
-RefPtr
+nsRefPtr
 <
 InterceptStreamListener
 >
 mInterceptListener
 ;
-RefPtr
+nsRefPtr
 <
 nsInputStreamPump
 >
@@ -1099,7 +1099,7 @@ only
 for
 security
 info
-RefPtr
+nsRefPtr
 <
 ChannelEventQueue
 >

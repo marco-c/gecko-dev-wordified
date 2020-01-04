@@ -3085,7 +3085,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4217,7 +4217,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4430,7 +4430,7 @@ if
 aImageLoader
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4499,10 +4499,10 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 Nothing
 (
 )

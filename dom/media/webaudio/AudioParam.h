@@ -1005,7 +1005,7 @@ nsCycleCollectingAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1065,7 +1065,7 @@ node
 '
 s
 stream
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >

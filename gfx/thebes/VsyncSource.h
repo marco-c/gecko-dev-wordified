@@ -108,7 +108,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -350,7 +350,7 @@ TimeStamp
 aVsyncTimestamp
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >
@@ -432,14 +432,14 @@ mRefreshTimerNeedsVsync
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CompositorVsyncDispatcher
 >
 >
 mCompositorVsyncDispatchers
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >
@@ -463,7 +463,7 @@ CompositorVsyncDispatcher
 aCompositorVsyncDispatcher
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >

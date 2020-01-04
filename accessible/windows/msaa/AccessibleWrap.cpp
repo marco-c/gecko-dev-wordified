@@ -4531,7 +4531,7 @@ and
 initialize
 the
 enumeration
-RefPtr
+nsRefPtr
 <
 AccessibleEnumerator
 >

@@ -2053,7 +2053,7 @@ descent
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

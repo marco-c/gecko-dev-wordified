@@ -502,7 +502,7 @@ sBtInterface
 static
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >
@@ -952,7 +952,7 @@ bluetooth
 core
 anyway
 .
-RefPtr
+nsRefPtr
 <
 ProfileInitResultHandler
 >
@@ -3620,7 +3620,7 @@ BluetoothNamedValue
 >
 mDevicesPack
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4152,7 +4152,7 @@ DispatchReplyErrorResultHandler
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4213,7 +4213,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4876,7 +4876,7 @@ aManager
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >
@@ -5277,7 +5277,7 @@ aManager
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >
@@ -8062,7 +8062,7 @@ disable
 the
 adapter
 .
-RefPtr
+nsRefPtr
 <
 ProfileDeinitResultHandler
 >

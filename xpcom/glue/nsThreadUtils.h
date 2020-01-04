@@ -1993,7 +1993,7 @@ Owning
 struct
 nsRunnableMethodReceiver
 {
-RefPtr
+nsRefPtr
 <
 ClassType
 >
@@ -2875,7 +2875,7 @@ struct
 StorensRefPtrPassByPtr
 {
 typedef
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -3438,7 +3438,7 @@ T
 struct
 IsRefcountedSmartPointer
 <
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -3496,7 +3496,7 @@ T
 struct
 StripSmartPointer
 <
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -3847,7 +3847,7 @@ RC
 >
 :
 Store
-RefPtr
+nsRefPtr
 <
 RC
 >
@@ -3982,7 +3982,7 @@ T
 /
 /
 -
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -4000,7 +4000,7 @@ T
 >
 :
 Store
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -7354,7 +7354,7 @@ nsRevocableEventPtr
 &
 )
 ;
-RefPtr
+nsRefPtr
 <
 T
 >

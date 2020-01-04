@@ -1869,7 +1869,7 @@ can
 resubmit
 the
 query
-RefPtr
+nsRefPtr
 <
 nsAsyncResolveRequest
 >
@@ -7330,7 +7330,7 @@ on
 that
 completion
 .
-RefPtr
+nsRefPtr
 <
 nsAsyncBridgeRequest
 >
@@ -7741,7 +7741,7 @@ result
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsAsyncResolveRequest
 >

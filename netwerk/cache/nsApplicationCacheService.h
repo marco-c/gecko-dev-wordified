@@ -109,7 +109,7 @@ nsApplicationCacheService
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCacheService
 >

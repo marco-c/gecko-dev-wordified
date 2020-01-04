@@ -359,7 +359,7 @@ FMRadioRequestArgs
 aArgs
 )
 {
-RefPtr
+nsRefPtr
 <
 FMRadioRequestParent
 >

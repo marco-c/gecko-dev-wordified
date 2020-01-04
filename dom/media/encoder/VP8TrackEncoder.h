@@ -422,7 +422,7 @@ create
 it
 once
 .
-RefPtr
+nsRefPtr
 <
 layers
 :

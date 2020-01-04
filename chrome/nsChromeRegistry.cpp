@@ -2555,7 +2555,7 @@ Reload
 the
 sheet
 .
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2810,7 +2810,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2856,7 +2856,7 @@ Reload
 the
 sheet
 .
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -4141,7 +4141,7 @@ if
 gChromeRegistry
 )
 {
-RefPtr
+nsRefPtr
 <
 nsChromeRegistry
 >
@@ -4157,7 +4157,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsChromeRegistry
 >

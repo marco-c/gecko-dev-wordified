@@ -680,7 +680,7 @@ nsChainedEventQueue
 *
 mNext
 ;
-RefPtr
+nsRefPtr
 <
 nsNestedEventTarget
 >
@@ -724,7 +724,7 @@ aQueue
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsThread
 >

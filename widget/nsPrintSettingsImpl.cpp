@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -4805,7 +4805,7 @@ nsIPrintSettings
 _retval
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPrintSettings
 >

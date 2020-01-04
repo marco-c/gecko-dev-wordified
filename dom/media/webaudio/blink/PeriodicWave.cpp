@@ -426,7 +426,7 @@ if
 isGood
 )
 {
-RefPtr
+nsRefPtr
 <
 PeriodicWave
 >
@@ -473,7 +473,7 @@ float
 sampleRate
 )
 {
-RefPtr
+nsRefPtr
 <
 PeriodicWave
 >
@@ -517,7 +517,7 @@ float
 sampleRate
 )
 {
-RefPtr
+nsRefPtr
 <
 PeriodicWave
 >
@@ -561,7 +561,7 @@ float
 sampleRate
 )
 {
-RefPtr
+nsRefPtr
 <
 PeriodicWave
 >
@@ -605,7 +605,7 @@ float
 sampleRate
 )
 {
-RefPtr
+nsRefPtr
 <
 PeriodicWave
 >

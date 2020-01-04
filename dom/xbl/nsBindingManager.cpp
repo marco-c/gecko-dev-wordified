@@ -1134,7 +1134,7 @@ document
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -1452,7 +1452,7 @@ it
 from
 our
 table
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >
@@ -1797,7 +1797,7 @@ the
 binding
 doc
 .
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >
@@ -2046,7 +2046,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBindingManager
 >
@@ -2409,7 +2409,7 @@ Length
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 nsXBLBinding
 >

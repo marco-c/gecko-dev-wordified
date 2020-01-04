@@ -328,7 +328,7 @@ eOpChange
 mRange
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozInlineSpellChecker
 >
@@ -456,7 +456,7 @@ the
 entire
 range
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -496,7 +496,7 @@ doesn
 t
 hurt
 )
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -517,7 +517,7 @@ Can
 be
 nullptr
 .
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -1075,7 +1075,7 @@ it
 was
 initialized
 .
-RefPtr
+nsRefPtr
 <
 InitEditorSpellCheckCallback
 >

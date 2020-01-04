@@ -943,7 +943,7 @@ the
 ctor
 )
 .
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >

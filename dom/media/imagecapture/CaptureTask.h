@@ -568,7 +568,7 @@ event
 to
 script
 .
-RefPtr
+nsRefPtr
 <
 dom
 :

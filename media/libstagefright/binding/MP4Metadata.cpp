@@ -344,7 +344,7 @@ NO_ERROR
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Stream
 >

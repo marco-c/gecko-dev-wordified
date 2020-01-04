@@ -1813,7 +1813,7 @@ mFrameLoader
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
@@ -2467,7 +2467,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -2736,7 +2736,7 @@ same
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
@@ -3673,7 +3673,7 @@ TextureFactoryIdentifier
 aTextureFactoryIdentifier
 )
 {
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
@@ -4033,7 +4033,7 @@ aContainerParameters
 .
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >

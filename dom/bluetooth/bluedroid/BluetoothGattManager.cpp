@@ -289,7 +289,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -302,7 +302,7 @@ StaticAutoPtr
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -316,7 +316,7 @@ BluetoothGattClientReadCharState
 bool
 mAuthRetry
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -372,7 +372,7 @@ mWriteValue
 bool
 mAuthRetry
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -446,7 +446,7 @@ BluetoothGattClientReadDescState
 bool
 mAuthRetry
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -499,7 +499,7 @@ mWriteValue
 bool
 mAuthRetry
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -758,49 +758,49 @@ mClientIf
 int
 mConnId
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mStartLeScanRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mConnectRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mDisconnectRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mDiscoverRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mReadRemoteRssiRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mRegisterNotificationsRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mDeregisterNotificationsRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -895,7 +895,7 @@ mServiceId
 uint16_t
 mHandleCount
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -967,7 +967,7 @@ mCharacteristicHandle
 BluetoothUuid
 mDescriptorUuid
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1158,19 +1158,19 @@ rejected
 bool
 mIsRegistering
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mConnectPeripheralRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mDisconnectPeripheralRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1179,13 +1179,13 @@ mUnregisterServerRunnable
 BluetoothGattServerAddServiceState
 mAddServiceState
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mAddIncludedServiceRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1194,31 +1194,31 @@ mAddCharacteristicRunnable
 BluetoothGattServerAddDescriptorState
 mAddDescriptorState
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mRemoveServiceRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mStartServiceRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mStopServiceRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
 mSendResponseRunnable
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1262,7 +1262,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -1291,7 +1291,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -1327,7 +1327,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -1352,7 +1352,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -1384,7 +1384,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -1409,7 +1409,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -1639,7 +1639,7 @@ Init
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1763,7 +1763,7 @@ sClients
 new
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -1781,7 +1781,7 @@ sServers
 new
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -1913,7 +1913,7 @@ Deinit
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1970,7 +1970,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -2045,7 +2045,7 @@ GATT
 was
 initialized
 .
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -2237,7 +2237,7 @@ mClient
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -2427,7 +2427,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -2508,7 +2508,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -2671,7 +2671,7 @@ NS_ENSURE_TRUE_VOID
 gattManager
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -2715,7 +2715,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -2795,7 +2795,7 @@ NS_ENSURE_TRUE_VOID
 gattManager
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -2853,7 +2853,7 @@ aStatus
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -3028,7 +3028,7 @@ EmptyString
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -3172,7 +3172,7 @@ failed
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -3353,7 +3353,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -3528,7 +3528,7 @@ aDeviceAddr
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -3760,7 +3760,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -3925,7 +3925,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4035,7 +4035,7 @@ false
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4118,7 +4118,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4381,7 +4381,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4495,7 +4495,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4712,7 +4712,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -4803,7 +4803,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5107,7 +5107,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5198,7 +5198,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5374,7 +5374,7 @@ mReadCharacteristicState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -5419,7 +5419,7 @@ failed
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5510,7 +5510,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5747,7 +5747,7 @@ mWriteCharacteristicState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -5792,7 +5792,7 @@ failed
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -5894,7 +5894,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -6132,7 +6132,7 @@ mReadDescriptorState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -6177,7 +6177,7 @@ failed
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -6272,7 +6272,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -6507,7 +6507,7 @@ mWriteDescriptorState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -6552,7 +6552,7 @@ failed
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -6654,7 +6654,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -7044,7 +7044,7 @@ mServer
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -7179,7 +7179,7 @@ addressStr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -7308,7 +7308,7 @@ aAppUuid
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -7698,7 +7698,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -7814,7 +7814,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8146,7 +8146,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8222,7 +8222,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8352,7 +8352,7 @@ Reset
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8451,7 +8451,7 @@ aAppUuid
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8704,7 +8704,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8795,7 +8795,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -8998,7 +8998,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9093,7 +9093,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9303,7 +9303,7 @@ Reset
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9400,7 +9400,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9611,7 +9611,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9698,7 +9698,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9899,7 +9899,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -9986,7 +9986,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10188,7 +10188,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10275,7 +10275,7 @@ STATUS_PARM_INVALID
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10506,7 +10506,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10598,7 +10598,7 @@ STATUS_NOT_READY
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10810,7 +10810,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -10921,7 +10921,7 @@ STATUS_NOT_READY
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -11142,7 +11142,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -11877,7 +11877,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -12133,7 +12133,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -12359,7 +12359,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -12684,7 +12684,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -12952,7 +12952,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -13199,7 +13199,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -13602,7 +13602,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -13810,7 +13810,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -13834,7 +13834,7 @@ mReadCharacteristicState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14149,7 +14149,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -14173,7 +14173,7 @@ mWriteCharacteristicState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14389,7 +14389,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -14413,7 +14413,7 @@ mReadDescriptorState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14663,7 +14663,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -14687,7 +14687,7 @@ mWriteDescriptorState
 mRunnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14900,7 +14900,7 @@ sClients
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattClient
 >
@@ -15180,7 +15180,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -15627,7 +15627,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -15909,7 +15909,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -16128,7 +16128,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -16271,7 +16271,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -16491,7 +16491,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -16742,7 +16742,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -16877,7 +16877,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -17012,7 +17012,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -17176,7 +17176,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -17436,7 +17436,7 @@ sServers
 NoIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >

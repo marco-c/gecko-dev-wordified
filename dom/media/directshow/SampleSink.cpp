@@ -484,7 +484,7 @@ SampleSink
 :
 Extract
 (
-RefPtr
+nsRefPtr
 <
 IMediaSample
 >

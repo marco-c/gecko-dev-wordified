@@ -703,7 +703,7 @@ lock
 mHandlerMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 SocketHandler
 >
@@ -1070,7 +1070,7 @@ mConnected
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SocketHandler
 >
@@ -1083,7 +1083,7 @@ nsIThread
 >
 mDebugSenderThread
 ;
-RefPtr
+nsRefPtr
 <
 DebugDataSender
 >
@@ -3877,7 +3877,7 @@ main
 /
 thread
 .
-RefPtr
+nsRefPtr
 <
 DebugDataSender
 >
@@ -3944,7 +3944,7 @@ ClearTask
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DebugDataSender
 >
@@ -4087,7 +4087,7 @@ SendTask
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DebugDataSender
 >
@@ -5292,7 +5292,7 @@ tracking
 in
 DebugGLTextureData
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

@@ -255,7 +255,7 @@ GetPermissionManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -883,7 +883,7 @@ mData
 =
 value
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

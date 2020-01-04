@@ -1358,7 +1358,7 @@ event
 listener
 manager
 .
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -3094,7 +3094,7 @@ dispatching
 is
 finished
 .
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

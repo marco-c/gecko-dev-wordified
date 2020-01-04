@@ -866,7 +866,7 @@ protected
 the
 binding
 set
-RefPtr
+nsRefPtr
 <
 RDFBindingSet
 >

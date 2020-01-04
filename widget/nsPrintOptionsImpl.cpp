@@ -8194,7 +8194,7 @@ the
 parent
 process
 .
-RefPtr
+nsRefPtr
 <
 nsPrintingProxy
 >

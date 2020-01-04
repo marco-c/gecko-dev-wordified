@@ -384,13 +384,13 @@ focus
 and
 outline
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
 mInnerFocusStyle
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

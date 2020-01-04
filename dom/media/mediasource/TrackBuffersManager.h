@@ -267,7 +267,7 @@ MediaType
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -305,7 +305,7 @@ aTimestampOffset
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 AppendPromise
 >
@@ -326,7 +326,7 @@ ResetParserState
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 RangeRemovalPromise
 >
@@ -629,7 +629,7 @@ on
 the
 taskqueue
 .
-RefPtr
+nsRefPtr
 <
 AppendPromise
 >
@@ -712,7 +712,7 @@ have
 been
 processed
 .
-RefPtr
+nsRefPtr
 <
 CodedFrameProcessingPromise
 >
@@ -754,7 +754,7 @@ CompleteResetParserState
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 RangeRemovalPromise
 >
@@ -815,7 +815,7 @@ mNumTracks
 typedef
 Pair
 <
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -869,7 +869,7 @@ sourcebuffer
 input
 -
 buffer
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -1087,7 +1087,7 @@ MediaByteBuffer
 aData
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -1138,19 +1138,19 @@ is
 /
 detected
 .
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
 mPendingInputBuffer
 ;
-RefPtr
+nsRefPtr
 <
 SourceBufferResource
 >
 mCurrentInputBuffer
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDemuxer
 >
@@ -1226,7 +1226,7 @@ DoDemuxVideo
 void
 OnVideoDemuxCompleted
 (
-RefPtr
+nsRefPtr
 <
 MediaTrackDemuxer
 :
@@ -1269,7 +1269,7 @@ DoDemuxAudio
 void
 OnAudioDemuxCompleted
 (
-RefPtr
+nsRefPtr
 <
 MediaTrackDemuxer
 :
@@ -1629,7 +1629,7 @@ buffer
 bool
 mNeedRandomAccessPoint
 ;
-RefPtr
+nsRefPtr
 <
 MediaTrackDemuxer
 >
@@ -1793,7 +1793,7 @@ first
 metadata
 received
 .
-RefPtr
+nsRefPtr
 <
 SharedTrackInfo
 >
@@ -1814,7 +1814,7 @@ each
 init
 segment
 .
-RefPtr
+nsRefPtr
 <
 SharedTrackInfo
 >
@@ -2234,7 +2234,7 @@ IsCurrentThreadIn
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
@@ -2271,7 +2271,7 @@ to
 external
 objects
 .
-RefPtr
+nsRefPtr
 <
 dom
 :

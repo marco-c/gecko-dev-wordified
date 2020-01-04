@@ -3549,7 +3549,7 @@ JSContext
 cx
 )
 {
-RefPtr
+nsRefPtr
 <
 ShimInterfaceInfo
 >

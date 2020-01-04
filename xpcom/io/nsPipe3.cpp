@@ -170,7 +170,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1149,7 +1149,7 @@ nsPipeInputStream
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPipe
 >
@@ -2078,7 +2078,7 @@ a
 weak
 ref
 .
-RefPtr
+nsRefPtr
 <
 nsPipeInputStream
 >
@@ -3613,7 +3613,7 @@ nsIAsyncInputStream
 aInputStream
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPipeInputStream
 >
@@ -5973,7 +5973,7 @@ mon
 mReentrantMonitor
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPipeInputStream
 >

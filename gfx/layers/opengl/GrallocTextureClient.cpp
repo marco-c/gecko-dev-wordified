@@ -346,7 +346,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -503,7 +503,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :
@@ -734,7 +734,7 @@ ANDROID_VERSION
 >
 =
 21
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :
@@ -1198,7 +1198,7 @@ mMappedBuffer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2138,7 +2138,7 @@ Cast
 abstractSurf
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

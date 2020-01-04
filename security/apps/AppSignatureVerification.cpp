@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -6023,7 +6023,7 @@ NS_ENSURE_ARG_POINTER
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 OpenSignedAppFileTask
 >
@@ -6084,7 +6084,7 @@ NS_ENSURE_ARG_POINTER
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 VerifySignedmanifestTask
 >
@@ -8888,7 +8888,7 @@ NS_ENSURE_ARG_POINTER
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 VerifySignedDirectoryTask
 >

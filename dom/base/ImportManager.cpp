@@ -703,7 +703,7 @@ node
 =
 aNode
 ;
-RefPtr
+nsRefPtr
 <
 ImportManager
 >
@@ -1491,7 +1491,7 @@ the
 old
 one
 .
-RefPtr
+nsRefPtr
 <
 ImportManager
 >
@@ -4506,7 +4506,7 @@ start
 it
 up
 .
-RefPtr
+nsRefPtr
 <
 ImportLoader
 >
@@ -4884,7 +4884,7 @@ GetHrefURI
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImportLoader
 >

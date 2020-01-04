@@ -443,7 +443,7 @@ Sort
 (
 AnimationPtrComparator
 <
-RefPtr
+nsRefPtr
 <
 Animation
 >

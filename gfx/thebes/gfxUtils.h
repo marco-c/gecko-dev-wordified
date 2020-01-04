@@ -106,6 +106,13 @@ h
 #
 include
 "
+GraphicsFilter
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
@@ -126,7 +133,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -556,13 +563,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-mozilla
-:
-:
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aImageFlags

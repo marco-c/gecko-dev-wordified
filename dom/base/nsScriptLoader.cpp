@@ -600,7 +600,7 @@ isEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -2346,7 +2346,7 @@ mCORSMode
 CORS_USE_CREDENTIALS
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCORSListenerProxy
 >
@@ -2466,13 +2466,13 @@ nsRunnable
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
 mLoader
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -3096,7 +3096,7 @@ rv
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -4862,13 +4862,13 @@ NotifyOffThreadScriptLoadCompletedRunnable
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -5220,7 +5220,7 @@ this
 /
 function
 .
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -5232,7 +5232,7 @@ forget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -5278,7 +5278,7 @@ void
 aCallbackData
 )
 {
-RefPtr
+nsRefPtr
 <
 NotifyOffThreadScriptLoadCompletedRunnable
 >
@@ -5451,7 +5451,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 NotifyOffThreadScriptLoadCompletedRunnable
 >
@@ -7414,7 +7414,7 @@ ProcessPendingRequests
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -7727,7 +7727,7 @@ ReadyToExecuteScripts
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -8008,7 +8008,7 @@ IsMasterDocument
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ImportManager
 >
@@ -8021,7 +8021,7 @@ ImportManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImportLoader
 >
@@ -8161,7 +8161,7 @@ in
 the
 order
 .
-RefPtr
+nsRefPtr
 <
 ImportLoader
 >
@@ -9307,7 +9307,7 @@ isInList
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -9347,7 +9347,7 @@ isInList
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -9387,7 +9387,7 @@ isInList
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -9427,7 +9427,7 @@ isInList
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -10378,7 +10378,7 @@ isInList
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -10651,7 +10651,7 @@ sriMetadata
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >

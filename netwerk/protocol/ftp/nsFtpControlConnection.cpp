@@ -363,7 +363,7 @@ up
 another
 read
 .
-RefPtr
+nsRefPtr
 <
 nsFtpControlConnectionListener
 >

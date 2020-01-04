@@ -1592,7 +1592,7 @@ MemoryPool
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1601,7 +1601,7 @@ mFrecencyArray
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1814,7 +1814,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >

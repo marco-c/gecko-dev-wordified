@@ -518,7 +518,7 @@ or
 Print
 Preview
 )
-RefPtr
+nsRefPtr
 <
 nsDeviceContext
 >

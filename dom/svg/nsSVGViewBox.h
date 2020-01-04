@@ -722,7 +722,7 @@ it
 belongs
 to
 content
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >
@@ -947,7 +947,7 @@ it
 belongs
 to
 content
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

@@ -317,7 +317,7 @@ friend
 class
 nsToolkitProfileService
 ;
-RefPtr
+nsRefPtr
 <
 nsToolkitProfile
 >
@@ -432,7 +432,7 @@ nsToolkitProfileLock
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsToolkitProfile
 >
@@ -588,7 +588,7 @@ nsIToolkitProfile
 aResult
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsToolkitProfile
 >
@@ -670,7 +670,7 @@ ProfileEnumerator
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsToolkitProfile
 >
@@ -1143,7 +1143,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsToolkitProfileLock
 >
@@ -2964,7 +2964,7 @@ nsIProfileLock
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsToolkitProfileLock
 >

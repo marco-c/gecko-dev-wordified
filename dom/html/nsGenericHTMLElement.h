@@ -2000,7 +2000,7 @@ value
 nsSize
 GetWidthHeightForImage
 (
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

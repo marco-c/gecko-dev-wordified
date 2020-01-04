@@ -290,7 +290,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 FileManager
 >
@@ -880,7 +880,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CleanupFileRunnable
 >
@@ -968,7 +968,7 @@ IsShuttingDown
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IndexedDatabaseManager
 >

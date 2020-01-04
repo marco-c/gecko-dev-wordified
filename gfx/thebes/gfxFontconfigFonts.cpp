@@ -4406,7 +4406,7 @@ FcPattern
 >
 mPattern
 ;
-RefPtr
+nsRefPtr
 <
 gfxFcFont
 >
@@ -4507,7 +4507,7 @@ font
 -
 face
 rules
-RefPtr
+nsRefPtr
 <
 gfxUserFontSet
 >
@@ -8904,7 +8904,7 @@ pango_language_to_string
 aLang
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
@@ -9017,7 +9017,7 @@ mStyle
 printerFont
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFcFontSet
 >
@@ -9164,7 +9164,7 @@ i
 mFontSet
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFcFontSet
 >
@@ -9275,7 +9275,7 @@ HB_UNICODE_GENERAL_CATEGORY_CONTROL
 )
 {
 return
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -9351,7 +9351,7 @@ aCh
 )
 {
 return
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -9417,7 +9417,7 @@ aPrevMatchedFont
 )
 {
 return
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -9836,7 +9836,7 @@ gfxTextRange
 kFontGroup
 ;
 return
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -10020,7 +10020,7 @@ gfxTextRange
 kFontGroup
 ;
 return
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -10274,7 +10274,7 @@ GetFontEntry
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -10923,7 +10923,7 @@ elsewhere
 gfxFontStyle
 style
 ;
-RefPtr
+nsRefPtr
 <
 gfxPangoFontGroup
 >
@@ -11471,7 +11471,7 @@ entry
 if
 available
 .
-RefPtr
+nsRefPtr
 <
 gfxFcFontEntry
 >
@@ -11763,7 +11763,7 @@ GetThebesWeight
 renderPattern
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -11922,7 +11922,7 @@ cairo_font_face_destroy
 face
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFcFont
 >
@@ -11997,7 +11997,7 @@ FcPattern
 >
 pattern
 ;
-RefPtr
+nsRefPtr
 <
 gfxFcFontSet
 >

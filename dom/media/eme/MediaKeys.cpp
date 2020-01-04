@@ -502,7 +502,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -554,7 +554,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -647,7 +647,7 @@ mProxy
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaKeys
 >
@@ -680,7 +680,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -812,7 +812,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1180,7 +1180,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1249,7 +1249,7 @@ aId
 aExceptionCode
 )
 ;
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1562,7 +1562,7 @@ this
 aId
 )
 ;
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1612,7 +1612,7 @@ CreateSession
 )
 promises
 .
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -1755,7 +1755,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -2457,7 +2457,7 @@ uint32_t
 aPluginId
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -2482,7 +2482,7 @@ mNodeId
 =
 aNodeId
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeys
 >
@@ -2561,7 +2561,7 @@ plugin
 crash
 reporter
 .
-RefPtr
+nsRefPtr
 <
 gmp
 :
@@ -2707,7 +2707,7 @@ session
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -2788,7 +2788,7 @@ bool
 aSuccess
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -2887,7 +2887,7 @@ nsAString
 aSessionId
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -2925,7 +2925,7 @@ uint32_t
 aToken
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >

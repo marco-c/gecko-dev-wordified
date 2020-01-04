@@ -459,7 +459,7 @@ selection
 is
 collapsed
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -981,7 +981,7 @@ selection
 is
 collapsed
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -2332,7 +2332,7 @@ mIsMoving
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3012,7 +3012,7 @@ element
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLEditRules
 >
@@ -3545,7 +3545,7 @@ transparent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >
@@ -3581,7 +3581,7 @@ only
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

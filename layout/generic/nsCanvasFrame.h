@@ -968,7 +968,7 @@ purposes
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 DummyTouchListener
 >

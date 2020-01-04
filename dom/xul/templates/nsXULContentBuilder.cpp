@@ -4042,7 +4042,7 @@ rv
 return
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -5244,7 +5244,7 @@ tag
 int32_t
 nameSpaceID
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -8172,7 +8172,7 @@ doc
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

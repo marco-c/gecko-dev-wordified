@@ -198,7 +198,7 @@ nsACString
 aType
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceBufferContentManager
 >

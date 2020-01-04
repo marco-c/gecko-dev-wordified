@@ -2748,7 +2748,7 @@ EndProcessReport
 on
 it
 .
-RefPtr
+nsRefPtr
 <
 nsMemoryReporterManager
 >
@@ -4104,7 +4104,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -4237,7 +4237,7 @@ PreallocateAppProcess
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -4344,7 +4344,7 @@ MOZ_ASSERT
 aApp
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -5300,7 +5300,7 @@ startIdx
 ;
 do
 {
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -5390,7 +5390,7 @@ process
 into
 browser
 .
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -5857,7 +5857,7 @@ false
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -6615,7 +6615,7 @@ nsIBlocklistService
 :
 STATE_BLOCKED
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -6876,13 +6876,13 @@ HasOwnApp
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 TabParent
 >
 tp
 ;
-RefPtr
+nsRefPtr
 <
 nsIContentParent
 >
@@ -7108,7 +7108,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -7251,7 +7251,7 @@ HasOwnApp
 branch
 above
 .
-RefPtr
+nsRefPtr
 <
 nsIContentParent
 >
@@ -7369,7 +7369,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -7757,7 +7757,7 @@ chromeFlags
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -7805,7 +7805,7 @@ releases
 this
 ref
 .
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -8566,7 +8566,7 @@ VolumeInfo
 >
 volumeInfo
 ;
-RefPtr
+nsRefPtr
 <
 nsVolumeService
 >
@@ -8947,7 +8947,7 @@ ShutDown
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SystemMessageHandledListener
 >
@@ -8984,7 +8984,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 WakeLock
 >
@@ -9107,7 +9107,7 @@ GetIsExpectingSystemMessage
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 PowerManagerService
 >
@@ -9120,7 +9120,7 @@ GetInstance
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WakeLock
 >
@@ -9154,7 +9154,7 @@ keeps
 it
 alive
 .
-RefPtr
+nsRefPtr
 <
 SystemMessageHandledListener
 >
@@ -9969,7 +9969,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10343,7 +10343,7 @@ OnChannelError
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -11107,7 +11107,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -11277,7 +11277,7 @@ CLOSE_CHANNEL
 CLOSE_CHANNEL_WITH_ERROR
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -11414,7 +11414,7 @@ if
 obs
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHashPropertyBag
 >
@@ -11779,7 +11779,7 @@ MOZ_ASSERT
 idleService
 )
 ;
-RefPtr
+nsRefPtr
 <
 ParentIdleListener
 >
@@ -15713,7 +15713,7 @@ get_nsCString
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -15819,7 +15819,7 @@ GuaranteePersistance
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -16726,7 +16726,7 @@ bool
 aHidden
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -16778,7 +16778,7 @@ bool
 aAnyChannel
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -16840,7 +16840,7 @@ DataStoreSetting
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 DataStoreService
 >
@@ -17321,7 +17321,7 @@ IsNuwaProcess
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -19809,7 +19809,7 @@ DeviceStorageParams
 aParams
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestParent
 >
@@ -19902,7 +19902,7 @@ FileSystemParams
 aParams
 )
 {
-RefPtr
+nsRefPtr
 <
 FileSystemRequestParent
 >
@@ -21230,7 +21230,7 @@ aClientId
 #
 ifdef
 MOZ_B2G_RIL
-RefPtr
+nsRefPtr
 <
 MobileConnectionParent
 >
@@ -21495,7 +21495,7 @@ uint32_t
 aCertType
 )
 {
-RefPtr
+nsRefPtr
 <
 PSMContentDownloaderParent
 >
@@ -21543,7 +21543,7 @@ PSMContentDownloaderParent
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 PSMContentDownloaderParent
 >
@@ -22233,7 +22233,7 @@ aActor
 #
 ifdef
 MOZ_B2G_BT
-RefPtr
+nsRefPtr
 <
 BluetoothService
 >
@@ -22394,7 +22394,7 @@ AllocPPresentationParent
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationParent
 >
@@ -22428,7 +22428,7 @@ PPresentationParent
 aActor
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationParent
 >
@@ -22581,7 +22581,7 @@ aValue
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 SpeakerManagerService
 >
@@ -22633,7 +22633,7 @@ aEnable
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 SpeakerManagerService
 >
@@ -23649,7 +23649,7 @@ nsCString
 aReason
 )
 {
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -23980,7 +23980,7 @@ GetOrigin
 origin
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -24066,7 +24066,7 @@ ClearWatch
 mGeolocationWatchID
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -24151,7 +24151,7 @@ mGeolocationWatchID
 nsCString
 origin
 ;
-RefPtr
+nsRefPtr
 <
 nsGeolocationSettings
 >
@@ -24450,7 +24450,7 @@ nsString
 aMessage
 )
 {
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -24470,7 +24470,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsConsoleMessage
 >
@@ -24539,7 +24539,7 @@ nsCString
 aCategory
 )
 {
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -25767,7 +25767,7 @@ ShouldContinueFromReplyTimeout
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProcessHangMonitor
 >
@@ -25856,7 +25856,7 @@ information
 from
 content
 process
-RefPtr
+nsRefPtr
 <
 nsHashPropertyBag
 >
@@ -26119,7 +26119,7 @@ rv
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 ParentIdleListener
 >
@@ -26177,7 +26177,7 @@ uint32_t
 aIdleTimeInS
 )
 {
-RefPtr
+nsRefPtr
 <
 ParentIdleListener
 >
@@ -26828,7 +26828,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IndexedDatabaseManager
 >
@@ -26917,7 +26917,7 @@ RecvFlushPendingFileDeletions
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 IndexedDatabaseManager
 >
@@ -27570,7 +27570,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -27661,7 +27661,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -27758,7 +27758,7 @@ the
 IPDL
 reference
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -28274,7 +28274,7 @@ GetSingleton
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -28652,7 +28652,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrar
 >

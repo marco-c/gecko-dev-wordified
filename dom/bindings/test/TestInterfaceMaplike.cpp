@@ -194,7 +194,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TestInterfaceMaplike
 >

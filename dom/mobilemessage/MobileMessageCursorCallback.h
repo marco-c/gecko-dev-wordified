@@ -372,7 +372,7 @@ MobileMessageCursorCallback
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileMessageCursor
 >

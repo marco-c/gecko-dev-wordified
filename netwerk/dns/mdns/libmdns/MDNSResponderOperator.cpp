@@ -1293,7 +1293,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 nsSocketTransportService
 >
@@ -1454,7 +1454,7 @@ if
 aService
 )
 {
-RefPtr
+nsRefPtr
 <
 ServiceWatcher
 >

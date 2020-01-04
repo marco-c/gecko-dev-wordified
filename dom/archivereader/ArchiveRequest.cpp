@@ -224,7 +224,7 @@ private
 /
 /
 data
-RefPtr
+nsRefPtr
 <
 ArchiveRequest
 >
@@ -311,7 +311,7 @@ asynchronous
 :
 *
 /
-RefPtr
+nsRefPtr
 <
 ArchiveRequestEvent
 >
@@ -559,7 +559,7 @@ ReaderReady
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -763,7 +763,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -837,7 +837,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -944,7 +944,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -973,7 +973,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1049,7 +1049,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1110,7 +1110,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1214,7 +1214,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ArchiveRequest
 >

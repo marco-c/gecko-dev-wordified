@@ -3074,7 +3074,7 @@ RemoveCurrentKeyEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 TextInputHandlerBase
 >

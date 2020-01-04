@@ -1595,7 +1595,7 @@ mLength
 uint32_t
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >
@@ -1641,7 +1641,7 @@ mState
 CONNECTED
 )
 {
-RefPtr
+nsRefPtr
 <
 SendMediaDataTask
 >
@@ -1739,7 +1739,7 @@ mListener
 uint8_t
 mIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsIStreamingProtocolMetaData
 >
@@ -1783,7 +1783,7 @@ if
 mListener
 )
 {
-RefPtr
+nsRefPtr
 <
 SendOnConnectedTask
 >
@@ -1928,7 +1928,7 @@ if
 mListener
 )
 {
-RefPtr
+nsRefPtr
 <
 SendOnDisconnectedTask
 >

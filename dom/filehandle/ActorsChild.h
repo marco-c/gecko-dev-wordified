@@ -163,7 +163,7 @@ friend
 class
 MutableFileBase
 ;
-RefPtr
+nsRefPtr
 <
 MutableFileBase
 >
@@ -332,7 +332,7 @@ function
 is
 called
 .
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >
@@ -477,13 +477,13 @@ friend
 class
 FileHandleBase
 ;
-RefPtr
+nsRefPtr
 <
 FileRequestBase
 >
 mFileRequest
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >

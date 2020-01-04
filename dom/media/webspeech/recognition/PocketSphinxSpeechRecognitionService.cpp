@@ -358,7 +358,7 @@ Declare
 javascript
 result
 events
-RefPtr
+nsRefPtr
 <
 SpeechEvent
 >
@@ -1768,7 +1768,7 @@ EVENT_RECOGNITIONSERVICE_FINAL_RESULT
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SpeechEvent
 >

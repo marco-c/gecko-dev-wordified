@@ -939,7 +939,7 @@ window
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >

@@ -266,7 +266,7 @@ PRFileDesc
 aFD
 )
 ;
-RefPtr
+nsRefPtr
 <
 TLSServerSocket
 >

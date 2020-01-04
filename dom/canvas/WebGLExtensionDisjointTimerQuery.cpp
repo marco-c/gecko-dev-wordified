@@ -243,7 +243,7 @@ mIsLost
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 WebGLTimerQuery
 >

@@ -1510,7 +1510,7 @@ NS_ENSURE_ARG_POINTER
 uri
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsBaseChannel
 >

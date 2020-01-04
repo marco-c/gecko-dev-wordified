@@ -3977,7 +3977,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <

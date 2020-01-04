@@ -814,7 +814,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SystemWorkerManager
 >

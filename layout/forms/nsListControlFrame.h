@@ -2487,7 +2487,7 @@ translucent
 nscolor
 mLastDropdownBackstopColor
 ;
-RefPtr
+nsRefPtr
 <
 nsListEventListener
 >

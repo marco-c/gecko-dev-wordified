@@ -440,7 +440,7 @@ nsPoint
 aOutPoint
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccessibleWrap
 >

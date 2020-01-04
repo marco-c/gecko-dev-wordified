@@ -5720,7 +5720,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
@@ -6372,7 +6372,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
@@ -7133,7 +7133,7 @@ do
 the
 work
 .
-RefPtr
+nsRefPtr
 <
 CloseFileRunnable
 >
@@ -7450,7 +7450,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -7889,7 +7889,7 @@ AutoFocusMovingTimerCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
@@ -8011,7 +8011,7 @@ if
 mAutoFocusPending
 )
 {
-RefPtr
+nsRefPtr
 <
 nsITimerCallback
 >
@@ -8146,7 +8146,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
@@ -11052,7 +11052,7 @@ GonkRecorderListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
@@ -12565,7 +12565,7 @@ Count
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 RecorderProfile
 >
@@ -13680,13 +13680,13 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsGonkCameraControl
 >
 mTarget
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -13765,7 +13765,7 @@ uint32_t
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -13820,7 +13820,7 @@ aBuffer
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 Image
 >

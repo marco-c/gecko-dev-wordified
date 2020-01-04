@@ -141,7 +141,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -233,7 +233,7 @@ ServiceWatcher
 DNSServiceRef
 mService
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWatcher
 >
@@ -561,7 +561,7 @@ callback
 is
 made
 .
-RefPtr
+nsRefPtr
 <
 ResolveOperator
 >

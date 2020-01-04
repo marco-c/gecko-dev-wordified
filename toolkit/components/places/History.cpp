@@ -2992,7 +2992,7 @@ aURI
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 VisitedQuery
 >
@@ -3064,7 +3064,7 @@ NS_ENSURE_STATE
 history
 )
 ;
-RefPtr
+nsRefPtr
 <
 VisitedQuery
 >
@@ -3863,7 +3863,7 @@ mPlace
 VisitData
 mReferrer
 ;
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -4947,7 +4947,7 @@ aCallback
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 InsertVisitedURIs
 >
@@ -7534,7 +7534,7 @@ us
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -7621,7 +7621,7 @@ aCallback
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 GetPlaceInfo
 >
@@ -7833,7 +7833,7 @@ mozIVisitInfoCallback
 >
 mCallback
 ;
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -7996,7 +7996,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 SetPageTitle
 >
@@ -8461,7 +8461,7 @@ us
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -8928,7 +8928,7 @@ us
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -9518,7 +9518,7 @@ us
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 History
 >
@@ -9609,7 +9609,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 RemoveVisits
 >
@@ -10996,7 +10996,7 @@ us
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 History
 >

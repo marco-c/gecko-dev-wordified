@@ -357,7 +357,7 @@ nsIContentSerializer
 aSerializer
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXHTMLContentSerializer
 >
@@ -5312,7 +5312,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

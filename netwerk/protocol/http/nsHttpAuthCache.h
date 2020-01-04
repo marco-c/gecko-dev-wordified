@@ -1867,7 +1867,7 @@ port
 -
 >
 nsHttpAuthNode
-RefPtr
+nsRefPtr
 <
 AppDataClearObserver
 >

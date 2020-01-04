@@ -332,7 +332,7 @@ levelBefore
 nsBidiLevel
 levelAfter
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -579,7 +579,7 @@ correctly
 later
 *
 /
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >

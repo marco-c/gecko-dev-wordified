@@ -229,7 +229,7 @@ GetNodeId
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >

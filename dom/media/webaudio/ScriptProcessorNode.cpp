@@ -2172,7 +2172,7 @@ Run
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -2382,7 +2382,7 @@ Create
 the
 input
 buffer
-RefPtr
+nsRefPtr
 <
 AudioBuffer
 >
@@ -2512,7 +2512,7 @@ without
 creating
 them
 !
-RefPtr
+nsRefPtr
 <
 AudioProcessingEvent
 >
@@ -2667,13 +2667,13 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -2714,7 +2714,7 @@ SharedBuffers
 >
 mSharedBuffers
 ;
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

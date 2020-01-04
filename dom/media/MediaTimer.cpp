@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -261,7 +261,7 @@ for
 our
 purposes
 .
-RefPtr
+nsRefPtr
 <
 SharedThreadPool
 >
@@ -535,7 +535,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaTimerPromise
 >
@@ -583,7 +583,7 @@ aTimeStamp
 aCallSite
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaTimerPromise
 >

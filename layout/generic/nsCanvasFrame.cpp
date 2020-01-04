@@ -493,7 +493,7 @@ TouchCaretPrefEnabled
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >
@@ -1416,7 +1416,7 @@ rv
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2230,7 +2230,7 @@ DrawTarget
 aSource
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2327,7 +2327,7 @@ offset
 nsRenderingContext
 context
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2340,7 +2340,7 @@ ThebesContext
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2514,7 +2514,7 @@ if
 dt
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

@@ -176,7 +176,7 @@ nsXULTemplateResultStorage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXULTemplateResultSetStorage
 >

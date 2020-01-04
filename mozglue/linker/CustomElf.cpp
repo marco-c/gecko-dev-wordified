@@ -716,7 +716,7 @@ length
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Mappable
 >
@@ -800,7 +800,7 @@ returning
 nullptr
 *
 /
-RefPtr
+nsRefPtr
 <
 CustomElf
 >
@@ -2775,7 +2775,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 LibHandle
 >
@@ -4968,7 +4968,7 @@ i
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 LibHandle
 >

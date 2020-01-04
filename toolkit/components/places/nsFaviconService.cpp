@@ -742,7 +742,7 @@ mozIStoragePendingStatement
 >
 ps
 ;
-RefPtr
+nsRefPtr
 <
 ExpireFaviconsStatementCallbackNotifier
 >

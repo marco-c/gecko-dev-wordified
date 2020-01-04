@@ -7612,7 +7612,7 @@ hold
 the
 parsed
 CSS
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -7949,7 +7949,7 @@ moz
 binding
 properties
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -8213,7 +8213,7 @@ CSSLoader
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9655,7 +9655,7 @@ shell
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

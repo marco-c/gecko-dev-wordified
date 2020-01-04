@@ -1637,7 +1637,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 xpcAccessibleTextRange
 >
@@ -1997,7 +1997,7 @@ if
 child
 )
 {
-RefPtr
+nsRefPtr
 <
 xpcAccessibleTextRange
 >
@@ -2079,7 +2079,7 @@ Intl
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 xpcAccessibleTextRange
 >

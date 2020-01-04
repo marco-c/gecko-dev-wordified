@@ -303,7 +303,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DumpStatusInfoToTempDirRunnable
 >

@@ -934,7 +934,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 VP8Metadata
 >
@@ -1512,7 +1512,7 @@ VideoChunk
 aChunk
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2374,7 +2374,7 @@ data
 and
 convert
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2420,7 +2420,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4009,7 +4009,7 @@ will
 be
 skip
 .
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >

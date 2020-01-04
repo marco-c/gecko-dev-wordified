@@ -551,7 +551,7 @@ Init
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -615,7 +615,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -730,7 +730,7 @@ profile
 result
 handler
 .
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -810,7 +810,7 @@ profile
 result
 handler
 .
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -1254,7 +1254,7 @@ Deinit
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1316,7 +1316,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1391,7 +1391,7 @@ A2DP
 was
 initialized
 .
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -2029,7 +2029,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >
@@ -2108,7 +2108,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

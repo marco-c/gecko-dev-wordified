@@ -180,7 +180,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -357,7 +357,7 @@ OutputStreamManager
 *
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 ProcessedMediaStream
 >
@@ -374,7 +374,7 @@ an
 input
 stream
 .
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -564,7 +564,7 @@ Connect
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -641,7 +641,7 @@ aParams
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >
@@ -918,7 +918,7 @@ DisconnectListener
 )
 ;
 const
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -978,7 +978,7 @@ DecodedStreamData
 >
 mData
 ;
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

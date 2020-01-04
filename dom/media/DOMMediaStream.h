@@ -1478,7 +1478,7 @@ void
 NotifyTrackAdded
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -1521,7 +1521,7 @@ void
 NotifyTrackRemoved
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -1613,7 +1613,7 @@ GetAudioTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioStreamTrack
 >
@@ -1627,7 +1627,7 @@ GetVideoTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VideoStreamTrack
 >
@@ -1641,7 +1641,7 @@ GetTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -2898,7 +2898,7 @@ void
 NotifyTrackAdded
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -2922,7 +2922,7 @@ void
 NotifyTrackRemoved
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -3143,7 +3143,7 @@ All
 tracks
 forwarded
 .
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -3171,7 +3171,7 @@ removal
 are
 forwarded
 .
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -3189,7 +3189,7 @@ mOwnedStream
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackPort
 >
@@ -3209,7 +3209,7 @@ mPlaybackStream
 .
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackPort
 >
@@ -3217,13 +3217,13 @@ TrackPort
 >
 mTracks
 ;
-RefPtr
+nsRefPtr
 <
 OwnedStreamListener
 >
 mOwnedListener
 ;
-RefPtr
+nsRefPtr
 <
 PlaybackStreamListener
 >
@@ -3296,7 +3296,7 @@ set
 .
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackListener
 >
@@ -3685,7 +3685,7 @@ collected
 too
 early
 .
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -3809,7 +3809,7 @@ aStream
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >
@@ -3833,7 +3833,7 @@ DEFAULT_IMAGE_HEIGHT
 =
 300
 ;
-RefPtr
+nsRefPtr
 <
 OverlayImage
 >

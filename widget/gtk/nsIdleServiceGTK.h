@@ -242,7 +242,7 @@ GetInstance
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIdleServiceGTK
 >

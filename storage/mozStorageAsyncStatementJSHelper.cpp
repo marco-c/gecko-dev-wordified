@@ -434,7 +434,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncStatementParamsHolder
 >

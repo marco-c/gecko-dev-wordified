@@ -453,7 +453,7 @@ nsIAsyncInputStream
 >
 mSocketInput
 ;
-RefPtr
+nsRefPtr
 <
 nsFtpControlConnectionListener
 >

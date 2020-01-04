@@ -267,7 +267,7 @@ mName
 PermissionState
 mState
 ;
-RefPtr
+nsRefPtr
 <
 PermissionObserver
 >

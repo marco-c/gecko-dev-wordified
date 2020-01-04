@@ -936,7 +936,7 @@ GetEventMessage
 eventTypeAtom
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataTransfer
 >
@@ -1562,7 +1562,7 @@ do_QueryInterface
 supports
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1754,7 +1754,7 @@ Types
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -1907,7 +1907,7 @@ nsISupports
 aTypes
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -2764,7 +2764,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -2869,7 +2869,7 @@ aTypes
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -4444,7 +4444,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 OSFileSystem
 >
@@ -4594,7 +4594,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4723,7 +4723,7 @@ GetInnerWindow
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 OSFileSystem
 >

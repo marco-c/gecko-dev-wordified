@@ -963,7 +963,7 @@ nsIContent
 >
 mPopup
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -3600,7 +3600,7 @@ that
 is
 active
 .
-RefPtr
+nsRefPtr
 <
 nsXULPopupShownEvent
 >

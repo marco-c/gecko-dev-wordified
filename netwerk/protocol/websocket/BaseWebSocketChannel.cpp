@@ -1447,7 +1447,7 @@ rv
 return
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >

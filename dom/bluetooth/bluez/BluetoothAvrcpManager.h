@@ -292,7 +292,7 @@ NotifyConnectionStatusChanged
 nsString
 mDeviceAddress
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

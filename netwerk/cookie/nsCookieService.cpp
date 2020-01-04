@@ -2987,7 +2987,7 @@ dbState
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DBState
 >
@@ -4785,7 +4785,7 @@ dbState
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DBState
 >
@@ -15305,7 +15305,7 @@ PR_Now
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCookie
 >
@@ -15464,7 +15464,7 @@ rv
 nsListIter
 matchIter
 ;
-RefPtr
+nsRefPtr
 <
 nsCookie
 >
@@ -17458,7 +17458,7 @@ path
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 nsCookie
 >
@@ -19285,7 +19285,7 @@ a
 unique
 one
 .
-RefPtr
+nsRefPtr
 <
 nsCookie
 >
@@ -22113,7 +22113,7 @@ nsCookie
 and
 copy
 attributes
-RefPtr
+nsRefPtr
 <
 nsCookie
 >
@@ -22532,7 +22532,7 @@ Path
 matchIter
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCookie
 >

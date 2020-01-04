@@ -283,7 +283,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -1258,7 +1258,7 @@ StashDocument
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIDocument
 >
@@ -1273,13 +1273,13 @@ mStartTime
 double
 mEndTime
 ;
-RefPtr
+nsRefPtr
 <
 TextTrack
 >
 mTrack
 ;
-RefPtr
+nsRefPtr
 <
 HTMLTrackElement
 >
@@ -1303,7 +1303,7 @@ mPauseOnExit
 bool
 mSnapToLines
 ;
-RefPtr
+nsRefPtr
 <
 TextTrackRegion
 >
@@ -1370,7 +1370,7 @@ cue
 display
 -
 state
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >

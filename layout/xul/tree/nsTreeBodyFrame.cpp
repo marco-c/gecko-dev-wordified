@@ -21076,10 +21076,10 @@ ThebesContext
 )
 aPresContext
 image
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 pt
 &
 aDirtyRect
@@ -23526,10 +23526,10 @@ ThebesContext
 )
 aPresContext
 image
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 pt
 &
 aDirtyRect

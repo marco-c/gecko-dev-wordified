@@ -124,7 +124,7 @@ MediaResource
 aSource
 )
 ;
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -278,13 +278,13 @@ InitInternal
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaResource
 >
 mSource
 ;
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 >
@@ -2483,7 +2483,7 @@ LastFrame
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -2539,7 +2539,7 @@ GetInfo
 const
 override
 ;
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -2553,7 +2553,7 @@ aTime
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 SamplesPromise
 >
@@ -2572,7 +2572,7 @@ Reset
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 SkipAccessPointPromise
 >

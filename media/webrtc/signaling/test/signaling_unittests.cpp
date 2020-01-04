@@ -2970,7 +2970,7 @@ it
 pulling
 from
 us
-RefPtr
+nsRefPtr
 <
 Fake_SourceMediaStream
 >
@@ -4350,7 +4350,7 @@ explicit
 PCDispatchWrapper
 (
 const
-RefPtr
+nsRefPtr
 <
 PeerConnectionImpl
 >
@@ -4377,7 +4377,7 @@ pc_
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -5362,13 +5362,13 @@ rv
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 PeerConnectionImpl
 >
 pc_
 ;
-RefPtr
+nsRefPtr
 <
 TestObserver
 >
@@ -6435,7 +6435,7 @@ stream
 audio_stream
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -6457,7 +6457,7 @@ hint
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -6889,7 +6889,7 @@ id
 <
 streamId
 ;
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7287,7 +7287,7 @@ id
 <
 streamId
 ;
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7706,7 +7706,7 @@ size
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -7827,7 +7827,7 @@ index
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -9493,7 +9493,7 @@ test
 that
 case
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -9694,13 +9694,13 @@ peer
 }
 public
 :
-RefPtr
+nsRefPtr
 <
 PCDispatchWrapper
 >
 pc
 ;
-RefPtr
+nsRefPtr
 <
 TestObserver
 >
@@ -9723,7 +9723,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -9853,7 +9853,7 @@ tmp
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsSupportsWeakReference
 >
@@ -9864,7 +9864,7 @@ do_QueryObject
 tmp
 )
 ;
-RefPtr
+nsRefPtr
 <
 TestObserver
 >
@@ -29472,7 +29472,7 @@ in
 SDP
 offer
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -29790,7 +29790,7 @@ in
 SDP
 answer
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

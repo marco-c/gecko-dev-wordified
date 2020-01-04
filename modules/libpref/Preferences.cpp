@@ -2401,7 +2401,7 @@ off
 a
 runnable
 .
-RefPtr
+nsRefPtr
 <
 AddPreferencesMemoryReporterRunnable
 >
@@ -4059,7 +4059,7 @@ references
 I
 think
 )
-RefPtr
+nsRefPtr
 <
 nsPrefBranch
 >
@@ -4189,7 +4189,7 @@ references
 I
 think
 )
-RefPtr
+nsRefPtr
 <
 nsPrefBranch
 >
@@ -7129,7 +7129,7 @@ entryName
 uint16_t
 entryNameLen
 ;
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -7628,7 +7628,7 @@ preferences
 .
 js
 .
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -9714,7 +9714,7 @@ aPref
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ValueObserver
 >
@@ -9901,7 +9901,7 @@ aPref
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ValueObserver
 >

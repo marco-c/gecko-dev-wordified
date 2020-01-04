@@ -283,7 +283,7 @@ MediaBufferListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -454,7 +454,7 @@ giving
 up
 mImage
 here
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1080,7 +1080,7 @@ NS_DispatchToMainThread
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -1194,7 +1194,7 @@ NS_DispatchToMainThread
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -1392,7 +1392,7 @@ NS_DispatchToMainThread
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -1901,7 +1901,7 @@ NS_DispatchToMainThread
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -2743,7 +2743,7 @@ NS_DispatchToMainThread
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaEngineGonkVideoSource
 >
@@ -3042,7 +3042,7 @@ TakePhotoError
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PhotoCallback
 >
@@ -3132,7 +3132,7 @@ protected
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PhotoCallback
 >
@@ -3259,7 +3259,7 @@ GenerateBlobRunnable
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PhotoCallback
 >
@@ -3318,7 +3318,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -3366,7 +3366,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -3415,7 +3415,7 @@ NS_OK
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PhotoCallback
 >
@@ -3982,7 +3982,7 @@ ImageFormat
 :
 GONK_CAMERA_IMAGE
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4074,7 +4074,7 @@ MOZ_ASSERT
 mTextureClientAllocator
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4128,7 +4128,7 @@ if
 textureClient
 )
 {
-RefPtr
+nsRefPtr
 <
 layers
 :

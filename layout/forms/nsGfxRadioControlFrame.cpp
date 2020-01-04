@@ -464,7 +464,7 @@ GetDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -492,7 +492,7 @@ Size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >

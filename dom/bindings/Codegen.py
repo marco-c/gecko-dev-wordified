@@ -7782,7 +7782,7 @@ they
 store
 them
 in
-RefPtr
+nsRefPtr
 and
 have
 inline
@@ -12860,7 +12860,7 @@ v
 is
 rooted
               
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -30003,7 +30003,7 @@ Template
 (
                 
 "
-RefPtr
+nsRefPtr
 <
 {
 type
@@ -38116,7 +38116,7 @@ declType
 CGGeneric
 (
 "
-RefPtr
+nsRefPtr
 <
 %
 s
@@ -38272,7 +38272,7 @@ and
 #
 use
 an
-RefPtr
+nsRefPtr
 or
 raw
 pointer
@@ -38559,7 +38559,7 @@ forceOwningType
 declType
 =
 "
-RefPtr
+nsRefPtr
 <
 "
 +
@@ -38985,7 +38985,7 @@ an
 #
 getter_AddRefs
 (
-RefPtr
+nsRefPtr
 )
 to
 XPConnect
@@ -39041,7 +39041,7 @@ templateBody
 +
 =
 "
-RefPtr
+nsRefPtr
 <
 "
 +
@@ -39063,7 +39063,7 @@ else
 holderType
 =
 "
-RefPtr
+nsRefPtr
 <
 "
 +
@@ -41003,7 +41003,7 @@ declType
 CGGeneric
 (
 "
-RefPtr
+nsRefPtr
 <
 %
 s
@@ -50244,7 +50244,7 @@ return
 CGGeneric
 (
 "
-RefPtr
+nsRefPtr
 <
 %
 s
@@ -103835,7 +103835,7 @@ isMember
 holder
 =
 "
-RefPtr
+nsRefPtr
 "
                 
 else
@@ -103969,7 +103969,7 @@ is
 an
 OwningNonNull
 or
-RefPtr
+nsRefPtr
 .
 So
 we
@@ -105792,7 +105792,7 @@ forceOwningType
 typeDecl
 =
 "
-RefPtr
+nsRefPtr
 <
 %
 s
@@ -106051,7 +106051,7 @@ forceOwningType
 declType
 =
 "
-RefPtr
+nsRefPtr
 <
 %
 s
@@ -110314,7 +110314,7 @@ C
 implementation
 .
         
-RefPtr
+nsRefPtr
 <
 {
 implClass
@@ -111323,7 +111323,7 @@ ccDecl
 private
 :
               
-RefPtr
+nsRefPtr
 <
 {
 jsImplName
@@ -112145,7 +112145,7 @@ toObject
 )
 ;
             
-RefPtr
+nsRefPtr
 <
 {
 implName
@@ -125608,7 +125608,7 @@ is
 an
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SomeInterface
 >
@@ -126011,7 +126011,7 @@ fill
 "
 "
             
-RefPtr
+nsRefPtr
 <
 {
 nativeType
@@ -127789,7 +127789,7 @@ nativeType
 pre
 =
 "
-RefPtr
+nsRefPtr
 <
 "
 post

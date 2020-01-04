@@ -205,7 +205,7 @@ nsAString
 aSessionId
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >

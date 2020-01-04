@@ -836,7 +836,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -864,7 +864,7 @@ MediaDecoderReader
 VideoDataPromise
 PromiseType
 ;
-RefPtr
+nsRefPtr
 <
 PromiseType
 :
@@ -882,7 +882,7 @@ Private
 __func__
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -1280,7 +1280,7 @@ t
 scheduled
 already
 .
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -1521,7 +1521,7 @@ ToMicroseconds
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -1564,7 +1564,7 @@ read
 the
 metadata
 .
-RefPtr
+nsRefPtr
 <
 MetadataHolder
 >
@@ -1785,7 +1785,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -1876,7 +1876,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -1884,7 +1884,7 @@ mReader
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -1902,7 +1902,7 @@ int64_t
 aTimeThreshold
 )
 {
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -2025,7 +2025,7 @@ decode
 task
 queue
 .
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -2069,7 +2069,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -2153,7 +2153,7 @@ return
 p
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -2167,7 +2167,7 @@ RequestAudioData
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioDataPromise
 >
@@ -2300,7 +2300,7 @@ GetSize
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -2343,7 +2343,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -2484,7 +2484,7 @@ method
 again
 .
 }
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -2564,7 +2564,7 @@ Shutdown
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >

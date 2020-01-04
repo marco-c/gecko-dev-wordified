@@ -770,7 +770,7 @@ GetFontFamilyList
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >

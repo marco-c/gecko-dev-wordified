@@ -225,7 +225,7 @@ nsIContent
 *
 mContent
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

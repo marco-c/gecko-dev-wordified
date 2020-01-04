@@ -388,7 +388,7 @@ NodeInfo
 >
 ni
 =
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -694,7 +694,7 @@ NodeInfo
 >
 ni
 =
-RefPtr
+nsRefPtr
 <
 mozilla
 :

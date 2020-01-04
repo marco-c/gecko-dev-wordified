@@ -1805,13 +1805,13 @@ Path
 aPath
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawEventRecorderPrivate
 >
 mRecorder
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

@@ -220,7 +220,7 @@ FileHandleBase
 public
 nsSupportsWeakReference
 {
-RefPtr
+nsRefPtr
 <
 IDBMutableFile
 >

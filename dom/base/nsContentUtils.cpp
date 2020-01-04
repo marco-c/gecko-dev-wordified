@@ -40306,7 +40306,7 @@ unused
 nsresult
 rv
 =
-NS_ParseRequestContentType
+NS_ParseContentType
 (
 aHeaderValue
 contentType
@@ -41999,7 +41999,7 @@ if
 image
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -42031,10 +42031,7 @@ if
 surface
 )
 {
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

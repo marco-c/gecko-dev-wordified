@@ -1113,7 +1113,7 @@ a
 child
 process
 .
-RefPtr
+nsRefPtr
 <
 TCPSocketChild
 >
@@ -1130,7 +1130,7 @@ a
 parent
 process
 .
-RefPtr
+nsRefPtr
 <
 TCPSocketParent
 >

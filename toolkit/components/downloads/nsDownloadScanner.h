@@ -446,7 +446,7 @@ mStartTime
 HANDLE
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >

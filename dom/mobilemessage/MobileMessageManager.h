@@ -320,7 +320,7 @@ SmsSendParameters
 aSendParams
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >

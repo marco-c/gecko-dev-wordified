@@ -233,7 +233,7 @@ public
 /
 3GPP
 members
-RefPtr
+nsRefPtr
 <
 AMRSpecificBox
 >

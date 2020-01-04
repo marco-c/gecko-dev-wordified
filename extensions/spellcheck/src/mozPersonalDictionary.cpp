@@ -505,7 +505,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozPersonalDictionary
 >
@@ -938,7 +938,7 @@ nsIFile
 >
 mFile
 ;
-RefPtr
+nsRefPtr
 <
 mozPersonalDictionary
 >

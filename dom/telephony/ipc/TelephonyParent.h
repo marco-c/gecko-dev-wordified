@@ -509,13 +509,13 @@ private
 bool
 mActorDestroyed
 ;
-RefPtr
+nsRefPtr
 <
 Callback
 >
 mCallback
 ;
-RefPtr
+nsRefPtr
 <
 DialCallback
 >

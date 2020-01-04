@@ -634,7 +634,7 @@ to
 restore
 *
 /
-RefPtr
+nsRefPtr
 <
 mozilla
 :

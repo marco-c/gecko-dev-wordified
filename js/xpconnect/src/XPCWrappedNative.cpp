@@ -1708,7 +1708,7 @@ the
 native
 object
 .
-RefPtr
+nsRefPtr
 <
 XPCWrappedNative
 >
@@ -2470,7 +2470,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 XPCWrappedNative
 >
@@ -3596,7 +3596,7 @@ GetWrappedNativeMap
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 XPCWrappedNative
 >
@@ -3831,7 +3831,7 @@ MOZ_ASSERT
 Interface
 )
 ;
-RefPtr
+nsRefPtr
 <
 XPCWrappedNative
 >
@@ -6497,7 +6497,7 @@ held
 .
 .
 .
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -7767,7 +7767,7 @@ for
 this
 object
 .
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -8477,7 +8477,7 @@ nsIPropertyBag
 jso
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXPCWrappedJSClass
 >

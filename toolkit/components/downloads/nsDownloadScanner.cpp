@@ -1606,7 +1606,7 @@ it
 s
 available
 .
-RefPtr
+nsRefPtr
 <
 IAttachmentExecute
 >
@@ -1894,7 +1894,7 @@ isDataScheme
 return
 AVPOLICY_DOWNLOAD
 ;
-RefPtr
+nsRefPtr
 <
 IAttachmentExecute
 >
@@ -3049,7 +3049,7 @@ disable
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IAttachmentExecute
 >

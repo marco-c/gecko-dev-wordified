@@ -1425,7 +1425,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -1545,7 +1545,7 @@ manager
 is
 done
 .
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -1716,7 +1716,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -2622,7 +2622,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -2851,7 +2851,7 @@ HasMore
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -3473,7 +3473,7 @@ mManager
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -3743,7 +3743,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -4154,7 +4154,7 @@ const
 CacheMatchArgs
 mArgs
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -4552,7 +4552,7 @@ const
 CacheMatchAllArgs
 mArgs
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -6585,7 +6585,7 @@ Action
 API
 contract
 .
-RefPtr
+nsRefPtr
 <
 Action
 :
@@ -6615,7 +6615,7 @@ aRv
 initiating
 thread
 only
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -6671,7 +6671,7 @@ mExpectedAsyncCopyCompletions
 target
 thread
 only
-RefPtr
+nsRefPtr
 <
 Resolver
 >
@@ -7439,7 +7439,7 @@ const
 CacheKeysArgs
 mArgs
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -7831,7 +7831,7 @@ const
 StorageMatchArgs
 mArgs
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -8736,7 +8736,7 @@ outstanding
 references
 delete
 immediately
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -8775,7 +8775,7 @@ CancelForCacheId
 mCacheId
 )
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -10123,7 +10123,7 @@ RemoveElementAt
 i
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -10189,7 +10189,7 @@ CancelForCacheId
 aCacheId
 )
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -10447,7 +10447,7 @@ RemoveElementAt
 i
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -10505,7 +10505,7 @@ NoteOrphanedData
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -10564,7 +10564,7 @@ GetManagerId
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ManagerId
 >
@@ -10708,7 +10708,7 @@ void_t
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -10727,7 +10727,7 @@ IsCanceled
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -10748,7 +10748,7 @@ SaveListener
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -10935,7 +10935,7 @@ void_t
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -10954,7 +10954,7 @@ IsCanceled
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 StreamList
 >
@@ -10975,7 +10975,7 @@ SaveListener
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -11201,7 +11201,7 @@ CachePutAllResult
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -11228,7 +11228,7 @@ SaveListener
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -11412,7 +11412,7 @@ NS_ASSERT_OWNINGTHREAD
 Manager
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -11470,7 +11470,7 @@ Context
 goes
 away
 .
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -11481,7 +11481,7 @@ SetupAction
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -11635,7 +11635,7 @@ if
 mContext
 )
 {
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -11733,7 +11733,7 @@ is
 cleaned
 up
 .
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -12263,7 +12263,7 @@ startup
 bug
 1110446
 )
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -12293,7 +12293,7 @@ IsCanceled
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -12394,7 +12394,7 @@ storage
 /
 invalidation
 .
-RefPtr
+nsRefPtr
 <
 Context
 >

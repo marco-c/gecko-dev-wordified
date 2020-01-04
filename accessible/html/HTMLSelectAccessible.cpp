@@ -1163,7 +1163,7 @@ and
 cache
 it
 .
-RefPtr
+nsRefPtr
 <
 Accessible
 >

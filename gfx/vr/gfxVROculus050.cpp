@@ -3454,7 +3454,7 @@ if
 hmd
 )
 {
-RefPtr
+nsRefPtr
 <
 HMDInfoOculus050
 >
@@ -3549,7 +3549,7 @@ if
 hmd
 )
 {
-RefPtr
+nsRefPtr
 <
 HMDInfoOculus050
 >
@@ -3647,7 +3647,7 @@ GetHMDs
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRHMDInfo
 >

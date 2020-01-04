@@ -293,7 +293,7 @@ nsMIMEInfoAndroid
 aMimeInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoAndroid
 >

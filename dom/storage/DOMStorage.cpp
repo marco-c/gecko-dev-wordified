@@ -1090,7 +1090,7 @@ in
 /
 nsGlobalWindow
 .
-RefPtr
+nsRefPtr
 <
 StorageEvent
 >
@@ -1111,7 +1111,7 @@ storage
 dict
 )
 ;
-RefPtr
+nsRefPtr
 <
 StorageNotifierRunnable
 >

@@ -849,7 +849,7 @@ infallible
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

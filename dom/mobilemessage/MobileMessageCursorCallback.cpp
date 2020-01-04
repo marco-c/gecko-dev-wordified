@@ -663,7 +663,7 @@ MOZ_ASSERT
 mDOMCursor
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCursor
 >
@@ -982,7 +982,7 @@ MOZ_ASSERT
 mDOMCursor
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCursor
 >

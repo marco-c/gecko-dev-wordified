@@ -197,7 +197,7 @@ cert_
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -917,7 +917,7 @@ derCert
 *
 signedCert
 ;
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >

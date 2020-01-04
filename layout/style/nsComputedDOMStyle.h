@@ -720,7 +720,7 @@ ClearStyleContext
 void
 SetResolvedStyleContext
 (
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

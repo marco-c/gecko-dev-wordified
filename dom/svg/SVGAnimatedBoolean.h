@@ -299,7 +299,7 @@ it
 belongs
 to
 content
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

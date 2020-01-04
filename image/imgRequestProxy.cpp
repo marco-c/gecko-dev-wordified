@@ -376,7 +376,7 @@ if
 mOwner
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -495,7 +495,7 @@ pointers
 in
 it
 .
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
@@ -534,7 +534,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -1320,7 +1320,7 @@ wasDecoded
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -2060,7 +2060,7 @@ mDecodeRequested
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2132,7 +2132,7 @@ mDecodeRequested
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2189,7 +2189,7 @@ mLockCount
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2244,7 +2244,7 @@ mLockCount
 -
 -
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2280,7 +2280,7 @@ RequestDiscard
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2320,7 +2320,7 @@ mAnimationConsumers
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2440,7 +2440,7 @@ mAnimationConsumers
 -
 -
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2692,7 +2692,7 @@ off
 of
 mOwner
 .
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2777,7 +2777,7 @@ uint32_t
 aStatus
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -3097,7 +3097,7 @@ currentPrincipal
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -3235,7 +3235,7 @@ aClone
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -4789,7 +4789,7 @@ aReturn
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -4925,7 +4925,7 @@ of
 this
 image
 .
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -4965,7 +4965,7 @@ currentPrincipal
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -5063,7 +5063,7 @@ mCanceled
 everywhere
 too
 .
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -5223,7 +5223,7 @@ mCanceled
 everywhere
 too
 .
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -5250,7 +5250,7 @@ SetHasImage
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -5265,7 +5265,7 @@ MOZ_ASSERT
 progressTracker
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -5447,7 +5447,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -5572,7 +5572,7 @@ GetImage
 const
 override
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -5701,7 +5701,7 @@ the
 underlying
 request
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :

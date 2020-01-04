@@ -236,7 +236,7 @@ GetSize
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -268,7 +268,7 @@ GetSurfaces
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -309,7 +309,7 @@ csurf
 )
 break
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

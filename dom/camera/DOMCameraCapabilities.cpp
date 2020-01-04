@@ -268,7 +268,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -1476,7 +1476,7 @@ aFound
 profile
 )
 {
-RefPtr
+nsRefPtr
 <
 ICameraControl
 :
@@ -2905,7 +2905,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CameraRecorderProfiles
 >

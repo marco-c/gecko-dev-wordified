@@ -557,7 +557,7 @@ fail
 "
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -657,7 +657,7 @@ not
 fail
 "
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -767,7 +767,7 @@ not
 fail
 "
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -879,7 +879,7 @@ not
 fail
 "
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -1097,7 +1097,7 @@ not
 fail
 "
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -1637,7 +1637,7 @@ not
 fail
 "
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -1722,7 +1722,7 @@ TestWriteData
 )
 {
 {
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >
@@ -1933,7 +1933,7 @@ fail
 "
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerRegistrarTest
 >

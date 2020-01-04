@@ -368,7 +368,7 @@ a
 new
 instance
 .
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -795,7 +795,7 @@ nsAString
 aFilename
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1365,7 +1365,7 @@ if
 tuple
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1625,7 +1625,7 @@ do_QueryInterface
 supports
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1790,7 +1790,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFormData
 >

@@ -1020,7 +1020,7 @@ GetPairedDevices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >
@@ -3014,7 +3014,7 @@ created
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothGattServer
 >
@@ -3036,7 +3036,7 @@ types
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothPairingListener
 >
@@ -3091,7 +3091,7 @@ adapter
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -3136,7 +3136,7 @@ LeDeviceEvent
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothDiscoveryHandle
 >
@@ -3288,7 +3288,7 @@ removed
 /
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >

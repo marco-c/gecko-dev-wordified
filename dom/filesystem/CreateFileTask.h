@@ -297,7 +297,7 @@ static
 uint32_t
 sOutputBufferSize
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -320,7 +320,7 @@ on
 main
 thread
 .
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -375,7 +375,7 @@ the
 BlobImpl
 instead
 .
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

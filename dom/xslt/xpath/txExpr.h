@@ -2955,7 +2955,7 @@ aValue
 TX_DECL_EXPR
 private
 :
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

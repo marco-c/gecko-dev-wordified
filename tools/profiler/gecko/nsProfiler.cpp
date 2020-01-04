@@ -986,7 +986,7 @@ NS_ERROR_FAILURE
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
