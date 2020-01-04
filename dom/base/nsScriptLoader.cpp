@@ -5331,6 +5331,10 @@ aUrls
 AppendElement
 (
 uri
+.
+forget
+(
+)
 )
 ;
 }

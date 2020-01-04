@@ -9504,9 +9504,13 @@ shell
 {
 docshells
 .
-AppendObject
+AppendElement
 (
 shell
+.
+forget
+(
+)
 )
 ;
 }

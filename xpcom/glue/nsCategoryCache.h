@@ -484,9 +484,13 @@ service
 {
 aResult
 .
-AppendObject
+AppendElement
 (
 service
+.
+forget
+(
+)
 )
 ;
 }
