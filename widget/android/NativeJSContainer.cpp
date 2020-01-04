@@ -3879,6 +3879,9 @@ impl
 )
 )
 ;
+if
+(
+!
 mChildren
 .
 append
@@ -3891,7 +3894,13 @@ GlobalRef
 instance
 )
 )
+)
+{
+MOZ_CRASH
+(
+)
 ;
+}
 return
 instance
 ;
