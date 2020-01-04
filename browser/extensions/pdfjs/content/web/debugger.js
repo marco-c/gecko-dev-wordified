@@ -124,12 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-pdfjsLib
-*
-/
 '
 use
 strict
@@ -526,6 +520,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 var
@@ -2146,6 +2141,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 var
@@ -3366,6 +3362,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 this
@@ -3893,6 +3890,7 @@ init
 function
 init
 (
+pdfjsLib
 )
 {
 /
@@ -4186,6 +4184,7 @@ tool
 .
 init
 (
+pdfjsLib
 )
 ;
 }
