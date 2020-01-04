@@ -12067,15 +12067,15 @@ abs_src_dir
 ]
                                    
 '
-taskcluster
+testing
 '
                                    
 '
-ci
+mozharness
 '
                                    
 '
-legacy
+configs
 '
                                    
 '
