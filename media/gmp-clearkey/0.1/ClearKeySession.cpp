@@ -165,6 +165,13 @@ h
 #
 include
 "
+ClearKeyCencParser
+.
+h
+"
+#
+include
+"
 gmp
 -
 task
@@ -410,9 +417,6 @@ cenc
 "
 )
 {
-ClearKeyUtils
-:
-:
 ParseCENCInitData
 (
 aInitData
