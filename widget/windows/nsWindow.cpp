@@ -38232,6 +38232,10 @@ mResizeState
 =
 aNewState
 ;
+ForcePresent
+(
+)
+;
 }
 /
 *
