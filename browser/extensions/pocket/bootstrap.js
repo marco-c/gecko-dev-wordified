@@ -2893,9 +2893,9 @@ startup
 if
 (
 reason
+!
 =
-=
-ADDON_ENABLE
+APP_STARTUP
 )
 {
 for
@@ -4204,9 +4204,9 @@ away
 if
 (
 reason
+!
 =
-=
-ADDON_DISABLE
+APP_SHUTDOWN
 )
 {
 Services
