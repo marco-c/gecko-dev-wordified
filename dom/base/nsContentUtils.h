@@ -1328,12 +1328,6 @@ SubjectPrincipal
 }
 static
 bool
-IsImageSrcSetDisabled
-(
-)
-;
-static
-bool
 LookupBindingMember
 (
 JSContext

@@ -454,12 +454,6 @@ MaybeLoadSVGImage
 (
 )
 ;
-bool
-IsImageSrcSetDisabled
-(
-)
-const
-;
 /
 /
 WebIDL

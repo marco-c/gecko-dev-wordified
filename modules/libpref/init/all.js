@@ -11041,16 +11041,6 @@ pref
 "
 dom
 .
-disable_image_src_set
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_flip
 "
 false
