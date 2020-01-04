@@ -179,10 +179,10 @@ License
 /
 #
 ifndef
-wasm_text_h
+wasm_text_to_binary_h
 #
 define
-wasm_text_h
+wasm_text_to_binary_h
 #
 include
 "
@@ -289,4 +289,4 @@ js
 endif
 /
 /
-wasm_text_h
+wasm_text_to_binary_h

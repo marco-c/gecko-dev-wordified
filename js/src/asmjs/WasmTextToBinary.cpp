@@ -182,7 +182,7 @@ include
 "
 asmjs
 /
-WasmText
+WasmTextToBinary
 .
 h
 "
