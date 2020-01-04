@@ -212,11 +212,13 @@ if
 mozinfo
 .
 info
-[
+.
+get
+(
 '
 buildapp
 '
-]
+)
 =
 =
 '
@@ -476,14 +478,7 @@ mozinfo
 .
 find_and_update_from_json
 (
-os
-.
-path
-.
-dirname
-(
 here
-)
 )
     
 if
