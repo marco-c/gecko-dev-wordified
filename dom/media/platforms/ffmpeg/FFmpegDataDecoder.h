@@ -371,6 +371,10 @@ bool
 >
 mIsFlushing
 ;
+AVCodecParserContext
+*
+mCodecParser
+;
 private
 :
 static
