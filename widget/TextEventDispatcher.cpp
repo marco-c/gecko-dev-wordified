@@ -2464,11 +2464,9 @@ it
 .
 keyEvent
 .
-mFlags
-.
-mDefaultPrevented
-=
-true
+PreventDefaultBeforeDispatch
+(
+)
 ;
 }
 /
