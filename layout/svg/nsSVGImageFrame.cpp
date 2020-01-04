@@ -881,8 +881,12 @@ as
 always
 visible
 .
-IncApproximateVisibleCount
+IncVisibilityCount
 (
+VisibilityCounter
+:
+:
+IN_DISPLAYPORT
 )
 ;
 }
@@ -1000,8 +1004,12 @@ GetStateBits
 NS_FRAME_IS_NONDISPLAY
 )
 {
-DecApproximateVisibleCount
+DecVisibilityCount
 (
+VisibilityCounter
+:
+:
+IN_DISPLAYPORT
 )
 ;
 }
