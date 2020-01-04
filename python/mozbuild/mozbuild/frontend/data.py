@@ -5028,11 +5028,10 @@ Sandbox
 container
 object
 for
-FINAL_TARGET_FILES
+DIST_FILES
 which
 is
 a
-    
 HierarchicalStringList
 .
     

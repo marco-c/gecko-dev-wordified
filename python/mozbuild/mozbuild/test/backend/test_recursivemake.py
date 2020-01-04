@@ -6429,7 +6429,7 @@ expected
 [
             
 '
-DIST_FILES
+DIST_FILES_0
 +
 =
 install
@@ -6438,12 +6438,33 @@ rdf
 '
             
 '
-DIST_FILES
+DIST_FILES_0
 +
 =
 main
 .
 js
+'
+            
+'
+DIST_FILES_0_PATH
+:
+=
+(
+DEPTH
+)
+/
+dist
+/
+bin
+/
+'
+            
+'
+PP_TARGETS
++
+=
+DIST_FILES_0
 '
         
 ]
@@ -6457,14 +6478,11 @@ str
 in
 lines
 if
-str
-.
-startswith
-(
 '
 DIST_FILES
 '
-)
+in
+str
 ]
         
 self
