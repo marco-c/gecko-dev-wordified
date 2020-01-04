@@ -1344,12 +1344,7 @@ if
 mPCMedia
 -
 >
-ice_ctx_hdlr
-(
-)
--
->
-IsRestarting
+IsIceRestarting
 (
 )
 )
