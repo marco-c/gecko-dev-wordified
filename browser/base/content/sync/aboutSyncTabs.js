@@ -1788,6 +1788,11 @@ updateTabList
 Promise
 .
 reject
+.
+bind
+(
+Promise
+)
 )
 ;
 }
