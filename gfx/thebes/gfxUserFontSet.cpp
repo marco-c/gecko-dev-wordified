@@ -2502,9 +2502,9 @@ is
 being
 used
 .
-gfxFontEntry
+gfxPlatformFontList
 *
-fe
+pfl
 =
 gfxPlatformFontList
 :
@@ -2512,6 +2512,15 @@ gfxPlatformFontList
 PlatformFontList
 (
 )
+;
+gfxFontEntry
+*
+fe
+=
+pfl
+&
+&
+pfl
 -
 >
 IsFontFamilyWhitelistActive
