@@ -190,6 +190,8 @@ nsAString
 aSessionId
 uint16_t
 aState
+nsresult
+aReason
 )
 ;
 nsresult

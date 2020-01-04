@@ -345,6 +345,10 @@ const
 uint16_t
 &
 aState
+const
+nsresult
+&
+aReason
 )
 {
 if
@@ -363,6 +367,7 @@ NotifySessionStateChange
 (
 aSessionId
 aState
+aReason
 )
 )
 )

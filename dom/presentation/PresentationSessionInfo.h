@@ -307,6 +307,10 @@ nsIPresentationSessionListener
 :
 STATE_CONNECTING
 )
+mReason
+(
+NS_OK
+)
 {
 MOZ_ASSERT
 (
@@ -561,10 +565,12 @@ UntrackFromService
 )
 ;
 void
-SetState
+SetStateWithReason
 (
 uint32_t
 aState
+nsresult
+aReason
 )
 {
 if
@@ -581,6 +587,10 @@ return
 mState
 =
 aState
+;
+mReason
+=
+aReason
 ;
 /
 /
@@ -604,6 +614,7 @@ NotifyStateChange
 (
 mSessionId
 mState
+aReason
 )
 ;
 NS_WARN_IF
@@ -677,6 +688,9 @@ mState
 CONNECTED
 CLOSED
 TERMINATED
+nsresult
+mReason
+;
 nsCOMPtr
 <
 nsIPresentationSessionListener
