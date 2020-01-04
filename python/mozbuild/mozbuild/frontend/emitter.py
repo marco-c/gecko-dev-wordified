@@ -101,10 +101,6 @@ path
 as
 mozpath
 import
-manifestparser
-import
-reftest
-import
 mozinfo
 from
 .
@@ -171,8 +167,6 @@ JARManifest
 Library
     
 Linkable
-    
-LinkageWrongKindError
     
 LocalInclude
     
@@ -7981,6 +7975,7 @@ items
             
 for
 path
+manifest
 in
 context
 .
@@ -8007,6 +8002,7 @@ _process_test_manifest
 context
 info
 path
+manifest
 )
 :
                     
@@ -8021,6 +8017,7 @@ REFTEST_FLAVORS
             
 for
 path
+manifest
 in
 context
 .
@@ -8051,6 +8048,7 @@ _process_reftest_manifest
 context
 flavor
 path
+manifest
 )
 :
                     
@@ -8065,6 +8063,7 @@ WEB_PATFORM_TESTS_FLAVORS
             
 for
 path
+manifest
 in
 context
 .
@@ -8104,6 +8103,7 @@ _process_web_platform_tests_manifest
 (
 context
 path
+manifest
 )
 :
                     
@@ -8117,6 +8117,7 @@ self
 context
 info
 manifest_path
+mpmanifest
 )
 :
         
@@ -8126,15 +8127,6 @@ install_subdir
 package_tests
 =
 info
-        
-manifest_path
-=
-mozpath
-.
-normpath
-(
-manifest_path
-)
         
 path
 =
@@ -8195,33 +8187,9 @@ install_subdir
 try
 :
             
-m
-=
-manifestparser
-.
-TestManifest
-(
-manifests
-=
-[
-path
-]
-strict
-=
-True
-                                            
-rootdir
-=
-context
-.
-config
-.
-topsrcdir
-)
-            
 defaults
 =
-m
+mpmanifest
 .
 manifest_defaults
 [
@@ -8237,7 +8205,7 @@ path
             
 if
 not
-m
+mpmanifest
 .
 tests
 :
@@ -8265,7 +8233,7 @@ TestManifest
 (
 context
 path
-m
+mpmanifest
 flavor
 =
 flavor
@@ -8302,7 +8270,7 @@ defaults
             
 filtered
 =
-m
+mpmanifest
 .
 tests
             
@@ -9116,7 +9084,7 @@ directives
 for
 mpath
 in
-m
+mpmanifest
 .
 manifests
 (
@@ -9401,17 +9369,9 @@ self
 context
 flavor
 manifest_path
+manifest
 )
 :
-        
-manifest_path
-=
-mozpath
-.
-normpath
-(
-manifest_path
-)
         
 manifest_full_path
 =
@@ -9449,21 +9409,6 @@ config
 .
 topsrcdir
 )
-)
-        
-manifest
-=
-reftest
-.
-ReftestManifest
-(
-)
-        
-manifest
-.
-load
-(
-manifest_full_path
 )
         
 #
@@ -9637,172 +9582,12 @@ yield
 obj
     
 def
-_load_web_platform_tests_manifest
-(
-self
-context
-manifest_path
-tests_root
-)
-:
-        
-old_path
-=
-sys
-.
-path
-[
-:
-]
-        
-try
-:
-            
-#
-Setup
-sys
-.
-path
-to
-include
-all
-the
-dependencies
-required
-to
-import
-            
-#
-the
-web
--
-platform
--
-tests
-manifest
-parser
-.
-web
--
-platform
--
-tests
-provides
-            
-#
-a
-the
-localpaths
-.
-py
-to
-do
-the
-path
-manipulation
-which
-we
-load
-            
-#
-providing
-the
-__file__
-variable
-so
-it
-can
-resolve
-the
-relative
-            
-#
-paths
-correctly
-.
-            
-paths_file
-=
-os
-.
-path
-.
-join
-(
-context
-.
-config
-.
-topsrcdir
-"
-testing
-"
-                                      
-"
-web
--
-platform
-"
-"
-tests
-"
-"
-tools
-"
-"
-localpaths
-.
-py
-"
-)
-            
-_globals
-=
-{
-"
-__file__
-"
-:
-paths_file
-}
-            
-execfile
-(
-paths_file
-_globals
-)
-            
-import
-manifest
-as
-wptmanifest
-        
-finally
-:
-            
-sys
-.
-path
-=
-old_path
-        
-return
-wptmanifest
-.
-manifest
-.
-load
-(
-tests_root
-manifest_path
-)
-    
-def
 _process_web_platform_tests_manifest
 (
 self
 context
 paths
+manifest
 )
 :
         
@@ -9810,15 +9595,6 @@ manifest_path
 tests_root
 =
 paths
-        
-manifest_path
-=
-mozpath
-.
-normpath
-(
-manifest_path
-)
         
 manifest_full_path
 =
@@ -9873,17 +9649,6 @@ context
 srcdir
 tests_root
 )
-)
-        
-manifest
-=
-self
-.
-_load_web_platform_tests_manifest
-(
-context
-manifest_full_path
-tests_root
 )
         
 #

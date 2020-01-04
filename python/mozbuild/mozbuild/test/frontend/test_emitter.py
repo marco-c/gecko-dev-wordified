@@ -2897,7 +2897,7 @@ self
 .
 assertRaisesRegexp
 (
-SandboxValidationError
+BuildReaderError
 '
 IOError
 :
