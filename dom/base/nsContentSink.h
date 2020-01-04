@@ -505,8 +505,7 @@ StyleSheetLoaded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 bool
 aWasAlternate

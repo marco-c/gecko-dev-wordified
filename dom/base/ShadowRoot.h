@@ -145,6 +145,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleSheetHandle
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -270,8 +279,7 @@ aId
 void
 InsertSheet
 (
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 nsIContent
 *
@@ -281,8 +289,7 @@ aLinkingContent
 void
 RemoveSheet
 (
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 )
 ;

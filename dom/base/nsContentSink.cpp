@@ -1290,8 +1290,7 @@ nsContentSink
 :
 StyleSheetLoaded
 (
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 bool
 aWasAlternate

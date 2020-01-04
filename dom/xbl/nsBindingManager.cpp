@@ -4524,8 +4524,7 @@ AppendAllSheets
 (
 nsTArray
 <
-CSSStyleSheet
-*
+StyleSheetHandle
 >
 &
 aArray

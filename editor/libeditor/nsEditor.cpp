@@ -24115,8 +24115,7 @@ nsEditor
 :
 CreateTxnForAddStyleSheet
 (
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 AddStyleSheetTxn
 *
@@ -24173,8 +24172,7 @@ nsEditor
 :
 CreateTxnForRemoveStyleSheet
 (
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 RemoveStyleSheetTxn
 *
