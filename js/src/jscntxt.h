@@ -3292,11 +3292,11 @@ char
 *
 *
 message
+ErrorArgumentsType
+argumentsType
 JSErrorReport
 *
 reportp
-ErrorArgumentsType
-argumentsType
 va_list
 ap
 )

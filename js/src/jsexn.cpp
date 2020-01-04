@@ -6156,9 +6156,9 @@ nullptr
 JSMSG_UNCAUGHT_EXCEPTION
 &
 ownedMessage
+ArgumentsAreASCII
 &
 ownedReport
-ArgumentsAreASCII
 ap
 )
 )
