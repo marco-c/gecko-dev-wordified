@@ -7818,16 +7818,6 @@ x
 +
 maxDescent
 ;
-/
-/
-XXX
-will
-need
-update
-for
-sideways
--
-left
 if
 (
 wm
