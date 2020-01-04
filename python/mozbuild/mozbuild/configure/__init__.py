@@ -289,7 +289,7 @@ processing
 The
 sandbox
 has
-5
+8
 primitives
 :
     
@@ -308,17 +308,29 @@ advanced
 -
 include
     
+-
+set_config
+    
+-
+set_define
+    
+-
+imply_option
+    
 option
-and
 include
+set_config
+set_define
+and
+imply_option
 are
+    
 functions
 .
 depends
 template
 and
 advanced
-    
 are
 decorators
 .
