@@ -157,9 +157,9 @@ h
 #
 include
 "
-libavformat
+libavutil
 /
-avformat
+avutil
 .
 h
 "
@@ -168,7 +168,7 @@ include
 "
 libavutil
 /
-imgutils
+mem
 .
 h
 "
@@ -222,7 +222,7 @@ enum
 {
 LIBAV_VER
 =
-LIBAVFORMAT_VERSION_MAJOR
+LIBAVCODEC_VERSION_MAJOR
 }
 ;
 namespace

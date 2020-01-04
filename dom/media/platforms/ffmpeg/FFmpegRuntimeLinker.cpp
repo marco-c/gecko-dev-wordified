@@ -185,15 +185,6 @@ avutil
 h
 "
 #
-include
-"
-libavutil
-/
-imgutils
-.
-h
-"
-#
 endif
 namespace
 mozilla
