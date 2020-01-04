@@ -102,7 +102,7 @@ helpers
 ;
 const
 {
-LocalizationHelper
+ELLIPSIS
 }
 =
 require
@@ -328,14 +328,6 @@ frame
 .
 xhtml
 "
-;
-const
-L10N
-=
-new
-LocalizationHelper
-(
-)
 ;
 /
 /
@@ -2055,9 +2047,7 @@ ellipsis
 /
 overflowChar
 :
-L10N
-.
-ellipsis
+ELLIPSIS
 /
 *
 *

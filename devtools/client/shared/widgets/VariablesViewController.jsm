@@ -227,6 +227,7 @@ defer
 var
 {
 LocalizationHelper
+ELLIPSIS
 }
 =
 require
@@ -1368,9 +1369,7 @@ names
 0
 ]
 +
-L10N
-.
-ellipsis
+ELLIPSIS
 +
 names
 [

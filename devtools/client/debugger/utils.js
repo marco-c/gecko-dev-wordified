@@ -1358,9 +1358,7 @@ start
 "
 :
 return
-L10N
-.
-ellipsis
+ELLIPSIS
 +
 aUrl
 .
@@ -1390,9 +1388,7 @@ aLength
 1
 )
 +
-L10N
-.
-ellipsis
+ELLIPSIS
 +
 aUrl
 .
@@ -1422,9 +1418,7 @@ substr
 aLength
 )
 +
-L10N
-.
-ellipsis
+ELLIPSIS
 ;
 break
 ;
