@@ -160,6 +160,12 @@ mozilla
 namespace
 dom
 {
+NS_IMPL_ISUPPORTS_INHERITED
+(
+HTMLUnknownElement
+nsGenericHTMLElement
+HTMLUnknownElement
+)
 JSObject
 *
 HTMLUnknownElement
