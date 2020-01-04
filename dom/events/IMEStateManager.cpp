@@ -10119,12 +10119,12 @@ RefPtr
 <
 IMEContentObserver
 >
-kungFuDeathGrip
+activeIMEContentObserver
 (
 sActiveIMEContentObserver
 )
 ;
-sActiveIMEContentObserver
+activeIMEContentObserver
 -
 >
 Init

@@ -26930,12 +26930,6 @@ return
 true
 ;
 }
-nsCOMPtr
-<
-mozIDOMWindowProxy
->
-window
-;
 TabParent
 :
 :

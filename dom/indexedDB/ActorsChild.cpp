@@ -7266,7 +7266,7 @@ blocked
 IDB_LOG_ID_STRING
 (
 )
-mRequest
+kungFuDeathGrip
 -
 >
 LoggingSerialNumber
@@ -7281,7 +7281,7 @@ if
 (
 NS_FAILED
 (
-mRequest
+kungFuDeathGrip
 -
 >
 DispatchEvent
@@ -8493,7 +8493,7 @@ nsPIDOMWindowInner
 *
 owner
 =
-mDatabase
+kungFuDeathGrip
 -
 >
 GetOwner
@@ -8627,7 +8627,7 @@ AbortTransactions
 )
 manually
 .
-mDatabase
+kungFuDeathGrip
 -
 >
 AbortTransactions
@@ -8640,7 +8640,7 @@ aShouldWarn
 false
 )
 ;
-mDatabase
+kungFuDeathGrip
 -
 >
 Close
@@ -8695,7 +8695,7 @@ IDBVersionChangeEvent
 :
 Create
 (
-mDatabase
+kungFuDeathGrip
 type
 aOldVersion
 )
@@ -8720,7 +8720,7 @@ IDBVersionChangeEvent
 :
 Create
 (
-mDatabase
+kungFuDeathGrip
 type
 aOldVersion
 aNewVersion
@@ -8795,7 +8795,7 @@ if
 (
 NS_FAILED
 (
-mDatabase
+kungFuDeathGrip
 -
 >
 DispatchEvent
@@ -8822,7 +8822,7 @@ event
 if
 (
 !
-mDatabase
+kungFuDeathGrip
 -
 >
 IsClosed

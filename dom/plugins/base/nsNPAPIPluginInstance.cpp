@@ -1666,7 +1666,7 @@ RefPtr
 <
 nsPluginInstanceOwner
 >
-deathGrip
+kungFuDeathGrip
 (
 mOwner
 )
@@ -1677,7 +1677,7 @@ nsIDocument
 >
 doc
 ;
-mOwner
+kungFuDeathGrip
 -
 >
 GetDocument

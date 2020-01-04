@@ -12718,7 +12718,7 @@ r
 new
 CloseNotificationRunnable
 (
-mNotification
+kungFuDeathGrip
 )
 ;
 ErrorResult
@@ -12827,7 +12827,7 @@ HadObserver
 )
 )
 {
-mNotification
+kungFuDeathGrip
 -
 >
 ReleaseObject

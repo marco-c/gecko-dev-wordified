@@ -705,7 +705,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-mDispatcher
+kungFuDeathGrip
 -
 >
 CommitComposition
@@ -2151,7 +2151,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -2234,7 +2234,7 @@ nsEventStatus_eIgnore
 ;
 rv
 =
-mDispatcher
+kungFuDeathGrip
 -
 >
 StartComposition
@@ -2251,10 +2251,10 @@ status
 nsEventStatus_eConsumeNoDefault
 &
 &
-mDispatcher
+kungFuDeathGrip
 &
 &
-mDispatcher
+kungFuDeathGrip
 -
 >
 IsComposing
@@ -2313,7 +2313,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -2341,7 +2341,7 @@ rv
 ;
 }
 return
-mDispatcher
+kungFuDeathGrip
 -
 >
 SetPendingCompositionString
@@ -2376,7 +2376,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -2439,7 +2439,7 @@ rv
 ;
 }
 return
-mDispatcher
+kungFuDeathGrip
 -
 >
 AppendClauseToPendingComposition
@@ -2473,7 +2473,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -2501,7 +2501,7 @@ rv
 ;
 }
 return
-mDispatcher
+kungFuDeathGrip
 -
 >
 SetCaretInPendingComposition
@@ -2595,7 +2595,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -2741,7 +2741,7 @@ nsEventStatus_eIgnore
 ;
 rv
 =
-mDispatcher
+kungFuDeathGrip
 -
 >
 FlushPendingComposition
@@ -2967,7 +2967,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -3088,7 +3088,7 @@ nsEventStatus_eIgnore
 ;
 rv
 =
-mDispatcher
+kungFuDeathGrip
 -
 >
 CommitComposition
@@ -3218,7 +3218,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -3265,7 +3265,7 @@ nsEventStatus_eIgnore
 nsresult
 rv
 =
-mDispatcher
+kungFuDeathGrip
 -
 >
 CommitComposition
@@ -4449,7 +4449,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -4487,7 +4487,7 @@ nsEventStatus_eIgnore
 if
 (
 !
-mDispatcher
+kungFuDeathGrip
 -
 >
 DispatchKeyboardEvent
@@ -4542,7 +4542,7 @@ if
 aAllowToDispatchKeypress
 &
 &
-mDispatcher
+kungFuDeathGrip
 -
 >
 MaybeDispatchKeypressEvents
@@ -4854,7 +4854,7 @@ RefPtr
 <
 TextEventDispatcher
 >
-kungfuDeathGrip
+kungFuDeathGrip
 (
 mDispatcher
 )
@@ -4889,7 +4889,7 @@ nsEventStatus_eIgnore
 :
 nsEventStatus_eConsumeNoDefault
 ;
-mDispatcher
+kungFuDeathGrip
 -
 >
 DispatchKeyboardEvent
