@@ -265,9 +265,10 @@ clearHistory
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 executeSoon
 (
 moveAlong
@@ -559,10 +560,9 @@ dir3
 .
 forEach
 (
-function
-(
 dir
-)
+=
+>
 dir
 .
 remove

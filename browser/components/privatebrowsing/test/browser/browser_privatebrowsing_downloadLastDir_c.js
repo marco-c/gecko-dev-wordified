@@ -282,10 +282,9 @@ dir3
 .
 forEach
 (
-function
-(
 dir
-)
+=
+>
 dir
 .
 remove
@@ -316,10 +315,9 @@ validate
 everything
 validateFileName
 =
-function
-(
 foo
-)
+=
+>
 foo
 ;
 let

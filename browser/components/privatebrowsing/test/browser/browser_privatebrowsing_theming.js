@@ -136,9 +136,10 @@ win
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 callback
 (
 win

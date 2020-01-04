@@ -410,9 +410,10 @@ place
 {
 handleError
 :
-function
 (
 )
+=
+>
 ok
 (
 false
