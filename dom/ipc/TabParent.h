@@ -1260,16 +1260,6 @@ override
 ;
 virtual
 bool
-RecvGetTabOffset
-(
-LayoutDeviceIntPoint
-*
-aPoint
-)
-override
-;
-virtual
-bool
 RecvGetDPI
 (
 float
