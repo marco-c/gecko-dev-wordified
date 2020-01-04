@@ -239,18 +239,6 @@ RefPtr
 gfxASurface
 >
 surf
-;
-if
-(
-mContext
--
->
-GetCairo
-(
-)
-)
-{
-surf
 =
 mContext
 -
@@ -267,7 +255,6 @@ mDeviceOffset
 y
 )
 ;
-}
 if
 (
 surf
@@ -279,6 +266,9 @@ surf
 CairoStatus
 (
 )
+!
+=
+0
 )
 return
 nullptr
