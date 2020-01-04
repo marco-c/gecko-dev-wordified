@@ -2149,6 +2149,17 @@ getDebugger
 (
 )
 ;
+if
+(
+dbg
+-
+>
+allocationSamplingProbability
+!
+=
+probability
+)
+{
 dbg
 -
 >
@@ -2194,10 +2205,7 @@ trackingAllocationSites
 {
 for
 (
-WeakGlobalObjectSet
-:
-:
-Range
+auto
 r
 =
 dbg
@@ -2238,6 +2246,7 @@ chooseAllocationSamplingProbability
 (
 )
 ;
+}
 }
 args
 .
