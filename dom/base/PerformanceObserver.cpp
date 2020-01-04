@@ -868,8 +868,11 @@ return
 ;
 }
 mEntryTypes
-=
+.
+SwapElements
+(
 validEntryTypes
+)
 ;
 mPerformance
 -
