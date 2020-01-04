@@ -692,8 +692,13 @@ icon
 {
 icon
 =
-"
-"
+PlacesUtils
+.
+favicons
+.
+defaultFavicon
+.
+spec
 ;
 }
 return
