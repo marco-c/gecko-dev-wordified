@@ -742,9 +742,9 @@ getPreferenceFront
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 preference
 "
