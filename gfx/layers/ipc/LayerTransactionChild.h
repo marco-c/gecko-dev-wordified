@@ -189,9 +189,6 @@ layout
 class
 RenderFrameChild
 ;
-class
-ShadowLayerForwarder
-;
 }
 /
 /
@@ -200,6 +197,9 @@ layout
 namespace
 layers
 {
+class
+ShadowLayerForwarder
+;
 class
 LayerTransactionChild
 :
