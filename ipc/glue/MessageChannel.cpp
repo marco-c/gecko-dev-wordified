@@ -272,6 +272,9 @@ IPC_LOG
 #
 else
 static
+mozilla
+:
+:
 LazyLogModule
 sLogModule
 (
@@ -961,6 +964,13 @@ messages
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+ipc
 ;
 using
 namespace
