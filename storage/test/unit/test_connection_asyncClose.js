@@ -498,6 +498,7 @@ gone
 add_task
 (
 function
+*
 test_double_asyncClose_throws
 (
 )
@@ -1002,6 +1003,7 @@ overlaps
 add_task
 (
 function
+*
 test_asyncClose_does_not_throw_without_callback
 (
 )
