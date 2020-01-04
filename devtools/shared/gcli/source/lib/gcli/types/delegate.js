@@ -592,6 +592,9 @@ undefined
 blankIsValid
 :
 false
+hasPredictions
+:
+true
 getSpec
 :
 function
