@@ -458,6 +458,14 @@ LCtzI64
 lir
 )
 ;
+void
+visitNotI64
+(
+LNotI64
+*
+lir
+)
+;
 /
 /
 Out
