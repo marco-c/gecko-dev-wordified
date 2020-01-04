@@ -674,6 +674,9 @@ such
 *
 as
 textboxes
+or
+input
+number
 which
 redirect
 focus
