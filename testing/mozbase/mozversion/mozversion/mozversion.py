@@ -2686,7 +2686,7 @@ adb
 '
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -2697,7 +2697,7 @@ parser
         
 include_formatters
 =
-structured
+mozlog
 .
 commandline
 .
@@ -2742,7 +2742,7 @@ TEST_DEVICE
 '
 )
     
-structured
+mozlog
 .
 commandline
 .
