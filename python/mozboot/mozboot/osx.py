@@ -2630,6 +2630,19 @@ watchman
 watchman
 '
 )
+            
+(
+'
+terminal
+-
+notifier
+'
+'
+terminal
+-
+notifier
+'
+)
         
 ]
         
