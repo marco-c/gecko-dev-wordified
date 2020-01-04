@@ -244,6 +244,10 @@ config
 '
                          
 '
+checkout
+'
+                         
+'
 download
 -
 and
