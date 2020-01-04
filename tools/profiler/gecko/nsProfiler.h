@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -137,8 +130,6 @@ public
 nsIProfiler
 public
 nsIObserver
-public
-nsSupportsWeakReference
 {
 public
 :
