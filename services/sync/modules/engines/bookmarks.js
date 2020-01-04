@@ -7871,7 +7871,6 @@ itemType
 parentId
 guid
 parentGuid
-oldValue
 source
 )
 {
