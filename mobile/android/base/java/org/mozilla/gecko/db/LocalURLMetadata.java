@@ -113,6 +113,13 @@ java
 .
 util
 .
+Collection
+;
+import
+java
+.
+util
+.
 Collections
 ;
 import
@@ -1054,7 +1061,7 @@ final
 ContentResolver
 cr
 final
-List
+Collection
 <
 String
 >
