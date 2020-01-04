@@ -3467,6 +3467,11 @@ vp
 ;
 protected
 :
+static
+const
+ObjectOps
+objectOps_
+;
 HeapPtrShape
 shape_
 ;

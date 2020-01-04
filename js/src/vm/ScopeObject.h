@@ -5356,6 +5356,11 @@ public
 :
 static
 const
+ObjectOps
+objectOps_
+;
+static
+const
 Class
 class_
 ;
@@ -5895,6 +5900,11 @@ RESERVED_SLOTS
 ;
 static
 const
+ObjectOps
+objectOps_
+;
+static
+const
 Class
 class_
 ;
@@ -6126,6 +6136,11 @@ unsigned
 RESERVED_SLOTS
 =
 2
+;
+static
+const
+ObjectOps
+objectOps_
 ;
 static
 const
@@ -6903,6 +6918,11 @@ unsigned
 RESERVED_SLOTS
 =
 2
+;
+static
+const
+ObjectOps
+objectOps_
 ;
 static
 const

@@ -15341,6 +15341,14 @@ extern
 NativePropertyHooks
 sEmptyNativePropertyHooks
 ;
+extern
+const
+js
+:
+:
+ObjectOps
+sInterfaceObjectClassObjectOps
+;
 /
 /
 We

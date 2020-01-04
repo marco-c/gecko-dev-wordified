@@ -2033,12 +2033,9 @@ MOZ_ASSERT
 varobj
 -
 >
-getOps
+getOpsSetProperty
 (
 )
--
->
-setProperty
 )
 ;
 ok

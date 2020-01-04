@@ -1419,12 +1419,9 @@ if
 obj
 -
 >
-getOps
+getOpsGetProperty
 (
 )
--
->
-getProperty
 )
 return
 false
@@ -1524,12 +1521,9 @@ op
 obj
 -
 >
-getOps
+getOpsDeleteProperty
 (
 )
--
->
-deleteProperty
 )
 return
 op

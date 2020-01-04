@@ -14584,12 +14584,9 @@ if
 proto
 -
 >
-getOps
+getOpsGetProperty
 (
 )
--
->
-getProperty
 )
 return
 GeneralizedGetProperty
@@ -14728,12 +14725,9 @@ if
 obj
 -
 >
-getOps
+getOpsGetProperty
 (
 )
--
->
-getProperty
 )
 return
 GeneralizedGetProperty
