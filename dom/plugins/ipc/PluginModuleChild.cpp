@@ -916,7 +916,7 @@ IPDL
 doesn
 '
 t
-autmatically
+automatically
 delete
 the
 channel
