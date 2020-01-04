@@ -168,10 +168,6 @@ nsSVGAnimatedTransformList
 /
 namespace
 mozilla
-typedef
-nsSVGPaintServerFrame
-nsSVGPatternFrameBase
-;
 /
 *
 *
@@ -207,7 +203,7 @@ class
 nsSVGPatternFrame
 :
 public
-nsSVGPatternFrameBase
+nsSVGPaintServerFrame
 {
 typedef
 mozilla
