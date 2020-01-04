@@ -357,6 +357,9 @@ GetResource
 (
 )
 )
+GetVideoFrameContainer
+(
+)
 )
 ;
 return

@@ -402,6 +402,9 @@ MediaFormatReader
 (
 this
 mDemuxer
+GetVideoFrameContainer
+(
+)
 )
 ;
 return
