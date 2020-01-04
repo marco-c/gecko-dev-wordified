@@ -8765,6 +8765,15 @@ ArrayBufferObject
 )
 )
 ;
+JSAutoCompartment
+ac
+(
+context
+(
+)
+arrayBuffer
+)
+;
 size_t
 nbytes
 =
