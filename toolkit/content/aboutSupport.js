@@ -2859,6 +2859,16 @@ addRowFromKey
 features
 "
 "
+webgl2Renderer
+"
+)
+;
+addRowFromKey
+(
+"
+features
+"
+"
 supportsHardwareH264
 "
 "
