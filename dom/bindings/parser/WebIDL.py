@@ -25307,6 +25307,10 @@ False
 newObject
 =
 False
+                  
+isIteratorAlias
+=
+False
 )
 :
         
@@ -25820,6 +25824,33 @@ NewObject
 ]
 )
         
+if
+isIteratorAlias
+:
+            
+method
+.
+addExtendedAttributes
+(
+                
+[
+IDLExtendedAttribute
+(
+self
+.
+location
+(
+"
+Alias
+"
+"
+iterator
+"
+)
+)
+]
+)
+        
 members
 .
 append
@@ -26298,6 +26329,10 @@ True
 newObject
 =
 True
+                       
+isIteratorAlias
+=
+True
 )
         
 #
@@ -26683,6 +26718,13 @@ object
 affectsNothing
 =
 True
+isIteratorAlias
+=
+self
+.
+isMaplike
+(
+)
 )
         
 #
@@ -26741,6 +26783,13 @@ object
 affectsNothing
 =
 True
+isIteratorAlias
+=
+self
+.
+isSetlike
+(
+)
 )
         
 #
