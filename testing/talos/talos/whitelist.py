@@ -288,6 +288,7 @@ e
 :
             
 print
+(
 "
 %
 s
@@ -303,6 +304,7 @@ filename
 e
 .
 strerror
+)
 )
             
 return
@@ -1126,6 +1128,7 @@ error_strs
 :
             
 print
+(
 "
 TEST
 -
@@ -1146,6 +1149,7 @@ self
 test_name
                                                       
 error_msg
+)
 )
     
 #
@@ -1308,6 +1312,7 @@ e
 :
             
 print
+(
 "
 %
 s
@@ -1323,6 +1328,7 @@ filename
 e
 .
 strerror
+)
 )
             
 return

@@ -451,6 +451,7 @@ filename
 :
     
 print
+(
 "
 etlparser
 :
@@ -462,6 +463,7 @@ s
 "
 %
 filename
+)
     
 data
 =
@@ -1018,6 +1020,7 @@ debug
 :
         
 print
+(
 "
 executing
 '
@@ -1031,6 +1034,7 @@ subprocess
 list2cmdline
 (
 xperf_cmd
+)
 )
     
 subprocess
@@ -1074,6 +1078,7 @@ debug
 :
         
 print
+(
 "
 executing
 '
@@ -1087,6 +1092,7 @@ subprocess
 list2cmdline
 (
 xperf_cmd
+)
 )
     
 subprocess
@@ -1741,6 +1747,7 @@ filename
 :
         
 print
+(
 "
 Warning
 :
@@ -1754,12 +1761,13 @@ found
 "
 %
 filename
+)
         
 return
     
 lines
 =
-file
+open
 (
 filename
 )
@@ -2077,6 +2085,7 @@ stage
 0
     
 print
+(
 "
 reading
 etl
@@ -2087,6 +2096,7 @@ s
 "
 %
 etl_filename
+)
     
 csvname
 =
@@ -2352,7 +2362,9 @@ else
 :
         
 print
+(
 output
+)
     
 whitelist
 =
@@ -3737,6 +3749,7 @@ translate
 this
             
 print
+(
 "
 TEST
 -
@@ -3751,6 +3764,7 @@ s
 "
 %
 error
+)
         
 #
 We

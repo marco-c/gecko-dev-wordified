@@ -1363,6 +1363,7 @@ develop
 :
             
 print
+(
 "
 unable
 to
@@ -1376,6 +1377,7 @@ s
 "
 %
 version_info
+)
             
 sys
 .
@@ -1836,7 +1838,7 @@ FAIL
 '
 message
 =
-unicode
+str
 (
 exc
 )
@@ -1900,7 +1902,7 @@ ERROR
 '
 message
 =
-unicode
+str
 (
 exc
 )
@@ -2010,7 +2012,7 @@ in
 %
 s
 "
-                   
+                  
 %
 (
 results_urls
@@ -2071,6 +2073,7 @@ get_configs
     
 except
 ConfigurationError
+as
 exc
 :
         

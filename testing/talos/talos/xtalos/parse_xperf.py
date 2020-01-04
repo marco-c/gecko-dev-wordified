@@ -104,6 +104,7 @@ debug
 :
         
 print
+(
 "
 executing
 '
@@ -117,6 +118,7 @@ subprocess
 list2cmdline
 (
 xperf_cmd
+)
 )
     
 subprocess
@@ -468,6 +470,7 @@ except
 xtalos
 .
 XTalosError
+as
 e
 :
         

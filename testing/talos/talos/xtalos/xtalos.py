@@ -1010,6 +1010,7 @@ xperf_path
 :
             
 print
+(
 "
 ERROR
 :
@@ -1026,6 +1027,7 @@ exist
 options
 .
 xperf_path
+)
             
 return
 None

@@ -198,12 +198,14 @@ test_config
 noqa
         
 print
+(
 "
 extending
 with
 xperf
 !
 "
+)
         
 browser_config
 [

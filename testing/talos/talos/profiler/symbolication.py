@@ -1874,7 +1874,7 @@ if
 isinstance
 (
 thread
-basestring
+str
 )
 :
                 
@@ -2130,7 +2130,7 @@ if
 isinstance
 (
 thread
-basestring
+str
 )
 :
                 
@@ -2195,7 +2195,7 @@ if
 isinstance
 (
 thread
-basestring
+str
 )
 :
                 

@@ -270,6 +270,7 @@ except
 utils
 .
 TalosError
+as
 e
 :
             
@@ -340,6 +341,7 @@ except
 pass
             
 print
+(
 '
 \
 nFAIL
@@ -365,6 +367,7 @@ nRETURN
 :
 '
 )
+)
             
 raise
 e
@@ -374,6 +377,7 @@ tbpl_output
 :
             
 print
+(
 "
 TinderboxPrint
 :
@@ -388,6 +392,7 @@ json
 dumps
 (
 tbpl_output
+)
 )
 class
 TestResults
@@ -2477,6 +2482,7 @@ end_token
         
 except
 AssertionError
+as
 e
 :
             
@@ -2886,7 +2892,7 @@ file
 s
 and
 "
-                   
+                  
 "
 didn
 '
@@ -2902,7 +2908,7 @@ return
         
 contents
 =
-file
+open
 (
 filename
 )
@@ -3146,7 +3152,7 @@ xperf
 results
 file
 "
-                       
+                      
 "
 %
 s
@@ -3165,7 +3171,7 @@ return
             
 contents
 =
-file
+open
 (
 filename
 )
@@ -3569,7 +3575,7 @@ try
             
 contents
 =
-file
+open
 (
 filename
 )

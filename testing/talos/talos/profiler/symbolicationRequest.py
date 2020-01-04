@@ -171,7 +171,7 @@ not
 isinstance
 (
 libName
-basestring
+str
 )
 or
 not
@@ -206,7 +206,7 @@ not
 isinstance
 (
 breakpadId
-basestring
+str
 )
 :
         
@@ -454,7 +454,7 @@ forwarded
 ]
 (
 int
-long
+int
 )
 )
 :
