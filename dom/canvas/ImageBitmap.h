@@ -451,6 +451,11 @@ Height
 )
 ;
 }
+void
+Close
+(
+)
+;
 /
 *
 *
