@@ -1077,6 +1077,12 @@ Value
 )
 override
 ;
+NS_IMETHOD
+SetUserContextId
+(
+uint32_t
+)
+;
 /
 /
 Restores
