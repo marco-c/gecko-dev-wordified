@@ -41844,6 +41844,13 @@ dialogs
 .
 if
 (
+Services
+.
+startup
+.
+shuttingDown
+|
+|
 window
 .
 skipNextCanClose
