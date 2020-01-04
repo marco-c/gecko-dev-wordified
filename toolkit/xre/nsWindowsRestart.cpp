@@ -1524,7 +1524,9 @@ lpMsgBuf
 ?
 static_cast
 <
-LPTSTR
+const
+wchar_t
+*
 >
 (
 lpMsgBuf
