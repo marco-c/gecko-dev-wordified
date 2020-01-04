@@ -517,7 +517,11 @@ browser
 .
 safebrowsing
 .
-appRepURL
+downloads
+.
+remote
+.
+url
 "
 #
 define
