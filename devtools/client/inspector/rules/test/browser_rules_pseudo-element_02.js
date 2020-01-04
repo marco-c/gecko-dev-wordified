@@ -63,8 +63,9 @@ displayed
 correctly
 in
 the
-rule
+markup
 view
+.
 const
 TEST_URI
 =
