@@ -4455,7 +4455,7 @@ _getFileIconURL
 aFile
 )
 ;
-aMenuitem
+aMenuItem
 .
 setAttribute
 (
@@ -4465,7 +4465,7 @@ label
 label
 )
 ;
-aMenuitem
+aMenuItem
 .
 setAttribute
 (
