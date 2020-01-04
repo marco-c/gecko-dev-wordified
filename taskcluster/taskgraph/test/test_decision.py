@@ -85,14 +85,10 @@ Graph
 from
 .
 .
-taskgraph
+types
 import
+Task
 TaskGraph
-from
-.
-util
-import
-TestTask
 from
 mozunit
 import
@@ -121,8 +117,11 @@ tasks
 a
 '
 :
-TestTask
+Task
 (
+kind
+=
+None
 label
 =
 '
@@ -147,8 +146,11 @@ task
 b
 '
 :
-TestTask
+Task
 (
+kind
+=
+None
 label
 =
 '
@@ -249,13 +251,6 @@ a
 -
 task
 '
-'
-kind
-'
-:
-'
-test
-'
 }
                 
 '
@@ -300,13 +295,6 @@ attributes
 '
 :
 {
-'
-kind
-'
-:
-'
-test
-'
 }
                 
 '

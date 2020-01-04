@@ -76,6 +76,12 @@ from
 import
 base
 from
+.
+.
+types
+import
+Task
+from
 taskgraph
 .
 util
@@ -196,65 +202,19 @@ task
 }
 '
 class
-DockerImageTask
+DockerImageKind
 (
 base
 .
-Task
+Kind
 )
 :
-    
-def
-__init__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-self
-.
-index_paths
-=
-kwargs
-.
-pop
-(
-'
-index_paths
-'
-)
-        
-super
-(
-DockerImageTask
-self
-)
-.
-__init__
-(
-*
-args
-*
-*
-kwargs
-)
-    
-classmethod
     
 def
 load_tasks
 (
-cls
-kind
-path
-config
+self
 params
-loaded_tasks
 )
 :
         
@@ -539,12 +499,16 @@ templates
 =
 Templates
 (
+self
+.
 path
 )
         
 for
 image_name
 in
+self
+.
 config
 [
 '
@@ -729,7 +693,7 @@ TASK_ID
 image_artifact_path
 )
                 
-cls
+self
 .
 create_context_tar
 (
@@ -819,11 +783,21 @@ image_parameters
 attributes
 =
 {
+                
+'
+kind
+'
+:
+self
+.
+name
+                
 '
 image_name
 '
 :
 image_name
+            
 }
             
 #
@@ -954,9 +928,9 @@ tasks
 .
 append
 (
-cls
+Task
 (
-kind
+self
 '
 build
 -
@@ -967,7 +941,7 @@ image
 '
 +
 image_name
-                             
+                              
 task
 =
 image_task
@@ -979,7 +953,7 @@ task
 attributes
 =
 attributes
-                             
+                              
 index_paths
 =
 index_paths
@@ -990,9 +964,10 @@ return
 tasks
     
 def
-get_dependencies
+get_task_dependencies
 (
 self
+task
 taskgraph
 )
 :
@@ -1002,18 +977,25 @@ return
 ]
     
 def
-optimize
+optimize_task
 (
 self
+task
+taskgraph
 )
 :
         
 for
 index_path
 in
-self
+task
 .
+extra
+[
+'
 index_paths
+'
+]
 :
             
 try
@@ -1182,12 +1164,10 @@ return
 False
 None
     
-classmethod
-    
 def
 create_context_tar
 (
-cls
+self
 context_dir
 destination
 image_name
