@@ -9913,8 +9913,9 @@ AddGenericFonts
 name
 .
 mType
-&
 mStyle
+.
+language
 fonts
 )
 ;
@@ -9975,8 +9976,9 @@ mFamilyList
 GetDefaultFontType
 (
 )
-&
 mStyle
+.
+language
 fonts
 )
 ;
