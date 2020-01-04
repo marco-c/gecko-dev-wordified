@@ -2908,6 +2908,7 @@ StopRecording
 (
 )
 {
+{
 CriticalSectionScoped
 lock
 (
@@ -2931,6 +2932,7 @@ _recording
 =
 false
 ;
+}
 if
 (
 _ptrThreadRec
@@ -3245,6 +3247,7 @@ StopPlayout
 (
 )
 {
+{
 CriticalSectionScoped
 lock
 (
@@ -3268,6 +3271,7 @@ _playing
 =
 false
 ;
+}
 if
 (
 _ptrThreadPlay
