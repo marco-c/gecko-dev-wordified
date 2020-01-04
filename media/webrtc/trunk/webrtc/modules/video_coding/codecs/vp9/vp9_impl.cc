@@ -4585,6 +4585,9 @@ i
 ]
 ;
 }
+}
+#
+endif
 if
 (
 !
@@ -4605,9 +4608,6 @@ gof_
 )
 ;
 }
-}
-#
-endif
 }
 int
 VP9EncoderImpl
