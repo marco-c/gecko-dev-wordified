@@ -128,8 +128,6 @@ PreprocessedTestWebIDLFile
     
 PreprocessedWebIDLFile
     
-RustRlibLibrary
-    
 SharedLibrary
     
 TestManifest
