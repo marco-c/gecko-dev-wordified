@@ -514,14 +514,6 @@ label
 "
 body
 #
-"
-}
-{
-label
-:
-"
-body
-#
 d1
 \
 \

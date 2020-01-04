@@ -14451,6 +14451,14 @@ startsWith
 (
 completing
 )
+&
+&
+id
+!
+=
+=
+"
+"
 )
 {
 result
