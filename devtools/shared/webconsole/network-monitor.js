@@ -3293,14 +3293,6 @@ requests
 and
 responses
 .
-Disabled
-by
-*
-default
-to
-save
-memory
-.
 *
 type
 boolean
@@ -3308,7 +3300,7 @@ boolean
 /
 saveRequestAndResponseBodies
 :
-false
+true
 /
 *
 *
@@ -7504,7 +7496,7 @@ _netEvents
 null
 _saveRequestAndResponseBodies
 :
-false
+true
 get
 saveRequestAndResponseBodies
 (
