@@ -2050,7 +2050,6 @@ this
 )
 )
 {
-return
 proxy
 -
 >
@@ -2058,10 +2057,9 @@ SetCaretOffset
 (
 aOffset
 )
-?
+;
+return
 S_OK
-:
-E_INVALIDARG
 ;
 }
 HyperTextAccessible
