@@ -1352,6 +1352,15 @@ LInt64ToFloatingPointCall
 lir
 )
 ;
+virtual
+void
+visitTestI64AndBranch
+(
+LTestI64AndBranch
+*
+lir
+)
+;
 /
 /
 Out
