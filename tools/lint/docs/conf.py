@@ -55,11 +55,7 @@ containing
 dir
 .
 import
-sys
-import
 os
-import
-shlex
 #
 -
 -

@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+unicode_literals
 import
 signal
 import
@@ -223,6 +227,16 @@ lintargs
 or
 [
 ]
+        
+if
+isinstance
+(
+res
+basestring
+)
+:
+            
+continue
         
 for
 r
