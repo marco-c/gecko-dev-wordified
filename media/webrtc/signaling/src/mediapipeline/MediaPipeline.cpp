@@ -12489,6 +12489,13 @@ ASSERT_ON_THREAD
 main_thread_
 )
 ;
+listener_
+-
+>
+EndTrack
+(
+)
+;
 if
 (
 stream_
