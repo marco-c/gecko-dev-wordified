@@ -420,14 +420,12 @@ aWrapped
 )
 {
 }
-virtual
 nsresult
 Startup
 (
 )
 override
 ;
-virtual
 bool
 SupportsMimeType
 (
@@ -442,7 +440,6 @@ aDiagnostics
 const
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (
@@ -454,7 +451,6 @@ aConfig
 const
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -468,7 +464,6 @@ aParams
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
