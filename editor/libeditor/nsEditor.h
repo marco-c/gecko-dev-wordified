@@ -424,6 +424,9 @@ class
 AutoTransactionsConserveSelection
 ;
 class
+ChangeAttributeTransaction
+;
+class
 ErrorResult
 ;
 class
@@ -435,9 +438,6 @@ EditorDOMPoint
 namespace
 dom
 {
-class
-ChangeAttributeTxn
-;
 class
 CreateElementTxn
 ;
@@ -1392,10 +1392,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-ChangeAttributeTxn
+ChangeAttributeTransaction
 >
 CreateTxnForSetAttribute
 (
@@ -1435,10 +1432,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-ChangeAttributeTxn
+ChangeAttributeTransaction
 >
 CreateTxnForRemoveAttribute
 (
