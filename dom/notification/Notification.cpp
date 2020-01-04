@@ -5040,7 +5040,7 @@ options
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )

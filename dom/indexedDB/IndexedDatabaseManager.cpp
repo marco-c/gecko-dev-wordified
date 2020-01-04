@@ -2464,7 +2464,7 @@ init
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )

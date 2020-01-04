@@ -2201,7 +2201,7 @@ cx
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 ;
@@ -2210,12 +2210,7 @@ if
 !
 init
 (
-nsContentUtils
-:
-:
-RootingCxForThread
-(
-)
+cx
 v
 )
 )
