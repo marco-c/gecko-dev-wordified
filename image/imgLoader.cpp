@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 imgLoader
 .
 h
