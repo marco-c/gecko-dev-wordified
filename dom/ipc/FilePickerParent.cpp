@@ -746,6 +746,12 @@ Failed
 )
 )
 {
+error
+.
+SuppressException
+(
+)
+;
 continue
 ;
 }
@@ -769,6 +775,12 @@ Failed
 )
 )
 {
+error
+.
+SuppressException
+(
+)
+;
 continue
 ;
 }
