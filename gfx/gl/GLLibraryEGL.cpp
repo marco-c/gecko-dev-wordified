@@ -943,6 +943,12 @@ ANGLE
 by
 pref
 "
+NS_LITERAL_CSTRING
+(
+"
+FAILURE_ID_ANGLE_PREF
+"
+)
 )
 ;
 if

@@ -1483,6 +1483,10 @@ const
 char
 *
 aMessage
+const
+nsACString
+&
+aFailureId
 )
 ;
 void
