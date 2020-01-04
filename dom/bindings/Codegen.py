@@ -104725,7 +104725,6 @@ config
 getDescriptor
 (
 name
-False
 )
                 
 self
@@ -113520,19 +113519,6 @@ interfaceName
 )
 :
         
-#
-Let
-'
-s
-assume
-we
-'
-re
-not
-doing
-workers
-stuff
-        
 descriptor
 =
 config
@@ -113540,7 +113526,6 @@ config
 getDescriptor
 (
 interfaceName
-False
 )
         
 self
@@ -134304,21 +134289,6 @@ interfaceName
 )
 :
         
-#
-Let
-'
-s
-assume
-we
-'
-re
-not
-doing
-workers
-stuff
-for
-now
-        
 descriptor
 =
 config
@@ -134326,7 +134296,6 @@ config
 getDescriptor
 (
 interfaceName
-False
 )
         
 self
@@ -134444,7 +134413,6 @@ config
 getDescriptor
 (
 parent
-False
 )
 .
 headerFile
