@@ -356,9 +356,7 @@ browser
 /
 content
 /
-certerror
-/
-aboutCertError
+aboutNetError
 .
 xhtml
 "
