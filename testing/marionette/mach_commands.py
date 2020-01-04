@@ -207,7 +207,7 @@ MarionetteTestRunner
         
 BaseMarionetteArguments
         
-startTestRunner
+MarionetteHarness
     
 )
     
@@ -369,16 +369,22 @@ stdout
 }
 )
     
-runner
+results
 =
-startTestRunner
+MarionetteHarness
 (
 MarionetteTestRunner
 args
+=
+args
+)
+.
+run
+(
 )
     
 if
-runner
+results
 .
 failed
 >
@@ -388,6 +394,9 @@ failed
 return
 1
     
+else
+:
+        
 return
 0
 CommandProvider
