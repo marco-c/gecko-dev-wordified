@@ -14056,6 +14056,9 @@ HttpBaseChannel
 :
 ShouldIntercept
 (
+nsIURI
+*
+aURI
 )
 {
 nsCOMPtr
@@ -14096,7 +14099,15 @@ controller
 >
 ShouldPrepareForIntercept
 (
+aURI
+?
+aURI
+:
 mURI
+.
+get
+(
+)
 nsContentUtils
 :
 :
