@@ -207,7 +207,6 @@ const
 GlobalObject
 &
 aGlobal
-const
 AudioContext
 &
 aContext
@@ -327,6 +326,9 @@ RefPtr
 AudioParam
 >
 mOffset
+;
+bool
+mStartCalled
 ;
 }
 ;
