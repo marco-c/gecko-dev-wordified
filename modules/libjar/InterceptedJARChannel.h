@@ -297,6 +297,12 @@ nsIOutputStream
 >
 mResponseBody
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mReleaseHandle
+;
 /
 /
 The
