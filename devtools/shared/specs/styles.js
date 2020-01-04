@@ -93,8 +93,6 @@ shared
 specs
 /
 stylesheets
-.
-js
 "
 )
 ;
