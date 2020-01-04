@@ -1276,7 +1276,6 @@ restoreTabContentStarted
 "
 {
 epoch
-didStartLoad
 }
 )
 ;
@@ -4677,6 +4676,14 @@ value
 ;
 }
 }
+this
+.
+_data
+.
+clear
+(
+)
+;
 durationMs
 =
 Date
