@@ -1618,7 +1618,7 @@ out_name
 )
 ;
 void
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 const
 char

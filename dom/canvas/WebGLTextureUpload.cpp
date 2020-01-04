@@ -12290,7 +12290,7 @@ done
 mContext
 -
 >
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 funcName
 )
@@ -12922,7 +12922,7 @@ done
 mContext
 -
 >
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 funcName
 )
