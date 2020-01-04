@@ -335,6 +335,7 @@ stacktrace
 frame
 parameters
 messageText
+userProvidedStyles
 }
 =
 message
@@ -486,6 +487,8 @@ messageBody
 formatReps
 (
 parameters
+userProvidedStyles
+serviceContainer
 )
 ;
 }
@@ -627,6 +630,8 @@ function
 formatReps
 (
 parameters
+userProvidedStyles
+serviceContainer
 )
 {
 return
@@ -653,6 +658,17 @@ GripMessageBody
 {
 grip
 key
+userProvidedStyle
+:
+userProvidedStyles
+?
+userProvidedStyles
+[
+key
+]
+:
+null
+serviceContainer
 }
 )
 )

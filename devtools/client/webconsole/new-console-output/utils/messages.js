@@ -873,6 +873,11 @@ stacktrace
 :
 null
 frame
+userProvidedStyles
+:
+message
+.
+styles
 }
 )
 ;
