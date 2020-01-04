@@ -897,13 +897,6 @@ aActor
 )
 override
 ;
-virtual
-bool
-RecvCreatedFromKnownBlob
-(
-)
-override
-;
 }
 ;
 /
