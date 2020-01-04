@@ -10621,16 +10621,6 @@ reset_worker_delay
 5000
 )
 ;
-pref
-(
-"
-apz
-.
-displayport_expiry_ms
-"
-0
-)
-;
 /
 /
 APZ
