@@ -1526,16 +1526,9 @@ isInvalid
 )
 ;
 return
-Code
+Encoding
 (
 code_
-|
-(
-kind_
-<
-<
-5
-)
 )
 ;
 }
