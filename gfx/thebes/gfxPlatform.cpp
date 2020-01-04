@@ -12042,7 +12042,7 @@ GetPlatform
 )
 -
 >
-UpdateCanUseHardareVideoDecoding
+UpdateCanUseHardwareVideoDecoding
 (
 )
 ;
@@ -12051,8 +12051,15 @@ void
 gfxPlatform
 :
 :
-UpdateCanUseHardareVideoDecoding
+UpdateCanUseHardwareVideoDecoding
 (
+)
+{
+if
+(
+XRE_IsParentProcess
+(
+)
 )
 {
 gfxVars
@@ -12065,6 +12072,7 @@ CanUseHardwareVideoDecoding
 )
 )
 ;
+}
 }
 void
 gfxPlatform
