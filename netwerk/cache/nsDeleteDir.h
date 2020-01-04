@@ -517,6 +517,9 @@ mozilla
 CondVar
 mCondVar
 ;
+bool
+mNotified
+;
 nsCOMArray
 <
 nsITimer
