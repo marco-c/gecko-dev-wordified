@@ -146,6 +146,13 @@ h
 #
 include
 "
+MediaQueue
+.
+h
+"
+#
+include
+"
 MediaInfo
 .
 h
