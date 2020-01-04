@@ -3686,7 +3686,7 @@ which
 is
 /
 /
-NS_STYLE_MASK_MODE_AUTO
+NS_STYLE_MASK_MODE_MATCH_SOURCE
 .
 Repeat
 mRepeat
