@@ -455,7 +455,9 @@ function
 uri
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -499,7 +501,9 @@ the
 original
 request
 .
-is
+Assert
+.
+equal
 (
 content
 .
@@ -671,6 +675,8 @@ function
 (
 )
 {
+Assert
+.
 ok
 (
 content
@@ -895,7 +901,9 @@ an
 error
 page
 .
-is
+Assert
+.
+equal
 (
 content
 .

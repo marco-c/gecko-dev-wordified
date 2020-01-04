@@ -89,6 +89,8 @@ if
 button
 )
 {
+Assert
+.
 ok
 (
 false
@@ -121,7 +123,9 @@ button
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 style
 .
@@ -209,7 +213,9 @@ disconnect
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 style
 .

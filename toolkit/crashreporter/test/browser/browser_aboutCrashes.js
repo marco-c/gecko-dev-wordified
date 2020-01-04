@@ -176,7 +176,9 @@ a
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 crashlinks
 .
@@ -215,7 +217,9 @@ i
 +
 )
 {
-is
+Assert
+.
+equal
 (
 crashlinks
 [
