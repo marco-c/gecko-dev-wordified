@@ -1128,6 +1128,11 @@ HandleValue
 aInitialData
 )
 ;
+void
+LoadPendingScripts
+(
+)
+;
 private
 :
 nsresult
