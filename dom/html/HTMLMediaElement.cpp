@@ -17622,6 +17622,10 @@ IntSize
 )
 )
 {
+mInitialSizeFound
+=
+true
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -17663,6 +17667,8 @@ forget
 (
 )
 )
+;
+return
 ;
 }
 }
