@@ -2061,10 +2061,6 @@ mWaitingForData
 =
 false
 ;
-mReceivedNewData
-=
-false
-;
 mDiscontinuity
 =
 true
