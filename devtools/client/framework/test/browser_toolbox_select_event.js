@@ -99,6 +99,11 @@ select
 events
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
