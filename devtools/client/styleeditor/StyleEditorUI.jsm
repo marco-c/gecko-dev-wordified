@@ -5605,7 +5605,7 @@ PluralForm
 get
 (
 ruleCount
-_
+getString
 (
 "
 ruleCount

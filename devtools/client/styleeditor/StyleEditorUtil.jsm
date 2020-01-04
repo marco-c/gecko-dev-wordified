@@ -121,7 +121,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_
+getString
 "
 "
 assert
@@ -291,7 +291,7 @@ string
 *
 /
 function
-_
+getString
 (
 name
 )
@@ -1420,7 +1420,7 @@ fp
 init
 (
 parentWindow
-_
+getString
 (
 key
 +
@@ -1436,7 +1436,7 @@ fp
 .
 appendFilters
 (
-_
+getString
 (
 key
 +
