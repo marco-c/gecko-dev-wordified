@@ -1284,16 +1284,6 @@ Clear
 )
 ;
 }
-if
-(
-mTaskQueue
--
->
-IsEmpty
-(
-)
-)
-{
 mCallback
 -
 >
@@ -1301,7 +1291,6 @@ InputExhausted
 (
 )
 ;
-}
 }
 nsresult
 AppleATDecoder
