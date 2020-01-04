@@ -302,11 +302,6 @@ start_test
 (
 )
 ;
-jit
-(
-true
-)
-;
 var
 f
 =
@@ -382,11 +377,6 @@ f
 )
 ;
 }
-jit
-(
-false
-)
-;
 finish_test
 (
 )

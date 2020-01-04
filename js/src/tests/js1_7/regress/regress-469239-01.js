@@ -393,11 +393,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -456,11 +451,6 @@ c
 }
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

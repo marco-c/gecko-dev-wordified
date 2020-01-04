@@ -377,11 +377,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -530,11 +525,6 @@ i
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

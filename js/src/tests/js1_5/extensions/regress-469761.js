@@ -382,11 +382,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 o
 =
@@ -433,11 +428,6 @@ e
 {
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

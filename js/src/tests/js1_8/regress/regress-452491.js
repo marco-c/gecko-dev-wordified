@@ -379,11 +379,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -411,11 +406,6 @@ q
 )
 .
 a
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

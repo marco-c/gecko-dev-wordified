@@ -388,11 +388,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -428,11 +423,6 @@ hasOwnProperty
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

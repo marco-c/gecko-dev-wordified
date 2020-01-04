@@ -199,11 +199,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 if
 (
 !
@@ -219,11 +214,6 @@ tracemonkey
 adaptive
 )
 {
-jit
-(
-false
-)
-;
 expect
 =
 actual
@@ -249,11 +239,6 @@ summary
 }
 else
 {
-jit
-(
-true
-)
-;
 expect
 =
 '
@@ -319,11 +304,6 @@ Array
 )
 ;
 }
-jit
-(
-false
-)
-;
 var
 recorderStartedEnd
 =

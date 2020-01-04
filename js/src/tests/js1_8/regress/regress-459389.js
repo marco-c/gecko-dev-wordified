@@ -213,11 +213,6 @@ food
 '
 )
 ;
-jit
-(
-true
-)
-;
 var
 SNI
 =
@@ -850,11 +845,6 @@ FoodAd
 P
 '
 )
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

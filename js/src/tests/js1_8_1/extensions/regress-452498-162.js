@@ -236,11 +236,6 @@ jsobj
 cpp
 :
 2030
-jit
-(
-true
-)
-;
 this
 .
 __defineGetter__
@@ -283,11 +278,6 @@ parseInt
 (
 )
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

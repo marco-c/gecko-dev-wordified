@@ -182,11 +182,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 /
 *
 *
@@ -774,11 +769,6 @@ BrowserDetect
 .
 init
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -371,11 +371,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 map
 (
@@ -532,11 +527,6 @@ i
 )
 ;
 }
-jit
-(
-false
-)
-;
 exitFunc
 (
 '

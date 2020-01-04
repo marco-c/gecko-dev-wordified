@@ -426,11 +426,6 @@ crash
 '
 )
 ;
-jit
-(
-true
-)
-;
 [
 1
 2
@@ -458,11 +453,6 @@ v
 )
 ;
 }
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

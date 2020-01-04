@@ -203,11 +203,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 this
 .
 __defineSetter__
@@ -243,11 +238,6 @@ x
 3
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

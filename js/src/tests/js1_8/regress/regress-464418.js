@@ -434,11 +434,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -539,11 +534,6 @@ j
 )
 ;
 }
-jit
-(
-false
-)
-;
 if
 (
 typeof

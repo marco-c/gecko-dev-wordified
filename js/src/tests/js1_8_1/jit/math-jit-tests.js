@@ -190,11 +190,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 /
 *
 *
@@ -8831,11 +8826,6 @@ tan
 -
 Infinity
 )
-jit
-(
-false
-)
-;
 /
 *
 Keep

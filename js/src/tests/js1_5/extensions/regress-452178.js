@@ -386,11 +386,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 Object
 .
 defineProperty
@@ -434,11 +429,6 @@ j
 q
 =
 1
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

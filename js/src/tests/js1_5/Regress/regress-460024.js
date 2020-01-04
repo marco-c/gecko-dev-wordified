@@ -383,11 +383,6 @@ actual
 FAIL
 '
 ;
-jit
-(
-true
-)
-;
 var
 js
 =
@@ -452,11 +447,6 @@ js
 doeval
 (
 eval
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -382,11 +382,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 y
 =
 {
@@ -446,11 +441,6 @@ function
 y
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

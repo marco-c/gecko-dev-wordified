@@ -197,11 +197,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -328,11 +323,6 @@ ex
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

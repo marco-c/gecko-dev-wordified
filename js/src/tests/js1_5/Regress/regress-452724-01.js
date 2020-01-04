@@ -388,11 +388,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -427,11 +422,6 @@ this
 )
 (
 )
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

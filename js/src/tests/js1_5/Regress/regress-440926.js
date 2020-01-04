@@ -432,11 +432,6 @@ gi
 '
 )
 ;
-jit
-(
-true
-)
-;
 actual
 +
 =
@@ -486,11 +481,6 @@ gi
 '
 #
 '
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

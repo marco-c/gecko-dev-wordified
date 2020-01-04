@@ -374,11 +374,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -421,11 +416,6 @@ yield
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

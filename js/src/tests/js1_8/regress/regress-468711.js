@@ -378,11 +378,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 5
 )
@@ -410,11 +405,6 @@ toString
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

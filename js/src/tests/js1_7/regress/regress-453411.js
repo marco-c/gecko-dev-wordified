@@ -388,11 +388,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -428,11 +423,6 @@ yield
 )
 (
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

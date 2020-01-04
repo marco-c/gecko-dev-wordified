@@ -377,11 +377,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 linkarr
 =
 new
@@ -532,11 +527,6 @@ d
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

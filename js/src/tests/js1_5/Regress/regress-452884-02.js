@@ -376,11 +376,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -412,11 +407,6 @@ NaN
 :
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

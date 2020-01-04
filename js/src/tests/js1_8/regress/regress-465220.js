@@ -390,11 +390,6 @@ primitive
 type
 '
 ;
-jit
-(
-true
-)
-;
 try
 {
 var
@@ -482,11 +477,6 @@ type
 '
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

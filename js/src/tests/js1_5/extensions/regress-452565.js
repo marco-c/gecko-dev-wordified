@@ -212,11 +212,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 c
 =
@@ -251,11 +246,6 @@ c
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

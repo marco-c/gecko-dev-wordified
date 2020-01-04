@@ -450,11 +450,6 @@ gDelayTestDriverEnd
 =
 true
 ;
-jit
-(
-true
-)
-;
 function
 newScriptWithLoop
 (
@@ -560,11 +555,6 @@ body
 appendChild
 (
 div
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

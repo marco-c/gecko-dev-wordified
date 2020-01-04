@@ -385,11 +385,6 @@ expect
 4444
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -438,11 +433,6 @@ one
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

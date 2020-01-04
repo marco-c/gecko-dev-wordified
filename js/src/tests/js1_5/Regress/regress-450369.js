@@ -194,11 +194,6 @@ No
 Crash
 '
 ;
-jit
-(
-true
-)
-;
 /
 *
 json2
@@ -2334,11 +2329,6 @@ test
 -
 -
 -
-jit
-(
-false
-)
-;
 function
 test
 (

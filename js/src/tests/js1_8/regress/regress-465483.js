@@ -388,11 +388,6 @@ expect
 NaN
 '
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -424,11 +419,6 @@ i
 +
 i
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

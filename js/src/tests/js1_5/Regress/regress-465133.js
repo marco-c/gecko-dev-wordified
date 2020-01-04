@@ -387,11 +387,6 @@ actual
 '
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -420,11 +415,6 @@ actual
 +
 '
 '
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

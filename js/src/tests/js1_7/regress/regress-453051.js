@@ -406,11 +406,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -447,11 +442,6 @@ b
 b
 )
 break
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

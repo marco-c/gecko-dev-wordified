@@ -412,11 +412,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -992,11 +987,6 @@ createMandelSet
 (
 realRange
 imagRange
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

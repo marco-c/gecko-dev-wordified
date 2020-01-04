@@ -396,11 +396,6 @@ protection
 '
 )
 ;
-jit
-(
-true
-)
-;
 var
 i
 ;
@@ -421,11 +416,6 @@ i
 {
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

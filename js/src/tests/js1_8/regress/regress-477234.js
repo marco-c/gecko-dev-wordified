@@ -375,11 +375,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 iters
@@ -492,11 +487,6 @@ toString
 c
 ;
 }
-jit
-(
-true
-)
-;
 delete
 __proto__
 .

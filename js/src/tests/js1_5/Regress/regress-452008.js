@@ -371,11 +371,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 /
 /
 regression
@@ -1536,11 +1531,6 @@ i
 print
 (
 passed
-)
-;
-jit
-(
-false
 )
 ;
 expect

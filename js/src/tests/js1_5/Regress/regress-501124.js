@@ -370,11 +370,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 hexVal
 =
@@ -520,11 +515,6 @@ blks
 +
 '
 '
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

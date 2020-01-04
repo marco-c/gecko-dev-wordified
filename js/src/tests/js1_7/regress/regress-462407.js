@@ -210,11 +210,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 f
@@ -250,11 +245,6 @@ in
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -201,11 +201,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 search
 (
@@ -367,11 +362,6 @@ x
 }
 crash
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

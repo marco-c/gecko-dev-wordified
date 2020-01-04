@@ -309,11 +309,6 @@ testing
 jitted
 regexps
 .
-jit
-(
-true
-)
-;
 status
 =
 inSection
@@ -514,11 +509,6 @@ null
 ;
 addThis
 (
-)
-;
-jit
-(
-false
 )
 ;
 /

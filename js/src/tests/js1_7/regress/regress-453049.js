@@ -391,11 +391,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 z
 =
@@ -429,11 +424,6 @@ z
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

@@ -390,11 +390,6 @@ summary
 var
 i
 ;
-jit
-(
-true
-)
-;
 for
 (
 i
@@ -411,11 +406,6 @@ i
 )
 [
 ]
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

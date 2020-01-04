@@ -435,11 +435,6 @@ ex
 '
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

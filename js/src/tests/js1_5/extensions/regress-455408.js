@@ -389,11 +389,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -424,11 +419,6 @@ __proto__
 {
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

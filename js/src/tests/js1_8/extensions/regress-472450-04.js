@@ -384,11 +384,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 cyclic
 =
@@ -474,11 +469,6 @@ c
 }
 f
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -200,11 +200,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 this
 .
 __defineSetter__
@@ -292,11 +287,6 @@ x
 =
 y
 }
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

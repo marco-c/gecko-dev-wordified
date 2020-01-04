@@ -209,11 +209,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -239,11 +234,6 @@ NaN
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

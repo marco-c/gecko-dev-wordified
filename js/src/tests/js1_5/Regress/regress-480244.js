@@ -376,11 +376,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 outer
 (
@@ -493,11 +488,6 @@ h
 "
 +
 h
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

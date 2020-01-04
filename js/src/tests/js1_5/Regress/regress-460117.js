@@ -495,11 +495,6 @@ nonjit
 '
 )
 ;
-jit
-(
-true
-)
-;
 t
 (
 {
@@ -518,11 +513,6 @@ bar
 baz
 quux
 '
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

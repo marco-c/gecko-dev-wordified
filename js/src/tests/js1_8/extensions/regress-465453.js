@@ -428,11 +428,6 @@ void
 ]
 '
 ;
-jit
-(
-true
-)
-;
 var
 out
 =
@@ -504,11 +499,6 @@ uneval
 (
 out
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

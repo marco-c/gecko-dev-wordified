@@ -634,11 +634,6 @@ actual
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 actual
 =
@@ -676,11 +671,6 @@ reportCompare
 expect
 actual
 summary
-)
-;
-jit
-(
-false
 )
 ;
 exitFunc

@@ -389,11 +389,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -414,11 +409,6 @@ void
 /
 x
 /
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

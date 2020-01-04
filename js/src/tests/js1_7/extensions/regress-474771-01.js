@@ -377,11 +377,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 o
 =
@@ -422,11 +417,6 @@ o
 x
 =
 3
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

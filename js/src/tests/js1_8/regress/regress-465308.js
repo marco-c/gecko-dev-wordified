@@ -390,11 +390,6 @@ expect
 1073741824
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -432,11 +427,6 @@ actual
 +
 '
 '
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

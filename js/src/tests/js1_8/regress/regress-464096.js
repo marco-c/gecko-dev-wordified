@@ -382,11 +382,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -445,11 +440,6 @@ y
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

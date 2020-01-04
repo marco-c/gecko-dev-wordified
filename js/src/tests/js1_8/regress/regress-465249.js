@@ -384,11 +384,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 eval
 (
 "
@@ -418,11 +413,6 @@ j
 ;
 }
 "
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -398,11 +398,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 x
 (
@@ -463,11 +458,6 @@ x
 (
 false
 40
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

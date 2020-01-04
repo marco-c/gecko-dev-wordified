@@ -380,11 +380,6 @@ actual
 =
 true
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -411,11 +406,6 @@ actual
 <
 =
 null
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

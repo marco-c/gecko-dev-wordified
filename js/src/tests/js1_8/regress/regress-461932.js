@@ -380,11 +380,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 gen
 (
@@ -424,11 +419,6 @@ gen
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

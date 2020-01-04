@@ -373,11 +373,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 [
 ]
 .
@@ -412,11 +407,6 @@ j
 =
 [
 ]
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

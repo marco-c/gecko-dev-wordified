@@ -383,11 +383,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -423,11 +418,6 @@ Date
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

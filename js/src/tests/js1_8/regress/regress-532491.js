@@ -385,11 +385,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-false
-)
-;
 function
 f
 (

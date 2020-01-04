@@ -225,11 +225,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 f1
 (
@@ -399,11 +394,6 @@ f1
 ;
 f2
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

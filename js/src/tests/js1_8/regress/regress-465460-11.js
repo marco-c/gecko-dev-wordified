@@ -377,11 +377,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -424,11 +419,6 @@ function
 )
 {
 }
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

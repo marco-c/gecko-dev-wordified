@@ -374,11 +374,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 constants
 =
@@ -518,11 +513,6 @@ j
 )
 ;
 }
-jit
-(
-false
-)
-;
 exitFunc
 (
 '

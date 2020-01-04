@@ -409,11 +409,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -439,11 +434,6 @@ function
 )
 {
 }
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

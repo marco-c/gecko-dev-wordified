@@ -378,11 +378,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 print
 (
 8
@@ -420,11 +415,6 @@ in
 1
 1
 ]
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare
