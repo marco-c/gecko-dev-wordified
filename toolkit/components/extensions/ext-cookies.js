@@ -1100,6 +1100,8 @@ getCookiesFromHost
 uri
 .
 host
+{
+}
 )
 ;
 }
@@ -1142,6 +1144,8 @@ getCookiesFromHost
 details
 .
 domain
+{
+}
 )
 ;
 }
@@ -2097,6 +2101,8 @@ secure
 httpOnly
 isSession
 expiry
+{
+}
 )
 ;
 return

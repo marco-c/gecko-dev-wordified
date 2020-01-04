@@ -14507,8 +14507,13 @@ session
 cookie
 .
 expiry
+{
+}
 )
 ;
+/
+/
+originAttributes
 return
 true
 ;
@@ -18206,6 +18211,8 @@ cookieManager
 getCookiesFromHost
 (
 host
+{
+}
 )
 ;
 while
