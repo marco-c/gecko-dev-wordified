@@ -399,7 +399,7 @@ GetSize
 )
 const
 ;
-nsString
+BluetoothAddress
 GetBdAddress
 (
 )
@@ -477,7 +477,7 @@ ReadBdAddress
 unsigned
 long
 aOffset
-nsAString
+BluetoothAddress
 &
 aBdAddress
 )

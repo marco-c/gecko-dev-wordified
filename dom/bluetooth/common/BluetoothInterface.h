@@ -256,7 +256,7 @@ Connect
 int
 aSockFd
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 int
@@ -270,7 +270,7 @@ Accept
 int
 aSockFd
 const
-nsAString
+BluetoothAddress
 &
 aBdAddress
 int
@@ -334,7 +334,7 @@ void
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothSocketType
