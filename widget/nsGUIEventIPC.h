@@ -1068,7 +1068,7 @@ WriteParam
 aMsg
 aParam
 .
-deltaZ
+mDeltaZ
 )
 ;
 WriteParam
@@ -1257,7 +1257,7 @@ aIter
 aResult
 -
 >
-deltaZ
+mDeltaZ
 )
 &
 &

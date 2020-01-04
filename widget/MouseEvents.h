@@ -3174,7 +3174,7 @@ mDeltaY
 .
 0
 )
-deltaZ
+mDeltaZ
 (
 0
 .
@@ -3281,7 +3281,7 @@ mDeltaY
 .
 0
 )
-deltaZ
+mDeltaZ
 (
 0
 .
@@ -3511,7 +3511,7 @@ NOTE
 mDeltaX
 mDeltaY
 and
-deltaZ
+mDeltaZ
 may
 be
 customized
@@ -3558,7 +3558,7 @@ double
 mDeltaY
 ;
 double
-deltaZ
+mDeltaZ
 ;
 /
 /
@@ -3969,7 +3969,7 @@ NOTE
 mDeltaX
 mDeltaY
 and
-deltaZ
+mDeltaZ
 may
 be
 modified
@@ -4178,11 +4178,11 @@ aEvent
 .
 mDeltaY
 ;
-deltaZ
+mDeltaZ
 =
 aEvent
 .
-deltaZ
+mDeltaZ
 ;
 deltaMode
 =

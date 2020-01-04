@@ -3046,7 +3046,7 @@ mDeltaY
 =
 aWheelEvent
 .
-deltaZ
+mDeltaZ
 =
 0
 .
