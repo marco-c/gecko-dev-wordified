@@ -1113,14 +1113,6 @@ activate
 )
 IMPL_EVENT_HANDLER
 (
-beforeevicted
-)
-IMPL_EVENT_HANDLER
-(
-evicted
-)
-IMPL_EVENT_HANDLER
-(
 fetch
 )
 IMPL_EVENT_HANDLER
