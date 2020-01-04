@@ -1734,12 +1734,17 @@ CanWorkInPlace
 )
 )
 ;
+data
+=
 mAudioConverter
 -
 >
 Process
 (
+Move
+(
 data
+)
 )
 ;
 }
