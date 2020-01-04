@@ -2315,6 +2315,11 @@ DataSourceSurface
 out_surface
 )
 ;
+void
+SetDeviceLost
+(
+)
+;
 bool
 EnsureInitialized
 (
