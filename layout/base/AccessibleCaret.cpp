@@ -932,7 +932,6 @@ bar
 %
 s
 "
-__FUNCTION__
 aEnabled
 ?
 "
