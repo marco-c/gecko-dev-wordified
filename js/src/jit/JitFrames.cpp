@@ -10979,9 +10979,12 @@ isIonJS
 /
 Skip
 Baseline
-or
+/
 Ion
 stub
+and
+accessor
+IC
 frames
 .
 if
@@ -11013,6 +11016,13 @@ if
 it
 .
 isIonStubMaybeUnwound
+(
+)
+|
+|
+it
+.
+isIonAccessorICMaybeUnwound
 (
 )
 )
