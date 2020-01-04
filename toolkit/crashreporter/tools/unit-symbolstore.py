@@ -69,6 +69,8 @@ futures
 import
 mock
 import
+mozunit
+import
 os
 import
 platform
@@ -5213,7 +5215,7 @@ futures
 ThreadPoolExecutor
 )
     
-unittest
+mozunit
 .
 main
 (
