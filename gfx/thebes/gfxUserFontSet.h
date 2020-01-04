@@ -670,6 +670,17 @@ gfxUserFontData
 )
 {
 }
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 nsTArray
 <
 uint8_t
