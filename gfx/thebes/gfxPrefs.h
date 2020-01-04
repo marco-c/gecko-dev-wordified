@@ -5460,11 +5460,11 @@ tile
 -
 pool
 -
-increment
+unused
 -
 size
 "
-LayersTilePoolIncrementSize
+LayersTilePoolUnusedSize
 uint32_t
 (
 uint32_t
