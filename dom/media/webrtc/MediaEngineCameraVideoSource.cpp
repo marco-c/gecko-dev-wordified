@@ -312,7 +312,6 @@ MediaEngineCameraVideoSource
 NumCapabilities
 (
 )
-const
 {
 return
 mHardcodedCapabilities
@@ -337,7 +336,6 @@ CaptureCapability
 &
 aOut
 )
-const
 {
 MOZ_ASSERT
 (
@@ -380,7 +378,6 @@ nsString
 &
 aDeviceId
 )
-const
 {
 /
 /
@@ -757,7 +754,6 @@ nsString
 &
 aDeviceId
 )
-const
 {
 size_t
 num
@@ -2501,7 +2497,6 @@ nsAString
 &
 aName
 )
-const
 {
 aName
 =
@@ -2538,7 +2533,6 @@ nsACString
 &
 aUUID
 )
-const
 {
 aUUID
 =
@@ -2554,7 +2548,6 @@ MediaEngineCameraVideoSource
 GetUUID
 (
 )
-const
 {
 return
 mUniqueId

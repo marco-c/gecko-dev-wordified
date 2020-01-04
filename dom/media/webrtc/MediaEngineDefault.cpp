@@ -334,7 +334,6 @@ nsAString
 &
 aName
 )
-const
 {
 aName
 .
@@ -363,7 +362,6 @@ nsACString
 &
 aUUID
 )
-const
 {
 aUUID
 .
@@ -405,7 +403,6 @@ nsString
 &
 aDeviceId
 )
-const
 {
 uint32_t
 distance
@@ -2061,7 +2058,6 @@ nsAString
 &
 aName
 )
-const
 {
 aName
 .
@@ -2090,7 +2086,6 @@ nsACString
 &
 aUUID
 )
-const
 {
 aUUID
 .
@@ -2132,7 +2127,6 @@ nsString
 &
 aDeviceId
 )
-const
 {
 uint32_t
 distance

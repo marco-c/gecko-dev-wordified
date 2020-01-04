@@ -729,7 +729,6 @@ nsAString_internal
 &
 aName
 )
-const
 {
 aName
 .
@@ -760,7 +759,6 @@ nsACString_internal
 &
 aUuid
 )
-const
 {
 aUuid
 .
