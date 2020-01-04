@@ -639,9 +639,9 @@ createPerformanceFront
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 performance
 "
