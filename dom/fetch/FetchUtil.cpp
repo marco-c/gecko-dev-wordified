@@ -711,8 +711,10 @@ Parse
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_BAD_FORMDATA
+>
+(
 )
 ;
 return
@@ -866,8 +868,10 @@ forget
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_BAD_FORMDATA
+>
+(
 )
 ;
 return
