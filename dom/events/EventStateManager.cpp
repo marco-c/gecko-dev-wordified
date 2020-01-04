@@ -11021,8 +11021,7 @@ draggesture
 events
 make
 it
-read
-only
+readonly
 so
 that
 the

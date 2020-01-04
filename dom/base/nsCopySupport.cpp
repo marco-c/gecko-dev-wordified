@@ -4022,7 +4022,12 @@ clipboardData
 new
 DataTransfer
 (
-piWindow
+doc
+-
+>
+GetScopeObject
+(
+)
 aEventMessage
 aEventMessage
 =
