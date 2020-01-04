@@ -1971,6 +1971,15 @@ ins
 ;
 virtual
 void
+visitAsmJSPassStackArgI64
+(
+LAsmJSPassStackArgI64
+*
+ins
+)
+;
+virtual
+void
 visitAsmSelect
 (
 LAsmSelect

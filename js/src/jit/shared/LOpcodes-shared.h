@@ -2098,6 +2098,11 @@ AsmJSPassStackArg
 \
 _
 (
+AsmJSPassStackArgI64
+)
+\
+_
+(
 AsmJSCall
 )
 \
