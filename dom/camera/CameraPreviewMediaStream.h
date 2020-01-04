@@ -181,7 +181,7 @@ class
 CameraPreviewMediaStream
 :
 public
-MediaStream
+ProcessedMediaStream
 {
 typedef
 mozilla
@@ -309,6 +309,18 @@ void
 Invalidate
 (
 )
+;
+void
+ProcessInput
+(
+GraphTime
+aFrom
+GraphTime
+aTo
+uint32_t
+aFlags
+)
+override
 ;
 /
 /
