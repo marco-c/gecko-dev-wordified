@@ -20515,9 +20515,6 @@ ctx
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-AutoJSContext
-cx
-;
 JS
 :
 :
@@ -20528,7 +20525,12 @@ JSObject
 >
 obj
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 GetWrapperPreserveColor
 (
 )
