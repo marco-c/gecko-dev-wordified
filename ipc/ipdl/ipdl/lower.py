@@ -41697,14 +41697,7 @@ self
 .
 profilerLabel
 (
-'
-Recv
-'
 md
-.
-decl
-.
-progname
 )
             
 Whitespace
@@ -42235,14 +42228,7 @@ self
 .
 profilerLabel
 (
-'
-AsyncSend
-'
 md
-.
-decl
-.
-progname
 )
 ]
             
@@ -42366,14 +42352,7 @@ self
 .
 profilerLabel
 (
-'
-Send
-'
 md
-.
-decl
-.
-progname
 )
 ]
             
@@ -43033,8 +43012,7 @@ def
 profilerLabel
 (
 self
-tag
-msgname
+md
 )
 :
         
@@ -43055,12 +43033,6 @@ ExprLiteral
 .
 String
 (
-'
-IPDL
-:
-:
-'
-+
 self
 .
 protocol
@@ -43072,9 +43044,11 @@ ExprLiteral
 .
 String
 (
-tag
-+
-msgname
+md
+.
+prettyMsgName
+(
+)
 )
                                    
 ExprVar
