@@ -170,6 +170,7 @@ TransformSVG
 TransformWithGeometricProperties
 TransformFrameInactive
 OpacityFrameInactive
+HasRenderingObserver
 }
 ;
 explicit
