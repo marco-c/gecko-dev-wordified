@@ -164,9 +164,15 @@ CustomEvent
 (
 )
 ;
-nsCOMPtr
+JS
+:
+:
+Heap
 <
-nsIVariant
+JS
+:
+:
+Value
 >
 mDetail
 ;
@@ -200,7 +206,7 @@ nullptr
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 CustomEvent
 Event
