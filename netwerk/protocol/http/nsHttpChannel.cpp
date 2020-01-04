@@ -37052,6 +37052,14 @@ mAllowAltSvc
 /
 per
 channel
+!
+(
+mLoadFlags
+&
+LOAD_FRESH_CONNECTION
+)
+&
+&
 (
 scheme
 .
