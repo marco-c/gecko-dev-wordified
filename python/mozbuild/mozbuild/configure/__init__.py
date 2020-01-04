@@ -4394,6 +4394,13 @@ _paths
 -
 1
 ]
+if
+self
+.
+_paths
+else
+'
+'
             
 os
 =
