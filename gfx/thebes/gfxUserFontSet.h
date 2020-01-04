@@ -2859,7 +2859,10 @@ true
 ;
 }
 static
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetUserFontsLog
 (
