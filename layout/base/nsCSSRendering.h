@@ -2725,6 +2725,10 @@ nsRect
 &
 aFill
 const
+nsSize
+&
+aRepeatSize
+const
 mozilla
 :
 :
