@@ -6126,7 +6126,7 @@ toConstant
 )
 -
 >
-valueToBoolean
+valueToBooleanInfallible
 (
 )
 )
@@ -6958,7 +6958,7 @@ toConstant
 )
 -
 >
-valueToBoolean
+valueToBooleanInfallible
 (
 )
 )
