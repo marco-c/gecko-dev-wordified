@@ -96,13 +96,13 @@ SkDrawPoint
 (
 )
 ;
-virtual
 void
 getBounds
 (
 SkRect
 *
 )
+override
 ;
 private
 :

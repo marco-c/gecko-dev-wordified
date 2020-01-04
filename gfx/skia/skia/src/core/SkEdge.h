@@ -479,10 +479,6 @@ pts
 [
 4
 ]
-const
-SkIRect
-*
-clip
 int
 shiftUp
 )
@@ -708,7 +704,7 @@ y0
 )
 ;
 const
-int
+SkFDot6
 dy
 =
 SkEdge_Compute_DY

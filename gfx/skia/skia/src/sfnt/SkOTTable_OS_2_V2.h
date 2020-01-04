@@ -2756,7 +2756,7 @@ pack
 (
 pop
 )
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -2765,7 +2765,9 @@ SkOTTableOS2_V2
 =
 =
 96
+"
 sizeof_SkOTTableOS2_V2_not_96
+"
 )
 ;
 #

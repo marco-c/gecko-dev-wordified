@@ -474,13 +474,11 @@ height
 /
 /
 return
-SkNEW_ARGS
-(
+new
 GrRectanizerPow2
 (
 width
 height
-)
 )
 ;
 /

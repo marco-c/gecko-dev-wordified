@@ -47,12 +47,8 @@ SkTypes
 h
 "
 #
-include
-"
-SkTemplates
-.
-h
-"
+ifdef
+SK_BUILD_FOR_WIN
 template
 <
 typename
@@ -324,9 +320,6 @@ reset
 {
 if
 (
-NULL
-!
-=
 this
 -
 >
@@ -418,3 +411,11 @@ temp
 ;
 #
 endif
+/
+/
+SK_BUILD_FOR_WIN
+#
+endif
+/
+/
+SkTScopedComPtr_DEFINED

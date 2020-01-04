@@ -60,7 +60,7 @@ targetID
 {
 fType
 =
-NULL
+nullptr
 ;
 setType
 (
@@ -78,7 +78,7 @@ targetID
 ;
 fTargetProc
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -89,7 +89,7 @@ fTime
 ;
 fNextEvent
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -814,7 +814,7 @@ fast32
 )
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -927,7 +927,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 SkDEBUGCODE
@@ -978,7 +978,7 @@ s32
 )
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -1024,7 +1024,7 @@ scalar
 )
 !
 =
-NULL
+nullptr
 )
 {
 SkScalar
@@ -1070,7 +1070,7 @@ string
 )
 !
 =
-NULL
+nullptr
 )
 this
 -
@@ -1266,7 +1266,7 @@ count
 )
 !
 =
-NULL
+nullptr
 )
 {
 SkASSERT
@@ -1350,7 +1350,7 @@ findScalars
 name
 &
 count
-NULL
+nullptr
 )
 ;
 SkDebugf
@@ -1758,7 +1758,7 @@ endif
 #
 include
 "
-SkThread
+SkMutex
 .
 h
 "
@@ -1780,15 +1780,15 @@ SkEvent_Globals
 {
 fEventQHead
 =
-NULL
+nullptr
 ;
 fEventQTail
 =
-NULL
+nullptr
 ;
 fDelayQHead
 =
-NULL
+nullptr
 ;
 SkDEBUGCODE
 (
@@ -2170,7 +2170,7 @@ globals
 fEventQHead
 =
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2200,7 +2200,7 @@ globals
 fEventQHead
 =
 =
-NULL
+nullptr
 )
 globals
 .
@@ -2213,7 +2213,7 @@ evt
 >
 fNextEvent
 =
-NULL
+nullptr
 ;
 SkDEBUGCODE
 (
@@ -2291,14 +2291,14 @@ globals
 fEventQHead
 =
 =
-NULL
+nullptr
 )
 {
 globals
 .
 fEventQTail
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2348,7 +2348,7 @@ globals
 fEventQHead
 !
 =
-NULL
+nullptr
 ;
 }
 #
@@ -2399,7 +2399,7 @@ SkEvent
 *
 prev
 =
-NULL
+nullptr
 ;
 while
 (
@@ -2452,7 +2452,7 @@ if
 prev
 =
 =
-NULL
+nullptr
 )
 {
 globals

@@ -96,17 +96,16 @@ SkDisplayRandom
 #
 ifdef
 SK_DUMP_ENABLED
-virtual
 void
 dump
 (
 SkAnimateMaker
 *
 )
+override
 ;
 #
 endif
-virtual
 bool
 getProperty
 (
@@ -117,8 +116,8 @@ SkScriptValue
 value
 )
 const
+override
 ;
-virtual
 bool
 setProperty
 (
@@ -127,6 +126,7 @@ index
 SkScriptValue
 &
 )
+override
 ;
 private
 :

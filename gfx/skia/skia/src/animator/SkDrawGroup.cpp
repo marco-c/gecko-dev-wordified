@@ -133,11 +133,11 @@ SkGroup
 :
 fParentList
 (
-NULL
+nullptr
 )
 fOriginal
 (
-NULL
+nullptr
 )
 {
 }
@@ -179,7 +179,7 @@ count
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -318,7 +318,7 @@ append
 )
 =
 (
-SkDrawable
+SkADrawable
 *
 )
 child
@@ -351,7 +351,7 @@ groupie
 fParentList
 =
 =
-NULL
+nullptr
 )
 ;
 groupie
@@ -380,7 +380,7 @@ match
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -404,7 +404,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -531,7 +531,7 @@ maker
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -622,7 +622,7 @@ false
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -646,7 +646,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -712,7 +712,7 @@ false
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -736,7 +736,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -942,7 +942,7 @@ false
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -988,7 +988,7 @@ n
 )
 ;
 }
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -1075,7 +1075,7 @@ dumpEvents
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1099,7 +1099,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -1134,7 +1134,7 @@ reset
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1158,7 +1158,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -1212,7 +1212,7 @@ SkGroup
 :
 findGroup
 (
-SkDrawable
+SkADrawable
 *
 match
 SkTDDrawableArray
@@ -1241,7 +1241,7 @@ fChildren
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1265,7 +1265,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -1379,7 +1379,7 @@ ifCondition
 SkAnimateMaker
 &
 maker
-SkDrawable
+SkADrawable
 *
 SkString
 &
@@ -1528,7 +1528,7 @@ initialize
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1552,7 +1552,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -1790,7 +1790,7 @@ count
 ;
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1920,7 +1920,7 @@ original
 >
 fChildren
 ;
-SkDrawable
+SkADrawable
 *
 *
 originalPtr
@@ -1931,7 +1931,7 @@ begin
 (
 )
 ;
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -1942,7 +1942,7 @@ begin
 (
 )
 ;
-SkDrawable
+SkADrawable
 *
 *
 end
@@ -1953,7 +1953,7 @@ end
 (
 )
 ;
-SkDrawable
+SkADrawable
 *
 *
 origChild
@@ -1980,7 +1980,7 @@ ptr
 end
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -2041,7 +2041,7 @@ steps
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -2065,7 +2065,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =
@@ -2109,7 +2109,7 @@ validate
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -2133,7 +2133,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 drawable
 =

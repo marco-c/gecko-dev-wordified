@@ -336,7 +336,7 @@ false
 )
 scope
 (
-NULL
+nullptr
 )
 steps
 (
@@ -353,13 +353,13 @@ Transition
 )
 fActive
 (
-NULL
+nullptr
 )
 /
 *
 fCurrentScope
 (
-NULL
+nullptr
 )
 *
 /
@@ -403,7 +403,7 @@ SkApply
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 curPtr
@@ -471,7 +471,7 @@ if
 fActive
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -632,7 +632,7 @@ if
 fActive
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -757,7 +757,7 @@ SkASSERT
 info
 !
 =
-NULL
+nullptr
 )
 ;
 SkDisplayTypes
@@ -894,7 +894,7 @@ info
 getType
 (
 )
-NULL
+nullptr
 )
 ;
 }
@@ -1116,7 +1116,7 @@ child
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 curPtr
@@ -1186,7 +1186,7 @@ SkAnimateMaker
 maker
 )
 {
-SkDrawable
+SkADrawable
 *
 saveScope
 =
@@ -1194,7 +1194,7 @@ scope
 ;
 scope
 =
-NULL
+nullptr
 ;
 SkApply
 *
@@ -1409,7 +1409,7 @@ if
 scope
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -1999,7 +1999,7 @@ initialized
 fActive
 !
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2169,7 +2169,7 @@ kMode_create
 scope
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -2277,7 +2277,7 @@ kMode_create
 scope
 !
 =
-NULL
+nullptr
 )
 {
 enableCreate
@@ -2330,7 +2330,7 @@ maker
 .
 fDisplayList
 ;
-SkDrawable
+SkADrawable
 *
 drawable
 ;
@@ -2430,7 +2430,7 @@ if
 scope
 =
 =
-NULL
+nullptr
 |
 |
 scope
@@ -2511,7 +2511,7 @@ if
 scope
 !
 =
-NULL
+nullptr
 &
 &
 dontDraw
@@ -2667,7 +2667,7 @@ embedder
 drawable
 =
 (
-SkDrawable
+SkADrawable
 *
 )
 scope
@@ -2862,7 +2862,7 @@ apply
 fActive
 =
 =
-NULL
+nullptr
 )
 apply
 -
@@ -2882,7 +2882,7 @@ this
 ;
 parentGroup
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2899,7 +2899,7 @@ markCopySize
 old
 )
 ;
-SkDrawable
+SkADrawable
 *
 *
 newApplyLocation
@@ -2952,7 +2952,7 @@ oldApply
 ]
 =
 (
-SkDrawable
+SkADrawable
 *
 )
 SkDisplayType
@@ -2967,7 +2967,7 @@ SkType_Apply
 ;
 parentGroup
 =
-NULL
+nullptr
 ;
 fDeleteScope
 =
@@ -3080,7 +3080,7 @@ newID
 c_str
 (
 )
-NULL
+nullptr
 )
 )
 continue
@@ -3125,7 +3125,7 @@ Mode
 -
 1
 ;
-SkDrawable
+SkADrawable
 *
 copyScope
 =
@@ -3135,7 +3135,7 @@ copy
 scope
 =
 (
-SkDrawable
+SkADrawable
 *
 )
 scope
@@ -3346,11 +3346,11 @@ SkGroup
 *
 pGroup
 =
-NULL
+nullptr
 *
 found
 =
-NULL
+nullptr
 ;
 int
 old
@@ -3422,7 +3422,7 @@ if
 found
 !
 =
-NULL
+nullptr
 )
 {
 SkDisplayable
@@ -3495,7 +3495,7 @@ old
 scope
 =
 (
-SkDrawable
+SkADrawable
 *
 )
 newScope
@@ -3518,7 +3518,7 @@ fActive
 ;
 fActive
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3921,7 +3921,7 @@ value
 )
 ;
 }
-SkDrawable
+SkADrawable
 *
 SkApply
 :
@@ -4055,7 +4055,7 @@ if
 fActive
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -4072,7 +4072,7 @@ fActive
 ;
 fActive
 =
-NULL
+nullptr
 ;
 return
 true
@@ -4110,7 +4110,7 @@ if
 fActive
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -4159,7 +4159,7 @@ if
 fActive
 !
 =
-NULL
+nullptr
 &
 &
 strcmp
@@ -4906,7 +4906,7 @@ maker
 formulaValues
 0
 0
-NULL
+nullptr
 animate
 -
 >
@@ -5010,7 +5010,7 @@ if
 scope
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -5055,7 +5055,7 @@ SkAnimateMaker
 maker
 )
 {
-SkDrawable
+SkADrawable
 *
 scopePtr
 =
@@ -5130,7 +5130,7 @@ if
 scope
 !
 =
-NULL
+nullptr
 &
 &
 steps
@@ -5215,7 +5215,7 @@ anim
 fTarget
 =
 =
-NULL
+nullptr
 |
 |
 anim
@@ -5275,7 +5275,7 @@ if
 scope
 !
 =
-NULL
+nullptr
 &
 &
 steps
@@ -5922,7 +5922,7 @@ activeIndex
 ]
 =
 =
-NULL
+nullptr
 )
 {
 fActive

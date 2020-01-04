@@ -46,6 +46,9 @@ SkTypeface
 .
 h
 "
+#
+ifdef
+SK_BUILD_FOR_WIN
 /
 *
 *
@@ -369,3 +372,11 @@ SkRemotableFontMgr_New_DirectWrite
 ;
 #
 endif
+/
+/
+SK_BUILD_FOR_WIN
+#
+endif
+/
+/
+SkTypeface_win_DEFINED

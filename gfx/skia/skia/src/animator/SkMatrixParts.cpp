@@ -79,7 +79,7 @@ SkMatrixPart
 :
 fMatrix
 (
-NULL
+nullptr
 )
 {
 }
@@ -129,7 +129,7 @@ SkASSERT
 parent
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -546,7 +546,7 @@ offset
 )
 path
 (
-NULL
+nullptr
 )
 {
 }
@@ -572,7 +572,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 return
 true
@@ -718,11 +718,11 @@ SkRectToRect
 :
 source
 (
-NULL
+nullptr
 )
 destination
 (
-NULL
+nullptr
 )
 {
 }
@@ -748,13 +748,13 @@ if
 source
 =
 =
-NULL
+nullptr
 |
 |
 destination
 =
 =
-NULL
+nullptr
 )
 return
 true
@@ -1003,7 +1003,7 @@ if
 source
 =
 =
-NULL
+nullptr
 )
 return
 getMember
@@ -1037,7 +1037,7 @@ SkASSERT
 destination
 =
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1094,11 +1094,11 @@ SkPolyToPoly
 :
 source
 (
-NULL
+nullptr
 )
 destination
 (
-NULL
+nullptr
 )
 {
 }
@@ -1475,7 +1475,7 @@ if
 source
 =
 =
-NULL
+nullptr
 )
 return
 getMember
@@ -1509,7 +1509,7 @@ SkASSERT
 destination
 =
 =
-NULL
+nullptr
 )
 ;
 return

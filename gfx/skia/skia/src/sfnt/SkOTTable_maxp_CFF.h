@@ -94,7 +94,7 @@ stddef
 .
 h
 >
-SK_COMPILE_ASSERT
+static_assert
 (
 offsetof
 (
@@ -104,10 +104,12 @@ numGlyphs
 =
 =
 4
+"
 SkOTTableMaximumProfile_CFF_numGlyphs_not_at_4
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -116,7 +118,9 @@ SkOTTableMaximumProfile_CFF
 =
 =
 6
+"
 sizeof_SkOTTableMaximumProfile_CFF_not_6
+"
 )
 ;
 #

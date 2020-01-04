@@ -45,7 +45,7 @@ void
 *
 gSpecific
 =
-NULL
+nullptr
 ;
 void
 *

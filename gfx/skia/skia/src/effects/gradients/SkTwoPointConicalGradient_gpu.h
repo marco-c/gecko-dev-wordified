@@ -47,7 +47,7 @@ SkGradientShaderPriv
 h
 "
 class
-GrEffect
+GrProcessor
 ;
 class
 SkTwoPointConicalGradient
@@ -79,7 +79,7 @@ in
 .
 *
 /
-GrEffect
+GrFragmentProcessor
 *
 Create
 (

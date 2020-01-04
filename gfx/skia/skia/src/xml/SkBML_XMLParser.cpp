@@ -223,7 +223,7 @@ index
 ]
 =
 =
-NULL
+nullptr
 )
 array
 [

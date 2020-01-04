@@ -205,7 +205,7 @@ size
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -224,7 +224,7 @@ scaleX
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -237,7 +237,7 @@ skewX
 )
 {
 return
-NULL
+nullptr
 ;
 }
 flags
@@ -246,8 +246,7 @@ flags
 kAllFlags
 ;
 return
-SkNEW_ARGS
-(
+new
 SkFont
 (
 face
@@ -256,7 +255,6 @@ scaleX
 skewX
 mt
 flags
-)
 )
 ;
 }
@@ -597,7 +595,7 @@ break
 }
 if
 (
-NULL
+nullptr
 =
 =
 glyphs

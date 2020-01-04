@@ -233,7 +233,7 @@ only
 if
 we
 got
-NULL
+nullptr
 since
 we
 gave
@@ -270,6 +270,6 @@ next
 ;
 }
 return
-NULL
+nullptr
 ;
 }

@@ -287,7 +287,7 @@ stddef
 .
 h
 >
-SK_COMPILE_ASSERT
+static_assert
 (
 offsetof
 (
@@ -297,10 +297,12 @@ numRanges
 =
 =
 2
+"
 SkOTTableGridAndScanProcedure_numRanges_not_at_2
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -309,7 +311,9 @@ SkOTTableGridAndScanProcedure
 =
 =
 4
+"
 sizeof_SkOTTableGridAndScanProcedure_not_4
+"
 )
 ;
 #

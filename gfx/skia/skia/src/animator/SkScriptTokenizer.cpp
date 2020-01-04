@@ -5893,7 +5893,7 @@ callbackResult
 fOperand
 .
 fReference
-NULL
+nullptr
 )
 ;
 callbackResult
@@ -6328,7 +6328,7 @@ fOperand
 fString
 =
 =
-NULL
+nullptr
 )
 {
 callbackResult
@@ -8953,7 +8953,7 @@ fS32
 )
 !
 =
-NULL
+nullptr
 ;
 }
 break
@@ -9020,7 +9020,7 @@ fScalar
 )
 !
 =
-NULL
+nullptr
 ;
 }
 break
@@ -9369,7 +9369,7 @@ SkOperand2
 kS32
 expression
 0
-NULL
+nullptr
 }
 #
 define
@@ -9391,7 +9391,7 @@ float
 (
 expression
 )
-NULL
+nullptr
 }
 #
 define
@@ -9424,7 +9424,7 @@ float
 )
 exp2
 )
-NULL
+nullptr
 }
 #
 define
@@ -9441,7 +9441,7 @@ SkOperand2
 kS32
 1
 0
-NULL
+nullptr
 }
 #
 define
@@ -9458,7 +9458,7 @@ SkOperand2
 kS32
 0
 0
-NULL
+nullptr
 }
 static
 const
@@ -9783,7 +9783,7 @@ kS32
 |
 456
 0
-NULL
+nullptr
 }
 {
 "
@@ -9803,7 +9803,7 @@ kS32
 |
 456
 0
-NULL
+nullptr
 }
 {
 "
@@ -9821,7 +9821,7 @@ kS32
 |
 456
 0
-NULL
+nullptr
 }
 {
 "
@@ -9837,7 +9837,7 @@ SkOperand2
 kS32
 1
 0
-NULL
+nullptr
 }
 {
 "
@@ -9853,7 +9853,7 @@ SkOperand2
 kS32
 1
 0
-NULL
+nullptr
 }
 {
 "
@@ -9871,7 +9871,7 @@ SkOperand2
 kS32
 0
 0
-NULL
+nullptr
 }
 testInt
 (
@@ -11095,7 +11095,7 @@ SkIntToScalar
 SK_Scalar1
 /
 2
-NULL
+nullptr
 }
 }
 ;

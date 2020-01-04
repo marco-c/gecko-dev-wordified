@@ -105,7 +105,7 @@ index
 void
 create
 (
-SkDrawable
+SkADrawable
 *
 scope
 SkMSec

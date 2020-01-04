@@ -73,7 +73,7 @@ h
 #
 include
 "
-SkDrawable
+SkADrawable
 .
 h
 "
@@ -258,7 +258,7 @@ index
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 draw
 =
@@ -322,7 +322,7 @@ SkDisplayList
 :
 findGroup
 (
-SkDrawable
+SkADrawable
 *
 match
 SkTDDrawableArray
@@ -346,7 +346,7 @@ grandList
 *
 parent
 =
-NULL
+nullptr
 ;
 *
 list
@@ -418,7 +418,7 @@ SkDisplayList
 :
 SearchForMatch
 (
-SkDrawable
+SkADrawable
 *
 match
 SkTDDrawableArray
@@ -442,7 +442,7 @@ grandList
 *
 found
 =
-NULL
+nullptr
 ;
 for
 (
@@ -468,7 +468,7 @@ index
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 draw
 =
@@ -570,7 +570,7 @@ kMode_create
 {
 for
 (
-SkDrawable
+SkADrawable
 *
 *
 ptr
@@ -600,7 +600,7 @@ ptr
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 scope
 =
@@ -669,10 +669,10 @@ SkDisplayList
 :
 SearchGroupForMatch
 (
-SkDrawable
+SkADrawable
 *
 draw
-SkDrawable
+SkADrawable
 *
 match
 SkTDDrawableArray
@@ -801,7 +801,7 @@ index
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 draw
 =
@@ -1018,7 +1018,7 @@ index
 +
 )
 {
-SkDrawable
+SkADrawable
 *
 draw
 =

@@ -98,7 +98,7 @@ adjustedPhase
 If
 adjustedPhase
 is
-NULL
+nullptr
 then
 it
 is
@@ -137,7 +137,7 @@ SkScalar
 *
 adjustedPhase
 =
-NULL
+nullptr
 )
 ;
 bool

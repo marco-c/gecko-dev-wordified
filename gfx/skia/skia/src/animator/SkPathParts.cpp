@@ -79,7 +79,7 @@ SkPathPart
 :
 fPath
 (
-NULL
+nullptr
 )
 {
 }
@@ -129,7 +129,7 @@ SkASSERT
 parent
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1195,11 +1195,11 @@ SkAddPath
 :
 matrix
 (
-NULL
+nullptr
 )
 path
 (
-NULL
+nullptr
 )
 {
 }
@@ -1216,7 +1216,7 @@ SkASSERT
 path
 !
 =
-NULL
+nullptr
 )
 ;
 if

@@ -105,7 +105,7 @@ name
 [
 ]
 or
-NULL
+nullptr
 if
 no
 matching
@@ -146,7 +146,7 @@ const
 If
 data
 is
-NULL
+nullptr
 remove
 (
 if
@@ -179,7 +179,7 @@ data
 is
 not
 -
-NULL
+nullptr
 replace
 the
 existing
@@ -266,7 +266,7 @@ this
 set
 (
 name
-NULL
+nullptr
 )
 ;
 }

@@ -35,11 +35,11 @@ file
 /
 #
 include
-<
-stdarg
+"
+SkAtomics
 .
 h
->
+"
 #
 include
 "
@@ -49,11 +49,11 @@ h
 "
 #
 include
-"
-SkThread
+<
+stdarg
 .
 h
-"
+>
 static
 int
 gOSMenuCmd
@@ -176,7 +176,7 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -199,9 +199,6 @@ const
 {
 if
 (
-NULL
-!
-=
 items
 )
 {
@@ -1261,7 +1258,7 @@ char
 arg
 !
 =
-NULL
+nullptr
 ;
 arg
 =
@@ -1642,9 +1639,6 @@ gMenuEventType
 )
 &
 &
-NULL
-!
-=
 items
 )
 {
@@ -1665,7 +1659,7 @@ if
 text
 !
 =
-NULL
+nullptr
 )
 {
 SkString
@@ -1702,7 +1696,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 items
@@ -1723,7 +1717,7 @@ token
 =
 strtok
 (
-NULL
+nullptr
 gDelimiter
 )
 ;

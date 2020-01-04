@@ -48,6 +48,13 @@ SkScalar
 .
 h
 "
+#
+include
+"
+SkTypes
+.
+h
+"
 /
 *
 *
@@ -798,7 +805,6 @@ buffer
 .
 *
 /
-virtual
 bool
 read
 (
@@ -808,7 +814,7 @@ buffer
 size_t
 size
 )
-SK_OVERRIDE
+override
 ;
 /
 *

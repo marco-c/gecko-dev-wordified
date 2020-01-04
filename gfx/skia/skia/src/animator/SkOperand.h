@@ -55,7 +55,7 @@ class
 SkDisplayable
 ;
 class
-SkDrawable
+SkADrawable
 ;
 class
 SkString
@@ -92,7 +92,7 @@ SkDisplayable
 *
 fDisplayable
 ;
-SkDrawable
+SkADrawable
 *
 fDrawable
 ;
@@ -164,7 +164,7 @@ fOperand
 fDisplayable
 ;
 }
-SkDrawable
+SkADrawable
 *
 getDrawable
 (

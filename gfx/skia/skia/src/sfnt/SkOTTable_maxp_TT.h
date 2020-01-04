@@ -171,7 +171,7 @@ stddef
 .
 h
 >
-SK_COMPILE_ASSERT
+static_assert
 (
 offsetof
 (
@@ -181,10 +181,12 @@ maxComponentDepth
 =
 =
 30
+"
 SkOTTableMaximumProfile_TT_maxComponentDepth_not_at_30
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -193,7 +195,9 @@ SkOTTableMaximumProfile_TT
 =
 =
 32
+"
 sizeof_SkOTTableMaximumProfile_TT_not_32
+"
 )
 ;
 #

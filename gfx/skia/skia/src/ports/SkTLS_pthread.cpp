@@ -104,7 +104,7 @@ pthread_once
 and
 just
 return
-NULL
+nullptr
 if
 we
 '

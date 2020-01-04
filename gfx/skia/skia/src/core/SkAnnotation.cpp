@@ -50,14 +50,7 @@ h
 #
 include
 "
-SkReadBuffer
-.
-h
-"
-#
-include
-"
-SkWriteBuffer
+SkPaint
 .
 h
 "
@@ -71,7 +64,14 @@ h
 #
 include
 "
-SkStream
+SkReadBuffer
+.
+h
+"
+#
+include
+"
+SkWriteBuffer
 .
 h
 "
@@ -97,7 +97,7 @@ key
 {
 if
 (
-NULL
+nullptr
 =
 =
 value
@@ -169,7 +169,7 @@ key
 ?
 fData
 :
-NULL
+nullptr
 ;
 }
 SkAnnotation
@@ -420,7 +420,7 @@ value
 {
 if
 (
-NULL
+nullptr
 =
 =
 value
@@ -471,7 +471,7 @@ name
 {
 if
 (
-NULL
+nullptr
 =
 =
 name
@@ -531,7 +531,7 @@ name
 {
 if
 (
-NULL
+nullptr
 =
 =
 name

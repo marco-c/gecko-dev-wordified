@@ -36,6 +36,13 @@ file
 #
 include
 "
+SkDiscardableMemory
+.
+h
+"
+#
+include
+"
 SkDiscardableMemoryPool
 .
 h
