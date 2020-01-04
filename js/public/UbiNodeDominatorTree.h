@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -2494,6 +2503,7 @@ predecessor
 sets
 .
 static
+MOZ_MUST_USE
 bool
 doTraversal
 (
@@ -2743,6 +2753,7 @@ in
 postOrder
 .
 static
+MOZ_MUST_USE
 bool
 mapNodesToTheirIndices
 (
@@ -2856,6 +2867,7 @@ index
 form
 .
 static
+MOZ_MUST_USE
 bool
 convertPredecessorSetsToVectors
 (
@@ -3161,6 +3173,7 @@ are
 UNDEFINED
 .
 static
+MOZ_MUST_USE
 bool
 initializeDominators
 (
@@ -3302,6 +3315,7 @@ length
 )
 ;
 }
+MOZ_MUST_USE
 bool
 computeRetainedSizes
 (
@@ -4974,6 +4988,7 @@ unchanged
 .
 *
 /
+MOZ_MUST_USE
 bool
 getRetainedSize
 (
