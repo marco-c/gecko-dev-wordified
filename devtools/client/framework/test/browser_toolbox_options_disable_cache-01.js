@@ -51,6 +51,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Tests
