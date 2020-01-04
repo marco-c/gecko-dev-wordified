@@ -20709,11 +20709,6 @@ compartment
 .
 if
 (
-isTopLevel
-(
-)
-&
-&
 fop
 -
 >
