@@ -1253,6 +1253,7 @@ week
 NS_FORM_INPUT_WEEK
 }
 {
+nullptr
 0
 }
 }
@@ -1384,6 +1385,7 @@ autocapitalized
 NS_INPUT_INPUTMODE_AUTOCAPITALIZED
 }
 {
+nullptr
 0
 }
 }
