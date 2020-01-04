@@ -1699,14 +1699,6 @@ callback
 rv
 )
 ;
-MOZ_ASSERT
-(
-SUCCEEDED
-(
-hr
-)
-)
-;
 if
 (
 NS_FAILED
