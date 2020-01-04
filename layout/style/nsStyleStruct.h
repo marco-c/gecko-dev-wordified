@@ -7876,8 +7876,6 @@ composite
 stripe
 )
 colors
-public
-:
 nsStyleCorners
 mBorderRadius
 ;
