@@ -723,7 +723,7 @@ if
 gfxUtils
 :
 :
-sDumpPainting
+sDumpCompositorTextures
 )
 {
 RefPtr
