@@ -186,6 +186,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h
@@ -215,13 +224,6 @@ h
 include
 "
 nsISupportsPriority
-.
-h
-"
-#
-include
-"
-prprf
 .
 h
 "
@@ -1144,7 +1146,7 @@ line
 =
 linebuf
 ;
-PR_snprintf
+snprintf
 (
 line
 128
@@ -1162,7 +1164,7 @@ line
 10
 ;
 }
-PR_snprintf
+snprintf
 (
 line
 128
