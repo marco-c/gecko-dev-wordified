@@ -770,6 +770,9 @@ mProcessToken
 bool
 mShutdownRequested
 ;
+bool
+mChannelClosed
+;
 }
 ;
 }
