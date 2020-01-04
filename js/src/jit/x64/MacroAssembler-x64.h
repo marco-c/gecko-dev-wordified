@@ -9379,14 +9379,6 @@ dest
 }
 inline
 void
-inc64
-(
-AbsoluteAddress
-dest
-)
-;
-inline
-void
 incrementInt32Value
 (
 const

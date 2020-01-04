@@ -5765,6 +5765,15 @@ dest
 )
 PER_SHARED_ARCH
 ;
+inline
+void
+inc64
+(
+AbsoluteAddress
+dest
+)
+PER_ARCH
+;
 /
 /
 =

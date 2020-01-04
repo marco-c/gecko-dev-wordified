@@ -1262,13 +1262,6 @@ reg
 )
 ;
 void
-inc64
-(
-AbsoluteAddress
-dest
-)
-;
-void
 movq
 (
 Register
