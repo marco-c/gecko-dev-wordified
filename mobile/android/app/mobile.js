@@ -7669,7 +7669,7 @@ downloads
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -7685,7 +7685,7 @@ remote
 .
 enabled
 "
-true
+false
 )
 ;
 pref
