@@ -166,6 +166,7 @@ test_mozLoop_openchat
 let
 windowId
 =
+yield
 LoopRooms
 .
 open
@@ -255,6 +256,7 @@ test_mozLoop_hangupAllChatWindows
 (
 )
 {
+yield
 LoopRooms
 .
 open
@@ -360,6 +362,7 @@ reply
 let
 windowId
 =
+yield
 LoopRooms
 .
 open

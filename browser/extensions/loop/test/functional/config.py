@@ -156,7 +156,7 @@ gettingStarted
 latestFTUVersion
 "
 :
-1
+2
     
 #
 this
