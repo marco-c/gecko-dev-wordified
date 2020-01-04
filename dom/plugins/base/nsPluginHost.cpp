@@ -12157,6 +12157,12 @@ info
 {
 if
 (
+!
+info
+.
+fName
+|
+|
 strcmp
 (
 info
