@@ -148,6 +148,16 @@ _
 (
 UDivOrMod
 )
+\
+_
+(
+DivOrModI64
+)
+\
+_
+(
+UDivOrModI64
+)
 #
 endif
 /
