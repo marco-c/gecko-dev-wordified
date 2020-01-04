@@ -714,7 +714,7 @@ NameSpaceManager
 )
 -
 >
-NameSpaceURIAtom
+NameSpaceURIAtomForServo
 (
 id
 )
