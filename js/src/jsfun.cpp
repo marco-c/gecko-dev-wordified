@@ -1121,7 +1121,7 @@ cx
 FrameIter
 :
 :
-STOP_AT_SAVED
+GO_THROUGH_SAVED
 )
 ;
 if
@@ -1778,7 +1778,7 @@ cx
 FrameIter
 :
 :
-STOP_AT_SAVED
+GO_THROUGH_SAVED
 )
 ;
 if
@@ -2290,7 +2290,7 @@ cx
 FrameIter
 :
 :
-STOP_AT_SAVED
+GO_THROUGH_SAVED
 )
 ;
 if
