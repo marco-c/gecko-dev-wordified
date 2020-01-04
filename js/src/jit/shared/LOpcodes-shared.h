@@ -2073,6 +2073,11 @@ AsmJSParameter
 \
 _
 (
+AsmJSParameterI64
+)
+\
+_
+(
 AsmJSReturn
 )
 \
