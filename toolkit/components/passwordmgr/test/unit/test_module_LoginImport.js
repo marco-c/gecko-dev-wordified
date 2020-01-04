@@ -375,6 +375,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -905,6 +906,7 @@ data
 add_task
 (
 function
+*
 test_import
 (
 )
@@ -1475,6 +1477,7 @@ database
 add_task
 (
 function
+*
 test_import_downgraded
 (
 )
@@ -1735,6 +1738,7 @@ fails
 add_task
 (
 function
+*
 test_import_v2
 (
 )
@@ -1857,6 +1861,7 @@ version
 add_task
 (
 function
+*
 test_import_v3
 (
 )

@@ -198,7 +198,8 @@ strict
 /
 Globals
 function
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 aExpectedLogins
 )
@@ -327,6 +328,7 @@ characters
 add_task
 (
 function
+*
 test_storage_addLogin_nonascii
 (
 )
@@ -451,7 +453,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -502,7 +505,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -532,6 +536,7 @@ password
 add_task
 (
 function
+*
 test_storage_addLogin_newlines
 (
 )
@@ -575,7 +580,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -624,6 +630,7 @@ format
 add_task
 (
 function
+*
 test_storage_addLogin_dot
 (
 )
@@ -659,7 +666,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -691,7 +699,8 @@ loginInfo
 )
 ;
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 [
 loginInfo
@@ -734,6 +743,7 @@ format
 add_task
 (
 function
+*
 test_storage_addLogin_parentheses
 (
 )
@@ -905,7 +915,8 @@ loginInfo
 ;
 }
 yield
-reloadAndCheckLogins
+*
+reloadAndCheckLoginsGen
 (
 loginList
 )

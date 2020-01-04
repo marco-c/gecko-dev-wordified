@@ -310,6 +310,7 @@ it
 add_task
 (
 function
+*
 test_save_reload
 (
 )
@@ -716,6 +717,7 @@ arrays
 add_task
 (
 function
+*
 test_load_empty
 (
 )
@@ -818,6 +820,7 @@ file
 add_task
 (
 function
+*
 test_save_empty
 (
 )
@@ -935,6 +938,7 @@ loaded
 add_task
 (
 function
+*
 test_load_string_predefined
 (
 )
@@ -1397,6 +1401,7 @@ string
 add_task
 (
 function
+*
 test_load_string_malformed
 (
 )
@@ -1609,6 +1614,7 @@ path
 add_task
 (
 function
+*
 test_load_string_malformed_sync
 (
 )

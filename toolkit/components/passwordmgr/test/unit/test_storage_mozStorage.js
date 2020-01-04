@@ -72,6 +72,7 @@ CURRENT_SCHEMA
 5
 ;
 function
+*
 copyFile
 (
 aLeafName
@@ -118,7 +119,6 @@ aLeafName
 )
 ;
 }
-;
 function
 openDB
 (
@@ -160,7 +160,6 @@ dbFile
 )
 ;
 }
-;
 function
 deleteFile
 (
@@ -255,7 +254,6 @@ e
 {
 }
 }
-;
 function
 reloadStorage
 (
@@ -273,7 +271,6 @@ if
 aInputFileName
 )
 {
-var
 inputFile
 =
 Cc
@@ -367,7 +364,6 @@ return
 storage
 ;
 }
-;
 function
 checkStorageData
 (
@@ -401,10 +397,10 @@ ref_disabledHosts
 )
 ;
 }
-;
 add_task
 (
 function
+*
 test_execute
 (
 )
@@ -958,6 +954,7 @@ v999
 storage
 "
 yield
+*
 copyFile
 (
 "
@@ -1203,6 +1200,7 @@ clean
 state
 .
 yield
+*
 copyFile
 (
 "
@@ -1345,6 +1343,7 @@ v2
 storage
 "
 yield
+*
 copyFile
 (
 "
@@ -1597,6 +1596,7 @@ properly
 upgraded
 .
 yield
+*
 copyFile
 (
 "
@@ -1918,6 +1918,7 @@ v3
 storage
 "
 yield
+*
 copyFile
 (
 "
@@ -2187,6 +2188,7 @@ properly
 upgraded
 .
 yield
+*
 copyFile
 (
 "
@@ -2519,6 +2521,7 @@ v4
 storage
 "
 yield
+*
 copyFile
 (
 "
@@ -2732,6 +2735,7 @@ v3
 storage
 "
 yield
+*
 copyFile
 (
 "
@@ -2815,7 +2819,6 @@ testuser2
 ]
 )
 ;
-var
 logins
 =
 storage
@@ -2999,6 +3002,7 @@ v4
 storage
 "
 yield
+*
 copyFile
 (
 "
