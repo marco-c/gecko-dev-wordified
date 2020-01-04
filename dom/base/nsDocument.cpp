@@ -1967,6 +1967,13 @@ endif
 /
 /
 MOZ_WEBRTC
+#
+include
+"
+VRDeviceProxy
+.
+h
+"
 using
 namespace
 mozilla
