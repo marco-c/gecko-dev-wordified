@@ -557,6 +557,17 @@ eCSSPropertyLogicalGroup_
 name_
 #
 define
+CSS_PROP_LOGICAL_GROUP_SINGLE
+(
+name_
+)
+\
+eCSSPropertyLogicalGroup_
+#
+#
+name_
+#
+define
 CSS_PROP_LOGICAL_GROUP_SHORTHAND
 (
 name_
@@ -576,6 +587,9 @@ h
 #
 undef
 CSS_PROP_LOGICAL_GROUP_SHORTHAND
+#
+undef
+CSS_PROP_LOGICAL_GROUP_SINGLE
 #
 undef
 CSS_PROP_LOGICAL_GROUP_BOX
