@@ -71,6 +71,7 @@ addMessageListener
 removeEventListener
 removeMessageListener
 sendAsyncMessage
+Services
 *
 /
 var

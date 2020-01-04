@@ -54,6 +54,14 @@ strict
 "
 ;
 /
+*
+globals
+Services
+sendAsyncMessage
+addMessageListener
+*
+/
+/
 /
 XXX
 Some

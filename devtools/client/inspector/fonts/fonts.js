@@ -165,6 +165,16 @@ devtools
 )
 ;
 const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+const
 DEFAULT_PREVIEW_TEXT
 =
 "
