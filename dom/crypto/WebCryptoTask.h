@@ -672,6 +672,9 @@ WebCryptoTask
 *
 CreateGenerateKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
