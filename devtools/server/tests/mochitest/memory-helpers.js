@@ -324,7 +324,6 @@ MemoryFront
 (
 client
 form
-response
 )
 ;
 resolve
