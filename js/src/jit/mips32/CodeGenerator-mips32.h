@@ -375,6 +375,14 @@ LCtzI64
 ins
 )
 ;
+void
+visitNotI64
+(
+LNotI64
+*
+ins
+)
+;
 /
 /
 Out
