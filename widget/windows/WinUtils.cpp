@@ -5710,6 +5710,12 @@ aEventMessage
 =
 =
 eMouseUp
+|
+|
+aEventMessage
+=
+=
+eMouseDoubleClick
 )
 &
 &
