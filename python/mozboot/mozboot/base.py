@@ -2272,6 +2272,8 @@ version
 )
             
 return
+installed
+modern
         
 self
 .
@@ -2367,6 +2369,8 @@ False
 :
             
 return
+installed
+modern
         
 installed
 modern
@@ -2394,6 +2398,10 @@ MODERN_MERCURIAL_VERSION
 after
 )
 )
+        
+return
+installed
+modern
     
 def
 upgrade_mercurial
