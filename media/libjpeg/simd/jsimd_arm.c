@@ -791,7 +791,6 @@ env
 )
 )
 simd_support
-&
 =
 JSIMD_ARM_NEON
 ;

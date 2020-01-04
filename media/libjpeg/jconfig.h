@@ -51,9 +51,9 @@ define
 LIBJPEG_TURBO_VERSION
 1
 .
-4
+5
 .
-0
+1
 /
 *
 Support
