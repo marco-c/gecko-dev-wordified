@@ -162,13 +162,6 @@ WebGLObjectModel
 .
 h
 "
-template
-<
-class
->
-class
-nsRefPtr
-;
 namespace
 mozilla
 {

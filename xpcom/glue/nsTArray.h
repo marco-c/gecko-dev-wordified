@@ -1920,14 +1920,6 @@ Derived
 template
 <
 class
-T
->
-class
-nsRefPtr
-;
-template
-<
-class
 E
 class
 Derived

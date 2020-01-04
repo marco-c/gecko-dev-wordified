@@ -217,14 +217,6 @@ nsIStreamListener
 class
 nsXBLBinding
 ;
-template
-<
-class
-E
->
-class
-nsRefPtr
-;
 typedef
 nsTArray
 <

@@ -170,14 +170,6 @@ T
 class
 nsCOMPtr
 ;
-template
-<
-class
-T
->
-class
-nsRefPtr
-;
 namespace
 mozilla
 {

@@ -116,14 +116,6 @@ class
 T
 >
 class
-nsRefPtr
-;
-template
-<
-class
-T
->
-class
 nsAutoPtr
 ;
 namespace
