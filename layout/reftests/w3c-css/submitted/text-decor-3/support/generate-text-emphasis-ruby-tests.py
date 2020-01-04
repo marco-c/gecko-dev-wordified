@@ -252,8 +252,6 @@ match
 href
 =
 "
-reference
-/
 text
 -
 emphasis
