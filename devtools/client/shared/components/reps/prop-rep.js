@@ -327,11 +327,6 @@ className
 "
 objectEqual
 "
-role
-:
-"
-presentation
-"
 }
 this
 .
@@ -354,11 +349,6 @@ className
 :
 "
 objectComma
-"
-role
-:
-"
-presentation
 "
 }
 this
