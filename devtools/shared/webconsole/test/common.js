@@ -521,9 +521,9 @@ aResponse
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 attachConsole
@@ -573,9 +573,9 @@ aResponse
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 client
@@ -632,9 +632,9 @@ aResponse
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 listTabs

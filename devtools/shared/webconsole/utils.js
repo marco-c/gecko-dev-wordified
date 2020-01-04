@@ -2012,9 +2012,9 @@ value
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -3704,9 +3704,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -3824,9 +3824,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
