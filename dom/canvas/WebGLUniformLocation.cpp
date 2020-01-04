@@ -170,8 +170,6 @@ LinkedProgramInfo
 linkInfo
 GLuint
 loc
-size_t
-arrayIndex
 const
 WebGLActiveInfo
 *
@@ -189,10 +187,6 @@ linkInfo
 mLoc
 (
 loc
-)
-mArrayIndex
-(
-arrayIndex
 )
 mActiveInfo
 (

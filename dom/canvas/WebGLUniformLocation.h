@@ -241,10 +241,6 @@ GLuint
 mLoc
 ;
 const
-size_t
-mArrayIndex
-;
-const
 WebGLActiveInfo
 *
 const
@@ -264,8 +260,6 @@ LinkedProgramInfo
 linkInfo
 GLuint
 loc
-size_t
-arrayIndex
 const
 WebGLActiveInfo
 *
