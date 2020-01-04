@@ -1947,9 +1947,6 @@ codeBytes
 uint32_t
 globalBytes
 ;
-uint32_t
-numFuncs
-;
 ModuleKind
 kind
 ;

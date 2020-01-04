@@ -996,10 +996,14 @@ numFuncSigs
 const
 {
 return
-module_
+shared_
 -
 >
-numFuncs
+funcSigs
+.
+length
+(
+)
 ;
 }
 const
