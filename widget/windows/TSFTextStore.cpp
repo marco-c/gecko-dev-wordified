@@ -6873,7 +6873,7 @@ mPendingDestroy
 (
 false
 )
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 (
 false
 )
@@ -10527,7 +10527,7 @@ it
 s
 notified
 .
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -10633,7 +10633,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -10794,7 +10794,7 @@ the
 composition
 update
 .
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -10859,7 +10859,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -10968,7 +10968,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -11090,7 +11090,7 @@ the
 composition
 update
 .
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -11200,7 +11200,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -11749,7 +11749,7 @@ return
 if
 (
 !
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 &
 &
 mContentForTSF
@@ -13015,7 +13015,7 @@ asynchronously
 In
 such
 case
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 may
 be
 /
@@ -13028,7 +13028,7 @@ document
 is
 unlocked
 .
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -34262,7 +34262,7 @@ in
 e10s
 mode
 .
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
