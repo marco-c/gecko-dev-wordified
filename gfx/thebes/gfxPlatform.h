@@ -3129,6 +3129,12 @@ GetBidiNumeralOption
 (
 )
 ;
+static
+void
+FlushFontAndWordCaches
+(
+)
+;
 /
 *
 *
