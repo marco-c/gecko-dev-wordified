@@ -3471,7 +3471,16 @@ expected
 [
             
 '
-GENERATED_FILES
+export
+:
+:
+bar
+.
+c
+'
+            
+'
+GARBAGE
 +
 =
 bar
@@ -3552,7 +3561,16 @@ topsrcdir
 '
             
 '
-GENERATED_FILES
+export
+:
+:
+foo
+.
+c
+'
+            
+'
+GARBAGE
 +
 =
 foo
@@ -3655,7 +3673,16 @@ topsrcdir
 '
             
 '
-GENERATED_FILES
+export
+:
+:
+quux
+.
+c
+'
+            
+'
+GARBAGE
 +
 =
 quux
@@ -3958,7 +3985,16 @@ expected
 [
             
 '
-GENERATED_FILES
+export
+:
+:
+bar
+.
+h
+'
+            
+'
+GARBAGE
 +
 =
 bar
@@ -3978,7 +4014,16 @@ pp
 '
             
 '
-GENERATED_FILES
+export
+:
+:
+mozilla2
+.
+h
+'
+            
+'
+GARBAGE
 +
 =
 mozilla2
@@ -3998,7 +4043,16 @@ pp
 '
             
 '
-GENERATED_FILES
+export
+:
+:
+dom2
+.
+h
+'
+            
+'
+GARBAGE
 +
 =
 dom2
@@ -4018,7 +4072,16 @@ pp
 '
             
 '
-GENERATED_FILES
+export
+:
+:
+dom3
+.
+h
+'
+            
+'
+GARBAGE
 +
 =
 dom3
