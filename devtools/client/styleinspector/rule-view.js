@@ -278,6 +278,7 @@ utils
 ;
 const
 {
+escapeCSSComment
 parseDeclarations
 parseSingleValue
 parsePseudoClassesAndAttributes
@@ -7271,7 +7272,10 @@ declaration
 *
 "
 +
+escapeCSSComment
+(
 declaration
+)
 +
 "
 *
