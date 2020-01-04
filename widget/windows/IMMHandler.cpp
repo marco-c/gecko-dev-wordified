@@ -9464,6 +9464,11 @@ clauseArrayLength2
 if
 (
 useA_API
+&
+&
+clauseArrayLength
+>
+0
 )
 {
 /
@@ -9518,6 +9523,13 @@ compANSIStr
 .
 Length
 (
+)
+;
+mClauseArray
+.
+SetLength
+(
+clauseArrayLength
 )
 ;
 mClauseArray
