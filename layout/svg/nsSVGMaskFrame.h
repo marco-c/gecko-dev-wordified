@@ -318,6 +318,14 @@ aMaskOp
 NS_STYLE_MASK_MODE_MATCH_SOURCE
 )
 ;
+gfxRect
+GetMaskArea
+(
+nsIFrame
+*
+aMaskedFrame
+)
+;
 virtual
 nsresult
 AttributeChanged
