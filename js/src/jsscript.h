@@ -4704,12 +4704,7 @@ const
 struct
 LengthMatcher
 {
-using
-ReturnType
-=
 size_t
-;
-ReturnType
 match
 (
 const
@@ -4728,7 +4723,7 @@ length
 )
 ;
 }
-ReturnType
+size_t
 match
 (
 const
@@ -4743,7 +4738,7 @@ c
 uncompressedLength
 ;
 }
-ReturnType
+size_t
 match
 (
 const

@@ -980,17 +980,12 @@ compartments
 )
 {
 }
-using
-ReturnType
-=
-void
-;
 template
 <
 typename
 T
 >
-ReturnType
+void
 operator
 (
 )
@@ -1059,7 +1054,7 @@ strong
 /
 reference
 .
-ReturnType
+void
 operator
 (
 )
