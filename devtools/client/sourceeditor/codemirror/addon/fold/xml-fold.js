@@ -1539,7 +1539,7 @@ selfClose
 )
 {
 var
-start
+startPos
 =
 Pos
 (
@@ -1552,7 +1552,7 @@ ch
 )
 ;
 var
-close
+endPos
 =
 findMatchingClose
 (
@@ -1564,16 +1564,16 @@ openTag
 )
 ;
 return
-close
+endPos
 &
 &
 {
 from
 :
-start
+startPos
 to
 :
-close
+endPos
 .
 from
 }
