@@ -3193,6 +3193,10 @@ mDefaultScale
 (
 0
 )
+mIsTransparent
+(
+false
+)
 mIPCOpen
 (
 true
@@ -8297,6 +8301,14 @@ mDefaultScale
 aInfo
 .
 defaultScale
+(
+)
+;
+mIsTransparent
+=
+aInfo
+.
+isTransparent
 (
 )
 ;
