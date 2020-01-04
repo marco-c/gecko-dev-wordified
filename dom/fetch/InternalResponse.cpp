@@ -599,13 +599,13 @@ InternalResponse
 :
 ToIPC
 <
-PContentChild
+nsIContentChild
 >
 (
 IPCInternalResponse
 *
 aIPCResponse
-PContentChild
+nsIContentChild
 *
 aManager
 UniquePtr

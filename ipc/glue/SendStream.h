@@ -164,7 +164,7 @@ namespace
 dom
 {
 class
-PContentChild
+nsIContentChild
 ;
 }
 /
@@ -522,7 +522,7 @@ aInputStream
 dom
 :
 :
-PContentChild
+nsIContentChild
 *
 aManager
 )
