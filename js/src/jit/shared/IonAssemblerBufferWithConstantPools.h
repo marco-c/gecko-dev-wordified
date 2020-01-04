@@ -6345,7 +6345,7 @@ false
 /
 /
 The
-alloction
+allocation
 of
 pool
 entries
