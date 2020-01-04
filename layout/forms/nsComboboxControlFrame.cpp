@@ -1852,6 +1852,10 @@ mDelayedShowDropDown
 (
 false
 )
+mIsOpenInParentProcess
+(
+false
+)
 {
 REFLOW_COUNTER_INIT
 (
