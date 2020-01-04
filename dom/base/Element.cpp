@@ -3059,6 +3059,10 @@ bindingURL
 -
 >
 mOriginPrincipal
+.
+get
+(
+)
 ;
 /
 /
