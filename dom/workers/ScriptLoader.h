@@ -226,6 +226,9 @@ ReportLoadError
 JSContext
 *
 aCx
+ErrorResult
+&
+aRv
 nsresult
 aLoadResult
 )
