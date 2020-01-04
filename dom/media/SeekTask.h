@@ -278,12 +278,6 @@ GetSeekTarget
 (
 )
 ;
-bool
-Exists
-(
-)
-const
-;
 protected
 :
 SeekTask
