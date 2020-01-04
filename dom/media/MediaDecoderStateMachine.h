@@ -6142,6 +6142,7 @@ machine
 s
 constructor
 .
+const
 RefPtr
 <
 MediaDecoderReader
