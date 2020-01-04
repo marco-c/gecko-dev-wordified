@@ -7138,6 +7138,9 @@ return
 NS_OK
 ;
 }
+nsAutoCString
+gBaseAppVersion
+;
 const
 nsCString
 &
@@ -7148,10 +7151,6 @@ GetApplicationVersion
 (
 )
 {
-static
-nsCString
-version
-;
 static
 bool
 versionInitialized
@@ -7229,13 +7228,13 @@ app
 >
 GetVersion
 (
-version
+gBaseAppVersion
 )
 ;
 }
 }
 return
-version
+gBaseAppVersion
 ;
 }
 void
