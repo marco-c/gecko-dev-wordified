@@ -65,7 +65,6 @@ add_task
 (
 function
 *
-testScopeLifecycle
 (
 )
 {
