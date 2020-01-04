@@ -707,6 +707,11 @@ mSelectionRestoreEagerInit
 false
 ;
 }
+if
+(
+mTextEditorState
+)
+{
 mTextEditorState
 -
 >
@@ -714,6 +719,7 @@ FinishedRestoringSelection
 (
 )
 ;
+}
 return
 NS_OK
 ;
