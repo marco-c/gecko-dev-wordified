@@ -219,7 +219,7 @@ JSContext
 Accept
 strings
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -320,7 +320,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -741,7 +741,7 @@ true
 /
 Accept
 CallbackObjects
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -832,7 +832,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -939,7 +939,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1063,7 +1063,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1199,7 +1199,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1245,7 +1245,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1291,7 +1291,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1342,7 +1342,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1407,7 +1407,7 @@ same
 compartment
 with
 us
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1473,7 +1473,7 @@ same
 compartment
 with
 us
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1539,7 +1539,7 @@ same
 compartment
 with
 us
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1609,7 +1609,7 @@ with
 us
 )
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1676,7 +1676,7 @@ representing
 that
 nsresult
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1734,7 +1734,7 @@ Failure
 returning
 true
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1769,7 +1769,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1853,7 +1853,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1912,7 +1912,7 @@ need
 special
 handling
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1954,7 +1954,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -2100,7 +2100,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -2150,7 +2150,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -2202,7 +2202,7 @@ T
 int
 N
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (

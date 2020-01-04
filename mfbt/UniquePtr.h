@@ -2996,7 +2996,7 @@ del
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Pointer
 release
 (
@@ -3940,7 +3940,7 @@ second
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Pointer
 release
 (

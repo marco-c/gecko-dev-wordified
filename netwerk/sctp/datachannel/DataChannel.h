@@ -749,7 +749,7 @@ PARTIAL_RELIABLE_TIMED
 }
 Type
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 already_AddRefed
 <
 DataChannel

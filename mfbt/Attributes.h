@@ -2083,7 +2083,7 @@ endif
 *
 *
 *
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 tells
 the
 compiler
@@ -2118,7 +2118,7 @@ beginning
 of
 a
 function
-definition
+declaration
 .
 For
 *
@@ -2126,7 +2126,7 @@ example
 write
 *
 *
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int
 foo
 (
@@ -2137,7 +2137,7 @@ foo
 or
 *
 *
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int
 foo
 (
@@ -2163,7 +2163,7 @@ __clang__
 )
 #
 define
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 __attribute__
 (
 (
@@ -2174,7 +2174,7 @@ warn_unused_result
 else
 #
 define
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 #
 endif
 /

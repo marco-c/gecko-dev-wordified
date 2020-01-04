@@ -4191,7 +4191,7 @@ expr
 /
 *
 Silence
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 .
 *
 /
@@ -4224,7 +4224,7 @@ expr
 /
 *
 Silence
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 .
 *
 /

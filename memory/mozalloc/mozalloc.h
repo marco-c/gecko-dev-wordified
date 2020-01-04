@@ -259,10 +259,10 @@ __SUNPRO_CC
 )
 #
 undef
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 #
 define
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 #
 undef
 MOZ_ALLOCATOR
@@ -582,7 +582,7 @@ defined
 HAVE_POSIX_MEMALIGN
 )
 MFBT_API
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int
 moz_xposix_memalign
 (
@@ -597,7 +597,7 @@ size
 )
 ;
 MFBT_API
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int
 moz_posix_memalign
 (

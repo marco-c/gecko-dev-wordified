@@ -233,7 +233,7 @@ NeckoParent
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 const
 char
@@ -297,7 +297,7 @@ failed
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 const
 char

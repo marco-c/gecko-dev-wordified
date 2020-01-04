@@ -5388,7 +5388,7 @@ ap
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -5510,7 +5510,7 @@ foundp
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 clear
 (
@@ -5529,7 +5529,7 @@ template
 typename
 V
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 put
 (
@@ -5772,7 +5772,7 @@ ap
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -5832,7 +5832,7 @@ all
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 put
 (
@@ -5873,7 +5873,7 @@ foundp
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 clear
 (

@@ -531,7 +531,7 @@ this
 ;
 private
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 emitAsmJSBoundsCheckBranch
 (
@@ -572,7 +572,7 @@ of
 bounds
 )
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitThrowingAsmJSBoundsCheck
 (
@@ -607,7 +607,7 @@ a
 bounds
 check
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitAsmJSLoadBoundsCheck
 (
@@ -641,7 +641,7 @@ a
 bounds
 check
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitAsmJSStoreBoundsCheck
 (

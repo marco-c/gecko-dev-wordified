@@ -17464,7 +17464,7 @@ return
 encoder_
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeInt32Lit
 (
@@ -17496,7 +17496,7 @@ i32
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeConstExpr
 (
@@ -17753,7 +17753,7 @@ type
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeCall
 (
@@ -17801,7 +17801,7 @@ begin
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 prepareCall
 (
@@ -17837,7 +17837,7 @@ begin
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeSimdOp
 (

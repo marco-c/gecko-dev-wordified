@@ -7738,7 +7738,7 @@ operands_
 ;
 protected
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -12332,7 +12332,7 @@ type
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -15705,7 +15705,7 @@ length
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addSuccessor
 (
@@ -15919,7 +15919,7 @@ low
 1
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addDefault
 (
@@ -15960,7 +15960,7 @@ block
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addCase
 (
@@ -16002,7 +16002,7 @@ i
 ]
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addBlock
 (
@@ -20604,7 +20604,7 @@ MDefinition
 arr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -38523,7 +38523,7 @@ a
 loop
 backedge
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addBackedgeType
 (
@@ -38558,7 +38558,7 @@ addInputSlow
 (
 )
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 reserveLength
 (
@@ -38632,7 +38632,7 @@ instead
 where
 possible
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addInputSlow
 (
@@ -67093,7 +67093,7 @@ inherit
 (
 )
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (

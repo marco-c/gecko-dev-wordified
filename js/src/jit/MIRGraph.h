@@ -260,7 +260,7 @@ Kind
 kind
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -274,7 +274,7 @@ MBasicBlock
 from
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 inherit
 (
@@ -295,7 +295,7 @@ stackPhiCount
 0
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 inheritResumePoint
 (
@@ -1043,7 +1043,7 @@ number
 of
 slots
 available
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 increaseSlots
 (
@@ -1051,7 +1051,7 @@ size_t
 num
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ensureHasSlots
 (
@@ -1138,7 +1138,7 @@ to
 the
 MStart
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 linkOsrValues
 (
@@ -1522,7 +1522,7 @@ uses
 as
 needed
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addPredecessor
 (
@@ -1534,7 +1534,7 @@ MBasicBlock
 pred
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addPredecessorPopN
 (
@@ -1600,7 +1600,7 @@ used
 for
 inlining
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addPredecessorWithoutPhis
 (
@@ -1617,7 +1617,7 @@ MBasicBlock
 parent
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 initEntrySlots
 (
@@ -1837,7 +1837,7 @@ a
 disabling
 abort
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 AbortReason
 setBackedge
 (
@@ -1846,7 +1846,7 @@ MBasicBlock
 block
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 setBackedgeAsmJS
 (
@@ -1961,7 +1961,7 @@ the
 loop
 header
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 inheritPhisFromBackedge
 (
@@ -1988,7 +1988,7 @@ to
 their
 inputs
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 specializePhis
 (
@@ -4697,7 +4697,7 @@ return
 returnAccumulator_
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 addReturn
 (

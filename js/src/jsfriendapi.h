@@ -7907,7 +7907,7 @@ Uninitialized
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -7935,7 +7935,7 @@ TwoByte
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 initTwoByte
 (

@@ -9572,7 +9572,7 @@ rhs
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmpl_im_disp32
 (
@@ -9676,7 +9676,7 @@ return
 r
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmpl_im_disp32
 (
@@ -14396,7 +14396,7 @@ dst
 Flow
 control
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 call
 (
@@ -14556,7 +14556,7 @@ pseudo
 -
 NOP
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmp_eax
 (
@@ -14727,7 +14727,7 @@ diff
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 jmp
 (
@@ -15017,7 +15017,7 @@ diff
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 jCC
 (
@@ -30258,7 +30258,7 @@ imm
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 immediateRel32
 (

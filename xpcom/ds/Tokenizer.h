@@ -836,7 +836,7 @@ input
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Next
 (
@@ -895,7 +895,7 @@ false
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Check
 (
@@ -950,7 +950,7 @@ false
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Check
 (
@@ -994,7 +994,7 @@ string
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 HasFailed
 (
@@ -1129,7 +1129,7 @@ present
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWhite
 (
@@ -1180,7 +1180,7 @@ false
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckChar
 (
@@ -1275,7 +1275,7 @@ returned
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckChar
 (
@@ -1304,7 +1304,7 @@ word
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWord
 (
@@ -1350,7 +1350,7 @@ template
 uint32_t
 N
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWord
 (
@@ -1401,7 +1401,7 @@ n
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckEOL
 (
@@ -1455,7 +1455,7 @@ false
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckEOF
 (

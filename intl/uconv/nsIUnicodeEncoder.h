@@ -1049,7 +1049,7 @@ an
 approximation
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 NS_IMETHOD
 GetMaxLength
 (

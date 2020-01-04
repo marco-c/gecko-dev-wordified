@@ -1456,7 +1456,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 write
 (
@@ -1493,7 +1493,7 @@ template
 typename
 UInt
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarU
 (
@@ -1559,7 +1559,7 @@ template
 typename
 SInt
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarS
 (
@@ -1864,7 +1864,7 @@ to
 align
 )
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedU8
 (
@@ -1882,7 +1882,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedU32
 (
@@ -1900,7 +1900,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedF32
 (
@@ -1918,7 +1918,7 @@ f
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedF64
 (
@@ -1936,7 +1936,7 @@ d
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedI32x4
 (
@@ -1956,7 +1956,7 @@ i32x4
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeFixedF32x4
 (
@@ -1987,7 +1987,7 @@ all
 use
 LEB128
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarU32
 (
@@ -2005,7 +2005,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarS32
 (
@@ -2023,7 +2023,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarU64
 (
@@ -2041,7 +2041,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeVarS64
 (
@@ -2059,7 +2059,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeValType
 (
@@ -2094,7 +2094,7 @@ type
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeExpr
 (
@@ -2167,7 +2167,7 @@ back
 -
 patching
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writePatchableVarU32
 (
@@ -2241,7 +2241,7 @@ interpreted
 as
 utf8
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 writeBytes
 (
@@ -2360,7 +2360,7 @@ template
 size_t
 IdSizeWith0
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 startSection
 (
@@ -2523,7 +2523,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 read
 (
@@ -2626,7 +2626,7 @@ template
 typename
 UInt
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarU
 (
@@ -2795,7 +2795,7 @@ template
 typename
 SInt
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarS
 (
@@ -3181,7 +3181,7 @@ to
 align
 )
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedU8
 (
@@ -3200,7 +3200,7 @@ i
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedU32
 (
@@ -3219,7 +3219,7 @@ u
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedF32
 (
@@ -3238,7 +3238,7 @@ f
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedF64
 (
@@ -3257,7 +3257,7 @@ d
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedI32x4
 (
@@ -3276,7 +3276,7 @@ i32x4
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readFixedF32x4
 (
@@ -3306,7 +3306,7 @@ all
 use
 LEB128
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarU32
 (
@@ -3325,7 +3325,7 @@ out
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarS32
 (
@@ -3344,7 +3344,7 @@ out
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarU64
 (
@@ -3363,7 +3363,7 @@ out
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readVarS64
 (
@@ -3382,7 +3382,7 @@ out
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readValType
 (
@@ -3435,7 +3435,7 @@ return
 true
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readExpr
 (
@@ -3538,7 +3538,7 @@ See
 writeBytes
 comment
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readBytes
 (
@@ -3608,7 +3608,7 @@ return
 true
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 readBytesRaw
 (
@@ -3672,7 +3672,7 @@ template
 size_t
 IdSizeWith0
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 startSection
 (
@@ -3822,7 +3822,7 @@ return
 true
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 finishSection
 (
@@ -3845,7 +3845,7 @@ beg_
 startOffset
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 skipSection
 (

@@ -334,7 +334,7 @@ scale
 to
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsPoint
 ScaleToOtherAppUnits
@@ -346,7 +346,7 @@ aToAPP
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsPoint
 RemoveResolution
@@ -357,7 +357,7 @@ resolution
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsPoint
 ApplyResolution

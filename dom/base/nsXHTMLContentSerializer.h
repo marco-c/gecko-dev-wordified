@@ -290,7 +290,7 @@ aResult
 )
 override
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AfterElementStart
@@ -437,7 +437,7 @@ aNode
 )
 override
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 SerializeAttributes
@@ -476,7 +476,7 @@ nsIContent
 aElement
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SerializeLIValueAttribute
 (
@@ -501,7 +501,7 @@ nsIAtom
 aElementName
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AppendAndTranslateEntities

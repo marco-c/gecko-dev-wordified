@@ -3205,7 +3205,7 @@ segmentCount
 0
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsresult
 NS_NewBufferedInputStream
 (

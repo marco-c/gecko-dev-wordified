@@ -2062,7 +2062,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 CalculateAllocSize
@@ -2160,7 +2160,7 @@ T
 typename
 Extra
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 CalculateAllocSizeWithExtra

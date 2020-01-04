@@ -425,7 +425,7 @@ column
 position
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToString
 (
@@ -452,7 +452,7 @@ column
 position
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToString
 (
@@ -498,7 +498,7 @@ position
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringConvertLF
 (
@@ -533,7 +533,7 @@ position
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringWrapped
 (
@@ -569,7 +569,7 @@ position
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringFormatedWrapped
 (
@@ -587,7 +587,7 @@ aOutputStr
 used
 by
 AppendToStringWrapped
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendWrapped_WhitespaceSequence
 (
@@ -619,7 +619,7 @@ aOutputStr
 used
 by
 AppendToStringFormatedWrapped
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendFormatedWrapped_WhitespaceSequence
 (
@@ -656,7 +656,7 @@ by
 AppendToStringWrapped
 and
 AppendToStringFormatedWrapped
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendWrapped_NonWhitespaceSequence
 (
@@ -710,7 +710,7 @@ flags
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendNewLineToString
 (
@@ -740,7 +740,7 @@ column
 position
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AppendAndTranslateEntities
@@ -1080,7 +1080,7 @@ nsAString
 aTagNamespaceURI
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 SerializeAttributes
@@ -1110,7 +1110,7 @@ bool
 aAddNSAttr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SerializeAttr
 (
@@ -1287,7 +1287,7 @@ AppendElementStart
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendEndOfElementStart
 (
@@ -1349,7 +1349,7 @@ AppendElementStart
 )
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AfterElementStart
@@ -1660,7 +1660,7 @@ position
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendIndentation
 (
@@ -1669,7 +1669,7 @@ nsAString
 aStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 IncrIndentation
 (
@@ -1711,7 +1711,7 @@ document
 .
 See
 mAddNewlineForRootNode
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 MaybeAddNewlineForRootNode
 (

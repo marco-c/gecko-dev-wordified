@@ -1073,7 +1073,7 @@ this
 and
 aRect
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 Intersect
 (
@@ -1377,7 +1377,7 @@ empty
 returns
 this
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 Union
 (
@@ -1468,7 +1468,7 @@ affect
 the
 result
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 UnionEdges
 (
@@ -4771,7 +4771,7 @@ rectangle
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Point
 ClampPoint
 (
@@ -4873,7 +4873,7 @@ returned
 .
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 MoveInsideAndClamp
 (

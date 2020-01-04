@@ -435,7 +435,7 @@ nscoord_MAX
 if
 necessary
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsRect
 SaturatingUnion
 (
@@ -490,7 +490,7 @@ aRect
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsRect
 SaturatingUnionEdges
 (
@@ -814,7 +814,7 @@ methods
 be
 saturating
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsRect
 UnionEdges
 (
@@ -856,7 +856,7 @@ aRect2
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsRect
 Union
 (
@@ -1035,7 +1035,7 @@ empty
 rectangle
 *
 /
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsRect
 ScaleToOtherAppUnitsRoundOut
@@ -1047,7 +1047,7 @@ aToAPP
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsRect
 ScaleToOtherAppUnitsRoundIn
@@ -1059,7 +1059,7 @@ aToAPP
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1079,7 +1079,7 @@ aAppUnitsPerPixel
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1111,7 +1111,7 @@ non
 -
 empty
 rectangle
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1147,7 +1147,7 @@ non
 -
 empty
 rectangle
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1163,7 +1163,7 @@ aAppUnitsPerPixel
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1183,7 +1183,7 @@ aAppUnitsPerPixel
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 mozilla
 :
@@ -1236,7 +1236,7 @@ aRect
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 nsRect
 RemoveResolution

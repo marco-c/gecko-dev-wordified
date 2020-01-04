@@ -5830,7 +5830,7 @@ pn_xflags
 flag
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 ParseNode
 *
 parenthesize
@@ -5852,7 +5852,7 @@ return
 pn
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 ParseNode
 *
 setLikelyIIFE

@@ -3466,7 +3466,7 @@ flag
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Node
 parenthesize
 (
@@ -3629,7 +3629,7 @@ return
 node
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Node
 setLikelyIIFE
 (

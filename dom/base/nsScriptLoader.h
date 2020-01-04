@@ -1067,7 +1067,7 @@ aElem
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 already_AddRefed
 <
 nsScriptLoadRequest
@@ -1095,7 +1095,7 @@ aElem
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 already_AddRefed
 <
 nsScriptLoadRequest

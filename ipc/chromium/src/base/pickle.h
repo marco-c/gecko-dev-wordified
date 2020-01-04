@@ -681,7 +681,7 @@ not
 be
 extracted
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadBool
 (
@@ -695,7 +695,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadInt16
 (
@@ -709,7 +709,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadUInt16
 (
@@ -723,7 +723,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadShort
 (
@@ -737,7 +737,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadInt
 (
@@ -751,7 +751,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadLong
 (
@@ -765,7 +765,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadULong
 (
@@ -780,7 +780,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadSize
 (
@@ -794,7 +794,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadInt32
 (
@@ -808,7 +808,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadUInt32
 (
@@ -822,7 +822,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadInt64
 (
@@ -836,7 +836,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadUInt64
 (
@@ -850,7 +850,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadDouble
 (
@@ -864,7 +864,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadIntPtr
 (
@@ -878,7 +878,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadUnsignedChar
 (
@@ -893,7 +893,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadString
 (
@@ -910,7 +910,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadWString
 (
@@ -927,7 +927,7 @@ result
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadData
 (
@@ -946,7 +946,7 @@ length
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadBytes
 (
@@ -997,7 +997,7 @@ the
 object
 sizes
 .
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReadLength
 (
