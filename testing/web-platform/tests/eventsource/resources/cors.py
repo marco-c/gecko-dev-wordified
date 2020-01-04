@@ -229,6 +229,9 @@ control
 event_stream
 "
 )
+"
+r
+"
 )
 .
 read
