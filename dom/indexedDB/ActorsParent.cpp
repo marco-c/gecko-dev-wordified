@@ -55026,7 +55026,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aDatabaseInfo
@@ -62704,7 +62704,7 @@ IDBTransaction
 CLEANUP
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mClosed
