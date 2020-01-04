@@ -6090,6 +6090,16 @@ pref
 "
 apz
 .
+allow_immediate_handoff
+"
+true
+)
+;
+pref
+(
+"
+apz
+.
 allow_zooming
 "
 false
