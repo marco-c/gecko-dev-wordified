@@ -10601,6 +10601,8 @@ do
 {
 uint8_t
 digit
+=
+0
 ;
 MOZ_ALWAYS_TRUE
 (

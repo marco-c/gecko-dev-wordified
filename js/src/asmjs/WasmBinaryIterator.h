@@ -4766,6 +4766,11 @@ Else
 ;
 ExprType
 type
+=
+ExprType
+:
+:
+Limit
 ;
 LabelKind
 kind
@@ -4958,6 +4963,15 @@ End
 ;
 LabelKind
 validateKind
+=
+static_cast
+<
+LabelKind
+>
+(
+-
+1
+)
 ;
 ExprType
 validateType

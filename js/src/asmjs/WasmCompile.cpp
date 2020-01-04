@@ -1137,6 +1137,11 @@ tableLength
 ;
 ExprType
 type
+=
+ExprType
+:
+:
+Limit
 ;
 if
 (

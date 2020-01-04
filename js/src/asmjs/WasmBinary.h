@@ -4664,6 +4664,8 @@ uncheckedReadVarS32
 {
 int32_t
 i32
+=
+0
 ;
 MOZ_ALWAYS_TRUE
 (
@@ -4699,6 +4701,8 @@ uncheckedReadVarS64
 {
 int64_t
 i64
+=
+0
 ;
 MOZ_ALWAYS_TRUE
 (
