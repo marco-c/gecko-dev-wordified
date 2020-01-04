@@ -251,12 +251,6 @@ py
 }
     
 "
-purge_minsize
-"
-:
-18
-    
-"
 force_clobber
 "
 :

@@ -326,12 +326,6 @@ static
 analysis
 '
     
-'
-purge_minsize
-'
-:
-10
-    
 #
 #
 #

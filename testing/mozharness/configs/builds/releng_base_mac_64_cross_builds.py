@@ -261,39 +261,6 @@ enable_signing
 True
     
 '
-purge_skip
-'
-:
-[
-'
-info
-'
-'
-rel
--
-*
-:
-10d
-'
-'
-tb
--
-rel
--
-*
-:
-10d
-'
-]
-    
-'
-purge_basedirs
-'
-:
-[
-]
-    
-'
 enable_ccache
 '
 :
@@ -987,12 +954,6 @@ minidumps
 '
     
 }
-    
-'
-purge_minsize
-'
-:
-12
     
 '
 src_mozconfig

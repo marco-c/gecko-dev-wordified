@@ -97,12 +97,6 @@ debug
 '
     
 '
-purge_minsize
-'
-:
-15
-    
-'
 enable_signing
 '
 :

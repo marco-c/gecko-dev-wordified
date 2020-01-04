@@ -1007,12 +1007,6 @@ s
 }
     
 "
-purge_minsize
-"
-:
-20
-    
-"
 clobberer_url
 "
 :

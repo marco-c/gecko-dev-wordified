@@ -349,12 +349,6 @@ macosx64
 debug
 '
     
-'
-purge_minsize
-'
-:
-10
-    
 #
 #
 #

@@ -55,8 +55,6 @@ true
 possibly
 clobber
 clobberer
-and
-purge_builds
         
 #
 see
@@ -274,8 +272,6 @@ true
 possibly
 clobber
 clobberer
-and
-purge_builds
         
 #
 see

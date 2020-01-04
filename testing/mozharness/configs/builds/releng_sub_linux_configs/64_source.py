@@ -55,12 +55,6 @@ the
 script
     
 '
-purge_minsize
-'
-:
-3
-    
-'
 buildbot_json_path
 '
 :

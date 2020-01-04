@@ -370,12 +370,6 @@ macosx64
 mulet
 '
     
-'
-purge_minsize
-'
-:
-10
-    
 #
 #
 #

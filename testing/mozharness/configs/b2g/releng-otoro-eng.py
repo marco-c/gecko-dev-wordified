@@ -1022,12 +1022,6 @@ default
 }
     
 "
-purge_minsize
-"
-:
-15
-    
-"
 clobberer_url
 "
 :
