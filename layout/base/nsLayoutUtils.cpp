@@ -12347,6 +12347,8 @@ const
 ContainerLayerParameters
 &
 aContainerParameters
+bool
+aIsClipFixed
 )
 {
 /
@@ -12828,6 +12830,7 @@ SetFixedPositionData
 id
 anchor
 sides
+aIsClipFixed
 )
 ;
 }
@@ -58554,16 +58557,13 @@ layerToParentLayerScale
 ;
 metadata
 .
-SetScrollClip
+SetClipRect
 (
 Some
-(
-LayerClip
 (
 RoundedToInt
 (
 rect
-)
 )
 )
 )

@@ -31369,6 +31369,8 @@ anchorRect
 fixedFrame
 presContext
 aContainerParameters
+!
+mIsFixedBackground
 )
 ;
 return
@@ -31714,6 +31716,15 @@ scrollFrameSize
 mFrame
 presContext
 aContainerParameters
+/
+*
+clip
+is
+fixed
+=
+*
+/
+true
 )
 ;
 ViewID
