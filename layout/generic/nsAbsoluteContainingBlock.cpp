@@ -2563,11 +2563,6 @@ pos
 "
 )
 ;
-if
-(
-aKidFrame
-)
-{
 nsAutoString
 name
 ;
@@ -2595,7 +2590,6 @@ get
 )
 )
 ;
-}
 char
 width
 [
@@ -3875,11 +3869,6 @@ pos
 "
 )
 ;
-if
-(
-aKidFrame
-)
-{
 nsAutoString
 name
 ;
@@ -3907,7 +3896,6 @@ get
 )
 )
 ;
-}
 printf
 (
 "
