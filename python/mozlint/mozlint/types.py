@@ -228,6 +228,18 @@ exclude
 )
 )
         
+if
+lintargs
+.
+get
+(
+'
+use_filters
+'
+True
+)
+:
+            
 paths
 exclude
 =
