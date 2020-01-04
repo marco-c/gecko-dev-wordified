@@ -282,14 +282,9 @@ INDENT
 }
 }
 arrow
-this
-.
-toLabel
-(
 item
 .
 name
-)
 )
 )
 ;
