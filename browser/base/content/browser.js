@@ -18654,7 +18654,7 @@ CertExceptionError
 :
 this
 .
-onAboutCertError
+onCertError
 (
 msg
 .
@@ -19096,7 +19096,7 @@ port
 )
 ;
 }
-onAboutCertError
+onCertError
 :
 function
 (
@@ -19411,7 +19411,7 @@ messageManager
 sendAsyncMessage
 (
 "
-AboutCertErrorDetails
+CertErrorDetails
 "
 {
 info
