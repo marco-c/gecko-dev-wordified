@@ -5782,6 +5782,17 @@ InlineTypedObject
 templateObj
 )
 ;
+MDefinition
+*
+unboxSimd
+(
+MDefinition
+*
+ins
+SimdType
+type
+)
+;
 IonBuilder
 :
 :
@@ -5791,7 +5802,7 @@ boxSimd
 CallInfo
 &
 callInfo
-MInstruction
+MDefinition
 *
 ins
 InlineTypedObject
@@ -5942,7 +5953,7 @@ CallInfo
 callInfo
 JSNative
 native
-MIRType
+SimdType
 type
 )
 ;
