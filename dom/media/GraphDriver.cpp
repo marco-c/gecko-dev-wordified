@@ -2869,7 +2869,7 @@ GraphImpl
 )
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mDriver
 -
@@ -3844,7 +3844,7 @@ GetVolumeScale
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 rv
 =
@@ -6102,7 +6102,7 @@ aFrames
 toWrite
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 written
 =

@@ -8393,7 +8393,7 @@ DeleteAll
 )
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 mWeakFrames
@@ -54457,7 +54457,7 @@ GetPrimaryFrame
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 frame
 "

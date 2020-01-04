@@ -469,8 +469,9 @@ do_GetMainThread
 )
 ;
 \
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
+\
 threadOpenedOn
 =
 =
@@ -495,6 +496,9 @@ but
 the
 connection
 was
+"
+\
+"
 opened
 on
 another

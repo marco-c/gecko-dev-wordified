@@ -57656,7 +57656,7 @@ clonedDoc
 nullptr
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 clonedSheet
 "
@@ -57784,7 +57784,7 @@ clonedDoc
 nullptr
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 clonedSheet
 "
@@ -69914,7 +69914,7 @@ GetNearestWidget
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 widget
 "
@@ -69926,9 +69926,9 @@ Unable
 to
 find
 widget
-"
-"
 in
+"
+"
 shell
 -
 >

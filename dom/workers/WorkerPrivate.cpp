@@ -1663,7 +1663,7 @@ do_CreateInstance
 NS_SCRIPTERROR_CONTRACTID
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 scriptError
 "
@@ -1734,7 +1734,7 @@ do_GetService
 NS_CONSOLESERVICE_CONTRACTID
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 consoleService
 "
@@ -11975,7 +11975,7 @@ target
 mEventTarget
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 target
 "
@@ -11988,8 +11988,6 @@ worker
 that
 is
 already
-"
-"
 shutting
 down
 !

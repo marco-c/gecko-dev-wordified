@@ -3147,7 +3147,7 @@ stringRange
 .
 location
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 charEnd
 >
@@ -3724,7 +3724,7 @@ charEnd
 charLimit
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 glyphStart
 <
@@ -3769,7 +3769,7 @@ charEnd
 continue
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 charStart
 !

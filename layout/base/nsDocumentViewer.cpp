@@ -14477,7 +14477,7 @@ nsGkAtoms
 subDocumentFrame
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 subdocFrame
@@ -21612,7 +21612,7 @@ defined
 (
 NS_PRINT_PREVIEW
 )
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 IsInitializedForPrintPreview
 (

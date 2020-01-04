@@ -2583,7 +2583,7 @@ BorrowDrawTarget
 ;
 }
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mDTBuffer
 &
@@ -2650,7 +2650,7 @@ BorrowDrawTarget
 ;
 }
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mDTBufferOnWhite
 "

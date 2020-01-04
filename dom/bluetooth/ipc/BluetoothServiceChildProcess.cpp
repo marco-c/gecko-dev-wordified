@@ -209,7 +209,7 @@ MOZ_ASSERT
 aRunnable
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 sBluetoothChild
 "
@@ -218,8 +218,6 @@ methods
 on
 BluetoothServiceChildProcess
 during
-"
-"
 shutdown
 !
 "

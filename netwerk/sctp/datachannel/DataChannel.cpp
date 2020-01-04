@@ -4800,7 +4800,7 @@ addr
 socklen_t
 addr_len
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 NS_IsMainThread
@@ -5199,7 +5199,7 @@ struct
 sockaddr_in6
 addr6
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 NS_IsMainThread
@@ -15227,7 +15227,7 @@ CONNECTING
 0
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 length
 >
@@ -16315,7 +16315,7 @@ return
 sent
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 len
 <

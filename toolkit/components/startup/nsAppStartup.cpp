@@ -1244,7 +1244,7 @@ complete
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mPlacesInitCompleteProbe
 "
@@ -1281,7 +1281,7 @@ restored
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mSessionWindowRestoredProbe
 "
@@ -1316,7 +1316,7 @@ shutdown
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mXPCOMShutdownProbe
 "
@@ -1340,7 +1340,7 @@ StartSession
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (

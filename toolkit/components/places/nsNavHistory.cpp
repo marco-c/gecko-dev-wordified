@@ -2198,7 +2198,7 @@ GetSpec
 spec
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -3352,7 +3352,7 @@ checking
 this
 path
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 uri
 "
@@ -14638,7 +14638,7 @@ Commit
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -17852,7 +17852,7 @@ bool
 aSucceeded
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 aSucceeded
 "

@@ -3619,7 +3619,7 @@ checking
 this
 path
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 uri
 "
@@ -6457,7 +6457,7 @@ checking
 this
 path
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 uri
 "

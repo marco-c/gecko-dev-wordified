@@ -26842,7 +26842,7 @@ be
 resolved
 )
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 aReflowInput
 .
@@ -26862,10 +26862,10 @@ should
 only
 result
 from
-"
-"
 huge
 sizes
+"
+"
 (
 not
 intrinsic
@@ -27625,7 +27625,7 @@ be
 resolved
 )
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 aReflowInput
 .
@@ -27645,10 +27645,10 @@ should
 only
 result
 from
-"
-"
 huge
 sizes
+"
+"
 (
 not
 intrinsic
@@ -29036,7 +29036,7 @@ has
 been
 flipped
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 aItem
@@ -32554,7 +32554,7 @@ no
 big
 deal
 )
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 lines
 .
@@ -32582,12 +32582,12 @@ that
 '
 s
 odd
-"
-"
 (
 or
 there
 are
+"
+"
 just
 gigantic
 sizes

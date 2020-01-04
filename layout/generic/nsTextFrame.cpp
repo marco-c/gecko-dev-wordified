@@ -8081,7 +8081,7 @@ FirstChild
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 result
@@ -64853,7 +64853,7 @@ line
 !
 )
 .
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 result
 .

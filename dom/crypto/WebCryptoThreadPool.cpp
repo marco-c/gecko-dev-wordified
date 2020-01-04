@@ -238,7 +238,7 @@ WebCryptoThreadPool
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 gInstance
 "
@@ -541,7 +541,7 @@ GetObserverService
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 obs
 "
