@@ -5636,6 +5636,9 @@ bool
 mIsActive
 ;
 bool
+mDisableMetaRefreshWhenInactive
+;
+bool
 mIsPrerendered
 ;
 bool
