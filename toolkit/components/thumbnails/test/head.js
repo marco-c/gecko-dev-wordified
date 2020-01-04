@@ -438,10 +438,7 @@ aValue
 )
 {
 let
-{
-done
-value
-}
+obj
 =
 TestRunner
 .
@@ -454,6 +451,8 @@ aValue
 ;
 if
 (
+obj
+.
 done
 )
 {
@@ -464,6 +463,16 @@ finish
 return
 ;
 }
+let
+value
+=
+obj
+.
+value
+|
+|
+obj
+;
 if
 (
 value
