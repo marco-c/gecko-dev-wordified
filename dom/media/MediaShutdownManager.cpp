@@ -517,7 +517,7 @@ Debug
 MediaShutdownManager
 :
 :
-Shutdown
+BlockShutdown
 (
 )
 end
@@ -740,7 +740,7 @@ Debug
 MediaShutdownManager
 :
 :
-Shutdown
+BlockShutdown
 (
 )
 start
