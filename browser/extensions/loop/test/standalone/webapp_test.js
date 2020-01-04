@@ -470,9 +470,6 @@ function
 {
 var
 sdk
-conversationModel
-client
-props
 standaloneAppStore
 ;
 var
@@ -955,9 +952,6 @@ function
 (
 )
 {
-var
-comp
-=
 TestUtils
 .
 renderIntoDocument

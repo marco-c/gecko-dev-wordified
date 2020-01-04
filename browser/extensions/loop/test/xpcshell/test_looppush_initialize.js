@@ -964,7 +964,6 @@ mockWebSocket
 defaultMsgHandler
 =
 (
-msg
 )
 =
 >
@@ -1028,7 +1027,6 @@ chan
 function
 (
 err
-url
 )
 {
 Assert

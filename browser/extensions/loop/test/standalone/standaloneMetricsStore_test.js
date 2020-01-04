@@ -75,13 +75,6 @@ strict
 "
 ;
 var
-expect
-=
-chai
-.
-expect
-;
-var
 sandbox
 dispatcher
 store
