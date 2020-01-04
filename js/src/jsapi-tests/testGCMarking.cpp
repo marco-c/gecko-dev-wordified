@@ -1439,6 +1439,9 @@ isMarked
 )
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 Remember
@@ -1471,6 +1474,8 @@ gcNumber
 (
 )
 ;
+#
+endif
 /
 /
 Now
