@@ -2054,7 +2054,7 @@ Reason
 >
 PLDHashEntryHdr
 *
-PL_DHASH_FASTCALL
+NS_FASTCALL
 PLDHashTable
 :
 :
@@ -2460,9 +2460,9 @@ types
 more
 easily
 .
+MOZ_ALWAYS_INLINE
 PLDHashEntryHdr
 *
-PL_DHASH_FASTCALL
 PLDHashTable
 :
 :
