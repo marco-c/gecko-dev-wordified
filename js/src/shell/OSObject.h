@@ -144,6 +144,9 @@ js
 namespace
 shell
 {
+struct
+RCFile
+;
 /
 *
 Define
@@ -171,6 +174,14 @@ HandleObject
 global
 bool
 fuzzingSafe
+RCFile
+*
+*
+shellOut
+RCFile
+*
+*
+shellErr
 )
 ;
 enum
