@@ -183,6 +183,16 @@ _
 (
 AsmJSAtomicBinopCallout
 )
+\
+_
+(
+DivOrModI64
+)
+\
+_
+(
+UDivOrModI64
+)
 #
 endif
 /
