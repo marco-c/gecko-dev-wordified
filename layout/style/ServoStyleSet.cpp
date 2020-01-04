@@ -2558,7 +2558,7 @@ traverseDescendants
 return
 ;
 }
-FlattenedChildIterator
+StyleChildrenIterator
 it
 (
 aContent
