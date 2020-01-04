@@ -746,9 +746,10 @@ erroneous
 {
 do_check_throws
 (
-function
 (
 )
+=
+>
 cps
 .
 removeByName
@@ -761,9 +762,10 @@ null
 ;
 do_check_throws
 (
-function
 (
 )
+=
+>
 cps
 .
 removeByName
@@ -775,9 +777,10 @@ null
 ;
 do_check_throws
 (
-function
 (
 )
+=
+>
 cps
 .
 removeByName

@@ -1674,9 +1674,10 @@ aURL
 {
 callback
 =
-function
 (
 )
+=
+>
 whenFileExists
 (
 aURL
@@ -1764,9 +1765,10 @@ exists
 {
 callback
 =
-function
 (
 )
+=
+>
 whenFileRemoved
 (
 aFile
@@ -2266,7 +2268,11 @@ get
 crashed
 (
 )
+{
+return
 crashed
+;
+}
 }
 ;
 }

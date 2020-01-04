@@ -590,11 +590,12 @@ sort
 .
 forEach
 (
-function
 (
 val
 i
 )
+=
+>
 do_check_eq
 (
 val
