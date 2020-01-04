@@ -770,7 +770,13 @@ gettingStarted
 seen
 "
 :
+return
+true
+;
 }
+return
+null
+;
 }
 hasEncryptionKey
 :
