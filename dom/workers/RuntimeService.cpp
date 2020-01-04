@@ -5288,6 +5288,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate

@@ -1938,6 +1938,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -3054,6 +3057,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -4400,6 +4406,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -6050,6 +6059,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -6195,6 +6207,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -6415,6 +6430,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -6694,6 +6712,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -7216,6 +7237,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -8131,6 +8155,9 @@ virtual
 bool
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
