@@ -677,13 +677,15 @@ particular
 innerWindow
 .
 void
-RefreshAgentsCapture
+SetWindowAudioCaptured
 (
 nsPIDOMWindow
 *
 aWindow
 uint64_t
 aInnerWindowID
+bool
+aCapture
 )
 ;
 #
@@ -922,6 +924,10 @@ mWindowID
 (
 aWindowID
 )
+mIsAudioCaptured
+(
+false
+)
 {
 /
 /
@@ -953,6 +959,9 @@ false
 }
 uint64_t
 mWindowID
+;
+bool
+mIsAudioCaptured
 ;
 AudioChannelConfig
 mChannels
