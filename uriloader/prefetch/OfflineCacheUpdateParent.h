@@ -177,6 +177,16 @@ ipc
 URIParams
 URIParams
 ;
+typedef
+mozilla
+:
+:
+ipc
+:
+:
+PrincipalInfo
+PrincipalInfo
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -193,6 +203,10 @@ const
 URIParams
 &
 documentURI
+const
+PrincipalInfo
+&
+loadingPrincipalInfo
 const
 bool
 &

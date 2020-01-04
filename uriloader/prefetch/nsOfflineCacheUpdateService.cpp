@@ -893,6 +893,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -909,6 +912,10 @@ aManifestURI
 mDocumentURI
 (
 aDocumentURI
+)
+mLoadingPrincipal
+(
+aLoadingPrincipal
 )
 mDidReleaseThis
 (
@@ -948,6 +955,12 @@ nsCOMPtr
 nsIURI
 >
 mDocumentURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 nsCOMPtr
 <
@@ -1429,6 +1442,7 @@ Schedule
 (
 mManifestURI
 mDocumentURI
+mLoadingPrincipal
 updateDoc
 window
 nullptr
@@ -2339,6 +2353,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -2427,6 +2444,7 @@ nsOfflineCachePendingUpdate
 this
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 aDocument
 )
 ;
@@ -3322,6 +3340,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -3443,6 +3464,7 @@ Init
 (
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 aDocument
 aCustomProfileDir
 aAppID
@@ -3494,6 +3516,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMWindow
 *
 aWindow
@@ -3538,6 +3563,7 @@ Schedule
 (
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 nullptr
 aWindow
 nullptr
@@ -3559,6 +3585,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 uint32_t
 aAppID
 bool
@@ -3577,6 +3606,7 @@ Schedule
 (
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 nullptr
 nullptr
 aProfileDir
@@ -3595,6 +3625,9 @@ CheckForUpdate
 nsIURI
 *
 aManifestURI
+nsIPrincipal
+*
+aLoadingPrincipal
 uint32_t
 aAppID
 bool
@@ -3650,6 +3683,7 @@ update
 InitForUpdateCheck
 (
 aManifestURI
+aLoadingPrincipal
 aAppID
 aInBrowser
 aObserver

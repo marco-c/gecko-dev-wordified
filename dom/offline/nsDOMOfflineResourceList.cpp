@@ -1724,6 +1724,7 @@ InitPartial
 mManifestURI
 clientID
 mDocumentURI
+mLoadingPrincipal
 )
 ;
 NS_ENSURE_SUCCESS

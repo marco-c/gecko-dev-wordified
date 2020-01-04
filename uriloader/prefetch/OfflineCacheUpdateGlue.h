@@ -336,6 +336,9 @@ aClientID
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 override
 {
@@ -353,6 +356,7 @@ InitPartial
 aManifestURI
 aClientID
 aDocumentURI
+aLoadingPrincipal
 )
 ;
 }
@@ -363,6 +367,9 @@ InitForUpdateCheck
 nsIURI
 *
 aManifestURI
+nsIPrincipal
+*
+aLoadingPrincipal
 uint32_t
 aAppID
 bool
@@ -385,6 +392,7 @@ _to
 InitForUpdateCheck
 (
 aManifestURI
+aLoadingPrincipal
 aAppID
 aInBrowser
 aObserver
@@ -561,6 +569,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -623,6 +634,12 @@ nsCOMPtr
 nsIURI
 >
 mDocumentURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 }
 ;

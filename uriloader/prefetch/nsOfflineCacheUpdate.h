@@ -316,6 +316,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIApplicationCache
 *
 aApplicationCache
@@ -337,6 +340,12 @@ nsCOMPtr
 nsIURI
 >
 mReferrerURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 nsCOMPtr
 <
@@ -467,6 +476,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIApplicationCache
 *
 aApplicationCache
@@ -1022,6 +1034,9 @@ InitInternal
 nsIURI
 *
 aManifestURI
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 nsresult
@@ -1223,6 +1238,12 @@ nsCOMPtr
 nsIURI
 >
 mDocumentURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 nsCOMPtr
 <
@@ -1448,6 +1469,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument

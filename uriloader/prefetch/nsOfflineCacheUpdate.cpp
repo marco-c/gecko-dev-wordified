@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -897,6 +904,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 :
 mUpdate
@@ -910,6 +920,10 @@ aURI
 mReferrerURI
 (
 aReferrerURI
+)
+mLoadingPrincipal
+(
+aLoadingPrincipal
 )
 {
 }
@@ -971,6 +985,12 @@ nsCOMPtr
 nsIURI
 >
 mReferrerURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 nsCOMPtr
 <
@@ -1386,16 +1406,11 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
+mLoadingPrincipal
 nsILoadInfo
 :
 :
-SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
+SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
 nsIContentPolicy
 :
 :
@@ -2817,6 +2832,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIApplicationCache
 *
 aApplicationCache
@@ -2834,6 +2852,10 @@ aURI
 mReferrerURI
 (
 aReferrerURI
+)
+mLoadingPrincipal
+(
+aLoadingPrincipal
 )
 mApplicationCache
 (
@@ -3092,12 +3114,7 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
+mLoadingPrincipal
 nsILoadInfo
 :
 :
@@ -5435,6 +5452,9 @@ aURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIApplicationCache
 *
 aApplicationCache
@@ -5447,6 +5467,7 @@ nsOfflineCacheUpdateItem
 (
 aURI
 aReferrerURI
+aLoadingPrincipal
 aApplicationCache
 aPreviousApplicationCache
 nsIApplicationCache
@@ -8551,6 +8572,9 @@ InitInternal
 nsIURI
 *
 aManifestURI
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 {
 nsresult
@@ -8628,6 +8652,10 @@ mManifestURI
 =
 aManifestURI
 ;
+mLoadingPrincipal
+=
+aLoadingPrincipal
+;
 rv
 =
 mManifestURI
@@ -8664,6 +8692,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -8729,6 +8760,7 @@ rv
 InitInternal
 (
 aManifestURI
+aLoadingPrincipal
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8985,6 +9017,9 @@ InitForUpdateCheck
 nsIURI
 *
 aManifestURI
+nsIPrincipal
+*
+aLoadingPrincipal
 uint32_t
 aAppID
 bool
@@ -9047,6 +9082,7 @@ rv
 InitInternal
 (
 aManifestURI
+aLoadingPrincipal
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9251,6 +9287,9 @@ clientID
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 {
 nsresult
@@ -9308,6 +9347,10 @@ true
 mDocumentURI
 =
 aDocumentURI
+;
+mLoadingPrincipal
+=
+aLoadingPrincipal
 ;
 mManifestURI
 =
@@ -11090,6 +11133,7 @@ Init
 (
 mManifestURI
 mDocumentURI
+mLoadingPrincipal
 nullptr
 mCustomProfileDir
 mAppID
@@ -11359,6 +11403,7 @@ nsOfflineManifestItem
 (
 mManifestURI
 mDocumentURI
+mLoadingPrincipal
 mApplicationCache
 mPreviousApplicationCache
 )
@@ -12073,6 +12118,7 @@ nsManifestCheck
 this
 mManifestURI
 mDocumentURI
+mLoadingPrincipal
 )
 ;
 if
@@ -13003,6 +13049,7 @@ InitPartial
 mManifestURI
 clientID
 mDocumentURI
+mLoadingPrincipal
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14206,6 +14253,7 @@ nsOfflineCacheUpdateItem
 (
 aURI
 mDocumentURI
+mLoadingPrincipal
 mApplicationCache
 mPreviousApplicationCache
 aType
