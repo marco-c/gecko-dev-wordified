@@ -1828,6 +1828,13 @@ substs
 self
 .
 substs
+device_serial
+=
+'
+emulator
+-
+5554
+'
 )
         
 if
