@@ -1348,7 +1348,10 @@ Compositor
 explicit
 Compositor
 (
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 aWidget
 CompositorBridgeParent
@@ -3799,7 +3802,10 @@ gfx
 IntRect
 mTargetBounds
 ;
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 mWidget
 ;
