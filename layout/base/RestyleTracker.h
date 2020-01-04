@@ -2125,7 +2125,10 @@ process
 terminating
 early
 with
-eRestyleResult_Stop
+RestyleResul
+:
+:
+eStop
 (
 see
 ElementRestyler

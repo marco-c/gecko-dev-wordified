@@ -3305,7 +3305,10 @@ early
 (
 see
 how
-eRestyleResult_Stop
+RestyleResult
+:
+:
+eStop
 is
 handled
 /
