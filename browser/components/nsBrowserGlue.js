@@ -6892,6 +6892,9 @@ tab
 "
 )
 ;
+return
+true
+;
 }
 }
 ]
