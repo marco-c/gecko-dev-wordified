@@ -398,9 +398,6 @@ aListener
 nsresult
 BeginNativeInputTransaction
 (
-TextEventDispatcherListener
-*
-aListener
 )
 ;
 /
@@ -465,6 +462,17 @@ OnDestroyWidget
 (
 )
 ;
+nsIWidget
+*
+GetWidget
+(
+)
+const
+{
+return
+mWidget
+;
+}
 /
 *
 *
