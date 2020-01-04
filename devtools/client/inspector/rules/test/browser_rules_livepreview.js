@@ -424,6 +424,14 @@ ruleView
 styleWindow
 )
 ;
+ruleView
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onPreviewDone
 ;

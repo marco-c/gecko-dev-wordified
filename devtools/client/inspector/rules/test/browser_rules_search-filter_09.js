@@ -543,6 +543,14 @@ value
 %
 "
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onRuleViewChanged
 ;

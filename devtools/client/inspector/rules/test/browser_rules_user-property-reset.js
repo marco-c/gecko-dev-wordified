@@ -468,15 +468,11 @@ true
 )
 ;
 let
-onMutation
+onStyleChanged
 =
-inspector
-.
-once
+waitForStyleModification
 (
-"
-markupmutation
-"
+inspector
 )
 ;
 EventUtils
@@ -492,7 +488,7 @@ yield
 onBlur
 ;
 yield
-onMutation
+onStyleChanged
 ;
 info
 (

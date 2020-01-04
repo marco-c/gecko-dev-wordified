@@ -446,6 +446,14 @@ view
 styleWindow
 )
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onRuleViewChanged
 ;
