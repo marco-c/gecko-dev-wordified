@@ -281,6 +281,9 @@ pre
 buffer
 .
 int
+lastError
+;
+int
 farend_started
 ;
 AecCore
