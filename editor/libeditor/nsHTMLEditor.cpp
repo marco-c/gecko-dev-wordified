@@ -151,6 +151,13 @@ h
 #
 include
 "
+HTMLURIRefObject
+.
+h
+"
+#
+include
+"
 SetDocumentTitleTransaction
 .
 h
@@ -187,13 +194,6 @@ h
 include
 "
 TypeInState
-.
-h
-"
-#
-include
-"
-nsHTMLURIRefObject
 .
 h
 "

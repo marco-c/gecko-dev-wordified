@@ -2937,6 +2937,14 @@ Scrub
 (
 )
 ;
+bool
+IsBlockNode
+(
+nsINode
+*
+aNode
+)
+;
 /
 /
 member
