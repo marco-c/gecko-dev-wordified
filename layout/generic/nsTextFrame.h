@@ -2428,14 +2428,6 @@ NotifySelectionDecorationLinePathEmitted
 )
 {
 }
-virtual
-void
-NotifyGlyphPathEmitted
-(
-)
-override
-{
-}
 }
 ;
 struct
