@@ -49682,6 +49682,11 @@ mIsGoingAway
 =
 true
 ;
+SetScriptGlobalObject
+(
+nullptr
+)
+;
 RemovedFromDocShell
 (
 )
