@@ -183,6 +183,17 @@ drawable
 .
 BitmapDrawable
 ;
+import
+android
+.
+support
+.
+v4
+.
+os
+.
+CancellationSignal
+;
 /
 *
 *
@@ -590,6 +601,8 @@ int
 minLimit
 int
 maxLimit
+CancellationSignal
+cancellationSignal
 )
 ;
 public
