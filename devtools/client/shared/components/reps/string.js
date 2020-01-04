@@ -306,9 +306,6 @@ text
 }
 )
 ;
-/
-/
-Helpers
 function
 supportsObject
 (
