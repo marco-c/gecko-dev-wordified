@@ -1334,7 +1334,6 @@ data
 /
 bool
 NS_FASTCALL
-B2G_ACL_EXPORT
 EqualsASCII
 (
 const
@@ -1382,7 +1381,6 @@ terminated
 /
 bool
 NS_FASTCALL
-B2G_ACL_EXPORT
 EqualsASCII
 (
 const
@@ -4891,7 +4889,6 @@ destructor
 /
 void
 NS_FASTCALL
-B2G_ACL_EXPORT
 Finalize
 (
 )

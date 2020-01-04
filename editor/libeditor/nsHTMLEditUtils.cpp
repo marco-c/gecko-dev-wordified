@@ -5491,14 +5491,6 @@ GROUP_NONE
 )
 ELEM
 (
-extapp
-true
-true
-GROUP_NONE
-GROUP_NONE
-)
-ELEM
-(
 fieldset
 true
 true

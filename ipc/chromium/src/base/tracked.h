@@ -959,12 +959,10 @@ Tracked
 {
 public
 :
-B2G_ACL_EXPORT
 Tracked
 (
 )
 ;
-B2G_ACL_EXPORT
 virtual
 ~
 Tracked

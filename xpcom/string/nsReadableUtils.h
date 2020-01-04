@@ -970,7 +970,6 @@ free
 .
 *
 /
-B2G_ACL_EXPORT
 char
 *
 ToNewUTF8String

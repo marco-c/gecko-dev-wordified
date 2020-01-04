@@ -1383,7 +1383,6 @@ the
 video
 data
 .
-B2G_ACL_EXPORT
 virtual
 VideoFrameContainer
 *

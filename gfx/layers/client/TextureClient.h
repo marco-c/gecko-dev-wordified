@@ -3726,7 +3726,6 @@ Release
 .
 *
 /
-B2G_ACL_EXPORT
 void
 Finalize
 (
