@@ -3122,6 +3122,10 @@ public
 Bindings
 bindings
 ;
+ModuleBuilder
+&
+builder
+;
 TraceableVector
 <
 JSAtom
@@ -3145,6 +3149,9 @@ traceListHead
 ModuleObject
 *
 module
+ModuleBuilder
+&
+builder
 ParseContext
 <
 ParseHandler

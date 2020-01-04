@@ -3749,6 +3749,9 @@ Node
 pn
 HandleModuleObject
 module
+ModuleBuilder
+&
+builder
 )
 ;
 /

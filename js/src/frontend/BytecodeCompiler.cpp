@@ -3337,9 +3337,8 @@ if
 !
 builder
 .
-buildAndInit
+initModule
 (
-pn
 )
 )
 return
