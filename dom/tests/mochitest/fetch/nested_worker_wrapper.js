@@ -1,3 +1,19 @@
+/
+/
+Hold
+the
+nested
+worker
+alive
+until
+this
+parent
+worker
+closes
+.
+var
+worker
+;
 addEventListener
 (
 '
@@ -17,7 +33,6 @@ message
 nestedWorkerWrapperOnMessage
 )
 ;
-var
 worker
 =
 new
