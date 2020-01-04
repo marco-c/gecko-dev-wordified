@@ -1209,6 +1209,7 @@ Pref
 {
 public
 :
+explicit
 TypedPref
 (
 T
