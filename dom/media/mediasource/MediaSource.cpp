@@ -665,7 +665,7 @@ mp4supported
 hwsupported
 |
 |
-Benchmark
+VP9Benchmark
 :
 :
 IsVP9DecodeFast
