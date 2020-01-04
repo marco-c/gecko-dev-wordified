@@ -2684,7 +2684,10 @@ marionette
 .
 set_script_timeout
 (
+int
+(
 timeout
+)
 )
         
 inactivity_timeout
@@ -2704,11 +2707,14 @@ inactivity_timeout
             
 inactivity_timeout
 =
+int
+(
 inactivity_timeout
 .
 group
 (
 3
+)
 )
         
 try

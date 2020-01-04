@@ -129,9 +129,7 @@ marionette
 .
 set_search_timeout
 (
-"
 30000
-"
 )
         
 add
@@ -200,9 +198,7 @@ marionette
 .
 set_search_timeout
 (
-"
 3000
-"
 )
         
 try
