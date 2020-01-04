@@ -9351,7 +9351,7 @@ getURLForBuiltinPanelType
 (
 PanelType
 .
-RECENT_TABS
+DEPRECATED_RECENT_TABS
 )
 flags
 )

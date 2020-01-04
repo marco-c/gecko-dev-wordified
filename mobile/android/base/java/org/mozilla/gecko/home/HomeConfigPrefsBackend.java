@@ -2607,7 +2607,7 @@ context
 jsonPanels
 PanelType
 .
-RECENT_TABS
+DEPRECATED_RECENT_TABS
 Position
 .
 FRONT
@@ -2906,7 +2906,7 @@ context
 jsonPanels
 PanelType
 .
-RECENT_TABS
+DEPRECATED_RECENT_TABS
 PanelType
 .
 COMBINED_HISTORY
