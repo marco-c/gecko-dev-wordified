@@ -478,6 +478,12 @@ mOwningStream
 TrackID
 mTrackID
 ;
+RefPtr
+<
+MediaStreamTrack
+>
+mOriginalTrack
+;
 nsString
 mID
 ;
