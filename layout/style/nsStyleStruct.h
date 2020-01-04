@@ -13279,6 +13279,12 @@ aProperty
 !
 =
 eCSSProperty_UNKNOWN
+&
+&
+aProperty
+!
+=
+eCSSPropertyExtra_variable
 "
 invalid
 property
@@ -13293,10 +13299,12 @@ aProperty
 void
 SetUnknownProperty
 (
+nsCSSProperty
+aProperty
 const
 nsAString
 &
-aUnknownProperty
+aPropertyString
 )
 ;
 void
@@ -13395,6 +13403,10 @@ is
 /
 /
 eCSSProperty_UNKNOWN
+or
+/
+/
+eCSSPropertyExtra_variable
 }
 ;
 struct

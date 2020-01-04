@@ -29391,6 +29391,12 @@ cssprop
 =
 =
 eCSSProperty_UNKNOWN
+|
+|
+cssprop
+=
+=
+eCSSPropertyExtra_variable
 )
 {
 nsAutoString
