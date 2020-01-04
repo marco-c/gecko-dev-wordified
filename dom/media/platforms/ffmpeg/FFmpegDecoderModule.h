@@ -194,7 +194,6 @@ forget
 )
 ;
 }
-explicit
 FFmpegDecoderModule
 (
 FFmpegLibWrapper
