@@ -3604,17 +3604,8 @@ if
 !
 aCallback
 )
-{
-utils
-.
-advanceTimeAndRefresh
-(
-0
-)
-;
 return
 ;
-}
 var
 waitForPaints
 =
