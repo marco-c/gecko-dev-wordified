@@ -2178,7 +2178,7 @@ else
 {
 /
 /
-delete
+Delete
 whole
 cells
 :
@@ -2189,7 +2189,7 @@ with
 new
 table
 content
-{
+.
 /
 /
 Braces
@@ -2198,7 +2198,7 @@ artificial
 block
 to
 scope
-nsAutoSelectionReset
+AutoSelectionRestorer
 .
 /
 /
@@ -2207,10 +2207,14 @@ current
 selection
 since
 DeleteTableCell
+(
+)
 perturbs
 it
-nsAutoSelectionReset
-selectionResetter
+.
+{
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this

@@ -8871,8 +8871,8 @@ listener
 (
 Note
 :
-A
-nsAutoSelectionReset
+An
+AutoSelectionRestorer
 object
 must
 be
