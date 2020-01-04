@@ -731,6 +731,15 @@ nsAString
 aKeySystem
 )
 ;
+bool
+IsClearkeyKeySystem
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 }
 /
 /
