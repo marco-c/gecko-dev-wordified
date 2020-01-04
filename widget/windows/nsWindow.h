@@ -1958,6 +1958,16 @@ aInitData
 )
 override
 ;
+bool
+IsTouchWindow
+(
+)
+const
+{
+return
+mTouchWindow
+;
+}
 protected
 :
 virtual
