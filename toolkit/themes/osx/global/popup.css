@@ -280,7 +280,9 @@ var
 (
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 background
 )
@@ -293,7 +295,9 @@ var
 (
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 border
 -
@@ -312,7 +316,9 @@ var
 (
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 border
 -
@@ -325,7 +331,9 @@ var
 (
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 color
 )
@@ -340,7 +348,9 @@ var
 (
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 padding
 )

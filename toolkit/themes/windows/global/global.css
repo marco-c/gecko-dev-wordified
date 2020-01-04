@@ -352,7 +352,9 @@ root
 {
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 padding
 :
@@ -360,7 +362,9 @@ padding
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 background
 :
@@ -371,7 +375,9 @@ field
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 color
 :
@@ -382,7 +388,9 @@ FieldText
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 border
 -
