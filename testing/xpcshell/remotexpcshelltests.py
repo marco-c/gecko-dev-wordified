@@ -5266,13 +5266,6 @@ parser_remote
 (
 )
     
-commandline
-.
-add_logging_group
-(
-parser
-)
-    
 options
 =
 parser
