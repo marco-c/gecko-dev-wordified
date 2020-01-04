@@ -16271,6 +16271,18 @@ IsForPaintingSelectionBG
 )
 )
 {
+bool
+isFullyVisible
+=
+dirtyRectOutsideSVGEffects
+.
+Contains
+(
+GetVisualOverflowRectRelativeToSelf
+(
+)
+)
+;
 nsDisplayTransform
 *
 transformItem
@@ -16286,6 +16298,8 @@ this
 &
 resultList
 dirtyRect
+0
+isFullyVisible
 )
 ;
 resultList
