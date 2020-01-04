@@ -1621,6 +1621,7 @@ AudioStreamTrack
 &
 aTracks
 )
+const
 ;
 void
 GetVideoTracks
@@ -1635,6 +1636,7 @@ VideoStreamTrack
 &
 aTracks
 )
+const
 ;
 void
 GetTracks
@@ -1649,6 +1651,7 @@ MediaStreamTrack
 &
 aTracks
 )
+const
 ;
 void
 AddTrack

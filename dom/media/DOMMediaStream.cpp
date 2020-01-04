@@ -2304,6 +2304,7 @@ AudioStreamTrack
 &
 aTracks
 )
+const
 {
 for
 (
@@ -2365,6 +2366,7 @@ VideoStreamTrack
 &
 aTracks
 )
+const
 {
 for
 (
@@ -2426,6 +2428,7 @@ MediaStreamTrack
 &
 aTracks
 )
+const
 {
 for
 (
