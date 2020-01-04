@@ -238,7 +238,6 @@ ipc
 define
 IPC_LOG
 (
-args
 .
 .
 .
@@ -250,9 +249,7 @@ LogLevel
 :
 :
 Debug
-(
-args
-)
+__VA_ARGS__
 )
 /
 *
