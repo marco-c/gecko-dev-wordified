@@ -1238,6 +1238,7 @@ constructor
 extension
 viewNode
 popupURL
+browserStyle
 )
 {
 let
@@ -1290,6 +1291,12 @@ this
 viewNode
 =
 viewNode
+;
+this
+.
+browserStyle
+=
+browserStyle
 ;
 this
 .
@@ -1545,6 +1552,11 @@ DOMWindowCreated
 :
 if
 (
+this
+.
+browserStyle
+&
+&
 event
 .
 target
@@ -2421,6 +2433,7 @@ constructor
 extension
 imageNode
 popupURL
+browserStyle
 )
 {
 let
@@ -2521,6 +2534,7 @@ super
 extension
 panel
 popupURL
+browserStyle
 )
 ;
 this
