@@ -385,11 +385,6 @@ actual
 pass
 '
 ;
-jit
-(
-true
-)
-;
 try
 {
 e
