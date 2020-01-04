@@ -12965,7 +12965,7 @@ true
 }
 static
 AsmType
-AsmSimdTypeToScalarType
+AsmSimdTypeToLaneType
 (
 AsmType
 simd
@@ -13154,7 +13154,7 @@ if
 EmitExpr
 (
 f
-AsmSimdTypeToScalarType
+AsmSimdTypeToLaneType
 (
 simdType
 )
@@ -13789,7 +13789,7 @@ if
 EmitExpr
 (
 f
-AsmSimdTypeToScalarType
+AsmSimdTypeToLaneType
 (
 type
 )
