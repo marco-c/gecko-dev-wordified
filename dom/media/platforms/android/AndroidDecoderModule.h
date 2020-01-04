@@ -102,7 +102,7 @@ h
 #
 include
 <
-queue
+deque
 >
 namespace
 mozilla
@@ -111,7 +111,7 @@ typedef
 std
 :
 :
-queue
+deque
 <
 RefPtr
 <
@@ -675,7 +675,7 @@ microseconds
 std
 :
 :
-queue
+deque
 <
 media
 :
