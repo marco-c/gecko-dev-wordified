@@ -584,9 +584,6 @@ mIsInitedFromPrinter
 bool
 mIsInitedFromPrefs
 ;
-bool
-mPersistMarginBoxSettings
-;
 }
 ;
 #
