@@ -306,6 +306,14 @@ aProxy
 wrapper
 -
 >
+SetProxyInterfaces
+(
+aInterfaces
+)
+;
+wrapper
+-
+>
 AddRef
 (
 )
