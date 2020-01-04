@@ -3821,6 +3821,9 @@ bool
 >
 mInCallback
 ;
+#
+ifdef
+XP_MACOSX
 /
 *
 *
@@ -3851,9 +3854,6 @@ monitor
 bool
 mMicrophoneActive
 ;
-#
-ifdef
-XP_MACOSX
 /
 *
 Implements
