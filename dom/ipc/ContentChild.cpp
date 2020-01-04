@@ -778,13 +778,6 @@ h
 #
 include
 "
-nsIIdlePeriod
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h
