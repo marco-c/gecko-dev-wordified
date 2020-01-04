@@ -330,11 +330,6 @@ h
 >
 #
 include
-<
-string
->
-#
-include
 "
 common
 /
@@ -622,11 +617,11 @@ for
 the
 path
 specified
-std
-:
-:
-string
+char
 path_
+[
+PATH_MAX
+]
 ;
 }
 ;

@@ -515,12 +515,6 @@ BREAKPAD_SERVER_PARAMETER_DICT
 "
 BreakpadServerParameters
 "
-#
-define
-BREAKPAD_IN_PROCESS
-"
-BreakpadInProcess
-"
 /
 /
 The

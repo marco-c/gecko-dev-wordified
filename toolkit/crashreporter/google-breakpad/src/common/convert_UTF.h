@@ -383,12 +383,6 @@ holder
 .
 *
 /
-#
-ifndef
-COMMON_CONVERT_UTF_H_
-#
-define
-COMMON_CONVERT_UTF_H_
 /
 *
 -
@@ -1588,8 +1582,3 @@ endif
 -
 *
 /
-#
-endif
-/
-/
-COMMON_CONVERT_UTF_H_

@@ -333,6 +333,16 @@ Author
 :
 Dan
 Waylonis
+extern
+"
+C
+"
+{
+/
+/
+necessary
+for
+Leopard
 #
 include
 <
@@ -394,6 +404,7 @@ unistd
 .
 h
 >
+}
 #
 include
 "
@@ -448,8 +459,7 @@ context
 :
 file_
 (
--
-1
+0
 )
 memory_
 (
@@ -508,8 +518,7 @@ context
 :
 file_
 (
--
-1
+0
 )
 memory_
 (

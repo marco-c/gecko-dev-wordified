@@ -322,11 +322,13 @@ Foundation
 h
 >
 #
-include
+import
 "
 common
 /
-simple_string_dictionary
+mac
+/
+SimpleStringDictionary
 .
 h
 "
