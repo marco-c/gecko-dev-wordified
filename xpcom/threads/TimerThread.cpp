@@ -767,6 +767,7 @@ Run
 .
 class
 nsTimerEvent
+final
 :
 public
 CancelableRunnable
