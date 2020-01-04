@@ -358,14 +358,11 @@ aRetval
 )
 const
 {
-return
 aRetval
 .
 AssignLiteral
 (
-"
-/
-"
+FILESYSTEM_DOM_PATH_SEPARATOR_LITERAL
 )
 ;
 }
