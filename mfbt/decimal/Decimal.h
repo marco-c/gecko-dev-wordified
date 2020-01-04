@@ -729,12 +729,12 @@ void
 setSign
 (
 Sign
-sign
+aSign
 )
 {
 m_sign
 =
-sign
+aSign
 ;
 }
 private
