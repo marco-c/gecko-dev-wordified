@@ -121,13 +121,13 @@ left
 :
 50px
 ;
+"
++
+"
 height
 :
 10px
 ;
-"
-+
-"
 width
 :
 10px
@@ -138,6 +138,9 @@ border
 solid
 black
 ;
+"
++
+"
 padding
 :
 10px
@@ -266,6 +269,7 @@ highlighterOptions
 options
 ;
 }
+;
 let
 elt
 =
@@ -381,7 +385,6 @@ testGuideOnLayoutHover
 elt
 expectedRegion
 inspector
-view
 )
 {
 info
@@ -407,9 +410,9 @@ elt
 {
 type
 :
-'
+"
 mouseover
-'
+"
 }
 elt
 .
