@@ -829,6 +829,7 @@ length
 )
 {
 return
+undefined
 ;
 }
 let
@@ -875,6 +876,7 @@ first
 sync
 .
 return
+undefined
 ;
 }
 let
