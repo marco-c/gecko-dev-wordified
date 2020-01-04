@@ -954,9 +954,6 @@ nsIFile
 aFile
 )
 ;
-#
-ifdef
-MOZ_WIDEVINE_EME
 RefPtr
 <
 GenericPromise
@@ -988,8 +985,6 @@ aFile
 GMP
 thread
 .
-#
-endif
 #
 ifdef
 MOZ_CRASHREPORTER
