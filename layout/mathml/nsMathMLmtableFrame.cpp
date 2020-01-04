@@ -7629,6 +7629,7 @@ error
 |
 colspan
 <
+=
 0
 |
 |
