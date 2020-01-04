@@ -665,7 +665,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -1132,7 +1132,7 @@ format
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1268,7 +1268,7 @@ a
 new
 SourceSurface
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1443,7 +1443,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1472,7 +1472,7 @@ Handle
 y
 flip
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

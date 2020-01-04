@@ -2969,7 +2969,7 @@ nsRefPtr
 LoadMonitor
 >
 loadMonitor
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >
@@ -3288,7 +3288,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >
@@ -3444,7 +3444,7 @@ LoadMonitor
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RTCLoadInfo
 >

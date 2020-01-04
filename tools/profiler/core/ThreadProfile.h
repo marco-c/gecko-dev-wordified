@@ -457,10 +457,7 @@ ThreadInfo
 mThreadInfo
 ;
 const
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >

@@ -481,7 +481,7 @@ FORCE_DETACH
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 CompositableHost
 >
@@ -787,7 +787,7 @@ aIs3D
 CompositableTextureSourceRef
 source
 ;
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -894,7 +894,7 @@ MOZ_ASSERT
 source
 )
 ;
-RefPtr
+nsRefPtr
 <
 EffectMask
 >
@@ -944,7 +944,7 @@ RemoveMaskEffect
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -988,7 +988,7 @@ TextureInfo
 aTextureInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 CompositableHost
 >
@@ -1153,7 +1153,7 @@ aTexture
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

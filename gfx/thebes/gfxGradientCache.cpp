@@ -680,7 +680,7 @@ nsExpirationState
 mExpirationState
 ;
 const
-RefPtr
+nsRefPtr
 <
 GradientStops
 >
@@ -1272,7 +1272,7 @@ ExtendMode
 aExtend
 )
 {
-RefPtr
+nsRefPtr
 <
 GradientStops
 >

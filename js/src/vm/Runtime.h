@@ -10648,10 +10648,7 @@ mozilla
 :
 Vector
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :

@@ -172,7 +172,7 @@ SharedSurface_IOSurface
 Create
 (
 const
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -883,7 +883,7 @@ SharedSurface_IOSurface
 SharedSurface_IOSurface
 (
 const
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -1307,7 +1307,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1422,7 +1422,7 @@ mReadCaps
 .
 alpha
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

@@ -252,7 +252,7 @@ Return
 cloned
 DataSourceSurface
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

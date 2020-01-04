@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -3772,7 +3772,7 @@ little
 lines
 )
 .
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3790,7 +3790,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

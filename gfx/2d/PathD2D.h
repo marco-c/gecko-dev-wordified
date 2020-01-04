@@ -303,13 +303,13 @@ Point
 aPoint
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
 mSink
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -542,7 +542,7 @@ class
 DrawTargetD2D1
 ;
 mutable
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >

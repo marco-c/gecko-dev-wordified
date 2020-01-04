@@ -2888,7 +2888,7 @@ mEGLLibrary
 EGLDisplay
 mEGLDisplay
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >

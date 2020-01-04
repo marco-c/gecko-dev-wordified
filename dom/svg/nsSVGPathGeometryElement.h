@@ -1351,10 +1351,7 @@ GetFillRule
 protected
 :
 mutable
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 Path
 >

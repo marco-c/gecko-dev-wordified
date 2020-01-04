@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -5616,7 +5616,7 @@ GdkAtom
 target
 )
 {
-RefPtr
+nsRefPtr
 <
 RetrievalContext
 >
@@ -5727,7 +5727,7 @@ GtkClipboard
 clipboard
 )
 {
-RefPtr
+nsRefPtr
 <
 RetrievalContext
 >

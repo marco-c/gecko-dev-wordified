@@ -131,7 +131,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -340,7 +340,7 @@ ReadRequest
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMediaSample
 >

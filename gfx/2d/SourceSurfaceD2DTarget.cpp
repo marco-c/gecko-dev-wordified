@@ -297,7 +297,7 @@ GetDataSurface
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurfaceD2DTarget
 >
@@ -391,7 +391,7 @@ CreateTexture2D
 &
 desc
 nullptr
-byRef
+getter_AddRefs
 (
 dataSurf
 -
@@ -535,7 +535,7 @@ CreateShaderResourceView
 (
 mTexture
 nullptr
-byRef
+getter_AddRefs
 (
 mSRView
 )
@@ -583,7 +583,7 @@ DrawTargetWillChange
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
@@ -683,7 +683,7 @@ CreateTexture2D
 &
 desc
 nullptr
-byRef
+getter_AddRefs
 (
 mTexture
 )
@@ -798,7 +798,7 @@ desc
 Height
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -816,7 +816,7 @@ IDXGISurface
 *
 *
 )
-byRef
+getter_AddRefs
 (
 surf
 )
@@ -883,7 +883,7 @@ IID_IDXGISurface
 surf
 &
 props
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -941,7 +941,7 @@ D2DPixelFormat
 mFormat
 )
 )
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -979,7 +979,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1RenderTarget
 >
@@ -1050,7 +1050,7 @@ bitmap
 !
 Terrible
 !
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -1068,7 +1068,7 @@ IDXGISurface
 *
 *
 )
-byRef
+getter_AddRefs
 (
 surface
 )
@@ -1130,7 +1130,7 @@ CreateDxgiSurfaceRenderTarget
 (
 surface
 props
-byRef
+getter_AddRefs
 (
 rt
 )

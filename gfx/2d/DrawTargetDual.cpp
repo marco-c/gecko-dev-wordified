@@ -1151,7 +1151,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1166,7 +1166,7 @@ aSize
 aFormat
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

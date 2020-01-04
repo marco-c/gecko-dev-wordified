@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -423,7 +423,7 @@ container
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 RilSocket
 >

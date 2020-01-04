@@ -205,7 +205,7 @@ if
 mReadbackSink
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -218,7 +218,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -383,7 +383,7 @@ GetAsImageSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -576,7 +576,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -882,7 +882,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -1791,7 +1791,7 @@ GetAsImageSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1997,7 +1997,7 @@ if
 data
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

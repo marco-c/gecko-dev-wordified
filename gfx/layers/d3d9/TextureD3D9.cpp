@@ -339,7 +339,7 @@ TextureFlags
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -870,7 +870,7 @@ IntSize
 aSize
 _D3DFORMAT
 aFormat
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -891,7 +891,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -973,7 +973,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -1006,7 +1006,7 @@ tmpTexture
 GetSurfaceLevel
 (
 0
-byRef
+getter_AddRefs
 (
 aSurface
 )
@@ -1179,7 +1179,7 @@ uint32_t
 aBPP
 )
 {
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -1188,7 +1188,7 @@ surface
 D3DLOCKED_RECT
 lockedRect
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -1312,7 +1312,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -2282,7 +2282,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -3131,7 +3131,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3647,7 +3647,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -3676,7 +3676,7 @@ height
 D3DUSAGE_RENDERTARGET
 D3DFMT_X8R8G8B8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 texture
 )
@@ -3696,7 +3696,7 @@ shareHandle
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedTextureClientD3D9
 >
@@ -3780,7 +3780,7 @@ GetD3D9Surface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -3795,7 +3795,7 @@ mTexture
 GetSurfaceLevel
 (
 0
-byRef
+getter_AddRefs
 (
 textureSurface
 )
@@ -4266,13 +4266,13 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
 srcSurface
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -4286,7 +4286,7 @@ aTexture
 GetSurfaceLevel
 (
 0
-byRef
+getter_AddRefs
 (
 srcSurface
 )
@@ -4312,7 +4312,7 @@ mTexture
 GetSurfaceLevel
 (
 0
-byRef
+getter_AddRefs
 (
 dstSurface
 )
@@ -5355,7 +5355,7 @@ height
 0
 D3DFMT_A8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 mTextures
 [
@@ -5396,7 +5396,7 @@ height
 0
 D3DFMT_A8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 mTextures
 [
@@ -5437,7 +5437,7 @@ height
 0
 D3DFMT_A8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 mTextures
 [

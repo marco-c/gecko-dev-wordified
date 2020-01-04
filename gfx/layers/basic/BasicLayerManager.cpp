@@ -4120,7 +4120,7 @@ const
 gfxImageSurface
 *
 aDest
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4528,7 +4528,7 @@ const
 gfxImageSurface
 *
 aDest
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4866,7 +4866,7 @@ gfxASurface
 >
 Transform3D
 (
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6415,7 +6415,7 @@ GetBounds
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

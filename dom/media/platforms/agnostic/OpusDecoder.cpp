@@ -1835,7 +1835,7 @@ Drain
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

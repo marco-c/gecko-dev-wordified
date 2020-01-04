@@ -511,10 +511,7 @@ mData
 blurDataSize
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -903,7 +900,7 @@ GetDirtyRect
 IntPoint
 topLeft
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1756,7 +1753,7 @@ mExpirationState
 nsExpirationState
 mExpirationState
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2736,7 +2733,7 @@ if
 aCornerRadii
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2782,7 +2779,7 @@ black
 IntPoint
 topLeft
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2905,7 +2902,7 @@ GetPlatform
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3075,7 +3072,7 @@ cached
 mBlur
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3101,7 +3098,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4121,7 +4118,7 @@ extendDestBy
 IntMargin
 slice
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4772,7 +4769,7 @@ shadow
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -5192,7 +5189,7 @@ GetDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -5487,7 +5484,7 @@ the
 actual
 cached
 blur
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5600,7 +5597,7 @@ GetDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -5647,7 +5644,7 @@ Fill
 IntPoint
 topLeft
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5670,7 +5667,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5943,7 +5940,7 @@ extendDest
 IntMargin
 slice
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

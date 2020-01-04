@@ -732,7 +732,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -769,7 +769,7 @@ nr_socket
 sockp
 )
 {
-RefPtr
+nsRefPtr
 <
 NrSocketBase
 >

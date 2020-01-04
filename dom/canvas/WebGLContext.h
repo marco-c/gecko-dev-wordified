@@ -8391,7 +8391,7 @@ nsLayoutUtils
 SurfaceFromElementResult
 &
 res
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -8932,7 +8932,7 @@ WebGLProgram
 >
 mCurrentProgram
 ;
-RefPtr
+nsRefPtr
 <
 const
 webgl
@@ -9361,7 +9361,7 @@ mViewportHeight
 bool
 mAlreadyWarnedAboutViewportLargerThanDest
 ;
-RefPtr
+nsRefPtr
 <
 WebGLContextLossHandler
 >

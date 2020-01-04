@@ -596,7 +596,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -622,7 +622,7 @@ height
 D3DUSAGE_RENDERTARGET
 D3DFMT_A8R8G8B8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 texture
 )
@@ -758,7 +758,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -784,7 +784,7 @@ height
 D3DUSAGE_RENDERTARGET
 D3DFMT_A8R8G8B8
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 texture
 )
@@ -1061,7 +1061,7 @@ aRenderTarget
 mDeviceManager
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetD3D9
 >
@@ -4439,7 +4439,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

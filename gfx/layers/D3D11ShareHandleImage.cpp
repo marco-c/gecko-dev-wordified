@@ -277,7 +277,7 @@ GetAsSourceSurface
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -314,7 +314,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D11Device
 >
@@ -325,13 +325,13 @@ texture
 >
 GetDevice
 (
-byRef
+getter_AddRefs
 (
 device
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -353,7 +353,7 @@ IDXGIKeyedMutex
 *
 >
 (
-byRef
+getter_AddRefs
 (
 keyedMutex
 )
@@ -471,7 +471,7 @@ Usage
 =
 D3D11_USAGE_STAGING
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -495,7 +495,7 @@ ID3D11Texture2D
 *
 >
 (
-byRef
+getter_AddRefs
 (
 softTexture
 )
@@ -535,7 +535,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D11DeviceContext
 >
@@ -546,7 +546,7 @@ device
 >
 GetImmediateContext
 (
-byRef
+getter_AddRefs
 (
 context
 )
@@ -587,7 +587,7 @@ ReleaseSync
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -861,7 +861,7 @@ IntSize
 aSize
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -894,7 +894,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClientD3D11
 >

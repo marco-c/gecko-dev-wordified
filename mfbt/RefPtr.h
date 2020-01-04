@@ -282,7 +282,7 @@ OutParamRef
 <
 T
 >
-byRef
+getter_AddRefs
 (
 RefPtr
 <
@@ -1094,7 +1094,7 @@ OutParamRef
 {
 friend
 OutParamRef
-byRef
+getter_AddRefs
 <
 T
 >
@@ -1207,7 +1207,7 @@ delete
 *
 *
 *
-byRef
+getter_AddRefs
 cooperates
 with
 OutParamRef
@@ -1228,7 +1228,7 @@ OutParamRef
 <
 T
 >
-byRef
+getter_AddRefs
 (
 RefPtr
 <

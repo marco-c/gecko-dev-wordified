@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1961,7 +1961,7 @@ IntRect
 aStrokePaintRect
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

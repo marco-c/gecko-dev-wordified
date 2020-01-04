@@ -2551,7 +2551,7 @@ mCachedPrintingSurface
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 gfx
 :

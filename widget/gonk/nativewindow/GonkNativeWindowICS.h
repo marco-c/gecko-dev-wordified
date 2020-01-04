@@ -1282,10 +1282,7 @@ remotely
 allocated
 GraphicBuffer
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

@@ -6889,7 +6889,7 @@ id
 <
 streamId
 ;
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7287,7 +7287,7 @@ id
 <
 streamId
 ;
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -9493,10 +9493,7 @@ test
 that
 case
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -29475,10 +29472,7 @@ in
 SDP
 offer
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -29796,10 +29790,7 @@ in
 SDP
 answer
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

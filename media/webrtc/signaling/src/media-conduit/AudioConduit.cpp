@@ -260,10 +260,7 @@ for
 AudioConduit
 *
 /
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 AudioSessionConduit
 >
@@ -1783,10 +1780,7 @@ WebrtcAudioConduit
 :
 SetTransmitterTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -1828,10 +1822,7 @@ WebrtcAudioConduit
 :
 SetReceiverTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >

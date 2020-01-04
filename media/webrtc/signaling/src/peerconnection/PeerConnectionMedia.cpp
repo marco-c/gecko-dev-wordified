@@ -387,7 +387,7 @@ string
 aNewTrackId
 )
 {
-RefPtr
+nsRefPtr
 <
 LocalSourceStreamInfo
 >
@@ -444,7 +444,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 LocalSourceStreamInfo
 >
@@ -520,7 +520,7 @@ static
 void
 PipelineReleaseRef_m
 (
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -532,7 +532,7 @@ static
 void
 PipelineDetachTransport_s
 (
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -616,7 +616,7 @@ erase
 trackId
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -2424,7 +2424,7 @@ size
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 JsepTransport
 >
@@ -2442,7 +2442,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -2481,7 +2481,7 @@ size_t
 aComponentCount
 )
 {
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -2562,7 +2562,7 @@ aLevel
 <
 aLevel
 ;
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -2697,7 +2697,7 @@ size
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 JsepTransport
 >
@@ -2859,7 +2859,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -2906,7 +2906,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -3014,7 +3014,7 @@ nullptr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -3469,7 +3469,7 @@ runnable
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -3749,7 +3749,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -3810,7 +3810,7 @@ uint32_t
 aMLine
 )
 {
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -4045,7 +4045,7 @@ runnable
 (
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 PeerConnectionMedia
 >
@@ -5316,7 +5316,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -6142,7 +6142,7 @@ aIndex
 bool
 aRtcp
 const
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -6256,7 +6256,7 @@ PeerConnectionMedia
 ConnectDtlsListener_s
 (
 const
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -6309,7 +6309,7 @@ LocalSourceStreamInfo
 :
 TakePipelineFrom
 (
-RefPtr
+nsRefPtr
 <
 LocalSourceStreamInfo
 >
@@ -6375,7 +6375,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7201,10 +7201,7 @@ string
 &
 trackId
 const
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -7284,7 +7281,7 @@ RemoteSourceStreamInfo
 :
 SyncPipeline
 (
-RefPtr
+nsRefPtr
 <
 MediaPipelineReceive
 >
@@ -7686,7 +7683,7 @@ source
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7761,7 +7758,7 @@ with
 a
 /
 /
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7881,7 +7878,7 @@ with
 a
 /
 /
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -7914,7 +7911,7 @@ trackId
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >

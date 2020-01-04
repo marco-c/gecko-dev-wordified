@@ -402,7 +402,7 @@ TextureClientReleaseTask
 mTextureClient
 )
 ;
-RefPtr
+nsRefPtr
 <
 ISurfaceAllocator
 >
@@ -1191,7 +1191,7 @@ aTexture
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1305,7 +1305,7 @@ old
 buffer
 from
 CompositableHost
-RefPtr
+nsRefPtr
 <
 AsyncTransactionWaiter
 >
@@ -1316,7 +1316,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncTransactionTracker
 >

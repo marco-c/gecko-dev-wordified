@@ -6164,7 +6164,7 @@ dummySize
 16
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -6450,7 +6450,7 @@ stencil
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -6635,7 +6635,7 @@ fall
 out
 correctly
 .
-RefPtr
+nsRefPtr
 <
 GLContext
 >

@@ -115,7 +115,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -143,12 +143,6 @@ gfx
 :
 :
 SurfaceFormat
-;
-using
-mozilla
-:
-:
-RefPtr
 ;
 NS_IMPL_ISUPPORTS
 (
@@ -237,7 +231,7 @@ imgIContainer
 aImage
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -461,7 +455,7 @@ gdk_pixbuf_get_pixels
 pixbuf
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

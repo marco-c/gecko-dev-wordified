@@ -1777,10 +1777,7 @@ ShouldUseOffMainThreadCompositing
 bool
 CaptureWidgetOnScreen
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

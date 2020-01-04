@@ -460,7 +460,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 WebGLActiveInfo
 >
@@ -481,7 +481,7 @@ WebGLActiveInfo
 infoLocMap
 )
 {
-RefPtr
+nsRefPtr
 <
 WebGLActiveInfo
 >
@@ -546,7 +546,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 webgl
 :
@@ -558,7 +558,7 @@ UniformBlockInfo
 activeInfoList
 )
 {
-RefPtr
+nsRefPtr
 <
 webgl
 :
@@ -613,7 +613,7 @@ GLContext
 gl
 )
 {
-RefPtr
+nsRefPtr
 <
 webgl
 :
@@ -2825,7 +2825,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebGLActiveInfo
 >
@@ -2957,7 +2957,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebGLActiveInfo
 >
@@ -3646,7 +3646,7 @@ arrayIndex
 return
 LOCAL_GL_INVALID_INDEX
 ;
-RefPtr
+nsRefPtr
 <
 const
 webgl
@@ -6251,7 +6251,7 @@ MOZ_ASSERT
 info
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebGLActiveInfo
 >

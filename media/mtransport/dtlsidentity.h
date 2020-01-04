@@ -134,7 +134,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -260,7 +260,7 @@ this
 class
 .
 static
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >

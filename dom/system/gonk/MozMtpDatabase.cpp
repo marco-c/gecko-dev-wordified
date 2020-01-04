@@ -664,7 +664,7 @@ dummy
 entry
 there
 .
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -895,7 +895,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1046,7 +1046,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1104,7 +1104,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1170,7 +1170,7 @@ aHandle
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1303,7 +1303,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1436,7 +1436,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -1837,7 +1837,7 @@ deleted
 or
 modified
 .
-RefPtr
+nsRefPtr
 <
 StorageEntry
 >
@@ -2790,7 +2790,7 @@ t
 exist
 create
 them
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -3193,7 +3193,7 @@ get
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -3446,7 +3446,7 @@ storageIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 StorageEntry
 >
@@ -3554,7 +3554,7 @@ storageIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 StorageEntry
 >
@@ -3960,7 +3960,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -4121,7 +4121,7 @@ aParent
 MTP_PARENT_ROOT
 ;
 }
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -4913,7 +4913,7 @@ if
 aSucceeded
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -5225,7 +5225,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -5434,7 +5434,7 @@ entryIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -5809,7 +5809,7 @@ MtpDataPacket
 aPacket
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -6288,7 +6288,7 @@ return
 MTP_RESPONSE_GENERAL_ERROR
 ;
 }
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -6604,7 +6604,7 @@ ProtectedDbArray
 index_type
 entryIdx
 ;
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -7383,7 +7383,7 @@ entryIdx
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -7816,7 +7816,7 @@ MtpObjectInfo
 aInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -8187,7 +8187,7 @@ MtpObjectFormat
 aOutFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >
@@ -8289,7 +8289,7 @@ MtpObjectHandle
 aHandle
 )
 {
-RefPtr
+nsRefPtr
 <
 DbEntry
 >

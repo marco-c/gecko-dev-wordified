@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -275,7 +275,7 @@ OffscreenCanvasCloneData
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -707,7 +707,7 @@ CanvasClient
 *
 mCanvasClient
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

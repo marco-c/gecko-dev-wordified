@@ -187,7 +187,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -4641,7 +4641,7 @@ the
 restricted
 region
 )
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -5416,7 +5416,7 @@ if
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5910,7 +5910,7 @@ the
 operating
 system
 .
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

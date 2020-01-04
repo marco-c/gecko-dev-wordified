@@ -750,7 +750,7 @@ image
 nsIntRect
 dragRect
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -817,7 +817,7 @@ crColorKey
 =
 CLR_NONE
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -875,7 +875,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

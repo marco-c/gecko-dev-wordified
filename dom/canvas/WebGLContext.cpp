@@ -3092,7 +3092,7 @@ WebGLContext
 webgl
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -3209,7 +3209,7 @@ WebGLContext
 webgl
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -3389,7 +3389,7 @@ dummySize
 16
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -6018,7 +6018,7 @@ applied
 bool
 premult
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6066,7 +6066,7 @@ it
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -6153,7 +6153,7 @@ applied
 bool
 premult
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6202,7 +6202,7 @@ it
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -9825,7 +9825,7 @@ SurfaceFormat
 :
 B8G8R8X8
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -9952,7 +9952,7 @@ surf
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

@@ -2372,10 +2372,7 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 nsTArray
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

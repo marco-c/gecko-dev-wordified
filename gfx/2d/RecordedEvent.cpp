@@ -2020,7 +2020,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2154,7 +2154,7 @@ GetSize
 mSize
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2276,7 +2276,7 @@ if
 mHasExistingData
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -5683,7 +5683,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -5837,7 +5837,7 @@ break
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -6325,7 +6325,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6688,7 +6688,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -6938,7 +6938,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 GradientStops
 >
@@ -7226,7 +7226,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -7375,7 +7375,7 @@ aTranslator
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ScaledFont
 >

@@ -428,7 +428,7 @@ LOCAL_EGL_DXGI_KEYED_MUTEX_ANGLE
 opaqueKeyedMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -553,7 +553,7 @@ pbuffer
 HANDLE
 shareHandle
 const
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -884,7 +884,7 @@ if
 mConsumerTexture
 )
 {
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -923,7 +923,7 @@ ID3D11Texture2D
 *
 *
 )
-byRef
+getter_AddRefs
 (
 tex
 )
@@ -941,7 +941,7 @@ mConsumerTexture
 =
 tex
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -959,7 +959,7 @@ IDXGIKeyedMutex
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mutex
 )
@@ -1273,7 +1273,7 @@ IDXGIKeyedMutex
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mMutex
 )
@@ -1352,7 +1352,7 @@ device
 >
 GetImmediateContext
 (
-byRef
+getter_AddRefs
 (
 mDeviceContext
 )
@@ -1401,7 +1401,7 @@ CreateTexture2D
 &
 mDesc
 nullptr
-byRef
+getter_AddRefs
 (
 mCopiedTexture
 )
@@ -1522,25 +1522,25 @@ false
 bool
 mIsLocked
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
 mTexture
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
 mCopiedTexture
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
 mMutex
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11DeviceContext
 >
@@ -1573,7 +1573,7 @@ MOZ_ASSERT
 out_surface
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -1618,7 +1618,7 @@ ID3D11Texture2D
 *
 *
 )
-byRef
+getter_AddRefs
 (
 tex
 )
@@ -2078,7 +2078,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2189,7 +2189,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

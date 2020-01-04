@@ -744,7 +744,7 @@ MOZ_ASSERT
 pool
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedThreadPool
 >

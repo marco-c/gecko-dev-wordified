@@ -92,7 +92,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -679,13 +679,13 @@ nsBaseWidget
 struct
 LayerManagerData
 {
-RefPtr
+nsRefPtr
 <
 MockWidget
 >
 mWidget
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >
@@ -747,7 +747,7 @@ GetSingleton
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >
@@ -992,7 +992,7 @@ aBackends
 i
 ]
 ;
-RefPtr
+nsRefPtr
 <
 MockWidget
 >
@@ -1003,7 +1003,7 @@ MockWidget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >
@@ -1190,7 +1190,7 @@ DrawTarget
 refDT
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1228,7 +1228,7 @@ Now
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1241,7 +1241,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1265,7 +1265,7 @@ GetData
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1278,7 +1278,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1808,7 +1808,7 @@ GetBounds
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

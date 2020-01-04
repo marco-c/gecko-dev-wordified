@@ -274,7 +274,7 @@ this
 xlib
 draw
 target
-RefPtr
+nsRefPtr
 <
 mozilla
 :

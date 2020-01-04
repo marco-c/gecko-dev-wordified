@@ -2110,7 +2110,7 @@ D2D1_RECT_F
 aRect
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -2125,7 +2125,7 @@ CreateRectangleGeometry
 (
 &
 aRect
-byRef
+getter_AddRefs
 (
 rectGeom
 )
@@ -2156,7 +2156,7 @@ D2D1_MATRIX_3X2_F
 aTransform
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -2169,13 +2169,13 @@ D2DFactory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 tmpGeometry
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -2186,7 +2186,7 @@ tmpGeometry
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 currentSink
 )
@@ -2233,7 +2233,7 @@ ID2D1Geometry
 aGeometryB
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -2246,13 +2246,13 @@ D2DFactory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 pathGeom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -2263,7 +2263,7 @@ pathGeom
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -2309,7 +2309,7 @@ StrokeOptions
 aStrokeOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2645,7 +2645,7 @@ dash
 size
 (
 )
-byRef
+getter_AddRefs
 (
 style
 )
@@ -2678,7 +2678,7 @@ mMiterLimit
 )
 nullptr
 0
-byRef
+getter_AddRefs
 (
 style
 )
@@ -2787,7 +2787,7 @@ aSourceRect
 nullptr
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -3559,7 +3559,7 @@ GetFormat
 )
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -3988,7 +3988,7 @@ GetFormat
 )
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )

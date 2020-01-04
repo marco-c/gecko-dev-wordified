@@ -381,7 +381,7 @@ false
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 EGLImageImage
 >
@@ -589,7 +589,7 @@ false
 protected
 :
 const
-RefPtr
+nsRefPtr
 <
 gl
 :

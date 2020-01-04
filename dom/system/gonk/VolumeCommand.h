@@ -81,7 +81,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1254,7 +1254,7 @@ command
 is
 received
 .
-RefPtr
+nsRefPtr
 <
 VolumeResponseCallback
 >
@@ -1290,7 +1290,7 @@ aCallback
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Volume
 >

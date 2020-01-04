@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -713,7 +713,7 @@ in
 active
 thread
 .
-RefPtr
+nsRefPtr
 <
 gl
 :
@@ -874,7 +874,7 @@ CopyFromTextureClient
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

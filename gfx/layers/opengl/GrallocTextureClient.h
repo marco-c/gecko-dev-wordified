@@ -705,7 +705,7 @@ GrallocBufferActor
 MaybeMagicGrallocBufferHandle
 mGrallocHandle
 ;
-RefPtr
+nsRefPtr
 <
 AsyncTransactionWaiter
 >
@@ -758,7 +758,7 @@ uint8_t
 *
 mMappedBuffer
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

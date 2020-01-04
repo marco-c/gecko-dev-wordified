@@ -867,10 +867,7 @@ ThreadProfile
 *
 mPrimaryThreadProfile
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >

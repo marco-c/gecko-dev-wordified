@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1243,7 +1243,7 @@ track_id
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1276,7 +1276,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1393,7 +1393,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1691,7 +1691,7 @@ side
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1784,7 +1784,7 @@ i
 ;
 }
 return
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1793,7 +1793,7 @@ nullptr
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1817,7 +1817,7 @@ index
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -9123,7 +9123,7 @@ GetTrackPairsByLevel
 mSessionAns
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -9724,7 +9724,7 @@ GetTrackPairsByLevel
 mSessionAns
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -10325,7 +10325,7 @@ GetTrackPairsByLevel
 mSessionAns
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -10368,7 +10368,7 @@ GetTrackId
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -11083,7 +11083,7 @@ OfferAnswer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -11122,7 +11122,7 @@ GetTrackId
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -11565,7 +11565,7 @@ GetTrackPairsByLevel
 mSessionAns
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -11616,7 +11616,7 @@ of
 the
 same
 type
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -12341,7 +12341,7 @@ GetTrackPairsByLevel
 mSessionAns
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -12384,7 +12384,7 @@ GetTrackId
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -19342,7 +19342,7 @@ JsepSessionTest
 CreateOfferNoDatachannelDefault
 )
 {
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -19371,7 +19371,7 @@ AddTrack
 msta
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -19505,7 +19505,7 @@ SdpMediaSection
 kVideo
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -19534,7 +19534,7 @@ AddTrack
 msta
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -20396,7 +20396,7 @@ SdpMediaSection
 kVideo
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -20425,7 +20425,7 @@ AddTrack
 msta
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -20474,7 +20474,7 @@ SetRemoteOffer
 offer
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -20503,7 +20503,7 @@ AddTrack
 msta
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -21617,7 +21617,7 @@ front
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -24972,7 +24972,7 @@ size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -26917,7 +26917,7 @@ activeTransportCount
 ;
 for
 (
-RefPtr
+nsRefPtr
 <
 JsepTransport
 >

@@ -550,7 +550,7 @@ originalIF
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

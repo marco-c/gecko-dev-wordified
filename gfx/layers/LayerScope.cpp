@@ -5316,7 +5316,7 @@ tracking
 in
 DebugGLTextureData
 .
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

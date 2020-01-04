@@ -162,10 +162,7 @@ stack
 nullptr
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >
@@ -235,10 +232,7 @@ stack
 nullptr
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >
@@ -366,10 +360,7 @@ stack
 nullptr
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >
@@ -574,10 +565,7 @@ stack
 nullptr
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 ProfileBuffer
 >

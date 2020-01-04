@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -697,7 +697,7 @@ uint32_t
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

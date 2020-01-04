@@ -151,7 +151,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1765,7 +1765,7 @@ GLContext
 >
 mGLContext
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2089,7 +2089,7 @@ cross
 tile
 updates
 .
-RefPtr
+nsRefPtr
 <
 gfx
 :

@@ -112,7 +112,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -247,7 +247,7 @@ size
 bool
 inSameProcess
 const
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -255,7 +255,7 @@ gfxXlibSurface
 xlibSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -289,7 +289,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -336,7 +336,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

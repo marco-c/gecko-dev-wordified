@@ -180,7 +180,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2207,7 +2207,7 @@ backwards
 compatible
 results
 ?
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2225,7 +2225,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2411,7 +2411,7 @@ userToOuterSVG
 *
 point
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -3669,7 +3669,7 @@ more
 expensive
 )
 :
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3819,7 +3819,7 @@ StyleSVG
 mFillRule
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3845,7 +3845,7 @@ return
 bbox
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3867,7 +3867,7 @@ pathInUserSpace
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -4387,7 +4387,7 @@ aToBBoxUserspace
 *
 outerSVGToUser
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -4404,7 +4404,7 @@ userToOuterSVG
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -5364,7 +5364,7 @@ creation
 overhead
 anyway
 .
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -5438,7 +5438,7 @@ nsSVGPathGeometryElement
 SimplePath
 simplePath
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -5758,7 +5758,7 @@ Multiply
 outerSVGToUser
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

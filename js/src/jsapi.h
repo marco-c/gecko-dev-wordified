@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -38868,10 +38868,7 @@ Refcounting
 For
 use
 with
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 .
 void
 AddRef
@@ -39354,10 +39351,7 @@ call
 to
 unlink
 .
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -39366,10 +39360,7 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :

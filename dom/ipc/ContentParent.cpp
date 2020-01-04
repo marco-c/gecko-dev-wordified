@@ -15912,10 +15912,7 @@ get_nsCString
 (
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 gfx
 :

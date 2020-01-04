@@ -2002,7 +2002,7 @@ waitFlag
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsHTTPDownloadEvent
 >
@@ -2363,7 +2363,7 @@ request_canceled
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsCancelHTTPDownloadEvent
 >
@@ -4032,7 +4032,7 @@ void
 arg
 )
 {
-RefPtr
+nsRefPtr
 <
 PK11PasswordPromptRunnable
 >
@@ -4184,7 +4184,7 @@ Status
 information
 *
 /
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -6741,7 +6741,7 @@ Status
 information
 *
 /
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -6831,7 +6831,7 @@ fd
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >
