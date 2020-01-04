@@ -203,7 +203,7 @@ JSGC_MODE_GLOBAL
 Perform
 per
 -
-compartment
+zone
 GCs
 until
 too
@@ -214,7 +214,7 @@ accumulated
 .
 *
 /
-JSGC_MODE_COMPARTMENT
+JSGC_MODE_ZONE
 =
 1
 /
@@ -234,7 +234,7 @@ once
 .
 Implies
 *
-JSGC_MODE_COMPARTMENT
+JSGC_MODE_ZONE
 .
 *
 /
@@ -2041,7 +2041,7 @@ GCDescription
 )
 {
 bool
-isCompartment_
+isZone_
 ;
 JSGCInvocationKind
 invocationKind_
@@ -2055,7 +2055,7 @@ reason_
 GCDescription
 (
 bool
-isCompartment
+isZone
 JSGCInvocationKind
 kind
 gcreason
@@ -2065,9 +2065,9 @@ Reason
 reason
 )
 :
-isCompartment_
+isZone_
 (
-isCompartment
+isZone
 )
 invocationKind_
 (

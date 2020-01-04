@@ -6542,7 +6542,7 @@ runtime
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_IS_COMPARTMENTAL
+JS_TELEMETRY_GC_IS_ZONE_GC
 !
 zoneStats
 .

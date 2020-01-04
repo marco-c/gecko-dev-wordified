@@ -57,7 +57,7 @@ atoms
 gc
 (
 '
-compartment
+zone
 '
 )
 ;
