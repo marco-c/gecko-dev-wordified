@@ -22314,7 +22314,9 @@ ES
 .
 1
 .
-14
+1
+.
+4
 .
 15
 CanDeclareGlobalVar
@@ -22325,7 +22327,9 @@ ES
 .
 1
 .
-14
+1
+.
+4
 .
 16
 CanDeclareGlobalFunction
