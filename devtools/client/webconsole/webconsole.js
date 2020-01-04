@@ -7181,6 +7181,12 @@ string
 ;
 }
 }
+this
+.
+resize
+(
+)
+;
 }
 /
 *
