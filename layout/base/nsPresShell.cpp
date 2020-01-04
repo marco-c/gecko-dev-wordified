@@ -1547,6 +1547,14 @@ mozilla
 :
 layout
 ;
+using
+PaintFrameFlags
+=
+nsLayoutUtils
+:
+:
+PaintFrameFlags
+;
 CapturingContentInfo
 nsIPresShell
 :
@@ -27566,10 +27574,10 @@ wouldFlushRetainedLayers
 =
 false
 ;
-uint32_t
+PaintFrameFlags
 flags
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_IGNORE_SUPPRESSION
@@ -27591,7 +27599,7 @@ HasNonIntegerTranslation
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_IN_TRANSFORM
@@ -27610,7 +27618,7 @@ RENDER_ASYNC_DECODE_IMAGES
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_SYNC_DECODE_IMAGES
@@ -27730,7 +27738,7 @@ XRE_IsParentProcess
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_WIDGET_LAYERS
@@ -27755,7 +27763,7 @@ true
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_HIDE_CARET
@@ -27870,7 +27878,7 @@ true
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_DOCUMENT_RELATIVE
@@ -27894,7 +27902,7 @@ if
 (
 flags
 &
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_WIDGET_LAYERS
@@ -27908,7 +27916,7 @@ flags
 &
 =
 ~
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_WIDGET_LAYERS
@@ -38382,15 +38390,15 @@ ComputeBackstopColor
 aViewToPaint
 )
 ;
-uint32_t
+PaintFrameFlags
 flags
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_WIDGET_LAYERS
 |
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_EXISTING_TRANSACTION
@@ -38408,7 +38416,7 @@ PAINT_COMPOSITE
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_NO_COMPOSITE
@@ -38424,7 +38432,7 @@ PAINT_SYNC_DECODE_IMAGES
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_SYNC_DECODE_IMAGES
@@ -38438,7 +38446,7 @@ mNextPaintCompressed
 flags
 |
 =
-nsLayoutUtils
+PaintFrameFlags
 :
 :
 PAINT_COMPRESSED

@@ -3771,7 +3771,6 @@ nsDisplayListBuilderMode
 :
 :
 GENERATE_GLYPH
-0
 )
 ;
 ctx

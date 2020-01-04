@@ -5284,6 +5284,9 @@ PAINTING
 nsLayoutUtils
 :
 :
+PaintFrameFlags
+:
+:
 PAINT_SYNC_DECODE_IMAGES
 )
 ;
