@@ -196,7 +196,7 @@ aDevice
 }
 already_AddRefed
 <
-TextureClient
+TextureClientD3D11
 >
 CreateOrRecycleClient
 (
@@ -416,7 +416,7 @@ mPictureRect
 ;
 RefPtr
 <
-TextureClient
+TextureClientD3D11
 >
 mTextureClient
 ;
