@@ -1022,6 +1022,14 @@ getStoreState
 )
 .
 used
+&
+&
+!
+this
+.
+_storeState
+.
+showFeedbackForm
 )
 {
 this
