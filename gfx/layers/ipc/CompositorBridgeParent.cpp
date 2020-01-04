@@ -6525,6 +6525,14 @@ GetOpacity
 )
 )
 ;
+layerComposite
+-
+>
+SetShadowOpacitySetByAnimation
+(
+false
+)
+;
 }
 )
 ;
