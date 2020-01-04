@@ -29443,7 +29443,7 @@ eIMEConvertedClause
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 }
 ;
 for

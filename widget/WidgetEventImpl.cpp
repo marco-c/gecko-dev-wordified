@@ -751,7 +751,7 @@ return
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 ;
 default
 :
