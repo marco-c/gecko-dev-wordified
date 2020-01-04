@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIDOMXMLDocument
+.
+h
+"
+#
+include
+"
 nsIDOMXULElement
 .
 h
