@@ -6015,9 +6015,7 @@ outlineStyle
 ourOutline
 -
 >
-GetOutlineStyle
-(
-)
+mOutlineStyle
 ;
 nscoord
 width
