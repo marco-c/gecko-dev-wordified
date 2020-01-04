@@ -3354,7 +3354,7 @@ resId
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }
@@ -6343,7 +6343,7 @@ set_image_path_fail
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 return
@@ -6387,7 +6387,7 @@ set_image_path_fail
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 return
@@ -6521,7 +6521,7 @@ set_image_fail
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

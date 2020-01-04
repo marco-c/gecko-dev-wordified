@@ -639,7 +639,7 @@ pref_search_last_toast
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 return
