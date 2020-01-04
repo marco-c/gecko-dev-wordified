@@ -1642,7 +1642,6 @@ password
 function
 SortTree
 (
-tree
 column
 ascending
 )
@@ -1682,7 +1681,6 @@ selections
 =
 GetTreeSelections
 (
-tree
 )
 ;
 let
@@ -1976,7 +1974,7 @@ trigger
 Selected
 (
 )
-tree
+signonsTree
 .
 view
 .
@@ -1988,7 +1986,7 @@ select
 1
 )
 ;
-tree
+signonsTree
 .
 view
 .
@@ -2013,7 +2011,7 @@ break
 display
 the
 results
-tree
+signonsTree
 .
 treeBoxObject
 .
@@ -2029,7 +2027,7 @@ selectedRow
 0
 )
 {
-tree
+signonsTree
 .
 treeBoxObject
 .
@@ -2240,7 +2238,6 @@ true
 function
 GetTreeSelections
 (
-tree
 )
 {
 let
@@ -2252,7 +2249,7 @@ selections
 let
 select
 =
-tree
+signonsTree
 .
 view
 .
@@ -2370,7 +2367,6 @@ selections
 =
 GetTreeSelections
 (
-signonsTree
 )
 ;
 if
@@ -2493,7 +2489,6 @@ selections
 =
 GetTreeSelections
 (
-tree
 )
 ;
 for
@@ -2881,11 +2876,6 @@ length
 )
 ;
 let
-tree
-=
-signonsTree
-;
-let
 view
 =
 signonsTreeView
@@ -2982,7 +2972,7 @@ rowCount
 let
 box
 =
-tree
+signonsTree
 .
 treeBoxObject
 ;
@@ -3662,7 +3652,6 @@ column
 ;
 SortTree
 (
-signonsTree
 lastSignonSortColumn
 lastSignonSortAscending
 )
