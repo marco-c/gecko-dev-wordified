@@ -1725,7 +1725,7 @@ properties
 BluetoothAddress
 mBdAddress
 ;
-nsString
+BluetoothRemoteName
 mBdName
 ;
 bool
@@ -1872,7 +1872,7 @@ devices
 nsDataHashtable
 <
 BluetoothAddressHashKey
-nsString
+BluetoothRemoteName
 >
 mDeviceNameMap
 ;

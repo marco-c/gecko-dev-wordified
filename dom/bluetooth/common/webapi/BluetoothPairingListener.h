@@ -177,7 +177,7 @@ void
 DispatchPairingEvent
 (
 const
-nsAString
+BluetoothRemoteName
 &
 aName
 const
