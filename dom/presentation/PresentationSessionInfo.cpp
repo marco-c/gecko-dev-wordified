@@ -1436,6 +1436,7 @@ get
 UntrackSessionInfo
 (
 mSessionId
+mRole
 )
 ;
 return
@@ -4052,6 +4053,7 @@ get
 UntrackSessionInfo
 (
 mSessionId
+mRole
 )
 ;
 return
