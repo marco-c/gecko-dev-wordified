@@ -318,9 +318,6 @@ class
 UnownedBaseShape
 ;
 class
-WasmInstanceObject
-;
-class
 WasmMemoryObject
 ;
 namespace

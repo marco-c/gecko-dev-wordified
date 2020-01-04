@@ -4257,6 +4257,7 @@ Instance
 >
 (
 cx
+instanceObj
 Move
 (
 code
