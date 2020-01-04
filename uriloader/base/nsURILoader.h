@@ -290,8 +290,7 @@ m_listeners
 *
 *
 *
-NSPR
-logging
+Logging
 .
 The
 module
@@ -303,8 +302,10 @@ URILoader
 *
 /
 static
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 mLog
 ;
 friend

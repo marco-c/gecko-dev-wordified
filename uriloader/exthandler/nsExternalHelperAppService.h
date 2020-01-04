@@ -955,8 +955,10 @@ messages
 *
 /
 static
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 mLog
 ;
 /
