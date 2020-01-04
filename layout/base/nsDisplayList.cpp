@@ -3044,12 +3044,9 @@ sampleFn
 =
 ToTimingFunction
 (
-Some
-(
 segment
 .
 mTimingFunction
-)
 )
 ;
 }

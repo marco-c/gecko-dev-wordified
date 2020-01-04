@@ -719,7 +719,10 @@ StyleAnimationValue
 mFromValue
 mToValue
 ;
+Maybe
+<
 ComputedTimingFunction
+>
 mTimingFunction
 ;
 bool
