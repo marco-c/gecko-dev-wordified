@@ -408,6 +408,11 @@ for
 ORTGoodOtherCert
 etc
 .
+const
+char
+*
+mServerCertName
+;
 }
 ;
 SECItemArray
