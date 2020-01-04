@@ -1722,7 +1722,7 @@ document
 createEvent
 (
 "
-DragEvents
+DragEvent
 "
 )
 ;

@@ -1385,7 +1385,7 @@ document
 createEvent
 (
 "
-DragEvents
+DragEvent
 "
 )
 ;

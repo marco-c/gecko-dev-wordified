@@ -173,7 +173,7 @@ document
 createEvent
 (
 "
-DragEvents
+DragEvent
 "
 )
 ;
