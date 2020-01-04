@@ -1472,10 +1472,12 @@ bogus
 "
 steps
 "
-a
-basic
 install
-works
+of
+a
+bad
+url
+fails
 "
 )
 ;

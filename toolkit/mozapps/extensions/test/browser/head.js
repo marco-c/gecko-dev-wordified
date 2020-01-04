@@ -7479,9 +7479,15 @@ this
 .
 operationsRequiringRestart
 =
+(
 aOperationsRequiringRestart
-|
-|
+!
+=
+undefined
+)
+?
+aOperationsRequiringRestart
+:
 (
 AddonManager
 .
