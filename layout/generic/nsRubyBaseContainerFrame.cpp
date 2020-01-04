@@ -2067,7 +2067,7 @@ struct
 nsRubyBaseContainerFrame
 :
 :
-ReflowState
+RubyReflowInput
 {
 bool
 mAllowInitialLineBreak
@@ -2704,7 +2704,7 @@ columns
 excluding
 any
 span
-ReflowState
+RubyReflowInput
 reflowState
 =
 {
@@ -2898,7 +2898,7 @@ hasSpan
 /
 Reflow
 spans
-ReflowState
+RubyReflowInput
 reflowState
 =
 {
@@ -3235,7 +3235,7 @@ nsRubyBaseContainerFrame
 ReflowColumns
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -4033,7 +4033,7 @@ nsRubyBaseContainerFrame
 ReflowOneColumn
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 uint32_t
@@ -5715,7 +5715,7 @@ nsRubyBaseContainerFrame
 ReflowSpans
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 )

@@ -379,13 +379,13 @@ aContext
 {
 }
 struct
-ReflowState
+RubyReflowInput
 ;
 nscoord
 ReflowColumns
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -397,7 +397,7 @@ nscoord
 ReflowOneColumn
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 uint32_t
@@ -418,7 +418,7 @@ nscoord
 ReflowSpans
 (
 const
-ReflowState
+RubyReflowInput
 &
 aReflowState
 )
