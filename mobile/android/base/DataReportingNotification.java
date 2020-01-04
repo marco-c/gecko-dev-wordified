@@ -520,7 +520,7 @@ version
 .
 *
 /
-private
+public
 static
 void
 notifyDataPolicy
