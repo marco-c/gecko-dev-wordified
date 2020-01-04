@@ -200,7 +200,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 ASSERT_TRUE

@@ -3081,9 +3081,6 @@ JS
 :
 AutoSuppressGCAnalysis
 nogc
-(
-rt
-)
 ;
 rt
 -

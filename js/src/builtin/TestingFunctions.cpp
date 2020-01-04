@@ -17665,11 +17665,6 @@ AutoCheckCannotGC
 noGC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JS
