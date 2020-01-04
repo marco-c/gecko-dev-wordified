@@ -35084,9 +35084,6 @@ locale
 -
 dir
 and
--
-moz
--
 dir
 take
 an
@@ -35130,6 +35127,15 @@ CSSPseudoClassType
 :
 :
 mozLocaleDir
+|
+|
+aType
+=
+=
+CSSPseudoClassType
+:
+:
+mozDir
 |
 |
 aType

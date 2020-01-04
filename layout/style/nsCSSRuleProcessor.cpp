@@ -12547,6 +12547,12 @@ case
 CSSPseudoClassType
 :
 :
+mozDir
+:
+case
+CSSPseudoClassType
+:
+:
 dir
 :
 {
@@ -12637,9 +12643,6 @@ the
 possibility
 that
 neither
--
-moz
--
 dir
 (
 rtl
@@ -12647,9 +12650,6 @@ rtl
 nor
 /
 /
--
-moz
--
 dir
 (
 ltr
