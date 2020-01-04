@@ -297,6 +297,12 @@ Tooltool
 related
     
 "
+download_tooltool
+"
+:
+True
+    
+"
 tooltool_cache
 "
 :
