@@ -2888,6 +2888,14 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+IsShutdown
+(
+)
+)
+;
 /
 /
 Per
