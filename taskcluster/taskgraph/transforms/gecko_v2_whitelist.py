@@ -514,6 +514,16 @@ debug
 '
 sm
 -
+mozjs
+-
+sys
+-
+debug
+'
+    
+'
+sm
+-
 msan
 -
 opt
