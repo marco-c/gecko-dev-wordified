@@ -146,6 +146,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ChromeUtilsBinding
@@ -340,6 +349,7 @@ aStr
 )
 const
 ;
+MOZ_MUST_USE
 bool
 PopulateFromSuffix
 (
@@ -379,6 +389,7 @@ without
 the
 suffix
 .
+MOZ_MUST_USE
 bool
 PopulateFromOrigin
 (
