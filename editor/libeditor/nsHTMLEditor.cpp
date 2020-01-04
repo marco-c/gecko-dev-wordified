@@ -2821,6 +2821,8 @@ curOffset
 =
 0
 selOffset
+=
+0
 ;
 while
 (

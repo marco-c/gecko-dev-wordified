@@ -8324,6 +8324,8 @@ AsDOMNode
 }
 nsresult
 result
+=
+NS_OK
 ;
 RefPtr
 <
