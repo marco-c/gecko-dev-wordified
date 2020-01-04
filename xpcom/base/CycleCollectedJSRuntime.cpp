@@ -1585,6 +1585,7 @@ kdelegate
 ;
 if
 (
+!
 aValue
 .
 is
