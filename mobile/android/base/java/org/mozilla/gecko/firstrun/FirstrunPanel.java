@@ -262,7 +262,7 @@ R
 .
 layout
 .
-firstrun_basepanel_fragment
+firstrun_basepanel_checkable_fragment
 container
 false
 )
