@@ -141,17 +141,6 @@ to
 nonvisible
 .
 *
-*
-IPC
-serializers
-are
-available
-in
-VisibilityIPC
-.
-h
-.
-*
 /
 #
 ifndef

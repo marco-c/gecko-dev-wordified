@@ -4665,7 +4665,7 @@ bool
 CompositorBridgeChild
 :
 :
-SendClearVisibleRegions
+SendClearApproximatelyVisibleRegions
 (
 uint64_t
 aLayersId
@@ -4692,7 +4692,7 @@ return
 PCompositorBridgeChild
 :
 :
-SendClearVisibleRegions
+SendClearApproximatelyVisibleRegions
 (
 aLayersId
 aPresShellId
@@ -4703,10 +4703,8 @@ bool
 CompositorBridgeChild
 :
 :
-SendUpdateVisibleRegion
+SendNotifyApproximatelyVisibleRegion
 (
-VisibilityCounter
-aCounter
 const
 ScrollableLayerGuid
 &
@@ -4736,9 +4734,8 @@ return
 PCompositorBridgeChild
 :
 :
-SendUpdateVisibleRegion
+SendNotifyApproximatelyVisibleRegion
 (
-aCounter
 aGuid
 aRegion
 )
