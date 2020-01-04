@@ -1488,7 +1488,7 @@ this
 *
 /
 static
-PRInt32
+int32_t
 busy_beaver_PR_Read
 (
 PRFileDesc
@@ -1497,14 +1497,14 @@ fd
 void
 *
 start
-PRInt32
+int32_t
 len
 )
 {
 int
 n
 ;
-PRInt32
+int32_t
 remaining
 =
 len

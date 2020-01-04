@@ -2827,7 +2827,7 @@ above
 if
 exists
 .
-PRUint32
+uint32_t
 permissions
 ;
 rv

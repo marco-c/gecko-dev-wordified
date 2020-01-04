@@ -223,9 +223,9 @@ const
 char
 *
 filePath
-PRIntn
+int
 flags
-PRIntn
+int
 mode
 PRFileMapProtect
 prot
