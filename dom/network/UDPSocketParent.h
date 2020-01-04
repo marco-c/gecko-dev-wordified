@@ -269,6 +269,10 @@ const
 uint32_t
 &
 recvBufferSize
+const
+uint32_t
+&
+sendBufferSize
 )
 override
 ;
@@ -469,6 +473,10 @@ const
 uint32_t
 &
 recvBufferSize
+const
+uint32_t
+&
+sendBufferSize
 )
 ;
 nsresult
