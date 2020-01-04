@@ -8674,17 +8674,6 @@ Matrix4x4
 )
 )
 ;
-program
--
->
-SetYUVColorSpace
-(
-effectYCbCr
--
->
-mYUVColorSpace
-)
-;
 if
 (
 maskType

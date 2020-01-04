@@ -232,12 +232,6 @@ CBvColor
 =
 0
 ;
-const
-int
-CBmYuvColorMatrix
-=
-1
-;
 enum
 DeviceManagerState
 {
