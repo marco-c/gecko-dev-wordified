@@ -3739,6 +3739,13 @@ override
 ;
 virtual
 void
+UnbindTextureSource
+(
+)
+override
+;
+virtual
+void
 DeallocateDeviceData
 (
 )
