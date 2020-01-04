@@ -4140,7 +4140,7 @@ template
 arguments
 .
 *
-MOZ_IGNORE_INITIALIZATION
+MOZ_INIT_OUTSIDE_CTOR
 :
 Applies
 to
@@ -4161,9 +4161,9 @@ initialized
 in
 the
 constructor
+*
 but
 logic
-*
 elsewhere
 in
 the
@@ -4176,9 +4176,9 @@ prior
 to
 use
 .
+*
 Using
 this
-*
 attribute
 on
 a
@@ -4191,8 +4191,8 @@ this
 member
 must
 be
-initialized
 *
+initialized
 in
 constructors
 via
@@ -4203,10 +4203,10 @@ in
 the
 constructor
 body
+*
 or
 via
 functions
-*
 called
 from
 the
@@ -4597,7 +4597,7 @@ moz_non_autoable
 )
 #
 define
-MOZ_INITIALIZED_OUTSIDE_CONSTRUCTOR
+MOZ_INIT_OUTSIDE_CTOR
 \
 __attribute__
 (
@@ -4878,7 +4878,7 @@ nothing
 /
 #
 define
-MOZ_INITIALIZED_OUTSIDE_CONSTRUCTOR
+MOZ_INIT_OUTSIDE_CTOR
 /
 *
 nothing
