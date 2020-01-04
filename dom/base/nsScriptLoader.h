@@ -3205,6 +3205,14 @@ nsModuleLoadRequest
 aRequest
 )
 ;
+bool
+InstantiateModuleTree
+(
+nsModuleLoadRequest
+*
+aRequest
+)
+;
 void
 StartFetchingModuleDependencies
 (
