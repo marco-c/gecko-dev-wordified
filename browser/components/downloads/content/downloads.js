@@ -5617,6 +5617,14 @@ hasdownloads
 )
 ;
 }
+DownloadsBlockedSubview
+.
+view
+.
+setHeightToFit
+(
+)
+;
 /
 /
 If
