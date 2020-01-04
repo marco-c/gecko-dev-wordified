@@ -19410,6 +19410,7 @@ floating
 types
 and
 Uint8Clamped
+.
 return
 false
 ;
