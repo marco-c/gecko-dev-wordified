@@ -5055,7 +5055,7 @@ urlbar
 .
 maxRichResults
 "
-10
+12
 )
 ;
 /
