@@ -174,7 +174,8 @@ x
 }
 [
 "
-get
+getx
+.
 x
 "
 ]
@@ -223,7 +224,8 @@ glerk
 }
 [
 "
-set
+sety
+.
 y
 "
 ]
