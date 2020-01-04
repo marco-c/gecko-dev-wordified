@@ -240,6 +240,15 @@ i
 !
 =
 selected
+&
+&
+!
+tabs
+[
+i
+]
+.
+playingAudio
 )
 {
 this
