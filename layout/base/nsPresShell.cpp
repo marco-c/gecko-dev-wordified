@@ -17112,7 +17112,10 @@ PostRestyleEvent
 (
 aElement
 aHint
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 )
 ;
 }
@@ -25183,7 +25186,10 @@ GetRootElement
 (
 )
 eRestyle_Subtree
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 )
 ;
 VERIFY_STYLE_TREE
@@ -26735,7 +26741,10 @@ PostRestyleEvent
 (
 root
 eRestyle_Subtree
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 )
 ;
 }
@@ -26757,7 +26766,10 @@ PostRestyleEvent
 (
 scopeRoot
 eRestyle_Subtree
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 )
 ;
 }

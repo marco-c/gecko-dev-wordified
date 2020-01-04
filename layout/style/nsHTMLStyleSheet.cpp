@@ -2963,7 +2963,10 @@ PostRestyleEvent
 (
 root
 eRestyle_Subtree
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 )
 ;
 }
