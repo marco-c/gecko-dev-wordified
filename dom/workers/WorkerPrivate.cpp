@@ -2971,9 +2971,6 @@ increase
 from
 NotifyRunnable
 .
-if
-(
-!
 aWorkerPrivate
 -
 >
@@ -2982,14 +2979,7 @@ ModifyBusyCountFromWorker
 aCx
 false
 )
-)
-{
-JS_ReportPendingException
-(
-aCx
-)
 ;
-}
 aWorkerPrivate
 -
 >
