@@ -326,6 +326,7 @@ Extension
 RemoveTopWindowID
 "
 this
+true
 )
 ;
 }
