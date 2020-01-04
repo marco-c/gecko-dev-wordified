@@ -56,8 +56,13 @@ Task
 .
 spawn
 (
+runTests
+)
+;
+}
 function
 *
+runTests
 (
 )
 {
@@ -307,9 +312,6 @@ yield
 resumeDebuggerThenCloseAndFinish
 (
 panel
-)
-;
-}
 )
 ;
 }
