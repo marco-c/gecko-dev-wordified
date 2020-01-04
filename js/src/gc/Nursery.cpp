@@ -3807,7 +3807,7 @@ oomUnsafeRegion
 size_t
 initialNurserySize
 =
-nurserySize
+spaceToEnd
 (
 )
 ;
