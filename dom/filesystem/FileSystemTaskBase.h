@@ -1480,10 +1480,7 @@ GetRequestParams
 const
 nsString
 &
-aSerializedDOMPath
-ErrorResult
-&
-aRv
+aFileSystem
 )
 const
 =
@@ -1539,9 +1536,6 @@ virtual
 FileSystemResponseValue
 GetSuccessRequestResult
 (
-ErrorResult
-&
-aRv
 )
 const
 =
@@ -1604,9 +1598,6 @@ const
 FileSystemResponseValue
 &
 aValue
-ErrorResult
-&
-aRv
 )
 =
 0
