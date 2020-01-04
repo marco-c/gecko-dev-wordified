@@ -394,6 +394,16 @@ ProcessConnectionWentAway
 (
 )
 ;
+nsresult
+AddIntoLoadGroup
+(
+)
+;
+nsresult
+RemoveFromLoadGroup
+(
+)
+;
 nsString
 mId
 ;
