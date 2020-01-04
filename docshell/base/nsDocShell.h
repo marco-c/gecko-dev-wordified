@@ -1468,6 +1468,7 @@ const
 char
 *
 MarkerTracingType
+MarkerStackRequest
 )
 ;
 friend
@@ -1489,6 +1490,7 @@ const
 TimeStamp
 &
 MarkerTracingType
+MarkerStackRequest
 )
 ;
 friend
