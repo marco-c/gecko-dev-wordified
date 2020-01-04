@@ -4116,7 +4116,7 @@ VerifyCertificateContext
 AppTrustedRoot
 trustedRoot
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 ;
@@ -4581,7 +4581,7 @@ detachedDigest
 out
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 )
@@ -4867,7 +4867,7 @@ type
 =
 siBuffer
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv
@@ -5888,7 +5888,7 @@ base64
 encoded
 string
 )
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv
@@ -8552,7 +8552,7 @@ type
 =
 siBuffer
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv

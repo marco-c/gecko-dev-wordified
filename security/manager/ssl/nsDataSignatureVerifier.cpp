@@ -1180,7 +1180,7 @@ nsIX509Cert
 >
 signingCert
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 }

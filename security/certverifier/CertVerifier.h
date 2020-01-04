@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm__CertVerifier_h
+CertVerifier_h
 #
 define
-mozilla_psm__CertVerifier_h
+CertVerifier_h
 #
 include
 "
@@ -427,7 +427,7 @@ hostname
 out
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 Flags
@@ -544,7 +544,7 @@ hostname
 out
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 /
@@ -897,4 +897,4 @@ psm
 endif
 /
 /
-mozilla_psm__CertVerifier_h
+CertVerifier_h

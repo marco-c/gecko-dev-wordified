@@ -1985,7 +1985,7 @@ CertVerifier
 :
 FLAG_LOCAL_ONLY
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 unusedBuiltChain
 ;
 SECStatus
@@ -11522,7 +11522,7 @@ cert
 UniqueSECKEYPrivateKey
 privKey
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 ;
 CERTCertListNode
@@ -11821,7 +11821,9 @@ and
 for
 SSL
 certList
-=
+.
+reset
+(
 CERT_FindUserCertsByUsage
 (
 CERT_GetDefaultCertDB
@@ -11831,6 +11833,7 @@ certUsageSSLClient
 false
 true
 wincx
+)
 )
 ;
 if
@@ -12423,7 +12426,9 @@ in
 this
 list
 certList
-=
+.
+reset
+(
 CERT_FindUserCertsByUsage
 (
 CERT_GetDefaultCertDB
@@ -12433,6 +12438,7 @@ certUsageSSLClient
 false
 false
 wincx
+)
 )
 ;
 if
@@ -12601,10 +12607,6 @@ reset
 getNSSCertNicknamesFromCertList
 (
 certList
-.
-get
-(
-)
 )
 )
 ;

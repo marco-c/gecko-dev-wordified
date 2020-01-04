@@ -5057,8 +5057,7 @@ TransportSecurityInfo
 :
 SetFailedCertChain
 (
-ScopedCERTCertList
-&
+UniqueCERTCertList
 certList
 )
 {
@@ -5076,12 +5075,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCOMPtr
-<
-nsIX509CertList
->
-comCertList
-;
 /
 /
 nsNSSCertList
@@ -5094,7 +5087,10 @@ mFailedCertChain
 new
 nsNSSCertList
 (
+Move
+(
 certList
+)
 lock
 )
 ;

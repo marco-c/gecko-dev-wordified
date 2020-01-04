@@ -372,7 +372,7 @@ CertVerifier
 :
 SHA1Mode
 sha1Mode
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 /
@@ -499,7 +499,8 @@ static
 Result
 FindIssuerInner
 (
-ScopedCERTCertList
+const
+UniqueCERTCertList
 &
 candidates
 bool
@@ -855,7 +856,7 @@ UnsafeMapInputToSECItem
 encodedIssuerName
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 candidates
 (
 CERT_CreateSubjectCertList
@@ -5115,7 +5116,7 @@ IsChainValid
 )
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 ;
 SECStatus
@@ -5619,10 +5620,9 @@ ERROR_KEY_PINNING_FAILURE
 }
 mBuiltChain
 =
-certList
-.
-forget
+Move
 (
+certList
 )
 ;
 return
@@ -7067,7 +7067,7 @@ void
 SaveIntermediateCerts
 (
 const
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certList
 )

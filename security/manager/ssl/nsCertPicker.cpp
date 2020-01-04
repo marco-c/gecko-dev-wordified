@@ -373,7 +373,7 @@ PipUIContext
 (
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 allcerts
 (
 PK11_ListCerts
@@ -413,7 +413,7 @@ this
 list
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 (
 CERT_FindUserCertsByUsage
@@ -635,10 +635,6 @@ nicknames
 getNSSCertNicknamesFromCertList
 (
 certList
-.
-get
-(
-)
 )
 )
 ;

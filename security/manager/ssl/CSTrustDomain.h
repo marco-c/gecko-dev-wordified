@@ -206,7 +206,7 @@ Result
 explicit
 CSTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certChain
 )
@@ -581,7 +581,7 @@ private
 out
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 &
 mCertChain
 ;

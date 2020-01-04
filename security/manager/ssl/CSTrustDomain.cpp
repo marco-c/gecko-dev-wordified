@@ -215,7 +215,7 @@ CSTrustDomain
 :
 CSTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certChain
 )

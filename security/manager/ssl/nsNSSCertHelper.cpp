@@ -71,13 +71,6 @@ algorithm
 #
 include
 "
-ScopedNSSTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Snprintf
@@ -11523,8 +11516,9 @@ CERTCertNicknames
 *
 getNSSCertNicknamesFromCertList
 (
-CERTCertList
-*
+const
+UniqueCERTCertList
+&
 certList
 )
 {
@@ -11638,6 +11632,10 @@ return
 CERT_NicknameStringsFromCertList
 (
 certList
+.
+get
+(
+)
 const_cast
 <
 char

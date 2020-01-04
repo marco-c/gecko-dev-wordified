@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm__NSSCertDBTrustDomain_h
+NSSCertDBTrustDomain_h
 #
 define
-mozilla_psm__NSSCertDBTrustDomain_h
+NSSCertDBTrustDomain_h
 #
 include
 "
@@ -307,7 +307,7 @@ void
 SaveIntermediateCerts
 (
 const
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certList
 )
@@ -390,7 +390,7 @@ CertVerifier
 :
 SHA1Mode
 sha1Mode
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 /
@@ -920,7 +920,7 @@ CertVerifier
 SHA1Mode
 mSHA1Mode
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 &
 mBuiltChain
 ;
@@ -976,4 +976,4 @@ psm
 endif
 /
 /
-mozilla_psm__NSSCertDBTrustDomain_h
+NSSCertDBTrustDomain_h

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm_AppsTrustDomain_h
+AppTrustDomain_h
 #
 define
-mozilla_psm_AppsTrustDomain_h
+AppTrustDomain_h
 #
 include
 "
@@ -201,8 +201,9 @@ Result
 ;
 AppTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
+certChain
 void
 *
 pinArg
@@ -585,7 +586,7 @@ private
 out
 *
 /
-ScopedCERTCertList
+UniqueCERTCertList
 &
 mCertChain
 ;
@@ -640,4 +641,4 @@ psm
 endif
 /
 /
-mozilla_psm_AppsTrustDomain_h
+AppTrustDomain_h
