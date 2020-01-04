@@ -220,12 +220,12 @@ view
 public
 static
 class
-BasicItem
+SectionItem
 extends
 CombinedHistoryItem
 {
 public
-BasicItem
+SectionItem
 (
 View
 view
