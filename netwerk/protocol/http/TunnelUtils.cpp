@@ -2044,10 +2044,17 @@ mFilterReadCode
 ;
 if
 (
+Connection
+(
+)
+&
+&
+(
 mFilterReadCode
 =
 =
 NS_BASE_STREAM_WOULD_BLOCK
+)
 )
 {
 Connection
