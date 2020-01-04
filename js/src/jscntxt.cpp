@@ -3265,6 +3265,12 @@ typeArg
 =
 =
 ArgumentsAreASCII
+|
+|
+typeArg
+=
+=
+ArgumentsAreLatin1
 )
 {
 char

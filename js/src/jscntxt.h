@@ -3460,6 +3460,7 @@ ErrorArgumentsType
 {
 ArgumentsAreUnicode
 ArgumentsAreASCII
+ArgumentsAreLatin1
 }
 ;
 /
