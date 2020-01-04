@@ -1273,7 +1273,7 @@ NS_NATIVE_TMP_WINDOW
 /
 /
 /
-nsIPrintingPrompt
+nsIPrintingPromptService
 /
 /
 -
