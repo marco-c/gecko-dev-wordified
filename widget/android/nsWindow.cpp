@@ -3830,8 +3830,9 @@ mEditable
 mEditable
 -
 >
-OnDestroy
+OnViewChange
 (
+nullptr
 )
 ;
 }
