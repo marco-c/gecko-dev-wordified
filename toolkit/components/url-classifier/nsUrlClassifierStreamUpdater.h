@@ -458,6 +458,9 @@ nsIUrlClassifierCallback
 >
 mDownloadErrorCallback
 ;
+nsCString
+mDownloadErrorMessage
+;
 }
 ;
 #
