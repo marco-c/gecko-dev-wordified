@@ -1780,7 +1780,10 @@ ImageRegion
 :
 Create
 (
+ThebesRect
+(
 imageRect
+)
 )
 mFormat
 aFilter

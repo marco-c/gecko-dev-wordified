@@ -1906,7 +1906,7 @@ TYPE_CANVAS
 {
 layerBounds
 =
-ToRect
+IntRectToRect
 (
 static_cast
 <
@@ -1928,7 +1928,7 @@ else
 {
 layerBounds
 =
-ToRect
+IntRectToRect
 (
 layer
 -
