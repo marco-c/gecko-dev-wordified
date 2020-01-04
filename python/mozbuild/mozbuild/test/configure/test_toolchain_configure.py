@@ -423,6 +423,87 @@ __arm__
 :
 1
 }
+GCC_PLATFORM_LINUX
+=
+{
+    
+'
+__linux__
+'
+:
+1
+}
+GCC_PLATFORM_DARWIN
+=
+{
+    
+'
+__APPLE__
+'
+:
+1
+}
+GCC_PLATFORM_WIN
+=
+{
+    
+'
+_WIN32
+'
+:
+1
+}
+GCC_PLATFORM_X86_LINUX
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86
+GCC_PLATFORM_LINUX
+)
+GCC_PLATFORM_X86_64_LINUX
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86_64
+                                         
+GCC_PLATFORM_LINUX
+)
+GCC_PLATFORM_ARM_LINUX
+=
+FakeCompiler
+(
+GCC_PLATFORM_ARM
+GCC_PLATFORM_LINUX
+)
+GCC_PLATFORM_X86_OSX
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86
+GCC_PLATFORM_DARWIN
+)
+GCC_PLATFORM_X86_64_OSX
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86_64
+                                       
+GCC_PLATFORM_DARWIN
+)
+GCC_PLATFORM_X86_WIN
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86
+GCC_PLATFORM_WIN
+)
+GCC_PLATFORM_X86_64_WIN
+=
+FakeCompiler
+(
+GCC_PLATFORM_X86_64
+GCC_PLATFORM_WIN
+)
 memoize
 def
 CLANG_BASE
@@ -635,7 +716,7 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
 [
 None
 ]
@@ -654,7 +735,7 @@ darwin11
 0
 '
 :
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_OSX
 [
 None
 ]
@@ -671,7 +752,7 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_LINUX
 [
 None
 ]
@@ -690,7 +771,7 @@ darwin11
 0
 '
 :
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_OSX
 [
 None
 ]
@@ -707,7 +788,10 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
+[
+None
+]
     
 }
     
@@ -744,17 +828,41 @@ gcc_platform
 undo_gcc_platform
 base
 )
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_LINUX
 =
 CLANG_PLATFORM
 (
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_LINUX
 )
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
 =
 CLANG_PLATFORM
 (
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
+)
+CLANG_PLATFORM_X86_OSX
+=
+CLANG_PLATFORM
+(
+GCC_PLATFORM_X86_OSX
+)
+CLANG_PLATFORM_X86_64_OSX
+=
+CLANG_PLATFORM
+(
+GCC_PLATFORM_X86_64_OSX
+)
+CLANG_PLATFORM_X86_WIN
+=
+CLANG_PLATFORM
+(
+GCC_PLATFORM_X86_WIN
+)
+CLANG_PLATFORM_X86_64_WIN
+=
+CLANG_PLATFORM
+(
+GCC_PLATFORM_X86_64_WIN
 )
 memoize
 def
@@ -907,6 +1015,12 @@ _M_IX86
 '
 :
 600
+    
+'
+_WIN32
+'
+:
+1
 }
 VS_PLATFORM_X86_64
 =
@@ -917,6 +1031,18 @@ _M_X64
 '
 :
 100
+    
+'
+_WIN32
+'
+:
+1
+    
+'
+_WIN64
+'
+:
+1
 }
 #
 Note
@@ -1546,7 +1672,7 @@ gcc
 :
 GCC_4_9
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1561,7 +1687,7 @@ g
 :
 GXX_4_9
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1578,7 +1704,7 @@ gcc
 :
 GCC_4_7
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1597,7 +1723,7 @@ g
 :
 GXX_4_7
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1612,7 +1738,7 @@ gcc
 :
 GCC_5
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1629,7 +1755,7 @@ g
 :
 GXX_5
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1642,7 +1768,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1657,7 +1783,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1674,7 +1800,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1693,7 +1819,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1710,7 +1836,7 @@ clang
 :
 CLANG_3_3
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
         
 '
 /
@@ -1729,7 +1855,7 @@ clang
 :
 CLANGXX_3_3
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_LINUX
     
 }
     
@@ -4139,7 +4265,7 @@ gcc
 :
 GCC_4_9
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_LINUX
         
 '
 /
@@ -4154,7 +4280,7 @@ g
 :
 GXX_4_9
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_LINUX
         
 '
 /
@@ -4167,7 +4293,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_LINUX
         
 '
 /
@@ -4182,7 +4308,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_LINUX
     
 }
     
@@ -4421,9 +4547,205 @@ darwin11
     
 PATHS
 =
-LinuxToolchainTest
+{
+        
+'
+/
+usr
+/
+bin
+/
+gcc
+'
+:
+GCC_4_9
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+'
+:
+GXX_4_9
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+gcc
+-
+4
 .
-PATHS
+7
+'
+:
+GCC_4_7
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+4
+.
+7
+'
+:
+GXX_4_7
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+gcc
+-
+5
+'
+:
+GCC_5
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+5
+'
+:
+GXX_5
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
+'
+:
+CLANG_3_6
++
+CLANG_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
++
++
+'
+:
+CLANGXX_3_6
++
+CLANG_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
+-
+3
+.
+6
+'
+:
+CLANG_3_6
++
+CLANG_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
++
++
+-
+3
+.
+6
+'
+:
+CLANGXX_3_6
++
+CLANG_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
+-
+3
+.
+3
+'
+:
+CLANG_3_3
++
+CLANG_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+clang
++
++
+-
+3
+.
+3
+'
+:
+CLANGXX_3_3
++
+CLANG_PLATFORM_X86_64_OSX
+    
+}
     
 CLANG_3_3_RESULT
 =
@@ -4969,7 +5291,7 @@ gcc
 :
 GCC_4_9
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -4984,7 +5306,7 @@ g
 :
 GXX_4_9
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -5001,7 +5323,7 @@ gcc
 :
 GCC_4_7
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -5020,7 +5342,7 @@ g
 :
 GXX_4_7
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -5035,7 +5357,7 @@ gcc
 :
 GCC_5
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -5052,7 +5374,7 @@ g
 :
 GXX_5
 +
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_WIN
         
 '
 /
@@ -5065,7 +5387,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
         
 '
 /
@@ -5080,7 +5402,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
         
 '
 /
@@ -5097,7 +5419,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
         
 '
 /
@@ -5116,7 +5438,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
         
 '
 /
@@ -5133,7 +5455,7 @@ clang
 :
 CLANG_3_3
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
         
 '
 /
@@ -5152,7 +5474,7 @@ clang
 :
 CLANGXX_3_3
 +
-CLANG_PLATFORM_X86
+CLANG_PLATFORM_X86_WIN
     
 }
     
@@ -6482,7 +6804,7 @@ gcc
 :
 GCC_4_9
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6497,7 +6819,7 @@ g
 :
 GXX_4_9
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6514,7 +6836,7 @@ gcc
 :
 GCC_4_7
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6533,7 +6855,7 @@ g
 :
 GXX_4_7
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6548,7 +6870,7 @@ gcc
 :
 GCC_5
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6565,7 +6887,7 @@ g
 :
 GXX_5
 +
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6578,7 +6900,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6593,7 +6915,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6610,7 +6932,7 @@ clang
 :
 CLANG_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6629,7 +6951,7 @@ clang
 :
 CLANGXX_3_6
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6646,7 +6968,7 @@ clang
 :
 CLANG_3_3
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
         
 '
 /
@@ -6665,7 +6987,7 @@ clang
 :
 CLANGXX_3_3
 +
-CLANG_PLATFORM_X86_64
+CLANG_PLATFORM_X86_64_WIN
     
 }
     
@@ -6774,7 +7096,7 @@ gcc
 :
 GCC_4_9
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 /
@@ -6795,7 +7117,7 @@ g
 :
 GXX_4_9
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 /
@@ -6818,7 +7140,7 @@ gcc
 :
 GCC_4_7
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 /
@@ -6843,7 +7165,7 @@ g
 :
 GXX_4_7
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 /
@@ -6864,7 +7186,7 @@ gcc
 :
 GCC_5
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 /
@@ -6887,7 +7209,7 @@ g
 :
 GXX_5
 +
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
     
 }
     
@@ -7008,7 +7330,7 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_X86
+GCC_PLATFORM_X86_LINUX
         
 '
 x86_64
@@ -7020,7 +7342,7 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_X86_64
+GCC_PLATFORM_X86_64_LINUX
         
 '
 arm
@@ -7032,7 +7354,7 @@ linux
 gnu
 '
 :
-GCC_PLATFORM_ARM
+GCC_PLATFORM_ARM_LINUX
         
 '
 aarch64
@@ -7044,6 +7366,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7064,6 +7391,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7084,6 +7416,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7110,6 +7447,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7130,6 +7472,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 None
@@ -7177,6 +7524,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 None
@@ -7218,6 +7570,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7238,6 +7595,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7258,6 +7620,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 None
@@ -7305,6 +7672,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 None
@@ -7346,6 +7718,11 @@ linux
 gnuabi64
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -7372,6 +7749,11 @@ linux
 gnu
 '
 :
+FakeCompiler
+(
+GCC_PLATFORM_LINUX
+)
++
 {
             
 '
@@ -9035,6 +9417,66 @@ CC
 :
 '
 clang
+'
+        
+}
+)
+    
+def
+test_cannot_osx_cross
+(
+self
+)
+:
+        
+self
+.
+do_toolchain_test
+(
+self
+.
+PATHS
+{
+            
+'
+c_compiler
+'
+:
+'
+Target
+C
+compiler
+target
+kernel
+(
+Linux
+)
+does
+not
+'
+                          
+'
+match
+-
+-
+target
+kernel
+(
+Darwin
+)
+'
+        
+}
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+gcc
 '
         
 }
