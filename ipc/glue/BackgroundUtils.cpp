@@ -1291,6 +1291,12 @@ GetUpgradeInsecureRequests
 aLoadInfo
 -
 >
+GetUpgradeInsecurePreloads
+(
+)
+aLoadInfo
+-
+>
 GetInnerWindowID
 (
 )
@@ -1601,6 +1607,11 @@ tainting
 loadInfoArgs
 .
 upgradeInsecureRequests
+(
+)
+loadInfoArgs
+.
+upgradeInsecurePreloads
 (
 )
 loadInfoArgs

@@ -14432,7 +14432,6 @@ GetDocument
 >
 GetUpgradeInsecureRequests
 (
-false
 )
 ;
 /
@@ -14472,9 +14471,8 @@ GetDocument
 )
 -
 >
-GetUpgradeInsecureRequests
+GetUpgradeInsecurePreloads
 (
-true
 )
 ;
 }

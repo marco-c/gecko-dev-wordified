@@ -2138,7 +2138,7 @@ ShouldLoad
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrMCBInternal
+InternalContentPolicyTypeToExternalOrScript
 (
 contentPolicyType
 )
@@ -2467,7 +2467,7 @@ aContentType
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrMCBInternal
+InternalContentPolicyTypeToExternalOrScript
 (
 aContentType
 )
@@ -2483,17 +2483,6 @@ types
 here
 .
 "
-)
-;
-bool
-isPreload
-=
-nsContentUtils
-:
-:
-IsPreloadType
-(
-aContentType
 )
 ;
 /
@@ -4839,7 +4828,6 @@ GetDocument
 >
 GetUpgradeInsecureRequests
 (
-isPreload
 )
 )
 {
