@@ -167,7 +167,7 @@ button_property
 '
 safebrowsing
 .
-notAForgeryButton
+notADeceptiveSiteButton
 .
 label
 '
