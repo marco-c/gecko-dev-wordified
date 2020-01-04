@@ -831,6 +831,13 @@ path
 function
 saveNewHeapSnapshot
 (
+opts
+=
+{
+runtime
+:
+true
+}
 )
 {
 const
@@ -840,11 +847,7 @@ ChromeUtils
 .
 saveHeapSnapshot
 (
-{
-runtime
-:
-true
-}
+opts
 )
 ;
 ok
