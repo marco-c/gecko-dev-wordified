@@ -1020,9 +1020,9 @@ mode
 setting
 .
 return
-GuestSession
+GeckoProfile
 .
-shouldUse
+shouldUseGuestMode
 (
 context
 )
