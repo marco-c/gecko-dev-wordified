@@ -2142,7 +2142,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 return
 eIndexSelRawText
@@ -36407,7 +36407,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 case
 SelectionType
@@ -37051,7 +37051,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 case
 SelectionType
@@ -37814,7 +37814,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 case
 SelectionType

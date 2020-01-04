@@ -29435,7 +29435,7 @@ eIMERawClause
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 SelectionType
 :
 :

@@ -727,7 +727,7 @@ return
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 ;
 case
 TextRangeType
