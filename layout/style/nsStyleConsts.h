@@ -3338,9 +3338,10 @@ NS_STYLE_POSITION_STICKY
 /
 /
 See
-nsStyleDisplay
+nsStyleEffects
 .
 mClip
+mClipFlags
 #
 define
 NS_STYLE_CLIP_AUTO
