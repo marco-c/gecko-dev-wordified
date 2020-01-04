@@ -3021,6 +3021,13 @@ us
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 /
 /
 Converts
@@ -3189,6 +3196,8 @@ parsed_time
 )
 ;
 }
+#
+endif
 /
 /
 For
@@ -3685,6 +3694,13 @@ Exploded
 exploded
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 /
 /
 Converts
@@ -3810,6 +3826,8 @@ Time
 parsed_time
 )
 ;
+#
+endif
 /
 /
 Time

@@ -1586,6 +1586,13 @@ exploded
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 /
 /
 static
@@ -1687,6 +1694,8 @@ return
 true
 ;
 }
+#
+endif
 std
 :
 :
