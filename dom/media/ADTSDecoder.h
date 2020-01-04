@@ -180,7 +180,7 @@ Returns
 true
 if
 the
-MP3
+ADTS
 backend
 is
 pref
