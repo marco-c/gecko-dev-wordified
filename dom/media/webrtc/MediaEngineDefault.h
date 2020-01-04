@@ -739,6 +739,13 @@ aChannels
 override
 {
 }
+void
+DeviceChanged
+(
+)
+override
+{
+}
 bool
 IsFake
 (

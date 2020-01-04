@@ -372,8 +372,6 @@ gMediaStreamGraphLog
 type
 msg
 )
-/
-/
 #
 define
 ENABLE_LIFECYCLE_LOG
@@ -1035,6 +1033,7 @@ Length
 )
 )
 )
+;
 LIFECYCLE_LOG
 (
 "
