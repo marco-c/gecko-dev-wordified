@@ -579,11 +579,13 @@ aInitData
 =
 nullptr
 )
+override
 ;
 NS_IMETHOD
 Destroy
 (
 )
+override
 ;
 NS_IMETHOD
 SetParent
@@ -592,6 +594,7 @@ nsIWidget
 *
 aNewParent
 )
+override
 ;
 virtual
 nsIWidget
@@ -600,18 +603,21 @@ GetParent
 (
 void
 )
+override
 ;
 virtual
 float
 GetDPI
 (
 )
+override
 ;
 virtual
 double
 GetDefaultScaleInternal
 (
 )
+override
 ;
 NS_IMETHOD
 Show
@@ -619,6 +625,7 @@ Show
 bool
 bState
 )
+override
 ;
 virtual
 bool
@@ -626,6 +633,7 @@ IsVisible
 (
 )
 const
+override
 ;
 NS_IMETHOD
 ConstrainPosition
@@ -639,6 +647,7 @@ int32_t
 *
 aY
 )
+override
 ;
 virtual
 void
@@ -649,6 +658,7 @@ SizeConstraints
 &
 aConstraints
 )
+override
 ;
 NS_IMETHOD
 Move
@@ -658,6 +668,7 @@ aX
 double
 aY
 )
+override
 ;
 NS_IMETHOD
 Resize
@@ -669,6 +680,7 @@ aHeight
 bool
 aRepaint
 )
+override
 ;
 NS_IMETHOD
 Resize
@@ -684,6 +696,7 @@ aHeight
 bool
 aRepaint
 )
+override
 ;
 NS_IMETHOD
 BeginResizeDrag
@@ -699,6 +712,7 @@ aHorizontal
 int32_t
 aVertical
 )
+override
 ;
 NS_IMETHOD
 PlaceBehind
@@ -711,6 +725,7 @@ aWidget
 bool
 aActivate
 )
+override
 ;
 NS_IMETHOD
 SetSizeMode
@@ -718,6 +733,7 @@ SetSizeMode
 nsSizeMode
 aMode
 )
+override
 ;
 NS_IMETHOD
 Enable
@@ -725,6 +741,7 @@ Enable
 bool
 aState
 )
+override
 ;
 virtual
 bool
@@ -732,6 +749,7 @@ IsEnabled
 (
 )
 const
+override
 ;
 NS_IMETHOD
 SetFocus
@@ -739,6 +757,7 @@ SetFocus
 bool
 aRaise
 )
+override
 ;
 NS_IMETHOD
 GetBounds
@@ -791,6 +810,7 @@ nscolor
 &
 aColor
 )
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -803,6 +823,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -810,6 +831,7 @@ SetCursor
 nsCursor
 aCursor
 )
+override
 ;
 virtual
 nsresult
@@ -823,6 +845,7 @@ Configuration
 &
 aConfigurations
 )
+override
 ;
 virtual
 bool
@@ -863,6 +886,7 @@ aScreen
 =
 nullptr
 )
+override
 ;
 NS_IMETHOD
 HideWindowChrome
@@ -870,6 +894,7 @@ HideWindowChrome
 bool
 aShouldHide
 )
+override
 ;
 NS_IMETHOD
 Invalidate
@@ -905,6 +930,7 @@ GetNativeData
 uint32_t
 aDataType
 )
+override
 ;
 void
 SetNativeData
@@ -926,6 +952,7 @@ data
 uint32_t
 aDataType
 )
+override
 ;
 NS_IMETHOD
 SetTitle
@@ -935,6 +962,7 @@ nsAString
 &
 aTitle
 )
+override
 ;
 NS_IMETHOD
 SetIcon
@@ -944,12 +972,14 @@ nsAString
 &
 aIconSpec
 )
+override
 ;
 virtual
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
+override
 ;
 virtual
 LayoutDeviceIntSize
@@ -975,6 +1005,7 @@ nsEventStatus
 &
 aStatus
 )
+override
 ;
 NS_IMETHOD
 EnableDragDrop
@@ -982,6 +1013,7 @@ EnableDragDrop
 bool
 aEnable
 )
+override
 ;
 NS_IMETHOD
 CaptureMouse
@@ -989,6 +1021,7 @@ CaptureMouse
 bool
 aCapture
 )
+override
 ;
 NS_IMETHOD
 CaptureRollupEvents
@@ -999,6 +1032,7 @@ aListener
 bool
 aDoCapture
 )
+override
 ;
 NS_IMETHOD
 GetAttention
@@ -1006,12 +1040,14 @@ GetAttention
 int32_t
 aCycleCount
 )
+override
 ;
 virtual
 bool
 HasPendingInputEvent
 (
 )
+override
 ;
 virtual
 LayerManager
@@ -1046,6 +1082,7 @@ aAllowRetaining
 =
 nullptr
 )
+override
 ;
 NS_IMETHOD
 OnDefaultButtonLoaded
@@ -1071,6 +1108,7 @@ double
 &
 aOverriddenDeltaY
 )
+override
 ;
 virtual
 nsresult
@@ -1173,6 +1211,7 @@ InputContextAction
 &
 aAction
 )
+override
 ;
 NS_IMETHOD_
 (
@@ -1181,6 +1220,7 @@ InputContext
 GetInputContext
 (
 )
+override
 ;
 #
 ifdef
@@ -1192,12 +1232,14 @@ SetTransparencyMode
 nsTransparencyMode
 aMode
 )
+override
 ;
 virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
+override
 ;
 virtual
 void
@@ -1208,6 +1250,7 @@ LayoutDeviceIntRegion
 &
 aOpaqueRegion
 )
+override
 ;
 #
 endif
@@ -1219,6 +1262,7 @@ nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
+override
 ;
 NS_IMETHOD
 GetNonClientMargins
@@ -1244,6 +1288,7 @@ SetDrawsInTitlebar
 bool
 aState
 )
+override
 ;
 already_AddRefed
 <
@@ -1736,6 +1781,7 @@ nsIWidget
 *
 aNewParent
 )
+override
 ;
 /
 /
@@ -1773,6 +1819,7 @@ bool
 ShouldUseOffMainThreadCompositing
 (
 )
+override
 ;
 bool
 CaptureWidgetOnScreen
@@ -1789,6 +1836,7 @@ DrawTarget
 >
 aDT
 )
+override
 ;
 const
 IMEContext
@@ -2388,6 +2436,7 @@ void
 OnDestroy
 (
 )
+override
 ;
 virtual
 bool

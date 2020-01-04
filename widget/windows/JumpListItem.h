@@ -315,6 +315,7 @@ int16_t
 *
 aType
 )
+override
 {
 return
 JumpListItem
@@ -336,6 +337,7 @@ bool
 *
 _retval
 )
+override
 {
 return
 JumpListItem
@@ -399,6 +401,7 @@ int16_t
 *
 aType
 )
+override
 {
 return
 JumpListItem
@@ -420,6 +423,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_DECL_NSIJUMPLISTLINK
 static
@@ -516,6 +520,7 @@ int16_t
 *
 aType
 )
+override
 {
 return
 JumpListItem
@@ -537,6 +542,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_DECL_NSIJUMPLISTSHORTCUT
 static

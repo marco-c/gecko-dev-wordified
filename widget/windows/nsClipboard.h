@@ -193,6 +193,7 @@ bool
 *
 _retval
 )
+override
 ;
 NS_IMETHOD
 EmptyClipboard
@@ -200,6 +201,7 @@ EmptyClipboard
 int32_t
 aWhichClipboard
 )
+override
 ;
 /
 /
@@ -332,6 +334,7 @@ SetNativeClipboardData
 int32_t
 aWhichClipboard
 )
+override
 ;
 NS_IMETHOD
 GetNativeClipboardData
@@ -342,6 +345,7 @@ aTransferable
 int32_t
 aWhichClipboard
 )
+override
 ;
 static
 bool
