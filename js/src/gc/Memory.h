@@ -383,6 +383,16 @@ size
 )
 ;
 void
+MakePagesReadOnly
+(
+void
+*
+p
+size_t
+size
+)
+;
+void
 UnprotectPages
 (
 void
