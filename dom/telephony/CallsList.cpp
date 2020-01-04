@@ -221,7 +221,7 @@ CallsList
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 CallsList
 :

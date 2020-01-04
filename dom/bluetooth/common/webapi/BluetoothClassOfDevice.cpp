@@ -359,7 +359,7 @@ BluetoothClassOfDevice
 :
 BluetoothClassOfDevice
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -535,7 +535,7 @@ BluetoothClassOfDevice
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

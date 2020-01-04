@@ -150,7 +150,7 @@ public
 :
 AudioTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 HTMLMediaElement

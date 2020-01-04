@@ -323,7 +323,7 @@ namespaces
 *
 /
 class
-nsIDOMWindow
+nsPIDOMWindowInner
 ;
 #
 ifndef
@@ -533,7 +533,7 @@ uint32_t
 >
 &
 pattern
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -647,7 +647,7 @@ automatically
 void
 CancelVibrate
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

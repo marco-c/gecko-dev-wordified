@@ -346,12 +346,10 @@ style
 declaration
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
-do_QueryInterface
-(
 elm
 -
 >
@@ -362,7 +360,6 @@ OwnerDoc
 >
 GetInnerWindow
 (
-)
 )
 ;
 if

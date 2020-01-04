@@ -133,7 +133,7 @@ nsCOMPtr
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -187,12 +187,12 @@ TestInterfaceSetlikeNode
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -246,7 +246,7 @@ TestInterfaceSetlikeNode
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

@@ -142,7 +142,7 @@ nsIAtom
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIGlobalObject
@@ -448,7 +448,7 @@ at
 all
 .
 virtual
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetOwnerGlobalForBindings
 (

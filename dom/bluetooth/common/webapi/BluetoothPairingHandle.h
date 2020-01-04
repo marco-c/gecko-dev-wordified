@@ -172,7 +172,7 @@ BluetoothPairingHandle
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -189,7 +189,7 @@ nsAString
 aPasskey
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -298,7 +298,7 @@ private
 :
 BluetoothPairingHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -374,7 +374,7 @@ aVariant
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

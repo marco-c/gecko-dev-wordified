@@ -314,7 +314,7 @@ nsHistory
 :
 nsHistory
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 )
@@ -347,7 +347,7 @@ nsHistory
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 nsHistory
 :
@@ -359,7 +359,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -420,7 +420,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -551,7 +551,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -674,7 +674,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -772,7 +772,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -938,7 +938,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -981,7 +981,7 @@ aDelta
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 ;
@@ -1323,7 +1323,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -1417,7 +1417,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -1623,7 +1623,7 @@ aReplace
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 (
@@ -1813,7 +1813,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

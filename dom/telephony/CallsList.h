@@ -187,7 +187,7 @@ aGroup
 nullptr
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

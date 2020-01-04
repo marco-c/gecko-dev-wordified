@@ -429,7 +429,7 @@ aLoadingContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 outerWindow
 ;
@@ -573,7 +573,7 @@ outerWindow
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 inner
 =
@@ -608,7 +608,7 @@ WindowID
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 parent
 =
@@ -1045,7 +1045,7 @@ LoadInfo
 :
 ComputeIsThirdPartyContext
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aOuterWindow
 )
@@ -1091,7 +1091,7 @@ false
 return
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

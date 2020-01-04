@@ -117,7 +117,7 @@ DocumentRendererChild
 bool
 RenderDocument
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 const

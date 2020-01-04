@@ -2872,7 +2872,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 ;
@@ -2899,7 +2899,7 @@ non
 fatal
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newWindow
 ;

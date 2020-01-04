@@ -2018,10 +2018,10 @@ ServiceWorkerRegistrationInfo
 aRegistrationInfo
 )
 ;
-NS_IMETHODIMP
+nsresult
 GetServiceWorkerForScope
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -2106,7 +2106,7 @@ ServiceWorkerRegistrationInfo
 >
 GetServiceWorkerRegistrationInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2299,7 +2299,7 @@ aRegistration
 void
 StorePendingReadyPromise
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIURI
@@ -2318,7 +2318,7 @@ CheckPendingReadyPromises
 bool
 CheckReadyPromise
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIURI

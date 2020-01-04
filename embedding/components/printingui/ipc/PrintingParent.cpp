@@ -298,7 +298,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 parentWin
 =
@@ -458,7 +458,7 @@ aResult
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 parentWin
 =
@@ -1145,7 +1145,7 @@ aWhy
 )
 {
 }
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 PrintingParent
 :
@@ -1236,12 +1236,10 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 parentWin
 =
-do_QueryInterface
-(
 frame
 -
 >
@@ -1252,7 +1250,6 @@ OwnerDoc
 >
 GetWindow
 (
-)
 )
 ;
 if

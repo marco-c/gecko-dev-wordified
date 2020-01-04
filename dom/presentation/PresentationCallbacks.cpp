@@ -629,7 +629,7 @@ NotifyReceiverReady
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

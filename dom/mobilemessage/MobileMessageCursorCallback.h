@@ -215,7 +215,7 @@ DOMCursor
 )
 MobileMessageCursor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsICursorContinueCallback

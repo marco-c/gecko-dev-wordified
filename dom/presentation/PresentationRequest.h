@@ -258,7 +258,7 @@ private
 :
 PresentationRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

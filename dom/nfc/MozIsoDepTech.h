@@ -209,7 +209,7 @@ ErrorResult
 aRv
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -263,7 +263,7 @@ private
 :
 MozIsoDepTech
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MozNFCTag
@@ -279,7 +279,7 @@ MozIsoDepTech
 ;
 RefPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

@@ -146,7 +146,7 @@ nsWeakReference
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIControllers
@@ -212,7 +212,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IWINDOWROOT_IID
 )
 virtual
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindow
 (

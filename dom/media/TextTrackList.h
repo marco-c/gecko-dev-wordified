@@ -183,14 +183,14 @@ DOMEventTargetHelper
 explicit
 TextTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
 ;
 TextTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackManager

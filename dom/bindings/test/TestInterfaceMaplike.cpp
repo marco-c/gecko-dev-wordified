@@ -130,7 +130,7 @@ TestInterfaceMaplike
 :
 TestInterfaceMaplike
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -164,7 +164,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -247,7 +247,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 TestInterfaceMaplike
 :

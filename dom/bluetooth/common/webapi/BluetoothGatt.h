@@ -940,7 +940,7 @@ aParam
 /
 /
 BluetoothSignalObserver
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -982,7 +982,7 @@ override
 ;
 BluetoothGatt
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

@@ -259,7 +259,7 @@ Activity
 :
 Initialize
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 JSContext
@@ -667,7 +667,7 @@ Activity
 :
 Activity
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

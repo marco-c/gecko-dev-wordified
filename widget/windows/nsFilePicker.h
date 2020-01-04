@@ -326,7 +326,7 @@ nsFilePicker
 NS_IMETHOD
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

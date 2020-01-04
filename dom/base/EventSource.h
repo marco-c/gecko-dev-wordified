@@ -260,7 +260,7 @@ nsIUnicodeDecoder
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -296,7 +296,7 @@ public
 explicit
 EventSource
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
@@ -338,7 +338,7 @@ override
 /
 /
 WebIDL
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

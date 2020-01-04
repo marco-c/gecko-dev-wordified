@@ -4594,7 +4594,7 @@ aStreamListener
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -13281,7 +13281,7 @@ prompter
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 (
@@ -17284,7 +17284,7 @@ MaybeCloseWindow
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -17325,7 +17325,7 @@ a
 parent
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 opener
 =
@@ -17479,18 +17479,7 @@ fired
 "
 )
 ;
-nsCOMPtr
-<
-nsPIDOMWindow
->
-window
-=
-do_QueryInterface
-(
 mWindowToClose
-)
-;
-window
 -
 >
 Close

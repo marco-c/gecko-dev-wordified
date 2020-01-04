@@ -144,7 +144,7 @@ class
 nsITabParent
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 namespace
 mozilla
@@ -182,7 +182,7 @@ BrowserElementAudioChannel
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFrameLoader
@@ -333,7 +333,7 @@ private
 :
 BrowserElementAudioChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFrameLoader
@@ -353,7 +353,7 @@ aManifestURL
 bool
 IsSystemAppWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -435,7 +435,7 @@ mTabParent
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mFrameWindow
 ;

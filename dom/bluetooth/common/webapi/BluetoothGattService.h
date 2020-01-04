@@ -869,7 +869,7 @@ return
 mServiceHandle
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -917,7 +917,7 @@ client
 role
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -941,7 +941,7 @@ server
 role
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -1633,7 +1633,7 @@ Variables
 /
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

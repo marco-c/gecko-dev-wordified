@@ -28859,7 +28859,7 @@ do_QueryReferent
 mDocWeak
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 ourWindow
 =
@@ -28872,7 +28872,7 @@ GetWindow
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 ;

@@ -382,7 +382,7 @@ BluetoothGattDescriptor
 :
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic
@@ -478,7 +478,7 @@ BluetoothGattDescriptor
 :
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic

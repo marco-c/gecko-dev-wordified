@@ -200,7 +200,7 @@ UpdateTimestamp
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 newWindow
 (

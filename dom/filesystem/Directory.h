@@ -354,7 +354,7 @@ bindings
 =
 =
 =
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

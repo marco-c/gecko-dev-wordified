@@ -158,7 +158,7 @@ aRootDir
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -168,7 +168,7 @@ aWindow
 Overrides
 FileSystemBase
 virtual
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -241,7 +241,7 @@ OSFileSystem
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

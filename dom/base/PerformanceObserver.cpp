@@ -320,7 +320,7 @@ PerformanceObserver
 :
 PerformanceObserver
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 PerformanceObserverCallback
@@ -452,7 +452,7 @@ NS_IsMainThread
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 ownerWindow
 =

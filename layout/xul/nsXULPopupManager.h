@@ -411,7 +411,7 @@ class
 nsIDocShellTreeItem
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 /
 /
@@ -1784,7 +1784,7 @@ accordingly
 void
 AdjustPopupsOnWindowChange
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

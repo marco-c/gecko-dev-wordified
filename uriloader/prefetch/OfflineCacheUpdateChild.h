@@ -173,6 +173,9 @@ nsWeakReference
 .
 h
 "
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 {
@@ -239,7 +242,7 @@ override
 explicit
 OfflineCacheUpdateChild
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -390,7 +393,7 @@ construcor
 /
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

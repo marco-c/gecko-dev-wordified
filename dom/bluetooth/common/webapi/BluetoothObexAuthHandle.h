@@ -179,12 +179,12 @@ BluetoothObexAuthHandle
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -261,7 +261,7 @@ private
 :
 BluetoothObexAuthHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -273,7 +273,7 @@ BluetoothObexAuthHandle
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

@@ -172,7 +172,7 @@ DataChannel
 ;
 }
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 nsresult
 NS_NewDOMDataChannel
@@ -187,7 +187,7 @@ DataChannel
 &
 &
 dataChannel
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIDOMDataChannel

@@ -6123,7 +6123,7 @@ window
 .
 *
 /
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindow
 (
@@ -6151,7 +6151,7 @@ IsInBackgroundWindow
 )
 const
 {
-nsPIDOMWindow
+auto
 *
 outer
 =
@@ -6215,7 +6215,7 @@ GetWindow
 .
 *
 /
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetInnerWindow
 (
@@ -6248,7 +6248,7 @@ OuterWindowID
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -6287,7 +6287,7 @@ InnerWindowID
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -11294,7 +11294,7 @@ IsCurrentActiveDocument
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 inner
 =
@@ -15245,7 +15245,7 @@ nsAString
 aDirection
 )
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetDefaultView
 (
@@ -16533,7 +16533,7 @@ call
 GetWindow
 !
 virtual
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindowInternal
 (
@@ -18645,7 +18645,7 @@ set
 of
 mScriptGlobalObject
 .
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 mWindow
 ;

@@ -819,7 +819,7 @@ return
 mDescriptorHandle
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -905,7 +905,7 @@ client
 role
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic
@@ -928,7 +928,7 @@ server
 role
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic
@@ -1292,7 +1292,7 @@ Variables
 /
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

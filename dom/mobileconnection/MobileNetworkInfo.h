@@ -178,7 +178,7 @@ MobileNetworkInfo
 explicit
 MobileNetworkInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -215,7 +215,7 @@ nsIMobileNetworkInfo
 aInfo
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -340,7 +340,7 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

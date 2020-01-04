@@ -328,7 +328,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 FMRadioRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 FMRadio
@@ -414,7 +414,7 @@ aFMRadio
 }
 FMRadioRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 FMRadio
@@ -706,7 +706,7 @@ FMRadio
 :
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -1729,7 +1729,7 @@ aFrequency
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -1799,7 +1799,7 @@ Disable
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -1866,7 +1866,7 @@ aFrequency
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -1932,7 +1932,7 @@ SeekUp
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2001,7 +2001,7 @@ SeekDown
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2070,7 +2070,7 @@ CancelSeek
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2135,7 +2135,7 @@ EnableRDS
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2200,7 +2200,7 @@ DisableRDS
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

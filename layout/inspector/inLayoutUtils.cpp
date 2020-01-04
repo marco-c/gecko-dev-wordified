@@ -454,7 +454,7 @@ nsIDocument
 aDoc
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 pwin
 =

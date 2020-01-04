@@ -242,7 +242,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 int32_t
@@ -271,9 +271,6 @@ aRelatedTarget
 DataTransfer
 *
 aDataTransfer
-ErrorResult
-&
-aError
 )
 ;
 static

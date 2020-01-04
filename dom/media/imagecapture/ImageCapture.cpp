@@ -274,7 +274,7 @@ ImageCapture
 VideoStreamTrack
 *
 aVideoStreamTrack
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
@@ -338,7 +338,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

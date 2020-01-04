@@ -201,7 +201,7 @@ BluetoothPbapRequestHandle
 :
 BluetoothPbapRequestHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -235,7 +235,7 @@ BluetoothPbapRequestHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -284,7 +284,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -488,7 +488,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -694,7 +694,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

@@ -3518,7 +3518,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =

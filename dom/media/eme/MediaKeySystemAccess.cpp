@@ -380,7 +380,7 @@ MediaKeySystemAccess
 :
 MediaKeySystemAccess
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 const
@@ -457,7 +457,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MediaKeySystemAccess
 :
@@ -3363,7 +3363,7 @@ MediaKeySystemAccess
 :
 NotifyObservers
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

@@ -8953,7 +8953,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

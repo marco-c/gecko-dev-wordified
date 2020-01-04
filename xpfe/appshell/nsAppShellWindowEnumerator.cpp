@@ -1128,7 +1128,7 @@ mCurrentPosition
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 ;

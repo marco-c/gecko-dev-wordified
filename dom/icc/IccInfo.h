@@ -142,7 +142,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -180,7 +180,7 @@ NS_DECL_NSIICCINFO
 explicit
 IccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -205,7 +205,7 @@ nsIIccInfo
 aInfo
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -311,7 +311,7 @@ IccInfo
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -428,7 +428,7 @@ NS_DECL_NSIGSMICCINFO
 explicit
 GsmIccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -524,7 +524,7 @@ NS_DECL_NSICDMAICCINFO
 explicit
 CdmaIccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

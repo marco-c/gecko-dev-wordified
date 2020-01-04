@@ -315,7 +315,7 @@ override
 /
 /
 nsWrapperCache
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -730,7 +730,7 @@ distructor
 explicit
 WebSocket
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

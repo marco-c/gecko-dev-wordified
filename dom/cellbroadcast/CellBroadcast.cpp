@@ -339,7 +339,7 @@ CellBroadcast
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult
@@ -416,7 +416,7 @@ CellBroadcast
 :
 CellBroadcast
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsICellBroadcastService

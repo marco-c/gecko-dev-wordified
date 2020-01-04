@@ -45253,7 +45253,7 @@ nsLayoutUtils
 :
 GetDeviceContextForScreenInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -45350,7 +45350,7 @@ one
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =

@@ -501,7 +501,7 @@ SavePersistentAttributes
 NS_IMETHOD
 GetWindowDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aDOMWindow
@@ -682,7 +682,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 mDOMWindow
 ;

@@ -251,7 +251,7 @@ BluetoothGattService
 :
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -325,7 +325,7 @@ BluetoothGattService
 :
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -897,7 +897,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

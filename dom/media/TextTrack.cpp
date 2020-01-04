@@ -237,7 +237,7 @@ TextTrack
 :
 TextTrack
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackKind
@@ -297,7 +297,7 @@ TextTrack
 :
 TextTrack
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackList
@@ -376,7 +376,7 @@ SetDefaultSettings
 (
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 ownerWindow
 =

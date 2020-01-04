@@ -207,7 +207,7 @@ DOMEventTargetHelper
 explicit
 MobileMessageManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -222,7 +222,7 @@ Shutdown
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

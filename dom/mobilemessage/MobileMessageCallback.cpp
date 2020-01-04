@@ -738,7 +738,7 @@ aAsync
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1079,7 +1079,7 @@ aMessage
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

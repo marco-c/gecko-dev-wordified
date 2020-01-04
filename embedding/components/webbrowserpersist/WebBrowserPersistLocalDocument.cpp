@@ -835,7 +835,7 @@ aCD
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -1118,7 +1118,7 @@ GetHistory
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

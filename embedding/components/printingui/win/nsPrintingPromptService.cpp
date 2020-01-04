@@ -908,7 +908,7 @@ nsPrintingPromptService
 :
 GetHWNDForDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aWindow
 )
@@ -937,7 +937,7 @@ mWatcher
 {
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 fosterParent
 ;
@@ -1053,14 +1053,16 @@ this
 path
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
-(
-do_QueryInterface
+=
+nsPIDOMWindowOuter
+:
+:
+From
 (
 aWindow
-)
 )
 ;
 nsCOMPtr
@@ -1339,7 +1341,7 @@ nsPrintingPromptService
 :
 ShowPrintDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIWebBrowserPrint
@@ -1395,7 +1397,7 @@ nsPrintingPromptService
 :
 ShowProgress
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIWebBrowserPrint
@@ -1509,7 +1511,7 @@ nsPrintProgressParams
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parentWindow
 =
@@ -1583,7 +1585,7 @@ nsPrintingPromptService
 :
 ShowPageSetup
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIPrintSettings
@@ -1704,7 +1706,7 @@ nsPrintingPromptService
 :
 ShowPrinterProperties
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 const
@@ -1794,7 +1796,7 @@ nsPrintingPromptService
 :
 DoDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 nsIDialogParamBlock
@@ -1882,7 +1884,7 @@ check
 )
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 activeParent
 ;
@@ -2042,7 +2044,7 @@ supports
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 dialog
 ;

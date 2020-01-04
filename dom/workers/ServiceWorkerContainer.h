@@ -130,7 +130,7 @@ DOMEventTargetHelper
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -204,7 +204,7 @@ aGlobal
 explicit
 ServiceWorkerContainer
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

@@ -2461,7 +2461,7 @@ on
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

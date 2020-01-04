@@ -165,7 +165,7 @@ PresentationAvailability
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -220,7 +220,7 @@ private
 explicit
 PresentationAvailability
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

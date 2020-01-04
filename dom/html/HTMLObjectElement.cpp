@@ -2456,7 +2456,7 @@ return
 NS_OK
 ;
 }
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 HTMLObjectElement
 :

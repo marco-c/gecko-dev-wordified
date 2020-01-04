@@ -168,7 +168,7 @@ BluetoothPairingListener
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -206,7 +206,7 @@ aParam
 /
 /
 BluetoothSignalObserver
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -280,7 +280,7 @@ private
 :
 BluetoothPairingListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

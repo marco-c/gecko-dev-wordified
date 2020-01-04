@@ -255,7 +255,7 @@ protected
 explicit
 InputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

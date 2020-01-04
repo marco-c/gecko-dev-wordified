@@ -247,7 +247,7 @@ ArchiveReader
 Blob
 &
 aBlob
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -256,7 +256,7 @@ nsACString
 aEncoding
 )
 ;
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -436,7 +436,7 @@ the
 requests
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

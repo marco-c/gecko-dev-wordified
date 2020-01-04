@@ -588,7 +588,7 @@ i
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -1327,7 +1327,7 @@ the
 docShell
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -1388,7 +1388,7 @@ the
 docShell
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -5468,7 +5468,7 @@ nsFormFillController
 :
 AddWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -5680,7 +5680,7 @@ nsFormFillController
 :
 RemoveWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -6203,7 +6203,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -6234,7 +6234,7 @@ GetDocShell
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 nsFormFillController
 :

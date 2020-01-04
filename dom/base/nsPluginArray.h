@@ -190,12 +190,12 @@ NS_DECL_NSIOBSERVER
 explicit
 nsPluginArray
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -402,7 +402,7 @@ EnsurePlugins
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -435,7 +435,7 @@ nsPluginElement
 )
 nsPluginElement
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInternalPluginTag
@@ -443,7 +443,7 @@ nsIInternalPluginTag
 aPluginTag
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -616,7 +616,7 @@ EnsurePluginMimeTypes
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

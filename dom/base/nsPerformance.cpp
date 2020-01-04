@@ -2319,7 +2319,7 @@ nsPerformance
 :
 nsPerformance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsDOMNavigationTiming
@@ -4501,7 +4501,7 @@ PerformanceBase
 :
 PerformanceBase
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

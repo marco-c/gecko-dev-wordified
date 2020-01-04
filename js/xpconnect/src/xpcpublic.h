@@ -3045,7 +3045,7 @@ ErrorReport
 void
 DispatchScriptErrorEvent
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 win
 JSRuntime

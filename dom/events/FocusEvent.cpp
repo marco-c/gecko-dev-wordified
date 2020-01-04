@@ -264,7 +264,7 @@ AsFocusEvent
 relatedTarget
 ;
 }
-nsresult
+void
 FocusEvent
 :
 :
@@ -278,7 +278,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 int32_t
@@ -288,9 +288,6 @@ EventTarget
 aRelatedTarget
 )
 {
-nsresult
-rv
-=
 UIEvent
 :
 :
@@ -301,12 +298,6 @@ aCanBubble
 aCancelable
 aView
 aDetail
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mEvent
@@ -320,9 +311,6 @@ AsFocusEvent
 relatedTarget
 =
 aRelatedTarget
-;
-return
-NS_OK
 ;
 }
 already_AddRefed
@@ -391,8 +379,6 @@ Init
 t
 )
 ;
-aRv
-=
 e
 -
 >

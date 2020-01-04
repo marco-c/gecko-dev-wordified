@@ -5086,7 +5086,7 @@ nsFrameMessageManager
 :
 GetContent
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aContent

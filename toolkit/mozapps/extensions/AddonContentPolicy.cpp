@@ -349,7 +349,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

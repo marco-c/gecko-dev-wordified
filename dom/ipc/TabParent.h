@@ -2744,7 +2744,7 @@ aPackageId
 void
 AudioChannelChangeNotification
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel

@@ -3817,7 +3817,7 @@ aError
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

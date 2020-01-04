@@ -1048,7 +1048,7 @@ nsFilePicker
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const
@@ -1061,7 +1061,7 @@ aMode
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

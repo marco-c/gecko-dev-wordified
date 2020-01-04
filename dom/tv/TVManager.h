@@ -166,7 +166,7 @@ TVManager
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -251,7 +251,7 @@ private
 explicit
 TVManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

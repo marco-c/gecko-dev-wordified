@@ -614,7 +614,7 @@ GetObject
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domWindow
 ;
@@ -3863,7 +3863,7 @@ GetObject
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domWindow
 ;

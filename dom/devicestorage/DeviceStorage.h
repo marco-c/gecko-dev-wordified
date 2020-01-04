@@ -940,7 +940,7 @@ override
 explicit
 nsDOMDeviceStorage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -964,7 +964,7 @@ InvalidateVolumeCaches
 nsresult
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1030,7 +1030,7 @@ aVolName
 /
 /
 WebIDL
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1436,7 +1436,7 @@ static
 void
 CreateDeviceStorageFor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -1453,7 +1453,7 @@ static
 void
 CreateDeviceStorageByNameAndType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -1473,7 +1473,7 @@ aStore
 bool
 Equals
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -1671,7 +1671,7 @@ static
 nsresult
 CheckPrincipal
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 bool
@@ -1728,7 +1728,7 @@ aRv
 void
 DeleteInternal
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -1817,7 +1817,7 @@ nsDOMDeviceStorage
 >
 GetStorageByNameAndType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const

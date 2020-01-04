@@ -365,7 +365,7 @@ aEvent
 explicit
 Event
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

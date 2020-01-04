@@ -362,7 +362,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 UIEvent
 )
-NS_IMETHODIMP
+void
 MouseEvent
 :
 :
@@ -376,7 +376,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 int32_t
@@ -399,14 +399,11 @@ bool
 aMetaKey
 uint16_t
 aButton
-nsIDOMEventTarget
+EventTarget
 *
 aRelatedTarget
 )
 {
-nsresult
-rv
-=
 UIEvent
 :
 :
@@ -417,12 +414,6 @@ aCanBubble
 aCancelable
 aView
 aDetail
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 switch
@@ -550,11 +541,8 @@ default
 break
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 MouseEvent
 :
 :
@@ -568,7 +556,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 int32_t
@@ -583,7 +571,7 @@ int32_t
 aClientY
 int16_t
 aButton
-nsIDOMEventTarget
+EventTarget
 *
 aRelatedTarget
 const
@@ -600,9 +588,6 @@ ComputeModifierState
 aModifiersList
 )
 ;
-nsresult
-rv
-=
 InitMouseEvent
 (
 aType
@@ -650,12 +635,6 @@ aButton
 aRelatedTarget
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 switch
 (
 mEvent
@@ -695,7 +674,6 @@ modifiers
 modifiers
 ;
 return
-NS_OK
 ;
 default
 :
@@ -877,7 +855,6 @@ mButton
 aParam
 .
 mRelatedTarget
-aRv
 )
 ;
 e
@@ -904,7 +881,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+void
 MouseEvent
 :
 :
@@ -918,7 +895,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 int32_t
@@ -941,7 +918,7 @@ bool
 aMetaKey
 uint16_t
 aButton
-nsIDOMEventTarget
+EventTarget
 *
 aRelatedTarget
 float
@@ -950,9 +927,6 @@ uint16_t
 aInputSource
 )
 {
-nsresult
-rv
-=
 MouseEvent
 :
 :
@@ -973,12 +947,6 @@ aShiftKey
 aMetaKey
 aButton
 aRelatedTarget
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 WidgetMouseEventBase
@@ -1005,9 +973,6 @@ mouseEventBase
 inputSource
 =
 aInputSource
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

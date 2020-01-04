@@ -15305,7 +15305,7 @@ NS_WINDOWMEDIATOR_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 dmWindow
 ;
@@ -22189,7 +22189,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 dmWindow
 ;

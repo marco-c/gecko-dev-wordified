@@ -179,7 +179,7 @@ GetLength
 ;
 already_AddRefed
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 IndexedGetter
 (

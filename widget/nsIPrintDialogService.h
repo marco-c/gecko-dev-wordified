@@ -107,7 +107,7 @@ nsISupports
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIPrintSettings
@@ -307,7 +307,7 @@ dialog
 NS_IMETHOD
 Show
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -417,7 +417,7 @@ dialog
 NS_IMETHOD
 ShowPageSetup
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings

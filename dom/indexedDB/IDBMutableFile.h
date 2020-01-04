@@ -214,7 +214,7 @@ nsTHashtable
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -356,7 +356,7 @@ AbortFileHandles
 /
 /
 WebIDL
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

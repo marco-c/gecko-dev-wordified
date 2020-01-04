@@ -550,7 +550,7 @@ BluetoothDevice
 :
 BluetoothDevice
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1292,7 +1292,7 @@ BluetoothDevice
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

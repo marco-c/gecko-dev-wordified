@@ -2314,7 +2314,7 @@ on
 DOM
 document
 .
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 focusedWnd
 =

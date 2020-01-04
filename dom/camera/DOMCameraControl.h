@@ -184,7 +184,7 @@ class
 nsDOMDeviceStorage
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsIDOMBlob
@@ -396,7 +396,7 @@ dom
 Promise
 *
 aPromise
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -406,7 +406,7 @@ Shutdown
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1672,7 +1672,7 @@ is
 created
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

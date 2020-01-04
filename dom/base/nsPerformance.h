@@ -1870,7 +1870,7 @@ PerformanceBase
 explicit
 PerformanceBase
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2369,7 +2369,7 @@ public
 :
 nsPerformance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsDOMNavigationTiming

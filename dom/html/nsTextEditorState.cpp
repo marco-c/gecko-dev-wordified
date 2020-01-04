@@ -4698,7 +4698,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 domWindow
 =

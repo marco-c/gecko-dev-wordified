@@ -122,7 +122,7 @@ class
 nsIColorPickerShownCallback
 ;
 class
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 class
 NSColorPanelWrapper
@@ -143,7 +143,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

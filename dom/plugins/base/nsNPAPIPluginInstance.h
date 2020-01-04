@@ -1448,7 +1448,7 @@ aCache
 ;
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetDOMWindow
 (

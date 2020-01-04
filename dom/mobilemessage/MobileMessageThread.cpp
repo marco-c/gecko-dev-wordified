@@ -182,7 +182,7 @@ MobileMessageThread
 :
 MobileMessageThread
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MobileMessageThreadInternal

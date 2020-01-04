@@ -770,7 +770,7 @@ nsBrowserStatusFilter
 :
 GetDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aResult

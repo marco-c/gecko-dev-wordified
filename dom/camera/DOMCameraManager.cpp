@@ -304,7 +304,7 @@ nsDOMCameraManager
 :
 nsDOMCameraManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -488,7 +488,7 @@ nsDOMCameraManager
 :
 CheckPermission
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -575,7 +575,7 @@ nsDOMCameraManager
 :
 CreateInstance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -739,7 +739,7 @@ CameraPermissionRequest
 nsIPrincipal
 *
 aPrincipal
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 RefPtr
@@ -828,7 +828,7 @@ mPrincipal
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -939,7 +939,7 @@ CameraPermissionRequest
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow

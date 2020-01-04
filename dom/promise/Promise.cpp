@@ -13484,7 +13484,7 @@ IsChromeWorker
 (
 )
 ;
-nsPIDOMWindow
+nsGlobalWindow
 *
 win
 =
@@ -13519,6 +13519,11 @@ isChrome
 win
 ?
 win
+-
+>
+AsInner
+(
+)
 -
 >
 WindowID

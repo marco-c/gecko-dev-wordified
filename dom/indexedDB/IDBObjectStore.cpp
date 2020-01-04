@@ -8300,7 +8300,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBObjectStore
 :

@@ -4455,7 +4455,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -4700,7 +4700,7 @@ Clear
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 outer
 =

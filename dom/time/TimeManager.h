@@ -207,7 +207,7 @@ TimeManager
 explicit
 TimeManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -218,7 +218,7 @@ aWindow
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -274,7 +274,7 @@ TimeManager
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

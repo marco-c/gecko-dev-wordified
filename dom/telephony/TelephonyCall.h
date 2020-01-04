@@ -185,7 +185,7 @@ nsITelephonyService
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -273,7 +273,7 @@ friend
 class
 Telephony
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -675,7 +675,7 @@ private
 explicit
 TelephonyCall
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

@@ -178,7 +178,7 @@ struct
 already_AddRefed
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -222,7 +222,7 @@ IDBFileRequest
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 IDBFileHandle
@@ -359,7 +359,7 @@ private
 :
 IDBFileRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 IDBFileHandle

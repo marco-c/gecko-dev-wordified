@@ -210,7 +210,7 @@ struct
 JSContext
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -236,7 +236,7 @@ MMICall
 )
 MMICall
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -245,7 +245,7 @@ nsAString
 aServiceCode
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -311,7 +311,7 @@ MMICall
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

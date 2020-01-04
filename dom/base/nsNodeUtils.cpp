@@ -3270,7 +3270,9 @@ AsElement
 )
 ;
 }
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowInner
 *
 window
 =
@@ -3280,10 +3282,6 @@ newDoc
 GetInnerWindow
 (
 )
-;
-if
-(
-window
 )
 {
 EventListenerManager

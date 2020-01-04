@@ -951,7 +951,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -2473,7 +2473,7 @@ MediaSource
 :
 MediaSource
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -3116,7 +3116,7 @@ aString
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MediaSource
 :

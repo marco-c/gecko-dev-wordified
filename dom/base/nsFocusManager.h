@@ -200,7 +200,7 @@ class
 nsIDocShellTreeItem
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIMessageBroadcaster
@@ -392,7 +392,7 @@ GetFocusedWindow
 .
 *
 /
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetFocusedWindow
 (
@@ -421,7 +421,7 @@ GetActiveWindow
 .
 *
 /
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetActiveWindow
 (
@@ -628,12 +628,12 @@ nsIContent
 *
 GetFocusedDescendant
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 bool
 aDeep
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 *
 aFocusedWindow
@@ -853,7 +853,7 @@ events
 void
 ActivateOrDeactivate
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 bool
@@ -1020,10 +1020,10 @@ aWindow
 bool
 IsSameOrAncestor
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aPossibleAncestor
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -1060,14 +1060,14 @@ ancestor
 /
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetCommonAncestor
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow1
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow2
 )
@@ -1132,7 +1132,7 @@ aNewWindow
 void
 AdjustWindowFocus
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aNewWindow
 bool
@@ -1155,7 +1155,7 @@ visible
 bool
 IsWindowVisible
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -1562,10 +1562,10 @@ state
 bool
 Blur
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindowToClear
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aAncestorWindowToFocus
 bool
@@ -1779,7 +1779,7 @@ state
 void
 Focus
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent
@@ -1924,7 +1924,7 @@ level
 void
 RaiseWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -2209,7 +2209,7 @@ document
 nsresult
 DetermineElementToMoveFocus
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent
@@ -2756,7 +2756,7 @@ nsIContent
 *
 GetRootForFocus
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIDocument
@@ -2865,7 +2865,7 @@ them
 void
 GetFocusInSelection
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent
@@ -2997,7 +2997,7 @@ aGettingFocus
 void
 SetFocusedWindowInternal
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -3017,7 +3017,7 @@ most
 window
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mActiveWindow
 ;
@@ -3066,7 +3066,7 @@ mFocusedWindow
 !
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mFocusedWindow
 ;
@@ -3182,7 +3182,7 @@ being
 lowered
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindowBeingLowered
 ;

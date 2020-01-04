@@ -1109,7 +1109,7 @@ n
 \
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -1850,7 +1850,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

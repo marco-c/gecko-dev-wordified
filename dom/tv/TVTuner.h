@@ -208,7 +208,7 @@ TVTuner
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsITVTunerData
@@ -356,7 +356,7 @@ private
 explicit
 TVTuner
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

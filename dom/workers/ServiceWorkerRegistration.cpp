@@ -483,7 +483,7 @@ ServiceWorkerRegistrationBase
 :
 ServiceWorkerRegistrationBase
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -608,7 +608,7 @@ ServiceWorkerRegistrationMainThread
 :
 ServiceWorkerRegistrationMainThread
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -688,7 +688,7 @@ aWhichOne
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1328,19 +1328,17 @@ wrapper
 JS
 object
 .
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
 GetOwner
 (
 )
-;
-if
-(
-window
 )
 {
 window
@@ -3261,7 +3259,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -3432,7 +3430,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

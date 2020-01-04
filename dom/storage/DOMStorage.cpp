@@ -303,7 +303,7 @@ DOMStorage
 :
 DOMStorage
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMStorageManager
@@ -1185,7 +1185,7 @@ DOMStorage
 :
 CanUseStorage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMStorage

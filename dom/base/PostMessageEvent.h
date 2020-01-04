@@ -167,9 +167,6 @@ nsGlobalWindow
 class
 nsIPrincipal
 ;
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {

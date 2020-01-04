@@ -295,7 +295,7 @@ DOMEventTargetHelper
 )
 MobileConnection
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t
@@ -314,7 +314,7 @@ DisconnectFromOwner
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

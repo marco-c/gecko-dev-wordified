@@ -147,7 +147,7 @@ DisplayPortInputPort
 :
 DisplayPortInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -181,7 +181,7 @@ DisplayPortInputPort
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener

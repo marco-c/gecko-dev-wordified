@@ -198,7 +198,7 @@ InputPort
 :
 InputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

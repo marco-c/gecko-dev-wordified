@@ -391,9 +391,6 @@ class
 nsIDOMNode
 ;
 class
-nsIDOMWindow
-;
-class
 nsIDragSession
 ;
 class
@@ -484,7 +481,10 @@ class
 nsNodeInfoManager
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
+;
+class
+nsPIDOMWindowOuter
 ;
 class
 nsPresContext
@@ -2914,7 +2914,7 @@ static
 bool
 CanCallerAccess
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -10162,9 +10162,6 @@ MaybeAllowOfflineAppByDefault
 nsIPrincipal
 *
 aPrincipal
-nsIDOMWindow
-*
-aWindow
 )
 ;
 /
@@ -10485,7 +10482,7 @@ mode
 static
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetMostRecentNonPBWindow
 (
@@ -13191,7 +13188,7 @@ static
 bool
 IsInPointerLockContext
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWin
 )
@@ -13459,7 +13456,7 @@ static
 void
 FlushLayoutForTree
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -15287,7 +15284,7 @@ static
 void
 CallOnAllRemoteChildren
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 CallOnRemoteChildFunction
@@ -16125,7 +16122,7 @@ static
 StorageAccess
 StorageAllowedForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -16545,7 +16542,7 @@ InternalStorageAllowedForPrincipal
 nsIPrincipal
 *
 aPrincipal
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

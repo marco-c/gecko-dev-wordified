@@ -163,7 +163,7 @@ DOMError
 )
 DOMMobileMessageError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -177,7 +177,7 @@ aSms
 ;
 DOMMobileMessageError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

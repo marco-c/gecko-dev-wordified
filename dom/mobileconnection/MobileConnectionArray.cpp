@@ -235,7 +235,7 @@ MobileConnectionArray
 :
 MobileConnectionArray
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -259,7 +259,7 @@ MobileConnectionArray
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MobileConnectionArray
 :

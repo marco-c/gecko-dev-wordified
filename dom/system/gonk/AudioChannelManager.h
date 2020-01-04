@@ -180,7 +180,7 @@ aEvent
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -193,7 +193,7 @@ WebIDL
 Interface
 *
 /
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

@@ -1706,7 +1706,7 @@ CameraCapabilities
 :
 CameraCapabilities
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ICameraControl

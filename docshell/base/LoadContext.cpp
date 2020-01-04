@@ -677,7 +677,7 @@ LoadContext
 :
 GetAssociatedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )
@@ -708,7 +708,7 @@ LoadContext
 :
 GetTopWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )

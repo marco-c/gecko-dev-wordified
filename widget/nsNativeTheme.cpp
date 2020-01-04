@@ -805,7 +805,7 @@ OwnerDoc
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =

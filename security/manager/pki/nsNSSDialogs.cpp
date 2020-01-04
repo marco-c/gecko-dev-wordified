@@ -132,7 +132,7 @@ h
 #
 include
 "
-nsIDOMWindow
+mozIDOMWindow
 .
 h
 "
@@ -409,7 +409,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -658,7 +658,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -911,7 +911,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -1774,7 +1774,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2027,7 +2027,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2219,7 +2219,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2281,7 +2281,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2636,7 +2636,7 @@ the
 dialog
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2700,7 +2700,7 @@ parent
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newWindow
 ;

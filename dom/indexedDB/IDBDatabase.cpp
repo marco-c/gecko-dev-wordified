@@ -1182,7 +1182,7 @@ NS_IsMainThread
 {
 if
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -1194,16 +1194,6 @@ GetParentObject
 )
 )
 {
-MOZ_ASSERT
-(
-window
--
->
-IsInnerWindow
-(
-)
-)
-;
 uint64_t
 windowId
 =
@@ -1796,7 +1786,7 @@ aMayDelete
 ;
 }
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBDatabase
 :
@@ -2023,7 +2013,7 @@ const
 {
 if
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =

@@ -247,7 +247,7 @@ MessageChannel
 :
 MessageChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -334,7 +334,7 @@ workers
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -369,7 +369,7 @@ MessageChannel
 :
 Constructor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult

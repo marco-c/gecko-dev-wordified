@@ -2124,7 +2124,7 @@ nsWebBrowser
 :
 GetContentDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aResult
@@ -2142,7 +2142,7 @@ NS_ERROR_UNEXPECTED
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 retval
 =
@@ -2955,7 +2955,7 @@ GetDocument
 nullptr
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 nsWebBrowser
 :
@@ -7019,7 +7019,7 @@ icon
 updates
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domWindow
 ;
@@ -8148,7 +8148,7 @@ SetFocus
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -9620,13 +9620,15 @@ return
 true
 ;
 }
+/
+*
 NS_IMETHODIMP
 nsWebBrowser
 :
 :
 GetPrimaryContentWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aDOMWindow
@@ -9687,7 +9689,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =
@@ -9719,6 +9721,8 @@ return
 NS_OK
 ;
 }
+*
+/
 /
 /
 *
@@ -9905,7 +9909,7 @@ FOCUSMANAGER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -9957,7 +9961,7 @@ FOCUSMANAGER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -10019,7 +10023,7 @@ nsWebBrowser
 :
 GetFocusedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aFocusedWindow
@@ -10043,7 +10047,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -10103,7 +10107,7 @@ nsWebBrowser
 :
 SetFocusedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aFocusedWindow
 )
@@ -10158,7 +10162,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

@@ -277,7 +277,7 @@ object
 .
 IccCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMRequest
@@ -291,7 +291,7 @@ false
 ;
 IccCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -357,7 +357,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

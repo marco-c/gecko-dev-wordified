@@ -190,12 +190,12 @@ BluetoothMapRequestHandle
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -688,7 +688,7 @@ private
 :
 BluetoothMapRequestHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -700,7 +700,7 @@ BluetoothMapRequestHandle
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

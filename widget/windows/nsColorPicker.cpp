@@ -1056,7 +1056,7 @@ nsColorPicker
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 const
@@ -1094,7 +1094,13 @@ WidgetUtils
 :
 DOMWindowToWidget
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 parent
+)
 )
 ;
 mInitialColor

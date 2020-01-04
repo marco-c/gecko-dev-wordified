@@ -399,7 +399,7 @@ Icc
 :
 Icc
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIIcc

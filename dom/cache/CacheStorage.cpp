@@ -3052,9 +3052,11 @@ privateBrowsing
 =
 false
 ;
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -3062,10 +3064,6 @@ do_QueryInterface
 (
 global
 )
-;
-if
-(
-window
 )
 {
 nsCOMPtr

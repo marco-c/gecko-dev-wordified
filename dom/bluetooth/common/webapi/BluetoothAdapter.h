@@ -1486,7 +1486,7 @@ BluetoothAdapter
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -1507,7 +1507,7 @@ aParam
 /
 /
 BluetoothSignalObserver
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1712,7 +1712,7 @@ private
 :
 BluetoothAdapter
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

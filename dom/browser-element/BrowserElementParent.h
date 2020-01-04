@@ -818,7 +818,7 @@ static
 OpenWindowResult
 OpenWindowInProcess
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aOpenerWindow
 nsIURI
@@ -832,7 +832,7 @@ const
 nsACString
 &
 aFeatures
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aReturnWindow

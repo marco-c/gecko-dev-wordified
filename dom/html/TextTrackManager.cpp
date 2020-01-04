@@ -679,7 +679,7 @@ parentObject
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1212,7 +1212,7 @@ Elements
 )
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -1224,7 +1224,7 @@ OwnerDoc
 )
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 ;

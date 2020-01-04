@@ -281,7 +281,7 @@ IccManager
 :
 IccManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

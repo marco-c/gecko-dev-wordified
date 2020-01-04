@@ -768,7 +768,7 @@ IccCallback
 :
 IccCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMRequest
@@ -797,7 +797,7 @@ IccCallback
 :
 IccCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise

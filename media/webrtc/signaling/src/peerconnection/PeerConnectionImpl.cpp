@@ -2147,7 +2147,7 @@ true
 bool
 IsPrivateBrowsing
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -4320,6 +4320,11 @@ aWindow
 mWindow
 =
 aWindow
+-
+>
+AsInner
+(
+)
 ;
 NS_ENSURE_STATE
 (

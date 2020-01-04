@@ -274,7 +274,7 @@ PeriodicWave
 namespace
 WebCore
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -630,7 +630,7 @@ nsIMemoryReporter
 {
 AudioContext
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParentWindow
 bool
@@ -679,7 +679,7 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 MallocSizeOf
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

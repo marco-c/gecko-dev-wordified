@@ -140,13 +140,9 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIDOMWindow
-.
-h
-"
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 {
@@ -460,7 +456,7 @@ WindowIdentifier
 explicit
 WindowIdentifier
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 window
 )
@@ -509,7 +505,7 @@ uint64_t
 >
 &
 id
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 window
 )
@@ -625,7 +621,7 @@ wraps
 .
 *
 /
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -665,7 +661,7 @@ mID
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

@@ -719,6 +719,11 @@ if
 win
 -
 >
+AsInner
+(
+)
+-
+>
 HasActiveDocument
 (
 )

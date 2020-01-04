@@ -225,7 +225,7 @@ class
 nsIDocShellTreeOwner
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsWatcherWindowEnumerator
@@ -272,7 +272,7 @@ static
 int32_t
 GetWindowOpenLocation
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 uint32_t
@@ -317,7 +317,7 @@ nsWatcherWindowEntry
 *
 FindWindowEntry
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aWindow
 )
@@ -399,7 +399,7 @@ t
 find
 one
 .
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 SafeGetWindowByName
 (
@@ -407,7 +407,7 @@ const
 nsAString
 &
 aName
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aCurrentWindow
 )
@@ -442,7 +442,7 @@ OpenWindow
 nsresult
 OpenWindowInternal
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const
@@ -469,7 +469,7 @@ aOpeningTab
 nsIArray
 *
 aArgv
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aResult
@@ -483,7 +483,7 @@ const
 char
 *
 aURL
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 nsIURI
@@ -496,7 +496,7 @@ static
 uint32_t
 CalculateChromeFlags
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const
@@ -567,12 +567,12 @@ ReadyOpenedDocShellItem
 nsIDocShellTreeItem
 *
 aOpenedItem
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 bool
 aWindowIsNew
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aOpenedWindow
@@ -585,7 +585,7 @@ SizeOpenedDocShellItem
 nsIDocShellTreeItem
 *
 aDocShellItem
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 bool
@@ -600,7 +600,7 @@ static
 void
 GetWindowTreeItem
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aWindow
 nsIDocShellTreeItem
@@ -613,7 +613,7 @@ static
 void
 GetWindowTreeOwner
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIDocShellTreeOwner

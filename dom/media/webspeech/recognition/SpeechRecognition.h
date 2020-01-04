@@ -413,7 +413,7 @@ SpeechRecognition
 explicit
 SpeechRecognition
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

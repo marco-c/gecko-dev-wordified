@@ -11415,7 +11415,7 @@ GetDocument
 )
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

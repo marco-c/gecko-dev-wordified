@@ -212,7 +212,7 @@ DOMEventTargetHelper
 explicit
 Connection
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

@@ -11217,6 +11217,11 @@ GetInnerWindowWithId
 (
 mWindowID
 )
+-
+>
+AsInner
+(
+)
 ;
 if
 (
@@ -11484,7 +11489,7 @@ NS_OK
 NS_IMETHOD
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow
@@ -11601,7 +11606,7 @@ mPrincipalInfo
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -11735,7 +11740,7 @@ nsDOMDeviceStorage
 :
 nsDOMDeviceStorage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -12044,7 +12049,7 @@ nsDOMDeviceStorage
 :
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -12405,7 +12410,7 @@ nsDOMDeviceStorage
 :
 CheckPrincipal
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 bool
@@ -13037,7 +13042,7 @@ nsDOMDeviceStorage
 :
 CreateDeviceStorageFor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -13112,7 +13117,7 @@ nsDOMDeviceStorage
 :
 CreateDeviceStorageByNameAndType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -13240,7 +13245,7 @@ nsDOMDeviceStorage
 :
 Equals
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const
@@ -13602,7 +13607,7 @@ nsDOMDeviceStorage
 :
 GetStorageByNameAndType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWin
 const

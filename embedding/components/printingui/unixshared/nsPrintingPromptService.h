@@ -243,7 +243,7 @@ private
 nsresult
 DoDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 nsIDialogParamBlock

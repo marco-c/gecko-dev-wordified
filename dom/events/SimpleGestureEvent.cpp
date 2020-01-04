@@ -492,7 +492,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 SimpleGestureEvent
 :
 :
@@ -506,7 +506,7 @@ bool
 aCanBubbleArg
 bool
 aCancelableArg
-nsIDOMWindow
+nsGlobalWindow
 *
 aViewArg
 int32_t
@@ -529,7 +529,7 @@ bool
 aMetaKeyArg
 uint16_t
 aButton
-nsIDOMEventTarget
+EventTarget
 *
 aRelatedTarget
 uint32_t
@@ -542,9 +542,6 @@ uint32_t
 aClickCountArg
 )
 {
-nsresult
-rv
-=
 MouseEvent
 :
 :
@@ -565,12 +562,6 @@ aShiftKeyArg
 aMetaKeyArg
 aButton
 aRelatedTarget
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 WidgetSimpleGestureEvent
@@ -611,9 +602,6 @@ simpleGestureEvent
 clickCount
 =
 aClickCountArg
-;
-return
-NS_OK
 ;
 }
 }

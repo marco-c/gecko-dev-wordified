@@ -2298,7 +2298,7 @@ return
 nullptr
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 win
 =
@@ -2765,7 +2765,7 @@ node
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2818,7 +2818,7 @@ doc
 )
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 win
 =

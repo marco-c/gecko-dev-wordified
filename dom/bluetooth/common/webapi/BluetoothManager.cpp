@@ -628,7 +628,7 @@ BluetoothManager
 :
 BluetoothManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -925,7 +925,7 @@ BluetoothManager
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

@@ -410,7 +410,7 @@ aGivenProto
 ImageCapture
 class
 members
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -446,7 +446,7 @@ ImageCapture
 VideoStreamTrack
 *
 aVideoStreamTrack
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

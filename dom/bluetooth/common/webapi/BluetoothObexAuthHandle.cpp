@@ -208,7 +208,7 @@ BluetoothObexAuthHandle
 :
 BluetoothObexAuthHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -242,7 +242,7 @@ BluetoothObexAuthHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

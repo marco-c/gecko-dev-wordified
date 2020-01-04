@@ -484,7 +484,7 @@ mDataSize
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindow
 ;

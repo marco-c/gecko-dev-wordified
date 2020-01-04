@@ -757,7 +757,7 @@ false
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domwin
 ;

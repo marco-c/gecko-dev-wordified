@@ -2429,7 +2429,9 @@ this
 be
 cached
 ?
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 domWindow
 =
@@ -2444,10 +2446,6 @@ GetDocument
 GetWindow
 (
 )
-;
-if
-(
-domWindow
 )
 {
 nsCOMPtr

@@ -8880,7 +8880,7 @@ in
 some
 cases
 .
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 innerWindow
 =

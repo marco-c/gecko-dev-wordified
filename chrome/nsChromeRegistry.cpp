@@ -1937,7 +1937,7 @@ static
 void
 FlushSkinBindingsForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -2078,7 +2078,7 @@ protoWindow
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =
@@ -2161,7 +2161,7 @@ protoWindow
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =
@@ -2264,7 +2264,7 @@ nsChromeRegistry
 :
 RefreshWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -2322,7 +2322,7 @@ j
 {
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 childWin
 ;
@@ -2340,11 +2340,14 @@ childWin
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 =
-do_QueryInterface
+nsPIDOMWindowOuter
+:
+:
+From
 (
 childWin
 )
@@ -3102,7 +3105,7 @@ rv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =

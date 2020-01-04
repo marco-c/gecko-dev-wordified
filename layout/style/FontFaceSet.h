@@ -151,13 +151,6 @@ nsICSSLoaderObserver
 .
 h
 "
-#
-include
-"
-nsPIDOMWindow
-.
-h
-"
 struct
 gfxFontFaceSrc
 ;
@@ -171,7 +164,7 @@ class
 nsIPrincipal
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -533,7 +526,7 @@ DOMEventTargetHelper
 NS_DECL_NSIDOMEVENTLISTENER
 FontFaceSet
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIDocument

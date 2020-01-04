@@ -339,13 +339,6 @@ h
 #
 include
 "
-nsIDOMWindowCollection
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -778,7 +771,7 @@ NS_ERROR_NO_INTERFACE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 aDOMWindow
 =
@@ -846,7 +839,7 @@ NS_ERROR_NO_INTERFACE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 aDOMWindow
 =

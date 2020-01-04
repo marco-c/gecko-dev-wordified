@@ -231,7 +231,7 @@ SharedWorker
 :
 SharedWorker
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 WorkerPrivate

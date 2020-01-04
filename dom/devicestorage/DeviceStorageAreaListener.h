@@ -169,7 +169,7 @@ storageareachanged
 explicit
 DeviceStorageAreaListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

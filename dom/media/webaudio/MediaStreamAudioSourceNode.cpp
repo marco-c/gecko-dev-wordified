@@ -660,7 +660,9 @@ subsumes
 =
 false
 ;
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowInner
 *
 parent
 =
@@ -672,10 +674,6 @@ Context
 GetParentObject
 (
 )
-;
-if
-(
-parent
 )
 {
 nsIDocument

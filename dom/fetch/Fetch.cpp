@@ -990,7 +990,7 @@ NS_IsMainThread
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

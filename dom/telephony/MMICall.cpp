@@ -184,7 +184,7 @@ MMICall
 :
 MMICall
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -266,7 +266,7 @@ MMICall
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MMICall
 :

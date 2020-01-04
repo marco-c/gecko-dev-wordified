@@ -316,7 +316,7 @@ aGlobal
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -390,7 +390,7 @@ ServiceWorkerContainer
 :
 ServiceWorkerContainer
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -470,19 +470,17 @@ RemoveReadyPromise
 (
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
 GetOwner
 (
 )
-;
-if
-(
-window
 )
 {
 nsCOMPtr
@@ -848,7 +846,7 @@ case
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -858,7 +856,7 @@ GetOwner
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 outerWindow
 ;
@@ -1860,7 +1858,7 @@ return
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

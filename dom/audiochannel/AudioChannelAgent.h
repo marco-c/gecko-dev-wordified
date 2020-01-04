@@ -191,7 +191,10 @@ NS_AUDIOCHANNELAGENT_CID
 }
 }
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
+;
+class
+nsPIDOMWindowOuter
 ;
 namespace
 mozilla
@@ -237,7 +240,7 @@ bool
 aCapture
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 Window
 (
@@ -303,7 +306,7 @@ GetCallback
 nsresult
 InitInternal
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 int32_t
@@ -323,14 +326,14 @@ Shutdown
 nsresult
 FindCorrectWindow
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindow
 ;

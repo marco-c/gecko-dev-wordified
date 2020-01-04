@@ -197,7 +197,7 @@ MediaKeyStatusMap
 :
 MediaKeyStatusMap
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -250,7 +250,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MediaKeyStatusMap
 :

@@ -915,7 +915,7 @@ static
 bool
 WindowCannotReceiveSensorEvent
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -1650,7 +1650,7 @@ i
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 pwindow
 =

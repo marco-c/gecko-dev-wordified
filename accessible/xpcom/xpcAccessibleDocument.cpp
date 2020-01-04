@@ -610,7 +610,7 @@ xpcAccessibleDocument
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aDOMWindow

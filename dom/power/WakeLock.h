@@ -309,7 +309,7 @@ const
 nsAString
 &
 aTopic
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -368,7 +368,7 @@ aContentParent
 /
 WebIDL
 methods
-nsISupports
+nsPIDOMWindowInner
 *
 GetParentObject
 (

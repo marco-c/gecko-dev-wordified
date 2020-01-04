@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -985,9 +978,6 @@ cx
 )
 ;
 }
-;
-class
-nsPIDOMWindow
 ;
 namespace
 mozilla

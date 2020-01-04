@@ -231,7 +231,7 @@ nsPluginArray
 :
 nsPluginArray
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -298,7 +298,7 @@ nsPluginArray
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 nsPluginArray
 :
@@ -1606,7 +1606,7 @@ nsPluginElement
 :
 nsPluginElement
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInternalPluginTag
@@ -1633,7 +1633,7 @@ nsPluginElement
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 nsPluginElement
 :

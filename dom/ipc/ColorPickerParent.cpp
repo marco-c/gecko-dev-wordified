@@ -354,12 +354,10 @@ false
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
-do_QueryInterface
-(
 ownerElement
 -
 >
@@ -370,7 +368,6 @@ OwnerDoc
 >
 GetWindow
 (
-)
 )
 ;
 if

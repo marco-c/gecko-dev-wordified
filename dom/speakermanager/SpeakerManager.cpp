@@ -566,7 +566,7 @@ SpeakerManager
 :
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -650,7 +650,7 @@ false
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 SpeakerManager
 :
@@ -723,7 +723,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 ownerWindow
 =

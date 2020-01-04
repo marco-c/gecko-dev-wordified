@@ -219,7 +219,7 @@ public
 explicit
 MediaKeySystemAccess
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 const
@@ -245,7 +245,7 @@ MediaKeySystemAccess
 ;
 public
 :
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -338,7 +338,7 @@ static
 void
 NotifyObservers
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -390,7 +390,7 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

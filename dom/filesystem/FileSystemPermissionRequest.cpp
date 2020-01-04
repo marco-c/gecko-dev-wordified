@@ -441,7 +441,7 @@ FileSystemPermissionRequest
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow

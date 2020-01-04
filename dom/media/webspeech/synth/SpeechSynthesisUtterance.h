@@ -195,7 +195,7 @@ public
 :
 SpeechSynthesisUtterance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 const

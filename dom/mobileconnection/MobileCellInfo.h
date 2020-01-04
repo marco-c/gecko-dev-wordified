@@ -167,7 +167,7 @@ MobileCellInfo
 explicit
 MobileCellInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -198,7 +198,7 @@ nsIMobileCellInfo
 aInfo
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -315,7 +315,7 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

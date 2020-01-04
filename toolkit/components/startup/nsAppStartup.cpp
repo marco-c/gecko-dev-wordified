@@ -2050,7 +2050,7 @@ window
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 (
@@ -2535,7 +2535,7 @@ window
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =
@@ -2905,7 +2905,7 @@ break
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

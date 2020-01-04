@@ -242,7 +242,7 @@ DOMEventTargetHelper
 /
 /
 WrapperCache
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -464,7 +464,7 @@ aError
 explicit
 DOMRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

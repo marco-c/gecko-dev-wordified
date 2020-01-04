@@ -240,7 +240,7 @@ MobileConnectionCallback
 :
 MobileConnectionCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMRequest

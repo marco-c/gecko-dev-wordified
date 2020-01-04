@@ -235,7 +235,7 @@ class
 nsMimeTypeArray
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsIDOMNavigatorSystemMessages
@@ -638,7 +638,7 @@ public
 explicit
 Navigator
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 )
@@ -662,7 +662,7 @@ Invalidate
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -710,7 +710,7 @@ changes
 void
 SetWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 )
@@ -879,7 +879,7 @@ Promise
 >
 GetDataStores
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -932,7 +932,7 @@ static
 nsresult
 GetUserAgent
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIURI
@@ -1922,7 +1922,7 @@ JSObject
 aGlobal
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1975,7 +1975,7 @@ null
 static
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 GetWindowFromGlobal
 (
@@ -2040,7 +2040,7 @@ static
 bool
 CheckPermission
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -2258,7 +2258,7 @@ mServiceWorkerContainer
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

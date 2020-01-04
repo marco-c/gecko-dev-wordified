@@ -234,7 +234,7 @@ TVSource
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSourceType
@@ -439,7 +439,7 @@ private
 :
 TVSource
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSourceType

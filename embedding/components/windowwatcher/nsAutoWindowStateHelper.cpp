@@ -353,7 +353,7 @@ nsAutoWindowStateHelper
 :
 nsAutoWindowStateHelper
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

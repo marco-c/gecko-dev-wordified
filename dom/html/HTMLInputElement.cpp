@@ -3128,7 +3128,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -3282,7 +3282,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -3497,7 +3497,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =

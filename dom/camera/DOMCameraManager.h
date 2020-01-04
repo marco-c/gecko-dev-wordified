@@ -205,7 +205,7 @@ Attributes
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -368,7 +368,7 @@ static
 bool
 CheckPermission
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -380,7 +380,7 @@ nsDOMCameraManager
 >
 CreateInstance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -517,7 +517,7 @@ ErrorResult
 aRv
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -589,7 +589,7 @@ delete
 explicit
 nsDOMCameraManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -625,7 +625,7 @@ mPermission
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

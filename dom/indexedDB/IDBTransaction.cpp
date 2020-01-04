@@ -4131,7 +4131,7 @@ mNextIndexId
 +
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBTransaction
 :

@@ -376,7 +376,7 @@ public
 :
 nsLocation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIDocShell
@@ -974,7 +974,7 @@ aError
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1164,7 +1164,7 @@ mCachedHash
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mInnerWindow
 ;

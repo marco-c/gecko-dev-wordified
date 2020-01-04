@@ -125,7 +125,7 @@ public
 explicit
 MediaKeySystemAccessManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -312,7 +312,7 @@ mRequests
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

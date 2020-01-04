@@ -3634,7 +3634,7 @@ window
 .
 .
 .
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -5024,7 +5024,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -5603,7 +5603,7 @@ XBL2
 issue
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -5676,6 +5676,11 @@ Notify
 (
 this
 window
+-
+>
+GetCurrentInnerWindow
+(
+)
 aActionURL
 aCancelSubmit
 )

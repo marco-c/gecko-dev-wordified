@@ -161,7 +161,7 @@ struct
 JSContext
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -257,7 +257,7 @@ Voicemail
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 ErrorResult
@@ -270,7 +270,7 @@ Shutdown
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -367,7 +367,7 @@ private
 :
 Voicemail
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIVoicemailService

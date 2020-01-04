@@ -230,7 +230,7 @@ MediaTrack
 :
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

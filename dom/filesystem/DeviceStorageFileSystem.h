@@ -187,7 +187,7 @@ Shutdown
 override
 ;
 virtual
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (

@@ -237,7 +237,7 @@ IDBFileRequest
 :
 IDBFileRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 IDBFileHandle
@@ -302,7 +302,7 @@ IDBFileRequest
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 IDBFileHandle

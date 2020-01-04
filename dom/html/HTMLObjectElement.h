@@ -872,7 +872,7 @@ nsObjectLoadingContent
 :
 GetContentDocument
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetContentWindow
 (

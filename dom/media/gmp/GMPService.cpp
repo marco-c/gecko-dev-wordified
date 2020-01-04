@@ -885,7 +885,7 @@ GMPCrashCallback
 const
 uint32_t
 aPluginId
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParentWindow
 nsIDocument
@@ -1011,7 +1011,7 @@ them
 ?
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 parentWindow
 ;
@@ -1109,7 +1109,7 @@ IsStillValid
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 parentWindow
 ;
@@ -1138,7 +1138,7 @@ GetParentWindowAndDocumentIfValid
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 &
 parentWindow
@@ -1234,7 +1234,7 @@ AddPluginCrashedEventTarget
 const
 uint32_t
 aPluginId
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParentWindow
 )

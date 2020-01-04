@@ -1320,7 +1320,7 @@ eCaseMatters
 return
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =
@@ -3099,7 +3099,7 @@ OwnerDoc
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 ;
@@ -4350,7 +4350,7 @@ element
 became
 focused
 .
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -11003,7 +11003,7 @@ doc
 )
 return
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

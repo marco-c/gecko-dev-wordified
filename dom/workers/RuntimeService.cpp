@@ -5949,7 +5949,7 @@ BEGIN_WORKERS_NAMESPACE
 void
 CancelWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -5987,7 +5987,7 @@ aWindow
 void
 FreezeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -6025,7 +6025,7 @@ aWindow
 void
 ThawWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -6063,7 +6063,7 @@ aWindow
 void
 SuspendWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -6101,7 +6101,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -7451,7 +7451,7 @@ mNavigatorPropertiesLoaded
 true
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -8354,7 +8354,7 @@ May
 be
 null
 .
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -11017,7 +11017,7 @@ RuntimeService
 :
 GetWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsTArray
@@ -11105,7 +11105,7 @@ RuntimeService
 :
 CancelWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -11245,7 +11245,7 @@ RuntimeService
 :
 FreezeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -11364,7 +11364,7 @@ RuntimeService
 :
 ThawWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -11483,7 +11483,7 @@ RuntimeService
 :
 SuspendWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -11549,7 +11549,7 @@ RuntimeService
 :
 ResumeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -11639,7 +11639,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -11905,7 +11905,7 @@ window
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

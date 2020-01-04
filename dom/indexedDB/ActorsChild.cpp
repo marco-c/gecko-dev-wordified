@@ -4607,7 +4607,7 @@ GetParent
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -6915,7 +6915,7 @@ XRE_IsParentProcess
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -8483,7 +8483,7 @@ windows
 .
 if
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 owner
 =

@@ -135,7 +135,7 @@ nsString
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -216,7 +216,7 @@ mString
 ;
 }
 virtual
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (

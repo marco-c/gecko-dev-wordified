@@ -237,7 +237,7 @@ TVChannel
 :
 TVChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSource
@@ -283,7 +283,7 @@ TVChannel
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSource

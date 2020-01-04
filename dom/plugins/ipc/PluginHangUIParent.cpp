@@ -2147,7 +2147,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 navWin
 ;
@@ -2188,6 +2188,18 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsPIDOMWindowOuter
+*
+win
+=
+nsPIDOMWindowOuter
+:
+:
+From
+(
+navWin
+)
+;
 nsCOMPtr
 <
 nsIWidget
@@ -2199,7 +2211,7 @@ WidgetUtils
 :
 DOMWindowToWidget
 (
-navWin
+win
 )
 ;
 if

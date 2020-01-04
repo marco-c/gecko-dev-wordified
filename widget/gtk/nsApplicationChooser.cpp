@@ -178,7 +178,7 @@ nsApplicationChooser
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const
@@ -193,6 +193,18 @@ aParent
 NS_ERROR_FAILURE
 )
 ;
+auto
+*
+parent
+=
+nsPIDOMWindowOuter
+:
+:
+From
+(
+aParent
+)
+;
 mParentWidget
 =
 widget
@@ -203,7 +215,7 @@ WidgetUtils
 :
 DOMWindowToWidget
 (
-aParent
+parent
 )
 ;
 mWindowTitle

@@ -1999,7 +1999,7 @@ MultipartBlobImpl
 :
 InitializeChromeFile
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFile
@@ -2336,7 +2336,7 @@ MultipartBlobImpl
 :
 InitializeChromeFile
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

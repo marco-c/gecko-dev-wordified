@@ -2092,7 +2092,7 @@ if
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -2234,7 +2234,7 @@ GetWindow
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -6062,7 +6062,7 @@ TabParent
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 )
@@ -13186,7 +13186,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 ;
@@ -13207,8 +13207,6 @@ frame
 )
 window
 =
-do_QueryInterface
-(
 frame
 -
 >
@@ -13219,7 +13217,6 @@ OwnerDoc
 >
 GetWindow
 (
-)
 )
 ;
 /
@@ -16317,7 +16314,7 @@ result
 NS_IMETHOD
 GetAssociatedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )
@@ -16325,7 +16322,7 @@ NO_IMPL
 NS_IMETHOD
 GetTopWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )
@@ -17679,7 +17676,7 @@ TabParent
 :
 AudioChannelChangeNotification
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -17710,7 +17707,7 @@ return
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -17760,7 +17757,7 @@ break
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =

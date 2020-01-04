@@ -325,7 +325,7 @@ change
 )
 ScreenOrientation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsScreen

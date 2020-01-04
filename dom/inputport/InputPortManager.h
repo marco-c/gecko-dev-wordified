@@ -145,7 +145,7 @@ class
 nsIInputPortService
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -183,7 +183,7 @@ InputPortManager
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult
@@ -198,7 +198,7 @@ WebIDL
 internal
 functions
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -248,7 +248,7 @@ private
 explicit
 InputPortManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -308,7 +308,7 @@ mInputPorts
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

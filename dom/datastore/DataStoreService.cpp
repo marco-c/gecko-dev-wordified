@@ -749,7 +749,7 @@ HashApp
 void
 RejectPromise
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -1734,7 +1734,7 @@ public
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -1775,7 +1775,7 @@ aPendingDataStores
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -4020,7 +4020,7 @@ DataStoreService
 :
 GetDataStores
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 const
@@ -4058,11 +4058,14 @@ NS_IsMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
-do_QueryInterface
+nsPIDOMWindowInner
+:
+:
+From
 (
 aWindow
 )
@@ -4488,7 +4491,7 @@ DataStoreService
 :
 GetDataStoresCreate
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -4673,7 +4676,7 @@ DataStoreService
 :
 GetDataStoresResolve
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise

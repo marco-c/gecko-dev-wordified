@@ -925,7 +925,7 @@ aUuid
 )
 const
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1008,7 +1008,7 @@ client
 role
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService
@@ -1031,7 +1031,7 @@ server
 role
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService
@@ -1509,7 +1509,7 @@ Variables
 /
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

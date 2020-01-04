@@ -183,13 +183,6 @@ Interfaces
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -425,7 +418,7 @@ PrintPreview
 nsIPrintSettings
 *
 aPrintSettings
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aChildDOMWin
 nsIWebProgressListener
@@ -960,7 +953,7 @@ aCount
 bool
 IsThereARangeSelection
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWin
 )
@@ -1058,7 +1051,7 @@ aPO
 bool
 IsWindowsInOurSubTree
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWindow
 )
@@ -1078,7 +1071,7 @@ IsThereAnIFrameSelected
 nsIDocShell
 *
 aDocShell
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWin
 bool
@@ -1094,7 +1087,7 @@ FindPrintObjectByDOMWin
 nsPrintObject
 *
 aParentObject
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWin
 )
@@ -1112,7 +1105,7 @@ document
 viewer
 already_AddRefed
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 FindFocusedDOMWindow
 (

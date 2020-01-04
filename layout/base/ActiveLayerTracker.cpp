@@ -2017,7 +2017,7 @@ our
 /
 purposes
 .
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 win
 =

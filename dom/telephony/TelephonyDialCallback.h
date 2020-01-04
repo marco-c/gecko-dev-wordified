@@ -220,7 +220,7 @@ nsString
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -246,7 +246,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSITELEPHONYDIALCALLBACK
 TelephonyDialCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Telephony
@@ -285,7 +285,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

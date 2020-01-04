@@ -161,7 +161,7 @@ PostMessage
 #
 endif
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -234,7 +234,7 @@ MessagePort
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -257,7 +257,7 @@ MessagePort
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -434,7 +434,7 @@ private
 explicit
 MessagePort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

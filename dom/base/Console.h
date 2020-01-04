@@ -251,7 +251,7 @@ NS_DECL_NSIOBSERVER
 explicit
 Console
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -260,7 +260,7 @@ aWindow
 /
 WebIDL
 methods
-nsISupports
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1197,7 +1197,7 @@ aPrincipal
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

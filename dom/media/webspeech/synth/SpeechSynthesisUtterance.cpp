@@ -205,7 +205,7 @@ SpeechSynthesisUtterance
 :
 SpeechSynthesisUtterance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 const
@@ -353,7 +353,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

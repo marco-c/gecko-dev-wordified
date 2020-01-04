@@ -1296,7 +1296,7 @@ aInitialConfig
 Promise
 *
 aPromise
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

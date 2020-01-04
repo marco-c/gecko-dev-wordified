@@ -518,7 +518,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2229,15 +2229,12 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
-do_QueryInterface
-(
 GetOwner
 (
-)
 )
 ;
 nsCOMPtr

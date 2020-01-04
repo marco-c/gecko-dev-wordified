@@ -134,13 +134,9 @@ nsICommandHandler
 .
 h
 "
-#
-include
-"
-nsIDOMWindow
-.
-h
-"
+class
+nsPIDOMWindowOuter
+;
 class
 nsCommandHandler
 :
@@ -177,7 +173,7 @@ nsICommandHandler
 aCommandHandler
 )
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 mWindow
 ;

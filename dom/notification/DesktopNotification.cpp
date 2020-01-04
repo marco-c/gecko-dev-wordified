@@ -321,7 +321,7 @@ override
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -736,7 +736,7 @@ appNotifier
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1129,7 +1129,7 @@ const
 nsAString
 &
 iconURL
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIPrincipal
@@ -2046,7 +2046,7 @@ DesktopNotificationRequest
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow

@@ -223,7 +223,7 @@ class
 JSObject
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -442,7 +442,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 MOZILLA_DOM_MEDIASOURCE_IMPLEMENTATION_IID
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -719,7 +719,7 @@ MediaSource
 explicit
 MediaSource
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

@@ -196,7 +196,7 @@ MediaTrackList
 :
 MediaTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 HTMLMediaElement

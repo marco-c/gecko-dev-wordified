@@ -499,7 +499,7 @@ PopupControlState
 aPopupState
 uint32_t
 aExecutionPolicy
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOriginalInnerWindow
 )
@@ -809,7 +809,7 @@ PopupControlState
 aPopupState
 uint32_t
 aExecutionPolicy
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOriginalInnerWindow
 )
@@ -1194,7 +1194,7 @@ to
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -1203,7 +1203,7 @@ do_QueryInterface
 global
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 innerWin
 =
@@ -2079,7 +2079,7 @@ to
 AsyncOpen
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOriginalInnerWindow
 ;
@@ -3000,7 +3000,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 (

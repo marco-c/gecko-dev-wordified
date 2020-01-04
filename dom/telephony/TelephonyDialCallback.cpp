@@ -174,7 +174,7 @@ TelephonyDialCallback
 :
 TelephonyDialCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Telephony

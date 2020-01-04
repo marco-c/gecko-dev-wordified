@@ -746,7 +746,7 @@ nsIDocument
 aData
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

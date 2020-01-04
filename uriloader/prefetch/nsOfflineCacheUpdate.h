@@ -1469,7 +1469,7 @@ aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFile

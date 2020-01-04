@@ -256,7 +256,7 @@ LegacyMozTCPSocket
 explicit
 LegacyMozTCPSocket
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

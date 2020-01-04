@@ -321,7 +321,7 @@ TVSource
 :
 TVSource
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSourceType
@@ -381,7 +381,7 @@ TVSource
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSourceType

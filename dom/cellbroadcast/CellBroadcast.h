@@ -164,7 +164,7 @@ TypeDecls
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -275,7 +275,7 @@ CellBroadcast
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 ErrorResult
@@ -291,7 +291,7 @@ delete
 ;
 CellBroadcast
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsICellBroadcastService
@@ -299,7 +299,7 @@ nsICellBroadcastService
 aService
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

@@ -133,7 +133,7 @@ nsCOMPtr
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -183,12 +183,12 @@ TestInterfaceIterableSingle
 explicit
 TestInterfaceIterableSingle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -256,7 +256,7 @@ TestInterfaceIterableSingle
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

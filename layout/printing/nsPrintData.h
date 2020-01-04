@@ -114,13 +114,6 @@ Interfaces
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsDeviceContext
 .
 h
@@ -561,7 +554,7 @@ mPrintProgressParams
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 mCurrentFocusWin
 ;

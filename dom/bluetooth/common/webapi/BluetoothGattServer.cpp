@@ -340,7 +340,7 @@ BluetoothGattServer
 :
 BluetoothGattServer
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

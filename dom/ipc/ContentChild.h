@@ -408,7 +408,7 @@ ProvideWindowCommon
 TabChild
 *
 aTabOpener
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aOpener
 bool
@@ -435,7 +435,7 @@ aFeatures
 bool
 *
 aWindowIsNew
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aReturn

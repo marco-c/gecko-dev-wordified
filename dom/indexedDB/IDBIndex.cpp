@@ -967,7 +967,7 @@ autoLocale
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBIndex
 :

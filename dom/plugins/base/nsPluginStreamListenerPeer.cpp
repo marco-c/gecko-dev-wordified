@@ -6709,7 +6709,9 @@ rv
 doc
 )
 {
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 window
 =
@@ -6719,10 +6721,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-window
 )
 {
 nsCOMPtr

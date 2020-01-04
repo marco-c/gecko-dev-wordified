@@ -5395,7 +5395,7 @@ null
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

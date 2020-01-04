@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsIDOMWindow
+mozIDOMWindow
 .
 h
 "
@@ -170,7 +170,7 @@ nsXULAlerts
 nsInterfaceHashtable
 <
 nsStringHashKey
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 mNamedWindows
 ;
@@ -258,7 +258,7 @@ aObserver
 void
 SetAlertWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aWindow
 )
@@ -288,7 +288,7 @@ mAlertName
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 mAlertWindow
 ;

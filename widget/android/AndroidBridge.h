@@ -741,7 +741,7 @@ aResult
 nsresult
 CaptureZoomedView
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 nsIntRect
@@ -761,7 +761,7 @@ zoomFactor
 nsresult
 CaptureThumbnail
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 int32_t

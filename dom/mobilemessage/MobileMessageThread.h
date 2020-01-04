@@ -137,7 +137,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -206,7 +206,7 @@ MobileMessageThread
 )
 MobileMessageThread
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 mobilemessage
@@ -217,7 +217,7 @@ MobileMessageThreadInternal
 aThread
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -332,7 +332,7 @@ MobileMessageThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

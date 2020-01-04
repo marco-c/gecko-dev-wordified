@@ -165,7 +165,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 PerformanceBase
@@ -239,7 +239,7 @@ aRv
 ;
 PerformanceObserver
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 PerformanceObserverCallback

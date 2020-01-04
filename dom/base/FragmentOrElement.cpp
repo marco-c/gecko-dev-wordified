@@ -5501,7 +5501,7 @@ chrome
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =

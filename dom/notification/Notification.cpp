@@ -1241,7 +1241,7 @@ NotificationPermissionRequest
 nsIPrincipal
 *
 aPrincipal
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -1317,7 +1317,7 @@ mPrincipal
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -1487,7 +1487,7 @@ nsRunnable
 {
 nsMainThreadPtrHandle
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -1499,7 +1499,7 @@ FocusWindowRunnable
 const
 nsMainThreadPtrHandle
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 &
 aWindow
@@ -2758,7 +2758,7 @@ NotificationPermissionRequest
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow
@@ -6183,7 +6183,7 @@ ed
 .
 nsMainThreadPtrHandle
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -6197,7 +6197,7 @@ aNotification
 const
 nsMainThreadPtrHandle
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 &
 aWindow
@@ -6874,7 +6874,7 @@ aTopic
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -7065,7 +7065,7 @@ implementation
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -7279,7 +7279,7 @@ aTopic
 )
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -7399,14 +7399,14 @@ document
 .
 nsMainThreadPtrHandle
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 windowHandle
 (
 new
 nsMainThreadPtrHolder
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 (
 window
@@ -8613,7 +8613,7 @@ else
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -9108,7 +9108,7 @@ notifications
 .
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -10111,7 +10111,7 @@ Notification
 :
 Get
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -10339,7 +10339,7 @@ global
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -14021,7 +14021,7 @@ DOM_WINDOW_FROZEN_TOPIC
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

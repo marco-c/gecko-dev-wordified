@@ -192,7 +192,7 @@ DOMError
 :
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -208,7 +208,7 @@ DOMError
 :
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsresult
@@ -249,7 +249,7 @@ DOMError
 :
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -273,7 +273,7 @@ DOMError
 :
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -375,7 +375,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

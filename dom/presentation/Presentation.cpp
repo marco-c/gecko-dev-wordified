@@ -219,7 +219,7 @@ Presentation
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -262,7 +262,7 @@ Presentation
 :
 Presentation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

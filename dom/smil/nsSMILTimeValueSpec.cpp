@@ -2118,7 +2118,7 @@ doc
 return
 nullptr
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

@@ -147,7 +147,7 @@ AVInputPort
 :
 AVInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -181,7 +181,7 @@ AVInputPort
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener

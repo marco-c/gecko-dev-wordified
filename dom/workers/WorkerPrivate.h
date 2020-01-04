@@ -1283,7 +1283,7 @@ Freeze
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -1294,7 +1294,7 @@ Thaw
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2271,7 +2271,7 @@ GetDocument
 )
 const
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -2707,7 +2707,7 @@ aSharedWorkers
 void
 CloseSharedWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -3379,7 +3379,7 @@ GetLoadInfo
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 WorkerPrivate

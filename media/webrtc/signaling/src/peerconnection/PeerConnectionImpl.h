@@ -1854,7 +1854,7 @@ return
 mSTSThread
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -4010,7 +4010,7 @@ mPCObserver
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

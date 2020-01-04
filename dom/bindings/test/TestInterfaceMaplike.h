@@ -133,7 +133,7 @@ nsCOMPtr
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -186,12 +186,12 @@ TestInterfaceMaplike
 explicit
 TestInterfaceMaplike
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -289,7 +289,7 @@ TestInterfaceMaplike
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

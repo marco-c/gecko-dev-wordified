@@ -150,7 +150,7 @@ class
 nsIFile
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -257,7 +257,7 @@ nsBaseFilePicker
 NS_IMETHODIMP
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

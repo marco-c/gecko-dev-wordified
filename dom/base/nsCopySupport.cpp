@@ -3358,7 +3358,7 @@ a
 selection
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 focusedWindow
 ;
@@ -3798,7 +3798,7 @@ false
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 =

@@ -182,7 +182,7 @@ NS_IMETHOD
 nsresult
 etc
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsITransaction
@@ -408,7 +408,7 @@ override
 nsresult
 Init
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWindow
 )

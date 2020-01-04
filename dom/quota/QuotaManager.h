@@ -220,7 +220,7 @@ class
 nsIURI
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIRunnable
@@ -1229,7 +1229,7 @@ static
 nsresult
 GetInfoFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsACString

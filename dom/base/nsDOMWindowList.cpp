@@ -396,7 +396,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 nsDOMWindowList
 :
@@ -430,7 +430,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -462,7 +462,7 @@ Item
 (
 uint32_t
 aIndex
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aReturn
@@ -470,7 +470,7 @@ aReturn
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -500,7 +500,7 @@ const
 nsAString
 &
 aName
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aReturn

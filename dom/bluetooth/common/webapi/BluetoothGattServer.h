@@ -1030,7 +1030,7 @@ aData
 /
 /
 BluetoothSignalObserver
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1070,7 +1070,7 @@ override
 ;
 BluetoothGattServer
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -1464,7 +1464,7 @@ Variables
 /
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

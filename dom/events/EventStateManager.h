@@ -4690,7 +4690,7 @@ one
 void
 DetermineDragTargetAndDefaultData
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent

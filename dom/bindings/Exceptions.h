@@ -167,7 +167,7 @@ class
 nsIStackFrame
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 template
 <
@@ -247,7 +247,7 @@ window
 void
 ThrowAndReport
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsresult

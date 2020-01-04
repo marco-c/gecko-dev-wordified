@@ -2201,9 +2201,11 @@ if
 doc
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 =
@@ -2213,10 +2215,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-domWindow
 )
 {
 nsCOMPtr
@@ -11204,7 +11202,7 @@ nsIContent
 aContent
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 outerWindow
 =
@@ -11230,7 +11228,7 @@ return
 false
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 rootWindow
 =
@@ -11274,7 +11272,7 @@ false
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 focusedFrame
 ;
@@ -19250,7 +19248,7 @@ if
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -19266,7 +19264,7 @@ if
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 topWindow
 =

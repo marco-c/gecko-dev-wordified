@@ -186,7 +186,7 @@ nsISupportsImpl
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -1728,7 +1728,7 @@ Fake_DOMMediaStream
 >
 CreateSourceStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 mozilla

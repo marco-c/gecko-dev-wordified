@@ -254,7 +254,7 @@ rv
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -334,7 +334,7 @@ MozNfcATech
 :
 MozNfcATech
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MozNFCTag

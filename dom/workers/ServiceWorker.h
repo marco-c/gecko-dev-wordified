@@ -157,7 +157,7 @@ For
 ServiceWorkerState
 .
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -348,7 +348,7 @@ ServiceWorkerManager
 .
 ServiceWorker
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ServiceWorkerInfo

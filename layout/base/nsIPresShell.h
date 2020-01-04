@@ -471,7 +471,7 @@ class
 nsDisplayListBuilder
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 struct
 nsPoint
@@ -8518,7 +8518,7 @@ presShell
 virtual
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetRootWindow
 (

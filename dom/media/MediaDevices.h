@@ -152,7 +152,7 @@ public
 explicit
 MediaDevices
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

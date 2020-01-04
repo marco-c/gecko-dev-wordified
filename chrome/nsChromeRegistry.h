@@ -177,7 +177,7 @@ FileLocation
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIPrefBranch
@@ -557,7 +557,7 @@ static
 nsresult
 RefreshWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

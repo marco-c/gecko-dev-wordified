@@ -825,7 +825,7 @@ ErrorResult
 aRv
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -934,7 +934,7 @@ ErrorResult
 aRv
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
