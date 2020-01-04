@@ -609,8 +609,16 @@ hasMenuButton
 (
 )
 {
+/
+/
+TODO
+:
+Remove
+these
+calls
+.
 return
-sHasMenuButton
+false
 ;
 }
 public
