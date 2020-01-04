@@ -119,7 +119,6 @@ let
 OverviewView
 DetailsView
 JsCallTreeView
-RecordingsView
 }
 =
 panel
