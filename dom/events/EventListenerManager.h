@@ -2177,6 +2177,14 @@ HasApzAwareListeners
 )
 ;
 bool
+IsApzAwareListener
+(
+Listener
+*
+aListener
+)
+;
+bool
 IsApzAwareEvent
 (
 nsIAtom
