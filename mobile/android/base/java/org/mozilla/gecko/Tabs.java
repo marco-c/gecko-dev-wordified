@@ -222,9 +222,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-SafeIntentUtils
+util
 .
 SafeIntent
 ;
