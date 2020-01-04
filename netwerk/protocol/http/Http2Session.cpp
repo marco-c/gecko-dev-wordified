@@ -6798,7 +6798,7 @@ nsDeque
 queue
 )
 {
-size_t
+uint32_t
 size
 =
 queue
@@ -6809,7 +6809,7 @@ GetSize
 ;
 for
 (
-size_t
+uint32_t
 count
 =
 0
@@ -11934,7 +11934,7 @@ deletion
 and
 restart
 .
-size_t
+uint32_t
 size
 =
 self
@@ -11948,7 +11948,7 @@ GetSize
 ;
 for
 (
-size_t
+uint32_t
 count
 =
 0
@@ -12110,7 +12110,7 @@ GetSize
 ;
 for
 (
-size_t
+uint32_t
 count
 =
 0

@@ -1024,7 +1024,7 @@ aValue
 {
 for
 (
-size_t
+int32_t
 i
 =
 0
@@ -1082,7 +1082,7 @@ private
 int32_t
 ObjectAt
 (
-size_t
+int32_t
 aIndex
 )
 {

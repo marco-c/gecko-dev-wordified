@@ -12791,7 +12791,7 @@ and
 avoid
 this
 loop
-size_t
+int32_t
 num_needed
 =
 mPending
