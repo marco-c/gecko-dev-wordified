@@ -277,6 +277,9 @@ PBrowserOrId
 const
 SerializedLoadContext
 &
+const
+uint32_t
+&
 )
 override
 ;

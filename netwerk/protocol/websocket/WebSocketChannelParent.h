@@ -229,6 +229,8 @@ nsILoadContext
 aLoadContext
 PBOverrideStatus
 aOverrideStatus
+uint32_t
+aSerial
 )
 ;
 private
@@ -379,6 +381,9 @@ mLoadContext
 ;
 bool
 mIPCOpen
+;
+uint32_t
+mSerial
 ;
 }
 ;

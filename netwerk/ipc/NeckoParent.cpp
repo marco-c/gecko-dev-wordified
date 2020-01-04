@@ -1884,6 +1884,10 @@ const
 SerializedLoadContext
 &
 serialized
+const
+uint32_t
+&
+aSerial
 )
 {
 nsCOMPtr
@@ -1977,6 +1981,7 @@ WebSocketChannelParent
 tabParent
 loadContext
 overrideStatus
+aSerial
 )
 ;
 p
