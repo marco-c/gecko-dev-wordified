@@ -2469,7 +2469,6 @@ ContinueParams
 (
 key
 )
-mKey
 )
 ;
 mContinueCalled
@@ -2838,7 +2837,6 @@ AdvanceParams
 (
 aCount
 )
-mKey
 )
 ;
 mContinueCalled
@@ -3009,13 +3007,6 @@ mPrimaryKey
 IsUnset
 (
 )
-)
-;
-mBackgroundActor
--
->
-InvalidateCachedResponses
-(
 )
 ;
 IDBObjectStore
@@ -3685,13 +3676,6 @@ mKey
 IsUnset
 (
 )
-)
-;
-mBackgroundActor
--
->
-InvalidateCachedResponses
-(
 )
 ;
 IDBObjectStore
