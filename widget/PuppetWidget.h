@@ -1538,9 +1538,9 @@ compositors
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 override

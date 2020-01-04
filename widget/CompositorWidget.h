@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_widget_CompositorWidgetProxy_h__
+mozilla_widget_CompositorWidget_h__
 #
 define
-mozilla_widget_CompositorWidgetProxy_h__
+mozilla_widget_CompositorWidget_h__
 #
 include
 "
@@ -157,7 +157,7 @@ namespace
 widget
 {
 class
-WinCompositorWidgetProxy
+WinCompositorWidget
 ;
 /
 *
@@ -179,7 +179,7 @@ methods
 *
 /
 class
-CompositorWidgetProxy
+CompositorWidget
 {
 public
 :
@@ -191,7 +191,7 @@ mozilla
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 )
 /
 *
@@ -1065,9 +1065,9 @@ GetCompositorVsyncDispatcher
 0
 ;
 virtual
-WinCompositorWidgetProxy
+WinCompositorWidget
 *
-AsWindowsProxy
+AsWindows
 (
 )
 {
@@ -1079,7 +1079,7 @@ protected
 :
 virtual
 ~
-CompositorWidgetProxy
+CompositorWidget
 (
 )
 ;
@@ -1105,7 +1105,7 @@ mLastBackBuffer
 This
 version
 of
-CompositorWidgetProxy
+CompositorWidget
 implements
 a
 wrapper
@@ -1115,15 +1115,15 @@ around
 nsBaseWidget
 .
 class
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 public
-CompositorWidgetProxy
+CompositorWidget
 {
 public
 :
 explicit
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 (
 nsBaseWidget
 *
@@ -1323,7 +1323,7 @@ this
 method
 inherit
 from
-CompositorWidgetProxy
+CompositorWidget
 instead
 .
 nsIWidget

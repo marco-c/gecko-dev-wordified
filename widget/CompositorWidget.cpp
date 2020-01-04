@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-CompositorWidgetProxy
+CompositorWidget
 .
 h
 "
@@ -90,11 +90,11 @@ mozilla
 namespace
 widget
 {
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 ~
-CompositorWidgetProxy
+CompositorWidget
 (
 )
 {
@@ -106,7 +106,7 @@ gfx
 :
 DrawTarget
 >
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 StartRemoteDrawing
@@ -118,7 +118,7 @@ nullptr
 ;
 }
 void
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 CleanupRemoteDrawing
@@ -137,7 +137,7 @@ gfx
 :
 DrawTarget
 >
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 GetBackBufferDrawTarget
@@ -413,7 +413,7 @@ gfx
 :
 SourceSurface
 >
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 EndBackBufferDrawing
@@ -449,7 +449,7 @@ forget
 ;
 }
 uint32_t
-CompositorWidgetProxy
+CompositorWidget
 :
 :
 GetGLFrameBufferFormat
@@ -460,10 +460,10 @@ return
 LOCAL_GL_RGBA
 ;
 }
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 (
 nsBaseWidget
 *
@@ -477,7 +477,7 @@ aWidget
 {
 }
 bool
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 PreRender
@@ -501,7 +501,7 @@ aManager
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 PostRender
@@ -524,7 +524,7 @@ aManager
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 DrawWindowUnderlay
@@ -550,7 +550,7 @@ aRect
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 DrawWindowOverlay
@@ -582,7 +582,7 @@ gfx
 :
 DrawTarget
 >
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 StartRemoteDrawing
@@ -605,7 +605,7 @@ gfx
 :
 DrawTarget
 >
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 StartRemoteDrawingInRegion
@@ -633,7 +633,7 @@ aBufferMode
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 EndRemoteDrawing
@@ -649,7 +649,7 @@ EndRemoteDrawing
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 EndRemoteDrawingInRegion
@@ -676,7 +676,7 @@ aInvalidRegion
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 CleanupRemoteDrawing
@@ -692,7 +692,7 @@ CleanupRemoteDrawing
 ;
 }
 void
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 CleanupWindowEffects
@@ -708,7 +708,7 @@ CleanupWindowEffects
 ;
 }
 bool
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 InitCompositor
@@ -732,7 +732,7 @@ aCompositor
 ;
 }
 LayoutDeviceIntSize
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 GetClientSize
@@ -749,7 +749,7 @@ GetClientSize
 ;
 }
 uint32_t
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 GetGLFrameBufferFormat
@@ -770,7 +770,7 @@ layers
 :
 Composer2D
 *
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 GetComposer2D
@@ -787,7 +787,7 @@ GetComposer2D
 ;
 }
 uintptr_t
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 GetWidgetKey
@@ -806,7 +806,7 @@ mWidget
 }
 nsIWidget
 *
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 RealWidget
@@ -821,7 +821,7 @@ already_AddRefed
 <
 CompositorVsyncDispatcher
 >
-CompositorWidgetProxyWrapper
+InProcessCompositorWidget
 :
 :
 GetCompositorVsyncDispatcher

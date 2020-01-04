@@ -172,9 +172,9 @@ InProcessCompositorSession
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aWidgetProxy
+aWidget
 ClientLayerManager
 *
 aLayerManager
@@ -255,9 +255,9 @@ CreateInProcess
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aWidgetProxy
+aWidget
 ClientLayerManager
 *
 aLayerManager
@@ -285,7 +285,7 @@ session
 new
 InProcessCompositorSession
 (
-aWidgetProxy
+aWidget
 aLayerManager
 aScale
 aUseAPZ
@@ -339,9 +339,9 @@ InProcessCompositorSession
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aWidgetProxy
+aWidget
 ClientLayerManager
 *
 aLayerManager
@@ -365,7 +365,7 @@ mCompositorBridgeParent
 new
 CompositorBridgeParent
 (
-aWidgetProxy
+aWidget
 aScale
 aUseAPZ
 aUseExternalSurfaceSize

@@ -2217,9 +2217,9 @@ aNewParent
 )
 override
 ;
-CompositorWidgetProxy
+CompositorWidget
 *
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 override

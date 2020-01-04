@@ -102,7 +102,7 @@ _widget_windows_WinCompositorWidget_h__
 #
 include
 "
-CompositorWidgetProxy
+CompositorWidget
 .
 h
 "
@@ -136,7 +136,7 @@ Windows
 specific
 implementation
 of
-CompositorWidgetProxy
+CompositorWidget
 .
 For
 /
@@ -173,14 +173,14 @@ the
 compositor
 .
 class
-WinCompositorWidgetProxy
+WinCompositorWidget
 :
 public
-CompositorWidgetProxy
+CompositorWidget
 {
 public
 :
-WinCompositorWidgetProxy
+WinCompositorWidget
 (
 HWND
 aWnd
@@ -301,9 +301,9 @@ RealWidget
 )
 override
 ;
-WinCompositorWidgetProxy
+WinCompositorWidget
 *
-AsWindowsProxy
+AsWindows
 (
 )
 override
