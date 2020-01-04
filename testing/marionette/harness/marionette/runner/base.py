@@ -3238,8 +3238,12 @@ args
 tests
 :
             
-print
+self
+.
+error
+(
 '
+You
 must
 specify
 one
@@ -3250,13 +3254,8 @@ files
 manifests
 or
 directories
-'
-            
-sys
 .
-exit
-(
-1
+'
 )
         
 missing_tests
@@ -3285,32 +3284,34 @@ if
 missing_tests
 :
             
+self
+.
+error
+(
+"
+Test
+file
+(
+s
+)
+not
+found
+:
+"
++
+"
+"
+.
+join
+(
+[
+path
 for
 path
 in
 missing_tests
-:
-                
-print
-'
-{
-0
-}
-does
-not
-exist
-'
-.
-format
-(
-path
+]
 )
-            
-sys
-.
-exit
-(
-1
 )
         
 if
@@ -3325,8 +3326,12 @@ args
 binary
 :
             
-print
+self
+.
+error
+(
 '
+You
 must
 specify
 -
@@ -3337,12 +3342,6 @@ or
 -
 address
 '
-            
-sys
-.
-exit
-(
-1
 )
         
 if
