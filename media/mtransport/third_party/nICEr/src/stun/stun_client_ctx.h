@@ -627,6 +627,10 @@ NR_STUN_CLIENT_STATE_TIMED_OUT
 define
 NR_STUN_CLIENT_STATE_CANCELLED
 5
+#
+define
+NR_STUN_CLIENT_STATE_WAITING
+6
 int
 mode
 ;
@@ -895,6 +899,14 @@ peer_addr
 ;
 int
 nr_stun_client_cancel
+(
+nr_stun_client_ctx
+*
+ctx
+)
+;
+int
+nr_stun_client_wait
 (
 nr_stun_client_ctx
 *
