@@ -625,6 +625,11 @@ GetBufferedEnd
 (
 )
 ;
+double
+HighestStartTime
+(
+)
+;
 /
 /
 Runs
