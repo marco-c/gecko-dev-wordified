@@ -159,8 +159,7 @@ versions
 /
 implementations
 where
-global
-display
+desktop
 pixels
 may
 not

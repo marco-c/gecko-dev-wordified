@@ -9747,7 +9747,7 @@ pixels
 scale
 back
 to
-display
+desktop
 pixels
 /
 /
@@ -9768,7 +9768,7 @@ APIs
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -9889,7 +9889,7 @@ pixels
 scale
 back
 to
-display
+desktop
 pixels
 /
 /
@@ -9910,7 +9910,7 @@ APIs
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -10044,7 +10044,7 @@ clientBounds
 double
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?

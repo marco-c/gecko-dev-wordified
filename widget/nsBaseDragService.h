@@ -510,8 +510,7 @@ drag
 These
 are
 in
-global
-display
+desktop
 pixels
 .
 *

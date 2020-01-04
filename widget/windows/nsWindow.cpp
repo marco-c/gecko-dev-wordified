@@ -10265,8 +10265,7 @@ only
 convert
 coordinates
 from
-global
-display
+desktop
 pixels
 /
 /
@@ -10289,7 +10288,7 @@ space
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -10825,8 +10824,7 @@ only
 convert
 coordinates
 from
-global
-display
+desktop
 pixels
 /
 /
@@ -10849,7 +10847,7 @@ space
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -11117,8 +11115,7 @@ only
 convert
 coordinates
 from
-global
-display
+desktop
 pixels
 /
 /
@@ -11141,7 +11138,7 @@ space
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -21103,7 +21100,7 @@ height
 ;
 MOZ_ASSERT
 (
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 "

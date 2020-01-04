@@ -1147,8 +1147,7 @@ APIs
 /
 as
 "
-global
-display
+desktop
 pixels
 "
 rather
@@ -1239,7 +1238,7 @@ device
 pixels
 .
 bool
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 const

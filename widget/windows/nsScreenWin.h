@@ -272,7 +272,7 @@ screen
 size
 in
 '
-display
+desktop
 pixels
 '
 (
