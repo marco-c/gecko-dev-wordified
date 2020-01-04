@@ -2135,9 +2135,6 @@ const
 int32_t
 &
 aOffset
-bool
-*
-aRetVal
 )
 {
 HyperTextAccessible
@@ -2148,11 +2145,6 @@ IdToHyperTextAccessible
 (
 aID
 )
-;
-*
-aRetVal
-=
-false
 ;
 if
 (
@@ -2176,11 +2168,6 @@ aOffset
 )
 )
 {
-*
-aRetVal
-=
-true
-;
 acc
 -
 >

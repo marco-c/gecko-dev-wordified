@@ -634,9 +634,6 @@ const
 int32_t
 &
 aOffset
-bool
-*
-aValid
 )
 override
 ;

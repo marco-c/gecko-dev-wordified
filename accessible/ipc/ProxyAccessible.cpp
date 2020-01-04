@@ -1340,7 +1340,7 @@ return
 offset
 ;
 }
-bool
+void
 ProxyAccessible
 :
 :
@@ -1350,11 +1350,6 @@ int32_t
 aOffset
 )
 {
-bool
-valid
-=
-false
-;
 unused
 <
 <
@@ -1365,12 +1360,7 @@ SendSetCaretOffset
 (
 mID
 aOffset
-&
-valid
 )
-;
-return
-valid
 ;
 }
 int32_t

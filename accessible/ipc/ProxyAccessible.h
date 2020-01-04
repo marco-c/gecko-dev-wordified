@@ -737,7 +737,7 @@ CaretOffset
 (
 )
 ;
-bool
+void
 SetCaretOffset
 (
 int32_t
