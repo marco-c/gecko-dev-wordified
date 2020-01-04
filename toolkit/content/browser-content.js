@@ -4111,6 +4111,14 @@ k
 "
 function
 "
+&
+&
+!
+(
+k
+in
+KeyboardEvent
+)
 )
 {
 fakeEvent
