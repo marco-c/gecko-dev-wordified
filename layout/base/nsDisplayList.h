@@ -17225,7 +17225,7 @@ ImageContainer
 mImageContainer
 ;
 LayoutDeviceRect
-mDestRect
+mImageLayerDestRect
 ;
 /
 *

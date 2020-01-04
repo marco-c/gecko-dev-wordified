@@ -16108,7 +16108,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-mDestRect
+mImageLayerDestRect
 =
 LayoutDeviceRect
 :
@@ -16609,7 +16609,7 @@ const
 LayerRect
 destLayerRect
 =
-mDestRect
+mImageLayerDestRect
 *
 aParameters
 .
@@ -17044,7 +17044,7 @@ const
 LayoutDevicePoint
 p
 =
-mDestRect
+mImageLayerDestRect
 .
 TopLeft
 (
@@ -17070,12 +17070,12 @@ transform
 .
 PreScale
 (
-mDestRect
+mImageLayerDestRect
 .
 width
 /
 imageWidth
-mDestRect
+mImageLayerDestRect
 .
 height
 /
