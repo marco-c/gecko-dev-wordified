@@ -499,7 +499,9 @@ virtual
 bool
 finalizeInBackground
 (
+const
 Value
+&
 priv
 )
 const
