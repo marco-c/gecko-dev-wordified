@@ -1352,6 +1352,9 @@ LDefinition
 DOUBLE
 LFloatReg
 (
+FloatRegisters
+:
+:
 d1
 )
 )
