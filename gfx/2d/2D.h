@@ -7631,9 +7631,13 @@ GetLogForwarder
 {
 return
 sConfig
+?
+sConfig
 -
 >
 mLogForwarder
+:
+nullptr
 ;
 }
 private
