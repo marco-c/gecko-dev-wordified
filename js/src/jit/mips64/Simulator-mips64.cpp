@@ -8235,6 +8235,14 @@ Simulator
 Simulator
 (
 )
+:
+cacheLock_
+(
+mutexid
+:
+:
+SimulatorCacheLock
+)
 {
 /
 /

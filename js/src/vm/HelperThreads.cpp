@@ -4603,6 +4603,13 @@ numWasmFailedJobs
 (
 0
 )
+helperLock
+(
+mutexid
+:
+:
+GlobalHelperThreadState
+)
 {
 cpuCount
 =

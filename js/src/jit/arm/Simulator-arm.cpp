@@ -9215,6 +9215,13 @@ cx_
 (
 cx
 )
+cacheLock_
+(
+mutexid
+:
+:
+SimulatorCacheLock
+)
 {
 /
 /

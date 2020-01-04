@@ -225,6 +225,13 @@ rt
 (
 rt
 )
+strings
+(
+mutexid
+:
+:
+SPSProfilerStrings
+)
 stack_
 (
 nullptr

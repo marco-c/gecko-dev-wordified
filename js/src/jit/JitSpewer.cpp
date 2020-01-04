@@ -199,9 +199,9 @@ h
 #
 include
 "
-threading
+vm
 /
-Mutex
+HelperThreads
 .
 h
 "
@@ -210,7 +210,7 @@ include
 "
 vm
 /
-HelperThreads
+MutexIDs
 .
 h
 "
@@ -305,6 +305,13 @@ IonSpewer
 (
 )
 :
+outputLock_
+(
+mutexid
+:
+:
+IonSpewer
+)
 firstFunction_
 (
 false
