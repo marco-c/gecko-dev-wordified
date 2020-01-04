@@ -3931,6 +3931,9 @@ true
 isMoving
 :
 false
+isUserDrag
+:
+true
 time
 :
 time
@@ -4513,6 +4516,9 @@ isAtLeastOneAnimationPlaying
 isMoving
 :
 false
+isUserDrag
+:
+false
 time
 :
 TimeScale
@@ -4550,6 +4556,9 @@ false
 isMoving
 :
 true
+isUserDrag
+:
+false
 time
 :
 TimeScale
