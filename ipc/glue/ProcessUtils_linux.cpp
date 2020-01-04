@@ -1460,7 +1460,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -1816,7 +1815,6 @@ sProcLoaderLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 AsyncSendLoad
@@ -2661,7 +2659,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 _ProcLoaderChildDestroy
@@ -2726,7 +2723,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 _ProcLoaderChildDestroy

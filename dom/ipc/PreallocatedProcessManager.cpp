@@ -434,7 +434,7 @@ of
 app
 startup
 .
-CancelableTask
+CancelableRunnable
 *
 mPreallocateAppProcessTask
 ;
@@ -1138,7 +1138,7 @@ return
 }
 RefPtr
 <
-CancelableTask
+CancelableRunnable
 >
 task
 =

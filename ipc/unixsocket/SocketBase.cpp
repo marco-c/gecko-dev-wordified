@@ -1374,7 +1374,7 @@ SocketEventTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketEventTask
 :
 :
@@ -1445,6 +1445,7 @@ an
 error
 .
 return
+NS_OK
 ;
 }
 SocketBase
@@ -1513,6 +1514,9 @@ NotifyDisconnect
 )
 ;
 }
+return
+NS_OK
+;
 }
 /
 /
@@ -1559,7 +1563,7 @@ SocketRequestClosingTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketRequestClosingTask
 :
 :
@@ -1630,6 +1634,7 @@ an
 error
 .
 return
+NS_OK
 ;
 }
 SocketBase
@@ -1654,6 +1659,9 @@ socketBase
 Close
 (
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -1698,7 +1706,7 @@ SocketDeleteInstanceTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketDeleteInstanceTask
 :
 :
@@ -1716,6 +1724,9 @@ reset
 /
 delete
 instance
+return
+NS_OK
+;
 }
 /
 /
@@ -1762,7 +1773,7 @@ SocketIOShutdownTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketIOShutdownTask
 :
 :
@@ -1898,13 +1909,17 @@ GetConsumerThread
 >
 PostTask
 (
-FROM_HERE
-new
+MakeAndAddRef
+<
 SocketDeleteInstanceTask
+>
 (
 io
 )
 )
+;
+return
+NS_OK
 ;
 }
 }

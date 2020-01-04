@@ -508,7 +508,6 @@ ioloop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 RunNuwaFork

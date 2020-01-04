@@ -1333,7 +1333,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 NetdClient
@@ -1894,7 +1893,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 InitNetdIOThread
@@ -1942,7 +1940,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownNetdIOThread
@@ -2177,7 +2174,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 NetdClient

@@ -2037,7 +2037,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 EnableSwitchNotificationsIOThread
@@ -2100,7 +2099,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DisableSwitchNotificationsIOThread
@@ -2179,7 +2177,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 NotifySwitchStateIOThread

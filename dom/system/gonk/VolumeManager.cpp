@@ -3418,7 +3418,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 VolumeManager
@@ -3784,7 +3783,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 InitVolumeManagerIOThread
@@ -3808,7 +3806,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownVolumeManagerIOThread

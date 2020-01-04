@@ -1178,7 +1178,7 @@ mWatcher
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketMessageWatcherTask
 :
 :
@@ -1192,6 +1192,9 @@ mWatcher
 Watch
 (
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -1222,7 +1225,7 @@ mRes
 )
 ;
 }
-void
+NS_IMETHODIMP
 DeleteSocketMessageWatcherTask
 :
 :
@@ -1262,6 +1265,7 @@ wrapper
 )
 {
 return
+NS_OK
 ;
 }
 /
@@ -1297,6 +1301,9 @@ Proceed
 (
 STATUS_DONE
 )
+;
+return
+NS_OK
 ;
 }
 END_BLUETOOTH_NAMESPACE

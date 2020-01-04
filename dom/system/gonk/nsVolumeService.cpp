@@ -421,7 +421,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownVolumeServiceIOThread
@@ -519,7 +518,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 InitVolumeServiceIOThread

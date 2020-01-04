@@ -2893,7 +2893,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 RegisterBatteryObserverIOThread
@@ -2949,7 +2948,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 UnregisterBatteryObserverIOThread
