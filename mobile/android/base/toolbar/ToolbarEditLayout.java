@@ -697,7 +697,7 @@ user
 taps
 on
 the
-title
+URL
 bar
 if
 (
