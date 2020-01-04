@@ -1953,11 +1953,6 @@ mInfo
 ;
 }
 ;
-template
-<
-typename
-PromiseType
->
 struct
 DecoderDataWithPromise
 :
@@ -1988,7 +1983,7 @@ aDecodeAhead
 }
 MozPromiseHolder
 <
-PromiseType
+MediaDataPromise
 >
 mPromise
 ;
@@ -2058,15 +2053,9 @@ false
 }
 ;
 DecoderDataWithPromise
-<
-MediaDataPromise
->
 mAudio
 ;
 DecoderDataWithPromise
-<
-MediaDataPromise
->
 mVideo
 ;
 /
