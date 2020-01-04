@@ -25896,7 +25896,7 @@ i
 new
 Intent
 (
-TelemetryConstants
+TelemetryUploadService
 .
 ACTION_UPLOAD_CORE
 )
@@ -25915,7 +25915,7 @@ i
 .
 putExtra
 (
-TelemetryConstants
+TelemetryUploadService
 .
 EXTRA_DEFAULT_SEARCH_ENGINE
 (
@@ -25938,7 +25938,7 @@ i
 .
 putExtra
 (
-TelemetryConstants
+TelemetryUploadService
 .
 EXTRA_DOC_ID
 UUID
@@ -25956,7 +25956,7 @@ i
 .
 putExtra
 (
-TelemetryConstants
+TelemetryUploadService
 .
 EXTRA_PROFILE_NAME
 profile
@@ -25970,7 +25970,7 @@ i
 .
 putExtra
 (
-TelemetryConstants
+TelemetryUploadService
 .
 EXTRA_PROFILE_PATH
 profile
@@ -25988,7 +25988,7 @@ i
 .
 putExtra
 (
-TelemetryConstants
+TelemetryUploadService
 .
 EXTRA_SEQ
 seq
