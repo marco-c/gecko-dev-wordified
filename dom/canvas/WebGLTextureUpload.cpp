@@ -12160,6 +12160,14 @@ height
 )
 )
 {
+MOZ_ASSERT
+(
+dstUsage
+-
+>
+idealUnpack
+)
+;
 error
 =
 DoCopyTexImage2D
@@ -12167,6 +12175,12 @@ DoCopyTexImage2D
 gl
 target
 level
+dstUsage
+-
+>
+idealUnpack
+-
+>
 internalFormat
 x
 y
