@@ -3484,12 +3484,6 @@ FreeOp
 fop
 )
 ;
-void
-fixupAfterMovingGC
-(
-)
-{
-}
 /
 *
 Gets
