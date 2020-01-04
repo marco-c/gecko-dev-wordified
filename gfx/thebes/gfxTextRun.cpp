@@ -18365,7 +18365,7 @@ if
 aRunScript
 =
 =
-HB_SCRIPT_UNKNOWN
+MOZ_SCRIPT_UNKNOWN
 )
 {
 return
