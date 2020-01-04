@@ -408,6 +408,8 @@ browser
 }
 else
 {
+try
+{
 window
 .
 __proto__
@@ -419,6 +421,13 @@ __proto__
 }
 ]
 ;
+}
+catch
+(
+e
+)
+{
+}
 for
 (
 var

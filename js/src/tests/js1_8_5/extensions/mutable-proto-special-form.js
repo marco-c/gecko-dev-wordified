@@ -498,6 +498,8 @@ undefined
 "
 )
 ;
+try
+{
 var
 superProto
 =
@@ -658,6 +660,13 @@ access
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 typeof
