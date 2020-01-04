@@ -986,7 +986,7 @@ INT_MIN
 aStream
 -
 >
-CheckForInactive
+ScheduleCheckForInactive
 (
 )
 ;
