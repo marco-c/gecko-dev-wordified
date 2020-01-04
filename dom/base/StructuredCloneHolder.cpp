@@ -3174,7 +3174,10 @@ MultipartBlobImpl
 :
 Create
 (
+Move
+(
 newSubBlobImpls
+)
 name
 contentType
 aRv
@@ -3190,7 +3193,10 @@ MultipartBlobImpl
 :
 Create
 (
+Move
+(
 newSubBlobImpls
+)
 contentType
 aRv
 )

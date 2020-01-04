@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 File
@@ -221,7 +230,6 @@ MultipartBlobImpl
 >
 Create
 (
-const
 nsTArray
 <
 RefPtr
@@ -229,6 +237,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -257,7 +266,6 @@ MultipartBlobImpl
 >
 Create
 (
-const
 nsTArray
 <
 RefPtr
@@ -265,6 +273,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -552,7 +561,6 @@ protected
 :
 MultipartBlobImpl
 (
-const
 nsTArray
 <
 RefPtr
@@ -560,6 +568,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -580,7 +589,10 @@ UINT64_MAX
 )
 mBlobImpls
 (
+Move
+(
 aBlobImpls
+)
 )
 mIsFromNsIFile
 (
@@ -590,7 +602,6 @@ false
 }
 MultipartBlobImpl
 (
-const
 nsTArray
 <
 RefPtr
@@ -598,6 +609,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -613,7 +625,10 @@ UINT64_MAX
 )
 mBlobImpls
 (
+Move
+(
 aBlobImpls
+)
 )
 mIsFromNsIFile
 (

@@ -252,7 +252,6 @@ MultipartBlobImpl
 :
 Create
 (
-const
 nsTArray
 <
 RefPtr
@@ -260,6 +259,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -284,7 +284,10 @@ blobImpl
 new
 MultipartBlobImpl
 (
+Move
+(
 aBlobImpls
+)
 aName
 aContentType
 )
@@ -335,7 +338,6 @@ MultipartBlobImpl
 :
 Create
 (
-const
 nsTArray
 <
 RefPtr
@@ -343,6 +345,7 @@ RefPtr
 BlobImpl
 >
 >
+&
 &
 aBlobImpls
 const
@@ -363,7 +366,10 @@ blobImpl
 new
 MultipartBlobImpl
 (
+Move
+(
 aBlobImpls
+)
 aContentType
 )
 ;
@@ -966,7 +972,10 @@ impl
 =
 Create
 (
+Move
+(
 blobImpls
+)
 aContentType
 aRv
 )
