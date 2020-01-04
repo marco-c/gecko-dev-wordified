@@ -1242,6 +1242,9 @@ GetDecodeDone
 const
 {
 return
+mReachedTerminalState
+|
+|
 mDecodeDone
 |
 |
@@ -1258,9 +1261,6 @@ HasSize
 HasError
 (
 )
-|
-|
-mDataDone
 ;
 }
 /
@@ -2740,7 +2740,7 @@ mInFrame
 1
 ;
 bool
-mDataDone
+mReachedTerminalState
 :
 1
 ;

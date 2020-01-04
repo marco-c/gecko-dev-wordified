@@ -372,7 +372,7 @@ mInFrame
 (
 false
 )
-mDataDone
+mReachedTerminalState
 (
 false
 )
@@ -853,10 +853,6 @@ SourceBufferIterator
 :
 COMPLETE
 :
-mDataDone
-=
-true
-;
 /
 /
 Normally
@@ -1041,6 +1037,10 @@ MOZ_ASSERT
 (
 terminalState
 )
+;
+mReachedTerminalState
+=
+true
 ;
 /
 /
