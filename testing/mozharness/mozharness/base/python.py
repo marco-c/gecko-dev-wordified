@@ -6413,7 +6413,7 @@ it
 from
 the
 individual
-tiers
+phases
 .
             
 data
@@ -6440,7 +6440,7 @@ cpulen
             
 #
 Each
-tier
+phases
 also
 has
 the
@@ -6455,12 +6455,12 @@ level
 .
             
 for
-tier
+phase
 in
 resources
 [
 '
-tiers
+phases
 '
 ]
 :
@@ -6478,8 +6478,8 @@ self
 .
 _get_resource_usage
 (
-tier
-tier
+phase
+phase
 [
 '
 name
@@ -6496,7 +6496,7 @@ duration
 '
 not
 in
-tier
+phase
 :
                     
 self
@@ -6528,7 +6528,7 @@ append
 name
 '
 :
-tier
+phase
 [
 '
 name
@@ -6539,7 +6539,7 @@ name
 value
 '
 :
-tier
+phase
 [
 '
 duration
