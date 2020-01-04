@@ -1521,9 +1521,6 @@ case
 eLegacyDragDrop
 :
 case
-eLegacyDragGesture
-:
-case
 eDrag
 :
 case
