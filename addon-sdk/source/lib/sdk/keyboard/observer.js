@@ -442,8 +442,16 @@ event
 target
 .
 ownerDocument
+?
+event
+.
+target
+.
+ownerDocument
 .
 defaultView
+:
+undefined
 )
 ;
 }
