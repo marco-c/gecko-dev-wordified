@@ -352,6 +352,12 @@ MessagePortIdentifier
 class
 StructuredCloneHolder
 ;
+class
+WorkerDebuggerGlobalScope
+;
+class
+WorkerGlobalScope
+;
 }
 /
 /
@@ -397,12 +403,6 @@ WorkerControlRunnable
 ;
 class
 WorkerDebugger
-;
-class
-WorkerDebuggerGlobalScope
-;
-class
-WorkerGlobalScope
 ;
 class
 WorkerPrivate
