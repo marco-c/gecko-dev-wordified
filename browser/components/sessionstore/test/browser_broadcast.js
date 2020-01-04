@@ -660,9 +660,9 @@ using
 asynchronous
 messages
 .
-TabStateFlusher
+TabState
 .
-flush
+flushAsync
 (
 browser
 )
@@ -867,9 +867,9 @@ using
 asynchronous
 messages
 .
-TabStateFlusher
+TabState
 .
-flush
+flushAsync
 (
 browser
 )
