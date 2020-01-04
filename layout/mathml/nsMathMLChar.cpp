@@ -12230,7 +12230,13 @@ MFR
 >
 RecordScript
 (
-MOZ_SCRIPT_MATHEMATICAL_NOTATION
+unicode
+:
+:
+Script
+:
+:
+MATHEMATICAL_NOTATION
 )
 ;
 }

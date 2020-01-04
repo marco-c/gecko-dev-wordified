@@ -7976,7 +7976,7 @@ GlobalFontFallback
 const
 uint32_t
 aCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle
