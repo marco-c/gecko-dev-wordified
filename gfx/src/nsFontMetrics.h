@@ -435,13 +435,6 @@ final
 public
 :
 typedef
-gfxTextRun
-:
-:
-Range
-Range
-;
-typedef
 mozilla
 :
 :
