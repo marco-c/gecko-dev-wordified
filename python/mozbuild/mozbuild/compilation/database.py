@@ -71,12 +71,6 @@ types
 from
 mozbuild
 .
-base
-import
-MozbuildObject
-from
-mozbuild
-.
 compilation
 import
 util
@@ -99,10 +93,6 @@ import
     
 Sources
     
-HostSources
-    
-UnifiedSources
-    
 GeneratedSources
     
 DirectoryTraversal
@@ -124,10 +114,6 @@ shellutil
 import
 (
     
-split
-as
-shell_split
-    
 quote
 as
 shell_quote
@@ -138,18 +124,6 @@ mozbuild
 util
 import
 expand_variables
-from
-mach
-.
-config
-import
-ConfigSettings
-from
-mach
-.
-logging
-import
-LoggingManager
 import
 mozpack
 .
@@ -241,35 +215,6 @@ _flags
 =
 {
 }
-        
-log_manager
-=
-LoggingManager
-(
-)
-        
-self
-.
-_cmd
-=
-MozbuildObject
-(
-self
-.
-environment
-.
-topsrcdir
-ConfigSettings
-(
-)
-                                   
-log_manager
-self
-.
-environment
-.
-topobjdir
-)
         
 self
 .
