@@ -27017,7 +27017,7 @@ return
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -27033,6 +27033,8 @@ scoped
 >
 "
 )
+;
+return
 ;
 }
 mStylesHaveChanged
