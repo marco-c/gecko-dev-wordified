@@ -380,7 +380,6 @@ next
 ;
 }
 function
-*
 testMigration
 (
 manifest

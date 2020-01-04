@@ -1833,7 +1833,6 @@ Functions
 /
 History
 function
-*
 test_history_cleared_with_direct_match
 (
 )
@@ -1904,7 +1903,6 @@ TEST_URI
 ;
 }
 function
-*
 test_history_cleared_with_subdomain
 (
 )
@@ -1977,7 +1975,6 @@ TEST_URI
 ;
 }
 function
-*
 test_history_not_cleared_with_uri_contains_domain
 (
 )
@@ -2830,7 +2827,6 @@ promise
 Content
 Preferences
 function
-*
 test_content_preferences_cleared_with_direct_match
 (
 )
@@ -2902,7 +2898,6 @@ TEST_URI
 ;
 }
 function
-*
 test_content_preferences_cleared_with_subdomain
 (
 )
@@ -2976,7 +2971,6 @@ TEST_URI
 ;
 }
 function
-*
 test_content_preferences_not_cleared_with_uri_contains_domain
 (
 )
@@ -3080,7 +3074,6 @@ TEST_URI
 /
 Push
 function
-*
 test_push_cleared
 (
 )
@@ -3665,7 +3658,6 @@ do_test_pending
 ;
 }
 function
-*
 test_storage_cleared
 (
 )

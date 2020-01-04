@@ -373,7 +373,6 @@ next
 ;
 }
 function
-*
 testAddProviders
 (
 manifests
@@ -446,7 +445,6 @@ enabled
 ;
 }
 function
-*
 testRemoveProviders
 (
 manifests
@@ -497,7 +495,6 @@ enabled
 ;
 }
 function
-*
 testGetProvider
 (
 manifests
@@ -600,7 +597,6 @@ null
 ;
 }
 function
-*
 testGetProviderList
 (
 manifests
@@ -724,7 +720,6 @@ name
 }
 }
 function
-*
 testAddRemoveProvider
 (
 manifests
@@ -967,7 +962,6 @@ newProvider
 ;
 }
 function
-*
 testIsSameOrigin
 (
 manifests
@@ -1252,7 +1246,6 @@ null
 ;
 }
 function
-*
 testResolveUri
 (
 manifests
@@ -1424,7 +1417,6 @@ hi
 ;
 }
 function
-*
 testOrderedProviders
 (
 manifests
