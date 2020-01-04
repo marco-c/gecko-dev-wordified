@@ -21479,6 +21479,12 @@ range
 .
 if
 (
+!
+JitOptions
+.
+disableRecoverIns
+&
+&
 isRecoverableResult
 &
 &
