@@ -3369,6 +3369,13 @@ addEventListener
 paste
 "
 blurOnMultipleProperties
+(
+this
+.
+rule
+.
+cssProperties
+)
 false
 )
 ;
@@ -3480,6 +3487,13 @@ multipleAddedProperties
 =
 parseDeclarations
 (
+this
+.
+rule
+.
+cssProperties
+.
+isKnown
 value
 true
 )

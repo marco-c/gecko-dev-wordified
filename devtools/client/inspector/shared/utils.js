@@ -916,8 +916,15 @@ value
 function
 blurOnMultipleProperties
 (
+cssProperties
+)
+{
+return
+(
 e
 )
+=
+>
 {
 setTimeout
 (
@@ -931,6 +938,9 @@ props
 =
 parseDeclarations
 (
+cssProperties
+.
+isKnown
 e
 .
 target
@@ -959,6 +969,8 @@ blur
 }
 0
 )
+;
+}
 ;
 }
 exports
