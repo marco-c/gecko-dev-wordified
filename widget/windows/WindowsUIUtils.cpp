@@ -102,6 +102,13 @@ h
 >
 #
 include
+<
+winsdkver
+.
+h
+>
+#
+include
 "
 mozwrlbase
 .
@@ -333,9 +340,9 @@ legwork
 /
 #
 if
-MOZ_WINSDK_MAXVER
+WINVER_MAXVER
 <
-0x0A000000
+0x0A00
 namespace
 ABI
 {
@@ -385,9 +392,9 @@ UIViewSettings
 endif
 #
 if
-MOZ_WINSDK_MAXVER
+WINVER_MAXVER
 <
-0x0A000000
+0x0A00
 namespace
 ABI
 {

@@ -119,6 +119,13 @@ algorithm
 >
 #
 include
+<
+winsdkver
+.
+h
+>
+#
+include
 "
 WMFVideoMFTManager
 .
@@ -373,9 +380,9 @@ LayersBackend
 ;
 #
 if
-MOZ_WINSDK_MAXVER
+WINVER_MAXVER
 <
-0x0A000000
+0x0A00
 /
 /
 Windows
