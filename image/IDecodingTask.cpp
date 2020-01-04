@@ -313,15 +313,8 @@ decoder
 /
 /
 /
-/
-*
 static
-*
-/
 void
-IDecodingTask
-:
-:
 NotifyProgress
 (
 NotNull
