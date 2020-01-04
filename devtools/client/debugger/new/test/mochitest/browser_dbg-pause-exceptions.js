@@ -120,11 +120,6 @@ exceptions
 .
 html
 "
-"
-exceptions
-.
-js
-"
 )
 ;
 /

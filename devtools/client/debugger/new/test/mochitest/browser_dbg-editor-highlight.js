@@ -335,17 +335,6 @@ been
 loaded
 yet
 .
-yield
-waitForSources
-(
-dbg
-"
-simple1
-.
-js
-"
-)
-;
 selectSource
 (
 dbg
