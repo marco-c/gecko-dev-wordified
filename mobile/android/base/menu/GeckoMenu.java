@@ -1675,12 +1675,12 @@ if
 (
 actionView
 instanceof
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 {
 (
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 actionView
 )
@@ -1714,7 +1714,7 @@ menuItem
 ;
 (
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 actionView
 )
@@ -3320,7 +3320,7 @@ else
 {
 (
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 actionView
 )
@@ -3964,7 +3964,7 @@ if
 (
 actionItem
 instanceof
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 {
 params
@@ -3973,7 +3973,7 @@ weight
 =
 (
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 actionItem
 )
@@ -4327,7 +4327,7 @@ null
 |
 view
 instanceof
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 {
 /
@@ -4354,7 +4354,7 @@ refreshed
 view
 =
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 item
 .
@@ -4427,7 +4427,7 @@ position
 ;
 (
 (
-MenuItemSwitcherLayout
+MenuItemActionView
 )
 view
 )
