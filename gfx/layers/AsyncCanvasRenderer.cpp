@@ -306,6 +306,7 @@ nsRunnable
 {
 public
 :
+explicit
 Runnable
 (
 AsyncCanvasRenderer
@@ -429,6 +430,7 @@ nsRunnable
 {
 public
 :
+explicit
 Runnable
 (
 AsyncCanvasRenderer
