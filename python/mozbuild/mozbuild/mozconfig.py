@@ -782,6 +782,8 @@ MOZCONFIG
 '
 None
 )
+or
+None
         
 if
 env_path
