@@ -197,7 +197,10 @@ h
 #
 endif
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetTimerLog
 (

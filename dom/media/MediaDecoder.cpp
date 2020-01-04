@@ -722,14 +722,6 @@ PR_LOGGING
 )
 PRLogModuleInfo
 *
-gStateWatchingLog
-;
-PRLogModuleInfo
-*
-gMozPromiseLog
-;
-PRLogModuleInfo
-*
 gMediaTimerLog
 ;
 PRLogModuleInfo

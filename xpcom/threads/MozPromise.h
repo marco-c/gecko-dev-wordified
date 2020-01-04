@@ -203,8 +203,7 @@ namespace
 mozilla
 {
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMozPromiseLog
 ;
 #
@@ -216,12 +215,6 @@ x
 .
 .
 )
-\
-MOZ_ASSERT
-(
-gMozPromiseLog
-)
-;
 \
 MOZ_LOG
 (
