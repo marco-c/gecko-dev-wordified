@@ -11180,7 +11180,11 @@ ImportDeviceInfo
 (
 aData
 .
-d3d11Device
+gpuDevice
+(
+)
+.
+get_D3D11DeviceStatus
 (
 )
 )
