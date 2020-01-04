@@ -2277,9 +2277,6 @@ public
 :
 MediaEngineWebRTCMicrophoneSource
 (
-nsIThread
-*
-aThread
 webrtc
 :
 :
@@ -2914,12 +2911,6 @@ Maps
 to
 mSources
 .
-nsCOMPtr
-<
-nsIThread
->
-mThread
-;
 int
 mCapIndex
 ;
