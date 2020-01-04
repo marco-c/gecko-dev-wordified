@@ -294,8 +294,8 @@ a
 assertIterable
 (
 [
-2
-2
+3
+3
 1
 1
 ]
@@ -330,8 +330,8 @@ undefined
 assertIterable
 (
 [
-2
-2
+3
+3
 1
 1
 ]
