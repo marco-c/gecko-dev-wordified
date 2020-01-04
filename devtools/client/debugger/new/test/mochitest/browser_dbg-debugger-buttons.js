@@ -154,13 +154,6 @@ statements
 .
 html
 "
-"
-debugger
--
-statements
-.
-html
-"
 )
 ;
 yield
