@@ -4101,6 +4101,10 @@ RollbackIceRestart_s
 NS_DISPATCH_NORMAL
 )
 ;
+mIceRestartState
+=
+ICE_RESTART_NONE
+;
 }
 void
 PeerConnectionMedia
