@@ -1190,6 +1190,15 @@ LSubI64
 lir
 )
 ;
+virtual
+void
+visitMulI64
+(
+LMulI64
+*
+lir
+)
+;
 /
 /
 Out
