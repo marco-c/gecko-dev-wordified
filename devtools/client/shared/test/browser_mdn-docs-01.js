@@ -248,11 +248,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
+/
+widgets
 /
 mdn
 -

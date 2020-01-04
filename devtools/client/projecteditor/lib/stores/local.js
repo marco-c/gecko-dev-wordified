@@ -1118,11 +1118,15 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+projecteditor
+/
+lib
+/
+helpers
 /
 readdir
 .

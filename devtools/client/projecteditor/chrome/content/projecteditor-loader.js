@@ -196,11 +196,15 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+projecteditor
+/
+chrome
+/
+content
 /
 projecteditor
 -

@@ -1604,11 +1604,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
-/
-devtools
 /
 framework
 /
