@@ -128,13 +128,6 @@ h
 #
 include
 "
-FFmpegLibWrapper
-.
-h
-"
-#
-include
-"
 FFmpegAudioDecoder
 .
 h
@@ -169,9 +162,6 @@ PlatformDecoderModule
 >
 Create
 (
-FFmpegLibWrapper
-*
-aLib
 )
 {
 RefPtr
@@ -183,7 +173,6 @@ pdm
 new
 FFmpegDecoderModule
 (
-aLib
 )
 ;
 return
@@ -196,14 +185,6 @@ forget
 }
 FFmpegDecoderModule
 (
-FFmpegLibWrapper
-*
-aLib
-)
-:
-mLib
-(
-aLib
 )
 {
 }
@@ -256,7 +237,6 @@ FFmpegVideoDecoder
 V
 >
 (
-mLib
 aVideoTaskQueue
 aCallback
 aConfig
@@ -310,7 +290,6 @@ FFmpegAudioDecoder
 V
 >
 (
-mLib
 aAudioTaskQueue
 aCallback
 aConfig
@@ -418,7 +397,6 @@ V
 :
 FindAVCodec
 (
-mLib
 codec
 )
 ;
@@ -487,12 +465,6 @@ kNeedNone
 ;
 }
 }
-private
-:
-FFmpegLibWrapper
-*
-mLib
-;
 }
 ;
 }
