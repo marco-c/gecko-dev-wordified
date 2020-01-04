@@ -471,14 +471,6 @@ NS_IsMainThread
 )
 )
 ;
-if
-(
-mShuttingDown
-)
-{
-return
-;
-}
 MediaDecoder
 :
 :
