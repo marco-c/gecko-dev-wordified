@@ -1738,6 +1738,11 @@ children
 }
 else
 {
+if
+(
+census
+)
+{
 bytes
 =
 census
@@ -1750,6 +1755,7 @@ census
 .
 totalCount
 ;
+}
 }
 return
 {
