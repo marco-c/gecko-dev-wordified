@@ -3721,16 +3721,6 @@ isDerivedClassConstructor
 )
 )
 {
-MOZ_ASSERT
-(
-fun
--
->
-isClassConstructor
-(
-)
-)
-;
 rval
 .
 set
