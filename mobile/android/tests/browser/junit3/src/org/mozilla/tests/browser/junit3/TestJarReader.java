@@ -726,7 +726,7 @@ contents
 =
 FileUtils
 .
-getFileContents
+readStringFromFile
 (
 file
 )
