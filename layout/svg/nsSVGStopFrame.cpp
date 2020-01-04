@@ -184,15 +184,11 @@ parent
 for
 this
 frame
-typedef
-nsFrame
-nsSVGStopFrameBase
-;
 class
 nsSVGStopFrame
 :
 public
-nsSVGStopFrameBase
+nsFrame
 {
 friend
 nsIFrame
@@ -217,7 +213,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGStopFrameBase
+nsFrame
 (
 aContext
 )
@@ -330,7 +326,7 @@ const
 override
 {
 return
-nsSVGStopFrameBase
+nsFrame
 :
 :
 IsFrameOfType
@@ -576,7 +572,7 @@ element
 "
 )
 ;
-nsSVGStopFrameBase
+nsFrame
 :
 :
 Init
@@ -703,7 +699,7 @@ GetParent
 ;
 }
 return
-nsSVGStopFrameBase
+nsFrame
 :
 :
 AttributeChanged
