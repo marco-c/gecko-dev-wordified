@@ -28982,7 +28982,7 @@ using
 *
 JS_RequestInterruptCallback
 (
-rt
+cx
 )
 .
 *
@@ -29095,9 +29095,9 @@ void
 )
 JS_RequestInterruptCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 namespace

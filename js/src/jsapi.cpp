@@ -28204,12 +28204,12 @@ void
 )
 JS_RequestInterruptCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
-rt
+cx
 -
 >
 requestInterrupt
