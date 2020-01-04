@@ -2199,7 +2199,7 @@ nsCSSProps
 :
 FindIndexOfKeyword
 (
-eCSSKeyword_true
+eCSSKeyword_unsafe
 nsCSSProps
 :
 :
@@ -2228,7 +2228,7 @@ nsCSSProps
 :
 FindIndexOfKeyword
 (
-eCSSKeyword_true
+eCSSKeyword_unsafe
 nsCSSProps
 :
 :
@@ -2292,7 +2292,7 @@ mKeyword
 =
 isTextAlignTrueEnabled
 ?
-eCSSKeyword_true
+eCSSKeyword_unsafe
 :
 eCSSKeyword_UNKNOWN
 ;
@@ -2316,7 +2316,7 @@ mKeyword
 =
 isTextAlignTrueEnabled
 ?
-eCSSKeyword_true
+eCSSKeyword_unsafe
 :
 eCSSKeyword_UNKNOWN
 ;
