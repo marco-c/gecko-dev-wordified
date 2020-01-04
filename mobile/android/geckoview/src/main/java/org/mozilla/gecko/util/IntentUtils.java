@@ -257,8 +257,8 @@ getEnvVarMap
 (
 NonNull
 final
-Intent
-unsafeIntent
+SafeIntent
+intent
 )
 {
 /
@@ -357,16 +357,6 @@ prevent
 crashing
 .
 final
-SafeIntent
-safeIntent
-=
-new
-SafeIntent
-(
-unsafeIntent
-)
-;
-final
 HashMap
 <
 String
@@ -409,7 +399,7 @@ i
 if
 (
 !
-unsafeIntent
+intent
 .
 hasExtra
 (
@@ -423,7 +413,7 @@ break
 maybeAddEnvVarToEnvVarMap
 (
 out
-safeIntent
+intent
 envKey
 matcher
 )

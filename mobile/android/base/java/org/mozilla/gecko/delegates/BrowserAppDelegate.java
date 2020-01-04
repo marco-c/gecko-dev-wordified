@@ -128,6 +128,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+SafeIntent
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 tabs
 .
 TabsPanel
@@ -381,7 +392,7 @@ onNewIntent
 (
 BrowserApp
 browserApp
-Intent
+SafeIntent
 intent
 )
 {

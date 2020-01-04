@@ -506,12 +506,10 @@ guestNotification
 public
 static
 void
-handleIntent
+onNotificationIntentReceived
 (
 BrowserApp
 context
-Intent
-intent
 )
 {
 context
