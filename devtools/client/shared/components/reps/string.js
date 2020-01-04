@@ -381,9 +381,8 @@ alternativeText
 alternativeText
 =
 "
-.
-.
-.
+\
+u2026
 "
 ;
 }
