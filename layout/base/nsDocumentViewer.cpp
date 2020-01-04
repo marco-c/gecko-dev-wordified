@@ -850,7 +850,11 @@ h
 #
 include
 "
-nsXMLHttpRequest
+mozilla
+/
+dom
+/
+XMLHttpRequestMainThread
 .
 h
 "
