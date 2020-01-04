@@ -5029,7 +5029,7 @@ regionToUpdate
 )
 )
 {
-gfxCriticalError
+gfxWarning
 (
 )
 <

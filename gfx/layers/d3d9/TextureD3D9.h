@@ -456,8 +456,10 @@ created
 our
 textures
 .
+RefPtr
+<
 DeviceManagerD3D9
-*
+>
 mCreatingDeviceManager
 ;
 StereoMode
