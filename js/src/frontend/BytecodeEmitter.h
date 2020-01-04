@@ -3406,10 +3406,6 @@ ParseNode
 pn
 VarEmitOption
 emitOption
-bool
-isLetExpr
-=
-false
 )
 ;
 bool
