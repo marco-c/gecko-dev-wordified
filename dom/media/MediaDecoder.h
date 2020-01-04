@@ -3060,7 +3060,7 @@ ifdef
 MOZ_ANDROID_OMX
 static
 bool
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 ;
