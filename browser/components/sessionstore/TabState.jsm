@@ -155,10 +155,6 @@ gre
 /
 modules
 /
-devtools
-/
-shared
-/
 Console
 .
 jsm

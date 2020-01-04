@@ -205,10 +205,6 @@ gre
 /
 modules
 /
-devtools
-/
-shared
-/
 Console
 .
 jsm
@@ -2330,10 +2326,6 @@ resource
 gre
 /
 modules
-/
-devtools
-/
-shared
 /
 Console
 .
