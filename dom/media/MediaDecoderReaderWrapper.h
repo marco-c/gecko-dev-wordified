@@ -141,6 +141,15 @@ h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
