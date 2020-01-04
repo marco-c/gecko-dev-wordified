@@ -13815,6 +13815,9 @@ RenderColorGlyph
 DrawTarget
 *
 aDrawTarget
+gfxContext
+*
+aContext
 mozilla
 :
 :
