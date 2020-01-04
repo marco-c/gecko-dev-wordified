@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+Snprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -1267,7 +1276,7 @@ strlen
 line
 )
 ;
-PR_snprintf
+snprintf
 (
 line
 +
@@ -1313,7 +1322,7 @@ strlen
 line
 )
 ;
-PR_snprintf
+snprintf
 (
 line
 +
@@ -1337,7 +1346,7 @@ strlen
 line
 )
 ;
-PR_snprintf
+snprintf
 (
 line
 +
@@ -1384,7 +1393,7 @@ i
 ]
 )
 )
-PR_snprintf
+snprintf
 (
 line
 +
@@ -1406,7 +1415,7 @@ i
 )
 ;
 else
-PR_snprintf
+snprintf
 (
 line
 +

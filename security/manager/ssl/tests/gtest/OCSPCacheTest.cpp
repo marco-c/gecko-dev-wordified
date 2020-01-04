@@ -140,6 +140,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -164,13 +173,6 @@ h
 include
 "
 prerr
-.
-h
-"
-#
-include
-"
-prprf
 .
 h
 "
@@ -616,7 +618,7 @@ serialBuf
 8
 ]
 ;
-PR_snprintf
+snprintf
 (
 reinterpret_cast
 <
@@ -979,7 +981,7 @@ serialBuf
 8
 ]
 ;
-PR_snprintf
+snprintf
 (
 reinterpret_cast
 <
@@ -1169,7 +1171,7 @@ serialBuf
 8
 ]
 ;
-PR_snprintf
+snprintf
 (
 reinterpret_cast
 <
@@ -1357,7 +1359,7 @@ serialBuf
 8
 ]
 ;
-PR_snprintf
+snprintf
 (
 reinterpret_cast
 <
