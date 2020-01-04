@@ -175,10 +175,6 @@ friend
 class
 SynthStreamListener
 ;
-friend
-class
-SpeechSynthesis
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
