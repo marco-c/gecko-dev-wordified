@@ -222,6 +222,9 @@ MediaEngineDefaultVideoSource
 MediaEngineDefaultVideoSource
 (
 )
+#
+ifdef
+MOZ_WEBRTC
 :
 MediaEngineCameraVideoSource
 (
@@ -231,6 +234,14 @@ FakeVideo
 Monitor
 "
 )
+#
+else
+:
+MediaEngineVideoSource
+(
+)
+#
+endif
 mTimer
 (
 nullptr
