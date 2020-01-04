@@ -7104,6 +7104,13 @@ PR_FALSE
 )
 ;
 }
+(
+void
+)
+NSS_Shutdown
+(
+)
+;
 if
 (
 rv
