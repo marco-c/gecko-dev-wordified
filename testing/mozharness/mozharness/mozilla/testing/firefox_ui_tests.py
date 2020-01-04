@@ -165,26 +165,17 @@ mozilla
 vcstools
 import
 VCSToolsScript
-deprecated_options
+#
+Command
+line
+arguments
+for
+firefox
+ui
+tests
+firefox_ui_tests_harness_config_options
 =
 [
-    
-#
-TODO
-update
-mozmill
--
-ci
-jobs
-to
-use
--
--
-disable
--
-e10s
-instead
-?
     
 [
 [
@@ -450,7 +441,7 @@ symbols
 ]
 ]
 +
-deprecated_options
+firefox_ui_tests_harness_config_options
 \
     
 +
@@ -1813,12 +1804,18 @@ arguments
 "
 "
         
-config_options
+extra_harness_config_options
 =
 extra_harness_config_options
 or
 [
 ]
+        
+config_options
+=
+firefox_ui_tests_harness_config_options
++
+extra_harness_config_options
         
 args
 =
