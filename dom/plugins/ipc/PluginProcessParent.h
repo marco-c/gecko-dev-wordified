@@ -189,7 +189,7 @@ include
 "
 mozilla
 /
-plugins
+ipc
 /
 TaskFactory
 .
@@ -479,6 +479,9 @@ std
 string
 mPluginFilePath
 ;
+ipc
+:
+:
 TaskFactory
 <
 PluginProcessParent
