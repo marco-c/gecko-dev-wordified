@@ -3021,6 +3021,11 @@ shrinkAllocableSpace
 (
 )
 ;
+void
+minimizeAllocableSpace
+(
+)
+;
 /
 *
 Profile
