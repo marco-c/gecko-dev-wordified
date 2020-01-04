@@ -259,7 +259,7 @@ i
 )
 )
 ;
-HeapValue
+GCPtrValue
 &
 lhs
 =

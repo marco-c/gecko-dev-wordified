@@ -204,7 +204,7 @@ PropertyIteratorObject
 struct
 NativeIterator
 {
-HeapPtrObject
+GCPtrObject
 obj
 ;
 /
@@ -223,15 +223,15 @@ Internal
 iterator
 object
 .
-HeapPtrFlatString
+GCPtrFlatString
 *
 props_array
 ;
-HeapPtrFlatString
+GCPtrFlatString
 *
 props_cursor
 ;
-HeapPtrFlatString
+GCPtrFlatString
 *
 props_end
 ;
@@ -295,7 +295,7 @@ JSITER_FOREACH
 ;
 }
 inline
-HeapPtrFlatString
+GCPtrFlatString
 *
 begin
 (
@@ -307,7 +307,7 @@ props_array
 ;
 }
 inline
-HeapPtrFlatString
+GCPtrFlatString
 *
 end
 (
@@ -345,7 +345,7 @@ return
 iterObj_
 ;
 }
-HeapPtrFlatString
+GCPtrFlatString
 *
 current
 (

@@ -706,7 +706,7 @@ protected
 js
 :
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 private
@@ -2858,7 +2858,7 @@ const
 js
 :
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 groupFromGC
 (

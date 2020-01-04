@@ -357,7 +357,7 @@ T
 js
 :
 :
-HeapPtr
+GCPtr
 <
 T
 >

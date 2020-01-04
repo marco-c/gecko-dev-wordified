@@ -8075,7 +8075,7 @@ lazyScriptFreeVariable
 )
 ;
 }
-HeapPtrFunction
+GCPtrFunction
 *
 innerFunctions
 =
@@ -8277,7 +8277,7 @@ atom
 )
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 *
 innerFunctions
 =

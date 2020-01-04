@@ -695,7 +695,7 @@ in
 proxies
 are
 not
-HeapValues
+GCPtrValues
 so
 do
 a
@@ -716,7 +716,7 @@ barrier
 *
 reinterpret_cast
 <
-HeapValue
+GCPtrValue
 *
 >
 (

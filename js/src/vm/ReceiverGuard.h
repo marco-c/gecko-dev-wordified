@@ -540,10 +540,10 @@ shape
 class
 HeapReceiverGuard
 {
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 public

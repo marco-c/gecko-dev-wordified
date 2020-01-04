@@ -628,7 +628,7 @@ Shape
 :
 insertIntoDictionary
 (
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )
@@ -750,7 +750,7 @@ parent
 listp
 =
 (
-HeapPtrShape
+GCPtrShape
 *
 )
 dictp
@@ -3153,7 +3153,7 @@ return
 false
 ;
 }
-HeapPtrShape
+GCPtrShape
 *
 listp
 =

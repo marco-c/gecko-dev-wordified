@@ -273,7 +273,7 @@ InitAtomMap
 AtomIndexMap
 *
 indices
-HeapPtrAtom
+GCPtrAtom
 *
 atoms
 )

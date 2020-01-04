@@ -2707,7 +2707,7 @@ BaseShape
 .
 *
 /
-HeapPtrUnownedBaseShape
+GCPtrUnownedBaseShape
 unowned_
 ;
 /
@@ -3690,7 +3690,7 @@ RelocationOverlay
 ;
 protected
 :
-HeapPtrBaseShape
+GCPtrBaseShape
 base_
 ;
 PreBarrieredId
@@ -3909,7 +3909,7 @@ for
 defines
 *
 /
-HeapPtrShape
+GCPtrShape
 parent
 ;
 /
@@ -3966,7 +3966,7 @@ data
 structure
 *
 /
-HeapPtrShape
+GCPtrShape
 *
 listp
 ;
@@ -4062,7 +4062,7 @@ obj
 void
 insertIntoDictionary
 (
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )
@@ -4077,7 +4077,7 @@ StackShape
 child
 uint32_t
 nfixed
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )
@@ -4483,7 +4483,7 @@ this
 ;
 }
 const
-HeapPtrShape
+GCPtrShape
 &
 previous
 (
@@ -8907,7 +8907,7 @@ StackShape
 child
 uint32_t
 nfixed
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )

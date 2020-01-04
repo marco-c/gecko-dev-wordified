@@ -630,7 +630,7 @@ group
 .
 *
 /
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -695,7 +695,7 @@ isDynamic
 ;
 }
 const
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -709,7 +709,7 @@ return
 proto_
 ;
 }
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -1582,7 +1582,7 @@ group
 s
 state
 .
-HeapId
+GCPtrId
 id
 ;
 /

@@ -978,7 +978,7 @@ frontend
 AtomIndexMap
 *
 indices
-HeapPtrAtom
+GCPtrAtom
 *
 atoms
 )

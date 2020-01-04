@@ -164,7 +164,7 @@ ProxyObject
 public
 JSObject
 {
-HeapPtrShape
+GCPtrShape
 shape
 ;
 /
@@ -293,7 +293,7 @@ Value
 priv
 )
 ;
-HeapValue
+GCPtrValue
 *
 slotOfPrivate
 (
@@ -302,7 +302,7 @@ slotOfPrivate
 return
 reinterpret_cast
 <
-HeapValue
+GCPtrValue
 *
 >
 (
@@ -502,7 +502,7 @@ extra
 }
 private
 :
-HeapValue
+GCPtrValue
 *
 slotOfExtra
 (
@@ -523,7 +523,7 @@ PROXY_EXTRA_SLOTS
 return
 reinterpret_cast
 <
-HeapValue
+GCPtrValue
 *
 >
 (

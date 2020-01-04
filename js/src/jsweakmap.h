@@ -850,7 +850,7 @@ of
 if
 any
 .
-HeapPtrObject
+GCPtrObject
 memberOf
 ;
 /

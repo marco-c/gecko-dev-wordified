@@ -10418,7 +10418,7 @@ isIncrementalGCInProgress
 (
 )
 )
-HeapValue
+GCPtrValue
 :
 :
 writeBarrierPre
@@ -12825,7 +12825,7 @@ denseElementsAreCopyOnWrite
 )
 )
 {
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 owner
 =
@@ -45923,7 +45923,7 @@ v
 js
 :
 :
-HeapValue
+GCPtrValue
 :
 :
 writeBarrierPre

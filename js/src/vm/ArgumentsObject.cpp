@@ -202,7 +202,7 @@ CopyStackFrameArguments
 const
 AbstractFramePtr
 frame
-HeapValue
+GCPtrValue
 *
 dst
 unsigned
@@ -570,7 +570,7 @@ copyArgs
 (
 JSContext
 *
-HeapValue
+GCPtrValue
 *
 dst
 unsigned
@@ -677,7 +677,7 @@ copyArgs
 (
 JSContext
 *
-HeapValue
+GCPtrValue
 *
 dstBase
 unsigned
@@ -783,7 +783,7 @@ src
 +
 numActuals
 ;
-HeapValue
+GCPtrValue
 *
 dst
 =
@@ -818,7 +818,7 @@ numActuals
 numFormals
 )
 {
-HeapValue
+GCPtrValue
 *
 dstEnd
 =
@@ -928,7 +928,7 @@ copyArgs
 JSContext
 *
 cx
-HeapValue
+GCPtrValue
 *
 dstBase
 unsigned
@@ -1027,7 +1027,7 @@ numActuals
 numFormals
 )
 {
-HeapValue
+GCPtrValue
 *
 dst
 =
@@ -1035,7 +1035,7 @@ dstBase
 +
 numActuals
 ;
-HeapValue
+GCPtrValue
 *
 dstEnd
 =

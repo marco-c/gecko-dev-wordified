@@ -1033,14 +1033,14 @@ src
 struct
 CopyToHeap
 {
-HeapValue
+GCPtrValue
 *
 dst
 ;
 explicit
 CopyToHeap
 (
-HeapValue
+GCPtrValue
 *
 dst
 )

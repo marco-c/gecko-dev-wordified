@@ -375,10 +375,10 @@ reflected
 in
 nativeGroup
 .
-HeapPtrObjectGroup
+GCPtrObjectGroup
 nativeGroup_
 ;
-HeapPtrShape
+GCPtrShape
 nativeShape_
 ;
 /
@@ -395,7 +395,7 @@ is
 created
 for
 .
-HeapPtrScript
+GCPtrScript
 allocationScript_
 ;
 jsbytecode
@@ -481,7 +481,7 @@ from
 this
 group
 .
-HeapPtrObjectGroup
+GCPtrObjectGroup
 replacementGroup_
 ;
 /
@@ -614,7 +614,7 @@ array
 of
 values
 .
-HeapPtrJitCode
+GCPtrJitCode
 constructorCode_
 ;
 /

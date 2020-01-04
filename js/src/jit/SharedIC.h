@@ -9805,7 +9805,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 obj_
 ;
 ICTypeMonitor_SingleObject
@@ -9820,7 +9820,7 @@ obj
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 object
 (
@@ -9926,7 +9926,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 ICTypeMonitor_ObjectGroup
@@ -9941,7 +9941,7 @@ group
 ;
 public
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -13611,7 +13611,7 @@ to
 check
 for
 .
-HeapPtrShape
+GCPtrShape
 protoShape_
 ;
 /
@@ -13644,7 +13644,7 @@ offset
 ;
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 protoShape
 (
@@ -14148,10 +14148,10 @@ and
 its
 shape
 .
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
 protected
@@ -14183,7 +14183,7 @@ holderShape
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -14193,7 +14193,7 @@ return
 holder_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -14318,7 +14318,7 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrShape
+GCPtrShape
 globalShape_
 ;
 ICGetName_Global
@@ -14365,7 +14365,7 @@ ICGetName_Global
 other
 )
 ;
-HeapPtrShape
+GCPtrShape
 &
 globalShape
 (
@@ -14841,10 +14841,10 @@ on
 this
 )
 .
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
 /
@@ -14853,7 +14853,7 @@ Function
 to
 call
 .
-HeapPtrFunction
+GCPtrFunction
 getter_
 ;
 /
@@ -14892,7 +14892,7 @@ pcOffset
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -14902,7 +14902,7 @@ return
 holder_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -14912,7 +14912,7 @@ return
 holderShape_
 ;
 }
-HeapPtrFunction
+GCPtrFunction
 &
 getter
 (
@@ -15585,7 +15585,7 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrShape
+GCPtrShape
 globalShape_
 ;
 ICGetProp_CallNativeGlobal
@@ -15652,7 +15652,7 @@ ICGetProp_CallNativeGlobal
 other
 )
 ;
-HeapPtrShape
+GCPtrShape
 &
 globalShape
 (
@@ -15851,7 +15851,7 @@ should
 be
 there
 )
-HeapPtrShape
+GCPtrShape
 expandoShape_
 ;
 ICGetPropCallDOMProxyNativeStub
@@ -15888,7 +15888,7 @@ pcOffset
 ;
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 expandoShape
 (
@@ -16252,7 +16252,7 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 const
@@ -16260,7 +16260,7 @@ BaseProxyHandler
 *
 proxyHandler_
 ;
-HeapPtrPropertyName
+GCPtrPropertyName
 name_
 ;
 uint32_t
@@ -16309,7 +16309,7 @@ ICGetProp_DOMProxyShadowed
 other
 )
 ;
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -16319,7 +16319,7 @@ return
 shape_
 ;
 }
-HeapPtrPropertyName
+GCPtrPropertyName
 &
 name
 (
@@ -16754,7 +16754,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 /
@@ -16780,7 +16780,7 @@ itself
 is
 not
 .
-HeapPtrObjectGroup
+GCPtrObjectGroup
 templateGroup_
 ;
 ICNewArray_Fallback
@@ -16885,7 +16885,7 @@ templateGroup
 }
 }
 ;
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (
@@ -16923,7 +16923,7 @@ templateObject_
 obj
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 templateGroup
 (
@@ -16965,7 +16965,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 explicit
@@ -17053,7 +17053,7 @@ getStubCode
 }
 }
 ;
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (

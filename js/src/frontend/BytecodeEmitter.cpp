@@ -59831,7 +59831,7 @@ length
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 cursor
 =

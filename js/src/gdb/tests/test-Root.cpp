@@ -269,7 +269,7 @@ obj
 js
 :
 :
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -326,7 +326,7 @@ obj
 js
 :
 :
-HeapValue
+GCPtrValue
 heapValue
 (
 JS

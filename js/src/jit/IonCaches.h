@@ -2818,7 +2818,7 @@ need
 /
 /
 for
-HeapPtrScripts
+GCPtrScripts
 here
 .
 struct

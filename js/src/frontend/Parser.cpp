@@ -18866,7 +18866,7 @@ i
 numFreeVariables
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 *
 innerFunctions
 =

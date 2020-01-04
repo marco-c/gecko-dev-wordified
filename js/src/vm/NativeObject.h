@@ -378,7 +378,7 @@ MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
-HeapValue
+GCPtrValue
 *
 vec
 size_t
@@ -2114,7 +2114,7 @@ flags
 SHARED_MEMORY
 ;
 }
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 ownerObject
 (
@@ -2131,7 +2131,7 @@ isCopyOnWrite
 return
 *
 (
-HeapPtrNativeObject
+GCPtrNativeObject
 *
 )
 (
@@ -2796,7 +2796,7 @@ and
 other
 state
 .
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 /

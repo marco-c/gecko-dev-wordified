@@ -283,7 +283,7 @@ modified
 .
 *
 /
-HeapValue
+GCPtrValue
 callee
 ;
 /
@@ -421,7 +421,7 @@ MAYBE_CALL_SLOT
 .
 *
 /
-HeapValue
+GCPtrValue
 args
 [
 1
@@ -456,7 +456,7 @@ args
 .
 *
 /
-HeapValue
+GCPtrValue
 *
 begin
 (
@@ -467,7 +467,7 @@ args
 ;
 }
 const
-HeapValue
+GCPtrValue
 *
 begin
 (
@@ -478,7 +478,7 @@ return
 args
 ;
 }
-HeapValue
+GCPtrValue
 *
 end
 (
@@ -491,7 +491,7 @@ numArgs
 ;
 }
 const
-HeapValue
+GCPtrValue
 *
 end
 (
@@ -1958,7 +1958,7 @@ data
 numArgs
 )
 ;
-HeapValue
+GCPtrValue
 &
 lhs
 =

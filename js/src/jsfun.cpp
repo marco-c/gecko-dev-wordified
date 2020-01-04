@@ -4907,7 +4907,7 @@ toExtended
 extendedSlots
 )
 (
-HeapValue
+GCPtrValue
 *
 )
 toExtended
