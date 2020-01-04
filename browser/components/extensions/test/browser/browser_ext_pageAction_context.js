@@ -180,12 +180,6 @@ Promise
 all
 (
 [
-new
-Promise
-(
-resolve
-=
->
 browser
 .
 pageAction
@@ -195,15 +189,7 @@ getTitle
 {
 tabId
 }
-resolve
 )
-)
-new
-Promise
-(
-resolve
-=
->
 browser
 .
 pageAction
@@ -213,8 +199,6 @@ getPopup
 {
 tabId
 }
-resolve
-)
 )
 ]
 )
