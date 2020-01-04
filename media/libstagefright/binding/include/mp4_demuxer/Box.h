@@ -187,10 +187,7 @@ Stream
 *
 aSource
 const
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aByteRanges
 )
@@ -212,10 +209,7 @@ Stream
 mSource
 ;
 const
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 mByteRanges
 ;

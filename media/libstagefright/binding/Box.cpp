@@ -447,6 +447,13 @@ return
 }
 byteRange
 =
+static_cast
+<
+const
+MediaByteRange
+*
+>
+(
 &
 mContext
 -
@@ -455,6 +462,7 @@ mByteRanges
 [
 i
 ]
+)
 ;
 if
 (
@@ -677,7 +685,7 @@ mContext
 >
 mByteRanges
 .
-LastElement
+LastInterval
 (
 )
 .

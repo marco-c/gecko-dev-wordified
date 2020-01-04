@@ -2625,10 +2625,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult
@@ -4327,10 +4324,7 @@ media
 TimeIntervals
 buffered
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 ranges
 ;
 nsresult

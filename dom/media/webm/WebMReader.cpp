@@ -4218,10 +4218,7 @@ the
 WebM
 bitstream
 .
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 ranges
 ;
 nsresult
@@ -4521,10 +4518,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult

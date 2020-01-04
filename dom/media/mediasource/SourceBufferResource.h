@@ -641,10 +641,7 @@ virtual
 nsresult
 GetCachedRanges
 (
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aRanges
 )
@@ -666,9 +663,8 @@ GetLength
 )
 {
 aRanges
-.
-AppendElement
-(
++
+=
 MediaByteRange
 (
 mInputBuffer
@@ -680,7 +676,6 @@ mInputBuffer
 .
 GetLength
 (
-)
 )
 )
 ;

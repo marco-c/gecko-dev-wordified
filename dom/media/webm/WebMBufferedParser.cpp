@@ -2392,10 +2392,7 @@ WebMBufferedState
 UpdateIndex
 (
 const
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aRanges
 MediaResource

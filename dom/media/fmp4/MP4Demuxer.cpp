@@ -1677,10 +1677,7 @@ mParent
 mResource
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult
@@ -2582,10 +2579,7 @@ mParent
 mResource
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult

@@ -1251,10 +1251,7 @@ dummy
 nsresult
 GetCachedRanges
 (
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aRanges
 )
