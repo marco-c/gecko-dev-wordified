@@ -2545,6 +2545,7 @@ getMatrixForLayerRectToViewRect
 )
 ;
 }
+public
 void
 setSurfaceBackgroundColor
 (
