@@ -21871,6 +21871,9 @@ TableWidget
 (
 result
 {
+wrapTextInElements
+:
+true
 initialColumns
 :
 this
