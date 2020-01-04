@@ -988,6 +988,10 @@ mCDM
 =
 nullptr
 ;
+mCallback
+=
+nullptr
+;
 Release
 (
 )
