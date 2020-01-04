@@ -1050,6 +1050,10 @@ mRedoStack
 Push
 (
 item
+.
+forget
+(
+)
 )
 ;
 }
@@ -1320,6 +1324,10 @@ mUndoStack
 Push
 (
 item
+.
+forget
+(
+)
 )
 ;
 }

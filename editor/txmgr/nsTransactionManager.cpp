@@ -683,6 +683,10 @@ mRedoStack
 Push
 (
 tx
+.
+forget
+(
+)
 )
 ;
 }
@@ -922,6 +926,10 @@ mUndoStack
 Push
 (
 tx
+.
+forget
+(
+)
 )
 ;
 }
@@ -4074,6 +4082,10 @@ mUndoStack
 Push
 (
 tx
+.
+forget
+(
+)
 )
 ;
 return

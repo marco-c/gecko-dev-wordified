@@ -149,6 +149,16 @@ nsTransactionItem
 aTransactionItem
 )
 ;
+void
+Push
+(
+already_AddRefed
+<
+nsTransactionItem
+>
+aTransactionItem
+)
+;
 already_AddRefed
 <
 nsTransactionItem
