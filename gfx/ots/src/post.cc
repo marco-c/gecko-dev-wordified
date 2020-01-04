@@ -981,9 +981,6 @@ table
 .
 if
 (
-font
--
->
 post
 &
 &
@@ -993,9 +990,6 @@ font
 cff
 &
 &
-font
--
->
 post
 -
 >
