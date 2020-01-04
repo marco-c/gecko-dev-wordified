@@ -26164,7 +26164,7 @@ onprocessingerror
 addstmt
 (
                 
-_runtimeAbort
+_fatalError
 (
 "
 OnProcessingError
@@ -26321,7 +26321,7 @@ addstmts
 (
 [
                     
-_runtimeAbort
+_fatalError
 (
 "
 OnReplyTimeout
@@ -26716,7 +26716,7 @@ onclose
 addstmt
 (
                 
-_runtimeAbort
+_fatalError
 (
 "
 OnClose
@@ -26819,7 +26819,7 @@ onerror
 addstmt
 (
                 
-_runtimeAbort
+_fatalError
 (
 "
 OnError
@@ -26893,7 +26893,7 @@ onconnected
 addstmt
 (
                 
-_runtimeAbort
+_fatalError
 (
 "
 '
@@ -27023,7 +27023,7 @@ else
 '
 )
                     
-_runtimeAbort
+_fatalError
 (
 '
 This
@@ -30665,7 +30665,7 @@ addstmts
 (
 [
                     
-_runtimeAbort
+_fatalError
 (
 '
 this
@@ -31093,7 +31093,7 @@ addstmts
 (
 [
             
-_runtimeAbort
+_fatalError
 (
 '
 Clone
@@ -31102,12 +31102,12 @@ Clone
 for
 '
 +
-                          
+                        
 p
 .
 name
 +
-                          
+                        
 '
 has
 not
@@ -31368,7 +31368,7 @@ addifstmts
 (
 [
                 
-_runtimeAbort
+_fatalError
 (
 '
 can
@@ -31880,7 +31880,7 @@ removemanagee
 addstmts
 (
 [
-_runtimeAbort
+_fatalError
 (
 '
 unreached
@@ -32076,7 +32076,7 @@ default
 addstmts
 (
 [
-_runtimeAbort
+_fatalError
 (
 '
 unreached
@@ -32668,7 +32668,7 @@ badShmemActions
 .
 append
 (
-_runtimeAbort
+_fatalError
 (
 '
 bad
@@ -33898,7 +33898,7 @@ die
 addstmts
 (
 [
-_runtimeAbort
+_fatalError
 (
 '
 Invalid
@@ -34844,7 +34844,7 @@ ifnotnullable
 addifstmt
 (
             
-_runtimeAbort
+_fatalError
 (
 "
 NULL
@@ -34989,7 +34989,7 @@ iffreed
 .
 addifstmt
 (
-_runtimeAbort
+_fatalError
 (
 "
 actor
@@ -37365,7 +37365,7 @@ writecase
 .
 addstmt
 (
-_runtimeAbort
+_fatalError
 (
 '
 wrong
@@ -37644,7 +37644,7 @@ DefaultLabel
 StmtBlock
 (
 [
-_runtimeAbort
+_fatalError
 (
 unknowntype
 )
@@ -39204,7 +39204,7 @@ failif
 .
 addifstmt
 (
-_runtimeAbort
+_fatalError
 (
 '
 constructor
