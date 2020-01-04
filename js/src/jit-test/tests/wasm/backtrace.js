@@ -176,6 +176,8 @@ backtrace
 }
 }
 )
+.
+exports
 ;
 mod
 .
