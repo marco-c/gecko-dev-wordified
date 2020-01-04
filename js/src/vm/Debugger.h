@@ -9207,7 +9207,7 @@ result
 static
 MOZ_MUST_USE
 bool
-scriptedProxyTarget
+getScriptedProxyTarget
 (
 JSContext
 *
@@ -9221,7 +9221,7 @@ result
 static
 MOZ_MUST_USE
 bool
-scriptedProxyHandler
+getScriptedProxyHandler
 (
 JSContext
 *

@@ -56678,7 +56678,7 @@ if
 DebuggerObject
 :
 :
-scriptedProxyTarget
+getScriptedProxyTarget
 (
 cx
 object
@@ -56778,7 +56778,7 @@ if
 DebuggerObject
 :
 :
-scriptedProxyHandler
+getScriptedProxyHandler
 (
 cx
 object
@@ -65461,7 +65461,7 @@ bool
 DebuggerObject
 :
 :
-scriptedProxyTarget
+getScriptedProxyTarget
 (
 JSContext
 *
@@ -65556,7 +65556,7 @@ bool
 DebuggerObject
 :
 :
-scriptedProxyHandler
+getScriptedProxyHandler
 (
 JSContext
 *
