@@ -134,13 +134,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-RawDBusConnection
-.
-h
-"
 namespace
 mozilla
 {
@@ -152,7 +145,7 @@ DBusWatcher
 :
 DBusWatcher
 (
-RawDBusConnection
+DBusConnection
 *
 aConnection
 DBusWatch
@@ -189,7 +182,7 @@ DBusWatcher
 )
 {
 }
-RawDBusConnection
+DBusConnection
 *
 DBusWatcher
 :
@@ -430,7 +423,7 @@ connection
 =
 static_cast
 <
-RawDBusConnection
+DBusConnection
 *
 >
 (
@@ -654,11 +647,6 @@ dbusDispatchStatus
 dbus_connection_dispatch
 (
 mConnection
--
->
-GetConnection
-(
-)
 )
 ;
 }
