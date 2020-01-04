@@ -502,7 +502,7 @@ filtered
 /
 response
 .
-nsresult
+void
 FailWithNetworkError
 (
 )

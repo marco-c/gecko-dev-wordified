@@ -2704,7 +2704,7 @@ forget
 )
 ;
 }
-nsresult
+void
 FetchDriver
 :
 :
@@ -2761,9 +2761,6 @@ mObserver
 nullptr
 ;
 }
-return
-NS_OK
-;
 }
 namespace
 {
