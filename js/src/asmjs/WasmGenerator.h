@@ -387,6 +387,13 @@ uint32_t
 >
 FuncOffsetVector
 ;
+typedef
+Vector
+<
+uint32_t
+>
+FuncIndexVector
+;
 struct
 SigHashPolicy
 {
@@ -562,6 +569,9 @@ funcBytes_
 ;
 FuncOffsetVector
 funcEntryOffsets_
+;
+FuncIndexVector
+exportFuncIndices_
 ;
 DebugOnly
 <
