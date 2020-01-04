@@ -856,6 +856,13 @@ mInternalContentPolicyType
 (
 aContentPolicyType
 )
+mTainting
+(
+LoadTainting
+:
+:
+Basic
+)
 mUpgradeInsecureRequests
 (
 aUpgradeInsecureRequests
