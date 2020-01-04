@@ -2837,6 +2837,15 @@ PTextureParent
 actor
 )
 ;
+static
+void
+ReceivedDestroy
+(
+PTextureParent
+*
+actor
+)
+;
 /
 *
 *
