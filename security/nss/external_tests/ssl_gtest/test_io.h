@@ -448,12 +448,7 @@ PacketFilter
 *
 filter
 )
-{
-filter_
-=
-filter
 ;
-}
 /
 /
 Drops
