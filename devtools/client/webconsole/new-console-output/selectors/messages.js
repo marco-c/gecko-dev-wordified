@@ -774,6 +774,16 @@ text
 frame
 )
 {
+if
+(
+!
+frame
+)
+{
+return
+false
+;
+}
 /
 /
 TODO
