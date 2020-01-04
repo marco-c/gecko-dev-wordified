@@ -11102,6 +11102,13 @@ if
 mSeekTask
 )
 {
+mCurrentSeek
+.
+RejectIfExists
+(
+__func__
+)
+;
 mSeekTask
 -
 >
