@@ -2516,6 +2516,9 @@ errors
 bool
 overRecursed
 ;
+bool
+outOfMemory
+;
 ParseTask
 (
 ExclusiveContext
