@@ -1398,7 +1398,7 @@ RelativeLayout
 mMainLayout
 ;
 protected
-RelativeLayout
+View
 mGeckoLayout
 ;
 private
@@ -8865,9 +8865,6 @@ content
 ;
 mGeckoLayout
 =
-(
-RelativeLayout
-)
 findViewById
 (
 R
