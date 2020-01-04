@@ -1422,8 +1422,7 @@ functions
 .
 *
 /
-this
-.
+var
 Task
 =
 {
