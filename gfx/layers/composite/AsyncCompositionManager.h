@@ -1732,7 +1732,7 @@ mPreviousFrameTimeStamp
 ;
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 /
 /
 The

@@ -825,17 +825,6 @@ MOZ_B2G_VERSION
 MOZ_B2G_OS_NAME
 :
 MOZ_B2G_OS_NAME
-MOZ_ANDROID_APZ
-:
-#
-ifdef
-MOZ_ANDROID_APZ
-true
-#
-else
-false
-#
-endif
 DEBUG_JS_MODULES
 :
 "

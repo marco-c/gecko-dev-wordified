@@ -12791,7 +12791,7 @@ inside
 /
 /
 the
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 block
 .
 That

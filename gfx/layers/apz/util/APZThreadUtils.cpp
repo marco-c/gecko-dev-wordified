@@ -117,7 +117,7 @@ h
 "
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -338,7 +338,7 @@ aTask
 ;
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 /
 /
 This
@@ -478,7 +478,7 @@ IsControllerThread
 {
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 return
 AndroidBridge
 :

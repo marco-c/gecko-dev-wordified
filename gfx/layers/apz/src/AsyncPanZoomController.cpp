@@ -1007,7 +1007,7 @@ h
 if
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 #
 include
@@ -1022,7 +1022,7 @@ endif
 /
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 #
 define
@@ -1212,7 +1212,7 @@ implementations
 .
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 typedef
 WidgetOverscrollEffect
 OverscrollEffect
