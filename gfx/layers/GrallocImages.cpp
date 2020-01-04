@@ -485,8 +485,10 @@ return
 false
 ;
 }
+RefPtr
+<
 ClientIPCAllocator
-*
+>
 allocator
 =
 ImageBridgeChild
