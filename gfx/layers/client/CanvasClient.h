@@ -530,6 +530,10 @@ CanvasClient
 aLayerForwarder
 aFlags
 )
+mPrevBuffer
+(
+nullptr
+)
 mBufferCreated
 (
 false
@@ -688,6 +692,12 @@ ClientCanvasLayer
 *
 aLayer
 )
+;
+RefPtr
+<
+TextureClient
+>
+mPrevBuffer
 ;
 RefPtr
 <
