@@ -494,7 +494,10 @@ Close
 (
 )
 {
-java
+mozilla
+:
+:
+widget
 :
 :
 GeckoAppShell

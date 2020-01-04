@@ -176,7 +176,7 @@ EmptyString
 )
 ;
 return
-java
+widget
 :
 :
 GeckoAppShell

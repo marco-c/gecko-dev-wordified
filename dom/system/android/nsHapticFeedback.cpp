@@ -135,7 +135,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -158,7 +158,7 @@ int32_t
 aType
 )
 {
-java
+widget
 :
 :
 GeckoAppShell

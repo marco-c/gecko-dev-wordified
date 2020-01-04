@@ -357,7 +357,7 @@ IsAvailable
 )
 )
 {
-java
+widget
 :
 :
 GeckoAppShell

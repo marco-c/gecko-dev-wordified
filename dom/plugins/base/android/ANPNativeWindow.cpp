@@ -119,6 +119,13 @@ h
 #
 include
 "
+AndroidBridge
+.
+h
+"
+#
+include
+"
 ANPBase
 .
 h

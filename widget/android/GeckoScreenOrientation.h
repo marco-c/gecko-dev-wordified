@@ -153,7 +153,7 @@ GeckoScreenOrientation
 final
 :
 public
-java
+widget
 :
 :
 GeckoScreenOrientation

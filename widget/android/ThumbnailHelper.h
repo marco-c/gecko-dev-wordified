@@ -219,7 +219,7 @@ ThumbnailHelper
 final
 :
 public
-java
+widget
 :
 :
 ThumbnailHelper
@@ -1519,7 +1519,7 @@ window
 window
 )
 {
-java
+widget
 :
 :
 ThumbnailHelper
@@ -1581,7 +1581,7 @@ docShell
 :
 false
 ;
-java
+widget
 :
 :
 ThumbnailHelper

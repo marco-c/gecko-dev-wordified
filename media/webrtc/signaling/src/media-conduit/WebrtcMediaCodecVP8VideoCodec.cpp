@@ -203,7 +203,7 @@ namespace
 mozilla
 :
 :
-java
+widget
 :
 :
 sdk

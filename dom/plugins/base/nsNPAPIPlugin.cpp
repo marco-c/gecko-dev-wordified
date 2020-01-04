@@ -666,7 +666,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -10981,7 +10981,7 @@ context
 auto
 ret
 =
-java
+widget
 :
 :
 GeckoAppShell

@@ -111,7 +111,7 @@ class
 SmsManager
 :
 public
-java
+widget
 :
 :
 GeckoSmsManager

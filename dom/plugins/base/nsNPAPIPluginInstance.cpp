@@ -4444,7 +4444,7 @@ dom
 eScreenOrientation_None
 )
 {
-java
+widget
 :
 :
 GeckoAppShell
@@ -4712,7 +4712,7 @@ dom
 eScreenOrientation_None
 )
 {
-java
+widget
 :
 :
 GeckoAppShell
@@ -4756,7 +4756,7 @@ t
 want
 it
 anymore
-java
+widget
 :
 :
 GeckoAppShell

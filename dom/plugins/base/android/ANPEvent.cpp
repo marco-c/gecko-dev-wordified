@@ -131,6 +131,13 @@ h
 #
 include
 "
+AndroidBridge
+.
+h
+"
+#
+include
+"
 nsNPAPIPlugin
 .
 h

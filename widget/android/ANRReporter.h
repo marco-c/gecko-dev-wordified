@@ -111,7 +111,7 @@ class
 ANRReporter
 :
 public
-java
+widget
 :
 :
 ANRReporter

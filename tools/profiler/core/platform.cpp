@@ -261,7 +261,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -350,7 +350,7 @@ class
 GeckoJavaSampler
 :
 public
-java
+widget
 :
 :
 GeckoJavaSampler
@@ -4852,7 +4852,10 @@ aInterval
 10
 ;
 }
-java
+mozilla
+:
+:
+widget
 :
 :
 GeckoJavaSampler

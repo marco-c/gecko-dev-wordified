@@ -722,7 +722,7 @@ aZoom
 void
 SetLayerClient
 (
-java
+widget
 :
 :
 GeckoLayerClient
@@ -733,7 +733,7 @@ jobj
 )
 ;
 const
-java
+widget
 :
 :
 GeckoLayerClient
@@ -1918,7 +1918,7 @@ nsIMobileMessageCursorCallback
 >
 mSmsCursorRequests
 ;
-java
+widget
 :
 :
 GeckoLayerClient

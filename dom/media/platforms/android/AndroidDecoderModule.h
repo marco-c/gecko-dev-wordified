@@ -221,7 +221,7 @@ const
 nsACString
 &
 aMimeType
-java
+widget
 :
 :
 sdk
@@ -332,7 +332,7 @@ virtual
 nsresult
 InitDecoder
 (
-java
+widget
 :
 :
 sdk
@@ -349,7 +349,7 @@ virtual
 nsresult
 Output
 (
-java
+widget
 :
 :
 sdk
@@ -363,7 +363,7 @@ aInfo
 void
 *
 aBuffer
-java
+widget
 :
 :
 sdk
@@ -391,7 +391,7 @@ virtual
 nsresult
 PostOutput
 (
-java
+widget
 :
 :
 sdk
@@ -402,7 +402,7 @@ BufferInfo
 :
 Param
 aInfo
-java
+widget
 :
 :
 sdk
@@ -511,7 +511,7 @@ GetOutputDuration
 nsresult
 ProcessOutput
 (
-java
+widget
 :
 :
 sdk
@@ -522,7 +522,7 @@ BufferInfo
 :
 Param
 aInfo
-java
+widget
 :
 :
 sdk
@@ -585,7 +585,7 @@ mType
 nsAutoCString
 mMimeType
 ;
-java
+widget
 :
 :
 sdk
@@ -601,7 +601,7 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
-java
+widget
 :
 :
 sdk
