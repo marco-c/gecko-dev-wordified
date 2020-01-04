@@ -502,6 +502,14 @@ ins
 )
 ;
 void
+visitWasmStore
+(
+MWasmStore
+*
+ins
+)
+;
+void
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
