@@ -234,12 +234,12 @@ namespace
 mozilla
 {
 struct
-nsTableCellReflowState
+TableCellReflowInput
 :
 public
 ReflowInput
 {
-nsTableCellReflowState
+TableCellReflowInput
 (
 nsPresContext
 *
@@ -289,7 +289,7 @@ aAvailSpace
 namespace
 mozilla
 void
-nsTableCellReflowState
+TableCellReflowInput
 :
 :
 FixUp
@@ -478,7 +478,7 @@ LogicalSize
 aAvailSize
 bool
 aBorderCollapse
-nsTableCellReflowState
+TableCellReflowInput
 &
 aReflowState
 )
@@ -5031,7 +5031,7 @@ and
 ignore
 the
 results
-nsTableCellReflowState
+TableCellReflowInput
 kidReflowState
 (
 aPresContext
@@ -5534,7 +5534,7 @@ cellFrame
 ;
 Maybe
 <
-nsTableCellReflowState
+TableCellReflowInput
 >
 kidReflowState
 ;
@@ -7594,7 +7594,7 @@ table
 "
 )
 ;
-nsTableCellReflowState
+TableCellReflowInput
 cellReflowState
 (
 aPresContext

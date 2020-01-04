@@ -173,7 +173,7 @@ namespace
 mozilla
 {
 struct
-nsRowGroupReflowState
+TableRowGroupReflowInput
 ;
 }
 /
@@ -251,12 +251,12 @@ public
 nsILineIterator
 {
 using
-nsRowGroupReflowState
+TableRowGroupReflowInput
 =
 mozilla
 :
 :
-nsRowGroupReflowState
+TableRowGroupReflowInput
 ;
 public
 :
@@ -2261,7 +2261,7 @@ PlaceChild
 nsPresContext
 *
 aPresContext
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsIFrame
@@ -2322,7 +2322,7 @@ aDesiredSize
 void
 SlideChild
 (
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsIFrame
@@ -2367,7 +2367,7 @@ aPresContext
 nsHTMLReflowMetrics
 &
 aDesiredSize
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsReflowStatus

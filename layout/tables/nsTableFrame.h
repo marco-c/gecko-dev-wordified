@@ -212,7 +212,7 @@ class
 LogicalMargin
 ;
 struct
-nsTableReflowState
+TableReflowInput
 ;
 }
 /
@@ -872,8 +872,8 @@ typedef
 mozilla
 :
 :
-nsTableReflowState
-nsTableReflowState
+TableReflowInput
+TableReflowInput
 ;
 public
 :
@@ -3944,7 +3944,7 @@ nsresult
 SetupHeaderFooterChild
 (
 const
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsTableRowGroupFrame
@@ -3958,7 +3958,7 @@ aDesiredHeight
 void
 ReflowChildren
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -4392,7 +4392,7 @@ aAmount
 void
 PlaceChild
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsIFrame
@@ -4416,7 +4416,7 @@ aOriginalKidVisualOverflow
 void
 PlaceRepeatedFooter
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsTableRowGroupFrame

@@ -502,7 +502,7 @@ layout
 *
 *
 *
-nsTableReflowState
+TableReflowInput
 *
 *
 *
@@ -590,7 +590,7 @@ namespace
 mozilla
 {
 struct
-nsTableReflowState
+TableReflowInput
 {
 /
 /
@@ -640,7 +640,7 @@ offset
 nscoord
 bCoord
 ;
-nsTableReflowState
+TableReflowInput
 (
 const
 ReflowInput
@@ -678,7 +678,7 @@ nsGkAtoms
 :
 tableFrame
 "
-nsTableReflowState
+TableReflowInput
 should
 only
 be
@@ -14484,7 +14484,7 @@ IStartEnd
 wm
 )
 ;
-nsTableReflowState
+TableReflowInput
 reflowState
 (
 aReflowState
@@ -18976,7 +18976,7 @@ nsTableFrame
 :
 PlaceChild
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsIFrame
@@ -19724,7 +19724,7 @@ nsTableFrame
 SetupHeaderFooterChild
 (
 const
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsTableRowGroupFrame
@@ -19937,7 +19937,7 @@ nsTableFrame
 :
 PlaceRepeatedFooter
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsTableRowGroupFrame
@@ -20212,7 +20212,7 @@ nsTableFrame
 :
 ReflowChildren
 (
-nsTableReflowState
+TableReflowInput
 &
 aReflowState
 nsReflowStatus
