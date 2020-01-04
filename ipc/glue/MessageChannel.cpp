@@ -6099,8 +6099,6 @@ MessageChannel
 :
 PeekMessages
 (
-msgid_t
-aMsgId
 mozilla
 :
 :
@@ -6161,16 +6159,6 @@ it
 ;
 if
 (
-msg
-.
-type
-(
-)
-=
-=
-aMsgId
-&
-&
 !
 aInvoke
 (

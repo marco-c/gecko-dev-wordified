@@ -590,9 +590,6 @@ for
 each
 pending
 message
-of
-type
-aId
 until
 it
 returns
@@ -630,11 +627,6 @@ events
 void
 PeekMessages
 (
-Message
-:
-:
-msgid_t
-aId
 mozilla
 :
 :
