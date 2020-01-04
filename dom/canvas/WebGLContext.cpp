@@ -535,6 +535,13 @@ h
 #
 include
 "
+WebGLSync
+.
+h
+"
+#
+include
+"
 WebGLTimerQuery
 .
 h
@@ -1351,6 +1358,11 @@ mSamplers
 ClearLinkedList
 (
 mShaders
+)
+;
+ClearLinkedList
+(
+mSyncs
 )
 ;
 ClearLinkedList
