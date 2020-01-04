@@ -14067,7 +14067,7 @@ contentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 ;
 return
 il

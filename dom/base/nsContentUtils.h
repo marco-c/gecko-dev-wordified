@@ -3663,7 +3663,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 ]
 (
 Optional
@@ -3798,7 +3798,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 /
@@ -3950,7 +3950,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 ]
 (
 Optional
@@ -4015,7 +4015,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 /
