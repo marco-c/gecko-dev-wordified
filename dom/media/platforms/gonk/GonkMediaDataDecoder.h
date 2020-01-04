@@ -967,12 +967,6 @@ override
 ;
 private
 :
-RefPtr
-<
-FlushableTaskQueue
->
-mTaskQueue
-;
 android
 :
 :
