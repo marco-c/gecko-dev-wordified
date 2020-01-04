@@ -2899,11 +2899,8 @@ Cancel
 ;
 }
 mManager
--
->
-Terminate
-(
-)
+=
+nullptr
 ;
 mPresShell
 =
