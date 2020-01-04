@@ -6568,6 +6568,7 @@ width
 asyncCanvasSize
 .
 width
+DEFAULT_CANVAS_WIDTH
 rv
 )
 ;
@@ -6610,6 +6611,7 @@ height
 asyncCanvasSize
 .
 height
+DEFAULT_CANVAS_HEIGHT
 rv
 )
 ;

@@ -621,6 +621,7 @@ nsGkAtoms
 :
 width
 aWidth
+0
 aError
 )
 ;
@@ -656,6 +657,7 @@ nsGkAtoms
 :
 height
 aHeight
+0
 aError
 )
 ;
@@ -708,6 +710,7 @@ nsGkAtoms
 :
 hspace
 aHspace
+0
 aError
 )
 ;
@@ -745,6 +748,7 @@ nsGkAtoms
 :
 vspace
 aVspace
+0
 aError
 )
 ;

@@ -1103,6 +1103,7 @@ nsGkAtoms
 :
 size
 aSize
+0
 aRv
 )
 ;
