@@ -2086,14 +2086,6 @@ invalid
 return
 false
 ;
-ScratchRegisterScope
-scratch
-(
-asMasm
-(
-)
-)
-;
 /
 /
 For
@@ -2173,7 +2165,7 @@ brittle
 .
 as_alu
 (
-scratch
+dest
 src1
 Operand2
 (
@@ -2189,7 +2181,7 @@ c
 as_alu
 (
 dest
-scratch
+dest
 Operand2
 (
 both
