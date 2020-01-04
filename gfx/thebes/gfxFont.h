@@ -2704,6 +2704,9 @@ textrunConst
 uint32_t
 textrunDestr
 ;
+uint32_t
+genericLookups
+;
 }
 ;
 uint32_t
@@ -2889,6 +2892,15 @@ textrunDestr
 current
 .
 textrunDestr
+;
+cumulative
+.
+genericLookups
++
+=
+current
+.
+genericLookups
 ;
 memset
 (
