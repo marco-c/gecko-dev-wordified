@@ -570,7 +570,7 @@ PLANAR_YCBCR
 img
 =
 new
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 (
 aRecycleBin
 )
@@ -2577,9 +2577,6 @@ PlanarYCbCrImage
 :
 PlanarYCbCrImage
 (
-BufferRecycleBin
-*
-aRecycleBin
 )
 :
 Image
@@ -2590,10 +2587,6 @@ ImageFormat
 :
 PLANAR_YCBCR
 )
-mBufferSize
-(
-0
-)
 mOffscreenFormat
 (
 gfxImageFormat
@@ -2601,17 +2594,17 @@ gfxImageFormat
 :
 Unknown
 )
-mRecycleBin
+mBufferSize
 (
-aRecycleBin
+0
 )
 {
 }
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 ~
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 (
 )
 {
@@ -2636,7 +2629,7 @@ mBufferSize
 }
 }
 size_t
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 SizeOfExcludingThis
@@ -2731,7 +2724,7 @@ size
 }
 uint8_t
 *
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 AllocateBuffer
@@ -2895,7 +2888,7 @@ aStride
 }
 }
 bool
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 CopyData
@@ -3079,7 +3072,7 @@ true
 ;
 }
 bool
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 SetData
@@ -3157,7 +3150,7 @@ true
 }
 uint8_t
 *
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 :
 :
 AllocateAndGetNewBuffer
