@@ -1255,15 +1255,6 @@ dest
 )
 ;
 void
-subDouble
-(
-FloatRegister
-src
-FloatRegister
-dest
-)
-;
-void
 mulDouble
 (
 FloatRegister
