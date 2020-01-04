@@ -268,6 +268,13 @@ gfx
 .
 h
 "
+#
+include
+"
+nsColor
+.
+h
+"
 typedef
 struct
 _cairo
@@ -14031,6 +14038,12 @@ direction
 ;
 double
 devPerApp
+;
+float
+textStrokeWidth
+;
+nscolor
+textStrokeColor
 ;
 DrawMode
 drawMode
