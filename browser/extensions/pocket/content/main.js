@@ -1472,7 +1472,7 @@ error
 in
 error
 object
-var
+let
 error
 =
 {
@@ -1529,7 +1529,7 @@ error
 in
 error
 object
-var
+let
 error
 =
 {
