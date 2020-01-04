@@ -4016,6 +4016,12 @@ nsITimer
 if
 (
 mRequest
+&
+&
+mRequest
+-
+>
+mLocator
 )
 {
 RefPtr
