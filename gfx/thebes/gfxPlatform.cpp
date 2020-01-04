@@ -11728,10 +11728,12 @@ InitLayersAccelerationPrefs
 {
 if
 (
-!
 sLayersAccelerationPrefsInitialized
 )
 {
+return
+;
+}
 /
 /
 If
@@ -12143,7 +12145,6 @@ sLayersAccelerationPrefsInitialized
 =
 true
 ;
-}
 }
 bool
 gfxPlatform
