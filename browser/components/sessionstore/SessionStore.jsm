@@ -30370,13 +30370,6 @@ restoring
 )
 ;
 let
-window
-=
-aTab
-.
-ownerGlobal
-;
-let
 browser
 =
 aTab
