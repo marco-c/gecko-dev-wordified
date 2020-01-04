@@ -9187,7 +9187,7 @@ internal
 selection
 state
 listener
-nsAutoRemoveContainerSelNotify
+AutoRemoveContainerSelNotify
 selNotify
 (
 mRangeUpdater
