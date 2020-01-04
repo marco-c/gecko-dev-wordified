@@ -186,16 +186,16 @@ n
 function
 TCPDeviceInfo
 (
-aHost
+aAddress
 aPort
 aId
 )
 {
 this
 .
-host
+address
 =
-aHost
+aAddress
 ;
 this
 .
@@ -835,7 +835,7 @@ null
 0
 aDeviceInfo
 .
-host
+address
 aDeviceInfo
 .
 port
@@ -1006,7 +1006,7 @@ onSessionRequest
 +
 aDeviceInfo
 .
-host
+address
 +
 "
 :
