@@ -11263,7 +11263,8 @@ StealNSResult
 ;
 }
 promise
-.
+-
+>
 MaybeResolve
 (
 NS_LITERAL_STRING
