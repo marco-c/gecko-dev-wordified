@@ -211,6 +211,11 @@ mType
 =
 eHTMLBRType
 ;
+mGenericTypes
+|
+=
+eText
+;
 }
 /
 /

@@ -1195,6 +1195,11 @@ aContent
 aDoc
 )
 {
+mGenericTypes
+|
+=
+eText
+;
 mStateFlags
 |
 =

@@ -314,6 +314,11 @@ mType
 =
 eTextLeafType
 ;
+mGenericTypes
+|
+=
+eText
+;
 mStateFlags
 |
 =
