@@ -4851,12 +4851,6 @@ case
 ICStub
 :
 :
-GetProp_TypedObject
-:
-case
-ICStub
-:
-:
 GetProp_CallScripted
 :
 case
