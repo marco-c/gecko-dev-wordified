@@ -413,11 +413,10 @@ w
 w
 )
 {
-let
-(
-y
-)
 {
+let
+y
+;
 do
 break
 ;

@@ -13,8 +13,8 @@ ddd
 /
 Bug
 508187
+{
 let
-(
 f
 =
 function
@@ -22,8 +22,8 @@ function
 y
 )
 {
+{
 let
-(
 ff
 =
 function
@@ -58,8 +58,7 @@ ddd
 }
 }
 }
-)
-{
+;
 ff
 (
 [
@@ -78,8 +77,7 @@ null
 )
 }
 }
-)
-{
+;
 f
 (
 -

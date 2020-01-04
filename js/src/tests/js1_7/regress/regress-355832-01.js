@@ -381,15 +381,14 @@ No
 Crash
 '
 ;
+{
 let
-(
 [
 ]
 =
 [
 ]
-)
-{
+;
 }
 reportCompare
 (

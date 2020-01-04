@@ -402,15 +402,14 @@ block
 introduces
 no
 names
+{
 let
-(
 {
 }
 =
 {
 }
-)
-{
+;
 }
 try
 {

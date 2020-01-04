@@ -28,11 +28,10 @@ if
 true
 )
 {
-let
-(
-y
-)
 {
+let
+y
+;
 }
 }
 else

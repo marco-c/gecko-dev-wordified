@@ -383,8 +383,8 @@ summary
 ;
 try
 {
+{
 let
-(
 [
 ]
 =
@@ -399,8 +399,7 @@ function
 }
 }
 ]
-)
-{
+;
 }
 ;
 foo

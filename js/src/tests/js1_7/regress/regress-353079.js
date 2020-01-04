@@ -388,11 +388,11 @@ in
 1
 ]
 )
-let
-(
-x
-)
 {
+{
+let
+x
+;
 for
 (
 let
@@ -417,6 +417,7 @@ id2
 )
 )
 {
+}
 }
 }
 reportCompare

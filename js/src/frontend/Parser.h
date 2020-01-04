@@ -4707,13 +4707,6 @@ isConst
 )
 ;
 Node
-letDeclarationOrBlock
-(
-YieldHandling
-yieldHandling
-)
-;
-Node
 importDeclaration
 (
 )
@@ -5100,13 +5093,6 @@ listNode
 bool
 *
 isSpread
-)
-;
-Node
-deprecatedLetBlock
-(
-YieldHandling
-yieldHandling
 )
 ;
 Node

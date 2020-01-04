@@ -381,8 +381,8 @@ printStatus
 summary
 )
 ;
+{
 let
-(
 [
 ]
 =
@@ -397,8 +397,7 @@ function
 }
 }
 ]
-)
-{
+;
 }
 ;
 reportCompare
