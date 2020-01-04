@@ -1969,6 +1969,7 @@ return
 }
 if
 (
+!
 this
 .
 _openedIdentities
