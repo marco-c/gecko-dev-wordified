@@ -765,6 +765,8 @@ int64_t
 aLastModifiedTime
 bool
 aFromExtension
+int32_t
+aSandboxLevel
 )
 ;
 void
@@ -945,6 +947,9 @@ nsITimer
 >
 mUnloadTimer
 ;
+int32_t
+mSandboxLevel
+;
 void
 InvalidateBlocklistState
 (
@@ -998,6 +1003,11 @@ const
 aExtensions
 uint32_t
 aVariantCount
+)
+;
+void
+InitSandboxLevel
+(
 )
 ;
 nsresult
