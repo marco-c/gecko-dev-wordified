@@ -41128,13 +41128,6 @@ mChromeXHRDocURI
 }
 /
 /
-readonly
-attribute
-DOMString
-compatMode
-;
-/
-/
 Returns
 "
 BackCompat
