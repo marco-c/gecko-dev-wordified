@@ -481,7 +481,7 @@ mDiscoverable
 }
 BluetoothPairingListener
 *
-PairingReqs
+GetPairingReqs
 (
 )
 const
