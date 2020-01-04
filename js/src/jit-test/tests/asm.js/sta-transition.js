@@ -77,6 +77,12 @@ asmjs
 if
 (
 !
+this
+.
+SharedArrayBuffer
+|
+|
+!
 isAsmJSCompilationAvailable
 (
 )
