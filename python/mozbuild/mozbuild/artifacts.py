@@ -1390,6 +1390,9 @@ stub
 firefox
 /
 *
+*
+/
+*
 .
 so
 '
@@ -1478,15 +1481,40 @@ package_artifact_patterns
                         
 continue
                     
-basename
+#
+We
+strip
+off
+the
+relative
+"
+firefox
+/
+"
+bit
+from
+the
+path
+                    
+#
+but
+otherwise
+preserve
+it
+.
+                    
+destpath
 =
 mozpath
 .
-basename
+relpath
 (
 f
 .
 name
+"
+firefox
+"
 )
                     
 self
@@ -1502,16 +1530,16 @@ artifact
                              
 {
 '
-basename
+destpath
 '
 :
-basename
+destpath
 }
                              
 '
 Adding
 {
-basename
+destpath
 }
 to
 processed
@@ -1523,7 +1551,7 @@ writer
 .
 add
 (
-basename
+destpath
 .
 encode
 (
