@@ -1840,8 +1840,6 @@ TREE_MAP
 return
 takeTreeMap
 ;
-break
-;
 case
 viewState
 .
@@ -1850,12 +1848,12 @@ CENSUS
 return
 takeCensus
 ;
-break
-;
-}
+default
+:
 return
 defaultCensusTaker
 ;
+}
 }
 ;
 /
