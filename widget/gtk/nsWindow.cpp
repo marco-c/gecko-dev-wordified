@@ -12685,10 +12685,10 @@ height
 )
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 screenBounds
 ;
-GetScreenBoundsUntyped
+GetScreenBounds
 (
 screenBounds
 )
@@ -12956,6 +12956,10 @@ MoveTo
 screenBounds
 .
 TopLeft
+(
+)
+.
+ToUnknownPoint
 (
 )
 )
