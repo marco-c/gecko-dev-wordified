@@ -2650,6 +2650,14 @@ extra_cxxflags2
 -
 fPIC
 "
+"
+-
+static
+-
+libstdc
++
++
+"
 ]
         
 if
