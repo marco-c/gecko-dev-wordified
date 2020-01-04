@@ -170,16 +170,6 @@ uint32_t
 aNewPluginEpoch
 )
 ;
-base
-:
-:
-ProcessId
-PluginProcessId
-(
-uint32_t
-aPluginId
-)
-;
 void
 TerminatePlugin
 (
