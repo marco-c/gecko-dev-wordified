@@ -2745,7 +2745,7 @@ job
 >
 PostResult
 (
-GMPAbortedErr
+AbortedErr
 )
 ;
 }
@@ -3330,7 +3330,7 @@ OnDecrypted
 (
 uint32_t
 aId
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
@@ -3675,7 +3675,7 @@ aJob
 >
 PostResult
 (
-GMPAbortedErr
+AbortedErr
 )
 ;
 return
@@ -3759,7 +3759,7 @@ gmp_Decrypted
 (
 uint32_t
 aId
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
@@ -3887,7 +3887,7 @@ DecryptJob
 :
 PostResult
 (
-GMPErr
+DecryptStatus
 aResult
 )
 {
@@ -3913,7 +3913,7 @@ DecryptJob
 :
 PostResult
 (
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
@@ -3957,10 +3957,10 @@ bytes
 }
 if
 (
-GMP_SUCCEEDED
-(
 aResult
-)
+=
+=
+Ok
 )
 {
 nsAutoPtr
@@ -4019,7 +4019,7 @@ if
 aResult
 =
 =
-GMPNoKeyErr
+NoKeyErr
 )
 {
 NS_WARNING
@@ -4027,7 +4027,7 @@ NS_WARNING
 "
 CDM
 returned
-GMPNoKeyErr
+NoKeyErr
 "
 )
 ;
@@ -4070,7 +4070,7 @@ CDM
 returned
 decode
 failure
-GMPErr
+DecryptStatus
 =
 "
 )

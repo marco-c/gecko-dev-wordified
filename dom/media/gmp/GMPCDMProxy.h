@@ -456,7 +456,7 @@ OnDecrypted
 (
 uint32_t
 aId
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
@@ -851,7 +851,7 @@ aSample
 void
 PostResult
 (
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
@@ -865,7 +865,7 @@ aDecryptedData
 void
 PostResult
 (
-GMPErr
+DecryptStatus
 aResult
 )
 ;
@@ -938,7 +938,7 @@ gmp_Decrypted
 (
 uint32_t
 aId
-GMPErr
+DecryptStatus
 aResult
 const
 nsTArray
