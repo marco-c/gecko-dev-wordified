@@ -2057,9 +2057,7 @@ mLocale
 AssignLiteral
 (
 "
-en
--
-US
+en_US
 "
 )
 ;
