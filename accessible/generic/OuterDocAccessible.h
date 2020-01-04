@@ -274,6 +274,17 @@ aAccessible
 )
 override
 ;
+virtual
+bool
+IsAcceptableChild
+(
+nsIContent
+*
+aEl
+)
+const
+override
+;
 protected
 :
 virtual
