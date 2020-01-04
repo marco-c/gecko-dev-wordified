@@ -5212,8 +5212,7 @@ scope
 .
 addItem
 (
-"
-"
+undefined
 {
 enumerable
 :
