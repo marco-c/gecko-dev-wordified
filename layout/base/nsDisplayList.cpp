@@ -39714,7 +39714,7 @@ aParameters
 )
 {
 return
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
 }
 nsDisplayItemGeometry
