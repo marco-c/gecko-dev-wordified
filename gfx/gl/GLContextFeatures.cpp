@@ -2030,8 +2030,16 @@ ES3
 GLContext
 :
 :
-ARB_sync
+Extension_None
 {
+GLContext
+:
+:
+ARB_sync
+GLContext
+:
+:
+APPLE_sync
 GLContext
 :
 :

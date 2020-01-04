@@ -882,12 +882,12 @@ if
 mGL
 -
 >
-IsExtensionSupported
+IsSupported
 (
-GLContext
+GLFeature
 :
 :
-ARB_sync
+sync
 )
 )
 {

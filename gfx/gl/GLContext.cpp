@@ -590,6 +590,9 @@ GL_APPLE_client_storage
 GL_APPLE_framebuffer_multisample
 "
 "
+GL_APPLE_sync
+"
+"
 GL_APPLE_texture_range
 "
 "
