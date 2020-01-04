@@ -340,6 +340,8 @@ EventTree
 Accessible
 *
 aContainer
+bool
+aFireReorder
 )
 :
 mFirst
@@ -356,7 +358,7 @@ aContainer
 )
 mFireReorder
 (
-true
+aFireReorder
 )
 {
 }
