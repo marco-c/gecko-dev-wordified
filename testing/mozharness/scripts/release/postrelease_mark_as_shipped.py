@@ -485,7 +485,7 @@ product
 version
 '
 '
-buildnumber
+build_number
 '
 ]
         
@@ -501,12 +501,9 @@ mandatory_props
 :
             
 if
-props
-.
-get
-(
 prop
-)
+in
+props
 :
                 
 self
@@ -626,7 +623,7 @@ self
 config
 [
 '
-buildnumber
+build_number
 '
 ]
 )
