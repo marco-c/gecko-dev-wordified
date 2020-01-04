@@ -3381,7 +3381,7 @@ cur_
 end_
 ;
 }
-uintptr_t
+size_t
 bytesRemain
 (
 )
@@ -3396,7 +3396,7 @@ cur_
 )
 ;
 return
-uintptr_t
+size_t
 (
 end_
 -
