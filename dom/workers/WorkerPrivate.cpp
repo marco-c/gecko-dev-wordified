@@ -2463,7 +2463,7 @@ scriptloader
 :
 LoadMainScript
 (
-aCx
+aWorkerPrivate
 mScriptURL
 WorkerScript
 rv
@@ -2865,7 +2865,7 @@ scriptloader
 :
 LoadMainScript
 (
-aCx
+aWorkerPrivate
 mScriptURL
 DebuggerScript
 rv
@@ -2979,7 +2979,7 @@ We
 do
 this
 for
-alll
+all
 failures
 on
 rv
@@ -19302,7 +19302,6 @@ scriptloader
 :
 ReportLoadError
 (
-aCx
 aRv
 rv
 aScriptURL
