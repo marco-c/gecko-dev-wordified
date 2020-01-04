@@ -2638,6 +2638,9 @@ ini
 firefox
 /
 *
+*
+/
+*
 .
 dll
 '
@@ -2802,15 +2805,33 @@ package_artifact_patterns
                     
 continue
                 
+#
+strip
+off
+the
+relative
+"
+firefox
+/
+"
+bit
+from
+the
+path
+:
+                
 basename
 =
 mozpath
 .
-basename
+relpath
 (
 f
 .
 filename
+"
+firefox
+"
 )
                 
 self
