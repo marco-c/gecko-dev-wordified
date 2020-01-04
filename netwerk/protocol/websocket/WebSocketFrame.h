@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIWebSocketEventService
+nsIWebSocketFrameService
 .
 h
 "
