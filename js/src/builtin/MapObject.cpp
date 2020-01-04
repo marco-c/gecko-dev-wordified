@@ -8989,11 +8989,12 @@ obj
 )
 {
 return
-JS_DefineFunctions
+DefineFunctions
 (
 cx
 obj
 selfhosting_collection_iterator_methods
+AsIntrinsic
 )
 ;
 }
