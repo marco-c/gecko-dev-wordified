@@ -292,6 +292,10 @@ SetDocTitleTxn
 EditTxn
 (
 )
+mEditor
+(
+nullptr
+)
 mIsTransient
 (
 false
