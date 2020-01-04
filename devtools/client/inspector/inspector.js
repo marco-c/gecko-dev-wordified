@@ -4396,8 +4396,6 @@ isInHTMLDocument
 {
 this
 .
-toolbox
-.
 target
 .
 actorHasMethod

@@ -415,7 +415,7 @@ promise
 all
 (
 [
-toolbox
+inspector
 .
 selection
 .
