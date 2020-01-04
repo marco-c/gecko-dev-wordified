@@ -198,16 +198,6 @@ this
 .
 target
 ;
-this
-.
-_controller
-.
-_toolbox
-=
-this
-.
-_toolbox
-;
 EventEmitter
 .
 decorate
