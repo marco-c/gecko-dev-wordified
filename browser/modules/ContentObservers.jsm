@@ -307,7 +307,10 @@ nsIContentFrameMessageManager
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
@@ -320,6 +323,10 @@ NS_NOINTERFACE
 {
 return
 null
+;
+}
+throw
+e
 ;
 }
 }

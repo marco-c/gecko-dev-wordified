@@ -516,7 +516,6 @@ current
 "
 )
 return
-false
 ;
 /
 /

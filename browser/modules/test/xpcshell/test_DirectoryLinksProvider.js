@@ -1482,6 +1482,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -1559,6 +1560,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -2082,6 +2084,7 @@ origCurrentTopSiteCount
 add_task
 (
 function
+*
 test_updateSuggestedTile
 (
 )
@@ -2996,6 +2999,7 @@ origCurrentTopSiteCount
 add_task
 (
 function
+*
 test_suggestedLinksMap
 (
 )
@@ -3326,6 +3330,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_topSitesWithSuggestedLinks
 (
 )
@@ -3792,6 +3797,7 @@ origGetProviderLinks
 add_task
 (
 function
+*
 test_suggestedAttributes
 (
 )
@@ -4199,6 +4205,7 @@ gLinks
 add_task
 (
 function
+*
 test_frequencyCappedSites_views
 (
 )
@@ -4647,6 +4654,7 @@ kPingUrl
 add_task
 (
 function
+*
 test_frequencyCappedSites_click
 (
 )
@@ -5039,6 +5047,7 @@ kPingUrl
 add_task
 (
 function
+*
 test_reportSitesAction
 (
 )
@@ -5669,6 +5678,7 @@ true
 add_task
 (
 function
+*
 test_fetchAndCacheLinks_local
 (
 )
@@ -5725,6 +5735,7 @@ kURLData
 add_task
 (
 function
+*
 test_fetchAndCacheLinks_remote
 (
 )
@@ -5804,6 +5815,7 @@ kExamplePath
 add_task
 (
 function
+*
 test_fetchAndCacheLinks_malformedURI
 (
 )
@@ -5892,6 +5904,7 @@ data
 add_task
 (
 function
+*
 test_fetchAndCacheLinks_unknownHost
 (
 )
@@ -5998,6 +6011,7 @@ data
 add_task
 (
 function
+*
 test_fetchAndCacheLinks_non200Status
 (
 )
@@ -6057,6 +6071,7 @@ fetch
 add_task
 (
 function
+*
 test_DirectoryLinksProvider__linkObservers
 (
 )
@@ -6134,6 +6149,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider__prefObserver_url
 (
 )
@@ -6344,6 +6360,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getLinks_noDirectoryData
 (
 )
@@ -6415,6 +6432,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getLinks_badData
 (
 )
@@ -6604,6 +6622,7 @@ _lastDownloadMS
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_fetchAndCacheLinksIfNecessary
 (
 )
@@ -6893,6 +6912,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_fetchDirectoryOnPrefChange
 (
 )
@@ -7016,6 +7036,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_fetchDirectoryOnShow
 (
 )
@@ -7090,6 +7111,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_fetchDirectoryOnInit
 (
 )
@@ -7161,6 +7183,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getLinksFromCorruptedFile
 (
 )
@@ -7248,6 +7271,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getAllowedLinks
 (
 )
@@ -7447,6 +7471,7 @@ url
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getAllowedImages
 (
 )
@@ -7723,6 +7748,7 @@ imageURI
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getAllowedImages_base
 (
 )
@@ -8036,6 +8062,7 @@ url
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getAllowedEnhancedImages
 (
 )
@@ -8314,6 +8341,7 @@ enhancedImageURI
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getEnhancedLink
 (
 )
@@ -8856,6 +8884,7 @@ fresh
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_enhancedURIs
 (
 )
@@ -9367,6 +9396,7 @@ value
 add_task
 (
 function
+*
 test_timeSensetiveSuggestedTiles
 (
 )
@@ -10634,6 +10664,7 @@ startTime
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_frequencyCapSetup
 (
 )
@@ -11186,6 +11217,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getFrequencyCapLogic
 (
 )
@@ -11531,6 +11563,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_getFrequencyCapReportSiteAction
 (
 )
@@ -11703,6 +11736,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_DirectoryLinksProvider_ClickRemoval
 (
 )
@@ -12391,6 +12425,7 @@ mozAnon
 add_task
 (
 function
+*
 test_sanitizeExplanation
 (
 )
@@ -12588,6 +12623,7 @@ EVIL
 add_task
 (
 function
+*
 test_inadjecentSites
 (
 )
@@ -13812,6 +13848,7 @@ promiseCleanDirectoryLinksProvider
 add_task
 (
 function
+*
 test_reportPastImpressions
 (
 )
@@ -14458,6 +14495,7 @@ origCurrentTopSiteCount
 add_task
 (
 function
+*
 test_blockSuggestedTiles
 (
 )

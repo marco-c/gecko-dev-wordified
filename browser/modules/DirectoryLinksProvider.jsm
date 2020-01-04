@@ -5279,6 +5279,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -6224,6 +6225,7 @@ be
 undefined
 .
 return
+undefined
 ;
 }
 /
@@ -6362,6 +6364,7 @@ not
 decayed
 yet
 return
+undefined
 ;
 }
 /
@@ -6770,6 +6773,7 @@ numLinks
 )
 {
 return
+undefined
 ;
 }
 let
