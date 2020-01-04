@@ -13343,6 +13343,8 @@ above
 Fall
 through
 :
+MOZ_FALLTHROUGH
+;
 case
 FC_RGBA_RGB
 :
