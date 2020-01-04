@@ -7101,10 +7101,15 @@ vp
 )
 )
 ;
-RootedValue
+MutableHandleValue
 thisv
+=
+MutableHandleValue
+:
+:
+fromMarkedLocation
 (
-cx
+&
 vp
 [
 1
@@ -7118,7 +7123,6 @@ BoxNonStrictThis
 (
 cx
 thisv
-&
 thisv
 )
 )
