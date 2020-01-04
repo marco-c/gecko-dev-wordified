@@ -612,7 +612,7 @@ queryElementAt
 i
 Ci
 .
-nsIServiceWorkerInfo
+nsIServiceWorkerRegistrationInfo
 )
 ;
 if
@@ -627,7 +627,7 @@ dump
 AboutServiceWorkers
 :
 Invalid
-nsIServiceWorkerInfo
+nsIServiceWorkerRegistrationInfo
 "
 +
 "
