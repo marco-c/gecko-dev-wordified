@@ -857,6 +857,11 @@ bool
 aIsOffline
 )
 ;
+void
+MemoryPressureAllWorkers
+(
+)
+;
 private
 :
 RuntimeService
