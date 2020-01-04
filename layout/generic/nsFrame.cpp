@@ -16925,6 +16925,10 @@ aFrame
 nsDisplayList
 *
 aList
+const
+DisplayItemScrollClip
+*
+aScrollClip
 )
 {
 nsDisplayItem
@@ -17087,6 +17091,7 @@ nsDisplayWrapList
 aBuilder
 aFrame
 aList
+aScrollClip
 )
 ;
 }
@@ -19559,6 +19564,22 @@ Clear
 (
 )
 ;
+const
+DisplayItemScrollClip
+*
+containerItemScrollClip
+=
+aBuilder
+-
+>
+ClipState
+(
+)
+.
+CurrentAncestorScrollClipForStackingContextContents
+(
+)
+;
 if
 (
 isPositioned
@@ -19613,6 +19634,7 @@ aBuilder
 child
 &
 list
+containerItemScrollClip
 )
 ;
 if
@@ -19691,6 +19713,7 @@ aBuilder
 child
 &
 list
+containerItemScrollClip
 )
 )
 ;

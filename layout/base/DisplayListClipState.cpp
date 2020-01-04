@@ -1016,6 +1016,16 @@ mClearedForStackingContextContents
 false
 )
 {
+mState
+.
+mStackingContextAncestorSC
+=
+mState
+.
+GetCurrentInnermostScrollClip
+(
+)
+;
 }
 }
 /
