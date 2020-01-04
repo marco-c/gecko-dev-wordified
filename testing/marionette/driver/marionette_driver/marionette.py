@@ -4187,6 +4187,10 @@ page
 load
 '
     
+DEFAULT_SOCKET_TIMEOUT
+=
+360
+    
 DEFAULT_STARTUP_TIMEOUT
 =
 60
@@ -4266,7 +4270,7 @@ timeout
 None
 socket_timeout
 =
-360
+None
                  
 device_serial
 =
@@ -4412,6 +4416,10 @@ self
 socket_timeout
 =
 socket_timeout
+or
+self
+.
+DEFAULT_SOCKET_TIMEOUT
         
 self
 .
@@ -5206,9 +5214,17 @@ wait_for_port
 self
 timeout
 =
-60
+None
 )
 :
+        
+timeout
+=
+timeout
+or
+self
+.
+DEFAULT_STARTUP_TIMEOUT
         
 return
 transport
