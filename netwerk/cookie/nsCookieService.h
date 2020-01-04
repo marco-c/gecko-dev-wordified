@@ -270,6 +270,12 @@ mozilla
 :
 NeckoOriginAttributes
 ;
+using
+mozilla
+:
+:
+OriginAttributes
+;
 class
 nsICookiePermission
 ;
@@ -1584,6 +1590,10 @@ GetCookieFromRow
 T
 &
 aRow
+const
+OriginAttributes
+&
+aOriginAttributes
 )
 ;
 void

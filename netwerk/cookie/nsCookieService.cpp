@@ -4258,6 +4258,12 @@ gCookieService
 GetCookieFromRow
 (
 row
+tuple
+-
+>
+key
+.
+mOriginAttributes
 )
 ;
 }
@@ -16093,6 +16099,14 @@ PR_Now
 (
 )
 ;
+nsCookieKey
+key
+=
+DEFAULT_APP_KEY
+(
+baseDomain
+)
+;
 RefPtr
 <
 nsCookie
@@ -16120,6 +16134,9 @@ currentTimeInUsec
 aIsSession
 aIsSecure
 aIsHttpOnly
+key
+.
+mOriginAttributes
 )
 ;
 if
@@ -16134,10 +16151,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 AddInternal
 (
-DEFAULT_APP_KEY
-(
-baseDomain
-)
+key
 cookie
 currentTimeInUsec
 nullptr
@@ -17103,6 +17117,10 @@ GetCookieFromRow
 T
 &
 aRow
+const
+OriginAttributes
+&
+aOriginAttributes
 )
 {
 /
@@ -17281,6 +17299,7 @@ creationTime
 false
 isSecure
 isHttpOnly
+aOriginAttributes
 )
 ;
 }
@@ -18341,6 +18360,9 @@ mDefaultDBState
 -
 >
 stmtReadDomain
+aKey
+.
+mOriginAttributes
 )
 )
 ;
@@ -18897,6 +18919,7 @@ cookie
 GetCookieFromRow
 (
 stmt
+attrs
 )
 ;
 }
@@ -20143,6 +20166,9 @@ EqualsLiteral
 kTrue
 )
 isHttpOnly
+key
+.
+mOriginAttributes
 )
 ;
 if
@@ -23039,6 +23065,9 @@ isSecure
 cookieAttributes
 .
 isHttpOnly
+aKey
+.
+mOriginAttributes
 )
 ;
 if
