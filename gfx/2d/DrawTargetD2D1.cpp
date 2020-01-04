@@ -5936,6 +5936,9 @@ DrawTargetD2D1
 :
 Init
 (
+ID3D11Texture2D
+*
+SurfaceFormat
 )
 .
 "
@@ -6397,6 +6400,8 @@ DrawTargetD2D1
 :
 Init
 (
+IntSize
+SurfaceFormat
 )
 .
 "
