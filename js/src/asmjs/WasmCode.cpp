@@ -296,6 +296,17 @@ endif
 #
 include
 "
+jit
+/
+MacroAssembler
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayBufferObject
