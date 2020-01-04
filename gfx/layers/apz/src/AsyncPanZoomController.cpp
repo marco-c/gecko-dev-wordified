@@ -16856,7 +16856,7 @@ friction
 gfxPrefs
 :
 :
-APZFlingFriction
+APZFlingSnapFriction
 (
 )
 ;
