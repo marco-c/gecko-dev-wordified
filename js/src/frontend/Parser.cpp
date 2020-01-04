@@ -4163,6 +4163,14 @@ bufEnd
 (
 0
 )
+startLine
+(
+1
+)
+startColumn
+(
+0
+)
 length
 (
 0
