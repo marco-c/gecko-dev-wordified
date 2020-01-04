@@ -1243,9 +1243,10 @@ js
 ;
 if
 (
+!
 AppConstants
 .
-NIGHTLY_BUILD
+RELEASE_BUILD
 )
 {
 lazilyLoadedBrowserScripts
@@ -4889,9 +4890,10 @@ DelayedStartup
 ;
 if
 (
+!
 AppConstants
 .
-NIGHTLY_BUILD
+RELEASE_BUILD
 )
 {
 InitLater
