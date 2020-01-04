@@ -626,6 +626,16 @@ UI
 in
 .
 *
+param
+{
+CssProperties
+}
+A
+css
+properties
+database
+.
+*
 /
 function
 StyleEditorUI
@@ -633,6 +643,7 @@ StyleEditorUI
 debuggee
 target
 panelDoc
+cssProperties
 )
 {
 EventEmitter
@@ -659,6 +670,12 @@ this
 _panelDoc
 =
 panelDoc
+;
+this
+.
+_cssProperties
+=
+cssProperties
 ;
 this
 .
@@ -4110,6 +4127,9 @@ showEditor
 load
 (
 inputElement
+this
+.
+_cssProperties
 )
 ;
 }

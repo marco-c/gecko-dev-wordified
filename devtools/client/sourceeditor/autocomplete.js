@@ -897,6 +897,11 @@ walker
 options
 .
 walker
+cssProperties
+:
+options
+.
+cssProperties
 }
 )
 ;

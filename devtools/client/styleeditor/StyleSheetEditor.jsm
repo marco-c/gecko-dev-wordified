@@ -2797,6 +2797,18 @@ source
 editor
 in
 *
+param
+{
+CssProperties
+}
+cssProperties
+*
+A
+css
+properties
+database
+.
+*
 *
 return
 {
@@ -2821,6 +2833,7 @@ load
 function
 (
 inputElement
+cssProperties
 )
 {
 if
@@ -2929,7 +2942,9 @@ walker
 this
 .
 walker
+cssProperties
 }
+cssProperties
 }
 ;
 let
