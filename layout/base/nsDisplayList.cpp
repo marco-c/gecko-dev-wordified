@@ -19566,6 +19566,10 @@ TRANSFORM_SUCCEEDED
 {
 clipRect
 =
+clipRect
+.
+Union
+(
 rootRect
 +
 aBuilder
@@ -19574,6 +19578,7 @@ aBuilder
 ToReferenceFrame
 (
 mFrame
+)
 )
 ;
 }
