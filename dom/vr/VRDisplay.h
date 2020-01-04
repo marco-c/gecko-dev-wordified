@@ -1526,6 +1526,12 @@ VRDisplayCapabilities
 >
 mCapabilities
 ;
+RefPtr
+<
+VRStageParameters
+>
+mStageParameters
+;
 double
 mDepthNear
 ;
