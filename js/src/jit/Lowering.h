@@ -1147,6 +1147,14 @@ ins
 )
 ;
 void
+visitFromCodePoint
+(
+MFromCodePoint
+*
+ins
+)
+;
+void
 visitSinCos
 (
 MSinCos

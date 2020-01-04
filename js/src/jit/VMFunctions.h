@@ -4785,6 +4785,17 @@ int32_t
 code
 )
 ;
+JSString
+*
+StringFromCodePoint
+(
+JSContext
+*
+cx
+int32_t
+codePoint
+)
+;
 MOZ_MUST_USE
 bool
 SetProperty

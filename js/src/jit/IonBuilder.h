@@ -5816,6 +5816,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineStrFromCodePoint
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineStrCharAt
 (
 CallInfo

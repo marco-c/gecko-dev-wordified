@@ -442,6 +442,11 @@ StringFromCharCode
 \
 _
 (
+StringFromCodePoint
+)
+\
+_
+(
 StringCharAt
 )
 \
