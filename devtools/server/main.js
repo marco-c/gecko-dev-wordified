@@ -9433,7 +9433,7 @@ p
 {
 p
 .
-cleanup
+destroy
 (
 )
 ;
@@ -11449,7 +11449,7 @@ p
 {
 p
 .
-cleanup
+destroy
 (
 )
 ;
