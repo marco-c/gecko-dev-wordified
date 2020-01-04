@@ -13993,6 +13993,12 @@ the
 subrect
 .
 const
+bool
+respecifyTexture
+=
+true
+;
+const
 uint8_t
 zOffset
 =
@@ -14005,6 +14011,7 @@ ZeroTextureData
 (
 mContext
 funcName
+respecifyTexture
 mGLName
 target
 level
