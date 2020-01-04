@@ -165,6 +165,10 @@ artifact
 -
 build
 '
+    
+'
+hazard
+'
 ]
 )
 #
