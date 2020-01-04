@@ -150,14 +150,10 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectReadOnly
 .
 h
 "
-/
-/
-For
-KeyframeEffectReadOnly
 #
 include
 "

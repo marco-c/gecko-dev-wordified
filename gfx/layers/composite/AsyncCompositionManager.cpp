@@ -237,14 +237,10 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectReadOnly
 .
 h
 "
-/
-/
-for
-KeyframeEffectReadOnly
 #
 include
 "

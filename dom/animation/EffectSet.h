@@ -168,6 +168,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+KeyframeEffectReadOnly
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -198,9 +209,6 @@ dom
 {
 class
 Element
-;
-class
-KeyframeEffectReadOnly
 ;
 }
 /

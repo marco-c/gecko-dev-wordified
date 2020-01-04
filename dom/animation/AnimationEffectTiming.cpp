@@ -150,6 +150,17 @@ include
 "
 mozilla
 /
+dom
+/
+KeyframeEffect
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimingParams
 .
 h
