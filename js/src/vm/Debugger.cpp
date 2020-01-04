@@ -58918,6 +58918,14 @@ nullptr
 )
 )
 ;
+if
+(
+!
+objectProto
+)
+return
+nullptr
+;
 #
 ifdef
 SPIDERMONKEY_PROMISE
