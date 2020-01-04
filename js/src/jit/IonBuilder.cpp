@@ -90110,6 +90110,17 @@ types
 unknownObject
 (
 )
+|
+|
+types
+-
+>
+getKnownMIRType
+(
+)
+!
+=
+MIRType_Object
 )
 return
 true
