@@ -425,6 +425,9 @@ worker_cx
 PRBool
 isBlock
 ;
+int
+mode
+;
 }
 ;
 #

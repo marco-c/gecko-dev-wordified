@@ -3907,11 +3907,8 @@ i
 /
 *
 skip
-SSL2
 cipher
 suites
-and
-ones
 NSS
 doesn
 '
@@ -3934,12 +3931,6 @@ csdef
 !
 =
 SECSuccess
-|
-|
-SSL_IS_SSL2_CIPHER
-(
-suite
-)
 )
 continue
 ;

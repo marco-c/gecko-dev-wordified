@@ -213,12 +213,6 @@ cipherSuites
 ;
 extern
 int
-ssl2CipherSuites
-[
-]
-;
-extern
-int
 ssl3CipherSuites
 [
 ]

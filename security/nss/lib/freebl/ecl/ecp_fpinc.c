@@ -109,6 +109,7 @@ definitions
 be
 made
 :
+*
 ECFP_BSIZE
 -
 the
@@ -116,7 +117,6 @@ number
 of
 bits
 in
-*
 the
 field
 '
@@ -140,6 +140,8 @@ integer
 in
 floating
 point
+*
+/
 /
 *
 Adds

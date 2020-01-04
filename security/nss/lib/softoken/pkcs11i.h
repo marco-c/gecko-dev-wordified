@@ -2069,7 +2069,7 @@ variable
 perserved
 *
 /
-int
+CK_ULONG
 index
 ;
 /

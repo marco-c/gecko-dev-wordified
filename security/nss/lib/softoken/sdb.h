@@ -590,4 +590,8 @@ define
 SDB_HAS_META
 8
 #
+define
+SDB_FIPS
+0x10
+#
 endif
