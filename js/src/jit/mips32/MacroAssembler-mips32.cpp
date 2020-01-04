@@ -7368,7 +7368,10 @@ if
 valueType
 =
 =
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 {
 storeDouble

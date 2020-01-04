@@ -11383,9 +11383,15 @@ payload
 Note
 :
 Both
-MIRType_Object
+MIRType
+:
+:
+Object
 and
-MIRType_ObjectOrNull
+MIRType
+:
+:
+ObjectOrNull
 are
 encoded
 in

@@ -256,7 +256,10 @@ tempForDispatchCache
 MIRType
 outputType
 =
-MIRType_None
+MIRType
+:
+:
+None
 )
 {
 return

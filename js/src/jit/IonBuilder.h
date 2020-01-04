@@ -2923,7 +2923,10 @@ needsBarrier
 MIRType
 slotType
 =
-MIRType_None
+MIRType
+:
+:
+None
 )
 ;
 bool
@@ -2943,7 +2946,10 @@ needsBarrier
 MIRType
 slotType
 =
-MIRType_None
+MIRType
+:
+:
+None
 )
 ;
 bool

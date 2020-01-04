@@ -248,7 +248,10 @@ func
 alloc
 p
 p
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 block
@@ -295,7 +298,10 @@ func
 alloc
 mul0
 mul0
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 block
@@ -1217,7 +1223,10 @@ func
 alloc
 x
 y
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 joinBlock

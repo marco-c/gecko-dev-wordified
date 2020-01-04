@@ -609,7 +609,10 @@ type
 )
 =
 =
-MIRType_Value
+MIRType
+:
+:
+Value
 )
 ?
 BOX_PIECES
@@ -758,7 +761,10 @@ type
 )
 =
 =
-MIRType_Value
+MIRType
+:
+:
+Value
 )
 ?
 BOX_PIECES

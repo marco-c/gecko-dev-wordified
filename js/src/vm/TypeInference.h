@@ -4192,7 +4192,10 @@ type
 jit
 :
 :
-MIRType_Value
+MIRType
+:
+:
+Value
 )
 ;
 }
@@ -4298,7 +4301,10 @@ getKnownMIRType
 jit
 :
 :
-MIRType_MagicOptimizedArguments
+MIRType
+:
+:
+MagicOptimizedArguments
 ;
 }
 /

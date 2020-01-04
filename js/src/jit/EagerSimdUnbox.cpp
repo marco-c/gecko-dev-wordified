@@ -198,7 +198,10 @@ type
 )
 =
 =
-MIRType_Object
+MIRType
+:
+:
+Object
 )
 ;
 /

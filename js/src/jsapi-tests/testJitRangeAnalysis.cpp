@@ -1374,7 +1374,10 @@ func
 alloc
 p
 cm0
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 thenBlock
@@ -1540,7 +1543,10 @@ func
 alloc
 p
 cm0
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 elseThenBlock
@@ -1642,7 +1648,10 @@ func
 alloc
 p
 cm0
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 elseElseBlock
@@ -2236,7 +2245,10 @@ func
 alloc
 p
 cm0
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 thenBlock

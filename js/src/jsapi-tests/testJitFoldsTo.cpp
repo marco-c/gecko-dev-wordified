@@ -266,7 +266,10 @@ func
 alloc
 p
 c
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 block
@@ -533,7 +536,10 @@ func
 alloc
 p
 c
-MIRType_Double
+MIRType
+:
+:
+Double
 )
 ;
 block
@@ -1781,7 +1787,10 @@ func
 alloc
 c0
 c1
-MIRType_Int32
+MIRType
+:
+:
+Int32
 /
 *
 unsignd
@@ -1981,7 +1990,10 @@ func
 alloc
 c0
 c1
-MIRType_Int32
+MIRType
+:
+:
+Int32
 /
 *
 unsignd
