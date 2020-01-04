@@ -745,7 +745,6 @@ BluetoothSetupResultHandler
 *
 aRes
 )
-override
 ;
 nsresult
 UnregisterModule
@@ -756,7 +755,6 @@ BluetoothSetupResultHandler
 *
 aRes
 )
-override
 ;
 /
 /
