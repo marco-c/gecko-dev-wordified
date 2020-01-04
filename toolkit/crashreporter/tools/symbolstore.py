@@ -4620,10 +4620,6 @@ False
 '
 '
         
-success
-=
-True
-        
 for
 job
 callback
@@ -4671,10 +4667,6 @@ s
 e
 )
                 
-success
-=
-False
-                
 continue
             
 callback
@@ -4691,13 +4683,6 @@ JobPool
 shutdown
 (
 )
-        
-return
-0
-if
-success
-else
-1
     
 def
 Process
@@ -5010,46 +4995,10 @@ Submits
 a
 job
 to
-run
-|
-func_name
-|
-with
-|
-args
-|
-to
 the
 pool
 of
-        
 workers
-calling
-|
-callback
-|
-when
-the
-job
-completes
-.
-If
-the
-function
-        
-call
-raises
-the
-call
-to
-Dumper
-.
-Finish
-will
-return
-failure
-.
-        
 "
 "
 "
@@ -8739,16 +8688,6 @@ str
 e
 )
 )
-            
-raise
-Exception
-(
-'
-Error
-running
-dsymutil
-'
-)
         
 if
 not
@@ -9632,8 +9571,12 @@ PDBSTR_PATH
 n
 "
             
-return
+sys
+.
+exit
+(
 1
+)
     
 if
 len
@@ -9655,8 +9598,10 @@ arguments
 "
 )
         
-return
+exit
+(
 1
+)
     
 try
 :
@@ -9689,8 +9634,10 @@ e
 )
 )
         
-return
+exit
+(
 1
+)
     
 file_mapping
 =
@@ -9776,7 +9723,6 @@ args
 ]
 )
     
-return
 dumper
 .
 Finish
@@ -9831,11 +9777,6 @@ GlobalInit
 (
 )
     
-sys
-.
-exit
-(
 main
 (
-)
 )
