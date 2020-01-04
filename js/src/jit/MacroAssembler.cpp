@@ -15844,13 +15844,14 @@ return
 ;
 if
 (
-!
-enoughMemory_
+oom
+(
+)
 )
 return
 ;
-enoughMemory_
-=
+propagateOOM
+(
 moveResolver_
 .
 addMove
@@ -15858,6 +15859,7 @@ addMove
 from
 to
 type
+)
 )
 ;
 }

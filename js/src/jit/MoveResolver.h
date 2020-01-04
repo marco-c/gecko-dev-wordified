@@ -1844,6 +1844,7 @@ resets
 the
 resolver
 .
+MOZ_MUST_USE
 bool
 addMove
 (

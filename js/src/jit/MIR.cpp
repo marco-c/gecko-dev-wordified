@@ -4101,7 +4101,7 @@ exceptUse
 )
 ;
 }
-void
+bool
 MDefinition
 :
 :
@@ -4166,6 +4166,18 @@ optimizedOutConstant
 alloc
 )
 ;
+if
+(
+!
+alloc
+.
+ensureBallast
+(
+)
+)
+return
+false
+;
 /
 /
 Update
@@ -4212,6 +4224,9 @@ uses_
 clear
 (
 )
+;
+return
+true
 ;
 }
 void

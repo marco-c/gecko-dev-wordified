@@ -152,6 +152,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 builtin
 /
 SIMD
@@ -5596,7 +5605,8 @@ in
 any
 computation
 .
-void
+MOZ_MUST_USE
+bool
 optimizeOutAllUses
 (
 TempAllocator

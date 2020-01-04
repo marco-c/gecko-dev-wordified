@@ -120,6 +120,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler

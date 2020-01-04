@@ -423,7 +423,8 @@ definePhis
 (
 )
 ;
-void
+MOZ_MUST_USE
+bool
 lowerCallArguments
 (
 MCall

@@ -2398,6 +2398,8 @@ non
 argument
 register
 .
+propagateOOM
+(
 moveResolver_
 .
 addMove
@@ -2414,6 +2416,7 @@ MoveOp
 :
 :
 GENERAL
+)
 )
 ;
 fun
@@ -2508,6 +2511,8 @@ non
 argument
 register
 .
+propagateOOM
+(
 moveResolver_
 .
 addMove
@@ -2526,6 +2531,7 @@ MoveOp
 :
 :
 GENERAL
+)
 )
 ;
 safeFun
