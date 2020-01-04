@@ -7141,6 +7141,12 @@ nullptr
 stapledOCSPResponse
 *
 /
+nullptr
+/
+*
+sctsFromTLSExtension
+*
+/
 &
 resultOidTag
 )

@@ -8225,6 +8225,10 @@ nullptr
 /
 /
 stapledOCSPResponse
+nullptr
+/
+/
+sctsFromTLSExtension
 aTime
 nullptr
 /
@@ -8277,6 +8281,10 @@ nullptr
 /
 /
 stapledOCSPResponse
+nullptr
+/
+/
+sctsFromTLSExtension
 &
 evOidPolicy
 )

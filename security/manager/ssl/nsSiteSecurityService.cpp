@@ -4763,8 +4763,11 @@ nssCert
 nullptr
 /
 /
-stapled
-ocsp
+stapledOCSPResponse
+nullptr
+/
+/
+sctsFromTLSExtension
 now
 nullptr
 /
