@@ -7924,10 +7924,6 @@ SetIsActive
 (
 bool
 aIsActive
-bool
-aIsHidden
-=
-true
 )
 =
 0

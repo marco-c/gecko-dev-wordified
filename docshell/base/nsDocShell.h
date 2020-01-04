@@ -2898,15 +2898,6 @@ aStateFlags
 )
 override
 ;
-nsresult
-SetIsActiveInternal
-(
-bool
-aIsActive
-bool
-aIsHidden
-)
-;
 /
 *
 *
