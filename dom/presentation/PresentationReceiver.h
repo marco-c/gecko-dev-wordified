@@ -144,7 +144,7 @@ class
 Promise
 ;
 class
-PresentationSession
+PresentationConnection
 ;
 class
 PresentationReceiver
@@ -218,7 +218,7 @@ already_AddRefed
 <
 Promise
 >
-GetSession
+GetConnection
 (
 ErrorResult
 &
@@ -229,7 +229,7 @@ already_AddRefed
 <
 Promise
 >
-GetSessions
+GetConnections
 (
 ErrorResult
 &
@@ -239,7 +239,7 @@ const
 ;
 IMPL_EVENT_HANDLER
 (
-sessionavailable
+connectionavailable
 )
 ;
 private
@@ -272,7 +272,7 @@ Shutdown
 )
 ;
 nsresult
-DispatchSessionAvailableEvent
+DispatchConnectionAvailableEvent
 (
 )
 ;
@@ -312,10 +312,10 @@ nsTArray
 <
 nsRefPtr
 <
-PresentationSession
+PresentationConnection
 >
 >
-mSessions
+mConnections
 ;
 nsTArray
 <
@@ -324,7 +324,7 @@ nsRefPtr
 Promise
 >
 >
-mPendingGetSessionPromises
+mPendingGetConnectionPromises
 ;
 }
 ;

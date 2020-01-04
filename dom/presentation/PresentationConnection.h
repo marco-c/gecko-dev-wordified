@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_PresentationSession_h
+mozilla_dom_PresentationConnection_h
 #
 define
-mozilla_dom_PresentationSession_h
+mozilla_dom_PresentationConnection_h
 #
 include
 "
@@ -134,7 +134,7 @@ mozilla
 /
 dom
 /
-PresentationSessionBinding
+PresentationConnectionBinding
 .
 h
 "
@@ -152,7 +152,7 @@ namespace
 dom
 {
 class
-PresentationSession
+PresentationConnection
 final
 :
 public
@@ -165,14 +165,14 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-PresentationSession
+PresentationConnection
 DOMEventTargetHelper
 )
 NS_DECL_NSIPRESENTATIONSESSIONLISTENER
 static
 already_AddRefed
 <
-PresentationSession
+PresentationConnection
 >
 Create
 (
@@ -183,7 +183,7 @@ const
 nsAString
 &
 aId
-PresentationSessionState
+PresentationConnectionState
 aState
 )
 ;
@@ -230,7 +230,7 @@ aId
 )
 const
 ;
-PresentationSessionState
+PresentationConnectionState
 State
 (
 )
@@ -276,7 +276,7 @@ message
 ;
 private
 :
-PresentationSession
+PresentationConnection
 (
 nsPIDOMWindow
 *
@@ -285,12 +285,12 @@ const
 nsAString
 &
 aId
-PresentationSessionState
+PresentationConnectionState
 aState
 )
 ;
 ~
-PresentationSession
+PresentationConnection
 (
 )
 ;
@@ -328,7 +328,7 @@ aData
 nsString
 mId
 ;
-PresentationSessionState
+PresentationConnectionState
 mState
 ;
 }
@@ -347,4 +347,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_PresentationSession_h
+mozilla_dom_PresentationConnection_h
