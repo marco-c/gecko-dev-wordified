@@ -606,13 +606,6 @@ mCryptoHash
 ;
 nsTArray
 <
-HashStore
-*
->
-mHashStores
-;
-nsTArray
-<
 LookupCache
 *
 >
