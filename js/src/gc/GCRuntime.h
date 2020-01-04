@@ -7163,13 +7163,6 @@ lastGC
 )
 ;
 void
-endFinalizePhase
-(
-bool
-destroyingRuntime
-)
-;
-void
 decommitAllWithoutUnlocking
 (
 const
