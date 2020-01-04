@@ -3432,7 +3432,7 @@ for
 gc
 :
 :
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -8069,7 +8069,7 @@ for
 gc
 :
 :
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone

@@ -14983,7 +14983,7 @@ zone
 ;
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -15032,7 +15032,7 @@ oom
 }
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -24005,7 +24005,7 @@ AllAllocKinds
 {
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -24127,7 +24127,7 @@ runtimeFromMainThread
 ;
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -43592,7 +43592,7 @@ zone
 {
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
