@@ -2401,12 +2401,16 @@ childFrame
 this
 -
 >
-GetLastChild
+GetChildList
 (
 nsIFrame
 :
 :
 kPrincipalList
+)
+.
+LastChild
+(
 )
 ;
 }

@@ -43162,12 +43162,16 @@ child
 aFrame
 -
 >
-GetLastChild
+GetChildList
 (
 nsIFrame
 :
 :
 kPrincipalList
+)
+.
+LastChild
+(
 )
 ;
 while
