@@ -1398,8 +1398,6 @@ inspector
 actor
 *
 see
-toolkit
-/
 devtools
 /
 server

@@ -558,9 +558,9 @@ these
 in
 sync
 with
-browser
-/
 devtools
+/
+client
 /
 performance
 /

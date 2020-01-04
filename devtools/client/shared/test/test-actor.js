@@ -304,8 +304,6 @@ nsCanvasFrame
 *
 see
 /
-toolkit
-/
 devtools
 /
 server

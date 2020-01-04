@@ -102,8 +102,6 @@ actor
 test
 in
 /
-toolkit
-/
 devtools
 /
 server

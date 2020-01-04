@@ -15160,9 +15160,9 @@ source
 .
 *
 see
-browser
-/
 devtools
+/
+client
 /
 shared
 /
@@ -15214,9 +15214,9 @@ source
 .
 *
 see
-browser
-/
 devtools
+/
+client
 /
 shared
 /
@@ -15318,9 +15318,9 @@ toolbox
 *
 *
 see
-browser
-/
 devtools
+/
+client
 /
 shared
 /
@@ -15366,9 +15366,9 @@ source
 .
 *
 see
-browser
-/
 devtools
+/
+client
 /
 shared
 /

@@ -62,9 +62,9 @@ insert
 function
 in
 *
-browser
-/
 devtools
+/
+client
 /
 performance
 /

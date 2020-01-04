@@ -91,8 +91,6 @@ DEFAULT_TIMELINE_DATA_PULL_TIMEOUT
 /
 /
 in
-toolkit
-/
 devtools
 /
 server

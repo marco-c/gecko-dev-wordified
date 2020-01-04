@@ -81,8 +81,6 @@ into
 a
 /
 /
-toolkit
-/
 devtools
 /
 server

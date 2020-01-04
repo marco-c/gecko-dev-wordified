@@ -92,8 +92,6 @@ objects
 /
 /
 See
-toolkit
-/
 devtools
 /
 server

@@ -35,9 +35,9 @@ frame
 -
 script
 for
-browser
-/
 devtools
+/
+client
 /
 framework
 service

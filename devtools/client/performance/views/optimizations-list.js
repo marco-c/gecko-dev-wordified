@@ -154,9 +154,9 @@ referenced
 :
 *
 see
-browser
-/
 devtools
+/
+client
 /
 performance
 /
@@ -1781,9 +1781,9 @@ IonType
 *
 *
 see
-browser
-/
 devtools
+/
+client
 /
 performance
 /
@@ -1878,9 +1878,9 @@ ObservedType
 *
 *
 see
-browser
-/
 devtools
+/
+client
 /
 performance
 /
@@ -2167,9 +2167,9 @@ OptimizationAttempt
 *
 *
 see
-browser
-/
 devtools
+/
+client
 /
 performance
 /

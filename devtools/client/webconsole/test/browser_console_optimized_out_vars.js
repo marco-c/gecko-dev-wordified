@@ -77,9 +77,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /
@@ -384,9 +384,9 @@ helper
 functions
 stolen
 from
-browser
-/
 devtools
+/
+client
 /
 debugger
 /

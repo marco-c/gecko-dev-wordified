@@ -106,9 +106,9 @@ TEST_HOST
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 "
 +

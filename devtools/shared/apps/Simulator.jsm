@@ -145,9 +145,9 @@ in
 :
 *
 *
-browser
-/
 devtools
+/
+client
 /
 webide
 /

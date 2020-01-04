@@ -118,9 +118,9 @@ your
 chart
 entries
 to
-browser
-/
 devtools
+/
+client
 /
 shared
 /

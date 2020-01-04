@@ -141,9 +141,9 @@ key
 -
 toggle
 in
-browser
-/
 devtools
+/
+client
 /
 framework
 /

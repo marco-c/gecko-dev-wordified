@@ -2156,9 +2156,9 @@ matched
 by
 /
 /
-browser
-/
 devtools
+/
+client
 /
 profiler
 /

@@ -78,9 +78,9 @@ org
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

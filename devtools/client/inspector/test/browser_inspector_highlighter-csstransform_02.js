@@ -118,9 +118,9 @@ returns
 sensible
 values
 (
-browser
-/
 devtools
+/
+client
 /
 shared
 /

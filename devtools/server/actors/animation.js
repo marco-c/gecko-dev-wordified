@@ -3811,8 +3811,6 @@ defined
 in
 *
 /
-toolkit
-/
 devtools
 /
 server

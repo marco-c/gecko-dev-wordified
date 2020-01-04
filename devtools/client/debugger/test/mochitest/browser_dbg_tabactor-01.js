@@ -55,9 +55,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 debugger
 /

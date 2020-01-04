@@ -1788,9 +1788,9 @@ subsuite
 ]
    
 "
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1810,9 +1810,9 @@ dir_relpath
 "
 :
 "
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1824,9 +1824,9 @@ file_relpath
 "
 :
 "
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1873,9 +1873,9 @@ mochitest
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1896,9 +1896,9 @@ m
 -
 c
 /
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1945,9 +1945,9 @@ mochitest
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -1963,9 +1963,9 @@ relpath
 "
 :
 "
-browser
-/
 devtools
+/
+client
 /
 markupview
 /

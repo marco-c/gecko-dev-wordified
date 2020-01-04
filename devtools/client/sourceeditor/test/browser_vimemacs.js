@@ -59,9 +59,9 @@ HOST
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 sourceeditor
 /

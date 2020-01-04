@@ -95,9 +95,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 sourceeditor
 /

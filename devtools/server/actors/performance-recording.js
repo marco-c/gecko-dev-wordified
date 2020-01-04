@@ -224,9 +224,9 @@ the
 Performance
 module
 at
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /
@@ -242,9 +242,9 @@ definitions
 *
 *
 see
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /

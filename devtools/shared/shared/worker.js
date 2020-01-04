@@ -361,9 +361,9 @@ helper
 see
 .
 /
-browser
-/
 devtools
+/
+client
 /
 shared
 /
@@ -958,9 +958,9 @@ resolution
 see
 .
 /
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /

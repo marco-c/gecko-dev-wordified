@@ -93,9 +93,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /
@@ -133,9 +133,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 "
 +
@@ -178,9 +178,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 "
 +

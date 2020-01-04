@@ -5186,9 +5186,9 @@ matched
 by
 /
 /
-browser
-/
 devtools
+/
+client
 /
 profiler
 /
@@ -5735,9 +5735,9 @@ matched
 by
 /
 /
-browser
-/
 devtools
+/
+client
 /
 profiler
 /

@@ -357,8 +357,6 @@ fx
 -
 team
 /
-toolkit
-/
 devtools
 /
 server

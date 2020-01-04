@@ -251,9 +251,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 projecteditor
 /

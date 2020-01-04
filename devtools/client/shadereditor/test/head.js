@@ -383,9 +383,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 shadereditor
 /

@@ -301,13 +301,11 @@ entry
 in
 .
 /
-browser
+devtools
+/
+client
 /
 themes
-/
-shared
-/
-devtools
 /
 performance
 .

@@ -128,8 +128,6 @@ can
 be
 found
 at
-toolkit
-/
 devtools
 /
 server

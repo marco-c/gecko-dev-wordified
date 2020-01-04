@@ -388,9 +388,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 performance
 /

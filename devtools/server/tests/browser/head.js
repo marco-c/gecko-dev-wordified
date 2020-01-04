@@ -222,8 +222,6 @@ PATH
 "
 browser
 /
-toolkit
-/
 devtools
 /
 server

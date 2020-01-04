@@ -131,9 +131,9 @@ logic
 is
 handled
 in
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /
@@ -161,9 +161,9 @@ documentation
 :
 *
 see
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /

@@ -493,9 +493,9 @@ the
 Memory
 module
 at
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /
@@ -511,9 +511,9 @@ definitions
 *
 *
 see
-toolkit
-/
 devtools
+/
+shared
 /
 shared
 /

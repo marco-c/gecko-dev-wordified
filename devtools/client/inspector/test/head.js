@@ -205,9 +205,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 inspector
 /

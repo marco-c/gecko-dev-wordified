@@ -290,9 +290,9 @@ allowConnection
 methods
 in
 *
-toolkit
-/
 devtools
+/
+shared
 /
 security
 /

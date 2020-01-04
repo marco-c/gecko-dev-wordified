@@ -8436,9 +8436,9 @@ url
 indexOf
 (
 "
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

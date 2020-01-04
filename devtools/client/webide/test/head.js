@@ -256,9 +256,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webide
 /
@@ -282,9 +282,9 @@ content
 /
 chrome
 /
-browser
-/
 devtools
+/
+client
 /
 webide
 /

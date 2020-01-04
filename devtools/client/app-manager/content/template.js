@@ -127,9 +127,9 @@ way
 See
 examples
 in
-browser
-/
 devtools
+/
+client
 /
 app
 -

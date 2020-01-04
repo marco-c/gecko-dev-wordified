@@ -127,8 +127,6 @@ devtools
 RDP
 *
 use
-toolkit
-/
 devtools
 /
 server

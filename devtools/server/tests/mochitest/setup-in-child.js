@@ -136,8 +136,6 @@ content
 /
 chrome
 /
-toolkit
-/
 devtools
 /
 server

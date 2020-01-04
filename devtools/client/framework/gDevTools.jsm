@@ -822,13 +822,11 @@ icon
 image
 .
 See
-browser
+devtools
+/
+client
 /
 themes
-/
-shared
-/
-devtools
 /
 filters
 .

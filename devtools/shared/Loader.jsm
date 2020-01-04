@@ -3543,9 +3543,9 @@ instance
 .
 *
 see
-browser
-/
 devtools
+/
+client
 /
 framework
 /

@@ -245,9 +245,9 @@ reference
 .
 *
 see
-browser
-/
 devtools
+/
+client
 /
 performance
 /

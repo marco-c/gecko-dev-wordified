@@ -392,9 +392,9 @@ is
 anything
 under
 *
-browser
-/
 devtools
+/
+client
 /
 shared
 /

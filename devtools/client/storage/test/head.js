@@ -213,9 +213,9 @@ PATH
 "
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 storage
 /

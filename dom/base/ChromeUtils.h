@@ -177,9 +177,9 @@ public
 /
 Implemented
 in
-toolkit
-/
 devtools
+/
+shared
 /
 heapsnapshot
 /
@@ -212,9 +212,9 @@ rv
 /
 Implemented
 in
-toolkit
-/
 devtools
+/
+shared
 /
 heapsnapshot
 /
