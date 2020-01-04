@@ -333,6 +333,14 @@ below
 .
 usesScopeChain_
 =
+script_
+-
+>
+module
+(
+)
+|
+|
 (
 script_
 -
