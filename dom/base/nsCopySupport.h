@@ -169,6 +169,12 @@ public
 :
 static
 nsresult
+ClearSelectionCache
+(
+)
+;
+static
+nsresult
 HTMLCopy
 (
 nsISelection
