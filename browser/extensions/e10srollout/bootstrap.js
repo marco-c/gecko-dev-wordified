@@ -675,6 +675,13 @@ cohortName
 ;
 try
 {
+if
+(
+Ci
+.
+nsICrashReporter
+)
+{
 Services
 .
 appinfo
@@ -694,6 +701,7 @@ E10SCohort
 cohortName
 )
 ;
+}
 }
 catch
 (
