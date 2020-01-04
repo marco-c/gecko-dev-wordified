@@ -1274,6 +1274,14 @@ moz_places
 "
 "
 WHERE
+url_hash
+=
+hash
+(
+?
+1
+)
+AND
 url
 =
 ?

@@ -285,6 +285,13 @@ url
 =
 :
 url
+url_hash
+=
+hash
+(
+:
+url
+)
 WHERE
 id
 =
