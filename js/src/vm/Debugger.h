@@ -5759,13 +5759,7 @@ v
 gc
 :
 :
-ComponentFinder
-<
-JS
-:
-:
-Zone
->
+ZoneComponentFinder
 &
 finder
 )

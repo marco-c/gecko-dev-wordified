@@ -1213,6 +1213,9 @@ js_with_str
 namespace
 js
 {
+class
+AutoLockForExclusiveAccess
+;
 /
 *
 *
@@ -1231,6 +1234,9 @@ MarkAtoms
 JSTracer
 *
 trc
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 void

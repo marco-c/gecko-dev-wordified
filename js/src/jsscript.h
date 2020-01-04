@@ -15120,6 +15120,9 @@ UnmarkScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 extern
@@ -15129,6 +15132,9 @@ SweepScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 extern
@@ -15138,6 +15144,9 @@ FreeScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 struct

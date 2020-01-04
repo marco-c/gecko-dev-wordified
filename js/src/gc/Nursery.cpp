@@ -2703,6 +2703,13 @@ markRuntime
 (
 &
 mover
+GCRuntime
+:
+:
+TraceRuntime
+session
+.
+lock
 )
 ;
 TIME_END
@@ -3091,6 +3098,9 @@ CheckHeapOnMovingGC
 CheckHeapAfterMovingGC
 (
 rt
+session
+.
+lock
 )
 ;
 #

@@ -5958,6 +5958,7 @@ runtime
 >
 atomsCompartment
 (
+lock
 )
 )
 ;

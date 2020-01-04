@@ -1791,6 +1791,9 @@ ParseMapPool
 &
 parseMapPool
 (
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 return
@@ -1799,6 +1802,7 @@ runtime_
 >
 parseMapPool
 (
+lock
 )
 ;
 }
@@ -1806,6 +1810,12 @@ AtomSet
 &
 atoms
 (
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 return
@@ -1814,6 +1824,7 @@ runtime_
 >
 atoms
 (
+lock
 )
 ;
 }
@@ -1821,6 +1832,12 @@ JSCompartment
 *
 atomsCompartment
 (
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 return
@@ -1829,6 +1846,7 @@ runtime_
 >
 atomsCompartment
 (
+lock
 )
 ;
 }
@@ -1836,6 +1854,12 @@ SymbolRegistry
 &
 symbolRegistry
 (
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 return
@@ -1844,6 +1868,7 @@ runtime_
 >
 symbolRegistry
 (
+lock
 )
 ;
 }
@@ -1851,6 +1876,9 @@ ScriptDataTable
 &
 scriptDataTable
 (
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 return
@@ -1859,6 +1887,7 @@ runtime_
 >
 scriptDataTable
 (
+lock
 )
 ;
 }

@@ -1035,6 +1035,7 @@ jitRuntime_
 initialize
 (
 cx
+atomsLock
 )
 )
 {

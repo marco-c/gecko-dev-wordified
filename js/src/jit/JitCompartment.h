@@ -1290,6 +1290,12 @@ initialize
 JSContext
 *
 cx
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 uint8_t
@@ -1312,6 +1318,12 @@ Mark
 JSTracer
 *
 trc
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 static

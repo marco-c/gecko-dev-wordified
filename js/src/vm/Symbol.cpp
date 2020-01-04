@@ -202,6 +202,9 @@ code
 JSAtom
 *
 description
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 MOZ_ASSERT
@@ -219,26 +222,7 @@ cx
 >
 atomsCompartment
 (
-)
-)
-;
-MOZ_ASSERT
-(
-cx
--
->
-atomsCompartment
-(
-)
--
->
-runtimeFromAnyThread
-(
-)
--
->
-currentThreadHasExclusiveAccess
-(
+lock
 )
 )
 ;
@@ -395,6 +379,7 @@ cx
 >
 atomsCompartment
 (
+lock
 )
 )
 ;
@@ -404,6 +389,7 @@ newInternal
 cx
 code
 atom
+lock
 )
 ;
 }
@@ -457,6 +443,7 @@ cx
 >
 symbolRegistry
 (
+lock
 )
 ;
 SymbolRegistry
@@ -489,6 +476,7 @@ cx
 >
 atomsCompartment
 (
+lock
 )
 )
 ;
@@ -504,6 +492,7 @@ SymbolCode
 :
 InSymbolRegistry
 atom
+lock
 )
 ;
 if
