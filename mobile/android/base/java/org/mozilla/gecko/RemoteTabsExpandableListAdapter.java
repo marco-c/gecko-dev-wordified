@@ -1118,6 +1118,8 @@ lastModifiedView
 .
 setText
 (
+this
+.
 getLastSyncedString
 (
 context
@@ -1588,7 +1590,6 @@ span
 *
 /
 public
-static
 String
 getLastSyncedString
 (
