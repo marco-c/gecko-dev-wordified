@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -58,9 +63,12 @@ the
 resulting
 file
 .
-Cu
-.
-import
+const
+{
+OS
+}
+=
+require
 (
 "
 resource

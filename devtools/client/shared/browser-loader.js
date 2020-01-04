@@ -170,9 +170,14 @@ Services
 "
 )
 ;
-Cu
+const
+{
+AppConstants
+}
+=
+devtools
 .
-import
+require
 (
 "
 resource

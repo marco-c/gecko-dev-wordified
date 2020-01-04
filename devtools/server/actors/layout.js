@@ -221,7 +221,6 @@ LayoutChangesObserver
 const
 {
 Ci
-Cu
 }
 =
 require
@@ -231,9 +230,12 @@ chrome
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

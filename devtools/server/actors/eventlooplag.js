@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -105,7 +110,6 @@ milliseconds
 const
 {
 Ci
-Cu
 }
 =
 require
@@ -125,9 +129,12 @@ Services
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

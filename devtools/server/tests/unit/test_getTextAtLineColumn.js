@@ -80,8 +80,6 @@ const
 getTextAtLineColumn
 }
 =
-devtools
-.
 require
 (
 "

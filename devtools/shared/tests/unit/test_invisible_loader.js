@@ -27,6 +27,16 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
+const
+{
+addDebuggerToGlobal
+}
+=
 Cu
 .
 import
@@ -44,6 +54,8 @@ jsdebugger
 .
 jsm
 "
+{
+}
 )
 ;
 addDebuggerToGlobal

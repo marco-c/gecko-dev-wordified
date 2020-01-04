@@ -138,9 +138,7 @@ const
 OS
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -155,8 +153,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 const

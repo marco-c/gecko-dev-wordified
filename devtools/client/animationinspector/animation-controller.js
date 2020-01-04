@@ -229,6 +229,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 var

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -47,9 +52,12 @@ bulk
 /
 data
 .
-Cu
-.
-import
+const
+{
+OS
+}
+=
+require
 (
 "
 resource

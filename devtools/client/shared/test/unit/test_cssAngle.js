@@ -66,6 +66,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const

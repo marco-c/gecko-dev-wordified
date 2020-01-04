@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 Ci
 =
@@ -70,6 +75,11 @@ Components
 .
 utils
 ;
+const
+{
+Services
+}
+=
 Cu
 .
 import
@@ -87,6 +97,8 @@ Services
 .
 jsm
 "
+{
+}
 )
 ;
 this

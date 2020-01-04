@@ -108,7 +108,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -188,9 +187,12 @@ styles
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

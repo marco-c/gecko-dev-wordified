@@ -62,14 +62,12 @@ nodes
 in
 search
 results
-var
+const
 {
 AppConstants
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

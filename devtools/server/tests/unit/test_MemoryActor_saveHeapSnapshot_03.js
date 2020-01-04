@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -49,9 +54,12 @@ or
 a
 ChildProcessActor
 .
-Cu
-.
-import
+const
+{
+OS
+}
+=
+require
 (
 "
 resource
