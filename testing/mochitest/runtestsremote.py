@@ -297,7 +297,7 @@ True
         
 self
 .
-remoteNSPR
+remoteMozLog
 =
 os
 .
@@ -309,7 +309,7 @@ options
 .
 remoteTestRoot
 "
-nspr
+mozlog
 "
 )
         
@@ -321,7 +321,7 @@ removeDir
 (
 self
 .
-remoteNSPR
+remoteMozLog
 )
         
 self
@@ -332,7 +332,7 @@ mkDir
 (
 self
 .
-remoteNSPR
+remoteMozLog
 )
         
 self
@@ -502,7 +502,7 @@ getDirectory
 (
 self
 .
-remoteNSPR
+remoteMozLog
 blobberUploadDir
 )
         
@@ -2132,7 +2132,7 @@ XPCOM_MEM_BLOAT_LOG
         
 #
 override
-nsprLogs
+mozLogs
 to
 avoid
 processing
@@ -2143,14 +2143,14 @@ class
         
 self
 .
-nsprLogs
+mozLogs
 =
 None
         
 browserEnv
 [
 "
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 "
 ]
 =
@@ -2163,11 +2163,11 @@ join
             
 self
 .
-remoteNSPR
+remoteMozLog
             
 self
 .
-nsprLogName
+mozLogName
 )
         
 return
@@ -2825,10 +2825,10 @@ procName
     
 mochitest
 .
-nsprLogName
+mozLogName
 =
 "
-nspr
+moz
 .
 log
 "
