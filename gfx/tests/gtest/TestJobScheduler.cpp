@@ -47,6 +47,9 @@ zero
 *
 /
 #
+ifndef
+WIN32
+#
 include
 "
 gtest
@@ -76,9 +79,6 @@ JobScheduler
 h
 "
 #
-ifndef
-WIN32
-#
 include
 <
 pthread
@@ -92,8 +92,6 @@ sched
 .
 h
 >
-#
-endif
 #
 include
 <
@@ -151,9 +149,6 @@ MaybeYieldThread
 (
 )
 {
-#
-ifndef
-WIN32
 if
 (
 rand
@@ -171,8 +166,6 @@ sched_yield
 )
 ;
 }
-#
-endif
 }
 /
 /
@@ -210,8 +203,8 @@ mozilla
 gfx
 :
 :
-CriticalSection
-mSection
+Mutex
+mMutex
 ;
 explicit
 SanityChecker
@@ -259,11 +252,11 @@ MaybeYieldThread
 (
 )
 ;
-CriticalSectionAutoEnter
+MutexAutoLock
 lock
 (
 &
-mSection
+mMutex
 )
 ;
 ASSERT_EQ
@@ -1535,3 +1528,5 @@ ShutDown
 }
 }
 }
+#
+endif
