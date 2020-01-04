@@ -590,6 +590,12 @@ IntrinsicGetNextMapEntryForIterator
 \
 _
 (
+IntrinsicPossiblyWrappedArrayBufferByteLength
+)
+\
+\
+_
+(
 IntrinsicIsTypedArray
 )
 \
