@@ -266,6 +266,16 @@ GetImageData
 (
 )
 ;
+size_t
+GetImageDataLength
+(
+)
+const
+{
+return
+mImageDataLength
+;
+}
 /
 /
 Obtains
