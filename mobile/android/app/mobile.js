@@ -7785,16 +7785,6 @@ true
 pref
 (
 "
-dom
-.
-report_all_js_exceptions
-"
-true
-)
-;
-pref
-(
-"
 javascript
 .
 options
