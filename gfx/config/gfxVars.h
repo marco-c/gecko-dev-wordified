@@ -275,6 +275,13 @@ SurfaceFormat
 X8R8G8B8_UINT32
 )
 \
+_
+(
+RequiresAcceleratedGLContextForCompositorOGL
+bool
+false
+)
+\
 /
 *
 Add

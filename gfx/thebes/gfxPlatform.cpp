@@ -12093,6 +12093,16 @@ GetOffscreenFormat
 )
 )
 ;
+gfxVars
+:
+:
+SetRequiresAcceleratedGLContextForCompositorOGL
+(
+RequiresAcceleratedGLContextForCompositorOGL
+(
+)
+)
+;
 }
 nsCOMPtr
 <
