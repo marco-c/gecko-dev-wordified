@@ -2621,6 +2621,12 @@ toString
 )
 )
 ;
+mRecentTabsAdapter
+.
+clearLastSessionData
+(
+)
+;
 Telemetry
 .
 sendUIEvent
