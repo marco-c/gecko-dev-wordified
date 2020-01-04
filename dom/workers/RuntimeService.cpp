@@ -7332,7 +7332,7 @@ sharedWorkerName
 aWorkerPrivate
 -
 >
-SharedWorkerName
+WorkerName
 (
 )
 ;
