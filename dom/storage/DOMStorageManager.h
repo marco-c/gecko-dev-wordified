@@ -583,8 +583,6 @@ const
 nsAString
 &
 aDocumentURI
-bool
-aPrivate
 nsIDOMStorage
 *
 *

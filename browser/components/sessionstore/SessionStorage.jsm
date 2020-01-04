@@ -949,9 +949,6 @@ window
 principal
 "
 "
-aDocShell
-.
-usePrivateBrowsing
 )
 ;
 for

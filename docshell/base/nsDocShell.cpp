@@ -15784,9 +15784,6 @@ GetCurrentInnerWindow
 )
 aPrincipal
 aDocumentURI
-UsePrivateBrowsing
-(
-)
 aStorage
 )
 ;
@@ -15804,9 +15801,6 @@ GetCurrentInnerWindow
 (
 )
 aPrincipal
-UsePrivateBrowsing
-(
-)
 aStorage
 )
 ;
