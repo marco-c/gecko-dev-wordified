@@ -2722,9 +2722,10 @@ aMallocSizeOf
 )
 const
 {
-size_t
-amount
-=
+return
+(
+mEncoder
+?
 mEncoder
 -
 >
@@ -2732,9 +2733,9 @@ SizeOfExcludingThis
 (
 aMallocSizeOf
 )
-;
-return
-amount
+:
+0
+)
 ;
 }
 private
