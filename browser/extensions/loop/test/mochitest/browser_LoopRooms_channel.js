@@ -128,7 +128,7 @@ browser
 /
 browser
 /
-components
+extensions
 /
 loop
 /

@@ -5762,8 +5762,6 @@ src
 eql
 (
 "
-loop
-/
 shared
 /
 img

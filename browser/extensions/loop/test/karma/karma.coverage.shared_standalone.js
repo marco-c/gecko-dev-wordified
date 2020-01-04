@@ -115,7 +115,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 lodash
 -
@@ -132,7 +132,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 backbone
 -
@@ -149,7 +149,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 react
 -
@@ -166,7 +166,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 classnames
 -
@@ -183,7 +183,7 @@ content
 /
 shared
 /
-libs
+vendor
 /
 sdk
 .

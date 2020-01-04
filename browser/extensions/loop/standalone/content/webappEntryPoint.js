@@ -184,7 +184,7 @@ false
 !
 shared
 /
-libs
+vendor
 /
 sdk
 .
@@ -277,7 +277,7 @@ _
 !
 shared
 /
-libs
+vendor
 /
 lodash
 -
@@ -348,7 +348,7 @@ false
 !
 shared
 /
-libs
+vendor
 /
 backbone
 -
@@ -466,7 +466,7 @@ require
 "
 shared
 /
-libs
+vendor
 /
 react
 -
@@ -485,7 +485,7 @@ require
 "
 shared
 /
-libs
+vendor
 /
 classnames
 -

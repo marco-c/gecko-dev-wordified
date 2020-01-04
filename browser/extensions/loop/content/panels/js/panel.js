@@ -264,8 +264,6 @@ img
 src
 :
 "
-loop
-/
 shared
 /
 img
@@ -2370,8 +2368,6 @@ img
 src
 :
 "
-loop
-/
 shared
 /
 img
@@ -2459,8 +2455,6 @@ thumbnail
 |
 |
 "
-loop
-/
 shared
 /
 img
@@ -4485,8 +4479,6 @@ img
 src
 :
 "
-loop
-/
 shared
 /
 img
@@ -5483,8 +5475,6 @@ img
 src
 :
 "
-loop
-/
 shared
 /
 img
