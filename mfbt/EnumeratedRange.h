@@ -1386,6 +1386,7 @@ detail
 :
 EnumeratedRange
 <
+typename
 UnsignedStdintTypeForSize
 <
 sizeof
@@ -1407,6 +1408,7 @@ aEnd
 return
 MakeEnumeratedRange
 <
+typename
 UnsignedStdintTypeForSize
 <
 sizeof
