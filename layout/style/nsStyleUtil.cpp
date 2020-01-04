@@ -759,7 +759,7 @@ quoteChar
 static
 *
 /
-void
+bool
 nsStyleUtil
 :
 :
@@ -1019,6 +1019,7 @@ in
 end
 )
 return
+true
 ;
 /
 /
@@ -1095,6 +1096,7 @@ char16_t
 )
 ;
 return
+true
 ;
 }
 aReturn
@@ -1229,18 +1231,10 @@ ch
 0x00
 )
 {
-aReturn
-.
-Append
-(
-char16_t
-(
-0xFFFD
-)
-)
+return
+false
 ;
 }
-else
 if
 (
 ch
@@ -1409,6 +1403,9 @@ ch
 ;
 }
 }
+return
+true
+;
 }
 /
 /
