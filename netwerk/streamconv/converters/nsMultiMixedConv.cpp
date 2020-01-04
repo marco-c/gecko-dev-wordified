@@ -1691,10 +1691,6 @@ return
 mResponseHead
 -
 >
-Headers
-(
-)
-.
 VisitHeaders
 (
 visitor

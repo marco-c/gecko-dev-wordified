@@ -859,7 +859,7 @@ if
 mHead
 -
 >
-PeekHeader
+HasHeader
 (
 header
 )
