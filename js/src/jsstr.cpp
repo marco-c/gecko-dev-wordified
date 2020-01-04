@@ -14337,6 +14337,7 @@ nobj
 >
 zeroLastIndex
 (
+cx
 )
 ;
 return
