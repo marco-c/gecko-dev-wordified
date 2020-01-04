@@ -271,6 +271,9 @@ class
 MediaInputPort
 ;
 class
+MediaStreamDirectListener
+;
+class
 MediaStreamGraph
 ;
 class
@@ -334,9 +337,6 @@ OverlayImage
 /
 namespace
 layers
-class
-MediaStreamDirectListener
-;
 #
 define
 NS_DOMMEDIASTREAM_IID
@@ -2564,7 +2564,7 @@ FindOwnedDOMTrack
 (
 MediaStream
 *
-aOwningStream
+aInputStream
 TrackID
 aInputTrackID
 )
@@ -2648,7 +2648,7 @@ FindPlaybackDOMTrack
 (
 MediaStream
 *
-aOwningStream
+aInputStream
 TrackID
 aInputTrackID
 )
