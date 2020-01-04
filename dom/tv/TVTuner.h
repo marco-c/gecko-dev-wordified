@@ -365,6 +365,14 @@ InitMediaStream
 (
 )
 ;
+already_AddRefed
+<
+DOMMediaStream
+>
+CreateSimulatedMediaStream
+(
+)
+;
 nsresult
 DispatchCurrentSourceChangedEvent
 (
@@ -384,6 +392,9 @@ nsRefPtr
 DOMMediaStream
 >
 mStream
+;
+uint16_t
+mStreamType
 ;
 nsRefPtr
 <
