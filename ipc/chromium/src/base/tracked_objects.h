@@ -154,6 +154,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticMutex
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop
@@ -3871,7 +3880,10 @@ to
 first_
 .
 static
-Lock
+mozilla
+:
+:
+StaticMutex
 list_lock_
 ;
 /
