@@ -3101,13 +3101,6 @@ GetObjectPrincipal
 targetObj
 )
 ;
-JSAutoCompartment
-ac
-(
-cx
-targetObj
-)
-;
 /
 *
 load
@@ -3192,6 +3185,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+JSAutoCompartment
+ac
+(
+cx
+targetObj
+)
+;
 /
 /
 Suppress
