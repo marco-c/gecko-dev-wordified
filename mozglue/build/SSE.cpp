@@ -292,11 +292,16 @@ regs
 edx
 ;
 return
+(
 regs
 [
 reg
 ]
 &
+bits
+)
+=
+=
 bits
 ;
 }
