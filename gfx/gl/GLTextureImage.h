@@ -1284,13 +1284,6 @@ friend
 class
 GLContext
 ;
-void
-UpdateUploadSize
-(
-size_t
-amount
-)
-;
 /
 *
 *
@@ -1376,11 +1369,6 @@ TextureImage
 (
 )
 {
-UpdateUploadSize
-(
-0
-)
-;
 }
 virtual
 gfx
@@ -1417,9 +1405,6 @@ mFilter
 ;
 Flags
 mFlags
-;
-size_t
-mUploadSize
 ;
 }
 ;
