@@ -602,6 +602,13 @@ aUA
 WorkerMainThreadRunnable
 (
 aWorkerPrivate
+NS_LITERAL_CSTRING
+(
+"
+UserAgent
+getter
+"
+)
 )
 mUA
 (
