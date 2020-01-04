@@ -9847,9 +9847,6 @@ script
 return
 ;
 }
-}
-else
-{
 /
 /
 We
@@ -9866,6 +9863,8 @@ non
 global
 scope
 .
+}
+else
 if
 (
 !
@@ -9885,7 +9884,11 @@ script
 return
 ;
 }
-}
+MOZ_ASSERT
+(
+script
+)
+;
 aScriptp
 .
 set
@@ -9931,10 +9934,6 @@ data
 )
 )
 {
-nsMessageManagerScriptHolder
-*
-holder
-;
 /
 /
 Root
@@ -9944,11 +9943,8 @@ also
 for
 caching
 .
-if
-(
-script
-)
-{
+nsMessageManagerScriptHolder
+*
 holder
 =
 new
@@ -9959,7 +9955,6 @@ script
 aRunInGlobalScope
 )
 ;
-}
 sCachedScripts
 -
 >
