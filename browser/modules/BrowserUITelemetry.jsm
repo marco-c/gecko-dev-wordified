@@ -5122,7 +5122,11 @@ get
 BUCKET_DEFAULT
 (
 )
+{
+return
 BUCKET_DEFAULT
+;
+}
 /
 *
 *
@@ -5139,7 +5143,11 @@ get
 BUCKET_PREFIX
 (
 )
+{
+return
 BUCKET_PREFIX
+;
+}
 /
 *
 *
@@ -5172,7 +5180,11 @@ get
 BUCKET_SEPARATOR
 (
 )
+{
+return
 BUCKET_SEPARATOR
+;
+}
 get
 currentBucket
 (
