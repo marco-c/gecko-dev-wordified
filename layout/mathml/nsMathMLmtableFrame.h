@@ -158,7 +158,7 @@ matrix
 /
 /
 class
-nsMathMLmtableOuterFrame
+nsMathMLmtableWrapperFrame
 :
 public
 nsTableWrapperFrame
@@ -252,7 +252,7 @@ eMathML
 protected
 :
 explicit
-nsMathMLmtableOuterFrame
+nsMathMLmtableWrapperFrame
 (
 nsStyleContext
 *
@@ -267,7 +267,7 @@ aContext
 }
 virtual
 ~
-nsMathMLmtableOuterFrame
+nsMathMLmtableWrapperFrame
 (
 )
 ;
@@ -346,7 +346,7 @@ aRowIndex
 /
 /
 class
-nsMathMLmtableOuterFrame
+nsMathMLmtableWrapperFrame
 /
 /
 -
