@@ -220,7 +220,7 @@ UI
 .
 default
 =
-184
+192
 hours
 pref
 (
