@@ -794,7 +794,6 @@ this
 )
 ;
 }
-;
 CustomizeMode
 .
 prototype

@@ -1746,7 +1746,6 @@ PERMS_FILE
 ;
 }
 }
-;
 let
 id
 =

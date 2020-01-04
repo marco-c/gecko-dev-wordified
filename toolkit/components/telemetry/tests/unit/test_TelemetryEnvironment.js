@@ -1189,7 +1189,6 @@ return
 mockProvider
 ;
 }
-;
 /
 *
 *

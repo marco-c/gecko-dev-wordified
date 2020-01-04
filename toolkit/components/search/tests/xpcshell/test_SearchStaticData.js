@@ -225,7 +225,6 @@ fr
 "
 ]
 ;
-;
 do_check_matches
 (
 SearchStaticData

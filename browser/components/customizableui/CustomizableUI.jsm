@@ -30018,7 +30018,6 @@ child
 prevChild
 ;
 }
-;
 let
 win
 =

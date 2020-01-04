@@ -83,7 +83,6 @@ AppPicker
 )
 {
 }
-;
 AppPicker
 .
 prototype

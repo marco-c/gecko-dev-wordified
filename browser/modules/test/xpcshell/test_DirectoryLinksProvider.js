@@ -11374,7 +11374,6 @@ resolve
 )
 ;
 }
-;
 let
 testObserver
 =
@@ -12298,7 +12297,6 @@ _loadInadjacentSites
 )
 ;
 }
-;
 /
 /
 setup

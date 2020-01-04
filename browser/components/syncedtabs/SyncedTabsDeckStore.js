@@ -209,7 +209,6 @@ _panels
 ]
 ;
 }
-;
 Object
 .
 assign

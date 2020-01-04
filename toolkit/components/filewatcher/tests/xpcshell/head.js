@@ -159,7 +159,6 @@ return
 watcher
 ;
 }
-;
 function
 promiseAddPath
 (

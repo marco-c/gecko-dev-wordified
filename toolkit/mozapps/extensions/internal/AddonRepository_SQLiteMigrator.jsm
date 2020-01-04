@@ -2472,7 +2472,6 @@ getResultByName
 prop
 )
 }
-;
 return
 addon
 ;

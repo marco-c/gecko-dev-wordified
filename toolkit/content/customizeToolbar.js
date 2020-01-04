@@ -4857,7 +4857,6 @@ toolboxChanged
 )
 ;
 }
-;
 function
 onPaletteDragOver
 (

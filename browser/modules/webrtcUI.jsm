@@ -898,7 +898,6 @@ browser
 aNewBrowser
 ;
 }
-;
 }
 showSharingDoorhanger
 :
@@ -1885,7 +1884,6 @@ ex
 )
 {
 }
-;
 if
 (
 !

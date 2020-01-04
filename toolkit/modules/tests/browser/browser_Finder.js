@@ -207,7 +207,6 @@ resolve
 }
 )
 }
-;
 let
 promiseFind
 =

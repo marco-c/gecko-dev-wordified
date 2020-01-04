@@ -3965,7 +3965,6 @@ panelId
 return
 ;
 }
-;
 var
 panelFrame
 =

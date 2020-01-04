@@ -371,7 +371,6 @@ _setupContextMenu
 )
 ;
 }
-;
 TabListView
 .
 prototype

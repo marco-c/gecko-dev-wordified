@@ -6534,7 +6534,6 @@ resolve
 break
 ;
 }
-;
 }
 )
 ;

@@ -2474,7 +2474,6 @@ title
 title
 ;
 }
-;
 return
 apiRequest
 (

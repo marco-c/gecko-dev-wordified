@@ -235,7 +235,6 @@ n
 )
 ;
 }
-;
 function
 error
 (
@@ -262,7 +261,6 @@ n
 )
 ;
 }
-;
 function
 getPreviousAccountNameHash
 (

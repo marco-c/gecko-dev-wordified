@@ -593,7 +593,6 @@ resolve
 )
 ;
 }
-;
 let
 timeoutId
 =
@@ -750,7 +749,6 @@ resolve
 )
 ;
 }
-;
 container
 .
 addEventListener

@@ -554,7 +554,6 @@ disableDialog
 (
 )
 ;
-;
 this
 .
 focusTarget

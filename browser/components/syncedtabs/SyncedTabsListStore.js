@@ -220,7 +220,6 @@ inputFocused
 false
 ;
 }
-;
 Object
 .
 assign

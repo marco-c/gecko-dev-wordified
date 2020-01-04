@@ -5699,7 +5699,6 @@ zoomFactor
 )
 ;
 }
-;
 /
 /
 Register

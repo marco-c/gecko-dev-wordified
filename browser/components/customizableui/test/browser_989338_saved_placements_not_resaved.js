@@ -407,7 +407,6 @@ AREA_NAVBAR
 ;
 }
 }
-;
 registerCleanupFunction
 (
 function

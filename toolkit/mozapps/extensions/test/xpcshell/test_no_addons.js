@@ -474,7 +474,6 @@ yield
 true
 ;
 }
-;
 add_task
 (
 trigger_db_load

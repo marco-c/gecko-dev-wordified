@@ -468,7 +468,6 @@ meta
 meta
 ;
 }
-;
 exports
 .
 Meta
@@ -652,7 +651,6 @@ _agent
 agent
 ;
 }
-;
 AbstractWorker
 .
 prototype

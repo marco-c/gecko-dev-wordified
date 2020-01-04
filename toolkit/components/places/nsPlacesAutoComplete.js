@@ -7618,7 +7618,6 @@ match
 continue
 ;
 }
-;
 aTokens
 .
 splice

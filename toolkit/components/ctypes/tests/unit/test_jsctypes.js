@@ -27180,7 +27180,6 @@ return
 bignum1
 ;
 }
-;
 var
 closure64
 =

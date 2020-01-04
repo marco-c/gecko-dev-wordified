@@ -301,7 +301,6 @@ _array
 ]
 ;
 }
-;
 Queue
 .
 prototype
@@ -2582,7 +2581,6 @@ data
 data
 ;
 }
-;
 /
 *
 *

@@ -10318,7 +10318,6 @@ s
 ok
 .
 }
-;
 this
 .
 _addMatch

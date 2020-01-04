@@ -138,7 +138,6 @@ CrashMonitor
 )
 {
 }
-;
 CrashMonitor
 .
 prototype

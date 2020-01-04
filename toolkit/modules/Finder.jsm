@@ -2384,7 +2384,6 @@ break
 ;
 }
 }
-;
 return
 aStats
 ;

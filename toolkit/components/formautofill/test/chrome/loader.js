@@ -490,7 +490,6 @@ taskId
 )
 ;
 }
-;
 function
 add_task_in_both_processes
 (
@@ -531,7 +530,6 @@ taskFn
 )
 ;
 }
-;
 var
 add_task_in_child_process
 =
