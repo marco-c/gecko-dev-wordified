@@ -777,14 +777,14 @@ cx
 aEventName
 /
 *
-bubbles
+aCanBubble
 =
 *
 /
 true
 /
 *
-cancelable
+aCancelable
 =
 *
 /

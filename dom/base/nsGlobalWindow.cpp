@@ -33116,14 +33116,14 @@ DOMWindowResize
 )
 /
 *
-bubbles
+aCanBubble
 =
 *
 /
 true
 /
 *
-cancelable
+aCancelable
 =
 *
 /

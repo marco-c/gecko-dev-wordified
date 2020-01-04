@@ -6399,7 +6399,7 @@ visibilitychange
 this
 /
 *
-useCapture
+aUseCapture
 =
 *
 /
