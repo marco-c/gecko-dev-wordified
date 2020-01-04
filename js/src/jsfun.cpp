@@ -16408,8 +16408,10 @@ ReportIncompatibleMethod
 JSContext
 *
 cx
-CallReceiver
-call
+const
+CallArgs
+&
+args
 const
 Class
 *
@@ -16420,7 +16422,7 @@ RootedValue
 thisv
 (
 cx
-call
+args
 .
 thisv
 (
@@ -16621,7 +16623,7 @@ fun
 ReportIfNotFunction
 (
 cx
-call
+args
 .
 calleev
 (
@@ -16677,8 +16679,10 @@ ReportIncompatible
 JSContext
 *
 cx
-CallReceiver
-call
+const
+CallArgs
+&
+args
 )
 {
 if
@@ -16690,7 +16694,7 @@ fun
 ReportIfNotFunction
 (
 cx
-call
+args
 .
 calleev
 (
@@ -16729,7 +16733,7 @@ method
 "
 InformalValueTypeName
 (
-call
+args
 .
 thisv
 (

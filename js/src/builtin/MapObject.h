@@ -939,8 +939,10 @@ ValueMap
 &
 extract
 (
-CallReceiver
-call
+const
+CallArgs
+&
+args
 )
 ;
 static
@@ -1687,8 +1689,10 @@ ValueSet
 &
 extract
 (
-CallReceiver
-call
+const
+CallArgs
+&
+args
 )
 ;
 static
