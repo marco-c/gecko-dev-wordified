@@ -523,6 +523,11 @@ RemoveFromWatcher
 (
 )
 ;
+void
+EnsureContentTreeOwner
+(
+)
+;
 /
 /
 These
@@ -689,6 +694,12 @@ RefPtr
 ChromeContextMenuListener
 >
 mChromeContextMenuListener
+;
+RefPtr
+<
+nsDocShellTreeOwner
+>
+mContentTreeOwner
 ;
 nsCOMPtr
 <
