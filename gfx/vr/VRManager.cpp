@@ -808,7 +808,7 @@ such
 as
 Window
 .
-onvrdisplayconnected
+onvrdisplayconnect
 /
 /
 Note
