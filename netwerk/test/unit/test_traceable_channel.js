@@ -186,8 +186,6 @@ e10s
 disable
 for
 now
-/
-*
 do_check_eq
 (
 request
@@ -246,8 +244,6 @@ remotePort
 PORT
 )
 ;
-*
-/
 /
 /
 Make
