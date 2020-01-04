@@ -815,7 +815,7 @@ devices
 ;
 mDefaultDevice
 =
-i
+j
 ;
 }
 }
