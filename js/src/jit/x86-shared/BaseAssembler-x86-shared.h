@@ -11722,7 +11722,7 @@ m_formatter
 .
 twoByteOp
 (
-OP2_CMOVZ_GvqpEvqp
+OP2_CMOVZ_GvEv
 src
 dst
 )
@@ -11764,7 +11764,7 @@ m_formatter
 .
 twoByteOp
 (
-OP2_CMOVZ_GvqpEvqp
+OP2_CMOVZ_GvEv
 offset
 base
 dst
@@ -11813,7 +11813,7 @@ m_formatter
 .
 twoByteOp
 (
-OP2_CMOVZ_GvqpEvqp
+OP2_CMOVZ_GvEv
 offset
 base
 index
