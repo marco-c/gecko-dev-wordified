@@ -396,8 +396,7 @@ string
 .
 *
 /
-return
-TRACE_RETURN
+return_trace
 (
 c
 -
@@ -751,14 +750,12 @@ c
 string_pool
 )
 )
-return
-TRACE_RETURN
+return_trace
 (
 false
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 true
 )
@@ -779,8 +776,7 @@ TRACE_SANITIZE
 this
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 c
 -

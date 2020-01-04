@@ -292,8 +292,7 @@ TRACE_SANITIZE
 this
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 c
 -
@@ -758,8 +757,7 @@ TRACE_SANITIZE
 this
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 OffsetListOf
 <
@@ -1003,8 +1001,7 @@ TRACE_SANITIZE
 this
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 extenderGlyphs
 .
@@ -1278,8 +1275,7 @@ TRACE_SANITIZE
 this
 )
 ;
-return
-TRACE_RETURN
+return_trace
 (
 version
 .
