@@ -2189,6 +2189,13 @@ datetime
 )
 GK_ATOM
 (
+datetimebox
+"
+datetimebox
+"
+)
+GK_ATOM
+(
 dblclick
 "
 dblclick
@@ -14658,6 +14665,13 @@ GK_ATOM
 comboboxDisplayFrame
 "
 ComboboxDisplayFrame
+"
+)
+GK_ATOM
+(
+dateTimeControlFrame
+"
+DateTimeControlFrame
 "
 )
 GK_ATOM

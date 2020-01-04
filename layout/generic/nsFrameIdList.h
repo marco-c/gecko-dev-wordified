@@ -126,6 +126,10 @@ nsContinuingTextFrame
 )
 FRAME_ID
 (
+nsDateTimeControlFrame
+)
+FRAME_ID
+(
 nsDeckFrame
 )
 FRAME_ID

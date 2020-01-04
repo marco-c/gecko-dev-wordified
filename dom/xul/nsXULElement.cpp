@@ -5729,6 +5729,15 @@ IsInFeedSubscribeLine
 (
 this
 )
+|
+|
+IsXULElement
+(
+nsGkAtoms
+:
+:
+datetimebox
+)
 "
 Unexpected
 XUL
