@@ -2771,6 +2771,8 @@ EnsureIceGathering_s
 (
 bool
 aDefaultRouteOnly
+bool
+aProxyOnly
 )
 ;
 void
@@ -2817,6 +2819,12 @@ RollbackIceRestart_s
 ;
 bool
 GetPrefDefaultAddressOnly
+(
+)
+const
+;
+bool
+GetPrefProxyOnly
 (
 )
 const
