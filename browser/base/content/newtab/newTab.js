@@ -535,11 +535,6 @@ include
 customize
 .
 js
-#
-include
-intro
-.
-js
 /
 /
 Everything
