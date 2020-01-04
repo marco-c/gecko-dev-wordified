@@ -819,6 +819,17 @@ String
 keyword
 )
 ;
+public
+abstract
+boolean
+hasBookmarkWithGuid
+(
+ContentResolver
+cr
+String
+guid
+)
+;
 /
 *
 *
