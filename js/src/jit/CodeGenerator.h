@@ -2917,6 +2917,14 @@ ins
 )
 ;
 void
+visitCheckIsObj
+(
+LCheckIsObj
+*
+ins
+)
+;
+void
 visitCheckObjCoercible
 (
 LCheckObjCoercible

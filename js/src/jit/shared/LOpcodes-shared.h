@@ -2218,6 +2218,11 @@ CheckReturn
 \
 _
 (
+CheckIsObj
+)
+\
+_
+(
 CheckObjCoercible
 )
 \
