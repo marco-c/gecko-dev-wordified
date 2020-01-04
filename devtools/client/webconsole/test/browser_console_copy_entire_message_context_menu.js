@@ -302,12 +302,6 @@ matched
 0
 ]
 ;
-message
-.
-scrollIntoView
-(
-)
-;
 yield
 waitForContextMenu
 (
