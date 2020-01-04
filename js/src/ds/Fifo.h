@@ -741,6 +741,7 @@ template
 typename
 U
 >
+MOZ_MUST_USE
 bool
 pushBack
 (
@@ -817,6 +818,7 @@ typename
 .
 Args
 >
+MOZ_MUST_USE
 bool
 emplaceBack
 (
@@ -944,6 +946,7 @@ from
 the
 queue
 .
+MOZ_MUST_USE
 bool
 popFront
 (

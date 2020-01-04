@@ -654,6 +654,7 @@ ap
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -1124,6 +1125,7 @@ template
 typename
 ElementInput
 >
+MOZ_MUST_USE
 bool
 put
 (
@@ -1648,6 +1650,7 @@ clear
 .
 *
 /
+MOZ_MUST_USE
 bool
 clear
 (
@@ -4653,6 +4656,7 @@ false
 .
 *
 /
+MOZ_MUST_USE
 bool
 rehash
 (

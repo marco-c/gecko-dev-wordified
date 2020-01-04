@@ -1817,6 +1817,7 @@ N
 bytes
 .
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 ensureUnusedApproximate
 (
@@ -3541,6 +3542,7 @@ reportAllocOverflow
 const
 {
 }
+MOZ_MUST_USE
 bool
 checkSimulatedOOM
 (
