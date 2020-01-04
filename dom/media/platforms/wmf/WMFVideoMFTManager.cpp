@@ -958,7 +958,7 @@ d3d11
 -
 dxva
 "
-false
+true
 )
 &
 &
