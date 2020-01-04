@@ -175,7 +175,7 @@ mozilla
 /
 net
 /
-WebSocketFrameService
+WebSocketEventService
 .
 h
 "
@@ -7975,9 +7975,9 @@ sSerialSeed
 +
 +
 ;
-mFrameService
+mService
 =
-WebSocketFrameService
+WebSocketEventService
 :
 :
 GetOrCreate
@@ -8175,11 +8175,11 @@ NS_ReleaseOnMainThread
 (
 static_cast
 <
-nsIWebSocketFrameService
+nsIWebSocketEventService
 *
 >
 (
-mFrameService
+mService
 .
 forget
 (
@@ -11138,7 +11138,7 @@ WebSocketFrame
 >
 frame
 =
-mFrameService
+mService
 -
 >
 CreateFrameIfNeeded
@@ -11158,7 +11158,7 @@ if
 frame
 )
 {
-mFrameService
+mService
 -
 >
 FrameReceived
@@ -11280,7 +11280,7 @@ WebSocketFrame
 >
 frame
 =
-mFrameService
+mService
 -
 >
 CreateFrameIfNeeded
@@ -11563,7 +11563,7 @@ before
 the
 CallOnServerClose
 .
-mFrameService
+mService
 -
 >
 FrameReceived
@@ -11836,7 +11836,7 @@ if
 frame
 )
 {
-mFrameService
+mService
 -
 >
 FrameReceived
@@ -12004,7 +12004,7 @@ WebSocketFrame
 >
 frame
 =
-mFrameService
+mService
 -
 >
 CreateFrameIfNeeded
@@ -12024,7 +12024,7 @@ if
 frame
 )
 {
-mFrameService
+mService
 -
 >
 FrameReceived
@@ -14228,7 +14228,7 @@ WebSocketFrame
 >
 frame
 =
-mFrameService
+mService
 -
 >
 CreateFrameIfNeeded
@@ -14315,7 +14315,7 @@ if
 frame
 )
 {
-mFrameService
+mService
 -
 >
 FrameSent

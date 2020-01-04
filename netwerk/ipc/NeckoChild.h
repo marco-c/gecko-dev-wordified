@@ -545,9 +545,9 @@ aOffline
 override
 ;
 virtual
-PWebSocketFrameListenerChild
+PWebSocketEventListenerChild
 *
-AllocPWebSocketFrameListenerChild
+AllocPWebSocketEventListenerChild
 (
 const
 uint64_t
@@ -558,9 +558,9 @@ override
 ;
 virtual
 bool
-DeallocPWebSocketFrameListenerChild
+DeallocPWebSocketEventListenerChild
 (
-PWebSocketFrameListenerChild
+PWebSocketEventListenerChild
 *
 )
 override
