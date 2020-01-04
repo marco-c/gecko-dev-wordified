@@ -2308,6 +2308,7 @@ GetFilesCallback
 {
 public
 :
+explicit
 GetFilesHelperParentCallback
 (
 GetFilesHelperParent
