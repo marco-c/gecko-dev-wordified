@@ -5258,7 +5258,7 @@ file
 .
 *
 /
-nsresult
+void
 UpdateFileList
 (
 )

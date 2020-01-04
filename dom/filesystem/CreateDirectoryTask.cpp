@@ -269,7 +269,7 @@ do_QueryInterface
 aFileSystem
 -
 >
-GetWindow
+GetParentObject
 (
 )
 )
@@ -1035,7 +1035,7 @@ Create
 mFileSystem
 -
 >
-GetWindow
+GetParentObject
 (
 )
 mTargetPath
