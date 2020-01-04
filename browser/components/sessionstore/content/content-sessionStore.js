@@ -1070,6 +1070,7 @@ restoreHistory
 epoch
 tabData
 loadArguments
+isRemotenessUpdate
 }
 )
 {
@@ -1295,6 +1296,7 @@ restoreHistoryComplete
 "
 {
 epoch
+isRemotenessUpdate
 }
 )
 ;
