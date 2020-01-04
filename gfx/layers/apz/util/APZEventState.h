@@ -474,6 +474,9 @@ mTouchEndCancelled
 int
 mActiveAPZTransforms
 ;
+int32_t
+mLastTouchIdentifier
+;
 }
 ;
 }
