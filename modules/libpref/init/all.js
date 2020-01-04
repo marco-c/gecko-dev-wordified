@@ -8599,7 +8599,7 @@ apz
 velocity_bias
 "
 "
-1
+0
 .
 0
 "
