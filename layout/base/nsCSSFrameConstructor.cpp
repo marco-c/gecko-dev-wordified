@@ -41978,15 +41978,6 @@ nsIAtom
 *
 parentType
 =
-nullptr
-;
-if
-(
-parentFrame
-)
-{
-parentType
-=
 parentFrame
 -
 >
@@ -41994,7 +41985,6 @@ GetType
 (
 )
 ;
-}
 StyleDisplay
 siblingDisplay
 =
