@@ -610,11 +610,6 @@ INITIAL_SIDEBAR_SIZE
 =
 350
 ;
-const
-MIN_SIDEBAR_SIZE
-=
-50
-;
 /
 /
 If
@@ -3324,9 +3319,6 @@ INITIAL_SIDEBAR_SIZE
 initialHeight
 :
 INITIAL_SIDEBAR_SIZE
-minSize
-:
-MIN_SIDEBAR_SIZE
 splitterSize
 :
 1
