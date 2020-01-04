@@ -107,6 +107,13 @@ annotation
 .
 WrapForJNI
 ;
+import
+android
+.
+view
+.
+KeyEvent
+;
 /
 *
 *
@@ -262,6 +269,13 @@ int
 oldEnd
 int
 newEnd
+)
+;
+void
+onDefaultKeyEvent
+(
+KeyEvent
+event
 )
 ;
 }
