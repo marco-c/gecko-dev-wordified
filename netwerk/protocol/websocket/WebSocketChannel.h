@@ -441,6 +441,8 @@ const
 nsACString
 &
 aOrigin
+uint64_t
+aWindowID
 nsIWebSocketListener
 *
 aListener
@@ -1116,6 +1118,9 @@ kLingeringCloseThreshold
 ;
 int32_t
 mMaxConcurrentConnections
+;
+uint64_t
+mInnerWindowID
 ;
 /
 /

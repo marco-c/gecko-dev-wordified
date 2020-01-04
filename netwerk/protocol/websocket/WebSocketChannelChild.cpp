@@ -2026,6 +2026,8 @@ const
 nsACString
 &
 aOrigin
+uint64_t
+aInnerWindowID
 nsIWebSocketListener
 *
 aListener
@@ -2224,6 +2226,7 @@ nsCString
 (
 aOrigin
 )
+aInnerWindowID
 mProtocol
 mEncrypted
 mPingInterval

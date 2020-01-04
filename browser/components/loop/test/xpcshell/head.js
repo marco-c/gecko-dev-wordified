@@ -1063,6 +1063,7 @@ function
 (
 aURI
 aOrigin
+aWindowId
 aListener
 aContext
 )
@@ -1090,6 +1091,12 @@ this
 context
 =
 aContext
+;
+this
+.
+windowId
+=
+aWindowId
 ;
 this
 .
