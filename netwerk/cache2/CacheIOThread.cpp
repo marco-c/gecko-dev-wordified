@@ -168,10 +168,15 @@ mShutdown
 (
 false
 )
+#
+ifdef
+DEBUG
 mInsideLoop
 (
 true
 )
+#
+endif
 {
 sSelf
 =
@@ -1107,6 +1112,9 @@ EventsPending
 )
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 This
@@ -1123,6 +1131,8 @@ mInsideLoop
 =
 false
 ;
+#
+endif
 }
 /
 /
