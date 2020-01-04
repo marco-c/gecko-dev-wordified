@@ -18720,14 +18720,10 @@ ctm
 )
 ;
 }
+}
 /
 /
-If
-we
-computed
-it
-also
-fill
+Fill
 out
 the
 axis
@@ -18760,7 +18756,6 @@ PreservesAxisAlignedRectangles
 (
 )
 ;
-}
 }
 Rect
 maxBounds
