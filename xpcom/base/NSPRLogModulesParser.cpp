@@ -168,6 +168,7 @@ const
 char
 *
 LogLevel
+int32_t
 )
 >
 aCallback
@@ -241,6 +242,11 @@ LogLevel
 :
 :
 Error
+;
+int32_t
+levelValue
+=
+0
 ;
 if
 (
@@ -346,9 +352,6 @@ in
 this
 case
 .
-int32_t
-level
-;
 if
 (
 parser
@@ -356,7 +359,7 @@ parser
 ReadInteger
 (
 &
-level
+levelValue
 )
 )
 {
@@ -364,7 +367,7 @@ logLevel
 =
 ToLogLevel
 (
-level
+levelValue
 *
 multiplier
 )
@@ -379,6 +382,7 @@ get
 (
 )
 logLevel
+levelValue
 )
 ;
 /
