@@ -982,7 +982,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 return
 "
@@ -1125,7 +1125,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 case
 SelectionType
@@ -2094,7 +2094,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 return
 4
@@ -2192,7 +2192,7 @@ eIMESelectedRawClause
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 SelectionType
 :
 :
