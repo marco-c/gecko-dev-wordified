@@ -349,6 +349,10 @@ hgwatchman
 '
             
 '
+mozext
+'
+            
+'
 mqext
 '
             
