@@ -16685,6 +16685,7 @@ nsPresContext
 IsRootContentDocument
 (
 )
+const
 {
 /
 /
