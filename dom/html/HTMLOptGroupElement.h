@@ -435,7 +435,7 @@ OUT
 ]
 *
 /
-nsIContent
+Element
 *
 GetSelect
 (
