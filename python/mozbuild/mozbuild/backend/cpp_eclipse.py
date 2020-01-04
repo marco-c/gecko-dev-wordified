@@ -1608,35 +1608,6 @@ settings
 .
 replace
 (
-'
-DEFINE_MDCPUCFG
-'
-self
-.
-_define_entry
-(
-'
-MDCPUCFG
-'
-self
-.
-environment
-.
-substs
-[
-'
-TARGET_NSPR_MDCPUCFG
-'
-]
-)
-)
-        
-settings
-=
-settings
-.
-replace
-(
 "
 COMPILER_FLAGS
 "
@@ -5018,8 +4989,6 @@ suffer
 >
                                                 
 DEFINE_MOZILLA_INTERNAL_API
-                                                
-DEFINE_MDCPUCFG
                                         
 <
 /
