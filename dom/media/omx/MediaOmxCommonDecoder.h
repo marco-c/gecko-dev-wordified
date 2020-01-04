@@ -237,13 +237,6 @@ aCanOffloadAudio
 override
 ;
 virtual
-bool
-CheckDecoderCanOffloadAudio
-(
-)
-override
-;
-virtual
 void
 AddOutputStream
 (
@@ -323,6 +316,11 @@ PauseStateMachine
 ;
 void
 ResumeStateMachine
+(
+)
+;
+bool
+CheckDecoderCanOffloadAudio
 (
 )
 ;
