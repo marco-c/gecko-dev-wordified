@@ -439,9 +439,6 @@ true
 }
 private
 :
-int
-mScreenDepth
-;
 gfxImageFormat
 mOffscreenFormat
 ;
