@@ -2549,7 +2549,7 @@ As2D
 ;
 maskTransform
 .
-PreTranslate
+PostTranslate
 (
 -
 offset
