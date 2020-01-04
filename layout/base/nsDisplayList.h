@@ -26776,6 +26776,14 @@ mTransformFrame
 ;
 }
 virtual
+int32_t
+ZIndex
+(
+)
+const
+override
+;
+virtual
 void
 DoUpdateBoundsPreserves3D
 (
