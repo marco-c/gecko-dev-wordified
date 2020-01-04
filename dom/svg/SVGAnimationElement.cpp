@@ -2302,7 +2302,7 @@ here
 }
 else
 {
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 BeginElement
