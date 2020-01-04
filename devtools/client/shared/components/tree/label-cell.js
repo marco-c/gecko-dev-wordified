@@ -336,13 +336,6 @@ type
 "
 Label
 "
-"
-data
--
-level
-"
-:
-level
 }
 member
 .
