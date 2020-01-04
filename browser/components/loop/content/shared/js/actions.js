@@ -365,16 +365,12 @@ the
 type
 .
 See
-LoopCalls
-and
 LoopRooms
 for
 the
 details
 of
 this
-/
-/
 data
 .
 }
