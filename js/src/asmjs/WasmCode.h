@@ -2292,9 +2292,6 @@ MetadataCacheablePod
 ModuleKind
 kind
 ;
-SignalUsage
-usesSignal
-;
 HeapUsage
 heapUsage
 ;
@@ -2382,6 +2379,9 @@ funcNames
 ;
 CacheableChars
 filename
+;
+Assumptions
+assumptions
 ;
 bool
 usesHeap

@@ -5320,6 +5320,8 @@ metadata
 (
 )
 .
+assumptions
+.
 usesSignal
 .
 forOOB

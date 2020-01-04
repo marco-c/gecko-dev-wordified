@@ -201,6 +201,15 @@ WasmJS
 .
 h
 "
+#
+include
+"
+asmjs
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {
@@ -235,6 +244,10 @@ JSContext
 cx
 UniqueChars
 filename
+Assumptions
+&
+&
+assumptions
 Bytes
 &
 &
