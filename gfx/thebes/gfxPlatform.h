@@ -938,6 +938,12 @@ InitNullMetadata
 (
 )
 ;
+static
+void
+InitMoz2DLogging
+(
+)
+;
 /
 *
 *
