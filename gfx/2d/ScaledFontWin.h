@@ -167,6 +167,13 @@ aBaton
 )
 override
 ;
+virtual
+AntialiasMode
+GetDefaultAAMode
+(
+)
+override
+;
 #
 ifdef
 USE_SKIA
