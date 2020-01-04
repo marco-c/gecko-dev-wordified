@@ -516,11 +516,14 @@ gnu
 {
         
 '
-__cpp_static_assert
+__has_feature
+(
+cxx_alignof
+)
 '
 :
 '
-200410
+1
 '
     
 }
