@@ -62,9 +62,10 @@ ExecutorBrowser
 require_arg
 from
 .
-webdriver
+.
+webdriver_server
 import
-ChromedriverLocalServer
+ChromeDriverServer
 from
 .
 .
@@ -355,12 +356,13 @@ is
 supplied
 through
     
-browsers
+wptrunner
 .
 webdriver
 .
-ChromedriverLocalServer
+ChromeDriverServer
 .
+    
 "
 "
 "
@@ -422,9 +424,9 @@ binary
         
 self
 .
-driver
+server
 =
-ChromedriverLocalServer
+ChromeDriverServer
 (
 self
 .
@@ -443,10 +445,13 @@ self
         
 self
 .
-driver
+server
 .
 start
 (
+block
+=
+False
 )
     
 def
@@ -458,7 +463,7 @@ self
         
 self
 .
-driver
+server
 .
 stop
 (
@@ -474,7 +479,7 @@ self
 return
 self
 .
-driver
+server
 .
 pid
     
@@ -520,7 +525,7 @@ active
 return
 self
 .
-driver
+server
 .
 is_alive
 (
@@ -555,7 +560,7 @@ webdriver_url
 :
 self
 .
-driver
+server
 .
 url
 }
