@@ -156,10 +156,6 @@ mozilla
 namespace
 gfx
 {
-using
-namespace
-ipc
-;
 GPUProcessHost
 :
 :
