@@ -3181,7 +3181,8 @@ mCollapsedResizer
 If
 true
 the
-layer
+scroll
+frame
 should
 always
 be
@@ -3190,9 +3191,9 @@ because
 we
 always
 build
+/
+/
 a
-/
-/
 scrollable
 layer
 .
@@ -3202,7 +3203,7 @@ asynchronous
 scrolling
 .
 bool
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 :
 1
 ;

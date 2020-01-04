@@ -11465,7 +11465,7 @@ mCollapsedResizer
 (
 false
 )
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 (
 false
 )
@@ -18078,7 +18078,7 @@ are
 assigned
 correctly
 .
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 =
 true
 ;
@@ -18734,7 +18734,7 @@ implement
 scroll
 grabbing
 .
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 =
 usingDisplayPort
 |
@@ -18759,7 +18759,7 @@ false
 ;
 if
 (
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 )
 {
 shouldBuildLayer
@@ -20082,7 +20082,7 @@ GetContent
 )
 )
 ;
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 =
 true
 ;
@@ -20090,7 +20090,7 @@ true
 }
 if
 (
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 &
 &
 !
@@ -20182,7 +20182,7 @@ IsPaintingToWindow
 &
 &
 !
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 &
 &
 shouldBuildLayer
@@ -20380,7 +20380,7 @@ mAncestorClip
 if
 (
 !
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 |
 |
 mIsScrollableLayerInRootContainer
@@ -20423,7 +20423,7 @@ const
 if
 (
 !
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 |
 |
 mIsScrollableLayerInRootContainer
@@ -28143,7 +28143,7 @@ IsAlwaysActive
 )
 |
 |
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 ;
 }
 bool
@@ -28210,7 +28210,7 @@ IsAlwaysActive
 )
 |
 |
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 ;
 }
 /
