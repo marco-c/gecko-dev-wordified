@@ -8503,7 +8503,6 @@ if
 SetSpaceGlyphIfSimple
 (
 aFont
-aContext
 aCharIndex
 '
 '
@@ -8629,9 +8628,6 @@ SetSpaceGlyphIfSimple
 gfxFont
 *
 aFont
-gfxContext
-*
-aContext
 uint32_t
 aCharIndex
 char16_t
