@@ -884,8 +884,6 @@ StopTrack
 (
 TrackID
 aID
-bool
-aIsAudio
 )
 ;
 typedef
@@ -1332,7 +1330,7 @@ or
 MSG
 thread
 void
-Invalidate
+Stop
 (
 )
 ;
@@ -1776,7 +1774,7 @@ MEDIA_STOP
 or
 MEDIA_STOP_TRACK
 for
-mAudioDevice
+mVideoDevice
 .
 /
 /
