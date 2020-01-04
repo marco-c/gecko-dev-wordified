@@ -2576,6 +2576,14 @@ ins
 )
 ;
 void
+visitGlobalNameConflictsCheck
+(
+LGlobalNameConflictsCheck
+*
+ins
+)
+;
+void
 visitDebugger
 (
 LDebugger

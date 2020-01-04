@@ -2358,6 +2358,14 @@ ins
 )
 ;
 void
+visitGlobalNameConflictsCheck
+(
+MGlobalNameConflictsCheck
+*
+ins
+)
+;
+void
 visitDebugger
 (
 MDebugger

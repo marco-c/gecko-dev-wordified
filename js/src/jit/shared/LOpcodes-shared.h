@@ -1908,6 +1908,11 @@ ThrowUninitializedLexical
 \
 _
 (
+GlobalNameConflictsCheck
+)
+\
+_
+(
 Debugger
 )
 \
