@@ -922,7 +922,7 @@ aKeyDataSize
 (
 2
 *
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 )
 !
@@ -969,7 +969,7 @@ aKeyDataSize
 (
 2
 *
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 vector
@@ -1009,7 +1009,7 @@ aKeyData
 +
 2
 *
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 *
 i
 ;
@@ -1025,7 +1025,7 @@ KeyId
 base
 base
 +
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 assert
@@ -1039,7 +1039,7 @@ size
 )
 =
 =
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 keyPair
@@ -1050,12 +1050,12 @@ Key
 (
 base
 +
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 base
 +
 2
 *
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 assert
@@ -1069,7 +1069,7 @@ size
 )
 =
 =
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 session
@@ -1691,7 +1691,7 @@ size
 )
 =
 =
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 aOutKeyData
@@ -1737,7 +1737,7 @@ size
 )
 =
 =
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 aOutKeyData
