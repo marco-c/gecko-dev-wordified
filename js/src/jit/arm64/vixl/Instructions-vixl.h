@@ -1660,6 +1660,12 @@ IsLDR
 const
 ;
 bool
+IsNOP
+(
+)
+const
+;
+bool
 IsADR
 (
 )
