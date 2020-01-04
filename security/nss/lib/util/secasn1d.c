@@ -1335,6 +1335,7 @@ ifdef
 SEC_ASN1D_FREE_ON_ERROR
 /
 *
+\
 *
 XXX
 see
@@ -1343,6 +1344,7 @@ below
 (
 by
 same
+\
 *
 ifdef
 )
@@ -1350,6 +1352,7 @@ that
 explains
 why
 this
+\
 *
 does
 not
@@ -1358,6 +1361,7 @@ work
 need
 more
 smarts
+\
 *
 in
 order
@@ -1367,6 +1371,7 @@ back
 to
 mark
 )
+\
 *
 /
 /
@@ -17523,6 +17528,7 @@ have
 situations
 (
 like
+\
 *
 downloading
 a
@@ -17537,6 +17543,7 @@ that
 give
 us
 a
+\
 *
 length
 which
@@ -17550,6 +17557,7 @@ encoding
 So
 we
 cannot
+\
 *
 have
 this
@@ -17557,6 +17565,7 @@ be
 an
 error
 .
+\
 *
 /
 if
@@ -17943,6 +17952,7 @@ ifdef
 SEC_ASN1D_FREE_ON_ERROR
 /
 *
+\
 *
 XXX
 This
@@ -17952,6 +17962,7 @@ work
 because
 we
 can
+\
 *
 end
 up
@@ -17959,6 +17970,7 @@ leaving
 behind
 dangling
 pointers
+\
 *
 to
 stuff
@@ -17968,6 +17980,7 @@ allocated
 .
 In
 order
+\
 *
 to
 make
@@ -17977,6 +17990,7 @@ work
 (
 which
 would
+\
 *
 be
 a
@@ -17988,6 +18002,7 @@ think
 we
 need
 to
+\
 *
 keep
 track
@@ -17997,6 +18012,7 @@ place
 /
 pointer
 that
+\
 *
 was
 allocated
@@ -18006,6 +18022,7 @@ sure
 to
 NULL
 it
+\
 *
 out
 before
@@ -18017,6 +18034,7 @@ to
 the
 mark
 .
+\
 *
 /
 if
@@ -18085,6 +18103,7 @@ because
 it
 seems
 we
+\
 *
 have
 situations
@@ -18097,6 +18116,7 @@ pkcs7
 cert
 chain
 from
+\
 *
 some
 issuers
@@ -18111,6 +18131,7 @@ which
 is
 greater
 than
+\
 *
 the
 entire
@@ -18125,6 +18146,7 @@ allDone
 to
 have
 a
+\
 *
 remaining
 length
@@ -18137,6 +18159,7 @@ wanted
 to
 catch
 internal
+\
 *
 bugs
 with
@@ -18151,10 +18174,12 @@ the
 right
 length
 .
+\
 *
 Oh
 well
 .
+\
 *
 /
 PORT_Assert

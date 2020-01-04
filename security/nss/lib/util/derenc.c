@@ -624,6 +624,7 @@ if
 0
 /
 *
+\
 *
 Well
 I
@@ -635,6 +636,7 @@ something
 useful
 but
 these
+\
 *
 assertions
 are
@@ -644,6 +646,7 @@ on
 valid
 templates
 .
+\
 *
 I
 wanted
@@ -659,6 +662,7 @@ level
 kind
 "
 of
+\
 *
 a
 template
@@ -668,6 +672,7 @@ also
 specify
 DER_EXPLICIT
 which
+\
 *
 should
 only
@@ -678,6 +683,7 @@ field
 .
 Maybe
 later
+\
 *
 I
 can
@@ -691,6 +697,7 @@ detect
 such
 a
 problem
+\
 *
 but
 for
@@ -702,6 +709,7 @@ these
 checks
 altogether
 .
+\
 *
 /
 /

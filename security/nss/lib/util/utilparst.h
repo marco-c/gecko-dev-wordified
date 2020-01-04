@@ -258,6 +258,7 @@ if
 (
 target
 )
+\
 PORT_Free
 (
 target
@@ -293,6 +294,7 @@ param
 )
 \
 {
+\
 param
 =
 NSSUTIL_ArgSkipParameter
@@ -300,7 +302,9 @@ NSSUTIL_ArgSkipParameter
 param
 )
 ;
+\
 }
+\
 param
 =
 NSSUTIL_ArgStrip

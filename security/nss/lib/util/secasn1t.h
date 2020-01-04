@@ -889,6 +889,7 @@ SET
 or
 SEQUENCE
 means
+\
 *
 SET
 OF
@@ -908,6 +909,7 @@ is
 found
 by
 calling
+\
 *
 a
 function
@@ -941,6 +943,7 @@ ANY
 means
 capture
 the
+\
 *
 contents
 only
@@ -949,6 +952,7 @@ not
 the
 id
 len
+\
 *
 or
 eoc
@@ -972,6 +976,7 @@ encoded
 bytes
 first
 ;
+\
 *
 only
 for
@@ -993,6 +998,7 @@ sub
 -
 fields
 may
+\
 *
 stream
 in
@@ -1001,12 +1007,14 @@ so
 should
 encode
 as
+\
 *
 indefinite
 -
 length
 when
 streaming
+\
 *
 has
 been
@@ -1014,6 +1022,7 @@ indicated
 ;
 only
 for
+\
 *
 encoding
 *
@@ -1029,6 +1038,7 @@ all
 following
 fields
 ;
+\
 only
 for
 decoding
@@ -1058,6 +1068,7 @@ entry
 will
 not
 stream
+\
 even
 if
 the
@@ -1065,20 +1076,24 @@ sub
 -
 template
 says
+\
 streaming
 is
 possible
 .
 Helps
+\
 to
 solve
 ambiguities
 with
 potential
+\
 streaming
 entries
 that
 are
+\
 optional
 *
 /
@@ -1095,11 +1110,13 @@ your
 template
 and
 the
+\
 decoder
 will
 assert
 when
 it
+\
 processes
 it
 .
@@ -1107,6 +1124,7 @@ Only
 for
 use
 with
+\
 SEC_QuickDERDecodeItem
 *
 /
@@ -1353,9 +1371,11 @@ enc
 )
 \
 {
+\
 return
 x
 ;
+\
 }
 /
 *

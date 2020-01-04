@@ -234,11 +234,13 @@ enable
 deadlock
 detection
 using
+\
 rank
 -
 order
 for
 locks
+\
 *
 /
 #

@@ -4003,7 +4003,6 @@ hSession
 /
 *
 session
-*
 handle
 *
 /
@@ -4014,7 +4013,6 @@ pMechanism
 key
 -
 gen
-*
 mech
 .
 *
@@ -4024,11 +4022,9 @@ pPublicKeyTemplate
 /
 *
 template
-*
 for
 pub
 .
-*
 key
 *
 /
@@ -4039,7 +4035,6 @@ ulPublicKeyAttributeCount
 #
 pub
 .
-*
 attrs
 .
 *
@@ -4049,11 +4044,9 @@ pPrivateKeyTemplate
 /
 *
 template
-*
 for
 priv
 .
-*
 key
 *
 /
@@ -4064,7 +4057,6 @@ ulPrivateKeyAttributeCount
 #
 priv
 .
-*
 attrs
 .
 *
@@ -4076,9 +4068,7 @@ phPublicKey
 gets
 pub
 .
-*
 key
-*
 handle
 *
 /
@@ -4087,11 +4077,9 @@ phPrivateKey
 /
 *
 gets
-*
 priv
 .
 key
-*
 handle
 *
 /

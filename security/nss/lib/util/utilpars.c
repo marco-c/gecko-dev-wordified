@@ -3021,6 +3021,7 @@ flag
 )
 \
 {
+\
 #
 arg
 sizeof
@@ -3031,6 +3032,7 @@ arg
 -
 1
 flag
+\
 }
 static
 struct
