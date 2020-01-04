@@ -14131,7 +14131,7 @@ buttons
 ;
 event
 .
-isHorizontal
+mIsHorizontal
 =
 (
 aDeltaDirection
@@ -14142,7 +14142,7 @@ DELTA_DIRECTION_X
 ;
 event
 .
-delta
+mDelta
 =
 aDelta
 ;
@@ -14376,7 +14376,7 @@ buttons
 ;
 event
 .
-isHorizontal
+mIsHorizontal
 =
 (
 aDeltaDirection
@@ -14387,7 +14387,7 @@ DELTA_DIRECTION_X
 ;
 event
 .
-delta
+mDelta
 =
 aPixelDelta
 ;

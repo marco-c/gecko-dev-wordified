@@ -256,7 +256,7 @@ AsMouseScrollEvent
 )
 -
 >
-delta
+mDelta
 ;
 }
 NS_IMPL_ADDREF_INHERITED
@@ -351,7 +351,7 @@ AsMouseScrollEvent
 )
 -
 >
-isHorizontal
+mIsHorizontal
 =
 (
 aAxis
@@ -381,7 +381,7 @@ AsMouseScrollEvent
 )
 -
 >
-isHorizontal
+mIsHorizontal
 ?
 static_cast
 <
