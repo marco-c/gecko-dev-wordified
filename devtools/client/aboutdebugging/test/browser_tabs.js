@@ -205,8 +205,11 @@ yield
 addTab
 (
 TAB_URL
-null
+{
+background
+:
 true
+}
 )
 ;
 yield
