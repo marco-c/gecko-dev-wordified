@@ -1943,8 +1943,6 @@ seekable
 void
 SetChained
 (
-bool
-aIsChained
 )
 ;
 /
