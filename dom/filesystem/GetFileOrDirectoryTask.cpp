@@ -225,12 +225,6 @@ nsStringGlue
 .
 h
 "
-#
-define
-GET_FILE_OR_DIRECTORY_PERMISSION
-"
-read
-"
 namespace
 mozilla
 {
@@ -916,7 +910,7 @@ aAccess
 .
 AssignLiteral
 (
-GET_FILE_OR_DIRECTORY_PERMISSION
+DIRECTORY_READ_PERMISSION
 )
 ;
 }
@@ -1492,7 +1486,7 @@ aAccess
 .
 AssignLiteral
 (
-GET_FILE_OR_DIRECTORY_PERMISSION
+DIRECTORY_READ_PERMISSION
 )
 ;
 }

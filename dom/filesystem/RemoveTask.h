@@ -147,12 +147,6 @@ ErrorResult
 .
 h
 "
-#
-define
-REMOVE_TASK_PERMISSION
-"
-write
-"
 namespace
 mozilla
 {
