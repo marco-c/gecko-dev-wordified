@@ -287,6 +287,11 @@ IsEnabled
 )
 {
 return
+CanDecodeMP3UsingDirectShow
+(
+)
+&
+&
 Preferences
 :
 :
