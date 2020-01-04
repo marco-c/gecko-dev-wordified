@@ -210,30 +210,49 @@ try_option_syntax
 '
         
 #
-for
-try
-if
-a
-task
-was
-specified
-as
-a
-target
+Always
+perform
+optimization
+.
+This
+makes
 it
-should
+difficult
+to
+use
+try
         
 #
-not
+pushes
+to
+run
+a
+task
+that
+would
+otherwise
 be
 optimized
-away
+but
+is
+a
+        
+#
+compromise
+to
+avoid
+essentially
+disabling
+optimization
+in
+try
+.
         
 '
 optimize_target_tasks
 '
 :
-False
+True
     
 }
     
@@ -285,7 +304,7 @@ target_tasks_method
 '
 :
 '
-all_builds_and_tests
+default
 '
         
 '

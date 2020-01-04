@@ -4207,6 +4207,7 @@ attributes
 ]
 =
 {
+                
 '
 kind
 '
@@ -4214,6 +4215,7 @@ kind
 '
 legacy
 '
+                
 '
 legacy_kind
 '
@@ -4221,6 +4223,17 @@ legacy_kind
 '
 build
 '
+                
+'
+run_on_projects
+'
+:
+[
+'
+all
+'
+]
+            
 }
             
 if
