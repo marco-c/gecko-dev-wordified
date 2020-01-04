@@ -1591,13 +1591,6 @@ PortMapping
 (
 )
 {
-external_socket_
--
->
-close
-(
-)
-;
 }
 /
 /
