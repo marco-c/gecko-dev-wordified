@@ -470,7 +470,7 @@ this
 >
 num_metrics
 )
-<
+>
 hb_blob_get_length
 (
 this
