@@ -2452,6 +2452,9 @@ mStartBitrate
 uint32_t
 mMaxBitrate
 ;
+uint32_t
+mMinBitrateEstimate
+;
 static
 const
 unsigned
