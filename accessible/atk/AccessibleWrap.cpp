@@ -2702,12 +2702,9 @@ aObj
 >
 accWrap
 .
-Bits
+IsNull
 (
 )
-=
-=
-0
 "
 AccWrap
 NOT
