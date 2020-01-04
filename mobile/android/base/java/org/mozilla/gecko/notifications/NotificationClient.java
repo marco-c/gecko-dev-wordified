@@ -211,7 +211,7 @@ NotificationHandler
 #
 add
 (
-int
+String
 String
 String
 String
@@ -227,8 +227,8 @@ void
 add
 (
 final
-int
-notificationID
+String
+aName
 final
 String
 aImageUrl
@@ -269,7 +269,7 @@ mHandler
 .
 add
 (
-notificationID
+aName
 aImageUrl
 aHost
 aAlertTitle
@@ -313,7 +313,7 @@ NotificationHandler
 #
 add
 (
-int
+String
 Notification
 )
 *
@@ -324,8 +324,8 @@ void
 add
 (
 final
-int
-notificationID
+String
+name
 final
 Notification
 notification
@@ -351,7 +351,7 @@ mHandler
 .
 add
 (
-notificationID
+name
 notification
 )
 ;
@@ -390,7 +390,7 @@ NotificationHandler
 #
 remove
 (
-int
+String
 )
 *
 /
@@ -400,8 +400,8 @@ void
 remove
 (
 final
-int
-notificationID
+String
+name
 )
 {
 mTaskQueue
@@ -424,7 +424,7 @@ mHandler
 .
 remove
 (
-notificationID
+name
 )
 ;
 }
@@ -521,8 +521,8 @@ public
 boolean
 isOngoing
 (
-int
-notificationID
+String
+name
 )
 {
 final
@@ -542,7 +542,7 @@ handler
 .
 isOngoing
 (
-notificationID
+name
 )
 ;
 }
