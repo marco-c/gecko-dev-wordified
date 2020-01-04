@@ -1456,6 +1456,7 @@ view
 >
 notifyBufferDetached
 (
+cx
 newContents
 .
 data
@@ -6686,6 +6687,9 @@ ArrayBufferViewObject
 :
 notifyBufferDetached
 (
+JSContext
+*
+cx
 void
 *
 newData
@@ -6757,6 +6761,7 @@ TypedArrayObject
 .
 notifyBufferDetached
 (
+cx
 newData
 )
 ;

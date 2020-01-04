@@ -234,6 +234,14 @@ JSProperty
 namespace
 js
 {
+enum
+class
+TypedArrayLength
+{
+Fixed
+Dynamic
+}
+;
 /
 *
 *
@@ -1212,6 +1220,9 @@ d
 void
 notifyBufferDetached
 (
+JSContext
+*
+cx
 void
 *
 newData
