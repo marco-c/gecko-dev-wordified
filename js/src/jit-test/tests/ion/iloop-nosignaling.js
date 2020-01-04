@@ -9,14 +9,9 @@ exitstatus
 :
 6
 ;
-setJitCompilerOption
+suppressSignalHandlers
 (
-'
-signals
-.
-enable
-'
-0
+true
 )
 ;
 timeout

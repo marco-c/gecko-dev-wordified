@@ -4986,16 +4986,6 @@ forInterrupt
 SignalUsage
 (
 )
-=
-default
-;
-explicit
-SignalUsage
-(
-ExclusiveContext
-*
-cx
-)
 ;
 bool
 operator
@@ -5095,6 +5085,9 @@ Assumptions
 (
 )
 :
+usesSignal
+(
+)
 cpuId
 (
 0
@@ -5109,8 +5102,6 @@ MOZ_MUST_USE
 bool
 init
 (
-SignalUsage
-usesSignal
 JS
 :
 :

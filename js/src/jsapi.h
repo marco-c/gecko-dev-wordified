@@ -37354,16 +37354,6 @@ enable
 \
 Register
 (
-SIGNALS_ENABLE
-"
-signals
-.
-enable
-"
-)
-\
-Register
-(
 JUMP_THRESHOLD
 "
 jump
