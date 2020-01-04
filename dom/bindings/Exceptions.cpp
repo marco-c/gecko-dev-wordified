@@ -3418,6 +3418,11 @@ Value
 aSavedFrame
 )
 {
+if
+(
+mStack
+)
+{
 JS
 :
 :
@@ -3426,6 +3431,7 @@ ExposeObjectToActiveJS
 mStack
 )
 ;
+}
 aSavedFrame
 .
 setObjectOrNull
