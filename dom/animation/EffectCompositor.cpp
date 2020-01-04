@@ -1095,13 +1095,6 @@ animations
 mPresContext
 -
 >
-ClearLastStyleUpdateForAllAnimations
-(
-)
-;
-mPresContext
--
->
 RestyleManager
 (
 )
