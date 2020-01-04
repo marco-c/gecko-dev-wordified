@@ -28117,12 +28117,8 @@ handler
 if
 (
 !
-JS
-:
-:
-CurrentGlobalOrNull
+GlobalScope
 (
-aCx
 )
 )
 {
