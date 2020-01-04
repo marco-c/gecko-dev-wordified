@@ -772,6 +772,19 @@ dx
 dy
 )
 {
+double
+sdx
+sdy
+;
+cairo_surface_get_device_offset
+(
+s
+&
+sdx
+&
+sdy
+)
+;
 *
 dx
 =
@@ -783,6 +796,8 @@ CurrentState
 deviceOffset
 .
 x
++
+sdx
 ;
 *
 dy
@@ -795,6 +810,8 @@ CurrentState
 deviceOffset
 .
 y
++
+sdy
 ;
 }
 return
