@@ -150,8 +150,6 @@ Create
 GLContext
 *
 gl
-EGLContext
-context
 EGLConfig
 config
 const
@@ -205,10 +203,6 @@ const
 mEGL
 ;
 const
-EGLContext
-mContext
-;
-const
 EGLSurface
 mPBuffer
 ;
@@ -259,8 +253,6 @@ IntSize
 size
 bool
 hasAlpha
-EGLContext
-context
 EGLSurface
 pbuffer
 HANDLE
@@ -436,9 +428,7 @@ GLLibraryEGL
 const
 mEGL
 ;
-EGLContext
-mContext
-;
+const
 EGLConfig
 mConfig
 ;
@@ -508,10 +498,8 @@ flags
 GLLibraryEGL
 *
 egl
-bool
-*
-const
-out_success
+EGLConfig
+config
 )
 ;
 virtual
@@ -545,7 +533,6 @@ SharedSurface_ANGLEShareHandle
 Create
 (
 mProdGL
-mContext
 mConfig
 size
 hasAlpha

@@ -154,9 +154,7 @@ gl
 )
 -
 >
-GetEGLContext
-(
-)
+mContext
 ;
 EGLImage
 image
@@ -305,9 +303,7 @@ gl
 )
 -
 >
-GetEGLContext
-(
-)
+mContext
 ;
 EGLClientBuffer
 clientBuffer
