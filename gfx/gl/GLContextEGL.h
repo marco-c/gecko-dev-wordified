@@ -160,6 +160,8 @@ GLContextEGL
 >
 CreateGLContext
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -512,6 +514,8 @@ GLContextEGL
 >
 CreateEGLPBufferOffscreenContext
 (
+CreateContextFlags
+flags
 const
 gfx
 :
