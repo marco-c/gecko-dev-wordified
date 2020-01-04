@@ -3047,6 +3047,12 @@ mStencilRefBack
 =
 0
 ;
+mLineWidth
+=
+1
+.
+0
+;
 /
 *
 /
