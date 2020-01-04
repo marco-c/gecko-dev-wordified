@@ -4802,6 +4802,9 @@ completes
 SeekJob
 mQueuedSeek
 ;
+SeekJob
+mCurrentSeek
+;
 /
 /
 mSeekTask

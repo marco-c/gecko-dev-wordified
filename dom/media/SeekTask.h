@@ -272,12 +272,6 @@ const
 =
 0
 ;
-SeekJob
-&
-GetSeekJob
-(
-)
-;
 SeekTarget
 &
 GetSeekTarget
@@ -305,7 +299,6 @@ MediaDecoderReaderWrapper
 *
 aReader
 SeekJob
-&
 &
 aSeekJob
 )
@@ -390,6 +383,7 @@ state
 *
 /
 SeekJob
+&
 mSeekJob
 ;
 SeekTarget
