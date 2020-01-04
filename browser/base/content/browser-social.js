@@ -1792,6 +1792,8 @@ of
 SocialMarks
 .
 nodes
+(
+)
 )
 {
 if
@@ -9998,7 +10000,7 @@ necessary
 SocialMarks
 =
 {
-get
+*
 nodes
 (
 )
@@ -10111,6 +10113,8 @@ of
 this
 .
 nodes
+(
+)
 )
 {
 /
