@@ -146,15 +146,6 @@ Shutdown
 (
 )
 ;
-static
-bool
-Exists
-(
-nsIAtom
-*
-aTag
-)
-;
 }
 ;
 }
