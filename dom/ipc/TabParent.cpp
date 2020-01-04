@@ -12001,6 +12001,11 @@ if
 widget
 )
 {
+*
+aNoCompositionEvent
+=
+false
+;
 return
 true
 ;
