@@ -92,6 +92,15 @@ convert
 h
 "
 #
+include
+"
+libyuv
+/
+convert_argb
+.
+h
+"
+#
 ifdef
 HAVE_JPEG
 #
@@ -1750,7 +1759,6 @@ ret
 ?
 0
 :
--
 1
 ;
 }
@@ -2970,7 +2978,6 @@ ret
 ?
 0
 :
--
 1
 ;
 }
