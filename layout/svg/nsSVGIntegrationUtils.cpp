@@ -4585,8 +4585,12 @@ nsFilterInstance
 PaintFilteredFrame
 (
 aFrame
-*
 target
+-
+>
+GetDrawTarget
+(
+)
 tm
 &
 callback

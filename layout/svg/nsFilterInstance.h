@@ -592,9 +592,9 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
-gfxContext
-&
-aContext
+DrawTarget
+*
+aDrawTarget
 const
 gfxMatrix
 &
@@ -1130,7 +1130,7 @@ the
 filter
 output
 into
-aContext
+aDrawTarget
 .
 The
 area
@@ -1167,9 +1167,9 @@ constructor
 nsresult
 Render
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 ;
 const
