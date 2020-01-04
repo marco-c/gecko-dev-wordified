@@ -7627,9 +7627,13 @@ Length
 ;
 if
 (
-NS_HexToRGB
+NS_HexToRGBA
 (
 withoutHash
+nsHexColorType
+:
+:
+NoAlpha
 &
 color
 )

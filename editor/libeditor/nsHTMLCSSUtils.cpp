@@ -6923,9 +6923,13 @@ rgba
 )
 |
 |
-NS_HexToRGB
+NS_HexToRGBA
 (
 subStr
+nsHexColorType
+:
+:
+NoAlpha
 &
 rgba
 )
