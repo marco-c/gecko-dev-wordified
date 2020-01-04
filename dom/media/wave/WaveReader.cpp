@@ -221,7 +221,8 @@ bisections
 define
 SEEK_LOGGING
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gMediaDecoderLog
 ;
 #

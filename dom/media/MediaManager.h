@@ -337,7 +337,7 @@ MediaTrackConstraintSet
 namespace
 dom
 extern
-LogModule
+PRLogModuleInfo
 *
 GetMediaManagerLog
 (

@@ -161,10 +161,7 @@ h
 For
 PRId64
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (

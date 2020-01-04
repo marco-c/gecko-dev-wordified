@@ -190,7 +190,7 @@ LOG
 #
 endif
 extern
-LogModule
+PRLogModuleInfo
 *
 GetGMPLog
 (

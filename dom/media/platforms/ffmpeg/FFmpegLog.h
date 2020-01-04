@@ -119,10 +119,7 @@ __FFmpegLog_h__
 define
 __FFmpegLog_h__
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (

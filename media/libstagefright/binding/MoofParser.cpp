@@ -111,10 +111,7 @@ defined
 MOZ_FMP4
 )
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetDemuxerLog
 (

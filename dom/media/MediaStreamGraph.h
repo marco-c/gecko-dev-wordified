@@ -257,7 +257,8 @@ namespace
 mozilla
 {
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gMediaStreamGraphLog
 ;
 namespace

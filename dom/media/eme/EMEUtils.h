@@ -142,7 +142,7 @@ mozilla
 #
 ifndef
 EME_LOG
-LogModule
+PRLogModuleInfo
 *
 GetEMELog
 (
@@ -195,7 +195,7 @@ endif
 #
 ifndef
 EME_VERBOSE_LOG
-LogModule
+PRLogModuleInfo
 *
 GetEMEVerboseLog
 (

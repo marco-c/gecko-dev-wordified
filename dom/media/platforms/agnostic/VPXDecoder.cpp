@@ -165,10 +165,7 @@ algorithm
 undef
 LOG
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (
