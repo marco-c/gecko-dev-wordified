@@ -1357,7 +1357,7 @@ addon
 foreignInstall
 )
 ;
-go_check_true
+do_check_true
 (
 addon
 .
