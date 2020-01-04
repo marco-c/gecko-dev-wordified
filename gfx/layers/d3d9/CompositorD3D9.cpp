@@ -4121,9 +4121,7 @@ D3D9DeviceReset
 (
 )
 ;
-gfxWarning
-(
-)
+gfxCriticalNote
 <
 <
 "

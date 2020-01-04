@@ -5035,9 +5035,7 @@ regionToUpdate
 )
 )
 {
-gfxWarning
-(
-)
+gfxCriticalNote
 <
 <
 "
