@@ -3303,6 +3303,9 @@ nsWindow
 (
 )
 ;
+nsresult
+rv
+=
 window
 -
 >
@@ -3313,6 +3316,12 @@ nullptr
 mNaturalBounds
 &
 initData
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+false
 )
 ;
 MOZ_ASSERT
