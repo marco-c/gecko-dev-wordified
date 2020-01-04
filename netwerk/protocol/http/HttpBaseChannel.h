@@ -2113,6 +2113,10 @@ PrivateBrowsingChannel
 HttpBaseChannel
 >
 ;
+friend
+class
+InterceptFailedOnStop
+;
 nsCOMPtr
 <
 nsIURI
