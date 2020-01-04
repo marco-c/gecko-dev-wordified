@@ -4027,6 +4027,26 @@ android
 '
 :
             
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+grant_runtime_permissions
+            
+grant_runtime_permissions
+(
+self
+kwargs
+[
+'
+app
+'
+]
+)
+            
 run_mochitest
 =
 mochitest
@@ -4541,6 +4561,26 @@ test_paths
             
 return
 1
+        
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+grant_runtime_permissions
+        
+grant_runtime_permissions
+(
+self
+kwargs
+[
+'
+app
+'
+]
+)
         
 mochitest
 =
