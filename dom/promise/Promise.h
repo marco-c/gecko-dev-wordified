@@ -869,6 +869,11 @@ MediaStreamError
 aArg
 )
 ;
+void
+MaybeRejectWithNull
+(
+)
+;
 /
 /
 DO

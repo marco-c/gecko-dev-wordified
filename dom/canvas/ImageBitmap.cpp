@@ -6167,9 +6167,8 @@ data
 mPromise
 -
 >
-MaybeReject
+MaybeRejectWithNull
 (
-NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -6513,9 +6512,8 @@ data
 mPromise
 -
 >
-MaybeReject
+MaybeRejectWithNull
 (
-NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
