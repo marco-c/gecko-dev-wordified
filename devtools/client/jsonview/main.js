@@ -167,7 +167,7 @@ defineLazyGetter
 (
 this
 "
-JsonViewService
+JsonViewUtils
 "
 function
 (
