@@ -48417,9 +48417,8 @@ pushReturnAddress
 .
 masm
 .
-pop
+popReturnAddress
 (
-lr
 )
 ;
 #
