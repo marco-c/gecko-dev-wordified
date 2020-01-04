@@ -25128,6 +25128,17 @@ IsScrollInfoLayer
 )
 )
 ;
+mFrameMetrics
+.
+SetForceDisableApz
+(
+aLayerMetrics
+.
+IsApzForceDisabled
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
