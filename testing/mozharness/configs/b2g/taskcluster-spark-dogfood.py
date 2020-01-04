@@ -98,14 +98,6 @@ LIGHTSABER
 "
         
 "
-DOGFOOD
-"
-:
-"
-1
-"
-        
-"
 BOWER_FLAGS
 "
 :
