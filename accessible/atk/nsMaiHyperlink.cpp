@@ -570,7 +570,7 @@ MaiHyperlink
 :
 MaiHyperlink
 (
-uintptr_t
+AccessibleOrProxy
 aHyperLink
 )
 :

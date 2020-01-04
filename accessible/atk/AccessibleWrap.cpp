@@ -661,10 +661,6 @@ new
 MaiHyperlink
 (
 accWrap
-.
-Bits
-(
-)
 )
 ;
 g_object_set_qdata
