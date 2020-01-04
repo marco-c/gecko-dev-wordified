@@ -336,9 +336,9 @@ foo
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 do_check_eq
@@ -371,9 +371,9 @@ foo
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 do_check_eq
@@ -529,9 +529,9 @@ foo
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 do_check_eq
@@ -566,9 +566,9 @@ foo
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 do_check_eq
@@ -1852,9 +1852,9 @@ foo2
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 do_check_eq
@@ -1884,9 +1884,9 @@ foo3
 "
 /
 "
-false
 {
 }
+false
 )
 ;
 }
