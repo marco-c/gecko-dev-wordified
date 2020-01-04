@@ -829,6 +829,13 @@ aCue
 aRv
 )
 ;
+aCue
+.
+SetTrack
+(
+nullptr
+)
+;
 if
 (
 mTextTrackList
