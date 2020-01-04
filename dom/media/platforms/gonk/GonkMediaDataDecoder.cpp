@@ -1396,6 +1396,11 @@ rv
 NS_OK
 )
 {
+MOZ_ASSERT
+(
+output
+)
+;
 mDecodeCallback
 -
 >

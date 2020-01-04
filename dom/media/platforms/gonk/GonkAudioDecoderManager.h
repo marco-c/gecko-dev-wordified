@@ -216,9 +216,8 @@ aOutput
 )
 override
 ;
-virtual
-nsresult
-Flush
+void
+ProcessFlush
 (
 )
 override

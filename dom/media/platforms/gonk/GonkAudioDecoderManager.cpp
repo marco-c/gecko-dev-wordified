@@ -1434,11 +1434,11 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsresult
+void
 GonkAudioDecoderManager
 :
 :
-Flush
+ProcessFlush
 (
 )
 {
@@ -1468,11 +1468,10 @@ FLUSH
 "
 )
 ;
-return
 GonkDecoderManager
 :
 :
-Flush
+ProcessFlush
 (
 )
 ;
