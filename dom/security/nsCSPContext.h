@@ -458,6 +458,15 @@ mLoadingPrincipal
 nullptr
 ;
 }
+nsWeakPtr
+GetLoadingContext
+(
+)
+{
+return
+mLoadingContext
+;
+}
 private
 :
 bool
