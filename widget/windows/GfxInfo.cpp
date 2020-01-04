@@ -188,7 +188,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -9677,11 +9677,11 @@ FeatureStatus
 Available
 )
 {
-DeviceManagerD3D11
+DeviceManagerDx
 *
 dm
 =
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

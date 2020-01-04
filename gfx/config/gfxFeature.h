@@ -235,6 +235,15 @@ ANGLE
 \
 _
 (
+DIRECT_DRAW
+Feature
+"
+DirectDraw
+"
+)
+\
+_
+(
 GPU_PROCESS
 Feature
 "

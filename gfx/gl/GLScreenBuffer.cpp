@@ -230,7 +230,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -739,14 +739,14 @@ WARP
 gfx
 :
 :
-DeviceManagerD3D11
+DeviceManagerDx
 *
 dm
 =
 gfx
 :
 :
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
