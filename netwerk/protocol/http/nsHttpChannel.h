@@ -3056,7 +3056,7 @@ the
 consumer
 .
 uint32_t
-mConcurentCacheAccess
+mConcurrentCacheAccess
 :
 1
 ;
