@@ -1382,16 +1382,6 @@ nsString
 aURL
 )
 ;
-void
-ActivateUpdateHitRegion
-(
-)
-;
-void
-DeactivateUpdateHitRegion
-(
-)
-;
 /
 /
 Properly

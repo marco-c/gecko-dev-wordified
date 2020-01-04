@@ -3474,8 +3474,6 @@ pointer
 events
 :
 none
-without
-mozpasspointerevents
 .
 *
 /
@@ -7392,13 +7390,6 @@ events
 :
 none
 frame
-that
-doesn
-'
-t
-have
-mozpasspointerevents
-set
 .
 bool
 mInsidePointerEventsNoneDoc
