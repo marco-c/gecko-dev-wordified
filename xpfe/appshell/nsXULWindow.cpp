@@ -872,6 +872,10 @@ mDestroying
 (
 false
 )
+mRegistered
+(
+false
+)
 mContextFlags
 (
 0
@@ -3856,6 +3860,9 @@ if
 (
 !
 mIsHiddenWindow
+&
+&
+mRegistered
 )
 {
 /
