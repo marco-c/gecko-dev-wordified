@@ -23768,6 +23768,8 @@ remove
 as
 a
 file
+MOZ_FALLTHROUGH
+;
 /
 /
 Files
@@ -24033,10 +24035,8 @@ OK
 break
 ;
 }
-/
-/
-Fall
-through
+MOZ_FALLTHROUGH
+;
 case
 FTS_ERR
 :
