@@ -374,6 +374,9 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
+InputData
+*
+aFirstInput
 )
 ;
 const
@@ -1456,6 +1459,9 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
+InputData
+*
+aFirstInput
 )
 override
 ;
@@ -2078,6 +2084,9 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
+InputData
+*
+aFirstInput
 )
 override
 ;
