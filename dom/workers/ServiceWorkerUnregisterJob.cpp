@@ -777,6 +777,14 @@ registration
 IsControllingDocuments
 (
 )
+&
+&
+registration
+-
+>
+IsIdle
+(
+)
 )
 {
 /
