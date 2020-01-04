@@ -2585,7 +2585,7 @@ declaration
 is
 for
 .
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 8

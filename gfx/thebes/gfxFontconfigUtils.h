@@ -1723,7 +1723,7 @@ Don
 t
 memmove
 the
-AutoTArray
+nsAutoTArray
 .
 enum
 {
@@ -1746,7 +1746,7 @@ but
 sometimes
 more
 .
-AutoTArray
+nsAutoTArray
 <
 nsCountedRef
 <

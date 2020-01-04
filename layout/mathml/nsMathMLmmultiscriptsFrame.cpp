@@ -418,7 +418,7 @@ nsGkAtoms
 msup_
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

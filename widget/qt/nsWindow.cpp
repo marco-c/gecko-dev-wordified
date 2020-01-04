@@ -8806,7 +8806,7 @@ if
 rollupListener
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIWidget
 *

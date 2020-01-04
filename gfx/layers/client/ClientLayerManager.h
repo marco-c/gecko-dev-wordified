@@ -2113,7 +2113,7 @@ ShadowLayerForwarder
 >
 mForwarder
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -2123,7 +2123,7 @@ TextureClientPool
 >
 mTexturePools
 ;
-AutoTArray
+nsAutoTArray
 <
 dom
 :

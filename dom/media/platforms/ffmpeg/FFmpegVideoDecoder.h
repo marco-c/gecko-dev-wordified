@@ -705,7 +705,7 @@ Clear
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 DurationElement
 16

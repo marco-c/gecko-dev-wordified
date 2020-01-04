@@ -1256,7 +1256,7 @@ modify
 userdata
 each
 time
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -1306,7 +1306,7 @@ Frame
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -8760,7 +8760,7 @@ array
 *
 /
 typedef
-AutoTArray
+nsAutoTArray
 <
 NewLayerEntry
 1
@@ -31210,7 +31210,7 @@ paint
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 FrameMetrics
 2
@@ -31957,7 +31957,7 @@ nsIntRegion
 aOpaqueRegionForContainer
 )
 {
-AutoTArray
+nsAutoTArray
 <
 OpaqueRegionEntry
 4

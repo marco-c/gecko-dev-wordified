@@ -838,7 +838,7 @@ in
 the
 fragment
 .
-AutoTArray
+nsAutoTArray
 <
 nsString
 2

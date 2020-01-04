@@ -2035,7 +2035,7 @@ For
 matching
 :
 scope
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -2320,7 +2320,7 @@ scoped
 child
 )
 .
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :

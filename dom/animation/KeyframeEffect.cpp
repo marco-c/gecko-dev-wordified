@@ -8922,7 +8922,7 @@ of
 OffsetIndexedKeyframe
 objects
 .
-AutoTArray
+nsAutoTArray
 <
 OffsetIndexedKeyframe
 4

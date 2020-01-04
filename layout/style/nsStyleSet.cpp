@@ -6259,7 +6259,7 @@ here
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIStyleRule
 *
@@ -9675,7 +9675,7 @@ storage
 is
 best
 .
-AutoTArray
+nsAutoTArray
 <
 RuleNodeInfo
 30
@@ -15279,7 +15279,7 @@ EnsureUniqueInnerOnCSSSheets
 (
 )
 {
-AutoTArray
+nsAutoTArray
 <
 CSSStyleSheet
 *

@@ -6663,7 +6663,7 @@ aDLLPath
 nullptr
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 BYTE
 512

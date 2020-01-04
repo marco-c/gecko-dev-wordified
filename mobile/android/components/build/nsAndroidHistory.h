@@ -392,7 +392,7 @@ nsITimer
 mTimer
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -450,7 +450,7 @@ period
 *
 /
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -512,7 +512,7 @@ locations
 *
 /
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

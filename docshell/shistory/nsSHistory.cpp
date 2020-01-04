@@ -8002,7 +8002,7 @@ do_QueryInterface
 originalSH
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint64_t
 16

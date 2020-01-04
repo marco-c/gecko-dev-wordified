@@ -717,7 +717,7 @@ mGlobalVarPlaceholderValue
 int32_t
 mRecursionDepth
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 TemplateRule
 10

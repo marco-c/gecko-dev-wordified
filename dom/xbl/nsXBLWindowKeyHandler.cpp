@@ -2427,7 +2427,7 @@ bool
 aOutReservedForChrome
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsShortcutCandidate
 10

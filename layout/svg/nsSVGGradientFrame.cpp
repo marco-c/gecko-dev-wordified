@@ -1642,7 +1642,7 @@ GetParent
 aSource
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

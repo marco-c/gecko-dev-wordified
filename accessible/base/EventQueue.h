@@ -415,7 +415,7 @@ t
 make
 this
 an
-AutoTArray
+nsAutoTArray
 ;
 we
 use

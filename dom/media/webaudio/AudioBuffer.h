@@ -612,7 +612,7 @@ mOwnerWindow
 /
 /
 Float32Arrays
-AutoTArray
+nsAutoTArray
 <
 JS
 :

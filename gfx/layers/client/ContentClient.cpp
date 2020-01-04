@@ -2337,7 +2337,7 @@ mTextureClientOnWhite
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 CompositableForwarder
 :

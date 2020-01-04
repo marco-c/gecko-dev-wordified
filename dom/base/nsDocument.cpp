@@ -19093,7 +19093,7 @@ a
 reminder
 to
 wait
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -62067,7 +62067,7 @@ GetFullscreenLeaf
 this
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsDocument
 *
@@ -65875,7 +65875,7 @@ order
 as
 specified
 .
-AutoTArray
+nsAutoTArray
 <
 nsIDocument
 *

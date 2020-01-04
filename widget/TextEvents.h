@@ -3964,7 +3964,7 @@ with
 font
 ranges
 requested
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :

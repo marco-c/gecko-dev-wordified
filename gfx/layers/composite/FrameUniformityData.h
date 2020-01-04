@@ -213,7 +213,7 @@ seconds
 worth
 of
 data
-AutoTArray
+nsAutoTArray
 <
 gfx
 :

@@ -156,7 +156,7 @@ pos2
 =
 0
 ;
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *

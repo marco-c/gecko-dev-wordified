@@ -638,7 +638,7 @@ FirstInFlow
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -848,7 +848,7 @@ ComputedISize
 )
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 nsIFrame
 *
@@ -1580,7 +1580,7 @@ FIXME
 :
 aDirection
 !
-AutoTArray
+nsAutoTArray
 <
 FrameChildList
 4

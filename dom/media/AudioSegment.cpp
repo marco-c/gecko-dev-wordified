@@ -558,7 +558,7 @@ uint32_t
 aSampleRate
 )
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 SilentChannel
@@ -570,7 +570,7 @@ GUESS_AUDIO_CHANNELS
 >
 buf
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 AudioDataValue
@@ -924,7 +924,7 @@ aOutputChannels
 Down
 mix
 .
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 *
@@ -1126,7 +1126,7 @@ uint32_t
 aSampleRate
 )
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 SilentChannel

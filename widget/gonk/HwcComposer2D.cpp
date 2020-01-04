@@ -2053,7 +2053,7 @@ return
 false
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

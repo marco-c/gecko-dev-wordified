@@ -8878,7 +8878,7 @@ features
 into
 hb_feature
 array
-AutoTArray
+nsAutoTArray
 <
 hb_feature_t
 20
@@ -9266,7 +9266,7 @@ return
 NS_OK
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 gfxTextRun
 :
@@ -9289,7 +9289,7 @@ NO_GLYPH
 -
 1
 ;
-AutoTArray
+AutoFallibleTArray
 <
 int32_t
 SMALL_GLYPH_RUN

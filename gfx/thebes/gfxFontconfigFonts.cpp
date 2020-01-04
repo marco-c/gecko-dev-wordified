@@ -782,7 +782,7 @@ to
 the
 array
 .
-AutoTArray
+AutoFallibleTArray
 <
 nsCountedRef
 <
@@ -1084,7 +1084,7 @@ nullptr
 mPatterns
 is
 an
-AutoTArray
+nsAutoTArray
 with
 1
 space
@@ -1206,7 +1206,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -1242,7 +1242,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -5426,7 +5426,7 @@ Japanese
 text
 .
 )
-AutoTArray
+nsAutoTArray
 <
 LangSupportEntry
 10
@@ -7775,7 +7775,7 @@ void
 aClosure
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 5
@@ -8942,7 +8942,7 @@ lang
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 20

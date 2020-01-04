@@ -1399,7 +1399,7 @@ t
 make
 this
 an
-AutoTArray
+nsAutoTArray
 ;
 we
 use
@@ -1606,7 +1606,7 @@ t
 make
 this
 an
-AutoTArray
+nsAutoTArray
 ;
 we
 *

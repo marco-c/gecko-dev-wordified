@@ -13707,7 +13707,7 @@ rdf
 :
 "
 .
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *

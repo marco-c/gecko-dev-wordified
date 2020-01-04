@@ -1460,7 +1460,7 @@ SerializeControl
 aReadStreamOut
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 FileDescriptor
 4
@@ -2639,7 +2639,7 @@ MOZ_ASSERT
 control
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 FileDescriptor
 4

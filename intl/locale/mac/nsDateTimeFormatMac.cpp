@@ -1366,7 +1366,7 @@ CFStringGetLength
 formattedDate
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 UniChar
 256

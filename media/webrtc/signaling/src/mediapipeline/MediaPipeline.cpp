@@ -9755,7 +9755,7 @@ track_rate_
 100
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 int16_t
 *
@@ -9763,7 +9763,7 @@ int16_t
 >
 channels
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 int16_t

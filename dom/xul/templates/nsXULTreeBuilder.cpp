@@ -8047,7 +8047,7 @@ int32_t
 aDelta
 )
 {
-AutoTArray
+nsAutoTArray
 <
 int32_t
 8

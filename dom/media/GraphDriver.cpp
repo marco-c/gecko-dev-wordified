@@ -6714,7 +6714,7 @@ AsyncCubebOperation
 aOperation
 )
 {
-AutoTArray
+nsAutoTArray
 <
 StreamAndPromiseForOperation
 1

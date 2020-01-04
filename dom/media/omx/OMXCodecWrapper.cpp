@@ -5293,7 +5293,7 @@ a
 temporary
 buffer
 .
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 9600
@@ -5885,7 +5885,7 @@ mOMXAEncoder
 mResampler
 )
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 9600

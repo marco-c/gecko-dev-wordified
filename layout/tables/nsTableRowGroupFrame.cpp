@@ -10137,7 +10137,7 @@ non
 rows
 here
 .
-AutoTArray
+nsAutoTArray
 <
 nsTableRowFrame
 *

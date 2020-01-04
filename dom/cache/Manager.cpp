@@ -655,7 +655,7 @@ up
 orphaned
 Cache
 objects
-AutoTArray
+nsAutoTArray
 <
 CacheId
 8
@@ -709,7 +709,7 @@ Length
 i
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsID
 16
@@ -777,7 +777,7 @@ up
 orphaned
 body
 objects
-AutoTArray
+nsAutoTArray
 <
 nsID
 64
@@ -8661,7 +8661,7 @@ StreamList
 aStreamList
 )
 {
-AutoTArray
+nsAutoTArray
 <
 SavedResponse
 1
@@ -11605,7 +11605,7 @@ NS_ASSERT_OWNINGTHREAD
 Manager
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsID
 64

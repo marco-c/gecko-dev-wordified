@@ -1924,7 +1924,7 @@ ShareFontTableAndGetBlob
 (
 uint32_t
 aTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -2723,7 +2723,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -3782,11 +3782,10 @@ hb_blob_t
 *
 ShareTableAndGetBlob
 (
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
-&
 &
 aTable
 nsTHashtable

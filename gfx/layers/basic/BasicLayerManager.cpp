@@ -610,7 +610,7 @@ h
 /
 /
 for
-AutoTArray
+nsAutoTArray
 #
 ifdef
 MOZ_ENABLE_SKIA
@@ -6045,7 +6045,7 @@ aPaintContext
 mLayer
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

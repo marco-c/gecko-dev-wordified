@@ -401,7 +401,7 @@ h
 /
 /
 for
-AutoTArray
+nsAutoTArray
 nsTArray
 etc
 #

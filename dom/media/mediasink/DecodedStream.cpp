@@ -2833,7 +2833,7 @@ Data
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 AudioDataValue
@@ -2966,7 +2966,7 @@ mAudio
 .
 mRate
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -3362,7 +3362,7 @@ mVideo
 .
 mTrackId
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

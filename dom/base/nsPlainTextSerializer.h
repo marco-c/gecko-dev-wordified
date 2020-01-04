@@ -1344,7 +1344,7 @@ For
 handling
 table
 rows
-AutoTArray
+nsAutoTArray
 <
 bool
 8
@@ -1365,7 +1365,7 @@ also
 needed
 in
 CloseContainer
-AutoTArray
+nsAutoTArray
 <
 bool
 8

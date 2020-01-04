@@ -7672,7 +7672,7 @@ mTryParts
 ;
 private
 :
-AutoTArray
+nsAutoTArray
 <
 nsGlyphTable
 *
@@ -11840,7 +11840,7 @@ fallbacks
 into
 the
 list
-AutoTArray
+nsAutoTArray
 <
 nsString
 16

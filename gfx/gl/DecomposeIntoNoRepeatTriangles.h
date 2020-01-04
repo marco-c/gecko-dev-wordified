@@ -323,14 +323,14 @@ triangles
 coords
 )
 .
-AutoTArray
+nsAutoTArray
 <
 coord
 6
 >
 mVertexCoords
 ;
-AutoTArray
+nsAutoTArray
 <
 coord
 6

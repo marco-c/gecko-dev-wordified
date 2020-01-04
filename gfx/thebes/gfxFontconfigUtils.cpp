@@ -5588,7 +5588,7 @@ FcSetApplication
 endif
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 FcPattern
 *

@@ -9182,7 +9182,7 @@ aRgn
 nullptr
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 100

@@ -1833,7 +1833,7 @@ kbdState
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 KeyPair
 10

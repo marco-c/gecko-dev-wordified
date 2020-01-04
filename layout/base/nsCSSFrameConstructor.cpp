@@ -8563,7 +8563,7 @@ it
 if
 needed
 .
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -8678,7 +8678,7 @@ the
 insertion
 point
 .
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -18462,7 +18462,7 @@ frame
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :
@@ -25169,7 +25169,7 @@ nsFrameItems
 aChildItems
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :
@@ -68493,7 +68493,7 @@ before
 the
 popupset
 .
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :

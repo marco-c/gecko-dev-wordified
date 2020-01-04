@@ -10911,7 +10911,7 @@ return
 IMM_ERROR_GENERAL
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 16

@@ -2134,7 +2134,7 @@ int32_t
 aSourceIndices
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsSVGStringInfo
 2
@@ -2593,7 +2593,7 @@ primitives
 primitiveElementIndex
 ]
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 2

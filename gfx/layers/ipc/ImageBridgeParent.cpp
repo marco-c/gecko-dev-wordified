@@ -1995,7 +1995,7 @@ Length
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 ImageCompositeNotification
 1

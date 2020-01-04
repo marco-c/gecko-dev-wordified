@@ -155,7 +155,7 @@ struct
 StorageWithTArray
 {
 typedef
-AutoTArray
+nsAutoTArray
 <
 T
 TCount

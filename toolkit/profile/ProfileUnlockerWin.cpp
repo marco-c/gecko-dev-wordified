@@ -746,7 +746,7 @@ NS_ERROR_FAILURE
 /
 Using
 a
-AutoTArray
+nsAutoTArray
 here
 because
 we
@@ -758,7 +758,7 @@ to
 be
 1
 .
-AutoTArray
+nsAutoTArray
 <
 RM_PROCESS_INFO
 1

@@ -1267,7 +1267,7 @@ be
 our
 queue
 .
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

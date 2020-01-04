@@ -2115,7 +2115,7 @@ which
 require
 special
 handling
-AutoTArray
+nsAutoTArray
 <
 nsString
 5
@@ -8023,7 +8023,7 @@ aSubtreeRoot
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -9159,7 +9159,7 @@ tree
 is
 black
 .
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -9201,7 +9201,7 @@ traverse
 is
 faster
 .
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -9674,7 +9674,7 @@ aNode
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -9685,7 +9685,7 @@ gPurpleRoots
 =
 nullptr
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -10324,7 +10324,7 @@ or
 /
 gray
 .
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -10711,7 +10711,7 @@ gNodesToUnbind
 gNodesToUnbind
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -10810,7 +10810,7 @@ gPurpleRoots
 gPurpleRoots
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *

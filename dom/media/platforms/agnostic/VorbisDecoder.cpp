@@ -427,7 +427,7 @@ PodZero
 mVorbisBlock
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 unsigned
 char
@@ -436,7 +436,7 @@ char
 >
 headers
 ;
-AutoTArray
+nsAutoTArray
 <
 size_t
 4

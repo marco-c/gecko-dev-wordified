@@ -381,7 +381,7 @@ h
 /
 /
 for
-AutoTArray
+AutoInfallibleTArray
 #
 include
 "
@@ -3332,7 +3332,7 @@ LayerManagerComposite
 bool
 sent
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 EditReply
 10

@@ -1523,7 +1523,7 @@ moved
 .
 /
 /
-AutoTArray
+nsAutoTArray
 <
 int32_t
 8

@@ -279,7 +279,7 @@ autoBuf
 reinterpret_cast
 <
 const
-AutoTArray
+nsAutoArrayBase
 <
 nsTArray
 <
@@ -362,7 +362,7 @@ AlignedElem
 &
 sizeof
 (
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -751,7 +751,7 @@ nsTArrayHeader
 /
 /
 Since
-AutoTArray
+nsAutoTArray
 always
 contains
 an
@@ -824,7 +824,7 @@ memory
 owned
 by
 this
-AutoTArray
+nsAutoTArray
 .
 We
 statically
@@ -842,7 +842,7 @@ bytes
 or
 less
 in
-AutoTArray
+nsAutoArrayBase
 .
 static_assert
 (
@@ -3171,7 +3171,7 @@ the
 heap
 .
 )
-AutoTArray
+nsAutoArrayBase
 <
 nsTArray_Impl
 <
@@ -3455,7 +3455,7 @@ flagrant
 violation
 of
 the
-AutoTArray
+nsAutoTArray
 invariants
 .
 It
@@ -3478,7 +3478,7 @@ don
 '
 t
 the
-AutoTArray
+nsAutoTArray
 will
 forget
 /

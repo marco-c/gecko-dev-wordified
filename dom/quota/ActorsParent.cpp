@@ -10873,7 +10873,7 @@ lock
 while
 waitting
 .
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -17701,7 +17701,7 @@ operations
 for
 them
 .
-AutoTArray
+nsAutoTArray
 <
 nsAutoPtr
 <

@@ -2355,7 +2355,7 @@ in
 UniquePtr
 here
 .
-AutoTArray
+nsAutoTArray
 <
 UniquePtr
 <
@@ -2365,7 +2365,7 @@ RTC_ARRAY_SIZE
 >
 reflowStates
 ;
-AutoTArray
+nsAutoTArray
 <
 UniquePtr
 <
@@ -3203,7 +3203,7 @@ PullFrameState
 ContinuationTraversingState
 mBase
 ;
-AutoTArray
+nsAutoTArray
 <
 ContinuationTraversingState
 RTC_ARRAY_SIZE

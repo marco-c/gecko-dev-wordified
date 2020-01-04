@@ -193,7 +193,7 @@ widget
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *

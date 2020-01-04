@@ -6944,7 +6944,7 @@ return
 0
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsAutoPtr
 <
@@ -7384,7 +7384,7 @@ nsIContent
 aContent
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsAutoPtr
 <

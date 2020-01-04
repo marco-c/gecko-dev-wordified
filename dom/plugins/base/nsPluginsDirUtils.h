@@ -351,7 +351,7 @@ anEmptyString
 "
 "
 ;
-AutoTArray
+nsAutoTArray
 <
 char
 *

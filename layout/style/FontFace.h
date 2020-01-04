@@ -294,7 +294,7 @@ aResult
 override
 ;
 const
-AutoTArray
+nsAutoTArray
 <
 FontFace
 *
@@ -368,7 +368,7 @@ the
 same
 origin
 .
-AutoTArray
+nsAutoTArray
 <
 FontFace
 *

@@ -18263,7 +18263,7 @@ value
 host
 path
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -18748,7 +18748,7 @@ path
 bool
 hasResult
 ;
-AutoTArray
+nsAutoTArray
 <
 CookieDomainTuple
 kMaxNumberOfCookies
@@ -21184,7 +21184,7 @@ nsCookie
 *
 cookie
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCookie
 *
@@ -29830,7 +29830,7 @@ cookieOldestTime
 )
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsListIter
 kMaxNumberOfCookies

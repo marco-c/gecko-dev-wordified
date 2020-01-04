@@ -2690,7 +2690,7 @@ mPosition
 ;
 protected
 :
-AutoTArray
+nsAutoTArray
 <
 T
 N

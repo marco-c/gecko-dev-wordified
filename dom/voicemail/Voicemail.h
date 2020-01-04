@@ -451,7 +451,7 @@ changed
 ever
 since
 .
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

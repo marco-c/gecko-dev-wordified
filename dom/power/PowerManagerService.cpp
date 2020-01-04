@@ -679,7 +679,7 @@ long
 .
 *
 /
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

@@ -14852,7 +14852,7 @@ all
 selection
 points
 .
-AutoTArray
+nsAutoTArray
 <
 SavedRange
 10
@@ -15818,7 +15818,7 @@ all
 selection
 points
 .
-AutoTArray
+nsAutoTArray
 <
 SavedRange
 10

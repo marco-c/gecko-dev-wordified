@@ -2759,7 +2759,7 @@ PreloadNamesList
 (
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 10
@@ -2862,7 +2862,7 @@ LoadBadUnderlineList
 (
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 10
@@ -3837,7 +3837,7 @@ gfxFontFamily
 aMatchedFamily
 )
 {
-AutoTArray
+nsAutoTArray
 <
 const
 char
@@ -5159,7 +5159,7 @@ generic
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 4

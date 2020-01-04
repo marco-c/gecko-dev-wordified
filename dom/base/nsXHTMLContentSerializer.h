@@ -851,7 +851,7 @@ per
 OL
 >
 .
-AutoTArray
+nsAutoTArray
 <
 olState
 8

@@ -3187,7 +3187,7 @@ BasicLayerManager
 >
 mInactiveManager
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -3239,7 +3239,7 @@ nsDisplayItem
 *
 mItem
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

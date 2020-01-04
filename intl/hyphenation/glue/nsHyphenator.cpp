@@ -282,7 +282,7 @@ const
 nsAString
 &
 aString
-nsTArray
+FallibleTArray
 <
 bool
 >
@@ -934,7 +934,7 @@ ch
 ;
 }
 }
-AutoTArray
+nsAutoTArray
 <
 char
 200

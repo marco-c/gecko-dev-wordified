@@ -443,7 +443,7 @@ languages
 are
 measured
 .
-AutoTArray
+nsAutoTArray
 <
 FontSetByLangEntry
 1

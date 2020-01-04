@@ -4527,7 +4527,7 @@ ContentAccessModifierMask
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 10
@@ -7638,7 +7638,7 @@ unique
 for
 correctness
 .
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

@@ -781,7 +781,7 @@ if
 updated
 )
 {
-AutoTArray
+nsAutoTArray
 <
 CompositableForwarder
 :
@@ -2898,7 +2898,7 @@ mFront
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 CompositableForwarder
 :

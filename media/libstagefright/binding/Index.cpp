@@ -737,7 +737,7 @@ an
 8
 bit
 field
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 256

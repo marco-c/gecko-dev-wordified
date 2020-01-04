@@ -3357,7 +3357,7 @@ nodes
 to
 be
 removed
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -4937,7 +4937,7 @@ DOCUMENT_POSITION_FOLLOWING
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 const
 nsINode
@@ -11459,7 +11459,7 @@ GetNextSibling
 }
 Maybe
 <
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -16152,7 +16152,7 @@ selectorList
 FindMatchingElements
 <
 false
-AutoTArray
+nsAutoTArray
 <
 Element
 *

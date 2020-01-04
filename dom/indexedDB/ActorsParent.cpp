@@ -4834,7 +4834,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -5199,7 +5199,7 @@ T
 aSource
 uint32_t
 aColumnIndex
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -5384,7 +5384,7 @@ mozIStorageStatement
 aStatement
 uint32_t
 aColumnIndex
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -5409,7 +5409,7 @@ mozIStorageValueArray
 aValues
 uint32_t
 aColumnIndex
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -14419,7 +14419,7 @@ an
 empty
 array
 .
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -20000,7 +20000,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -20040,7 +20040,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -20600,7 +20600,7 @@ return
 rv
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -28328,7 +28328,7 @@ const
 UniqueIndexTable
 &
 aUniqueIndexTable
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -34749,7 +34749,7 @@ const
 Key
 &
 aObjectDataKey
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -35210,7 +35210,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoTArray
+AutoFallibleTArray
 <
 StructuredCloneReadInfo
 1
@@ -35675,7 +35675,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoTArray
+AutoFallibleTArray
 <
 StructuredCloneReadInfo
 1
@@ -35759,7 +35759,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoTArray
+AutoFallibleTArray
 <
 Key
 1
@@ -74638,7 +74638,7 @@ get
 the
 usage
 .
-AutoTArray
+nsAutoTArray
 <
 nsString
 20
@@ -74663,7 +74663,7 @@ validSubdirs
 20
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 FileManagerInitInfo
 20
@@ -83817,7 +83817,7 @@ return
 NS_ERROR_FILE_CORRUPTED
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 512
@@ -83901,7 +83901,7 @@ IsVoid
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 int64_t
 10
@@ -84812,7 +84812,7 @@ const
 UniqueIndexTable
 &
 aUniqueIndexTable
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -86482,7 +86482,7 @@ DatabaseConnection
 CachedStatement
 deleteStmt
 ;
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -109222,7 +109222,7 @@ mOp
 >
 mObjectStoreId
 ;
-AutoTArray
+nsAutoTArray
 <
 IndexUpdateInfo
 32
@@ -109551,7 +109551,7 @@ return
 rv
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -110037,7 +110037,7 @@ const
 Key
 &
 aObjectStoreKey
-nsTArray
+FallibleTArray
 <
 IndexDataValue
 >
@@ -111403,7 +111403,7 @@ nullIndexDataValuesStmt
 Key
 lastObjectStoreKey
 ;
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -113075,7 +113075,7 @@ if
 hasResult
 )
 {
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32
@@ -115920,7 +115920,7 @@ the
 index_data_values
 column
 .
-AutoTArray
+AutoFallibleTArray
 <
 IndexDataValue
 32

@@ -1034,7 +1034,7 @@ period
 *
 /
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

@@ -190,7 +190,7 @@ RecvAsyncDelete
 )
 override
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageHost
 *

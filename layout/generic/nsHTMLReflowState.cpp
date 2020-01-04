@@ -4361,7 +4361,7 @@ than
 /
 style
 .
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

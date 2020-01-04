@@ -1678,7 +1678,7 @@ uint8_t
 aBreakState
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 100
@@ -1694,7 +1694,7 @@ that
 contribute
 to
 mCurrentWord
-AutoTArray
+nsAutoTArray
 <
 TextItem
 2

@@ -7642,14 +7642,14 @@ nsISelection
 >
 mBoundingSelection
 ;
-AutoTArray
+nsAutoTArray
 <
 PresShellState
 8
 >
 mPresShellStates
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -7657,7 +7657,7 @@ nsIFrame
 >
 mFramesMarkedForDisplay
 ;
-AutoTArray
+nsAutoTArray
 <
 ThemeGeometry
 2
@@ -8613,7 +8613,7 @@ frames
 bool
 mInPreserves3D
 ;
-AutoTArray
+nsAutoTArray
 <
 nsDisplayItem
 *

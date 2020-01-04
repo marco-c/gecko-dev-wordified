@@ -1917,7 +1917,7 @@ counter
 ;
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 Element
 3

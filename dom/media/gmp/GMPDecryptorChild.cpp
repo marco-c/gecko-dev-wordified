@@ -762,7 +762,7 @@ GMPMediaKeyStatus
 aStatus
 )
 {
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 16

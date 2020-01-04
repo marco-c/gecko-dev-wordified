@@ -2332,7 +2332,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 const
 unsigned
@@ -2342,7 +2342,7 @@ char
 >
 headers
 ;
-AutoTArray
+nsAutoTArray
 <
 size_t
 4

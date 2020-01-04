@@ -177,7 +177,7 @@ h
 /
 /
 for
-AutoTArray
+nsAutoTArray
 nsTArray_Impl
 etc
 #
@@ -694,7 +694,7 @@ pointer
 .
 *
 /
-AutoTArray
+nsAutoTArray
 <
 TimeStamp
 kMaxFrames

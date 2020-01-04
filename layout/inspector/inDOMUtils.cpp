@@ -804,7 +804,7 @@ i
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 CSSStyleSheet
 *

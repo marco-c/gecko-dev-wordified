@@ -4118,7 +4118,7 @@ are
 /
 present
 .
-AutoTArray
+nsAutoTArray
 <
 Layer
 1
@@ -15075,7 +15075,7 @@ a
 stacking
 context
 .
-AutoTArray
+nsAutoTArray
 <
 nsString
 1
@@ -15289,7 +15289,7 @@ reset
 percent
 coord
 calc
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -15334,7 +15334,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
