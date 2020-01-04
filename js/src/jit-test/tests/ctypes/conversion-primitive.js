@@ -256,7 +256,7 @@ int32_t
 "
 )
 ;
-assertTypeErrorMessage
+assertRangeErrorMessage
 (
 (
 )
@@ -274,10 +274,6 @@ int32_t
 ;
 }
 "
-can
-'
-t
-convert
 the
 string
 \
@@ -285,7 +281,10 @@ string
 0xfffffffffffffffffffffff
 \
 "
-to
+does
+not
+fit
+in
 the
 type
 int32_t
