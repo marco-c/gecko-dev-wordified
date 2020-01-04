@@ -2341,6 +2341,15 @@ GLVendor
 NVIDIA
 &
 &
+!
+gl
+-
+>
+IsCoreProfile
+(
+)
+&
+&
 hasAlpha
 &
 &
