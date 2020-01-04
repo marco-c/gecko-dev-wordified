@@ -4252,6 +4252,17 @@ const
 =
 0
 ;
+virtual
+bool
+IsRecording
+(
+)
+const
+{
+return
+false
+;
+}
 /
 *
 *
