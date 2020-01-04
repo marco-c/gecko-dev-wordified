@@ -3300,7 +3300,7 @@ UpdateLuiOriValue
 (
 i0
 i1
-heapSize
+heapLength
 )
 ;
 }
