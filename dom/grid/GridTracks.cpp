@@ -485,12 +485,12 @@ aTrackInfo
 mNumExplicitTracks
 )
 ?
-GridTrackType
+GridDeclaration
 :
 :
 Implicit
 :
-GridTrackType
+GridDeclaration
 :
 :
 Explicit

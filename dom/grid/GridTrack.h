@@ -222,7 +222,7 @@ Breadth
 )
 const
 ;
-GridTrackType
+GridDeclaration
 Type
 (
 )
@@ -241,7 +241,7 @@ double
 aStart
 double
 aBreadth
-GridTrackType
+GridDeclaration
 aType
 GridTrackState
 aState
@@ -261,7 +261,7 @@ mStart
 double
 mBreadth
 ;
-GridTrackType
+GridDeclaration
 mType
 ;
 GridTrackState
