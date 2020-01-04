@@ -808,6 +808,7 @@ nsIDocShell
 :
 BUSY_FLAGS_NONE
 )
+{
 printf
 (
 "
@@ -817,6 +818,7 @@ none
 "
 )
 ;
+}
 if
 (
 busyFlags
@@ -826,6 +828,7 @@ nsIDocShell
 :
 BUSY_FLAGS_BUSY
 )
+{
 printf
 (
 "
@@ -835,6 +838,7 @@ busy
 "
 )
 ;
+}
 if
 (
 busyFlags
@@ -844,6 +848,7 @@ nsIDocShell
 :
 BUSY_FLAGS_BEFORE_PAGE_LOAD
 )
+{
 printf
 (
 "
@@ -855,6 +860,7 @@ load
 "
 )
 ;
+}
 if
 (
 busyFlags
@@ -864,6 +870,7 @@ nsIDocShell
 :
 BUSY_FLAGS_PAGE_LOADING
 )
+{
 printf
 (
 "
@@ -874,15 +881,7 @@ loading
 "
 )
 ;
-printf
-(
-"
-[
-failed
-]
-"
-)
-;
+}
 }
 static
 void
