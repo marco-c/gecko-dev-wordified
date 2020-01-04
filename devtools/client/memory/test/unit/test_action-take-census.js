@@ -281,6 +281,8 @@ takeCensus
 (
 heapWorker
 snapshot
+.
+id
 )
 )
 ;
@@ -356,6 +358,8 @@ readSnapshot
 (
 heapWorker
 snapshot
+.
+id
 )
 )
 ;
@@ -397,6 +401,8 @@ takeCensus
 (
 heapWorker
 snapshot
+.
+id
 )
 )
 ;
@@ -490,6 +496,8 @@ snapshot
 .
 census
 .
+report
+.
 children
 .
 length
@@ -510,6 +518,8 @@ isBreakdownType
 snapshot
 .
 census
+.
+report
 "
 coarseType
 "
@@ -533,6 +543,8 @@ ok
 breakdownEquals
 (
 snapshot
+.
+census
 .
 breakdown
 breakdowns

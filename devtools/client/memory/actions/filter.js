@@ -93,7 +93,7 @@ constants
 ;
 const
 {
-refreshSelectedCensus
+refresh
 }
 =
 require
@@ -101,7 +101,7 @@ require
 "
 .
 /
-snapshot
+refresh
 "
 )
 ;
@@ -243,7 +243,7 @@ setTimeout
 >
 dispatch
 (
-refreshSelectedCensus
+refresh
 (
 heapWorker
 )

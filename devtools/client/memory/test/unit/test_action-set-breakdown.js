@@ -354,6 +354,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 objectClass
 "

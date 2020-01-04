@@ -268,6 +268,8 @@ snapshots
 0
 ]
 .
+census
+.
 breakdown
 custom
 )
@@ -296,6 +298,8 @@ snapshots
 ]
 .
 census
+.
+report
 .
 children
 .
@@ -332,6 +336,8 @@ snapshots
 ]
 .
 census
+.
+report
 .
 children
 .
@@ -377,6 +383,8 @@ snapshots
 ]
 .
 census
+.
+report
 .
 children
 .
