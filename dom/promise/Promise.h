@@ -998,6 +998,11 @@ MaybeRejectWithNull
 (
 )
 ;
+void
+MaybeRejectWithUndefined
+(
+)
+;
 /
 /
 DO
