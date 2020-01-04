@@ -5512,9 +5512,6 @@ devinfo
 >
 devid
 =
-(
-cubeb_devid
-)
 devinfo
 -
 >
@@ -5887,9 +5884,6 @@ devinfo
 >
 devid
 =
-(
-cubeb_devid
-)
 devinfo
 -
 >
