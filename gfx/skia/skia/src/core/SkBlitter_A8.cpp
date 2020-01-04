@@ -2131,9 +2131,7 @@ src
 int
 dst_scale
 =
-256
--
-SkAlphaMul
+SkAlphaMulInv256
 (
 sa
 src_scale
