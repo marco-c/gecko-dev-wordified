@@ -349,9 +349,6 @@ GetNewOrUsed
 (
 NPP
 npp
-JSContext
-*
-cx
 JS
 :
 :

@@ -5239,9 +5239,6 @@ outer
 nullptr
 )
 ;
-AutoJSContext
-cx
-;
 JS
 :
 :
@@ -5252,7 +5249,12 @@ JSObject
 >
 global
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 nsGlobalWindow
 :
 :
@@ -5274,7 +5276,6 @@ nsJSObjWrapper
 GetNewOrUsed
 (
 npp
-cx
 global
 )
 ;
@@ -5498,7 +5499,6 @@ nsJSObjWrapper
 GetNewOrUsed
 (
 npp
-cx
 obj
 )
 ;
