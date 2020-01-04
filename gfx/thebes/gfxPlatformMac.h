@@ -418,13 +418,6 @@ true
 ;
 }
 virtual
-bool
-UseProgressivePaint
-(
-)
-override
-;
-virtual
 already_AddRefed
 <
 mozilla
