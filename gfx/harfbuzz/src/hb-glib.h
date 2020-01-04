@@ -254,6 +254,14 @@ hb_glib_get_unicode_funcs
 void
 )
 ;
+#
+if
+GLIB_CHECK_VERSION
+(
+2
+31
+10
+)
 HB_EXTERN
 hb_blob_t
 *
@@ -264,6 +272,8 @@ GBytes
 gbytes
 )
 ;
+#
+endif
 HB_END_DECLS
 #
 endif
