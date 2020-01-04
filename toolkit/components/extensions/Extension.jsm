@@ -3887,6 +3887,17 @@ schemaWrapper
 =
 {
 get
+principal
+(
+)
+{
+return
+context
+.
+principal
+;
+}
+get
 cloneScope
 (
 )
