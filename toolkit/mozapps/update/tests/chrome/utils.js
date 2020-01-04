@@ -5148,7 +5148,7 @@ it
 let
 baseAppDir
 =
-getAppBaseDir
+getGREDir
 (
 )
 ;
@@ -6191,7 +6191,7 @@ exists
 let
 baseAppDir
 =
-getAppBaseDir
+getGREDir
 (
 )
 ;
