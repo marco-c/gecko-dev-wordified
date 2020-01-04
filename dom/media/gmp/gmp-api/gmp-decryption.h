@@ -1424,6 +1424,10 @@ Init
 GMPDecryptorCallback
 *
 aCallback
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 =
 0

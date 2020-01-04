@@ -354,6 +354,10 @@ const
 nsAString
 &
 aCDMVersion
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 :
 mParent
@@ -371,6 +375,14 @@ aCDMVersion
 mCreatePromiseId
 (
 0
+)
+mDistinctiveIdentifierRequired
+(
+aDistinctiveIdentifierRequired
+)
+mPersistentStateRequired
+(
+aPersistentStateRequired
 )
 {
 EME_LOG
@@ -1974,6 +1986,8 @@ MediaKeysGMPCrashHelper
 (
 this
 )
+mDistinctiveIdentifierRequired
+mPersistentStateRequired
 )
 ;
 /

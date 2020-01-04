@@ -199,6 +199,10 @@ Init
 GMPDecryptorProxyCallback
 *
 aCallback
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 override
 ;
