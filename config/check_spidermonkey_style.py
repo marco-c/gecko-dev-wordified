@@ -862,6 +862,18 @@ in
 OBJDIR
     
 '
+shellmoduleloader
+.
+out
+.
+h
+'
+#
+generated
+in
+OBJDIR
+    
+'
 unicode
 /
 locid
