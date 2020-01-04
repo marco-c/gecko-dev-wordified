@@ -1760,13 +1760,6 @@ line
     
 command
 =
-worker
-[
-'
-command
-'
-]
-=
 [
 "
 bash
@@ -2154,3 +2147,12 @@ symbols
 +
 download_symbols
 )
+    
+worker
+[
+'
+command
+'
+]
+=
+command
