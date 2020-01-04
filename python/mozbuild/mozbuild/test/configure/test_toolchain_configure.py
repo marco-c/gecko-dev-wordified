@@ -98,7 +98,12 @@ mozpath
 from
 test_toolchain_helpers
 import
+(
+    
 FakeCompiler
+    
+CompilerResult
+)
 DEFAULT_C99
 =
 {
@@ -962,40 +967,10 @@ error
 string
 or
 a
-dict
-with
-the
+CompilerResult
           
-following
-items
-:
-flags
-version
-type
-compiler
-wrapper
-.
-(
-wrapper
-          
-can
-be
-omitted
-when
-it
-'
-s
-empty
-)
-.
-Those
-items
-correspond
+corresponding
 to
-the
-          
-attributes
-of
 the
 object
 returned
@@ -1004,13 +979,6 @@ toolchain
 .
 configure
 checks
-          
-and
-will
-be
-compared
-to
-them
 .
           
 When
@@ -1180,51 +1148,6 @@ result
 {
 }
             
-if
-isinstance
-(
-result
-dict
-)
-:
-                
-result
-=
-dict
-(
-result
-)
-                
-result
-.
-setdefault
-(
-'
-wrapper
-'
-[
-]
-)
-                
-result
-[
-'
-compiler
-'
-]
-=
-mozpath
-.
-abspath
-(
-result
-[
-'
-compiler
-'
-]
-)
-            
 try
 :
                 
@@ -1281,8 +1204,6 @@ assertEquals
 (
 var
 compiler
-.
-__dict__
 )
 (
 var
@@ -1540,12 +1461,11 @@ GCC_4_7_RESULT
     
 GCC_4_9_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1555,10 +1475,8 @@ gnu99
 '
 ]
         
-'
 version
-'
-:
+=
 '
 4
 .
@@ -1567,18 +1485,14 @@ version
 3
 '
         
-'
 type
-'
-:
+=
 '
 gcc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1588,16 +1502,15 @@ bin
 gcc
 '
     
-}
+)
     
 GXX_4_9_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1610,10 +1523,8 @@ gnu
 '
 ]
         
-'
 version
-'
-:
+=
 '
 4
 .
@@ -1622,18 +1533,14 @@ version
 3
 '
         
-'
 type
-'
-:
+=
 '
 gcc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1645,16 +1552,15 @@ g
 +
 '
     
-}
+)
     
 GCC_5_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1664,10 +1570,8 @@ gnu99
 '
 ]
         
-'
 version
-'
-:
+=
 '
 5
 .
@@ -1676,18 +1580,14 @@ version
 1
 '
         
-'
 type
-'
-:
+=
 '
 gcc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1699,16 +1599,15 @@ gcc
 5
 '
     
-}
+)
     
 GXX_5_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1721,10 +1620,8 @@ gnu
 '
 ]
         
-'
 version
-'
-:
+=
 '
 5
 .
@@ -1733,18 +1630,14 @@ version
 1
 '
         
-'
 type
-'
-:
+=
 '
 gcc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1758,23 +1651,20 @@ g
 5
 '
     
-}
+)
     
 CLANG_3_3_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 ]
         
-'
 version
-'
-:
+=
 '
 3
 .
@@ -1783,18 +1673,14 @@ version
 0
 '
         
-'
 type
-'
-:
+=
 '
 clang
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1808,7 +1694,7 @@ clang
 3
 '
     
-}
+)
     
 CLANGXX_3_3_RESULT
 =
@@ -1829,12 +1715,11 @@ supported
     
 CLANG_3_6_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1844,10 +1729,8 @@ gnu99
 '
 ]
         
-'
 version
-'
-:
+=
 '
 3
 .
@@ -1856,18 +1739,14 @@ version
 2
 '
         
-'
 type
-'
-:
+=
 '
 clang
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1877,16 +1756,15 @@ bin
 clang
 '
     
-}
+)
     
 CLANGXX_3_6_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -1899,10 +1777,8 @@ gnu
 '
 ]
         
-'
 version
-'
-:
+=
 '
 3
 .
@@ -1911,18 +1787,14 @@ version
 2
 '
         
-'
 type
-'
-:
+=
 '
 clang
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -1934,7 +1806,7 @@ clang
 +
 '
     
-}
+)
     
 def
 test_gcc
@@ -2842,66 +2714,6 @@ from
 CC
 .
         
-clang_3_6_result
-=
-dict
-(
-self
-.
-CLANG_3_6_RESULT
-)
-        
-clang_3_6_result
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-clang
--
-3
-.
-6
-'
-        
-clangxx_3_6_result
-=
-dict
-(
-self
-.
-CLANGXX_3_6_RESULT
-)
-        
-clangxx_3_6_result
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-clang
-+
-+
--
-3
-.
-6
-'
-        
 self
 .
 do_toolchain_test
@@ -2915,13 +2727,61 @@ PATHS
 c_compiler
 '
 :
-clang_3_6_result
+self
+.
+CLANG_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+clang
+-
+3
+.
+6
+'
+            
+}
             
 '
 cxx_compiler
 '
 :
-clangxx_3_6_result
+self
+.
+CLANGXX_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+clang
++
++
+-
+3
+.
+6
+'
+            
+}
         
 }
 environ
@@ -3199,62 +3059,6 @@ CLANGXX_3_6
 }
 )
         
-absolute_clang
-=
-dict
-(
-self
-.
-CLANG_3_6_RESULT
-)
-        
-absolute_clang
-[
-'
-compiler
-'
-]
-=
-'
-/
-opt
-/
-clang
-/
-bin
-/
-clang
-'
-        
-absolute_clangxx
-=
-dict
-(
-self
-.
-CLANGXX_3_6_RESULT
-)
-        
-absolute_clangxx
-[
-'
-compiler
-'
-]
-=
-'
-/
-opt
-/
-clang
-/
-bin
-/
-clang
-+
-+
-'
-        
 result
 =
 {
@@ -3263,13 +3067,57 @@ result
 c_compiler
 '
 :
-absolute_clang
+self
+.
+CLANG_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+opt
+/
+clang
+/
+bin
+/
+clang
+'
+            
+}
             
 '
 cxx_compiler
 '
 :
-absolute_clangxx
+self
+.
+CLANGXX_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+opt
+/
+clang
+/
+bin
+/
+clang
++
++
+'
+            
+}
         
 }
         
@@ -3410,66 +3258,6 @@ CLANGXX_3_6
 }
 )
         
-afl_clang_result
-=
-dict
-(
-self
-.
-CLANG_3_6_RESULT
-)
-        
-afl_clang_result
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-afl
--
-clang
--
-fast
-'
-        
-afl_clangxx_result
-=
-dict
-(
-self
-.
-CLANGXX_3_6_RESULT
-)
-        
-afl_clangxx_result
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-afl
--
-clang
--
-fast
-+
-+
-'
-        
 self
 .
 do_toolchain_test
@@ -3481,13 +3269,61 @@ paths
 c_compiler
 '
 :
-afl_clang_result
+self
+.
+CLANG_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+afl
+-
+clang
+-
+fast
+'
+            
+}
             
 '
 cxx_compiler
 '
 :
-afl_clangxx_result
+self
+.
+CLANGXX_3_6_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+afl
+-
+clang
+-
+fast
++
++
+'
+            
+}
         
 }
 environ
@@ -4293,19 +4129,16 @@ Windows_Build_Prerequisites
     
 VS_2013u3_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 ]
         
-'
 version
-'
-:
+=
 '
 18
 .
@@ -4314,18 +4147,14 @@ version
 30723
 '
         
-'
 type
-'
-:
+=
 '
 msvc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 opt
@@ -4337,7 +4166,7 @@ bin
 cl
 '
     
-}
+)
     
 VS_2015_RESULT
 =
@@ -4417,19 +4246,16 @@ Windows_Build_Prerequisites
     
 VS_2015u1_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 ]
         
-'
 version
-'
-:
+=
 '
 19
 .
@@ -4438,18 +4264,14 @@ version
 23506
 '
         
-'
 type
-'
-:
+=
 '
 msvc
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -4459,16 +4281,15 @@ bin
 cl
 '
     
-}
+)
     
 CLANG_CL_3_9_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -4480,7 +4301,7 @@ std
 =
 gnu99
 '
-                  
+               
 '
 -
 fms
@@ -4501,10 +4322,8 @@ fallback
 '
 ]
         
-'
 version
-'
-:
+=
 '
 18
 .
@@ -4513,20 +4332,16 @@ version
 30723
 '
         
-'
 type
-'
-:
+=
 '
 clang
 -
 cl
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -4538,16 +4353,15 @@ clang
 cl
 '
     
-}
+)
     
 CLANGXX_CL_3_9_RESULT
 =
-{
+CompilerResult
+(
         
-'
 flags
-'
-:
+=
 [
 '
 -
@@ -4569,10 +4383,8 @@ fallback
 '
 ]
         
-'
 version
-'
-:
+=
 '
 18
 .
@@ -4581,20 +4393,16 @@ version
 30723
 '
         
-'
 type
-'
-:
+=
 '
 clang
 -
 cl
 '
         
-'
 compiler
-'
-:
+=
 '
 /
 usr
@@ -4606,7 +4414,7 @@ clang
 cl
 '
     
-}
+)
     
 CLANG_3_3_RESULT
 =
@@ -5422,70 +5230,6 @@ LinuxToolchainTest
 PATHS
 )
     
-ARM_GCC_4_9_RESULT
-=
-dict
-(
-LinuxToolchainTest
-.
-GCC_4_9_RESULT
-)
-    
-ARM_GCC_4_9_RESULT
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-arm
--
-linux
--
-gnu
--
-gcc
-'
-    
-ARM_GXX_4_9_RESULT
-=
-dict
-(
-LinuxToolchainTest
-.
-GXX_4_9_RESULT
-)
-    
-ARM_GXX_4_9_RESULT
-[
-'
-compiler
-'
-]
-=
-'
-/
-usr
-/
-bin
-/
-arm
--
-linux
--
-gnu
--
-g
-+
-+
-'
-    
 ARM_GCC_4_7_RESULT
 =
 LinuxToolchainTest
@@ -5494,20 +5238,16 @@ GXX_4_7_RESULT
     
 ARM_GCC_5_RESULT
 =
-dict
-(
 LinuxToolchainTest
 .
 GCC_5_RESULT
-)
-    
-ARM_GCC_5_RESULT
-[
++
+{
+        
 '
 compiler
 '
-]
-=
+:
 '
 /
 usr
@@ -5525,22 +5265,20 @@ gcc
 5
 '
     
+}
+    
 ARM_GXX_5_RESULT
 =
-dict
-(
 LinuxToolchainTest
 .
 GXX_5_RESULT
-)
-    
-ARM_GXX_5_RESULT
-[
++
+{
+        
 '
 compiler
 '
-]
-=
+:
 '
 /
 usr
@@ -5559,6 +5297,8 @@ g
 -
 5
 '
+    
+}
     
 CLANG_3_6_RESULT
 =
@@ -5606,7 +5346,30 @@ c_compiler
 :
 self
 .
-ARM_GCC_4_9_RESULT
+GCC_4_9_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+gcc
+'
+            
+}
             
 '
 cxx_compiler
@@ -5614,7 +5377,32 @@ cxx_compiler
 :
 self
 .
-ARM_GXX_4_9_RESULT
+GXX_4_9_RESULT
++
+{
+                
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+g
++
++
+'
+            
+}
             
 '
 host_c_compiler
