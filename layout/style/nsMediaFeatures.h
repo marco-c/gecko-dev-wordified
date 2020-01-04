@@ -479,7 +479,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 *
 mKeywordTable
 ;

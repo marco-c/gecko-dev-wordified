@@ -479,8 +479,8 @@ typedef
 nsCSSProps
 :
 :
-KTableValue
-KTableValue
+KTableEntry
+KTableEntry
 ;
 /
 /
@@ -4494,7 +4494,7 @@ nsAString
 &
 aKeywordStr
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -5655,7 +5655,7 @@ nsCSSValue
 &
 aResult
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -5802,7 +5802,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -5969,7 +5969,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -6712,7 +6712,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6732,7 +6732,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6747,7 +6747,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6764,7 +6764,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6779,7 +6779,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6811,7 +6811,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6875,7 +6875,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -6944,7 +6944,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -7010,7 +7010,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -7222,7 +7222,7 @@ existing
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 /
 /
 to
@@ -7251,7 +7251,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 aPropertyKTable
 [
 ]
@@ -38625,7 +38625,7 @@ nsAString
 &
 aKeywordStr
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -40953,7 +40953,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -41771,7 +41771,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -41891,7 +41891,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -42152,7 +42152,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -42334,7 +42334,7 @@ aValue
 int32_t
 aVariantMask
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -44628,7 +44628,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 aPropertyKTable
 [
 ]
@@ -55734,7 +55734,7 @@ nsCSSValue
 &
 aResult
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -63892,7 +63892,7 @@ NotFound
 ;
 }
 const
-KTableValue
+KTableEntry
 *
 kwtable
 =
@@ -64412,7 +64412,7 @@ NotFound
 ;
 }
 const
-KTableValue
+KTableEntry
 *
 kwtable
 =
@@ -74866,7 +74866,7 @@ kContentKTable
 .
 static
 const
-KTableValue
+KTableEntry
 kContentListKWs
 [
 ]
@@ -74897,7 +74897,7 @@ eCSSKeyword_UNKNOWN
 ;
 static
 const
-KTableValue
+KTableEntry
 kContentSolitaryKWs
 [
 ]
@@ -77547,7 +77547,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aKeywordTable
 [
 ]
@@ -82544,7 +82544,7 @@ nsCSSValue
 &
 aValue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -91993,7 +91993,7 @@ constants
 ;
 static
 const
-KTableValue
+KTableEntry
 kPaintOrderKTable
 [
 ]

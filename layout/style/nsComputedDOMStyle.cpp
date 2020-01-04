@@ -9426,7 +9426,7 @@ nsStyleBackground
 *
 aCount
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -17108,7 +17108,7 @@ aAlign
 bool
 aAlignTrue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -24742,7 +24742,7 @@ aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]

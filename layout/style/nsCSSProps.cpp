@@ -216,8 +216,8 @@ typedef
 nsCSSProps
 :
 :
-KTableValue
-KTableValue
+KTableEntry
+KTableEntry
 ;
 /
 /
@@ -4402,7 +4402,7 @@ sNullStr
 *
 /
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -4435,7 +4435,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -4468,7 +4468,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -4489,7 +4489,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -4514,7 +4514,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5003,7 +5003,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5028,7 +5028,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5053,7 +5053,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5115,7 +5115,7 @@ agree
 )
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5161,7 +5161,7 @@ update
 parseBackgroundPosition
 !
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5198,7 +5198,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5231,7 +5231,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5256,7 +5256,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5281,7 +5281,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5362,7 +5362,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5387,7 +5387,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5408,7 +5408,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5437,7 +5437,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5458,7 +5458,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5515,7 +5515,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5544,7 +5544,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5569,7 +5569,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5590,7 +5590,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5619,7 +5619,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5659,7 +5659,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -5711,7 +5711,7 @@ paint
 specific
 values
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6193,7 +6193,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6230,7 +6230,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6255,7 +6255,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6276,7 +6276,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6309,7 +6309,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6346,7 +6346,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6391,7 +6391,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6595,7 +6595,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6619,7 +6619,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6864,7 +6864,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6889,7 +6889,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -6982,7 +6982,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7007,7 +7007,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7060,7 +7060,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7081,7 +7081,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7110,7 +7110,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7143,7 +7143,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7172,7 +7172,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7205,7 +7205,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7250,7 +7250,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7283,7 +7283,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7312,7 +7312,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7340,7 +7340,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7377,7 +7377,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7402,7 +7402,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7493,7 +7493,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7522,7 +7522,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7575,7 +7575,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7600,7 +7600,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7653,7 +7653,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7682,7 +7682,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7707,7 +7707,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7728,7 +7728,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7769,7 +7769,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7810,7 +7810,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7863,7 +7863,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7912,7 +7912,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7961,7 +7961,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -7986,7 +7986,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8019,7 +8019,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8048,7 +8048,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8073,7 +8073,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8098,7 +8098,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8119,7 +8119,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8144,7 +8144,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8181,7 +8181,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8217,7 +8217,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8242,7 +8242,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8371,7 +8371,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8464,7 +8464,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8489,7 +8489,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8526,7 +8526,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8551,7 +8551,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8576,7 +8576,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8613,7 +8613,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8656,7 +8656,7 @@ hidden
 '
 .
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8713,7 +8713,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8734,7 +8734,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8787,7 +8787,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8812,7 +8812,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8853,7 +8853,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8890,7 +8890,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8915,7 +8915,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8944,7 +8944,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -8969,7 +8969,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9025,7 +9025,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9080,7 +9080,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9105,7 +9105,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9138,7 +9138,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9182,7 +9182,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9215,7 +9215,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9248,7 +9248,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9290,7 +9290,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9315,7 +9315,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9344,7 +9344,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9369,7 +9369,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9393,7 +9393,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9453,7 +9453,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9502,7 +9502,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9541,7 +9541,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9582,7 +9582,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9623,7 +9623,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9656,7 +9656,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9681,7 +9681,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9718,7 +9718,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9755,7 +9755,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9780,7 +9780,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9809,7 +9809,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9854,7 +9854,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9895,7 +9895,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9944,7 +9944,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -9977,7 +9977,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10006,7 +10006,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10067,7 +10067,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10120,7 +10120,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10149,7 +10149,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10190,7 +10190,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10223,7 +10223,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10248,7 +10248,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10285,7 +10285,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10314,7 +10314,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10339,7 +10339,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10409,7 +10409,7 @@ XUL
 .
 properties
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10446,7 +10446,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10471,7 +10471,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10504,7 +10504,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10544,7 +10544,7 @@ for
 SVG
 properties
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10609,7 +10609,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10634,7 +10634,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10679,7 +10679,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10704,7 +10704,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10761,7 +10761,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10794,7 +10794,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10819,7 +10819,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10852,7 +10852,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10881,7 +10881,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10937,7 +10937,7 @@ outer
 text
 object
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10958,7 +10958,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -10987,7 +10987,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -11020,7 +11020,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -11045,7 +11045,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -11074,7 +11074,7 @@ eCSSKeyword_UNKNOWN
 }
 ;
 const
-KTableValue
+KTableEntry
 nsCSSProps
 :
 :
@@ -11104,7 +11104,7 @@ bool
 IsKeyValSentinel
 (
 const
-KTableValue
+KTableEntry
 &
 aTableEntry
 )
@@ -11136,7 +11136,7 @@ FindIndexOfKeyword
 nsCSSKeyword
 aKeyword
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -11237,7 +11237,7 @@ i
 )
 {
 const
-KTableValue
+KTableEntry
 &
 entry
 =
@@ -11288,7 +11288,7 @@ FindKeyword
 nsCSSKeyword
 aKeyword
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -11340,7 +11340,7 @@ ValueToKeywordEnum
 int32_t
 aValue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -11389,7 +11389,7 @@ i
 )
 {
 const
-KTableValue
+KTableEntry
 &
 entry
 =
@@ -11443,7 +11443,7 @@ ValueToKeyword
 int32_t
 aValue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -11497,7 +11497,7 @@ static
 *
 /
 const
-KTableValue
+KTableEntry
 *
 const
 nsCSSProps
@@ -11581,7 +11581,7 @@ range
 typedef
 decltype
 (
-KTableValue
+KTableEntry
 :
 :
 mValue
@@ -11606,7 +11606,7 @@ range
 )
 ;
 const
-KTableValue
+KTableEntry
 *
 kwtable
 =
@@ -13386,7 +13386,7 @@ flat
 array
 (
 like
-KTableValue
+KTableEntry
 /
 /
 arrays

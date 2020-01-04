@@ -170,7 +170,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 kOrientationKeywords
 [
 ]
@@ -196,7 +196,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 kScanKeywords
 [
 ]
