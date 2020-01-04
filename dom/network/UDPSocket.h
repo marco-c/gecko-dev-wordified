@@ -198,7 +198,7 @@ JSContext
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 UDPSocket
 :

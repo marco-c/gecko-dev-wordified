@@ -247,7 +247,7 @@ object
 *
 Set
 the
-NSPR_LOG_MODULES
+MOZ_LOG
 environment
 variable
 to
@@ -262,7 +262,7 @@ e
 .
 g
 .
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 Camera
 :

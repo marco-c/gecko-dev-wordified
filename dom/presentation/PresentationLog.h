@@ -123,7 +123,7 @@ mozilla_dom_PresentationLog_h
 /
 *
 *
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 Presentation
 :

@@ -216,7 +216,7 @@ mozIThirdPartyUtil
 /
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 thirdPartyUtil
 :

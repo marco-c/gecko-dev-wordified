@@ -305,7 +305,7 @@ net
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 TCPSocket
 :

@@ -263,7 +263,7 @@ on
 by
 setting
 *
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 Camera
 :

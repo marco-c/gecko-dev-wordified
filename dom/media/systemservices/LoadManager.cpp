@@ -192,7 +192,7 @@ h
 "
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 LoadManager
 :

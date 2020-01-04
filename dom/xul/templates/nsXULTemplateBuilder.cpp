@@ -129,7 +129,8 @@ this
 module
 set
 :
-NSPR_LOG_MODULES
+MOZ_LOG
+=
 nsXULTemplateBuilder
 :
 5
