@@ -11704,7 +11704,7 @@ isAllowed
 this
 Restrictable
 .
-LOCATION_SERVICE
+DATA_CHOICES
 )
 )
 {
@@ -11957,6 +11957,17 @@ if
 AppConstants
 .
 MOZ_DATA_REPORTING
+&
+&
+Restrictions
+.
+isAllowed
+(
+this
+Restrictable
+.
+DATA_CHOICES
+)
 )
 {
 DataReportingNotification
