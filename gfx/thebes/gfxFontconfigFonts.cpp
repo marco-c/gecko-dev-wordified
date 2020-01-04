@@ -782,7 +782,7 @@ to
 the
 array
 .
-AutoFallibleTArray
+AutoTArray
 <
 nsCountedRef
 <

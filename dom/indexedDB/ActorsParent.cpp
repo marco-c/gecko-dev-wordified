@@ -35210,7 +35210,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoFallibleTArray
+AutoTArray
 <
 StructuredCloneReadInfo
 1
@@ -35675,7 +35675,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoFallibleTArray
+AutoTArray
 <
 StructuredCloneReadInfo
 1
@@ -35759,7 +35759,7 @@ const
 OptionalKeyRange
 mOptionalKeyRange
 ;
-AutoFallibleTArray
+AutoTArray
 <
 Key
 1
@@ -83844,7 +83844,7 @@ return
 NS_ERROR_FILE_CORRUPTED
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 512
