@@ -260,6 +260,7 @@ error
 '
 .
 extern
+MOZ_MUST_USE
 bool
 TextToBinary
 (

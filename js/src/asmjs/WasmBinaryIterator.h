@@ -2118,6 +2118,7 @@ depth
 index
 |
 .
+MOZ_MUST_USE
 bool
 peek
 (
@@ -3403,7 +3404,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7041,7 +7041,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7100,7 +7099,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7159,7 +7157,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7291,7 +7288,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7420,7 +7416,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7479,7 +7474,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <
@@ -7538,7 +7532,6 @@ typename
 Policy
 >
 inline
-MOZ_MUST_USE
 bool
 ExprIter
 <

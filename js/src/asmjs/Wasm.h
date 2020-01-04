@@ -369,6 +369,7 @@ given
 import
 object
 .
+MOZ_MUST_USE
 bool
 Eval
 (

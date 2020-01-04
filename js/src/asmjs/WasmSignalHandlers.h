@@ -306,6 +306,7 @@ js
 from
 any
 thread
+MOZ_MUST_USE
 bool
 EnsureSignalHandlersInstalled
 (

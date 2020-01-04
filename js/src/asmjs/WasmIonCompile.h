@@ -908,6 +908,7 @@ releaseAll
 }
 }
 ;
+MOZ_MUST_USE
 bool
 IonCompileFunction
 (

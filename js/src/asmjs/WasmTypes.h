@@ -1805,6 +1805,7 @@ ret
 )
 {
 }
+MOZ_MUST_USE
 bool
 clone
 (
@@ -4061,6 +4062,7 @@ testing
 purposes
 mainly
 .
+MOZ_MUST_USE
 bool
 ReadI64Object
 (

@@ -362,6 +362,7 @@ cursor
 )
 ;
 \
+MOZ_MUST_USE
 bool
 clone
 (
@@ -2811,6 +2812,7 @@ ArrayBufferObjectMaybeShared
 heap
 )
 ;
+MOZ_MUST_USE
 bool
 sendCodeRangesToProfiler
 (
@@ -2862,6 +2864,7 @@ return
 module_
 ;
 }
+MOZ_MUST_USE
 bool
 clone
 (
@@ -3527,6 +3530,7 @@ of
 this
 module
 .
+MOZ_MUST_USE
 bool
 staticallyLink
 (
@@ -3604,6 +3608,7 @@ for
 this
 module
 .
+MOZ_MUST_USE
 bool
 dynamicallyLink
 (
@@ -3700,6 +3705,7 @@ s
 entry
 trampoline
 .
+MOZ_MUST_USE
 bool
 callExport
 (
@@ -3787,6 +3793,7 @@ the
 generic
 callImport
 .
+MOZ_MUST_USE
 bool
 callImport
 (
@@ -4267,6 +4274,7 @@ ExclusiveContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (

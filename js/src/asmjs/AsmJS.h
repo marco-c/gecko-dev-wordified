@@ -332,6 +332,7 @@ the
 beginning
 .
 extern
+MOZ_MUST_USE
 bool
 CompileAsmJS
 (

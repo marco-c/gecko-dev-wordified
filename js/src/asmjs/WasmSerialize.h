@@ -1113,6 +1113,7 @@ N
 >
 static
 inline
+MOZ_MUST_USE
 bool
 CloneVector
 (
@@ -1482,6 +1483,7 @@ N
 >
 static
 inline
+MOZ_MUST_USE
 bool
 ClonePodVector
 (
@@ -1560,6 +1562,7 @@ true
 }
 static
 inline
+MOZ_MUST_USE
 bool
 GetCPUID
 (
@@ -1857,6 +1860,7 @@ buildId_
 ;
 public
 :
+MOZ_MUST_USE
 bool
 extractCurrentState
 (

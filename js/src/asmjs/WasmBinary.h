@@ -4393,6 +4393,7 @@ SystemAllocPolicy
 >
 ValTypeVector
 ;
+MOZ_MUST_USE
 bool
 EncodeLocalEntries
 (
@@ -4405,6 +4406,7 @@ ValTypeVector
 locals
 )
 ;
+MOZ_MUST_USE
 bool
 DecodeLocalEntries
 (

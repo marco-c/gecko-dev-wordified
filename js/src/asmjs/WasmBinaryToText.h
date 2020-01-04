@@ -238,6 +238,7 @@ textual
 /
 representation
 .
+MOZ_MUST_USE
 bool
 BinaryToText
 (
