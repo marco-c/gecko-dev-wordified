@@ -2569,11 +2569,6 @@ frame
 event
 .
 target
-&
-&
-event
-.
-target
 .
 defaultView
 ;
@@ -2609,9 +2604,6 @@ those
 .
 if
 (
-frame
-&
-&
 gFrameTree
 .
 contains
@@ -2890,11 +2882,6 @@ frame
 event
 .
 target
-&
-&
-event
-.
-target
 .
 ownerGlobal
 ;
@@ -2930,9 +2917,6 @@ those
 .
 if
 (
-frame
-&
-&
 gFrameTree
 .
 contains
