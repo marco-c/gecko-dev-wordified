@@ -2347,9 +2347,6 @@ static
 void
 BuildSegmentsFromValueEntries
 (
-nsStyleContext
-*
-aStyleContext
 nsTArray
 <
 KeyframeValueEntry
@@ -4410,7 +4407,6 @@ result
 ;
 BuildSegmentsFromValueEntries
 (
-aStyleContext
 entries
 result
 )
@@ -7126,9 +7122,6 @@ static
 void
 BuildSegmentsFromValueEntries
 (
-nsStyleContext
-*
-aStyleContext
 nsTArray
 <
 KeyframeValueEntry
