@@ -513,15 +513,11 @@ BufferedVector
 public
 :
 typedef
-Vector
+InfallibleVector
 <
 T
 *
 1
-LifoAllocPolicy
-<
-Infallible
->
 >
 VectorType
 ;
