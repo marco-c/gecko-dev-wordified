@@ -19959,7 +19959,7 @@ aBuilder
 ;
 if
 (
-usingDisplayPort
+mWillBuildScrollableLayer
 )
 {
 if
@@ -20117,7 +20117,7 @@ aBuilder
 ;
 if
 (
-usingDisplayPort
+mWillBuildScrollableLayer
 )
 {
 if
