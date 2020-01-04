@@ -3484,6 +3484,10 @@ mGLContext
 (
 nullptr
 )
+mXDisplay
+(
+nullptr
+)
 mSetupLock
 (
 "
