@@ -605,9 +605,6 @@ our
 problem
 *
 /
-struct
-nsHTMLReflowState
-;
 class
 nsIAtom
 ;
@@ -697,6 +694,9 @@ uint8_t
 ;
 class
 EventStates
+;
+struct
+nsHTMLReflowState
 ;
 namespace
 layers
@@ -3378,6 +3378,14 @@ FramePropertyDescriptor
 T
 >
 *
+;
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
 ;
 using
 Visibility

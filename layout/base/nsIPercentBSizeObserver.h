@@ -106,9 +106,17 @@ nsQueryFrame
 .
 h
 "
+namespace
+mozilla
+{
 struct
 nsHTMLReflowState
 ;
+}
+/
+/
+namespace
+mozilla
 /
 *
 *
@@ -180,6 +188,9 @@ void
 NotifyPercentBSize
 (
 const
+mozilla
+:
+:
 nsHTMLReflowState
 &
 aReflowState
@@ -204,6 +215,9 @@ bool
 NeedsToObserve
 (
 const
+mozilla
+:
+:
 nsHTMLReflowState
 &
 aReflowState

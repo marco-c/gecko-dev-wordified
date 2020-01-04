@@ -148,9 +148,6 @@ h
 class
 nsContainerFrame
 ;
-struct
-nsHTMLReflowState
-;
 class
 nsPresContext
 ;

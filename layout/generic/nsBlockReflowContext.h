@@ -147,9 +147,6 @@ h
 class
 nsBlockReflowState
 ;
-struct
-nsHTMLReflowState
-;
 class
 nsLineBox
 ;
@@ -177,6 +174,14 @@ frames
 class
 nsBlockReflowContext
 {
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
+;
 public
 :
 nsBlockReflowContext

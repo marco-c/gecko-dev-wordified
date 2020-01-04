@@ -172,6 +172,14 @@ nsTableRowFrame
 struct
 nsRowGroupReflowState
 {
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
+;
 const
 nsHTMLReflowState
 &
