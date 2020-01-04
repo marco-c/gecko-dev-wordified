@@ -17910,6 +17910,10 @@ cmd
 parameters
 .
 flags
+|
+|
+[
+]
 )
 {
 flags
