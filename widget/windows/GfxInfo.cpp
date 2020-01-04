@@ -8016,7 +8016,10 @@ than
 2016
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
@@ -8064,7 +8067,10 @@ than
 2015
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
@@ -8112,7 +8118,10 @@ than
 2016
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
