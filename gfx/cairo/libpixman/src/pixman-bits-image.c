@@ -9103,6 +9103,9 @@ NULL
 ;
 buf_size
 =
+(
+size_t
+)
 height
 *
 stride
