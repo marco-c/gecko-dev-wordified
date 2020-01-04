@@ -735,15 +735,6 @@ imm
 )
 ;
 void
-ma_mult
-(
-Register
-rs
-Imm32
-imm
-)
-;
-void
 ma_mul_branch_overflow
 (
 Register
