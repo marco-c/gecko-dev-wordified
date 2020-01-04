@@ -362,11 +362,13 @@ EventTarget
 *
 target
 double
-alpha
+aAlpha
 double
-beta
+aBeta
 double
-gamma
+aGamma
+bool
+aIsAbsolute
 )
 ;
 void
