@@ -299,10 +299,7 @@ JSObject
 *
 >
 >
-js
-:
-:
-SystemAllocPolicy
+InfallibleAllocPolicy
 >
 ;
 public
