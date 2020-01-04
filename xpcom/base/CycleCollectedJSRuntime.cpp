@@ -3165,6 +3165,10 @@ mDoingStableStates
 (
 false
 )
+mDisableMicroTaskCheckpoint
+(
+false
+)
 mOutOfMemoryState
 (
 OOMState
@@ -8440,6 +8444,12 @@ microtasks
 .
 if
 (
+!
+mDisableMicroTaskCheckpoint
+)
+{
+if
+(
 NS_IsMainThread
 (
 )
@@ -8469,6 +8479,7 @@ PerformWorkerMicroTaskCheckpoint
 (
 )
 ;
+}
 }
 /
 /
