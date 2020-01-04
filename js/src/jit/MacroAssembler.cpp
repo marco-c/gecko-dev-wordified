@@ -4845,7 +4845,7 @@ GetJitContext
 runtime
 -
 >
-addressOfGCZeal
+addressOfGCZealModeBits
 (
 )
 )

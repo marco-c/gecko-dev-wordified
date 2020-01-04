@@ -3848,8 +3848,8 @@ zone
 )
 ;
 }
-uint8_t
-zeal
+uint32_t
+zealBits
 ;
 uint32_t
 freq
@@ -3857,11 +3857,11 @@ freq
 uint32_t
 next
 ;
-JS_GetGCZeal
+JS_GetGCZealBits
 (
 cx
 &
-zeal
+zealBits
 &
 freq
 &

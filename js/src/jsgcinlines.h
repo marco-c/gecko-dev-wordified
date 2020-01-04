@@ -232,10 +232,13 @@ poke
 /
 if
 (
-zealMode
-=
-=
-ZealPokeValue
+hasZealMode
+(
+ZealMode
+:
+:
+Poke
+)
 )
 nextScheduled
 =
