@@ -626,7 +626,7 @@ info
 .
 *
 /
-checkIfURIisSecure
+_checkIfURIisSecure
 :
 function
 (
@@ -891,7 +891,7 @@ if
 !
 this
 .
-checkIfURIisSecure
+_checkIfURIisSecure
 (
 uri
 )
@@ -1024,7 +1024,7 @@ isSafePage
 =
 this
 .
-checkIfURIisSecure
+_checkIfURIisSecure
 (
 pageURI
 )
