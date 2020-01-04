@@ -1328,8 +1328,6 @@ exception
 *
 /
 load
-:
-function
 (
 )
 {
@@ -1696,8 +1694,6 @@ synchronously
 *
 /
 ensureDataReady
-:
-function
 (
 )
 {
@@ -2037,8 +2033,6 @@ memory
 *
 /
 _processLoadedData
-:
-function
 (
 )
 {
@@ -2262,8 +2256,6 @@ serialization
 *
 /
 saveSoon
-:
-function
 (
 )
 {
@@ -2341,8 +2333,6 @@ exception
 *
 /
 save
-:
-function
 (
 )
 {
