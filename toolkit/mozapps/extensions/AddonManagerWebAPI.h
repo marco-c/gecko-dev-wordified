@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+addonmanagerwebapi_h_
+#
+define
+addonmanagerwebapi_h_
+#
 include
 "
 nsPIDOMWindow
@@ -159,3 +165,8 @@ uri
 /
 namespace
 mozilla
+#
+endif
+/
+/
+addonmanagerwebapi_h_
