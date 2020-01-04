@@ -238,10 +238,7 @@ const
 struct
 StructuredCloneReadInfo
 {
-nsTArray
-<
-uint8_t
->
+JSStructuredCloneData
 mData
 ;
 nsTArray
@@ -253,14 +250,6 @@ mFiles
 IDBDatabase
 *
 mDatabase
-;
-/
-/
-XXX
-Remove
-!
-JSAutoStructuredCloneBuffer
-mCloneBuffer
 ;
 /
 /
