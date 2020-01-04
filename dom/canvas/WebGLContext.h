@@ -7179,9 +7179,6 @@ mGLMaxTransformFeedbackSeparateAttribs
 GLuint
 mGLMaxUniformBufferBindings
 ;
-GLsizei
-mGLMaxSamples
-;
 /
 /
 What
