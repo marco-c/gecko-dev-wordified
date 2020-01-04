@@ -979,8 +979,8 @@ jitRuntime_
 JitRuntime
 :
 :
-AutoMutateBackedges
-amb
+AutoPreventBackedgePatching
+apbp
 (
 jrt
 )

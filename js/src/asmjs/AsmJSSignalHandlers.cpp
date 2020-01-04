@@ -9599,7 +9599,7 @@ if
 jitRuntime
 -
 >
-mutatingBackedgeList
+preventBackedgePatching
 (
 )
 )
