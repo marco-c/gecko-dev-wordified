@@ -1701,6 +1701,11 @@ ShouldContinueFromTimeout
 )
 ;
 void
+EndTimeout
+(
+)
+;
+void
 CancelTransaction
 (
 int
