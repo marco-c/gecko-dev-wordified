@@ -7084,7 +7084,7 @@ result
 =
 result
 .
-ForceInside
+MoveInsideAndClamp
 (
 expandedScrollableRect
 -
