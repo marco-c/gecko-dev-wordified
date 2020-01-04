@@ -1910,14 +1910,6 @@ ins
 )
 ;
 void
-visitSetElementCache
-(
-MSetElementCache
-*
-ins
-)
-;
-void
 visitCallSetProperty
 (
 MCallSetProperty

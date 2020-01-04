@@ -1508,16 +1508,6 @@ SetPropertyCache
 \
 _
 (
-SetElementCacheV
-)
-\
-_
-(
-SetElementCacheT
-)
-\
-_
-(
 SetPropertyPolymorphicV
 )
 \
