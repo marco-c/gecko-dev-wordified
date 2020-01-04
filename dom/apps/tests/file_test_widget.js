@@ -1471,13 +1471,6 @@ function
 {
 SpecialPowers
 .
-setAllAppsLaunchable
-(
-true
-)
-;
-SpecialPowers
-.
 autoConfirmAppInstall
 (
 (

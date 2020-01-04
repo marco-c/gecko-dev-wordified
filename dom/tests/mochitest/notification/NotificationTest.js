@@ -83,13 +83,6 @@ testing
 true
 )
 ;
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-true
-)
-;
 }
 function
 teardown_testing_env
