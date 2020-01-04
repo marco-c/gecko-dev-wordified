@@ -213,6 +213,16 @@ aVsyncTimestamp
 )
 override
 ;
+virtual
+mozilla
+:
+:
+TimeDuration
+GetVsyncRate
+(
+)
+override
+;
 void
 ScheduleNextVsync
 (

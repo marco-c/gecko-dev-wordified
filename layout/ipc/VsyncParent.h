@@ -241,6 +241,13 @@ override
 ;
 virtual
 bool
+RecvRequestVsyncRate
+(
+)
+override
+;
+virtual
+bool
 RecvObserve
 (
 )
