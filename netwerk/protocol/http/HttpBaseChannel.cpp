@@ -13319,7 +13319,7 @@ controller
 >
 ShouldPrepareForIntercept
 (
-aURI
+mURI
 nsContentUtils
 :
 :
