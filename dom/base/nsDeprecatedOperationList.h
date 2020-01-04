@@ -288,6 +288,10 @@ WebrtcDeprecatedPrefix
 )
 DEPRECATED_OPERATION
 (
+RTCPeerConnectionGetStreams
+)
+DEPRECATED_OPERATION
+(
 AppCache
 )
 DEPRECATED_OPERATION
