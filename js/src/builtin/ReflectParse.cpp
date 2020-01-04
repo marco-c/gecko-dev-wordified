@@ -16712,9 +16712,6 @@ dst
 )
 ;
 }
-#
-if
-JS_HAS_GENERATOR_EXPRS
 case
 PNK_GENEXP
 :
@@ -16730,8 +16727,6 @@ generatorExpr
 dst
 )
 ;
-#
-endif
 case
 PNK_NEW
 :
