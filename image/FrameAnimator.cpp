@@ -1420,12 +1420,12 @@ of
 /
 loops
 .
-uint32_t
+uint64_t
 loops
 =
 static_cast
 <
-uint32_t
+uint64_t
 >
 (
 delay
