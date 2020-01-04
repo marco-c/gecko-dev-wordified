@@ -223,6 +223,15 @@ Mode
 aMode
 )
 ;
+TransportDescriptor
+DuplicateDescriptor
+(
+const
+TransportDescriptor
+&
+aTd
+)
+;
 void
 CloseDescriptor
 (
