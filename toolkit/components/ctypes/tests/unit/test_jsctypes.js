@@ -21105,7 +21105,7 @@ a
 ]
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -21131,7 +21131,7 @@ a
 ]
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_eq
