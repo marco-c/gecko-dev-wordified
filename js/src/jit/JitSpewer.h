@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
 <
 stdarg
 .
