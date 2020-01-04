@@ -125,6 +125,17 @@ ICOFileHeaders
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 namespace
 mozilla
 {
@@ -761,6 +772,9 @@ the
 selected
 resource
 .
+gfx
+:
+:
 IntSize
 mBiggestResourceSize
 ;
@@ -773,6 +787,9 @@ the
 intrinsic
 size
 .
+gfx
+:
+:
 IntSize
 mBiggestResourceHotSpot
 ;

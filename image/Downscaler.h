@@ -142,6 +142,13 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
