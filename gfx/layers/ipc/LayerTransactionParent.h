@@ -717,11 +717,11 @@ ViewID
 &
 aId
 const
-int32_t
+float
 &
 aX
 const
-int32_t
+float
 &
 aY
 )

@@ -11583,9 +11583,9 @@ SetAsyncScrollOffset
 nsIDOMNode
 *
 aNode
-int32_t
+float
 aX
-int32_t
+float
 aY
 )
 {
