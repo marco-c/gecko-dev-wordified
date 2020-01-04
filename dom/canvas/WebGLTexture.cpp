@@ -6399,6 +6399,15 @@ intParam
 ;
 break
 ;
+case
+LOCAL_GL_TEXTURE_COMPARE_MODE
+:
+mTexCompareMode
+=
+intParam
+;
+break
+;
 /
 /
 We
