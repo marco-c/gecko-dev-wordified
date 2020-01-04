@@ -898,6 +898,16 @@ minMemoryLength
 /
 Tables
 :
+uint32_t
+numTables
+(
+)
+const
+{
+return
+numTables_
+;
+}
 const
 TableDescVector
 &
