@@ -8586,7 +8586,6 @@ nsStylePosition
 ~
 nsStylePosition
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -10547,7 +10546,6 @@ nsStyleTable
 ~
 nsStyleTable
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -10693,7 +10691,6 @@ nsStyleTableBorder
 ~
 nsStyleTableBorder
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -11268,7 +11265,6 @@ nsStyleGradient
 :
 nsStyleGradient
 (
-void
 )
 :
 mShape
@@ -19574,7 +19570,6 @@ nsStyleContent
 ~
 nsStyleContent
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -20547,7 +20542,6 @@ nsStyleTextReset
 ~
 nsStyleTextReset
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -21281,7 +21275,6 @@ nsStyleText
 ~
 nsStyleText
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -22191,7 +22184,6 @@ nsStyleUserInterface
 ~
 nsStyleUserInterface
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -22629,7 +22621,6 @@ nsStyleUIReset
 ~
 nsStyleUIReset
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -22814,7 +22805,6 @@ nsStyleVariables
 ~
 nsStyleVariables
 (
-void
 )
 {
 MOZ_COUNT_DTOR
