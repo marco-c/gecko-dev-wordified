@@ -1147,8 +1147,7 @@ IPC
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 )
@@ -1831,8 +1830,7 @@ IPC
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 )

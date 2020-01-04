@@ -313,7 +313,7 @@ m
 )
 iter_
 (
-NULL
+m
 )
 {
 }
@@ -493,8 +493,7 @@ Message
 msg_
 ;
 mutable
-void
-*
+PickleIterator
 iter_
 ;
 }
@@ -1144,8 +1143,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 P
@@ -1261,8 +1259,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -1361,8 +1358,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -1459,8 +1455,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -1559,8 +1554,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -1672,8 +1666,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -1841,8 +1834,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2006,8 +1998,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2184,8 +2175,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2282,8 +2272,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2380,8 +2369,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2478,8 +2466,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2582,8 +2569,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2709,8 +2695,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2836,8 +2821,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -2935,8 +2919,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -3101,8 +3084,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -3308,8 +3290,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -3432,8 +3413,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -3842,8 +3822,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -4050,8 +4029,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type
@@ -4227,8 +4205,7 @@ const
 Message
 *
 m
-void
-*
+PickleIterator
 *
 iter
 param_type

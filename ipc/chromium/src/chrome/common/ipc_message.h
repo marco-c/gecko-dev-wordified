@@ -1657,8 +1657,7 @@ message
 bool
 ReadFileDescriptor
 (
-void
-*
+PickleIterator
 *
 iter
 base

@@ -159,6 +159,9 @@ class
 Message
 ;
 }
+class
+PickleIterator
+;
 namespace
 mozilla
 {
@@ -661,8 +664,7 @@ IPC
 Message
 *
 aMessage
-void
-*
+PickleIterator
 *
 aIter
 )

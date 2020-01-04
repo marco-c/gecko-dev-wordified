@@ -932,11 +932,11 @@ ProtocolId
 aProtocol
 )
 {
-void
-*
+PickleIterator
 iter
-=
-nullptr
+(
+aMsg
+)
 ;
 if
 (

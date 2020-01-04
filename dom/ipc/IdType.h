@@ -346,8 +346,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
