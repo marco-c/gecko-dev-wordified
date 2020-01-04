@@ -1943,9 +1943,9 @@ NYI
 ;
 }
 void
-visitSimdBinaryBitwiseX4
+visitSimdBinaryBitwise
 (
-LSimdBinaryBitwiseX4
+LSimdBinaryBitwise
 *
 lir
 )

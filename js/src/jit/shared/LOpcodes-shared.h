@@ -298,6 +298,16 @@ SimdBinaryCompFx4
 \
 _
 (
+SimdBinaryArithIx16
+)
+\
+_
+(
+SimdBinaryArithIx8
+)
+\
+_
+(
 SimdBinaryArithIx4
 )
 \
@@ -308,7 +318,7 @@ SimdBinaryArithFx4
 \
 _
 (
-SimdBinaryBitwiseX4
+SimdBinaryBitwise
 )
 \
 _
