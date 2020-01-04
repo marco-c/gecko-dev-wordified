@@ -4416,6 +4416,14 @@ type
 }
               
 {
+prototypeID
+}
+              
+{
+depth
+}
+              
+{
 hooks
 }
               
@@ -4428,14 +4436,6 @@ name
 Prototype
 ]
 "
-              
-{
-prototypeID
-}
-              
-{
-depth
-}
               
 {
 protoGetter
@@ -5101,6 +5101,14 @@ funToString
 eInterface
               
 {
+prototypeID
+}
+              
+{
+depth
+}
+              
+{
 hooks
 }
               
@@ -5124,14 +5132,6 @@ code
 n
 }
 "
-              
-{
-prototypeID
-}
-              
-{
-depth
-}
               
 {
 protoGetter
@@ -95421,6 +95421,8 @@ comment
 enum
 %
 s
+:
+uint16_t
 \
 n
 {
