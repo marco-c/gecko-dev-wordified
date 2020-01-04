@@ -36439,7 +36439,7 @@ styles
 mScrollSnapPointsY
 scrollPortSize
 .
-width
+height
 )
 ;
 calcSnapPoints
