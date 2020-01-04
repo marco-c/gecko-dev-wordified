@@ -1013,14 +1013,6 @@ mMonitor
 AudioStream
 "
 )
-mInRate
-(
-0
-)
-mOutRate
-(
-0
-)
 mChannels
 (
 0
@@ -2183,12 +2175,6 @@ __FUNCTION__
 aNumChannels
 aRate
 )
-;
-mInRate
-=
-mOutRate
-=
-aRate
 ;
 mChannels
 =
