@@ -254,6 +254,9 @@ const
 bool
 mIsSrcPremult
 ;
+bool
+mNeedsExactUpload
+;
 protected
 :
 TexUnpackBlob
@@ -298,7 +301,7 @@ char
 *
 funcName
 const
-void
+uint8_t
 *
 srcBytes
 uint32_t
@@ -315,7 +318,7 @@ DriverUnpackInfo
 *
 dstDUI
 const
-void
+uint8_t
 *
 *
 const
@@ -397,7 +400,7 @@ bool
 mIsClientData
 ;
 const
-void
+uint8_t
 *
 const
 mPtr
@@ -419,7 +422,7 @@ depth
 bool
 isClientData
 const
-void
+uint8_t
 *
 ptr
 )

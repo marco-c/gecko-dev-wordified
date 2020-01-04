@@ -875,7 +875,6 @@ uint32_t
 fullRows
 uint32_t
 tailPixels
-const
 webgl
 :
 :
@@ -1130,9 +1129,18 @@ value
 (
 )
 )
+{
+blob
+-
+>
+mNeedsExactUpload
+=
+true
+;
 return
 true
 ;
+}
 ErrorInvalidOperation
 (
 "
@@ -1216,7 +1224,6 @@ PackingInfo
 pi
 uint32_t
 byteCount
-const
 webgl
 :
 :
@@ -1591,7 +1598,7 @@ return
 /
 /
 const
-void
+uint8_t
 *
 bytes
 =
@@ -1711,7 +1718,6 @@ isClientData
 =
 true
 ;
-const
 webgl
 :
 :
@@ -1908,12 +1914,11 @@ ptr
 =
 (
 const
-void
+uint8_t
 *
 )
 offset
 ;
-const
 webgl
 :
 :
@@ -2500,7 +2505,6 @@ isAlphaPremult
 =
 false
 ;
-const
 webgl
 :
 :
@@ -3219,7 +3223,6 @@ good
 !
 UniquePtr
 <
-const
 webgl
 :
 :
