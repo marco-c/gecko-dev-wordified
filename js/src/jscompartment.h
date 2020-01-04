@@ -4937,9 +4937,6 @@ NO
 LONGER
 USING
 9
-DeprecatedBlockScopeFunRedecl
-=
-10
 DeprecatedLanguageExtensionCount
 }
 ;
