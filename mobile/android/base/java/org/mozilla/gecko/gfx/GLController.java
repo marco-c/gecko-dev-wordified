@@ -498,9 +498,8 @@ Gecko
 thread
 sets
 its
-layer
-client
-instance
+Java
+instances
 ;
 does
 not
@@ -516,10 +515,12 @@ package
 /
 native
 void
-setLayerClient
+attachToJava
 (
 GeckoLayerClient
 layerClient
+NativePanZoomController
+npzc
 )
 ;
 /
