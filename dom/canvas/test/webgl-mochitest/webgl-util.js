@@ -645,8 +645,6 @@ webgl
 .
 enable
 -
-prototype
--
 webgl2
 '
 true
