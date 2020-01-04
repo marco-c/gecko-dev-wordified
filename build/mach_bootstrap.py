@@ -2870,6 +2870,9 @@ read
 (
 )
                 
+try
+:
+                    
 r
 =
 session
@@ -2880,7 +2883,7 @@ BUILD_TELEMETRY_SERVER
 data
 =
 data
-                                 
+                                     
 headers
 =
 {
@@ -2897,6 +2900,33 @@ json
 '
 }
 )
+                
+except
+Exception
+as
+e
+:
+                    
+print
+(
+'
+Exception
+posting
+to
+telemetry
+server
+:
+%
+s
+'
+%
+str
+(
+e
+)
+)
+                    
+break
                 
 #
 TODO
