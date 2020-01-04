@@ -203,8 +203,7 @@ Disabled
 by
 lack
 of
-floating
-point
+compiler
 support
 "
 true
