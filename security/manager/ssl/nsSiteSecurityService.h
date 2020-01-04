@@ -770,6 +770,9 @@ char
 aHost
 )
 ;
+uint64_t
+mMaxMaxAge
+;
 bool
 mUsePreloadList
 ;
