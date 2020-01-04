@@ -87582,10 +87582,8 @@ values
 0
 ]
 .
-SetIntValue
+SetNoneValue
 (
-NS_STYLE_TEXT_EMPHASIS_STYLE_NONE
-eCSSUnit_Enumerated
 )
 ;
 }
