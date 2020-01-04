@@ -266,6 +266,11 @@ navigateActiveTabTo
 (
 gPanel
 TAB_URL_2
+gDebugger
+.
+EVENTS
+.
+SOURCE_SHOWN
 )
 ;
 yield
