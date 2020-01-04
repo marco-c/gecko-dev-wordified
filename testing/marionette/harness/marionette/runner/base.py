@@ -4664,12 +4664,7 @@ self
 result_callbacks
 =
 result_callbacks
-if
-result_callbacks
-is
-not
-None
-else
+or
 [
 ]
         
