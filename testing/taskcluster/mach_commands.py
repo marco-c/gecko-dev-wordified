@@ -5220,6 +5220,13 @@ templates
 import
 Templates
         
+from
+taskcluster_graph
+.
+image_builder
+import
+docker_image
+        
 import
 taskcluster_graph
 .
