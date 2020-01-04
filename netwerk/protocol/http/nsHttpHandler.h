@@ -523,6 +523,15 @@ mReferrerTrimmingPolicy
 ;
 }
 uint8_t
+ReferrerXOriginTrimmingPolicy
+(
+)
+{
+return
+mReferrerXOriginTrimmingPolicy
+;
+}
+uint8_t
 ReferrerXOriginPolicy
 (
 )
@@ -2336,6 +2345,9 @@ mSpoofReferrerSource
 ;
 uint8_t
 mReferrerTrimmingPolicy
+;
+uint8_t
+mReferrerXOriginTrimmingPolicy
 ;
 uint8_t
 mReferrerXOriginPolicy
