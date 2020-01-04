@@ -235,13 +235,12 @@ from
 aSpecified
 .
 The
-resoled
+resolved
 variables
 *
 are
 written
-in
-to
+into
 mOutput
 .
 *
