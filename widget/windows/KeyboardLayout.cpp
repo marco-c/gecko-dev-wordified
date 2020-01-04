@@ -9314,7 +9314,7 @@ key
 /
 FYI
 :
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 returns
@@ -9333,7 +9333,7 @@ message
 .
 mKeyNameIndex
 =
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 ?
@@ -10421,7 +10421,7 @@ bool
 NativeKey
 :
 :
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 const
@@ -18476,7 +18476,7 @@ state
 .
 if
 (
-IsFollowedByNonControlCharMessage
+IsFollowedByPrintableCharMessage
 (
 )
 )
