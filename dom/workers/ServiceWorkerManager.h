@@ -281,13 +281,6 @@ h
 #
 include
 "
-nsIIPCBackgroundChildCreateCallback
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -296,6 +289,13 @@ h
 include
 "
 nsDataHashtable
+.
+h
+"
+#
+include
+"
+nsIIPCBackgroundChildCreateCallback
 .
 h
 "
@@ -586,6 +586,11 @@ StopControllingADocument
 (
 )
 {
+MOZ_ASSERT
+(
+mControlledDocumentsCounter
+)
+;
 -
 -
 mControlledDocumentsCounter
@@ -602,8 +607,6 @@ mActiveWorker
 &
 &
 mControlledDocumentsCounter
->
-0
 ;
 }
 void
@@ -2253,6 +2256,7 @@ aPromise
 ;
 struct
 PendingReadyPromise
+final
 {
 PendingReadyPromise
 (
