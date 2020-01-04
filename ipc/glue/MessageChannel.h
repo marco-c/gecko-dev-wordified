@@ -3500,9 +3500,7 @@ is_sync
 )
 return
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-!
+MOZ_ASSERT_IF
 (
 mChan
 -
@@ -3521,9 +3519,6 @@ aMessage
 transaction_id
 (
 )
-)
-|
-|
 !
 mOldTransaction
 |
@@ -4953,7 +4948,10 @@ RefCountedTask
 >
 mOnChannelConnectedTask
 ;
+DebugOnly
+<
 bool
+>
 mPeerPidSet
 ;
 int32_t
