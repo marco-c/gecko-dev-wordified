@@ -153,7 +153,7 @@ namespace
 net
 {
 class
-JSRuntimeWrapper
+JSContextWrapper
 ;
 union
 NetAddr
@@ -781,9 +781,9 @@ bool
 aResult
 )
 ;
-JSRuntimeWrapper
+JSContextWrapper
 *
-mJSRuntime
+mJSContext
 ;
 bool
 mJSNeedsSetup

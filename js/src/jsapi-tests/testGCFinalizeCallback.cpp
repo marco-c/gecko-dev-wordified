@@ -127,7 +127,7 @@ cx
 ;
 CHECK
 (
-rt
+cx
 -
 >
 gc
@@ -198,7 +198,7 @@ API
 ;
 while
 (
-rt
+cx
 -
 >
 gc
@@ -236,7 +236,7 @@ API
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -248,7 +248,7 @@ isIncrementalGCInProgress
 ;
 CHECK
 (
-rt
+cx
 -
 >
 gc
@@ -379,7 +379,7 @@ API
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -485,7 +485,7 @@ API
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -563,7 +563,7 @@ API
 ;
 while
 (
-rt
+cx
 -
 >
 gc
@@ -606,7 +606,7 @@ API
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -619,7 +619,7 @@ isIncrementalGCInProgress
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -723,7 +723,7 @@ API
 ;
 while
 (
-rt
+cx
 -
 >
 gc
@@ -792,7 +792,7 @@ API
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -805,7 +805,7 @@ isIncrementalGCInProgress
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -890,7 +890,7 @@ WorkBudget
 )
 )
 ;
-rt
+cx
 -
 >
 gc
@@ -903,7 +903,7 @@ budget
 ;
 CHECK
 (
-rt
+cx
 -
 >
 gc
@@ -924,7 +924,7 @@ MARK
 ;
 CHECK
 (
-rt
+cx
 -
 >
 gc
@@ -962,7 +962,7 @@ WorkBudget
 )
 )
 ;
-rt
+cx
 -
 >
 gc
@@ -974,7 +974,7 @@ budget
 ;
 while
 (
-rt
+cx
 -
 >
 gc
@@ -983,7 +983,7 @@ isIncrementalGCInProgress
 (
 )
 )
-rt
+cx
 -
 >
 gc
@@ -996,7 +996,7 @@ budget
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -1009,7 +1009,7 @@ isIncrementalGCInProgress
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc

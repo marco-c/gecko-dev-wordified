@@ -4577,7 +4577,7 @@ cx
 alloc
 )
 ;
-rt
+cx
 -
 >
 getJitRuntime

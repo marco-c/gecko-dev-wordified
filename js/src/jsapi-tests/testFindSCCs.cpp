@@ -868,10 +868,12 @@ finder
 new
 TestComponentFinder
 (
-rt
+cx
 -
 >
 mainThread
+(
+)
 .
 nativeStackLimit
 [
@@ -1401,10 +1403,12 @@ i
 TestComponentFinder2
 finder
 (
-rt
+cx
 -
 >
 mainThread
+(
+)
 .
 nativeStackLimit
 [
