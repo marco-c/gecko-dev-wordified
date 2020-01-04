@@ -3068,7 +3068,7 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
 target
 ;
@@ -3083,6 +3083,18 @@ target
 )
 )
 ;
+nsCOMPtr
+<
+nsIThread
+>
+thread
+(
+do_QueryInterface
+(
+target
+)
+)
+;
 MOZ_ASSERT
 (
 NS_GetCurrentThread
@@ -3090,7 +3102,7 @@ NS_GetCurrentThread
 )
 =
 =
-target
+thread
 )
 ;
 #
