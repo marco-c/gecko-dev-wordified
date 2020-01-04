@@ -1864,7 +1864,9 @@ fromObjectVariant
 JSContext
 *
 cx
+const
 ObjectVariant
+&
 objVar
 )
 {
