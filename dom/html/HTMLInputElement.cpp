@@ -652,7 +652,7 @@ mozilla
 /
 dom
 /
-DOMFileSystem
+FileSystem
 .
 h
 "
@@ -45688,11 +45688,11 @@ global
 ;
 RefPtr
 <
-DOMFileSystem
+FileSystem
 >
 fs
 =
-DOMFileSystem
+FileSystem
 :
 :
 Create

@@ -187,7 +187,7 @@ Entry
 >
 &
 aEntries
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

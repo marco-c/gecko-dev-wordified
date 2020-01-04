@@ -197,7 +197,7 @@ const
 OwningFileOrDirectory
 &
 aFileOrDirectory
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )
@@ -284,7 +284,7 @@ Entry
 nsIGlobalObject
 *
 aGlobal
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DOMFileSystem_h
+mozilla_dom_FileSystem_h
 #
 define
-mozilla_dom_DOMFileSystem_h
+mozilla_dom_FileSystem_h
 #
 include
 "
@@ -182,7 +182,7 @@ class
 OwningFileOrDirectory
 ;
 class
-DOMFileSystem
+FileSystem
 final
 :
 public
@@ -195,12 +195,12 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-DOMFileSystem
+FileSystem
 )
 static
 already_AddRefed
 <
-DOMFileSystem
+FileSystem
 >
 Create
 (
@@ -283,7 +283,7 @@ aEntries
 private
 :
 explicit
-DOMFileSystem
+FileSystem
 (
 nsIGlobalObject
 *
@@ -295,7 +295,7 @@ aName
 )
 ;
 ~
-DOMFileSystem
+FileSystem
 (
 )
 ;
@@ -330,4 +330,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DOMFileSystem_h
+mozilla_dom_FileSystem_h

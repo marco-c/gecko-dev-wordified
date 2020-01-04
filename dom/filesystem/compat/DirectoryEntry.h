@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-DOMFileSystemBinding
+FileSystemBinding
 .
 h
 "
@@ -173,7 +173,7 @@ aGlobalObject
 Directory
 *
 aDirectory
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

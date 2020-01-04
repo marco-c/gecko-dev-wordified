@@ -154,7 +154,7 @@ RootDirectoryReader
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 const
