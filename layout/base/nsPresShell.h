@@ -2124,6 +2124,13 @@ ReportAnyBadState
 (
 )
 ;
+void
+SetInImageVisibility
+(
+bool
+aState
+)
+;
 protected
 :
 virtual
@@ -4909,6 +4916,11 @@ yet
 .
 bool
 mHasReceivedPaintMessage
+:
+1
+;
+bool
+mInImageVisibility
 :
 1
 ;
