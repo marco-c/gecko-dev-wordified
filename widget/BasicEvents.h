@@ -2406,7 +2406,7 @@ mRefPoint
 0
 0
 )
-lastRefPoint
+mLastRefPoint
 (
 0
 0
@@ -2486,7 +2486,7 @@ mRefPoint
 0
 0
 )
-lastRefPoint
+mLastRefPoint
 (
 0
 0
@@ -2670,7 +2670,7 @@ movement
 deltas
 .
 LayoutDeviceIntPoint
-lastRefPoint
+mLastRefPoint
 ;
 /
 /
@@ -2787,7 +2787,7 @@ mRefPoint
 ;
 /
 /
-lastRefPoint
+mLastRefPoint
 doesn
 '
 t

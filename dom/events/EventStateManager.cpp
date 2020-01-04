@@ -25849,7 +25849,7 @@ mWidget
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 center
 ;
@@ -26112,7 +26112,7 @@ same
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 aMouseEvent
 -
@@ -26125,7 +26125,7 @@ else
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 sLastRefPoint
 ;
