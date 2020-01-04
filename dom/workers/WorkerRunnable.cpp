@@ -3801,6 +3801,11 @@ AssertIsOnWorkerThread
 (
 )
 ;
+if
+(
+mRunnable
+)
+{
 mRunnable
 -
 >
@@ -3825,6 +3830,11 @@ ReleaseWorker
 (
 )
 ;
+mRunnable
+=
+nullptr
+;
+}
 return
 true
 ;
