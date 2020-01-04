@@ -477,6 +477,13 @@ asPtr
 )
 const
 ;
+JSAtom
+*
+asPtrUnbarriered
+(
+)
+const
+;
 }
 ;
 struct

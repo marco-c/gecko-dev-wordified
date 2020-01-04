@@ -8253,8 +8253,11 @@ StackBaseShape
 :
 match
 (
+ReadBarriered
+<
 UnownedBaseShape
 *
+>
 key
 const
 Lookup
@@ -8264,6 +8267,10 @@ lookup
 {
 return
 key
+.
+unbarrieredGet
+(
+)
 -
 >
 flags
@@ -8275,6 +8282,10 @@ flags
 &
 &
 key
+.
+unbarrieredGet
+(
+)
 -
 >
 clasp_
@@ -9613,7 +9624,7 @@ entry
 .
 shape
 .
-get
+unbarrieredGet
 (
 )
 ;
@@ -10857,7 +10868,7 @@ entry
 .
 shape
 .
-get
+unbarrieredGet
 (
 )
 )
@@ -10875,7 +10886,7 @@ entry
 .
 shape
 .
-get
+unbarrieredGet
 (
 )
 )
@@ -10946,6 +10957,10 @@ relookup
 entry
 .
 shape
+.
+unbarrieredGet
+(
+)
 -
 >
 getObjectClass
@@ -10957,6 +10972,10 @@ proto
 entry
 .
 shape
+.
+unbarrieredGet
+(
+)
 -
 >
 numFixedSlots
@@ -10965,6 +10984,10 @@ numFixedSlots
 entry
 .
 shape
+.
+unbarrieredGet
+(
+)
 -
 >
 getObjectFlags

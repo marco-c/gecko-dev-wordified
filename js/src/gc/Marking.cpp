@@ -18067,7 +18067,7 @@ obj
 v
 -
 >
-singleton
+singletonNoBarrier
 (
 )
 ;
@@ -18109,7 +18109,7 @@ group
 v
 -
 >
-group
+groupNoBarrier
 (
 )
 ;

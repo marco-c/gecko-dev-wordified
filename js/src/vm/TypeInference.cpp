@@ -22480,7 +22480,7 @@ compartment
 )
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
@@ -27281,7 +27281,7 @@ isGroup
 key
 -
 >
-group
+groupNoBarrier
 (
 )
 -
@@ -27491,7 +27491,7 @@ isGroup
 key
 -
 >
-group
+groupNoBarrier
 (
 )
 -

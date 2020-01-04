@@ -1733,7 +1733,7 @@ false
 otherwise
 .
 bool
-isDebuggee
+isDebuggeeUnbarriered
 (
 const
 JSCompartment

@@ -32865,7 +32865,7 @@ value
 (
 )
 .
-get
+unbarrieredGet
 (
 )
 .

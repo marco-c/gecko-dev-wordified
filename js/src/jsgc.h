@@ -7929,7 +7929,7 @@ CheckGCThingAfterMovingGC
 (
 t
 .
-get
+unbarrieredGet
 (
 )
 )
