@@ -2186,17 +2186,6 @@ nsStyleImageLayers
 layers
 size_t
 len
-)
-;
-void
-Gecko_InitializeImageLayer
-(
-nsStyleImageLayers
-:
-:
-Layer
-*
-layer
 nsStyleImageLayers
 :
 :
