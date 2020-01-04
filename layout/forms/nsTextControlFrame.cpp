@@ -670,10 +670,6 @@ EditorInitializer
 *
 initializer
 =
-(
-EditorInitializer
-*
-)
 Properties
 (
 )
@@ -2448,10 +2444,6 @@ EditorInitializer
 *
 initializer
 =
-(
-EditorInitializer
-*
-)
 Properties
 (
 )

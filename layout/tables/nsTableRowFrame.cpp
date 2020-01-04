@@ -6305,12 +6305,6 @@ nsMargin
 *
 computedOffsetProp
 =
-static_cast
-<
-nsMargin
-*
->
-(
 kidFrame
 -
 >
@@ -6325,7 +6319,6 @@ nsIFrame
 :
 ComputedOffsetProperty
 (
-)
 )
 )
 ;
