@@ -188,15 +188,6 @@ define
 XRE_DONT_PROTECT_DLL_LOAD
 #
 define
-XRE_DONT_SUPPORT_XPSP2
-/
-/
-xpcshell
-does
-not
-ship
-#
-define
 XRE_WANT_ENVIRON
 #
 include

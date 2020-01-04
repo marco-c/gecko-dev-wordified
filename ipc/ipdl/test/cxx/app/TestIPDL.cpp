@@ -77,17 +77,6 @@ windows
 h
 >
 #
-define
-XRE_DONT_SUPPORT_XPSP2
-/
-/
-this
-app
-doesn
-'
-t
-ship
-#
 include
 "
 nsWindowsWMain
