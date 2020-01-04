@@ -276,9 +276,6 @@ SPProcessCrashService
 SPSetTestPluginEnabledState
 "
 "
-SPWebAppService
-"
-"
 SPCleanUpSTSData
 "
 ]
