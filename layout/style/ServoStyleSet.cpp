@@ -155,6 +155,12 @@ ServoStyleSet
 (
 )
 :
+mRawSet
+(
+Servo_InitStyleSet
+(
+)
+)
 mBatching
 (
 0
@@ -190,6 +196,10 @@ Shutdown
 (
 )
 {
+mRawSet
+=
+nullptr
+;
 }
 bool
 ServoStyleSet
