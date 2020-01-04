@@ -190,11 +190,9 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
+/
+shared
 /
 event
 -
