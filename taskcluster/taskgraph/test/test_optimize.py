@@ -78,8 +78,9 @@ get_subgraph
 from
 .
 .
+taskgraph
 import
-types
+TaskGraph
 from
 .
 .
@@ -687,8 +688,6 @@ OptimizingTask
 }
         
 return
-types
-.
 TaskGraph
 (
 tasks
