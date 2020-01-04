@@ -4983,6 +4983,8 @@ ThrowTypeError
 JSMSG_INCOMPATIBLE_PROTO
 "
 SIMD
+.
+*
 "
 "
 toSource
@@ -5014,6 +5016,8 @@ ThrowTypeError
 JSMSG_INCOMPATIBLE_PROTO
 "
 SIMD
+.
+*
 "
 "
 toSource
@@ -5022,6 +5026,97 @@ typeof
 this
 )
 ;
+return
+SimdFormatString
+(
+descr
+this
+)
+;
+}
+function
+SimdToString
+(
+)
+{
+if
+(
+!
+IsObject
+(
+this
+)
+|
+|
+!
+ObjectIsTypedObject
+(
+this
+)
+)
+ThrowTypeError
+(
+JSMSG_INCOMPATIBLE_PROTO
+"
+SIMD
+.
+*
+"
+"
+toString
+"
+typeof
+this
+)
+;
+var
+descr
+=
+TypedObjectTypeDescr
+(
+this
+)
+;
+if
+(
+DESCR_KIND
+(
+descr
+)
+!
+=
+JS_TYPEREPR_SIMD_KIND
+)
+ThrowTypeError
+(
+JSMSG_INCOMPATIBLE_PROTO
+"
+SIMD
+.
+*
+"
+"
+toString
+"
+typeof
+this
+)
+;
+return
+SimdFormatString
+(
+descr
+this
+)
+;
+}
+function
+SimdFormatString
+(
+descr
+typedObj
+)
+{
 var
 typerepr
 =
@@ -5054,7 +5149,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5065,7 +5160,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5076,7 +5171,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5087,7 +5182,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5098,7 +5193,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -5109,7 +5204,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -5120,7 +5215,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -5131,7 +5226,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -5142,7 +5237,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 8
 )
 ;
@@ -5153,7 +5248,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 9
 )
 ;
@@ -5164,7 +5259,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 10
 )
 ;
@@ -5175,7 +5270,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 11
 )
 ;
@@ -5186,7 +5281,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 12
 )
 ;
@@ -5197,7 +5292,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 13
 )
 ;
@@ -5208,7 +5303,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 14
 )
 ;
@@ -5219,7 +5314,7 @@ callFunction
 (
 std_SIMD_Int8x16_extractLane
 null
-this
+typedObj
 15
 )
 ;
@@ -5292,7 +5387,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5303,7 +5398,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5314,7 +5409,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5325,7 +5420,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5336,7 +5431,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -5347,7 +5442,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -5358,7 +5453,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -5369,7 +5464,7 @@ callFunction
 (
 std_SIMD_Int16x8_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -5418,7 +5513,7 @@ callFunction
 (
 std_SIMD_Int32x4_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5429,7 +5524,7 @@ callFunction
 (
 std_SIMD_Int32x4_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5440,7 +5535,7 @@ callFunction
 (
 std_SIMD_Int32x4_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5451,7 +5546,7 @@ callFunction
 (
 std_SIMD_Int32x4_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5488,7 +5583,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5499,7 +5594,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5510,7 +5605,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5521,7 +5616,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5532,7 +5627,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -5543,7 +5638,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -5554,7 +5649,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -5565,7 +5660,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -5576,7 +5671,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 8
 )
 ;
@@ -5587,7 +5682,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 9
 )
 ;
@@ -5598,7 +5693,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 10
 )
 ;
@@ -5609,7 +5704,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 11
 )
 ;
@@ -5620,7 +5715,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 12
 )
 ;
@@ -5631,7 +5726,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 13
 )
 ;
@@ -5642,7 +5737,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 14
 )
 ;
@@ -5653,7 +5748,7 @@ callFunction
 (
 std_SIMD_Uint8x16_extractLane
 null
-this
+typedObj
 15
 )
 ;
@@ -5726,7 +5821,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5737,7 +5832,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5748,7 +5843,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5759,7 +5854,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5770,7 +5865,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -5781,7 +5876,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -5792,7 +5887,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -5803,7 +5898,7 @@ callFunction
 (
 std_SIMD_Uint16x8_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -5852,7 +5947,7 @@ callFunction
 (
 std_SIMD_Uint32x4_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5863,7 +5958,7 @@ callFunction
 (
 std_SIMD_Uint32x4_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5874,7 +5969,7 @@ callFunction
 (
 std_SIMD_Uint32x4_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5885,7 +5980,7 @@ callFunction
 (
 std_SIMD_Uint32x4_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5922,7 +6017,7 @@ callFunction
 (
 std_SIMD_Float32x4_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -5933,7 +6028,7 @@ callFunction
 (
 std_SIMD_Float32x4_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -5944,7 +6039,7 @@ callFunction
 (
 std_SIMD_Float32x4_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -5955,7 +6050,7 @@ callFunction
 (
 std_SIMD_Float32x4_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -5992,7 +6087,7 @@ callFunction
 (
 std_SIMD_Float64x2_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -6003,7 +6098,7 @@ callFunction
 (
 std_SIMD_Float64x2_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -6034,7 +6129,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -6045,7 +6140,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -6056,7 +6151,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -6067,7 +6162,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -6078,7 +6173,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -6089,7 +6184,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -6100,7 +6195,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -6111,7 +6206,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -6122,7 +6217,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 8
 )
 ;
@@ -6133,7 +6228,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 9
 )
 ;
@@ -6144,7 +6239,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 10
 )
 ;
@@ -6155,7 +6250,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 11
 )
 ;
@@ -6166,7 +6261,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 12
 )
 ;
@@ -6177,7 +6272,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 13
 )
 ;
@@ -6188,7 +6283,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 14
 )
 ;
@@ -6199,7 +6294,7 @@ callFunction
 (
 std_SIMD_Bool8x16_extractLane
 null
-this
+typedObj
 15
 )
 ;
@@ -6272,7 +6367,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -6283,7 +6378,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -6294,7 +6389,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -6305,7 +6400,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -6316,7 +6411,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 4
 )
 ;
@@ -6327,7 +6422,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 5
 )
 ;
@@ -6338,7 +6433,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 6
 )
 ;
@@ -6349,7 +6444,7 @@ callFunction
 (
 std_SIMD_Bool16x8_extractLane
 null
-this
+typedObj
 7
 )
 ;
@@ -6398,7 +6493,7 @@ callFunction
 (
 std_SIMD_Bool32x4_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -6409,7 +6504,7 @@ callFunction
 (
 std_SIMD_Bool32x4_extractLane
 null
-this
+typedObj
 1
 )
 ;
@@ -6420,7 +6515,7 @@ callFunction
 (
 std_SIMD_Bool32x4_extractLane
 null
-this
+typedObj
 2
 )
 ;
@@ -6431,7 +6526,7 @@ callFunction
 (
 std_SIMD_Bool32x4_extractLane
 null
-this
+typedObj
 3
 )
 ;
@@ -6468,7 +6563,7 @@ callFunction
 (
 std_SIMD_Bool64x2_extractLane
 null
-this
+typedObj
 0
 )
 ;
@@ -6479,7 +6574,7 @@ callFunction
 (
 std_SIMD_Bool64x2_extractLane
 null
-this
+typedObj
 1
 )
 ;

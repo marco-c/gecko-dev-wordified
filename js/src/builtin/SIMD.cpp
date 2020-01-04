@@ -1376,6 +1376,17 @@ SimdTypedObjectMethods
 JS_SELF_HOSTED_FN
 (
 "
+toString
+"
+"
+SimdToString
+"
+0
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 toSource
 "
 "
