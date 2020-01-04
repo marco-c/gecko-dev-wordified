@@ -692,8 +692,6 @@ yield
 hideTooltipAndWaitForRuleViewChanged
 (
 picker
-.
-tooltip
 ruleView
 )
 ;
