@@ -4006,6 +4006,8 @@ which
 ;
 #
 endif
+protected
+:
 /
 *
 *

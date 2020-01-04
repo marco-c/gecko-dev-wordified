@@ -1393,13 +1393,6 @@ AsmJSIonExitRegE2
 =
 rbx
 ;
-static
-MOZ_CONSTEXPR_VAR
-Register
-AsmJSIonExitRegE3
-=
-rsi
-;
 /
 /
 Registers

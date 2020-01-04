@@ -908,13 +908,6 @@ AsmJSIonExitRegE2
 =
 ebx
 ;
-static
-MOZ_CONSTEXPR_VAR
-Register
-AsmJSIonExitRegE3
-=
-edx
-;
 /
 /
 Registers

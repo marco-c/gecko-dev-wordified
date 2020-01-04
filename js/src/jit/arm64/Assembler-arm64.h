@@ -1111,13 +1111,6 @@ AsmJSIonExitRegE2
 =
 r2
 ;
-static
-constexpr
-Register
-AsmJSIonExitRegE3
-=
-r3
-;
 /
 /
 Registers

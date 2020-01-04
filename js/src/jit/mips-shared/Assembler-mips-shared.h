@@ -1020,13 +1020,6 @@ AsmJSIonExitRegE2
 =
 a2
 ;
-static
-MOZ_CONSTEXPR_VAR
-Register
-AsmJSIonExitRegE3
-=
-a3
-;
 /
 /
 Registers
