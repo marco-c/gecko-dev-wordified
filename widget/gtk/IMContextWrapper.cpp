@@ -1145,6 +1145,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 Init
@@ -1152,6 +1153,7 @@ Init
 )
 mOwnerWindow
 =
+0x
 %
 p
 "
@@ -1508,6 +1510,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 ~
@@ -1904,27 +1907,32 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnDestroyWindow
 (
 aWindow
 =
+0x
 %
 p
 )
 mLastFocusedWindow
 =
+0x
 %
 p
 "
 "
 mOwnerWindow
 =
+0x
 %
 p
 mLastFocusedModule
 =
+0x
 %
 p
 "
@@ -2216,6 +2224,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 OnDestroyWindow
@@ -2581,17 +2590,20 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnFocusWindow
 (
 aWindow
 =
+0x
 %
 p
 )
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -2643,17 +2655,20 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnBlurWindow
 (
 aWindow
 =
+0x
 %
 p
 )
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -2761,12 +2776,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnKeyEvent
 (
 aCaller
 =
+0x
 %
 p
 aKeyDownEventWasSent
@@ -2783,17 +2800,20 @@ s
 current
 context
 =
+0x
 %
 p
 active
 context
 =
+0x
 %
 p
 "
 "
 aEvent
 (
+0x
 %
 p
 )
@@ -2868,6 +2888,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnKeyEvent
@@ -2885,6 +2906,7 @@ focused
 window
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -2948,6 +2970,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnKeyEvent
@@ -3271,6 +3294,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 OnKeyEvent
@@ -3340,6 +3364,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnFocusChangeInGecko
@@ -3420,6 +3445,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 ResetIME
@@ -3471,6 +3497,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 ResetIME
@@ -3590,6 +3617,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 ResetIME
@@ -3603,6 +3631,7 @@ gtk_im_context_reset
 "
 activeContext
 =
+0x
 %
 p
 mCompositionState
@@ -3778,12 +3807,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 EndIMEComposition
 (
 aCaller
 =
+0x
 %
 p
 )
@@ -3819,6 +3850,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 EndIMEComposition
@@ -3836,6 +3868,7 @@ focused
 window
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -4171,12 +4204,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 SetInputContext
 (
 aCaller
 =
+0x
 %
 p
 aContext
@@ -4241,6 +4276,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetInputContext
@@ -4258,6 +4294,7 @@ focused
 window
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -4284,6 +4321,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetInputContext
@@ -4326,6 +4364,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 SetInputContext
@@ -5091,6 +5130,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 Focus
@@ -5098,6 +5138,7 @@ Focus
 )
 sLastFocusedContext
 =
+0x
 %
 p
 "
@@ -5158,6 +5199,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 Focus
@@ -5269,6 +5311,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 Blur
@@ -5319,6 +5362,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 Blur
@@ -5403,6 +5447,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnSelectionChange
@@ -5541,6 +5586,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnSelectionChange
@@ -5558,6 +5604,7 @@ focused
 window
 mLastFocusedWindow
 =
+0x
 %
 p
 "
@@ -5689,6 +5736,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnSelectionChange
@@ -5750,6 +5798,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 OnSelectionChange
@@ -5980,12 +6029,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnStartCompositionNative
 (
 aContext
 =
+0x
 %
 p
 )
@@ -5994,6 +6045,7 @@ p
 current
 context
 =
+0x
 %
 p
 "
@@ -6041,6 +6093,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnStartCompositionNative
@@ -6150,12 +6203,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnEndCompositionNative
 (
 aContext
 =
+0x
 %
 p
 )
@@ -6223,6 +6278,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnEndCompositionNative
@@ -6364,12 +6420,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnChangeCompositionNative
 (
 aContext
 =
+0x
 %
 p
 )
@@ -6437,6 +6495,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnChangeCompositionNative
@@ -6571,12 +6630,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnRetrieveSurroundingNative
 (
 aContext
 =
+0x
 %
 p
 )
@@ -6585,6 +6646,7 @@ p
 current
 context
 =
+0x
 %
 p
 "
@@ -6632,6 +6694,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnRetrieveSurroundingNative
@@ -6786,12 +6849,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnDeleteSurroundingNative
 (
 aContext
 =
+0x
 %
 p
 aOffset
@@ -6808,6 +6873,7 @@ d
 current
 context
 =
+0x
 %
 p
 "
@@ -6857,6 +6923,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnDeleteSurroundingNative
@@ -6925,6 +6992,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnDeleteSurroundingNative
@@ -7020,12 +7088,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnCommitCompositionNative
 (
 aContext
 =
+0x
 %
 p
 )
@@ -7034,11 +7104,13 @@ p
 current
 context
 =
+0x
 %
 p
 active
 context
 =
+0x
 %
 p
 commitString
@@ -7053,6 +7125,7 @@ s
 "
 mProcessingKeyEvent
 =
+0x
 %
 p
 IsComposingOn
@@ -7118,6 +7191,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 OnCommitCompositionNative
@@ -7374,6 +7448,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 OnCommitCompositionNative
@@ -7493,12 +7568,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 GetCompositionString
 (
 aContext
 =
+0x
 %
 p
 )
@@ -7550,12 +7627,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 DispatchCompositionStart
 (
 aContext
 =
+0x
 %
 p
 )
@@ -7581,6 +7660,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7619,6 +7699,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7664,6 +7745,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7828,6 +7910,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7881,6 +7964,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7949,6 +8033,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -7981,6 +8066,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -8053,6 +8139,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionStart
@@ -8108,12 +8195,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
 (
 aContext
 =
+0x
 %
 p
 )
@@ -8138,6 +8227,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8180,6 +8270,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8265,6 +8356,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8416,6 +8508,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8547,6 +8640,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8595,6 +8689,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -8652,18 +8747,21 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
 (
 aContext
 =
+0x
 %
 p
 "
 "
 aCommitString
 =
+0x
 %
 p
 (
@@ -8711,6 +8809,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
@@ -8767,6 +8866,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
@@ -8801,6 +8901,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
@@ -8887,6 +8988,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
@@ -8973,6 +9075,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionChangeEvent
@@ -9021,6 +9124,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DispatchCompositionCommitEvent
@@ -9081,12 +9185,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 CreateTextRangeArray
 (
 aContext
 =
+0x
 %
 p
 "
@@ -9190,6 +9296,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9365,6 +9472,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9444,6 +9552,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9523,6 +9632,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9596,6 +9706,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9797,6 +9908,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -9886,6 +9998,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 CreateTextRangeArray
@@ -10069,6 +10182,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetTextRange
@@ -10138,6 +10252,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetTextRange
@@ -10220,6 +10335,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetTextRange
@@ -10306,6 +10422,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 SetTextRange
@@ -10464,6 +10581,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 SetTextRange
@@ -10892,6 +11010,7 @@ LogLevel
 Warning
 (
 "
+0x
 %
 p
 SetTextRange
@@ -11102,6 +11221,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 SetTextRange
@@ -11181,12 +11301,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 SetCursorPosition
 (
 aContext
 =
+0x
 %
 p
 )
@@ -11284,6 +11406,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetCursorPosition
@@ -11325,6 +11448,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetCursorPosition
@@ -11364,6 +11488,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetCursorPosition
@@ -11521,6 +11646,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 SetCursorPosition
@@ -11683,6 +11809,7 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -11715,6 +11842,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -11811,6 +11939,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -11856,6 +11985,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -11939,6 +12069,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -12038,6 +12169,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -12242,6 +12374,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 GetCurrentParagraph
@@ -12313,12 +12446,14 @@ LogLevel
 Info
 (
 "
+0x
 %
 p
 DeleteText
 (
 aContext
 =
+0x
 %
 p
 aOffset
@@ -12362,6 +12497,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12402,6 +12538,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12500,6 +12637,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12541,6 +12679,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12637,6 +12776,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12706,6 +12846,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12793,6 +12934,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -12981,6 +13123,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -13060,6 +13203,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -13124,6 +13268,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -13180,6 +13325,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 DeleteText
@@ -13293,6 +13439,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 EnsureToCacheSelection
@@ -13361,6 +13508,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 EnsureToCacheSelection
@@ -13411,6 +13559,7 @@ LogLevel
 Error
 (
 "
+0x
 %
 p
 EnsureToCacheSelection
@@ -13474,6 +13623,7 @@ LogLevel
 Debug
 (
 "
+0x
 %
 p
 EnsureToCacheSelection
