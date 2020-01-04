@@ -220,7 +220,7 @@ template
 class
 T
 >
-struct
+class
 Raw
 ;
 template
