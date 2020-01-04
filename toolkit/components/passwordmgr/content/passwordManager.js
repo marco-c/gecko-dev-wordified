@@ -251,7 +251,7 @@ kSignonBundle
 getString
 (
 "
-loginsSpielAll
+loginsDescriptionAll
 "
 )
 ;
@@ -2275,7 +2275,7 @@ kSignonBundle
 getString
 (
 "
-loginsSpielAll
+loginsDescriptionAll
 "
 )
 ;
@@ -2749,7 +2749,7 @@ kSignonBundle
 getString
 (
 "
-loginsSpielFiltered
+loginsDescriptionFiltered
 "
 )
 ;
