@@ -219,6 +219,8 @@ title
 )
 [
 "
+New
+Tab
 "
 "
 Bookmark
