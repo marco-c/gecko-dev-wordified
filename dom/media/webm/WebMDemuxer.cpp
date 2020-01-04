@@ -1648,6 +1648,10 @@ type
 =
 =
 NESTEGG_TRACK_VIDEO
+&
+&
+!
+mHasVideo
 )
 {
 nestegg_video_params
@@ -2124,6 +2128,10 @@ type
 =
 =
 NESTEGG_TRACK_AUDIO
+&
+&
+!
+mHasAudio
 )
 {
 nestegg_audio_params
