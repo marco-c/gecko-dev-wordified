@@ -3074,6 +3074,7 @@ dom
 :
 :
 MediaStreamError
+*
 >
 PledgeSourceSet
 ;
