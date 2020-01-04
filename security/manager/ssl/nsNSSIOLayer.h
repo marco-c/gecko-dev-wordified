@@ -321,13 +321,6 @@ length
 )
 ;
 void
-SetEarlyDataAccepted
-(
-bool
-aAccepted
-)
-;
-void
 SetHandshakeCompleted
 (
 )
@@ -687,9 +680,6 @@ mNegotiatedNPN
 ;
 bool
 mNPNCompleted
-;
-bool
-mEarlyDataAccepted
 ;
 bool
 mFalseStartCallbackCalled
