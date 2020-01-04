@@ -1137,7 +1137,7 @@ int32_t
 (
 aParam
 .
-scrollType
+mScrollType
 )
 )
 ;
@@ -1416,7 +1416,7 @@ mAllowToOverrideSystemScrollSpeed
 aResult
 -
 >
-scrollType
+mScrollType
 =
 static_cast
 <
