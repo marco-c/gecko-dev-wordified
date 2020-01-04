@@ -618,9 +618,6 @@ NS_OK
 ;
 }
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -978,9 +975,6 @@ void
 void
 DispatchResizeEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -1121,9 +1115,6 @@ aMode
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect

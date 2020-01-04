@@ -732,9 +732,6 @@ override
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -744,9 +741,6 @@ override
 NS_IMETHOD
 GetClientBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -754,9 +748,6 @@ aRect
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntSize
 GetClientSize
 (
@@ -764,9 +755,6 @@ GetClientSize
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 GetClientOffset
 (
@@ -855,9 +843,6 @@ xulWinType
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -1344,15 +1329,9 @@ bool
 aState
 )
 ;
-mozilla
-:
-:
 LayoutDeviceIntSize
 GetSafeWindowSize
 (
-mozilla
-:
-:
 LayoutDeviceIntSize
 aSize
 )
@@ -1557,9 +1536,6 @@ mozilla
 EventMessage
 aMsg
 const
-mozilla
-:
-:
 LayoutDeviceIntPoint
 &
 aRefPoint
@@ -1843,9 +1819,6 @@ virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -1862,9 +1835,6 @@ virtual
 nsresult
 SynthesizeNativeMouseMove
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 nsIObserver
@@ -1887,9 +1857,6 @@ virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -1963,9 +1930,6 @@ gint
 coord
 )
 ;
-mozilla
-:
-:
 LayoutDeviceIntPoint
 GdkPointToDevicePixels
 (
@@ -1973,9 +1937,6 @@ GdkPoint
 point
 )
 ;
-mozilla
-:
-:
 LayoutDeviceIntPoint
 GdkEventCoordsToDevicePixels
 (

@@ -400,9 +400,6 @@ NS_OK
 ;
 }
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -637,9 +634,6 @@ GetGLFrameBufferFormat
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntRect
 GetNaturalBounds
 (

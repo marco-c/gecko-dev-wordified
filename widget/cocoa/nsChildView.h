@@ -2798,9 +2798,6 @@ override
 NS_IMETHOD
 GetBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -2810,9 +2807,6 @@ override
 NS_IMETHOD
 GetClientBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -2822,9 +2816,6 @@ override
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -3021,9 +3012,6 @@ aConfigurations
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -3307,9 +3295,6 @@ virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -3326,9 +3311,6 @@ virtual
 nsresult
 SynthesizeNativeMouseMove
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 nsIObserver
@@ -3351,9 +3333,6 @@ virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -3820,9 +3799,6 @@ mPluginFocused
 ;
 }
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 GetClientOffset
 (

@@ -755,9 +755,6 @@ NS_ERROR_UNEXPECTED
 ;
 }
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -786,9 +783,6 @@ InitEvent
 WidgetGUIEvent
 &
 aEvent
-mozilla
-:
-:
 LayoutDeviceIntPoint
 *
 aPoint
@@ -1242,9 +1236,6 @@ GetWindowPosition
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -1308,9 +1299,6 @@ virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -1327,9 +1315,6 @@ virtual
 nsresult
 SynthesizeNativeMouseMove
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 nsIObserver
@@ -1342,9 +1327,6 @@ virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
-mozilla
-:
-:
 LayoutDeviceIntPoint
 aPoint
 uint32_t
@@ -1536,9 +1518,6 @@ uint32_t
 aStartOffset
 nsTArray
 <
-mozilla
-:
-:
 LayoutDeviceIntRect
 >
 &
@@ -1551,9 +1530,6 @@ aTargetCauseOffset
 bool
 GetCaretRect
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aCaretRect

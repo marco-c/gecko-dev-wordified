@@ -292,9 +292,6 @@ mozilla
 WidgetGUIEvent
 &
 aEvent
-mozilla
-:
-:
 LayoutDeviceIntPoint
 *
 aPoint
