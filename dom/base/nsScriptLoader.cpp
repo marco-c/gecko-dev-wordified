@@ -4137,12 +4137,6 @@ globalObject
 CompileModule
 "
 true
-context
--
->
-GetNativeContext
-(
-)
 )
 ;
 bool
@@ -12109,12 +12103,6 @@ script
 element
 "
 true
-context
--
->
-GetNativeContext
-(
-)
 )
 ;
 JS
