@@ -843,6 +843,10 @@ aThat
 {
 return
 (
+(
+aThat
+&
+&
 T
 :
 :
@@ -854,6 +858,7 @@ aThat
 >
 Ver
 (
+)
 )
 ?
 reinterpret_cast
