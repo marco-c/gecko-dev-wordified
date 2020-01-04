@@ -3698,6 +3698,10 @@ if
 !
 aFilePath
 .
+toLowerCase
+(
+)
+.
 endsWith
 (
 "
@@ -3708,6 +3712,10 @@ json
 &
 !
 aFilePath
+.
+toLowerCase
+(
+)
 .
 endsWith
 (
