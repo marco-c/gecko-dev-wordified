@@ -1422,13 +1422,11 @@ isSharedMemory
 )
 &
 &
-(
-!
 bufferUnshared
 (
 )
-|
-|
+&
+&
 bufferUnshared
 (
 )
@@ -1436,7 +1434,6 @@ bufferUnshared
 >
 isNeutered
 (
-)
 )
 ;
 }
