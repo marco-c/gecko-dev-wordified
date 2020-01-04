@@ -3049,9 +3049,11 @@ uncacheable
 /
 prototypes
 .
-static
 bool
-IsCacheableProtoChainForIon
+jit
+:
+:
+IsCacheableProtoChainForIonOrCacheIR
 (
 JSObject
 *
@@ -3144,9 +3146,11 @@ return
 true
 ;
 }
-static
 bool
-IsCacheableGetPropReadSlotForIon
+jit
+:
+:
+IsCacheableGetPropReadSlotForIonOrCacheIR
 (
 JSObject
 *
@@ -3166,7 +3170,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -3266,7 +3270,7 @@ through
 various
 engine
 hacks
-:
+.
 if
 (
 obj
@@ -3640,7 +3644,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -3854,7 +3858,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -3982,7 +3986,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -9061,7 +9065,7 @@ pc
 ;
 if
 (
-IsCacheableGetPropReadSlotForIon
+IsCacheableGetPropReadSlotForIonOrCacheIR
 (
 obj
 holder
@@ -16216,7 +16220,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -16297,7 +16301,7 @@ shape
 |
 |
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -16382,7 +16386,7 @@ false
 if
 (
 !
-IsCacheableProtoChainForIon
+IsCacheableProtoChainForIonOrCacheIR
 (
 obj
 holder
@@ -32458,7 +32462,7 @@ lookups
 if
 (
 !
-IsCacheableGetPropReadSlotForIon
+IsCacheableGetPropReadSlotForIonOrCacheIR
 (
 obj
 holder
