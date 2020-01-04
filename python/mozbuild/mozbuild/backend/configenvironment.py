@@ -1486,6 +1486,28 @@ self
 substs_unicode
 )
     
+property
+    
+def
+is_artifact_build
+(
+self
+)
+:
+        
+return
+self
+.
+substs
+.
+get
+(
+'
+MOZ_ARTIFACT_BUILDS
+'
+False
+)
+    
 staticmethod
     
 def
