@@ -6813,7 +6813,7 @@ Value
 (
 )
 .
-IsServiceWorker
+IsMessagePort
 (
 )
 )
