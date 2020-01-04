@@ -2462,8 +2462,7 @@ the
 /
 ParseTask
 .
-JSScript
-*
+PersistentRootedScript
 script
 ;
 /
@@ -2477,8 +2476,11 @@ the
 script
 compilation
 .
+PersistentRooted
+<
 ScriptSourceObject
 *
+>
 sourceObject
 ;
 /
