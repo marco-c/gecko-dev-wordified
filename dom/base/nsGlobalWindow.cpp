@@ -45127,6 +45127,8 @@ aOptions
 nsIDocShellLoadInfo
 *
 aLoadInfo
+bool
+aForceNoOpener
 nsPIDOMWindowOuter
 *
 *
@@ -45141,6 +45143,7 @@ aUrl
 aName
 aOptions
 aLoadInfo
+aForceNoOpener
 _retval
 )
 NS_ERROR_NOT_INITIALIZED
@@ -45179,6 +45182,7 @@ nullptr
 No
 args
 aLoadInfo
+aForceNoOpener
 _retval
 )
 ;
@@ -45250,6 +45254,10 @@ nullptr
 /
 /
 aLoadInfo
+false
+/
+/
+aForceNoOpener
 _retval
 )
 ;
@@ -45350,6 +45358,10 @@ nullptr
 /
 /
 aLoadInfo
+false
+/
+/
+aForceNoOpener
 _retval
 )
 ;
@@ -45436,6 +45448,10 @@ nullptr
 /
 /
 aLoadInfo
+false
+/
+/
+aForceNoOpener
 _retval
 )
 ;
@@ -45568,6 +45584,10 @@ nullptr
 /
 /
 aLoadInfo
+false
+/
+/
+aForceNoOpener
 getter_AddRefs
 (
 dialog
@@ -51927,6 +51947,10 @@ nullptr
 /
 /
 aLoadInfo
+false
+/
+/
+aForceNoOpener
 getter_AddRefs
 (
 dlgWin
@@ -65412,6 +65436,8 @@ aExtraArgument
 nsIDocShellLoadInfo
 *
 aLoadInfo
+bool
+aForceNoOpener
 nsPIDOMWindowOuter
 *
 *
@@ -65641,8 +65667,14 @@ APP_STATUS_INSTALLED
 bool
 forceNoOpener
 =
-false
+aForceNoOpener
 ;
+if
+(
+!
+forceNoOpener
+)
+{
 /
 /
 Unlike
@@ -65711,6 +65743,7 @@ true
 ;
 break
 ;
+}
 }
 }
 /

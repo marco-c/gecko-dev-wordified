@@ -1077,6 +1077,13 @@ aLoadInfo
 *
 /
 nullptr
+/
+*
+aForceNoOpener
+=
+*
+/
+false
 getter_AddRefs
 (
 tmp
