@@ -59,6 +59,8 @@ import
 print_function
 unicode_literals
 import
+logging
+import
 re
 class
 OutputHandler
@@ -435,6 +437,7 @@ def
 __init__
 (
 self
+logger
 )
 :
         
@@ -474,6 +477,12 @@ about
 #
 localization
 .
+        
+self
+.
+logger
+=
+logger
         
 self
 .
@@ -845,7 +854,13 @@ number_of_stack_entries_to_get
         
 self
 .
-curr_failure_msg
+curr_error
+=
+None
+        
+self
+.
+curr_location
 =
 None
         
@@ -854,6 +869,40 @@ self
 buffered_lines
 =
 None
+    
+def
+log
+(
+self
+line
+)
+:
+        
+self
+.
+logger
+(
+logging
+.
+INFO
+'
+valgrind
+-
+output
+'
+{
+'
+line
+'
+:
+line
+}
+'
+{
+line
+}
+'
+)
     
 def
 __call__
@@ -914,30 +963,20 @@ number_of_stack_entries_to_get
                 
 self
 .
-curr_failure_msg
+curr_error
 =
-'
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-valgrind
--
-test
-|
-'
-+
 m
 .
 group
 (
 1
 )
-+
+                
+self
+.
+curr_location
+=
 "
-at
 "
                 
 self
@@ -951,7 +990,9 @@ line
 else
 :
                 
-print
+self
+.
+log
 (
 line
 )
@@ -1010,7 +1051,7 @@ m
                 
 self
 .
-curr_failure_msg
+curr_location
 +
 =
 m
@@ -1025,7 +1066,7 @@ else
                 
 self
 .
-curr_failure_msg
+curr_location
 +
 =
 '
@@ -1052,7 +1093,7 @@ number_of_stack_entries_to_get
                 
 self
 .
-curr_failure_msg
+curr_location
 +
 =
 '
@@ -1090,20 +1131,57 @@ reset
 state
 .
                 
-print
-(
-'
-\
-n
-'
-+
 self
 .
-curr_failure_msg
-+
+logger
+(
+logging
+.
+ERROR
 '
-\
-n
+valgrind
+-
+error
+-
+msg
+'
+                            
+{
+'
+error
+'
+:
+self
+.
+curr_error
+                             
+'
+location
+'
+:
+self
+.
+curr_location
+}
+                             
+'
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+valgrind
+-
+test
+|
+{
+error
+}
+at
+{
+location
+}
 '
 )
                 
@@ -1115,14 +1193,22 @@ self
 buffered_lines
 :
                     
-print
+self
+.
+log
 (
-b
+line
 )
                 
 self
 .
-curr_failure_msg
+curr_error
+=
+None
+                
+self
+.
+curr_location
 =
 None
                 
