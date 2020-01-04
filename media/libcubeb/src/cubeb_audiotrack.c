@@ -2617,10 +2617,6 @@ get_preferred_sample_rate
 =
 audiotrack_get_preferred_sample_rate
 .
-enumerate_devices
-=
-NULL
-.
 destroy
 =
 audiotrack_destroy
