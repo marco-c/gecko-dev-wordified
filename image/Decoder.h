@@ -2150,6 +2150,17 @@ BlendMethod
 :
 :
 OVER
+const
+Maybe
+<
+nsIntRect
+>
+&
+aBlendRect
+=
+Nothing
+(
+)
 )
 ;
 /
