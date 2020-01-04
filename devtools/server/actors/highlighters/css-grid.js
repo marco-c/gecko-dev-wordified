@@ -886,6 +886,9 @@ clearCanvas
 let
 ratio
 =
+parseFloat
+(
+(
 this
 .
 win
@@ -894,6 +897,13 @@ devicePixelRatio
 |
 |
 1
+)
+.
+toFixed
+(
+2
+)
+)
 ;
 let
 width
