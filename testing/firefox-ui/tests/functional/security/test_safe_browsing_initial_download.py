@@ -367,6 +367,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 :
