@@ -3972,6 +3972,9 @@ d
 Elements
 (
 )
+(
+CK_ULONG
+)
 d
 .
 Length
@@ -4424,6 +4427,9 @@ n
 Elements
 (
 )
+(
+CK_ULONG
+)
 n
 .
 Length
@@ -4440,6 +4446,9 @@ e
 .
 Elements
 (
+)
+(
+CK_ULONG
 )
 e
 .
@@ -4458,6 +4467,9 @@ d
 Elements
 (
 )
+(
+CK_ULONG
+)
 d
 .
 Length
@@ -4474,6 +4486,9 @@ p
 .
 Elements
 (
+)
+(
+CK_ULONG
 )
 p
 .
@@ -4492,6 +4507,9 @@ q
 Elements
 (
 )
+(
+CK_ULONG
+)
 q
 .
 Length
@@ -4508,6 +4526,9 @@ dp
 .
 Elements
 (
+)
+(
+CK_ULONG
 )
 dp
 .
@@ -4526,6 +4547,9 @@ dq
 Elements
 (
 )
+(
+CK_ULONG
+)
 dq
 .
 Length
@@ -4542,6 +4566,9 @@ qi
 .
 Elements
 (
+)
+(
+CK_ULONG
 )
 qi
 .
