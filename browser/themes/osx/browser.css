@@ -5504,6 +5504,12 @@ moz
 any
 (
 primaryToolbarButtons
+.
+toolbarbutton
+-
+legacy
+-
+addon
 )
 >
 .
@@ -5535,6 +5541,12 @@ moz
 any
 (
 primaryToolbarButtons
+.
+toolbarbutton
+-
+legacy
+-
+addon
 )
 >
 :
