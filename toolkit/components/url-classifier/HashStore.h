@@ -1028,7 +1028,7 @@ nsACString
 aTableName
 nsIFile
 *
-aStoreFile
+aRootStoreFile
 )
 ;
 ~

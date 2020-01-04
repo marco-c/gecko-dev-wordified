@@ -708,11 +708,11 @@ is
 made
 .
 nsresult
-UpdateDirHandle
+UpdateRootDirHandle
 (
 nsIFile
 *
-aStoreDirectory
+aRootStoreDirectory
 )
 ;
 /
@@ -869,6 +869,12 @@ mPrimed
 ;
 nsCString
 mTableName
+;
+nsCOMPtr
+<
+nsIFile
+>
+mRootStoreDirectory
 ;
 nsCOMPtr
 <
