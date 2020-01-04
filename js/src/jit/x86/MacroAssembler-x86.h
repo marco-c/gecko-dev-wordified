@@ -4726,7 +4726,7 @@ Register
 dest
 )
 {
-sub32
+subl
 (
 imm
 dest
@@ -4742,7 +4742,7 @@ Register
 dest
 )
 {
-sub32
+subl
 (
 src
 dest
@@ -4760,7 +4760,7 @@ Register
 dest
 )
 {
-sub32
+subl
 (
 Operand
 (
@@ -4781,7 +4781,7 @@ Address
 dest
 )
 {
-sub32
+subl
 (
 src
 Operand
