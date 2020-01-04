@@ -2225,11 +2225,9 @@ behavior
 widgetKeyboardEvent
 -
 >
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 /
 /

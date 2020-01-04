@@ -42954,11 +42954,9 @@ process
 .
 aEvent
 .
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 return
 ;
