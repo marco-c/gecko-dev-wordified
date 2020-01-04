@@ -1442,7 +1442,7 @@ rv
 ssl3_SendClientHello
 (
 ss
-client_hello_initial
+PR_FALSE
 )
 ;
 ssl_ReleaseXmitBufLock
