@@ -236,12 +236,6 @@ finish
 '
 )
 {
-worker
-.
-terminate
-(
-)
-;
 resolve
 (
 )
@@ -397,12 +391,6 @@ finish
 '
 )
 {
-worker
-.
-terminate
-(
-)
-;
 resolve
 (
 )
