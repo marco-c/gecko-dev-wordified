@@ -1640,16 +1640,6 @@ set
 [
 [
 '
-canvas
-.
-capturestream
-.
-enabled
-'
-true
-]
-[
-'
 media
 .
 peerconnection

@@ -7979,16 +7979,6 @@ enabled
 true
 )
 ;
-/
-/
-captureStream
-(
-)
-on
-canvas
-disabled
-by
-default
 pref
 (
 "
@@ -7998,7 +7988,7 @@ capturestream
 .
 enabled
 "
-false
+true
 )
 ;
 /
