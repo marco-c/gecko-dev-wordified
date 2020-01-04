@@ -144,10 +144,6 @@ const
 ITCHPAD_STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

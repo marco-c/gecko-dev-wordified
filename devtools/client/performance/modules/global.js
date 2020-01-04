@@ -115,10 +115,6 @@ new
 MultiLocalizationHelper
 (
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
@@ -128,10 +124,6 @@ markers
 properties
 "
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

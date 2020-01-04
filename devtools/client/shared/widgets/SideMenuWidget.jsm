@@ -125,10 +125,6 @@ const
 SHARED_STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

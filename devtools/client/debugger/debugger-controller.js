@@ -126,10 +126,6 @@ const
 DBG_STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

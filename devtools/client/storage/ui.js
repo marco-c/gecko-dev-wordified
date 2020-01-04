@@ -294,10 +294,6 @@ const
 STORAGE_STRINGS
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

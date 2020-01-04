@@ -737,10 +737,6 @@ const
 STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
@@ -754,10 +750,6 @@ const
 SHARED_STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
