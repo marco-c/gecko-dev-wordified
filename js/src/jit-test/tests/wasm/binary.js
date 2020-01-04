@@ -1134,6 +1134,12 @@ range
 /
 )
 ;
+assertErrorMessage
+(
+(
+)
+=
+>
 wasmEval
 (
 toBuf
@@ -1164,5 +1170,14 @@ declSection
 ]
 )
 )
+)
+Error
+/
+fewer
+function
+definitions
+than
+declarations
+/
 )
 ;
