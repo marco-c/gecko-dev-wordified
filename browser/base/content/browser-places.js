@@ -9316,7 +9316,7 @@ aResultSet
 )
 {
 let
-onItemClick
+onItemCommand
 =
 function
 (
@@ -9494,9 +9494,9 @@ item
 addEventListener
 (
 "
-click
+command
 "
-onItemClick
+onItemCommand
 )
 ;
 if
