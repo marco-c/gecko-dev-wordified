@@ -1606,7 +1606,17 @@ ins
 setInt64Operand
 (
 INT64_PIECES
+lhs
+!
+=
+rhs
+?
 useInt64OrConstant
+(
+rhs
+)
+:
+useInt64OrConstantAtStart
 (
 rhs
 )
