@@ -1454,7 +1454,7 @@ selectColumn
 TABLE_CLIENTS
 Clients
 .
-ROWID
+_ID
 )
 )
 ;
@@ -1512,14 +1512,6 @@ TABLE_TABS
 and
 TABLE_CLIENTS
 .
-deleteValues
-(
-uri
-selection
-selectionArgs
-TABLE_TABS
-)
-;
 deleted
 =
 deleteValues
@@ -1932,7 +1924,7 @@ selectColumn
 TABLE_CLIENTS
 Clients
 .
-ROWID
+_ID
 )
 )
 ;
@@ -2393,7 +2385,7 @@ selectColumn
 TABLE_CLIENTS
 Clients
 .
-ROWID
+_ID
 )
 )
 ;
