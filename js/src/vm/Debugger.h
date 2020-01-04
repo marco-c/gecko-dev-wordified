@@ -274,7 +274,7 @@ typedef
 HashSet
 <
 ReadBarrieredGlobalObject
-DefaultHasher
+MovableCellHasher
 <
 ReadBarrieredGlobalObject
 >
