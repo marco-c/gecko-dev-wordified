@@ -1817,6 +1817,9 @@ platformBuildID
 /
 /
 nsIXULRuntime
+browserTabsRemoteAutostart
+:
+false
 inSafeMode
 :
 false
