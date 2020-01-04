@@ -20166,11 +20166,9 @@ lifetimePolicy
 ;
 /
 /
-accept
-normally
-1
+0
 -
-askBeforeAccepting
+accept
 2
 -
 acceptForSession
