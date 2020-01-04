@@ -1896,9 +1896,13 @@ get
 transitionsEnabled
 (
 )
+{
+return
 this
 .
 _transitionsEnabled
+;
+}
 set
 transitionsEnabled
 (

@@ -5237,9 +5237,13 @@ get
 widget
 (
 )
+{
+return
 this
 .
 _widget
+;
+}
 /
 *
 *

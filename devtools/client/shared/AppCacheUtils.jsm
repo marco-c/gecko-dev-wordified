@@ -4116,9 +4116,10 @@ this
 "
 l10n
 "
-function
 (
 )
+=
+>
 Services
 .
 strings
