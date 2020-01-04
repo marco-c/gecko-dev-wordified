@@ -875,8 +875,6 @@ open
 (
 Window
 instance
-GeckoView
-view
 int
 width
 int
@@ -1541,7 +1539,6 @@ Window
 open
 (
 window
-this
 metrics
 .
 widthPixels
@@ -1569,10 +1566,6 @@ class
 open
 "
 window
-GeckoView
-.
-class
-this
 metrics
 .
 widthPixels
