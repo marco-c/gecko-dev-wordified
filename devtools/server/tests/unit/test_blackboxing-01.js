@@ -407,7 +407,7 @@ do_check_eq
 aLocation
 .
 line
-3
+4
 )
 ;
 }

@@ -92,13 +92,15 @@ assertEq
 (
 s
 .
-getOffsetLine
+getOffsetLocation
 (
 offs
 [
 i
 ]
 )
+.
+lineNumber
 lineno
 )
 ;

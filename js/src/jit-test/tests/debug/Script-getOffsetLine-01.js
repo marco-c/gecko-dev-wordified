@@ -1,7 +1,7 @@
 /
 /
 Basic
-getOffsetLine
+getOffsetLocation
 test
 using
 Error
@@ -59,12 +59,14 @@ frame
 .
 script
 .
-getOffsetLine
+getOffsetLocation
 (
 frame
 .
 offset
 )
+.
+lineNumber
 knownLine
 )
 ;

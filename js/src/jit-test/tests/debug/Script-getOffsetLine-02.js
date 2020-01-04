@@ -8,7 +8,7 @@ offset
 and
 Script
 .
-getOffsetLine
+getOffsetLocation
 work
 in
 non
@@ -77,12 +77,14 @@ frame
 .
 script
 .
-getOffsetLine
+getOffsetLocation
 (
 frame
 .
 offset
 )
+.
+lineNumber
 -
 g
 .
