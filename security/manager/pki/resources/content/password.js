@@ -249,7 +249,7 @@ GetString
 }
 catch
 (
-exception
+e
 )
 {
 /

@@ -201,10 +201,8 @@ get_ca_array
 let
 ret_array
 =
-new
-Array
-(
-)
+[
+]
 ;
 let
 allCerts
