@@ -9395,6 +9395,8 @@ flingVelocity
 Length
 (
 )
+.
+value
 gfxPrefs
 :
 :
