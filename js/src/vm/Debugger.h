@@ -9686,6 +9686,12 @@ promiseState
 )
 const
 ;
+double
+promiseLifetime
+(
+)
+const
+;
 #
 endif
 /
