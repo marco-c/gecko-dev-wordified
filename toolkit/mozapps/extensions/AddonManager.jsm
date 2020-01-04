@@ -14529,8 +14529,6 @@ of
 an
 addon
 to
-listen
-to
 register
 a
 listener
@@ -14692,6 +14690,7 @@ for
 addonId
 }
 )
+;
 this
 .
 upgradeListeners
