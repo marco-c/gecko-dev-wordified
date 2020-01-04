@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-HashFunctions
+AnimationTarget
 .
 h
 "
@@ -145,7 +145,7 @@ include
 "
 mozilla
 /
-NonOwningAnimationTarget
+HashFunctions
 .
 h
 "

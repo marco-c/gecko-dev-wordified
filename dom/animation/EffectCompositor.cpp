@@ -163,7 +163,7 @@ include
 "
 mozilla
 /
-AnimationUtils
+AnimationPerformanceWarning
 .
 h
 "
@@ -172,7 +172,16 @@ include
 "
 mozilla
 /
-AnimationPerformanceWarning
+AnimationTarget
+.
+h
+"
+#
+include
+"
+mozilla
+/
+AnimationUtils
 .
 h
 "

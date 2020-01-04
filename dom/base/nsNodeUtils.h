@@ -132,15 +132,6 @@ h
 #
 include
 "
-mozilla
-/
-NonOwningAnimationTarget
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -205,6 +196,9 @@ nsCycleCollectionTraversalCallback
 namespace
 mozilla
 {
+struct
+NonOwningAnimationTarget
+;
 namespace
 dom
 {

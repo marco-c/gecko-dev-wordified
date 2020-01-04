@@ -256,6 +256,15 @@ include
 "
 mozilla
 /
+AnimationTarget
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
