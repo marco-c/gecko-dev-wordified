@@ -448,6 +448,9 @@ class
 JoinNodeTransaction
 ;
 class
+SplitNodeTransaction
+;
+class
 TextComposition
 ;
 struct
@@ -467,9 +470,6 @@ EventTarget
 ;
 class
 Selection
-;
-class
-SplitNodeTxn
 ;
 class
 Text
@@ -1786,10 +1786,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-SplitNodeTxn
+SplitNodeTransaction
 >
 CreateTxnForSplitNode
 (
