@@ -36112,8 +36112,6 @@ MIRType
 resultType
 size_t
 spIncrement
-PreservesTlsReg
-preservesTlsReg
 )
 {
 MWasmCall
@@ -36129,7 +36127,6 @@ MWasmCall
 desc
 callee
 spIncrement
-preservesTlsReg
 )
 ;
 call
