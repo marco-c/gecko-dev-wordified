@@ -3822,11 +3822,6 @@ nsIChannel
 result
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aLoadInfo
-)
-;
 return
 NewChannelFromURIWithProxyFlagsInternal
 (

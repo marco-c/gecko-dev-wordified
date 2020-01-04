@@ -258,7 +258,7 @@ mSecurityFlags
 (
 aSecurityFlags
 )
-mContentPolicyType
+mInternalContentPolicyType
 (
 aContentPolicyType
 )
@@ -648,11 +648,11 @@ rhs
 .
 mSecurityFlags
 )
-mContentPolicyType
+mInternalContentPolicyType
 (
 rhs
 .
-mContentPolicyType
+mInternalContentPolicyType
 )
 mUpgradeInsecureRequests
 (
@@ -738,7 +738,7 @@ mSecurityFlags
 (
 aSecurityFlags
 )
-mContentPolicyType
+mInternalContentPolicyType
 (
 aContentPolicyType
 )
@@ -1195,7 +1195,7 @@ NS_IMETHODIMP
 LoadInfo
 :
 :
-GetContentPolicyType
+GetExternalContentPolicyType
 (
 nsContentPolicyType
 *
@@ -1210,7 +1210,7 @@ nsContentUtils
 :
 InternalContentPolicyTypeToExternal
 (
-mContentPolicyType
+mInternalContentPolicyType
 )
 ;
 return
@@ -1226,7 +1226,7 @@ InternalContentPolicyType
 )
 {
 return
-mContentPolicyType
+mInternalContentPolicyType
 ;
 }
 NS_IMETHODIMP
