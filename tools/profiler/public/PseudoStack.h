@@ -2113,6 +2113,11 @@ mPrivacyMode
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+PseudoStack
+)
+;
 }
 /
 /
@@ -2130,6 +2135,11 @@ PseudoStack
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+PseudoStack
+)
+;
 if
 (
 mStackPointer
