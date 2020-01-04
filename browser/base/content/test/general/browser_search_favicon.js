@@ -524,14 +524,6 @@ selected
 "
 )
 ;
-/
-/
-\
-u2014
-=
-=
-em
-dash
 is
 (
 result
@@ -540,8 +532,7 @@ _actionText
 .
 textContent
 "
-\
-u2014Search
+Search
 with
 SearchEngine
 "

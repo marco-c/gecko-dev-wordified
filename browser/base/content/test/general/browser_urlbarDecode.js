@@ -870,14 +870,6 @@ title
 "
 )
 ;
-/
-/
-\
-u2014
-=
-=
-em
-dash
 Assert
 .
 equal
@@ -888,8 +880,7 @@ _actionText
 .
 textContent
 "
-\
-u2014Visit
+Visit
 "
 "
 Visible
