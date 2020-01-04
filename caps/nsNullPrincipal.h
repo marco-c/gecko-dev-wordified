@@ -342,13 +342,6 @@ aOrigin
 )
 override
 ;
-/
-/
-Returns
-null
-on
-failure
-.
 static
 already_AddRefed
 <
@@ -361,13 +354,6 @@ nsIPrincipal
 aInheritFrom
 )
 ;
-/
-/
-Returns
-null
-on
-failure
-.
 static
 already_AddRefed
 <
