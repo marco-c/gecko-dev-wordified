@@ -333,6 +333,9 @@ object
 object
 .
 class
++
+"
+"
 )
 ;
 }
