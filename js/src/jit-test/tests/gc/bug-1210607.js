@@ -44,6 +44,6 @@ g
 ;
 oomAfterAllocations
 (
-0
+1
 )
 ;
