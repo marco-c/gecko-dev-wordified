@@ -472,6 +472,9 @@ endif
 class
 KeepAlive
 ;
+class
+GrallocTextureClientOGL
+;
 /
 *
 *
@@ -1469,6 +1472,17 @@ virtual
 TextureClientYCbCr
 *
 AsTextureClientYCbCr
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GrallocTextureClientOGL
+*
+AsGrallocTextureClientOGL
 (
 )
 {
