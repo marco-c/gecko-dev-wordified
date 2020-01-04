@@ -17415,24 +17415,6 @@ for
 #
 B2G
         
-#
-        
-#
-In
-addition
-the
-push
-subsuite
-directly
-accesses
-the
-production
-        
-#
-push
-service
-.
-        
 if
 '
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
@@ -17458,15 +17440,6 @@ buildapp
 =
 '
 mulet
-'
-or
-options
-.
-subsuite
-=
-=
-'
-push
 '
 :
                 
