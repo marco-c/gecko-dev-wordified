@@ -17405,11 +17405,6 @@ into
 the
 tab
 context
-if
-(
-mOwnerContent
-)
-{
 nsAutoString
 userContextIdStr
 ;
@@ -17478,7 +17473,6 @@ mUserContextId
 =
 userContextId
 ;
-}
 }
 bool
 tabContextUpdated
