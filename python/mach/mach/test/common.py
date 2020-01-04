@@ -118,10 +118,9 @@ providers
 )
     
 def
-_run_mach
+get_mach
 (
 self
-args
 provider_file
 =
 None
@@ -203,6 +202,35 @@ load_commands_from_entry_point
 entry_point
 )
         
+return
+m
+    
+def
+_run_mach
+(
+self
+argv
+*
+args
+*
+*
+kwargs
+)
+:
+        
+m
+=
+self
+.
+get_mach
+(
+*
+args
+*
+*
+kwargs
+)
+        
 stdout
 =
 StringIO
@@ -244,7 +272,7 @@ m
 .
 run
 (
-args
+argv
 stdout
 =
 stdout
