@@ -145,9 +145,6 @@ nsDebug
 .
 h
 "
-class
-NotificationService
-;
 namespace
 mozilla
 {
@@ -344,10 +341,6 @@ time
 .
 ID
 mIdentifier
-;
-NotificationService
-*
-mNotificationService
 ;
 /
 /
