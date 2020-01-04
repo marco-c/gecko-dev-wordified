@@ -25017,6 +25017,11 @@ JSContext
 cx
 HandleScript
 scriptArg
+JS
+:
+:
+MutableHandleValue
+rval
 )
 {
 CHECK_REQUEST
@@ -25124,7 +25129,11 @@ ExecuteScript
 cx
 globalLexical
 script
-nullptr
+rval
+.
+address
+(
+)
 )
 ;
 }
