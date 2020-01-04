@@ -166,6 +166,8 @@ offscreen
 )
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -191,6 +193,8 @@ From
 PBuffer
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

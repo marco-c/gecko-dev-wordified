@@ -2314,6 +2314,8 @@ GLContext
 :
 GLContext
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

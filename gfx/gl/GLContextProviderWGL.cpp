@@ -1719,6 +1719,8 @@ GLContextWGL
 :
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -1738,6 +1740,7 @@ aWindow
 :
 GLContext
 (
+flags
 caps
 sharedContext
 isOffscreen
@@ -1786,6 +1789,8 @@ GLContextWGL
 :
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -1807,6 +1812,7 @@ aPixelFormat
 :
 GLContext
 (
+flags
 caps
 sharedContext
 isOffscreen
@@ -2655,6 +2661,10 @@ glContext
 new
 GLContextWGL
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 shareContext
 false
@@ -2700,6 +2710,8 @@ GLContextWGL
 >
 CreatePBufferOffscreenContext
 (
+CreateContextFlags
+flags
 const
 IntSize
 &
@@ -3126,6 +3138,7 @@ glContext
 new
 GLContextWGL
 (
+flags
 dummyCaps
 aShareContext
 true
@@ -3342,6 +3355,10 @@ glContext
 new
 GLContextWGL
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 shareContext
 true
@@ -3373,6 +3390,7 @@ GLContextProviderWGL
 CreateHeadless
 (
 CreateContextFlags
+flags
 nsACString
 &
 aFailureId
@@ -3442,6 +3460,7 @@ glContext
 =
 CreatePBufferOffscreenContext
 (
+flags
 dummySize
 GetGlobalContextWGL
 (

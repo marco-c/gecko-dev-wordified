@@ -185,6 +185,8 @@ override
 )
 GLContextCGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
