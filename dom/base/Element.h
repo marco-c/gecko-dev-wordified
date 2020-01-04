@@ -2379,12 +2379,6 @@ class
 :
 nsFocusManager
 ;
-friend
-class
-:
-:
-nsDocument
-;
 /
 /
 Allow
