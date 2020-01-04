@@ -513,6 +513,10 @@ d
 on
 reliable
 socket
+(
+%
+p
+)
 .
 Abandoning
 .
@@ -525,12 +529,7 @@ ctx
 >
 label
 r
-)
-;
-NR_ASYNC_CANCEL
-(
 s
-NR_ASYNC_WAIT_READ
 )
 ;
 }
