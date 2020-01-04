@@ -50967,9 +50967,6 @@ pos
 &
 mLastRollup
 )
-|
-|
-consumeRollupEvent
 ;
 NS_IF_ADDREF
 (
@@ -50991,9 +50988,6 @@ true
 nullptr
 nullptr
 )
-|
-|
-consumeRollupEvent
 ;
 }
 /
