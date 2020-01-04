@@ -950,14 +950,6 @@ nullptr
 {
 NS_NewSprocketLayout
 (
-PresContext
-(
-)
--
->
-PresShell
-(
-)
 layout
 )
 ;

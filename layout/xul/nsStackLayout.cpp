@@ -223,9 +223,6 @@ NS_SIDE_BOTTOM
 nsresult
 NS_NewStackLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout
