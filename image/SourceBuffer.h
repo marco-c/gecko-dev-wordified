@@ -184,6 +184,15 @@ include
 "
 mozilla
 /
+RefCounted
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

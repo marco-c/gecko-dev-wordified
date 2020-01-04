@@ -98,6 +98,15 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefCounted
+.
+h
+"
 /
 *
 VolatileBuffer
