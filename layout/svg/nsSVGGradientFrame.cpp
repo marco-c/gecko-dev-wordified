@@ -456,7 +456,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGGradientFrameBase
+nsSVGPaintServerFrame
 (
 aContext
 )
@@ -669,7 +669,7 @@ this
 ;
 }
 return
-nsSVGGradientFrameBase
+nsSVGPaintServerFrame
 :
 :
 AttributeChanged

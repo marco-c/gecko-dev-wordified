@@ -189,10 +189,6 @@ dom
 /
 namespace
 mozilla
-typedef
-nsSVGPaintServerFrame
-nsSVGGradientFrameBase
-;
 /
 *
 *
@@ -228,7 +224,7 @@ class
 nsSVGGradientFrame
 :
 public
-nsSVGGradientFrameBase
+nsSVGPaintServerFrame
 {
 typedef
 mozilla
