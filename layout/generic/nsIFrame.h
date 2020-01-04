@@ -11698,9 +11698,6 @@ width
 void
 ForceBreak
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 ;
 /
@@ -11729,9 +11726,6 @@ line
 void
 OptionallyBreak
 (
-nsRenderingContext
-*
-aRenderingContext
 nscoord
 aHyphenWidth
 =
@@ -11828,9 +11822,6 @@ InlineIntrinsicISizeData
 void
 ForceBreak
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 ;
 }
