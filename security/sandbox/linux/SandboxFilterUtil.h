@@ -795,6 +795,14 @@ case
 __NR_statfs
 #
 define
+CASES_FOR_fstatfs
+case
+__NR_fstatfs64
+:
+case
+__NR_fstatfs
+#
+define
 CASES_FOR_fcntl
 case
 __NR_fcntl64
@@ -882,6 +890,11 @@ define
 CASES_FOR_fstat
 case
 __NR_fstat
+#
+define
+CASES_FOR_fstatfs
+case
+__NR_fstatfs
 #
 define
 CASES_FOR_statfs
