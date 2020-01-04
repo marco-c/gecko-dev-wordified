@@ -7195,6 +7195,8 @@ non
 -
 sandboxed
 content
+and
+GMP
 /
 /
 processes
@@ -7212,6 +7214,12 @@ mProcessType
 =
 =
 GeckoProcessType_Content
+|
+|
+mProcessType
+=
+=
+GeckoProcessType_GMPlugin
 )
 {
 if
