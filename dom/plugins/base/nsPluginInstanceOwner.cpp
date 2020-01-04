@@ -1403,11 +1403,11 @@ img
 )
 ;
 }
-MOZ_ASSERT
+if
 (
 img
 )
-;
+{
 container
 -
 >
@@ -1416,6 +1416,7 @@ SetCurrentImageInTransaction
 img
 )
 ;
+}
 #
 else
 mInstance
