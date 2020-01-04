@@ -487,6 +487,13 @@ public
 :
 static
 const
+JSProtoKey
+KEY
+=
+JSProto_WasmModule
+;
+static
+const
 unsigned
 RESERVED_SLOTS
 =
@@ -640,6 +647,13 @@ obj
 ;
 public
 :
+static
+const
+JSProtoKey
+KEY
+=
+JSProto_WasmInstance
+;
 static
 const
 unsigned
