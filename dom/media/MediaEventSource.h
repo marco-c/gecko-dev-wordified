@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+IndexSequence
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
