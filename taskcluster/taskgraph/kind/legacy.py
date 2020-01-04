@@ -154,7 +154,9 @@ json_time_from_now
 current_json_time
 )
 from
-taskcluster_graph
+taskgraph
+.
+util
 .
 templates
 import
@@ -167,6 +169,8 @@ from
 taskgraph
 .
 util
+.
+docker
 import
 docker_image
 #

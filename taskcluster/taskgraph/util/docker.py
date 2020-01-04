@@ -88,6 +88,10 @@ __file__
 .
 .
 '
+'
+.
+.
+'
 )
 )
 DOCKER_ROOT
@@ -133,6 +137,7 @@ in
 tree
 docker
 file
+.
 '
 '
 '
