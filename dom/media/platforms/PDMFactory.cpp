@@ -576,7 +576,6 @@ checked
 .
 if
 (
-!
 mp4_demuxer
 :
 :
@@ -588,8 +587,8 @@ DecodeSPSFromExtraData
 extraData
 spsdata
 )
-|
-|
+&
+&
 spsdata
 .
 chroma_format_idc
