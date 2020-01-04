@@ -3410,6 +3410,9 @@ FontData
 )
 {
 return
+gfxFontUtils
+:
+:
 GetTableFromFontData
 (
 userFontData
