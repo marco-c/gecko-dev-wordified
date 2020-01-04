@@ -521,13 +521,6 @@ WebGLActiveInfo
 /
 /
 /
-uint8_t
-ElemSizeFromType
-(
-GLenum
-elemType
-)
-;
 bool
 IsElemTypeSampler
 (
