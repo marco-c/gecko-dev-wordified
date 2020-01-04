@@ -6740,6 +6740,7 @@ AutoRooterGetterSetter
 {
 class
 Inner
+final
 :
 private
 JS
