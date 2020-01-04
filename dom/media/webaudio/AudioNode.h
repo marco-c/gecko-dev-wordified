@@ -224,6 +224,9 @@ AudioParamTimeline
 struct
 ThreeDPoint
 ;
+struct
+AudioTimelineEvent
+;
 /
 *
 *
@@ -1353,7 +1356,7 @@ SendChannelMixingParametersToStream
 ;
 static
 void
-SendTimelineParameterToStream
+SendTimelineEventToStream
 (
 AudioNode
 *
@@ -1361,9 +1364,12 @@ aNode
 uint32_t
 aIndex
 const
-AudioParamTimeline
+dom
+:
+:
+AudioTimelineEvent
 &
-aValue
+aEvent
 )
 ;
 private

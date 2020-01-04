@@ -152,6 +152,9 @@ dom
 class
 AudioContext
 ;
+struct
+AudioTimelineEvent
+;
 class
 BiquadFilterNode
 final
@@ -326,6 +329,10 @@ SendFrequencyToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -335,6 +342,10 @@ SendDetuneToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvente
 )
 ;
 static
@@ -344,6 +355,10 @@ SendQToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 static
@@ -353,6 +368,10 @@ SendGainToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 private

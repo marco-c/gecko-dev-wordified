@@ -171,8 +171,8 @@ AudioNodeStream
 namespace
 dom
 {
-class
-AudioParamTimeline
+struct
+AudioTimelineEvent
 ;
 namespace
 WebAudioUtils
@@ -372,7 +372,10 @@ aSampleRate
 *
 *
 Converts
-AudioParamTimeline
+an
+AudioTimelineEvent
+'
+s
 floating
 point
 time
@@ -384,9 +387,6 @@ values
 with
 respect
 to
-a
-source
-and
 a
 destination
 AudioNodeStream
@@ -400,7 +400,7 @@ be
 called
 for
 each
-AudioParamTimeline
+AudioTimelineEvent
 that
 gets
 sent
@@ -414,7 +414,7 @@ engine
 side
 where
 the
-AudioParamTimeline
+AudioTimlineEvent
 is
 *
 received
@@ -430,9 +430,7 @@ be
 aware
 of
 their
-source
 *
-and
 destination
 streams
 as
@@ -441,11 +439,11 @@ well
 *
 /
 void
-ConvertAudioParamToTicks
+ConvertAudioTimelineEventToTicks
 (
-AudioParamTimeline
+AudioTimelineEvent
 &
-aParam
+aEvent
 AudioNodeStream
 *
 aSource

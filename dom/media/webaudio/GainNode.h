@@ -248,6 +248,10 @@ SendGainToStream
 AudioNode
 *
 aNode
+const
+AudioTimelineEvent
+&
+aEvent
 )
 ;
 private
