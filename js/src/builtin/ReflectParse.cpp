@@ -21380,6 +21380,13 @@ module
 return
 false
 ;
+ModuleBuilder
+builder
+(
+cx
+module
+)
+;
 pn
 =
 parser
@@ -21387,6 +21394,7 @@ parser
 standaloneModule
 (
 module
+builder
 )
 ;
 if

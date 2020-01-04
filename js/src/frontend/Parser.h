@@ -4125,6 +4125,9 @@ ModuleObject
 *
 >
 module
+ModuleBuilder
+&
+builder
 )
 ;
 /

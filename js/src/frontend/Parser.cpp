@@ -6215,6 +6215,9 @@ standaloneModule
 (
 HandleModuleObject
 module
+ModuleBuilder
+&
+builder
 )
 {
 MOZ_ASSERT
@@ -6487,6 +6490,9 @@ standaloneModule
 (
 HandleModuleObject
 module
+ModuleBuilder
+&
+builder
 )
 {
 MOZ_ALWAYS_FALSE
