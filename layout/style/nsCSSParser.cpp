@@ -42656,6 +42656,16 @@ VARIANT_LENGTH
 STR_WITH_LEN
 (
 "
+q
+"
+)
+eCSSUnit_Quarter
+VARIANT_LENGTH
+}
+{
+STR_WITH_LEN
+(
+"
 deg
 "
 )
