@@ -925,10 +925,6 @@ GetNativeStackBase
 (
 )
 )
-cxCallback
-(
-nullptr
-)
 destroyCompartmentCallback
 (
 nullptr
