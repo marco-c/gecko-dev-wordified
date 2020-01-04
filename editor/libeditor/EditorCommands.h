@@ -405,6 +405,14 @@ InsertPlaintextCommand
 )
 NS_DECL_EDITOR_COMMAND
 (
+InsertParagraphCommand
+)
+NS_DECL_EDITOR_COMMAND
+(
+InsertLineBreakCommand
+)
+NS_DECL_EDITOR_COMMAND
+(
 PasteQuotationCommand
 )
 #
