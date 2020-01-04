@@ -7350,12 +7350,6 @@ reporter
 JSErrorReporter
 errorReporter
 ;
-JS
-:
-:
-BuildIdOp
-buildIdOp
-;
 /
 *
 AsmJSCache

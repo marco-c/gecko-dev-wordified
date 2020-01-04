@@ -2283,17 +2283,6 @@ TraceKind
 Script
 ;
 }
-bool
-GetBuildId
-(
-JS
-:
-:
-BuildIdCharVector
-*
-aBuildID
-)
-;
 }
 /
 /
