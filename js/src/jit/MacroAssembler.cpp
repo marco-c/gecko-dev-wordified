@@ -12088,7 +12088,7 @@ isDouble
 isNull
 isString
 ;
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_Int32
 maybeInput
@@ -12110,7 +12110,7 @@ conversion
 =
 IntConversion_NumbersOrBoolsOnly
 )
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_Boolean
 maybeInput
@@ -12119,7 +12119,7 @@ tag
 isBool
 )
 ;
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_Double
 maybeInput
@@ -12195,7 +12195,7 @@ IntConversion_Truncate
 case
 IntConversion_ClampToUint8
 :
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_Null
 maybeInput
@@ -12208,7 +12208,7 @@ if
 (
 handleStrings
 )
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_String
 maybeInput
@@ -12217,7 +12217,7 @@ tag
 isString
 )
 ;
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType_Object
 maybeInput
@@ -16169,7 +16169,7 @@ void
 MacroAssembler
 :
 :
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType
 type

@@ -7352,7 +7352,7 @@ that
 type
 .
 void
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType
 type
