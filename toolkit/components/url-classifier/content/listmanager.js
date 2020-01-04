@@ -1423,8 +1423,17 @@ fuzz
 of
 0
 -
-5
+1
 minutes
+for
+both
+v2
+and
+v4
+according
+to
+Bug
+1305478
 .
 initialUpdateDelay
 +
@@ -1440,7 +1449,7 @@ random
 )
 *
 (
-5
+1
 *
 60
 *
