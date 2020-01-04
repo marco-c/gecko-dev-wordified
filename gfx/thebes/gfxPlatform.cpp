@@ -5236,7 +5236,7 @@ ShutDown
 layers
 :
 :
-ImageBridgeChild
+CompositorBridgeChild
 :
 :
 ShutDown
@@ -5246,7 +5246,7 @@ ShutDown
 layers
 :
 :
-CompositorBridgeChild
+ImageBridgeChild
 :
 :
 ShutDown
