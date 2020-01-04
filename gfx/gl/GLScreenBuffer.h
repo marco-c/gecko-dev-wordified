@@ -1068,6 +1068,16 @@ GLenum
 userMode
 )
 ;
+GLenum
+GetReadBufferMode
+(
+)
+const
+{
+return
+mUserReadBufferMode
+;
+}
 /
 *
 *

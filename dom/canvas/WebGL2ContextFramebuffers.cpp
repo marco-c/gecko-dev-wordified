@@ -2942,6 +2942,14 @@ MakeContextCurrent
 (
 )
 ;
+mBoundReadFramebuffer
+-
+>
+SetReadBufferMode
+(
+mode
+)
+;
 gl
 -
 >
