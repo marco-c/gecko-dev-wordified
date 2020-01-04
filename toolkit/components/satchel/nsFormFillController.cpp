@@ -2603,6 +2603,9 @@ nsFormFillController
 :
 OnTextEntered
 (
+nsIDOMEvent
+*
+aEvent
 bool
 *
 aPrevent
@@ -5061,6 +5064,7 @@ mController
 HandleEnter
 (
 false
+aEvent
 &
 cancel
 )

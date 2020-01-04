@@ -53,7 +53,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 autofilled
 "
 autofilled
@@ -92,7 +92,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 modified
 "
 backspaced

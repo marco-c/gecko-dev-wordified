@@ -263,6 +263,9 @@ EnterMatch
 (
 bool
 aIsPopupSelection
+nsIDOMEvent
+*
+aEvent
 )
 ;
 nsresult

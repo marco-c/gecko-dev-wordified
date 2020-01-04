@@ -366,7 +366,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 "
 keyword
 ab
