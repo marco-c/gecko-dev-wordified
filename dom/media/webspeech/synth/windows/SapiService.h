@@ -251,6 +251,14 @@ SapiService
 (
 )
 ;
+already_AddRefed
+<
+ISpVoice
+>
+InitSapiInstance
+(
+)
+;
 bool
 RegisterVoices
 (
@@ -271,12 +279,6 @@ SapiCallback
 >
 >
 mCallbacks
-;
-RefPtr
-<
-ISpVoice
->
-mSapiClient
 ;
 bool
 mInitialized
