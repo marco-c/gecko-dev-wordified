@@ -5666,10 +5666,10 @@ the
 ServiceWorker
 configuration
 .
-BrowserConfiguration
+ServiceWorkerConfiguration
 configuration
 ;
-SendGetBrowserConfiguration
+SendGetServiceWorkerConfiguration
 (
 &
 configuration
