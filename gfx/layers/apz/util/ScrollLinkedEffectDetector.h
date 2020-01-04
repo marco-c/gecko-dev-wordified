@@ -252,6 +252,7 @@ PositioningPropertyMutated
 (
 )
 ;
+explicit
 ScrollLinkedEffectDetector
 (
 nsIDocument
