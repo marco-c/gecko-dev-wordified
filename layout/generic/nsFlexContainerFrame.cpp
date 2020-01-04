@@ -33103,6 +33103,12 @@ nsMargin
 *
 cachedOffsets
 =
+static_cast
+<
+nsMargin
+*
+>
+(
 props
 .
 Get
@@ -33112,6 +33118,7 @@ nsIFrame
 :
 ComputedOffsetProperty
 (
+)
 )
 )
 ;

@@ -624,6 +624,12 @@ nsRect
 *
 r
 =
+static_cast
+<
+nsRect
+*
+>
+(
 aFrame
 -
 >
@@ -638,6 +644,7 @@ nsIFrame
 :
 PreEffectsBBoxProperty
 (
+)
 )
 )
 ;

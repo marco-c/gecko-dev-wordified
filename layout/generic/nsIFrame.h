@@ -23877,6 +23877,15 @@ nsWeakPtr
 *
 list
 =
+static_cast
+<
+nsTArray
+<
+nsWeakPtr
+>
+*
+>
+(
 Properties
 (
 )
@@ -23885,6 +23894,7 @@ Get
 (
 PaintedPresShellsProperty
 (
+)
 )
 )
 ;

@@ -36967,6 +36967,12 @@ nsFrameList
 *
 list
 =
+static_cast
+<
+nsFrameList
+*
+>
+(
 Properties
 (
 )
@@ -36975,6 +36981,7 @@ Get
 (
 OutsideBulletProperty
 (
+)
 )
 )
 ;
@@ -37049,6 +37056,12 @@ nsFrameList
 *
 result
 =
+static_cast
+<
+nsFrameList
+*
+>
+(
 Properties
 (
 )
@@ -37057,6 +37070,7 @@ Get
 (
 PushedFloatProperty
 (
+)
 )
 )
 ;
@@ -37166,6 +37180,12 @@ nsFrameList
 *
 result
 =
+static_cast
+<
+nsFrameList
+*
+>
+(
 Properties
 (
 )
@@ -37174,6 +37194,7 @@ Remove
 (
 PushedFloatProperty
 (
+)
 )
 )
 ;

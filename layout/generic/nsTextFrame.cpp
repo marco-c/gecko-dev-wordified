@@ -18320,6 +18320,12 @@ TabWidthStore
 *
 tabWidths
 =
+static_cast
+<
+TabWidthStore
+*
+>
+(
 Properties
 (
 )
@@ -18328,6 +18334,7 @@ Get
 (
 TabWidthProperty
 (
+)
 )
 )
 ;
@@ -22540,6 +22547,12 @@ mReflowing
 {
 mTabWidths
 =
+static_cast
+<
+TabWidthStore
+*
+>
+(
 mFrame
 -
 >
@@ -22551,6 +22564,7 @@ Get
 (
 TabWidthProperty
 (
+)
 )
 )
 ;
@@ -41584,8 +41598,7 @@ aProvider
 )
 {
 const
-EmphasisMarkInfo
-*
+auto
 info
 =
 Properties

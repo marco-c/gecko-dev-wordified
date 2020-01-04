@@ -6331,6 +6331,12 @@ aFrame
 )
 {
 return
+static_cast
+<
+OutOfFlowDisplayData
+*
+>
+(
 aFrame
 -
 >
@@ -6342,6 +6348,7 @@ Get
 (
 OutOfFlowDisplayDataProperty
 (
+)
 )
 )
 ;

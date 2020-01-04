@@ -7230,6 +7230,12 @@ nsMargin
 *
 physicalOffsets
 =
+static_cast
+<
+nsMargin
+*
+>
+(
 props
 .
 Get
@@ -7239,6 +7245,7 @@ nsIFrame
 :
 ComputedOffsetProperty
 (
+)
 )
 )
 ;
@@ -7392,6 +7399,12 @@ nsPoint
 *
 normalPosition
 =
+static_cast
+<
+nsPoint
+*
+>
+(
 props
 .
 Get
@@ -7401,6 +7414,7 @@ nsIFrame
 :
 NormalPositionProperty
 (
+)
 )
 )
 ;
