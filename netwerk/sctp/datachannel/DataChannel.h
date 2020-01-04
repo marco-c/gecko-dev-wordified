@@ -1890,11 +1890,10 @@ DataChannel
 ;
 public
 :
-void
-Destroy
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
+DataChannel
 )
-;
 /
 /
 when
@@ -1906,10 +1905,11 @@ connection
 after
 stream
 RESET
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+void
+DestroyLocked
 (
-DataChannel
 )
+;
 /
 /
 Close
