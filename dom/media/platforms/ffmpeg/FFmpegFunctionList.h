@@ -156,6 +156,11 @@ AV_FUNC
 av_parser_parse2
 0
 )
+AV_FUNC
+(
+avcodec_version
+0
+)
 /
 *
 libavutil
