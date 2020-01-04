@@ -107,6 +107,17 @@ use
 strict
 "
 ;
+/
+/
+Make
+this
+available
+to
+both
+AMD
+and
+CJS
+environments
 define
 (
 function
@@ -258,7 +269,7 @@ an
 existing
 rep
 .
-var
+let
 reps
 =
 [
@@ -270,7 +281,7 @@ ArrayRep
 Obj
 ]
 ;
-var
+let
 defaultRep
 ;
 /
@@ -343,7 +354,7 @@ function
 (
 )
 {
-var
+let
 rep
 =
 getRep
@@ -432,13 +443,11 @@ getRep
 object
 )
 {
-var
+let
 type
 =
 typeof
-(
 object
-)
 ;
 if
 (
@@ -479,7 +488,7 @@ class
 }
 for
 (
-var
+let
 i
 =
 0
@@ -495,7 +504,7 @@ i
 +
 )
 {
-var
+let
 rep
 =
 reps

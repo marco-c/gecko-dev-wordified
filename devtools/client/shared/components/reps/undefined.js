@@ -107,6 +107,17 @@ use
 strict
 "
 ;
+/
+/
+Make
+this
+available
+to
+both
+AMD
+and
+CJS
+environments
 define
 (
 function
@@ -216,6 +227,7 @@ undefined
 "
 )
 )
+;
 }
 }
 )

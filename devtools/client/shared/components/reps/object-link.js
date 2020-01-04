@@ -107,6 +107,17 @@ use
 strict
 "
 ;
+/
+/
+Make
+this
+available
+to
+both
+AMD
+and
+CJS
+environments
 define
 (
 function
@@ -176,7 +187,7 @@ function
 (
 )
 {
-var
+let
 className
 =
 this
@@ -185,7 +196,7 @@ props
 .
 className
 ;
-var
+let
 objectClassName
 =
 className
@@ -200,7 +211,7 @@ className
 "
 "
 ;
-var
+let
 linkClassName
 =
 "
@@ -238,6 +249,7 @@ props
 children
 )
 )
+;
 }
 }
 )
