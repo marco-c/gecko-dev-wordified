@@ -12864,9 +12864,7 @@ if
 aLongTap
 )
 {
-nsresult
-rv
-=
+return
 SynthesizeNativeTouchPoint
 (
 pointerId
@@ -12876,9 +12874,6 @@ aPoint
 0
 nullptr
 )
-;
-return
-rv
 ;
 }
 /
