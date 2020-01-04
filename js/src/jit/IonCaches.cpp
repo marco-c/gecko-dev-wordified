@@ -4777,7 +4777,7 @@ scratchReg
 ;
 masm
 .
-branch32
+branch64
 (
 Assembler
 :
@@ -4797,7 +4797,7 @@ offsetOfGeneration
 (
 )
 )
-Imm32
+Imm64
 (
 expandoAndGeneration
 -

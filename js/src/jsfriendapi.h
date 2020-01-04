@@ -7353,7 +7353,7 @@ object
 *
 and
 a
-uint32
+uint64
 value
 .
 If
@@ -7480,7 +7480,7 @@ Value
 >
 expando
 ;
-uint32_t
+uint64_t
 generation
 ;
 }

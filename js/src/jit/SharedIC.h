@@ -16955,7 +16955,7 @@ ExpandoAndGeneration
 *
 expandoAndGeneration_
 ;
-uint32_t
+uint64_t
 generation_
 ;
 public
@@ -16974,7 +16974,7 @@ shape
 ExpandoAndGeneration
 *
 expandoAndGeneration
-uint32_t
+uint64_t
 generation
 Shape
 *
@@ -17047,7 +17047,7 @@ return
 expandoAndGeneration_
 ;
 }
-uint32_t
+uint64_t
 generation
 (
 )
@@ -17060,7 +17060,7 @@ generation_
 void
 setGeneration
 (
-uint32_t
+uint64_t
 value
 )
 {

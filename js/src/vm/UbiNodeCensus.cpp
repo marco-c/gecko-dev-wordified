@@ -5114,7 +5114,7 @@ pointers
 into
 it
 .
-uint32_t
+Generation
 generation
 =
 count
