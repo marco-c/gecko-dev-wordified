@@ -212,7 +212,7 @@ PerformanceEntry
 )
 PerformanceResourceTiming
 (
-nsPerformanceTiming
+PerformanceTiming
 *
 aPerformanceTiming
 nsPerformance
@@ -801,7 +801,7 @@ mNextHopProtocol
 ;
 RefPtr
 <
-nsPerformanceTiming
+PerformanceTiming
 >
 mTiming
 ;

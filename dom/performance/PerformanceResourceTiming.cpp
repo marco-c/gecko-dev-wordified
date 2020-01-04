@@ -174,7 +174,7 @@ PerformanceResourceTiming
 :
 PerformanceResourceTiming
 (
-nsPerformanceTiming
+PerformanceTiming
 *
 aPerformanceTiming
 nsPerformance

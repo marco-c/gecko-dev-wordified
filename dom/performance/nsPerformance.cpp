@@ -413,23 +413,23 @@ workers
 ;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
-nsPerformanceTiming
+PerformanceTiming
 mPerformance
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
-nsPerformanceTiming
+PerformanceTiming
 AddRef
 )
 NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 (
-nsPerformanceTiming
+PerformanceTiming
 Release
 )
-nsPerformanceTiming
+PerformanceTiming
 :
 :
-nsPerformanceTiming
+PerformanceTiming
 (
 nsPerformance
 *
@@ -519,7 +519,7 @@ is
 null
 if
 this
-nsPerformanceTiming
+PerformanceTiming
 object
 is
 /
@@ -549,7 +549,7 @@ null
 value
 if
 this
-nsPerformanceTiming
+PerformanceTiming
 object
 is
 being
@@ -648,7 +648,7 @@ the
 timestamps
 .
 void
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 InitializeTimingInfo
@@ -791,17 +791,17 @@ mCacheReadEnd
 ;
 }
 }
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ~
-nsPerformanceTiming
+PerformanceTiming
 (
 )
 {
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 FetchStartHighRes
@@ -890,7 +890,7 @@ mFetchStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 FetchStart
@@ -910,7 +910,7 @@ FetchStartHighRes
 ;
 }
 bool
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 CheckAllowedOrigin
@@ -1094,7 +1094,7 @@ principal
 ;
 }
 bool
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 TimingAllowed
@@ -1107,7 +1107,7 @@ mTimingAllowed
 ;
 }
 uint16_t
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 GetRedirectCount
@@ -1151,7 +1151,7 @@ mRedirectCount
 ;
 }
 bool
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ShouldReportCrossOriginRedirect
@@ -1298,7 +1298,7 @@ of
 this
 method
 (
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectStart
@@ -1332,7 +1332,7 @@ enabled
 *
 /
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectStartHighRes
@@ -1368,7 +1368,7 @@ mRedirectStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectStart
@@ -1503,7 +1503,7 @@ this
 method
 *
 (
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectEnd
@@ -1537,7 +1537,7 @@ enabled
 *
 /
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectEndHighRes
@@ -1573,7 +1573,7 @@ mRedirectEnd
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RedirectEnd
@@ -1645,7 +1645,7 @@ return
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 DomainLookupStartHighRes
@@ -1681,7 +1681,7 @@ mDomainLookupStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 DomainLookupStart
@@ -1701,7 +1701,7 @@ DomainLookupStartHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 DomainLookupEndHighRes
@@ -1760,7 +1760,7 @@ mDomainLookupEnd
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 DomainLookupEnd
@@ -1780,7 +1780,7 @@ DomainLookupEndHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ConnectStartHighRes
@@ -1826,7 +1826,7 @@ mConnectStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ConnectStart
@@ -1846,7 +1846,7 @@ ConnectStartHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ConnectEndHighRes
@@ -1905,7 +1905,7 @@ mConnectEnd
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ConnectEnd
@@ -1925,7 +1925,7 @@ ConnectEndHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RequestStartHighRes
@@ -1961,7 +1961,7 @@ mRequestStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 RequestStart
@@ -1981,7 +1981,7 @@ RequestStartHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ResponseStartHighRes
@@ -2046,7 +2046,7 @@ mResponseStart
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ResponseStart
@@ -2066,7 +2066,7 @@ ResponseStartHighRes
 ;
 }
 DOMHighResTimeStamp
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ResponseEndHighRes
@@ -2154,7 +2154,7 @@ mResponseEnd
 ;
 }
 DOMTimeMilliSec
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 ResponseEnd
@@ -2174,7 +2174,7 @@ ResponseEndHighRes
 ;
 }
 bool
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 IsInitialized
@@ -2188,7 +2188,7 @@ mInitialized
 }
 JSObject
 *
-nsPerformanceTiming
+PerformanceTiming
 :
 :
 WrapObject
@@ -2517,7 +2517,7 @@ mMozMemory
 )
 ;
 }
-nsPerformanceTiming
+PerformanceTiming
 *
 nsPerformance
 :
@@ -2582,7 +2582,7 @@ value
 mTiming
 =
 new
-nsPerformanceTiming
+PerformanceTiming
 (
 this
 mChannel
@@ -3037,12 +3037,12 @@ offset
 .
 RefPtr
 <
-nsPerformanceTiming
+PerformanceTiming
 >
 performanceTiming
 =
 new
-nsPerformanceTiming
+PerformanceTiming
 (
 this
 timedChannel
@@ -3058,7 +3058,7 @@ object
 will
 use
 the
-nsPerformanceTiming
+PerformanceTiming
 /
 /
 object
