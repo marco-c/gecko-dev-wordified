@@ -1503,7 +1503,7 @@ y
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 contentVisibleRegion

@@ -906,7 +906,7 @@ height
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 bounded

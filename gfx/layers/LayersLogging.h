@@ -816,7 +816,7 @@ typename
 RegionType
 :
 :
-RectIterator
+OldRectIterator
 it
 (
 r

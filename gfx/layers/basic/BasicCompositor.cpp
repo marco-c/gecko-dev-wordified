@@ -3685,7 +3685,7 @@ pixels
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 mInvalidRegion
