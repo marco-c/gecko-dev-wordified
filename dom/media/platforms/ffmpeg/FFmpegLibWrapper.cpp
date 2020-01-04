@@ -218,8 +218,7 @@ mVersion
 &
 &
 micro
-!
-=
+<
 100
 )
 {
@@ -228,7 +227,8 @@ micro
 a
 micro
 version
-of
+>
+=
 100
 indicates
 that
