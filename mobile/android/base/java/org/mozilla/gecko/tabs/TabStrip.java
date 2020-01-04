@@ -185,15 +185,6 @@ mozilla
 gecko
 .
 BrowserApp
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-BrowserApp
 .
 TabStripInterface
 ;
