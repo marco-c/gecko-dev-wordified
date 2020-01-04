@@ -1371,8 +1371,10 @@ methods
 -
 -
 -
+already_AddRefed
+<
 Element
-*
+>
 nsWSRunObject
 :
 :
