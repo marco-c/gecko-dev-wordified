@@ -2082,6 +2082,11 @@ files
 .
 if
 (
+IsSandboxedProcess
+(
+)
+&
+&
 !
 sandboxing
 :
