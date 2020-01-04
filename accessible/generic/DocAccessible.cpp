@@ -8683,10 +8683,11 @@ mOwner
 ;
 if
 (
+!
 owner
 -
 >
-IsDefunct
+IsInDocument
 (
 )
 )
@@ -8695,7 +8696,7 @@ IsDefunct
 /
 eventually
 died
-until
+before
 we
 '
 ve
@@ -8722,6 +8723,15 @@ if
 (
 !
 child
+|
+|
+!
+child
+-
+>
+IsInDocument
+(
+)
 )
 {
 continue
