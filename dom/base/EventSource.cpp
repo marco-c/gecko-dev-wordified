@@ -6176,15 +6176,7 @@ message
 >
 mLastEventID
 nullptr
-Sequence
-<
-OwningNonNull
-<
-MessagePort
->
->
-(
-)
+nullptr
 )
 ;
 event
