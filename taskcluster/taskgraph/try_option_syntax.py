@@ -173,6 +173,12 @@ hazard
 '
 l10n
 '
+    
+'
+upload
+-
+symbols
+'
 ]
 )
 #
