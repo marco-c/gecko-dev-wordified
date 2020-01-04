@@ -1233,17 +1233,6 @@ h
 ON
 h
 .
-url_hash
-=
-hash
-(
-t
-.
-url
-)
-AND
-h
-.
 url
 =
 t

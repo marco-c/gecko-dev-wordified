@@ -677,7 +677,6 @@ now
 Observe
 history
 .
-let
 historyObserver
 =
 {

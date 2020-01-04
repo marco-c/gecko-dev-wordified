@@ -7535,14 +7535,6 @@ moz_places
 +
 "
 WHERE
-url_hash
-=
-hash
-(
-:
-url
-)
-AND
 url
 =
 :
