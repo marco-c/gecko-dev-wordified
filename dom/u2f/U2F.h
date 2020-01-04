@@ -727,6 +727,9 @@ Authenticator
 >
 mAuthenticators
 ;
+bool
+mInitialized
+;
 ~
 U2F
 (
