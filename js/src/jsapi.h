@@ -37341,9 +37341,9 @@ void
 )
 JS_SetParallelParsingEnabled
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 bool
 enabled
 )
@@ -37355,9 +37355,9 @@ void
 )
 JS_SetOffthreadIonCompilationEnabled
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 bool
 enabled
 )
@@ -37512,9 +37512,9 @@ void
 )
 JS_SetGlobalJitCompilerOption
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSJitCompilerOption
 opt
 uint32_t
@@ -37528,9 +37528,9 @@ int
 )
 JS_GetGlobalJitCompilerOption
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSJitCompilerOption
 opt
 )
