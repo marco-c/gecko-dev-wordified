@@ -480,6 +480,13 @@ BaseShapeSet
 (
 )
 )
+initialShapes
+(
+zone
+InitialShapeSet
+(
+)
+)
 selfHostingScriptSource
 (
 nullptr
