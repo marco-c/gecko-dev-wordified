@@ -616,6 +616,16 @@ adjustedTextSize
 ;
 item
 .
+style
+.
+display
+=
+option
+.
+display
+;
+item
+.
 setAttribute
 (
 "
