@@ -605,9 +605,12 @@ mIOThread
 Mutex
 mMutex
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIThread
+>
 >
 mThreads
 ;
