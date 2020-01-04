@@ -2118,8 +2118,10 @@ GetSize
 0
 )
 {
+RefPtr
+<
 MediaData
-*
+>
 nextFrame
 =
 VideoQueue
