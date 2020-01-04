@@ -1372,7 +1372,6 @@ val
 nullptr
 helper
 nullptr
-nullptr
 false
 nullptr
 )

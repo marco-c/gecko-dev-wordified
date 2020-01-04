@@ -3569,7 +3569,6 @@ aVal
 aHolder
 helper
 aIID
-nullptr
 aAllowWrapping
 &
 rv

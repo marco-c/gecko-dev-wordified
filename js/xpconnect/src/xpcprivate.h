@@ -16156,16 +16156,6 @@ null
 )
 *
 param
-Interface
-the
-interface
-of
-src
-that
-we
-want
-*
-param
 cache
 the
 wrapper
@@ -16266,10 +16256,6 @@ const
 nsID
 *
 iid
-XPCNativeInterface
-*
-*
-Interface
 bool
 allowNativeWrapper
 nsresult
