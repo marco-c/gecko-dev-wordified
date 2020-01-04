@@ -4643,7 +4643,7 @@ Properties
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
@@ -4662,7 +4662,7 @@ Properties
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 BaseLevelProperty
@@ -4944,7 +4944,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
@@ -4962,7 +4962,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 BaseLevelProperty
@@ -4985,7 +4985,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 ParagraphDepthProperty
@@ -5169,7 +5169,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
@@ -5187,7 +5187,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 BaseLevelProperty
@@ -5210,7 +5210,7 @@ propTable
 Set
 (
 frame
-nsIFrame
+nsBidi
 :
 :
 ParagraphDepthProperty
@@ -11442,7 +11442,7 @@ props
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
@@ -11463,7 +11463,7 @@ props
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 BaseLevelProperty
@@ -11481,7 +11481,7 @@ props
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 ParagraphDepthProperty
@@ -11573,7 +11573,7 @@ frameProps
 .
 Set
 (
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
@@ -11589,7 +11589,7 @@ frameProps
 .
 Set
 (
-nsIFrame
+nsBidi
 :
 :
 BaseLevelProperty
@@ -11605,7 +11605,7 @@ frameProps
 .
 Set
 (
-nsIFrame
+nsBidi
 :
 :
 ParagraphDepthProperty

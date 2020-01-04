@@ -41097,7 +41097,7 @@ Properties
 .
 Get
 (
-nsIFrame
+nsBidi
 :
 :
 EmbeddingLevelProperty
