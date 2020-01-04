@@ -355,16 +355,6 @@ destroy
 (
 )
 {
-gRoot
-=
-gStore
-=
-gApp
-=
-gProvider
-=
-null
-;
 return
 Task
 .
