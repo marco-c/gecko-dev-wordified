@@ -714,11 +714,14 @@ nsIURI
 >
 mReferrerURI
 ;
+nsTArray
+<
 nsCOMPtr
 <
 nsIWeakReference
 >
-mSource
+>
+mSources
 ;
 private
 :

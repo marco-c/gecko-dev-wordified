@@ -5737,6 +5737,15 @@ nsID
 aUUID
 )
 ;
+static
+bool
+PrefetchEnabled
+(
+nsIDocShell
+*
+aDocShell
+)
+;
 /
 *
 *

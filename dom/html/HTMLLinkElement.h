@@ -250,11 +250,6 @@ UpdateImport
 (
 )
 ;
-void
-UpdatePreconnect
-(
-)
-;
 /
 /
 nsIDOMEventTarget
@@ -1001,11 +996,6 @@ nsAString
 text
 )
 override
-;
-bool
-HasDNSPrefetchRel
-(
-)
 ;
 RefPtr
 <
