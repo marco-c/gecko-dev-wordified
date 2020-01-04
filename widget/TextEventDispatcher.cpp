@@ -2183,6 +2183,8 @@ void
 aData
 uint32_t
 aIndexOfKeypress
+bool
+aNeedsCallback
 )
 {
 /
@@ -3055,6 +3057,9 @@ eKeyPress
 &
 &
 (
+aNeedsCallback
+|
+|
 keyEvent
 .
 IsControl
@@ -3320,6 +3325,8 @@ aStatus
 void
 *
 aData
+bool
+aNeedsCallback
 )
 {
 /
@@ -3517,6 +3524,7 @@ aKeyboardEvent
 aStatus
 aData
 i
+aNeedsCallback
 )
 )
 {
