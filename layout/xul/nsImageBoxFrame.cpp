@@ -3634,7 +3634,7 @@ nscoord
 nsImageBoxFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

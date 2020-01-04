@@ -58675,7 +58675,7 @@ nscoord
 nsFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

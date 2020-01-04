@@ -8941,7 +8941,7 @@ nscoord
 nsXULScrollFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &
@@ -8966,7 +8966,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )

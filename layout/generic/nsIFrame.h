@@ -21286,7 +21286,7 @@ GetXULFlex
 ;
 virtual
 nscoord
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

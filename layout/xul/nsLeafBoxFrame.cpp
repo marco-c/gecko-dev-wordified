@@ -1861,7 +1861,7 @@ aDesiredSize
 .
 SetBlockStartAscent
 (
-GetBoxAscent
+GetXULBoxAscent
 (
 state
 )
@@ -2143,7 +2143,7 @@ nscoord
 nsLeafBoxFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &
@@ -2154,7 +2154,7 @@ return
 nsBox
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )
