@@ -3382,7 +3382,12 @@ target
 return
 target
 .
-isRemote
+hasActor
+(
+"
+console
+"
+)
 ;
 }
 build
