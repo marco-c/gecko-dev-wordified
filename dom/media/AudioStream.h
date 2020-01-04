@@ -2137,6 +2137,8 @@ cubeb_stream_params
 aParams
 TimeStamp
 aStartTime
+bool
+aIsFirst
 )
 ;
 static
@@ -2459,9 +2461,6 @@ called
 ;
 StreamState
 mState
-;
-bool
-mIsFirst
 ;
 DataSource
 &
