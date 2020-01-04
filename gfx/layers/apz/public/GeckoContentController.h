@@ -391,7 +391,7 @@ aPoint
 |
 is
 in
-CSS
+LD
 pixels
 relative
 to
@@ -410,7 +410,7 @@ HandleTap
 TapType
 aType
 const
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 Modifiers

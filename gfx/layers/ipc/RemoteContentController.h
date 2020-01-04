@@ -283,7 +283,7 @@ HandleTap
 TapType
 aTapType
 const
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 Modifiers

@@ -4302,7 +4302,7 @@ to
 the
 screen
 to
-CSSPoint
+LayoutDevicePoint
 relative
 *
 to
@@ -4325,7 +4325,7 @@ must
 be
 converted
 to
-CSSPoint
+LayoutDevicePoint
 relative
 to
 the
@@ -4350,7 +4350,7 @@ const
 ScreenIntPoint
 &
 aPoint
-CSSPoint
+LayoutDevicePoint
 *
 aOut
 )

@@ -362,7 +362,7 @@ HandleTap
 TapType
 aTapType
 const
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 Modifiers
@@ -417,7 +417,7 @@ PostTask
 NewRunnableMethod
 <
 TapType
-CSSPoint
+LayoutDevicePoint
 Modifiers
 ScrollableLayerGuid
 uint64_t
