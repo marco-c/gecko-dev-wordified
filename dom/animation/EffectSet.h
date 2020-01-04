@@ -302,6 +302,17 @@ aPseudoType
 static
 EffectSet
 *
+GetEffectSet
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
+EffectSet
+*
 GetOrCreateEffectSet
 (
 dom
