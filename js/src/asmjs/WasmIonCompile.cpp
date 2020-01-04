@@ -8751,7 +8751,7 @@ val
 =
 f
 .
-readI32
+readVarU32
 (
 )
 ;
