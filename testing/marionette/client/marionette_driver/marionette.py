@@ -7656,6 +7656,8 @@ set_prefs
 original_prefs
 )
     
+do_process_check
+    
 def
 enforce_gecko_prefs
 (
@@ -8193,6 +8195,8 @@ was
 aborted
 '
 tb
+    
+do_process_check
     
 def
 restart
