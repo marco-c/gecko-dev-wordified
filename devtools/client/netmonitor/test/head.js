@@ -3911,8 +3911,6 @@ querySelectorAll
 (
 "
 .
-requests
--
 menu
 -
 filter
@@ -3959,7 +3957,9 @@ is
 (
 button
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 checked
@@ -3982,7 +3982,7 @@ a
 '
 checked
 '
-attribute
+class
 .
 "
 )
@@ -3994,7 +3994,9 @@ is
 (
 button
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 checked
@@ -4018,7 +4020,7 @@ a
 '
 checked
 '
-attribute
+class
 .
 "
 )
