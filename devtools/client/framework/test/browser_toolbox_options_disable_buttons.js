@@ -230,8 +230,6 @@ testPrefsAreRespectedWhenReopeningToolbox
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -351,8 +349,6 @@ devtoolsToolbox
 let
 deferred
 =
-promise
-.
 defer
 (
 )

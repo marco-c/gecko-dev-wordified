@@ -125,7 +125,7 @@ this
 file
 expects
 "
-promise
+defer
 "
 to
 be
@@ -312,8 +312,6 @@ predicate
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -471,8 +469,6 @@ actionType
 let
 deferred
 =
-promise
-.
 defer
 (
 )

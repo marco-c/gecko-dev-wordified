@@ -153,6 +153,20 @@ promise
 )
 ;
 var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+var
 Services
 =
 require
@@ -1995,8 +2009,6 @@ id
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2689,8 +2701,6 @@ create
 let
 domReady
 =
-promise
-.
 defer
 (
 )
@@ -8583,8 +8593,6 @@ id
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -9140,8 +9148,6 @@ else
 let
 buildDeferred
 =
-promise
-.
 defer
 (
 )
@@ -15615,8 +15621,6 @@ this
 .
 _performanceFrontConnection
 =
-promise
-.
 defer
 (
 )

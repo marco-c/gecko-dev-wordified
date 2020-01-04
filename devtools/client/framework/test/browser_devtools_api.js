@@ -1839,8 +1839,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1929,8 +1927,6 @@ DTI_destroy
 )
 {
 return
-promise
-.
 defer
 (
 null

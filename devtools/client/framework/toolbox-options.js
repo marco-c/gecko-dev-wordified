@@ -118,12 +118,16 @@ Services
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -2766,8 +2770,6 @@ destroyPromise
 let
 deferred
 =
-promise
-.
 defer
 (
 )

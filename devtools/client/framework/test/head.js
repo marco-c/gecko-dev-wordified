@@ -408,8 +408,6 @@ p
 resolve
 }
 =
-promise
-.
 defer
 (
 )
@@ -556,8 +554,6 @@ messageManager
 let
 def
 =
-promise
-.
 defer
 (
 )
