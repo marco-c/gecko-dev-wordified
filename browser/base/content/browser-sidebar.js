@@ -1372,8 +1372,6 @@ resolve
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -1382,7 +1380,6 @@ show
 commandID
 )
 ;
-}
 }
 /
 *

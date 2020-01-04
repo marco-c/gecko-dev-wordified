@@ -417,10 +417,11 @@ aData
 uri
 )
 )
+{
 return
 false
 ;
-else
+}
 seen
 .
 push
@@ -505,6 +506,7 @@ nsINavHistoryQueryOptions
 .
 SORT_BY_DATE_DESCENDING
 )
+{
 return
 b
 .
@@ -514,7 +516,7 @@ a
 .
 lastVisit
 ;
-else
+}
 if
 (
 sortingMode
@@ -526,6 +528,7 @@ nsINavHistoryQueryOptions
 .
 SORT_BY_VISITCOUNT_DESCENDING
 )
+{
 return
 b
 .
@@ -535,7 +538,7 @@ a
 .
 visitCount
 ;
-else
+}
 return
 getFirstIndexFor
 (

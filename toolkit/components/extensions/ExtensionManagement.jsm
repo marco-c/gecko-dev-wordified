@@ -388,7 +388,6 @@ return
 0
 ;
 }
-else
 if
 (
 windowId
@@ -402,12 +401,9 @@ return
 1
 ;
 }
-else
-{
 return
 windowId
 ;
-}
 }
 /
 /

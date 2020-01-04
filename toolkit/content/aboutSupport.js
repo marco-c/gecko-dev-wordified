@@ -845,8 +845,6 @@ copy
 return
 ;
 }
-else
-{
 (
 "
 crashes
@@ -882,7 +880,6 @@ copy
 "
 )
 ;
-}
 if
 (
 data

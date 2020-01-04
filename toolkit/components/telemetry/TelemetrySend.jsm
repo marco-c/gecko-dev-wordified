@@ -1040,8 +1040,6 @@ aPing
 )
 ;
 }
-else
-{
 return
 TelemetryStorage
 .
@@ -1050,7 +1048,6 @@ savePendingPing
 aPing
 )
 ;
-}
 }
 /
 *
@@ -5810,8 +5807,6 @@ id
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -5819,7 +5814,6 @@ resolve
 (
 )
 ;
-}
 }
 _getSubmissionPath
 :

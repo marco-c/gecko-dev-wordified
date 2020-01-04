@@ -1166,8 +1166,6 @@ chunk
 )
 ;
 }
-else
-{
 let
 contentType
 ;
@@ -1343,16 +1341,12 @@ boundary
 )
 ;
 }
-else
-{
 return
 parseUrlEncoded
 (
 chunk
 )
 ;
-}
-}
 }
 }
 finally

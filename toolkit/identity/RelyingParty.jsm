@@ -872,8 +872,6 @@ options
 )
 ;
 }
-else
-{
 /
 /
 A
@@ -916,7 +914,6 @@ aRpCaller
 options
 )
 ;
-}
 /
 /
 If
@@ -967,8 +964,6 @@ ready
 '
 ;
 }
-else
-{
 if
 (
 aRpCaller
@@ -990,8 +985,6 @@ origin
 )
 ;
 }
-else
-{
 return
 aRpCaller
 .
@@ -999,8 +992,6 @@ doReady
 (
 )
 ;
-}
-}
 }
 /
 *

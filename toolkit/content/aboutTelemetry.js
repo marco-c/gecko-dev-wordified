@@ -1311,12 +1311,9 @@ return
 mainWindow
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 /
 *

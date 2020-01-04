@@ -6337,8 +6337,6 @@ errors
 return
 ;
 }
-else
-{
 /
 /
 Add
@@ -6357,7 +6355,6 @@ addDownloadListener
 this
 )
 ;
-}
 if
 (
 activeUpdate

@@ -1919,8 +1919,6 @@ Custom
 .
 .
 }
-else
-{
 return
 0
 ;
@@ -1931,7 +1929,6 @@ return
 blank
 -
 -
-}
 }
 function
 hfIdToValue
@@ -3186,12 +3183,9 @@ aVal
 4
 ;
 }
-else
-{
 return
 aVal
 ;
-}
 }
 function
 convertMarginInchesToUnits
@@ -3213,12 +3207,9 @@ aVal
 4
 ;
 }
-else
-{
 return
 aVal
 ;
-}
 }
 /
 /

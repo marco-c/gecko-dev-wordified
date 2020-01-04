@@ -3485,7 +3485,6 @@ document_idle
 "
 ;
 }
-else
 if
 (
 readyState
@@ -3502,14 +3501,11 @@ document_end
 "
 ;
 }
-else
-{
 return
 "
 document_start
 "
 ;
-}
 }
 observe
 :

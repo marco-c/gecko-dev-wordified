@@ -1676,8 +1676,6 @@ prop
 ]
 ;
 }
-else
-{
 return
 this
 .
@@ -1691,7 +1689,6 @@ tab
 prop
 ]
 ;
-}
 }
 shutdown
 (

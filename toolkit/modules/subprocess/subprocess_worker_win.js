@@ -1936,8 +1936,6 @@ handles
 ]
 ;
 }
-else
-{
 let
 handles
 =
@@ -1973,7 +1971,6 @@ handles
 0
 ]
 ;
-}
 }
 ;
 their_pipes

@@ -328,8 +328,6 @@ return
 '
 ;
 }
-else
-{
 return
 String
 (
@@ -362,7 +360,6 @@ str
 }
 )
 ;
-}
 }
 ;
 this

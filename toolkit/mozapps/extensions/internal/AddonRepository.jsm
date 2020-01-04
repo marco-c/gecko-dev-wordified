@@ -10262,8 +10262,6 @@ resolve
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -10273,7 +10271,6 @@ flush
 (
 )
 ;
-}
 }
 /
 *

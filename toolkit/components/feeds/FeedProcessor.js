@@ -12043,7 +12043,6 @@ return
 "
 "
 ;
-else
 return
 null
 ;
@@ -12697,8 +12696,6 @@ stuff
 return
 ;
 }
-else
-{
 container
 =
 container
@@ -12715,7 +12712,6 @@ Ci
 nsIWritablePropertyBag2
 )
 ;
-}
 }
 /
 /

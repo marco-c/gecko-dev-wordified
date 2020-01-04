@@ -2175,8 +2175,6 @@ aDownload
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2187,7 +2185,6 @@ add
 aDownload
 )
 ;
-}
 }
 /
 *
@@ -2323,8 +2320,6 @@ aDownload
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2335,7 +2330,6 @@ remove
 aDownload
 )
 ;
-}
 }
 /
 /

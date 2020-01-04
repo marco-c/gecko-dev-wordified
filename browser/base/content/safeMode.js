@@ -319,8 +319,6 @@ return
 false
 ;
 }
-else
-{
 /
 /
 Continue
@@ -335,7 +333,6 @@ needed
 return
 true
 ;
-}
 }
 function
 onCancel
@@ -378,8 +375,6 @@ return
 true
 ;
 }
-else
-{
 /
 /
 The
@@ -400,7 +395,6 @@ showResetDialog
 (
 )
 ;
-}
 return
 false
 ;

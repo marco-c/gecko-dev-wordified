@@ -4512,8 +4512,6 @@ index
 "
 ;
 }
-else
-{
 /
 /
 For
@@ -4540,7 +4538,6 @@ string
 return
 dollarSigns
 ;
-}
 }
 ;
 return

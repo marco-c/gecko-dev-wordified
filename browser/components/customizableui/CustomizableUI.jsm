@@ -1917,8 +1917,6 @@ return
 true
 ;
 }
-else
-{
 /
 /
 This
@@ -1953,13 +1951,9 @@ win
 )
 ;
 }
-}
-else
-{
 return
 false
 ;
-}
 }
 }
 true

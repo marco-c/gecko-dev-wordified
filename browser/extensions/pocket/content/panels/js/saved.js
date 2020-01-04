@@ -1601,8 +1601,6 @@ return
 null
 ;
 }
-else
-{
 myself
 .
 hideTagsError
@@ -1625,7 +1623,6 @@ toLowerCase
 )
 }
 ;
-}
 }
 onReady
 :
@@ -3559,8 +3556,6 @@ return
 '
 ;
 }
-else
-{
 return
 String
 (
@@ -3593,7 +3588,6 @@ str
 }
 )
 ;
-}
 }
 ;
 this

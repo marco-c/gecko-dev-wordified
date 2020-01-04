@@ -1992,12 +1992,9 @@ return
 mainWindow
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 /
 *
@@ -4735,8 +4732,6 @@ headeredViewsDeck
 selectedPanel
 ;
 }
-else
-{
 return
 this
 .
@@ -4744,7 +4739,6 @@ viewPort
 .
 selectedPanel
 ;
-}
 }
 set
 displayedView
@@ -9548,7 +9542,6 @@ return
 askToActivate
 "
 ;
-else
 return
 "
 enabled

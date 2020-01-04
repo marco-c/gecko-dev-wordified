@@ -820,8 +820,6 @@ preventDefault
 return
 ;
 }
-else
-{
 /
 /
 Leave
@@ -844,7 +842,6 @@ keypress
 .
 return
 ;
-}
 }
 /
 /

@@ -340,8 +340,6 @@ chromeWin
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -354,7 +352,6 @@ contentWindow
 .
 usePrivateBrowsing
 ;
-}
 }
 privacyContextFromWindow
 :

@@ -258,8 +258,6 @@ return
 endStr
 ;
 }
-else
-{
 var
 frontStr
 =
@@ -280,7 +278,6 @@ frontStr
 .
 "
 ;
-}
 }
 return
 aStr

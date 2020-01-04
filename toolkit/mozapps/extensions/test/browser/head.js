@@ -2130,8 +2130,6 @@ undefined
 }
 ;
 }
-else
-{
 return
 {
 name
@@ -2159,7 +2157,6 @@ length
 )
 }
 ;
-}
 }
 )
 ;

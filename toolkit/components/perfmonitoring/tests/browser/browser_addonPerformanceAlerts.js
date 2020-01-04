@@ -375,8 +375,6 @@ details
 highestJank
 ;
 }
-else
-{
 info
 (
 AddonListener
@@ -399,7 +397,6 @@ addonId
 return
 null
 ;
-}
 }
 )
 ;

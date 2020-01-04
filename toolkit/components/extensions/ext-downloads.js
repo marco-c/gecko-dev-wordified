@@ -1710,8 +1710,6 @@ MAX_VALUE
 0
 ;
 }
-else
-{
 return
 normalizeTime
 (
@@ -1722,7 +1720,6 @@ getTime
 (
 )
 ;
-}
 }
 const
 startedBefore
@@ -1948,15 +1945,12 @@ input
 )
 ;
 }
-else
-{
 return
 input
 =
 >
 false
 ;
-}
 }
 const
 matchFilename
@@ -3843,8 +3837,6 @@ launch
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -3863,7 +3855,6 @@ completed
 }
 )
 ;
-}
 }
 )
 .

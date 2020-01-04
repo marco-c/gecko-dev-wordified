@@ -1783,8 +1783,6 @@ _window
 )
 ;
 }
-else
-{
 /
 /
 If
@@ -1859,7 +1857,6 @@ information
 return
 true
 ;
-}
 }
 /
 *
@@ -9966,7 +9963,6 @@ formatArgs
 length
 )
 ;
-else
 return
 this
 .

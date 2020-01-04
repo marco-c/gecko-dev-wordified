@@ -326,12 +326,9 @@ outParam
 )
 ;
 }
-else
-{
 throw
 resolution
 ;
-}
 }
 .
 .

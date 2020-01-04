@@ -1746,8 +1746,6 @@ args
 )
 ;
 }
-else
-{
 return
 obj
 [
@@ -1760,7 +1758,6 @@ method
 args
 )
 ;
-}
 }
 ;
 let
@@ -3111,12 +3108,9 @@ elt
 }
 ;
 }
-else
-{
 return
 elt
 ;
-}
 }
 )
 ;

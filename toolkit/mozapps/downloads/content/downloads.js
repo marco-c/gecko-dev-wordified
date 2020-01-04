@@ -5671,8 +5671,6 @@ undefined
 return
 ;
 }
-else
-{
 while
 (
 elm
@@ -5699,6 +5697,7 @@ type
 download
 "
 )
+{
 elm
 =
 elm
@@ -8824,8 +8823,6 @@ nsILocalFile
 )
 ;
 }
-else
-{
 /
 /
 if
@@ -8850,7 +8847,6 @@ aPathOrUrl
 return
 f
 ;
-}
 }
 /
 *

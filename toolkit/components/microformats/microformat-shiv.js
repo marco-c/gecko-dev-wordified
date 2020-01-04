@@ -799,8 +799,6 @@ options
 )
 ;
 }
-else
-{
 this
 .
 errors
@@ -819,7 +817,6 @@ formatError
 (
 )
 ;
-}
 }
 /
 *
@@ -925,8 +922,6 @@ noContentErr
 }
 ;
 }
-else
-{
 items
 =
 this
@@ -1121,7 +1116,6 @@ return
 out
 ;
 }
-}
 /
 *
 *
@@ -1283,8 +1277,6 @@ return
 false
 ;
 }
-else
-{
 return
 (
 classes
@@ -1296,7 +1288,6 @@ length
 0
 )
 ;
-}
 }
 /
 *
@@ -1447,8 +1438,6 @@ return
 false
 ;
 }
-else
-{
 return
 (
 items
@@ -1458,7 +1447,6 @@ length
 0
 )
 ;
-}
 }
 /
 *
@@ -1649,8 +1637,6 @@ true
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -1658,7 +1644,6 @@ formatEmpty
 (
 )
 ;
-}
 }
 if
 (
@@ -1716,8 +1701,6 @@ options
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -1731,9 +1714,6 @@ true
 )
 ;
 }
-}
-else
-{
 return
 this
 .
@@ -1741,7 +1721,6 @@ formatEmpty
 (
 )
 ;
-}
 }
 /
 *
@@ -2582,12 +2561,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 /
 *
@@ -5492,8 +5468,6 @@ dateFormat
 )
 ;
 }
-else
-{
 /
 /
 returns
@@ -5554,14 +5528,10 @@ dateFormat
 )
 ;
 }
-}
-else
-{
 return
 '
 '
 ;
-}
 }
 /
 *
@@ -5770,8 +5740,6 @@ return
 false
 ;
 }
-else
-{
 rootids
 =
 modules
@@ -5809,7 +5777,6 @@ propertyName
 1
 )
 ;
-}
 }
 /
 *
@@ -6124,12 +6091,9 @@ return
 undefined
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 /
 *
@@ -6349,12 +6313,9 @@ return
 true
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 /
 *
@@ -7560,8 +7521,6 @@ return
 true
 ;
 }
-else
-{
 return
 (
 typeVersion
@@ -7571,7 +7530,6 @@ typeVersion
 propertyVersion
 )
 ;
-}
 }
 /
 *
@@ -14290,13 +14248,10 @@ g
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 /
 *
@@ -14377,12 +14332,9 @@ length
 )
 ;
 }
-else
-{
 return
 text
 ;
-}
 }
 /
 *
@@ -16514,8 +16466,6 @@ out
 null
 ;
 }
-else
-{
 return
 (
 countAll
@@ -16529,7 +16479,6 @@ out
 :
 null
 ;
-}
 }
 /
 *
@@ -16712,12 +16661,9 @@ childNode
 )
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 /
 *
@@ -16820,13 +16766,10 @@ node
 data
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 /
 *
@@ -21907,8 +21850,6 @@ return
 isodate
 ;
 }
-else
-{
 if
 (
 isodate
@@ -21930,7 +21871,6 @@ ISODate
 (
 )
 ;
-}
 }
 /
 *
@@ -22067,8 +22007,6 @@ format
 )
 ;
 }
-else
-{
 for
 (
 i
@@ -22327,7 +22265,6 @@ value
 return
 out
 ;
-}
 }
 /
 *
@@ -22773,16 +22710,11 @@ out
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
 }
-}
-else
-{
 return
 this
 .
@@ -22802,7 +22734,6 @@ this
 textFormat
 )
 ;
-}
 }
 /
 *
@@ -23024,13 +22955,10 @@ out
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 /
 *

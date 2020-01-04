@@ -6362,8 +6362,6 @@ seconds
 not
 microseconds
 }
-else
-{
 return
 Date
 .
@@ -6371,7 +6369,6 @@ now
 (
 )
 ;
-}
 }
 runBatched
 :

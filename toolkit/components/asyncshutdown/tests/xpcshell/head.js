@@ -908,8 +908,6 @@ resolve
 }
 ;
 }
-else
-{
 throw
 new
 TypeError
@@ -922,7 +920,6 @@ kind
 kind
 )
 ;
-}
 }
 makeLock
 .

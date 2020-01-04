@@ -593,8 +593,6 @@ return
 retval
 ;
 }
-else
-{
 return
 {
 hostName
@@ -629,7 +627,6 @@ cert
 null
 }
 ;
-}
 }
 /
 /
@@ -1026,8 +1023,6 @@ true
 return
 ;
 }
-else
-{
 document
 .
 getElementById
@@ -1041,7 +1036,6 @@ hidden
 =
 false
 ;
-}
 const
 pageInfoBundle
 =

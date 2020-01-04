@@ -589,7 +589,6 @@ same
 time
 .
 }
-else
 if
 (
 instanceOf
@@ -692,7 +691,6 @@ ignoreCase
 )
 .
 }
-else
 if
 (
 instanceOf
@@ -797,7 +795,6 @@ by
 =
 .
 }
-else
 if
 (
 typeof
@@ -824,6 +821,7 @@ a
 =
 b
 ;
+}
 /
 /
 7
@@ -910,9 +908,6 @@ properties
 on
 Arrays
 .
-}
-else
-{
 return
 objEquiv
 (
@@ -920,7 +915,6 @@ a
 b
 )
 ;
-}
 }
 function
 instanceOf

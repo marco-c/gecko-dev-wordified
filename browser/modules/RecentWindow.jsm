@@ -448,8 +448,6 @@ return
 win
 ;
 }
-else
-{
 let
 windowList
 =
@@ -499,7 +497,6 @@ win
 return
 null
 ;
-}
 }
 }
 ;

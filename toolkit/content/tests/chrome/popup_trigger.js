@@ -1080,6 +1080,7 @@ Win
 =
 0
 )
+{
 return
 [
 "
@@ -1092,7 +1093,7 @@ item2
 "
 ]
 ;
-else
+}
 return
 [
 "
@@ -1179,6 +1180,7 @@ Win
 =
 0
 )
+{
 return
 [
 "
@@ -1207,7 +1209,7 @@ item1
 "
 ]
 ;
-else
+}
 return
 [
 "
@@ -5357,6 +5359,7 @@ Win
 =
 0
 )
+{
 return
 [
 "
@@ -5377,7 +5380,7 @@ item1
 "
 ]
 ;
-else
+}
 return
 [
 "

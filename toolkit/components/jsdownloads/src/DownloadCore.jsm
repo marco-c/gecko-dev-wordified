@@ -6820,8 +6820,6 @@ removePartialData
 )
 ;
 }
-else
-{
 /
 /
 Just
@@ -6843,7 +6841,6 @@ cancel
 (
 )
 ;
-}
 }
 /
 *
