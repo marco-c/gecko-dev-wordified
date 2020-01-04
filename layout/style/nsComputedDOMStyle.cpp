@@ -13495,7 +13495,7 @@ const
 Position
 :
 :
-PositionCoord
+Coord
 &
 aCoord
 nsROCSSPrimitiveValue

@@ -7097,7 +7097,7 @@ const
 Position
 :
 :
-PositionCoord
+Coord
 &
 aCoord
 const
