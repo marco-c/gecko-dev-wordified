@@ -2217,6 +2217,12 @@ GetIfExists
 ;
 static
 void
+StartupInit
+(
+)
+;
+static
+void
 PostTask
 (
 const
