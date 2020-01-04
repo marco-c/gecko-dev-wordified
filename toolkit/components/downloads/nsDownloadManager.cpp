@@ -13643,6 +13643,10 @@ nsACString
 aGUID
 bool
 aHidden
+uint32_t
+aVisitCount
+uint32_t
+aTyped
 )
 {
 return
