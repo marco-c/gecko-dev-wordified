@@ -2303,7 +2303,7 @@ are
 processed
 separately
 .
-WEB_PATFORM_TESTS_FLAVORS
+WEB_PLATFORM_TESTS_FLAVORS
 =
 (
 '
@@ -2346,8 +2346,15 @@ REFTEST_FLAVORS
             
 list
 (
-WEB_PATFORM_TESTS_FLAVORS
+WEB_PLATFORM_TESTS_FLAVORS
 )
++
+            
+[
+'
+python
+'
+]
 )
 #
 Convenience
