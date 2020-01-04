@@ -1699,6 +1699,13 @@ stopEvent
 (
 )
 ;
+void
+log
+(
+uint32_t
+id
+)
+;
 public
 :
 static
