@@ -184,6 +184,8 @@ layers
 :
 GeckoContentController
 {
+protected
+:
 typedef
 mozilla
 :
