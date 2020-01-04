@@ -2960,7 +2960,6 @@ function
 *
 test_invalidEngagementButtonLabel
 (
-done
 )
 {
 let
@@ -3056,7 +3055,6 @@ function
 *
 test_privateWindowsOnly_noneOpen
 (
-done
 )
 {
 let
@@ -3165,7 +3163,6 @@ function
 *
 test_privateWindowsOnly_notMostRecent
 (
-done
 )
 {
 let
