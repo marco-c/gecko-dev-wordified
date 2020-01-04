@@ -4193,7 +4193,7 @@ RefPtr
 nsFontMetrics
 >
 metrics
-;
+=
 pc
 -
 >
@@ -4206,18 +4206,8 @@ GetMetricsFor
 (
 font
 params
-*
-getter_AddRefs
-(
-metrics
-)
 )
 ;
-if
-(
-metrics
-)
-{
 newFontGroup
 =
 metrics
@@ -4227,7 +4217,6 @@ GetThebesFontGroup
 (
 )
 ;
-}
 }
 if
 (

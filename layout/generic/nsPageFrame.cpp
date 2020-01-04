@@ -4646,7 +4646,7 @@ RefPtr
 nsFontMetrics
 >
 fontMet
-;
+=
 pc
 -
 >
@@ -4662,11 +4662,6 @@ mPD
 >
 mHeadFootFont
 params
-*
-getter_AddRefs
-(
-fontMet
-)
 )
 ;
 nscoord
