@@ -698,10 +698,6 @@ value
 "
 ;
 }
-stopTest
-(
-)
-;
 return
 (
 gTestcases

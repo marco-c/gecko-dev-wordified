@@ -630,10 +630,6 @@ value
 "
 ;
 }
-stopTest
-(
-)
-;
 return
 (
 gTestcases

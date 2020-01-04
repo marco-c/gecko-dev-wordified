@@ -590,10 +590,6 @@ value
 "
 ;
 }
-stopTest
-(
-)
-;
 return
 (
 gTestcases

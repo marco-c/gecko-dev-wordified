@@ -369,10 +369,6 @@ comment
 "
 ;
 }
-stopTest
-(
-)
-;
 return
 (
 gTestcases
