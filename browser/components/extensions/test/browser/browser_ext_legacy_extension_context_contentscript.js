@@ -751,7 +751,7 @@ is
 (
 legacyContext
 .
-type
+envType
 "
 legacy_extension
 "
