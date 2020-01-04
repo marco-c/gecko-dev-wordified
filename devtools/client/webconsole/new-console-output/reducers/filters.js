@@ -167,6 +167,12 @@ true
 log
 :
 true
+network
+:
+true
+netxhr
+:
+true
 text
 :
 "
