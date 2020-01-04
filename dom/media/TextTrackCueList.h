@@ -415,6 +415,14 @@ double
 aInterval
 )
 ;
+void
+NotifyCueUpdated
+(
+TextTrackCue
+*
+aCue
+)
+;
 private
 :
 ~

@@ -664,6 +664,14 @@ mShutdown
 true
 ;
 }
+void
+NotifyCueUpdated
+(
+TextTrackCue
+*
+aCue
+)
+;
 private
 :
 /
@@ -763,6 +771,9 @@ cues
 for
 a
 MediaElement
+.
+Not
+sorted
 .
 RefPtr
 <
