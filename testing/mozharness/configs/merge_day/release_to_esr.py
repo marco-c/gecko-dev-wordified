@@ -1,3 +1,22 @@
+import
+os
+ABS_WORK_DIR
+=
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
+"
+build
+"
+)
 NEW_ESR_REPO
 =
 "
@@ -198,24 +217,23 @@ esr
     
 ]
     
-#
-Disallow
-sharing
-since
-we
-want
-pristine
-.
-hg
-directories
-.
-    
-#
 "
 vcs_share_base
 "
 :
-None
+os
+.
+path
+.
+join
+(
+ABS_WORK_DIR
+'
+hg
+-
+shared
+'
+)
     
 #
 "
@@ -245,7 +263,7 @@ tools
 "
     
 "
-tools_repo_revision
+tools_repo_branch
 "
 :
 "

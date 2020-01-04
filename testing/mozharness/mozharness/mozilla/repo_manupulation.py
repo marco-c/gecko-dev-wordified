@@ -623,7 +623,7 @@ r
 repo_config
 [
 '
-revision
+branch
 '
 ]
 ]
@@ -802,7 +802,7 @@ r
 repo_config
 [
 '
-revision
+branch
 '
 ]
 ]

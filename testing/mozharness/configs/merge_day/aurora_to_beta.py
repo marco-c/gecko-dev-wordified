@@ -1,3 +1,22 @@
+import
+os
+ABS_WORK_DIR
+=
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
+"
+build
+"
+)
 config
 =
 {
@@ -705,24 +724,23 @@ root
     
 ]
     
-#
-Disallow
-sharing
-since
-we
-want
-pristine
-.
-hg
-directories
-.
-    
-#
 "
 vcs_share_base
 "
 :
-None
+os
+.
+path
+.
+join
+(
+ABS_WORK_DIR
+'
+hg
+-
+shared
+'
+)
     
 #
 "
@@ -752,7 +770,7 @@ tools
 "
     
 "
-tools_repo_revision
+tools_repo_branch
 "
 :
 "
