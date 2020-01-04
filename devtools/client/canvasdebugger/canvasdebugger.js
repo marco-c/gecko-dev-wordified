@@ -759,11 +759,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 canvasdebugger
 .
@@ -778,11 +776,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 shared
 .

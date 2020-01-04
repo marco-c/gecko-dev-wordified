@@ -101,6 +101,12 @@ manager
 "
                  
 "
+devtools
+/
+shared
+"
+                 
+"
 mobile
 "
                  

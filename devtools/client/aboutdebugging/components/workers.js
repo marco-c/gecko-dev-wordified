@@ -151,11 +151,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 aboutdebugging
 .

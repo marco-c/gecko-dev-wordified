@@ -358,11 +358,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 debugger
 .

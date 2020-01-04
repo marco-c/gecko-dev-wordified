@@ -169,11 +169,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 projecteditor
 .

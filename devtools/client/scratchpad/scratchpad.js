@@ -218,11 +218,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 scratchpad
 .

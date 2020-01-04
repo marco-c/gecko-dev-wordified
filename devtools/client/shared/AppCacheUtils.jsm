@@ -4127,11 +4127,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 appcacheutils
 .

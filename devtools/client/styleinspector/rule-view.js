@@ -26516,11 +26516,11 @@ chrome
 :
 /
 /
-global
+devtools
+-
+shared
 /
 locale
-/
-devtools
 /
 styleinspector
 .

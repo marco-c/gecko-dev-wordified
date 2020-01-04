@@ -296,11 +296,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 webaudioeditor
 .

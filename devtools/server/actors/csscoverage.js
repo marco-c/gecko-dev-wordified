@@ -334,11 +334,11 @@ chrome
 :
 /
 /
-global
+devtools
+-
+shared
 /
 locale
-/
-devtools
 /
 csscoverage
 .

@@ -138,6 +138,12 @@ manager
 "
                  
 "
+devtools
+/
+shared
+"
+                 
+"
 services
 /
 sync
