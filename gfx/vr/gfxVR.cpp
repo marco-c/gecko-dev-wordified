@@ -170,6 +170,7 @@ zFar
 bool
 rightHanded
 )
+const
 {
 float
 upTan
