@@ -2366,9 +2366,9 @@ sensitive
 *
 /
 static
-Layer
+PaintedLayer
 *
-GetDebugSingleOldLayerForFrame
+GetDebugSingleOldPaintedLayerForFrame
 (
 nsIFrame
 *
