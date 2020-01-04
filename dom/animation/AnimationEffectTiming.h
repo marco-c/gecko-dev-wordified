@@ -221,6 +221,9 @@ const
 UnrestrictedDoubleOrString
 &
 aDuration
+ErrorResult
+&
+aRv
 )
 ;
 private
