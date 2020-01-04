@@ -1441,9 +1441,9 @@ nsListControlFrame
 :
 PaintFocus
 (
-nsRenderingContext
-&
-aRC
+DrawTarget
+*
+aDrawTarget
 nsPoint
 aPt
 )
@@ -1737,7 +1737,7 @@ nsCSSRendering
 PaintFocus
 (
 presContext
-aRC
+aDrawTarget
 fRect
 color
 )
