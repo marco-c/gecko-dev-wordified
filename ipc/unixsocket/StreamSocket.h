@@ -224,7 +224,7 @@ socket
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
