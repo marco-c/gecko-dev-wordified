@@ -6973,6 +6973,8 @@ HookWindowCloseForPanelClose
 messageName
 =
 "
+Social
+:
 DOMWindowClose
 "
 ;

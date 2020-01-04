@@ -1756,6 +1756,8 @@ mm
 addMessageListener
 (
 "
+Social
+:
 DOMWindowClose
 "
 _mozSocialDOMWindowClose
@@ -1819,6 +1821,8 @@ messageManager
 addMessageListener
 (
 "
+Social
+:
 DOMWindowClose
 "
 _mozSocialDOMWindowClose
