@@ -386,7 +386,6 @@ resolve
 add_task
 (
 function
-*
 getAndRevokeToken
 (
 )

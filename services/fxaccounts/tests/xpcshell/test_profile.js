@@ -964,7 +964,6 @@ one
 add_task
 (
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -1198,7 +1197,6 @@ rejected
 add_task
 (
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -1508,7 +1506,6 @@ fresh
 add_task
 (
 function
-*
 fetchAndCacheProfileAfterThreshold
 (
 )
@@ -1665,7 +1662,6 @@ sent
 add_task
 (
 function
-*
 fetchAndCacheProfileBeforeThresholdOnNotification
 (
 )
