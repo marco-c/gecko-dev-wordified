@@ -8147,6 +8147,10 @@ this
 manifest
 .
 version
+.
+toString
+(
+)
 :
 "
 "
