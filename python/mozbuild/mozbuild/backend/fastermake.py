@@ -1336,32 +1336,6 @@ bin
 )
 :
             
-#
-We
-preprocess
-these
-but
-they
-don
-'
-t
-necessarily
-have
-preprocessor
-            
-#
-directives
-so
-tell
-the
-preprocessor
-to
-not
-complain
-about
-that
-.
-            
 for
 f
 in
@@ -1381,10 +1355,6 @@ f
 defines
 =
 defines
-                                     
-silence_missing_directive_warnings
-=
-True
 )
         
 elif
