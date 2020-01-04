@@ -154,6 +154,11 @@ IsEnabled
 const
 {
 return
+IsInitialized
+(
+)
+&
+&
 IsFeatureStatusSuccess
 (
 GetValue
