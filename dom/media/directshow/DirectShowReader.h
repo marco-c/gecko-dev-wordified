@@ -143,6 +143,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -771,8 +778,8 @@ microseconds
 int64_t
 mDuration
 ;
-NotifyDataArrivedFilter
-mFilter
+MediaByteRangeSet
+mLastCachedRanges
 ;
 }
 ;

@@ -1723,8 +1723,8 @@ fpsDen
 MediaResourceIndex
 mResource
 ;
-NotifyDataArrivedFilter
-mFilter
+MediaByteRangeSet
+mLastCachedRanges
 ;
 }
 ;
