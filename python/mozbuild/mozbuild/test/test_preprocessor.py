@@ -836,8 +836,7 @@ EMPTYVAL
             
 '
 #
-if
-!
+ifndef
 EMPTYVAL
 '
             
@@ -861,7 +860,7 @@ endif
             
 '
 #
-if
+ifdef
 EMPTYVAL
 '
             
@@ -2551,6 +2550,58 @@ FAIL
 '
 #
 endif
+'
+        
+]
+)
+    
+def
+test_default_defines
+(
+self
+)
+:
+        
+self
+.
+pp
+.
+handleCommandLine
+(
+[
+"
+-
+DFOO
+"
+]
+)
+        
+self
+.
+do_include_pass
+(
+[
+            
+'
+#
+if
+FOO
+=
+=
+1
+'
+            
+'
+PASS
+'
+            
+'
+#
+else
+'
+            
+'
+FAIL
 '
         
 ]
