@@ -268,6 +268,10 @@ RelativeLayout
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
@@ -277,6 +281,10 @@ Condition
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
@@ -285,6 +293,10 @@ RobotiumUtils
 ;
 import
 com
+.
+jayway
+.
+android
 .
 robotium
 .

@@ -217,6 +217,10 @@ KeyEvent
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
