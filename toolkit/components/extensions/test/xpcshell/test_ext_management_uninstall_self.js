@@ -156,6 +156,10 @@ version
 const
 waitForUninstalled
 =
+(
+)
+=
+>
 new
 Promise
 (
@@ -441,6 +445,8 @@ uninstall
 ;
 yield
 waitForUninstalled
+(
+)
 ;
 yield
 extension
@@ -579,6 +585,8 @@ uninstall
 ;
 yield
 waitForUninstalled
+(
+)
 ;
 yield
 extension
