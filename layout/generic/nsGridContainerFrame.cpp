@@ -296,8 +296,6 @@ nsStyleGridLine
 :
 :
 kMinLine
--
-1
 )
 ;
 const
@@ -10919,6 +10917,7 @@ mCols
 ResolveAutoPosition
 (
 col
+mExplicitGridOffsetCol
 )
 ;
 MOZ_ASSERT
@@ -11273,6 +11272,7 @@ mRows
 ResolveAutoPosition
 (
 row
+mExplicitGridOffsetRow
 )
 ;
 MOZ_ASSERT
@@ -11430,6 +11430,7 @@ mCols
 ResolveAutoPosition
 (
 col
+mExplicitGridOffsetCol
 )
 ;
 aArea
@@ -11440,6 +11441,7 @@ mRows
 ResolveAutoPosition
 (
 row
+mExplicitGridOffsetRow
 )
 ;
 MOZ_ASSERT
@@ -11597,6 +11599,7 @@ mCols
 ResolveAutoPosition
 (
 col
+mExplicitGridOffsetCol
 )
 ;
 aArea
@@ -11607,6 +11610,7 @@ mRows
 ResolveAutoPosition
 (
 row
+mExplicitGridOffsetRow
 )
 ;
 MOZ_ASSERT
