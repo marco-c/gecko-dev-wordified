@@ -25488,6 +25488,11 @@ safepointOffset
 call
 )
 ;
+emitTracelogStartEvent
+(
+TraceLogger_Call
+)
+;
 /
 /
 Construct
@@ -25538,6 +25543,11 @@ native
 (
 )
 )
+)
+;
+emitTracelogStopEvent
+(
+TraceLogger_Call
 )
 ;
 /

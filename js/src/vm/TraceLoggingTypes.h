@@ -277,6 +277,11 @@ _
 WasmCompilation
 )
 \
+_
+(
+Call
+)
+\
 \
 /
 *
