@@ -3494,11 +3494,6 @@ MOZ_ASSERT
 cx
 -
 >
-runtime
-(
-)
--
->
 options
 (
 )

@@ -3074,11 +3074,6 @@ cx
 cx
 -
 >
-runtime
-(
-)
--
->
 options
 (
 )
@@ -3456,11 +3451,6 @@ vp
 MOZ_ASSERT
 (
 cx
--
->
-runtime
-(
-)
 -
 >
 options

@@ -472,7 +472,7 @@ aCx
 JS
 :
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 aCx
 )
@@ -1470,7 +1470,7 @@ aCx
 JS
 :
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 aCx
 )

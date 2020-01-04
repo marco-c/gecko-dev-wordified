@@ -7552,16 +7552,6 @@ alwaysBaseline
 cx
 -
 >
-compartment
-(
-)
--
->
-runtimeFromAnyThread
-(
-)
--
->
 options
 (
 )
