@@ -1881,10 +1881,6 @@ mPrincipal
 (
 aPrincipal
 )
-mUpdating
-(
-false
-)
 mPendingUninstall
 (
 false
@@ -14845,15 +14841,6 @@ ServiceWorker
 issues
 /
 759
-if
-(
-!
-registration
--
->
-mUpdating
-)
-{
 RefPtr
 <
 ServiceWorkerJobQueue2
@@ -14897,7 +14884,6 @@ ScheduleJob
 job
 )
 ;
-}
 }
 namespace
 {
