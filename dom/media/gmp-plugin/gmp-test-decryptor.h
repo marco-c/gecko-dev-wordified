@@ -137,7 +137,7 @@ class
 FakeDecryptor
 :
 public
-GMPDecryptor
+GMPDecryptor7
 {
 public
 :
@@ -155,8 +155,6 @@ Init
 GMPDecryptorCallback
 *
 aCallback
-bool
-bool
 )
 override
 {
