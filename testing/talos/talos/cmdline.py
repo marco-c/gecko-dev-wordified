@@ -57,12 +57,6 @@ import
 argparse
 import
 os
-from
-mozlog
-.
-commandline
-import
-add_logging_group
 class
 _StopAction
 (
@@ -1481,9 +1475,26 @@ suites
 "
 )
     
-add_logging_group
+add_arg
 (
-parser
+'
+-
+-
+debug
+'
+action
+=
+'
+store_true
+'
+            
+help
+=
+'
+show
+debug
+information
+'
 )
     
 return

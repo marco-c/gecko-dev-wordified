@@ -56,6 +56,8 @@ MPL
 import
 time
 import
+logging
+import
 psutil
 import
 mozcrash
@@ -68,18 +70,9 @@ threading
 import
 Event
 from
-mozlog
-import
-get_proxy_logger
-from
 utils
 import
 TalosError
-LOG
-=
-get_proxy_logger
-(
-)
 class
 ProcessContext
 (
@@ -164,7 +157,7 @@ is_running
 )
 :
             
-LOG
+logging
 .
 debug
 (
@@ -173,7 +166,6 @@ Terminating
 %
 s
 "
-%
 self
 .
 process
@@ -276,12 +268,6 @@ self
 event
 =
 event
-        
-self
-.
-proc
-=
-None
     
 def
 __call__
@@ -381,15 +367,16 @@ warning
 )
 :
             
-LOG
+logging
 .
-process_output
+debug
 (
-self
-.
-proc
-.
-pid
+'
+BROWSER_OUTPUT
+:
+%
+s
+'
 line
 )
             
@@ -701,32 +688,10 @@ command
 kwargs
 )
     
-reader
-.
-proc
-=
-proc
-    
 proc
 .
 run
 (
-)
-    
-LOG
-.
-process_start
-(
-proc
-.
-pid
-'
-'
-.
-join
-(
-command
-)
 )
     
 try
@@ -860,7 +825,7 @@ is
 None
 :
                 
-LOG
+logging
 .
 info
 (
@@ -989,14 +954,26 @@ time
 )
 )
     
-LOG
+logging
 .
-process_exit
+info
 (
-proc
+"
+Browser
+exited
+with
+error
+code
+:
+{
+0
+}
+"
 .
-pid
+format
+(
 return_code
+)
 )
     
 context

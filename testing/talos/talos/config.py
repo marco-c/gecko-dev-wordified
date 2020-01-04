@@ -60,12 +60,6 @@ os
 import
 copy
 from
-mozlog
-.
-commandline
-import
-setup_logging
-from
 talos
 import
 utils
@@ -3755,12 +3749,19 @@ talos_options
 )
         
 #
+and
+reparse
+the
 args
-needs
-to
-be
-reparsed
-now
+        
+cli_opts
+=
+parse_args
+(
+argv
+=
+argv
+)
     
 elif
 not
@@ -3792,23 +3793,6 @@ parse_args
 argv
 =
 argv
-)
-    
-setup_logging
-(
-"
-talos
-"
-cli_opts
-{
-"
-tbpl
-"
-:
-sys
-.
-stdout
-}
 )
     
 config

@@ -70,15 +70,13 @@ os
 import
 tempfile
 import
+logging
+import
 zipfile
 import
 json
 import
 mozfile
-from
-mozlog
-import
-get_proxy_logger
 from
 talos
 .
@@ -86,11 +84,6 @@ profiler
 import
 symbolication
 sps
-LOG
-=
-get_proxy_logger
-(
-)
 class
 SpsProfile
 (
@@ -289,7 +282,7 @@ name
         
 )
         
-LOG
+logging
 .
 info
 (
@@ -356,7 +349,7 @@ mkdtemp
         
 }
         
-LOG
+logging
 .
 info
 (
@@ -371,7 +364,7 @@ profile
 dir
 :
 "
-                 
+                     
 "
 {
 0
@@ -387,14 +380,14 @@ entries
 2
 }
 "
-                 
+                     
 .
 format
 (
 sps_profile_dir
-                         
+                             
 sps_profile_interval
-                         
+                             
 sps_profile_entries
 )
 )
@@ -658,9 +651,9 @@ except
 MemoryError
 :
             
-LOG
+logging
 .
-critical
+exception
 (
                 
 "
@@ -693,10 +686,6 @@ format
 profile_path
 cycle
 )
-                
-exc_info
-=
-True
             
 )
         
@@ -704,9 +693,9 @@ except
 Exception
 :
             
-LOG
+logging
 .
-critical
+exception
 (
 "
 Encountered
@@ -715,7 +704,7 @@ exception
 during
 profile
 "
-                         
+                              
 "
 symbolication
 {
@@ -728,17 +717,13 @@ cycle
 }
 )
 "
-                         
+                              
 .
 format
 (
 profile_path
 cycle
 )
-                         
-exc_info
-=
-True
 )
     
 def
@@ -1327,7 +1312,7 @@ cycle_name
                     
 )
                 
-LOG
+logging
 .
 info
 (
@@ -1371,7 +1356,7 @@ except
 Exception
 :
                     
-LOG
+logging
 .
 exception
 (
