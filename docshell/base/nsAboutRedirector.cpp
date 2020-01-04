@@ -874,7 +874,7 @@ aboutwebrtc
 /
 aboutWebrtc
 .
-xhtml
+html
 "
 nsIAboutModule
 :

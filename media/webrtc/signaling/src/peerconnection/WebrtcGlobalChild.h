@@ -123,6 +123,13 @@ override
 ;
 virtual
 bool
+RecvClearStatsRequest
+(
+)
+override
+;
+virtual
+bool
 RecvGetLogRequest
 (
 const
@@ -133,6 +140,13 @@ const
 nsCString
 &
 aPattern
+)
+override
+;
+virtual
+bool
+RecvClearLogRequest
+(
 )
 override
 ;

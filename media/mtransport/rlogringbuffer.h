@@ -740,6 +740,10 @@ string
 &
 log
 )
+void
+Clear
+(
+)
 ;
 private
 :
