@@ -246,6 +246,9 @@ T
 class
 AsyncEventRunner
 ;
+class
+MediaResult
+;
 namespace
 dom
 {
@@ -390,6 +393,15 @@ aError
 ErrorResult
 &
 aRv
+)
+;
+void
+EndOfStream
+(
+const
+MediaResult
+&
+aError
 )
 ;
 void

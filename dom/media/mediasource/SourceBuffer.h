@@ -869,8 +869,10 @@ error
 void
 AppendError
 (
-bool
-aDecoderError
+const
+MediaResult
+&
+aDecodeError
 )
 ;
 /
@@ -930,7 +932,9 @@ aResult
 void
 AppendDataErrored
 (
-nsresult
+const
+MediaResult
+&
 aError
 )
 ;
