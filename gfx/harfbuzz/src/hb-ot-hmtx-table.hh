@@ -392,8 +392,7 @@ work
 .
 *
 /
-return
-TRACE_RETURN
+return_trace
 (
 true
 )

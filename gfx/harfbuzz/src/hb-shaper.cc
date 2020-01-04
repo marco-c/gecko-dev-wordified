@@ -408,8 +408,9 @@ shapers
 hb_shaper_pair_t
 *
 )
-malloc
+calloc
 (
+1
 sizeof
 (
 all_shapers
