@@ -597,6 +597,17 @@ TextureAllocationFlags
 :
 :
 ALLOC_FOR_OUT_OF_BAND_CONTENT
+|
+|
+aHelper
+.
+mAllocationFlags
+=
+=
+TextureAllocationFlags
+:
+:
+ALLOC_MANUAL_SYNCHRONIZATION
 )
 ;
 MOZ_ASSERT
