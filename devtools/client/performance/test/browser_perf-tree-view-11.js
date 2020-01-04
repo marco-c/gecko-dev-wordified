@@ -70,7 +70,7 @@ performance
 /
 modules
 /
-global
+categories
 "
 )
 ;

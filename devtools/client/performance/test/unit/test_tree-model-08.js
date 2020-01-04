@@ -108,7 +108,7 @@ model
 ;
 let
 {
-CATEGORY_OTHER
+CATEGORY_MASK
 }
 =
 require
@@ -122,7 +122,7 @@ performance
 /
 modules
 /
-global
+categories
 "
 )
 ;
@@ -489,7 +489,12 @@ line
 456
 category
 :
-CATEGORY_OTHER
+CATEGORY_MASK
+(
+"
+other
+"
+)
 }
 )
 false

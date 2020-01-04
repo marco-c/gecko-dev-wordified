@@ -566,7 +566,7 @@ performance
 /
 modules
 /
-global
+categories
 .
 js
 enum
