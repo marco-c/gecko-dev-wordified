@@ -19329,12 +19329,8 @@ if
 mColor
 =
 =
-NS_RGBA
+Color
 (
-0
-0
-0
-0
 )
 )
 {
@@ -19679,9 +19675,10 @@ aColor
 *
 aColor
 =
-NS_RGBA_FROM_GFXRGBA
-(
 mColor
+.
+ToABGR
+(
 )
 ;
 return
