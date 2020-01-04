@@ -236,14 +236,11 @@ message
 body
 -
 wrapper
+span
 .
 message
 -
 body
-.
-devtools
--
-monospace
 "
 ;
 return
