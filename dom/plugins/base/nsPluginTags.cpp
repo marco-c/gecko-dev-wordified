@@ -1565,6 +1565,8 @@ bool
 aIsJavaPlugin
 bool
 aIsFlashPlugin
+bool
+aSupportsAsyncInit
 int64_t
 aLastModifiedTime
 bool
@@ -1603,7 +1605,7 @@ aIsFlashPlugin
 )
 mSupportsAsyncInit
 (
-false
+aSupportsAsyncInit
 )
 mLastModifiedTime
 (

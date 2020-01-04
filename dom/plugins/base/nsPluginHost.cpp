@@ -14259,6 +14259,11 @@ isFlashPlugin
 )
 tag
 .
+supportsAsyncInit
+(
+)
+tag
+.
 lastModifiedTime
 (
 )
@@ -15636,6 +15641,10 @@ tag
 -
 >
 mIsFlashPlugin
+tag
+-
+>
+mSupportsAsyncInit
 tag
 -
 >
