@@ -291,7 +291,6 @@ Preferences
 jsm
 "
 )
-;
 Preferences
 .
 set
