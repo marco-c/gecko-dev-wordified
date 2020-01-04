@@ -421,7 +421,7 @@ BluetoothHfpManager
 OnUpdateSdpRecords
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
