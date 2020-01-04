@@ -918,6 +918,26 @@ MOZ_WIDGET_TOOLKIT
 )
 :
             
+value
+=
+self
+.
+environment
+.
+substs
+.
+get
+(
+var
+)
+            
+if
+value
+is
+not
+None
+:
+                
 mk
 .
 add_statement
@@ -932,14 +952,7 @@ s
 %
 (
 var
-self
-.
-environment
-.
-substs
-[
-var
-]
+value
 )
 )
         
