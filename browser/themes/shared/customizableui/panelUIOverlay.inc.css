@@ -5720,6 +5720,9 @@ instructions
 "
 get
 extra
+top
+and
+bottom
 padding
 for
 space
@@ -5740,10 +5743,15 @@ instruction
 box
 {
 padding
+-
+bottom
 :
 30px
-15px
-15px
+;
+padding
+-
+top
+:
 15px
 ;
 }
