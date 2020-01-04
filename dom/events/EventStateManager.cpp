@@ -12327,6 +12327,14 @@ focusedWindow
 )
 )
 ;
+if
+(
+!
+focusedWindow
+)
+return
+NS_ERROR_FAILURE
+;
 auto
 *
 ourWindow
