@@ -9787,6 +9787,9 @@ struct
 Metrics
 {
 gfxFloat
+capHeight
+;
+gfxFloat
 xHeight
 ;
 gfxFloat
