@@ -1740,8 +1740,11 @@ id
 )
 ;
 void
-fixupAfterMovingGC
+trace
 (
+JSTracer
+*
+trc
 )
 ;
 #
@@ -3235,7 +3238,8 @@ void
 fixupAfterMovingGC
 (
 )
-;
+{
+}
 private
 :
 static
