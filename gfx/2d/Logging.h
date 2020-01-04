@@ -843,6 +843,7 @@ TextureCreation
 InvalidCacheSurface
 AlphaWithBasicClient
 UnbalancedClipStack
+ProcessingError
 /
 /
 End
