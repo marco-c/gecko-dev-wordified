@@ -1145,8 +1145,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 Init
@@ -1510,8 +1508,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 ~
@@ -1908,8 +1904,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnDestroyWindow
@@ -2222,8 +2216,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 OnDestroyWindow
@@ -2589,8 +2581,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnFocusWindow
@@ -2653,8 +2643,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnBlurWindow
@@ -2773,8 +2761,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnKeyEvent
@@ -2882,8 +2868,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnKeyEvent
@@ -2964,8 +2948,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnKeyEvent
@@ -3289,8 +3271,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 OnKeyEvent
@@ -3360,8 +3340,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnFocusChangeInGecko
@@ -3442,8 +3420,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 ResetIME
@@ -3495,8 +3471,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 ResetIME
@@ -3616,8 +3590,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 ResetIME
@@ -3806,8 +3778,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 EndIMEComposition
@@ -3849,8 +3819,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 EndIMEComposition
@@ -4203,8 +4171,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 SetInputContext
@@ -4275,8 +4241,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetInputContext
@@ -4320,8 +4284,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetInputContext
@@ -4364,8 +4326,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 SetInputContext
@@ -5131,8 +5091,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 Focus
@@ -5200,8 +5158,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 Focus
@@ -5313,8 +5269,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 Blur
@@ -5365,8 +5319,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 Blur
@@ -5451,8 +5403,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnSelectionChange
@@ -5591,8 +5541,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnSelectionChange
@@ -5741,8 +5689,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnSelectionChange
@@ -5804,8 +5750,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 OnSelectionChange
@@ -6036,8 +5980,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnStartCompositionNative
@@ -6099,8 +6041,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnStartCompositionNative
@@ -6210,8 +6150,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnEndCompositionNative
@@ -6285,8 +6223,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnEndCompositionNative
@@ -6428,8 +6364,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnChangeCompositionNative
@@ -6503,8 +6437,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnChangeCompositionNative
@@ -6639,8 +6571,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnRetrieveSurroundingNative
@@ -6702,8 +6632,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnRetrieveSurroundingNative
@@ -6858,8 +6786,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnDeleteSurroundingNative
@@ -6931,8 +6857,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnDeleteSurroundingNative
@@ -7001,8 +6925,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnDeleteSurroundingNative
@@ -7098,8 +7020,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnCommitCompositionNative
@@ -7198,8 +7118,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 OnCommitCompositionNative
@@ -7456,8 +7374,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 OnCommitCompositionNative
@@ -7577,8 +7493,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 GetCompositionString
@@ -7636,8 +7550,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -7669,8 +7581,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -7709,8 +7619,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -7756,8 +7664,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -7922,8 +7828,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -7977,8 +7881,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -8047,8 +7949,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -8081,8 +7981,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -8155,8 +8053,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionStart
@@ -8212,8 +8108,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8244,8 +8138,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8288,8 +8180,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8375,8 +8265,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8528,8 +8416,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8661,8 +8547,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8711,8 +8595,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -8770,8 +8652,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -8831,8 +8711,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -8889,8 +8767,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -8925,8 +8801,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -9013,8 +8887,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -9101,8 +8973,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionChangeEvent
@@ -9151,8 +9021,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DispatchCompositionCommitEvent
@@ -9213,8 +9081,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9324,8 +9190,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9501,8 +9365,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9582,8 +9444,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9663,8 +9523,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9738,8 +9596,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -9941,8 +9797,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -10032,8 +9886,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 CreateTextRangeArray
@@ -10217,8 +10069,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -10288,8 +10138,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -10372,8 +10220,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -10460,8 +10306,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -10620,8 +10464,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -11050,8 +10892,6 @@ LogLevel
 Warning
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -11262,8 +11102,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 SetTextRange
@@ -11343,8 +11181,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 SetCursorPosition
@@ -11448,8 +11284,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetCursorPosition
@@ -11491,8 +11325,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetCursorPosition
@@ -11532,8 +11364,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetCursorPosition
@@ -11691,8 +11521,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 SetCursorPosition
@@ -11855,8 +11683,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -11889,8 +11715,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -11987,8 +11811,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -12034,8 +11856,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -12119,8 +11939,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -12220,8 +12038,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -12426,8 +12242,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 GetCurrentParagraph
@@ -12499,8 +12313,6 @@ LogLevel
 Info
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12550,8 +12362,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12592,8 +12402,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12692,8 +12500,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12735,8 +12541,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12833,8 +12637,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12904,8 +12706,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -12993,8 +12793,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -13183,8 +12981,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -13264,8 +13060,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -13330,8 +13124,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -13388,8 +13180,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 DeleteText
@@ -13503,8 +13293,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 EnsureToCacheSelection
@@ -13573,8 +13361,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 EnsureToCacheSelection
@@ -13625,8 +13411,6 @@ LogLevel
 Error
 (
 "
-GTKIM
-:
 %
 p
 EnsureToCacheSelection
@@ -13690,8 +13474,6 @@ LogLevel
 Debug
 (
 "
-GTKIM
-:
 %
 p
 EnsureToCacheSelection
