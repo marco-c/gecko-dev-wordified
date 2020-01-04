@@ -114,7 +114,7 @@ nsImageFrame_h___
 #
 include
 "
-nsSplittableFrame
+nsAtomicContainerFrame
 .
 h
 "
@@ -291,7 +291,7 @@ mFrame
 }
 ;
 typedef
-nsSplittableFrame
+nsAtomicContainerFrame
 ImageFrameSuper
 ;
 class
@@ -630,6 +630,17 @@ override
 ;
 #
 endif
+nsSplittableType
+GetSplittableType
+(
+)
+const
+override
+{
+return
+NS_FRAME_SPLITTABLE
+;
+}
 virtual
 LogicalSides
 GetLogicalSkipSides

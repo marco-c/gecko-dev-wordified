@@ -1374,7 +1374,7 @@ RemoveIconObserver
 this
 )
 ;
-nsSplittableFrame
+ImageFrameSuper
 :
 :
 DestroyFrom
@@ -1560,7 +1560,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsSplittableFrame
+ImageFrameSuper
 :
 :
 Init
@@ -13316,7 +13316,7 @@ true
 }
 }
 return
-nsSplittableFrame
+ImageFrameSuper
 :
 :
 HandleEvent
@@ -13559,7 +13559,7 @@ aModType
 nsresult
 rv
 =
-nsSplittableFrame
+ImageFrameSuper
 :
 :
 AttributeChanged
