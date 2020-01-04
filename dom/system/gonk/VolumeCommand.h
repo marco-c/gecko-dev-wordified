@@ -417,6 +417,8 @@ return
 mResponseCode
 >
 =
+:
+:
 ResponseCode
 :
 :
@@ -427,6 +429,8 @@ CommandOkay
 (
 mResponseCode
 <
+:
+:
 ResponseCode
 :
 :
@@ -444,6 +448,8 @@ return
 mResponseCode
 =
 =
+:
+:
 ResponseCode
 :
 :
@@ -583,6 +589,8 @@ if
 mResponseCode
 >
 =
+:
+:
 ResponseCode
 :
 :
