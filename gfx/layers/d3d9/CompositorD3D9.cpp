@@ -4429,13 +4429,6 @@ EndFrame
 (
 )
 {
-Compositor
-:
-:
-EndFrame
-(
-)
-;
 if
 (
 mDeviceManager
@@ -4489,6 +4482,13 @@ Present
 }
 }
 }
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 mCurrentRT
 =
 nullptr
