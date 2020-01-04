@@ -6128,6 +6128,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineIsConstructor
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineIsObject
 (
 CallInfo

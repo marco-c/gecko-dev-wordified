@@ -2119,6 +2119,14 @@ ins
 )
 ;
 void
+visitIsConstructor
+(
+MIsConstructor
+*
+ins
+)
+;
+void
 visitIsObject
 (
 MIsObject

@@ -5545,6 +5545,14 @@ obj
 )
 ;
 bool
+ObjectIsConstructor
+(
+JSObject
+*
+obj
+)
+;
+bool
 ThrowRuntimeLexicalError
 (
 JSContext
