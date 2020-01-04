@@ -3977,8 +3977,13 @@ if
 (
 aReflowState
 .
-IsBResize
+IsBResizeForWM
 (
+kidReflowState
+.
+GetWritingMode
+(
+)
 )
 &
 &
