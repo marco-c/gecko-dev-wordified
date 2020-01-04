@@ -151,9 +151,9 @@ const
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback

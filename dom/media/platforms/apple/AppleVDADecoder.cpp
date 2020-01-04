@@ -428,9 +428,9 @@ const
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -490,7 +490,7 @@ mQueuedSamples
 )
 mTaskQueue
 (
-aVideoTaskQueue
+aTaskQueue
 )
 mDecoder
 (
@@ -3624,9 +3624,9 @@ const
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -3671,7 +3671,7 @@ new
 AppleVDADecoder
 (
 aConfig
-aVideoTaskQueue
+aTaskQueue
 aCallback
 aImageContainer
 )

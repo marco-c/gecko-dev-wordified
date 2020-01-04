@@ -184,7 +184,7 @@ namespace
 mozilla
 {
 class
-FlushableTaskQueue
+TaskQueue
 ;
 class
 MediaDataDecoderCallback
@@ -391,9 +391,9 @@ const
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -512,9 +512,9 @@ const
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -682,7 +682,7 @@ ProcessShutdown
 const
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
