@@ -1692,15 +1692,6 @@ aSize
 )
 ;
 void
-SizeModeChanged
-(
-const
-nsSizeMode
-&
-aSizeMode
-)
-;
-void
 UpdateFrame
 (
 const
@@ -3000,9 +2991,6 @@ mDefaultScale
 ;
 bool
 mUpdatedDimensions
-;
-nsSizeMode
-mSizeMode
 ;
 LayoutDeviceIntPoint
 mChromeOffset
