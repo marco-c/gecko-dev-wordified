@@ -608,6 +608,9 @@ check
 )
 ;
 }
+ScopedCERTCertList
+unusedBuiltChain
+;
 SECStatus
 rv
 =
@@ -633,6 +636,7 @@ nullptr
 hostname
 *
 /
+unusedBuiltChain
 flags
 )
 ;

@@ -3544,9 +3544,6 @@ Now
 )
 ctx
 nullptr
-0
-nullptr
-&
 certChain
 )
 ;
@@ -4345,9 +4342,6 @@ Now
 )
 ctx
 nullptr
-0
-nullptr
-&
 certChain
 )
 ;
@@ -7355,6 +7349,9 @@ node
 )
 )
 {
+ScopedCERTCertList
+unusedCertChain
+;
 SECStatus
 srv
 =
@@ -7390,6 +7387,7 @@ nullptr
 hostname
 *
 /
+unusedCertChain
 )
 ;
 if
@@ -9259,6 +9257,7 @@ Assume
 no
 context
 aHostname
+resultChain
 false
 /
 /
@@ -9268,8 +9267,6 @@ t
 save
 intermediates
 aFlags
-&
-resultChain
 &
 evOidPolicy
 )
@@ -9294,13 +9291,12 @@ Assume
 no
 context
 aHostname
+resultChain
 aFlags
 nullptr
 /
 /
 stapledOCSPResponse
-&
-resultChain
 &
 evOidPolicy
 )

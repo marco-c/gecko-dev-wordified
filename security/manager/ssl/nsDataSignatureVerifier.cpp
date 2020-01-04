@@ -1280,15 +1280,6 @@ nullptr
 /
 /
 hostname
-0
-/
-/
-flags
-nullptr
-/
-/
-stapledOCSPResponse
-&
 context
 -
 >
