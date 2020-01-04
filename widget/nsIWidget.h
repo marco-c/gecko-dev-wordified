@@ -2018,7 +2018,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -2204,7 +2204,7 @@ nsIWidget
 CreateChild
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData

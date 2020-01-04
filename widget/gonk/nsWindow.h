@@ -245,7 +245,7 @@ void
 *
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData

@@ -2312,10 +2312,6 @@ Create
 nullptr
 nullptr
 mNaturalBounds
-.
-ToUnknownRect
-(
-)
 &
 initData
 )

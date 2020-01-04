@@ -539,7 +539,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData

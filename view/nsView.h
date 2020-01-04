@@ -162,6 +162,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards
@@ -428,6 +435,13 @@ public
 friend
 class
 nsViewManager
+;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntRect
+LayoutDeviceIntRect
 ;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 /
@@ -2380,7 +2394,7 @@ IsRoot
 )
 const
 ;
-nsIntRect
+LayoutDeviceIntRect
 CalcWidgetBounds
 (
 nsWindowType

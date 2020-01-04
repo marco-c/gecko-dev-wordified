@@ -3235,7 +3235,7 @@ popup
 is
 positioned
 .
-nsIntRect
+LayoutDeviceIntRect
 curDevSize
 =
 view
@@ -3470,7 +3470,7 @@ view
 )
 return
 ;
-nsIntRect
+LayoutDeviceIntRect
 curDevSize
 =
 view

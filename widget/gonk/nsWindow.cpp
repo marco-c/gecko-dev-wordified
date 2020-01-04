@@ -1980,7 +1980,7 @@ void
 *
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -2070,6 +2070,10 @@ get
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 mParent
 =
