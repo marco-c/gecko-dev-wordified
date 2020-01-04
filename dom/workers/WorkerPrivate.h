@@ -1512,6 +1512,13 @@ bool
 aIsOffline
 )
 ;
+void
+MemoryPressure
+(
+bool
+aDummy
+)
+;
 bool
 RegisterSharedWorker
 (
@@ -4047,6 +4054,11 @@ OfflineStatusChangeEventInternal
 (
 bool
 aIsOffline
+)
+;
+void
+MemoryPressureInternal
+(
 )
 ;
 JSContext

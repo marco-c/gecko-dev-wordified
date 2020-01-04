@@ -674,6 +674,11 @@ NoopMethod
 )
 ;
 void
+ClearStorage
+(
+)
+;
+void
 RetrieveConsoleEvents
 (
 JSContext
