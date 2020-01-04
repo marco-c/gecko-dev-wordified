@@ -8334,7 +8334,7 @@ mUserHasInteracted
 false
 )
 {
-SetIsDocument
+SetIsInDocument
 (
 )
 ;
