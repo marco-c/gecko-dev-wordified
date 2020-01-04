@@ -1153,7 +1153,7 @@ CalcDifference
 const
 nsStyleFont
 &
-aOther
+aNewData
 )
 const
 {
@@ -1162,7 +1162,7 @@ MOZ_ASSERT
 mAllowZoom
 =
 =
-aOther
+aNewData
 .
 mAllowZoom
 "
@@ -1183,7 +1183,7 @@ if
 mSize
 !
 =
-aOther
+aNewData
 .
 mSize
 |
@@ -1191,7 +1191,7 @@ mSize
 mFont
 !
 =
-aOther
+aNewData
 .
 mFont
 |
@@ -1199,7 +1199,7 @@ mFont
 mLanguage
 !
 =
-aOther
+aNewData
 .
 mLanguage
 |
@@ -1207,7 +1207,7 @@ mLanguage
 mExplicitLanguage
 !
 =
-aOther
+aNewData
 .
 mExplicitLanguage
 |
@@ -1215,7 +1215,7 @@ mExplicitLanguage
 mMathVariant
 !
 =
-aOther
+aNewData
 .
 mMathVariant
 |
@@ -1223,7 +1223,7 @@ mMathVariant
 mMathDisplay
 !
 =
-aOther
+aNewData
 .
 mMathDisplay
 |
@@ -1231,7 +1231,7 @@ mMathDisplay
 mMinFontSizeRatio
 !
 =
-aOther
+aNewData
 .
 mMinFontSizeRatio
 )
@@ -1259,7 +1259,7 @@ if
 mGenericID
 !
 =
-aOther
+aNewData
 .
 mGenericID
 |
@@ -1267,7 +1267,7 @@ mGenericID
 mScriptLevel
 !
 =
-aOther
+aNewData
 .
 mScriptLevel
 |
@@ -1275,7 +1275,7 @@ mScriptLevel
 mScriptUnconstrainedSize
 !
 =
-aOther
+aNewData
 .
 mScriptUnconstrainedSize
 |
@@ -1283,7 +1283,7 @@ mScriptUnconstrainedSize
 mScriptMinSize
 !
 =
-aOther
+aNewData
 .
 mScriptMinSize
 |
@@ -1291,7 +1291,7 @@ mScriptMinSize
 mScriptSizeMultiplier
 !
 =
-aOther
+aNewData
 .
 mScriptSizeMultiplier
 )
@@ -1783,7 +1783,7 @@ CalcDifference
 const
 nsStyleMargin
 &
-aOther
+aNewData
 )
 const
 {
@@ -1792,7 +1792,7 @@ if
 mMargin
 =
 =
-aOther
+aNewData
 .
 mMargin
 )
@@ -1939,7 +1939,7 @@ CalcDifference
 const
 nsStylePadding
 &
-aOther
+aNewData
 )
 const
 {
@@ -1948,7 +1948,7 @@ if
 mPadding
 =
 =
-aOther
+aNewData
 .
 mPadding
 )
@@ -2699,7 +2699,7 @@ CalcDifference
 const
 nsStyleBorder
 &
-aOther
+aNewData
 )
 const
 {
@@ -2734,7 +2734,7 @@ if
 mTwipsPerPixel
 !
 =
-aOther
+aNewData
 .
 mTwipsPerPixel
 |
@@ -2744,7 +2744,7 @@ GetComputedBorder
 )
 !
 =
-aOther
+aNewData
 .
 GetComputedBorder
 (
@@ -2754,7 +2754,7 @@ GetComputedBorder
 mFloatEdge
 !
 =
-aOther
+aNewData
 .
 mFloatEdge
 |
@@ -2762,7 +2762,7 @@ mFloatEdge
 mBorderImageOutset
 !
 =
-aOther
+aNewData
 .
 mBorderImageOutset
 |
@@ -2770,7 +2770,7 @@ mBorderImageOutset
 mBoxDecorationBreak
 !
 =
-aOther
+aNewData
 .
 mBoxDecorationBreak
 )
@@ -2844,7 +2844,7 @@ ix
 )
 !
 =
-aOther
+aNewData
 .
 HasVisibleStyle
 (
@@ -2948,7 +2948,7 @@ ix
 ]
 !
 =
-aOther
+aNewData
 .
 mBorderStyle
 [
@@ -2962,7 +2962,7 @@ ix
 ]
 !
 =
-aOther
+aNewData
 .
 mBorderColor
 [
@@ -2978,7 +2978,7 @@ if
 mBorderRadius
 !
 =
-aOther
+aNewData
 .
 mBorderRadius
 |
@@ -2988,7 +2988,7 @@ mBorderColors
 !
 =
 !
-aOther
+aNewData
 .
 mBorderColors
 )
@@ -3002,7 +3002,7 @@ IsBorderImageLoaded
 )
 |
 |
-aOther
+aNewData
 .
 IsBorderImageLoaded
 (
@@ -3014,7 +3014,7 @@ if
 mBorderImageSource
 !
 =
-aOther
+aNewData
 .
 mBorderImageSource
 |
@@ -3022,7 +3022,7 @@ mBorderImageSource
 mBorderImageRepeatH
 !
 =
-aOther
+aNewData
 .
 mBorderImageRepeatH
 |
@@ -3030,7 +3030,7 @@ mBorderImageRepeatH
 mBorderImageRepeatV
 !
 =
-aOther
+aNewData
 .
 mBorderImageRepeatV
 |
@@ -3038,7 +3038,7 @@ mBorderImageRepeatV
 mBorderImageSlice
 !
 =
-aOther
+aNewData
 .
 mBorderImageSlice
 |
@@ -3046,7 +3046,7 @@ mBorderImageSlice
 mBorderImageFill
 !
 =
-aOther
+aNewData
 .
 mBorderImageFill
 |
@@ -3054,7 +3054,7 @@ mBorderImageFill
 mBorderImageWidth
 !
 =
-aOther
+aNewData
 .
 mBorderImageWidth
 |
@@ -3062,7 +3062,7 @@ mBorderImageWidth
 mBorderImageOutset
 !
 =
-aOther
+aNewData
 .
 mBorderImageOutset
 )
@@ -3087,7 +3087,7 @@ so
 is
 /
 /
-aOther
+aNewData
 .
 mBorderColors
 if
@@ -3112,7 +3112,7 @@ mBorderColors
 [
 ix
 ]
-aOther
+aNewData
 .
 mBorderColors
 [
@@ -3163,7 +3163,7 @@ if
 mBorder
 !
 =
-aOther
+aNewData
 .
 mBorder
 )
@@ -3420,7 +3420,7 @@ CalcDifference
 const
 nsStyleOutline
 &
-aOther
+aNewData
 )
 const
 {
@@ -3429,7 +3429,7 @@ if
 mActualOutlineWidth
 !
 =
-aOther
+aNewData
 .
 mActualOutlineWidth
 |
@@ -3443,7 +3443,7 @@ mActualOutlineWidth
 mOutlineOffset
 !
 =
-aOther
+aNewData
 .
 mOutlineOffset
 )
@@ -3460,7 +3460,7 @@ if
 mOutlineStyle
 !
 =
-aOther
+aNewData
 .
 mOutlineStyle
 |
@@ -3468,7 +3468,7 @@ mOutlineStyle
 mOutlineColor
 !
 =
-aOther
+aNewData
 .
 mOutlineColor
 |
@@ -3476,7 +3476,7 @@ mOutlineColor
 mOutlineRadius
 !
 =
-aOther
+aNewData
 .
 mOutlineRadius
 )
@@ -3501,7 +3501,7 @@ if
 mOutlineWidth
 !
 =
-aOther
+aNewData
 .
 mOutlineWidth
 |
@@ -3509,7 +3509,7 @@ mOutlineWidth
 mOutlineOffset
 !
 =
-aOther
+aNewData
 .
 mOutlineOffset
 |
@@ -3517,7 +3517,7 @@ mOutlineOffset
 mTwipsPerPixel
 !
 =
-aOther
+aNewData
 .
 mTwipsPerPixel
 )
@@ -3912,7 +3912,7 @@ CalcDifference
 const
 nsStyleList
 &
-aOther
+aNewData
 )
 const
 {
@@ -3952,7 +3952,7 @@ if
 mQuotes
 !
 =
-aOther
+aNewData
 .
 mQuotes
 &
@@ -3961,7 +3961,7 @@ mQuotes
 mQuotes
 |
 |
-aOther
+aNewData
 .
 mQuotes
 )
@@ -3972,7 +3972,7 @@ GetQuotePairs
 )
 !
 =
-aOther
+aNewData
 .
 GetQuotePairs
 (
@@ -3988,7 +3988,7 @@ if
 mListStylePosition
 !
 =
-aOther
+aNewData
 .
 mListStylePosition
 )
@@ -4000,7 +4000,7 @@ if
 EqualImages
 (
 mListStyleImage
-aOther
+aNewData
 .
 mListStyleImage
 )
@@ -4009,7 +4009,7 @@ mListStyleImage
 mCounterStyle
 =
 =
-aOther
+aNewData
 .
 mCounterStyle
 )
@@ -4020,7 +4020,7 @@ mImageRegion
 .
 IsEqualInterior
 (
-aOther
+aNewData
 .
 mImageRegion
 )
@@ -4037,7 +4037,7 @@ mImageRegion
 width
 =
 =
-aOther
+aNewData
 .
 mImageRegion
 .
@@ -4049,7 +4049,7 @@ mImageRegion
 height
 =
 =
-aOther
+aNewData
 .
 mImageRegion
 .
@@ -4237,7 +4237,7 @@ CalcDifference
 const
 nsStyleXUL
 &
-aOther
+aNewData
 )
 const
 {
@@ -4246,7 +4246,7 @@ if
 mBoxAlign
 =
 =
-aOther
+aNewData
 .
 mBoxAlign
 &
@@ -4254,7 +4254,7 @@ mBoxAlign
 mBoxDirection
 =
 =
-aOther
+aNewData
 .
 mBoxDirection
 &
@@ -4262,7 +4262,7 @@ mBoxDirection
 mBoxFlex
 =
 =
-aOther
+aNewData
 .
 mBoxFlex
 &
@@ -4270,7 +4270,7 @@ mBoxFlex
 mBoxOrient
 =
 =
-aOther
+aNewData
 .
 mBoxOrient
 &
@@ -4278,7 +4278,7 @@ mBoxOrient
 mBoxPack
 =
 =
-aOther
+aNewData
 .
 mBoxPack
 &
@@ -4286,7 +4286,7 @@ mBoxPack
 mBoxOrdinal
 =
 =
-aOther
+aNewData
 .
 mBoxOrdinal
 &
@@ -4294,7 +4294,7 @@ mBoxOrdinal
 mStretchStack
 =
 =
-aOther
+aNewData
 .
 mStretchStack
 )
@@ -4306,7 +4306,7 @@ if
 mBoxOrdinal
 !
 =
-aOther
+aNewData
 .
 mBoxOrdinal
 )
@@ -4529,7 +4529,7 @@ CalcDifference
 const
 nsStyleColumn
 &
-aOther
+aNewData
 )
 const
 {
@@ -4548,7 +4548,7 @@ eStyleUnit_Auto
 !
 =
 (
-aOther
+aNewData
 .
 mColumnWidth
 .
@@ -4564,7 +4564,7 @@ eStyleUnit_Auto
 mColumnCount
 !
 =
-aOther
+aNewData
 .
 mColumnCount
 )
@@ -4614,7 +4614,7 @@ if
 mColumnWidth
 !
 =
-aOther
+aNewData
 .
 mColumnWidth
 |
@@ -4622,7 +4622,7 @@ mColumnWidth
 mColumnGap
 !
 =
-aOther
+aNewData
 .
 mColumnGap
 |
@@ -4630,7 +4630,7 @@ mColumnGap
 mColumnFill
 !
 =
-aOther
+aNewData
 .
 mColumnFill
 )
@@ -4644,7 +4644,7 @@ GetComputedColumnRuleWidth
 )
 !
 =
-aOther
+aNewData
 .
 GetComputedColumnRuleWidth
 (
@@ -4654,7 +4654,7 @@ GetComputedColumnRuleWidth
 mColumnRuleStyle
 !
 =
-aOther
+aNewData
 .
 mColumnRuleStyle
 |
@@ -4662,7 +4662,7 @@ mColumnRuleStyle
 mColumnRuleColor
 !
 =
-aOther
+aNewData
 .
 mColumnRuleColor
 |
@@ -4670,7 +4670,7 @@ mColumnRuleColor
 mColumnRuleColorIsForeground
 !
 =
-aOther
+aNewData
 .
 mColumnRuleColorIsForeground
 )
@@ -4703,7 +4703,7 @@ if
 mColumnRuleWidth
 !
 =
-aOther
+aNewData
 .
 mColumnRuleWidth
 |
@@ -4711,7 +4711,7 @@ mColumnRuleWidth
 mTwipsPerPixel
 !
 =
-aOther
+aNewData
 .
 mTwipsPerPixel
 )
@@ -5114,7 +5114,7 @@ CalcDifference
 const
 nsStyleSVG
 &
-aOther
+aNewData
 )
 const
 {
@@ -5132,7 +5132,7 @@ if
 EqualURIs
 (
 mMarkerEnd
-aOther
+aNewData
 .
 mMarkerEnd
 )
@@ -5142,7 +5142,7 @@ mMarkerEnd
 EqualURIs
 (
 mMarkerMid
-aOther
+aNewData
 .
 mMarkerMid
 )
@@ -5152,7 +5152,7 @@ mMarkerMid
 EqualURIs
 (
 mMarkerStart
-aOther
+aNewData
 .
 mMarkerStart
 )
@@ -5217,7 +5217,7 @@ if
 mFill
 !
 =
-aOther
+aNewData
 .
 mFill
 |
@@ -5225,7 +5225,7 @@ mFill
 mStroke
 !
 =
-aOther
+aNewData
 .
 mStroke
 |
@@ -5233,7 +5233,7 @@ mStroke
 mFillOpacity
 !
 =
-aOther
+aNewData
 .
 mFillOpacity
 |
@@ -5241,7 +5241,7 @@ mFillOpacity
 mStrokeOpacity
 !
 =
-aOther
+aNewData
 .
 mStrokeOpacity
 )
@@ -5258,7 +5258,7 @@ HasStroke
 )
 !
 =
-aOther
+aNewData
 .
 HasStroke
 (
@@ -5277,7 +5277,7 @@ HasFill
 )
 !
 =
-aOther
+aNewData
 .
 HasFill
 (
@@ -5397,7 +5397,7 @@ if
 PaintURIChanged
 (
 mFill
-aOther
+aNewData
 .
 mFill
 )
@@ -5406,7 +5406,7 @@ mFill
 PaintURIChanged
 (
 mStroke
-aOther
+aNewData
 .
 mStroke
 )
@@ -5488,7 +5488,7 @@ if
 mStrokeWidth
 !
 =
-aOther
+aNewData
 .
 mStrokeWidth
 |
@@ -5496,7 +5496,7 @@ mStrokeWidth
 mStrokeMiterlimit
 !
 =
-aOther
+aNewData
 .
 mStrokeMiterlimit
 |
@@ -5504,7 +5504,7 @@ mStrokeMiterlimit
 mStrokeLinecap
 !
 =
-aOther
+aNewData
 .
 mStrokeLinecap
 |
@@ -5512,7 +5512,7 @@ mStrokeLinecap
 mStrokeLinejoin
 !
 =
-aOther
+aNewData
 .
 mStrokeLinejoin
 |
@@ -5520,7 +5520,7 @@ mStrokeLinejoin
 mTextAnchor
 !
 =
-aOther
+aNewData
 .
 mTextAnchor
 )
@@ -5569,7 +5569,7 @@ if
 mStrokeDashoffset
 !
 =
-aOther
+aNewData
 .
 mStrokeDashoffset
 |
@@ -5577,7 +5577,7 @@ mStrokeDashoffset
 mClipRule
 !
 =
-aOther
+aNewData
 .
 mClipRule
 |
@@ -5585,7 +5585,7 @@ mClipRule
 mColorInterpolation
 !
 =
-aOther
+aNewData
 .
 mColorInterpolation
 |
@@ -5593,7 +5593,7 @@ mColorInterpolation
 mColorInterpolationFilters
 !
 =
-aOther
+aNewData
 .
 mColorInterpolationFilters
 |
@@ -5601,7 +5601,7 @@ mColorInterpolationFilters
 mFillRule
 !
 =
-aOther
+aNewData
 .
 mFillRule
 |
@@ -5609,7 +5609,7 @@ mFillRule
 mPaintOrder
 !
 =
-aOther
+aNewData
 .
 mPaintOrder
 |
@@ -5617,7 +5617,7 @@ mPaintOrder
 mShapeRendering
 !
 =
-aOther
+aNewData
 .
 mShapeRendering
 |
@@ -5625,7 +5625,7 @@ mShapeRendering
 mStrokeDasharray
 !
 =
-aOther
+aNewData
 .
 mStrokeDasharray
 |
@@ -5633,7 +5633,7 @@ mStrokeDasharray
 mContextFlags
 !
 =
-aOther
+aNewData
 .
 mContextFlags
 )
@@ -7058,7 +7058,7 @@ CalcDifference
 const
 nsStyleSVGReset
 &
-aOther
+aNewData
 )
 const
 {
@@ -7075,7 +7075,7 @@ if
 mClipPath
 !
 =
-aOther
+aNewData
 .
 mClipPath
 )
@@ -7119,7 +7119,7 @@ if
 mDominantBaseline
 !
 =
-aOther
+aNewData
 .
 mDominantBaseline
 )
@@ -7149,7 +7149,7 @@ if
 mVectorEffect
 !
 =
-aOther
+aNewData
 .
 mVectorEffect
 )
@@ -7239,7 +7239,7 @@ if
 mStopColor
 !
 =
-aOther
+aNewData
 .
 mStopColor
 |
@@ -7247,7 +7247,7 @@ mStopColor
 mFloodColor
 !
 =
-aOther
+aNewData
 .
 mFloodColor
 |
@@ -7255,7 +7255,7 @@ mFloodColor
 mLightingColor
 !
 =
-aOther
+aNewData
 .
 mLightingColor
 |
@@ -7263,7 +7263,7 @@ mLightingColor
 mStopOpacity
 !
 =
-aOther
+aNewData
 .
 mStopOpacity
 |
@@ -7271,7 +7271,7 @@ mStopOpacity
 mFloodOpacity
 !
 =
-aOther
+aNewData
 .
 mFloodOpacity
 |
@@ -7279,7 +7279,7 @@ mFloodOpacity
 mMaskType
 !
 =
-aOther
+aNewData
 .
 mMaskType
 )
@@ -7297,7 +7297,7 @@ mMask
 .
 CalcDifference
 (
-aOther
+aNewData
 .
 mMask
 nsChangeHint_RepaintFrame
@@ -8298,7 +8298,7 @@ CalcDifference
 const
 nsStylePosition
 &
-aOther
+aNewData
 const
 nsStyleVisibility
 *
@@ -8332,7 +8332,7 @@ if
 mZIndex
 !
 =
-aOther
+aNewData
 .
 mZIndex
 )
@@ -8395,7 +8395,7 @@ if
 mObjectFit
 !
 =
-aOther
+aNewData
 .
 mObjectFit
 |
@@ -8403,7 +8403,7 @@ mObjectFit
 mObjectPosition
 !
 =
-aOther
+aNewData
 .
 mObjectPosition
 )
@@ -8421,7 +8421,7 @@ if
 mOrder
 !
 =
-aOther
+aNewData
 .
 mOrder
 )
@@ -8548,7 +8548,7 @@ if
 mBoxSizing
 !
 =
-aOther
+aNewData
 .
 mBoxSizing
 )
@@ -8600,7 +8600,7 @@ if
 mAlignSelf
 !
 =
-aOther
+aNewData
 .
 mAlignSelf
 |
@@ -8608,7 +8608,7 @@ mAlignSelf
 mFlexBasis
 !
 =
-aOther
+aNewData
 .
 mFlexBasis
 |
@@ -8616,7 +8616,7 @@ mFlexBasis
 mFlexGrow
 !
 =
-aOther
+aNewData
 .
 mFlexGrow
 |
@@ -8624,7 +8624,7 @@ mFlexGrow
 mFlexShrink
 !
 =
-aOther
+aNewData
 .
 mFlexShrink
 )
@@ -8721,7 +8721,7 @@ if
 mAlignItems
 !
 =
-aOther
+aNewData
 .
 mAlignItems
 |
@@ -8729,7 +8729,7 @@ mAlignItems
 mFlexDirection
 !
 =
-aOther
+aNewData
 .
 mFlexDirection
 |
@@ -8737,7 +8737,7 @@ mFlexDirection
 mFlexWrap
 !
 =
-aOther
+aNewData
 .
 mFlexWrap
 )
@@ -8789,7 +8789,7 @@ if
 mGridTemplateColumns
 !
 =
-aOther
+aNewData
 .
 mGridTemplateColumns
 |
@@ -8797,7 +8797,7 @@ mGridTemplateColumns
 mGridTemplateRows
 !
 =
-aOther
+aNewData
 .
 mGridTemplateRows
 |
@@ -8805,7 +8805,7 @@ mGridTemplateRows
 mGridTemplateAreas
 !
 =
-aOther
+aNewData
 .
 mGridTemplateAreas
 |
@@ -8813,7 +8813,7 @@ mGridTemplateAreas
 mGridAutoColumnsMin
 !
 =
-aOther
+aNewData
 .
 mGridAutoColumnsMin
 |
@@ -8821,7 +8821,7 @@ mGridAutoColumnsMin
 mGridAutoColumnsMax
 !
 =
-aOther
+aNewData
 .
 mGridAutoColumnsMax
 |
@@ -8829,7 +8829,7 @@ mGridAutoColumnsMax
 mGridAutoRowsMin
 !
 =
-aOther
+aNewData
 .
 mGridAutoRowsMin
 |
@@ -8837,7 +8837,7 @@ mGridAutoRowsMin
 mGridAutoRowsMax
 !
 =
-aOther
+aNewData
 .
 mGridAutoRowsMax
 |
@@ -8845,7 +8845,7 @@ mGridAutoRowsMax
 mGridAutoFlow
 !
 =
-aOther
+aNewData
 .
 mGridAutoFlow
 )
@@ -8900,7 +8900,7 @@ if
 mGridColumnStart
 !
 =
-aOther
+aNewData
 .
 mGridColumnStart
 |
@@ -8908,7 +8908,7 @@ mGridColumnStart
 mGridColumnEnd
 !
 =
-aOther
+aNewData
 .
 mGridColumnEnd
 |
@@ -8916,7 +8916,7 @@ mGridColumnEnd
 mGridRowStart
 !
 =
-aOther
+aNewData
 .
 mGridRowStart
 |
@@ -8924,7 +8924,7 @@ mGridRowStart
 mGridRowEnd
 !
 =
-aOther
+aNewData
 .
 mGridRowEnd
 |
@@ -8932,7 +8932,7 @@ mGridRowEnd
 mGridColumnGap
 !
 =
-aOther
+aNewData
 .
 mGridColumnGap
 |
@@ -8940,7 +8940,7 @@ mGridColumnGap
 mGridRowGap
 !
 =
-aOther
+aNewData
 .
 mGridRowGap
 )
@@ -8983,7 +8983,7 @@ if
 mJustifyContent
 !
 =
-aOther
+aNewData
 .
 mJustifyContent
 |
@@ -8991,7 +8991,7 @@ mJustifyContent
 mJustifyItems
 !
 =
-aOther
+aNewData
 .
 mJustifyItems
 |
@@ -8999,7 +8999,7 @@ mJustifyItems
 mJustifySelf
 !
 =
-aOther
+aNewData
 .
 mJustifySelf
 )
@@ -9059,7 +9059,7 @@ if
 mAlignContent
 !
 =
-aOther
+aNewData
 .
 mAlignContent
 )
@@ -9076,7 +9076,7 @@ widthChanged
 mWidth
 !
 =
-aOther
+aNewData
 .
 mWidth
 |
@@ -9084,7 +9084,7 @@ mWidth
 mMinWidth
 !
 =
-aOther
+aNewData
 .
 mMinWidth
 |
@@ -9092,7 +9092,7 @@ mMinWidth
 mMaxWidth
 !
 =
-aOther
+aNewData
 .
 mMaxWidth
 ;
@@ -9102,7 +9102,7 @@ heightChanged
 mHeight
 !
 =
-aOther
+aNewData
 .
 mHeight
 |
@@ -9110,7 +9110,7 @@ mHeight
 mMinHeight
 !
 =
-aOther
+aNewData
 .
 mMinHeight
 |
@@ -9118,7 +9118,7 @@ mMinHeight
 mMaxHeight
 !
 =
-aOther
+aNewData
 .
 mMaxHeight
 ;
@@ -9519,7 +9519,7 @@ if
 mOffset
 !
 =
-aOther
+aNewData
 .
 mOffset
 )
@@ -9529,7 +9529,7 @@ if
 IsAutonessEqual
 (
 mOffset
-aOther
+aNewData
 .
 mOffset
 )
@@ -9963,7 +9963,7 @@ CalcDifference
 const
 nsStyleTable
 &
-aOther
+aNewData
 )
 const
 {
@@ -9972,7 +9972,7 @@ if
 mSpan
 !
 =
-aOther
+aNewData
 .
 mSpan
 |
@@ -9980,7 +9980,7 @@ mSpan
 mLayoutStrategy
 !
 =
-aOther
+aNewData
 .
 mLayoutStrategy
 )
@@ -10126,7 +10126,7 @@ CalcDifference
 const
 nsStyleTableBorder
 &
-aOther
+aNewData
 )
 const
 {
@@ -10189,7 +10189,7 @@ if
 mBorderCollapse
 !
 =
-aOther
+aNewData
 .
 mBorderCollapse
 )
@@ -10204,7 +10204,7 @@ if
 mCaptionSide
 =
 =
-aOther
+aNewData
 .
 mCaptionSide
 )
@@ -10214,7 +10214,7 @@ mCaptionSide
 mBorderSpacingCol
 =
 =
-aOther
+aNewData
 .
 mBorderSpacingCol
 )
@@ -10224,7 +10224,7 @@ mBorderSpacingCol
 mBorderSpacingRow
 =
 =
-aOther
+aNewData
 .
 mBorderSpacingRow
 )
@@ -10235,7 +10235,7 @@ if
 mEmptyCells
 =
 =
-aOther
+aNewData
 .
 mEmptyCells
 )
@@ -10335,7 +10335,7 @@ CalcDifference
 const
 nsStyleColor
 &
-aOther
+aNewData
 )
 const
 {
@@ -10344,7 +10344,7 @@ if
 mColor
 =
 =
-aOther
+aNewData
 .
 mColor
 )
@@ -12913,7 +12913,7 @@ CalcDifference
 const
 nsStyleImageLayers
 &
-aOther
+aNewLayers
 nsChangeHint
 aPositionChangeHint
 )
@@ -12934,14 +12934,14 @@ moreLayers
 =
 mImageCount
 >
-aOther
+aNewLayers
 .
 mImageCount
 ?
 *
 this
 :
-aOther
+aNewLayers
 ;
 const
 nsStyleImageLayers
@@ -12950,11 +12950,11 @@ lessLayers
 =
 mImageCount
 >
-aOther
+aNewLayers
 .
 mImageCount
 ?
-aOther
+aNewLayers
 :
 *
 this
@@ -13104,7 +13104,7 @@ if
 mAttachmentCount
 !
 =
-aOther
+aNewLayers
 .
 mAttachmentCount
 |
@@ -13112,7 +13112,7 @@ mAttachmentCount
 mBlendModeCount
 !
 =
-aOther
+aNewLayers
 .
 mBlendModeCount
 |
@@ -13120,7 +13120,7 @@ mBlendModeCount
 mClipCount
 !
 =
-aOther
+aNewLayers
 .
 mClipCount
 |
@@ -13128,7 +13128,7 @@ mClipCount
 mCompositeCount
 !
 =
-aOther
+aNewLayers
 .
 mCompositeCount
 |
@@ -13136,7 +13136,7 @@ mCompositeCount
 mMaskModeCount
 !
 =
-aOther
+aNewLayers
 .
 mMaskModeCount
 |
@@ -13144,7 +13144,7 @@ mMaskModeCount
 mOriginCount
 !
 =
-aOther
+aNewLayers
 .
 mOriginCount
 |
@@ -13152,7 +13152,7 @@ mOriginCount
 mRepeatCount
 !
 =
-aOther
+aNewLayers
 .
 mRepeatCount
 |
@@ -13160,7 +13160,7 @@ mRepeatCount
 mPositionXCount
 !
 =
-aOther
+aNewLayers
 .
 mPositionXCount
 |
@@ -13168,7 +13168,7 @@ mPositionXCount
 mPositionYCount
 !
 =
-aOther
+aNewLayers
 .
 mPositionYCount
 |
@@ -13176,7 +13176,7 @@ mPositionYCount
 mSizeCount
 !
 =
-aOther
+aNewLayers
 .
 mSizeCount
 )
@@ -14631,7 +14631,7 @@ nsStyleImageLayers
 :
 Layer
 &
-aOther
+aNewLayer
 nsChangeHint
 aPositionChangeHint
 )
@@ -14651,7 +14651,7 @@ if
 EqualURIs
 (
 mSourceURI
-aOther
+aNewLayer
 .
 mSourceURI
 )
@@ -14695,7 +14695,7 @@ if
 mAttachment
 !
 =
-aOther
+aNewLayer
 .
 mAttachment
 |
@@ -14703,7 +14703,7 @@ mAttachment
 mClip
 !
 =
-aOther
+aNewLayer
 .
 mClip
 |
@@ -14711,7 +14711,7 @@ mClip
 mOrigin
 !
 =
-aOther
+aNewLayer
 .
 mOrigin
 |
@@ -14719,7 +14719,7 @@ mOrigin
 mRepeat
 !
 =
-aOther
+aNewLayer
 .
 mRepeat
 |
@@ -14727,7 +14727,7 @@ mRepeat
 mBlendMode
 !
 =
-aOther
+aNewLayer
 .
 mBlendMode
 |
@@ -14735,7 +14735,7 @@ mBlendMode
 mSize
 !
 =
-aOther
+aNewLayer
 .
 mSize
 |
@@ -14743,7 +14743,7 @@ mSize
 mImage
 !
 =
-aOther
+aNewLayer
 .
 mImage
 |
@@ -14751,7 +14751,7 @@ mImage
 mMaskMode
 !
 =
-aOther
+aNewLayer
 .
 mMaskMode
 |
@@ -14759,7 +14759,7 @@ mMaskMode
 mComposite
 !
 =
-aOther
+aNewLayer
 .
 mComposite
 )
@@ -14775,7 +14775,7 @@ if
 mPosition
 !
 =
-aOther
+aNewLayer
 .
 mPosition
 )
@@ -14957,7 +14957,7 @@ CalcDifference
 const
 nsStyleBackground
 &
-aOther
+aNewData
 )
 const
 {
@@ -14974,7 +14974,7 @@ if
 mBackgroundColor
 !
 =
-aOther
+aNewData
 .
 mBackgroundColor
 )
@@ -14992,7 +14992,7 @@ mImage
 .
 CalcDifference
 (
-aOther
+aNewData
 .
 mImage
 nsChangeHint_UpdateBackgroundPosition
@@ -16606,7 +16606,7 @@ CalcDifference
 const
 nsStyleDisplay
 &
-aOther
+aNewData
 )
 const
 {
@@ -16624,7 +16624,7 @@ if
 EqualURIs
 (
 mBinding
-aOther
+aNewData
 .
 mBinding
 )
@@ -16633,7 +16633,7 @@ mBinding
 mPosition
 !
 =
-aOther
+aNewData
 .
 mPosition
 |
@@ -16641,7 +16641,7 @@ mPosition
 mDisplay
 !
 =
-aOther
+aNewData
 .
 mDisplay
 |
@@ -16649,7 +16649,7 @@ mDisplay
 mContain
 !
 =
-aOther
+aNewData
 .
 mContain
 |
@@ -16663,7 +16663,7 @@ NS_STYLE_FLOAT_NONE
 !
 =
 (
-aOther
+aNewData
 .
 mFloat
 =
@@ -16675,7 +16675,7 @@ NS_STYLE_FLOAT_NONE
 mOverflowX
 !
 =
-aOther
+aNewData
 .
 mOverflowX
 |
@@ -16683,7 +16683,7 @@ mOverflowX
 mOverflowY
 !
 =
-aOther
+aNewData
 .
 mOverflowY
 |
@@ -16691,7 +16691,7 @@ mOverflowY
 mScrollBehavior
 !
 =
-aOther
+aNewData
 .
 mScrollBehavior
 |
@@ -16699,7 +16699,7 @@ mScrollBehavior
 mScrollSnapTypeX
 !
 =
-aOther
+aNewData
 .
 mScrollSnapTypeX
 |
@@ -16707,7 +16707,7 @@ mScrollSnapTypeX
 mScrollSnapTypeY
 !
 =
-aOther
+aNewData
 .
 mScrollSnapTypeY
 |
@@ -16715,7 +16715,7 @@ mScrollSnapTypeY
 mScrollSnapPointsX
 !
 =
-aOther
+aNewData
 .
 mScrollSnapPointsX
 |
@@ -16723,7 +16723,7 @@ mScrollSnapPointsX
 mScrollSnapPointsY
 !
 =
-aOther
+aNewData
 .
 mScrollSnapPointsY
 |
@@ -16731,7 +16731,7 @@ mScrollSnapPointsY
 mScrollSnapDestination
 !
 =
-aOther
+aNewData
 .
 mScrollSnapDestination
 |
@@ -16739,7 +16739,7 @@ mScrollSnapDestination
 mTopLayer
 !
 =
-aOther
+aNewData
 .
 mTopLayer
 |
@@ -16747,7 +16747,7 @@ mTopLayer
 mResize
 !
 =
-aOther
+aNewData
 .
 mResize
 )
@@ -16865,7 +16865,7 @@ mAppearance
 NS_THEME_TEXTFIELD
 &
 &
-aOther
+aNewData
 .
 mAppearance
 !
@@ -16881,7 +16881,7 @@ mAppearance
 NS_THEME_TEXTFIELD
 &
 &
-aOther
+aNewData
 .
 mAppearance
 =
@@ -16991,7 +16991,7 @@ if
 mFloat
 !
 =
-aOther
+aNewData
 .
 mFloat
 )
@@ -17028,7 +17028,7 @@ if
 mVerticalAlign
 !
 =
-aOther
+aNewData
 .
 mVerticalAlign
 )
@@ -17090,7 +17090,7 @@ if
 mBreakType
 !
 =
-aOther
+aNewData
 .
 mBreakType
 |
@@ -17098,7 +17098,7 @@ mBreakType
 mBreakInside
 !
 =
-aOther
+aNewData
 .
 mBreakInside
 |
@@ -17106,7 +17106,7 @@ mBreakInside
 mBreakBefore
 !
 =
-aOther
+aNewData
 .
 mBreakBefore
 |
@@ -17114,7 +17114,7 @@ mBreakBefore
 mBreakAfter
 !
 =
-aOther
+aNewData
 .
 mBreakAfter
 |
@@ -17122,7 +17122,7 @@ mBreakAfter
 mAppearance
 !
 =
-aOther
+aNewData
 .
 mAppearance
 |
@@ -17130,7 +17130,7 @@ mAppearance
 mOrient
 !
 =
-aOther
+aNewData
 .
 mOrient
 |
@@ -17138,7 +17138,7 @@ mOrient
 mOverflowClipBox
 !
 =
-aOther
+aNewData
 .
 mOverflowClipBox
 )
@@ -17154,7 +17154,7 @@ if
 mIsolation
 !
 =
-aOther
+aNewData
 .
 mIsolation
 )
@@ -17213,7 +17213,7 @@ HasTransformStyle
 )
 !
 =
-aOther
+aNewData
 .
 HasTransformStyle
 (
@@ -17376,7 +17376,7 @@ mSpecifiedTransform
 !
 =
 !
-aOther
+aNewData
 .
 mSpecifiedTransform
 |
@@ -17390,7 +17390,7 @@ mSpecifiedTransform
 !
 =
 *
-aOther
+aNewData
 .
 mSpecifiedTransform
 )
@@ -17406,7 +17406,7 @@ if
 mSpecifiedTransform
 &
 &
-aOther
+aNewData
 .
 mSpecifiedTransform
 )
@@ -17457,7 +17457,7 @@ index
 ]
 !
 =
-aOther
+aNewData
 .
 mTransformOrigin
 [
@@ -17498,7 +17498,7 @@ index
 ]
 !
 =
-aOther
+aNewData
 .
 mPerspectiveOrigin
 [
@@ -17521,7 +17521,7 @@ HasPerspectiveStyle
 )
 !
 =
-aOther
+aNewData
 .
 HasPerspectiveStyle
 (
@@ -17555,7 +17555,7 @@ if
 mChildPerspective
 !
 =
-aOther
+aNewData
 .
 mChildPerspective
 |
@@ -17563,7 +17563,7 @@ mChildPerspective
 mTransformStyle
 !
 =
-aOther
+aNewData
 .
 mTransformStyle
 |
@@ -17571,7 +17571,7 @@ mTransformStyle
 mTransformBox
 !
 =
-aOther
+aNewData
 .
 mTransformBox
 )
@@ -17585,7 +17585,7 @@ if
 mBackfaceVisibility
 !
 =
-aOther
+aNewData
 .
 mBackfaceVisibility
 )
@@ -17632,7 +17632,7 @@ HasTransformStyle
 )
 !
 =
-aOther
+aNewData
 .
 HasTransformStyle
 (
@@ -17677,7 +17677,7 @@ willChangeBitsChanged
 =
 mWillChangeBitField
 ^
-aOther
+aNewData
 .
 mWillChangeBitField
 ;
@@ -17750,7 +17750,7 @@ if
 mTouchAction
 !
 =
-aOther
+aNewData
 .
 mTouchAction
 )
@@ -17939,7 +17939,7 @@ hint
 mOriginalDisplay
 !
 =
-aOther
+aNewData
 .
 mOriginalDisplay
 |
@@ -17947,7 +17947,7 @@ mOriginalDisplay
 mOriginalFloat
 !
 =
-aOther
+aNewData
 .
 mOriginalFloat
 |
@@ -17955,7 +17955,7 @@ mOriginalFloat
 mTransitions
 !
 =
-aOther
+aNewData
 .
 mTransitions
 |
@@ -17963,7 +17963,7 @@ mTransitions
 mTransitionTimingFunctionCount
 !
 =
-aOther
+aNewData
 .
 mTransitionTimingFunctionCount
 |
@@ -17971,7 +17971,7 @@ mTransitionTimingFunctionCount
 mTransitionDurationCount
 !
 =
-aOther
+aNewData
 .
 mTransitionDurationCount
 |
@@ -17979,7 +17979,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 !
 =
-aOther
+aNewData
 .
 mTransitionDelayCount
 |
@@ -17987,7 +17987,7 @@ mTransitionDelayCount
 mTransitionPropertyCount
 !
 =
-aOther
+aNewData
 .
 mTransitionPropertyCount
 |
@@ -17995,7 +17995,7 @@ mTransitionPropertyCount
 mAnimations
 !
 =
-aOther
+aNewData
 .
 mAnimations
 |
@@ -18003,7 +18003,7 @@ mAnimations
 mAnimationTimingFunctionCount
 !
 =
-aOther
+aNewData
 .
 mAnimationTimingFunctionCount
 |
@@ -18011,7 +18011,7 @@ mAnimationTimingFunctionCount
 mAnimationDurationCount
 !
 =
-aOther
+aNewData
 .
 mAnimationDurationCount
 |
@@ -18019,7 +18019,7 @@ mAnimationDurationCount
 mAnimationDelayCount
 !
 =
-aOther
+aNewData
 .
 mAnimationDelayCount
 |
@@ -18027,7 +18027,7 @@ mAnimationDelayCount
 mAnimationNameCount
 !
 =
-aOther
+aNewData
 .
 mAnimationNameCount
 |
@@ -18035,7 +18035,7 @@ mAnimationNameCount
 mAnimationDirectionCount
 !
 =
-aOther
+aNewData
 .
 mAnimationDirectionCount
 |
@@ -18043,7 +18043,7 @@ mAnimationDirectionCount
 mAnimationFillModeCount
 !
 =
-aOther
+aNewData
 .
 mAnimationFillModeCount
 |
@@ -18051,7 +18051,7 @@ mAnimationFillModeCount
 mAnimationPlayStateCount
 !
 =
-aOther
+aNewData
 .
 mAnimationPlayStateCount
 |
@@ -18059,7 +18059,7 @@ mAnimationPlayStateCount
 mAnimationIterationCountCount
 !
 =
-aOther
+aNewData
 .
 mAnimationIterationCountCount
 |
@@ -18067,7 +18067,7 @@ mAnimationIterationCountCount
 mScrollSnapCoordinate
 !
 =
-aOther
+aNewData
 .
 mScrollSnapCoordinate
 )
@@ -18230,7 +18230,7 @@ CalcDifference
 const
 nsStyleVisibility
 &
-aOther
+aNewData
 )
 const
 {
@@ -18247,7 +18247,7 @@ if
 mDirection
 !
 =
-aOther
+aNewData
 .
 mDirection
 |
@@ -18255,7 +18255,7 @@ mDirection
 mWritingMode
 !
 =
-aOther
+aNewData
 .
 mWritingMode
 )
@@ -18309,7 +18309,7 @@ if
 mImageOrientation
 !
 =
-aOther
+aNewData
 .
 mImageOrientation
 )
@@ -18328,7 +18328,7 @@ if
 mVisible
 !
 =
-aOther
+aNewData
 .
 mVisible
 )
@@ -18347,7 +18347,7 @@ mVisible
 NS_STYLE_VISIBILITY_COLLAPSE
 =
 =
-aOther
+aNewData
 .
 mVisible
 )
@@ -18373,7 +18373,7 @@ if
 mTextOrientation
 !
 =
-aOther
+aNewData
 .
 mTextOrientation
 )
@@ -18389,7 +18389,7 @@ if
 mImageRendering
 !
 =
-aOther
+aNewData
 .
 mImageRendering
 )
@@ -18405,7 +18405,7 @@ if
 mColorAdjust
 !
 =
-aOther
+aNewData
 .
 mColorAdjust
 )
@@ -19522,7 +19522,7 @@ CalcDifference
 const
 nsStyleContent
 &
-aOther
+aNewData
 )
 const
 {
@@ -19693,7 +19693,7 @@ if
 mContentCount
 !
 =
-aOther
+aNewData
 .
 mContentCount
 |
@@ -19701,7 +19701,7 @@ mContentCount
 mIncrementCount
 !
 =
-aOther
+aNewData
 .
 mIncrementCount
 |
@@ -19709,7 +19709,7 @@ mIncrementCount
 mResetCount
 !
 =
-aOther
+aNewData
 .
 mResetCount
 )
@@ -19740,7 +19740,7 @@ ix
 ]
 !
 =
-aOther
+aNewData
 .
 mContents
 [
@@ -19812,7 +19812,7 @@ ix
 mValue
 !
 =
-aOther
+aNewData
 .
 mIncrements
 [
@@ -19832,7 +19832,7 @@ ix
 mCounter
 !
 =
-aOther
+aNewData
 .
 mIncrements
 [
@@ -19872,7 +19872,7 @@ ix
 mValue
 !
 =
-aOther
+aNewData
 .
 mResets
 [
@@ -19892,7 +19892,7 @@ ix
 mCounter
 !
 =
-aOther
+aNewData
 .
 mResets
 [
@@ -19913,7 +19913,7 @@ if
 mMarkerOffset
 !
 =
-aOther
+aNewData
 .
 mMarkerOffset
 )
@@ -20149,7 +20149,7 @@ CalcDifference
 const
 nsStyleTextReset
 &
-aOther
+aNewData
 )
 const
 {
@@ -20158,7 +20158,7 @@ if
 mUnicodeBidi
 !
 =
-aOther
+aNewData
 .
 mUnicodeBidi
 )
@@ -20177,7 +20177,7 @@ GetDecorationStyle
 uint8_t
 otherLineStyle
 =
-aOther
+aNewData
 .
 GetDecorationStyle
 (
@@ -20188,7 +20188,7 @@ if
 mTextDecorationLine
 !
 =
-aOther
+aNewData
 .
 mTextDecorationLine
 |
@@ -20272,7 +20272,7 @@ decColor
 isFG
 )
 ;
-aOther
+aNewData
 .
 GetDecorationColor
 (
@@ -20309,7 +20309,7 @@ if
 mTextOverflow
 !
 =
-aOther
+aNewData
 .
 mTextOverflow
 )
@@ -20881,7 +20881,7 @@ CalcDifference
 const
 nsStyleText
 &
-aOther
+aNewData
 )
 const
 {
@@ -20892,7 +20892,7 @@ WhiteSpaceOrNewlineIsSignificant
 )
 !
 =
-aOther
+aNewData
 .
 WhiteSpaceOrNewlineIsSignificant
 (
@@ -20918,7 +20918,7 @@ if
 mTextCombineUpright
 !
 =
-aOther
+aNewData
 .
 mTextCombineUpright
 |
@@ -20926,7 +20926,7 @@ mTextCombineUpright
 mControlCharacterVisibility
 !
 =
-aOther
+aNewData
 .
 mControlCharacterVisibility
 )
@@ -20941,7 +20941,7 @@ if
 mTextAlign
 !
 =
-aOther
+aNewData
 .
 mTextAlign
 )
@@ -20951,7 +20951,7 @@ mTextAlign
 mTextAlignLast
 !
 =
-aOther
+aNewData
 .
 mTextAlignLast
 )
@@ -20961,7 +20961,7 @@ mTextAlignLast
 mTextAlignTrue
 !
 =
-aOther
+aNewData
 .
 mTextAlignTrue
 )
@@ -20971,7 +20971,7 @@ mTextAlignTrue
 mTextAlignLastTrue
 !
 =
-aOther
+aNewData
 .
 mTextAlignLastTrue
 )
@@ -20981,7 +20981,7 @@ mTextAlignLastTrue
 mTextTransform
 !
 =
-aOther
+aNewData
 .
 mTextTransform
 )
@@ -20991,7 +20991,7 @@ mTextTransform
 mWhiteSpace
 !
 =
-aOther
+aNewData
 .
 mWhiteSpace
 )
@@ -21001,7 +21001,7 @@ mWhiteSpace
 mWordBreak
 !
 =
-aOther
+aNewData
 .
 mWordBreak
 )
@@ -21011,7 +21011,7 @@ mWordBreak
 mOverflowWrap
 !
 =
-aOther
+aNewData
 .
 mOverflowWrap
 )
@@ -21021,7 +21021,7 @@ mOverflowWrap
 mHyphens
 !
 =
-aOther
+aNewData
 .
 mHyphens
 )
@@ -21031,7 +21031,7 @@ mHyphens
 mRubyAlign
 !
 =
-aOther
+aNewData
 .
 mRubyAlign
 )
@@ -21041,7 +21041,7 @@ mRubyAlign
 mRubyPosition
 !
 =
-aOther
+aNewData
 .
 mRubyPosition
 )
@@ -21051,7 +21051,7 @@ mRubyPosition
 mTextSizeAdjust
 !
 =
-aOther
+aNewData
 .
 mTextSizeAdjust
 )
@@ -21061,7 +21061,7 @@ mTextSizeAdjust
 mLetterSpacing
 !
 =
-aOther
+aNewData
 .
 mLetterSpacing
 )
@@ -21071,7 +21071,7 @@ mLetterSpacing
 mLineHeight
 !
 =
-aOther
+aNewData
 .
 mLineHeight
 )
@@ -21081,7 +21081,7 @@ mLineHeight
 mTextIndent
 !
 =
-aOther
+aNewData
 .
 mTextIndent
 )
@@ -21091,7 +21091,7 @@ mTextIndent
 mWordSpacing
 !
 =
-aOther
+aNewData
 .
 mWordSpacing
 )
@@ -21101,7 +21101,7 @@ mWordSpacing
 mTabSize
 !
 =
-aOther
+aNewData
 .
 mTabSize
 )
@@ -21116,7 +21116,7 @@ HasTextEmphasis
 )
 !
 =
-aOther
+aNewData
 .
 HasTextEmphasis
 (
@@ -21132,7 +21132,7 @@ HasTextEmphasis
 mTextEmphasisPosition
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisPosition
 )
@@ -21188,7 +21188,7 @@ if
 mTextRendering
 !
 =
-aOther
+aNewData
 .
 mTextRendering
 )
@@ -21217,7 +21217,7 @@ if
 AreShadowArraysEqual
 (
 mTextShadow
-aOther
+aNewData
 .
 mTextShadow
 )
@@ -21226,7 +21226,7 @@ mTextShadow
 mTextEmphasisStyle
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisStyle
 |
@@ -21234,7 +21234,7 @@ mTextEmphasisStyle
 mTextEmphasisStyleString
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisStyleString
 |
@@ -21242,7 +21242,7 @@ mTextEmphasisStyleString
 mWebkitTextStrokeWidth
 !
 =
-aOther
+aNewData
 .
 mWebkitTextStrokeWidth
 )
@@ -21279,7 +21279,7 @@ mTextEmphasisColorForeground
 |
 |
 !
-aOther
+aNewData
 .
 mTextEmphasisColorForeground
 |
@@ -21287,7 +21287,7 @@ mTextEmphasisColorForeground
 mTextEmphasisColor
 =
 =
-aOther
+aNewData
 .
 mTextEmphasisColor
 "
@@ -21317,7 +21317,7 @@ if
 mTextEmphasisColorForeground
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisColorForeground
 |
@@ -21325,7 +21325,7 @@ mTextEmphasisColorForeground
 mTextEmphasisColor
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisColor
 |
@@ -21333,7 +21333,7 @@ mTextEmphasisColor
 mWebkitTextFillColorForeground
 !
 =
-aOther
+aNewData
 .
 mWebkitTextFillColorForeground
 |
@@ -21341,7 +21341,7 @@ mWebkitTextFillColorForeground
 mWebkitTextFillColor
 !
 =
-aOther
+aNewData
 .
 mWebkitTextFillColor
 |
@@ -21349,7 +21349,7 @@ mWebkitTextFillColor
 mWebkitTextStrokeColorForeground
 !
 =
-aOther
+aNewData
 .
 mWebkitTextStrokeColorForeground
 |
@@ -21357,7 +21357,7 @@ mWebkitTextStrokeColorForeground
 mWebkitTextStrokeColor
 !
 =
-aOther
+aNewData
 .
 mWebkitTextStrokeColor
 )
@@ -21384,7 +21384,7 @@ if
 mTextEmphasisPosition
 !
 =
-aOther
+aNewData
 .
 mTextEmphasisPosition
 )
@@ -21790,7 +21790,7 @@ CalcDifference
 const
 nsStyleUserInterface
 &
-aOther
+aNewData
 )
 const
 {
@@ -21807,7 +21807,7 @@ if
 mCursor
 !
 =
-aOther
+aNewData
 .
 mCursor
 )
@@ -21847,7 +21847,7 @@ mCursorArrayLength
 0
 |
 |
-aOther
+aNewData
 .
 mCursorArrayLength
 >
@@ -21863,7 +21863,7 @@ if
 mPointerEvents
 !
 =
-aOther
+aNewData
 .
 mPointerEvents
 )
@@ -21931,7 +21931,7 @@ if
 mUserModify
 !
 =
-aOther
+aNewData
 .
 mUserModify
 )
@@ -21945,7 +21945,7 @@ if
 mUserInput
 !
 =
-aOther
+aNewData
 .
 mUserInput
 )
@@ -21961,7 +21961,7 @@ mUserInput
 NS_STYLE_USER_INPUT_NONE
 =
 =
-aOther
+aNewData
 .
 mUserInput
 )
@@ -21986,7 +21986,7 @@ if
 mUserFocus
 !
 =
-aOther
+aNewData
 .
 mUserFocus
 )
@@ -22216,7 +22216,7 @@ CalcDifference
 const
 nsStyleUIReset
 &
-aOther
+aNewData
 )
 const
 {
@@ -22229,7 +22229,7 @@ if
 mForceBrokenImageIcon
 !
 =
-aOther
+aNewData
 .
 mForceBrokenImageIcon
 )
@@ -22241,7 +22241,7 @@ if
 mWindowShadow
 !
 =
-aOther
+aNewData
 .
 mWindowShadow
 )
@@ -22283,7 +22283,7 @@ if
 mUserSelect
 !
 =
-aOther
+aNewData
 .
 mUserSelect
 )
@@ -22295,7 +22295,7 @@ if
 mWindowDragging
 !
 =
-aOther
+aNewData
 .
 mWindowDragging
 )
@@ -22400,7 +22400,7 @@ CalcDifference
 const
 nsStyleVariables
 &
-aOther
+aNewData
 )
 const
 {
@@ -22559,7 +22559,7 @@ CalcDifference
 const
 nsStyleEffects
 &
-aOther
+aNewData
 )
 const
 {
@@ -22577,7 +22577,7 @@ if
 AreShadowArraysEqual
 (
 mBoxShadow
-aOther
+aNewData
 .
 mBoxShadow
 )
@@ -22660,7 +22660,7 @@ if
 mClipFlags
 !
 =
-aOther
+aNewData
 .
 mClipFlags
 )
@@ -22680,7 +22680,7 @@ mClip
 .
 IsEqualInterior
 (
-aOther
+aNewData
 .
 mClip
 )
@@ -22722,7 +22722,7 @@ if
 mOpacity
 !
 =
-aOther
+aNewData
 .
 mOpacity
 )
@@ -22791,7 +22791,7 @@ mOpacity
 0f
 &
 &
-aOther
+aNewData
 .
 mOpacity
 =
@@ -22803,7 +22803,7 @@ mOpacity
 |
 |
 (
-aOther
+aNewData
 .
 mOpacity
 >
@@ -22813,7 +22813,7 @@ mOpacity
 99f
 &
 &
-aOther
+aNewData
 .
 mOpacity
 <
@@ -22857,7 +22857,7 @@ mOpacity
 !
 =
 (
-aOther
+aNewData
 .
 mOpacity
 =
@@ -22883,7 +22883,7 @@ HasFilters
 )
 !
 =
-aOther
+aNewData
 .
 HasFilters
 (
@@ -22917,7 +22917,7 @@ if
 mFilters
 !
 =
-aOther
+aNewData
 .
 mFilters
 )
@@ -22937,7 +22937,7 @@ if
 mMixBlendMode
 !
 =
-aOther
+aNewData
 .
 mMixBlendMode
 )
@@ -22959,7 +22959,7 @@ mClip
 .
 IsEqualEdges
 (
-aOther
+aNewData
 .
 mClip
 )

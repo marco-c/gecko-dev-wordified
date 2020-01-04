@@ -2709,7 +2709,7 @@ is
 being
 replaced
 by
-aOther
+aNewContext
 .
 (
 This
@@ -2878,7 +2878,7 @@ CalcStyleDifference
 (
 nsStyleContext
 *
-aOther
+aNewContext
 nsChangeHint
 aParentHintsNotHandledForDescendants
 uint32_t
