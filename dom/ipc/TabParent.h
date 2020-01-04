@@ -1209,17 +1209,6 @@ override
 ;
 virtual
 bool
-RecvSetBackgroundColor
-(
-const
-nscolor
-&
-aValue
-)
-override
-;
-virtual
-bool
 RecvSetStatus
 (
 const
