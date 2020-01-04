@@ -422,8 +422,6 @@ char
 ptr
 .
 array
-(
-)
 }
 *
 /
