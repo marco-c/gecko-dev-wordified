@@ -631,6 +631,9 @@ assert_throws
 assert_unreached
 "
 "
+promise_test
+"
+"
 test
 "
 ]
