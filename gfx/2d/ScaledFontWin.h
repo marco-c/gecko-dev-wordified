@@ -103,6 +103,13 @@ ScaledFontBase
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 namespace
 mozilla
 {
