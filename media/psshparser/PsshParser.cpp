@@ -997,7 +997,7 @@ Remaining
 (
 )
 <
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 {
 /
@@ -1022,7 +1022,7 @@ reader
 .
 Read
 (
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 ;
 aOutKeyIds
@@ -1040,7 +1040,7 @@ uint8_t
 kid
 kid
 +
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 )
 )
 ;

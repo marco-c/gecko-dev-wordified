@@ -1247,7 +1247,7 @@ iv
 end
 (
 )
-CLEARKEY_KEY_LEN
+CENC_KEY_LEN
 -
 aMetadata
 .
