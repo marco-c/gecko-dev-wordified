@@ -2950,16 +2950,7 @@ opt
 android
 -
 sdk
-/
-platforms
-/
-%
-s
 '
-%
-android
-.
-ANDROID_PLATFORM
         
 ndk_path
 =
