@@ -3674,10 +3674,6 @@ GetRootFrame
 if
 (
 rootFrame
-&
-&
-*
-aPresContext
 )
 {
 nsIntRect
