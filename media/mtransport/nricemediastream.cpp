@@ -3379,6 +3379,11 @@ state_
 =
 ICE_CLOSED
 ;
+if
+(
+stream_
+)
+{
 int
 r
 =
@@ -3421,6 +3426,7 @@ error
 r
 )
 ;
+}
 }
 }
 }
