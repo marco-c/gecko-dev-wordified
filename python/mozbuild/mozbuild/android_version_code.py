@@ -175,7 +175,7 @@ split
 APK
 starts
 at
-11
+14
 .
         
 return
@@ -228,7 +228,7 @@ that
         
 #
 the
-v11
+v14
 +
 ARMv7
 APK
@@ -536,14 +536,16 @@ if
 the
 build
 is
+an
+ARM
+build
 targeting
-Android
 API
 14
 +
+    
 and
 0
-    
 otherwise
 which
 means
