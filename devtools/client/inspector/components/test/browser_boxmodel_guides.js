@@ -88,8 +88,8 @@ that
 the
 /
 /
-layout
--
+box
+model
 view
 does
 call
@@ -224,7 +224,7 @@ view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -280,7 +280,7 @@ doc
 getElementById
 (
 "
-layout
+boxmodel
 -
 margins
 "
@@ -306,7 +306,7 @@ doc
 getElementById
 (
 "
-layout
+boxmodel
 -
 borders
 "
@@ -332,7 +332,7 @@ doc
 getElementById
 (
 "
-layout
+boxmodel
 -
 padding
 "
@@ -358,7 +358,7 @@ doc
 getElementById
 (
 "
-layout
+boxmodel
 -
 content
 "
@@ -394,7 +394,7 @@ Synthesizing
 mouseover
 on
 the
-layout
+boxmodel
 -
 view
 "

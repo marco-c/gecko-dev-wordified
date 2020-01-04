@@ -107,7 +107,7 @@ view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -146,7 +146,8 @@ padding
 -
 bottom
 in
-layout
+box
+model
 view
 "
 )
@@ -162,11 +163,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 padding
 .
-layout
+boxmodel
 -
 bottom
 >

@@ -55,8 +55,8 @@ strict
 Test
 that
 the
-layout
--
+box
+model
 view
 continues
 to
@@ -79,7 +79,7 @@ addTab
 URL_ROOT
 +
 "
-doc_layout_iframe1
+doc_boxmodel_iframe1
 .
 html
 "
@@ -93,7 +93,7 @@ testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -103,8 +103,8 @@ info
 Test
 that
 the
-layout
--
+box
+model
 view
 works
 on
@@ -115,7 +115,7 @@ page
 )
 ;
 yield
-assertLayoutView
+assertBoxModelView
 (
 inspector
 view
@@ -154,8 +154,8 @@ info
 Test
 that
 the
-layout
--
+box
+model
 view
 works
 on
@@ -166,7 +166,7 @@ page
 )
 ;
 yield
-assertLayoutView
+assertBoxModelView
 (
 inspector
 view
@@ -178,7 +178,7 @@ testActor
 ;
 function
 *
-assertLayoutView
+assertBoxModelView
 (
 inspector
 view
@@ -210,8 +210,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the
@@ -231,11 +231,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 padding
 .
-layout
+boxmodel
 -
 top
 >
@@ -258,8 +258,8 @@ info
 "
 Listening
 for
-layout
--
+box
+model
 view
 changes
 and
@@ -299,8 +299,8 @@ ok
 (
 true
 "
-Layout
--
+Box
+model
 view
 got
 updated
@@ -313,8 +313,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the

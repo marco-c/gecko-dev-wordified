@@ -123,7 +123,9 @@ empty
 space
 below
 the
-layout
+/
+/
+boxmodel
 -
 container
 .
@@ -166,7 +168,7 @@ view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -227,11 +229,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 margin
 .
-layout
+boxmodel
 -
 top
 >
@@ -426,11 +428,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 margin
 .
-layout
+boxmodel
 -
 top
 >
@@ -466,7 +468,7 @@ that
 clicking
 below
 the
-layout
+boxmodel
 -
 container
 blurs
@@ -542,7 +544,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 container
 "
@@ -571,7 +573,8 @@ of
 50px
 for
 the
-layout
+boxmodel
+-
 container
 .
 let

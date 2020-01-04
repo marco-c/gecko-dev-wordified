@@ -264,7 +264,7 @@ computedView
 styleDocument
 ;
 let
-layoutWrapper
+boxModelWrapper
 =
 doc
 .
@@ -272,7 +272,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 wrapper
 "
@@ -424,12 +424,12 @@ onRefreshed
 ;
 ok
 (
-layoutWrapper
+boxModelWrapper
 .
 hidden
 "
-Layout
-view
+Box
+model
 is
 hidden
 "

@@ -55,8 +55,8 @@ strict
 Test
 that
 the
-layout
--
+box
+model
 view
 for
 elements
@@ -82,7 +82,7 @@ addTab
 URL_ROOT
 +
 "
-doc_layout_iframe1
+doc_boxmodel_iframe1
 .
 html
 "
@@ -96,7 +96,7 @@ testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -172,8 +172,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the
@@ -193,7 +193,7 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 size
 >
@@ -218,8 +218,8 @@ info
 "
 Listening
 for
-layout
--
+box
+model
 view
 changes
 and
@@ -259,8 +259,8 @@ ok
 (
 true
 "
-Layout
--
+Box
+model
 view
 got
 updated
@@ -273,8 +273,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the
@@ -317,8 +317,8 @@ still
 sent
 to
 the
-layout
--
+box
+model
 view
 after
 deleting
@@ -384,8 +384,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the
@@ -405,7 +405,7 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 size
 >
@@ -430,8 +430,8 @@ info
 "
 Listening
 for
-layout
--
+box
+model
 view
 changes
 and
@@ -471,8 +471,8 @@ ok
 (
 true
 "
-Layout
--
+Box
+model
 view
 got
 updated
@@ -485,8 +485,8 @@ info
 Checking
 that
 the
-layout
--
+box
+model
 view
 shows
 the

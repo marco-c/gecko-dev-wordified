@@ -58,8 +58,8 @@ the
 regions
 in
 the
-layout
--
+box
+model
 view
 have
 tooltips
@@ -591,7 +591,7 @@ view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -615,7 +615,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 margins
 "
@@ -647,7 +647,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 margins
 "
@@ -684,7 +684,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 borders
 "
@@ -716,7 +716,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 borders
 "
@@ -753,7 +753,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 padding
 "
@@ -785,7 +785,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 padding
 "
@@ -822,7 +822,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 content
 "
@@ -854,7 +854,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 content
 "
