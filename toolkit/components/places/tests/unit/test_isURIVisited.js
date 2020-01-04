@@ -260,6 +260,7 @@ next
 ;
 }
 function
+*
 step
 (
 )

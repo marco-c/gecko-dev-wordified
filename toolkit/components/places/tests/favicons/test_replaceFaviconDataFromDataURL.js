@@ -421,6 +421,7 @@ run_next_test
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_validHistoryURI
 (
 )
@@ -584,6 +585,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_overrideDefaultFavicon
 (
 )
@@ -769,6 +771,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_replaceExisting
 (
 )
@@ -970,6 +973,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_unrelatedReplace
 (
 )
@@ -1155,6 +1159,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_badInputs
 (
 )
@@ -1283,6 +1288,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_twiceReplace
 (
 )
@@ -1479,6 +1485,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_afterRegularAssign
 (
 )
@@ -1681,6 +1688,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconDataFromDataURL_beforeRegularAssign
 (
 )

@@ -690,6 +690,7 @@ run_next_test
 add_task
 (
 function
+*
 test_sort_date_site_grouping
 (
 )

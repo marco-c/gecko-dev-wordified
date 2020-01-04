@@ -235,6 +235,7 @@ run_next_test
 add_task
 (
 function
+*
 test_execute
 (
 )
@@ -242,14 +243,9 @@ test_execute
 for
 (
 let
-[
 url
-]
-in
-Iterator
-(
+of
 URLS
-)
 )
 {
 yield
@@ -263,6 +259,7 @@ url
 )
 ;
 function
+*
 task_test_url
 (
 aURL

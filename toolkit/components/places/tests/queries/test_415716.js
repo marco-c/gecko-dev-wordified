@@ -204,6 +204,7 @@ test
 add_task
 (
 function
+*
 test_buildTestDatabase
 (
 )

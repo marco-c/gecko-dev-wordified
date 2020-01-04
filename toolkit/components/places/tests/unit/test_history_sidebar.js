@@ -255,6 +255,7 @@ them
 *
 /
 function
+*
 task_add_normalized_visit
 (
 aURI
@@ -769,6 +770,7 @@ labels
 *
 /
 function
+*
 task_fill_history
 (
 )
@@ -2820,6 +2822,7 @@ correctly
 *
 /
 function
+*
 task_test_date_liveupdate
 (
 aResultType
@@ -3371,6 +3374,7 @@ run_next_test
 add_task
 (
 function
+*
 test_history_sidebar
 (
 )

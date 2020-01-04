@@ -413,6 +413,7 @@ org
 add_task
 (
 function
+*
 test_moz_hosts_update
 (
 )
@@ -561,6 +562,7 @@ prefix
 add_task
 (
 function
+*
 test_remove_places
 (
 )
@@ -635,6 +637,7 @@ prefix
 add_task
 (
 function
+*
 test_bookmark_changes
 (
 )
@@ -777,6 +780,7 @@ null
 add_task
 (
 function
+*
 test_bookmark_removal
 (
 )
@@ -842,6 +846,7 @@ null
 add_task
 (
 function
+*
 test_moz_hosts_typed_update
 (
 )
@@ -936,6 +941,7 @@ clearHistory
 add_task
 (
 function
+*
 test_moz_hosts_www_remove
 (
 )
@@ -1153,6 +1159,7 @@ clearHistory
 add_task
 (
 function
+*
 test_moz_hosts_ftp_matchall
 (
 )
@@ -1243,6 +1250,7 @@ ftp
 add_task
 (
 function
+*
 test_moz_hosts_ftp_not_matchall
 (
 )
@@ -1326,6 +1334,7 @@ null
 add_task
 (
 function
+*
 test_moz_hosts_update_2
 (
 )

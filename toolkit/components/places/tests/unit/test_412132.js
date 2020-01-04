@@ -136,6 +136,7 @@ id
 add_task
 (
 function
+*
 changeuri_unvisited_bookmark
 (
 )
@@ -332,6 +333,7 @@ clearHistory
 add_task
 (
 function
+*
 changeuri_visited_bookmark
 (
 )
@@ -540,6 +542,7 @@ clearHistory
 add_task
 (
 function
+*
 changeuri_bookmark_still_bookmarked
 (
 )
@@ -759,6 +762,7 @@ clearHistory
 add_task
 (
 function
+*
 changeuri_nonexistent_bookmark
 (
 )

@@ -617,6 +617,7 @@ uri
 *
 /
 function
+*
 task_setCountRank
 (
 aURI
@@ -1196,6 +1197,7 @@ search
 term
 .
 function
+*
 (
 )
 {
@@ -1265,6 +1267,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1334,6 +1337,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1403,6 +1407,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1488,6 +1493,7 @@ other
 )
 .
 function
+*
 (
 )
 {
@@ -1561,6 +1567,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1648,6 +1655,7 @@ both
 )
 .
 function
+*
 (
 )
 {
@@ -1718,6 +1726,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1802,6 +1811,7 @@ both
 )
 .
 function
+*
 (
 )
 {
@@ -1872,6 +1882,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1942,6 +1953,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -2017,6 +2029,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -2106,6 +2119,7 @@ set
 right
 .
 function
+*
 (
 )
 {
@@ -2249,6 +2263,7 @@ set
 right
 .
 function
+*
 (
 )
 {
@@ -2435,6 +2450,7 @@ run_next_test
 add_task
 (
 function
+*
 test_adaptive
 (
 )

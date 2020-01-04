@@ -126,6 +126,7 @@ run_next_test
 add_task
 (
 function
+*
 test_addBookmarksAndCheckGuids
 (
 )
@@ -628,6 +629,7 @@ eraseEverything
 add_task
 (
 function
+*
 test_updateBookmarksAndCheckGuids
 (
 )
@@ -914,6 +916,7 @@ eraseEverything
 add_task
 (
 function
+*
 test_addVisitAndCheckGuid
 (
 )
@@ -1081,6 +1084,7 @@ clearHistory
 add_task
 (
 function
+*
 test_addItemsWithInvalidGUIDsFails
 (
 )
@@ -1252,6 +1256,7 @@ eraseEverything
 add_task
 (
 function
+*
 test_addItemsWithGUIDs
 (
 )
@@ -1427,6 +1432,7 @@ eraseEverything
 add_task
 (
 function
+*
 test_emptyGUIDIgnored
 (
 )
@@ -1481,6 +1487,7 @@ eraseEverything
 add_task
 (
 function
+*
 test_usingSameGUIDFails
 (
 )

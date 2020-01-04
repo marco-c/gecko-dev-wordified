@@ -375,6 +375,7 @@ task
 *
 /
 function
+*
 task_populateDB
 (
 aArray
