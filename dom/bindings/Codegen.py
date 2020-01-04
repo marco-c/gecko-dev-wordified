@@ -21343,6 +21343,92 @@ nullptr
 "
 )
         
+#
+If
+we
+fail
+after
+here
+we
+must
+clear
+interface
+and
+prototype
+caches
+        
+#
+using
+this
+code
+:
+intermediate
+failure
+must
+not
+expose
+the
+interface
+in
+        
+#
+partially
+-
+constructed
+state
+.
+Note
+that
+every
+case
+after
+here
+needs
+an
+        
+#
+interface
+prototype
+object
+.
+        
+failureCode
+=
+dedent
+(
+            
+"
+"
+"
+            
+*
+protoCache
+=
+nullptr
+;
+            
+if
+(
+interfaceCache
+)
+{
+              
+*
+interfaceCache
+=
+nullptr
+;
+            
+}
+            
+return
+;
+            
+"
+"
+"
+)
+        
 aliasedMembers
 =
 [
@@ -21524,13 +21610,13 @@ ever
 create
 non
 -
-enumerate
+enumerable
 properties
 that
 can
-be
                     
 #
+be
 aliased
 we
 should
@@ -21538,9 +21624,9 @@ consider
 making
 the
 aliases
-match
                     
 #
+match
 the
 enumerability
 of
@@ -21577,8 +21663,10 @@ JSPROP_ENUMERATE
 )
 {
                           
-return
-;
+*
+{
+failureCode
+}
                         
 }
                         
@@ -21593,6 +21681,10 @@ defineFn
 prop
 =
 prop
+                        
+failureCode
+=
+failureCode
 )
 )
                 
@@ -21644,14 +21736,20 @@ aliasedVal
 )
 {
                           
-return
-;
+*
+{
+failureCode
+}
                         
 }
                         
 "
 "
 "
+                        
+failureCode
+=
+failureCode
                         
 prop
 =
@@ -21690,7 +21788,7 @@ CGList
                 
 CGGeneric
 (
-dedent
+fill
 (
 "
 "
@@ -21735,14 +21833,20 @@ proto
 )
 {
                       
-return
-;
+*
+{
+failureCode
+}
                     
 }
                     
 "
 "
 "
+                    
+failureCode
+=
+failureCode
 )
 )
                 
@@ -21996,43 +22100,6 @@ holderProto
 *
 protoCache
 "
-            
-failureCode
-=
-dedent
-(
-                
-"
-"
-"
-                
-*
-protoCache
-=
-nullptr
-;
-                
-if
-(
-interfaceCache
-)
-{
-                  
-*
-interfaceCache
-=
-nullptr
-;
-                
-}
-                
-return
-;
-                
-"
-"
-"
-)
             
 createUnforgeableHolder
 =
