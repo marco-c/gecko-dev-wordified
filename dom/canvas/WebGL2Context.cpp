@@ -530,6 +530,12 @@ GLFeature
 :
 :
 map_buffer_range
+/
+/
+Used
+by
+GetBufferSubData
+.
 gl
 :
 :
@@ -621,13 +627,6 @@ GLFeature
 :
 :
 texture_float
-gl
-:
-:
-GLFeature
-:
-:
-texture_float_linear
 gl
 :
 :
