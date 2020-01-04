@@ -153,7 +153,6 @@ Directory
 ;
 class
 DirectoryEntry
-final
 :
 public
 Entry
@@ -174,6 +173,9 @@ aGlobalObject
 Directory
 *
 aDirectory
+DOMFileSystem
+*
+aFileSystem
 )
 ;
 virtual
@@ -236,6 +238,7 @@ aRv
 const
 override
 ;
+virtual
 already_AddRefed
 <
 DirectoryReader
@@ -354,13 +357,16 @@ aErrorCallback
 )
 const
 ;
-private
+protected
 :
+virtual
 ~
 DirectoryEntry
 (
 )
 ;
+private
+:
 RefPtr
 <
 Directory
