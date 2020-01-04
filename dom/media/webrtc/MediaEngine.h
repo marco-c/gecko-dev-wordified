@@ -265,13 +265,6 @@ DEFAULT_169_VIDEO_HEIGHT
 =
 720
 ;
-static
-const
-int
-DEFAULT_AUDIO_TIMER_MS
-=
-10
-;
 #
 ifndef
 MOZ_B2G
