@@ -34534,7 +34534,7 @@ if
 widget
 )
 {
-IntSize
+LayoutDeviceIntSize
 widgetSize
 =
 widget

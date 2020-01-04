@@ -757,10 +757,7 @@ virtual
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 GetClientSize
 (
 )
