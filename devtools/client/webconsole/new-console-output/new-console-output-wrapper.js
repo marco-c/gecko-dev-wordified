@@ -251,6 +251,17 @@ jsterm
 toolbox
 )
 {
+const
+sourceMapService
+=
+toolbox
+?
+toolbox
+.
+_sourceMapService
+:
+null
+;
 let
 childComponent
 =
@@ -258,6 +269,7 @@ ConsoleOutput
 (
 {
 jsterm
+sourceMapService
 onViewSourceInDebugger
 :
 frame
