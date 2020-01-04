@@ -43428,6 +43428,14 @@ AsmFunction
 lifo
 )
 ;
+if
+(
+!
+asmFunc
+)
+return
+false
+;
 FunctionValidator
 f
 (
