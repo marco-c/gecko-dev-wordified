@@ -121,6 +121,9 @@ mozilla
 namespace
 dom
 {
+class
+HTMLDetailsElement
+;
 /
 /
 HTMLSummaryElement
@@ -236,6 +239,15 @@ nsINode
 aResult
 )
 const
+override
+;
+nsresult
+PostHandleEvent
+(
+EventChainPostVisitor
+&
+aVisitor
+)
 override
 ;
 /
