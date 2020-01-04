@@ -2211,6 +2211,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
+)
 SendRemotePluginsReady
 (
 )
@@ -2313,6 +2319,12 @@ if
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+MOZ_WIDGET_GTK
 )
 SendRemotePluginsReady
 (
