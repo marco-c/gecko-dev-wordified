@@ -1152,6 +1152,17 @@ hidden
 =
 true
 ;
+this
+.
+emit
+(
+"
+search
+-
+cleared
+"
+)
+;
 }
 }
 ;
