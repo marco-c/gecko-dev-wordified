@@ -2959,7 +2959,7 @@ Editor
 .
 modes
 .
-wasm
+text
 )
 ;
 }
