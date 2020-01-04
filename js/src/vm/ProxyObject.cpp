@@ -481,6 +481,9 @@ data
 .
 values
 )
+detail
+:
+:
 ProxyValueArray
 ;
 proxy
@@ -631,6 +634,9 @@ i
 ;
 i
 <
+detail
+:
+:
 PROXY_EXTRA_SLOTS
 ;
 i
