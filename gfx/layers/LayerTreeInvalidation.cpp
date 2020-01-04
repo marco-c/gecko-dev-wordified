@@ -903,7 +903,7 @@ container
 container
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -1544,7 +1544,7 @@ TransformRect
 mLayer
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -2333,7 +2333,7 @@ result
 child
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -2950,7 +2950,7 @@ if
 imageLayer
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -3774,7 +3774,7 @@ TransformRect
 aRoot
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
