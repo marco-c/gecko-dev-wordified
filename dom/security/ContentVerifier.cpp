@@ -334,11 +334,11 @@ aContentSignatureHeader
 NS_LITERAL_CSTRING
 (
 "
-remote
+remotenewtab
+.
+content
 -
-newtab
--
-signer
+signature
 .
 mozilla
 .

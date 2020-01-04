@@ -145,11 +145,11 @@ const
 ABOUT_NEWTAB_NAME
 =
 "
-remote
+remotenewtab
+.
+content
 -
-newtab
--
-signer
+signature
 .
 mozilla
 .
