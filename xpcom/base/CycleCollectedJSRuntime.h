@@ -1552,9 +1552,6 @@ aWrapper
 void
 JSObjectsTenured
 (
-JSRuntime
-*
-aRuntime
 )
 ;
 void

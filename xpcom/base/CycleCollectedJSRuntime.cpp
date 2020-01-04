@@ -2933,7 +2933,6 @@ aData
 >
 JSObjectsTenured
 (
-aRuntime
 )
 ;
 }
@@ -6626,9 +6625,6 @@ CycleCollectedJSRuntime
 :
 JSObjectsTenured
 (
-JSRuntime
-*
-aRuntime
 )
 {
 for
