@@ -107,10 +107,8 @@ https
 /
 /
 loop
--
-dev
 .
-stage
+dev
 .
 mozaws
 .
