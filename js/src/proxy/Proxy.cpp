@@ -182,7 +182,7 @@ include
 "
 proxy
 /
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 .
 h
 "
