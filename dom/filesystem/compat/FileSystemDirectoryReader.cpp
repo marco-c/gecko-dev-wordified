@@ -223,7 +223,7 @@ aGlobalObject
 FileSystem
 *
 aFileSystem
-EntriesCallback
+FileSystemEntriesCallback
 *
 aSuccessCallback
 ErrorCallback
@@ -632,7 +632,7 @@ mFileSystem
 ;
 RefPtr
 <
-EntriesCallback
+FileSystemEntriesCallback
 >
 mSuccessCallback
 ;
@@ -771,7 +771,7 @@ FileSystemDirectoryReader
 :
 ReadEntries
 (
-EntriesCallback
+FileSystemEntriesCallback
 &
 aSuccessCallback
 const

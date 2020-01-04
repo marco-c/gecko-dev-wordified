@@ -320,7 +320,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &

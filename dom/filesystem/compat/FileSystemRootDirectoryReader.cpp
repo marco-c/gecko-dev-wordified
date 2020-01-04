@@ -154,7 +154,7 @@ public
 :
 EntriesCallbackRunnable
 (
-EntriesCallback
+FileSystemEntriesCallback
 *
 aCallback
 const
@@ -259,7 +259,7 @@ private
 :
 RefPtr
 <
-EntriesCallback
+FileSystemEntriesCallback
 >
 mCallback
 ;
@@ -367,7 +367,7 @@ FileSystemRootDirectoryReader
 :
 ReadEntries
 (
-EntriesCallback
+FileSystemEntriesCallback
 &
 aSuccessCallback
 const

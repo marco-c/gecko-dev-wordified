@@ -235,7 +235,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &

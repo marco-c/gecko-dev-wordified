@@ -264,7 +264,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &
@@ -308,7 +308,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &
@@ -379,7 +379,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &

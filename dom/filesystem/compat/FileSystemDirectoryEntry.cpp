@@ -383,7 +383,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &
