@@ -1187,9 +1187,6 @@ nsCommandParams
 :
 HashKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -1214,9 +1211,6 @@ nsCommandParams
 :
 HashMatchEntry
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

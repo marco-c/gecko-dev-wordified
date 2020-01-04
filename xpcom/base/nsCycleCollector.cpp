@@ -5085,9 +5085,6 @@ static
 bool
 PtrToNodeMatchEntry
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

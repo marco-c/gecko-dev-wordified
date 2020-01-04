@@ -169,8 +169,6 @@ static
 bool
 matchNodeString
 (
-PLDHashTable
-*
 const
 PLDHashEntryHdr
 *
@@ -237,8 +235,6 @@ static
 bool
 matchNodeUnicode
 (
-PLDHashTable
-*
 const
 PLDHashEntryHdr
 *
@@ -292,8 +288,6 @@ static
 PLDHashNumber
 hashUnicodeValue
 (
-PLDHashTable
-*
 const
 void
 *

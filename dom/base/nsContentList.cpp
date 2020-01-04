@@ -799,9 +799,6 @@ static
 PLDHashNumber
 ContentListHashtableHashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -836,9 +833,6 @@ static
 bool
 ContentListHashtableMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1341,9 +1335,6 @@ static
 PLDHashNumber
 FuncStringContentListHashtableHashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1378,9 +1369,6 @@ static
 bool
 FuncStringContentListHashtableMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

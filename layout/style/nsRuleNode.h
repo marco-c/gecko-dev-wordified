@@ -2909,9 +2909,6 @@ static
 PLDHashNumber
 ChildrenHashHashKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -2922,9 +2919,6 @@ static
 bool
 ChildrenHashMatchEntry
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

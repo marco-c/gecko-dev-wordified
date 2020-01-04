@@ -1072,9 +1072,6 @@ static
 PLDHashNumber
 MappedAttrTable_HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1160,9 +1157,6 @@ static
 bool
 MappedAttrTable_MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1319,9 +1313,6 @@ static
 PLDHashNumber
 LangRuleTable_HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1399,9 +1390,6 @@ static
 bool
 LangRuleTable_MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

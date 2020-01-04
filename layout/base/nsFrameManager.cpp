@@ -468,9 +468,6 @@ static
 bool
 PlaceholderMapMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

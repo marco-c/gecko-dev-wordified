@@ -2083,9 +2083,6 @@ static
 PLDHashNumber
 HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -2096,9 +2093,6 @@ static
 bool
 MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

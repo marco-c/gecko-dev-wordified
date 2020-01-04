@@ -1401,9 +1401,6 @@ static
 PLDHashNumber
 TrivialHash
 (
-PLDHashTable
-*
-table
 const
 void
 *

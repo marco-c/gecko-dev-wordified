@@ -275,8 +275,6 @@ static
 bool
 matchNameKeysCaseInsensitive
 (
-PLDHashTable
-*
 const
 PLDHashEntryHdr
 *
@@ -480,9 +478,6 @@ static
 PLDHashNumber
 caseInsensitiveStringHashKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *

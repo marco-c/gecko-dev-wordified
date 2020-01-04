@@ -1439,9 +1439,6 @@ static
 PLDHashNumber
 AtomTableGetHash
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -1474,9 +1471,6 @@ static
 bool
 AtomTableMatchKey
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *
