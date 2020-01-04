@@ -1368,12 +1368,15 @@ if
 (
 gFindBarInitialized
 )
+{
 gFindBar
 .
 close
 (
+true
 )
 ;
+}
 /
 /
 Exit
