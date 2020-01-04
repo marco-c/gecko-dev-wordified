@@ -2835,6 +2835,12 @@ trc
 ;
 virtual
 void
+readBarrier
+(
+)
+;
+virtual
+void
 addSizeOfMisc
 (
 MallocSizeOf
