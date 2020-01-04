@@ -12577,7 +12577,7 @@ void
 MediaFormatReader
 :
 :
-ReleaseMediaResources
+ReleaseResources
 (
 )
 {

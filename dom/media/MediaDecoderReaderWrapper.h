@@ -564,7 +564,7 @@ Shutdown
 )
 ;
 void
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

@@ -364,7 +364,7 @@ Media
 Resource
 Management
 void
-ReleaseMediaResources
+ReleaseResources
 (
 )
 override
@@ -1227,7 +1227,7 @@ override
 mReader
 -
 >
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

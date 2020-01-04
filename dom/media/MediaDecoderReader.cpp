@@ -1016,7 +1016,7 @@ true
 aReader
 -
 >
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;
@@ -3028,7 +3028,7 @@ DisconnectIfExists
 (
 )
 ;
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

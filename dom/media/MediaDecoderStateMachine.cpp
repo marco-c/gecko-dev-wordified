@@ -7694,7 +7694,7 @@ before
 /
 queuing
 the
-ReleaseMediaResources
+ReleaseResources
 task
 -
 instead
@@ -7765,7 +7765,7 @@ well
 mReader
 -
 >
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

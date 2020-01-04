@@ -2001,7 +2001,7 @@ void
 MediaDecoderReaderWrapper
 :
 :
-ReleaseMediaResources
+ReleaseResources
 (
 )
 {
@@ -2028,7 +2028,7 @@ mReader
 MediaDecoderReader
 :
 :
-ReleaseMediaResources
+ReleaseResources
 )
 ;
 mReader

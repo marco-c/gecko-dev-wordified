@@ -1014,7 +1014,7 @@ void
 MediaOmxReader
 :
 :
-ReleaseMediaResources
+ReleaseResources
 (
 )
 {
