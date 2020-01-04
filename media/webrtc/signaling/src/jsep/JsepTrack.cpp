@@ -2229,9 +2229,8 @@ JsepVideoCodecDescription
 codec
 )
 ;
-break
-;
 }
+else
 if
 (
 codec
@@ -2255,8 +2254,6 @@ JsepVideoCodecDescription
 (
 codec
 )
-;
-break
 ;
 }
 }
