@@ -10010,14 +10010,6 @@ DevTools
 file
 migration
 .
-Bug
-1204127
-tracks
-/
-/
-enabling
-this
-.
 pref
 (
 "
@@ -10027,7 +10019,7 @@ migration
 .
 warnings
 "
-false
+true
 )
 ;
 /
