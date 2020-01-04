@@ -586,6 +586,9 @@ nsTableReflowState
 *
 *
 /
+namespace
+mozilla
+{
 struct
 nsTableReflowState
 {
@@ -928,6 +931,11 @@ wm
 }
 }
 ;
+}
+/
+/
+namespace
+mozilla
 /
 *
 *
