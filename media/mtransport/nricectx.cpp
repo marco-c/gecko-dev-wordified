@@ -1609,6 +1609,10 @@ offerer_
 (
 offerer
 )
+ice_controlling_set_
+(
+false
+)
 streams_
 (
 )
@@ -4002,6 +4006,12 @@ Controlling
 controlling
 )
 {
+if
+(
+!
+ice_controlling_set_
+)
+{
 peer_
 -
 >
@@ -4017,6 +4027,10 @@ ICE_CONTROLLING
 1
 :
 0
+;
+ice_controlling_set_
+=
+true
 ;
 MOZ_MTLOG
 (
@@ -4040,6 +4054,7 @@ to
 controlling
 )
 ;
+}
 return
 NS_OK
 ;
