@@ -2311,7 +2311,6 @@ SpecialPowers
 .
 exactGC
 (
-window
 )
 ;
 }

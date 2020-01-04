@@ -789,7 +789,6 @@ SpecialPowers
 .
 exactGC
 (
-window
 deferred
 .
 resolve
