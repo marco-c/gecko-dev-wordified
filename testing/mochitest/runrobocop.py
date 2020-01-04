@@ -4029,6 +4029,25 @@ recordLogcat
 (
 )
             
+timeout
+=
+self
+.
+options
+.
+timeout
+            
+if
+not
+timeout
+:
+                
+timeout
+=
+self
+.
+NO_OUTPUT_TIMEOUT
+            
 result
 =
 self
@@ -4050,9 +4069,7 @@ browserArgs
                 
 timeout
 =
-self
-.
-NO_OUTPUT_TIMEOUT
+timeout
 symbolsPath
 =
 self
