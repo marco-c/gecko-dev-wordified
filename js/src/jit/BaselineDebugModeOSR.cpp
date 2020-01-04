@@ -7170,6 +7170,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 uint32_t
