@@ -16051,15 +16051,9 @@ if
 aTarget
 -
 >
-GetFormat
+IsCurrentGroupOpaque
 (
 )
-!
-=
-SurfaceFormat
-:
-:
-B8G8R8A8
 )
 {
 aTarget
