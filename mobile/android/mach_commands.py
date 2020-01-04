@@ -411,11 +411,14 @@ self
 run_process
 (
 [
-'
+self
 .
-/
-gradlew
+substs
+[
 '
+GRADLE
+'
+]
 ]
 +
 args
