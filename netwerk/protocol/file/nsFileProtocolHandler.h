@@ -137,6 +137,7 @@ nsFileProtocolHandler
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 Init
 (

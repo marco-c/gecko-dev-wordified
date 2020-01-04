@@ -233,6 +233,7 @@ in
 that
 case
 .
+MOZ_MUST_USE
 nsresult
 MakeFileInputStream
 (
@@ -253,6 +254,7 @@ async
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 OpenContentStream
 (
