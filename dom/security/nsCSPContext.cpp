@@ -5990,7 +5990,9 @@ NS_LITERAL_CSTRING
 "
 application
 /
-json
+csp
+-
+report
 "
 )
 -
