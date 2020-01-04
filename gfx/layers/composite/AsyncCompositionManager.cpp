@@ -3951,6 +3951,7 @@ data
 appUnitsPerDevPixel
 (
 )
+0
 &
 data
 .
