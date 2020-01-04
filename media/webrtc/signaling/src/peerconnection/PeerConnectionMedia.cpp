@@ -4802,6 +4802,10 @@ Clear
 (
 )
 ;
+mMainThread
+=
+nullptr
+;
 /
 /
 Final
