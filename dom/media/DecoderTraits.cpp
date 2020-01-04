@@ -2864,6 +2864,7 @@ decoder
 new
 MP4Decoder
 (
+aOwner
 )
 ;
 return
@@ -2889,6 +2890,7 @@ decoder
 new
 MP3Decoder
 (
+aOwner
 )
 ;
 return
@@ -2915,6 +2917,7 @@ decoder
 new
 GStreamerDecoder
 (
+aOwner
 )
 ;
 return
@@ -2943,6 +2946,7 @@ decoder
 new
 RawDecoder
 (
+aOwner
 )
 ;
 return
@@ -2968,6 +2972,7 @@ decoder
 new
 OggDecoder
 (
+aOwner
 )
 ;
 return
@@ -2994,6 +2999,7 @@ decoder
 new
 WaveDecoder
 (
+aOwner
 )
 ;
 return
@@ -3142,6 +3148,7 @@ MediaDecoder
 new
 MediaCodecDecoder
 (
+aOwner
 )
 )
 :
@@ -3154,6 +3161,7 @@ MediaDecoder
 new
 MediaOmxDecoder
 (
+aOwner
 )
 )
 ;
@@ -3164,6 +3172,7 @@ decoder
 new
 MediaOmxDecoder
 (
+aOwner
 )
 ;
 #
@@ -3213,6 +3222,7 @@ MediaDecoder
 new
 RtspMediaCodecDecoder
 (
+aOwner
 )
 )
 :
@@ -3225,6 +3235,7 @@ MediaDecoder
 new
 RtspOmxDecoder
 (
+aOwner
 )
 )
 ;
@@ -3235,6 +3246,7 @@ decoder
 new
 RtspOmxDecoder
 (
+aOwner
 )
 ;
 #
@@ -3279,6 +3291,7 @@ decoder
 new
 AndroidMediaDecoder
 (
+aOwner
 aType
 )
 ;
@@ -3308,6 +3321,7 @@ decoder
 new
 WebMDecoder
 (
+aOwner
 )
 ;
 return
@@ -3359,6 +3373,7 @@ decoder
 new
 DirectShowDecoder
 (
+aOwner
 )
 ;
 return
@@ -3387,6 +3402,7 @@ decoder
 new
 AppleDecoder
 (
+aOwner
 )
 ;
 return
@@ -3433,45 +3449,11 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
-<
-MediaDecoder
->
-decoder
-(
+return
 InstantiateDecoder
 (
 aType
 aOwner
-)
-)
-;
-NS_ENSURE_TRUE
-(
-decoder
-!
-=
-nullptr
-nullptr
-)
-;
-NS_ENSURE_TRUE
-(
-decoder
--
->
-Init
-(
-aOwner
-)
-nullptr
-)
-;
-return
-decoder
-.
-forget
-(
 )
 ;
 }

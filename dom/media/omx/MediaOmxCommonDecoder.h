@@ -154,8 +154,12 @@ MediaDecoder
 {
 public
 :
+explicit
 MediaOmxCommonDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

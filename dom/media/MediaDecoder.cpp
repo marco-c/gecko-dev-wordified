@@ -1769,6 +1769,9 @@ MediaDecoder
 :
 MediaDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 :
 mWatchManager
@@ -1830,7 +1833,16 @@ false
 )
 mOwner
 (
-nullptr
+aOwner
+)
+mVideoFrameContainer
+(
+aOwner
+-
+>
+GetVideoFrameContainer
+(
+)
 )
 mPlaybackStatistics
 (

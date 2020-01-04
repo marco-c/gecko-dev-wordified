@@ -293,6 +293,14 @@ MP4Decoder
 :
 MP4Decoder
 (
+MediaDecoderOwner
+*
+aOwner
+)
+:
+MediaDecoder
+(
+aOwner
 )
 {
 #

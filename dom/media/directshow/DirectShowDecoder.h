@@ -152,8 +152,12 @@ MediaDecoder
 {
 public
 :
+explicit
 DirectShowDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

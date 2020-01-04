@@ -85,10 +85,14 @@ AppleDecoder
 :
 AppleDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 :
 MediaDecoder
 (
+aOwner
 )
 {
 }

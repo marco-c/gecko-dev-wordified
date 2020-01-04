@@ -2200,8 +2200,12 @@ InitStatics
 (
 )
 ;
+explicit
 MediaDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 /

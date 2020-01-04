@@ -80,8 +80,12 @@ MediaDecoder
 {
 public
 :
+explicit
 AppleDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

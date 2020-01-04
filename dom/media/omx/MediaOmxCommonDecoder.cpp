@@ -191,10 +191,14 @@ MediaOmxCommonDecoder
 :
 MediaOmxCommonDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 :
 MediaDecoder
 (
+aOwner
 )
 mReader
 (
