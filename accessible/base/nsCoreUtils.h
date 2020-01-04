@@ -792,7 +792,13 @@ markup
 *
 /
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetRoleContent
 (

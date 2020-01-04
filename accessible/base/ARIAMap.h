@@ -1752,9 +1752,12 @@ nsRoleMapEntry
 *
 GetRoleMap
 (
-nsINode
+dom
+:
+:
+Element
 *
-aNode
+aEl
 )
 ;
 /

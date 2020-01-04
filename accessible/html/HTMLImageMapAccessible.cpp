@@ -1125,6 +1125,11 @@ aria
 GetRoleMap
 (
 areaContent
+-
+>
+AsElement
+(
+)
 )
 )
 ;
