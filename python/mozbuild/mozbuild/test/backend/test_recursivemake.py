@@ -3834,19 +3834,7 @@ len
 (
 m
 )
-4
-)
-        
-self
-.
-assertIn
-(
-'
-app
-.
-ico
-'
-m
+3
 )
         
 self
