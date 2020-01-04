@@ -887,6 +887,7 @@ bool
 isInitialized
 (
 )
+const
 {
 return
 file_

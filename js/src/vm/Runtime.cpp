@@ -912,6 +912,9 @@ scriptAndCountsVector
 (
 nullptr
 )
+lcovOutput
+(
+)
 NaNValue
 (
 DoubleNaNValue
@@ -1207,6 +1210,12 @@ PodZero
 (
 &
 asmJSCacheOps
+)
+;
+lcovOutput
+.
+init
+(
 )
 ;
 }
