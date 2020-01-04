@@ -326,6 +326,11 @@ yield
 promiseTabLoadEvent
 (
 tab
+"
+"
+"
+pageshow
+"
 )
 ;
 /
