@@ -1330,10 +1330,6 @@ mReceivedNewData
 (
 false
 )
-mDiscontinuity
-(
-true
-)
 mDecoderInitialized
 (
 false
@@ -1570,9 +1566,6 @@ mWaitingForData
 ;
 bool
 mReceivedNewData
-;
-bool
-mDiscontinuity
 ;
 /
 /
@@ -2177,10 +2170,6 @@ false
 mWaitingForData
 =
 false
-;
-mDiscontinuity
-=
-true
 ;
 mQueuedSamples
 .
