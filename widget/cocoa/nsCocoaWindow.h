@@ -1500,6 +1500,13 @@ override
 ;
 virtual
 bool
+IsRunningAppModal
+(
+)
+override
+;
+virtual
+bool
 IsVisible
 (
 )
