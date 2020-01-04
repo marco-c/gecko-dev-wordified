@@ -1019,6 +1019,9 @@ true
 if
 (
 sIsIntelDecoderEnabled
+&
+&
+sDXVAEnabled
 )
 {
 if
