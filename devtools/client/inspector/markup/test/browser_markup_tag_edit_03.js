@@ -209,6 +209,8 @@ let
 parentInfo
 =
 yield
+testActor
+.
 getNodeInfo
 (
 "
@@ -217,7 +219,6 @@ retag
 -
 me
 "
-testActor
 )
 ;
 is
@@ -271,6 +272,8 @@ let
 childInfo
 =
 yield
+testActor
+.
 getNodeInfo
 (
 "
@@ -281,7 +284,6 @@ me
 >
 *
 "
-testActor
 )
 ;
 is
@@ -446,6 +448,8 @@ done
 parentInfo
 =
 yield
+testActor
+.
 getNodeInfo
 (
 "
@@ -454,7 +458,6 @@ retag
 -
 me
 "
-testActor
 )
 ;
 is
@@ -504,6 +507,8 @@ child
 childInfo
 =
 yield
+testActor
+.
 getNodeInfo
 (
 "
@@ -514,7 +519,6 @@ me
 >
 *
 "
-testActor
 )
 ;
 is

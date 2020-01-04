@@ -536,7 +536,6 @@ DATA_URL_INLINE_STYLE
 validate
 :
 (
-element
 container
 inspector
 )
@@ -629,7 +628,6 @@ LONG_ATTRIBUTE
 validate
 :
 (
-element
 container
 inspector
 )
@@ -721,7 +719,6 @@ DATA_URL_ATTRIBUTE
 validate
 :
 (
-element
 container
 inspector
 )
@@ -848,7 +845,6 @@ false
 validate
 :
 (
-element
 container
 inspector
 )
@@ -984,7 +980,6 @@ collapseAttributeLength
 validate
 :
 (
-element
 container
 inspector
 )

@@ -554,15 +554,10 @@ shown
 Check
 values
 let
-content
+headers
 =
 tooltip
 .
-content
-;
-let
-headers
-=
 content
 .
 querySelectorAll
