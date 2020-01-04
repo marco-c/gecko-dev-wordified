@@ -4890,17 +4890,6 @@ aSize
 .
 height
 )
-imageRect
-(
-0
-0
-aSize
-.
-width
-aSize
-.
-height
-)
 region
 (
 aRegion
@@ -4981,9 +4970,6 @@ context
 ;
 IntSize
 size
-;
-IntRect
-imageRect
 ;
 ImageRegion
 region
