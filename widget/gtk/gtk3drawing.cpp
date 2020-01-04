@@ -6549,7 +6549,7 @@ GtkStateFlags
 (
 state_flags
 |
-GTK_STATE_FLAG_ACTIVE
+checkbox_check_state
 )
 ;
 else
@@ -6564,7 +6564,7 @@ state_flags
 &
 ~
 (
-GTK_STATE_FLAG_ACTIVE
+checkbox_check_state
 )
 )
 ;
