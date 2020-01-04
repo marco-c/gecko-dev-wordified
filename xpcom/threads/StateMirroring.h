@@ -1129,16 +1129,12 @@ OwnerThread
 )
 -
 >
-Dispatch
+DispatchStateChange
 (
 MakeNotifier
 (
 aMirror
 )
-AbstractThread
-:
-:
-DontAssertDispatchSuccess
 )
 ;
 }
