@@ -124,6 +124,15 @@ GeckoApp
 import
 org
 .
+mozilla
+.
+gecko
+.
+GeckoAppShell
+;
+import
+org
+.
 json
 .
 JSONException
@@ -376,7 +385,7 @@ prefs
 .
 getBoolean
 (
-GeckoApp
+GeckoAppShell
 .
 PREFS_OOM_EXCEPTION
 false
