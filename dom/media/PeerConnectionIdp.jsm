@@ -1398,8 +1398,6 @@ name
 "
 '
 +
-identity
-.
 name
 +
 '
