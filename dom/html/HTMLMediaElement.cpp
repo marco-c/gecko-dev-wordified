@@ -15611,7 +15611,7 @@ void
 HTMLMediaElement
 :
 :
-ReportMSETelemetry
+ReportTelemetry
 (
 )
 {
@@ -25043,7 +25043,7 @@ if
 mMediaSource
 )
 {
-ReportMSETelemetry
+ReportTelemetry
 (
 )
 ;
