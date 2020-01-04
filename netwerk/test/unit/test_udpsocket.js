@@ -5,11 +5,11 @@
 -
 Mode
 :
-Javasript
+Javascript
 ;
 indent
 -
-tab
+tabs
 -
 mode
 :

@@ -11,7 +11,7 @@ C
 ;
 indent
 -
-tab
+tabs
 -
 mode
 :
