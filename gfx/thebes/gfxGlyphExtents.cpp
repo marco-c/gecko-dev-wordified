@@ -286,6 +286,11 @@ aFont
 SetupGlyphExtents
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 aGlyphID
 true
 this
