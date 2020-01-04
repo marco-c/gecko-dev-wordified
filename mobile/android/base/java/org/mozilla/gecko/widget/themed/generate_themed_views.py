@@ -12,14 +12,6 @@ Mode
 :
 python
 ;
-c
--
-basic
--
-offset
-:
-4
-;
 indent
 -
 tabs
