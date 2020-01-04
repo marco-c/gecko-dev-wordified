@@ -526,6 +526,12 @@ aData
 mFrontbufferGLTex
 )
 ;
+mBufferProvider
+=
+aData
+.
+mBufferProvider
+;
 }
 }
 else
@@ -654,6 +660,10 @@ GetSurface
 else
 if
 (
+!
+mGLFrontbuffer
+&
+&
 mBufferProvider
 )
 {
@@ -728,7 +738,13 @@ return
 }
 if
 (
+(
+!
+mGLFrontbuffer
+&
+&
 mBufferProvider
+)
 |
 |
 mAsyncRenderer

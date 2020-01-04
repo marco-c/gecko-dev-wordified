@@ -10102,7 +10102,7 @@ azure
 .
 accelerated
 "
-false
+true
 )
 ;
 #
