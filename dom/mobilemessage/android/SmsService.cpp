@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-SmsMessage
-.
-h
-"
-#
-include
-"
 SmsService
 .
 h

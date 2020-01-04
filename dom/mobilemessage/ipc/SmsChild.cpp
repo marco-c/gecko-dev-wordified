@@ -124,14 +124,14 @@ h
 #
 include
 "
-SmsMessage
+SmsMessageInternal
 .
 h
 "
 #
 include
 "
-MmsMessage
+MmsMessageInternal
 .
 h
 "
@@ -189,7 +189,7 @@ MessageType
 #
 include
 "
-MobileMessageThread
+MobileMessageThreadInternal
 .
 h
 "
@@ -259,7 +259,7 @@ TMmsMessageData
 message
 =
 new
-MmsMessage
+MmsMessageInternal
 (
 aData
 .
@@ -279,7 +279,7 @@ TSmsMessageData
 message
 =
 new
-SmsMessage
+SmsMessageInternal
 (
 aData
 .
@@ -2159,7 +2159,7 @@ nsISupports
 thread
 =
 new
-MobileMessageThread
+MobileMessageThreadInternal
 (
 aDataArray
 [

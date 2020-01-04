@@ -13818,7 +13818,7 @@ a
 <
 code
 >
-nsIDOMMozSmsMessage
+nsISmsMessage
 <
 /
 code
@@ -13828,7 +13828,7 @@ or
 <
 code
 >
-nsIDOMMozMmsMessage
+nsIMmsMessage
 <
 /
 code
@@ -13863,9 +13863,9 @@ record
 *
 return
 {
-nsIDOMMozSmsMessage
+nsISmsMessage
 |
-nsIDOMMozMmsMessage
+nsIMmsMessage
 }
 *
 /
@@ -17018,9 +17018,9 @@ success
 *
 param
 {
-nsIDOMMozSmsMessage
+nsISmsMessage
 |
-nsIDOMMozMmsMessage
+nsIMmsMessage
 }
 aDomMessage
 *
@@ -23693,9 +23693,9 @@ record
 *
 param
 {
-nsIDOMMozSmsMessage
+nsISmsMessage
 |
-nsIDOMMozMmsMessage
+nsIMmsMessage
 }
 aDomMessage
 *
