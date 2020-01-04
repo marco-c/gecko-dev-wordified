@@ -2960,6 +2960,10 @@ const
 bool
 &
 aIsActive
+const
+bool
+&
+aIsHidden
 )
 override
 ;
