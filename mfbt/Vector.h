@@ -214,6 +214,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrancyGuard
 .
 h
@@ -489,6 +498,7 @@ aArgs
 {
 new
 (
+KnownNotNull
 aDst
 )
 T
@@ -5396,6 +5406,7 @@ Vector
 ;
 new
 (
+KnownNotNull
 this
 )
 Vector
