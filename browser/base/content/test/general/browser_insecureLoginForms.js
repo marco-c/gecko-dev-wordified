@@ -471,7 +471,7 @@ browser
 /
 skin
 /
-identity
+connection
 -
 mixed
 -
@@ -480,6 +480,8 @@ active
 loaded
 .
 svg
+#
+icon
 \
 "
 )

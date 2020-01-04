@@ -467,7 +467,7 @@ browser
 /
 skin
 /
-identity
+connection
 -
 mixed
 -
@@ -476,6 +476,8 @@ passive
 loaded
 .
 svg
+#
+icon
 \
 "
 )
@@ -508,7 +510,7 @@ browser
 /
 skin
 /
-identity
+connection
 -
 mixed
 -
@@ -517,6 +519,8 @@ passive
 loaded
 .
 svg
+#
+icon
 \
 "
 )
@@ -551,7 +555,7 @@ browser
 /
 skin
 /
-identity
+connection
 -
 mixed
 -
@@ -560,6 +564,8 @@ passive
 loaded
 .
 svg
+#
+icon
 \
 "
 )
