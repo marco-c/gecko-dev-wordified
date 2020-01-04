@@ -7930,7 +7930,7 @@ columns
 or
 grid
 -
-columns
+template
 -
 rows
 property
