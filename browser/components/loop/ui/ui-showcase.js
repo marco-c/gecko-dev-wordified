@@ -5799,7 +5799,7 @@ FramedExample
 {
 height
 :
-398
+448
 onContentsRendered
 :
 invitationRoomStore
@@ -6003,7 +6003,7 @@ dashed
 true
 height
 :
-398
+448
 onContentsRendered
 :
 desktopRoomStoreLoading
@@ -6138,7 +6138,7 @@ dashed
 true
 height
 :
-398
+448
 onContentsRendered
 :
 roomStore
@@ -6480,7 +6480,7 @@ dashed
 true
 height
 :
-398
+448
 onContentsRendered
 :
 desktopLocalFaceMuteRoomStore
@@ -6576,7 +6576,7 @@ dashed
 true
 height
 :
-398
+448
 onContentsRendered
 :
 desktopRemoteFaceMuteRoomStore
