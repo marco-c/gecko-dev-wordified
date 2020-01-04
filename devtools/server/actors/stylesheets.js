@@ -3547,9 +3547,16 @@ function
 {
 if
 (
+typeof
 this
 .
 text
+=
+=
+=
+"
+string
+"
 )
 {
 return
