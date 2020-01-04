@@ -407,7 +407,6 @@ let
 {
 toolbox
 inspector
-view
 }
 =
 yield
