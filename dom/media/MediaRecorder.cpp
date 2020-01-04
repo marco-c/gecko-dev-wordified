@@ -3969,6 +3969,14 @@ Stream
 if
 (
 domStream
+&
+&
+domStream
+-
+>
+GetInputStream
+(
+)
 )
 {
 mInputStream
