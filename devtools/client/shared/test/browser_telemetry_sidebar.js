@@ -218,6 +218,9 @@ computedview
 fontinspector
 "
 "
+layoutview
+"
+"
 animationinspector
 "
 ]

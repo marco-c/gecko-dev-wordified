@@ -203,7 +203,7 @@ inspector
 .
 computedview
 .
-computedView
+view
 ;
 let
 prop

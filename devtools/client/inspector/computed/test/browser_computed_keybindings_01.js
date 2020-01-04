@@ -185,12 +185,6 @@ property
 "
 )
 ;
-matchedExpander
-.
-scrollIntoView
-(
-)
-;
 let
 onMatchedExpanderFocus
 =
