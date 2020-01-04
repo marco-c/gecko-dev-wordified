@@ -1267,10 +1267,9 @@ default
 :
 mBase
 =
-nsRuleNode
 :
 :
-ComputeCoordPercentCalc
+ResolveToDefiniteSize
 (
 aMinCoord
 aPercentageBasis
@@ -1335,10 +1334,9 @@ default
 :
 mLimit
 =
-nsRuleNode
 :
 :
-ComputeCoordPercentCalc
+ResolveToDefiniteSize
 (
 aMaxCoord
 aPercentageBasis
