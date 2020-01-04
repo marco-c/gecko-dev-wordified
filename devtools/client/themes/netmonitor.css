@@ -1913,10 +1913,6 @@ end
 :
 4px
 ;
-cursor
-:
-pointer
-;
 }
 .
 security
@@ -2229,10 +2225,6 @@ user
 select
 :
 none
-;
-cursor
-:
-pointer
 ;
 }
 .
