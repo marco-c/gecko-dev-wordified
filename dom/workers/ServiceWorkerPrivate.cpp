@@ -7397,15 +7397,6 @@ nullptr
 ;
 }
 }
-AutoJSAPI
-jsapi
-;
-jsapi
-.
-Init
-(
-)
-;
 NS_WARN_IF
 (
 !
@@ -7414,11 +7405,6 @@ mWorkerPrivate
 >
 Terminate
 (
-jsapi
-.
-cx
-(
-)
 )
 )
 ;
