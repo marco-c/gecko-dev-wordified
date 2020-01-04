@@ -203,7 +203,7 @@ webrtc
 /
 modules
 /
-include
+interface
 /
 module_common_types
 .
@@ -621,7 +621,7 @@ data
 PacketInfoQueue
 packets_
 ;
-RTC_DISALLOW_COPY_AND_ASSIGN
+DISALLOW_COPY_AND_ASSIGN
 (
 RtpPacketizerVp9
 )
