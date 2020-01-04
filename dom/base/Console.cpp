@@ -12657,7 +12657,7 @@ Console
 SetConsoleEventHandler
 (
 AnyCallback
-&
+*
 aHandler
 )
 {
@@ -12692,7 +12692,6 @@ NS_IsMainThread
 ;
 mConsoleEventNotifier
 =
-&
 aHandler
 ;
 }
