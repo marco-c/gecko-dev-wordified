@@ -1392,9 +1392,11 @@ root
 ;
 }
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
+if
+(
+isGonk
+)
+{
 DebuggerServer
 .
 on
@@ -1415,8 +1417,7 @@ updateState
 }
 )
 ;
-#
-endif
+}
 }
 }
 ;
@@ -2356,9 +2357,9 @@ n
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GONK
+isGonk
+&
+&
 AdbController
 .
 setRemoteDebuggerState
@@ -2371,8 +2372,6 @@ disabled
 "
 )
 ;
-#
-endif
 }
 )
 ;
