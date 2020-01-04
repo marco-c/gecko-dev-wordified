@@ -78,7 +78,7 @@ background
 .
 fxa
 .
-FxAccountClient10
+FxAccountClient20
 ;
 import
 org
@@ -163,7 +163,7 @@ BaseRequestDelegate
 T
 >
 implements
-FxAccountClient10
+FxAccountClient20
 .
 RequestDelegate
 <

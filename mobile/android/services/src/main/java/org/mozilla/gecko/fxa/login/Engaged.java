@@ -85,7 +85,7 @@ background
 .
 fxa
 .
-FxAccountClient10
+FxAccountClient20
 .
 TwoKeys
 ;
