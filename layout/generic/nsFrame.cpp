@@ -6089,6 +6089,11 @@ SetBidiEnabled
 )
 ;
 }
+RemoveStateBits
+(
+NS_FRAME_SIMPLE_EVENT_REGIONS
+)
+;
 }
 /
 /
