@@ -5148,6 +5148,7 @@ HUFF_DECODE_FAST
 s
 l
 dctbl
+slow_decode_mcu
 )
 ;
 if
@@ -5258,6 +5259,7 @@ HUFF_DECODE_FAST
 s
 l
 actbl
+slow_decode_mcu
 )
 ;
 r
@@ -5356,6 +5358,7 @@ HUFF_DECODE_FAST
 s
 l
 actbl
+slow_decode_mcu
 )
 ;
 r
@@ -5418,6 +5421,8 @@ unread_marker
 0
 )
 {
+slow_decode_mcu
+:
 cinfo
 -
 >
