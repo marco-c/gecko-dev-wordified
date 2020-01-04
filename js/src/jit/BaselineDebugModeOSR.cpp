@@ -5118,6 +5118,13 @@ kind
 entry
 .
 script
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 )
 ;
 /
