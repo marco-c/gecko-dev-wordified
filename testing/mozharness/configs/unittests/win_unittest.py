@@ -32,6 +32,9 @@ join
 (
 ABS_WORK_DIR
 "
+application
+"
+"
 firefox
 "
 "
