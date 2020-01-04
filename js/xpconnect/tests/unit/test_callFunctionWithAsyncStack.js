@@ -129,8 +129,6 @@ do_check_eq
 stack
 .
 caller
-.
-name
 null
 )
 ;
