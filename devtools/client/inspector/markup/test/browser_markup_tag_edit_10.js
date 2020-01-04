@@ -93,7 +93,6 @@ function
 {
 let
 {
-toolbox
 inspector
 }
 =
@@ -298,7 +297,7 @@ nodeFront
 spanFront
 "
 The
-seelected
+selected
 node
 is
 now

@@ -45,6 +45,18 @@ zero
 /
 *
 /
+/
+*
+import
+-
+globals
+-
+from
+helper_attributes_test_runner
+.
+js
+*
+/
 "
 use
 strict
@@ -574,6 +586,9 @@ fire
 ;
 \
 "
+"
++
+"
 onload
 =
 \
@@ -651,6 +666,7 @@ div
 inspector
 testActor
 )
+;
 }
 )
 ;

@@ -2247,7 +2247,6 @@ function
 {
 let
 {
-toolbox
 inspector
 }
 =
@@ -2431,6 +2430,7 @@ test
 ;
 }
 )
+;
 info
 (
 "

@@ -63,7 +63,6 @@ modified
 const
 TEST_URL
 =
-"
 data
 :
 text
@@ -88,7 +87,6 @@ attribute
 /
 div
 >
-"
 ;
 add_task
 (

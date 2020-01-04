@@ -92,7 +92,6 @@ immediately
 const
 TEST_URL
 =
-"
 data
 :
 text
@@ -118,7 +117,6 @@ div
 >
 Text
 node
-"
 ;
 add_task
 (
@@ -130,7 +128,6 @@ function
 let
 {
 inspector
-toolbox
 }
 =
 yield

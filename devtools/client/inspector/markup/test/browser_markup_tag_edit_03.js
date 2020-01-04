@@ -70,7 +70,6 @@ view
 const
 TEST_URL
 =
-"
 data
 :
 text
@@ -112,7 +111,6 @@ div
 /
 div
 >
-"
 ;
 add_task
 (

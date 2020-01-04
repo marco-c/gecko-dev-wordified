@@ -116,7 +116,6 @@ false
 ;
 let
 {
-toolbox
 inspector
 }
 =
@@ -165,6 +164,7 @@ isEditTagNameCalled
 true
 ;
 }
+;
 yield
 selectNode
 (
