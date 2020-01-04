@@ -306,14 +306,6 @@ self
 browser_packages
 )
         
-kern
-=
-platform
-.
-uname
-(
-)
-        
 yasm
 =
 '
@@ -349,14 +341,19 @@ rpm
 '
         
 if
-'
-x86_64
-'
-in
-kern
+platform
+.
+architecture
+(
+)
 [
-2
+0
 ]
+=
+=
+'
+64bit
+'
 :
             
 yasm
