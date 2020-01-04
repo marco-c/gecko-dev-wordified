@@ -765,7 +765,7 @@ RecvRedirect1Begin
 const
 uint32_t
 &
-newChannel
+registrarId
 const
 URIParams
 &
@@ -782,6 +782,10 @@ const
 nsCString
 &
 securityInfoSerialization
+const
+nsCString
+&
+channelId
 )
 override
 ;
@@ -1629,7 +1633,7 @@ Redirect1Begin
 const
 uint32_t
 &
-newChannelId
+registrarId
 const
 URIParams
 &
@@ -1646,6 +1650,10 @@ const
 nsACString
 &
 securityInfoSerialization
+const
+nsACString
+&
+channelId
 )
 ;
 void

@@ -764,6 +764,10 @@ aProxyResolveFlags
 nsIURI
 *
 aProxyURI
+const
+nsID
+&
+aChannelId
 )
 override
 ;

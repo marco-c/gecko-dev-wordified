@@ -707,6 +707,10 @@ const
 nsCString
 &
 aContentTypeHint
+const
+nsCString
+&
+aChannelId
 )
 ;
 virtual
