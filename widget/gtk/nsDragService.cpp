@@ -271,6 +271,13 @@ h
 #
 include
 "
+gfxASurface
+.
+h
+"
+#
+include
+"
 gfxXlibSurface
 .
 h
