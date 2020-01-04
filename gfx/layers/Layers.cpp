@@ -6480,7 +6480,7 @@ quad
 RenderTargetRect
 :
 :
-FromUnknown
+FromUnknownRect
 (
 GetEffectiveTransform
 (
@@ -6488,12 +6488,10 @@ GetEffectiveTransform
 .
 TransformBounds
 (
-LayerPixel
-:
-:
-ToUnknown
-(
 rect
+.
+ToUnknownRect
+(
 )
 )
 )
