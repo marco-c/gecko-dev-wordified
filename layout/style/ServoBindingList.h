@@ -369,6 +369,15 @@ declarations
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_Equals
+bool
+ServoDeclarationBlockBorrowed
+a
+ServoDeclarationBlockBorrowed
+b
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_GetCache
 nsHTMLCSSStyleSheet
 *
