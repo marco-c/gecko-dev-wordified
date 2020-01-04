@@ -1705,6 +1705,12 @@ val
 cx
 )
 ;
+aRv
+.
+MightThrowJSException
+(
+)
+;
 if
 (
 !
@@ -1719,9 +1725,9 @@ val
 {
 aRv
 .
-Throw
+StealExceptionFromJSContext
 (
-NS_ERROR_TYPE_ERR
+cx
 )
 ;
 return
