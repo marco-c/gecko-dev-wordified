@@ -16631,7 +16631,8 @@ mIsTopWidgetWindow
 |
 |
 mBorderStyle
-&
+=
+=
 eBorderStyle_none
 )
 return
