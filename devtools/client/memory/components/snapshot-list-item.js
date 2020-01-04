@@ -82,6 +82,7 @@ react
 ;
 const
 {
+L10N
 getSnapshotStatusText
 }
 =
