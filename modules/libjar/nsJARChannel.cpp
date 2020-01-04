@@ -6446,6 +6446,9 @@ mozilla
 AutoFDClose
 fd
 ;
+nsresult
+rv2
+=
 mJarFile
 -
 >
@@ -6463,8 +6466,10 @@ rwget
 ;
 if
 (
-!
-fd
+NS_FAILED
+(
+rv2
+)
 )
 {
 nsIZipReaderCache

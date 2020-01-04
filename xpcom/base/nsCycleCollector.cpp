@@ -9566,6 +9566,9 @@ aLog
 mStream
 )
 ;
+nsresult
+rv
+=
 aLog
 -
 >
@@ -9588,11 +9591,10 @@ if
 (
 NS_WARN_IF
 (
-!
-aLog
--
->
-mStream
+NS_FAILED
+(
+rv
+)
 )
 )
 {
