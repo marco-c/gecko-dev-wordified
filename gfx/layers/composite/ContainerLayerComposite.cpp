@@ -4350,7 +4350,7 @@ if
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 )
@@ -4362,7 +4362,7 @@ Rect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 .

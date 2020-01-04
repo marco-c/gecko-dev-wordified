@@ -1759,7 +1759,7 @@ layerClip
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 .
@@ -1781,7 +1781,7 @@ layerClipPtr
 aLayer
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ?

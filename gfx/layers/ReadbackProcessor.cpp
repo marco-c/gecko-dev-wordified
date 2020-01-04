@@ -719,7 +719,7 @@ clipRect
 l
 -
 >
-GetEffectiveClipRect
+GetLocalClipRect
 (
 )
 ;
