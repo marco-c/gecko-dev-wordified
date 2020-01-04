@@ -265,7 +265,7 @@ ping
 /
 public
 class
-TelemetryCorePingUploadDelegate
+TelemetryCorePingDelegate
 extends
 BrowserAppDelegate
 {
@@ -283,7 +283,7 @@ safeSubstring
 Gecko
 "
 +
-TelemetryCorePingUploadDelegate
+TelemetryCorePingDelegate
 .
 class
 .
