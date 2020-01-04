@@ -2569,11 +2569,7 @@ GECKOREQUEST_RESPONSE_KEY
 responseMessage
 )
 ;
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 request
 .
@@ -2584,7 +2580,6 @@ request
 .
 getData
 (
-)
 )
 )
 ;
@@ -2660,6 +2655,7 @@ String
 data
 )
 ;
+RobocopTarget
 public
 static
 void
@@ -16199,11 +16195,7 @@ the
 focused
 input
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 ScrollTo
@@ -16212,7 +16204,6 @@ FocusedInput
 "
 "
 "
-)
 )
 ;
 }

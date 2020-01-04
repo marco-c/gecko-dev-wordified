@@ -2089,11 +2089,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Window
@@ -2101,7 +2097,6 @@ Window
 Resize
 "
 json
-)
 )
 ;
 }

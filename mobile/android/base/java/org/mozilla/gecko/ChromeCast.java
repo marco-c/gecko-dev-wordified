@@ -720,11 +720,7 @@ PLAYER_STATE_PLAYING
 :
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 MediaPlayer
@@ -732,7 +728,6 @@ MediaPlayer
 Playing
 "
 null
-)
 )
 ;
 break
@@ -744,11 +739,7 @@ PLAYER_STATE_PAUSED
 :
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 MediaPlayer
@@ -756,7 +747,6 @@ MediaPlayer
 Paused
 "
 null
-)
 )
 ;
 break
@@ -796,11 +786,7 @@ IDLE_REASON_FINISHED
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Casting
@@ -808,7 +794,6 @@ Casting
 Stop
 "
 null
-)
 )
 ;
 }
@@ -2466,11 +2451,7 @@ message
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 MediaPlayer
@@ -2478,7 +2459,6 @@ MediaPlayer
 Response
 "
 message
-)
 )
 ;
 }
@@ -2725,11 +2705,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Casting
@@ -2740,7 +2716,6 @@ route
 .
 getId
 (
-)
 )
 )
 ;
