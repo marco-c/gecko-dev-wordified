@@ -1191,7 +1191,7 @@ fType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 ;
 }

@@ -563,7 +563,7 @@ see
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 *
 /
 virtual

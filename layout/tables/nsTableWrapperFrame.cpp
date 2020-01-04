@@ -6532,7 +6532,7 @@ return
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 ;
 }
 /

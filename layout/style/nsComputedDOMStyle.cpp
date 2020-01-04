@@ -3691,7 +3691,7 @@ type
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 /

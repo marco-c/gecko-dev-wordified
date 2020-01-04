@@ -326,7 +326,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 return
 frame

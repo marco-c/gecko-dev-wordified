@@ -20082,7 +20082,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 "
 table
 not

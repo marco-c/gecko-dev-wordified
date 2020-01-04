@@ -12650,7 +12650,7 @@ pseudoType
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 &
 &
 (
@@ -13397,7 +13397,7 @@ ResolveAnonymousBoxStyle
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 styleContext
 )
 ;
@@ -42646,7 +42646,7 @@ NS_PRECONDITION
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 !
 =
 aParentFrameType
@@ -51757,7 +51757,7 @@ frameType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 =
 =
 frameType
@@ -52124,7 +52124,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 |
 |
@@ -52140,7 +52140,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 &
 &
 frame2
@@ -52439,7 +52439,7 @@ frameType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 =
 =
 frameType
@@ -52675,7 +52675,7 @@ NS_ASSERTION
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 =
 =
 outerTable
@@ -57738,7 +57738,7 @@ if
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 =
 =
 frameType

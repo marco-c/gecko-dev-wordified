@@ -2160,7 +2160,7 @@ aPrimaryFrame
 itself
 except
 for
-tableOuter
+tableWrapper
 frames
 .
 *
@@ -2255,7 +2255,7 @@ GetPrimaryFrame
 )
 except
 for
-tableOuter
+tableWrapper
 frames
 .
 *

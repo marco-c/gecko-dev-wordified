@@ -12035,7 +12035,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 parentContent
@@ -12070,7 +12070,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 &
 &
 table

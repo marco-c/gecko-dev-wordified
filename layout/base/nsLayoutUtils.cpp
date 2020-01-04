@@ -10483,7 +10483,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 nsIFrame
@@ -24810,7 +24810,7 @@ pseudoType
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 )
 {
 AddBoxesForFrame
@@ -25020,7 +25020,7 @@ pseudoType
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 )
 {
 nsIFrame
@@ -40599,7 +40599,7 @@ fType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 aResult
