@@ -366,7 +366,10 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }
