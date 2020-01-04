@@ -555,12 +555,14 @@ AsyncTransactionWaiter
 >
 mWaiter
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mCompleted
 ;
+#
+endif
 /
 *
 *

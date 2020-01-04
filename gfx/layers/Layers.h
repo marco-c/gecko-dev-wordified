@@ -12901,12 +12901,14 @@ mScrollbarThumbRatio
 bool
 mIsScrollbarContainer
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 uint32_t
->
 mDebugColorIndex
 ;
+#
+endif
 /
 /
 If

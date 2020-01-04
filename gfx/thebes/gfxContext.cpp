@@ -4743,6 +4743,9 @@ mBlendMask
 =
 aMask
 ;
+#
+ifdef
+DEBUG
 CurrentState
 (
 )
@@ -4751,6 +4754,8 @@ mWasPushedForBlendBack
 =
 true
 ;
+#
+endif
 CurrentState
 (
 )
@@ -5079,6 +5084,9 @@ mBlendMask
 =
 aMask
 ;
+#
+ifdef
+DEBUG
 CurrentState
 (
 )
@@ -5087,6 +5095,8 @@ mWasPushedForBlendBack
 =
 true
 ;
+#
+endif
 CurrentState
 (
 )
@@ -5446,6 +5456,9 @@ mBlendMask
 =
 aMask
 ;
+#
+ifdef
+DEBUG
 CurrentState
 (
 )
@@ -5454,6 +5467,8 @@ mWasPushedForBlendBack
 =
 true
 ;
+#
+endif
 CurrentState
 (
 )
