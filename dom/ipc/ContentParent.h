@@ -2311,10 +2311,6 @@ bool
 &
 aSizeSpecified
 const
-nsCString
-&
-aURI
-const
 nsString
 &
 aName
