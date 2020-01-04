@@ -2817,6 +2817,11 @@ CorruptTestCase
 )
 ;
 ImageTestCase
+CorruptBMPWithTruncatedHeader
+(
+)
+;
+ImageTestCase
 CorruptICOWithBadBMPWidthTestCase
 (
 )
