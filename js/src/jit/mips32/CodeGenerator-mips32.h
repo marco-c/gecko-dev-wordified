@@ -343,6 +343,14 @@ LUDivOrModI64
 lir
 )
 ;
+void
+visitExtendInt32ToInt64
+(
+LExtendInt32ToInt64
+*
+lir
+)
+;
 /
 /
 Out
