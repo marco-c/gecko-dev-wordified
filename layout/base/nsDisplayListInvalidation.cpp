@@ -648,6 +648,15 @@ ToReferenceFrame
 (
 )
 )
+mDestRects
+(
+aItem
+-
+>
+GetDestRects
+(
+)
+)
 {
 }
 void
