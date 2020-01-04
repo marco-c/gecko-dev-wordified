@@ -1221,6 +1221,14 @@ ScopeObject
 *
 >
 ;
+template
+struct
+MovableCellHasher
+<
+JSScript
+*
+>
+;
 }
 /
 /
