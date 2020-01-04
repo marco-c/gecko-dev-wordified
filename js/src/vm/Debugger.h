@@ -3660,10 +3660,6 @@ jsbytecode
 pc
 MutableHandleValue
 vp
-bool
-callHook
-=
-true
 )
 ;
 /
@@ -3754,10 +3750,6 @@ AbstractFramePtr
 frame
 MutableHandleValue
 vp
-bool
-callHook
-=
-true
 )
 ;
 JSTrapStatus
@@ -3792,8 +3784,6 @@ AbstractFramePtr
 frame
 MutableHandleValue
 vp
-bool
-callHook
 )
 ;
 bool
