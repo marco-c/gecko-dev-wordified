@@ -260,7 +260,9 @@ our
 window
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )

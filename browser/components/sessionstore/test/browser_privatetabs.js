@@ -785,7 +785,9 @@ any
 tabs
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )
@@ -1002,7 +1004,9 @@ be
 restored
 .
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )
