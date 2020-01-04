@@ -7874,6 +7874,14 @@ code
 return
 nullptr
 ;
+noFrameRegPopOffset
+.
+fixup
+(
+&
+masm
+)
+;
 *
 noFrameRegPopOffsetOut
 =

@@ -4758,6 +4758,13 @@ entries
 i
 ]
 ;
+realEntry
+.
+fixupReturnOffset
+(
+masm
+)
+;
 if
 (
 !
