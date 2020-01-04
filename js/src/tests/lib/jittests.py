@@ -1960,6 +1960,12 @@ baseline
 '
 :
                         
+if
+options
+.
+can_test_also_wasm_baseline
+:
+                            
 test
 .
 test_also

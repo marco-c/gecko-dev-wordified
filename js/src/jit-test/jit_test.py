@@ -2399,6 +2399,15 @@ options
 .
 debugger
     
+options
+.
+can_test_also_wasm_baseline
+=
+not
+options
+.
+debugger
+    
 if
 test_args
 :
