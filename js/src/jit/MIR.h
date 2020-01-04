@@ -9792,7 +9792,9 @@ i32
 i
 ;
 }
+const
 double
+&
 toDouble
 (
 )
@@ -9817,7 +9819,9 @@ payload_
 d
 ;
 }
+const
 float
+&
 toFloat32
 (
 )

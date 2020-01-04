@@ -2346,7 +2346,9 @@ u
 i64_
 ;
 }
+const
 float
+&
 f32
 (
 )
@@ -2369,7 +2371,9 @@ u
 f32_
 ;
 }
+const
 double
+&
 f64
 (
 )

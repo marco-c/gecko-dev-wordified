@@ -10697,9 +10697,6 @@ value
 return
 false
 ;
-*
-result
-=
 SpecificNaN
 <
 Float
@@ -10707,6 +10704,7 @@ Float
 (
 0
 value
+result
 )
 ;
 }

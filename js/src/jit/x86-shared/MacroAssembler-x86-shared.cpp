@@ -1903,7 +1903,7 @@ first
 FloatRegister
 second
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
@@ -2006,7 +2006,7 @@ minMaxInst
 ;
 if
 (
-handleNaN
+canBeNaN
 )
 j
 (
@@ -2141,7 +2141,7 @@ operand
 .
 if
 (
-handleNaN
+canBeNaN
 )
 {
 bind
@@ -2236,7 +2236,7 @@ first
 FloatRegister
 second
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
@@ -2339,7 +2339,7 @@ minMaxInst
 ;
 if
 (
-handleNaN
+canBeNaN
 )
 j
 (
@@ -2474,7 +2474,7 @@ operand
 .
 if
 (
-handleNaN
+canBeNaN
 )
 {
 bind

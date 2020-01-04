@@ -723,11 +723,11 @@ second
 .
 /
 /
-Handle
+Checks
+for
 NaN
-specially
 if
-handleNaN
+canBeNaN
 is
 true
 .
@@ -739,7 +739,7 @@ srcDest
 FloatRegister
 second
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
@@ -752,7 +752,7 @@ srcDest
 FloatRegister
 second
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
