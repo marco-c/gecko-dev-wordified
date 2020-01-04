@@ -5859,9 +5859,9 @@ MOZILLA_INTERNAL_API
 #
 include
 "
-nsNetUtil
+nsNetUtilInlines
 .
-inl
+h
 "
 #
 endif
