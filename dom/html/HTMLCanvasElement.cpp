@@ -4595,6 +4595,17 @@ GetContext
 aCx
 aContextId
 aContextOptions
+.
+isObject
+(
+)
+?
+aContextOptions
+:
+JS
+:
+:
+NullHandleValue
 aRv
 )
 ;
