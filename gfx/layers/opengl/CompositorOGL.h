@@ -2303,6 +2303,8 @@ gfx
 Rect
 &
 aRenderBounds
+bool
+aOpaque
 gfx
 :
 :
