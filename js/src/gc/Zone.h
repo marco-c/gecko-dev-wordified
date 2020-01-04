@@ -2697,6 +2697,12 @@ not
 get
 tenured
 .
+js
+:
+:
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -2714,10 +2720,9 @@ addedUniqueIdToCell
 cell
 )
 )
-js
-:
-:
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 failed

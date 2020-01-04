@@ -949,6 +949,9 @@ isSelfHostingZone
 HashNumber
 hn
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -967,7 +970,9 @@ l
 hn
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 failed
