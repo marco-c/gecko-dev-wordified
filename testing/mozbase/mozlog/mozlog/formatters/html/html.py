@@ -1207,7 +1207,10 @@ base64
 .
 b64encode
 (
+str
+(
 content
+)
 .
 encode
 (
