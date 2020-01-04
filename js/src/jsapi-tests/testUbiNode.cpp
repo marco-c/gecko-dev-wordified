@@ -359,9 +359,9 @@ EdgeRange
 >
 edges
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 bool
 wantNames
 )
@@ -2950,7 +2950,7 @@ JS
 AutoCheckCannotGC
 nogc
 (
-rt
+cx
 )
 ;
 JS
@@ -2962,7 +2962,7 @@ ubi
 PostOrder
 traversal
 (
-rt
+cx
 nogc
 )
 ;
@@ -4551,7 +4551,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 maybeTree
@@ -4567,7 +4567,7 @@ DominatorTree
 :
 Create
 (
-rt
+cx
 noGC
 &
 r
@@ -5813,7 +5813,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 JS
@@ -5858,7 +5858,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 noGC
 10
 &
@@ -6092,7 +6092,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 JS
@@ -6137,7 +6137,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 noGC
 10
 &
@@ -6598,7 +6598,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 JS
@@ -6643,7 +6643,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 noGC
 10
 &
@@ -7317,7 +7317,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 JS
@@ -7362,7 +7362,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 noGC
 1
 &
@@ -7656,7 +7656,7 @@ JS
 AutoCheckCannotGC
 noGC
 (
-rt
+cx
 )
 ;
 JS
@@ -7701,7 +7701,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 noGC
 10
 &

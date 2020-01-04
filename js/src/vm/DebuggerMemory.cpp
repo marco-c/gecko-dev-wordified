@@ -2895,11 +2895,6 @@ RootList
 rootList
 (
 cx
--
->
-runtime
-(
-)
 maybeNoGC
 )
 ;
@@ -2933,11 +2928,6 @@ CensusTraversal
 traversal
 (
 cx
--
->
-runtime
-(
-)
 handler
 maybeNoGC
 .

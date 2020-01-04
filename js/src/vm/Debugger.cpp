@@ -29967,11 +29967,6 @@ RootList
 rootList
 (
 cx
--
->
-runtime
-(
-)
 maybeNoGC
 )
 ;
@@ -29999,11 +29994,6 @@ Traversal
 traversal
 (
 cx
--
->
-runtime
-(
-)
 *
 this
 maybeNoGC

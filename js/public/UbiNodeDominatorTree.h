@@ -2561,9 +2561,9 @@ MOZ_MUST_USE
 bool
 doTraversal
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 AutoCheckCannotGC
 &
 noGC
@@ -2760,7 +2760,7 @@ origin
 PostOrder
 traversal
 (
-rt
+cx
 noGC
 )
 ;
@@ -4068,9 +4068,9 @@ DominatorTree
 >
 Create
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 AutoCheckCannotGC
 &
 noGC
@@ -4108,7 +4108,7 @@ init
 !
 doTraversal
 (
-rt
+cx
 noGC
 root
 postOrder

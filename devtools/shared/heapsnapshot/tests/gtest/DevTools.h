@@ -811,7 +811,7 @@ EdgeRange
 >
 edges
 (
-JSRuntime
+JSContext
 *
 bool
 )
@@ -1114,7 +1114,7 @@ edges
 MATCHER_P2
 (
 EdgesLength
-rt
+cx
 expectedLength
 "
 "
@@ -1127,7 +1127,7 @@ arg
 .
 edges
 (
-rt
+cx
 )
 ;
 if
@@ -1201,7 +1201,7 @@ matcher
 MATCHER_P3
 (
 Edge
-rt
+cx
 n
 matcher
 "
@@ -1215,7 +1215,7 @@ arg
 .
 edges
 (
-rt
+cx
 )
 ;
 if
