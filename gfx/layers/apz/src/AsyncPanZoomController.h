@@ -1498,6 +1498,8 @@ FrameMetrics
 aLayerMetrics
 bool
 aIsFirstPaint
+bool
+aThisLayerTreeUpdated
 )
 ;
 /
