@@ -551,8 +551,6 @@ d
 s
 %
 s
-%
-s
 }
 "
 \
@@ -588,20 +586,6 @@ histogram
 dataset
 (
 )
-           
-"
-true
-"
-if
-histogram
-.
-extended_statistics_ok
-(
-)
-else
-"
-false
-"
            
 "
 true
