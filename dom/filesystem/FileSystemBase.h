@@ -210,17 +210,6 @@ const
 0
 ;
 virtual
-already_AddRefed
-<
-FileSystemBase
->
-Clone
-(
-)
-=
-0
-;
-virtual
 nsISupports
 *
 GetParentObject
