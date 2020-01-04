@@ -940,13 +940,6 @@ h
 #
 include
 "
-nsSVGFeatures
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

@@ -716,13 +716,6 @@ h
 #
 include
 "
-nsSVGFeatures
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h
