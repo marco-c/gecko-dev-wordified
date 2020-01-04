@@ -1631,6 +1631,11 @@ TargetSize
 int32_t
 delta
 =
+std
+:
+:
+min
+(
 entrySize
 .
 width
@@ -1638,7 +1643,6 @@ width
 desiredSize
 .
 width
-+
 entrySize
 .
 height
@@ -1646,6 +1650,7 @@ height
 desiredSize
 .
 height
+)
 ;
 if
 (
