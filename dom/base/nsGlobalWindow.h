@@ -10682,6 +10682,11 @@ DOMMinTimeoutValue
 )
 const
 ;
+void
+InitializeShowFocusRings
+(
+)
+;
 /
 /
 Clear
