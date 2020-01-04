@@ -4912,6 +4912,11 @@ data_offset
 +
 8
 ;
+bool
+nonEmptyCount
+=
+false
+;
 for
 (
 uint32_t
@@ -5189,9 +5194,7 @@ continue
 else
 if
 (
-i
->
-1
+nonEmptyCount
 )
 {
 /
@@ -5229,6 +5232,13 @@ wrong
 )
 ;
 break
+;
+}
+else
+{
+nonEmptyCount
+=
+true
 ;
 }
 if
