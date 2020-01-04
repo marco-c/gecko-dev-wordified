@@ -143,6 +143,8 @@ optparse
 import
 OptionParser
 import
+mozfile
+import
 os
 import
 os
@@ -1128,19 +1130,6 @@ targetpath
 )
 :
           
-#
-On
-Windows
-read
--
-only
-files
-can
-'
-t
-be
-deleted
-          
 if
 sys
 .
@@ -1152,16 +1141,16 @@ win32
 "
 :
             
-os
+mozfile
 .
-chmod
+remove
 (
 targetpath
-stat
-.
-S_IWUSR
 )
           
+else
+:
+            
 os
 .
 remove
