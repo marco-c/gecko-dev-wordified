@@ -5185,6 +5185,7 @@ aRect
 )
 {
 }
+explicit
 IntRegionTyped
 (
 const
