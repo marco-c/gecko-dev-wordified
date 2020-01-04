@@ -203,6 +203,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 Tooltip
 "
 )

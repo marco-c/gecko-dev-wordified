@@ -1337,6 +1337,8 @@ shared
 /
 widgets
 /
+tooltip
+/
 Tooltip
 "
 )
