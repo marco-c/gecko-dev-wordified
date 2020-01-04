@@ -180,6 +180,9 @@ dom
 class
 Blob
 ;
+class
+XMLHttpRequestUpload
+;
 }
 /
 /
@@ -196,9 +199,6 @@ Proxy
 ;
 class
 SendRunnable
-;
-class
-XMLHttpRequestUploadWorker
 ;
 class
 WorkerPrivate
@@ -302,7 +302,7 @@ private
 :
 RefPtr
 <
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 >
 mUpload
 ;
@@ -673,7 +673,7 @@ ErrorResult
 aRv
 )
 ;
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 *
 GetUpload
 (
@@ -960,7 +960,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 *
 GetUploadObjectNoCreate
 (

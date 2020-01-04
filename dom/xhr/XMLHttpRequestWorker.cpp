@@ -320,7 +320,7 @@ h
 #
 include
 "
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 .
 h
 "
@@ -9197,7 +9197,7 @@ aRv
 )
 ;
 }
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 *
 XMLHttpRequestWorker
 :
@@ -9239,12 +9239,9 @@ mUpload
 {
 mUpload
 =
-XMLHttpRequestUploadWorker
-:
-:
-Create
+new
+XMLHttpRequestUpload
 (
-this
 )
 ;
 if
