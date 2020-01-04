@@ -10865,7 +10865,7 @@ ArrayBufferObject
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -10918,7 +10918,7 @@ or
 wsm
 ArrayBufferObjects
 .
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -10940,7 +10940,7 @@ isDetached
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
