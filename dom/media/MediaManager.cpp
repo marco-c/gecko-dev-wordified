@@ -17096,6 +17096,7 @@ WindowID
 =
 aWindowID
 )
+{
 DeviceChangeCallback
 :
 :
@@ -17106,6 +17107,7 @@ observer
 ;
 return
 ;
+}
 }
 }
 }
