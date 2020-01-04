@@ -31499,7 +31499,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleSVG
+StyleText
 (
 )
 -

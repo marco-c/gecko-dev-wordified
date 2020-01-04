@@ -45919,7 +45919,7 @@ switch
 aStyleContext
 -
 >
-StyleSVG
+StyleText
 (
 )
 -
