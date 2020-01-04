@@ -361,6 +361,9 @@ warning
 "
 )
 ;
+return
+undefined
+;
 }
 function
 test
