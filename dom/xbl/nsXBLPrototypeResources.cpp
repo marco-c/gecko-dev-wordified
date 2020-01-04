@@ -761,10 +761,10 @@ new
 nsCSSRuleProcessor
 (
 mStyleSheetList
-nsStyleSet
+SheetType
 :
 :
-eDocSheet
+Doc
 nullptr
 mRuleProcessor
 )

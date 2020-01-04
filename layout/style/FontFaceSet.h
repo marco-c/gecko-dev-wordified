@@ -1349,7 +1349,7 @@ FontFace
 >
 mFontFace
 ;
-uint8_t
+SheetType
 mSheetType
 ;
 /
@@ -1407,7 +1407,7 @@ aFamilyName
 FontFace
 *
 aFontFace
-uint8_t
+SheetType
 aSheetType
 )
 ;
@@ -1513,7 +1513,7 @@ InsertRuleFontFace
 FontFace
 *
 aFontFace
-uint8_t
+SheetType
 aSheetType
 nsTArray
 <

@@ -334,10 +334,10 @@ aRuleData
 mLevel
 !
 =
-nsStyleSet
+SheetType
 :
 :
-eAgentSheet
+Agent
 &
 &
 aRuleData
@@ -346,10 +346,10 @@ aRuleData
 mLevel
 !
 =
-nsStyleSet
+SheetType
 :
 :
-eUserSheet
+User
 &
 &
 !

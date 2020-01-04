@@ -8329,10 +8329,10 @@ styleSet
 >
 AppendStyleSheet
 (
-nsStyleSet
+SheetType
 :
 :
-eAgentSheet
+Agent
 sheet
 )
 ;
@@ -8366,10 +8366,10 @@ styleSet
 >
 RemoveStyleSheet
 (
-nsStyleSet
+SheetType
 :
 :
-eAgentSheet
+Agent
 sheet
 )
 ;

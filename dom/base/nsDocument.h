@@ -8567,10 +8567,10 @@ nsIStyleSheet
 >
 &
 aSheets
-nsStyleSet
+mozilla
 :
 :
-sheetType
+SheetType
 aType
 )
 ;
@@ -8868,7 +8868,7 @@ nsIStyleSheet
 >
 mAdditionalSheets
 [
-SheetTypeCount
+AdditionalSheetTypeCount
 ]
 ;
 /

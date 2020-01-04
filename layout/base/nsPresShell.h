@@ -2980,10 +2980,10 @@ aSheet
 void
 RemoveSheet
 (
-nsStyleSet
+mozilla
 :
 :
-sheetType
+SheetType
 aType
 nsISupports
 *

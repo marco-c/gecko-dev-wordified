@@ -5236,7 +5236,7 @@ additionalSheetType
 eAgentSheet
 eUserSheet
 eAuthorSheet
-SheetTypeCount
+AdditionalSheetTypeCount
 }
 ;
 virtual

@@ -6026,7 +6026,7 @@ const
 sheet_array_type
 &
 aSheets
-uint8_t
+SheetType
 aSheetType
 Element
 *
@@ -6113,10 +6113,10 @@ mScopeElement
 aSheetType
 =
 =
-nsStyleSet
+SheetType
 :
 :
-eScopedDocSheet
+ScopedDoc
 )
 "
 aScopeElement
@@ -21820,7 +21820,7 @@ aKey
 nsDocumentRuleResultCacheKey
 &
 aDocumentKey
-uint8_t
+SheetType
 aSheetType
 bool
 aMustGatherDocumentRules
@@ -22010,7 +22010,7 @@ of
 PerWeightDataListItem
 linked
 lists
-uint8_t
+SheetType
 mSheetType
 ;
 bool

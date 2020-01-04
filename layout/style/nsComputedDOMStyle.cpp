@@ -2741,10 +2741,10 @@ GetLevel
 )
 =
 =
-nsStyleSet
+SheetType
 :
 :
-eAgentSheet
+Agent
 |
 |
 ruleNode
@@ -2755,10 +2755,10 @@ GetLevel
 )
 =
 =
-nsStyleSet
+SheetType
 :
 :
-eUserSheet
+User
 )
 {
 rules
