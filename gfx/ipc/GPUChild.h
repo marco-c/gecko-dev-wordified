@@ -285,16 +285,6 @@ aError
 )
 override
 ;
-bool
-RecvNotifyUiObservers
-(
-const
-nsCString
-&
-aTopic
-)
-override
-;
 static
 void
 Destroy
