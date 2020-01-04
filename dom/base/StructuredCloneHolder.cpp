@@ -5576,6 +5576,17 @@ OffscreenCanvasCloneData
 aContent
 )
 ;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+parent
+=
+do_QueryInterface
+(
+mParent
+)
+;
 RefPtr
 <
 OffscreenCanvas
@@ -5587,6 +5598,7 @@ OffscreenCanvas
 :
 CreateFromCloneData
 (
+parent
 data
 )
 ;
