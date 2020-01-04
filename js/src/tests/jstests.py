@@ -2964,19 +2964,14 @@ options
 repeat
 :
         
-def
-repeat_gen
+test_gen
+=
 (
-tests
-)
-:
-            
+test
 for
 test
 in
-tests
-:
-                
+test_gen
 for
 i
 in
@@ -2986,16 +2981,6 @@ options
 .
 repeat
 )
-:
-                    
-yield
-test
-        
-test_gen
-=
-repeat_gen
-(
-test_gen
 )
         
 test_count
@@ -3184,18 +3169,8 @@ options
 debug
 :
         
-tests
-=
-list
-(
-test_gen
-)
-        
 if
-len
-(
-tests
-)
+test_count
 >
 1
 :
@@ -3223,7 +3198,7 @@ one
 for
 tc
 in
-tests
+test_gen
 :
                 
 print
@@ -3246,10 +3221,11 @@ return
         
 cmd
 =
-tests
-[
-0
-]
+test_gen
+.
+next
+(
+)
 .
 get_command
 (
