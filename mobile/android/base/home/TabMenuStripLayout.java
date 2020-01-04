@@ -395,7 +395,7 @@ R
 .
 styleable
 .
-TabMenuStrip_tabContentStart
+TabMenuStrip_tabsMarginLeft
 0
 )
 ;
