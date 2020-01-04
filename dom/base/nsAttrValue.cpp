@@ -8426,7 +8426,7 @@ const
 nsAString
 &
 aString
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 *
 aElement
 )

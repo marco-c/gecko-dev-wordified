@@ -335,7 +335,7 @@ dom
 nsIContent
 methods
 bool
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ParseAttribute
@@ -400,7 +400,7 @@ aResult
 ;
 }
 nsresult
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 SetInlineStyleDeclaration
@@ -687,7 +687,7 @@ css
 :
 Declaration
 *
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 GetInlineStyleDeclaration
@@ -825,7 +825,7 @@ and
 helpers
 nsICSSDeclaration
 *
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 Style
@@ -890,7 +890,7 @@ mStyle
 ;
 }
 nsresult
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ReparseStyleAttribute
@@ -1046,7 +1046,7 @@ NS_OK
 ;
 }
 void
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ParseStyleAttribute

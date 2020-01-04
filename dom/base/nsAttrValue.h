@@ -253,7 +253,7 @@ class
 nsIDocument
 ;
 class
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 ;
 struct
 MiscContainer
@@ -2794,7 +2794,7 @@ const
 nsAString
 &
 aString
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 *
 aElement
 )
