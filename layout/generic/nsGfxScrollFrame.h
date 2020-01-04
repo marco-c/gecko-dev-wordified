@@ -2623,7 +2623,10 @@ nsIAtom
 *
 mLastSmoothScrollOrigin
 ;
+Maybe
+<
 nsPoint
+>
 mApzSmoothScrollDestination
 ;
 uint32_t
