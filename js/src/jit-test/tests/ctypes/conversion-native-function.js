@@ -50,7 +50,7 @@ ctypes
 libraryName
 (
 "
-c
+m
 "
 )
 )
