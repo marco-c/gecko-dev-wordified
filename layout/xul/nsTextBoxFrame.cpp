@@ -3256,9 +3256,6 @@ nsTextBoxFrame
 :
 CalculateTitleForWidth
 (
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext
@@ -5359,9 +5356,6 @@ nsTextBoxFrame
 :
 GetTextSize
 (
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext
@@ -5451,16 +5445,6 @@ mNeedsRecalc
 nsSize
 size
 ;
-nsPresContext
-*
-presContext
-=
-aBoxLayoutState
-.
-PresContext
-(
-)
-;
 nsRenderingContext
 *
 rendContext
@@ -5478,7 +5462,6 @@ rendContext
 {
 GetTextSize
 (
-presContext
 *
 rendContext
 mTitle
@@ -5583,14 +5566,6 @@ title
 and
 underline
 position
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 /
 /
 determine
@@ -5639,7 +5614,6 @@ titleWidth
 =
 CalculateTitleForWidth
 (
-presContext
 aRenderingContext
 textRect
 .

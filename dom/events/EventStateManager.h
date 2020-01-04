@@ -2320,9 +2320,6 @@ dragEvent
 nsresult
 SetClickCount
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent
@@ -2334,9 +2331,6 @@ aStatus
 nsresult
 CheckForAndDispatchClick
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent

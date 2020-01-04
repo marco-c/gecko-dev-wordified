@@ -13475,9 +13475,6 @@ static
 void
 VerifyContextParent
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -13877,9 +13874,6 @@ static
 void
 VerifyStyleTree
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -13901,7 +13895,6 @@ StyleContext
 ;
 VerifyContextParent
 (
-aPresContext
 aFrame
 context
 nullptr
@@ -14038,7 +14031,6 @@ do
 {
 VerifyStyleTree
 (
-aPresContext
 outOfFlowFrame
 nullptr
 )
@@ -14076,7 +14068,6 @@ parent
 context
 VerifyContextParent
 (
-aPresContext
 child
 nullptr
 nullptr
@@ -14091,7 +14082,6 @@ regular
 frame
 VerifyStyleTree
 (
-aPresContext
 child
 nullptr
 )
@@ -14135,7 +14125,6 @@ contextIndex
 {
 VerifyContextParent
 (
-aPresContext
 aFrame
 extraContext
 context
@@ -14183,7 +14172,6 @@ GetParent
 ;
 VerifyStyleTree
 (
-mPresContext
 aFrame
 parentContext
 )
@@ -17263,7 +17251,6 @@ ifdef
 DEBUG
 VerifyStyleTree
 (
-mPresContext
 aFrame
 newParentContext
 )

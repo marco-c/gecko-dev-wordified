@@ -790,9 +790,6 @@ aFrameList
 void
 OnContentInserted
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aContent

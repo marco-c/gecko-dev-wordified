@@ -13875,16 +13875,17 @@ if
 !
 theme
 )
+{
 return
 ClassicGetMinimumWidgetSize
 (
-aPresContext
 aFrame
 aWidgetType
 aResult
 aIsOverridable
 )
 ;
+}
 switch
 (
 aWidgetType
@@ -14067,7 +14068,6 @@ NS_THEME_DROPDOWN_BUTTON
 return
 ClassicGetMinimumWidgetSize
 (
-aPresContext
 aFrame
 aWidgetType
 aResult
@@ -15804,7 +15804,6 @@ theme
 &
 ClassicThemeSupportsWidget
 (
-aPresContext
 aFrame
 aWidgetType
 )
@@ -16295,9 +16294,6 @@ nsNativeThemeWin
 :
 ClassicThemeSupportsWidget
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -17258,9 +17254,6 @@ nsNativeThemeWin
 :
 ClassicGetMinimumWidgetSize
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame

@@ -806,7 +806,6 @@ mMathMLChar
 .
 SetData
 (
-presContext
 data
 )
 ;
@@ -1202,7 +1201,6 @@ mMathMLChar
 .
 SetData
 (
-presContext
 data
 )
 ;

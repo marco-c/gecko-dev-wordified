@@ -4972,11 +4972,8 @@ mUnicodeTable
 -
 static
 nsresult
-InitGlobals
+InitCharGlobals
 (
-nsPresContext
-*
-aPresContext
 )
 {
 NS_ASSERTION
@@ -5356,9 +5353,6 @@ nsMathMLChar
 :
 SetData
 (
-nsPresContext
-*
-aPresContext
 nsString
 &
 aData
@@ -5370,9 +5364,8 @@ if
 gGlyphTableInitialized
 )
 {
-InitGlobals
+InitCharGlobals
 (
-aPresContext
 )
 ;
 }
@@ -6327,9 +6320,6 @@ static
 bool
 IsSizeOK
 (
-nsPresContext
-*
-aPresContext
 nscoord
 a
 nscoord
@@ -8723,7 +8713,6 @@ largeopOnly
 |
 IsSizeOK
 (
-mPresContext
 bestSize
 mTargetSize
 mStretchHint
@@ -10018,7 +10007,6 @@ i
 return
 IsSizeOK
 (
-mPresContext
 computedSize
 mTargetSize
 mStretchHint
@@ -11614,7 +11602,6 @@ targetSize
 |
 IsSizeOK
 (
-aPresContext
 charSize
 targetSize
 aStretchHint

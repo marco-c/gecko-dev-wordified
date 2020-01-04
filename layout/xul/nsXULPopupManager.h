@@ -2085,9 +2085,6 @@ static
 bool
 IsValidMenuItem
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aContent

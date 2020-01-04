@@ -1443,9 +1443,6 @@ frame
 void
 UpdateMenuType
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
@@ -1478,9 +1475,6 @@ frame
 void
 UpdateMenuSpecialState
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /

@@ -3658,7 +3658,6 @@ clickCount
 ;
 SetClickCount
 (
-aPresContext
 mouseEvent
 aStatus
 )
@@ -3684,7 +3683,6 @@ clickCount
 ;
 SetClickCount
 (
-aPresContext
 mouseEvent
 aStatus
 )
@@ -3706,7 +3704,6 @@ clickCount
 ;
 SetClickCount
 (
-aPresContext
 mouseEvent
 aStatus
 )
@@ -3782,7 +3779,6 @@ eMiddleButton
 :
 SetClickCount
 (
-aPresContext
 mouseEvent
 aStatus
 )
@@ -19498,7 +19494,6 @@ ret
 =
 CheckForAndDispatchClick
 (
-presContext
 mouseEvent
 aStatus
 )
@@ -27871,9 +27866,6 @@ EventStateManager
 :
 SetClickCount
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent
@@ -28257,9 +28249,6 @@ EventStateManager
 :
 CheckForAndDispatchClick
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent

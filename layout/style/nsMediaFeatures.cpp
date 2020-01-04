@@ -2124,7 +2124,7 @@ NS_OK
 }
 static
 nsresult
-GetOperatinSystemVersion
+GetOperatingSystemVersion
 (
 nsPresContext
 *
@@ -3322,7 +3322,7 @@ eNoRequirements
 {
 nullptr
 }
-GetOperatinSystemVersion
+GetOperatingSystemVersion
 }
 {
 &

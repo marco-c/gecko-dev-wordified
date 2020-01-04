@@ -797,9 +797,6 @@ aRTL
 void
 SetData
 (
-nsPresContext
-*
-aPresContext
 nsString
 &
 aData

@@ -879,9 +879,6 @@ repeated
 nsresult
 InitRepeatedFrame
 (
-nsPresContext
-*
-aPresContext
 nsTableRowGroupFrame
 *
 aHeaderFooterFrame

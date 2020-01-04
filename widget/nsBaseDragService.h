@@ -671,9 +671,6 @@ DrawDrag
 nsresult
 DrawDragForImage
 (
-nsPresContext
-*
-aPresContext
 nsIImageLoadingContent
 *
 aImageLoader

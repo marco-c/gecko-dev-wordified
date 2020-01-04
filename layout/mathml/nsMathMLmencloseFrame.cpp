@@ -536,7 +536,6 @@ i
 .
 SetData
 (
-presContext
 Char
 )
 ;

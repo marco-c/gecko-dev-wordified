@@ -11716,9 +11716,6 @@ nsXULPopupManager
 :
 IsValidMenuItem
 (
-PresContext
-(
-)
 menuFrame
 -
 >

@@ -1323,9 +1323,6 @@ aDebug
 void
 GetDebugPref
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
@@ -1366,9 +1363,6 @@ aSize
 void
 PixelMarginToTwips
 (
-nsPresContext
-*
-aPresContext
 nsMargin
 &
 aMarginPixels

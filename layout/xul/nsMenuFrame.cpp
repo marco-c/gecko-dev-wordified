@@ -768,12 +768,6 @@ frame
 >
 UpdateMenuSpecialState
 (
-frame
--
->
-PresContext
-(
-)
 )
 ;
 }
@@ -873,12 +867,6 @@ frame
 >
 UpdateMenuType
 (
-frame
--
->
-PresContext
-(
-)
 )
 ;
 }
@@ -1178,12 +1166,6 @@ menu
 >
 UpdateMenuType
 (
-menu
--
->
-PresContext
-(
-)
 )
 ;
 shouldFlush
@@ -5390,9 +5372,6 @@ nsMenuFrame
 :
 UpdateMenuType
 (
-nsPresContext
-*
-aPresContext
 )
 {
 static
@@ -5514,7 +5493,6 @@ break
 }
 UpdateMenuSpecialState
 (
-aPresContext
 )
 ;
 }
@@ -5544,9 +5522,6 @@ nsMenuFrame
 :
 UpdateMenuSpecialState
 (
-nsPresContext
-*
-aPresContext
 )
 {
 bool

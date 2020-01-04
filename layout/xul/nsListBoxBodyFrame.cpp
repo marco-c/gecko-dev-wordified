@@ -6091,7 +6091,6 @@ fc
 >
 CreateListBoxContent
 (
-presContext
 this
 nullptr
 startContent
@@ -6437,7 +6436,6 @@ fc
 >
 CreateListBoxContent
 (
-presContext
 this
 prevFrame
 nextContent
@@ -6974,9 +6972,6 @@ nsListBoxBodyFrame
 :
 OnContentInserted
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aChildContent

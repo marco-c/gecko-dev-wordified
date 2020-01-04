@@ -1158,9 +1158,6 @@ nsXULPopupManager
 :
 IsValidMenuItem
 (
-PresContext
-(
-)
 current
 false
 )

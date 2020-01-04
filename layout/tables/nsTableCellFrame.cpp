@@ -5075,9 +5075,6 @@ static
 nscoord
 CalcUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 nsTableCellFrame
 &
 aCellFrame
@@ -5265,7 +5262,6 @@ row
 >
 GetUnpaginatedBSize
 (
-aPresContext
 )
 ;
 }
@@ -5630,7 +5626,6 @@ computedUnpaginatedBSize
 =
 CalcUnpaginatedBSize
 (
-aPresContext
 (
 nsTableCellFrame
 &
