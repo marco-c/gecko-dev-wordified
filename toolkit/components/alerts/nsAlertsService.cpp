@@ -792,6 +792,14 @@ bool
 aRetVal
 )
 {
+#
+ifdef
+MOZ_WIDGET_ANDROID
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+else
 /
 /
 Try
@@ -857,6 +865,8 @@ GetManualDoNotDisturb
 aRetVal
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsAlertsService
@@ -868,6 +878,14 @@ bool
 aDoNotDisturb
 )
 {
+#
+ifdef
+MOZ_WIDGET_ANDROID
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+else
 /
 /
 Try
@@ -933,6 +951,8 @@ SetManualDoNotDisturb
 aDoNotDisturb
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsAlertsService
