@@ -1077,7 +1077,7 @@ should
 be
 upgraded
 to
-6
+9
 and
 a
 '
@@ -1102,7 +1102,7 @@ do_check_eq
 connection
 .
 schemaVersion
-8
+9
 )
 ;
 let
