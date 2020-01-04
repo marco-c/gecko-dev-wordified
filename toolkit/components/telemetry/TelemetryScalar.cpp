@@ -10245,7 +10245,7 @@ return
 scalar
 -
 >
-SetValue
+SetMaximum
 (
 aValue
 )
@@ -10349,7 +10349,7 @@ return
 scalar
 -
 >
-SetValue
+SetMaximum
 (
 aKey
 aValue
