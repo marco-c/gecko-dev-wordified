@@ -4543,3 +4543,16 @@ blank
 "
 )
 ;
+user_pref
+(
+"
+browser
+.
+usedOnWindows10
+.
+introURL
+"
+"
+"
+)
+;
