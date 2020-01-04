@@ -104,6 +104,17 @@ MPL
 /
 /
 *
+global
+requirejs
+*
+/
+"
+use
+strict
+"
+;
+/
+*
 *
 *
 RequireJS

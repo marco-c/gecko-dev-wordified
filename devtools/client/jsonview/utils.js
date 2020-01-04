@@ -158,6 +158,7 @@ parseInt
 "
 0x01
 "
+16
 )
 WRONLY
 :
@@ -166,6 +167,7 @@ parseInt
 "
 0x02
 "
+16
 )
 CREATE_FILE
 :
@@ -174,6 +176,7 @@ parseInt
 "
 0x08
 "
+16
 )
 APPEND
 :
@@ -182,6 +185,7 @@ parseInt
 "
 0x10
 "
+16
 )
 TRUNCATE
 :
@@ -190,6 +194,7 @@ parseInt
 "
 0x20
 "
+16
 )
 EXCL
 :
@@ -198,6 +203,7 @@ parseInt
 "
 0x80
 "
+16
 )
 }
 ;
@@ -230,7 +236,7 @@ function
 (
 )
 {
-var
+let
 fp
 =
 Cc
@@ -253,7 +259,7 @@ Ci
 nsIFilePicker
 )
 ;
-var
+let
 win
 =
 getMostRecentBrowserWindow
@@ -321,7 +327,7 @@ filterIndex
 =
 0
 ;
-var
+let
 rv
 =
 fp
@@ -362,6 +368,7 @@ return
 null
 ;
 }
+;
 /
 *
 *
@@ -383,7 +390,7 @@ file
 jsonString
 )
 {
-var
+let
 foStream
 =
 Cc
@@ -453,7 +460,7 @@ permFlags
 0
 )
 ;
-var
+let
 converter
 =
 Cc
@@ -511,7 +518,7 @@ data
 in
 chunks
 .
-var
+let
 chunkLength
 =
 1024
@@ -520,7 +527,7 @@ chunkLength
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -537,7 +544,7 @@ i
 +
 )
 {
-var
+let
 data
 =
 jsonString
@@ -582,6 +589,7 @@ close
 )
 ;
 }
+;
 /
 *
 *
@@ -618,6 +626,7 @@ theme
 )
 ;
 }
+;
 /
 *
 *
@@ -644,7 +653,7 @@ obj
 defineAs
 )
 {
-var
+let
 clone
 =
 Cu
@@ -659,7 +668,7 @@ defineAs
 }
 )
 ;
-var
+let
 props
 =
 Object
@@ -671,7 +680,7 @@ obj
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -687,7 +696,7 @@ i
 +
 )
 {
-var
+let
 propName
 =
 props
@@ -695,7 +704,7 @@ props
 i
 ]
 ;
-var
+let
 propValue
 =
 obj
@@ -730,3 +739,4 @@ propName
 }
 }
 }
+;

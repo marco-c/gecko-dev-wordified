@@ -104,9 +104,6 @@ started
 "
 )
 ;
-let
-tab
-=
 yield
 addJsonViewTab
 (
@@ -217,6 +214,7 @@ browser
 gBrowser
 .
 selectedBrowser
+;
 let
 selector
 =

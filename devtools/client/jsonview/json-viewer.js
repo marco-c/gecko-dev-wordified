@@ -102,6 +102,17 @@ MPL
 .
 *
 /
+/
+*
+global
+postChromeMessage
+*
+/
+"
+use
+strict
+"
+;
 define
 (
 function
@@ -205,7 +216,7 @@ headers
 "
 )
 ;
-var
+let
 jsonData
 ;
 try
@@ -241,7 +252,7 @@ Application
 state
 object
 .
-var
+let
 input
 =
 {
@@ -273,6 +284,7 @@ prettified
 :
 false
 }
+;
 json
 .
 remove
@@ -319,7 +331,7 @@ function
 (
 )
 {
-var
+let
 value
 =
 input
@@ -349,7 +361,7 @@ function
 (
 )
 {
-var
+let
 value
 =
 input
@@ -489,6 +501,7 @@ prettified
 ;
 }
 }
+;
 /
 *
 *
@@ -524,7 +537,7 @@ root
 .
 *
 /
-var
+let
 content
 =
 document
@@ -536,7 +549,7 @@ content
 "
 )
 ;
-var
+let
 theApp
 =
 ReactDOM
@@ -550,7 +563,7 @@ input
 content
 )
 ;
-var
+let
 onResize
 =
 event
@@ -594,6 +607,7 @@ px
 "
 ;
 }
+;
 window
 .
 addEventListener
@@ -629,7 +643,7 @@ well
 as
 extensions
 .
-var
+let
 event
 =
 new
@@ -655,15 +669,6 @@ dispatchEvent
 event
 )
 ;
-/
-/
-End
-of
-json
--
-viewer
-.
-js
 }
 )
 ;

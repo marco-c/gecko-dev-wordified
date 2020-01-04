@@ -70,6 +70,9 @@ API
 could
 go
 to
+:
+/
+/
 testing
 /
 mochitest
@@ -166,6 +169,13 @@ Components
 .
 interfaces
 ;
+/
+/
+eslint
+-
+disable
+-
+line
 EventUtils
 .
 _EU_Cc
@@ -174,6 +184,13 @@ Components
 .
 classes
 ;
+/
+/
+eslint
+-
+disable
+-
+line
 EventUtils
 .
 navigator
@@ -612,7 +629,7 @@ hidden
 class
 set
 .
-var
+let
 observer
 =
 new

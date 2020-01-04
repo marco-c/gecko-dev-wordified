@@ -102,6 +102,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+JsonViewUtils
+*
+/
 "
 use
 strict
@@ -110,8 +116,6 @@ strict
 const
 {
 Cu
-Ci
-Cc
 }
 =
 require
