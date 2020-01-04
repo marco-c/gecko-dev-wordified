@@ -141,14 +141,14 @@ TestCase
 :
     
 def
-get_result
+get_config
 (
 self
-args
+options
 =
 [
 ]
-environ
+env
 =
 {
 }
@@ -187,12 +187,12 @@ sandbox
 ConfigureSandbox
 (
 config
-environ
+env
 [
 prog
 ]
 +
-args
+options
 out
 out
 )
@@ -210,48 +210,17 @@ configure
 )
 )
         
-return
-config
-out
-.
-getvalue
-(
-)
-    
-def
-get_config
-(
-self
+if
+'
+-
+-
+help
+'
+not
+in
 options
-=
-[
-]
-env
-=
-{
-}
-*
-*
-kwargs
-)
 :
-        
-config
-out
-=
-self
-.
-get_result
-(
-options
-environ
-=
-env
-*
-*
-kwargs
-)
-        
+            
 self
 .
 assertEquals
@@ -259,6 +228,10 @@ assertEquals
 '
 '
 out
+.
+getvalue
+(
+)
 )
         
 return
@@ -394,19 +367,53 @@ self
 :
         
 config
+=
+{
+}
+        
 out
 =
-self
-.
-get_result
+StringIO
 (
+)
+        
+sandbox
+=
+ConfigureSandbox
+(
+config
+{
+}
 [
+'
+configure
+'
 '
 -
 -
 help
 '
 ]
+                                   
+out
+out
+)
+        
+sandbox
+.
+run
+(
+mozpath
+.
+join
+(
+test_data_path
+'
+moz
+.
+configure
+'
+)
 )
         
 self
@@ -640,6 +647,10 @@ n
 '
             
 out
+.
+getvalue
+(
+)
         
 )
     
@@ -3038,11 +3049,8 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
 [
 '
@@ -3051,14 +3059,6 @@ get_result
 help
 '
 ]
-                                      
-configure
-=
-'
-set_config
-.
-configure
-'
 )
         
 self
@@ -3355,11 +3355,8 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
 [
 '
@@ -3368,14 +3365,6 @@ get_result
 help
 '
 ]
-                                      
-configure
-=
-'
-set_define
-.
-configure
-'
 )
         
 self
@@ -3731,13 +3720,9 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
-            
 [
 '
 -
@@ -3745,15 +3730,6 @@ get_result
 help
 '
 ]
-configure
-=
-'
-imply_option
-/
-simple
-.
-configure
-'
 )
         
 self
@@ -3936,13 +3912,9 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
-            
 [
 '
 -
@@ -3950,15 +3922,6 @@ get_result
 help
 '
 ]
-configure
-=
-'
-imply_option
-/
-negative
-.
-configure
-'
 )
         
 self
@@ -4260,13 +4223,9 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
-            
 [
 '
 -
@@ -4274,15 +4233,6 @@ get_result
 help
 '
 ]
-configure
-=
-'
-imply_option
-/
-values
-.
-configure
-'
 )
         
 self
@@ -4529,13 +4479,9 @@ configure
 )
         
 config
-out
 =
-self
-.
-get_result
+get_config
 (
-            
 [
 '
 -
@@ -4543,15 +4489,6 @@ get_result
 help
 '
 ]
-configure
-=
-'
-imply_option
-/
-infer
-.
-configure
-'
 )
         
 self
