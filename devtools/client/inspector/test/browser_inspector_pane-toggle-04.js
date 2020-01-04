@@ -226,8 +226,6 @@ querySelector
 inspector
 -
 sidebar
--
-container
 "
 )
 ;

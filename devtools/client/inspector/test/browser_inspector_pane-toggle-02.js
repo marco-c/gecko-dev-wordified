@@ -140,8 +140,6 @@ querySelector
 inspector
 -
 sidebar
--
-container
 "
 )
 ;

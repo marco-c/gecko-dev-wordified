@@ -1600,7 +1600,7 @@ includeBrowserStylesCheckbox
 addEventListener
 (
 "
-input
+command
 "
 this
 .
@@ -5068,11 +5068,11 @@ includeBrowserStylesCheckbox
 removeEventListener
 (
 "
-input
+command
 "
 this
 .
-_onIncludeBrowserStyles
+includeBrowserStylesChanged
 )
 ;
 /
