@@ -5690,7 +5690,7 @@ L10N
 getStr
 (
 "
-watchExpressionsSeparatorLabel
+watchExpressionsSeparatorLabel2
 "
 )
 ;
