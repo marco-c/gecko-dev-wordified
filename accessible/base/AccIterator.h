@@ -616,6 +616,14 @@ HTMLLabelIterator
 &
 )
 ;
+bool
+IsLabel
+(
+Accessible
+*
+aLabel
+)
+;
 RelatedAccIterator
 mRelIter
 ;

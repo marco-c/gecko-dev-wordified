@@ -802,13 +802,11 @@ RelationType
 LABEL_FOR
 )
 {
-RefPtr
-<
 dom
 :
 :
 HTMLLabelElement
->
+*
 label
 =
 dom
