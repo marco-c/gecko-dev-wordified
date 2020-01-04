@@ -587,7 +587,7 @@ return
 this
 ;
 }
-void
+bool
 js
 :
 :
@@ -630,11 +630,12 @@ aMain
 aArg
 )
 ;
-MOZ_RELEASE_ASSERT
+if
 (
-!
 r
 )
+return
+false
 ;
 id_
 .
@@ -645,6 +646,9 @@ platformData
 >
 hasThread
 =
+true
+;
+return
 true
 ;
 }

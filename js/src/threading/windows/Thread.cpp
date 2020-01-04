@@ -454,7 +454,7 @@ return
 this
 ;
 }
-void
+bool
 js
 :
 :
@@ -535,13 +535,13 @@ platformData
 id
 )
 ;
-MOZ_RELEASE_ASSERT
+if
 (
-handle
 !
-=
-0
+handle
 )
+return
+false
 ;
 id_
 .
@@ -559,6 +559,9 @@ HANDLE
 (
 handle
 )
+;
+return
+true
 ;
 }
 void
