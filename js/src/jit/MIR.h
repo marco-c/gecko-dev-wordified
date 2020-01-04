@@ -67569,6 +67569,8 @@ MIRType
 resultType
 uint32_t
 spIncrement
+uint32_t
+tlsStackOffset
 )
 ;
 size_t
