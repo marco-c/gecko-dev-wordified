@@ -141,13 +141,13 @@ Float
 aSize
 )
 :
-mFontFace
-(
-aFont
-)
 ScaledFontBase
 (
 aSize
+)
+mFontFace
+(
+aFont
 )
 {
 }
