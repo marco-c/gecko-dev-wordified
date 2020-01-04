@@ -1375,10 +1375,9 @@ node
 .
 *
 /
-markRuntime
+traceRuntime
 (
 trc
-TraceRuntime
 prep
 .
 session
@@ -3079,7 +3078,7 @@ The
 analysis
 thinks
 that
-markRuntime
+traceRuntime
 might
 GC
 by
@@ -3099,13 +3098,9 @@ rt
 >
 gc
 .
-markRuntime
+traceRuntime
 (
 this
-GCRuntime
-:
-:
-TraceRuntime
 lock
 )
 ;

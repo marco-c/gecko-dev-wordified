@@ -15123,7 +15123,6 @@ markRuntime
 (
 &
 trc
-MarkRuntime
 lock
 )
 ;
@@ -23597,7 +23596,6 @@ zone
 markRuntime
 (
 gcmarker
-MarkRuntime
 lock
 )
 ;
@@ -25472,10 +25470,6 @@ gc
 markRuntime
 (
 gcmarker
-GCRuntime
-:
-:
-MarkRuntime
 lock
 )
 ;

@@ -4042,14 +4042,10 @@ rt
 >
 gc
 .
-markRuntime
+traceRuntime
 (
 &
 mover
-GCRuntime
-:
-:
-TraceRuntime
 session
 .
 lock
