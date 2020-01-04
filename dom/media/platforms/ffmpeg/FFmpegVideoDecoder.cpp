@@ -2096,8 +2096,16 @@ key_frame
 1
 mInfo
 .
-ImageRect
+ScaledImageRect
 (
+mFrame
+-
+>
+width
+mFrame
+-
+>
+height
 )
 )
 ;
