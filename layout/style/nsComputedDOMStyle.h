@@ -812,14 +812,8 @@ nsStyleCorners
 aRadius
 uint8_t
 aFullCorner
-bool
-aIsBorder
 )
 ;
-/
-/
-else
-outline
 already_AddRefed
 <
 CSSValue
