@@ -869,7 +869,7 @@ IsLeaf
 element
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 -
