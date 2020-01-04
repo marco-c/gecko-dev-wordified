@@ -17421,6 +17421,16 @@ mFirstrunAnimationContainer
 showBrowserHint
 (
 )
+&
+&
+TextUtils
+.
+isEmpty
+(
+getHomepage
+(
+)
+)
 )
 {
 enterEditingMode
