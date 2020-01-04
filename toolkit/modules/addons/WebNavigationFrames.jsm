@@ -603,7 +603,6 @@ var
 WebNavigationFrames
 =
 {
-iterateDocShellTree
 getFrame
 (
 docShell
