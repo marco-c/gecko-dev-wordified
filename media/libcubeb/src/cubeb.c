@@ -605,7 +605,7 @@ latency
 |
 latency
 >
-2000
+96000
 )
 {
 return
