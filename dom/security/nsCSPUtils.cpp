@@ -884,6 +884,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_PING
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_FETCH
 :
 return
@@ -915,12 +921,6 @@ nsIContentPolicy
 :
 :
 TYPE_XBL
-:
-case
-nsIContentPolicy
-:
-:
-TYPE_PING
 :
 case
 nsIContentPolicy
