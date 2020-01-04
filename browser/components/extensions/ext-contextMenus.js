@@ -291,7 +291,7 @@ this
 data
 in
 |
-contentData
+contextData
 |
 .
 var
@@ -797,6 +797,7 @@ menupopup
 ;
 for
 (
+let
 i
 of
 topLevelItems
@@ -2105,7 +2106,7 @@ documentUrlMatchPattern
 .
 matches
 (
-contentData
+contextData
 .
 documentURIObject
 )
@@ -2146,7 +2147,7 @@ targetUrlPatterns
 .
 matches
 (
-contentData
+contextData
 .
 mediaURL
 )
