@@ -242,9 +242,9 @@ virtual
 bool
 SetupCairoFont
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 override
 ;

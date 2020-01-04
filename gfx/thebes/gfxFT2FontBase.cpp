@@ -1231,9 +1231,9 @@ gfxFT2FontBase
 :
 SetupCairoFont
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 {
 /
@@ -1570,12 +1570,7 @@ gfxContext
 :
 RefCairo
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 cairoFont
 )

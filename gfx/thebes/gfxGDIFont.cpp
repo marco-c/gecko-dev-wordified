@@ -531,6 +531,11 @@ if
 SetupCairoFont
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {
@@ -612,9 +617,9 @@ gfxGDIFont
 :
 SetupCairoFont
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 {
 if
@@ -676,12 +681,7 @@ gfxContext
 :
 RefCairo
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 mScaledFont
 )

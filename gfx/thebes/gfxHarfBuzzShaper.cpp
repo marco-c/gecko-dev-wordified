@@ -8748,6 +8748,11 @@ mFont
 SetupCairoFont
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {
