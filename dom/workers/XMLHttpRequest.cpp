@@ -1317,9 +1317,6 @@ virtual
 void
 MaybeSetException
 (
-JSContext
-*
-aCx
 )
 override
 {
