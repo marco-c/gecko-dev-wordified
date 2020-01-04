@@ -251,7 +251,7 @@ h
 #
 include
 "
-nsICachingChannel
+nsICacheInfoChannel
 .
 h
 "
@@ -13522,7 +13522,7 @@ else
 {
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChan
 (
@@ -15873,7 +15873,7 @@ listeners
 .
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChan
 (
