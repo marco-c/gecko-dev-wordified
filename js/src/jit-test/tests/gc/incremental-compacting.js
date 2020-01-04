@@ -204,7 +204,7 @@ gcstate
 =
 =
 "
-none
+NotActive
 "
 )
 gc
@@ -228,7 +228,7 @@ gcstate
 =
 =
 "
-none
+NotActive
 "
 )
 {

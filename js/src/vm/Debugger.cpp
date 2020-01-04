@@ -17953,7 +17953,10 @@ state
 gc
 :
 :
-MARK_ROOTS
+State
+:
+:
+MarkRoots
 |
 |
 state
@@ -17962,7 +17965,10 @@ state
 gc
 :
 :
-COMPACT
+State
+:
+:
+Compact
 )
 ;
 for
@@ -18007,7 +18013,10 @@ state
 gc
 :
 :
-MARK_ROOTS
+State
+:
+:
+MarkRoots
 &
 &
 !
@@ -18027,7 +18036,10 @@ state
 gc
 :
 :
-COMPACT
+State
+:
+:
+Compact
 &
 &
 !

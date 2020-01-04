@@ -1339,7 +1339,10 @@ finalState
 gc
 :
 :
-NO_INCREMENTAL
+State
+:
+:
+NotActive
 )
 resetReason
 (

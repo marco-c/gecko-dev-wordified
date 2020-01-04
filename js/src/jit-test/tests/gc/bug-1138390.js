@@ -103,7 +103,7 @@ gcstate
 (
 )
 "
-mark
+Mark
 "
 )
 ;
@@ -157,7 +157,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
