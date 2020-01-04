@@ -1180,7 +1180,6 @@ nsStyleFont
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -2999,7 +2998,6 @@ nsStyleColor
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -5344,7 +5342,6 @@ nsStyleBackground
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -5706,7 +5703,6 @@ nsStyleMargin
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -5973,7 +5969,6 @@ nsStylePadding
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -7288,7 +7283,6 @@ nsStyleBorder
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -8797,7 +8791,6 @@ nsStyleOutline
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -9355,7 +9348,6 @@ nsStyleList
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -10750,7 +10742,6 @@ nsStylePosition
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -12673,7 +12664,6 @@ nsStyleTextReset
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -13122,7 +13112,6 @@ nsStyleText
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -14555,7 +14544,6 @@ nsStyleVisibility
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -17221,7 +17209,6 @@ nsStyleDisplay
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -19029,7 +19016,6 @@ nsStyleTable
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -19225,7 +19211,6 @@ nsStyleTableBorder
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -19692,7 +19677,6 @@ nsStyleContent
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -20240,7 +20224,6 @@ nsStyleUIReset
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -20611,7 +20594,6 @@ nsStyleUserInterface
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -20929,7 +20911,6 @@ nsStyleXUL
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -21180,7 +21161,6 @@ nsStyleColumn
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -21658,7 +21638,6 @@ nsStyleSVG
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -22769,7 +22748,6 @@ nsStyleSVGReset
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -23042,7 +23020,6 @@ nsStyleVariables
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
@@ -23205,7 +23182,6 @@ nsStyleEffects
 *
 aSelf
 )
-CPP_THROW_NEW
 {
 return
 aSelf
