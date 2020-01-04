@@ -367,6 +367,7 @@ alpha
 NS_STYLE_LIST_STYLE_UPPER_ALPHA
 }
 {
+nullptr
 0
 }
 }
@@ -413,6 +414,7 @@ i
 NS_STYLE_LIST_STYLE_LOWER_ROMAN
 }
 {
+nullptr
 0
 }
 }

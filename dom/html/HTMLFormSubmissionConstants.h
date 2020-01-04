@@ -151,6 +151,7 @@ post
 NS_FORM_METHOD_POST
 }
 {
+nullptr
 0
 }
 }
@@ -223,6 +224,7 @@ plain
 NS_FORM_ENCTYPE_TEXTPLAIN
 }
 {
+nullptr
 0
 }
 }

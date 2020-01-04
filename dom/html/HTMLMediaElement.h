@@ -5611,6 +5611,8 @@ attribute
 /
 enum
 PreloadAttrValue
+:
+uint8_t
 {
 PRELOAD_ATTR_EMPTY
 /

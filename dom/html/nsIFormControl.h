@@ -269,6 +269,8 @@ NS_FORM_INPUT_ELEMENT
 ;
 enum
 ButtonElementTypes
+:
+uint8_t
 {
 NS_FORM_BUTTON_BUTTON
 =
@@ -282,6 +284,8 @@ eButtonElementTypesMax
 ;
 enum
 InputElementTypes
+:
+uint8_t
 {
 NS_FORM_INPUT_BUTTON
 =

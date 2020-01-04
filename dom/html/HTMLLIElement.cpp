@@ -257,6 +257,7 @@ square
 NS_STYLE_LIST_STYLE_SQUARE
 }
 {
+nullptr
 0
 }
 }
@@ -312,6 +313,7 @@ NS_STYLE_LIST_STYLE_LOWER_ROMAN
 NS_STYLE_LIST_STYLE_DECIMAL
 }
 {
+nullptr
 0
 }
 }

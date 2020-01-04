@@ -403,6 +403,7 @@ submit
 NS_FORM_BUTTON_SUBMIT
 }
 {
+nullptr
 0
 }
 }

@@ -2363,6 +2363,8 @@ field
 name
 enum
 AutocompleteFieldName
+:
+uint8_t
 {
 #
 define
@@ -2406,6 +2408,8 @@ AUTOCOMPLETE_CONTACT_FIELD_NAME
 ;
 enum
 AutocompleteFieldHint
+:
+uint8_t
 {
 #
 define
@@ -2433,6 +2437,8 @@ AUTOCOMPLETE_FIELD_HINT
 ;
 enum
 AutocompleteFieldContactHint
+:
+uint8_t
 {
 #
 define
@@ -2521,6 +2527,7 @@ h
 undef
 AUTOCOMPLETE_FIELD_NAME
 {
+nullptr
 0
 }
 }
@@ -2562,6 +2569,7 @@ h
 undef
 AUTOCOMPLETE_CONTACT_FIELD_NAME
 {
+nullptr
 0
 }
 }
@@ -2603,6 +2611,7 @@ h
 undef
 AUTOCOMPLETE_FIELD_HINT
 {
+nullptr
 0
 }
 }
@@ -2644,6 +2653,7 @@ h
 undef
 AUTOCOMPLETE_FIELD_CONTACT_HINT
 {
+nullptr
 0
 }
 }
@@ -52817,14 +52827,10 @@ do_GetService
 NS_CONTENTSECURITYMANAGER_CONTRACTID
 )
 ;
-NS_WARNING_ASSERTION
+NS_WARN_IF
 (
+!
 csm
-"
-csm
-is
-null
-"
 )
 ;
 if

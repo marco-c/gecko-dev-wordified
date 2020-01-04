@@ -125,6 +125,8 @@ mozilla
 {
 enum
 CORSMode
+:
+uint8_t
 {
 /
 *

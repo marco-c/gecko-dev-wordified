@@ -249,6 +249,7 @@ bottom
 NS_STYLE_CAPTION_SIDE_BOTTOM
 }
 {
+nullptr
 0
 }
 }

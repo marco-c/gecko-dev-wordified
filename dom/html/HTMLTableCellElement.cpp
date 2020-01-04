@@ -1513,6 +1513,7 @@ colgroup
 NS_STYLE_CELL_SCOPE_COLGROUP
 }
 {
+nullptr
 0
 }
 }
