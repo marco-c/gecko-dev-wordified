@@ -8109,7 +8109,7 @@ self
 _install_manifests
 [
 '
-_tests
+_test_files
 '
 ]
 .
@@ -8152,7 +8152,7 @@ self
 _install_manifests
 [
 '
-_tests
+_test_files
 '
 ]
 .
@@ -8193,7 +8193,7 @@ self
 _install_manifests
 [
 '
-_tests
+_test_files
 '
 ]
 .

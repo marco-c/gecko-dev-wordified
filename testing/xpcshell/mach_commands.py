@@ -2848,6 +2848,22 @@ manifest
 =
 m
         
+driver
+=
+self
+.
+_spawn
+(
+BuildDriver
+)
+        
+driver
+.
+install_tests
+(
+test_objects
+)
+        
 #
 We
 should
@@ -2899,24 +2915,6 @@ _ensure_state_subdir_exists
 '
 .
 '
-)
-        
-driver
-=
-self
-.
-_spawn
-(
-BuildDriver
-)
-        
-driver
-.
-install_tests
-(
-remove
-=
-False
 )
         
 params
