@@ -5882,8 +5882,10 @@ let
 key
 val
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 record
 .
@@ -6149,8 +6151,10 @@ let
 guid
 children
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 this
 .

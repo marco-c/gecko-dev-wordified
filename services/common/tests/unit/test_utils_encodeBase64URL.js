@@ -91,8 +91,10 @@ let
 k
 v
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 expected
 )

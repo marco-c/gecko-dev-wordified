@@ -563,8 +563,10 @@ let
 guid
 client
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 clients
 )
