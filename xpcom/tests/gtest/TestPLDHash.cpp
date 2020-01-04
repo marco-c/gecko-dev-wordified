@@ -2868,11 +2868,14 @@ is
 875
 %
 of
-PL_DHASH_MAX_SIZE
+PLDHashTable
+:
+:
+kMaxCapacity
+/
+/
 (
 see
-/
-/
 MaxLoadOnGrowthFailure
 (
 )
