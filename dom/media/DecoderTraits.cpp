@@ -1774,6 +1774,14 @@ EmptyString
 )
 )
 {
+#
+ifdef
+MOZ_OMX_DECODER
+return
+false
+;
+#
+endif
 return
 MP3Decoder
 :
