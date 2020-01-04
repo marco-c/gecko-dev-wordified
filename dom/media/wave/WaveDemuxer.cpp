@@ -3052,12 +3052,6 @@ ByteReader
 aReader
 )
 {
-MOZ_ASSERT
-(
-&
-aReader
-)
-;
 while
 (
 aReader
@@ -3684,12 +3678,6 @@ ByteReader
 aReader
 )
 {
-MOZ_ASSERT
-(
-&
-aReader
-)
-;
 while
 (
 aReader
