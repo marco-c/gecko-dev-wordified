@@ -665,8 +665,6 @@ aDevice
 >
 EstablishControlChannel
 (
-mRequestUrl
-mId
 getter_AddRefs
 (
 ctrlChannel
@@ -1375,7 +1373,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )
@@ -1411,7 +1409,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )
@@ -1453,7 +1451,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )
@@ -1507,7 +1505,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 NS_ERROR_DOM_BAD_URI
 )
@@ -1547,7 +1545,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )
@@ -1574,7 +1572,7 @@ uri
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 NS_ERROR_DOM_NOT_FOUND_ERR
 )
@@ -1635,7 +1633,7 @@ supported
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 NS_ERROR_DOM_OPERATION_ERR
 )
@@ -1678,7 +1676,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )
@@ -1726,7 +1724,7 @@ glue
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 NS_ERROR_DOM_OPERATION_ERR
 )
@@ -1777,7 +1775,7 @@ rv
 ctrlChannel
 -
 >
-Close
+Disconnect
 (
 rv
 )

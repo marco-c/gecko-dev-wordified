@@ -926,7 +926,16 @@ return
 isValid
 ;
 }
-close
+launch
+:
+function
+(
+presentationId
+url
+)
+{
+}
+disconnect
 :
 function
 (
@@ -2557,7 +2566,7 @@ reason
 {
 mockedControlChannel
 .
-close
+disconnect
 (
 reason
 )
