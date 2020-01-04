@@ -917,7 +917,7 @@ controllerWindow
 {
 this
 .
-_inspector
+inspector
 =
 inspector
 ;
@@ -927,7 +927,7 @@ walker
 =
 this
 .
-_inspector
+inspector
 .
 walker
 ;
@@ -1081,7 +1081,7 @@ AutocompletePopup
 (
 inspector
 .
-_toolbox
+toolbox
 options
 )
 ;
@@ -1455,7 +1455,7 @@ _onDisplayChange
 ;
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -1474,8 +1474,6 @@ _onNewSelection
 )
 ;
 this
-.
-_inspector
 .
 toolbox
 .
@@ -1581,6 +1579,19 @@ CONTAINER_FLASHING_DURATION
 _selectedContainer
 :
 null
+get
+toolbox
+(
+)
+{
+return
+this
+.
+inspector
+.
+toolbox
+;
+}
 /
 *
 *
@@ -1672,8 +1683,6 @@ HTMLTooltip
 (
 this
 .
-_inspector
-.
 toolbox
 {
 type
@@ -1692,8 +1701,6 @@ new
 HTMLTooltip
 (
 this
-.
-_inspector
 .
 toolbox
 {
@@ -2941,8 +2948,6 @@ nodeFront
 return
 this
 .
-_inspector
-.
 toolbox
 .
 highlighterUtils
@@ -3022,8 +3027,6 @@ forceHide
 {
 return
 this
-.
-_inspector
 .
 toolbox
 .
@@ -3756,7 +3759,7 @@ reason
 =
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -3793,7 +3796,7 @@ _hoveredNode
 =
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -3866,7 +3869,7 @@ selection
 =
 this
 .
-_inspector
+inspector
 .
 selection
 ;
@@ -3940,7 +3943,7 @@ done
 =
 this
 .
-_inspector
+inspector
 .
 updating
 (
@@ -4134,7 +4137,7 @@ nodeFront
 =
 this
 .
-_inspector
+inspector
 .
 selection
 ;
@@ -4397,7 +4400,7 @@ selection
 =
 this
 .
-_inspector
+inspector
 .
 selection
 ;
@@ -4412,7 +4415,7 @@ isNode
 {
 this
 .
-_inspector
+inspector
 .
 copyOuterHTML
 (
@@ -4746,7 +4749,7 @@ node
 ;
 this
 .
-_inspector
+inspector
 .
 scrollNodeIntoView
 (
@@ -6259,7 +6262,7 @@ this
 node
 this
 .
-_inspector
+inspector
 )
 ;
 }
@@ -6291,7 +6294,7 @@ this
 node
 this
 .
-_inspector
+inspector
 )
 ;
 }
@@ -6306,7 +6309,7 @@ this
 node
 this
 .
-_inspector
+inspector
 )
 ;
 }
@@ -6347,7 +6350,7 @@ container
 ;
 this
 .
-_inspector
+inspector
 .
 emit
 (
@@ -6764,7 +6767,7 @@ mutations
 ;
 this
 .
-_inspector
+inspector
 .
 emit
 (
@@ -8245,7 +8248,7 @@ return
 }
 this
 .
-_inspector
+inspector
 .
 off
 (
@@ -8286,7 +8289,7 @@ if
 (
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -8302,7 +8305,7 @@ node
 (
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -8407,7 +8410,7 @@ removed
 .
 this
 .
-_inspector
+inspector
 .
 on
 (
@@ -8469,7 +8472,7 @@ _removedNodeObserver
 {
 this
 .
-_inspector
+inspector
 .
 off
 (
@@ -9541,7 +9544,7 @@ if
 (
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -9554,7 +9557,7 @@ node
 {
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -9805,7 +9808,7 @@ node
 =
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -11256,7 +11259,7 @@ _onDisplayChange
 ;
 this
 .
-_inspector
+inspector
 .
 selection
 .
@@ -11275,8 +11278,6 @@ _onNewSelection
 )
 ;
 this
-.
-_inspector
 .
 toolbox
 .
@@ -14995,7 +14996,7 @@ this
 .
 markup
 .
-_inspector
+inspector
 .
 followAttributeLink
 (
@@ -16968,8 +16969,6 @@ this
 .
 markup
 .
-_inspector
-.
 toolbox
 ;
 setEventTooltip
@@ -18699,10 +18698,17 @@ this
 .
 markup
 .
-_inspector
-.
 toolbox
 )
+contextMenu
+:
+this
+.
+markup
+.
+inspector
+.
+onTextBoxContextMenu
 }
 )
 ;
@@ -18979,8 +18985,6 @@ this
 .
 markup
 .
-_inspector
-.
 toolbox
 )
 ;
@@ -19163,6 +19167,15 @@ bind
 (
 this
 )
+contextMenu
+:
+this
+.
+markup
+.
+inspector
+.
+onTextBoxContextMenu
 cssProperties
 :
 this
@@ -19317,6 +19330,15 @@ apply
 )
 ;
 }
+contextMenu
+:
+this
+.
+markup
+.
+inspector
+.
+onTextBoxContextMenu
 cssProperties
 :
 this
@@ -21053,6 +21075,15 @@ apply
 )
 ;
 }
+contextMenu
+:
+this
+.
+markup
+.
+inspector
+.
+onTextBoxContextMenu
 cssProperties
 :
 this
@@ -21805,7 +21836,7 @@ this
 .
 markup
 .
-_inspector
+inspector
 .
 off
 (
@@ -22382,7 +22413,7 @@ this
 .
 markup
 .
-_inspector
+inspector
 .
 once
 (
