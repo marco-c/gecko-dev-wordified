@@ -1181,7 +1181,7 @@ this
 let
 target
 =
-gInspector
+gToolbox
 .
 target
 ;

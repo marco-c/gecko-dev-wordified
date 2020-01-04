@@ -694,6 +694,15 @@ inspector
 )
 {
 let
+highlighter
+=
+inspector
+.
+toolbox
+.
+highlighter
+;
+let
 nodeFront
 =
 yield
@@ -704,8 +713,6 @@ inspector
 )
 ;
 yield
-inspector
-.
 highlighter
 .
 showBoxModel
@@ -1002,6 +1009,8 @@ selector
 yield
 inspector
 .
+toolbox
+.
 highlighter
 .
 hideBoxModel
@@ -1250,6 +1259,8 @@ selector
 ;
 yield
 inspector
+.
+toolbox
 .
 highlighter
 .
