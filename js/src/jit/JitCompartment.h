@@ -1433,6 +1433,15 @@ jrt_
 (
 jrt
 )
+prev_
+(
+false
+)
+/
+/
+silence
+GCC
+warning
 {
 MOZ_ASSERT
 (
