@@ -22648,7 +22648,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 &
 &
 curDetail

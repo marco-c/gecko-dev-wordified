@@ -13884,7 +13884,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 ;
 if

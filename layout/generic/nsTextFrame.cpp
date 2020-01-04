@@ -2169,7 +2169,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 return
 eIndexSpellChecker
@@ -36430,7 +36430,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 {
 /
@@ -37558,7 +37558,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 if
 (
@@ -47474,7 +47474,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 {
 if

@@ -940,7 +940,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 return
 "
@@ -1107,7 +1107,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 case
 SelectionType
@@ -2067,7 +2067,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 return
 1
@@ -2180,7 +2180,7 @@ eNormal
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 SelectionType
 :
 :
@@ -28557,7 +28557,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 &
 &
 cnt
