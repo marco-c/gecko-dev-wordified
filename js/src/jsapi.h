@@ -13147,7 +13147,7 @@ JSContext
 cx
 HandleObject
 objArg
-MutableHandleValue
+HandleValue
 v
 bool
 *
