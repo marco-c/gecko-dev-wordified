@@ -1816,10 +1816,14 @@ at
 "
 +
 nextUpdate
-+
+)
+;
+}
+log
+(
 "
-which
-is
+Next
+update
 "
 +
 updateDelay
@@ -1831,7 +1835,6 @@ now
 "
 )
 ;
-}
 /
 /
 Set
