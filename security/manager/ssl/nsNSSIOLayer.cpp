@@ -9985,6 +9985,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 PRFileDesc
 *
 *
@@ -10025,6 +10029,7 @@ family
 host
 port
 proxy
+firstPartyDomain
 sock
 info
 forSTARTTLS
@@ -14062,6 +14067,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 PRFileDesc
 *
 fd
@@ -14162,6 +14171,14 @@ infoObject
 SetPort
 (
 port
+)
+;
+infoObject
+-
+>
+SetFirstPartyDomain
+(
+firstPartyDomain
 )
 ;
 bool

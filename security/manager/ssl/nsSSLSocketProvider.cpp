@@ -176,6 +176,7 @@ family
 host
 port
 proxy
+firstPartyDomain
 _result
 securityInfo
 false
@@ -247,6 +248,7 @@ family
 host
 port
 proxy
+firstPartyDomain
 aSocket
 securityInfo
 false
