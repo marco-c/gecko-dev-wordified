@@ -159,6 +159,13 @@ MediaDecoder
 .
 h
 "
+#
+include
+"
+MediaFormatReader
+.
+h
+"
 class
 nsIStreamListener
 ;
@@ -512,6 +519,12 @@ RefPtr
 MediaSourceDemuxer
 >
 mDemuxer
+;
+RefPtr
+<
+MediaFormatReader
+>
+mReader
 ;
 Atomic
 <
