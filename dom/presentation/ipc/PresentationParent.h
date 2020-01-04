@@ -331,6 +331,12 @@ nsString
 >
 mSessionIds
 ;
+nsTArray
+<
+uint64_t
+>
+mWindowIds
+;
 }
 ;
 class
