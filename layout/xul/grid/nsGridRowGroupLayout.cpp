@@ -277,7 +277,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -500,7 +500,7 @@ well
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -645,7 +645,7 @@ well
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -790,7 +790,7 @@ well
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )

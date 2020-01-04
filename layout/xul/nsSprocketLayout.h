@@ -612,7 +612,7 @@ nsSprocketLayout
 ;
 static
 bool
-IsHorizontal
+IsXULHorizontal
 (
 nsIFrame
 *

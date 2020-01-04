@@ -8123,7 +8123,7 @@ isHorizontal
 aScrollbar
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -8389,7 +8389,7 @@ isHorizontal
 aScrollbar
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -8628,7 +8628,7 @@ isHorizontal
 aScrollbar
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

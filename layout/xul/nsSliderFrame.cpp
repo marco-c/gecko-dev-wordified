@@ -2240,7 +2240,7 @@ aState
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -2317,7 +2317,7 @@ nscoord
 &
 availableLength
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -2333,7 +2333,7 @@ nscoord
 &
 thumbLength
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -2595,7 +2595,7 @@ int32_t
 thumbPos
 =
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -2786,7 +2786,7 @@ scrollbarBox
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -4326,7 +4326,7 @@ minPos
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -4407,7 +4407,7 @@ appUnitsPerPixel
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -4735,7 +4735,7 @@ crect
 nscoord
 offset
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -5594,7 +5594,7 @@ AppUnitsPerCSSPixel
 )
 )
 sliderTrackCSS
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -5773,7 +5773,7 @@ NS_OK
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -6983,7 +6983,7 @@ else
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -7172,7 +7172,7 @@ NS_OK
 }
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -7667,7 +7667,7 @@ GetRect
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

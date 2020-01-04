@@ -704,7 +704,7 @@ horiz
 scrolledBox
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

@@ -21516,7 +21516,7 @@ const
 0
 ;
 bool
-IsHorizontal
+IsXULHorizontal
 (
 )
 const

@@ -313,7 +313,7 @@ bool
 nsSprocketLayout
 :
 :
-IsHorizontal
+IsXULHorizontal
 (
 nsIFrame
 *
@@ -1570,7 +1570,7 @@ width
 if
 (
 !
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -1713,7 +1713,7 @@ children
 .
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -4736,7 +4736,7 @@ isHorizontal
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -5947,7 +5947,7 @@ frameState
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -6596,7 +6596,7 @@ aChildLayoutRect
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -8199,7 +8199,7 @@ vpref
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -8448,7 +8448,7 @@ minSize
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -8761,7 +8761,7 @@ aState
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -9081,7 +9081,7 @@ vAscent
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
