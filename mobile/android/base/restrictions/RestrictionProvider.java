@@ -272,6 +272,13 @@ Intent
 EXTRA_RESTRICTIONS_BUNDLE
 )
 ;
+RestrictedProfileConfiguration
+.
+migrateRestrictionsIfNeeded
+(
+oldRestrictions
+)
+;
 final
 Bundle
 extras
