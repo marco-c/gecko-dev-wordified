@@ -1507,7 +1507,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintText
 (
 int32_t
