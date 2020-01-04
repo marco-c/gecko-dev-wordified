@@ -192,6 +192,10 @@ word
 .
 With
 *
+overflow
+-
+wrap
+|
 word
 -
 wrap

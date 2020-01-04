@@ -323,6 +323,16 @@ true
 /
 CSS_PROP_ALIAS
 (
+word
+-
+wrap
+overflow_wrap
+WordWrap
+"
+"
+)
+CSS_PROP_ALIAS
+(
 -
 moz
 -

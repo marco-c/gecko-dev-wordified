@@ -2779,7 +2779,7 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetWordWrap
+DoGetOverflowWrap
 (
 )
 ;

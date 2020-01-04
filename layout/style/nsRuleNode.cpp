@@ -30484,7 +30484,7 @@ conditions
 }
 /
 /
-word
+overflow
 -
 wrap
 :
@@ -30497,13 +30497,13 @@ SetDiscrete
 aRuleData
 -
 >
-ValueForWordWrap
+ValueForOverflowWrap
 (
 )
 text
 -
 >
-mWordWrap
+mOverflowWrap
 conditions
 SETDSC_ENUMERATED
 |
@@ -30511,8 +30511,8 @@ SETDSC_UNSET_INHERIT
 parentText
 -
 >
-mWordWrap
-NS_STYLE_WORDWRAP_NORMAL
+mOverflowWrap
+NS_STYLE_OVERFLOWWRAP_NORMAL
 0
 0
 0

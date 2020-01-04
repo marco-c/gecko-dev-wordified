@@ -2983,6 +2983,10 @@ This
 is
 set
 by
+overflow
+-
+wrap
+|
 word
 -
 wrap

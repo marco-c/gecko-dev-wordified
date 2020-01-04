@@ -21909,7 +21909,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetWordWrap
+DoGetOverflowWrap
 (
 )
 {
@@ -21937,11 +21937,11 @@ StyleText
 )
 -
 >
-mWordWrap
+mOverflowWrap
 nsCSSProps
 :
 :
-kWordWrapKTable
+kOverflowWrapKTable
 )
 )
 ;

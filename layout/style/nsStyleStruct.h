@@ -12810,7 +12810,7 @@ nsStyleConsts
 .
 h
 uint8_t
-mWordWrap
+mOverflowWrap
 ;
 /
 /
@@ -13181,10 +13181,10 @@ WhiteSpaceCanWrapStyle
 )
 &
 &
-mWordWrap
+mOverflowWrap
 =
 =
-NS_STYLE_WORDWRAP_BREAK_WORD
+NS_STYLE_OVERFLOWWRAP_BREAK_WORD
 ;
 }
 bool

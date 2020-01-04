@@ -5958,6 +5958,13 @@ kOverflowClipBoxKTable
 static
 const
 KTableEntry
+kOverflowWrapKTable
+[
+]
+;
+static
+const
+KTableEntry
 kPageBreakKTable
 [
 ]
@@ -6340,13 +6347,6 @@ static
 const
 KTableEntry
 kWordBreakKTable
-[
-]
-;
-static
-const
-KTableEntry
-kWordWrapKTable
 [
 ]
 ;
