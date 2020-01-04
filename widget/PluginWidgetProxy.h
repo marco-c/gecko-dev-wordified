@@ -451,9 +451,6 @@ nsIWidget
 >
 mParent
 ;
-uintptr_t
-mCachedPluginPort
-;
 }
 ;
 }
