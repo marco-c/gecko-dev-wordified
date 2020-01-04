@@ -14239,12 +14239,6 @@ D3DVsyncDisplay
 (
 )
 :
-mVsyncEnabledLock
-(
-"
-D3DVsyncEnabledLock
-"
-)
 mPrevVsync
 (
 TimeStamp
@@ -14253,6 +14247,12 @@ TimeStamp
 Now
 (
 )
+)
+mVsyncEnabledLock
+(
+"
+D3DVsyncEnabledLock
+"
 )
 mVsyncEnabled
 (
