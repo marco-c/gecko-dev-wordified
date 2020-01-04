@@ -2704,6 +2704,14 @@ ins
 )
 ;
 void
+visitDebugCheckSelfHosted
+(
+LDebugCheckSelfHosted
+*
+ins
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed

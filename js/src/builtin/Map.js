@@ -242,7 +242,7 @@ result
 .
 value
 ;
-callFunction
+callContentFunction
 (
 callbackfn
 thisArg

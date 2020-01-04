@@ -904,7 +904,7 @@ c
 if
 (
 !
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1197,7 +1197,7 @@ c
 /
 if
 (
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1488,7 +1488,7 @@ c
 .
 *
 /
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1798,7 +1798,7 @@ iii
 var
 mappedValue
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -2155,7 +2155,7 @@ iv
 var
 selected
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -3335,7 +3335,7 @@ f
 /
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -3604,7 +3604,7 @@ f
 /
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -5026,7 +5026,7 @@ iii
 var
 next
 =
-callFunction
+callContentFunction
 (
 iterator
 .
@@ -5107,7 +5107,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 thisArg
@@ -5281,7 +5281,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 thisArg
@@ -5403,7 +5403,7 @@ array
 )
 ;
 return
-callFunction
+callContentFunction
 (
 func
 array

@@ -2432,6 +2432,14 @@ MCheckObjCoercible
 ins
 )
 ;
+void
+visitDebugCheckSelfHosted
+(
+MDebugCheckSelfHosted
+*
+ins
+)
+;
 }
 ;
 }

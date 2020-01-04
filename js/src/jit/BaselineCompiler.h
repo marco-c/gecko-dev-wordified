@@ -1229,6 +1229,11 @@ _
 (
 JSOP_CHECKOBJCOERCIBLE
 )
+\
+_
+(
+JSOP_DEBUGCHECKSELFHOSTED
+)
 class
 BaselineCompiler
 :

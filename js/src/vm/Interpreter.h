@@ -2788,6 +2788,16 @@ Value
 vp
 )
 ;
+bool
+Debug_CheckSelfHosted
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
 }
 /
 *

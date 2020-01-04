@@ -1014,7 +1014,7 @@ Steps
 var
 iterator
 =
-callFunction
+callContentFunction
 (
 method
 obj

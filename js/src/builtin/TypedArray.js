@@ -1021,7 +1021,7 @@ iv
 var
 testResult
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1568,7 +1568,7 @@ selected
 =
 ToBoolean
 (
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1912,7 +1912,7 @@ f
 .
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -2140,7 +2140,7 @@ f
 .
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -2383,7 +2383,7 @@ TypedArray
 Step
 8d
 .
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -3571,7 +3571,7 @@ e
 var
 mappedValue
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -3900,7 +3900,7 @@ k
 {
 accumulator
 =
-callFunction
+callContentFunction
 (
 callbackfn
 undefined
@@ -4219,7 +4219,7 @@ k
 {
 accumulator
 =
-callFunction
+callContentFunction
 (
 callbackfn
 undefined
@@ -6081,7 +6081,7 @@ iv
 var
 testResult
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -7171,7 +7171,7 @@ ii
 var
 next
 =
-callFunction
+callContentFunction
 (
 iterator
 .
@@ -7358,7 +7358,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 T
@@ -7604,7 +7604,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 T

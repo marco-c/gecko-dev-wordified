@@ -1471,6 +1471,11 @@ _
 (
 CheckObjCoercible
 )
+\
+_
+(
+DebugCheckSelfHosted
+)
 /
 /
 Forward
