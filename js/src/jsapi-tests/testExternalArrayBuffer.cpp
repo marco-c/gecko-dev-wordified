@@ -172,7 +172,6 @@ JS_DetachArrayBuffer
 (
 cx
 obj
-KeepData
 )
 ;
 GC

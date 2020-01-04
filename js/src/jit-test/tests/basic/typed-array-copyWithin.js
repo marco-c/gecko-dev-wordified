@@ -1593,11 +1593,6 @@ detachArrayBuffer
 tarray
 .
 buffer
-"
-change
--
-data
-"
 )
 ;
 return

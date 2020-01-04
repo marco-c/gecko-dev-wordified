@@ -57,11 +57,6 @@ buffer
 detachArrayBuffer
 (
 buffer
-"
-change
--
-data
-"
 )
 ;
 array

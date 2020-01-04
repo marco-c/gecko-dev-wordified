@@ -87,7 +87,6 @@ mapping
 function
 mapOneDimArrayOfUint8
 (
-dataHandling
 )
 {
 var
@@ -161,7 +160,6 @@ count
 detachArrayBuffer
 (
 buf
-dataHandling
 )
 ;
 return
@@ -205,20 +203,6 @@ summary
 ;
 mapOneDimArrayOfUint8
 (
-"
-change
--
-data
-"
-)
-;
-mapOneDimArrayOfUint8
-(
-"
-same
--
-data
-"
 )
 ;
 if

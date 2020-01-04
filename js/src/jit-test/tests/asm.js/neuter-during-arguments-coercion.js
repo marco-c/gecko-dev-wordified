@@ -137,11 +137,6 @@ valueOf
 detachArrayBuffer
 (
 buffer
-"
-same
--
-data
-"
 )
 ;
 return

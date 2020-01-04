@@ -69,7 +69,6 @@ uint32
 function
 main
 (
-variant
 )
 {
 var
@@ -144,7 +143,6 @@ y
 detachArrayBuffer
 (
 buf
-variant
 )
 ;
 return
@@ -170,19 +168,5 @@ mojo
 }
 main
 (
-"
-same
--
-data
-"
-)
-;
-main
-(
-"
-change
--
-data
-"
 )
 ;

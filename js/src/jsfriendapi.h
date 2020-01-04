@@ -13132,13 +13132,6 @@ bool
 isSharedMemory
 )
 ;
-enum
-DetachDataDisposition
-{
-ChangeData
-KeepData
-}
-;
 /
 *
 *
@@ -13193,8 +13186,6 @@ JS
 :
 HandleObject
 obj
-DetachDataDisposition
-changeData
 )
 ;
 /

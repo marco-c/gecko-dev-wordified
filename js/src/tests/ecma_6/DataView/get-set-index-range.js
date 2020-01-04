@@ -236,11 +236,6 @@ failure
 detachArrayBuffer
 (
 buffer
-'
-same
--
-data
-'
 )
 ;
 check
