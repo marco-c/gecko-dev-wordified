@@ -121,9 +121,6 @@ testedwith
 '
 3
 .
-5
-3
-.
 6
 3
 .
@@ -131,6 +128,9 @@ testedwith
 3
 .
 8
+3
+.
+9
 '
 minimumhgversion
 =
@@ -2156,6 +2156,10 @@ branch
 )
 )
         
+remote
+=
+None
+        
 try
 :
             
@@ -2409,6 +2413,10 @@ callself
 finally
 :
             
+if
+remote
+:
+                
 remote
 .
 close
