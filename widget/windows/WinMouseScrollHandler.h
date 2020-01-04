@@ -2048,6 +2048,8 @@ UINT
 aMsg
 WPARAM
 aWParam
+LPARAM
+aLParam
 )
 ;
 static
