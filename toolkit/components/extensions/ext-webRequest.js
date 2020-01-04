@@ -339,6 +339,9 @@ responseHeaders
 statusCode
 "
 "
+statusLine
+"
+"
 redirectUrl
 "
 ]
