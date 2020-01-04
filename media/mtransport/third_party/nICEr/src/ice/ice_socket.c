@@ -479,9 +479,9 @@ sock
 -
 >
 type
+!
 =
-=
-NR_ICE_SOCKET_TYPE_STREAM_TURN
+NR_ICE_SOCKET_TYPE_DGRAM
 )
 )
 {
