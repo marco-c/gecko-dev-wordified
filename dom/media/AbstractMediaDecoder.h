@@ -545,8 +545,17 @@ the
 owner
 of
 this
-media
 decoder
+or
+null
+when
+the
+decoder
+is
+shutting
+/
+/
+down
 .
 The
 owner
@@ -554,8 +563,6 @@ should
 only
 be
 used
-/
-/
 on
 the
 main

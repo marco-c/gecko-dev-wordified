@@ -743,6 +743,13 @@ MediaFormatReaderBinding
 (
 )
 {
+mDecoder
+-
+>
+Shutdown
+(
+)
+;
 }
 }
 ;
