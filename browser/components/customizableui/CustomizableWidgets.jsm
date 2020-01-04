@@ -8443,13 +8443,13 @@ bundle_browser
 let
 label
 =
-bundle
+ContextualIdentityService
 .
-getString
+getUserContextLabel
 (
 identity
 .
-label
+userContextId
 )
 ;
 let
