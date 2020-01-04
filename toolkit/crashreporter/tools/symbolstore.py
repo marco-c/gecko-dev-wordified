@@ -6787,10 +6787,6 @@ CompressionType
 =
 MSZIP
 "
-"
-/
-D
-"
                                        
 path
 compressed_file
