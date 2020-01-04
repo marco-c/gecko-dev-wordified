@@ -20161,7 +20161,10 @@ const
 /
 /
 In
-ReResolveStyleContext
+ElementRestyler
+:
+:
+Restyle
 we
 assume
 that
@@ -20280,7 +20283,10 @@ case
 the
 optimization
 in
-ReResolveStyleContext
+ElementRestyler
+:
+:
+Restyle
 is
 ok
 .
@@ -20318,7 +20324,10 @@ optimization
 /
 /
 in
-ReResolveStyleContext
+ElementRestyler
+:
+:
+Restyle
 .
 /
 /

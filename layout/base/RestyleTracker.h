@@ -2173,7 +2173,10 @@ either
 call
 /
 /
-ReResolveStyleContext
+ElementRestyler
+:
+:
+Restyle
 on
 it
 or

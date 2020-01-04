@@ -2257,10 +2257,10 @@ To
 be
 called
 from
-nsFrameManager
+RestyleManager
 :
 :
-ReResolveStyleContext
+TryStartingTransition
 when
 the
 *

@@ -297,10 +297,10 @@ style
 data
 change
 *
-nsFrameManager
+ElementRestyler
 :
 :
-ReResolveStyleContext
+Restyle
 creates
 a
 new
