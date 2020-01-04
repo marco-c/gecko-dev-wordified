@@ -4108,6 +4108,16 @@ getReservedSlot
 EnvironmentSlot
 )
 ;
+MOZ_ASSERT
+(
+!
+value
+.
+isNull
+(
+)
+)
+;
 if
 (
 value
