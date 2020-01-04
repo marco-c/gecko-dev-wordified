@@ -182,7 +182,7 @@ mozilla
 *
 *
 *
-Superclass
+Struct
 for
 data
 common
