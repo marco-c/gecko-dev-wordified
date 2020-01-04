@@ -123,6 +123,13 @@ nsSupportsArray_h__
 #
 include
 "
+nsIArray
+.
+h
+"
+#
+include
+"
 nsISupportsArray
 .
 h
