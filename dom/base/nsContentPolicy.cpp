@@ -936,6 +936,11 @@ do_QueryInterface
 docShell
 )
 ;
+if
+(
+loadContext
+)
+{
 loadContext
 -
 >
@@ -947,6 +952,7 @@ topFrameElement
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 window
