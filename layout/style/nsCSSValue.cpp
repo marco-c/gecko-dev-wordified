@@ -17647,6 +17647,13 @@ ImageValue
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 for
 (
 auto
