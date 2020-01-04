@@ -201,15 +201,6 @@ cView
 =
 inspector
 .
-sidebar
-.
-getWindowForTab
-(
-"
-computedview
-"
-)
-.
 computedview
 .
 view

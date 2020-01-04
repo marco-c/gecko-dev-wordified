@@ -185,7 +185,7 @@ valueNode
 checkColorCycling
 (
 container
-inspector
+view
 )
 ;
 info
@@ -211,7 +211,7 @@ color
 checkColorCycling
 (
 container
-inspector
+view
 )
 ;
 }
@@ -221,7 +221,7 @@ function
 checkColorCycling
 (
 container
-inspector
+view
 )
 {
 let
@@ -257,16 +257,9 @@ color
 let
 win
 =
-inspector
+view
 .
-sidebar
-.
-getWindowForTab
-(
-"
-computedview
-"
-)
+styleWindow
 ;
 /
 /
