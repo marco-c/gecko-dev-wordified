@@ -4400,6 +4400,17 @@ DetachWidget
 (
 )
 ;
+mCompositor
+-
+>
+Destroy
+(
+)
+;
+mCompositor
+=
+nullptr
+;
 }
 return
 true
