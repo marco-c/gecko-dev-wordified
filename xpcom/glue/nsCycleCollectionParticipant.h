@@ -559,6 +559,12 @@ thing
 types
 encountered
 .
+Implemented
+in
+nsCycleCollectorTraceJSHelpers
+.
+cpp
+.
 *
 /
 struct
@@ -1237,6 +1243,14 @@ override
 =
 0
 ;
+/
+/
+Implemented
+in
+nsCycleCollectorTraceJSHelpers
+.
+cpp
+.
 static
 void
 NoteJSChild
