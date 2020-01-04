@@ -216,15 +216,12 @@ mozilla
 :
 embedding
 ;
-typedef
+using
+namespace
 mozilla
 :
 :
 layout
-:
-:
-RemotePrintJobChild
-RemotePrintJobChild
 ;
 static
 StaticRefPtr
