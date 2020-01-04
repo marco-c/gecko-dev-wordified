@@ -218,6 +218,8 @@ resource
 /
 devtools
 /
+shared
+/
 event
 -
 emitter
