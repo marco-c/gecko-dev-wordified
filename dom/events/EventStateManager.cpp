@@ -16215,7 +16215,7 @@ mOverflowDeltaX
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 0
 ;
@@ -16238,7 +16238,7 @@ x
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 overflow
 .
@@ -16269,7 +16269,7 @@ width
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 static_cast
 <
@@ -16440,7 +16440,7 @@ COMPUTE_SCROLLABLE_ANCESTOR_ALONG_Y_AXIS
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 aEvent
 -
@@ -16497,7 +16497,7 @@ NS_ASSERTION
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 =
 0
@@ -16507,7 +16507,7 @@ overflowDeltaY
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 >
 0
 )
@@ -16525,7 +16525,7 @@ mDeltaY
 The
 sign
 of
-overflowDeltaY
+mOverflowDeltaY
 is
 different
 from
@@ -20224,7 +20224,7 @@ mDeltaX
 wheelEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 wheelEvent
 -
@@ -20632,7 +20632,7 @@ mDeltaX
 wheelEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 =
 wheelEvent
 -
@@ -34842,7 +34842,7 @@ index
 aEvent
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 /
 =
 mMultiplierY

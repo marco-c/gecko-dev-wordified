@@ -1154,7 +1154,7 @@ WriteParam
 aMsg
 aParam
 .
-overflowDeltaY
+mOverflowDeltaY
 )
 ;
 WriteParam
@@ -1374,7 +1374,7 @@ aIter
 aResult
 -
 >
-overflowDeltaY
+mOverflowDeltaY
 )
 &
 &

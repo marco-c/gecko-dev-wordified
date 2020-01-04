@@ -3217,7 +3217,7 @@ mOverflowDeltaX
 .
 0
 )
-overflowDeltaY
+mOverflowDeltaY
 (
 0
 .
@@ -3328,7 +3328,7 @@ mOverflowDeltaX
 .
 0
 )
-overflowDeltaY
+mOverflowDeltaY
 (
 0
 .
@@ -3981,7 +3981,7 @@ EventStateManager
 However
 mOverflowDeltaX
 and
-overflowDeltaY
+mOverflowDeltaY
 indicate
 unused
 original
@@ -4027,7 +4027,7 @@ double
 mOverflowDeltaX
 ;
 double
-overflowDeltaY
+mOverflowDeltaY
 ;
 /
 /
@@ -4238,11 +4238,11 @@ aEvent
 .
 mOverflowDeltaX
 ;
-overflowDeltaY
+mOverflowDeltaY
 =
 aEvent
 .
-overflowDeltaY
+mOverflowDeltaY
 ;
 mViewPortIsOverscrolled
 =
