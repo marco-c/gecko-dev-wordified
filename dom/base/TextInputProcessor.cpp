@@ -1384,7 +1384,7 @@ rv
 dispatcher
 -
 >
-BeginInputTransactionForTests
+BeginTestInputTransaction
 (
 this
 )
