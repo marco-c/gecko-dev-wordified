@@ -104,7 +104,6 @@ let
 {
 OverviewView
 DetailsView
-JITOptimizationsView
 JsCallTreeView
 RecordingsView
 }
