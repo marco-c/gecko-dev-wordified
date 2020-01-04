@@ -2272,7 +2272,7 @@ public
 /
 /
 Constructor
-expecing
+expecting
 a
 valid
 media
