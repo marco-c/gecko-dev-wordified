@@ -2195,6 +2195,12 @@ eAllowTimeToGoBackwards
 <
 <
 1
+eNeverAdjustTimer
+=
+1
+<
+<
+2
 }
 ;
 void
