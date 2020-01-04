@@ -138,6 +138,18 @@ recursivemake
 '
     
 '
+Tup
+'
+:
+'
+mozbuild
+.
+backend
+.
+tup
+'
+    
+'
 VisualStudio
 '
 :
