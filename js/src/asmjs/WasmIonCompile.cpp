@@ -19388,7 +19388,10 @@ IonOptimizations
 .
 get
 (
-Optimization_AsmJS
+OptimizationLevel
+:
+:
+AsmJS
 )
 args
 .
