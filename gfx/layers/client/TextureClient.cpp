@@ -3723,7 +3723,7 @@ TextureClient
 :
 SetRecycleAllocator
 (
-TextureClientRecycleAllocator
+ITextureClientRecycleAllocator
 *
 aAllocator
 )

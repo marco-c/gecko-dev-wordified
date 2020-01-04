@@ -167,6 +167,9 @@ mozilla
 class
 TrackInfo
 ;
+class
+VideoData
+;
 /
 *
 *

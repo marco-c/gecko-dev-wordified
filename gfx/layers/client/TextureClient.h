@@ -472,7 +472,7 @@ class
 TextureClient
 ;
 class
-TextureClientRecycleAllocator
+ITextureClientRecycleAllocator
 ;
 #
 ifdef
@@ -3465,7 +3465,7 @@ return
 mAllocator
 ;
 }
-TextureClientRecycleAllocator
+ITextureClientRecycleAllocator
 *
 GetRecycleAllocator
 (
@@ -3478,7 +3478,7 @@ mRecycleAllocator
 void
 SetRecycleAllocator
 (
-TextureClientRecycleAllocator
+ITextureClientRecycleAllocator
 *
 aAllocator
 )
@@ -3710,7 +3710,7 @@ mActor
 ;
 RefPtr
 <
-TextureClientRecycleAllocator
+ITextureClientRecycleAllocator
 >
 mRecycleAllocator
 ;
