@@ -1257,7 +1257,7 @@ GetAsGecko
 (
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 geckoStyleSet
