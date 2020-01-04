@@ -3500,9 +3500,13 @@ get
 }
 else
 {
-JS_ReportPendingException
+MOZ_ASSERT
+(
+!
+JS_IsExceptionPending
 (
 aCx
+)
 )
 ;
 }
