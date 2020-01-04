@@ -2037,9 +2037,6 @@ Value
 vp
 )
 {
-#
-ifdef
-DEBUG
 CallArgs
 args
 =
@@ -2049,6 +2046,9 @@ argc
 vp
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 args
