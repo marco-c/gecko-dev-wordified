@@ -217,11 +217,12 @@ HasRules
 const
 {
 return
+mSheet
+&
+&
 Servo_StyleSheet_HasRules
 (
-RawSheet
-(
-)
+mSheet
 )
 ;
 }

@@ -7156,6 +7156,8 @@ aReferrerPolicy
 ;
 StyleSheetHandle
 completeSheet
+=
+nullptr
 ;
 mSheets
 -
