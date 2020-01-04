@@ -7762,6 +7762,17 @@ FLAG_DECODE_COMPLETE
 |
 FLAG_ONLOAD_UNBLOCKED
 ;
+if
+(
+mHaveAnimations
+)
+{
+progress
+|
+=
+FLAG_IS_ANIMATED
+;
+}
 /
 /
 Merge
