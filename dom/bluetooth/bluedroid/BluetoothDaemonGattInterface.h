@@ -2522,6 +2522,12 @@ ServerConnectionInitOp
 class
 ServerRequestWriteInitOp
 ;
+class
+ServerCharacteristicAddedInitOp
+;
+class
+ServerDescriptorAddedInitOp
+;
 void
 ClientRegisterNtf
 (
