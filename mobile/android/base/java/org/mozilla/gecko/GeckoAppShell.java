@@ -4907,6 +4907,12 @@ String
 aURI
 )
 {
+ThreadUtils
+.
+assertOnBackgroundThread
+(
+)
+;
 final
 BrowserDB
 db
