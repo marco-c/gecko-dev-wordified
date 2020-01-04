@@ -1620,7 +1620,6 @@ stackObject
 cx
 ExceptionStackOrNull
 (
-cx
 exceptionObject
 )
 )
