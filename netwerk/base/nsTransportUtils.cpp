@@ -281,7 +281,10 @@ trouble
 NS_ProxyRelease
 (
 mTarget
+dont_AddRef
+(
 mSink
+)
 )
 ;
 }
