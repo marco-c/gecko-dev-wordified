@@ -3795,15 +3795,6 @@ AsmJSModule
 Global
 :
 :
-SharedArrayView
-:
-case
-AsmJSModule
-:
-:
-Global
-:
-:
 ArrayViewCtor
 :
 if
