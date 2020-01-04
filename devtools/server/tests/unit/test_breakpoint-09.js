@@ -123,6 +123,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

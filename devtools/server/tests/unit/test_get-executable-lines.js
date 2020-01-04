@@ -129,6 +129,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 _onConnect
 (

@@ -898,6 +898,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

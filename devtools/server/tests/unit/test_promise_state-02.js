@@ -92,6 +92,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

@@ -2731,11 +2731,14 @@ _client
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =
 >
-{
 this
 .
 _client
@@ -2749,6 +2752,7 @@ this
 .
 tab
 }
+)
 )
 .
 then
@@ -2767,9 +2771,6 @@ tab
 ;
 attachTab
 (
-)
-;
-}
 )
 ;
 }

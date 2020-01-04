@@ -2167,6 +2167,10 @@ _client
 .
 connect
 (
+)
+.
+then
+(
 this
 .
 _onConnected

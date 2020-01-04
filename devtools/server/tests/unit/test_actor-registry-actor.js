@@ -148,6 +148,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 getRegistry
 )
 ;
