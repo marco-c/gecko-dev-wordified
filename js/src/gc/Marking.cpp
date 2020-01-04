@@ -17205,7 +17205,7 @@ T
 bool
 IsMarked
 (
-ReadBarriered
+ReadBarrieredBase
 <
 T
 >
@@ -17290,7 +17290,7 @@ T
 bool
 IsAboutToBeFinalized
 (
-ReadBarriered
+ReadBarrieredBase
 <
 T
 >
@@ -17368,7 +17368,7 @@ IsMarked
 type
 >
 (
-ReadBarriered
+ReadBarrieredBase
 <
 type
 >
@@ -17410,7 +17410,7 @@ IsAboutToBeFinalized
 type
 >
 (
-ReadBarriered
+ReadBarrieredBase
 <
 type
 >
