@@ -4831,6 +4831,16 @@ mLoadFlags
 &
 LOAD_DOCUMENT_URI
 ;
+nsContentPolicyType
+type
+=
+mLoadInfo
+-
+>
+InternalContentPolicyType
+(
+)
+;
 nsresult
 rv
 =
@@ -4841,6 +4851,7 @@ ShouldPrepareForIntercept
 (
 mAppURI
 isNavigation
+type
 &
 shouldIntercept
 )

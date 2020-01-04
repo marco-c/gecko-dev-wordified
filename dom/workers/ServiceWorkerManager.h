@@ -1285,6 +1285,8 @@ nsIInterceptedChannel
 aChannel
 bool
 aIsReload
+bool
+aIsSubresourceLoad
 ErrorResult
 &
 aRv

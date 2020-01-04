@@ -12887,6 +12887,16 @@ controller
 mForceNoIntercept
 )
 {
+nsContentPolicyType
+type
+=
+mLoadInfo
+-
+>
+InternalContentPolicyType
+(
+)
+;
 nsresult
 rv
 =
@@ -12899,6 +12909,7 @@ mURI
 IsNavigation
 (
 )
+type
 &
 shouldIntercept
 )

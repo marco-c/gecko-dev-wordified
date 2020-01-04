@@ -15501,6 +15501,14 @@ JSObject
 aObj
 )
 ;
+static
+bool
+IsWorkerLoad
+(
+nsContentPolicyType
+aLoadType
+)
+;
 /
 /
 The
