@@ -3441,7 +3441,7 @@ compatible
 }
 }
 ;
-nsresult
+void
 RegisterStaticAtoms
 (
 const
@@ -3700,9 +3700,6 @@ atom
 ;
 }
 }
-return
-NS_OK
-;
 }
 already_AddRefed
 <
