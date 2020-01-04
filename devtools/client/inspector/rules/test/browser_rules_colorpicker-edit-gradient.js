@@ -474,7 +474,7 @@ color
 info
 (
 "
-Getting
+Get
 the
 color
 picker
@@ -555,6 +555,9 @@ rgb
 )
 25
 %
+"
++
+"
 rgb
 (
 51

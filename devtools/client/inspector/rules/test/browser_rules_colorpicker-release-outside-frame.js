@@ -417,10 +417,6 @@ dragger
 10
 10
 {
-button
-:
--
-1
 /
 /
 -
@@ -431,6 +427,10 @@ buttons
 are
 pressed
 down
+button
+:
+-
+1
 type
 :
 "

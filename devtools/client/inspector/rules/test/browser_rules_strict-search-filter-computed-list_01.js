@@ -150,6 +150,9 @@ works
 properly
 in
 the
+"
++
+"
 computed
 list
 for
@@ -199,6 +202,9 @@ works
 properly
 in
 the
+"
++
+"
 computed
 list
 for
@@ -246,6 +252,9 @@ works
 properly
 in
 the
+"
++
+"
 computed
 list
 for
@@ -297,6 +306,9 @@ works
 properly
 in
 the
+"
++
+"
 computed
 list
 for
@@ -346,6 +358,9 @@ works
 properly
 in
 the
+"
++
+"
 computed
 list
 for
@@ -413,6 +428,9 @@ and
 non
 -
 strict
+"
++
+"
 property
 value
 "
@@ -476,6 +494,9 @@ and
 non
 -
 strict
+"
++
+"
 property
 name
 "
