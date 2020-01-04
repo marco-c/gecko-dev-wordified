@@ -37565,7 +37565,7 @@ mDisplayPanFeedback
 =
 gestureNotifyEvent
 .
-displayPanFeedback
+mDisplayPanFeedback
 ;
 if
 (

@@ -17272,7 +17272,7 @@ chain
 aEvent
 -
 >
-displayPanFeedback
+mDisplayPanFeedback
 =
 displayPanFeedback
 ;
