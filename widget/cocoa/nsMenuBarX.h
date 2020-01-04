@@ -803,7 +803,10 @@ inMenu
 ;
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsMenuX
 >
