@@ -8770,6 +8770,13 @@ manifest
 .
 precompile
 "
+"
+manifest
+.
+role
+.
+homescreen
+"
 #
 endif
 }
