@@ -2395,9 +2395,6 @@ ssl_auth_null
 if
 (
 data
-&
-&
-data
 -
 >
 authType
