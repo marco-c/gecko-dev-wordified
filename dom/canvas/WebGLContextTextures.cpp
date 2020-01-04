@@ -1728,7 +1728,7 @@ Nullable
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 >
 &
 maybeView
@@ -2130,7 +2130,7 @@ Nullable
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 >
 &
 maybeView
@@ -2519,7 +2519,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 &
 view
 )
@@ -2613,7 +2613,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 &
 view
 )
