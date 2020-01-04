@@ -1,6 +1,0 @@
-/
-/
-Useless
-service
-worker
-.
