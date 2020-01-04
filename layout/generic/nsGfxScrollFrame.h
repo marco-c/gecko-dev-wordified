@@ -3930,6 +3930,11 @@ aEvent
 AsyncScrollEventType
 mAsyncScrollEvent
 ;
+bool
+HasPluginFrames
+(
+)
+;
 static
 void
 EnsureImageVisPrefsCached
