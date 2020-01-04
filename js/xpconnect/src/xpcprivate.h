@@ -4139,7 +4139,7 @@ js
 :
 ScriptEnvironmentPreparer
 {
-bool
+void
 invoke
 (
 JS
