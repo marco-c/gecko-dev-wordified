@@ -8886,7 +8886,6 @@ test_name
 )
 :
         
-if
 self
 .
 _send_message
@@ -8902,8 +8901,7 @@ value
 test_name
 }
 )
-:
-            
+        
 self
 .
 _test_name
