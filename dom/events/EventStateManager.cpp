@@ -34455,6 +34455,17 @@ WidgetWheelEvent
 aEvent
 )
 {
+if
+(
+aEvent
+-
+>
+customizedByUserPrefs
+)
+{
+return
+;
+}
 Index
 index
 =
