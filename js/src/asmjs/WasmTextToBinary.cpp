@@ -14826,6 +14826,11 @@ Float
 result
 )
 {
+*
+result
+=
+0
+;
 switch
 (
 token
