@@ -1426,6 +1426,11 @@ mDisallowSelectionPrint
 aDisallowSelectionPrint
 ;
 }
+bool
+MayHavePluginFrames
+(
+)
+;
 protected
 :
 ~
