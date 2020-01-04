@@ -76,7 +76,7 @@ tool
 1
 .
 Create
-boolean
+count
 flag
 and
 exponential
@@ -144,7 +144,7 @@ mytoolname
 histogram
 :
 "
-DEVTOOLS_MYTOOLNAME_OPENED_BOOLEAN
+DEVTOOLS_MYTOOLNAME_OPENED_COUNT
 "
 *
 userHistogram
@@ -507,7 +507,7 @@ toolbox
 histogram
 :
 "
-DEVTOOLS_TOOLBOX_OPENED_BOOLEAN
+DEVTOOLS_TOOLBOX_OPENED_COUNT
 "
 userHistogram
 :
@@ -526,7 +526,7 @@ options
 histogram
 :
 "
-DEVTOOLS_OPTIONS_OPENED_BOOLEAN
+DEVTOOLS_OPTIONS_OPENED_COUNT
 "
 userHistogram
 :
@@ -545,7 +545,7 @@ webconsole
 histogram
 :
 "
-DEVTOOLS_WEBCONSOLE_OPENED_BOOLEAN
+DEVTOOLS_WEBCONSOLE_OPENED_COUNT
 "
 userHistogram
 :
@@ -564,7 +564,7 @@ browserconsole
 histogram
 :
 "
-DEVTOOLS_BROWSERCONSOLE_OPENED_BOOLEAN
+DEVTOOLS_BROWSERCONSOLE_OPENED_COUNT
 "
 userHistogram
 :
@@ -583,7 +583,7 @@ inspector
 histogram
 :
 "
-DEVTOOLS_INSPECTOR_OPENED_BOOLEAN
+DEVTOOLS_INSPECTOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -602,7 +602,7 @@ ruleview
 histogram
 :
 "
-DEVTOOLS_RULEVIEW_OPENED_BOOLEAN
+DEVTOOLS_RULEVIEW_OPENED_COUNT
 "
 userHistogram
 :
@@ -621,7 +621,7 @@ computedview
 histogram
 :
 "
-DEVTOOLS_COMPUTEDVIEW_OPENED_BOOLEAN
+DEVTOOLS_COMPUTEDVIEW_OPENED_COUNT
 "
 userHistogram
 :
@@ -640,7 +640,7 @@ layoutview
 histogram
 :
 "
-DEVTOOLS_LAYOUTVIEW_OPENED_BOOLEAN
+DEVTOOLS_LAYOUTVIEW_OPENED_COUNT
 "
 userHistogram
 :
@@ -659,7 +659,7 @@ fontinspector
 histogram
 :
 "
-DEVTOOLS_FONTINSPECTOR_OPENED_BOOLEAN
+DEVTOOLS_FONTINSPECTOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -678,7 +678,7 @@ animationinspector
 histogram
 :
 "
-DEVTOOLS_ANIMATIONINSPECTOR_OPENED_BOOLEAN
+DEVTOOLS_ANIMATIONINSPECTOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -697,7 +697,7 @@ jsdebugger
 histogram
 :
 "
-DEVTOOLS_JSDEBUGGER_OPENED_BOOLEAN
+DEVTOOLS_JSDEBUGGER_OPENED_COUNT
 "
 userHistogram
 :
@@ -716,7 +716,7 @@ jsbrowserdebugger
 histogram
 :
 "
-DEVTOOLS_JSBROWSERDEBUGGER_OPENED_BOOLEAN
+DEVTOOLS_JSBROWSERDEBUGGER_OPENED_COUNT
 "
 userHistogram
 :
@@ -735,7 +735,7 @@ styleeditor
 histogram
 :
 "
-DEVTOOLS_STYLEEDITOR_OPENED_BOOLEAN
+DEVTOOLS_STYLEEDITOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -754,7 +754,7 @@ shadereditor
 histogram
 :
 "
-DEVTOOLS_SHADEREDITOR_OPENED_BOOLEAN
+DEVTOOLS_SHADEREDITOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -773,7 +773,7 @@ webaudioeditor
 histogram
 :
 "
-DEVTOOLS_WEBAUDIOEDITOR_OPENED_BOOLEAN
+DEVTOOLS_WEBAUDIOEDITOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -792,7 +792,7 @@ canvasdebugger
 histogram
 :
 "
-DEVTOOLS_CANVASDEBUGGER_OPENED_BOOLEAN
+DEVTOOLS_CANVASDEBUGGER_OPENED_COUNT
 "
 userHistogram
 :
@@ -811,7 +811,7 @@ performance
 histogram
 :
 "
-DEVTOOLS_JSPROFILER_OPENED_BOOLEAN
+DEVTOOLS_JSPROFILER_OPENED_COUNT
 "
 userHistogram
 :
@@ -830,7 +830,7 @@ memory
 histogram
 :
 "
-DEVTOOLS_MEMORY_OPENED_BOOLEAN
+DEVTOOLS_MEMORY_OPENED_COUNT
 "
 userHistogram
 :
@@ -849,7 +849,7 @@ netmonitor
 histogram
 :
 "
-DEVTOOLS_NETMONITOR_OPENED_BOOLEAN
+DEVTOOLS_NETMONITOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -868,7 +868,7 @@ storage
 histogram
 :
 "
-DEVTOOLS_STORAGE_OPENED_BOOLEAN
+DEVTOOLS_STORAGE_OPENED_COUNT
 "
 userHistogram
 :
@@ -887,7 +887,7 @@ tilt
 histogram
 :
 "
-DEVTOOLS_TILT_OPENED_BOOLEAN
+DEVTOOLS_TILT_OPENED_COUNT
 "
 userHistogram
 :
@@ -906,7 +906,7 @@ paintflashing
 histogram
 :
 "
-DEVTOOLS_PAINTFLASHING_OPENED_BOOLEAN
+DEVTOOLS_PAINTFLASHING_OPENED_COUNT
 "
 userHistogram
 :
@@ -925,7 +925,7 @@ scratchpad
 histogram
 :
 "
-DEVTOOLS_SCRATCHPAD_OPENED_BOOLEAN
+DEVTOOLS_SCRATCHPAD_OPENED_COUNT
 "
 userHistogram
 :
@@ -948,7 +948,7 @@ window
 histogram
 :
 "
-DEVTOOLS_SCRATCHPAD_WINDOW_OPENED_BOOLEAN
+DEVTOOLS_SCRATCHPAD_WINDOW_OPENED_COUNT
 "
 userHistogram
 :
@@ -967,7 +967,7 @@ responsive
 histogram
 :
 "
-DEVTOOLS_RESPONSIVE_OPENED_BOOLEAN
+DEVTOOLS_RESPONSIVE_OPENED_COUNT
 "
 userHistogram
 :
@@ -986,7 +986,7 @@ eyedropper
 histogram
 :
 "
-DEVTOOLS_EYEDROPPER_OPENED_BOOLEAN
+DEVTOOLS_EYEDROPPER_OPENED_COUNT
 "
 userHistogram
 :
@@ -1000,7 +1000,7 @@ menueyedropper
 histogram
 :
 "
-DEVTOOLS_MENU_EYEDROPPER_OPENED_BOOLEAN
+DEVTOOLS_MENU_EYEDROPPER_OPENED_COUNT
 "
 userHistogram
 :
@@ -1014,7 +1014,7 @@ pickereyedropper
 histogram
 :
 "
-DEVTOOLS_PICKER_EYEDROPPER_OPENED_BOOLEAN
+DEVTOOLS_PICKER_EYEDROPPER_OPENED_COUNT
 "
 userHistogram
 :
@@ -1028,7 +1028,7 @@ developertoolbar
 histogram
 :
 "
-DEVTOOLS_DEVELOPERTOOLBAR_OPENED_BOOLEAN
+DEVTOOLS_DEVELOPERTOOLBAR_OPENED_COUNT
 "
 userHistogram
 :
@@ -1047,7 +1047,7 @@ aboutdebugging
 histogram
 :
 "
-DEVTOOLS_ABOUTDEBUGGING_OPENED_BOOLEAN
+DEVTOOLS_ABOUTDEBUGGING_OPENED_COUNT
 "
 userHistogram
 :
@@ -1066,7 +1066,7 @@ webide
 histogram
 :
 "
-DEVTOOLS_WEBIDE_OPENED_BOOLEAN
+DEVTOOLS_WEBIDE_OPENED_COUNT
 "
 userHistogram
 :
@@ -1085,7 +1085,7 @@ webideProjectEditor
 histogram
 :
 "
-DEVTOOLS_WEBIDE_PROJECT_EDITOR_OPENED_BOOLEAN
+DEVTOOLS_WEBIDE_PROJECT_EDITOR_OPENED_COUNT
 "
 userHistogram
 :
@@ -1104,7 +1104,7 @@ webideProjectEditorSave
 histogram
 :
 "
-DEVTOOLS_WEBIDE_PROJECT_EDITOR_SAVE_BOOLEAN
+DEVTOOLS_WEBIDE_PROJECT_EDITOR_SAVE_COUNT
 "
 userHistogram
 :
@@ -1118,7 +1118,7 @@ webideNewProject
 histogram
 :
 "
-DEVTOOLS_WEBIDE_NEW_PROJECT_BOOLEAN
+DEVTOOLS_WEBIDE_NEW_PROJECT_COUNT
 "
 userHistogram
 :
@@ -1132,7 +1132,7 @@ webideImportProject
 histogram
 :
 "
-DEVTOOLS_WEBIDE_IMPORT_PROJECT_BOOLEAN
+DEVTOOLS_WEBIDE_IMPORT_PROJECT_COUNT
 "
 userHistogram
 :
@@ -1146,7 +1146,7 @@ custom
 histogram
 :
 "
-DEVTOOLS_CUSTOM_OPENED_BOOLEAN
+DEVTOOLS_CUSTOM_OPENED_COUNT
 "
 userHistogram
 :

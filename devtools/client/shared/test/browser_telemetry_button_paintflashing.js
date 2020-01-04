@@ -545,7 +545,7 @@ histId
 endsWith
 (
 "
-OPENED_BOOLEAN
+OPENED_COUNT
 "
 )
 )
