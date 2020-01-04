@@ -612,10 +612,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 idValue
@@ -3521,10 +3518,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 idValue
@@ -5096,10 +5090,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 args
