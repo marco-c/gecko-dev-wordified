@@ -8042,9 +8042,7 @@ attached
 to
 asyncStack_
 .
-const
-char
-*
+RootedString
 asyncCause_
 ;
 /
@@ -8379,13 +8377,11 @@ return
 asyncStack_
 ;
 }
-const
-char
+JSString
 *
 asyncCause
 (
 )
-const
 {
 return
 asyncCause_
