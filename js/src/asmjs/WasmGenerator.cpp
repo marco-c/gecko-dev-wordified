@@ -2224,6 +2224,9 @@ whole
 module
 masm
 .
+mozilla
+:
+:
 DebugOnly
 <
 size_t
