@@ -3703,6 +3703,17 @@ nsAString
 aOutput
 )
 ;
+#
+ifdef
+ACCESSIBILITY
+static
+void
+SetAPCPending
+(
+)
+;
+#
+endif
 private
 :
 typedef
