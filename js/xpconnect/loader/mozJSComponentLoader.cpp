@@ -4755,15 +4755,13 @@ scriptStream
 ;
 rv
 =
+NS_MaybeOpenChannelUsingOpen2
+(
 aInfo
 .
 ScriptChannel
 (
 )
--
->
-Open
-(
 getter_AddRefs
 (
 scriptStream
