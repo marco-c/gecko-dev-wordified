@@ -2381,6 +2381,8 @@ getTabURI
 (
 t
 )
+{
+return
 t
 .
 linkedBrowser
@@ -2389,6 +2391,7 @@ currentURI
 .
 spec
 ;
+}
 /
 /
 FIXME

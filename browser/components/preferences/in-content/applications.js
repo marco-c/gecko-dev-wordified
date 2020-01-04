@@ -3347,10 +3347,9 @@ disabledPluginTypes
 .
 filter
 (
-function
-(
 v
-)
+=
+>
 v
 !
 =
@@ -12219,10 +12218,9 @@ possibleAppMenuItems
 .
 filter
 (
-function
-(
 v
-)
+=
+>
 v
 .
 handlerApp
