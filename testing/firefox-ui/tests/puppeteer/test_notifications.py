@@ -81,6 +81,8 @@ import
 (
     
 AddOnInstallFailedNotification
+    
+AddOnInstallConfirmationNotification
 )
 class
 TestNotifications
@@ -247,7 +249,7 @@ self
 trigger_addon_notification
 (
 '
-restartless_addon_unsigned
+restartless_addon_signed
 .
 xpi
 '
@@ -410,7 +412,7 @@ self
 trigger_addon_notification
 (
 '
-restartless_addon_unsigned
+restartless_addon_signed
 .
 xpi
 '
@@ -496,16 +498,6 @@ notification
 .
 label
 )
-        
-self
-.
-browser
-.
-notification
-.
-close
-(
-)
     
 def
 test_addon_install_failed_notification
@@ -562,34 +554,16 @@ self
 .
 trigger_addon_notification
 (
+            
 '
 restartless_addon_unsigned
 .
 xpi
 '
-)
-        
-self
-.
-assertIsInstance
-(
-self
-.
-browser
-.
+            
 notification
-                              
+=
 AddOnInstallFailedNotification
-)
-        
-self
-.
-browser
-.
-notification
-.
-close
-(
 )
     
 def
@@ -597,6 +571,9 @@ trigger_addon_notification
 (
 self
 addon
+notification
+=
+AddOnInstallConfirmationNotification
 )
 :
         
@@ -646,4 +623,5 @@ browser
 .
 wait_for_notification
 (
+notification
 )
