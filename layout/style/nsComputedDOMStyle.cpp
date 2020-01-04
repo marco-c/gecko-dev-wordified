@@ -2614,6 +2614,10 @@ nsCSSPseudoElements
 GetPseudoType
 (
 aPseudo
+CSSEnabledState
+:
+:
+eIgnoreEnabledState
 )
 ;
 if
