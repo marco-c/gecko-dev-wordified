@@ -834,8 +834,6 @@ MediaDecoderReaderWrapper
 :
 MediaDecoderReaderWrapper
 (
-bool
-aIsRealTime
 AbstractThread
 *
 aOwnerThread
@@ -846,9 +844,6 @@ aReader
 :
 mForceZeroStartTime
 (
-aIsRealTime
-|
-|
 aReader
 -
 >

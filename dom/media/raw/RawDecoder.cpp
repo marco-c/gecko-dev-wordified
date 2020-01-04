@@ -99,7 +99,6 @@ RawReader
 (
 this
 )
-true
 )
 ;
 }
