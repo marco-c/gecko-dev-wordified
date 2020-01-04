@@ -2219,6 +2219,12 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+static
+void
+DirtyCallback
+(
+)
+;
 protected
 :
 virtual
@@ -2334,6 +2340,9 @@ nsCOMPtr
 nsIFile
 >
 mCurrentFile
+;
+bool
+mDirty
 ;
 static
 Preferences
