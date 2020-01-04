@@ -1973,6 +1973,12 @@ aWheelEvent
 .
 isMomentum
 )
+mAllowToOverrideSystemScrollSpeed
+(
+aWheelEvent
+.
+mAllowToOverrideSystemScrollSpeed
+)
 {
 mOrigin
 =
@@ -2104,6 +2110,12 @@ wheelEvent
 lineOrPageDeltaY
 =
 mLineOrPageDeltaY
+;
+wheelEvent
+.
+mAllowToOverrideSystemScrollSpeed
+=
+mAllowToOverrideSystemScrollSpeed
 ;
 wheelEvent
 .
