@@ -15763,9 +15763,7 @@ selection
 root
 content
 .
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 IMEStateManager
 :
@@ -15779,7 +15777,6 @@ imeSelection
 getter_AddRefs
 (
 imeRoot
-)
 )
 )
 )

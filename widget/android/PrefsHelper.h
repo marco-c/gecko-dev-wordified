@@ -1637,9 +1637,7 @@ nameRef
 )
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 Preferences
 :
@@ -1656,7 +1654,6 @@ ToCString
 .
 get
 (
-)
 )
 )
 )
@@ -1757,9 +1754,7 @@ nameRef
 )
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 Preferences
 :
@@ -1776,7 +1771,6 @@ ToCString
 .
 get
 (
-)
 )
 )
 )

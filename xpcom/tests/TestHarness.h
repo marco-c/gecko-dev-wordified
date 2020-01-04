@@ -714,9 +714,7 @@ if
 os
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -736,11 +734,8 @@ teardown
 nullptr
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -758,11 +753,8 @@ teardown
 nullptr
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -780,11 +772,8 @@ change
 nullptr
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -800,7 +789,6 @@ before
 change2
 "
 nullptr
-)
 )
 )
 ;

@@ -6327,9 +6327,7 @@ spec
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -6338,7 +6336,6 @@ getter_AddRefs
 a_uri
 )
 spec
-)
 )
 )
 ;
@@ -6386,9 +6383,7 @@ spec
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -6397,7 +6392,6 @@ getter_AddRefs
 b_uri
 )
 spec
-)
 )
 )
 ;

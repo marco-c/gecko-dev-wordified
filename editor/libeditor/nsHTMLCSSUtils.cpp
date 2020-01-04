@@ -3202,9 +3202,7 @@ and
 that
 one
 only
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 cssDecl
 -
@@ -3216,7 +3214,6 @@ nsDependentAtomString
 aProperty
 )
 aValue
-)
 )
 )
 ;

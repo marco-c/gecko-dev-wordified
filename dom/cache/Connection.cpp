@@ -216,13 +216,10 @@ NS_ASSERT_OWNINGTHREAD
 Connection
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 Close
 (
-)
 )
 )
 ;
@@ -280,9 +277,7 @@ guaranteed
 to
 succeed
 .
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 db
 :
@@ -290,7 +285,6 @@ db
 IncrementalVacuum
 (
 this
-)
 )
 )
 ;

@@ -3064,9 +3064,7 @@ isMutable
 }
 else
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 blobImpl
 -
@@ -3074,7 +3072,6 @@ blobImpl
 SetMutable
 (
 false
-)
 )
 )
 ;
@@ -3299,9 +3296,7 @@ return
 nullptr
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 blobImpl
 -
@@ -3309,7 +3304,6 @@ blobImpl
 SetMutable
 (
 false
-)
 )
 )
 ;
@@ -3622,9 +3616,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 blobImpl
 -
@@ -3632,7 +3624,6 @@ blobImpl
 SetMutable
 (
 false
-)
 )
 )
 ;

@@ -2320,9 +2320,7 @@ NS_OK
 nsString
 type
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 internalEvent
 -
@@ -2330,7 +2328,6 @@ internalEvent
 GetType
 (
 type
-)
 )
 )
 ;
@@ -5380,9 +5377,7 @@ mState
 State_Initial
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mBackgroundThread
 -
@@ -5391,7 +5386,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -6056,9 +6050,7 @@ mState
 =
 State_UnblockingOpen
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mBackgroundThread
 -
@@ -6067,7 +6059,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;

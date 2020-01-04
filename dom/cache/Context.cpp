@@ -1058,9 +1058,7 @@ mState
 =
 STATE_COMPLETING
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mInitiatingThread
 -
@@ -1072,7 +1070,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -2505,9 +2502,7 @@ mState
 =
 STATE_CREATE_QUOTA_MANAGER
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mInitiatingThread
 -
@@ -2519,7 +2514,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -2830,9 +2824,7 @@ mState
 =
 STATE_RUN_ON_TARGET
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mTarget
 -
@@ -2844,7 +2836,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -2985,14 +2976,11 @@ Result
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 CreateMarkerFile
 (
 mQuotaInfo
-)
 )
 )
 ;
@@ -3557,9 +3545,7 @@ target
 thread
 again
 .
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mTarget
 -
@@ -3571,7 +3557,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -4446,9 +4431,7 @@ this
 invariant
 violation
 .
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mInitiatingThread
 -
@@ -4460,7 +4443,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -4643,9 +4625,7 @@ ThreadsafeHandle
 AllowToCloseOnOwningThread
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -4657,7 +4637,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -4727,9 +4706,7 @@ ThreadsafeHandle
 InvalidateAndAllowToCloseOnOwningThread
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -4741,7 +4718,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -4904,9 +4880,7 @@ Context
 Release
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -4918,7 +4892,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -5860,14 +5833,11 @@ mDir
 mOrphanedData
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 DeleteMarkerFile
 (
 mQuotaInfo
-)
 )
 )
 ;

@@ -1914,9 +1914,7 @@ if
 os
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -1926,7 +1924,6 @@ AddObserver
 this
 TOPIC_PROFILE_CHANGE
 false
-)
 )
 )
 ;
@@ -1978,9 +1975,7 @@ if
 os
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -1989,7 +1984,6 @@ RemoveObserver
 (
 this
 aTopic
-)
 )
 )
 ;

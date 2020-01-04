@@ -758,9 +758,7 @@ index
 =
 defaultIndex
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 options
 -
@@ -772,7 +770,6 @@ this
 true
 &
 index
-)
 )
 )
 ;

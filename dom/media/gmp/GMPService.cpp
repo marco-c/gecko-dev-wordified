@@ -1681,9 +1681,7 @@ MOZ_ASSERT
 obsService
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 obsService
 -
@@ -1693,7 +1691,6 @@ AddObserver
 this
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 false
-)
 )
 )
 ;

@@ -2087,9 +2087,7 @@ NoteClosedRunnable
 this
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -2101,7 +2099,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -2161,9 +2158,7 @@ ForgetRunnable
 this
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -2175,7 +2170,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;

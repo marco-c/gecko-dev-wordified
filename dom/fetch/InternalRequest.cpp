@@ -1598,9 +1598,7 @@ nsILoadInfo
 >
 loadInfo
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aChannel
 -
@@ -1610,7 +1608,6 @@ GetLoadInfo
 getter_AddRefs
 (
 loadInfo
-)
 )
 )
 )
@@ -1675,9 +1672,7 @@ Same_origin
 uint32_t
 securityMode
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 loadInfo
 -
@@ -1686,7 +1681,6 @@ GetSecurityMode
 (
 &
 securityMode
-)
 )
 )
 ;
@@ -1821,9 +1815,7 @@ aChannel
 uint32_t
 corsMode
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 httpChannel
 -
@@ -1832,7 +1824,6 @@ GetCorsMode
 (
 &
 corsMode
-)
 )
 )
 ;
@@ -1897,9 +1888,7 @@ nsILoadInfo
 >
 loadInfo
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aChannel
 -
@@ -1912,14 +1901,11 @@ loadInfo
 )
 )
 )
-)
 ;
 uint32_t
 securityMode
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 loadInfo
 -
@@ -1928,7 +1914,6 @@ GetSecurityMode
 (
 &
 securityMode
-)
 )
 )
 ;

@@ -2932,14 +2932,11 @@ this
 data
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_DispatchToCurrentThread
 (
 mPostMessageRunnable
-)
 )
 )
 ;

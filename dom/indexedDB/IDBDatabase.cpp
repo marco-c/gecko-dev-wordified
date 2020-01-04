@@ -1355,9 +1355,7 @@ mObserver
 kMemoryPressureObserverTopic
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 obsSvc
 -
@@ -1366,7 +1364,6 @@ RemoveObserver
 (
 mObserver
 kWindowObserverTopic
-)
 )
 )
 ;
@@ -5258,14 +5255,11 @@ runnable
 )
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_DispatchToCurrentThread
 (
 runnable
-)
 )
 )
 ;
@@ -6418,9 +6412,7 @@ supportsInt
 uint64_t
 windowId
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 supportsInt
 -
@@ -6429,7 +6421,6 @@ GetData
 (
 &
 windowId
-)
 )
 )
 ;

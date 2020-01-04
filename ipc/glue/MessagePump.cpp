@@ -1269,13 +1269,10 @@ multiple
 times
 simultaneously
 .
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 Run
 (
-)
 )
 )
 ;
