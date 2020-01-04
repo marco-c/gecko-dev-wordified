@@ -830,6 +830,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+TextureFlags
+aFlags
 )
 ;
 /
