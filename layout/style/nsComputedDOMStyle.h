@@ -2751,6 +2751,14 @@ DoGetTextSizeAdjust
 (
 )
 ;
+already_AddRefed
+<
+CSSValue
+>
+DoGetWebkitTextFillColor
+(
+)
+;
 /
 *
 Visibility
