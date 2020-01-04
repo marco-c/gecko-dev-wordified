@@ -1421,6 +1421,7 @@ new
 empty
 preheader
 .
+const
 CompileInfo
 &
 info

@@ -25632,6 +25632,7 @@ getAny
 (
 )
 ;
+const
 CompileInfo
 &
 info
@@ -26895,6 +26896,7 @@ counts
 =
 nullptr
 ;
+const
 CompileInfo
 *
 outerInfo
@@ -33520,6 +33522,7 @@ templateObj
 (
 )
 ;
+const
 CompileInfo
 &
 info
