@@ -324,6 +324,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 dbl
 -
 >
@@ -337,6 +339,7 @@ j
 .
 offset
 (
+)
 )
 )
 )
@@ -400,6 +403,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 flt
 -
 >
@@ -413,6 +418,7 @@ j
 .
 offset
 (
+)
 )
 )
 )
@@ -503,6 +509,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 val
 -
 >
@@ -516,6 +524,7 @@ j
 .
 offset
 (
+)
 )
 )
 )
@@ -606,6 +615,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 val
 -
 >
@@ -619,6 +630,7 @@ j
 .
 offset
 (
+)
 )
 )
 )
