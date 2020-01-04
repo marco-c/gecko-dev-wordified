@@ -703,8 +703,8 @@ sizeof
 columnNumber
 "
 %
-lu
 "
+PRIu32
 column
 )
 ;
@@ -721,8 +721,8 @@ sizeof
 lineNumber
 "
 %
-lu
 "
+PRIu32
 line
 )
 ;
