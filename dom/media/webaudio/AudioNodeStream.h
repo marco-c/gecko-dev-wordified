@@ -794,11 +794,6 @@ GraphTime
 aFrom
 )
 ;
-StreamTime
-GetCurrentPosition
-(
-)
-;
 bool
 IsAudioParamStream
 (

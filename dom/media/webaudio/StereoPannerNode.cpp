@@ -645,6 +645,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -906,8 +908,9 @@ tick
 aStream
 -
 >
-GetCurrentPosition
+GraphTimeToStreamTime
 (
+aFrom
 )
 ;
 mPan

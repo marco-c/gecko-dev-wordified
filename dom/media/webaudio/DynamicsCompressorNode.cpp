@@ -476,6 +476,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -574,8 +576,9 @@ pos
 aStream
 -
 >
-GetCurrentPosition
+GraphTimeToStreamTime
 (
+aFrom
 )
 ;
 mCompressor

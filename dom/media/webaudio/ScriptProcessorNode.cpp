@@ -1523,6 +1523,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -1902,6 +1904,7 @@ mBufferSize
 SendBuffersToMainThread
 (
 aStream
+aFrom
 )
 ;
 mInputWriteIndex
@@ -2051,6 +2054,8 @@ SendBuffersToMainThread
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 )
 {
 MOZ_ASSERT
@@ -2085,8 +2090,9 @@ playbackTick
 mSource
 -
 >
-GetCurrentPosition
+GraphTimeToStreamTime
 (
+aFrom
 )
 ;
 /
