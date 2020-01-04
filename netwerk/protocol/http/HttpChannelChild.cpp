@@ -9840,6 +9840,7 @@ InterceptedChannelContent
 this
 controller
 mInterceptListener
+shouldUpgrade
 )
 ;
 intercepted
