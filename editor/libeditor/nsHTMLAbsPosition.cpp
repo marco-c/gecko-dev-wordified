@@ -351,13 +351,6 @@ h
 #
 include
 "
-nsTextEditRules
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

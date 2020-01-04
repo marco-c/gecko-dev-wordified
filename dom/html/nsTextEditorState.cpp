@@ -327,7 +327,11 @@ h
 #
 include
 "
-nsTextEditRules
+mozilla
+/
+dom
+/
+Selection
 .
 h
 "
@@ -336,9 +340,7 @@ include
 "
 mozilla
 /
-dom
-/
-Selection
+TextEditRules
 .
 h
 "

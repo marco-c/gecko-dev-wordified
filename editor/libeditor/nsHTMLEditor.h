@@ -352,6 +352,9 @@ class
 HTMLEditRules
 ;
 class
+TextEditRules
+;
+class
 TypeInState
 ;
 class
@@ -6280,11 +6283,14 @@ class
 mozilla
 :
 :
-WSRunObject
+TextEditRules
 ;
 friend
 class
-nsTextEditRules
+mozilla
+:
+:
+WSRunObject
 ;
 friend
 class

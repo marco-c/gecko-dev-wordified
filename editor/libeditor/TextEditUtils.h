@@ -127,7 +127,7 @@ public
 /
 /
 from
-nsTextEditRules
+TextEditRules
 :
 static
 bool
