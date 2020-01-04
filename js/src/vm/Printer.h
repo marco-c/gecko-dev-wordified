@@ -116,6 +116,15 @@ define
 vm_Printer_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdarg
 .
