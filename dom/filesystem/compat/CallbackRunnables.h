@@ -123,7 +123,7 @@ mozilla_dom_ErrorCallbackRunnable_h
 #
 include
 "
-DirectoryEntry
+FileSystemDirectoryEntry
 .
 h
 "
@@ -302,7 +302,7 @@ aSuccessCallback
 ErrorCallback
 *
 aErrorCallback
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 :
 GetInternalType
@@ -389,7 +389,7 @@ ErrorCallback
 >
 mErrorCallback
 ;
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 :
 GetInternalType

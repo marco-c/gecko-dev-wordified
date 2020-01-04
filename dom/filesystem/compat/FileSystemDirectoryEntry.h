@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DirectoryEntry_h
+mozilla_dom_FileSystemDirectoryEntry_h
 #
 define
-mozilla_dom_DirectoryEntry_h
+mozilla_dom_FileSystemDirectoryEntry_h
 #
 include
 "
@@ -152,7 +152,7 @@ class
 Directory
 ;
 class
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 public
 FileSystemEntry
@@ -162,10 +162,10 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-DirectoryEntry
+FileSystemDirectoryEntry
 FileSystemEntry
 )
-DirectoryEntry
+FileSystemDirectoryEntry
 (
 nsIGlobalObject
 *
@@ -403,7 +403,7 @@ protected
 :
 virtual
 ~
-DirectoryEntry
+FileSystemDirectoryEntry
 (
 )
 ;
@@ -431,4 +431,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DirectoryEntry_h
+mozilla_dom_FileSystemDirectoryEntry_h
