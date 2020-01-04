@@ -122,11 +122,10 @@ exports
 module
 )
 {
-/
-/
-ReactJS
 const
-ReactDOM
+{
+render
+}
 =
 require
 (
@@ -552,8 +551,6 @@ content
 let
 theApp
 =
-ReactDOM
-.
 render
 (
 MainTabbedArea
