@@ -1,14 +1,3 @@
-/
-/
-classesEnabled
-ended
-up
-needing
-a
-fairly
-broad
-scope
-.
 load
 (
 libdir
@@ -21,6 +10,8 @@ libdir
 .
 /
 tests
+/
+ecma_6
 /
 shell
 .
