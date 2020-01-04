@@ -21148,6 +21148,14 @@ t
 .
 toggleMuteAudio
 (
+winData
+.
+tabs
+[
+t
+]
+.
+muteReason
 )
 ;
 }
@@ -23139,6 +23147,9 @@ tab
 .
 toggleMuteAudio
 (
+tabData
+.
+muteReason
 )
 ;
 }
