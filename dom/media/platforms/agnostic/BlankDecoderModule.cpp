@@ -261,7 +261,7 @@ aType
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -332,7 +332,7 @@ Run
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -389,7 +389,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1352,7 +1352,7 @@ height
 aImageContainer
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -1420,7 +1420,7 @@ aConfig
 mRate
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -1461,21 +1461,6 @@ override
 {
 return
 true
-;
-}
-bool
-SupportsSharedDecoders
-(
-const
-VideoInfo
-&
-aConfig
-)
-const
-override
-{
-return
-false
 ;
 }
 ConversionRequired
@@ -1548,7 +1533,7 @@ CreateBlankDecoderModule
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >
@@ -1575,7 +1560,7 @@ CreateAgnosticDecoderModule
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >
