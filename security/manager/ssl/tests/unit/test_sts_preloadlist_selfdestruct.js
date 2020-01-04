@@ -70,7 +70,7 @@ as
 an
 sts
 host
-do_check_true
+ok
 (
 SSService
 .
@@ -146,8 +146,9 @@ no
 longer
 considered
 sts
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -193,7 +194,7 @@ currentTimeOffsetSeconds
 "
 )
 ;
-do_check_true
+ok
 (
 SSService
 .

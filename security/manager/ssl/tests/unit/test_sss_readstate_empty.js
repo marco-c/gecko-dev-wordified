@@ -116,8 +116,9 @@ be
 an
 HSTS
 host
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -147,7 +148,7 @@ mozilla
 org
 is
 preloaded
-do_check_true
+ok
 (
 gSSService
 .
@@ -202,8 +203,9 @@ with
 this
 one
 .
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -281,8 +283,9 @@ we
 create
 it
 .
-do_check_false
+ok
 (
+!
 stateFile
 .
 exists
@@ -308,7 +311,7 @@ NORMAL_FILE_TYPE
 =
 =
 0644
-do_check_true
+ok
 (
 stateFile
 .
@@ -378,11 +381,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_true
+notEqual
 (
 gSSService
-!
-=
 null
 )
 ;

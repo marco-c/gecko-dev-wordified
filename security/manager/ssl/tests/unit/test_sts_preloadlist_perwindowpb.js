@@ -252,8 +252,9 @@ as
 an
 sts
 host
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -288,8 +289,9 @@ as
 an
 sts
 host
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -335,8 +337,9 @@ preloadlist
 false
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -373,7 +376,7 @@ preloadlist
 true
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -410,7 +413,7 @@ includeSubdomains
 is
 set
 )
-do_check_true
+ok
 (
 gSSService
 .
@@ -449,7 +452,7 @@ includeSubdomains
 is
 set
 )
-do_check_true
+ok
 (
 gSSService
 .
@@ -496,8 +499,9 @@ is
 not
 set
 )
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -537,8 +541,9 @@ won
 t
 break
 anything
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -630,8 +635,9 @@ sslStatus
 0
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -652,8 +658,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -725,7 +732,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -761,8 +768,9 @@ so
 test
 for
 that
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -870,7 +878,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -892,8 +900,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1097,7 +1106,7 @@ org
 IS
 sts
 host
-do_check_true
+ok
 (
 gSSService
 .
@@ -1119,7 +1128,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1143,7 +1152,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1167,7 +1176,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1297,7 +1306,7 @@ org
 IS
 sts
 host
-do_check_true
+ok
 (
 gSSService
 .
@@ -1321,7 +1330,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1345,8 +1354,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1465,7 +1475,7 @@ the
 preload
 list
 )
-do_check_true
+ok
 (
 gSSService
 .
@@ -1539,8 +1549,9 @@ function
 (
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1602,7 +1613,7 @@ is
 preloaded
 includeSubdomains
 set
-do_check_true
+ok
 (
 gSSService
 .
@@ -1624,7 +1635,7 @@ IS_PRIVATE
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1699,8 +1710,9 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1721,8 +1733,9 @@ IS_PRIVATE
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1777,7 +1790,7 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1806,8 +1819,9 @@ no
 includeSubdomains
 this
 time
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1863,8 +1877,9 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1885,8 +1900,9 @@ IS_PRIVATE
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -2001,7 +2017,7 @@ the
 preload
 list
 )
-do_check_true
+ok
 (
 gSSService
 .
@@ -2075,8 +2091,9 @@ function
 (
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -2149,7 +2166,7 @@ a
 private
 browsing
 service
-do_check_true
+ok
 (
 gSSService
 .
@@ -2183,7 +2200,7 @@ entry
 has
 includeSubdomains
 set
-do_check_true
+ok
 (
 gSSService
 .
@@ -2244,7 +2261,7 @@ s
 sts
 status
 .
-do_check_true
+ok
 (
 gSSService
 .

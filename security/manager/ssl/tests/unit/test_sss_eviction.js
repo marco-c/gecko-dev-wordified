@@ -101,7 +101,7 @@ aTopic
 aData
 )
 {
-do_check_eq
+equal
 (
 aData
 SSS_STATE_FILE_NAME
@@ -123,7 +123,7 @@ append
 SSS_STATE_FILE_NAME
 )
 ;
-do_check_true
+ok
 (
 stateFile
 .
@@ -321,7 +321,7 @@ break
 ;
 }
 }
-do_check_true
+ok
 (
 foundLegitSite
 )
@@ -339,13 +339,13 @@ aTopic
 aData
 )
 {
-do_check_eq
+equal
 (
 aData
 SSS_STATE_FILE_NAME
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -535,8 +535,9 @@ we
 create
 it
 .
-do_check_false
+ok
 (
+!
 stateFile
 .
 exists
@@ -659,11 +660,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_true
+notEqual
 (
 gSSService
-!
-=
 null
 )
 ;
