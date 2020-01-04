@@ -204,6 +204,11 @@ Init
 )
 ;
 void
+Setup
+(
+)
+;
+void
 EventNotify
 (
 uint32_t

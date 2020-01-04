@@ -1351,6 +1351,15 @@ mSpeechdClient
 nullptr
 )
 {
+}
+void
+SpeechDispatcherService
+:
+:
+Init
+(
+)
+{
 if
 (
 !
@@ -1471,7 +1480,7 @@ this
 SpeechDispatcherService
 :
 :
-Init
+Setup
 )
 NS_DISPATCH_NORMAL
 )
@@ -1522,7 +1531,7 @@ void
 SpeechDispatcherService
 :
 :
-Init
+Setup
 (
 )
 {
@@ -2818,6 +2827,13 @@ sSingleton
 =
 new
 SpeechDispatcherService
+(
+)
+;
+sSingleton
+-
+>
+Init
 (
 )
 ;
