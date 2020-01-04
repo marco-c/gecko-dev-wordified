@@ -529,7 +529,7 @@ aAtom
 {
 for
 (
-uint32_t
+uint8_t
 i
 =
 0
@@ -561,7 +561,10 @@ aAtom
 )
 {
 return
+static_cast
+<
 Type
+>
 (
 i
 )
@@ -678,12 +681,12 @@ Type
 aType
 )
 {
-size_t
+uint8_t
 index
 =
 static_cast
 <
-size_t
+uint8_t
 >
 (
 aType

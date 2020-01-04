@@ -627,10 +627,7 @@ nsMathMLChar
 aMathMLChar
 )
 {
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType

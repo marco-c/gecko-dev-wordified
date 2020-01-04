@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsCSSPseudoElements
-.
-h
-"
-#
-include
-"
 nsCSSPseudoClasses
 .
 h
@@ -1765,10 +1758,7 @@ MAX
 <
 INT16_MAX
 "
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 values
 overflow
 mPseudoType

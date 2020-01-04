@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsStyleSet
 .
 h
@@ -435,10 +442,7 @@ the
 anonymous
 child
 .
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType
@@ -1808,10 +1812,7 @@ nsProgressFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

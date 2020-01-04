@@ -13025,10 +13025,7 @@ aContent
 nsStyleContext
 *
 aStyleContext
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoElement
 nsPresContext
 *

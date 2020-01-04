@@ -408,10 +408,7 @@ dom
 Element
 *
 aElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 bool
 aCreateIfNeeded
@@ -689,10 +686,7 @@ dom
 :
 Element
 *
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 >
 >
 pseudoElement
@@ -851,10 +845,7 @@ AnimationCollection
 :
 PseudoTypeAsString
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 )
 {

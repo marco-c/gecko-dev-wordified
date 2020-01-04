@@ -16450,10 +16450,7 @@ aData
 Element
 *
 aStatefulElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 EventStates
 aStateMask
@@ -20925,10 +20922,7 @@ the
 rule
 hash
 .
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 aRuleInfo
@@ -21363,10 +21357,7 @@ IsPseudoElement
 )
 )
 {
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudo
 =
 selector

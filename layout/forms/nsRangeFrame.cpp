@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h
@@ -697,10 +704,7 @@ Element
 *
 *
 aResult
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsTArray
 <
@@ -5837,10 +5841,7 @@ nsRangeFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -2171,10 +2178,7 @@ the
 placeholder
 node
 .
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType
@@ -8396,10 +8400,7 @@ nsTextControlFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

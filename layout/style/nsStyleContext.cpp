@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -546,10 +553,7 @@ aParent
 nsIAtom
 *
 aPseudoTag
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsRuleNode
 *
@@ -9054,10 +9058,7 @@ aParentContext
 nsIAtom
 *
 aPseudoTag
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsRuleNode
 *

@@ -165,6 +165,12 @@ nsIEditor
 namespace
 mozilla
 {
+enum
+class
+CSSPseudoElementType
+:
+uint8_t
+;
 namespace
 dom
 {
@@ -537,10 +543,10 @@ Element
 *
 GetPseudoElement
 (
-nsCSSPseudoElements
+mozilla
 :
 :
-Type
+CSSPseudoElementType
 aType
 )
 override

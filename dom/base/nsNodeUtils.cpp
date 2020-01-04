@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h
@@ -1394,10 +1401,7 @@ Element
 *
 target
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 ;
 effect

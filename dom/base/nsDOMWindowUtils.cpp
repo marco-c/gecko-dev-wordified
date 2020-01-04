@@ -825,6 +825,17 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+/
+/
+for
+CSSPseudoElementType
+#
+include
+"
 nsNetUtil
 .
 h

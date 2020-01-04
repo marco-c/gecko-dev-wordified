@@ -2274,10 +2274,7 @@ Element
 *
 animationTarget
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 ;
 effect

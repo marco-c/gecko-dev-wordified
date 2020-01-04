@@ -7542,10 +7542,7 @@ Element
 *
 targetElement
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 targetPseudoType
 ;
 mEffect

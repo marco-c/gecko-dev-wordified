@@ -174,10 +174,7 @@ CSSPseudoElement
 Element
 *
 aElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 :
@@ -435,10 +432,7 @@ GetCSSPseudoElement
 Element
 *
 aElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {
@@ -608,10 +602,7 @@ CSSPseudoElement
 :
 GetCSSPseudoElementPropertyAtom
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {
