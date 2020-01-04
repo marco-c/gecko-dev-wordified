@@ -130,6 +130,11 @@ namespace
 mscom
 {
 bool
+IsCurrentThreadMTA
+(
+)
+;
+bool
 IsProxy
 (
 IUnknown
