@@ -1278,7 +1278,7 @@ SelectorMatches
 .
 CSS_PSEUDO_CLASS
 (
-notPseudo
+negation
 "
 :
 not
