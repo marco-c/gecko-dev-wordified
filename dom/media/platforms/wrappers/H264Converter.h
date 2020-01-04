@@ -487,6 +487,11 @@ mNeedAVCC
 nsresult
 mLastError
 ;
+bool
+mNeedKeyframe
+=
+true
+;
 }
 ;
 }
