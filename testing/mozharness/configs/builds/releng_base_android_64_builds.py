@@ -152,6 +152,14 @@ l10n
 '
         
 '
+generate
+-
+build
+-
+stats
+'
+        
+'
 update
 '
 #
