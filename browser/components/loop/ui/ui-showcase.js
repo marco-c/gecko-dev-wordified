@@ -7857,6 +7857,9 @@ visible
 :
 true
 }
+chatWindowDetached
+:
+false
 conversationStore
 :
 conversationStores
@@ -7983,6 +7986,9 @@ visible
 :
 true
 }
+chatWindowDetached
+:
+false
 conversationStore
 :
 conversationStores
@@ -8106,6 +8112,9 @@ visible
 :
 true
 }
+chatWindowDetached
+:
+false
 conversationStore
 :
 conversationStores
@@ -8233,6 +8242,9 @@ visible
 :
 true
 }
+chatWindowDetached
+:
+false
 conversationStore
 :
 conversationStores
@@ -8360,6 +8372,9 @@ visible
 :
 true
 }
+chatWindowDetached
+:
+false
 conversationStore
 :
 conversationStores
@@ -8975,6 +8990,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9185,6 +9203,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9294,6 +9315,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9406,6 +9430,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9518,6 +9545,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9631,6 +9661,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher
@@ -9724,6 +9757,9 @@ createElement
 (
 DesktopRoomConversationView
 {
+chatWindowDetached
+:
+false
 dispatcher
 :
 dispatcher

@@ -1021,6 +1021,9 @@ store
 ConversationAppStore
 (
 {
+activeRoomStore
+:
+activeRoomStore
 dispatcher
 :
 dispatcher

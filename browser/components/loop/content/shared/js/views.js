@@ -2479,6 +2479,9 @@ null
 enableHangup
 :
 true
+showHangup
+:
+true
 }
 ;
 }
@@ -2584,6 +2587,13 @@ PropTypes
 bool
 .
 isRequired
+showHangup
+:
+React
+.
+PropTypes
+.
+bool
 video
 :
 React
@@ -3207,6 +3217,12 @@ className
 :
 conversationToolbarCssClasses
 }
+this
+.
+props
+.
+showHangup
+?
 React
 .
 createElement
@@ -3279,6 +3295,8 @@ _getHangupButtonLabel
 )
 )
 )
+:
+null
 React
 .
 createElement
