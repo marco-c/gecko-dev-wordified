@@ -883,7 +883,7 @@ gIsShutdown
 *
 *
 *
-Return
+Creates
 an
 accessible
 for
@@ -891,14 +891,6 @@ the
 given
 DOM
 node
-from
-the
-cache
-or
-create
-new
-*
-one
 .
 *
 *
@@ -946,7 +938,7 @@ hidden
 /
 Accessible
 *
-GetOrCreateAccessible
+CreateAccessible
 (
 nsINode
 *
