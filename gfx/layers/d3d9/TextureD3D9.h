@@ -2029,9 +2029,6 @@ mSurface
 SurfaceInitMode
 mInitMode
 ;
-bool
-mInitialized
-;
 }
 ;
 }
