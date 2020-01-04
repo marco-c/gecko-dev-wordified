@@ -16377,6 +16377,11 @@ values
 struct
 AllocationMetadataBuilder
 {
+AllocationMetadataBuilder
+(
+)
+{
+}
 /
 /
 Return
