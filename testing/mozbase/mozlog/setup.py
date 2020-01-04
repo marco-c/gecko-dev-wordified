@@ -339,6 +339,24 @@ main
 "
           
 ]
+          
+'
+pytest11
+'
+:
+[
+            
+'
+mozlog
+=
+mozlog
+.
+pytest_mozlog
+.
+plugin
+'
+          
+]
 }
      
 )
