@@ -154,6 +154,14 @@ overflow
 :
 inherit
 ;
+overflow
+-
+clip
+-
+box
+:
+inherit
+;
 padding
 :
 inherit
