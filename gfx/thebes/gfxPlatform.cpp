@@ -11856,6 +11856,15 @@ true
 else
 if
 (
+!
+gfxPrefs
+:
+:
+LayersAccelerationDisabled
+(
+)
+&
+&
 gfxInfo
 )
 {
