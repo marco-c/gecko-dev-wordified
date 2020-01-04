@@ -50,6 +50,13 @@ h
 #
 include
 "
+GrFragmentProcessor
+.
+h
+"
+#
+include
+"
 GrInvariantOutput
 .
 h
@@ -84,7 +91,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLProgramDataManager
 .
 h
 "
@@ -93,7 +100,7 @@ include
 "
 glsl
 /
-GrGLSLProgramDataManager
+GrGLSLUniformHandler
 .
 h
 "
@@ -607,12 +614,12 @@ fMatrixUni
 =
 args
 .
-fBuilder
+fUniformHandler
 -
 >
 addUniform
 (
-GrGLSLProgramBuilder
+GrGLSLUniformHandler
 :
 :
 kFragment_Visibility

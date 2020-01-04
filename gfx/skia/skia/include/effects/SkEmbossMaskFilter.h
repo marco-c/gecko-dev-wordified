@@ -115,7 +115,7 @@ now
 }
 ;
 static
-SkEmbossMaskFilter
+SkMaskFilter
 *
 Create
 (
@@ -162,7 +162,6 @@ exported
 to
 java
 .
-virtual
 bool
 filterMask
 (

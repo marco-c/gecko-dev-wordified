@@ -1789,7 +1789,11 @@ WEBP_IDECODE_BUFFER_SZ
 :
 WEBP_IDECODE_BUFFER_SZ
 ;
-SkAutoMalloc
+SkAutoTMalloc
+<
+unsigned
+char
+>
 srcStorage
 (
 readBufferSize
@@ -1800,10 +1804,6 @@ char
 *
 input
 =
-(
-uint8_t
-*
-)
 srcStorage
 .
 get

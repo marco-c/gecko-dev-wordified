@@ -207,6 +207,7 @@ SkData
 *
 onRefEncodedData
 (
+SK_REFENCODEDDATA_CTXPARAM
 )
 override
 ;
@@ -790,6 +791,7 @@ DecodingImageGenerator
 :
 onRefEncodedData
 (
+SK_REFENCODEDDATA_CTXPARAM
 )
 {
 /

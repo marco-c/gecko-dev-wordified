@@ -152,6 +152,10 @@ input
 NULL
 )
 ;
+SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP
+(
+)
+;
 }
 ;
 #

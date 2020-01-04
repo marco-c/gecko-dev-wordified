@@ -227,7 +227,7 @@ paths
 *
 /
 static
-SkDashPathEffect
+SkPathEffect
 *
 Create
 (

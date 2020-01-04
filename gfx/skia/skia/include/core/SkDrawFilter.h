@@ -58,6 +58,14 @@ SkPaint
 *
 *
 *
+DEPRECATED
+-
+use
+SkPaintFilterCanvas
+instead
+.
+*
+*
 Right
 before
 something

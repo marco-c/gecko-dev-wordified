@@ -79,6 +79,11 @@ SkIntArray
 .
 h
 "
+#
+include
+<
+utility
+>
 class
 SkAnimateMaker
 ;
@@ -893,7 +898,7 @@ _type
 \
 sizeof
 (
-skstd
+std
 :
 :
 declval
@@ -935,7 +940,7 @@ _type
 \
 sizeof
 (
-skstd
+std
 :
 :
 declval

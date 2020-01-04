@@ -68,7 +68,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLUniformHandler
 .
 h
 "
@@ -917,10 +917,10 @@ name
 EmitArgs
 childArgs
 (
+fragBuilder
 args
 .
-fBuilder
-fragBuilder
+fUniformHandler
 args
 .
 fGLSLCaps

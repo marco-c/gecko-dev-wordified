@@ -143,12 +143,6 @@ set
 1
 )
 ;
-srcM
-.
-fImage
-=
-nullptr
-;
 if
 (
 !

@@ -332,7 +332,7 @@ Sk2DPathEffect
 public
 :
 static
-SkLine2DPathEffect
+SkPathEffect
 *
 Create
 (
@@ -470,7 +470,7 @@ latice
 *
 /
 static
-SkPath2DPathEffect
+SkPathEffect
 *
 Create
 (

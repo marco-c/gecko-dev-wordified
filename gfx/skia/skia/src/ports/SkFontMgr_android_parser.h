@@ -1556,10 +1556,9 @@ frac
 *
 value
 =
+SkLeftShift
 (
 n
-<
-<
 N
 )
 +

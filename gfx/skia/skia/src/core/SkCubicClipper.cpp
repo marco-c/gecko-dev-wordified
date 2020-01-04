@@ -99,10 +99,13 @@ clip
 )
 ;
 }
-static
 bool
-chopMonoCubicAtY
+SkCubicClipper
+:
+:
+ChopMonoAtY
 (
+const
 SkPoint
 pts
 [
@@ -1008,7 +1011,7 @@ fY
 ctop
 &
 &
-chopMonoCubicAtY
+ChopMonoAtY
 (
 dst
 ctop
@@ -1073,7 +1076,7 @@ fY
 cbot
 &
 &
-chopMonoCubicAtY
+ChopMonoAtY
 (
 dst
 cbot

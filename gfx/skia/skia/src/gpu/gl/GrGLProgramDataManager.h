@@ -89,9 +89,6 @@ SkMatrix
 class
 GrGLProgram
 ;
-class
-GrGLProgramBuilder
-;
 /
 *
 *

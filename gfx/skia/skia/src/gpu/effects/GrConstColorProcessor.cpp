@@ -45,6 +45,13 @@ h
 #
 include
 "
+GrInvariantOutput
+.
+h
+"
+#
+include
+"
 glsl
 /
 GrGLSLFragmentProcessor
@@ -65,7 +72,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLProgramDataManager
 .
 h
 "
@@ -74,7 +81,7 @@ include
 "
 glsl
 /
-GrGLSLProgramDataManager
+GrGLSLUniformHandler
 .
 h
 "
@@ -122,12 +129,12 @@ fColorUniform
 =
 args
 .
-fBuilder
+fUniformHandler
 -
 >
 addUniform
 (
-GrGLSLProgramBuilder
+GrGLSLUniformHandler
 :
 :
 kFragment_Visibility

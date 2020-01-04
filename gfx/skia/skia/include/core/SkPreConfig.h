@@ -295,6 +295,13 @@ defined
 (
 __GNU__
 )
+|
+|
+\
+defined
+(
+__unix__
+)
 #
 define
 SK_BUILD_FOR_UNIX

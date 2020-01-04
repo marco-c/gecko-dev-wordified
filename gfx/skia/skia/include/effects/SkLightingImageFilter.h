@@ -322,14 +322,14 @@ fSurfaceScale
 ;
 }
 bool
-affectsTransparentBlack
+canComputeFastBounds
 (
 )
 const
 override
 {
 return
-true
+false
 ;
 }
 private

@@ -51,9 +51,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include
@@ -721,6 +719,9 @@ sk_float_isfinite
 (
 x
 )
+std
+:
+:
 isfinite
 (
 x
@@ -731,6 +732,9 @@ sk_float_isnan
 (
 x
 )
+std
+:
+:
 isnan
 (
 x
@@ -741,6 +745,9 @@ sk_float_isinf
 (
 x
 )
+std
+:
+:
 isinf
 (
 x

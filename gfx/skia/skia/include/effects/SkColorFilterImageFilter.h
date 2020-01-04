@@ -132,7 +132,7 @@ const
 override
 ;
 bool
-affectsTransparentBlack
+canComputeFastBounds
 (
 )
 const

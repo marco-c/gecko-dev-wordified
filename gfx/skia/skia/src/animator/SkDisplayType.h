@@ -55,6 +55,10 @@ SkScalar
 .
 h
 "
+typedef
+int
+SkBool
+;
 #
 ifdef
 SK_DEBUG

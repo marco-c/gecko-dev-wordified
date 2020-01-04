@@ -358,7 +358,7 @@ T
 int
 *
 indexPtr
-SkBool
+bool
 *
 exactPtr
 )
@@ -1078,7 +1078,7 @@ T
 int
 index
 ;
-SkBool
+bool
 exact
 ;
 Result

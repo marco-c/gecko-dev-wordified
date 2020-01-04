@@ -77,7 +77,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLProgramDataManager
 .
 h
 "
@@ -86,7 +86,7 @@ include
 "
 glsl
 /
-GrGLSLProgramDataManager
+GrGLSLUniformHandler
 .
 h
 "
@@ -744,12 +744,12 @@ fRectUniform
 =
 args
 .
-fBuilder
+fUniformHandler
 -
 >
 addUniform
 (
-GrGLSLProgramBuilder
+GrGLSLUniformHandler
 :
 :
 kFragment_Visibility
@@ -1720,12 +1720,12 @@ fEdgeUniform
 =
 args
 .
-fBuilder
+fUniformHandler
 -
 >
 addUniformArray
 (
-GrGLSLProgramBuilder
+GrGLSLUniformHandler
 :
 :
 kFragment_Visibility

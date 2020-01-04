@@ -3371,10 +3371,12 @@ n
 "
 sub
 %
+w
 [
 count
 ]
 %
+w
 [
 count
 ]
@@ -3766,6 +3768,7 @@ n
 "
 cmp
 %
+w
 [
 count
 ]

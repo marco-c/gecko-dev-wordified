@@ -323,7 +323,7 @@ tangent
 *
 /
 static
-SkPath1DPathEffect
+SkPathEffect
 *
 Create
 (

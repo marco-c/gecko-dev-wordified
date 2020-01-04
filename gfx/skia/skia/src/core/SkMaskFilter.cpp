@@ -109,13 +109,6 @@ SkGr
 h
 "
 #
-include
-"
-SkGrPixelRef
-.
-h
-"
-#
 endif
 SkMaskFilter
 :
@@ -2593,12 +2586,6 @@ const
 SkMask
 srcM
 dstM
-;
-srcM
-.
-fImage
-=
-nullptr
 ;
 srcM
 .

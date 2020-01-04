@@ -1033,6 +1033,11 @@ A
 ;
 if
 (
+!
+A
+|
+|
+(
 approximately_zero
 (
 A
@@ -1049,6 +1054,7 @@ p
 approximately_zero_inverse
 (
 q
+)
 )
 )
 )

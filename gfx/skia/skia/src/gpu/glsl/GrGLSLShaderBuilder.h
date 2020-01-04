@@ -1112,6 +1112,10 @@ fFinalized
 ;
 friend
 class
+GrGLSLProgramBuilder
+;
+friend
+class
 GrGLProgramBuilder
 ;
 friend
@@ -1124,6 +1128,10 @@ to
 access
 fInputs
 .
+friend
+class
+GrVkProgramBuilder
+;
 }
 ;
 #

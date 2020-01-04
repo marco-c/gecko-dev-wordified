@@ -1620,10 +1620,11 @@ b
 SkASSERT
 (
 (
+SkLeftShift
+(
 a
-<
-<
 16
+)
 >
 >
 16
@@ -1642,10 +1643,9 @@ b
 )
 ;
 return
+SkLeftShift
 (
 a
-<
-<
 16
 )
 /

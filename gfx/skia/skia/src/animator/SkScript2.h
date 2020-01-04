@@ -42,6 +42,13 @@ SkScript2_DEFINED
 #
 include
 "
+SkDisplayType
+.
+h
+"
+#
+include
+"
 SkOperand2
 .
 h

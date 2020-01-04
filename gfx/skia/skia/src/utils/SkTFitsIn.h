@@ -251,7 +251,7 @@ struct
 SkTOutOfRange_False
 {
 typedef
-skstd
+std
 :
 :
 false_type
@@ -321,7 +321,7 @@ struct
 SkTOutOfRange_LT_MinD
 {
 typedef
-skstd
+std
 :
 :
 true_type
@@ -416,7 +416,7 @@ struct
 SkTOutOfRange_LT_Zero
 {
 typedef
-skstd
+std
 :
 :
 true_type
@@ -494,7 +494,7 @@ struct
 SkTOutOfRange_GT_MaxD
 {
 typedef
-skstd
+std
 :
 :
 true_type
@@ -589,7 +589,7 @@ struct
 SkTOutOfRange_Either
 {
 typedef
-skstd
+std
 :
 :
 true_type

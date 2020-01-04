@@ -48,6 +48,11 @@ SkPDFTypes
 h
 "
 #
+include
+<
+utility
+>
+#
 ifdef
 SK_PDF_GENERATE_PDFA
 #
@@ -1003,7 +1008,7 @@ length
 )
 ;
 return
-skstd
+std
 :
 :
 move
@@ -1169,7 +1174,7 @@ length
 )
 ;
 return
-skstd
+std
 :
 :
 move
@@ -1523,7 +1528,7 @@ xml
 :
 fXML
 (
-skstd
+std
 :
 :
 move
@@ -2169,7 +2174,7 @@ out
 '
 ;
 return
-skstd
+std
 :
 :
 move

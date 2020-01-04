@@ -993,6 +993,8 @@ const
 SkIRect
 &
 contentArea
+bool
+isAlphaOnly
 )
 :
 INHERITED
@@ -1007,6 +1009,7 @@ contentArea
 height
 (
 )
+isAlphaOnly
 )
 fOriginal
 (

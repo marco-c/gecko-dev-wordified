@@ -40,11 +40,6 @@ SkRecord
 .
 h
 "
-#
-include
-<
-algorithm
->
 SkRecord
 :
 :

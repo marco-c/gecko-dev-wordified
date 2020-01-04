@@ -197,6 +197,13 @@ FILE
 *
 )
 ;
+void
+sk_fsync
+(
+FILE
+*
+)
+;
 bool
 sk_fseek
 (

@@ -152,10 +152,7 @@ a
 row
 *
 /
-SkSwizzler
-:
-:
-ResultAlpha
+void
 swizzle
 (
 void
@@ -245,10 +242,7 @@ swizzle
 *
 /
 typedef
-SkSwizzler
-:
-:
-ResultAlpha
+void
 (
 *
 RowProc

@@ -76,6 +76,7 @@ public
 :
 static
 bool
+SK_WARN_UNUSED_RESULT
 BlurRect
 (
 SkScalar
@@ -107,6 +108,7 @@ kComputeBoundsAndRenderImage_CreateMode
 ;
 static
 bool
+SK_WARN_UNUSED_RESULT
 BlurRRect
 (
 SkScalar
@@ -217,6 +219,7 @@ lie
 .
 static
 bool
+SK_WARN_UNUSED_RESULT
 BoxBlur
 (
 SkMask
@@ -231,14 +234,13 @@ sigma
 SkBlurStyle
 style
 SkBlurQuality
-quality
 SkIPoint
 *
 margin
 =
 nullptr
 bool
-force_quality
+forceQuality
 =
 false
 )
@@ -270,6 +272,7 @@ purposes
 .
 static
 bool
+SK_WARN_UNUSED_RESULT
 BlurGroundTruth
 (
 SkScalar

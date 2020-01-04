@@ -197,7 +197,7 @@ segments
 *
 /
 static
-SkDiscretePathEffect
+SkPathEffect
 *
 Create
 (

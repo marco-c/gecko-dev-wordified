@@ -90,15 +90,6 @@ GrGLSLFragmentShaderBuilder
 h
 "
 #
-include
-"
-glsl
-/
-GrGLSLProgramBuilder
-.
-h
-"
-#
 endif
 void
 SkLumaColorFilter

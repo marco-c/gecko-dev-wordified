@@ -63,6 +63,11 @@ include
 <
 new
 >
+#
+include
+<
+utility
+>
 template
 <
 typename
@@ -147,7 +152,7 @@ T
 array
 )
 {
-memcpy
+sk_careful_memcpy
 (
 self
 -
@@ -187,7 +192,7 @@ char
 newMemArray
 )
 {
-memcpy
+sk_careful_memcpy
 (
 newMemArray
 self
@@ -1356,7 +1361,7 @@ newT
 )
 T
 (
-skstd
+std
 :
 :
 forward

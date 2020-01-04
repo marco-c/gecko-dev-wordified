@@ -80,6 +80,9 @@ class
 GrRenderTarget
 ;
 class
+GrSingleOwner
+;
+class
 GrStencilAttachment
 ;
 class
@@ -215,6 +218,9 @@ gpu
 GrResourceCache
 *
 cache
+GrSingleOwner
+*
+owner
 )
 ;
 template
@@ -764,6 +770,17 @@ createVertexBuffer
 size_t
 size
 BufferUsage
+uint32_t
+flags
+)
+;
+GrTransferBuffer
+*
+createTransferBuffer
+(
+size_t
+size
+TransferType
 uint32_t
 flags
 )

@@ -730,8 +730,6 @@ drawTextureProducer
 GrTextureProducer
 *
 producer
-bool
-alphaOnly
 const
 SkRect
 *
@@ -1016,7 +1014,6 @@ this
 drawTextureProducerImpl
 (
 producer
-alphaOnly
 clippedSrcRect
 clippedDstRect
 constraint
@@ -1036,8 +1033,6 @@ drawTextureProducerImpl
 GrTextureProducer
 *
 producer
-bool
-alphaTexture
 const
 SkRect
 &
@@ -1189,7 +1184,12 @@ canUseTextureCoordsAsLocalCoords
 !
 use_shader
 (
-alphaTexture
+producer
+-
+>
+isAlphaOnly
+(
+)
 paint
 )
 &
@@ -1507,7 +1507,12 @@ fContext
 paint
 viewMatrix
 fp
-alphaTexture
+producer
+-
+>
+isAlphaOnly
+(
+)
 &
 grPaint
 )

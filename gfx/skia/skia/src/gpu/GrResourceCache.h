@@ -563,7 +563,7 @@ const
 int
 kDefaultMaxUnusedFlushes
 =
-1024
+64
 ;
 /
 *

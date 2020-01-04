@@ -432,6 +432,8 @@ coverage
 =
 0
 ;
+break
+;
 case
 kAllOnes_CoverageMode
 :

@@ -172,7 +172,7 @@ kAll_BlurFlag
 }
 ;
 static
-SkBlurDrawLooper
+SkDrawLooper
 *
 Create
 (

@@ -310,7 +310,7 @@ void
 RowProc
 )
 (
-void
+SkPMColor
 *
 dst
 const

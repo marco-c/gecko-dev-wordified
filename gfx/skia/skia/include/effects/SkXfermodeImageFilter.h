@@ -110,7 +110,7 @@ SkXfermodeImageFilter
 )
 ;
 static
-SkXfermodeImageFilter
+SkImageFilter
 *
 Create
 (

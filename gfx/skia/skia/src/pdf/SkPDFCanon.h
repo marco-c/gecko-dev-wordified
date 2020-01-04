@@ -63,6 +63,13 @@ h
 #
 include
 "
+SkPixelSerializer
+.
+h
+"
+#
+include
+"
 SkTDArray
 .
 h
@@ -522,6 +529,12 @@ uint32_t
 bool
 >
 fCanEmbedTypeface
+;
+SkAutoTUnref
+<
+SkPixelSerializer
+>
+fPixelSerializer
 ;
 private
 :

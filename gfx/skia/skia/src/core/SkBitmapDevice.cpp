@@ -494,11 +494,7 @@ nullptr
 else
 if
 (
-bitmap
-.
 info
-(
-)
 .
 isOpaque
 (
@@ -1891,6 +1887,7 @@ readPixels
 (
 &
 tmpBitmap
+kN32_SkColorType
 &
 srcIR
 )
