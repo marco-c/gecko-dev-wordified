@@ -694,6 +694,16 @@ return
 mHeight
 ;
 }
+bool
+IsEmpty
+(
+)
+{
+return
+!
+mFrame
+;
+}
 private
 :
 /

@@ -1721,6 +1721,7 @@ mEffectOptions
 .
 mPacedProperty
 computedValues
+aStyleContext
 )
 ;
 }

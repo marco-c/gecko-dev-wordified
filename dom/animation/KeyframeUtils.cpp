@@ -2529,6 +2529,9 @@ ComputedKeyframeValues
 aValues
 nsCSSPropertyID
 aProperty
+nsStyleContext
+*
+aStyleContext
 )
 ;
 /
@@ -3051,6 +3054,9 @@ ComputedKeyframeValues
 >
 &
 aComputedValues
+nsStyleContext
+*
+aStyleContext
 )
 {
 if
@@ -3103,6 +3109,7 @@ GetCumulativeDistances
 (
 aComputedValues
 aProperty
+aStyleContext
 )
 ;
 /
@@ -3894,6 +3901,7 @@ SpacingMode
 distribute
 eCSSProperty_UNKNOWN
 emptyArray
+nullptr
 )
 ;
 }
@@ -10909,6 +10917,18 @@ paced
 property
 .
 *
+param
+aStyleContext
+The
+style
+context
+for
+computing
+distance
+on
+transform
+.
+*
 return
 The
 cumulative
@@ -10946,6 +10966,9 @@ ComputedKeyframeValues
 aValues
 nsCSSPropertyID
 aPacedProperty
+nsStyleContext
+*
+aStyleContext
 )
 {
 /
@@ -11415,6 +11438,7 @@ propIdx
 ]
 .
 mValue
+aStyleContext
 componentDistance
 )
 )
@@ -11503,6 +11527,7 @@ pacedValues
 ]
 .
 mValue
+aStyleContext
 dist
 )
 ;
