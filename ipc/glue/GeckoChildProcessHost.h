@@ -1130,6 +1130,8 @@ GetPathToBinary
 FilePath
 &
 exePath
+GeckoProcessType
+processType
 )
 ;
 void
