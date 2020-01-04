@@ -951,6 +951,9 @@ yet
 #
 endif
 }
+nsCString
+failureReason
+;
 if
 (
 !
@@ -963,6 +966,8 @@ compositor
 >
 Initialize
 (
+&
+failureReason
 )
 )
 {
