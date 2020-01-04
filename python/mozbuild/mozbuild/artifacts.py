@@ -1491,6 +1491,15 @@ ini
 .
 so
 '
+        
+'
+*
+*
+/
+interfaces
+.
+xpt
+'
     
 }
     
@@ -1767,6 +1776,17 @@ firefox
 *
 .
 so
+'
+        
+'
+firefox
+/
+*
+*
+/
+interfaces
+.
+xpt
 '
     
 }
@@ -2754,6 +2774,15 @@ libfakeopenh264
 .
 dylib
 '
+                
+'
+*
+*
+/
+interfaces
+.
+xpt
+'
             
 ]
 )
@@ -3088,6 +3117,17 @@ firefox
 *
 .
 exe
+'
+        
+'
+firefox
+/
+*
+*
+/
+interfaces
+.
+xpt
 '
     
 }
