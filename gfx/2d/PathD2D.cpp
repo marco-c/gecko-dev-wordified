@@ -114,7 +114,7 @@ h
 #
 include
 "
-DrawTargetD2D
+DrawTargetD2D1
 .
 h
 "
@@ -1958,7 +1958,7 @@ path
 HRESULT
 hr
 =
-DrawTargetD2D
+DrawTargetD2D1
 :
 :
 factory
