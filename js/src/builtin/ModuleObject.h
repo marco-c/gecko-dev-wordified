@@ -638,7 +638,7 @@ module
 (
 )
 ;
-ArrayObject
+JSObject
 &
 exports
 (
@@ -1137,7 +1137,7 @@ importBindings
 (
 )
 ;
-ArrayObject
+JSObject
 *
 namespaceExports
 (
@@ -1205,7 +1205,7 @@ JSContext
 cx
 HandleModuleObject
 self
-HandleArrayObject
+HandleObject
 exports
 )
 ;

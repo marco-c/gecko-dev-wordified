@@ -11609,7 +11609,7 @@ ModuleObject
 )
 )
 ;
-RootedArrayObject
+RootedObject
 exports
 (
 cx
@@ -11620,13 +11620,6 @@ args
 ]
 .
 toObject
-(
-)
-.
-as
-<
-ArrayObject
->
 (
 )
 )
