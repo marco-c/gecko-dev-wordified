@@ -10202,7 +10202,7 @@ get
 #
 ifdef
 DEBUG
-CheckPrivateBrowsing
+AssertPrivateBrowsingId
 (
 )
 ;

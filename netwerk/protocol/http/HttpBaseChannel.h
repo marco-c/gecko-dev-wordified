@@ -2463,6 +2463,9 @@ aURI
 nullptr
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 Check
@@ -2475,10 +2478,12 @@ and
 LoadContext
 .
 void
-CheckPrivateBrowsing
+AssertPrivateBrowsingId
 (
 )
 ;
+#
+endif
 friend
 class
 PrivateBrowsingChannel
