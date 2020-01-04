@@ -7858,9 +7858,6 @@ ParseContext
 Scope
 &
 scope
-uint32_t
-*
-functionBindingEnd
 )
 ;
 mozilla
@@ -7903,9 +7900,6 @@ ParseContext
 Scope
 &
 scope
-uint32_t
-*
-functionBindingEnd
 )
 ;
 mozilla
