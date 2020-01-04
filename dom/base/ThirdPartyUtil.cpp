@@ -344,11 +344,16 @@ bool
 aResult
 )
 {
-NS_ENSURE_ARG
+if
 (
+!
 aSecondURI
 )
+{
+return
+NS_ERROR_INVALID_ARG
 ;
+}
 /
 /
 Get
