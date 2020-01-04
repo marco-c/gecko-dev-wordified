@@ -23831,6 +23831,16 @@ GetScriptableTop
 (
 )
 ;
+if
+(
+!
+topWindow
+)
+{
+return
+false
+;
+}
 return
 topWindow
 -
