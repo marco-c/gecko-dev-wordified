@@ -4396,6 +4396,16 @@ codecConfig
 )
 ;
 }
+bool
+remb_requested
+=
+codecConfig
+-
+>
+RtcpFbRembIsSet
+(
+)
+;
 mPtrRTP
 -
 >
@@ -4403,7 +4413,7 @@ SetRembStatus
 (
 mChannel
 true
-false
+remb_requested
 )
 ;
 return
