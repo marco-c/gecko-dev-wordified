@@ -177,7 +177,7 @@ DevToolsUtils
 ;
 const
 {
-dbg_assert
+assert
 dumpn
 }
 =
@@ -402,7 +402,7 @@ getGlobalDebugObject
 }
 )
 {
-dbg_assert
+assert
 (
 !
 obj
@@ -11725,7 +11725,7 @@ form
 ;
 default
 :
-dbg_assert
+assert
 (
 false
 "

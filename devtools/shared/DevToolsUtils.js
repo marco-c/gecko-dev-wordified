@@ -2962,6 +2962,16 @@ AppConstants
 =
 >
 {
+if
+(
+isWorker
+)
+{
+return
+{
+}
+;
+}
 const
 scope
 =

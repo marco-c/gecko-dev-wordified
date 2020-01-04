@@ -212,7 +212,6 @@ var
 {
 dumpn
 dumpv
-dbg_assert
 }
 =
 DevToolsUtils
@@ -430,12 +429,6 @@ this
 dumpv
 =
 dumpv
-;
-this
-.
-dbg_assert
-=
-dbg_assert
 ;
 /
 /

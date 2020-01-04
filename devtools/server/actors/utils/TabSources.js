@@ -100,7 +100,7 @@ DevToolsUtils
 ;
 const
 {
-dbg_assert
+assert
 fetch
 }
 =
@@ -769,7 +769,7 @@ contentType
 }
 )
 {
-dbg_assert
+assert
 (
 source
 |
@@ -5088,7 +5088,7 @@ function
 aURLs
 )
 {
-dbg_assert
+assert
 (
 aURLs
 .

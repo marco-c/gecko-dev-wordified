@@ -213,6 +213,7 @@ DevToolsUtils
 ;
 const
 {
+assert
 dbg_assert
 dumpn
 update
@@ -3544,7 +3545,7 @@ pop
 (
 )
 ;
-dbg_assert
+assert
 (
 eventLoop
 "
@@ -10149,7 +10150,7 @@ its
 /
 children
 .
-dbg_assert
+assert
 (
 !
 this
@@ -10226,7 +10227,7 @@ itself
 .
 .
 .
-dbg_assert
+assert
 (
 !
 this
@@ -21300,7 +21301,7 @@ completion
 yield
 )
 {
-dbg_assert
+assert
 (
 false
 "
@@ -23712,7 +23713,7 @@ aPrefix
 "
 )
 {
-dbg_assert
+assert
 (
 aError
 instanceof
