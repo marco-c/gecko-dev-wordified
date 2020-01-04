@@ -998,7 +998,9 @@ h
 #
 include
 "
-nsEditorController
+mozilla
+/
+EditorController
 .
 h
 "
@@ -4710,7 +4712,7 @@ commands
 .
 static
 nsresult
-nsEditorControllerConstructor
+EditorControllerConstructor
 (
 nsISupports
 *
@@ -5092,7 +5094,7 @@ rv
 ;
 rv
 =
-nsEditorController
+EditorController
 :
 :
 RegisterEditorCommands
@@ -5207,7 +5209,7 @@ rv
 ;
 rv
 =
-nsEditorController
+EditorController
 :
 :
 RegisterEditingCommands
@@ -5849,7 +5851,7 @@ nsHTMLEditorConstructor
 kNS_EDITORCONTROLLER_CID
 false
 nullptr
-nsEditorControllerConstructor
+EditorControllerConstructor
 }
 {
 &
