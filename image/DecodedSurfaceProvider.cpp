@@ -227,7 +227,7 @@ IsFirstFrameDecode
 )
 "
 Use
-AnimationDecodingTask
+AnimationSurfaceProvider
 for
 animation
 decodes
