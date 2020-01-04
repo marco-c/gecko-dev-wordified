@@ -2777,7 +2777,7 @@ DataViewObject
 *
 >
 obj
-uint32_t
+double
 offset
 )
 ;
