@@ -15921,10 +15921,7 @@ JSTracer
 trc
 )
 {
-JS
-:
-:
-TraceEdge
+JS_CallObjectTracer
 (
 trc
 &

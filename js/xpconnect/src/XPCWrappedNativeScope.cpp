@@ -3202,10 +3202,7 @@ rt
 /
 /
 Do
-JS
-:
-:
-TraceEdge
+JS_CallTracer
 for
 all
 wrapped
@@ -3361,10 +3358,7 @@ popFront
 (
 )
 )
-JS
-:
-:
-TraceEdge
+JS_CallObjectTracer
 (
 trc
 &
