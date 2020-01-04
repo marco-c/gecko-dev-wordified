@@ -28642,6 +28642,9 @@ typePool
 size_t
 *
 baselineStubsOptimized
+size_t
+*
+uniqueIdMap
 )
 {
 *
@@ -28684,6 +28687,17 @@ mallocSizeOf
 )
 ;
 }
+*
+uniqueIdMap
++
+=
+uniqueIds_
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
+;
 }
 TypeZone
 :

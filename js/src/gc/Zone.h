@@ -1010,6 +1010,9 @@ typePool
 size_t
 *
 baselineStubsOptimized
+size_t
+*
+uniqueIdMap
 )
 ;
 void
