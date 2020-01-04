@@ -9370,6 +9370,10 @@ compositor
 "
 )
 ;
+mAPZC
+=
+nullptr
+;
 DestroyCompositor
 (
 )
