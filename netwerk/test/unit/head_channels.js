@@ -1499,7 +1499,7 @@ appId
 ;
 this
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 =
 inIsolatedMozBrowser
 ;

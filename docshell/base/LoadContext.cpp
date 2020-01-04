@@ -1020,11 +1020,11 @@ NS_IMETHODIMP
 LoadContext
 :
 :
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 {
 MOZ_ASSERT
@@ -1034,11 +1034,11 @@ mIsNotNull
 ;
 NS_ENSURE_ARG_POINTER
 (
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 =
 mOriginAttributes
 .

@@ -259,7 +259,7 @@ function
 saveAppStats
 (
 aAppId
-aIsInBrowser
+aIsInIsolatedMozBrowser
 aNetworkInfo
 aTimeStamp
 aRxBytes
@@ -320,7 +320,7 @@ aAppId
 "
 "
 +
-aIsInBrowser
+aIsInIsolatedMozBrowser
 +
 "
 "
@@ -368,7 +368,7 @@ NetworkStatsService
 saveStats
 (
 aAppId
-aIsInBrowser
+aIsInIsolatedMozBrowser
 "
 "
 aNetworkInfo

@@ -306,7 +306,7 @@ SaveNetworkStatsEvent
 uint32_t
 aAppId
 bool
-aIsInBrowser
+aIsInIsolatedMozBrowser
 nsMainThreadPtrHandle
 <
 nsINetworkInfo
@@ -325,9 +325,9 @@ mAppId
 (
 aAppId
 )
-mIsInBrowser
+mIsInIsolatedMozBrowser
 (
-aIsInBrowser
+aIsInIsolatedMozBrowser
 )
 mActiveNetworkInfo
 (
@@ -422,7 +422,7 @@ mNetworkStatsServiceProxy
 SaveAppStats
 (
 mAppId
-mIsInBrowser
+mIsInIsolatedMozBrowser
 mActiveNetworkInfo
 PR_Now
 (
@@ -445,7 +445,7 @@ uint32_t
 mAppId
 ;
 bool
-mIsInBrowser
+mIsInIsolatedMozBrowser
 ;
 nsMainThreadPtrHandle
 <

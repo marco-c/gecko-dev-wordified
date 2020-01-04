@@ -3590,7 +3590,7 @@ appId
 10
 ;
 var
-isInBrowser
+isInIsolatedMozBrowser
 =
 true
 ;
@@ -3770,14 +3770,14 @@ appId
 '
 &
 &
-isInBrowser
+isInIsolatedMozBrowser
 (
 )
 =
 =
 '
 +
-isInBrowser
+isInIsolatedMozBrowser
 +
 '
 &
@@ -3851,7 +3851,7 @@ AppsUtils
 createLoadContext
 (
 appId
-isInBrowser
+isInIsolatedMozBrowser
 )
 ;
 /

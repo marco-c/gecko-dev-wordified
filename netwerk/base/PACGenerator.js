@@ -928,7 +928,7 @@ myAppOrigin
 "
 &
 &
-isInBrowser
+isInIsolatedMozBrowser
 (
 )
 )

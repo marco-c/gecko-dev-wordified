@@ -400,7 +400,7 @@ uri
 uint32_t
 appId
 bool
-isInBrowser
+isInIsolatedMozBrowser
 nsPACManCallback
 *
 callback
@@ -475,7 +475,7 @@ uint32_t
 mAppId
 ;
 bool
-mIsInBrowser
+mIsInIsolatedMozBrowser
 ;
 nsString
 mAppOrigin

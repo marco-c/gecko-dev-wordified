@@ -7861,7 +7861,7 @@ mAppId
 (
 NECKO_NO_APP_ID
 )
-mIsInBrowser
+mIsInIsolatedMozBrowser
 (
 false
 )
@@ -9103,7 +9103,7 @@ localChannel
 &
 mAppId
 &
-mIsInBrowser
+mIsInIsolatedMozBrowser
 )
 ;
 }
@@ -24422,7 +24422,7 @@ the
 event
 is
 then
-dispathed
+dispatched
 to
 the
 main
@@ -24438,7 +24438,7 @@ new
 SaveNetworkStatsEvent
 (
 mAppId
-mIsInBrowser
+mIsInIsolatedMozBrowser
 mActiveNetworkInfo
 countRecv
 countSent

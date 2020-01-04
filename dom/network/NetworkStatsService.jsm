@@ -4934,7 +4934,7 @@ function
 saveStats
 (
 aAppId
-aIsInBrowser
+aIsInIsolatedMozBrowser
 aServiceType
 aNetworkInfo
 aTimeStamp
@@ -5108,7 +5108,7 @@ appId
 aAppId
 isInBrowser
 :
-aIsInBrowser
+aIsInIsolatedMozBrowser
 serviceType
 :
 aServiceType

@@ -18605,7 +18605,7 @@ if
 targetDS
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 )
 !
@@ -18613,7 +18613,7 @@ GetIsInBrowserElement
 accessingDS
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 )
 |
@@ -80641,15 +80641,15 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 {
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 =
 (
 GetInheritedFrameType

@@ -3963,7 +3963,7 @@ UINT32_MAX
 Gets
 AppId
 and
-isInBrowserElement
+isInIsolatedMozBrowserElement
 from
 channel
 '
@@ -3999,7 +3999,7 @@ uint32_t
 aAppID
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 /

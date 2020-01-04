@@ -2696,7 +2696,7 @@ uint32_t
 contextAppId
 ;
 bool
-contextInBrowserElement
+contextInIsolatedBrowser
 ;
 rv
 =
@@ -2720,10 +2720,10 @@ rv
 loadContext
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 &
-contextInBrowserElement
+contextInIsolatedBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2779,7 +2779,7 @@ contextAppId
 principalAppId
 &
 &
-contextInBrowserElement
+contextInIsolatedBrowser
 =
 =
 principalInIsolatedBrowser
@@ -5984,7 +5984,7 @@ uint32_t
 aAppID
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 {
 nsCOMPtr
@@ -6031,9 +6031,9 @@ rv
 loadContext
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 NS_ENSURE_SUCCESS

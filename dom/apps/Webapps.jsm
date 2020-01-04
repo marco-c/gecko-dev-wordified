@@ -23842,7 +23842,7 @@ appId
 aOldApp
 .
 installerAppId
-isInBrowserElement
+isInIsolatedMozBrowserElement
 :
 aOldApp
 .

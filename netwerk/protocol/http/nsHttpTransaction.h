@@ -2757,7 +2757,7 @@ uint32_t
 mAppId
 ;
 bool
-mIsInBrowser
+mIsInIsolatedMozBrowser
 ;
 #
 ifdef

@@ -543,7 +543,7 @@ nsIScriptSecurityManager
 .
 NO_APP_ID
 '
-isInBrowserElement
+isInIsolatedMozBrowserElement
 '
 :
 true

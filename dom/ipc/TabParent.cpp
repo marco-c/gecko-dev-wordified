@@ -15806,7 +15806,7 @@ bool
 )
 NO_IMPL
 NS_IMETHOD
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 bool
 *

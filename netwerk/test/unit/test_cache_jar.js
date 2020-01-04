@@ -240,7 +240,7 @@ notificationCallbacks
 appId
 :
 appId
-isInBrowserElement
+isInIsolatedMozBrowserElement
 :
 inIsolatedMozBrowser
 originAttributes
@@ -801,7 +801,7 @@ nc
 appId
 nc
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 )
 ;
 chan

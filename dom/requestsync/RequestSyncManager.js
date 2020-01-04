@@ -430,7 +430,7 @@ function
 aTask
 aOrigin
 aManifestURL
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 aState
 aOverwrittenMinInterval
 )
@@ -464,7 +464,7 @@ manifestURL
 aManifestURL
 isInBrowserElement
 :
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 state
 :
 aState
@@ -482,7 +482,7 @@ function
 aTask
 aOrigin
 aManifestURL
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 {
 debug
@@ -514,7 +514,7 @@ manifestURL
 aManifestURL
 isInBrowserElement
 :
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 }
 )
 ;
