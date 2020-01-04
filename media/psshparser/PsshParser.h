@@ -154,7 +154,7 @@ size_t
 )
 16
 )
-void
+bool
 ParseCENCInitData
 (
 const
