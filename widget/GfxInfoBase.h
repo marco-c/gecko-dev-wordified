@@ -483,6 +483,15 @@ Value
 )
 override
 ;
+NS_IMETHOD
+GetContentBackend
+(
+nsAString
+&
+aContentBackend
+)
+override
+;
 /
 /
 Initialization
