@@ -565,6 +565,8 @@ Intent
 intent
 )
 {
+try
+{
 if
 (
 intent
@@ -596,8 +598,6 @@ getAction
 )
 )
 ;
-try
-{
 if
 (
 !
