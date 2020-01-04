@@ -2693,7 +2693,8 @@ null
 equal
 (
 writenAlphaId
-null
+"
+"
 )
 ;
 equal
@@ -3002,7 +3003,8 @@ octet
 equal
 (
 writenAlphaId
-null
+"
+"
 )
 ;
 equal
@@ -3518,7 +3520,8 @@ equal
 writtenContact
 .
 alphaId
-null
+"
+"
 )
 ;
 equal
@@ -3526,7 +3529,8 @@ equal
 writtenContact
 .
 number
-null
+"
+"
 )
 ;
 /
