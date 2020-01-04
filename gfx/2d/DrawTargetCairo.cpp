@@ -6902,6 +6902,17 @@ mContext
 source
 )
 ;
+cairo_set_operator
+(
+mContext
+GfxOpToCairoOp
+(
+aOptions
+.
+mCompositionOp
+)
+)
+;
 cairo_mask
 (
 mContext
