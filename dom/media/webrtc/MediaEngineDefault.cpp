@@ -393,7 +393,10 @@ const
 nsTArray
 <
 const
-NormalizedConstraintSet
+dom
+:
+:
+MediaTrackConstraintSet
 *
 >
 &
@@ -415,7 +418,10 @@ MOZ_WEBRTC
 for
 (
 const
-auto
+dom
+:
+:
+MediaTrackConstraintSet
 *
 cs
 :
@@ -428,6 +434,7 @@ GetMinimumFitnessDistance
 (
 *
 cs
+false
 aDeviceId
 )
 ;
@@ -2117,7 +2124,10 @@ const
 nsTArray
 <
 const
-NormalizedConstraintSet
+dom
+:
+:
+MediaTrackConstraintSet
 *
 >
 &
@@ -2139,7 +2149,10 @@ MOZ_WEBRTC
 for
 (
 const
-auto
+dom
+:
+:
+MediaTrackConstraintSet
 *
 cs
 :
@@ -2152,6 +2165,7 @@ GetMinimumFitnessDistance
 (
 *
 cs
+false
 aDeviceId
 )
 ;
