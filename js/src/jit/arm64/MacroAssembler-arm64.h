@@ -3680,7 +3680,7 @@ B
 wasm
 :
 :
-JumpTarget
+TrapDesc
 )
 {
 MOZ_CRASH
@@ -3697,7 +3697,7 @@ B
 wasm
 :
 :
-JumpTarget
+TrapDesc
 Condition
 cond
 )
@@ -4792,7 +4792,7 @@ jump
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {

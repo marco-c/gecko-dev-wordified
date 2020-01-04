@@ -6450,7 +6450,7 @@ cond
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {
@@ -6478,7 +6478,7 @@ jmp
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {
@@ -6720,7 +6720,7 @@ label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {
@@ -6749,11 +6749,17 @@ do
 {
 append
 (
+wasm
+:
+:
+TrapSite
+(
 target
 jmp
 .
 offset
 (
+)
 )
 )
 ;

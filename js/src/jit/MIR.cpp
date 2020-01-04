@@ -8464,6 +8464,11 @@ MIRType
 toType
 SimdSign
 sign
+wasm
+:
+:
+TrapOffset
+trapOffset
 )
 {
 MIRType
@@ -8500,6 +8505,7 @@ alloc
 obj
 toType
 sign
+trapOffset
 )
 ;
 addTo
@@ -9240,6 +9246,7 @@ alloc
 obj
 toType
 sign
+trapOffset
 )
 ;
 addTo

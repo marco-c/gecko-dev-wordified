@@ -1035,7 +1035,7 @@ rhs
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -1063,7 +1063,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 JumpKind
 jumpKind

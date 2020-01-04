@@ -1587,6 +1587,13 @@ null
 ab
 )
 ;
+const
+RuntimeError
+=
+WebAssembly
+.
+RuntimeError
+;
 for
 (
 var
@@ -1761,7 +1768,7 @@ assertEq
 (
 e
 instanceof
-RangeError
+RuntimeError
 true
 )
 ;
@@ -1791,7 +1798,7 @@ assertEq
 (
 e
 instanceof
-RangeError
+RuntimeError
 true
 )
 ;
@@ -1821,7 +1828,7 @@ assertEq
 (
 e
 instanceof
-RangeError
+RuntimeError
 true
 )
 ;
@@ -1941,7 +1948,7 @@ simdCtor
 (
 )
 )
-RangeError
+RuntimeError
 )
 ;
 if
@@ -2001,7 +2008,7 @@ simdCtor
 (
 )
 )
-RangeError
+RuntimeError
 )
 ;
 if
@@ -2061,7 +2068,7 @@ simdCtor
 (
 )
 )
-RangeError
+RuntimeError
 )
 ;
 }

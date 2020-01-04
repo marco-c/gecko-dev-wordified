@@ -2827,7 +2827,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+Trap
 .
 .
 .
@@ -2976,7 +2976,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+Trap
 .
 .
 .

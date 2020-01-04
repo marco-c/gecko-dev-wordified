@@ -9152,7 +9152,7 @@ label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {
@@ -9188,11 +9188,17 @@ b
 ;
 append
 (
+wasm
+:
+:
+TrapSite
+(
 target
 b
 .
 getOffset
 (
+)
 )
 )
 ;

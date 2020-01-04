@@ -1433,7 +1433,7 @@ Label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 )
 {
 MOZ_CRASH

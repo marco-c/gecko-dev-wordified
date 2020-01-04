@@ -2461,6 +2461,11 @@ cond
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -2475,8 +2480,7 @@ Address
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 {

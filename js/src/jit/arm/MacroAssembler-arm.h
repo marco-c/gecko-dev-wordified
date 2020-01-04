@@ -2935,7 +2935,7 @@ ma_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -5165,7 +5165,7 @@ jump
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {

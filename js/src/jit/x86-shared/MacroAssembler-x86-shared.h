@@ -3622,7 +3622,7 @@ jump
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 {

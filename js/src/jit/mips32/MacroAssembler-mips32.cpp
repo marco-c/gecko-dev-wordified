@@ -1498,7 +1498,7 @@ ma_addTestOverflow
 wasm
 :
 :
-JumpTarget
+TrapDesc
 >
 (
 Register
@@ -1510,7 +1510,7 @@ rt
 wasm
 :
 :
-JumpTarget
+TrapDesc
 overflow
 )
 ;
@@ -1706,7 +1706,7 @@ ma_addTestOverflow
 wasm
 :
 :
-JumpTarget
+TrapDesc
 >
 (
 Register
@@ -1718,7 +1718,7 @@ imm
 wasm
 :
 :
-JumpTarget
+TrapDesc
 overflow
 )
 ;

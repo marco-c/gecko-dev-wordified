@@ -423,6 +423,11 @@ sigId
 wasm
 :
 :
+TrapOffset
+trapOffset
+wasm
+:
+:
 FuncOffsets
 *
 offsets

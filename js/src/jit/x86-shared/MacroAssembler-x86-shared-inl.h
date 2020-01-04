@@ -2791,6 +2791,11 @@ label
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -2805,8 +2810,7 @@ Address
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 {
@@ -2909,6 +2913,8 @@ typename
 T
 typename
 S
+typename
+L
 >
 void
 MacroAssembler
@@ -2926,8 +2932,7 @@ const
 S
 &
 rhs
-Label
-*
+L
 label
 )
 {

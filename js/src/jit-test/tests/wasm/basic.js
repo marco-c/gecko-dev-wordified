@@ -7732,7 +7732,9 @@ v2i
 (
 bad
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -7746,7 +7748,9 @@ i2i
 bad
 0
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -7760,7 +7764,9 @@ i2v
 bad
 0
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 )
 ;
 }

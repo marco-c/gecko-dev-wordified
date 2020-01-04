@@ -129,6 +129,13 @@ quit
 ;
 }
 const
+RuntimeError
+=
+WebAssembly
+.
+RuntimeError
+;
+const
 INT32_MAX
 =
 Math
@@ -1734,7 +1741,7 @@ f32l
 -
 1
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -1747,7 +1754,7 @@ f32l
 (
 SIZE
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -1762,7 +1769,7 @@ SIZE
 -
 1
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -1777,7 +1784,7 @@ SIZE
 -
 2
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -1792,7 +1799,7 @@ SIZE
 -
 3
 )
-RangeError
+RuntimeError
 )
 ;
 var
@@ -1974,7 +1981,7 @@ ArrayBuffer
 (
 0
 )
-RangeError
+RuntimeError
 )
 ;
 /
@@ -2197,7 +2204,7 @@ SIZE
 3
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2213,7 +2220,7 @@ SIZE
 2
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2229,7 +2236,7 @@ SIZE
 1
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2243,7 +2250,7 @@ f32s
 SIZE
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 for
@@ -2426,7 +2433,7 @@ i32
 -
 1
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2439,7 +2446,7 @@ i32
 (
 SIZE
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2454,7 +2461,7 @@ SIZE
 -
 1
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2469,7 +2476,7 @@ SIZE
 -
 2
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2484,7 +2491,7 @@ SIZE
 -
 3
 )
-RangeError
+RuntimeError
 )
 ;
 /
@@ -2650,7 +2657,7 @@ SIZE
 3
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2666,7 +2673,7 @@ SIZE
 2
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2682,7 +2689,7 @@ SIZE
 1
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 assertThrowsInstanceOf
@@ -2698,7 +2705,7 @@ SIZE
 0
 vec
 )
-RangeError
+RuntimeError
 )
 ;
 for
@@ -3467,7 +3474,7 @@ SIZE
 +
 1
 )
-RangeError
+RuntimeError
 )
 ;
 assertEqX4
@@ -3526,7 +3533,7 @@ SIZE
 +
 1
 )
-RangeError
+RuntimeError
 )
 ;
 }
@@ -3802,7 +3809,7 @@ f
 assertThrowsInstanceOf
 (
 f
-RangeError
+RuntimeError
 )
 ;
 CheckNotModified

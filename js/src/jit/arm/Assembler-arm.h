@@ -9925,7 +9925,7 @@ as_b
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 Condition
 c
@@ -10823,7 +10823,7 @@ label
 wasm
 :
 :
-JumpTarget
+TrapDesc
 target
 )
 ;
