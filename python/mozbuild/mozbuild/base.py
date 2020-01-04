@@ -1308,17 +1308,10 @@ replace
 CONFIG_GUESS
 '
                 
-MozbuildObject
+self
 .
 resolve_config_guess
 (
-self
-.
-mozconfig
-                                                    
-self
-.
-topsrcdir
 )
 )
         
@@ -2601,18 +2594,17 @@ path
 return
 path
     
-staticmethod
-    
 def
 resolve_config_guess
 (
-mozconfig
-topsrcdir
+self
 )
 :
         
 make_extra
 =
+self
+.
 mozconfig
 [
 '
@@ -2697,6 +2689,8 @@ path
 .
 join
 (
+self
+.
 topsrcdir
 '
 build
@@ -2765,6 +2759,8 @@ o
 =
 MozbuildObject
 (
+self
+.
 topsrcdir
 None
 None
@@ -2795,6 +2791,8 @@ check_output
 args
 cwd
 =
+self
+.
 topsrcdir
 )
 .
