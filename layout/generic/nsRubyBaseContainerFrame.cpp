@@ -2225,16 +2225,6 @@ MoveOverflowToChildList
 )
 ;
 }
-/
-/
-Clear
-leadings
-mBStartLeading
-=
-mBEndLeading
-=
-0
-;
 WritingMode
 lineWM
 =
