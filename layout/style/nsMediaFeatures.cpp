@@ -2736,6 +2736,13 @@ device
 pixel
 -
 ratio
+(
+controlled
+with
+its
+own
+pref
+)
 :
 {
 &
@@ -2755,6 +2762,11 @@ nsMediaFeature
 :
 :
 eHasWebkitPrefix
+|
+nsMediaFeature
+:
+:
+eWebkitDevicePixelRatioPrefEnabled
 {
 nullptr
 }
