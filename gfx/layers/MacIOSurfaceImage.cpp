@@ -178,7 +178,7 @@ MacIOSurfaceImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -217,6 +217,11 @@ TextureFlags
 :
 DEFAULT
 aForwarder
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 }

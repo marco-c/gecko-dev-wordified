@@ -196,9 +196,11 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 =
@@ -248,7 +250,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -348,9 +350,11 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 =
@@ -394,7 +398,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -452,7 +456,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -668,7 +672,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -744,9 +748,11 @@ MemoryDIBTextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags
@@ -1124,9 +1130,11 @@ ShmemDIBTextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags
@@ -1475,7 +1483,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )

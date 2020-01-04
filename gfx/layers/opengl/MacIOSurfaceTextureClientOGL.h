@@ -226,7 +226,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 override
@@ -235,7 +235,7 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 override

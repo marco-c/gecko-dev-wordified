@@ -9547,10 +9547,10 @@ SetShadowManager
 shadowManager
 )
 ;
-lf
+lm
 -
 >
-IdentifyTextureHost
+UpdateTextureFactoryIdentifier
 (
 textureFactoryIdentifier
 )

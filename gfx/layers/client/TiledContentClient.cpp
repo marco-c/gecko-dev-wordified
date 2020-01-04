@@ -7045,7 +7045,7 @@ GetTexturePool
 mManager
 -
 >
-GetCompositorBackendType
+AsShadowForwarder
 (
 )
 gfxPlatform

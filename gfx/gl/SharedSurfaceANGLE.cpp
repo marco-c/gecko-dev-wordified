@@ -1758,7 +1758,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator
@@ -1869,7 +1869,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator

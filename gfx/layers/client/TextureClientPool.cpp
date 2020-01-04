@@ -333,6 +333,8 @@ TextureClientPool
 (
 LayersBackend
 aLayersBackend
+int32_t
+aMaxTextureSize
 gfx
 :
 :
@@ -361,6 +363,10 @@ aAllocator
 mBackend
 (
 aLayersBackend
+)
+mMaxTextureSize
+(
+aMaxTextureSize
 )
 mFormat
 (
@@ -1033,6 +1039,7 @@ mSurfaceAllocator
 mFormat
 mSize
 mBackend
+mMaxTextureSize
 BackendSelector
 :
 :

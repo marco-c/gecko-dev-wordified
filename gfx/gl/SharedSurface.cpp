@@ -189,6 +189,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -1724,7 +1735,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator

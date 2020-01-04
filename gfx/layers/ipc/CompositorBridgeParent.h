@@ -1379,6 +1379,17 @@ aShmem
 )
 override
 ;
+virtual
+bool
+RecvSyncWithCompositor
+(
+)
+override
+{
+return
+true
+;
+}
 }
 ;
 class

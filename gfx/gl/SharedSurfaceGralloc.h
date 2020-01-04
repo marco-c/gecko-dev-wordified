@@ -136,7 +136,7 @@ namespace
 layers
 {
 class
-ClientIPCAllocator
+LayersIPCChannel
 ;
 class
 TextureClient
@@ -190,7 +190,7 @@ flags
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 )
@@ -242,7 +242,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 mAllocator
 ;
@@ -279,7 +279,7 @@ egl
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 layers
@@ -426,7 +426,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator

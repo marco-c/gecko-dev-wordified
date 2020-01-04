@@ -1395,7 +1395,7 @@ pixel
 class
 TexClientFactory
 {
-ClientIPCAllocator
+CompositableForwarder
 *
 const
 mAllocator
@@ -1430,7 +1430,7 @@ public
 :
 TexClientFactory
 (
-ClientIPCAllocator
+CompositableForwarder
 *
 allocator
 bool
@@ -1662,7 +1662,7 @@ TexClientFromReadback
 SharedSurface
 *
 src
-ClientIPCAllocator
+CompositableForwarder
 *
 allocator
 TextureFlags
@@ -2670,14 +2670,14 @@ mShSurfClient
 GetAllocator
 (
 )
--
->
-AsCompositableForwarder
-(
-)
 !
 =
 GetForwarder
+(
+)
+-
+>
+GetTextureForwarder
 (
 )
 )

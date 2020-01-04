@@ -986,9 +986,11 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags
@@ -1020,7 +1022,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -1202,7 +1204,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )

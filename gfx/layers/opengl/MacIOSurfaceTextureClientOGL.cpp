@@ -603,7 +603,7 @@ MacIOSurfaceTextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 {
@@ -618,7 +618,7 @@ MacIOSurfaceTextureData
 :
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 )
 {

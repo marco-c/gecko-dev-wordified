@@ -361,7 +361,7 @@ D3D11ShareHandleImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -824,6 +824,11 @@ aTextureFlags
 aAllocFlags
 mDevice
 mSurfaceAllocator
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 }

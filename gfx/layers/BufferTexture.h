@@ -203,7 +203,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -213,7 +213,7 @@ BufferTextureData
 *
 CreateForYCbCr
 (
-ClientIPCAllocator
+KnowsCompositor
 *
 aAllocator
 gfx
@@ -273,7 +273,7 @@ BufferTextureData
 *
 CreateForYCbCrWithBufferSize
 (
-ClientIPCAllocator
+KnowsCompositor
 *
 aAllocator
 int32_t
@@ -448,7 +448,7 @@ BufferTextureData
 *
 CreateInternal
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 const

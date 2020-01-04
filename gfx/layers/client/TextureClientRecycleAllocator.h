@@ -266,7 +266,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -345,7 +345,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -442,7 +442,7 @@ public
 explicit
 TextureClientRecycleAllocator
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 )
@@ -538,7 +538,7 @@ aAllocFlags
 ;
 RefPtr
 <
-TextureForwarder
+KnowsCompositor
 >
 mSurfaceAllocator
 ;

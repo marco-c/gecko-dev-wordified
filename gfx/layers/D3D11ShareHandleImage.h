@@ -169,7 +169,7 @@ public
 explicit
 D3D11RecycleAllocator
 (
-TextureForwarder
+KnowsCompositor
 *
 aAllocator
 ID3D11Device
@@ -369,7 +369,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

@@ -640,7 +640,7 @@ GrallocTextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -694,7 +694,7 @@ GrallocTextureData
 :
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -1668,7 +1668,7 @@ BackendType
 aMoz2dBackend
 uint32_t
 aUsage
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -1957,7 +1957,7 @@ gfx
 :
 BackendType
 aMoz2dBackend
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -2287,7 +2287,7 @@ gfx
 :
 IntSize
 aCbCrSize
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -2366,7 +2366,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -2580,7 +2580,7 @@ GrallocTextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 TextureFlags

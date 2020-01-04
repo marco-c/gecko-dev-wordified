@@ -236,7 +236,7 @@ GPUVideoTextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )
@@ -270,7 +270,7 @@ GPUVideoTextureData
 :
 Forget
 (
-ClientIPCAllocator
+LayersIPCChannel
 *
 aAllocator
 )

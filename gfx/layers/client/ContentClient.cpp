@@ -1914,6 +1914,12 @@ mTextureClient
 >
 CreateSimilar
 (
+mForwarder
+-
+>
+GetCompositorBackendType
+(
+)
 mTextureFlags
 |
 ExtraTextureFlags

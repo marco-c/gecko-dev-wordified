@@ -640,6 +640,11 @@ GetForwarder
 )
 -
 >
+GetTextureForwarder
+(
+)
+-
+>
 UsesImageBridge
 (
 )
@@ -745,6 +750,11 @@ aAsyncTransactionWaiter
 MOZ_ASSERT
 (
 GetForwarder
+(
+)
+-
+>
+GetTextureForwarder
 (
 )
 -
@@ -1609,6 +1619,11 @@ size
 GetForwarder
 (
 )
+-
+>
+GetTextureForwarder
+(
+)
 mTextureFlags
 )
 ;
@@ -1665,6 +1680,11 @@ GetOriginPos
 (
 )
 GetForwarder
+(
+)
+-
+>
+GetTextureForwarder
 (
 )
 mTextureFlags

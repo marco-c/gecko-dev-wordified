@@ -158,7 +158,7 @@ TextureClient
 *
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -170,7 +170,7 @@ TextureClient
 *
 GetD3D9TextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )

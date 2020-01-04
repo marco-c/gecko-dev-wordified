@@ -286,7 +286,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 >
 &
 allocator
@@ -352,7 +352,7 @@ layers
 :
 TextureFlags
 flags
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 )
@@ -716,7 +716,7 @@ egl
 layers
 :
 :
-ClientIPCAllocator
+LayersIPCChannel
 *
 allocator
 layers

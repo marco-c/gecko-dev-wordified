@@ -817,7 +817,7 @@ IMFYCbCrImage
 :
 GetD3D9TextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -1069,7 +1069,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-aForwarder
 TextureFlags
 :
 :
@@ -1095,6 +1094,11 @@ TextureFlags
 :
 DEFAULT
 aForwarder
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 return
@@ -1108,7 +1112,7 @@ IMFYCbCrImage
 :
 GetTextureClient
 (
-TextureForwarder
+KnowsCompositor
 *
 aForwarder
 )
@@ -1495,7 +1499,6 @@ DXGIYCbCrTextureData
 :
 Create
 (
-aForwarder
 TextureFlags
 :
 :
@@ -1518,6 +1521,11 @@ TextureFlags
 :
 DEFAULT
 aForwarder
+-
+>
+GetTextureForwarder
+(
+)
 )
 ;
 return
