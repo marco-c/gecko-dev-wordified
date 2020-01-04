@@ -2514,14 +2514,6 @@ DoGetCounterReset
 (
 )
 ;
-already_AddRefed
-<
-CSSValue
->
-DoGetMarkerOffset
-(
-)
-;
 /
 *
 Quotes

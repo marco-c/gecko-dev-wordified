@@ -20765,16 +20765,6 @@ mValue
 aValue
 ;
 }
-nsStyleCoord
-mMarkerOffset
-;
-/
-/
-[
-reset
-]
-coord
-auto
 protected
 :
 nsTArray

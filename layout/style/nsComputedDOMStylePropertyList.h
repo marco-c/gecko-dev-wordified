@@ -1254,11 +1254,6 @@ COMPUTED_STYLE_PROP
 margin_top
 MarginTopWidth
 )
-COMPUTED_STYLE_PROP
-(
-marker_offset
-MarkerOffset
-)
 /
 /
 COMPUTED_STYLE_PROP
