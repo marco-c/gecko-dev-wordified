@@ -844,6 +844,8 @@ client
 /
 shared
 /
+devtools
+-
 file
 -
 watcher
