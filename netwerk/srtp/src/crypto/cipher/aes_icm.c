@@ -2849,8 +2849,7 @@ if
 (
 (
 (
-unsigned
-long
+uintptr_t
 )
 buf
 )
