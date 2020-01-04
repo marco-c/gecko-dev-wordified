@@ -357,6 +357,9 @@ PLArenaPool
 *
 poolp
 ;
+SECStatus
+rv
+;
 poolp
 =
 cmsg
@@ -515,6 +518,8 @@ poolp
 SECItem
 )
 ;
+rv
+=
 SECITEM_CopyItem
 (
 poolp
@@ -529,6 +534,18 @@ subjectKeyID
 subjKeyID
 )
 ;
+if
+(
+rv
+!
+=
+SECSuccess
+)
+{
+goto
+loser
+;
+}
 signerinfo
 -
 >

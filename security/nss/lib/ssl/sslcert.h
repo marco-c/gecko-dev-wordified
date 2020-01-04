@@ -204,9 +204,6 @@ authType
 ;
 union
 {
-#
-ifndef
-NSS_DISABLE_ECC
 /
 *
 For
@@ -270,8 +267,6 @@ care
 ECName
 namedCurve
 ;
-#
-endif
 }
 u
 ;
@@ -395,6 +390,17 @@ const
 sslServerCertType
 *
 slot
+)
+;
+extern
+sslServerCert
+*
+ssl_CopyServerCert
+(
+const
+sslServerCert
+*
+oc
 )
 ;
 extern

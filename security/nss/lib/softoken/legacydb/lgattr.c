@@ -772,6 +772,14 @@ return
 CKR_BUFFER_TOO_SMALL
 ;
 }
+if
+(
+value
+!
+=
+NULL
+)
+{
 PORT_Memcpy
 (
 attr
@@ -782,6 +790,7 @@ value
 len
 )
 ;
+}
 attr
 -
 >

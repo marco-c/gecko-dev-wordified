@@ -1433,10 +1433,7 @@ ECCurve_noName
 ;
 /
 *
-For
-named
-curves
-fill
+Fill
 out
 curveOID
 *

@@ -1648,6 +1648,11 @@ email
 hash
 *
 /
+if
+(
+subjects
+)
+{
 nssList_Remove
 (
 subjects
@@ -1789,6 +1794,7 @@ email
 ;
 #
 endif
+}
 }
 nssrv
 =

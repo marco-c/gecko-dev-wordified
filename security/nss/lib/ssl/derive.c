@@ -389,6 +389,8 @@ char
 sr
 PRBool
 isTLS
+HASH_HashType
+tls12HashType
 PRBool
 isExport
 )
@@ -977,7 +979,7 @@ status
 =
 TLS_P_hash
 (
-HASH_AlgSHA256
+tls12HashType
 &
 pwSpec
 -
@@ -2729,6 +2731,8 @@ SECItem
 pms
 PRBool
 isTLS
+HASH_HashType
+tls12HashType
 PRBool
 isRSA
 )
@@ -2974,7 +2978,7 @@ rv
 =
 TLS_P_hash
 (
-HASH_AlgSHA256
+tls12HashType
 pms
 "
 master
@@ -3775,9 +3779,6 @@ testecdhe
 =
 PR_FALSE
 ;
-#
-ifndef
-NSS_DISABLE_ECC
 SECKEYECParams
 ecParams
 =
@@ -3787,8 +3788,6 @@ NULL
 0
 }
 ;
-#
-endif
 if
 (
 !
@@ -4587,9 +4586,6 @@ PR_FALSE
 )
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 for
 (
 ;
@@ -5168,13 +5164,6 @@ data
 NULL
 ;
 }
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 if
 (
 pms
@@ -5250,9 +5239,6 @@ PR_FALSE
 )
 ;
 }
-#
-ifndef
-NSS_DISABLE_ECC
 if
 (
 ecParams
@@ -5277,13 +5263,6 @@ data
 NULL
 ;
 }
-#
-endif
-/
-*
-NSS_DISABLE_ECC
-*
-/
 if
 (
 srvPubkey
