@@ -640,6 +640,13 @@ if
 view
 )
 {
+CustomizableUI
+.
+hidePanelForNode
+(
+view
+)
+;
 view
 .
 remove

@@ -98,10 +98,4 @@ getManifest
 )
 )
 ;
-window
-.
-close
-(
-)
-;
 }
