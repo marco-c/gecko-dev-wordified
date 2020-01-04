@@ -3448,6 +3448,15 @@ build
             
 )
             
+build_parameters
+[
+'
+build_url
+'
+]
+=
+build_url
+            
 #
 img_url
 is
@@ -3498,6 +3507,15 @@ img
 )
             
 )
+            
+build_parameters
+[
+'
+img_url
+'
+]
+=
+img_url
             
 define_task
 =
@@ -3896,24 +3914,6 @@ copy
 (
 build_parameters
 )
-                
-test_parameters
-[
-'
-build_url
-'
-]
-=
-build_url
-                
-test_parameters
-[
-'
-img_url
-'
-]
-=
-img_url
                 
 if
 tests_url
