@@ -6222,7 +6222,7 @@ flex
 parent
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;
@@ -6282,7 +6282,7 @@ mFlex
 box
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;

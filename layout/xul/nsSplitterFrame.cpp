@@ -3563,7 +3563,7 @@ flex
 childBox
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;

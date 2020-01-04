@@ -2361,7 +2361,7 @@ minPos
 thumbBox
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 >

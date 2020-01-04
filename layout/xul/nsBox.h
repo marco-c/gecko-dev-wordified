@@ -168,7 +168,7 @@ override
 ;
 virtual
 nscoord
-GetFlex
+GetXULFlex
 (
 )
 override

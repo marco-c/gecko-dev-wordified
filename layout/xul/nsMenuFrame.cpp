@@ -7889,7 +7889,7 @@ if
 widthSet
 &
 &
-GetFlex
+GetXULFlex
 (
 )
 =
