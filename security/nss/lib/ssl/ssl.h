@@ -3112,7 +3112,7 @@ signature
 schemes
 split
 the
-SignatureScheme
+SSLSignatureScheme
 into
 an
 most

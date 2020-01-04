@@ -1892,6 +1892,9 @@ ValuesIn
 kDummySignatureSchemesParamsArr
 )
 ;
+#
+ifndef
+NSS_DISABLE_TLS_1_3
 static
 TlsSignatureScheme
 kSignatureSchemesParamsArr
@@ -1909,6 +1912,8 @@ kTlsSignatureRsaPssSha384
 kTlsSignatureRsaPssSha512
 }
 ;
+#
+endif
 INSTANTIATE_CIPHER_TEST_P
 (
 RC4
@@ -2019,6 +2024,9 @@ TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 )
 ;
+#
+ifndef
+NSS_DISABLE_TLS_1_3
 INSTANTIATE_CIPHER_TEST_P
 (
 TLS13
@@ -2073,6 +2081,8 @@ kTlsSignatureEcdsaSecp384r1Sha384
 TLS_AES_256_GCM_SHA384
 )
 ;
+#
+endif
 /
 /
 Fields
