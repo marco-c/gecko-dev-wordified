@@ -81,48 +81,13 @@ marionette_driver
 errors
 import
 (
-        
+    
 MarionetteException
-TimeoutException
-        
-JavascriptException
-NoSuchElementException
-NoSuchWindowException
-        
-StaleElementException
+    
 ScriptTimeoutException
-ElementNotVisibleException
-        
-NoSuchFrameException
-InvalidElementStateException
-NoAlertPresentException
-        
-InvalidCookieDomainException
-UnableToSetCookieException
-InvalidSelectorException
-        
-MoveTargetOutOfBoundsException
-        
+    
+TimeoutException
 )
-from
-marionette_driver
-.
-marionette
-import
-Marionette
-from
-marionette_driver
-.
-wait
-import
-Wait
-from
-marionette_driver
-.
-expected
-import
-element_present
-element_not_present
 from
 mozlog
 import
@@ -243,7 +208,6 @@ Exception
 "
 "
 "
-    
 The
 test
 was
@@ -255,8 +219,7 @@ it
 didn
 '
 t
-!
-    
+.
 "
 "
 "
@@ -706,17 +669,8 @@ predicate
 "
 "
 "
-Given
-a
-predicate
-passed
+Skip
 the
-current
-protocol
-level
-skip
-the
-    
 test
 if
 the
@@ -724,6 +678,10 @@ predicate
 does
 not
 match
+the
+current
+protocol
+level
 .
 "
 "
@@ -1041,6 +999,7 @@ kwargs
 )
 :
     
+r
 "
 "
 "
@@ -1523,6 +1482,7 @@ Internal
 :
 for
 MetaParameterized
+.
 "
 "
 "
@@ -1604,6 +1564,12 @@ class
 to
 use
 decorators
+.
+    
+It
+can
+be
+used
 like
 :
 func
@@ -1740,7 +1706,7 @@ on
 s
 "
 %
-                                        
+                                       
 (
 wrapper
 .
@@ -2279,7 +2245,7 @@ __unittest_skip__
 False
 )
 or
-            
+                
 getattr
 (
 testMethod
@@ -2318,8 +2284,8 @@ __unittest_skip_why__
 '
 '
 )
-                            
 or
+                            
 getattr
 (
 testMethod
@@ -2603,6 +2569,9 @@ has
 no
 addUnexpectedSuccess
 method
+"
+                                      
+"
 reporting
 as
 failures
@@ -2840,8 +2809,7 @@ filename
 "
 "
 "
-        
-Determines
+Determine
 if
 the
 specified
@@ -2851,11 +2819,11 @@ be
 handled
 by
 this
-        
 test
 class
-;
-this
+.
+        
+This
 is
 done
 by
@@ -2866,7 +2834,6 @@ match
 for
 the
 filename
-        
 using
 cls
 .
@@ -2922,8 +2889,7 @@ testvars
 "
 "
 "
-        
-Adds
+Add
 all
 the
 tests
@@ -2936,7 +2902,6 @@ the
 specified
 suite
 .
-        
 "
 "
 "
@@ -3449,7 +3414,6 @@ execute_script
 "
 "
 "
-            
 let
 SECURITY_PREF
 =
@@ -3459,7 +3423,6 @@ security
 turn_off_all_security_so_that_viruses_can_take_over_this_computer
 "
 ;
-            
 Components
 .
 utils
@@ -3481,7 +3444,6 @@ jsm
 "
 )
 ;
-            
 Preferences
 .
 set
@@ -3490,7 +3452,6 @@ SECURITY_PREF
 true
 )
 ;
-            
 if
 (
 !
@@ -3504,7 +3465,7 @@ specialPowersObserver
 )
 )
 {
-              
+  
 let
 loader
 =
@@ -3526,7 +3487,7 @@ loader
 1
 "
 ]
-                
+    
 .
 getService
 (
@@ -3537,7 +3498,7 @@ interfaces
 mozIJSSubScriptLoader
 )
 ;
-              
+  
 loader
 .
 loadSubScript
@@ -3555,11 +3516,11 @@ SpecialPowersObserver
 .
 jsm
 "
-                
+    
 testUtils
 )
 ;
-              
+  
 testUtils
 .
 specialPowersObserver
@@ -3571,7 +3532,7 @@ SpecialPowersObserver
 (
 )
 ;
-              
+  
 testUtils
 .
 specialPowersObserver
@@ -3580,9 +3541,7 @@ init
 (
 )
 ;
-            
 }
-            
 "
 "
 "
@@ -3599,22 +3558,22 @@ None
 )
 :
         
-'
-'
-'
-        
+"
+"
+"
 Run
 a
 JavaScript
 test
 file
-and
-collect
+.
+        
+It
+collects
 its
 set
 of
 assertions
-        
 into
 the
 current
@@ -3670,9 +3629,9 @@ self
 marionette
 .
         
-'
-'
-'
+"
+"
+"
         
 marionette
 =
@@ -3842,7 +3801,6 @@ search
 (
 js
 )
-;
         
 if
 head_js
@@ -3891,7 +3849,6 @@ read
 )
 +
 js
-;
         
 context
 =
@@ -4220,10 +4177,10 @@ self
 .
 assertTrue
 (
-not
 '
 timeout
 '
+not
 in
 filename
                             
@@ -4309,6 +4266,7 @@ diag
                     
 name
 =
+(
 "
 got
 false
@@ -4327,12 +4285,14 @@ name
 is
 None
 else
+                            
 failure
 [
 '
 name
 '
 ]
+)
                     
 self
 .
@@ -4389,6 +4349,7 @@ diag
                     
 name
 =
+(
 "
 got
 false
@@ -4407,12 +4368,14 @@ name
 is
 None
 else
+                            
 failure
 [
 '
 name
 '
 ]
+)
                     
 self
 .
@@ -4474,6 +4437,7 @@ diag
                     
 name
 =
+(
 "
 got
 true
@@ -4492,12 +4456,14 @@ name
 is
 None
 else
+                            
 failure
 [
 '
 name
 '
 ]
+)
                     
 self
 .
@@ -4615,8 +4581,8 @@ results
 passed
 '
 ]
-                            
 +
+                            
 len
 (
 results
@@ -4626,8 +4592,8 @@ failures
 '
 ]
 )
-                            
 +
+                            
 len
 (
 results
@@ -4637,8 +4603,8 @@ expectedFailures
 '
 ]
 )
-                            
 +
+                            
 len
 (
 results
@@ -4819,6 +4785,7 @@ filepath
 suite
 testloader
 marionette
+                           
 testvars
 *
 *
@@ -5013,7 +4980,7 @@ ClassType
 )
 )
 and
-                
+                    
 issubclass
 (
 obj
@@ -5496,6 +5463,7 @@ filepath
 suite
 testloader
 marionette
+                           
 testvars
 *
 *

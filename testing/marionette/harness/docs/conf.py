@@ -94,8 +94,9 @@ the
 default
 .
 import
-sys
 os
+import
+sys
 #
 If
 extensions
@@ -1460,6 +1461,7 @@ output
 latex_elements
 =
 {
+    
 #
 The
 paper
@@ -1474,6 +1476,7 @@ a4paper
 '
 )
 .
+    
 #
 '
 papersize
@@ -1482,6 +1485,7 @@ papersize
 '
 letterpaper
 '
+    
 #
 The
 font
@@ -1499,6 +1503,7 @@ or
 '
 )
 .
+    
 #
 '
 pointsize
@@ -1507,6 +1512,7 @@ pointsize
 '
 10pt
 '
+    
 #
 Additional
 stuff
@@ -1515,6 +1521,7 @@ the
 LaTeX
 preamble
 .
+    
 #
 '
 preamble
@@ -1555,7 +1562,7 @@ manual
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1572,7 +1579,7 @@ Python
 Client
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -1900,7 +1907,7 @@ category
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1908,15 +1915,13 @@ index
 '
 MarionettePythonClient
 '
-u
 '
 Marionette
 Python
 Client
 Documentation
 '
-   
-u
+     
 '
 Mozilla
 Automation
@@ -1927,6 +1932,7 @@ team
 '
 MarionettePythonClient
 '
+     
 '
 One
 line
@@ -1935,7 +1941,6 @@ of
 project
 .
 '
-   
 '
 Miscellaneous
 '
