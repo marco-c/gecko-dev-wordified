@@ -400,6 +400,9 @@ nsAString
 aGMPName
 bool
 aInPrivateBrowsing
+GMPCrashHelper
+*
+aHelper
 )
 ;
 /
@@ -1109,6 +1112,12 @@ mTopLevelOrigin
 ;
 nsString
 mGMPName
+;
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
 ;
 bool
 mInPrivateBrowsing
