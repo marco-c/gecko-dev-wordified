@@ -172,7 +172,7 @@ ErrorResult
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
