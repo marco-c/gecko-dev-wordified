@@ -80,7 +80,7 @@ mozilla
 .
 net
 /
-v0
+v2
 /
 nightly
 /
