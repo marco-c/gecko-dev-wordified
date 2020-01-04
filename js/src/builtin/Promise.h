@@ -469,8 +469,13 @@ dependentPromises
 JSContext
 *
 cx
-AutoValueVector
-&
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 values
 )
 ;

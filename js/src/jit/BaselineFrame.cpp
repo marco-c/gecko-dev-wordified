@@ -681,8 +681,13 @@ BaselineFrame
 :
 copyRawFrameSlots
 (
-AutoValueVector
-*
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 vec
 )
 const
@@ -710,8 +715,7 @@ if
 (
 !
 vec
--
->
+.
 resize
 (
 nformals
@@ -728,8 +732,7 @@ mozilla
 PodCopy
 (
 vec
--
->
+.
 begin
 (
 )
@@ -754,10 +757,7 @@ i
 +
 +
 )
-(
-*
 vec
-)
 [
 nformals
 +
