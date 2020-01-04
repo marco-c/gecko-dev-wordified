@@ -589,7 +589,7 @@ the
 buffer
 is
 not
-neutered
+detached
 on
 the
 *

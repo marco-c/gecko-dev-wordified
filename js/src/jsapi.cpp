@@ -4823,7 +4823,7 @@ cross
 compartment
 wrapper
 .
-Neuter
+Nuke
 it
 .
 destination

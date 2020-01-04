@@ -758,8 +758,8 @@ unattached
 if
 their
 buffer
-is
-neutered
+becomes
+detached
 .
 *
 *

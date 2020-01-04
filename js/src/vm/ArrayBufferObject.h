@@ -340,7 +340,7 @@ the
 former
 can
 be
-neutered
+detached
 and
 the
 latter
@@ -350,9 +350,9 @@ Hence
 they
 have
 been
+/
+/
 separated
-/
-/
 completely
 .
 /
@@ -897,7 +897,7 @@ BufferKind
 :
 :
 KIND_MASK
-NEUTERED
+DETACHED
 =
 0x4
 /
@@ -1092,7 +1092,7 @@ static_assert
 JS_ARRAYBUFFER_NEUTERED_FLAG
 =
 =
-NEUTERED
+DETACHED
 "
 self
 -
@@ -1109,7 +1109,7 @@ the
 "
 "
 correct
-NEUTERED
+DETACHED
 bit
 value
 "
@@ -1959,7 +1959,7 @@ ArrayBuffer
 .
 prototype
 and
-neutered
+detached
 ArrayBuffers
 .
 *
@@ -2085,7 +2085,7 @@ flags
 (
 )
 &
-NEUTERED
+DETACHED
 ;
 }
 static
@@ -2168,16 +2168,6 @@ getFixedSlotOffset
 (
 DATA_SLOT
 )
-;
-}
-static
-uint32_t
-neuteredFlag
-(
-)
-{
-return
-NEUTERED
 ;
 }
 void
@@ -2344,7 +2334,7 @@ flags
 (
 )
 |
-NEUTERED
+DETACHED
 )
 ;
 }

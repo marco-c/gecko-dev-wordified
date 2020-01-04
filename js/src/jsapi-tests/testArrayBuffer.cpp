@@ -674,7 +674,7 @@ buffer
 to
 test
 the
-neutering
+detachment
 weak
 pointers
 BEGIN_TEST
@@ -882,7 +882,7 @@ buffer
 ;
 /
 /
-Neuter
+Detach
 void
 *
 contents
