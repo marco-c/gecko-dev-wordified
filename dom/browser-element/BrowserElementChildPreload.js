@@ -6992,6 +6992,8 @@ if
 (
 sandboxRv
 instanceof
+sandbox
+.
 Promise
 )
 {

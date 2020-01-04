@@ -5863,6 +5863,12 @@ if
 (
 result
 instanceof
+this
+.
+context
+.
+cloneScope
+.
 Promise
 )
 {
