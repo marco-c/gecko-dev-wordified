@@ -9625,7 +9625,7 @@ GetPlatform
 )
 -
 >
-UpdateForDeviceReset
+SchedulePaintIfDeviceReset
 (
 )
 ;
