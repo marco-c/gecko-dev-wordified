@@ -8564,7 +8564,7 @@ kind
 )
 =
 =
-AstExportKind
+DefinitionKind
 :
 :
 Memory

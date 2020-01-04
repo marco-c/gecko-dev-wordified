@@ -2650,14 +2650,6 @@ sig_
 }
 }
 ;
-enum
-class
-AstExportKind
-{
-Func
-Memory
-}
-;
 class
 AstExport
 :
@@ -2667,7 +2659,7 @@ AstNode
 AstName
 name_
 ;
-AstExportKind
+DefinitionKind
 kind_
 ;
 AstRef
@@ -2689,10 +2681,10 @@ name
 )
 kind_
 (
-AstExportKind
+DefinitionKind
 :
 :
-Func
+Function
 )
 func_
 (
@@ -2713,7 +2705,7 @@ name
 )
 kind_
 (
-AstExportKind
+DefinitionKind
 :
 :
 Memory
@@ -2730,7 +2722,7 @@ return
 name_
 ;
 }
-AstExportKind
+DefinitionKind
 kind
 (
 )

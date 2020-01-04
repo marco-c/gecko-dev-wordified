@@ -11306,7 +11306,7 @@ kind
 )
 =
 =
-AstExportKind
+DefinitionKind
 :
 :
 Memory
