@@ -3278,12 +3278,6 @@ flex
 :
 1
 ;
-padding
--
-right
-:
-23px
-;
 width
 :
 100
@@ -3333,6 +3327,12 @@ border
 -
 color
 )
+;
+padding
+-
+right
+:
+23px
 ;
 }
 .
