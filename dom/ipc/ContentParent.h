@@ -6270,6 +6270,12 @@ GetFilesHelper
 >
 mGetFilesPendingRequests
 ;
+nsTArray
+<
+nsCString
+>
+mBlobURLs
+;
 }
 ;
 }
