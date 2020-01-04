@@ -811,6 +811,10 @@ mIsUpgrade
 (
 false
 )
+mSucceeded
+(
+false
+)
 mAppID
 (
 NECKO_NO_APP_ID

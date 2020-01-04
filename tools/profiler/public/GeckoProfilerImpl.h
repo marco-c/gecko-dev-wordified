@@ -2211,6 +2211,11 @@ aFormat
 .
 .
 )
+:
+mHandle
+(
+nullptr
+)
 {
 if
 (

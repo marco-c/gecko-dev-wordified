@@ -715,6 +715,10 @@ mOwningStatement
 (
 aOwningStatement
 )
+mParamCount
+(
+0
+)
 {
 (
 void

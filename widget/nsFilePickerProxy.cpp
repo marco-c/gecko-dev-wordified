@@ -165,6 +165,11 @@ nsFilePickerProxy
 nsFilePickerProxy
 (
 )
+:
+mSelectedType
+(
+0
+)
 {
 }
 nsFilePickerProxy
