@@ -398,11 +398,8 @@ Reset
 {
 mMajorServiceClass
 =
-0x1
+0
 ;
-/
-/
-LIMITED_DISCOVERABILITY
 mMajorDeviceClass
 =
 0x1F
