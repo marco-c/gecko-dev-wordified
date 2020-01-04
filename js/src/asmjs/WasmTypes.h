@@ -368,6 +368,12 @@ mozilla
 :
 RefCounted
 ;
+using
+mozilla
+:
+:
+Some
+;
 typedef
 Vector
 <

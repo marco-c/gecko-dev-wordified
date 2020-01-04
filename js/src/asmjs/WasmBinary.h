@@ -466,7 +466,7 @@ Memory
 ;
 enum
 class
-MemoryFlags
+ResizableFlags
 {
 Default
 =
