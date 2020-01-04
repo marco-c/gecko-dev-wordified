@@ -24646,7 +24646,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrame
+GetDisplayPort
 (
 (
 *
@@ -24659,6 +24659,10 @@ GetContent
 )
 &
 displayport
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 if

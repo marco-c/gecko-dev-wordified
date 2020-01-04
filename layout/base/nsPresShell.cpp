@@ -33634,7 +33634,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrameForVisibilityTesting
+GetDisplayPortForVisibilityTesting
 (
 aFrame
 -
@@ -33644,6 +33644,10 @@ GetContent
 )
 &
 displayPort
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 if
@@ -34255,11 +34259,15 @@ Unused
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrame
+GetDisplayPort
 (
 content
 &
 updateRect
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 }
