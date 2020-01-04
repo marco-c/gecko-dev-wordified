@@ -139,6 +139,7 @@ uri
 protected
 :
 virtual
+MOZ_MUST_USE
 nsresult
 OpenContentStream
 (

@@ -159,6 +159,7 @@ a
 factory
 :
 static
+MOZ_MUST_USE
 nsresult
 Create
 (
@@ -224,6 +225,7 @@ not
 needed
 .
 static
+MOZ_MUST_USE
 nsresult
 ParseURI
 (
