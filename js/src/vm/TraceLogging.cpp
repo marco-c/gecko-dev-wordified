@@ -3685,6 +3685,13 @@ true
 ;
 enabledTextIds
 [
+TraceLogger_PruneUnusedBranches
+]
+=
+true
+;
+enabledTextIds
+[
 TraceLogger_FoldTests
 ]
 =

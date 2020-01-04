@@ -268,6 +268,11 @@ compilation
 \
 _
 (
+PruneUnusedBranches
+)
+\
+_
+(
 FoldTests
 )
 \
