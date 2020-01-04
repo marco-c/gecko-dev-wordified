@@ -431,6 +431,9 @@ failure
 bool
 init
 (
+JSContext
+*
+cx
 const
 uint8_t
 *
@@ -438,6 +441,17 @@ buffer
 uint32_t
 size
 )
+;
+using
+NodeIdSet
+=
+js
+:
+:
+HashSet
+<
+NodeId
+>
 ;
 /
 /
@@ -468,6 +482,9 @@ protobuf
 Node
 &
 node
+NodeIdSet
+&
+edgeReferents
 )
 ;
 /
