@@ -597,12 +597,8 @@ Register
 temp
 LoadStoreSize
 size
-=
-SizeWord
 LoadStoreExtension
 extension
-=
-SignExtend
 )
 ;
 /
@@ -659,12 +655,8 @@ Register
 temp
 LoadStoreSize
 size
-=
-SizeWord
 LoadStoreExtension
 extension
-=
-SignExtend
 )
 ;
 /
