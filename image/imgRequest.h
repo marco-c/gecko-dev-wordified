@@ -507,7 +507,7 @@ becomes
 available
 .
 void
-StartDecoding
+RequestDecode
 (
 )
 ;
@@ -1399,7 +1399,7 @@ UpdateCacheEntrySize
 Returns
 true
 if
-StartDecoding
+RequestDecode
 (
 )
 was
