@@ -2575,10 +2575,13 @@ modifiers
 "
 accel
 "
-command
+oncommand
 =
 "
-cmd_newNavigatorTab
+BrowserOpenTab
+(
+)
+;
 "
 /
 >
