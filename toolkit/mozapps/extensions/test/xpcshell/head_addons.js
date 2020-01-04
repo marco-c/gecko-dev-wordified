@@ -11663,6 +11663,9 @@ installCompleted
 onInstallEnded
 :
 installCompleted
+onInstallPostponed
+:
+installCompleted
 }
 ;
 aInstalls
