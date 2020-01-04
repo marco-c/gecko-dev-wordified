@@ -331,9 +331,17 @@ homepage_welcome_url
 "
 :
 "
-about
+"
+        
+"
+startup
+.
+homepage_welcome_url
+.
+additional
+"
 :
-blank
+"
 "
         
 "
@@ -2318,6 +2326,18 @@ enabled
 :
 True
         
+'
+browser
+.
+firstrun
+-
+content
+.
+dismissed
+'
+:
+True
+        
 #
 Bug
 1145668
@@ -2379,7 +2399,7 @@ browser
 .
 safebrowsing
 .
-phishing
+blockedURIs
 .
 enabled
 '
@@ -2415,7 +2435,7 @@ browser
 .
 safebrowsing
 .
-blockedURIs
+phishing
 .
 enabled
 '
@@ -2471,6 +2491,17 @@ enabled
 '
 :
 False
+        
+'
+browser
+.
+usedOnWindows10
+.
+introURL
+'
+:
+'
+'
         
 '
 extensions
