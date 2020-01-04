@@ -3223,7 +3223,7 @@ false
 }
 seenEls
 .
-reset
+clear
 (
 )
 ;

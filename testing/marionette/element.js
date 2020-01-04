@@ -534,7 +534,7 @@ nsITimer
 )
 ;
 }
-reset
+clear
 (
 )
 {
