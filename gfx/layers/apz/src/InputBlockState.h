@@ -376,6 +376,15 @@ GetScrolledApzc
 )
 const
 ;
+bool
+IsDownchainOfScrolledApzc
+(
+AsyncPanZoomController
+*
+aApzc
+)
+const
+;
 protected
 :
 virtual
@@ -424,7 +433,7 @@ mOverscrollHandoffChain
 |
 .
 bool
-IsAncestorOf
+IsDownchainOf
 (
 AsyncPanZoomController
 *
@@ -433,6 +442,7 @@ AsyncPanZoomController
 *
 aB
 )
+const
 ;
 private
 :
