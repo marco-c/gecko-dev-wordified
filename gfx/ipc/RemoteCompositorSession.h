@@ -209,6 +209,12 @@ GetContentController
 (
 )
 ;
+nsIWidget
+*
+GetWidget
+(
+)
+;
 RefPtr
 <
 IAPZCTreeManager
