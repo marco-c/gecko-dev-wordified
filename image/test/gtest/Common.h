@@ -2737,6 +2737,16 @@ CorruptTestCase
 )
 ;
 ImageTestCase
+CorruptICOWithBadBMPWidthTestCase
+(
+)
+;
+ImageTestCase
+CorruptICOWithBadBMPHeightTestCase
+(
+)
+;
+ImageTestCase
 TransparentPNGTestCase
 (
 )
