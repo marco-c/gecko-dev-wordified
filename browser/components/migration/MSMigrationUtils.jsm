@@ -5047,7 +5047,7 @@ let
 cTypes
 =
 new
-CtypesHelpers
+CtypesKernelHelpers
 (
 )
 ;
