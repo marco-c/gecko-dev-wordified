@@ -537,11 +537,6 @@ class
 JSFlatString
 ;
 typedef
-struct
-PRCallOnceType
-JSCallOnceType
-;
-typedef
 bool
 (
 *
