@@ -3044,9 +3044,8 @@ HasStyleSheets
 ;
 newBinding
 .
-swap
+forget
 (
-*
 aBinding
 )
 ;

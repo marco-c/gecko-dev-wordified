@@ -2425,9 +2425,8 @@ rv
 ;
 newNode
 .
-swap
+forget
 (
-*
 aResult
 )
 ;

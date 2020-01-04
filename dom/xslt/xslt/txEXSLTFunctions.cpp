@@ -1810,9 +1810,8 @@ NODESET
 {
 exprResult
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
