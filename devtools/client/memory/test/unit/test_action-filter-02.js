@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Test
@@ -42,7 +47,6 @@ census
 .
 let
 {
-breakdowns
 snapshotState
 :
 states

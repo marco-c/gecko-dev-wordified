@@ -318,6 +318,8 @@ getState
 (
 )
 .
+censusDisplay
+.
 breakdown
 .
 by
