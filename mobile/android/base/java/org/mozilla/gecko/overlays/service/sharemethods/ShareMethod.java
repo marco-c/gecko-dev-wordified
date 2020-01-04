@@ -473,7 +473,6 @@ implements
 Parcelable
 {
 ADD_BOOKMARK
-ADD_TO_READING_LIST
 SEND_TAB
 ;
 Override
