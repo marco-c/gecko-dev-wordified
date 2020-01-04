@@ -1086,6 +1086,11 @@ g1
 =
 newGlobal
 (
+{
+cloneSingletons
+:
+true
+}
 )
 ;
 var
