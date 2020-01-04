@@ -132,6 +132,7 @@ const
 {
 getAllMessages
 getAllMessagesUiById
+getAllMessagesTableDataById
 }
 =
 require
@@ -195,7 +196,7 @@ createClass
 propTypes
 :
 {
-jsterm
+hudProxyClient
 :
 PropTypes
 .
@@ -321,8 +322,10 @@ render
 let
 {
 dispatch
+hudProxyClient
 messages
 messagesUi
+messagesTableData
 sourceMapService
 onViewSourceInDebugger
 openNetworkPanel
@@ -352,6 +355,7 @@ MessageContainer
 (
 {
 dispatch
+hudProxyClient
 message
 key
 :
@@ -367,6 +371,16 @@ open
 messagesUi
 .
 includes
+(
+message
+.
+id
+)
+tableData
+:
+messagesTableData
+.
+get
 (
 message
 .
@@ -460,6 +474,12 @@ state
 messagesUi
 :
 getAllMessagesUiById
+(
+state
+)
+messagesTableData
+:
+getAllMessagesTableDataById
 (
 state
 )

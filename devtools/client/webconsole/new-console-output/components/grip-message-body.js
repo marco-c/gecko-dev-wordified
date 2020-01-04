@@ -399,6 +399,11 @@ grip
 useQuotes
 :
 false
+mode
+:
+props
+.
+mode
 }
 )
 :
@@ -414,6 +419,11 @@ VariablesViewLink
 defaultRep
 :
 Grip
+mode
+:
+props
+.
+mode
 }
 )
 )
