@@ -1010,7 +1010,7 @@ securityFlags
 nsILoadInfo
 :
 :
-SEC_COOKIES_INCLUDE
+SEC_REQUIRE_CORS_WITH_CREDENTIALS
 ;
 }
 }

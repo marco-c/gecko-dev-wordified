@@ -3100,7 +3100,9 @@ nsCORSListenerProxy
 StartCORSPreflight
 (
 this
+mPreflightPrincipal
 this
+mWithCredentials
 mUnsafeHeaders
 getter_AddRefs
 (
