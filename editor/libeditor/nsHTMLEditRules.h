@@ -1103,7 +1103,7 @@ nsresult
 WillAbsolutePosition
 (
 Selection
-*
+&
 aSelection
 bool
 *
