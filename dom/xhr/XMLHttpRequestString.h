@@ -280,7 +280,8 @@ not
 completed
 yet
 .
-void
+MOZ_MUST_USE
+bool
 GetAsString
 (
 nsAString
@@ -589,7 +590,8 @@ return
 mLength
 ;
 }
-void
+MOZ_MUST_USE
+bool
 GetAsString
 (
 nsAString
