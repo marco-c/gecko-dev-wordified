@@ -4351,6 +4351,8 @@ JS_NULL_OBJECT_OPS
 type
 }
               
+false
+              
 {
 prototypeID
 }
@@ -4805,20 +4807,19 @@ ctorname
 ThrowingConstructor
 "
         
-if
+needsHasInstance
+=
+(
+            
+not
 NeedsGeneratedHasInstance
 (
 self
 .
 descriptor
 )
-:
+and
             
-hasinstance
-=
-HASINSTANCE_HOOK_NAME
-        
-elif
 self
 .
 descriptor
@@ -4828,22 +4829,7 @@ interface
 hasInterfacePrototypeObject
 (
 )
-:
-            
-hasinstance
-=
-"
-InterfaceHasInstance
-"
-        
-else
-:
-            
-hasinstance
-=
-"
-nullptr
-"
+)
         
 prototypeID
 depth
@@ -4931,13 +4917,6 @@ ctorname
 "
 ThrowingConstructor
 "
-and
-hasinstance
-=
-=
-"
-InterfaceHasInstance
-"
 :
             
 ret
@@ -4954,13 +4933,6 @@ sBoringInterfaceObjectClassClassOps
         
 elif
 ctorname
-=
-=
-"
-nullptr
-"
-and
-hasinstance
 =
 =
 "
@@ -5066,9 +5038,7 @@ call
 *
 /
                     
-{
-hasInstance
-}
+nullptr
 /
 *
 hasInstance
@@ -5101,10 +5071,6 @@ trace
 ctorname
 =
 ctorname
-                
-hasInstance
-=
-hasinstance
 )
             
 classOpsPtr
@@ -5304,6 +5270,10 @@ objectOps
 eInterface
               
 {
+needsHasInstance
+}
+              
+{
 prototypeID
 }
               
@@ -5340,14 +5310,6 @@ slotCount
 =
 slotCount
             
-ctorname
-=
-ctorname
-            
-hasInstance
-=
-hasinstance
-            
 classOpsPtr
 =
 classOpsPtr
@@ -5364,6 +5326,13 @@ descriptor
 objectOps
 =
 objectOps
+            
+needsHasInstance
+=
+toStringBool
+(
+needsHasInstance
+)
             
 prototypeID
 =
@@ -13166,7 +13135,7 @@ namedConstructors
 namedConstructors
 )
 class
-CGClassHasInstanceHook
+CGHasInstanceHook
 (
 CGAbstractStaticMethod
 )
@@ -13197,47 +13166,24 @@ cx
 Argument
 (
 '
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
+unsigned
 '
 '
-obj
+argc
 '
 )
                 
 Argument
 (
 '
-JS
-:
-:
-MutableHandle
-<
 JS
 :
 :
 Value
->
-'
-'
-vp
-'
-)
-                
-Argument
-(
-'
-bool
 *
 '
 '
-bp
+vp
 '
 )
 ]
@@ -13249,6 +13195,12 @@ interface
 .
 hasInterfaceObject
 (
+)
+        
+assert
+NeedsGeneratedHasInstance
+(
+descriptor
 )
         
 CGAbstractStaticMethod
@@ -13271,20 +13223,6 @@ define
 self
 )
 :
-        
-if
-not
-NeedsGeneratedHasInstance
-(
-self
-.
-descriptor
-)
-:
-            
-return
-"
-"
         
 return
 CGAbstractStaticMethod
@@ -13323,10 +13261,31 @@ dedent
 "
 "
             
+JS
+:
+:
+CallArgs
+args
+=
+JS
+:
+:
+CallArgsFromVp
+(
+argc
+vp
+)
+;
+            
 if
 (
 !
-vp
+args
+.
+get
+(
+0
+)
 .
 isObject
 (
@@ -13334,10 +13293,16 @@ isObject
 )
 {
               
-*
-bp
-=
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
 false
+)
 ;
               
 return
@@ -13358,7 +13323,10 @@ instance
 (
 cx
 &
-vp
+args
+[
+0
+]
 .
 toObject
 (
@@ -13429,9 +13397,8 @@ ok
 InterfaceHasInstance
 (
 cx
-obj
-instance
-bp
+argc
+vp
 )
 ;
                     
@@ -13441,8 +13408,15 @@ if
 ok
 |
 |
-*
-bp
+args
+.
+rval
+(
+)
+.
+toBoolean
+(
+)
 )
 {
                       
@@ -13522,12 +13496,18 @@ native
 )
 ;
                     
-*
-bp
-=
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
 !
 !
 qiResult
+)
 ;
                     
 return
@@ -13592,12 +13572,6 @@ false
 )
 ;
             
-*
-bp
-=
-false
-;
-            
 if
 (
 !
@@ -13619,6 +13593,18 @@ instance
 of
 this
 interface
+              
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
+false
+)
+;
               
 return
 true
@@ -13648,12 +13634,17 @@ ChromeWindow
 "
 :
             
-setBp
+setRval
 =
 "
-*
-bp
-=
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
 UnwrapDOMObject
 <
 nsGlobalWindow
@@ -13679,18 +13670,25 @@ false
 IsChromeWindow
 (
 )
+)
 "
         
 else
 :
             
-setBp
+setRval
 =
 "
-*
-bp
-=
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
 true
+)
 "
         
 #
@@ -13781,7 +13779,7 @@ name
 {
                   
 {
-setBp
+setRval
 }
 ;
                   
@@ -13803,14 +13801,31 @@ identifier
 .
 name
                 
-setBp
+setRval
 =
-setBp
+setRval
 )
         
 hasInstanceCode
 +
 =
+(
+"
+args
+.
+rval
+(
+)
+.
+setBoolean
+(
+false
+)
+;
+\
+n
+"
+                            
 "
 return
 true
@@ -13818,6 +13833,7 @@ true
 \
 n
 "
+)
         
 return
 header
@@ -16695,6 +16711,98 @@ flags
 :
 "
 JSPROP_ENUMERATE
+"
+                
+"
+condition
+"
+:
+MemberCondition
+(
+)
+            
+}
+)
+        
+if
+(
+static
+and
+            
+not
+unforgeable
+and
+            
+descriptor
+.
+interface
+.
+hasInterfaceObject
+(
+)
+and
+            
+NeedsGeneratedHasInstance
+(
+descriptor
+)
+)
+:
+            
+self
+.
+regular
+.
+append
+(
+{
+                
+"
+name
+"
+:
+"
+hasInstance
+"
+                
+"
+methodInfo
+"
+:
+False
+                
+"
+nativeName
+"
+:
+HASINSTANCE_HOOK_NAME
+                
+"
+length
+"
+:
+1
+                
+#
+Flags
+match
+those
+of
+Function
+[
+Symbol
+.
+hasInstance
+]
+                
+"
+flags
+"
+:
+"
+JSPROP_READONLY
+|
+JSPROP_PERMANENT
 "
                 
 "
@@ -93975,6 +94083,52 @@ m
 )
 )
         
+#
+Need
+to
+output
+our
+generated
+hasinstance
+bits
+before
+        
+#
+PropertyArrays
+tries
+to
+use
+them
+.
+        
+if
+(
+descriptor
+.
+interface
+.
+hasInterfaceObject
+(
+)
+and
+            
+NeedsGeneratedHasInstance
+(
+descriptor
+)
+)
+:
+            
+cgThings
+.
+append
+(
+CGHasInstanceHook
+(
+descriptor
+)
+)
+        
 properties
 =
 PropertyArrays
@@ -94137,16 +94291,6 @@ interface
 ctor
 (
 )
-)
-)
-            
-cgThings
-.
-append
-(
-CGClassHasInstanceHook
-(
-descriptor
 )
 )
             
