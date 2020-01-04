@@ -550,9 +550,11 @@ argv_
 =
 argv
 ;
-u
-.
-nactual
+script_
+=
+script
+;
+nactual_
 =
 nactual
 ;
