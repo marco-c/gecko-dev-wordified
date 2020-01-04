@@ -1310,12 +1310,12 @@ updateArgs
 ;
 if
 (
-__marionetteParams
+__webDriverArguments
 )
 {
 updateArgs
 =
-__marionetteParams
+__webDriverArguments
 [
 0
 ]
