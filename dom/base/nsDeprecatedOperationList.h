@@ -296,6 +296,10 @@ AppCache
 )
 DEPRECATED_OPERATION
 (
+PrefixedImageSmoothingEnabled
+)
+DEPRECATED_OPERATION
+(
 PrefixedFullscreenAPI
 )
 DEPRECATED_OPERATION
