@@ -523,9 +523,10 @@ test
 .
 executeSoon
 (
-function
 (
 )
+=
+>
 aCallback
 (
 aWin
