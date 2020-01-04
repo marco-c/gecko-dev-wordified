@@ -9410,8 +9410,14 @@ UseAPZ
 UseExternalCompositingSurface
 (
 )
+gfx
+:
+:
+IntSize
+(
 aWidth
 aHeight
+)
 )
 ;
 mCompositorBridgeChild

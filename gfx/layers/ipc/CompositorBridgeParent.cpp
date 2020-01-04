@@ -3359,10 +3359,13 @@ bool
 aUseAPZ
 bool
 aUseExternalSurfaceSize
-int
-aSurfaceWidth
-int
-aSurfaceHeight
+const
+gfx
+:
+:
+IntSize
+&
+aSurfaceSize
 )
 :
 CompositorBridgeParentIPCAllocator
@@ -3393,8 +3396,7 @@ aUseExternalSurfaceSize
 )
 mEGLSurfaceSize
 (
-aSurfaceWidth
-aSurfaceHeight
+aSurfaceSize
 )
 mPauseCompositionMonitor
 (

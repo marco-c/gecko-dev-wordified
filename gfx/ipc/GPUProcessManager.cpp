@@ -718,10 +718,13 @@ bool
 aUseAPZ
 bool
 aUseExternalSurfaceSize
-int
-aSurfaceWidth
-int
-aSurfaceHeight
+const
+gfx
+:
+:
+IntSize
+&
+aSurfaceSize
 )
 {
 return
@@ -735,8 +738,7 @@ aLayerManager
 aScale
 aUseAPZ
 aUseExternalSurfaceSize
-aSurfaceWidth
-aSurfaceHeight
+aSurfaceSize
 )
 ;
 }
