@@ -3079,7 +3079,6 @@ mTaskQueue
 audioSink
 mVideoQueue
 mVideoFrameContainer
-mRealTime
 *
 mFrameStats
 sVideoQueueSendToCompositorSize
