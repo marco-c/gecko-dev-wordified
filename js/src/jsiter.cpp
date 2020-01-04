@@ -3819,6 +3819,8 @@ b
 return
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -3837,6 +3839,8 @@ b
 )
 return
 false
+;
+MOZ_FALLTHROUGH
 ;
 case
 6
@@ -3857,6 +3861,8 @@ b
 return
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -3875,6 +3881,8 @@ b
 )
 return
 false
+;
+MOZ_FALLTHROUGH
 ;
 case
 4
@@ -3895,6 +3903,8 @@ b
 return
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -3914,6 +3924,8 @@ b
 return
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -3932,6 +3944,8 @@ b
 )
 return
 false
+;
+MOZ_FALLTHROUGH
 ;
 case
 1

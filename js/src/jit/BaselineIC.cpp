@@ -7978,6 +7978,8 @@ indirect
 )
 continue
 ;
+MOZ_FALLTHROUGH
+;
 case
 ICStub
 :

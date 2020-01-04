@@ -26693,11 +26693,8 @@ info
 ;
 }
 }
-/
-/
-Fall
-through
-.
+MOZ_FALLTHROUGH
+;
 case
 TYPE_array
 :

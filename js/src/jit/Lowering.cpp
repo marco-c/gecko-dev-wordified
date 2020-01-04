@@ -12342,11 +12342,8 @@ MToFPInstruction
 NumbersOnly
 )
 ;
-/
-*
-FALLTHROUGH
-*
-/
+MOZ_FALLTHROUGH
+;
 case
 MIRType_Int32
 :
@@ -12620,11 +12617,8 @@ MToFPInstruction
 NumbersOnly
 )
 ;
-/
-*
-FALLTHROUGH
-*
-/
+MOZ_FALLTHROUGH
+;
 case
 MIRType_Int32
 :

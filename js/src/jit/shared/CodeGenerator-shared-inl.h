@@ -1714,10 +1714,8 @@ HeapAccess
 :
 LoadSext32
 ;
-/
-/
-FALL
-THROUGH
+MOZ_FALLTHROUGH
+;
 case
 Scalar
 :

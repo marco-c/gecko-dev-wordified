@@ -4737,6 +4737,8 @@ ShouldMarkProvider
 trc
 )
 ;
+break
+;
 case
 Dummy
 :
@@ -4811,6 +4813,8 @@ sweepChildren
 (
 rt
 )
+;
+break
 ;
 case
 Dummy

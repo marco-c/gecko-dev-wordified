@@ -191,6 +191,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Compression
 .
 h
@@ -14757,6 +14766,8 @@ _
 return
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 AsmJSSimdType_float32x4
 :
@@ -18763,6 +18774,8 @@ coercedExpr
 )
 return
 true
+;
+break
 ;
 }
 default

@@ -9813,10 +9813,8 @@ Advance
 break
 ;
 }
-/
-/
-Fall
-through
+MOZ_FALLTHROUGH
+;
 case
 '
 d
@@ -10133,10 +10131,9 @@ Advance
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
-/
-/
-FALLTHROUGH
 case
 '
 0
@@ -10931,9 +10928,8 @@ ReportError
 JSMSG_NOTHING_TO_REPEAT
 )
 ;
-/
-/
-fallthrough
+MOZ_FALLTHROUGH
+;
 }
 default
 :

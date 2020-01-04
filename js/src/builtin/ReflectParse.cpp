@@ -13319,12 +13319,8 @@ pn
 dst
 )
 ;
-/
-*
-FALL
-THROUGH
-*
-/
+MOZ_FALLTHROUGH
+;
 case
 PNK_STATEMENTLIST
 :

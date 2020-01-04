@@ -2027,6 +2027,8 @@ same
 as
 JSOP_EQ
 .
+MOZ_FALLTHROUGH
+;
 case
 JSOP_EQ
 :
@@ -2082,6 +2084,8 @@ same
 as
 JSOP_NE
 .
+MOZ_FALLTHROUGH
+;
 case
 JSOP_NE
 :
@@ -21885,6 +21889,8 @@ iter
 )
 return
 false
+;
+break
 ;
 default
 :

@@ -3235,14 +3235,8 @@ return
 true
 ;
 }
-/
-/
-Fall
-through
-to
-T_DOMSTRING
-case
-.
+MOZ_FALLTHROUGH
+;
 }
 case
 nsXPTType

@@ -2031,10 +2031,10 @@ ReturnFloat32Reg
 ReturnDoubleReg
 )
 ;
+MOZ_FALLTHROUGH
+;
 /
 /
-Fall
-through
 as
 ReturnDoubleReg
 now

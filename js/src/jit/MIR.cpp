@@ -14158,6 +14158,8 @@ toDouble
 return
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 MDefinition
 :
@@ -14865,15 +14867,8 @@ lhs
 return
 true
 ;
-/
-*
-Fall
-through
-.
-.
-.
-*
-/
+MOZ_FALLTHROUGH
+;
 }
 case
 MDefinition
@@ -19642,10 +19637,8 @@ JSTYPE_OBJECT
 break
 ;
 }
-/
-/
-FALL
-THROUGH
+MOZ_FALLTHROUGH
+;
 default
 :
 return
@@ -21403,7 +21396,7 @@ of
 Int32
 can
 be
-substitued
+substituted
 as
 constant
 .
@@ -21435,6 +21428,8 @@ Int32Value
 ival
 )
 )
+;
+break
 ;
 default
 :

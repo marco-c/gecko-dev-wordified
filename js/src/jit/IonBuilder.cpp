@@ -4898,6 +4898,8 @@ expectedResultType
 last
 )
 ;
+break
+;
 default
 :
 break
@@ -11141,10 +11143,8 @@ popped
 )
 break
 ;
-/
-/
-FALL
-THROUGH
+MOZ_FALLTHROUGH
+;
 default
 :
 MOZ_ASSERT
@@ -12899,6 +12899,8 @@ Fall
 through
 to
 JSOP_BINDNAME
+MOZ_FALLTHROUGH
+;
 case
 JSOP_BINDNAME
 :

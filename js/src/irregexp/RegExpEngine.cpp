@@ -26014,11 +26014,8 @@ chars
 ok
 )
 ;
-/
-/
-Fall
-through
-!
+MOZ_FALLTHROUGH
+;
 case
 3
 :

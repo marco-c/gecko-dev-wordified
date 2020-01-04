@@ -4784,6 +4784,8 @@ PR_GetCurrentThread
 )
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 HelperThreadStateLock
 :
@@ -4798,6 +4800,8 @@ isLocked
 (
 )
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 GCLock

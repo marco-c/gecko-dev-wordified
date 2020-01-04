@@ -5908,6 +5908,16 @@ toggleWerror
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
+/
+/
+because
+-
+S
+implies
+-
+s
 case
 '
 s
