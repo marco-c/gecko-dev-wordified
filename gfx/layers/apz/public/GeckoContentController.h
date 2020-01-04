@@ -926,6 +926,13 @@ GeckoContentController
 )
 {
 }
+virtual
+void
+ChildAdopted
+(
+)
+{
+}
 /
 *
 *
