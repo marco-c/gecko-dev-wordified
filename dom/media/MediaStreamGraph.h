@@ -1050,7 +1050,9 @@ mStream
 size_t
 mEngine
 ;
-nsCString
+const
+char
+*
 mNodeType
 ;
 }
