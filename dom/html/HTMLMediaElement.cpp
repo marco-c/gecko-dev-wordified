@@ -19579,6 +19579,16 @@ NetworkError
 (
 )
 {
+if
+(
+mDecoder
+)
+{
+ShutdownDecoder
+(
+)
+;
+}
 Error
 (
 nsIDOMMediaError
