@@ -555,7 +555,7 @@ if
 (
 sGLXLibrary
 .
-UseSurfaceSharing
+UseTextureFromPixmap
 (
 )
 )
@@ -781,7 +781,7 @@ factory
 &
 sGLXLibrary
 .
-UseSurfaceSharing
+UseTextureFromPixmap
 (
 )
 )
