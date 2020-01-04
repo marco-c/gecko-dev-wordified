@@ -13361,6 +13361,7 @@ LOG3
 SpdySession31
 %
 p
+ResponseHeadersComplete
 PROTOCOL_ERROR
 detected
 0x
