@@ -683,7 +683,11 @@ __aarch64__
 )
 #
 define
-ARCH_CPU_AARCH64
+ARCH_CPU_ARM_FAMILY
+1
+#
+define
+ARCH_CPU_ARM64
 1
 #
 define
