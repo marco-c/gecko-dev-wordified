@@ -772,7 +772,8 @@ ScopedSECKEYPublicKey
 publicKey
 (
 mKeyPair
-.
+-
+>
 mPublicKey
 .
 get
@@ -1095,7 +1096,8 @@ ScopedSECKEYPrivateKey
 privateKey
 (
 mKeyPair
-.
+-
+>
 mPrivateKey
 .
 get
@@ -1349,7 +1351,8 @@ SECKEYPrivateKey
 key
 =
 mKeyPair
-.
+-
+>
 mPrivateKey
 .
 get
@@ -1370,7 +1373,7 @@ CERT_DupCertificate
 mCertificate
 )
 ;
-RefPtr
+nsRefPtr
 <
 RTCCertificate
 >
@@ -1443,7 +1446,7 @@ Get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1498,7 +1501,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 WebCryptoTask
 >
