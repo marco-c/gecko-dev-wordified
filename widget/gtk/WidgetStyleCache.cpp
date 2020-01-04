@@ -787,6 +787,9 @@ i
 )
 ;
 }
+mozilla
+:
+:
 PodArrayZero
 (
 sStyleStorage
@@ -826,6 +829,9 @@ freed
 arrays
 *
 /
+mozilla
+:
+:
 PodArrayZero
 (
 sWidgetStorage
