@@ -6000,8 +6000,8 @@ mNextRecomputeVisibilityTick
 =
 mMostRecentTick
 ;
--
--
++
++
 sRefreshDriverCount
 ;
 }
