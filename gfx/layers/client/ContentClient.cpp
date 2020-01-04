@@ -838,6 +838,11 @@ ContentClientBasic
 :
 ContentClientBasic
 (
+gfx
+:
+:
+BackendType
+aBackend
 )
 :
 ContentClient
@@ -847,6 +852,10 @@ nullptr
 RotatedContentBuffer
 (
 ContainsVisibleBounds
+)
+mBackend
+(
+aBackend
 )
 {
 }
@@ -932,8 +941,9 @@ GetPlatform
 )
 -
 >
-CreateOffscreenContentDrawTarget
+CreateDrawTargetForBackend
 (
+mBackend
 IntSize
 (
 aRect

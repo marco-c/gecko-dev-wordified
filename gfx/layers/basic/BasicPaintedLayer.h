@@ -287,6 +287,11 @@ BasicPaintedLayer
 BasicLayerManager
 *
 aLayerManager
+gfx
+:
+:
+BackendType
+aBackend
 )
 :
 PaintedLayer
@@ -304,6 +309,10 @@ this
 mContentClient
 (
 nullptr
+)
+mBackend
+(
+aBackend
 )
 {
 MOZ_COUNT_CTOR
@@ -757,6 +766,12 @@ RefPtr
 ContentClientBasic
 >
 mContentClient
+;
+gfx
+:
+:
+BackendType
+mBackend
 ;
 }
 ;
