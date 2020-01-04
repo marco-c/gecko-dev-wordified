@@ -400,6 +400,10 @@ static
 UINT
 CF_HTML
 ;
+static
+UINT
+CF_CUSTOMTYPES
+;
 protected
 :
 NS_IMETHOD

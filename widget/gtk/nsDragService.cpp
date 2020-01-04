@@ -6179,6 +6179,18 @@ if
 dataFound
 )
 {
+if
+(
+strcmp
+(
+flavorStr
+kCustomTypesMime
+)
+!
+=
+0
+)
+{
 /
 /
 the
@@ -6218,6 +6230,7 @@ mTargetDragDataLen
 )
 )
 ;
+}
 /
 /
 put

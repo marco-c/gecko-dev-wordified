@@ -645,6 +645,14 @@ EqualsLiteral
 (
 kRTFMime
 )
+|
+|
+flavor
+.
+EqualsLiteral
+(
+kCustomTypesMime
+)
 )
 {
 nsCOMPtr
