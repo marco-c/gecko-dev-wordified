@@ -2497,6 +2497,9 @@ abort
 if
 (
 _status
+&
+&
+ctx
 )
 nr_ice_ctx_destroy_cb
 (
