@@ -790,8 +790,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 textStore
 -
@@ -877,8 +878,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 return
 textStore
@@ -933,8 +935,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 return
 textStore
@@ -985,8 +988,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 return
 textStore
@@ -1036,8 +1040,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 return
 textStore
@@ -1091,8 +1096,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 return
 textStore

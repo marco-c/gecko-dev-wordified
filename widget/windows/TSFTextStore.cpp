@@ -36386,8 +36386,9 @@ RefPtr
 TSFTextStore
 >
 textStore
-=
+(
 sEnabledTextStore
+)
 ;
 textStore
 -
