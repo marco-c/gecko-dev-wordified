@@ -278,10 +278,10 @@ result
 .
 subject
 .
-organizationalUnit
+organizationUnit
 DUMMY_CERT
 .
-organizationalUnit
+organizationUnit
 "
 Organizational
 unit
@@ -343,10 +343,10 @@ result
 .
 issuer
 .
-organizationalUnit
+organizationUnit
 DUMMY_CERT
 .
-issuerOrganizationalUnit
+issuerOrganizationUnit
 "
 Organizational
 unit
