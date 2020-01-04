@@ -786,7 +786,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -1027,8 +1027,8 @@ aStyle
 GdkRectangle
 DevicePixelsToGdkRectRoundOut
 (
-nsIntRect
-rect
+LayoutDeviceIntRect
+aRect
 )
 ;
 /

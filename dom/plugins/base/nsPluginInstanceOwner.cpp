@@ -3216,7 +3216,7 @@ mWidget
 >
 Invalidate
 (
-nsIntRect
+LayoutDeviceIntRect
 (
 invalidRect
 -

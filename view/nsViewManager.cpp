@@ -3849,7 +3849,7 @@ Next
 ;
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 =
 ViewToWidget
@@ -6715,7 +6715,7 @@ aWidget
 nullptr
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 nsViewManager
 :
 :
@@ -6787,12 +6787,18 @@ device
 coordinates
 .
 return
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 rect
 .
 ToOutsidePixels
 (
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;

@@ -20094,7 +20094,7 @@ nsWindow
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -43359,7 +43359,7 @@ found
 and
 fixed
 !
-nsIntRegion
+LayoutDeviceIntRegion
 r
 ;
 r
@@ -43367,17 +43367,9 @@ r
 Sub
 (
 bounds
-.
-ToUnknownRect
-(
-)
 configuration
 .
 mBounds
-.
-ToUnknownRect
-(
-)
 )
 ;
 r
@@ -43394,7 +43386,7 @@ bounds
 y
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 toInvalidate
 =
 r
