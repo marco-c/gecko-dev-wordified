@@ -365,6 +365,9 @@ mLayersBackend
 bool
 mCanSend
 ;
+bool
+mInitialized
+;
 }
 ;
 }
