@@ -1271,6 +1271,9 @@ JS
 Value
 >
 options
+ErrorResult
+&
+aRvForDictionaryInit
 )
 override
 ;
