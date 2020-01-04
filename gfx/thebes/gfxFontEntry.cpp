@@ -2108,6 +2108,9 @@ this
 }
 if
 (
+mSVGGlyphs
+&
+&
 !
 mFontsUsingSVGGlyphs
 .
