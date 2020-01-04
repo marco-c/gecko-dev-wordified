@@ -854,6 +854,21 @@ _implied_options
 {
 }
         
+#
+Store
+all
+results
+from
+_prepare_function
+        
+self
+.
+_prepared_functions
+=
+set
+(
+)
+        
 self
 .
 _helper
@@ -3287,13 +3302,11 @@ func
 )
         
 if
-isinstance
-(
 func
+in
+self
 .
-func_globals
-SandboxedGlobal
-)
+_prepared_functions
 :
             
 return
@@ -3371,6 +3384,15 @@ func
 func_closure
         
 )
+)
+        
+self
+.
+_prepared_functions
+.
+add
+(
+func
 )
         
 return
