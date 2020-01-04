@@ -2238,6 +2238,7 @@ allocTask
 .
 startWithLockHeld
 (
+helperLock
 )
 ;
 }

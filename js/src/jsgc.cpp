@@ -19755,6 +19755,10 @@ const
 AutoLockGC
 &
 lock
+const
+AutoLockHelperThreadState
+&
+helperLock
 )
 {
 MOZ_ASSERT
@@ -19797,6 +19801,7 @@ HelperThreadState
 .
 gcHelperWorklist
 (
+helperLock
 )
 .
 append
@@ -19831,6 +19836,7 @@ GlobalHelperThreadState
 :
 :
 PRODUCER
+helperLock
 )
 ;
 }
@@ -20006,6 +20012,7 @@ helperState
 maybeStartBackgroundSweep
 (
 lock
+helperLock
 )
 ;
 }
@@ -20116,6 +20123,10 @@ const
 AutoLockGC
 &
 lock
+const
+AutoLockHelperThreadState
+&
+helperLock
 )
 {
 MOZ_ASSERT
@@ -20139,6 +20150,7 @@ startBackgroundThread
 (
 SWEEPING
 lock
+helperLock
 )
 ;
 }
@@ -29973,17 +29985,6 @@ AutoLockHelperThreadState
 locked
 )
 {
-MOZ_ASSERT
-(
-HelperThreadState
-(
-)
-.
-isLocked
-(
-)
-)
-;
 if
 (
 !
@@ -29991,6 +29992,7 @@ task
 .
 startWithLockHeld
 (
+locked
 )
 )
 {
@@ -34467,6 +34469,7 @@ GlobalHelperThreadState
 :
 :
 PRODUCER
+lock
 )
 ;
 }

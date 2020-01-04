@@ -545,6 +545,7 @@ HelperThreadState
 .
 wasmWorklist
 (
+lock
 )
 ;
 MOZ_ASSERT
@@ -584,6 +585,7 @@ HelperThreadState
 .
 wasmFinishedList
 (
+lock
 )
 ;
 MOZ_ASSERT
@@ -622,6 +624,7 @@ HelperThreadState
 .
 harvestFailedWasmJobs
 (
+lock
 )
 ;
 MOZ_ASSERT
@@ -1273,6 +1276,7 @@ HelperThreadState
 .
 wasmFailed
 (
+lock
 )
 )
 return
@@ -1287,6 +1291,7 @@ HelperThreadState
 .
 wasmFinishedList
 (
+lock
 )
 .
 empty
@@ -1306,6 +1311,7 @@ HelperThreadState
 .
 wasmFinishedList
 (
+lock
 )
 .
 popCopy
@@ -5099,6 +5105,7 @@ HelperThreadState
 .
 wasmFailed
 (
+lock
 )
 )
 ;
@@ -5110,6 +5117,7 @@ HelperThreadState
 .
 wasmWorklist
 (
+lock
 )
 .
 empty
@@ -5125,6 +5133,7 @@ HelperThreadState
 .
 wasmFinishedList
 (
+lock
 )
 .
 empty
