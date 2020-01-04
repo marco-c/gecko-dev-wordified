@@ -8423,9 +8423,7 @@ type
 =
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 KEYFRAME_RULE
 )

@@ -1944,9 +1944,7 @@ aDomRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 IMPORT_RULE
 &
@@ -1982,9 +1980,7 @@ aDomRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 KEYFRAMES_RULE
 )
@@ -3919,9 +3915,7 @@ type
 !
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 STYLE_RULE
 )
@@ -8668,9 +8662,7 @@ domRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 STYLE_RULE
 )
@@ -8701,9 +8693,7 @@ domRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 MEDIA_RULE
 &
@@ -8924,9 +8914,7 @@ domRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 STYLE_RULE
 )
@@ -8954,9 +8942,7 @@ domRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 MEDIA_RULE
 &
@@ -9193,9 +9179,7 @@ parentRule
 type
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 MEDIA_RULE
 )
