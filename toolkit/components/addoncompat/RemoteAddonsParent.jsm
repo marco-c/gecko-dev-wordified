@@ -243,6 +243,13 @@ jsm
 "
 )
 ;
+Cu
+.
+permitCPOWsInScope
+(
+this
+)
+;
 /
 /
 Similar
@@ -6087,7 +6094,9 @@ doc
 return
 browser
 .
-contentDocumentAsCPOW
+contentWindowAsCPOW
+.
+document
 ;
 }
 function

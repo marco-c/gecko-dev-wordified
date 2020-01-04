@@ -1391,6 +1391,10 @@ waiveInterposition
 (
 false
 )
+allowCPOWs
+(
+false
+)
 universalXPConnectEnabled
 (
 false
