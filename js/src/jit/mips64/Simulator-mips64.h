@@ -1023,6 +1023,9 @@ Simulator
 *
 Create
 (
+JSContext
+*
+cx
 )
 ;
 static

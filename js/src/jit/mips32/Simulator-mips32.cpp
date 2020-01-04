@@ -2628,6 +2628,9 @@ Simulator
 :
 Create
 (
+JSContext
+*
+cx
 )
 {
 Simulator

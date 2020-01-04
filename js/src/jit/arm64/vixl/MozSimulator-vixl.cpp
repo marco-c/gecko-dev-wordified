@@ -1031,6 +1031,9 @@ Simulator
 :
 Create
 (
+JSContext
+*
+cx
 )
 {
 Decoder

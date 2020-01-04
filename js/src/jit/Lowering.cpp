@@ -674,6 +674,11 @@ wasm
 HaveSignalHandlers
 (
 )
+|
+|
+JitOptions
+.
+ionInterruptWithoutSignals
 )
 return
 ;

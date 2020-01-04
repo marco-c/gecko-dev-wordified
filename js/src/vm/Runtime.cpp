@@ -1746,6 +1746,9 @@ Simulator
 :
 Create
 (
+contextFromMainThread
+(
+)
 )
 ;
 if
