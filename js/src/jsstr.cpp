@@ -6145,7 +6145,7 @@ UNORM_NFKD
 }
 else
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -19756,7 +19756,7 @@ shouldBeJSContext
 allowGC
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 -
@@ -21870,7 +21870,7 @@ suppress
 maybecx
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 maybecx
 GetErrorMessage
@@ -23896,13 +23896,12 @@ res
 Encode_BadUri
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
 nullptr
 JSMSG_BAD_URI
-nullptr
 )
 ;
 return
@@ -24579,7 +24578,7 @@ res
 Decode_BadUri
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

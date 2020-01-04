@@ -981,7 +981,7 @@ JitOptions
 wasmTestMode
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -1205,7 +1205,7 @@ ExprType
 I64
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -4110,7 +4110,7 @@ JitOptions
 wasmTestMode
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -4967,7 +4967,7 @@ JitOptions
 wasmTestMode
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

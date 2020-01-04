@@ -1636,7 +1636,7 @@ if
 maybecx
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 maybecx
 GetErrorMessage
@@ -1760,7 +1760,7 @@ suppressGC
 cx
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

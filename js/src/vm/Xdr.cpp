@@ -280,7 +280,7 @@ cx
 )
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 (
@@ -625,7 +625,7 @@ buildId
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 xdr
 -
@@ -703,7 +703,7 @@ length
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 xdr
 -
@@ -846,7 +846,7 @@ with
 older
 scripts
 .
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 xdr
 -

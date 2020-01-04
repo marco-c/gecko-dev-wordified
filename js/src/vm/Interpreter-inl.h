@@ -4043,7 +4043,7 @@ index
 INT32_MAX
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

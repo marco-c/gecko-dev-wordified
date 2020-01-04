@@ -369,7 +369,7 @@ len
 ARGS_LENGTH_MAX
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

@@ -3117,7 +3117,7 @@ isClassConstructor
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -16954,7 +16954,7 @@ JS_UNINITIALIZED_LEXICAL
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -28313,7 +28313,7 @@ unsigned
 errorNum
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -29936,7 +29936,7 @@ length
 ARGS_LENGTH_MAX
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -31818,7 +31818,7 @@ CheckIsObjectKind
 :
 IteratorNext
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

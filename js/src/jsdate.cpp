@@ -16150,7 +16150,7 @@ utctime
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 js

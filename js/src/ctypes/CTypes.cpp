@@ -1052,7 +1052,7 @@ suppress
 maybecx
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 maybecx
 GetErrorMessage
@@ -24061,7 +24061,7 @@ currentGrouping
 ;
 while
 (
-true
+1
 )
 {
 currentGrouping
@@ -27559,7 +27559,7 @@ void_t
 case
 TYPE_function
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

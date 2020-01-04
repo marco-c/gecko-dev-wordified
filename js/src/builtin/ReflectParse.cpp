@@ -1034,7 +1034,7 @@ expr
 )
 {
 \
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -1065,7 +1065,7 @@ false
 )
 ;
 \
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

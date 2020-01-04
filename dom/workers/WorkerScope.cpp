@@ -4506,7 +4506,7 @@ Value
 aVp
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 aCx
 js

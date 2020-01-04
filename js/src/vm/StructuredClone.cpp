@@ -2717,7 +2717,7 @@ errorId
 case
 JS_SCERR_DUP_TRANSFERABLE
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -2730,7 +2730,7 @@ break
 case
 JS_SCERR_TRANSFERABLE
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -2743,7 +2743,7 @@ break
 case
 JS_SCERR_UNSUPPORTED_TYPE
 :
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -6214,7 +6214,7 @@ HandleObject
 obj
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -8981,7 +8981,7 @@ isPreparedForAsmJS
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -12712,7 +12712,7 @@ getSharedMemoryAndAtomicsEnabled
 )
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -13040,7 +13040,7 @@ runtime
 readPrincipals
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 context
 (
@@ -14382,7 +14382,7 @@ version
 JS_STRUCTURED_CLONE_VERSION
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
