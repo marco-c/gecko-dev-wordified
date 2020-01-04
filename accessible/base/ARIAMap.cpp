@@ -304,7 +304,7 @@ kUseMapRole
 eNoValue
 eNoAction
 eNoLiveAttr
-kGenericAccType
+eAlert
 kNoReqStates
 }
 {

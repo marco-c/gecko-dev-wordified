@@ -312,6 +312,11 @@ aContent
 aDoc
 )
 {
+mGenericTypes
+|
+=
+eAlert
+;
 }
 XULAlertAccessible
 :
