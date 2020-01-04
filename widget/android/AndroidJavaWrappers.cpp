@@ -3996,6 +3996,11 @@ ReadCharactersField
 jenv
 )
 ;
+ReadCharactersExtraField
+(
+jenv
+)
+;
 mCount
 =
 jenv
