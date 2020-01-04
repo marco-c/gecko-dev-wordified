@@ -14866,6 +14866,12 @@ GetDocumentURIFromJS
 nsString
 &
 aDocumentURI
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 const
 ;
