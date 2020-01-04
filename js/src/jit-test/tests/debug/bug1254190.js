@@ -10,6 +10,9 @@ error
 out
 of
 memory
+;
+slow
+;
 if
 (
 !
