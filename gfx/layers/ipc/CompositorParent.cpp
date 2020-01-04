@@ -2125,7 +2125,6 @@ else
 {
 SetNeedsComposite
 (
-true
 )
 ;
 }
@@ -2243,8 +2242,6 @@ CompositorVsyncScheduler
 :
 SetNeedsComposite
 (
-bool
-aNeedsComposite
 )
 {
 if
@@ -2274,7 +2271,6 @@ CompositorVsyncScheduler
 :
 :
 SetNeedsComposite
-aNeedsComposite
 )
 ;
 ScheduleTask
@@ -2301,7 +2297,7 @@ nullptr
 }
 mNeedsComposite
 =
-aNeedsComposite
+true
 ;
 if
 (
