@@ -803,7 +803,9 @@ mLogicalPosition
 ;
 if
 (
-mShuttingDown
+IsShutdown
+(
+)
 )
 {
 return

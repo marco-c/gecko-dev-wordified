@@ -3296,7 +3296,9 @@ NS_IsMainThread
 if
 (
 !
-mShuttingDown
+IsShutdown
+(
+)
 )
 {
 mOwner
@@ -3481,6 +3483,12 @@ of
 playback
 bool
 IsEnded
+(
+)
+const
+;
+bool
+IsShutdown
 (
 )
 const
