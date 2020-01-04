@@ -58031,9 +58031,15 @@ have
 been
 determined
 .
+if
+(
+!
 encodeSafepoints
 (
 )
+)
+return
+false
 ;
 AutoDiscardIonCode
 discardIonCode

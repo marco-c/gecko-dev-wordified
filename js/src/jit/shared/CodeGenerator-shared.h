@@ -1669,7 +1669,7 @@ for
 safepoint
 offsets
 .
-void
+bool
 encodeSafepoints
 (
 )
