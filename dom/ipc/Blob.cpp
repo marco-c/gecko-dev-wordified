@@ -8534,6 +8534,7 @@ nsAString
 &
 aName
 )
+const
 override
 ;
 virtual
@@ -11806,6 +11807,7 @@ nsAString
 &
 aName
 )
+const
 {
 mBlobImpl
 -

@@ -1322,6 +1322,7 @@ nsAString
 &
 aName
 )
+const
 ;
 int64_t
 GetLastModified
@@ -1492,6 +1493,7 @@ nsAString
 &
 aName
 )
+const
 =
 0
 ;
@@ -2140,6 +2142,7 @@ nsAString
 &
 aName
 )
+const
 override
 ;
 virtual

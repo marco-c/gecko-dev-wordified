@@ -286,6 +286,7 @@ nsAString
 &
 aName
 )
+const
 override
 {
 mBlobImpl
