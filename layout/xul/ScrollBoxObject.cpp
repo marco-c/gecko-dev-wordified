@@ -734,7 +734,7 @@ isLTR
 scrolledBox
 -
 >
-IsNormalDirection
+IsXULNormalDirection
 (
 )
 ;

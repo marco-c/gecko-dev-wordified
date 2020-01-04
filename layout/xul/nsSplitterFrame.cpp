@@ -3928,7 +3928,7 @@ if
 mParentBox
 -
 >
-IsNormalDirection
+IsXULNormalDirection
 (
 )
 )
