@@ -8,6 +8,14 @@ random
 (
 )
 ;
+/
+*
+global
+onconnect
+:
+true
+*
+/
 onconnect
 =
 function

@@ -4527,6 +4527,7 @@ true
 ;
 try
 {
+let
 urlObject
 =
 NetUtil

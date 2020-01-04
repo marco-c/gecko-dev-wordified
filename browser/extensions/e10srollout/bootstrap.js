@@ -1697,6 +1697,7 @@ LONG_SPINNER_HISTOGRAM
 ;
 for
 (
+let
 spinnerTime
 of
 Object

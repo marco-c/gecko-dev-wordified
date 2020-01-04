@@ -358,6 +358,7 @@ new
 '
 }
 function
+*
 (
 opts
 )
