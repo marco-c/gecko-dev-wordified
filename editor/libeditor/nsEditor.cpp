@@ -14891,12 +14891,7 @@ i
 ;
 i
 <
-nsISelectionController
-:
-:
-NUM_SELECTIONTYPES
--
-1
+kPresentSelectionTypeCount
 ;
 +
 +
@@ -15860,12 +15855,7 @@ i
 ;
 i
 <
-nsISelectionController
-:
-:
-NUM_SELECTIONTYPES
--
-1
+kPresentSelectionTypeCount
 ;
 +
 +
