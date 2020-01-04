@@ -1500,9 +1500,17 @@ m
 m
 .
 alias
+.
+toLocaleLowerCase
+(
+)
 =
 =
 searchToken
+.
+toLocaleLowerCase
+(
+)
 )
 ;
 }
