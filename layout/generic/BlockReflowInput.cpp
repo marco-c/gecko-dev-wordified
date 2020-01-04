@@ -225,10 +225,10 @@ static
 bool
 sFloatFragmentsInsideColumnPrefCached
 ;
-nsBlockReflowState
+BlockReflowInput
 :
 :
-nsBlockReflowState
+BlockReflowInput
 (
 const
 ReflowInput
@@ -709,7 +709,7 @@ should
 be
 set
 in
-nsBlockReflowState
+BlockReflowInput
 "
 )
 ;
@@ -1078,7 +1078,7 @@ CalcLineHeight
 ;
 }
 nscoord
-nsBlockReflowState
+BlockReflowInput
 :
 :
 GetConsumedBSize
@@ -1108,7 +1108,7 @@ mConsumedBSize
 ;
 }
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ComputeReplacedBlockOffsetsForFloats
@@ -1579,7 +1579,7 @@ been
 called
 .
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ComputeBlockAvailSpace
@@ -2265,7 +2265,7 @@ wm
 endif
 }
 bool
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ReplacedBlockFitsInAvailSpace
@@ -2461,7 +2461,7 @@ wm
 ;
 }
 nsFlowAreaRect
-nsBlockReflowState
+BlockReflowInput
 :
 :
 GetFloatAvailableSpaceWithState
@@ -2723,7 +2723,7 @@ result
 ;
 }
 nsFlowAreaRect
-nsBlockReflowState
+BlockReflowInput
 :
 :
 GetFloatAvailableSpaceForBSize
@@ -3093,7 +3093,7 @@ collapse
 *
 /
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ReconstructMarginBefore
@@ -3235,7 +3235,7 @@ break
 }
 }
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 SetupPushedFloatList
@@ -3375,7 +3375,7 @@ true
 }
 }
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 AppendPushedFloatChain
@@ -3549,7 +3549,7 @@ tree
 *
 /
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 RecoverFloats
@@ -3960,7 +3960,7 @@ ensure
 that
 the
 *
-nsBlockReflowState
+BlockReflowInput
 is
 in
 the
@@ -3998,7 +3998,7 @@ floats
 *
 /
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 RecoverStateFrom
@@ -4228,7 +4228,7 @@ way
 .
 .
 bool
-nsBlockReflowState
+BlockReflowInput
 :
 :
 AddFloat
@@ -4986,7 +4986,7 @@ placed
 ;
 }
 bool
-nsBlockReflowState
+BlockReflowInput
 :
 :
 CanPlaceFloat
@@ -5377,7 +5377,7 @@ cbwm
 ;
 }
 bool
-nsBlockReflowState
+BlockReflowInput
 :
 :
 FlowAndPlaceFloat
@@ -8040,7 +8040,7 @@ true
 ;
 }
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 PushFloatPastBreak
@@ -8242,7 +8242,7 @@ floats
 *
 /
 void
-nsBlockReflowState
+BlockReflowInput
 :
 :
 PlaceBelowCurrentLineFloats
@@ -8384,7 +8384,7 @@ next
 }
 }
 nscoord
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ClearFloats
@@ -8450,7 +8450,7 @@ NOISY_FLOAT_CLEARING
 printf
 (
 "
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ClearFloats

@@ -154,7 +154,7 @@ namespace
 mozilla
 {
 class
-nsBlockReflowState
+BlockReflowInput
 ;
 }
 /
@@ -183,12 +183,12 @@ class
 nsBlockReflowContext
 {
 using
-nsBlockReflowState
+BlockReflowInput
 =
 mozilla
 :
 :
-nsBlockReflowState
+BlockReflowInput
 ;
 using
 ReflowInput
@@ -245,7 +245,7 @@ aReflowState
 nsReflowStatus
 &
 aReflowStatus
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 )

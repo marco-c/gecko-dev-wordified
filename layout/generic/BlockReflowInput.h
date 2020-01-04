@@ -106,10 +106,10 @@ frames
 /
 #
 ifndef
-nsBlockReflowState_h
+BlockReflowInput_h
 #
 define
-nsBlockReflowState_h
+BlockReflowInput_h
 #
 include
 "
@@ -158,7 +158,7 @@ is
 set
 in
 the
-nsBlockReflowState
+BlockReflowInput
 constructor
 when
 the
@@ -206,7 +206,7 @@ is
 set
 in
 the
-nsBlockReflowState
+BlockReflowInput
 constructor
 when
 /
@@ -277,7 +277,7 @@ is
 set
 in
 the
-nsBlockReflowState
+BlockReflowInput
 constructor
 when
 /
@@ -542,7 +542,7 @@ also
 set
 in
 the
-nsBlockReflowState
+BlockReflowInput
 constructor
 if
 /
@@ -677,7 +677,7 @@ mozilla
 {
 /
 /
-nsBlockReflowState
+BlockReflowInput
 contains
 additional
 reflow
@@ -717,7 +717,7 @@ its
 children
 .
 class
-nsBlockReflowState
+BlockReflowInput
 {
 using
 ReflowInput
@@ -729,7 +729,7 @@ ReflowInput
 ;
 public
 :
-nsBlockReflowState
+BlockReflowInput
 (
 const
 ReflowInput
@@ -2838,4 +2838,4 @@ mozilla
 endif
 /
 /
-nsBlockReflowState_h
+BlockReflowInput_h

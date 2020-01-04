@@ -7311,7 +7311,7 @@ continually
 recompute
 it
 .
-nsBlockReflowState
+BlockReflowInput
 state
 (
 *
@@ -8700,7 +8700,7 @@ reflow
 see
 /
 /
-nsBlockReflowState
+BlockReflowInput
 '
 s
 constructor
@@ -10302,7 +10302,7 @@ const
 ReflowInput
 &
 aReflowState
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsHTMLReflowMetrics
@@ -13312,7 +13312,7 @@ nsBlockFrame
 :
 PrepareResizeReflow
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 )
@@ -14136,7 +14136,7 @@ nsBlockFrame
 :
 PropagateFloatDamage
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineBox
@@ -14843,7 +14843,7 @@ void
 DumpLine
 (
 const
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineBox
@@ -15071,7 +15071,7 @@ nsBlockFrame
 :
 ReflowDirtyLines
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 )
@@ -20375,7 +20375,7 @@ nsBlockFrame
 :
 DeleteLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineList
@@ -20556,7 +20556,7 @@ nsBlockFrame
 :
 ReflowLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -20677,7 +20677,7 @@ nsBlockFrame
 :
 PullFrame
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -21352,7 +21352,7 @@ nsBlockFrame
 :
 SlideLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineBox
@@ -22618,7 +22618,7 @@ nsBlockFrame
 :
 ShouldApplyBStartMargin
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineBox
@@ -22929,7 +22929,7 @@ nsBlockFrame
 :
 ReflowBlockFrame
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -27419,7 +27419,7 @@ nsBlockFrame
 :
 ReflowInlineFrames
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -27920,7 +27920,7 @@ nsBlockFrame
 :
 PushTruncatedLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -27993,7 +27993,7 @@ nsBlockFrame
 :
 DoReflowInlineFrames
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineLayout
@@ -29167,7 +29167,7 @@ code
 for
 blocks
 in
-nsBlockReflowState
+BlockReflowInput
 :
 :
 ClearFloats
@@ -29920,7 +29920,7 @@ nsBlockFrame
 :
 ReflowInlineFrame
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineLayout
@@ -30923,7 +30923,7 @@ nsBlockFrame
 :
 CreateContinuationFor
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineBox
@@ -31023,7 +31023,7 @@ nsBlockFrame
 :
 SplitFloat
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsIFrame
@@ -31505,7 +31505,7 @@ nsBlockFrame
 :
 SplitLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineLayout
@@ -31991,7 +31991,7 @@ nsBlockFrame
 :
 IsLastLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 line_iterator
@@ -32206,7 +32206,7 @@ nsBlockFrame
 :
 PlaceLine
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineLayout
@@ -33934,7 +33934,7 @@ nsBlockFrame
 :
 PushLines
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsLineList
@@ -35394,7 +35394,7 @@ are
 reflowed
 by
 (
-nsBlockReflowState
+BlockReflowInput
 /
 nsLineLayout
 )
@@ -39354,7 +39354,7 @@ yet
 need
 to
 investigate
-nsBlockReflowState
+BlockReflowInput
 :
 :
 mPushedFloats
@@ -43657,7 +43657,7 @@ nsBlockFrame
 :
 AdjustFloatAvailableSpace
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 const
@@ -43759,7 +43759,7 @@ matches
 the
 one
 in
-nsBlockReflowState
+BlockReflowInput
 :
 :
 FlowAndPlaceFloat
@@ -43949,7 +43949,7 @@ nsBlockFrame
 :
 ComputeFloatISize
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 const
@@ -44066,7 +44066,7 @@ nsBlockFrame
 :
 ReflowFloat
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 const
@@ -44793,7 +44793,7 @@ be
 doing
 this
 in
-nsBlockReflowState
+BlockReflowInput
 :
 :
 FlowAndPlaceFloat
@@ -45047,7 +45047,7 @@ nsBlockFrame
 :
 ReflowPushedFloats
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsOverflowAreas
@@ -51782,7 +51782,7 @@ ReflowBullet
 nsIFrame
 *
 aBulletFrame
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 nsHTMLReflowMetrics
@@ -52691,7 +52691,7 @@ nsBlockFrame
 :
 CheckFloats
 (
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 )
@@ -53570,7 +53570,7 @@ nsBlockFrame
 ISizeToClearPastFloats
 (
 const
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 const

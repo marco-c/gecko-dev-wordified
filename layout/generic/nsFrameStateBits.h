@@ -4269,7 +4269,7 @@ IsMarginRoot
 This
 causes
 the
-nsBlockReflowState
+BlockReflowInput
 '
 s
 constructor
