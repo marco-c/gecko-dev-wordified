@@ -3500,6 +3500,10 @@ JSAPI
 "
 )
 ;
+ClearException
+(
+)
+;
 }
 }
 bool
