@@ -153,7 +153,7 @@ const
 size_t
 kMaxTiles
 =
-100
+1000
 ;
 /
 *
