@@ -53,12 +53,6 @@ files
 sendchange
 '
         
-'
-check
--
-test
-'
-        
 #
 '
 generate
