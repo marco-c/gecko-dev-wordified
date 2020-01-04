@@ -1629,8 +1629,9 @@ CreateTestH264Decoder
 layers
 :
 :
-LayersBackend
-aBackend
+KnowsCompositor
+*
+aKnowsCompositor
 VideoInfo
 &
 aConfig
@@ -1729,7 +1730,7 @@ CreateDecoder
 {
 aConfig
 aTaskQueue
-aBackend
+aKnowsCompositor
 }
 )
 )
@@ -1762,8 +1763,9 @@ IsVideoAccelerated
 layers
 :
 :
-LayersBackend
-aBackend
+KnowsCompositor
+*
+aKnowsCompositor
 nsIGlobalObject
 *
 aParent
@@ -1850,7 +1852,7 @@ decoder
 (
 CreateTestH264Decoder
 (
-aBackend
+aKnowsCompositor
 config
 taskQueue
 )

@@ -11386,7 +11386,7 @@ IsVideoAccelerated
 mgr
 -
 >
-GetCompositorBackendType
+AsShadowForwarder
 (
 )
 parentObject
