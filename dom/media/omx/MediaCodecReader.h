@@ -1685,8 +1685,6 @@ Track
 &
 aTrack
 bool
-aAsync
-bool
 &
 aIsWaiting
 android

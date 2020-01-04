@@ -520,7 +520,7 @@ if
 mDecoder
 -
 >
-AskMediaCodecAndWait
+AllocateAudioMediaCodec
 (
 )
 )
