@@ -3902,7 +3902,16 @@ if
 mRequest
 )
 {
+RefPtr
+<
+nsGeolocationRequest
+>
+request
+(
 mRequest
+)
+;
+request
 -
 >
 Notify
