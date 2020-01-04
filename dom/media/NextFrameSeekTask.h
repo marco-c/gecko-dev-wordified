@@ -356,6 +356,7 @@ bool
 IsAudioSeekComplete
 (
 )
+const
 ;
 bool
 IsVideoSeekComplete
