@@ -2332,7 +2332,7 @@ crossOriginNavigation
 mLoadInfo
 -
 >
-GetContentPolicyType
+GetExternalContentPolicyType
 (
 )
 =
