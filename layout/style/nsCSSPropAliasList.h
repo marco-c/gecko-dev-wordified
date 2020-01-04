@@ -1554,7 +1554,7 @@ box
 ordinal
 -
 group
-order
+box_ordinal_group
 WebkitBoxOrdinalGroup
 WEBKIT_PREFIX_PREF
 )
