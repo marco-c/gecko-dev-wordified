@@ -1085,6 +1085,8 @@ gdi32Handle
 ;
 PFND3DKMTQS
 queryD3DKMTStatistics
+=
+nullptr
 ;
 /
 /
