@@ -1846,15 +1846,6 @@ memory
 reporter
 manager
 .
-#
-ifdef
-MOZ_STYLO
-Servo_Shutdown
-(
-)
-;
-#
-endif
 nsMessageManagerScriptExecutor
 :
 :
