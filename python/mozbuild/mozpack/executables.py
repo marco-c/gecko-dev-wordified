@@ -621,11 +621,13 @@ substs
 return
 not
 substs
-[
+.
+get
+(
 '
 PKG_SKIP_STRIP
 '
-]
+)
 def
 strip
 (
