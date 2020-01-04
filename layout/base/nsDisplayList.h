@@ -19745,6 +19745,12 @@ nsRect
 aRect
 )
 ;
+bool
+IsEmpty
+(
+)
+const
+;
 const
 nsRegion
 &
