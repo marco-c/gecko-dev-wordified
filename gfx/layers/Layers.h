@@ -175,17 +175,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-/
-/
-for
-gfxRGBA
-#
-include
-"
 GraphicsFilter
 .
 h

@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxColor
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h

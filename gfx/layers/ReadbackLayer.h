@@ -122,17 +122,6 @@ etc
 #
 include
 "
-gfxColor
-.
-h
-"
-/
-/
-for
-gfxRGBA
-#
-include
-"
 mozilla
 /
 gfx
@@ -159,7 +148,7 @@ h
 /
 /
 for
-gfxRect
+IntPoint
 #
 include
 "

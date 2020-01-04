@@ -193,13 +193,6 @@ Log
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

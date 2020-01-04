@@ -320,13 +320,6 @@ CoreServices
 h
 >
 #
-include
-"
-gfxColor
-.
-h
-"
-#
 endif
 #
 if

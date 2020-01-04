@@ -121,13 +121,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

@@ -103,17 +103,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-/
-/
-for
-gfxRGBA
-#
-include
-"
 mozilla
 /
 RefPtr

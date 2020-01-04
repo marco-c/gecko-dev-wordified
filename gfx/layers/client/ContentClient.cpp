@@ -115,17 +115,6 @@ BasicLayerManager
 #
 include
 "
-gfxColor
-.
-h
-"
-/
-/
-for
-gfxRGBA
-#
-include
-"
 gfxContext
 .
 h

@@ -99,13 +99,6 @@ GFXQTNATIVERENDER_H_
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
