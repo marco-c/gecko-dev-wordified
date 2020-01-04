@@ -1873,6 +1873,16 @@ GetParent
 (
 )
 ;
+if
+(
+!
+parent
+)
+{
+return
+nullptr
+;
+}
 HTMLSelectElement
 *
 select
@@ -1880,7 +1890,7 @@ select
 HTMLSelectElement
 :
 :
-FromContentOrNull
+FromContent
 (
 parent
 )
