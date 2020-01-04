@@ -340,7 +340,7 @@ aLayout
 virtual
 nsBoxLayout
 *
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 override

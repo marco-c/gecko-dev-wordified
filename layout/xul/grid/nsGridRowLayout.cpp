@@ -537,7 +537,7 @@ layout
 childBox
 -
 >
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 ;

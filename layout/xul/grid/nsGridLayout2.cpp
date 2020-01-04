@@ -301,7 +301,7 @@ NS_ASSERTION
 aBox
 -
 >
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 =
@@ -457,7 +457,7 @@ NS_ASSERTION
 aBox
 -
 >
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 =

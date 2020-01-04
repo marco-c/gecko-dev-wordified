@@ -2998,7 +2998,7 @@ layout
 aBox
 -
 >
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 ;
