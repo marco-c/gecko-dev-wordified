@@ -8891,6 +8891,8 @@ StartOffset
 nsINode
 *
 node
+=
+nullptr
 ;
 if
 (

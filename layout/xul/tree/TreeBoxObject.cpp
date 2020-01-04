@@ -646,6 +646,8 @@ bug
 nsIFrame
 *
 frame
+=
+nullptr
 ;
 if
 (

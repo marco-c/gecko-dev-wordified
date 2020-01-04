@@ -5258,6 +5258,8 @@ origCaptionVisualOverflow
 ;
 bool
 captionFirstReflow
+=
+false
 ;
 if
 (

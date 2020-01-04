@@ -8416,6 +8416,8 @@ true
 .
 int32_t
 parentWidth
+=
+0
 ;
 bool
 anchored

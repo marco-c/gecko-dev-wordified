@@ -6114,6 +6114,8 @@ valign
 ;
 nscoord
 maxAscent
+=
+0
 ;
 bool
 isLTR
@@ -6252,6 +6254,8 @@ height
 ;
 nscoord
 y
+=
+0
 ;
 switch
 (
@@ -6434,6 +6438,8 @@ width
 ;
 nscoord
 x
+=
+0
 ;
 switch
 (

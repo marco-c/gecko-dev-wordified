@@ -865,6 +865,8 @@ early
 .
 nsresult
 stateRV
+=
+NS_ERROR_FAILURE
 ;
 if
 (
