@@ -2390,7 +2390,7 @@ didJoin
 .
 nsCOMPtr
 <
-Element
+nsIDOMNode
 >
 mNewBlock
 ;
