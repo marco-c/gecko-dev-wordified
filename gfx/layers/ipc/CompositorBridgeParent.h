@@ -682,9 +682,12 @@ CompositorVsyncScheduler
 CompositorBridgeParent
 *
 aCompositorBridgeParent
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
-aWidget
+aWidgetProxy
 )
 ;
 #
