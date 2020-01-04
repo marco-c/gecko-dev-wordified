@@ -6730,6 +6730,12 @@ SdpRtpmapAttributeList
 :
 kUlpfec
 :
+case
+SdpRtpmapAttributeList
+:
+:
+kTelephoneEvent
+:
 return
 false
 ;

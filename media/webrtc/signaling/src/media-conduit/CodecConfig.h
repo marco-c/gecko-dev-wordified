@@ -150,6 +150,9 @@ mRate
 bool
 mFECEnabled
 ;
+bool
+mDtmfEnabled
+;
 /
 /
 OPUS
@@ -232,6 +235,10 @@ rate
 mFECEnabled
 (
 FECEnabled
+)
+mDtmfEnabled
+(
+false
 )
 mMaxPlaybackRate
 (
