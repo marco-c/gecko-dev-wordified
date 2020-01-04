@@ -347,6 +347,13 @@ DIEDispatcher
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -536,7 +543,7 @@ void
 DwarfAttribute
 DwarfForm
 const
-char
+uint8_t
 *
 uint64
 )
@@ -644,7 +651,7 @@ void
 DwarfAttribute
 DwarfForm
 const
-char
+uint8_t
 *
 uint64
 )
@@ -1167,7 +1174,7 @@ mock_root_handler
 )
 ;
 const
-char
+uint8_t
 buffer
 [
 10

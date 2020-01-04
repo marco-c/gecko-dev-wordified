@@ -1129,9 +1129,14 @@ shndx
 ;
 private
 :
+#
+ifndef
+NDEBUG
 size_t
 addr_size_
 ;
+#
+endif
 StringTable
 &
 table_
