@@ -2539,7 +2539,7 @@ false
 )
 )
 {
-var
+let
 uri
 =
 resolveURIInternal
@@ -2630,7 +2630,7 @@ false
 )
 )
 {
-var
+let
 uri
 =
 resolveURIInternal
@@ -2753,8 +2753,8 @@ true
 else
 try
 {
-var
-uri
+let
+resolvedURI
 =
 resolveURIInternal
 (
@@ -2765,9 +2765,7 @@ chromeParam
 let
 isLocal
 =
-(
 uri
-)
 =
 >
 {
@@ -2833,7 +2831,7 @@ if
 (
 isLocal
 (
-uri
+resolvedURI
 )
 )
 {
@@ -2876,7 +2874,7 @@ cmdLine
 openWindow
 (
 null
-uri
+resolvedURI
 .
 spec
 "
@@ -3018,8 +3016,8 @@ if
 privateWindowParam
 )
 {
-var
-uri
+let
+resolvedURI
 =
 resolveURIInternal
 (
@@ -3029,7 +3027,7 @@ privateWindowParam
 ;
 handURIToExistingBrowser
 (
-uri
+resolvedURI
 nsIBrowserDOMWindow
 .
 OPEN_NEWTAB
@@ -3048,11 +3046,14 @@ true
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
-=
+!
 =
 Components
 .
@@ -3061,6 +3062,10 @@ results
 NS_ERROR_INVALID_ARG
 )
 {
+throw
+e
+;
+}
 /
 /
 NS_ERROR_INVALID_ARG
@@ -3261,7 +3266,7 @@ nsIIOService
 )
 ;
 var
-uri
+fileURI
 =
 ios
 .
@@ -3293,7 +3298,7 @@ getFeatures
 (
 cmdLine
 )
-uri
+fileURI
 .
 spec
 )
