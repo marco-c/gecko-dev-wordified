@@ -1334,10 +1334,10 @@ return
 eOBJECT
 ;
 }
+return
+eUNKNOWN
+;
 }
-/
-/
-FALLTHROUGH
 default
 :
 {

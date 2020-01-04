@@ -466,10 +466,8 @@ mMethod
 =
 eXMLOutput
 ;
-/
-/
-Fall
-through
+MOZ_FALLTHROUGH
+;
 }
 case
 eXMLOutput
