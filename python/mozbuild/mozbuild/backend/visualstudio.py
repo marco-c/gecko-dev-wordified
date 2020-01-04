@@ -177,12 +177,9 @@ upper
 (
 )
 def
-visual_studio_product_to_internal_version
+visual_studio_product_to_solution_version
 (
 version
-solution
-=
-False
 )
 :
     
@@ -201,6 +198,9 @@ return
 .
 00
 '
+'
+12
+'
     
 elif
 version
@@ -213,9 +213,12 @@ version
         
 return
 '
-14
+12
 .
 00
+'
+'
+14
 '
     
 else
@@ -1983,14 +1986,14 @@ projects
 )
 :
         
-version
+format_version
+comment_version
 =
-visual_studio_product_to_internal_version
+visual_studio_product_to_solution_version
 (
 self
 .
 _version
-True
 )
         
 #
@@ -2049,8 +2052,8 @@ r
 n
 '
 %
-            
-version
+                 
+format_version
 )
         
 fh
@@ -2069,9 +2072,7 @@ r
 n
 '
 %
-self
-.
-_version
+comment_version
 )
         
 binaries_id
