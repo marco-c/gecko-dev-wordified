@@ -970,7 +970,7 @@ findRenderedComponentWithType
 view
 loop
 .
-conversationViews
+roomViews
 .
 FailureInfoView
 )
