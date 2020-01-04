@@ -230,6 +230,11 @@ ensureCrashHandling
 ;
 if
 (
+AppConstants
+.
+MOZ_ANDROID_CUSTOM_TABS
+&
+&
 isCustomTabsIntent
 (
 )
