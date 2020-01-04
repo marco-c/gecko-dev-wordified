@@ -269,7 +269,7 @@ extractLane
 f
 4
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -286,7 +286,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -304,7 +304,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -321,7 +321,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -996,7 +996,7 @@ extractLane
 f
 2
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1013,7 +1013,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1031,7 +1031,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1048,7 +1048,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1875,7 +1875,7 @@ extractLane
 f
 16
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1892,7 +1892,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1910,7 +1910,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1927,7 +1927,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2865,7 +2865,7 @@ extractLane
 f
 8
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2882,7 +2882,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2900,7 +2900,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2917,7 +2917,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -3678,7 +3678,7 @@ extractLane
 f
 4
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -3695,7 +3695,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -3713,7 +3713,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -3730,7 +3730,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -4587,7 +4587,7 @@ extractLane
 f
 16
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -4604,7 +4604,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -4622,7 +4622,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -4639,7 +4639,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -5577,7 +5577,7 @@ extractLane
 f
 8
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -5594,7 +5594,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -5612,7 +5612,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -5629,7 +5629,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -6390,7 +6390,7 @@ extractLane
 f
 4
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -6407,7 +6407,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -6425,7 +6425,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -6442,7 +6442,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -7228,7 +7228,7 @@ extractLane
 f
 16
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -7245,7 +7245,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -7263,7 +7263,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -7280,7 +7280,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -7997,7 +7997,7 @@ extractLane
 f
 8
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8014,7 +8014,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8032,7 +8032,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8049,7 +8049,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8618,7 +8618,7 @@ extractLane
 f
 4
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8635,7 +8635,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8653,7 +8653,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -8670,7 +8670,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -9165,7 +9165,7 @@ extractLane
 f
 2
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -9182,7 +9182,7 @@ f
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -9200,7 +9200,7 @@ f
 .
 5
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -9217,7 +9217,7 @@ f
 {
 }
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
