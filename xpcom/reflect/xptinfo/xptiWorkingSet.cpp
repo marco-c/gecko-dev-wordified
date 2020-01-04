@@ -203,10 +203,6 @@ sizeof
 (
 double
 )
-"
-xptiWorkingSet
-structs
-"
 )
 ;
 }
