@@ -680,10 +680,8 @@ return
 mUpdating
 ;
 }
-already_AddRefed
-<
 TimeRanges
->
+*
 GetBuffered
 (
 ErrorResult
@@ -1354,6 +1352,12 @@ mPendingAppend
 const
 nsCString
 mType
+;
+RefPtr
+<
+TimeRanges
+>
+mBuffered
 ;
 }
 ;
