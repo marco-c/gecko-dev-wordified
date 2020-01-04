@@ -267,7 +267,6 @@ public
 MediaStreamListener
 methods
 .
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -292,7 +291,6 @@ aInputTrackID
 )
 override
 ;
-virtual
 void
 NotifyEvent
 (
@@ -312,7 +310,6 @@ DOMMediaStream
 PrincipalChangeObserver
 method
 .
-virtual
 void
 PrincipalChanged
 (

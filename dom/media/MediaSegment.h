@@ -917,7 +917,6 @@ MediaSegment
 {
 public
 :
-virtual
 MediaSegment
 *
 CreateEmptyClone
@@ -933,7 +932,6 @@ C
 )
 ;
 }
-virtual
 void
 AppendFrom
 (
@@ -992,7 +990,6 @@ aSource
 )
 ;
 }
-virtual
 void
 AppendSlice
 (
@@ -1090,7 +1087,6 @@ again
 .
 *
 /
-virtual
 void
 ForgetUpTo
 (
@@ -1207,7 +1203,6 @@ mDuration
 aDuration
 ;
 }
-virtual
 void
 FlushAfter
 (
@@ -1337,7 +1332,6 @@ mDuration
 aNewEnd
 ;
 }
-virtual
 void
 InsertNullDataAtStart
 (
@@ -1432,7 +1426,6 @@ mDuration
 aDuration
 ;
 }
-virtual
 void
 AppendNullData
 (
@@ -1516,7 +1509,6 @@ mDuration
 aDuration
 ;
 }
-virtual
 void
 ReplaceWithDisabled
 (
@@ -1561,7 +1553,6 @@ duration
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -1929,7 +1920,6 @@ mTimeStamp
 }
 #
 endif
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1987,7 +1977,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

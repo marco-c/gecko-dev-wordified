@@ -212,7 +212,6 @@ NS_DECL_NSIOBSERVER
 /
 LoadNotificationCallback
 interface
-virtual
 void
 LoadChanged
 (
@@ -238,7 +237,6 @@ overuse
 is
 detected
 .
-virtual
 void
 OveruseDetected
 (
@@ -258,7 +256,6 @@ overused
 any
 longer
 .
-virtual
 void
 NormalUsage
 (
@@ -269,7 +266,6 @@ override
 /
 CPULoadStateCallbackInvoker
 interface
-virtual
 void
 AddObserver
 (
@@ -282,7 +278,6 @@ aObserver
 )
 override
 ;
-virtual
 void
 RemoveObserver
 (

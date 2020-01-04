@@ -4919,7 +4919,6 @@ false
 )
 {
 }
-virtual
 SourceMediaStream
 *
 AsSourceStream
@@ -4937,7 +4936,6 @@ Media
 graph
 thread
 only
-virtual
 void
 DestroyImpl
 (
@@ -5584,7 +5582,6 @@ the
 track
 enable
 status
-virtual
 void
 SetTrackEnabledImpl
 (
@@ -5627,7 +5624,6 @@ the
 track
 enable
 status
-virtual
 void
 ApplyTrackDisabling
 (
@@ -7161,7 +7157,6 @@ bool
 aAutofinish
 )
 ;
-virtual
 ProcessedMediaStream
 *
 AsProcessedStream
@@ -7245,7 +7240,6 @@ Length
 )
 ;
 }
-virtual
 void
 DestroyImpl
 (
@@ -7530,7 +7524,6 @@ return
 mCycleMarker
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -7575,7 +7568,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

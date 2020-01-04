@@ -279,7 +279,6 @@ mImage
 aImage
 ;
 }
-virtual
 void
 NotifyPull
 (

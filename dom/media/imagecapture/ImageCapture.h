@@ -374,7 +374,6 @@ const
 /
 nsWrapperCache
 member
-virtual
 JSObject
 *
 WrapObject

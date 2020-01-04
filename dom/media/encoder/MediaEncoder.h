@@ -603,7 +603,6 @@ MediaSegment
 .
 *
 /
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -641,7 +640,6 @@ removed
 .
 *
 /
-virtual
 void
 NotifyEvent
 (

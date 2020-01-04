@@ -160,7 +160,6 @@ bool
 aEnabled
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -180,7 +179,6 @@ aGivenProto
 )
 override
 ;
-virtual
 AudioTrack
 *
 AsAudioTrack
@@ -192,7 +190,6 @@ return
 this
 ;
 }
-virtual
 void
 SetEnabledInternal
 (

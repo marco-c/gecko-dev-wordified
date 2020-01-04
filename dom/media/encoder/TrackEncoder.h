@@ -809,7 +809,6 @@ mAudioBitrate
 )
 {
 }
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -1081,7 +1080,6 @@ aMallocSizeOf
 )
 const
 ;
-virtual
 void
 SetBitrate
 (
@@ -1322,7 +1320,6 @@ data
 .
 *
 /
-virtual
 void
 NotifyEndOfStream
 (
@@ -1512,7 +1509,6 @@ thread
 .
 *
 /
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -1553,7 +1549,6 @@ aMallocSizeOf
 )
 const
 ;
-virtual
 void
 SetBitrate
 (
@@ -1735,7 +1730,6 @@ thread
 .
 *
 /
-virtual
 void
 NotifyEndOfStream
 (

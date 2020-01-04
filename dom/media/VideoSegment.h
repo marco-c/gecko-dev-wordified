@@ -769,7 +769,6 @@ mFrame
 Override
 default
 impl
-virtual
 void
 ReplaceWithDisabled
 (
@@ -834,7 +833,6 @@ return
 VIDEO
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

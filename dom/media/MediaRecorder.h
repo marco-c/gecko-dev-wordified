@@ -400,7 +400,6 @@ aOwnerWindow
 /
 /
 nsWrapperCache
-virtual
 JSObject
 *
 WrapObject

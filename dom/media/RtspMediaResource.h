@@ -733,7 +733,6 @@ Rtsp
 specific
 functions
 .
-virtual
 RtspMediaResource
 *
 GetRtspPointer
@@ -848,7 +847,6 @@ a
 live
 stream
 .
-virtual
 bool
 IsRealTime
 (
@@ -1037,7 +1035,6 @@ DisablePlayoutDelay
 /
 /
 dummy
-virtual
 nsresult
 ReadAt
 (
@@ -1061,7 +1058,6 @@ NS_ERROR_FAILURE
 /
 /
 dummy
-virtual
 void
 SetReadMode
 (
@@ -1077,7 +1073,6 @@ override
 /
 /
 dummy
-virtual
 void
 SetPlaybackRate
 (
@@ -1090,7 +1085,6 @@ override
 /
 /
 dummy
-virtual
 int64_t
 Tell
 (
@@ -1105,7 +1099,6 @@ return
 /
 Any
 thread
-virtual
 void
 Pin
 (
@@ -1113,7 +1106,6 @@ Pin
 override
 {
 }
-virtual
 void
 Unpin
 (
@@ -1121,7 +1113,6 @@ Unpin
 override
 {
 }
-virtual
 bool
 IsSuspendedByCache
 (
@@ -1132,7 +1123,6 @@ return
 mIsSuspend
 ;
 }
-virtual
 bool
 IsSuspended
 (
@@ -1143,7 +1133,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsTransportSeekable
 (
@@ -1157,7 +1146,6 @@ true
 /
 /
 dummy
-virtual
 double
 GetDownloadRate
 (
@@ -1176,7 +1164,6 @@ return
 0
 ;
 }
-virtual
 int64_t
 GetLength
 (
@@ -1200,7 +1187,6 @@ return
 /
 /
 dummy
-virtual
 int64_t
 GetNextCachedData
 (
@@ -1216,7 +1202,6 @@ return
 /
 /
 dummy
-virtual
 int64_t
 GetCachedDataEnd
 (
@@ -1232,7 +1217,6 @@ return
 /
 /
 dummy
-virtual
 bool
 IsDataCachedToEndOfResource
 (
@@ -1274,7 +1258,6 @@ main
 thread
 only
 .
-virtual
 nsresult
 Open
 (
@@ -1285,14 +1268,12 @@ aStreamListener
 )
 override
 ;
-virtual
 nsresult
 Close
 (
 )
 override
 ;
-virtual
 void
 Suspend
 (
@@ -1301,14 +1282,12 @@ aCloseImmediately
 )
 override
 ;
-virtual
 void
 Resume
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsIPrincipal
@@ -1318,7 +1297,6 @@ GetCurrentPrincipal
 )
 override
 ;
-virtual
 bool
 CanClone
 (
@@ -1329,7 +1307,6 @@ return
 false
 ;
 }
-virtual
 already_AddRefed
 <
 MediaResource
@@ -1348,7 +1325,6 @@ nullptr
 /
 /
 dummy
-virtual
 nsresult
 ReadFromCache
 (
@@ -1366,7 +1342,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1376,7 +1351,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

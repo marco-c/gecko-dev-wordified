@@ -148,7 +148,6 @@ aLabel
 )
 {
 }
-virtual
 JSObject
 *
 WrapObject
@@ -168,7 +167,6 @@ aGivenProto
 )
 override
 ;
-virtual
 VideoStreamTrack
 *
 AsVideoStreamTrack
@@ -183,7 +181,6 @@ this
 /
 /
 WebIDL
-virtual
 void
 GetKind
 (

@@ -4013,7 +4013,6 @@ complex
 cases
 well
 .
-virtual
 void
 StopTrack
 (
@@ -4141,7 +4140,6 @@ aTrackID
 }
 }
 }
-virtual
 already_AddRefed
 <
 Promise
@@ -4609,7 +4607,6 @@ to
 PeerConnection
 /
 MediaPipeline
-virtual
 bool
 AddDirectListener
 (
@@ -4650,7 +4647,6 @@ return
 false
 ;
 }
-virtual
 void
 AudioConfig
 (
@@ -4699,7 +4695,6 @@ mPlayoutDelay
 aPlayoutDelay
 ;
 }
-virtual
 void
 RemoveDirectListener
 (
@@ -4728,7 +4723,6 @@ aListener
 ;
 }
 }
-virtual
 DOMLocalMediaStream
 *
 AsDOMLocalMediaStream
@@ -4740,7 +4734,6 @@ return
 this
 ;
 }
-virtual
 MediaEngineSource
 *
 GetMediaEngine
@@ -5274,7 +5267,6 @@ aStream
 )
 {
 }
-virtual
 void
 NotifyTracksAvailable
 (
@@ -16744,11 +16736,11 @@ aReply
 }
 private
 :
-virtual
 void
 Run
 (
 )
+override
 {
 LOG
 (

@@ -279,7 +279,6 @@ SetDefaultSettings
 (
 )
 ;
-virtual
 JSObject
 *
 WrapObject

@@ -190,7 +190,6 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 MallocSizeOf
 )
 ;
-virtual
 void
 *
 operator
@@ -201,6 +200,7 @@ void
 *
 aObject
 )
+override
 {
 const
 AudioData
