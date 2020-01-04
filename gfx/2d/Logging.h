@@ -4118,7 +4118,7 @@ uniqueness
 .
 #
 define
-gfxCrash
+gfxDevCrash
 (
 reason
 )

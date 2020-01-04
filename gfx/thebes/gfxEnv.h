@@ -531,7 +531,7 @@ ForceDoubleBuffering
 /
 /
 Force
-gfxCrash
+gfxDevCrash
 to
 use
 MOZ_CRASH
@@ -544,13 +544,13 @@ DECL_GFX_ENV_ONCE
 "
 MOZ_GFX_CRASH_MOZ_CRASH
 "
-GfxCrashMozCrash
+GfxDevCrashMozCrash
 )
 ;
 /
 /
 Force
-gfxCrash
+gfxDevCrash
 to
 use
 telemetry
@@ -563,7 +563,7 @@ DECL_GFX_ENV_ONCE
 "
 MOZ_GFX_CRASH_TELEMETRY
 "
-GfxCrashTelemetry
+GfxDevCrashTelemetry
 )
 ;
 DECL_GFX_ENV_LIVE
