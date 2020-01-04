@@ -6170,6 +6170,8 @@ get
 ;
 }
 }
+#
+endif
 gfxFontconfigFontBase
 :
 :
@@ -6202,5 +6204,3 @@ aPattern
 )
 {
 }
-#
-endif
