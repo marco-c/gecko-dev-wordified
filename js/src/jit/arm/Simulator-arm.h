@@ -383,6 +383,15 @@ IonTypes
 .
 h
 "
+#
+include
+"
+threading
+/
+Mutex
+.
+h
+"
 namespace
 js
 {
@@ -2765,8 +2774,7 @@ cpp
 file
 )
 .
-PRLock
-*
+Mutex
 cacheLock_
 ;
 #
