@@ -398,6 +398,19 @@ browser
 '
 Firefox
 for
+Desktop
+Artifact
+Mode
+'
+'
+browser_artifact_mode
+'
+)
+    
+(
+'
+Firefox
+for
 Android
 Artifact
 Mode
@@ -452,18 +465,25 @@ APPLICATIONS_LIST
 0
 ]
     
-mobile_android_artifact_mode
+browser_artifact_mode
 =
 APPLICATIONS_LIST
 [
 1
 ]
     
-mobile_android
+mobile_android_artifact_mode
 =
 APPLICATIONS_LIST
 [
 2
+]
+    
+mobile_android
+=
+APPLICATIONS_LIST
+[
+3
 ]
 )
 STATE_DIR_INFO
