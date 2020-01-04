@@ -3917,6 +3917,15 @@ aURI
 )
 override
 ;
+virtual
+void
+ApplySettingsFromCSP
+(
+bool
+aSpeculative
+)
+override
+;
 /
 *
 *

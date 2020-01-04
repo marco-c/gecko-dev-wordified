@@ -1279,6 +1279,12 @@ GetUpgradeInsecureRequests
 aLoadInfo
 -
 >
+GetUpgradeInsecurePreloads
+(
+)
+aLoadInfo
+-
+>
 GetInnerWindowID
 (
 )
@@ -1554,6 +1560,11 @@ contentPolicyType
 loadInfoArgs
 .
 upgradeInsecureRequests
+(
+)
+loadInfoArgs
+.
+upgradeInsecurePreloads
 (
 )
 loadInfoArgs
