@@ -151,13 +151,6 @@ flags
 .
 *
 /
-#
-include
-"
-nsSandboxFlags
-.
-h
-"
 /
 /
 Each
