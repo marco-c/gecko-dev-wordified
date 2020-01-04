@@ -563,9 +563,6 @@ case
 case
 8
 :
-case
-9
-:
 statusText
 =
 stringBundle
