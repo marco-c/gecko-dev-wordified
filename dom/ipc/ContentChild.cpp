@@ -8064,7 +8064,7 @@ AllocPRemoteSpellcheckEngineChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 Default
@@ -8157,7 +8157,7 @@ AllocPPresentationChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 We
@@ -8562,7 +8562,7 @@ uint32_t
 aServiceId
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 No
@@ -8761,7 +8761,7 @@ FileSystemParams
 aParams
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 Should
@@ -8947,7 +8947,7 @@ aClientId
 #
 ifdef
 MOZ_B2G_RIL
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 No
@@ -9129,7 +9129,7 @@ the
 IPC
 connection
 .
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 Should
@@ -9216,7 +9216,7 @@ the
 IPC
 connection
 .
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 Should
@@ -9849,7 +9849,7 @@ AllocPStorageChild
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 We
@@ -14747,8 +14747,9 @@ true
 ;
 #
 else
-NS_NOTREACHED
+MOZ_ASSERT
 (
+false
 "
 ContentChild
 :
