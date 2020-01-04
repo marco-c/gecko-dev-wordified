@@ -2267,12 +2267,6 @@ false
 if
 defined
 (
-MOZ_WIDEVINE_EME
-)
-&
-&
-defined
-(
 XP_WIN
 )
 /
@@ -3061,9 +3055,6 @@ w3
 clearkey
 "
 )
-#
-ifdef
-MOZ_WIDEVINE_EME
 |
 |
 aKeySystem
@@ -3078,8 +3069,6 @@ widevine
 alpha
 "
 )
-#
-endif
 )
 &
 &
@@ -3408,12 +3397,6 @@ caps
 }
 #
 if
-defined
-(
-MOZ_WIDEVINE_EME
-)
-&
-&
 defined
 (
 XP_WIN
