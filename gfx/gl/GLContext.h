@@ -499,6 +499,7 @@ sRGB_framebuffer
 sRGB_texture
 sampler_objects
 seamless_cube_map_opt_in
+shader_texture_lod
 split_framebuffer
 standard_derivatives
 sync
@@ -1830,6 +1831,7 @@ ARB_pixel_buffer_object
 ARB_robustness
 ARB_sampler_objects
 ARB_seamless_cube_map
+ARB_shader_texture_lod
 ARB_sync
 ARB_texture_compression
 ARB_texture_float
