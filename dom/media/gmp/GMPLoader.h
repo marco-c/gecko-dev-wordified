@@ -131,6 +131,15 @@ entrypoints
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 if
 defined
 (
@@ -859,8 +868,10 @@ resides
 in
 XUL
 .
+UniquePtr
+<
 GMPLoader
-*
+>
 CreateGMPLoader
 (
 SandboxStarter
