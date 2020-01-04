@@ -6961,6 +6961,10 @@ mAutofinish
 (
 false
 )
+mCycleMarker
+(
+0
+)
 {
 }
 /

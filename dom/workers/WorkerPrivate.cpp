@@ -10576,6 +10576,10 @@ PR_Now
 /
 PR_USEC_PER_MSEC
 )
+mNowBaseTimeHighRes
+(
+0
+)
 {
 MOZ_ASSERT_IF
 (
@@ -18719,6 +18723,10 @@ mIdleGCTimerRunning
 false
 )
 mWorkerScriptExecutedSuccessfully
+(
+false
+)
+mOnLine
 (
 false
 )
