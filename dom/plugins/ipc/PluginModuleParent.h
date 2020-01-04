@@ -860,11 +860,11 @@ RacyInterruptPolicy
 MediateInterruptRace
 (
 const
-Message
+MessageInfo
 &
 parent
 const
-Message
+MessageInfo
 &
 child
 )

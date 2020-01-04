@@ -384,14 +384,14 @@ const
 MessageChannel
 :
 :
-Message
+MessageInfo
 &
 parent
 const
 MessageChannel
 :
 :
-Message
+MessageInfo
 &
 child
 )
