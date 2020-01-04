@@ -2000,6 +2000,9 @@ render
 void
 InvalidateDebugOverlay
 (
+nsIntRegion
+&
+aInvalidRegion
 const
 gfx
 :
