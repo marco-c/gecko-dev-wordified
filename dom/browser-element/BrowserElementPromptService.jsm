@@ -2034,11 +2034,10 @@ password
 ;
 }
 for
-each
 (
 let
 consumer
-in
+of
 prompt
 .
 consumers

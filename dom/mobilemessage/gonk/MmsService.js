@@ -10134,11 +10134,10 @@ MMS
 message
 .
 for
-each
 (
 let
 type
-in
+of
 [
 "
 cc
