@@ -1257,13 +1257,12 @@ aBuilder
 {
 mAnimatedGeometryRoot
 =
-nsLayoutUtils
-:
-:
-GetAnimatedGeometryRootFor
+aBuilder
+-
+>
+FindAnimatedGeometryRootFor
 (
 this
-aBuilder
 )
 ;
 }
