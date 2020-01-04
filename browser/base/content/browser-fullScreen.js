@@ -2788,9 +2788,7 @@ className
 =
 gIdentityHandler
 .
-getMode
-(
-)
+fullscreenWarningClassName
 ;
 /
 /
