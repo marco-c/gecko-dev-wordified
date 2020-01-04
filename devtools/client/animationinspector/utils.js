@@ -2382,13 +2382,13 @@ endDelay
 ?
 x
 +
-w
+iterationW
 -
 endDelayW
 :
 x
 +
-w
+iterationW
 ;
 return
 {
