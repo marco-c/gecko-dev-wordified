@@ -2538,9 +2538,6 @@ success
 ;
 #
 endif
-AutoSafeJSContext
-cx
-;
 ErrorResult
 error
 ;
@@ -2556,7 +2553,12 @@ Value
 >
 result
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 )
 ;
 request
@@ -2564,7 +2566,6 @@ request
 >
 GetResult
 (
-cx
 &
 result
 error
