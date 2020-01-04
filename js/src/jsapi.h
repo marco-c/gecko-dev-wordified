@@ -31474,6 +31474,11 @@ macro
 (
 toPrimitive
 )
+\
+macro
+(
+unscopables
+)
 enum
 class
 SymbolCode
