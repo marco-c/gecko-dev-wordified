@@ -4230,17 +4230,6 @@ mAmpleAudioThresholdUsecs
 *
 mPlaybackRate
 )
-&
-&
-(
-mState
-!
-=
-DECODER_STATE_SEEKING
-|
-|
-mDecodeToSeekTarget
-)
 )
 )
 ;
