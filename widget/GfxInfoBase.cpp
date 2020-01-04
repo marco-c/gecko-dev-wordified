@@ -950,6 +950,12 @@ nsIGfxInfo
 :
 FEATURE_VP9_HW_DECODE
 :
+case
+nsIGfxInfo
+:
+:
+FEATURE_DX_INTEROP2
+:
 /
 /
 We
@@ -959,7 +965,7 @@ t
 provide
 prefs
 for
-this
+these
 features
 .
 break
