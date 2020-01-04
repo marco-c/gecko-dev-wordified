@@ -21,10 +21,10 @@ libpng
 .
 6
 .
-18
+19
 [
-July
-23
+November
+12
 2015
 ]
 *
@@ -1435,7 +1435,6 @@ num_palette
 else
 if
 (
-(
 info_ptr
 -
 >
@@ -1443,10 +1442,6 @@ color_type
 =
 =
 PNG_COLOR_TYPE_PALETTE
-)
-!
-=
-0
 )
 png_error
 (
@@ -8692,8 +8687,13 @@ Swap
 bits
 of
 1
+-
+bit
 2
+-
+bit
 4
+-
 bit
 packed
 pixel
@@ -12258,6 +12258,7 @@ system
 if
 writing
 16
+-
 bit
 files
 .

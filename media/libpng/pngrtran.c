@@ -23,10 +23,10 @@ libpng
 .
 6
 .
-18
+19
 [
-July
-23
+November
+12
 2015
 ]
 *
@@ -5770,8 +5770,6 @@ to
 rgb_to_gray
 "
 )
-;
-break
 ;
 }
 if
@@ -12923,6 +12921,7 @@ else
 *
 No
 16
+-
 bit
 support
 :
@@ -13533,15 +13532,13 @@ PNG_USER_TRANSFORM
 {
 if
 (
-info_ptr
--
->
-bit_depth
-<
 png_ptr
 -
 >
 user_transform_depth
+!
+=
+0
 )
 info_ptr
 -
@@ -13555,15 +13552,13 @@ user_transform_depth
 ;
 if
 (
-info_ptr
--
->
-channels
-<
 png_ptr
 -
 >
 user_transform_channels
+!
+=
+0
 )
 info_ptr
 -
@@ -15064,6 +15059,7 @@ an
 array
 of
 16
+-
 bit
 components
 these
@@ -15079,6 +15075,7 @@ each
 For
 a
 16
+-
 bit
 value
 V
@@ -15284,6 +15281,7 @@ correct
 for
 all
 16
+-
 bit
 *
 input
@@ -20562,6 +20560,7 @@ From
 in
 the
 16
+-
 bit
 case
 do
@@ -20592,6 +20591,7 @@ when
 handling
 linear
 16
+-
 bit
 data
 .
@@ -21517,7 +21517,7 @@ tmp
 sp
 &
 (
-0xf0f
+0x0f0f
 >
 >
 (
@@ -21600,7 +21600,7 @@ tmp
 sp
 &
 (
-0xf0f
+0x0f0f
 >
 >
 (
@@ -21717,7 +21717,7 @@ tmp
 sp
 &
 (
-0xf0f
+0x0f0f
 >
 >
 (

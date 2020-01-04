@@ -250,6 +250,7 @@ than
 on
 a
 16
+-
 bit
 machine
 .

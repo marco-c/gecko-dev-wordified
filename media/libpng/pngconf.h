@@ -17,7 +17,7 @@ version
 .
 6
 .
-18
+19
 July
 23
 2015
@@ -494,8 +494,11 @@ the
 reading
 of
 16
+-
+bit
 and
 32
+-
 bit
 values
 *
@@ -3512,6 +3515,7 @@ error
 libpng
 requires
 8
+-
 bit
 bytes
 "
@@ -3561,6 +3565,7 @@ requires
 a
 signed
 16
+-
 bit
 type
 "
@@ -3598,6 +3603,7 @@ requires
 an
 unsigned
 16
+-
 bit
 type
 "
@@ -3644,6 +3650,7 @@ requires
 a
 signed
 32
+-
 bit
 (
 or
@@ -3684,6 +3691,7 @@ requires
 an
 unsigned
 32
+-
 bit
 (
 or

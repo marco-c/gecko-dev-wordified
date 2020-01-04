@@ -208,6 +208,7 @@ PNG_WRITE_SWAP_SUPPORTED
 Turn
 on
 16
+-
 bit
 byte
 swapping
@@ -1614,6 +1615,7 @@ byte
 order
 on
 16
+-
 bit
 depth
 images
