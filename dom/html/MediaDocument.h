@@ -302,6 +302,15 @@ nsAString
 aStylesheet
 )
 ;
+nsresult
+LinkScript
+(
+const
+nsAString
+&
+aScript
+)
+;
 /
 /
 |
