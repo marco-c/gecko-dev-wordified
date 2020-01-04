@@ -9169,7 +9169,6 @@ wrapper
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 target
 nullptr
@@ -10806,7 +10805,6 @@ WantCall
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 wrapper
 nullptr
@@ -10964,7 +10962,6 @@ WantConstruct
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 wrapper
 nullptr
@@ -12720,7 +12717,6 @@ start
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )

@@ -4476,7 +4476,6 @@ cx
 XPCCallContext
 ccx
 (
-NATIVE_CALLER
 cx
 )
 ;
@@ -4528,7 +4527,6 @@ cx
 XPCCallContext
 ccx
 (
-NATIVE_CALLER
 cx
 )
 ;

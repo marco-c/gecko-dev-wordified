@@ -174,11 +174,6 @@ XPCCallContext
 :
 XPCCallContext
 (
-XPCContext
-:
-:
-LangType
-callerLanguage
 JSContext
 *
 cx

@@ -2160,7 +2160,6 @@ idArg
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -2311,7 +2310,6 @@ objArg
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -4256,7 +4254,6 @@ IDX_CREATE_INSTANCE
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 nullptr

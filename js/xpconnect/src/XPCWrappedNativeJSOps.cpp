@@ -689,7 +689,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -880,7 +879,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -1454,7 +1452,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -3268,7 +3265,6 @@ v
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 nullptr
@@ -3411,7 +3407,6 @@ obj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -4187,7 +4182,6 @@ resolvedp
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 nullptr
@@ -4485,7 +4479,6 @@ v
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -4581,7 +4574,6 @@ result
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -4961,7 +4953,6 @@ callee
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 nullptr
@@ -5064,7 +5055,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 nullptr
@@ -5211,7 +5201,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -5597,7 +5586,6 @@ obj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -5805,7 +5793,6 @@ enumerableOnly
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -7408,7 +7395,6 @@ funobj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 funobj
@@ -7581,7 +7567,6 @@ funobj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 funobj
@@ -7895,7 +7880,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -8284,7 +8268,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -8572,7 +8555,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -8678,7 +8660,6 @@ false
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 )
 ;
@@ -8908,7 +8889,6 @@ obj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
@@ -9044,7 +9024,6 @@ resolvedp
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )
