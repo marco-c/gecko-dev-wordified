@@ -1047,6 +1047,12 @@ hasScript
 )
 const
 ;
+bool
+hasImportBindings
+(
+)
+const
+;
 FunctionDeclarationVector
 *
 functionDeclarations
