@@ -2761,9 +2761,6 @@ entry
 /
 /
 NOTREACHED
-return
-nullptr
-;
 }
 bool
 PLDHashTable
