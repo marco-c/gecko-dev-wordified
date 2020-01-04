@@ -9906,9 +9906,9 @@ NS_METHOD
 nsBaseWidget
 :
 :
-GetRestoredBoundsUntyped
+GetRestoredBounds
 (
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -9928,7 +9928,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-GetScreenBoundsUntyped
+GetScreenBounds
 (
 aRect
 )

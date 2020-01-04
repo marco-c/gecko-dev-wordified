@@ -743,9 +743,12 @@ aRect
 )
 ;
 NS_IMETHOD
-GetRestoredBoundsUntyped
+GetRestoredBounds
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )
