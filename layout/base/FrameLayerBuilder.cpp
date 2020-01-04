@@ -24646,7 +24646,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 (
 *

@@ -28994,7 +28994,7 @@ Unused
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 rootScrollFrame
 -
