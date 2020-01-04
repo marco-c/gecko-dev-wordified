@@ -629,7 +629,7 @@ mozilla
 .
 org
 /
-Copy_n_Paste
+AccessibleCaret
 /
 /
 class
