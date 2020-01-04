@@ -3805,7 +3805,7 @@ shape
 cx
 -
 >
-compartment
+zone
 (
 )
 -

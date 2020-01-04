@@ -5675,7 +5675,7 @@ shape
 cx
 -
 >
-compartment
+zone
 (
 )
 -

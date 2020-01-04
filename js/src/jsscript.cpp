@@ -1517,7 +1517,7 @@ shape
 cx
 -
 >
-compartment
+zone
 (
 )
 -
