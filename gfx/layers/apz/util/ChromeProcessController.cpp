@@ -795,12 +795,6 @@ aPoint
 aGuid
 )
 ;
-#
-if
-defined
-(
-MOZ_SINGLE_PROCESS_APZ
-)
 /
 /
 CalculateRectToZoomTo
@@ -900,11 +894,6 @@ y
 /
 resolution
 ;
-#
-endif
-/
-/
-MOZ_SINGLE_PROCESS_APZ
 CSSRect
 zoomToRect
 =

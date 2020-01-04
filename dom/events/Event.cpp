@@ -4690,12 +4690,6 @@ AppUnitsPerDevPixelAtUnitFullZoom
 )
 )
 ;
-#
-if
-defined
-(
-MOZ_SINGLE_PROCESS_APZ
-)
 if
 (
 aPresContext
@@ -4726,8 +4720,6 @@ GetCumulativeScaleResolution
 )
 ;
 }
-#
-endif
 pt
 +
 =
