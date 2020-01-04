@@ -140,6 +140,9 @@ RefPtr
 .
 h
 "
+class
+nsPagePrintTimer
+;
 namespace
 mozilla
 {
@@ -195,6 +198,14 @@ Shmem
 aStoredPage
 )
 ;
+void
+SetPagePrintTimer
+(
+nsPagePrintTimer
+*
+aPagePrintTimer
+)
+;
 private
 :
 ~
@@ -202,6 +213,12 @@ RemotePrintJobChild
 (
 )
 final
+;
+RefPtr
+<
+nsPagePrintTimer
+>
+mPagePrintTimer
 ;
 }
 ;
