@@ -9426,6 +9426,13 @@ HasPromise
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
+aTarget
+.
+IsVideoOnly
+(
+)
+|
+|
 !
 mAudio
 .
@@ -9456,6 +9463,13 @@ isNothing
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
+aTarget
+.
+IsVideoOnly
+(
+)
+|
+|
 mAudio
 .
 mTimeThreshold
