@@ -1911,7 +1911,7 @@ nsIPrincipal
 aLoadingPrincipal
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aLoadingPrincipal
