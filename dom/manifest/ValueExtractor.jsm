@@ -467,7 +467,11 @@ value
 const
 msg
 =
-background_color
+{
+spec
+.
+property
+}
 :
 {
 value
