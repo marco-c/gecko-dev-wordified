@@ -13149,10 +13149,7 @@ Move
 (
 mMetadataTags
 )
-Move
-(
 visibility
-)
 )
 ;
 mSentLoadedMetadataEvent
@@ -13275,10 +13272,7 @@ self
 mInfo
 )
 )
-Move
-(
 visibility
-)
 )
 ;
 }
