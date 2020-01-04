@@ -2149,9 +2149,7 @@ net
 }
     
 '
-services
--
-central
+autoland
 '
 :
 {
@@ -2161,11 +2159,9 @@ repo_path
 '
 :
 '
-services
+integration
 /
-services
--
-central
+autoland
 '
         
 '
