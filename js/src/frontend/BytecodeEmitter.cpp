@@ -35131,7 +35131,7 @@ nullptr
 ;
 ParseNode
 *
-pn1
+loopDecl
 =
 forHead
 ?
@@ -35149,13 +35149,13 @@ false
 ;
 if
 (
-pn1
+loopDecl
 &
 &
 !
 emitForInOrOfVariables
 (
-pn1
+loopDecl
 &
 letDecl
 )
@@ -35316,7 +35316,7 @@ enterBlockScope
 (
 &
 letStmt
-pn1
+loopDecl
 -
 >
 pn_objbox
@@ -36103,7 +36103,7 @@ pn_right
 ;
 ParseNode
 *
-pn1
+loopDecl
 =
 forHead
 -
@@ -36117,13 +36117,13 @@ false
 ;
 if
 (
-pn1
+loopDecl
 &
 &
 !
 emitForInOrOfVariables
 (
-pn1
+loopDecl
 &
 letDecl
 )
@@ -36321,7 +36321,7 @@ enterBlockScope
 (
 &
 letStmt
-pn1
+loopDecl
 -
 >
 pn_objbox
