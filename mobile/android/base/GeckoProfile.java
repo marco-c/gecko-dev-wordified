@@ -2981,6 +2981,16 @@ return
 mDB
 ;
 }
+public
+boolean
+isWebAppProfile
+(
+)
+{
+return
+mIsWebAppProfile
+;
+}
 /
 /
 Warning
