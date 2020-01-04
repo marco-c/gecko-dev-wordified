@@ -411,7 +411,7 @@ FallibleTArray
 Directory
 :
 :
-BlobImplOrDirectoryPath
+FileOrDirectoryPath
 >
 mTargetData
 ;

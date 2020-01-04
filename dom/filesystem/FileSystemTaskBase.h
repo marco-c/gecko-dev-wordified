@@ -1639,16 +1639,6 @@ value
 )
 override
 ;
-BlobParent
-*
-GetBlobParent
-(
-BlobImpl
-*
-aBlob
-)
-const
-;
 nsresult
 mErrorValue
 ;
