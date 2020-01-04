@@ -268,14 +268,13 @@ print
 {
 }
 :
-No
+no
 files
 to
 lint
-for
+in
 specified
 paths
-!
 "
 .
 format
