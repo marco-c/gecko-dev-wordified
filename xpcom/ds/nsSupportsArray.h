@@ -489,13 +489,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-NS_IMETHOD
-Compact
-(
-void
-)
-override
-;
 MOZ_MUST_USE
 NS_IMETHOD
 Clone
