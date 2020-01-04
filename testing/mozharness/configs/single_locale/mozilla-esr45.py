@@ -301,12 +301,6 @@ pull
 "
         
 "
-clone
--
-locales
-"
-        
-"
 list
 -
 locales
