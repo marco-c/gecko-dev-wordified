@@ -8514,7 +8514,6 @@ addon
 .
 uninstall
 (
-true
 )
 ;
 return
