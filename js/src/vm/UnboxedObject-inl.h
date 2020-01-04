@@ -4266,7 +4266,7 @@ MOZ_ASSERT
 (
 GetBoxedOrUnboxedInitializedLength
 <
-DstType
+SrcType
 >
 (
 src
