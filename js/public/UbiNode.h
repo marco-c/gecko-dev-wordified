@@ -2783,6 +2783,7 @@ web
 platform
 .
 virtual
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -3948,6 +3949,7 @@ isSelfHosted
 )
 ;
 }
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -4145,6 +4147,7 @@ trc
 override
 {
 }
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -4324,6 +4327,7 @@ StackFrame
 }
 }
 ;
+MOZ_MUST_USE
 bool
 ConstructSavedFrameStackSlow
 (
@@ -5806,6 +5810,7 @@ on
 OOM
 .
 virtual
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
@@ -7093,6 +7098,7 @@ jsObjectClassName
 )
 ;
 }
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
@@ -8790,6 +8796,7 @@ all
 GC
 roots
 .
+MOZ_MUST_USE
 bool
 init
 (
@@ -8811,6 +8818,7 @@ JSCompartment
 |
 s
 .
+MOZ_MUST_USE
 bool
 init
 (
@@ -8839,6 +8847,7 @@ debuggee
 /
 compartments
 .
+MOZ_MUST_USE
 bool
 init
 (
@@ -8912,6 +8921,7 @@ of
 /
 edgeName
 .
+MOZ_MUST_USE
 bool
 addRoot
 (
@@ -9559,6 +9569,7 @@ jsObjectClassName
 const
 override
 ;
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
