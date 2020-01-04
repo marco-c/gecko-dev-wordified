@@ -6893,10 +6893,6 @@ uint16_t
 range_offset
 ;
 uint16_t
-*
-glyph_array
-;
-uint16_t
 c
 ;
 backend
@@ -7129,16 +7125,6 @@ range_offset
 &
 (
 delta
-[
-num_segments
-]
-)
-;
-glyph_array
-=
-&
-(
-range_offset
 [
 num_segments
 ]

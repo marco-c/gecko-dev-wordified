@@ -3808,11 +3808,6 @@ TRUE
 int
 i
 ;
-int
-best_i
-=
-0
-;
 double
 best_x_size
 =
@@ -3957,10 +3952,6 @@ fabs
 (
 distance
 )
-;
-best_i
-=
-i
 ;
 best_x_size
 =
