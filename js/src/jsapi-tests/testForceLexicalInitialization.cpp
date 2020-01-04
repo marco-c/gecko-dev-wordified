@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -128,13 +135,6 @@ include
 vm
 /
 ScopeObject
-.
-h
-"
-#
-include
-"
-jsfriendapi
 .
 h
 "
