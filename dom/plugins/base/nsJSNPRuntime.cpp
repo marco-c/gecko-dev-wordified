@@ -1669,7 +1669,7 @@ value
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -12878,7 +12878,7 @@ alive
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

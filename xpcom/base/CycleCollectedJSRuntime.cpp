@@ -5440,7 +5440,7 @@ override
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 static_cast
 <

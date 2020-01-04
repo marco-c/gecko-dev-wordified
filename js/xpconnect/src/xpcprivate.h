@@ -14524,7 +14524,7 @@ though
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
