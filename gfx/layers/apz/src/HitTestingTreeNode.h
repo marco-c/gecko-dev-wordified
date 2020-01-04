@@ -767,6 +767,8 @@ ScrollDirection
 aDir
 int32_t
 aScrollSize
+bool
+aIsScrollContainer
 )
 ;
 bool
@@ -947,6 +949,9 @@ mScrollDir
 ;
 int32_t
 mScrollSize
+;
+bool
+mIsScrollbarContainer
 ;
 /
 *

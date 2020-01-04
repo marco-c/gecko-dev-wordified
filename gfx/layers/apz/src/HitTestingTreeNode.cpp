@@ -293,6 +293,10 @@ mScrollSize
 (
 0
 )
+mIsScrollbarContainer
+(
+false
+)
 mOverride
 (
 EventRegionsOverride
@@ -603,6 +607,8 @@ ScrollDirection
 aDir
 int32_t
 aScrollSize
+bool
+aIsScrollContainer
 )
 {
 mScrollViewId
@@ -617,6 +623,10 @@ mScrollSize
 =
 aScrollSize
 ;
+;
+mIsScrollbarContainer
+=
+aIsScrollContainer
 ;
 }
 bool
@@ -710,15 +720,7 @@ IsScrollbarNode
 const
 {
 return
-(
-mScrollDir
-!
-=
-Layer
-:
-:
-NONE
-)
+mIsScrollbarContainer
 ;
 }
 void

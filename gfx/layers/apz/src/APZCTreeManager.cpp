@@ -2682,6 +2682,11 @@ aLayer
 GetScrollbarSize
 (
 )
+aLayer
+.
+IsScrollbarContainer
+(
+)
 )
 ;
 return
@@ -4527,6 +4532,11 @@ GetScrollbarDirection
 aLayer
 .
 GetScrollbarSize
+(
+)
+aLayer
+.
+IsScrollbarContainer
 (
 )
 )
