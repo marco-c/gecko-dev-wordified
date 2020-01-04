@@ -10732,17 +10732,6 @@ MOZ_ASSERT
 unTrustedNode
 )
 ;
-if
-(
-IsCallerChrome
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 /
 *
 *
