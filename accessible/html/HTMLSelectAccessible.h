@@ -576,10 +576,6 @@ IsCombobox
 combobox
 :
 mParent
-.
-get
-(
-)
 ;
 }
 return
