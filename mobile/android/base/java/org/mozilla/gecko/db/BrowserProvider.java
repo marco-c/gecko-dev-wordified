@@ -5979,6 +5979,12 @@ titleColumnIndex
 )
 ;
 }
+suggestedSitesCursor
+.
+close
+(
+)
+;
 /
 /
 To
