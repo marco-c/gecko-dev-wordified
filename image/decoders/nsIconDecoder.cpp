@@ -483,14 +483,8 @@ Size
 OutputSize
 (
 )
-IntRect
+FullFrame
 (
-IntPoint
-(
-)
-Size
-(
-)
 )
 SurfaceFormat
 :

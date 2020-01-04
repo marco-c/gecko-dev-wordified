@@ -2198,14 +2198,8 @@ aFrameNum
 OutputSize
 (
 )
-IntRect
+FullOutputFrame
 (
-IntPoint
-(
-)
-OutputSize
-(
-)
 )
 SurfaceFormat
 :
