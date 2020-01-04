@@ -757,6 +757,7 @@ osfile
 jsm
 "
 )
+;
 XPCOMUtils
 .
 defineLazyGetter
@@ -1701,6 +1702,7 @@ FileUtils
 PERMS_FILE
 0
 )
+;
 try
 {
 let

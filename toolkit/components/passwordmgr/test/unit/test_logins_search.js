@@ -707,6 +707,7 @@ hostname
 formSubmitURL
 httpRealm
 )
+;
 do_check_eq
 (
 count

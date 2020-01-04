@@ -5485,6 +5485,7 @@ popup
 .
 "
 )
+;
 let
 promiseShown
 =

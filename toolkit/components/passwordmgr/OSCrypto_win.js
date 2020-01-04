@@ -196,6 +196,7 @@ ctypes
 .
 uint16_t
 }
+;
 function
 OSCrypto
 (
