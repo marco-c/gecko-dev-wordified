@@ -139,6 +139,8 @@ Element
 #
 include
 "
+mozilla
+/
 RestyleManager
 .
 h
