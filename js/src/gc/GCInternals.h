@@ -700,6 +700,14 @@ JSRuntime
 rt
 )
 ;
+void
+CheckHeapAfterMovingGC
+(
+JSRuntime
+*
+rt
+)
+;
 #
 endif
 struct
