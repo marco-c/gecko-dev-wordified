@@ -476,6 +476,8 @@ public
 nsresult
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 override
 {
@@ -499,6 +501,7 @@ MediaDecoderReader
 :
 ResetDecode
 (
+aQueues
 )
 ;
 }
