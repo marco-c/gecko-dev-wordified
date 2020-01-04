@@ -101,6 +101,13 @@ h
 #
 include
 "
+imgFrame
+.
+h
+"
+#
+include
+"
 nsJPEGDecoder
 .
 h
@@ -3316,7 +3323,7 @@ PostFrameStop
 Opacity
 :
 :
-OPAQUE
+FULLY_OPAQUE
 )
 ;
 PostDecodeDone

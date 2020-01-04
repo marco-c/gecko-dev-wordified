@@ -507,7 +507,7 @@ writes
 will
 fail
 .
-ERROR
+FAILURE
 /
 /
 /
@@ -1520,7 +1520,7 @@ case
 WriteState
 :
 :
-ERROR
+FAILURE
 :
 /
 /
@@ -1575,7 +1575,7 @@ return
 WriteState
 :
 :
-ERROR
+FAILURE
 ;
 }
 }
@@ -2021,7 +2021,7 @@ Some
 WriteState
 :
 :
-ERROR
+FAILURE
 )
 )
 {

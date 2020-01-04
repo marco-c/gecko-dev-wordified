@@ -120,6 +120,13 @@ h
 #
 include
 "
+imgFrame
+.
+h
+"
+#
+include
+"
 nsColor
 .
 h
@@ -1220,7 +1227,7 @@ opacity
 Opacity
 :
 :
-OPAQUE
+FULLY_OPAQUE
 ;
 }
 PostFrameStop
