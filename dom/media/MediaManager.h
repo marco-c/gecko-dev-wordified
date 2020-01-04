@@ -258,15 +258,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 DOMMediaStream
 .
 h
@@ -2704,7 +2695,7 @@ media
 :
 Refcountable
 <
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -2982,7 +2973,7 @@ nsCString
 >
 mGetOriginKeyPledges
 ;
-UniquePtr
+ScopedDeletePtr
 <
 media
 :

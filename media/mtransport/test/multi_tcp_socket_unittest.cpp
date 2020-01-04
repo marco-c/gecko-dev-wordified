@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Scoped
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Atomics
 .
 h
@@ -601,7 +610,7 @@ NrIceStunServer
 >
 stun_servers
 ;
-UniquePtr
+ScopedDeletePtr
 <
 NrIceStunServer
 >

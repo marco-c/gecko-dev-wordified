@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+Scoped
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ArrayUtils
 .
 h

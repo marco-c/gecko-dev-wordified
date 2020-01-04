@@ -6656,7 +6656,7 @@ RefPtr
 <
 Refcountable
 <
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -8463,14 +8463,14 @@ aWindowId
 )
 ;
 }
-auto
-result
-=
-MakeUnique
+ScopedDeletePtr
 <
 SourceSet
 >
+result
 (
+new
+SourceSet
 )
 ;
 if
@@ -8579,7 +8579,7 @@ handoff
 =
 result
 .
-release
+forget
 (
 )
 ;
@@ -8597,7 +8597,7 @@ handoff
 )
 mutable
 {
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -8658,7 +8658,7 @@ Resolve
 (
 result
 .
-release
+forget
 (
 )
 )
@@ -9905,8 +9905,7 @@ mNonE10sParent
 {
 mNonE10sParent
 =
-MakeUnique
-<
+new
 media
 :
 :
@@ -9917,7 +9916,6 @@ media
 :
 NonE10s
 >
->
 (
 true
 )
@@ -9925,10 +9923,6 @@ true
 }
 return
 mNonE10sParent
-.
-get
-(
-)
 ;
 }
 /
@@ -13252,7 +13246,7 @@ RefPtr
 <
 Refcountable
 <
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -13263,7 +13257,7 @@ devices
 new
 Refcountable
 <
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -13648,7 +13642,7 @@ origin
 devices
 -
 >
-release
+forget
 (
 )
 )
@@ -14692,7 +14686,7 @@ aDevices
 )
 mutable
 {
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >
@@ -14788,7 +14782,7 @@ Resolve
 (
 devices
 .
-release
+forget
 (
 )
 )
@@ -14983,7 +14977,7 @@ aDevices
 )
 mutable
 {
-UniquePtr
+ScopedDeletePtr
 <
 SourceSet
 >

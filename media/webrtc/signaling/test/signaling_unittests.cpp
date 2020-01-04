@@ -10343,7 +10343,7 @@ uint16_t
 stun_port
 )
 {
-UniquePtr
+ScopedDeletePtr
 <
 SignalingAgent
 >
@@ -10373,7 +10373,7 @@ push_back
 (
 agent
 .
-release
+forget
 (
 )
 )
@@ -10387,7 +10387,7 @@ CreateAgentNoInit
 (
 )
 {
-UniquePtr
+ScopedDeletePtr
 <
 SignalingAgent
 >
@@ -10408,7 +10408,7 @@ push_back
 (
 agent
 .
-release
+forget
 (
 )
 )
@@ -10600,10 +10600,8 @@ return
 ;
 a1_
 =
-MakeUnique
-<
+new
 SignalingAgent
->
 (
 callerName
 stun_addr_
@@ -10612,10 +10610,8 @@ stun_port_
 ;
 a2_
 =
-MakeUnique
-<
+new
 SignalingAgent
->
 (
 calleeName
 stun_addr_
@@ -13923,7 +13919,7 @@ protected
 bool
 init_
 ;
-UniquePtr
+ScopedDeletePtr
 <
 SignalingAgent
 >
@@ -13935,7 +13931,7 @@ Canonically
 "
 caller
 "
-UniquePtr
+ScopedDeletePtr
 <
 SignalingAgent
 >

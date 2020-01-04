@@ -329,7 +329,7 @@ layers_tmp
 (
 layers_
 .
-release
+forget
 (
 )
 )
@@ -373,10 +373,6 @@ layers
 ClearLayers
 (
 layers
-.
-get
-(
-)
 )
 ;
 }
@@ -487,7 +483,7 @@ CheckThread
 (
 )
 ;
-UniquePtr
+ScopedDeletePtr
 <
 TransportLayer
 >
@@ -705,7 +701,7 @@ push_front
 (
 layer_tmp
 .
-release
+forget
 (
 )
 )
@@ -1058,10 +1054,6 @@ push
 ClearLayers
 (
 layers
-.
-get
-(
-)
 )
 ;
 /
@@ -1089,10 +1081,6 @@ state
 ClearLayers
 (
 layers_
-.
-get
-(
-)
 )
 ;
 /

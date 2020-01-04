@@ -509,7 +509,7 @@ include
 "
 mozilla
 /
-TimeStamp
+Scoped
 .
 h
 "
@@ -518,7 +518,7 @@ include
 "
 mozilla
 /
-UniquePtr
+TimeStamp
 .
 h
 "
@@ -712,10 +712,8 @@ a
 hostname
 .
 static
-UniquePtr
-<
 NrIceStunServer
->
+*
 Create
 (
 const
@@ -735,7 +733,7 @@ transport
 kNrIceTransportUdp
 )
 {
-UniquePtr
+ScopedDeletePtr
 <
 NrIceStunServer
 >
@@ -772,6 +770,10 @@ nullptr
 ;
 return
 server
+.
+forget
+(
+)
 ;
 }
 nsresult
@@ -940,10 +942,8 @@ NrIceStunServer
 public
 :
 static
-UniquePtr
-<
 NrIceTurnServer
->
+*
 Create
 (
 const
@@ -981,7 +981,7 @@ transport
 kNrIceTransportUdp
 )
 {
-UniquePtr
+ScopedDeletePtr
 <
 NrIceTurnServer
 >
@@ -1020,6 +1020,10 @@ nullptr
 ;
 return
 server
+.
+forget
+(
+)
 ;
 }
 nsresult

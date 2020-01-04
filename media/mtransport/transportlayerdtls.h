@@ -157,7 +157,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Scoped
 .
 h
 "
@@ -986,7 +986,7 @@ pointer
 to
 nspr_io_adapter_
 )
-UniquePtr
+ScopedDeletePtr
 <
 TransportLayerNSPRAdapter
 >
