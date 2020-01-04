@@ -287,13 +287,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
