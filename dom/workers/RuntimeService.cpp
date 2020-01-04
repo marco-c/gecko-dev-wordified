@@ -4137,7 +4137,7 @@ values
 ;
 JS_SetGCParameter
 (
-aRuntime
+workerCx
 setting
 .
 key

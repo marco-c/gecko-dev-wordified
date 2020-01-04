@@ -9760,9 +9760,9 @@ void
 )
 JS_SetGCCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSGCCallback
 cb
 void
@@ -10703,9 +10703,9 @@ void
 )
 JS_SetGCParameter
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSGCParamKey
 key
 uint32_t
@@ -10733,9 +10733,9 @@ void
 )
 JS_SetGCParametersBasedOnAvailableMemory
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 uint32_t
 availMem
 )
@@ -39296,9 +39296,9 @@ void
 )
 SetLargeAllocationFailureCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 LargeAllocationFailureCallback
 afc
 void

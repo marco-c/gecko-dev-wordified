@@ -32309,10 +32309,7 @@ aValue
 {
 JS_SetGCParameter
 (
-JS_GetRuntime
-(
 aCx
-)
 aKey
 aValue
 )

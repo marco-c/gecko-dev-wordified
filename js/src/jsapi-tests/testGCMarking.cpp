@@ -1315,7 +1315,7 @@ WorkBudget
 ;
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_MODE
 JSGC_MODE_INCREMENTAL
 )

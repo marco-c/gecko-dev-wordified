@@ -21008,11 +21008,6 @@ prevMajorGC
 JS_SetGCCallback
 (
 cx
--
->
-runtime
-(
-)
 nullptr
 nullptr
 )
@@ -21050,11 +21045,6 @@ prevMinorGC
 JS_SetGCCallback
 (
 cx
--
->
-runtime
-(
-)
 nullptr
 nullptr
 )
@@ -21144,11 +21134,6 @@ true
 JS_SetGCCallback
 (
 cx
--
->
-runtime
-(
-)
 gcCallback
 :
 :
@@ -21303,11 +21288,6 @@ depth
 JS_SetGCCallback
 (
 cx
--
->
-runtime
-(
-)
 gcCallback
 :
 :
