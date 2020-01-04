@@ -735,6 +735,12 @@ self
 external_source_dir
 =
 None
+        
+self
+.
+error_is_fatal
+=
+False
 def
 is_read_allowed
 (
@@ -2196,6 +2202,14 @@ message
 )
 :
         
+if
+self
+.
+_context
+.
+error_is_fatal
+:
+            
 raise
 SandboxCalledError
 (
@@ -2204,6 +2218,16 @@ self
 _context
 .
 source_stack
+message
+)
+        
+else
+:
+            
+self
+.
+_warning
+(
 message
 )
     
