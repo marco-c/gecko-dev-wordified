@@ -2448,6 +2448,10 @@ Channel
 *
 aConfig
 )
+:
+ChannelLayout
+(
+)
 {
 if
 (
