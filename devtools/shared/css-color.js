@@ -65,7 +65,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -345,10 +344,12 @@ alpha
 channel
 is
 present
+*
+/
+/
 then
 we
 return
-*
 this
 .
 rgba
@@ -2339,8 +2340,6 @@ maybeAlpha
 "
 ;
 }
-else
-{
 return
 "
 hsl
@@ -2365,7 +2364,6 @@ l
 )
 "
 ;
-}
 }
 /
 *
