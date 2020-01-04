@@ -155,10 +155,10 @@ Immutable
 Record
 (
 {
-error
+debug
 :
 true
-warn
+error
 :
 true
 info
@@ -171,6 +171,9 @@ text
 :
 "
 "
+warn
+:
+true
 }
 )
 ;
