@@ -466,7 +466,9 @@ bool
 *
 aPreventDefault
 bool
-aIsSynthesized
+aIsDOMEventSynthesized
+bool
+aIsWidgetEventSynthesized
 )
 ;
 NS_IMETHOD

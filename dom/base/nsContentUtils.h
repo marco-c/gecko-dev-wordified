@@ -16184,7 +16184,9 @@ bool
 *
 aPreventDefault
 bool
-aIsSynthesized
+aIsDOMEventSynthesized
+bool
+aIsWidgetEventSynthesized
 )
 ;
 static
