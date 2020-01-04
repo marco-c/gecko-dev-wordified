@@ -293,13 +293,6 @@ nsLoginManager
 ;
 return
 logger
-.
-log
-.
-bind
-(
-logger
-)
 ;
 }
 )
@@ -909,6 +902,8 @@ nsILoginManagerStorage
 )
 ;
 log
+.
+debug
 (
 "
 Found
@@ -929,6 +924,8 @@ e
 )
 {
 log
+.
+debug
 (
 "
 No
@@ -1074,6 +1071,8 @@ prefName
 data
 ;
 log
+.
+debug
 (
 "
 got
@@ -1119,6 +1118,8 @@ rememberSignons
 else
 {
 log
+.
+debug
 (
 "
 Oops
@@ -1319,6 +1320,8 @@ getTime
 else
 {
 log
+.
+debug
 (
 "
 Oops
@@ -2195,6 +2198,8 @@ exists
 )
 ;
 log
+.
+debug
 (
 "
 Adding
@@ -2238,6 +2243,8 @@ login
 )
 {
 log
+.
+debug
 (
 "
 Removing
@@ -2283,6 +2290,8 @@ newLogin
 )
 {
 log
+.
+debug
 (
 "
 Modifying
@@ -2362,6 +2371,8 @@ count
 )
 {
 log
+.
+debug
 (
 "
 Getting
@@ -2404,6 +2415,8 @@ function
 )
 {
 log
+.
+debug
 (
 "
 Removing
@@ -2481,6 +2494,8 @@ count
 )
 {
 log
+.
+debug
 (
 "
 Getting
@@ -2535,6 +2550,8 @@ httpRealm
 )
 {
 log
+.
+debug
 (
 "
 Searching
@@ -2615,6 +2632,8 @@ matchData
 )
 {
 log
+.
+debug
 (
 "
 Searching
@@ -2670,6 +2689,8 @@ httpRealm
 )
 {
 log
+.
+debug
 (
 "
 Counting
@@ -2771,6 +2792,8 @@ host
 )
 {
 log
+.
+debug
 (
 "
 Checking
@@ -2875,6 +2898,8 @@ hostname
 )
 ;
 log
+.
+debug
 (
 "
 Login
@@ -3022,6 +3047,8 @@ return
 ;
 }
 log
+.
+debug
 (
 "
 AutoCompleteSearch
