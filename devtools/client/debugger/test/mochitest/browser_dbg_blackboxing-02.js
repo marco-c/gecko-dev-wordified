@@ -201,13 +201,13 @@ gPanel
 .
 then
 (
-aSource
+source
 =
 >
 {
 ok
 (
-aSource
+source
 .
 isBlackBoxed
 "
