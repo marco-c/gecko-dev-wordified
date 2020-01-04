@@ -2959,7 +2959,7 @@ callRanges
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -2967,6 +2967,14 @@ alloc
 nullptr
 nullptr
 )
+;
+if
+(
+!
+callRanges
+)
+return
+false
 ;
 size_t
 numVregs
@@ -8605,7 +8613,7 @@ secondBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -8727,7 +8735,7 @@ bundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -20021,7 +20029,7 @@ hotBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -20076,7 +20084,7 @@ coldBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -20287,7 +20295,7 @@ preBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -20392,7 +20400,7 @@ postBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -21946,7 +21954,7 @@ spillBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -22132,7 +22140,7 @@ activeBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -22148,6 +22156,10 @@ spillBundle
 ;
 if
 (
+!
+activeBundle
+|
+|
 !
 newBundles
 .
@@ -22248,7 +22260,7 @@ activeBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -22265,6 +22277,9 @@ spillBundle
 if
 (
 !
+activeBundle
+|
+|
 newBundles
 .
 append
@@ -22607,7 +22622,7 @@ activeBundle
 LiveBundle
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -22623,6 +22638,10 @@ spillBundle
 ;
 if
 (
+!
+activeBundle
+|
+|
 !
 newBundles
 .
