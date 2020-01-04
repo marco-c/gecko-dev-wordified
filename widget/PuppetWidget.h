@@ -1440,6 +1440,13 @@ aFlags
 )
 override
 ;
+virtual
+bool
+HasPendingInputEvent
+(
+)
+override
+;
 protected
 :
 virtual
