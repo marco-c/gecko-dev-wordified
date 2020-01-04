@@ -163,6 +163,19 @@ StructuredCloneTags
 SCTAG_BASE
 =
 JS_SCTAG_USER_MIN
+/
+/
+These
+tags
+are
+used
+only
+for
+main
+thread
+structured
+clone
+.
 SCTAG_DOM_BLOB
 /
 /
@@ -229,7 +242,6 @@ OffscreenCanvas
 .
 SCTAG_DOM_CANVAS
 SCTAG_DOM_EXPANDED_PRINCIPAL
-SCTAG_DOM_DIRECTORY
 SCTAG_DOM_MAX
 }
 ;
