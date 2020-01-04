@@ -43121,7 +43121,6 @@ fun
 outerpc
 directives
 NotGenerator
-SyncFunction
 )
 ;
 if

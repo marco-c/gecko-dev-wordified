@@ -18,17 +18,6 @@ js
 "
 )
 ;
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 let
 moduleRepo
 =
