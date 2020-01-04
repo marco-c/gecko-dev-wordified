@@ -373,9 +373,6 @@ AnimationState
 SetFirstFrameRefreshArea
 (
 const
-gfx
-:
-:
 IntRect
 &
 aRefreshArea
@@ -2647,7 +2644,7 @@ FrameAnimator
 :
 DoBlend
 (
-nsIntRect
+IntRect
 *
 aDirtyRect
 uint32_t
@@ -4541,7 +4538,7 @@ uint8_t
 *
 aFrameData
 const
-nsIntRect
+IntRect
 &
 aFrameRect
 )
@@ -4661,11 +4658,11 @@ uint8_t
 *
 aFrameData
 const
-nsIntRect
+IntRect
 &
 aFrameRect
 const
-nsIntRect
+IntRect
 &
 aRectToClear
 )
@@ -4711,7 +4708,7 @@ height
 return
 ;
 }
-nsIntRect
+IntRect
 toClear
 =
 aFrameRect
@@ -4915,14 +4912,14 @@ uint8_t
 *
 aDataSrc
 const
-nsIntRect
+IntRect
 &
 aRectSrc
 uint8_t
 *
 aDataDest
 const
-nsIntRect
+IntRect
 &
 aRectDest
 )
@@ -4995,7 +4992,7 @@ uint8_t
 *
 aSrcData
 const
-nsIntRect
+IntRect
 &
 aSrcRect
 uint32_t
@@ -5006,7 +5003,7 @@ uint8_t
 *
 aDstPixels
 const
-nsIntRect
+IntRect
 &
 aDstRect
 BlendMethod
@@ -5014,7 +5011,7 @@ aBlendMethod
 const
 Maybe
 <
-nsIntRect
+IntRect
 >
 &
 aBlendRect
