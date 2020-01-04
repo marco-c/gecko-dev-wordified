@@ -1944,7 +1944,7 @@ nsPIDOMWindow
 <
 nsISupports
 >
-public
+private
 nsIDOMWindowInternal
 public
 nsIScriptGlobalObject

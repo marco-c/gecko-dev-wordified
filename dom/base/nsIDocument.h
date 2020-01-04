@@ -15887,7 +15887,7 @@ Touch
 >
 CreateTouch
 (
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 mozilla
