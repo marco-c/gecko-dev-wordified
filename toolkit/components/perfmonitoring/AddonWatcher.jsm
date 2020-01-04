@@ -191,8 +191,6 @@ gre
 /
 modules
 /
-devtools
-/
 Console
 .
 jsm
