@@ -208,7 +208,7 @@ document
 getElementById
 (
 "
-advancedPanel
+badCertAdvancedPanel
 "
 )
 ;
@@ -252,9 +252,9 @@ div
 "
 )
 .
-visibility
+display
 "
-hidden
+none
 "
 "
 Advanced
@@ -344,7 +344,7 @@ document
 getElementById
 (
 "
-advancedPanel
+badCertAdvancedPanel
 "
 )
 ;
@@ -379,9 +379,9 @@ div
 "
 )
 .
-visibility
+display
 "
-visible
+block
 "
 "
 Advanced

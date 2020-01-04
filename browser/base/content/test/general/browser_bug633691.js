@@ -69,6 +69,13 @@ src
 about
 :
 certerror
+?
+e
+=
+nssBadCert
+&
+u
+=
 '
 >
 <
@@ -148,7 +155,7 @@ doc
 getElementById
 (
 "
-advancedPanel
+badCertAdvancedPanel
 "
 )
 ;
