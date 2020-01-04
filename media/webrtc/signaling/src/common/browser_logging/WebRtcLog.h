@@ -88,5 +88,10 @@ EnableWebRtcLog
 (
 )
 ;
+void
+StopWebRtcLog
+(
+)
+;
 #
 endif

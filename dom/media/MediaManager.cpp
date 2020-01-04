@@ -16876,6 +16876,15 @@ Clear
 (
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
+StopWebRtcLog
+(
+)
+;
+#
+endif
 /
 /
 Because
