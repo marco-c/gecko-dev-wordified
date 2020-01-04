@@ -5742,7 +5742,7 @@ MOZ_WIDGET_GONK
 /
 /
 This
-exit
+_exit
 (
 0
 )
@@ -5761,7 +5761,10 @@ leak
 checking
 working
 on
-Linux
+non
+-
+B2G
+platforms
 .
 /
 /
@@ -5810,7 +5813,7 @@ early
 "
 )
 ;
-exit
+_exit
 (
 0
 )
