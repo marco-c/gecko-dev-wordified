@@ -2306,6 +2306,11 @@ Http2PushedStream
 stream
 )
 ;
+void
+MaybeWarnAboutAppCache
+(
+)
+;
 private
 :
 nsCOMPtr
