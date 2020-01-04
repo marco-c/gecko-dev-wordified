@@ -148,10 +148,11 @@ parserConfig
 )
 {
 var
-provided
+inline
 =
 parserConfig
-;
+.
+inline
 if
 (
 !
@@ -171,14 +172,6 @@ text
 css
 "
 )
-;
-parserConfig
-.
-inline
-=
-provided
-.
-inline
 ;
 var
 indentUnit
@@ -3547,8 +3540,6 @@ tokenize
 null
 state
 :
-parserConfig
-.
 inline
 ?
 "
@@ -3566,8 +3557,6 @@ context
 new
 Context
 (
-parserConfig
-.
 inline
 ?
 "
