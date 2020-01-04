@@ -403,8 +403,9 @@ xpcshell
 mochitest
 -
 chrome
-without
 -
+-
+disable
 -
 e10s
 mochitest
@@ -418,8 +419,6 @@ mochitest
 -
 chrome
 with
--
--
 e10s
 *
 In
@@ -435,9 +434,6 @@ process
 for
 "
 xpcshell
--
--
-e10s
 "
 .
 *
@@ -492,8 +488,6 @@ mochitest
 -
 chrome
 with
--
--
 e10s
 in
 other
@@ -561,8 +555,6 @@ mochitest
 -
 chrome
 with
--
--
 e10s
 .
 *
