@@ -1059,7 +1059,7 @@ if
 nsContentUtils
 :
 :
-SubjectPrincipal
+SubjectPrincipalOrSystemIfNativeCaller
 (
 )
 -
