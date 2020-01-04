@@ -93,6 +93,17 @@ return
 XHR
 "
 ;
+case
+"
+webConsoleMoreInfoLabel
+"
+:
+return
+"
+Learn
+More
+"
+;
 }
 return
 str

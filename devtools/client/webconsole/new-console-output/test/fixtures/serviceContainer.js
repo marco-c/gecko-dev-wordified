@@ -85,5 +85,13 @@ subscribe
 {
 }
 }
+openLink
+:
+(
+)
+=
+>
+{
+}
 }
 ;

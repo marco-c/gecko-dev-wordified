@@ -253,6 +253,7 @@ level
 id
 :
 messageId
+exceptionDocURL
 }
 =
 message
@@ -320,6 +321,7 @@ props
 .
 autoscroll
 serviceContainer
+exceptionDocURL
 }
 ;
 return
