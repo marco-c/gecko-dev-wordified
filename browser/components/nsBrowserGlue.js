@@ -3167,7 +3167,7 @@ win
 .
 BrowserSearch
 .
-recordSearchInHealthReport
+recordSearchInTelemetry
 (
 engine
 "
