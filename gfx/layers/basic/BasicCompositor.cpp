@@ -3187,6 +3187,15 @@ StartRemoteDrawingInRegion
 mInvalidRegion
 )
 ;
+if
+(
+!
+mDrawTarget
+)
+{
+return
+;
+}
 mInvalidRect
 =
 mInvalidRegion
