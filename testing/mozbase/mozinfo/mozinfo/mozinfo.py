@@ -809,8 +809,12 @@ triple
 of
 empty
 strings
-on
-Arch
+if
+the
+distribution
+is
+not
+supported
 .
     
 #
@@ -841,19 +845,19 @@ run
     
 if
 not
+distro
+and
+not
 os_version
 and
-"
-ARCH
-"
-in
-release
+not
+codename
 :
         
 distro
 =
 '
-arch
+lfs
 '
         
 version
