@@ -346,6 +346,12 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 /
 /
 VPx
