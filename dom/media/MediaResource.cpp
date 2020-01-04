@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

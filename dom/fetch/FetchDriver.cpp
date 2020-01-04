@@ -228,13 +228,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsDataHandler
 .
 h
