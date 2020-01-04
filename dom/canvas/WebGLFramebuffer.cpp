@@ -3002,7 +3002,7 @@ if
 tex
 -
 >
-HasEveryBeenBound
+HasEverBeenBound
 (
 )
 )
