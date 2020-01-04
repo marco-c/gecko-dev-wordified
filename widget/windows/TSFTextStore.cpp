@@ -10125,9 +10125,7 @@ don
 '
 t
 clear
-the
-locked
-contents
+mContentForTSF
 because
 TIP
 may
@@ -10518,9 +10516,7 @@ should
 wait
 to
 clear
-the
-locked
-content
+mContentForTSF
 until
 it
 '
@@ -10796,9 +10792,7 @@ we
 should
 not
 clear
-the
-locked
-content
+mContentForTSF
 until
 we
 notify
@@ -11125,10 +11119,7 @@ we
 should
 not
 clear
-the
-locked
-content
-until
+mContentForTSFuntil
 we
 notify
 /
