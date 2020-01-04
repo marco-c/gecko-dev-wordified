@@ -360,6 +360,13 @@ submission
 #
 include
 "
+HTMLFormSubmissionConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -458,13 +465,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-nsFormSubmissionConstants
 .
 h
 "
@@ -3562,7 +3562,7 @@ here
 ;
 nsAutoPtr
 <
-nsFormSubmission
+HTMLFormSubmission
 >
 submission
 ;
@@ -3749,7 +3749,7 @@ HTMLFormElement
 :
 BuildSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 *
 aFormSubmission
@@ -3918,7 +3918,7 @@ HTMLFormElement
 :
 SubmitSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -5715,7 +5715,7 @@ HTMLFormElement
 :
 WalkFormElements
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -9137,7 +9137,7 @@ we
 reenter
 nsAutoPtr
 <
-nsFormSubmission
+HTMLFormSubmission
 >
 submission
 =

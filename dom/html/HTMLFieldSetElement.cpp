@@ -738,7 +738,7 @@ HTMLFieldSetElement
 :
 SubmitNamesValues
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )

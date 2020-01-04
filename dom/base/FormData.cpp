@@ -185,7 +185,7 @@ nsISupports
 aOwner
 )
 :
-nsFormSubmission
+HTMLFormSubmission
 (
 NS_LITERAL_CSTRING
 (
@@ -693,7 +693,7 @@ NS_INTERFACE_MAP_END
 -
 /
 /
-nsFormSubmission
+HTMLFormSubmission
 nsresult
 FormData
 :

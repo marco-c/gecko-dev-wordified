@@ -841,7 +841,7 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )

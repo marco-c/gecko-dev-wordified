@@ -116,10 +116,17 @@ MPL
 /
 #
 ifndef
-nsFormSubmissionConstants_h__
+mozilla_dom_HTMLFormSubmissionConstants_h
 #
 define
-nsFormSubmissionConstants_h__
+mozilla_dom_HTMLFormSubmissionConstants_h
+#
+include
+"
+nsIForm
+.
+h
+"
 static
 const
 nsAttrValue
@@ -256,4 +263,4 @@ kFormEnctypeTable
 endif
 /
 /
-nsFormSubmissionConstants_h__
+mozilla_dom_HTMLFormSubmissionConstants_h
