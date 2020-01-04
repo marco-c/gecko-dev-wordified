@@ -261,9 +261,6 @@ kRedirMap
 ]
 =
 {
-#
-ifdef
-MOZ_SAFE_BROWSING
 {
 "
 blocked
@@ -301,8 +298,6 @@ nsIAboutModule
 :
 HIDE_FROM_ABOUTABOUT
 }
-#
-endif
 {
 "
 certerror

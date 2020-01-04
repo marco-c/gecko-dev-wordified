@@ -166,9 +166,6 @@ dtd
 %
 placesDTD
 ;
-#
-ifdef
-MOZ_SAFE_BROWSING
 <
 !
 ENTITY
@@ -200,8 +197,6 @@ dtd
 %
 safebrowsingDTD
 ;
-#
-endif
 <
 !
 ENTITY
