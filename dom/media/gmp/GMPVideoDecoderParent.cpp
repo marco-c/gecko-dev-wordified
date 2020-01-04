@@ -1633,12 +1633,6 @@ mActorDestroyed
 =
 true
 ;
-mVideoHost
-.
-DoneWithAPI
-(
-)
-;
 /
 /
 Ensure
