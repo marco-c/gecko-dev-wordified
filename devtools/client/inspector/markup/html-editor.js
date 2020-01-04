@@ -295,8 +295,6 @@ page
 as
 in
 markup
--
-view
 .
 xhtml
 .
