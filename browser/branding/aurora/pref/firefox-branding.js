@@ -206,7 +206,7 @@ UI
 .
 default
 =
-168
+184
 hours
 pref
 (
@@ -217,7 +217,7 @@ update
 .
 promptWaitTime
 "
-604800
+691200
 )
 ;
 /
