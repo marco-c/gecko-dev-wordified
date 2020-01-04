@@ -397,10 +397,13 @@ let
 newRecord
 =
 yield
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -412,6 +415,8 @@ org
 /
 1
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -429,6 +434,7 @@ inBrowser
 false
 }
 )
+}
 )
 ;
 var
@@ -465,7 +471,7 @@ equal
 (
 newRecord
 .
-pushEndpoint
+endpoint
 pushEndpoint
 '
 Wrong
@@ -666,10 +672,13 @@ let
 newRecord
 =
 yield
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -681,6 +690,8 @@ org
 /
 no_receiptEndpoint
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -698,6 +709,7 @@ inBrowser
 false
 }
 )
+}
 )
 ;
 var
@@ -730,7 +742,7 @@ equal
 (
 newRecord
 .
-pushEndpoint
+endpoint
 pushEndpoint
 '
 Wrong

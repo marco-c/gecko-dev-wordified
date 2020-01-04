@@ -283,10 +283,13 @@ status
 yield
 rejects
 (
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -298,6 +301,8 @@ com
 /
 incomplete
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -315,6 +320,7 @@ inBrowser
 false
 }
 )
+}
 )
 '
 Expected
