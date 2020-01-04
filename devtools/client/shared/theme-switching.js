@@ -77,7 +77,9 @@ floating
 -
 scrollbars
 -
-light
+dark
+-
+theme
 .
 css
 "
