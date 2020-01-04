@@ -1513,13 +1513,12 @@ MOZ_ASSERT
 p
 )
 ;
-retiredMessage
-=
 p
 -
 >
-forget
+swapMessage
 (
+retiredMessage
 )
 ;
 delete
