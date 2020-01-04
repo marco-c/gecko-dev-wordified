@@ -15118,6 +15118,15 @@ false
 ;
 if
 (
+!
+selfHostedFun
+-
+>
+hasGuessedAtom
+(
+)
+&
+&
 selfHostedFun
 -
 >
