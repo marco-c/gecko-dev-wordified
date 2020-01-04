@@ -581,9 +581,6 @@ bool
 ClientSupportsLayerSize
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize
@@ -637,9 +634,6 @@ bool
 SupportsLayerSize
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize
