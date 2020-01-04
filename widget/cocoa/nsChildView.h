@@ -311,7 +311,7 @@ class
 GLManager
 ;
 class
-APZCTreeManager
+IAPZCTreeManager
 ;
 }
 /
@@ -2231,8 +2231,8 @@ mozilla
 layers
 :
 :
-APZCTreeManager
-APZCTreeManager
+IAPZCTreeManager
+IAPZCTreeManager
 ;
 public
 :
@@ -3423,7 +3423,7 @@ aCompositor
 )
 override
 ;
-APZCTreeManager
+IAPZCTreeManager
 *
 APZCTM
 (

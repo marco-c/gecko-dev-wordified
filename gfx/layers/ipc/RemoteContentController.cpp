@@ -169,7 +169,7 @@ mozilla
 /
 layers
 /
-APZCTreeManager
+IAPZCTreeManager
 .
 h
 "
@@ -914,7 +914,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1008,7 +1008,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1030,7 +1030,7 @@ bool
 (
 apzcTreeManager
 &
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 ContentReceivedInputBlock
@@ -1060,7 +1060,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1094,7 +1094,7 @@ AsyncDragMetrics
 (
 apzcTreeManager
 &
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 StartScrollbarDrag
@@ -1196,7 +1196,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1220,7 +1220,7 @@ overloads
 .
 void
 (
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 *
@@ -1237,7 +1237,7 @@ ScrollableLayerGuid
 )
 =
 &
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 SetTargetAPZC
@@ -1294,7 +1294,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1322,7 +1322,7 @@ TouchBehaviorFlags
 (
 apzcTreeManager
 &
-APZCTreeManager
+IAPZCTreeManager
 :
 :
 SetAllowedTouchBehavior
@@ -1363,7 +1363,7 @@ if
 (
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 =
@@ -1656,7 +1656,7 @@ nullptr
 }
 already_AddRefed
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 RemoteContentController
 :
@@ -1751,7 +1751,7 @@ mLayersId
 }
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 apzcTreeManager
 (

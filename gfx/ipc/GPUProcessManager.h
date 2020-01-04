@@ -246,7 +246,7 @@ namespace
 layers
 {
 class
-APZCTreeManager
+IAPZCTreeManager
 ;
 class
 CompositorSession
@@ -365,13 +365,6 @@ typedef
 layers
 :
 :
-APZCTreeManager
-APZCTreeManager
-;
-typedef
-layers
-:
-:
 ClientLayerManager
 ClientLayerManager
 ;
@@ -381,6 +374,13 @@ layers
 :
 CompositorSession
 CompositorSession
+;
+typedef
+layers
+:
+:
+IAPZCTreeManager
+IAPZCTreeManager
 ;
 typedef
 layers
@@ -589,7 +589,7 @@ sent
 .
 already_AddRefed
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 GetAPZCTreeManagerForLayers
 (
