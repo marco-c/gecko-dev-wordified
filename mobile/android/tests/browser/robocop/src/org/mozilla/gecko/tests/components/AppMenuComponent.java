@@ -1744,13 +1744,6 @@ instead
 .
 if
 (
-HardwareUtils
-.
-hasMenuButton
-(
-)
-|
-|
 DeviceHelper
 .
 isTablet

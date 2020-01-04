@@ -640,16 +640,6 @@ TRANSLATION_X
 curveTranslation
 )
 ;
-if
-(
-!
-HardwareUtils
-.
-hasMenuButton
-(
-)
-)
-{
 animator
 .
 attach
@@ -676,6 +666,5 @@ TRANSLATION_X
 curveTranslation
 )
 ;
-}
 }
 }
