@@ -4177,6 +4177,15 @@ return
 ownerObject_
 ;
 }
+using
+WasmModuleObjectVector
+=
+GCVector
+<
+WasmModuleObject
+*
+>
+;
 }
 /
 /
