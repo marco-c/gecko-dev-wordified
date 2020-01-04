@@ -107,13 +107,6 @@ h
 #
 include
 "
-gfxQuartzImageSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
