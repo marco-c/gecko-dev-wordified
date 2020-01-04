@@ -7804,7 +7804,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 conversationStores
@@ -7823,7 +7823,7 @@ window
 "
 width
 :
-298
+348
 }
 React
 .
@@ -8185,7 +8185,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 conversationStores
@@ -8208,7 +8208,7 @@ mute
 "
 width
 :
-298
+348
 }
 React
 .
@@ -8315,7 +8315,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 conversationStores
@@ -8338,7 +8338,7 @@ mute
 "
 width
 :
-298
+348
 }
 React
 .
@@ -8473,7 +8473,7 @@ dashed
 true
 height
 :
-272
+288
 summary
 :
 "
@@ -8485,7 +8485,7 @@ demo
 "
 width
 :
-300
+348
 }
 React
 .
@@ -8548,7 +8548,7 @@ dashed
 true
 height
 :
-272
+288
 summary
 :
 "
@@ -8557,7 +8557,7 @@ alerts
 "
 width
 :
-300
+348
 }
 React
 .
@@ -8860,7 +8860,7 @@ dashed
 true
 height
 :
-254
+288
 summary
 :
 "
@@ -8871,7 +8871,7 @@ View
 "
 width
 :
-298
+348
 }
 React
 .
@@ -8966,7 +8966,7 @@ client
 "
 width
 :
-298
+348
 }
 React
 .
@@ -9043,9 +9043,7 @@ FramedExample
 {
 height
 :
-278
-.
-6
+288
 onContentsRendered
 :
 invitationRoomStore
@@ -9066,7 +9064,7 @@ Error
 "
 width
 :
-298
+348
 }
 React
 .
@@ -9139,7 +9137,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 desktopRoomStoreLoading
@@ -9159,7 +9157,7 @@ loading
 "
 width
 :
-298
+348
 }
 /
 *
@@ -9274,7 +9272,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 roomStore
@@ -9291,7 +9289,7 @@ conversation
 "
 width
 :
-298
+348
 }
 React
 .
@@ -9616,7 +9614,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 desktopLocalFaceMuteRoomStore
@@ -9637,7 +9635,7 @@ mute
 "
 width
 :
-298
+348
 }
 React
 .
@@ -9712,7 +9710,7 @@ dashed
 true
 height
 :
-394
+398
 onContentsRendered
 :
 desktopRemoteFaceMuteRoomStore
@@ -9733,7 +9731,7 @@ mute
 "
 width
 :
-298
+348
 }
 React
 .
