@@ -569,7 +569,7 @@ T
 t
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -680,7 +680,7 @@ T
 t
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -1254,7 +1254,7 @@ objp
 js
 :
 :
-InternalGCMethods
+InternalBarrierMethods
 <
 JSObject
 *
@@ -1302,7 +1302,7 @@ valuep
 js
 :
 :
-InternalGCMethods
+InternalBarrierMethods
 <
 JS
 :

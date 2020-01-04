@@ -1071,7 +1071,7 @@ template
 <
 >
 struct
-GCMethods
+GCPolicy
 <
 jsid
 >
@@ -1086,6 +1086,17 @@ return
 JSID_VOID
 ;
 }
+}
+;
+template
+<
+>
+struct
+BarrierMethods
+<
+jsid
+>
+{
 static
 void
 postBarrier

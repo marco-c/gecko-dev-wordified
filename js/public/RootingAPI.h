@@ -1041,7 +1041,17 @@ typename
 T
 >
 struct
-GCMethods
+BarrierMethods
+{
+}
+;
+template
+<
+typename
+T
+>
+struct
+GCPolicy
 {
 static
 T
@@ -1911,7 +1921,7 @@ init
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -2023,7 +2033,7 @@ ptr
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -2130,7 +2140,7 @@ post
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -2182,7 +2192,7 @@ next
 js
 :
 :
-GCMethods
+BarrierMethods
 <
 T
 >
@@ -3981,7 +3991,7 @@ typename
 T
 >
 struct
-GCMethods
+BarrierMethods
 <
 T
 *
@@ -4057,7 +4067,7 @@ template
 <
 >
 struct
-GCMethods
+BarrierMethods
 <
 JSObject
 *
@@ -4152,7 +4162,7 @@ template
 <
 >
 struct
-GCMethods
+BarrierMethods
 <
 JSFunction
 *
@@ -5271,7 +5281,7 @@ ptr
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -5958,7 +5968,7 @@ cx
 :
 ptr
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -7476,7 +7486,7 @@ ptr
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -7507,7 +7517,7 @@ ptr
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -7720,7 +7730,7 @@ cx
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -7794,7 +7804,7 @@ set
 js
 :
 :
-GCMethods
+GCPolicy
 <
 T
 >
@@ -8264,7 +8274,7 @@ Cell
 >
 cell
 =
-GCMethods
+BarrierMethods
 <
 T
 >

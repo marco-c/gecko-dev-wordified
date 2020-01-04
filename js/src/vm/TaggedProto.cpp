@@ -149,7 +149,7 @@ static
 *
 /
 void
-InternalGCMethods
+InternalBarrierMethods
 <
 TaggedProto
 >
@@ -162,7 +162,7 @@ TaggedProto
 proto
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 JSObject
 *
@@ -185,7 +185,7 @@ static
 *
 /
 void
-InternalGCMethods
+InternalBarrierMethods
 <
 TaggedProto
 >
@@ -238,7 +238,7 @@ toObject
 :
 nullptr
 ;
-InternalGCMethods
+InternalBarrierMethods
 <
 JSObject
 *

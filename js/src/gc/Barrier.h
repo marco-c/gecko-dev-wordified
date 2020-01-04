@@ -1674,7 +1674,7 @@ pre
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -1692,7 +1692,7 @@ writeBarrierPre
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 Value
 >
@@ -1702,7 +1702,7 @@ preBarrier
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 jsid
 >
@@ -1712,7 +1712,7 @@ preBarrier
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -1747,7 +1747,7 @@ post
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -1765,7 +1765,7 @@ writeBarrierPost
 *
 -
 >
-InternalGCMethods
+InternalBarrierMethods
 <
 Value
 >
@@ -1826,7 +1826,7 @@ barrier
 implementations
 at
 *
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -2072,7 +2072,7 @@ typename
 T
 >
 struct
-InternalGCMethods
+InternalBarrierMethods
 {
 }
 ;
@@ -2082,7 +2082,7 @@ typename
 T
 >
 struct
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 *
@@ -2251,7 +2251,7 @@ template
 <
 >
 struct
-InternalGCMethods
+InternalBarrierMethods
 <
 Value
 >
@@ -2579,7 +2579,7 @@ template
 <
 >
 struct
-InternalGCMethods
+InternalBarrierMethods
 <
 jsid
 >
@@ -3086,7 +3086,7 @@ T
 v
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -3105,7 +3105,7 @@ pre
 (
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -3129,7 +3129,7 @@ T
 next
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -3231,7 +3231,7 @@ WriteBarrieredBase
 T
 >
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -3552,7 +3552,7 @@ WriteBarrieredBase
 T
 >
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -3584,7 +3584,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -3622,7 +3622,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -3704,7 +3704,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -3971,7 +3971,7 @@ WriteBarrieredBase
 T
 >
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4015,7 +4015,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4112,7 +4112,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4149,7 +4149,7 @@ this
 -
 >
 value
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4180,7 +4180,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4383,7 +4383,7 @@ read
 )
 const
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -4407,7 +4407,7 @@ T
 next
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -4650,7 +4650,7 @@ ReadBarrieredBase
 T
 >
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4694,7 +4694,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4746,7 +4746,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4821,7 +4821,7 @@ this
 >
 post
 (
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4850,7 +4850,7 @@ this
 -
 >
 value
-GCMethods
+GCPolicy
 <
 T
 >
@@ -4916,7 +4916,7 @@ const
 if
 (
 !
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -4931,7 +4931,7 @@ value
 )
 )
 return
-GCMethods
+GCPolicy
 <
 T
 >
