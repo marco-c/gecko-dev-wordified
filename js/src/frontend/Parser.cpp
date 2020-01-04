@@ -23330,7 +23330,7 @@ ParseHandler
 >
 :
 :
-makeSetCall
+checkAssignmentToCall
 (
 Node
 target
@@ -23400,9 +23400,7 @@ otherwise
 /
 warn
 .
-if
-(
-!
+return
 report
 (
 ParseStrictError
@@ -23420,19 +23418,6 @@ strict
 target
 msg
 )
-)
-return
-false
-;
-handler
-.
-markAsSetCall
-(
-target
-)
-;
-return
-true
 ;
 }
 template
@@ -31097,7 +31082,7 @@ target
 )
 )
 return
-makeSetCall
+checkAssignmentToCall
 (
 target
 JSMSG_BAD_FOR_LEFTSIDE
@@ -43407,7 +43392,7 @@ target
 )
 ;
 return
-makeSetCall
+checkAssignmentToCall
 (
 target
 JSMSG_BAD_LEFTSIDE_OF_ASS
@@ -45345,7 +45330,7 @@ target
 if
 (
 !
-makeSetCall
+checkAssignmentToCall
 (
 target
 JSMSG_BAD_INCOP_OPERAND

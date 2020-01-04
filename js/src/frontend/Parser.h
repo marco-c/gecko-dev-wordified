@@ -8162,7 +8162,7 @@ maybeDecl
 )
 ;
 bool
-makeSetCall
+checkAssignmentToCall
 (
 Node
 node

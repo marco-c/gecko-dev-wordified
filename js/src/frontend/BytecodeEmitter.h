@@ -3524,6 +3524,15 @@ nullptr
 ;
 MOZ_MUST_USE
 bool
+emitCallIncDec
+(
+ParseNode
+*
+incDec
+)
+;
+MOZ_MUST_USE
+bool
 emitLoopHead
 (
 ParseNode
