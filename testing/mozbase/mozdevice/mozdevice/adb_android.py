@@ -547,6 +547,10 @@ adb_port
 =
 adb_port
                            
+test_root
+=
+test_root
+                           
 logger_name
 =
 logger_name
