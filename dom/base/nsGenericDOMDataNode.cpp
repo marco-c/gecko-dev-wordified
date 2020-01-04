@@ -3858,7 +3858,7 @@ return
 nullptr
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 nsGenericDOMDataNode
 :
 :
@@ -3870,7 +3870,7 @@ aIndex
 const
 {
 return
-nsAttrInfo
+BorrowedAttrInfo
 (
 nullptr
 nullptr

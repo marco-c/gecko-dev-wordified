@@ -2755,7 +2755,7 @@ build
 anonymous
 content
 .
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 ;
 for

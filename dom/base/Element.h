@@ -3075,7 +3075,7 @@ const
 override
 ;
 virtual
-nsAttrInfo
+BorrowedAttrInfo
 GetAttrInfoAt
 (
 uint32_t
@@ -5741,7 +5741,7 @@ mAttrsAndChildren
 *
 /
 virtual
-nsAttrInfo
+BorrowedAttrInfo
 GetAttrInfo
 (
 int32_t

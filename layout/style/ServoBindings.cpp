@@ -1016,7 +1016,7 @@ all
 :
 -
 (
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 ;
 for

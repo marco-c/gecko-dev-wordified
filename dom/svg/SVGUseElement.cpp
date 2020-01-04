@@ -2027,7 +2027,7 @@ nullptr
 /
 copy
 attributes
-nsAttrInfo
+BorrowedAttrInfo
 info
 ;
 uint32_t
