@@ -70,7 +70,7 @@ view
 const
 TEST_URI
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_urls_clickable
@@ -81,7 +81,7 @@ html
 const
 TEST_IMAGE
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_test_image

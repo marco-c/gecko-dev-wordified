@@ -185,7 +185,7 @@ url
 "
 '
 +
-TEST_URL_ROOT
+URL_ROOT
 +
 '
 doc_test_image

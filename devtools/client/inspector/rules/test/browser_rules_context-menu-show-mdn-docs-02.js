@@ -295,7 +295,7 @@ view
 {
 setBaseCssDocsUrl
 (
-TEST_URL_ROOT
+URL_ROOT
 )
 ;
 info

@@ -76,7 +76,7 @@ enabled
 const
 TESTCASE_URI
 =
-TEST_URL_ROOT_SSL
+URL_ROOT_SSL
 +
 "
 doc_sourcemaps
