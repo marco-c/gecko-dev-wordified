@@ -755,6 +755,15 @@ MOZ_GTK_ENTRY
 *
 Paints
 a
+GtkExpander
+.
+*
+/
+MOZ_GTK_EXPANDER
+/
+*
+Paints
+a
 GtkTextView
 .
 *
