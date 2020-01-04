@@ -297,6 +297,15 @@ aContentsScaleFactor
 )
 override
 ;
+NS_IMETHOD
+GetDefaultCSSScaleFactor
+(
+double
+*
+aScaleFactor
+)
+override
+;
 protected
 :
 virtual

@@ -10865,8 +10865,12 @@ PreloadLocalStorage
 /
 /
 Returns
-desktop
+CSS
 pixels
+based
+on
+primary
+screen
 .
 Outer
 windows
@@ -10875,7 +10879,7 @@ only
 mozilla
 :
 :
-DesktopIntPoint
+CSSIntPoint
 GetScreenXY
 (
 mozilla
