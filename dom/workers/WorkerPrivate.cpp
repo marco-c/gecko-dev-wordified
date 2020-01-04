@@ -5062,7 +5062,7 @@ GetPrincipal
 aWorkerPrivate
 -
 >
-SharedWorkerName
+WorkerName
 (
 )
 aWorkerPrivate
@@ -9955,7 +9955,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 &
 aLoadInfo
@@ -9994,9 +9994,9 @@ mScriptURL
 (
 aScriptURL
 )
-mSharedWorkerName
+mWorkerName
 (
-aSharedWorkerName
+aWorkerName
 )
 mLoadingWorkerScript
 (
@@ -10054,7 +10054,7 @@ IsDedicatedWorker
 (
 )
 !
-aSharedWorkerName
+aWorkerName
 .
 IsVoid
 (
@@ -10071,7 +10071,7 @@ MOZ_ASSERT_IF
 IsDedicatedWorker
 (
 )
-aSharedWorkerName
+aWorkerName
 .
 IsEmpty
 (
@@ -18140,7 +18140,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 &
 aLoadInfo
@@ -18156,7 +18156,7 @@ aParent
 aScriptURL
 aIsChromeWorker
 aWorkerType
-aSharedWorkerName
+aWorkerName
 aLoadInfo
 )
 mJSContext
@@ -18239,7 +18239,7 @@ IsDedicatedWorker
 (
 )
 !
-aSharedWorkerName
+aWorkerName
 .
 IsVoid
 (
@@ -18251,7 +18251,7 @@ MOZ_ASSERT_IF
 IsDedicatedWorker
 (
 )
-aSharedWorkerName
+aWorkerName
 .
 IsEmpty
 (
@@ -18645,7 +18645,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 *
 aLoadInfo
@@ -18671,7 +18671,7 @@ cx
 aScriptURL
 aIsChromeWorker
 aWorkerType
-aSharedWorkerName
+aWorkerName
 aLoadInfo
 aRv
 )
@@ -18703,7 +18703,7 @@ aWorkerType
 const
 nsACString
 &
-aSharedWorkerName
+aWorkerName
 WorkerLoadInfo
 *
 aLoadInfo
@@ -18746,6 +18746,17 @@ AssertIsOnMainThread
 )
 ;
 }
+/
+/
+Only
+service
+and
+shared
+workers
+can
+have
+names
+.
 MOZ_ASSERT_IF
 (
 aWorkerType
@@ -18753,7 +18764,7 @@ aWorkerType
 =
 WorkerTypeDedicated
 !
-aSharedWorkerName
+aWorkerName
 .
 IsVoid
 (
@@ -18766,7 +18777,7 @@ aWorkerType
 =
 =
 WorkerTypeDedicated
-aSharedWorkerName
+aWorkerName
 .
 IsEmpty
 (
@@ -18975,7 +18986,7 @@ parent
 aScriptURL
 aIsChromeWorker
 aWorkerType
-aSharedWorkerName
+aWorkerName
 *
 aLoadInfo
 )
@@ -31505,7 +31516,7 @@ new
 SharedWorkerGlobalScope
 (
 this
-SharedWorkerName
+WorkerName
 (
 )
 )
@@ -31525,7 +31536,7 @@ new
 ServiceWorkerGlobalScope
 (
 this
-SharedWorkerName
+WorkerName
 (
 )
 )
