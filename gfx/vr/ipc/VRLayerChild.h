@@ -205,8 +205,6 @@ aCanvasElement
 void
 SubmitFrame
 (
-int32_t
-aInputFrameID
 )
 ;
 protected

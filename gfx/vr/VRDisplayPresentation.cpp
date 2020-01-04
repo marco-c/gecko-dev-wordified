@@ -698,8 +698,6 @@ VRDisplayPresentation
 :
 SubmitFrame
 (
-int32_t
-aInputFrameID
 )
 {
 for
@@ -716,7 +714,6 @@ layer
 >
 SubmitFrame
 (
-aInputFrameID
 )
 ;
 break

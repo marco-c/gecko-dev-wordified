@@ -229,10 +229,6 @@ VRLayerParent
 :
 RecvSubmitFrame
 (
-const
-int32_t
-&
-aInputFrameID
 PTextureParent
 *
 texture
@@ -255,7 +251,6 @@ vm
 SubmitFrame
 (
 this
-aInputFrameID
 texture
 mLeftEyeRect
 mRightEyeRect

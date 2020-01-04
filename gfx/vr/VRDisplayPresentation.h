@@ -158,8 +158,6 @@ aLayers
 void
 SubmitFrame
 (
-int32_t
-aInputFrameID
 )
 ;
 void

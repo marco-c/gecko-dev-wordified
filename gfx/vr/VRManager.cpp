@@ -1665,10 +1665,6 @@ SubmitFrame
 VRLayerParent
 *
 aLayer
-const
-int32_t
-&
-aInputFrameID
 layers
 :
 :
@@ -1734,7 +1730,7 @@ display
 SubmitFrame
 (
 aLayer
-aInputFrameID
+0
 aTexture
 aLeftEyeRect
 aRightEyeRect

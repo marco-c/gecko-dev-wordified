@@ -297,8 +297,6 @@ VRLayerChild
 :
 SubmitFrame
 (
-int32_t
-aInputFrameID
 )
 {
 if
@@ -430,7 +428,6 @@ vrmc
 ;
 SendSubmitFrame
 (
-aInputFrameID
 mFront
 -
 >
