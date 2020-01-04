@@ -300,6 +300,14 @@ MReturn
 ret
 )
 ;
+void
+visitRandom
+(
+MRandom
+*
+ins
+)
+;
 }
 ;
 typedef
