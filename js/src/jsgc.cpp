@@ -23601,16 +23601,6 @@ zone
 )
 ;
 }
-if
-(
-isFull
-)
-UnmarkScriptData
-(
-rt
-lock
-)
-;
 }
 markRuntime
 (
@@ -33385,10 +33375,6 @@ bug
 .
 *
 /
-if
-(
-isFull
-)
 SweepScriptData
 (
 rt
