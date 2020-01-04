@@ -4647,6 +4647,10 @@ self
 .
 profile
                                            
+app_args
+=
+app_args
+                                           
 symbols_path
 =
 symbols_path
