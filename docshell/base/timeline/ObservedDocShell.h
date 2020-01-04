@@ -231,6 +231,9 @@ AbstractTimelineMarker
 >
 mTimelineMarkers
 ;
+bool
+mPopping
+;
 /
 /
 Off
