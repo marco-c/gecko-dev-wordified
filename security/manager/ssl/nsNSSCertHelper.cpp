@@ -11705,10 +11705,9 @@ rv
 rv
 )
 ;
-char
-*
+UniquePORTString
 tmpstr
-=
+(
 CERT_Hexify
 (
 const_cast
@@ -11726,6 +11725,7 @@ get
 )
 1
 )
+)
 ;
 NS_ENSURE_TRUE
 (
@@ -11738,11 +11738,10 @@ fp
 Assign
 (
 tmpstr
-)
-;
-PORT_Free
+.
+get
 (
-tmpstr
+)
 )
 ;
 return
