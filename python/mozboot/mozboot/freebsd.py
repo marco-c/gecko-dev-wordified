@@ -280,6 +280,22 @@ pkg
 install
 '
 ]
+            
+if
+self
+.
+no_interactive
+:
+                
+command
+.
+append
+(
+'
+-
+y
+'
+)
         
 else
 :
