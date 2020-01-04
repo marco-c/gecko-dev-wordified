@@ -13446,12 +13446,8 @@ NPRemoteWindow
 &
 bool
 )
-const
 gfxSurfaceType
-&
-const
 NPRemoteWindow
-&
 bool
 >
 (
