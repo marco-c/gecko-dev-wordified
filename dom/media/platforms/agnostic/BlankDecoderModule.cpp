@@ -261,7 +261,6 @@ aType
 )
 {
 }
-virtual
 nsRefPtr
 <
 InitPromise
@@ -282,7 +281,6 @@ __func__
 )
 ;
 }
-virtual
 nsresult
 Shutdown
 (
@@ -407,7 +405,6 @@ mCallback
 ;
 }
 ;
-virtual
 nsresult
 Input
 (
@@ -484,7 +481,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 Flush
 (
@@ -502,7 +498,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 Drain
 (
@@ -1307,7 +1302,6 @@ public
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -1392,7 +1386,6 @@ forget
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -1456,7 +1449,6 @@ forget
 )
 ;
 }
-virtual
 bool
 SupportsMimeType
 (
@@ -1471,7 +1463,6 @@ return
 true
 ;
 }
-virtual
 bool
 SupportsSharedDecoders
 (
@@ -1487,7 +1478,6 @@ return
 false
 ;
 }
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (

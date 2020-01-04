@@ -155,7 +155,6 @@ GonkDecoderModule
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -197,7 +196,6 @@ override
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -223,7 +221,6 @@ Init
 (
 )
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (
@@ -235,7 +232,6 @@ aConfig
 const
 override
 ;
-virtual
 bool
 SupportsMimeType
 (

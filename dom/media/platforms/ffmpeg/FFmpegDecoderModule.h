@@ -195,7 +195,6 @@ FFmpegDecoderModule
 )
 {
 }
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -252,7 +251,6 @@ forget
 )
 ;
 }
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -297,7 +295,6 @@ forget
 )
 ;
 }
-virtual
 bool
 SupportsMimeType
 (
@@ -339,7 +336,6 @@ aMimeType
 AV_CODEC_ID_NONE
 ;
 }
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (

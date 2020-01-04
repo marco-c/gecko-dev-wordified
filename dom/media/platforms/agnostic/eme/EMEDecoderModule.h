@@ -179,7 +179,6 @@ EMEDecoderModule
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -215,7 +214,6 @@ override
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -235,7 +233,6 @@ aCallback
 )
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (

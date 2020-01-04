@@ -728,7 +728,6 @@ aOutImage
 )
 override
 ;
-virtual
 bool
 SupportsConfig
 (
@@ -3042,7 +3041,6 @@ aOutImage
 )
 override
 ;
-virtual
 HRESULT
 ConfigureForSize
 (
@@ -3053,7 +3051,6 @@ aHeight
 )
 override
 ;
-virtual
 bool
 IsD3D11
 (
@@ -3064,7 +3061,6 @@ return
 true
 ;
 }
-virtual
 bool
 SupportsConfig
 (

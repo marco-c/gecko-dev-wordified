@@ -210,7 +210,6 @@ Init
 (
 )
 ;
-virtual
 HRESULT
 Input
 (
@@ -220,7 +219,6 @@ aSample
 )
 override
 ;
-virtual
 HRESULT
 Output
 (
@@ -235,14 +233,12 @@ aOutput
 )
 override
 ;
-virtual
 void
 Shutdown
 (
 )
 override
 ;
-virtual
 bool
 IsHardwareAccelerated
 (
@@ -253,7 +249,6 @@ aFailureReason
 const
 override
 ;
-virtual
 TrackInfo
 :
 :

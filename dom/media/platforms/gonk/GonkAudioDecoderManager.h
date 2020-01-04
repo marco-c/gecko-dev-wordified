@@ -191,7 +191,6 @@ GonkAudioDecoderManager
 )
 override
 ;
-virtual
 nsRefPtr
 <
 InitPromise
@@ -204,7 +203,6 @@ aCallback
 )
 override
 ;
-virtual
 nsresult
 Input
 (
@@ -214,7 +212,6 @@ aSample
 )
 override
 ;
-virtual
 nsresult
 Output
 (
@@ -229,14 +226,12 @@ aOutput
 )
 override
 ;
-virtual
 nsresult
 Flush
 (
 )
 override
 ;
-virtual
 bool
 HasQueuedSample
 (

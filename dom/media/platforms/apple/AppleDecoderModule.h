@@ -146,7 +146,6 @@ AppleDecoderModule
 (
 )
 ;
-virtual
 nsresult
 Startup
 (
@@ -158,7 +157,6 @@ override
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -194,7 +192,6 @@ override
 Decode
 thread
 .
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -214,7 +211,6 @@ aCallback
 )
 override
 ;
-virtual
 bool
 SupportsMimeType
 (
@@ -225,7 +221,6 @@ aMimeType
 )
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (

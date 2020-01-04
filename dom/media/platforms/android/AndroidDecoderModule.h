@@ -128,7 +128,6 @@ PlatformDecoderModule
 {
 public
 :
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -159,7 +158,6 @@ aCallback
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -191,7 +189,6 @@ AndroidDecoderModule
 )
 {
 }
-virtual
 bool
 SupportsMimeType
 (
@@ -202,7 +199,6 @@ aMimeType
 )
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (
@@ -257,7 +253,6 @@ MediaCodecDataDecoder
 (
 )
 ;
-virtual
 nsRefPtr
 <
 MediaDataDecoder
@@ -270,28 +265,24 @@ Init
 )
 override
 ;
-virtual
 nsresult
 Flush
 (
 )
 override
 ;
-virtual
 nsresult
 Drain
 (
 )
 override
 ;
-virtual
 nsresult
 Shutdown
 (
 )
 override
 ;
-virtual
 nsresult
 Input
 (
@@ -299,6 +290,7 @@ MediaRawData
 *
 aSample
 )
+override
 ;
 protected
 :

@@ -161,14 +161,12 @@ dynamic
 libraries
 etc
 .
-virtual
 nsresult
 Startup
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -199,7 +197,6 @@ aCallback
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -229,7 +226,6 @@ aMimeType
 )
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (
