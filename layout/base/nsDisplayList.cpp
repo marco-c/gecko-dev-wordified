@@ -20899,6 +20899,14 @@ nsRect
 aRect
 )
 {
+mHitRegion
+.
+Or
+(
+mHitRegion
+aRect
+)
+;
 mDispatchToContentHitRegion
 .
 Or
