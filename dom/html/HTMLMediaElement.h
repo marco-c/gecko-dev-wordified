@@ -8882,7 +8882,7 @@ VideoTrackList
 >
 mVideoTrackList
 ;
-RefPtr
+nsAutoPtr
 <
 MediaStreamTrackListener
 >

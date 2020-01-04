@@ -12921,10 +12921,6 @@ mPlayBlockedBecauseHidden
 (
 false
 )
-mMediaStreamTrackListener
-(
-nullptr
-)
 mElementInTreeState
 (
 ELEMENT_NOT_INTREE
@@ -18349,12 +18345,6 @@ aTrack
 }
 protected
 :
-~
-MediaStreamTrackListener
-(
-)
-{
-}
 HTMLMediaElement
 *
 const
