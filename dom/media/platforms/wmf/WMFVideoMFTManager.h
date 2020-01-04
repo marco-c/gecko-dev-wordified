@@ -415,6 +415,15 @@ GetMediaSubtypeGUID
 (
 )
 ;
+uint32_t
+mNullOutputCount
+;
+bool
+mGotValidOutputAfterNullOutput
+;
+bool
+mGotExcessiveNullOutput
+;
 }
 ;
 }
