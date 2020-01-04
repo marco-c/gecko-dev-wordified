@@ -1794,7 +1794,7 @@ mFragmentEndTime
 -
 1
 )
-mReaderWrapper
+mReader
 (
 new
 MediaDecoderReaderWrapper
@@ -2456,7 +2456,7 @@ mBuffered
 .
 Connect
 (
-mReaderWrapper
+mReader
 -
 >
 CanonicalBuffered
@@ -3928,7 +3928,7 @@ bool
 isLowOnDecodedAudio
 =
 !
-mReaderWrapper
+mReader
 -
 >
 IsAsync
@@ -4027,7 +4027,7 @@ d
 isLowOnDecodedAudio
 isLowOnDecodedVideo
 lowUndecoded
-mReaderWrapper
+mReader
 -
 >
 IsAsync
@@ -4956,7 +4956,7 @@ WAITING_FOR_DATA
 {
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 IsWaitForDataSupported
@@ -4989,7 +4989,7 @@ aType
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 WaitForData
@@ -5728,7 +5728,7 @@ audio
 .
 if
 (
-mReaderWrapper
+mReader
 -
 >
 IsAsync
@@ -6185,7 +6185,7 @@ mMetadataManager
 .
 Connect
 (
-mReaderWrapper
+mReader
 -
 >
 TimedMetadataEvent
@@ -6243,7 +6243,7 @@ endif
 nsresult
 rv
 =
-mReaderWrapper
+mReader
 -
 >
 Init
@@ -6578,7 +6578,7 @@ shouldBuffer
 ;
 if
 (
-mReaderWrapper
+mReader
 -
 >
 UseBufferingHeuristics
@@ -6610,7 +6610,7 @@ else
 {
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 IsWaitForDataSupported
@@ -7704,7 +7704,7 @@ here
 as
 well
 .
-mReaderWrapper
+mReader
 -
 >
 ReleaseMediaResources
@@ -7910,7 +7910,7 @@ spin
 down
 .
 return
-mReaderWrapper
+mReader
 -
 >
 Shutdown
@@ -8811,7 +8811,7 @@ mMetadataRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 ReadMetadata
@@ -8982,7 +8982,7 @@ IsDecodingFirstFrame
 &
 &
 !
-mReaderWrapper
+mReader
 -
 >
 ForceZeroStartTime
@@ -9562,7 +9562,7 @@ Duration
 )
 )
 ;
-mReaderWrapper
+mReader
 -
 >
 SetIdle
@@ -9639,7 +9639,7 @@ mDecoderID
 OwnerThread
 (
 )
-mReaderWrapper
+mReader
 .
 get
 (
@@ -10296,7 +10296,7 @@ AudioQueue
 GetSize
 (
 )
-mReaderWrapper
+mReader
 -
 >
 SizeOfAudioQueueInFrames
@@ -10308,7 +10308,7 @@ mAudioDataRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 RequestAudioData
@@ -10615,7 +10615,7 @@ VideoQueue
 GetSize
 (
 )
-mReaderWrapper
+mReader
 -
 >
 SizeOfVideoQueueInFrames
@@ -10641,7 +10641,7 @@ mVideoDataRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 RequestVideoData
@@ -10857,7 +10857,7 @@ OnTaskQueue
 ;
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 UseBufferingHeuristics
@@ -11570,7 +11570,7 @@ isSome
 )
 )
 {
-mReaderWrapper
+mReader
 -
 >
 AwaitStartTime
@@ -11624,7 +11624,7 @@ adjustment
 self
 -
 >
-mReaderWrapper
+mReader
 -
 >
 StartTime
@@ -11701,13 +11701,13 @@ videoQueueSize
 %
 d
 "
-mReaderWrapper
+mReader
 -
 >
 IsAsync
 (
 )
-mReaderWrapper
+mReader
 -
 >
 VideoIsHardwareAccelerated
@@ -12061,7 +12061,7 @@ mBufferedUpdateRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 UpdateBufferedWithPromise
@@ -12308,7 +12308,7 @@ Get
 potentially
 updated
 metadata
-mReaderWrapper
+mReader
 -
 >
 ReadUpdatedMetadata
@@ -13610,7 +13610,7 @@ time
 .
 if
 (
-mReaderWrapper
+mReader
 -
 >
 UseBufferingHeuristics
@@ -13750,7 +13750,7 @@ OutOfDecodedVideo
 {
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 IsWaitForDataSupported
@@ -14430,7 +14430,7 @@ mPlaybackOffset
 =
 0
 ;
-mReaderWrapper
+mReader
 -
 >
 ResetDecode
@@ -16261,7 +16261,7 @@ mCDMProxy
 =
 aProxy
 ;
-mReaderWrapper
+mReader
 -
 >
 SetCDMProxy
@@ -16596,7 +16596,7 @@ OnTaskQueue
 ;
 return
 (
-mReaderWrapper
+mReader
 -
 >
 IsAsync
@@ -16604,7 +16604,7 @@ IsAsync
 )
 &
 &
-mReaderWrapper
+mReader
 -
 >
 VideoIsHardwareAccelerated
@@ -16808,7 +16808,7 @@ SizeOfVideoQueue
 const
 {
 return
-mReaderWrapper
+mReader
 -
 >
 SizeOfVideoQueueInBytes
@@ -16826,7 +16826,7 @@ SizeOfAudioQueue
 const
 {
 return
-mReaderWrapper
+mReader
 -
 >
 SizeOfAudioQueueInBytes
@@ -16850,7 +16850,7 @@ CanonicalBuffered
 )
 {
 return
-mReaderWrapper
+mReader
 -
 >
 CanonicalBuffered
@@ -16871,7 +16871,7 @@ OnMediaNotSeekable
 )
 {
 return
-mReaderWrapper
+mReader
 -
 >
 OnMediaNotSeekable

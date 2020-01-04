@@ -4831,7 +4831,7 @@ RefPtr
 <
 MediaDecoderReaderWrapper
 >
-mReaderWrapper
+mReader
 ;
 /
 /
