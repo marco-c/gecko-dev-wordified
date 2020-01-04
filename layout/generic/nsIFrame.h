@@ -21297,7 +21297,7 @@ aBoxLayoutState
 ;
 virtual
 bool
-IsCollapsed
+IsXULCollapsed
 (
 )
 =

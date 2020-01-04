@@ -7855,7 +7855,7 @@ aSize
 if
 (
 !
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

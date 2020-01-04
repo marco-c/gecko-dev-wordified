@@ -195,7 +195,7 @@ override
 ;
 virtual
 bool
-IsCollapsed
+IsXULCollapsed
 (
 )
 override

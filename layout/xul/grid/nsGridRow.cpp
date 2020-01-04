@@ -274,7 +274,7 @@ bool
 nsGridRow
 :
 :
-IsCollapsed
+IsXULCollapsed
 (
 )
 {
@@ -285,7 +285,7 @@ mBox
 mBox
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;

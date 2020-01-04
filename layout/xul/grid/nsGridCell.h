@@ -245,7 +245,7 @@ aBoxLayoutState
 )
 ;
 bool
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;

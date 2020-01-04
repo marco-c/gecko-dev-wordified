@@ -259,7 +259,7 @@ mBottom
 ;
 }
 bool
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;

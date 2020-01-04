@@ -38414,7 +38414,7 @@ DoesClipChildren
 &
 !
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 &
@@ -58209,7 +58209,7 @@ mPrefSize
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -58414,7 +58414,7 @@ size
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -58591,7 +58591,7 @@ size
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -58709,7 +58709,7 @@ mAscent
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -58864,7 +58864,7 @@ height
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -59129,7 +59129,7 @@ we
 do
 this
 if
-IsCollapsed
+IsXULCollapsed
 (
 )
 is
@@ -60829,7 +60829,7 @@ bug
 )
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

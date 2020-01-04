@@ -2027,7 +2027,7 @@ pref
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2120,7 +2120,7 @@ min
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2212,7 +2212,7 @@ maxSize
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2375,7 +2375,7 @@ aState
 {
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2395,7 +2395,7 @@ bool
 nsBox
 :
 :
-IsCollapsed
+IsXULCollapsed
 (
 )
 {
@@ -2561,7 +2561,7 @@ aState
 *
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2685,7 +2685,7 @@ DoesClipChildren
 &
 &
 !
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
