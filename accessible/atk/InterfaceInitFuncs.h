@@ -225,6 +225,14 @@ aIface
 )
 ;
 void
+tableCellInterfaceInitCB
+(
+AtkTableCellIface
+*
+aIface
+)
+;
+void
 textInterfaceInitCB
 (
 AtkTextIface
