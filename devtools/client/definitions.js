@@ -747,7 +747,7 @@ inspector
 /
 inspector
 .
-xul
+xhtml
 "
 label
 :
