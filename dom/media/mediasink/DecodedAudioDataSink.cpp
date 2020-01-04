@@ -2752,6 +2752,10 @@ audio
 -
 >
 mAudioData
+.
+get
+(
+)
 audio
 -
 >
