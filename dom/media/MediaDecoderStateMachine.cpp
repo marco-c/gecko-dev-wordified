@@ -809,11 +809,12 @@ low
 audio
 threshold
 .
+static
 const
 int64_t
 AMPLE_AUDIO_USECS
 =
-1000000
+2000000
 ;
 }
 /
