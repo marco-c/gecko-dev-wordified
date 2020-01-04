@@ -597,7 +597,7 @@ responsiveness
 )
 and
 \
-                
+           
 platform
 .
 system
@@ -606,23 +606,19 @@ system
 !
 =
 "
-Linux
+Darwin
 "
 :
             
 #
 ignore
-responsiveness
-tests
-on
-linux
-until
-we
-fix
-            
-#
-Bug
-710296
+osx
+for
+now
+as
+per
+bug
+1245793
             
 setup
 .

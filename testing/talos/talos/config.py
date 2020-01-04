@@ -1991,10 +1991,6 @@ cycles
 '
     
 '
-responsiveness
-'
-    
-'
 sps_profile
 '
     
