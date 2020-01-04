@@ -5459,7 +5459,7 @@ const
 css
 :
 :
-URLValue
+URLValueData
 *
 aURL
 )
@@ -6193,10 +6193,9 @@ aIndex
 )
 ;
 return
-ResolveFragmentOrURL
+ResolveURLUsingLocalRef
 (
 aFrame
-&
 svgReset
 -
 >
