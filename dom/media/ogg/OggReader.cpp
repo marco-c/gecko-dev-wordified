@@ -4127,7 +4127,7 @@ packet
 header
 .
 int32_t
-samples
+samplesPerFrame
 =
 opus_packet_get_samples_per_frame
 (
@@ -4149,7 +4149,7 @@ frames
 =
 frames_number
 *
-samples
+samplesPerFrame
 ;
 /
 /
@@ -4493,7 +4493,7 @@ frames
 skipFrames
 ;
 int
-samples
+keepSamples
 =
 keepFrames
 *
@@ -4502,7 +4502,7 @@ channels
 AlignedAudioBuffer
 trimBuffer
 (
-samples
+keepSamples
 )
 ;
 if
@@ -4524,7 +4524,7 @@ i
 ;
 i
 <
-samples
+keepSamples
 ;
 i
 +
@@ -4656,7 +4656,7 @@ mOpusState
 mGain
 ;
 int
-samples
+gainSamples
 =
 frames
 *
@@ -4671,7 +4671,7 @@ i
 ;
 i
 <
-samples
+gainSamples
 ;
 i
 +
@@ -4710,7 +4710,7 @@ mOpusState
 mGain_Q16
 ;
 int
-samples
+gainSamples
 =
 frames
 *
@@ -4725,7 +4725,7 @@ i
 ;
 i
 <
-samples
+gainSamples
 ;
 i
 +
@@ -9102,11 +9102,6 @@ aTarget
 )
 )
 ;
-nsresult
-res
-=
-NS_OK
-;
 if
 (
 HasVideo
@@ -9397,6 +9392,11 @@ keyframeTime
 ;
 }
 }
+nsresult
+res
+=
+NS_OK
+;
 if
 (
 aAdjustedTarget
@@ -11887,7 +11887,7 @@ the
 media
 .
 PageSyncResult
-res
+pageSyncResult
 =
 PageSync
 (
@@ -11905,7 +11905,7 @@ skippedBytes
 ;
 NS_ENSURE_TRUE
 (
-res
+pageSyncResult
 !
 =
 PAGE_SYNC_ERROR
@@ -11914,7 +11914,7 @@ NS_ERROR_FAILURE
 ;
 if
 (
-res
+pageSyncResult
 =
 =
 PAGE_SYNC_END_OF_RANGE
@@ -13387,7 +13387,7 @@ int32_t
 discard
 ;
 PageSyncResult
-res
+pageSyncResult
 =
 PageSync
 (
@@ -13407,7 +13407,7 @@ discard
 ;
 if
 (
-res
+pageSyncResult
 =
 =
 PAGE_SYNC_ERROR
@@ -13428,7 +13428,7 @@ Invalid
 else
 if
 (
-res
+pageSyncResult
 =
 =
 PAGE_SYNC_END_OF_RANGE
