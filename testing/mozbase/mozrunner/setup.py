@@ -99,15 +99,6 @@ deps
 =
 [
 '
-mozcrash
->
-=
-0
-.
-14
-'
-        
-'
 mozdevice
 >
 =
@@ -162,6 +153,24 @@ mozprofile
 '
         
 ]
+EXTRAS_REQUIRE
+=
+{
+'
+crash
+'
+:
+[
+'
+mozcrash
+>
+=
+0
+.
+14
+'
+]
+}
 #
 we
 only
@@ -383,6 +392,10 @@ False
 install_requires
 =
 deps
+      
+extras_require
+=
+EXTRAS_REQUIRE
       
 entry_points
 =
