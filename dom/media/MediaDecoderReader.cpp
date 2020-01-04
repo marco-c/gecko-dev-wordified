@@ -682,10 +682,6 @@ MOZ_ASSERT
 mShutdown
 )
 ;
-ResetDecode
-(
-)
-;
 MOZ_COUNT_DTOR
 (
 MediaDecoderReader
