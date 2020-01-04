@@ -1827,8 +1827,9 @@ child
 =
 doc
 .
-createElement
+createElementNS
 (
+null
 '
 child
 '

@@ -1325,10 +1325,6 @@ mType
 =
 eHTML
 ;
-mDefaultElementType
-=
-kNameSpaceID_XHTML
-;
 mCompatMode
 =
 eCompatibility_NavQuirks
