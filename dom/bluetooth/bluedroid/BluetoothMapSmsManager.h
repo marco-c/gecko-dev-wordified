@@ -1710,9 +1710,11 @@ mMnsSocket
 int
 mBodySegmentLength
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 mBodySegment
 ;
