@@ -1030,6 +1030,11 @@ dropped
 .
 if
 (
+isServerSurfaceValid
+(
+)
+&
+&
 mCompositorCreated
 )
 {
