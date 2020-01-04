@@ -20456,7 +20456,7 @@ header
 newPendingLoopHeader
 (
 current
-pc
+loopEntry
 osr
 canOsr
 stackPhiCount
@@ -20926,7 +20926,7 @@ header
 newPendingLoopHeader
 (
 current
-pc
+loopEntry
 osr
 canOsr
 stackPhiCount
@@ -21570,7 +21570,7 @@ header
 newPendingLoopHeader
 (
 current
-pc
+loopEntry
 osr
 canOsr
 stackPhiCount
