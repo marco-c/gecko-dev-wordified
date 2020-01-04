@@ -4592,7 +4592,7 @@ result
 .
 *
 /
-public
+private
 static
 void
 getPreferredSizeFaviconForPage
