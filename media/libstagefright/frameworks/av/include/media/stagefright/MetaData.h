@@ -1063,6 +1063,14 @@ bool
 (
 int32_t
 )
+kKeyAACAOT
+=
+'
+aaot
+'
+/
+/
+int32_t
 /
 /
 If
