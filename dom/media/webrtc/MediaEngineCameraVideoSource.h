@@ -448,6 +448,7 @@ CaptureCapability
 aOut
 )
 ;
+virtual
 bool
 ChooseCapability
 (
@@ -657,16 +658,6 @@ webrtc
 CaptureCapability
 mCapability
 ;
-/
-/
-Doesn
-'
-t
-work
-on
-OS
-X
-.
 nsTArray
 <
 webrtc
