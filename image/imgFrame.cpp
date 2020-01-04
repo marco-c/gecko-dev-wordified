@@ -3015,10 +3015,11 @@ SurfacePattern
 pattern
 (
 aSurface
-ExtendMode
-:
-:
-REPEAT
+aRegion
+.
+GetExtendMode
+(
+)
 Matrix
 :
 :
