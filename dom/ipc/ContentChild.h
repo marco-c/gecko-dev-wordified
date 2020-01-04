@@ -2344,13 +2344,6 @@ override
 ;
 virtual
 bool
-RecvOnAppThemeChanged
-(
-)
-override
-;
-virtual
-bool
 RecvAssociatePluginId
 (
 const
