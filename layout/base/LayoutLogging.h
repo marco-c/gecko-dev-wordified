@@ -173,7 +173,7 @@ if
 the
 environmental
 variable
-NSPR_LOG_MODULES
+MOZ_LOG
 includes
 "
 layout
@@ -296,7 +296,7 @@ if
 the
 environmental
 variable
-NSPR_LOG_MODULES
+MOZ_LOG
 includes
 "
 layout

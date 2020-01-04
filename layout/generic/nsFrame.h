@@ -5046,7 +5046,7 @@ styleverifytree
 "
 to
 your
-NSPR_LOG_MODULES
+MOZ_LOG
 *
 environment
 variable

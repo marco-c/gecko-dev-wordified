@@ -6103,15 +6103,15 @@ verifyreflow
 "
 to
 your
-NSPR_LOG_MODULES
+MOZ_LOG
 environment
 variable
-*
 (
 any
 non
 -
 zero
+*
 debug
 level
 will
@@ -6121,7 +6121,6 @@ work
 Or
 call
 SetVerifyReflowEnable
-*
 with
 true
 .
