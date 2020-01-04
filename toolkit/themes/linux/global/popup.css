@@ -125,7 +125,7 @@ background
 -
 moz
 -
-Dialog
+field
 ;
 -
 -
@@ -138,7 +138,7 @@ color
 -
 moz
 -
-DialogText
+fieldText
 ;
 -
 -
@@ -412,11 +412,13 @@ global
 /
 skin
 /
-icons
+arrow
 /
 panelarrow
 -
 vertical
+-
+themed
 .
 svg
 "
@@ -527,11 +529,13 @@ global
 /
 skin
 /
-icons
+arrow
 /
 panelarrow
 -
 horizontal
+-
+themed
 .
 svg
 "
