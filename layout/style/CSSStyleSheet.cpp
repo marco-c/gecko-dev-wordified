@@ -6393,10 +6393,6 @@ mOwnerRule
 (
 nullptr
 )
-mDocument
-(
-nullptr
-)
 mDirty
 (
 false
@@ -6451,10 +6447,6 @@ mParent
 nullptr
 )
 mOwnerRule
-(
-nullptr
-)
-mDocument
 (
 nullptr
 )
@@ -6516,6 +6508,7 @@ aOwningNodeToUse
 StyleSheet
 (
 aCopy
+aDocumentToUse
 aOwningNodeToUse
 )
 mTitle
@@ -6531,10 +6524,6 @@ aParentToUse
 mOwnerRule
 (
 aOwnerRuleToUse
-)
-mDocument
-(
-aDocumentToUse
 )
 mDirty
 (
