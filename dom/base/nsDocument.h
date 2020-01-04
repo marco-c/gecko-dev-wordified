@@ -9663,6 +9663,14 @@ CheckFrameOptions
 (
 )
 ;
+bool
+IsLoopDocument
+(
+nsIChannel
+*
+aChannel
+)
+;
 nsresult
 InitCSP
 (
