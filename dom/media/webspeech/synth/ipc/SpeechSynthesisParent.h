@@ -317,6 +317,13 @@ aVolume
 )
 override
 ;
+virtual
+bool
+Recv__delete__
+(
+)
+override
+;
 }
 ;
 class

@@ -262,7 +262,7 @@ override
 ;
 virtual
 bool
-Recv__delete__
+RecvOnEnd
 (
 const
 bool
