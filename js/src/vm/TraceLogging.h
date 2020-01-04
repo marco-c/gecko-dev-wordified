@@ -167,6 +167,15 @@ h
 #
 include
 "
+threading
+/
+Mutex
+.
+h
+"
+#
+include
+"
 vm
 /
 TraceLoggingGraph
@@ -1818,8 +1827,7 @@ public
 uint64_t
 startupTime
 ;
-PRLock
-*
+Mutex
 lock
 ;
 TraceLoggerThreadState
@@ -1846,10 +1854,6 @@ false
 graphSpewingEnabled
 (
 false
-)
-lock
-(
-nullptr
 )
 {
 }
