@@ -1169,7 +1169,7 @@ KeyError
         
 pass
 def
-query_pushinfo
+query_vcs_info
 (
 repository
 revision
@@ -2688,7 +2688,7 @@ gmtime
         
 pushinfo
 =
-query_pushinfo
+query_vcs_info
 (
 params
 [
@@ -5361,7 +5361,7 @@ gmtime
         
 pushinfo
 =
-query_pushinfo
+query_vcs_info
 (
 params
 [
