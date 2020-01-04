@@ -792,11 +792,6 @@ aIndex
 }
 #
 endif
-}
-/
-/
-namespace
-mozilla
 #
 undef
 FORWARD
@@ -807,9 +802,6 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
-mozilla
-:
-:
 StyleSheetHandle
 &
 aField
@@ -865,9 +857,6 @@ inline
 void
 ImplCycleCollectionUnlink
 (
-mozilla
-:
-:
 StyleSheetHandle
 &
 aField
@@ -885,9 +874,6 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
-mozilla
-:
-:
 StyleSheetHandle
 :
 :
@@ -946,9 +932,6 @@ inline
 void
 ImplCycleCollectionUnlink
 (
-mozilla
-:
-:
 StyleSheetHandle
 :
 :
@@ -962,6 +945,11 @@ aField
 nullptr
 ;
 }
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
