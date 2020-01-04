@@ -405,7 +405,6 @@ backend
 .
 *
 /
-MOZ_MUST_USE
 bool
 EnableAlarm
 (

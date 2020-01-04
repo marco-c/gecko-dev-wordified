@@ -2363,7 +2363,6 @@ accepted
 .
 *
 /
-MOZ_MUST_USE
 bool
 LockScreenOrientation
 (
@@ -2600,7 +2599,6 @@ observers
 .
 *
 /
-MOZ_MUST_USE
 bool
 RegisterTheOneAlarmObserver
 (
@@ -2783,7 +2781,6 @@ contexts
 .
 *
 /
-MOZ_MUST_USE
 bool
 SetAlarm
 (
@@ -3393,7 +3390,6 @@ data
 reception
 *
 /
-MOZ_MUST_USE
 bool
 EnableRDS
 (
