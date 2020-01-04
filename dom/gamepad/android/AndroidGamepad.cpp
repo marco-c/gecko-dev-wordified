@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-AndroidBridge
+GeneratedJNIWrappers
 .
 h
 "
@@ -132,7 +132,7 @@ StartGamepadMonitoring
 (
 )
 {
-widget
+java
 :
 :
 GeckoAppShell
@@ -148,7 +148,7 @@ StopGamepadMonitoring
 (
 )
 {
-widget
+java
 :
 :
 GeckoAppShell

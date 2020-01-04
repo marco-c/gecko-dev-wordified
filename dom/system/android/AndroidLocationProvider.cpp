@@ -131,14 +131,14 @@ h
 #
 include
 "
-AndroidBridge
+AndroidLocationProvider
 .
 h
 "
 #
 include
 "
-AndroidLocationProvider
+GeneratedJNIWrappers
 .
 h
 "
@@ -186,7 +186,7 @@ Startup
 (
 )
 {
-widget
+java
 :
 :
 GeckoAppShell
@@ -238,7 +238,7 @@ Shutdown
 (
 )
 {
-widget
+java
 :
 :
 GeckoAppShell
@@ -263,7 +263,7 @@ bool
 enable
 )
 {
-widget
+java
 :
 :
 GeckoAppShell

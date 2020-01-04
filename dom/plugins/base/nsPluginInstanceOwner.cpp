@@ -8510,7 +8510,7 @@ mJavaView
 )
 return
 ;
-widget
+java
 :
 :
 GeckoAppShell

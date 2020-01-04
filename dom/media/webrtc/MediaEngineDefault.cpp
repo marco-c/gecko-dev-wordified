@@ -159,13 +159,6 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-AndroidBridge
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h

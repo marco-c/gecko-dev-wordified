@@ -77,7 +77,7 @@ namespace
 mozilla
 {
 namespace
-widget
+java
 {
 const
 char

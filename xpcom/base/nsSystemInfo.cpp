@@ -5882,10 +5882,7 @@ isTablet
 (
 )
 =
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell

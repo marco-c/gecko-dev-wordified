@@ -476,7 +476,7 @@ namespace
 mozilla
 :
 :
-widget
+java
 ;
 AndroidBridge
 *
@@ -1447,7 +1447,7 @@ Object
 GlobalRef
 (
 jEnv
-widget
+java
 :
 :
 GeckoThread
@@ -1497,7 +1497,7 @@ Class
 ;
 mMessageQueue
 =
-widget
+java
 :
 :
 GeckoThread
@@ -5775,9 +5775,6 @@ __PRETTY_FUNCTION__
 auto
 message
 =
-mozilla
-:
-:
 widget
 :
 :

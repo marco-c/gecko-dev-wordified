@@ -175,7 +175,7 @@ class
 PrefsHelper
 :
 public
-widget
+java
 :
 :
 PrefsHelper
@@ -289,7 +289,7 @@ false
 int32_t
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -323,7 +323,7 @@ VTYPE_BOOL
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -360,7 +360,7 @@ VTYPE_INT32
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -397,7 +397,7 @@ VTYPE_ASTRING
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -452,7 +452,7 @@ if
 type
 =
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -485,7 +485,7 @@ if
 aPrefHandler
 )
 {
-widget
+java
 :
 :
 PrefsHelper
@@ -508,7 +508,7 @@ ref
 }
 else
 {
-widget
+java
 :
 :
 PrefsHelper
@@ -579,7 +579,7 @@ aType
 )
 {
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -600,7 +600,7 @@ aBoolVal
 break
 ;
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -621,7 +621,7 @@ aIntVal
 break
 ;
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -939,7 +939,7 @@ ToCString
 int32_t
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -980,7 +980,7 @@ PREF_BOOL
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1012,7 +1012,7 @@ PREF_INT
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1044,7 +1044,7 @@ PREF_STRING
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1211,7 +1211,7 @@ if
 type
 =
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1239,7 +1239,7 @@ Env
 )
 ;
 }
-widget
+java
 :
 :
 PrefsHelper
@@ -1260,7 +1260,7 @@ ref
 )
 ;
 }
-widget
+java
 :
 :
 PrefsHelper
@@ -1269,7 +1269,7 @@ PrefsHelper
 CallPrefHandler
 (
 aPrefHandler
-widget
+java
 :
 :
 PrefsHelper
@@ -1437,7 +1437,7 @@ aType
 )
 {
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -1461,7 +1461,7 @@ aBoolVal
 break
 ;
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -1485,7 +1485,7 @@ aIntVal
 break
 ;
 case
-widget
+java
 :
 :
 PrefsHelper
@@ -1884,7 +1884,7 @@ PREF_BOOL
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1916,7 +1916,7 @@ PREF_INT
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -1948,7 +1948,7 @@ PREF_STRING
 :
 type
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -2041,7 +2041,7 @@ if
 type
 =
 =
-widget
+java
 :
 :
 PrefsHelper
@@ -2064,7 +2064,7 @@ strVal
 )
 ;
 }
-widget
+java
 :
 :
 PrefsHelper

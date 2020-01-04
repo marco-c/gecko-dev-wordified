@@ -16571,10 +16571,7 @@ available
 *
 showPassword
 =
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell

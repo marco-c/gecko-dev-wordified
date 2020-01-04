@@ -759,7 +759,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-AndroidBridge
+GeneratedJNIWrappers
 .
 h
 "
@@ -2693,7 +2693,7 @@ permission
 auto
 downloadDir
 =
-widget
+java
 :
 :
 DownloadsIntegration

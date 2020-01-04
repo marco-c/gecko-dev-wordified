@@ -277,7 +277,7 @@ GetData
 buffer
 )
 ;
-widget
+java
 :
 :
 Clipboard
@@ -478,7 +478,7 @@ kGlobalClipboard
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
-widget
+java
 :
 :
 Clipboard
@@ -561,7 +561,7 @@ kUnicodeMime
 *
 aHasText
 =
-widget
+java
 :
 :
 Clipboard
