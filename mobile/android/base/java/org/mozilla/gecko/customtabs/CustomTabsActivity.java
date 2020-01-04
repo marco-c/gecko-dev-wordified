@@ -161,4 +161,16 @@ layout
 customtabs_activity
 ;
 }
+Override
+public
+void
+onBackPressed
+(
+)
+{
+finish
+(
+)
+;
+}
 }
