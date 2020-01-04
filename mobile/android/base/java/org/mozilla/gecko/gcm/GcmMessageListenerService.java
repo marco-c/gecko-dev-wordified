@@ -132,6 +132,17 @@ mozilla
 .
 gecko
 .
+push
+.
+PushService
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -256,8 +267,6 @@ run
 (
 )
 {
-/
-/
 PushService
 .
 getInstance
