@@ -715,7 +715,6 @@ kea_ecdhe_ecdsa
 kea_ecdh_rsa
 kea_ecdhe_rsa
 kea_ecdh_anon
-kea_ecdhe_psk
 }
 SSL3KeyExchangeAlgorithm
 ;

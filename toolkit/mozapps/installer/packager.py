@@ -167,10 +167,6 @@ freebl3
 '
     
 '
-freeblpriv3
-'
-    
-'
 freebl_32fpu_3
 '
     

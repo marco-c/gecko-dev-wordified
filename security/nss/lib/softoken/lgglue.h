@@ -352,6 +352,8 @@ int
 keyVersion
 int
 flags
+PRBool
+isFIPS
 SDB
 *
 *

@@ -398,10 +398,6 @@ NULL
 {
 mp_tohex
 (
-(
-mp_int
-*
-)
 k1
 mpstr
 )
@@ -424,10 +420,6 @@ mpstr
 ;
 mp_todecimal
 (
-(
-mp_int
-*
-)
 k1
 mpstr
 )
@@ -462,10 +454,6 @@ NULL
 {
 mp_tohex
 (
-(
-mp_int
-*
-)
 k2
 mpstr
 )
@@ -488,10 +476,6 @@ mpstr
 ;
 mp_todecimal
 (
-(
-mp_int
-*
-)
 k2
 mpstr
 )
@@ -2865,12 +2849,9 @@ SECSuccess
 privKeyBytes
 )
 {
-PORT_ZFree
+PORT_Free
 (
 privKeyBytes
-2
-*
-len
 )
 ;
 privKeyBytes
@@ -7712,7 +7693,7 @@ pointC
 .
 data
 )
-SECITEM_ZfreeItem
+SECITEM_FreeItem
 (
 &
 pointC
