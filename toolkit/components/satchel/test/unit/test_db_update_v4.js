@@ -87,6 +87,7 @@ next
 ;
 }
 function
+*
 next_test
 (
 )

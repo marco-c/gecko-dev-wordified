@@ -308,6 +308,7 @@ next
 ;
 }
 function
+*
 tests
 (
 )

@@ -201,6 +201,7 @@ next
 ;
 }
 function
+*
 run_test_steps
 (
 )

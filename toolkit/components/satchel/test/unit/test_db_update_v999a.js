@@ -174,6 +174,7 @@ next
 ;
 }
 function
+*
 tests
 (
 )
