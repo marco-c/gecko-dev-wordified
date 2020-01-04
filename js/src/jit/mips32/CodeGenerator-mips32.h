@@ -383,6 +383,14 @@ LNotI64
 ins
 )
 ;
+void
+visitWasmTruncateToInt64
+(
+LWasmTruncateToInt64
+*
+ins
+)
+;
 /
 /
 Out

@@ -158,6 +158,11 @@ _
 (
 UDivOrModI64
 )
+\
+_
+(
+WasmTruncateToInt64
+)
 #
 endif
 /
