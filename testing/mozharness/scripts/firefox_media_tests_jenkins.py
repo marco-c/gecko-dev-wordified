@@ -184,10 +184,6 @@ clobber
 '
                          
 '
-checkout
-'
-                         
-'
 download
 -
 and
