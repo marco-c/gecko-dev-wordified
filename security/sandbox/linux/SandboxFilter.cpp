@@ -2547,8 +2547,7 @@ buf
 =
 reinterpret_cast
 <
-struct
-stat
+statstruct
 *
 >
 (
@@ -2617,8 +2616,7 @@ buf
 =
 reinterpret_cast
 <
-struct
-stat
+statstruct
 *
 >
 (
@@ -2703,8 +2701,7 @@ buf
 =
 reinterpret_cast
 <
-struct
-stat
+statstruct
 *
 >
 (
