@@ -77,6 +77,15 @@ mozilla
 org
 "
 ;
+const
+ADDON_NAME
+=
+"
+test
+-
+devtools
+"
+;
 add_task
 (
 function
@@ -186,6 +195,7 @@ install
 .
 rdf
 "
+ADDON_NAME
 "
 test
 -
@@ -518,7 +528,9 @@ earlier
 yield
 uninstallAddon
 (
+document
 ADDON_ID
+ADDON_NAME
 )
 ;
 yield
