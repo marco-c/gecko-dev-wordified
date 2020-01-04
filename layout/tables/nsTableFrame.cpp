@@ -20200,12 +20200,6 @@ and
 reason
 in
 aReflowInput
-/
-/
-update
-aReflowMetrics
-a
-aStatus
 void
 nsTableFrame
 :
