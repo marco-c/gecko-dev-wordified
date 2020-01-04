@@ -337,7 +337,7 @@ browser
 let
 prefs
 =
-TabCrashReporter
+TabCrashHandler
 .
 prefs
 ;

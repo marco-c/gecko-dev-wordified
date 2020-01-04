@@ -88,7 +88,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TabCrashReporter
+TabCrashHandler
 "
 "
 PluginCrashReporter
@@ -228,7 +228,7 @@ jsm
 ;
 this
 .
-TabCrashReporter
+TabCrashHandler
 =
 {
 _crashedTabCount

@@ -1868,7 +1868,7 @@ defineLazyModuleGetter
 (
 this
 "
-TabCrashReporter
+TabCrashHandler
 "
 "
 resource
@@ -1878,7 +1878,7 @@ resource
 /
 modules
 /
-ContentCrashReporters
+ContentCrashHandlers
 .
 jsm
 "
@@ -1903,7 +1903,7 @@ resource
 /
 modules
 /
-ContentCrashReporters
+ContentCrashHandlers
 .
 jsm
 "
