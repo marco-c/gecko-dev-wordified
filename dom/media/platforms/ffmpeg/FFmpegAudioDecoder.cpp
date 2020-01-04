@@ -352,6 +352,7 @@ samples
 uint32_t
 major
 minor
+micro
 ;
 FFmpegRuntimeLinker
 :
@@ -360,6 +361,7 @@ GetVersion
 (
 major
 minor
+micro
 )
 ;
 /

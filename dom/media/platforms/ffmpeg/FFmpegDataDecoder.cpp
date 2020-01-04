@@ -143,13 +143,6 @@ endif
 #
 include
 "
-FFmpegLibs
-.
-h
-"
-#
-include
-"
 FFmpegLog
 .
 h
