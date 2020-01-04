@@ -3399,7 +3399,7 @@ return
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_IMAGE
+TYPE_IMAGE
 ;
 }
 int32_t

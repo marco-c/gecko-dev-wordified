@@ -53775,10 +53775,6 @@ NodePrincipal
 )
 &
 blockingStatus
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_IMAGE_PRELOAD
 )
 )
 {
@@ -53907,10 +53903,6 @@ getter_AddRefs
 (
 request
 )
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_IMAGE_PRELOAD
 )
 ;
 /
@@ -54537,7 +54529,6 @@ CSSLoader
 LoadSheet
 (
 uri
-true
 NodePrincipal
 (
 )

@@ -790,7 +790,8 @@ can
 /
 use
 the
-TYPE_INTERNAL_SCRIPT
+external
+TYPE_SCRIPT
 content
 policy
 types
@@ -819,7 +820,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_SCRIPT
+TYPE_SCRIPT
 loadGroup
 )
 ;

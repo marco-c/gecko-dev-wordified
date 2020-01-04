@@ -3614,7 +3614,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 window
 :
 this
@@ -4074,7 +4074,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 window
 :
 this
@@ -5987,7 +5987,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 window
 :
 this

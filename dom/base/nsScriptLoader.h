@@ -1992,8 +1992,6 @@ const
 nsAString
 &
 aType
-bool
-aIsPreLoad
 )
 ;
 /
@@ -2415,8 +2413,6 @@ const
 nsAString
 &
 aType
-bool
-aIsPreLoad
 )
 ;
 /
