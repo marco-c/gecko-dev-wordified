@@ -1340,7 +1340,7 @@ result
 on
 return
 .
-int64_t
+int32_t
 call
 (
 uint8_t

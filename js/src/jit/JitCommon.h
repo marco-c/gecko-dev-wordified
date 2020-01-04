@@ -272,8 +272,6 @@ p5
 p6
 p7
 )
-&
-0xffffffff
 )
 #
 define
@@ -310,8 +308,6 @@ entry
 1
 p0
 )
-&
-0xffffffff
 )
 #
 define
@@ -350,8 +346,6 @@ entry
 p0
 p1
 )
-&
-0xffffffff
 )
 #
 else
