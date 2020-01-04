@@ -2329,8 +2329,7 @@ PlacesUIUtils
 .
 useAsyncTransactions
 )
-return
-(
+{
 yield
 this
 .
@@ -2340,8 +2339,10 @@ aBrowser
 aParent
 aShowEditUI
 )
-)
 ;
+return
+;
+}
 var
 uri
 =
