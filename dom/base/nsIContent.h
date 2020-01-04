@@ -5984,8 +5984,9 @@ void
 DestroyContent
 (
 )
-{
-}
+=
+0
+;
 /
 *
 *

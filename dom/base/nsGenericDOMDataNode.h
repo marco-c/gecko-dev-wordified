@@ -967,6 +967,13 @@ override
 ;
 virtual
 void
+DestroyContent
+(
+)
+override
+;
+virtual
+void
 SaveSubtreeState
 (
 )
