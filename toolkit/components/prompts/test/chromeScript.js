@@ -1329,6 +1329,13 @@ interval
 ;
 break
 ;
+case
+"
+none
+"
+:
+break
+;
 default
 :
 throw
