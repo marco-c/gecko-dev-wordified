@@ -3907,10 +3907,10 @@ char
 *
 str
 ;
-size_t
+uint16_t
 strlength
 ;
-uint32_t
+uint16_t
 keycode
 ;
 }
