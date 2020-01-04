@@ -349,6 +349,7 @@ OutOfLineLambdaArrow
 ;
 class
 CodeGenerator
+final
 :
 public
 CodeGeneratorSpecific
