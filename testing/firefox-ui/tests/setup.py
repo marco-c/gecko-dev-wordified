@@ -64,18 +64,22 @@ PACKAGE_VERSION
 0
 .
 3
+.
+1
 '
 deps
 =
 [
     
 '
-firefox_puppeteer
+firefox
+-
+puppeteer
 >
 =
 3
 .
-0
+1
 .
 0
 <
@@ -87,14 +91,18 @@ firefox_puppeteer
 '
     
 '
-firefox_ui_harness
+firefox
+-
+ui
+-
+harness
 =
 =
 1
 .
 1
 .
-0
+2
 '
 ]
 setup
@@ -102,7 +110,11 @@ setup
 name
 =
 '
-firefox_ui_tests
+firefox
+-
+ui
+-
+tests
 '
       
 version
