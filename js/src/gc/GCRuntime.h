@@ -7753,7 +7753,7 @@ uint64_t
 mozilla
 :
 :
-SequentiallyConsistent
+ReleaseAcquire
 >
 nextCellUniqueId_
 ;
