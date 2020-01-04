@@ -995,7 +995,7 @@ ato
 Unexpose
 this
 when
-actions
+action
 .
 Chain
 #

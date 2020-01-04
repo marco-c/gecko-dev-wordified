@@ -177,7 +177,7 @@ marionette
 /
 content
 /
-actions
+action
 .
 js
 "
@@ -531,7 +531,7 @@ var
 actions
 =
 new
-actions
+action
 .
 Chain
 (
