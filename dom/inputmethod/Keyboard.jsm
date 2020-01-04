@@ -1459,6 +1459,8 @@ permName
 '
 privileges
 .
+\
+n
 "
 )
 ;
