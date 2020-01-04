@@ -2225,14 +2225,11 @@ self
 )
 :
         
-super
-(
-TestExecuteChrome
-self
-)
+TestExecuteContent
 .
 setUp
 (
+self
 )
         
 self
@@ -2374,7 +2371,7 @@ tearDown
 )
     
 def
-test_execute_permission
+test_permission
 (
 self
 )
@@ -2609,3 +2606,39 @@ true
 "
 "
 )
+    
+def
+test_lasting_side_effects
+(
+self
+)
+:
+        
+pass
+    
+def
+test_return_web_element
+(
+self
+)
+:
+        
+pass
+    
+def
+test_return_web_element_array
+(
+self
+)
+:
+        
+pass
+    
+def
+test_return_web_element_nodelist
+(
+self
+)
+:
+        
+pass
