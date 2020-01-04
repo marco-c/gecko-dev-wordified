@@ -22330,9 +22330,6 @@ frame
 .
 lineNumber
 }
-"
-jsdebugger
-"
 )
 ;
 /
