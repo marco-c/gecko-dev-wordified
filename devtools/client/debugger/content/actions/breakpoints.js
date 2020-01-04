@@ -87,7 +87,6 @@ promise
 const
 {
 asPaused
-rdpInvoke
 }
 =
 require
@@ -401,12 +400,10 @@ bpClient
 ]
 =
 yield
-rdpInvoke
-(
-sourceClient
 sourceClient
 .
 setBreakpoint
+(
 {
 line
 :
@@ -672,12 +669,10 @@ isDisabled
 PROMISE
 ]
 :
-rdpInvoke
-(
-bpClient
 bpClient
 .
 remove
+(
 )
 }
 )
