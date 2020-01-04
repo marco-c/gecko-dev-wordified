@@ -3331,7 +3331,10 @@ rval
 }
 static
 PersistentRootedValue
+*
 sScriptedInterruptCallback
+=
+nullptr
 ;
 static
 bool
@@ -3345,7 +3348,8 @@ cx
 MOZ_ASSERT
 (
 sScriptedInterruptCallback
-.
+-
+>
 initialized
 (
 )
@@ -3355,6 +3359,7 @@ RootedValue
 callback
 (
 cx
+*
 sScriptedInterruptCallback
 )
 ;
@@ -3479,7 +3484,8 @@ vp
 MOZ_ASSERT
 (
 sScriptedInterruptCallback
-.
+-
+>
 initialized
 (
 )
@@ -3559,6 +3565,7 @@ isUndefined
 )
 )
 {
+*
 sScriptedInterruptCallback
 =
 UndefinedValue
@@ -3625,6 +3632,7 @@ return
 false
 ;
 }
+*
 sScriptedInterruptCallback
 =
 args
@@ -8734,7 +8742,13 @@ to
 bother
 .
 sScriptedInterruptCallback
-.
+=
+new
+PersistentRootedValue
+;
+sScriptedInterruptCallback
+-
+>
 init
 (
 rt
