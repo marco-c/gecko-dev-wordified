@@ -6996,6 +6996,8 @@ ESClass_Date
 ESClass_Set
 ESClass_Map
 ESClass_Promise
+ESClass_MapIterator
+ESClass_SetIterator
 /
 *
 *
