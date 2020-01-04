@@ -32707,12 +32707,10 @@ drawBackgroundColor
 ;
 if
 (
-GetPresContext
-(
-)
+mPresContext
 -
 >
-IsCrossProcessRootContentDocument
+IsRootContentDocument
 (
 )
 &

@@ -1433,12 +1433,6 @@ uint32_t
 aChromeFlags
 )
 ;
-bool
-IsRootContentDocument
-(
-)
-const
-;
 /
 /
 Let
