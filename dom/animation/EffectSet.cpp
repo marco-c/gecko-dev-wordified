@@ -412,7 +412,7 @@ EffectSet
 :
 :
 PropertyDtor
-false
+true
 )
 ;
 if
