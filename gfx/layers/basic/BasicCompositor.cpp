@@ -1386,12 +1386,9 @@ true
 ;
 paint
 .
-setFilterLevel
+setFilterQuality
 (
-SkPaint
-:
-:
-kLow_FilterLevel
+kLow_SkFilterQuality
 )
 ;
 SkRect
@@ -1414,10 +1411,9 @@ height
 ;
 destCanvas
 .
-drawBitmapRectToRect
+drawBitmapRect
 (
 src
-nullptr
 destRect
 &
 paint
