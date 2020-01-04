@@ -6491,6 +6491,8 @@ SetWidgetListener
 this
 )
 ;
+rv
+=
 mInternalWidget
 -
 >
@@ -6501,6 +6503,12 @@ mParentNativeWindow
 bounds
 &
 widgetInit
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

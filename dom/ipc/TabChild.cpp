@@ -4205,7 +4205,7 @@ NS_ERROR_FAILURE
 mPuppetWidget
 -
 >
-Create
+InfallibleCreate
 (
 nullptr
 0

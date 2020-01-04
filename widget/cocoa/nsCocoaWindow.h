@@ -1396,7 +1396,9 @@ nsCocoaWindow
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSPIWIDGETCOCOA
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 Create
 (
 nsIWidget
@@ -1416,7 +1418,9 @@ nullptr
 )
 override
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 Create
 (
 nsIWidget

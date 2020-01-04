@@ -1030,6 +1030,8 @@ SetWidgetListener
 this
 )
 ;
+rv
+=
 mWindow
 -
 >
@@ -1064,6 +1066,12 @@ widgetInitData
 Widget
 initialization
 data
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 LayoutDeviceIntRect
 r
 =

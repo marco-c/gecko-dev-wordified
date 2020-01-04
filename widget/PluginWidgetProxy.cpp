@@ -295,7 +295,7 @@ n
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 PluginWidgetProxy
 :
 :

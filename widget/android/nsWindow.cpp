@@ -8451,7 +8451,7 @@ mWindowType
 eWindowType_invisible
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
