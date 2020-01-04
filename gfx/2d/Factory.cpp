@@ -2992,10 +2992,7 @@ ifdef
 WIN32
 if
 (
-DrawTargetD2D
-:
-:
-GetDWriteFactory
+GetDirect3D11Device
 (
 )
 )
