@@ -412,7 +412,7 @@ bytes
 written
 to
 stream
-NS_METHOD
+nsresult
 Seek
 (
 int32_t

@@ -2039,7 +2039,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :
@@ -2478,7 +2478,7 @@ Mozilla
 -
 -
 -
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :
@@ -3054,7 +3054,7 @@ Profiles
 -
 -
 -
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :
