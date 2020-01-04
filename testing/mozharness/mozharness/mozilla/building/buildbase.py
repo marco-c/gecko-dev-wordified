@@ -10809,6 +10809,32 @@ query_abs_dirs
 (
 )
         
+python_path
+=
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_work_dir
+'
+]
+'
+venv
+'
+'
+bin
+'
+                                   
+'
+python
+'
+)
+        
 abs_count_ctors_path
 =
 os
@@ -10872,9 +10898,7 @@ so
 cmd
 =
 [
-'
-python
-'
+python_path
 abs_count_ctors_path
 abs_libxul_path
 ]
@@ -10892,6 +10916,10 @@ dirs
 abs_src_dir
 '
 ]
+                                     
+throw_exception
+=
+True
 )
     
 def
