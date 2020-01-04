@@ -1366,6 +1366,15 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
+if
+(
+!
+prefService
+)
+{
+return
+;
+}
 bool
 boolpref
 =
