@@ -320,6 +320,16 @@ TrackInfo
 aConfig
 )
 ;
+nsresult
+GetLastError
+(
+)
+const
+{
+return
+mLastError
+;
+}
 private
 :
 /
