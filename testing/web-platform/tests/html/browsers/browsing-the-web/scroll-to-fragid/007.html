@@ -62,6 +62,15 @@ newURL
 title
 >
 <
+meta
+name
+=
+timeout
+content
+=
+long
+>
+<
 script
 src
 =
@@ -118,12 +127,6 @@ t
 =
 async_test
 (
-undefined
-{
-timeout
-:
-30000
-}
 )
 ;
 t
@@ -195,7 +198,7 @@ if
 (
 count
 <
-1000
+100
 )
 {
 location
@@ -227,7 +230,7 @@ count
 =
 =
 =
-1000
+100
 )
 {
 expected
@@ -244,7 +247,7 @@ i
 ;
 i
 <
-1000
+100
 ;
 i
 +
