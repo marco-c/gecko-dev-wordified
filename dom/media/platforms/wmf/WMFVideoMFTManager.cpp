@@ -2977,9 +2977,10 @@ true
 }
 else
 {
+DeleteOnMainThread
+(
 mDXVA2Manager
-=
-nullptr
+)
 ;
 mDXVAFailureReason
 =
