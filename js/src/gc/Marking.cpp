@@ -16129,6 +16129,7 @@ oomUnsafe
 .
 crash
 (
+ChunkSize
 "
 Failed
 to
@@ -17254,6 +17255,12 @@ oomUnsafe
 .
 crash
 (
+sizeof
+(
+HeapSlot
+)
+*
+count
 "
 Failed
 to
@@ -17576,10 +17583,17 @@ if
 !
 dstHeader
 )
+{
 oomUnsafe
 .
 crash
 (
+sizeof
+(
+HeapSlot
+)
+*
+nslots
 "
 Failed
 to
@@ -17591,6 +17605,7 @@ tenuring
 "
 )
 ;
+}
 }
 js_memcpy
 (
