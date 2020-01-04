@@ -2715,8 +2715,10 @@ SheetLoadData
 (
 )
 {
-NS_IF_RELEASE
+NS_CSS_NS_RELEASE_LIST_MEMBER
 (
+SheetLoadData
+this
 mNext
 )
 ;
