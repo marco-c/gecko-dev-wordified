@@ -323,9 +323,16 @@ click
 )
 ;
 yield
-promiseTabLoadEvent
+BrowserTestUtils
+.
+waitForContentEvent
 (
 tab
+.
+linkedBrowser
+"
+pageshow
+"
 )
 ;
 /
