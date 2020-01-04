@@ -166,12 +166,16 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 GStreamerDecoder
 (
+aOwner
 )
 ;
 }

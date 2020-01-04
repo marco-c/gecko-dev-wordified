@@ -166,6 +166,9 @@ MP3Decoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 if
@@ -184,6 +187,7 @@ return
 new
 MP3Decoder
 (
+aOwner
 )
 ;
 }

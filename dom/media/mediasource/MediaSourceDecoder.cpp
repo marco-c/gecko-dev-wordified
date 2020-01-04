@@ -352,6 +352,9 @@ MediaSourceDecoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 /

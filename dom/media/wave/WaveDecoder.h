@@ -262,6 +262,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 if
@@ -280,6 +283,7 @@ return
 new
 WaveDecoder
 (
+aOwner
 )
 ;
 }

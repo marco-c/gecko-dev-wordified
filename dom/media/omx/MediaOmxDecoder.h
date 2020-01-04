@@ -159,6 +159,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

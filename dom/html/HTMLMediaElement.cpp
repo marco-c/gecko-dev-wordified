@@ -15676,6 +15676,7 @@ aOriginal
 >
 Clone
 (
+this
 )
 ;
 if

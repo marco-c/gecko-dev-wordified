@@ -169,6 +169,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 override
 {
@@ -188,6 +191,7 @@ return
 new
 OggDecoder
 (
+aOwner
 )
 ;
 }
