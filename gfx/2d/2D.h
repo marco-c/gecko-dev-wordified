@@ -7731,7 +7731,7 @@ aType
 ;
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 static
 already_AddRefed
 <

@@ -214,6 +214,9 @@ quartz
 h
 "
 #
+ifdef
+MOZ_WIDGET_COCOA
+#
 include
 <
 ApplicationServices
@@ -222,6 +225,8 @@ ApplicationServices
 .
 h
 >
+#
+endif
 #
 endif
 #

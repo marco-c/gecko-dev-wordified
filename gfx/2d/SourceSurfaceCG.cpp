@@ -132,12 +132,17 @@ h
 for
 decltype
 #
+ifdef
+MOZ_WIDGET_COCOA
+#
 include
 "
 MacIOSurface
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1928,6 +1933,9 @@ mImage
 )
 ;
 }
+#
+ifdef
+MOZ_WIDGET_COCOA
 SourceSurfaceCGIOSurfaceContext
 :
 :
@@ -2304,6 +2312,8 @@ char
 mData
 ;
 }
+#
+endif
 }
 /
 /

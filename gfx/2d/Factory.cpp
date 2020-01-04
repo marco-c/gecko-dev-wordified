@@ -167,7 +167,7 @@ h
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 "
@@ -179,7 +179,7 @@ h
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 "
@@ -1790,7 +1790,7 @@ break
 #
 elif
 defined
-XP_MACOSX
+XP_DARWIN
 case
 BackendType
 :
@@ -2171,7 +2171,7 @@ break
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 case
 BackendType
 :
@@ -2700,7 +2700,7 @@ endif
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 case
 NativeFontType
 :
@@ -4037,7 +4037,7 @@ forget
 }
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 already_AddRefed
 <
 DrawTarget

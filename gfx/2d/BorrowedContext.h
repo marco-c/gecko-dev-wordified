@@ -790,7 +790,7 @@ mXRenderFormat
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 /
 *
 This
