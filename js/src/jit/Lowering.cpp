@@ -2527,7 +2527,7 @@ ins
 LAllocation
 callObj
 =
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -3560,7 +3560,7 @@ alloc
 )
 LCallKnown
 (
-useFixed
+useFixedAtStart
 (
 call
 -
@@ -3600,7 +3600,7 @@ alloc
 )
 LCallGeneric
 (
-useFixed
+useFixedAtStart
 (
 call
 -
@@ -3732,7 +3732,7 @@ alloc
 )
 LApplyArgsGeneric
 (
-useFixed
+useFixedAtStart
 (
 apply
 -
@@ -3742,7 +3742,7 @@ getFunction
 )
 CallTempReg3
 )
-useFixed
+useFixedAtStart
 (
 apply
 -
@@ -3752,7 +3752,7 @@ getArgc
 )
 CallTempReg0
 )
-useBoxFixed
+useBoxFixedAtStart
 (
 apply
 -
@@ -3945,7 +3945,7 @@ getElements
 )
 CallTempReg0
 )
-useBoxFixed
+useBoxFixedAtStart
 (
 apply
 -
@@ -4413,12 +4413,12 @@ alloc
 )
 LGetDynamicName
 (
-useFixed
+useFixedAtStart
 (
 envChain
 CallTempReg0
 )
-useFixed
+useFixedAtStart
 (
 name
 CallTempReg1
@@ -10522,7 +10522,7 @@ useRegisterAtStart
 (
 input
 )
-useFixed
+useFixedAtStart
 (
 power
 CallTempReg1
@@ -22971,7 +22971,7 @@ alloc
 )
 LArraySlice
 (
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -22981,7 +22981,7 @@ object
 )
 CallTempReg0
 )
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -22991,7 +22991,7 @@ begin
 )
 CallTempReg1
 )
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -28513,7 +28513,7 @@ alloc
 )
 LRest
 (
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -30472,7 +30472,7 @@ args
 i
 ]
 =
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -30513,7 +30513,7 @@ numArgs
 )
 ]
 =
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -30763,7 +30763,7 @@ tempFixed
 (
 cxReg
 )
-useFixed
+useFixedAtStart
 (
 ins
 -
@@ -30773,7 +30773,7 @@ object
 )
 objReg
 )
-useBoxFixed
+useBoxFixedAtStart
 (
 val
 tempReg1
@@ -30892,7 +30892,7 @@ tempFixed
 (
 cxReg
 )
-useFixed
+useFixedAtStart
 (
 ins
 -
