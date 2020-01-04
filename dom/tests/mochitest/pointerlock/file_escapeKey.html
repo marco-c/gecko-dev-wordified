@@ -263,14 +263,14 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 enteredFullscreen
 )
 ;
 div
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -286,7 +286,7 @@ document
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 enteredFullscreen
 )
@@ -295,7 +295,7 @@ is
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 div
 "
 Element
@@ -390,7 +390,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 leavedFullscreen
 )
@@ -489,7 +489,7 @@ document
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 leavedFullscreen
 )
@@ -514,7 +514,7 @@ ok
 !
 document
 .
-mozFullScreenElement
+fullscreenElement
 "
 Should
 have

@@ -81,7 +81,7 @@ doc
 .
 body
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -140,7 +140,7 @@ doc
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 (
 )
@@ -158,7 +158,7 @@ FullscreenChanged
 !
 doc
 .
-mozFullScreenElement
+fullscreenElement
 )
 ;
 }
@@ -913,7 +913,7 @@ ok
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 "
 The
 chrome
@@ -1063,7 +1063,7 @@ ok
 !
 document
 .
-mozFullScreenElement
+fullscreenElement
 "
 The
 chrome

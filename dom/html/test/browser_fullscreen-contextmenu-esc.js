@@ -26,7 +26,7 @@ document
 .
 body
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -40,7 +40,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 (
 )
@@ -54,11 +54,13 @@ Test
 :
 FullscreenChanged
 "
+!
+!
 content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 ;
 }
@@ -83,11 +85,13 @@ Test
 :
 FullscreenState
 "
+!
+!
 content
 .
 document
 .
-mozFullScreen
+fullscreenElement
 )
 ;
 }
@@ -478,7 +482,7 @@ ok
 (
 document
 .
-mozFullScreen
+fullscreenElement
 "
 The
 chrome
@@ -715,7 +719,7 @@ ok
 (
 document
 .
-mozFullScreen
+fullscreenElement
 "
 The
 chrome
@@ -796,7 +800,7 @@ ok
 !
 document
 .
-mozFullScreen
+fullscreenElement
 "
 The
 chrome

@@ -384,7 +384,7 @@ we
 check
 /
 /
-mozFullScreenElement
+fullscreenElement
 first
 here
 .
@@ -417,7 +417,7 @@ topWin
 .
 document
 .
-mozFullScreenElement
+fullscreenElement
 |
 |
 inNormalMode
@@ -512,7 +512,7 @@ doc
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 onFullscreenChange
 false
@@ -580,7 +580,7 @@ doc
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 onFullscreenChange
 false
@@ -633,7 +633,7 @@ doc
 removeEventListener
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 listener
 false
@@ -661,7 +661,7 @@ doc
 addEventListener
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 listener
 false

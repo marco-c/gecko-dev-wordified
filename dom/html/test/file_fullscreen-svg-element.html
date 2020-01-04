@@ -310,7 +310,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 function
 (
@@ -321,7 +321,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -334,7 +334,7 @@ true
 ;
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -370,7 +370,7 @@ false
 ;
 elem
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

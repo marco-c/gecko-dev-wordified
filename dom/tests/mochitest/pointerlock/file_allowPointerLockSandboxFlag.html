@@ -369,7 +369,7 @@ resetIframe
 {
 contentDocument
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -497,7 +497,7 @@ pointerLocked
 ;
 contentDocument
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -518,7 +518,7 @@ function
 {
 contentDocument
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -530,7 +530,7 @@ contentDocument
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 function
 (
@@ -540,14 +540,14 @@ if
 (
 contentDocument
 .
-mozFullScreen
+fullscreenElement
 )
 {
 ok
 (
 contentDocument
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -631,7 +631,7 @@ runTests
 ;
 iframeDiv
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
