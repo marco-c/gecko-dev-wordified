@@ -2190,15 +2190,6 @@ aFrameLoader
 )
 ;
 nsresult
-GetParentApplication
-(
-mozIApplication
-*
-*
-aApplication
-)
-;
-nsresult
 SetIsPrerendered
 (
 )

@@ -1063,7 +1063,6 @@ window
 nullptr
 nullptr
 manifestURL
-nullptr
 aAudioChannels
 aRv
 )
