@@ -5346,6 +5346,7 @@ UpdateServiceHelper
 .
 isUpdaterEnabled
 (
+this
 )
 )
 {
