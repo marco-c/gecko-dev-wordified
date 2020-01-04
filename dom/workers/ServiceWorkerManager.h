@@ -1922,6 +1922,14 @@ ServiceWorkerRegistrationListener
 aListener
 )
 ;
+void
+MaybeCheckNavigationUpdate
+(
+nsIDocument
+*
+aDoc
+)
+;
 private
 :
 ServiceWorkerManager
