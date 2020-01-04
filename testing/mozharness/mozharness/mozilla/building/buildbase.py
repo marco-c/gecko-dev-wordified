@@ -9845,9 +9845,13 @@ abs_tools_dir
                                          
 '
 scripts
-/
+'
+                                         
+'
 tooltool
-/
+'
+                                         
+'
 tooltool_wrapper
 .
 sh
@@ -11931,11 +11935,17 @@ abs_src_dir
                                    
 '
 taskcluster
-/
+'
+                                   
+'
 ci
-/
+'
+                                   
+'
 legacy
-/
+'
+                                   
+'
 routes
 .
 json
