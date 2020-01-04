@@ -2393,6 +2393,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+nsString
+&
+aMessageId
 )
 override
 ;
@@ -2411,6 +2415,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+nsString
+&
+aMessageId
 InfallibleTArray
 <
 uint8_t

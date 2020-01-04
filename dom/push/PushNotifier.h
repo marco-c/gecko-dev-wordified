@@ -257,6 +257,11 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -264,6 +269,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 ;
@@ -277,6 +283,11 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -284,6 +295,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 ;
@@ -316,6 +328,7 @@ const
 nsACString
 &
 aScope
+const
 Maybe
 <
 nsTArray
@@ -323,6 +336,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 ;

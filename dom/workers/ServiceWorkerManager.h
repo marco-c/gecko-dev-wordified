@@ -1920,6 +1920,11 @@ const
 nsACString
 &
 aScope
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -1927,6 +1932,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 ;
