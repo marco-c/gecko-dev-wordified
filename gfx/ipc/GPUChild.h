@@ -171,11 +171,6 @@ GPUChild
 (
 )
 ;
-void
-Init
-(
-)
-;
 static
 void
 Destroy

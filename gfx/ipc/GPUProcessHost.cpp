@@ -664,13 +664,6 @@ MOZ_ASSERT
 rv
 )
 ;
-mGPUChild
--
->
-Init
-(
-)
-;
 }
 if
 (
