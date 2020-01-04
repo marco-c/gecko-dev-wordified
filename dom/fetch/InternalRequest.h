@@ -742,8 +742,6 @@ already_AddRefed
 InternalHeaders
 >
 aHeaders
-RequestCache
-aCacheMode
 RequestMode
 aMode
 RequestRedirect
@@ -801,7 +799,10 @@ Basic
 )
 mCacheMode
 (
-aCacheMode
+RequestCache
+:
+:
+Default
 )
 mRedirectMode
 (
@@ -1688,11 +1689,6 @@ IsClientRequest
 (
 )
 const
-;
-void
-MaybeSkipCacheIfPerformingRevalidation
-(
-)
 ;
 static
 RequestMode
