@@ -2678,7 +2678,13 @@ glController
 "
 attachToJava
 "
+GeckoLayerClient
+.
+class
 mLayerClient
+NativePanZoomController
+.
+class
 npzc
 )
 ;
