@@ -526,7 +526,6 @@ click
 let
 spectrum
 =
-yield
 colorPicker
 .
 spectrum

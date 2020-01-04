@@ -402,7 +402,6 @@ rgb
 let
 spectrum
 =
-yield
 cPicker
 .
 spectrum

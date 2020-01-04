@@ -245,11 +245,6 @@ click
 )
 ;
 yield
-filterTooltip
-.
-widget
-;
-yield
 hideTooltipAndWaitForRuleViewChanged
 (
 filterTooltip
