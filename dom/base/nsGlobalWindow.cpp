@@ -17727,6 +17727,9 @@ gcreason
 :
 :
 SET_NEW_DOCUMENT
+GetWrapperPreserveColor
+(
+)
 )
 ;
 mContext
@@ -18968,6 +18971,9 @@ gcreason
 :
 :
 SET_DOC_SHELL
+GetWrapperPreserveColor
+(
+)
 )
 ;
 mContext
