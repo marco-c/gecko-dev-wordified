@@ -823,10 +823,8 @@ loading
 =
 false
 ;
-/
-/
-no
-break
+MOZ_FALLTHROUGH
+;
 case
 nssShutdown
 :

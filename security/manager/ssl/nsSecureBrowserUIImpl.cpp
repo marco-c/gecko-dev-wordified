@@ -7481,7 +7481,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 if
