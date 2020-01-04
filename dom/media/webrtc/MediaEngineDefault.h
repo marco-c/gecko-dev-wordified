@@ -697,6 +697,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -715,6 +717,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )

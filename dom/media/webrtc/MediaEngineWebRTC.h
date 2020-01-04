@@ -657,6 +657,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -675,6 +677,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2232,6 +2236,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2245,6 +2251,7 @@ NotifyOutputData
 aGraph
 aBuffer
 aFrames
+aRate
 aChannels
 )
 ;
@@ -2262,6 +2269,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2275,6 +2284,7 @@ NotifyInputData
 aGraph
 aBuffer
 aFrames
+aRate
 aChannels
 )
 ;
@@ -2603,6 +2613,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2620,6 +2632,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )

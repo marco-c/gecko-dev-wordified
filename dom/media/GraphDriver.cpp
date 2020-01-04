@@ -5664,6 +5664,7 @@ size_t
 (
 aFrames
 )
+mSampleRate
 ChannelCount
 )
 ;
@@ -5724,6 +5725,7 @@ size_t
 (
 aFrames
 )
+mSampleRate
 ChannelCount
 )
 ;

@@ -2526,6 +2526,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2553,6 +2555,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -2593,9 +2597,9 @@ PacketSize
 )
 !
 =
-mSampleFrequency
+aRate
 /
-100
+100u
 |
 |
 mPacketizer
@@ -2634,7 +2638,7 @@ AudioDataValue
 int16_t
 >
 (
-mSampleFrequency
+aRate
 /
 100
 aChannels
@@ -2701,7 +2705,7 @@ ExternalRecordingInsertData
 (
 packet
 samplesPerPacket
-mSampleFrequency
+aRate
 0
 )
 ;
