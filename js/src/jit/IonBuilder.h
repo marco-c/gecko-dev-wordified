@@ -6245,14 +6245,6 @@ CallInfo
 callInfo
 )
 ;
-InliningStatus
-inlineObjectHasPrototype
-(
-CallInfo
-&
-callInfo
-)
-;
 /
 /
 Testing
