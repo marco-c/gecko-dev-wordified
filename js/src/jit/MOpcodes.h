@@ -724,11 +724,6 @@ NewTypedArray
 \
 _
 (
-NewTypedArrayDynamicLength
-)
-\
-_
-(
 NewObject
 )
 \
