@@ -948,6 +948,17 @@ DissociateActor
 (
 )
 ;
+static
+void
+EnableSameExecutableForContentProc
+(
+)
+{
+sRunSelfAsContentProc
+=
+true
+;
+}
 protected
 :
 GeckoProcessType
@@ -1261,6 +1272,8 @@ GetPathToBinary
 FilePath
 &
 exePath
+GeckoProcessType
+processType
 )
 ;
 /
@@ -1484,6 +1497,10 @@ mRestoreOrigMozLogName
 static
 uint32_t
 sNextUniqueID
+;
+static
+bool
+sRunSelfAsContentProc
 ;
 }
 ;

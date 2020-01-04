@@ -2883,6 +2883,13 @@ endif
 MOZ_B2G_LOADER
 XRE_API
 (
+void
+XRE_EnableSameExecutableForContentProc
+(
+)
+)
+XRE_API
+(
 int
 XRE_XPCShellMain
 (
