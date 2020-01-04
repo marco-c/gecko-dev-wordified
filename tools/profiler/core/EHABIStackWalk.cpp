@@ -3344,7 +3344,7 @@ startPC
 <
 rhs
 .
-endPC
+startPC
 (
 )
 ;
