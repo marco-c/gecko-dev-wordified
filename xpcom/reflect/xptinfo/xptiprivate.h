@@ -2299,12 +2299,6 @@ XPTInterfaceDescriptor
 *
 mDescriptor
 ;
-uint16_t
-mMethodBaseIndex
-;
-uint16_t
-mConstantBaseIndex
-;
 xptiTypelibGuts
 *
 mTypelib
@@ -2351,6 +2345,12 @@ come
 and
 go
 .
+uint16_t
+mMethodBaseIndex
+;
+uint16_t
+mConstantBaseIndex
+;
 xptiInfoFlags
 mFlags
 ;
