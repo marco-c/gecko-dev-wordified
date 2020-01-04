@@ -511,7 +511,7 @@ install_manifest_depends
 '
                 
 '
-MOZ_CHROME_FILE_FORMAT
+MOZ_JAR_MAKER_FILE_FORMAT
 =
 flat
 '
@@ -683,7 +683,7 @@ install_manifest_depends
 '
                 
 '
-MOZ_CHROME_FILE_FORMAT
+MOZ_JAR_MAKER_FILE_FORMAT
 =
 flat
 '
