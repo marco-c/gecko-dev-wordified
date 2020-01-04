@@ -62,6 +62,15 @@ types
 h
 "
 #
+include
+"
+.
+/
+port
+.
+h
+"
+#
 if
 defined
 (
@@ -227,6 +236,7 @@ order
 .
 *
 /
+BROTLI_INTERNAL
 void
 BrotliBuildCodeLengthsHuffmanTable
 (
@@ -269,6 +279,7 @@ table
 .
 *
 /
+BROTLI_INTERNAL
 uint32_t
 BrotliBuildHuffmanTable
 (
@@ -352,6 +363,7 @@ lengths
 .
 *
 /
+BROTLI_INTERNAL
 uint32_t
 BrotliBuildSimpleHuffmanTable
 (

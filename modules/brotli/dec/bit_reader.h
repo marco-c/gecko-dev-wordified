@@ -310,6 +310,7 @@ fields
 .
 *
 /
+BROTLI_INTERNAL
 void
 BrotliInitBitReader
 (
@@ -349,7 +350,7 @@ input
 available
 .
 For
-BROTLI_BUILD_PORTABLE
+BROTLI_ALIGNED_READ
 this
 function
 also
@@ -362,6 +363,7 @@ reading
 .
 *
 /
+BROTLI_INTERNAL
 int
 BrotliWarmupBitReader
 (
@@ -2294,10 +2296,8 @@ BitMask
 n_bits
 )
 ;
-#
-ifdef
-BROTLI_DECODE_DEBUG
-printf
+BROTLI_LOG
+(
 (
 "
 [
@@ -2337,9 +2337,8 @@ int
 *
 val
 )
+)
 ;
-#
-endif
 BrotliDropBits
 (
 br
