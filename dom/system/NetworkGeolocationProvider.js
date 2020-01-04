@@ -2461,9 +2461,12 @@ ssid
 result
 )
 ;
+return
+false
+;
 }
 return
-result
+true
 ;
 }
 ;
