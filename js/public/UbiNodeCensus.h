@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -835,6 +844,7 @@ newCount
 method
 .
 virtual
+MOZ_MUST_USE
 bool
 count
 (
@@ -879,6 +889,7 @@ newCount
 method
 .
 virtual
+MOZ_MUST_USE
 bool
 report
 (
@@ -1023,6 +1034,7 @@ count
 s
 type
 .
+MOZ_MUST_USE
 bool
 count
 (
@@ -1147,6 +1159,7 @@ on
 /
 failure
 .
+MOZ_MUST_USE
 bool
 report
 (
@@ -1475,6 +1488,7 @@ nullptr
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -1552,6 +1566,7 @@ mallocSizeOf
 )
 {
 }
+MOZ_MUST_USE
 bool
 report
 (
@@ -1591,6 +1606,7 @@ NodeData
 {
 }
 ;
+MOZ_MUST_USE
 bool
 operator
 (
@@ -1652,6 +1668,7 @@ a
 CountType
 tree
 .
+MOZ_MUST_USE
 bool
 ParseCensusOptions
 (
