@@ -191,6 +191,12 @@ Snapshot
 )
 ;
 virtual
+void
+DetachAllSnapshots
+(
+)
+;
+virtual
 IntSize
 GetSize
 (
