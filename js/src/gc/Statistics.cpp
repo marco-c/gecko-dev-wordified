@@ -7702,6 +7702,9 @@ resumePhases
 (
 )
 {
+#
+ifdef
+DEBUG
 Phase
 popped
 =
@@ -7726,6 +7729,8 @@ popped
 PHASE_IMPLICIT_SUSPENSION
 )
 ;
+#
+endif
 while
 (
 suspended
