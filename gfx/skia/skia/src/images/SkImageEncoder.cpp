@@ -224,7 +224,11 @@ quality
 return
 stream
 .
-copyToData
+detachAsData
+(
+)
+.
+release
 (
 )
 ;

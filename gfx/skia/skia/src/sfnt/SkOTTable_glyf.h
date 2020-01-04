@@ -68,13 +68,6 @@ SkOTTable_loca
 h
 "
 #
-include
-"
-SkTypedEnum
-.
-h
-"
-#
 pragma
 pack
 (

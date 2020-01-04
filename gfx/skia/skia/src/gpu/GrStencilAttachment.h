@@ -42,14 +42,14 @@ GrStencilAttachment_DEFINED
 #
 include
 "
-GrClip
+GrGpuResource
 .
 h
 "
 #
 include
 "
-GrGpuResource
+SkClipStack
 .
 h
 "
@@ -152,7 +152,7 @@ SkIRect
 clipSpaceRect
 const
 SkIPoint
-clipSpaceToStencilOffset
+clipOrigin
 )
 {
 fLastClipStackGenID
@@ -163,9 +163,9 @@ fLastClipStackRect
 =
 clipSpaceRect
 ;
-fLastClipSpaceOffset
+fLastClipOrigin
 =
-clipSpaceToStencilOffset
+clipOrigin
 ;
 }
 /
@@ -194,7 +194,8 @@ SkIRect
 clipSpaceRect
 const
 SkIPoint
-clipSpaceToStencilOffset
+&
+clipOrigin
 )
 const
 {
@@ -205,10 +206,10 @@ fLastClipStackGenID
 clipStackGenID
 |
 |
-fLastClipSpaceOffset
+fLastClipOrigin
 !
 =
-clipSpaceToStencilOffset
+clipOrigin
 |
 |
 !
@@ -273,8 +274,6 @@ GrStencilAttachment
 GrGpu
 *
 gpu
-LifeCycle
-lifeCycle
 int
 width
 int
@@ -288,7 +287,6 @@ sampleCnt
 GrGpuResource
 (
 gpu
-lifeCycle
 )
 fWidth
 (
@@ -342,7 +340,7 @@ SkIRect
 fLastClipStackRect
 ;
 SkIPoint
-fLastClipSpaceOffset
+fLastClipOrigin
 ;
 typedef
 GrGpuResource

@@ -70,14 +70,8 @@ SkFlattenable
 flattenable
 )
 {
-SkWriteBuffer
+SkBinaryWriteBuffer
 writer
-(
-SkWriteBuffer
-:
-:
-kValidation_Flag
-)
 ;
 writer
 .

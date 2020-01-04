@@ -118,15 +118,6 @@ endif
 /
 /
 SK_ANGLE
-#
-if
-SK_COMMAND_BUFFER
-kCommandBuffer_BackEndType
-#
-endif
-/
-/
-SK_COMMAND_BUFFER
 }
 ;
 void
@@ -141,6 +132,8 @@ SkBackEndTypes
 attachType
 int
 msaaSampleCount
+bool
+deepColor
 AttachmentInfo
 *
 )

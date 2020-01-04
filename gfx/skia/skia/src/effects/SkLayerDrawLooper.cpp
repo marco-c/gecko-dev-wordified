@@ -693,15 +693,12 @@ kXfermode_Bit
 dst
 -
 >
-setXfermode
-(
-sk_ref_sp
+setBlendMode
 (
 src
 .
-getXfermode
+getBlendMode
 (
-)
 )
 )
 ;

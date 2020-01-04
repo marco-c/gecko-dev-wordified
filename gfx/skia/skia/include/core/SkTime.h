@@ -73,6 +73,7 @@ counter
 *
 /
 class
+SK_API
 SkTime
 {
 public

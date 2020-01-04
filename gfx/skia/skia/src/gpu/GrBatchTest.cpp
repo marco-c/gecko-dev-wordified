@@ -89,6 +89,11 @@ AAStrokeRectBatch
 ;
 DRAW_BATCH_TEST_EXTERN
 (
+AnalyticRectBatch
+)
+;
+DRAW_BATCH_TEST_EXTERN
+(
 DashBatch
 )
 ;
@@ -172,6 +177,10 @@ AAHairlineBatch
 DRAW_BATCH_TEST_ENTRY
 (
 AAStrokeRectBatch
+)
+DRAW_BATCH_TEST_ENTRY
+(
+AnalyticRectBatch
 )
 DRAW_BATCH_TEST_ENTRY
 (

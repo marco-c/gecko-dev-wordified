@@ -141,10 +141,11 @@ kPMConversionCnt
 }
 ;
 static
-const
+sk_sp
+<
 GrFragmentProcessor
-*
-Create
+>
+Make
 (
 GrTexture
 *

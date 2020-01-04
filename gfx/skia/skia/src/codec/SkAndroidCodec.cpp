@@ -186,7 +186,7 @@ getEncodedFormat
 {
 #
 ifdef
-SK_CODEC_DECODES_PNG
+SK_HAS_PNG_LIBRARY
 case
 kPNG_SkEncodedFormat
 :
@@ -197,7 +197,7 @@ kICO_SkEncodedFormat
 endif
 #
 ifdef
-SK_CODEC_DECODES_JPEG
+SK_HAS_JPEG_LIBRARY
 case
 kJPEG_SkEncodedFormat
 :
@@ -205,7 +205,7 @@ kJPEG_SkEncodedFormat
 endif
 #
 ifdef
-SK_CODEC_DECODES_GIF
+SK_HAS_GIF_LIBRARY
 case
 kGIF_SkEncodedFormat
 :
@@ -230,7 +230,7 @@ release
 ;
 #
 ifdef
-SK_CODEC_DECODES_WEBP
+SK_HAS_WEBP_LIBRARY
 case
 kWEBP_SkEncodedFormat
 :
@@ -288,8 +288,10 @@ SkAndroidCodec
 :
 NewFromData
 (
+sk_sp
+<
 SkData
-*
+>
 data
 SkPngChunkReader
 *

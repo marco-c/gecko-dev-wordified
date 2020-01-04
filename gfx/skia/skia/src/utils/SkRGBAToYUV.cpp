@@ -478,12 +478,12 @@ kLow_SkFilterQuality
 ;
 paint
 .
-setXfermodeMode
+setBlendMode
 (
-SkXfermode
+SkBlendMode
 :
 :
-kSrc_Mode
+kSrc
 )
 ;
 int

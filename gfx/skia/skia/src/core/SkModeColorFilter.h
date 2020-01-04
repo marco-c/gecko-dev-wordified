@@ -231,9 +231,10 @@ endif
 #
 if
 SK_SUPPORT_GPU
-const
+sk_sp
+<
 GrFragmentProcessor
-*
+>
 asFragmentProcessor
 (
 GrContext
@@ -277,7 +278,6 @@ updateCache
 )
 ;
 }
-;
 void
 flatten
 (

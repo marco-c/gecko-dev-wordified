@@ -324,7 +324,7 @@ g
 *
 /
 static
-inline
+constexpr
 uint32_t
 SkEndianSwap32
 (

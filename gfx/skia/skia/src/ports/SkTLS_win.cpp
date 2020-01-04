@@ -49,7 +49,7 @@ SK_BUILD_FOR_WIN32
 #
 include
 "
-SkTLS
+SkLeanWindows
 .
 h
 "
@@ -57,6 +57,13 @@ h
 include
 "
 SkMutex
+.
+h
+"
+#
+include
+"
+SkTLS
 .
 h
 "

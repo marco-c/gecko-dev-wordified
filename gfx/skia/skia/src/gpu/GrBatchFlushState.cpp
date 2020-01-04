@@ -75,6 +75,10 @@ fResourceProvider
 (
 resourceProvider
 )
+fCommandBuffer
+(
+nullptr
+)
 fVertexPool
 (
 gpu

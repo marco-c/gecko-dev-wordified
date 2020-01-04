@@ -55,7 +55,7 @@ class
 GrRenderTarget
 ;
 class
-GrStrokeInfo
+GrStyle
 ;
 struct
 SkIRect
@@ -200,10 +200,7 @@ const
 SkMaskFilter
 *
 const
-SkPathEffect
-*
-const
-GrStrokeInfo
+GrStyle
 &
 bool
 pathIsMutable

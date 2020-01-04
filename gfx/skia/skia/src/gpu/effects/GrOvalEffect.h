@@ -53,6 +53,13 @@ GrTypesPriv
 .
 h
 "
+#
+include
+"
+SkRefCnt
+.
+h
+"
 class
 GrFragmentProcessor
 ;
@@ -78,9 +85,11 @@ oval
 .
 *
 /
+sk_sp
+<
 GrFragmentProcessor
-*
-Create
+>
+Make
 (
 GrPrimitiveEdgeType
 const

@@ -87,9 +87,11 @@ Mode
 mode
 )
 ;
+sk_sp
+<
 GrXPFactory
-*
-CreateXPFactory
+>
+MakeXPFactory
 (
 SkXfermode
 :

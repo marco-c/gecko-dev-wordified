@@ -326,7 +326,6 @@ QuadUVMatrix
 )
 {
 }
-;
 /
 /
 Initialize

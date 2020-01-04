@@ -322,7 +322,7 @@ IWICBitmapSource
 >
 fImageSource
 ;
-SkAutoTUnref
+sk_sp
 <
 SkData
 >
