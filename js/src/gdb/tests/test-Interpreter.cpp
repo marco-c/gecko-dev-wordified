@@ -465,7 +465,10 @@ ScriptFrameIter
 Data
 *
 )
+uintptr_t
+(
 0xdeeb0
+)
 )
 ;
 js
@@ -484,7 +487,10 @@ js
 InterpreterFrame
 *
 )
+uintptr_t
+(
 0x8badf00
+)
 )
 ;
 js
@@ -506,7 +512,10 @@ jit
 BaselineFrame
 *
 )
+uintptr_t
+(
 0xbadcafe0
+)
 )
 ;
 js
@@ -528,7 +537,10 @@ jit
 RematerializedFrame
 *
 )
+uintptr_t
+(
 0xdabbad00
+)
 )
 ;
 breakpoint

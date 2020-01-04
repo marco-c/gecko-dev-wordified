@@ -936,7 +936,7 @@ ifndef
 JS_CODEGEN_NONE
 for
 (
-unsigned
+uintptr_t
 i
 =
 0
@@ -973,7 +973,7 @@ i
 ;
 for
 (
-unsigned
+uintptr_t
 i
 =
 0
