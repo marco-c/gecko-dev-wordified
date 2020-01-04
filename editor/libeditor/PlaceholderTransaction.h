@@ -340,9 +340,9 @@ aName
 SelectionState
 *
 aSelState
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 override
 ;
@@ -542,9 +542,9 @@ for
 this
 transaction
 .
-nsEditor
+EditorBase
 *
-mEditor
+mEditorBase
 ;
 }
 ;

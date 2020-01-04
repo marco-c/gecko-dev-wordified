@@ -122,7 +122,9 @@ NS_IEDITRULES_IID
 #
 include
 "
-nsEditor
+mozilla
+/
+EditorBase
 .
 h
 "

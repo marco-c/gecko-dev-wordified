@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -407,7 +400,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -451,7 +444,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType

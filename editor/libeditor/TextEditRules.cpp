@@ -246,13 +246,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -2527,7 +2520,7 @@ nsIDOMNode
 >
 parentNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -2640,7 +2633,7 @@ GetTextNode
 Selection
 *
 selection
-nsEditor
+EditorBase
 *
 editor
 )

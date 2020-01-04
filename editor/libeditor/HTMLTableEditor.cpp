@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -11157,7 +11150,7 @@ nsIAtom
 >
 atom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -11219,7 +11212,7 @@ sourceCell
 newCellType
 nullptr
 nullptr
-nsEditor
+EditorBase
 :
 :
 eCloneAttributes
@@ -18341,7 +18334,7 @@ nsIAtom
 >
 atom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag

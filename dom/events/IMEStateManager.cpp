@@ -5460,7 +5460,7 @@ UpdateIMEState
 /
 /
 from
-nsEditor
+EditorBase
 :
 :
 PostCreate
@@ -5472,9 +5472,9 @@ GetDesiredIMEState
 )
 needs
 to
+/
+/
 retrieve
-/
-/
 an
 editor
 instance

@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsIEditActionListener
 .
 h

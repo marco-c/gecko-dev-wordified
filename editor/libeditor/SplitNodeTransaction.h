@@ -152,9 +152,6 @@ h
 for
 NS_IMETHOD
 class
-nsEditor
-;
-class
 nsIContent
 ;
 class
@@ -163,6 +160,9 @@ nsINode
 namespace
 mozilla
 {
+class
+EditorBase
+;
 /
 *
 *
@@ -203,7 +203,7 @@ public
 *
 *
 param
-aEditor
+aEditorBase
 The
 provider
 of
@@ -243,8 +243,8 @@ of
 aNode
 .
 The
-left
 *
+left
 node
 will
 have
@@ -262,9 +262,9 @@ aOffset
 /
 SplitNodeTransaction
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 nsIContent
 &
 aNode
@@ -299,9 +299,9 @@ SplitNodeTransaction
 (
 )
 ;
-nsEditor
+EditorBase
 &
-mEditor
+mEditorBase
 ;
 /
 /

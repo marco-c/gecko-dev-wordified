@@ -137,6 +137,20 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+/
+/
+for
+EditorBase
+etc
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -269,18 +283,6 @@ h
 /
 for
 NS_ENSURE_TRUE
-etc
-#
-include
-"
-nsEditor
-.
-h
-"
-/
-/
-for
-nsEditor
 etc
 #
 include
@@ -480,7 +482,7 @@ h
 /
 /
 for
-nsEditor
+EditorBase
 :
 :
 GetSelection
@@ -882,7 +884,7 @@ EditorEventListener
 (
 )
 :
-mEditor
+mEditorBase
 (
 nullptr
 )
@@ -927,7 +929,7 @@ EditorEventListener
 {
 if
 (
-mEditor
+mEditorBase
 )
 {
 NS_WARNING
@@ -953,14 +955,14 @@ EditorEventListener
 :
 Connect
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 {
 NS_ENSURE_ARG
 (
-aEditor
+aEditorBase
 )
 ;
 #
@@ -1003,9 +1005,9 @@ haveBidiKeyboards
 }
 #
 endif
-mEditor
+mEditorBase
 =
-aEditor
+aEditorBase
 ;
 nsresult
 rv
@@ -1041,13 +1043,13 @@ InstallToEditor
 {
 NS_PRECONDITION
 (
-mEditor
+mEditorBase
 "
 The
 caller
 must
 set
-mEditor
+mEditorBase
 "
 )
 ;
@@ -1057,7 +1059,7 @@ EventTarget
 >
 piTarget
 =
-mEditor
+mEditorBase
 -
 >
 GetDOMEventTarget
@@ -1474,7 +1476,7 @@ Disconnect
 if
 (
 !
-mEditor
+mEditorBase
 )
 {
 return
@@ -1538,7 +1540,7 @@ Element
 *
 root
 =
-mEditor
+mEditorBase
 -
 >
 GetRoot
@@ -1576,14 +1578,14 @@ state
 /
 /
 that
-nsEditor
+EditorBase
 :
 :
 InitializeSelection
 set
 up
 .
-mEditor
+mEditorBase
 -
 >
 FinalizeSelection
@@ -1592,7 +1594,7 @@ FinalizeSelection
 ;
 }
 }
-mEditor
+mEditorBase
 =
 nullptr
 ;
@@ -1611,7 +1613,7 @@ EventTarget
 >
 piTarget
 =
-mEditor
+mEditorBase
 -
 >
 GetDOMEventTarget
@@ -1921,7 +1923,7 @@ GetPresShell
 {
 NS_PRECONDITION
 (
-mEditor
+mEditorBase
 "
 The
 caller
@@ -1938,7 +1940,7 @@ editor
 )
 ;
 return
-mEditor
+mEditorBase
 -
 >
 GetPresShell
@@ -1989,7 +1991,7 @@ GetFocusedRootContent
 {
 NS_ENSURE_TRUE
 (
-mEditor
+mEditorBase
 nullptr
 )
 ;
@@ -1999,7 +2001,7 @@ nsIContent
 >
 focusedContent
 =
-mEditor
+mEditorBase
 -
 >
 GetFocusedContent
@@ -2062,7 +2064,7 @@ EditorHasFocus
 {
 NS_PRECONDITION
 (
-mEditor
+mEditorBase
 "
 The
 caller
@@ -2084,7 +2086,7 @@ nsIContent
 >
 focusedContent
 =
-mEditor
+mEditorBase
 -
 >
 GetFocusedContent
@@ -2136,7 +2138,7 @@ aEvent
 {
 NS_ENSURE_TRUE
 (
-mEditor
+mEditorBase
 NS_ERROR_FAILURE
 )
 ;
@@ -2146,7 +2148,7 @@ nsIEditor
 >
 kungFuDeathGrip
 =
-mEditor
+mEditorBase
 ;
 WidgetEvent
 *
@@ -3478,7 +3480,7 @@ DOM_VK_CONTROL
 mShouldSwitchTextDirection
 &
 &
-mEditor
+mEditorBase
 -
 >
 IsPlaintextEditor
@@ -3486,7 +3488,7 @@ IsPlaintextEditor
 )
 )
 {
-mEditor
+mEditorBase
 -
 >
 SwitchTextDirectionTo
@@ -3644,7 +3646,7 @@ NS_OK
 if
 (
 !
-mEditor
+mEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -3755,7 +3757,7 @@ NS_OK
 nsresult
 rv
 =
-mEditor
+mEditorBase
 -
 >
 HandleKeyPressEvent
@@ -3938,7 +3940,7 @@ nsIDocument
 >
 doc
 =
-mEditor
+mEditorBase
 -
 >
 GetDocument
@@ -4017,7 +4019,7 @@ editor
 .
 if
 (
-mEditor
+mEditorBase
 -
 >
 IsReadonly
@@ -4025,7 +4027,7 @@ IsReadonly
 )
 |
 |
-mEditor
+mEditorBase
 -
 >
 IsDisabled
@@ -4034,7 +4036,7 @@ IsDisabled
 |
 |
 !
-mEditor
+mEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -4185,7 +4187,7 @@ change
 the
 cursor
 position
-mEditor
+mEditorBase
 -
 >
 ForceCompositionEnd
@@ -4338,7 +4340,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 -
 >
 GetSelection
@@ -4424,7 +4426,7 @@ mailEditor
 =
 do_QueryObject
 (
-mEditor
+mEditorBase
 )
 ;
 }
@@ -4520,7 +4522,7 @@ clipboard
 }
 else
 {
-mEditor
+mEditorBase
 -
 >
 Paste
@@ -4715,7 +4717,7 @@ for
 committing
 composition
 .
-mEditor
+mEditorBase
 -
 >
 ForceCompositionEnd
@@ -4740,7 +4742,7 @@ aTextEvent
 if
 (
 !
-mEditor
+mEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -4767,7 +4769,7 @@ nothing
 .
 if
 (
-mEditor
+mEditorBase
 -
 >
 IsReadonly
@@ -4775,7 +4777,7 @@ IsReadonly
 )
 |
 |
-mEditor
+mEditorBase
 -
 >
 IsDisabled
@@ -4788,7 +4790,7 @@ NS_OK
 ;
 }
 return
-mEditor
+mEditorBase
 -
 >
 UpdateIMEComposition
@@ -5368,7 +5370,7 @@ only
 if
 (
 (
-mEditor
+mEditorBase
 -
 >
 IsReadonly
@@ -5376,7 +5378,7 @@ IsReadonly
 )
 |
 |
-mEditor
+mEditorBase
 -
 >
 IsDisabled
@@ -5491,7 +5493,7 @@ PreventDefault
 )
 ;
 return
-mEditor
+mEditorBase
 -
 >
 InsertFromDrop
@@ -5533,7 +5535,7 @@ t
 drop
 if
 (
-mEditor
+mEditorBase
 -
 >
 IsReadonly
@@ -5541,7 +5543,7 @@ IsReadonly
 )
 |
 |
-mEditor
+mEditorBase
 -
 >
 IsDisabled
@@ -5670,7 +5672,7 @@ kMozTextInternal
 &
 &
 (
-mEditor
+mEditorBase
 -
 >
 IsPlaintextEditor
@@ -5811,7 +5813,7 @@ nsIDOMDocument
 >
 domdoc
 =
-mEditor
+mEditorBase
 -
 >
 GetDOMDocument
@@ -5943,7 +5945,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 -
 >
 GetSelection
@@ -6170,7 +6172,7 @@ aCompositionEvent
 if
 (
 !
-mEditor
+mEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -6200,7 +6202,7 @@ AsCompositionEvent
 )
 ;
 return
-mEditor
+mEditorBase
 -
 >
 BeginIMEComposition
@@ -6223,7 +6225,7 @@ aCompositionEvent
 if
 (
 !
-mEditor
+mEditorBase
 -
 >
 IsAcceptableInputEvent
@@ -6235,7 +6237,7 @@ aCompositionEvent
 return
 ;
 }
-mEditor
+mEditorBase
 -
 >
 EndIMEComposition
@@ -6278,7 +6280,7 @@ disabled
 .
 if
 (
-mEditor
+mEditorBase
 -
 >
 IsDisabled
@@ -6311,7 +6313,7 @@ SpellCheckIfNeeded
 if
 (
 !
-mEditor
+mEditorBase
 )
 {
 /
@@ -6541,7 +6543,7 @@ nsIContent
 >
 editableRoot
 =
-mEditor
+mEditorBase
 -
 >
 FindSelectionRoot
@@ -6628,7 +6630,7 @@ NS_OK
 }
 }
 }
-mEditor
+mEditorBase
 -
 >
 OnFocus
@@ -6658,7 +6660,7 @@ nsIContent
 >
 focusedContent
 =
-mEditor
+mEditorBase
 -
 >
 GetFocusedContentForIME
@@ -6677,7 +6679,7 @@ GetPresContext
 (
 )
 focusedContent
-mEditor
+mEditorBase
 )
 ;
 return
@@ -6765,7 +6767,7 @@ if
 element
 )
 {
-mEditor
+mEditorBase
 -
 >
 FinalizeSelection
@@ -6817,7 +6819,7 @@ currentFlags
 =
 0
 ;
-mEditor
+mEditorBase
 -
 >
 GetFlags
@@ -6844,7 +6846,7 @@ nsIPlaintextEditor
 :
 eEditorSkipSpellCheck
 ;
-mEditor
+mEditorBase
 -
 >
 SetFlags
@@ -6862,14 +6864,11 @@ IsFileControlTextBox
 (
 )
 {
-dom
-:
-:
 Element
 *
 root
 =
-mEditor
+mEditorBase
 -
 >
 GetRoot
@@ -7095,7 +7094,7 @@ nsIEditor
 *
 >
 (
-mEditor
+mEditorBase
 )
 )
 ;
@@ -7115,7 +7114,7 @@ nsIDocument
 >
 doc
 =
-mEditor
+mEditorBase
 -
 >
 GetDocument

@@ -128,9 +128,6 @@ nsISupportsImpl
 h
 "
 class
-nsEditor
-;
-class
 nsIAtom
 ;
 class
@@ -160,6 +157,9 @@ tree
 namespace
 mozilla
 {
+class
+EditorBase
+;
 namespace
 dom
 {
@@ -190,7 +190,7 @@ transaction
 .
 *
 param
-aEditor
+aEditorBase
 The
 provider
 of
@@ -261,9 +261,9 @@ child
 /
 CreateElementTransaction
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 nsIAtom
 &
 aTag
@@ -319,9 +319,9 @@ will
 be
 inserted
 .
-nsEditor
+EditorBase
 *
-mEditor
+mEditorBase
 ;
 /
 /

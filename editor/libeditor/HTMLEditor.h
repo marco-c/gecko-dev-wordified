@@ -621,7 +621,7 @@ aNode
 override
 ;
 using
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -1381,7 +1381,7 @@ Block
 methods
 moved
 from
-nsEditor
+EditorBase
 static
 Element
 *
@@ -1470,7 +1470,7 @@ outOffset
 /
 Overrides
 of
-nsEditor
+EditorBase
 interface
 methods
 nsresult
@@ -1552,7 +1552,7 @@ HTMLEditor
 )
 ;
 using
-nsEditor
+EditorBase
 :
 :
 IsBlockNode

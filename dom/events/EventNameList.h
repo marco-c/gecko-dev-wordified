@@ -2125,7 +2125,7 @@ modifying
 composition
 string
 in
-nsEditor
+EditorBase
 .
 /
 /

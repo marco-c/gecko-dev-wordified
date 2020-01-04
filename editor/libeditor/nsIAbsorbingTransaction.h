@@ -158,6 +158,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 SelectionState
 ;
 }
@@ -212,9 +215,12 @@ mozilla
 SelectionState
 *
 aSelState
-nsEditor
+mozilla
+:
+:
+EditorBase
 *
-aEditor
+aEditorBase
 )
 =
 0

@@ -295,13 +295,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -7643,7 +7636,7 @@ nsIAtom
 >
 atom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -19655,7 +19648,7 @@ nsINode
 >
 parent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -20548,7 +20541,7 @@ offset
 ;
 curParent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -21058,7 +21051,7 @@ nsINode
 >
 parent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -34993,7 +34986,7 @@ child
 {
 newEndNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -35089,7 +35082,7 @@ child
 {
 newEndNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -35159,7 +35152,7 @@ it
 .
 newEndNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -35348,7 +35341,7 @@ child
 {
 newStartNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -35433,7 +35426,7 @@ child
 {
 newStartNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -35493,7 +35486,7 @@ it
 .
 newStartNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -37999,7 +37992,7 @@ mHTMLEditor
 >
 IsDescendantOfEditorRoot
 (
-nsEditor
+EditorBase
 :
 :
 GetNodeAtRangeOffsetPoint
@@ -38016,7 +38009,7 @@ mHTMLEditor
 >
 IsDescendantOfEditorRoot
 (
-nsEditor
+EditorBase
 :
 :
 GetNodeAtRangeOffsetPoint
@@ -40772,7 +40765,7 @@ AsContent
 item
 .
 endOffset
-nsEditor
+EditorBase
 :
 :
 EmptyContainers
@@ -40867,7 +40860,7 @@ AsContent
 item
 .
 startOffset
-nsEditor
+EditorBase
 :
 :
 EmptyContainers
@@ -42650,7 +42643,7 @@ nsINode
 >
 parent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -43730,7 +43723,7 @@ nsIDOMNode
 >
 parent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -46307,7 +46300,7 @@ AsElement
 aBlockTag
 nullptr
 nullptr
-nsEditor
+EditorBase
 :
 :
 eCloneAttributes
@@ -49182,7 +49175,7 @@ tmp
 {
 res
 =
-nsEditor
+EditorBase
 :
 :
 GetLengthOfDOMNode
@@ -49202,7 +49195,7 @@ else
 {
 tmp
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -49313,7 +49306,7 @@ tmp
 {
 tmp
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -49813,7 +49806,7 @@ to
 be
 selNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -50355,7 +50348,7 @@ nsIDOMNode
 >
 brParent
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -50531,7 +50524,7 @@ nearNode
 )
 |
 |
-nsEditor
+EditorBase
 :
 :
 IsTextNode
@@ -50610,7 +50603,7 @@ nearNode
 )
 |
 |
-nsEditor
+EditorBase
 :
 :
 IsTextNode
@@ -50793,7 +50786,7 @@ image
 {
 selNode
 =
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -54735,7 +54728,7 @@ point
 nsresult
 res
 =
-nsEditor
+EditorBase
 :
 :
 GetLengthOfDOMNode
@@ -55469,7 +55462,7 @@ res
 ;
 if
 (
-nsEditor
+EditorBase
 :
 :
 NodeIsType

@@ -164,9 +164,6 @@ h
 NS_IMETHOD
 nsAString
 class
-nsEditor
-;
-class
 nsITransaction
 ;
 #
@@ -192,6 +189,9 @@ NS_INSERTTEXTTXN_IID
 namespace
 mozilla
 {
+class
+EditorBase
+;
 namespace
 dom
 {
@@ -291,9 +291,9 @@ const
 nsAString
 &
 aString
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -428,9 +428,9 @@ get
 the
 selection
 .
-nsEditor
+EditorBase
 &
-mEditor
+mEditorBase
 ;
 }
 ;

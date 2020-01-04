@@ -1798,7 +1798,7 @@ automatically
 /
 /
 For
-nsEditor
+EditorBase
 we
 need
 to
@@ -1816,7 +1816,7 @@ t
 /
 checked
 in
-nsEditor
+EditorBase
 so
 it
 can
@@ -3721,7 +3721,7 @@ events
 are
 ignored
 on
-nsEditor
+EditorBase
 .
 (
 I
@@ -10328,7 +10328,7 @@ ctrl
 flag
 is
 set
-nsEditor
+EditorBase
 ignores
 the
 /

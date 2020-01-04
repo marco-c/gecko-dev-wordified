@@ -143,6 +143,19 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+/
+/
+for
+EditorBase
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -202,17 +215,6 @@ h
 for
 NS_PRECONDITION
 etc
-#
-include
-"
-nsEditor
-.
-h
-"
-/
-/
-for
-nsEditor
 #
 include
 "
@@ -600,7 +602,7 @@ nsIAtom
 >
 nodeAtom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -817,7 +819,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -860,7 +862,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1231,7 +1233,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1301,7 +1303,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1580,7 +1582,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1624,7 +1626,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1668,7 +1670,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1712,7 +1714,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1783,7 +1785,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -2023,7 +2025,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -2469,7 +2471,7 @@ nsIAtom
 >
 nodeAtom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag

@@ -1654,7 +1654,7 @@ blur
 event
 handler
 of
-nsEditor
+EditorBase
 but
 the
 /
@@ -13701,7 +13701,7 @@ emulating
 similar
 situation
 of
-nsEditor
+EditorBase
 .
 nsINode
 *

@@ -178,17 +178,6 @@ etc
 #
 include
 "
-nsEditor
-.
-h
-"
-/
-/
-for
-nsEditor
-#
-include
-"
 nsError
 .
 h

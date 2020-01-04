@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Selection
@@ -154,13 +163,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "
@@ -217,7 +219,7 @@ dom
 /
 note
 that
-aEditor
+aEditorBase
 is
 not
 refcounted
@@ -228,7 +230,7 @@ DeleteRangeTransaction
 (
 )
 :
-mEditor
+mEditorBase
 (
 nullptr
 )
@@ -258,9 +260,9 @@ DeleteRangeTransaction
 :
 Init
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 nsRange
 *
 aRange
@@ -271,15 +273,15 @@ aRangeUpdater
 {
 MOZ_ASSERT
 (
-aEditor
+aEditorBase
 &
 &
 aRange
 )
 ;
-mEditor
+mEditorBase
 =
-aEditor
+aEditorBase
 ;
 mRange
 =
@@ -296,7 +298,7 @@ aRangeUpdater
 ;
 NS_ENSURE_TRUE
 (
-mEditor
+mEditorBase
 -
 >
 IsModifiableNode
@@ -313,7 +315,7 @@ NS_ERROR_FAILURE
 ;
 NS_ENSURE_TRUE
 (
-mEditor
+mEditorBase
 -
 >
 IsModifiableNode
@@ -330,7 +332,7 @@ NS_ERROR_FAILURE
 ;
 NS_ENSURE_TRUE
 (
-mEditor
+mEditorBase
 -
 >
 IsModifiableNode
@@ -362,7 +364,7 @@ MOZ_ASSERT
 mRange
 &
 &
-mEditor
+mEditorBase
 )
 ;
 nsresult
@@ -599,7 +601,7 @@ permission
 bool
 bAdjustSelection
 ;
-mEditor
+mEditorBase
 -
 >
 ShouldTxnSetSelection
@@ -619,7 +621,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 -
 >
 GetSelection
@@ -679,7 +681,7 @@ MOZ_ASSERT
 mRange
 &
 &
-mEditor
+mEditorBase
 )
 ;
 return
@@ -704,7 +706,7 @@ MOZ_ASSERT
 mRange
 &
 &
-mEditor
+mEditorBase
 )
 ;
 return
@@ -841,7 +843,7 @@ new
 DeleteTextTransaction
 (
 *
-mEditor
+mEditorBase
 *
 charDataNode
 aStartOffset
@@ -932,7 +934,7 @@ transaction
 >
 Init
 (
-mEditor
+mEditorBase
 child
 mRangeUpdater
 )
@@ -1097,7 +1099,7 @@ new
 DeleteTextTransaction
 (
 *
-mEditor
+mEditorBase
 *
 dataNode
 start
@@ -1215,7 +1217,7 @@ transaction
 >
 Init
 (
-mEditor
+mEditorBase
 node
 mRangeUpdater
 )

@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -396,7 +389,7 @@ isEmptyTextNode
 false
 ;
 return
-nsEditor
+EditorBase
 :
 :
 IsTextNode

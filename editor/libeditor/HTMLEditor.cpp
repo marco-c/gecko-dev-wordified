@@ -1210,12 +1210,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 HTMLEditor
-nsEditor
+EditorBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 HTMLEditor
-nsEditor
+EditorBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -1792,7 +1792,7 @@ mRootElement
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 GetRootElement
@@ -3307,7 +3307,7 @@ events
 are
 handled
 on
-nsEditor
+EditorBase
 so
 we
 can
@@ -3317,7 +3317,7 @@ bypass
 TextEditor
 .
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -3408,7 +3408,7 @@ keys
 are
 handled
 on
-nsEditor
+EditorBase
 so
 we
 can
@@ -3418,7 +3418,7 @@ bypass
 TextEditor
 .
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -4724,7 +4724,7 @@ this
 )
 ;
 return
-nsEditor
+EditorBase
 :
 :
 DoTransaction
@@ -18512,7 +18512,7 @@ eNoStrip
 nsresult
 res
 =
-nsEditor
+EditorBase
 :
 :
 DeleteSelectionImpl
@@ -18981,7 +18981,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 DeleteNode
@@ -19031,7 +19031,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 DeleteText
@@ -19092,7 +19092,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 InsertTextImpl
@@ -20494,7 +20494,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsEditor
+EditorBase
 :
 :
 StartOperation
@@ -20600,7 +20600,7 @@ mAction
 mDirection
 )
 ;
-nsEditor
+EditorBase
 :
 :
 EndOperation
@@ -20955,7 +20955,7 @@ rootElement
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 SelectEntireDocument
@@ -21852,7 +21852,7 @@ parent
 .
 *
 Uses
-nsEditor
+EditorBase
 :
 :
 JoinNodes
@@ -25336,7 +25336,7 @@ return
 false
 if
 (
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -28248,7 +28248,7 @@ EndUpdateViewBatch
 nsresult
 res
 =
-nsEditor
+EditorBase
 :
 :
 EndUpdateViewBatch
@@ -30201,7 +30201,7 @@ aEvent
 if
 (
 !
-nsEditor
+EditorBase
 :
 :
 IsAcceptableInputEvent

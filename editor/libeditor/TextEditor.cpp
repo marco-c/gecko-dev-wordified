@@ -635,7 +635,7 @@ TextEditor
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 TextEditor
-nsEditor
+EditorBase
 )
 if
 (
@@ -662,7 +662,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 TextEditor
-nsEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -672,12 +672,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 TextEditor
-nsEditor
+EditorBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 TextEditor
-nsEditor
+EditorBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -693,7 +693,7 @@ nsIEditorMailSupport
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsEditor
+EditorBase
 )
 NS_IMETHODIMP
 TextEditor
@@ -776,7 +776,7 @@ base
 editor
 res
 =
-nsEditor
+EditorBase
 :
 :
 Init
@@ -1175,7 +1175,7 @@ characterSet
 nsresult
 rv
 =
-nsEditor
+EditorBase
 :
 :
 SetDocumentCharacterSet
@@ -1711,7 +1711,7 @@ metaElement
 ;
 rv
 =
-nsEditor
+EditorBase
 :
 :
 SetAttribute
@@ -1947,10 +1947,10 @@ the
 events
 handled
 on
-nsEditor
+EditorBase
 .
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -2041,9 +2041,9 @@ keys
 are
 handled
 on
-nsEditor
+EditorBase
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -4889,7 +4889,7 @@ ResetIMETextPWBuf
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 BeginIMEComposition
@@ -6319,7 +6319,7 @@ result
 {
 result
 =
-nsEditor
+EditorBase
 :
 :
 Undo
@@ -6461,7 +6461,7 @@ result
 {
 result
 =
-nsEditor
+EditorBase
 :
 :
 Redo
@@ -8629,7 +8629,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsEditor
+EditorBase
 :
 :
 StartOperation
@@ -8735,7 +8735,7 @@ mAction
 mDirection
 )
 ;
-nsEditor
+EditorBase
 :
 :
 EndOperation
@@ -8886,7 +8886,7 @@ aSelection
 nsresult
 rv
 =
-nsEditor
+EditorBase
 :
 :
 SelectEntireDocument
@@ -9050,7 +9050,7 @@ aSuppressTransaction
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 SetAttribute
@@ -9079,7 +9079,7 @@ aSuppressTransaction
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 RemoveAttribute

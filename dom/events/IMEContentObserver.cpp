@@ -3581,7 +3581,7 @@ which
 is
 run
 before
-nsEditor
+EditorBase
 handles
 it
 .

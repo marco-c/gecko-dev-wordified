@@ -50304,7 +50304,7 @@ for
 some
 cases
 and
-nsEditor
+EditorBase
 uses
 them
 .
