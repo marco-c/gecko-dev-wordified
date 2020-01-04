@@ -1265,6 +1265,9 @@ mSurface
 IntSize
 mSize
 ;
+bool
+mTransformSingular
+;
 uint8_t
 *
 mLockedBits
