@@ -612,6 +612,13 @@ return
 true
 ;
 }
+bool
+SupportsApzTouchInput
+(
+)
+const
+override
+;
 void
 FontsPrefsChanged
 (
