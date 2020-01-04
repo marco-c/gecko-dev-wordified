@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsISVGPoint
 .
 h
