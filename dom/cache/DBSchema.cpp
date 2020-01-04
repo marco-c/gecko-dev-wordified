@@ -2606,15 +2606,6 @@ TYPE_INTERNAL_STYLESHEET_PRELOAD
 =
 =
 40
-&
-&
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_IMAGE_FAVICON
-=
-=
-41
 "
 nsContentPolicyType
 values

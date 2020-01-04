@@ -36557,7 +36557,7 @@ this
 #
 ifdef
 DEBUG
-AssertPrivateBrowsingId
+CheckPrivateBrowsing
 (
 )
 ;
