@@ -174,10 +174,9 @@ use
 with
 objects
 like
-StyleSheet
+RestyleManagerHandle
 *
 where
-*
 the
 handle
 type
@@ -190,12 +189,12 @@ which
 can
 still
 have
+*
 -
 >
 AddRef
 (
 )
-*
 and
 -
 >
