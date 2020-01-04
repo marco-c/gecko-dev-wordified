@@ -8558,6 +8558,14 @@ bottom
 }
 break
 ;
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+3
+)
 case
 NS_THEME_NUMBER_INPUT
 :
@@ -8577,6 +8585,8 @@ height
 }
 break
 ;
+#
+endif
 case
 NS_THEME_TOOLBAR_SEPARATOR
 :
