@@ -1058,6 +1058,11 @@ webextension_3
 true
 )
 ;
+yield
+promiseAddonStartup
+(
+)
+;
 let
 addon
 =
@@ -1066,6 +1071,12 @@ promiseAddonByID
 (
 ID
 )
+;
+addon
+.
+userDisabled
+=
+true
 ;
 equal
 (
@@ -1206,6 +1217,12 @@ add
 -
 on
 "
+)
+;
+addon
+.
+uninstall
+(
 )
 ;
 }
