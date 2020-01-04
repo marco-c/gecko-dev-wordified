@@ -1027,7 +1027,7 @@ contentWindow
 ;
 toolWindow
 .
-addViewport
+addInitialViewport
 (
 contentURI
 )
