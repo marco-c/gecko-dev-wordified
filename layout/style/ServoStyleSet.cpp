@@ -728,10 +728,13 @@ Element
 aPseudoElement
 )
 {
-MOZ_ASSERT
+if
 (
-!
 aPseudoElement
+)
+{
+NS_ERROR
+(
 "
 stylo
 :
@@ -745,6 +748,7 @@ yet
 "
 )
 ;
+}
 MOZ_ASSERT
 (
 aParentContext
@@ -1876,10 +1880,13 @@ Element
 aPseudoElement
 )
 {
-MOZ_ASSERT
+if
 (
-!
 aPseudoElement
+)
+{
+NS_ERROR
+(
 "
 stylo
 :
@@ -1893,6 +1900,7 @@ yet
 "
 )
 ;
+}
 return
 ProbePseudoElementStyle
 (
