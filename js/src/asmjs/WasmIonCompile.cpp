@@ -15966,6 +15966,11 @@ index
 return
 false
 ;
+*
+def
+=
+nullptr
+;
 /
 /
 Empty
@@ -16167,11 +16172,6 @@ defaultBlock
 )
 return
 false
-;
-*
-def
-=
-nullptr
 ;
 return
 true
