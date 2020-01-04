@@ -129,6 +129,15 @@ include
 "
 mozilla
 /
+TextEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -289,13 +298,6 @@ h
 #
 include
 "
-nsPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsPoint
 .
 h
@@ -420,7 +422,7 @@ HTMLEditor
 final
 :
 public
-nsPlaintextEditor
+TextEditor
 public
 nsIHTMLEditor
 public
@@ -481,7 +483,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLEditor
-nsPlaintextEditor
+TextEditor
 )
 HTMLEditor
 (
@@ -500,7 +502,7 @@ GetSelectionContainer
 ;
 /
 /
-nsPlaintextEditor
+TextEditor
 overrides
 NS_IMETHOD
 GetIsDocumentEditable

@@ -112,12 +112,12 @@ nsIDOMNode
 class
 nsINode
 ;
-class
-nsPlaintextEditor
-;
 namespace
 mozilla
 {
+class
+TextEditor
+;
 class
 TextEditUtils
 final
@@ -296,7 +296,7 @@ final
 {
 private
 :
-nsPlaintextEditor
+TextEditor
 *
 mTextEditor
 ;
@@ -308,7 +308,7 @@ public
 :
 AutoEditInitRulesTrigger
 (
-nsPlaintextEditor
+TextEditor
 *
 aTextEditor
 nsresult
