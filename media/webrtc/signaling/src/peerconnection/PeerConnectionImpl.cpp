@@ -10548,6 +10548,9 @@ new
 RemoteTrackSource
 (
 principal
+nsString
+(
+)
 )
 ;
 #
@@ -10614,9 +10617,6 @@ MediaSegment
 :
 :
 AUDIO
-nsString
-(
-)
 source
 )
 ;
@@ -10640,9 +10640,6 @@ MediaSegment
 :
 :
 VIDEO
-nsString
-(
-)
 source
 )
 ;

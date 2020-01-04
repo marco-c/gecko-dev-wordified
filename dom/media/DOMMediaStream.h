@@ -3342,10 +3342,6 @@ MediaSegment
 :
 Type
 aType
-const
-nsString
-&
-aLabel
 MediaStreamTrackSource
 *
 aSource

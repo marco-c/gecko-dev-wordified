@@ -309,9 +309,6 @@ MediaSegment
 :
 :
 AUDIO
-nsString
-(
-)
 source
 )
 ;

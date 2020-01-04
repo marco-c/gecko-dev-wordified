@@ -3540,9 +3540,6 @@ MediaSegment
 :
 :
 VIDEO
-nsString
-(
-)
 new
 BasicUnstoppableTrackSource
 (

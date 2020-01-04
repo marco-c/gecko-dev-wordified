@@ -136,10 +136,6 @@ TrackID
 aTrackID
 TrackID
 aInputTrackID
-const
-nsString
-&
-aLabel
 MediaStreamTrackSource
 *
 aSource
@@ -150,7 +146,6 @@ MediaStreamTrack
 aStream
 aTrackID
 aInputTrackID
-aLabel
 aSource
 )
 {
@@ -245,7 +240,6 @@ VideoStreamTrack
 aOwningStream
 aTrackID
 mInputTrackID
-mLabel
 mSource
 )
 )

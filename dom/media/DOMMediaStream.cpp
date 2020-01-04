@@ -971,9 +971,6 @@ CreateDOMTrack
 (
 aTrackID
 aType
-nsString
-(
-)
 source
 )
 ;
@@ -4474,9 +4471,6 @@ MediaSegment
 :
 :
 AUDIO
-nsString
-(
-)
 audioCaptureSource
 )
 ;
@@ -5498,10 +5492,6 @@ MediaSegment
 :
 Type
 aType
-const
-nsString
-&
-aLabel
 MediaStreamTrackSource
 *
 aSource
@@ -5554,7 +5544,6 @@ AudioStreamTrack
 this
 aTrackID
 aTrackID
-aLabel
 aSource
 )
 ;
@@ -5574,7 +5563,6 @@ VideoStreamTrack
 this
 aTrackID
 aTrackID
-aLabel
 aSource
 )
 ;
