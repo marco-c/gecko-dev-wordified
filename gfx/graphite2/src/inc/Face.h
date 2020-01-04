@@ -558,7 +558,7 @@ const
 /
 Glyph
 related
-uint16
+int32
 getGlyphMetric
 (
 uint16
