@@ -11284,6 +11284,14 @@ return
 ;
 }
 }
+if
+(
+objectFrame
+-
+>
+mInstanceOwner
+)
+{
 objectFrame
 -
 >
@@ -11291,6 +11299,7 @@ RegisterPluginForGeometryUpdates
 (
 )
 ;
+}
 }
 nsIFrame
 *
