@@ -265,11 +265,11 @@ nsAString
 &
 aOptions
 uint32_t
-*
-bpp
+&
+aBppOut
 bool
-*
-usePNG
+&
+aUsePNGOut
 )
 ;
 void

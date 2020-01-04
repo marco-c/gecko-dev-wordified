@@ -640,11 +640,11 @@ nsAString
 &
 aOptions
 Version
-*
-version
+&
+aVersionOut
 uint32_t
-*
-bpp
+&
+aBppOut
 )
 ;
 /
