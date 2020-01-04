@@ -9760,6 +9760,13 @@ restored
 "
 )
 ;
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 #
 ifdef
 MOZ_DUMP_PAINTING

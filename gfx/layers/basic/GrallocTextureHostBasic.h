@@ -189,6 +189,14 @@ aCompositor
 override
 ;
 virtual
+Compositor
+*
+GetCompositor
+(
+)
+override
+;
+virtual
 bool
 Lock
 (

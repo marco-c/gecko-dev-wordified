@@ -4005,6 +4005,13 @@ EndFrame
 (
 )
 {
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 /
 /
 Pop

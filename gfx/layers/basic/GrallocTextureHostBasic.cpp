@@ -927,6 +927,13 @@ UnbindTextureSource
 (
 )
 {
+TextureHost
+:
+:
+UnbindTextureSource
+(
+)
+;
 ClearTextureSource
 (
 )

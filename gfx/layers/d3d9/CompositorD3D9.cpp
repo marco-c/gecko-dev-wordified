@@ -4404,6 +4404,13 @@ EndFrame
 (
 )
 {
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 if
 (
 mDeviceManager
