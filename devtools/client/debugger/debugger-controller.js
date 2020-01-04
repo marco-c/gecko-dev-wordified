@@ -6373,6 +6373,11 @@ this
 .
 _currentException
 }
+{
+internalItem
+:
+true
+}
 )
 ;
 DebuggerView
@@ -6422,6 +6427,11 @@ value
 this
 .
 _currentReturnedValue
+}
+{
+internalItem
+:
+true
 }
 )
 ;
