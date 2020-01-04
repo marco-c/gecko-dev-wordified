@@ -576,6 +576,13 @@ date
 "
 )
 ;
+catalog
+.
+markAsDownloaded
+(
+content
+)
+;
 continue
 ;
 }
