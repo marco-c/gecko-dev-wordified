@@ -713,17 +713,6 @@ nsIFrame
 aFrame
 )
 ;
-void
-ClearIsRunningOnCompositor
-(
-const
-nsIFrame
-*
-aFrame
-nsCSSProperty
-aProperty
-)
-;
 protected
 :
 LinkedList
