@@ -571,7 +571,7 @@ GetPairedDevicePropertiesInternal
 const
 nsTArray
 <
-nsString
+BluetoothAddress
 >
 &
 aDeviceAddresses
@@ -611,7 +611,7 @@ BluetoothServiceChildProcess
 FetchUuidsInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -624,10 +624,7 @@ SendRequest
 aRunnable
 FetchUuidsRequest
 (
-nsString
-(
 aDeviceAddress
-)
 )
 )
 ;
@@ -769,9 +766,9 @@ BluetoothServiceChildProcess
 CreatePairedDeviceInternal
 (
 const
-nsAString
+BluetoothAddress
 &
-aAddress
+aDeviceAddress
 int
 aTimeout
 BluetoothReplyRunnable
@@ -784,10 +781,7 @@ SendRequest
 aRunnable
 PairRequest
 (
-nsString
-(
-aAddress
-)
+aDeviceAddress
 aTimeout
 )
 )
@@ -803,9 +797,9 @@ BluetoothServiceChildProcess
 RemoveDeviceInternal
 (
 const
-nsAString
+BluetoothAddress
 &
-aObjectPath
+aDeviceAddress
 BluetoothReplyRunnable
 *
 aRunnable
@@ -816,10 +810,7 @@ SendRequest
 aRunnable
 UnpairRequest
 (
-nsString
-(
-aObjectPath
-)
+aDeviceAddress
 )
 )
 ;
@@ -894,7 +885,7 @@ BluetoothServiceChildProcess
 PinReplyInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 bool
@@ -913,10 +904,7 @@ SendRequest
 aRunnable
 PinReplyRequest
 (
-nsString
-(
 aDeviceAddress
-)
 aAccept
 nsString
 (
@@ -933,7 +921,7 @@ BluetoothServiceChildProcess
 SspReplyInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 BluetoothSspVariant
@@ -950,10 +938,7 @@ SendRequest
 aRunnable
 SspReplyRequest
 (
-nsString
-(
 aDeviceAddress
-)
 aVariant
 aAccept
 )
@@ -967,7 +952,7 @@ BluetoothServiceChildProcess
 SetPinCodeInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 const
@@ -984,10 +969,7 @@ SendRequest
 aRunnable
 SetPinCodeRequest
 (
-nsString
-(
 aDeviceAddress
-)
 nsString
 (
 aPinCode
@@ -1003,7 +985,7 @@ BluetoothServiceChildProcess
 SetPasskeyInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 uint32_t
@@ -1018,10 +1000,7 @@ SendRequest
 aRunnable
 SetPasskeyRequest
 (
-nsString
-(
 aDeviceAddress
-)
 aPasskey
 )
 )
@@ -1034,7 +1013,7 @@ BluetoothServiceChildProcess
 SetPairingConfirmationInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 bool
@@ -1054,10 +1033,7 @@ SendRequest
 aRunnable
 ConfirmPairingConfirmationRequest
 (
-nsString
-(
 aDeviceAddress
-)
 )
 )
 ;
@@ -1069,10 +1045,7 @@ SendRequest
 aRunnable
 DenyPairingConfirmationRequest
 (
-nsString
-(
 aDeviceAddress
-)
 )
 )
 ;
@@ -1085,7 +1058,7 @@ BluetoothServiceChildProcess
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 uint32_t
@@ -1102,10 +1075,7 @@ SendRequest
 aRunnable
 ConnectRequest
 (
-nsString
-(
 aDeviceAddress
-)
 aCod
 aServiceUuid
 )
@@ -1119,7 +1089,7 @@ BluetoothServiceChildProcess
 Disconnect
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 uint16_t
@@ -1134,10 +1104,7 @@ SendRequest
 aRunnable
 DisconnectRequest
 (
-nsString
-(
 aDeviceAddress
-)
 aServiceUuid
 )
 )
