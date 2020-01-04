@@ -17739,15 +17739,6 @@ intl_FormatNumber
 JS_FN
 (
 "
-intl_GetCalendarInfo
-"
-intl_GetCalendarInfo
-1
-0
-)
-JS_FN
-(
-"
 intl_NumberFormat
 "
 intl_NumberFormat
