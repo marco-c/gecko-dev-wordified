@@ -351,7 +351,7 @@ mLayoutManager
 }
 virtual
 nsresult
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 nsIFrame
 *

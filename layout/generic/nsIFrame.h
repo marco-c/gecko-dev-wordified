@@ -21559,7 +21559,7 @@ aState
 ;
 virtual
 nsresult
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 nsIFrame
 *
