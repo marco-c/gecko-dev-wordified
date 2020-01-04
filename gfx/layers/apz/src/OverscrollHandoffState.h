@@ -125,10 +125,16 @@ vector
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+RefPtr
 .
 h
 "
+/
+/
+for
+RefPtr
 #
 include
 "
