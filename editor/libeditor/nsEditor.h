@@ -3310,14 +3310,6 @@ inNode
 bool
 IsDescendantOfEditorRoot
 (
-nsIDOMNode
-*
-aNode
-)
-;
-bool
-IsDescendantOfEditorRoot
-(
 nsINode
 *
 aNode
@@ -3604,10 +3596,8 @@ aOffset
 )
 ;
 static
-nsCOMPtr
-<
-nsIDOMNode
->
+nsIContent
+*
 GetNodeAtRangeOffsetPoint
 (
 nsIDOMNode
