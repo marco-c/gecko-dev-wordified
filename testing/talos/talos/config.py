@@ -2406,6 +2406,22 @@ autostart
 ]
 =
 True
+        
+config
+[
+'
+preferences
+'
+]
+[
+'
+extensions
+.
+e10sBlocksEnabling
+'
+]
+=
+False
     
 else
 :

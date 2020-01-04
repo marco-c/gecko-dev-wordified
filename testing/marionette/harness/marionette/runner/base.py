@@ -4220,6 +4220,14 @@ autostart
 '
 :
 True
+                
+'
+extensions
+.
+e10sBlocksEnabling
+'
+:
+False
             
 }
 )

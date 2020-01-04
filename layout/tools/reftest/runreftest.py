@@ -2591,6 +2591,17 @@ autostart
 ]
 =
 True
+            
+prefs
+[
+'
+extensions
+.
+e10sBlocksEnabling
+'
+]
+=
+False
         
 for
 v
