@@ -334,11 +334,6 @@ return
 mDontPrint
 ;
 }
-bool
-MayHavePluginFrames
-(
-)
-;
 void
 DestroyPresentation
 (
