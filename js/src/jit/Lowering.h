@@ -563,6 +563,14 @@ ins
 )
 ;
 void
+visitNewTypedArrayDynamicLength
+(
+MNewTypedArrayDynamicLength
+*
+ins
+)
+;
+void
 visitNewObject
 (
 MNewObject
