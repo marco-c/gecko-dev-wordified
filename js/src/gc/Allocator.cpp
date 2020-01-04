@@ -185,6 +185,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+gc
+/
+Heap
+-
+inl
+.
+h
+"
 using
 namespace
 js
