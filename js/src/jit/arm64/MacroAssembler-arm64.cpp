@@ -3469,6 +3469,8 @@ Register
 reg2
 Register
 reg3
+Register
+reg4
 )
 {
 push
@@ -3476,11 +3478,12 @@ push
 reg1
 reg2
 reg3
+reg4
 )
 ;
 adjustFrame
 (
-3
+4
 *
 sizeof
 (
