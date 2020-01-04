@@ -2212,7 +2212,7 @@ url
 return
 ReaderModeUtils
 .
-getUrlFromAboutReader
+stripAboutReaderUrl
 (
 url
 )
