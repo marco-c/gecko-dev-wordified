@@ -424,14 +424,6 @@ lir
 )
 ;
 void
-visitSubI64
-(
-LSubI64
-*
-lir
-)
-;
-void
 visitMulI64
 (
 LMulI64
