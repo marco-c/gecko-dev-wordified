@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsArrayEnumerator
 .
 h
@@ -1380,7 +1373,7 @@ the
 table
 using
 an
-nsISupportsArray
+nsCOMArray
 and
 builds
 an
