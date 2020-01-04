@@ -194,8 +194,6 @@ example
 .
 com
 "
-[
-]
 "
 test_ev_certs
 "

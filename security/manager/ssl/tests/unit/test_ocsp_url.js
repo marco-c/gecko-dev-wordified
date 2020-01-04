@@ -200,8 +200,6 @@ example
 .
 com
 "
-[
-]
 "
 test_ocsp_url
 "

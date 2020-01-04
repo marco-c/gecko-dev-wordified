@@ -144,8 +144,6 @@ example
 .
 com
 "
-[
-]
 "
 test_keysize_ev
 /
