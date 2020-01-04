@@ -388,6 +388,9 @@ aDisplay
 Drawable
 aWindow
 const
+mozilla
+:
+:
 LayoutDeviceIntRegion
 &
 aRegion
