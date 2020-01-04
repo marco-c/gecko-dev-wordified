@@ -1281,11 +1281,6 @@ void
 aClosure
 )
 ;
-bool
-IsBidiUI
-(
-)
-;
 void
 CheckSelectionLanguageChange
 (

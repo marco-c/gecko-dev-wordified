@@ -3830,13 +3830,10 @@ GetInFlowContentLength
 if
 (
 !
-PresContext
 (
-)
--
->
-BidiEnabled
-(
+mState
+&
+NS_FRAME_IS_BIDI
 )
 )
 {
