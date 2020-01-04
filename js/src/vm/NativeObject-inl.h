@@ -3549,7 +3549,7 @@ return
 true
 ;
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR

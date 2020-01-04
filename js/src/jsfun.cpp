@@ -734,7 +734,7 @@ JSContext
 cx
 )
 {
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR
@@ -1012,7 +1012,7 @@ feature
 if
 (
 !
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_WARNING
@@ -1608,7 +1608,7 @@ feature
 if
 (
 !
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_WARNING
@@ -2006,7 +2006,7 @@ strict
 )
 )
 {
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR
@@ -2464,7 +2464,7 @@ strict
 )
 )
 {
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR

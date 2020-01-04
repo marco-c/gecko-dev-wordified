@@ -9736,10 +9736,12 @@ false
 if
 (
 error
-&
-&
+)
+{
+if
+(
 !
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_WARNING
@@ -9757,6 +9759,7 @@ get
 return
 false
 ;
+}
 }
 callArgs
 .

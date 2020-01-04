@@ -16469,7 +16469,7 @@ toISO
 )
 )
 {
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_ERROR

@@ -595,7 +595,7 @@ x
 c
 )
 ;
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 maybecx
 JSREPORT_ERROR

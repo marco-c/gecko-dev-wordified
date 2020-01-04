@@ -22400,7 +22400,7 @@ strict
 )
 {
 return
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 strict

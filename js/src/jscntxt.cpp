@@ -4966,7 +4966,7 @@ js_null_str
 {
 ok
 =
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 JSREPORT_ERROR
@@ -4978,8 +4978,6 @@ bytes
 get
 (
 )
-nullptr
-nullptr
 )
 ;
 }
@@ -4995,7 +4993,7 @@ isUndefined
 {
 ok
 =
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 JSREPORT_ERROR
@@ -5008,7 +5006,6 @@ get
 (
 )
 js_undefined_str
-nullptr
 )
 ;
 }
@@ -5025,7 +5022,7 @@ isNull
 ;
 ok
 =
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 JSREPORT_ERROR
@@ -5038,7 +5035,6 @@ get
 (
 )
 js_null_str
-nullptr
 )
 ;
 }
@@ -5230,7 +5226,7 @@ false
 ;
 ok
 =
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberLatin1
 (
 cx
 flags

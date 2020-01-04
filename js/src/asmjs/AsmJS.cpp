@@ -48222,7 +48222,7 @@ char
 str
 )
 {
-JS_ReportErrorFlagsAndNumber
+JS_ReportErrorFlagsAndNumberASCII
 (
 cx
 JSREPORT_WARNING
