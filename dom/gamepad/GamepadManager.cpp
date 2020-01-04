@@ -1333,6 +1333,8 @@ NewButtonEvent
 (
 uint32_t
 aIndex
+GamepadServiceType
+aServiceType
 uint32_t
 aButton
 bool
@@ -1349,6 +1351,15 @@ mShuttingDown
 return
 ;
 }
+uint32_t
+newIndex
+=
+GetGamepadIndexWithServiceType
+(
+aIndex
+aServiceType
+)
+;
 RefPtr
 <
 Gamepad
@@ -1357,7 +1368,7 @@ gamepad
 =
 GetGamepad
 (
-aIndex
+newIndex
 )
 ;
 if
@@ -1512,7 +1523,7 @@ listeners
 [
 i
 ]
-aIndex
+newIndex
 )
 ;
 RefPtr
@@ -1529,7 +1540,7 @@ i
 >
 GetGamepad
 (
-aIndex
+newIndex
 )
 ;
 if
@@ -1704,6 +1715,8 @@ NewAxisMoveEvent
 (
 uint32_t
 aIndex
+GamepadServiceType
+aServiceType
 uint32_t
 aAxis
 double
@@ -1718,6 +1731,15 @@ mShuttingDown
 return
 ;
 }
+uint32_t
+newIndex
+=
+GetGamepadIndexWithServiceType
+(
+aIndex
+aServiceType
+)
+;
 RefPtr
 <
 Gamepad
@@ -1726,7 +1748,7 @@ gamepad
 =
 GetGamepad
 (
-aIndex
+newIndex
 )
 ;
 if
@@ -1880,7 +1902,7 @@ listeners
 [
 i
 ]
-aIndex
+newIndex
 )
 ;
 RefPtr
@@ -1897,7 +1919,7 @@ i
 >
 GetGamepad
 (
-aIndex
+newIndex
 )
 ;
 if
@@ -3118,6 +3140,11 @@ index
 )
 a
 .
+service_type
+(
+)
+a
+.
 button
 (
 )
@@ -3167,6 +3194,11 @@ NewAxisMoveEvent
 a
 .
 index
+(
+)
+a
+.
+service_type
 (
 )
 a
