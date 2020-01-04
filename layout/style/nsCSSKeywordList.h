@@ -1283,6 +1283,13 @@ auto_fit
 )
 CSS_KEY
 (
+auto
+-
+flow
+auto_flow
+)
+CSS_KEY
+(
 avoid
 avoid
 )
