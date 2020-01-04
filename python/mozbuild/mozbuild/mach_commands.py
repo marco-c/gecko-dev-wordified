@@ -4446,8 +4446,12 @@ AndroidEclipse
 '
 CppEclipse
 '
+                 
 '
 VisualStudio
+'
+'
+FasterMake
 '
 ]
         
