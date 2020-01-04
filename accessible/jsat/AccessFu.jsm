@@ -2431,7 +2431,7 @@ if
 !
 frameLoader
 .
-ownerIsBrowserOrAppFrame
+ownerIsMozBrowserOrAppFrame
 )
 {
 return
