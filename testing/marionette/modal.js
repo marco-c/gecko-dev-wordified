@@ -505,7 +505,9 @@ function
 (
 )
 :
-BrowserObj
+browser
+.
+Context
 }
 curBrowserFn
 *
@@ -515,7 +517,9 @@ returns
 the
 current
 |
-BrowserObj
+browser
+.
+Context
 |
 .
 *
