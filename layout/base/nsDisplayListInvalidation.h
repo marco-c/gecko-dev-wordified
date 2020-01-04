@@ -457,8 +457,8 @@ that
 draw
 images
 .
-Geometry
 *
+Geometry
 items
 that
 include
@@ -470,8 +470,8 @@ drawing
 results
 and
 use
-that
 *
+that
 information
 to
 inform
