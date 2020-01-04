@@ -7115,7 +7115,7 @@ template
 <
 >
 struct
-DefaultTracer
+DefaultGCPolicy
 <
 Debugger
 :
@@ -7160,7 +7160,7 @@ template
 <
 >
 struct
-DefaultTracer
+DefaultGCPolicy
 <
 Debugger
 :
