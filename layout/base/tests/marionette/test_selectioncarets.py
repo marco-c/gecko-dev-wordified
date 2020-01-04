@@ -1556,7 +1556,7 @@ y
 )
     
 def
-_to_unix_line_ending
+to_unix_line_ending
 (
 self
 s
@@ -3011,7 +3011,7 @@ assertEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
@@ -3074,7 +3074,7 @@ assertEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
@@ -3154,7 +3154,7 @@ assertEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
@@ -3358,7 +3358,7 @@ assertEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
@@ -3559,7 +3559,7 @@ assertEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
@@ -3766,7 +3766,7 @@ assertNotEqual
 (
 self
 .
-_to_unix_line_ending
+to_unix_line_ending
 (
 sel
 .
