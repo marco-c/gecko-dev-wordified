@@ -323,9 +323,12 @@ functions
 .
 *
 /
+const
+Rooted
+<
 LazyScript
 *
-const
+>
 lazyOuterFunction_
 ;
 size_t
@@ -717,6 +720,7 @@ tokenStream
 )
 lazyOuterFunction_
 (
+cx
 lazyOuterFunction
 )
 lazyInnerFunctionIndex
