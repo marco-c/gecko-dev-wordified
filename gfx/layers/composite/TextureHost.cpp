@@ -2975,6 +2975,10 @@ SetOwner
 this
 )
 ;
+mNeedsFullUpdate
+=
+true
+;
 }
 }
 bool
