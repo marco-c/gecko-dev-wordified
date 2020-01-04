@@ -445,7 +445,10 @@ class
 ScreenOnOffEvent
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -4660,7 +4663,10 @@ class
 NotifyTask
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

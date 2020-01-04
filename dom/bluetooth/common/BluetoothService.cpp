@@ -2294,7 +2294,7 @@ before
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -2491,7 +2491,7 @@ before
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =

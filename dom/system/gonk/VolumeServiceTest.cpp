@@ -1047,7 +1047,7 @@ class
 InitVolumeServiceTestIO
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

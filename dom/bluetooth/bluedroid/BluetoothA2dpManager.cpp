@@ -615,7 +615,7 @@ InitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -789,7 +789,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -870,7 +870,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -951,7 +951,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1032,7 +1032,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1576,7 +1576,7 @@ DeinitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1704,7 +1704,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1785,7 +1785,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1866,7 +1866,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

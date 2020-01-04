@@ -342,7 +342,10 @@ class
 WriteStumbleOnThread
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

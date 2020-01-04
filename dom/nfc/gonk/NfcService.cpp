@@ -970,7 +970,7 @@ DispatchNfcEventRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2460,7 +2460,7 @@ ShutdownServiceRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2700,7 +2700,7 @@ StartConsumerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2930,7 +2930,7 @@ CleanupRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3075,7 +3075,7 @@ ShutdownConsumerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3276,7 +3276,7 @@ SendRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

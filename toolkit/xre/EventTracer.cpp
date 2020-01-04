@@ -592,7 +592,7 @@ class
 EventLoopLagDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

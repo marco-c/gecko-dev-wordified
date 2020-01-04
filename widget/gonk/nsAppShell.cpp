@@ -1805,7 +1805,10 @@ class
 SwitchEventRunnable
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

@@ -248,7 +248,10 @@ class
 StopNetdConsumer
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

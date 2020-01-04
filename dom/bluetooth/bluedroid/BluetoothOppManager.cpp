@@ -655,7 +655,7 @@ SendSocketDataTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -745,7 +745,7 @@ ReadFileTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

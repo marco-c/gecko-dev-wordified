@@ -589,7 +589,7 @@ class
 DestroyDisplayRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

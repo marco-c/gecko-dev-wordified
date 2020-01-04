@@ -247,7 +247,7 @@ class
 RequestCellInfoEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

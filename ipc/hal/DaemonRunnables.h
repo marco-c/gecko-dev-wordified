@@ -155,7 +155,7 @@ class
 DaemonRunnable
 :
 public
-nsRunnable
+Runnable
 {
 protected
 :

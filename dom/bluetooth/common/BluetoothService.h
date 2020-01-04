@@ -235,7 +235,7 @@ class
 ToggleBtAck
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

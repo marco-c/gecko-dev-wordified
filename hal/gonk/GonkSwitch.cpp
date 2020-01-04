@@ -1096,7 +1096,7 @@ class
 SwitchEventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

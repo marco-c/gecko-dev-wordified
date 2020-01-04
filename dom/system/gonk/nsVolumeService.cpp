@@ -3002,7 +3002,7 @@ class
 UpdateVolumeRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

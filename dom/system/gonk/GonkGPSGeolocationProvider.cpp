@@ -725,7 +725,7 @@ class
 UpdateLocationEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1033,7 +1033,7 @@ NotifyObserversGPSTask
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1606,7 +1606,7 @@ class
 UpdateCapabilitiesEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1870,7 +1870,7 @@ class
 AGPSStatusEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1972,7 +1972,7 @@ class
 RequestSetIDEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2049,7 +2049,7 @@ class
 RequestRefLocEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

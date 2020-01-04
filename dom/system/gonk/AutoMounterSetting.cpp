@@ -950,7 +950,7 @@ class
 CheckVolumeSettingsRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1104,7 +1104,7 @@ class
 SetStatusRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

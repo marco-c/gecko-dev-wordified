@@ -124,7 +124,7 @@ class
 TracerRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

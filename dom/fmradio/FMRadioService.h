@@ -211,7 +211,7 @@ class
 FMRadioReplyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

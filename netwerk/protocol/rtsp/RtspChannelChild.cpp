@@ -981,7 +981,7 @@ class
 CallListenerOnStartRequestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1941,7 +1941,7 @@ class
 CallListenerOnStopRequestEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

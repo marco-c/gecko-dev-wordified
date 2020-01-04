@@ -3066,7 +3066,7 @@ class
 DistributeBluetoothSignalTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3136,7 +3136,7 @@ class
 ControlPropertyChangedHandler
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3314,7 +3314,7 @@ class
 SinkPropertyChangedHandler
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3447,7 +3447,7 @@ class
 InputPropertyChangedHandler
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3604,7 +3604,7 @@ class
 TryFiringAdapterAddedRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -3966,7 +3966,7 @@ class
 PrepareProfileManagersRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4465,7 +4465,7 @@ class
 ReplyErrorToProfileManager
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9297,7 +9297,7 @@ class
 PrepareAdapterRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -9342,7 +9342,7 @@ class
 RequestPlayStatusTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -10970,7 +10970,7 @@ v
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 task
 ;
@@ -11288,7 +11288,7 @@ established
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -11372,7 +11372,7 @@ Thread
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -11447,7 +11447,7 @@ release
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -11623,7 +11623,7 @@ StartBluetoothRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -11685,7 +11685,7 @@ available
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -11771,7 +11771,7 @@ daemon
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -11989,7 +11989,7 @@ aRunnable
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -12037,7 +12037,7 @@ DisableBluetoothRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -12137,7 +12137,7 @@ false
 endif
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -12240,7 +12240,7 @@ established
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -12537,7 +12537,7 @@ thread
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -12579,7 +12579,7 @@ StopBluetoothRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -12674,7 +12674,7 @@ aRunnable
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 runnable
 =
@@ -18066,7 +18066,7 @@ class
 OnUpdateSdpRecordsRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -18145,7 +18145,7 @@ class
 OnGetServiceChannelRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -18393,7 +18393,7 @@ aReply
 }
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -18806,7 +18806,7 @@ returns
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

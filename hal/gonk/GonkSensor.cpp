@@ -619,7 +619,7 @@ class
 SensorRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

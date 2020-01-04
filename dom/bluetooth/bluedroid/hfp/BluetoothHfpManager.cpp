@@ -789,7 +789,7 @@ BluetoothHfpManager
 CloseScoRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1593,7 +1593,7 @@ InitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1719,7 +1719,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1800,7 +1800,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1881,7 +1881,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1962,7 +1962,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -2310,7 +2310,7 @@ DeinitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -2438,7 +2438,7 @@ initialized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -2519,7 +2519,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -2600,7 +2600,7 @@ handler
 .
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

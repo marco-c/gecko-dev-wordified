@@ -648,7 +648,7 @@ class
 DiskSpaceNotifier
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -724,7 +724,7 @@ class
 DiskSpaceCleaner
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

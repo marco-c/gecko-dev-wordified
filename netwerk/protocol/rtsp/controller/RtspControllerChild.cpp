@@ -1554,7 +1554,7 @@ class
 SendIPCEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
