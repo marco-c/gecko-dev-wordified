@@ -3751,6 +3751,12 @@ aEvent
 .
 mOriginalMessage
 ;
+mRanges
+=
+aEvent
+.
+mRanges
+;
 /
 /
 Currently
