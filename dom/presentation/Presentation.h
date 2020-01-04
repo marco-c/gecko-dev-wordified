@@ -220,6 +220,7 @@ PresentationReceiver
 GetReceiver
 (
 )
+const
 ;
 private
 :
@@ -237,10 +238,9 @@ Presentation
 )
 ;
 bool
-IsInPresentedContent
+Init
 (
 )
-const
 ;
 RefPtr
 <
