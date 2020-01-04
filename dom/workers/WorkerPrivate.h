@@ -1201,9 +1201,6 @@ Canceling
 bool
 Kill
 (
-JSContext
-*
-aCx
 )
 {
 return
