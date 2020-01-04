@@ -334,9 +334,6 @@ nsAString
 aData
 uint32_t
 aFormatVersion
-JSContext
-*
-aCx
 )
 {
 if

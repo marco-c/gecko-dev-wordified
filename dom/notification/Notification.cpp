@@ -11766,7 +11766,6 @@ InitFromBase64
 (
 mDataAsBase64
 JS_STRUCTURED_CLONE_VERSION
-aCx
 )
 ;
 if
@@ -12054,7 +12053,6 @@ InitFromBase64
 (
 aData
 JS_STRUCTURED_CLONE_VERSION
-aCx
 )
 ;
 if
