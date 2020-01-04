@@ -350,13 +350,6 @@ worker
 "
 )
 ;
-yield
-toolbox
-.
-destroy
-(
-)
-;
 terminateWorkerInTab
 (
 tab
@@ -373,6 +366,13 @@ yield
 close
 (
 client
+)
+;
+yield
+toolbox
+.
+destroy
+(
 )
 ;
 }
