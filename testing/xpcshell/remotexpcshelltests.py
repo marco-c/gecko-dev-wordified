@@ -2285,6 +2285,12 @@ setup
             
 self
 .
+setupTestDir
+(
+)
+            
+self
+.
 setupUtilities
 (
 )
@@ -2292,12 +2298,6 @@ setupUtilities
 self
 .
 setupModules
-(
-)
-            
-self
-.
-setupTestDir
 (
 )
         
