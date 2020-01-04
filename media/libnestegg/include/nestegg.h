@@ -2730,9 +2730,8 @@ Storage
 for
 the
 queried
-timestamp
-in
-nanoseconds
+chunk
+count
 .
 retval
 0
