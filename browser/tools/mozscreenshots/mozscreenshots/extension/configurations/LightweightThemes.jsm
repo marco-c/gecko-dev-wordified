@@ -180,7 +180,8 @@ size
 3000x200
 canvas
 :
-black
+#
+333
 black_theme
 .
 png
@@ -227,7 +228,8 @@ size
 3000x200
 canvas
 :
-white
+#
+eee
 white_theme
 .
 png
@@ -329,7 +331,7 @@ textcolor
 :
 "
 #
-ffffff
+eeeeee
 "
 accentcolor
 :
@@ -416,7 +418,7 @@ textcolor
 :
 "
 #
-000000
+111111
 "
 accentcolor
 :
