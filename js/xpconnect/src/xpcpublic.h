@@ -1836,11 +1836,9 @@ chars
 XPCStringConvert
 (
 )
+=
+delete
 ;
-/
-/
-not
-implemented
 }
 ;
 class

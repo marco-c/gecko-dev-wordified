@@ -9836,11 +9836,9 @@ public
 nsXPCConstructor
 (
 )
+=
+delete
 ;
-/
-/
-not
-implemented
 nsXPCConstructor
 (
 nsIJSCID
