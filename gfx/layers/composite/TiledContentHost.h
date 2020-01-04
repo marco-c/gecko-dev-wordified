@@ -741,6 +741,16 @@ std
 stringstream
 &
 aStream
+TextureDumpMode
+/
+*
+aCompress
+ignored
+for
+host
+tiles
+*
+/
 )
 {
 /

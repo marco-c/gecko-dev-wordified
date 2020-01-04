@@ -11494,6 +11494,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 GetTiledBuffer
@@ -11506,6 +11508,7 @@ Dump
 aStream
 aPrefix
 aDumpHtml
+aCompress
 )
 ;
 }

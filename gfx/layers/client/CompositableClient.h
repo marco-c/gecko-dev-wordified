@@ -208,6 +208,7 @@ h
 /
 for
 LayersBackend
+TextureDumpMode
 #
 include
 "
@@ -860,6 +861,13 @@ bool
 aDumpHtml
 =
 false
+TextureDumpMode
+aCompress
+=
+TextureDumpMode
+:
+:
+Compress
 )
 {
 }
@@ -1399,6 +1407,8 @@ aStream
 TextureClient
 *
 aTexture
+TextureDumpMode
+aCompress
 )
 ;
 protected

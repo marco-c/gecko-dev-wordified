@@ -2463,6 +2463,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 /
@@ -2483,6 +2485,12 @@ a
 single
 image
 .
+if
+(
+!
+aDumpHtml
+)
+{
 aStream
 <
 <
@@ -2500,6 +2508,7 @@ Surface
 :
 "
 ;
+}
 CompositableClient
 :
 :
@@ -2507,6 +2516,7 @@ DumpTextureClient
 (
 aStream
 mTextureClient
+aCompress
 )
 ;
 }
@@ -2528,6 +2538,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 /
@@ -2579,6 +2591,7 @@ DumpTextureClient
 (
 aStream
 mFrontClient
+aCompress
 )
 ;
 }

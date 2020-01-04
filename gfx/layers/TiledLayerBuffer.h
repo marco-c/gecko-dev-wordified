@@ -148,6 +148,21 @@ gfxCriticalError
 #
 include
 "
+mozilla
+/
+layers
+/
+LayersTypes
+.
+h
+"
+/
+/
+for
+TextureDumpMode
+#
+include
+"
 nsDebug
 .
 h
@@ -1382,6 +1397,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 ;
 protected
@@ -1532,6 +1549,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 for
@@ -1638,6 +1657,7 @@ i
 DumpTexture
 (
 aStream
+aCompress
 )
 ;
 }
