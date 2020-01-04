@@ -5080,6 +5080,9 @@ _run_command_in_srcdir
 args
 =
 args
+require_unix_environment
+=
+True
             
 pass_thru
 =
@@ -12329,6 +12332,30 @@ frontend
 import
 which
         
+if
+self
+.
+_is_windows
+(
+)
+:
+          
+hg
+=
+which
+.
+which
+(
+'
+hg
+.
+exe
+'
+)
+        
+else
+:
+          
 hg
 =
 which

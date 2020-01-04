@@ -2962,20 +2962,16 @@ last
 (
 pushhead
 (
-"
 {
 tree
 }
-"
 )
-&
+and
 :
 :
-"
 {
 parent
 }
-"
 {
 num
 }
@@ -4581,7 +4577,7 @@ n
 mode
 =
 '
-r
+rb
 '
 )
                 
