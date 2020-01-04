@@ -88,6 +88,18 @@ suggest
 searches
 '
     
+PREF_SUGGEST_BOOKMARK
+=
+'
+browser
+.
+urlbar
+.
+suggest
+.
+bookmark
+'
+    
 def
 setUp
 (
@@ -104,16 +116,17 @@ self
         
 #
 Disable
-search
 suggestions
+for
+searches
+and
+bookmarks
 to
 get
 results
 only
 for
 history
-and
-bookmarks
         
 self
 .
@@ -124,6 +137,18 @@ set_pref
 self
 .
 PREF_SUGGEST_SEARCHES
+False
+)
+        
+self
+.
+prefs
+.
+set_pref
+(
+self
+.
+PREF_SUGGEST_BOOKMARK
 False
 )
         
