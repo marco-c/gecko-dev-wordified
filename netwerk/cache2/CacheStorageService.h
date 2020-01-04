@@ -1900,6 +1900,10 @@ mMon
 IOThreadSuspender
 "
 )
+mSignaled
+(
+false
+)
 {
 }
 void
@@ -1924,6 +1928,9 @@ override
 ;
 Monitor
 mMon
+;
+bool
+mSignaled
 ;
 }
 ;
