@@ -162,7 +162,7 @@ getItemAtIndex
 1
 "
 "
-ctx
+Object
 "
 "
 clearRect
@@ -198,7 +198,7 @@ getItemAtIndex
 2
 "
 "
-ctx
+Object
 "
 "
 fillStyle
@@ -235,7 +235,7 @@ getItemAtIndex
 3
 "
 "
-ctx
+Object
 "
 "
 fillRect
@@ -271,7 +271,7 @@ getItemAtIndex
 4
 "
 "
-ctx
+Object
 "
 "
 fillStyle
@@ -311,7 +311,7 @@ getItemAtIndex
 5
 "
 "
-ctx
+Object
 "
 "
 fillRect
@@ -347,7 +347,7 @@ getItemAtIndex
 6
 "
 "
-ctx
+Object
 "
 "
 fillStyle
@@ -387,7 +387,7 @@ getItemAtIndex
 7
 "
 "
-ctx
+Object
 "
 "
 fillRect
@@ -589,7 +589,15 @@ item
 .
 target
 )
-null
++
+"
+"
+"
+[
+object
+XULElement
+]
+"
 "
 The
 item
