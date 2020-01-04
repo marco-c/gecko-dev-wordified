@@ -514,9 +514,6 @@ nullptr
 gfxImageFormat
 format
 =
-(
-gfxImageFormat
-)
 shmInfo
 -
 >
