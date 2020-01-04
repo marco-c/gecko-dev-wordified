@@ -1784,7 +1784,7 @@ defined
 (
 SHOW_BOUNDING_BOX
 )
-nsresult
+void
 DisplayBoundingMetrics
 (
 nsDisplayListBuilder

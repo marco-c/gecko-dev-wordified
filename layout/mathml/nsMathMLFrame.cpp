@@ -1842,7 +1842,7 @@ DrawTarget
 *
 drawTarget
 =
-aRenderingContext
+aCtx
 -
 >
 GetDrawTarget
@@ -1905,7 +1905,7 @@ blue
 )
 ;
 }
-nsresult
+void
 nsMathMLFrame
 :
 :
@@ -1942,7 +1942,6 @@ flags
 )
 )
 return
-NS_OK
 ;
 nscoord
 x
@@ -1988,7 +1987,6 @@ aMetrics
 .
 descent
 ;
-return
 aLists
 .
 Content
@@ -2005,7 +2003,7 @@ aBuilder
 nsDisplayMathMLBoundingMetrics
 (
 aBuilder
-this
+aFrame
 nsRect
 (
 x
