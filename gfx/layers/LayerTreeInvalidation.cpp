@@ -3473,6 +3473,7 @@ bool
 &
 aGeometryChanged
 )
+override
 {
 ImageLayer
 *
