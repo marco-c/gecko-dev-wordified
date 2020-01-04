@@ -166,6 +166,17 @@ system
 ;
 Cu
 .
+importGlobalProperties
+(
+[
+"
+FileReader
+"
+]
+)
+;
+Cu
+.
 import
 (
 "

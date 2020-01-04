@@ -204,6 +204,9 @@ importGlobalProperties
 '
 File
 '
+'
+FileReader
+'
 ]
 )
 ;

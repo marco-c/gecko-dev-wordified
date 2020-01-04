@@ -125,6 +125,9 @@ importGlobalProperties
 '
 Blob
 '
+'
+FileReader
+'
 ]
 )
 ;

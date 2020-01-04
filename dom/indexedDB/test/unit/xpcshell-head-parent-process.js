@@ -261,6 +261,9 @@ Blob
 "
 File
 "
+"
+FileReader
+"
 ]
 )
 ;

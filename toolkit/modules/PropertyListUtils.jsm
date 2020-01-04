@@ -726,6 +726,9 @@ importGlobalProperties
 '
 File
 '
+'
+FileReader
+'
 ]
 )
 ;

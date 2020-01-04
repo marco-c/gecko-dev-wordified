@@ -298,6 +298,17 @@ jsm
 this
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+'
+FileReader
+'
+]
+)
+;
 XPCOMUtils
 .
 defineLazyModuleGetter

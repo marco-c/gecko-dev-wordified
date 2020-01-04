@@ -170,6 +170,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+FileReader
+"
+]
+)
+;
 var
 promise
 =

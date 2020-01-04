@@ -79,6 +79,9 @@ importGlobalProperties
 '
 Blob
 '
+'
+FileReader
+'
 ]
 )
 ;
