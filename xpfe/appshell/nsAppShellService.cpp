@@ -3962,16 +3962,11 @@ isUsingRemoteTabs
 }
 window
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
-/
-/
-transfer
-reference
 if
 (
 parent

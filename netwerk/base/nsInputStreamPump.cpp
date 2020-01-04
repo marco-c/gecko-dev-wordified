@@ -556,16 +556,10 @@ rv
 )
 )
 {
-*
-result
-=
-nullptr
-;
 pump
 .
-swap
+forget
 (
-*
 result
 )
 ;
