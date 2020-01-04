@@ -181,7 +181,7 @@ args
 .
 urls
 :
-           
+            
 if
 not
 os
@@ -195,7 +195,7 @@ args
 urls
 )
 :
-               
+                
 raise
 ValueError
 (
@@ -213,10 +213,10 @@ ini
 file
 '
 )
-           
+            
 else
 :
-               
+                
 path
 =
 os
@@ -229,7 +229,7 @@ args
 .
 urls
 )
-               
+                
 args
 .
 video_urls
@@ -239,6 +239,27 @@ MediaTestArgumentsBase
 get_urls
 (
 path
+)
+                
+if
+not
+args
+.
+video_urls
+:
+                    
+raise
+ValueError
+(
+'
+list
+of
+video
+URLs
+cannot
+be
+empty
+'
 )
     
 def
@@ -255,7 +276,7 @@ args
 .
 tests
 :
-           
+            
 args
 .
 tests
