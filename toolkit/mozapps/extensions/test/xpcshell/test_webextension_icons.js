@@ -192,7 +192,8 @@ function
 (
 )
 {
-writeWebManifestForExtension
+yield
+promiseWriteWebManifestForExtension
 (
 {
 name
@@ -583,7 +584,8 @@ function
 (
 )
 {
-writeWebManifestForExtension
+yield
+promiseWriteWebManifestForExtension
 (
 {
 name
@@ -797,7 +799,8 @@ function
 (
 )
 {
-writeWebManifestForExtension
+yield
+promiseWriteWebManifestForExtension
 (
 {
 name

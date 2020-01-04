@@ -201,7 +201,8 @@ directories
 {
 try
 {
-writeWebManifestForExtension
+yield
+promiseWriteWebManifestForExtension
 (
 manifest
 profileDir
