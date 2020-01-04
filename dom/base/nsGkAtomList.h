@@ -4595,13 +4595,6 @@ method
 )
 GK_ATOM
 (
-microdataProperties
-"
-microdataProperties
-"
-)
-GK_ATOM
-(
 middle
 "
 middle
