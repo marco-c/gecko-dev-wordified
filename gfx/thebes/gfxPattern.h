@@ -456,15 +456,6 @@ IsOpaque
 (
 )
 ;
-enum
-GraphicsExtend
-{
-EXTEND_NONE
-EXTEND_REPEAT
-EXTEND_REFLECT
-EXTEND_PAD
-}
-;
 /
 /
 clamp
