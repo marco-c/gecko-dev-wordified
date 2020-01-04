@@ -6453,17 +6453,6 @@ mCompositor
 SetDispAcquireFence
 (
 mRoot
-mCompositor
--
->
-GetWidget
-(
-)
--
->
-RealWidget
-(
-)
 )
 ;
 }

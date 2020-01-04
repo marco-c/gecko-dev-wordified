@@ -3210,9 +3210,6 @@ SetDispAcquireFence
 Layer
 *
 aLayer
-nsIWidget
-*
-aWidget
 )
 {
 /
@@ -3281,7 +3278,7 @@ aLayer
 |
 |
 !
-aWidget
+mWidget
 )
 {
 return
@@ -3297,7 +3294,12 @@ nsWindow
 *
 >
 (
-aWidget
+mWidget
+-
+>
+RealWidget
+(
+)
 )
 ;
 RefPtr
@@ -3396,9 +3398,6 @@ SetDispAcquireFence
 Layer
 *
 aLayer
-nsIWidget
-*
-aWidget
 )
 {
 }
