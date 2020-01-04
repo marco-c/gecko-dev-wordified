@@ -1409,7 +1409,7 @@ released
 yet
 .
 yield
-Promise
+promise
 .
 all
 (
