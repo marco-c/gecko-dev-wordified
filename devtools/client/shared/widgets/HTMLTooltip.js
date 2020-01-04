@@ -416,7 +416,7 @@ autofocus
 *
 Defaults
 to
-true
+false
 .
 Should
 the
@@ -471,7 +471,7 @@ normal
 "
 autofocus
 =
-true
+false
 consumeOutsideClicks
 =
 true
