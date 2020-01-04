@@ -811,6 +811,12 @@ emitOutOfLinePostBarrierSlot
 return
 Method_Error
 ;
+Linker
+linker
+(
+masm
+)
+;
 if
 (
 masm
@@ -829,12 +835,6 @@ return
 Method_Error
 ;
 }
-Linker
-linker
-(
-masm
-)
-;
 AutoFlushICache
 afc
 (
