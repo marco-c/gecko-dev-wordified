@@ -579,6 +579,8 @@ openLinkInCurrent
 #
 label
 and
+data
+-
 usercontextid
 are
 dynamically
@@ -642,6 +644,8 @@ openLinkCmdInTab
 accesskey
 ;
 "
+data
+-
 usercontextid
 =
 "
