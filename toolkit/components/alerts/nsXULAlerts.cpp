@@ -1029,7 +1029,7 @@ source
 nsAlertsUtils
 :
 :
-GetSource
+GetSourceHostPort
 (
 aPrincipal
 source
