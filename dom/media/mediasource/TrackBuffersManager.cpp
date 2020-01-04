@@ -8237,10 +8237,6 @@ Clear
 (
 )
 ;
-mEncrypted
-=
-true
-;
 }
 {
 MonitorAutoLock
