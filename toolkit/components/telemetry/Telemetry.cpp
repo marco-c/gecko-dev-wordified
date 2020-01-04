@@ -12591,7 +12591,7 @@ mAddonMap
 .
 RemoveEntry
 (
-id
+addonEntry
 )
 ;
 }

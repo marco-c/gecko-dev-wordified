@@ -16027,7 +16027,7 @@ pidToMinidump
 >
 RemoveEntry
 (
-childPid
+pd
 )
 ;
 return

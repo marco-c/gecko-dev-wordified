@@ -2724,7 +2724,7 @@ mUnassociatedIcons
 .
 RemoveEntry
 (
-aFaviconURI
+iconKey
 )
 ;
 }
