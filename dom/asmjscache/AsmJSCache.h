@@ -636,17 +636,6 @@ intptr_t
 aHandle
 )
 ;
-bool
-GetBuildId
-(
-JS
-:
-:
-BuildIdCharVector
-*
-aBuildId
-)
-;
 /
 /
 Called
