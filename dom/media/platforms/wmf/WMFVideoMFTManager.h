@@ -265,6 +265,16 @@ TrackInfo
 kVideoTrack
 ;
 }
+void
+ConfigurationChanged
+(
+const
+TrackInfo
+&
+aConfig
+)
+override
+;
 private
 :
 bool
