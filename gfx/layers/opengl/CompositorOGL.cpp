@@ -1012,7 +1012,6 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
-&
 discardFailureId
 )
 ;
