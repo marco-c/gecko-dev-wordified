@@ -290,7 +290,10 @@ if
 mTypedObj
 )
 {
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 &
@@ -308,7 +311,10 @@ if
 mWrappedObj
 )
 {
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 &

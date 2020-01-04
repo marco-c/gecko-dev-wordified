@@ -1635,7 +1635,10 @@ key
 (
 )
 ;
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 &
@@ -5908,7 +5911,10 @@ p
 )
 return
 ;
-JS_CallUnbarrieredObjectTracer
+js
+:
+:
+UnsafeTraceManuallyBarrieredEdge
 (
 trc
 &
