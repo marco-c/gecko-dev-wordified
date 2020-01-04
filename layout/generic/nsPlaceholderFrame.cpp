@@ -1366,9 +1366,9 @@ PaintDebugPlaceholder
 nsIFrame
 *
 aFrame
-nsRenderingContext
+DrawTarget
 *
-aCtx
+aDrawTarget
 const
 nsRect
 &
@@ -1398,17 +1398,6 @@ f
 f
 )
 )
-)
-;
-DrawTarget
-*
-drawTarget
-=
-aCtx
--
->
-GetDrawTarget
-(
 )
 ;
 int32_t
@@ -1465,7 +1454,7 @@ CSSPixelsToAppUnits
 )
 )
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
@@ -1518,7 +1507,7 @@ CSSPixelsToAppUnits
 )
 )
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
