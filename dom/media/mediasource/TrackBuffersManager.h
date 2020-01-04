@@ -792,6 +792,7 @@ TimeIntervals
 Buffered
 (
 )
+const
 ;
 media
 :
@@ -800,6 +801,7 @@ TimeUnit
 HighestStartTime
 (
 )
+const
 ;
 media
 :
@@ -808,6 +810,7 @@ TimeUnit
 HighestEndTime
 (
 )
+const
 ;
 /
 /
@@ -879,6 +882,7 @@ MediaInfo
 GetMetadata
 (
 )
+const
 ;
 const
 TrackBuffer
@@ -891,6 +895,7 @@ TrackInfo
 TrackType
 aTrack
 )
+const
 ;
 const
 media
@@ -905,6 +910,7 @@ TrackInfo
 :
 TrackType
 )
+const
 ;
 const
 media
@@ -919,6 +925,7 @@ TrackInfo
 :
 TrackType
 )
+const
 ;
 media
 :
@@ -1047,6 +1054,7 @@ TimeUnit
 &
 aFuzz
 )
+const
 ;
 media
 :
@@ -1078,6 +1086,7 @@ ResourceSizes
 *
 aSizes
 )
+const
 ;
 private
 :
@@ -2600,6 +2609,7 @@ ResourceSizes
 *
 aSizes
 )
+const
 ;
 }
 ;
@@ -2877,6 +2887,17 @@ definition
 .
 nsTArray
 <
+const
+TrackData
+*
+>
+GetTracksList
+(
+)
+const
+;
+nsTArray
+<
 TrackData
 *
 >
@@ -2974,6 +2995,7 @@ AbstractThread
 GetTaskQueue
 (
 )
+const
 {
 return
 mTaskQueue
@@ -2983,6 +3005,7 @@ bool
 OnTaskQueue
 (
 )
+const
 {
 return
 !
