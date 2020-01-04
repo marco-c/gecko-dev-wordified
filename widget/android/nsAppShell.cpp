@@ -5413,7 +5413,7 @@ else
 {
 queue
 .
-insertFront
+insertBack
 (
 this
 )
