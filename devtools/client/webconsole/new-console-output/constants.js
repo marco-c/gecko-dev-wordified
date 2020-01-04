@@ -292,6 +292,11 @@ log
 severities
 .
 SEVERITY_LOG
+clear
+:
+severities
+.
+SEVERITY_LOG
 trace
 :
 severities
