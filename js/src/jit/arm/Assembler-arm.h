@@ -9534,7 +9534,10 @@ as_FImm64Pool
 (
 VFPRegister
 dest
-double
+wasm
+:
+:
+RawF64
 value
 Condition
 c
@@ -9563,7 +9566,10 @@ as_FImm32Pool
 (
 VFPRegister
 dest
-float
+wasm
+:
+:
+RawF32
 value
 Condition
 c

@@ -2032,7 +2032,13 @@ alloc
 )
 LDouble
 (
+wasm
+:
+:
+RawF64
+(
 d
+)
 )
 mir
 )
@@ -2058,7 +2064,13 @@ alloc
 )
 LFloat32
 (
+wasm
+:
+:
+RawF32
+(
 f
+)
 )
 mir
 )

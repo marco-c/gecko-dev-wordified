@@ -1132,9 +1132,12 @@ val
 =
 Val
 (
+RawF32
+(
 float
 (
 d
+)
 )
 )
 ;
@@ -1169,7 +1172,10 @@ val
 =
 Val
 (
+RawF64
+(
 d
+)
 )
 ;
 break
