@@ -1742,10 +1742,10 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
-nsIDOMDocument
-*
+nsIDocument
+&
 aDoc
 )
 ;
