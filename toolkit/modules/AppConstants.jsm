@@ -298,17 +298,6 @@ else
 false
 #
 endif
-MOZ_DEVICES
-:
-#
-ifdef
-MOZ_DEVICES
-true
-#
-else
-false
-#
-endif
 MOZ_SAFE_BROWSING
 :
 #
