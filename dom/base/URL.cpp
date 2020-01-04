@@ -550,10 +550,8 @@ rv
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL
->
 (
+MSG_INVALID_URL
 &
 aBase
 )
@@ -641,10 +639,8 @@ rv
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL
->
 (
+MSG_INVALID_URL
 &
 aUrl
 )
@@ -1296,10 +1292,8 @@ aHref
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL
->
 (
+MSG_INVALID_URL
 &
 label
 )

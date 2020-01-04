@@ -951,10 +951,8 @@ rv
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL
->
 (
+MSG_INVALID_URL
 &
 aScriptURL
 )
@@ -1099,10 +1097,8 @@ spec
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_SCOPE
->
 (
+MSG_INVALID_SCOPE
 &
 defaultScope
 &
@@ -1181,10 +1177,8 @@ spec
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_SCOPE
->
 (
+MSG_INVALID_SCOPE
 &
 aOptions
 .

@@ -304,10 +304,8 @@ encoding
 aError
 .
 ThrowRangeError
-<
-MSG_ENCODING_NOT_SUPPORTED
->
 (
+MSG_ENCODING_NOT_SUPPORTED
 &
 aOptions
 .
