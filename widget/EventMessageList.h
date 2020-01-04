@@ -2176,6 +2176,14 @@ NS_EVENT_MESSAGE
 (
 ePointerLockError
 )
+NS_EVENT_MESSAGE
+(
+eMozPointerLockChange
+)
+NS_EVENT_MESSAGE
+(
+eMozPointerLockError
+)
 /
 /
 eWheel

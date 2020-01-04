@@ -15878,12 +15878,12 @@ ExitFullscreen
 ;
 Element
 *
-GetMozPointerLockElement
+GetPointerLockElement
 (
 )
 ;
 void
-MozExitPointerLock
+ExitPointerLock
 (
 )
 {

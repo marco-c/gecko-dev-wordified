@@ -4419,7 +4419,7 @@ aError
 )
 ;
 void
-MozRequestPointerLock
+RequestPointerLock
 (
 )
 ;
@@ -11226,7 +11226,7 @@ override
 Element
 :
 :
-MozRequestPointerLock
+RequestPointerLock
 (
 )
 ;
