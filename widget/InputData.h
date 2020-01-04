@@ -3095,6 +3095,15 @@ false
 )
 {
 }
+explicit
+ScrollWheelInput
+(
+const
+WidgetWheelEvent
+&
+aEvent
+)
+;
 WidgetWheelEvent
 ToWidgetWheelEvent
 (
