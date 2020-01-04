@@ -17725,14 +17725,6 @@ aBuilder
 )
 override
 ;
-void
-MarkBoundsAsVisible
-(
-nsDisplayListBuilder
-*
-aBuilder
-)
-;
 protected
 :
 typedef
