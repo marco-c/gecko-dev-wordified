@@ -310,7 +310,7 @@ CAIRO_SURFACE
 format
 creates
 a
-CairoImage
+SourceSurfaceImage
 .
 All
 backends

@@ -41388,12 +41388,12 @@ layer
 ;
 RefPtr
 <
-CairoImage
+SourceSurfaceImage
 >
 image
 =
 new
-CairoImage
+SourceSurfaceImage
 (
 surfaceSizeInt
 surface

@@ -1065,7 +1065,7 @@ a
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 .
 *
 /
@@ -1094,7 +1094,7 @@ RefPtr
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 >
 image
 =
@@ -1102,7 +1102,7 @@ new
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 (
 aSurface
 -
@@ -1644,7 +1644,7 @@ a
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 from
 raw
 data
@@ -1686,14 +1686,14 @@ a
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 .
 However
 the
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 asserts
 the
 *
@@ -1735,7 +1735,7 @@ a
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 from
 an
 ImageData

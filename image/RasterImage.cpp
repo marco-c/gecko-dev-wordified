@@ -4319,7 +4319,7 @@ new
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 (
 size
 surface

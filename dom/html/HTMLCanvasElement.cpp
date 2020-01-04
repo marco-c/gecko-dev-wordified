@@ -5793,12 +5793,12 @@ aSurface
 ;
 RefPtr
 <
-CairoImage
+SourceSurfaceImage
 >
 image
 =
 new
-CairoImage
+SourceSurfaceImage
 (
 surface
 -
