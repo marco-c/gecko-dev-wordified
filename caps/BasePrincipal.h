@@ -1744,15 +1744,6 @@ aResult
 override
 ;
 NS_IMETHOD
-GetJarPrefix
-(
-nsACString
-&
-aJarPrefix
-)
-final
-;
-NS_IMETHOD
 GetOriginAttributes
 (
 JSContext
