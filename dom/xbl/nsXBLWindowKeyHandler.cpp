@@ -4036,6 +4036,9 @@ commandElement
 {
 if
 (
+aExecute
+&
+&
 !
 IsExecutableElement
 (
