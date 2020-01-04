@@ -633,7 +633,7 @@ handle
 )
 ;
 jclass
-GetClassGlobalRef
+GetClassRef
 (
 JNIEnv
 *
