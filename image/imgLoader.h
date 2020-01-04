@@ -1623,10 +1623,7 @@ images
 *
 /
 static
-NS_EXPORT_
-(
 bool
-)
 SupportImageWithMimeType
 (
 const
