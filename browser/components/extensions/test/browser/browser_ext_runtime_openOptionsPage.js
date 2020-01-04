@@ -65,7 +65,9 @@ loadExtension
 {
 useAddonManager
 :
-true
+"
+temporary
+"
 manifest
 :
 Object
