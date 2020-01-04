@@ -84,7 +84,7 @@ valid
 )
 ;
 let
-INSPECTOR_L10N
+STARTUP_L10N
 =
 new
 LocalizationHelper
@@ -94,7 +94,7 @@ devtools
 /
 locale
 /
-inspector
+startup
 .
 properties
 "
@@ -120,7 +120,7 @@ properties
 let
 str1
 =
-INSPECTOR_L10N
+STARTUP_L10N
 .
 getStr
 (
@@ -134,7 +134,7 @@ label
 let
 str2
 =
-INSPECTOR_L10N
+STARTUP_L10N
 .
 getStr
 (
@@ -221,7 +221,7 @@ devtools
 /
 locale
 /
-inspector
+startup
 .
 properties
 "
