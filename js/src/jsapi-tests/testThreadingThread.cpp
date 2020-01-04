@@ -150,6 +150,13 @@ h
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -557,6 +564,11 @@ js
 :
 :
 Thread
+0
+js
+:
+:
+SystemAllocPolicy
 >
 v
 ;
