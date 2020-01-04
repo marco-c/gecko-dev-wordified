@@ -2561,7 +2561,6 @@ extmapAttr
 }
 if
 (
-(
 mDirection
 =
 =
@@ -2570,8 +2569,15 @@ sdp
 :
 kRecv
 )
-&
-&
+{
+mSsrcs
+.
+clear
+(
+)
+;
+if
+(
 remote
 .
 GetAttributeList
@@ -2613,6 +2619,7 @@ ssrcAttr
 ssrc
 )
 ;
+}
 }
 }
 mNegotiatedDetails
