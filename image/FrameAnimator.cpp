@@ -882,9 +882,6 @@ return
 currentFrameEndTime
 ;
 }
-FrameAnimator
-:
-:
 RefreshResult
 FrameAnimator
 :
@@ -1298,7 +1295,7 @@ mLoopRemainingCount
 {
 ret
 .
-animationFinished
+mAnimationFinished
 =
 true
 ;
@@ -1337,7 +1334,7 @@ if
 (
 ret
 .
-animationFinished
+mAnimationFinished
 )
 {
 return
@@ -1568,7 +1565,7 @@ Forever
 {
 ret
 .
-animationFinished
+mAnimationFinished
 =
 true
 ;
@@ -1583,7 +1580,7 @@ nextFrameIndex
 {
 ret
 .
-dirtyRect
+mDirtyRect
 =
 aState
 .
@@ -1616,7 +1613,7 @@ DoBlend
 &
 ret
 .
-dirtyRect
+mDirtyRect
 currentFrameIndex
 nextFrameIndex
 )
@@ -1896,7 +1893,7 @@ frame
 .
 ret
 .
-frameAdvanced
+mFrameAdvanced
 =
 true
 ;
@@ -1904,9 +1901,6 @@ return
 ret
 ;
 }
-FrameAnimator
-:
-:
 RefreshResult
 FrameAnimator
 :
@@ -2015,7 +2009,7 @@ aState
 ;
 /
 /
-if
+If
 we
 didn
 '
@@ -2056,12 +2050,13 @@ s
 to
 finish
 downloading
+.
 if
 (
 !
 frameRes
 .
-frameAdvanced
+mFrameAdvanced
 &
 &
 (

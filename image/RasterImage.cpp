@@ -1230,9 +1230,6 @@ mAnimating
 return
 ;
 }
-FrameAnimator
-:
-:
 RefreshResult
 res
 ;
@@ -1263,7 +1260,7 @@ if
 (
 res
 .
-frameAdvanced
+mFrameAdvanced
 )
 {
 /
@@ -1320,7 +1317,7 @@ NotifyProgress
 NoProgress
 res
 .
-dirtyRect
+mDirtyRect
 )
 ;
 }
@@ -1328,7 +1325,7 @@ if
 (
 res
 .
-animationFinished
+mAnimationFinished
 )
 {
 mAnimationFinished
