@@ -319,6 +319,12 @@ using
 mozilla
 :
 :
+IsPowerOfTwo
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using
@@ -23088,7 +23094,10 @@ n
 !
 IsPowerOfTwo
 (
+uint32_t
+(
 n
+)
 )
 )
 canBePowerOfTwoDivisor_

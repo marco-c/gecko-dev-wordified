@@ -438,6 +438,12 @@ using
 mozilla
 :
 :
+IsPowerOfTwo
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using

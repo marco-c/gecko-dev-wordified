@@ -288,6 +288,12 @@ using
 mozilla
 :
 :
+IsPowerOfTwo
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 using

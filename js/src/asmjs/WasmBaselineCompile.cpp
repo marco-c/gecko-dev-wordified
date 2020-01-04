@@ -847,6 +847,15 @@ h
 #
 include
 "
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
+include
+"
 asmjs
 /
 WasmBinaryIterator
@@ -1013,6 +1022,12 @@ mozilla
 :
 :
 FloatingPoint
+;
+using
+mozilla
+:
+:
+IsPowerOfTwo
 ;
 using
 mozilla
@@ -4003,7 +4018,7 @@ localSize_
 AlignBytes
 (
 localSize_
-8
+8u
 )
 ;
 else
@@ -4019,7 +4034,7 @@ localSize_
 AlignBytes
 (
 localSize_
-16
+16u
 )
 ;
 localSize_
@@ -13559,7 +13574,7 @@ i
 stackBytesConsumedSoFar
 (
 )
-16
+16u
 )
 ;
 }
@@ -43724,7 +43739,7 @@ localSize_
 AlignBytes
 (
 localSize_
-16
+16u
 )
 ;
 addInterruptCheck
