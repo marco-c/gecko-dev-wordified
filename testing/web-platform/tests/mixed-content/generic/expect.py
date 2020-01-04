@@ -608,6 +608,9 @@ smiley
 png
 "
 )
+"
+rb
+"
 )
 .
 read
@@ -649,6 +652,9 @@ sound_5
 oga
 "
 )
+"
+rb
+"
 )
 .
 read
@@ -690,6 +696,9 @@ movie_5
 mp4
 "
 )
+"
+rb
+"
 )
 .
 read
@@ -737,6 +746,9 @@ worker
 js
 "
 )
+"
+rb
+"
 )
 .
 read
