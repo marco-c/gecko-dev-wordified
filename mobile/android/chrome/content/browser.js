@@ -51939,6 +51939,8 @@ if
 aData
 )
 {
+try
+{
 let
 uri
 =
@@ -51953,8 +51955,6 @@ null
 null
 )
 ;
-try
-{
 if
 (
 uri
