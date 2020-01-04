@@ -991,7 +991,7 @@ Steps
 .
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

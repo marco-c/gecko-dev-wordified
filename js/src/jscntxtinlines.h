@@ -953,7 +953,7 @@ check
 (
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )

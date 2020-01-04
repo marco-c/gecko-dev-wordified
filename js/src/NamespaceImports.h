@@ -370,6 +370,9 @@ HandleValueArray
 class
 ObjectOpResult
 ;
+struct
+PropertyDescriptor
+;
 }
 /
 /
@@ -873,6 +876,12 @@ JS
 :
 :
 ObjectOpResult
+;
+using
+JS
+:
+:
+PropertyDescriptor
 ;
 using
 JS

@@ -1021,7 +1021,10 @@ JS
 :
 Handle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 PPropertyDescriptor
@@ -1044,7 +1047,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 out
 )

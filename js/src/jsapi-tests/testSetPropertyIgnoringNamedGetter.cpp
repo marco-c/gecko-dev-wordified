@@ -118,7 +118,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -148,7 +148,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -189,7 +189,7 @@ override
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -241,7 +241,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 bool

@@ -222,7 +222,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 descriptor
 )
@@ -1048,7 +1048,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1116,7 +1116,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1233,7 +1233,7 @@ OTHER
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -1373,7 +1373,7 @@ const
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -1538,7 +1538,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -1549,7 +1549,7 @@ const
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 interpDesc
 (
@@ -1645,7 +1645,7 @@ const
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

@@ -489,9 +489,6 @@ struct
 JSPrincipals
 ;
 struct
-JSPropertyDescriptor
-;
-struct
 JSPropertyName
 ;
 struct
@@ -655,6 +652,9 @@ js
 namespace
 JS
 {
+struct
+PropertyDescriptor
+;
 typedef
 void
 (

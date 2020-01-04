@@ -192,12 +192,9 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
-JS
-:
-:
 ObjectOpResult
 &
 result

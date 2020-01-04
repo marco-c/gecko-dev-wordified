@@ -125,7 +125,10 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 (

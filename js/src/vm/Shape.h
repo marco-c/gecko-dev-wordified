@@ -1057,10 +1057,6 @@ typedef
 JSSetterOp
 SetterOp
 ;
-typedef
-JSPropertyDescriptor
-PropertyDescriptor
-;
 /
 *
 Limit
