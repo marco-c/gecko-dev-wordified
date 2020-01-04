@@ -1419,6 +1419,8 @@ showDefaultFavicon
 null
 )
 ;
+return
+;
 }
 /
 /
