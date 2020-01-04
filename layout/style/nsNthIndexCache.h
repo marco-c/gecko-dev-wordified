@@ -528,6 +528,16 @@ reportAllocOverflow
 const
 {
 }
+bool
+checkSimulatedOOM
+(
+)
+const
+{
+return
+true
+;
+}
 }
 ;
 typedef
