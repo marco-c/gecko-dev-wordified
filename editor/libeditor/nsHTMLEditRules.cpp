@@ -128,6 +128,13 @@ h
 #
 include
 "
+CSSEditUtils
+.
+h
+"
+#
+include
+"
 EditorUtils
 .
 h
@@ -287,13 +294,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLCSSUtils
 .
 h
 "
@@ -5917,7 +5917,7 @@ IsCSSEnabled
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -5975,7 +5975,7 @@ right
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetCSSEquivalentToHTMLInlineStyleSet
@@ -5985,7 +5985,7 @@ nullptr
 &
 typeAttrName
 value
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -6369,7 +6369,7 @@ nsIAtom
 &
 MarginPropertyAtomForIndent
 (
-nsHTMLCSSUtils
+CSSEditUtils
 &
 aHTMLCSSUtils
 nsINode
@@ -6659,7 +6659,7 @@ MarginPropertyAtomForIndent
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 curNode
 )
 ;
@@ -6680,7 +6680,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetSpecifiedProperty
@@ -6717,7 +6717,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -27640,7 +27640,7 @@ MarginPropertyAtomForIndent
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 curNode
 )
 ;
@@ -27650,7 +27650,7 @@ value
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetSpecifiedProperty
@@ -27677,7 +27677,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -28197,7 +28197,7 @@ MarginPropertyAtomForIndent
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 curNode
 )
 ;
@@ -28207,7 +28207,7 @@ value
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetSpecifiedProperty
@@ -28230,7 +28230,7 @@ unit
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -32361,7 +32361,7 @@ useCSS
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -50257,7 +50257,7 @@ IsElement
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ElementsSameStyle
@@ -50563,7 +50563,7 @@ mHTMLEditor
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -50586,7 +50586,7 @@ attr
 )
 isSet
 outValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -50898,7 +50898,7 @@ bAny
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -50920,7 +50920,7 @@ i
 attr
 )
 curValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -58242,7 +58242,7 @@ res
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSInlineStyle
@@ -59040,7 +59040,7 @@ MarginPropertyAtomForIndent
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 aElement
 )
 ;
@@ -59050,7 +59050,7 @@ value
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetSpecifiedProperty
@@ -59072,7 +59072,7 @@ unit
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -59100,7 +59100,7 @@ defaultLengthUnit
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetDefaultLengthUnit
@@ -59342,7 +59342,7 @@ unit
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSProperty
@@ -59359,7 +59359,7 @@ NS_OK
 mHTMLEditor
 -
 >
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty

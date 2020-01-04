@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
 nsHTMLEditor
 .
 h
@@ -1778,7 +1771,7 @@ nsIAtom
 >
 dummyUnit
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -1793,7 +1786,7 @@ width
 value
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -1807,7 +1800,7 @@ dummyUnit
 )
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -1822,7 +1815,7 @@ height
 value
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ParseLength
@@ -3510,7 +3503,7 @@ true
 /
 position
 it
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -3525,7 +3518,7 @@ width
 mResizedObjectWidth
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -4272,7 +4265,7 @@ mouseCursorOffset
 =
 20
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -4289,7 +4282,7 @@ infoXPosition
 mouseCursorOffset
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5146,7 +5139,7 @@ clientX
 clientY
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5161,7 +5154,7 @@ left
 newX
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5176,7 +5169,7 @@ top
 newY
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5191,7 +5184,7 @@ width
 newWidth
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5387,7 +5380,7 @@ newX
 newY
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5402,7 +5395,7 @@ left
 newX
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5673,7 +5666,7 @@ if
 (
 setHeight
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5692,7 +5685,7 @@ if
 (
 setWidth
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5792,7 +5785,7 @@ if
 (
 setWidth
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5811,7 +5804,7 @@ if
 (
 setHeight
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5874,7 +5867,7 @@ if
 (
 setWidth
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5893,7 +5886,7 @@ if
 (
 setHeight
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -5978,7 +5971,7 @@ if
 (
 setWidth
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -5999,7 +5992,7 @@ if
 (
 setHeight
 )
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty

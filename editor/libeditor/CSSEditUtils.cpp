@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsHTMLCSSUtils
+CSSEditUtils
 .
 h
 "
@@ -370,15 +370,11 @@ nsUnicharUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 static
@@ -1137,7 +1133,7 @@ AppendLiteral
 }
 }
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1147,7 +1143,7 @@ boldEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_font_weight
@@ -1159,7 +1155,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1168,7 +1164,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1178,7 +1174,7 @@ italicEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_font_style
@@ -1192,7 +1188,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1201,7 +1197,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1211,7 +1207,7 @@ underlineEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_text_decoration
@@ -1225,7 +1221,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1234,7 +1230,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1244,7 +1240,7 @@ strikeEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_text_decoration
@@ -1260,7 +1256,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1269,7 +1265,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1279,7 +1275,7 @@ ttEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_font_family
@@ -1293,7 +1289,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1302,7 +1298,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1312,7 +1308,7 @@ fontColorEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_color
@@ -1324,7 +1320,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1333,7 +1329,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1343,7 +1339,7 @@ fontFaceEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_font_family
@@ -1355,7 +1351,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1364,7 +1360,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1374,7 +1370,7 @@ bgcolorEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_background_color
@@ -1386,7 +1382,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1395,7 +1391,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1405,7 +1401,7 @@ backgroundImageEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_background_image
@@ -1422,7 +1418,7 @@ true
 true
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1431,7 +1427,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1441,7 +1437,7 @@ textColorEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_color
@@ -1453,7 +1449,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1462,7 +1458,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1472,7 +1468,7 @@ borderEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_border
@@ -1487,7 +1483,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1496,7 +1492,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1506,7 +1502,7 @@ textAlignEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_text_align
@@ -1518,7 +1514,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1527,7 +1523,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1537,7 +1533,7 @@ captionAlignEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_caption_side
@@ -1549,7 +1545,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1558,7 +1554,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1568,7 +1564,7 @@ verticalAlignEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_vertical_align
@@ -1580,7 +1576,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1589,7 +1585,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1599,7 +1595,7 @@ nowrapEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_whitespace
@@ -1613,7 +1609,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1622,7 +1618,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1632,7 +1628,7 @@ widthEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_width
@@ -1644,7 +1640,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1653,7 +1649,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1663,7 +1659,7 @@ heightEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_height
@@ -1675,7 +1671,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1684,7 +1680,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1694,7 +1690,7 @@ listStyleTypeEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_list_style_type
@@ -1706,7 +1702,7 @@ true
 true
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1715,7 +1711,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1725,7 +1721,7 @@ tableAlignEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_text_align
@@ -1739,7 +1735,7 @@ false
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_margin_left
@@ -1751,7 +1747,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_margin_right
@@ -1763,7 +1759,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1772,7 +1768,7 @@ eCSSEditableProperty_NONE
 }
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -1782,7 +1778,7 @@ hrAlignEquivTable
 =
 {
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_margin_left
@@ -1794,7 +1790,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_margin_right
@@ -1806,7 +1802,7 @@ true
 false
 }
 {
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eCSSEditableProperty_NONE
@@ -1814,19 +1810,19 @@ eCSSEditableProperty_NONE
 }
 }
 ;
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
-nsHTMLCSSUtils
+CSSEditUtils
 (
 nsHTMLEditor
 *
-aEditor
+aHTMLEditor
 )
 :
 mHTMLEditor
 (
-aEditor
+aHTMLEditor
 )
 mIsCSSPrefChecked
 (
@@ -1864,11 +1860,11 @@ mIsCSSPrefChecked
 )
 ;
 }
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 ~
-nsHTMLCSSUtils
+CSSEditUtils
 (
 )
 {
@@ -1901,7 +1897,7 @@ the
 node
 aNode
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSEditableProperty
@@ -2766,7 +2762,7 @@ carried
 by
 aElement
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSProperty
@@ -2827,7 +2823,7 @@ transaction
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSPropertyPixels
@@ -2916,7 +2912,7 @@ only
 one
 value
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 RemoveCSSProperty
@@ -2980,7 +2976,7 @@ already_AddRefed
 <
 ChangeStyleTransaction
 >
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CreateCSSPropertyTxn
@@ -3026,7 +3022,7 @@ forget
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetSpecifiedProperty
@@ -3055,7 +3051,7 @@ eSpecified
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetComputedProperty
@@ -3084,7 +3080,7 @@ eComputed
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetCSSInlinePropertyBase
@@ -3118,9 +3114,6 @@ Truncate
 ;
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 element
@@ -3284,14 +3277,11 @@ already_AddRefed
 <
 nsComputedDOMStyle
 >
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetComputedStyle
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -3391,7 +3381,7 @@ attribute
 is
 _moz_dirty
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 RemoveCSSInlineStyle
@@ -3513,7 +3503,7 @@ on
 a
 node
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSInvertible
@@ -3553,7 +3543,7 @@ it
 for
 GetCSSBackgroundColorState
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetDefaultBackgroundColor
@@ -3754,7 +3744,7 @@ Indent
 /
 Outdent
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetDefaultLengthUnit
@@ -3860,7 +3850,7 @@ query
 .
 .
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 ParseLength
@@ -4267,7 +4257,7 @@ take
 ;
 }
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetCSSPropertyAtom
@@ -4572,7 +4562,7 @@ equivalence
 table
 aEquivTable
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 BuildCSSDeclarations
@@ -4832,14 +4822,11 @@ the
 node
 aNode
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GenerateCSSDeclarationsFromHTMLStyle
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -4877,7 +4864,7 @@ aElement
 )
 ;
 const
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 CSSEquivTable
@@ -5387,9 +5374,6 @@ the
 call
 .
 The
-dom
-:
-:
 Element
 version
 returns
@@ -5397,14 +5381,11 @@ aCount
 instead
 .
 int32_t
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSEquivalentToHTMLStyle
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -5537,7 +5518,7 @@ count
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSEquivalentToHTMLStyle
@@ -5565,9 +5546,6 @@ aSuppressTransaction
 {
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 element
@@ -5749,7 +5727,7 @@ for
 the
 node
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 RemoveCSSEquivalentToHTMLStyle
@@ -5774,9 +5752,6 @@ aSuppressTransaction
 {
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 element
@@ -5804,14 +5779,11 @@ aSuppressTransaction
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 RemoveCSSEquivalentToHTMLStyle
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -6025,7 +5997,7 @@ or
 computed
 .
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetCSSEquivalentToHTMLInlineStyleSet
@@ -6055,9 +6027,6 @@ Truncate
 ;
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 theElement
@@ -6344,7 +6313,7 @@ modify
 aValue
 .
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -6398,7 +6367,7 @@ aStyleType
 ;
 }
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -6460,7 +6429,7 @@ isSet
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -7489,7 +7458,7 @@ NS_OK
 ;
 }
 void
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSEnabled
@@ -7504,7 +7473,7 @@ aIsCSSPrefChecked
 ;
 }
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 IsCSSPrefChecked
@@ -7557,7 +7526,7 @@ or
 a
 class
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 ElementsSameStyle
@@ -7572,9 +7541,6 @@ aSecondNode
 {
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 firstElement
@@ -7586,9 +7552,6 @@ aFirstNode
 ;
 nsCOMPtr
 <
-dom
-:
-:
 Element
 >
 secondElement
@@ -7638,20 +7601,14 @@ secondElement
 ;
 }
 bool
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 ElementsSameStyle
 (
-dom
-:
-:
 Element
 *
 aFirstElement
-dom
-:
-:
 Element
 *
 aSecondElement
@@ -8157,14 +8114,11 @@ true
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetInlineStyles
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -8194,7 +8148,7 @@ aLength
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetInlineStyles
@@ -8228,7 +8182,7 @@ aLength
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetInlineStyles
@@ -8318,7 +8272,7 @@ already_AddRefed
 <
 nsIDOMElement
 >
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetElementContainerOrSelf
@@ -8367,12 +8321,9 @@ forget
 )
 ;
 }
-dom
-:
-:
 Element
 *
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 GetElementContainerOrSelf
@@ -8462,7 +8413,7 @@ AsElement
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSProperty
@@ -8532,7 +8483,7 @@ EmptyString
 ;
 }
 nsresult
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 SetCSSPropertyPixels
@@ -8574,3 +8525,8 @@ px
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

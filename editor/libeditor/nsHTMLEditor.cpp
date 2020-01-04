@@ -1433,10 +1433,10 @@ HTML
 -
 CSS
 utils
-mHTMLCSSUtils
+mCSSEditUtils
 =
 new
-nsHTMLCSSUtils
+CSSEditUtils
 (
 this
 )
@@ -11038,7 +11038,7 @@ background
 color
 for
 blockParent
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -11160,7 +11160,7 @@ we
 are
 looking
 for
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetDefaultBackgroundColor
@@ -11298,7 +11298,7 @@ the
 node
 to
 examine
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -26960,7 +26960,7 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 int32_t
@@ -26968,7 +26968,7 @@ count
 ;
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -27394,12 +27394,12 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSEquivalentToHTMLStyle
@@ -27484,14 +27484,14 @@ aIsCSSPrefChecked
 if
 (
 !
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEnabled
@@ -27906,7 +27906,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -27962,7 +27962,7 @@ background
 to
 the
 body
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -28077,7 +28077,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -28444,7 +28444,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -28508,7 +28508,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -28619,7 +28619,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -28961,7 +28961,7 @@ span
 nodes
 .
 return
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ElementsSameStyle

@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
 nsHTMLEditor
 .
 h
@@ -2652,7 +2645,7 @@ now
 nsAutoString
 positionStr
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -2715,7 +2708,7 @@ nsComputedDOMStyle
 >
 cssDecl
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedStyle
@@ -2956,7 +2949,7 @@ nsIDOMElement
 aElement
 )
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2971,7 +2964,7 @@ left
 aX
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
