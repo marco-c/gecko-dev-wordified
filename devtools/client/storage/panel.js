@@ -392,6 +392,9 @@ _target
 this
 .
 _panelWin
+this
+.
+_toolbox
 )
 ;
 this
