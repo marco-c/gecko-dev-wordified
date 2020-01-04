@@ -5900,6 +5900,9 @@ this
 obj
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 JSObject
@@ -5913,12 +5916,10 @@ build
 (
 cx
 obj
+oomUnsafe
 )
 )
 {
-AutoEnterOOMUnsafeRegion
-oomUnsafe
-;
 assertSameCompartment
 (
 cx

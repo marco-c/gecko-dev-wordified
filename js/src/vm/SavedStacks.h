@@ -2140,6 +2140,9 @@ JSContext
 cx
 HandleObject
 obj
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 const
 override
