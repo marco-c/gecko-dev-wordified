@@ -580,6 +580,7 @@ function
 (
 )
 {
+let
 div
 =
 content
