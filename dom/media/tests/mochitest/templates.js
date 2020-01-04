@@ -3388,7 +3388,7 @@ test
 .
 pcRemote
 .
-endOfTrickelSdp
+endOfTrickleSdp
 )
 {
 /
