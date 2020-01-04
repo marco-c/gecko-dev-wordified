@@ -4217,11 +4217,12 @@ window
 focused
 :
 window
-=
-=
-WindowManager
 .
-topWindow
+document
+.
+hasFocus
+(
+)
 top
 :
 window
