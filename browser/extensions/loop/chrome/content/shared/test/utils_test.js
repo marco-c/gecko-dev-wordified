@@ -1891,6 +1891,12 @@ invalid
 .
 com
 "
+protocol
+:
+"
+http
+:
+"
 }
 )
 ;
@@ -2003,6 +2009,12 @@ oogle
 qmc
 .
 com
+"
+protocol
+:
+"
+http
+:
 "
 }
 )

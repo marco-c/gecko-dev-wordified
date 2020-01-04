@@ -2815,9 +2815,11 @@ object
 containing
 the
 hostname
-and
+*
 full
 location
+and
+protocol
 .
 *
 /
@@ -2973,6 +2975,11 @@ urlObject
 .
 href
 )
+protocol
+:
+urlObject
+.
+protocol
 }
 ;
 }
