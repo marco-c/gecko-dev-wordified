@@ -4814,6 +4814,14 @@ GetApzc
 )
 )
 {
+apzc
+-
+>
+ReportCheckerboard
+(
+aSampleTime
+)
+;
 activeAnimations
 |
 =
