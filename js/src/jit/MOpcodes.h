@@ -339,6 +339,11 @@ DefVar
 \
 _
 (
+DefLexical
+)
+\
+_
+(
 DefFun
 )
 \

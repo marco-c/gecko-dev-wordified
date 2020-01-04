@@ -1228,6 +1228,11 @@ fixedLexicalBegin
 ;
 nstack_
 =
+Max
+<
+unsigned
+>
+(
 script
 -
 >
@@ -1240,6 +1245,8 @@ script
 >
 nfixed
 (
+)
+MinJITStackSize
 )
 ;
 nslots_
