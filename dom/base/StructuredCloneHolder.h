@@ -1155,6 +1155,7 @@ MessagePortIdentifier
 PortIdentifiers
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1720,6 +1721,7 @@ other
 MessageChannel
 ports
 .
+mutable
 nsTArray
 <
 MessagePortIdentifier
