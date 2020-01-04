@@ -1098,8 +1098,6 @@ item
 setAttribute
 (
 "
-data
--
 usercontextid
 "
 userContextId
@@ -8741,8 +8739,6 @@ target
 getAttribute
 (
 '
-data
--
 usercontextid
 '
 )
