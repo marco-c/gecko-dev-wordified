@@ -172,9 +172,6 @@ const
 SurfaceCaps
 &
 caps
-GLContext
-*
-sharedContext
 bool
 isOffscreen
 HDC
@@ -199,9 +196,6 @@ const
 SurfaceCaps
 &
 caps
-GLContext
-*
-sharedContext
 bool
 isOffscreen
 HANDLE
