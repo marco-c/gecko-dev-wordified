@@ -2022,7 +2022,8 @@ composedDoc
 nullptr
 )
 ;
-return
+if
+(
 composedDoc
 -
 >
@@ -2030,9 +2031,13 @@ HasFlag
 (
 NODE_IS_EDITABLE
 )
-?
+)
+{
+return
 nullptr
-:
+;
+}
+return
 focusedContent
 ;
 }
