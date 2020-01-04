@@ -212,6 +212,60 @@ self
 __name__
 )
 class
+DependsFunction
+(
+object
+)
+:
+    
+__slots__
+=
+(
+'
+func
+'
+'
+dependencies
+'
+)
+    
+def
+__init__
+(
+self
+func
+dependencies
+)
+:
+        
+self
+.
+func
+=
+func
+        
+self
+.
+dependencies
+=
+dependencies
+    
+property
+    
+def
+name
+(
+self
+)
+:
+        
+return
+self
+.
+func
+.
+__name__
+class
 SandboxedGlobal
 (
 dict
@@ -710,21 +764,10 @@ set
 )
         
 #
-Store
-the
-real
-function
-and
-its
-dependencies
-behind
-each
-        
-#
-DependsFunction
-generated
-from
-depends
+Associate
+SandboxDependsFunctions
+to
+DependsFunctions
 .
         
 self
@@ -2069,8 +2112,7 @@ self
 .
 _depends
             
-func
-deps
+f
 =
 self
 .
@@ -2087,7 +2129,9 @@ self
 _help_option
 not
 in
-deps
+f
+.
+dependencies
 :
                 
 raise
@@ -2108,9 +2152,9 @@ help
 "
 %
                                      
-func
+f
 .
-__name__
+name
 )
             
 return
@@ -2184,8 +2228,7 @@ self
 .
 _depends
         
-func
-dependencies
+f
 =
 self
 .
@@ -2200,6 +2243,8 @@ inspect
 .
 isgeneratorfunction
 (
+f
+.
 func
 )
         
@@ -2209,6 +2254,8 @@ self
 .
 _help_option
 in
+f
+.
 dependencies
         
 if
@@ -2218,6 +2265,8 @@ with_help
 for
 arg
 in
+f
+.
 dependencies
 :
                 
@@ -2229,23 +2278,20 @@ SandboxDependsFunction
 )
 :
                     
-_
-deps
-=
-self
-.
-_depends
-[
-arg
-]
-                    
 if
 self
 .
 _help_option
 not
 in
-deps
+self
+.
+_depends
+[
+arg
+]
+.
+dependencies
 :
                         
 raise
@@ -2283,9 +2329,9 @@ help
                             
 %
 (
-func
+f
 .
-__name__
+name
 arg
 .
 __name__
@@ -2319,9 +2365,9 @@ help
 "
 %
                                  
-func
+f
 .
-__name__
+name
 )
         
 resolved_args
@@ -2336,10 +2382,14 @@ d
 for
 d
 in
+f
+.
 dependencies
 ]
         
 return
+f
+.
 func
 (
 *
@@ -3353,8 +3403,11 @@ _depends
 dummy
 ]
 =
+DependsFunction
+(
 func
 dependencies
+)
             
 #
 Only
@@ -5628,9 +5681,8 @@ _depends
 [
 value
 ]
-[
-1
-]
+.
+dependencies
             
 possible_reasons
 =
