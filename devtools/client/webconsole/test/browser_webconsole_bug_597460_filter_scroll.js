@@ -141,10 +141,7 @@ webconsole
 persistlog
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

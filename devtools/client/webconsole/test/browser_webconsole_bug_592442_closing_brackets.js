@@ -155,10 +155,7 @@ bug
 592442
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -101,10 +101,7 @@ bug
 773466
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

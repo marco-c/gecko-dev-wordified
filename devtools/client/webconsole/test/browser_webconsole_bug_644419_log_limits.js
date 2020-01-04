@@ -160,10 +160,7 @@ var
 hud
 outputNode
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

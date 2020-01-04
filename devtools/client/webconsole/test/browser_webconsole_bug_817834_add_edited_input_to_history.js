@@ -188,10 +188,7 @@ bug
 817834
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -93,10 +93,7 @@ panel
 -
 bug
 1168872
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

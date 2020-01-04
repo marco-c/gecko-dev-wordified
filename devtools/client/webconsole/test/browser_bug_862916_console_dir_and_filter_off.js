@@ -76,10 +76,7 @@ bug
 862916
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

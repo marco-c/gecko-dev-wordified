@@ -146,10 +146,7 @@ Ci
 nsIFocusManager
 )
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

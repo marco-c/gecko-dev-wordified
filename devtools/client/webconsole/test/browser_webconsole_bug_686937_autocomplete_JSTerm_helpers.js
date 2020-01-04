@@ -121,10 +121,7 @@ autocomplete
 var
 jsterm
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

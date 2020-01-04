@@ -72,10 +72,7 @@ bug
 967468
 )
 .
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

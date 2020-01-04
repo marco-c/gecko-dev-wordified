@@ -126,10 +126,7 @@ bug_1050691_click_function_to_source
 html
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

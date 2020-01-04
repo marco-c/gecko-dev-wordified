@@ -117,10 +117,7 @@ jsterm
 inputNode
 completeNode
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

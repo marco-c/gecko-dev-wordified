@@ -132,10 +132,7 @@ INPUT_HISTORY_COUNT
 =
 10
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

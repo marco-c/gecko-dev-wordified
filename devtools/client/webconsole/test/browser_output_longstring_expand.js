@@ -99,10 +99,7 @@ output
 .
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

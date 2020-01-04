@@ -136,10 +136,7 @@ Security
 HTTP_Strict_Transport_Security
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *
