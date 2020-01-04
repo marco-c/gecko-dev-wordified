@@ -179,6 +179,10 @@ upload
 -
 symbols
 '
+    
+'
+valgrind
+'
 ]
 )
 #
