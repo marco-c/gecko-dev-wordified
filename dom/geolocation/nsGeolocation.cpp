@@ -3900,10 +3900,6 @@ nsITimer
 if
 (
 mRequest
-.
-get
-(
-)
 )
 {
 mRequest
