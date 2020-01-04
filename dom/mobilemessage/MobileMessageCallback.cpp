@@ -1854,12 +1854,8 @@ NotifySetSmscAddress
 mPromise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return

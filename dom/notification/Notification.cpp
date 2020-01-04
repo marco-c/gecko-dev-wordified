@@ -13723,12 +13723,8 @@ those
 p
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 RefPtr

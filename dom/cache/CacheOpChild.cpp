@@ -707,12 +707,8 @@ TCachePutAllResult
 mPromise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 break
@@ -1082,12 +1078,8 @@ Tvoid_t
 mPromise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return
