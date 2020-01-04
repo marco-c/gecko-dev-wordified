@@ -10968,6 +10968,11 @@ mColor
 :
 val
 .
+GetCSSValueValue
+(
+)
+-
+>
 GetColorValue
 (
 )
@@ -11012,6 +11017,11 @@ eUnit_Color
 return
 val
 .
+GetCSSValueValue
+(
+)
+-
+>
 GetColorValue
 (
 )
