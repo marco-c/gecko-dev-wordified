@@ -1160,7 +1160,7 @@ tex
 if
 (
 !
-IsAsync
+UsesImageBridge
 (
 )
 &
@@ -1519,7 +1519,7 @@ textures
 ;
 if
 (
-IsAsync
+UsesImageBridge
 (
 )
 &
@@ -1623,7 +1623,7 @@ texOnWhite
 ;
 if
 (
-IsAsync
+UsesImageBridge
 (
 )
 )
