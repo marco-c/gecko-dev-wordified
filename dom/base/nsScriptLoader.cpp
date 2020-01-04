@@ -6913,6 +6913,12 @@ IsLoading
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+mDocument
+NS_ERROR_NULL_POINTER
+)
+;
 /
 /
 If
@@ -7627,9 +7633,6 @@ sourceUri
 ;
 if
 (
-mDocument
-&
-&
 mDocument
 -
 >
@@ -8964,9 +8967,6 @@ sourceUri
 ;
 if
 (
-mDocument
-&
-&
 mDocument
 -
 >
