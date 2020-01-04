@@ -8195,6 +8195,17 @@ char
 name
 )
 {
+if
+(
+writer
+-
+>
+oom
+(
+)
+)
+return
+;
 uint32_t
 curPos
 =
