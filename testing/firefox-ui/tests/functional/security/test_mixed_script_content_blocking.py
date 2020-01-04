@@ -59,12 +59,6 @@ import
 By
 Wait
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -482,8 +476,6 @@ _expect_protection_status
 (
 False
 )
-    
-skip_under_xvfb
     
 def
 test_mixed_content_page

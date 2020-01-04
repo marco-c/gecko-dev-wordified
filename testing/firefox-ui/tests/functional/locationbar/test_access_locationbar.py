@@ -58,12 +58,6 @@ marionette_driver
 import
 Wait
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -198,8 +192,6 @@ self
 locationbar
 .
 urlbar
-    
-skip_under_xvfb
     
 def
 test_access_locationbar_history

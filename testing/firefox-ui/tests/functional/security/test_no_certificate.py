@@ -63,12 +63,6 @@ import
 expected
 Wait
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -187,8 +181,6 @@ tearDown
 (
 self
 )
-    
-skip_under_xvfb
     
 def
 test_no_certificate

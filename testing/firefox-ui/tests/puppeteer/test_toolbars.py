@@ -66,12 +66,6 @@ errors
 import
 NoSuchElementException
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -1353,8 +1347,6 @@ tearDown
 self
 )
     
-skip_under_xvfb
-    
 def
 test_popup_elements
 (
@@ -1479,8 +1471,6 @@ itemCount
 )
 )
     
-skip_under_xvfb
-    
 def
 test_close
 (
@@ -1553,8 +1543,6 @@ autocomplete_results
 close
 (
 )
-    
-skip_under_xvfb
     
 def
 test_force_close
@@ -1631,8 +1619,6 @@ force
 =
 True
 )
-    
-skip_under_xvfb
     
 def
 test_matching_text
@@ -1940,8 +1926,6 @@ tearDown
 (
 self
 )
-    
-skip_under_xvfb
     
 def
 test_elements
@@ -2303,8 +2287,6 @@ button
 '
 )
     
-skip_under_xvfb
-    
 def
 test_open_close
 (
@@ -2373,8 +2355,6 @@ identity_popup
 .
 is_open
 )
-    
-skip_under_xvfb
     
 def
 test_force_close
