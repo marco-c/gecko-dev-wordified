@@ -1746,7 +1746,7 @@ return
 {
 boolean
 }
-Wether
+Whether
 or
 not
 it

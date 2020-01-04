@@ -2200,7 +2200,7 @@ log
 '
 Unable
 to
-retrive
+retrieve
 localized
 strings
 :

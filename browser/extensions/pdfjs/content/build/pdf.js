@@ -256,14 +256,14 @@ pdfjsVersion
 .
 5
 .
-337
+345
 '
 ;
 var
 pdfjsBuild
 =
 '
-11381cd
+10f9f11
 '
 ;
 var
@@ -7184,7 +7184,7 @@ function
 }
 resolve
 -
-Fullfills
+Fulfills
 the
 promise
 .
@@ -7310,7 +7310,7 @@ differences
 from
 other
 promise
-libaries
+libraries
 are
 :
 *
@@ -7321,7 +7321,7 @@ isn
 '
 t
 a
-seperate
+separate
 deferred
 and
 promise
@@ -23790,7 +23790,7 @@ repeat
 will
 bleed
 edges
-accross
+across
 entire
 area
 .
@@ -38376,7 +38376,7 @@ Notes
 from
 Rik
 on
-implmenting
+implementing
 :
 /
 /
