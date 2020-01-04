@@ -31045,8 +31045,8 @@ nsHostObjectProtocolHandler
 AddDataEntry
 (
 aURI
-blobImpl
 aPrincipal
+blobImpl
 )
 )
 )
