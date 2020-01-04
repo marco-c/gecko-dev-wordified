@@ -436,10 +436,10 @@ executed
 yet
 .
 static
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 bool
->
+)
 sDispatched
 ;
 }
@@ -449,10 +449,10 @@ sDispatched
 static
 *
 /
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 bool
->
+)
 FlushRejections
 :
 :

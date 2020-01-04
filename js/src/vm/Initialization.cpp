@@ -510,14 +510,6 @@ if
 !
 TlsPerThreadData
 .
-initialized
-(
-)
-&
-&
-!
-TlsPerThreadData
-.
 init
 (
 )

@@ -482,14 +482,11 @@ thread
 *
 /
 extern
-mozilla
-:
-:
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 PerThreadData
 *
->
+)
 TlsPerThreadData
 ;
 }

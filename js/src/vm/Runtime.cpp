@@ -511,12 +511,6 @@ mozilla
 PositiveInfinity
 ;
 using
-mozilla
-:
-:
-ThreadLocal
-;
-using
 JS
 :
 :
@@ -533,11 +527,11 @@ DoubleNaNValue
 static
 *
 /
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 PerThreadData
 *
->
+)
 js
 :
 :
