@@ -708,9 +708,9 @@ nsMathMLmspaceFrame
 :
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize

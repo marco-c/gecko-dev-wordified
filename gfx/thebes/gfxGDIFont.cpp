@@ -406,9 +406,9 @@ gfxGDIFont
 :
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *
@@ -530,12 +530,7 @@ if
 !
 SetupCairoFont
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 )
 {
@@ -549,7 +544,7 @@ gfxFont
 :
 ShapeText
 (
-aContext
+aDrawTarget
 aText
 aOffset
 aLength
@@ -708,9 +703,9 @@ uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
-gfxContext
+DrawTarget
 *
-aRefContext
+aRefDrawTarget
 Spacing
 *
 aSpacing
@@ -733,7 +728,7 @@ aTextRun
 aStart
 aEnd
 aBoundingBoxType
-aRefContext
+aRefDrawTarget
 aSpacing
 aOrientation
 )

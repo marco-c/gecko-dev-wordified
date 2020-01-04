@@ -63273,9 +63273,8 @@ GetWidth
 (
 buf
 len
-aRenderingContext
+drawTarget
 )
-;
 ;
 Color
 color

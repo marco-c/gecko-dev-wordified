@@ -1983,9 +1983,9 @@ nsMathMLmpaddedFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -2001,7 +2001,7 @@ nsMathMLContainerFrame
 :
 Place
 (
-aRenderingContext
+aDrawTarget
 false
 aDesiredSize
 )
@@ -2908,9 +2908,9 @@ nsMathMLmpaddedFrame
 :
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize
@@ -2923,7 +2923,7 @@ ProcessAttributes
 return
 Place
 (
-aRenderingContext
+aDrawTarget
 false
 aDesiredSize
 )

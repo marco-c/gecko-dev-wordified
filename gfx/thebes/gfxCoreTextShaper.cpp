@@ -649,9 +649,9 @@ gfxCoreTextShaper
 :
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *

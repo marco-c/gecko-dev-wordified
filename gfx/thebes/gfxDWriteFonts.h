@@ -284,9 +284,9 @@ uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
-gfxContext
+DrawTarget
 *
-aContextForTightBoundingBox
+aDrawTargetForTightBoundingBox
 Spacing
 *
 aSpacing

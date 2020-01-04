@@ -309,9 +309,9 @@ gfxFT2Font
 :
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *
@@ -337,7 +337,7 @@ gfxFont
 :
 ShapeText
 (
-aContext
+aDrawTarget
 aText
 aOffset
 aLength
@@ -371,12 +371,7 @@ aShapedText
 ;
 PostShapingFixup
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 aText
 aOffset
 aLength

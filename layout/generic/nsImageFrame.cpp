@@ -7867,6 +7867,10 @@ dir
 aPresContext
 aRenderingContext
 aRenderingContext
+.
+GetDrawTarget
+(
+)
 *
 fm
 x

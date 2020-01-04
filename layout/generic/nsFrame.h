@@ -1958,9 +1958,15 @@ else
 nsRect
 ComputeSimpleTightBounds
 (
-gfxContext
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 ;

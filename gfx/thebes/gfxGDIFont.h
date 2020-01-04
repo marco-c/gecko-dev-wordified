@@ -290,9 +290,9 @@ uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
-gfxContext
+DrawTarget
 *
-aContextForTightBoundingBox
+aDrawTargetForTightBoundingBox
 Spacing
 *
 aSpacing
@@ -507,9 +507,9 @@ virtual
 bool
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *

@@ -4377,9 +4377,9 @@ nsMathMLmoFrame
 :
 Stretch
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsStretchDirection
 aStretchDirection
 nsBoundingMetrics
@@ -4482,7 +4482,7 @@ height
 ;
 GetAxisHeight
 (
-aRenderingContext
+aDrawTarget
 fm
 axisHeight
 )
@@ -5518,7 +5518,7 @@ Stretch
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 fontSizeInflation
 aStretchDirection
 container
@@ -5618,7 +5618,7 @@ rv
 =
 Place
 (
-aRenderingContext
+aDrawTarget
 true
 aDesiredStretchSize
 )
@@ -7049,9 +7049,9 @@ nsMathMLmoFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -7067,7 +7067,7 @@ nsMathMLTokenFrame
 :
 Place
 (
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 )
@@ -7210,7 +7210,7 @@ Stretch
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 nsLayoutUtils
 :
 :
@@ -7574,8 +7574,12 @@ GetMaxWidth
 PresContext
 (
 )
-*
 aRenderingContext
+-
+>
+GetDrawTarget
+(
+)
 nsLayoutUtils
 :
 :

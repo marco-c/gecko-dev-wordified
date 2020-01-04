@@ -332,9 +332,9 @@ ReflowChar
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsFontMetrics
 &
 aFontMetrics

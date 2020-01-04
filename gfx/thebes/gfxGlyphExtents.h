@@ -485,9 +485,9 @@ GetTightGlyphExtentsAppUnits
 gfxFont
 *
 aFont
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 uint32_t
 aGlyphID
 gfxRect

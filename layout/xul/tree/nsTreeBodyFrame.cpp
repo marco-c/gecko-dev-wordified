@@ -7635,6 +7635,16 @@ passed
 "
 )
 ;
+DrawTarget
+*
+drawTarget
+=
+aRenderingContext
+.
+GetDrawTarget
+(
+)
+;
 nscoord
 maxWidth
 =
@@ -7652,7 +7662,7 @@ StringWidthIsGreaterThan
 (
 aText
 aFontMetrics
-aRenderingContext
+drawTarget
 maxWidth
 )
 ;
@@ -7838,7 +7848,7 @@ StringWidthIsGreaterThan
 (
 aText
 aFontMetrics
-aRenderingContext
+drawTarget
 maxWidth
 )
 ;
@@ -7920,7 +7930,7 @@ AppUnitWidthOfString
 (
 kEllipsis
 aFontMetrics
-aRenderingContext
+drawTarget
 )
 ;
 width
@@ -8091,7 +8101,7 @@ AppUnitWidthOfString
 (
 ch
 aFontMetrics
-aRenderingContext
+drawTarget
 )
 ;
 if
@@ -8191,7 +8201,7 @@ AppUnitWidthOfString
 (
 ch
 aFontMetrics
-aRenderingContext
+drawTarget
 )
 ;
 if
@@ -8308,7 +8318,7 @@ AppUnitWidthOfString
 (
 ch
 aFontMetrics
-aRenderingContext
+drawTarget
 )
 ;
 twidth
@@ -8347,7 +8357,7 @@ AppUnitWidthOfString
 (
 ch
 aFontMetrics
-aRenderingContext
+drawTarget
 )
 ;
 twidth

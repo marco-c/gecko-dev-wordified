@@ -966,10 +966,14 @@ mBoundingMetrics
 }
 FinalizeReflow
 (
-*
 aReflowState
 .
 rendContext
+-
+>
+GetDrawTarget
+(
+)
 aDesiredSize
 )
 ;
@@ -1002,9 +1006,9 @@ nsMathMLSelectedFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -1028,7 +1032,7 @@ mInvalidMarkup
 return
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
