@@ -6461,8 +6461,12 @@ aVelocity
 )
 ;
 void
-StartSmoothScroll
+SmoothScrollTo
 (
+const
+CSSPoint
+&
+aDestination
 )
 ;
 /
