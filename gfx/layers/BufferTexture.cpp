@@ -2357,8 +2357,6 @@ SurfaceFormat
 aFormat
 TextureAllocationFlags
 aAllocFlags
-bool
-aAlreadyZero
 )
 {
 if
@@ -2471,11 +2469,6 @@ uint32_t
 ;
 }
 else
-if
-(
-!
-aAlreadyZero
-)
 {
 memset
 (
@@ -2652,7 +2645,6 @@ buf
 bufSize
 aFormat
 aAllocFlags
-false
 )
 )
 {
@@ -3058,7 +3050,6 @@ buf
 bufSize
 aFormat
 aAllocFlags
-true
 )
 )
 {
