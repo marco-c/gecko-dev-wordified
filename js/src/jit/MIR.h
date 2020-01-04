@@ -67532,8 +67532,7 @@ which_
 ;
 union
 {
-Label
-*
+AsmJSInternalCallee
 internal_
 ;
 MDefinition
@@ -67556,8 +67555,7 @@ Callee
 explicit
 Callee
 (
-Label
-*
+AsmJSInternalCallee
 callee
 )
 :
@@ -67622,8 +67620,7 @@ return
 which_
 ;
 }
-Label
-*
+AsmJSInternalCallee
 internal
 (
 )

@@ -207,6 +207,9 @@ ModuleCompiler
 class
 ModuleCompileResults
 ;
+class
+FunctionCompileResults
+;
 namespace
 jit
 {
@@ -417,6 +420,9 @@ jit
 LIRGraph
 &
 lir
+FunctionCompileResults
+*
+results
 )
 ;
 void
