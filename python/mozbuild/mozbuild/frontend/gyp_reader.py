@@ -1907,6 +1907,10 @@ config
 .
 substs
 )
+.
+split
+(
+)
                         
 if
 not
