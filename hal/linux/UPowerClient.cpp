@@ -136,6 +136,15 @@ include
 <
 mozilla
 /
+Attributes
+.
+h
+>
+#
+include
+<
+mozilla
+/
 dom
 /
 battery
@@ -2208,6 +2217,8 @@ eState_FullyCharged
 isFull
 =
 true
+;
+MOZ_FALLTHROUGH
 ;
 case
 eState_Charging
