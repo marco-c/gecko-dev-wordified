@@ -497,6 +497,7 @@ size
 -
 intStart
 )
+;
 /
 /
 Step
