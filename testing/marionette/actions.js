@@ -152,7 +152,8 @@ Marionette
 "
 )
 ;
-const
+this
+.
 actions
 =
 {
