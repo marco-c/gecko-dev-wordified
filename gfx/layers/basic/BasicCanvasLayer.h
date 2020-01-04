@@ -267,17 +267,6 @@ override
 ;
 protected
 :
-already_AddRefed
-<
-gfx
-:
-:
-SourceSurface
->
-UpdateSurface
-(
-)
-;
 BasicLayerManager
 *
 BasicManager
