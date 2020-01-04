@@ -482,15 +482,6 @@ XMLHttpRequest
 .
 h
 "
-#
-include
-"
-mozilla
-/
-DeferredFinalize
-.
-h
-"
 using
 namespace
 mozilla
@@ -2474,7 +2465,7 @@ ForgetGlobalObject
 (
 )
 ;
-DeferredFinalize
+NS_RELEASE
 (
 sop
 )
