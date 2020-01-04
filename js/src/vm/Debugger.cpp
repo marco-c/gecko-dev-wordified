@@ -2378,9 +2378,10 @@ fnname
 "
 string
 "
-"
-string
-"
+InformalValueType
+(
+value
+)
 )
 ;
 return
