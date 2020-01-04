@@ -9945,6 +9945,7 @@ cloneScope
 }
 callFunction
 (
+pathObj
 path
 name
 args
@@ -9963,6 +9964,7 @@ implemented
 }
 callFunctionNoReturn
 (
+pathObj
 path
 name
 args
@@ -9994,6 +9996,7 @@ args
 }
 callAsyncFunction
 (
+pathObj
 path
 name
 args
@@ -10103,6 +10106,7 @@ permission
 }
 getProperty
 (
+pathObj
 path
 name
 )
@@ -10120,6 +10124,7 @@ implemented
 }
 setProperty
 (
+pathObj
 path
 name
 value
@@ -10138,6 +10143,7 @@ implemented
 }
 addListener
 (
+pathObj
 path
 name
 listener
@@ -10261,6 +10267,7 @@ args
 }
 removeListener
 (
+pathObj
 path
 name
 listener
@@ -10344,6 +10351,7 @@ name
 }
 hasListener
 (
+pathObj
 path
 name
 listener
