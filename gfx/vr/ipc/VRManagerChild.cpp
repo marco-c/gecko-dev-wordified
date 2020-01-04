@@ -301,6 +301,10 @@ mDisplaysInitialized
 (
 false
 )
+mGamepadManager
+(
+nullptr
+)
 mInputFrameID
 (
 -

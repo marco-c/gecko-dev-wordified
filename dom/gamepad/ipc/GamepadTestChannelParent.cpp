@@ -185,9 +185,6 @@ gamepadID
 get
 (
 )
-(
-GamepadMappingType
-)
 a
 .
 mapping
