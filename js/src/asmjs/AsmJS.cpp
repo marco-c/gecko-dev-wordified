@@ -17409,7 +17409,7 @@ encoder
 (
 )
 .
-writeVarU32
+writeVarS32
 (
 i32
 )
