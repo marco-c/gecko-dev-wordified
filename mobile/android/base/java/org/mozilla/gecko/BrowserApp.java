@@ -26127,12 +26127,6 @@ new
 TelemetryCorePingBuilder
 (
 activity
-TelemetryCorePingBuilder
-.
-getServer
-(
-sharedPrefs
-)
 )
 .
 setClientID

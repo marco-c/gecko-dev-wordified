@@ -670,13 +670,14 @@ assertEquals
 (
 "
 Ping
-urls
+url
+paths
 are
 equal
 "
 expectedPing
 .
-getURL
+getURLPath
 (
 )
 actual
@@ -685,7 +686,7 @@ getString
 (
 JSONFilePingStore
 .
-KEY_URL
+KEY_URL_PATH
 )
 )
 ;
@@ -943,6 +944,7 @@ assertEquals
 "
 Expected
 url
+path
 value
 received
 "
@@ -951,7 +953,7 @@ urlPrefix
 id
 ping
 .
-getURL
+getURLPath
 (
 )
 )
@@ -1534,7 +1536,7 @@ put
 (
 JSONFilePingStore
 .
-KEY_URL
+KEY_URL_PATH
 urlPrefix
 +
 i
