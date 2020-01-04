@@ -54804,11 +54804,14 @@ rval
 .
 setNumber
 (
+double
+(
 promise
 -
 >
 getID
 (
+)
 )
 )
 ;
