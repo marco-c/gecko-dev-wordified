@@ -80,8 +80,6 @@ platform
 import
 optparse
 import
-logging
-import
 mozhttpd
 #
 media
@@ -89,6 +87,15 @@ test
 utilities
 import
 media_utils
+from
+mozlog
+import
+get_proxy_logger
+LOG
+=
+get_proxy_logger
+(
+)
 "
 "
 "
@@ -993,7 +1000,7 @@ parseGETUrl
     
 )
     
-logging
+LOG
 .
 info
 (
@@ -1008,17 +1015,20 @@ s
 %
 s
 "
-                 
+%
+(
 httpd_server
 .
 docroot
+                                     
 httpd_server
 .
 host
-                 
+                                     
 httpd_server
 .
 port
+)
 )
     
 ObjectDb
