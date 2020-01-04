@@ -365,11 +365,6 @@ override
 ;
 private
 :
-double
-GetDPIScale
-(
-)
-;
 HMONITOR
 mScreen
 ;
