@@ -401,10 +401,6 @@ flyweb
 "
 )
 this
-nsILocalCertService
-:
-:
-KEY_TYPE_EC
 )
 ;
 if
