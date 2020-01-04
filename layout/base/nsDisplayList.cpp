@@ -3930,7 +3930,7 @@ Set
 nsIFrame
 :
 :
-RefusedAsyncAnimation
+RefusedAsyncAnimationProperty
 (
 )
 reinterpret_cast

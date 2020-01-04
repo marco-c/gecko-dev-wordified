@@ -1570,15 +1570,6 @@ aTime
 ;
 public
 :
-static
-bool
-IsCompositorAnimationDisabledForFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
 /
 /
 True
