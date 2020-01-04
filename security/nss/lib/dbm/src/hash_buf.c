@@ -556,6 +556,7 @@ BUF_REMOVE
 (
 B
 )
+\
 {
 \
 (
@@ -610,6 +611,7 @@ BUF_INSERT
 B
 P
 )
+\
 {
 \
 (

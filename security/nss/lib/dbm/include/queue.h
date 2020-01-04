@@ -744,6 +744,7 @@ LIST_INIT
 (
 head
 )
+\
 {
 \
 (
@@ -765,6 +766,7 @@ listelm
 elm
 field
 )
+\
 {
 \
 if
@@ -862,6 +864,7 @@ head
 elm
 field
 )
+\
 {
 \
 if
@@ -949,6 +952,7 @@ LIST_REMOVE
 elm
 field
 )
+\
 {
 \
 if
@@ -1116,6 +1120,7 @@ TAILQ_INIT
 (
 head
 )
+\
 {
 \
 (
@@ -1153,6 +1158,7 @@ head
 elm
 field
 )
+\
 {
 \
 if
@@ -1264,6 +1270,7 @@ head
 elm
 field
 )
+\
 {
 \
 (
@@ -1336,6 +1343,7 @@ listelm
 elm
 field
 )
+\
 {
 \
 if
@@ -1453,6 +1461,7 @@ head
 elm
 field
 )
+\
 {
 \
 if
@@ -1633,6 +1642,7 @@ CIRCLEQ_INIT
 (
 head
 )
+\
 {
 \
 (
@@ -1677,6 +1687,7 @@ listelm
 elm
 field
 )
+\
 {
 \
 (
@@ -1790,6 +1801,7 @@ listelm
 elm
 field
 )
+\
 {
 \
 (
@@ -1902,6 +1914,7 @@ head
 elm
 field
 )
+\
 {
 \
 (
@@ -2010,6 +2023,7 @@ head
 elm
 field
 )
+\
 {
 \
 (
@@ -2118,6 +2132,7 @@ head
 elm
 field
 )
+\
 {
 \
 if

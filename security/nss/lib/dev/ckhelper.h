@@ -278,6 +278,7 @@ pattr
 >
 ulValueLen
 )
+\
 (
 (
 pattr
@@ -517,6 +518,7 @@ ulValueLen
 ;
 \
 }
+\
 else
 {
 \
@@ -589,6 +591,7 @@ PR_TRUE
 ;
 \
 }
+\
 else
 {
 \
@@ -741,7 +744,6 @@ item
 >
 size
 ;
-\
 /
 *
 Get

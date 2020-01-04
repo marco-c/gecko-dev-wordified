@@ -124,6 +124,10 @@ tls_connect
 .
 cc
 \
+tls_hkdf_unittest
+.
+cc
+\
 tls_filter
 .
 cc
@@ -151,6 +155,16 @@ google_test
 gtest
 /
 include
+\
+-
+I
+(
+CORE_DEPTH
+)
+/
+external_tests
+/
+common
 REQUIRES
 =
 nspr
@@ -176,3 +190,6 @@ gtest
 (
 LIB_SUFFIX
 )
+USE_STATIC_LIBS
+=
+1

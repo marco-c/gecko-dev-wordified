@@ -379,7 +379,6 @@ priority
 =
 MsgPriority
 )
-\
 {
 \
 ReportStatus

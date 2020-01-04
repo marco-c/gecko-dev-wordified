@@ -25844,6 +25844,17 @@ name
 }
 if
 (
+newName
+)
+{
+PL_strfree
+(
+newName
+)
+;
+}
+if
+(
 inFile
 &
 &
