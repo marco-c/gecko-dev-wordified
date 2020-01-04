@@ -858,6 +858,13 @@ h
 #
 include
 "
+WorkerNavigator
+.
+h
+"
+#
+include
+"
 WorkerRunnable
 .
 h
