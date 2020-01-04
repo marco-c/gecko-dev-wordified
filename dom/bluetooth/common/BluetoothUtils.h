@@ -458,7 +458,7 @@ representation
 .
 *
 /
-nsresult
+void
 StringToUuid
 (
 const

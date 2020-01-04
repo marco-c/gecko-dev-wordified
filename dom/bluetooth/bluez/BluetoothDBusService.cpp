@@ -21607,7 +21607,7 @@ StartLeScanInternal
 const
 nsTArray
 <
-BluetoothUuid
+nsString
 >
 &
 aServiceUuids
@@ -21624,7 +21624,7 @@ BluetoothDBusService
 StopLeScanInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 BluetoothReplyRunnable
@@ -21640,7 +21640,7 @@ BluetoothDBusService
 ConnectGattClientInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21660,7 +21660,7 @@ BluetoothDBusService
 DisconnectGattClientInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21680,7 +21680,7 @@ BluetoothDBusService
 DiscoverGattServicesInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 BluetoothReplyRunnable
@@ -21696,7 +21696,7 @@ BluetoothDBusService
 GattClientStartNotificationsInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21720,7 +21720,7 @@ BluetoothDBusService
 GattClientStopNotificationsInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21776,7 +21776,7 @@ BluetoothDBusService
 GattClientReadCharacteristicValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21800,7 +21800,7 @@ BluetoothDBusService
 GattClientWriteCharacteristicValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21835,7 +21835,7 @@ BluetoothDBusService
 GattClientReadDescriptorValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -21863,7 +21863,7 @@ BluetoothDBusService
 GattClientWriteDescriptorValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22193,7 +22193,7 @@ BluetoothDBusService
 GattServerConnectPeripheralInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22213,7 +22213,7 @@ BluetoothDBusService
 GattServerDisconnectPeripheralInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22247,7 +22247,7 @@ BluetoothDBusService
 GattServerAddServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22269,7 +22269,7 @@ BluetoothDBusService
 GattServerAddIncludedServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22293,7 +22293,7 @@ BluetoothDBusService
 GattServerAddCharacteristicInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22321,7 +22321,7 @@ BluetoothDBusService
 GattServerAddDescriptorInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22351,7 +22351,7 @@ BluetoothDBusService
 GattServerRemoveServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22371,7 +22371,7 @@ BluetoothDBusService
 GattServerStartServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22391,7 +22391,7 @@ BluetoothDBusService
 GattServerStopServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22411,7 +22411,7 @@ BluetoothDBusService
 GattServerSendIndicationInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -22444,7 +22444,7 @@ BluetoothDBusService
 GattServerSendResponseInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
