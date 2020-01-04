@@ -3735,6 +3735,7 @@ GeckoAppShell
 onNotificationClose
 (
 name
+cookie
 )
 ;
 }
@@ -3782,6 +3783,7 @@ GeckoAppShell
 onNotificationClose
 (
 name
+cookie
 )
 ;
 }
@@ -5608,6 +5610,8 @@ String
 name
 String
 topic
+String
+cookie
 )
 ;
 /
@@ -5639,6 +5643,9 @@ onNotificationShow
 final
 String
 name
+final
+String
+cookie
 )
 {
 if
@@ -5656,6 +5663,7 @@ name
 "
 alertshow
 "
+cookie
 )
 ;
 }
@@ -5691,6 +5699,9 @@ onNotificationClose
 final
 String
 name
+final
+String
+cookie
 )
 {
 if
@@ -5708,6 +5719,7 @@ name
 "
 alertfinished
 "
+cookie
 )
 ;
 }
@@ -5744,6 +5756,9 @@ onNotificationClick
 final
 String
 name
+final
+String
+cookie
 )
 {
 if
@@ -5761,6 +5776,7 @@ name
 "
 alertclickcallback
 "
+cookie
 )
 ;
 }
