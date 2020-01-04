@@ -35926,7 +35926,9 @@ dom_get_x
 protoID
 *
 /
+{
 0
+}
 /
 *
 depth
@@ -36020,7 +36022,9 @@ dom_set_x
 protoID
 *
 /
+{
 0
+}
 /
 *
 depth
@@ -36116,7 +36120,9 @@ dom_doFoo
 protoID
 *
 /
+{
 0
+}
 /
 *
 depth
