@@ -4236,9 +4236,13 @@ js
 ]
 [
 '
-app
+chrome
 :
 /
+/
+gaia
+/
+content
 /
 myfxosapp
 /
