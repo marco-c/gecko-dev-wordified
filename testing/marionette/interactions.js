@@ -102,7 +102,7 @@ marionette
 /
 content
 /
-atoms
+atom
 .
 js
 "
