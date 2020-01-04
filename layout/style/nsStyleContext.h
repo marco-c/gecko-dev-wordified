@@ -2140,7 +2140,7 @@ node
 *
 /
 bool
-HasCachedInheritedStyleData
+HasCachedDependentStyleData
 (
 nsStyleStructID
 aSID
