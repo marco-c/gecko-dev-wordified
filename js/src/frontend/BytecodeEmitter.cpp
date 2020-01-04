@@ -9997,13 +9997,14 @@ RootedModuleEnvironmentObject
 env
 (
 cx
+&
 ssi
 .
 module
 (
 )
 .
-environment
+initialEnvironment
 (
 )
 )
