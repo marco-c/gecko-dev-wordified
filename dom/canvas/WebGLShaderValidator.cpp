@@ -709,11 +709,6 @@ mGLMaxDrawBuffers
 ;
 if
 (
-IsWebGL2
-(
-)
-|
-|
 IsExtensionEnabled
 (
 WebGLExtensionID
@@ -730,11 +725,6 @@ EXT_frag_depth
 ;
 if
 (
-IsWebGL2
-(
-)
-|
-|
 IsExtensionEnabled
 (
 WebGLExtensionID
@@ -751,11 +741,6 @@ OES_standard_derivatives
 ;
 if
 (
-IsWebGL2
-(
-)
-|
-|
 IsExtensionEnabled
 (
 WebGLExtensionID
@@ -772,11 +757,6 @@ EXT_draw_buffers
 ;
 if
 (
-IsWebGL2
-(
-)
-|
-|
 IsExtensionEnabled
 (
 WebGLExtensionID

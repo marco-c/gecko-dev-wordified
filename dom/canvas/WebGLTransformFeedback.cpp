@@ -245,7 +245,9 @@ GetParentObject
 const
 {
 return
-mContext
+Context
+(
+)
 ;
 }
 JSObject
