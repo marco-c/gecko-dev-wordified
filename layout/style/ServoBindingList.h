@@ -300,7 +300,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleSet_AppendStyleSheet
 void
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
@@ -309,7 +309,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleSet_PrependStyleSheet
 void
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
@@ -318,7 +318,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleSet_RemoveStyleSheet
 void
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
@@ -327,7 +327,7 @@ SERVO_BINDING_FUNC
 (
 Servo_StyleSet_InsertStyleSheetBefore
 void
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 RawServoStyleSheetBorrowed
 sheet
@@ -496,7 +496,7 @@ parent_style_or_null
 nsIAtom
 *
 pseudoTag
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 )
 SERVO_BINDING_FUNC
@@ -510,7 +510,7 @@ match_element
 nsIAtom
 *
 pseudo_tag
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 bool
 is_probe
@@ -604,7 +604,7 @@ Servo_RestyleSubtree
 void
 RawGeckoNodeBorrowed
 node
-RawServoStyleSetBorrowedMut
+RawServoStyleSetBorrowed
 set
 )
 /
