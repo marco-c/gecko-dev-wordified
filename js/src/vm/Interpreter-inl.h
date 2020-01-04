@@ -635,6 +635,11 @@ HandleShape
 shape
 )
 {
+MOZ_ASSERT
+(
+shape
+)
+;
 if
 (
 obj
@@ -709,10 +714,6 @@ MarkNonNativePropertyFound
 .
 if
 (
-!
-shape
-|
-|
 IsImplicitDenseOrTypedArrayElement
 (
 shape
