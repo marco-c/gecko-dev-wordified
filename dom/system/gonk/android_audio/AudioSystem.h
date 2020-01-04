@@ -931,6 +931,9 @@ ANDROID_VERSION
 typedef
 enum
 {
+AUDIO_DEVICE_NONE
+=
+0x0
 /
 *
 output
