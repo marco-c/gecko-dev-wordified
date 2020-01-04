@@ -322,7 +322,10 @@ InitInternal
 )
 override
 ;
-void
+Maybe
+<
+TerminalState
+>
 DoDecode
 (
 const

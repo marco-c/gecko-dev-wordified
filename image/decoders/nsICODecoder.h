@@ -382,7 +382,10 @@ FirstResourceOffset
 )
 const
 ;
-void
+Maybe
+<
+TerminalState
+>
 DoDecode
 (
 const
