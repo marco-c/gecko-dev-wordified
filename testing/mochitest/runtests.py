@@ -7125,6 +7125,22 @@ options
 testingModulesDir
 )
         
+if
+options
+.
+store_chrome_manifest
+:
+            
+shutil
+.
+copyfile
+(
+manifest
+options
+.
+store_chrome_manifest
+)
+        
 return
 manifest
     
