@@ -3774,7 +3774,7 @@ used
 by
 list
 parsing
-kBackgroundClipKTable
+kImageLayerOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
