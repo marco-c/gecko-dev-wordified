@@ -337,11 +337,12 @@ this
 extension
 )
 ;
-function
+let
 emitAndDelete
-(
+=
 event
-)
+=
+>
 {
 notifications
 .
@@ -361,6 +362,7 @@ id
 )
 ;
 }
+;
 /
 /
 Don
