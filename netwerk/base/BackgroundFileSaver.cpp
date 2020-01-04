@@ -7634,6 +7634,9 @@ retval
 )
 ;
 }
+#
+undef
+LOG_ENABLED
 }
 /
 /
