@@ -28319,7 +28319,6 @@ context
 function
 updateUserContextUIIndicator
 (
-browser
 )
 {
 let
@@ -28339,7 +28338,9 @@ icons
 let
 userContextId
 =
-browser
+gBrowser
+.
+selectedBrowser
 .
 getAttribute
 (
