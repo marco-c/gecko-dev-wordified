@@ -6169,7 +6169,7 @@ true
 to
 be
 "
-greater
+less
 than
 "
 those
@@ -6181,12 +6181,11 @@ because
 during
 style
 matching
-later
-entries
-will
-replace
 earlier
-ones
+entries
+are
+tried
+first
 class
 FontEntryStandardFaceComparator
 {
@@ -6253,7 +6252,7 @@ a
 mStandardFace
 =
 =
-false
+true
 &
 &
 b
@@ -6262,7 +6261,7 @@ b
 mStandardFace
 =
 =
-true
+false
 )
 ;
 }

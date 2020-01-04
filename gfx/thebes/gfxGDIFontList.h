@@ -1597,7 +1597,6 @@ gfxFontStyle
 aStyle
 )
 ;
-virtual
 gfxFontFamily
 *
 FindFamily
@@ -1606,16 +1605,13 @@ const
 nsAString
 &
 aFamily
-nsIAtom
+gfxFontStyle
 *
-aLanguage
+aStyle
 =
 nullptr
-bool
-aUseSystemFonts
-=
-false
 )
+override
 ;
 virtual
 gfxFontEntry

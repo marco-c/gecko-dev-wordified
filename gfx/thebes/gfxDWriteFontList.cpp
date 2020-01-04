@@ -7320,11 +7320,9 @@ const
 nsAString
 &
 aFamily
-nsIAtom
+gfxFontStyle
 *
-aLanguage
-bool
-aUseSystemFonts
+aStyle
 )
 {
 nsAutoString
