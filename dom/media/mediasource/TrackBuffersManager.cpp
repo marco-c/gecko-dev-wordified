@@ -1061,7 +1061,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mAppendRunning
@@ -1229,7 +1229,7 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mAppendRunning
@@ -1880,7 +1880,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mSegmentParserLoopRunning
@@ -3682,7 +3682,7 @@ OnTaskQueue
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mAppendPromise
 .
