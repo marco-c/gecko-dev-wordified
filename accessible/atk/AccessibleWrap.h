@@ -401,7 +401,7 @@ AtkObject
 aObject
 )
 ;
-nsresult
+void
 FireAtkShowHideEvent
 (
 AtkObject
