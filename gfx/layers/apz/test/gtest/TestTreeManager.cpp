@@ -188,7 +188,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
@@ -299,7 +299,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
@@ -372,7 +372,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
@@ -422,7 +422,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
@@ -700,7 +700,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
@@ -1116,7 +1116,7 @@ manager
 >
 UpdateHitTestingTree
 (
-nullptr
+0
 root
 false
 0
