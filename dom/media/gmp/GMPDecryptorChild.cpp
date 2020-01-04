@@ -449,6 +449,9 @@ Runnable
 >
 t
 =
+dont_add_new_uses_of_this
+:
+:
 NewRunnableMethod
 (
 this
@@ -852,7 +855,12 @@ Runnable
 >
 t
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
+<
+GMPBuffer
+*
+GMPErr
+>
 (
 this
 &
