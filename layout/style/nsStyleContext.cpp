@@ -275,16 +275,6 @@ StyleSetHandleInlines
 .
 h
 "
-#
-ifdef
-DEBUG
-/
-/
-#
-define
-NOISY_DEBUG
-#
-endif
 using
 namespace
 mozilla
