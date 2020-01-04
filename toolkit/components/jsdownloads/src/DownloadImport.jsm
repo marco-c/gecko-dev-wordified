@@ -1280,16 +1280,6 @@ download
 start
 (
 )
-.
-catch
-(
-(
-)
-=
->
-{
-}
-)
 ;
 }
 else
