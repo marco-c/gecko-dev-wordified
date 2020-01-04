@@ -848,6 +848,15 @@ FlushOverflowChangedTracker
 (
 )
 ;
+inline
+void
+NotifyDestroyingFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 /

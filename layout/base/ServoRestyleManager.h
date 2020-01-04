@@ -435,11 +435,6 @@ nsStyleChangeList
 aChangeList
 )
 ;
-void
-FlushOverflowChangedTracker
-(
-)
-;
 bool
 HasPendingRestyles
 (
