@@ -25308,7 +25308,6 @@ Closing
 {
 CancelAllTimeouts
 (
-aCx
 )
 ;
 }
@@ -25441,9 +25440,6 @@ WorkerPrivate
 :
 CancelAllTimeouts
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnWorkerThread
