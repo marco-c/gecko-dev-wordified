@@ -580,6 +580,12 @@ opt
 '
     
 '
+win32
+-
+pgo
+'
+    
+'
 win64
 -
 debug
@@ -589,6 +595,12 @@ debug
 win64
 -
 opt
+'
+    
+'
+win64
+-
+pgo
 '
 ]
 )
