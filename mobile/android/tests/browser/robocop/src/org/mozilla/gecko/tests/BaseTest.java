@@ -370,10 +370,6 @@ TextView
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
@@ -383,10 +379,6 @@ Condition
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
@@ -395,10 +387,6 @@ Solo
 ;
 import
 com
-.
-jayway
-.
-android
 .
 robotium
 .
