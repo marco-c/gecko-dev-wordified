@@ -115,12 +115,14 @@ module
 /
 ReactJS
 const
-React
+ReactDOM
 =
 require
 (
 "
 react
+-
+dom
 "
 )
 ;
@@ -529,7 +531,7 @@ content
 var
 theApp
 =
-React
+ReactDOM
 .
 render
 (
