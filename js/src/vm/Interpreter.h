@@ -622,7 +622,7 @@ cx
 HandleValue
 fval
 const
-ConstructArgs
+AnyConstructArgs
 &
 args
 HandleValue
@@ -725,7 +725,7 @@ fval
 HandleValue
 thisv
 const
-ConstructArgs
+AnyConstructArgs
 &
 args
 HandleValue
