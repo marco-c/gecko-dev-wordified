@@ -11360,18 +11360,7 @@ specific
 /
 /
 requirements
-during
-caret
--
-drag
-tapping
-into
-empty
-inputs
-and
 to
-/
-/
 hide
 carets
 while
@@ -11380,6 +11369,8 @@ ActionBar
 visiblity
 during
 page
+/
+/
 scroll
 .
 pref
