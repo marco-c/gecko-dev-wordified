@@ -182,6 +182,13 @@ h
 "
 #
 include
+"
+X11UndefineNone
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -586,7 +593,7 @@ GetSize
 )
 mGLXPixmap
 (
-None
+X11None
 )
 {
 const
@@ -685,7 +692,7 @@ aSize
 )
 mGLXPixmap
 (
-None
+X11None
 )
 {
 }

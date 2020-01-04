@@ -11657,7 +11657,7 @@ XRenderComposite
 display
 PictOpSrc
 srcPict
-None
+X11None
 dstPict
 0
 0
@@ -12356,7 +12356,7 @@ aDT
 ;
 mDrawable
 =
-None
+X11None
 ;
 #
 ifdef
@@ -12583,7 +12583,7 @@ mDrawable
 {
 mDrawable
 =
-None
+X11None
 ;
 }
 }

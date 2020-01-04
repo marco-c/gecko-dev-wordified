@@ -1426,7 +1426,7 @@ mWsInfo
 .
 colormap
 =
-None
+X11None
 ;
 GdkVisual
 *

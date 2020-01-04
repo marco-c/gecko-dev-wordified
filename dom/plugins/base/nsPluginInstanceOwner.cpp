@@ -14833,7 +14833,7 @@ else
 Window
 root
 =
-None
+X11None
 ;
 /
 /
@@ -14947,7 +14947,7 @@ event
 .
 subwindow
 =
-None
+X11None
 ;
 event
 .
@@ -15058,7 +15058,7 @@ event
 .
 subwindow
 =
-None
+X11None
 ;
 event
 .
@@ -15222,7 +15222,7 @@ event
 .
 subwindow
 =
-None
+X11None
 ;
 event
 .
@@ -15418,7 +15418,7 @@ event
 .
 subwindow
 =
-None
+X11None
 ;
 event
 .
@@ -15631,7 +15631,7 @@ event
 .
 window
 =
-None
+X11None
 ;
 /
 /

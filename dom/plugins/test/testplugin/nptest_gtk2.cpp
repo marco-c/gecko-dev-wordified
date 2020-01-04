@@ -565,7 +565,7 @@ platformData
 >
 colormap
 =
-None
+X11None
 ;
 instanceData
 -
@@ -639,7 +639,7 @@ if
 window
 !
 =
-None
+X11None
 )
 {
 /

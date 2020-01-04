@@ -124,6 +124,13 @@ Xlib
 h
 >
 #
+include
+"
+X11UndefineNone
+.
+h
+"
+#
 if
 defined
 (
@@ -411,7 +418,7 @@ size
 Drawable
 relatedDrawable
 =
-None
+X11None
 )
 ;
 static
@@ -438,7 +445,7 @@ size
 Drawable
 relatedDrawable
 =
-None
+X11None
 )
 ;
 static
@@ -467,7 +474,7 @@ size
 Drawable
 relatedDrawable
 =
-None
+X11None
 )
 ;
 virtual
