@@ -19824,9 +19824,9 @@ prologueLength
 bce
 -
 >
+main
+.
 code
-(
-)
 .
 begin
 (
