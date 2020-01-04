@@ -1803,7 +1803,7 @@ vec
 {
 for
 (
-CodeOffsetLabel
+CodeOffset
 use
 :
 old
@@ -3393,7 +3393,7 @@ Simple
 call
 functions
 .
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -3413,7 +3413,7 @@ reg
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -3557,7 +3557,7 @@ target
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :

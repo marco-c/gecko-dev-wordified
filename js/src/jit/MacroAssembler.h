@@ -2703,7 +2703,7 @@ rootType
 )
 ;
 inline
-CodeOffsetLabel
+CodeOffset
 PushWithPatch
 (
 ImmWord
@@ -2711,7 +2711,7 @@ word
 )
 ;
 inline
-CodeOffsetLabel
+CodeOffset
 PushWithPatch
 (
 ImmPtr
@@ -3013,7 +3013,7 @@ Simple
 call
 functions
 .
-CodeOffsetLabel
+CodeOffset
 call
 (
 Register
@@ -3021,7 +3021,7 @@ reg
 )
 PER_SHARED_ARCH
 ;
-CodeOffsetLabel
+CodeOffset
 call
 (
 Label
@@ -3143,7 +3143,7 @@ AsmJSInternalCallee
 callee
 )
 ;
-CodeOffsetLabel
+CodeOffset
 callWithPatch
 (
 )
@@ -4913,7 +4913,7 @@ will
 be
 written
 .
-CodeOffsetLabel
+CodeOffset
 selfReferencePatch_
 ;
 public
@@ -7757,7 +7757,7 @@ generate
 (
 )
 .
-CodeOffsetLabel
+CodeOffset
 nopJump
 =
 toggledJump
@@ -9488,7 +9488,7 @@ AutoProfilerCallInstrumentation
 void
 appendProfilerCallSite
 (
-CodeOffsetLabel
+CodeOffset
 label
 )
 {
@@ -9578,7 +9578,7 @@ sites
 .
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >

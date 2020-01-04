@@ -521,7 +521,7 @@ Stack
 manipulation
 functions
 .
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -548,7 +548,7 @@ word
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -659,7 +659,7 @@ Register
 reg
 )
 {
-CodeOffsetLabel
+CodeOffset
 l
 =
 call
@@ -692,7 +692,7 @@ Label
 label
 )
 {
-CodeOffsetLabel
+CodeOffset
 l
 =
 call
@@ -724,7 +724,7 @@ AsmJSInternalCallee
 callee
 )
 {
-CodeOffsetLabel
+CodeOffset
 l
 =
 callWithPatch

@@ -3639,7 +3639,7 @@ BaselineScript
 :
 icEntryFromReturnOffset
 (
-CodeOffsetLabel
+CodeOffset
 returnOffset
 )
 {
@@ -4650,7 +4650,7 @@ instructionsSize
 )
 )
 ;
-CodeOffsetLabel
+CodeOffset
 offset
 (
 returnAddr
@@ -6059,7 +6059,7 @@ label
 method
 (
 )
-CodeOffsetLabel
+CodeOffset
 (
 nativeOffset
 )
@@ -6158,7 +6158,7 @@ CodeLocationLabel
 enter
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerEnterToggleOffset_
 )
@@ -6168,7 +6168,7 @@ CodeLocationLabel
 exit
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerExitToggleOffset_
 )
@@ -6312,7 +6312,7 @@ CodeLocationLabel
 enter
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerEnterToggleOffset_
 )
@@ -6322,7 +6322,7 @@ CodeLocationLabel
 exit
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerExitToggleOffset_
 )
@@ -6444,7 +6444,7 @@ CodeLocationLabel
 enter
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerEnterToggleOffset_
 )
@@ -6454,7 +6454,7 @@ CodeLocationLabel
 exit
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 traceLoggerExitToggleOffset_
 )
@@ -6583,7 +6583,7 @@ CodeLocationLabel
 enterToggleLocation
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 profilerEnterToggleOffset_
 )
@@ -6593,7 +6593,7 @@ CodeLocationLabel
 exitToggleLocation
 (
 method_
-CodeOffsetLabel
+CodeOffset
 (
 profilerExitToggleOffset_
 )
