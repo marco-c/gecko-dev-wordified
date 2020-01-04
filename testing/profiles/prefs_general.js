@@ -3457,8 +3457,8 @@ timeout
 in
 tests
 to
-15
-seconds
+1
+minute
 .
 /
 /
@@ -3518,6 +3518,10 @@ bug
 1176798
 bug
 1177018
+/
+/
+bug
+1210465
 .
 user_pref
 (
@@ -3526,7 +3530,7 @@ apz
 .
 content_response_timeout
 "
-15000
+60000
 )
 ;
 /
