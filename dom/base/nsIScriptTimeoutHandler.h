@@ -263,12 +263,11 @@ compiled
 object
 .
 virtual
-void
-GetHandlerText
-(
+const
 nsAString
 &
-aString
+GetHandlerText
+(
 )
 =
 0
