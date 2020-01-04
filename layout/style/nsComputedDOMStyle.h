@@ -2769,14 +2769,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetColorAdjust
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetOpacity
 (
 )
