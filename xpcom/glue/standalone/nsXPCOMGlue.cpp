@@ -353,7 +353,7 @@ GetLastError
 (
 )
 ;
-LPVOID
+LPWSTR
 lpMsgBuf
 ;
 FormatMessageW
