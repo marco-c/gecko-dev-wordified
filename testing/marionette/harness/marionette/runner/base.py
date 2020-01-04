@@ -6421,24 +6421,6 @@ start_marionette
 )
             
 #
-Retrieve
-capabilities
-for
-later
-use
-            
-if
-not
-self
-.
-_capabilities
-:
-                
-self
-.
-capabilities
-            
-#
 if
 we
 '
@@ -6463,7 +6445,7 @@ ip
 if
 self
 .
-_capabilities
+capabilities
 [
 '
 device
