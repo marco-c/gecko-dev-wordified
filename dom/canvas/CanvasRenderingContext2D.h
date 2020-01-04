@@ -5769,10 +5769,7 @@ shadowBlur
 )
 ;
 }
-std
-:
-:
-vector
+nsTArray
 <
 mozilla
 :
