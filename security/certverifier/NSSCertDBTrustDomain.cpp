@@ -1535,10 +1535,6 @@ if
 CertIsAuthoritativeForEVPolicy
 (
 candidateCert
-.
-get
-(
-)
 policy
 )
 )

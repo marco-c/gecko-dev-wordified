@@ -92,10 +92,17 @@ MPL
 /
 #
 ifndef
-mozilla_psm_ExtendedValidation_h
+ExtendedValidation_h
 #
 define
-mozilla_psm_ExtendedValidation_h
+ExtendedValidation_h
+#
+include
+"
+ScopedNSSTypes
+.
+h
+"
 #
 include
 "
@@ -190,8 +197,8 @@ bool
 CertIsAuthoritativeForEVPolicy
 (
 const
-CERTCertificate
-*
+UniqueCERTCertificate
+&
 cert
 const
 mozilla
@@ -220,4 +227,4 @@ psm
 endif
 /
 /
-mozilla_psm_ExtendedValidation_h
+ExtendedValidation_h
