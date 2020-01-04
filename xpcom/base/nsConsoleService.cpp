@@ -1593,10 +1593,6 @@ thread
 NS_ReleaseOnMainThread
 (
 retiredMessage
-.
-forget
-(
-)
 )
 ;
 }

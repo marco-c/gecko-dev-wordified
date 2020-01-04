@@ -3917,10 +3917,6 @@ mStorage
 NS_ReleaseOnMainThread
 (
 mStorage
-.
-forget
-(
-)
 )
 ;
 }
@@ -3932,10 +3928,6 @@ mSandbox
 NS_ReleaseOnMainThread
 (
 mSandbox
-.
-forget
-(
-)
 )
 ;
 }

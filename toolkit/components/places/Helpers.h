@@ -1235,14 +1235,13 @@ the
 calling
 thread
 .
+(
+void
+)
 NS_ProxyRelease
 (
 mCallingThread
 mOwner
-.
-forget
-(
-)
 )
 ;
 return

@@ -1428,10 +1428,6 @@ nsJARChannel
 NS_ReleaseOnMainThread
 (
 mLoadInfo
-.
-forget
-(
-)
 )
 ;
 /

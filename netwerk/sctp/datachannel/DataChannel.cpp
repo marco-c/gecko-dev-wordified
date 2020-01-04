@@ -1222,10 +1222,6 @@ NS_ProxyRelease
 (
 mSTS
 mTransportFlow
-.
-forget
-(
-)
 )
 ;
 }
@@ -16964,10 +16960,6 @@ NS_ProxyRelease
 (
 mainThread
 runnable
-.
-forget
-(
-)
 )
 ;
 return
