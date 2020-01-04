@@ -222,6 +222,7 @@ props
 const
 {
 message
+serviceContainer
 }
 =
 props
@@ -231,7 +232,9 @@ const
 source
 type
 level
-serviceContainer
+id
+:
+messageId
 }
 =
 message
@@ -291,6 +294,7 @@ type
 level
 topLevelClasses
 messageBody
+messageId
 scrollToMessage
 :
 props

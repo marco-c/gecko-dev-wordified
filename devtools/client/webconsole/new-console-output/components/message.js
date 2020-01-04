@@ -481,6 +481,11 @@ emitNewMessage
 this
 .
 messageNode
+this
+.
+props
+.
+messageId
 )
 ;
 }
