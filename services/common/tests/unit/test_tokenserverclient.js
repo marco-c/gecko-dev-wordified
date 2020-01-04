@@ -344,7 +344,7 @@ result
 do_check_attribute_count
 (
 result
-5
+6
 )
 ;
 do_check_eq
