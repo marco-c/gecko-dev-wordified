@@ -144,7 +144,7 @@ BEGIN_TEST
 testSlowScript
 )
 {
-JS_SetInterruptCallback
+JS_AddInterruptCallback
 (
 cx
 InterruptCallback
