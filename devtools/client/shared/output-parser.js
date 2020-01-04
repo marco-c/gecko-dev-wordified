@@ -1487,7 +1487,7 @@ colorOK
 )
 &
 &
-DOMUtils
+colorUtils
 .
 isValidCSSColor
 (
@@ -1562,7 +1562,7 @@ colorOK
 )
 &
 &
-DOMUtils
+colorUtils
 .
 isValidCSSColor
 (
@@ -1660,7 +1660,7 @@ colorOK
 )
 &
 &
-DOMUtils
+colorUtils
 .
 isValidCSSColor
 (
