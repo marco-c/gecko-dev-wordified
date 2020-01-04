@@ -236,6 +236,8 @@ gfx
 IntSize
 &
 aSize
+bool
+aIsAccelerated
 )
 ;
 /
@@ -322,6 +324,8 @@ gfx
 IntSize
 *
 aSize
+bool
+aIsAccelerated
 )
 ;
 /
@@ -375,6 +379,8 @@ dom
 Element
 *
 aImage
+bool
+aIsAccelerated
 )
 ;
 }

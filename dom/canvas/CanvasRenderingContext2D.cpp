@@ -24703,6 +24703,7 @@ CanvasImageCache
 SimpleLookup
 (
 aElement
+mIsSkiaGL
 )
 ;
 if
@@ -25403,6 +25404,7 @@ element
 mCanvasElement
 &
 imgSize
+mIsSkiaGL
 )
 ;
 }
@@ -26473,6 +26475,7 @@ res
 .
 mSourceSurface
 imgSize
+mIsSkiaGL
 )
 ;
 }
