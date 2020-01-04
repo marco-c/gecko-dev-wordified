@@ -4515,6 +4515,17 @@ CoalesceSpdy
 aOriginalEntry
 -
 >
+mConnInfo
+-
+>
+GetNoSpdy
+(
+)
+|
+|
+aOriginalEntry
+-
+>
 mCoalescingKeys
 .
 IsEmpty
@@ -4734,7 +4745,7 @@ LOG
 nsHttpConnectionMgr
 :
 :
-GetSpdyPreferredConnection
+GetSpdyPreferredEnt
 "
 "
 preferred
@@ -5005,7 +5016,7 @@ LOG
 nsHttpConnectionMgr
 :
 :
-GetSpdyPreferredConnection
+GetSpdyPreferredEnt
 "
 "
 Host
@@ -5084,7 +5095,7 @@ LOG
 nsHttpConnectionMgr
 :
 :
-GetSpdyPreferredConnection
+GetSpdyPreferredEnt
 "
 "
 Host
