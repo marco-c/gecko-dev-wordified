@@ -1313,6 +1313,15 @@ GattServerStopServiceRequest
 aRequest
 )
 ;
+bool
+DoRequest
+(
+const
+GattServerSendResponseRequest
+&
+aRequest
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
