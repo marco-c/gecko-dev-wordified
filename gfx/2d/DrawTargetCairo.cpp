@@ -3999,6 +3999,15 @@ surf
 =
 =
 CAIRO_SURFACE_TYPE_IMAGE
+&
+&
+cairo_surface_status
+(
+surf
+)
+=
+=
+CAIRO_STATUS_SUCCESS
 )
 {
 PointDouble
