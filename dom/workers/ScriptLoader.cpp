@@ -4374,9 +4374,11 @@ nsIDocShell
 >
 docShell
 =
-do_GetInterface
-(
 window
+-
+>
+GetDocShell
+(
 )
 ;
 if

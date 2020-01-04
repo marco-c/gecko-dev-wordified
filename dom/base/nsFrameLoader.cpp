@@ -12860,17 +12860,6 @@ the
 docshell
 properties
 .
-nsCOMPtr
-<
-nsIDocShellTreeItem
->
-item
-=
-do_GetInterface
-(
-docShell
-)
-;
 nsAutoString
 name
 ;
@@ -12890,7 +12879,7 @@ name
 )
 )
 {
-item
+docShell
 -
 >
 SetName

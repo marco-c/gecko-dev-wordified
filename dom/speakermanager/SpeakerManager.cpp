@@ -582,11 +582,13 @@ nsIDocShell
 >
 docshell
 =
-do_GetInterface
-(
 GetOwner
 (
 )
+-
+>
+GetDocShell
+(
 )
 ;
 NS_ENSURE_TRUE_VOID
