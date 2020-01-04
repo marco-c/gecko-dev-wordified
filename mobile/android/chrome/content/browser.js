@@ -10828,6 +10828,14 @@ aURL
 aOptions
 )
 {
+aOptions
+=
+aOptions
+|
+|
+{
+}
+;
 let
 uri
 =
