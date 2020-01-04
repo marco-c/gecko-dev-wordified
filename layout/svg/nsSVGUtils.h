@@ -3254,6 +3254,16 @@ aFillOrStroke
 )
 ;
 static
+gfxTextContextPaint
+*
+GetContextPaint
+(
+nsIContent
+*
+aContent
+)
+;
+static
 DrawMode
 SetupContextPaint
 (
@@ -3571,9 +3581,6 @@ aElement
 gfxContext
 *
 aContext
-gfxTextContextPaint
-*
-aContextPaint
 )
 ;
 /

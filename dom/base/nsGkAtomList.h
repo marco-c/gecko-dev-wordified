@@ -11657,6 +11657,13 @@ svg
 )
 GK_ATOM
 (
+svgContextPaint
+"
+svgContextPaint
+"
+)
+GK_ATOM
+(
 svgSwitch
 "
 switch
