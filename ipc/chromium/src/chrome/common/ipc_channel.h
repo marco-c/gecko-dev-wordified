@@ -211,12 +211,6 @@ IPC
 -
 class
 Channel
-:
-public
-Message
-:
-:
-Sender
 {
 /
 /
@@ -886,7 +880,6 @@ message
 /
 immediately
 .
-virtual
 bool
 Send
 (
@@ -894,7 +887,6 @@ Message
 *
 message
 )
-override
 ;
 /
 /
