@@ -2213,6 +2213,9 @@ UpdateContentData
 contentMetrics
 )
 ;
+#
+ifdef
+VERIFY_FRAME_SIZE_VS_DATABASE
 /
 /
 TODO
@@ -2282,6 +2285,8 @@ return
 VCM_PARAMETER_ERROR
 ;
 }
+#
+endif
 int32_t
 ret
 =

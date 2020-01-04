@@ -5353,10 +5353,6 @@ frame
 ;
 if
 (
-use_quality_scaler
-&
-&
-(
 input_image
 .
 width
@@ -5379,7 +5375,6 @@ height
 codec_
 .
 height
-)
 )
 {
 int
