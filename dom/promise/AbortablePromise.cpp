@@ -581,9 +581,6 @@ HasWebIDLCallback
 )
 )
 {
-ErrorResult
-rv
-;
 mAbortCallback
 .
 GetWebIDLCallback
@@ -593,7 +590,6 @@ GetWebIDLCallback
 >
 Call
 (
-rv
 )
 ;
 return
