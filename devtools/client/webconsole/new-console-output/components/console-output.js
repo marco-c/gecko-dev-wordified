@@ -285,7 +285,7 @@ serviceContainer
 attachRefToHud
 (
 "
-outputWrapper
+outputScroller
 "
 this
 .
