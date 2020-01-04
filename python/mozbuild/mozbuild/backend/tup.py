@@ -2715,20 +2715,6 @@ silent
 =
 not
 verbose
-                                  
-append_env
-=
-{
-b
-'
-NO_BUILDSTATUS_MESSAGES
-'
-:
-b
-'
-1
-'
-}
 )
         
 return
