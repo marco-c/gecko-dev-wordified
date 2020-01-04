@@ -1829,6 +1829,7 @@ mNameSpaceStack
 /
 nsIDocumentEncoder
 flags
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 mFlags
 ;
@@ -1882,6 +1883,7 @@ done
 OutputFormated
 flag
 )
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mDoFormat
 ;
@@ -1911,6 +1913,7 @@ OutputWrap
 is
 set
 .
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mDoRaw
 ;
@@ -1926,6 +1929,7 @@ done
 OutputWrap
 flag
 )
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mDoWrap
 ;
@@ -1941,6 +1945,7 @@ lines
 OutputDisallowLineBreaking
 flag
 )
+MOZ_INIT_OUTSIDE_CTOR
 bool
 mAllowLineBreaking
 ;
@@ -1957,6 +1962,7 @@ in
 the
 wrap
 mode
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 mMaxColumn
 ;
@@ -2166,6 +2172,7 @@ which
 have
 preformated
 content
+MOZ_INIT_OUTSIDE_CTOR
 int32_t
 mPreLevel
 ;
