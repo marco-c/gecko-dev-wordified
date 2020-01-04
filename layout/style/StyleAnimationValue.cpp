@@ -24996,7 +24996,7 @@ SetIntValue
 (
 aClipPath
 .
-GetSizingBox
+GetReferenceBox
 (
 )
 eCSSUnit_Enumerated
@@ -27089,7 +27089,7 @@ SetIntValue
 (
 clipPath
 .
-GetSizingBox
+GetReferenceBox
 (
 )
 eUnit_Enumerated
