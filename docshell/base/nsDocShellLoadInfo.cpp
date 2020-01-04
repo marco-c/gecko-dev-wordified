@@ -167,6 +167,10 @@ nsDocShellLoadInfo
 (
 )
 :
+mLoadReplace
+(
+false
+)
 mInheritOwner
 (
 false
