@@ -276,7 +276,7 @@ in
 bootstrap
 .
 js
-const
+var
 loaderSandbox
 =
 loadSandbox
