@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_devtools_AutoMemMap_h
+#
+define
+mozilla_devtools_AutoMemMap_h
+#
 include
 <
 prio
@@ -471,3 +477,8 @@ devtools
 /
 namespace
 mozilla
+#
+endif
+/
+/
+mozilla_devtools_AutoMemMap_h
