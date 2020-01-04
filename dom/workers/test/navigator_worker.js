@@ -88,9 +88,6 @@ language
 "
 languages
 "
-"
-hardwareConcurrency
-"
 ]
 ;
 self
