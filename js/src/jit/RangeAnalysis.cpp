@@ -19579,7 +19579,7 @@ NoTruncate
 ;
 }
 static
-void
+bool
 TruncateTest
 (
 TempAllocator
@@ -19638,6 +19638,7 @@ type
 MIRType_Value
 )
 return
+true
 ;
 if
 (
@@ -19682,6 +19683,7 @@ isImplicitlyUsed
 )
 )
 return
+true
 ;
 MPhi
 *
@@ -19743,6 +19745,7 @@ isBox
 )
 )
 return
+true
 ;
 MDefinition
 *
@@ -19780,6 +19783,7 @@ type
 MIRType_Int32
 )
 return
+true
 ;
 }
 for
@@ -19834,6 +19838,18 @@ type
 MIRType_Int32
 )
 {
+if
+(
+!
+alloc
+.
+ensureBallast
+(
+)
+)
+return
+false
+;
 MBasicBlock
 *
 block
@@ -19906,6 +19922,9 @@ setResultType
 (
 MIRType_Int32
 )
+;
+return
+true
 ;
 }
 /
@@ -21918,6 +21937,10 @@ isTest
 (
 )
 )
+{
+if
+(
+!
 TruncateTest
 (
 alloc
@@ -21930,7 +21953,11 @@ toTest
 (
 )
 )
+)
+return
+false
 ;
+}
 continue
 ;
 }
