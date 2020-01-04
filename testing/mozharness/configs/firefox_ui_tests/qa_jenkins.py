@@ -57,6 +57,25 @@ config
 =
 {
     
+#
+Tests
+run
+in
+mozmill
+-
+ci
+do
+not
+use
+RelEng
+infra
+    
+'
+developer_mode
+'
+:
+True
+    
 '
 env
 '
@@ -79,24 +98,6 @@ mozilla
 org
 '
     
-}
-    
-#
-Don
-'
-t
-use
-any
-kind
-of
-proxxy
-support
-    
-'
-proxxy
-'
-:
-{
 }
     
 #
