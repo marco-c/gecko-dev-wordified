@@ -9381,8 +9381,6 @@ scheme
 host
 +
 port
-+
-/
 rv
 =
 clone
@@ -9391,15 +9389,6 @@ clone
 GetPrePath
 (
 spec
-)
-;
-spec
-.
-AppendLiteral
-(
-"
-/
-"
 )
 ;
 if
