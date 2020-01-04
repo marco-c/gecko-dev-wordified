@@ -3380,12 +3380,8 @@ iter
 (
 )
 .
-readUnary
+readGrowMemory
 (
-ValType
-:
-:
-I32
 nullptr
 )
 )
@@ -3411,12 +3407,8 @@ iter
 (
 )
 .
-readNullary
+readCurrentMemory
 (
-ValType
-:
-:
-I32
 )
 )
 ;
