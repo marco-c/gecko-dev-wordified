@@ -1209,13 +1209,6 @@ QueueEvents
 (
 )
 ;
-bool
-HasEndEventToQueue
-(
-)
-const
-override
-;
 /
 /
 The
@@ -1427,7 +1420,7 @@ dom
 struct
 TransitionEventInfo
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1436,7 +1429,7 @@ Element
 >
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1788,7 +1781,7 @@ aElement
 nsStyleContext
 *
 aOldStyleContext
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

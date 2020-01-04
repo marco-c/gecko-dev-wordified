@@ -4003,11 +4003,6 @@ AnimationPlayState
 :
 :
 Pending
-|
-|
-HasEndEventToQueue
-(
-)
 )
 {
 aStyleChanging
