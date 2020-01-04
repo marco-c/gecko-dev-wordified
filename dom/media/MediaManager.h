@@ -444,8 +444,6 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
-bool
-aIsChrome
 )
 ;
 virtual
@@ -1484,8 +1482,6 @@ dom
 MediaStreamConstraints
 &
 aConstraints
-bool
-aIsChrome
 RefPtr
 <
 media

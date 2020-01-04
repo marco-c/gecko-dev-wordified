@@ -2812,8 +2812,6 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
-bool
-aIsChrome
 )
 {
 return
