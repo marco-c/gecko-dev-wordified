@@ -2940,6 +2940,13 @@ mIsPrerolling
 =
 true
 ;
+mMaster
+-
+>
+MaybeStopPrerolling
+(
+)
+;
 /
 /
 Ensure
