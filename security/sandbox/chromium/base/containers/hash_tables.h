@@ -337,6 +337,13 @@ defined
 (
 OS_ANDROID
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 #
 include
 <
