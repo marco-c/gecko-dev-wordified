@@ -5094,6 +5094,7 @@ register
 them
 for
 (
+let
 num
 of
 nums
