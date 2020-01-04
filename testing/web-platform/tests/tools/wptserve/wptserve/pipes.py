@@ -2827,6 +2827,16 @@ url_parts
 path
                      
 "
+pathname
+"
+:
+request
+.
+url_parts
+.
+path
+                     
+"
 query
 "
 :

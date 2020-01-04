@@ -17,13 +17,17 @@ import
 sys
 import
 manifest
+from
+.
 import
 vcs
 from
+.
 log
 import
 get_logger
 from
+.
 tree
 import
 GitTree

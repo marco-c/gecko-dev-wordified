@@ -3326,6 +3326,12 @@ error
 :
                 
 break
+        
+data
+.
+close
+(
+)
     
 def
 encode

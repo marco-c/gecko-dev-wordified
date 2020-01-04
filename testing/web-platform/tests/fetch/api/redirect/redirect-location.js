@@ -509,7 +509,7 @@ statusCode
 "
 manual
 "
-false
+true
 )
 ;
 redirectLocation

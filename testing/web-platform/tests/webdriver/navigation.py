@@ -415,9 +415,6 @@ session
 step
 2
     
-import
-time
-    
 session
 .
 url
