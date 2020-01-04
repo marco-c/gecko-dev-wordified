@@ -422,6 +422,9 @@ void
 outData
 uint32_t
 *
+outStartOfData
+uint32_t
+*
 outDataLen
 )
 ;

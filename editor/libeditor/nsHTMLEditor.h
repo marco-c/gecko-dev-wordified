@@ -4083,8 +4083,6 @@ nsITransferable
 *
 *
 transferable
-bool
-havePrivFlavor
 )
 ;
 nsresult
@@ -4104,6 +4102,8 @@ const
 nsAString
 &
 aInfoStr
+bool
+havePrivateHTMLFlavor
 nsIDOMNode
 *
 aDestinationNode
