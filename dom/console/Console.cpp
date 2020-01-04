@@ -11301,6 +11301,8 @@ false
 }
 DOMHighResTimeStamp
 entry
+=
+0
 ;
 if
 (
@@ -11597,6 +11599,8 @@ false
 }
 DOMHighResTimeStamp
 entry
+=
+0
 ;
 if
 (
