@@ -109,7 +109,9 @@ Reflow
 #
 include
 "
-nsHTMLReflowState
+mozilla
+/
+ReflowInput
 .
 h
 "
