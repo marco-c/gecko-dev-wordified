@@ -24143,6 +24143,9 @@ lastAnimatedGeometryRoot
 mContainerAnimatedGeometryRoot
 ;
 nsPoint
+lastAGRTopLeft
+;
+nsPoint
 topLeft
 (
 0
@@ -24198,7 +24201,7 @@ lastAnimatedGeometryRoot
 )
 )
 {
-topLeft
+lastAGRTopLeft
 =
 (
 *
@@ -24628,6 +24631,10 @@ true
 animatedGeometryRoot
 =
 lastAnimatedGeometryRoot
+;
+topLeft
+=
+lastAGRTopLeft
 ;
 }
 else
