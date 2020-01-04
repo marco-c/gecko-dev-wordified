@@ -10840,7 +10840,7 @@ mWidth
 )
 eStyleAnimType_Coord
 )
-CSS_PROP_USERINTERFACE
+CSS_PROP_UIRESET
 (
 -
 moz

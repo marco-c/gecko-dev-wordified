@@ -21445,7 +21445,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleUserInterface
+StyleUIReset
 (
 )
 -
