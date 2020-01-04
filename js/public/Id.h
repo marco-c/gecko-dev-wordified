@@ -356,7 +356,6 @@ asBits
 ;
 }
 }
-JS_HAZ_GC_POINTER
 ;
 #
 define

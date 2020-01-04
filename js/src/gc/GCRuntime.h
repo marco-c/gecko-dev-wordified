@@ -182,15 +182,6 @@ Tracer
 .
 h
 "
-#
-include
-"
-js
-/
-GCAnnotations
-.
-h
-"
 namespace
 js
 {
@@ -6575,7 +6566,6 @@ ObjectGroupList
 *
 pretenureGroups
 )
-JS_HAZ_GC_CALL
 ;
 /
 /
@@ -6923,7 +6913,6 @@ gcreason
 Reason
 reason
 )
-JS_HAZ_GC_CALL
 ;
 bool
 gcCycle
