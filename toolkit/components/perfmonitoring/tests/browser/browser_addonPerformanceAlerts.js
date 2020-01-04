@@ -24,12 +24,6 @@ init
 (
 )
 {
-AddonWatcher
-.
-uninit
-(
-)
-;
 /
 /
 Get
