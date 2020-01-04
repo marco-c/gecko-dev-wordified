@@ -376,6 +376,11 @@ MediaByteRange
 aRange
 )
 ;
+static
+const
+uint64_t
+kMAX_BOX_READ
+;
 private
 :
 bool
