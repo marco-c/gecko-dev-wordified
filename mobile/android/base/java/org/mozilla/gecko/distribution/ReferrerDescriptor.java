@@ -247,6 +247,14 @@ UnsupportedEncodingException
 e
 )
 {
+/
+/
+UTF
+-
+8
+is
+always
+supported
 }
 final
 Uri
