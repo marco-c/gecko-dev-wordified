@@ -342,7 +342,7 @@ D3DDEVTYPE_HAL
 desc
 .
 Format
-D3DFMT_X8R8G8B8
+D3DFMT_A8R8G8B8
 )
 ;
 NS_ENSURE_TRUE
@@ -409,7 +409,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+B8G8R8A8
 aRegion
 .
 Size
@@ -841,7 +841,7 @@ width
 mSize
 .
 height
-D3DFMT_X8R8G8B8
+D3DFMT_A8R8G8B8
 D3DPOOL_SYSTEMMEM
 getter_AddRefs
 (
