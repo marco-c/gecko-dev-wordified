@@ -1870,7 +1870,7 @@ void
 ScanResultNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -1892,7 +1892,7 @@ aStatus
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -1908,7 +1908,7 @@ aStatus
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -2102,7 +2102,7 @@ ReadRemoteRssiNotification
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -2146,7 +2146,7 @@ aServerIf
 bool
 aConnected
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -2282,7 +2282,7 @@ aConnId
 int
 aTransId
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const
@@ -2304,7 +2304,7 @@ aConnId
 int
 aTransId
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const
@@ -2334,7 +2334,7 @@ aConnId
 int
 aTransId
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 bool
@@ -2769,7 +2769,7 @@ Connect
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 bool
@@ -2796,7 +2796,7 @@ Disconnect
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -2855,7 +2855,7 @@ Refresh
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3132,7 +3132,7 @@ RegisterNotification
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const
@@ -3157,7 +3157,7 @@ DeregisterNotification
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const
@@ -3182,7 +3182,7 @@ ReadRemoteRssi
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3197,7 +3197,7 @@ void
 GetDeviceType
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothGattResultHandler
@@ -3324,7 +3324,7 @@ ConnectPeripheral
 int
 aServerIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 bool
@@ -3351,7 +3351,7 @@ DisconnectPeripheral
 int
 aServerIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
