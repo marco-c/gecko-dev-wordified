@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -202,6 +209,13 @@ h
 include
 "
 nsNSSComponent
+.
+h
+"
+#
+include
+"
+nsNSSHelper
 .
 h
 "

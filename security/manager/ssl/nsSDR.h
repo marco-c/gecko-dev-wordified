@@ -104,6 +104,13 @@ nsISecretDecoderRing
 .
 h
 "
+#
+include
+"
+nsNSSShutDown
+.
+h
+"
 /
 *
 *
