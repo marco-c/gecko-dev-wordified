@@ -4057,7 +4057,7 @@ this
 props
 .
 screenSharePosterUrl
-showContextRoomName
+showInitialContext
 :
 true
 useDesktopPaths
