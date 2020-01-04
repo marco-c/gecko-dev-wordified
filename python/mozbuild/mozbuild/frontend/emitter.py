@@ -178,6 +178,8 @@ PreprocessedWebIDLFile
     
 Program
     
+SdkFiles
+    
 SharedLibrary
     
 SimpleProgram
@@ -6130,6 +6132,13 @@ FinalTargetFiles
 FINAL_TARGET_PP_FILES
 '
 FinalTargetPreprocessedFiles
+)
+            
+(
+'
+SDK_FILES
+'
+SdkFiles
 )
             
 (
