@@ -285,7 +285,7 @@ found
 ;
 VideoTrack
 *
-selectedVideoTrack
+videoTrack
 =
 IndexedGetter
 (
@@ -350,7 +350,7 @@ track
 ;
 MOZ_ASSERT
 (
-selectedVideoTrack
+videoTrack
 "
 The
 mSelectedIndex
@@ -394,7 +394,7 @@ if
 aTrack
 =
 =
-selectedVideoTrack
+videoTrack
 )
 {
 mSelectedIndex
@@ -469,7 +469,7 @@ ix
 ]
 =
 =
-selectedVideoTrack
+videoTrack
 )
 {
 mSelectedIndex

@@ -163,17 +163,6 @@ mozilla
 /
 dom
 /
-VideoStreamTrack
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 VideoTrack
 .
 h
@@ -590,9 +579,6 @@ const
 nsAString
 &
 aLanguage
-VideoStreamTrack
-*
-aVideoTrack
 )
 {
 RefPtr
@@ -608,7 +594,6 @@ aId
 aKind
 aLabel
 aLanguage
-aVideoTrack
 )
 ;
 return
