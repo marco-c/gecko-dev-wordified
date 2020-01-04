@@ -916,7 +916,7 @@ CryptoBuffer
 aSymKey
 )
 ;
-void
+nsresult
 SetPrivateKey
 (
 SECKEYPrivateKey
@@ -924,7 +924,7 @@ SECKEYPrivateKey
 aPrivateKey
 )
 ;
-void
+nsresult
 SetPublicKey
 (
 SECKEYPublicKey
