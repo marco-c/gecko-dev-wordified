@@ -4902,14 +4902,6 @@ AccessFu
 )
 ;
 }
-if
-(
-!
-AppConstants
-.
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
-)
-{
 /
 /
 We
@@ -5071,7 +5063,6 @@ Accounts
 "
 )
 ;
-}
 }
 /
 /
