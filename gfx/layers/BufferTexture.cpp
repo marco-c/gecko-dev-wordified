@@ -840,6 +840,8 @@ nullptr
 bool
 hasIntermediateBuffer
 =
+aAllocator
+?
 ComputeHasIntermediateBuffer
 (
 gfx
@@ -856,6 +858,8 @@ GetCompositorBackendType
 (
 )
 )
+:
+true
 ;
 /
 /
@@ -922,11 +926,15 @@ return
 CreateInternal
 (
 aAllocator
+?
+aAllocator
 -
 >
 GetTextureForwarder
 (
 )
+:
+nullptr
 desc
 gfx
 :
