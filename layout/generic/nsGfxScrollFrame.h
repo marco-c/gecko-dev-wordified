@@ -2413,7 +2413,6 @@ aIsForCaret
 )
 const
 ;
-virtual
 mozilla
 :
 :
