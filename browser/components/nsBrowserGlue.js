@@ -19483,7 +19483,7 @@ GetStringFromName
 "
 webNotifications
 .
-showFromSite2
+receiveFromSite
 "
 )
 ;
@@ -19497,7 +19497,7 @@ stringId
 "
 webNotifications
 .
-alwaysShow
+alwaysReceive
 "
 action
 :
