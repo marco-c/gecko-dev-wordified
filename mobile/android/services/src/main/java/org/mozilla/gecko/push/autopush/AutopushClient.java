@@ -2324,6 +2324,9 @@ uaid
 final
 String
 secret
+final
+String
+appServerKey
 RequestDelegate
 <
 SubscribeChannelResponse
@@ -2480,6 +2483,16 @@ body
 new
 ExtendedJSONObject
 (
+)
+;
+body
+.
+put
+(
+"
+key
+"
+appServerKey
 )
 ;
 resource

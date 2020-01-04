@@ -2500,6 +2500,19 @@ final
 JSONObject
 serviceData
 ;
+final
+String
+appServerKey
+=
+message
+.
+getString
+(
+"
+appServerKey
+"
+)
+;
 try
 {
 serviceData
@@ -2611,6 +2624,7 @@ getName
 )
 service
 serviceData
+appServerKey
 System
 .
 currentTimeMillis
