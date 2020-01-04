@@ -526,6 +526,12 @@ CodecPrivate
 CodecName
 =
 0x258688
+CodecDelay
+=
+0x56AA
+SeekPreRoll
+=
+0x56BB
 /
 *
 AttachmentLink

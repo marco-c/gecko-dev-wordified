@@ -175,8 +175,6 @@ uint32_t
 aSampleFreq
 uint32_t
 aChannels
-uint32_t
-bitDepth
 )
 ;
 /
@@ -438,6 +436,16 @@ mCodecPrivateData
 ;
 /
 /
+Codec
+delay
+in
+nanoseconds
+.
+uint64_t
+mCodecDelay
+;
+/
+/
 The
 timecode
 of
@@ -472,9 +480,6 @@ Audio
 configuration
 float
 mSampleFreq
-;
-int
-mBitDepth
 ;
 int
 mChannels
