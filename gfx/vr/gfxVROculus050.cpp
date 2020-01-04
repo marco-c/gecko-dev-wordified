@@ -3592,6 +3592,17 @@ thread
 ovrInitParams
 params
 ;
+memset
+(
+&
+params
+0
+sizeof
+(
+params
+)
+)
+;
 params
 .
 Flags
