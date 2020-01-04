@@ -142,7 +142,13 @@ createFactories
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
 /
 reps
 /
