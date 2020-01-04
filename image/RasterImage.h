@@ -1837,7 +1837,10 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 uint32_t
 aFlags
@@ -1935,7 +1938,7 @@ GetFirstFrameRect
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2782,7 +2785,7 @@ for
 this
 image
 .
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -3282,7 +3285,7 @@ RasterImage
 aImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 RasterImage
 >

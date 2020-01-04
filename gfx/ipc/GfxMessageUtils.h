@@ -167,13 +167,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h

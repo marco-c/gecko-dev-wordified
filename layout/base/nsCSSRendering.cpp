@@ -476,13 +476,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 nsInlineFrame
 .
 h
@@ -18508,7 +18501,7 @@ the
 gradient
 pattern
 .
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -19563,6 +19556,9 @@ stopOrigin
 )
 ;
 }
+mozilla
+:
+:
 RefPtr
 <
 mozilla
@@ -34715,7 +34711,7 @@ DrawResult
 SUCCESS
 ;
 }
-GraphicsFilter
+Filter
 filter
 =
 nsLayoutUtils
@@ -34815,7 +34811,7 @@ case
 eStyleImageType_Element
 :
 {
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -35165,7 +35161,7 @@ roundedOut
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -35223,7 +35219,7 @@ ready
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -36112,7 +36108,7 @@ element
 is
 rare
 .
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -36178,8 +36174,8 @@ srcRect
 )
 ;
 }
-GraphicsFilter
-graphicsFilter
+Filter
+filter
 =
 nsLayoutUtils
 :
@@ -36214,7 +36210,7 @@ ThebesContext
 )
 aPresContext
 subImage
-graphicsFilter
+filter
 aFill
 aDirtyRect
 nullptr
@@ -36251,7 +36247,7 @@ ThebesContext
 )
 aPresContext
 subImage
-graphicsFilter
+filter
 tile
 aFill
 tile

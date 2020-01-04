@@ -197,17 +197,6 @@ ScopedGfxFeatureReporter
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-/
-/
-for
-GraphicsFilter
-#
-include
-"
 gfxPlatform
 .
 h

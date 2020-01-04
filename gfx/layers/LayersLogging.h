@@ -111,17 +111,6 @@ etc
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-/
-/
-for
-GraphicsFilter
-#
-include
-"
 mozilla
 /
 gfx

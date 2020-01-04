@@ -8780,7 +8780,7 @@ SetContainer
 container
 )
 ;
-GraphicsFilter
+Filter
 filter
 =
 nsLayoutUtils

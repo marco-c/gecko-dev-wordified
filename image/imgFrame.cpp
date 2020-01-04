@@ -1359,7 +1359,7 @@ aSize
 const
 SurfaceFormat
 aFormat
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags
@@ -1755,7 +1755,7 @@ mSize
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -3198,7 +3198,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags
@@ -4540,7 +4540,7 @@ UnlockImageData
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 imgFrame
 >

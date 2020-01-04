@@ -415,7 +415,7 @@ aWhichFrame
 ignored
 *
 /
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe

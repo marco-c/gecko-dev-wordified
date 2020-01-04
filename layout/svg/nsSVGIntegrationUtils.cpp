@@ -4701,7 +4701,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -4744,7 +4744,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -5472,7 +5472,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -5623,7 +5623,7 @@ GetMatrix
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -5675,7 +5675,7 @@ a
 drawing
 callback
 .
-RefPtr
+nsRefPtr
 <
 gfxDrawingCallback
 >
@@ -5690,7 +5690,7 @@ aRenderSize
 aFlags
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
