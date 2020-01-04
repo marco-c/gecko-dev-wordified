@@ -3130,6 +3130,13 @@ null
 ;
 try
 {
+field
+.
+setAccessible
+(
+true
+)
+;
 val
 =
 field
