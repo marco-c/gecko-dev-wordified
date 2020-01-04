@@ -283,6 +283,13 @@ video
 mp4
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 )
 {

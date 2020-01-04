@@ -784,6 +784,9 @@ aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 layers
 :
 :
@@ -821,6 +824,7 @@ mEMEPDM
 aConfig
 aTaskQueue
 aCallback
+aDiagnostics
 aLayersBackend
 aImageContainer
 )
@@ -846,6 +850,7 @@ SupportsMimeType
 aConfig
 .
 mMimeType
+aDiagnostics
 )
 )
 {
@@ -864,6 +869,7 @@ current
 aConfig
 aTaskQueue
 aCallback
+aDiagnostics
 aLayersBackend
 aImageContainer
 )
@@ -923,6 +929,9 @@ aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 layers
 :
 :
@@ -971,6 +980,7 @@ GetAsAudioInfo
 )
 aTaskQueue
 aCallback
+aDiagnostics
 )
 ;
 return
@@ -1082,6 +1092,7 @@ aLayersBackend
 aImageContainer
 aTaskQueue
 callback
+aDiagnostics
 )
 ;
 const
@@ -1176,6 +1187,7 @@ aLayersBackend
 aImageContainer
 aTaskQueue
 callback
+aDiagnostics
 )
 ;
 }
@@ -1223,6 +1235,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 {
@@ -1238,6 +1253,7 @@ mEMEPDM
 SupportsMimeType
 (
 aMimeType
+aDiagnostics
 )
 ;
 }
@@ -1250,6 +1266,7 @@ current
 GetDecoder
 (
 aMimeType
+aDiagnostics
 )
 ;
 return
@@ -1582,6 +1599,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 {
@@ -1608,6 +1628,7 @@ current
 SupportsMimeType
 (
 aMimeType
+aDiagnostics
 )
 )
 {

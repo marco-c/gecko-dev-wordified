@@ -348,6 +348,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -430,6 +433,9 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -656,6 +662,13 @@ mp4a
 latm
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 )
 {
@@ -689,6 +702,13 @@ video
 avc
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 )
 {
@@ -1389,6 +1409,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 {

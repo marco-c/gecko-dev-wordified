@@ -268,6 +268,9 @@ sHasRunTest
 =
 false
 ;
+/
+/
+static
 bool
 VP9Benchmark
 :
@@ -1237,6 +1240,13 @@ CreateDecoder
 aInfo
 mDecoderTaskQueue
 this
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 if

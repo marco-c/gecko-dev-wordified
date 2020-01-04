@@ -192,6 +192,9 @@ VideoInfo
 class
 MediaRawData
 ;
+class
+DecoderDoctorDiagnostics
+;
 namespace
 layers
 {
@@ -413,6 +416,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 =
@@ -655,6 +661,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 =
 0
@@ -793,6 +802,9 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 =
 0

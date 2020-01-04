@@ -16329,6 +16329,13 @@ NS_SUCCEEDED
 rv
 )
 codecs
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }
@@ -16731,6 +16738,13 @@ CreateDecoder
 (
 mimeType
 this
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 if

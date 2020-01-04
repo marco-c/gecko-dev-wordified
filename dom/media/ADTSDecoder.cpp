@@ -266,6 +266,13 @@ mp4a
 latm
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }

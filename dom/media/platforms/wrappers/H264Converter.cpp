@@ -192,6 +192,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 :
 mPDM
@@ -249,6 +252,7 @@ NS_OK
 {
 CreateDecoder
 (
+aDiagnostics
 )
 ;
 }
@@ -698,6 +702,9 @@ H264Converter
 :
 CreateDecoder
 (
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -798,6 +805,7 @@ mLayersBackend
 mImageContainer
 mVideoTaskQueue
 mCallback
+aDiagnostics
 )
 ;
 if
@@ -875,6 +883,13 @@ rv
 =
 CreateDecoder
 (
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 if

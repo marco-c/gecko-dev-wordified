@@ -2375,6 +2375,13 @@ mTaskQueue
 decoder
 .
 mCallback
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 break
@@ -2445,6 +2452,13 @@ mTaskQueue
 decoder
 .
 mCallback
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 mLayersBackendType
 GetImageContainer
 (

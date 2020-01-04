@@ -276,6 +276,13 @@ audio
 mpeg
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }

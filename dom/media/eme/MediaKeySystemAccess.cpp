@@ -2058,6 +2058,13 @@ MP4Decoder
 CanHandleMediaType
 (
 aContentType
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }
@@ -2237,6 +2244,13 @@ MP4Decoder
 CanHandleMediaType
 (
 aContentType
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }

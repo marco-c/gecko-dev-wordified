@@ -136,6 +136,9 @@ namespace
 mozilla
 {
 class
+DecoderDoctorDiagnostics
+;
+class
 PDMFactory
 final
 {
@@ -250,6 +253,9 @@ aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 layers
 :
 :
@@ -280,6 +286,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 ;
@@ -424,6 +433,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 ;
@@ -446,6 +458,9 @@ aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 layers
 :
 :

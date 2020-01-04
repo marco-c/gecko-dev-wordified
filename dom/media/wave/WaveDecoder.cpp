@@ -338,6 +338,13 @@ x
 wav
 "
 )
+/
+*
+DecoderDoctorDiagnostics
+*
+*
+/
+nullptr
 )
 ;
 }
