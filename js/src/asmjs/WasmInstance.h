@@ -615,6 +615,10 @@ Handle
 FunctionVector
 >
 funcImports
+const
+ValVector
+&
+globalImports
 )
 ;
 ~
