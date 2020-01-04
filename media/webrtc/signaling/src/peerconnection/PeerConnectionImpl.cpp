@@ -716,7 +716,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -1997,7 +1997,7 @@ NS_IsMainThread
 auto
 log
 =
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
@@ -2213,7 +2213,7 @@ auto
 *
 log
 =
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance

@@ -247,7 +247,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -1943,11 +1943,11 @@ the
 main
 thread
 .
-RLogRingBuffer
+RLogConnector
 *
 logs
 =
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -2874,11 +2874,11 @@ off
 main
 thread
 .
-RLogRingBuffer
+RLogConnector
 *
 logs
 =
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance

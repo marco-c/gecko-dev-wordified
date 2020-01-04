@@ -491,10 +491,10 @@ similar
 /
 #
 ifndef
-rlogringbuffer_h__
+rlogconnector_h__
 #
 define
-rlogringbuffer_h__
+rlogconnector_h__
 #
 include
 <
@@ -537,7 +537,7 @@ namespace
 mozilla
 {
 class
-RLogRingBuffer
+RLogConnector
 {
 public
 :
@@ -564,14 +564,14 @@ deinit
 *
 /
 static
-RLogRingBuffer
+RLogConnector
 *
 CreateInstance
 (
 )
 ;
 static
-RLogRingBuffer
+RLogConnector
 *
 GetInstance
 (
@@ -732,6 +732,8 @@ new_limit
 void
 Log
 (
+int
+level
 std
 :
 :
@@ -772,12 +774,12 @@ ExitPrivateMode
 ;
 private
 :
-RLogRingBuffer
+RLogConnector
 (
 )
 ;
 ~
-RLogRingBuffer
+RLogConnector
 (
 )
 ;
@@ -799,7 +801,7 @@ msg
 )
 ;
 static
-RLogRingBuffer
+RLogConnector
 *
 instance
 ;
@@ -889,7 +891,7 @@ disableCount_
 ;
 DISALLOW_COPY_ASSIGN
 (
-RLogRingBuffer
+RLogConnector
 )
 ;
 }
@@ -897,7 +899,7 @@ RLogRingBuffer
 /
 /
 class
-RLogRingBuffer
+RLogConnector
 }
 /
 /
@@ -907,4 +909,4 @@ mozilla
 endif
 /
 /
-rlogringbuffer_h__
+rlogconnector_h__

@@ -258,7 +258,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -930,12 +930,12 @@ NrIceCtx
 internal_DeinitializeGlobal
 destroys
 the
-RLogRingBuffer
+RLogConnector
 /
 /
 singleton
 .
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
@@ -1100,7 +1100,7 @@ ShutdownInstance
 NS_DISPATCH_SYNC
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -23253,7 +23253,7 @@ pairs2
 TEST_F
 (
 WebRtcIceConnectTest
-TestRLogRingBuffer
+TestRLogConnector
 )
 {
 AddStream
@@ -23467,7 +23467,7 @@ p
 >
 codeword
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -23553,7 +23553,7 @@ p
 >
 codeword
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance

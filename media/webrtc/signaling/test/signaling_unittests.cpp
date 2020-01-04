@@ -264,7 +264,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "

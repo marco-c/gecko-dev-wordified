@@ -165,7 +165,7 @@ h
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -173,7 +173,7 @@ using
 mozilla
 :
 :
-RLogRingBuffer
+RLogConnector
 ;
 using
 mozilla
@@ -216,7 +216,7 @@ ClearRingBuffer_s
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
@@ -233,7 +233,7 @@ to
 clear
 the
 ringbuffer
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -246,7 +246,7 @@ SetLogLimit
 0
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -265,7 +265,7 @@ DestroyRingBuffer_s
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -302,7 +302,7 @@ lines
 with
 no
 filter
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -491,7 +491,7 @@ and
 empty
 )
 the
-RLogRingBuffer
+RLogConnector
 mozilla
 :
 :

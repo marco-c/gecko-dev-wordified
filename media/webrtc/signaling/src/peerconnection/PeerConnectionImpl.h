@@ -3894,7 +3894,7 @@ things
 like
 dumping
 the
-RLogRingbuffer
+RLogConnector
 somewhere
 saving
 away

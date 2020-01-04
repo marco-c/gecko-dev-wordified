@@ -125,7 +125,7 @@ com
 #
 include
 "
-rlogringbuffer
+rlogconnector
 .
 h
 "
@@ -188,7 +188,7 @@ using
 mozilla
 :
 :
-RLogRingBuffer
+RLogConnector
 ;
 int
 NR_LOG_TEST
@@ -196,7 +196,7 @@ NR_LOG_TEST
 0
 ;
 class
-RLogRingBufferTest
+RLogConnectorTest
 :
 public
 :
@@ -208,7 +208,7 @@ Test
 {
 public
 :
-RLogRingBufferTest
+RLogConnectorTest
 (
 )
 {
@@ -218,7 +218,7 @@ Init
 ;
 }
 ~
-RLogRingBufferTest
+RLogConnectorTest
 (
 )
 {
@@ -263,7 +263,7 @@ char
 facility
 =
 "
-rlogringbuffer_test
+rlogconnector_test
 "
 ;
 r_log_register
@@ -286,7 +286,7 @@ Init
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 CreateInstance
@@ -299,7 +299,7 @@ Free
 (
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 DestroyInstance
@@ -325,15 +325,15 @@ Init
 ;
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestGetFree
 )
 {
-RLogRingBuffer
+RLogConnector
 *
 instance
 =
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -349,7 +349,7 @@ instance
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterEmpty
 )
 {
@@ -365,7 +365,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -393,7 +393,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestBasicFilter
 )
 {
@@ -418,7 +418,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -449,7 +449,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestBasicFilterContent
 )
 {
@@ -474,7 +474,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -507,7 +507,7 @@ back
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterAnyFrontMatch
 )
 {
@@ -562,7 +562,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -593,7 +593,7 @@ back
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterAnyBackMatch
 )
 {
@@ -648,7 +648,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -679,7 +679,7 @@ back
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterAnyBothMatch
 )
 {
@@ -734,7 +734,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -765,7 +765,7 @@ back
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterAnyNeitherMatch
 )
 {
@@ -820,7 +820,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -849,7 +849,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestAllMatch
 )
 {
@@ -883,7 +883,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -911,7 +911,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestOrder
 )
 {
@@ -945,7 +945,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -987,7 +987,7 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestNoMatch
 )
 {
@@ -1021,7 +1021,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1052,7 +1052,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestSubstringFilter
 )
 {
@@ -1086,7 +1086,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1129,7 +1129,7 @@ back
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterLimit
 )
 {
@@ -1199,7 +1199,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1254,7 +1254,7 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestFilterAnyLimit
 )
 {
@@ -1380,7 +1380,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1433,11 +1433,11 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestLimit
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1516,7 +1516,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1568,7 +1568,7 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestLimitBulkDiscard
 )
 {
@@ -1626,7 +1626,7 @@ Test6
 "
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1651,7 +1651,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1703,11 +1703,11 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestIncreaseLimit
 )
 {
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1774,7 +1774,7 @@ Test6
 "
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1799,7 +1799,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1851,7 +1851,7 @@ front
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestClear
 )
 {
@@ -1909,7 +1909,7 @@ Test6
 "
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1922,7 +1922,7 @@ SetLogLimit
 0
 )
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1947,7 +1947,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
@@ -1975,7 +1975,7 @@ size
 }
 TEST_F
 (
-RLogRingBufferTest
+RLogConnectorTest
 TestReInit
 )
 {
@@ -2049,7 +2049,7 @@ string
 >
 logs
 ;
-RLogRingBuffer
+RLogConnector
 :
 :
 GetInstance
