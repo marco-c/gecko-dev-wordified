@@ -640,10 +640,6 @@ lines
 .
 *
 /
-typedef
-nsContainerFrame
-nsBlockFrameSuper
-;
 /
 *
 *
@@ -679,7 +675,7 @@ class
 nsBlockFrame
 :
 public
-nsBlockFrameSuper
+nsContainerFrame
 {
 public
 :

@@ -2174,7 +2174,7 @@ NS_BLOCK_FRAME_HAS_OUTSIDE_BULLET
 )
 ;
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -2268,7 +2268,7 @@ nsBlockFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsBlockFrameSuper
+nsContainerFrame
 )
 nsSplittableType
 nsBlockFrame
@@ -2819,7 +2819,7 @@ tester
 looks
 at
 return
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 GetDebugStateBits
@@ -2904,7 +2904,7 @@ InvalidateFrame
 return
 ;
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 InvalidateFrame
@@ -2972,7 +2972,7 @@ InvalidateFrame
 return
 ;
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 InvalidateFrameWithRect
@@ -4012,7 +4012,7 @@ NS_BLOCK_NEEDS_BIDI_RESOLUTION
 ;
 }
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 MarkIntrinsicISizesDirty
@@ -21586,7 +21586,7 @@ aModType
 nsresult
 rv
 =
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 AttributeChanged
@@ -49014,7 +49014,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 }
 }
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 ChildIsDirty
@@ -49080,7 +49080,7 @@ NS_BLOCK_FLAGS_NON_INHERITED_MASK
 )
 ;
 }
-nsBlockFrameSuper
+nsContainerFrame
 :
 :
 Init
