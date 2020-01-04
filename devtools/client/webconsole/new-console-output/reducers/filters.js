@@ -167,12 +167,12 @@ true
 log
 :
 true
-network
+net
 :
-true
+false
 netxhr
 :
-true
+false
 text
 :
 "
