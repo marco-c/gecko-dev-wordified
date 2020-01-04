@@ -553,7 +553,7 @@ mWidth
 widgetEvent
 -
 >
-height
+mHeight
 =
 aParam
 .
@@ -768,7 +768,7 @@ AsPointerEvent
 )
 -
 >
-height
+mHeight
 ;
 }
 float

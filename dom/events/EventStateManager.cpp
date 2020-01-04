@@ -23342,12 +23342,12 @@ mWidth
 newPointerEvent
 -
 >
-height
+mHeight
 =
 sourcePointer
 -
 >
-height
+mHeight
 ;
 newPointerEvent
 -
