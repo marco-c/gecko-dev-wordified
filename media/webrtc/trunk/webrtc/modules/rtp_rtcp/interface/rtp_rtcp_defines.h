@@ -284,7 +284,7 @@ kRtpExtensionAudioLevel
 kRtpExtensionAbsoluteSendTime
 kRtpExtensionVideoRotation
 kRtpExtensionTransportSequenceNumber
-kRtpExtensionRtpStreamId
+kRtpExtensionRID
 }
 ;
 enum

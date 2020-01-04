@@ -1227,7 +1227,7 @@ rtp_header_parser_
 >
 RegisterRtpHeaderExtension
 (
-kRtpExtensionRtpStreamId
+kRtpExtensionRID
 id
 )
 )
@@ -1259,7 +1259,7 @@ rtp_header_parser_
 >
 DeregisterRtpHeaderExtension
 (
-kRtpExtensionRtpStreamId
+kRtpExtensionRID
 )
 ;
 }

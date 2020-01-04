@@ -172,7 +172,7 @@ is
 variable
 const
 size_t
-kRtpStreamIdLength
+kRIDLength
 =
 4
 ;
@@ -330,11 +330,11 @@ kTransportSequenceNumberLength
 break
 ;
 case
-kRtpExtensionRtpStreamId
+kRtpExtensionRID
 :
 length
 =
-kRtpStreamIdLength
+kRIDLength
 ;
 break
 ;
