@@ -18719,7 +18719,7 @@ nsWindow
 UpdateOpaqueRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aOpaqueRegion
 )
@@ -18914,13 +18914,7 @@ plugins
 LayoutDeviceIntRect
 largest
 =
-LayoutDeviceIntRegion
-:
-:
-FromUnknownRegion
-(
 aOpaqueRegion
-)
 .
 GetLargestRectangle
 (
@@ -19221,7 +19215,7 @@ nsWindow
 UpdateWindowDraggingRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )

@@ -3462,7 +3462,7 @@ void
 UpdateWindowDraggingRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
