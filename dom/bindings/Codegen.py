@@ -25598,7 +25598,7 @@ def
 CopyUnforgeablePropertiesToInstance
 (
 descriptor
-wrapperCache
+failureCode
 )
 :
     
@@ -25736,49 +25736,6 @@ object
     
 ]
     
-if
-wrapperCache
-:
-        
-cleanup
-=
-dedent
-(
-            
-"
-"
-"
-            
-aCache
--
->
-ReleaseWrapper
-(
-aObject
-)
-;
-            
-aCache
--
->
-ClearWrapper
-(
-)
-;
-            
-"
-"
-"
-)
-    
-else
-:
-        
-cleanup
-=
-"
-"
-    
 #
 For
 proxies
@@ -25864,12 +25821,8 @@ expando
               
 *
 {
-cleanup
+failureCode
 }
-              
-return
-false
-;
             
 }
             
@@ -25877,9 +25830,9 @@ false
 "
 "
             
-cleanup
+failureCode
 =
-cleanup
+failureCode
 )
 )
 )
@@ -25956,12 +25909,8 @@ unforgeableHolder
           
 *
 {
-cleanup
+failureCode
 }
-          
-return
-false
-;
         
 }
         
@@ -25973,9 +25922,9 @@ obj
 =
 obj
         
-cleanup
+failureCode
 =
-cleanup
+failureCode
 )
 )
 )
@@ -26131,7 +26080,7 @@ def
 InitMemberSlots
 (
 descriptor
-wrapperCache
+failureCode
 )
 :
     
@@ -26219,49 +26168,6 @@ return
 "
 "
     
-if
-wrapperCache
-:
-        
-clearWrapper
-=
-dedent
-(
-            
-"
-"
-"
-            
-aCache
--
->
-ReleaseWrapper
-(
-aObject
-)
-;
-            
-aCache
--
->
-ClearWrapper
-(
-)
-;
-            
-"
-"
-"
-)
-    
-else
-:
-        
-clearWrapper
-=
-"
-"
-    
 return
 fill
 (
@@ -26284,12 +26190,8 @@ aObject
           
 *
 {
-clearWrapper
+failureCode
 }
-          
-return
-false
-;
         
 }
         
@@ -26297,9 +26199,9 @@ false
 "
 "
         
-clearWrapper
+failureCode
 =
-clearWrapper
+failureCode
 )
 def
 DeclareProto
@@ -26726,6 +26628,41 @@ aObject
 n
 "
         
+failureCode
+=
+dedent
+(
+            
+"
+"
+"
+            
+aCache
+-
+>
+ReleaseWrapper
+(
+aObject
+)
+;
+            
+aCache
+-
+>
+ClearWrapper
+(
+)
+;
+            
+return
+false
+;
+            
+"
+"
+"
+)
+        
 return
 fill
 (
@@ -27140,7 +27077,8 @@ CopyUnforgeablePropertiesToInstance
 self
 .
 descriptor
-True
+                                                            
+failureCode
 )
             
 slots
@@ -27150,7 +27088,7 @@ InitMemberSlots
 self
 .
 descriptor
-True
+failureCode
 )
             
 preserveWrapper
@@ -27486,6 +27424,16 @@ self
 )
 :
         
+failureCode
+=
+"
+return
+false
+;
+\
+n
+"
+        
 return
 fill
 (
@@ -27589,7 +27537,8 @@ CopyUnforgeablePropertiesToInstance
 self
 .
 descriptor
-False
+                                                            
+failureCode
 )
             
 slots
@@ -27599,7 +27548,7 @@ InitMemberSlots
 self
 .
 descriptor
-False
+failureCode
 )
 )
 class
@@ -28117,7 +28066,7 @@ InitMemberSlots
 self
 .
 descriptor
-True
+failureCode
 )
 )
 class
