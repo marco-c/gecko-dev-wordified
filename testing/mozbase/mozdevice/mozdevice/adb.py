@@ -11394,6 +11394,10 @@ path
 timeout
 =
 timeout
+                                   
+root
+=
+root
 )
 :
                     
@@ -11434,6 +11438,9 @@ dirname
 (
 path
 )
+root
+=
+root
 )
 :
                 
@@ -11490,6 +11497,9 @@ self
 is_dir
 (
 name
+root
+=
+root
 )
 :
                             
