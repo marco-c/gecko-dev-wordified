@@ -193,10 +193,10 @@ public
 ClientSingleTiledLayerBuffer
 (
 ClientTiledPaintedLayer
-*
+&
 aPaintedLayer
 CompositableClient
-*
+&
 aCompositableClient
 ClientLayerManager
 *
@@ -397,10 +397,6 @@ private
 TileClient
 mTile
 ;
-ClientLayerManager
-*
-mManager
-;
 nsIntRegion
 mPaintedRegion
 ;
@@ -549,7 +545,7 @@ public
 SingleTiledContentClient
 (
 ClientTiledPaintedLayer
-*
+&
 aPaintedLayer
 ClientLayerManager
 *
