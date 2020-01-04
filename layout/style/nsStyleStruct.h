@@ -20319,7 +20319,7 @@ union
 nscolor
 mColor
 ;
-nsIURI
+FragmentOrURL
 *
 mPaintServer
 ;
