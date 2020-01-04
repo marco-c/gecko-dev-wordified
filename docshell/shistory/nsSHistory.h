@@ -335,7 +335,7 @@ aResult
 )
 ;
 nsresult
-CompareFrames
+LoadDifferingEntries
 (
 nsISHEntry
 *
@@ -349,8 +349,8 @@ aRootDocShell
 long
 aLoadType
 bool
-*
-aIsFrameFound
+&
+aDifferenceFound
 )
 ;
 nsresult
