@@ -7350,7 +7350,7 @@ d
 d
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -7880,7 +7880,7 @@ String
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -7990,7 +7990,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -8184,7 +8184,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -8420,7 +8420,7 @@ Double
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -8541,7 +8541,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -8694,7 +8694,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -10767,7 +10767,7 @@ UnaryArith
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -10938,7 +10938,7 @@ Int32
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -11033,7 +11033,7 @@ Number
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -11577,7 +11577,7 @@ Compare
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -11987,7 +11987,7 @@ Int32
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12101,7 +12101,7 @@ Number
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12231,7 +12231,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12344,7 +12344,7 @@ Boolean
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12446,7 +12446,7 @@ s
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12580,7 +12580,7 @@ String
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12677,7 +12677,7 @@ Object
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -12812,7 +12812,7 @@ Undef
 )
 stub
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -20313,7 +20313,7 @@ GetProp
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]

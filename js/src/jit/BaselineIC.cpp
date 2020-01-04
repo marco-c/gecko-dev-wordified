@@ -11922,7 +11922,7 @@ GetElem
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -18258,7 +18258,7 @@ SetElem
 s
 )
 "
-js_CodeName
+CodeName
 [
 JSOp
 (
@@ -28214,7 +28214,7 @@ GetName
 s
 )
 "
-js_CodeName
+CodeName
 [
 JSOp
 (
@@ -29239,7 +29239,7 @@ BindName
 s
 )
 "
-js_CodeName
+CodeName
 [
 JSOp
 (
@@ -29520,7 +29520,7 @@ GetIntrinsic
 s
 )
 "
-js_CodeName
+CodeName
 [
 JSOp
 (
@@ -31547,7 +31547,7 @@ SetProp
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -41263,7 +41263,7 @@ Call
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -41980,7 +41980,7 @@ SpreadCall
 s
 )
 "
-js_CodeName
+CodeName
 [
 op
 ]

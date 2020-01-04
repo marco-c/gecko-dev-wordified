@@ -1634,7 +1634,7 @@ pc
 {
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 JSOp
 (
@@ -4505,7 +4505,7 @@ earlier
 ;
 if
 (
-js_CodeSpec
+CodeSpec
 [
 *
 last
@@ -11221,7 +11221,7 @@ endif
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -13687,7 +13687,7 @@ opcode
 %
 s
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -19065,7 +19065,7 @@ nullptr
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -19302,7 +19302,7 @@ nullptr
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -19546,7 +19546,7 @@ nullptr
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -28737,7 +28737,7 @@ rhsStart
 =
 pc
 +
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -29085,7 +29085,7 @@ trueStart
 =
 pc
 +
-js_CodeSpec
+CodeSpec
 [
 op
 ]

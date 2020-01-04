@@ -9243,7 +9243,7 @@ JitSpew_Profiling
 %
 s
 "
-js_CodeName
+CodeName
 [
 op
 ]

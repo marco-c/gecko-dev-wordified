@@ -3577,7 +3577,7 @@ typeArray
 {
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 *
 pc

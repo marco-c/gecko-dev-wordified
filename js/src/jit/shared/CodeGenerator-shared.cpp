@@ -2120,7 +2120,7 @@ code
 (
 )
 pcDelta
-js_CodeName
+CodeName
 [
 JSOp
 (

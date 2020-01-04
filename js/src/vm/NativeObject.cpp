@@ -12283,7 +12283,7 @@ pc
 ;
 if
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -12438,7 +12438,7 @@ undefined
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -13047,7 +13047,7 @@ undefined
 pc
 +
 =
-js_CodeSpec
+CodeSpec
 [
 *
 pc

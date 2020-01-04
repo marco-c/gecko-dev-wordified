@@ -10693,7 +10693,7 @@ markAsAssigned
 {
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 pn_op
 ]

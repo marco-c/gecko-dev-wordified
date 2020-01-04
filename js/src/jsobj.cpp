@@ -24532,7 +24532,7 @@ s
 \
 n
 "
-js_CodeName
+CodeName
 [
 *
 pc

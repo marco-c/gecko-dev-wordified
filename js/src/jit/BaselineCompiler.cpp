@@ -6025,7 +6025,7 @@ pcToOffset
 pc
 )
 )
-js_CodeName
+CodeName
 [
 op
 ]
@@ -6378,7 +6378,7 @@ op
 %
 s
 "
-js_CodeName
+CodeName
 [
 op
 ]

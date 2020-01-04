@@ -1877,7 +1877,7 @@ dn
 setOp
 (
 (
-js_CodeSpec
+CodeSpec
 [
 dn
 -
@@ -2164,7 +2164,7 @@ dn
 setOp
 (
 (
-js_CodeSpec
+CodeSpec
 [
 dn
 -
@@ -9548,7 +9548,7 @@ dn
 setOp
 (
 (
-js_CodeSpec
+CodeSpec
 [
 dn
 -

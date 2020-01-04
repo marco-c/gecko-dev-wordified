@@ -8341,7 +8341,7 @@ at
 int
 )
 pcOff
-js_CodeName
+CodeName
 [
 op
 ]
@@ -8503,7 +8503,7 @@ resumeAfter
 &
 &
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -9733,7 +9733,7 @@ after
 "
 at
 "
-js_CodeName
+CodeName
 [
 op
 ]

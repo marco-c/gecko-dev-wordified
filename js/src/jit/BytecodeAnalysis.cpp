@@ -527,7 +527,7 @@ length
 (
 )
 )
-js_CodeName
+CodeName
 [
 op
 ]
