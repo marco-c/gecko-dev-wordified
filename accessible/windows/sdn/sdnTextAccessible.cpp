@@ -1158,6 +1158,9 @@ getter_AddRefs
 (
 fm
 )
+1
+.
+0f
 )
 ;
 const

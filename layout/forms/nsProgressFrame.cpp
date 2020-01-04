@@ -1649,6 +1649,9 @@ getter_AddRefs
 (
 fontMet
 )
+1
+.
+0f
 )
 0
 )
