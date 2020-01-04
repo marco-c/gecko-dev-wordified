@@ -1679,6 +1679,7 @@ int
 id
 )
 ;
+WrapForJNI
 private
 static
 native
