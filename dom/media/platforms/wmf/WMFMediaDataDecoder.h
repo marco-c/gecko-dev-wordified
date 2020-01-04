@@ -331,6 +331,7 @@ aOutput
 =
 0
 ;
+virtual
 void
 Flush
 (
@@ -350,6 +351,7 @@ reset
 )
 ;
 }
+virtual
 void
 Drain
 (
