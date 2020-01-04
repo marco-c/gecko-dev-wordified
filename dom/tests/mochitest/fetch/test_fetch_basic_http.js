@@ -1784,7 +1784,6 @@ empty
 filename
 =
 "
-blob
 "
 '
 )
