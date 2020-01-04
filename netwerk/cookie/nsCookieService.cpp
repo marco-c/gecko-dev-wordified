@@ -16481,9 +16481,8 @@ aCx
 NeckoOriginAttributes
 attrs
 ;
-if
+MOZ_ASSERT
 (
-!
 attrs
 .
 Init
@@ -16492,11 +16491,7 @@ aCx
 aOriginAttributes
 )
 )
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 return
 RemoveNative
 (

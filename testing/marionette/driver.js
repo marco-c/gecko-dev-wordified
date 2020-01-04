@@ -15767,6 +15767,9 @@ name
 cookie
 .
 path
+cookie
+.
+originAttributes
 false
 )
 ;
@@ -15879,6 +15882,9 @@ name
 cookie
 .
 path
+cookie
+.
+originAttributes
 false
 )
 ;
