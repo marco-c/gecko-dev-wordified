@@ -485,12 +485,8 @@ nsIFrame
 aDestructRoot
 )
 {
-DecVisibilityCount
+DecApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 nsCOMPtr
@@ -604,12 +600,8 @@ are
 always
 visible
 .
-IncVisibilityCount
+IncApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 nsCOMPtr
