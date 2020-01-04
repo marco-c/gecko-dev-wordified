@@ -1319,6 +1319,21 @@ string
 *
 param
 {
+Boolean
+}
+enabled
+*
+True
+if
+the
+property
+should
+be
+enabled
+.
+*
+param
+{
 TextProperty
 }
 siblingProp
@@ -1344,6 +1359,7 @@ function
 name
 value
 priority
+enabled
 siblingProp
 )
 {
@@ -1357,6 +1373,7 @@ this
 name
 value
 priority
+enabled
 )
 ;
 let
