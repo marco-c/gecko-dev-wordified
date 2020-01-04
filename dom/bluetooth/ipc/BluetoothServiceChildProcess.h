@@ -285,7 +285,7 @@ void
 StopLeScanInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aScanUuid
 BluetoothReplyRunnable
@@ -301,7 +301,7 @@ StartLeScanInternal
 const
 nsTArray
 <
-BluetoothUuid
+nsString
 >
 &
 aServiceUuids
@@ -998,7 +998,7 @@ void
 ConnectGattClientInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1016,7 +1016,7 @@ void
 DisconnectGattClientInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1034,7 +1034,7 @@ void
 DiscoverGattServicesInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 BluetoothReplyRunnable
@@ -1048,7 +1048,7 @@ void
 GattClientStartNotificationsInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1070,7 +1070,7 @@ void
 GattClientStopNotificationsInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1120,7 +1120,7 @@ void
 GattClientReadCharacteristicValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1142,7 +1142,7 @@ void
 GattClientWriteCharacteristicValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1175,7 +1175,7 @@ void
 GattClientReadDescriptorValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1201,7 +1201,7 @@ void
 GattClientWriteDescriptorValueInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1234,7 +1234,7 @@ void
 GattServerConnectPeripheralInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1252,7 +1252,7 @@ void
 GattServerDisconnectPeripheralInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1282,7 +1282,7 @@ void
 GattServerAddServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1302,7 +1302,7 @@ void
 GattServerAddIncludedServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1324,7 +1324,7 @@ void
 GattServerAddCharacteristicInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1350,7 +1350,7 @@ void
 GattServerAddDescriptorInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1378,7 +1378,7 @@ void
 GattServerRemoveServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1396,7 +1396,7 @@ void
 GattServerStartServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1414,7 +1414,7 @@ void
 GattServerStopServiceInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1432,7 +1432,7 @@ void
 GattServerSendResponseInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
@@ -1458,7 +1458,7 @@ void
 GattServerSendIndicationInternal
 (
 const
-BluetoothUuid
+nsAString
 &
 aAppUuid
 const
