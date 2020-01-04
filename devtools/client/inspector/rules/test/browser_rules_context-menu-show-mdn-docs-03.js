@@ -804,9 +804,9 @@ label
 =
 =
 =
-STYLE_INSPECTOR_L10N
+_STRINGS
 .
-getStr
+GetStringFromName
 (
 "
 styleinspector
