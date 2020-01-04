@@ -2812,6 +2812,11 @@ aRv
 )
 ;
 }
+void
+NotifySpecifiedTimingUpdated
+(
+)
+;
 protected
 :
 ~
