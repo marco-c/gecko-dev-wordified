@@ -2265,7 +2265,7 @@ remotetabs
 -
 panelmenu
 .
-tooltiptext
+tooltiptext2
 "
 type
 :
