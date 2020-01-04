@@ -458,6 +458,8 @@ channel
 .
 finishSynthesizedResponse
 (
+'
+'
 )
 ;
 }
@@ -986,6 +988,8 @@ channel
 .
 finishSynthesizedResponse
 (
+'
+'
 )
 ;
 }
@@ -1209,6 +1213,8 @@ intercepted
 .
 finishSynthesizedResponse
 (
+'
+'
 )
 ;
 }
@@ -1498,6 +1504,8 @@ intercepted
 .
 finishSynthesizedResponse
 (
+'
+'
 )
 ;
 channel
@@ -1632,6 +1640,8 @@ intercepted
 .
 finishSynthesizedResponse
 (
+'
+'
 )
 ;
 }
