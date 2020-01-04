@@ -8949,8 +8949,7 @@ char
 *
 aPref
 const
-char16_t
-*
+char16ptr_t
 aValue
 )
 {
