@@ -68,9 +68,9 @@ use_class_as_property
 __version__
 =
 '
-3
+4
 .
-2
+0
 .
 0
 '
