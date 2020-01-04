@@ -5345,6 +5345,7 @@ SourceSurface
 aSourceSurface
 )
 ;
+explicit
 SourceSurfaceImage
 (
 gfx
