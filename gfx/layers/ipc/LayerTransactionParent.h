@@ -513,6 +513,17 @@ protected
 :
 virtual
 bool
+RecvSyncWithCompositor
+(
+)
+override
+{
+return
+true
+;
+}
+virtual
+bool
 RecvShutdown
 (
 )
