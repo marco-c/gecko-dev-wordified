@@ -7171,7 +7171,7 @@ parent
 "
 )
 ;
-nsSVGOuterSVGAnonChildFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
