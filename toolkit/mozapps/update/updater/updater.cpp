@@ -1180,6 +1180,12 @@ BZ2_CRC32TABLE_UNDECLARED
 #
 if
 MOZ_IS_GCC
+|
+|
+defined
+(
+__clang__
+)
 extern
 "
 C
