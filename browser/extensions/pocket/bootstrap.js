@@ -879,12 +879,6 @@ Ci
 nsIAboutModule
 .
 HIDE_FROM_ABOUTABOUT
-|
-Ci
-.
-nsIAboutModule
-.
-MAKE_UNLINKABLE
 ;
 }
 newChannel
