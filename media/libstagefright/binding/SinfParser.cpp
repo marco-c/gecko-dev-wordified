@@ -280,13 +280,6 @@ ReadU32
 (
 )
 ;
-reader
--
->
-DiscardRemaining
-(
-)
-;
 }
 void
 SinfParser
