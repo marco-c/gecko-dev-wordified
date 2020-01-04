@@ -893,8 +893,10 @@ tooltip
 setContent
 (
 div
+{
 width
 height
+}
 )
 ;
 }
@@ -1045,8 +1047,14 @@ tooltip
 setContent
 (
 div
+{
+width
+:
 150
+height
+:
 30
+}
 )
 ;
 }

@@ -17027,7 +17027,11 @@ tooltip
 setContent
 (
 el
+{
+width
+:
 REQUESTS_TOOLTIP_STACK_TRACE_WIDTH
+}
 )
 ;
 return

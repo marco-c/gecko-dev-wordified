@@ -1242,7 +1242,11 @@ setContent
 this
 .
 container
+{
+width
+:
 CONTAINER_WIDTH
+}
 )
 ;
 this

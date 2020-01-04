@@ -645,8 +645,14 @@ tooltip
 setContent
 (
 div
+{
+width
+:
 200
+height
+:
 35
+}
 )
 ;
 let
