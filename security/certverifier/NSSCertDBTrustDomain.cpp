@@ -2734,6 +2734,7 @@ mOCSPCache
 Get
 (
 certID
+mFirstPartyDomain
 cachedResponseResult
 cachedResponseValidThrough
 )
@@ -3841,6 +3842,7 @@ mOCSPCache
 Put
 (
 certID
+mFirstPartyDomain
 error
 time
 timeout
@@ -4590,6 +4592,7 @@ mOCSPCache
 Put
 (
 certID
+mFirstPartyDomain
 rv
 thisUpdate
 validThrough
