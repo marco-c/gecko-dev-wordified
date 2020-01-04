@@ -4554,6 +4554,7 @@ reportAllocOverflow
 const
 {
 }
+MOZ_MUST_USE
 bool
 checkSimulatedOOM
 (

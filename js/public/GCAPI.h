@@ -3611,6 +3611,16 @@ non
 -
 null
 .
+The
+return
+value
+indicates
+*
+if
+anything
+was
+unmarked
+.
 *
 /
 extern

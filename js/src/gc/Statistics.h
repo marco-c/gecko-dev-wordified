@@ -729,6 +729,7 @@ PHASE_LIMIT
 ]
 ;
 static
+MOZ_MUST_USE
 bool
 initialize
 (
@@ -805,11 +806,13 @@ unsigned
 cycleCount
 )
 ;
+MOZ_MUST_USE
 bool
 startTimingMutator
 (
 )
 ;
+MOZ_MUST_USE
 bool
 stopTimingMutator
 (

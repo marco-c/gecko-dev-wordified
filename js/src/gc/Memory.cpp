@@ -1571,7 +1571,7 @@ p2
 p
 ;
 }
-bool
+void
 MarkPagesInUse
 (
 void
@@ -1589,7 +1589,6 @@ DecommitEnabled
 )
 )
 return
-true
 ;
 MOZ_ASSERT
 (
@@ -1602,9 +1601,6 @@ pageSize
 =
 0
 )
-;
-return
-true
 ;
 }
 size_t
@@ -1801,9 +1797,6 @@ pageSize
 =
 0
 )
-;
-return
-true
 ;
 }
 size_t
@@ -2115,7 +2108,6 @@ DecommitEnabled
 )
 )
 return
-true
 ;
 MOZ_ASSERT
 (
@@ -2128,9 +2120,6 @@ pageSize
 =
 0
 )
-;
-return
-true
 ;
 }
 size_t
@@ -3840,7 +3829,7 @@ result
 1
 ;
 }
-bool
+void
 MarkPagesInUse
 (
 void
@@ -3858,7 +3847,6 @@ DecommitEnabled
 )
 )
 return
-true
 ;
 MOZ_ASSERT
 (
@@ -3871,9 +3859,6 @@ pageSize
 =
 0
 )
-;
-return
-true
 ;
 }
 size_t

@@ -2040,7 +2040,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 gc
 :
 :
@@ -2063,7 +2063,6 @@ if
 trc
 )
 return
-false
 ;
 MOZ_ASSERT
 (
@@ -2347,9 +2346,6 @@ js_delete
 (
 trc
 )
-;
-return
-true
 ;
 }
 /

@@ -1136,6 +1136,7 @@ return
 maxEmptyChunkCount_
 ;
 }
+MOZ_MUST_USE
 bool
 setParameter
 (
@@ -4714,6 +4715,7 @@ JSRuntime
 rt
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -4761,6 +4763,7 @@ needZealousGC
 (
 )
 ;
+MOZ_MUST_USE
 bool
 addRoot
 (
@@ -4791,6 +4794,7 @@ AutoLockGC
 lock
 )
 ;
+MOZ_MUST_USE
 bool
 setParameter
 (
@@ -4814,6 +4818,7 @@ AutoLockGC
 lock
 )
 ;
+MOZ_MUST_USE
 bool
 triggerGC
 (
@@ -4839,6 +4844,21 @@ AutoLockGC
 lock
 )
 ;
+/
+/
+The
+return
+value
+indicates
+if
+we
+were
+able
+to
+do
+the
+GC
+.
 bool
 triggerZoneGC
 (
@@ -4855,6 +4875,7 @@ Reason
 reason
 )
 ;
+MOZ_MUST_USE
 bool
 maybeGC
 (
@@ -4958,6 +4979,19 @@ nullptr
 )
 ;
 }
+/
+/
+The
+return
+value
+indicates
+whether
+a
+major
+GC
+was
+performed
+.
 bool
 gcIfRequested
 (
@@ -5069,6 +5103,8 @@ fullGCForAtomsRequested_
 =
 false
 ;
+MOZ_RELEASE_ASSERT
+(
 triggerGC
 (
 JS
@@ -5078,6 +5114,7 @@ gcreason
 :
 :
 ALLOC_TRIGGER
+)
 )
 ;
 }
@@ -5745,6 +5782,7 @@ void
 data
 )
 ;
+MOZ_MUST_USE
 bool
 addBlackRootsTracer
 (
@@ -5851,6 +5889,7 @@ callObjectsTenuredCallback
 (
 )
 ;
+MOZ_MUST_USE
 bool
 addFinalizeCallback
 (
@@ -5868,6 +5907,7 @@ JSFinalizeCallback
 func
 )
 ;
+MOZ_MUST_USE
 bool
 addWeakPointerZoneGroupCallback
 (
@@ -5885,6 +5925,7 @@ JSWeakPointerZoneGroupCallback
 callback
 )
 ;
+MOZ_MUST_USE
 bool
 addWeakPointerCompartmentCallback
 (
@@ -6389,7 +6430,7 @@ startVerifyPreBarriers
 (
 )
 ;
-bool
+void
 endVerifyPreBarriers
 (
 )
@@ -6496,6 +6537,7 @@ template
 AllowGC
 allowGC
 >
+MOZ_MUST_USE
 bool
 checkAllocatorState
 (
@@ -6675,6 +6717,7 @@ arena
 /
 Allocator
 internals
+MOZ_MUST_USE
 bool
 gcIfNeededPerAllocation
 (
@@ -6922,6 +6965,7 @@ or
 otherwise
 delayed
 .
+MOZ_MUST_USE
 bool
 checkIfGCAllowedInCurrentState
 (
@@ -6961,6 +7005,7 @@ reason
 )
 JS_HAZ_GC_CALL
 ;
+MOZ_MUST_USE
 bool
 gcCycle
 (
@@ -7005,6 +7050,7 @@ purgeRuntime
 (
 )
 ;
+MOZ_MUST_USE
 bool
 beginMarkPhase
 (
@@ -7154,6 +7200,7 @@ findZoneGroups
 (
 )
 ;
+MOZ_MUST_USE
 bool
 findZoneEdgesForWeakMaps
 (
@@ -7317,6 +7364,7 @@ Zone
 zone
 )
 ;
+MOZ_MUST_USE
 bool
 relocateArenas
 (
@@ -7824,6 +7872,8 @@ VerifyPreTracer
 *
 verifyPreData
 ;
+private
+:
 bool
 chunkAllocationSinceLastGC
 ;

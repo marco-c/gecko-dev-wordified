@@ -283,7 +283,7 @@ some
 /
 platforms
 .
-bool
+void
 MarkPagesInUse
 (
 void

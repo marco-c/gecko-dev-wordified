@@ -546,6 +546,7 @@ stack
 capacity
 ;
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -577,6 +578,7 @@ size_t
 maxCapacity
 )
 ;
+MOZ_MUST_USE
 bool
 push
 (
@@ -622,6 +624,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 push
 (
@@ -758,6 +761,7 @@ elements
 .
 *
 /
+MOZ_MUST_USE
 bool
 enlarge
 (
@@ -974,6 +978,7 @@ JSRuntime
 rt
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -1316,6 +1321,7 @@ Arena
 arena
 )
 ;
+MOZ_MUST_USE
 bool
 markDelayedChildren
 (
@@ -1351,6 +1357,7 @@ isMarkStackEmpty
 unmarkedArenaStackTop
 ;
 }
+MOZ_MUST_USE
 bool
 drainMarkStack
 (
@@ -1783,6 +1790,7 @@ template
 typename
 T
 >
+MOZ_MUST_USE
 bool
 mark
 (
@@ -1977,6 +1985,7 @@ isEmpty
 )
 ;
 }
+MOZ_MUST_USE
 bool
 restoreValueArray
 (
@@ -2744,6 +2753,17 @@ namespace
 gc
 *
 /
+/
+/
+The
+return
+value
+indicates
+if
+anything
+was
+unmarked
+.
 bool
 UnmarkGrayShapeRecursively
 (
