@@ -5311,9 +5311,6 @@ virtual
 void
 PostDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate

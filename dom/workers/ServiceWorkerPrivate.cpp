@@ -3405,9 +3405,6 @@ true
 void
 PostDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate

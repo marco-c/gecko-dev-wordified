@@ -13713,9 +13713,6 @@ true
 void
 PostDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -14442,9 +14439,6 @@ true
 void
 PostDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
