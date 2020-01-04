@@ -17591,6 +17591,14 @@ isEnabled
 (
 this
 )
+&
+&
+!
+ActivityStream
+.
+isHomePanel
+(
+)
 )
 {
 final
