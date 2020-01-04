@@ -1814,9 +1814,6 @@ options
 ignoreNonIndexedProperties
 :
 true
-ignoreSafeGetters
-:
-true
 query
 :
 aQuery
