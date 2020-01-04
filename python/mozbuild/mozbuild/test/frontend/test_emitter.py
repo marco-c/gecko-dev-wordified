@@ -5891,7 +5891,7 @@ join
 (
 lib
 .
-defines
+lib_defines
 .
 get_defines
 (

@@ -1511,7 +1511,7 @@ defines
             
 outerlib
 .
-defines
+lib_defines
 .
 update
 (
@@ -1601,7 +1601,7 @@ propagate_defines
 lib
 lib
 .
-defines
+lib_defines
 )
             
 yield
@@ -3637,7 +3637,7 @@ context
                 
 lib
 .
-defines
+lib_defines
 .
 update
 (

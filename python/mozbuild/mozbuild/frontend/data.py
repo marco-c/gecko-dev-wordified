@@ -1722,7 +1722,7 @@ __slots__
 (
         
 '
-defines
+lib_defines
 '
         
 '
@@ -1767,7 +1767,7 @@ linked_system_libs
         
 self
 .
-defines
+lib_defines
 =
 Defines
 (

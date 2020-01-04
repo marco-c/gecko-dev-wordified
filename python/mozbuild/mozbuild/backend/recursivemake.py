@@ -9979,7 +9979,7 @@ _process_defines
 (
 obj
 .
-defines
+lib_defines
 backend_file
 )
     
