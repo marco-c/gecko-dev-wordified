@@ -3923,6 +3923,7 @@ freeMallocedBuffersTask
 >
 joinWithLockHeld
 (
+lock
 )
 ;
 freeMallocedBuffersTask

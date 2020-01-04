@@ -2231,6 +2231,7 @@ allocTask
 .
 joinWithLockHeld
 (
+helperLock
 )
 ;
 allocTask
@@ -2498,6 +2499,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :

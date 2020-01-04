@@ -213,6 +213,9 @@ h
 namespace
 js
 {
+class
+AutoLockHelperThreadState
+;
 unsigned
 GetCPUCount
 (
@@ -5892,6 +5895,9 @@ startWithLockHeld
 void
 joinWithLockHeld
 (
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 /
@@ -6000,6 +6006,9 @@ virtual
 void
 runFromHelperThread
 (
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 }

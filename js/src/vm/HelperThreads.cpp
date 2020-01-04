@@ -981,6 +981,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -2029,6 +2030,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -2125,6 +2127,9 @@ true
 ;
 AutoUnlockHelperThreadState
 unlock
+(
+lock
+)
 ;
 HelperThreadState
 (
@@ -4133,6 +4138,9 @@ GlobalHelperThreadState
 :
 wait
 (
+AutoLockHelperThreadState
+&
+locked
 CondVar
 which
 TimeDuration
@@ -4347,6 +4355,7 @@ hasActiveThreads
 )
 wait
 (
+lock
 CONSUMER
 )
 ;
@@ -6068,6 +6077,9 @@ GCParallelTask
 :
 joinWithLockHeld
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -6103,6 +6115,7 @@ HelperThreadState
 .
 wait
 (
+locked
 GlobalHelperThreadState
 :
 :
@@ -6134,6 +6147,7 @@ helperLock
 ;
 joinWithLockHeld
 (
+helperLock
 )
 ;
 }
@@ -6199,6 +6213,9 @@ GCParallelTask
 :
 runFromHelperThread
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -6215,6 +6232,9 @@ isLocked
 {
 AutoUnlockHelperThreadState
 parallelSection
+(
+locked
+)
 ;
 uint64_t
 timeStart
@@ -6289,6 +6309,9 @@ HelperThread
 :
 handleGCParallelWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -6359,6 +6382,7 @@ gcParallelTask
 >
 runFromHelperThread
 (
+locked
 )
 ;
 currentTask
@@ -7832,6 +7856,9 @@ HelperThread
 :
 handleWasmWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -7899,6 +7926,9 @@ wasmTask
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 TraceLoggerThread
 *
@@ -8041,6 +8071,9 @@ HelperThread
 :
 handleIonWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -8261,6 +8294,9 @@ runtimeFromAnyThread
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 TraceLoggerThread
 *
@@ -8844,6 +8880,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -9043,6 +9080,9 @@ HelperThread
 :
 handleParseWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -9113,6 +9153,9 @@ this
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 PerThreadData
 :
@@ -9266,6 +9309,9 @@ HelperThread
 :
 handleCompressionWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -9332,6 +9378,9 @@ this
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 TraceLoggerThread
 *
@@ -9609,6 +9658,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -9811,6 +9861,9 @@ HelperThread
 :
 handleGCHelperWorkload
 (
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -9870,6 +9923,9 @@ gcHelperTask
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 task
 -
@@ -10141,6 +10197,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -10186,6 +10243,7 @@ THREAD_TYPE_ASMJS
 ;
 handleWasmWorkload
 (
+lock
 )
 ;
 }
@@ -10214,6 +10272,7 @@ THREAD_TYPE_ION
 ;
 handleIonWorkload
 (
+lock
 )
 ;
 }
@@ -10248,6 +10307,7 @@ THREAD_TYPE_PARSE
 ;
 handleParseWorkload
 (
+lock
 )
 ;
 }
@@ -10282,6 +10342,7 @@ THREAD_TYPE_COMPRESS
 ;
 handleCompressionWorkload
 (
+lock
 )
 ;
 }
@@ -10316,6 +10377,7 @@ THREAD_TYPE_GCHELPER
 ;
 handleGCHelperWorkload
 (
+lock
 )
 ;
 }
@@ -10350,6 +10412,7 @@ THREAD_TYPE_GCPARALLEL
 ;
 handleGCParallelWorkload
 (
+lock
 )
 ;
 }
