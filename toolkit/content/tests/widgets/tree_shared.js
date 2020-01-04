@@ -3842,7 +3842,7 @@ key
 pressed
 for
 (
-var
+let
 t
 =
 0
@@ -3856,7 +3856,7 @@ t
 +
 )
 {
-var
+let
 testidmod
 =
 (
@@ -4851,7 +4851,7 @@ rowCount
 ;
 for
 (
-var
+let
 t
 =
 0
@@ -4865,7 +4865,7 @@ t
 +
 )
 {
-var
+let
 testidmod
 =
 (
@@ -7762,7 +7762,6 @@ currentIndex
 =
 1
 ;
-var
 expectedrow
 =
 tree
@@ -10506,7 +10505,7 @@ each
 position
 for
 (
-var
+let
 i
 =
 0
@@ -10561,7 +10560,7 @@ And
 back
 for
 (
-var
+let
 i
 =
 numColumns
@@ -10621,7 +10620,7 @@ column
 left
 for
 (
-var
+let
 i
 =
 1
@@ -10674,7 +10673,7 @@ And
 back
 for
 (
-var
+let
 i
 =
 numColumns
@@ -10735,7 +10734,7 @@ the
 right
 for
 (
-var
+let
 i
 =
 0
@@ -10795,7 +10794,7 @@ the
 left
 for
 (
-var
+let
 i
 =
 numColumns
@@ -11465,7 +11464,7 @@ aMouseDownColumnNumber
 {
 for
 (
-var
+let
 i
 =
 aMouseDownColumnNumber
@@ -11480,7 +11479,7 @@ i
 +
 )
 {
-var
+let
 move
 =
 columns
@@ -11510,7 +11509,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 aMouseDownColumnNumber
@@ -11525,7 +11524,7 @@ i
 -
 )
 {
-var
+let
 move
 =
 columns

@@ -417,6 +417,7 @@ rootElement
 )
 {
 return
+undefined
 ;
 }
 targetArray
@@ -780,7 +781,6 @@ getBoundingClientRect
 }
 else
 {
-var
 box
 =
 node
@@ -5494,6 +5494,7 @@ validType
 )
 {
 return
+undefined
 ;
 }
 }
@@ -6362,6 +6363,7 @@ bail
 *
 /
 return
+undefined
 ;
 }
 /
@@ -7038,6 +7040,7 @@ propname
 }
 }
 return
+undefined
 ;
 }
 /
@@ -7851,6 +7854,7 @@ dateArray
 )
 {
 return
+undefined
 ;
 }
 if
@@ -11770,6 +11774,7 @@ fns
 }
 }
 return
+undefined
 ;
 }
 }
@@ -12175,6 +12180,7 @@ summary
 ;
 }
 return
+undefined
 ;
 }
 var
@@ -13157,6 +13163,7 @@ latitude
 )
 {
 return
+undefined
 ;
 }
 }
@@ -13201,6 +13208,7 @@ longitude
 )
 {
 return
+undefined
 ;
 }
 }

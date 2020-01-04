@@ -1405,7 +1405,6 @@ com
 )
 )
 ;
-var
 options
 =
 histsvc
@@ -1424,7 +1423,6 @@ options
 .
 RESULTS_AS_VISIT
 ;
-var
 query
 =
 histsvc
@@ -1441,7 +1439,6 @@ searchTerms
 moz
 "
 ;
-var
 result
 =
 histsvc
@@ -1452,7 +1449,6 @@ query
 options
 )
 ;
-var
 root
 =
 result

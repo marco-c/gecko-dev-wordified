@@ -269,7 +269,7 @@ global
 history
 for
 (
-var
+let
 i
 =
 0
@@ -348,7 +348,7 @@ when
 }
 for
 (
-var
+let
 i
 =
 0
@@ -676,7 +676,7 @@ been
 removed
 for
 (
-var
+let
 i
 =
 0

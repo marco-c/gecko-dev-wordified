@@ -1280,7 +1280,6 @@ priceSorter
 gManagerWindow
 )
 ;
-var
 items
 =
 Array

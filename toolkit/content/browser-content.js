@@ -3974,6 +3974,7 @@ defaultPrevented
 )
 {
 return
+undefined
 ;
 }
 /
@@ -4015,6 +4016,7 @@ can
 )
 {
 return
+undefined
 ;
 }
 let
@@ -6730,6 +6732,7 @@ if
 topNode
 )
 return
+undefined
 ;
 /
 /

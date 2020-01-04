@@ -4525,7 +4525,7 @@ dropped
 on
 itself
 .
-var
+let
 wrapper
 =
 gToolboxDocument
@@ -4712,7 +4712,7 @@ the
 id
 yet
 .
-var
+let
 wrapper
 =
 createWrapper

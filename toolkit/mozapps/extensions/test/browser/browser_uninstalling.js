@@ -767,7 +767,6 @@ uninstall
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -1261,7 +1260,6 @@ inactive
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -1761,7 +1759,6 @@ inactive
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -2298,7 +2295,6 @@ uninstall
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -2859,7 +2855,6 @@ inactive
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -3426,7 +3421,6 @@ inactive
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -5744,7 +5738,6 @@ uninstall
 "
 )
 ;
-var
 button
 =
 gDocument
@@ -9417,7 +9410,6 @@ inactive
 "
 )
 ;
-var
 button
 =
 gDocument

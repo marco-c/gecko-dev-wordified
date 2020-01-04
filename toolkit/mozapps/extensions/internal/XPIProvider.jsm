@@ -19210,6 +19210,7 @@ if
 systemAddonLocation
 )
 return
+undefined
 ;
 /
 /
@@ -19230,6 +19231,7 @@ appinfo
 inSafeMode
 )
 return
+undefined
 ;
 /
 /
@@ -35503,6 +35505,7 @@ file
 )
 ;
 return
+undefined
 ;
 }
 catch
@@ -44925,6 +44928,9 @@ supported
 )
 ;
 return
+addon
+.
+applyBackgroundUpdates
 ;
 }
 if

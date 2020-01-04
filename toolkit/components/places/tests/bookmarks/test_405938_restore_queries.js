@@ -708,7 +708,7 @@ restoring
 .
 for
 (
-var
+let
 i
 =
 0
@@ -842,7 +842,7 @@ _count
 ;
 for
 (
-var
+let
 i
 =
 0

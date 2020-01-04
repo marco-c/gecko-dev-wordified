@@ -1488,7 +1488,7 @@ _handleAutoArc
 )
 )
 {
-var
+let
 handler
 =
 this
@@ -1672,7 +1672,7 @@ _fileHandlerArc
 )
 )
 {
-var
+let
 handler
 =
 this

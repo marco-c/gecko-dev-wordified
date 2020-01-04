@@ -1176,7 +1176,6 @@ names
 for
 an
 item
-var
 annoNames
 =
 annosvc
@@ -1272,7 +1271,6 @@ old
 0
 )
 ;
-var
 annoNames
 =
 annosvc
@@ -1482,7 +1480,6 @@ annotations
 to
 another
 item
-var
 newURI
 =
 uri
@@ -1577,7 +1574,6 @@ old
 0
 )
 ;
-var
 annoNames
 =
 annosvc
@@ -1606,7 +1602,6 @@ oldAnno
 "
 )
 ;
-var
 oldAnnoNames
 =
 annosvc
@@ -1624,7 +1619,6 @@ length
 2
 )
 ;
-var
 copiedAnno
 =
 oldAnnoNames
@@ -1641,7 +1635,6 @@ newItemId
 false
 )
 ;
-var
 newAnnoNames
 =
 annosvc
@@ -1825,7 +1818,6 @@ int32Key
 )
 )
 ;
-var
 flags
 =
 {
@@ -2577,7 +2569,6 @@ an
 item
 should
 throw
-var
 itemId
 =
 bmsvc

@@ -333,7 +333,6 @@ options
 placeURI
 )
 ;
-var
 options
 =
 {

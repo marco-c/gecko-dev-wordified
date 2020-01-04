@@ -816,7 +816,6 @@ name
 "
 )
 ;
-var
 list
 =
 gWin

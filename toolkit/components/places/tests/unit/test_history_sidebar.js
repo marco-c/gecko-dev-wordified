@@ -824,7 +824,7 @@ date
 .
 for
 (
-var
+let
 i
 =
 0
@@ -840,7 +840,7 @@ i
 +
 )
 {
-var
+let
 container
 =
 containers
@@ -887,7 +887,6 @@ container
 offset
 )
 ;
-var
 testURI
 =
 uri
@@ -926,7 +925,6 @@ container
 offset
 )
 ;
-var
 testURI
 =
 uri
@@ -965,7 +963,6 @@ container
 offset
 )
 ;
-var
 testURI
 =
 uri
@@ -1115,7 +1112,7 @@ previousLabels
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1129,7 +1126,7 @@ i
 +
 )
 {
-var
+let
 container
 =
 visibleContainers
@@ -1728,7 +1725,6 @@ one
 of
 the
 days
-var
 dayNode
 =
 root
@@ -1767,7 +1763,6 @@ still
 sorted
 by
 title
-var
 site1
 =
 dayNode
@@ -1798,7 +1793,6 @@ com
 "
 )
 ;
-var
 site2
 =
 dayNode
@@ -1853,7 +1847,6 @@ sorted
 by
 title
 descending
-var
 site1visit
 =
 site1
@@ -2208,7 +2201,6 @@ one
 of
 the
 days
-var
 dayNode
 =
 root
@@ -2249,7 +2241,6 @@ sorted
 by
 title
 descending
-var
 visit1
 =
 dayNode
@@ -2279,7 +2270,6 @@ b
 "
 )
 ;
-var
 visit2
 =
 dayNode
@@ -2696,7 +2686,6 @@ options
 .
 SORT_BY_TITLE_DESCENDING
 ;
-var
 siteNode
 =
 root

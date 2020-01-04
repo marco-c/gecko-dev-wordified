@@ -4900,7 +4900,7 @@ html
 ;
 for
 (
-var
+let
 i
 =
 this
@@ -4948,7 +4948,7 @@ children
 ;
 for
 (
-var
+let
 i
 =
 this
@@ -7734,7 +7734,7 @@ this
 .
 currentChar
 ;
-var
+let
 node
 =
 new

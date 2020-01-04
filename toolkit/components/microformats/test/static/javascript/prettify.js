@@ -3150,7 +3150,6 @@ NaN
 ;
 for
 (
-var
 i
 =
 0
@@ -3259,7 +3258,6 @@ groups
 ;
 for
 (
-var
 i
 =
 0
@@ -3275,7 +3273,6 @@ length
 i
 )
 {
-var
 range
 =
 consolidatedRanges
@@ -3861,7 +3858,6 @@ possible
 .
 for
 (
-var
 i
 =
 1
@@ -3903,7 +3899,6 @@ capturedGroupIndex
 }
 for
 (
-var
 i
 =
 0
@@ -3920,7 +3915,6 @@ n
 i
 )
 {
-var
 p
 =
 parts
@@ -3986,7 +3980,6 @@ charAt
 )
 )
 {
-var
 decimalValue
 =
 +
@@ -4054,7 +4047,6 @@ though
 .
 for
 (
-var
 i
 =
 0
@@ -4144,7 +4136,6 @@ needToFoldCase
 {
 for
 (
-var
 i
 =
 0
@@ -4158,7 +4149,6 @@ n
 i
 )
 {
-var
 p
 =
 parts
@@ -4309,7 +4299,6 @@ rewritten
 ;
 for
 (
-var
 i
 =
 0
@@ -4328,7 +4317,6 @@ n
 i
 )
 {
-var
 regex
 =
 regexs
@@ -9735,7 +9723,6 @@ index
 ;
 for
 (
-var
 i
 =
 0
@@ -10389,7 +10376,6 @@ decorationIndex
 |
 sourceLength
 ;
-var
 end
 =
 Math

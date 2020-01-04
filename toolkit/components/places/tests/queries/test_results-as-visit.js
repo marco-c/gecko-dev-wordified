@@ -614,7 +614,7 @@ tmp
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -669,7 +669,7 @@ tmp
 ;
 for
 (
-var
+let
 i
 =
 0

@@ -11153,6 +11153,9 @@ false
 return
 ;
 }
+var
+item
+;
 if
 (
 view
@@ -11164,7 +11167,6 @@ type
 search
 "
 )
-var
 item
 =
 this
@@ -11172,7 +11174,6 @@ this
 _search
 ;
 else
-var
 item
 =
 this
@@ -18955,7 +18956,6 @@ notification
 "
 )
 ;
-var
 pending
 =
 null
@@ -19258,7 +19258,7 @@ brandShortName
 2
 )
 ;
-var
+let
 errorLink
 =
 document
@@ -19636,7 +19636,7 @@ name
 1
 )
 ;
-var
+let
 warningLink
 =
 document
@@ -19757,7 +19757,7 @@ name
 1
 )
 ;
-var
+let
 warningLink
 =
 document
@@ -19887,7 +19887,7 @@ name
 1
 )
 ;
-var
+let
 errorLink
 =
 document
@@ -20008,7 +20008,7 @@ name
 1
 )
 ;
-var
+let
 errorLink
 =
 document

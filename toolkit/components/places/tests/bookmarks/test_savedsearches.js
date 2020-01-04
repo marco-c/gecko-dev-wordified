@@ -336,7 +336,7 @@ regular
 bookmark
 try
 {
-var
+let
 options
 =
 PlacesUtils
@@ -353,7 +353,7 @@ expandQueries
 =
 0
 ;
-var
+let
 query
 =
 PlacesUtils
@@ -374,7 +374,7 @@ testRoot
 1
 )
 ;
-var
+let
 result
 =
 PlacesUtils
@@ -387,7 +387,7 @@ query
 options
 )
 ;
-var
+let
 rootNode
 =
 result
@@ -400,7 +400,7 @@ containerOpen
 =
 true
 ;
-var
+let
 cc
 =
 rootNode
@@ -415,7 +415,7 @@ cc
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -429,7 +429,7 @@ i
 +
 )
 {
-var
+let
 node
 =
 rootNode
@@ -540,7 +540,7 @@ with
 child
 try
 {
-var
+let
 options
 =
 PlacesUtils
@@ -557,7 +557,7 @@ expandQueries
 =
 1
 ;
-var
+let
 query
 =
 PlacesUtils
@@ -578,7 +578,7 @@ testRoot
 1
 )
 ;
-var
+let
 result
 =
 PlacesUtils
@@ -591,7 +591,7 @@ query
 options
 )
 ;
-var
+let
 rootNode
 =
 result
@@ -604,7 +604,7 @@ containerOpen
 =
 true
 ;
-var
+let
 cc
 =
 rootNode
@@ -619,7 +619,7 @@ cc
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -633,7 +633,7 @@ i
 +
 )
 {
-var
+let
 node
 =
 rootNode
@@ -1727,7 +1727,6 @@ searchId
 ;
 try
 {
-var
 tmpFolderNode
 =
 root

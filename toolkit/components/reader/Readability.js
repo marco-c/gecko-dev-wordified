@@ -2996,7 +2996,7 @@ replaced
 =
 true
 ;
-var
+let
 sibling
 =
 next
@@ -3183,7 +3183,7 @@ new
 p
 >
 .
-var
+let
 sibling
 =
 next
@@ -8733,6 +8733,7 @@ textLength
 0
 )
 return
+undefined
 ;
 var
 linkLength

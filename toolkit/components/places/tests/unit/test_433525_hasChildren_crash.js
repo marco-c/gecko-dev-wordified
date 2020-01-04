@@ -354,7 +354,6 @@ query
 for
 that
 query
-var
 options
 =
 histsvc
@@ -363,7 +362,6 @@ getNewQueryOptions
 (
 )
 ;
-var
 query
 =
 histsvc
@@ -384,7 +382,6 @@ toolbarFolder
 1
 )
 ;
-var
 result
 =
 histsvc
@@ -395,7 +392,6 @@ query
 options
 )
 ;
-var
 root
 =
 result

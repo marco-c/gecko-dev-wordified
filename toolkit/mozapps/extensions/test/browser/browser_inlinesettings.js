@@ -1764,7 +1764,6 @@ boolint
 0
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -1950,7 +1949,6 @@ integer
 0
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -2163,7 +2161,6 @@ foo
 "
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -2372,7 +2369,6 @@ row
 "
 )
 ;
-var
 input
 =
 settings
@@ -3831,7 +3827,6 @@ radioInt
 5
 )
 ;
-var
 radios
 =
 settings
@@ -4031,7 +4026,6 @@ juliet
 "
 )
 ;
-var
 radios
 =
 settings
@@ -4896,7 +4890,6 @@ row
 "
 )
 ;
-var
 button
 =
 gManagerWindow
@@ -6316,7 +6309,6 @@ value
 "
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -6352,7 +6344,6 @@ value
 "
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -6391,7 +6382,6 @@ value
 "
 )
 ;
-var
 input
 =
 gManagerWindow
@@ -6876,7 +6866,6 @@ selected
 "
 )
 ;
-var
 radios
 =
 settings
@@ -6948,7 +6937,6 @@ selected
 "
 )
 ;
-var
 radios
 =
 settings

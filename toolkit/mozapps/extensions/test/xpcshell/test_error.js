@@ -442,7 +442,7 @@ shows
 an
 error
 function
-run_test_4
+run_test_5
 (
 )
 {
@@ -503,7 +503,7 @@ AddonManager
 ERROR_NETWORK_FAILURE
 )
 ;
-run_test_5
+run_test_6
 (
 )
 ;
@@ -527,7 +527,7 @@ shows
 an
 error
 function
-run_test_5
+run_test_6
 (
 )
 {

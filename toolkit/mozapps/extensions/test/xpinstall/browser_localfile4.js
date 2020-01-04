@@ -195,9 +195,13 @@ extractChromeRoot
 gTestPath
 )
 ;
+var
+xpipath
+=
+chromeroot
+;
 try
 {
-var
 xpipath
 =
 cr
@@ -218,11 +222,6 @@ catch
 ex
 )
 {
-var
-xpipath
-=
-chromeroot
-;
 /
 /
 scenario

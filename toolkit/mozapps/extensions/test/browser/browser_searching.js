@@ -1096,7 +1096,7 @@ item
 continue
 ;
 }
-var
+let
 result
 =
 sourceURI
@@ -1189,7 +1189,7 @@ item
 mAddon
 )
 {
-var
+let
 result
 =
 item
@@ -4431,7 +4431,6 @@ shown
 "
 )
 ;
-var
 item
 =
 get_addon_item

@@ -1182,7 +1182,6 @@ undefined
 )
 ;
 }
-var
 oldPos
 =
 this
@@ -3083,7 +3082,6 @@ n
 ;
 for
 (
-var
 i
 =
 diff
@@ -5686,6 +5684,7 @@ _runnable
 key
 )
 return
+undefined
 ;
 if
 (
@@ -5697,6 +5696,7 @@ test
 key
 )
 return
+undefined
 ;
 return
 val
@@ -5919,7 +5919,6 @@ arguments
 length
 )
 {
-var
 err
 =
 this
@@ -11573,6 +11572,7 @@ if
 match
 )
 return
+undefined
 ;
 var
 n
@@ -11947,6 +11947,7 @@ ms
 n
 )
 return
+undefined
 ;
 if
 (
@@ -17296,7 +17297,6 @@ test
 pending
 )
 {
-var
 el
 =
 fragment
@@ -17334,7 +17334,6 @@ title
 }
 else
 {
-var
 el
 =
 fragment
@@ -18778,6 +18777,7 @@ var
 self
 =
 this
+;
 output
 =
 1
@@ -23744,10 +23744,6 @@ this
 runner
 )
 ;
-var
-self
-=
-this
 options
 =
 options
@@ -23755,6 +23751,10 @@ options
 |
 {
 }
+var
+self
+=
+this
 stats
 =
 this
@@ -24549,7 +24549,6 @@ title
 }
 else
 {
-var
 fmt
 =
 indent
@@ -26916,6 +26915,7 @@ key
 ]
 )
 return
+undefined
 ;
 if
 (
@@ -27280,6 +27280,7 @@ self
 timedOut
 )
 return
+undefined
 ;
 if
 (
@@ -27315,6 +27316,7 @@ self
 state
 )
 return
+undefined
 ;
 self
 .
@@ -27576,6 +27578,7 @@ err
 ;
 }
 return
+undefined
 ;
 }
 if
@@ -38137,6 +38140,7 @@ ignored
 )
 {
 return
+undefined
 ;
 }
 fs

@@ -250,7 +250,7 @@ sum
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -389,7 +389,7 @@ per
 bucket
 for
 (
-var
+let
 i
 of
 s
@@ -461,7 +461,6 @@ add
 true
 )
 ;
-var
 s
 =
 h
@@ -501,7 +500,6 @@ clear
 (
 )
 ;
-var
 s
 =
 h

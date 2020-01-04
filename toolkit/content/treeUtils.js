@@ -228,7 +228,7 @@ max
 ;
 for
 (
-var
+let
 j
 =
 min
@@ -297,7 +297,7 @@ i
 ]
 )
 {
-var
+let
 j
 =
 i

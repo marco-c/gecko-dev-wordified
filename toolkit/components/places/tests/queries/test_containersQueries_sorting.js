@@ -2724,7 +2724,7 @@ children
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3087,7 +3087,7 @@ array
 .
 for
 (
-var
+let
 i
 =
 0
