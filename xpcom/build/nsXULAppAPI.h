@@ -2714,6 +2714,13 @@ XRE_IsContentProcess
 (
 )
 )
+XRE_API
+(
+bool
+XRE_IsGPUProcess
+(
+)
+)
 typedef
 void
 (
