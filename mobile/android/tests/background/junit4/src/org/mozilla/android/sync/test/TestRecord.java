@@ -59,17 +59,6 @@ JSONObject
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Test
@@ -313,7 +302,6 @@ testQueryRecord
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 final
 String
@@ -2681,7 +2669,6 @@ doTest
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 this
 .
@@ -2860,7 +2847,6 @@ testUnusualBookmarkRecords
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 PayloadBookmarkRecord
 record

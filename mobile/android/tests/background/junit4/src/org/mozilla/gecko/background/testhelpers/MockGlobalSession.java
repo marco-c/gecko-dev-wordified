@@ -41,17 +41,6 @@ testhelpers
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -210,7 +199,6 @@ SyncConfigurationException
 IllegalArgumentException
 NonObjectJSONException
 IOException
-ParseException
 {
 this
 (
@@ -246,7 +234,6 @@ throws
 SyncConfigurationException
 IllegalArgumentException
 IOException
-ParseException
 NonObjectJSONException
 {
 super

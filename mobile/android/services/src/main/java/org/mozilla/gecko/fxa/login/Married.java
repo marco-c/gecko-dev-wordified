@@ -126,17 +126,6 @@ HashMap
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -449,7 +438,6 @@ issuer
 throws
 NonObjectJSONException
 IOException
-ParseException
 GeneralSecurityException
 {
 /

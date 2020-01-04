@@ -41,17 +41,6 @@ testhelpers
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -283,7 +272,6 @@ leakConfig
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 return
 this

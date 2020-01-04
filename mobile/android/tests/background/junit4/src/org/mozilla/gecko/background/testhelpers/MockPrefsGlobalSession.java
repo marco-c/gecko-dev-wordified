@@ -55,17 +55,6 @@ SharedPreferences
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -222,7 +211,6 @@ throws
 SyncConfigurationException
 IllegalArgumentException
 IOException
-ParseException
 NonObjectJSONException
 {
 super
@@ -256,7 +244,6 @@ throws
 SyncConfigurationException
 IllegalArgumentException
 IOException
-ParseException
 NonObjectJSONException
 {
 return
@@ -301,7 +288,6 @@ throws
 SyncConfigurationException
 IllegalArgumentException
 IOException
-ParseException
 NonObjectJSONException
 {
 final

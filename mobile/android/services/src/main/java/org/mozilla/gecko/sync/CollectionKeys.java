@@ -121,17 +121,6 @@ JSONArray
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 apache
@@ -795,7 +784,6 @@ syncKeyBundle
 throws
 CryptoException
 IOException
-ParseException
 NonObjectJSONException
 {
 if

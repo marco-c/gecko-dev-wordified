@@ -59,17 +59,6 @@ JSONObject
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Test
@@ -445,7 +434,6 @@ testFractional
 )
 throws
 IOException
-ParseException
 NonObjectJSONException
 {
 ExtendedJSONObject
@@ -607,7 +595,6 @@ testIntegral
 )
 throws
 IOException
-ParseException
 NonObjectJSONException
 {
 ExtendedJSONObject
