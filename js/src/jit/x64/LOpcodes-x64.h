@@ -146,7 +146,7 @@ DivOrModI64
 \
 _
 (
-UDivOrMod64
+UDivOrModI64
 )
 \
 _

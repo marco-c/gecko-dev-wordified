@@ -633,7 +633,7 @@ remainder
 )
 .
 class
-LUDivOrMod64
+LUDivOrModI64
 :
 public
 LBinaryMath
@@ -645,10 +645,10 @@ public
 :
 LIR_HEADER
 (
-UDivOrMod64
+UDivOrModI64
 )
 ;
-LUDivOrMod64
+LUDivOrModI64
 (
 const
 LAllocation

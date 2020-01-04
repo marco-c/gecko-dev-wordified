@@ -3217,6 +3217,11 @@ label
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -3229,8 +3234,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 {
