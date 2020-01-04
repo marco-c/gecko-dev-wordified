@@ -535,7 +535,7 @@ GetKey
 (
 )
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
@@ -776,7 +776,7 @@ GetKey
 (
 )
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
@@ -965,7 +965,7 @@ GetKey
 (
 )
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )

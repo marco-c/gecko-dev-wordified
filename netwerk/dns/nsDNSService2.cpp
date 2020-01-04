@@ -5844,7 +5844,7 @@ n
 =
 mIPv4OnlyDomains
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 mallocSizeOf
 )

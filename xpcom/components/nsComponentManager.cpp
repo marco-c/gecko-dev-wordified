@@ -10433,7 +10433,7 @@ Key
 (
 )
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
