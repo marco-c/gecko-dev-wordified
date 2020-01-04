@@ -205,6 +205,14 @@ sc
 >
 context
 )
+|
+|
+!
+bodyLevelLexicallyDeclaredNames_
+.
+init
+(
+)
 )
 {
 ReportOutOfMemory
