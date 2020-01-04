@@ -2969,7 +2969,6 @@ AudioChannel
 :
 :
 Normal
-aManifestURL
 aRv
 )
 ;
@@ -3126,7 +3125,6 @@ i
 ]
 .
 value
-aManifestURL
 aRv
 )
 ;
