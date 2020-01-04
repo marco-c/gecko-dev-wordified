@@ -2886,17 +2886,6 @@ nullptr
 ;
 MOZ_ASSERT
 (
-!
-maybeLock
--
->
-wasUnlocked
-(
-)
-)
-;
-MOZ_ASSERT
-(
 al
 .
 isCursorAtEnd
