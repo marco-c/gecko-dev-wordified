@@ -2304,9 +2304,11 @@ int64_t
 >
 mSizeSourceBuffer
 ;
+const
 int64_t
 mVideoEvictionThreshold
 ;
+const
 int64_t
 mAudioEvictionThreshold
 ;
