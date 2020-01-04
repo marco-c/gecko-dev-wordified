@@ -201,6 +201,9 @@ ProcessedMediaStream
 class
 RemoteSourceStreamInfo
 ;
+class
+SourceStreamInfo
+;
 namespace
 dom
 {
@@ -1203,6 +1206,13 @@ mozilla
 :
 :
 PeerConnectionMedia
+;
+friend
+class
+mozilla
+:
+:
+SourceStreamInfo
 ;
 friend
 class
