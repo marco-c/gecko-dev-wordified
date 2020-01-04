@@ -172,7 +172,7 @@ nsStyleContext
 aContext
 )
 :
-nsFormControlFrameSuper
+nsAtomicContainerFrame
 (
 aContext
 )
@@ -240,7 +240,7 @@ this
 false
 )
 ;
-nsFormControlFrameSuper
+nsAtomicContainerFrame
 :
 :
 DestroyFrom
@@ -259,7 +259,7 @@ nsIFormControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFormControlFrameSuper
+nsAtomicContainerFrame
 )
 /
 *
