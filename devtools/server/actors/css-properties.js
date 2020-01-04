@@ -472,6 +472,12 @@ return
 properties
 ;
 }
+exports
+.
+generateCssProperties
+=
+generateCssProperties
+;
 /
 *
 *
