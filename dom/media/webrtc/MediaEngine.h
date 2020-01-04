@@ -1758,6 +1758,10 @@ char
 aOutBadConstraint
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 MOZ_ASSERT
 (
 aOutHandle
