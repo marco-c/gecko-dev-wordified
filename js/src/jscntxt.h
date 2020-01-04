@@ -2860,7 +2860,7 @@ JS_FRIEND_API
 (
 size_t
 )
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mozilla
 :

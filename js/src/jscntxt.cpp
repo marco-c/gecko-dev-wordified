@@ -6147,7 +6147,7 @@ size_t
 JSContext
 :
 :
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mozilla
 :
@@ -6195,11 +6195,6 @@ later
 *
 /
 return
-mallocSizeOf
-(
-this
-)
-+
 cycleDetectorSet
 .
 sizeOfExcludingThis
