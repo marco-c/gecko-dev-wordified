@@ -7220,7 +7220,8 @@ itself
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreen
 (
 bool
@@ -7276,7 +7277,8 @@ X
 .
 *
 /
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreenWithNativeTransition
 (
 bool

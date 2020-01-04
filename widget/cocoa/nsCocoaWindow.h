@@ -1651,7 +1651,8 @@ aCallback
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreen
 (
 bool
