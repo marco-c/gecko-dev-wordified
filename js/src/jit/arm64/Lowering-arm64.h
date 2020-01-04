@@ -205,6 +205,14 @@ mir
 )
 ;
 LAllocation
+useByteOpRegisterAtStart
+(
+MDefinition
+*
+mir
+)
+;
+LAllocation
 useByteOpRegisterOrNonDoubleConstant
 (
 MDefinition
