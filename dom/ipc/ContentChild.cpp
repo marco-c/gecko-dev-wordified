@@ -3442,16 +3442,6 @@ XRE_InstallX11ErrorHandler
 ;
 #
 endif
-#
-ifdef
-MOZ_NUWA_PROCESS
-SetTransport
-(
-aChannel
-)
-;
-#
-endif
 NS_ASSERTION
 (
 !
