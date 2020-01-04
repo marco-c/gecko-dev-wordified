@@ -6995,8 +6995,6 @@ element
 enum
 ETabFocusType
 {
-/
-/
 eTabFocus_textControlsMask
 =
 (
@@ -7007,9 +7005,9 @@ eTabFocus_textControlsMask
 )
 /
 /
-unused
--
 textboxes
+and
+lists
 always
 tabbable
 eTabFocus_formElementsMask
