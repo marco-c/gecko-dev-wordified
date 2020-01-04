@@ -232,12 +232,6 @@ init
 (
 )
 ;
-DebuggerServer
-.
-isInChildProcess
-=
-true
-;
 }
 /
 /
