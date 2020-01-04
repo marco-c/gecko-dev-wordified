@@ -904,9 +904,16 @@ byteLength
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 CompileArgs
 compileArgs
 ;
@@ -921,7 +928,7 @@ cx
 )
 )
 return
-true
+false
 ;
 JS
 :
