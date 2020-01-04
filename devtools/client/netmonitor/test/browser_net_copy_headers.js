@@ -249,6 +249,15 @@ keep
 alive
 "
 "
+Upgrade
+-
+Insecure
+-
+Requests
+:
+1
+"
+"
 Pragma
 :
 no
