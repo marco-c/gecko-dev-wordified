@@ -562,7 +562,6 @@ AnimationCollection
 (
 aElement
 propName
-this
 )
 ;
 nsresult
