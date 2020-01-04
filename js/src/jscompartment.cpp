@@ -2923,10 +2923,6 @@ cb
 preWrap
 )
 {
-obj
-.
-set
-(
 cb
 -
 >
@@ -2936,7 +2932,7 @@ cx
 global
 obj
 objectPassedToWrap
-)
+obj
 )
 ;
 if

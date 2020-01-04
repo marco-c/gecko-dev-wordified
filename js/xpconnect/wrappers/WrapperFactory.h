@@ -365,8 +365,7 @@ new
 compartment
 .
 static
-JSObject
-*
+void
 PrepareForWrapping
 (
 JSContext
@@ -387,6 +386,11 @@ JS
 :
 HandleObject
 objectPassedToWrap
+JS
+:
+:
+MutableHandleObject
+retObj
 )
 ;
 /
