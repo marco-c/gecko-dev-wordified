@@ -660,7 +660,6 @@ GetVersion
 )
 const
 ;
-const
 uint32_t
 GetPluginId
 (

@@ -594,7 +594,6 @@ IsStillValid
 (
 )
 ;
-const
 uint32_t
 GetPluginId
 (

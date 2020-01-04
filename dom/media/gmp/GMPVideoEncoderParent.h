@@ -302,7 +302,6 @@ aEnable
 override
 ;
 virtual
-const
 uint32_t
 GetPluginId
 (

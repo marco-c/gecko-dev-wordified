@@ -412,7 +412,6 @@ aEnable
 0
 ;
 virtual
-const
 uint32_t
 GetPluginId
 (
