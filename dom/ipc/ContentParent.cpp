@@ -20231,6 +20231,7 @@ aActor
 >
 Init
 (
+mChildID
 )
 ;
 }
