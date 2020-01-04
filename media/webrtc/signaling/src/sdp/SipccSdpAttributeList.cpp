@@ -3924,6 +3924,16 @@ fmtp
 >
 stereo
 ;
+opusParameters
+-
+>
+useInBandFec
+=
+fmtp
+-
+>
+useinbandfec
+;
 parameters
 .
 reset

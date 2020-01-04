@@ -12677,6 +12677,10 @@ maxplaybackrate
 stereo
 =
 1
+;
+useinbandfec
+=
+1
 "
 CRLF
 "
@@ -13657,6 +13661,15 @@ opus_parameters
 -
 >
 stereo
+)
+;
+ASSERT_EQ
+(
+1U
+opus_parameters
+-
+>
+useInBandFec
 )
 ;
 ASSERT_TRUE
