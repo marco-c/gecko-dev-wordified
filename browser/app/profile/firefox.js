@@ -11212,7 +11212,7 @@ remote
 .
 block_uncommon
 "
-false
+true
 )
 ;
 pref
