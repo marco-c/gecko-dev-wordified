@@ -3455,7 +3455,7 @@ this
 _getString
 (
 "
-infobar_screenshare_browser_message
+infobar_screenshare_browser_message2
 "
 )
 kBrowserSharingNotificationId
@@ -3533,7 +3533,7 @@ this
 _getString
 (
 "
-infobar_screenshare_browser_message
+infobar_screenshare_browser_message2
 "
 )
 ;
