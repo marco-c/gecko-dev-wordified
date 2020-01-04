@@ -20,6 +20,11 @@ a
 minor
 GC
 .
+gczeal
+(
+0
+)
+;
 let
 g
 =
@@ -96,7 +101,7 @@ gcNumber
 ;
 assertEq
 (
-initial
 final
+initial
 )
 ;
