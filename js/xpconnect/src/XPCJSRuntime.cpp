@@ -10581,7 +10581,7 @@ JS
 :
 SetGCSliceCallback
 (
-Runtime
+Context
 (
 )
 mPrevGCSliceCallback
@@ -24564,7 +24564,7 @@ JS
 :
 SetGCSliceCallback
 (
-runtime
+cx
 GCSliceCallback
 )
 ;
@@ -26640,7 +26640,7 @@ GetRuntime
 )
 -
 >
-Runtime
+Context
 (
 )
 )

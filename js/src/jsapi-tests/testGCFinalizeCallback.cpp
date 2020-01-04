@@ -184,7 +184,7 @@ JS
 :
 StartIncrementalGC
 (
-rt
+cx
 GC_NORMAL
 JS
 :
@@ -221,7 +221,7 @@ JS
 :
 IncrementalGCSlice
 (
-rt
+cx
 JS
 :
 :
@@ -549,7 +549,7 @@ JS
 :
 StartIncrementalGC
 (
-rt
+cx
 GC_NORMAL
 JS
 :
@@ -591,7 +591,7 @@ JS
 :
 IncrementalGCSlice
 (
-rt
+cx
 JS
 :
 :
@@ -709,7 +709,7 @@ JS
 :
 StartIncrementalGC
 (
-rt
+cx
 GC_NORMAL
 JS
 :
@@ -777,7 +777,7 @@ JS
 :
 IncrementalGCSlice
 (
-rt
+cx
 JS
 :
 :

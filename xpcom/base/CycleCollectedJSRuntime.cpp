@@ -3543,7 +3543,7 @@ JS
 :
 SetGCSliceCallback
 (
-mJSRuntime
+mJSContext
 GCSliceCallback
 )
 ;
@@ -3660,7 +3660,7 @@ JS
 :
 SetGCNurseryCollectionCallback
 (
-mJSRuntime
+mJSContext
 GCNurseryCollectionCallback
 )
 ;
