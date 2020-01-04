@@ -207,15 +207,6 @@ mLocalRootPath
 =
 aRootDir
 ;
-FileSystemUtils
-:
-:
-LocalPathToNormalizedPath
-(
-mLocalRootPath
-mNormalizedLocalRootPath
-)
-;
 /
 /
 Non
