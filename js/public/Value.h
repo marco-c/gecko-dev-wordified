@@ -8854,10 +8854,12 @@ static
 void
 exposeToJS
 (
+const
 JS
 :
 :
 Value
+&
 v
 )
 {
