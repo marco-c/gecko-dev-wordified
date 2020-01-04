@@ -568,7 +568,6 @@ enum
 {
 FORMAT_U8
 FORMAT_S16
-FORMAT_S24
 }
 mSampleFormat
 ;
