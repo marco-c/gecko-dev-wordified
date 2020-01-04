@@ -4463,6 +4463,9 @@ Common
 .
 RESTRequest
 "
+"
+BookmarkSyncUtils
+"
 ]
 ;
 this
