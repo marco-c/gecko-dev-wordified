@@ -250,7 +250,7 @@ filterTooltip
 widget
 ;
 yield
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 filterTooltip
 view

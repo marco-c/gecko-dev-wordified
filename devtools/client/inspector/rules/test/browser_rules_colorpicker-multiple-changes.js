@@ -700,7 +700,7 @@ picker
 )
 ;
 yield
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 picker
 .

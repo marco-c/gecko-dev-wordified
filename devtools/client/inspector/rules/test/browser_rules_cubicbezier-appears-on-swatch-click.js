@@ -520,7 +520,7 @@ click
 )
 ;
 yield
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 bezier
 view

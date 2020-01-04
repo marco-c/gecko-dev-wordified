@@ -2012,7 +2012,7 @@ view
 /
 function
 *
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 tooltip
 view
