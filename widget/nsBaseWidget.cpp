@@ -3390,7 +3390,7 @@ nsBaseWidget
 -
 -
 -
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -6074,7 +6074,7 @@ return
 mCursor
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -10463,7 +10463,7 @@ ReleaseContentController
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -10479,7 +10479,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -10578,7 +10578,7 @@ y
 ;
 }
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -10745,7 +10745,7 @@ aRepaint
 ;
 }
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11099,7 +11099,7 @@ overridden
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11137,7 +11137,7 @@ overridden
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11183,7 +11183,7 @@ overridden
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11201,7 +11201,7 @@ aRect
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11279,7 +11279,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :
@@ -11306,7 +11306,7 @@ return
 0
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsBaseWidget
 :
 :

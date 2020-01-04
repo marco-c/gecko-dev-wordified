@@ -1741,7 +1741,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsSound
 :
 :
@@ -1759,7 +1759,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsSound
 :
 :

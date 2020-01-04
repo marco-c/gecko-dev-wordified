@@ -5558,7 +5558,7 @@ NS_OK
 Close
 this
 nsWindow
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -9219,7 +9219,7 @@ component
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -11339,7 +11339,7 @@ c
 Move
 this
 component
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -11943,7 +11943,7 @@ NS_OK
 Resize
 this
 component
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -12231,7 +12231,7 @@ NS_OK
 Resize
 this
 component
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -13110,7 +13110,7 @@ behind
 the
 given
 window
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -13726,7 +13726,7 @@ s
 device
 pixels
 .
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -14372,7 +14372,7 @@ Enable
 disable
 this
 component
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -14589,7 +14589,7 @@ widget
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -14919,7 +14919,7 @@ s
 screen
 origin
 .
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -15405,7 +15405,7 @@ Get
 this
 component
 dimension
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -15513,7 +15513,7 @@ offset
 by
 the
 parent
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -15596,7 +15596,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -18901,7 +18901,7 @@ Set
 this
 component
 cursor
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -21273,7 +21273,7 @@ this
 component
 visible
 area
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -21381,7 +21381,7 @@ this
 component
 visible
 area
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -23473,7 +23473,7 @@ text
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -23678,7 +23678,7 @@ icon
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -24495,7 +24495,7 @@ widget
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -24816,7 +24816,7 @@ capture
 *
 *
 /
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
