@@ -4610,16 +4610,12 @@ nsCOMPtr
 nsILoadInfo
 >
 loadInfo
-;
+=
 channel
 -
 >
 GetLoadInfo
 (
-getter_AddRefs
-(
-loadInfo
-)
 )
 ;
 if

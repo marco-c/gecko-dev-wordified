@@ -1315,6 +1315,12 @@ GetInitialSecurityCheckDone
 aLoadInfo
 -
 >
+GetIsInThirdPartyContext
+(
+)
+aLoadInfo
+-
+>
 GetOriginAttributes
 (
 )
@@ -1590,6 +1596,11 @@ enforceSecurity
 loadInfoArgs
 .
 initialSecurityCheckDone
+(
+)
+loadInfoArgs
+.
+isInThirdPartyContext
 (
 )
 loadInfoArgs

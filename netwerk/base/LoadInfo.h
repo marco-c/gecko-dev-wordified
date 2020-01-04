@@ -179,6 +179,9 @@ class
 nsINode
 ;
 class
+nsPIDOMWindow
+;
+class
 nsXMLHttpRequest
 ;
 namespace
@@ -502,6 +505,8 @@ bool
 aEnforceSecurity
 bool
 aInitialSecurityCheckDone
+bool
+aIsThirdPartyRequest
 const
 NeckoOriginAttributes
 &
@@ -563,6 +568,14 @@ outLoadInfo
 ~
 LoadInfo
 (
+)
+;
+void
+ComputeIsThirdPartyContext
+(
+nsPIDOMWindow
+*
+aOuterWindow
 )
 ;
 /
@@ -674,6 +687,9 @@ mEnforceSecurity
 ;
 bool
 mInitialSecurityCheckDone
+;
+bool
+mIsThirdPartyContext
 ;
 NeckoOriginAttributes
 mOriginAttributes
