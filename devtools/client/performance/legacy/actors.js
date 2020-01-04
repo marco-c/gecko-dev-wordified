@@ -185,9 +185,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-fronts
+actors
 /
 profiler
 "
