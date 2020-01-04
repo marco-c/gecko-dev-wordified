@@ -135,7 +135,10 @@ CamerasChild
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetMediaManagerLog
 (

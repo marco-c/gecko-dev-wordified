@@ -221,7 +221,10 @@ endif
 ifdef
 MOZILLA_INTERNAL_API
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetGMPLog
 (

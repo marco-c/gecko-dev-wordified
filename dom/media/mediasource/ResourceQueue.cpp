@@ -154,7 +154,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetSourceBufferResourceLog
 (

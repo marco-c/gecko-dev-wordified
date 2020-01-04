@@ -146,7 +146,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetMediaSourceLog
 (

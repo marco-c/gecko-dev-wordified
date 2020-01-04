@@ -197,7 +197,8 @@ defined
 (
 DEBUG_SOURCE_TRACE
 )
-PRLogModuleInfo
+extern
+LogModule
 *
 GetDirectShowLog
 (

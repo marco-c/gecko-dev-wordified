@@ -360,7 +360,7 @@ GlobalObject
 class
 SpeechEvent
 ;
-PRLogModuleInfo
+LogModule
 *
 GetSpeechRecognitionLog
 (

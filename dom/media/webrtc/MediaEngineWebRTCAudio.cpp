@@ -246,7 +246,7 @@ LOG
 #
 endif
 extern
-PRLogModuleInfo
+LogModule
 *
 GetMediaManagerLog
 (

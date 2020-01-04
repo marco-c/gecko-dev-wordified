@@ -192,8 +192,10 @@ Mutex
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gOpenSLESProviderLog
 ;
 namespace

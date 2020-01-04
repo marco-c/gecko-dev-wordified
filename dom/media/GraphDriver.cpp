@@ -122,8 +122,10 @@ h
 #
 endif
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gMediaStreamGraphLog
 ;
 #
