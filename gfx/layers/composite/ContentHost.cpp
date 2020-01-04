@@ -327,7 +327,7 @@ Filter
 &
 aFilter
 const
-IntRect
+Rect
 &
 aClipRect
 const

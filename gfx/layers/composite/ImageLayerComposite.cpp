@@ -655,7 +655,7 @@ EffectChain
 &
 effectChain
 const
-IntRect
+Rect
 &
 clipRect
 )

@@ -541,7 +541,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -596,7 +596,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -653,14 +653,14 @@ const
 gfx
 :
 :
-IntRect
+Rect
 *
 aClipRectIn
 const
 gfx
 :
 :
-IntRect
+Rect
 &
 aRenderBounds
 const
@@ -670,7 +670,7 @@ aOpaqueRegion
 gfx
 :
 :
-IntRect
+Rect
 *
 aClipRectOut
 =
@@ -678,7 +678,7 @@ nullptr
 gfx
 :
 :
-IntRect
+Rect
 *
 aRenderBoundsOut
 =

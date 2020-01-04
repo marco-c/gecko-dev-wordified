@@ -1654,7 +1654,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -1807,7 +1807,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 nsIntRegion
@@ -1856,7 +1856,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const

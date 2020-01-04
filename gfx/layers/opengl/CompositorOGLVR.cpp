@@ -1900,7 +1900,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const

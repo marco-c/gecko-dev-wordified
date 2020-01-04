@@ -2624,7 +2624,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aScreenRect
 )
