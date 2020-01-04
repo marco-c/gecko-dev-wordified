@@ -491,7 +491,7 @@ are
 called
 on
 the
-main
+background
 thred
 .
 virtual
@@ -518,7 +518,15 @@ aContentParentId
 ;
 virtual
 void
-PerformIdleMaintenance
+StartIdleMaintenance
+(
+)
+=
+0
+;
+virtual
+void
+StopIdleMaintenance
 (
 )
 =
