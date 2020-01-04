@@ -2292,14 +2292,14 @@ MetadataCacheablePod
 ModuleKind
 kind
 ;
+SignalUsage
+usesSignal
+;
 HeapUsage
 heapUsage
 ;
 uint32_t
 initialHeapLength
-;
-CompileArgs
-compileArgs
 ;
 MetadataCacheablePod
 (

@@ -4287,9 +4287,9 @@ if
 (
 mg_
 .
-args
+usesSignal
 .
-useSignalHandlersForInterrupt
+forInterrupt
 )
 return
 ;
@@ -22277,9 +22277,9 @@ mg
 (
 )
 .
-args
+usesSignal
 .
-useSignalHandlersForOOB
+forOOB
 )
 ;
 mir
