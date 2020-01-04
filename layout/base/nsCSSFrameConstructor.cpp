@@ -60748,7 +60748,7 @@ aHistoryState
 }
 static
 bool
-EqualURIs
+DefinitelyEqualURIsAndPrincipal
 (
 mozilla
 :
@@ -60777,15 +60777,6 @@ aURI1
 aURI2
 |
 |
-/
-/
-handle
-null
-=
-=
-null
-and
-optimize
 (
 aURI1
 &
@@ -60796,7 +60787,7 @@ aURI2
 aURI1
 -
 >
-URIEquals
+DefinitelyEqualURIsAndPrincipal
 (
 *
 aURI2
@@ -61035,7 +61026,7 @@ if
 oldDisp
 &
 &
-EqualURIs
+DefinitelyEqualURIsAndPrincipal
 (
 disp
 -
