@@ -967,7 +967,7 @@ panelId
 is
 (
 panel
-undefined
+null
 "
 panel
 successfully
@@ -1036,7 +1036,7 @@ pageActionId
 is
 (
 node
-undefined
+null
 "
 pageAction
 image
@@ -1059,7 +1059,7 @@ panelId
 is
 (
 panel
-undefined
+null
 "
 pageAction
 panel
@@ -1327,7 +1327,7 @@ pageActionId
 is
 (
 node
-undefined
+null
 "
 pageAction
 image

@@ -2932,7 +2932,7 @@ pageActionId
 is
 (
 node
-undefined
+null
 "
 pageAction
 image

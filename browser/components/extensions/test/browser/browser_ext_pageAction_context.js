@@ -1710,7 +1710,7 @@ pageActionId
 is
 (
 node
-undefined
+null
 "
 pageAction
 image
@@ -1751,7 +1751,7 @@ pageActionId
 is
 (
 node
-undefined
+null
 "
 pageAction
 image
