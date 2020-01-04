@@ -2697,6 +2697,7 @@ aStream
 void
 *
 aUser
+const
 void
 *
 aInputBuffer
@@ -2807,6 +2808,7 @@ again
 long
 DataCallback
 (
+const
 AudioDataValue
 *
 aInputBuffer
