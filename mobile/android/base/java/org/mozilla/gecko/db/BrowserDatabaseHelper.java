@@ -2724,9 +2724,6 @@ Combined
 VISITS
 Combined
 .
-DISPLAY
-Combined
-.
 DATE_LAST_VISITED
 Combined
 .
@@ -3739,9 +3736,6 @@ TITLE
 Combined
 .
 VISITS
-Combined
-.
-DISPLAY
 Combined
 .
 DATE_LAST_VISITED
