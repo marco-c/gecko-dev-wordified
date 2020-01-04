@@ -9247,6 +9247,11 @@ docEl
 iframe
 .
 contentWindow
+&
+&
+iframe
+.
+contentWindow
 .
 document
 .
@@ -9254,6 +9259,9 @@ documentElement
 ;
 if
 (
+docEl
+&
+&
 docEl
 .
 namespaceURI
