@@ -552,6 +552,14 @@ ins
 )
 ;
 void
+visitSimdGeneralShuffle
+(
+MSimdGeneralShuffle
+*
+ins
+)
+;
+void
 visitSimdValueX4
 (
 MSimdValueX4

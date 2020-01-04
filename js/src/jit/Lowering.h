@@ -2311,14 +2311,6 @@ ins
 )
 ;
 void
-visitSimdGeneralShuffle
-(
-MSimdGeneralShuffle
-*
-ins
-)
-;
-void
 visitSimdUnaryArith
 (
 MSimdUnaryArith
