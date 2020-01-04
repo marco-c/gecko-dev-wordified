@@ -2968,6 +2968,9 @@ prefix
 jittests
 .
 LIB_DIR
+jittests
+.
+MODULE_DIR
 )
 )
             
