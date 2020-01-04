@@ -64691,7 +64691,7 @@ rv
 ;
 }
 static
-NS_METHOD
+nsresult
 AppendSegmentToString
 (
 nsIInputStream
