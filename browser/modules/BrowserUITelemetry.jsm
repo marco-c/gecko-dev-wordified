@@ -3789,6 +3789,7 @@ defaultRemoved
 ;
 for
 (
+let
 item
 of
 paletteItems
