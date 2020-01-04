@@ -1580,6 +1580,15 @@ mTags
 )
 )
 ;
+metadata
+-
+>
+mInfo
+.
+AssertValid
+(
+)
+;
 /
 /
 We
