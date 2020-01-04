@@ -280,6 +280,7 @@ the
 init
 promise
 .
+virtual
 nsresult
 Shutdown
 (
