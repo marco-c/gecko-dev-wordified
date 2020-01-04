@@ -138,6 +138,9 @@ DNS
 h
 "
 #
+ifdef
+XP_WIN
+#
 include
 "
 mozilla
@@ -146,6 +149,8 @@ WindowsVersion
 .
 h
 "
+#
+endif
 #
 include
 "
