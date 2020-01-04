@@ -7587,7 +7587,7 @@ NYI
 ;
 }
 void
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 const
 Address
@@ -7606,7 +7606,7 @@ NYI
 ;
 }
 void
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 FloatRegister
 src
@@ -7623,7 +7623,7 @@ NYI
 ;
 }
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 const
 Address
@@ -7642,7 +7642,7 @@ NYI
 ;
 }
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 const
 BaseIndex
@@ -7661,7 +7661,7 @@ NYI
 ;
 }
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 FloatRegister
 src
@@ -7678,7 +7678,7 @@ NYI
 ;
 }
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 FloatRegister
 src
@@ -7771,7 +7771,7 @@ NYI
 ;
 }
 void
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 const
 Address
@@ -7790,7 +7790,7 @@ NYI
 ;
 }
 void
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 FloatRegister
 src
@@ -7807,7 +7807,7 @@ NYI
 ;
 }
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 const
 Address
@@ -7826,7 +7826,7 @@ NYI
 ;
 }
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 const
 BaseIndex
@@ -7845,7 +7845,7 @@ NYI
 ;
 }
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 FloatRegister
 src
@@ -7862,7 +7862,7 @@ NYI
 ;
 }
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 FloatRegister
 src

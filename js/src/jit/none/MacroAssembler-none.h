@@ -2234,7 +2234,7 @@ typename
 T
 >
 void
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 T
 FloatRegister
@@ -2251,7 +2251,7 @@ typename
 T
 >
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 T
 FloatRegister
@@ -2268,7 +2268,7 @@ typename
 T
 >
 void
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 T
 FloatRegister
@@ -2285,7 +2285,7 @@ typename
 T
 >
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 T
 FloatRegister
@@ -2501,7 +2501,7 @@ typename
 S
 >
 void
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 T
 S
@@ -2520,7 +2520,7 @@ typename
 S
 >
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 T
 S
@@ -2539,7 +2539,7 @@ typename
 S
 >
 void
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 T
 S
@@ -2558,7 +2558,7 @@ typename
 S
 >
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 T
 S

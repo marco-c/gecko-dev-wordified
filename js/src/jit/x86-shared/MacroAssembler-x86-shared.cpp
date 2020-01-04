@@ -2276,7 +2276,7 @@ isSimd128
 (
 )
 )
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 reg
 spillAddress
@@ -2510,7 +2510,7 @@ isSimd128
 (
 )
 )
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 spillAddress
 reg

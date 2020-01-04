@@ -38319,7 +38319,7 @@ Int32x4
 :
 masm
 .
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 in
 objectData
@@ -38335,7 +38335,7 @@ Float32x4
 :
 masm
 .
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 in
 objectData
@@ -38988,7 +38988,7 @@ Int32x4
 :
 masm
 .
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 objectData
 simd
@@ -39004,7 +39004,7 @@ Float32x4
 :
 masm
 .
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 objectData
 simd
