@@ -16188,9 +16188,6 @@ global
 void
 ConstructJSImplementation
 (
-JSContext
-*
-aCx
 const
 char
 *
@@ -16218,9 +16215,6 @@ nsIGlobalObject
 >
 ConstructJSImplementation
 (
-JSContext
-*
-aCx
 const
 char
 *

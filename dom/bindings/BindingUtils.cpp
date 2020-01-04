@@ -13360,9 +13360,6 @@ nsIGlobalObject
 >
 ConstructJSImplementation
 (
-JSContext
-*
-aCx
 const
 char
 *
@@ -13434,7 +13431,6 @@ nullptr
 }
 ConstructJSImplementation
 (
-aCx
 aContractId
 global
 aObject
@@ -13465,9 +13461,6 @@ forget
 void
 ConstructJSImplementation
 (
-JSContext
-*
-aCx
 const
 char
 *
@@ -13489,6 +13482,13 @@ ErrorResult
 aRv
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 /
 /
 Make
@@ -13665,7 +13665,12 @@ Value
 >
 initReturn
 (
-aCx
+nsContentUtils
+:
+:
+RootingCxForThread
+(
+)
 )
 ;
 rv
