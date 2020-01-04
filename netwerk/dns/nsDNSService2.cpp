@@ -5899,12 +5899,16 @@ n
 +
 =
 mResolver
+?
+mResolver
 -
 >
 SizeOfIncludingThis
 (
 mallocSizeOf
 )
+:
+0
 ;
 n
 +
