@@ -66,9 +66,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 actor
 -
