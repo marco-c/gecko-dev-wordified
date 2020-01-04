@@ -14971,6 +14971,16 @@ nsIDOMHTMLMediaElement
 HAVE_NOTHING
 )
 ;
+if
+(
+mDecoder
+)
+{
+ShutdownDecoder
+(
+)
+;
+}
 }
 void
 HTMLMediaElement
