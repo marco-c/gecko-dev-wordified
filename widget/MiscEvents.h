@@ -818,7 +818,7 @@ eUnidentifiedEvent
 aWidget
 eCommandEventClass
 )
-mCommand
+command
 (
 aCommand
 )
@@ -876,7 +876,7 @@ WidgetCommandEvent
 (
 false
 mSpecifiedEventType
-mCommand
+command
 nullptr
 )
 ;
@@ -905,7 +905,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mCommand
+command
 ;
 /
 /
@@ -935,7 +935,7 @@ aCopyTargets
 ;
 /
 /
-mCommand
+command
 must
 have
 been

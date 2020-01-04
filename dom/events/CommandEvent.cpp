@@ -253,7 +253,7 @@ AsCommandEvent
 )
 -
 >
-mCommand
+command
 ;
 if
 (
@@ -320,7 +320,7 @@ AsCommandEvent
 )
 -
 >
-mCommand
+command
 =
 NS_Atomize
 (
