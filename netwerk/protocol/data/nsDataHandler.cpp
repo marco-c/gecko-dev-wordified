@@ -636,7 +636,6 @@ nsAutoCString
 contentType
 contentCharset
 dataBuffer
-hashRef
 ;
 bool
 base64
@@ -650,7 +649,6 @@ contentType
 contentCharset
 base64
 dataBuffer
-hashRef
 )
 ;
 if
@@ -1022,9 +1020,6 @@ isBase64
 nsCString
 &
 dataBuffer
-nsCString
-&
-hashRef
 )
 {
 isBase64
@@ -1506,12 +1501,6 @@ Assign
 data
 )
 ;
-hashRef
-.
-Truncate
-(
-)
-;
 }
 else
 {
@@ -1523,13 +1512,6 @@ data
 hash
 -
 data
-)
-;
-hashRef
-.
-Assign
-(
-hash
 )
 ;
 }
