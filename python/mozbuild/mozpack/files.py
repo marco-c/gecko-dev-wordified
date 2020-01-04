@@ -2993,6 +2993,10 @@ defines
 extra_depends
 =
 None
+                 
+silence_missing_directive_warnings
+=
+False
 )
 :
         
@@ -3031,6 +3035,14 @@ or
 [
 ]
 )
+        
+self
+.
+silence_missing_directive_warnings
+=
+\
+            
+silence_missing_directive_warnings
     
 def
 copy
@@ -3437,6 +3449,15 @@ marker
 self
 .
 marker
+)
+        
+pp
+.
+setSilenceDirectiveWarnings
+(
+self
+.
+silence_missing_directive_warnings
 )
         
 with
