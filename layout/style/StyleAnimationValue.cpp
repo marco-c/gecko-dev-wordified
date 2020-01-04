@@ -7241,6 +7241,8 @@ aResult
 .
 SetFloatValue
 (
+EnsureNotNan
+(
 aCoeff1
 *
 aValue1
@@ -7255,6 +7257,7 @@ aValue2
 .
 GetFloatValue
 (
+)
 )
 aValue1
 .
@@ -7270,6 +7273,8 @@ aResult
 .
 SetFloatValue
 (
+EnsureNotNan
+(
 aCoeff1
 *
 aValue1
@@ -7284,6 +7289,7 @@ aValue2
 .
 GetAngleValueInRadians
 (
+)
 )
 eCSSUnit_Radian
 )
@@ -8376,11 +8382,14 @@ aResult
 .
 SetFloatValue
 (
+EnsureNotNan
+(
 result
 +
 1
 .
 0f
+)
 eCSSUnit_Number
 )
 ;

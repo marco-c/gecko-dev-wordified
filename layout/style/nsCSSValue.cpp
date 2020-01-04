@@ -2719,10 +2719,10 @@ aUnit
 {
 MOZ_ASSERT
 (
-eCSSUnit_Number
-<
-=
+IsFloatUnit
+(
 aUnit
+)
 "
 not
 a
@@ -2737,10 +2737,10 @@ Reset
 ;
 if
 (
-eCSSUnit_Number
-<
-=
+IsFloatUnit
+(
 aUnit
+)
 )
 {
 mUnit
