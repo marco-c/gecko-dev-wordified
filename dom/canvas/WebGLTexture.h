@@ -1090,7 +1090,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLTexture
 )
-explicit
 WebGLTexture
 (
 WebGLContext

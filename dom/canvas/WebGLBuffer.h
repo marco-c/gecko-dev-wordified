@@ -179,7 +179,6 @@ ElementArray
 OtherData
 }
 ;
-explicit
 WebGLBuffer
 (
 WebGLContext

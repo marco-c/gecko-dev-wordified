@@ -154,7 +154,6 @@ WebGL2Context
 ;
 public
 :
-explicit
 WebGLTransformFeedback
 (
 WebGLContext

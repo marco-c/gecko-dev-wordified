@@ -262,7 +262,6 @@ WebGLTimerQuery
 )
 private
 :
-explicit
 WebGLTimerQuery
 (
 WebGLContext
