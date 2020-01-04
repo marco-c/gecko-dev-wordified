@@ -7410,12 +7410,6 @@ BeginWriting
 (
 )
 ;
-char
-*
-slashp
-=
-buffer
-;
 /
 /
 find
@@ -7425,6 +7419,8 @@ significant
 slash
 in
 buffer
+char
+*
 slashp
 =
 strrchr
