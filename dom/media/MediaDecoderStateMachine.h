@@ -1670,12 +1670,6 @@ appropriate
 threads
 .
 bool
-OnDecodeTaskQueue
-(
-)
-const
-;
-bool
 OnTaskQueue
 (
 )
