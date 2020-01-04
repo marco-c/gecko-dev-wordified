@@ -7179,13 +7179,6 @@ AllocStackTrace
 )
 )
 {
-MOZ_ASSERT
-(
-AllocStackTrace
-(
-)
-)
-;
 }
 ~
 DeadBlock
