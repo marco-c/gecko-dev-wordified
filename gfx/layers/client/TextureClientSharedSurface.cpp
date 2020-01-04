@@ -300,7 +300,7 @@ ISurfaceAllocator
 aAllocator
 )
 :
-ClientTexture
+TextureClient
 (
 aData
 aFlags

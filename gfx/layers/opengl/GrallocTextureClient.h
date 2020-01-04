@@ -593,7 +593,7 @@ override
 /
 /
 use
-ClientTexture
+TextureClient
 '
 s
 default

@@ -469,7 +469,7 @@ TextureClient
 grallocTC
 =
 new
-ClientTexture
+TextureClient
 (
 texData
 flags
