@@ -1537,7 +1537,6 @@ disposeNative
 )
 ;
 }
-Override
 WrapForJNI
 (
 calledFrom
@@ -1545,7 +1544,13 @@ calledFrom
 "
 ui
 "
+dispatchTo
+=
+"
+gecko
+"
 )
+Override
 /
 /
 JNIObject
