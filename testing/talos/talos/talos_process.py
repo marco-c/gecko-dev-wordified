@@ -150,6 +150,32 @@ self
 )
 :
         
+"
+"
+"
+        
+Kill
+the
+process
+returning
+the
+exit
+code
+or
+None
+if
+the
+process
+        
+is
+already
+finished
+.
+        
+"
+"
+"
+        
 if
 self
 .
@@ -190,6 +216,7 @@ terminate
 try
 :
                 
+return
 self
 .
 process
@@ -222,6 +249,7 @@ unable
 to
 kill
                 
+return
 self
 .
 process
@@ -929,12 +957,20 @@ is
 really
 terminated
         
+return_code
+=
 context
 .
 kill_process
 (
 )
         
+if
+return_code
+is
+None
+:
+            
 return_code
 =
 proc
@@ -989,6 +1025,13 @@ time
 )
 )
     
+if
+return_code
+is
+not
+None
+:
+        
 LOG
 .
 process_exit
@@ -997,6 +1040,32 @@ proc
 .
 pid
 return_code
+)
+    
+else
+:
+        
+LOG
+.
+debug
+(
+"
+Unable
+to
+detect
+exit
+code
+of
+the
+process
+%
+s
+.
+"
+%
+proc
+.
+pid
 )
     
 context
