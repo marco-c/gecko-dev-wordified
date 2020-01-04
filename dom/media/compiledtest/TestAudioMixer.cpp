@@ -100,13 +100,6 @@ AudioMixer
 .
 h
 "
-#
-include
-<
-assert
-.
-h
->
 using
 mozilla
 :
