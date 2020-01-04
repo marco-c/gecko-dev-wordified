@@ -16973,7 +16973,7 @@ GetStringFromName
 "
 webNotifications
 .
-upgradeInfo
+upgradeBody
 "
 )
 ;
