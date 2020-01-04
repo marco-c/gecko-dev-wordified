@@ -108,7 +108,9 @@ deffile
 )
 :
     
-output
+pp
+.
+out
 =
 StringIO
 (
@@ -119,7 +121,7 @@ open
 (
 deffile
 '
-r
+rU
 '
 )
 as
@@ -128,18 +130,16 @@ input
         
 pp
 .
-processFile
+do_include
 (
 input
-=
-input
-output
-=
-output
+False
 )
     
 return
-output
+pp
+.
+out
 .
 getvalue
 (

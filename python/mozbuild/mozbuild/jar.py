@@ -3958,7 +3958,7 @@ inf
             
 pp
 .
-warnUnused
+failUnused
 (
 realsrc
 )
