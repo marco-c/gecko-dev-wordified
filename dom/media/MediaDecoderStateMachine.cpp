@@ -4205,11 +4205,6 @@ IsDecodingFirstFrame
 )
 &
 &
-IsAudioDecoding
-(
-)
-&
-&
 AudioQueue
 (
 )
