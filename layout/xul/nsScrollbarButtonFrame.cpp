@@ -1200,9 +1200,6 @@ nsScrollbarButtonFrame
 :
 MouseClicked
 (
-nsPresContext
-*
-aPresContext
 WidgetGUIEvent
 *
 aEvent
@@ -1213,7 +1210,6 @@ nsButtonBoxFrame
 :
 MouseClicked
 (
-aPresContext
 aEvent
 )
 ;
