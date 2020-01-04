@@ -6,7 +6,9 @@ usr
 bin
 /
 env
-python
+python2
+.
+7
 from
 __future__
 import
