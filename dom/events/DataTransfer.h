@@ -1521,7 +1521,7 @@ aIndex
 ;
 FileList
 *
-GetFileListInternal
+GetFilesInternal
 (
 ErrorResult
 &
@@ -1796,8 +1796,6 @@ mItems
 array
 of
 files
-and
-directories
 containing
 only
 the
@@ -1805,14 +1803,12 @@ files
 present
 in
 the
-/
-/
 dataTransfer
 RefPtr
 <
 FileList
 >
-mFileList
+mFiles
 ;
 /
 /
