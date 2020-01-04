@@ -1200,9 +1200,9 @@ case
 MoveOp
 :
 :
-INT32X4
+SIMD128INT
 :
-emitInt32X4Move
+emitSimd128IntMove
 (
 from
 to
@@ -1214,9 +1214,9 @@ case
 MoveOp
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 :
-emitFloat32X4Move
+emitSimd128FloatMove
 (
 from
 to
@@ -1768,7 +1768,7 @@ case
 MoveOp
 :
 :
-INT32X4
+SIMD128INT
 :
 if
 (
@@ -1830,7 +1830,7 @@ case
 MoveOp
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 :
 if
 (
@@ -2205,7 +2205,7 @@ case
 MoveOp
 :
 :
-INT32X4
+SIMD128INT
 :
 MOZ_ASSERT
 (
@@ -2286,7 +2286,7 @@ case
 MoveOp
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 :
 MOZ_ASSERT
 (
@@ -3602,7 +3602,7 @@ void
 MoveEmitterX86
 :
 :
-emitInt32X4Move
+emitSimd128IntMove
 (
 const
 MoveOperand
@@ -3778,7 +3778,7 @@ void
 MoveEmitterX86
 :
 :
-emitFloat32X4Move
+emitSimd128FloatMove
 (
 const
 MoveOperand

@@ -358,7 +358,7 @@ to
 )
 ;
 void
-emitFloat32X4Move
+emitSimd128FloatMove
 (
 const
 MoveOperand
@@ -371,7 +371,7 @@ to
 )
 ;
 void
-emitInt32X4Move
+emitSimd128IntMove
 (
 const
 MoveOperand
