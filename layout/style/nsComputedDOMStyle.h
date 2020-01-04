@@ -1130,6 +1130,12 @@ nsStyleGridTemplate
 &
 aTrackList
 const
+uint32_t
+aNumLeadingImplicitTracks
+const
+uint32_t
+aNumExplicitTracks
+const
 nsTArray
 <
 nscoord
