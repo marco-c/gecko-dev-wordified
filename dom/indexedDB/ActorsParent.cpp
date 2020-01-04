@@ -45057,7 +45057,7 @@ MOZ_ASSERT
 mDEBUGSavepointCount
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mInWriteTransaction
