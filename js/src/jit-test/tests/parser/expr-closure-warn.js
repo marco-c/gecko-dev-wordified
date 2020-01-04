@@ -11,13 +11,13 @@ only
 once
 .
 var
-release
+release_or_beta
 =
 getBuildConfiguration
 (
 )
 .
-release
+release_or_beta
 ;
 function
 testWarn
@@ -27,7 +27,7 @@ code
 {
 if
 (
-release
+release_or_beta
 )
 {
 /
@@ -42,6 +42,12 @@ non
 release
 -
 only
+(
+not
+Release
+/
+Beta
+)
 .
 testPass
 (
