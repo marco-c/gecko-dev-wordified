@@ -11826,6 +11826,7 @@ DEFINED_ON
 (
 x86
 x64
+arm
 )
 ;
 void
@@ -11842,6 +11843,7 @@ oolEntry
 DEFINED_ON
 (
 x86_shared
+arm
 )
 ;
 void
@@ -11880,6 +11882,7 @@ DEFINED_ON
 (
 x86
 x64
+arm
 )
 ;
 void
@@ -11896,6 +11899,7 @@ oolEntry
 DEFINED_ON
 (
 x86_shared
+arm
 )
 ;
 void
