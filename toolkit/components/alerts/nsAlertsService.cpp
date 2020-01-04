@@ -431,6 +431,9 @@ endif
 /
 /
 MOZ_PLACES
+#
+ifndef
+MOZ_WIDGET_ANDROID
 nsresult
 ShowWithIconBackend
 (
@@ -683,6 +686,11 @@ aAlertListener
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WIDGET_ANDROID
 }
 /
 /
