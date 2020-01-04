@@ -31273,9 +31273,8 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetValueToFragmentOrURL
+SetValueToURLValue
 (
-&
 StyleSVG
 (
 )
@@ -31313,9 +31312,8 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetValueToFragmentOrURL
+SetValueToURLValue
 (
-&
 StyleSVG
 (
 )
@@ -31353,9 +31351,8 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetValueToFragmentOrURL
+SetValueToURLValue
 (
-&
 StyleSVG
 (
 )
