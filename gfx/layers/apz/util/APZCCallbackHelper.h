@@ -851,11 +851,12 @@ callback
 transform
 to
 all
-refpoints
+touch
 *
-in
-the
-input
+points
+of
+a
+touch
 event
 .
 *
@@ -864,7 +865,7 @@ static
 void
 ApplyCallbackTransform
 (
-WidgetEvent
+WidgetTouchEvent
 &
 aEvent
 const
