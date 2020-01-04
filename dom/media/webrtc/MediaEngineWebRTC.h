@@ -1217,7 +1217,7 @@ dev_index
 ]
 -
 >
-device_id
+devid
 ;
 return
 true
