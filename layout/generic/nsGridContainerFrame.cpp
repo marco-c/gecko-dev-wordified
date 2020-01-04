@@ -11354,7 +11354,7 @@ aFrame
 *
 aRS
 .
-rendContext
+mRenderingContext
 &
 aRS
 aRS

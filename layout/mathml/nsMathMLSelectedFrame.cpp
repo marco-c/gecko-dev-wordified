@@ -968,7 +968,7 @@ FinalizeReflow
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget

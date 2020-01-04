@@ -1658,7 +1658,7 @@ GetMinISize
 (
 aButtonReflowState
 .
-rendContext
+mRenderingContext
 )
 -
 aButtonReflowState

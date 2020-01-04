@@ -652,15 +652,16 @@ mFrame
 ;
 /
 /
-rendering
+Rendering
 context
 to
 use
 for
 measurement
+.
 nsRenderingContext
 *
-rendContext
+mRenderingContext
 ;
 const
 nsMargin
@@ -1030,7 +1031,7 @@ mFrame
 (
 aFrame
 )
-rendContext
+mRenderingContext
 (
 aRenderingContext
 )

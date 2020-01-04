@@ -1093,7 +1093,7 @@ mFrame
 (
 aFrame
 )
-rendContext
+mRenderingContext
 (
 aRenderingContext
 )
@@ -1262,7 +1262,7 @@ SizeComputationInput
 aFrame
 aParentReflowState
 .
-rendContext
+mRenderingContext
 )
 mBlockDelta
 (
@@ -1801,7 +1801,7 @@ nsLayoutUtils
 :
 ComputeISizeValue
 (
-rendContext
+mRenderingContext
 mFrame
 aContainingBlockISize
 aContentEdgeToBoxSizing
@@ -12090,7 +12090,7 @@ mFrame
 >
 ComputeSize
 (
-rendContext
+mRenderingContext
 wm
 cbSize
 .
@@ -17994,7 +17994,7 @@ mFrame
 >
 ComputeSize
 (
-rendContext
+mRenderingContext
 wm
 cbSize
 AvailableISize

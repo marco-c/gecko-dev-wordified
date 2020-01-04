@@ -3925,7 +3925,7 @@ GetDesiredSize
 aPresContext
 aReflowState
 .
-rendContext
+mRenderingContext
 aMetrics
 inflation
 &

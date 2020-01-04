@@ -2189,7 +2189,7 @@ PresContext
 )
 aReflowState
 .
-rendContext
+mRenderingContext
 )
 ;
 nsSize

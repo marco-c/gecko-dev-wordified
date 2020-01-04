@@ -6454,7 +6454,7 @@ PresContext
 aLastRS
 -
 >
-rendContext
+mRenderingContext
 )
 ;
 if
@@ -53612,7 +53612,7 @@ aState
 .
 mReflowState
 .
-rendContext
+mRenderingContext
 wm
 aState
 .

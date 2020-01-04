@@ -14057,7 +14057,7 @@ aPresContext
 positionedPart
 aReflowState
 .
-rendContext
+mRenderingContext
 availSize
 ReflowInput
 :
@@ -14515,7 +14515,7 @@ ReflowColGroups
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 )
 ;
 }

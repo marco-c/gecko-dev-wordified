@@ -2810,7 +2810,7 @@ IntrinsicForContainer
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 inner
 nsLayoutUtils
 :
@@ -2850,7 +2850,7 @@ IntrinsicForContainer
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 legend
 nsLayoutUtils
 :

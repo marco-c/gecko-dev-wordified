@@ -12665,7 +12665,7 @@ GetMinISize
 (
 aItemReflowState
 .
-rendContext
+mRenderingContext
 )
 ;
 resolvedMinSize

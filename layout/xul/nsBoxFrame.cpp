@@ -3863,7 +3863,7 @@ state
 aPresContext
 aReflowState
 .
-rendContext
+mRenderingContext
 &
 aReflowState
 aReflowState

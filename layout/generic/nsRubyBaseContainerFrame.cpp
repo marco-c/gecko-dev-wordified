@@ -4112,7 +4112,7 @@ aColumn
 mBaseFrame
 baseReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget

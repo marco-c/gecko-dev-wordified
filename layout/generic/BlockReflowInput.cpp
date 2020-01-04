@@ -1314,7 +1314,7 @@ os
 aFrame
 mReflowState
 .
-rendContext
+mRenderingContext
 wm
 mContentArea
 .
@@ -1673,7 +1673,7 @@ GetBEndMarginClone
 aFrame
 mReflowState
 .
-rendContext
+mRenderingContext
 mContentArea
 wm
 )
@@ -5222,7 +5222,7 @@ ComputeSize
 (
 aCBReflowState
 .
-rendContext
+mRenderingContext
 wm
 aCBReflowState
 .
@@ -5699,7 +5699,7 @@ offsets
 aFloat
 mReflowState
 .
-rendContext
+mRenderingContext
 wm
 mReflowState
 .
