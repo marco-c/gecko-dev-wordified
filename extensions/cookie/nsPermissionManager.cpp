@@ -10769,6 +10769,9 @@ id
 aID
 ;
 }
+#
+ifdef
+MOZ_B2G
 /
 /
 When
@@ -10851,6 +10854,11 @@ nsIPermissionManager
 EXPIRE_NEVER
 ;
 }
+#
+endif
+/
+/
+MOZ_B2G
 entry
 -
 >
