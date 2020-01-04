@@ -107,6 +107,13 @@ h
 #
 include
 "
+Deinterlacer
+.
+h
+"
+#
+include
+"
 GIF2
 .
 h
