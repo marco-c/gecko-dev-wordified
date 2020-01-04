@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIEntropyCollector
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h
@@ -495,8 +488,6 @@ nsNSSComponent
 final
 :
 public
-nsIEntropyCollector
-public
 nsINSSComponent
 public
 nsIObserver
@@ -512,7 +503,6 @@ nsNSSComponent
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIENTROPYCOLLECTOR
 NS_DECL_NSIOBSERVER
 nsresult
 Init
