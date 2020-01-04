@@ -2055,7 +2055,7 @@ AssertCachedBindings
 )
 ;
 void
-AssertCachedState
+AssertCachedGlobalState
 (
 )
 ;
