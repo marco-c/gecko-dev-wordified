@@ -593,7 +593,7 @@ dump
 in
 the
 debugger
-JS_EXPORT_API
+JS_PUBLIC_API
 (
 void
 )
