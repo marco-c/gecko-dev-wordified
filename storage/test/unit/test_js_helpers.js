@@ -523,11 +523,10 @@ c
 ]
 ;
 for
-each
 (
 let
 name
-in
+of
 expected
 )
 {
@@ -662,11 +661,10 @@ c
 ]
 ;
 for
-each
 (
 let
 name
-in
+of
 expected
 )
 {
