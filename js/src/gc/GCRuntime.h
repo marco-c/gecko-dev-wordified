@@ -5187,6 +5187,17 @@ lock
 )
 ;
 void
+traceRuntimeForMinorGC
+(
+JSTracer
+*
+trc
+AutoLockForExclusiveAccess
+&
+lock
+)
+;
+void
 notifyDidPaint
 (
 )
@@ -7154,7 +7165,7 @@ reason
 )
 ;
 void
-markRuntime
+traceRuntimeForMajorGC
 (
 JSTracer
 *
@@ -7165,7 +7176,7 @@ lock
 )
 ;
 void
-markRuntimeInner
+traceRuntimeCommon
 (
 JSTracer
 *
