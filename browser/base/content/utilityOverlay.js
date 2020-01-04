@@ -285,11 +285,9 @@ privatebrowsing
 ;
 }
 return
-"
-about
-:
-newtab
-"
+aboutNewTabService
+.
+newTabURL
 ;
 }
 )
