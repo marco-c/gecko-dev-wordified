@@ -1066,7 +1066,7 @@ nsDataSignatureVerifier
 )
 NS_NSS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nssEnsure
+nssEnsureChromeOrContent
 nsRandomGenerator
 )
 NS_NSS_GENERIC_FACTORY_CONSTRUCTOR
