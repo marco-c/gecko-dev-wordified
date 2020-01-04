@@ -224,6 +224,11 @@ NanoSecPerSec
 /
 /
 Android
+&
+macOS
+10
+.
+12
 has
 the
 clock
@@ -244,6 +249,13 @@ HAVE_CLOCK_MONOTONIC
 defined
 (
 __ANDROID__
+)
+&
+&
+!
+defined
+(
+__APPLE__
 )
 #
 define
