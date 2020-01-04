@@ -279,6 +279,10 @@ Intl
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 -
 >
 AsTableCell

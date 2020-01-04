@@ -152,6 +152,13 @@ Accessible
 .
 h
 "
+#
+include
+"
+AccessibleOrProxy
+.
+h
+"
 namespace
 mozilla
 {
@@ -203,7 +210,7 @@ mSupportedIfaces
 {
 if
 (
-mIntl
+aInternal
 -
 >
 IsSelect
@@ -217,7 +224,7 @@ eSelectable
 ;
 if
 (
-mIntl
+aInternal
 -
 >
 HasNumericValue
@@ -231,7 +238,7 @@ eValue
 ;
 if
 (
-mIntl
+aInternal
 -
 >
 IsLink
@@ -281,8 +288,7 @@ xpcAccessibleGeneric
 )
 {
 }
-Accessible
-*
+AccessibleOrProxy
 mIntl
 ;
 enum
@@ -383,6 +389,10 @@ this
 -
 >
 mIntl
+.
+AsAccessible
+(
+)
 ;
 }
 inline
@@ -407,6 +417,10 @@ this
 -
 >
 mIntl
+.
+AsAccessible
+(
+)
 ;
 }
 inline
@@ -431,6 +445,10 @@ this
 -
 >
 mIntl
+.
+AsAccessible
+(
+)
 ;
 }
 inline
@@ -455,6 +473,10 @@ this
 -
 >
 mIntl
+.
+AsAccessible
+(
+)
 ;
 }
 }

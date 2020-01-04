@@ -527,6 +527,10 @@ Intl
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 -
 >
 AsTable

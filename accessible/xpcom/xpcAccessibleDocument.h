@@ -363,6 +363,10 @@ Intl
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 -
 >
 AsDoc

@@ -187,7 +187,7 @@ aIntl
 {
 if
 (
-mIntl
+aIntl
 -
 >
 IsHyperText
@@ -195,7 +195,7 @@ IsHyperText
 )
 &
 &
-mIntl
+aIntl
 -
 >
 AsHyperText
@@ -236,6 +236,10 @@ Intl
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 -
 >
 AsHyperText
