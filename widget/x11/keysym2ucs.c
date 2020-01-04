@@ -433,6 +433,8 @@ keysym2ucs
 .
 h
 "
+static
+const
 struct
 codepair
 {
