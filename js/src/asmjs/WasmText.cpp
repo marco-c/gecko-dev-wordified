@@ -2870,8 +2870,6 @@ char16_t
 begin
 =
 cur_
-+
-+
 ;
 switch
 (
@@ -2884,6 +2882,10 @@ case
 "
 '
 :
+cur_
++
++
+;
 do
 {
 if
@@ -2928,6 +2930,10 @@ case
 '
 '
 :
+cur_
++
++
+;
 while
 (
 cur_
@@ -2962,6 +2968,10 @@ case
 (
 '
 :
+cur_
++
++
+;
 return
 WasmToken
 (
@@ -2978,6 +2988,10 @@ case
 )
 '
 :
+cur_
++
++
+;
 return
 WasmToken
 (
@@ -3046,12 +3060,7 @@ uint32_t
 >
 u32
 =
-*
-begin
--
-'
 0
-'
 ;
 while
 (
@@ -3128,7 +3137,7 @@ consume
 MOZ_UTF16
 (
 "
-lock
+block
 "
 )
 )
@@ -3158,7 +3167,7 @@ consume
 MOZ_UTF16
 (
 "
-all
+call
 "
 )
 )
@@ -3213,7 +3222,7 @@ consume
 MOZ_UTF16
 (
 "
-xport
+export
 "
 )
 )
@@ -3243,7 +3252,7 @@ consume
 MOZ_UTF16
 (
 "
-unc
+func
 "
 )
 )
@@ -3266,7 +3275,7 @@ consume
 MOZ_UTF16
 (
 "
-32
+f32
 "
 )
 )
@@ -4084,7 +4093,7 @@ consume
 MOZ_UTF16
 (
 "
-64
+f64
 "
 )
 )
@@ -4863,6 +4872,8 @@ cur_
 break
 ;
 }
+break
+;
 }
 break
 ;
@@ -4878,7 +4889,7 @@ consume
 MOZ_UTF16
 (
 "
-et_local
+get_local
 "
 )
 )
@@ -4908,7 +4919,7 @@ consume
 MOZ_UTF16
 (
 "
-32
+i32
 "
 )
 )
@@ -5967,7 +5978,7 @@ consume
 MOZ_UTF16
 (
 "
-64
+i64
 "
 )
 )
@@ -7048,7 +7059,7 @@ consume
 MOZ_UTF16
 (
 "
-mport
+import
 "
 )
 )
@@ -7078,7 +7089,7 @@ consume
 MOZ_UTF16
 (
 "
-ocal
+local
 "
 )
 )
@@ -7108,7 +7119,7 @@ consume
 MOZ_UTF16
 (
 "
-odule
+module
 "
 )
 )
@@ -7138,7 +7149,7 @@ consume
 MOZ_UTF16
 (
 "
-op
+nop
 "
 )
 )
@@ -7168,7 +7179,7 @@ consume
 MOZ_UTF16
 (
 "
-aram
+param
 "
 )
 )
@@ -7198,7 +7209,7 @@ consume
 MOZ_UTF16
 (
 "
-esult
+result
 "
 )
 )
@@ -7228,7 +7239,7 @@ consume
 MOZ_UTF16
 (
 "
-et_local
+set_local
 "
 )
 )
