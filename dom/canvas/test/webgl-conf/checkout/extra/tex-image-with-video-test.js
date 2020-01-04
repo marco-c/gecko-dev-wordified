@@ -380,8 +380,6 @@ src
 .
 .
 /
-conformance
-/
 resources
 /
 red
@@ -418,8 +416,6 @@ src
 .
 .
 /
-conformance
-/
 resources
 /
 red
@@ -451,8 +447,6 @@ src
 "
 .
 .
-/
-conformance
 /
 resources
 /
