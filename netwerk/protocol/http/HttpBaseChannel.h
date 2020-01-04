@@ -589,6 +589,11 @@ aLoadFlags
 )
 override
 ;
+NS_IMETHOD
+SetDocshellUserAgentOverride
+(
+)
+;
 /
 /
 nsIChannel
