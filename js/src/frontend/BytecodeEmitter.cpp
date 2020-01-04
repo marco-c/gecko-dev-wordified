@@ -34762,6 +34762,12 @@ pn
 pn_next
 )
 {
+ParseNode
+*
+maybeFun
+=
+pn
+;
 if
 (
 !
@@ -34775,7 +34781,7 @@ strict
 {
 while
 (
-pn
+maybeFun
 -
 >
 isKind
@@ -34783,9 +34789,9 @@ isKind
 PNK_LABEL
 )
 )
-pn
+maybeFun
 =
-pn
+maybeFun
 -
 >
 as
@@ -34802,7 +34808,7 @@ statement
 }
 if
 (
-pn
+maybeFun
 -
 >
 isKind
@@ -34812,7 +34818,7 @@ PNK_ANNEXB_FUNCTION
 |
 |
 (
-pn
+maybeFun
 -
 >
 isKind
@@ -34821,7 +34827,7 @@ PNK_FUNCTION
 )
 &
 &
-pn
+maybeFun
 -
 >
 functionIsHoisted
@@ -34835,7 +34841,7 @@ if
 !
 emitTree
 (
-pn
+maybeFun
 )
 )
 return
