@@ -408,7 +408,7 @@ NS_ERROR_DOM_ABORT_ERR
 )
 ;
 return
-rv
+NS_ERROR_INVALID_ARG
 ;
 }
 rv
