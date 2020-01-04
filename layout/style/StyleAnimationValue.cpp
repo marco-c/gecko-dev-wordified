@@ -24238,7 +24238,7 @@ bool
 StyleClipBasicShapeToCSSArray
 (
 const
-StyleClipPath
+nsStyleClipPath
 &
 aClipPath
 nsCSSValue
@@ -24278,7 +24278,7 @@ box
 )
 ;
 const
-StyleBasicShape
+nsStyleBasicShape
 *
 shape
 =
@@ -24996,7 +24996,7 @@ SetIntValue
 (
 aClipPath
 .
-GetReferenceBox
+GetSizingBox
 (
 )
 eCSSUnit_Enumerated
@@ -26972,7 +26972,7 @@ styleStruct
 )
 ;
 const
-StyleClipPath
+nsStyleClipPath
 &
 clipPath
 =
@@ -26982,7 +26982,7 @@ svgReset
 mClipPath
 ;
 const
-StyleShapeSourceType
+StyleClipPathType
 type
 =
 clipPath
@@ -26996,7 +26996,7 @@ if
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 URL
@@ -27077,7 +27077,7 @@ if
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 Box
@@ -27089,7 +27089,7 @@ SetIntValue
 (
 clipPath
 .
-GetReferenceBox
+GetSizingBox
 (
 )
 eUnit_Enumerated
@@ -27102,7 +27102,7 @@ if
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 Shape
@@ -27158,7 +27158,7 @@ MOZ_ASSERT
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 None_
