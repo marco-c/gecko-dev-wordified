@@ -630,6 +630,7 @@ outChildFrame
 ;
 }
 else
+{
 return
 nsFrame
 :
@@ -642,6 +643,7 @@ outFrameContentOffset
 outChildFrame
 )
 ;
+}
 }
 /
 /
