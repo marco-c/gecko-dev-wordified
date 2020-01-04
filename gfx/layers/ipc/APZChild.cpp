@@ -597,7 +597,7 @@ bool
 APZChild
 :
 :
-RecvUpdateFrame
+RecvRequestContentRepaint
 (
 const
 FrameMetrics

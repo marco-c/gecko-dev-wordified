@@ -926,13 +926,6 @@ GeckoContentController
 )
 {
 }
-virtual
-void
-ChildAdopted
-(
-)
-{
-}
 /
 *
 *
