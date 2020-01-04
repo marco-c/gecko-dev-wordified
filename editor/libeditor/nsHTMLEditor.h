@@ -5491,7 +5491,7 @@ ClearStyle
 (
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 *
 aNode
