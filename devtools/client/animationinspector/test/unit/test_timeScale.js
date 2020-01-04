@@ -122,7 +122,7 @@ client
 /
 animationinspector
 /
-components
+utils
 "
 )
 ;
