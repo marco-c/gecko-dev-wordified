@@ -13291,8 +13291,8 @@ gGridTemplateSubpropTable
 =
 {
 eCSSProperty_grid_template_areas
-eCSSProperty_grid_template_columns
 eCSSProperty_grid_template_rows
+eCSSProperty_grid_template_columns
 eCSSProperty_UNKNOWN
 }
 ;
@@ -13305,12 +13305,12 @@ gGridSubpropTable
 =
 {
 eCSSProperty_grid_template_areas
-eCSSProperty_grid_template_columns
 eCSSProperty_grid_template_rows
+eCSSProperty_grid_template_columns
 eCSSProperty_grid_auto_flow
-eCSSProperty_grid_auto_columns
 eCSSProperty_grid_auto_rows
-eCSSProperty_grid_column_gap
+eCSSProperty_grid_auto_columns
+eCSSProperty_grid_row_gap
 /
 /
 can
@@ -13321,7 +13321,7 @@ not
 get
 /
 set
-eCSSProperty_grid_row_gap
+eCSSProperty_grid_column_gap
 /
 /
 can
@@ -13384,8 +13384,8 @@ gGridGapSubpropTable
 ]
 =
 {
-eCSSProperty_grid_column_gap
 eCSSProperty_grid_row_gap
+eCSSProperty_grid_column_gap
 eCSSProperty_UNKNOWN
 }
 ;
