@@ -2241,6 +2241,10 @@ mProgressSink
 )
 )
 ;
+UpdatePrivateBrowsing
+(
+)
+;
 return
 NS_OK
 ;
@@ -2684,6 +2688,10 @@ getter_AddRefs
 (
 mProgressSink
 )
+)
+;
+UpdatePrivateBrowsing
+(
 )
 ;
 return

@@ -728,9 +728,7 @@ nullptr
 }
 /
 /
-Try
-to
-preserve
+Preserve
 the
 privacy
 bit
@@ -2308,6 +2306,10 @@ CallbacksChanged
 (
 )
 ;
+UpdatePrivateBrowsing
+(
+)
+;
 return
 NS_OK
 ;
@@ -2613,6 +2615,10 @@ mCallbacks
 aCallbacks
 ;
 CallbacksChanged
+(
+)
+;
+UpdatePrivateBrowsing
 (
 )
 ;

@@ -1249,11 +1249,8 @@ mProgressSink
 )
 )
 ;
-mPrivateBrowsing
-=
-NS_UsePrivateBrowsing
+UpdatePrivateBrowsing
 (
-this
 )
 ;
 NS_GetOriginAttributes
@@ -1705,11 +1702,8 @@ mProgressSink
 )
 )
 ;
-mPrivateBrowsing
-=
-NS_UsePrivateBrowsing
+UpdatePrivateBrowsing
 (
-this
 )
 ;
 NS_GetOriginAttributes
