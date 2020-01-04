@@ -32045,7 +32045,7 @@ i
 aFormSubmission
 -
 >
-AddNameFilePair
+AddNameBlobPair
 (
 name
 files
@@ -32071,7 +32071,7 @@ BlobImpl
 blobImpl
 =
 new
-BlobImplEmptyFile
+EmptyBlobImpl
 (
 NS_LITERAL_STRING
 (
@@ -32087,11 +32087,11 @@ stream
 ;
 RefPtr
 <
-File
+Blob
 >
-file
+blob
 =
-File
+Blob
 :
 :
 Create
@@ -32110,10 +32110,10 @@ blobImpl
 aFormSubmission
 -
 >
-AddNameFilePair
+AddNameBlobPair
 (
 name
-file
+blob
 )
 ;
 }
