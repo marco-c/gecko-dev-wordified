@@ -6954,6 +6954,9 @@ const
 uint32_t
 &
 aPluginEpoch
+nsresult
+*
+aRv
 nsTArray
 <
 PluginTag
@@ -6965,7 +6968,9 @@ uint32_t
 aNewPluginEpoch
 )
 {
-return
+*
+aRv
+=
 mozilla
 :
 :
@@ -6978,6 +6983,9 @@ aPluginEpoch
 aPlugins
 aNewPluginEpoch
 )
+;
+return
+true
 ;
 }
 /

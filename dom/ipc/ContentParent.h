@@ -1062,6 +1062,9 @@ const
 uint32_t
 &
 aPluginEpoch
+nsresult
+*
+aRv
 nsTArray
 <
 PluginTag
