@@ -1990,7 +1990,7 @@ data
 *
 /
 void
-ReconstructStyleData
+RestyleForCSSRuleChanges
 (
 )
 ;

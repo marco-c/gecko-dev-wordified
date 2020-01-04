@@ -19736,7 +19736,7 @@ either
 nsIPresShell
 :
 :
-ReconstructStyleData
+RestyleForCSSRuleChanges
 or
 /
 /
