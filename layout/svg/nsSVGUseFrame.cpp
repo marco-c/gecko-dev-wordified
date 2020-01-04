@@ -1282,7 +1282,7 @@ repainting
 .
 if
 (
-StyleSVGReset
+StyleEffects
 (
 )
 -

@@ -893,7 +893,7 @@ NS_STYLE_WILL_CHANGE_FIXPOS_CB
 aContextFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -

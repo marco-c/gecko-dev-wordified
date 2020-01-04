@@ -32992,7 +32992,7 @@ nsStyleFilter
 &
 filters
 =
-StyleSVGReset
+StyleEffects
 (
 )
 -

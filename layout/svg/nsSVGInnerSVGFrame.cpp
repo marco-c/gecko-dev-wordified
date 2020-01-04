@@ -875,7 +875,7 @@ repainting
 .
 if
 (
-StyleSVGReset
+StyleEffects
 (
 )
 -
