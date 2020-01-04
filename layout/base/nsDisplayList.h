@@ -21577,12 +21577,16 @@ aBuilder
 )
 override
 ;
+static
 bool
 NeedsActiveLayer
 (
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 NS_DISPLAY_DECL_NAME
