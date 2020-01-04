@@ -3171,6 +3171,12 @@ defined
 (
 JS_CODEGEN_MIPS32
 )
+|
+|
+defined
+(
+JS_CODEGEN_MIPS64
+)
 volatileRegs
 .
 add
@@ -9452,6 +9458,12 @@ elif
 defined
 (
 JS_CODEGEN_MIPS32
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS64
 )
 return
 false
