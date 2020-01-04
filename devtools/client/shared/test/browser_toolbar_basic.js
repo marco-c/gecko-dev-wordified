@@ -104,9 +104,7 @@ document
 getElementById
 (
 "
-Tools
-:
-DevToolbar
+menu_devToolbar
 "
 )
 .
@@ -287,9 +285,7 @@ document
 getElementById
 (
 "
-Tools
-:
-DevToolbar
+menu_devToolbar
 "
 )
 .
@@ -332,9 +328,7 @@ document
 getElementById
 (
 "
-Tools
-:
-DevToolbar
+menu_devToolbar
 "
 )
 .
