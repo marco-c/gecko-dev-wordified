@@ -12532,7 +12532,14 @@ artifacts
 Artifacts
 (
 tree
+self
+.
+substs
+self
+.
+defines
 job
+                              
 log
 =
 self
@@ -12541,6 +12548,7 @@ log
 cache_dir
 =
 cache_dir
+                              
 skip_cache
 =
 skip_cache
