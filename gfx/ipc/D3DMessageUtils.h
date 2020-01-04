@@ -227,6 +227,14 @@ DXGI_ADAPTER_DESC
 aDesc
 )
 ;
+const
+DXGI_ADAPTER_DESC
+&
+ToDesc
+(
+)
+const
+;
 #
 endif
 bool

@@ -707,6 +707,8 @@ XP_WIN
 bool
 setupDxgiSurfaces
 (
+NPP
+npp
 InstanceData
 *
 instanceData

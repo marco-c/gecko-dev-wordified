@@ -7857,6 +7857,7 @@ if
 !
 setupDxgiSurfaces
 (
+instance
 instanceData
 )
 )
