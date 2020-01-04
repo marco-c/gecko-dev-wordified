@@ -186,6 +186,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -2559,6 +2568,10 @@ aFrom
 ;
 new
 (
+mozilla
+:
+:
+KnownNotNull
 aTo
 )
 EntryType
@@ -2645,6 +2658,10 @@ aKey
 {
 new
 (
+mozilla
+:
+:
+KnownNotNull
 aEntry
 )
 EntryType

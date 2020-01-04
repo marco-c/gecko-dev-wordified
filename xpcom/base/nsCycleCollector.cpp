@@ -4752,6 +4752,10 @@ mNext
 return
 new
 (
+mozilla
+:
+:
+KnownNotNull
 mNext
 +
 +

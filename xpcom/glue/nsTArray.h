@@ -222,6 +222,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReverseIterator
 .
 h
@@ -3383,6 +3392,10 @@ respect
 .
 new
 (
+mozilla
+:
+:
+KnownNotNull
 static_cast
 <
 void
@@ -3494,6 +3507,10 @@ bug
 ;
 new
 (
+mozilla
+:
+:
+KnownNotNull
 static_cast
 <
 void
