@@ -311,6 +311,9 @@ addressOfJitStackLimit
 )
 ;
 }
+#
+ifdef
+DEBUG
 const
 void
 *
@@ -332,6 +335,8 @@ addressOfIonBailAfter
 )
 ;
 }
+#
+endif
 const
 void
 *

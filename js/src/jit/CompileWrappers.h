@@ -301,6 +301,9 @@ addressOfJitStackLimit
 (
 )
 ;
+#
+ifdef
+DEBUG
 /
 /
 rt
@@ -320,6 +323,8 @@ addressOfIonBailAfter
 (
 )
 ;
+#
+endif
 /
 /
 &
