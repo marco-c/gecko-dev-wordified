@@ -2311,14 +2311,6 @@ ins
 )
 ;
 void
-visitSimdExtractElement
-(
-MSimdExtractElement
-*
-ins
-)
-;
-void
 visitSimdInsertElement
 (
 MSimdInsertElement

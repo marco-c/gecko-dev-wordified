@@ -1130,8 +1130,9 @@ getOperand
 )
 ;
 }
-unsigned
-lane
+MSimdExtractElement
+*
+mir
 (
 )
 const
@@ -1141,11 +1142,6 @@ mir_
 -
 >
 toSimdExtractElement
-(
-)
--
->
-lane
 (
 )
 ;
@@ -1336,8 +1332,9 @@ temp
 )
 ;
 }
-unsigned
-lane
+MSimdExtractElement
+*
+mir
 (
 )
 const
@@ -1347,11 +1344,6 @@ mir_
 -
 >
 toSimdExtractElement
-(
-)
--
->
-lane
 (
 )
 ;

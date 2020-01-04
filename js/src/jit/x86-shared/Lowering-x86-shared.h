@@ -488,6 +488,14 @@ ins
 )
 ;
 void
+visitSimdExtractElement
+(
+MSimdExtractElement
+*
+ins
+)
+;
+void
 visitSimdBinaryArith
 (
 MSimdBinaryArith
