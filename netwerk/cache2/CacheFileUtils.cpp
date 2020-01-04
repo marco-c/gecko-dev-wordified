@@ -244,10 +244,6 @@ originAttribs
 0
 false
 )
-isPrivate
-(
-false
-)
 isAnonymous
 (
 false
@@ -277,9 +273,6 @@ private
 Results
 NeckoOriginAttributes
 originAttribs
-;
-bool
-isPrivate
 ;
 bool
 isAnonymous
@@ -514,9 +507,12 @@ case
 p
 '
 :
-isPrivate
-=
+originAttribs
+.
+SyncAttributesWithPrivateBrowsing
+(
 true
+)
 ;
 break
 ;
@@ -860,7 +856,6 @@ info
 =
 GetLoadContextInfo
 (
-isPrivate
 isAnonymous
 originAttribs
 )

@@ -2366,13 +2366,19 @@ bool
 const
 aAnonymous
 NeckoOriginAttributes
-const
 &
 aOa
 )
 {
 nsresult
 rv
+;
+aOa
+.
+SyncAttributesWithPrivateBrowsing
+(
+aPrivate
+)
 ;
 RefPtr
 <
@@ -2382,7 +2388,6 @@ info
 =
 GetLoadContextInfo
 (
-aPrivate
 aAnonymous
 aOa
 )
@@ -2503,7 +2508,6 @@ nsresult
 Run
 (
 NeckoOriginAttributes
-const
 &
 aOa
 )

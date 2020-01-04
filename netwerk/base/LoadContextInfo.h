@@ -94,8 +94,6 @@ NS_DECL_NSILOADCONTEXTINFO
 LoadContextInfo
 (
 bool
-aIsPrivate
-bool
 aIsAnonymous
 NeckoOriginAttributes
 aOriginAttributes
@@ -111,11 +109,6 @@ LoadContextInfo
 ;
 protected
 :
-bool
-mIsPrivate
-:
-1
-;
 bool
 mIsAnonymous
 :
@@ -196,9 +189,6 @@ LoadContextInfo
 *
 GetLoadContextInfo
 (
-bool
-const
-aIsPrivate
 bool
 const
 aIsAnonymous

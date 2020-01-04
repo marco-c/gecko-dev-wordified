@@ -1032,7 +1032,11 @@ SetPrivate
 (
 loadContext
 .
-mUsePrivateBrowsing
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 )
 ;
 }

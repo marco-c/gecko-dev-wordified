@@ -3378,7 +3378,6 @@ new
 LoadContextInfo
 (
 false
-false
 NeckoOriginAttributes
 (
 )

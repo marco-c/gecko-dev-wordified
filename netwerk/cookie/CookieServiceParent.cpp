@@ -575,7 +575,11 @@ aIsPrivate
 =
 aLoadContext
 .
-mUsePrivateBrowsing
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 }
 aAttrs
