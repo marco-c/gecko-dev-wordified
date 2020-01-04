@@ -584,4 +584,14 @@ listener
 )
 {
 }
+Override
+public
+native
+void
+setIsLongpressEnabled
+(
+boolean
+isLongpressEnabled
+)
+;
 }

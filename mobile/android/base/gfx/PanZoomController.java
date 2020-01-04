@@ -384,4 +384,12 @@ Overscroll
 controller
 )
 ;
+public
+void
+setIsLongpressEnabled
+(
+boolean
+isLongpressEnabled
+)
+;
 }
