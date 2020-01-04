@@ -2001,12 +2001,6 @@ NS_OK
 nsresult
 rv
 ;
-nsCOMPtr
-<
-nsIURI
->
-uri
-;
 rv
 =
 mJarURI

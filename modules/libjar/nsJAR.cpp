@@ -7590,12 +7590,6 @@ zipFile
 nsresult
 rv
 ;
-nsCOMPtr
-<
-nsIZipReader
->
-antiLockZipGrip
-;
 MutexAutoLock
 lock
 (
@@ -7675,12 +7669,6 @@ zipFile
 ;
 nsresult
 rv
-;
-nsCOMPtr
-<
-nsIZipReader
->
-antiLockZipGrip
 ;
 MutexAutoLock
 lock

@@ -13648,12 +13648,6 @@ kNSSComponentCID
 )
 )
 ;
-RefPtr
-<
-SharedCertVerifier
->
-certVerifier
-;
 if
 (
 nssComponent

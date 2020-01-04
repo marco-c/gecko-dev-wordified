@@ -8851,12 +8851,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsCOMPtr
-<
-nsIMIMEInfo
->
-mimeInfo
-;
 nsAutoCString
 contentType
 ;

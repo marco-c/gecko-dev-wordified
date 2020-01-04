@@ -1980,12 +1980,6 @@ nsIDOMRange
 >
 returnRange
 ;
-nsCOMPtr
-<
-nsIPresShell
->
-focusedPS
-;
 if
 (
 NS_FAILED
@@ -5135,7 +5129,6 @@ nsCOMPtr
 <
 nsIAtom
 >
-tag
 hrefAtom
 (
 NS_Atomize

@@ -475,12 +475,6 @@ prev
 =
 nullptr
 ;
-nsCOMPtr
-<
-nsISupports
->
-isupports
-;
 for
 (
 uint32_t

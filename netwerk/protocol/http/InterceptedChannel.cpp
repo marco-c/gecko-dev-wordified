@@ -805,12 +805,6 @@ NotifyController
 (
 )
 {
-nsCOMPtr
-<
-nsIOutputStream
->
-out
-;
 /
 /
 Intercepted

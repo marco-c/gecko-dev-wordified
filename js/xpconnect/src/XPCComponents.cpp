@@ -536,12 +536,6 @@ nsCOMPtr
 <
 nsISupports
 >
-sup
-;
-nsCOMPtr
-<
-nsISupports
->
 iface
 ;
 if

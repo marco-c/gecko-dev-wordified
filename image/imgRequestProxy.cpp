@@ -3978,7 +3978,7 @@ listener
 mListener
 )
 ;
-mListener
+listener
 -
 >
 Notify
@@ -4123,12 +4123,12 @@ nsCOMPtr
 <
 imgINotificationObserver
 >
-kungFuDeathGrip
+listener
 (
 mListener
 )
 ;
-mListener
+listener
 -
 >
 Notify

@@ -2458,12 +2458,6 @@ nsIChannel
 >
 channel
 ;
-nsCOMPtr
-<
-nsIRequest
->
-request
-;
 /
 /
 Null

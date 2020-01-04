@@ -482,12 +482,6 @@ Length
 )
 )
 {
-nsCOMPtr
-<
-nsIURI
->
-skinBaseURI
-;
 nsresult
 rv
 =

@@ -10229,12 +10229,6 @@ n
 =
 0
 ;
-nsCOMPtr
-<
-nsISizeOf
->
-sizeOf
-;
 n
 +
 =
