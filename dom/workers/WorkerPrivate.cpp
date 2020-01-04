@@ -6854,7 +6854,6 @@ aWorkerPrivate
 >
 UpdatePreferenceInternal
 (
-aCx
 mPref
 mValue
 )
@@ -6923,7 +6922,6 @@ aWorkerPrivate
 >
 UpdateLanguagesInternal
 (
-aCx
 mLanguages
 )
 ;
@@ -7272,7 +7270,6 @@ aWorkerPrivate
 >
 CycleCollectInternal
 (
-aCx
 mCollectChildren
 )
 ;
@@ -7326,7 +7323,6 @@ aWorkerPrivate
 >
 OfflineStatusChangeEventInternal
 (
-aCx
 mIsOffline
 )
 ;
@@ -14258,9 +14254,6 @@ Derived
 :
 UpdateRuntimeOptions
 (
-JSContext
-*
-aCx
 const
 JS
 :
@@ -14343,9 +14336,6 @@ Derived
 :
 UpdatePreference
 (
-JSContext
-*
-aCx
 WorkerPreference
 aPref
 bool
@@ -14424,9 +14414,6 @@ Derived
 :
 UpdateLanguages
 (
-JSContext
-*
-aCx
 const
 nsTArray
 <
@@ -14494,9 +14481,6 @@ Derived
 :
 UpdateJSWorkerMemoryParameter
 (
-JSContext
-*
-aCx
 JSGCParamKey
 aKey
 uint32_t
@@ -14594,9 +14578,6 @@ Derived
 :
 UpdateGCZeal
 (
-JSContext
-*
-aCx
 uint8_t
 aGCZeal
 uint32_t
@@ -14684,9 +14665,6 @@ Derived
 :
 GarbageCollect
 (
-JSContext
-*
-aCx
 bool
 aShrinking
 )
@@ -14755,9 +14733,6 @@ Derived
 :
 CycleCollect
 (
-JSContext
-*
-aCx
 bool
 aDummy
 )
@@ -14825,9 +14800,6 @@ Derived
 :
 OfflineStatusChangeEvent
 (
-JSContext
-*
-aCx
 bool
 aIsOffline
 )
@@ -14884,9 +14856,6 @@ WorkerPrivate
 :
 OfflineStatusChangeEventInternal
 (
-JSContext
-*
-aCx
 bool
 aIsOffline
 )
@@ -14952,7 +14921,6 @@ index
 >
 OfflineStatusChangeEvent
 (
-aCx
 aIsOffline
 )
 ;
@@ -15084,9 +15052,6 @@ Derived
 :
 RegisterSharedWorker
 (
-JSContext
-*
-aCx
 SharedWorker
 *
 aSharedWorker
@@ -30877,7 +30842,6 @@ index
 >
 UpdateRuntimeOptions
 (
-aCx
 aRuntimeOptions
 )
 ;
@@ -30889,9 +30853,6 @@ WorkerPrivate
 :
 UpdateLanguagesInternal
 (
-JSContext
-*
-aCx
 const
 nsTArray
 <
@@ -30970,7 +30931,6 @@ index
 >
 UpdateLanguages
 (
-aCx
 aLanguages
 )
 ;
@@ -30982,9 +30942,6 @@ WorkerPrivate
 :
 UpdatePreferenceInternal
 (
-JSContext
-*
-aCx
 WorkerPreference
 aPref
 bool
@@ -31043,7 +31000,6 @@ index
 >
 UpdatePreference
 (
-aCx
 aPref
 aValue
 )
@@ -31167,7 +31123,6 @@ index
 >
 UpdateJSWorkerMemoryParameter
 (
-aCx
 aKey
 aValue
 )
@@ -31231,7 +31186,6 @@ index
 >
 UpdateGCZeal
 (
-aCx
 aGCZeal
 aFrequency
 )
@@ -31458,7 +31412,6 @@ index
 >
 GarbageCollect
 (
-aCx
 aShrinking
 )
 ;
@@ -31471,9 +31424,6 @@ WorkerPrivate
 :
 CycleCollectInternal
 (
-JSContext
-*
-aCx
 bool
 aCollectChildren
 )
@@ -31520,7 +31470,6 @@ index
 >
 CycleCollect
 (
-aCx
 /
 *
 dummy
