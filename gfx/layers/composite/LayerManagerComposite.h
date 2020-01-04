@@ -3512,12 +3512,7 @@ TODO
 Use
 RenderTargetIntRect
 and
-TransformTo
-<
-.
-.
-.
->
+TransformBy
 here
 gfx
 :

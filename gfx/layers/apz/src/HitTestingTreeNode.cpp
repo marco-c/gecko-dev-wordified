@@ -1131,10 +1131,7 @@ GetCurrentAsyncTransformWithOverscroll
 ;
 }
 return
-UntransformTo
-<
-LayerPixel
->
+UntransformBy
 (
 ViewAs
 <

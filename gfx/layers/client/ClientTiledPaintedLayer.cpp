@@ -420,10 +420,7 @@ aClip
 )
 {
 return
-UntransformTo
-<
-LayerPixel
->
+UntransformBy
 (
 aTransform
 aParentLayerRect

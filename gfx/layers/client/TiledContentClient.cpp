@@ -9390,10 +9390,7 @@ aAPZTransform
 )
 ;
 return
-UntransformTo
-<
-LayerPixel
->
+UntransformBy
 (
 transform
 .
