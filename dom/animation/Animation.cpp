@@ -7468,6 +7468,13 @@ UpdateRelevance
 (
 )
 ;
+mEffect
+-
+>
+NotifyAnimationTimingUpdated
+(
+)
+;
 }
 }
 void
