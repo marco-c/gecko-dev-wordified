@@ -333,6 +333,13 @@ KeyPurposeId
 requiredEKUIfPresent
 )
 ;
+Result
+CheckIssuer
+(
+Input
+encodedIssuer
+)
+;
 /
 /
 ParseValidity

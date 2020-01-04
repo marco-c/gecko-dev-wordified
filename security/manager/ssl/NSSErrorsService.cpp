@@ -756,6 +756,15 @@ mozilla
 pkix
 :
 :
+MOZILLA_PKIX_ERROR_EMPTY_ISSUER_NAME
+:
+case
+mozilla
+:
+:
+pkix
+:
+:
 MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 :
 case
