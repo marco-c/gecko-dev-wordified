@@ -3020,6 +3020,8 @@ if
 (
 !
 props
+.
+length
 )
 {
 props
