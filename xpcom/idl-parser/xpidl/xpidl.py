@@ -5282,6 +5282,10 @@ nostdcall
 =
 False
     
+must_use
+=
+False
+    
 binaryname
 =
 None
@@ -5670,6 +5674,21 @@ nostdcall
 self
 .
 nostdcall
+=
+True
+                
+elif
+name
+=
+=
+'
+must_use
+'
+:
+                    
+self
+.
+must_use
 =
 True
                 
@@ -6089,6 +6108,10 @@ nostdcall
 =
 False
     
+must_use
+=
+False
+    
 optional_argc
 =
 False
@@ -6303,6 +6326,21 @@ nostdcall
 self
 .
 nostdcall
+=
+True
+            
+elif
+name
+=
+=
+'
+must_use
+'
+:
+                
+self
+.
+must_use
 =
 True
             

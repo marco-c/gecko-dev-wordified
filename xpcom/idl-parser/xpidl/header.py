@@ -316,14 +316,13 @@ NS_IMETHODIMP
 "
     
 if
-(
 a
 .
 nostdcall
-)
 :
         
-return
+ret
+=
 macro
 =
 =
@@ -343,8 +342,26 @@ nsresult
 else
 :
         
-return
+ret
+=
 macro
+    
+if
+a
+.
+must_use
+:
+        
+ret
+=
+"
+MOZ_MUST_USE
+"
++
+ret
+    
+return
+ret
 def
 attributeParamlist
 (
@@ -563,7 +580,8 @@ m
 notxpcom
 :
         
-return
+ret
+=
 "
 %
 s
@@ -585,7 +603,7 @@ virtual
 or
 "
 "
-                         
+                        
 m
 .
 realtype
@@ -608,7 +626,8 @@ m
 nostdcall
 :
         
-return
+ret
+=
 "
 %
 snsresult
@@ -636,7 +655,8 @@ m
 notxpcom
 :
         
-return
+ret
+=
 "
 %
 s_
@@ -667,8 +687,26 @@ strip
 else
 :
         
-return
+ret
+=
 macro
+    
+if
+m
+.
+must_use
+:
+        
+ret
+=
+"
+MOZ_MUST_USE
+"
++
+ret
+    
+return
+ret
 def
 methodAsNative
 (
