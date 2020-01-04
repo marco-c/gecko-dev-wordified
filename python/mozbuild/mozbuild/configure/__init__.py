@@ -291,7 +291,7 @@ processing
 The
 sandbox
 has
-9
+8
 primitives
 :
     
@@ -306,9 +306,6 @@ template
     
 -
 imports
-    
--
-advanced
     
 -
 include
@@ -334,9 +331,8 @@ functions
 .
 depends
 template
-imports
 and
-advanced
+imports
 are
 decorators
 .
@@ -3050,10 +3046,9 @@ path
 as
 well
 as
-advanced
-        
 depends
 and
+        
 option
 .
         
@@ -3327,71 +3322,6 @@ wrapper
         
 return
 wrapper
-    
-def
-advanced_impl
-(
-self
-func
-)
-:
-        
-'
-'
-'
-Implementation
-of
-advanced
-.
-        
-This
-function
-gives
-the
-decorated
-function
-access
-to
-the
-complete
-set
-        
-of
-builtins
-allowing
-the
-import
-keyword
-as
-an
-expected
-side
-effect
-.
-        
-'
-'
-'
-        
-return
-self
-.
-imports_impl
-(
-_import
-=
-'
-__builtin__
-'
-_as
-=
-'
-__builtins__
-'
-)
-(
-func
-)
     
 RE_MODULE
 =
@@ -5080,9 +5010,8 @@ ground
         
 for
 depends
-template
 and
-advanced
+template
 .
         
 '
