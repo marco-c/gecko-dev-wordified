@@ -2120,14 +2120,7 @@ void
 aThis
 void
 *
-/
-*
-aInputBuffer
-*
-/
-void
-*
-aOutputBuffer
+aBuffer
 long
 aFrames
 )
@@ -2145,7 +2138,7 @@ aThis
 >
 DataCallback
 (
-aOutputBuffer
+aBuffer
 aFrames
 )
 ;
