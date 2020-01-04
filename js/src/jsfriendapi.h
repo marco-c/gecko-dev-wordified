@@ -9023,7 +9023,7 @@ memory
 )
 .
 bool
-populateUncaughtExceptionReport
+populateUncaughtExceptionReportUTF8
 (
 JSContext
 *
@@ -9034,7 +9034,7 @@ cx
 )
 ;
 bool
-populateUncaughtExceptionReportVA
+populateUncaughtExceptionReportUTF8VA
 (
 JSContext
 *

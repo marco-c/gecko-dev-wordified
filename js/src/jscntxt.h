@@ -3480,6 +3480,7 @@ ErrorArgumentsType
 ArgumentsAreUnicode
 ArgumentsAreASCII
 ArgumentsAreLatin1
+ArgumentsAreUTF8
 }
 ;
 /
@@ -3547,6 +3548,8 @@ const
 char
 *
 format
+ErrorArgumentsType
+argumentsType
 va_list
 ap
 )

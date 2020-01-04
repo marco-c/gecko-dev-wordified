@@ -5550,7 +5550,7 @@ message_
 if
 (
 !
-populateUncaughtExceptionReport
+populateUncaughtExceptionReportUTF8
 (
 cx
 message_
@@ -5616,7 +5616,7 @@ bool
 ErrorReport
 :
 :
-populateUncaughtExceptionReport
+populateUncaughtExceptionReportUTF8
 (
 JSContext
 *
@@ -5638,7 +5638,7 @@ cx
 bool
 ok
 =
-populateUncaughtExceptionReportVA
+populateUncaughtExceptionReportUTF8VA
 (
 cx
 ap
@@ -5657,7 +5657,7 @@ bool
 ErrorReport
 :
 :
-populateUncaughtExceptionReportVA
+populateUncaughtExceptionReportUTF8VA
 (
 JSContext
 *
@@ -5849,7 +5849,7 @@ JSMSG_UNCAUGHT_EXCEPTION
 &
 ownedMessage
 nullptr
-ArgumentsAreASCII
+ArgumentsAreUTF8
 &
 ownedReport
 ap
