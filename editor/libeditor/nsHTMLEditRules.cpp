@@ -16053,7 +16053,7 @@ arrayOfNodes
 TrivialFunctor
 functor
 ;
-nsDOMSubtreeIterator
+DOMSubtreeIterator
 iter
 ;
 nsresult
@@ -40170,7 +40170,7 @@ range
 aArrayOfRanges
 )
 {
-nsDOMSubtreeIterator
+DOMSubtreeIterator
 iter
 ;
 res

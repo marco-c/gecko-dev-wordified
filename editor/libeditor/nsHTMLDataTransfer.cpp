@@ -13530,7 +13530,7 @@ nodes
 TrivialFunctor
 functor
 ;
-nsDOMSubtreeIterator
+DOMSubtreeIterator
 iter
 ;
 rv
