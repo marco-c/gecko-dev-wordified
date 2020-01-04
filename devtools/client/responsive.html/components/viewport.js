@@ -167,6 +167,18 @@ Types
 location
 .
 isRequired
+screenshot
+:
+PropTypes
+.
+shape
+(
+Types
+.
+screenshot
+)
+.
+isRequired
 viewport
 :
 PropTypes
@@ -281,6 +293,7 @@ let
 {
 devices
 location
+screenshot
 viewport
 }
 =
@@ -314,6 +327,7 @@ ResizableViewport
 {
 devices
 location
+screenshot
 viewport
 onChangeViewportDevice
 onResizeViewport
