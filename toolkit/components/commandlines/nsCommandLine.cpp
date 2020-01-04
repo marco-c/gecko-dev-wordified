@@ -371,7 +371,8 @@ char
 arg
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 resolveShortcutURL
 (
 nsIFile
@@ -1793,6 +1794,8 @@ for
 url
 files
 .
+rv
+=
 resolveShortcutURL
 (
 lf
@@ -1801,6 +1804,12 @@ url
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 !
 url
 .
@@ -1917,7 +1926,7 @@ warg
 )
 ;
 }
-void
+nsresult
 nsCommandLine
 :
 :
@@ -1956,6 +1965,7 @@ rv
 )
 )
 return
+rv
 ;
 nsCOMPtr
 <
@@ -1985,7 +1995,9 @@ rv
 )
 )
 return
+rv
 ;
+return
 uri
 -
 >
