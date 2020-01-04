@@ -273,6 +273,17 @@ override
 ;
 virtual
 bool
+RecvCallbackConnected
+(
+const
+UDPAddressInfo
+&
+aAddressInfo
+)
+override
+;
+virtual
+bool
 RecvCallbackClosed
 (
 )
