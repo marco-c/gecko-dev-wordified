@@ -130,7 +130,7 @@ mozilla
 namespace
 gfx
 {
-bool
+void
 SourceSurfaceRawData
 :
 :
@@ -170,9 +170,6 @@ aFormat
 mOwnData
 =
 aOwnData
-;
-return
-true
 ;
 }
 void

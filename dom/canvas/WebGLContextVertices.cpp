@@ -1945,6 +1945,11 @@ LOCAL_GL_VERTEX_ATTRIB_ARRAY_DIVISOR
 :
 if
 (
+IsWebGL2
+(
+)
+|
+|
 IsExtensionEnabled
 (
 WebGLExtensionID
@@ -1953,6 +1958,7 @@ WebGLExtensionID
 ANGLE_instanced_arrays
 )
 )
+{
 return
 JS
 :
@@ -1970,6 +1976,7 @@ index
 divisor
 )
 ;
+}
 break
 ;
 case

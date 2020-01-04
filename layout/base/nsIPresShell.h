@@ -7087,6 +7087,12 @@ RenderSelection
 virtual
 already_AddRefed
 <
+mozilla
+:
+:
+gfx
+:
+:
 SourceSurface
 >
 RenderNode
@@ -7269,6 +7275,12 @@ frames
 virtual
 already_AddRefed
 <
+mozilla
+:
+:
+gfx
+:
+:
 SourceSurface
 >
 RenderSelection
