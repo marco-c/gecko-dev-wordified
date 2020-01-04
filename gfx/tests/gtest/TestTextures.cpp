@@ -1711,10 +1711,6 @@ BackendType
 :
 :
 CAIRO
-LayersBackend
-:
-:
-LAYERS_NONE
 TextureFlags
 :
 :
