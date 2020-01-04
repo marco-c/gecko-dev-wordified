@@ -28428,6 +28428,14 @@ getOrCreateScript
 cx
 )
 ;
+if
+(
+!
+script
+)
+return
+false
+;
 }
 else
 {

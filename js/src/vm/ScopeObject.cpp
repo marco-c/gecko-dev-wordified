@@ -23186,7 +23186,7 @@ DumpStaticScopeChain
 script
 -
 >
-enclosingStaticScope
+staticScope
 (
 )
 )
