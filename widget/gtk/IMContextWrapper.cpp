@@ -5929,6 +5929,12 @@ IsComposing
 selectionChangeData
 .
 mOccurredDuringComposition
+&
+&
+!
+selectionChangeData
+.
+mCausedByComposition
 ;
 if
 (
