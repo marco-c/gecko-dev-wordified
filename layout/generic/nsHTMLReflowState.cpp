@@ -17287,7 +17287,6 @@ mStylePosition
 >
 ComputedAlignSelf
 (
-mStyleDisplay
 frame
 -
 >
@@ -17306,7 +17305,6 @@ mStylePosition
 >
 ComputedJustifySelf
 (
-mStyleDisplay
 frame
 -
 >
@@ -17322,10 +17320,18 @@ GetParent
 ;
 if
 (
+(
 inlineAxisAlignment
 !
 =
 NS_STYLE_ALIGN_STRETCH
+&
+&
+inlineAxisAlignment
+!
+=
+NS_STYLE_ALIGN_NORMAL
+)
 |
 |
 mStyleMargin
