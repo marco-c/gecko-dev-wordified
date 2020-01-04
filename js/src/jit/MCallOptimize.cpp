@@ -21568,6 +21568,9 @@ NewFloat32
 alloc
 (
 )
+JS
+:
+:
 GenericNaN
 (
 )
