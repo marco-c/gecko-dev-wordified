@@ -3086,7 +3086,7 @@ Record
 mRecords
 ;
 const
-nsAutoCString
+nsCString
 mNodeId
 ;
 const

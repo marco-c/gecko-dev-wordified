@@ -1384,7 +1384,7 @@ first
 frame
 here
 .
-nsAutoCString
+nsCString
 mFirstFrame
 ;
 /

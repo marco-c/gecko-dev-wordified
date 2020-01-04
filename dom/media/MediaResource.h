@@ -3541,7 +3541,7 @@ is
 safe
 .
 const
-nsAutoCString
+nsCString
 mContentType
 ;
 /
@@ -3555,7 +3555,7 @@ the
 channel
 resource
 .
-nsAutoCString
+nsCString
 mContentURL
 ;
 /

@@ -386,7 +386,7 @@ mEnabled
 TrackID
 mTrackId
 ;
-nsAutoCString
+nsCString
 mMimeType
 ;
 int64_t
@@ -1961,7 +1961,7 @@ mStreamSourceID
 public
 :
 const
-nsAutoCString
+nsCString
 &
 mMimeType
 ;

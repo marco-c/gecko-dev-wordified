@@ -1195,7 +1195,7 @@ to
 a
 NodeId
 .
-nsAutoCString
+nsCString
 mNodeId
 ;
 /

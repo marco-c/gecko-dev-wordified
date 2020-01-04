@@ -3489,7 +3489,7 @@ NS_IsMainThread
 )
 )
 {
-nsAutoString
+nsString
 msg
 (
 aMsg

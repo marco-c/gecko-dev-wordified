@@ -517,7 +517,7 @@ CALL_ON_GMP_THREAD
 (
 SendSetSessionId
 aCreateSessionToken
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
@@ -585,7 +585,7 @@ CALL_ON_GMP_THREAD
 SendRejectPromise
 aPromiseId
 aException
-nsAutoCString
+nsCString
 (
 aMessage
 aMessageLength
@@ -632,7 +632,7 @@ aMessageLength
 CALL_ON_GMP_THREAD
 (
 SendSessionMessage
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
@@ -664,7 +664,7 @@ aExpiryTime
 CALL_ON_GMP_THREAD
 (
 SendExpirationChange
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
@@ -690,7 +690,7 @@ aSessionIdLength
 CALL_ON_GMP_THREAD
 (
 SendSessionClosed
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
@@ -725,14 +725,14 @@ aMessageLength
 CALL_ON_GMP_THREAD
 (
 SendSessionError
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
 )
 aException
 aSystemCode
-nsAutoCString
+nsCString
 (
 aMessage
 aMessageLength
@@ -780,7 +780,7 @@ aKeyIdLength
 CALL_ON_GMP_THREAD
 (
 SendKeyStatusChanged
-nsAutoCString
+nsCString
 (
 aSessionId
 aSessionIdLength
