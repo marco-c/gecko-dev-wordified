@@ -1614,13 +1614,6 @@ cx
 (
 )
 ;
-jsapi
--
->
-TakeOwnershipOfErrorReporting
-(
-)
-;
 }
 /
 /

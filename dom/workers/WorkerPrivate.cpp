@@ -21666,12 +21666,6 @@ cx
 aCx
 )
 ;
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 EnableMemoryReporter
 (
 )

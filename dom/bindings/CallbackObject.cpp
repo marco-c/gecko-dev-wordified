@@ -1908,16 +1908,6 @@ MightThrowJSException
 (
 )
 ;
-MOZ_ASSERT
-(
-mAutoEntryScript
--
->
-OwnsErrorReporting
-(
-)
-)
-;
 if
 (
 needToDealWithException

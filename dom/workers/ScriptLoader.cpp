@@ -9177,12 +9177,6 @@ Init
 (
 )
 ;
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 WorkerGlobalScope
 *
 globalScope

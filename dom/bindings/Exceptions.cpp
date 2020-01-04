@@ -922,12 +922,6 @@ aWindow
 return
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 Throw
 (
 jsapi

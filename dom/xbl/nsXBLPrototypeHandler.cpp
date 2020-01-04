@@ -1758,12 +1758,6 @@ return
 NS_OK
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

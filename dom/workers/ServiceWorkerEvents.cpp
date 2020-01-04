@@ -5074,12 +5074,6 @@ return
 nullptr
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

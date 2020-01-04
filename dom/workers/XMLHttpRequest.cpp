@@ -5284,12 +5284,6 @@ MOZ_ASSERT
 ok
 )
 ;
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

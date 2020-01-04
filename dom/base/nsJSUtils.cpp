@@ -592,15 +592,6 @@ JSObject
 aFunctionObject
 )
 {
-MOZ_ASSERT
-(
-jsapi
-.
-OwnsErrorReporting
-(
-)
-)
-;
 JSContext
 *
 cx
