@@ -18509,7 +18509,7 @@ clone
 RegExpObject
 :
 :
-createNoStatics
+create
 (
 cx
 source

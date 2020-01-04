@@ -10747,7 +10747,7 @@ reobj
 RegExpObject
 :
 :
-createNoStatics
+create
 (
 context
 (

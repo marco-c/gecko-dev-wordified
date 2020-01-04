@@ -32805,7 +32805,7 @@ reobj
 RegExpObject
 :
 :
-createNoStatics
+create
 (
 cx
 chars
@@ -32865,7 +32865,7 @@ return
 RegExpObject
 :
 :
-createNoStatics
+create
 (
 cx
 chars
