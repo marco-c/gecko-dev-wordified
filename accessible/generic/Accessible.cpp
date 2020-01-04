@@ -807,11 +807,6 @@ mGenericTypes
 (
 0
 )
-mIndexOfEmbeddedChild
-(
--
-1
-)
 mRoleMapEntry
 (
 nullptr
@@ -822,6 +817,13 @@ mBits
 groupInfo
 =
 nullptr
+;
+mInt
+.
+mIndexOfEmbeddedChild
+=
+-
+1
 ;
 }
 Accessible
@@ -12771,6 +12773,8 @@ mIndexInParent
 -
 1
 ;
+mInt
+.
 mIndexOfEmbeddedChild
 =
 -
