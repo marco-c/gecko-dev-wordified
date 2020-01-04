@@ -630,6 +630,13 @@ cap
 )
 ;
 }
+mAdapter
+=
+aOther
+-
+>
+mAdapter
+;
 return
 NS_OK
 ;
@@ -1268,6 +1275,7 @@ ok
 =
 CallStartPlugin
 (
+mAdapter
 )
 ;
 if
@@ -5653,6 +5661,15 @@ EqualsLiteral
 widevinecdm
 "
 )
+)
+;
+mAdapter
+=
+NS_LITERAL_STRING
+(
+"
+widevine
+"
 )
 ;
 #
