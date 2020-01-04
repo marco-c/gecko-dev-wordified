@@ -3249,14 +3249,6 @@ popStatement
 (
 )
 ;
-MOZ_MUST_USE
-bool
-popStatement
-(
-JumpTarget
-breakTarget
-)
-;
 void
 pushStatement
 (
