@@ -3013,6 +3013,17 @@ not
 mozinfo
 .
 isMac
+and
+buildconfig
+.
+substs
+.
+get
+(
+'
+COMPILE_ENVIRONMENT
+'
+)
 :
             
 for
