@@ -10908,6 +10908,8 @@ char
 funcName
 bool
 respecifyTexture
+GLuint
+tex
 TexImageTarget
 target
 uint32_t

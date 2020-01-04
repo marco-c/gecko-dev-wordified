@@ -12215,6 +12215,7 @@ ZeroTextureData
 mContext
 funcName
 respecifyTexture
+mGLName
 target
 level
 dstUsage

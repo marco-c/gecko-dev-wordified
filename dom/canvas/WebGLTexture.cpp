@@ -3980,6 +3980,7 @@ ZeroTextureData
 mContext
 funcName
 respecifyTexture
+mGLName
 target
 level
 usage
