@@ -7028,6 +7028,15 @@ path
 /
 /
 GtkInfoBar
+/
+/
+TODO
+-
+Use
+WidgetCache
+for
+it
+?
 GtkWidget
 *
 infoBar
