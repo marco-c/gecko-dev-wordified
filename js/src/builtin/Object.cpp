@@ -4478,6 +4478,9 @@ desc
 )
 &
 &
+JS
+:
+:
 FromPropertyDescriptor
 (
 cx
