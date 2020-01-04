@@ -55,8 +55,6 @@ MPL
 .
 import
 traceback
-import
-types
 class
 InstallGeckoError
 (
@@ -553,8 +551,8 @@ visible
 def
 __init__
 (
-        
 self
+                 
 message
 =
 "
