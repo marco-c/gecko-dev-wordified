@@ -2109,17 +2109,6 @@ override
 ;
 virtual
 bool
-RecvPluginEvent
-(
-const
-WidgetPluginEvent
-&
-aEvent
-)
-override
-;
-virtual
-bool
 RecvCompositionEvent
 (
 const
