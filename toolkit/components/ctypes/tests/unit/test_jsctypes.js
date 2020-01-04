@@ -1885,7 +1885,7 @@ CType
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -1901,7 +1901,7 @@ CType
 (
 )
 }
-TypeError
+Error
 )
 ;
 /
@@ -1967,7 +1967,7 @@ prototype
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -1985,7 +1985,7 @@ prototype
 (
 )
 }
-TypeError
+Error
 )
 ;
 do_check_true
@@ -2343,7 +2343,7 @@ CData
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -2359,7 +2359,7 @@ CData
 (
 )
 }
-TypeError
+Error
 )
 ;
 /
