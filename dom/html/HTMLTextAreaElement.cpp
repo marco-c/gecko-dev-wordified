@@ -2138,7 +2138,7 @@ placeholder
 retval
 |
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 return
