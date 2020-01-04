@@ -316,9 +316,7 @@ const
 size_t
 STUB_DEFAULT_CHUNK_SIZE
 =
-4
-*
-1024
+4096
 ;
 public
 :
@@ -372,7 +370,7 @@ const
 size_t
 STUB_DEFAULT_CHUNK_SIZE
 =
-256
+4096
 ;
 public
 :
