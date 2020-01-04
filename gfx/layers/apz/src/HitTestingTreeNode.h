@@ -785,6 +785,12 @@ GetScrollSize
 )
 const
 ;
+bool
+IsScrollbarNode
+(
+)
+const
+;
 /
 *
 Convert
