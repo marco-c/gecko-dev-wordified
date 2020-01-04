@@ -6724,7 +6724,7 @@ parseTask
 script
 )
 ;
-assertSameCompartment
+releaseAssertSameCompartment
 (
 cx
 script
