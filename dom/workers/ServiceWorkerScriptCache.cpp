@@ -1633,15 +1633,12 @@ return
 }
 if
 (
-NS_WARN_IF
-(
 !
 mCC
 |
 |
 !
 mInCache
-)
 )
 {
 ComparisonFinished
