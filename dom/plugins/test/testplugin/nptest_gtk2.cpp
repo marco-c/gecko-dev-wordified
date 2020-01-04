@@ -2973,8 +2973,15 @@ pluginY
 pluginHeight
 ;
 }
-return
-NPTEST_INT32_ERROR
+MOZ_CRASH
+(
+"
+Unexpected
+RectEdge
+?
+!
+"
+)
 ;
 }
 #
