@@ -1546,17 +1546,6 @@ OnTaskQueue
 )
 )
 ;
-mDecoder
--
->
-GetReentrantMonitor
-(
-)
-.
-AssertNotCurrentThreadIn
-(
-)
-;
 DECODER_LOG
 (
 "
