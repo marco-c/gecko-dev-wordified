@@ -2057,6 +2057,12 @@ CanvasContextType
 WebGL2
 )
 {
+if
+(
+!
+mContextObserver
+)
+{
 mContextObserver
 =
 new
@@ -2065,6 +2071,7 @@ HTMLCanvasElementObserver
 this
 )
 ;
+}
 }
 ret
 -
@@ -4025,6 +4032,12 @@ GetCompositorBackendType
 renderer
 )
 ;
+if
+(
+!
+mContextObserver
+)
+{
 mContextObserver
 =
 new
@@ -4033,6 +4046,7 @@ HTMLCanvasElementObserver
 this
 )
 ;
+}
 }
 else
 {
