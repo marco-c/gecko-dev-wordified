@@ -1125,7 +1125,7 @@ mMoved
 false
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mMessageName
 )
@@ -1139,7 +1139,7 @@ InterruptFrame
 aOther
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aOther
 .
@@ -1188,11 +1188,10 @@ InterruptFrame
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT_IF
 (
+!
 mMessageName
-|
-|
 mMoved
 )
 ;
@@ -1596,7 +1595,7 @@ AssertWorkerThread
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mThat
@@ -3608,7 +3607,7 @@ is_sync
 )
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aMsg
 .
@@ -4032,7 +4031,7 @@ mTimedOutMessageSeqno
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aMsg
 .
@@ -4044,14 +4043,14 @@ transaction_id
 mCurrentTransaction
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 AwaitingSyncReply
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mRecvd
@@ -4215,9 +4214,7 @@ cannot
 be
 compressed
 .
-MOZ_RELEASE_ASSERT
-(
-!
+MOZ_ASSERT_IF
 (
 aMsg
 .
@@ -4233,9 +4230,6 @@ Message
 :
 :
 COMPRESSION_NONE
-)
-|
-|
 aMsg
 .
 priority
@@ -4364,7 +4358,7 @@ the
 newer
 message
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mPending
 .
@@ -4526,7 +4520,7 @@ compress
 =
 true
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 (
 *
@@ -6061,7 +6055,7 @@ mRecvd
 break
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mTimedOutMessageSeqno
@@ -6250,12 +6244,12 @@ false
 ;
 }
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRecvd
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRecvd
 -
@@ -6269,7 +6263,7 @@ reply
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mRecvd
@@ -6280,7 +6274,7 @@ is_reply_error
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRecvd
 -
@@ -6298,7 +6292,7 @@ type
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRecvd
 -
@@ -6311,7 +6305,7 @@ seqno
 seqno
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mRecvd
 -
@@ -8128,7 +8122,7 @@ re
 not
 blocked
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mCurrentTransaction
 =
@@ -8203,16 +8197,13 @@ transaction_id
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT_IF
 (
-!
 aMsg
 .
 is_sync
 (
 )
-|
-|
 id
 =
 =
@@ -8420,9 +8411,7 @@ no
 longer
 blocked
 .
-MOZ_RELEASE_ASSERT
-(
-!
+MOZ_ASSERT_IF
 (
 prio
 >
@@ -8433,9 +8422,6 @@ Message
 :
 :
 PRIORITY_NORMAL
-)
-|
-|
 NS_IsMainThread
 (
 )
@@ -8793,7 +8779,7 @@ AssertWorkerThread
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aMsg
@@ -9553,7 +9539,7 @@ error
 -
 mRemoteStackDepthGuess
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 call
 .
@@ -10214,7 +10200,7 @@ int32_t
 peer_id
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mPeerPidSet
@@ -10254,7 +10240,7 @@ AssertWorkerThread
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mPeerPidSet
 )
@@ -11350,7 +11336,7 @@ BlockScripts
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -12124,7 +12110,7 @@ GetTopmostMessageRoutingId
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 MessageLoop
 :
@@ -12300,7 +12286,7 @@ old
 /
 value
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mCurrentTransaction
 )
