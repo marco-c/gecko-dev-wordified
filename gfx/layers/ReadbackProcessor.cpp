@@ -940,7 +940,7 @@ a
 =
 1
 .
-0
+f
 "
 Color
 layer
@@ -1140,12 +1140,8 @@ aLayer
 >
 mBackgroundColor
 =
-gfxRGBA
+Color
 (
-0
-0
-0
-0
 )
 ;
 paintedLayer

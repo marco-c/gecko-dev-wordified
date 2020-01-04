@@ -1663,7 +1663,7 @@ colorLayer
 >
 SetColor
 (
-gfxRGBA
+Color
 (
 1
 .
@@ -1718,7 +1718,7 @@ colorLayer
 >
 SetColor
 (
-gfxRGBA
+Color
 (
 1
 .
@@ -1773,7 +1773,7 @@ colorLayer
 >
 SetColor
 (
-gfxRGBA
+Color
 (
 0
 .

@@ -19794,10 +19794,16 @@ colorLayer
 >
 SetColor
 (
+Color
+:
+:
+FromABGR
+(
 aData
 -
 >
 mSolidColor
+)
 )
 ;
 /

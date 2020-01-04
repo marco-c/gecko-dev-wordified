@@ -3923,7 +3923,7 @@ GetColor
 (
 )
 .
-Packed
+ToABGR
 (
 )
 ;

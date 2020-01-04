@@ -458,10 +458,7 @@ FillRectWithMask
 aDT
 aDeviceOffset
 snapped
-ToColor
-(
 mColor
-)
 DrawOptions
 (
 GetEffectiveOpacity
