@@ -8742,8 +8742,15 @@ return
 true
 ;
 }
+/
+*
 static
+*
+/
 bool
+js
+:
+:
 TypedArray_bufferGetter
 (
 JSContext
