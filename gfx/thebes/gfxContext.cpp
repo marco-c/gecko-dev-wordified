@@ -182,13 +182,6 @@ h
 #
 include
 "
-gfxTeeSurface
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h

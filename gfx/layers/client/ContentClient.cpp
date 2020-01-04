@@ -172,17 +172,6 @@ gfxPoint
 #
 include
 "
-gfxTeeSurface
-.
-h
-"
-/
-/
-for
-gfxTeeSurface
-#
-include
-"
 gfxUtils
 .
 h
