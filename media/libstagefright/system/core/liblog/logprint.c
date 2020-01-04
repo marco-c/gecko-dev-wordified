@@ -1418,11 +1418,6 @@ filterExpression
 )
 {
 size_t
-i
-=
-0
-;
-size_t
 tagNameLength
 ;
 android_LogPriority
@@ -4000,12 +3995,6 @@ timeBuf
 ]
 ;
 char
-headerBuf
-[
-128
-]
-;
-char
 prefixBuf
 [
 128
@@ -4801,9 +4790,6 @@ unreadable
 UNINDENTED_BLOCK_START
 size_t
 numLines
-;
-size_t
-i
 ;
 char
 *
