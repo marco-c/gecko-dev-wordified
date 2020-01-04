@@ -28748,6 +28748,11 @@ aWindowIsNew
 =
 true
 ;
+*
+aResult
+=
+NS_OK
+;
 /
 /
 The
