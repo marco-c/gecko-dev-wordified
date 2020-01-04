@@ -330,7 +330,9 @@ null
 )
 {
 throw
-Cr
+Components
+.
+results
 .
 NS_ERROR_NO_AGGREGATION
 ;
