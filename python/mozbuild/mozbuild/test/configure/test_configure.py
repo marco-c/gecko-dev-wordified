@@ -106,6 +106,12 @@ ConfigureError
     
 ConfigureSandbox
 )
+from
+mozbuild
+.
+util
+import
+exec_
 import
 mozpack
 .
@@ -2146,7 +2152,7 @@ ImportError
 )
 :
             
-exec
+exec_
 (
 textwrap
 .
@@ -2179,7 +2185,7 @@ sandbox
             
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2230,7 +2236,7 @@ foo
 sys
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2290,7 +2296,7 @@ os
 path
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2355,7 +2361,7 @@ os
 path
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2409,7 +2415,7 @@ foo
 __builtin__
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2497,7 +2503,7 @@ unlocks
 the
 sandbox
         
-exec
+exec_
 (
 textwrap
 .
@@ -2558,7 +2564,7 @@ foo
 sys
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -2609,7 +2615,7 @@ foo
 sandbox
 )
         
-exec
+exec_
 (
 textwrap
 .

@@ -85,6 +85,12 @@ ConfigureError
 ConfigureSandbox
 )
 from
+mozbuild
+.
+util
+import
+exec_
+from
 buildconfig
 import
 topsrcdir
@@ -403,7 +409,7 @@ configure
 )
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -650,7 +656,7 @@ is
 not
 altered
         
-exec
+exec_
 (
 textwrap
 .
@@ -890,7 +896,7 @@ n
 data
 )
         
-exec
+exec_
 (
 textwrap
 .
@@ -1282,7 +1288,7 @@ status
 try
 :
             
-exec
+exec_
 (
 command
 sandbox
