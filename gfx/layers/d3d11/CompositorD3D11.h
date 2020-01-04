@@ -1114,6 +1114,9 @@ mCurrentClip
 nsIntRegion
 mInvalidRegion
 ;
+bool
+mVerifyBuffersFailed
+;
 }
 ;
 }
