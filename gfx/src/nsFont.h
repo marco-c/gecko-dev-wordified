@@ -834,6 +834,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
+uint8_t
+aDecoration
 nscoord
 aSize
 )
@@ -860,6 +862,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
+uint8_t
+aDecoration
 nscoord
 aSize
 )
