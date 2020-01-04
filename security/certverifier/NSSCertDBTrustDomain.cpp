@@ -6431,6 +6431,8 @@ char
 dir
 bool
 readOnly
+bool
+loadPKCS11Modules
 )
 {
 /
@@ -6527,6 +6529,18 @@ flags
 |
 =
 NSS_INIT_READONLY
+;
+}
+if
+(
+!
+loadPKCS11Modules
+)
+{
+flags
+|
+=
+NSS_INIT_NOMODDB
 ;
 }
 return
