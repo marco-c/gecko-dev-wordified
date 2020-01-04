@@ -1379,7 +1379,7 @@ restoreTabContentStarted
 "
 {
 epoch
-didStartLoad
+isRemotenessUpdate
 }
 )
 ;
