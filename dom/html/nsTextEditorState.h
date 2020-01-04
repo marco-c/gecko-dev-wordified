@@ -2083,7 +2083,7 @@ mozilla
 :
 Maybe
 <
-nsCString
+nsString
 >
 mValue
 ;
