@@ -2333,7 +2333,7 @@ void
 imgRequest
 :
 :
-RequestDecode
+StartDecoding
 (
 )
 {
