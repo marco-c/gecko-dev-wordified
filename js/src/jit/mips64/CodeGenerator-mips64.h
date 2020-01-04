@@ -363,6 +363,14 @@ lir
 )
 ;
 void
+visitWasmLoadI64
+(
+LWasmLoadI64
+*
+lir
+)
+;
+void
 visitAsmSelectI64
 (
 LAsmSelectI64
