@@ -450,6 +450,14 @@ action
 .
 inverted
 ;
+snapshot
+.
+filter
+=
+action
+.
+filter
+;
 return
 [
 .
