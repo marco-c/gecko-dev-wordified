@@ -386,8 +386,10 @@ const
 LayoutDeviceIntRect
 &
 aRect
-SurfaceInitMode
-aInit
+const
+LayoutDeviceIntRect
+&
+aClearRect
 BufferMode
 aBufferMode
 )
@@ -556,8 +558,10 @@ gfx
 Rect
 &
 aRenderBounds
-bool
-aOpaque
+const
+nsIntRegion
+&
+aOpaqueRegion
 gfx
 :
 :

@@ -2082,6 +2082,10 @@ const
 nsIntRegion
 &
 aInvalidRegion
+const
+nsIntRegion
+&
+aOpaqueRegion
 )
 ;
 #
