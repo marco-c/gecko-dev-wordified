@@ -3410,6 +3410,12 @@ xpcshell
 "
             
 "
+install
+"
+:
+False
+            
+"
 options
 "
 :
@@ -3576,6 +3582,12 @@ testsdir
 "
 cppunittest
 "
+            
+"
+install
+"
+:
+False
             
 "
 options
