@@ -539,7 +539,7 @@ putBytes
 size_t
 numBytes
 const
-uint8_t
+void
 *
 source
 )
@@ -630,8 +630,6 @@ Slice
 *
 tail
 ;
-public
-:
 bool
 m_oom
 ;
@@ -754,6 +752,8 @@ alignment
 )
 ;
 }
+protected
+:
 virtual
 Slice
 *
@@ -807,10 +807,12 @@ tmp
 Slice
 ;
 }
+public
+:
 bool
 ensureSpace
 (
-int
+size_t
 size
 )
 {
@@ -1013,10 +1015,6 @@ sizeof
 (
 value
 )
-(
-uint8_t
-*
-)
 &
 value
 )
@@ -1035,10 +1033,6 @@ putBytes
 sizeof
 (
 value
-)
-(
-uint8_t
-*
 )
 &
 value
@@ -1059,10 +1053,6 @@ sizeof
 (
 value
 )
-(
-uint8_t
-*
-)
 &
 value
 )
@@ -1071,7 +1061,7 @@ value
 /
 /
 Add
-instSize
+numBytes
 bytes
 to
 this
@@ -1091,9 +1081,10 @@ slice
 BufferOffset
 putBytes
 (
-uint32_t
-instSize
-uint8_t
+size_t
+numBytes
+const
+void
 *
 inst
 )
@@ -1103,7 +1094,7 @@ if
 !
 ensureSpace
 (
-instSize
+numBytes
 )
 )
 return
@@ -1123,7 +1114,7 @@ tail
 >
 putBytes
 (
-instSize
+numBytes
 inst
 )
 ;
@@ -1173,7 +1164,7 @@ putBytesLarge
 size_t
 numBytes
 const
-uint8_t
+void
 *
 data
 )
@@ -1258,8 +1249,14 @@ data
 )
 ;
 data
-+
 =
+(
+const
+uint8_t
+*
+)
+data
++
 xfer
 ;
 numBytes
@@ -1346,6 +1343,8 @@ return
 false
 ;
 }
+private
+:
 void
 update_finger
 (
@@ -1365,8 +1364,6 @@ finger_offset
 fingerOffset_
 ;
 }
-private
-:
 static
 const
 unsigned
