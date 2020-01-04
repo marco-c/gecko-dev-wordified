@@ -2092,6 +2092,16 @@ errorDocLink
 title
 =
 errorDocURL
+.
+split
+(
+"
+?
+"
+)
+[
+0
+]
 ;
 errorDocLink
 .
