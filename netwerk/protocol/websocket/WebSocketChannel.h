@@ -309,7 +309,7 @@ class
 CallAcknowledge
 ;
 class
-WebSocketFrameService
+WebSocketEventService
 ;
 /
 /
@@ -1137,9 +1137,9 @@ kLingeringCloseThreshold
 ;
 RefPtr
 <
-WebSocketFrameService
+WebSocketEventService
 >
-mFrameService
+mService
 ;
 int32_t
 mMaxConcurrentConnections
