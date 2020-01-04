@@ -293,6 +293,10 @@ const
 nsString
 &
 aDisplayDirectory
+const
+nsString
+&
+aOkButtonLabel
 )
 override
 ;

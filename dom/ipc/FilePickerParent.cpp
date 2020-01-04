@@ -1537,6 +1537,10 @@ const
 nsString
 &
 aDisplayDirectory
+const
+nsString
+&
+aOkButtonLabel
 )
 {
 if
@@ -1632,6 +1636,14 @@ mFilePicker
 SetFilterIndex
 (
 aSelectedType
+)
+;
+mFilePicker
+-
+>
+SetOkButtonLabel
+(
+aOkButtonLabel
 )
 ;
 if
