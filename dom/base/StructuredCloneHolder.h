@@ -524,6 +524,13 @@ the
 transferring
 of
 objects
+and
+handling
+/
+/
+of
+cloning
+policy
 .
 bool
 Write
@@ -553,6 +560,11 @@ JS
 Value
 >
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+cloneDataPolicy
 )
 ;
 /
@@ -877,6 +889,11 @@ JS
 Value
 >
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+cloneDataPolicy
 ErrorResult
 &
 aRv

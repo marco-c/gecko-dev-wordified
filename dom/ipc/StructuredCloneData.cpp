@@ -512,6 +512,16 @@ Write
 aCx
 aValue
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+(
+)
+.
+denySharedArrayBuffer
+(
+)
 aRv
 )
 ;

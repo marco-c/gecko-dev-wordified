@@ -14181,6 +14181,12 @@ Write
 aCx
 aMessage
 transferable
+JS
+:
+:
+CloneDataPolicy
+(
+)
 aRv
 )
 ;
@@ -28049,6 +28055,12 @@ Write
 aCx
 aMessage
 transferable
+JS
+:
+:
+CloneDataPolicy
+(
+)
 aRv
 )
 ;
