@@ -271,8 +271,8 @@ test_sync_enabled
 /
 /
 Initialize
-unified
-complete
+autocomplete
+component
 .
 Cc
 [

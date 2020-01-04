@@ -7280,6 +7280,13 @@ pending
 )
 return
 ;
+if
+(
+this
+.
+_enableActions
+)
+{
 yield
 this
 .
@@ -7296,6 +7303,7 @@ pending
 )
 return
 ;
+}
 for
 (
 let
@@ -14776,6 +14784,13 @@ search
 this
 .
 _currentSearch
+;
+if
+(
+!
+search
+)
+return
 ;
 this
 .
