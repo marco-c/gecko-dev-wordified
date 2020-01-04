@@ -6030,7 +6030,7 @@ to
 update
 AliasAnalysis
 .
-MInstruction
+MDefinition
 *
 dep
 =

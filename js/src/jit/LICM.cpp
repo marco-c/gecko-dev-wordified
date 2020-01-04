@@ -985,7 +985,7 @@ loop
 .
 if
 (
-MInstruction
+MDefinition
 *
 dep
 =
