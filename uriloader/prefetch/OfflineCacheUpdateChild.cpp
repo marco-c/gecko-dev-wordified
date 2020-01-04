@@ -394,10 +394,8 @@ log
 /
 /
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gOfflineCacheUpdateLog
 ;
 #

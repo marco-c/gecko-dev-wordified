@@ -1777,16 +1777,6 @@ result
 ScopedLogging
 log
 ;
-mozilla
-:
-:
-LogModule
-:
-:
-Init
-(
-)
-;
 char
 *
 *

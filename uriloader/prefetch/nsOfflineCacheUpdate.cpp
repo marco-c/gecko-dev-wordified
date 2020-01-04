@@ -471,7 +471,8 @@ log
 /
 /
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gOfflineCacheUpdateLog
 ;
 #

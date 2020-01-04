@@ -169,9 +169,7 @@ enable
 logging
 (
 see
-mozilla
-/
-Logging
+prlog
 .
 h
 for
@@ -224,10 +222,8 @@ log
 /
 /
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gOfflineCacheUpdateLog
 ;
 #
