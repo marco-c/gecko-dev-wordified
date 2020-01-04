@@ -644,6 +644,9 @@ view
 is
 now
 selected
+"
++
+"
 when
 switching
 back
@@ -860,6 +863,9 @@ tree
 view
 can
 be
+"
++
+"
 selected
 again
 after
@@ -926,6 +932,9 @@ memory
 flamegraph
 view
 can
+"
++
+"
 be
 selected
 again

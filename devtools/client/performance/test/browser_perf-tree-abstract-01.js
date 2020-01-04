@@ -470,7 +470,6 @@ arrow
 ;
 let
 [
-_
 eventItem
 ]
 =
@@ -956,7 +955,6 @@ target
 )
 ;
 [
-_
 eventItem
 ]
 =
@@ -1051,7 +1049,6 @@ target
 )
 ;
 [
-_
 eventItem
 ]
 =

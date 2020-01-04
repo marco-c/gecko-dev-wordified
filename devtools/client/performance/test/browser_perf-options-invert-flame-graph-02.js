@@ -46,6 +46,7 @@ get
 rerendered
 when
 toggling
+*
 invert
 -
 flame

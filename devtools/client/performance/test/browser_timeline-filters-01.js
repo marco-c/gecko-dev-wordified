@@ -29,6 +29,13 @@ zero
 /
 /
 *
+eslint
+-
+disable
+*
+/
+/
+*
 *
 *
 Tests
@@ -1487,3 +1494,10 @@ menuitemCommandDispatched
 )
 ;
 }
+/
+*
+eslint
+-
+enable
+*
+/

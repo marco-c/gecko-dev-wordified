@@ -672,12 +672,6 @@ WaterfallView
 .
 _markersRoot
 ;
-markersRoot
-.
-recalculateBounds
-(
-)
-;
 /
 /
 Make
@@ -689,6 +683,12 @@ up
 to
 date
 .
+markersRoot
+.
+recalculateBounds
+(
+)
+;
 let
 parentWidthBefore
 =

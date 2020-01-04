@@ -256,12 +256,6 @@ startRecording
 panel
 )
 ;
-yield
-busyWait
-(
-100
-)
-;
 /
 /
 To
@@ -273,6 +267,12 @@ in
 the
 tree
 .
+yield
+busyWait
+(
+100
+)
+;
 yield
 stopRecording
 (

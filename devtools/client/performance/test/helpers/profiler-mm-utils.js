@@ -175,7 +175,7 @@ manager
 /
 exports
 .
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 =
 (
 gBrowser
@@ -215,7 +215,7 @@ manager
 /
 exports
 .
-PMM_clearFrameScripts
+pmmClearFrameScripts
 =
 (
 )
@@ -278,7 +278,7 @@ data
 /
 exports
 .
-PMM_uniqueMessage
+pmmUniqueMessage
 =
 function
 (
@@ -297,7 +297,7 @@ new
 Error
 (
 "
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 (
 )
 must
@@ -441,7 +441,7 @@ active
 /
 exports
 .
-PMM_isProfilerActive
+pmmIsProfilerActive
 =
 (
 )
@@ -451,7 +451,7 @@ PMM_isProfilerActive
 return
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 (
 "
 IsActive
@@ -473,7 +473,7 @@ module
 /
 exports
 .
-PMM_startProfiler
+pmmStartProfiler
 =
 Task
 .
@@ -496,7 +496,7 @@ isActive
 yield
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 (
 "
 IsActive
@@ -515,7 +515,7 @@ isActive
 return
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 (
 "
 StartProfiler
@@ -531,6 +531,9 @@ length
 )
 ;
 }
+return
+null
+;
 }
 )
 ;
@@ -547,7 +550,7 @@ module
 /
 exports
 .
-PMM_stopProfiler
+pmmStopProfiler
 =
 Task
 .
@@ -565,7 +568,7 @@ isActive
 yield
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 (
 "
 IsActive
@@ -583,7 +586,7 @@ isActive
 return
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 (
 "
 StopProfiler
@@ -591,6 +594,9 @@ StopProfiler
 )
 ;
 }
+return
+null
+;
 }
 )
 ;
@@ -610,7 +616,7 @@ module
 /
 exports
 .
-PMM_sendProfilerCommand
+pmmSendProfilerCommand
 =
 (
 method
@@ -625,7 +631,7 @@ args
 return
 exports
 .
-PMM_uniqueMessage
+pmmUniqueMessage
 (
 "
 devtools
@@ -665,7 +671,7 @@ result
 /
 exports
 .
-PMM_evalInDebuggee
+pmmEvalInDebuggee
 =
 (
 script
@@ -676,7 +682,7 @@ script
 return
 exports
 .
-PMM_uniqueMessage
+pmmUniqueMessage
 (
 "
 devtools
@@ -707,7 +713,7 @@ content
 /
 exports
 .
-PMM_consoleMethod
+pmmConsoleMethod
 =
 function
 (
@@ -822,7 +828,7 @@ args
 return
 exports
 .
-PMM_uniqueMessage
+pmmUniqueMessage
 (
 "
 devtools

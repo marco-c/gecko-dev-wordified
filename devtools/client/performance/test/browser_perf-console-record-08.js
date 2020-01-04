@@ -1378,6 +1378,10 @@ panel
 }
 )
 ;
+/
+/
+is
+console
 const
 C
 =
@@ -1386,7 +1390,7 @@ C
 /
 /
 is
-console
+recording
 const
 R
 =
@@ -1395,16 +1399,12 @@ R
 /
 /
 is
-recording
+selected
 const
 S
 =
 4
 ;
-/
-/
-is
-selected
 function
 testRecordings
 (

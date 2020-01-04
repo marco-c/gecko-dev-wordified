@@ -754,6 +754,9 @@ recording
 should
 not
 stop
+"
++
+"
 when
 calling
 console
@@ -786,6 +789,9 @@ recording
 should
 not
 stop
+"
++
+"
 when
 calling
 console
@@ -817,6 +823,9 @@ recent
 recording
 should
 stop
+"
++
+"
 when
 calling
 console
@@ -845,11 +854,6 @@ recording
 "
 )
 ;
-/
-*
-yield
-*
-/
 console
 .
 profileEnd
@@ -1349,11 +1353,6 @@ recordings
 "
 )
 ;
-/
-*
-yield
-*
-/
 console
 .
 profileEnd
@@ -1383,6 +1382,9 @@ and
 no
 pending
 recordings
+"
++
+"
 does
 not
 throw

@@ -29,6 +29,13 @@ zero
 /
 /
 *
+eslint
+-
+disable
+*
+/
+/
+*
 *
 *
 Tests
@@ -659,3 +666,10 @@ finish
 )
 ;
 }
+/
+*
+eslint
+-
+enable
+*
+/

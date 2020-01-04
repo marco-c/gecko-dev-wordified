@@ -172,7 +172,6 @@ let
 {
 EVENTS
 DetailsView
-WaterfallView
 JsCallTreeView
 }
 =

@@ -147,7 +147,6 @@ actions
 const
 {
 waitForRecordingStartedEvents
-waitForRecordingStoppedEvents
 }
 =
 require
