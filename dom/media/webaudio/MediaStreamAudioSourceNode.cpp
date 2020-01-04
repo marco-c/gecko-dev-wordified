@@ -1107,6 +1107,11 @@ SizeOfExcludingThis
 aMallocSizeOf
 )
 ;
+if
+(
+mInputPort
+)
+{
 amount
 +
 =
@@ -1118,6 +1123,7 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 return
 amount
 ;
