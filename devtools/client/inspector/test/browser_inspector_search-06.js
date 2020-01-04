@@ -655,11 +655,13 @@ contains
 "
 devtools
 -
+style
+-
+searchbox
+-
 no
 -
-search
--
-result
+match
 "
 )
 !
