@@ -15,10 +15,9 @@ baseline
 /
 /
 TODO
-i64
-load
-/
-store
+custom
+NaN
+payloads
 quit
 (
 )

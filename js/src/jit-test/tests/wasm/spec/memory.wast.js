@@ -12,15 +12,6 @@ also
 wasm
 -
 baseline
-/
-/
-TODO
-i64
-loads
-quit
-(
-)
-;
 var
 importedArgs
 =
