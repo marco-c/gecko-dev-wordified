@@ -2023,7 +2023,7 @@ filterLength
 mNext
 .
 template
-WriteRows
+WriteUnsafeComputedRow
 <
 uint32_t
 >
@@ -2038,12 +2038,6 @@ aRow
 uint32_t
 aLength
 )
--
->
-Maybe
-<
-WriteState
->
 {
 skia
 :
@@ -2088,15 +2082,6 @@ supports_sse2
 supports_mmi
 (
 )
-)
-;
-return
-Some
-(
-WriteState
-:
-:
-NEED_MORE_DATA
 )
 ;
 }
