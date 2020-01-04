@@ -7806,7 +7806,7 @@ rv
 aScriptURI
 -
 >
-GetSpec
+GetSpecIgnoringRef
 (
 spec
 )
