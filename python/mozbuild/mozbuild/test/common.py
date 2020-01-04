@@ -220,6 +220,23 @@ MOZ_FALSE
 :
 '
 '
+            
+'
+DLL_PREFIX
+'
+:
+'
+lib
+'
+            
+'
+DLL_SUFFIX
+'
+:
+'
+.
+so
+'
         
 }
 *
