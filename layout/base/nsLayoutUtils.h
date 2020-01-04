@@ -1025,8 +1025,13 @@ the
 critical
 display
 port
-;
 *
+relative
+to
+the
+scroll
+frame
+;
 otherwise
 it
 '
@@ -1035,9 +1040,10 @@ the
 same
 display
 port
+*
 returned
 by
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 )
 .
@@ -1045,7 +1051,7 @@ GetDisplayPort
 /
 static
 bool
-GetDisplayPortForVisibilityTesting
+GetDisplayPortRelativeToScrollFrameForVisibilityTesting
 (
 nsIContent
 *
@@ -1053,8 +1059,6 @@ aContent
 nsRect
 *
 aResult
-=
-nullptr
 )
 ;
 enum
