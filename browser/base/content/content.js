@@ -877,6 +877,15 @@ doc
 .
 mozDocumentURIIfNotForErrorPages
 ;
+docLocation
+=
+docLocation
+&
+&
+docLocation
+.
+spec
+;
 let
 charSet
 =
