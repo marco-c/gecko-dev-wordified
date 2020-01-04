@@ -344,7 +344,7 @@ mDecodeDone
 (
 false
 )
-mDataError
+mError
 (
 false
 )
@@ -1023,7 +1023,7 @@ FAILURE
 )
 )
 {
-PostDataError
+PostError
 (
 )
 ;
@@ -1122,7 +1122,7 @@ rv
 )
 )
 {
-PostDataError
+PostError
 (
 )
 ;
@@ -1149,7 +1149,7 @@ rv
 )
 )
 {
-PostDataError
+PostError
 (
 )
 ;
@@ -1185,7 +1185,7 @@ HasSize
 )
 )
 {
-PostDataError
+PostError
 (
 )
 ;
@@ -3124,11 +3124,11 @@ void
 Decoder
 :
 :
-PostDataError
+PostError
 (
 )
 {
-mDataError
+mError
 =
 true
 ;
