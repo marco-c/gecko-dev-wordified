@@ -898,7 +898,10 @@ TextRangeType
 :
 eRawClause
 *
-NS_TEXTRANGE_SELECTEDRAWTEXT
+TextRangeType
+:
+:
+eSelectedRawClause
 *
 NS_TEXTRANGE_CONVERTEDTEXT
 or

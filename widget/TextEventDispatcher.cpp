@@ -3881,7 +3881,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 :
 case
 TextRangeType

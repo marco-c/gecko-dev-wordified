@@ -10736,7 +10736,10 @@ the
 clause
 is
 *
-NS_TEXTRANGE_SELECTEDRAWTEXT
+TextRangeType
+:
+:
+eSelectedRawClause
 .
 *
 4

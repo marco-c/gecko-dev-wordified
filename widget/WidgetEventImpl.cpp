@@ -519,7 +519,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 :
 case
 TextRangeType
@@ -645,11 +645,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 :
 return
 "
-NS_TEXTRANGE_SELECTEDRAWTEXT
+TextRangeType
+:
+:
+eSelectedRawClause
 "
 ;
 case
