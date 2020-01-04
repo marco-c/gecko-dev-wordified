@@ -4644,6 +4644,16 @@ highlights
 "
 )
 ;
+public
+static
+final
+String
+DATE
+=
+"
+date
+"
+;
 }
 RobocopTarget
 public
