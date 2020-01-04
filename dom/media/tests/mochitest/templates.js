@@ -3339,7 +3339,7 @@ checkMsids
 ;
 }
 function
-PC_LOCAL_CHECK_STATS
+PC_LOCAL_CHECK_TRACK_STATS
 (
 test
 )
@@ -3354,7 +3354,7 @@ pcLocal
 ;
 }
 function
-PC_REMOTE_CHECK_STATS
+PC_REMOTE_CHECK_TRACK_STATS
 (
 test
 )
