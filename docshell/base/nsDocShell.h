@@ -6177,14 +6177,6 @@ uint32_t
 mPrivateBrowsingId
 ;
 nsString
-mPaymentRequestId
-;
-nsString
-GetInheritedPaymentRequestId
-(
-)
-;
-nsString
 mInterceptedDocumentId
 ;
 private
