@@ -1431,6 +1431,14 @@ ins
 )
 ;
 void
+visitAsmReinterpret
+(
+MAsmReinterpret
+*
+ins
+)
+;
+void
 visitStoreSlot
 (
 MStoreSlot

@@ -1459,6 +1459,11 @@ AsmSelect
 \
 _
 (
+AsmReinterpret
+)
+\
+_
+(
 NewDerivedTypedObject
 )
 \
