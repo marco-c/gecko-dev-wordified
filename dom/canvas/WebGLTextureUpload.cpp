@@ -8206,6 +8206,10 @@ mImmutable
 =
 true
 ;
+mImmutableLevelCount
+=
+levels
+;
 }
 /
 /
