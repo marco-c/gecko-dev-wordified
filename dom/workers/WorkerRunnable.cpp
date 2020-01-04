@@ -911,9 +911,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsICancelableRunnable
 )
-NS_INTERFACE_MAP_ENTRY
+NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
+nsIRunnable
 )
 /
 /
@@ -2382,7 +2383,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 WorkerRunnable
 :
 :
@@ -2672,7 +2673,7 @@ mSyncLoopTarget
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 StopSyncLoopRunnable
 :
 :
@@ -2905,7 +2906,7 @@ count
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 WorkerControlRunnable
 :
 :

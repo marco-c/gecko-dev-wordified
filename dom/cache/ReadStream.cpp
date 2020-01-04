@@ -882,7 +882,7 @@ stream
 is
 closed
 .
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
@@ -1135,7 +1135,7 @@ on
 the
 actor
 .
-NS_IMETHOD
+nsresult
 Cancel
 (
 )

@@ -890,7 +890,7 @@ return
 true
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
@@ -1764,7 +1764,7 @@ aWorkerPrivate
 )
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
@@ -5893,7 +5893,7 @@ aWorkerPrivate
 )
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )

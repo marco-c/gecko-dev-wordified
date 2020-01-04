@@ -395,7 +395,7 @@ Run
 )
 override
 ;
-NS_IMETHOD
+nsresult
 Cancel
 (
 )

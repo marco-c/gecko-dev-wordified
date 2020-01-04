@@ -1544,7 +1544,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
