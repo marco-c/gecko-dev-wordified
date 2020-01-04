@@ -287,6 +287,7 @@ READ_ONLY
 0
 READ_WRITE
 READ_WRITE_FLUSH
+CLEANUP
 VERSION_CHANGE
 /
 /
@@ -693,6 +694,12 @@ mMode
 =
 =
 READ_WRITE_FLUSH
+|
+|
+mMode
+=
+=
+CLEANUP
 |
 |
 mMode
