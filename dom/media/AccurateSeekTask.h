@@ -414,6 +414,12 @@ mDropAudioUntilNextDiscontinuity
 bool
 mDropVideoUntilNextDiscontinuity
 ;
+bool
+mDoneAudioSeeking
+;
+bool
+mDoneVideoSeeking
+;
 /
 /
 This
