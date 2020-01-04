@@ -10705,10 +10705,6 @@ const
 nsIFrame
 *
 aStartFrame
-const
-nsRect
-*
-aBounds
 )
 ;
 /
