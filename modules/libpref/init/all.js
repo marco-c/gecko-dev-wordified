@@ -14299,7 +14299,7 @@ options
 .
 mem
 .
-gc_per_compartment
+gc_per_zone
 "
 true
 )
