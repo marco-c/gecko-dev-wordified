@@ -2215,8 +2215,17 @@ service
 )
 ;
 #
-ifdef
+if
+defined
+(
 ANDROID
+)
+|
+|
+defined
+(
+MOZ_MULET
+)
 mProductSub
 .
 AssignLiteral
@@ -5320,7 +5329,7 @@ endif
 ANDROID
 #
 ifdef
-FXOS_SIMULATOR
+MOZ_MULET
 {
 /
 /
@@ -5399,7 +5408,7 @@ Mobile
 endif
 /
 /
-FXOS_SIMULATOR
+MOZ_MULET
 #
 if
 defined
