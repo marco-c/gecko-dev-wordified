@@ -381,6 +381,15 @@ true
 withMemory
 :
 false
+withFrames
+:
+false
+withGCEvents
+:
+false
+withDocLoadingEvents
+:
+false
 withAllocations
 :
 false
