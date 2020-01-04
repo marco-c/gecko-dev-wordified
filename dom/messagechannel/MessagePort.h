@@ -161,7 +161,7 @@ PostMessage
 #
 endif
 class
-nsIGlobalObject
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -227,9 +227,9 @@ MessagePort
 >
 Create
 (
-nsIGlobalObject
+nsISupports
 *
-aGlobal
+aSupport
 const
 nsID
 &
@@ -250,9 +250,9 @@ MessagePort
 >
 Create
 (
-nsIGlobalObject
+nsISupports
 *
-aGlobal
+aSupport
 const
 MessagePortIdentifier
 &
@@ -427,9 +427,9 @@ private
 explicit
 MessagePort
 (
-nsIGlobalObject
+nsISupports
 *
-aGlobal
+nsISupports
 )
 ;
 ~
