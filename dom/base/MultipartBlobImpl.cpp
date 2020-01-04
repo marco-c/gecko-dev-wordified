@@ -1921,7 +1921,7 @@ MOZ_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+ThreadsafeIsCallerChrome
 (
 )
 )
