@@ -10648,7 +10648,7 @@ GetMediaStream
 )
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 trackID
 MediaSegment
@@ -10672,7 +10672,7 @@ GetMediaStream
 )
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 trackID
 MediaSegment

@@ -910,7 +910,7 @@ track
 mStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 aTrackID
 aType
@@ -3756,7 +3756,7 @@ trackClone
 newStream
 -
 >
-CreateClonedDOMTrack
+CloneDOMTrack
 (
 track
 allocatedTrackID
@@ -4399,7 +4399,7 @@ InitPlaybackStreamCommon
 aGraph
 )
 ;
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 AUDIO_TRACK
 MediaSegment
@@ -5219,7 +5219,7 @@ MediaStreamTrack
 DOMMediaStream
 :
 :
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 TrackID
 aTrackID
@@ -5403,7 +5403,7 @@ MediaStreamTrack
 DOMMediaStream
 :
 :
-CreateClonedDOMTrack
+CloneDOMTrack
 (
 MediaStreamTrack
 &

@@ -1121,7 +1121,7 @@ return
 newStream
 -
 >
-CreateClonedDOMTrack
+CloneDOMTrack
 (
 *
 this

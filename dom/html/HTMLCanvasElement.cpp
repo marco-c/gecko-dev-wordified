@@ -3532,7 +3532,7 @@ NodePrincipal
 stream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 videoTrackId
 MediaSegment
