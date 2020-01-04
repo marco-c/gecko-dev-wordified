@@ -4731,6 +4731,14 @@ info
 GetInputPort
 (
 )
+&
+&
+info
+-
+>
+GetInputPort
+(
+)
 -
 >
 GetSource
