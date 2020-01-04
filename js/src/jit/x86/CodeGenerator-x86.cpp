@@ -3173,10 +3173,10 @@ which
 )
 =
 =
-MWasmCall
+wasm
 :
 :
-Callee
+CalleeDesc
 :
 :
 Builtin
