@@ -215,6 +215,7 @@ for
 querying
 this
 table
+public
 static
 final
 Uri
