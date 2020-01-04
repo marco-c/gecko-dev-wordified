@@ -345,6 +345,8 @@ detail
 of
 '
 inactive
+-
+pause
 '
 .
 let
@@ -407,6 +409,8 @@ detail
 =
 '
 inactive
+-
+pause
 '
 )
 {
@@ -421,6 +425,8 @@ expectedNextData
 =
 '
 inactive
+-
+pause
 '
 ;
 }
