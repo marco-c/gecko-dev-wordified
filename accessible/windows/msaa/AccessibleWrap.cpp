@@ -8840,7 +8840,7 @@ widget
 =
 nullptr
 ;
-nsIntRect
+LayoutDeviceIntRect
 caretRect
 =
 text

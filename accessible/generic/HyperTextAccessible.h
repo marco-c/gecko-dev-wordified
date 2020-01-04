@@ -2154,7 +2154,10 @@ caret
 rect
 *
 /
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 GetCaretRect
 (
 nsIWidget
