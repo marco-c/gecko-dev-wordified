@@ -46,10 +46,10 @@ file
 /
 #
 ifndef
-COMPILER_DEPGRAPH_DEPENDENCY_GRAPH_OUTPUT_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHOUTPUT_H_
 #
 define
-COMPILER_DEPGRAPH_DEPENDENCY_GRAPH_OUTPUT_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHOUTPUT_H_
 #
 include
 "
@@ -95,7 +95,6 @@ sink
 )
 {
 }
-virtual
 void
 visitSymbol
 (
@@ -103,8 +102,8 @@ TGraphSymbol
 *
 symbol
 )
+override
 ;
-virtual
 void
 visitArgument
 (
@@ -112,8 +111,8 @@ TGraphArgument
 *
 parameter
 )
+override
 ;
-virtual
 void
 visitFunctionCall
 (
@@ -121,8 +120,8 @@ TGraphFunctionCall
 *
 functionCall
 )
+override
 ;
-virtual
 void
 visitSelection
 (
@@ -130,8 +129,8 @@ TGraphSelection
 *
 selection
 )
+override
 ;
-virtual
 void
 visitLoop
 (
@@ -139,8 +138,8 @@ TGraphLoop
 *
 loop
 )
+override
 ;
-virtual
 void
 visitLogicalOp
 (
@@ -148,6 +147,7 @@ TGraphLogicalOp
 *
 logicalOp
 )
+override
 ;
 void
 outputAllSpanningTrees
@@ -174,4 +174,4 @@ mSink
 endif
 /
 /
-COMPILER_DEPGRAPH_DEPENDENCY_GRAPH_OUTPUT_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHOUTPUT_H_

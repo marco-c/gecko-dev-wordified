@@ -46,10 +46,10 @@ file
 /
 #
 ifndef
-COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCY_GRAPH_BUILDER_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHBUILDER_H_
 #
 define
-COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCY_GRAPH_BUILDER_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHBUILDER_H_
 #
 include
 "
@@ -631,6 +631,11 @@ set
 /
 class
 TNodeSetMaintainer
+:
+angle
+:
+:
+NonCopyable
 {
 public
 :
@@ -726,6 +731,11 @@ set
 /
 class
 TNodeSetPropagatingMaintainer
+:
+angle
+:
+:
+NonCopyable
 {
 public
 :
@@ -884,6 +894,11 @@ symbol
 /
 class
 TLeftmostSymbolMaintainer
+:
+angle
+:
+:
+NonCopyable
 {
 public
 :
@@ -1085,4 +1100,4 @@ mLeftmostSymbols
 endif
 /
 /
-COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCY_GRAPH_BUILDER_H
+COMPILER_TRANSLATOR_DEPGRAPH_DEPENDENCYGRAPHBUILDER_H_

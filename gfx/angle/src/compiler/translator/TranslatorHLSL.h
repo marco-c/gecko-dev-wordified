@@ -48,10 +48,10 @@ file
 /
 #
 ifndef
-COMPILER_TRANSLATORHLSL_H_
+COMPILER_TRANSLATOR_TRANSLATORHLSL_H_
 #
 define
-COMPILER_TRANSLATORHLSL_H_
+COMPILER_TRANSLATOR_TRANSLATORHLSL_H_
 #
 include
 "
@@ -158,6 +158,8 @@ translate
 TIntermNode
 *
 root
+int
+compileOptions
 )
 ;
 std
@@ -194,4 +196,4 @@ mUniformRegisterMap
 endif
 /
 /
-COMPILER_TRANSLATORHLSL_H_
+COMPILER_TRANSLATOR_TRANSLATORHLSL_H_

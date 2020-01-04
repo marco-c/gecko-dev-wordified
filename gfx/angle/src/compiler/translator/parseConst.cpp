@@ -89,7 +89,7 @@ public
 :
 TConstTraverser
 (
-ConstantUnion
+TConstantUnion
 *
 cUnion
 bool
@@ -104,6 +104,12 @@ TType
 t
 )
 :
+TIntermTraverser
+(
+true
+false
+false
+)
 error
 (
 false
@@ -226,7 +232,7 @@ TIntermBranch
 size_t
 mIndex
 ;
-ConstantUnion
+TConstantUnion
 *
 mUnionArray
 ;
@@ -1007,7 +1013,7 @@ size
 return
 ;
 }
-ConstantUnion
+TConstantUnion
 *
 leftUnionArray
 =
@@ -1060,7 +1066,8 @@ getObjectSize
 (
 )
 ;
-ConstantUnion
+const
+TConstantUnion
 *
 rightUnionArray
 =
@@ -1125,7 +1132,8 @@ mIndex
 +
 mSize
 ;
-ConstantUnion
+const
+TConstantUnion
 *
 rightUnionArray
 =
@@ -1457,7 +1465,7 @@ line
 TIntermNode
 *
 root
-ConstantUnion
+TConstantUnion
 *
 unionArray
 TOperator

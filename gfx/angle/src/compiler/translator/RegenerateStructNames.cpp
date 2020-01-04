@@ -49,11 +49,9 @@ file
 #
 include
 "
-compiler
+common
 /
-translator
-/
-RegenerateStructNames
+debug
 .
 h
 "
@@ -64,7 +62,7 @@ compiler
 /
 translator
 /
-compilerdebug
+RegenerateStructNames
 .
 h
 "

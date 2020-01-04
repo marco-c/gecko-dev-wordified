@@ -238,10 +238,10 @@ DAMAGE
 /
 #
 ifndef
-SystemInfo_h
+THIRD_PARTY_SYSTEMINFO_SYSTEMINFO_H_
 #
 define
-SystemInfo_h
+THIRD_PARTY_SYSTEMINFO_SYSTEMINFO_H_
 namespace
 rx
 {
@@ -259,4 +259,4 @@ rx
 endif
 /
 /
-SystemInfo_h
+THIRD_PARTY_SYSTEMINFO_SYSTEMINFO_H_

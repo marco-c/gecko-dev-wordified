@@ -46,10 +46,10 @@ file
 /
 #
 ifndef
-COMPILER_TIMING_RESTRICT_FRAGMENT_SHADER_TIMING_H_
+COMPILER_TRANSLATOR_TIMING_RESTRICTFRAGMENTSHADERTIMING_H_
 #
 define
-COMPILER_TIMING_RESTRICT_FRAGMENT_SHADER_TIMING_H_
+COMPILER_TRANSLATOR_TIMING_RESTRICTFRAGMENTSHADERTIMING_H_
 #
 include
 "
@@ -110,7 +110,6 @@ return
 mNumErrors
 ;
 }
-virtual
 void
 visitArgument
 (
@@ -118,8 +117,8 @@ TGraphArgument
 *
 parameter
 )
+override
 ;
-virtual
 void
 visitSelection
 (
@@ -127,8 +126,8 @@ TGraphSelection
 *
 selection
 )
+override
 ;
-virtual
 void
 visitLoop
 (
@@ -136,8 +135,8 @@ TGraphLoop
 *
 loop
 )
+override
 ;
-virtual
 void
 visitLogicalOp
 (
@@ -145,6 +144,7 @@ TGraphLogicalOp
 *
 logicalOp
 )
+override
 ;
 private
 :
@@ -202,4 +202,4 @@ mSamplingOps
 endif
 /
 /
-COMPILER_TIMING_RESTRICT_FRAGMENT_SHADER_TIMING_H_
+COMPILER_TRANSLATOR_TIMING_RESTRICTFRAGMENTSHADERTIMING_H_

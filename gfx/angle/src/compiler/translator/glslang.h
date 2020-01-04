@@ -44,7 +44,13 @@ file
 .
 /
 /
-struct
+#
+ifndef
+COMPILER_TRANSLATOR_GLSLANG_H_
+#
+define
+COMPILER_TRANSLATOR_GLSLANG_H_
+class
 TParseContext
 ;
 extern
@@ -97,3 +103,8 @@ TParseContext
 context
 )
 ;
+#
+endif
+/
+/
+COMPILER_TRANSLATOR_GLSLANG_H_

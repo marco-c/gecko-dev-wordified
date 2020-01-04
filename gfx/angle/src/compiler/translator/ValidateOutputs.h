@@ -45,6 +45,12 @@ file
 /
 /
 #
+ifndef
+COMPILER_TRANSLATOR_VALIDATEOUTPUTS_H_
+#
+define
+COMPILER_TRANSLATOR_VALIDATEOUTPUTS_H_
+#
 include
 "
 compiler
@@ -154,3 +160,8 @@ token
 ;
 }
 ;
+#
+endif
+/
+/
+COMPILER_TRANSLATOR_VALIDATEOUTPUTS_H_

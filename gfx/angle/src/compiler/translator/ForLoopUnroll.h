@@ -46,10 +46,10 @@ file
 /
 #
 ifndef
-COMPILER_FORLOOPUNROLL_H_
+COMPILER_TRANSLATOR_FORLOOPUNROLL_H_
 #
 define
-COMPILER_FORLOOPUNROLL_H_
+COMPILER_TRANSLATOR_FORLOOPUNROLL_H_
 #
 include
 "
@@ -159,6 +159,12 @@ UnrollCondition
 condition
 )
 :
+TIntermTraverser
+(
+true
+false
+false
+)
 mUnrollCondition
 (
 condition
@@ -230,3 +236,6 @@ mVisitSamplerArrayIndexNodeInsideLoop
 ;
 #
 endif
+/
+/
+COMPILER_TRANSLATOR_FORLOOPUNROLL_H_

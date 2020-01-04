@@ -46,10 +46,10 @@ file
 /
 #
 ifndef
-COMPILER_FLAGSTD140STRUCTS_H_
+COMPILER_TRANSLATOR_FLAGSTD140STRUCTS_H_
 #
 define
-COMPILER_FLAGSTD140STRUCTS_H_
+COMPILER_TRANSLATOR_FLAGSTD140STRUCTS_H_
 #
 include
 "
@@ -113,6 +113,18 @@ TIntermTraverser
 {
 public
 :
+FlagStd140Structs
+(
+)
+:
+TIntermTraverser
+(
+true
+false
+false
+)
+{
+}
 const
 std
 :
@@ -196,4 +208,4 @@ node
 endif
 /
 /
-COMPILER_FLAGSTD140STRUCTS_H_
+COMPILER_TRANSLATOR_FLAGSTD140STRUCTS_H_
