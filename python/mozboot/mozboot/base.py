@@ -1256,6 +1256,22 @@ groupinstall
 '
 ]
         
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+y
+'
+)
+        
 command
 .
 extend
