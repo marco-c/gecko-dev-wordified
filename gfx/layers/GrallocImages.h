@@ -350,7 +350,7 @@ class
 GrallocImage
 :
 public
-PlanarYCbCrImage
+RecyclingPlanarYCbCrImage
 {
 typedef
 PlanarYCbCrData
