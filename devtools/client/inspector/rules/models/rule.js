@@ -1376,6 +1376,7 @@ ind
 name
 value
 priority
+enabled
 )
 ;
 /
