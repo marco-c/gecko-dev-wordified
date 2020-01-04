@@ -59,7 +59,9 @@ messages
 )
 ;
 const
-stubConsoleMessages
+{
+stubPreparedMessages
+}
 =
 require
 (
@@ -125,7 +127,7 @@ values
 const
 message1
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -194,7 +196,7 @@ values
 const
 message1
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -270,7 +272,7 @@ severities
 const
 message1
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -339,7 +341,7 @@ distinctly
 const
 messageNaN
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -356,7 +358,7 @@ NaN
 const
 messageUnd
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -373,7 +375,7 @@ undefined
 const
 messageNul
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (

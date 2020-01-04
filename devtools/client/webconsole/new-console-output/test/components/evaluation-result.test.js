@@ -33,7 +33,9 @@ strict
 "
 ;
 const
-stubConsoleMessages
+{
+stubPreparedMessages
+}
 =
 require
 (
@@ -156,7 +158,7 @@ result
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (

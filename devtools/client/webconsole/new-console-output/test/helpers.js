@@ -156,7 +156,9 @@ generator
 )
 ;
 const
-stubConsoleMessages
+{
+stubPackets
+}
 =
 require
 (
@@ -339,7 +341,7 @@ actions
 .
 messageAdd
 (
-stubConsoleMessages
+stubPackets
 .
 get
 (
