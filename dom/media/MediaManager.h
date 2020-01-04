@@ -418,6 +418,15 @@ nsAString
 aID
 )
 ;
+void
+SetRawId
+(
+const
+nsAString
+&
+aID
+)
+;
 virtual
 uint32_t
 GetBestFitnessDistance
@@ -566,6 +575,9 @@ mName
 ;
 nsString
 mID
+;
+nsString
+mRawID
 ;
 dom
 :
