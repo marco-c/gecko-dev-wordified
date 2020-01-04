@@ -102,7 +102,7 @@ PlaceholderTransaction_h
 #
 include
 "
-EditAggregateTxn
+EditAggregateTransaction
 .
 h
 "
@@ -218,7 +218,7 @@ PlaceholderTransaction
 final
 :
 public
-EditAggregateTxn
+EditAggregateTransaction
 public
 nsIAbsorbingTransaction
 public
@@ -234,7 +234,7 @@ PlaceholderTransaction
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 PlaceholderTransaction
-EditAggregateTxn
+EditAggregateTransaction
 )
 /
 /
@@ -250,7 +250,7 @@ EditAggregateTxn
 -
 -
 -
-EditAggregateTxn
+EditAggregateTransaction
 -
 -
 -
