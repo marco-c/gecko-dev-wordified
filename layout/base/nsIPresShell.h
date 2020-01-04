@@ -5342,8 +5342,8 @@ GetCurrentSelection
 mozilla
 :
 :
-RawSelectionType
-aType
+SelectionType
+aSelectionType
 )
 =
 0

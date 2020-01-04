@@ -386,7 +386,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -426,7 +426,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK
@@ -567,7 +567,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -605,7 +605,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK
@@ -666,7 +666,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -704,7 +704,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK
@@ -766,7 +766,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -806,7 +806,7 @@ frameSel
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK
@@ -1436,7 +1436,7 @@ GetType
 )
 =
 =
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -1484,7 +1484,7 @@ GetType
 )
 =
 =
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK

@@ -979,7 +979,7 @@ frameSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
