@@ -1861,6 +1861,16 @@ char
 aUnionName
 )
 ;
+MOZ_NEVER_INLINE
+void
+ArrayLengthReadError
+(
+const
+char
+*
+aElementName
+)
+;
 struct
 PrivateIPDLInterface
 {
