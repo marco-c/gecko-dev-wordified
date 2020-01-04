@@ -6411,6 +6411,7 @@ location
 >
 GetLineNumber
 (
+cx
 &
 lineNumber
 )

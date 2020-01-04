@@ -1465,6 +1465,7 @@ frame
 >
 GetLineNumber
 (
+cx
 &
 lineNumber
 )
