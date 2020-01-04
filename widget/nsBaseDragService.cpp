@@ -3748,7 +3748,7 @@ screenRect
 rootFrame
 -
 >
-GetScreenRectExternal
+GetScreenRect
 (
 )
 ;
@@ -3841,7 +3841,7 @@ screenRect
 frame
 -
 >
-GetScreenRectExternal
+GetScreenRect
 (
 )
 ;

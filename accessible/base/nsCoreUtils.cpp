@@ -863,7 +863,7 @@ rootWidget
 rootFrame
 -
 >
-GetViewExternal
+GetView
 (
 )
 -
