@@ -245,9 +245,6 @@ devtools
 BuiltinProvider
 "
 "
-SrcdirProvider
-"
-"
 require
 "
 "

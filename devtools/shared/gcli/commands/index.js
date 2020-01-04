@@ -604,17 +604,6 @@ commands
 /
 security
 "
-"
-devtools
-/
-shared
-/
-gcli
-/
-commands
-/
-tools
-"
 ]
 ;
 /
