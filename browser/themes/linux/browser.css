@@ -15676,13 +15676,7 @@ menuitem
 -
 iconic
 [
-command
-=
-"
-Browser
-:
-NewUserContextTab
-"
+usercontextid
 ]
 >
 .
