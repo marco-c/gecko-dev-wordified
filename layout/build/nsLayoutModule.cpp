@@ -3627,7 +3627,7 @@ ACCESSIBILITY
 #
 include
 "
-nsAccessibilityService
+xpcAccessibilityService
 .
 h
 "

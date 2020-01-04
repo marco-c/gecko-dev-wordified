@@ -1203,7 +1203,7 @@ ACCESSIBILITY
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
@@ -12172,16 +12172,7 @@ chrome
 /
 process
 .
-nsCOMPtr
-<
-nsIAccessibilityService
->
-accService
-=
-services
-:
-:
-GetAccessibilityService
+GetOrCreateAccService
 (
 )
 ;
