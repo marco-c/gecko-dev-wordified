@@ -270,7 +270,7 @@ s
 just
 continue
 .
-return
+continue
 ;
 }
 if
