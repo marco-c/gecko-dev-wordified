@@ -344,9 +344,6 @@ mInnerWindowID
 bool
 mIsRegToService
 ;
-bool
-mNotifyPlayback
-;
 }
 ;
 }
