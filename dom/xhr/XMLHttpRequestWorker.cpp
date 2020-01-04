@@ -7454,16 +7454,9 @@ if
 (
 NS_FAILED
 (
-mWorkerPrivate
--
->
-DispatchToMainThread
+NS_DispatchToMainThread
 (
 runnable
-.
-forget
-(
-)
 )
 )
 )
