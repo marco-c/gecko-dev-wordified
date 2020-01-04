@@ -717,7 +717,7 @@ RefPtr
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 >
 mVRHMDDevice
 ;

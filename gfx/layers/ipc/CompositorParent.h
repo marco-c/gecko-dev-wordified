@@ -801,6 +801,13 @@ aVsyncTimestamp
 )
 ;
 void
+DispatchVREvents
+(
+TimeStamp
+aVsyncTimestamp
+)
+;
+void
 CancelCurrentSetNeedsCompositeTask
 (
 )
@@ -1670,9 +1677,10 @@ is
 used
 by
 CompositorParent
-and
 ImageBridgeParent
-.
+*
+and
+VRManagerParent
 *
 /
 static

@@ -614,17 +614,6 @@ Rule
 namespace
 css
 namespace
-gfx
-{
-class
-VRHMDInfo
-;
-}
-/
-/
-namespace
-gfx
-namespace
 dom
 {
 class

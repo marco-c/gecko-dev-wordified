@@ -63618,7 +63618,7 @@ NS_OK
 }
 static
 void
-ReleaseHMDInfoRef
+ReleaseVRDeviceProxyRef
 (
 void
 *
@@ -63641,7 +63641,7 @@ static_cast
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 *
 >
 (
@@ -65606,7 +65606,7 @@ RefPtr
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 >
 hmdRef
 =
@@ -65632,7 +65632,7 @@ forget
 take
 (
 )
-ReleaseHMDInfoRef
+ReleaseVRDeviceProxyRef
 true
 )
 ;

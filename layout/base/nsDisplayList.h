@@ -337,7 +337,7 @@ namespace
 gfx
 {
 class
-VRHMDInfo
+VRDeviceProxy
 ;
 }
 /
@@ -27034,7 +27034,7 @@ mozilla
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 *
 aHMD
 )
@@ -27093,7 +27093,7 @@ mozilla
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 >
 mHMD
 ;
