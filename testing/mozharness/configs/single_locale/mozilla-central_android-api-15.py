@@ -70,17 +70,6 @@ config
 =
 {
     
-#
-XXX
-For
-Try
-    
-"
-update_gecko_source_to_enUS
-"
-:
-False
-    
 "
 branch
 "
