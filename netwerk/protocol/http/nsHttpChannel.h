@@ -1530,7 +1530,13 @@ ProcessResponse
 )
 ;
 nsresult
-ContinueProcessResponse
+ContinueProcessResponse1
+(
+nsresult
+)
+;
+nsresult
+ContinueProcessResponse2
 (
 nsresult
 )
