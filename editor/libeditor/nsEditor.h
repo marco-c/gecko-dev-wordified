@@ -2358,9 +2358,9 @@ EnsureComposition
 mozilla
 :
 :
-WidgetGUIEvent
+WidgetCompositionEvent
 *
-aEvent
+aCompositionEvent
 )
 ;
 nsresult
