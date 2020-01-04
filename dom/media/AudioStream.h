@@ -2277,11 +2277,6 @@ AudioBufferWriter
 aWriter
 )
 ;
-void
-StartUnlocked
-(
-)
-;
 /
 /
 The
