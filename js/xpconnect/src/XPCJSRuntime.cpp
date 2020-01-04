@@ -4184,7 +4184,7 @@ UnmarkSkippableJSHolders
 (
 )
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 UnmarkSkippableJSHolders
@@ -9304,7 +9304,7 @@ mallocSizeOf
 n
 +
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 SizeOfExcludingThis
@@ -10154,14 +10154,14 @@ destructor
 runs
 before
 ~
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 which
 does
 the
 /
 /
 actual
-JS_DestroyRuntime
+JS_DestroyContext
 (
 )
 call
@@ -10169,7 +10169,7 @@ call
 But
 destroying
 the
-runtime
+context
 triggers
 /
 /
@@ -10182,12 +10182,12 @@ call
 back
 into
 the
-runtime
+context
 with
 various
 /
 /
-callback
+callbacks
 if
 we
 aren
@@ -23055,7 +23055,7 @@ Initialize
 nsresult
 rv
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Initialize
@@ -25424,7 +25424,7 @@ Context
 )
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 BeforeProcessTask
@@ -25495,7 +25495,7 @@ MaybePokeCC
 (
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 AfterProcessTask

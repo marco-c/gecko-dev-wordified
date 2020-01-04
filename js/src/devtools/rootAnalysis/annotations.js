@@ -543,7 +543,7 @@ GC
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 DescribeCustomObjects
 "
@@ -560,7 +560,7 @@ GC
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 NoteCustomGCThingXPCOMChildren
 "

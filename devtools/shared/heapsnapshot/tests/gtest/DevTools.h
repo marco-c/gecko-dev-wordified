@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -384,7 +384,7 @@ getContext
 )
 {
 return
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

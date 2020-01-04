@@ -1563,7 +1563,7 @@ aMayWait
 {
 MOZ_ASSERT
 (
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

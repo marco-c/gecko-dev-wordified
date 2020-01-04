@@ -893,7 +893,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -3246,7 +3246,7 @@ public
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 {
 public
 :

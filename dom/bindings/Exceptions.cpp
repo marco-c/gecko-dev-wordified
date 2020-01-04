@@ -162,7 +162,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -1107,11 +1107,11 @@ return
 false
 ;
 }
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
-runtime
+context
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -1124,7 +1124,7 @@ nsIException
 >
 existingException
 =
-runtime
+context
 -
 >
 GetPendingException
@@ -1177,7 +1177,7 @@ no
 longer
 relevant
 .
-runtime
+context
 -
 >
 SetPendingException

@@ -487,7 +487,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -611,7 +611,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -6662,7 +6662,7 @@ sContext
 }
 else
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

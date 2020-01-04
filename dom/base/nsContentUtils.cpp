@@ -28530,7 +28530,7 @@ aRunnable
 {
 MOZ_ASSERT
 (
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -28547,7 +28547,7 @@ thread
 "
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -28584,7 +28584,7 @@ aRunnable
 {
 MOZ_ASSERT
 (
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -28601,7 +28601,7 @@ thread
 "
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

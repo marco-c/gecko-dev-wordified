@@ -184,7 +184,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -795,11 +795,11 @@ GCPostBarriers
 nsTArray
 )
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
-ccrt
+ccjscx
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -808,7 +808,7 @@ Get
 ;
 ASSERT_TRUE
 (
-ccrt
+ccjscx
 !
 =
 nullptr
@@ -818,7 +818,7 @@ JSContext
 *
 cx
 =
-ccrt
+ccjscx
 -
 >
 Context
