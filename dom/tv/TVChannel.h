@@ -159,6 +159,9 @@ h
 class
 nsITVChannelData
 ;
+class
+nsITVService
+;
 namespace
 mozilla
 {
@@ -368,6 +371,12 @@ nsITVChannelData
 *
 aData
 )
+;
+nsCOMPtr
+<
+nsITVService
+>
+mTVService
 ;
 RefPtr
 <
