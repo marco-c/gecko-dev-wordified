@@ -367,11 +367,6 @@ artifact
 json
 "
 data
-lambda
-*
-args
-:
-None
 )
             
 with
@@ -497,11 +492,6 @@ artifact
 yml
 "
 data
-lambda
-*
-args
-:
-None
 )
             
 with

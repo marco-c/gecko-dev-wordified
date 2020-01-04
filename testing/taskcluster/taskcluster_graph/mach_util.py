@@ -73,6 +73,8 @@ import
 sys
 import
 time
+import
+logging
 from
 collections
 import
@@ -122,6 +124,14 @@ ROOT
 .
 '
 )
+)
+logger
+=
+logging
+.
+getLogger
+(
+__name__
 )
 def
 merge_dicts
@@ -1119,11 +1129,9 @@ not
 revision
 :
         
-sys
+logger
 .
-stderr
-.
-write
+warning
 (
 '
 cannot
@@ -1135,8 +1143,6 @@ vcs
 info
 not
 provided
-\
-n
 '
 )
         
@@ -1196,11 +1202,9 @@ rstrip
 revision
 )
         
-sys
+logger
 .
-stderr
-.
-write
+debug
 (
 "
 Querying
@@ -1211,8 +1215,6 @@ metadata
 :
 %
 s
-\
-n
 "
 %
 url
@@ -1326,11 +1328,9 @@ except
 Exception
 :
         
-sys
+logger
 .
-stderr
-.
-write
+exception
 (
             
 "
@@ -1348,8 +1348,6 @@ revision
 %
 s
 '
-\
-n
 "
 %
 (

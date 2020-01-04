@@ -144,7 +144,6 @@ __init__
 self
 path
 config
-log
 )
 :
         
@@ -172,12 +171,6 @@ self
 config
 =
 config
-        
-self
-.
-log
-=
-log
     
 abc
 .
