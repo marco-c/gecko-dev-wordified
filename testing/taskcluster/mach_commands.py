@@ -2627,6 +2627,7 @@ job_path
 )
         
 job_graph
+trigger_tests
 =
 parse_commit
 (
@@ -4607,6 +4608,25 @@ treeherder_route
                         
 )
                     
+#
+This
+will
+schedule
+test
+jobs
+N
+times
+                    
+for
+i
+in
+range
+(
+0
+trigger_tests
+)
+:
+                        
 graph
 [
 '
@@ -4617,6 +4637,40 @@ tasks
 append
 (
 test_task
+)
+                        
+#
+If
+we
+'
+re
+scheduling
+more
+tasks
+each
+have
+to
+be
+unique
+                        
+test_task
+=
+copy
+.
+deepcopy
+(
+test_task
+)
+                        
+test_task
+[
+'
+taskId
+'
+]
+=
+slugid
+(
 )
                     
 define_task
