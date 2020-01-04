@@ -2181,7 +2181,7 @@ aSetProperties
 .
 *
 |
-aNeedsRefreshes
+aStyleChanging
 |
 will
 be
@@ -2236,7 +2236,7 @@ nsCSSPropertySet
 aSetProperties
 bool
 &
-aNeedsRefreshes
+aStyleChanging
 )
 ;
 /
