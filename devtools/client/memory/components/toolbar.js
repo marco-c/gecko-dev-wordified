@@ -436,6 +436,17 @@ dom
 input
 (
 {
+id
+:
+"
+record
+-
+allocation
+-
+stacks
+-
+checkbox
+"
 type
 :
 "
