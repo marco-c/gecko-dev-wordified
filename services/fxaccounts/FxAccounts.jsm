@@ -3033,6 +3033,10 @@ function
 checkEmailStatus
 (
 sessionToken
+options
+=
+{
+}
 )
 {
 return
@@ -3043,6 +3047,7 @@ fxAccountsClient
 recoveryEmailStatus
 (
 sessionToken
+options
 )
 ;
 }
@@ -4665,7 +4670,7 @@ data
 .
 sessionToken
 "
-start
+push
 "
 )
 ;
@@ -7518,6 +7523,14 @@ why
 "
 start
 "
+|
+|
+why
+=
+=
+"
+push
+"
 )
 {
 if
@@ -7722,6 +7735,11 @@ this
 checkEmailStatus
 (
 sessionToken
+{
+reason
+:
+why
+}
 )
 .
 then
