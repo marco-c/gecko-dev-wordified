@@ -5310,9 +5310,7 @@ snd_pcm_open
 (
 &
 pcm
-"
-default
-"
+CUBEB_ALSA_PCM_NAME
 SND_PCM_STREAM_PLAYBACK
 |
 SND_PCM_NO_AUTO_RESAMPLE
@@ -6033,6 +6031,10 @@ alsa_get_min_latency
 get_preferred_sample_rate
 =
 alsa_get_preferred_sample_rate
+.
+enumerate_devices
+=
+NULL
 .
 destroy
 =
