@@ -2600,12 +2600,10 @@ return
 nsLayoutUtils
 :
 :
-HasCurrentAnimationsForProperties
+HasCurrentAnimationOfProperty
 (
 aFrame
-&
 aProperty
-1
 )
 ;
 }
