@@ -275,6 +275,8 @@ LoadManagerSingleton
 :
 LoadManagerSingleton
 (
+bool
+aEncoderOnly
 int
 aLoadMeasurementInterval
 int
@@ -362,6 +364,12 @@ mHighLoadThreshold
 mLowLoadThreshold
 )
 ;
+if
+(
+!
+aEncoderOnly
+)
+{
 mLoadMonitor
 =
 new
@@ -386,6 +394,7 @@ SetLoadChangeCallback
 this
 )
 ;
+}
 mLastStateChange
 =
 TimeStamp
@@ -1102,11 +1111,6 @@ Length
 0
 )
 {
-if
-(
-mLoadMonitor
-)
-{
 /
 /
 Record
@@ -1392,6 +1396,11 @@ in_state
 0
 ;
 }
+if
+(
+mLoadMonitor
+)
+{
 /
 /
 Dance

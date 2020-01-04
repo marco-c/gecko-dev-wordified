@@ -294,6 +294,8 @@ private
 :
 LoadManagerSingleton
 (
+bool
+aEncoderOnly
 int
 aLoadMeasurementInterval
 int
