@@ -5811,9 +5811,9 @@ JSString
 )
 JS_GetEmptyString
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
