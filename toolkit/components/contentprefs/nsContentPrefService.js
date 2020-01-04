@@ -2039,6 +2039,9 @@ _notifyPrefSet
 group
 aName
 aValue
+aContext
+.
+usePrivateBrowsing
 )
 ;
 return
@@ -2172,6 +2175,13 @@ _notifyPrefSet
 group
 aName
 aValue
+aContext
+?
+aContext
+.
+usePrivateBrowsing
+:
+false
 )
 ;
 }
@@ -3692,6 +3702,7 @@ ContentPrefService__notifyPrefSet
 aGroup
 aName
 aValue
+aIsPrivate
 )
 {
 for
@@ -3716,6 +3727,7 @@ onContentPrefSet
 aGroup
 aName
 aValue
+aIsPrivate
 )
 ;
 }

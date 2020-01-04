@@ -1708,6 +1708,9 @@ _notifyPrefSet
 group
 name
 value
+context
+.
+usePrivateBrowsing
 )
 ;
 }
@@ -2159,6 +2162,12 @@ _notifyPrefSet
 group
 name
 value
+context
+&
+&
+context
+.
+usePrivateBrowsing
 )
 ;
 }
