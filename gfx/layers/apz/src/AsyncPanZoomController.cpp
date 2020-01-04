@@ -6300,8 +6300,6 @@ SmoothScrollAnimation
 AsyncPanZoomController
 &
 aApzc
-ScrollSource
-aSource
 const
 nsPoint
 &
@@ -19049,8 +19047,6 @@ AsyncPanZoomController
 :
 StartSmoothScroll
 (
-ScrollSource
-aSource
 )
 {
 SetState
@@ -19142,7 +19138,6 @@ SmoothScrollAnimation
 (
 *
 this
-aSource
 initialPosition
 initialVelocity
 destination
@@ -25826,10 +25821,6 @@ CancelAnimation
 ;
 StartSmoothScroll
 (
-ScrollSource
-:
-:
-DOM
 )
 ;
 }
