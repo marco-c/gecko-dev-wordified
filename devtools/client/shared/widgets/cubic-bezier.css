@@ -98,7 +98,7 @@ flex
 ;
 width
 :
-500px
+510px
 ;
 height
 :
@@ -119,6 +119,14 @@ hidden
 padding
 :
 5px
+;
+box
+-
+sizing
+:
+border
+-
+box
 ;
 }
 .
