@@ -122,17 +122,6 @@ include
 "
 mozilla
 /
-layers
-/
-TextureForwarder
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
@@ -263,7 +252,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -391,7 +380,7 @@ public
 explicit
 TextureClientRecycleAllocator
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -482,7 +471,7 @@ aAllocFlags
 ;
 RefPtr
 <
-TextureForwarder
+CompositableForwarder
 >
 mSurfaceAllocator
 ;
