@@ -1390,6 +1390,15 @@ GetCumulativeNonRootScaleResolution
 )
 override
 ;
+virtual
+void
+SetRestoreResolution
+(
+float
+aResolution
+)
+override
+;
 /
 /
 nsIViewObserver
