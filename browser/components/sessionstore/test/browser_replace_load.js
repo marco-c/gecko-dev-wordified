@@ -122,7 +122,9 @@ fooobar
 {
 ignoreFragment
 :
-true
+"
+whenComparingAndReplace
+"
 }
 )
 ;

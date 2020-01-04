@@ -1423,7 +1423,9 @@ reload
 .
 ignoreFragment
 :
-true
+"
+whenComparingAndReplace
+"
 }
 )
 ;
