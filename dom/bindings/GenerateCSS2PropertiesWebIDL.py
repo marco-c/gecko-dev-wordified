@@ -80,10 +80,21 @@ prop
 id
 flags
 pref
+proptype
 ]
 in
 propList
 :
+    
+if
+"
+CSS_PROPERTY_INTERNAL
+"
+in
+flags
+:
+        
+continue
     
 extendedAttrs
 =
