@@ -763,9 +763,6 @@ nsPILoadGroupInternal
 uint32_t
 mTimedNonCachedRequestsUntilOnEndPageLoad
 ;
-nsCString
-mUserAgentOverrideCache
-;
 }
 ;
 #
