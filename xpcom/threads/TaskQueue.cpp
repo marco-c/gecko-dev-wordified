@@ -1217,9 +1217,10 @@ mQueue
 mPool
 -
 >
-TailDispatch
+Dispatch
 (
 this
+NS_DISPATCH_NORMAL
 )
 ;
 if
