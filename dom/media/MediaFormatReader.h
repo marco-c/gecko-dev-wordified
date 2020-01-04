@@ -386,12 +386,6 @@ VideoIsHardwareAccelerated
 const
 override
 ;
-void
-DisableHardwareAcceleration
-(
-)
-override
-;
 bool
 IsWaitForDataSupported
 (
@@ -2367,9 +2361,6 @@ blocking
 .
 bool
 mTrackDemuxersMayBlock
-;
-bool
-mHardwareAccelerationDisabled
 ;
 /
 /
