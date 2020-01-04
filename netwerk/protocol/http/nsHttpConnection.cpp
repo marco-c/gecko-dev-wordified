@@ -2605,7 +2605,12 @@ NS_OK
 ;
 if
 (
-mConnInfo
+mTransaction
+-
+>
+ConnectionInfo
+(
+)
 -
 >
 UsingConnect
