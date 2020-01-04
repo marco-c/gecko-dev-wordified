@@ -9189,17 +9189,6 @@ return
 rv
 ;
 }
-/
-*
-nsICacheServiceInternal
-*
-readonly
-attribute
-double
-lockHeldTime
-;
-*
-/
 NS_IMETHODIMP
 nsCacheService
 :

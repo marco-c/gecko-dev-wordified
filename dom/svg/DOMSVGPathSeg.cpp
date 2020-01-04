@@ -1070,15 +1070,6 @@ index
 type
 )
 \
-/
-*
-attribute
-type
-propName
-;
-*
-/
-\
 type
 \
 DOMSVGPathSeg
