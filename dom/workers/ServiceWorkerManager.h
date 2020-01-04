@@ -1275,6 +1275,10 @@ ServiceWorkerUnregisterJob
 ;
 friend
 class
+ServiceWorkerUpdateJob2
+;
+friend
+class
 UpdateTimerCallback
 ;
 public
