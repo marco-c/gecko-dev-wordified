@@ -1278,6 +1278,12 @@ self
 proc
 =
 None
+            
+self
+.
+connected
+=
+False
         
 #
 Remove
