@@ -62274,11 +62274,11 @@ BarrierKind
 :
 TypeSet
 ;
-MInstruction
+MGetPropertyCache
 *
 ins
 =
-MGetElementCache
+MGetPropertyCache
 :
 :
 New
