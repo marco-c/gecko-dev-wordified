@@ -263,7 +263,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )

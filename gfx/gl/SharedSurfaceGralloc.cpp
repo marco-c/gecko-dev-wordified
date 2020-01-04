@@ -286,7 +286,7 @@ RefPtr
 layers
 :
 :
-ISurfaceAllocator
+ClientIPCAllocator
 >
 &
 allocator
@@ -352,7 +352,7 @@ layers
 :
 TextureFlags
 flags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 )
@@ -716,7 +716,7 @@ egl
 layers
 :
 :
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 layers

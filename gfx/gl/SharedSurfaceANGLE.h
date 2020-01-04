@@ -411,7 +411,7 @@ RefPtr
 layers
 :
 :
-ISurfaceAllocator
+ClientIPCAllocator
 >
 &
 allocator
@@ -441,7 +441,7 @@ RefPtr
 layers
 :
 :
-ISurfaceAllocator
+ClientIPCAllocator
 >
 &
 allocator
