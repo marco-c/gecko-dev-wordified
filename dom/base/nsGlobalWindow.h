@@ -6112,6 +6112,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6142,6 +6144,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6172,6 +6176,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6202,6 +6208,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6810,6 +6818,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -9836,6 +9846,8 @@ only
 bool
 CanMoveResizeWindows
 (
+bool
+aCallerIsChrome
 )
 ;
 /
