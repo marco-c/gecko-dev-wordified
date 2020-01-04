@@ -137,7 +137,7 @@ testing
 .
 firefox_ui_tests
 import
-FirefoxUITests
+FirefoxUIFunctionalTests
 if
 __name__
 =
@@ -149,7 +149,7 @@ __main__
     
 myScript
 =
-FirefoxUITests
+FirefoxUIFunctionalTests
 (
 )
     
