@@ -598,15 +598,6 @@ telemetry
 "
 ;
 const
-PREF_ENABLED
-=
-PREF_BRANCH
-+
-"
-enabled
-"
-;
-const
 PREF_SERVER
 =
 PREF_BRANCH
@@ -3402,7 +3393,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ENABLED
+PREF_TELEMETRY_ENABLED
 true
 )
 ;

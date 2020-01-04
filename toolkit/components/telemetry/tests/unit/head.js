@@ -288,6 +288,17 @@ in
 Cc
 ;
 const
+PREF_TELEMETRY_ENABLED
+=
+"
+toolkit
+.
+telemetry
+.
+enabled
+"
+;
+const
 UUID_REGEX
 =
 /

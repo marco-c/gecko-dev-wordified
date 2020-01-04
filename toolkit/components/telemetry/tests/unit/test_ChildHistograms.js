@@ -652,13 +652,7 @@ prefs
 .
 setBoolPref
 (
-"
-toolkit
-.
-telemetry
-.
-enabled
-"
+PREF_TELEMETRY_ENABLED
 true
 )
 ;
