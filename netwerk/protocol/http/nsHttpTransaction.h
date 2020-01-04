@@ -1856,6 +1856,9 @@ mHttpVersion
 uint16_t
 mHttpResponseCode
 ;
+uint32_t
+mCurrentHttpResponseHeaderSize
+;
 /
 /
 mCapsToClear
