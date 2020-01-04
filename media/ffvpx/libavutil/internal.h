@@ -1626,7 +1626,7 @@ _VC_CRT_MAJOR_VERSION
 &
 _VC_CRT_MAJOR_VERSION
 <
-14
+12
 #
 pragma
 comment
