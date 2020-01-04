@@ -366,7 +366,7 @@ matches
 /
 We
 should
-recieve
+receive
 manifestchange
 events
 when
@@ -775,7 +775,7 @@ manifest
 We
 should
 not
-recieve
+receive
 manifest
 change
 events
