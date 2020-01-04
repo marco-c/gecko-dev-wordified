@@ -23042,7 +23042,7 @@ menu
 "
 )
 ;
-GeckoAppShell
+IntentHelper
 .
 openUriExternal
 (
