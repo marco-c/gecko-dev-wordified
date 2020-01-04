@@ -628,6 +628,35 @@ status
             
 raise
         
+if
+config
+.
+substs
+[
+'
+MOZ_BUILD_APP
+'
+]
+=
+=
+'
+js
+'
+:
+            
+raise
+unittest
+.
+SkipTest
+(
+'
+failing
+in
+Spidermonkey
+builds
+'
+)
+        
 reader
 =
 BuildReader

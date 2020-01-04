@@ -798,18 +798,6 @@ JS_STANDALONE
 )
 :
         
-if
-not
-config
-.
-get
-(
-'
-JS_STANDALONE
-'
-)
-:
-            
 os
 .
 environ

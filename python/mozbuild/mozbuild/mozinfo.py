@@ -147,9 +147,6 @@ TARGET_CPU
 "
 OS_TARGET
 "
-"
-MOZ_WIDGET_TOOLKIT
-"
 ]
     
 missing
@@ -287,11 +284,13 @@ b2g
 "
 if
 substs
-[
+.
+get
+(
 "
 MOZ_WIDGET_TOOLKIT
 "
-]
+)
 =
 =
 "
@@ -365,11 +364,13 @@ toolkit
 ]
 =
 substs
-[
+.
+get
+(
 "
 MOZ_WIDGET_TOOLKIT
 "
-]
+)
     
 #
 Application
