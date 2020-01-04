@@ -889,6 +889,17 @@ return
 webNavigation
 :
 {
+onTabReplaced
+:
+ignoreEvent
+(
+context
+"
+webNavigation
+.
+onTabReplaced
+"
+)
 onBeforeNavigate
 :
 new
