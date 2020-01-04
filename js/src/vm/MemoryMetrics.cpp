@@ -164,6 +164,15 @@ h
 #
 include
 "
+gc
+/
+Heap
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineJIT
@@ -2173,6 +2182,9 @@ thing
 size_t
 allocationSpace
 =
+gc
+:
+:
 Arena
 :
 :
