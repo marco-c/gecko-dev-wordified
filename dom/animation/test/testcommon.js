@@ -264,8 +264,6 @@ function
 {
 document
 .
-timeline
-.
 getAnimations
 (
 )
