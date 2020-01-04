@@ -1250,17 +1250,6 @@ element
 {
 if
 (
-Versions
-.
-preHC
-)
-{
-return
-false
-;
-}
-if
-(
 !
 mUseHardwareLayer
 )

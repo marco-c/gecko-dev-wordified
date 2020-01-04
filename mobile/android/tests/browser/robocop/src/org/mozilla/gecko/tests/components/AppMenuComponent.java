@@ -1568,8 +1568,6 @@ hack
 needed
 for
 tablets
-&
-GB
 where
 the
 OverflowMenuButton
@@ -1596,13 +1594,6 @@ DeviceHelper
 isTablet
 (
 )
-|
-|
-AppConstants
-.
-Versions
-.
-preHC
 )
 {
 mSolo
