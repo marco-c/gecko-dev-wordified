@@ -29350,6 +29350,13 @@ ICStub
 :
 :
 GetName_Global
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 monitorStub
 globalLexical
 current
@@ -29915,6 +29922,13 @@ ICStub
 :
 :
 GetProp_CallNativeGlobal
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 monitorStub
 globalLexical
 current
