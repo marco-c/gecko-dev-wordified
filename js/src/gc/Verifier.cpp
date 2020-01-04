@@ -3245,7 +3245,9 @@ Heap
 check
 :
 %
-zu
+"
+PRIuSIZE
+"
 failure
 (
 s
