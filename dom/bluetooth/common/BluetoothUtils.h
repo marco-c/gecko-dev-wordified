@@ -1533,7 +1533,7 @@ nsAString
 &
 aType
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 bool

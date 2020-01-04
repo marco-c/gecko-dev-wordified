@@ -1201,15 +1201,6 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoString
-deviceAddressStr
-;
-AddressToString
-(
-mDeviceAddress
-deviceAddressStr
-)
-;
 NS_NAMED_LITERAL_STRING
 (
 type
@@ -1237,7 +1228,7 @@ parameters
 "
 address
 "
-deviceAddressStr
+mDeviceAddress
 )
 ;
 BT_ENSURE_TRUE_VOID_BROADCAST_SYSMSG

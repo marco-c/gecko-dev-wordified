@@ -826,12 +826,14 @@ Address
 )
 )
 {
-mAddress
-=
+AddressToString
+(
 value
 .
-get_nsString
+get_BluetoothAddress
 (
+)
+mAddress
 )
 ;
 }

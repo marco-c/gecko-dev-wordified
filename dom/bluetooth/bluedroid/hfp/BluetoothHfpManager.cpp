@@ -3047,7 +3047,7 @@ return
 DispatchStatusChangedEvent
 (
 eventName
-deviceAddressStr
+mDeviceAddress
 status
 )
 ;

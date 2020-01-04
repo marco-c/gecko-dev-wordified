@@ -552,7 +552,7 @@ type
 BluetoothValue
 :
 :
-TnsString
+TBluetoothAddress
 )
 ;
 BluetoothStatusChangedEventInit
@@ -575,10 +575,8 @@ get_bool
 (
 )
 ;
-init
-.
-mAddress
-=
+AddressToString
+(
 arr
 [
 1
@@ -588,8 +586,12 @@ value
 (
 )
 .
-get_nsString
+get_BluetoothAddress
 (
+)
+init
+.
+mAddress
 )
 ;
 RefPtr
@@ -1298,7 +1300,7 @@ type
 BluetoothValue
 :
 :
-TnsString
+TBluetoothAddress
 &
 &
 arr
@@ -1375,7 +1377,9 @@ get_BluetoothAttributeHandle
 ;
 nsString
 address
-=
+;
+AddressToString
+(
 arr
 [
 2
@@ -1385,8 +1389,10 @@ value
 (
 )
 .
-get_nsString
+get_BluetoothAddress
 (
+)
+address
 )
 ;
 bool
