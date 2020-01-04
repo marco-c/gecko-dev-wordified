@@ -21308,6 +21308,12 @@ mDownstreamState
 =
 =
 NOT_USING_NETWORK
+|
+|
+mDownstreamState
+=
+=
+BUFFERING_FRAME_HEADER
 )
 {
 return
