@@ -5787,7 +5787,7 @@ and
 tables
 .
 struct
-Limits
+ResizableLimits
 {
 uint32_t
 initial
@@ -5864,7 +5864,7 @@ external
 uint32_t
 globalDataOffset
 ;
-Limits
+ResizableLimits
 limits
 ;
 TableDesc
@@ -5877,7 +5877,7 @@ TableDesc
 (
 TableKind
 kind
-Limits
+ResizableLimits
 limits
 )
 :
