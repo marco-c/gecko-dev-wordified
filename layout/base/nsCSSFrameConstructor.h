@@ -8798,7 +8798,7 @@ nsIFrame
 aFrame
 nsStyleContext
 *
-aStyleContext
+aParentStyle
 nsContainerFrame
 *
 aParentFrame
