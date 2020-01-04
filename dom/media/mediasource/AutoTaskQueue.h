@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+SharedThreadPool
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TaskQueue
 .
 h

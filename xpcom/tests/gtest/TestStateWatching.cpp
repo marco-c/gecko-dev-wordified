@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+SharedThreadPool
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StateWatching
 .
 h
