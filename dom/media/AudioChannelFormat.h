@@ -410,12 +410,9 @@ const
 float
 SQRT_ONE_HALF
 =
-sqrt
-(
 0
 .
-5
-)
+7071067811865476f
 ;
 struct
 DownMixMatrix
