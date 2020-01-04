@@ -5560,7 +5560,6 @@ return
 mOverlayId
 ;
 }
-const
 GonkNativeHandle
 &
 GetSidebandStream
