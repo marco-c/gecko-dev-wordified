@@ -696,6 +696,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 return
 (

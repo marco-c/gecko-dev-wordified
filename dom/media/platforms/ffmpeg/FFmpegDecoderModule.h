@@ -348,6 +348,7 @@ nsACString
 &
 aMimeType
 )
+const
 override
 {
 AVCodecID

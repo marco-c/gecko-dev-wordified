@@ -240,6 +240,7 @@ nsACString
 &
 aMimeType
 )
+const
 override
 ;
 }

@@ -1463,6 +1463,7 @@ nsACString
 &
 aMimeType
 )
+const
 override
 {
 return

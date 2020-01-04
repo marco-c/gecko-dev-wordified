@@ -926,6 +926,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 if
 (

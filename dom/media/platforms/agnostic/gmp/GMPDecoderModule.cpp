@@ -1399,6 +1399,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 return
 SupportsMimeType
