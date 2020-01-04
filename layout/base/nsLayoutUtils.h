@@ -10182,6 +10182,15 @@ nsIFrame
 aSubtreeRoot
 )
 ;
+static
+void
+MarkIntrinsicISizesDirtyIfDependentOnBSize
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
