@@ -4763,13 +4763,6 @@ Exists
 )
 )
 ;
-mCurrentSeek
-=
-Move
-(
-mSeekJob
-)
-;
 }
 void
 Exit
@@ -4783,7 +4776,7 @@ DisconnectIfExists
 (
 )
 ;
-mCurrentSeek
+mSeekJob
 .
 RejectIfExists
 (
@@ -4858,7 +4851,7 @@ Exists
 ;
 MOZ_ASSERT
 (
-mCurrentSeek
+mSeekJob
 .
 Exists
 (
@@ -4916,7 +4909,7 @@ handled
 .
 if
 (
-mCurrentSeek
+mSeekJob
 .
 mTarget
 .
@@ -4925,7 +4918,7 @@ IsVideoOnly
 )
 )
 {
-mCurrentSeek
+mSeekJob
 .
 mTarget
 .
@@ -4937,7 +4930,7 @@ SeekTarget
 Accurate
 )
 ;
-mCurrentSeek
+mSeekJob
 .
 mTarget
 .
@@ -4954,7 +4947,7 @@ mQueuedSeek
 =
 Move
 (
-mCurrentSeek
+mSeekJob
 )
 ;
 SetState
@@ -5747,7 +5740,7 @@ fired
 prior
 loadeded
 .
-mCurrentSeek
+mSeekJob
 .
 Resolve
 (
@@ -5945,9 +5938,6 @@ RefPtr
 SeekTask
 >
 mSeekTask
-;
-SeekJob
-mCurrentSeek
 ;
 }
 ;
