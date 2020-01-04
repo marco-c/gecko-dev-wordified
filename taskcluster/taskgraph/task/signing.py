@@ -470,6 +470,7 @@ def
 optimize
 (
 self
+params
 )
 :
         

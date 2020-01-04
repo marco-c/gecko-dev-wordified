@@ -520,6 +520,20 @@ worker
 '
 ]
     
+Optional
+(
+'
+when
+'
+)
+:
+task_description_schema
+[
+'
+when
+'
+]
+    
 #
 A
 description
