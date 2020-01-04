@@ -200,6 +200,9 @@ RequestOrUSVString
 class
 ServiceWorkerRegistrationWorkerThread
 ;
+class
+WorkerLocation
+;
 namespace
 cache
 {
@@ -227,9 +230,6 @@ ServiceWorkerClients
 ;
 class
 WorkerPrivate
-;
-class
-WorkerLocation
 ;
 class
 WorkerNavigator
