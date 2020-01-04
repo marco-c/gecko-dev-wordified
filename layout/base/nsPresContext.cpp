@@ -339,7 +339,7 @@ h
 #
 include
 "
-SurfaceCache
+SurfaceCacheUtils
 .
 h
 "
@@ -9142,13 +9142,10 @@ to
 bother
 .
 )
-mozilla
-:
-:
 image
 :
 :
-SurfaceCache
+SurfaceCacheUtils
 :
 :
 DiscardAll
