@@ -114,6 +114,12 @@ sys
 import
 time
 from
+mozbuild
+.
+util
+import
+ensureParentDir
+from
 mozpack
 .
 files
@@ -2115,6 +2121,13 @@ time
 .
 time
 (
+)
+    
+ensureParentDir
+(
+args
+.
+outputfile
 )
     
 with
