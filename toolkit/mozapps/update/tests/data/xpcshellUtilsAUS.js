@@ -1387,7 +1387,7 @@ function
 var
 DEBUG_AUS_TEST
 =
-false
+true
 ;
 /
 /
