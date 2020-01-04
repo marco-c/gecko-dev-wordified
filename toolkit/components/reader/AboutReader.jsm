@@ -5931,7 +5931,7 @@ GetStringFromName
 "
 aboutReader
 .
-loading
+loading2
 "
 )
 ;
