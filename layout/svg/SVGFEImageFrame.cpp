@@ -402,8 +402,6 @@ void
 OnVisibilityChange
 (
 Visibility
-aOldVisibility
-Visibility
 aNewVisibility
 Maybe
 <
@@ -848,8 +846,6 @@ SVGFEImageFrame
 OnVisibilityChange
 (
 Visibility
-aOldVisibility
-Visibility
 aNewVisibility
 Maybe
 <
@@ -893,7 +889,6 @@ nsFrame
 :
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -906,7 +901,6 @@ imageLoader
 >
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -916,7 +910,6 @@ nsFrame
 :
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )

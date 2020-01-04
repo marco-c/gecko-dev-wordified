@@ -8710,14 +8710,6 @@ nonvisible
 *
 *
 param
-aOldVisibility
-The
-previous
-visibility
-state
-.
-*
-param
 aNewVisibility
 The
 new
@@ -8798,8 +8790,6 @@ virtual
 void
 OnVisibilityChange
 (
-Visibility
-aOldVisibility
 Visibility
 aNewVisibility
 Maybe
