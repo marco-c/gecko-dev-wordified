@@ -840,15 +840,6 @@ switch
 action
 )
 {
-default
-:
-assert
-(
-false
-)
-;
-HB_FALLTHROUGH
-;
 case
 NOP
 :

@@ -1616,11 +1616,12 @@ NOT_SPACE
 ;
 /
 *
-Shouldn
-'
-t
-happen
-.
+U
++
+1680
+OGHAM
+SPACE
+MARK
 *
 /
 case

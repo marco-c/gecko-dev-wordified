@@ -470,7 +470,7 @@ glyph
 .
 *
 /
-SHORT
+FWORD
 xMin
 ;
 /
@@ -483,7 +483,7 @@ data
 .
 *
 /
-SHORT
+FWORD
 yMin
 ;
 /
@@ -496,7 +496,7 @@ data
 .
 *
 /
-SHORT
+FWORD
 xMax
 ;
 /
@@ -509,7 +509,7 @@ data
 .
 *
 /
-SHORT
+FWORD
 yMax
 ;
 /

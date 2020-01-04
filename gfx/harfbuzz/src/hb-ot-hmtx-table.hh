@@ -274,7 +274,7 @@ x
 struct
 LongMetric
 {
-USHORT
+UFWORD
 advance
 ;
 /
@@ -286,7 +286,7 @@ height
 .
 *
 /
-SHORT
+FWORD
 lsb
 ;
 /
@@ -467,7 +467,7 @@ glyphs
 .
 *
 /
-SHORT
+FWORD
 leadingBearingX
 [
 VAR
