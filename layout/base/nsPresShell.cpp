@@ -40735,6 +40735,13 @@ mPendingContent
 =
 aContent
 ;
+pointerCaptureInfo
+-
+>
+mReleaseContent
+=
+false
+;
 }
 else
 {
