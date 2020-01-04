@@ -234,7 +234,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -243,7 +243,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -553,10 +553,10 @@ reload
 )
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 oldSheets
 ;
@@ -607,7 +607,8 @@ count
 i
 )
 {
-StyleSheetHandle
+StyleSheet
+*
 oldSheet
 =
 oldSheets
@@ -626,10 +627,10 @@ GetSheetURI
 (
 )
 ;
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 newSheet
 ;
 if
@@ -827,7 +828,8 @@ Length
 ;
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 mStyleSheetList
@@ -900,7 +902,8 @@ nsXBLPrototypeResources
 :
 AppendStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -918,7 +921,8 @@ nsXBLPrototypeResources
 :
 RemoveStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -938,7 +942,8 @@ InsertStyleSheetAt
 (
 size_t
 aIndex
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -951,7 +956,8 @@ aSheet
 )
 ;
 }
-StyleSheetHandle
+StyleSheet
+*
 nsXBLPrototypeResources
 :
 :
@@ -1012,7 +1018,8 @@ AppendStyleSheetsTo
 (
 nsTArray
 <
-StyleSheetHandle
+StyleSheet
+*
 >
 &
 aResult

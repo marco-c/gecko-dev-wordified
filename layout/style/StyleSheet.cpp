@@ -471,9 +471,7 @@ mDocument
 >
 SetStyleSheetApplicableState
 (
-AsHandle
-(
-)
+this
 true
 )
 ;

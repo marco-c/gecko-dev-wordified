@@ -640,7 +640,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -649,7 +649,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -6575,7 +6575,8 @@ BackendType
 )
 )
 ;
-StyleSheetHandle
+StyleSheet
+*
 sheet
 =
 cache

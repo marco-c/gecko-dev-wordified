@@ -2307,7 +2307,8 @@ nsXMLContentSink
 :
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate

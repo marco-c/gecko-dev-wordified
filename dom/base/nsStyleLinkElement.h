@@ -364,7 +364,8 @@ SetStyleSheet
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 override
@@ -374,7 +375,8 @@ NS_IMETHOD_
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 )
 GetStyleSheet
 (
@@ -884,13 +886,13 @@ bool
 aForceUpdate
 )
 ;
+RefPtr
+<
 mozilla
 :
 :
-StyleSheetHandle
-:
-:
-RefPtr
+StyleSheet
+>
 mStyleSheet
 ;
 protected

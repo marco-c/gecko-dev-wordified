@@ -202,7 +202,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -793,7 +793,8 @@ nsTArray
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 >
 &
 aArray

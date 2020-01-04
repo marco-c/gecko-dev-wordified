@@ -622,7 +622,8 @@ AppendStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -661,7 +662,8 @@ PrependStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -700,7 +702,8 @@ RemoveStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -742,10 +745,10 @@ aType
 const
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 &
 aNewSheets
@@ -874,9 +877,11 @@ InsertStyleSheetBefore
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aNewSheet
-StyleSheetHandle
+StyleSheet
+*
 aReferenceSheet
 )
 {
@@ -939,7 +944,8 @@ aType
 )
 ;
 }
-StyleSheetHandle
+StyleSheet
+*
 StyleSetHandle
 :
 :
@@ -974,7 +980,8 @@ Ptr
 :
 RemoveDocStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -1009,7 +1016,8 @@ Ptr
 :
 AddDocStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 nsIDocument
 *

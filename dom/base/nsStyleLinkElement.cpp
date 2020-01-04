@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -173,7 +173,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -431,7 +431,8 @@ nsStyleLinkElement
 :
 SetStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 {
@@ -490,7 +491,8 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-StyleSheetHandle
+StyleSheet
+*
 )
 nsStyleLinkElement
 :

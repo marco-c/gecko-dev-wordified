@@ -405,7 +405,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -414,7 +414,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -9262,7 +9262,8 @@ nsXBLPrototypeBinding
 :
 AppendStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -9285,7 +9286,8 @@ nsXBLPrototypeBinding
 :
 RemoveStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -9332,7 +9334,8 @@ InsertStyleSheetAt
 (
 size_t
 aIndex
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -9350,7 +9353,8 @@ aSheet
 )
 ;
 }
-StyleSheetHandle
+StyleSheet
+*
 nsXBLPrototypeBinding
 :
 :
@@ -9427,7 +9431,8 @@ AppendStyleSheetsTo
 (
 nsTArray
 <
-StyleSheetHandle
+StyleSheet
+*
 >
 &
 aResult

@@ -236,7 +236,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -245,7 +245,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -828,7 +828,8 @@ ShadowRoot
 :
 InsertSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 nsIContent
 *
@@ -1018,7 +1019,8 @@ ShadowRoot
 :
 RemoveSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 {
@@ -4518,7 +4520,8 @@ right
 DOM
 interfaces
 .
-StyleSheetHandle
+StyleSheet
+*
 sheet
 =
 mShadowRoot

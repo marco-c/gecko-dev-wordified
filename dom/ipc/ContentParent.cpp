@@ -1641,7 +1641,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -1650,7 +1650,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -13258,7 +13258,8 @@ loads
 .
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 *
@@ -13299,7 +13300,8 @@ AGENT_SHEET
 }
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 *
@@ -13340,7 +13342,8 @@ USER_SHEET
 }
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 *

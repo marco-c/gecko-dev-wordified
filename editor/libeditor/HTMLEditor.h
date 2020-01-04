@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -1996,7 +1996,8 @@ nsICSSLoaderObserver
 NS_IMETHOD
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
@@ -2279,7 +2280,8 @@ lists
 .
 *
 /
-StyleSheetHandle
+StyleSheet
+*
 GetStyleSheetForURL
 (
 const
@@ -2291,7 +2293,8 @@ aURL
 void
 GetURLForStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 nsAString
 &
@@ -2323,7 +2326,8 @@ const
 nsAString
 &
 aURL
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 ;
@@ -5094,10 +5098,10 @@ mStyleSheetURLs
 ;
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 mStyleSheets
 ;

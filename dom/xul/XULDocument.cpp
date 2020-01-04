@@ -766,7 +766,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -775,7 +775,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -18940,7 +18940,8 @@ XULDocument
 :
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
@@ -22901,10 +22902,10 @@ sheets
 i
 ]
 ;
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 incompleteSheet
 ;
 rv

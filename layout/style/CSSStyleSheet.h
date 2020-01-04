@@ -1226,7 +1226,8 @@ interface
 NS_IMETHOD
 StyleSheetLoaded
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate

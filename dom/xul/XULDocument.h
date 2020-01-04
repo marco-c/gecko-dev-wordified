@@ -150,7 +150,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -876,7 +876,8 @@ StyleSheetLoaded
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 bool
 aWasAlternate
@@ -1784,10 +1785,10 @@ DoneWalking
 /
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 mOverlaySheets
 ;

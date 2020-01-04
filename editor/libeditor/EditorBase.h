@@ -147,14 +147,14 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
 /
 /
 for
-StyleSheetHandle
+StyleSheet
 #
 include
 "
@@ -1575,7 +1575,8 @@ sheet
 NS_IMETHOD
 CreateTxnForAddStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 AddStyleSheetTransaction
 *
@@ -1601,7 +1602,8 @@ sheet
 NS_IMETHOD
 CreateTxnForRemoveStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 RemoveStyleSheetTransaction
 *

@@ -206,7 +206,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -4548,7 +4548,8 @@ CSSStyleSheets
 .
 AutoTArray
 <
-StyleSheetHandle
+StyleSheet
+*
 32
 >
 sheets
@@ -4563,7 +4564,8 @@ sheets
 ;
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 handle
 :
 sheets
@@ -15091,7 +15093,8 @@ mBindingManager
 {
 AutoTArray
 <
-StyleSheetHandle
+StyleSheet
+*
 32
 >
 sheets
@@ -15137,7 +15140,8 @@ sheets
 ;
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 sheets

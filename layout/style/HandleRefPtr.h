@@ -174,7 +174,8 @@ use
 with
 objects
 like
-StyleSheetHandle
+StyleSheet
+*
 where
 *
 the

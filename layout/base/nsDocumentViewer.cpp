@@ -387,7 +387,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -396,7 +396,7 @@ include
 "
 mozilla
 /
-StyleSheetHandleInlines
+StyleSheetInlines
 .
 h
 "
@@ -12713,7 +12713,8 @@ the
 user
 sheets
 .
-StyleSheetHandle
+StyleSheet
+*
 sheet
 =
 nullptr
@@ -12826,10 +12827,10 @@ nsIURI
 >
 uri
 ;
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 chromeSheet
 ;
 if
@@ -13602,7 +13603,8 @@ sheetService
 {
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 *
@@ -13629,7 +13631,8 @@ sheet
 }
 for
 (
-StyleSheetHandle
+StyleSheet
+*
 sheet
 :
 Reversed

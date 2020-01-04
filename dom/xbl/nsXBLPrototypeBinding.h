@@ -218,7 +218,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -907,7 +907,8 @@ AppendStyleSheet
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -917,7 +918,8 @@ RemoveStyleSheet
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -929,14 +931,16 @@ aIndex
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 StyleSheetAt
 (
 size_t
@@ -964,7 +968,8 @@ nsTArray
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 >
 &
 aResult

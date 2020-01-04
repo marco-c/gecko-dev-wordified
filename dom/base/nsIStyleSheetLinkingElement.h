@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -219,7 +219,8 @@ SetStyleSheet
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 aStyleSheet
 )
 =
@@ -259,7 +260,8 @@ NS_IMETHOD_
 mozilla
 :
 :
-StyleSheetHandle
+StyleSheet
+*
 )
 GetStyleSheet
 (

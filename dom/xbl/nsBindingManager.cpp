@@ -4508,7 +4508,8 @@ AppendAllSheets
 (
 nsTArray
 <
-StyleSheetHandle
+StyleSheet
+*
 >
 &
 aArray

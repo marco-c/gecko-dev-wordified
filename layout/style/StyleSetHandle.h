@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-StyleSheetHandle
+StyleSheet
 .
 h
 "
@@ -812,7 +812,8 @@ AppendStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -822,7 +823,8 @@ PrependStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -832,7 +834,8 @@ RemoveStyleSheet
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -845,10 +848,10 @@ aType
 const
 nsTArray
 <
-StyleSheetHandle
-:
-:
 RefPtr
+<
+StyleSheet
+>
 >
 &
 aNewSheets
@@ -860,9 +863,11 @@ InsertStyleSheetBefore
 (
 SheetType
 aType
-StyleSheetHandle
+StyleSheet
+*
 aNewSheet
-StyleSheetHandle
+StyleSheet
+*
 aReferenceSheet
 )
 ;
@@ -876,7 +881,8 @@ aType
 const
 ;
 inline
-StyleSheetHandle
+StyleSheet
+*
 StyleSheetAt
 (
 SheetType
@@ -890,7 +896,8 @@ inline
 nsresult
 RemoveDocStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 )
 ;
@@ -898,7 +905,8 @@ inline
 nsresult
 AddDocStyleSheet
 (
-StyleSheetHandle
+StyleSheet
+*
 aSheet
 nsIDocument
 *
