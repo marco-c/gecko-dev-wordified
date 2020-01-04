@@ -13197,8 +13197,14 @@ the
 content
 if
 (
+(
 aStateFlags
 &
+transferStart
+)
+=
+=
+=
 transferStart
 )
 this
