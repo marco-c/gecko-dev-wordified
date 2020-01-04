@@ -2550,7 +2550,7 @@ iframeReferrerPolicy
 iframe
 -
 >
-GetReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 ;

@@ -699,7 +699,7 @@ RelList
 )
 ;
 void
-SetReferrer
+SetReferrerPolicy
 (
 const
 nsAString
@@ -718,14 +718,14 @@ SetHTMLAttr
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 aValue
 rv
 )
 ;
 }
 void
-GetReferrer
+GetReferrerPolicy
 (
 nsAString
 &
@@ -737,7 +737,7 @@ GetHTMLAttr
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 aReferrer
 )
 ;

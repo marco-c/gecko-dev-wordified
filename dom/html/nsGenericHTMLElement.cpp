@@ -6203,7 +6203,7 @@ aAttribute
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 )
 {
 return

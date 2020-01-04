@@ -78357,7 +78357,7 @@ AsElement
 )
 -
 >
-GetReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 ;
