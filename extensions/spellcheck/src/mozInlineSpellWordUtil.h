@@ -959,7 +959,7 @@ mSoftTextValid
 false
 ;
 }
-void
+nsresult
 EnsureWords
 (
 )
@@ -1233,12 +1233,12 @@ BuildSoftText
 Build
 mRealWords
 array
-void
+nsresult
 BuildRealWords
 (
 )
 ;
-void
+nsresult
 SplitDOMWord
 (
 int32_t
