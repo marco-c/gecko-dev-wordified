@@ -1787,6 +1787,9 @@ aStatus
 =
 =
 NS_OK
+&
+&
+mChannel
 )
 {
 /
