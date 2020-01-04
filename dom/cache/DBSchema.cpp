@@ -6519,7 +6519,7 @@ foundCache
 )
 {
 return
-NS_ERROR_DOM_NOT_FOUND_ERR
+NS_OK
 ;
 }
 rv
