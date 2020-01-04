@@ -111,11 +111,7 @@ objdir
 '
 obj
 -
-add
--
-on
--
-devel
+firefox
 '
     
 '
