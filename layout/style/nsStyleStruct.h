@@ -13043,8 +13043,6 @@ MaxDifference
 {
 return
 NS_STYLE_HINT_FRAMECHANGE
-|
-nsChangeHint_NeutralChange
 ;
 }
 static
@@ -13140,18 +13138,6 @@ nsStyleConsts
 h
 uint8_t
 mTextOrientation
-;
-/
-/
-[
-inherited
-]
-see
-nsStyleConsts
-.
-h
-uint8_t
-mColorAdjust
 ;
 /
 /
