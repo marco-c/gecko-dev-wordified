@@ -1997,6 +1997,14 @@ eFullscreenError
 )
 NS_EVENT_MESSAGE
 (
+eMozFullscreenChange
+)
+NS_EVENT_MESSAGE
+(
+eMozFullscreenError
+)
+NS_EVENT_MESSAGE
+(
 eTouchStart
 )
 NS_EVENT_MESSAGE

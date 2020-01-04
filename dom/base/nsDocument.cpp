@@ -51055,7 +51055,7 @@ aTarget
 NS_LITERAL_STRING
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 /
@@ -61943,7 +61943,7 @@ we
 must
 dispatch
 "
-mozfullscreenchange
+fullscreenchange
 "
 .
 /
@@ -62046,7 +62046,7 @@ changed
 /
 Dispatch
 "
-mozfullscreenchange
+fullscreenchange
 "
 events
 .
@@ -63235,7 +63235,7 @@ this
 NS_LITERAL_STRING
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 )
 true
@@ -66432,7 +66432,7 @@ we
 must
 dispatch
 "
-mozfullscreenchange
+fullscreenchange
 "
 /
 /
@@ -67256,7 +67256,7 @@ true
 /
 Dispatch
 "
-mozfullscreenchange
+fullscreenchange
 "
 events
 .
