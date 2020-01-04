@@ -488,6 +488,14 @@ config
 '
                 
 '
+ensure
+-
+firefox
+-
+checkout
+'
+                
+'
 download
 -
 and
