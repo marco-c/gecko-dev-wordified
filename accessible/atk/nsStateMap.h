@@ -864,7 +864,7 @@ FLOATING
 <
 12
 {
-kNone
+ATK_STATE_CHECKABLE
 kMapDirectly
 }
 /
