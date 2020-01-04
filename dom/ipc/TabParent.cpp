@@ -583,6 +583,13 @@ h
 #
 include
 "
+nsIWindowWatcher
+.
+h
+"
+#
+include
+"
 nsIWebBrowserChrome
 .
 h
@@ -887,6 +894,12 @@ mozilla
 :
 :
 gfx
+;
+using
+mozilla
+:
+:
+Unused
 ;
 /
 /

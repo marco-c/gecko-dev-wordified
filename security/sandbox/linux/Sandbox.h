@@ -245,8 +245,6 @@ SandboxEarlyInit
 (
 GeckoProcessType
 aType
-bool
-aIsNuwa
 )
 ;
 #

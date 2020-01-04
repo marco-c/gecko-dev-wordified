@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 nsPIWindowRoot
 .
 h
