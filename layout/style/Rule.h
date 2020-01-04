@@ -236,10 +236,6 @@ mColumnNumber
 (
 aColumnNumber
 )
-mWasMatched
-(
-false
-)
 {
 }
 Rule
@@ -273,10 +269,6 @@ mColumnNumber
 aCopy
 .
 mColumnNumber
-)
-mWasMatched
-(
-false
 )
 {
 }
@@ -855,13 +847,6 @@ mLineNumber
 ;
 uint32_t
 mColumnNumber
-:
-31
-;
-uint32_t
-mWasMatched
-:
-1
 ;
 }
 ;

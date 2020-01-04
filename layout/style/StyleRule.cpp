@@ -8177,17 +8177,6 @@ RuleMatched
 (
 )
 {
-if
-(
-!
-mWasMatched
-)
-{
-mWasMatched
-=
-true
-;
-}
 mDeclaration
 -
 >
