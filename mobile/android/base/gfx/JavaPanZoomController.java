@@ -6083,6 +6083,13 @@ mTarget
 setViewportMetrics
 (
 newMetrics
+.
+setPageRectFrom
+(
+getMetrics
+(
+)
+)
 )
 ;
 }
@@ -6122,6 +6129,13 @@ mTarget
 setViewportMetrics
 (
 mBounceEndMetrics
+.
+setPageRectFrom
+(
+getMetrics
+(
+)
+)
 )
 ;
 }
