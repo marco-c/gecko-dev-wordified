@@ -454,6 +454,10 @@ mResetRequested
 (
 false
 )
+mTableUpdate
+(
+nullptr
+)
 {
 }
 ProtocolParser
