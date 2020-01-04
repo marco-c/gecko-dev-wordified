@@ -617,9 +617,7 @@ title
 =
 videoElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 .

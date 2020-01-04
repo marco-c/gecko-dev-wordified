@@ -1835,9 +1835,7 @@ contentWindow
 =
 plugin
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 cwu
@@ -3536,9 +3534,7 @@ principal
 =
 objLoadingContent
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 .
@@ -4102,9 +4098,7 @@ contentWindow
 =
 plugin
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 ;

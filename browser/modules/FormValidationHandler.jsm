@@ -294,9 +294,7 @@ aMessage
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 json

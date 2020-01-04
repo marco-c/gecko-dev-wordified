@@ -346,9 +346,7 @@ window
 =
 link
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

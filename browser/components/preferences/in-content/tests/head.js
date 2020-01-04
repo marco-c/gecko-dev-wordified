@@ -65,15 +65,11 @@ style
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
 aElement
-"
-"
 )
 ;
 if

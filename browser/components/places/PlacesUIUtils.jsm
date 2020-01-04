@@ -1450,9 +1450,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

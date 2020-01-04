@@ -617,9 +617,7 @@ _content
 =
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 .
@@ -1173,9 +1171,7 @@ win
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 style

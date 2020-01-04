@@ -5800,9 +5800,7 @@ this
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;

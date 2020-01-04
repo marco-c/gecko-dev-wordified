@@ -8052,9 +8052,7 @@ win
 =
 aNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -12967,9 +12965,7 @@ win
 =
 aNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -13069,9 +13065,7 @@ win
 =
 aNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

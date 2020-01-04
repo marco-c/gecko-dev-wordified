@@ -389,9 +389,7 @@ win
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 x

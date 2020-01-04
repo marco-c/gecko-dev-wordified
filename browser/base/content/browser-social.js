@@ -1397,9 +1397,7 @@ win
 =
 linkNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 container

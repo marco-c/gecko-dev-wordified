@@ -486,9 +486,7 @@ if
 (
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 _lastFocusedWindow
@@ -518,9 +516,7 @@ getEntry
 (
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 if

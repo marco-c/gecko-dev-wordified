@@ -682,9 +682,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -1108,9 +1106,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 browser
@@ -1178,9 +1174,7 @@ win
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 targetPromise

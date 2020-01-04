@@ -269,9 +269,7 @@ testWhitelistedPage
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 info
@@ -315,9 +313,7 @@ testBlockedPage
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

@@ -2183,9 +2183,7 @@ win
 =
 aSubview
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 timeoutId
@@ -2294,9 +2292,7 @@ win
 =
 aSubview
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 timeoutId
@@ -3423,9 +3419,7 @@ win
 =
 aPopup
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 eventType

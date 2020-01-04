@@ -431,9 +431,7 @@ browserWin
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 browserWin
 .

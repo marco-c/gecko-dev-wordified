@@ -114,9 +114,7 @@ element
 eventDetails
 element
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

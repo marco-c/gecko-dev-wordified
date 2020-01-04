@@ -3221,9 +3221,7 @@ chromeWindow
 =
 triggerElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 top
 ;

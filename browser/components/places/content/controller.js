@@ -11006,9 +11006,7 @@ tab
 &
 data
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 instanceof
 ChromeWindow
 )

@@ -2707,9 +2707,7 @@ _getBrowser
 (
 )
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

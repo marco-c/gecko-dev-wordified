@@ -1192,9 +1192,7 @@ notification
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
