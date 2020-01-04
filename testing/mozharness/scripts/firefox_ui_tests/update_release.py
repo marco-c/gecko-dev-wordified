@@ -2011,6 +2011,30 @@ abs_work_dir
                 
 )
                 
+binary_path
+=
+self
+.
+install_app
+(
+app
+=
+self
+.
+config
+.
+get
+(
+'
+application
+'
+)
+                                               
+installer_path
+=
+installer_path
+)
+                
 marionette_port
 +
 =
@@ -2023,9 +2047,9 @@ self
 run_test
 (
                     
-installer_path
+binary_path
 =
-installer_path
+binary_path
                     
 env
 =
@@ -2042,6 +2066,44 @@ marionette_port
 =
 marionette_port
                 
+)
+                
+self
+.
+uninstall_app
+(
+)
+                
+#
+Remove
+installer
+which
+is
+not
+needed
+anymore
+                
+self
+.
+info
+(
+'
+Removing
+{
+}
+'
+.
+format
+(
+installer_path
+)
+)
+                
+os
+.
+remove
+(
+installer_path
 )
                 
 if
