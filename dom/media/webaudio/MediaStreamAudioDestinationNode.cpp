@@ -230,7 +230,7 @@ mDOMStream
 DOMAudioNodeMediaStream
 :
 :
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 GetOwner
 (

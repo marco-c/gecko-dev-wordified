@@ -3154,7 +3154,7 @@ already_AddRefed
 <
 DOMMediaStream
 >
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -3191,7 +3191,7 @@ already_AddRefed
 <
 DOMMediaStream
 >
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -3229,7 +3229,7 @@ already_AddRefed
 <
 DOMMediaStream
 >
-CreateAudioCaptureStream
+CreateAudioCaptureStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -4594,7 +4594,7 @@ already_AddRefed
 <
 DOMLocalMediaStream
 >
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -4630,7 +4630,7 @@ already_AddRefed
 <
 DOMLocalMediaStream
 >
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -4717,7 +4717,7 @@ already_AddRefed
 <
 DOMAudioNodeMediaStream
 >
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *

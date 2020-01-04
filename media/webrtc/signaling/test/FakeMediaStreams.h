@@ -2173,7 +2173,7 @@ already_AddRefed
 <
 Fake_DOMMediaStream
 >
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 nsPIDOMWindowInner
 *
