@@ -155,11 +155,11 @@ VideoEncoder
 interface
 .
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return
@@ -343,11 +343,11 @@ VideoDecoder
 interface
 .
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return

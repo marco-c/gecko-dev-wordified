@@ -2226,10 +2226,10 @@ is
 received
 virtual
 TrackID
-const
 trackid_locked
 (
 )
+const
 {
 return
 listener_

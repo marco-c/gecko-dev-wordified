@@ -653,7 +653,6 @@ aDesiredTime
 override
 {
 }
-const
 dom
 :
 :
@@ -661,6 +660,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 override
 {
 return
@@ -1047,7 +1047,6 @@ false
 ;
 }
 virtual
-const
 dom
 :
 :
@@ -1055,6 +1054,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 override
 {
 return

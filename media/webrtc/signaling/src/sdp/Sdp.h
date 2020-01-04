@@ -1122,7 +1122,6 @@ return
 mSessionVersion
 ;
 }
-const
 sdp
 :
 :

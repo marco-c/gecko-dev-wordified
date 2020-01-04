@@ -292,7 +292,6 @@ IsFake
 override
 ;
 virtual
-const
 dom
 :
 :
@@ -300,6 +299,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 override
 {
 return

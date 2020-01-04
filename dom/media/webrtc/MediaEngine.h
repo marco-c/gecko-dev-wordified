@@ -765,7 +765,6 @@ etc
 *
 /
 virtual
-const
 dom
 :
 :
@@ -773,6 +772,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 =
 0
 ;
