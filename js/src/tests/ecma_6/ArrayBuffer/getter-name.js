@@ -26,14 +26,6 @@ BUGNUMBER
 summary
 )
 ;
-/
-/
-FIXME
-:
-bug
-1165053
-/
-/
 assertEq
 (
 Object

@@ -5153,3 +5153,16 @@ return
 this
 ;
 }
+_SetCanonicalName
+(
+RegExpSpecies
+"
+get
+[
+Symbol
+.
+species
+]
+"
+)
+;
