@@ -4111,6 +4111,14 @@ getFilenameForDate
 ;
 fp
 .
+defaultExtension
+=
+"
+json
+"
+;
+fp
+.
 displayDirectory
 =
 backupsDir
