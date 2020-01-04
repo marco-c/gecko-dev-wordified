@@ -947,11 +947,6 @@ mIsHyperText
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-ProxyAccessibleBase
-)
-;
 }
 protected
 :
