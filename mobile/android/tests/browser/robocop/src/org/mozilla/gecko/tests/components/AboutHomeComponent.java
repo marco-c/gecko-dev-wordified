@@ -364,7 +364,7 @@ R
 .
 id
 .
-home_pager_container
+home_screen_container
 )
 ;
 }
