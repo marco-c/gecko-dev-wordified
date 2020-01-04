@@ -3828,6 +3828,10 @@ target
 void
 ClearTarget
 (
+bool
+aRetainBuffer
+=
+false
 )
 ;
 /
