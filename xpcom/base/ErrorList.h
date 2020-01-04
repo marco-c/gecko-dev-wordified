@@ -7122,14 +7122,6 @@ xpc
 msg
 *
 /
-ERROR
-(
-NS_SUCCESS_I_DID_SOMETHING
-SUCCESS
-(
-1
-)
-)
 #
 undef
 MODULE
