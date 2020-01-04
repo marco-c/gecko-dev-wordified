@@ -712,6 +712,15 @@ MOZ_GTK_ENTRY
 *
 Paints
 a
+GtkTextView
+.
+*
+/
+MOZ_GTK_TEXT_VIEW
+/
+*
+Paints
+a
 GtkOptionMenu
 .
 *
