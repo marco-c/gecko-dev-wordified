@@ -178,9 +178,6 @@ namespace
 layers
 {
 class
-BufferTextureClient
-;
-class
 ImageClient
 ;
 class
@@ -281,11 +278,6 @@ GetSize
 )
 override
 ;
-size_t
-GetBufferSize
-(
-)
-;
 already_AddRefed
 <
 gfx
@@ -329,7 +321,7 @@ mCompositable
 ;
 RefPtr
 <
-BufferTextureClient
+TextureClient
 >
 mTextureClient
 ;

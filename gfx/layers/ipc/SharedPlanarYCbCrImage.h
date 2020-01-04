@@ -201,9 +201,6 @@ namespace
 layers
 {
 class
-BufferTextureClient
-;
-class
 ImageClient
 ;
 class
@@ -350,7 +347,7 @@ private
 :
 RefPtr
 <
-BufferTextureClient
+TextureClient
 >
 mTextureClient
 ;
