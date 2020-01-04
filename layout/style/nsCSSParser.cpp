@@ -7099,7 +7099,7 @@ we
 re
 parsing
 into
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -7840,7 +7840,7 @@ such
 .
 InfallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -11836,7 +11836,7 @@ aURI
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSKeyframeRule
 >
@@ -17220,6 +17220,32 @@ keyframes
 )
 |
 |
+(
+nsCSSProps
+:
+:
+IsEnabled
+(
+eCSSPropertyAlias_WebkitAnimation
+)
+&
+&
+mToken
+.
+mIdent
+.
+LowerCaseEqualsLiteral
+(
+"
+-
+webkit
+-
+keyframes
+"
+)
+)
+|
+|
 mToken
 .
 mIdent
@@ -19295,7 +19321,7 @@ the
 /
 '
 .
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -19747,7 +19773,7 @@ void
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -19937,7 +19963,7 @@ uint32_t
 aColumnNumber
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -20322,7 +20348,7 @@ void
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -20368,7 +20394,7 @@ reporting
 throughout
 the
 method
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -21050,7 +21076,7 @@ true
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -21299,7 +21325,7 @@ aPrefix
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -21448,7 +21474,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSFontFaceRule
 >
@@ -21996,7 +22022,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSFontFeatureValuesRule
 >
@@ -23075,7 +23101,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSKeyframesRule
 >
@@ -23101,7 +23127,7 @@ true
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSKeyframeRule
 >
@@ -23285,7 +23311,7 @@ ownership
 of
 declaration
 .
-RefPtr
+nsRefPtr
 <
 nsCSSPageRule
 >
@@ -23415,7 +23441,7 @@ contents
 of
 selectorList
 .
-RefPtr
+nsRefPtr
 <
 nsCSSKeyframeRule
 >
@@ -23859,7 +23885,7 @@ this
 conditionMet
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -25080,7 +25106,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSCounterStyleRule
 >
@@ -28006,7 +28032,7 @@ block
 into
 style
 data
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -43534,7 +43560,7 @@ UngetToken
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -44147,7 +44173,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -44412,7 +44438,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >
@@ -44587,7 +44613,7 @@ kImageOrientationFlipKTable
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -50656,7 +50682,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -51955,7 +51981,7 @@ token
 nsCSSValue
 rowsValue
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -54472,7 +54498,7 @@ bool
 aIsLegacy
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValueGradient
 >
@@ -54978,7 +55004,7 @@ bool
 aIsLegacy
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValueGradient
 >
@@ -62299,7 +62325,7 @@ NS_STYLE_BG_ORIGIN_PADDING
 eCSSUnit_Enumerated
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -64957,7 +64983,7 @@ nsCSSValue
 aOut
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -69127,7 +69153,7 @@ of
 length
 1
 .
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -69493,7 +69519,7 @@ RequireWhitespace
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -70177,7 +70203,7 @@ hadWS
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -71830,7 +71856,7 @@ with
 three
 values
 .
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -75824,7 +75850,7 @@ nsCSSValue
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -76651,7 +76677,7 @@ Length
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -77105,7 +77131,7 @@ Length
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -80862,7 +80888,7 @@ Length
 MAX_ALLOWED_ELEMS
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -82567,7 +82593,7 @@ item
 mNext
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -82829,7 +82855,7 @@ eCSSKeyword_circle
 :
 3
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -82912,7 +82938,7 @@ nsCSSValue
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -83052,7 +83078,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -85192,7 +85218,7 @@ state
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -85476,7 +85502,7 @@ state
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -87354,7 +87380,7 @@ box
 shadow
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -89521,7 +89547,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
