@@ -271,7 +271,7 @@ process
 and
 exposes
 the
-SimplePush
+Push
 API
 *
 to

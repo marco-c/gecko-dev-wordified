@@ -7122,9 +7122,9 @@ object
 sent
 by
 *
-navigator
-.
+the
 push
+manager
 identifying
 the
 sending
