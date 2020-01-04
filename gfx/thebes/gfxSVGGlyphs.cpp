@@ -1207,7 +1207,7 @@ ImageTracker
 )
 -
 >
-SetImagesNeedAnimating
+SetAnimatingState
 (
 true
 )

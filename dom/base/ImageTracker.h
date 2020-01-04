@@ -255,7 +255,7 @@ locked
 or
 not
 via
-SetImageLockingState
+SetLockingState
 (
 )
 .
@@ -302,7 +302,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 ImageTracker
 )
 nsresult
-AddImage
+Add
 (
 imgIRequest
 *
@@ -317,7 +317,7 @@ REQUEST_DISCARD
 }
 ;
 nsresult
-RemoveImage
+Remove
 (
 imgIRequest
 *
@@ -353,7 +353,7 @@ unlocked
 false
 .
 nsresult
-SetImageLockingState
+SetLockingState
 (
 bool
 aLocked
@@ -405,7 +405,7 @@ can
 suspend
 .
 void
-SetImagesNeedAnimating
+SetAnimatingState
 (
 bool
 aAnimating
@@ -431,13 +431,13 @@ imgIRequest
 >
 uint32_t
 >
-mImageTracker
+mImages
 ;
 bool
-mLockingImages
+mLocking
 ;
 bool
-mAnimatingImages
+mAnimating
 ;
 }
 ;

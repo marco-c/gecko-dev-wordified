@@ -11241,7 +11241,7 @@ ImageTracker
 )
 -
 >
-AddImage
+Add
 (
 mImage
 )
@@ -11340,7 +11340,7 @@ ImageTracker
 )
 -
 >
-RemoveImage
+Remove
 (
 mImage
 )
@@ -19523,7 +19523,7 @@ ImageTracker
 )
 -
 >
-AddImage
+Add
 (
 mContent
 .
@@ -19643,7 +19643,7 @@ ImageTracker
 )
 -
 >
-RemoveImage
+Remove
 (
 mContent
 .
