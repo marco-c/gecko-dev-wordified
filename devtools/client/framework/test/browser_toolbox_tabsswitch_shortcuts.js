@@ -520,9 +520,7 @@ true
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 let

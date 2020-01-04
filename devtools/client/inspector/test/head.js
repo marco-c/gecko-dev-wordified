@@ -3144,9 +3144,7 @@ inspector
 .
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 executeSoon

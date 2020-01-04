@@ -589,9 +589,7 @@ tabButton
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -658,9 +656,7 @@ settingsButton
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -810,9 +806,7 @@ button
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -880,9 +874,7 @@ true
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -940,9 +932,7 @@ button
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
@@ -1010,9 +1000,7 @@ true
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield
