@@ -179,7 +179,7 @@ namespace
 mozilla
 ;
 class
-DataStorageTest
+psm_DataStorageTest
 :
 public
 :
@@ -292,7 +292,7 @@ private
 ;
 TEST_F
 (
-DataStorageTest
+psm_DataStorageTest
 GetPutRemove
 )
 {
@@ -792,7 +792,7 @@ IsEmpty
 }
 TEST_F
 (
-DataStorageTest
+psm_DataStorageTest
 InputValidation
 )
 {
@@ -1297,7 +1297,7 @@ IsEmpty
 }
 TEST_F
 (
-DataStorageTest
+psm_DataStorageTest
 Eviction
 )
 {
@@ -1530,7 +1530,7 @@ get
 }
 TEST_F
 (
-DataStorageTest
+psm_DataStorageTest
 ClearPrivateData
 )
 {
@@ -1618,7 +1618,7 @@ IsEmpty
 }
 TEST_F
 (
-DataStorageTest
+psm_DataStorageTest
 Shutdown
 )
 {

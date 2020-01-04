@@ -301,7 +301,7 @@ MaxCacheEntries
 1024
 ;
 class
-OCSPCacheTest
+psm_OCSPCacheTest
 :
 public
 :
@@ -313,7 +313,7 @@ Test
 {
 protected
 :
-OCSPCacheTest
+psm_OCSPCacheTest
 (
 )
 :
@@ -554,7 +554,7 @@ LiteralInput
 ;
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 TestPutAndGet
 )
 {
@@ -631,7 +631,7 @@ timeOut
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 TestVariousGets
 )
 {
@@ -970,7 +970,7 @@ timeOut
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 TestEviction
 )
 {
@@ -1135,7 +1135,7 @@ timeOut
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 TestNoEvictionForRevokedResponses
 )
 {
@@ -1371,7 +1371,7 @@ timeOut
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 TestEverythingIsRevoked
 )
 {
@@ -1707,7 +1707,7 @@ result
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 VariousIssuers
 )
 {
@@ -1866,7 +1866,7 @@ timeOut
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 Times
 )
 {
@@ -2017,7 +2017,7 @@ TimeFromElapsedSecondsAD
 }
 TEST_F
 (
-OCSPCacheTest
+psm_OCSPCacheTest
 NetworkFailure
 )
 {

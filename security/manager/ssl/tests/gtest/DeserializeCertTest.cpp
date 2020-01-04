@@ -296,7 +296,7 @@ bug
 .
 TEST
 (
-DeserializeCert
+psm_DeserializeCert
 gecko33
 )
 {
@@ -516,7 +516,7 @@ cert
 }
 TEST
 (
-DeserializeCert
+psm_DeserializeCert
 gecko46
 )
 {
