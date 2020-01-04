@@ -9974,6 +9974,7 @@ document
 >
 GetUpgradeInsecureRequests
 (
+false
 )
 )
 {

@@ -44898,7 +44898,7 @@ nsContentPolicyType
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrScript
+InternalContentPolicyTypeToExternalOrMCBInternal
 (
 nsContentPolicyType
 aType
@@ -44939,7 +44939,7 @@ aType
 default
 :
 return
-InternalContentPolicyTypeToExternal
+InternalContentPolicyTypeToExternalOrPreload
 (
 aType
 )
