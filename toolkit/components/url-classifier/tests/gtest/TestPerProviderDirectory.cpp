@@ -446,7 +446,7 @@ store
 .
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV2
 >
 (
 "
@@ -489,7 +489,7 @@ directory
 .
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV4
 >
 (
 "
@@ -507,7 +507,7 @@ false
 ;
 VerifyPrivateStorePath
 <
-LookupCache
+LookupCacheV4
 >
 (
 "
