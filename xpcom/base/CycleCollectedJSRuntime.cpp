@@ -3724,7 +3724,7 @@ JS
 :
 SetWarningReporter
 (
-mJSRuntime
+mJSContext
 MozCrashWarningReporter
 )
 ;

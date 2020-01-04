@@ -35123,9 +35123,9 @@ WarningReporter
 )
 SetWarningReporter
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 WarningReporter
 reporter
 )
@@ -35137,9 +35137,9 @@ WarningReporter
 )
 GetWarningReporter
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
