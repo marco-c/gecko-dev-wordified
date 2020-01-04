@@ -11038,6 +11038,10 @@ mCurrentSeek
 mTarget
 .
 mTime
++
+StartTime
+(
+)
 Duration
 (
 )
