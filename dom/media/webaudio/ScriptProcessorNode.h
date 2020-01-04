@@ -212,7 +212,8 @@ aGivenProto
 override
 ;
 virtual
-void
+AudioNode
+*
 Connect
 (
 AudioNode
@@ -228,6 +229,10 @@ aRv
 )
 override
 {
+AudioNode
+*
+node
+=
 AudioNode
 :
 :
@@ -254,6 +259,9 @@ UpdateConnectedStatus
 )
 ;
 }
+return
+node
+;
 }
 virtual
 void
