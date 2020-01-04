@@ -650,11 +650,9 @@ different
 NS_UpdateHint
 (
 retval
-NS_CombineHint
-(
 nsChangeHint_UpdatePostTransformOverflow
+|
 nsChangeHint_UpdateTransformLayer
-)
 )
 ;
 }
