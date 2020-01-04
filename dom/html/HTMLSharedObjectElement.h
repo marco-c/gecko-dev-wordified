@@ -1095,15 +1095,7 @@ nsIDocument
 *
 GetSVGDocument
 (
-const
-mozilla
-:
-:
-Maybe
-<
 nsIPrincipal
-*
->
 &
 aSubjectPrincipal
 )
