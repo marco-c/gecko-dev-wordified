@@ -1187,6 +1187,7 @@ commit
 }
 reportJavaCrash
 (
+exc
 getExceptionStackTrace
 (
 exc
@@ -1668,12 +1669,18 @@ calls
 helper
 methods
 WrapForJNI
-private
+/
+*
+package
+*
+/
 static
 native
 void
 reportJavaCrash
 (
+Throwable
+exc
 String
 stackTrace
 )

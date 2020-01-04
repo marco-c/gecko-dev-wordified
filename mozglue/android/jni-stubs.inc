@@ -39,6 +39,7 @@ Java_org_mozilla_gecko_GeckoAppShell_reportJavaCrash_t
 JNIEnv
 *
 jclass
+jthrowable
 jstring
 )
 ;
@@ -60,8 +61,10 @@ JNIEnv
 arg0
 jclass
 arg1
-jstring
+jthrowable
 arg2
+jstring
+arg3
 )
 {
 if
@@ -107,6 +110,7 @@ f_Java_org_mozilla_gecko_GeckoAppShell_reportJavaCrash
 arg0
 arg1
 arg2
+arg3
 )
 ;
 }
