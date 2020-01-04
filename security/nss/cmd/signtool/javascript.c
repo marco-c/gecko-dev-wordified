@@ -11465,6 +11465,16 @@ PL_strdup
 path
 )
 ;
+if
+(
+!
+Path
+)
+{
+return
+0
+;
+}
 start
 =
 strpbrk
@@ -11483,8 +11493,8 @@ if
 start
 )
 {
-return
-0
+goto
+loser
 ;
 }
 start

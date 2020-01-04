@@ -211,7 +211,7 @@ Connect
 }
 TEST_P
 (
-TlsConnectTls12Plus
+TlsConnectTls12
 ConnectExtendedMasterSecretSha384
 )
 {
