@@ -1443,7 +1443,11 @@ friend
 class
 MutableBindingsOperations
 ;
-RelocatablePtrShape
+HeapPtr
+<
+Shape
+*
+>
 callObjShape_
 ;
 uintptr_t
@@ -2461,7 +2465,11 @@ underlying
 bindings
 .
 const
-RelocatablePtrShape
+HeapPtr
+<
+Shape
+*
+>
 &
 callObjShape
 (

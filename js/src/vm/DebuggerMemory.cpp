@@ -1637,13 +1637,13 @@ the
 AllocationsLogEntry
 '
 s
-RelocatablePtr
+HeapPtr
 barriers
 run
 atomically
-/
-/
 with
+/
+/
 the
 change
 to
@@ -1651,7 +1651,7 @@ the
 graph
 (
 the
-queeue
+queue
 link
 )
 .

@@ -2158,7 +2158,7 @@ GCHashMap
 js
 :
 :
-RelocatablePtr
+HeapPtr
 <
 JSFlatString
 *

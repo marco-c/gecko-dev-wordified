@@ -846,7 +846,11 @@ the
 actual
 method
 .
-RelocatablePtrJitCode
+HeapPtr
+<
+JitCode
+*
+>
 method_
 ;
 /
@@ -885,7 +889,11 @@ enclosing
 scope
 )
 .
-RelocatablePtrObject
+HeapPtr
+<
+JSObject
+*
+>
 templateScope_
 ;
 /

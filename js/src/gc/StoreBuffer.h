@@ -483,7 +483,7 @@ up
 temporary
 instances
 of
-RelocatablePtr
+HeapPtr
 .
 *
 /

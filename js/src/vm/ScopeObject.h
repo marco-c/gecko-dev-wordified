@@ -7886,7 +7886,11 @@ MissingScopeKey
 AbstractFramePtr
 frame_
 ;
-RelocatablePtrObject
+HeapPtr
+<
+JSObject
+*
+>
 staticScope_
 ;
 static

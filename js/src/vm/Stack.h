@@ -7627,7 +7627,7 @@ jsbytecode
 *
 pc
 ;
-RelocatablePtr
+HeapPtr
 <
 SavedFrame
 *
