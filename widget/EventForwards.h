@@ -622,6 +622,9 @@ BaseEventFlags
 struct
 EventFlags
 ;
+class
+WidgetEventTime
+;
 /
 /
 TextEvents
