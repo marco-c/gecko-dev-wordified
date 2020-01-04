@@ -242,6 +242,17 @@ h
 #
 include
 "
+jit
+/
+MacroAssembler
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 Stack
