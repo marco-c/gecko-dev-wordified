@@ -440,9 +440,10 @@ _
 StringCharAt
 )
 \
+\
 _
 (
-StringReplace
+IntrinsicStringReplaceString
 )
 \
 \

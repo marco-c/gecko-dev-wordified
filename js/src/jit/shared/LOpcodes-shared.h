@@ -1133,11 +1133,6 @@ RegExpInstanceOptimizable
 \
 _
 (
-RegExpReplace
-)
-\
-_
-(
 StringReplace
 )
 \
