@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 KeyframeUtils
 .
 h

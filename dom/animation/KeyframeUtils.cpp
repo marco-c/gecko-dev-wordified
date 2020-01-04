@@ -211,6 +211,13 @@ h
 #
 include
 "
+nsCSSPropertyIDSet
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h
