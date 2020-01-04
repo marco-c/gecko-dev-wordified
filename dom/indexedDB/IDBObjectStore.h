@@ -406,6 +406,15 @@ IDBIndex
 >
 mIndexes
 ;
+nsTArray
+<
+RefPtr
+<
+IDBIndex
+>
+>
+mDeletedIndexes
+;
 const
 int64_t
 mId
