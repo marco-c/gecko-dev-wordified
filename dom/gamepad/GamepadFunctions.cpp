@@ -377,10 +377,6 @@ aNumButtons
 aNumAxes
 )
 ;
-gGamepadIndex
-+
-+
-;
 NotifyGamepadChange
 <
 GamepadAdded
