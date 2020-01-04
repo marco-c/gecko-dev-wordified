@@ -892,6 +892,11 @@ log
 "
 log
 "
+clear
+:
+"
+log
+"
 trace
 :
 "
