@@ -570,6 +570,12 @@ ES2_OPENGL
 ES3_OPENGL
 (
 )
+ES2_OPENGLES
+(
+)
+ES3_OPENGLES
+(
+)
 )
 ;
 }

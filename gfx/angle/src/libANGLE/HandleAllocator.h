@@ -269,6 +269,10 @@ mReleasedList
 }
 ;
 }
+/
+/
+namespace
+gl
 #
 endif
 /

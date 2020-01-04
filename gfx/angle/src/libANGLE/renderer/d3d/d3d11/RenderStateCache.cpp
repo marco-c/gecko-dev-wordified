@@ -601,12 +601,6 @@ framebufferD3D
 >
 getColorAttachmentsForRender
 (
-mRenderer
--
->
-getWorkarounds
-(
-)
 )
 ;
 BlendStateKey

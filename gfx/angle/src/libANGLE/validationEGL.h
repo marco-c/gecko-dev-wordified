@@ -319,9 +319,17 @@ Error
 ValidateCompatibleConfigs
 (
 const
+Display
+*
+display
+const
 Config
 *
 config1
+const
+Surface
+*
+surface
 const
 Config
 *

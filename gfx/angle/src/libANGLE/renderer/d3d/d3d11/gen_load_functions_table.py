@@ -187,6 +187,21 @@ renderer
 /
 d3d
 /
+d3d11
+/
+texture_format_table
+.
+h
+"
+#
+include
+"
+libANGLE
+/
+renderer
+/
+d3d
+/
 loadimage
 .
 h
@@ -434,7 +449,7 @@ std
 map
 <
 GLenum
-LoadImageFunction
+LoadImageFunctionInfo
 >
 &
 GetLoadFunctionsMap
@@ -443,7 +458,7 @@ GLenum
 {
 internal_format
 }
-                                                               
+                                                                   
 DXGI_FORMAT
 {
 dxgi_format
@@ -485,7 +500,7 @@ std
 map
 <
 GLenum
-LoadImageFunction
+LoadImageFunctionInfo
 >
 emptyLoadFunctionsMap
 ;
@@ -546,6 +561,7 @@ get_function_maps_string
 (
 typestr
 function
+requiresConversion
 )
 :
     
@@ -560,11 +576,19 @@ typestr
 '
 ]
 =
+LoadImageFunctionInfo
+(
 '
 +
 function
 +
 '
+'
++
+requiresConversion
++
+'
+)
 ;
 \
 n
@@ -619,6 +643,9 @@ unknown_type_function
 loadFunction
 '
 ]
+'
+true
+'
 )
      
 return
@@ -747,7 +774,7 @@ std
 map
 <
 GLenum
-LoadImageFunction
+LoadImageFunctionInfo
 >
 loadFunctionsMap
 =
@@ -770,7 +797,7 @@ std
 map
 <
 GLenum
-LoadImageFunction
+LoadImageFunctionInfo
 >
 loadMap
 ;
@@ -996,27 +1023,6 @@ dxgi_format_item
 )
 :
                 
-#
-type_function
-[
-'
-requiresConversion
-'
-]
-element
-is
-not
-in
-use
-at
-the
-moment
-but
-may
-be
-needed
-later
-                
 insert_map_string
 +
 =
@@ -1032,6 +1038,12 @@ type_function
 [
 '
 loadFunction
+'
+]
+type_function
+[
+'
+requiresConversion
 '
 ]
 )
@@ -1117,6 +1129,9 @@ unknown_type_function
 loadFunction
 '
 ]
+'
+true
+'
 )
             
 table_data

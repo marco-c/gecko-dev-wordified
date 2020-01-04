@@ -191,6 +191,8 @@ config
 width
 height
 EGL_TRUE
+0
+EGL_FALSE
 shareHandle
 NULL
 )
@@ -224,9 +226,13 @@ window
 EGLint
 fixedSize
 EGLint
+directComposition
+EGLint
 width
 EGLint
 height
+EGLint
+orientation
 )
 {
 return
@@ -239,6 +245,8 @@ config
 width
 height
 fixedSize
+orientation
+directComposition
 static_cast
 <
 EGLClientBuffer
@@ -277,6 +285,10 @@ EGLint
 height
 EGLint
 fixedSize
+EGLint
+orientation
+EGLint
+directComposition
 EGLClientBuffer
 shareHandle
 EGLNativeWindowType
@@ -300,6 +312,10 @@ fixedSize
 =
 =
 EGL_TRUE
+)
+mOrientation
+(
+orientation
 )
 mRenderTargetFormat
 (
@@ -327,6 +343,10 @@ mNativeWindow
 (
 window
 config
+directComposition
+=
+=
+EGL_TRUE
 )
 mWidth
 (
@@ -654,6 +674,7 @@ mNativeWindow
 mShareHandle
 mRenderTargetFormat
 mDepthStencilFormat
+mOrientation
 )
 ;
 if

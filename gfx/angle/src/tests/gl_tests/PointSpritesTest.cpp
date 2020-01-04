@@ -1004,6 +1004,12 @@ PointSpritesTest
 PointWithoutAttributesCompliance
 )
 {
+/
+/
+clang
+-
+format
+off
 const
 std
 :
@@ -1059,7 +1065,7 @@ main
 {
 gl_PointSize
 =
-1
+2
 .
 0
 ;
@@ -1084,6 +1090,12 @@ vec4
 }
 )
 ;
+/
+/
+clang
+-
+format
+on
 GLuint
 program
 =
@@ -2595,6 +2607,12 @@ ES2_D3D11
 (
 )
 ES2_D3D11_FL9_3
+(
+)
+ES2_OPENGL
+(
+)
+ES2_OPENGLES
 (
 )
 )

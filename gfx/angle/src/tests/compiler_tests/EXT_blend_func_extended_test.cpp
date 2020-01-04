@@ -1156,7 +1156,7 @@ GetParam
 (
 )
 )
-SH_GLSL_OUTPUT
+SH_GLSL_COMPATIBILITY_OUTPUT
 &
 mResources
 )

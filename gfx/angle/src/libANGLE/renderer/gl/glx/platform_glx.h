@@ -472,6 +472,13 @@ GLX_CONTEXT_PROFILE_MASK_ARB
 0x9126
 /
 /
+GLX_EXT_create_context_es2_profile
+#
+define
+GLX_CONTEXT_ES2_PROFILE_BIT_EXT
+0x00000004
+/
+/
 GLX_EXT_texture_from_pixmap
 #
 define
