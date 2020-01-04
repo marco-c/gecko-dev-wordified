@@ -58,6 +58,7 @@ namespace
 jni
 {
 namespace
+detail
 {
 /
 /
@@ -208,6 +209,14 @@ val
 }
 ;
 }
+/
+/
+namespace
+detail
+using
+namespace
+detail
+;
 /
 /
 Base

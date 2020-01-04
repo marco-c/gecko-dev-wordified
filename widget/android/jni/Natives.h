@@ -570,7 +570,9 @@ called
 *
 /
 namespace
+detail
 {
+inline
 uintptr_t
 CheckNativeHandle
 (
@@ -1151,6 +1153,11 @@ ptr
 /
 /
 namespace
+detail
+using
+namespace
+detail
+;
 /
 *
 *
@@ -1440,9 +1447,6 @@ IsVoid
 class
 NativeStubImpl
 ;
-}
-namespace
-{
 /
 /
 ProxyArg
@@ -3115,6 +3119,7 @@ T
 /
 /
 namespace
+detail
 template
 <
 class
