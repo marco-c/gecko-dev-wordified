@@ -1913,12 +1913,14 @@ switch_to_panel
 (
 )
         
+#
 self
 .
 local_start_a_conversation
 (
 )
         
+#
 #
 Check
 the
@@ -1929,12 +1931,14 @@ the
 conversation
 window
         
+#
 self
 .
 local_check_room_self_video
 (
 )
         
+#
 #
 make
 sure
@@ -1947,12 +1951,14 @@ is
 not
 initialized
         
+#
 self
 .
 local_check_media_start_time_uninitialized
 (
 )
         
+#
 room_url
 =
 self
@@ -1961,6 +1967,7 @@ local_get_and_verify_room_url
 (
 )
         
+#
 #
 load
 the
@@ -1973,6 +1980,7 @@ current
 content
 browser
         
+#
 self
 .
 standalone_load_and_join_room
@@ -1981,6 +1989,7 @@ room_url
 )
         
 #
+#
 Check
 we
 get
@@ -1988,12 +1997,14 @@ the
 video
 streams
         
+#
 self
 .
 standalone_check_remote_video
 (
 )
         
+#
 self
 .
 local_check_remote_video
@@ -2001,16 +2012,19 @@ local_check_remote_video
 )
         
 #
+#
 Check
 text
 messaging
         
+#
 self
 .
 check_text_messaging
 (
 )
         
+#
 #
 since
 bi
@@ -2027,16 +2041,19 @@ ve
 set
         
 #
+#
 the
 start
 time
         
+#
 self
 .
 local_check_media_start_time_initialized
 (
 )
         
+#
 #
 Check
 that
@@ -2045,12 +2062,14 @@ was
 automatically
 started
         
+#
 self
 .
 standalone_check_remote_screenshare
 (
 )
         
+#
 #
 We
 hangup
@@ -2067,6 +2086,7 @@ also
 leaves
         
 #
+#
 the
 local
 chatbox
@@ -2079,6 +2099,7 @@ still
 connected
         
 #
+#
 which
 means
 that
@@ -2086,6 +2107,7 @@ the
 local_check_connection_length
 below
         
+#
 #
 verifies
 that
@@ -2101,6 +2123,7 @@ remote
 media
         
 #
+#
 drops
 rather
 than
@@ -2111,12 +2134,14 @@ window
 closes
 .
         
+#
 self
 .
 remote_leave_room
 (
 )
         
+#
 self
 .
 local_check_connection_length_noted
