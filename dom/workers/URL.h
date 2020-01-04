@@ -417,6 +417,9 @@ GetHref
 nsAString
 &
 aHref
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -438,6 +441,9 @@ GetOrigin
 nsAString
 &
 aOrigin
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -447,6 +453,9 @@ GetProtocol
 nsAString
 &
 aProtocol
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -457,6 +466,9 @@ const
 nsAString
 &
 aProtocol
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -465,6 +477,9 @@ GetUsername
 nsAString
 &
 aUsername
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -475,6 +490,9 @@ const
 nsAString
 &
 aUsername
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -483,6 +501,9 @@ GetPassword
 nsAString
 &
 aPassword
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -493,6 +514,9 @@ const
 nsAString
 &
 aPassword
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -501,6 +525,9 @@ GetHost
 nsAString
 &
 aHost
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -511,6 +538,9 @@ const
 nsAString
 &
 aHost
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -519,6 +549,9 @@ GetHostname
 nsAString
 &
 aHostname
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -529,6 +562,9 @@ const
 nsAString
 &
 aHostname
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -537,6 +573,9 @@ GetPort
 nsAString
 &
 aPort
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -547,6 +586,9 @@ const
 nsAString
 &
 aPort
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -555,6 +597,9 @@ GetPathname
 nsAString
 &
 aPathname
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -565,6 +610,9 @@ const
 nsAString
 &
 aPathname
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -573,6 +621,9 @@ GetSearch
 nsAString
 &
 aSearch
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -583,6 +634,9 @@ const
 nsAString
 &
 aSearch
+ErrorResult
+&
+aRv
 )
 ;
 URLSearchParams
@@ -597,6 +651,9 @@ GetHash
 nsAString
 &
 aHost
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -607,6 +664,9 @@ const
 nsAString
 &
 aHash
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -615,12 +675,16 @@ Stringify
 nsAString
 &
 aRetval
+ErrorResult
+&
+aRv
 )
 const
 {
 GetHref
 (
 aRetval
+aRv
 )
 ;
 }
@@ -682,6 +746,9 @@ const
 nsAString
 &
 aSearch
+ErrorResult
+&
+aRv
 )
 ;
 void
