@@ -975,7 +975,8 @@ addon
 name
 "
 Web
-Extension
+Extensi
+n
 foo
 "
 )
@@ -986,7 +987,8 @@ addon
 .
 description
 "
-Descripton
+Descript
+on
 bar
 of
 add
@@ -1029,7 +1031,8 @@ addon
 name
 "
 Web
-Extension
+Extensi
+n
 le
 foo
 "
@@ -1041,7 +1044,8 @@ addon
 .
 description
 "
-Descripton
+Descript
+on
 le
 bar
 of
@@ -1083,7 +1087,8 @@ addon
 name
 "
 Web
-Extension
+Extensi
+n
 foo
 "
 )
@@ -1094,7 +1099,8 @@ addon
 .
 description
 "
-Descripton
+Descript
+on
 bar
 of
 add
