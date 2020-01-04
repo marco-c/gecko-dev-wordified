@@ -440,11 +440,8 @@ const
 Metadata
 &
 metadata
-uint8_t
-*
-memoryBase
-uint32_t
-memoryLength
+HandleWasmMemoryObject
+memory
 )
 ;
 ~
@@ -2335,6 +2332,9 @@ memoryUsage
 ;
 uint32_t
 minMemoryLength
+;
+uint32_t
+maxMemoryLength
 ;
 MetadataCacheablePod
 (

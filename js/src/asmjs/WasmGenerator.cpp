@@ -5980,6 +5980,16 @@ shared_
 >
 minMemoryLength
 ;
+metadata_
+-
+>
+maxMemoryLength
+=
+shared_
+-
+>
+maxMemoryLength
+;
 /
 /
 Assert

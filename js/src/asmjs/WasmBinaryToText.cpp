@@ -8209,7 +8209,7 @@ sigs
 [
 import
 .
-sig
+funcSig
 (
 )
 .
@@ -8327,11 +8327,11 @@ false
 const
 AstName
 &
-funcName
+fieldName
 =
 import
 .
-func
+field
 (
 )
 ;
@@ -8341,7 +8341,7 @@ if
 RenderEscapedString
 (
 c
-funcName
+fieldName
 )
 )
 return
@@ -9362,7 +9362,7 @@ c
 maybeMemory
 -
 >
-initialSize
+initial
 (
 )
 )
@@ -9379,7 +9379,7 @@ memMax
 maybeMemory
 -
 >
-maxSize
+maximum
 (
 )
 ;
