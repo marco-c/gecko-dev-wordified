@@ -1435,9 +1435,6 @@ nsIInputStream
 >
 mPendingDataAfterStartTLS
 ;
-bool
-mObserversActive
-;
 #
 ifdef
 MOZ_WIDGET_GONK
