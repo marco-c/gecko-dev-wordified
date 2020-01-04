@@ -1434,7 +1434,7 @@ mode
 ;
 fp
 .
-appendFilters
+appendFilter
 (
 getString
 (
