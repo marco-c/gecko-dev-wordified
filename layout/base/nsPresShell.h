@@ -335,6 +335,9 @@ ZoomConstraintsClient
 h
 "
 class
+nsIDocShell
+;
+class
 nsRange
 ;
 struct
@@ -609,6 +612,9 @@ static
 bool
 AccessibleCaretEnabled
 (
+nsIDocShell
+*
+aDocShell
 )
 ;
 /
