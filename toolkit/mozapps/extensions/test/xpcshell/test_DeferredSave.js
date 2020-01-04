@@ -971,6 +971,7 @@ cleanly
 add_task
 (
 function
+*
 test_basic_save_succeeds
 (
 )
@@ -1053,6 +1054,7 @@ data
 add_task
 (
 function
+*
 test_two_saves
 (
 )
@@ -1212,6 +1214,7 @@ data
 add_task
 (
 function
+*
 test_two_saves_delay
 (
 )
@@ -1481,6 +1484,7 @@ cleared
 add_task
 (
 function
+*
 test_error_immediate
 (
 )
@@ -1668,6 +1672,7 @@ succeeds
 add_task
 (
 function
+*
 dirty_while_writing
 (
 )
@@ -2146,6 +2151,7 @@ save
 add_task
 (
 function
+*
 flush_after_save
 (
 )
@@ -2219,6 +2225,7 @@ clean
 add_task
 (
 function
+*
 flush_during_write
 (
 )
@@ -2419,6 +2426,7 @@ later
 add_task
 (
 function
+*
 flush_while_dirty
 (
 )
@@ -2673,6 +2681,7 @@ later
 add_task
 (
 function
+*
 flush_writing_dirty
 (
 )
@@ -3115,6 +3124,7 @@ save
 add_task
 (
 function
+*
 data_throw
 (
 )
@@ -3182,6 +3192,7 @@ flush
 add_task
 (
 function
+*
 data_throw_during_flush
 (
 )
@@ -3386,6 +3397,7 @@ down
 add_task
 (
 function
+*
 delay_flush_race
 (
 )

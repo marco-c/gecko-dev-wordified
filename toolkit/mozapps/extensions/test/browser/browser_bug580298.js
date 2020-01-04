@@ -65,6 +65,7 @@ gProvider
 add_task
 (
 function
+*
 test
 (
 )

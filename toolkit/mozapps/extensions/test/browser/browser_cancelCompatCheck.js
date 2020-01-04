@@ -1768,6 +1768,7 @@ not
 add_task
 (
 function
+*
 cancel_during_repopulate
 (
 )
@@ -2394,6 +2395,7 @@ background
 add_task
 (
 function
+*
 cancel_during_findUpdates
 (
 )
@@ -2925,6 +2927,7 @@ compatible
 add_task
 (
 function
+*
 cancel_mismatch
 (
 )
@@ -3480,6 +3483,7 @@ available
 add_task
 (
 function
+*
 cancel_mismatch_no_updates
 (
 )

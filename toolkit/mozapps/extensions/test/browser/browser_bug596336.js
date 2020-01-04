@@ -408,6 +408,7 @@ open
 add_task
 (
 function
+*
 (
 )
 {
@@ -571,6 +572,7 @@ open
 add_task
 (
 function
+*
 (
 )
 {
@@ -737,6 +739,7 @@ open
 add_task
 (
 function
+*
 (
 )
 {
@@ -998,6 +1001,7 @@ open
 add_task
 (
 function
+*
 (
 )
 {

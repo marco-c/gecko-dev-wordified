@@ -1485,6 +1485,7 @@ execute
 *
 /
 function
+*
 resultRows
 (
 aStatement
@@ -6388,7 +6389,7 @@ for
 (
 let
 row
-in
+of
 resultRows
 (
 stmt
@@ -6543,7 +6544,7 @@ for
 (
 let
 row
-in
+of
 resultRows
 (
 stmt
@@ -6747,7 +6748,7 @@ for
 (
 let
 row
-in
+of
 resultRows
 (
 taStmt

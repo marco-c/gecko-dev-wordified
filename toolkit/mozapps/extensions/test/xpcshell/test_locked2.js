@@ -389,6 +389,7 @@ extensions
 add_task
 (
 function
+*
 (
 )
 {

@@ -388,6 +388,7 @@ operations
 add_task
 (
 function
+*
 first_run
 (
 )
@@ -421,6 +422,7 @@ re
 -
 check
 function
+*
 trigger_db_load
 (
 )
@@ -490,6 +492,7 @@ again
 add_task
 (
 function
+*
 restart_and_recheck
 (
 )
