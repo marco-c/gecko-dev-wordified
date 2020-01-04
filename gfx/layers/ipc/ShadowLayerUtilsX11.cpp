@@ -647,6 +647,9 @@ CairoSurface
 visualid
 ;
 }
+#
+ifdef
+GL_PROVIDER_GLX
 if
 (
 aForwardGLX
@@ -662,6 +665,8 @@ GetGLXPixmap
 )
 ;
 }
+#
+endif
 }
 SurfaceDescriptorX11
 :
