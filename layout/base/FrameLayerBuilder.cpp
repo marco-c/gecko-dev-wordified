@@ -10080,14 +10080,14 @@ aContext
 >
 SetColor
 (
-gfxRGBA
+Color
 (
 r
 g
 b
 0
 .
-4
+4f
 )
 )
 ;
