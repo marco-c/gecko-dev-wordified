@@ -423,6 +423,11 @@ ISurfaceAllocator
 aAllocator
 )
 ;
+~
+SharedSurfaceTextureClient
+(
+)
+;
 static
 already_AddRefed
 <
