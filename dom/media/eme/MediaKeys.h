@@ -439,7 +439,7 @@ CreateSession
 JSContext
 *
 aCx
-MediaKeySessionType
+SessionType
 aSessionType
 ErrorResult
 &

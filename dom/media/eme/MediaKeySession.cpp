@@ -324,7 +324,7 @@ const
 nsAString
 &
 aCDMVersion
-MediaKeySessionType
+SessionType
 aSessionType
 ErrorResult
 &
@@ -2532,10 +2532,10 @@ if
 mSessionType
 !
 =
-MediaKeySessionType
+SessionType
 :
 :
-Persistent_license
+Persistent
 )
 {
 promise
