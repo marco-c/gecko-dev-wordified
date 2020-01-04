@@ -2861,14 +2861,6 @@ ret
 )
 ;
 void
-visitAsmJSLoadFuncPtr
-(
-LAsmJSLoadFuncPtr
-*
-ins
-)
-;
-void
 visitLexicalCheck
 (
 LLexicalCheck

@@ -2498,15 +2498,8 @@ Global
 Register
 scratch
 =
-WasmTableCallPtrReg
+WasmTableCallScratchReg
 ;
-/
-/
-clobbered
-by
-the
-indirect
-call
 masm
 .
 loadWasmGlobalPtr

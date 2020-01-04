@@ -798,7 +798,7 @@ invalid_reg
 static
 constexpr
 Register
-WasmTableCallPtrReg
+WasmTableCallScratchReg
 =
 {
 Registers
@@ -814,6 +814,18 @@ WasmTableCallSigReg
 =
 {
 Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
+WasmTableCallIndexReg
+=
+{
+Register
 :
 :
 invalid_reg

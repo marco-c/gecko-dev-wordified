@@ -817,6 +817,13 @@ constexpr
 Register
 ABINonArgReg1
 =
+ebx
+;
+static
+constexpr
+Register
+ABINonArgReg2
+=
 ecx
 ;
 /
@@ -886,7 +893,7 @@ other
 static
 constexpr
 Register
-WasmTableCallPtrReg
+WasmTableCallScratchReg
 =
 ABINonArgReg0
 ;
@@ -896,6 +903,13 @@ Register
 WasmTableCallSigReg
 =
 ABINonArgReg1
+;
+static
+constexpr
+Register
+WasmTableCallIndexReg
+=
+ABINonArgReg2
 ;
 static
 constexpr
