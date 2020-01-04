@@ -1795,6 +1795,11 @@ dom
 Selection
 *
 aSelection
+nsIEditor
+:
+:
+EDirection
+aAction
 bool
 *
 aHandled
