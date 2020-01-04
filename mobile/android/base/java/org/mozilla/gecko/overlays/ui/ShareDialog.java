@@ -259,9 +259,9 @@ mozilla
 .
 gecko
 .
-mozglue
+util
 .
-SafeIntentUtils
+IntentUtils
 ;
 import
 org
@@ -1577,9 +1577,9 @@ final
 String
 extraText
 =
-SafeIntentUtils
+IntentUtils
 .
-getStringExtra
+getStringExtraSafe
 (
 intent
 Intent
