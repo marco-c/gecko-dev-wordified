@@ -731,9 +731,15 @@ private
 bool
 DrawDirect
 (
-gfxContext
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
 *
-ctx
+aDT
 mozilla
 :
 :
