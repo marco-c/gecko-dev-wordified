@@ -1021,6 +1021,10 @@ destroyPrincipals
 (
 nullptr
 )
+readPrincipals
+(
+nullptr
+)
 errorReporter
 (
 nullptr

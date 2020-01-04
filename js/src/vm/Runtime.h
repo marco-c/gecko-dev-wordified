@@ -7026,6 +7026,9 @@ DOMcallbacks
 JSDestroyPrincipalsOp
 destroyPrincipals
 ;
+JSReadPrincipalsOp
+readPrincipals
+;
 /
 *
 Optional
