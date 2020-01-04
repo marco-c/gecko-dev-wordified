@@ -949,6 +949,12 @@ scale
 ]
 ;
 }
+exports
+.
+getFrameOffsets
+=
+getFrameOffsets
+;
 /
 *
 *
