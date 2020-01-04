@@ -2745,12 +2745,9 @@ aEvent
 >
 widget
 aEvent
-nsAutoCString
-(
 "
 something
 "
-)
 0
 )
 ;

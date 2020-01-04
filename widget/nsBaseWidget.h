@@ -3433,8 +3433,8 @@ LayoutDeviceIntRect
 *
 aRect
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
@@ -3457,8 +3457,8 @@ WidgetGUIEvent
 *
 aGuiEvent
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
@@ -3479,8 +3479,8 @@ nsIntRegion
 &
 aPaintEvent
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
