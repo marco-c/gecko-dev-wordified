@@ -2498,7 +2498,7 @@ struct
 ToStorageTypeArgument
 {
 static
-MOZ_CONSTEXPR
+constexpr
 T
 convert
 (
@@ -3695,7 +3695,7 @@ Type
 ResultType
 ;
 static
-MOZ_CONSTEXPR
+constexpr
 ResultType
 convert
 (
@@ -3725,7 +3725,7 @@ false
 >
 {
 static
-MOZ_CONSTEXPR
+constexpr
 T
 convert
 (
@@ -3846,7 +3846,7 @@ mValue
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 AtomicBase
 (
 )
@@ -3857,7 +3857,7 @@ mValue
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 AtomicBase
 (
 T
@@ -4138,7 +4138,7 @@ Base
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 AtomicBaseIncDec
 (
 )
@@ -4149,7 +4149,7 @@ Base
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 AtomicBaseIncDec
 (
 T
@@ -4616,7 +4616,7 @@ Base
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 )
@@ -4627,7 +4627,7 @@ Base
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 T
@@ -4911,7 +4911,7 @@ Base
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 )
@@ -4922,7 +4922,7 @@ Base
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 T
@@ -5102,7 +5102,7 @@ Base
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 )
@@ -5113,7 +5113,7 @@ Base
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 T
@@ -5354,7 +5354,7 @@ Base
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 )
@@ -5365,7 +5365,7 @@ Base
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 Atomic
 (
 bool

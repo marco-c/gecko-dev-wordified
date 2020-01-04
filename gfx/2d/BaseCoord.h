@@ -172,7 +172,7 @@ value
 /
 /
 Constructors
-MOZ_CONSTEXPR
+constexpr
 BaseCoord
 (
 )
@@ -184,7 +184,7 @@ value
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 BaseCoord
 (
 T

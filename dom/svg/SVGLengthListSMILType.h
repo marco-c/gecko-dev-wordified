@@ -955,7 +955,7 @@ beyond
 my
 singleton
 .
-MOZ_CONSTEXPR
+constexpr
 SVGLengthListSMILType
 (
 )

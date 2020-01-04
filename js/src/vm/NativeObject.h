@@ -1806,7 +1806,7 @@ COPY_ON_WRITE
 }
 public
 :
-MOZ_CONSTEXPR
+constexpr
 ObjectElements
 (
 uint32_t
@@ -1840,7 +1840,7 @@ SharedMemory
 IsShared
 }
 ;
-MOZ_CONSTEXPR
+constexpr
 ObjectElements
 (
 uint32_t

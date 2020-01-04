@@ -12599,7 +12599,7 @@ static
 arrays
 below
 .
-MOZ_CONSTEXPR
+constexpr
 TrackedDBEntry
 (
 const
@@ -12682,7 +12682,7 @@ be
 recorded
 .
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 TrackedDBEntry
 kTrackedDBs
 [

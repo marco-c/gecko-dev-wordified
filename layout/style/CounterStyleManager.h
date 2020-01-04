@@ -195,7 +195,7 @@ CounterStyle
 protected
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 CounterStyle
 (
 int32_t

@@ -505,7 +505,7 @@ GLFunctions
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 GLFunctions
 (
 )

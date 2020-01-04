@@ -390,7 +390,7 @@ XrayTraits
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 XrayTraits
 (
 )
@@ -1137,7 +1137,7 @@ XrayTraits
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DOMXrayTraits
 (
 )
@@ -2854,7 +2854,7 @@ Base
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 explicit
 XrayWrapper
 (
@@ -3820,7 +3820,7 @@ Wrapper
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 SandboxProxyHandler
 (
 )
@@ -4206,7 +4206,7 @@ Wrapper
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 SandboxCallableProxyHandler
 (
 )

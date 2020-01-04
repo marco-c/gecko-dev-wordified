@@ -28618,7 +28618,7 @@ ufe46
 SESAME
 )
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 TextEmphasisChars
 kTextEmphasisChars
 [

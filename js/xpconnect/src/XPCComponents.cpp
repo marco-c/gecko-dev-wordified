@@ -19466,7 +19466,7 @@ nsIXPCScriptable
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 ComponentsSH
 (
 unsigned

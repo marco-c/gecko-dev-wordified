@@ -215,7 +215,7 @@ ChromeObjectWrapperBase
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 ChromeObjectWrapper
 (
 )

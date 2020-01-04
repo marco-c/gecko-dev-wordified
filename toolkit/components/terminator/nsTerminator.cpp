@@ -1217,7 +1217,7 @@ PR_CloseDelete
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 PR_CloseDelete
 (
 )
@@ -2116,7 +2116,7 @@ mTopic
 int
 mTicks
 ;
-MOZ_CONSTEXPR
+constexpr
 explicit
 ShutdownStep
 (

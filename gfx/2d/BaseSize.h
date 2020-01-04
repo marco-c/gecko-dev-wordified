@@ -187,7 +187,7 @@ components
 /
 /
 Constructors
-MOZ_CONSTEXPR
+constexpr
 BaseSize
 (
 )
@@ -202,7 +202,7 @@ height
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 BaseSize
 (
 T

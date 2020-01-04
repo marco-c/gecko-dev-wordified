@@ -977,7 +977,7 @@ T
 >
 static
 MOZ_ALWAYS_INLINE
-MOZ_CONSTEXPR
+constexpr
 bool
 IsNaN
 (

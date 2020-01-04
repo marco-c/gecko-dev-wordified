@@ -2091,7 +2091,7 @@ nullptr
 .
 *
 /
-MOZ_CONSTEXPR
+constexpr
 UniquePtr
 (
 )
@@ -3244,7 +3244,7 @@ nullptr
 .
 *
 /
-MOZ_CONSTEXPR
+constexpr
 UniquePtr
 (
 )
@@ -4271,7 +4271,7 @@ DefaultDelete
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DefaultDelete
 (
 )
@@ -4382,7 +4382,7 @@ T
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DefaultDelete
 (
 )

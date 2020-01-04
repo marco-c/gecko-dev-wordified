@@ -80399,7 +80399,7 @@ decorators
 append
 (
 '
-MOZ_CONSTEXPR
+constexpr
 '
 )
         

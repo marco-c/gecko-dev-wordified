@@ -290,7 +290,7 @@ units
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 IntPointTyped
 (
 )
@@ -300,7 +300,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 IntPointTyped
 (
 int32_t
@@ -353,7 +353,7 @@ convertible
 to
 int
 .
-MOZ_CONSTEXPR
+constexpr
 IntPointTyped
 (
 int32_t
@@ -372,7 +372,7 @@ aY
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 IntPointTyped
 (
 Coord
@@ -391,7 +391,7 @@ aY
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 IntPointTyped
 (
 Coord
@@ -576,7 +576,7 @@ F
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 PointTyped
 (
 )
@@ -586,7 +586,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 PointTyped
 (
 F
@@ -639,7 +639,7 @@ convertible
 to
 Float
 .
-MOZ_CONSTEXPR
+constexpr
 PointTyped
 (
 F
@@ -658,7 +658,7 @@ aY
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 PointTyped
 (
 Coord
@@ -677,7 +677,7 @@ aY
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 PointTyped
 (
 Coord
@@ -697,7 +697,7 @@ value
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 MOZ_IMPLICIT
 PointTyped
 (
@@ -1420,7 +1420,7 @@ units
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 IntSizeTyped
 (
 )
@@ -1430,7 +1430,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 IntSizeTyped
 (
 int32_t
@@ -1596,7 +1596,7 @@ F
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 SizeTyped
 (
 )
@@ -1606,7 +1606,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 SizeTyped
 (
 F

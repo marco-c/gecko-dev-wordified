@@ -9459,7 +9459,7 @@ DeleteHeapSnapshotTempFileHelperChild
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DeleteHeapSnapshotTempFileHelperChild
 (
 )

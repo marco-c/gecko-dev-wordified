@@ -90465,7 +90465,7 @@ ParseTextEmphasis
 )
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 nsCSSProperty
 kTextEmphasisIDs
 [
@@ -90476,7 +90476,7 @@ eCSSProperty_text_emphasis_style
 eCSSProperty_text_emphasis_color
 }
 ;
-MOZ_CONSTEXPR_VAR
+constexpr
 int32_t
 numProps
 =

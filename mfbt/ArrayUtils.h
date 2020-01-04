@@ -406,7 +406,7 @@ T
 size_t
 N
 >
-MOZ_CONSTEXPR
+constexpr
 size_t
 ArrayLength
 (
@@ -431,7 +431,7 @@ T
 size_t
 N
 >
-MOZ_CONSTEXPR
+constexpr
 size_t
 ArrayLength
 (
@@ -458,7 +458,7 @@ N
 typename
 T
 >
-MOZ_CONSTEXPR
+constexpr
 size_t
 ArrayLength
 (
@@ -525,7 +525,7 @@ T
 size_t
 N
 >
-MOZ_CONSTEXPR
+constexpr
 T
 *
 ArrayEnd
@@ -556,7 +556,7 @@ T
 size_t
 N
 >
-MOZ_CONSTEXPR
+constexpr
 T
 *
 ArrayEnd
@@ -590,7 +590,7 @@ T
 size_t
 N
 >
-MOZ_CONSTEXPR
+constexpr
 const
 T
 *

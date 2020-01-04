@@ -400,7 +400,7 @@ mFlags
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 Wrapper
 (
 unsigned
@@ -1127,7 +1127,7 @@ Wrapper
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 CrossCompartmentWrapper
 (
 unsigned
@@ -1628,7 +1628,7 @@ CrossCompartmentWrapper
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 OpaqueCrossCompartmentWrapper
 (
 )
@@ -2158,7 +2158,7 @@ Base
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 SecurityWrapper
 (
 unsigned

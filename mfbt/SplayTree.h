@@ -340,7 +340,7 @@ mRoot
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 SplayTree
 (
 )

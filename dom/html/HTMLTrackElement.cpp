@@ -520,7 +520,7 @@ TextTrackKind
 enums
 .
 static
-MOZ_CONSTEXPR
+constexpr
 nsAttrValue
 :
 :
@@ -643,7 +643,7 @@ subtitles
 in
 GetKind
 static
-MOZ_CONSTEXPR
+constexpr
 const
 nsAttrValue
 :

@@ -1752,7 +1752,7 @@ nsChangeHint_size_t
 ;
 inline
 nsChangeHint
-MOZ_CONSTEXPR
+constexpr
 operator
 |
 (
@@ -1779,7 +1779,7 @@ aRight
 }
 inline
 nsChangeHint
-MOZ_CONSTEXPR
+constexpr
 operator
 &
 (
@@ -1850,7 +1850,7 @@ aRight
 }
 inline
 nsChangeHint
-MOZ_CONSTEXPR
+constexpr
 operator
 ~
 (
@@ -1871,7 +1871,7 @@ aArg
 }
 inline
 nsChangeHint
-MOZ_CONSTEXPR
+constexpr
 operator
 ^
 (
@@ -3130,7 +3130,7 @@ nsRestyleHint
 nsRestyleHint_size_t
 ;
 inline
-MOZ_CONSTEXPR
+constexpr
 nsRestyleHint
 operator
 |
@@ -3157,7 +3157,7 @@ aRight
 ;
 }
 inline
-MOZ_CONSTEXPR
+constexpr
 nsRestyleHint
 operator
 &
@@ -3228,7 +3228,7 @@ aRight
 ;
 }
 inline
-MOZ_CONSTEXPR
+constexpr
 nsRestyleHint
 operator
 ~
@@ -3249,7 +3249,7 @@ aArg
 ;
 }
 inline
-MOZ_CONSTEXPR
+constexpr
 nsRestyleHint
 operator
 ^

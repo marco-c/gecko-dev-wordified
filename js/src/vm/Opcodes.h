@@ -16723,7 +16723,7 @@ len
 .
 )
 \
-MOZ_CONSTEXPR_VAR
+constexpr
 size_t
 op
 #

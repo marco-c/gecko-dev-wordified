@@ -734,7 +734,7 @@ payload_
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 ValueOperand
 (
 Register
@@ -870,7 +870,7 @@ value_
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 ValueOperand
 (
 Register
@@ -1519,7 +1519,7 @@ bits_
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 TypedRegisterSet
 (
 SetType
@@ -1532,7 +1532,7 @@ bits
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 TypedRegisterSet
 (
 )
@@ -1543,7 +1543,7 @@ bits_
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 TypedRegisterSet
 (
 const
@@ -2226,7 +2226,7 @@ RegisterSet
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 RegisterSet
 (
 const
@@ -2526,7 +2526,7 @@ empty
 )
 ;
 }
-MOZ_CONSTEXPR
+constexpr
 GeneralRegisterSet
 gprs
 (
@@ -2547,7 +2547,7 @@ return
 gpr_
 ;
 }
-MOZ_CONSTEXPR
+constexpr
 FloatRegisterSet
 fpus
 (
@@ -3214,7 +3214,7 @@ set_
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 AllocatableSetAccessors
 (
 SetType
@@ -3228,7 +3228,7 @@ set
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 AllocatableSetAccessors
 (
 RegSet
@@ -3342,7 +3342,7 @@ set_
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 AllocatableSetAccessors
 (
 SetType
@@ -3351,7 +3351,7 @@ SetType
 delete
 ;
 explicit
-MOZ_CONSTEXPR
+constexpr
 AllocatableSetAccessors
 (
 RegisterSet
@@ -3676,7 +3676,7 @@ set_
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 LiveSetAccessors
 (
 SetType
@@ -3690,7 +3690,7 @@ set
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 LiveSetAccessors
 (
 RegSet
@@ -3804,7 +3804,7 @@ set_
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 LiveSetAccessors
 (
 SetType
@@ -3813,7 +3813,7 @@ SetType
 delete
 ;
 explicit
-MOZ_CONSTEXPR
+constexpr
 LiveSetAccessors
 (
 RegisterSet
@@ -3981,7 +3981,7 @@ SetType
 ;
 \
 \
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 )
@@ -3993,7 +3993,7 @@ Parent
 }
 \
 explicit
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 SetType
@@ -4008,7 +4008,7 @@ set
 }
 \
 explicit
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 RegSet
@@ -5665,7 +5665,7 @@ SetType
 ;
 \
 \
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 )
@@ -5677,7 +5677,7 @@ Parent
 }
 \
 explicit
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 SetType
@@ -5687,7 +5687,7 @@ delete
 ;
 \
 explicit
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 RegSet
@@ -5701,7 +5701,7 @@ set
 {
 }
 \
-MOZ_CONSTEXPR_TMPL
+constexpr
 REGSET
 (
 GeneralRegisterSet

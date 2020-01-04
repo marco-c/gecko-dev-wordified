@@ -361,7 +361,7 @@ nsIClassInfo
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 StatementClassInfo
 (
 )

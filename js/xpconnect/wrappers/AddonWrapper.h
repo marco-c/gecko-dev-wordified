@@ -216,7 +216,7 @@ Base
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 AddonWrapper
 (
 unsigned

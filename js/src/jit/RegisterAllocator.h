@@ -1024,7 +1024,7 @@ CodePosition
 {
 private
 :
-MOZ_CONSTEXPR
+constexpr
 explicit
 CodePosition
 (
@@ -1099,7 +1099,7 @@ INPUT
 OUTPUT
 }
 ;
-MOZ_CONSTEXPR
+constexpr
 CodePosition
 (
 )

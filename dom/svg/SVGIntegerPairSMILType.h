@@ -325,7 +325,7 @@ beyond
 my
 singleton
 .
-MOZ_CONSTEXPR
+constexpr
 SVGIntegerPairSMILType
 (
 )

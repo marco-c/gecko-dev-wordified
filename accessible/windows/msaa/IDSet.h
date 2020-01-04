@@ -313,7 +313,7 @@ IDSet
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 IDSet
 (
 )

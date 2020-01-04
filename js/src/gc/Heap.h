@@ -2172,7 +2172,7 @@ CellShift
 -
 1
 ;
-MOZ_CONSTEXPR
+constexpr
 size_t
 DivideAndRoundUp
 (

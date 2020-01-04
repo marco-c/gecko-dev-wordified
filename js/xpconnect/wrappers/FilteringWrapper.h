@@ -193,7 +193,7 @@ Base
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 explicit
 FilteringWrapper
 (
@@ -571,7 +571,7 @@ SecurityXrayDOM
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 explicit
 CrossOriginXrayWrapper
 (

@@ -3286,7 +3286,7 @@ other
 k_
 ;
 }
-MOZ_CONSTEXPR
+constexpr
 uint32_t
 size
 (

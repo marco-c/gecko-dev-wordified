@@ -1633,7 +1633,7 @@ mHasSecurityPolicy
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 BaseProxyHandler
 (
 const

@@ -219,7 +219,7 @@ components
 /
 /
 Constructors
-MOZ_CONSTEXPR
+constexpr
 BasePoint
 (
 )
@@ -234,7 +234,7 @@ y
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 BasePoint
 (
 Coord

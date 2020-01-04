@@ -213,7 +213,7 @@ typedef
 uint64_t
 InternalType
 ;
-MOZ_CONSTEXPR
+constexpr
 EventStates
 (
 )
@@ -300,7 +300,7 @@ places
 now
 .
 explicit
-MOZ_CONSTEXPR
+constexpr
 EventStates
 (
 InternalType
@@ -314,7 +314,7 @@ aStates
 {
 }
 EventStates
-MOZ_CONSTEXPR
+constexpr
 operator
 |
 (
@@ -400,7 +400,7 @@ is
 recommended
 .
 EventStates
-MOZ_CONSTEXPR
+constexpr
 operator
 &
 (

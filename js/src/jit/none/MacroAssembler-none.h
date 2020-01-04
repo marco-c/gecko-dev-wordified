@@ -152,7 +152,7 @@ namespace
 jit
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 StackPointer
 =
@@ -164,7 +164,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 FramePointer
 =
@@ -176,7 +176,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ReturnReg
 =
@@ -188,7 +188,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ReturnFloat32Reg
 =
@@ -200,7 +200,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ReturnDoubleReg
 =
@@ -212,7 +212,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ReturnSimd128Reg
 =
@@ -224,7 +224,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ScratchFloat32Reg
 =
@@ -236,7 +236,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ScratchDoubleReg
 =
@@ -248,7 +248,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 ScratchSimd128Reg
 =
@@ -260,7 +260,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 FloatRegister
 InvalidFloatReg
 =
@@ -272,7 +272,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 OsrFrameReg
 =
@@ -284,7 +284,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ArgumentsRectifierReg
 =
@@ -296,7 +296,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 PreBarrierReg
 =
@@ -308,7 +308,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg0
 =
@@ -320,7 +320,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg1
 =
@@ -332,7 +332,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg2
 =
@@ -344,7 +344,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg3
 =
@@ -356,7 +356,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg4
 =
@@ -368,7 +368,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 CallTempReg5
 =
@@ -380,7 +380,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 InvalidReg
 =
@@ -392,7 +392,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 IntArgReg0
 =
@@ -404,7 +404,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 IntArgReg1
 =
@@ -416,7 +416,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 IntArgReg2
 =
@@ -428,7 +428,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 IntArgReg3
 =
@@ -440,7 +440,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 GlobalReg
 =
@@ -452,7 +452,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 HeapReg
 =
@@ -464,7 +464,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegCallee
 =
@@ -476,7 +476,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegE0
 =
@@ -488,7 +488,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegE1
 =
@@ -500,7 +500,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegE2
 =
@@ -512,7 +512,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegReturnData
 =
@@ -524,7 +524,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegReturnType
 =
@@ -536,7 +536,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegD0
 =
@@ -548,7 +548,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegD1
 =
@@ -560,7 +560,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 AsmJSIonExitRegD2
 =
@@ -572,7 +572,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpTesterRegExpReg
 =
@@ -584,7 +584,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpTesterStringReg
 =
@@ -596,7 +596,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpTesterLastIndexReg
 =
@@ -608,7 +608,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpTesterStickyReg
 =
@@ -620,7 +620,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpMatcherRegExpReg
 =
@@ -632,7 +632,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpMatcherStringReg
 =
@@ -644,7 +644,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpMatcherLastIndexReg
 =
@@ -656,7 +656,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 RegExpMatcherStickyReg
 =
@@ -668,7 +668,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 JSReturnReg_Type
 =
@@ -680,7 +680,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 JSReturnReg_Data
 =
@@ -692,7 +692,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 JSReturnReg
 =
@@ -710,7 +710,7 @@ defined
 JS_NUNBOX32
 )
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ValueOperand
 JSReturnOperand
 (
@@ -719,7 +719,7 @@ InvalidReg
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register64
 ReturnReg64
 (
@@ -734,7 +734,7 @@ defined
 JS_PUNBOX64
 )
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ValueOperand
 JSReturnOperand
 (
@@ -742,7 +742,7 @@ InvalidReg
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register64
 ReturnReg64
 (
@@ -760,7 +760,7 @@ architecture
 #
 endif
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ABINonArgReg0
 =
@@ -772,7 +772,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ABINonArgReg1
 =
@@ -784,7 +784,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ABINonArgReturnReg0
 =
@@ -796,7 +796,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 ABINonArgReturnReg1
 =
@@ -808,7 +808,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 WasmTableCallPtrReg
 =
@@ -820,7 +820,7 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 WasmTableCallSigReg
 =
@@ -832,28 +832,28 @@ invalid_reg
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 uint32_t
 ABIStackAlignment
 =
 4
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 uint32_t
 CodeAlignment
 =
 4
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 uint32_t
 JitStackAlignment
 =
 8
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 uint32_t
 JitStackValueAlignment
 =

@@ -4171,7 +4171,7 @@ Wrapper
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsOuterWindowProxy
 (
 )
@@ -7501,7 +7501,7 @@ nsOuterWindowProxy
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsChromeOuterWindowProxy
 (
 )

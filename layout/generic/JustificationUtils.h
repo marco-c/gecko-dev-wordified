@@ -390,7 +390,7 @@ mIsStartJustifiable
 bool
 mIsEndJustifiable
 ;
-MOZ_CONSTEXPR
+constexpr
 JustificationInfo
 (
 )
@@ -538,7 +538,7 @@ mGapsAtEnd
 :
 2
 ;
-MOZ_CONSTEXPR
+constexpr
 JustificationAssignment
 (
 )

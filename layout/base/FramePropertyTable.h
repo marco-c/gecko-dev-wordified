@@ -341,7 +341,7 @@ directly
 .
 *
 /
-MOZ_CONSTEXPR
+constexpr
 FramePropertyDescriptorUntyped
 (
 UntypedDestructor
@@ -494,7 +494,7 @@ Destructor
 Dtor
 >
 static
-MOZ_CONSTEXPR
+constexpr
 const
 FramePropertyDescriptor
 <
@@ -520,7 +520,7 @@ DestructorWithFrame
 Dtor
 >
 static
-MOZ_CONSTEXPR
+constexpr
 const
 FramePropertyDescriptor
 <
@@ -541,7 +541,7 @@ Dtor
 ;
 }
 static
-MOZ_CONSTEXPR
+constexpr
 const
 FramePropertyDescriptor
 <
@@ -560,7 +560,7 @@ nullptr
 }
 private
 :
-MOZ_CONSTEXPR
+constexpr
 FramePropertyDescriptor
 (
 UntypedDestructor

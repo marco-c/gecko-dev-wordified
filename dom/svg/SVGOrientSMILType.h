@@ -484,7 +484,7 @@ beyond
 my
 singleton
 .
-MOZ_CONSTEXPR
+constexpr
 SVGOrientSMILType
 (
 )

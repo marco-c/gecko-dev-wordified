@@ -213,7 +213,7 @@ LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 1024
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -237,7 +237,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -261,7 +261,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -285,7 +285,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -309,7 +309,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -333,7 +333,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -357,7 +357,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -381,7 +381,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -405,7 +405,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -429,7 +429,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -453,7 +453,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -477,7 +477,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -501,7 +501,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -525,7 +525,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -549,7 +549,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -573,7 +573,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -597,7 +597,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -621,7 +621,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -645,7 +645,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -669,7 +669,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -693,7 +693,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -717,7 +717,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -741,7 +741,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -765,7 +765,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -789,7 +789,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -813,7 +813,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -837,7 +837,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -861,7 +861,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -885,7 +885,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -909,7 +909,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -933,7 +933,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :
@@ -957,7 +957,7 @@ Single
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 js
 :
 :

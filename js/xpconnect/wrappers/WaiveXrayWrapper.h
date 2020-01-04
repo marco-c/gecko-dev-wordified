@@ -151,7 +151,7 @@ CrossCompartmentWrapper
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 WaiveXrayWrapper
 (
 unsigned

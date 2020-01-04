@@ -218,7 +218,7 @@ ScaleFactor
 float
 scale
 ;
-MOZ_CONSTEXPR
+constexpr
 ScaleFactor
 (
 )
@@ -231,7 +231,7 @@ scale
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 ScaleFactor
 (
 const
@@ -253,7 +253,7 @@ scale
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 ScaleFactor
 (
 float

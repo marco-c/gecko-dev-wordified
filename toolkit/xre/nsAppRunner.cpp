@@ -3463,7 +3463,7 @@ nsIXULRuntime
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsXULAppInfo
 (
 )

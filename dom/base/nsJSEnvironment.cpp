@@ -7011,7 +7011,7 @@ Now
 struct
 CycleCollectorStats
 {
-MOZ_CONSTEXPR
+constexpr
 CycleCollectorStats
 (
 )

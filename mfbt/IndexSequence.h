@@ -580,7 +580,7 @@ struct
 IndexSequence
 {
 static
-MOZ_CONSTEXPR
+constexpr
 size_t
 Size
 (

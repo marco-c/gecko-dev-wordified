@@ -1237,7 +1237,7 @@ bits
 *
 /
 inline
-MOZ_CONSTEXPR
+constexpr
 uint16_t
 NS_ERROR_GET_CODE
 (
@@ -1255,7 +1255,7 @@ aErr
 ;
 }
 inline
-MOZ_CONSTEXPR
+constexpr
 uint16_t
 NS_ERROR_GET_MODULE
 (

@@ -3633,7 +3633,7 @@ Modifier
 Modifier
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Modifier
 None
 =
@@ -3643,7 +3643,7 @@ Token
 None
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Modifier
 Operand
 =
@@ -3653,7 +3653,7 @@ Token
 Operand
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Modifier
 KeywordIsName
 =
@@ -3663,7 +3663,7 @@ Token
 KeywordIsName
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Modifier
 TemplateTail
 =
@@ -3680,7 +3680,7 @@ ModifierException
 ModifierException
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ModifierException
 NoException
 =
@@ -3690,7 +3690,7 @@ Token
 NoException
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ModifierException
 NoneIsOperand
 =
@@ -3700,7 +3700,7 @@ Token
 NoneIsOperand
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ModifierException
 OperandIsNone
 =
@@ -3710,7 +3710,7 @@ Token
 OperandIsNone
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ModifierException
 NoneIsKeywordIsName
 =

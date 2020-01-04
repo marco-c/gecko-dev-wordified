@@ -401,7 +401,7 @@ beyond
 my
 singleton
 .
-MOZ_CONSTEXPR
+constexpr
 SVGPointListSMILType
 (
 )

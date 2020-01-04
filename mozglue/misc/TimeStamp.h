@@ -415,7 +415,7 @@ duration
 is
 0
 .
-MOZ_CONSTEXPR
+constexpr
 BaseTimeDuration
 (
 )
@@ -2578,7 +2578,7 @@ null
 moment
 *
 /
-MOZ_CONSTEXPR
+constexpr
 TimeStamp
 (
 )

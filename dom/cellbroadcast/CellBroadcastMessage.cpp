@@ -192,7 +192,7 @@ uint32_t
 XpidlEnumType
 ;
 static
-MOZ_CONSTEXPR
+constexpr
 WebidlEnumType
 x2w
 (
@@ -217,7 +217,7 @@ template
 class
 T
 >
-MOZ_CONSTEXPR
+constexpr
 T
 ToWebidlEnum
 (

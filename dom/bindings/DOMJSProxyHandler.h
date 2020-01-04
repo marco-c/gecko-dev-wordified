@@ -372,7 +372,7 @@ BaseProxyHandler
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 BaseDOMProxyHandler
 (
 const
@@ -825,7 +825,7 @@ BaseDOMProxyHandler
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DOMProxyHandler
 (
 )
