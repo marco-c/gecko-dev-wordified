@@ -234,13 +234,11 @@ body
 and
 /
 /
-add
-removing
-of
+removes
 the
 created
 element
-to
+during
 test
 cleanup
 function
