@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -457,9 +464,6 @@ MOZ_ASSERT
 mReply
 )
 ;
-AutoSafeJSContext
-cx
-;
 JS
 :
 :
@@ -472,7 +476,12 @@ Value
 >
 v
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 JS
 :
 :

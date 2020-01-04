@@ -1193,12 +1193,6 @@ if
 lock
 )
 {
-mozilla
-:
-:
-AutoSafeJSContext
-cx
-;
 JS
 :
 :
@@ -1211,7 +1205,12 @@ Value
 >
 value
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 JS
 :
 :

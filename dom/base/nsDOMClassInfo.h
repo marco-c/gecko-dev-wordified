@@ -568,9 +568,6 @@ static
 nsresult
 DefineStaticJSVals
 (
-JSContext
-*
-cx
 )
 ;
 static
