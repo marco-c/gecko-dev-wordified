@@ -661,8 +661,6 @@ the
 buffer
 .
 return
-armbuffer_
-.
 allocEntry
 (
 numInst
@@ -878,8 +876,6 @@ the
 buffer
 .
 return
-armbuffer_
-.
 allocEntry
 (
 numInst
