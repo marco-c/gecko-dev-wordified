@@ -632,9 +632,6 @@ class
 AudioNodeStream
 ;
 class
-CameraPreviewMediaStream
-;
-class
 MediaInputPort
 ;
 class
@@ -1061,9 +1058,6 @@ AudioNodeStream
 ;
 class
 AudioSegment
-;
-class
-CameraPreviewMediaStream
 ;
 class
 DirectMediaStreamListener

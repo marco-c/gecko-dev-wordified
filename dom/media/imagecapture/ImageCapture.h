@@ -292,11 +292,7 @@ supports
 TakePhoto
 (
 )
-in
-platform
 *
-like
-B2G
 it
 uses
 the

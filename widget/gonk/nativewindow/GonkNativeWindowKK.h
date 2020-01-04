@@ -184,13 +184,6 @@ h
 #
 include
 "
-CameraCommon
-.
-h
-"
-#
-include
-"
 GonkConsumerBaseKK
 .
 h

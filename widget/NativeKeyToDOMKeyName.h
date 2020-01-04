@@ -6775,11 +6775,6 @@ KEY_MAP_ANDROID_EXCEPT_B2G
 CameraFocus
 AKEYCODE_FOCUS
 )
-KEY_MAP_B2G
-(
-CameraFocusAdjust
-AKEYCODE_FOCUS
-)
 /
 /
 GoHome
