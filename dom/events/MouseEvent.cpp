@@ -331,7 +331,7 @@ mDetail
 mouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 }
 }
@@ -523,7 +523,7 @@ mouseEvent
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 aDetail
 ;

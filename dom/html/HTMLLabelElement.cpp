@@ -965,7 +965,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 <
 =
 1

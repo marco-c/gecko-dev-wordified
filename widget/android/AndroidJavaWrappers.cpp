@@ -4573,7 +4573,7 @@ eMouseMove
 {
 event
 .
-clickCount
+mClickCount
 =
 1
 ;

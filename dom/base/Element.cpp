@@ -12050,7 +12050,7 @@ clickCount
 sourceMouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 pressure
 =
@@ -12095,7 +12095,7 @@ pressure
 ;
 event
 .
-clickCount
+mClickCount
 =
 clickCount
 ;

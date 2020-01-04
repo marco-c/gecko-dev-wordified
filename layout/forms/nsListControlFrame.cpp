@@ -11185,7 +11185,7 @@ FireOnChange
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 1
 ;
@@ -11208,7 +11208,7 @@ dropdown
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 IgnoreMouseEventForSelection
 (

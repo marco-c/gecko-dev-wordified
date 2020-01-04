@@ -11142,7 +11142,7 @@ WidgetToScreenOffset
 ;
 event
 .
-clickCount
+mClickCount
 =
 1
 ;

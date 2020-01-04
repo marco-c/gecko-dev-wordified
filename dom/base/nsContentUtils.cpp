@@ -43407,7 +43407,7 @@ aInputSourceArg
 ;
 event
 .
-clickCount
+mClickCount
 =
 aClickCount
 ;

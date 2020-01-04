@@ -1618,7 +1618,7 @@ WriteParam
 aMsg
 aParam
 .
-clickCount
+mClickCount
 )
 ;
 }
@@ -1733,7 +1733,7 @@ aIter
 aResult
 -
 >
-clickCount
+mClickCount
 )
 ;
 aResult

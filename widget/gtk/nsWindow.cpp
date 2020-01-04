@@ -15222,7 +15222,7 @@ GDK_2BUTTON_PRESS
 :
 aEvent
 .
-clickCount
+mClickCount
 =
 2
 ;
@@ -15233,7 +15233,7 @@ GDK_3BUTTON_PRESS
 :
 aEvent
 .
-clickCount
+mClickCount
 =
 3
 ;
@@ -15249,7 +15249,7 @@ default
 :
 aEvent
 .
-clickCount
+mClickCount
 =
 1
 ;
@@ -17514,7 +17514,7 @@ time
 ;
 contextMenuEvent
 .
-clickCount
+mClickCount
 =
 1
 ;
