@@ -238,7 +238,6 @@ aElement
 ;
 if
 (
-!
 HasAny
 (
 Flags
