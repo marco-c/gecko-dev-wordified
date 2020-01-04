@@ -1499,7 +1499,7 @@ GetURL
 )
 -
 >
-Resolve
+ResolveLocalRef
 (
 aFilteredElement
 )
@@ -6001,7 +6001,7 @@ NS_STYLE_FILTER_URL
 )
 ;
 return
-ResolveFragmentOrURL
+ResolveURLUsingLocalRef
 (
 aFrame
 effects
@@ -6066,7 +6066,7 @@ NS_STYLE_FILTER_URL
 )
 ;
 return
-ResolveFragmentOrURL
+ResolveURLUsingLocalRef
 (
 aFrame
 aFilter
