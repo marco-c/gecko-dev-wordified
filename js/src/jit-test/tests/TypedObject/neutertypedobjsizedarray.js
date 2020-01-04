@@ -5,10 +5,10 @@ the
 case
 where
 we
-neuter
-an
-instance
-of
+detach
+the
+buffer
+underlying
 a
 fixed
 -
@@ -35,7 +35,7 @@ fold
 /
 /
 the
-neuter
+detached
 check
 into
 the
@@ -182,7 +182,7 @@ a
 66
 )
 ;
-neuter
+detachArrayBuffer
 (
 storage
 (

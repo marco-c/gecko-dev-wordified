@@ -15,9 +15,8 @@ typed
 /
 object
 atop
-an
-already
-neutered
+a
+detached
 buffer
 .
 if
@@ -124,7 +123,7 @@ buffer
 /
 /
 OK
-neuter
+detachArrayBuffer
 (
 buffer
 variant
@@ -147,7 +146,7 @@ Able
 to
 instantiate
 atop
-neutered
+detached
 buffer
 "
 )
@@ -169,7 +168,7 @@ Able
 to
 instantiate
 atop
-neutered
+detached
 buffer
 "
 )

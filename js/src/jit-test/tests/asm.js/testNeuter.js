@@ -181,7 +181,7 @@ assertThrowsInstanceOf
 )
 =
 >
-neuter
+detachArrayBuffer
 (
 buffer
 "
@@ -199,7 +199,7 @@ assertThrowsInstanceOf
 )
 =
 >
-neuter
+detachArrayBuffer
 (
 buffer
 "
@@ -299,7 +299,7 @@ assertThrowsInstanceOf
 )
 =
 >
-neuter
+detachArrayBuffer
 (
 buffer
 "
@@ -310,6 +310,7 @@ data
 )
 InternalError
 )
+;
 }
 var
 inner

@@ -15,7 +15,7 @@ and
 inline
 /
 /
-Neutering
+Detaching
 and
 replacing
 data
@@ -57,7 +57,7 @@ q1
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab1
 "
@@ -77,7 +77,7 @@ q1
 ;
 /
 /
-Neutering
+Detaching
 preserving
 data
 pointer
@@ -119,7 +119,7 @@ q2
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab2
 "
@@ -148,7 +148,7 @@ of
 line
 /
 /
-Neutering
+Detaching
 and
 replacing
 data
@@ -190,7 +190,7 @@ q3
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab3
 "
@@ -210,7 +210,7 @@ q3
 ;
 /
 /
-Neutering
+Detaching
 preserving
 data
 pointer
@@ -252,7 +252,7 @@ q4
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab4
 "

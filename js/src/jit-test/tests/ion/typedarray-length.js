@@ -1,5 +1,5 @@
 function
-neuterEventually
+detachArrayBufferEventually
 (
 arr
 i
@@ -24,7 +24,7 @@ i
 =
 2000
 )
-neuter
+detachArrayBuffer
 (
 arr
 .
@@ -73,7 +73,7 @@ i
 +
 )
 {
-neuterEventually
+detachArrayBufferEventually
 (
 ta
 i

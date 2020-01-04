@@ -270,7 +270,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab1
 "
@@ -396,7 +396,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab2
 "

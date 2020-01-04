@@ -12,6 +12,10 @@ xulRuntime
 .
 shell
 )
+-
+-
+needs
+detachArrayBuffer
 /
 /
 Nearly
@@ -69,7 +73,7 @@ Int32Array
 buffer
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 "
@@ -241,12 +245,7 @@ array
 .
 filter
 (
-(
-x
-)
-=
->
-x
+POISON
 )
 ;
 }
@@ -354,6 +353,7 @@ array
 .
 join
 (
+POISON
 )
 ;
 }

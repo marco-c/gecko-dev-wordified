@@ -1577,7 +1577,7 @@ index
 ;
 }
 function
-neuterAndConvertTo
+detachAndConvertTo
 (
 x
 )
@@ -1588,7 +1588,7 @@ valueOf
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 tarray
 .
@@ -1609,7 +1609,7 @@ x
 }
 /
 /
-Neutering
+Detaching
 during
 argument
 processing
@@ -1639,7 +1639,7 @@ copyWithin
 (
 0
 3
-neuterAndConvertTo
+detachAndConvertTo
 (
 4
 )
@@ -1672,8 +1672,8 @@ true
 expected
 throw
 with
-neutered
-array
+detached
+buffer
 during
 set
 "
@@ -1715,7 +1715,7 @@ copyWithin
 (
 0
 3
-neuterAndConvertTo
+detachAndConvertTo
 (
 3
 )

@@ -412,7 +412,8 @@ is
 sometimes
 useful
 to
-neuter
+comment
+out
 the
 assert
 (

@@ -15,7 +15,7 @@ shell
 -
 -
 needs
-neuter
+detachArrayBuffer
 (
 )
 /
@@ -168,7 +168,7 @@ argument
 +
 "
 conversion
-neuters
+detaches
 the
 ArrayBuffer
 to
@@ -246,7 +246,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab
 dataType
@@ -307,7 +307,7 @@ ab
 byteLength
 0
 "
-neutering
+detaching
 should
 work
 for
@@ -360,7 +360,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab
 dataType
@@ -422,7 +422,7 @@ ab
 byteLength
 0
 "
-neutering
+detaching
 should
 work
 for

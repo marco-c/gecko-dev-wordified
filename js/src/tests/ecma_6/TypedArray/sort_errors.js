@@ -12,6 +12,10 @@ xulRuntime
 .
 shell
 )
+-
+-
+needs
+detachArrayBuffer
 /
 /
 Ensure
@@ -50,7 +54,7 @@ Int32Array
 buffer
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 "
