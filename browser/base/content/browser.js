@@ -813,6 +813,15 @@ gEditUIVisible
 true
 ;
 }
+/
+*
+globals
+gBrowser
+gNavToolbox
+gURLBar
+gNavigatorBundle
+*
+/
 [
 [
 "
