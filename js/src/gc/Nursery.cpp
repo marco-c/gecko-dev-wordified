@@ -2764,6 +2764,13 @@ clearNewObjectCache
 rt
 -
 >
+contextFromMainThread
+(
+)
+-
+>
+caches
+.
 newObjectCache
 .
 clearNurseryObjects

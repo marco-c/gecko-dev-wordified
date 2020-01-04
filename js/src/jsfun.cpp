@@ -10070,11 +10070,8 @@ lazy
 cx
 -
 >
-runtime
-(
-)
--
->
+caches
+.
 lazyScriptCache
 .
 lookup
@@ -10485,11 +10482,8 @@ lazy
 cx
 -
 >
-runtime
-(
-)
--
->
+caches
+.
 lazyScriptCache
 .
 insert

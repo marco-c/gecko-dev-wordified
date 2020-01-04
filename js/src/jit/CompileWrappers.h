@@ -553,13 +553,6 @@ DOMcallbacks
 )
 ;
 const
-MathCache
-*
-maybeGetMathCache
-(
-)
-;
-const
 Nursery
 &
 gcNursery

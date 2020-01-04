@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-vm_Runtime_inl_h
+vm_Caches_inl_h
 #
 define
-vm_Runtime_inl_h
+vm_Caches_inl_h
 #
 include
 "
 vm
 /
-Runtime
+Caches
 .
 h
 "
@@ -580,6 +580,6 @@ js
 endif
 /
 *
-vm_Runtime_inl_h
+vm_Caches_inl_h
 *
 /
