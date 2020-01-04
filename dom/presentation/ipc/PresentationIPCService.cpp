@@ -372,8 +372,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 nsIInputStream
 *
 aStream
@@ -441,7 +439,6 @@ nsAutoString
 (
 aSessionId
 )
-aRole
 stream
 )
 )
@@ -457,8 +454,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 )
 {
 MOZ_ASSERT
@@ -481,7 +476,6 @@ nsAutoString
 (
 aSessionId
 )
-aRole
 )
 )
 ;
@@ -496,8 +490,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 )
 {
 MOZ_ASSERT
@@ -520,7 +512,6 @@ nsAutoString
 (
 aSessionId
 )
-aRole
 )
 )
 ;
@@ -685,8 +676,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 nsIPresentationSessionListener
 *
 aListener
@@ -729,7 +718,6 @@ nsAutoString
 (
 aSessionId
 )
-aRole
 )
 )
 ;
@@ -748,8 +736,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 )
 {
 MOZ_ASSERT
@@ -762,7 +748,6 @@ NS_IsMainThread
 UntrackSessionInfo
 (
 aSessionId
-aRole
 )
 ;
 mSessionListeners
@@ -789,7 +774,6 @@ nsAutoString
 (
 aSessionId
 )
-aRole
 )
 )
 ;
@@ -1304,8 +1288,6 @@ const
 nsAString
 &
 aSessionId
-uint8_t
-aRole
 )
 {
 /

@@ -333,10 +333,6 @@ GetOwner
 (
 )
 mSessionId
-nsIPresentationService
-:
-:
-ROLE_CONTROLLER
 PresentationConnectionState
 :
 :
