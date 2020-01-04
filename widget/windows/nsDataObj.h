@@ -1868,8 +1868,6 @@ Init
 nsIURI
 *
 pSourceURI
-uint32_t
-aContentPolicyType
 nsINode
 *
 aRequestingNode
