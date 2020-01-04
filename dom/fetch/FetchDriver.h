@@ -445,11 +445,6 @@ HttpFetch
 (
 )
 ;
-bool
-IsUnsafeRequest
-(
-)
-;
 /
 /
 Returns
