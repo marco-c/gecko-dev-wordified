@@ -125,6 +125,17 @@ h
 #
 include
 "
+mozilla
+/
+a11y
+/
+ProxyAccessibleBase
+.
+h
+"
+#
+include
+"
 Accessible
 -
 inl
