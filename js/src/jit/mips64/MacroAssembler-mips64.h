@@ -7150,7 +7150,7 @@ globalData
 GlobalReg
 )
 ;
-ma_addu
+ma_daddu
 (
 GlobalReg
 Imm32
