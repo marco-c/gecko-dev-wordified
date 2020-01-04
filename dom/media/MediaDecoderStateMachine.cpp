@@ -11098,7 +11098,7 @@ IsVideoDecoding
 mReader
 -
 >
-IsRequestingVidoeData
+IsRequestingVideoData
 (
 )
 |
@@ -14479,7 +14479,7 @@ OutOfDecodedVideo
 mReader
 -
 >
-IsRequestingVidoeData
+IsRequestingVideoData
 (
 )
 |
@@ -17795,7 +17795,7 @@ if
 mReader
 -
 >
-IsRequestingVidoeData
+IsRequestingVideoData
 (
 )
 )
