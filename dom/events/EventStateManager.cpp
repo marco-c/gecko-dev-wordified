@@ -4067,7 +4067,7 @@ if
 mouseEvent
 -
 >
-exit
+mExitFrom
 !
 =
 WidgetMouseEvent
@@ -24184,7 +24184,7 @@ remoteEvent
 remoteEvent
 -
 >
-exit
+mExitFrom
 =
 WidgetMouseEvent
 :

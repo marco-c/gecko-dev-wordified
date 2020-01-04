@@ -1609,7 +1609,7 @@ ExitFromType
 (
 aParam
 .
-exit
+mExitFrom
 )
 )
 ;
@@ -1771,7 +1771,7 @@ contextMenuTrigger
 aResult
 -
 >
-exit
+mExitFrom
 =
 static_cast
 <

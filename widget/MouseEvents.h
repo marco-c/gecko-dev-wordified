@@ -1551,7 +1551,7 @@ mContextMenuTrigger
 (
 eNormal
 )
-exit
+mExitFrom
 (
 eChild
 )
@@ -1599,7 +1599,7 @@ mContextMenuTrigger
 (
 eNormal
 )
-exit
+mExitFrom
 (
 eChild
 )
@@ -1663,7 +1663,7 @@ mContextMenuTrigger
 (
 aContextMenuTrigger
 )
-exit
+mExitFrom
 (
 eChild
 )
@@ -1830,7 +1830,7 @@ ContextMenuTrigger
 mContextMenuTrigger
 ;
 ExitFrom
-exit
+mExitFrom
 ;
 /
 /
