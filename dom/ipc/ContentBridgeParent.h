@@ -283,6 +283,10 @@ aIsForBrowser
 )
 override
 ;
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PContentBridgeParent
+)
 jsipc
 :
 :

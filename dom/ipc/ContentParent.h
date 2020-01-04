@@ -2833,6 +2833,10 @@ PContentParent
 :
 SendPTestShellConstructor
 ;
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PContentParent
+)
 /
 /
 No

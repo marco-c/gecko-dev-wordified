@@ -2688,6 +2688,10 @@ aIsForBrowser
 )
 override
 ;
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PContentChild
+)
 void
 GetAvailableDictionaries
 (
