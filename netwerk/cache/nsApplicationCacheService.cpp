@@ -1504,7 +1504,7 @@ data
 "
 /
 *
-holdsWeak
+ownsWeak
 =
 *
 /

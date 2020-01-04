@@ -5512,7 +5512,7 @@ obs
 TOPIC_CLEAR_ORIGIN_DATA
 /
 *
-holdsWeak
+ownsWeak
 =
 *
 /
