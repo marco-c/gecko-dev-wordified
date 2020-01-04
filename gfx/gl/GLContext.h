@@ -363,6 +363,9 @@ GeckoProfiler
 .
 h
 "
+class
+nsIWidget
+;
 namespace
 android
 {
@@ -16629,6 +16632,9 @@ virtual
 bool
 RenewSurface
 (
+nsIWidget
+*
+aWidget
 )
 {
 return

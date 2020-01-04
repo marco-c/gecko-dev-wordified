@@ -392,6 +392,12 @@ mGL
 >
 RenewSurface
 (
+mCompositor
+-
+>
+GetWidget
+(
+)
 )
 ;
 result

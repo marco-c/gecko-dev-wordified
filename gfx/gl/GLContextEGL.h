@@ -134,9 +134,6 @@ GLLibraryEGL
 .
 h
 "
-class
-nsIWidget
-;
 namespace
 mozilla
 {
@@ -396,6 +393,9 @@ virtual
 bool
 RenewSurface
 (
+nsIWidget
+*
+aWidget
 )
 override
 ;

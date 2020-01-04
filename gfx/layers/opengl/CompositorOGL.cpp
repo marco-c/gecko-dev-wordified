@@ -10136,6 +10136,9 @@ gl
 >
 RenewSurface
 (
+GetWidget
+(
+)
 )
 ;
 #
