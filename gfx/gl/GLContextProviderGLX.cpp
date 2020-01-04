@@ -5104,13 +5104,6 @@ mDisplay
 mDrawable
 )
 ;
-mGLX
--
->
-xWaitGL
-(
-)
-;
 return
 true
 ;
