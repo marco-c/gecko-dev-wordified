@@ -176,6 +176,11 @@ proxy
 =
 nullptr
 ;
+mStateFlags
+|
+=
+eIsDefunct
+;
 }
 }
 ;
@@ -223,6 +228,11 @@ mBits
 proxy
 =
 nullptr
+;
+mStateFlags
+|
+=
+eIsDefunct
 ;
 }
 }
