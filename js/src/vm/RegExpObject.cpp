@@ -1032,7 +1032,7 @@ runtime
 )
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 &

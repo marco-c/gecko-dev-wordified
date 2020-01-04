@@ -2861,7 +2861,7 @@ if
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )

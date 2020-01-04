@@ -22823,7 +22823,7 @@ runtimeFromAnyThread
 )
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
@@ -26697,7 +26697,7 @@ runtimeFromAnyThread
 )
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )
