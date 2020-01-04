@@ -11228,7 +11228,7 @@ GeckoPreferences
 .
 PREFS_RESTORE_SESSION
 "
-quit
+always
 "
 )
 ;
