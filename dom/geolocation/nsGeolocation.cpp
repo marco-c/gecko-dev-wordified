@@ -6257,6 +6257,11 @@ rv
 rv
 )
 ;
+if
+(
+uri
+)
+{
 bool
 isHttp
 ;
@@ -6340,6 +6345,7 @@ ProtocolType
 :
 HTTPS
 ;
+}
 }
 }
 /
