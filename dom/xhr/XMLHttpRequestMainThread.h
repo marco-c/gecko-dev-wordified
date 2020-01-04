@@ -2374,7 +2374,7 @@ override
 /
 /
 This
-creates
+fires
 a
 trusted
 readystatechange
@@ -2392,12 +2392,8 @@ t
 bubble
 .
 nsresult
-CreateReadystatechangeEvent
+FireReadystatechangeEvent
 (
-nsIDOMEvent
-*
-*
-aDOMEvent
 )
 ;
 void
