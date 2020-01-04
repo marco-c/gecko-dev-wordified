@@ -1197,7 +1197,7 @@ self
 .
 log
 (
-line
+b
 )
                 
 self
