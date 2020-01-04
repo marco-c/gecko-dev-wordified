@@ -16681,8 +16681,10 @@ mCurrentTimeGetter
 {
 mCurrentTimeGetter
 =
-new
+MakeUnique
+<
 CurrentX11TimeGetter
+>
 (
 mGdkWindow
 )
@@ -16690,6 +16692,10 @@ mGdkWindow
 }
 return
 mCurrentTimeGetter
+.
+get
+(
+)
 ;
 }
 gboolean

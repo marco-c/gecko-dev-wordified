@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEventDispatcher
 .
 h
@@ -13108,8 +13117,10 @@ nullptr
 }
 mLongTapTouchPoint
 =
-new
+MakeUnique
+<
 LongTapInfo
+>
 (
 pointerId
 aPoint
