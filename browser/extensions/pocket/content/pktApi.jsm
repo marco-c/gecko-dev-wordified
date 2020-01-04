@@ -4140,13 +4140,13 @@ panelSignUp
 {
 control
 :
-2
+1
 v1
 :
-7
+2
 v2
 :
-1
+7
 }
 )
 }
