@@ -2336,11 +2336,6 @@ common
 fixedPositionSides
 (
 )
-common
-.
-isClipFixed
-(
-)
 )
 ;
 }

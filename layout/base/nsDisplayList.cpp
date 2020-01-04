@@ -31369,7 +31369,6 @@ anchorRect
 fixedFrame
 presContext
 aContainerParameters
-true
 )
 ;
 return
@@ -31715,15 +31714,6 @@ scrollFrameSize
 mFrame
 presContext
 aContainerParameters
-/
-*
-clip
-is
-fixed
-=
-*
-/
-true
 )
 ;
 ViewID

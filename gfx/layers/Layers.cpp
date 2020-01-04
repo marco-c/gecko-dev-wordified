@@ -12639,8 +12639,6 @@ anchor
 =
 %
 s
-%
-s
 ]
 "
 GetFixedPositionScrollContainerId
@@ -12657,16 +12655,6 @@ anchor
 c_str
 (
 )
-IsClipFixed
-(
-)
-?
-"
-"
-:
-"
-scrollingClip
-"
 )
 .
 get

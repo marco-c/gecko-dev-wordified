@@ -32301,14 +32301,13 @@ GetIsFixedPosition
 )
 &
 &
-!
 e
 -
 >
 mLayer
 -
 >
-IsClipFixed
+GetScrolledClip
 (
 )
 )
