@@ -472,7 +472,9 @@ formatStringFromName
 (
 aName
 argList
-1
+argList
+.
+length
 )
 ;
 }
@@ -1596,6 +1598,8 @@ br
 issuerString
 ;
 selectedIndex
+.
+value
 =
 0
 ;
@@ -1711,6 +1715,8 @@ certNickList
 selected
 :
 selectedIndex
+.
+value
 }
 )
 .
@@ -1753,6 +1759,8 @@ prompt
 )
 ;
 selectedIndex
+.
+value
 =
 response
 .
@@ -1775,6 +1783,8 @@ viewCertDetails
 certDetailsList
 [
 selectedIndex
+.
+value
 ]
 )
 ;
