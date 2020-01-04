@@ -742,10 +742,6 @@ JS_DESCR_SLOT_TYPE
 /
 Type
 code
-#
-define
-JS_DESCR_SLOT_LANES
-9
 /
 /
 Slots
