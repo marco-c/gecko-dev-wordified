@@ -603,7 +603,7 @@ version
 is
 inlined
 in
-h264
+h264_loopfilter
 .
 c
 void

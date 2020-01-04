@@ -1,7 +1,6 @@
 /
 *
 *
-*
 This
 file
 is
@@ -264,8 +263,7 @@ tf
 /
 /
 it
-'
-s
+is
 the
 caller
 '

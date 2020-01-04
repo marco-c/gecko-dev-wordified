@@ -913,6 +913,17 @@ dummy_buf
 AV_INPUT_BUFFER_PADDING_SIZE
 ]
 ;
+av_assert1
+(
+avctx
+-
+>
+codec_id
+!
+=
+AV_CODEC_ID_NONE
+)
+;
 /
 *
 Parsers

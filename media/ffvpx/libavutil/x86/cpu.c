@@ -1306,7 +1306,7 @@ they
 lack
 256
 -
-bits
+bit
 execution
 units
 .

@@ -618,11 +618,11 @@ w
 /
 /
 gcc
-can
-'
-t
+cannot
 optimize
-64bit
+64
+-
+bit
 math
 on
 x86_32
