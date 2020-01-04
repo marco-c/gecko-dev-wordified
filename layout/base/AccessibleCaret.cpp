@@ -1047,7 +1047,7 @@ aEnabled
 static
 *
 /
-nsString
+nsAutoString
 AccessibleCaret
 :
 :
