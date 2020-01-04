@@ -1331,6 +1331,11 @@ argument
 {
 _EnqueuePromiseJob
 (
+reaction
+.
+capabilities
+.
+promise
 function
 PromiseReactionJob
 (
@@ -1546,6 +1551,7 @@ then
 {
 _EnqueuePromiseJob
 (
+promiseToResolve
 function
 PromiseResolveThenableJob
 (
