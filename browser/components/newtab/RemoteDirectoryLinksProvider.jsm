@@ -1166,6 +1166,8 @@ get
 _observedPrefs
 (
 )
+{
+return
 Object
 .
 freeze
@@ -1185,6 +1187,8 @@ prefSelectedLocale
 PREF_SELECTED_LOCALE
 }
 )
+;
+}
 get
 _linksURL
 (
