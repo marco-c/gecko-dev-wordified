@@ -648,13 +648,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h
