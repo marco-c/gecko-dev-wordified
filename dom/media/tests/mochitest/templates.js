@@ -3172,11 +3172,6 @@ pcLocal
 checkStatsIceConnectionType
 (
 stats
-test
-.
-testOptions
-.
-expectedLocalCandidateType
 )
 ;
 }
@@ -3211,11 +3206,6 @@ pcRemote
 checkStatsIceConnectionType
 (
 stats
-test
-.
-testOptions
-.
-expectedRemoteCandidateType
 )
 ;
 }
