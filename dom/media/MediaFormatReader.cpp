@@ -1320,6 +1320,16 @@ NS_NewRunnableFunction
 (
 )
 {
+MOZ_ASSERT
+(
+self
+-
+>
+OnTaskQueue
+(
+)
+)
+;
 self
 -
 >
@@ -1335,7 +1345,7 @@ OwnerThread
 )
 -
 >
-DispatchDirectTask
+Dispatch
 (
 r
 .
