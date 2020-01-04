@@ -197,7 +197,7 @@ DOMEventTargetHelper
 {
 friend
 class
-ServiceWorkerManager
+ServiceWorkerInfo
 ;
 public
 :
@@ -336,8 +336,12 @@ only
 be
 created
 from
-the
-ServiceWorkerManager
+ServiceWorkerInfo
+:
+:
+GetOrCreateInstance
+(
+)
 .
 ServiceWorker
 (
