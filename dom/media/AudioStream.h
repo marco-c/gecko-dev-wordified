@@ -245,6 +245,12 @@ class
 FrameHistory
 ;
 class
+AudioConfig
+;
+class
+AudioConverter
+;
+class
 AudioClock
 {
 public
@@ -2441,7 +2447,7 @@ this
 value
 from
 the
-preferece
+preference
 if
 true
 we
@@ -2456,6 +2462,12 @@ mIsMonoAudioEnabled
 DataSource
 &
 mDataSource
+;
+UniquePtr
+<
+AudioConverter
+>
+mAudioConverter
 ;
 }
 ;
