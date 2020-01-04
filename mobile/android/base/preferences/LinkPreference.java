@@ -134,7 +134,6 @@ extends
 Preference
 {
 private
-final
 String
 mUrl
 ;
@@ -195,6 +194,19 @@ null
 url
 "
 )
+;
+}
+public
+void
+setUrl
+(
+String
+url
+)
+{
+mUrl
+=
+url
 ;
 }
 Override
