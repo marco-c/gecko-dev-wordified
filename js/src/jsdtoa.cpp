@@ -156,7 +156,7 @@ js
 ;
 #
 ifdef
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 #
 define
 IEEE_8087

@@ -3906,7 +3906,7 @@ else
 {
 #
 if
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 /
 *
 Directly
@@ -4113,7 +4113,7 @@ endif
 /
 *
 !
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 *
 /
 }

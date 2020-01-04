@@ -1397,7 +1397,7 @@ JSWhyMagic
 if
 defined
 (
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 )
 #
 if
@@ -1599,7 +1599,7 @@ else
 *
 defined
 (
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 )
 *
 /
@@ -1784,7 +1784,7 @@ endif
 *
 defined
 (
-MOZ_LITTLE_ENDIAN
+IS_LITTLE_ENDIAN
 )
 *
 /
