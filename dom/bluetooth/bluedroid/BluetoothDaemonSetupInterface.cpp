@@ -346,7 +346,7 @@ BluetoothDaemonSetupModule
 :
 RegisterModuleCmd
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -463,7 +463,7 @@ BluetoothDaemonSetupModule
 :
 UnregisterModuleCmd
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *
@@ -837,7 +837,7 @@ BluetoothDaemonSetupInterface
 :
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -889,7 +889,7 @@ BluetoothDaemonSetupInterface
 :
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *
