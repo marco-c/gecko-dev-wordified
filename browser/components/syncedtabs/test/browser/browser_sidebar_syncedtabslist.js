@@ -1413,9 +1413,7 @@ filterInput
 =
 syncedTabsDeckComponent
 .
-_window
-.
-document
+container
 .
 querySelector
 (
