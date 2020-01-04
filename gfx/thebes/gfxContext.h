@@ -3409,12 +3409,6 @@ DrawTarget
 >
 mDT
 ;
-RefPtr
-<
-DrawTarget
->
-mOriginalDT
-;
 }
 ;
 /
