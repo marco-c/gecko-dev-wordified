@@ -341,7 +341,9 @@ enable
 logging
 (
 see
-prlog
+mozilla
+/
+Logging
 .
 h
 for
@@ -354,7 +356,7 @@ details
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsOfflineCacheUpdate
 :
@@ -362,7 +364,7 @@ nsOfflineCacheUpdate
 /
 /
 set
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 offlineupdate
 .

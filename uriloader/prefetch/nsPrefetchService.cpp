@@ -336,7 +336,7 @@ details
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsPrefetch
 :
@@ -344,7 +344,7 @@ nsPrefetch
 /
 /
 set
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 prefetch
 .
@@ -370,7 +370,7 @@ in
 /
 the
 file
-http
+prefetch
 .
 log
 /
