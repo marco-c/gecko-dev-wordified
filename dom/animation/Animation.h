@@ -595,7 +595,7 @@ const
 GlobalObject
 &
 aGlobal
-KeyframeEffectReadOnly
+AnimationEffectReadOnly
 *
 aEffect
 const
