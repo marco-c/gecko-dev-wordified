@@ -5676,11 +5676,15 @@ Notify
 (
 this
 window
+?
+window
 -
 >
 GetCurrentInnerWindow
 (
 )
+:
+nullptr
 aActionURL
 aCancelSubmit
 )
