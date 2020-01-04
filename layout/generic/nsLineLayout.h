@@ -3948,9 +3948,8 @@ const
 nsStyleText
 *
 aStyleText
-nsFontMetrics
-*
-aFontMetrics
+float
+aInflation
 bool
 *
 aZeroEffectiveSpanBox
