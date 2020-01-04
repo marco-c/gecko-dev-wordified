@@ -2976,9 +2976,9 @@ presContext
 DevPixelsToIntCSSPixels
 (
 aX
+)
 -
 mImageX
-)
 ;
 int32_t
 y
@@ -2989,9 +2989,9 @@ presContext
 DevPixelsToIntCSSPixels
 (
 aY
+)
 -
 mImageY
-)
 ;
 (
 static_cast
