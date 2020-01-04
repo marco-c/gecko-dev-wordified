@@ -135,15 +135,6 @@ dlfcn
 .
 h
 >
-#
-include
-"
-mozilla
-/
-RefPtr
-.
-h
-"
 typedef
 CFTypeRef
 IOSurfacePtr
@@ -471,7 +462,10 @@ public
 mozilla
 :
 :
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 MacIOSurface
 >
