@@ -181,6 +181,17 @@ aWhichClipboard
 =
 0
 ;
+virtual
+void
+SetSelectionCache
+(
+nsITransferable
+*
+aTransferable
+)
+=
+0
+;
 bool
 mEmptyingForSetData
 ;
