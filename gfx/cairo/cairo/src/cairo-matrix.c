@@ -5839,6 +5839,10 @@ radius
 {
 double
 major
+=
+0
+.
+0
 ;
 _cairo_matrix_transformed_circle_axes
 (
