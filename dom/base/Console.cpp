@@ -494,7 +494,7 @@ js
 #
 define
 STORAGE_MAX_EVENTS
-200
+1000
 using
 namespace
 mozilla
