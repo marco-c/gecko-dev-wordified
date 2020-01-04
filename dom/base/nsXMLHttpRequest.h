@@ -3181,7 +3181,7 @@ bit
 .
 *
 /
-nsresult
+void
 CheckChannelForCrossSiteRequest
 (
 nsIChannel
