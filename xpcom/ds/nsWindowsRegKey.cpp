@@ -1762,6 +1762,7 @@ resultLen
 ;
 if
 (
+!
 expandedResult
 .
 SetLength
@@ -2118,6 +2119,7 @@ NS_OK
 }
 if
 (
+!
 aResult
 .
 SetLength
