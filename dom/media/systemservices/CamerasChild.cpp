@@ -2133,6 +2133,10 @@ unique_idUTF8Length
 int
 &
 capture_id
+const
+nsACString
+&
+aOrigin
 )
 {
 LOG
@@ -2146,6 +2150,12 @@ nsCString
 unique_id
 (
 unique_idUTF8
+)
+;
+nsCString
+origin
+(
+aOrigin
 )
 ;
 nsCOMPtr
@@ -2163,6 +2173,7 @@ NewRunnableFrom
 this
 aCapEngine
 unique_id
+origin
 ]
 (
 )
@@ -2179,6 +2190,7 @@ SendAllocateCaptureDevice
 (
 aCapEngine
 unique_id
+origin
 )
 )
 {

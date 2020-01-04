@@ -527,6 +527,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 override
 {
@@ -2502,6 +2506,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 override
 ;

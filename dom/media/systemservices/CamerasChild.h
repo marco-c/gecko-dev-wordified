@@ -1392,6 +1392,10 @@ unique_idUTF8Length
 int
 &
 capture_id
+const
+nsACString
+&
+aOrigin
 )
 ;
 int

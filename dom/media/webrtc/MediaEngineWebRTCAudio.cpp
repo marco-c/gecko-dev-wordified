@@ -1240,6 +1240,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 {
 AssertIsOnOwningThread

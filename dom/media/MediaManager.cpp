@@ -3621,6 +3621,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsACString
+&
+aOrigin
 )
 {
 return
@@ -3634,6 +3638,7 @@ Allocate
 aConstraints
 aPrefs
 mID
+aOrigin
 )
 ;
 }
@@ -3654,6 +3659,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsACString
+&
+aOrigin
 )
 {
 return
@@ -3667,6 +3676,7 @@ Allocate
 aConstraints
 aPrefs
 mID
+aOrigin
 )
 ;
 }
@@ -7219,6 +7229,7 @@ mConstraints
 mAudio
 )
 mPrefs
+mOrigin
 )
 ;
 if
@@ -7286,6 +7297,7 @@ mConstraints
 mVideo
 )
 mPrefs
+mOrigin
 )
 ;
 if

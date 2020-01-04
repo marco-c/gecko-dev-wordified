@@ -553,6 +553,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsACString
+&
+aOrigin
 )
 ;
 nsresult
@@ -621,6 +625,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsACString
+&
+aOrigin
 )
 ;
 nsresult
