@@ -40747,6 +40747,12 @@ prop
 eCSSProperty_UNKNOWN
 &
 &
+prop
+!
+=
+eCSSPropertyExtra_variable
+&
+&
 nsCSSProps
 :
 :
