@@ -10749,7 +10749,7 @@ no
 /
 effect
 otherwise
-CSS_PROP_TEXTRESET
+CSS_PROP_DISPLAY
 (
 vertical
 -
@@ -10775,7 +10775,7 @@ VARIANT_CALC
 kVerticalAlignKTable
 offsetof
 (
-nsStyleTextReset
+nsStyleDisplay
 mVerticalAlign
 )
 eStyleAnimType_Coord

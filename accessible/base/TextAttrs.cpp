@@ -6307,7 +6307,7 @@ styleCoord
 aFrame
 -
 >
-StyleTextReset
+StyleDisplay
 (
 )
 -

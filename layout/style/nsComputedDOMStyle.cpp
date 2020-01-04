@@ -19741,7 +19741,7 @@ nsROCSSPrimitiveValue
 SetValueToCoord
 (
 val
-StyleTextReset
+StyleDisplay
 (
 )
 -

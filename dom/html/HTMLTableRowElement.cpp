@@ -1515,7 +1515,7 @@ mSIDs
 &
 NS_STYLE_INHERIT_BIT
 (
-TextReset
+Display
 )
 )
 {

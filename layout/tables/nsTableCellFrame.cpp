@@ -4129,7 +4129,7 @@ nsStyleCoord
 &
 verticalAlign
 =
-StyleTextReset
+StyleDisplay
 (
 )
 -
