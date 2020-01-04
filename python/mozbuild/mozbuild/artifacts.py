@@ -798,6 +798,10 @@ if
 self
 .
 _package_re
+and
+self
+.
+_package_re
 .
 match
 (
@@ -809,6 +813,10 @@ yield
 name
             
 elif
+self
+.
+_tests_re
+and
 self
 .
 _tests_re
