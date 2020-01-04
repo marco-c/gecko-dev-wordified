@@ -1792,6 +1792,9 @@ on
 DrawResult
 PaintTableBorderBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsRenderingContext
 &
 aRenderingContext
@@ -1801,8 +1804,6 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-uint32_t
-aBGPaintFlags
 )
 ;
 /
