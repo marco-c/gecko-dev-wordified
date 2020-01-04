@@ -3578,12 +3578,6 @@ aWorkerPrivate
 >
 ModifyBusyCountFromWorker
 (
-aWorkerPrivate
--
->
-GetJSContext
-(
-)
 false
 )
 )
@@ -3718,12 +3712,6 @@ aWorkerPrivate
 >
 ModifyBusyCountFromWorker
 (
-aWorkerPrivate
--
->
-GetJSContext
-(
-)
 true
 )
 )

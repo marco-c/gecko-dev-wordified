@@ -3648,9 +3648,6 @@ const
 bool
 ModifyBusyCountFromWorker
 (
-JSContext
-*
-aCx
 bool
 aIncrease
 )
