@@ -521,6 +521,11 @@ outlive
 the
 simulator
 .
+if
+(
+print_disasm_
+)
+{
 decoder_
 -
 >
@@ -534,6 +539,12 @@ js_delete
 print_disasm_
 )
 ;
+}
+if
+(
+instrumentation_
+)
+{
 decoder_
 -
 >
@@ -547,6 +558,7 @@ js_delete
 instrumentation_
 )
 ;
+}
 }
 void
 Simulator
