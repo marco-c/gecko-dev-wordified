@@ -128,6 +128,15 @@ Logging
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
 static
 PRLogModuleInfo
 *
@@ -459,10 +468,9 @@ threadName
 "
 ;
 }
-vsnprintf
+VsprintfLiteral
 (
 message
-MAX_MESSAGE_LENGTH
 format
 args
 )

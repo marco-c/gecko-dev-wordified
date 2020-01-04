@@ -305,6 +305,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -1191,10 +1200,9 @@ appEnv
 MAXPATHLEN
 ]
 ;
-snprintf
+SprintfLiteral
 (
 appEnv
-MAXPATHLEN
 "
 XUL_APP_FILE
 =
