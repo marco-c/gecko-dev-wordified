@@ -858,9 +858,6 @@ registerSchemaAPI
 "
 webNavigation
 "
-"
-webNavigation
-"
 (
 extension
 context

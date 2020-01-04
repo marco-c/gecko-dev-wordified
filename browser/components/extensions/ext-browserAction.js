@@ -1565,7 +1565,6 @@ registerSchemaAPI
 "
 browserAction
 "
-null
 (
 extension
 context
