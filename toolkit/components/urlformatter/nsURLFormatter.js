@@ -1378,9 +1378,10 @@ aMsg
 .
 replace
 (
-"
+/
 MOZ_GOOGLE_API_KEY
-"
+/
+g
 "
 [
 trimmed
@@ -1391,9 +1392,6 @@ api
 -
 key
 ]
-"
-"
-g
 "
 )
 :
