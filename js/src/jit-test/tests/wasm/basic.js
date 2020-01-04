@@ -6770,13 +6770,13 @@ i2v
 )
 ;
 const
-badIndirectCall
+signatureMismatch
 =
 /
-bad
-wasm
 indirect
 call
+signature
+mismatch
 /
 ;
 assertEq
@@ -6808,7 +6808,7 @@ v2i
 2
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6822,7 +6822,7 @@ v2i
 3
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6836,7 +6836,7 @@ v2i
 4
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6850,7 +6850,7 @@ v2i
 5
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6864,7 +6864,7 @@ i2i
 0
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6878,7 +6878,7 @@ i2i
 1
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertEq
@@ -6932,7 +6932,7 @@ i2v
 0
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6946,7 +6946,7 @@ i2v
 1
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6960,7 +6960,7 @@ i2v
 2
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6974,7 +6974,7 @@ i2v
 3
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -6988,7 +6988,7 @@ i2v
 4
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 assertErrorMessage
@@ -7002,7 +7002,7 @@ i2v
 5
 )
 Error
-badIndirectCall
+signatureMismatch
 )
 ;
 {

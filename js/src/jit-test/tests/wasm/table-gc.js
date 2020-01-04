@@ -297,10 +297,10 @@ call
 )
 Error
 /
-bad
-wasm
 indirect
 call
+to
+null
 /
 )
 ;

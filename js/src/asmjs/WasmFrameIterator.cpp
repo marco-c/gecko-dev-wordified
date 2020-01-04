@@ -2556,7 +2556,7 @@ scratch
 JumpTarget
 :
 :
-BadIndirectCall
+IndirectCallBadSig
 )
 ;
 break
@@ -2594,7 +2594,7 @@ immediate
 JumpTarget
 :
 :
-BadIndirectCall
+IndirectCallBadSig
 )
 ;
 break
