@@ -378,8 +378,6 @@ https
 updates
 -
 autopush
--
-dev
 .
 stage
 .
@@ -862,7 +860,7 @@ AutopushClientRemoteException
 failureException
 )
 .
-isNotFound
+isGone
 (
 )
 )
@@ -1098,7 +1096,7 @@ time
 should
 give
 a
-404
+410
 .
 final
 RequestDelegate
@@ -1170,7 +1168,7 @@ AutopushClientRemoteException
 reunsubscribeFailureException
 )
 .
-isNotFound
+isGone
 (
 )
 )
