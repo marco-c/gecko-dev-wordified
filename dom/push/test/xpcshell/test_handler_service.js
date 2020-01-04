@@ -48,6 +48,10 @@ is
 registered
 for
 "
+chrome
+:
+/
+/
 test
 -
 scope
@@ -116,6 +120,10 @@ let
 scope
 =
 "
+chrome
+:
+/
+/
 test
 -
 scope

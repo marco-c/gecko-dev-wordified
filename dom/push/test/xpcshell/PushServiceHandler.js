@@ -20,6 +20,10 @@ notifications
 with
 scope
 "
+chrome
+:
+/
+/
 test
 -
 scope
