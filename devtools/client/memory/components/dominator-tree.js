@@ -1271,6 +1271,7 @@ item
 depth
 focused
 arrow
+expanded
 getPercentSize
 :
 size
