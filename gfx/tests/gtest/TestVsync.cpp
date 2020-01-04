@@ -625,14 +625,6 @@ VsyncTester
 CompositorGetVsyncNotifications
 )
 {
-CompositorVsyncDispatcher
-:
-:
-SetThreadAssertionsEnabled
-(
-false
-)
-;
 VsyncSource
 :
 :

@@ -182,6 +182,10 @@ const
 TimeStamp
 &
 vsyncTimeStamp
+const
+uint64_t
+&
+aLayersId
 )
 override
 ;
