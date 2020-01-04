@@ -11955,7 +11955,7 @@ aCx
 domClass
 -
 >
-mGetParent
+mGetAssociatedGlobal
 (
 aCx
 aObj
@@ -11964,16 +11964,10 @@ aObj
 ;
 MOZ_ASSERT
 (
-js
-:
-:
-GetGlobalForObjectCrossCompartment
+JS_IsGlobalObject
 (
 newParent
 )
-=
-=
-newParent
 )
 ;
 JSAutoCompartment

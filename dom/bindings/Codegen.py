@@ -2958,7 +2958,7 @@ value
 hooks
 }
           
-GetParentObject
+FindAssociatedGlobalForNative
 <
 {
 nativeType
