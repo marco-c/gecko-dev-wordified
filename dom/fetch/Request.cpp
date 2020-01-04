@@ -587,7 +587,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aInput
 )
 ;
@@ -646,7 +645,6 @@ ThrowTypeError
 MSG_URL_HAS_CREDENTIALS
 >
 (
-&
 aInput
 )
 ;
@@ -802,7 +800,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aInput
 )
 ;
@@ -861,7 +858,6 @@ ThrowTypeError
 MSG_URL_HAS_CREDENTIALS
 >
 (
-&
 aInput
 )
 ;
@@ -1057,7 +1053,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aInput
 )
 ;
@@ -1143,7 +1138,6 @@ ThrowTypeError
 MSG_URL_HAS_CREDENTIALS
 >
 (
-&
 aInput
 )
 ;
@@ -1830,7 +1824,6 @@ ThrowTypeError
 MSG_INVALID_REQUEST_METHOD
 >
 (
-&
 label
 )
 ;
@@ -2063,7 +2056,6 @@ ThrowTypeError
 MSG_INVALID_REQUEST_METHOD
 >
 (
-&
 label
 )
 ;

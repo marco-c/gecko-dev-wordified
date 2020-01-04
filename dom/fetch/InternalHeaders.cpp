@@ -1015,7 +1015,6 @@ ThrowTypeError
 MSG_INVALID_HEADER_NAME
 >
 (
-&
 label
 )
 ;
@@ -1067,7 +1066,6 @@ ThrowTypeError
 MSG_INVALID_HEADER_VALUE
 >
 (
-&
 label
 )
 ;
