@@ -3198,6 +3198,14 @@ LRandom
 ins
 )
 ;
+void
+emitDebugForceBailing
+(
+LInstruction
+*
+lir
+)
+;
 IonScriptCounts
 *
 extractScriptCounts
