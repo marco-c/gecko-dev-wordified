@@ -21314,6 +21314,12 @@ mDownstreamState
 =
 =
 BUFFERING_FRAME_HEADER
+|
+|
+mDownstreamState
+=
+=
+DISCARDING_DATA_FRAME_PADDING
 )
 {
 return
