@@ -830,11 +830,17 @@ doc
 GetOwner
 (
 )
+?
+GetOwner
+(
+)
 -
 >
 GetDoc
 (
 )
+:
+nullptr
 ;
 uint16_t
 status
