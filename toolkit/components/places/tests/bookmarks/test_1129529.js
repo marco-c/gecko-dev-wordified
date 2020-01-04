@@ -129,7 +129,7 @@ children
 guid
 :
 "
-guid1
+___guid1____
 "
 index
 :
@@ -183,7 +183,7 @@ com
 guid
 :
 "
-guid2
+___guid2____
 "
 index
 :
@@ -254,7 +254,7 @@ com
 guid
 :
 "
-guid3
+___guid3____
 "
 index
 :
