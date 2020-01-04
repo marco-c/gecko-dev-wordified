@@ -2844,6 +2844,11 @@ needsHomeObject
 )
 |
 |
+isDerivedClassConstructor
+(
+)
+|
+|
 isGenerator
 (
 )

@@ -3348,6 +3348,9 @@ case
 PNK_CALL
 :
 case
+PNK_SUPERCALL
+:
+case
 PNK_GENEXP
 :
 case
