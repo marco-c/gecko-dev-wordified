@@ -188,9 +188,9 @@ DevToolsUtils
 .
 dumpv
 .
-wantLogging
+wantVerbose
 =
-true
+false
 ;
 var
 {
