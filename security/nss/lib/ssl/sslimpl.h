@@ -6404,6 +6404,11 @@ by
 server
 *
 /
+const
+namedGroupDef
+*
+dhePreferredGroup
+;
 /
 *
 TLS
