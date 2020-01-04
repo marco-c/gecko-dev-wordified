@@ -1791,7 +1791,7 @@ already_AddRefed
 <
 TextureClient
 >
-CreateWithBufferSize
+CreateForYCbCrWithBufferSize
 (
 ISurfaceAllocator
 *
