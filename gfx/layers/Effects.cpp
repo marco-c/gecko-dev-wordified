@@ -140,12 +140,6 @@ h
 /
 for
 nsAutoCString
-namespace
-mozilla
-{
-namespace
-layers
-{
 using
 namespace
 mozilla
@@ -647,13 +641,3 @@ get
 )
 ;
 }
-}
-/
-/
-namespace
-layers
-}
-/
-/
-namespace
-mozilla
