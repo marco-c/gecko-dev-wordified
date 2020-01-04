@@ -809,8 +809,8 @@ init
 (
 UniqueModuleGeneratorData
 shared
+const
 CompileArgs
-&
 &
 args
 Metadata
