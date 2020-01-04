@@ -6202,6 +6202,12 @@ shutdown
 (
 )
 ;
+TelemetryEnvironment
+.
+shutdown
+(
+)
+;
 /
 /
 Stop
