@@ -14324,6 +14324,11 @@ nsIPresShell
 :
 :
 PAINT_LAYERS
+|
+nsIPresShell
+:
+:
+PAINT_SYNC_DECODE_IMAGES
 )
 ;
 }
