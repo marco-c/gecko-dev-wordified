@@ -4072,7 +4072,7 @@ if
 (
 aTransform
 .
-Is2D
+CanDraw2D
 (
 &
 matrix2D
