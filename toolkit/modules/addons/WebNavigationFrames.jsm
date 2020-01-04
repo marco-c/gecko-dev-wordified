@@ -159,7 +159,7 @@ DOMWindow
 from
 .
 *
-return
+returns
 {
 nsIDOMWindow
 }
@@ -339,7 +339,7 @@ JSON
 object
 .
 *
-return
+returns
 {
 FrameDetail
 }
@@ -423,7 +423,7 @@ root
 docShell
 object
 *
-return
+returns
 {
 Iterator
 <
@@ -660,14 +660,14 @@ param
 {
 nsIDocShell
 }
-docShell
+rootDocShell
 -
 the
 root
 docShell
 object
 *
-return
+returns
 {
 nsIDocShell
 ?

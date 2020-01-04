@@ -1025,6 +1025,13 @@ selected
 tab
 .
 *
+*
+param
+{
+Window
+}
+window
+*
 /
 triggerAction
 (
