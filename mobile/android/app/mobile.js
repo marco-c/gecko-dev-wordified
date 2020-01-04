@@ -5211,6 +5211,11 @@ the
 zoomed
 view
 controls
+do
+not
+use
+size
+heurisistic
 pref
 (
 "
