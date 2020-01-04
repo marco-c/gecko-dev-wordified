@@ -612,7 +612,7 @@ R
 .
 dimen
 .
-page_row_padding_right
+page_row_edge_padding
 )
 0
 )

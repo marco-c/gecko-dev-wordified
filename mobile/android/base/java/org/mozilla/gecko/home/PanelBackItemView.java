@@ -265,7 +265,7 @@ R
 .
 drawable
 .
-folder_up
+arrow_up
 )
 ;
 }
@@ -291,7 +291,7 @@ R
 .
 drawable
 .
-folder_up
+arrow_up
 )
 .
 into
