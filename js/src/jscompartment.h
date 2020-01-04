@@ -4931,6 +4931,12 @@ NO
 LONGER
 USING
 8
+DeprecatedRestoredRegExpStatics
+=
+9
+/
+/
+Unknown
 DeprecatedLanguageExtensionCount
 }
 ;
