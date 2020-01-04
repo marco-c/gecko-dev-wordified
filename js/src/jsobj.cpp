@@ -17168,16 +17168,6 @@ if
 obj
 -
 >
-hasDynamicPrototype
-(
-)
-)
-{
-MOZ_ASSERT
-(
-obj
--
->
 is
 <
 js
@@ -17188,7 +17178,6 @@ ProxyObject
 (
 )
 )
-;
 return
 js
 :
@@ -17204,7 +17193,6 @@ isOrdinary
 protop
 )
 ;
-}
 *
 isOrdinary
 =

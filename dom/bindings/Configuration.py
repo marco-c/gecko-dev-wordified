@@ -4569,6 +4569,13 @@ self
 .
 hasNamedPropertiesObject
 )
+or
+                          
+self
+.
+hasNonOrdinaryGetPrototypeOf
+(
+)
 )
             
 if
@@ -6627,6 +6634,25 @@ NamedGetter
 is
 not
 None
+    
+def
+hasNonOrdinaryGetPrototypeOf
+(
+self
+)
+:
+        
+return
+self
+.
+interface
+.
+getExtendedAttribute
+(
+"
+NonOrdinaryGetPrototypeOf
+"
+)
     
 def
 needsConstructHookHolder
