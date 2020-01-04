@@ -2972,7 +2972,8 @@ MessageEvent
 >
 messageEvent
 =
-NS_NewDOMMessageEvent
+new
+MessageEvent
 (
 this
 nullptr
