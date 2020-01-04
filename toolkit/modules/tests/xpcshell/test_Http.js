@@ -245,12 +245,6 @@ kJsonPostMimeType
 application
 /
 json
-;
-charset
-=
-UTF
--
-8
 "
 ;
 const
