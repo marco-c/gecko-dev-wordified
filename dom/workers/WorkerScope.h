@@ -512,11 +512,7 @@ SetTimeout
 (
 JSContext
 *
-/
-*
-unused
-*
-/
+aCx
 const
 nsAString
 &
