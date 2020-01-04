@@ -522,6 +522,7 @@ hexdigest
 def
 create_context_tar
 (
+topsrcdir
 context_dir
 out_path
 prefix

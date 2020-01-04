@@ -1321,6 +1321,7 @@ destination
 return
 create_context_tar
 (
+GECKO
 context_dir
 destination
 image_name
