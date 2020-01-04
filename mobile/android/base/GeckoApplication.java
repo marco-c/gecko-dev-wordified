@@ -1006,6 +1006,12 @@ profileName
 }
 )
 ;
+GeckoService
+.
+register
+(
+)
+;
 super
 .
 onCreate
