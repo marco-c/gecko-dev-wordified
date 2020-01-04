@@ -26826,16 +26826,6 @@ OwnerDoc
 ;
 if
 (
-mReadyState
->
-nsIDOMHTMLMediaElement
-:
-:
-HAVE_NOTHING
-)
-{
-if
-(
 mDecoder
 )
 {
@@ -26869,7 +26859,6 @@ ToTimeRanges
 ranges
 )
 ;
-}
 }
 }
 return
