@@ -2240,6 +2240,17 @@ aRv
 {
 if
 (
+EventPhase
+(
+)
+=
+=
+nsIDOMEvent
+:
+:
+NONE
+|
+|
 mWaitToRespond
 )
 {
