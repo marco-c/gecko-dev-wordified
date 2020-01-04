@@ -1747,6 +1747,14 @@ ins
 )
 ;
 void
+visitFallibleStoreElement
+(
+MFallibleStoreElement
+*
+ins
+)
+;
+void
 visitStoreUnboxedObjectOrNull
 (
 MStoreUnboxedObjectOrNull

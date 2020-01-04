@@ -1553,6 +1553,16 @@ StoreElementHoleT
 \
 _
 (
+FallibleStoreElementV
+)
+\
+_
+(
+FallibleStoreElementT
+)
+\
+_
+(
 LoadTypedArrayElementHole
 )
 \
