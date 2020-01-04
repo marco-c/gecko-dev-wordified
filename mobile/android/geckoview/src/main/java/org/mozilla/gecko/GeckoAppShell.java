@@ -1745,14 +1745,6 @@ invalidateAndScheduleComposite
 public
 static
 native
-float
-computeRenderIntegrity
-(
-)
-;
-public
-static
-native
 void
 addPresentationSurface
 (
