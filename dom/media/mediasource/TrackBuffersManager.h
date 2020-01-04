@@ -1059,7 +1059,6 @@ friend
 class
 MediaSourceDemuxer
 ;
-virtual
 ~
 TrackBuffersManager
 (
