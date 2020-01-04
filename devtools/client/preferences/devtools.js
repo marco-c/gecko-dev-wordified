@@ -3652,7 +3652,7 @@ fontinspector
 .
 enabled
 "
-false
+true
 )
 ;
 /
