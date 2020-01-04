@@ -542,7 +542,7 @@ retained
 const
 MAX_ARCHIVED_PINGS_RETENTION_MS
 =
-180
+60
 *
 24
 *
@@ -554,7 +554,7 @@ MAX_ARCHIVED_PINGS_RETENTION_MS
 ;
 /
 /
-180
+60
 days
 /
 /
