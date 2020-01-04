@@ -1262,6 +1262,15 @@ LRotateI64
 lir
 )
 ;
+virtual
+void
+visitAsmJSPassStackArgI64
+(
+LAsmJSPassStackArgI64
+*
+lir
+)
+;
 /
 /
 Out
