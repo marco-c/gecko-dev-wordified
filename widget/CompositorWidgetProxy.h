@@ -153,6 +153,9 @@ gfx
 namespace
 widget
 {
+class
+WinCompositorWidgetProxy
+;
 /
 *
 *
@@ -939,6 +942,17 @@ GetCompositorVsyncDispatcher
 =
 0
 ;
+virtual
+WinCompositorWidgetProxy
+*
+AsWindowsProxy
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual
