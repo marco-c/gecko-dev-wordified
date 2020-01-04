@@ -7993,7 +7993,7 @@ scrollbar
 nsMargin
 borderPadding
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )

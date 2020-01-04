@@ -2278,7 +2278,7 @@ bp
 aBox
 -
 >
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )

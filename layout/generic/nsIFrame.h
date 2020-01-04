@@ -21418,7 +21418,7 @@ nsITheme
 .
 virtual
 nsresult
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &

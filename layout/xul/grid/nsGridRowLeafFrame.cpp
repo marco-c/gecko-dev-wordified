@@ -228,7 +228,7 @@ nsresult
 nsGridRowLeafFrame
 :
 :
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &
@@ -255,7 +255,7 @@ rv
 nsBoxFrame
 :
 :
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 aBorderAndPadding
 )

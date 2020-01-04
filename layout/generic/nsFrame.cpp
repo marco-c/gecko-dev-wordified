@@ -57691,7 +57691,7 @@ bp
 0
 )
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )

@@ -3638,7 +3638,7 @@ border
 and
 padding
 .
-GetBorderAndPadding
+GetXULBorderAndPadding
 /
 /
 is
@@ -4124,7 +4124,7 @@ border
 and
 padding
 .
-GetBorderAndPadding
+GetXULBorderAndPadding
 /
 /
 is

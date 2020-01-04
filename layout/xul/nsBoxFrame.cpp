@@ -3453,12 +3453,12 @@ the
 /
 result
 of
-GetBorderAndPadding
+GetXULBorderAndPadding
 .
 nsMargin
 bp
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )
@@ -3579,12 +3579,12 @@ the
 /
 result
 of
-GetBorderAndPadding
+GetXULBorderAndPadding
 .
 nsMargin
 bp
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )
@@ -3907,7 +3907,7 @@ ComputedLogicalBorderPadding
 ;
 /
 /
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 m
 )
@@ -10232,7 +10232,7 @@ border
 aBox
 -
 >
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 border
 )

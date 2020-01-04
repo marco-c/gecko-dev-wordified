@@ -1067,7 +1067,7 @@ MoveTo
 nsMargin
 borderPadding
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )
@@ -1421,7 +1421,7 @@ nsresult
 nsIFrame
 :
 :
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &
@@ -4770,7 +4770,7 @@ borderPadding
 aBox
 -
 >
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )
