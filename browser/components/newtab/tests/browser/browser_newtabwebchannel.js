@@ -1563,10 +1563,6 @@ browser
 ;
 browser
 .
-contentWindow
-.
-location
-.
 reload
 (
 )
