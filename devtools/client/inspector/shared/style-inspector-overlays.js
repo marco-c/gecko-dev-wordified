@@ -1773,6 +1773,9 @@ type
 "
 arrow
 "
+useXulWrapper
+:
+true
 }
 )
 ;

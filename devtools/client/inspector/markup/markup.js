@@ -1573,6 +1573,11 @@ type
 "
 arrow
 "
+useXulWrapper
+:
+"
+true
+"
 }
 )
 ;

@@ -1656,6 +1656,13 @@ this
 .
 useXulWrapper
 =
+this
+.
+_isXUL
+(
+)
+&
+&
 useXulWrapper
 ;
 this
@@ -1773,13 +1780,6 @@ stylesheet
 }
 if
 (
-this
-.
-_isXUL
-(
-)
-&
-&
 this
 .
 useXulWrapper
