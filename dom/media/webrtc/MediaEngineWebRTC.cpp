@@ -352,6 +352,12 @@ mAnyInUse
 =
 false
 ;
+StaticMutex
+AudioInputCubeb
+:
+:
+sMutex
+;
 /
 /
 AudioDeviceID
@@ -707,6 +713,12 @@ device_id
 }
 }
 }
+StaticMutexAutoLock
+lock
+(
+sMutex
+)
+;
 /
 /
 swap
