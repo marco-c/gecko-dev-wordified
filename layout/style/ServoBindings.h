@@ -1168,6 +1168,8 @@ Restyle
 the
 given
 document
+or
+subtree
 .
 void
 Servo_RestyleDocument
@@ -1175,6 +1177,17 @@ Servo_RestyleDocument
 RawGeckoDocument
 *
 doc
+RawServoStyleSet
+*
+set
+)
+;
+void
+Servo_RestyleSubtree
+(
+RawGeckoNode
+*
+node
 RawServoStyleSet
 *
 set
