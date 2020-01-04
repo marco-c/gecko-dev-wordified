@@ -1475,7 +1475,10 @@ Invalid
 sidebar
 broadcaster
 specified
+:
 "
++
+commandID
 )
 )
 ;
