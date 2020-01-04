@@ -1793,6 +1793,12 @@ fun
 generatorKind
 (
 )
+fun
+-
+>
+asyncKind
+(
+)
 )
 ;
 if
@@ -4432,6 +4438,7 @@ standaloneFunctionBody
 fun
 formals
 generatorKind
+SyncFunction
 directives
 &
 newDirectives
@@ -5507,6 +5514,12 @@ lazy
 -
 >
 generatorKind
+(
+)
+lazy
+-
+>
+asyncKind
 (
 )
 )
