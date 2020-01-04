@@ -88,10 +88,10 @@ debugger
 .
 #
 ifndef
-BASE_DEBUG_DEBUGGER_H
+BASE_DEBUG_DEBUGGER_H_
 #
 define
-BASE_DEBUG_DEBUGGER_H
+BASE_DEBUG_DEBUGGER_H_
 #
 include
 "
@@ -353,4 +353,4 @@ base
 endif
 /
 /
-BASE_DEBUG_DEBUGGER_H
+BASE_DEBUG_DEBUGGER_H_

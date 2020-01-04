@@ -234,6 +234,12 @@ ERROR_BAD_PATHNAME
 =
 =
 error_open
+|
+|
+ERROR_FILE_NOT_FOUND
+=
+=
+error_open
 )
 return
 SBOX_TEST_DENIED
@@ -482,6 +488,7 @@ SBOX_TEST_SUCCEEDED
 ;
 if
 (
+(
 event_open
 .
 IsValid
@@ -495,8 +502,10 @@ event_create
 IsValid
 (
 )
+)
 |
 |
+(
 !
 event_open
 .
@@ -511,9 +520,12 @@ IsValid
 (
 )
 )
+)
+{
 return
 SBOX_TEST_FAILED
 ;
+}
 }
 else
 {
@@ -574,7 +586,7 @@ combinations
 TEST
 (
 SyncPolicyTest
-DISABLED_TestEvent
+TestEvent
 )
 {
 TestRunner
@@ -836,7 +848,7 @@ access
 TEST
 (
 SyncPolicyTest
-DISABLED_TestEventReadOnly
+TestEventReadOnly
 )
 {
 TestRunner

@@ -71,15 +71,6 @@ include
 "
 base
 /
-basictypes
-.
-h
-"
-#
-include
-"
-base
-/
 threading
 /
 platform_thread

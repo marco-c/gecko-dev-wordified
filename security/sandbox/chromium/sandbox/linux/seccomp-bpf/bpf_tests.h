@@ -1009,14 +1009,13 @@ test_function
 )
 {
 }
-virtual
 ~
 BPFTesterSimpleDelegate
 (
 )
+override
 {
 }
-virtual
 scoped_ptr
 <
 bpf_dsl
@@ -1045,7 +1044,6 @@ PolicyClass
 )
 ;
 }
-virtual
 void
 RunTestFunction
 (

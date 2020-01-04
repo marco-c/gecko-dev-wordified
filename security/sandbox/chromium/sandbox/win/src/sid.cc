@@ -128,10 +128,10 @@ DCHECK
 result
 )
 ;
-DBG_UNREFERENCED_LOCAL_VARIABLE
 (
-result
+void
 )
+result
 ;
 }
 const

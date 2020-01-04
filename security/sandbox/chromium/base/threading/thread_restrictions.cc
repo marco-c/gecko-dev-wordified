@@ -123,7 +123,6 @@ LAZY_INSTANCE_INITIALIZER
 }
 /
 /
-anonymous
 namespace
 /
 /

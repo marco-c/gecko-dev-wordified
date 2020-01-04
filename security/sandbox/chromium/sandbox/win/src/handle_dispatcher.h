@@ -47,10 +47,17 @@ define
 SANDBOX_SRC_HANDLE_DISPATCHER_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -114,6 +121,7 @@ policy_base
 HandleDispatcher
 (
 )
+override
 {
 }
 /
@@ -121,7 +129,6 @@ HandleDispatcher
 Dispatcher
 interface
 .
-virtual
 bool
 SetupService
 (
@@ -131,6 +138,7 @@ manager
 int
 service
 )
+override
 ;
 private
 :
@@ -163,11 +171,11 @@ IPCInfo
 ipc
 HANDLE
 source_handle
-uint32
+uint32_t
 target_process_id
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 options
 )
 ;

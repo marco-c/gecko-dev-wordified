@@ -47,10 +47,17 @@ define
 SANDBOX_SRC_SYNC_DISPATCHER_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -125,6 +132,7 @@ policy_base
 SyncDispatcher
 (
 )
+override
 {
 }
 /
@@ -132,7 +140,6 @@ SyncDispatcher
 Dispatcher
 interface
 .
-virtual
 bool
 SetupService
 (
@@ -142,6 +149,7 @@ manager
 int
 service
 )
+override
 ;
 private
 :
@@ -171,9 +179,9 @@ base
 string16
 *
 name
-uint32
+uint32_t
 event_type
-uint32
+uint32_t
 initial_state
 )
 ;
@@ -203,7 +211,7 @@ base
 string16
 *
 name
-uint32
+uint32_t
 desired_access
 )
 ;

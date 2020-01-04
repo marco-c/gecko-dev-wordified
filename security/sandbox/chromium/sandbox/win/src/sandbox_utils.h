@@ -62,15 +62,6 @@ include
 "
 base
 /
-basictypes
-.
-h
-"
-#
-include
-"
-base
-/
 strings
 /
 string16
@@ -113,6 +104,9 @@ obj_attr
 UNICODE_STRING
 *
 uni_name
+SECURITY_QUALITY_OF_SERVICE
+*
+security_qos
 )
 ;
 }

@@ -49,13 +49,11 @@ define
 SANDBOX_SRC_POLICY_ENGINE_PARAMS_H__
 #
 include
-"
-base
-/
-basictypes
+<
+stdint
 .
 h
-"
+>
 #
 include
 "
@@ -519,7 +517,7 @@ fail
 bool
 Get
 (
-uint32
+uint32_t
 *
 destination
 )
@@ -542,7 +540,7 @@ destination
 =
 Void2TypePointerCopy
 <
-uint32
+uint32_t
 >
 (
 )
@@ -1007,7 +1005,7 @@ template
 class
 ParameterSetEx
 <
-uint32
+uint32_t
 >
 :
 public

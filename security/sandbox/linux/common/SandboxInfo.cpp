@@ -237,9 +237,7 @@ sandbox
 /
 linux
 /
-seccomp
--
-bpf
+system_headers
 /
 linux_seccomp
 .
@@ -252,7 +250,7 @@ sandbox
 /
 linux
 /
-services
+system_headers
 /
 linux_syscalls
 .

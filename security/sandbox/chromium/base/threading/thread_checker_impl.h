@@ -59,6 +59,15 @@ include
 "
 base
 /
+compiler_specific
+.
+h
+"
+#
+include
+"
+base
+/
 synchronization
 /
 lock
@@ -165,6 +174,7 @@ CalledOnValidThread
 (
 )
 const
+WARN_UNUSED_RESULT
 ;
 /
 /

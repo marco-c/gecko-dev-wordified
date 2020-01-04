@@ -449,13 +449,13 @@ endif
 if
 defined
 (
-USE_OPENSSL
+USE_OPENSSL_CERTS
 )
 &
 &
 defined
 (
-USE_NSS
+USE_NSS_CERTS
 )
 #
 error
@@ -465,6 +465,8 @@ both
 OpenSSL
 and
 NSS
+for
+certificates
 #
 endif
 /

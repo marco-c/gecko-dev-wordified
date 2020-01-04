@@ -54,6 +54,13 @@ h
 "
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 base
 /
@@ -206,9 +213,11 @@ create_params
 {
 {
 IPC_CREATEEVENT_TAG
+{
 WCHAR_TYPE
 UINT32_TYPE
 UINT32_TYPE
+}
 }
 reinterpret_cast
 <
@@ -231,8 +240,10 @@ open_params
 {
 {
 IPC_OPENEVENT_TAG
+{
 WCHAR_TYPE
 UINT32_TYPE
+}
 }
 reinterpret_cast
 <
@@ -326,9 +337,9 @@ base
 string16
 *
 name
-uint32
+uint32_t
 event_type
-uint32
+uint32_t
 initial_state
 )
 {
@@ -447,7 +458,7 @@ base
 string16
 *
 name
-uint32
+uint32_t
 desired_access
 )
 {

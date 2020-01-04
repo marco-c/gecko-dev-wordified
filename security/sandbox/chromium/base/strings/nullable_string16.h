@@ -273,6 +273,7 @@ value
 /
 /
 namespace
+base
 #
 endif
 /

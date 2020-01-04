@@ -43,6 +43,13 @@ file
 .
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 sandbox
 /
@@ -135,7 +142,7 @@ thread_pool
 ;
 EXPECT_EQ
 (
-0
+0u
 thread_pool
 .
 OutstandingWaits
@@ -169,7 +176,7 @@ FALSE
 NULL
 )
 ;
-uint32
+uint32_t
 context
 =
 0
@@ -190,7 +197,7 @@ context
 ;
 EXPECT_EQ
 (
-0
+0u
 thread_pool
 .
 OutstandingWaits
@@ -214,7 +221,7 @@ context
 ;
 EXPECT_EQ
 (
-1
+1u
 thread_pool
 .
 OutstandingWaits
@@ -238,7 +245,7 @@ context
 ;
 EXPECT_EQ
 (
-2
+2u
 thread_pool
 .
 OutstandingWaits
@@ -258,7 +265,7 @@ this
 ;
 EXPECT_EQ
 (
-0
+0u
 thread_pool
 .
 OutstandingWaits
@@ -335,17 +342,17 @@ FALSE
 NULL
 )
 ;
-uint32
+uint32_t
 context
 =
 0
 ;
-uint32
+uint32_t
 c1
 =
 0
 ;
-uint32
+uint32_t
 c2
 =
 0
@@ -367,7 +374,7 @@ context
 ;
 EXPECT_EQ
 (
-1
+1u
 thread_pool
 .
 OutstandingWaits
@@ -392,7 +399,7 @@ context
 ;
 EXPECT_EQ
 (
-2
+2u
 thread_pool
 .
 OutstandingWaits
@@ -413,7 +420,7 @@ c2
 ;
 EXPECT_EQ
 (
-1
+1u
 thread_pool
 .
 OutstandingWaits
@@ -434,7 +441,7 @@ c2
 ;
 EXPECT_EQ
 (
-1
+1u
 thread_pool
 .
 OutstandingWaits
@@ -455,7 +462,7 @@ c1
 ;
 EXPECT_EQ
 (
-0
+0u
 thread_pool
 .
 OutstandingWaits
@@ -619,7 +626,7 @@ this
 ;
 EXPECT_EQ
 (
-0
+0u
 thread_pool
 .
 OutstandingWaits
@@ -629,7 +636,13 @@ OutstandingWaits
 ;
 EXPECT_EQ
 (
+static_cast
+<
+DWORD
+>
+(
 WAIT_TIMEOUT
+)
 :
 :
 SignalObjectAndWait

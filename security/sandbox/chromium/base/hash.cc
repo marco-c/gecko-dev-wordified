@@ -118,7 +118,7 @@ len
 namespace
 base
 {
-uint32
+uint32_t
 SuperFastHash
 (
 const

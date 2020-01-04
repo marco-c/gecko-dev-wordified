@@ -47,10 +47,17 @@ define
 SANDBOX_SRC_EAT_RESOLVER_H__
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -115,11 +122,11 @@ NULL
 )
 {
 }
-virtual
 ~
 EatResolverThunk
 (
 )
+override
 {
 }
 /
@@ -131,7 +138,6 @@ Resolver
 :
 Setup
 .
-virtual
 NTSTATUS
 Setup
 (
@@ -164,6 +170,7 @@ size_t
 *
 storage_used
 )
+override
 ;
 /
 /
@@ -174,7 +181,6 @@ Resolver
 :
 ResolveTarget
 .
-virtual
 NTSTATUS
 ResolveTarget
 (
@@ -191,6 +197,7 @@ void
 *
 address
 )
+override
 ;
 /
 /
@@ -201,12 +208,12 @@ Resolver
 :
 GetThunkSize
 .
-virtual
 size_t
 GetThunkSize
 (
 )
 const
+override
 ;
 private
 :

@@ -47,10 +47,17 @@ define
 SANDBOX_SRC_PROCESS_THREAD_DISPATCHER_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -127,6 +134,7 @@ policy_base
 ThreadProcessDispatcher
 (
 )
+override
 {
 }
 /
@@ -134,7 +142,6 @@ ThreadProcessDispatcher
 Dispatcher
 interface
 .
-virtual
 bool
 SetupService
 (
@@ -144,6 +151,7 @@ manager
 int
 service
 )
+override
 ;
 private
 :
@@ -169,9 +177,9 @@ NtOpenThread
 IPCInfo
 *
 ipc
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 thread_id
 )
 ;
@@ -197,9 +205,9 @@ NtOpenProcess
 IPCInfo
 *
 ipc
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 process_id
 )
 ;
@@ -226,7 +234,7 @@ IPCInfo
 ipc
 HANDLE
 process
-uint32
+uint32_t
 desired_access
 )
 ;
@@ -253,9 +261,9 @@ IPCInfo
 ipc
 HANDLE
 process
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 attributes
 )
 ;
