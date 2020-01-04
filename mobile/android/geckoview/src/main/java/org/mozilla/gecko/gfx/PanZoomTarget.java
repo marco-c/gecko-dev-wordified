@@ -99,15 +99,6 @@ gecko
 gfx
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-ZoomConstraints
-;
-import
 android
 .
 graphics
