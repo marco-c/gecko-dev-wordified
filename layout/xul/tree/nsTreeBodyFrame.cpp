@@ -4965,7 +4965,7 @@ orient
 InternalScrollPortEvent
 :
 :
-horizontal
+eHorizontal
 ;
 EventDispatcher
 :
