@@ -329,6 +329,7 @@ loader
 :
 Loader
 PromiseDebugging
+ChromeUtils
 ThreadSafeChromeUtils
 HeapSnapshot
 }
