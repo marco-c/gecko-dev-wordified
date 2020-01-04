@@ -5038,12 +5038,13 @@ n
 )
 )
 ;
-nsTArray
+AutoTArray
 <
 InternalHeaders
 :
 :
 Entry
+16
 >
 entries
 ;
