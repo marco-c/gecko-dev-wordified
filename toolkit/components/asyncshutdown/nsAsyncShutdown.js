@@ -1522,9 +1522,6 @@ webWorkersShutdown
 "
 xpcomWillShutdown
 "
-"
-xpcomThreadsShutdown
-"
 ]
 )
 {
