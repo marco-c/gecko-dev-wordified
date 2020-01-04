@@ -80,7 +80,7 @@ strict
 "
 ;
 var
-fakeMozLoop
+l10nOptions
 ;
 beforeEach
 (
@@ -88,7 +88,7 @@ function
 (
 )
 {
-fakeMozLoop
+l10nOptions
 =
 {
 locale
@@ -200,7 +200,7 @@ mozL10n
 .
 initialize
 (
-fakeMozLoop
+l10nOptions
 )
 ;
 }
