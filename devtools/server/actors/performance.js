@@ -208,7 +208,7 @@ PerformanceRecorder
 "
 devtools
 /
-shared
+server
 /
 performance
 /
@@ -228,9 +228,11 @@ PerformanceIO
 "
 devtools
 /
-shared
+client
 /
 performance
+/
+modules
 /
 io
 "
@@ -251,6 +253,8 @@ shared
 /
 performance
 /
+recording
+-
 utils
 "
 true
@@ -267,7 +271,7 @@ LegacyPerformanceFront
 "
 devtools
 /
-shared
+client
 /
 performance
 /

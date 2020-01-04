@@ -109,9 +109,11 @@ PerformanceIO
 "
 devtools
 /
-shared
+client
 /
 performance
+/
+modules
 /
 io
 "
@@ -132,6 +134,8 @@ shared
 /
 performance
 /
+recording
+-
 utils
 "
 )

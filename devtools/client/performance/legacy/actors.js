@@ -143,7 +143,7 @@ CompatUtils
 "
 devtools
 /
-shared
+client
 /
 performance
 /
@@ -168,6 +168,8 @@ shared
 /
 performance
 /
+recording
+-
 utils
 "
 )
