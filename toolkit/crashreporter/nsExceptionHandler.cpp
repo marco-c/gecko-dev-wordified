@@ -1357,9 +1357,6 @@ AsyncShutdownTimeout
 BuildID
 "
 "
-TelemetryEnvironment
-"
-"
 ProductID
 "
 "
@@ -1373,6 +1370,12 @@ SecondsSinceLastCrash
 "
 "
 ShutdownProgress
+"
+"
+StartupCrash
+"
+"
+TelemetryEnvironment
 "
 "
 Version
@@ -2190,9 +2193,8 @@ send
 along
 in
 subprocess
-/
-/
 reports
+.
 static
 const
 char
@@ -2207,6 +2209,9 @@ FramePoisonBase
 "
 "
 FramePoisonSize
+"
+"
+StartupCrash
 "
 "
 StartupTime
