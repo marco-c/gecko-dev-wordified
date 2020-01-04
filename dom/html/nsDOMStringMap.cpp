@@ -307,7 +307,7 @@ nsDOMStringMap
 :
 nsDOMStringMap
 (
-nsGenericHTMLElement
+Element
 *
 aElement
 )
