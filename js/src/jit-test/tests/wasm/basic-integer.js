@@ -2515,10 +2515,10 @@ TypeError
 mismatchError
 (
 "
-i32
-"
-"
 f32
+"
+"
+i32
 "
 )
 )
@@ -2731,10 +2731,10 @@ TypeError
 mismatchError
 (
 "
-i32
-"
-"
 f32
+"
+"
+i32
 "
 )
 )
