@@ -297,6 +297,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 PotentialCheckerboardDurationTracker
 .
 h
@@ -1344,7 +1351,7 @@ const
 TimeStamp
 &
 aSampleTime
-Vector
+nsTArray
 <
 Task
 *

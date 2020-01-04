@@ -147,15 +147,6 @@ h
 #
 include
 "
-mozilla
-/
-Vector
-.
-h
-"
-#
-include
-"
 FrameMetrics
 .
 h
@@ -164,6 +155,13 @@ h
 include
 "
 nsISupportsImpl
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "
@@ -330,7 +328,7 @@ mDeferredTasks
 .
 *
 /
-Vector
+nsTArray
 <
 Task
 *
@@ -443,7 +441,7 @@ them
 .
 *
 /
-Vector
+nsTArray
 <
 Task
 *
