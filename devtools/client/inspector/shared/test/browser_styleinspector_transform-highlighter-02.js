@@ -328,15 +328,11 @@ refreshed
 )
 ;
 let
-{
-view
-:
 cView
-}
 =
-yield
-openComputedView
+selectComputedView
 (
+inspector
 )
 ;
 yield

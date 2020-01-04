@@ -649,15 +649,11 @@ refreshed
 "
 )
 ;
-(
-{
 view
-}
 =
-yield
-openComputedView
+selectComputedView
 (
-)
+inspector
 )
 ;
 yield
