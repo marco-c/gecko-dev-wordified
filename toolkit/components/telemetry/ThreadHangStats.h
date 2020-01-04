@@ -1327,6 +1327,9 @@ if
 aAnnotations
 )
 {
+if
+(
+!
 mAnnotations
 .
 append
@@ -1336,7 +1339,13 @@ Move
 aAnnotations
 )
 )
+)
+{
+MOZ_CRASH
+(
+)
 ;
+}
 }
 }
 }
