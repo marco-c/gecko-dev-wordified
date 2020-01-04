@@ -8193,6 +8193,14 @@ private
 :
 /
 /
+Mutex
+protecting
+mCheckerboardEvent
+Mutex
+mCheckerboardEventLock
+;
+/
+/
 This
 is
 created
