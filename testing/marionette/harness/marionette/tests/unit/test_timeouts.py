@@ -73,6 +73,8 @@ NoSuchElementException
                                       
 MarionetteException
                                       
+InvalidArgumentException
+                                      
 ScriptTimeoutException
 )
 from
@@ -111,7 +113,7 @@ self
 )
     
 def
-test_pagetimeout_notdefinetimeout_pass
+test_page_timeout_notdefinetimeout_pass
 (
 self
 )
@@ -142,7 +144,7 @@ test_html
 )
     
 def
-test_pagetimeout_fail
+test_page_timeout_fail
 (
 self
 )
@@ -152,12 +154,8 @@ self
 .
 marionette
 .
-timeouts
+set_page_load_timeout
 (
-"
-page
-load
-"
 0
 )
         
@@ -190,7 +188,7 @@ test_html
 )
     
 def
-test_pagetimeout_pass
+test_page_timeout_pass
 (
 self
 )
@@ -200,12 +198,8 @@ self
 .
 marionette
 .
-timeouts
+set_page_load_timeout
 (
-"
-page
-load
-"
 60000
 )
         
@@ -234,7 +228,7 @@ test_html
 )
     
 def
-test_searchtimeout_notfound_settimeout
+test_search_timeout_notfound_settimeout
 (
 self
 )
@@ -268,11 +262,8 @@ self
 .
 marionette
 .
-timeouts
+set_search_timeout
 (
-"
-implicit
-"
 1000
 )
         
@@ -304,11 +295,8 @@ self
 .
 marionette
 .
-timeouts
+set_search_timeout
 (
-"
-implicit
-"
 0
 )
         
@@ -337,7 +325,7 @@ page
 )
     
 def
-test_searchtimeout_found_settimeout
+test_search_timeout_found_settimeout
 (
 self
 )
@@ -393,11 +381,8 @@ self
 .
 marionette
 .
-timeouts
+set_search_timeout
 (
-"
-implicit
-"
 8000
 )
         
@@ -425,7 +410,7 @@ newDiv
 )
     
 def
-test_searchtimeout_found
+test_search_timeout_found
 (
 self
 )
@@ -530,11 +515,8 @@ self
 .
 marionette
 .
-timeouts
+set_script_timeout
 (
-"
-script
-"
 10000
 )
         
@@ -592,11 +574,8 @@ self
 .
 marionette
 .
-timeouts
+set_script_timeout
 (
-"
-script
-"
 10000
 )
         
@@ -650,57 +629,77 @@ true
 )
     
 def
-test_invalid_timeout_type
+test_invalid_timeout_types
 (
 self
 )
 :
         
-self
+for
+val
+in
+[
+3
 .
-assertRaises
+14
+True
+[
+]
+{
+}
+"
+foo
+"
+]
+:
+            
+print
+"
+testing
+%
+s
+"
+%
+type
 (
-ValueError
-self
-.
-marionette
-.
-timeouts
-"
-foobar
-"
-1000
+val
 )
-        
+            
 self
 .
 assertRaises
 (
-ValueError
+InvalidArgumentException
 self
 .
 marionette
 .
-timeouts
-42
-1000
+set_search_timeout
+val
 )
-        
+            
 self
 .
 assertRaises
 (
-MarionetteException
+InvalidArgumentException
 self
 .
 marionette
 .
-timeouts
-"
-page
-load
-"
-"
-foobar
-"
+set_script_timeout
+val
+)
+            
+self
+.
+assertRaises
+(
+InvalidArgumentException
+self
+.
+marionette
+.
+set_page_load_timeout
+val
 )
