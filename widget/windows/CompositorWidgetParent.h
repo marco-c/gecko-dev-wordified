@@ -176,16 +176,6 @@ RecvClearTransparentWindow
 )
 override
 ;
-bool
-RecvResizeTransparentWindow
-(
-const
-IntSize
-&
-aSize
-)
-override
-;
 void
 ActorDestroy
 (
