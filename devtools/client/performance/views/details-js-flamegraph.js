@@ -580,6 +580,14 @@ duration
 ;
 this
 .
+graph
+.
+focus
+(
+)
+;
+this
+.
 emit
 (
 EVENTS
