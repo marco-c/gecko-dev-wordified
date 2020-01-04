@@ -34490,9 +34490,7 @@ style
 styleText
 -
 >
-GetDecorationStyle
-(
-)
+mTextDecorationStyle
 ;
 if
 (
@@ -36029,9 +36027,7 @@ StyleTextReset
 )
 -
 >
-GetDecorationStyle
-(
-)
+mTextDecorationStyle
 ;
 /
 /
