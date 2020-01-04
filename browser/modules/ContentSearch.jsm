@@ -2682,6 +2682,13 @@ target
 true
 )
 ;
+if
+(
+FormHistory
+.
+enabled
+)
+{
 FormHistory
 .
 update
@@ -2738,6 +2745,7 @@ err
 }
 )
 ;
+}
 return
 Promise
 .

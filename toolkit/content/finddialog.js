@@ -959,6 +959,13 @@ value
 )
 return
 ;
+if
+(
+FormHistory
+.
+enabled
+)
+{
 FormHistory
 .
 update
@@ -1017,4 +1024,5 @@ message
 }
 )
 ;
+}
 }
