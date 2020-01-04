@@ -4727,10 +4727,12 @@ cancelDragging
 break
 ;
 }
-/
-/
-falls
-through
+handled
+=
+false
+;
+break
+;
 }
 default
 :
