@@ -3530,9 +3530,6 @@ true
 ;
 #
 endif
-#
-ifdef
-MOZ_WEBM
 pref
 (
 "
@@ -3571,8 +3568,6 @@ enabled
 false
 )
 ;
-#
-endif
 #
 endif
 #

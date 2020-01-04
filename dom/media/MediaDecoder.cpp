@@ -367,7 +367,7 @@ amount
 of
 instability
 we
-tollerate
+tolerate
 in
 calls
 to
@@ -8310,9 +8310,6 @@ enabled
 }
 #
 endif
-#
-ifdef
-MOZ_WEBM
 bool
 MediaDecoder
 :
@@ -8337,8 +8334,6 @@ enabled
 )
 ;
 }
-#
-endif
 #
 ifdef
 NECKO_PROTOCOL_rtsp

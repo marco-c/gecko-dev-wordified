@@ -602,16 +602,11 @@ aChannel
 nsAutoCString
 value
 (
-#
-ifdef
-MOZ_WEBM
 "
 video
 /
 webm
 "
-#
-endif
 "
 video
 /

@@ -175,17 +175,12 @@ SourceBuffer
 h
 "
 #
-ifdef
-MOZ_WEBM
-#
 include
 "
 WebMDemuxer
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_FMP4
@@ -5315,9 +5310,6 @@ ShutdownDemuxers
 (
 )
 ;
-#
-ifdef
-MOZ_WEBM
 if
 (
 mType
@@ -5361,8 +5353,6 @@ IsMediaSource
 return
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_FMP4
