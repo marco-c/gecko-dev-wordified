@@ -2813,6 +2813,10 @@ socket
 timeout
 '
                         
+type
+=
+float
+                        
 default
 =
 self
