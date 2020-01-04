@@ -1543,6 +1543,13 @@ line
 this
 -
 >
+attributeLine
+=
+line
+;
+this
+-
+>
 line
 =
 line
@@ -2124,6 +2131,7 @@ nsHtml5Portability
 newEmptyString
 (
 )
+attributeLine
 )
 ;
 attributeName
@@ -2175,6 +2183,7 @@ addAttribute
 (
 attributeName
 val
+attributeLine
 )
 ;
 attributeName
@@ -3572,6 +3581,10 @@ c
 0x20
 ;
 }
+attributeLine
+=
+line
+;
 clearStrBufAndAppend
 (
 c
@@ -4018,6 +4031,10 @@ case
 '
 :
 {
+attributeLine
+=
+line
+;
 clearStrBuf
 (
 )
@@ -4047,6 +4064,10 @@ case
 '
 :
 {
+attributeLine
+=
+line
+;
 clearStrBuf
 (
 )
@@ -4081,6 +4102,10 @@ case
 '
 :
 {
+attributeLine
+=
+line
+;
 clearStrBuf
 (
 )
@@ -4206,6 +4231,10 @@ c
 default
 :
 {
+attributeLine
+=
+line
+;
 clearStrBufAndAppend
 (
 c
@@ -20481,6 +20510,10 @@ strBuf
 nullptr
 ;
 line
+=
+1
+;
+attributeLine
 =
 1
 ;

@@ -403,6 +403,13 @@ int32_t
 >
 values
 ;
+autoJArray
+<
+int32_t
+int32_t
+>
+lines
+;
 public
 :
 explicit
@@ -478,6 +485,13 @@ int32_t
 index
 )
 ;
+int32_t
+getLineNoBoundsCheck
+(
+int32_t
+index
+)
+;
 void
 addAttribute
 (
@@ -487,6 +501,8 @@ name
 nsString
 *
 value
+int32_t
+line
 )
 ;
 void
