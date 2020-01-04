@@ -271,6 +271,13 @@ h
 #
 include
 "
+SpecialSystemDirectory
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Services
