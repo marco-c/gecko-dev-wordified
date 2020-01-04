@@ -3877,6 +3877,14 @@ index
 ]
 ;
 }
+virtual
+bool
+UsefulToMergeZones
+(
+)
+const
+override
+;
 void
 TraceNativeBlackRoots
 (
