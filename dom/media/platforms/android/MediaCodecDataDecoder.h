@@ -258,7 +258,10 @@ decoder
 protected
 :
 enum
+class
 ModuleState
+:
+uint8_t
 {
 kDecoding
 =
@@ -521,12 +524,6 @@ int32_t
 aStatus
 )
 ;
-ModuleState
-State
-(
-)
-const
-;
 /
 /
 Sets
@@ -543,7 +540,7 @@ become
 effective
 .
 bool
-State
+SetState
 (
 ModuleState
 aState
