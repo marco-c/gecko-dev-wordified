@@ -1695,7 +1695,6 @@ parsedEmail
 null
 )
 {
-return
 aCallback
 (
 "
@@ -1708,6 +1707,8 @@ email
 +
 aIdentity
 )
+;
+return
 ;
 }
 log
