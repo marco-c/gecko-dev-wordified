@@ -7541,6 +7541,7 @@ s
 a
 div
 etc
+.
 recurse
 AppendInnerFormatNodes
 (
@@ -31546,6 +31547,7 @@ block
 td
 li
 etc
+.
 )
 if
 (

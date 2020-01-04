@@ -132,6 +132,7 @@ h
 for
 NS_ASSERTION
 etc
+.
 #
 include
 "
@@ -144,6 +145,7 @@ h
 for
 NS_ERROR_NULL_POINTER
 etc
+.
 #
 include
 "
@@ -192,6 +194,7 @@ h
 for
 QueryInterface
 etc
+.
 namespace
 mozilla
 {

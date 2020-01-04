@@ -293,6 +293,7 @@ h
 for
 AddStyleSheetTransaction
 etc
+.
 #
 include
 "
@@ -356,6 +357,7 @@ h
 for
 AutoRules
 etc
+.
 #
 include
 "
@@ -411,6 +413,7 @@ h
 for
 Selection
 etc
+.
 #
 include
 "
@@ -502,6 +505,7 @@ for
 operator
 new
 etc
+.
 #
 include
 "
@@ -517,6 +521,7 @@ nsAString_internal
 :
 Length
 etc
+.
 #
 include
 "
@@ -558,6 +563,7 @@ h
 for
 NS_IS_HIGH_SURROGATE
 etc
+.
 #
 include
 "
@@ -614,6 +620,7 @@ h
 for
 NS_ENSURE_TRUE
 etc
+.
 #
 include
 "
@@ -626,6 +633,7 @@ h
 for
 NS_OK
 etc
+.
 #
 include
 "
@@ -796,6 +804,7 @@ h
 for
 nsIDOMKeyEvent
 etc
+.
 #
 include
 "
@@ -830,6 +839,7 @@ h
 for
 nsIDOMNode
 etc
+.
 #
 include
 "
@@ -941,6 +951,7 @@ h
 for
 nsIInlineSpellChecker
 etc
+.
 #
 include
 "
@@ -953,6 +964,7 @@ h
 for
 kNameSpaceID_None
 etc
+.
 #
 include
 "
@@ -965,6 +977,7 @@ h
 for
 nsINode
 etc
+.
 #
 include
 "
@@ -977,6 +990,7 @@ h
 for
 nsIPlaintextEditor
 etc
+.
 #
 include
 "
@@ -1000,6 +1014,7 @@ h
 for
 nsISelectionController
 etc
+.
 #
 include
 "
@@ -1012,6 +1027,7 @@ h
 for
 nsISelectionDisplay
 etc
+.
 #
 include
 "
@@ -1077,6 +1093,7 @@ for
 nsIWidget
 IMEState
 etc
+.
 #
 include
 "
@@ -1135,6 +1152,7 @@ for
 nsAutoString
 nsString
 etc
+.
 #
 include
 "
@@ -1158,6 +1176,7 @@ h
 for
 NS_STYLE_DIRECTION_RTL
 etc
+.
 #
 include
 "
@@ -1182,6 +1201,7 @@ for
 nsStyleDisplay
 nsStyleText
 etc
+.
 #
 include
 "
@@ -1197,6 +1217,7 @@ nsIFrame
 :
 StyleUIReset
 etc
+.
 #
 include
 "

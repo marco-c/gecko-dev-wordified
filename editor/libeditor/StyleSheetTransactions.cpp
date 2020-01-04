@@ -131,6 +131,7 @@ for
 nsCOMPtr
 do_QueryInterface
 etc
+.
 #
 include
 "
@@ -179,6 +180,7 @@ h
 for
 NS_OK
 etc
+.
 #
 include
 "

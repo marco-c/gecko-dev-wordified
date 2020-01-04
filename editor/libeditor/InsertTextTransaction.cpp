@@ -165,6 +165,7 @@ h
 for
 NS_ASSERTION
 etc
+.
 #
 include
 "
@@ -177,6 +178,7 @@ h
 for
 NS_OK
 etc
+.
 #
 include
 "

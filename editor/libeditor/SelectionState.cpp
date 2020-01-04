@@ -116,6 +116,7 @@ h
 for
 MOZ_ASSERT
 etc
+.
 #
 include
 "
@@ -177,6 +178,7 @@ h
 for
 NS_ENSURE_TRUE
 etc
+.
 #
 include
 "
@@ -189,6 +191,7 @@ h
 for
 NS_OK
 etc
+.
 #
 include
 "

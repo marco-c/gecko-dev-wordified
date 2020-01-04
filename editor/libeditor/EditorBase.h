@@ -141,6 +141,7 @@ h
 for
 RangeUpdater
 etc
+.
 #
 include
 "
@@ -206,6 +207,7 @@ nsIEditor
 :
 EDirection
 etc
+.
 #
 include
 "
@@ -218,6 +220,7 @@ h
 for
 NS_DECL_NSIEDITORIMESUPPORT
 etc
+.
 #
 include
 "
@@ -230,6 +233,7 @@ h
 for
 NS_DECL_NSIOBSERVER
 etc
+.
 #
 include
 "
@@ -242,6 +246,7 @@ h
 for
 NS_DECL_NSIPHONETIC
 etc
+.
 #
 include
 "
@@ -254,6 +259,7 @@ h
 for
 nsIPlaintextEditor
 etc
+.
 #
 include
 "
@@ -281,6 +287,7 @@ EditorBase
 :
 Release
 etc
+.
 #
 include
 "
@@ -338,6 +345,7 @@ for
 nsresult
 nsAString
 etc
+.
 class
 nsIAtom
 ;
@@ -5043,6 +5051,7 @@ not
 just
 created
 etc
+.
 )
 .
 nsTArray

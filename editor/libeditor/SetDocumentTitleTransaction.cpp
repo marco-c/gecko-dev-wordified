@@ -135,6 +135,7 @@ for
 nsCOMPtr
 getter_AddRefs
 etc
+.
 #
 include
 "
@@ -147,6 +148,7 @@ h
 for
 NS_ENSURE_SUCCESS
 etc
+.
 #
 include
 "
@@ -160,6 +162,7 @@ for
 NS_OK
 NS_ERROR_FAILURE
 etc
+.
 #
 include
 "

@@ -143,6 +143,7 @@ h
 for
 NS_ASSERTION
 etc
+.
 #
 include
 "
@@ -155,6 +156,7 @@ h
 for
 NS_ERROR_NOT_INITIALIZED
 etc
+.
 #
 include
 "

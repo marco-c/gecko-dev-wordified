@@ -132,6 +132,7 @@ h
 for
 MOZ_ASSERT
 etc
+.
 #
 include
 "
@@ -146,6 +147,7 @@ h
 for
 EditorBase
 etc
+.
 #
 include
 "
@@ -284,6 +286,7 @@ h
 for
 NS_ENSURE_TRUE
 etc
+.
 #
 include
 "
@@ -322,6 +325,7 @@ h
 for
 nsIClipboard
 etc
+.
 #
 include
 "
@@ -487,6 +491,7 @@ EditorBase
 :
 GetSelection
 etc
+.
 #
 include
 "
@@ -528,6 +533,7 @@ h
 for
 nsIFormControl
 etc
+.
 #
 include
 "
@@ -554,6 +560,7 @@ nsINode
 :
 NODE_IS_EDITABLE
 etc
+.
 #
 include
 "
@@ -566,6 +573,7 @@ h
 for
 nsIPlaintextEditor
 etc
+.
 #
 include
 "
@@ -589,6 +597,7 @@ h
 for
 nsISelectionController
 etc
+.
 #
 include
 "
@@ -602,6 +611,7 @@ for
 kFileMime
 kHTMLMime
 etc
+.
 #
 include
 "
@@ -701,6 +711,7 @@ h
 for
 nsContentUtils
 etc
+.
 #
 include
 "

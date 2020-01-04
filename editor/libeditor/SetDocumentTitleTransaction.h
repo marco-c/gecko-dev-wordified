@@ -113,6 +113,7 @@ h
 for
 EditTransactionBase
 etc
+.
 #
 include
 "
@@ -137,6 +138,7 @@ for
 NS_IMETHOD
 nsAString
 etc
+.
 class
 nsIHTMLEditor
 ;

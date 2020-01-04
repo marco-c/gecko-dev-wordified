@@ -2618,6 +2618,7 @@ starts
 eText
 eOtherBlock
 etc
+.
 )
 .
 WSType
@@ -2667,6 +2668,7 @@ ends
 eText
 eOtherBlock
 etc
+.
 )
 .
 WSType

@@ -134,6 +134,7 @@ h
 for
 NS_ERROR_NOT_INITIALIZED
 etc
+.
 namespace
 mozilla
 {

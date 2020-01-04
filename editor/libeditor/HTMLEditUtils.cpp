@@ -138,6 +138,7 @@ h
 for
 MOZ_ASSERT
 etc
+.
 #
 include
 "
@@ -196,6 +197,7 @@ operator
 =
 =
 etc
+.
 #
 include
 "
@@ -215,6 +217,7 @@ h
 for
 NS_PRECONDITION
 etc
+.
 #
 include
 "
@@ -242,6 +245,7 @@ nsGkAtoms
 :
 a
 etc
+.
 #
 include
 "

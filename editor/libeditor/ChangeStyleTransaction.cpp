@@ -132,6 +132,7 @@ nsAString_internal
 :
 Append
 etc
+.
 #
 include
 "
@@ -158,6 +159,7 @@ h
 for
 NS_ENSURE_SUCCESS
 etc
+.
 #
 include
 "
@@ -170,6 +172,7 @@ h
 for
 NS_ERROR_NULL_POINTER
 etc
+.
 #
 include
 "
@@ -182,6 +185,7 @@ h
 for
 nsGkAtoms
 etc
+.
 #
 include
 "
@@ -216,6 +220,7 @@ h
 for
 NS_LITERAL_STRING
 etc
+.
 #
 include
 "
@@ -240,6 +245,7 @@ for
 nsAutoString
 nsString
 etc
+.
 #
 include
 "

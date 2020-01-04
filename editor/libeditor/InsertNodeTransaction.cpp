@@ -147,6 +147,7 @@ h
 for
 NS_ENSURE_TRUE
 etc
+.
 #
 include
 "
@@ -159,6 +160,7 @@ h
 for
 NS_ERROR_NULL_POINTER
 etc
+.
 #
 include
 "
