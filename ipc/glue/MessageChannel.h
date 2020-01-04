@@ -1701,8 +1701,10 @@ ShouldContinueFromTimeout
 )
 ;
 void
-CancelCurrentTransactionInternal
+CancelTransaction
 (
+int
+transaction
 )
 ;
 /
