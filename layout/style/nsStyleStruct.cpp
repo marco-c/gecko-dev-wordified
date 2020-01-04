@@ -12878,6 +12878,9 @@ eCSSProperty_UNKNOWN
 composite
 }
 ;
+#
+ifdef
+MOZ_ENABLE_MASK_AS_SHORTHAND
 const
 nsCSSProperty
 nsStyleImageLayers
@@ -12934,6 +12937,8 @@ eCSSProperty_mask_composite
 composite
 }
 ;
+#
+endif
 nsStyleImageLayers
 :
 :

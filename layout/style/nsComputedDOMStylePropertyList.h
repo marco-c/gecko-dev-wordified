@@ -2082,6 +2082,9 @@ COMPUTED_STYLE_PROP
 mask
 Mask
 )
+#
+ifdef
+MOZ_ENABLE_MASK_AS_SHORTHAND
 COMPUTED_STYLE_PROP
 (
 mask_clip
@@ -2122,6 +2125,8 @@ COMPUTED_STYLE_PROP
 mask_size
 MaskSize
 )
+#
+endif
 COMPUTED_STYLE_PROP
 (
 mask_type

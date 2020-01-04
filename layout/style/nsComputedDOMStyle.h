@@ -1915,6 +1915,9 @@ DoGetMask
 (
 )
 ;
+#
+ifdef
+MOZ_ENABLE_MASK_AS_SHORTHAND
 already_AddRefed
 <
 CSSValue
@@ -1979,6 +1982,8 @@ DoGetMaskComposite
 (
 )
 ;
+#
+endif
 /
 *
 Padding
