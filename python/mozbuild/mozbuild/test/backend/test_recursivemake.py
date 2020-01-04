@@ -2736,21 +2736,6 @@ def
 ]
             
 '
-USE_STATIC_LIBS
-'
-:
-[
-                
-'
-USE_STATIC_LIBS
-:
-=
-1
-'
-            
-]
-            
-'
 MOZBUILD_CFLAGS
 '
 :
