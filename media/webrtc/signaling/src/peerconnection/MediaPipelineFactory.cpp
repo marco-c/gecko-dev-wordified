@@ -5692,12 +5692,7 @@ CODEC_H264
 )
 ;
 #
-elif
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
+else
 encoder
 =
 GmpVideoCodec
@@ -5759,12 +5754,7 @@ CODEC_H264
 )
 ;
 #
-elif
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
+else
 decoder
 =
 GmpVideoCodec

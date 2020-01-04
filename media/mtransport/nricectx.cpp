@@ -2428,9 +2428,6 @@ ice_tcp_listen_backlog
 nsAutoCString
 force_net_interface
 ;
-#
-ifndef
-MOZILLA_XPCOMRT_API
 nsresult
 res
 ;
@@ -2575,8 +2572,6 @@ force_net_interface
 ;
 }
 }
-#
-endif
 NR_reg_set_uint4
 (
 (
