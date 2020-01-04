@@ -828,7 +828,7 @@ aMessage
 aWidget
 eSimpleGestureEventClass
 )
-allowedDirections
+mAllowedDirections
 (
 0
 )
@@ -871,11 +871,11 @@ aOther
 mWidget
 eSimpleGestureEventClass
 )
-allowedDirections
+mAllowedDirections
 (
 aOther
 .
-allowedDirections
+mAllowedDirections
 )
 direction
 (
@@ -974,7 +974,7 @@ nsIDOMSimpleGestureEvent
 for
 values
 uint32_t
-allowedDirections
+mAllowedDirections
 ;
 /
 /
@@ -1036,7 +1036,7 @@ aCopyTargets
 ;
 /
 /
-allowedDirections
+mAllowedDirections
 isn
 '
 t

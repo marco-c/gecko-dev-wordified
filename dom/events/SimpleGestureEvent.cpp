@@ -290,7 +290,7 @@ AsSimpleGestureEvent
 )
 -
 >
-allowedDirections
+mAllowedDirections
 ;
 }
 NS_IMETHODIMP
@@ -338,7 +338,7 @@ AsSimpleGestureEvent
 )
 -
 >
-allowedDirections
+mAllowedDirections
 =
 aAllowedDirections
 ;
@@ -573,7 +573,7 @@ AsSimpleGestureEvent
 simpleGestureEvent
 -
 >
-allowedDirections
+mAllowedDirections
 =
 aAllowedDirectionsArg
 ;
