@@ -2062,6 +2062,8 @@ true
 "
 ]
 )
+%
+endif
 windowdragbox
 {
 -
@@ -2092,10 +2094,10 @@ tweaking
 .
 *
 /
+toolbaritem
 toolbarbutton
 button
 textbox
-searchbar
 tab
 radio
 splitter
@@ -2114,8 +2116,6 @@ no
 drag
 ;
 }
-%
-endif
 /
 *
 *
