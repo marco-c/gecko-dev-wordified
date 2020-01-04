@@ -919,6 +919,12 @@ return
 awaitExtensionPanel
 (
 extension
+window
+"
+_blank
+.
+html
+"
 )
 ;
 }
