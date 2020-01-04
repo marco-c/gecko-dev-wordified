@@ -368,6 +368,7 @@ namespace
 {
 class
 ShutdownEvent
+final
 :
 public
 nsIObserver
@@ -376,6 +377,14 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
+private
+:
+~
+ShutdownEvent
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS

@@ -198,6 +198,7 @@ ArrayData
 ;
 class
 MainThreadHandoff
+final
 :
 public
 IInterceptorSink

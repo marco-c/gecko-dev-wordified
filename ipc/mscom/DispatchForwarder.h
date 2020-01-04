@@ -157,6 +157,7 @@ mscom
 {
 class
 DispatchForwarder
+final
 :
 public
 IDispatch
