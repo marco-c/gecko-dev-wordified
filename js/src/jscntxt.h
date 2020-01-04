@@ -3462,13 +3462,13 @@ a
 JSErrorReport
 to
 the
-errorReporter
+warningReporter
 callback
 .
 *
 /
 void
-CallErrorReporter
+CallWarningReporter
 (
 JSContext
 *

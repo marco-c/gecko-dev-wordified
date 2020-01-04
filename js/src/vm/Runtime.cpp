@@ -1108,7 +1108,7 @@ readPrincipals
 (
 nullptr
 )
-errorReporter
+warningReporter
 (
 nullptr
 )

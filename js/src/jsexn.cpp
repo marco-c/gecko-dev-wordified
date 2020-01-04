@@ -1499,7 +1499,10 @@ JSContext
 *
 cx
 ;
-JSErrorReporter
+JS
+:
+:
+WarningReporter
 prevReporter
 ;
 JS
@@ -1522,7 +1525,10 @@ cx
 )
 prevReporter
 (
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 cx
 -
@@ -1544,7 +1550,10 @@ SuppressErrorsGuard
 (
 )
 {
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 cx
 -

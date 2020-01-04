@@ -2004,7 +2004,10 @@ rt
 return
 nullptr
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 rt
 &

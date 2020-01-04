@@ -4923,7 +4923,10 @@ size_t
 1024
 )
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 mRuntime
 PACWarningReporter
