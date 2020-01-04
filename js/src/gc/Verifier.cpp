@@ -3093,6 +3093,16 @@ JS
 AutoSuppressGCAnalysis
 nogc
 ;
+if
+(
+!
+rt
+-
+>
+isBeingDestroyed
+(
+)
+)
 rt
 -
 >

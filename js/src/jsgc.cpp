@@ -15008,6 +15008,17 @@ lock
 {
 MOZ_ASSERT
 (
+!
+rt
+-
+>
+isBeingDestroyed
+(
+)
+)
+;
+MOZ_ASSERT
+(
 zone
 -
 >
