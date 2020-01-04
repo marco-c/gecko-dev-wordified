@@ -250,7 +250,6 @@ STAUniquePtr
 <
 IUnknown
 >
-&
 aTarget
 IInterceptorSink
 *
@@ -310,7 +309,10 @@ intcpt
 new
 Interceptor
 (
+Move
+(
 aTarget
+)
 aSink
 )
 ;
@@ -353,7 +355,6 @@ STAUniquePtr
 <
 IUnknown
 >
-&
 aTarget
 IInterceptorSink
 *

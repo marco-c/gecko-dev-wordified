@@ -279,7 +279,10 @@ MainThreadHandoff
 :
 WrapInterface
 (
+Move
+(
 iaToProxy
+)
 &
 rawIntercepted
 )

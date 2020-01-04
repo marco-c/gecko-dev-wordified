@@ -484,7 +484,6 @@ STAUniquePtr
 <
 IUnknown
 >
-&
 aTarget
 IInterceptorSink
 *
@@ -608,7 +607,6 @@ STAUniquePtr
 <
 IUnknown
 >
-&
 aTarget
 IInterceptorSink
 *
@@ -727,7 +725,6 @@ STAUniquePtr
 <
 InterfaceT
 >
-&
 aTargetInterface
 IInterceptorSink
 *
@@ -779,7 +776,10 @@ Interceptor
 :
 Create
 (
+Move
+(
 targetUnknown
+)
 aEventSink
 iidTarget
 (
