@@ -3269,12 +3269,6 @@ DrawTarget
 >
 drawTarget
 ;
-RefPtr
-<
-DrawTarget
->
-parentTarget
-;
 mozilla
 :
 :
