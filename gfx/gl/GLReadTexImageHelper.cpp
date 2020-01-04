@@ -2516,8 +2516,12 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 format
+read
+pixels
 .
 "
 )
@@ -2746,7 +2750,11 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
+read
+format
 read
 format
 .
@@ -2823,7 +2831,11 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
+read
+type
 read
 type
 .

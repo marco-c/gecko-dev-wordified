@@ -5490,6 +5490,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Fatal
 Error
 :
