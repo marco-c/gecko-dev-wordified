@@ -717,6 +717,10 @@ level
 '
         
 '
+triggered_by
+'
+        
+'
 target_tasks_method
 '
     
@@ -803,6 +807,40 @@ default
 '
 ]
 )
+    
+#
+target_tasks_method
+has
+higher
+precedence
+than
+project
+parameters
+    
+if
+options
+.
+get
+(
+'
+target_tasks_method
+'
+)
+:
+        
+parameters
+[
+'
+target_tasks_method
+'
+]
+=
+options
+[
+'
+target_tasks_method
+'
+]
     
 return
 Parameters
