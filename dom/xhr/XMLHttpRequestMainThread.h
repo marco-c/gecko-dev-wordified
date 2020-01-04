@@ -2549,9 +2549,6 @@ init
 nsIPrincipal
 *
 principal
-nsIScriptContext
-*
-scriptContext
 nsPIDOMWindowInner
 *
 globalObject
