@@ -1292,7 +1292,7 @@ inline
 bool
 IsSimdBoolType
 (
-ExprType
+ValType
 vt
 )
 {
@@ -1300,7 +1300,7 @@ return
 vt
 =
 =
-ExprType
+ValType
 :
 :
 B32x4
