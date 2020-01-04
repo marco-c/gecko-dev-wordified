@@ -2089,11 +2089,10 @@ window
 )
 ;
 for
-each
 (
 let
 topic
-in
+of
 this
 .
 _topics
@@ -2178,11 +2177,10 @@ false
 )
 ;
 for
-each
 (
 let
 topic
-in
+of
 this
 .
 _topics

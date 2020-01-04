@@ -273,11 +273,10 @@ parent
 ;
 }
 for
-each
 (
 var
 p
-in
+of
 relSplit
 )
 {

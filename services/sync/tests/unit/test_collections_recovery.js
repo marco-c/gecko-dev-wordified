@@ -330,11 +330,10 @@ tabs
 ]
 ;
 for
-each
 (
 let
 coll
-in
+of
 collections
 )
 {

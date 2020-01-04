@@ -107,11 +107,10 @@ Map
 )
 ;
 for
-each
 (
 let
 type
-in
+of
 types
 )
 {

@@ -695,11 +695,10 @@ the
 password
 .
 for
-each
 (
 let
 local
-in
+of
 logins
 )
 {

@@ -587,11 +587,10 @@ e
 '
 '
 for
-each
 (
 let
 name
-in
+of
 INCLUDE_FILES
 )
 load

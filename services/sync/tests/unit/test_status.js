@@ -131,11 +131,10 @@ Check
 login
 status
 for
-each
 (
 let
 code
-in
+of
 [
 LOGIN_FAILED_NO_USERNAME
 LOGIN_FAILED_NO_PASSWORD

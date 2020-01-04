@@ -564,11 +564,10 @@ methodName
 )
 {
 for
-each
 (
 var
 w
-in
+of
 getWindows
 (
 )
@@ -627,11 +626,10 @@ title
 )
 {
 for
-each
 (
 var
 w
-in
+of
 getWindows
 (
 )

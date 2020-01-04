@@ -2395,7 +2395,6 @@ false
 ]
 ;
 for
-each
 (
 let
 [
@@ -2403,7 +2402,7 @@ action
 args
 expectedResult
 ]
-in
+of
 testCommands
 )
 {

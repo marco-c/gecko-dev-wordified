@@ -275,11 +275,10 @@ arg2
 ;
 *
 for
-each
 (
 let
 string
-in
+of
 strings
 .
 getAll
