@@ -6555,6 +6555,17 @@ DOMStorage
 *
 GetLocalStorage
 (
+const
+mozilla
+:
+:
+Maybe
+<
+nsIPrincipal
+*
+>
+&
+aSubjectPrincipal
 mozilla
 :
 :
