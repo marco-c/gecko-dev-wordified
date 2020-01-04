@@ -2303,6 +2303,17 @@ aRv
 )
 override
 ;
+void
+GetResponseText
+(
+XMLHttpRequestStringSnapshot
+&
+aSnapshot
+ErrorResult
+&
+aRv
+)
+;
 virtual
 nsIDocument
 *

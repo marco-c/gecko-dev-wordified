@@ -137,6 +137,13 @@ h
 #
 include
 "
+XMLHttpRequestString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -181,7 +188,7 @@ public
 struct
 StateData
 {
-nsString
+XMLHttpRequestStringSnapshot
 mResponseText
 ;
 nsString
@@ -1092,9 +1099,8 @@ mStateData
 .
 mResponseText
 .
-SetIsVoid
+SetVoid
 (
-true
 )
 ;
 mStateData
