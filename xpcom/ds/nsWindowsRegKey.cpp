@@ -1520,13 +1520,13 @@ REG_SZ
 &
 &
 type
-!
+=
 =
 REG_EXPAND_SZ
 &
 &
 type
-!
+=
 =
 REG_MULTI_SZ
 )
