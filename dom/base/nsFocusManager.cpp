@@ -8574,6 +8574,14 @@ GetPresShell
 if
 (
 presShell
+&
+&
+presShell
+-
+>
+DidInitialize
+(
+)
 )
 ScrollIntoView
 (
