@@ -360,6 +360,13 @@ address
 /
 #
 include
+"
+nsGIFDecoder2
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -378,13 +385,6 @@ include
 mozilla
 /
 EndianUtils
-.
-h
-"
-#
-include
-"
-nsGIFDecoder2
 .
 h
 "

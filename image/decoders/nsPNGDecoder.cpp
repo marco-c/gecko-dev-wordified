@@ -105,6 +105,13 @@ appear
 first
 #
 include
+"
+nsPNGDecoder
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -152,13 +159,6 @@ h
 include
 "
 nsMemory
-.
-h
-"
-#
-include
-"
-nsPNGDecoder
 .
 h
 "

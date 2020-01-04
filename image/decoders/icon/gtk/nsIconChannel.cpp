@@ -77,6 +77,13 @@ MPL
 /
 #
 include
+"
+nsIconChannel
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -202,13 +209,6 @@ h
 include
 "
 prlink
-.
-h
-"
-#
-include
-"
-nsIconChannel
 .
 h
 "

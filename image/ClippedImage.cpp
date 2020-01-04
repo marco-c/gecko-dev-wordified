@@ -95,6 +95,13 @@ MPL
 /
 #
 include
+"
+ClippedImage
+.
+h
+"
+#
+include
 <
 new
 >
@@ -206,13 +213,6 @@ h
 include
 "
 SVGImageContext
-.
-h
-"
-#
-include
-"
-ClippedImage
 .
 h
 "

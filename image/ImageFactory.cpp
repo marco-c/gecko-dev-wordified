@@ -93,6 +93,13 @@ MPL
 /
 #
 include
+"
+ImageFactory
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -186,13 +193,6 @@ h
 include
 "
 nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
-ImageFactory
 .
 h
 "
