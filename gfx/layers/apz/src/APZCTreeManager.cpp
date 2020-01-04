@@ -3677,16 +3677,12 @@ aMetrics
 aState
 .
 mIsFirstPaint
-&
-&
-(
 aLayersId
 =
 =
 aState
 .
 mOriginatingLayersId
-)
 )
 ;
 /

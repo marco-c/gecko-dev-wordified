@@ -7962,6 +7962,7 @@ NotifyLayersUpdated
 (
 metrics
 true
+true
 )
 ;
 apzc
@@ -8013,6 +8014,7 @@ childApzc
 NotifyLayersUpdated
 (
 childMetrics
+true
 true
 )
 ;
