@@ -230,6 +230,16 @@ nsSVGGradientFrame
 public
 nsSVGGradientFrameBase
 {
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+ExtendMode
+ExtendMode
+;
 protected
 :
 explicit

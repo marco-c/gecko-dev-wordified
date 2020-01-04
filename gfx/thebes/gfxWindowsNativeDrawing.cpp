@@ -1862,10 +1862,10 @@ pat
 >
 SetExtend
 (
-gfxPattern
+ExtendMode
 :
 :
-EXTEND_PAD
+CLAMP
 )
 ;
 mContext

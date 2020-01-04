@@ -4845,10 +4845,10 @@ pattern
 >
 SetExtend
 (
-gfxPattern
+ExtendMode
 :
 :
-EXTEND_REPEAT
+REPEAT
 )
 ;
 return
