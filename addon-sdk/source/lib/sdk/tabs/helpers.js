@@ -88,7 +88,6 @@ Tab
 instances
 const
 {
-getTabForContentWindow
 getTabForBrowser
 :
 getRawTabForBrowser

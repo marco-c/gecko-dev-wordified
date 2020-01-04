@@ -211,7 +211,6 @@ utils
 )
 {
 getTabs
-getTabContentWindow
 getTabForContentWindow
 getAllTabContentWindows
 }

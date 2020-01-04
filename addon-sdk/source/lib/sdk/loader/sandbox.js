@@ -153,7 +153,6 @@ self
 const
 {
 getTabId
-getTabForContentWindow
 }
 =
 require

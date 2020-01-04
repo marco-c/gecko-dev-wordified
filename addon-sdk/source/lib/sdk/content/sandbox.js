@@ -257,7 +257,7 @@ object
 ;
 const
 {
-getTabForContentWindow
+getTabForContentWindowNoShim
 }
 =
 require
@@ -669,7 +669,7 @@ the
 main
 process
 return
-getTabForContentWindow
+getTabForContentWindowNoShim
 (
 window
 )
