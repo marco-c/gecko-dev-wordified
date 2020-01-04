@@ -6780,14 +6780,6 @@ return
 NS_OK
 ;
 }
-*
-aDecision
-=
-REJECT_REQUEST
-;
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsMixedContentBlocker
