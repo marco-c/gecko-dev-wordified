@@ -318,6 +318,11 @@ mCDM
 aCDM
 )
 {
+MOZ_ASSERT
+(
+mCDM
+)
+;
 }
 cdm
 :
