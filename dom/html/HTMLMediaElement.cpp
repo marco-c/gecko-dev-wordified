@@ -19469,7 +19469,10 @@ NotifyOwnerDocumentActivityChangedInternal
 if
 (
 mDefaultPlaybackStartPosition
->
+!
+=
+0
+.
 0
 )
 {
