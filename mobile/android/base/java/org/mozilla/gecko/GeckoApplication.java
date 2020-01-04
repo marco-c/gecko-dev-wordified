@@ -1194,6 +1194,12 @@ createInstance
 context
 )
 ;
+PushService
+.
+registerGeckoEventListener
+(
+)
+;
 try
 {
 PushService
