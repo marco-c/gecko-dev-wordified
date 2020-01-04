@@ -12601,9 +12601,6 @@ static
 bool
 LcovWriteScript
 (
-JSContext
-*
-cx
 LcovSourceFile
 &
 lsf
@@ -14161,7 +14158,6 @@ if
 !
 LcovWriteScript
 (
-cx
 lsf
 script
 )
