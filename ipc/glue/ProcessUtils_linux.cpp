@@ -2997,6 +2997,16 @@ MOZ_CRASH
 )
 ;
 }
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 TransportDescriptor
 fd
 ;
