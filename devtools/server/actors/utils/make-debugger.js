@@ -632,12 +632,6 @@ dbg
 ;
 dbg
 .
-allowUnobservedAsmJS
-=
-true
-;
-dbg
-.
 uncaughtExceptionHook
 =
 reportDebuggerHookException
