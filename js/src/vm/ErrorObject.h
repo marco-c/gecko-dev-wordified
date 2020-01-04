@@ -300,7 +300,7 @@ subErrorClassSpec_
 static
 const
 ClassSpec
-debuggeeWouldRunClassSpec_
+nonGlobalErrorClassSpec_
 ;
 protected
 :
