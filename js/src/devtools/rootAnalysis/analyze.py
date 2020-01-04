@@ -605,6 +605,14 @@ gcTypes
 s
 '
                         
+'
+%
+(
+typeInfo
+)
+s
+'
+                        
 str
 (
 i
@@ -998,6 +1006,13 @@ computeCallgraph
 .
 js
 '
+'
+%
+(
+typeInfo
+)
+s
+'
 )
               
 '
@@ -1111,13 +1126,31 @@ computeGCTypes
 .
 js
 '
+               
+'
+[
+gcTypes
+]
+'
+'
+[
+typeInfo
+]
+'
 )
               
+(
 '
 gcTypes
 .
 txt
 '
+'
+typeInfo
+.
+txt
+'
+)
 )
          
 '
@@ -2450,11 +2483,11 @@ dbs
 '
           
 '
-callgraph
+gcTypes
 '
           
 '
-gcTypes
+callgraph
 '
           
 '
