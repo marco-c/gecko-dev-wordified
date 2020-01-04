@@ -706,7 +706,7 @@ aReason
 MOZ_RELEASE_ASSERT
 (
 aCode
-!
+=
 =
 MsgDropped
 "
