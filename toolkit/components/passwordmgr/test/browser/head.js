@@ -213,11 +213,9 @@ http
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+com
 "
 ]
 -
@@ -226,8 +224,8 @@ of
 the
 server
 to
-*
 use
+*
 to
 load
 aPageFile
@@ -246,11 +244,9 @@ http
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+com
 "
 )
 {

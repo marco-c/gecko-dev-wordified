@@ -18211,3 +18211,13 @@ enabled
 true
 )
 ;
+pref
+(
+"
+signon
+.
+schemeUpgrades
+"
+true
+)
+;
