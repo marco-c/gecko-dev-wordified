@@ -216,7 +216,7 @@ GetCSSComputedValue
 Element
 *
 aElem
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsAString
 &
@@ -401,7 +401,7 @@ nsSMILCSSProperty
 :
 nsSMILCSSProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 Element
 *
@@ -1284,7 +1284,7 @@ nsSMILCSSProperty
 :
 IsPropertyAnimatable
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {

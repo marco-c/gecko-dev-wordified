@@ -220,10 +220,10 @@ sRecords
 .
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -234,7 +234,7 @@ eCSSProperty_COUNT
 ;
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 prop
 +

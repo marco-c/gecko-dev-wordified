@@ -307,7 +307,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -3091,13 +3091,13 @@ template
 struct
 ParamTraits
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 :
 public
 ContiguousEnumSerializer
 <
-nsCSSProperty
+nsCSSPropertyID
 eCSSProperty_UNKNOWN
 eCSSProperty_COUNT
 >

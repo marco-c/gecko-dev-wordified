@@ -1545,7 +1545,7 @@ dimensions
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 props
 =

@@ -840,7 +840,7 @@ mKey
 mIsCSS
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 propId
 =
 nsCSSProps

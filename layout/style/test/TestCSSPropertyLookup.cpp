@@ -182,10 +182,10 @@ success
 =
 true
 ;
-nsCSSProperty
+nsCSSPropertyID
 id
 ;
-nsCSSProperty
+nsCSSPropertyID
 index
 ;
 /
@@ -309,7 +309,7 @@ et
 ;
 index
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 int32_t
 (

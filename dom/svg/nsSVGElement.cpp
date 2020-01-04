@@ -7494,14 +7494,14 @@ InitializeEmpty
 /
 Get
 the
-nsCSSProperty
+nsCSSPropertyID
 ID
 for
 our
 mapped
 attribute
 .
-nsCSSProperty
+nsCSSPropertyID
 propertyID
 =
 nsCSSProps
@@ -14794,7 +14794,7 @@ aName
 )
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 nsCSSProps

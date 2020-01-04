@@ -484,7 +484,7 @@ nsCSSValue
 *
 ValueFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -604,7 +604,7 @@ nsCSSValue
 *
 ValueFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const

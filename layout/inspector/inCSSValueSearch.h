@@ -167,7 +167,7 @@ nsAutoString
 *
 mResults
 ;
-nsCSSProperty
+nsCSSPropertyID
 *
 mProperties
 ;

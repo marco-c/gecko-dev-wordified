@@ -161,7 +161,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -272,7 +272,7 @@ animated
 /
 nsSMILCSSProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 mozilla
 :
@@ -397,13 +397,13 @@ static
 bool
 IsPropertyAnimatable
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 protected
 :
-nsCSSProperty
+nsCSSPropertyID
 mPropID
 ;
 /

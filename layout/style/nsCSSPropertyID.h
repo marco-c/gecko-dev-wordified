@@ -107,10 +107,10 @@ values
 /
 #
 ifndef
-nsCSSProperty_h___
+nsCSSPropertyID_h___
 #
 define
-nsCSSProperty_h___
+nsCSSPropertyID_h___
 #
 include
 <
@@ -155,7 +155,7 @@ h
 *
 /
 enum
-nsCSSProperty
+nsCSSPropertyID
 {
 eCSSProperty_UNKNOWN
 =
@@ -385,11 +385,11 @@ inline
 PLDHashNumber
 Hash
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 &
 aValue
 )
@@ -589,6 +589,6 @@ eCSSPropertyLogicalGroup_COUNT
 endif
 /
 *
-nsCSSProperty_h___
+nsCSSPropertyID_h___
 *
 /

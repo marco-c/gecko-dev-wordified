@@ -195,7 +195,7 @@ are
 id
 '
 the
-nsCSSProperty
+nsCSSPropertyID
 ID
 without
 the

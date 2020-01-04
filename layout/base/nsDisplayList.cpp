@@ -3327,7 +3327,7 @@ AddAnimationsForProperty
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsTArray
 <
@@ -4387,7 +4387,7 @@ aItem
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -28656,7 +28656,7 @@ SetAnimationPerformanceWarningForTooSmallItem
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

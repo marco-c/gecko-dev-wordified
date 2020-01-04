@@ -5092,16 +5092,6 @@ bool
 aComputeData
 )
 ;
-void
-GetDiscretelyAnimatedCSSValue
-(
-nsCSSProperty
-aProperty
-nsCSSValue
-*
-aValue
-)
-;
 /
 /
 See
@@ -5870,7 +5860,7 @@ ComputePropertiesOverridingAnimation
 const
 nsTArray
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 &
 aProperties
