@@ -5913,6 +5913,10 @@ aRegistration
 ServiceWorkerUpdateFinishCallback
 *
 aCallback
+const
+nsACString
+&
+aScriptSpec
 )
 :
 ServiceWorkerScriptJobBase
@@ -5925,9 +5929,7 @@ UpdateJob
 aCallback
 aRegistration
 nullptr
-EmptyCString
-(
-)
+aScriptSpec
 )
 {
 AssertIsOnMainThread
@@ -18315,6 +18317,12 @@ ServiceWorkerRegisterJob
 queue
 registration
 nullptr
+newest
+-
+>
+ScriptSpec
+(
+)
 )
 ;
 queue
@@ -18597,6 +18605,12 @@ ServiceWorkerRegisterJob
 queue
 registration
 aCallback
+newest
+-
+>
+ScriptSpec
+(
+)
 )
 ;
 queue
