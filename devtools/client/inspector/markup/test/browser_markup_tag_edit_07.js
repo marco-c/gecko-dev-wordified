@@ -96,6 +96,13 @@ js
 "
 )
 ;
+/
+*
+eslint
+-
+disable
+*
+/
 const
 LONG_ATTRIBUTE
 =
@@ -264,6 +271,13 @@ u20269
 AFGGFyjOXZtQAAAAAElFTkSuQmCC
 "
 ;
+/
+*
+eslint
+-
+enable
+*
+/
 var
 TEST_URL
 =
@@ -512,6 +526,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "
@@ -600,6 +617,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "
@@ -695,6 +715,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "

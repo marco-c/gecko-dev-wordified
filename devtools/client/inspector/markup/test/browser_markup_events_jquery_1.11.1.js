@@ -129,6 +129,13 @@ js
 "
 )
 ;
+/
+*
+eslint
+-
+disable
+*
+/
 const
 TEST_DATA
 =
@@ -1389,6 +1396,13 @@ n
 }
 ]
 ;
+/
+*
+eslint
+-
+enable
+*
+/
 add_task
 (
 function

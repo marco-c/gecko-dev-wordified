@@ -68,6 +68,13 @@ src
 /
 changes
 .
+/
+*
+eslint
+-
+disable
+*
+/
 const
 INITIAL_SRC
 =
@@ -367,6 +374,13 @@ BBgAcFAO4DmB2GQAAAAASUVORK5CYII
 =
 "
 ;
+/
+*
+eslint
+-
+enable
+*
+/
 const
 UPDATED_SRC
 =

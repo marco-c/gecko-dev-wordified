@@ -82,6 +82,13 @@ doc_markup_edit
 html
 "
 ;
+/
+*
+eslint
+-
+disable
+*
+/
 const
 LONG_ATTRIBUTE
 =
@@ -114,6 +121,13 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 "
 ;
+/
+*
+eslint
+-
+enable
+*
+/
 add_task
 (
 function
@@ -450,6 +464,7 @@ is
 visibleAttrText
 LONG_ATTRIBUTE_COLLAPSED
 )
+;
 yield
 assertAttributes
 (
