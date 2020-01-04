@@ -209,7 +209,7 @@ GetChildCount
 )
 ;
 }
-int
+bool
 Gecko_NodeIsElement
 (
 RawGeckoNode
@@ -460,7 +460,7 @@ NS_EVENT_STATE_HIGHEST_SERVO_BIT
 )
 ;
 }
-int
+bool
 Gecko_IsHTMLElementInHTMLDocument
 (
 RawGeckoElement
@@ -490,7 +490,7 @@ IsHTMLDocument
 )
 ;
 }
-int
+bool
 Gecko_IsLink
 (
 RawGeckoElement
@@ -508,7 +508,7 @@ aElement
 )
 ;
 }
-int
+bool
 Gecko_IsTextNode
 (
 RawGeckoNode
@@ -536,7 +536,7 @@ nsIDOMNode
 TEXT_NODE
 ;
 }
-int
+bool
 Gecko_IsVisitedLink
 (
 RawGeckoElement
@@ -558,7 +558,7 @@ NS_EVENT_STATE_VISITED
 )
 ;
 }
-int
+bool
 Gecko_IsUnvisitedLink
 (
 RawGeckoElement
@@ -580,7 +580,7 @@ NS_EVENT_STATE_UNVISITED
 )
 ;
 }
-int
+bool
 Gecko_IsRootElement
 (
 RawGeckoElement
@@ -845,7 +845,7 @@ build
 )
 ;
 }
-int
+bool
 Servo_StyleSheetHasRules
 (
 RawServoStyleSheet
