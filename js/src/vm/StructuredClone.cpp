@@ -8556,16 +8556,9 @@ false
 ;
 /
 /
-Destructor
-will
-clean
-up
-the
 already
--
 transferred
 data
-.
 content
 =
 bufContents
