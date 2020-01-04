@@ -1060,6 +1060,11 @@ TraceableHashSet
 <
 JSObject
 *
+MovableCellHasher
+<
+JSObject
+*
+>
 >
 (
 cx
@@ -1107,6 +1112,11 @@ TraceableHashSet
 <
 JSObject
 *
+MovableCellHasher
+<
+JSObject
+*
+>
 >
 >
 stack
@@ -2098,6 +2108,11 @@ TraceableHashSet
 <
 JSObject
 *
+MovableCellHasher
+<
+JSObject
+*
+>
 >
 >
 stack
