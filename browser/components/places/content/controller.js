@@ -3072,14 +3072,6 @@ bookmark
 =
 true
 ;
-PlacesUtils
-.
-nodeIsTagQuery
-(
-node
-.
-parent
-)
 var
 parentNode
 =
