@@ -558,6 +558,12 @@ return
 mPackageOrigin
 ;
 }
+bool
+WouldVerify
+(
+)
+const
+;
 static
 const
 char
