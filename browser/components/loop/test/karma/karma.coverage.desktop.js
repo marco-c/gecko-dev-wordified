@@ -407,17 +407,6 @@ panel_test
 .
 js
 "
-"
-test
-/
-desktop
--
-local
-/
-contacts_test
-.
-js
-"
 ]
 )
 ;

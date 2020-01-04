@@ -1060,10 +1060,6 @@ conversationAppStore
 setStoreState
 (
 {
-contact
-:
-{
-}
 outgoing
 :
 false
