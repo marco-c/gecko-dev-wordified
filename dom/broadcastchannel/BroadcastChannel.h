@@ -420,8 +420,6 @@ const
 nsAString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 ;
 ~
@@ -515,9 +513,6 @@ mOrigin
 ;
 nsString
 mChannel
-;
-bool
-mPrivateBrowsing
 ;
 bool
 mIsKeptAlive
