@@ -2079,8 +2079,8 @@ mFdsRemap
 i
 ]
 ;
-int
-fd
+auto
+rawFD
 =
 map
 -
@@ -2089,7 +2089,7 @@ fd
 (
 )
 .
-PlatformHandle
+ClonePlatformHandle
 (
 )
 ;
@@ -2128,7 +2128,11 @@ push_back
 (
 InjectionArc
 (
-fd
+rawFD
+.
+get
+(
+)
 tofd
 /
 *
