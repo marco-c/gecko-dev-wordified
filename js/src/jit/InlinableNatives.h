@@ -459,6 +459,11 @@ SimdInt32x4
 \
 _
 (
+SimdUint32x4
+)
+\
+_
+(
 SimdFloat32x4
 )
 \
