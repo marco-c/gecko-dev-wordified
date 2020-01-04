@@ -506,8 +506,7 @@ subject
 has
 no
 dependency
-with
-label
+named
 '
 no
 -
