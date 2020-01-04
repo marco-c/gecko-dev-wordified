@@ -520,7 +520,7 @@ mFeatures
 }
 ;
 static
-PLDHashOperator
+void
 AddFeature
 (
 const
@@ -578,9 +578,6 @@ mFeatures
 )
 ;
 }
-return
-PL_DHASH_NEXT
-;
 }
 bool
 gfxGraphiteShaper

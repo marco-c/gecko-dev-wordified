@@ -4037,7 +4037,7 @@ nsAString
 aFamilyName
 bool
 aAddSmallCaps
-PLDHashOperator
+void
 (
 *
 aHandleFeature
