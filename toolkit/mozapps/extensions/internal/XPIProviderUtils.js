@@ -84,7 +84,7 @@ syncLoadManifestFromFile
 isUsableAddon
 recordAddonTelemetry
 applyBlocklistChanges
-flushStartupCache
+flushChromeCaches
 canRunInSafeMode
 *
 /
@@ -14594,7 +14594,7 @@ on
 has
 gone
 away
-flushStartupCache
+flushChromeCaches
 (
 )
 ;
@@ -14960,7 +14960,7 @@ on
 has
 gone
 away
-flushStartupCache
+flushChromeCaches
 (
 )
 ;
