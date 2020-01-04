@@ -12007,9 +12007,6 @@ nullptr
 ;
 if
 (
-fun
-&
-&
 funp
 )
 *
