@@ -12529,6 +12529,11 @@ of
 the
 Error
 .
+if
+(
+mPrt
+)
+{
 mPrt
 -
 >
@@ -12537,6 +12542,7 @@ DoOnStatusChange
 aPrintError
 )
 ;
+}
 }
 /
 /
