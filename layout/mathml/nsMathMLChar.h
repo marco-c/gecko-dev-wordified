@@ -151,7 +151,7 @@ h
 #
 include
 "
-gfxFont
+gfxTextRun
 .
 h
 "
@@ -630,6 +630,13 @@ nsMathMLChar
 {
 public
 :
+typedef
+gfxTextRun
+:
+:
+Range
+Range
+;
 typedef
 mozilla
 :

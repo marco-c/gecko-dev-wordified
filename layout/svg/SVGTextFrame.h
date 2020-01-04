@@ -152,6 +152,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -1403,6 +1410,13 @@ MutationObserver
 friend
 class
 nsDisplaySVGText
+;
+typedef
+gfxTextRun
+:
+:
+Range
+Range
 ;
 typedef
 mozilla
