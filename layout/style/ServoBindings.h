@@ -695,6 +695,15 @@ bool
 is_probe
 )
 ;
+ServoComputedValues
+*
+Servo_InheritComputedValues
+(
+ServoComputedValues
+*
+parent_style
+)
+;
 void
 Servo_AddRefComputedValues
 (
