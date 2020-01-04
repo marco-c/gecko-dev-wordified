@@ -1437,7 +1437,6 @@ manifest
             
 chrome
 =
-(
 "
 overlay
 chrome
@@ -1451,9 +1450,6 @@ content
 browser
 .
 xul
-"
-                      
-"
 chrome
 :
 /
@@ -1470,7 +1466,6 @@ overlay
 .
 xul
 "
-)
             
 path
 =

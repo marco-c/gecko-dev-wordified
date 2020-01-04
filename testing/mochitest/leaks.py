@@ -533,9 +533,6 @@ s
 )
 until
 shutdown
-"
-                    
-"
 [
 url
 =
@@ -543,7 +540,6 @@ url
 s
 ]
 "
-)
 %
 (
 test
@@ -554,6 +550,7 @@ fileName
 ]
 count
 url
+)
 )
             
 if
@@ -639,14 +636,11 @@ docShell
 s
 )
 until
-"
-                                    
-"
 shutdown
 "
 %
-                                    
 (
+                    
 test
 [
 "
@@ -689,7 +683,6 @@ leaked
 s
 "
 %
-                                 
 (
 test
 [
@@ -697,6 +690,7 @@ test
 fileName
 "
 ]
+                                                                              
 '
 '
 .
@@ -718,7 +712,6 @@ s
 ]
 "
 %
-                                                               
 x
 for
 x
@@ -730,7 +723,6 @@ leakedDocShells
 "
 ]
 ]
-                                                              
 )
 )
 )
@@ -2029,6 +2021,7 @@ logger
 .
 warning
 (
+                
 "
 TEST
 -
@@ -2039,9 +2032,6 @@ FAIL
 LeakSanitizer
 |
 LeakSanitizer
-"
-                                
-"
 has
 encountered
 a
@@ -2073,9 +2063,6 @@ LeakSanitizer
 To
 show
 the
-"
-                             
-"
 addresses
 of
 leaked
@@ -2106,9 +2093,6 @@ This
 can
 be
 done
-"
-                             
-"
 in
 testing
 /
