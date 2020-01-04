@@ -5689,6 +5689,17 @@ aValueSerialization
 const
 ;
 void
+AppendBasicShapePositionToString
+(
+nsAString
+&
+aResult
+Serialization
+aValueSerialization
+)
+const
+;
+void
 AppendInsetToString
 (
 nsCSSProperty
