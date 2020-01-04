@@ -1415,7 +1415,7 @@ mMnsConnected
 bool
 mNtfRequired
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 unsigned

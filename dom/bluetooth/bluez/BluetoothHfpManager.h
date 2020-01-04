@@ -943,7 +943,7 @@ mDialingRequestProcessed
 ;
 #
 endif
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 #

@@ -182,7 +182,7 @@ nsresult
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 const
@@ -209,7 +209,7 @@ nsresult
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 const
@@ -330,7 +330,7 @@ inline
 void
 GetAddress
 (
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
@@ -345,7 +345,7 @@ void
 SetAddress
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
@@ -440,7 +440,7 @@ DroidSocketImpl
 *
 mImpl
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 }

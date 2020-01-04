@@ -1012,7 +1012,7 @@ established
 bool
 mConnected
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 /
