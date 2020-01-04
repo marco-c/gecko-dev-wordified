@@ -9367,6 +9367,10 @@ styleSet
 ResolveStyleForNonElement
 (
 mStyleContext
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 /

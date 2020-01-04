@@ -456,6 +456,9 @@ ResolveStyleForNonElement
 nsStyleContext
 *
 aParentContext
+nsIAtom
+*
+aPseudoTag
 )
 {
 MOZ_CRASH

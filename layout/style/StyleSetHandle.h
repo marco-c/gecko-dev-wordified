@@ -738,6 +738,9 @@ ResolveStyleForNonElement
 nsStyleContext
 *
 aParentContext
+nsIAtom
+*
+aPseudoTag
 )
 ;
 inline

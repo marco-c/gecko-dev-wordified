@@ -7743,13 +7743,13 @@ isn
 t
 anon
 .
-pseudoTag
-=
-=
 nsCSSAnonBoxes
 :
 :
-mozNonElement
+IsNonElement
+(
+pseudoTag
+)
 )
 {
 /
