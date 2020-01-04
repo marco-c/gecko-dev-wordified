@@ -1569,6 +1569,15 @@ source_dir
 libcxx
 "
     
+libcxxabi_source_dir
+=
+source_dir
++
+"
+/
+libcxxabi
+"
+    
 if
 is_darwin
 (
@@ -1803,6 +1812,17 @@ config
 libcxx_repo
 "
 ]
+    
+libcxxabi_repo
+=
+config
+.
+get
+(
+"
+libcxxabi_repo
+"
+)
     
 stages
 =
@@ -2293,6 +2313,18 @@ libcxx_source_dir
 llvm_revision
 )
         
+if
+libcxxabi_repo
+:
+            
+svn_co
+(
+source_dir
+libcxxabi_repo
+libcxxabi_source_dir
+llvm_revision
+)
+        
 for
 p
 in
@@ -2347,6 +2379,16 @@ llvm_revision
 svn_update
 (
 libcxx_source_dir
+llvm_revision
+)
+        
+if
+libcxxabi_repo
+:
+            
+svn_update
+(
+libcxxabi_source_dir
 llvm_revision
 )
     
@@ -2408,6 +2450,24 @@ llvm_source_dir
 projects
 /
 libcxx
+"
+)
+                
+(
+source_dir
++
+"
+/
+libcxxabi
+"
+                 
+llvm_source_dir
++
+"
+/
+projects
+/
+libcxxabi
 "
 )
 ]
@@ -2503,6 +2563,20 @@ l
 ]
 )
         
+if
+os
+.
+path
+.
+exists
+(
+l
+[
+0
+]
+)
+:
+            
 symlink
 (
 l
