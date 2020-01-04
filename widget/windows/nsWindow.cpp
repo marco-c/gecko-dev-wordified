@@ -34550,7 +34550,7 @@ mMousePresent
 /
 /
 First
-MOOUSEMOVE
+MOUSEMOVE
 over
 the
 client
