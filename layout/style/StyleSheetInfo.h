@@ -218,14 +218,6 @@ SRIMetadata
 aIntegrity
 )
 ;
-StyleSheetInfo
-(
-const
-StyleSheetInfo
-&
-aCopy
-)
-;
 nsCOMPtr
 <
 nsIURI
