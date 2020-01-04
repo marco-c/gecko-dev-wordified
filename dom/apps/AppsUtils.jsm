@@ -1658,9 +1658,10 @@ file
 ;
 aRequestChannel
 .
-asyncOpen2
+asyncOpen
 (
 listener
+null
 )
 ;
 return
