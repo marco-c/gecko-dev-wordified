@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsIStreamLoader
+nsIIncrementalStreamLoader
 .
 h
 "
@@ -1230,7 +1230,7 @@ nsScriptLoader
 final
 :
 public
-nsIStreamLoaderObserver
+nsIIncrementalStreamLoaderObserver
 {
 class
 MOZ_STACK_CLASS
@@ -1317,7 +1317,7 @@ aDocument
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSISTREAMLOADEROBSERVER
+NS_DECL_NSIINCREMENTALSTREAMLOADEROBSERVER
 /
 *
 *
@@ -2720,7 +2720,7 @@ PrepareLoadedRequest
 nsScriptLoadRequest
 *
 aRequest
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 nsresult

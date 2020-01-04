@@ -1106,7 +1106,7 @@ RemoveExecuteBlocker
 NS_IMPL_ISUPPORTS
 (
 nsScriptLoader
-nsIStreamLoaderObserver
+nsIIncrementalStreamLoaderObserver
 )
 /
 /
@@ -1742,7 +1742,7 @@ class
 ContextMediator
 :
 public
-nsIStreamLoaderObserver
+nsIIncrementalStreamLoaderObserver
 {
 public
 :
@@ -1768,7 +1768,7 @@ aContext
 {
 }
 NS_DECL_ISUPPORTS
-NS_DECL_NSISTREAMLOADEROBSERVER
+NS_DECL_NSIINCREMENTALSTREAMLOADEROBSERVER
 private
 :
 virtual
@@ -1795,7 +1795,7 @@ mContext
 NS_IMPL_ISUPPORTS
 (
 ContextMediator
-nsIStreamLoaderObserver
+nsIIncrementalStreamLoaderObserver
 )
 NS_IMETHODIMP
 ContextMediator
@@ -1803,7 +1803,7 @@ ContextMediator
 :
 OnStreamComplete
 (
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 nsISupports
@@ -2394,13 +2394,13 @@ aRequest
 ;
 nsCOMPtr
 <
-nsIStreamLoader
+nsIIncrementalStreamLoader
 >
 loader
 ;
 rv
 =
-NS_NewStreamLoader
+NS_NewIncrementalStreamLoader
 (
 getter_AddRefs
 (
@@ -9136,7 +9136,7 @@ nsScriptLoader
 :
 OnStreamComplete
 (
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 nsISupports
@@ -9654,7 +9654,7 @@ PrepareLoadedRequest
 nsScriptLoadRequest
 *
 aRequest
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 nsresult

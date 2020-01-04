@@ -200,7 +200,7 @@ h
 #
 include
 "
-nsIStreamLoader
+nsIIncrementalStreamLoader
 .
 h
 "
@@ -2186,7 +2186,7 @@ const
 SRIMetadata
 &
 aMetadata
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 const
