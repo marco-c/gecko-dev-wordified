@@ -2932,6 +2932,10 @@ Label
 isDouble
 done
 ;
+asMasm
+(
+)
+.
 branchTestDouble
 (
 Assembler
