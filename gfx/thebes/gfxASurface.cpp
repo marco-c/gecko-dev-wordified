@@ -854,14 +854,6 @@ cairo_surface_get_type
 csurf
 )
 ;
-MOZ_ASSERT
-(
-stype
-!
-=
-CAIRO_SURFACE_TYPE_QT
-)
-;
 if
 (
 stype

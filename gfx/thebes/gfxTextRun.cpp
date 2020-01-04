@@ -10261,16 +10261,6 @@ UseFcFontList
 )
 ;
 #
-elif
-defined
-(
-MOZ_WIDGET_QT
-)
-enumerateFonts
-=
-false
-;
-#
 endif
 if
 (

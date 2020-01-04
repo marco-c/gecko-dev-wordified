@@ -11309,16 +11309,6 @@ UseFcFontList
 )
 ;
 #
-elif
-defined
-(
-MOZ_WIDGET_QT
-)
-usePlatformFontList
-=
-false
-;
-#
 endif
 /
 /
