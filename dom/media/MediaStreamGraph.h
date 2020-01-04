@@ -8116,13 +8116,6 @@ TrackID
 aTrackId
 )
 ;
-enum
-{
-ADD_STREAM_SUSPENDED
-=
-0x01
-}
-;
 /
 *
 *
@@ -8146,10 +8139,6 @@ AddStream
 MediaStream
 *
 aStream
-uint32_t
-aFlags
-=
-0
 )
 ;
 /
