@@ -550,6 +550,9 @@ apps
 const
 ManagedContainer
 <
+dom
+:
+:
 PBrowserParent
 >
 &
