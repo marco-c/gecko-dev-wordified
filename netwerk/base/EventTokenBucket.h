@@ -800,12 +800,7 @@ void
 Stop
 (
 )
-{
-mStopped
-=
-true
 ;
-}
 /
 /
 The
