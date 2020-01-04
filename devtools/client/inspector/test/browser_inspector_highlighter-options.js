@@ -1685,7 +1685,6 @@ function
 let
 {
 inspector
-toolbox
 testActor
 }
 =
@@ -1764,7 +1763,7 @@ options
 )
 ;
 yield
-toolbox
+inspector
 .
 highlighter
 .
@@ -1793,7 +1792,7 @@ highlighter
 )
 ;
 yield
-toolbox
+inspector
 .
 highlighter
 .

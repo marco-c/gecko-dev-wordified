@@ -5167,8 +5167,6 @@ target
 this
 .
 inspector
-.
-toolbox
 ;
 target
 .

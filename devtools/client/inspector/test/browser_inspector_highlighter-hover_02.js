@@ -129,7 +129,6 @@ function
 {
 let
 {
-toolbox
 inspector
 testActor
 }
@@ -250,7 +249,7 @@ waitForHighlighterEvent
 "
 hidden
 "
-toolbox
+inspector
 .
 highlighter
 )

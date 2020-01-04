@@ -292,7 +292,7 @@ inspector
 )
 ;
 yield
-toolbox
+inspector
 .
 highlighter
 .

@@ -158,8 +158,6 @@ activate
 yield
 inspector
 .
-toolbox
-.
 highlighter
 .
 showBoxModel
@@ -281,8 +279,6 @@ hide
 ;
 yield
 inspector
-.
-toolbox
 .
 highlighter
 .
