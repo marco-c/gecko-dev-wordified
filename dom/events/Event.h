@@ -1569,7 +1569,7 @@ mEvent
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 .
 IsEmpty
 (

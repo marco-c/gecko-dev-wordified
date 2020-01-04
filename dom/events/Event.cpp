@@ -1412,7 +1412,7 @@ mIsMainThreadEvent
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 .
 IsEmpty
 (
@@ -1424,7 +1424,7 @@ aType
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 ;
 return
 NS_OK
@@ -1499,7 +1499,7 @@ mSpecifiedEventType
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 =
 aType
 ;
@@ -2740,7 +2740,7 @@ mIsMainThreadEvent
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 .
 Truncate
 (
@@ -2790,7 +2790,7 @@ eUnidentifiedEvent
 mEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 =
 aEventTypeArg
 ;
