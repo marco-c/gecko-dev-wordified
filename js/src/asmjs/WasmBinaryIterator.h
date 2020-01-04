@@ -726,7 +726,7 @@ needed
 template
 <
 >
-struct
+class
 TypeAndValue
 <
 Nothing
@@ -740,8 +740,9 @@ public
 TypeAndValue
 (
 )
-{
-}
+=
+default
+;
 explicit
 TypeAndValue
 (
