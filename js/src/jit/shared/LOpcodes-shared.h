@@ -1928,7 +1928,7 @@ AsmJSInterruptCheck
 \
 _
 (
-AsmThrowUnreachable
+WasmTrap
 )
 \
 _

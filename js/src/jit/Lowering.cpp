@@ -17131,9 +17131,9 @@ void
 LIRGenerator
 :
 :
-visitAsmThrowUnreachable
+visitWasmTrap
 (
-MAsmThrowUnreachable
+MWasmTrap
 *
 ins
 )
@@ -17146,7 +17146,7 @@ alloc
 (
 )
 )
-LAsmThrowUnreachable
+LWasmTrap
 ins
 )
 ;
