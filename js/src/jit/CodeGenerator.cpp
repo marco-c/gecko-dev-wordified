@@ -62503,12 +62503,10 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetJitContext
-(
-)
+gen
 -
 >
-runtime
+compartment
 -
 >
 addressOfLastCachedNativeIterator
