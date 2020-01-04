@@ -846,7 +846,7 @@ NS_ENSURE_STATE
 selection
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -2257,7 +2257,7 @@ to
 handle
 or
 cancel
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -9970,7 +9970,7 @@ to
 handle
 or
 cancel
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -11241,7 +11241,7 @@ to
 handle
 or
 cancel
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -11823,7 +11823,7 @@ to
 handle
 or
 cancel
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction

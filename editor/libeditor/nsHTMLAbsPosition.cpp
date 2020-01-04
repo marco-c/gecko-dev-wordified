@@ -454,7 +454,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 aEnabled
@@ -953,7 +953,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 aChange

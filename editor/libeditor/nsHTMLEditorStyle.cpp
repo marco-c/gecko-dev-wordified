@@ -775,7 +775,7 @@ bool
 cancel
 handled
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -7967,7 +7967,7 @@ bool
 cancel
 handled
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction

@@ -3956,7 +3956,7 @@ eNone
 ;
 }
 }
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -4188,7 +4188,7 @@ instring
 aStringToInsert
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 opID
@@ -4371,7 +4371,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -6327,7 +6327,7 @@ nsIEditor
 eNone
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -6469,7 +6469,7 @@ nsIEditor
 eNone
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -7334,7 +7334,7 @@ mRules
 nsString
 resultString
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8136,7 +8136,7 @@ to
 handle
 or
 cancel
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
