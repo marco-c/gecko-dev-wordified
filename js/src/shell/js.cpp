@@ -40299,13 +40299,12 @@ RootedString
 messageStr
 (
 cx
-JS_NewUCStringCopyZ
-(
-cx
 report
 -
 >
-ucmessage
+newMessageString
+(
+cx
 )
 )
 ;
