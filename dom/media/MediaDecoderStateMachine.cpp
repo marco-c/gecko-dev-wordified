@@ -6092,7 +6092,10 @@ DECODER_STATE_SEEKING
 ;
 InitiateSeek
 (
+Move
+(
 mQueuedSeek
+)
 )
 ;
 return
@@ -8488,8 +8491,8 @@ Exists
 )
 {
 mQueuedSeek
-.
-Steal
+=
+Move
 (
 mCurrentSeek
 )
@@ -9198,7 +9201,10 @@ DECODER_STATE_SEEKING
 ;
 InitiateSeek
 (
+Move
+(
 mQueuedSeek
+)
 )
 ;
 return
@@ -10068,7 +10074,10 @@ aTarget
 ;
 InitiateSeek
 (
+Move
+(
 seekJob
+)
 )
 ;
 return
@@ -10580,7 +10589,6 @@ MediaDecoderStateMachine
 InitiateSeek
 (
 SeekJob
-&
 aSeekJob
 )
 {
@@ -10599,8 +10607,8 @@ __func__
 )
 ;
 mCurrentSeek
-.
-Steal
+=
+Move
 (
 aSeekJob
 )
