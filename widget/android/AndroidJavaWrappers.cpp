@@ -4581,7 +4581,11 @@ offset
 widget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
+(
+)
+.
+ToUnknownPoint
 (
 )
 ;

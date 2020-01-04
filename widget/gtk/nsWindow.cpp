@@ -7794,7 +7794,11 @@ aRect
 .
 MoveTo
 (
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
+(
+)
+.
+ToUnknownPoint
 (
 )
 )
