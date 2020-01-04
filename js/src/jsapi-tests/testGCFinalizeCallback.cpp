@@ -1195,7 +1195,7 @@ false
 ;
 JS_AddFinalizeCallback
 (
-rt
+cx
 FinalizeCallback
 nullptr
 )
@@ -1213,7 +1213,7 @@ override
 {
 JS_RemoveFinalizeCallback
 (
-rt
+cx
 FinalizeCallback
 )
 ;
