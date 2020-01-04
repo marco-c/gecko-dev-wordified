@@ -370,9 +370,7 @@ mKeyStatusMap
 new
 MediaKeyStatusMap
 (
-aCx
 aParent
-aRv
 )
 )
 mExpiration
