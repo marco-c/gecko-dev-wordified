@@ -3591,7 +3591,7 @@ resolve
 addEventListener
 (
 "
-MozStorageChanged
+MozSessionStorageChanged
 "
 function
 onStorageChanged
@@ -3632,7 +3632,7 @@ size
 removeEventListener
 (
 "
-MozStorageChanged
+MozSessionStorageChanged
 "
 onStorageChanged
 true
