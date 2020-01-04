@@ -1128,7 +1128,7 @@ isMarked
 existingShape
 -
 >
-arenaHeader
+arena
 (
 )
 -

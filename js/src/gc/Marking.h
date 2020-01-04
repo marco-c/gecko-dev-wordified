@@ -250,8 +250,8 @@ WeakMapBase
 namespace
 gc
 {
-struct
-ArenaHeader
+class
+Arena
 ;
 }
 /
@@ -1300,9 +1300,9 @@ delayMarkingArena
 gc
 :
 :
-ArenaHeader
+Arena
 *
-aheader
+arena
 )
 ;
 void
@@ -1320,9 +1320,9 @@ markDelayedChildren
 gc
 :
 :
-ArenaHeader
+Arena
 *
-aheader
+arena
 )
 ;
 bool
@@ -1746,8 +1746,7 @@ this
 has
 to
 be
-out
-of
+outside
 the
 header
 .
@@ -2083,7 +2082,7 @@ js
 gc
 :
 :
-ArenaHeader
+Arena
 *
 unmarkedArenaStackTop
 ;
@@ -2259,9 +2258,9 @@ PushArena
 GCMarker
 *
 gcmarker
-ArenaHeader
+Arena
 *
-aheader
+arena
 )
 ;
 /

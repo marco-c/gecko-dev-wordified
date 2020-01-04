@@ -690,7 +690,7 @@ asTenured
 (
 )
 .
-arenaHeader
+arena
 (
 )
 -
@@ -2402,9 +2402,9 @@ arenaLists
 thingKind
 ]
 ;
-ArenaHeader
+Arena
 *
-aheader
+arena
 =
 al
 .
@@ -2414,7 +2414,7 @@ takeNextArena
 ;
 if
 (
-aheader
+arena
 )
 {
 /
@@ -2429,7 +2429,7 @@ freed
 MOZ_ASSERT
 (
 !
-aheader
+arena
 -
 >
 isEmpty
@@ -2441,7 +2441,7 @@ return
 allocateFromArenaInner
 (
 zone
-aheader
+arena
 thingKind
 )
 ;
@@ -2548,7 +2548,7 @@ allocateArena
 may
 fail
 .
-aheader
+arena
 =
 rt
 -
@@ -2570,7 +2570,7 @@ ref
 if
 (
 !
-aheader
+arena
 )
 return
 nullptr
@@ -2599,14 +2599,14 @@ al
 .
 insertBeforeCursor
 (
-aheader
+arena
 )
 ;
 return
 allocateFromArenaInner
 (
 zone
-aheader
+arena
 thingKind
 )
 ;
@@ -2625,9 +2625,9 @@ JS
 Zone
 *
 zone
-ArenaHeader
+Arena
 *
-aheader
+arena
 AllocKind
 kind
 )
@@ -2648,7 +2648,7 @@ freeLists
 kind
 ]
 =
-aheader
+arena
 -
 >
 getFirstFreeSpan
@@ -2680,7 +2680,7 @@ gc
 arenaAllocatedDuringGC
 (
 zone
-aheader
+arena
 )
 ;
 TenuredCell
@@ -2726,7 +2726,7 @@ JS
 Zone
 *
 zone
-ArenaHeader
+Arena
 *
 arena
 )
