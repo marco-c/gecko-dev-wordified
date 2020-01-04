@@ -1846,9 +1846,6 @@ apply
 to
 :
 :
--
-moz
--
 placeholder
 ?
 #

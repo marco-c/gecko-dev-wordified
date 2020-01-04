@@ -15361,9 +15361,6 @@ like
 "
 :
 :
--
-moz
--
 placeholder
 "
 ;
@@ -15394,9 +15391,6 @@ document
 like
 :
 :
--
-moz
--
 placeholder
 :
 hover

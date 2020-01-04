@@ -2209,9 +2209,6 @@ NS_ERROR_OUT_OF_MEMORY
 Associate
 :
 :
--
-moz
--
 placeholder
 pseudo
 -
@@ -2227,7 +2224,7 @@ pseudoType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 ;
 /
 /
@@ -8589,7 +8586,7 @@ aType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 )
 {
 nsCOMPtr

@@ -11278,7 +11278,7 @@ aPseudoType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 )
 aRuleWalker
 -

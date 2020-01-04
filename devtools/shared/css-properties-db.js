@@ -696,6 +696,10 @@ placeholder
 "
 "
 :
+placeholder
+"
+"
+:
 -
 moz
 -

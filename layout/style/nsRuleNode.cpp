@@ -13617,7 +13617,7 @@ pseudoType
 nsCSSPseudoElements
 :
 :
-mozPlaceholder
+placeholder
 )
 {
 pseudoRestriction
