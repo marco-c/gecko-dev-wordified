@@ -18930,7 +18930,6 @@ type
 (
 )
 ;
-else
 if
 (
 obj
