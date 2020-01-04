@@ -173,7 +173,7 @@ Do
 not
 Crash
 [
-JS_CallTracer
+TraceEdge
 ]
 '
 ;

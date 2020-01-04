@@ -9647,7 +9647,10 @@ implementation
 should
 call
 *
-JS_CallTracer
+JS
+:
+:
+TraceEdge
 whenever
 the
 root
