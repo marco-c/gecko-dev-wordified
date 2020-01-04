@@ -188,7 +188,7 @@ webgl
 {
 static
 bool
-UnpackFormatHasAlpha
+UnpackFormatHasColorAndAlpha
 (
 GLenum
 unpackFormat
@@ -200,13 +200,13 @@ unpackFormat
 )
 {
 case
-LOCAL_GL_ALPHA
-:
-case
 LOCAL_GL_LUMINANCE_ALPHA
 :
 case
 LOCAL_GL_RGBA
+:
+case
+LOCAL_GL_SRGB_ALPHA
 :
 return
 true
@@ -1087,7 +1087,7 @@ isDstPremult
 if
 (
 !
-UnpackFormatHasAlpha
+UnpackFormatHasColorAndAlpha
 (
 dstDUI
 -
