@@ -6282,7 +6282,12 @@ LOCAL_INCLUDES
 +
 =
 -
-Ibar
+I
+(
+CURDIR
+)
+/
+bar
 /
 baz
 '
@@ -6292,7 +6297,12 @@ LOCAL_INCLUDES
 +
 =
 -
-Ifoo
+I
+(
+CURDIR
+)
+/
+foo
 '
         
 ]
