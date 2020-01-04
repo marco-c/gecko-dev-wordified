@@ -90,12 +90,6 @@ ReftestManifest
 from
 mozpack
 .
-copier
-import
-FilePurger
-from
-mozpack
-.
 manifests
 import
 (
@@ -10984,31 +10978,6 @@ _build_manifests
 dest
 )
         
-#
-We
-have
-a
-purger
-for
-the
-manifests
-themselves
-to
-ensure
-legacy
-        
-#
-manifests
-are
-deleted
-.
-        
-purger
-=
-FilePurger
-(
-)
-        
 for
 k
 manifest
@@ -11019,13 +10988,6 @@ items
 (
 )
 :
-            
-purger
-.
-add
-(
-k
-)
             
 with
 self
@@ -11051,13 +11013,6 @@ write
 fileobj
 =
 fh
-)
-        
-purger
-.
-purge
-(
-man_dir
 )
     
 def
