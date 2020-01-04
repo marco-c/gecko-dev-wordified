@@ -149,7 +149,6 @@ table
 tbody
 tr
 td
-code
 }
 =
 dom
