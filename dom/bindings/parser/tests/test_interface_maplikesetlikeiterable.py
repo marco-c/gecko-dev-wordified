@@ -928,22 +928,6 @@ index
 "
 "
 valueIterableMembers
-               
-#
-numProductions
-=
-=
-2
-because
-of
-the
-generated
-iterator
-iface
-               
-numProductions
-=
-2
 )
     
 shouldPass
