@@ -1016,8 +1016,12 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
+nsAutoPtr
+<
 PositionOptions
-*
+>
+&
+&
 aOptions
 )
 ;
@@ -1028,8 +1032,12 @@ GeoPositionCallback
 aCallback
 GeoPositionErrorCallback
 aErrorCallback
+nsAutoPtr
+<
 PositionOptions
-*
+>
+&
+&
 aOptions
 int32_t
 *
