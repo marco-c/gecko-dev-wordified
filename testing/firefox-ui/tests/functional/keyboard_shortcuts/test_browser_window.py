@@ -58,7 +58,7 @@ marionette_driver
 import
 Wait
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import

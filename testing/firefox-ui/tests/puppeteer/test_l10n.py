@@ -72,7 +72,7 @@ l10n
 import
 L10n
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import

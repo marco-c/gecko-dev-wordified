@@ -63,7 +63,7 @@ import
 expected
 Wait
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import
