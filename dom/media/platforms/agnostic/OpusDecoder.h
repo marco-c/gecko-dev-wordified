@@ -404,6 +404,12 @@ Channel
 mapping
 table
 .
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 }
 ;
 }
