@@ -847,7 +847,7 @@ searchHeader
 searchPlaceholder
 "
 "
-searchForKeywordsWith
+searchForSomethingWith
 "
 "
 searchWithHeader
