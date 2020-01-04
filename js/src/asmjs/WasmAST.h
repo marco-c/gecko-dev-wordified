@@ -3398,7 +3398,8 @@ AstElemSegment
 public
 AstNode
 {
-uint32_t
+AstExpr
+*
 offset_
 ;
 AstRefVector
@@ -3408,7 +3409,8 @@ public
 :
 AstElemSegment
 (
-uint32_t
+AstExpr
+*
 offset
 AstRefVector
 &
@@ -3429,7 +3431,8 @@ elems
 )
 {
 }
-uint32_t
+AstExpr
+*
 offset
 (
 )
