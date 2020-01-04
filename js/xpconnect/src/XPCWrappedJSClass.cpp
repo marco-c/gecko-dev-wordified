@@ -3609,6 +3609,12 @@ aIsMainThread
 true
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 XPCCallContext
 ccx
 (
