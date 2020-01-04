@@ -238,6 +238,14 @@ GetIterableLength
 const
 ;
 uint32_t
+GetKeyAtIndex
+(
+uint32_t
+aIndex
+)
+const
+;
+uint32_t
 GetValueAtIndex
 (
 uint32_t
