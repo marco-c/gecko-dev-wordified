@@ -1363,9 +1363,6 @@ SetData
 variant
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 oldKind
@@ -1393,9 +1390,14 @@ kind
 "
 )
 ;
+mDataTransfer
+-
+>
+TypesListMayHaveChanged
+(
+)
+;
 }
-#
-endif
 }
 already_AddRefed
 <
