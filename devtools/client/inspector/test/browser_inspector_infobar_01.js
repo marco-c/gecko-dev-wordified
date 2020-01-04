@@ -370,7 +370,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 container
 "
@@ -413,7 +413,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 tagname
 "
@@ -461,7 +461,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 id
 "
@@ -507,7 +507,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 classes
 "
@@ -555,7 +555,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 dimensions
 "

@@ -984,7 +984,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 pseudo
 -
@@ -1233,7 +1233,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 pseudo
 -
