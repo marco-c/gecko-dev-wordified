@@ -1079,7 +1079,7 @@ dirsvc
 get
 (
 "
-Desk
+ProfD
 "
 Ci
 .
@@ -1091,9 +1091,9 @@ dest
 append
 (
 "
-Firefox
--
 tabgroups
+-
+session
 -
 backup
 .
