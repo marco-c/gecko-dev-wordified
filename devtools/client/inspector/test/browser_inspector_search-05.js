@@ -122,7 +122,7 @@ src
 "
 "
 +
-TEST_URL_ROOT
+URL_ROOT
 +
 IFRAME_SRC
 +
@@ -154,7 +154,7 @@ src
 "
 "
 +
-TEST_URL_ROOT
+URL_ROOT
 +
 IFRAME_SRC
 +
@@ -223,7 +223,7 @@ src
 =
 "
 +
-TEST_URL_ROOT
+URL_ROOT
 +
 IFRAME_SRC
 +

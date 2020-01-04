@@ -74,7 +74,7 @@ bug
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_search

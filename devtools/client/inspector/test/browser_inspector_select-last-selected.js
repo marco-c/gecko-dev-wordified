@@ -122,7 +122,7 @@ reload
 var
 PAGE_1
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_select
@@ -139,7 +139,7 @@ html
 var
 PAGE_2
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_select

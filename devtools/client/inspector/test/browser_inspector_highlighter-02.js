@@ -121,7 +121,7 @@ elements
 const
 TEST_URI
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_highlighter
