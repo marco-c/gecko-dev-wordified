@@ -3779,7 +3779,7 @@ used
 by
 list
 parsing
-kImageLayerOriginKTable
+kBackgroundClipKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
