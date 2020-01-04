@@ -79,6 +79,16 @@ s
 "
             
 "
+alias
+"
+:
+"
+firefox
+-
+latest
+"
+            
+"
 ssl
 -
 only
@@ -1222,6 +1232,16 @@ Firefox
 version
 )
 s
+-
+stub
+"
+            
+"
+alias
+"
+:
+"
+firefox
 -
 stub
 "

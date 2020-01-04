@@ -35,6 +35,16 @@ s
 "
             
 "
+alias
+"
+:
+"
+fennec
+-
+latest
+"
+            
+"
 ssl
 -
 only

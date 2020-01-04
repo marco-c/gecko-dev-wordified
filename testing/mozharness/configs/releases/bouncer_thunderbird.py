@@ -79,6 +79,16 @@ s
 "
             
 "
+alias
+"
+:
+"
+thunderbird
+-
+latest
+"
+            
+"
 ssl
 -
 only
