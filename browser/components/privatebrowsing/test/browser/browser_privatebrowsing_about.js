@@ -794,7 +794,7 @@ document
 getElementById
 (
 "
-disableTrackingProtection
+tpButton
 "
 )
 .
@@ -854,7 +854,7 @@ document
 getElementById
 (
 "
-enableTrackingProtection
+tpButton
 "
 )
 .
