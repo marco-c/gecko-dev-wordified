@@ -163,6 +163,11 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
 VRManagerChild
 )
+int
+GetInputFrameID
+(
+)
+;
 bool
 GetVRDevices
 (
@@ -302,6 +307,9 @@ Navigator
 *
 >
 mNavigatorCallbacks
+;
+int32_t
+mInputFrameID
 ;
 }
 ;

@@ -320,6 +320,8 @@ SubmitFrame
 RenderTargetSet
 *
 aRTSet
+int32_t
+aInputFrameID
 )
 override
 ;
@@ -409,6 +411,9 @@ mFOVPort
 ;
 ovrTrackingState
 mLastTrackingState
+;
+int
+mInputFrameID
 ;
 }
 ;

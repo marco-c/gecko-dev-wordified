@@ -993,6 +993,9 @@ VRHMDSensorState
 double
 timestamp
 ;
+int32_t
+inputFrameID
+;
 VRStateValidFlags
 flags
 ;
@@ -1450,6 +1453,8 @@ SubmitFrame
 RenderTargetSet
 *
 aRTSet
+int32_t
+aInputFrameID
 )
 =
 0
