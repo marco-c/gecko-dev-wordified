@@ -3028,17 +3028,6 @@ GetPaintListener
 (
 )
 ;
-static
-bool
-IsRenderMode
-(
-gfxWindowsPlatform
-:
-:
-RenderMode
-aMode
-)
-;
 virtual
 bool
 PreRender

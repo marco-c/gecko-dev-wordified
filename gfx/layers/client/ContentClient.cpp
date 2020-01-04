@@ -596,15 +596,9 @@ GetPlatform
 )
 -
 >
-GetRenderMode
+IsDirect2DBackend
 (
 )
-=
-=
-gfxWindowsPlatform
-:
-:
-RENDER_DIRECT2D
 ;
 }
 else
