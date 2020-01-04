@@ -921,6 +921,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+recent_tabs
+"
 )
 ;
 final

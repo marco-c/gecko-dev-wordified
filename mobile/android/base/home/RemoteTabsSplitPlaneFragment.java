@@ -502,6 +502,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+remote_tabs
+"
 )
 ;
 /
