@@ -1092,8 +1092,6 @@ firing
 uint32_t
 mFiringDepth
 ;
-/
-/
 uint32_t
 mNestingLevel
 ;
