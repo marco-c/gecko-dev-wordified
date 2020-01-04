@@ -333,6 +333,16 @@ aEndpoint
 )
 override
 ;
+bool
+RecvDeallocateLayerTreeId
+(
+const
+uint64_t
+&
+aLayersId
+)
+override
+;
 void
 ActorDestroy
 (
