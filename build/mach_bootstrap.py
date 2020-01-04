@@ -699,20 +699,6 @@ py
 '
     
 '
-devtools
-/
-shared
-/
-css
-/
-generated
-/
-mach_commands
-.
-py
-'
-    
-'
 dom
 /
 bindings
