@@ -3505,9 +3505,6 @@ top
 ;
 }
 }
-%
-ifdef
-XP_WIN
 /
 *
 *
@@ -3560,6 +3557,15 @@ css
 l7
 *
 /
+:
+root
+[
+platform
+=
+"
+win
+"
+]
 .
 hud
 -
@@ -3572,5 +3578,3 @@ width
 200px
 ;
 }
-%
-endif
