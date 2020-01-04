@@ -1152,6 +1152,11 @@ GetImageContainer
 (
 )
 ;
+void
+DidComposite
+(
+)
+;
 /
 *
 *

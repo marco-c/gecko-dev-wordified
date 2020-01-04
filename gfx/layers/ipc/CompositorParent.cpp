@@ -10181,11 +10181,6 @@ TimeStamp
 aCompositeEnd
 )
 {
-if
-(
-mPendingTransaction
-)
-{
 Unused
 <
 <
@@ -10201,7 +10196,6 @@ mPendingTransaction
 =
 0
 ;
-}
 if
 (
 mLayerManager
@@ -12162,6 +12156,8 @@ AssertCurrentThreadOwns
 (
 )
 ;
+if
+(
 LayerTransactionParent
 *
 layerTree
@@ -12172,18 +12168,6 @@ aId
 ]
 .
 mLayerTree
-;
-if
-(
-layerTree
-&
-&
-layerTree
--
->
-GetPendingTransactionId
-(
-)
 )
 {
 Unused
