@@ -2476,9 +2476,6 @@ Redraw
 (
 )
 ;
-#
-ifdef
-DEBUG
 virtual
 int32_t
 GetWidth
@@ -2495,8 +2492,6 @@ GetHeight
 const
 override
 ;
-#
-endif
 /
 /
 nsICanvasRenderingContextInternal

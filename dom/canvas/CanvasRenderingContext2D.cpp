@@ -8580,9 +8580,6 @@ return
 mode
 ;
 }
-#
-ifdef
-DEBUG
 int32_t
 CanvasRenderingContext2D
 :
@@ -8609,8 +8606,6 @@ return
 mHeight
 ;
 }
-#
-endif
 NS_IMETHODIMP
 CanvasRenderingContext2D
 :

@@ -2535,9 +2535,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-DEBUG
 int32_t
 WebGLContext
 :
@@ -2564,8 +2561,6 @@ return
 mHeight
 ;
 }
-#
-endif
 /
 *
 So

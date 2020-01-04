@@ -1067,9 +1067,6 @@ NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
 /
 /
 nsICanvasRenderingContextInternal
-#
-ifdef
-DEBUG
 virtual
 int32_t
 GetWidth
@@ -1086,8 +1083,6 @@ GetHeight
 const
 override
 ;
-#
-endif
 NS_IMETHOD
 SetDimensions
 (
