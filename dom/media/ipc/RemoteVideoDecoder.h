@@ -257,6 +257,16 @@ Shutdown
 )
 override
 ;
+bool
+IsHardwareAccelerated
+(
+nsACString
+&
+aFailureReason
+)
+const
+override
+;
 void
 SetSeekThreshold
 (
