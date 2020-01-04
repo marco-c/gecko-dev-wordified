@@ -149,7 +149,6 @@ TimelineMarker
 {
 public
 :
-explicit
 CompositeTimelineMarker
 (
 const

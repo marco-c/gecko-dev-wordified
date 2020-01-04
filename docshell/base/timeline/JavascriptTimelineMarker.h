@@ -171,7 +171,6 @@ TimelineMarker
 {
 public
 :
-explicit
 JavascriptTimelineMarker
 (
 const
