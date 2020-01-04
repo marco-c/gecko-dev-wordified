@@ -671,7 +671,7 @@ CSS
 )
 ;
 var
-sharedGlobalBlacklist
+sharedGlobalBlocklist
 =
 [
 "
@@ -1048,9 +1048,7 @@ invisibleToDebugger
 sharedGlobal
 :
 true
-sharedGlobalBlacklist
-:
-sharedGlobalBlacklist
+sharedGlobalBlocklist
 }
 )
 ;
@@ -1577,9 +1575,7 @@ invisibleToDebugger
 sharedGlobal
 :
 true
-sharedGlobalBlacklist
-:
-sharedGlobalBlacklist
+sharedGlobalBlocklist
 }
 )
 ;
