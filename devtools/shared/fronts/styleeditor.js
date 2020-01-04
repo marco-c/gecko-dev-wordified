@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-SimpleStringFront
+ShortLongString
 }
 =
 require
@@ -345,7 +345,7 @@ let
 longStr
 =
 new
-SimpleStringFront
+ShortLongString
 (
 source
 )

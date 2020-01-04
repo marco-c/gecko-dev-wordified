@@ -211,6 +211,7 @@ protocol
 const
 {
 LongStringActor
+ShortLongString
 }
 =
 require
