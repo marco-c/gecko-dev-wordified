@@ -1555,7 +1555,6 @@ pattern
 pattern
 }
 '
-+
                                          
 '
 matches
