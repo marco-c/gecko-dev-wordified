@@ -1566,6 +1566,24 @@ sandbox
 (
 )
         
+sandbox
+.
+_context
+.
+add_source
+(
+sandbox
+.
+normalize_path
+(
+'
+moz
+.
+build
+'
+)
+)
+        
 for
 k
 in
