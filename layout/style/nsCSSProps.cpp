@@ -6096,16 +6096,6 @@ Border
 )
 }
 {
-eCSSKeyword_padding_box
-uint8_t
-(
-StyleBoxSizing
-:
-:
-Padding
-)
-}
-{
 eCSSKeyword_UNKNOWN
 -
 1
