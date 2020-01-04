@@ -130,9 +130,6 @@ class
 ChildView
 ;
 class
-gfxASurface
-;
-class
 nsWindow
 :
 public

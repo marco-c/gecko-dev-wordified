@@ -199,9 +199,6 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 }
 }
 class
-gfxASurface
-;
-class
 nsDisplayListBuilder
 ;
 namespace
