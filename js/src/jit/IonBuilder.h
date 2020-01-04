@@ -4436,6 +4436,15 @@ MDefinition
 input
 )
 ;
+MDefinition
+*
+convertToBoolean
+(
+MDefinition
+*
+input
+)
+;
 bool
 tryFoldInstanceOf
 (
