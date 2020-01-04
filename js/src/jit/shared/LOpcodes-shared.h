@@ -278,6 +278,11 @@ SimdShuffle
 \
 _
 (
+SimdShuffleX4
+)
+\
+_
+(
 SimdUnaryArithIx16
 )
 \
