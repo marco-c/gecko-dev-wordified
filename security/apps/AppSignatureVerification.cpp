@@ -4179,7 +4179,7 @@ VerifyCertificateContext
 context
 =
 *
-reinterpret_cast
+static_cast
 <
 const
 VerifyCertificateContext

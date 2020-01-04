@@ -473,9 +473,8 @@ ROOT_TABLE
 )
 BinaryHashSearchArrayComparator
 (
-reinterpret_cast
+static_cast
 <
-const
 uint8_t
 *
 >

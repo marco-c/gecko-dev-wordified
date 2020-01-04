@@ -932,7 +932,7 @@ PLDHashTable
 aCompareCache
 =
 *
-reinterpret_cast
+static_cast
 <
 PLDHashTable
 *
