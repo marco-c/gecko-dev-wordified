@@ -169,6 +169,8 @@ self
 .
 assertEqual
 (
+sorted
+(
             
 normalize_test_list
 (
@@ -185,7 +187,10 @@ b
 c
 '
 )
+)
             
+sorted
+(
 [
 {
 '
@@ -215,6 +220,7 @@ c
 '
 }
 ]
+)
         
 )
     
@@ -229,6 +235,8 @@ self
 .
 assertEqual
 (
+sorted
+(
             
 normalize_test_list
 (
@@ -245,7 +253,10 @@ b
 c
 '
 )
+)
             
+sorted
+(
 [
 {
 '
@@ -275,6 +286,7 @@ c
 '
 }
 ]
+)
         
 )
     
@@ -289,6 +301,8 @@ self
 .
 assertEqual
 (
+sorted
+(
             
 normalize_test_list
 (
@@ -312,7 +326,10 @@ b
 c
 '
 )
+)
             
+sorted
+(
 [
 {
 '
@@ -342,6 +359,7 @@ c
 '
 }
 ]
+)
         
 )
     
@@ -419,6 +437,8 @@ self
 .
 assertEqual
 (
+sorted
+(
             
 normalize_test_list
 (
@@ -456,7 +476,10 @@ b
 c
 '
 )
+)
             
+sorted
+(
 [
 {
 '
@@ -483,6 +506,7 @@ c
 '
 ]
 ]
+)
         
 )
     
@@ -497,6 +521,8 @@ self
 .
 assertEqual
 (
+sorted
+(
             
 normalize_test_list
 (
@@ -532,7 +558,10 @@ b
 c
 '
 )
+)
             
+sorted
+(
 [
 {
 '
@@ -556,6 +585,7 @@ c
 '
 ]
 ]
+)
         
 )
     
