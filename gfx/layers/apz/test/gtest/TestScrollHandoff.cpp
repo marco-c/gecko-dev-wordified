@@ -2494,12 +2494,12 @@ Pan
 (
 manager
 mcc
-ScreenPoint
+ScreenIntPoint
 (
 90
 90
 )
-ScreenPoint
+ScreenIntPoint
 (
 55
 55

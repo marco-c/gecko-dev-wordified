@@ -254,8 +254,11 @@ Times
 PinchWithPinchInputAndCheckStatus
 (
 apzc
+ScreenIntPoint
+(
 50
 50
+)
 0
 .
 5
@@ -2482,8 +2485,11 @@ ways
 TouchDown
 (
 apzc
+ScreenIntPoint
+(
 10
 10
+)
 mcc
 -
 >
@@ -2496,8 +2502,11 @@ nullptr
 TouchUp
 (
 apzc
+ScreenIntPoint
+(
 10
 10
+)
 mcc
 -
 >
