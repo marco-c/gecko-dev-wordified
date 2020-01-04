@@ -123,6 +123,12 @@ import
 sys
 import
 tempfile
+from
+mozpack
+import
+path
+as
+mozpath
 def
 find_source_file
 (
@@ -162,9 +168,7 @@ c
         
 f
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -433,9 +437,7 @@ path
 .
 append
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -463,9 +465,7 @@ i18n
         
 makefile
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -491,9 +491,7 @@ d
         
 mozbuild
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -520,9 +518,7 @@ d
 sources
 =
 [
-os
-.
-path
+mozpath
 .
 relpath
 (
@@ -558,6 +554,9 @@ kwargs
 )
 :
     
+try
+:
+        
 with
 tempfile
 .
@@ -573,49 +572,35 @@ False
 as
 f
 :
-        
-if
+            
 subprocess
 .
-call
+check_call
 (
 command
-                           
+cwd
+=
+cwd
 stdout
 =
 f
-                           
+                                
 stderr
 =
 subprocess
 .
 STDOUT
-                           
-cwd
-=
-cwd
-                           
 *
 *
 kwargs
 )
-=
-=
-0
-:
-            
-os
-.
-unlink
-(
-f
-.
-name
-)
-            
-return
-True
     
+except
+subprocess
+.
+CalledProcessError
+:
+        
 print
 (
 '
@@ -631,6 +616,7 @@ in
 directory
 {
 }
+    
 See
 output
 in
@@ -654,16 +640,31 @@ f
 .
 name
 )
-          
+            
 file
 =
 sys
 .
 stderr
 )
-    
+        
 return
 False
+    
+else
+:
+        
+os
+.
+unlink
+(
+f
+.
+name
+)
+        
+return
+True
 def
 get_data_file
 (
@@ -677,9 +678,7 @@ glob
 .
 glob
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -727,9 +726,7 @@ obj
     
 configure
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -845,6 +842,9 @@ configure
 '
             
 [
+'
+sh
+'
 configure
              
 '
@@ -987,9 +987,7 @@ file
     
 tree_data_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1049,9 +1047,7 @@ new_data_file
 =
 get_data_file
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1139,11 +1135,37 @@ new_data_file
 tree_data_path
 )
     
+try
+:
+        
 shutil
 .
 rmtree
 (
 objdir
+)
+    
+except
+:
+        
+print
+(
+'
+Warning
+:
+failed
+to
+remove
+%
+s
+'
+%
+objdir
+file
+=
+sys
+.
+stderr
 )
     
 return
@@ -1196,9 +1218,7 @@ exit
     
 topsrcdir
 =
-os
-.
-path
+mozpath
 .
 abspath
 (
