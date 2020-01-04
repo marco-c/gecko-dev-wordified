@@ -578,15 +578,6 @@ GetDecodeDone
 (
 )
 ;
-mDecodeAborted
-=
-mContainedDecoder
--
->
-WasAborted
-(
-)
-;
 mProgress
 |
 =

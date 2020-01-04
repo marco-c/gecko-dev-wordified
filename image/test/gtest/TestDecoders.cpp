@@ -275,17 +275,6 @@ HasError
 )
 )
 ;
-EXPECT_TRUE
-(
-!
-aDecoder
--
->
-WasAborted
-(
-)
-)
-;
 /
 /
 Verify
