@@ -129,9 +129,6 @@ pref
 _shouldPromptForRestart
 :
 true
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -270,8 +267,6 @@ hidden
 true
 ;
 }
-#
-endif
 /
 *
 *
@@ -568,17 +563,12 @@ initAutoStartPrivateBrowsingReverter
 (
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 this
 .
 _initTrackingProtection
 (
 )
 ;
-#
-endif
 this
 .
 _initTrackingProtectionPBM
