@@ -11983,6 +11983,14 @@ false
 }
 if
 (
+mWaitingForTransaction
+)
+{
+if
+(
+mSkippedPaints
+&
+&
 aTime
 >
 (
@@ -12036,11 +12044,6 @@ mWarningThreshold
 2
 ;
 }
-if
-(
-mWaitingForTransaction
-)
-{
 mSkippedPaints
 =
 true
