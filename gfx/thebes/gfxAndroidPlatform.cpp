@@ -1662,6 +1662,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 {
 return
@@ -1672,6 +1674,7 @@ aFontFamilyList
 aStyle
 aTextPerf
 aUserFontSet
+aDevToCssSize
 )
 ;
 }

@@ -314,6 +314,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 override
 ;

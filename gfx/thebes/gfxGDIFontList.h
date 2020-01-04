@@ -1610,6 +1610,12 @@ gfxFontStyle
 aStyle
 =
 nullptr
+gfxFloat
+aDevToCssSize
+=
+1
+.
+0
 )
 override
 ;

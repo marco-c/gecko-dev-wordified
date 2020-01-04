@@ -7601,6 +7601,8 @@ aFamily
 gfxFontStyle
 *
 aStyle
+gfxFloat
+aDevToCssSize
 )
 {
 nsAutoString

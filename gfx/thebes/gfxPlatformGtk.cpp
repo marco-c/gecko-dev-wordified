@@ -1412,6 +1412,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 {
 if
@@ -1427,6 +1429,7 @@ aFontFamilyList
 aStyle
 aTextPerf
 aUserFontSet
+aDevToCssSize
 )
 ;
 }
@@ -1437,6 +1440,7 @@ gfxPangoFontGroup
 aFontFamilyList
 aStyle
 aUserFontSet
+aDevToCssSize
 )
 ;
 }
