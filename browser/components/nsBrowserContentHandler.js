@@ -56,6 +56,16 @@ MPL
 .
 *
 /
+/
+*
+eslint
+no
+-
+undef
+:
+2
+*
+/
 Components
 .
 utils
@@ -1779,7 +1789,7 @@ about
 preferences
 "
 ;
-sa
+args
 .
 appendElement
 (
