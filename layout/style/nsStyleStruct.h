@@ -16282,10 +16282,9 @@ a
 stacking
 context
 .
-AutoTArray
+nsTArray
 <
 nsString
-1
 >
 mWillChange
 ;
