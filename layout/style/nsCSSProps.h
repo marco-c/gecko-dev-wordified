@@ -5491,7 +5491,7 @@ kBoxPackKTable
 static
 const
 KTableEntry
-kClipPathGeometryBoxKTable
+kClipShapeSizingKTable
 [
 ]
 ;
@@ -5555,13 +5555,6 @@ static
 const
 KTableEntry
 kImageRenderingKTable
-[
-]
-;
-static
-const
-KTableEntry
-kShapeOutsideShapeBoxKTable
 [
 ]
 ;
