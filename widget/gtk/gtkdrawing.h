@@ -1017,7 +1017,7 @@ MOZ_GTK_TAB_SCROLLARROW
 *
 Paints
 the
-background
+expander
 and
 border
 of
@@ -1026,6 +1026,17 @@ GtkTreeView
 *
 /
 MOZ_GTK_TREEVIEW
+/
+*
+Paints
+the
+border
+of
+a
+GtkTreeView
+*
+/
+MOZ_GTK_TREEVIEW_VIEW
 /
 *
 Paints
