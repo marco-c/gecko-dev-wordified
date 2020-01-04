@@ -114,6 +114,11 @@ chat
 html
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 /
 /
 Is

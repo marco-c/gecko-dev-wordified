@@ -78,6 +78,11 @@ jsm
 this
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 var
 chatbar
 =
