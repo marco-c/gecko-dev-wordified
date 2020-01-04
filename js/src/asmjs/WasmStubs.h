@@ -202,6 +202,9 @@ extern
 Offsets
 GenerateEntry
 (
+jit
+:
+:
 MacroAssembler
 &
 masm
@@ -219,6 +222,9 @@ extern
 ProfilingOffsets
 GenerateInterpExit
 (
+jit
+:
+:
 MacroAssembler
 &
 masm
@@ -234,6 +240,9 @@ extern
 ProfilingOffsets
 GenerateJitExit
 (
+jit
+:
+:
 MacroAssembler
 &
 masm
@@ -249,6 +258,9 @@ extern
 Offsets
 GenerateJumpTarget
 (
+jit
+:
+:
 MacroAssembler
 &
 masm
@@ -260,6 +272,9 @@ extern
 Offsets
 GenerateInterruptStub
 (
+jit
+:
+:
 MacroAssembler
 &
 masm

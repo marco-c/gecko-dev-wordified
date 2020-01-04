@@ -245,6 +245,12 @@ js
 :
 wasm
 ;
+using
+mozilla
+:
+:
+IsNaN
+;
 typedef
 Handle
 <
