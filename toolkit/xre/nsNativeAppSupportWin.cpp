@@ -3775,7 +3775,12 @@ s
 %
 s
 "
-wwc
+static_cast
+<
+const
+wchar_t
+*
+>
 (
 NS_ConvertUTF8toUTF16
 (
@@ -4722,7 +4727,12 @@ s
 s
 "
 MOZ_MUTEX_NAMESPACE
-wwc
+static_cast
+<
+const
+wchar_t
+*
+>
 (
 NS_ConvertUTF8toUTF16
 (
