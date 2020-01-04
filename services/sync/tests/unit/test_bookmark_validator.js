@@ -1584,7 +1584,7 @@ deepEqual
 (
 c
 .
-differences
+structuralDifferences
 [
 {
 id
@@ -1682,7 +1682,7 @@ deepEqual
 (
 c
 .
-differences
+structuralDifferences
 [
 {
 id
