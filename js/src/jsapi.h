@@ -2665,6 +2665,13 @@ trc
 ;
 protected
 :
+virtual
+~
+CustomAutoRooter
+(
+)
+{
+}
 /
 *
 *
