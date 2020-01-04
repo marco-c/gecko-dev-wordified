@@ -1887,6 +1887,10 @@ class
 SavedStacks
 {
 friend
+class
+SavedFrame
+;
+friend
 JSObject
 *
 SavedStacksMetadataCallback
