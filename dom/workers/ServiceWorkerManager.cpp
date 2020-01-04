@@ -18087,10 +18087,10 @@ uri
 ;
 aRv
 =
-internalChannel
+aChannel
 -
 >
-GetURI
+GetSecureUpgradedChannelURI
 (
 getter_AddRefs
 (
