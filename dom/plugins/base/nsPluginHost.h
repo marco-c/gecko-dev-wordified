@@ -1943,6 +1943,14 @@ uint32_t
 aEpoch
 )
 ;
+void
+UpdateInMemoryPluginInfo
+(
+nsPluginTag
+*
+aPluginTag
+)
+;
 /
 /
 On
