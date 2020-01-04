@@ -210,7 +210,7 @@ if
 (
 encoder
 .
-bytecodeOffset
+currentOffset
 (
 )
 !
