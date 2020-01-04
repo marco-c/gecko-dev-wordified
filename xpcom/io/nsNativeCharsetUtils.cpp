@@ -1212,12 +1212,8 @@ size_t
 res
 outputAvail
 =
-aOutputLeft
-?
 *
 aOutputLeft
-:
-0
 ;
 res
 =
