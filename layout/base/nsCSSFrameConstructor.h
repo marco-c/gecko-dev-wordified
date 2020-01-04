@@ -13915,9 +13915,14 @@ depth
 uint16_t
 mCurrentDepth
 ;
+#
+ifdef
+DEBUG
 uint16_t
 mUpdateCount
 ;
+#
+endif
 bool
 mQuotesDirty
 :
