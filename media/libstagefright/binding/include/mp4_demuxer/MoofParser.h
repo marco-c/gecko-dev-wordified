@@ -1066,7 +1066,10 @@ Moof
 >
 mMoofs
 ;
-MediaByteRangeSet
+nsTArray
+<
+MediaByteRange
+>
 mMediaRanges
 ;
 bool
