@@ -5239,7 +5239,7 @@ ToJSValue
 cx
 TypedArrayCreator
 <
-ArrayBuffer
+Uint8Array
 >
 (
 buffer
