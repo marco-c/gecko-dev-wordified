@@ -1427,15 +1427,6 @@ aRect
 override
 ;
 NS_IMETHOD
-GetNonClientMargins
-(
-LayoutDeviceIntMargin
-&
-aMargins
-)
-override
-;
-NS_IMETHOD
 SetNonClientMargins
 (
 LayoutDeviceIntMargin
