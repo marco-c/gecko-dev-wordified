@@ -602,7 +602,6 @@ initial
 :
 content
 =
-[
 dom
 .
 button
@@ -661,8 +660,6 @@ true
 }
 TAKE_SNAPSHOT_TEXT
 )
-]
-;
 break
 ;
 case
@@ -742,7 +739,6 @@ SAVING_CENSUS
 :
 content
 =
-[
 dom
 .
 span
@@ -761,8 +757,6 @@ throbber
 }
 statusText
 )
-]
-;
 break
 ;
 case
@@ -935,9 +929,6 @@ state
 :
 state
 }
-.
-.
-.
 content
 )
 ;

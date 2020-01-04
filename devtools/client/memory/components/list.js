@@ -186,9 +186,6 @@ className
 list
 "
 }
-.
-.
-.
 items
 .
 map
@@ -204,9 +201,6 @@ return
 Item
 (
 {
-key
-:
-index
 item
 index
 onClick

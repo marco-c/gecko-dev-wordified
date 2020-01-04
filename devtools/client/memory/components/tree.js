@@ -349,6 +349,10 @@ refs
 .
 button
 .
+getDOMNode
+(
+)
+.
 focus
 (
 )
@@ -1511,6 +1515,10 @@ refs
 .
 tree
 .
+getDOMNode
+(
+)
+.
 clientHeight
 }
 )
@@ -2044,6 +2052,10 @@ refs
 .
 tree
 .
+getDOMNode
+(
+)
+.
 scrollTop
 0
 )
@@ -2054,6 +2066,10 @@ this
 refs
 .
 tree
+.
+getDOMNode
+(
+)
 .
 clientHeight
 }
