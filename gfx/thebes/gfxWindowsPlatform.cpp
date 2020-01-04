@@ -755,6 +755,7 @@ aData
 bool
 aAnonymize
 )
+override
 {
 nsresult
 rv
@@ -1082,6 +1083,7 @@ aClosure
 bool
 aAnonymize
 )
+override
 {
 HANDLE
 ProcessHandle
