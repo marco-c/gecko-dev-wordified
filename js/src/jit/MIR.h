@@ -68537,7 +68537,7 @@ dynamic_
 wasm
 :
 :
-Builtin
+SymbolicAddress
 builtin_
 ;
 }
@@ -68595,7 +68595,7 @@ Callee
 wasm
 :
 :
-Builtin
+SymbolicAddress
 callee
 )
 :
@@ -68665,7 +68665,7 @@ dynamic_
 wasm
 :
 :
-Builtin
+SymbolicAddress
 builtin
 (
 )

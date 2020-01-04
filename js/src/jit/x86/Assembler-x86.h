@@ -2199,7 +2199,7 @@ encoding
 ;
 append
 (
-AsmJSAbsoluteLink
+AsmJSAbsoluteAddress
 (
 CodeOffset
 (
@@ -2740,7 +2740,7 @@ void
 ;
 append
 (
-AsmJSAbsoluteLink
+AsmJSAbsoluteAddress
 (
 CodeOffset
 (
@@ -2787,7 +2787,7 @@ void
 ;
 append
 (
-AsmJSAbsoluteLink
+AsmJSAbsoluteAddress
 (
 CodeOffset
 (

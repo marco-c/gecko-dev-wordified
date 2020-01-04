@@ -21667,10 +21667,10 @@ only
 called
 from
 within
-AsmJSModule
+ModuleGenerator
 :
 :
-patchHeapAccesses
+finish
 which
 does
 that

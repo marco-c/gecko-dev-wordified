@@ -224,15 +224,6 @@ TypeDecls
 .
 h
 "
-#
-include
-"
-vm
-/
-NativeObject
-.
-h
-"
 namespace
 js
 {

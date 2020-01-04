@@ -150,6 +150,15 @@ h
 #
 include
 "
+builtin
+/
+WeakMapObject
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject

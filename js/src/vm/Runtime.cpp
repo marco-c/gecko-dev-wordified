@@ -337,7 +337,7 @@ include
 "
 asmjs
 /
-AsmJSSignalHandlers
+WasmSignalHandlers
 .
 h
 "
@@ -1059,7 +1059,7 @@ errorReporter
 (
 nullptr
 )
-linkedAsmJSModules
+linkedWasmModules
 (
 nullptr
 )
@@ -1803,6 +1803,9 @@ JitSupportsSimd
 ;
 signalHandlersInstalled_
 =
+wasm
+:
+:
 EnsureSignalHandlersInstalled
 (
 this

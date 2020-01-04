@@ -4437,7 +4437,7 @@ dest
 {
 append
 (
-AsmJSAbsoluteLink
+AsmJSAbsoluteAddress
 (
 CodeOffset
 (

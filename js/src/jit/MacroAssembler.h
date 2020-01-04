@@ -2220,7 +2220,7 @@ MacroAssembler
 (
 AsmJSToken
 TempAllocator
-*
+&
 alloc
 )
 :
@@ -2242,15 +2242,10 @@ emitProfilingInstrumentation_
 false
 )
 {
-if
-(
-alloc
-)
 moveResolver_
 .
 setAllocator
 (
-*
 alloc
 )
 ;

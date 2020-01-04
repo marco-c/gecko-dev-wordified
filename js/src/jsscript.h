@@ -5201,6 +5201,17 @@ decref
 )
 ;
 }
+ScriptSource
+*
+get
+(
+)
+const
+{
+return
+ss
+;
+}
 }
 ;
 struct
