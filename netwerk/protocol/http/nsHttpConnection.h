@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsHttpResponseHead
+.
+h
+"
+#
+include
+"
 nsAHttpTransaction
 .
 h

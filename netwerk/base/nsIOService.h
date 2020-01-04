@@ -545,12 +545,15 @@ mLastNetworkLinkChange
 ;
 }
 bool
-IsShutdown
+IsNetTearingDown
 (
 )
 {
 return
 mShutdown
+|
+|
+mOfflineForProfileChange
 ;
 }
 bool
