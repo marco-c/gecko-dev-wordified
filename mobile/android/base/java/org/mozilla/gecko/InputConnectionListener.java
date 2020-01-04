@@ -173,6 +173,13 @@ KeyEvent
 event
 )
 ;
+void
+onWindowVisibilityChanged
+(
+int
+visibility
+)
+;
 boolean
 isIMEEnabled
 (
