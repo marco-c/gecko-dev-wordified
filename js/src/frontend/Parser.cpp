@@ -20466,8 +20466,6 @@ return
 false
 ;
 }
-else
-{
 /
 /
 We
@@ -20483,9 +20481,9 @@ keep
 track
 of
 the
-/
-/
 one
+/
+/
 possible
 strict
 violation
@@ -20494,9 +20492,9 @@ could
 occur
 in
 the
-/
-/
 directive
+/
+/
 prologue
 -
 -
@@ -20541,7 +20539,6 @@ strictScript
 =
 true
 ;
-}
 }
 }
 else
