@@ -18657,17 +18657,8 @@ length
 =
 0
 )
-{
-cx
--
->
-recoverFromOutOfMemory
-(
-)
-;
 return
 ;
-}
 /
 *
 *
@@ -18840,7 +18831,7 @@ snapshot
 cx
 -
 >
-recoverFromOutOfMemory
+clearPendingException
 (
 )
 ;
