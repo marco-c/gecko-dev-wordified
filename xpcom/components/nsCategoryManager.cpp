@@ -1051,7 +1051,7 @@ return
 p
 ;
 }
-NS_METHOD
+nsresult
 CategoryNode
 :
 :
@@ -1127,7 +1127,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 CategoryNode
 :
 :
@@ -1375,7 +1375,7 @@ aEntryName
 )
 ;
 }
-NS_METHOD
+nsresult
 CategoryNode
 :
 :
@@ -3174,7 +3174,7 @@ success
 ;
 }
 ;
-NS_METHOD
+nsresult
 nsCategoryManager
 :
 :
