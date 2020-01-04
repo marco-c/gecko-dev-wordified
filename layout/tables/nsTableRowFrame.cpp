@@ -3892,7 +3892,10 @@ StyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_CLONE
+StyleBoxDecorationBreak
+:
+:
+Clone
 )
 )
 {

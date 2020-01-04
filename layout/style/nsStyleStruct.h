@@ -8480,7 +8480,10 @@ mFloatEdge
 [
 reset
 ]
-uint8_t
+mozilla
+:
+:
+StyleBoxDecorationBreak
 mBoxDecorationBreak
 ;
 /
@@ -8488,10 +8491,6 @@ mBoxDecorationBreak
 [
 reset
 ]
-see
-nsStyleConsts
-.
-h
 protected
 :
 /

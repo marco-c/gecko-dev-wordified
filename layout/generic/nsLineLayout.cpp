@@ -8495,7 +8495,10 @@ mStyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_SLICE
+StyleBoxDecorationBreak
+:
+:
+Slice
 )
 {
 /
@@ -9491,7 +9494,10 @@ StyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_SLICE
+StyleBoxDecorationBreak
+:
+:
+Slice
 )
 {
 pfd

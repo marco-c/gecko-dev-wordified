@@ -8598,6 +8598,12 @@ End
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleBoxDecorationBreak
+Slice
+Clone
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleBoxPack
 Start
 Justify
@@ -50227,7 +50233,10 @@ parentBorder
 -
 >
 mBoxDecorationBreak
-NS_STYLE_BOX_DECORATION_BREAK_SLICE
+StyleBoxDecorationBreak
+:
+:
+Slice
 )
 ;
 /
