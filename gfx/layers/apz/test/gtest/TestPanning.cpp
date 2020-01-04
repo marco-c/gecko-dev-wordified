@@ -235,7 +235,6 @@ down
 PanAndCheckStatus
 (
 apzc
-mcc
 touchStart
 touchEnd
 aShouldBeConsumed
@@ -334,7 +333,6 @@ back
 PanAndCheckStatus
 (
 apzc
-mcc
 touchEnd
 touchStart
 aShouldBeConsumed
@@ -428,7 +426,6 @@ VERTICAL_PAN
 PanAndCheckStatus
 (
 apzc
-mcc
 touchStart
 touchEnd
 true

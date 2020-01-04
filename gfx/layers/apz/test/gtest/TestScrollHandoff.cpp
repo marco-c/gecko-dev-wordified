@@ -1000,7 +1000,6 @@ child
 Pan
 (
 manager
-mcc
 70
 40
 )
@@ -1040,7 +1039,6 @@ again
 Pan
 (
 manager
-mcc
 70
 40
 )
@@ -1267,7 +1265,6 @@ blockId
 ApzcPanNoFling
 (
 childApzc
-mcc
 90
 30
 &
@@ -1487,7 +1484,6 @@ blockId
 ApzcPanNoFling
 (
 childApzc
-mcc
 90
 30
 &
@@ -1569,7 +1565,6 @@ secondBlockId
 ApzcPanNoFling
 (
 childApzc
-mcc
 30
 90
 &
@@ -1873,7 +1868,6 @@ overscroll
 Pan
 (
 manager
-mcc
 10
 40
 true
@@ -2183,7 +2177,6 @@ overscroll
 Pan
 (
 manager
-mcc
 60
 90
 true
@@ -2451,7 +2444,6 @@ overscroll
 Pan
 (
 manager
-mcc
 60
 90
 true
@@ -2680,7 +2672,6 @@ overscroll
 Pan
 (
 manager
-mcc
 60
 90
 true
@@ -3119,7 +3110,6 @@ APZC
 Pan
 (
 manager
-mcc
 ScreenIntPoint
 (
 90
@@ -3332,7 +3322,6 @@ child
 Pan
 (
 child2
-mcc
 45
 5
 )
@@ -3348,7 +3337,6 @@ child
 Pan
 (
 child1
-mcc
 95
 55
 )
@@ -3516,7 +3504,6 @@ child
 Pan
 (
 childApzc
-mcc
 80
 45
 )
@@ -3621,7 +3608,6 @@ parent
 Pan
 (
 childApzc
-mcc
 80
 70
 )
@@ -3794,7 +3780,6 @@ off
 Pan
 (
 childApzc
-mcc
 60
 5
 )
@@ -3879,7 +3864,6 @@ off
 Pan
 (
 childApzc
-mcc
 60
 50
 )
@@ -3987,7 +3971,6 @@ off
 Pan
 (
 childApzc
-mcc
 60
 12
 )
@@ -4136,7 +4119,6 @@ off
 Pan
 (
 childApzc
-mcc
 60
 50
 )

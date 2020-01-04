@@ -2471,7 +2471,6 @@ account
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -2752,7 +2751,6 @@ Times
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -4123,7 +4121,6 @@ request
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -4371,7 +4368,6 @@ throttler
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -4392,7 +4388,6 @@ fling
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -5243,7 +5238,6 @@ ScreenIntPoint
 100
 100
 )
-mcc
 TimeDuration
 :
 :
@@ -5742,7 +5736,6 @@ clip
 Pan
 (
 manager
-mcc
 120
 110
 )

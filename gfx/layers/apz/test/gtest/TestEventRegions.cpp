@@ -1828,7 +1828,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 tapDuration
 )
 ;
@@ -1865,7 +1864,6 @@ ScreenIntPoint
 110
 110
 )
-mcc
 tapDuration
 )
 ;
@@ -1902,7 +1900,6 @@ ScreenIntPoint
 110
 10
 )
-mcc
 tapDuration
 )
 ;
@@ -1955,7 +1952,6 @@ ScreenIntPoint
 10
 110
 )
-mcc
 tapDuration
 )
 ;
@@ -2047,7 +2043,6 @@ ScreenIntPoint
 10
 110
 )
-mcc
 tapDuration
 nullptr
 &
@@ -2207,7 +2202,6 @@ ScreenIntPoint
 10
 160
 )
-mcc
 TimeDuration
 :
 :
@@ -2276,7 +2270,6 @@ layers
 ApzcPanNoFling
 (
 parent
-mcc
 75
 25
 )
@@ -2492,7 +2485,6 @@ ScreenIntPoint
 55
 5
 )
-mcc
 TimeDuration
 :
 :
