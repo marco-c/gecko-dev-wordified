@@ -4774,7 +4774,7 @@ NS_LITERAL_STRING
 secondaryLibrary
 "
 )
-nsDependentCString
+nsDependentCSubstring
 (
 gtkver
 gtkver_len
