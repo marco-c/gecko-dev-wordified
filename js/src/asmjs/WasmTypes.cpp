@@ -189,6 +189,13 @@ h
 #
 include
 "
+fdlibm
+.
+h
+"
+#
+include
+"
 jslibmath
 .
 h
@@ -1414,6 +1421,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 sin
 Args_Double_Double
 )
@@ -1435,6 +1445,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 cos
 Args_Double_Double
 )
@@ -1454,6 +1467,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 tan
 Args_Double_Double
 )
@@ -1473,6 +1489,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 asin
 Args_Double_Double
 )
@@ -1492,6 +1511,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 acos
 Args_Double_Double
 )
@@ -1511,6 +1533,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 atan
 Args_Double_Double
 )
@@ -1530,6 +1555,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 ceil
 Args_Double_Double
 )
@@ -1549,6 +1577,9 @@ float
 )
 >
 (
+fdlibm
+:
+:
 ceilf
 Args_Float32_Float32
 )
@@ -1568,6 +1599,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 floor
 Args_Double_Double
 )
@@ -1587,6 +1621,9 @@ float
 )
 >
 (
+fdlibm
+:
+:
 floorf
 Args_Float32_Float32
 )
@@ -1606,6 +1643,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 exp
 Args_Double_Double
 )
@@ -1625,6 +1665,9 @@ double
 )
 >
 (
+fdlibm
+:
+:
 log
 Args_Double_Double
 )
