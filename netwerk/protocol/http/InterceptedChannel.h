@@ -271,6 +271,9 @@ nsISupports
 >
 mReleaseHandle
 ;
+bool
+mClosed
+;
 void
 EnsureSynthesizedResponse
 (
