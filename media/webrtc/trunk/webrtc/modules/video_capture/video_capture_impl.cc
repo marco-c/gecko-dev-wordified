@@ -1610,7 +1610,8 @@ _captureFrame
 if
 (
 conversionResult
-<
+!
+=
 0
 )
 {
