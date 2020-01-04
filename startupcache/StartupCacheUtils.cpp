@@ -156,8 +156,12 @@ NS_EXPORT
 nsresult
 NewObjectInputStreamFromBuffer
 (
+UniquePtr
+<
 char
-*
+[
+]
+>
 buffer
 uint32_t
 len
@@ -217,6 +221,10 @@ stringStream
 AdoptData
 (
 buffer
+.
+release
+(
+)
 len
 )
 ;
