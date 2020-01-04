@@ -2861,14 +2861,6 @@ ins
 )
 ;
 void
-visitAsmJSLoadFFIFunc
-(
-LAsmJSLoadFFIFunc
-*
-ins
-)
-;
-void
 visitLexicalCheck
 (
 LLexicalCheck

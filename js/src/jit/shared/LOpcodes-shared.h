@@ -2068,11 +2068,6 @@ AsmJSLoadFuncPtr
 \
 _
 (
-AsmJSLoadFFIFunc
-)
-\
-_
-(
 AsmJSParameter
 )
 \

@@ -1479,11 +1479,6 @@ AsmJSLoadFuncPtr
 \
 _
 (
-AsmJSLoadFFIFunc
-)
-\
-_
-(
 AsmJSReturn
 )
 \
