@@ -16672,6 +16672,15 @@ rt
 my_ErrorReporter
 )
 ;
+JS_InitDestroyPrincipalsCallback
+(
+rt
+ShellPrincipals
+:
+:
+destroy
+)
+;
 SetWorkerRuntimeOptions
 (
 rt
