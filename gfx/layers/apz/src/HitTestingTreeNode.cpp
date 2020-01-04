@@ -721,6 +721,17 @@ const
 {
 return
 mIsScrollbarContainer
+|
+|
+(
+mScrollDir
+!
+=
+Layer
+:
+:
+NONE
+)
 ;
 }
 void
