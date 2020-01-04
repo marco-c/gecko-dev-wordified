@@ -311,9 +311,9 @@ __clang_major__
 &
 &
 __clang_minor__
+<
 =
-=
-6
+8
 #
 define
 CLANG_CRASH_BUG
@@ -2658,6 +2658,9 @@ size_t
 aGridItemCount
 )
 {
+#
+ifndef
+CLANG_CRASH_BUG
 MOZ_ASSERT
 (
 mIter
@@ -2684,6 +2687,8 @@ mismatch
 "
 )
 ;
+#
+endif
 mGridItemCount
 .
 emplace
