@@ -1852,7 +1852,7 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 )
 ;
