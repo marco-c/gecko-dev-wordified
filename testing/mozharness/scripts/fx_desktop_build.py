@@ -251,6 +251,16 @@ source
 '
                 
 '
+generate
+-
+source
+-
+signing
+-
+manifest
+'
+                
+'
 multi
 -
 l10n
