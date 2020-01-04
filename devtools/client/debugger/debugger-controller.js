@@ -5170,6 +5170,7 @@ where
 :
 {
 line
+column
 }
 }
 =
@@ -5201,6 +5202,7 @@ addFrame
 (
 frame
 line
+column
 depth
 isBlackBoxed
 )
@@ -5233,6 +5235,14 @@ this
 activeThread
 .
 moreFrames
+;
+DebuggerView
+.
+StackFrames
+.
+addCopyContextMenu
+(
+)
 ;
 window
 .
