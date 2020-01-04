@@ -549,7 +549,7 @@ mLayersId
 ;
 }
 void
-TakeFocusForClick
+TakeFocusForClickFromTap
 (
 )
 ;

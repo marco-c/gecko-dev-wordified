@@ -1156,7 +1156,7 @@ mRenderFrame
 mRenderFrame
 -
 >
-TakeFocusForClick
+TakeFocusForClickFromTap
 (
 )
 ;
@@ -3748,7 +3748,7 @@ void
 RenderFrameParent
 :
 :
-TakeFocusForClick
+TakeFocusForClickFromTap
 (
 )
 {
@@ -3824,6 +3824,11 @@ nsIFocusManager
 :
 :
 FLAG_BYMOUSE
+|
+nsIFocusManager
+:
+:
+FLAG_BYTOUCH
 |
 nsIFocusManager
 :
