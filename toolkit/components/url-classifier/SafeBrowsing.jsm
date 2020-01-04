@@ -614,6 +614,7 @@ listManager
 registerTable
 (
 listname
+providerName
 provider
 .
 updateURL
