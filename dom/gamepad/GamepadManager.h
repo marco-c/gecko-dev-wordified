@@ -772,10 +772,13 @@ to
 refcount
 it
 here
+.
+nsTArray
+<
 GamepadEventChannelChild
-MOZ_NON_OWNING_REF
 *
-mChild
+>
+mChannelChildren
 ;
 private
 :
