@@ -4767,7 +4767,15 @@ es_
 nsCSSProperty
 )
 (
+(
 enabledstate_
+)
+|
+\
+CSSEnabledState
+(
+0
+)
 )
 ;
 \
