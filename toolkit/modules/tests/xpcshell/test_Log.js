@@ -27,6 +27,16 @@ zero
 /
 *
 /
+/
+*
+eslint
+-
+disable
+block
+-
+spacing
+*
+/
 var
 {
 utils
