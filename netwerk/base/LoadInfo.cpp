@@ -575,7 +575,7 @@ parent
 outerWindow
 -
 >
-GetParent
+GetScriptableParent
 (
 )
 ;
