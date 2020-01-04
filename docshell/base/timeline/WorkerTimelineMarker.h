@@ -151,6 +151,9 @@ public
 :
 WorkerTimelineMarker
 (
+dom
+:
+:
 ProfileTimelineWorkerOperationType
 aOperationType
 MarkerTracingType
@@ -267,6 +270,9 @@ mOperationType
 }
 }
 private
+:
+dom
+:
 :
 ProfileTimelineWorkerOperationType
 mOperationType

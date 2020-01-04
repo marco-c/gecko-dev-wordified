@@ -267,6 +267,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceUtils
 .
 h

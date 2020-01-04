@@ -142,6 +142,9 @@ dom
 namespace
 workers
 {
+class
+ServiceWorkerRegistrationInfo
+;
 namespace
 serviceWorkerScriptCache
 {
