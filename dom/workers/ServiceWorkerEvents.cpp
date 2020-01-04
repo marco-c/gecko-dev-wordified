@@ -748,9 +748,6 @@ NS_IsMainThread
 )
 )
 ;
-nsresult
-rv
-=
 mChannel
 -
 >
@@ -759,10 +756,11 @@ Cancel
 mStatus
 )
 ;
-NS_ENSURE_SUCCESS
+mRegistration
+-
+>
+MaybeScheduleUpdate
 (
-rv
-rv
 )
 ;
 return
