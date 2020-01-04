@@ -298,6 +298,12 @@ std
 string
 appDir
 ;
+std
+:
+:
+string
+appTempDir
+;
 }
 MacSandboxInfo
 ;
