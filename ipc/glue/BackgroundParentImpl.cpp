@@ -2176,12 +2176,6 @@ mOrigin
 (
 aOrigin
 )
-mBackgroundThread
-(
-NS_GetCurrentThread
-(
-)
-)
 {
 AssertIsInMainProcess
 (
@@ -2194,11 +2188,6 @@ AssertIsOnBackgroundThread
 MOZ_ASSERT
 (
 mContentParent
-)
-;
-MOZ_ASSERT
-(
-mBackgroundThread
 )
 ;
 }
@@ -2421,12 +2410,6 @@ mPrincipalInfo
 ;
 nsCString
 mOrigin
-;
-nsCOMPtr
-<
-nsIThread
->
-mBackgroundThread
 ;
 }
 ;
