@@ -8116,6 +8116,9 @@ self
 in_app
 =
 False
+callback
+=
+None
 )
 :
         
@@ -8202,6 +8205,28 @@ the
 process
 .
         
+:
+param
+callback
+:
+If
+provided
+and
+in_app
+is
+True
+the
+callback
+will
+                         
+be
+used
+to
+trigger
+the
+shutdown
+.
+        
 "
 "
 "
@@ -8248,6 +8273,20 @@ if
 in_app
 :
             
+if
+callable
+(
+callback
+)
+:
+                
+callback
+(
+)
+            
+else
+:
+                
 self
 .
 _request_in_app_shutdown
@@ -8307,6 +8346,9 @@ False
 in_app
 =
 False
+callback
+=
+None
 )
 :
         
@@ -8407,6 +8449,28 @@ the
 process
 .
         
+:
+param
+callback
+:
+If
+provided
+and
+in_app
+is
+True
+the
+callback
+will
+be
+                         
+used
+to
+trigger
+the
+restart
+.
+        
 "
 "
 "
@@ -8475,6 +8539,20 @@ set
 "
 )
             
+if
+callable
+(
+callback
+)
+:
+                
+callback
+(
+)
+            
+else
+:
+                
 self
 .
 _request_in_app_shutdown
