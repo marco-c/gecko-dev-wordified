@@ -439,6 +439,9 @@ class
 ErrorResult
 ;
 class
+InsertNodeTransaction
+;
+class
 TextComposition
 ;
 struct
@@ -458,9 +461,6 @@ EventTarget
 ;
 class
 InsertTextTxn
-;
-class
-InsertNodeTxn
 ;
 class
 JoinNodeTxn
@@ -1521,10 +1521,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-InsertNodeTxn
+InsertNodeTransaction
 >
 CreateTxnForInsertNode
 (
