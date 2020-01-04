@@ -559,6 +559,9 @@ GfxDriverInfo
 aDriverInfo
 *
 /
+nsACString
+&
+aFailureId
 OperatingSystem
 *
 /
