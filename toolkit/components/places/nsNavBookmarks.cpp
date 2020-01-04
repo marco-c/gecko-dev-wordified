@@ -1775,6 +1775,8 @@ aGrandParentId
 nsIURI
 *
 aURI
+uint16_t
+aSource
 int64_t
 *
 _itemId
@@ -2657,6 +2659,8 @@ const
 nsACString
 &
 aGUID
+uint16_t
+aSource
 int64_t
 *
 aNewBookmarkId
@@ -2894,6 +2898,7 @@ dateAdded
 folderGuid
 grandParentId
 aURI
+aSource
 aNewBookmarkId
 guid
 )
@@ -2976,6 +2981,7 @@ title
 dateAdded
 guid
 folderGuid
+aSource
 )
 )
 ;
@@ -3155,6 +3161,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -3172,6 +3179,8 @@ RemoveItem
 (
 int64_t
 aItemId
+uint16_t
+aSource
 )
 {
 PROFILER_LABEL
@@ -3289,6 +3298,7 @@ RemoveItemAnnotations
 bookmark
 .
 id
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3326,6 +3336,7 @@ RemoveFolderChildren
 bookmark
 .
 id
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3647,6 +3658,7 @@ guid
 bookmark
 .
 parentGuid
+aSource
 )
 )
 ;
@@ -3788,6 +3800,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -3815,6 +3828,8 @@ const
 nsACString
 &
 aGUID
+uint16_t
+aSource
 int64_t
 *
 aNewFolder
@@ -3936,6 +3951,7 @@ true
 &
 localIndex
 aGUID
+aSource
 aNewFolder
 )
 ;
@@ -4026,6 +4042,8 @@ const
 nsACString
 &
 aGUID
+uint16_t
+aSource
 int64_t
 *
 aNewFolder
@@ -4196,6 +4214,7 @@ dateAdded
 folderGuid
 grandParentId
 nullptr
+aSource
 aNewFolder
 guid
 )
@@ -4238,6 +4257,7 @@ title
 dateAdded
 guid
 folderGuid
+aSource
 )
 )
 ;
@@ -4264,6 +4284,8 @@ const
 nsACString
 &
 aGUID
+uint16_t
+aSource
 int64_t
 *
 aNewItemId
@@ -4474,6 +4496,7 @@ dateAdded
 folderGuid
 grandParentId
 nullptr
+aSource
 aNewItemId
 guid
 )
@@ -4516,6 +4539,7 @@ voidString
 dateAdded
 guid
 folderGuid
+aSource
 )
 )
 ;
@@ -4901,6 +4925,8 @@ GetRemoveFolderTransaction
 (
 int64_t
 aFolderId
+uint16_t
+aSource
 nsITransaction
 *
 *
@@ -4947,6 +4973,7 @@ new
 RemoveFolderTransaction
 (
 aFolderId
+aSource
 )
 ;
 if
@@ -5869,6 +5896,8 @@ RemoveFolderChildren
 (
 int64_t
 aFolderId
+uint16_t
+aSource
 )
 {
 PROFILER_LABEL
@@ -6467,6 +6496,7 @@ guid
 child
 .
 parentGuid
+aSource
 )
 )
 ;
@@ -6619,6 +6649,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -6641,6 +6672,8 @@ int64_t
 aNewParent
 int32_t
 aIndex
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG
@@ -7525,6 +7558,7 @@ bookmark
 .
 parentGuid
 newParentGuid
+aSource
 )
 )
 ;
@@ -8275,6 +8309,8 @@ int64_t
 aItemId
 PRTime
 aDateAdded
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -8399,6 +8435,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -8469,6 +8506,8 @@ int64_t
 aItemId
 PRTime
 aLastModified
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -8593,6 +8632,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -8665,6 +8705,8 @@ const
 nsACString
 &
 aTitle
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -8918,6 +8960,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -11641,6 +11684,8 @@ aBookmarkId
 nsIURI
 *
 aNewURI
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -12006,6 +12051,7 @@ parentGuid
 bookmark
 .
 url
+aSource
 )
 )
 ;
@@ -13078,6 +13124,8 @@ int64_t
 aItemId
 int32_t
 aNewIndex
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -13311,6 +13359,7 @@ parentGuid
 bookmark
 .
 parentGuid
+aSource
 )
 )
 ;
@@ -13330,6 +13379,8 @@ const
 nsAString
 &
 aUserCasedKeyword
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -13802,6 +13853,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -14138,6 +14190,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -14376,6 +14429,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -15364,6 +15418,40 @@ parentGuid
 aData
 .
 oldValue
+/
+/
+We
+specify
+the
+default
+source
+here
+because
+/
+/
+this
+method
+is
+only
+called
+for
+history
+/
+/
+visits
+and
+we
+don
+'
+t
+track
+sources
+in
+/
+/
+history
+.
+SOURCE_DEFAULT
 )
 )
 ;
@@ -16567,6 +16655,8 @@ const
 nsACString
 &
 aName
+uint16_t
+aSource
 )
 {
 BookmarkData
@@ -16648,6 +16738,7 @@ parentGuid
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -16686,6 +16777,8 @@ const
 nsACString
 &
 aName
+uint16_t
+aSource
 )
 {
 /
@@ -16715,6 +16808,7 @@ OnItemAnnotationSet
 (
 aItemId
 aName
+aSource
 )
 ;
 NS_ENSURE_SUCCESS

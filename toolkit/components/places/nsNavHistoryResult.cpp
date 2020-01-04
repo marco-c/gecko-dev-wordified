@@ -17165,6 +17165,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 if
@@ -17233,6 +17235,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 if
@@ -17312,6 +17316,8 @@ const
 nsACString
 &
 aOldValue
+uint16_t
+aSource
 )
 {
 /
@@ -17647,6 +17653,7 @@ aParentId
 aGUID
 aParentGUID
 aOldValue
+aSource
 )
 ;
 }
@@ -17772,6 +17779,8 @@ const
 nsACString
 &
 aNewParentGUID
+uint16_t
+aSource
 )
 {
 /
@@ -20891,6 +20900,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 MOZ_ASSERT
@@ -21557,6 +21568,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 /
@@ -21983,6 +21996,8 @@ const
 nsACString
 &
 aOldValue
+uint16_t
+aSource
 )
 {
 if
@@ -22506,6 +22521,8 @@ const
 nsACString
 &
 aOldValue
+uint16_t
+aSource
 )
 {
 RESTART_AND_RETURN_IF_ASYNC_PENDING
@@ -22528,6 +22545,7 @@ aParentId
 aGUID
 aParentGUID
 aOldValue
+aSource
 )
 ;
 }
@@ -23021,6 +23039,8 @@ const
 nsACString
 &
 aNewParentGUID
+uint16_t
+aSource
 )
 {
 NS_ASSERTION
@@ -23511,6 +23531,10 @@ aItemType
 itemURI
 aGUID
 aOldParentGUID
+nsINavBookmarksService
+:
+:
+SOURCE_DEFAULT
 )
 ;
 }
@@ -23547,6 +23571,10 @@ value
 .
 aGUID
 aNewParentGUID
+nsINavBookmarksService
+:
+:
+SOURCE_DEFAULT
 )
 ;
 }
@@ -25967,6 +25995,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG
@@ -25997,6 +26027,7 @@ aTitle
 aDateAdded
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26013,6 +26044,7 @@ aTitle
 aDateAdded
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26029,6 +26061,7 @@ aTitle
 aDateAdded
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26061,6 +26094,8 @@ const
 nsACString
 &
 aParentGUID
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG
@@ -26089,6 +26124,7 @@ aItemType
 aURI
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26103,6 +26139,7 @@ aItemType
 aURI
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26117,6 +26154,7 @@ aItemType
 aURI
 aGUID
 aParentGUID
+aSource
 )
 )
 ;
@@ -26160,6 +26198,8 @@ const
 nsACString
 &
 aOldValue
+uint16_t
+aSource
 )
 {
 ENUMERATE_ALL_BOOKMARKS_OBSERVERS
@@ -26176,6 +26216,7 @@ aParentId
 aGUID
 aParentGUID
 aOldValue
+aSource
 )
 )
 ;
@@ -26386,6 +26427,7 @@ aParentId
 aGUID
 aParentGUID
 aOldValue
+aSource
 )
 ;
 }
@@ -26612,6 +26654,8 @@ const
 nsACString
 &
 aNewParentGUID
+uint16_t
+aSource
 )
 {
 ENUMERATE_BOOKMARK_FOLDER_OBSERVERS
@@ -26628,6 +26672,7 @@ aItemType
 aGUID
 aOldParentGUID
 aNewParentGUID
+aSource
 )
 )
 ;
@@ -26653,6 +26698,7 @@ aItemType
 aGUID
 aOldParentGUID
 aNewParentGUID
+aSource
 )
 )
 ;
@@ -26670,6 +26716,7 @@ aItemType
 aGUID
 aOldParentGUID
 aNewParentGUID
+aSource
 )
 )
 ;
@@ -26686,6 +26733,7 @@ aItemType
 aGUID
 aOldParentGUID
 aNewParentGUID
+aSource
 )
 )
 ;

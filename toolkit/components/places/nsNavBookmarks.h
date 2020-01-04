@@ -807,6 +807,8 @@ const
 nsACString
 &
 aGUID
+uint16_t
+aSource
 int64_t
 *
 aNewFolder
@@ -1602,6 +1604,8 @@ aGrandParentId
 nsIURI
 *
 aURI
+uint16_t
+aSource
 int64_t
 *
 _itemId
@@ -1736,16 +1740,21 @@ nsITransaction
 {
 public
 :
-explicit
 RemoveFolderTransaction
 (
 int64_t
 aID
+uint16_t
+aSource
 )
 :
 mID
 (
 aID
+)
+mSource
+(
+aSource
 )
 {
 }
@@ -1838,6 +1847,7 @@ bookmarks
 RemoveItem
 (
 mID
+mSource
 )
 ;
 }
@@ -1882,6 +1892,7 @@ mIndex
 EmptyCString
 (
 )
+mSource
 &
 newFolder
 )
@@ -1948,6 +1959,9 @@ RemoveFolderTransaction
 }
 int64_t
 mID
+;
+uint16_t
+mSource
 ;
 int64_t
 mParent
