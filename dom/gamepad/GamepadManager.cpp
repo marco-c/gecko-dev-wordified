@@ -3325,6 +3325,14 @@ Get
 mVRChannelChild
 -
 >
+SetGamepadManager
+(
+this
+)
+;
+mVRChannelChild
+-
+>
 SendControllerListenerAdded
 (
 )
