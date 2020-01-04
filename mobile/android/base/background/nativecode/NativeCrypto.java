@@ -430,6 +430,8 @@ byte
 [
 ]
 str
+int
+len
 )
 ;
 /

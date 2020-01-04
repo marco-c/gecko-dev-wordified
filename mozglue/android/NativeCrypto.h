@@ -173,6 +173,7 @@ JNIEnv
 jclass
 jbyteArray
 jbyteArray
+jint
 )
 ;
 /
