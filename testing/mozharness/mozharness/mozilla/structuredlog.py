@@ -747,20 +747,6 @@ CRASH
 '
 0
 )
-            
-summary
-.
-action_counts
-.
-get
-(
-'
-valgrind_error
-'
-0
-)
->
-0
         
 ]
         

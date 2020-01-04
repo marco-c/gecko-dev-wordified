@@ -286,20 +286,6 @@ handler
 buffer_limit
 )
 def
-valgrind_handler_wrapper
-(
-handler
-)
-:
-    
-return
-handlers
-.
-ValgrindHandler
-(
-handler
-)
-def
 default_formatter_options
 (
 log_type
@@ -1177,10 +1163,12 @@ formatter_cls
 (
 )
         
-handler_wrappers_and_options
+handler_wrapper
+handler_option
 =
-[
-]
+None
+"
+"
         
 for
 option
@@ -1196,27 +1184,7 @@ iteritems
 )
 :
             
-wrapper
-wrapper_args
-=
-None
-(
-)
-            
 if
-option
-=
-=
-"
-valgrind
-"
-:
-                
-wrapper
-=
-valgrind_handler_wrapper
-            
-elif
 option
 =
 =
@@ -1225,8 +1193,8 @@ buffer
 "
 :
                 
-wrapper
-wrapper_args
+handler_wrapper
+handler_option
 =
 fmt_options
 [
@@ -1235,9 +1203,7 @@ option
 [
 0
 ]
-(
 value
-)
             
 else
 :
@@ -1254,23 +1220,6 @@ option
 (
 formatter
 value
-)
-            
-if
-wrapper
-is
-not
-None
-:
-                
-handler_wrappers_and_options
-.
-append
-(
-(
-wrapper
-wrapper_args
-)
 )
         
 for
@@ -1293,20 +1242,16 @@ formatter
 formatter
 )
             
-for
-wrapper
-wrapper_args
-in
-handler_wrappers_and_options
+if
+handler_wrapper
 :
                 
 handler
 =
-wrapper
+handler_wrapper
 (
 handler
-*
-wrapper_args
+handler_option
 )
             
 logger
@@ -1695,8 +1640,6 @@ log
 formatter
 >
 ]
-        
-#
 or
 [
 '
@@ -1709,14 +1652,7 @@ formatter
 option
 >
 ]
-        
-#
-or
-[
-'
-valgrind
-'
-]
+.
         
 if
 parts
@@ -1972,56 +1908,6 @@ default_formatter_options
 name
 formatter_defaults
 )
-    
-#
-If
-the
-user
-specified
--
--
-valgrind
-add
-it
-as
-an
-option
-for
-all
-formatters
-    
-if
-args
-.
-get
-(
-'
-valgrind
-'
-None
-)
-is
-not
-None
-:
-        
-for
-name
-in
-formatters
-:
-            
-formatter_options
-[
-name
-]
-[
-'
-valgrind
-'
-]
-=
-True
     
 setup_handlers
 (
