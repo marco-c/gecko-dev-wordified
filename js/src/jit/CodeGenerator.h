@@ -3032,6 +3032,8 @@ bool
 strict
 bool
 needsTypeBarrier
+bool
+guardHoles
 jsbytecode
 *
 profilerLeavePc

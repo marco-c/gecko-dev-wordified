@@ -61374,6 +61374,8 @@ bool
 strict
 bool
 needsTypeBarrier
+bool
+guardHoles
 jsbytecode
 *
 profilerLeavePc
@@ -61389,6 +61391,7 @@ id
 value
 strict
 needsTypeBarrier
+guardHoles
 )
 ;
 cache
@@ -63296,6 +63299,17 @@ mir
 -
 >
 needsTypeBarrier
+(
+)
+ins
+-
+>
+mir
+(
+)
+-
+>
+guardHoles
 (
 )
 ins
