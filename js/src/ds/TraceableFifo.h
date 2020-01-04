@@ -236,7 +236,7 @@ is
 a
 specialization
 of
-DefaultGCPolicy
+GCPolicy
 <
 T
 >
@@ -245,9 +245,9 @@ an
 appropriate
 trace
 method
-/
-/
 available
+/
+/
 to
 handle
 the
@@ -503,7 +503,7 @@ length
 +
 i
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >
@@ -548,7 +548,7 @@ length
 +
 i
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >

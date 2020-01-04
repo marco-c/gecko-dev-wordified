@@ -145,6 +145,15 @@ include
 "
 gc
 /
+Policy
+.
+h
+"
+#
+include
+"
+gc
+/
 StoreBuffer
 .
 h
@@ -12976,7 +12985,7 @@ if
 (
 !
 (
-DefaultGCPolicy
+GCPolicy
 <
 PlainObjectKey
 >

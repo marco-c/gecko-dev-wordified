@@ -128,6 +128,15 @@ include
 "
 js
 /
+GCPolicyAPI
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1050,7 +1059,7 @@ elem
 :
 vector
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >
