@@ -9093,10 +9093,7 @@ width
 screenSize
 .
 height
-nsIBaseWindow
-:
-:
-eRepaint
+true
 )
 ;
 mPuppetWidget
@@ -16123,10 +16120,7 @@ width
 screenSize
 .
 height
-nsIBaseWindow
-:
-:
-eRepaint
+true
 )
 ;
 }
