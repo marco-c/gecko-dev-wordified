@@ -573,7 +573,9 @@ test
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 test
 null
