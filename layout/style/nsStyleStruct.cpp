@@ -9738,9 +9738,7 @@ StylePosition
 )
 -
 >
-ComputedAlignItems
-(
-)
+mAlignItems
 ;
 MOZ_ASSERT
 (

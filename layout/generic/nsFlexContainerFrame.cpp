@@ -21514,9 +21514,7 @@ aReflowInput
 mStylePosition
 -
 >
-ComputedAlignContent
-(
-)
+mAlignContent
 )
 {
 MOZ_ASSERT
@@ -31292,9 +31290,7 @@ aReflowInput
 mStylePosition
 -
 >
-ComputedJustifyContent
-(
-)
+mJustifyContent
 ;
 for
 (
