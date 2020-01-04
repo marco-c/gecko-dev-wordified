@@ -4413,6 +4413,16 @@ index
 .
 nonDefaultUVSOffset
 ;
+if
+(
+!
+nonDefUVSOffset
+)
+{
+return
+0
+;
+}
 const
 NonDefUVSTable
 *
