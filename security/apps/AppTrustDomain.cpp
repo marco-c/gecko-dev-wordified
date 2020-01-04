@@ -387,13 +387,11 @@ network
 .
 http
 .
-packaged
+signed
 -
-apps
--
+packages
+.
 developer
--
-trusted
 -
 root
 "
