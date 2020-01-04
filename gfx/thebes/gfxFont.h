@@ -2144,6 +2144,8 @@ const
 gfxCharacterMap
 *
 aUnicodeRangeMap
+=
+nullptr
 )
 ;
 /
