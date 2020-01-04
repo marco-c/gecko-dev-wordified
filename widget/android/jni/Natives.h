@@ -2571,6 +2571,14 @@ typedef
 Impl
 TargetClass
 ;
+typedef
+typename
+ThisArgClass
+:
+:
+Param
+ThisArgType
+;
 static
 const
 bool
