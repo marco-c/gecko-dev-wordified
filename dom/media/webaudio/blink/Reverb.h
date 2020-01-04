@@ -456,12 +456,6 @@ m_impulseResponseLength
 ;
 }
 size_t
-latencyFrames
-(
-)
-const
-;
-size_t
 sizeOfIncludingThis
 (
 mozilla
