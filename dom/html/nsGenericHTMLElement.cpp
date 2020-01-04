@@ -1889,7 +1889,7 @@ isPositioned
 frame
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 ;
@@ -1954,7 +1954,7 @@ if
 parent
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 )

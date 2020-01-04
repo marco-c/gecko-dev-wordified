@@ -5474,7 +5474,7 @@ if
 aFrame
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 )

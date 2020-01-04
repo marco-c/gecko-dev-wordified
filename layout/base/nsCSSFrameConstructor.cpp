@@ -20159,7 +20159,7 @@ NS_ASSERTION
 listFrame
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 "
@@ -20903,7 +20903,7 @@ if
 fieldsetFrame
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 )
@@ -38841,7 +38841,7 @@ if
 frame
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 |
