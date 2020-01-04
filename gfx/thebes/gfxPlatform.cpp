@@ -5865,6 +5865,8 @@ aTarget
 gfxASurface
 *
 aSurface
+bool
+aIsPlugin
 )
 {
 if
@@ -6366,6 +6368,16 @@ surf
 {
 srcBuffer
 =
+aIsPlugin
+?
+aTarget
+-
+>
+OptimizeSourceSurfaceForUnknownAlpha
+(
+surf
+)
+:
 aTarget
 -
 >
