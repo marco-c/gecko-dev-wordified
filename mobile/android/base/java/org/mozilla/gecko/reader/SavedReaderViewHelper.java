@@ -151,6 +151,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 db
 .
 UrlAnnotations
@@ -1289,6 +1300,7 @@ commit
 )
 ;
 }
+RobocopTarget
 public
 synchronized
 int
