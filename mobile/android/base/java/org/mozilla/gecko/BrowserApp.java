@@ -16775,9 +16775,15 @@ by
 hiding
 the
 underlying
+web
+content
+and
 HomePager
 View
-.
+hideWebContent
+(
+)
+;
 mHomePagerContainer
 .
 setVisibility
