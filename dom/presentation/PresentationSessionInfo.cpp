@@ -1617,6 +1617,7 @@ service
 GetWindowIdBySessionId
 (
 mSessionId
+mRole
 &
 windowId
 )
