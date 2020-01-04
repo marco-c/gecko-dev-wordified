@@ -123,7 +123,7 @@ CONTENT_SERVER_COMMAND
 make
 "
 "
-runserver
+runserver_nowatch
 "
 ]
 CONTENT_SERVER_ENV
@@ -194,8 +194,6 @@ CONTENT_SERVER_PORT
 \
     
 "
-/
-content
 /
 {
 token

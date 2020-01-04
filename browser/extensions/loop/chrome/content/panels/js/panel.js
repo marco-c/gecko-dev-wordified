@@ -2838,7 +2838,6 @@ contextURL
 contextURL
 |
 |
-(
 results
 [
 1
@@ -2850,7 +2849,6 @@ noopenpanel
 =
 1
 "
-)
 ;
 if
 (
