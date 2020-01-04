@@ -415,7 +415,7 @@ Init
 )
 ;
 }
-nsresult
+void
 DecoderFuzzingWrapper
 :
 :
@@ -447,7 +447,6 @@ MOZ_ASSERT
 mDecoder
 )
 ;
-return
 mDecoder
 -
 >
@@ -457,7 +456,7 @@ aData
 )
 ;
 }
-nsresult
+void
 DecoderFuzzingWrapper
 :
 :
@@ -524,9 +523,6 @@ in
 the
 meantime
 .
-nsresult
-result
-=
 mDecoder
 -
 >
@@ -547,21 +543,11 @@ p
 Flush
 (
 )
--
->
-result
-=
-%
-u
 "
 mDecoder
 .
 get
 (
-)
-uint32_t
-(
-result
 )
 )
 ;
@@ -582,11 +568,8 @@ ClearDelayedOutput
 (
 )
 ;
-return
-result
-;
 }
-nsresult
+void
 DecoderFuzzingWrapper
 :
 :
@@ -631,7 +614,6 @@ any
 )
 then
 .
-return
 mDecoder
 -
 >
@@ -640,7 +622,7 @@ Drain
 )
 ;
 }
-nsresult
+void
 DecoderFuzzingWrapper
 :
 :
@@ -669,9 +651,6 @@ block
 a
 bit
 .
-nsresult
-result
-=
 mDecoder
 -
 >
@@ -685,9 +664,6 @@ mCallbackWrapper
 Shutdown
 (
 )
-;
-return
-result
 ;
 }
 bool
@@ -723,7 +699,7 @@ aFailureReason
 )
 ;
 }
-nsresult
+void
 DecoderFuzzingWrapper
 :
 :
@@ -746,7 +722,6 @@ MOZ_ASSERT
 mDecoder
 )
 ;
-return
 mDecoder
 -
 >

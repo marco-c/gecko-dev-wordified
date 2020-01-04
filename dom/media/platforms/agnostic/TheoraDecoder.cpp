@@ -381,7 +381,7 @@ mTheoraInfo
 )
 ;
 }
-nsresult
+void
 TheoraDecoder
 :
 :
@@ -404,9 +404,6 @@ mTheoraDecoderContext
 nullptr
 ;
 }
-return
-NS_OK
-;
 }
 RefPtr
 <
@@ -608,7 +605,7 @@ __func__
 ;
 }
 }
-nsresult
+void
 TheoraDecoder
 :
 :
@@ -667,9 +664,6 @@ r
 mIsFlushing
 =
 false
-;
-return
-NS_OK
 ;
 }
 nsresult
@@ -1348,7 +1342,7 @@ InputExhausted
 ;
 }
 }
-nsresult
+void
 TheoraDecoder
 :
 :
@@ -1392,9 +1386,6 @@ aSample
 )
 )
 ;
-return
-NS_OK
-;
 }
 void
 TheoraDecoder
@@ -1422,7 +1413,7 @@ DrainComplete
 )
 ;
 }
-nsresult
+void
 TheoraDecoder
 :
 :
@@ -1455,9 +1446,6 @@ TheoraDecoder
 ProcessDrain
 )
 )
-;
-return
-NS_OK
 ;
 }
 /

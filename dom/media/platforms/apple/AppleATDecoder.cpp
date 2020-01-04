@@ -481,7 +481,7 @@ __func__
 )
 ;
 }
-nsresult
+void
 AppleATDecoder
 :
 :
@@ -612,9 +612,6 @@ forget
 )
 )
 ;
-return
-NS_OK
-;
 }
 void
 AppleATDecoder
@@ -667,7 +664,7 @@ rv
 ;
 }
 }
-nsresult
+void
 AppleATDecoder
 :
 :
@@ -728,11 +725,8 @@ mIsFlushing
 =
 false
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 AppleATDecoder
 :
 :
@@ -774,13 +768,12 @@ DrainComplete
 (
 )
 ;
-return
 Flush
 (
 )
 ;
 }
-nsresult
+void
 AppleATDecoder
 :
 :
@@ -843,7 +836,6 @@ rv
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 mConverter
@@ -881,7 +873,6 @@ rv
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 mStream
@@ -889,9 +880,6 @@ mStream
 nullptr
 ;
 }
-return
-NS_OK
-;
 }
 struct
 PassthroughUserData

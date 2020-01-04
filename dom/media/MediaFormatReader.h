@@ -774,7 +774,7 @@ already
 demuxed
 samples
 .
-bool
+void
 DecodeDemuxedSamples
 (
 TrackType

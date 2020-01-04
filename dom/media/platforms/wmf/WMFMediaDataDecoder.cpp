@@ -516,7 +516,7 @@ runnable
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -562,9 +562,6 @@ ProcessShutdown
 mIsShutDown
 =
 true
-;
-return
-NS_OK
 ;
 }
 void
@@ -619,7 +616,7 @@ decoder
 s
 pipeline
 .
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -686,9 +683,6 @@ forget
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -929,7 +923,7 @@ Flush
 ;
 }
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -985,9 +979,6 @@ runnable
 mIsFlushing
 =
 false
-;
-return
-NS_OK
 ;
 }
 void
@@ -1045,7 +1036,7 @@ DrainComplete
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -1085,9 +1076,6 @@ ProcessDrain
 )
 )
 ;
-return
-NS_OK
-;
 }
 bool
 WMFMediaDataDecoder
@@ -1120,7 +1108,7 @@ aFailureReason
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -1182,9 +1170,6 @@ forget
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void

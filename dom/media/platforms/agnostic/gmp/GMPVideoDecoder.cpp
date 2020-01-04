@@ -1963,7 +1963,7 @@ return
 promise
 ;
 }
-nsresult
+void
 GMPVideoDecoder
 :
 :
@@ -2008,7 +2008,6 @@ FATAL_ERROR
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 mAdapter
@@ -2051,7 +2050,6 @@ FATAL_ERROR
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 nsTArray
@@ -2108,15 +2106,9 @@ MediaDataDecoderError
 DECODE_ERROR
 )
 ;
-return
-rv
-;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 GMPVideoDecoder
 :
 :
@@ -2162,11 +2154,8 @@ FlushComplete
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 GMPVideoDecoder
 :
 :
@@ -2206,11 +2195,8 @@ DrainComplete
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 GMPVideoDecoder
 :
 :
@@ -2255,7 +2241,6 @@ mGMP
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 /
@@ -2281,9 +2266,6 @@ Close
 mGMP
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 }
