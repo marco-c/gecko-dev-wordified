@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_psm_OCSPRequestor_h
+OCSPRequestor_h
 #
 define
-mozilla_psm_OCSPRequestor_h
+OCSPRequestor_h
 #
 include
 "
@@ -159,8 +159,9 @@ arena
 Result
 DoOCSPRequest
 (
-PLArenaPool
-*
+const
+UniquePLArenaPool
+&
 arena
 const
 char
@@ -198,4 +199,4 @@ psm
 endif
 /
 /
-mozilla_psm_OCSPRequestor_h
+OCSPRequestor_h

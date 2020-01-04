@@ -2689,7 +2689,7 @@ to
 that
 list
 .
-ScopedPLArenaPool
+UniquePLArenaPool
 arena
 (
 PORT_NewArena
@@ -2766,7 +2766,7 @@ arena
 =
 arena
 .
-forget
+release
 (
 )
 ;

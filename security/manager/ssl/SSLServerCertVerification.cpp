@@ -6480,7 +6480,7 @@ false
 return
 ;
 }
-ScopedPLArenaPool
+UniquePLArenaPool
 arena
 (
 PORT_NewArena
@@ -6496,6 +6496,10 @@ subjectAltNames
 CERT_DecodeAltNameExtension
 (
 arena
+.
+get
+(
+)
 &
 altNameExtension
 )
