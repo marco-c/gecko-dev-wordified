@@ -565,6 +565,12 @@ MOZ_OBJDIR
     
 }
     
+AUTODETECT
+=
+object
+(
+)
+    
 def
 __init__
 (
@@ -1478,12 +1484,12 @@ to
 load
 .
 If
-it
+the
+given
+path
 is
-not
-defined
-we
         
+AUTODETECT
 will
 try
 to
@@ -1557,7 +1563,9 @@ structure
 if
 path
 is
-None
+self
+.
+AUTODETECT
 :
             
 path

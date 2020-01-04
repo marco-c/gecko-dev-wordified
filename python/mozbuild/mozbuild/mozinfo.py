@@ -80,12 +80,6 @@ import
 re
 import
 json
-import
-mozbuild
-.
-mozconfig
-as
-mozconfig
 def
 build_dict
 (
@@ -207,24 +201,10 @@ config
 .
 topsrcdir
     
-the_mozconfig
-=
-mozconfig
-.
-MozconfigLoader
-(
+if
 config
 .
-topsrcdir
-)
-.
-find_mozconfig
-(
-env
-)
-    
-if
-the_mozconfig
+mozconfig
 :
         
 d
@@ -234,7 +214,9 @@ mozconfig
 '
 ]
 =
-the_mozconfig
+config
+.
+mozconfig
     
 #
 os

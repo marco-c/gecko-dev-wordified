@@ -386,6 +386,22 @@ TOPOBJDIR
 '
 ]
     
+sanitized_config
+[
+'
+mozconfig
+'
+]
+=
+config
+.
+get
+(
+'
+MOZCONFIG
+'
+)
+    
 #
 Create
 config
@@ -653,6 +669,9 @@ non_global_defines
 '
 '
 substs
+'
+'
+mozconfig
 '
 ]
 "

@@ -423,6 +423,10 @@ None
 source
 =
 None
+                  
+mozconfig
+=
+None
 )
 :
     
@@ -935,9 +939,13 @@ non_global_defines
 substs
 =
 substs
+            
 source
 =
 source
+mozconfig
+=
+mozconfig
 )
     
 #

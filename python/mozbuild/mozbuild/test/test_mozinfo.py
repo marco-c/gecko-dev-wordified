@@ -1815,21 +1815,20 @@ flush
 (
 )
             
+c
+.
+mozconfig
+=
+mozconfig
+.
+name
+            
 write_mozinfo
 (
 self
 .
 f
 c
-{
-'
-MOZCONFIG
-'
-:
-mozconfig
-.
-name
-}
 )
             
 with

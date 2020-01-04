@@ -470,6 +470,12 @@ log_manager
 topobjdir
 =
 None
+                 
+mozconfig
+=
+MozconfigLoader
+.
+AUTODETECT
 )
 :
         
@@ -583,7 +589,7 @@ self
 .
 _mozconfig
 =
-None
+mozconfig
         
 self
 .
@@ -696,29 +702,6 @@ associated
 with
 that
 objdir
-.
-If
-no
-        
-mozconfig
-is
-associated
-with
-that
-objdir
-we
-fall
-back
-to
-looking
-for
-        
-the
-mozconfig
-in
-the
-usual
-places
 .
         
 If
@@ -852,7 +835,9 @@ None
         
 mozconfig
 =
-None
+MozconfigLoader
+.
+AUTODETECT
         
 def
 load_mozinfo
@@ -1482,6 +1467,10 @@ None
 topobjdir
 =
 topobjdir
+                   
+mozconfig
+=
+mozconfig
 )
     
 staticmethod
@@ -1750,7 +1739,9 @@ self
 .
 _mozconfig
 is
-None
+MozconfigLoader
+.
+AUTODETECT
 :
             
 loader
@@ -1770,6 +1761,11 @@ loader
 .
 read_mozconfig
 (
+path
+=
+self
+.
+_mozconfig
                 
 moz_build_app
 =

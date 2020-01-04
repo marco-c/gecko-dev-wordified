@@ -180,6 +180,12 @@ files
 =
 [
 ]
+        
+self
+.
+mozconfig
+=
+None
     
 classmethod
     
@@ -752,6 +758,9 @@ None
 source
 =
 None
+mozconfig
+=
+None
 )
 :
         
@@ -834,6 +843,21 @@ abspath
 (
 topobjdir
 )
+        
+self
+.
+mozconfig
+=
+mozpath
+.
+abspath
+(
+mozconfig
+)
+if
+mozconfig
+else
+None
         
 self
 .
