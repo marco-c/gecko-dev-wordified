@@ -847,11 +847,9 @@ replace
 )
     
 return
-1
-if
-results
-else
-0
+lint
+.
+return_code
 if
 __name__
 =

@@ -126,6 +126,10 @@ defaultdict
 list
 )
     
+return_code
+=
+0
+    
 while
 True
 :
@@ -221,6 +225,7 @@ IOError
             
 return
 results
+return_code
         
 #
 Ideally
@@ -319,6 +324,14 @@ tuple
 )
 )
 :
+            
+if
+res
+:
+                
+return_code
+=
+1
             
 continue
         
@@ -523,6 +536,12 @@ os
 getcwd
 (
 )
+        
+self
+.
+return_code
+=
+None
     
 def
 read
@@ -978,6 +997,12 @@ signal
 SIG_IGN
 )
         
+self
+.
+return_code
+=
+0
+        
 for
 worker
 in
@@ -995,15 +1020,32 @@ get
 (
 )
             
-for
-k
-v
-in
+results
+return_code
+=
 worker
 .
 get
 (
 )
+            
+if
+results
+or
+return_code
+:
+                
+self
+.
+return_code
+=
+1
+            
+for
+k
+v
+in
+results
 .
 iteritems
 (
