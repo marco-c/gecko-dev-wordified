@@ -473,6 +473,15 @@ Spread
 static
 const
 SetType
+AllSingleMask
+=
+AllPhysMask
+*
+SpreadSingle
+;
+static
+const
+SetType
 AllDoubleMask
 =
 AllPhysMask
