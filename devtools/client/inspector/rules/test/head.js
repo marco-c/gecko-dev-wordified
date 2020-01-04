@@ -215,13 +215,10 @@ js
 "
 ;
 const
-_STRINGS
+STYLE_INSPECTOR_L10N
 =
-Services
-.
-strings
-.
-createBundle
+new
+LocalizationHelper
 (
 "
 chrome
