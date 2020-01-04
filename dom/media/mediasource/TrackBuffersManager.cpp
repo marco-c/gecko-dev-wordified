@@ -12126,10 +12126,7 @@ mNextInsertionIndex
 =
 Some
 (
-size_t
-(
-0
-)
+0u
 )
 ;
 return
@@ -12212,10 +12209,13 @@ mNextInsertionIndex
 =
 Some
 (
+uint32_t
+(
 data
 .
 Length
 (
+)
 )
 )
 ;
@@ -12321,10 +12321,7 @@ mNextInsertionIndex
 =
 Some
 (
-size_t
-(
 i
-)
 )
 ;
 return
@@ -12924,7 +12921,7 @@ reset
 )
 ;
 }
-size_t
+uint32_t
 index
 =
 RemoveFrames
@@ -13384,7 +13381,7 @@ aHighestTime
 ;
 }
 }
-size_t
+uint32_t
 TrackBuffersManager
 :
 :
@@ -16232,7 +16229,7 @@ TrackInfo
 :
 TrackType
 aTrack
-size_t
+uint32_t
 aIndex
 const
 TimeUnit

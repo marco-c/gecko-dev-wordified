@@ -2139,7 +2139,7 @@ insertion
 .
 Maybe
 <
-size_t
+uint32_t
 >
 mNextInsertionIndex
 ;
@@ -2660,7 +2660,7 @@ frames
 /
 removed
 .
-size_t
+uint32_t
 RemoveFrames
 (
 const
@@ -2745,7 +2745,7 @@ TrackInfo
 :
 TrackType
 aTrack
-size_t
+uint32_t
 aIndex
 const
 media
