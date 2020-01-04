@@ -1477,6 +1477,11 @@ GetWindowList
 (
 )
 ;
+if
+(
+childWindows
+)
+{
 uint32_t
 length
 =
@@ -1659,6 +1664,7 @@ AppendElement
 name
 )
 ;
+}
 }
 }
 }
