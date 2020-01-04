@@ -3826,7 +3826,7 @@ nsDOMUserMediaStream
 (
 )
 {
-Stop
+StopImpl
 (
 )
 ;
