@@ -209,6 +209,10 @@ mDuration
 =
 WEBAUDIO_BLOCK_SIZE
 ;
+mBufferFormat
+=
+AUDIO_FORMAT_SILENCE
+;
 }
 /
 /
