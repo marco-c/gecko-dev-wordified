@@ -4630,7 +4630,9 @@ NumLit
 (
 Which
 w
+const
 Value
+&
 v
 )
 :
@@ -16071,7 +16073,9 @@ inline
 bool
 IsLiteralInt
 (
+const
 NumLit
+&
 lit
 uint32_t
 *
@@ -19311,7 +19315,9 @@ MOZ_MUST_USE
 bool
 writeConstExpr
 (
+const
 NumLit
+&
 lit
 )
 {
