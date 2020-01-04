@@ -215,10 +215,18 @@ unzip
 )
         
 #
-gcc
+GCC
+4
+.
+2
+or
+Clang
+3
+.
+4
 in
 base
-is
+are
 too
 old
         
@@ -236,7 +244,7 @@ self
 .
 version
 <
-9
+11
 :
             
 self
