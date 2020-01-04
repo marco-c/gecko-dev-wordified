@@ -23,13 +23,6 @@ js
 "
 )
 ;
-const
-CompileError
-=
-WebAssembly
-.
-CompileError
-;
 /
 /
 MagicNumber
@@ -693,7 +686,7 @@ toU8
 ]
 )
 )
-CompileError
+TypeError
 magicError
 )
 ;
@@ -712,7 +705,7 @@ toU8
 ]
 )
 )
-CompileError
+TypeError
 magicError
 )
 ;
@@ -733,7 +726,7 @@ magic2
 ]
 )
 )
-CompileError
+TypeError
 magicError
 )
 ;
@@ -755,7 +748,7 @@ toU8
 ]
 )
 )
-CompileError
+TypeError
 magicError
 )
 ;
@@ -777,7 +770,7 @@ magic3
 ]
 )
 )
-CompileError
+TypeError
 versionError
 (
 0x6d736100
@@ -803,7 +796,7 @@ magic3
 ]
 )
 )
-CompileError
+TypeError
 versionError
 (
 0x6d736100
@@ -829,7 +822,7 @@ ver0
 ]
 )
 )
-CompileError
+TypeError
 versionError
 (
 0x6d736100
@@ -857,7 +850,7 @@ ver2
 ]
 )
 )
-CompileError
+TypeError
 versionError
 (
 0x6d736100
@@ -937,7 +930,7 @@ typeId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -962,7 +955,7 @@ importId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -987,7 +980,7 @@ functionId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1012,7 +1005,7 @@ tableId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1037,7 +1030,7 @@ memoryId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1062,7 +1055,7 @@ globalId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1087,7 +1080,7 @@ exportId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1112,7 +1105,7 @@ startId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1137,7 +1130,7 @@ elemId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1162,7 +1155,7 @@ codeId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1187,7 +1180,7 @@ dataId
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1219,7 +1212,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 unknownSection
 )
 ;
@@ -1240,7 +1233,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 unknownSection
 )
 ;
@@ -1262,7 +1255,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 unknownSection
 )
 ;
@@ -1289,7 +1282,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1321,7 +1314,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1354,7 +1347,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1392,7 +1385,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1427,7 +1420,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -1467,7 +1460,7 @@ moduleHeaderThen
 )
 )
 )
-CompileError
+TypeError
 sectionError
 (
 "
@@ -2812,7 +2805,7 @@ U32MAX_LEB
 ]
 )
 )
-CompileError
+TypeError
 /
 too
 many
@@ -2845,7 +2838,7 @@ body
 ]
 )
 )
-CompileError
+TypeError
 /
 expected
 function
@@ -2882,7 +2875,7 @@ U32MAX_LEB
 ]
 )
 )
-CompileError
+TypeError
 /
 too
 many
@@ -2916,7 +2909,7 @@ body
 ]
 )
 )
-CompileError
+TypeError
 )
 ;
 assertThrowsInstanceOf
@@ -2945,7 +2938,7 @@ body
 ]
 )
 )
-CompileError
+TypeError
 )
 ;
 wasmEval
@@ -3036,7 +3029,7 @@ ret
 ]
 )
 )
-CompileError
+TypeError
 /
 bad
 type
@@ -3072,7 +3065,7 @@ VoidCode
 ]
 )
 )
-CompileError
+TypeError
 /
 bad
 type
@@ -3104,7 +3097,7 @@ declSection
 ]
 )
 )
-CompileError
+TypeError
 /
 signature
 index
@@ -3140,7 +3133,7 @@ declSection
 ]
 )
 )
-CompileError
+TypeError
 /
 signature
 index
@@ -3176,7 +3169,7 @@ declSection
 ]
 )
 )
-CompileError
+TypeError
 /
 expected
 function
@@ -3248,7 +3241,7 @@ v2vBody
 ]
 )
 )
-CompileError
+TypeError
 /
 byte
 size
@@ -3288,7 +3281,7 @@ body
 ]
 )
 )
-CompileError
+TypeError
 )
 ;
 assertErrorMessage
@@ -3325,7 +3318,7 @@ b
 ]
 )
 )
-CompileError
+TypeError
 /
 signature
 index
@@ -3375,7 +3368,7 @@ b
 ]
 )
 )
-CompileError
+TypeError
 /
 signature
 index
@@ -3538,7 +3531,7 @@ body
 ]
 )
 )
-CompileError
+TypeError
 /
 data
 section
@@ -3654,7 +3647,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 table
 element
@@ -3697,7 +3690,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 element
 segment
@@ -3740,7 +3733,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 element
 segment
@@ -3784,7 +3777,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 element
 segment
@@ -3826,7 +3819,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 element
 segment
@@ -3869,7 +3862,7 @@ elems
 ]
 )
 )
-CompileError
+TypeError
 /
 element
 segment
@@ -4024,7 +4017,7 @@ v2vBody
 ]
 )
 )
-CompileError
+TypeError
 /
 table
 element
@@ -4195,7 +4188,7 @@ invalidTableSection0
 ]
 )
 )
-CompileError
+TypeError
 /
 number
 of
@@ -4275,7 +4268,7 @@ invalidMemorySection0
 ]
 )
 )
-CompileError
+TypeError
 /
 number
 of
@@ -4349,7 +4342,7 @@ End
 ]
 )
 )
-CompileError
+TypeError
 bodyMismatch
 )
 ;
@@ -4399,7 +4392,7 @@ End
 ]
 )
 )
-CompileError
+TypeError
 bodyMismatch
 )
 ;
@@ -4449,7 +4442,7 @@ Unreachable
 ]
 )
 )
-CompileError
+TypeError
 bodyMismatch
 )
 ;
@@ -4785,7 +4778,7 @@ End
 ]
 )
 )
-CompileError
+TypeError
 /
 unknown
 block

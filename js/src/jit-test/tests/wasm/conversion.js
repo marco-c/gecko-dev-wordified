@@ -448,7 +448,13 @@ bad
 resultType
 )
 {
-wasmFailValidateText
+assertErrorMessage
+(
+(
+)
+=
+>
+wasmEvalText
 (
 (
 module
@@ -485,6 +491,8 @@ get_local
 )
 )
 )
+)
+TypeError
 mismatchError
 (
 resultType
@@ -501,7 +509,13 @@ bad
 paramType
 )
 {
-wasmFailValidateText
+assertErrorMessage
+(
+(
+)
+=
+>
+wasmEvalText
 (
 (
 module
@@ -538,6 +552,8 @@ get_local
 )
 )
 )
+)
+TypeError
 mismatchError
 (
 bad

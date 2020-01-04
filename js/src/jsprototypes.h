@@ -784,30 +784,8 @@ JSEXN_DEBUGGEEWOULDRUN
 \
 real
 (
-CompileError
-20
-InitViaClassSpec
-ERROR_CLASP
-(
-JSEXN_WASMCOMPILEERROR
-)
-)
-\
-real
-(
-RuntimeError
-21
-InitViaClassSpec
-ERROR_CLASP
-(
-JSEXN_WASMRUNTIMEERROR
-)
-)
-\
-real
-(
 Iterator
-22
+20
 InitLegacyIteratorClass
 OCLASP
 (
@@ -818,7 +796,7 @@ PropertyIterator
 real
 (
 StopIteration
-23
+21
 InitStopIterationClass
 OCLASP
 (
@@ -829,7 +807,7 @@ StopIteration
 real
 (
 ArrayBuffer
-24
+22
 InitArrayBufferClass
 &
 js
@@ -844,7 +822,7 @@ protoClass
 real
 (
 Int8Array
-25
+23
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -855,7 +833,7 @@ Int8
 real
 (
 Uint8Array
-26
+24
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -866,7 +844,7 @@ Uint8
 real
 (
 Int16Array
-27
+25
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -877,7 +855,7 @@ Int16
 real
 (
 Uint16Array
-28
+26
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -888,7 +866,7 @@ Uint16
 real
 (
 Int32Array
-29
+27
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -899,7 +877,7 @@ Int32
 real
 (
 Uint32Array
-30
+28
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -910,7 +888,7 @@ Uint32
 real
 (
 Float32Array
-31
+29
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -921,7 +899,7 @@ Float32
 real
 (
 Float64Array
-32
+30
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -932,7 +910,7 @@ Float64
 real
 (
 Uint8ClampedArray
-33
+31
 InitViaClassSpec
 TYPED_ARRAY_CLASP
 (
@@ -943,7 +921,7 @@ Uint8Clamped
 real
 (
 Proxy
-34
+32
 InitProxyClass
 js
 :
@@ -954,7 +932,7 @@ ProxyClassPtr
 real
 (
 WeakMap
-35
+33
 InitWeakMapClass
 OCLASP
 (
@@ -965,7 +943,7 @@ WeakMap
 real
 (
 Map
-36
+34
 InitMapClass
 OCLASP
 (
@@ -976,7 +954,7 @@ Map
 real
 (
 Set
-37
+35
 InitSetClass
 OCLASP
 (
@@ -987,7 +965,7 @@ Set
 real
 (
 DataView
-38
+36
 InitDataViewClass
 OCLASP
 (
@@ -998,7 +976,7 @@ DataView
 real
 (
 Symbol
-39
+37
 InitSymbolClass
 OCLASP
 (
@@ -1013,7 +991,7 @@ imaginary
 )
 (
 SharedArrayBuffer
-40
+38
 InitSharedArrayBufferClass
 &
 js
@@ -1032,7 +1010,7 @@ imaginary
 )
 (
 Intl
-41
+39
 InitIntlClass
 CLASP
 (
@@ -1047,7 +1025,7 @@ imaginary
 )
 (
 TypedObject
-42
+40
 InitTypedObjectModuleObject
 OCLASP
 (
@@ -1058,7 +1036,7 @@ TypedObjectModule
 real
 (
 Reflect
-43
+41
 InitReflect
 nullptr
 )
@@ -1070,7 +1048,7 @@ imaginary
 )
 (
 SIMD
-44
+42
 InitSimdClass
 OCLASP
 (
@@ -1081,7 +1059,7 @@ Simd
 real
 (
 WeakSet
-45
+43
 InitWeakSetClass
 OCLASP
 (
@@ -1092,7 +1070,7 @@ WeakSet
 real
 (
 TypedArray
-46
+44
 InitViaClassSpec
 &
 js
@@ -1111,7 +1089,7 @@ imaginary
 )
 (
 Atomics
-47
+45
 InitAtomicsClass
 OCLASP
 (
@@ -1122,7 +1100,7 @@ Atomics
 real
 (
 SavedFrame
-48
+46
 InitViaClassSpec
 &
 js
@@ -1137,7 +1115,7 @@ class_
 real
 (
 Wasm
-49
+47
 InitWasmClass
 CLASP
 (
@@ -1148,7 +1126,7 @@ Wasm
 real
 (
 WebAssembly
-50
+48
 InitWebAssemblyClass
 CLASP
 (
@@ -1159,7 +1137,7 @@ WebAssembly
 imaginary
 (
 WasmModule
-51
+49
 dummy
 dummy
 )
@@ -1167,7 +1145,7 @@ dummy
 imaginary
 (
 WasmInstance
-52
+50
 dummy
 dummy
 )
@@ -1175,7 +1153,7 @@ dummy
 imaginary
 (
 WasmMemory
-53
+51
 dummy
 dummy
 )
@@ -1183,7 +1161,7 @@ dummy
 imaginary
 (
 WasmTable
-54
+52
 dummy
 dummy
 )
@@ -1195,7 +1173,7 @@ imaginary
 )
 (
 Promise
-55
+53
 InitViaClassSpec
 OCLASP
 (
