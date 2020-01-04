@@ -440,6 +440,8 @@ test
 content
 inspection
 .
+Assert
+.
 ok
 (
 result
@@ -721,6 +723,8 @@ detected
 service
 and
 unavailable
+.
+Assert
 .
 ok
 (

@@ -292,7 +292,9 @@ Ci
 nsIWebNavigation
 )
 ;
-is
+Assert
+.
+equal
 (
 docShell
 .

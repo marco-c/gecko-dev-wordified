@@ -260,9 +260,6 @@ sites
 have
 been
 rendered
-let
-sitesLength
-=
 yield
 ContentTask
 .
@@ -278,7 +275,10 @@ function
 (
 )
 {
-return
+Assert
+.
+equal
+(
 content
 .
 document
@@ -292,14 +292,7 @@ site
 )
 .
 length
-;
-}
-)
-;
-is
-(
 0
-sitesLength
 "
 no
 sites
@@ -307,6 +300,9 @@ have
 been
 rendered
 "
+)
+;
+}
 )
 ;
 NewTabUtils

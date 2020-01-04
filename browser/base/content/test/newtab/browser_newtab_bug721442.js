@@ -194,7 +194,9 @@ link
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 link
 .

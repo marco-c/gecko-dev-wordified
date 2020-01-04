@@ -270,6 +270,8 @@ sanity
 tests
 /
 /
+Assert
+.
 ok
 (
 content
@@ -293,6 +295,8 @@ UI
 "
 )
 ;
+Assert
+.
 ok
 (
 '
@@ -356,6 +360,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 outerContainer
@@ -391,6 +397,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -473,7 +481,9 @@ pageNumber
 .
 value
 ;
-is
+Assert
+.
+equal
 (
 parseInt
 (
@@ -481,12 +491,12 @@ pgNumber
 10
 )
 1
-'
+"
 initial
 page
 is
 1
-'
+"
 )
 ;
 /
@@ -519,6 +529,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 viewBookmark

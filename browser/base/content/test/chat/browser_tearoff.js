@@ -594,7 +594,9 @@ testdiv
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 div
 .
@@ -760,7 +762,9 @@ testdiv
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 div
 .

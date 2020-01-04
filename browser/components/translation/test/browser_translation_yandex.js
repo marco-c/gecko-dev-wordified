@@ -413,6 +413,8 @@ translate
 (
 )
 ;
+Assert
+.
 ok
 (
 result

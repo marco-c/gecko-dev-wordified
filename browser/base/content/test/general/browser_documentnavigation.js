@@ -978,9 +978,6 @@ root
 element
 is
 focused
-let
-match
-=
 yield
 ContentTask
 .
@@ -996,7 +993,10 @@ function
 (
 )
 {
-return
+Assert
+.
+ok
+(
 content
 .
 document
@@ -1009,13 +1009,6 @@ content
 document
 .
 documentElement
-;
-}
-)
-;
-ok
-(
-match
 "
 basic
 focus
@@ -1030,6 +1023,9 @@ root
 is
 focused
 "
+)
+;
+}
 )
 ;
 }

@@ -576,6 +576,8 @@ opened
 with
 internal
 viewer
+Assert
+.
 ok
 (
 content
@@ -584,11 +586,11 @@ document
 .
 querySelector
 (
-'
+"
 div
 #
 viewer
-'
+"
 )
 "
 document
@@ -599,11 +601,13 @@ UI
 "
 )
 ;
+Assert
+.
 ok
 (
-'
+"
 PDFJS
-'
+"
 in
 content
 .
@@ -700,6 +704,8 @@ action
 selector
 )
 ;
+Assert
+.
 ok
 (
 el
@@ -927,7 +933,9 @@ toFixed
 %
 "
 ;
-is
+Assert
+.
+equal
 (
 computedZoomValue
 zoomValue
@@ -967,6 +975,8 @@ test
 .
 expectedZoom
 ;
+Assert
+.
 ok
 (
 zoom

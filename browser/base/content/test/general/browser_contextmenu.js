@@ -2705,7 +2705,9 @@ input
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -3242,6 +3244,8 @@ pagemenu
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -5914,6 +5918,8 @@ querySelector
 selector
 )
 ;
+Assert
+.
 ok
 (
 element

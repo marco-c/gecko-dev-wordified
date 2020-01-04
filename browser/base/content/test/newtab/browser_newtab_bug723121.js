@@ -125,7 +125,9 @@ aLocked
 aMessage
 )
 {
-is
+Assert
+.
+equal
 (
 grid
 .

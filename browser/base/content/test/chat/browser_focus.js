@@ -2572,7 +2572,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .

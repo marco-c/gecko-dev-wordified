@@ -306,7 +306,9 @@ function
 args
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -330,7 +332,9 @@ resource
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -352,7 +356,9 @@ resource
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .

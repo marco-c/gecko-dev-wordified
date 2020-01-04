@@ -248,6 +248,8 @@ pinned
 )
 )
 {
+Assert
+.
 ok
 (
 false

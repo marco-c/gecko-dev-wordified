@@ -170,7 +170,9 @@ content
 .
 gGrid
 ;
-isnot
+Assert
+.
+notEqual
 (
 _cellMargin
 null
@@ -184,7 +186,9 @@ margin
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 _cellHeight
 null
@@ -198,7 +202,9 @@ height
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 _cellWidth
 null
@@ -223,7 +229,9 @@ node
 .
 style
 ;
-isnot
+Assert
+.
+notEqual
 (
 height
 "
@@ -238,7 +246,9 @@ height
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 maxHeight
 "
@@ -255,7 +265,9 @@ height
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 maxWidth
 "

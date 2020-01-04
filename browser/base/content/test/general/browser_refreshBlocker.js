@@ -243,7 +243,9 @@ false
 true
 )
 ;
-is
+Assert
+.
+equal
 (
 refresher
 .
