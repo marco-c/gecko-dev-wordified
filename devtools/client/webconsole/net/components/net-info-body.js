@@ -423,7 +423,7 @@ return
 {
 tabActive
 :
-1
+0
 }
 ;
 }
@@ -489,6 +489,13 @@ state
 data
 ;
 return
+this
+.
+state
+.
+hasCookies
+|
+|
 NetUtils
 .
 getHeaderValue
@@ -510,6 +517,8 @@ response
 .
 headers
 "
+Set
+-
 Cookie
 "
 )
