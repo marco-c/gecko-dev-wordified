@@ -673,10 +673,9 @@ arguments
 /
 Turn
 on
-warnings
--
-as
--
+throwing
+on
+validation
 errors
 var
 oldOpts
@@ -684,7 +683,7 @@ oldOpts
 options
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 ;
@@ -695,7 +694,7 @@ oldOpts
 indexOf
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 -
@@ -823,7 +822,7 @@ off
 options
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 ;
