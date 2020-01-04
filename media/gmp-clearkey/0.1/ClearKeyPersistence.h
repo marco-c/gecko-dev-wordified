@@ -188,6 +188,13 @@ aCreateSessionToken
 uint32_t
 aPromiseId
 const
+std
+:
+:
+string
+&
+aInitDataType
+const
 uint8_t
 *
 aInitData
