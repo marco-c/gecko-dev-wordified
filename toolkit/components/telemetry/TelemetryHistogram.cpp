@@ -1435,9 +1435,13 @@ false
 ;
 bool
 gCanRecordBase
+=
+false
 ;
 bool
 gCanRecordExtended
+=
+false
 ;
 HistogramMapType
 gHistogramMap
