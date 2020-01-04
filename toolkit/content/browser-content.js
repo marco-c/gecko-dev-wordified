@@ -2024,6 +2024,9 @@ ev
 )
 ;
 }
+return
+undefined
+;
 }
 onPopupBlocked
 :
@@ -4182,6 +4185,9 @@ return
 false
 ;
 }
+return
+undefined
+;
 }
 _onMouseup
 (

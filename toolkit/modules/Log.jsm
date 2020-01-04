@@ -2190,7 +2190,6 @@ if
 params
 )
 {
-return
 this
 .
 log
@@ -2207,6 +2206,8 @@ action
 action
 }
 )
+;
+return
 ;
 }
 if
@@ -3683,6 +3684,9 @@ join
 )
 ;
 }
+return
+undefined
+;
 }
 format
 :
@@ -5496,6 +5500,9 @@ array
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;
@@ -5748,6 +5755,9 @@ formatted
 ;
 }
 )
+;
+return
+undefined
 ;
 }
 reset

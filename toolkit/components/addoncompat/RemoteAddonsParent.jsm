@@ -758,6 +758,9 @@ this
 _paths
 ;
 }
+return
+undefined
+;
 }
 }
 ;
@@ -1116,6 +1119,9 @@ objects
 break
 ;
 }
+return
+undefined
+;
 }
 shouldLoad
 :
@@ -1782,6 +1788,9 @@ msg
 break
 ;
 }
+return
+undefined
+;
 }
 getURIFlags
 :
@@ -1850,6 +1859,9 @@ reportError
 (
 e
 )
+;
+return
+undefined
 ;
 }
 }
@@ -2122,6 +2134,9 @@ reportError
 (
 e
 )
+;
+return
+undefined
 ;
 }
 }

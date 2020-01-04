@@ -2011,6 +2011,9 @@ _notifyMatchesCount
 result
 )
 ;
+return
+undefined
+;
 }
 /
 *

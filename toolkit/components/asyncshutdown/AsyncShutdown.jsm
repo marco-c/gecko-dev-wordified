@@ -1608,7 +1608,6 @@ if
 DEBUG_LOG
 )
 {
-return
 log
 (
 msg
@@ -1630,7 +1629,6 @@ error
 null
 )
 {
-return
 log
 (
 msg
@@ -1651,7 +1649,6 @@ error
 null
 )
 {
-return
 log
 (
 msg

@@ -382,6 +382,9 @@ nsIAppStartup
 eRestart
 )
 ;
+return
+undefined
+;
 }
 /
 *

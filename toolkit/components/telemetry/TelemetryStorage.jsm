@@ -4618,6 +4618,9 @@ add
 (
 )
 ;
+return
+undefined
+;
 }
 )
 /
@@ -7429,6 +7432,9 @@ _enforcePendingPingsQuotaTask
 null
 ;
 }
+return
+undefined
+;
 }
 )
 /
@@ -10286,6 +10292,9 @@ _removePendingPingsTask
 null
 ;
 }
+return
+undefined
+;
 }
 )
 removePendingPings

@@ -3336,6 +3336,9 @@ dir
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;

@@ -206,6 +206,9 @@ i
 ;
 }
 }
+return
+undefined
+;
 }
 function
 newQueryWithOptions

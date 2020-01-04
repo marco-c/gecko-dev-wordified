@@ -1569,6 +1569,9 @@ filePath
 ;
 }
 }
+return
+undefined
+;
 }
 .
 bind

@@ -3296,6 +3296,9 @@ _onSchedulerTick
 break
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -13486,6 +13489,9 @@ options
 break
 ;
 }
+return
+undefined
+;
 }
 /
 *

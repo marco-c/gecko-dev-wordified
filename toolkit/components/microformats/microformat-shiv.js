@@ -6120,6 +6120,9 @@ dateFormat
 )
 ;
 }
+return
+undefined
+;
 }
 else
 {

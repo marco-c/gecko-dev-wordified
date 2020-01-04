@@ -1166,6 +1166,9 @@ windowID
 browser
 )
 ;
+return
+undefined
+;
 }
 /
 *
@@ -3129,6 +3132,9 @@ break
 ;
 }
 }
+return
+undefined
+;
 }
 setPrinterDefaultsForSelectedPrinter
 :
