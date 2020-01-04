@@ -87,6 +87,9 @@ static
 bool
 WriteValidBytes
 (
+js
+:
+:
 wasm
 :
 :
@@ -231,6 +234,10 @@ BEGIN_TEST
 testWasmLEB128_encoding
 )
 {
+using
+namespace
+js
+;
 using
 namespace
 wasm
@@ -399,6 +406,10 @@ BEGIN_TEST
 testWasmLEB128_valid_decoding
 )
 {
+using
+namespace
+js
+;
 using
 namespace
 wasm
@@ -707,6 +718,10 @@ BEGIN_TEST
 testWasmLEB128_invalid_decoding
 )
 {
+using
+namespace
+js
+;
 using
 namespace
 wasm
