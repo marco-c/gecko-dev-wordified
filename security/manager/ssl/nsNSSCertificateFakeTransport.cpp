@@ -196,9 +196,8 @@ nsNSSCertificateFakeTransport
 :
 GetDbKey
 (
-char
-*
-*
+nsACString
+&
 )
 {
 NS_NOTREACHED
