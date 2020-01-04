@@ -2910,6 +2910,13 @@ aEventTypeArg
 )
 ;
 }
+mEvent
+-
+>
+SetDefaultComposedInNativeAnonymousContent
+(
+)
+;
 }
 void
 Event
