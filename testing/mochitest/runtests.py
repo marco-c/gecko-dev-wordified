@@ -19951,27 +19951,6 @@ runByDir
 True
     
 if
-mozinfo
-.
-info
-[
-'
-asan
-'
-]
-and
-options
-.
-e10s
-:
-        
-options
-.
-runByDir
-=
-False
-    
-if
 runner
 .
 getTestFlavor
