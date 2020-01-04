@@ -3146,7 +3146,7 @@ XP_DARWIN
 if
 defined
 (
-JS_CODEGEN_X64
+JS_CPU_X64
 )
 struct
 macos_x64_context
@@ -3167,7 +3167,7 @@ macos_x64_context
 elif
 defined
 (
-JS_CODEGEN_X86
+JS_CPU_X86
 )
 struct
 macos_x86_context
@@ -3188,7 +3188,7 @@ macos_x86_context
 elif
 defined
 (
-JS_CODEGEN_ARM
+JS_CPU_ARM
 )
 struct
 macos_arm_context
@@ -7655,7 +7655,7 @@ context
 if
 defined
 (
-JS_CODEGEN_X64
+JS_CPU_X64
 )
 unsigned
 int
@@ -7683,7 +7683,7 @@ x86_FLOAT_STATE64
 elif
 defined
 (
-JS_CODEGEN_X86
+JS_CPU_X86
 )
 unsigned
 int
@@ -7711,7 +7711,7 @@ x86_FLOAT_STATE
 elif
 defined
 (
-JS_CODEGEN_ARM
+JS_CPU_ARM
 )
 unsigned
 int
@@ -10117,6 +10117,9 @@ JS_SIMULATOR
 void
 )
 ContextToPC
+(
+context
+)
 ;
 /
 /
