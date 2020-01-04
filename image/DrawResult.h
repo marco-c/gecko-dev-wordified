@@ -424,7 +424,6 @@ draw
 /
 enum
 class
-MOZ_MUST_USE
 DrawResult
 :
 uint8_t
