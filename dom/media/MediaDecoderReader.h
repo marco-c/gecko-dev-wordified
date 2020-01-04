@@ -3270,9 +3270,6 @@ a
 seek
 .
 bool
-mAudioDiscontinuity
-;
-bool
 mVideoDiscontinuity
 ;
 Canonical
