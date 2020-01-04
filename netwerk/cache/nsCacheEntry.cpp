@@ -2108,6 +2108,14 @@ mKey
 fallible
 )
 ;
+if
+(
+!
+hashEntry
+)
+return
+NS_ERROR_FAILURE
+;
 #
 ifndef
 DEBUG_dougt
