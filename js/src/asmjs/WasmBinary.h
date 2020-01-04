@@ -2534,8 +2534,11 @@ byte
 byte
 &
 (
+unsigned
+(
 -
 1
+)
 <
 <
 remainderBits
