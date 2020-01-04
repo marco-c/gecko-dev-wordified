@@ -3910,7 +3910,7 @@ session
                                   
 test
 .
-path
+abs_path
                                   
 timeout
 )
