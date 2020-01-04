@@ -2652,7 +2652,10 @@ edges
 wantNames
 )
 ;
-JS_TraceRuntime
+js
+:
+:
+TraceRuntime
 (
 &
 tracer
@@ -2702,7 +2705,10 @@ allRootEdges
 wantNames
 )
 ;
-JS_TraceRuntime
+js
+:
+:
+TraceRuntime
 (
 &
 tracer
