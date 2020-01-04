@@ -805,6 +805,17 @@ REVOKE_SLOT
 =
 0
 ;
+static
+JSObject
+*
+handlerObject
+(
+const
+JSObject
+*
+proxy
+)
+;
 }
 ;
 bool
