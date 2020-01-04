@@ -5412,7 +5412,7 @@ char
 aName
 void
 *
-stackTop
+aGuessStackTop
 )
 {
 if
@@ -5518,6 +5518,15 @@ isMainThread
 is_main_thread_name
 (
 aName
+)
+;
+void
+*
+stackTop
+=
+GetStackTop
+(
+aGuessStackTop
 )
 ;
 return

@@ -836,13 +836,13 @@ char
 name
 void
 *
-stackTop
+guessStackTop
 )
 {
 mozilla_sampler_register_thread
 (
 name
-stackTop
+guessStackTop
 )
 ;
 }
