@@ -290,6 +290,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -429,6 +430,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -527,6 +529,7 @@ Compiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -709,6 +712,7 @@ protected
 HandleObject
 obj_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -841,6 +845,7 @@ protected
 HandleObjectGroup
 group_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -961,6 +966,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1065,6 +1071,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1169,6 +1176,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1273,6 +1281,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1377,6 +1386,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1481,6 +1491,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1591,6 +1602,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -1798,6 +1810,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -3277,6 +3290,7 @@ getter_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 emitCheckKey
 (
@@ -3288,6 +3302,7 @@ Label
 failure
 )
 ;
+MOZ_MUST_USE
 bool
 emitCallNative
 (
@@ -3298,6 +3313,7 @@ Register
 objReg
 )
 ;
+MOZ_MUST_USE
 bool
 emitCallScripted
 (
@@ -3308,6 +3324,7 @@ Register
 objReg
 )
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -3994,6 +4011,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -4138,6 +4156,7 @@ shape_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -4331,6 +4350,7 @@ elementType_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -4558,6 +4578,7 @@ layout_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -4809,6 +4830,7 @@ which_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5006,6 +5028,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5164,6 +5187,7 @@ group_
 JSValueType
 unboxedType_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5712,6 +5736,7 @@ protoChainDepth_
 JSValueType
 unboxedType_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6032,6 +6057,7 @@ expectOutOfBounds_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6247,6 +6273,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6594,6 +6621,7 @@ holder_
 RootedPropertyName
 name_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7093,6 +7121,7 @@ protoChainDepth_
 )
 ;
 }
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7223,6 +7252,7 @@ shape_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7383,6 +7413,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7540,6 +7571,7 @@ slot_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7860,6 +7892,7 @@ offset_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8045,6 +8078,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8147,6 +8181,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8305,6 +8340,7 @@ Compiler
 public
 ICStubCompiler
 {
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8511,6 +8547,7 @@ protected
 uint32_t
 returnOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8802,6 +8839,7 @@ UnboxedPlainObject
 )
 ;
 }
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -9300,6 +9338,7 @@ protoChainDepth_
 )
 ;
 }
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -9607,6 +9646,7 @@ fieldOffset_
 JSValueType
 fieldType_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -9941,6 +9981,7 @@ SimpleTypeDescr
 >
 fieldDescr_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -10731,6 +10772,7 @@ Compiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -10916,6 +10958,7 @@ Compiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11449,6 +11492,7 @@ isSpread_
 uint32_t
 returnOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11883,6 +11927,7 @@ templateObject_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -12278,6 +12323,7 @@ templateObject_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -12609,6 +12655,7 @@ templateObject_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -12892,6 +12939,7 @@ firstMonitorStub_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -13090,6 +13138,7 @@ firstMonitorStub_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -13312,6 +13361,7 @@ firstMonitorStub_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -13580,6 +13630,7 @@ expectedSep_
 RootedObject
 templateObject_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -13747,6 +13798,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -13927,6 +13979,7 @@ Compiler
 public
 ICStubCompiler
 {
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14032,6 +14085,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14170,6 +14224,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14281,6 +14336,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14385,6 +14441,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14524,6 +14581,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14707,6 +14765,7 @@ slot_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14836,6 +14895,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -14970,6 +15030,7 @@ type_
 RootedString
 typeString_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -15151,6 +15212,7 @@ protected
 RootedArrayObject
 templateObject
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -15279,6 +15341,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -15450,6 +15513,7 @@ uint8_t
 *
 addr_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (

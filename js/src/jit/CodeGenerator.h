@@ -362,6 +362,7 @@ bailout
 true
 )
 ;
+MOZ_MUST_USE
 bool
 generateBody
 (
@@ -403,11 +404,13 @@ CodeGenerator
 ;
 public
 :
+MOZ_MUST_USE
 bool
 generate
 (
 )
 ;
+MOZ_MUST_USE
 bool
 generateAsmJS
 (
@@ -419,6 +422,7 @@ FuncOffsets
 offsets
 )
 ;
+MOZ_MUST_USE
 bool
 link
 (
@@ -430,6 +434,7 @@ CompilerConstraintList
 constraints
 )
 ;
+MOZ_MUST_USE
 bool
 linkSharedStubs
 (
@@ -3277,6 +3282,7 @@ jsbytecode
 profilerLeavePc
 )
 ;
+MOZ_MUST_USE
 bool
 generateBranchV
 (

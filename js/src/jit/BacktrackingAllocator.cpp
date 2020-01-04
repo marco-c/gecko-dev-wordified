@@ -11055,6 +11055,9 @@ preferring
 a
 register
 .
+if
+(
+!
 hint
 -
 >
@@ -11068,6 +11071,9 @@ Requirement
 REGISTER
 )
 )
+)
+return
+false
 ;
 }
 }

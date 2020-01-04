@@ -177,6 +177,7 @@ graph
 {
 }
 virtual
+MOZ_MUST_USE
 bool
 analyze
 (

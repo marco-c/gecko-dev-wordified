@@ -135,6 +135,7 @@ MIRGenerator
 class
 MIRGraph
 ;
+MOZ_MUST_USE
 bool
 EagerSimdUnbox
 (

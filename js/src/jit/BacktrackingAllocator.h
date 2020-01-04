@@ -534,6 +534,7 @@ priority
 )
 const
 ;
+MOZ_MUST_USE
 bool
 merge
 (
@@ -2260,6 +2261,7 @@ alloc
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addSpilledBundle
 (
@@ -2683,6 +2685,7 @@ LiveRange
 range
 )
 ;
+MOZ_MUST_USE
 bool
 addRange
 (
@@ -2697,6 +2700,7 @@ CodePosition
 to
 )
 ;
+MOZ_MUST_USE
 bool
 addRangeAndDistributeUses
 (
@@ -3315,6 +3319,7 @@ bundle
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addInitialRange
 (
@@ -3822,6 +3827,7 @@ nullptr
 )
 {
 }
+MOZ_MUST_USE
 bool
 go
 (
@@ -3854,16 +3860,19 @@ LiveBundleVector
 Liveness
 methods
 .
+MOZ_MUST_USE
 bool
 init
 (
 )
 ;
+MOZ_MUST_USE
 bool
 buildLivenessInfo
 (
 )
 ;
+MOZ_MUST_USE
 bool
 addInitialFixedRange
 (
@@ -3939,6 +3948,7 @@ virtualRegister
 Allocation
 methods
 .
+MOZ_MUST_USE
 bool
 tryMergeBundles
 (
@@ -3950,6 +3960,7 @@ LiveBundle
 bundle1
 )
 ;
+MOZ_MUST_USE
 bool
 tryMergeReusedRegister
 (
@@ -3961,11 +3972,13 @@ VirtualRegister
 input
 )
 ;
+MOZ_MUST_USE
 bool
 mergeAndQueueRegisters
 (
 )
 ;
+MOZ_MUST_USE
 bool
 tryAllocateFixed
 (
@@ -3985,6 +3998,7 @@ LiveBundleVector
 conflicting
 )
 ;
+MOZ_MUST_USE
 bool
 tryAllocateNonFixed
 (
@@ -4006,6 +4020,7 @@ LiveBundleVector
 conflicting
 )
 ;
+MOZ_MUST_USE
 bool
 processBundle
 (
@@ -4014,6 +4029,7 @@ LiveBundle
 bundle
 )
 ;
+MOZ_MUST_USE
 bool
 computeRequirement
 (
@@ -4028,6 +4044,7 @@ Requirement
 phint
 )
 ;
+MOZ_MUST_USE
 bool
 tryAllocateRegister
 (
@@ -4048,6 +4065,7 @@ LiveBundleVector
 conflicting
 )
 ;
+MOZ_MUST_USE
 bool
 evictBundle
 (
@@ -4056,6 +4074,7 @@ LiveBundle
 bundle
 )
 ;
+MOZ_MUST_USE
 bool
 splitAndRequeueBundles
 (
@@ -4068,6 +4087,7 @@ LiveBundleVector
 newBundles
 )
 ;
+MOZ_MUST_USE
 bool
 spill
 (
@@ -4112,6 +4132,7 @@ LiveRange
 range
 )
 ;
+MOZ_MUST_USE
 bool
 pickStackSlot
 (
@@ -4120,6 +4141,7 @@ SpillSet
 spill
 )
 ;
+MOZ_MUST_USE
 bool
 insertAllRanges
 (
@@ -4136,31 +4158,37 @@ bundle
 Reification
 methods
 .
+MOZ_MUST_USE
 bool
 pickStackSlots
 (
 )
 ;
+MOZ_MUST_USE
 bool
 resolveControlFlow
 (
 )
 ;
+MOZ_MUST_USE
 bool
 reifyAllocations
 (
 )
 ;
+MOZ_MUST_USE
 bool
 populateSafepoints
 (
 )
 ;
+MOZ_MUST_USE
 bool
 annotateMoveGroups
 (
 )
 ;
+MOZ_MUST_USE
 bool
 deadRange
 (
@@ -4196,6 +4224,7 @@ LiveRange
 range
 )
 ;
+MOZ_MUST_USE
 bool
 addMove
 (
@@ -4265,6 +4294,7 @@ type
 )
 ;
 }
+MOZ_MUST_USE
 bool
 moveInput
 (
@@ -4333,6 +4363,7 @@ type
 )
 ;
 }
+MOZ_MUST_USE
 bool
 moveAfter
 (
@@ -4401,6 +4432,7 @@ type
 )
 ;
 }
+MOZ_MUST_USE
 bool
 moveAtExit
 (
@@ -4474,6 +4506,7 @@ type
 )
 ;
 }
+MOZ_MUST_USE
 bool
 moveAtEntry
 (
@@ -4625,6 +4658,7 @@ LiveBundleVector
 bundles
 )
 ;
+MOZ_MUST_USE
 bool
 chooseBundleSplit
 (
@@ -4638,6 +4672,7 @@ LiveBundle
 conflict
 )
 ;
+MOZ_MUST_USE
 bool
 splitAt
 (
@@ -4650,6 +4685,7 @@ SplitPositionVector
 splitPositions
 )
 ;
+MOZ_MUST_USE
 bool
 trySplitAcrossHotcode
 (
@@ -4661,6 +4697,7 @@ bool
 success
 )
 ;
+MOZ_MUST_USE
 bool
 trySplitAfterLastRegisterUse
 (
@@ -4675,6 +4712,7 @@ bool
 success
 )
 ;
+MOZ_MUST_USE
 bool
 trySplitBeforeFirstRegisterUse
 (
@@ -4689,6 +4727,7 @@ bool
 success
 )
 ;
+MOZ_MUST_USE
 bool
 splitAcrossCalls
 (

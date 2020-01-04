@@ -114,6 +114,15 @@ jit_AlignmentMaskAnalysis_h
 #
 define
 jit_AlignmentMaskAnalysis_h
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 js
 {
@@ -146,6 +155,7 @@ graph
 )
 {
 }
+MOZ_MUST_USE
 bool
 analyze
 (

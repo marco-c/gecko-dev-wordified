@@ -2429,6 +2429,7 @@ the
 attachKind
 string
 .
+MOZ_MUST_USE
 bool
 linkAndAttachStub
 (
@@ -3349,6 +3350,7 @@ proper
 stub
 if
 possible
+MOZ_MUST_USE
 bool
 tryAttachStub
 (
@@ -3369,6 +3371,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachProxy
 (
@@ -3392,6 +3395,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachGenericProxy
 (
@@ -3415,6 +3419,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachDOMProxyShadowed
 (
@@ -3438,6 +3443,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachDOMProxyUnshadowed
 (
@@ -3463,6 +3469,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachNative
 (
@@ -3486,6 +3493,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxed
 (
@@ -3509,6 +3517,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxedExpando
 (
@@ -3532,6 +3541,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxedArrayLength
 (
@@ -3555,6 +3565,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachTypedArrayLength
 (
@@ -3575,6 +3586,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachArgumentsLength
 (
@@ -3595,6 +3607,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachArgumentsElement
 (
@@ -3615,6 +3628,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachDenseElement
 (
@@ -3648,6 +3662,7 @@ TypedOrValueRegister
 output
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachDenseElementHole
 (
@@ -3683,6 +3698,7 @@ TypedOrValueRegister
 output
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachTypedOrUnboxedArrayElement
 (
@@ -3703,6 +3719,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachModuleNamespace
 (
@@ -3727,6 +3744,7 @@ emitted
 )
 ;
 static
+MOZ_MUST_USE
 bool
 update
 (
@@ -4083,6 +4101,7 @@ MaybeCanAttachAddSlot
 CanAttachCallSetter
 }
 ;
+MOZ_MUST_USE
 bool
 attachSetSlot
 (
@@ -4102,6 +4121,7 @@ bool
 checkTypeset
 )
 ;
+MOZ_MUST_USE
 bool
 attachCallSetter
 (
@@ -4124,6 +4144,7 @@ void
 returnAddr
 )
 ;
+MOZ_MUST_USE
 bool
 attachAddSlot
 (
@@ -4147,6 +4168,7 @@ bool
 checkTypeset
 )
 ;
+MOZ_MUST_USE
 bool
 attachGenericProxy
 (
@@ -4165,6 +4187,7 @@ void
 returnAddr
 )
 ;
+MOZ_MUST_USE
 bool
 attachDOMProxyShadowed
 (
@@ -4185,6 +4208,7 @@ void
 returnAddr
 )
 ;
+MOZ_MUST_USE
 bool
 attachDOMProxyUnshadowed
 (
@@ -4206,6 +4230,7 @@ returnAddr
 )
 ;
 static
+MOZ_MUST_USE
 bool
 update
 (
@@ -4224,6 +4249,7 @@ HandleValue
 value
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachNative
 (
@@ -4247,6 +4273,7 @@ bool
 tryNativeAddSlot
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxed
 (
@@ -4267,6 +4294,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxedExpando
 (
@@ -4287,6 +4315,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachProxy
 (
@@ -4307,6 +4336,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachStub
 (
@@ -4334,6 +4364,7 @@ bool
 tryNativeAddSlot
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachAddSlot
 (
@@ -4360,6 +4391,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachDenseElement
 (
@@ -4382,6 +4414,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachTypedArrayElement
 (
@@ -4492,6 +4525,7 @@ return
 output_
 ;
 }
+MOZ_MUST_USE
 bool
 attachGlobal
 (
@@ -4507,6 +4541,7 @@ HandleObject
 scopeChain
 )
 ;
+MOZ_MUST_USE
 bool
 attachNonGlobal
 (
@@ -4682,6 +4717,7 @@ return
 typeOf_
 ;
 }
+MOZ_MUST_USE
 bool
 attachReadSlot
 (
@@ -4703,6 +4739,7 @@ HandleShape
 shape
 )
 ;
+MOZ_MUST_USE
 bool
 attachCallGetter
 (
@@ -4727,6 +4764,7 @@ void
 returnAddr
 )
 ;
+MOZ_MUST_USE
 bool
 attachTypeOfNoProperty
 (
@@ -4743,6 +4781,7 @@ scopeChain
 )
 ;
 static
+MOZ_MUST_USE
 bool
 update
 (

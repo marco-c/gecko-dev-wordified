@@ -157,6 +157,7 @@ MIRGenerator
 class
 MIRGraph
 ;
+MOZ_MUST_USE
 bool
 PruneUnusedBranches
 (
@@ -168,6 +169,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 FoldTests
 (
@@ -176,6 +178,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 SplitCriticalEdges
 (
@@ -191,6 +194,7 @@ ConservativeObservability
 AggressiveObservability
 }
 ;
+MOZ_MUST_USE
 bool
 EliminatePhis
 (
@@ -229,6 +233,7 @@ MBasicBlock
 header
 )
 ;
+MOZ_MUST_USE
 bool
 MakeLoopsContiguous
 (
@@ -237,6 +242,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 EliminateDeadResumePointOperands
 (
@@ -248,6 +254,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 EliminateDeadCode
 (
@@ -259,6 +266,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 ApplyTypeInformation
 (
@@ -270,6 +278,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 MakeMRegExpHoistable
 (
@@ -286,6 +295,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 AccountForCFGChanges
 (
@@ -303,6 +313,7 @@ underValueNumberer
 false
 )
 ;
+MOZ_MUST_USE
 bool
 RemoveUnmarkedBlocks
 (
@@ -324,6 +335,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 BuildDominatorTree
 (
@@ -332,6 +344,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 BuildPhiReverseMapping
 (
@@ -368,6 +381,7 @@ underValueNumberer
 false
 )
 ;
+MOZ_MUST_USE
 bool
 EliminateRedundantChecks
 (
@@ -376,6 +390,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 AddKeepAliveInstructions
 (
@@ -444,6 +459,7 @@ MDefinition
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 ExtractLinearInequality
 (
@@ -614,6 +630,7 @@ not
 be
 used
 .
+MOZ_MUST_USE
 bool
 multiply
 (
@@ -621,6 +638,7 @@ int32_t
 scale
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -634,6 +652,7 @@ scale
 1
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -645,6 +664,7 @@ scale
 1
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -655,6 +675,7 @@ int32_t
 scale
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -684,6 +705,7 @@ still
 be
 used
 .
+MOZ_MUST_USE
 bool
 divide
 (
@@ -870,6 +892,7 @@ LinearSum
 sum
 )
 ;
+MOZ_MUST_USE
 bool
 AnalyzeNewScriptDefiniteProperties
 (
@@ -895,6 +918,7 @@ Initializer
 initializerList
 )
 ;
+MOZ_MUST_USE
 bool
 AnalyzeArgumentsUsage
 (

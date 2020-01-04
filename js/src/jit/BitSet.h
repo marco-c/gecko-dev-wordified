@@ -329,6 +329,7 @@ numBits
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (

@@ -3289,6 +3289,7 @@ code_
 ;
 public
 :
+MOZ_MUST_USE
 bool
 init
 (
@@ -3705,6 +3706,7 @@ victim
 ;
 }
 }
+MOZ_MUST_USE
 bool
 init
 (

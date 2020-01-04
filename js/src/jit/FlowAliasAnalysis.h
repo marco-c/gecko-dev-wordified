@@ -226,6 +226,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 analyze
 (
@@ -241,6 +242,7 @@ instructions
 .
 *
 /
+MOZ_MUST_USE
 bool
 processStore
 (
@@ -252,6 +254,7 @@ MDefinition
 store
 )
 ;
+MOZ_MUST_USE
 bool
 processLoad
 (
@@ -263,6 +266,7 @@ MDefinition
 load
 )
 ;
+MOZ_MUST_USE
 bool
 processDeferredLoads
 (
@@ -280,6 +284,7 @@ helpers
 .
 *
 /
+MOZ_MUST_USE
 bool
 improveDependency
 (
@@ -294,6 +299,7 @@ MDefinitionVector
 outputStores
 )
 ;
+MOZ_MUST_USE
 bool
 improveNonAliasedStores
 (
@@ -315,6 +321,7 @@ onlyControlInstructions
 false
 )
 ;
+MOZ_MUST_USE
 bool
 improveStoresInFinishedLoops
 (
@@ -329,6 +336,7 @@ bool
 improved
 )
 ;
+MOZ_MUST_USE
 bool
 improveLoopDependency
 (
@@ -343,6 +351,7 @@ MDefinitionVector
 outputStores
 )
 ;
+MOZ_MUST_USE
 bool
 deferImproveDependency
 (
@@ -370,6 +379,7 @@ MDefinitionVector
 dependencies
 )
 ;
+MOZ_MUST_USE
 bool
 saveStoreDependency
 (
@@ -388,6 +398,7 @@ functions
 .
 *
 /
+MOZ_MUST_USE
 bool
 computeBlockStores
 (
@@ -396,6 +407,7 @@ MBasicBlock
 block
 )
 ;
+MOZ_MUST_USE
 bool
 isLoopInvariant
 (

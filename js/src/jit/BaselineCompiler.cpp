@@ -14428,10 +14428,16 @@ isMagic
 JS_UNINITIALIZED_LEXICAL
 )
 )
+if
+(
+!
 emitUninitializedLexicalCheck
 (
 R0
 )
+)
+return
+false
 ;
 if
 (

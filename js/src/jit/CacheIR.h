@@ -2591,6 +2591,7 @@ NotePreliminary
 PreliminaryObjectAction
 preliminaryObjectAction_
 ;
+MOZ_MUST_USE
 bool
 tryAttachNative
 (
@@ -2603,6 +2604,7 @@ ObjOperandId
 objId
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxed
 (
@@ -2615,6 +2617,7 @@ ObjOperandId
 objId
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachUnboxedExpando
 (
@@ -2627,6 +2630,7 @@ ObjOperandId
 objId
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachTypedObject
 (
@@ -2639,6 +2643,7 @@ ObjOperandId
 objId
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachObjectLength
 (
@@ -2651,6 +2656,7 @@ ObjOperandId
 objId
 )
 ;
+MOZ_MUST_USE
 bool
 tryAttachModuleNamespace
 (
@@ -2712,6 +2718,7 @@ return
 emitted_
 ;
 }
+MOZ_MUST_USE
 bool
 tryAttachStub
 (

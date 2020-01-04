@@ -964,6 +964,7 @@ spIndex
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (

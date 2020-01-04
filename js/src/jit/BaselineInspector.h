@@ -484,6 +484,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 dimorphicStub
 (
@@ -521,6 +522,7 @@ JitAllocPolicy
 >
 ObjectGroupVector
 ;
+MOZ_MUST_USE
 bool
 maybeInfoForPropertyOp
 (
@@ -632,6 +634,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 isOptimizableCallStringSplit
 (
@@ -738,6 +741,7 @@ templateCallObject
 (
 )
 ;
+MOZ_MUST_USE
 bool
 commonGetPropFunction
 (
@@ -771,6 +775,7 @@ ObjectGroupVector
 convertUnboxedGroups
 )
 ;
+MOZ_MUST_USE
 bool
 commonSetPropFunction
 (
@@ -800,6 +805,7 @@ ObjectGroupVector
 convertUnboxedGroups
 )
 ;
+MOZ_MUST_USE
 bool
 instanceOfData
 (
