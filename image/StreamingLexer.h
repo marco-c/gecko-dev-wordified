@@ -164,6 +164,11 @@ algorithm
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -1810,6 +1815,7 @@ aIterator
 .
 AdvanceOrScheduleResume
 (
+SIZE_MAX
 aOnResume
 )
 )
