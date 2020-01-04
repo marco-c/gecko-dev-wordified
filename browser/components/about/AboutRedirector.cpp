@@ -627,9 +627,6 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
-#
-ifdef
-MOZ_SERVICES_SYNC
 {
 "
 sync
@@ -656,8 +653,6 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
-#
-endif
 {
 "
 home

@@ -1898,9 +1898,6 @@ null
 )
 ;
 }
-#
-ifdef
-MOZ_SERVICES_SYNC
 _setSyncAutoconnectDelay
 :
 function
@@ -2069,8 +2066,6 @@ delay
 )
 ;
 }
-#
-endif
 /
 /
 nsIObserver
@@ -2378,9 +2373,6 @@ break
 ;
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 case
 "
 weave
@@ -2420,8 +2412,6 @@ subject
 ;
 break
 ;
-#
-endif
 case
 "
 session
@@ -4569,9 +4559,6 @@ false
 ;
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 os
 .
 addObserver
@@ -4606,8 +4593,6 @@ uri
 false
 )
 ;
-#
-endif
 os
 .
 addObserver
@@ -5192,9 +5177,6 @@ granted
 ;
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 os
 .
 removeObserver
@@ -5227,8 +5209,6 @@ uri
 "
 )
 ;
-#
-endif
 os
 .
 removeObserver
@@ -18733,9 +18713,6 @@ args
 )
 ;
 }
-#
-ifdef
-MOZ_SERVICES_SYNC
 /
 *
 *
@@ -18918,8 +18895,6 @@ ex
 ;
 }
 }
-#
-endif
 _handleFlashHang
 :
 function

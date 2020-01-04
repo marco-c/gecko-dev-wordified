@@ -2589,9 +2589,6 @@ groups
 "
 /
 >
-#
-ifdef
-MOZ_SERVICES_SYNC
 <
 broadcaster
 id
@@ -2641,8 +2638,6 @@ true
 "
 /
 >
-#
-endif
 <
 broadcaster
 id

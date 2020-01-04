@@ -1,6 +1,3 @@
-%
-if
-0
 /
 *
 #
@@ -92,8 +89,6 @@ MPL
 .
 *
 /
-%
-endif
 /
 *
 Global
@@ -335,9 +330,6 @@ rect
 192px
 )
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 radio
 [
 pane
@@ -375,8 +367,6 @@ png
 important
 ;
 }
-%
-endif
 /
 *
 These
@@ -848,9 +838,6 @@ top
 0
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 /
 *
 Sync
@@ -1030,5 +1017,3 @@ opacity
 ;
 }
 }
-%
-endif

@@ -15043,9 +15043,6 @@ refreshInSeconds
 ;
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 /
 /
 The
@@ -16357,8 +16354,6 @@ required
 true
 )
 ;
-#
-endif
 /
 /
 Developer

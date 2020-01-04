@@ -535,9 +535,6 @@ rect
 )
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 /
 *
 -
@@ -589,8 +586,6 @@ png
 )
 ;
 }
-%
-endif
 /
 *
 These
@@ -1117,9 +1112,6 @@ top
 0
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 /
 *
 -
@@ -1310,5 +1302,3 @@ opacity
 ;
 }
 }
-%
-endif
