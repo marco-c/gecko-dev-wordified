@@ -312,9 +312,9 @@ if
 alertWindow
 )
 {
-todo
+ok
 (
-false
+true
 "
 Notifications
 don
