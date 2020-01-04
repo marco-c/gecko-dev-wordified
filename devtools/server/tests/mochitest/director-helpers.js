@@ -347,12 +347,10 @@ var
 root
 =
 yield
-promiseInvoke
-(
-client
 client
 .
 listTabs
+(
 )
 ;
 return

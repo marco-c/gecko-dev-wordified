@@ -76,7 +76,6 @@ constants
 ;
 const
 {
-rdpInvoke
 asPaused
 }
 =
@@ -375,12 +374,10 @@ const
 response
 =
 yield
-rdpInvoke
-(
-gThreadClient
 gThreadClient
 .
 eventListeners
+(
 )
 ;
 /
@@ -646,12 +643,10 @@ try
 response
 =
 yield
-rdpInvoke
-(
-grip
 grip
 .
 getDefinitionSite
+(
 )
 ;
 }
