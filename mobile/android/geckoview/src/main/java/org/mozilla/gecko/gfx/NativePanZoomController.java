@@ -1489,6 +1489,14 @@ destroy
 if
 (
 mDestroyed
+|
+|
+!
+mTarget
+.
+isGeckoReady
+(
+)
 )
 {
 return

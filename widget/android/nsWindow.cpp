@@ -6328,13 +6328,6 @@ mLayerClient
 =
 layerClient
 ;
-layerClient
--
->
-OnGeckoReady
-(
-)
-;
 if
 (
 resetting
@@ -6468,6 +6461,13 @@ npzc
 ;
 #
 endif
+layerClient
+-
+>
+OnGeckoReady
+(
+)
+;
 }
 void
 OnSizeChanged
