@@ -2010,6 +2010,16 @@ this
 updateCheckers_
 )
 {
+if
+(
+this
+.
+updateCheckers_
+[
+updateUrl
+]
+)
+{
 this
 .
 updateCheckers_
@@ -2030,6 +2040,7 @@ updateUrl
 =
 null
 ;
+}
 }
 }
 /
