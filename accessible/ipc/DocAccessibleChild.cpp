@@ -8661,16 +8661,6 @@ acc
 IsDefunct
 (
 )
-&
-&
-!
-nsAccUtils
-:
-:
-MustPrune
-(
-acc
-)
 )
 {
 nsIntRect
