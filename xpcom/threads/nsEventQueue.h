@@ -193,6 +193,7 @@ mozilla
 MutexAutoLock
 MutexAutoLock
 ;
+explicit
 nsEventQueue
 (
 mozilla
