@@ -937,6 +937,9 @@ mPromiseProxy
 nsCString
 mScope
 ;
+bool
+mIncludeUncontrolled
+;
 public
 :
 MatchAllRunnable
@@ -948,6 +951,8 @@ const
 nsCString
 &
 aScope
+bool
+aIncludeUncontrolled
 )
 :
 mPromiseProxy
@@ -957,6 +962,10 @@ aPromiseProxy
 mScope
 (
 aScope
+)
+mIncludeUncontrolled
+(
+aIncludeUncontrolled
 )
 {
 MOZ_ASSERT
@@ -1036,6 +1045,7 @@ GetPrincipal
 (
 )
 mScope
+mIncludeUncontrolled
 result
 )
 ;
@@ -3314,11 +3324,6 @@ if
 (
 aOptions
 .
-mIncludeUncontrolled
-|
-|
-aOptions
-.
 mType
 !
 =
@@ -3421,6 +3426,9 @@ NS_ConvertUTF16toUTF8
 (
 scope
 )
+aOptions
+.
+mIncludeUncontrolled
 )
 ;
 MOZ_ALWAYS_TRUE
