@@ -395,6 +395,10 @@ FrameReceived
 aWebSocketSerialID
 mInnerWindowID
 frame
+.
+forget
+(
+)
 )
 ;
 }
@@ -443,6 +447,10 @@ FrameSent
 aWebSocketSerialID
 mInnerWindowID
 frame
+.
+forget
+(
+)
 )
 ;
 }
