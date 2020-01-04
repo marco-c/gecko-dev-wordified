@@ -54713,6 +54713,14 @@ nsContentUtils
 LoadImage
 (
 uri
+static_cast
+<
+nsINode
+*
+>
+(
+this
+)
 this
 NodePrincipal
 (

@@ -1269,6 +1269,7 @@ nsContentUtils
 LoadImage
 (
 uri
+mContent
 doc
 mContent
 -
