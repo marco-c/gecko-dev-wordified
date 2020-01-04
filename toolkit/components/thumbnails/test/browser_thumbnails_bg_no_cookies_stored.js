@@ -74,7 +74,7 @@ set
 "
 privacy
 .
-about_newtab_segragation
+about_newtab_segregation
 .
 enabled
 "
