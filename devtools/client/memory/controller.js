@@ -216,13 +216,6 @@ function
 (
 )
 {
-yield
-gFront
-.
-attach
-(
-)
-;
 }
 )
 destroy
@@ -236,13 +229,6 @@ function
 (
 )
 {
-yield
-gFront
-.
-detach
-(
-)
-;
 }
 )
 }
