@@ -12423,7 +12423,7 @@ count
 )
 ;
 return
-Accessible
+AccessibleWrap
 :
 :
 RemoveChild
@@ -12473,7 +12473,7 @@ count
 ;
 }
 return
-Accessible
+AccessibleWrap
 :
 :
 InsertChildAt
