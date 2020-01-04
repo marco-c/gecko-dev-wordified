@@ -1360,10 +1360,6 @@ See
 nsStyleColor
 #
 define
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-1
-#
-define
 NS_STYLE_COLOR_INHERIT_FROM_BODY
 2
 /

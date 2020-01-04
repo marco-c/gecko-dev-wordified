@@ -9525,8 +9525,8 @@ borderLeftColor
 >
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 nsCSSValue
@@ -9557,8 +9557,8 @@ borderTopColor
 >
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 nsCSSValue
@@ -9589,8 +9589,8 @@ borderRightColor
 >
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 nsCSSValue
@@ -9621,8 +9621,8 @@ borderBottomColor
 >
 SetIntValue
 (
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
-eCSSUnit_Enumerated
+NS_COLOR_CURRENTCOLOR
+eCSSUnit_EnumColor
 )
 ;
 }

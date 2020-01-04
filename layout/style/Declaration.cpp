@@ -5172,7 +5172,7 @@ subprops
 )
 ;
 bool
-isMozUseTextColor
+isCurrentColor
 =
 colorValue
 -
@@ -5182,7 +5182,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_Enumerated
+eCSSUnit_EnumColor
 &
 &
 colorValue
@@ -5193,7 +5193,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
+NS_COLOR_CURRENTCOLOR
 ;
 if
 (
@@ -5246,18 +5246,11 @@ when
 it
 '
 s
--
-moz
--
-use
--
-text
--
-color
+currentcolor
 .
 !
 (
-isMozUseTextColor
+isCurrentColor
 |
 |
 (
@@ -6925,7 +6918,7 @@ GetUnit
 )
 !
 =
-eCSSUnit_Enumerated
+eCSSUnit_EnumColor
 |
 |
 decorationColor
@@ -6936,7 +6929,7 @@ GetIntValue
 )
 !
 =
-NS_STYLE_COLOR_MOZ_USE_TEXT_COLOR
+NS_COLOR_CURRENTCOLOR
 )
 {
 aValue

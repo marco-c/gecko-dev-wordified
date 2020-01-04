@@ -5232,13 +5232,6 @@ kBorderCollapseKTable
 static
 const
 KTableEntry
-kBorderColorKTable
-[
-]
-;
-static
-const
-KTableEntry
 kBorderImageRepeatKTable
 [
 ]
@@ -6179,13 +6172,6 @@ static
 const
 KTableEntry
 kOutlineStyleKTable
-[
-]
-;
-static
-const
-KTableEntry
-kOutlineColorKTable
 [
 ]
 ;
