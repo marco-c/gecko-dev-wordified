@@ -5347,6 +5347,11 @@ true
 ;
 }
 }
+if
+(
+mOriginalSink
+)
+{
 nsCOMPtr
 <
 nsIDocument
@@ -5380,6 +5385,7 @@ shouldReportError
 =
 false
 ;
+}
 }
 if
 (
