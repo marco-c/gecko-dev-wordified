@@ -5462,8 +5462,10 @@ ByFilename
 (
 CountTypePtr
 &
+&
 thenType
 CountTypePtr
+&
 &
 noFilenameType
 )
@@ -7375,8 +7377,14 @@ js_new
 ByFilename
 >
 (
+Move
+(
 thenType
+)
+Move
+(
 noFilenameType
+)
 )
 )
 ;
