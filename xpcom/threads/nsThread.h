@@ -376,6 +376,15 @@ WaitForAllAsynchronousShutdowns
 (
 )
 ;
+private
+:
+void
+DoMainThreadSpecificProcessing
+(
+bool
+aReallyWait
+)
+;
 protected
 :
 class
