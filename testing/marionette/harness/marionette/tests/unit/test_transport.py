@@ -326,11 +326,14 @@ does
 not
 have
 attribute
-%
-s
+{
+}
 "
-%
+.
+format
+(
 attr
+)
 )
 class
 TestCommand

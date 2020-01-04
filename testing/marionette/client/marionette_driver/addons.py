@@ -734,6 +734,7 @@ status
 raise
 AddonInstallException
 (
+                
 "
 Addon
 failed
@@ -743,11 +744,14 @@ with
 return
 code
 :
-%
-d
+{
+}
 "
-%
+.
+format
+(
 status
+)
 )
         
 return

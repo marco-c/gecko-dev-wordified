@@ -85,8 +85,8 @@ Unknown
 screen
 orientation
 :
-%
-s
+{
+}
 "
 class
 TestScreenOrientation
@@ -533,10 +533,13 @@ errors
 .
 MarionetteException
 unknown_orientation
-%
+.
+format
+(
 "
 cheese
 "
+)
 )
 :
             
@@ -569,10 +572,13 @@ errors
 .
 MarionetteException
 unknown_orientation
-%
+.
+format
+(
 "
 null
 "
+)
 )
 :
             

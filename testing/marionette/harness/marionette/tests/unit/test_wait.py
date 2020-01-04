@@ -1498,11 +1498,17 @@ assertIn
 "
 caused
 by
-%
+{
+0
+!
 r
+}
 "
-%
+.
+format
+(
 TypeError
+)
 s
 )
         

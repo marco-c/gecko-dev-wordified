@@ -1063,11 +1063,17 @@ such
 browser
 preference
 :
-%
+{
+0
+!
 r
+}
 "
-%
+.
+format
+(
 pref
+)
 )
             
 if
@@ -1084,16 +1090,25 @@ SkipTest
 "
 browser
 preference
-%
+{
+0
+!
 r
+}
 :
-%
+{
+1
+!
 r
+}
 "
-%
+.
+format
+(
 (
 pref
 value
+)
 )
 )
             
@@ -1191,11 +1206,14 @@ because
 protocol
 level
 is
-%
-s
+{
+}
 '
-%
+.
+format
+(
 level
+)
 )
             
 return

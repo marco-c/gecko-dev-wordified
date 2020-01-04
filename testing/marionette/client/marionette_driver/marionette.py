@@ -4575,16 +4575,19 @@ host
 ex_msg
 =
 "
-%
-s
+{
+0
+}
 :
-%
-d
+{
+1
+}
 is
 unavailable
 .
 "
-%
+.
+format
 (
 self
 .
@@ -4638,8 +4641,9 @@ msg
 '
 Application
 "
-%
-s
+{
+0
+}
 "
 unknown
 (
@@ -4647,8 +4651,9 @@ should
 be
 one
 of
-%
-s
+{
+1
+}
 )
 '
                 
@@ -4657,7 +4662,8 @@ NotImplementedError
 (
                     
 msg
-%
+.
+format
 (
 app
 geckoinstance
@@ -5540,11 +5546,14 @@ be
 a
 dict
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 obj
+)
 )
             
 error
@@ -5816,19 +5825,22 @@ PROCESS
 -
 CRASH
 |
-%
-s
+{
+0
+}
 |
 abnormal
 termination
 with
 exit
 code
-%
-d
+{
+1
+}
 '
-%
                    
+.
+format
 (
 name
 returncode
@@ -7836,8 +7848,9 @@ let
 pref
 =
 '
-%
-s
+{
+0
+}
 '
 ;
             
@@ -7845,8 +7858,9 @@ let
 value
 =
 '
-%
-s
+{
+1
+}
 '
 ;
             
@@ -7865,6 +7879,7 @@ switch
 (
 type
 )
+{
 {
                 
 case
@@ -7944,11 +7959,13 @@ false
 ;
             
 }
+}
             
 "
 "
 "
-%
+.
+format
 (
 pref
 value
@@ -8967,12 +8984,15 @@ directory
         
 return
 "
-%
-s
-%
-s
+{
+0
+}
+{
+1
+}
 "
-%
+.
+format
 (
 self
 .
@@ -10586,11 +10606,14 @@ ValueError
 Unknown
 context
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 context
+)
 )
         
 self

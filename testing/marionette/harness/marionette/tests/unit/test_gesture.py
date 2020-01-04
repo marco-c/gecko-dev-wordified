@@ -223,8 +223,8 @@ marionette
 execute_script
 (
 "
-%
-s
+{
+}
 ;
 return
 elementInViewport
@@ -240,10 +240,13 @@ buttonScroll
 )
 ;
 "
-%
-self
+.
+format
+(
+elf
 .
 check_in_viewport
+)
 )
 )
         
@@ -289,8 +292,8 @@ m
 execute_script
 (
 "
-%
-s
+{
+}
 ;
 return
 elementInViewport
@@ -302,7 +305,9 @@ arguments
 )
 ;
 "
-%
+.
+format
+(
 self
 .
 check_in_viewport
@@ -313,6 +318,7 @@ buttonScroll
 =
 =
 True
+)
 )
         
 self

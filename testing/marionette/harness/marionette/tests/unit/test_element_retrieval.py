@@ -115,15 +115,18 @@ charset
 utf
 -
 8
-%
-s
+{
+}
 "
-%
+.
+format
+(
 urllib
 .
 quote
 (
 doc
+)
 )
     
 elif
@@ -144,10 +147,12 @@ application
 xhtml
 +
 xml
-%
-s
+{
+}
 "
-%
+.
+format
+(
 urllib
 .
 quote
@@ -262,8 +267,8 @@ head
 body
 >
     
-%
-s
+{
+}
   
 <
 /
@@ -276,8 +281,12 @@ html
 "
 "
 "
-%
+.
+format
+(
 doc
+)
+)
 )
 id_html
 =

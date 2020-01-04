@@ -424,13 +424,15 @@ i
 ;
 i
 <
-%
-d
+{
+0
+}
 ;
 +
 +
 i
 )
+{
 {
                   
 sel
@@ -441,8 +443,9 @@ modify
 move
 "
 "
-%
-s
+{
+1
+}
 "
 "
 character
@@ -451,11 +454,13 @@ character
 ;
               
 }
+}
               
 '
 '
 '
-%
+.
+format
 (
 offset
 '
@@ -822,8 +827,8 @@ sel
 .
 getRangeAt
 (
-%
-d
+{
+}
 )
 .
 getClientRects
@@ -833,8 +838,11 @@ getClientRects
 '
 '
 '
-%
+.
+format
+(
 idx
+)
         
 return
 self
