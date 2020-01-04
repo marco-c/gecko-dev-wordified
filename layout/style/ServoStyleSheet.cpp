@@ -217,7 +217,7 @@ HasRules
 const
 {
 return
-Servo_StyleSheetHasRules
+Servo_StyleSheet_HasRules
 (
 RawSheet
 (
@@ -462,7 +462,7 @@ aInput
 ;
 mSheet
 =
-Servo_StylesheetFromUTF8Bytes
+Servo_StyleSheet_FromUTF8Bytes
 (
 reinterpret_cast
 <

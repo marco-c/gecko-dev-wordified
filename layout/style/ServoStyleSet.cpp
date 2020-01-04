@@ -198,7 +198,7 @@ nullptr
 )
 mRawSet
 (
-Servo_InitStyleSet
+Servo_StyleSet_Init
 (
 )
 )
@@ -440,7 +440,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_GetComputedValues
+Servo_ComputedValues_Get
 (
 aContent
 )
@@ -879,7 +879,7 @@ AsServoComputedValues
 ;
 computedValues
 =
-Servo_InheritComputedValues
+Servo_ComputedValues_Inherit
 (
 parentComputedValues
 )
@@ -893,7 +893,7 @@ else
 {
 computedValues
 =
-Servo_GetComputedValues
+Servo_ComputedValues_Get
 (
 aTextNode
 )
@@ -989,7 +989,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_InheritComputedValues
+Servo_ComputedValues_Inherit
 (
 parent
 )
@@ -1099,7 +1099,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_GetComputedValuesForPseudoElement
+Servo_ComputedValues_GetForPseudoElement
 (
 aParentContext
 -
@@ -1240,7 +1240,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_GetComputedValuesForAnonymousBox
+Servo_ComputedValues_GetForAnonymousBox
 (
 parentStyle
 aPseudoTag
@@ -2181,7 +2181,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_GetComputedValuesForPseudoElement
+Servo_ComputedValues_GetForPseudoElement
 (
 aParentContext
 -

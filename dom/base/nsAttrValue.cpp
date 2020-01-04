@@ -550,7 +550,7 @@ eServoCSSDeclaration
 :
 sheet
 =
-Servo_GetDeclarationBlockCache
+Servo_DeclarationBlock_GetCache
 (
 mValue
 .
@@ -664,7 +664,7 @@ nsAttrValue
 :
 eServoCSSDeclaration
 :
-Servo_SetDeclarationBlockImmutable
+Servo_DeclarationBlock_SetImmutable
 (
 mValue
 .
@@ -790,7 +790,7 @@ eServoCSSDeclaration
 :
 sheet
 =
-Servo_GetDeclarationBlockCache
+Servo_DeclarationBlock_GetCache
 (
 mValue
 .

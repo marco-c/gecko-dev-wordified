@@ -407,7 +407,7 @@ mValue
 .
 mServoCSSDeclaration
 ;
-Servo_ClearDeclarationBlockCachePointer
+Servo_DeclarationBlock_ClearCachePointer
 (
 declarations
 )
