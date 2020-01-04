@@ -181,6 +181,8 @@ getter
 (
 prop
 )
+{
+return
 function
 (
 )
@@ -220,6 +222,7 @@ prop
 ;
 }
 ;
+}
 props
 .
 forEach

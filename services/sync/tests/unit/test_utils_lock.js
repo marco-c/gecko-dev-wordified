@@ -177,6 +177,8 @@ func
 function
 (
 )
+{
+return
 this
 .
 _lock
@@ -208,11 +210,15 @@ return
 )
 (
 )
+;
+}
 throwy
 :
 function
 (
 )
+{
+return
 this
 .
 _lock
@@ -248,6 +254,8 @@ throwy
 )
 (
 )
+;
+}
 }
 ;
 _

@@ -139,6 +139,8 @@ hasMoreElements
 function
 (
 )
+{
+return
 this
 .
 cnt
@@ -146,6 +148,8 @@ cnt
 -
 >
 0
+;
+}
 getNext
 :
 function

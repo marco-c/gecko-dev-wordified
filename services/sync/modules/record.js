@@ -1441,6 +1441,8 @@ get
 id
 (
 )
+{
+return
 WBORecord
 .
 prototype
@@ -1456,6 +1458,8 @@ call
 (
 this
 )
+;
+}
 /
 /
 Keep
@@ -2474,6 +2478,8 @@ function
 collection
 id
 )
+{
+return
 this
 .
 _makeWBO
@@ -2485,6 +2491,8 @@ this
 .
 _default
 )
+;
+}
 /
 *
 *
@@ -3871,9 +3879,13 @@ get
 ids
 (
 )
+{
+return
 this
 .
 _ids
+;
+}
 set
 ids
 (
@@ -3905,9 +3917,13 @@ get
 limit
 (
 )
+{
+return
 this
 .
 _limit
+;
+}
 set
 limit
 (

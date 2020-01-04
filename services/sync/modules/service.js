@@ -699,6 +699,8 @@ get
 serverURL
 (
 )
+{
+return
 Svc
 .
 Prefs
@@ -709,6 +711,8 @@ get
 serverURL
 "
 )
+;
+}
 set
 serverURL
 (
@@ -800,6 +804,8 @@ get
 clusterURL
 (
 )
+{
+return
 Svc
 .
 Prefs
@@ -812,6 +818,8 @@ clusterURL
 "
 "
 )
+;
+}
 set
 clusterURL
 (
