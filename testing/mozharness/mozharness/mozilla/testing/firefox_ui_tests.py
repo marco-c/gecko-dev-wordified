@@ -1712,7 +1712,7 @@ abs_test_install_dir
 abs_tests_install_dir
             
 '
-abs_fxui_tests_dir
+abs_fxui_dir
 '
 :
 os
@@ -1726,9 +1726,6 @@ abs_tests_install_dir
 firefox
 -
 ui
-'
-'
-tests
 '
 )
         
@@ -2445,7 +2442,7 @@ join
 dirs
 [
 '
-abs_fxui_tests_dir
+abs_fxui_dir
 '
 ]
 '
@@ -2715,9 +2712,12 @@ join
 dirs
 [
 '
-abs_fxui_tests_dir
+abs_fxui_dir
 '
 ]
+'
+tests
+'
 self
 .
 tests_manifest
