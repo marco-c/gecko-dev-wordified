@@ -23501,6 +23501,14 @@ FirstChild
 aCallback
 )
 ;
+if
+(
+aCallback
+-
+>
+mIncludeCaptionBoxForTable
+)
+{
 nsIFrame
 *
 kid
@@ -23531,6 +23539,7 @@ kid
 aCallback
 )
 ;
+}
 }
 }
 else
