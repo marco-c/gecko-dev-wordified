@@ -158,7 +158,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -178,7 +177,6 @@ aGivenProto
 )
 override
 ;
-virtual
 const
 char
 *
@@ -194,7 +192,6 @@ MediaElementAudioSourceNode
 "
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

@@ -178,7 +178,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 AudioProcessingEvent
 Event
 )
-virtual
 JSObject
 *
 WrapObjectInternal

@@ -160,14 +160,12 @@ AudioContext
 aContext
 )
 ;
-virtual
 void
 DestroyMediaStream
 (
 )
 override
 ;
-virtual
 uint16_t
 NumberOfInputs
 (
@@ -180,7 +178,6 @@ return
 0
 ;
 }
-virtual
 AudioBufferSourceNode
 *
 AsAudioBufferSourceNode
@@ -198,7 +195,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 AudioBufferSourceNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -397,14 +393,12 @@ IMPL_EVENT_HANDLER
 (
 ended
 )
-virtual
 void
 NotifyMainThreadStreamFinished
 (
 )
 override
 ;
-virtual
 const
 char
 *
@@ -420,7 +414,6 @@ AudioBufferSourceNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -430,7 +423,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

@@ -153,7 +153,6 @@ aInputCount
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 JSObject
 *
 WrapObject
@@ -173,7 +172,6 @@ aGivenProto
 )
 override
 ;
-virtual
 uint16_t
 NumberOfInputs
 (
@@ -185,7 +183,6 @@ return
 mInputCount
 ;
 }
-virtual
 const
 char
 *
@@ -201,7 +198,6 @@ ChannelMergerNode
 "
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

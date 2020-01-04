@@ -259,7 +259,6 @@ SAMPLE_RATE
 NORMALIZE
 }
 ;
-virtual
 void
 SetInt32Parameter
 (
@@ -362,7 +361,6 @@ Int32Parameter
 ;
 }
 }
-virtual
 void
 SetDoubleParameter
 (
@@ -404,7 +402,6 @@ DoubleParameter
 ;
 }
 }
-virtual
 void
 SetBuffer
 (
@@ -589,7 +586,6 @@ mSampleRate
 )
 ;
 }
-virtual
 void
 ProcessBlock
 (
@@ -908,7 +904,6 @@ aOutput
 )
 ;
 }
-virtual
 bool
 IsActive
 (
@@ -923,7 +918,6 @@ mLeftOverData
 INT32_MIN
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -991,7 +985,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

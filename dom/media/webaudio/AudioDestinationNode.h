@@ -217,7 +217,6 @@ aSampleRate
 0f
 )
 ;
-virtual
 void
 DestroyMediaStream
 (
@@ -231,7 +230,6 @@ AudioDestinationNode
 AudioNode
 )
 NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
-virtual
 JSObject
 *
 WrapObject
@@ -251,7 +249,6 @@ aGivenProto
 )
 override
 ;
-virtual
 uint16_t
 NumberOfOutputs
 (
@@ -270,7 +267,6 @@ MaxChannelCount
 )
 const
 ;
-virtual
 void
 SetChannelCount
 (
@@ -341,7 +337,6 @@ MozAudioChannelType
 )
 const
 ;
-virtual
 void
 NotifyMainThreadStreamFinished
 (
@@ -414,7 +409,6 @@ DestroyAudioChannelAgent
 (
 )
 ;
-virtual
 const
 char
 *
@@ -430,7 +424,6 @@ AudioDestinationNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -440,7 +433,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

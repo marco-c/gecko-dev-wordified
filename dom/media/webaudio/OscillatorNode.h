@@ -193,7 +193,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 OscillatorNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -213,14 +212,12 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 DestroyMediaStream
 (
 )
 override
 ;
-virtual
 uint16_t
 NumberOfInputs
 (
@@ -401,14 +398,12 @@ IMPL_EVENT_HANDLER
 (
 ended
 )
-virtual
 void
 NotifyMainThreadStreamFinished
 (
 )
 override
 ;
-virtual
 const
 char
 *
@@ -424,7 +419,6 @@ OscillatorNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -434,7 +428,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

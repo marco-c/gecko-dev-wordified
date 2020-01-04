@@ -162,7 +162,6 @@ ConvolverNode
 AudioNode
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -227,7 +226,6 @@ bool
 aNormal
 )
 ;
-virtual
 void
 SetChannelCount
 (
@@ -266,7 +264,6 @@ aRv
 )
 ;
 }
-virtual
 void
 SetChannelCountModeValue
 (
@@ -309,7 +306,6 @@ aRv
 )
 ;
 }
-virtual
 const
 char
 *
@@ -325,7 +321,6 @@ ConvolverNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -335,7 +330,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

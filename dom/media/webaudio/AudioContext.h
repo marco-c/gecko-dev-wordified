@@ -700,7 +700,6 @@ Shutdown
 /
 /
 idempotent
-virtual
 JSObject
 *
 WrapObject

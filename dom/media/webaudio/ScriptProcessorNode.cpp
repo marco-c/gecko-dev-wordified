@@ -1456,7 +1456,6 @@ enum
 IS_CONNECTED
 }
 ;
-virtual
 void
 SetInt32Parameter
 (
@@ -1499,7 +1498,6 @@ index
 switch
 .
 }
-virtual
 void
 ProcessBlock
 (
@@ -1897,7 +1895,6 @@ mBufferSize
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -1941,7 +1938,6 @@ return
 true
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -2006,7 +2002,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

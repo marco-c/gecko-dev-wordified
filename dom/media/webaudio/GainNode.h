@@ -164,7 +164,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 GainNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -195,7 +194,6 @@ return
 mGain
 ;
 }
-virtual
 const
 char
 *
@@ -211,7 +209,6 @@ GainNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -221,7 +218,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

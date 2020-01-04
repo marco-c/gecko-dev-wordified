@@ -256,7 +256,6 @@ Context
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -808,7 +807,6 @@ Stream
 (
 )
 ;
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -882,7 +880,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

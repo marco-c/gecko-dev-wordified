@@ -189,7 +189,6 @@ NS_IsMainThread
 )
 ;
 }
-virtual
 void
 ProcessBlocksOnPorts
 (
@@ -392,7 +391,6 @@ output
 }
 }
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

@@ -164,7 +164,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 DynamicsCompressorNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -263,7 +262,6 @@ return
 mReduction
 ;
 }
-virtual
 const
 char
 *
@@ -279,7 +277,6 @@ DynamicsCompressorNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -289,7 +286,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

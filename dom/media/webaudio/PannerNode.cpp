@@ -455,7 +455,6 @@ loader
 )
 ;
 }
-virtual
 void
 SetInt32Parameter
 (
@@ -634,7 +633,6 @@ Int32Parameter
 ;
 }
 }
-virtual
 void
 SetThreeDPointParameter
 (
@@ -749,7 +747,6 @@ ThreeDPointParameter
 ;
 }
 }
-virtual
 void
 SetDoubleParameter
 (
@@ -874,7 +871,6 @@ DoubleParameter
 ;
 }
 }
-virtual
 void
 ProcessBlock
 (
@@ -1121,7 +1117,6 @@ aOutput
 )
 ;
 }
-virtual
 bool
 IsActive
 (
@@ -1215,7 +1210,6 @@ float
 aDistance
 )
 ;
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1257,7 +1251,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

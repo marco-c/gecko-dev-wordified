@@ -429,7 +429,6 @@ mSource
 aSource
 ;
 }
-virtual
 void
 RecvTimelineEvent
 (
@@ -512,7 +511,6 @@ TimelineParameter
 ;
 }
 }
-virtual
 void
 SetStreamTimeParameter
 (
@@ -553,7 +551,6 @@ StreamTimeParameter
 ;
 }
 }
-virtual
 void
 SetDoubleParameter
 (
@@ -660,7 +657,6 @@ parameter
 }
 ;
 }
-virtual
 void
 SetInt32Parameter
 (
@@ -818,7 +814,6 @@ Int32Parameter
 ;
 }
 }
-virtual
 void
 SetBuffer
 (
@@ -2880,7 +2875,6 @@ aChannels
 )
 ;
 }
-virtual
 void
 ProcessBlock
 (
@@ -3196,7 +3190,6 @@ true
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -3226,7 +3219,6 @@ mBufferSampleRate
 0
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -3352,7 +3344,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

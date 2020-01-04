@@ -175,7 +175,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 BiquadFilterNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -273,7 +272,6 @@ Float32Array
 aPhaseResponse
 )
 ;
-virtual
 const
 char
 *
@@ -289,7 +287,6 @@ BiquadFilterNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -299,7 +296,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

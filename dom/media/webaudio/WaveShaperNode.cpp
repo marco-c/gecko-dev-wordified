@@ -751,7 +751,6 @@ Parameteres
 TYPE
 }
 ;
-virtual
 void
 SetRawArrayData
 (
@@ -772,7 +771,6 @@ aCurve
 )
 ;
 }
-virtual
 void
 SetInt32Parameter
 (
@@ -1028,7 +1026,6 @@ indexHigher
 }
 }
 }
-virtual
 void
 ProcessBlock
 (
@@ -1376,7 +1373,6 @@ here
 }
 }
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1421,7 +1417,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

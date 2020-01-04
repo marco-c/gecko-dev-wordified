@@ -171,7 +171,6 @@ IMPL_EVENT_HANDLER
 (
 audioprocess
 )
-virtual
 void
 EventListenerAdded
 (
@@ -181,7 +180,6 @@ aType
 )
 override
 ;
-virtual
 void
 EventListenerRemoved
 (
@@ -191,7 +189,6 @@ aType
 )
 override
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -211,7 +208,6 @@ aGivenProto
 )
 override
 ;
-virtual
 AudioNode
 *
 Connect
@@ -263,7 +259,6 @@ return
 node
 ;
 }
-virtual
 void
 Connect
 (
@@ -304,7 +299,6 @@ UpdateConnectedStatus
 ;
 }
 }
-virtual
 void
 Disconnect
 (
@@ -341,7 +335,6 @@ UpdateConnectedStatus
 ;
 }
 }
-virtual
 void
 NotifyInputsChanged
 (
@@ -353,7 +346,6 @@ UpdateConnectedStatus
 )
 ;
 }
-virtual
 void
 NotifyHasPhantomInput
 (
@@ -386,7 +378,6 @@ InputNodes
 )
 .
 }
-virtual
 void
 SetChannelCount
 (
@@ -419,7 +410,6 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
-virtual
 void
 SetChannelCountModeValue
 (
@@ -479,7 +469,6 @@ DOMEventTargetHelper
 :
 DispatchTrustedEvent
 ;
-virtual
 const
 char
 *
@@ -495,7 +484,6 @@ ScriptProcessorNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -505,7 +493,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

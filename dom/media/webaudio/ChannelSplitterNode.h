@@ -153,7 +153,6 @@ aOutputCount
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 JSObject
 *
 WrapObject
@@ -173,7 +172,6 @@ aGivenProto
 )
 override
 ;
-virtual
 uint16_t
 NumberOfOutputs
 (
@@ -185,7 +183,6 @@ return
 mOutputCount
 ;
 }
-virtual
 const
 char
 *
@@ -201,7 +198,6 @@ ChannelSplitterNode
 "
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
