@@ -1320,6 +1320,7 @@ bool
 IsActive
 (
 )
+const
 final
 override
 ;
@@ -1328,6 +1329,7 @@ bool
 IsHidden
 (
 )
+const
 final
 override
 ;
