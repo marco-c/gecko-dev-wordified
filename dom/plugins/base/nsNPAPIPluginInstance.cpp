@@ -5032,11 +5032,6 @@ mContentSurface
 NativeWindow
 (
 )
--
->
-Handle
-(
-)
 ;
 }
 AndroidSurfaceTexture
@@ -5110,11 +5105,6 @@ mSurfaceTexture
 -
 >
 NativeWindow
-(
-)
--
->
-Handle
 (
 )
 ;
