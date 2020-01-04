@@ -5509,6 +5509,13 @@ kTouchActionKTable
 static
 const
 KTableValue
+kTopLayerKTable
+[
+]
+;
+static
+const
+KTableValue
 kTransformBoxKTable
 [
 ]
