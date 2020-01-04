@@ -46473,6 +46473,17 @@ bidi
 override
 "
 "
+isolate
+"
+"
+plaintext
+"
+"
+isolate
+-
+override
+"
+"
 -
 moz
 -
