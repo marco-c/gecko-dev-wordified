@@ -477,10 +477,12 @@ return
 true
 ;
 }
+virtual
 bool
-UseAcceleratedCanvas
+UseAcceleratedSkiaCanvas
 (
 )
+override
 ;
 virtual
 bool
