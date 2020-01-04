@@ -213,9 +213,7 @@ top
 ;
 margin
 -
-inline
--
-start
+left
 :
 0
 ;
@@ -264,6 +262,12 @@ text
 align
 :
 right
+;
+margin
+-
+left
+:
+5px
 ;
 margin
 -
