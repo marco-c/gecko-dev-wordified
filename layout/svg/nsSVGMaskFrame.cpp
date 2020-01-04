@@ -1744,7 +1744,7 @@ tmpCtx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 maskDT
 )

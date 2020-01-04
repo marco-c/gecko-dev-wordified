@@ -12030,7 +12030,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 destDT
 boundsRect
@@ -12061,7 +12061,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 offset

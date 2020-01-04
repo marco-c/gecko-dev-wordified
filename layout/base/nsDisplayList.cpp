@@ -4178,7 +4178,7 @@ maskCtx
 gfxContext
 :
 :
-ForDrawTargetWithTransform
+CreatePreservingTransformOrNull
 (
 maskDT
 )

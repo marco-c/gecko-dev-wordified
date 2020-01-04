@@ -4692,7 +4692,7 @@ context
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 )

@@ -480,7 +480,7 @@ already_AddRefed
 <
 gfxContext
 >
-ForDrawTarget
+CreateOrNull
 (
 mozilla
 :
@@ -582,7 +582,7 @@ already_AddRefed
 <
 gfxContext
 >
-ForDrawTargetWithTransform
+CreatePreservingTransformOrNull
 (
 mozilla
 :

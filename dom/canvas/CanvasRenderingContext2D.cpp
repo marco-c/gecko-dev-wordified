@@ -20652,7 +20652,7 @@ thebes
 gfxContext
 :
 :
-ForDrawTargetWithTransform
+CreatePreservingTransformOrNull
 (
 mCtx
 -
@@ -28131,7 +28131,7 @@ context
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 tempTarget
 )
@@ -29573,7 +29573,7 @@ thebes
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 mTarget
 )
@@ -29681,7 +29681,7 @@ thebes
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 drawDT
 )

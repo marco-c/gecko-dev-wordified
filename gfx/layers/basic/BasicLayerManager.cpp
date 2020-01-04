@@ -1092,7 +1092,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 ToRect
@@ -6330,7 +6330,7 @@ groupTarget
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 untransformedDT
 Point
@@ -6489,7 +6489,7 @@ temp
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 untransformedDT
 Point
