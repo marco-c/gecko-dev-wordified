@@ -98,8 +98,6 @@ import
 defaultdict
 import
 manifestparser
-import
-reftest
 def
 rewrite_test_base
 (
@@ -4296,6 +4294,9 @@ context
 manifest_path
 )
 :
+    
+import
+reftest
     
 path
 =
