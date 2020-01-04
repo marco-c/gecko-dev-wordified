@@ -10054,8 +10054,10 @@ RemoveAllAttributes
 node
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 next
 =
 node
@@ -10066,8 +10068,10 @@ GetNextNode
 aRoot
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 parent
 =
 node

@@ -12561,8 +12561,10 @@ node
 =
 nodeToResult
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 node

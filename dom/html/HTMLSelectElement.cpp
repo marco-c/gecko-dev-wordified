@@ -3260,8 +3260,10 @@ reference
 /
 /
 element
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 aBefore
