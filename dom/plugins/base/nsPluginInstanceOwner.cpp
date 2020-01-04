@@ -1004,8 +1004,6 @@ to
 receive
 it
 immediately
-mWaitingForPaint
-=
 nsContentUtils
 :
 :
@@ -1013,6 +1011,10 @@ AddScriptRunner
 (
 event
 )
+;
+mWaitingForPaint
+=
+true
 ;
 }
 }
