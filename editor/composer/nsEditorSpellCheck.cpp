@@ -3118,6 +3118,15 @@ eEditorMailMask
 {
 if
 (
+!
+aDictionary
+.
+IsEmpty
+(
+)
+&
+&
+(
 mPreferredLang
 .
 IsEmpty
@@ -3133,6 +3142,7 @@ Equals
 aDictionary
 nsCaseInsensitiveStringComparator
 (
+)
 )
 )
 )
