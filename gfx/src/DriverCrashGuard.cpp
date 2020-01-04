@@ -2896,10 +2896,6 @@ gfxCriticalNote
 GLContext
 just
 crashed
-and
-is
-now
-disabled
 .
 "
 ;
@@ -2917,10 +2913,9 @@ gfxCriticalNote
 <
 "
 GLContext
-is
-disabled
-due
-to
+remains
+enabled
+despite
 a
 previous
 crash
