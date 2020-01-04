@@ -2606,8 +2606,8 @@ aNode
 bool
 IsEmptyInline
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
