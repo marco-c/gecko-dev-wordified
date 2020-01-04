@@ -61069,10 +61069,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_before
+before
 )
 {
 frame
@@ -61092,10 +61092,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_after
+after
 )
 {
 frame

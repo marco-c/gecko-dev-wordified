@@ -2640,10 +2640,13 @@ mContent
 AsElement
 (
 )
-nsCSSPseudoElements
+mozilla
 :
 :
-ePseudo_firstLetter
+CSSPseudoElementType
+:
+:
+firstLetter
 mStyleContext
 )
 ;

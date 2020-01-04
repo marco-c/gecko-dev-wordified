@@ -2843,10 +2843,13 @@ NS_PRECONDITION
 (
 aPseudoType
 <
-nsCSSPseudoElements
+mozilla
 :
 :
-ePseudo_PseudoElementCount
+CSSPseudoElementType
+:
+:
+Count
 "
 invalid
 aPseudoType

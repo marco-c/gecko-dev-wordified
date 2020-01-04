@@ -18144,10 +18144,10 @@ pseudo
 =
 aPseudoType
 <
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_PseudoElementCount
+Count
 ?
 nsCSSPseudoElements
 :

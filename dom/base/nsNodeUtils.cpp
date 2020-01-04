@@ -1457,10 +1457,10 @@ if
 pseudoType
 !
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_NotPseudoElement
+NotPseudo
 )
 {
 return

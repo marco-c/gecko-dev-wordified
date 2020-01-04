@@ -2614,10 +2614,10 @@ if
 type
 >
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_PseudoElementCount
+Count
 )
 {
 return

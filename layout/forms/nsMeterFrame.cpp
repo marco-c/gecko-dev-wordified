@@ -465,10 +465,10 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozMeterBar
+mozMeterBar
 ;
 RefPtr
 <
@@ -1698,10 +1698,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozMeterBar
+mozMeterBar
 )
 {
 return
