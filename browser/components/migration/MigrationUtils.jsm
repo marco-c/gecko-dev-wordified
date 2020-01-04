@@ -373,9 +373,6 @@ chrome
 chromium
 "
 "
-safari
-"
-"
 360se
 "
 "
@@ -3728,8 +3725,6 @@ windows
 safari
 (
 mac
-/
-windows
 )
 *
 canary
