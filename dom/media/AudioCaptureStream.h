@@ -115,6 +115,13 @@ h
 "
 #
 include
+"
+StreamBuffer
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -152,6 +159,8 @@ AudioCaptureStream
 DOMMediaStream
 *
 aWrapper
+TrackID
+aTrackId
 )
 ;
 virtual
@@ -174,13 +183,6 @@ override
 ;
 protected
 :
-enum
-{
-AUDIO_TRACK
-=
-1
-}
-;
 void
 MixerCallback
 (
@@ -200,6 +202,9 @@ override
 ;
 AudioMixer
 mMixer
+;
+TrackID
+mTrackId
 ;
 bool
 mTrackCreated
