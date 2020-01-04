@@ -806,7 +806,9 @@ aWM
 \
 NS_ASSERTION
 (
+(
 aWM
+)
 .
 GetBlockDir
 (
