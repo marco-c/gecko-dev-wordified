@@ -499,7 +499,10 @@ background
 virtual
 already_AddRefed
 <
-gfxContext
+gfx
+:
+:
+DrawTarget
 >
 BeginUpdate
 (

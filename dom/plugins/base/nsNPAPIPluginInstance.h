@@ -490,6 +490,16 @@ PluginLibrary
 ;
 public
 :
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+DrawTarget
+;
 MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 nsNPAPIPluginInstance
@@ -683,7 +693,7 @@ BeginUpdateBackground
 nsIntRect
 *
 aRect
-gfxContext
+DrawTarget
 *
 *
 aContext

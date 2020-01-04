@@ -722,10 +722,10 @@ instance
 const
 nsIntRect
 &
-gfxContext
+DrawTarget
 *
 *
-aCtx
+aDrawTarget
 )
 override
 ;

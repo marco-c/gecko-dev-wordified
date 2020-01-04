@@ -6428,10 +6428,10 @@ BeginUpdateBackground
 nsIntRect
 *
 aRect
-gfxContext
+DrawTarget
 *
 *
-aContext
+aDrawTarget
 )
 {
 if
@@ -6468,7 +6468,7 @@ BeginUpdateBackground
 mNPP
 *
 aRect
-aContext
+aDrawTarget
 )
 ;
 }
