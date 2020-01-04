@@ -24238,7 +24238,7 @@ bool
 StyleClipBasicShapeToCSSArray
 (
 const
-nsStyleClipPath
+StyleClipPath
 &
 aClipPath
 nsCSSValue
@@ -26972,7 +26972,7 @@ styleStruct
 )
 ;
 const
-nsStyleClipPath
+StyleClipPath
 &
 clipPath
 =
