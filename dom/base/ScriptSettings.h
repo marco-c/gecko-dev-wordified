@@ -304,12 +304,12 @@ JSAutoRequest
 >
 mAutoRequest
 ;
-uint32_t
-mStackDepthAfterPush
-;
 #
 ifdef
 DEBUG
+uint32_t
+mStackDepthAfterPush
+;
 JSContext
 *
 mPushedContext
@@ -2160,6 +2160,9 @@ return
 mCx
 ;
 }
+#
+ifdef
+DEBUG
 bool
 CxPusherIsStackTop
 (
@@ -2175,6 +2178,8 @@ IsStackTop
 )
 ;
 }
+#
+endif
 /
 /
 If
