@@ -983,6 +983,15 @@ errorMessage
 )
 override
 {
+if
+(
+!
+mFailureId
+)
+{
+return
+;
+}
 nsCString
 str
 (
