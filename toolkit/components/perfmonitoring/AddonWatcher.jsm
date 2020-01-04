@@ -461,6 +461,9 @@ Date
 now
 (
 )
+_latestSnapshot
+:
+null
 /
 *
 *
@@ -1210,7 +1213,7 @@ true
 let
 diff
 =
-snapshot
+currentSnapshot
 .
 processData
 .
@@ -1442,11 +1445,6 @@ this
 .
 _latestSnapshot
 ;
-/
-/
-FIXME
-:
-Implement
 let
 snapshot
 =
@@ -1868,7 +1866,7 @@ trustworthy
 /
 Ignore
 .
-continue
+return
 ;
 }
 /
