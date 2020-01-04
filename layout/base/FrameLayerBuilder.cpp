@@ -13546,6 +13546,9 @@ agr
 aAnimatedGeometryRoot
 ;
 agr
+&
+&
+agr
 !
 =
 mContainerAnimatedGeometryRoot
