@@ -2703,11 +2703,11 @@ mIndex
 .
 mDecodeTime
 ;
-float
+double
 adjust
 =
 (
-float
+double
 )
 decodeDuration
 /
@@ -2773,9 +2773,12 @@ mDecodeTime
 =
 dtsOffset
 +
+int64_t
+(
 compositionDuration
 *
 adjust
+)
 ;
 compositionDuration
 +
