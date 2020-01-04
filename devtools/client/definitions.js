@@ -134,8 +134,6 @@ client
 /
 inspector
 /
-inspector
--
 panel
 "
 )
