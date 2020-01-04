@@ -8437,11 +8437,13 @@ Length
 ;
 uint32_t
 matchedIndex
+=
+0u
 ;
 uint32_t
 nameReference
 =
-0
+0u
 ;
 bool
 match

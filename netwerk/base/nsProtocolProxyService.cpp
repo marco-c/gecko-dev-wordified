@@ -820,6 +820,8 @@ aOut
 {
 nsresult
 rv
+=
+NS_OK
 ;
 nsCOMPtr
 <
