@@ -486,14 +486,10 @@ parallel_
 /
 /
 Basic
-Shapes
-(
-currently
-unused
-)
+shapes
 enum
 class
-StyleBasicShape
+StyleBasicShapeType
 :
 uint8_t
 {
