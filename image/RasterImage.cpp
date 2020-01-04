@@ -9669,11 +9669,8 @@ void
 RasterImage
 :
 :
-FinalizeDecoder
+NotifyDecodeComplete
 (
-Decoder
-*
-aDecoder
 const
 DecoderFinalStatus
 &
@@ -9710,11 +9707,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-aDecoder
-)
-;
 /
 /
 If
@@ -9745,7 +9737,6 @@ mWasAborted
 {
 ReportDecoderError
 (
-aDecoder
 )
 ;
 }
@@ -10195,9 +10186,6 @@ RasterImage
 :
 ReportDecoderError
 (
-Decoder
-*
-aDecoder
 )
 {
 nsCOMPtr
