@@ -239,7 +239,7 @@ CallObject
 RESERVED_SLOTS
 =
 =
-BlockObject
+ClonedBlockObject
 :
 :
 RESERVED_SLOTS

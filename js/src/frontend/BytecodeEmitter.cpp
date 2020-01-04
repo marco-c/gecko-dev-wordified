@@ -19063,7 +19063,7 @@ sc
 .
 setSlot
 (
-BlockObject
+ClonedBlockObject
 :
 :
 RESERVED_SLOTS

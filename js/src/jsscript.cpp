@@ -6807,7 +6807,7 @@ obj
 >
 is
 <
-BlockObject
+StaticBlockScope
 >
 (
 )

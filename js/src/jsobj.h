@@ -4132,10 +4132,6 @@ ClonedBlockObject
 *
 is
 <
-BlockObject
->
-is
-<
 NestedScopeObject
 >
 and
@@ -4146,10 +4142,10 @@ ScopeObject
 .
 Each
 of
-*
 these
 has
 a
+*
 respective
 class
 that

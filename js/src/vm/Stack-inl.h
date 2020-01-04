@@ -287,7 +287,7 @@ obj
 >
 is
 <
-BlockObject
+ClonedBlockObject
 >
 (
 )
