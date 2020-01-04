@@ -1419,7 +1419,7 @@ for
 retrieval
 later
 .
-void
+nsresult
 CacheExternalData
 (
 const
@@ -1431,6 +1431,8 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 ;
 /
