@@ -808,6 +808,10 @@ handlingSegFault
 (
 false
 )
+handlingJitInterrupt_
+(
+false
+)
 interruptCallback
 (
 nullptr
