@@ -26427,8 +26427,6 @@ wheel
 scrolling
 speed
 on
-the
-root
 /
 /
 content
@@ -26464,7 +26462,6 @@ by
 the
 user
 the
-root
 content
 scrolling
 /
