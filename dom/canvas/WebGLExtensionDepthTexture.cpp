@@ -186,6 +186,13 @@ effFormat
 usage
 -
 >
+isFilterable
+=
+true
+;
+usage
+-
+>
 SetRenderable
 (
 )
