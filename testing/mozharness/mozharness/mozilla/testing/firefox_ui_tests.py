@@ -3185,6 +3185,20 @@ external_attr
 &
 0x1FF
                     
+#
+Only
+set
+permissions
+if
+attributes
+are
+available
+.
+                    
+if
+mode
+:
+                        
 os
 .
 chmod
