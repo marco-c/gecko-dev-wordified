@@ -1170,12 +1170,11 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
 devtools
-/
-client
 /
 shared
 /
