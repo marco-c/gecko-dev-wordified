@@ -237,7 +237,7 @@ decoder
 ;
 }
 void
-Decode
+ProcessDecode
 (
 MediaRawData
 *
@@ -253,7 +253,7 @@ aSample
 )
 ;
 void
-DoDrain
+ProcessDrain
 (
 )
 ;
