@@ -22149,7 +22149,10 @@ NS_STYLE_USER_MODIFY_READ_ONLY
 )
 mUserFocus
 (
-NS_STYLE_USER_FOCUS_NONE
+StyleUserFocus
+:
+:
+None_
 )
 mPointerEvents
 (

@@ -19241,7 +19241,10 @@ modify
 -
 content
 )
-uint8_t
+mozilla
+:
+:
+StyleUserFocus
 mUserFocus
 ;
 /

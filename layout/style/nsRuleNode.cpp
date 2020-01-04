@@ -8309,6 +8309,12 @@ StyleFloatEdge
 ContentBox
 MarginBox
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleUserFocus
+None
+SelectMenu
+)
 #
 undef
 DEF_SET_ENUMERATED_VALUE
@@ -33999,7 +34005,10 @@ parentUI
 -
 >
 mUserFocus
-NS_STYLE_USER_FOCUS_NONE
+StyleUserFocus
+:
+:
+None_
 )
 ;
 /
