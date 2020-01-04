@@ -285,7 +285,7 @@ aThisAsDoc
 {
 MOZ_COUNT_CTOR
 (
-ProxyAccessibleBase
+ProxyAccessible
 )
 ;
 }
