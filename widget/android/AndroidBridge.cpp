@@ -446,6 +446,13 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+MediaPrefs
+.
+h
+"
 using
 namespace
 mozilla
@@ -1314,6 +1321,13 @@ sBridge
 =
 new
 AndroidBridge
+(
+)
+;
+MediaPrefs
+:
+:
+GetSingleton
 (
 )
 ;
