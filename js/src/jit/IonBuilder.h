@@ -7386,6 +7386,9 @@ block
 >
 specializePhis
 (
+alloc
+(
+)
 )
 )
 return

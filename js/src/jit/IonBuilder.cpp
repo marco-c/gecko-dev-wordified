@@ -4261,6 +4261,9 @@ newPhi
 >
 addBackedgeType
 (
+alloc
+(
+)
 oldPhi
 -
 >
@@ -4551,6 +4554,9 @@ phi
 >
 addBackedgeType
 (
+alloc
+(
+)
 type
 typeSet
 )
@@ -4660,6 +4666,9 @@ phi
 >
 addBackedgeType
 (
+alloc
+(
+)
 otherPhi
 -
 >
@@ -4942,6 +4951,9 @@ phi
 >
 addBackedgeType
 (
+alloc
+(
+)
 type
 nullptr
 )
@@ -15733,6 +15745,9 @@ entry
 >
 setBackedge
 (
+alloc
+(
+)
 current
 )
 ;
@@ -54989,6 +55004,9 @@ phi
 >
 addBackedgeType
 (
+alloc
+(
+)
 type
 typeSet
 )
