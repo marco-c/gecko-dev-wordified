@@ -98,7 +98,7 @@ test
 cases
 requestLongerTimeout
 (
-2
+3
 )
 ;
 Task
