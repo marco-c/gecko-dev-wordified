@@ -392,7 +392,7 @@ char
 path
 )
 {
-strncpy
+strlcpy
 (
 path_
 path
@@ -400,8 +400,6 @@ sizeof
 (
 path_
 )
--
-1
 )
 ;
 }
