@@ -1772,6 +1772,16 @@ EXTRA_TITLE
 title
 )
 ;
+sendTabNotificationIntent
+.
+putExtra
+(
+BrowserContract
+.
+EXTRA_CLIENT_GUID
+clientId
+)
+;
 final
 ComponentName
 componentName
