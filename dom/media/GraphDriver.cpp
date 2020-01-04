@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 CubebUtils
 .
 h
@@ -1429,6 +1438,9 @@ n
 mGraphImpl
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 mThread
