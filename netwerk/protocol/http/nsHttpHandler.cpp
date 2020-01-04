@@ -414,6 +414,13 @@ h
 #
 include
 "
+nsPIDOMWindow
+.
+h
+"
+#
+include
+"
 nsINetworkLinkService
 .
 h

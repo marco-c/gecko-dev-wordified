@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 WebAudioUtils
 .
 h

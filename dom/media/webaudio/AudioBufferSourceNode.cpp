@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

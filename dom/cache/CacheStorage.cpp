@@ -320,6 +320,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

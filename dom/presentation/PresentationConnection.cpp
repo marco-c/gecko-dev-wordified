@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

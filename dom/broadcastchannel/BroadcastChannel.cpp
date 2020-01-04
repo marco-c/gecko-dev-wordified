@@ -208,6 +208,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 WorkerPrivate
 .
 h

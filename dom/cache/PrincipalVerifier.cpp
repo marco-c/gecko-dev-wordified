@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

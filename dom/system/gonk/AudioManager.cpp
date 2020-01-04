@@ -311,6 +311,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

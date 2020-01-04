@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIDOMClassInfo
 .
 h

@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+nsIContentParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h

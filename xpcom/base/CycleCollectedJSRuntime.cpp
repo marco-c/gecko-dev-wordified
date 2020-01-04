@@ -771,6 +771,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsCycleCollectionNoteRootCallback
 .
 h

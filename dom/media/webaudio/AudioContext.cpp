@@ -323,6 +323,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
