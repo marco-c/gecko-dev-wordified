@@ -521,6 +521,38 @@ self
 )
 :
         
+self
+.
+ensure_mobile_android_packages
+(
+)
+    
+def
+install_mobile_android_artifact_mode_packages
+(
+self
+)
+:
+        
+self
+.
+ensure_mobile_android_packages
+(
+artifact_mode
+=
+True
+)
+    
+def
+ensure_mobile_android_packages
+(
+self
+artifact_mode
+=
+False
+)
+:
+        
 import
 android
         
@@ -543,8 +575,17 @@ packages
 .
 Android
 SDK
-and
+.
+Android
 NDK
+only
+if
+we
+are
+not
+in
+artifact
+mode
 .
         
 #
@@ -932,6 +973,10 @@ ndk_url
 self
 .
 ndk_url
+                                           
+artifact_mode
+=
+artifact_mode
 )
         
 android_tool
@@ -966,6 +1011,9 @@ def
 suggest_mobile_android_mozconfig
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -987,6 +1035,26 @@ ndk_path
 self
 .
 ndk_path
+                                  
+artifact_mode
+=
+artifact_mode
+)
+    
+def
+suggest_mobile_android_artifact_mode_mozconfig
+(
+self
+)
+:
+        
+self
+.
+suggest_mobile_android_mozconfig
+(
+artifact_mode
+=
+True
 )
     
 def
