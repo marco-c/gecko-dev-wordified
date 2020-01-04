@@ -1406,6 +1406,8 @@ NotifyStartedAudible
 (
 bool
 aAudible
+uint32_t
+aReason
 )
 {
 MOZ_LOG
@@ -1483,6 +1485,16 @@ AudibleState
 >
 (
 aAudible
+)
+static_cast
+<
+AudioChannelService
+:
+:
+AudibleChangedReasons
+>
+(
+aReason
 )
 )
 ;
