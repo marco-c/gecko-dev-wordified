@@ -5896,6 +5896,14 @@ return
 }
 if
 (
+mErrorLoad
+)
+{
+return
+;
+}
+if
+(
 nsCOMPtr
 <
 nsIHttpChannel
