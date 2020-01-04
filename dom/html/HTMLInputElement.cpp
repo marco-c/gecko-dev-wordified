@@ -1727,10 +1727,6 @@ Create
 (
 aWindow
 file
-Directory
-:
-:
-eDOMRootDirectory
 )
 ;
 MOZ_ASSERT
@@ -12629,10 +12625,6 @@ Create
 (
 window
 file
-Directory
-:
-:
-eDOMRootDirectory
 )
 ;
 MOZ_ASSERT

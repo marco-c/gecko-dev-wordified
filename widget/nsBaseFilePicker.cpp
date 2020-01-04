@@ -332,10 +332,6 @@ Create
 (
 aWindow
 aFile
-Directory
-:
-:
-eDOMRootDirectory
 )
 ;
 MOZ_ASSERT
