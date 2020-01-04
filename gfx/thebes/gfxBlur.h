@@ -1208,6 +1208,15 @@ gfx
 :
 Rect
 aSkipRect
+const
+mozilla
+:
+:
+gfx
+:
+:
+Point
+aShadowOffset
 )
 ;
 protected

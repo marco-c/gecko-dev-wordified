@@ -5887,6 +5887,9 @@ aInnerClipRadii
 const
 Rect
 aSkipRect
+const
+Point
+aShadowOffset
 )
 {
 /
@@ -6005,6 +6008,13 @@ Rect
 dstOuter
 (
 aDestinationRect
+)
+;
+dstOuter
+.
+MoveBy
+(
+aShadowOffset
 )
 ;
 dstOuter
