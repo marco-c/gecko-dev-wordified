@@ -276,7 +276,7 @@ WidgetEvent
 time
 mEvent
 .
-animationName
+mAnimationName
 =
 aAnimationName
 ;

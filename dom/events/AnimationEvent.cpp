@@ -328,7 +328,7 @@ AsAnimationEvent
 internalEvent
 -
 >
-animationName
+mAnimationName
 =
 aParam
 .
@@ -389,7 +389,7 @@ AsAnimationEvent
 )
 -
 >
-animationName
+mAnimationName
 ;
 return
 NS_OK
