@@ -59162,6 +59162,16 @@ minHeight
 0
 )
 ;
+pref
+(
+"
+webextensions
+.
+tests
+"
+false
+)
+;
 /
 /
 Allow
