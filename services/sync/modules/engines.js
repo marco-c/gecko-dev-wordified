@@ -7656,7 +7656,7 @@ resp
 =
 newitems
 .
-get
+getBatched
 (
 )
 ;
