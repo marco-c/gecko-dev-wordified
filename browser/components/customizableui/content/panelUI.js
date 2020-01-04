@@ -185,6 +185,8 @@ get
 kEvents
 (
 )
+{
+return
 [
 "
 popupshowing
@@ -199,6 +201,8 @@ popuphiding
 popuphidden
 "
 ]
+;
+}
 /
 *
 *
