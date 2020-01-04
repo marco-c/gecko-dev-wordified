@@ -135,15 +135,6 @@ mozilla
 .
 gecko
 .
-GeckoEvent
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import

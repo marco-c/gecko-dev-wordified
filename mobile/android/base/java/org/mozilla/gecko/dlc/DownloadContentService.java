@@ -123,15 +123,6 @@ mozilla
 .
 gecko
 .
-GeckoEvent
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 dlc
 .
 catalog

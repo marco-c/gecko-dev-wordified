@@ -2005,9 +2005,6 @@ state
 and
 connection
 type
-as
-a
-GeckoEvent
 to
 whomever
 is

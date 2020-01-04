@@ -114,15 +114,6 @@ mozilla
 .
 gecko
 .
-GeckoEvent
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 EventDispatcher
 ;
 import
