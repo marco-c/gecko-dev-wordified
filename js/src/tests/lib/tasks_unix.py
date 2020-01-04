@@ -811,6 +811,14 @@ stdout
 )
     
 readable
+=
+[
+]
+    
+try
+:
+        
+readable
 _
 _
 =
@@ -824,6 +832,26 @@ rlist
 exlist
 timeout
 )
+    
+except
+OverflowError
+as
+e
+:
+        
+print
+>
+>
+sys
+.
+stderr
+"
+timeout
+value
+"
+timeout
+        
+raise
     
 for
 fd
