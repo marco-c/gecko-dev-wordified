@@ -163,8 +163,6 @@ require
 "
 acorn
 /
-dist
-/
 acorn
 "
 )
