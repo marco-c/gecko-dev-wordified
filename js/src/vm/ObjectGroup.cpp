@@ -12959,7 +12959,7 @@ bool
 ObjectGroupCompartment
 :
 :
-PlainObjectGCPolicy
+PlainObjectTableSweepPolicy
 :
 :
 needsSweep
@@ -12976,7 +12976,10 @@ if
 (
 !
 (
-KeyPolicy
+DefaultGCPolicy
+<
+PlainObjectKey
+>
 :
 :
 needsSweep
