@@ -123,7 +123,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
