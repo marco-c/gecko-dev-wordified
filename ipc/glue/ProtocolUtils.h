@@ -1134,7 +1134,7 @@ interface
 class
 IProtocol
 :
-protected
+public
 MessageListener
 {
 public
