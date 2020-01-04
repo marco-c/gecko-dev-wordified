@@ -137,6 +137,13 @@ implementation
 .
 *
 /
+if
+(
+asyncFunctionsEnabled
+(
+)
+)
+{
 assertEq
 (
 Reflect
@@ -1239,6 +1246,7 @@ async
 true
 )
 ;
+}
 if
 (
 typeof
