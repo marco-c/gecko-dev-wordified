@@ -9940,6 +9940,15 @@ db
 ;
 break
 ;
+/
+/
+case
+27
+occurs
+in
+UrlMetadataTable
+.
+onUpgrade
 case
 28
 :
