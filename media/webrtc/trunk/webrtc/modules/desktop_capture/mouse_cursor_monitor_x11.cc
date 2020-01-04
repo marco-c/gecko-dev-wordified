@@ -912,7 +912,7 @@ XQueryPointer
 display
 (
 )
-inner_window
+inner_window_
 &
 root_window
 &
