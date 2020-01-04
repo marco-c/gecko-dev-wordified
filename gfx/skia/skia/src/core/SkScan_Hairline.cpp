@@ -5059,7 +5059,7 @@ height
 )
 <
 =
-dx
+dy
 )
 {
 SkScan
