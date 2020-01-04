@@ -790,7 +790,7 @@ void
 nsTreeColFrame
 :
 :
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &
@@ -813,7 +813,7 @@ width
 nsBoxFrame
 :
 :
-SetBounds
+SetXULBounds
 (
 aBoxLayoutState
 aRect

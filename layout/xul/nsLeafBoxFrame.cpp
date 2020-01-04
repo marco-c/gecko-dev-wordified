@@ -1806,7 +1806,7 @@ computedSize
 height
 )
 ;
-SetBounds
+SetXULBounds
 (
 state
 r
@@ -1875,7 +1875,7 @@ rect
 is
 set
 in
-SetBounds
+SetXULBounds
 (
 )
 above

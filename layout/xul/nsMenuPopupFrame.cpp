@@ -3069,7 +3069,7 @@ if
 sizeChanged
 )
 {
-SetBounds
+SetXULBounds
 (
 aState
 nsRect
@@ -10226,7 +10226,7 @@ still
 extend
 outside
 ?
-SetBounds
+SetXULBounds
 (
 state
 mRect

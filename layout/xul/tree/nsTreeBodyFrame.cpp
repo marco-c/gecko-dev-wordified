@@ -2265,7 +2265,7 @@ void
 nsTreeBodyFrame
 :
 :
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &
@@ -2301,7 +2301,7 @@ horzWidth
 nsLeafBoxFrame
 :
 :
-SetBounds
+SetXULBounds
 (
 aBoxLayoutState
 aRect

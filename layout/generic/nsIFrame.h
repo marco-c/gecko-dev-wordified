@@ -21365,7 +21365,7 @@ convenience
 .
 virtual
 void
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &

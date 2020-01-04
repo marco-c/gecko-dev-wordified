@@ -4213,7 +4213,7 @@ physicalSize
 height
 )
 ;
-SetBounds
+SetXULBounds
 (
 state
 r
@@ -11375,7 +11375,7 @@ GetRect
 aBox
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 aRect

@@ -2079,7 +2079,7 @@ child
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -2349,7 +2349,7 @@ height
 aBox
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 bounds
