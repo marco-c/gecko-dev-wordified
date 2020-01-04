@@ -3683,14 +3683,10 @@ forget
 (
 )
 )
-grallocData
-.
-mPicSize
+picSize
 .
 width
-grallocData
-.
-mPicSize
+picSize
 .
 height
 timestamp
