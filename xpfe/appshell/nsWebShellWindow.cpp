@@ -2685,7 +2685,7 @@ if
 mChromeLoaded
 )
 {
-SetAttributesDirty
+PersistentAttributesDirty
 (
 PAD_POSITION
 |
@@ -2694,7 +2694,7 @@ PAD_SIZE
 PAD_MISC
 )
 ;
-SaveAttributes
+SavePersistentAttributes
 (
 )
 ;
@@ -3157,7 +3157,7 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-SetAttributesDirty
+PersistentAttributesDirty
 (
 aDirtyFlags
 )
@@ -3177,7 +3177,7 @@ lock
 mSPTimerLock
 )
 ;
-SaveAttributes
+SavePersistentAttributes
 (
 )
 ;
@@ -4668,7 +4668,7 @@ Cancel
 (
 )
 ;
-SaveAttributes
+SavePersistentAttributes
 (
 )
 ;
