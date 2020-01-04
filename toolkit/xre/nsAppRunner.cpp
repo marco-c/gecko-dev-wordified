@@ -27525,6 +27525,12 @@ endif
 /
 /
 XP_WIN
+#
+if
+defined
+(
+MOZ_WIDGET_GTK
+)
 /
 *
 *
@@ -27607,6 +27613,11 @@ return
 gMultiprocessBlockPolicy
 ;
 }
+#
+endif
+/
+/
+MOZ_WIDGET_GTK
 /
 *
 *
