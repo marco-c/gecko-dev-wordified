@@ -2310,6 +2310,7 @@ NOTIFY_LISTENERS
 OnHistoryNewEntry
 (
 uri
+currentIndex
 )
 )
 ;
