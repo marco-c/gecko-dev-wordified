@@ -1082,6 +1082,19 @@ is_module
 =
 False
         
+self
+.
+test_reflect_stringify
+=
+None
+#
+Reflect
+.
+stringify
+implementation
+to
+test
+        
 #
 Expected
 by
@@ -1217,6 +1230,14 @@ expect_status
 self
 .
 expect_status
+        
+t
+.
+test_reflect_stringify
+=
+self
+.
+test_reflect_stringify
         
 t
 .
@@ -2086,6 +2107,28 @@ valgrind
 =
 True
         
+if
+options
+.
+test_reflect_stringify
+is
+not
+None
+:
+            
+test
+.
+expect_error
+=
+'
+'
+            
+test
+.
+expect_status
+=
+0
+        
 return
 test
     
@@ -2389,7 +2432,12 @@ module
 path
 ]
         
-else
+elif
+self
+.
+test_reflect_stringify
+is
+None
 :
             
 cmd
@@ -2400,6 +2448,28 @@ cmd
 -
 f
 '
+path
+]
+        
+else
+:
+            
+cmd
++
+=
+[
+'
+-
+-
+'
+self
+.
+test_reflect_stringify
+"
+-
+-
+check
+"
 path
 ]
         
@@ -2614,6 +2684,28 @@ prefix
 options
 )
 :
+    
+if
+options
+.
+test_reflect_stringify
+:
+        
+raise
+ValueError
+(
+"
+can
+'
+t
+run
+Reflect
+.
+stringify
+tests
+remotely
+"
+)
     
 cmd
 =
