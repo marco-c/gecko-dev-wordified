@@ -12399,9 +12399,9 @@ return
 scrollableFrame
 ;
 }
-continue
-;
 }
+else
+{
 ScrollbarStyles
 ss
 =
@@ -12436,9 +12436,12 @@ mHorizontal
 =
 NS_STYLE_OVERFLOW_HIDDEN
 )
+{
 return
 scrollableFrame
 ;
+}
+}
 }
 if
 (
