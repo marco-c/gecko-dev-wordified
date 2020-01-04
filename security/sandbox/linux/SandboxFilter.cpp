@@ -3056,6 +3056,9 @@ case
 SYS_ACCEPT
 :
 case
+SYS_ACCEPT4
+:
+case
 SYS_BIND
 :
 case
