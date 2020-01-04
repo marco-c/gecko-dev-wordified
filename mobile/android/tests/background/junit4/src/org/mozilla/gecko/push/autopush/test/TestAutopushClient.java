@@ -115,6 +115,17 @@ autopush
 .
 AutopushClientException
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
+Utils
+;
 RunWith
 (
 TestRunner
@@ -164,7 +175,7 @@ gcm
 /
 829133274407
 "
-WaitHelper
+Utils
 .
 newSynchronousExecutor
 (
@@ -230,7 +241,7 @@ v1
 /
 gcm
 "
-WaitHelper
+Utils
 .
 newSynchronousExecutor
 (

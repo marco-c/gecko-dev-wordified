@@ -419,7 +419,7 @@ new
 AutopushClient
 (
 serverURL
-WaitHelper
+Utils
 .
 newSynchronousExecutor
 (
