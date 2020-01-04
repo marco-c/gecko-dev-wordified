@@ -397,6 +397,13 @@ aFormats
 =
 =
 PIX_FMT_YUV420P
+|
+|
+*
+aFormats
+=
+=
+PIX_FMT_YUVJ420P
 )
 {
 FFMPEG_LOG
