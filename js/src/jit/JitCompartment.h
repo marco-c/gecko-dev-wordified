@@ -2994,6 +2994,9 @@ toggleAutoWritableJitCodeActive
 true
 )
 ;
+if
+(
+!
 ExecutableAllocator
 :
 :
@@ -3001,6 +3004,10 @@ makeWritable
 (
 addr_
 size_
+)
+)
+MOZ_CRASH
+(
 )
 ;
 }
@@ -3066,6 +3073,9 @@ AutoWritableJitCode
 (
 )
 {
+if
+(
+!
 ExecutableAllocator
 :
 :
@@ -3073,6 +3083,10 @@ makeExecutable
 (
 addr_
 size_
+)
+)
+MOZ_CRASH
+(
 )
 ;
 rt_

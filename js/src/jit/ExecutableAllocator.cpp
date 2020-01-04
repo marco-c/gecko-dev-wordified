@@ -2348,6 +2348,9 @@ m_allocation
 .
 pages
 ;
+if
+(
+!
 reprotectRegion
 (
 start
@@ -2358,6 +2361,10 @@ m_freePtr
 -
 start
 protection
+)
+)
+MOZ_CRASH
+(
 )
 ;
 #

@@ -590,7 +590,7 @@ PROT_READ
 |
 PROT_EXEC
 ;
-void
+bool
 ExecutableAllocator
 :
 :
@@ -706,6 +706,8 @@ pageSize
 1
 )
 ;
+return
+!
 mprotect
 (
 pageStart

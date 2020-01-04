@@ -6303,6 +6303,9 @@ AllocateCode
 comment
 above
 .
+if
+(
+!
 ExecutableAllocator
 :
 :
@@ -6315,7 +6318,17 @@ pod
 .
 codeBytes_
 )
+)
+{
+ReportOutOfMemory
+(
+cx
+)
 ;
+return
+false
+;
+}
 sendCodeRangesToProfiler
 (
 cx
