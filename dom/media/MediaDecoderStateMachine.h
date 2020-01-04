@@ -5805,9 +5805,6 @@ assumed
 bool
 mSentFirstFrameLoadedEvent
 ;
-bool
-mSentPlaybackEndedEvent
-;
 /
 /
 True

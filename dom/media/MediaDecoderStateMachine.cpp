@@ -3951,9 +3951,6 @@ Exit
 )
 override
 {
-mMaster
--
->
 mSentPlaybackEndedEvent
 =
 false
@@ -4170,9 +4167,6 @@ PLAY_STATE_PLAYING
 &
 &
 !
-mMaster
--
->
 mSentPlaybackEndedEvent
 )
 {
@@ -4270,9 +4264,6 @@ MediaEventType
 PlaybackEnded
 )
 ;
-mMaster
--
->
 mSentPlaybackEndedEvent
 =
 true
@@ -4312,6 +4303,13 @@ return
 DECODER_STATE_COMPLETED
 ;
 }
+private
+:
+bool
+mSentPlaybackEndedEvent
+=
+false
+;
 }
 ;
 class
@@ -4656,10 +4654,6 @@ mSentLoadedMetadataEvent
 false
 )
 mSentFirstFrameLoadedEvent
-(
-false
-)
-mSentPlaybackEndedEvent
 (
 false
 )
