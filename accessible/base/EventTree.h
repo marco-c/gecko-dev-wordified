@@ -491,6 +491,13 @@ events
 void
 Process
 (
+const
+RefPtr
+<
+DocAccessible
+>
+&
+aDeathGrip
 )
 ;
 /
