@@ -422,7 +422,7 @@ nsAccCollector
 protected
 Accessible
 *
-AccCollector
+EmbeddedObjCollector
 :
 :
 EnsureNGetObject
