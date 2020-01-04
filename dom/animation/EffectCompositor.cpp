@@ -204,15 +204,6 @@ include
 "
 mozilla
 /
-InitializerList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LayerAnimationInfo
 .
 h
@@ -314,6 +305,11 @@ h
 include
 <
 bitset
+>
+#
+include
+<
+initializer_list
 >
 using
 mozilla

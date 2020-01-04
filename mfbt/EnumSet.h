@@ -151,13 +151,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-InitializerList
-.
-h
-"
+<
+initializer_list
+>
 #
 include
 <

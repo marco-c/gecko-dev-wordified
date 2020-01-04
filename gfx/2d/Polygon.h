@@ -108,15 +108,6 @@ include
 "
 mozilla
 /
-InitializerList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Move
 .
 h
@@ -142,6 +133,11 @@ Triangle
 .
 h
 "
+#
+include
+<
+initializer_list
+>
 namespace
 mozilla
 {

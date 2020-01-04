@@ -186,15 +186,6 @@ include
 "
 mozilla
 /
-InitializerList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MathAlgorithms
 .
 h
@@ -291,6 +282,11 @@ nsRegionFwd
 .
 h
 "
+#
+include
+<
+initializer_list
+>
 #
 include
 <
