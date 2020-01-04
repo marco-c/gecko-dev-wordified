@@ -4950,6 +4950,7 @@ this
 initForBrowser
 (
 browser
+window
 )
 ;
 return
@@ -4959,17 +4960,9 @@ true
 initForBrowser
 (
 aBrowser
+window
 )
 {
-let
-window
-=
-aBrowser
-.
-ownerDocument
-.
-defaultView
-;
 let
 gBrowser
 =
