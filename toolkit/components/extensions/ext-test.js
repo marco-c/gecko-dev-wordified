@@ -179,8 +179,12 @@ listeners
 /
 extensions
 .
-registerAPI
+registerSchemaAPI
 (
+"
+test
+"
+null
 (
 extension
 context
