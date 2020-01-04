@@ -382,16 +382,10 @@ Bug
 722777
 *
 /
--
-moz
--
 transform
 :
 inherit
 ;
--
-moz
--
 transform
 -
 origin
@@ -404,9 +398,6 @@ Bug
 724750
 *
 /
--
-moz
--
 backface
 -
 visibility
