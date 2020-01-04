@@ -1640,6 +1640,7 @@ mFrameReference
 ;
 class
 nsSVGMarkerProperty
+final
 :
 public
 nsSVGRenderingObserverProperty
@@ -1679,6 +1680,7 @@ override
 ;
 class
 nsSVGTextPathProperty
+final
 :
 public
 nsSVGRenderingObserverProperty
@@ -1767,6 +1769,7 @@ mValid
 ;
 class
 nsSVGPaintingProperty
+final
 :
 public
 nsSVGRenderingObserverProperty
