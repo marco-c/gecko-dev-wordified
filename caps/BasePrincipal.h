@@ -179,6 +179,9 @@ nsExpandedPrincipal
 namespace
 mozilla
 {
+class
+GenericOriginAttributes
+;
 /
 /
 Base
@@ -434,6 +437,15 @@ SyncAttributesWithPrivateBrowsing
 (
 bool
 aInPrivateBrowsing
+)
+;
+void
+SetFromGenericAttributes
+(
+const
+GenericOriginAttributes
+&
+aAttrs
 )
 ;
 protected
