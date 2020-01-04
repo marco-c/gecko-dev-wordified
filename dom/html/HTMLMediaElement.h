@@ -9512,6 +9512,9 @@ users
 bool
 mAudible
 ;
+nsAutoCString
+mMimeType
+;
 }
 ;
 }
