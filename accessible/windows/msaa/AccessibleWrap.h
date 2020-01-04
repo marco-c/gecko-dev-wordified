@@ -305,6 +305,7 @@ void
 *
 *
 )
+override
 ;
 /
 /
@@ -366,6 +367,7 @@ __RPC_FAR
 *
 ppdispParent
 )
+override
 ;
 virtual
 /
@@ -397,6 +399,7 @@ __RPC_FAR
 *
 pcountChildren
 )
+override
 ;
 virtual
 /
@@ -439,6 +442,7 @@ __RPC_FAR
 *
 ppdispChild
 )
+override
 ;
 virtual
 /
@@ -482,6 +486,7 @@ __RPC_FAR
 *
 pszName
 )
+override
 ;
 virtual
 /
@@ -525,6 +530,7 @@ __RPC_FAR
 *
 pszValue
 )
+override
 ;
 virtual
 /
@@ -568,6 +574,7 @@ __RPC_FAR
 *
 pszDescription
 )
+override
 ;
 virtual
 /
@@ -611,6 +618,7 @@ __RPC_FAR
 *
 pvarRole
 )
+override
 ;
 virtual
 /
@@ -654,6 +662,7 @@ __RPC_FAR
 *
 pvarState
 )
+override
 ;
 virtual
 /
@@ -697,6 +706,7 @@ __RPC_FAR
 *
 pszHelp
 )
+override
 ;
 virtual
 /
@@ -751,6 +761,7 @@ __RPC_FAR
 *
 pidTopic
 )
+override
 ;
 virtual
 /
@@ -794,6 +805,7 @@ __RPC_FAR
 *
 pszKeyboardShortcut
 )
+override
 ;
 virtual
 /
@@ -825,6 +837,7 @@ __RPC_FAR
 *
 pvarChild
 )
+override
 ;
 virtual
 /
@@ -856,6 +869,7 @@ __RPC_FAR
 *
 pvarChildren
 )
+override
 ;
 virtual
 /
@@ -899,6 +913,7 @@ __RPC_FAR
 *
 pszDefaultAction
 )
+override
 ;
 virtual
 /
@@ -934,6 +949,7 @@ in
 VARIANT
 varChild
 )
+override
 ;
 virtual
 /
@@ -1004,6 +1020,7 @@ in
 VARIANT
 varChild
 )
+override
 ;
 virtual
 /
@@ -1053,6 +1070,7 @@ __RPC_FAR
 *
 pvarEndUpAt
 )
+override
 ;
 virtual
 /
@@ -1099,6 +1117,7 @@ __RPC_FAR
 *
 pvarChild
 )
+override
 ;
 virtual
 /
@@ -1125,6 +1144,7 @@ in
 VARIANT
 varChild
 )
+override
 ;
 virtual
 /
@@ -1163,6 +1183,7 @@ in
 BSTR
 szName
 )
+override
 ;
 virtual
 /
@@ -1201,6 +1222,7 @@ in
 BSTR
 szValue
 )
+override
 ;
 /
 /
@@ -1222,6 +1244,7 @@ UINT
 *
 pctinfo
 )
+override
 ;
 virtual
 HRESULT
@@ -1237,6 +1260,7 @@ ITypeInfo
 *
 ppTInfo
 )
+override
 ;
 virtual
 HRESULT
@@ -1256,6 +1280,7 @@ DISPID
 *
 rgDispId
 )
+override
 ;
 virtual
 HRESULT
@@ -1283,6 +1308,7 @@ UINT
 *
 puArgErr
 )
+override
 ;
 /
 /
@@ -1295,6 +1321,7 @@ AccEvent
 *
 aEvent
 )
+override
 ;
 virtual
 void
