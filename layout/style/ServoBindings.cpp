@@ -1020,7 +1020,7 @@ atomStr
 NS_ConvertUTF8toUTF16
 inStr
 (
-nsDependentCString
+nsDependentCSubstring
 (
 aString
 aLength
@@ -1091,7 +1091,7 @@ atomStr
 NS_ConvertUTF8toUTF16
 inStr
 (
-nsDependentCString
+nsDependentCSubstring
 (
 aString
 aLength
