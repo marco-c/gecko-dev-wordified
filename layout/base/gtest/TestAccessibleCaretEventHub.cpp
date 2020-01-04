@@ -366,7 +366,7 @@ nullptr
 )
 {
 }
-MOCK_METHOD1
+MOCK_METHOD2
 (
 PressCaret
 nsresult
@@ -375,6 +375,8 @@ const
 nsPoint
 &
 aPoint
+EventClassID
+aEventClass
 )
 )
 ;
@@ -1450,6 +1452,7 @@ GetMockAccessibleCaretManager
 PressCaret
 (
 _
+_
 )
 )
 .
@@ -1593,6 +1596,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )
@@ -1802,6 +1806,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )
@@ -2056,6 +2061,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )
@@ -2361,6 +2367,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )
@@ -2692,6 +2699,7 @@ GetMockAccessibleCaretManager
 PressCaret
 (
 _
+_
 )
 )
 .
@@ -2750,6 +2758,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )
@@ -3131,6 +3140,7 @@ GetMockAccessibleCaretManager
 PressCaret
 (
 _
+_
 )
 )
 .
@@ -3297,6 +3307,7 @@ GetMockAccessibleCaretManager
 PressCaret
 (
 _
+_
 )
 )
 .
@@ -3389,6 +3400,7 @@ GetMockAccessibleCaretManager
 )
 PressCaret
 (
+_
 _
 )
 )

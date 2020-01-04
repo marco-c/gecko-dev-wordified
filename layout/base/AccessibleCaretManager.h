@@ -516,6 +516,8 @@ const
 nsPoint
 &
 aPoint
+EventClassID
+aEventClass
 )
 ;
 /
