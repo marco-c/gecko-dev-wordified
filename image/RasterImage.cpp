@@ -10440,10 +10440,10 @@ RefPtr
 RasterImage
 >
 image
-(
+=
 this
-)
 ;
+const
 bool
 wasDefaultFlags
 =
