@@ -191,6 +191,9 @@ args
 window
 .
 arguments
+[
+0
+]
 ;
 viewSourceChrome
 .
