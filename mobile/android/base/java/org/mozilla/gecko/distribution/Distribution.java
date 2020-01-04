@@ -373,7 +373,7 @@ gecko
 .
 annotation
 .
-WrapForJNI
+JNITarget
 ;
 import
 org
@@ -5529,14 +5529,7 @@ getApplicationInfo
 dataDir
 ;
 }
-WrapForJNI
-(
-calledFrom
-=
-"
-gecko
-"
-)
+JNITarget
 public
 static
 String
