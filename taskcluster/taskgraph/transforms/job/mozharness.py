@@ -1767,6 +1767,23 @@ build
 '
 )
     
+hg
+=
+r
+'
+c
+:
+\
+Program
+Files
+\
+Mercurial
+\
+hg
+.
+exe
+'
+    
 worker
 [
 '
@@ -1788,7 +1805,10 @@ src
         
 r
 '
-hg
+"
+{
+}
+"
 share
 c
 :
@@ -1808,10 +1828,18 @@ build
 \
 src
 '
+.
+format
+(
+hg
+)
         
 r
 '
-hg
+"
+{
+}
+"
 pull
 -
 u
@@ -1832,6 +1860,11 @@ GECKO_HEAD_REV
 GECKO_HEAD_REPOSITORY
 %
 '
+.
+format
+(
+hg
+)
         
 '
 '
