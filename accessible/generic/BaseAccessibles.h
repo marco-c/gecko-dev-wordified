@@ -238,6 +238,17 @@ aChild
 override
 final
 ;
+virtual
+bool
+IsAcceptableChild
+(
+nsIContent
+*
+aEl
+)
+const
+override
+;
 protected
 :
 virtual
