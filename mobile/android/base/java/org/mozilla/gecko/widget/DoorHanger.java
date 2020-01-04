@@ -601,7 +601,7 @@ R
 .
 color
 .
-divider_light
+toolbar_divider_grey
 )
 ;
 final
