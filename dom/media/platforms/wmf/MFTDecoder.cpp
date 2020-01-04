@@ -1309,7 +1309,7 @@ Type
 change
 probably
 geometric
-aperature
+aperture
 change
 .
 /

@@ -266,6 +266,12 @@ GetNumDecoderThreads
 (
 )
 ;
+static
+bool
+LowLatencyMFTEnabled
+(
+)
+;
 private
 :
 bool
