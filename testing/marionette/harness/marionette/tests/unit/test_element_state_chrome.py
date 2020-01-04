@@ -64,7 +64,7 @@ by
 import
 By
 class
-TestStateChrome
+TestIsElementEnabledChrome
 (
 MarionetteTestCase
 )
@@ -222,7 +222,7 @@ self
 )
     
 def
-test_isEnabled
+test_enabled
 (
 self
 )
@@ -366,22 +366,30 @@ y
 >
 0
 )
-    
-'
-'
-'
+#
 Switched
-on
+off
 in
-Bug
+bug
 896043
+#
+and
 to
 be
 turned
 on
 in
-Bug
+bug
 896046
+"
+"
+"
+class
+TestIsElementDisplayed
+(
+MarionetteTestCase
+)
+:
     
 def
 test_isDisplayed
@@ -471,12 +479,11 @@ false
 l
 ]
 )
-    
-'
-'
-'
+"
+"
+"
 class
-TestGetAttributeChrome
+TestGetElementAttributeChrome
 (
 MarionetteTestCase
 )
@@ -634,7 +641,7 @@ self
 )
     
 def
-test_getAttribute
+test_get
 (
 self
 )

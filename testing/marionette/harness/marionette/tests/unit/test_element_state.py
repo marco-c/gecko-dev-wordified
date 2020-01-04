@@ -64,14 +64,14 @@ by
 import
 By
 class
-TestState
+TestIsElementEnabled
 (
 MarionetteTestCase
 )
 :
     
 def
-test_isEnabled
+test_is_enabled
 (
 self
 )
@@ -160,9 +160,15 @@ is_enabled
 (
 )
 )
+class
+TestIsElementDisplayed
+(
+MarionetteTestCase
+)
+:
     
 def
-test_isDisplayed
+test_is_displayed
 (
 self
 )
@@ -252,14 +258,14 @@ is_displayed
 )
 )
 class
-TestGetAttribute
+TestGetElementAttribute
 (
 MarionetteTestCase
 )
 :
     
 def
-test_getAttribute
+test_get
 (
 self
 )
@@ -323,7 +329,7 @@ id
 )
     
 def
-test_that_we_can_return_a_boolean_attribute_correctly
+test_boolean
 (
 self
 )
