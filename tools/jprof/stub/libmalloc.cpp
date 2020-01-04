@@ -650,11 +650,6 @@ numpcs
 =
 0
 ;
-bool
-tracing
-=
-false
-;
 /
 /
 This
@@ -3933,7 +3928,7 @@ stderr
 JP_CIRCULAR
 of
 %
-d
+lu
 less
 than
 1000
@@ -3942,6 +3937,10 @@ using
 \
 n
 "
+(
+unsigned
+long
+)
 size
 )
 ;
@@ -3963,11 +3962,15 @@ JP_CIRCULAR
 buffer
 of
 %
-d
+lu
 bytes
 \
 n
 "
+(
+unsigned
+long
+)
 size
 )
 ;
@@ -4182,6 +4185,7 @@ stderr
 #
 endif
 }
+const
 char
 *
 f
