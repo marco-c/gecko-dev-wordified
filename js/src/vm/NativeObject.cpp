@@ -2515,6 +2515,11 @@ MOZ_ASSERT
 shape
 -
 >
+getObjectClass
+(
+)
+-
+>
 isNative
 (
 )
