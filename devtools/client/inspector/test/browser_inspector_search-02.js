@@ -713,7 +713,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

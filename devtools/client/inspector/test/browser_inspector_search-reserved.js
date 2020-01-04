@@ -604,7 +604,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

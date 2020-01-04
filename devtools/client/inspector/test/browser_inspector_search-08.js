@@ -400,7 +400,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

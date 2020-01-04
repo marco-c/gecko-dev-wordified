@@ -530,7 +530,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

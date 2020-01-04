@@ -1056,7 +1056,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

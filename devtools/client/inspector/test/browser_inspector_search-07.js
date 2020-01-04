@@ -255,7 +255,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;
