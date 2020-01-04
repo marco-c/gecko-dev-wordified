@@ -13058,7 +13058,7 @@ already_AddRefed
 <
 nsIScreen
 >
-nsBaseWidget
+nsIWidget
 :
 :
 GetWidgetScreen
