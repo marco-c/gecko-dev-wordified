@@ -40,7 +40,7 @@ with
 for
 each
 (
-c
+k
 in
 [
 {
@@ -53,7 +53,7 @@ in
 "
 "
 +
-c
+k
 ;
 }
 }

@@ -370,13 +370,15 @@ summary
 expect
 =
 '
-SyntaxError
+TypeError
 :
 invalid
 assignment
 to
 const
 b
+\
+'
 '
 ;
 jit
