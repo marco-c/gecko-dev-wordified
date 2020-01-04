@@ -775,15 +775,7 @@ _results
         
 #
 Store
-several
-kind
-of
-information
-:
-        
-#
--
-value
+values
 for
 each
 Option
@@ -795,8 +787,15 @@ Option
 .
 get_value
         
+self
+.
+_option_values
+=
+{
+}
+        
 #
--
+Store
 raw
 option
 (
@@ -809,11 +808,11 @@ environment
 )
 for
 each
-value
+Option
         
 self
 .
-_db
+_raw_options
 =
 {
 }
@@ -964,7 +963,7 @@ line
 if
 self
 .
-_db
+_option_values
 [
 self
 .
@@ -2007,7 +2006,7 @@ option
         
 self
 .
-_db
+_option_values
 [
 option
 ]
@@ -2016,9 +2015,9 @@ value
         
 self
 .
-_db
+_raw_options
 [
-value
+option
 ]
 =
 (
@@ -2034,7 +2033,7 @@ split
 [
 0
 ]
-                           
+                                    
 if
 option_string
 else
@@ -2432,7 +2431,7 @@ arg
 in
 self
 .
-_db
+_option_values
 or
 self
 .
@@ -2442,7 +2441,7 @@ resolved_arg
 =
 self
 .
-_db
+_option_values
 .
 get
 (
@@ -2804,6 +2803,17 @@ help
                             
 continue
                         
+prefix
+opt
+values
+=
+Option
+.
+split_option
+(
+name
+)
+                        
 deps
 .
 append
@@ -2812,14 +2822,21 @@ value
 .
 format
 (
+                            
 self
 .
-_db
+_raw_options
 .
 get
 (
-value
+self
+.
+_options
+[
+opt
+]
 )
+                            
 or
 name
 )
