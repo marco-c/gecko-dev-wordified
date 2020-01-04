@@ -5167,11 +5167,6 @@ notification
 >
 InitFromBase64
 (
-jsapi
-.
-cx
-(
-)
 aData
 aRv
 )
@@ -11989,9 +11984,6 @@ Notification
 :
 InitFromBase64
 (
-JSContext
-*
-aCx
 const
 nsAString
 &

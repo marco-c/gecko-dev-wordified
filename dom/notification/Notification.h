@@ -1573,9 +1573,6 @@ aRv
 void
 InitFromBase64
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
