@@ -235,10 +235,6 @@ public
 :
 TextureForwarder
 (
-const
-char
-*
-aName
 )
 ;
 virtual

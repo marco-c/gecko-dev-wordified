@@ -513,16 +513,8 @@ public
 :
 CompositableForwarder
 (
-const
-char
-*
-aName
 )
 :
-TextureForwarder
-(
-aName
-)
 mActiveResourceTracker
 (
 1000

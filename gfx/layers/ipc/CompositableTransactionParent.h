@@ -265,15 +265,6 @@ public
 :
 CompositableParentManager
 (
-const
-char
-*
-aName
-)
-:
-HostIPCAllocator
-(
-aName
 )
 {
 }
