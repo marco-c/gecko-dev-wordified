@@ -703,6 +703,11 @@ ReferrerPolicy
 ;
 CSSStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 ReferrerPolicy
@@ -711,6 +716,11 @@ aReferrerPolicy
 ;
 CSSStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 ReferrerPolicy

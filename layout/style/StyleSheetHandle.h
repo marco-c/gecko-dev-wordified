@@ -694,17 +694,6 @@ IsApplicable
 const
 ;
 inline
-void
-SetParsingMode
-(
-css
-:
-:
-SheetParsingMode
-aMode
-)
-;
-inline
 bool
 HasRules
 (

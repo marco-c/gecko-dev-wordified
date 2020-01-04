@@ -140,6 +140,11 @@ ServoStyleSheet
 :
 ServoStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 net
@@ -162,6 +167,7 @@ StyleBackendType
 :
 :
 Servo
+aParsingMode
 )
 StyleSheetInfo
 (
@@ -395,11 +401,6 @@ nsIPrincipal
 aSheetPrincipal
 uint32_t
 aLineNumber
-css
-:
-:
-SheetParsingMode
-aParsingMode
 )
 {
 DropSheet
@@ -486,7 +487,7 @@ input
 Length
 (
 )
-aParsingMode
+mParsingMode
 reinterpret_cast
 <
 const
