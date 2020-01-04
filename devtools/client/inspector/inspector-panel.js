@@ -2563,9 +2563,11 @@ devtools
 /
 content
 /
-styleinspector
+inspector
 /
-cssruleview
+rules
+/
+rules
 .
 xhtml
 "
