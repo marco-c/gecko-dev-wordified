@@ -151,6 +151,11 @@ UDivOrMod64
 \
 _
 (
+TruncateToInt64
+)
+\
+_
+(
 SimdValueInt32x4
 )
 \

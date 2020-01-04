@@ -526,6 +526,14 @@ ins
 )
 ;
 void
+visitTruncateToInt64
+(
+MTruncateToInt64
+*
+ins
+)
+;
+void
 lowerPhi
 (
 MPhi
