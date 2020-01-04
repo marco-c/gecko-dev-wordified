@@ -14482,6 +14482,13 @@ DeckFrame
 )
 GK_ATOM
 (
+detailsFrame
+"
+DetailsFrame
+"
+)
+GK_ATOM
+(
 fieldSetFrame
 "
 FieldSetFrame
