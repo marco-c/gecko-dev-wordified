@@ -57,7 +57,6 @@ from
 marionette
 import
 MarionetteTestCase
-skip_if_b2g
 class
 TestPageSource
 (
