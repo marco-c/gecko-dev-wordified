@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 timerHandlers
 .
 startTimer
@@ -1274,9 +1280,6 @@ test_get_rooms_saves_unknown_keys
 (
 )
 {
-let
-rooms
-=
 yield
 LoopRooms
 .

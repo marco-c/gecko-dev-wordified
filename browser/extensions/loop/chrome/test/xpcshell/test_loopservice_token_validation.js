@@ -33,6 +33,12 @@ strict
 "
 ;
 /
+*
+exported
+run_test
+*
+/
+/
 /
 XXX
 should

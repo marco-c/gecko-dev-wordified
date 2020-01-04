@@ -63,12 +63,6 @@ strict
 ;
 const
 {
-classes
-:
-Cc
-interfaces
-:
-Ci
 utils
 :
 Cu
@@ -444,6 +438,13 @@ jsm
 "
 )
 ;
+/
+*
+exported
+LoopRooms
+roomsPushNotification
+*
+/
 this
 .
 EXPORTED_SYMBOLS
@@ -5306,7 +5307,8 @@ DELETE
 .
 then
 (
-response
+(
+)
 =
 >
 {

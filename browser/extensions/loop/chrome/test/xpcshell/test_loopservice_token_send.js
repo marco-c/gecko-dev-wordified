@@ -32,6 +32,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 add_test
 (
 function

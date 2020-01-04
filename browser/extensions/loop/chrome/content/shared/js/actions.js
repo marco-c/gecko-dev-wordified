@@ -1863,6 +1863,13 @@ newRoomURL
 String
 Optional
 .
+/
+/
+sentTimestamp
+:
+String
+Optional
+.
 }
 )
 /

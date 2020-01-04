@@ -69,6 +69,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+run_test
+*
+/
 const
 {
 INVALID_AUTH_TOKEN
@@ -532,7 +538,6 @@ rejected
 "
 )
 (
-error
 )
 =
 >
@@ -773,7 +778,6 @@ rejected
 "
 )
 (
-error
 )
 =
 >
