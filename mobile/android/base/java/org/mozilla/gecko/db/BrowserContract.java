@@ -514,6 +514,16 @@ public
 static
 final
 String
+PARAM_TOPSITES_DISABLE_PINNED
+=
+"
+topsites_disable_pinned
+"
+;
+public
+static
+final
+String
 PARAM_IS_SYNC
 =
 "
