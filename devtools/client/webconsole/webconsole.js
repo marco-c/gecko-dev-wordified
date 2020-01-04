@@ -2527,7 +2527,6 @@ set
 setSaveRequestAndResponseBodies
 :
 function
-WCF_setSaveRequestAndResponseBodies
 (
 value
 )
@@ -2990,7 +2989,6 @@ result
 _initConnection
 :
 function
-WCF__initConnection
 (
 )
 {
@@ -3150,7 +3148,6 @@ private
 _initUI
 :
 function
-WCF__initUI
 (
 )
 {
@@ -3966,7 +3963,6 @@ private
 _onPanelSelected
 :
 function
-WCF__onPanelSelected
 (
 evt
 id
@@ -4000,7 +3996,6 @@ private
 _initDefaultFilterPrefs
 :
 function
-WCF__initDefaultFilterPrefs
 (
 )
 {
@@ -4160,7 +4155,6 @@ removed
 _updateReflowActivityListener
 :
 function
-WCF__updateReflowActivityListener
 (
 callback
 )
@@ -4295,7 +4289,6 @@ removed
 _updateServerLoggingListener
 :
 function
-WCF__updateServerLoggingListener
 (
 callback
 )
@@ -4431,7 +4424,6 @@ private
 _setFilterTextBoxEvents
 :
 function
-WCF__setFilterTextBoxEvents
 (
 )
 {
@@ -4619,7 +4611,6 @@ property
 _initFilterButtons
 :
 function
-WCF__initFilterButtons
 (
 )
 {
@@ -5045,7 +5036,6 @@ reset
 changeFontSize
 :
 function
-WCF_changeFontSize
 (
 size
 )
@@ -5329,7 +5319,6 @@ private
 _updateCharSize
 :
 function
-WCF__updateCharSize
 (
 )
 {
@@ -5554,7 +5543,6 @@ change
 _toggleFilter
 :
 function
-WCF__toggleFilter
 (
 event
 )
@@ -6293,7 +6281,6 @@ otherwise
 _setMenuState
 :
 function
-WCF__setMenuState
 (
 target
 state
@@ -6387,7 +6374,6 @@ void
 setFilterState
 :
 function
-WCF_setFilterState
 (
 toggleType
 state
@@ -6483,7 +6469,6 @@ boolean
 getFilterState
 :
 function
-WCF_getFilterState
 (
 toggleType
 )
@@ -6595,7 +6580,6 @@ boolean
 stringMatchesFilters
 :
 function
-WCF_stringMatchesFilters
 (
 str
 filter
@@ -6752,7 +6736,6 @@ void
 adjustVisibilityForMessageType
 :
 function
-WCF_adjustVisibilityForMessageType
 (
 prefKey
 state
@@ -7002,7 +6985,6 @@ string
 adjustVisibilityOnSearchStringChange
 :
 function
-WCF_adjustVisibilityOnSearchStringChange
 (
 )
 {
@@ -7187,7 +7169,6 @@ otherwise
 filterMessageNode
 :
 function
-WCF_filterMessageNode
 (
 node
 )
@@ -7475,7 +7456,6 @@ repeated
 mergeFilteredMessageNode
 :
 function
-WCF_mergeFilteredMessageNode
 (
 original
 filtered
@@ -7642,7 +7622,6 @@ otherwise
 _filterRepeatedMessage
 :
 function
-WCF__filterRepeatedMessage
 (
 node
 )
@@ -7896,7 +7875,6 @@ instance
 displayCachedMessages
 :
 function
-WCF_displayCachedMessages
 (
 remoteMessages
 )
@@ -8076,7 +8054,6 @@ output
 logConsoleAPIMessage
 :
 function
-WCF_logConsoleAPIMessage
 (
 message
 )
@@ -8408,11 +8385,10 @@ log
 "
 ;
 return
-WCF_logConsoleAPIMessage
-.
-call
-(
 this
+.
+logConsoleAPIMessage
+(
 message
 )
 ;
@@ -9022,7 +8998,6 @@ server
 handleConsoleAPICall
 :
 function
-WCF_handleConsoleAPICall
 (
 message
 )
@@ -9091,7 +9066,6 @@ output
 reportPageError
 :
 function
-WCF_reportPageError
 (
 category
 scriptError
@@ -9576,7 +9550,6 @@ server
 handlePageError
 :
 function
-WCF_handlePageError
 (
 pageError
 )
@@ -9645,7 +9618,6 @@ server
 handleLogMessage
 :
 function
-WCF_handleLogMessage
 (
 packet
 )
@@ -9720,7 +9692,6 @@ message
 _reportLogMessage
 :
 function
-WCF__reportLogMessage
 (
 packet
 )
@@ -10356,7 +10327,6 @@ urlNode
 makeMixedContentNode
 :
 function
-WCF_makeMixedContentNode
 (
 linkNode
 )
@@ -10545,7 +10515,6 @@ console
 addMoreInfoLink
 :
 function
-WCF_addMoreInfoLink
 (
 node
 scriptError
@@ -10766,7 +10735,6 @@ logged
 addLearnMoreWarningNode
 :
 function
-WCF_addLearnMoreWarningNode
 (
 node
 url
@@ -10923,7 +10891,6 @@ output
 logFileActivity
 :
 function
-WCF_logFileActivity
 (
 fileURI
 )
@@ -11054,7 +11021,6 @@ requested
 handleFileActivity
 :
 function
-WCF_handleFileActivity
 (
 fileURI
 )
@@ -11109,7 +11075,6 @@ batch
 logReflowActivity
 :
 function
-WCF_logReflowActivity
 (
 message
 )
@@ -11326,7 +11291,6 @@ node
 handleReflowActivity
 :
 function
-WCF_handleReflowActivity
 (
 message
 )
@@ -11374,7 +11338,6 @@ page
 logWarningAboutReplacedAPI
 :
 function
-WCF_logWarningAboutReplacedAPI
 (
 )
 {
@@ -11688,7 +11651,6 @@ otherwise
 _updateNetMessage
 :
 function
-WCF__updateNetMessage
 (
 actorId
 )
@@ -12019,7 +11981,6 @@ request
 openNetworkPanel
 :
 function
-WCF_openNetworkPanel
 (
 requestId
 )
@@ -12125,7 +12086,6 @@ title
 onLocationChange
 :
 function
-WCF_onLocationChange
 (
 uri
 title
@@ -12194,7 +12154,6 @@ server
 handleTabNavigated
 :
 function
-WCF_handleTabNavigated
 (
 event
 packet
@@ -12479,7 +12438,6 @@ end
 outputMessage
 :
 function
-WCF_outputMessage
 (
 category
 methodOrNode
@@ -12607,7 +12565,6 @@ private
 _flushMessageQueue
 :
 function
-WCF__flushMessageQueue
 (
 )
 {
@@ -13432,7 +13389,6 @@ private
 _initOutputTimer
 :
 function
-WCF__initOutputTimer
 (
 )
 {
@@ -13626,7 +13582,6 @@ visible
 _outputMessageFromQueue
 :
 function
-WCF__outputMessageFromQueue
 (
 hudIdSupportsString
 item
@@ -13882,7 +13837,6 @@ private
 _pruneOutputQueue
 :
 function
-WCF__pruneOutputQueue
 (
 )
 {
@@ -14133,7 +14087,6 @@ queue
 _destroyItem
 :
 function
-WCF__destroyItem
 (
 item
 )
@@ -14606,7 +14559,6 @@ nodes
 pruneOutputIfNecessary
 :
 function
-WCF_pruneOutputIfNecessary
 (
 category
 )
@@ -14719,7 +14671,6 @@ remove
 removeOutputMessage
 :
 function
-WCF_removeOutputMessage
 (
 node
 )
@@ -15176,7 +15127,6 @@ node
 createMessageNode
 :
 function
-WCF_createMessageNode
 (
 category
 severity
@@ -16145,7 +16095,6 @@ node
 createLocationNode
 :
 function
-WCF_createLocationNode
 (
 {
 url
@@ -16675,7 +16624,6 @@ void
 setMessageType
 :
 function
-WCF_setMessageType
 (
 messageNode
 category
@@ -16791,7 +16739,6 @@ click
 _addMessageLinkCallback
 :
 function
-WCF__addMessageLinkCallback
 (
 node
 callback
@@ -16997,7 +16944,6 @@ false
 _addFocusCallback
 :
 function
-WCF__addFocusCallback
 (
 node
 callback
@@ -17299,7 +17245,6 @@ object
 _onToolboxPrefChanged
 :
 function
-WCF__onToolboxPrefChanged
 (
 event
 data
@@ -17432,7 +17377,6 @@ false
 copySelectedItems
 :
 function
-WCF_copySelectedItems
 (
 options
 )
@@ -17683,7 +17627,6 @@ received
 objectPropertiesProvider
 :
 function
-WCF_objectPropertiesProvider
 (
 actor
 callback
@@ -17778,7 +17721,6 @@ release
 _releaseObject
 :
 function
-WCF__releaseObject
 (
 actor
 )
@@ -17822,7 +17764,6 @@ tab
 openSelectedItemInTab
 :
 function
-WCF_openSelectedItemInTab
 (
 )
 {
@@ -17922,7 +17863,6 @@ destroyed
 destroy
 :
 function
-WCF_destroy
 (
 )
 {
@@ -19328,7 +19268,6 @@ UI
 init
 :
 function
-JST_init
 (
 )
 {
@@ -19767,7 +19706,6 @@ server
 _executeResultCallback
 :
 function
-JST__executeResultCallback
 (
 callback
 response
@@ -20298,7 +20236,6 @@ displayed
 execute
 :
 function
-JST_execute
 (
 executeString
 callback
@@ -20835,7 +20772,6 @@ received
 requestEvaluation
 :
 function
-JST_requestEvaluation
 (
 str
 options
@@ -20995,7 +20931,6 @@ depth
 getFrameActor
 :
 function
-JST_getFrameActor
 (
 frame
 )
@@ -21275,7 +21210,6 @@ callbacks
 openVariablesView
 :
 function
-JST_openVariablesView
 (
 options
 )
@@ -21616,7 +21550,6 @@ private
 _createSidebar
 :
 function
-JST__createSidebar
 (
 )
 {
@@ -21709,7 +21642,6 @@ tab
 _addVariablesViewSidebarTab
 :
 function
-JST__addVariablesViewSidebarTab
 (
 )
 {
@@ -21905,7 +21837,6 @@ object
 _onKeypressInVariablesView
 :
 function
-JST__onKeypressInVariablesView
 (
 event
 )
@@ -22071,7 +22002,6 @@ instance
 _createVariablesView
 :
 function
-JST__createVariablesView
 (
 options
 )
@@ -22366,7 +22296,6 @@ object
 _updateVariablesView
 :
 function
-JST__updateVariablesView
 (
 options
 )
@@ -22718,7 +22647,6 @@ to
 _variablesViewEvaluate
 :
 function
-JST__variablesViewEvaluate
 (
 options
 variableObject
@@ -22854,7 +22782,6 @@ property
 _variablesViewDelete
 :
 function
-JST__variablesViewDelete
 (
 options
 variableObject
@@ -22984,7 +22911,6 @@ property
 _variablesViewSwitch
 :
 function
-JST__variablesViewSwitch
 (
 options
 variableObject
@@ -23202,7 +23128,6 @@ server
 _silentEvalCallback
 :
 function
-JST__silentEvalCallback
 (
 callback
 response
@@ -23474,7 +23399,6 @@ Console
 clearOutput
 :
 function
-JST_clearOutput
 (
 clearStorage
 )
@@ -23623,7 +23547,6 @@ notification
 clearPrivateMessages
 :
 function
-JST_clearPrivateMessages
 (
 )
 {
@@ -23708,7 +23631,6 @@ void
 resizeInput
 :
 function
-JST_resizeInput
 (
 )
 {
@@ -23859,7 +23781,6 @@ void
 setInputValue
 :
 function
-JST_setInputValue
 (
 newValue
 )
@@ -23970,7 +23891,6 @@ private
 _inputEventHandler
 :
 function
-JST__inputEventHandler
 (
 )
 {
@@ -24040,7 +23960,6 @@ private
 _blurEventHandler
 :
 function
-JST__blurEventHandler
 (
 )
 {
@@ -24083,7 +24002,6 @@ event
 _keyPress
 :
 function
-JST__keyPress
 (
 event
 )
@@ -25391,7 +25309,6 @@ private
 _focusEventHandler
 :
 function
-JST__focusEventHandler
 (
 )
 {
@@ -25450,7 +25367,6 @@ otherwise
 historyPeruse
 :
 function
-JST_historyPeruse
 (
 direction
 )
@@ -25706,7 +25622,6 @@ false
 hasMultilineInput
 :
 function
-JST_hasMultilineInput
 (
 )
 {
@@ -25799,7 +25714,6 @@ false
 canCaretGoPrevious
 :
 function
-JST_canCaretGoPrevious
 (
 )
 {
@@ -25940,7 +25854,6 @@ false
 canCaretGoNext
 :
 function
-JST_canCaretGoNext
 (
 )
 {
@@ -26365,7 +26278,6 @@ otherwise
 complete
 :
 function
-JSTF_complete
 (
 type
 callback
@@ -26751,7 +26663,6 @@ received
 _updateCompletionResult
 :
 function
-JST__updateCompletionResult
 (
 type
 callback
@@ -27250,7 +27161,6 @@ process
 _receiveAutocompleteProperties
 :
 function
-JST__receiveAutocompleteProperties
 (
 requestId
 callback
@@ -27717,7 +27627,6 @@ updated
 onAutocompleteSelect
 :
 function
-JSTF_onAutocompleteSelect
 (
 )
 {
@@ -27841,7 +27750,6 @@ needed
 clearCompletion
 :
 function
-JSTF_clearCompletion
 (
 )
 {
@@ -27934,7 +27842,6 @@ otherwise
 acceptProposedCompletion
 :
 function
-JSTF_acceptProposedCompletion
 (
 )
 {
@@ -28094,7 +28001,6 @@ value
 updateCompleteNode
 :
 function
-JSTF_updateCompleteNode
 (
 suffix
 )
@@ -28166,7 +28072,6 @@ private
 _sidebarDestroy
 :
 function
-JST__sidebarDestroy
 (
 )
 {
@@ -28258,7 +28163,6 @@ leaks
 destroy
 :
 function
-JST_destroy
 (
 )
 {
@@ -28516,7 +28420,6 @@ void
 scrollToVisible
 :
 function
-Utils_scrollToVisible
 (
 node
 )
@@ -28673,7 +28576,6 @@ returned
 categoryForScriptError
 :
 function
-Utils_categoryForScriptError
 (
 scriptError
 )
@@ -28861,7 +28763,6 @@ category
 logLimitForCategory
 :
 function
-Utils_logLimitForCategory
 (
 category
 )
@@ -29150,7 +29051,6 @@ output
 selectAll
 :
 function
-CommandController_selectAll
 (
 )
 {
@@ -29186,7 +29086,6 @@ tab
 openURL
 :
 function
-CommandController_openURL
 (
 )
 {
@@ -29202,7 +29101,6 @@ openSelectedItemInTab
 copyURL
 :
 function
-CommandController_copyURL
 (
 )
 {
@@ -29238,7 +29136,6 @@ message
 copyLastClicked
 :
 function
-CommandController_copy
 (
 )
 {
@@ -29262,7 +29159,6 @@ true
 supportsCommand
 :
 function
-CommandController_supportsCommand
 (
 command
 )
@@ -29299,7 +29195,6 @@ command
 isCommandEnabled
 :
 function
-CommandController_isCommandEnabled
 (
 command
 )
@@ -29493,7 +29388,6 @@ false
 doCommand
 :
 function
-CommandController_doCommand
 (
 command
 )
@@ -30306,7 +30200,6 @@ initialization
 connect
 :
 function
-WCCP_connect
 (
 )
 {
@@ -30661,7 +30554,6 @@ private
 _connectionTimeout
 :
 function
-WCCP__connectionTimeout
 (
 )
 {
@@ -30714,7 +30606,6 @@ private
 _attachConsole
 :
 function
-WCCP__attachConsole
 (
 )
 {
@@ -30806,7 +30697,6 @@ with
 _onAttachConsole
 :
 function
-WCCP__onAttachConsole
 (
 response
 webConsoleClient
@@ -31005,7 +30895,6 @@ server
 _onCachedMessages
 :
 function
-WCCP__onCachedMessages
 (
 response
 )
@@ -31237,7 +31126,6 @@ server
 _onPageError
 :
 function
-WCCP__onPageError
 (
 type
 packet
@@ -31324,7 +31212,6 @@ server
 _onLogMessage
 :
 function
-WCCP__onLogMessage
 (
 type
 packet
@@ -31409,7 +31296,6 @@ server
 _onConsoleAPICall
 :
 function
-WCCP__onConsoleAPICall
 (
 type
 packet
@@ -31656,7 +31542,6 @@ server
 _onFileActivity
 :
 function
-WCCP__onFileActivity
 (
 type
 packet
@@ -31695,7 +31580,6 @@ uri
 _onReflowActivity
 :
 function
-WCCP__onReflowActivity
 (
 type
 packet
@@ -31780,7 +31664,6 @@ server
 _onServerLogCall
 :
 function
-WCCP__onServerLogCall
 (
 type
 packet
@@ -31869,7 +31752,6 @@ server
 _onLastPrivateContextExited
 :
 function
-WCCP__onLastPrivateContextExited
 (
 type
 packet
@@ -31960,7 +31842,6 @@ server
 _onTabNavigated
 :
 function
-WCCP__onTabNavigated
 (
 event
 packet
@@ -32017,7 +31898,6 @@ to
 releaseActor
 :
 function
-WCCP_releaseActor
 (
 actor
 )
@@ -32073,7 +31953,6 @@ completes
 disconnect
 :
 function
-WCCP_disconnect
 (
 )
 {
@@ -32630,7 +32509,6 @@ item
 build
 :
 function
-CCM_build
 (
 event
 )
@@ -32709,7 +32587,6 @@ metadata
 getSelectionMetadata
 :
 function
-CCM_getSelectionMetadata
 (
 clickElement
 )
@@ -32939,7 +32816,6 @@ not
 shouldHideMenuItem
 :
 function
-CCM_shouldHideMenuItem
 (
 menuItem
 metadata
@@ -33078,7 +32954,6 @@ instance
 destroy
 :
 function
-CCM_destroy
 (
 )
 {
