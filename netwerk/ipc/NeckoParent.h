@@ -1248,12 +1248,12 @@ override
 ;
 virtual
 bool
-RecvRemoveSchedulingContext
+RecvRemoveRequestContext
 (
 const
 nsCString
 &
-scid
+rcid
 )
 override
 ;

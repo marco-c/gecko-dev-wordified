@@ -4474,7 +4474,7 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-GetSchedulingContextID
+GetRequestContextID
 (
 nsID
 *
@@ -4490,7 +4490,7 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-GetSchedulingContextID
+GetRequestContextID
 (
 _retval
 )
@@ -4500,11 +4500,11 @@ NS_IMETHODIMP
 nsViewSourceChannel
 :
 :
-SetSchedulingContextID
+SetRequestContextID
 (
 const
 nsID
-scid
+rcid
 )
 {
 return
@@ -4516,9 +4516,9 @@ NS_ERROR_NULL_POINTER
 mHttpChannel
 -
 >
-SetSchedulingContextID
+SetRequestContextID
 (
-scid
+rcid
 )
 ;
 }

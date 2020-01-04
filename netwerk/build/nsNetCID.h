@@ -2831,10 +2831,10 @@ c309ceb2d641
 /
 service
 implementing
-nsISchedulingContextService
+nsIRequestContextService
 #
 define
-NS_SCHEDULINGCONTEXTSERVICE_CONTRACTID
+NS_REQUESTCONTEXTSERVICE_CONTRACTID
 \
 "
 mozilla
@@ -2843,7 +2843,7 @@ org
 /
 network
 /
-scheduling
+request
 -
 context
 -
@@ -2853,7 +2853,7 @@ service
 "
 #
 define
-NS_SCHEDULINGCONTEXTSERVICE_CID
+NS_REQUESTCONTEXTSERVICE_CID
 \
 {
 /

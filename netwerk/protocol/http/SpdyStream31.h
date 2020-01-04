@@ -279,9 +279,9 @@ mTransaction
 ;
 }
 virtual
-nsISchedulingContext
+nsIRequestContext
 *
-SchedulingContext
+RequestContext
 (
 )
 {
@@ -291,7 +291,7 @@ mTransaction
 mTransaction
 -
 >
-SchedulingContext
+RequestContext
 (
 )
 :

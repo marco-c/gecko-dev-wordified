@@ -983,7 +983,7 @@ cacheKey
 )
 a
 .
-schedulingContextID
+requestContextID
 (
 )
 a
@@ -2052,7 +2052,7 @@ aCacheKey
 const
 nsCString
 &
-aSchedulingContextID
+aRequestContextID
 const
 OptionalCorsPreflightArgs
 &
@@ -3367,13 +3367,13 @@ chooseAppCache
 }
 }
 nsID
-schedulingContextID
+requestContextID
 ;
-schedulingContextID
+requestContextID
 .
 Parse
 (
-aSchedulingContextID
+aRequestContextID
 .
 BeginReading
 (
@@ -3383,9 +3383,9 @@ BeginReading
 mChannel
 -
 >
-SetSchedulingContextID
+SetRequestContextID
 (
-schedulingContextID
+requestContextID
 )
 ;
 mSuspendAfterSynthesizeResponse

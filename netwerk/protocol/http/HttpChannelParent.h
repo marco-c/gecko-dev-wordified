@@ -682,7 +682,7 @@ aCacheKey
 const
 nsCString
 &
-aSchedulingContextID
+aRequestContextID
 const
 OptionalCorsPreflightArgs
 &

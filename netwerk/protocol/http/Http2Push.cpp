@@ -544,12 +544,12 @@ SetPushStream
 this
 )
 ;
-mSchedulingContext
+mRequestContext
 =
 aAssociatedStream
 -
 >
-SchedulingContext
+RequestContext
 (
 )
 ;
