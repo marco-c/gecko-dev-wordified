@@ -842,6 +842,14 @@ kNumOfRanges
 ;
 }
 ;
+void
+FreeBuffer
+(
+void
+*
+aBuf
+)
+;
 }
 /
 /
