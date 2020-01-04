@@ -418,6 +418,8 @@ success
 )
 =
 >
+{
+return
 Services
 .
 prefs
@@ -427,6 +429,8 @@ setBoolPref
 DEV_EDITION_PROMO_SHOWN_PREF
 true
 )
+;
+}
 action
 :
 (
@@ -573,6 +577,7 @@ is
 using
 the
 TYPES
+*
 definition
 .
 *
@@ -592,9 +597,9 @@ be
 appended
 to
 within
+*
 window
 .
-*
 Defaults
 to
 a
@@ -919,6 +924,8 @@ forEach
 prop
 =
 >
+{
+return
 panel
 .
 setAttribute
@@ -929,6 +936,8 @@ panelAttrs
 prop
 ]
 )
+;
+}
 )
 ;
 panel

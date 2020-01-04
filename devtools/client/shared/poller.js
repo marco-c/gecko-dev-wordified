@@ -532,6 +532,7 @@ it
 s
 an
 async
+*
 function
 .
 *

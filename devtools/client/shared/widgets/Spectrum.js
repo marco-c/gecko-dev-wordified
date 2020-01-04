@@ -1389,10 +1389,11 @@ a
 mouseup
 event
 .
-return
 stop
 (
 )
+;
+return
 ;
 }
 let

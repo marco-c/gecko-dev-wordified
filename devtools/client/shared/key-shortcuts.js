@@ -1230,6 +1230,9 @@ expects
 a
 function
 as
+"
++
+"
 second
 argument
 "

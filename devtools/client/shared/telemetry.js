@@ -307,6 +307,11 @@ org
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 TOOLS_OPENED_PREF
 =

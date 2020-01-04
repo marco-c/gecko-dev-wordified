@@ -276,8 +276,6 @@ return
 path
 ;
 }
-else
-{
 return
 findSourceDir
 (
@@ -291,7 +289,6 @@ path
 )
 )
 ;
-}
 }
 )
 ;

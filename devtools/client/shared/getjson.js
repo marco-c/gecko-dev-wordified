@@ -56,9 +56,13 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
-Cu
 CC
 }
 =
@@ -182,7 +186,7 @@ e
 )
 {
 /
-*
+/
 no
 pref
 or
@@ -193,8 +197,6 @@ Let
 '
 s
 continue
-*
-/
 }
 }
 let
@@ -273,6 +275,7 @@ xhr
 responseText
 )
 ;
+return
 deferred
 .
 resolve
