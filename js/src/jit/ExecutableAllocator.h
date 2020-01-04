@@ -826,9 +826,9 @@ randomNumberGenerator
 ;
 #
 endif
-JitRuntime
+JSRuntime
 *
-jrt_
+rt_
 ;
 public
 :
@@ -842,9 +842,9 @@ Executable
 explicit
 ExecutableAllocator
 (
-JitRuntime
+JSRuntime
 *
-jrt
+rt
 )
 ;
 ~

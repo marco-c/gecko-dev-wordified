@@ -925,6 +925,12 @@ jit
 JitRuntime
 >
 (
+cx
+-
+>
+runtime
+(
+)
 )
 ;
 if
@@ -982,6 +988,12 @@ JitRuntime
 AutoPreventBackedgePatching
 apbp
 (
+cx
+-
+>
+runtime
+(
+)
 jrt
 )
 ;
