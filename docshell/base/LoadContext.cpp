@@ -446,15 +446,10 @@ OriginAttributesRef
 )
 ;
 mOriginAttributes
-=
-DocShellOriginAttributes
+.
+InheritFromDocToChildDocShell
 (
 poa
-.
-mAppId
-poa
-.
-mInBrowser
 )
 ;
 if
