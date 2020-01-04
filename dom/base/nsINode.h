@@ -3556,7 +3556,7 @@ For
 all
 other
 cases
-GetOwnerDoc
+OwnerDoc
 and
 GetOwnerDocument
 behave
