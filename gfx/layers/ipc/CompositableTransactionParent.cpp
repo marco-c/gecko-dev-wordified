@@ -588,7 +588,7 @@ cp
 CompositorBridgeParent
 :
 :
-GetCompositor
+GetCompositorBridgeParent
 (
 id
 )

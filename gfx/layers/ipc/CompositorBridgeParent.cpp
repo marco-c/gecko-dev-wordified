@@ -8320,7 +8320,7 @@ CompositorBridgeParent
 CompositorBridgeParent
 :
 :
-GetCompositor
+GetCompositorBridgeParent
 (
 uint64_t
 id

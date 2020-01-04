@@ -2238,7 +2238,7 @@ a
 pointer
 to
 the
-compositor
+CompositorBridgeParent
 corresponding
 to
 the
@@ -2250,7 +2250,7 @@ ID
 static
 CompositorBridgeParent
 *
-GetCompositor
+GetCompositorBridgeParent
 (
 uint64_t
 id
