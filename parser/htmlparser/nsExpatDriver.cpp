@@ -5253,7 +5253,7 @@ serr
 >
 InitWithWindowID
 (
-description
+errorText
 mURISpec
 mLastLine
 lineNumber
