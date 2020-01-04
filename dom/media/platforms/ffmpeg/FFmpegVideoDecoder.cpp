@@ -648,6 +648,10 @@ mCodecParser
 (
 nullptr
 )
+mLastInputDts
+(
+INT64_MIN
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1243,6 +1247,8 @@ aSize
 packet
 .
 dts
+=
+mLastInputDts
 =
 aSample
 -
@@ -2154,11 +2160,7 @@ empty
 >
 mTimecode
 =
-mPtsContext
-.
-LastDts
-(
-)
+mLastInputDts
 ;
 while
 (
