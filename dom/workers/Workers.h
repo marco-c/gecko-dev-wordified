@@ -948,6 +948,14 @@ dom
 push
 .
 enabled
+WORKERPREF_REQUESTCACHE
+/
+/
+dom
+.
+requestcache
+.
+enabled
 WORKERPREF_REQUESTCONTEXT
 /
 /
