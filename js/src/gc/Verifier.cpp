@@ -1586,6 +1586,15 @@ PurgeJITCaches
 zone
 )
 ;
+if
+(
+!
+zone
+-
+>
+usedByExclusiveThread
+)
+{
 zone
 -
 >
@@ -1607,6 +1616,7 @@ purge
 (
 )
 ;
+}
 }
 return
 ;
