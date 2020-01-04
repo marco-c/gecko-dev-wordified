@@ -1368,6 +1368,11 @@ TestManifest
         
 if
 tests
+and
+not
+options
+.
+manifestFile
 :
             
 manifest
@@ -1669,6 +1674,11 @@ TestManifest
         
 if
 tests
+and
+not
+options
+.
+manifestFile
 :
             
 manifest
@@ -1930,6 +1940,11 @@ TestManifest
         
 if
 tests
+and
+not
+options
+.
+manifestFile
 :
             
 manifest
@@ -2069,6 +2084,11 @@ TestManifest
         
 if
 tests
+and
+not
+options
+.
+manifestFile
 :
             
 manifest
