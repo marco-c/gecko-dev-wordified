@@ -59,8 +59,6 @@ base
 import
 (
     
-B2GTestResultMixin
-    
 BaseMarionetteArguments
     
 BaseMarionetteTestRunner
@@ -84,10 +82,6 @@ from
 mixins
 import
 (
-    
-B2GTestCaseMixin
-    
-B2GTestResultMixin
     
 EnduranceArguments
     
