@@ -686,7 +686,7 @@ sMaxInlineStorage
 )
 mMaxBufferSize
 (
-0
+512
 )
 #
 endif
