@@ -1822,6 +1822,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGETUSERMEDIADEVICESSUCCESSCALLBACK
+explicit
 MediaDeviceSuccessCallback
 (
 RefPtr
@@ -2159,6 +2160,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMGETUSERMEDIAERRORCALLBACK
+explicit
 MediaDeviceErrorCallback
 (
 const
