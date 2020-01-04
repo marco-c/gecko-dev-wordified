@@ -1202,7 +1202,10 @@ if
 !
 IsValidAsmJSHeapLength
 (
-allocSize
+this
+-
+>
+length
 )
 )
 {
