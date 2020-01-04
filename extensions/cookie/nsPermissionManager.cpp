@@ -5550,6 +5550,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 TODO
@@ -5662,6 +5664,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 Version
@@ -5777,6 +5781,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 In
@@ -6578,6 +6584,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 At
@@ -7935,6 +7943,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 The
@@ -8631,6 +8641,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 The
@@ -8843,6 +8855,16 @@ rv
 )
 ;
 }
+/
+/
+fall
+through
+to
+the
+next
+upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 current
