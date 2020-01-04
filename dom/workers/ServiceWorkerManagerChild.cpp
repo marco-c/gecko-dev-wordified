@@ -208,7 +208,7 @@ ServiceWorkerManagerChild
 RecvNotifySoftUpdate
 (
 const
-PrincipalOriginAttributes
+OriginAttributes
 &
 aOriginAttributes
 const
@@ -254,7 +254,6 @@ NS_ConvertUTF16toUTF8
 (
 aScope
 )
-nullptr
 )
 ;
 return
