@@ -482,7 +482,7 @@ mozL10n
 get
 (
 "
-first_time_experience_button_label
+first_time_experience_button_label2
 "
 )
 htmlId
