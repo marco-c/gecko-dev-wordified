@@ -28765,7 +28765,7 @@ null
 ;
 }
 }
-makeOpenSearchMessage
+sendOpenSearchMessage
 :
 function
 (
@@ -29153,7 +29153,10 @@ should
 be
 visible
 .
-return
+Messaging
+.
+sendRequest
+(
 {
 type
 :
@@ -29171,6 +29174,7 @@ visible
 :
 true
 }
+)
 ;
 }
 )
@@ -30160,11 +30164,9 @@ DOMLinkAdded
 "
 )
 {
-jsonMessage
-=
 this
 .
-makeOpenSearchMessage
+sendOpenSearchMessage
 (
 target
 )
