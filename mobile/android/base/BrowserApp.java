@@ -9673,6 +9673,7 @@ tab
 getDisplayTitle
 (
 )
+false
 )
 ;
 /
@@ -11251,6 +11252,7 @@ Intent
 .
 ACTION_SEND
 title
+false
 )
 ;
 }
