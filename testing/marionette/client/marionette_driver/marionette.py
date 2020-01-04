@@ -8308,6 +8308,17 @@ reset_timeouts
         
 if
 in_app
+and
+self
+.
+session
+.
+get
+(
+'
+processId
+'
+)
 :
             
 #
