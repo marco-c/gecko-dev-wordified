@@ -5090,15 +5090,6 @@ ruby
 %
 endif
 }
-supports
-(
-text
--
-emphasis
-:
-none
-)
-{
 rtc
 rt
 {
@@ -5108,7 +5099,6 @@ emphasis
 :
 none
 ;
-}
 }
 rtc
 :
