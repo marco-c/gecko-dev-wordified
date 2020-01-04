@@ -33015,10 +33015,7 @@ GetJitContext
 )
 -
 >
-runtime
--
->
-profilingScripts
+hasProfilingScripts
 (
 )
 )
