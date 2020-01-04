@@ -348,13 +348,6 @@ typename
 AllocPolicy
 =
 TempAllocPolicy
-typename
-GCPolicy
-=
-DefaultGCPolicy
-<
-T
->
 >
 class
 TraceableFifo
@@ -510,7 +503,10 @@ length
 +
 i
 )
-GCPolicy
+DefaultGCPolicy
+<
+T
+>
 :
 :
 trace
@@ -552,7 +548,10 @@ length
 +
 i
 )
-GCPolicy
+DefaultGCPolicy
+<
+T
+>
 :
 :
 trace
@@ -585,8 +584,6 @@ size_t
 Capacity
 typename
 AllocPolicy
-typename
-GCPolicy
 >
 class
 TraceableFifoOperations
@@ -599,7 +596,6 @@ TraceableFifo
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 ;
 const
@@ -691,8 +687,6 @@ size_t
 Capacity
 typename
 AllocPolicy
-typename
-GCPolicy
 >
 class
 MutableTraceableFifoOperations
@@ -704,7 +698,6 @@ Outer
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 {
 using
@@ -715,7 +708,6 @@ TraceableFifo
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 ;
 TF
@@ -877,8 +869,6 @@ size_t
 B
 typename
 C
-typename
-D
 >
 class
 RootedBase
@@ -888,7 +878,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 :
@@ -905,13 +894,11 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 A
 B
 C
-D
 >
 {
 using
@@ -922,7 +909,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 ;
 friend
@@ -939,7 +925,6 @@ TF
 A
 B
 C
-D
 >
 ;
 const
@@ -988,7 +973,6 @@ TF
 A
 B
 C
-D
 >
 ;
 TF
@@ -1030,8 +1014,6 @@ size_t
 B
 typename
 C
-typename
-D
 >
 class
 MutableHandleBase
@@ -1041,7 +1023,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 :
@@ -1058,13 +1039,11 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 A
 B
 C
-D
 >
 {
 using
@@ -1075,7 +1054,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 ;
 friend
@@ -1092,7 +1070,6 @@ TF
 A
 B
 C
-D
 >
 ;
 const
@@ -1141,7 +1118,6 @@ TF
 A
 B
 C
-D
 >
 ;
 TF
@@ -1183,8 +1159,6 @@ size_t
 B
 typename
 C
-typename
-D
 >
 class
 HandleBase
@@ -1194,7 +1168,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 :
@@ -1211,13 +1184,11 @@ TraceableFifo
 A
 B
 C
-D
 >
 >
 A
 B
 C
-D
 >
 {
 using
@@ -1228,7 +1199,6 @@ TraceableFifo
 A
 B
 C
-D
 >
 ;
 friend
@@ -1245,7 +1215,6 @@ TF
 A
 B
 C
-D
 >
 ;
 const
