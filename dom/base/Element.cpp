@@ -21611,7 +21611,7 @@ http
 .
 enablePerElementReferrer
 "
-false
+true
 )
 &
 &

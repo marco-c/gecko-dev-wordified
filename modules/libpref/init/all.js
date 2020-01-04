@@ -16316,7 +16316,7 @@ http
 .
 enablePerElementReferrer
 "
-false
+true
 )
 ;
 /
