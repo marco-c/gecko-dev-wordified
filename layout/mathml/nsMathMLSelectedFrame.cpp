@@ -735,7 +735,7 @@ aPadding
 -
 aMargin
 ;
-nsCSSOffsetState
+SizeComputationInput
 offsetState
 (
 childFrame

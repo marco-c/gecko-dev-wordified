@@ -2262,7 +2262,7 @@ GetWritingMode
 (
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 offsets
 (
 aChildFrame

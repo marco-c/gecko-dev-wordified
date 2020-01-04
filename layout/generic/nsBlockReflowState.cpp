@@ -1308,7 +1308,7 @@ frameMargin
 wm
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 os
 (
 aFrame
@@ -1503,7 +1503,7 @@ mBoxDecorationBreak
 NS_STYLE_BOX_DECORATION_BREAK_CLONE
 )
 {
-nsCSSOffsetState
+SizeComputationInput
 os
 (
 aFrame
@@ -5192,7 +5192,7 @@ nsIFrame
 *
 aFloat
 const
-nsCSSOffsetState
+SizeComputationInput
 &
 aFloatOffsetState
 )
@@ -5693,7 +5693,7 @@ parent
 "
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 offsets
 (
 aFloat

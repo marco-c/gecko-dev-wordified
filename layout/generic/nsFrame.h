@@ -5516,7 +5516,7 @@ aFrame
 mozilla
 :
 :
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 const
@@ -5548,7 +5548,7 @@ mFrame
 mozilla
 :
 :
-nsCSSOffsetState
+SizeComputationInput
 *
 mState
 ;

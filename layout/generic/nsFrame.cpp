@@ -63961,7 +63961,7 @@ DR_init_offsets_cookie
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 const
@@ -63994,7 +63994,7 @@ DR_init_offsets_cookie
 ;
 mValue
 =
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 DisplayInitOffsetsEnter
@@ -64020,7 +64020,7 @@ MOZ_COUNT_DTOR
 DR_init_offsets_cookie
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 DisplayInitOffsetsExit
@@ -69940,7 +69940,7 @@ static
 /
 void
 *
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 DisplayInitOffsetsEnter
@@ -69948,7 +69948,7 @@ DisplayInitOffsetsEnter
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 const
@@ -70167,7 +70167,7 @@ static
 *
 /
 void
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 DisplayInitOffsetsExit
@@ -70175,7 +70175,7 @@ DisplayInitOffsetsExit
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 void

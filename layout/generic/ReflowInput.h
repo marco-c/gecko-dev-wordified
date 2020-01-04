@@ -621,7 +621,7 @@ more
 often
 .
 struct
-nsCSSOffsetState
+SizeComputationInput
 {
 public
 :
@@ -1015,7 +1015,7 @@ on
 their
 own
 .
-nsCSSOffsetState
+SizeComputationInput
 (
 nsIFrame
 *
@@ -1044,7 +1044,7 @@ GetWritingMode
 )
 {
 }
-nsCSSOffsetState
+SizeComputationInput
 (
 nsIFrame
 *
@@ -1544,7 +1544,7 @@ DisplayInitOffsetsEnter
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 const
@@ -1571,7 +1571,7 @@ DisplayInitOffsetsExit
 nsIFrame
 *
 aFrame
-nsCSSOffsetState
+SizeComputationInput
 *
 aState
 void
@@ -2134,7 +2134,7 @@ struct
 ReflowInput
 :
 public
-nsCSSOffsetState
+SizeComputationInput
 {
 /
 /

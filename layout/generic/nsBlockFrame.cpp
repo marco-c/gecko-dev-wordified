@@ -53597,7 +53597,7 @@ GetWritingMode
 (
 )
 ;
-nsCSSOffsetState
+SizeComputationInput
 offsetState
 (
 aFrame
@@ -53711,7 +53711,7 @@ get
 that
 from
 an
-nsCSSOffsetState
+SizeComputationInput
 except
 for
 the

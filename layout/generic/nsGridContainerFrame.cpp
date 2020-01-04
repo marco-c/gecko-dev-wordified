@@ -33180,7 +33180,7 @@ to
 the
 padding
 in
-nsCSSOffsetState
+SizeComputationInput
 :
 :
 InitOffsets
