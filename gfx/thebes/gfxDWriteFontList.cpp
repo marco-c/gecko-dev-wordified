@@ -7824,7 +7824,7 @@ given
 character
 .
 IFACEMETHODIMP
-FontFallbackRenderer
+DWriteFontFallbackRenderer
 :
 :
 DrawGlyphRun
@@ -8079,7 +8079,7 @@ mFallbackRenderer
 mFallbackRenderer
 =
 new
-FontFallbackRenderer
+DWriteFontFallbackRenderer
 (
 dwFactory
 )
