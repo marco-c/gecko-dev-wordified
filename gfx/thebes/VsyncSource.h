@@ -419,6 +419,14 @@ IsVsyncEnabled
 =
 0
 ;
+virtual
+void
+Shutdown
+(
+)
+=
+0
+;
 private
 :
 void
@@ -488,6 +496,11 @@ Works
 across
 all
 displays
+void
+Shutdown
+(
+)
+;
 protected
 :
 virtual
