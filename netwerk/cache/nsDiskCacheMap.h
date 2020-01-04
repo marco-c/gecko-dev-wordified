@@ -2794,6 +2794,8 @@ nsDiskCache
 CorruptCacheInfo
 *
 corruptInfo
+bool
+reportCacheCleanTelemetryData
 )
 ;
 nsresult
@@ -3453,6 +3455,8 @@ nsDiskCache
 CorruptCacheInfo
 *
 corruptInfo
+bool
+reportCacheCleanTelemetryData
 )
 ;
 /
