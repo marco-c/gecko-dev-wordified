@@ -1561,6 +1561,17 @@ state
 )
 :
         
+if
+not
+hasattr
+(
+state
+"
+commits_loaded
+"
+)
+:
+            
 state
 .
 commits_loaded
@@ -1727,6 +1738,15 @@ state
 patch
 =
 None
+            
+if
+not
+stripped_patch
+.
+diff
+:
+                
+continue
             
 try
 :
