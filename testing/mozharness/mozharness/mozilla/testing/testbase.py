@@ -1488,7 +1488,7 @@ timeout
                 
 self
 .
-warning
+exception
 (
 "
 Can
