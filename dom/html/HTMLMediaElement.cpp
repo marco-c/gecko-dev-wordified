@@ -9103,6 +9103,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+ChangeDelayLoadStatus
+(
+false
+)
+;
 RefPtr
 <
 MediaResource
