@@ -144,6 +144,13 @@ ProfileEntry
 .
 h
 "
+#
+include
+"
+ThreadProfile
+.
+h
+"
 using
 mozilla
 :

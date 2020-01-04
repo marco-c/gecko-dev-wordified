@@ -362,7 +362,7 @@ NtCurrentTeb
 )
 ;
 return
-static_cast
+reinterpret_cast
 <
 void
 *
