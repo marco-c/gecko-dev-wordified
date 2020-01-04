@@ -19604,3 +19604,15 @@ Error
 "
 )
 ;
+pref
+(
+"
+browser
+.
+laterrun
+.
+enabled
+"
+false
+)
+;
