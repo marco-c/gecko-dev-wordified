@@ -8025,7 +8025,7 @@ nullptr
 )
 #
 ifdef
-JS_GC_MARKING_VALIDATION
+JS_GC_ZEAL
 markingValidator
 (
 nullptr
