@@ -742,6 +742,8 @@ already_AddRefed
 InternalHeaders
 >
 aHeaders
+RequestCache
+aCacheMode
 RequestMode
 aMode
 RequestRedirect
@@ -799,10 +801,7 @@ Basic
 )
 mCacheMode
 (
-RequestCache
-:
-:
-Default
+aCacheMode
 )
 mRedirectMode
 (
