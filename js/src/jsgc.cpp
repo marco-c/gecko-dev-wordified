@@ -5867,9 +5867,6 @@ noNurseryAllocationCheck
 )
 #
 endif
-lock
-(
-)
 allocTask
 (
 rt
