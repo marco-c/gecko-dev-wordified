@@ -2227,6 +2227,14 @@ ins
 )
 ;
 void
+visitAsmJSLoadFuncPtr
+(
+MAsmJSLoadFuncPtr
+*
+ins
+)
+;
+void
 visitAsmJSLoadFFIFunc
 (
 MAsmJSLoadFFIFunc

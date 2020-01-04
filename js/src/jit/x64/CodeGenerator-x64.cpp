@@ -8848,6 +8848,7 @@ LAsmJSLoadFuncPtr
 ins
 )
 {
+const
 MAsmJSLoadFuncPtr
 *
 mir
@@ -8868,19 +8869,6 @@ ins
 -
 >
 index
-(
-)
-)
-;
-Register
-tmp
-=
-ToRegister
-(
-ins
--
->
-temp
 (
 )
 )
@@ -8946,7 +8934,7 @@ masm
 .
 leaRipRelative
 (
-tmp
+out
 )
 ;
 masm
@@ -8955,7 +8943,7 @@ loadPtr
 (
 Operand
 (
-tmp
+out
 index
 ScalePointer
 0
