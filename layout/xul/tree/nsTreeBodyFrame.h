@@ -328,8 +328,6 @@ nsIScrollbarMediator
 public
 nsIReflowCallback
 {
-public
-:
 typedef
 mozilla
 :
@@ -340,6 +338,18 @@ layout
 ScrollbarActivity
 ScrollbarActivity
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
+public
+:
 explicit
 nsTreeBodyFrame
 (
@@ -1166,7 +1176,7 @@ mColumnsScrollFrame
 ;
 }
 ;
-void
+DrawResult
 PaintTreeBody
 (
 nsRenderingContext
@@ -1249,7 +1259,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintColumn
 (
 nsTreeColumn
@@ -1283,7 +1293,7 @@ in
 the
 tree
 .
-void
+DrawResult
 PaintRow
 (
 int32_t
@@ -1318,7 +1328,7 @@ in
 the
 tree
 .
-void
+DrawResult
 PaintSeparator
 (
 int32_t
@@ -1355,7 +1365,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintCell
 (
 int32_t
@@ -1402,7 +1412,7 @@ of
 an
 tree
 .
-void
+DrawResult
 PaintTwisty
 (
 int32_t
@@ -1446,7 +1456,7 @@ of
 an
 tree
 .
-void
+DrawResult
 PaintImage
 (
 int32_t
@@ -1534,7 +1544,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintCheckbox
 (
 int32_t
@@ -1574,7 +1584,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintProgressMeter
 (
 int32_t
@@ -1610,7 +1620,7 @@ of
 the
 tree
 .
-void
+DrawResult
 PaintDropFeedback
 (
 const
@@ -1661,7 +1671,7 @@ full
 blown
 frame
 .
-void
+DrawResult
 PaintBackgroundLayer
 (
 nsStyleContext
