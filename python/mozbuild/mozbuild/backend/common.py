@@ -126,8 +126,6 @@ PreprocessedTestWebIDLFile
     
 PreprocessedWebIDLFile
     
-RustCrate
-    
 SharedLibrary
     
 TestManifest
