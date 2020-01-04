@@ -8279,12 +8279,6 @@ AppendBackgroundItemsToTop
 (
 aBuilder
 aFrame
-aFrame
--
->
-GetRectRelativeToSelf
-(
-)
 lists
 -
 >
