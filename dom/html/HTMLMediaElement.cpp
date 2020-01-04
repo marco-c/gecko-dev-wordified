@@ -37084,6 +37084,7 @@ SetMediaInfo
 (
 const
 MediaInfo
+&
 aInfo
 )
 {

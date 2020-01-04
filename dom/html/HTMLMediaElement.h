@@ -3979,6 +3979,7 @@ SetMediaInfo
 (
 const
 MediaInfo
+&
 aInfo
 )
 ;
