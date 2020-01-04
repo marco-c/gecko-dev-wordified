@@ -251,7 +251,6 @@ data
 {
 pageURL
 engineURL
-type
 }
 }
 )
@@ -568,7 +567,7 @@ addEngine
 engineURL
 .
 spec
-type
+null
 iconURL
 ?
 iconURL
