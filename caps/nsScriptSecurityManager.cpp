@@ -4127,7 +4127,6 @@ nsAutoCString
 host
 newHost
 ;
-nsresult
 rv
 =
 probe
@@ -5277,9 +5276,6 @@ See
 bug
 #
 773886
-bool
-hasFlags
-;
 rv
 =
 NS_URIChainHasFlags
