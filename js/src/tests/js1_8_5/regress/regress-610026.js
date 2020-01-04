@@ -67,10 +67,10 @@ We
 hardcode
 here
 that
-GenerateBlockId
-limits
 a
 program
+is
+limited
 to
 2
 ^
