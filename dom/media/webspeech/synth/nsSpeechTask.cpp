@@ -3327,6 +3327,8 @@ nsSpeechTask
 :
 WindowAudioCaptureChanged
 (
+bool
+aCapture
 )
 {
 /

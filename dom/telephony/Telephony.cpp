@@ -3811,6 +3811,8 @@ Telephony
 :
 WindowAudioCaptureChanged
 (
+bool
+aCapture
 )
 {
 /
