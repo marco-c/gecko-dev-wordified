@@ -64180,7 +64180,7 @@ seekToNextFrame
 .
 enabled
 "
-false
+true
 )
 ;
 #
