@@ -947,6 +947,7 @@ IncompatibleBasicTexturedEffect
 InvalidFont
 PAllocTextureBackendMismatch
 GetFontFileDataFailed
+MessageChannelCloseFailure
 /
 /
 End
