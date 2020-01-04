@@ -39,7 +39,7 @@ strict
 ;
 const
 {
-CssLogic
+prettifyCSS
 }
 =
 require
@@ -291,7 +291,7 @@ run_test
 /
 Note
 that
-CssLogic
+prettifyCSS
 .
 LINE_SEPARATOR
 is
@@ -305,8 +305,6 @@ ensure
 it
 is
 set
-.
-CssLogic
 .
 prettifyCSS
 (
@@ -346,7 +344,7 @@ n
 .
 join
 (
-CssLogic
+prettifyCSS
 .
 LINE_SEPARATOR
 )
@@ -354,8 +352,6 @@ LINE_SEPARATOR
 let
 output
 =
-CssLogic
-.
 prettifyCSS
 (
 input
@@ -370,12 +366,12 @@ expected
 .
 join
 (
-CssLogic
+prettifyCSS
 .
 LINE_SEPARATOR
 )
 +
-CssLogic
+prettifyCSS
 .
 LINE_SEPARATOR
 ;

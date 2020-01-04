@@ -1396,9 +1396,7 @@ require
 "
 devtools
 /
-shared
-/
-inspector
+server
 /
 css
 -

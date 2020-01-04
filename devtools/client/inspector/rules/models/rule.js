@@ -128,9 +128,7 @@ promise
 )
 ;
 const
-{
 CssLogic
-}
 =
 require
 (

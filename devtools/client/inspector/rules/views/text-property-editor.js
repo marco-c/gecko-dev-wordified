@@ -75,7 +75,7 @@ chrome
 ;
 const
 {
-CssLogic
+l10n
 }
 =
 require
@@ -1340,8 +1340,6 @@ hidden
 "
 title
 :
-CssLogic
-.
 l10n
 (
 "
@@ -1410,8 +1408,6 @@ hidden
 "
 title
 :
-CssLogic
-.
 l10n
 (
 "
@@ -2657,8 +2653,6 @@ _onSwatchCommit
 let
 title
 =
-CssLogic
-.
 l10n
 (
 "
@@ -2784,8 +2778,6 @@ _onSwatchRevert
 let
 title
 =
-CssLogic
-.
 l10n
 (
 "
@@ -2896,8 +2888,6 @@ parserOptions
 let
 title
 =
-CssLogic
-.
 l10n
 (
 "
@@ -2974,8 +2964,6 @@ _onSwatchCommit
 let
 title
 =
-CssLogic
-.
 l10n
 (
 "

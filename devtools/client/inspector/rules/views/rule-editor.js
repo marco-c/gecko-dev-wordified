@@ -97,7 +97,7 @@ jsm
 ;
 const
 {
-CssLogic
+l10n
 }
 =
 require
@@ -1373,8 +1373,6 @@ highlighted
 )
 title
 :
-CssLogic
-.
 l10n
 (
 "

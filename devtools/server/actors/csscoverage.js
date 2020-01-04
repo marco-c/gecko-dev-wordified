@@ -226,7 +226,7 @@ lazyRequireGetter
 (
 this
 "
-CssLogic
+prettifyCSS
 "
 "
 devtools
@@ -2602,8 +2602,6 @@ ruleData
 selectorText
 formattedCssText
 :
-CssLogic
-.
 prettifyCSS
 (
 ruleData

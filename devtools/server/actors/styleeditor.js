@@ -214,8 +214,6 @@ css
 logic
 "
 )
-.
-CssLogic
 )
 ;
 var

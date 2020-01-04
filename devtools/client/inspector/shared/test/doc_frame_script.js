@@ -222,7 +222,7 @@ jsm
 ;
 var
 {
-CssLogic
+isContentStylesheet
 }
 =
 require
@@ -613,8 +613,6 @@ sheet
 href
 isContentSheet
 :
-CssLogic
-.
 isContentStylesheet
 (
 sheet

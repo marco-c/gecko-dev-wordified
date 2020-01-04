@@ -273,8 +273,6 @@ css
 logic
 "
 )
-.
-CssLogic
 )
 ;
 XPCOMUtils

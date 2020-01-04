@@ -178,7 +178,8 @@ defer
 ;
 const
 {
-CssLogic
+shortSource
+prettifyCSS
 }
 =
 require
@@ -1457,8 +1458,6 @@ this
 .
 _friendlyName
 =
-CssLogic
-.
 shortSource
 (
 {
@@ -1830,12 +1829,10 @@ is
 possibly
 prettified
 using
-*
-CssLogic
-.
 prettifyCSS
 .
 This
+*
 also
 sets
 |
@@ -1847,7 +1844,6 @@ text
 |
 to
 the
-*
 new
 text
 .
@@ -1929,8 +1925,6 @@ isOriginalSource
 {
 source
 =
-CssLogic
-.
 prettifyCSS
 (
 source

@@ -140,9 +140,7 @@ definitions
 Tools
 ;
 const
-{
 CssLogic
-}
 =
 require
 (
