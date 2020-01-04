@@ -690,9 +690,6 @@ DocAccessible
 nsIDocument
 *
 aDocument
-nsIContent
-*
-aRootContent
 nsIPresShell
 *
 aPresShell
@@ -700,7 +697,7 @@ aPresShell
 :
 HyperTextAccessibleWrap
 (
-aRootContent
+nullptr
 this
 )
 /
@@ -9465,9 +9462,6 @@ mDocumentNode
 ;
 if
 (
-mContent
-!
-=
 contentElm
 )
 {

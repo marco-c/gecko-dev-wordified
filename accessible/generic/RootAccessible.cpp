@@ -541,9 +541,6 @@ RootAccessible
 nsIDocument
 *
 aDocument
-nsIContent
-*
-aRootContent
 nsIPresShell
 *
 aPresShell
@@ -552,7 +549,6 @@ aPresShell
 DocAccessibleWrap
 (
 aDocument
-aRootContent
 aPresShell
 )
 {
