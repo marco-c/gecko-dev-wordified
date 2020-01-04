@@ -2244,6 +2244,10 @@ projects
 =
 AppProjects
 .
+store
+.
+object
+.
 projects
 ;
 for
