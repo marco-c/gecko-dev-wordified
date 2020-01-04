@@ -564,13 +564,6 @@ MozCameraFocusAdjust
 )
 DEFINE_KEYNAME_INTERNAL
 (
-PhoneCall
-"
-MozPhoneCall
-"
-)
-DEFINE_KEYNAME_INTERNAL
-(
 SoftLeft
 "
 MozSoftLeft
