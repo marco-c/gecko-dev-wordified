@@ -528,7 +528,7 @@ bin
             
 for
 path
-strings
+files
 in
 obj
 .
@@ -542,7 +542,7 @@ walk
 for
 f
 in
-strings
+files
 :
                     
 if
@@ -559,7 +559,10 @@ _add_preprocess
 (
 obj
 f
+.
+full_path
 path
+                                             
 defines
 =
 defines
@@ -580,15 +583,9 @@ install_target
 add_symlink
 (
                             
-mozpath
-.
-join
-(
-obj
-.
-srcdir
 f
-)
+.
+full_path
                             
 mozpath
 .

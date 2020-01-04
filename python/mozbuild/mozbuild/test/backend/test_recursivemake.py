@@ -6141,6 +6141,10 @@ expected
 DIST_FILES_0
 +
 =
+(
+srcdir
+)
+/
 install
 .
 rdf
@@ -6150,6 +6154,10 @@ rdf
 DIST_FILES_0
 +
 =
+(
+srcdir
+)
+/
 main
 .
 js

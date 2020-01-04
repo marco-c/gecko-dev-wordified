@@ -6778,7 +6778,10 @@ self
 .
 assertTrue
 (
+unicode
+(
 f
+)
 in
 expected
 )

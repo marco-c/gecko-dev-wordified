@@ -4695,17 +4695,9 @@ files
                     
 path
 =
-os
-.
-path
-.
-join
-(
-context
-.
-srcdir
 f
-)
+.
+full_path
                     
 if
 not
@@ -4740,7 +4732,7 @@ s
 %
 (
 var
-f
+path
 )
 context
 )
