@@ -388,12 +388,6 @@ network
 /
 messages
 .
-message
-.
-scrollIntoView
-(
-)
-;
 yield
 waitForContextMenu
 (
@@ -683,12 +677,6 @@ related
 /
 messages
 .
-message
-.
-scrollIntoView
-(
-)
-;
 yield
 waitForContextMenu
 (
