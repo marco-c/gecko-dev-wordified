@@ -2925,7 +2925,7 @@ length
 *
 Have
 |
-rt
+cx
 |
 use
 |
@@ -2947,7 +2947,7 @@ for
 SourceHook
 .
 The
-runtime
+context
 takes
 ownership
 of
@@ -2960,7 +2960,7 @@ delete
 it
 when
 the
-runtime
+context
 itself
 is
 deleted
@@ -2982,9 +2982,9 @@ void
 )
 SetSourceHook
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 mozilla
 :
 :
@@ -3000,7 +3000,7 @@ hook
 *
 Remove
 |
-rt
+cx
 |
 '
 s
@@ -3032,9 +3032,9 @@ SourceHook
 )
 ForgetSourceHook
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
