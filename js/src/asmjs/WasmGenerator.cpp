@@ -4775,9 +4775,6 @@ fieldsToExports
 .
 append
 (
-ExportMap
-:
-:
 MemoryExport
 )
 ;

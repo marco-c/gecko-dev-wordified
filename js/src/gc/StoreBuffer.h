@@ -2211,10 +2211,7 @@ other
 auto
 end
 =
-std
-:
-:
-max
+Max
 (
 start_
 +
@@ -2230,10 +2227,7 @@ count_
 ;
 start_
 =
-std
-:
-:
-min
+Min
 (
 start_
 other

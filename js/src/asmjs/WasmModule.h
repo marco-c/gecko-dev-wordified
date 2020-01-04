@@ -1866,9 +1866,6 @@ of
 the
 function
 .
-struct
-ExportMap
-{
 static
 const
 uint32_t
@@ -1876,6 +1873,9 @@ MemoryExport
 =
 UINT32_MAX
 ;
+struct
+ExportMap
+{
 CacheableCharsVector
 fieldNames
 ;
