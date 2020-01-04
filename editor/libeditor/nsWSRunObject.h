@@ -1724,8 +1724,6 @@ begin
 with
 nbsp
 .
-already_AddRefed
-<
 mozilla
 :
 :
@@ -1733,7 +1731,7 @@ dom
 :
 :
 Element
->
+*
 InsertBreak
 (
 nsCOMPtr

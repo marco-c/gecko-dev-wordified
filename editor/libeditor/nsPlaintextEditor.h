@@ -1107,8 +1107,6 @@ aSelect
 eNone
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -1116,7 +1114,7 @@ dom
 :
 :
 Element
->
+*
 CreateBRImpl
 (
 nsCOMPtr
