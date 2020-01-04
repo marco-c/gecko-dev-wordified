@@ -850,6 +850,12 @@ mIncludingChangesDuringComposition
 =
 %
 s
+"
+"
+mIncludingChangesWithoutComposition
+=
+%
+s
 }
 "
 aData
@@ -872,6 +878,12 @@ ToChar
 aData
 .
 mIncludingChangesDuringComposition
+)
+ToChar
+(
+aData
+.
+mIncludingChangesWithoutComposition
 )
 )
 ;
