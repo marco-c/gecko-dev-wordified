@@ -33227,14 +33227,14 @@ UniqueChars
 )
 JS_GetDefaultLocale
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 AssertHeapIsIdle
 (
-rt
+cx
 )
 ;
 if
@@ -33244,7 +33244,7 @@ char
 *
 locale
 =
-rt
+cx
 -
 >
 getDefaultLocale
@@ -33256,7 +33256,7 @@ UniqueChars
 (
 JS_strdup
 (
-rt
+cx
 locale
 )
 )

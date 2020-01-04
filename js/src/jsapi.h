@@ -33976,9 +33976,9 @@ UniqueChars
 )
 JS_GetDefaultLocale
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /
