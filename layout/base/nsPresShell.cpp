@@ -71282,7 +71282,7 @@ mVisibleRegions
 >
 mApproximate
 .
-ShallowSizeOfIncludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -71292,7 +71292,7 @@ mVisibleRegions
 >
 mInDisplayPort
 .
-ShallowSizeOfIncludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
