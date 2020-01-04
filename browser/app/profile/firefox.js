@@ -20125,3 +20125,15 @@ mozBrowserFramesEnabled
 true
 )
 ;
+pref
+(
+"
+extensions
+.
+pocket
+.
+enabled
+"
+true
+)
+;
