@@ -338,14 +338,11 @@ MOZ_RELEASE_ASSERT
 cx
 )
 ;
-MOZ_RELEASE_ASSERT
-(
-JS_ContextIterator
+cx
+=
+JS_GetContext
 (
 rt
-&
-cx
-)
 )
 ;
 JS_BeginRequest
