@@ -3358,13 +3358,13 @@ popFront
 (
 )
 )
-JS_CallHashSetObjectTracer
+JS_CallObjectTracer
 (
 trc
-e
+&
 e
 .
-front
+mutableFront
 (
 )
 "
