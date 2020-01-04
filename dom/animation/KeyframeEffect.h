@@ -2076,6 +2076,15 @@ LayerAnimationInfo
 kRecords
 ]
 ;
+private
+:
+nsIFrame
+*
+GetAnimationFrame
+(
+)
+const
+;
 }
 ;
 }
