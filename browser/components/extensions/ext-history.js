@@ -189,11 +189,15 @@ lastVisitTime
 :
 PlacesUtils
 .
-toTime
+toDate
 (
 node
 .
 time
+)
+.
+getTime
+(
 )
 visitCount
 :
