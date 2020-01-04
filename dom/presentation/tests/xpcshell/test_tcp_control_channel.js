@@ -821,7 +821,7 @@ CLOSE_CONTROL_CHANNEL_REASON
 )
 ;
 }
-notifyOpened
+notifyConnected
 :
 function
 (
@@ -855,7 +855,7 @@ opened
 '
 ;
 }
-notifyClosed
+notifyDisconnected
 :
 function
 (
@@ -1161,7 +1161,7 @@ candidate
 )
 ;
 }
-notifyOpened
+notifyConnected
 :
 function
 (
@@ -1267,7 +1267,7 @@ e
 ;
 }
 }
-notifyClosed
+notifyDisconnected
 :
 function
 (

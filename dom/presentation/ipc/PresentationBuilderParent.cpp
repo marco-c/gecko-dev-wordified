@@ -434,7 +434,7 @@ NS_IMETHODIMP
 PresentationBuilderParent
 :
 :
-NotifyClosed
+NotifyDisconnected
 (
 nsresult
 aReason

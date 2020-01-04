@@ -316,7 +316,7 @@ CLOSED
 ;
 stateMachine
 .
-_notifyClosed
+_notifyDisconnected
 (
 command
 .
@@ -382,7 +382,7 @@ CLOSED
 ;
 stateMachine
 .
-_notifyClosed
+_notifyDisconnected
 (
 command
 .
@@ -829,7 +829,7 @@ CLOSED
 ;
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 reason
 )
@@ -909,7 +909,7 @@ _closeReason
 }
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 reason
 )
@@ -989,10 +989,10 @@ notifyDeviceConnected
 )
 ;
 }
-_notifyClosed
+_notifyDisconnected
 :
 function
-_notifyClosed
+_notifyDisconnected
 (
 reason
 )
@@ -1001,7 +1001,7 @@ this
 .
 _channel
 .
-notifyClosed
+notifyDisconnected
 (
 reason
 )

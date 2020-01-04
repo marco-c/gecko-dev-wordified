@@ -2729,7 +2729,7 @@ this
 .
 _listener
 .
-notifyClosed
+notifyDisconnected
 (
 e
 .
@@ -3343,7 +3343,7 @@ this
 .
 _listener
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -3501,7 +3501,7 @@ ignore
 line
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 this
 .
@@ -3701,7 +3701,7 @@ aAnswer
 )
 ;
 }
-_notifyOpened
+_notifyConnected
 :
 function
 (
@@ -3774,12 +3774,12 @@ this
 .
 _listener
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
 }
-_notifyClosed
+_notifyDisconnected
 :
 function
 (
@@ -3902,7 +3902,7 @@ this
 .
 _listener
 .
-notifyClosed
+notifyDisconnected
 (
 aReason
 )
@@ -4095,12 +4095,12 @@ break
 }
 this
 .
-_notifyOpened
+_notifyConnected
 (
 )
 ;
 }
-notifyClosed
+notifyDisconnected
 :
 function
 (
@@ -4109,7 +4109,7 @@ reason
 {
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 reason
 )
