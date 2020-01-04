@@ -1365,7 +1365,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1379,7 +1379,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1405,7 +1405,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1419,7 +1419,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1439,7 +1439,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1453,7 +1453,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2347,7 +2347,7 @@ attention
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -2378,7 +2378,7 @@ titlechanged
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -2446,7 +2446,7 @@ pinned
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true

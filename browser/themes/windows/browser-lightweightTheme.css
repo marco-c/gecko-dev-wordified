@@ -135,7 +135,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -181,7 +181,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -274,7 +274,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -401,7 +401,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]

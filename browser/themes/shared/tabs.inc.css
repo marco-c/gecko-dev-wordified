@@ -1150,7 +1150,7 @@ soundplaying
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -1169,7 +1169,7 @@ overlay
 soundplaying
 ]
 [
-selected
+visuallyselected
 ]
 :
 -
@@ -1246,7 +1246,7 @@ crashed
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -1265,7 +1265,7 @@ overlay
 muted
 ]
 [
-selected
+visuallyselected
 ]
 :
 -
@@ -2156,7 +2156,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2170,7 +2170,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2196,7 +2196,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2210,7 +2210,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2367,7 +2367,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2381,7 +2381,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2444,7 +2444,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2458,7 +2458,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2496,7 +2496,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2529,7 +2529,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2598,7 +2598,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2631,7 +2631,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2717,7 +2717,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2746,7 +2746,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2806,7 +2806,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2835,7 +2835,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2895,7 +2895,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2919,7 +2919,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2970,7 +2970,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2994,7 +2994,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3045,7 +3045,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3203,7 +3203,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3309,7 +3309,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3328,7 +3328,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3355,7 +3355,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3374,7 +3374,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3393,7 +3393,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3449,7 +3449,7 @@ background
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -3736,7 +3736,7 @@ attention
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -3767,7 +3767,7 @@ titlechanged
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -3892,7 +3892,7 @@ pinned
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -3939,7 +3939,7 @@ attention
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -4121,7 +4121,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -4187,7 +4187,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -4363,7 +4363,7 @@ background
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -4453,7 +4453,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -4494,7 +4494,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -4518,7 +4518,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -4570,7 +4570,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -4594,7 +4594,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
