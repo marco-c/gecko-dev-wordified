@@ -57914,7 +57914,7 @@ width
 /
 /
 Show
-the
+no
 selection
 bars
 at
@@ -57937,7 +57937,7 @@ bar
 .
 enabled
 "
-true
+false
 )
 ;
 /
