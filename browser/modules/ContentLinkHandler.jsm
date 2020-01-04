@@ -1177,7 +1177,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 uri
 targetDoc
 .

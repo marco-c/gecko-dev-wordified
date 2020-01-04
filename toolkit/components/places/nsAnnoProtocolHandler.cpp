@@ -468,7 +468,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 }
