@@ -1397,8 +1397,6 @@ FrameMetrics
 :
 :
 START_SCROLL_ID
-+
-1
 CSSRect
 (
 0
@@ -1419,7 +1417,7 @@ FrameMetrics
 :
 START_SCROLL_ID
 +
-2
+1
 CSSRect
 (
 0
@@ -1427,6 +1425,18 @@ CSSRect
 100
 100
 )
+)
+;
+SetScrollHandoff
+(
+layers
+[
+3
+]
+layers
+[
+2
+]
 )
 ;
 EventRegions
