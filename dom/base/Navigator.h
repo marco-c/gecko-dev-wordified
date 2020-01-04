@@ -559,9 +559,6 @@ class
 Voicemail
 ;
 class
-TVManager
-;
-class
 InputPortManager
 ;
 class
@@ -1237,12 +1234,6 @@ ErrorResult
 aRv
 )
 ;
-TVManager
-*
-GetTv
-(
-)
-;
 InputPortManager
 *
 GetInputPortManager
@@ -1873,12 +1864,6 @@ RefPtr
 Voicemail
 >
 mVoicemail
-;
-RefPtr
-<
-TVManager
->
-mTVManager
 ;
 RefPtr
 <
