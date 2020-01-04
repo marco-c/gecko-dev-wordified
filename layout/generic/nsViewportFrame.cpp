@@ -670,6 +670,7 @@ clipState
 .
 SetScrollClipForContainingBlockDescendants
 (
+aBuilder
 savedOutOfFlowData
 -
 >
