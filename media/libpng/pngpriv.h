@@ -20,10 +20,10 @@ libpng
 .
 6
 .
-22
+24
 [
-May
-26
+August
+4
 2016
 ]
 *
@@ -9603,6 +9603,11 @@ filter
 PNG_EMPTY
 )
 ;
+#
+if
+PNG_ARM_NEON_OPT
+>
+0
 PNG_INTERNAL_FUNCTION
 (
 void
@@ -9708,6 +9713,8 @@ prev_row
 PNG_EMPTY
 )
 ;
+#
+endif
 /
 *
 Choose
@@ -15199,6 +15206,11 @@ prefixing
 .
 *
 /
+#
+if
+PNG_ARM_NEON_OPT
+>
+0
 PNG_INTERNAL_FUNCTION
 (
 void
@@ -15213,6 +15225,8 @@ bpp
 PNG_EMPTY
 )
 ;
+#
+endif
 #
 endif
 PNG_INTERNAL_FUNCTION

@@ -18,11 +18,11 @@ libpng
 .
 6
 .
-17
+24
 [
-March
-26
-2015
+August
+4
+2016
 ]
 *
 Copyright
@@ -35,7 +35,7 @@ c
 2004
 2006
 -
-2015
+2016
 Glenn
 Randers
 -

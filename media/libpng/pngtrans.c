@@ -28,11 +28,11 @@ libpng
 .
 6
 .
-18
+24
 [
-July
-23
-2015
+August
+4
+2016
 ]
 *
 Copyright
@@ -45,7 +45,7 @@ c
 2004
 2006
 -
-2015
+2016
 Glenn
 Randers
 -
@@ -950,6 +950,8 @@ png_set_filler
 is
 invalid
 for
+"
+"
 low
 bit
 depth
