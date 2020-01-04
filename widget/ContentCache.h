@@ -1205,7 +1205,7 @@ const
 if
 (
 !
-IsValid
+HasRects
 (
 )
 |
@@ -1214,6 +1214,10 @@ aOffset
 =
 =
 UINT32_MAX
+|
+|
+!
+aLength
 )
 {
 return
@@ -1256,7 +1260,6 @@ false
 return
 aOffset
 <
-=
 EndOffset
 (
 )
@@ -1268,7 +1271,6 @@ value
 (
 )
 >
-=
 mStart
 ;
 }
