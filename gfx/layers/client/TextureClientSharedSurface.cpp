@@ -324,6 +324,9 @@ aReleaseFenceHandle
 #
 ifdef
 MOZ_WIDGET_GONK
+gl
+:
+:
 SharedSurface_Gralloc
 *
 surf
@@ -338,6 +341,9 @@ mSurf
 mType
 =
 =
+gl
+:
+:
 SharedSurfaceType
 :
 :
@@ -346,6 +352,9 @@ Gralloc
 {
 surf
 =
+gl
+:
+:
 SharedSurface_Gralloc
 :
 :
@@ -410,6 +419,9 @@ GetAndResetReleaseFenceHandle
 #
 ifdef
 MOZ_WIDGET_GONK
+gl
+:
+:
 SharedSurface_Gralloc
 *
 surf
@@ -424,6 +436,9 @@ mSurf
 mType
 =
 =
+gl
+:
+:
 SharedSurfaceType
 :
 :
@@ -432,6 +447,9 @@ Gralloc
 {
 surf
 =
+gl
+:
+:
 SharedSurface_Gralloc
 :
 :
@@ -498,6 +516,9 @@ aAcquireFenceHandle
 #
 ifdef
 MOZ_WIDGET_GONK
+gl
+:
+:
 SharedSurface_Gralloc
 *
 surf
@@ -512,6 +533,9 @@ mSurf
 mType
 =
 =
+gl
+:
+:
 SharedSurfaceType
 :
 :
@@ -520,6 +544,9 @@ Gralloc
 {
 surf
 =
+gl
+:
+:
 SharedSurface_Gralloc
 :
 :
@@ -586,6 +613,9 @@ const
 #
 ifdef
 MOZ_WIDGET_GONK
+gl
+:
+:
 SharedSurface_Gralloc
 *
 surf
@@ -600,6 +630,9 @@ mSurf
 mType
 =
 =
+gl
+:
+:
 SharedSurfaceType
 :
 :
@@ -608,6 +641,9 @@ Gralloc
 {
 surf
 =
+gl
+:
+:
 SharedSurface_Gralloc
 :
 :

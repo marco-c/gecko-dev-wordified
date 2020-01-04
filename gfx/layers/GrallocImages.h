@@ -173,7 +173,7 @@ namespace
 layers
 {
 class
-GrallocTextureClientOGL
+TextureClient
 ;
 already_AddRefed
 <
@@ -691,7 +691,7 @@ private
 :
 RefPtr
 <
-GrallocTextureClientOGL
+TextureClient
 >
 mTextureClient
 ;
