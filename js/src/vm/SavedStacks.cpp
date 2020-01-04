@@ -6775,10 +6775,6 @@ FrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-ALL_CONTEXTS
 )
 ;
 return

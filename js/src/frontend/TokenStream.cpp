@@ -3979,10 +3979,6 @@ asJSContext
 FrameIter
 :
 :
-ALL_CONTEXTS
-FrameIter
-:
-:
 FOLLOW_DEBUGGER_EVAL_PREV_LINK
 cx
 -

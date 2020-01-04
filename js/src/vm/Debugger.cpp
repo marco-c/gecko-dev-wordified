@@ -13893,10 +13893,6 @@ ScriptFrameIter
 iter
 (
 cx
-ScriptFrameIter
-:
-:
-ALL_CONTEXTS
 )
 ;
 !
@@ -15877,10 +15873,6 @@ ScriptFrameIter
 iter
 (
 cx
-ScriptFrameIter
-:
-:
-ALL_CONTEXTS
 )
 ;
 !
@@ -46841,11 +46833,6 @@ maybeIter
 emplace
 (
 cx
-ScriptFrameIter
-:
-:
-ALL_CONTEXTS
-\
 ScriptFrameIter
 :
 :
