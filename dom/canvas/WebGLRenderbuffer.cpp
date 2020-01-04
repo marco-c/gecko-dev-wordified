@@ -1381,7 +1381,7 @@ mFormat
 format
 -
 >
-hasStencil
+s
 )
 return
 0

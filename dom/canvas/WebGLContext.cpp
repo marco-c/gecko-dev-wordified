@@ -11794,7 +11794,9 @@ if
 format
 -
 >
-isColorFormat
+IsColorFormat
+(
+)
 )
 {
 attachPoint
@@ -11811,7 +11813,7 @@ if
 format
 -
 >
-hasDepth
+d
 )
 {
 attachPoint
@@ -11829,7 +11831,7 @@ if
 format
 -
 >
-hasStencil
+s
 )
 {
 attachPoint
@@ -11838,7 +11840,7 @@ attachPoint
 format
 -
 >
-hasDepth
+d
 ?
 LOCAL_GL_DEPTH_STENCIL_ATTACHMENT
 :

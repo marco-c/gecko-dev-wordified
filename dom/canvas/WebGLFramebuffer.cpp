@@ -447,7 +447,7 @@ Format
 format
 -
 >
-hasAlpha
+a
 ;
 }
 const
@@ -536,7 +536,9 @@ if
 format
 -
 >
-isColorFormat
+IsColorFormat
+(
+)
 )
 return
 false
@@ -1373,7 +1375,7 @@ hasRequiredBits
 format
 -
 >
-hasDepth
+d
 ;
 break
 ;
@@ -1385,7 +1387,7 @@ hasRequiredBits
 format
 -
 >
-hasStencil
+s
 ;
 break
 ;
@@ -1409,13 +1411,13 @@ hasRequiredBits
 format
 -
 >
-hasDepth
+d
 &
 &
 format
 -
 >
-hasStencil
+s
 )
 ;
 break
@@ -1435,7 +1437,9 @@ hasRequiredBits
 format
 -
 >
-isColorFormat
+IsColorFormat
+(
+)
 ;
 break
 ;
@@ -1505,7 +1509,7 @@ hasSurplusPlanes
 format
 -
 >
-hasStencil
+s
 ;
 break
 ;
@@ -1517,7 +1521,7 @@ hasSurplusPlanes
 format
 -
 >
-hasDepth
+d
 ;
 break
 ;
