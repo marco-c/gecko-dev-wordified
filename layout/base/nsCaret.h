@@ -1775,17 +1775,6 @@ content
 bool
 mIgnoreUserModify
 ;
-/
-/
-Preference
-static
-bool
-sSelectionCaretEnabled
-;
-static
-bool
-sSelectionCaretsAffectCaret
-;
 }
 ;
 #
