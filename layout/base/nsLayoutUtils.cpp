@@ -3873,6 +3873,7 @@ propIdx
 ;
 )
 {
+const
 AnimationProperty
 &
 prop
@@ -3919,6 +3920,7 @@ segIdx
 ;
 )
 {
+const
 AnimationPropertySegment
 &
 segment
