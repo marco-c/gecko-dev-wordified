@@ -2316,7 +2316,6 @@ ctx
 addr
 tcp_type
 so_sock_ct
-1
 NR_STUN_MAX_MESSAGE_SIZE
 &
 nrsock

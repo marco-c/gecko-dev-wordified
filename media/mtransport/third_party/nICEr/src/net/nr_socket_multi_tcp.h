@@ -313,8 +313,6 @@ tcp_type
 int
 precreated_so_count
 int
-use_framing
-int
 max_pending
 nr_socket
 *
