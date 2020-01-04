@@ -138,6 +138,15 @@ h
 #
 include
 "
+builtin
+/
+ModuleObject
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
