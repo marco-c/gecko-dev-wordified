@@ -499,11 +499,6 @@ Ursh
 \
 _
 (
-SignExtend
-)
-\
-_
-(
 MinMax
 )
 \

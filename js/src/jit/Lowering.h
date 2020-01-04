@@ -963,14 +963,6 @@ ins
 )
 ;
 void
-visitSignExtend
-(
-MSignExtend
-*
-ins
-)
-;
-void
 visitRotate
 (
 MRotate

@@ -648,11 +648,6 @@ ShiftI64
 \
 _
 (
-SignExtend
-)
-\
-_
-(
 UrshD
 )
 \
