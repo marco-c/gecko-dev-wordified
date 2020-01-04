@@ -929,9 +929,10 @@ expectError
 Cr
 .
 NS_ERROR_INVALID_ARG
-function
 (
 )
+=
+>
 explodingFunction
 (
 )
