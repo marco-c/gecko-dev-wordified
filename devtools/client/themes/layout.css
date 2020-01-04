@@ -66,6 +66,10 @@ display
 :
 block
 ;
+overflow
+:
+auto
+;
 }
 #
 layout
@@ -260,7 +264,7 @@ max
 -
 height
 :
-228px
+250px
 )
 {
 #
@@ -549,7 +553,7 @@ max
 -
 height
 :
-228px
+250px
 )
 {
 #
@@ -1128,7 +1132,7 @@ max
 -
 height
 :
-228px
+250px
 )
 {
 .
@@ -1449,7 +1453,7 @@ max
 -
 height
 :
-228px
+250px
 )
 {
 .
