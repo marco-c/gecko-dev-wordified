@@ -102,6 +102,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -261,6 +266,7 @@ when
 the
 menu
 item
+*
 is
 clicked
 *
@@ -327,6 +333,7 @@ If
 submenu
 is
 specified
+*
 the
 type
 :
@@ -346,6 +353,7 @@ a
 Menu
 then
 it
+*
 will
 be
 automatically
@@ -371,7 +379,6 @@ be
 entirely
 hidden
 .
-*
 *
 /
 function
