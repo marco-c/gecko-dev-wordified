@@ -5174,6 +5174,14 @@ aOut
 )
 override
 ;
+void
+StartProfiler
+(
+nsIProfilerStartParams
+*
+aParams
+)
+;
 virtual
 bool
 RecvGetDeviceStorageLocation
