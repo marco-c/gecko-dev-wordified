@@ -5227,6 +5227,16 @@ override
 ;
 virtual
 bool
+RecvGetDeviceStorageLocations
+(
+DeviceStorageLocationInfo
+*
+info
+)
+override
+;
+virtual
+bool
 RecvGetAndroidSystemInfo
 (
 AndroidSystemInfo
