@@ -3650,7 +3650,7 @@ two
 options
 for
 implementing
-emitTruncateDouble
+branchTruncateDouble
 :
 /
 /

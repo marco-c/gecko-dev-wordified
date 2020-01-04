@@ -1028,6 +1028,11 @@ TruncateFToInt32
 \
 _
 (
+WasmTruncateToInt32
+)
+\
+_
+(
 WrapInt64ToInt32
 )
 \
