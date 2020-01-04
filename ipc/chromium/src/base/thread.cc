@@ -94,6 +94,13 @@ IOInterposer
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 ifdef
 MOZ_TASK_TRACER
 #
@@ -893,6 +900,9 @@ startup_data_
 options
 .
 message_loop_type
+NS_GetCurrentThread
+(
+)
 )
 ;
 /

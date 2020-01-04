@@ -2436,6 +2436,7 @@ MessageLoop
 :
 :
 TYPE_MOZILLA_NONMAINTHREAD
+self
 )
 )
 ;
