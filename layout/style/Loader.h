@@ -260,6 +260,9 @@ class
 nsICSSLoaderObserver
 ;
 class
+nsIConsoleReportCollector
+;
+class
 nsIContent
 ;
 class
@@ -3910,6 +3913,12 @@ to
 load
 new
 styles
+nsCOMPtr
+<
+nsIConsoleReportCollector
+>
+mReporter
+;
 #
 ifdef
 DEBUG
