@@ -2908,6 +2908,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -2988,6 +2990,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -3073,6 +3077,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 4
 :
@@ -3158,6 +3164,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -3279,6 +3287,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 6
 :
@@ -3427,6 +3437,8 @@ Fallthrough
 to
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -3517,6 +3529,8 @@ to
 the
 next
 upgrade
+MOZ_FALLTHROUGH
+;
 /
 /
 Warning
@@ -3744,6 +3758,8 @@ developers
 #
 ifndef
 DEBUG
+MOZ_FALLTHROUGH
+;
 case
 DM_SCHEMA_VERSION
 :
@@ -3851,6 +3867,8 @@ Fallthrough
 to
 downgrade
 check
+MOZ_FALLTHROUGH
+;
 /
 /
 Downgrading
