@@ -1545,7 +1545,7 @@ useXulWrapper
 *
 Defaults
 to
-true
+false
 .
 If
 the
@@ -1591,7 +1591,7 @@ consumeOutsideClicks
 true
 useXulWrapper
 =
-true
+false
 }
 =
 {
