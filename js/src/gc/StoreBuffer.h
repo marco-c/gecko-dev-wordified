@@ -2623,6 +2623,7 @@ false
 endif
 {
 }
+MOZ_MUST_USE
 bool
 enable
 (

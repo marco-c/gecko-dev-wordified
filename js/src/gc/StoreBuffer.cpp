@@ -779,7 +779,7 @@ if
 (
 nursery
 .
-approxFreeSpace
+freeSpace
 (
 )
 <

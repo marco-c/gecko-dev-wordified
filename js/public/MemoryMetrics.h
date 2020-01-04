@@ -1675,13 +1675,6 @@ nurseryCommitted
 macro
 (
 _
-NonHeap
-nurseryDecommitted
-)
-\
-macro
-(
-_
 MallocHeap
 nurseryMallocedBuffers
 )

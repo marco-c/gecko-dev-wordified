@@ -6942,7 +6942,6 @@ JSRuntime
 rt
 )
 ;
-inline
 void
 init
 (
