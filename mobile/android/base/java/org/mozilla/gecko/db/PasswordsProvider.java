@@ -416,7 +416,7 @@ final
 int
 DB_VERSION
 =
-5
+6
 ;
 private
 static
