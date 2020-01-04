@@ -436,7 +436,7 @@ this
 __strBundle
 )
 {
-var
+let
 bunService
 =
 Cc
@@ -1959,7 +1959,7 @@ modify
 its
 password
 .
-var
+let
 selectedLogin
 =
 logins
