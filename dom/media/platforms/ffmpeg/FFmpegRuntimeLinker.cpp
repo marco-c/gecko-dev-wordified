@@ -179,7 +179,7 @@ sLinkStatus
 LinkStatus_INIT
 ;
 struct
-AvFormatLib
+AvCodecLib
 {
 const
 char
@@ -225,7 +225,7 @@ Create
 ;
 static
 const
-AvFormatLib
+AvCodecLib
 sLibs
 [
 ]
@@ -233,7 +233,7 @@ sLibs
 {
 {
 "
-libavformat
+libavcodec
 -
 ffmpeg
 .
@@ -252,7 +252,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 so
 .
@@ -269,7 +269,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 so
 .
@@ -286,7 +286,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 so
 .
@@ -303,7 +303,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 so
 .
@@ -320,7 +320,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 56
 .
@@ -337,7 +337,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 55
 .
@@ -354,7 +354,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 54
 .
@@ -371,7 +371,7 @@ Create
 }
 {
 "
-libavformat
+libavcodec
 .
 53
 .
@@ -398,7 +398,7 @@ sLinkedLib
 nullptr
 ;
 const
-AvFormatLib
+AvCodecLib
 *
 FFmpegRuntimeLinker
 :
@@ -490,7 +490,7 @@ i
 )
 {
 const
-AvFormatLib
+AvCodecLib
 *
 lib
 =
