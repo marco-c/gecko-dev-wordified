@@ -28960,7 +28960,7 @@ opcodeAt
 Expr
 :
 :
-F32FromF64
+F32DemoteF64
 )
 ;
 return
@@ -28984,7 +28984,7 @@ opcodeAt
 Expr
 :
 :
-F32FromS32
+F32ConvertSI32
 )
 ;
 return
@@ -29008,7 +29008,7 @@ opcodeAt
 Expr
 :
 :
-F32FromU32
+F32ConvertUI32
 )
 ;
 return
@@ -30760,7 +30760,7 @@ patchAt
 Expr
 :
 :
-F32FromF64
+F32DemoteF64
 )
 ;
 return
@@ -34455,7 +34455,7 @@ patchAt
 Expr
 :
 :
-F64FromF32
+F64PromoteF32
 )
 ;
 else
@@ -34475,7 +34475,7 @@ patchAt
 Expr
 :
 :
-F64FromS32
+F64ConvertSI32
 )
 ;
 else
@@ -34495,7 +34495,7 @@ patchAt
 Expr
 :
 :
-F64FromU32
+F64ConvertUI32
 )
 ;
 else
@@ -35876,12 +35876,12 @@ isMaybeDouble
 Expr
 :
 :
-I32SConvertF64
+I32TruncSF64
 :
 Expr
 :
 :
-I32SConvertF32
+I32TruncSF32
 ;
 f
 .
