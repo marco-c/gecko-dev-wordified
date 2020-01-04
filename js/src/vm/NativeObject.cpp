@@ -14796,8 +14796,6 @@ SetPropertyByDefining
 JSContext
 *
 cx
-HandleObject
-obj
 HandleId
 id
 HandleValue
@@ -15391,7 +15389,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver
@@ -15467,8 +15464,6 @@ SetNonexistentProperty
 JSContext
 *
 cx
-HandleNativeObject
-obj
 HandleId
 id
 HandleValue
@@ -15559,7 +15554,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver
@@ -16004,7 +15998,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver
@@ -16366,7 +16359,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver
@@ -16890,7 +16882,6 @@ return
 SetNonexistentProperty
 (
 cx
-obj
 id
 v
 receiver
@@ -17061,7 +17052,6 @@ return
 SetNonexistentProperty
 (
 cx
-obj
 id
 v
 receiver

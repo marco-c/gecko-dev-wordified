@@ -6137,7 +6137,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver
@@ -11170,7 +11169,6 @@ return
 SetPropertyByDefining
 (
 cx
-obj
 id
 v
 receiver

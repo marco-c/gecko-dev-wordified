@@ -9255,8 +9255,6 @@ SetPropertyByDefining
 JSContext
 *
 cx
-HandleObject
-obj
 HandleId
 id
 HandleValue
