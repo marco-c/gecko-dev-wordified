@@ -289,6 +289,9 @@ Accessible
 .
 *
 /
+#
+ifdef
+_WIN64
 void
 AddID
 (
@@ -341,6 +344,8 @@ aID
 )
 ;
 }
+#
+endif
 protected
 :
 /
@@ -375,6 +380,9 @@ objects
 .
 *
 /
+#
+ifdef
+_WIN64
 nsDataHashtable
 <
 nsUint32HashKey
@@ -383,6 +391,8 @@ AccessibleWrap
 >
 mIDToAccessibleMap
 ;
+#
+endif
 }
 ;
 }
