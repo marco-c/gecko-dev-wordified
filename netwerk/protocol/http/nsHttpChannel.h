@@ -1568,6 +1568,11 @@ ProcessAltService
 (
 )
 ;
+bool
+ShouldBypassProcessNotModified
+(
+)
+;
 nsresult
 ProcessNotModified
 (
