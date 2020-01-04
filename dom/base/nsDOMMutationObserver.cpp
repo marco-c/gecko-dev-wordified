@@ -5159,6 +5159,9 @@ tabs
 return
 ;
 }
+mozilla
+:
+:
 AutoSlowOperation
 aso
 ;
