@@ -1386,7 +1386,7 @@ dom
 :
 DataTransfer
 >
-clipboardData
+mClipboardData
 ;
 void
 AssignClipboardEventData
@@ -1405,11 +1405,11 @@ aEvent
 aCopyTargets
 )
 ;
-clipboardData
+mClipboardData
 =
 aEvent
 .
-clipboardData
+mClipboardData
 ;
 }
 }

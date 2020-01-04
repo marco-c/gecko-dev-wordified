@@ -936,7 +936,7 @@ AsClipboardEvent
 )
 -
 >
-clipboardData
+mClipboardData
 =
 nullptr
 ;
@@ -1168,7 +1168,7 @@ cb
 mEvent
 -
 >
-clipboardData
+mClipboardData
 "
 )
 ;
@@ -1187,7 +1187,7 @@ AsClipboardEvent
 )
 -
 >
-clipboardData
+mClipboardData
 )
 ;
 break
