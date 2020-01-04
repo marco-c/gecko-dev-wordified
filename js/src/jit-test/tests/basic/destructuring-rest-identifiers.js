@@ -263,6 +263,11 @@ new
 Function
 (
 '
+"
+use
+strict
+"
+;
 [
 .
 .
