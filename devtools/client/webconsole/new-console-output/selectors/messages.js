@@ -266,11 +266,13 @@ message
 {
 return
 filters
-[
+.
+get
+(
 message
 .
 level
-]
+)
 =
 =
 =

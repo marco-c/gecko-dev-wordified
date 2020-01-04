@@ -83,6 +83,16 @@ cleared
 .
 "
 ;
+case
+"
+webConsoleXhrIndicator
+"
+:
+return
+"
+XHR
+"
+;
 }
 return
 str
