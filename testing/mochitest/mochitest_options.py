@@ -4696,7 +4696,12 @@ help
 "
 :
 "
-Extra
+Comma
+-
+separated
+list
+of
+extra
 arguments
 to
 pass
