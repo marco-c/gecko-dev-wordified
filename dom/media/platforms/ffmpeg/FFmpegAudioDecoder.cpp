@@ -853,13 +853,10 @@ IsCurrentThreadIn
 AVPacket
 packet
 ;
-AV_CALL
-(
 av_init_packet
 (
 &
 packet
-)
 )
 ;
 packet
@@ -966,8 +963,6 @@ decoded
 int
 bytesConsumed
 =
-AV_CALL
-(
 avcodec_decode_audio4
 (
 mCodecContext
@@ -976,7 +971,6 @@ mFrame
 decoded
 &
 packet
-)
 )
 ;
 if

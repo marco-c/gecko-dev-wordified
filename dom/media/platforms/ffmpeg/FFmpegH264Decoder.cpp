@@ -919,12 +919,9 @@ ChoosePixelFormat
 ;
 mCodecParser
 =
-AV_CALL
-(
 av_parser_init
 (
 mCodecID
-)
 )
 ;
 if
@@ -1056,8 +1053,6 @@ size
 int
 len
 =
-AV_CALL
-(
 av_parser_parse2
 (
 mCodecParser
@@ -1080,7 +1075,6 @@ aSample
 -
 >
 mOffset
-)
 )
 ;
 if
@@ -1226,13 +1220,10 @@ IsCurrentThreadIn
 AVPacket
 packet
 ;
-AV_CALL
-(
 av_init_packet
 (
 &
 packet
-)
 )
 ;
 packet
@@ -1422,8 +1413,6 @@ decoded
 int
 bytesConsumed
 =
-AV_CALL
-(
 avcodec_decode_video2
 (
 mCodecContext
@@ -1432,7 +1421,6 @@ mFrame
 decoded
 &
 packet
-)
 )
 ;
 FFMPEG_LOG
@@ -2364,12 +2352,9 @@ if
 mCodecParser
 )
 {
-AV_CALL
-(
 av_parser_close
 (
 mCodecParser
-)
 )
 ;
 mCodecParser
