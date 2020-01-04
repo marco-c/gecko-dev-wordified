@@ -26785,6 +26785,17 @@ UNDEFINED
 return
 false
 ;
+if
+(
+!
+emit1
+(
+JSOP_NOP_DESTRUCTURING
+)
+)
+return
+false
+;
 /
 *
 Jump

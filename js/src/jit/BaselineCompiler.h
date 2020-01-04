@@ -287,6 +287,11 @@ JSOP_NOP
 \
 _
 (
+JSOP_NOP_DESTRUCTURING
+)
+\
+_
+(
 JSOP_LABEL
 )
 \
