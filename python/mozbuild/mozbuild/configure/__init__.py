@@ -159,7 +159,7 @@ Exception
     
 pass
 class
-DependsFunction
+SandboxDependsFunction
 (
 object
 )
@@ -1975,7 +1975,7 @@ not
 isinstance
 (
 value
-DependsFunction
+SandboxDependsFunction
 )
 and
                 
@@ -2058,7 +2058,7 @@ if
 isinstance
 (
 arg
-DependsFunction
+SandboxDependsFunction
 )
 :
             
@@ -2136,7 +2136,7 @@ if
 isinstance
 (
 obj
-DependsFunction
+SandboxDependsFunction
 )
 :
             
@@ -2225,7 +2225,7 @@ if
 isinstance
 (
 arg
-DependsFunction
+SandboxDependsFunction
 )
 :
                     
@@ -3237,7 +3237,7 @@ elif
 isinstance
 (
 arg
-DependsFunction
+SandboxDependsFunction
 )
 :
                 
@@ -3341,7 +3341,7 @@ wraps
 func
 )
 (
-DependsFunction
+SandboxDependsFunction
 (
 )
 )
@@ -5616,7 +5616,7 @@ and
 isinstance
 (
 value
-DependsFunction
+SandboxDependsFunction
 )
 :
             
