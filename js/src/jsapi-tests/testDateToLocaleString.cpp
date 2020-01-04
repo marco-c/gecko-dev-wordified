@@ -269,7 +269,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-rt
+cx
 "
 de
 "
@@ -347,7 +347,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-rt
+cx
 "
 en
 "
@@ -420,7 +420,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-rt
+cx
 "
 de
 "
@@ -493,7 +493,7 @@ CHECK
 (
 JS_SetDefaultLocale
 (
-rt
+cx
 "
 en
 "
@@ -537,7 +537,7 @@ change
 ;
 JS_ResetDefaultLocale
 (
-rt
+cx
 )
 ;
 return
