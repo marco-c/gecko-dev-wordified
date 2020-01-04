@@ -965,7 +965,7 @@ VerifyBufferSize
 (
 )
 ;
-void
+bool
 UpdateRenderTarget
 (
 )

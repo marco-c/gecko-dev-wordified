@@ -1103,6 +1103,12 @@ retain
 their
 values
 .
+D3D11InvalidCallDeviceRemoved
+=
+0
+D3D11InvalidCall
+=
+1
 /
 /
 End
