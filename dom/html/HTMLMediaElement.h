@@ -167,13 +167,6 @@ h
 #
 include
 "
-DOMMediaStream
-.
-h
-"
-#
-include
-"
 DecoderTraits
 .
 h
@@ -332,6 +325,9 @@ nsMediaReadyState
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 class
 ErrorResult
 ;
