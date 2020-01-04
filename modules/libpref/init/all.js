@@ -5164,6 +5164,11 @@ me
 spreed
 .
 com
+air
+.
+mozilla
+.
+org
 "
 )
 ;
@@ -5340,6 +5345,11 @@ me
 spreed
 .
 com
+air
+.
+mozilla
+.
+org
 "
 )
 ;
@@ -14080,6 +14090,7 @@ secure
 "
 gzip
 deflate
+brotli
 "
 )
 ;
