@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsITCPSocketParent
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -160,13 +153,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsIDOMTCPSocket
 .
 h
 "

@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIDOMTCPSocket
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h
