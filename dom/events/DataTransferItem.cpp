@@ -176,7 +176,7 @@ mozilla
 /
 dom
 /
-FileEntry
+FileSystem
 .
 h
 "
@@ -187,7 +187,7 @@ mozilla
 /
 dom
 /
-FileSystem
+FileSystemFileEntry
 .
 h
 "
@@ -2004,7 +2004,7 @@ else
 entry
 =
 new
-FileEntry
+FileSystemFileEntry
 (
 global
 file

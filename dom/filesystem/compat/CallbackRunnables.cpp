@@ -172,7 +172,7 @@ mozilla
 /
 dom
 /
-FileEntry
+FileSystemFileEntry
 .
 h
 "
@@ -586,12 +586,12 @@ return
 }
 RefPtr
 <
-FileEntry
+FileSystemFileEntry
 >
 entry
 =
 new
-FileEntry
+FileSystemFileEntry
 (
 mGlobal
 file

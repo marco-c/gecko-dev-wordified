@@ -131,7 +131,7 @@ h
 #
 include
 "
-FileEntry
+FileSystemFileEntry
 .
 h
 "
@@ -474,12 +474,12 @@ file
 {
 RefPtr
 <
-FileEntry
+FileSystemFileEntry
 >
 entry
 =
 new
-FileEntry
+FileSystemFileEntry
 (
 mGlobal
 file
