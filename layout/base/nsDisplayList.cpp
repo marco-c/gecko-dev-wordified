@@ -466,6 +466,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PendingAnimationTracker
 .
 h
@@ -7630,6 +7639,7 @@ c
 =
 new
 (
+KnownNotNull
 p
 )
 DisplayItemClip
@@ -7688,6 +7698,7 @@ c
 =
 new
 (
+KnownNotNull
 p
 )
 DisplayItemScrollClip

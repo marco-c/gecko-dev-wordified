@@ -218,6 +218,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 unused
 .
 h
@@ -13644,6 +13653,7 @@ i
 {
 new
 (
+KnownNotNull
 mArray
 +
 i
