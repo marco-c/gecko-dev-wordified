@@ -5243,6 +5243,9 @@ self
 data
 name
 value
+when
+=
+None
 )
 :
         
@@ -5266,6 +5269,20 @@ if
 self
 .
 _help
+:
+            
+return
+        
+if
+when
+and
+not
+self
+.
+_value_for
+(
+when
+)
 :
             
 return
@@ -5385,6 +5402,9 @@ set_config_impl
 self
 name
 value
+when
+=
+None
 )
 :
         
@@ -5455,6 +5475,28 @@ set
 '
 '
         
+if
+when
+is
+not
+None
+:
+            
+when
+=
+self
+.
+_dependency
+(
+when
+'
+set_config
+'
+'
+when
+'
+)
+        
 self
 .
 _execution_queue
@@ -5472,6 +5514,7 @@ self
 _config
 name
 value
+when
 )
 )
 )
@@ -5482,6 +5525,9 @@ set_define_impl
 self
 name
 value
+when
+=
+None
 )
 :
         
@@ -5566,6 +5612,28 @@ U
 '
 '
         
+if
+when
+is
+not
+None
+:
+            
+when
+=
+self
+.
+_dependency
+(
+when
+'
+set_define
+'
+'
+when
+'
+)
+        
 defines
 =
 self
@@ -5596,6 +5664,7 @@ _resolve_and_set
 defines
 name
 value
+when
 )
 )
 )
