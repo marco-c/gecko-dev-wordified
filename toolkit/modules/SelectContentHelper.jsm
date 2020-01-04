@@ -258,6 +258,7 @@ SelectContentHelper
 function
 (
 aElement
+aOptions
 aGlobal
 )
 {
@@ -292,6 +293,14 @@ this
 closedWithEnter
 =
 false
+;
+this
+.
+isOpenedViaTouch
+=
+aOptions
+.
+isOpenedViaTouch
 ;
 this
 .
@@ -721,6 +730,11 @@ this
 .
 element
 )
+isOpenedViaTouch
+:
+this
+.
+isOpenedViaTouch
 }
 )
 ;

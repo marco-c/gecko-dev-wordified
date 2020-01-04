@@ -166,6 +166,7 @@ function
 browser
 menulist
 rect
+isOpenedViaTouch
 )
 {
 menulist
@@ -331,6 +332,18 @@ px
 "
 ;
 }
+menupopup
+.
+classList
+.
+toggle
+(
+"
+isOpenedViaTouch
+"
+isOpenedViaTouch
+)
+;
 let
 constraintRect
 =
