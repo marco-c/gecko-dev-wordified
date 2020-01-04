@@ -21909,6 +21909,12 @@ case
 MIRType
 :
 :
+MagicIsConstructing
+:
+case
+MIRType
+:
+:
 Value
 :
 case
@@ -21961,12 +21967,6 @@ MIRType
 :
 :
 MagicHole
-:
-case
-MIRType
-:
-:
-MagicIsConstructing
 :
 case
 MIRType
