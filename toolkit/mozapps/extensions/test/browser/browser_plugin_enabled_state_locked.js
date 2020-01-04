@@ -57,7 +57,7 @@ is
 unlocked
 /
 locked
-const
+var
 {
 classes
 :

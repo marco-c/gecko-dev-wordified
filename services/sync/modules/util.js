@@ -81,7 +81,7 @@ Str
 "
 ]
 ;
-const
+var
 {
 classes
 :

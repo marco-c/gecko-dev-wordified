@@ -66,7 +66,7 @@ devtools
 inspector
 tests
 .
-let
+var
 {
 Cc
 Ci
@@ -358,7 +358,7 @@ markup
 ;
 }
 }
-const
+var
 TestActor
 =
 exports
@@ -3481,7 +3481,7 @@ json
 }
 )
 ;
-const
+var
 TestActorFront
 =
 exports

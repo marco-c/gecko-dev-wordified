@@ -226,6 +226,17 @@ loopRoomsCache
 json
 "
 ;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+LOOP_ROOMS_CACHE_FILENAME
+"
+LOOP_ROOMS_CACHE_FILENAME
+)
+;
 /
 *
 *

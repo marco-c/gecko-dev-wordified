@@ -828,6 +828,17 @@ RECHECK
 }
 }
 ;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+TELEMETRY_LOG
+"
+TELEMETRY_LOG
+)
+;
 const
 gPrefs
 =

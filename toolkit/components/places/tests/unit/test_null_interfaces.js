@@ -77,13 +77,6 @@ crash
 .
 *
 /
-var
-Cr
-=
-Components
-.
-results
-;
 /
 /
 Make

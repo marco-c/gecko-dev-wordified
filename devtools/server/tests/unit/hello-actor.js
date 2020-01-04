@@ -41,7 +41,7 @@ protocol
 "
 )
 ;
-const
+var
 HelloActor
 =
 protocol

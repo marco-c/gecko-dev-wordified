@@ -222,7 +222,7 @@ close
 ]
 )
 ;
-let
+var
 gCustomButtons
 =
 new

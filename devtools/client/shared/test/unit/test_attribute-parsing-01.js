@@ -39,7 +39,7 @@ attribute
 parser
 .
 js
-const
+var
 Cu
 =
 Components

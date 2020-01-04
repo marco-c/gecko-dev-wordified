@@ -207,7 +207,7 @@ h
 "
 ;
 }
-const
+var
 {
 '
 classes

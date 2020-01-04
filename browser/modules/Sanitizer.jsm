@@ -136,7 +136,7 @@ Cu
 =
 Components
 ;
-let
+var
 scope
 =
 {

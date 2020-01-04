@@ -52,7 +52,7 @@ module
 .
 *
 /
-const
+var
 {
 classes
 :

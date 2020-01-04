@@ -95,14 +95,14 @@ win7
 and
 up
 .
-const
+var
 Cc
 =
 Components
 .
 classes
 ;
-const
+var
 Ci
 =
 Components

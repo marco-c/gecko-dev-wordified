@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -453,6 +453,17 @@ ShaderEditor
 EditorCleaned
 "
 }
+;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+EVENTS
+"
+EVENTS
+)
 ;
 const
 STRINGS_URI

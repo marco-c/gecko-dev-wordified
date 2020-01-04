@@ -32,7 +32,7 @@ use
 strict
 "
 ;
-const
+var
 {
 utils
 :

@@ -112,7 +112,7 @@ bootstrap
 js
 )
 ;
-const
+var
 {
 startup
 shutdown

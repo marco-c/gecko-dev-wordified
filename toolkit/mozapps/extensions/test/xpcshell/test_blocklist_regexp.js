@@ -63,7 +63,7 @@ test_blocklistchange
 .
 js
 .
-const
+var
 {
 classes
 :

@@ -69,7 +69,7 @@ Async
 "
 ]
 ;
-const
+var
 {
 classes
 :

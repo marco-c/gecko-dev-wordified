@@ -108,7 +108,7 @@ tabbrowser
 .
 *
 /
-const
+var
 {
 classes
 :

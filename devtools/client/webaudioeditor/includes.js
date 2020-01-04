@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -732,6 +732,17 @@ WebAudioEditor
 UIInspectorResize
 "
 }
+;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+EVENTS
+"
+EVENTS
+)
 ;
 /
 *

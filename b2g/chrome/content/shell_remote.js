@@ -102,7 +102,7 @@ use
 strict
 "
 ;
-const
+var
 {
 utils
 :
@@ -159,7 +159,7 @@ n
 )
 ;
 }
-let
+var
 remoteShell
 =
 {

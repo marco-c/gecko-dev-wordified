@@ -325,7 +325,7 @@ variables
 .
 getScopeAtIndex
 (
-1
+2
 )
 ;
 is

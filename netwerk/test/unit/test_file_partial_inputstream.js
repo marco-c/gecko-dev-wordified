@@ -94,7 +94,7 @@ confuse
 /
 the
 console
-const
+var
 CC
 =
 Components

@@ -204,7 +204,7 @@ Services
 "
 )
 ;
-let
+var
 AboutDebugging
 =
 {

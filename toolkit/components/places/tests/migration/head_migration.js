@@ -31,7 +31,7 @@ zero
 use
 strict
 "
-const
+var
 {
 classes
 :

@@ -6,7 +6,7 @@ moz
 true
 *
 /
-const
+var
 {
 utils
 :

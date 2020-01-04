@@ -85,7 +85,7 @@ globals
 ReaderMode
 *
 /
-const
+var
 {
 utils
 :

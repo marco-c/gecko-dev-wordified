@@ -78,7 +78,7 @@ Store
 "
 ]
 ;
-const
+var
 {
 classes
 :

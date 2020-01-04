@@ -47,7 +47,7 @@ iframes
 scroll
 and
 zoom
-const
+var
 {
 utils
 :
@@ -56,7 +56,7 @@ Cu
 =
 Components
 ;
-let
+var
 {
 getAdjustedQuads
 }

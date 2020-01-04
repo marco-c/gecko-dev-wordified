@@ -114,7 +114,7 @@ MPL
 .
 *
 /
-const
+var
 {
 classes
 :

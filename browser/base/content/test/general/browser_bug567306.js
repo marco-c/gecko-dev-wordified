@@ -28,7 +28,7 @@ zero
 /
 *
 /
-const
+var
 {
 Ci
 :

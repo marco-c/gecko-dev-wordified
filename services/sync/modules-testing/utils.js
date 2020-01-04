@@ -134,7 +134,7 @@ sumHistogram
 "
 ]
 ;
-const
+var
 {
 utils
 :

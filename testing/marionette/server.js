@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-const
+var
 {
 Constructor
 :
@@ -79,7 +79,7 @@ Cu
 =
 Components
 ;
-const
+var
 loader
 =
 Cc

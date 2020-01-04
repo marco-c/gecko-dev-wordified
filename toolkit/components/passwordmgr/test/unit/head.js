@@ -175,7 +175,7 @@ strict
 /
 /
 Globals
-const
+var
 {
 classes
 :

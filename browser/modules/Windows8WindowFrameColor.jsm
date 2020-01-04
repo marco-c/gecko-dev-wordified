@@ -151,7 +151,7 @@ jsm
 .
 WindowsRegistry
 ;
-const
+var
 Windows8WindowFrameColor
 =
 {

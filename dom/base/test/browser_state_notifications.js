@@ -38,7 +38,7 @@ use
 strict
 "
 ;
-const
+var
 {
 interfaces
 :

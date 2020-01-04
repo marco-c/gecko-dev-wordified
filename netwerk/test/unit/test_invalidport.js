@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-const
+var
 CC
 =
 Components

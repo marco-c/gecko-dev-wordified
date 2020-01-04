@@ -51,7 +51,7 @@ See
 bug
 802434
 .
-const
+var
 {
 classes
 :

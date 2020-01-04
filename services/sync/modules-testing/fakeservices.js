@@ -80,7 +80,7 @@ fakeSHA256HMAC
 "
 ]
 ;
-const
+var
 {
 utils
 :

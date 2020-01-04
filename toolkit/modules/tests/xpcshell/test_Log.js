@@ -27,7 +27,7 @@ zero
 /
 *
 /
-const
+var
 {
 utils
 :

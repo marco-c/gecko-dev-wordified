@@ -154,7 +154,7 @@ for
 blocked
 image
 content
-let
+var
 PLACEHOLDER_IMG
 =
 "

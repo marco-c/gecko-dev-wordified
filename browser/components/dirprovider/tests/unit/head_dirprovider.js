@@ -56,14 +56,14 @@ MPL
 .
 *
 /
-const
+var
 Cc
 =
 Components
 .
 classes
 ;
-const
+var
 Ci
 =
 Components

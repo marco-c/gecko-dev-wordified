@@ -255,7 +255,7 @@ gVariables
 .
 getScopeAtIndex
 (
-1
+2
 )
 ;
 is
@@ -335,7 +335,7 @@ gVariables
 .
 getScopeAtIndex
 (
-1
+2
 )
 ;
 is
@@ -924,7 +924,7 @@ gVariables
 .
 getScopeAtIndex
 (
-1
+2
 )
 .
 get
@@ -1011,7 +1011,7 @@ gVariables
 .
 getScopeAtIndex
 (
-1
+2
 )
 .
 get

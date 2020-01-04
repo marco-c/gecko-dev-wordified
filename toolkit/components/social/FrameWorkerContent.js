@@ -213,7 +213,7 @@ origin
 .
 *
 /
-const
+var
 {
 classes
 :

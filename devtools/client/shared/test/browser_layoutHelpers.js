@@ -36,7 +36,7 @@ scrollIntoViewIfNeeded
 works
 properly
 .
-let
+var
 {
 scrollIntoViewIfNeeded
 }

@@ -39,7 +39,7 @@ to
 head_addons
 .
 js
-const
+var
 {
 classes
 :
