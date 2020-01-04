@@ -99,7 +99,7 @@ android
 .
 widget
 .
-ImageButton
+ImageView
 ;
 /
 *
@@ -1045,11 +1045,11 @@ isSatisfied
 (
 )
 {
-ImageButton
+ImageView
 btn
 =
 (
-ImageButton
+ImageView
 )
 mSolo
 .
