@@ -1106,7 +1106,7 @@ jsonFile2
 These
 tests
 do
-full
+complete
 end
 -
 to
@@ -1125,9 +1125,9 @@ C
 +
 +
 code
+/
+/
 that
-/
-/
 generates
 the
 JSON
@@ -1140,6 +1140,8 @@ post
 -
 processes
 that
+/
+/
 output
 .
 /
@@ -1155,7 +1157,7 @@ test
 )
 updates
 the
-full
+complete
 *
 .
 json
@@ -1228,7 +1230,7 @@ let
 name
 =
 "
-full
+complete
 -
 "
 +
@@ -1328,7 +1330,7 @@ cumulative
 test2
 (
 "
-unsampled1
+full1
 "
 "
 live
@@ -1338,7 +1340,7 @@ live
 test2
 (
 "
-unsampled1
+full1
 "
 "
 dark
@@ -1350,7 +1352,7 @@ matter
 test2
 (
 "
-unsampled2
+full2
 "
 "
 dark
@@ -1362,7 +1364,7 @@ matter
 test2
 (
 "
-unsampled2
+full2
 "
 "
 cumulative
@@ -1372,7 +1374,7 @@ cumulative
 test2
 (
 "
-sampled
+partial
 "
 "
 live
