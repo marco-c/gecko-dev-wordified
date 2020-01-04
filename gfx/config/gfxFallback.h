@@ -147,6 +147,11 @@ Name
 *
 /
 \
+_
+(
+USE_D3D11_WARP_COMPOSITOR
+)
+\
 /
 *
 Add
