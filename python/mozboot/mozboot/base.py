@@ -2086,11 +2086,13 @@ copy
         
 env
 [
+b
 '
 HGPLAIN
 '
 ]
 =
+b
 '
 1
 '
