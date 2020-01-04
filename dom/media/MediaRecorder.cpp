@@ -1809,9 +1809,6 @@ class
 TracksAvailableCallback
 :
 public
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 {
 public

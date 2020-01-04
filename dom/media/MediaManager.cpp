@@ -1627,9 +1627,6 @@ aListener
 DOMMediaStream
 *
 aStream
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 *
 aOnTracksAvailableCallback
@@ -2272,9 +2269,6 @@ mStream
 ;
 nsAutoPtr
 <
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 >
 mOnTracksAvailableCallback
@@ -5087,9 +5081,6 @@ class
 TracksAvailableCallback
 :
 public
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 {
 public
