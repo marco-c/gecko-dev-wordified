@@ -4647,6 +4647,9 @@ mFunctions
 segmentIndex
 ]
 positionInSegment
+computedTiming
+.
+mBeforeFlag
 )
 ;
 /
