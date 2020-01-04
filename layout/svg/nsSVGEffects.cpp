@@ -3048,7 +3048,10 @@ GetType
 )
 =
 =
-NS_STYLE_CLIP_PATH_URL
+StyleClipPathType
+:
+:
+URL
 )
 {
 result

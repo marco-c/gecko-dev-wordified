@@ -214,7 +214,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-int32_t
+StyleClipPathType
 type
 =
 clipPathStyle
@@ -228,7 +228,10 @@ MOZ_ASSERT
 type
 !
 =
-NS_STYLE_CLIP_PATH_NONE
+StyleClipPathType
+:
+:
+None_
 "
 unexpected
 none
@@ -265,7 +268,10 @@ if
 type
 =
 =
-NS_STYLE_CLIP_PATH_URL
+StyleClipPathType
+:
+:
+URL
 )
 {
 return
@@ -349,7 +355,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-int32_t
+StyleClipPathType
 type
 =
 clipPathStyle
@@ -363,7 +369,10 @@ MOZ_ASSERT
 type
 !
 =
-NS_STYLE_CLIP_PATH_NONE
+StyleClipPathType
+:
+:
+None_
 "
 unexpected
 none
@@ -400,7 +409,10 @@ if
 type
 =
 =
-NS_STYLE_CLIP_PATH_URL
+StyleClipPathType
+:
+:
+URL
 )
 {
 return
@@ -602,7 +614,10 @@ GetType
 )
 !
 =
-NS_STYLE_CLIP_PATH_SHAPE
+StyleClipPathType
+:
+:
+Shape
 )
 {
 /
