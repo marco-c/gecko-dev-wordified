@@ -41191,7 +41191,7 @@ line
 block
 -
 >
-BeginLine
+LinesBegin
 (
 )
 line_end
@@ -41199,7 +41199,7 @@ line_end
 block
 -
 >
-EndLine
+LinesEnd
 (
 )
 ;
@@ -41508,7 +41508,7 @@ line
 block
 -
 >
-RBeginLine
+LinesRBegin
 (
 )
 line_end
@@ -41516,7 +41516,7 @@ line_end
 block
 -
 >
-REndLine
+LinesREnd
 (
 )
 ;
@@ -41790,7 +41790,7 @@ line
 aFrame
 -
 >
-BeginLine
+LinesBegin
 (
 )
 line_end
@@ -41798,7 +41798,7 @@ line_end
 aFrame
 -
 >
-EndLine
+LinesEnd
 (
 )
 ;

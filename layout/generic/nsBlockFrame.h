@@ -730,7 +730,7 @@ const_reverse_iterator
 ConstReverseLineIterator
 ;
 LineIterator
-BeginLine
+LinesBegin
 (
 )
 {
@@ -743,7 +743,7 @@ begin
 ;
 }
 LineIterator
-EndLine
+LinesEnd
 (
 )
 {
@@ -756,7 +756,7 @@ end
 ;
 }
 ConstLineIterator
-BeginLine
+LinesBegin
 (
 )
 const
@@ -770,7 +770,7 @@ begin
 ;
 }
 ConstLineIterator
-EndLine
+LinesEnd
 (
 )
 const
@@ -784,7 +784,7 @@ end
 ;
 }
 ReverseLineIterator
-RBeginLine
+LinesRBegin
 (
 )
 {
@@ -797,7 +797,7 @@ rbegin
 ;
 }
 ReverseLineIterator
-REndLine
+LinesREnd
 (
 )
 {
@@ -810,7 +810,7 @@ rend
 ;
 }
 ConstReverseLineIterator
-RBeginLine
+LinesRBegin
 (
 )
 const
@@ -824,7 +824,7 @@ rbegin
 ;
 }
 ConstReverseLineIterator
-REndLine
+LinesREnd
 (
 )
 const
@@ -838,7 +838,7 @@ rend
 ;
 }
 LineIterator
-BeginLineFrom
+LinesBeginFrom
 (
 nsLineBox
 *
@@ -855,7 +855,7 @@ aList
 ;
 }
 ReverseLineIterator
-RBeginLineFrom
+LinesRBeginFrom
 (
 nsLineBox
 *
@@ -5425,7 +5425,7 @@ mLines
 '
 (
 or
-BeginLine
+LinesBegin
 (
 )
 when

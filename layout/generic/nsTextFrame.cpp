@@ -33766,7 +33766,7 @@ line
 aBlockFrame
 -
 >
-BeginLine
+LinesBegin
 (
 )
 line_end
@@ -33774,7 +33774,7 @@ line_end
 aBlockFrame
 -
 >
-EndLine
+LinesEnd
 (
 )
 ;

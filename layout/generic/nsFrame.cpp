@@ -26432,7 +26432,7 @@ aLine
 aParent
 -
 >
-EndLine
+LinesEnd
 (
 )
 )
@@ -26947,7 +26947,7 @@ firstLine
 bf
 -
 >
-BeginLine
+LinesBegin
 (
 )
 ;
@@ -26960,7 +26960,7 @@ end
 bf
 -
 >
-EndLine
+LinesEnd
 (
 )
 ;
