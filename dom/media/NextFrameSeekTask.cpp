@@ -839,8 +839,6 @@ UpdateSeekTargetTime
 auto
 time
 =
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -1825,8 +1823,6 @@ if
 data
 )
 {
-mSeekJob
-.
 mTarget
 .
 SetTime
@@ -1850,8 +1846,6 @@ if
 mSeekedVideoData
 )
 {
-mSeekJob
-.
 mTarget
 .
 SetTime
@@ -1882,8 +1876,6 @@ AtEndOfStream
 )
 )
 {
-mSeekJob
-.
 mTarget
 .
 SetTime

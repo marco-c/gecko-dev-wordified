@@ -278,6 +278,12 @@ GetSeekJob
 (
 )
 ;
+SeekTarget
+&
+GetSeekTarget
+(
+)
+;
 bool
 Exists
 (
@@ -385,6 +391,10 @@ state
 /
 SeekJob
 mSeekJob
+;
+SeekTarget
+&
+mTarget
 ;
 MozPromiseHolder
 <
