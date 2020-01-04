@@ -897,6 +897,15 @@ era
 \
 macro
 (
+ErrorToStringWithTrailingNewline
+ErrorToStringWithTrailingNewline
+"
+ErrorToStringWithTrailingNewline
+"
+)
+\
+macro
+(
 escape
 escape
 "
