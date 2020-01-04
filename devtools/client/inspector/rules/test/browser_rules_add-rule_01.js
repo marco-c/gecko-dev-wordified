@@ -417,6 +417,7 @@ let
 {
 inspector
 view
+testActor
 }
 =
 yield
@@ -471,6 +472,12 @@ content
 "
 )
 ;
+yield
+testActor
+.
+eval
+(
+"
 content
 .
 document
@@ -479,7 +486,14 @@ body
 .
 innerHTML
 =
+"
++
 TEST_URI
++
+"
+;
+"
+)
 ;
 }
 }
