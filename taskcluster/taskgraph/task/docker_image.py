@@ -316,25 +316,6 @@ loaded_tasks
 )
 :
         
-#
-TODO
-:
-make
-this
-match
-the
-pushdate
-(
-get
-it
-from
-a
-parameter
-rather
-than
-vcs
-)
-        
 pushdate
 =
 time
@@ -359,6 +340,12 @@ time
 .
 gmtime
 (
+params
+[
+'
+pushdate
+'
+]
 )
 )
         
