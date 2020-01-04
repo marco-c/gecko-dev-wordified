@@ -2091,6 +2091,10 @@ CC
 '
 CXX
 '
+                          
+'
+WINDOWSSDKDIR
+'
 ]
 )
 #
