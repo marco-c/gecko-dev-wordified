@@ -1989,7 +1989,7 @@ data
 "
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 nsTArray
 <
@@ -1997,7 +1997,7 @@ nsCString
 >
 >
 data
-(
+=
 mozilla
 :
 :
@@ -2007,7 +2007,6 @@ tasktracer
 GetLoggedData
 (
 sStartTime
-)
 )
 ;
 for
