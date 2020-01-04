@@ -147,9 +147,13 @@ EMBED
 -
 DOWNLOAD
 *
-7
+8
 -
 FRAMED_LINK
+*
+9
+-
+RELOAD
 *
 *
 /
@@ -161,6 +165,7 @@ EXCLUDED_VISIT_TYPES
 4
 7
 8
+9
 "
 /
 *
