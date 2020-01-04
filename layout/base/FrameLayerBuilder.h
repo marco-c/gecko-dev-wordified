@@ -192,9 +192,6 @@ nsDisplayItemGeometry
 namespace
 mozilla
 {
-class
-DisplayItemScrollClip
-;
 namespace
 layers
 {
@@ -294,10 +291,6 @@ NS_RGBA
 0
 )
 )
-mScrollClip
-(
-nullptr
-)
 mInTransformedSubtree
 (
 false
@@ -349,10 +342,6 @@ NS_RGBA
 0
 0
 )
-)
-mScrollClip
-(
-nullptr
 )
 mInTransformedSubtree
 (
@@ -413,12 +402,6 @@ mBackgroundColor
 aParent
 .
 mBackgroundColor
-)
-mScrollClip
-(
-aParent
-.
-mScrollClip
 )
 mInTransformedSubtree
 (
@@ -543,11 +526,6 @@ mOffset
 }
 nscolor
 mBackgroundColor
-;
-const
-DisplayItemScrollClip
-*
-mScrollClip
 ;
 bool
 mInTransformedSubtree
