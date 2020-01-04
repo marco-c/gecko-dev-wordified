@@ -18055,6 +18055,15 @@ intrinsic_GetStringDataProperty
 JS_FN
 (
 "
+GetFirstDollarIndex
+"
+GetFirstDollarIndex
+1
+0
+)
+JS_FN
+(
+"
 FlatStringMatch
 "
 FlatStringMatch
