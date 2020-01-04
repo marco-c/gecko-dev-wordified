@@ -3955,6 +3955,12 @@ HasPerspective
 )
 const
 ;
+bool
+HasBgAttachmentLocal
+(
+)
+const
+;
 uint8_t
 GetScrolledFrameDir
 (
