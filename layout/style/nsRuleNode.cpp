@@ -44052,6 +44052,11 @@ mShapeOutside
 SetURL
 (
 shapeOutsideValue
+-
+>
+GetURLStructValue
+(
+)
 )
 ;
 break
@@ -64218,6 +64223,11 @@ mClipPath
 SetURL
 (
 clipPathValue
+-
+>
+GetURLStructValue
+(
+)
 )
 ;
 break
