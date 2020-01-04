@@ -1529,9 +1529,11 @@ inspector
 &
 this
 .
-target
+_toolbox
 .
-isThreadPaused
+threadClient
+.
+paused
 )
 {
 let
@@ -1601,9 +1603,11 @@ notification
 !
 this
 .
-target
+_toolbox
 .
-isThreadPaused
+threadClient
+.
+paused
 )
 {
 notificationBox
