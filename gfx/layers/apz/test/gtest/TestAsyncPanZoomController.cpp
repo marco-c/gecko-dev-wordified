@@ -3293,6 +3293,8 @@ Reduce
 the
 touch
 start
+and
+move
 tolerance
 to
 a
@@ -3346,6 +3348,16 @@ SetAPZTouchStartTolerance
 0f
 /
 1000
+.
+0f
+)
+;
+gfxPrefs
+:
+:
+SetAPZTouchMoveTolerance
+(
+0
 .
 0f
 )
