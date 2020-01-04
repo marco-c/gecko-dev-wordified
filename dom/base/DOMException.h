@@ -490,6 +490,9 @@ const
 void
 Stringify
 (
+JSContext
+*
+aCx
 nsString
 &
 retval
@@ -626,6 +629,9 @@ overrides
 NS_IMETHOD
 ToString
 (
+JSContext
+*
+aCx
 nsACString
 &
 aReturn
