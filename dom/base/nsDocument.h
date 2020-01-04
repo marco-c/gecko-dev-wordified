@@ -4001,7 +4001,7 @@ aContentType
 override
 ;
 virtual
-nsresult
+void
 SetBaseURI
 (
 nsIURI

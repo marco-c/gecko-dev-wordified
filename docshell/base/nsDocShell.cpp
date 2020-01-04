@@ -77345,8 +77345,6 @@ if
 document
 )
 {
-rv
-=
 document
 -
 >

@@ -2344,7 +2344,7 @@ const
 override
 ;
 virtual
-nsresult
+void
 SetBaseURI
 (
 nsIURI
