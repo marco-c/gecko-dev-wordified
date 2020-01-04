@@ -11352,7 +11352,6 @@ true
 DidDoReflow
 (
 true
-false
 )
 ;
 }
@@ -53755,8 +53754,6 @@ DidDoReflow
 (
 bool
 aInterruptible
-bool
-aWasInterrupted
 )
 {
 mFrameConstructor
@@ -53838,17 +53835,6 @@ NotifyMissingFonts
 (
 )
 ;
-if
-(
-!
-aWasInterrupted
-)
-{
-ClearReflowOnZoomPending
-(
-)
-;
-}
 }
 DOMHighResTimeStamp
 PresShell
@@ -56179,7 +56165,6 @@ mIsDestroying
 DidDoReflow
 (
 aInterruptible
-interrupted
 )
 ;
 }
