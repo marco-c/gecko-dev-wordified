@@ -260,6 +260,25 @@ expected_flags
         
 }
         
+base_dir
+=
+os
+.
+path
+.
+join
+(
+topsrcdir
+'
+build
+'
+'
+moz
+.
+configure
+'
+)
+        
 mock_compiler_defs
 =
 textwrap
@@ -270,6 +289,42 @@ dedent
 '
 '
 \
+            
+depends
+(
+'
+-
+-
+help
+'
+)
+            
+def
+extra_toolchain_flags
+(
+_
+)
+:
+                
+return
+[
+]
+            
+include
+(
+'
+%
+s
+/
+compilers
+-
+util
+.
+configure
+'
+)
+            
+compiler_class
             
 depends
 (
@@ -318,8 +373,16 @@ wrapper
 =
 [
 ]
+                    
+language
+=
+'
+C
+'
                 
 )
+            
+compiler_class
             
 depends
 (
@@ -368,32 +431,22 @@ wrapper
 =
 [
 ]
+                    
+language
+=
+'
+C
++
++
+'
                 
 )
-            
-depends
-(
-'
--
--
-help
-'
-)
-            
-def
-extra_toolchain_flags
-(
-_
-)
-:
-                
-return
-[
-]
         
 '
 '
 '
+%
+base_dir
 )
         
 config
@@ -426,25 +479,6 @@ configure
                                        
 out
 out
-)
-        
-base_dir
-=
-os
-.
-path
-.
-join
-(
-topsrcdir
-'
-build
-'
-'
-moz
-.
-configure
-'
 )
         
 sandbox
