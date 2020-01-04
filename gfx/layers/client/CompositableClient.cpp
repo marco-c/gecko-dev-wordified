@@ -397,7 +397,7 @@ GetAllocator
 )
 -
 >
-UsesImageBridge
+IsImageBridgeChild
 (
 )
 )
@@ -430,11 +430,6 @@ mTextureClient
 nullptr
 ;
 allocator
--
->
-AsClientAllocator
-(
-)
 -
 >
 GetMessageLoop
