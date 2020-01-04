@@ -501,9 +501,9 @@ hud
 .
 jsterm
 .
-inputNode
-.
-value
+getInputValue
+(
+)
 "
 temp0
 "

@@ -177,9 +177,11 @@ selectionStart
 is
 (
 inputLength
-inputNode
+jsterm
 .
-value
+getInputValue
+(
+)
 .
 length
 "
