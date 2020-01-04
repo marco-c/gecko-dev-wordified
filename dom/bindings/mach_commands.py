@@ -297,6 +297,26 @@ self
 topobjdir
 )
         
+if
+kwargs
+[
+"
+verbose
+"
+]
+is
+None
+:
+            
+kwargs
+[
+"
+verbose
+"
+]
+=
+False
+        
 #
 Now
 we
