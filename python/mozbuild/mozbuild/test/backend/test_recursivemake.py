@@ -5826,11 +5826,11 @@ DEFINES
 =
 -
 DFOO
+\
+'
 -
 DBAZ
 =
-\
-'
 "
 ab
 \
@@ -5981,11 +5981,11 @@ HOST_DEFINES
 =
 -
 DFOO
+\
+'
 -
 DBAZ
 =
-\
-'
 "
 ab
 \
