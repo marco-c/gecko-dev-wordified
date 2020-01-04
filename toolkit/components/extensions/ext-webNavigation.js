@@ -351,11 +351,8 @@ prototype
 ;
 extensions
 .
-registerSchemaAPI
+registerPrivilegedAPI
 (
-"
-webNavigation
-"
 "
 webNavigation
 "
