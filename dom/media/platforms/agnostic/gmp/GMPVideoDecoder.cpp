@@ -710,11 +710,7 @@ GetNodeId
 )
 {
 return
-NS_LITERAL_CSTRING
-(
-"
-"
-)
+SHARED_GMP_DECODING_NODE_ID
 ;
 }
 GMPUniquePtr
