@@ -903,6 +903,14 @@ lir
 )
 ;
 void
+visitNullarySharedStub
+(
+LNullarySharedStub
+*
+lir
+)
+;
+void
 visitLambda
 (
 LLambda

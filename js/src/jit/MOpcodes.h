@@ -334,6 +334,11 @@ UnarySharedStub
 \
 _
 (
+NullarySharedStub
+)
+\
+_
+(
 CheckOverRecursed
 )
 \

@@ -17489,6 +17489,9 @@ firstMonitorStub_
 /
 /
 JSOP_NEWARRAY
+/
+/
+JSOP_NEWINIT
 class
 ICNewArray_Fallback
 :
@@ -17585,6 +17588,8 @@ cx
 ObjectGroup
 *
 templateGroup
+Engine
+engine
 )
 :
 ICStubCompiler
@@ -17594,10 +17599,7 @@ ICStub
 :
 :
 NewArray_Fallback
-Engine
-:
-:
-Baseline
+engine
 )
 templateGroup
 (
@@ -17760,6 +17762,8 @@ Compiler
 JSContext
 *
 cx
+Engine
+engine
 )
 :
 ICStubCompiler
@@ -17769,10 +17773,7 @@ ICStub
 :
 :
 NewObject_Fallback
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
