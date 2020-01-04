@@ -144,6 +144,9 @@ mozilla
 namespace
 dom
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 /
 /
 This
@@ -1028,6 +1031,11 @@ mState
 ;
 }
 ;
+#
+endif
+/
+/
+SPIDERMONKEY_PROMISE
 }
 /
 /
