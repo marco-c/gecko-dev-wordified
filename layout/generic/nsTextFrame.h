@@ -2167,7 +2167,8 @@ DrawTarget
 &
 aDrawTarget
 )
-;
+{
+}
 /
 *
 *
@@ -2405,14 +2406,6 @@ void
 NotifySelectionDecorationLinePathEmitted
 (
 )
-{
-}
-virtual
-void
-NotifyGlyphPathEmitted
-(
-)
-override
 {
 }
 }
