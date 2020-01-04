@@ -1071,7 +1071,10 @@ ClearFloats
 (
 nscoord
 aBCoord
-uint8_t
+mozilla
+:
+:
+StyleClear
 aBreakType
 nsIFrame
 *
@@ -2734,7 +2737,7 @@ mLineNumber
 Flags
 mFlags
 ;
-uint8_t
+StyleClear
 mFloatBreakType
 ;
 /

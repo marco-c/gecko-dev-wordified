@@ -1914,7 +1914,10 @@ ClearFloats
 (
 nscoord
 aBCoord
-uint8_t
+mozilla
+:
+:
+StyleClear
 aBreakType
 uint32_t
 aFlags
@@ -1962,7 +1965,10 @@ continuations
 bool
 ClearContinues
 (
-uint8_t
+mozilla
+:
+:
+StyleClear
 aBreakType
 )
 const

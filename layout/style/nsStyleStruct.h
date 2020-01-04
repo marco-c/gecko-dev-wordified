@@ -17608,7 +17608,10 @@ mozilla
 StyleFloat
 mOriginalFloat
 ;
-uint8_t
+mozilla
+:
+:
+StyleClear
 mBreakType
 ;
 /
@@ -17616,12 +17619,6 @@ mBreakType
 [
 reset
 ]
-see
-nsStyleConsts
-.
-h
-NS_STYLE_CLEAR_
-*
 uint8_t
 mBreakInside
 ;
@@ -19447,7 +19444,10 @@ aWM
 const
 ;
 inline
-uint8_t
+mozilla
+:
+:
+StyleClear
 PhysicalBreakType
 (
 mozilla

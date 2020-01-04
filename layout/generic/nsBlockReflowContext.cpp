@@ -1302,7 +1302,10 @@ StyleDisplay
 mBreakType
 !
 =
-NS_STYLE_CLEAR_NONE
+StyleClear
+:
+:
+None_
 |
 |
 !

@@ -16652,7 +16652,10 @@ None_
 )
 mBreakType
 (
-NS_STYLE_CLEAR_NONE
+StyleClear
+:
+:
+None_
 )
 mBreakInside
 (

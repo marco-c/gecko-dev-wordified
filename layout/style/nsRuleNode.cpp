@@ -8732,6 +8732,12 @@ Border
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleClear
+None_
+Both
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleFillRule
 Nonzero
 Evenodd
@@ -41334,7 +41340,10 @@ parentDisplay
 -
 >
 mBreakType
-NS_STYLE_CLEAR_NONE
+StyleClear
+:
+:
+None_
 )
 ;
 /

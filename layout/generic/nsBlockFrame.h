@@ -3974,7 +3974,10 @@ PIFs
 )
 *
 /
-uint8_t
+mozilla
+:
+:
+StyleClear
 FindTrailingClear
 (
 )
