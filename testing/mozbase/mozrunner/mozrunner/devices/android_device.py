@@ -367,6 +367,13 @@ manifest
 [
 '
 -
+gpu
+'
+'
+swiftshader
+'
+'
+-
 show
 -
 kernel
@@ -434,6 +441,13 @@ manifest
 [
 '
 -
+gpu
+'
+'
+swiftshader
+'
+'
+-
 show
 -
 kernel
@@ -496,6 +510,13 @@ manifest
 '
                    
 [
+'
+-
+gpu
+'
+'
+swiftshader
+'
 '
 -
 debug
