@@ -9029,9 +9029,15 @@ if
 (
 !
 (
+typeof
 built
-instanceof
-Promise
+.
+then
+=
+=
+"
+function
+"
 )
 )
 {
