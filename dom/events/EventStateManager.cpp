@@ -28732,6 +28732,9 @@ clickCount
 &
 &
 mouseContent
+&
+&
+mouseContent
 -
 >
 IsInComposedDoc
