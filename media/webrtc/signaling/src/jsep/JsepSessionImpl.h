@@ -1588,7 +1588,7 @@ trackPairOut
 )
 ;
 void
-UpdateTransport
+InitTransport
 (
 const
 SdpMediaSection
