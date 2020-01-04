@@ -8603,9 +8603,11 @@ aArg5
 int
 &
 aArg6
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 &
 aArg7
