@@ -60,9 +60,9 @@ require
 "
 devtools
 /
-client
+server
 /
-fronts
+actors
 /
 inspector
 "

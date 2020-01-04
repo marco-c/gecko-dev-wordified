@@ -624,9 +624,9 @@ InspectorFront
 "
 devtools
 /
-client
+server
 /
-fronts
+actors
 /
 inspector
 "

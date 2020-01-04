@@ -75,9 +75,9 @@ require
 "
 devtools
 /
-client
+server
 /
-fronts
+actors
 /
 stylesheets
 "

@@ -270,9 +270,9 @@ require
 "
 devtools
 /
-client
+server
 /
-fronts
+actors
 /
 stylesheets
 "
@@ -298,9 +298,9 @@ require
 "
 devtools
 /
-client
+server
 /
-fronts
+actors
 /
 styleeditor
 "
