@@ -4825,8 +4825,6 @@ handling
 for
 the
 dragstart
-/
-draggesture
 event
 and
 set
@@ -4857,8 +4855,6 @@ aDragEvent
 -
 the
 dragstart
-/
-draggesture
 event
 *
 aDataTransfer
