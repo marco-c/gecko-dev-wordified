@@ -3309,8 +3309,13 @@ updateGoButtonVisibility
 let
 promise
 =
-promiseOnLoad
+BrowserTestUtils
+.
+browserLoaded
 (
+gBrowser
+.
+selectedBrowser
 )
 ;
 EventUtils
