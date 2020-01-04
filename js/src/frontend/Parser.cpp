@@ -17895,6 +17895,16 @@ PNK_TEMPLATE_STRING_LIST
 pn
 )
 ;
+if
+(
+!
+nodeList
+)
+return
+null
+(
+)
+;
 TokenKind
 tt
 ;
