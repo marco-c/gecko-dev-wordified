@@ -9461,10 +9461,9 @@ gid
 shaper
 -
 >
-GetGlyph
+GetNominalGlyph
 (
 ch
-0
 )
 ;
 hb_set_add
