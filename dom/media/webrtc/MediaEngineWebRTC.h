@@ -573,7 +573,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -609,7 +609,7 @@ NS_OK
 nsresult
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -687,7 +687,7 @@ override
 nsresult
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
@@ -2476,7 +2476,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -2491,7 +2491,7 @@ override
 nsresult
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -2526,7 +2526,7 @@ override
 nsresult
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const

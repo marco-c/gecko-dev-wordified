@@ -577,7 +577,7 @@ RefPtr
 MediaEngineSource
 :
 :
-BaseAllocationHandle
+AllocationHandle
 >
 mAllocationHandle
 ;

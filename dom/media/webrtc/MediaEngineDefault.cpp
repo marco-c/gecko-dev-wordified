@@ -431,7 +431,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -573,7 +573,7 @@ MediaEngineDefaultVideoSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -1082,7 +1082,7 @@ MediaEngineDefaultVideoSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
@@ -2050,7 +2050,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -2163,7 +2163,7 @@ MediaEngineDefaultAudioSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -2510,7 +2510,7 @@ MediaEngineDefaultAudioSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const

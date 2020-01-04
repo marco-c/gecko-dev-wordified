@@ -615,7 +615,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -805,7 +805,7 @@ MediaEngineRemoteVideoSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -832,14 +832,7 @@ AllocationHandle
 >
 handle
 =
-static_cast
-<
-AllocationHandle
-*
->
-(
 aHandle
-)
 ;
 class
 Comparator
@@ -1487,7 +1480,7 @@ MediaEngineRemoteVideoSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
@@ -1551,14 +1544,7 @@ aConstraints
 return
 UpdateExisting
 (
-static_cast
-<
-AllocationHandle
-*
->
-(
 aHandle
-)
 &
 constraints
 aPrefs

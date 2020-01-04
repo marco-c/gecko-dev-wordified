@@ -807,7 +807,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -889,7 +889,7 @@ MediaEngineTabVideoSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
@@ -1099,7 +1099,7 @@ MediaEngineTabVideoSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
