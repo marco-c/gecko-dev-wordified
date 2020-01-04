@@ -8959,11 +8959,9 @@ i
 +
 +
 )
-MOZ_ALWAYS_TRUE
-(
 base
 .
-emplaceBack
+infallibleEmplaceBack
 (
 pcToOffset
 (
@@ -8971,7 +8969,6 @@ jumpTargets
 [
 i
 ]
-)
 )
 )
 ;
