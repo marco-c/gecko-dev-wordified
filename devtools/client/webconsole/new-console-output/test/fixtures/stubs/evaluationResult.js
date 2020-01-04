@@ -59,6 +59,7 @@ UPDATE
 const
 {
 ConsoleMessage
+NetworkEventMessage
 }
 =
 require

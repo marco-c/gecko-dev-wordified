@@ -992,6 +992,21 @@ true
 )
 )
 ;
+const
+filepath
+=
+{
+tempfilePath
+}
+?
+key
+=
+console
+.
+trace
+(
+)
+;
 expect
 (
 wrapper
@@ -1045,7 +1060,7 @@ url
 =
 '
 {
-tempfilePath
+filepath
 }
 '
 ]
@@ -1128,7 +1143,7 @@ text
 .
 toBe
 (
-tempfilePath
+filepath
 )
 ;
 expect
@@ -1196,7 +1211,7 @@ text
 .
 toBe
 (
-tempfilePath
+filepath
 )
 ;
 expect
@@ -1264,7 +1279,7 @@ text
 .
 toBe
 (
-tempfilePath
+filepath
 )
 ;
 }
