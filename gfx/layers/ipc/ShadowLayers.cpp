@@ -5230,6 +5230,10 @@ mutant
 GetInvalidRegion
 (
 )
+.
+GetRegion
+(
+)
 ;
 common
 .
