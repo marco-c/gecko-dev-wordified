@@ -601,9 +601,6 @@ registerSchemaAPI
 "
 webRequest
 "
-"
-webRequest
-"
 (
 extension
 context

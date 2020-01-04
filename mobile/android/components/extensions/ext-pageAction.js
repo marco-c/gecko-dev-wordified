@@ -642,7 +642,6 @@ registerSchemaAPI
 "
 pageAction
 "
-null
 (
 extension
 context

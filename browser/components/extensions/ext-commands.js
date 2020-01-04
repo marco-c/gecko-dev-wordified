@@ -1678,7 +1678,6 @@ registerSchemaAPI
 "
 commands
 "
-null
 (
 extension
 context

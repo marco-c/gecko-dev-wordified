@@ -1736,7 +1736,6 @@ registerSchemaAPI
 "
 tabs
 "
-null
 (
 extension
 context
