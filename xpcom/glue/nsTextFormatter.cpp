@@ -1980,10 +1980,8 @@ exp
 E
 '
 ;
-/
-/
-no
-break
+MOZ_FALLTHROUGH
+;
 case
 '
 e
@@ -2012,10 +2010,8 @@ exp
 E
 '
 ;
-/
-/
-no
-break
+MOZ_FALLTHROUGH
+;
 case
 '
 g

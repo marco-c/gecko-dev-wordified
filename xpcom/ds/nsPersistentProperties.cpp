@@ -1262,10 +1262,8 @@ aCur
 break
 ;
 }
-/
-/
-no
-break
+MOZ_FALLTHROUGH
+;
 case
 '
 \
