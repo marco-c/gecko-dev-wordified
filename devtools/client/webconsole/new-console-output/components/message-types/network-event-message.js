@@ -209,6 +209,13 @@ PropTypes
 object
 .
 isRequired
+serviceContainer
+:
+PropTypes
+.
+shape
+(
+{
 openNetworkPanel
 :
 PropTypes
@@ -216,6 +223,8 @@ PropTypes
 func
 .
 isRequired
+}
+)
 }
 ;
 function
@@ -227,8 +236,7 @@ props
 const
 {
 message
-openNetworkPanel
-emitNewMessage
+serviceContainer
 }
 =
 props
@@ -263,6 +271,8 @@ onUrlClick
 (
 )
 {
+serviceContainer
+.
 openNetworkPanel
 (
 actor
@@ -378,7 +388,7 @@ type
 level
 topLevelClasses
 messageBody
-emitNewMessage
+serviceContainer
 }
 ;
 return

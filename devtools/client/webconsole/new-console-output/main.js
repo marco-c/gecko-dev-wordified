@@ -226,7 +226,7 @@ parentNode
 jsterm
 toolbox
 owner
-emitNewMessage
+serviceContainer
 )
 {
 console
@@ -249,7 +249,7 @@ parentNode
 jsterm
 toolbox
 owner
-emitNewMessage
+serviceContainer
 )
 ;
 }
