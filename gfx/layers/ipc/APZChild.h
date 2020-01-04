@@ -293,13 +293,6 @@ RecvNotifyFlushComplete
 )
 override
 ;
-virtual
-bool
-RecvDestroy
-(
-)
-override
-;
 void
 SetBrowser
 (
@@ -316,6 +309,8 @@ private
 APZChild
 (
 )
+{
+}
 ;
 void
 SetObserver
@@ -339,9 +334,6 @@ RefPtr
 nsIObserver
 >
 mObserver
-;
-bool
-mDestroyed
 ;
 }
 ;
