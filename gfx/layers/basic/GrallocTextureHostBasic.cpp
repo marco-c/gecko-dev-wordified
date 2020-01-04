@@ -843,6 +843,11 @@ mFormat
 )
 ;
 }
+if
+(
+surf
+)
+{
 mTextureSource
 =
 mCompositor
@@ -864,6 +869,14 @@ nullptr
 ;
 return
 true
+;
+}
+mMappedBuffer
+=
+nullptr
+;
+return
+false
 ;
 }
 bool
