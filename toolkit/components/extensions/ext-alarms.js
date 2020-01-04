@@ -296,7 +296,7 @@ for
 (
 let
 callback
-in
+of
 alarmCallbacksMap
 .
 get
