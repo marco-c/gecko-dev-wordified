@@ -6130,6 +6130,9 @@ ones
 or
 script
 types
+or
+preload
+types
 :
 *
 *
@@ -6144,6 +6147,14 @@ TYPE_INTERNAL_SHARED_WORKER
 *
 TYPE_INTERNAL_SERVICE_WORKER
 *
+*
+TYPE_INTERNAL_SCRIPT_PRELOAD
+*
+*
+TYPE_INTERNAL_IMAGE_PRELOAD
+*
+*
+TYPE_INTERNAL_STYLESHEET_PRELOAD
 *
 *
 Note
@@ -6166,7 +6177,7 @@ doing
 /
 static
 nsContentPolicyType
-InternalContentPolicyTypeToExternalOrScript
+InternalContentPolicyTypeToExternalOrMCBInternal
 (
 nsContentPolicyType
 aType
