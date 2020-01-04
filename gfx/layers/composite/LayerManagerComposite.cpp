@@ -1023,6 +1023,10 @@ mLastFrameMissedHWC
 (
 false
 )
+mWindowOverlayChanged
+(
+false
+)
 {
 mTextRenderer
 =
@@ -2158,6 +2162,10 @@ invalid
 IsEmpty
 (
 )
+&
+&
+!
+mWindowOverlayChanged
 )
 {
 /
@@ -2290,6 +2298,10 @@ RenderToPresentationSurface
 #
 endif
 mGeometryChanged
+=
+false
+;
+mWindowOverlayChanged
 =
 false
 ;
