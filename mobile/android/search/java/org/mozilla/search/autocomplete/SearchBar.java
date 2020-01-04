@@ -108,9 +108,9 @@ org
 .
 mozilla
 .
-search
+gecko
 .
-providers
+search
 .
 SearchEngine
 ;
