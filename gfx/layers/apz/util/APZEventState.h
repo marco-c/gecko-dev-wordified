@@ -362,6 +362,8 @@ uint64_t
 aInputBlockId
 nsEventStatus
 aApzResponse
+nsEventStatus
+aContentResponse
 )
 ;
 void
