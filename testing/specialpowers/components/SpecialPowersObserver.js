@@ -1936,6 +1936,9 @@ permission
 principal
 :
 {
+originAttributes
+:
+{
 appId
 :
 permission
@@ -1943,6 +1946,7 @@ permission
 principal
 .
 appId
+}
 }
 type
 :

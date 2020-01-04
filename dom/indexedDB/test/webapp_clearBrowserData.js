@@ -780,9 +780,6 @@ true
 manifestURL
 :
 manifestURL
-isInBrowserElement
-:
-false
 }
 )
 ;
@@ -811,9 +808,6 @@ true
 manifestURL
 :
 manifestURL
-isInBrowserElement
-:
-false
 }
 )
 ;
