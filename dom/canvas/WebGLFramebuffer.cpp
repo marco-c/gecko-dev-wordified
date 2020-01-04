@@ -5897,6 +5897,10 @@ LOCAL_GL_DEPTH_ATTACHMENT
 )
 ;
 }
+FinalizeAttachments
+(
+)
+;
 return
 attachPoint
 -
