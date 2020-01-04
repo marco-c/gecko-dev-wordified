@@ -8019,7 +8019,7 @@ case
 SurfaceFormat
 :
 :
-B8G8R8A8
+A8R8G8B8_UINT32
 :
 xrenderFormat
 =
@@ -8035,7 +8035,7 @@ case
 SurfaceFormat
 :
 :
-B8G8R8X8
+X8R8G8B8_UINT32
 :
 xrenderFormat
 =
@@ -8709,7 +8709,7 @@ mFormat
 SurfaceFormat
 :
 :
-B8G8R8A8
+A8R8G8B8_UINT32
 |
 |
 mFormat
