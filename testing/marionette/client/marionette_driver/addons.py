@@ -562,6 +562,14 @@ addon
 )
 {
                   
+AddonManager
+.
+removeAddonListener
+(
+listener
+)
+;
+                  
 marionetteScriptFinished
 (
 [
