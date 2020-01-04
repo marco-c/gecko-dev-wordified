@@ -1593,6 +1593,17 @@ override
 ;
 virtual
 bool
+RecvNotifyChildRecreated
+(
+const
+uint64_t
+&
+child
+)
+override
+;
+virtual
+bool
 RecvAdoptChild
 (
 const

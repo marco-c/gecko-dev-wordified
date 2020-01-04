@@ -475,6 +475,11 @@ TakeFocusForClickFromTap
 (
 )
 ;
+void
+EnsureLayersConnected
+(
+)
+;
 protected
 :
 void
