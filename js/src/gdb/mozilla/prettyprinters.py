@@ -1406,6 +1406,12 @@ self
 mod_jsval
 =
 None
+        
+self
+.
+mod_ExecutableAllocator
+=
+None
 #
 Yield
 a
