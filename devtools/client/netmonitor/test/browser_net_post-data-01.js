@@ -191,11 +191,9 @@ getFormatStrWithNumbers
 "
 networkMenu
 .
-sizeKB
+sizeB
 "
-0
-.
-01
+12
 )
 time
 :
@@ -267,11 +265,9 @@ getFormatStrWithNumbers
 "
 networkMenu
 .
-sizeKB
+sizeB
 "
-0
-.
-01
+12
 )
 time
 :
