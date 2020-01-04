@@ -267,6 +267,16 @@ RecvShutdown
 )
 override
 ;
+bool
+RecvSetSeekThreshold
+(
+const
+int64_t
+&
+aTime
+)
+override
+;
 void
 ActorDestroy
 (
