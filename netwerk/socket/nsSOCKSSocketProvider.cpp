@@ -336,6 +336,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 uint32_t
 flags
 PRFileDesc
@@ -420,6 +424,10 @@ port
 nsIProxyInfo
 *
 proxy
+const
+nsACString
+&
+firstPartyDomain
 uint32_t
 flags
 PRFileDesc
