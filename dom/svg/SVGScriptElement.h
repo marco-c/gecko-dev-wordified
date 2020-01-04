@@ -286,7 +286,7 @@ NS_DECL_ISUPPORTS_INHERITED
 /
 nsIScriptElement
 virtual
-void
+bool
 GetScriptType
 (
 nsAString

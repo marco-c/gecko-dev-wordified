@@ -7523,6 +7523,9 @@ language
 nsAutoString
 type
 ;
+bool
+hasType
+=
 aElement
 -
 >
@@ -7607,6 +7610,11 @@ false
 }
 }
 else
+if
+(
+!
+hasType
+)
 {
 /
 /

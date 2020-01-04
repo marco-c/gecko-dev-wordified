@@ -243,7 +243,7 @@ NS_DECL_NSIDOMHTMLSCRIPTELEMENT
 /
 nsIScriptElement
 virtual
-void
+bool
 GetScriptType
 (
 nsAString
