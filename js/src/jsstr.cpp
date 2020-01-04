@@ -28303,8 +28303,8 @@ raw
 "
 String_static_raw
 "
-1
-0
+2
+JSFUN_HAS_REST
 )
 JS_SELF_HOSTED_FN
 (

@@ -10979,8 +10979,10 @@ bind
 "
 FunctionBind
 "
-1
+2
 JSPROP_DEFINE_LATE
+|
+JSFUN_HAS_REST
 )
 JS_FS_END
 }
