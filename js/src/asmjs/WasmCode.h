@@ -651,10 +651,6 @@ codeLength_
 )
 ;
 }
-WASM_DECLARE_SERIALIZABLE
-(
-CodeSegment
-)
 }
 ;
 /

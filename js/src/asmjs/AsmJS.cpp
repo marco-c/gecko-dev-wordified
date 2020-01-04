@@ -52856,9 +52856,6 @@ AsmJSGlobal
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -52888,7 +52885,6 @@ field_
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -53091,9 +53087,6 @@ AsmJSMetadata
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -53108,7 +53101,6 @@ Metadata
 :
 deserialize
 (
-cx
 cursor
 )
 )
@@ -53139,7 +53131,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 asmJSGlobals
@@ -53152,7 +53143,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 asmJSImports
@@ -53165,7 +53155,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 asmJSExports
@@ -53178,7 +53167,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 asmJSFuncNames
@@ -53193,7 +53181,6 @@ globalArgumentName
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -53206,7 +53193,6 @@ importArgumentName
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -53219,7 +53205,6 @@ bufferArgumentName
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -53916,9 +53901,6 @@ uint8_t
 *
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -54046,7 +54028,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 funCtorArgs_
@@ -54937,7 +54918,6 @@ cachedMachineId
 .
 deserialize
 (
-cx
 cursor
 )
 ;
@@ -54968,7 +54948,6 @@ moduleChars
 .
 deserialize
 (
-cx
 cursor
 )
 ;
@@ -55013,7 +54992,6 @@ Module
 :
 deserialize
 (
-cx
 cursor
 module
 asmJSMetadata
@@ -55028,9 +55006,16 @@ if
 !
 cursor
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 /
 /
 See

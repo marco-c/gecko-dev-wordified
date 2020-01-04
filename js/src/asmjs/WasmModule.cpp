@@ -467,9 +467,6 @@ SymbolicLinkArray
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -490,7 +487,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 offsets
@@ -628,9 +624,6 @@ FuncTable
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -658,7 +651,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 elemOffsets
@@ -793,9 +785,6 @@ LinkData
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -827,7 +816,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 internalLinks
@@ -842,7 +830,6 @@ symbolicLinks
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -853,7 +840,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 funcTables
@@ -963,9 +949,6 @@ ImportName
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -979,7 +962,6 @@ module
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -992,7 +974,6 @@ func
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -1090,9 +1071,6 @@ ExportMap
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -1104,7 +1082,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 fieldNames
@@ -1117,7 +1094,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 fieldsToExports
@@ -1301,9 +1277,6 @@ Module
 :
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -1326,7 +1299,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 code
@@ -1349,7 +1321,6 @@ linkData
 .
 deserialize
 (
-cx
 cursor
 )
 ;
@@ -1368,7 +1339,6 @@ cursor
 =
 DeserializeVector
 (
-cx
 cursor
 &
 importNames
@@ -1391,7 +1361,6 @@ exportMap
 .
 deserialize
 (
-cx
 cursor
 )
 ;
@@ -1410,7 +1379,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 dataSegments
@@ -1441,10 +1409,7 @@ else
 {
 metadata
 =
-cx
--
->
-new_
+js_new
 <
 Metadata
 >
@@ -1467,7 +1432,6 @@ metadata
 >
 deserialize
 (
-cx
 cursor
 )
 ;
@@ -1497,10 +1461,7 @@ isAsmJS
 MutableBytes
 bytecode
 =
-cx
--
->
-new_
+js_new
 <
 ShareableBytes
 >
@@ -1519,7 +1480,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 bytecode
@@ -1539,10 +1499,10 @@ nullptr
 *
 module
 =
-cx
--
->
-make_unique
+js
+:
+:
+MakeUnique
 <
 Module
 >
