@@ -7379,9 +7379,6 @@ runtime
 >
 gc
 ;
-if
-(
-!
 gc
 .
 maybeGC
@@ -7392,12 +7389,6 @@ cx
 zone
 (
 )
-)
-)
-gc
-.
-maybePeriodicFullGC
-(
 )
 ;
 }
