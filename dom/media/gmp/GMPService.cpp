@@ -1770,6 +1770,10 @@ swap
 gmpThread
 )
 ;
+mAbstractGMPThread
+=
+nullptr
+;
 }
 if
 (
@@ -2002,6 +2006,11 @@ initialize
 plugins
 InitializePlugins
 (
+mAbstractGMPThread
+.
+get
+(
+)
 )
 ;
 }
@@ -2035,6 +2044,12 @@ GetAbstractGMPThread
 (
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 return
 mAbstractGMPThread
 ;

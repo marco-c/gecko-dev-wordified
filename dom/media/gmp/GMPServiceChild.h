@@ -296,6 +296,8 @@ protected
 void
 InitializePlugins
 (
+AbstractThread
+*
 )
 override
 {

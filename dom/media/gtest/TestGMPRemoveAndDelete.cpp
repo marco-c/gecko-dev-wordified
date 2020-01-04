@@ -1398,6 +1398,11 @@ GetAbstractGMPThread
 )
 )
 ;
+EXPECT_TRUE
+(
+thread
+)
+;
 GMPTestMonitor
 *
 mon

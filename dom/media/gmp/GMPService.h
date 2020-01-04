@@ -494,6 +494,9 @@ virtual
 void
 InitializePlugins
 (
+AbstractThread
+*
+aAbstractGMPThread
 )
 =
 0
@@ -566,13 +569,14 @@ mMutex
 /
 Protects
 mGMPThread
+mAbstractGMPThread
 and
+/
+/
 mGMPThreadShutdown
 and
 some
 members
-/
-/
 in
 derived
 classes
