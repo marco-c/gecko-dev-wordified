@@ -15767,6 +15767,8 @@ tabbrowser
 .
 addTab
 (
+null
+state
 )
 ;
 /
