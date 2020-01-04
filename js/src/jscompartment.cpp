@@ -5316,6 +5316,9 @@ obj
 )
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 assertSameCompartment
 (
 cx
@@ -5355,7 +5358,9 @@ init
 (
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 setNewObjectMetadata
@@ -5376,7 +5381,9 @@ obj
 metadata
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 setNewObjectMetadata

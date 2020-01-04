@@ -2494,6 +2494,9 @@ Expand
 (
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 int
 newLength
 =
@@ -2513,7 +2516,9 @@ length_
 +
 4
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 InterpretedRegExpMacroAssembler
@@ -2540,7 +2545,9 @@ if
 !
 buffer_
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 InterpretedRegExpMacroAssembler

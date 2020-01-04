@@ -11040,6 +11040,9 @@ defaultFreeOp
 )
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -11050,7 +11053,9 @@ append
 p
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 FreeOp

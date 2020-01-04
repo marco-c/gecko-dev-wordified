@@ -10616,6 +10616,9 @@ RegExpNode
 node
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -10626,7 +10629,9 @@ append
 node
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 AddWork
@@ -16696,6 +16701,12 @@ true
 uint8_t
 *
 boolean_skip_table
+;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
+boolean_skip_table
 =
 static_cast
 <
@@ -16727,7 +16738,9 @@ addTable
 boolean_skip_table
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Table
@@ -16735,6 +16748,7 @@ malloc
 "
 )
 ;
+}
 int
 skip_distance
 =
@@ -21542,6 +21556,12 @@ these
 uint8_t
 *
 ba
+;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
+ba
 =
 static_cast
 <
@@ -21573,7 +21593,9 @@ addTable
 ba
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Table
@@ -21581,6 +21603,7 @@ malloc
 "
 )
 ;
+}
 for
 (
 int

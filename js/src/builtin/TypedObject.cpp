@@ -9773,6 +9773,10 @@ setHasTypedObjectViews
 (
 )
 ;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -9784,7 +9788,9 @@ cx
 this
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 TypedObject
@@ -9794,6 +9800,7 @@ attach
 "
 )
 ;
+}
 setOwnerAndData
 (
 &
@@ -19907,6 +19914,9 @@ kind
 )
 ;
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -19921,7 +19931,9 @@ uintptr_t
 mem
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 TraceListVisitor

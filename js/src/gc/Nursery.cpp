@@ -1912,6 +1912,9 @@ newData
 }
 else
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -1929,7 +1932,9 @@ init
 (
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Nursery
@@ -1983,7 +1988,9 @@ oldData
 newData
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Nursery

@@ -749,6 +749,9 @@ if
 last_
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -759,7 +762,9 @@ put
 last_
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -1077,6 +1082,9 @@ BufferableRef
 t
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 unsigned
 size
 =
@@ -1104,7 +1112,9 @@ if
 !
 sizep
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -1144,7 +1154,9 @@ if
 !
 tp
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed

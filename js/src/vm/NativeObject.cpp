@@ -2557,6 +2557,9 @@ can
 t
 recover
 .
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 oldSpan
@@ -2573,7 +2576,9 @@ oldSpan
 newSpan
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 NativeObject

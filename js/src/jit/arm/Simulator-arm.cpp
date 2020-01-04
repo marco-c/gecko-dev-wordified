@@ -8179,6 +8179,9 @@ value
 (
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 CachePage
 *
 new_page
@@ -8206,7 +8209,9 @@ page
 new_page
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Simulator
@@ -9741,6 +9746,9 @@ current
 ;
 }
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 Redirection
 *
 redir
@@ -9762,7 +9770,9 @@ if
 !
 redir
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Simulator

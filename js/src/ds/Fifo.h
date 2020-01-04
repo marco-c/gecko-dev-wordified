@@ -1015,6 +1015,9 @@ of
 OOMs
 crash
 .
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -1031,7 +1034,9 @@ t
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 js

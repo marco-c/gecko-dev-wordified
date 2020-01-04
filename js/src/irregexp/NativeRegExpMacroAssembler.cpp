@@ -7084,6 +7084,10 @@ bound
 )
 )
 ;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -7098,7 +7102,9 @@ patchOffset
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 NativeRegExpMacroAssembler
@@ -7108,6 +7114,7 @@ PushBacktrack
 "
 )
 ;
+}
 PushBacktrack
 (
 temp0

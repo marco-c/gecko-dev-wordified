@@ -9087,6 +9087,9 @@ notSamplingProb
 )
 ;
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 RootedSavedFrame
 frame
 (
@@ -9105,7 +9108,9 @@ cx
 frame
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 SavedStacksMetadataCallback
@@ -9128,7 +9133,9 @@ JS_GetCurrentEmbedderTime
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 SavedStacksMetadataCallback

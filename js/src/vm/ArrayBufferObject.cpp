@@ -3240,6 +3240,9 @@ will
 be
 observed
 .
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -3256,7 +3259,9 @@ getGroup
 cx
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ArrayBufferObject

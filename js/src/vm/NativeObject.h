@@ -5011,7 +5011,7 @@ bool
 allowDictionary
 )
 ;
-void
+bool
 fillInAfterSwap
 (
 JSContext

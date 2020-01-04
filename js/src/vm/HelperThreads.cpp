@@ -653,6 +653,9 @@ IonBuilder
 builder
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -669,7 +672,9 @@ append
 builder
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 FinishOffThreadIonCompile

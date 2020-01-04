@@ -8458,6 +8458,9 @@ JSObject
 *
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 RootedObject
 obj
 (
@@ -8476,7 +8479,9 @@ if
 !
 obj
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ShellObjectMetadataCallback
@@ -8498,7 +8503,9 @@ if
 !
 stack
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ShellObjectMetadataCallback
@@ -8532,7 +8539,9 @@ JS_STUBSETTER
 )
 )
 {
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ShellObjectMetadataCallback
@@ -8557,7 +8566,9 @@ JS_STUBSETTER
 )
 )
 {
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ShellObjectMetadataCallback
@@ -8660,7 +8671,9 @@ JS_STUBSETTER
 )
 )
 {
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ShellObjectMetadataCallback

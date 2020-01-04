@@ -2393,7 +2393,7 @@ globals
 .
 *
 /
-bool
+void
 recomputeDebuggeeZoneSet
 (
 )

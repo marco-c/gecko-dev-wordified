@@ -4364,6 +4364,9 @@ return
 0
 ;
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 uint32_t
 nbytes
 =
@@ -4402,7 +4405,9 @@ if
 !
 data
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed

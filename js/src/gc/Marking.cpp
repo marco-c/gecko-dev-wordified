@@ -15350,6 +15350,9 @@ dstKind
 AutoMaybeStartBackgroundAllocation
 maybeStartBackgroundAllocation
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 t
 =
 zone
@@ -15369,7 +15372,9 @@ if
 !
 t
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -16419,6 +16424,10 @@ numDynamicSlots
 (
 )
 ;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 dst
 -
 >
@@ -16443,7 +16452,9 @@ dst
 >
 slots_
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -16456,6 +16467,7 @@ tenuring
 "
 )
 ;
+}
 PodCopy
 (
 dst
@@ -16737,6 +16749,10 @@ nslots
 2
 )
 ;
+{
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 dstHeader
 =
 reinterpret_cast
@@ -16762,7 +16778,9 @@ if
 !
 dstHeader
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -16775,6 +16793,7 @@ tenuring
 "
 )
 ;
+}
 js_memcpy
 (
 dstHeader

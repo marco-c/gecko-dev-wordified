@@ -1872,6 +1872,12 @@ obj
 )
 )
 ;
+js
+:
+:
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -1883,10 +1889,9 @@ append
 obj
 )
 )
-js
-:
-:
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Zone
