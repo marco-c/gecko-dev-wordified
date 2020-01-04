@@ -909,7 +909,11 @@ aAttributes
 ;
 mIsAttributesSet
 =
+aAttributes
+?
 true
+:
+false
 ;
 return
 NS_OK
