@@ -10069,6 +10069,14 @@ GetFirstChild
 )
 )
 {
+nsCOMPtr
+<
+nsINode
+>
+refNode
+=
+node
+;
 parent
 -
 >
@@ -10076,7 +10084,7 @@ InsertBefore
 (
 *
 child
-node
+refNode
 rv
 )
 ;

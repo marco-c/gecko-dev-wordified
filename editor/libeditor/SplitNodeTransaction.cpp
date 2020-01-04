@@ -717,6 +717,14 @@ node
 into
 the
 tree
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mExistingRightNode
+;
 mParent
 -
 >
@@ -724,7 +732,7 @@ InsertBefore
 (
 *
 mNewLeftNode
-mExistingRightNode
+refNode
 rv
 )
 ;

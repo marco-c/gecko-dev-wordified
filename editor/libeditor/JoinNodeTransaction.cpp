@@ -618,6 +618,14 @@ node
 into
 the
 tree
+nsCOMPtr
+<
+nsINode
+>
+refNode
+=
+mRightNode
+;
 mParent
 -
 >
@@ -625,7 +633,7 @@ InsertBefore
 (
 *
 mLeftNode
-mRightNode
+refNode
 rv
 )
 ;

@@ -2617,6 +2617,14 @@ NS_OK
 IgnoredErrorResult
 error
 ;
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mNextNode
+;
 mContent
 -
 >
@@ -2624,7 +2632,7 @@ InsertBefore
 (
 *
 mChild
-mNextNode
+refNode
 error
 )
 ;
@@ -3095,6 +3103,14 @@ NS_OK
 IgnoredErrorResult
 error
 ;
+nsCOMPtr
+<
+nsIContent
+>
+refNode
+=
+mNextNode
+;
 mContent
 -
 >
@@ -3102,7 +3118,7 @@ InsertBefore
 (
 *
 mChild
-mNextNode
+refNode
 error
 )
 ;
