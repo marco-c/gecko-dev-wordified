@@ -1266,9 +1266,6 @@ static
 void
 NotifyFlushComplete
 (
-nsIPresShell
-*
-aShell
 )
 ;
 /
