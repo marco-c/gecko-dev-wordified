@@ -453,6 +453,13 @@ MediaPrefs
 .
 h
 "
+#
+include
+"
+FennecJNIWrappers
+.
+h
+"
 using
 namespace
 mozilla

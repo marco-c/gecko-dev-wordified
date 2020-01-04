@@ -427,7 +427,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "

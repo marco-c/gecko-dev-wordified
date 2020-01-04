@@ -211,7 +211,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "
@@ -607,10 +607,7 @@ DownloadsIntegration
 ScanMedia
 (
 path
-NS_ConvertUTF8toUTF16
-(
 aContentType
-)
 )
 ;
 }
