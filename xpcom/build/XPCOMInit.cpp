@@ -2453,6 +2453,10 @@ NS_LogInit
 (
 )
 ;
+NS_InitAtomTable
+(
+)
+;
 mozilla
 :
 :
@@ -5728,7 +5732,7 @@ Destroy
 (
 )
 ;
-NS_PurgeAtomTable
+NS_ShutdownAtomTable
 (
 )
 ;
