@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "

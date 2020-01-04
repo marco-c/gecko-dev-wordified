@@ -133,7 +133,7 @@ h
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "
@@ -296,13 +296,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -360,13 +353,6 @@ h
 include
 "
 nsIZipReader
-.
-h
-"
-#
-include
-"
-nsIXPConnect
 .
 h
 "
