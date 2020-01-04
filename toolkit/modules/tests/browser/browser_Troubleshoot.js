@@ -1352,6 +1352,15 @@ type
 object
 "
 }
+crashGuards
+:
+{
+type
+:
+"
+array
+"
+}
 direct2DEnabledMessage
 :
 {
