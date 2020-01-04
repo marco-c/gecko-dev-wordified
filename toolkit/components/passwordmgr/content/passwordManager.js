@@ -3422,7 +3422,7 @@ e
 keyCode
 =
 =
-KeyEvent
+KeyboardEvent
 .
 DOM_VK_DELETE
 |
@@ -3443,7 +3443,7 @@ e
 keyCode
 =
 =
-KeyEvent
+KeyboardEvent
 .
 DOM_VK_BACK_SPACE
 )
