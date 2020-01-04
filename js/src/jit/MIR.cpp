@@ -36018,8 +36018,10 @@ Args
 args
 MIRType
 resultType
-size_t
+uint32_t
 spIncrement
+uint32_t
+tlsStackOffset
 MDefinition
 *
 tableIndex
@@ -36038,6 +36040,7 @@ MWasmCall
 desc
 callee
 spIncrement
+tlsStackOffset
 )
 ;
 call
