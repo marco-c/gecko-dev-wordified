@@ -7681,7 +7681,7 @@ const
 {
 MOZ_ASSERT
 (
-mJSRuntime
+mJSContext
 )
 ;
 return
@@ -7690,7 +7690,7 @@ js
 :
 AreGCGrayBitsValid
 (
-mJSRuntime
+mJSContext
 )
 ;
 }

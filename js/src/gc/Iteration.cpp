@@ -923,9 +923,9 @@ void
 )
 JS_IterateCompartments
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 data
@@ -936,7 +936,7 @@ compartmentCallback
 AutoTraceSession
 session
 (
-rt
+cx
 )
 ;
 for
@@ -944,7 +944,7 @@ for
 CompartmentsIter
 c
 (
-rt
+cx
 WithAtoms
 )
 ;
@@ -966,7 +966,7 @@ next
 compartmentCallback
 )
 (
-rt
+cx
 data
 c
 )

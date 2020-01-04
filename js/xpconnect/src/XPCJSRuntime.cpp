@@ -3904,7 +3904,7 @@ TraceBlackJS
 trc
 JS_GetGCParameter
 (
-Runtime
+Context
 (
 )
 JSGC_NUMBER
@@ -11595,9 +11595,9 @@ JSMainRuntimeGCHeapDistinguishedAmount
 (
 )
 {
-JSRuntime
+JSContext
 *
-rt
+cx
 =
 nsXPConnect
 :
@@ -11607,7 +11607,7 @@ GetRuntimeInstance
 )
 -
 >
-Runtime
+Context
 (
 )
 ;
@@ -11616,7 +11616,7 @@ int64_t
 (
 JS_GetGCParameter
 (
-rt
+cx
 JSGC_TOTAL_CHUNKS
 )
 )
@@ -18089,7 +18089,7 @@ GetRuntimeInstance
 )
 -
 >
-Runtime
+Context
 (
 )
 &

@@ -3218,7 +3218,7 @@ mGCIsRunning
 )
 JS_IterateCompartments
 (
-Runtime
+Context
 (
 )
 wrapper

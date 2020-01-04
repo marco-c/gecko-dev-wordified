@@ -3329,9 +3329,9 @@ bool
 )
 AreGCGrayBitsValid
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern

@@ -2453,11 +2453,6 @@ value
 JS_GetGCParameter
 (
 cx
--
->
-runtime
-(
-)
 param
 )
 ;
@@ -2648,11 +2643,6 @@ gcBytes
 JS_GetGCParameter
 (
 cx
--
->
-runtime
-(
-)
 JSGC_BYTES
 )
 ;
