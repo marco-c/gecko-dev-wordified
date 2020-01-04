@@ -2964,11 +2964,7 @@ assets
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 GeckoView
@@ -2976,7 +2972,6 @@ GeckoView
 ImportScript
 "
 url
-)
 )
 ;
 return
@@ -3053,11 +3048,7 @@ SELECTED
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Viewport
@@ -3065,7 +3056,6 @@ Viewport
 Flush
 "
 null
-)
 )
 ;
 }
@@ -4069,11 +4059,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Tab
@@ -4084,7 +4070,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;

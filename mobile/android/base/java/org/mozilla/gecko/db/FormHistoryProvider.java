@@ -707,11 +707,7 @@ initGecko
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 FormHistory
@@ -719,7 +715,6 @@ FormHistory
 Init
 "
 null
-)
 )
 ;
 }

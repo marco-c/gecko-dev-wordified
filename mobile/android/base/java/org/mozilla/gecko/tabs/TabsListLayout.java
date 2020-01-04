@@ -637,11 +637,7 @@ this
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Tab
@@ -652,7 +648,6 @@ Cancel
 "
 "
 "
-)
 )
 ;
 tabsAdapter

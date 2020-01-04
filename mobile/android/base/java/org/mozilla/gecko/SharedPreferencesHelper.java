@@ -1642,11 +1642,7 @@ key
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 SharedPreferences
@@ -1657,7 +1653,6 @@ msg
 .
 toString
 (
-)
 )
 )
 ;

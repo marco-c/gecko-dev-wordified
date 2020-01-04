@@ -1136,11 +1136,7 @@ toString
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Notification
@@ -1151,7 +1147,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
@@ -2452,11 +2447,7 @@ toString
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Notification
@@ -2467,7 +2458,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;

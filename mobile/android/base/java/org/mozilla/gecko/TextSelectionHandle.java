@@ -785,11 +785,7 @@ Position
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 TextSelection
@@ -800,7 +796,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
@@ -1138,11 +1133,7 @@ Move
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 TextSelection
@@ -1153,7 +1144,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
