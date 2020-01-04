@@ -558,7 +558,7 @@ if
 !
 aKey
 .
-SetLength
+SetCapacity
 (
 keyLen
 fallible
@@ -568,10 +568,9 @@ fallible
 !
 aKey
 .
-ReplaceElementsAt
+InsertElementsAt
 (
 0
-keyLen
 keyBuffer
 keyLen
 fallible

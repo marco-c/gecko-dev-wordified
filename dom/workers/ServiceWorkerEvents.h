@@ -965,11 +965,11 @@ PushMessageData
 nsISupports
 *
 aOwner
-const
 nsTArray
 <
 uint8_t
 >
+&
 &
 aBytes
 )
