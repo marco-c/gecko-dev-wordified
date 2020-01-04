@@ -121,6 +121,10 @@ JS
 :
 RootedString
 ;
+using
+namespace
+js
+;
 /
 /
 A
