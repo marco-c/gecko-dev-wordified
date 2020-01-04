@@ -187,14 +187,6 @@ mTexImageTarget
 (
 LOCAL_GL_NONE
 )
-mTexImageLayer
-(
-0
-)
-mTexImageLevel
-(
-0
-)
 {
 }
 WebGLFBAttachPoint

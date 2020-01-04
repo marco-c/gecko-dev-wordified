@@ -239,11 +239,6 @@ EventHandlerNonNull
 *
 aHandler
 )
-:
-mBits
-(
-0
-)
 {
 Assign
 (
@@ -262,11 +257,6 @@ OnErrorEventHandlerNonNull
 *
 aHandler
 )
-:
-mBits
-(
-0
-)
 {
 Assign
 (
@@ -284,11 +274,6 @@ dom
 OnBeforeUnloadEventHandlerNonNull
 *
 aHandler
-)
-:
-mBits
-(
-0
 )
 {
 Assign

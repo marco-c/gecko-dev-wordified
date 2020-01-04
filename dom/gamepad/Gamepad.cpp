@@ -293,10 +293,6 @@ mAxes
 (
 aNumAxes
 )
-mTimestamp
-(
-0
-)
 {
 for
 (

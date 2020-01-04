@@ -1165,10 +1165,6 @@ StreamBuffer
 (
 )
 :
-mGraphRate
-(
-0
-)
 mTracksKnownTime
 (
 0

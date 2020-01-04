@@ -5301,10 +5301,6 @@ TextBaseline
 :
 ALPHABETIC
 )
-shadowColor
-(
-0
-)
 lineWidth
 (
 1
