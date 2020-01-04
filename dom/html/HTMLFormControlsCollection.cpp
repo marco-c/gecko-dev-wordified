@@ -350,9 +350,6 @@ case
 NS_FORM_INPUT_URL
 :
 case
-NS_FORM_INPUT_MONTH
-:
-case
 NS_FORM_INPUT_NUMBER
 :
 case
