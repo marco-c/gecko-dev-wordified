@@ -305,6 +305,14 @@ JSReturnReg
 ;
 static
 MOZ_CONSTEXPR_VAR
+Register64
+ReturnReg64
+(
+ReturnReg
+)
+;
+static
+MOZ_CONSTEXPR_VAR
 FloatRegister
 ReturnFloat32Reg
 =
