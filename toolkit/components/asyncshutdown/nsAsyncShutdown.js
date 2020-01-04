@@ -1520,6 +1520,9 @@ processes
 webWorkersShutdown
 "
 "
+xpcomWillShutdown
+"
+"
 xpcomThreadsShutdown
 "
 ]
