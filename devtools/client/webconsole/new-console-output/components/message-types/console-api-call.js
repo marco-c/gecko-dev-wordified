@@ -405,11 +405,6 @@ PropTypes
 object
 .
 isRequired
-tableData
-:
-PropTypes
-.
-array
 }
 ;
 ConsoleApiCall
