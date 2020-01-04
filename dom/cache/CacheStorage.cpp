@@ -984,16 +984,6 @@ scheme
 LowerCaseEqualsLiteral
 (
 "
-app
-"
-)
-|
-|
-scheme
-.
-LowerCaseEqualsLiteral
-(
-"
 file
 "
 )
