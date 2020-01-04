@@ -269,6 +269,17 @@ namespace
 mozilla
 {
 namespace
+css
+{
+class
+Declaration
+;
+}
+/
+/
+namespace
+css
+namespace
 dom
 {
 class

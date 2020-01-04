@@ -11811,10 +11811,7 @@ return
 false
 ;
 }
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 Element
 :
@@ -11833,10 +11830,7 @@ Element
 :
 SetInlineStyleDeclaration
 (
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDeclaration
 const

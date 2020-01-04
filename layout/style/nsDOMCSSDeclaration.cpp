@@ -149,9 +149,7 @@ include
 "
 mozilla
 /
-css
-/
-Declaration
+DeclarationBlockInlines
 .
 h
 "

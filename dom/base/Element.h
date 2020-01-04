@@ -439,6 +439,9 @@ nsDOMStringMap
 namespace
 mozilla
 {
+class
+DeclarationBlock
+;
 namespace
 dom
 {
@@ -1418,10 +1421,7 @@ element
 *
 /
 virtual
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 GetInlineStyleDeclaration
 (
@@ -1459,10 +1459,7 @@ virtual
 nsresult
 SetInlineStyleDeclaration
 (
-css
-:
-:
-Declaration
+DeclarationBlock
 *
 aDeclaration
 const
