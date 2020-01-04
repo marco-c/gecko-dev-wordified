@@ -2477,6 +2477,8 @@ search
 submit
 {
 background
+-
+image
 :
 url
 (
@@ -2506,11 +2508,6 @@ go
 inverted
 "
 )
-center
-center
-no
--
-repeat
 linear
 -
 gradient
@@ -2586,6 +2583,8 @@ submit
 hover
 {
 background
+-
+image
 :
 url
 (
@@ -2615,11 +2614,6 @@ go
 inverted
 "
 )
-center
-center
-no
--
-repeat
 linear
 -
 gradient
