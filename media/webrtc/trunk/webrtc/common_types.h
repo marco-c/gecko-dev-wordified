@@ -4154,8 +4154,11 @@ enum
 CPULoadState
 {
 kLoadRelaxed
+=
+0
 kLoadNormal
 kLoadStressed
+kLoadLast
 }
 ;
 class
