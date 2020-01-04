@@ -1185,6 +1185,10 @@ mApzc
 >
 GetCurrentAsyncTransformWithOverscroll
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 :
 AsyncTransformComponentMatrix

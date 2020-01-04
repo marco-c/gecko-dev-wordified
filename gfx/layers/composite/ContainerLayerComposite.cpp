@@ -3896,6 +3896,10 @@ controller
 >
 GetCurrentAsyncScrollOffset
 (
+AsyncPanZoomController
+:
+:
+RESPECT_FORCE_DISABLE
 )
 ;
 /
@@ -5473,6 +5477,10 @@ apzc
 >
 GetCurrentAsyncTransformWithOverscroll
 (
+AsyncPanZoomController
+:
+:
+RESPECT_FORCE_DISABLE
 )
 .
 ToUnknownMatrix
@@ -6512,6 +6520,10 @@ apzc
 >
 GetCurrentAsyncTransform
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 )
 .
