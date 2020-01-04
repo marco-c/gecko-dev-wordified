@@ -8338,6 +8338,9 @@ const
 CSSRect
 &
 aRect
+const
+uint32_t
+aFlags
 )
 {
 RefPtr
@@ -8362,6 +8365,7 @@ apzc
 ZoomToRect
 (
 aRect
+aFlags
 )
 ;
 }
