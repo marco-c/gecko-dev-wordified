@@ -3479,6 +3479,7 @@ CompressedGlyph
 GetCharacterGlyphs
 (
 )
+final
 {
 NS_ASSERTION
 (

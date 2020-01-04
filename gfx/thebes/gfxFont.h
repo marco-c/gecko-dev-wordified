@@ -7475,6 +7475,7 @@ instance
 /
 class
 gfxShapedWord
+final
 :
 public
 gfxShapedText
