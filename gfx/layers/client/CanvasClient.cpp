@@ -537,6 +537,14 @@ return
 }
 mBackBuffer
 =
+nullptr
+;
+mFrontBuffer
+=
+nullptr
+;
+mBufferProviderTexture
+=
 aTexture
 ;
 AutoTArray
@@ -567,7 +575,7 @@ t
 >
 mTextureClient
 =
-mBackBuffer
+aTexture
 ;
 t
 -
@@ -656,6 +664,10 @@ ClientCanvasLayer
 aLayer
 )
 {
+mBufferProviderTexture
+=
+nullptr
+;
 AutoRemoveTexture
 autoRemove
 (
