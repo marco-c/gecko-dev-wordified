@@ -864,8 +864,6 @@ dom
 NodeInfo
 *
 aNodeInfo
-bool
-aNsAware
 )
 {
 NS_ASSERTION
@@ -1034,7 +1032,6 @@ return
 GetAttribute
 (
 ni
-false
 )
 ;
 }
@@ -1722,7 +1719,6 @@ oldAttr
 GetAttribute
 (
 oldNi
-true
 )
 ;
 if
@@ -2103,7 +2099,6 @@ attribute
 GetAttribute
 (
 aNodeInfo
-true
 )
 ;
 /
@@ -2398,7 +2393,6 @@ return
 GetAttribute
 (
 ni
-true
 )
 ;
 }
@@ -2589,7 +2583,6 @@ return
 GetAttribute
 (
 ni
-true
 )
 ;
 }

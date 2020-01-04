@@ -982,8 +982,6 @@ dom
 NodeInfo
 *
 aNodeInfo
-bool
-aNsAware
 )
 ;
 }
