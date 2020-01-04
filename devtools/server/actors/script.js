@@ -4038,7 +4038,7 @@ this
 _debuggerSourcesSeen
 =
 new
-Set
+WeakSet
 (
 )
 ;

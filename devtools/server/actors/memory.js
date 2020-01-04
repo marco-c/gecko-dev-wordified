@@ -462,6 +462,7 @@ saveHeapSnapshot
 :
 function
 (
+boundaries
 )
 {
 return
@@ -471,6 +472,7 @@ bridge
 .
 saveHeapSnapshot
 (
+boundaries
 )
 ;
 }
