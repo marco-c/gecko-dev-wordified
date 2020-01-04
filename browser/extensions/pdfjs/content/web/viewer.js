@@ -45651,6 +45651,15 @@ fullscreenEnabled
 =
 =
 true
+|
+|
+document
+.
+mozFullScreenEnabled
+=
+=
+=
+true
 ;
 if
 (
