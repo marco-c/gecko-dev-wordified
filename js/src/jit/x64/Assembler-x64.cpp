@@ -326,6 +326,9 @@ case
 MIRType_Int32
 :
 case
+MIRType_Int64
+:
+case
 MIRType_Pointer
 :
 current_
@@ -482,6 +485,9 @@ type
 {
 case
 MIRType_Int32
+:
+case
+MIRType_Int64
 :
 case
 MIRType_Pointer

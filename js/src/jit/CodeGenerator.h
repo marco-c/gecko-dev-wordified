@@ -758,6 +758,14 @@ lir
 )
 ;
 void
+visitInteger64
+(
+LInteger64
+*
+lir
+)
+;
+void
 visitRegExp
 (
 LRegExp
