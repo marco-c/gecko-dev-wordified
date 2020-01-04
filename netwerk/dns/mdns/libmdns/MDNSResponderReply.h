@@ -256,8 +256,10 @@ mRegType
 nsCString
 mReplyDomain
 ;
+RefPtr
+<
 BrowseOperator
-*
+>
 mContext
 ;
 }
@@ -349,8 +351,10 @@ mRegType
 nsCString
 mDomain
 ;
+RefPtr
+<
 RegisterOperator
-*
+>
 mContext
 ;
 }
