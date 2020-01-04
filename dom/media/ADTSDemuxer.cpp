@@ -2911,6 +2911,10 @@ mOffset
 "
 PRIu64
 aTime
+.
+ToMicroseconds
+(
+)
 AverageFrameLength
 (
 )
@@ -3133,6 +3137,10 @@ mOffset
 "
 PRIu64
 aTime
+.
+ToMicroseconds
+(
+)
 AverageFrameLength
 (
 )
@@ -3226,7 +3234,6 @@ Duration
 %
 "
 PRId64
-aTime
 AverageFrameLength
 (
 )
@@ -3238,6 +3245,10 @@ Duration
 mFrameIndex
 +
 1
+)
+.
+ToMicroseconds
+(
 )
 )
 ;
@@ -3268,7 +3279,6 @@ mOffset
 %
 "
 PRIu64
-aTime
 AverageFrameLength
 (
 )
