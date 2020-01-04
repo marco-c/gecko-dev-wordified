@@ -3561,6 +3561,14 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+_browserConsole
+)
+{
 try
 {
 yield
@@ -3573,6 +3581,7 @@ activeTab
 focus
 (
 )
+;
 }
 catch
 (
@@ -3593,6 +3602,7 @@ target
 is
 closed
 .
+}
 }
 let
 id
