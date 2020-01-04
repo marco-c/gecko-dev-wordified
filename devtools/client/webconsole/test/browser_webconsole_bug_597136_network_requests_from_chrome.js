@@ -167,7 +167,7 @@ subject
 .
 sourceName
 .
-contains
+includes
 (
 "
 webconsole
