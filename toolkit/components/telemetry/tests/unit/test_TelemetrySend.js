@@ -940,7 +940,7 @@ waitForTimer
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

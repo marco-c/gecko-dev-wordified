@@ -225,7 +225,7 @@ so
 that
 TelemetrySession
 .
-testReset
+reset
 (
 )
 doesn
@@ -319,9 +319,9 @@ test_firstRun
 )
 {
 yield
-TelemetryController
+TelemetrySession
 .
-testReset
+reset
 (
 )
 ;
@@ -423,9 +423,9 @@ test_secondRun
 )
 {
 yield
-TelemetryController
+TelemetrySession
 .
-testReset
+reset
 (
 )
 ;
@@ -537,9 +537,9 @@ appBuildID
 NEW_BUILD_ID
 ;
 yield
-TelemetryController
+TelemetrySession
 .
-testReset
+reset
 (
 )
 ;

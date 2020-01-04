@@ -1843,7 +1843,7 @@ port
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2129,7 +2129,7 @@ TEST_PING_TYPE
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

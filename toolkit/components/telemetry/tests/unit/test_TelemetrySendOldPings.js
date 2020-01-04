@@ -1242,7 +1242,7 @@ true
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;
@@ -1329,7 +1329,7 @@ pingTypes
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1682,7 +1682,7 @@ gSeenPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2377,7 +2377,7 @@ OVERDUE_PINGS
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2722,7 +2722,7 @@ receivedPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2846,7 +2846,7 @@ clearPendingPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3293,7 +3293,7 @@ clear
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3602,7 +3602,7 @@ cleanup
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3720,7 +3720,7 @@ anything
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -4046,7 +4046,7 @@ directory
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

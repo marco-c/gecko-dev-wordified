@@ -364,7 +364,7 @@ overdue
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;

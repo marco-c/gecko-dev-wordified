@@ -207,7 +207,7 @@ gre
 /
 modules
 /
-TelemetryController
+TelemetrySession
 .
 jsm
 "
@@ -216,9 +216,9 @@ scope
 ;
 scope
 .
-TelemetryController
+TelemetrySession
 .
-testSetup
+setup
 (
 )
 ;

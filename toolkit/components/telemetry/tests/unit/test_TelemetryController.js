@@ -828,7 +828,7 @@ asyncSetup
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;
@@ -875,7 +875,7 @@ promisePingSetup
 =
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1312,7 +1312,7 @@ as
 |
 TelemetryController
 .
-testReset
+reset
 (
 )
 |
@@ -1379,7 +1379,7 @@ task
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1465,7 +1465,7 @@ with
 |
 TelemetryController
 .
-testReset
+reset
 |
 .
 Preferences
@@ -1502,7 +1502,7 @@ task
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2380,7 +2380,7 @@ clearRequests
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3024,7 +3024,7 @@ enabled
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3084,7 +3084,7 @@ true
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -3128,7 +3128,7 @@ false
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

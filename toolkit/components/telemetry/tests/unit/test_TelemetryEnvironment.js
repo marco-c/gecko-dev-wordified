@@ -5675,7 +5675,7 @@ watch
 .
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -6057,7 +6057,7 @@ watch
 .
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -9067,7 +9067,7 @@ watch
 .
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -10459,7 +10459,7 @@ preference
 .
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -10744,7 +10744,7 @@ trigger
 shutdown
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
