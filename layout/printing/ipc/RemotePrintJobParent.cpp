@@ -653,13 +653,6 @@ return
 rv
 ;
 }
-mPrintTranslator
--
->
-ClearSavedFonts
-(
-)
-;
 return
 NS_OK
 ;
