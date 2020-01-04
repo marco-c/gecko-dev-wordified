@@ -166,7 +166,7 @@ GrallocTextureHostOGL
 TextureFlags
 aFlags
 const
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 &
 aDescriptor
 )
@@ -361,7 +361,7 @@ DestroyEGLImage
 (
 )
 ;
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 mGrallocHandle
 ;
 RefPtr
