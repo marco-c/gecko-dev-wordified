@@ -600,6 +600,16 @@ COLOR
 )
 ;
 }
+let
+subproperties
+=
+DOMUtils
+.
+getSubpropertiesForCSSProperty
+(
+name
+)
+;
 /
 /
 In
@@ -667,6 +677,7 @@ name
 )
 values
 supports
+subproperties
 }
 ;
 properties
