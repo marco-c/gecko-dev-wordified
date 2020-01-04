@@ -997,16 +997,6 @@ bool
 aFound
 )
 ;
-enum
-class
-GetSampleResult
-{
-NO_ERROR
-ERROR
-WAITING_FOR_DATA
-EOS
-}
-;
 already_AddRefed
 <
 MediaRawData
@@ -1025,7 +1015,7 @@ media
 TimeUnit
 &
 aFuzz
-GetSampleResult
+MediaResult
 &
 aResult
 )
