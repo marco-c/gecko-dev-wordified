@@ -333,6 +333,17 @@ else
 false
 #
 endif
+MOZ_SERVICES_CLOUDSYNC
+:
+#
+ifdef
+MOZ_SERVICES_CLOUDSYNC
+true
+#
+else
+false
+#
+endif
 MOZ_UPDATER
 :
 #
