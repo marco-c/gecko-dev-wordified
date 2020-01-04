@@ -4298,6 +4298,9 @@ CSSValue
 CreatePrimitiveValueForClipPath
 (
 const
+mozilla
+:
+:
 nsStyleBasicShape
 *
 aStyleBasicShape
@@ -4325,6 +4328,9 @@ CSSValue
 CreatePrimitiveValueForBasicShape
 (
 const
+mozilla
+:
+:
 nsStyleBasicShape
 *
 aStyleBasicShape
