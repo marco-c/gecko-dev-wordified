@@ -326,6 +326,9 @@ namespace
 mozilla
 {
 class
+DecoderDoctorDiagnostics
+;
+class
 DOMMediaStream
 ;
 class
@@ -2104,6 +2107,9 @@ const
 nsAString
 &
 aType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 /
