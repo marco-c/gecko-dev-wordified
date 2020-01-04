@@ -9779,10 +9779,10 @@ are
 integer
 rounded
 using
-Point
-'
-s
-RoundedToInt
+IntPoint
+:
+:
+Round
 .
 *
 *
