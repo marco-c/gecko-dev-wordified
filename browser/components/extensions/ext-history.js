@@ -744,6 +744,10 @@ visitRemoved
 allHistory
 :
 true
+urls
+:
+[
+]
 }
 )
 ;
