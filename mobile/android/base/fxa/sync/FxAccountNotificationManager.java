@@ -126,7 +126,7 @@ mozilla
 .
 gecko
 .
-BrowserLocaleManager
+Locales
 ;
 import
 org
@@ -611,9 +611,9 @@ localeUpdated
 =
 true
 ;
-BrowserLocaleManager
+Locales
 .
-getInstance
+getLocaleManager
 (
 )
 .
