@@ -12171,7 +12171,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

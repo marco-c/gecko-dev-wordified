@@ -12201,7 +12201,7 @@ DTRAddr
 obj
 DtrOffImm
 (
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

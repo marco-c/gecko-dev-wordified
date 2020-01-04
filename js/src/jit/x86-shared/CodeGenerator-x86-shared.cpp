@@ -16697,7 +16697,7 @@ cmpPtr
 Operand
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

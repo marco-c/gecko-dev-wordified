@@ -10469,7 +10469,7 @@ loadPtr
 Address
 (
 objReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

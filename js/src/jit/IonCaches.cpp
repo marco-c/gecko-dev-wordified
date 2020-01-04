@@ -4366,7 +4366,7 @@ NotEqual
 Address
 (
 object
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -5005,7 +5005,7 @@ tempVal
 scratchReg
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -5615,7 +5615,7 @@ NotEqual
 Address
 (
 holderReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -5731,7 +5731,7 @@ NotEqual
 Address
 (
 scratchReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -7868,7 +7868,7 @@ NotEqual
 Address
 (
 holderReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -12111,7 +12111,7 @@ Address
 object
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -12553,7 +12553,7 @@ Address
 object
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -12698,7 +12698,7 @@ NotEqual
 Address
 (
 holderReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -17698,7 +17698,7 @@ Address
 object
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -17937,7 +17937,7 @@ NotEqual
 Address
 (
 tempReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -19728,7 +19728,7 @@ Address
 object
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -20915,7 +20915,7 @@ Address
 shapeAddr
 (
 object
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -25766,7 +25766,7 @@ NotEqual
 Address
 (
 object
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -26014,7 +26014,7 @@ NotEqual
 Address
 (
 scratchReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -31355,7 +31355,7 @@ Address
 shapeAddr
 (
 scopeObjReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -31617,7 +31617,7 @@ Address
 scopeChainReg
 (
 )
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

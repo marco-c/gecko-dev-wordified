@@ -1832,7 +1832,7 @@ uintptr_t
 listp
 )
 -
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

@@ -7605,7 +7605,7 @@ shape
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

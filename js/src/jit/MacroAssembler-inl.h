@@ -2965,7 +2965,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -3003,7 +3003,7 @@ cond
 Address
 (
 obj
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

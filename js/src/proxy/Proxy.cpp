@@ -4384,7 +4384,7 @@ trc
 proxy
 -
 >
-shape
+shape_
 "
 ProxyObject_shape
 "
