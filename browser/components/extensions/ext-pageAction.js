@@ -1307,8 +1307,12 @@ listeners
 /
 extensions
 .
-registerAPI
+registerSchemaAPI
 (
+"
+pageAction
+"
+null
 (
 extension
 context
