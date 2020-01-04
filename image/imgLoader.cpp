@@ -6568,6 +6568,10 @@ imgLoader
 Create
 (
 )
+.
+take
+(
+)
 ;
 }
 return
@@ -6595,6 +6599,10 @@ imgLoader
 :
 :
 Create
+(
+)
+.
+take
 (
 )
 ;
