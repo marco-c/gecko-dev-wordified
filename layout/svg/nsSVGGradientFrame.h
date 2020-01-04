@@ -866,15 +866,11 @@ Gradients
 -
 -
 -
-typedef
-nsSVGGradientFrame
-nsSVGLinearGradientFrameBase
-;
 class
 nsSVGLinearGradientFrame
 :
 public
-nsSVGLinearGradientFrameBase
+nsSVGGradientFrame
 {
 friend
 nsIFrame
@@ -899,7 +895,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGLinearGradientFrameBase
+nsSVGGradientFrame
 (
 aContext
 )

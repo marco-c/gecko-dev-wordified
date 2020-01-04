@@ -2833,7 +2833,7 @@ linearGradient
 "
 )
 ;
-nsSVGLinearGradientFrameBase
+nsSVGGradientFrame
 :
 :
 Init
@@ -3270,7 +3270,7 @@ thisElement
 ;
 }
 return
-nsSVGLinearGradientFrameBase
+nsSVGGradientFrame
 :
 :
 GetLinearGradientWithLength
