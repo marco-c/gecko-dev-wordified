@@ -3992,7 +3992,7 @@ widget
 keyEvent
 -
 >
-widget
+mWidget
 ;
 /
 /

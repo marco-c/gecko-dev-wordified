@@ -4207,7 +4207,7 @@ AsGUIEvent
 )
 -
 >
-widget
+mWidget
 )
 {
 /
@@ -8906,7 +8906,7 @@ getter_AddRefs
 (
 event
 .
-widget
+mWidget
 )
 )
 ;
@@ -8915,7 +8915,7 @@ else
 {
 event
 .
-widget
+mWidget
 =
 nullptr
 ;

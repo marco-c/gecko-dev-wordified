@@ -6980,7 +6980,7 @@ nullptr
 aEvent
 -
 >
-widget
+mWidget
 "
 null
 widget
@@ -7009,7 +7009,7 @@ listener
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 GetAttachedWidgetListener
@@ -7039,7 +7039,7 @@ GetViewFor
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 }

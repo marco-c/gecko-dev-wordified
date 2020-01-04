@@ -7398,7 +7398,7 @@ mOriginProcessID
 %
 X
 }
-widget
+mWidget
 (
 0x
 %
@@ -7484,7 +7484,7 @@ mOriginProcessID
 aCompositionEvent
 -
 >
-widget
+mWidget
 .
 get
 (
@@ -7492,7 +7492,7 @@ get
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 GetNativeIMEContext
@@ -7503,7 +7503,7 @@ mRawNativeIMEContext
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 GetNativeIMEContext
@@ -7516,7 +7516,7 @@ GetBoolName
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 Destroyed
@@ -7936,7 +7936,7 @@ IndexOf
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 ;
 if
@@ -8215,7 +8215,7 @@ GetCompositionFor
 aSelectionEvent
 -
 >
-widget
+mWidget
 )
 :
 nullptr
@@ -8371,7 +8371,7 @@ mOriginProcessID
 %
 X
 }
-widget
+mWidget
 (
 0x
 %
@@ -8441,7 +8441,7 @@ mOriginProcessID
 aCompositionEvent
 -
 >
-widget
+mWidget
 .
 get
 (
@@ -8449,7 +8449,7 @@ get
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 GetNativeIMEContext
@@ -8460,7 +8460,7 @@ mRawNativeIMEContext
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 GetNativeIMEContext
@@ -8473,7 +8473,7 @@ GetBoolName
 aCompositionEvent
 -
 >
-widget
+mWidget
 -
 >
 Destroyed
@@ -8551,7 +8551,7 @@ GetCompositionFor
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 ;
 if

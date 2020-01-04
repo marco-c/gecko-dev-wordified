@@ -3960,7 +3960,7 @@ aIsTrusted
 aMessage
 aEventClassID
 )
-widget
+mWidget
 (
 aWidget
 )
@@ -4002,7 +4002,7 @@ aIsTrusted
 aMessage
 eGUIEventClass
 )
-widget
+mWidget
 (
 aWidget
 )
@@ -4082,7 +4082,6 @@ result
 }
 /
 /
-/
 Originator
 of
 the
@@ -4091,7 +4090,7 @@ nsCOMPtr
 <
 nsIWidget
 >
-widget
+mWidget
 ;
 /
 *
@@ -4454,7 +4453,6 @@ Clear
 }
 }
 ;
-/
 /
 /
 Event

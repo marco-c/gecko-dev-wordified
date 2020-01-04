@@ -9915,7 +9915,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -10027,7 +10027,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -10251,7 +10251,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -10470,7 +10470,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -10680,7 +10680,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -10981,7 +10981,7 @@ event
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -11121,7 +11121,7 @@ event
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;
@@ -11167,7 +11167,7 @@ event
 ;
 localEvent
 .
-widget
+mWidget
 =
 mPuppetWidget
 ;

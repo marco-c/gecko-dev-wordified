@@ -943,7 +943,7 @@ status
 ;
 aEvent
 .
-widget
+mWidget
 =
 gFocusedWindow
 ;

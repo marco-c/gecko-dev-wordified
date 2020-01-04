@@ -4490,7 +4490,7 @@ guiEvent
 guiEvent
 -
 >
-widget
+mWidget
 )
 )
 {
@@ -4569,7 +4569,7 @@ ToAppUnits
 guiEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -4829,7 +4829,7 @@ AsGUIEvent
 )
 -
 >
-widget
+mWidget
 )
 {
 return

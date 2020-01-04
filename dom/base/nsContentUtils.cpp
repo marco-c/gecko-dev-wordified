@@ -43438,12 +43438,6 @@ aButton
 ;
 event
 .
-widget
-=
-widget
-;
-event
-.
 pressure
 =
 aPressure

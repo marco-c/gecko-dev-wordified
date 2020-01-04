@@ -2743,7 +2743,7 @@ stdout
 aEvent
 -
 >
-widget
+mWidget
 aEvent
 "
 something
@@ -35754,7 +35754,7 @@ if
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 {
 return
@@ -35837,7 +35837,7 @@ offset
 aMouseEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset

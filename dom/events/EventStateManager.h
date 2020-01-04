@@ -4949,7 +4949,7 @@ BeginTrackingDragGesture
 aEvent
 -
 >
-widget
+mWidget
 must
 be
 *

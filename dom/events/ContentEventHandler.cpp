@@ -10238,7 +10238,7 @@ rootWidget
 aEvent
 -
 >
-widget
+mWidget
 )
 {
 NS_PRECONDITION
@@ -10246,7 +10246,7 @@ NS_PRECONDITION
 aEvent
 -
 >
-widget
+mWidget
 "
 The
 event
@@ -10269,7 +10269,7 @@ GetViewFor
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 NS_ENSURE_TRUE
@@ -10343,7 +10343,7 @@ rootWidget
 aEvent
 -
 >
-widget
+mWidget
 )
 {
 eventOnRoot
@@ -10354,7 +10354,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -10767,7 +10767,7 @@ eQueryTextRect
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 textRect
@@ -10914,7 +10914,7 @@ NS_ENSURE_TRUE
 aEvent
 -
 >
-widget
+mWidget
 NS_ERROR_FAILURE
 )
 ;
@@ -10963,7 +10963,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -11102,7 +11102,7 @@ if
 aEvent
 -
 >
-widget
+mWidget
 =
 =
 targetWidget
