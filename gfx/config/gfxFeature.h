@@ -205,6 +205,16 @@ Compositing
 \
 _
 (
+OPENGL_COMPOSITING
+Feature
+"
+OpenGL
+Compositing
+"
+)
+\
+_
+(
 DIRECT2D
 Feature
 "
