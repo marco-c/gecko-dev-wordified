@@ -5691,7 +5691,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
@@ -5819,7 +5819,7 @@ app
 creditsURL
 "
 "
-http
+https
 :
 /
 /
@@ -5842,7 +5842,7 @@ app
 channelURL
 "
 "
-http
+https
 :
 /
 /
@@ -5877,7 +5877,7 @@ app
 releaseNotesURL
 "
 "
-http
+https
 :
 /
 /
@@ -5916,7 +5916,7 @@ app
 releaseNotesURL
 "
 "
-http
+https
 :
 /
 /
@@ -5952,7 +5952,7 @@ app
 releaseNotesURL
 "
 "
-http
+https
 :
 /
 /
