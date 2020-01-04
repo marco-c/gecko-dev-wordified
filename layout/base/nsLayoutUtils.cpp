@@ -3176,7 +3176,16 @@ const
 nsIFrame
 *
 aFrame
-AnimationPtrArray
+nsTArray
+<
+RefPtr
+<
+dom
+:
+:
+Animation
+>
+>
 &
 aAnimations
 gfxSize

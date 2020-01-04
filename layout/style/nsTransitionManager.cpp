@@ -2103,7 +2103,7 @@ AsElement
 )
 ;
 }
-AnimationCollection
+CSSTransitionCollection
 *
 collection
 =
@@ -3208,7 +3208,7 @@ property
 }
 }
 }
-AnimationPtrArray
+OwningCSSTransitionPtrArray
 &
 animations
 =
@@ -3249,7 +3249,7 @@ do
 -
 i
 ;
-Animation
+CSSTransition
 *
 anim
 =
@@ -3745,7 +3745,7 @@ dom
 Element
 *
 aElement
-AnimationCollection
+CSSTransitionCollection
 *
 &
 aElementTransitions
@@ -4037,7 +4037,7 @@ if
 aElementTransitions
 )
 {
-AnimationPtrArray
+OwningCSSTransitionPtrArray
 &
 animations
 =
@@ -4449,7 +4449,7 @@ t
 be
 interpolated
 .
-AnimationPtrArray
+OwningCSSTransitionPtrArray
 &
 animations
 =
@@ -5320,7 +5320,7 @@ return
 ;
 }
 }
-AnimationPtrArray
+OwningCSSTransitionPtrArray
 &
 animations
 =
@@ -5540,7 +5540,7 @@ nsStyleContext
 aNewStyleContext
 )
 {
-AnimationCollection
+CSSTransitionCollection
 *
 collection
 =
@@ -5632,7 +5632,7 @@ match
 as
 well
 .
-AnimationPtrArray
+OwningCSSTransitionPtrArray
 &
 animations
 =
@@ -5670,7 +5670,7 @@ do
 -
 i
 ;
-Animation
+CSSTransition
 *
 anim
 =
