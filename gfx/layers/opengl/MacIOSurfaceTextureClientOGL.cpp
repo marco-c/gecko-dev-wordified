@@ -108,6 +108,13 @@ MacIOSurface
 .
 h
 "
+#
+include
+"
+MacIOSurfaceHelpers
+.
+h
+"
 namespace
 mozilla
 {
@@ -299,11 +306,9 @@ SourceSurface
 >
 surf
 =
-mSurface
--
->
-GetAsSurface
+CreateSourceSurfaceFromMacIOSurface
 (
+mSurface
 )
 ;
 return
