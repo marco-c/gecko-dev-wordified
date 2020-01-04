@@ -6904,6 +6904,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 /
@@ -6968,6 +6969,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 inline
@@ -6984,6 +6986,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 inline
@@ -7000,6 +7003,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 /
