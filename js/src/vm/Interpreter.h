@@ -1982,6 +1982,7 @@ function
 .
 class
 InvokeState
+final
 :
 public
 RunState
