@@ -29498,14 +29498,14 @@ void
 LIRGenerator
 :
 :
-visitThrowUninitializedLexical
+visitThrowRuntimeLexicalError
 (
-MThrowUninitializedLexical
+MThrowRuntimeLexicalError
 *
 ins
 )
 {
-LThrowUninitializedLexical
+LThrowRuntimeLexicalError
 *
 lir
 =
@@ -29515,7 +29515,7 @@ alloc
 (
 )
 )
-LThrowUninitializedLexical
+LThrowRuntimeLexicalError
 (
 )
 ;

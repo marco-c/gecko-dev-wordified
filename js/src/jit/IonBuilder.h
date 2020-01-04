@@ -4506,6 +4506,11 @@ jsop_notearg
 )
 ;
 bool
+jsop_throwsetconst
+(
+)
+;
+bool
 jsop_checklexical
 (
 )

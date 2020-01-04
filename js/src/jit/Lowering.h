@@ -2342,9 +2342,9 @@ ins
 )
 ;
 void
-visitThrowUninitializedLexical
+visitThrowRuntimeLexicalError
 (
-MThrowUninitializedLexical
+MThrowRuntimeLexicalError
 *
 ins
 )

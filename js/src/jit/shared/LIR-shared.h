@@ -31372,7 +31372,7 @@ Input
 }
 ;
 class
-LThrowUninitializedLexical
+LThrowRuntimeLexicalError
 :
 public
 LCallInstructionHelper
@@ -31386,9 +31386,9 @@ public
 :
 LIR_HEADER
 (
-ThrowUninitializedLexical
+ThrowRuntimeLexicalError
 )
-MLexicalCheck
+MThrowRuntimeLexicalError
 *
 mir
 (
@@ -31398,7 +31398,7 @@ return
 mir_
 -
 >
-toLexicalCheck
+toThrowRuntimeLexicalError
 (
 )
 ;
