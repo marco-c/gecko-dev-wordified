@@ -1561,6 +1561,10 @@ mOrigin
 (
 aPoint
 )
+mHandledByAPZ
+(
+false
+)
 {
 }
 MouseInput
@@ -1586,6 +1590,10 @@ mInputSource
 mButtons
 (
 0
+)
+mHandledByAPZ
+(
+false
 )
 {
 }
@@ -1646,6 +1654,9 @@ mOrigin
 ;
 ParentLayerPoint
 mLocalOrigin
+;
+bool
+mHandledByAPZ
 ;
 }
 ;
