@@ -1187,9 +1187,6 @@ messages
 [
 label
 ]
-isAlertTooltip
-:
-true
 }
 )
 ;
