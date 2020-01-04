@@ -2573,6 +2573,10 @@ InitializeDevices
 (
 )
 ;
+BumpDeviceCounter
+(
+)
+;
 return
 true
 ;
