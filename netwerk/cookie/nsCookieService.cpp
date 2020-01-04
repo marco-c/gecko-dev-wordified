@@ -14246,7 +14246,6 @@ CheckPrefs
 (
 aHostURI
 aIsForeign
-requireHostMatch
 aCookieHeader
 .
 get
@@ -21492,7 +21491,6 @@ CheckPrefs
 (
 aHostURI
 aIsForeign
-requireHostMatch
 nullptr
 )
 ;
@@ -28097,8 +28095,6 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-bool
-aRequireHostMatch
 const
 char
 *
