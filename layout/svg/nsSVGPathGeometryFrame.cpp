@@ -5629,7 +5629,7 @@ return
 ;
 }
 }
-gfxTextContextPaint
+SVGContextPaint
 *
 contextPaint
 =
@@ -6100,7 +6100,7 @@ gfxMatrix
 aTransform
 )
 {
-gfxTextContextPaint
+SVGContextPaint
 *
 contextPaint
 =

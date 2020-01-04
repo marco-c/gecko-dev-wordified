@@ -153,6 +153,9 @@ gfxContext
 class
 nsIDocument
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -273,7 +276,7 @@ element
 *
 /
 class
-gfxTextContextPaint
+SVGContextPaint
 {
 protected
 :
@@ -287,7 +290,7 @@ gfx
 DrawTarget
 DrawTarget
 ;
-gfxTextContextPaint
+SVGContextPaint
 (
 )
 {
@@ -296,7 +299,7 @@ public
 :
 virtual
 ~
-gfxTextContextPaint
+SVGContextPaint
 (
 )
 {
@@ -573,7 +576,7 @@ public
 :
 AutoSetRestoreSVGContextPaint
 (
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 nsIDocument
@@ -618,6 +621,11 @@ mOuterContextPaint
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /

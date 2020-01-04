@@ -22884,7 +22884,7 @@ Current
 (
 )
 ;
-gfxTextContextPaint
+SVGContextPaint
 *
 outerContextPaint
 =

@@ -332,9 +332,6 @@ gfxShapedWord
 class
 gfxSkipChars
 ;
-class
-gfxTextContextPaint
-;
 #
 define
 FONT_MAX_SIZE
@@ -422,6 +419,9 @@ gfxTextRunDrawCallbacks
 namespace
 mozilla
 {
+class
+SVGContextPaint
+;
 namespace
 gfx
 {
@@ -8679,6 +8679,13 @@ unicode
 Script
 Script
 ;
+typedef
+mozilla
+:
+:
+SVGContextPaint
+SVGContextPaint
+;
 public
 :
 nsrefcnt
@@ -13783,7 +13790,7 @@ gfxPoint
 aPoint
 uint32_t
 aGlyphId
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -13799,7 +13806,7 @@ gfxPoint
 aPoint
 uint32_t
 aGlyphId
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 gfxTextRunDrawCallbacks
@@ -14060,7 +14067,10 @@ gfxTextRunDrawCallbacks
 *
 callbacks
 ;
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 runContextPaint
 ;
@@ -14149,7 +14159,10 @@ GlyphRenderingOptions
 >
 renderingOptions
 ;
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 contextPaint
 ;

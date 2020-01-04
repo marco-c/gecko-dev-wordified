@@ -13304,7 +13304,7 @@ mat
 }
 UniquePtr
 <
-gfxTextContextPaint
+SVGContextPaint
 >
 contextPaint
 ;
@@ -14064,7 +14064,7 @@ gfxPoint
 aPoint
 uint32_t
 aGlyphId
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -14202,7 +14202,7 @@ gfxPoint
 aPoint
 uint32_t
 aGlyphId
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 gfxTextRunDrawCallbacks
