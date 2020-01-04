@@ -6021,6 +6021,13 @@ aMsg
 aInvoke
 )
 {
+MonitorAutoLock
+lock
+(
+*
+mMonitor
+)
+;
 for
 (
 MessageQueue
