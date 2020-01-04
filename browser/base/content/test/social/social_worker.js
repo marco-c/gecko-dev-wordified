@@ -1200,7 +1200,11 @@ data
 .
 version
 =
+"
 2
+.
+0
+"
 ;
 apiPort
 .

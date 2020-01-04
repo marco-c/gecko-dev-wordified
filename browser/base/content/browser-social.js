@@ -10613,13 +10613,6 @@ this
 is
 ok
 .
-let
-tbh
-=
-this
-.
-_toolbarHelper
-;
 return
 [
 p
@@ -10642,7 +10635,9 @@ document
 .
 getElementById
 (
-tbh
+this
+.
+_toolbarHelper
 .
 idFromOrigin
 (

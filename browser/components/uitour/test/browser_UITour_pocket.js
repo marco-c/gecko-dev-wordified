@@ -480,7 +480,7 @@ prefs
 getBoolPref
 (
 "
-browser
+extensions
 .
 pocket
 .
