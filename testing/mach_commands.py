@@ -102,6 +102,12 @@ import
 MachCommandConditions
 as
 conditions
+import
+mozpack
+.
+path
+as
+mozpath
 from
 argparse
 import
@@ -4246,9 +4252,7 @@ paths
             
 p
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
