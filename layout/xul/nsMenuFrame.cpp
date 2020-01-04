@@ -2469,6 +2469,16 @@ IsOpen
 )
 )
 {
+menuParent
+-
+>
+ChangeMenuItem
+(
+this
+false
+false
+)
+;
 OpenMenu
 (
 false
