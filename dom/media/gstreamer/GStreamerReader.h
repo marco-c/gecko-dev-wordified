@@ -387,13 +387,6 @@ GetImageContainer
 )
 ;
 }
-virtual
-bool
-IsMediaSeekable
-(
-)
-override
-;
 private
 :
 bool

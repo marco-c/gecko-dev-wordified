@@ -555,13 +555,6 @@ aEndTime
 override
 ;
 virtual
-bool
-IsMediaSeekable
-(
-)
-override
-;
-virtual
 void
 SetIdle
 (

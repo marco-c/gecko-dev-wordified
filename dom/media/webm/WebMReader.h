@@ -533,13 +533,6 @@ GetBuffered
 )
 override
 ;
-virtual
-bool
-IsMediaSeekable
-(
-)
-override
-;
 /
 /
 Value
