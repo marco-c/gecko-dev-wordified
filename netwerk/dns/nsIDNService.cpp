@@ -1157,6 +1157,15 @@ nsIDNService
 nsIDNService
 (
 )
+:
+mShowPunycode
+(
+false
+)
+mIDNUseWhitelist
+(
+false
+)
 {
 #
 ifdef

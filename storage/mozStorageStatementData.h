@@ -272,6 +272,11 @@ owner
 StatementData
 (
 )
+:
+mStatement
+(
+nullptr
+)
 {
 }
 ~
