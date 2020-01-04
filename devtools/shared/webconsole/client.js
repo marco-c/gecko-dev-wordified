@@ -1533,6 +1533,11 @@ selectedNodeActor
 aOptions
 .
 selectedNodeActor
+selectedObjectActor
+:
+aOptions
+.
+selectedObjectActor
 }
 ;
 this
@@ -1651,6 +1656,11 @@ selectedNodeActor
 aOptions
 .
 selectedNodeActor
+selectedObjectActor
+:
+aOptions
+.
+selectedObjectActor
 }
 ;
 this
