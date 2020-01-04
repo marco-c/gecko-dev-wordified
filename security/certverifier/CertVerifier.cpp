@@ -1917,6 +1917,15 @@ sctsFromTLSSECItem
 /
 *
 optional
+*
+/
+const
+char
+*
+firstPartyDomain
+/
+*
+optional
 out
 *
 /
@@ -2443,6 +2452,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -2875,6 +2885,7 @@ sha1ModeConfigurations
 i
 ]
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3345,6 +3356,7 @@ sha1ModeConfigurations
 j
 ]
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 pinningTelemetryInfo
 hostname
@@ -3653,6 +3665,7 @@ SHA1Mode
 :
 Allowed
 mNetscapeStepUpPolicy
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3714,6 +3727,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3856,6 +3870,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -3963,6 +3978,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4146,6 +4162,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4202,6 +4219,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4258,6 +4276,7 @@ NetscapeStepUpPolicy
 :
 :
 NeverMatch
+firstPartyDomain
 builtChain
 nullptr
 nullptr
@@ -4375,6 +4394,15 @@ optional
 /
 Flags
 flags
+/
+*
+optional
+*
+/
+const
+char
+*
+firstPartyDomain
 /
 *
 optional
@@ -4521,6 +4549,7 @@ builtChain
 flags
 stapledOCSPResponse
 sctsFromTLS
+firstPartyDomain
 evOidPolicy
 ocspStaplingStatus
 keySizeStatus

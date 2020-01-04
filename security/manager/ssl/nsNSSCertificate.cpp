@@ -6124,6 +6124,12 @@ nullptr
 sctsFromTLSExtension
 *
 /
+nullptr
+/
+*
+firstPartyDomain
+*
+/
 &
 resultOidTag
 )

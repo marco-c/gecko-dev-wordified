@@ -8300,6 +8300,10 @@ t
 save
 intermediates
 aFlags
+nullptr
+/
+/
+firstPartyDomain
 &
 evOidPolicy
 )
@@ -8338,6 +8342,10 @@ nullptr
 /
 /
 sctsFromTLSExtension
+nullptr
+/
+/
+firstPartyDomain
 &
 evOidPolicy
 )
