@@ -1645,9 +1645,8 @@ non
 accelerated
 canvas
 .
-virtual
 bool
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 ;
@@ -1698,7 +1697,7 @@ DefineProperty
 "
 AzureCanvasAccelerated
 "
-UseAcceleratedCanvas
+AllowOpenGLCanvas
 (
 )
 )
