@@ -163,7 +163,7 @@ document
 getElementById
 (
 "
-devtoolsMenuBroadcaster_DevToolbox
+menu_devToolbox
 "
 )
 ;

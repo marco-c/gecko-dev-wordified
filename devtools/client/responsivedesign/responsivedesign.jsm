@@ -3272,9 +3272,7 @@ chromeDoc
 getElementById
 (
 "
-Tools
-:
-ResponsiveUI
+menu_responsiveUI
 "
 )
 .
@@ -3314,9 +3312,7 @@ chromeDoc
 getElementById
 (
 "
-Tools
-:
-ResponsiveUI
+menu_responsiveUI
 "
 )
 .
