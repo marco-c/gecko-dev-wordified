@@ -131,10 +131,9 @@ marionette
 .
 find_element
 (
-"
-link
-text
-"
+By
+.
+LINK_TEXT
 "
 Open
 new
