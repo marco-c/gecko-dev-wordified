@@ -404,6 +404,7 @@ stdlib
 h
 >
 static
+MOZ_MUST_USE
 nsresult
 GetProcSelfStatmField
 (
@@ -543,6 +544,7 @@ NS_ERROR_FAILURE
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 GetProcSelfSmapsPrivate
 (
@@ -954,6 +956,7 @@ define
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeDistinguishedAmount
 (
@@ -971,6 +974,7 @@ aN
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmount
 (
@@ -988,6 +992,7 @@ aN
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentFastDistinguishedAmount
 (
@@ -1008,6 +1013,7 @@ define
 HAVE_RESIDENT_UNIQUE_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 ResidentUniqueDistinguishedAmount
 (
@@ -1030,6 +1036,8 @@ HAVE_MALLINFO
 define
 HAVE_SYSTEM_HEAP_REPORTER
 1
+static
+MOZ_MUST_USE
 nsresult
 SystemHeapSize
 (
@@ -1482,6 +1490,7 @@ getpagesize
 #
 endif
 static
+MOZ_MUST_USE
 nsresult
 GetKinfoProcSelf
 (
@@ -1574,6 +1583,7 @@ define
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeDistinguishedAmount
 (
@@ -1616,6 +1626,7 @@ rv
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmount
 (
@@ -1658,6 +1669,7 @@ rv
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentFastDistinguishedAmount
 (
@@ -1689,6 +1701,7 @@ include
 algorithm
 >
 static
+MOZ_MUST_USE
 nsresult
 GetKinfoVmentrySelf
 (
@@ -1837,6 +1850,7 @@ define
 HAVE_PRIVATE_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 PrivateDistinguishedAmount
 (
@@ -1882,6 +1896,7 @@ define
 HAVE_VSIZE_MAX_CONTIGUOUS_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeMaxContiguousDistinguishedAmount
 (
@@ -2241,6 +2256,7 @@ define
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeDistinguishedAmount
 (
@@ -2282,6 +2298,7 @@ NS_OK
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmount
 (
@@ -2323,6 +2340,7 @@ NS_OK
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentFastDistinguishedAmount
 (
@@ -2390,6 +2408,7 @@ sysctl
 h
 >
 static
+MOZ_MUST_USE
 bool
 GetTaskBasicInfo
 (
@@ -2483,6 +2502,7 @@ define
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeDistinguishedAmount
 (
@@ -2627,6 +2647,7 @@ purging
 first
 .
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmountHelper
 (
@@ -2698,6 +2719,7 @@ NS_OK
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentFastDistinguishedAmount
 (
@@ -2721,6 +2743,7 @@ false
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmount
 (
@@ -2830,6 +2853,7 @@ size
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentUniqueDistinguishedAmount
 (
@@ -3196,6 +3220,7 @@ define
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeDistinguishedAmount
 (
@@ -3246,6 +3271,7 @@ NS_OK
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentDistinguishedAmount
 (
@@ -3299,6 +3325,7 @@ NS_OK
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 ResidentFastDistinguishedAmount
 (
@@ -3319,6 +3346,7 @@ define
 HAVE_RESIDENT_UNIQUE_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 ResidentUniqueDistinguishedAmount
 (
@@ -3574,6 +3602,7 @@ define
 HAVE_VSIZE_MAX_CONTIGUOUS_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 VsizeMaxContiguousDistinguishedAmount
 (
@@ -3715,6 +3744,7 @@ define
 HAVE_PRIVATE_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 PrivateDistinguishedAmount
 (
@@ -3821,6 +3851,8 @@ a
 single
 measurement
 .
+static
+MOZ_MUST_USE
 nsresult
 SystemHeapSize
 (
@@ -6375,6 +6407,7 @@ define
 HAVE_RESIDENT_PEAK_REPORTER
 1
 static
+MOZ_MUST_USE
 nsresult
 ResidentPeakDistinguishedAmount
 (
@@ -6822,6 +6855,7 @@ PageFaultsSoftReporter
 nsIMemoryReporter
 )
 static
+MOZ_MUST_USE
 nsresult
 PageFaultsHardDistinguishedAmount
 (
@@ -13060,6 +13094,7 @@ NS_ERROR_NOT_AVAILABLE
 endif
 }
 static
+MOZ_MUST_USE
 nsresult
 GetInfallibleAmount
 (
@@ -14334,6 +14369,25 @@ NS_OK
 ;
 \
 }
+/
+/
+Macro
+for
+generating
+functions
+that
+unregister
+distinguished
+amount
+/
+/
+functions
+with
+the
+memory
+reporter
+manager
+.
 #
 define
 DEFINE_UNREGISTER_DISTINGUISHED_AMOUNT
