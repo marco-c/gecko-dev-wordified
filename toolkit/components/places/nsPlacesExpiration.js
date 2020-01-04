@@ -1775,7 +1775,11 @@ single
 removed
 URIs
 on
-removeAllPages
+History
+.
+clear
+(
+)
 so
 we
 don
