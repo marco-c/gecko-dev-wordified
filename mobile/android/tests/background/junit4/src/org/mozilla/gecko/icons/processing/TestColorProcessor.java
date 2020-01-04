@@ -252,9 +252,7 @@ Assert
 .
 assertEquals
 (
-Color
-.
-RED
+0xFFF80000
 response
 .
 getColor
