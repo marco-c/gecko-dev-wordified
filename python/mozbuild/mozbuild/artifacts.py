@@ -2518,6 +2518,18 @@ dylib
 '
                 
 '
+libmozavutil
+.
+dylib
+'
+                
+'
+libmozavcodec
+.
+dylib
+'
+                
+'
 libsoftokn3
 .
 dylib
