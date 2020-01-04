@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+RefCounted
+.
+h
+"
+#
+include
+"
 DrawCommand
 .
 h

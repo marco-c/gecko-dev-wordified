@@ -164,6 +164,15 @@ CriticalSection
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefCounted
+.
+h
+"
 namespace
 mozilla
 {
