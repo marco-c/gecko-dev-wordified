@@ -186,7 +186,7 @@ media
 :
 TimeUnit
 &
-aDuration
+aEnd
 int64_t
 aCurrentMediaTime
 )
@@ -344,7 +344,10 @@ state
 *
 /
 const
-int64_t
+media
+:
+:
+TimeUnit
 mCurrentTimeBeforeSeek
 ;
 const
