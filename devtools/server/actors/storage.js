@@ -10840,6 +10840,7 @@ the
 given
 principal
 and
+*
 database
 name
 .

@@ -109,7 +109,7 @@ common
 helper
 functions
 .
-var
+const
 {
 classes
 :
@@ -429,6 +429,9 @@ assert
 )
 failures
 .
+"
++
+"
 Expected
 "
 +
@@ -522,7 +525,7 @@ topic
 data
 )
 {
-var
+let
 message
 =
 subject
@@ -1278,6 +1281,7 @@ Boolean
 useCapture
 Optional
 for
+*
 addEventListener
 /
 removeEventListener
@@ -1516,8 +1520,8 @@ is
 located
 in
 a
-separate
 *
+separate
 directory
 .
 *
@@ -2034,6 +2038,7 @@ tab
 toolId
 hostType
 )
+;
 }
 )
 ;
