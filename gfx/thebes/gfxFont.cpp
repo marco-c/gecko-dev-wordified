@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+SVGContextPaint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
