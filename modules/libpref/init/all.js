@@ -53586,18 +53586,6 @@ pref
 "
 webgl
 .
-disable
--
-wgl
-"
-false
-)
-;
-pref
-(
-"
-webgl
-.
 min_capability_mode
 "
 false
@@ -54002,7 +53990,7 @@ dxgl
 .
 enabled
 "
-true
+false
 )
 ;
 pref
