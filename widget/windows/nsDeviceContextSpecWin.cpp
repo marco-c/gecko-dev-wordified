@@ -3555,6 +3555,11 @@ device
 as
 well
 .
+char16ptr_t
+printerName
+=
+aPrinterName
+;
 HDC
 dc
 =
@@ -3563,7 +3568,7 @@ dc
 CreateICW
 (
 kDriverName
-aPrinterName
+printerName
 nullptr
 devmode
 )
