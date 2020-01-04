@@ -107,6 +107,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -182,6 +189,14 @@ if
 mTextureClient
 )
 {
+BackendType
+backend
+=
+BackendType
+:
+:
+NONE
+;
 mTextureClient
 =
 TextureClient
@@ -195,6 +210,7 @@ MacIOSurfaceTextureData
 Create
 (
 mSurface
+backend
 )
 TextureFlags
 :
