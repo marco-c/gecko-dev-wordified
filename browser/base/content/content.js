@@ -3602,6 +3602,8 @@ node
 nodeType
 =
 =
+content
+.
 Node
 .
 ELEMENT_NODE
