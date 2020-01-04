@@ -2905,6 +2905,10 @@ ShouldSwitchProcess
 nsIChannel
 *
 aChannel
+const
+nsACString
+&
+aSignedPkg
 )
 ;
 ContentCacheInParent
