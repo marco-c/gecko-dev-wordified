@@ -4868,6 +4868,11 @@ have
 to
 normalize
 .
+if
+(
+mTargetFileExists
+)
+{
 tempResult
 -
 >
@@ -4875,6 +4880,7 @@ Normalize
 (
 )
 ;
+}
 }
 if
 (
