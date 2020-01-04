@@ -1180,6 +1180,7 @@ nsStyleFont
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -1196,6 +1197,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -2998,6 +3000,7 @@ nsStyleColor
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -3014,6 +3017,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -5342,6 +5346,7 @@ nsStyleBackground
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -5358,6 +5363,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -5703,6 +5709,7 @@ nsStyleMargin
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -5719,6 +5726,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -5969,6 +5977,7 @@ nsStylePadding
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -5985,6 +5994,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -7283,6 +7293,7 @@ nsStyleBorder
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -7299,6 +7310,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -8791,6 +8803,7 @@ nsStyleOutline
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -8807,6 +8820,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -9348,6 +9362,7 @@ nsStyleList
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -9364,6 +9379,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -10742,6 +10758,7 @@ nsStylePosition
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -10758,6 +10775,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -12664,6 +12682,7 @@ nsStyleTextReset
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -12680,6 +12699,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -13112,6 +13132,7 @@ nsStyleText
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -13128,6 +13149,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -14544,6 +14566,7 @@ nsStyleVisibility
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -14560,6 +14583,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -17209,6 +17233,7 @@ nsStyleDisplay
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -17225,6 +17250,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -19016,6 +19042,7 @@ nsStyleTable
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -19032,6 +19059,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -19211,6 +19239,7 @@ nsStyleTableBorder
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -19227,6 +19256,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -19677,6 +19707,7 @@ nsStyleContent
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -19693,6 +19724,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -20224,6 +20256,7 @@ nsStyleUIReset
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -20240,6 +20273,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -20594,6 +20628,7 @@ nsStyleUserInterface
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -20610,6 +20645,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -20911,6 +20947,7 @@ nsStyleXUL
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -20927,6 +20964,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -21161,6 +21199,7 @@ nsStyleColumn
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -21177,6 +21216,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -21638,6 +21678,7 @@ nsStyleSVG
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -21654,6 +21695,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -22748,6 +22790,7 @@ nsStyleSVGReset
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -22764,6 +22807,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -23020,6 +23064,7 @@ nsStyleVariables
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -23036,6 +23081,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext
@@ -23182,6 +23228,7 @@ nsStyleEffects
 *
 aSelf
 )
+CPP_THROW_NEW
 {
 return
 aSelf
@@ -23198,6 +23245,7 @@ nsPresContext
 *
 aContext
 )
+CPP_THROW_NEW
 {
 return
 aContext

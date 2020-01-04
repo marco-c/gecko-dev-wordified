@@ -423,6 +423,7 @@ nsIPresShell
 *
 aPresShell
 )
+CPP_THROW_NEW
 ;
 /
 *
