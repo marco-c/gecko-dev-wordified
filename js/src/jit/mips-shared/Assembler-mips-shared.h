@@ -2664,6 +2664,9 @@ ff_movn
 ff_break
 =
 13
+ff_sync
+=
+15
 ff_mfhi
 =
 16
@@ -5979,6 +5982,15 @@ as_break
 (
 uint32_t
 code
+)
+;
+void
+as_sync
+(
+uint32_t
+stype
+=
+0
 )
 ;
 public
