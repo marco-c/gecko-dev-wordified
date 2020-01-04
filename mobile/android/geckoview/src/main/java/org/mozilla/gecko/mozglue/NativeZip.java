@@ -99,6 +99,15 @@ gecko
 mozglue
 ;
 import
+android
+.
+support
+.
+annotation
+.
+Keep
+;
+import
 org
 .
 mozilla
@@ -168,7 +177,7 @@ volatile
 long
 mObj
 ;
-JNITarget
+Keep
 private
 InputStream
 mInput
