@@ -740,17 +740,6 @@ return
 mDefaultValue
 ;
 }
-AudioNode
-*
-Node
-(
-)
-const
-{
-return
-mNode
-;
-}
 const
 nsTArray
 <
