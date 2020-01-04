@@ -159,6 +159,9 @@ class
 nsIPresentationSessionRequest
 ;
 class
+nsIPresentationTerminateRequest
+;
+class
 nsIURI
 ;
 class
@@ -355,6 +358,14 @@ nsresult
 HandleSessionRequest
 (
 nsIPresentationSessionRequest
+*
+aRequest
+)
+;
+nsresult
+HandleTerminateRequest
+(
+nsIPresentationTerminateRequest
 *
 aRequest
 )
