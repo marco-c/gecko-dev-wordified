@@ -532,7 +532,6 @@ base_repository
 '
 ]
 or
-                
 params
 [
 '
