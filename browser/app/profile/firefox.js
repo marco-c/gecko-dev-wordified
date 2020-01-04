@@ -8366,6 +8366,16 @@ highlightAll
 true
 )
 ;
+pref
+(
+"
+findbar
+.
+modalHighlight
+"
+true
+)
+;
 /
 /
 Tracks

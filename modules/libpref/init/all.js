@@ -10656,6 +10656,16 @@ highlightAll
 false
 )
 ;
+pref
+(
+"
+findbar
+.
+modalHighlight
+"
+false
+)
+;
 /
 /
 use
