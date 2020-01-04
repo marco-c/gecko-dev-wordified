@@ -351,7 +351,7 @@ R
 .
 xml
 .
-preferences_devtools
+preferences_advanced
 R
 .
 xml

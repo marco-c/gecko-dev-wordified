@@ -1192,12 +1192,12 @@ private
 static
 final
 String
-PREFS_DEVTOOLS
+PREFS_ADVANCED
 =
 NON_PREF_PREFIX
 +
 "
-devtools
+advanced
 .
 enabled
 "
@@ -3888,7 +3888,7 @@ R
 .
 id
 .
-pref_header_devtools
+pref_header_advanced
 &
 &
 !
@@ -5199,7 +5199,7 @@ continue
 }
 if
 (
-PREFS_DEVTOOLS
+PREFS_ADVANCED
 .
 equals
 (
