@@ -10826,13 +10826,6 @@ XPCNativeScriptableInfo
 nsIXPCScriptable
 *
 scriptable
-=
-nullptr
-XPCNativeScriptableShared
-*
-shared
-=
-nullptr
 )
 :
 mCallback
@@ -10841,7 +10834,7 @@ scriptable
 )
 mShared
 (
-shared
+nullptr
 )
 {
 MOZ_COUNT_CTOR
