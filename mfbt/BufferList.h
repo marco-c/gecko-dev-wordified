@@ -653,6 +653,10 @@ mOwning
 (
 true
 )
+mSegments
+(
+aAP
+)
 mSize
 (
 0
@@ -1840,6 +1844,7 @@ BorrowingAllocPolicy
 (
 )
 )
+const
 ;
 /
 /
@@ -2860,6 +2865,7 @@ aSuccess
 BorrowingAllocPolicy
 aAP
 )
+const
 {
 BufferList
 <

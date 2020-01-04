@@ -988,6 +988,13 @@ length
 BufferList
 *
 buffers
+uint32_t
+alignment
+=
+sizeof
+(
+memberAlignmentType
+)
 )
 const
 ;
