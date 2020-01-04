@@ -123,6 +123,17 @@ aTopic
 aData
 )
 {
+if
+(
+aData
+=
+=
+PRELOAD_STATE_FILE_NAME
+)
+{
+return
+;
+}
 equal
 (
 aData

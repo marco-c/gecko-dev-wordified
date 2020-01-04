@@ -418,6 +418,15 @@ txt
 "
 ;
 const
+PRELOAD_STATE_FILE_NAME
+=
+"
+SecurityPreloadState
+.
+txt
+"
+;
+const
 SEC_ERROR_BASE
 =
 Ci
