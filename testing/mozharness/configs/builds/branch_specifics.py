@@ -691,36 +691,6 @@ mozaws
 .
 net
 '
-        
-'
-platform_overrides
-'
-:
-{
-            
-'
-macosx64
--
-mulet
-'
-:
-{
-                
-'
-stage_server
-'
-:
-'
-stage
-.
-mozilla
-.
-org
-'
-            
-}
-        
-}
     
 }
     
