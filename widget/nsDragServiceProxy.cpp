@@ -362,6 +362,11 @@ GetSize
 (
 )
 ;
+if
+(
+dataSurface
+)
+{
 size_t
 length
 ;
@@ -450,6 +455,7 @@ StartDragSession
 return
 NS_OK
 ;
+}
 }
 }
 mozilla
