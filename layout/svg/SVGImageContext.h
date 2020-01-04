@@ -353,6 +353,14 @@ mGlobalOpacity
 aOther
 .
 mGlobalOpacity
+&
+&
+mIsPaintingSVGImageElement
+=
+=
+aOther
+.
+mIsPaintingSVGImageElement
 ;
 }
 bool
@@ -413,6 +421,7 @@ sizeof
 gfxFloat
 )
 )
+mIsPaintingSVGImageElement
 )
 ;
 }
