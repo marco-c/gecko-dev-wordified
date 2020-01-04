@@ -28276,8 +28276,9 @@ stubs
 for
 assigning
 strings
-and
 objects
+or
+symbols
 .
 return
 IsAnyTypedArray
@@ -28305,6 +28306,14 @@ isString
 value
 .
 isObject
+(
+)
+&
+&
+!
+value
+.
+isSymbol
 (
 )
 ;

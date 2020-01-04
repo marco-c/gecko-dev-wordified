@@ -11452,6 +11452,13 @@ v
 isObject
 (
 )
+|
+|
+v
+.
+isSymbol
+(
+)
 )
 ;
 jump
@@ -12623,6 +12630,13 @@ MOZ_ASSERT
 v
 .
 isObject
+(
+)
+|
+|
+v
+.
+isSymbol
 (
 )
 )
