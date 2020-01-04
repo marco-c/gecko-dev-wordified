@@ -1330,6 +1330,12 @@ allowPopups
 boolean
 )
 *
+userContextId
+(
+unsigned
+int
+)
+*
 /
 function
 openUILinkIn
