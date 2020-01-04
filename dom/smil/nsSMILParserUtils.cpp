@@ -1118,11 +1118,8 @@ return
 false
 ;
 }
-/
-/
-intentional
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 PARTIAL_CLOCK_VALUE
 :
