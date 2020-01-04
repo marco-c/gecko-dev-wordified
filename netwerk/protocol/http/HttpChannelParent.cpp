@@ -6960,6 +6960,16 @@ be
 passed
 down
 .
+mChannel
+-
+>
+GetProtocolVersion
+(
+timing
+.
+protocolVersion
+)
+;
 if
 (
 mIPCClosed

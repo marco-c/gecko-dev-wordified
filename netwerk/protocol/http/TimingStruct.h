@@ -123,6 +123,9 @@ transferSize
 uint64_t
 encodedBodySize
 ;
+nsCString
+protocolVersion
+;
 }
 ;
 }

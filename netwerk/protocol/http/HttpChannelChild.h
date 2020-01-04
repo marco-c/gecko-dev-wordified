@@ -458,6 +458,15 @@ newURI
 )
 override
 ;
+NS_IMETHOD
+GetProtocolVersion
+(
+nsACString
+&
+aProtocolVersion
+)
+override
+;
 /
 /
 nsIHttpChannelInternal
@@ -1095,6 +1104,9 @@ nsCOMPtr
 nsISupports
 >
 mCacheKey
+;
+nsCString
+mProtocolVersion
 ;
 /
 /
