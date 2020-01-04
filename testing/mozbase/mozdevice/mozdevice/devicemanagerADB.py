@@ -198,9 +198,7 @@ fennec
                  
 adbPath
 =
-'
-adb
-'
+None
 deviceSerial
 =
 None
@@ -300,6 +298,10 @@ self
 _adbPath
 =
 adbPath
+or
+'
+adb
+'
         
 #
 The
