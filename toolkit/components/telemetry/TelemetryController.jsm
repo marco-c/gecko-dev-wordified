@@ -1890,9 +1890,7 @@ addEnvironment
 |
 false
 ;
-const
-testOnly
-=
+return
 Impl
 .
 submitExternalPing
@@ -1901,9 +1899,6 @@ aType
 aPayload
 aOptions
 )
-;
-return
-testOnly
 ;
 }
 /
