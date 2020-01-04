@@ -3068,6 +3068,9 @@ dummySize
 16
 )
 ;
+nsCString
+failureId
+;
 RefPtr
 <
 GLContext
@@ -3085,7 +3088,8 @@ CreateOffscreen
 dummySize
 caps
 flags
-out_failureId
+&
+failureId
 )
 ;
 if
@@ -3122,9 +3126,7 @@ WebGLContext
 :
 FailureReason
 (
-"
-FEATURE_FAILURE_WEBGL_EGL_INIT
-"
+failureId
 "
 Error
 during
@@ -3196,6 +3198,9 @@ dummySize
 16
 )
 ;
+nsCString
+failureId
+;
 RefPtr
 <
 GLContext
@@ -3213,7 +3218,8 @@ CreateOffscreen
 dummySize
 caps
 flags
-out_failureId
+&
+failureId
 )
 ;
 if
@@ -3251,9 +3257,7 @@ WebGLContext
 :
 FailureReason
 (
-"
-FEATURE_FAILURE_WEBGL_ANGLE_INIT
-"
+failureId
 "
 Error
 during
@@ -3328,6 +3332,9 @@ dummySize
 16
 )
 ;
+nsCString
+failureId
+;
 RefPtr
 <
 GLContext
@@ -3345,7 +3352,8 @@ CreateOffscreen
 dummySize
 caps
 flags
-out_failureId
+&
+failureId
 )
 ;
 if
@@ -3382,9 +3390,7 @@ WebGLContext
 :
 FailureReason
 (
-"
-FEATURE_FAILURE_WEBGL_DEFAULT_INIT
-"
+failureId
 "
 Error
 during
@@ -3913,7 +3919,7 @@ if
 (
 CreateAndInitGLWith
 (
-CreateGLWithNative
+CreateGLWithDefault
 baseCaps
 flags
 out_failReasons
@@ -5330,6 +5336,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifdef
+XP_WIN
 if
 (
 gl
@@ -5387,6 +5396,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 }
 if
 (
