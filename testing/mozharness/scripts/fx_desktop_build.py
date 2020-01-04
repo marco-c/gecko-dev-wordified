@@ -646,6 +646,23 @@ build_resources
 json
 '
                 
+'
+nightly_promotion_branches
+'
+:
+[
+'
+mozilla
+-
+central
+'
+'
+mozilla
+-
+aurora
+'
+]
+                
 #
 try
 will
