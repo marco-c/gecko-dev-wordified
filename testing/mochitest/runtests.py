@@ -16742,6 +16742,22 @@ result
                 
 break
         
+e10s_mode
+=
+"
+e10s
+"
+if
+options
+.
+e10s
+else
+"
+non
+-
+e10s
+"
+        
 #
 printing
 total
@@ -16812,6 +16828,17 @@ s
 self
 .
 counttodo
+            
+print
+"
+\
+tMode
+:
+%
+s
+"
+%
+e10s_mode
             
 print
 "
@@ -16886,6 +16913,18 @@ counttodo
 print
 "
 4
+INFO
+Mode
+:
+%
+s
+"
+%
+e10s_mode
+            
+print
+"
+5
 INFO
 SimpleTest
 FINISHED
@@ -17415,6 +17454,24 @@ for
 #
 B2G
         
+#
+        
+#
+In
+addition
+the
+push
+subsuite
+directly
+accesses
+the
+production
+        
+#
+push
+service
+.
+        
 if
 '
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
@@ -17440,6 +17497,15 @@ buildapp
 =
 '
 mulet
+'
+or
+options
+.
+subsuite
+=
+=
+'
+push
 '
 :
                 
