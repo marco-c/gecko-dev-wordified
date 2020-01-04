@@ -770,6 +770,10 @@ eDragExit
 )
 NS_EVENT_MESSAGE
 (
+eLegacyDragDrop
+)
+NS_EVENT_MESSAGE
+(
 eDrag
 )
 NS_EVENT_MESSAGE

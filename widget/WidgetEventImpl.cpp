@@ -1518,6 +1518,9 @@ case
 eDragExit
 :
 case
+eLegacyDragDrop
+:
+case
 eDrag
 :
 case
