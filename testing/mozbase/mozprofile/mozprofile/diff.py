@@ -215,7 +215,7 @@ value
 strip
 (
 )
-;
+        
 other
 =
 other

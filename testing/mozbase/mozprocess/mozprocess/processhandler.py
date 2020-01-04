@@ -166,13 +166,6 @@ if
 isWin
 :
     
-import
-ctypes
-ctypes
-.
-wintypes
-msvcrt
-    
 from
 ctypes
 import
@@ -194,11 +187,11 @@ qijo
 import
 JobObjectAssociateCompletionPortInformation
 \
-    
+        
 JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 JobObjectExtendedLimitInformation
 \
-    
+        
 JOBOBJECT_BASIC_LIMIT_INFORMATION
 JOBOBJECT_EXTENDED_LIMIT_INFORMATION
 IO_COUNTERS
@@ -246,6 +239,7 @@ a
 list
 the
 first
+      
 element
 will
 be
@@ -260,6 +254,7 @@ elements
 will
 be
 interpreted
+      
 as
 arguments
 to
@@ -290,6 +285,7 @@ not
 be
 set
 when
+      
 cmd
 is
 specified
@@ -346,6 +342,7 @@ child
 processes
 when
 True
+      
 defaults
 to
 False
@@ -374,6 +371,7 @@ timeout
 is
 reached
 .
+      
 When
 False
 the
@@ -385,6 +383,7 @@ killing
 the
 process
 .
+      
 Failure
 to
 do
@@ -529,6 +528,7 @@ when
 the
 process
 terminates
+      
 normally
 without
 timing
@@ -1921,6 +1921,8 @@ print
 sys
 .
 stderr
+\
+                        
 "
 ProcessManager
 UNABLE
@@ -2179,22 +2181,23 @@ winprocess
 .
 SetInformationJobObject
 (
+                            
 self
 .
 _job
-                                                          
+                            
 JobObjectAssociateCompletionPortInformation
-                                                          
+                            
 addressof
 (
 joacp
 )
-                                                          
+                            
 sizeof
 (
 joacp
 )
-                                                          
+                        
 )
                         
 #
@@ -2219,7 +2222,7 @@ jbli
 =
 JOBOBJECT_BASIC_LIMIT_INFORMATION
 (
-                                                
+                            
 c_longlong
 (
 0
@@ -2232,7 +2235,7 @@ limit
 (
 ignored
 )
-                                                
+                            
 c_longlong
 (
 0
@@ -2246,11 +2249,11 @@ limit
 (
 ignored
 )
-                                                
+                            
 winprocess
 .
 JOB_OBJECT_LIMIT_BREAKAWAY_OK
-                                                
+                            
 0
 #
 min
@@ -2259,7 +2262,7 @@ set
 (
 ignored
 )
-                                                
+                            
 0
 #
 max
@@ -2268,7 +2271,7 @@ set
 (
 ignored
 )
-                                                
+                            
 0
 #
 active
@@ -2277,14 +2280,14 @@ limit
 (
 ignored
 )
-                                                
+                            
 None
 #
 affinity
 (
 ignored
 )
-                                                
+                            
 0
 #
 Priority
@@ -2292,7 +2295,7 @@ class
 (
 ignored
 )
-                                                
+                            
 0
 #
 Scheduling
@@ -2300,7 +2303,7 @@ class
 (
 ignored
 )
-                                                
+                        
 )
                         
 iocntr
@@ -2313,21 +2316,21 @@ jeli
 =
 JOBOBJECT_EXTENDED_LIMIT_INFORMATION
 (
-                                                
+                            
 jbli
 #
 basic
 limit
 info
 struct
-                                                
+                            
 iocntr
 #
 io_counters
 (
 ignored
 )
-                                                
+                            
 0
 #
 process
@@ -2336,7 +2339,7 @@ limit
 (
 ignored
 )
-                                                
+                            
 0
 #
 job
@@ -2345,7 +2348,7 @@ limit
 (
 ignored
 )
-                                                
+                            
 0
 #
 peak
@@ -2354,7 +2357,7 @@ limit
 (
 ignored
 )
-                                                
+                            
 0
 )
 #
@@ -2602,17 +2605,10 @@ Close
 (
 )
             
-def
-_can_nest_jobs
-(
-self
-)
-:
-                
 #
 Per
 :
-                
+            
 #
 https
 :
@@ -2645,7 +2641,7 @@ vs
 29
 .
 aspx
-                
+            
 #
 Nesting
 jobs
@@ -2663,13 +2659,13 @@ according
 to
 the
 table
-                
+            
 #
 on
 this
 page
 :
-                
+            
 #
 https
 :
@@ -2698,6 +2694,13 @@ vs
 29
 .
 aspx
+            
+def
+_can_nest_jobs
+(
+self
+)
+:
                 
 winver
 =
@@ -3009,6 +3012,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 WARNING
 |
@@ -3028,6 +3033,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 Parent
 process
@@ -3050,6 +3057,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 PIDS
 :
@@ -3082,6 +3091,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 Attempting
 to
@@ -3221,6 +3232,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 Error
 Code
@@ -3232,6 +3245,10 @@ query
 IO
 Completion
 Port
+"
+\
+                                
+"
 exiting
 "
 %
@@ -3865,10 +3882,6 @@ pre
 7
 versions
                     
-err
-=
-None
-                    
 try
 :
                         
@@ -3908,13 +3921,14 @@ _process_events
 .
 get
 (
+                            
 timeout
 =
 self
 .
 MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
 +
-                                                                
+                            
 self
 .
 MAX_PROCESS_KILL_DELAY
@@ -4374,6 +4388,8 @@ _io_port
 None
 )
 and
+\
+                   
 self
 .
 _io_port
@@ -4768,6 +4784,8 @@ print
 sys
 .
 stderr
+\
+                                
 "
 Encountered
 error
@@ -4848,6 +4866,8 @@ print
 sys
 .
 stderr
+\
+                
 "
 Unrecognized
 platform
@@ -5190,8 +5210,8 @@ if
 self
 .
 args
-!
-=
+is
+not
 None
 :
                 
@@ -7107,7 +7127,7 @@ is_alive
 )
 )
 \
-              
+                
 or
 (
 stderr_reader
@@ -7323,13 +7343,9 @@ is_alive
 return
 False
 #
-#
-#
 default
 output
 handlers
-#
-#
 #
 these
 should
@@ -7578,8 +7594,6 @@ file_obj
 close
 (
 )
-#
-#
 #
 front
 end

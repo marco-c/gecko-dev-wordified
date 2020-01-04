@@ -642,7 +642,7 @@ s
 "
 %
 \
-                    
+              
 (
 result_expected
 '
@@ -1209,7 +1209,7 @@ calculate_result
 self
 .
 _result_expected
-                                            
+                                                
 self
 .
 _result_actual
@@ -1269,7 +1269,7 @@ s
 "
 %
 \
-                    
+                  
 (
 result
 '
@@ -1553,7 +1553,7 @@ suite_name
 self
 .
 time_taken
-                                
+                                   
 list
 .
 __str__
@@ -1748,7 +1748,7 @@ s
 "
 %
 \
-                    
+              
 (
 result
 '
@@ -1832,7 +1832,7 @@ result_expected
 '
 PASS
 '
-                        
+                   
 result_actual
 =
 '
@@ -1897,14 +1897,14 @@ get_class
 (
 test
 )
-                       
+                             
 time_start
 =
 0
 result_expected
 =
 result_expected
-                       
+                             
 context
 =
 context

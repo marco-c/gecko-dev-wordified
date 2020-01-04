@@ -348,7 +348,7 @@ split
 [
 0
 ]
-                
+                 
 socket
 .
 inet_ntoa
@@ -1266,7 +1266,7 @@ address
 '
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -1277,7 +1277,7 @@ parser
         
 include_formatters
 =
-structured
+mozlog
 .
 commandline
 .
@@ -1293,7 +1293,7 @@ parse_args
 (
 )
     
-structured
+mozlog
 .
 commandline
 .

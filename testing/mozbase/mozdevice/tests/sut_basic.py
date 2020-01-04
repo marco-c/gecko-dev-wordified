@@ -216,7 +216,7 @@ tests
 TRUE
 "
 )
-                                        
+                                      
 (
 "
 cd
@@ -230,7 +230,7 @@ tests
 "
 "
 )
-                                        
+                                      
 (
 "
 ls
@@ -241,7 +241,7 @@ test
 txt
 "
 )
-                                        
+                                      
 (
 "
 rm
@@ -256,7 +256,7 @@ test
 .
 txt
 "
-                                         
+                                       
 "
 Removed
 the
@@ -382,7 +382,7 @@ tests
 TRUE
 "
 )
-                                        
+                                      
 (
 "
 cd
@@ -396,7 +396,7 @@ tests
 "
 "
 )
-                                        
+                                      
 (
 "
 ls
@@ -407,7 +407,7 @@ test
 txt
 "
 )
-                                        
+                                      
 (
 "
 rm

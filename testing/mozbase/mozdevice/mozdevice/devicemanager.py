@@ -183,7 +183,7 @@ line
 %
 s
 '
-                                   
+                                  
 '
 should
 be
@@ -194,7 +194,7 @@ concrete
 class
 '
 %
-                                   
+                                  
 (
 repr
 (
@@ -787,6 +787,7 @@ the
 device
 in
 milliseconds
+            
 (
 NOT
 supported
@@ -987,7 +988,7 @@ ifconfig
 '
 interface
 ]
-                             
+                                                   
 timeout
 =
 self
@@ -1053,6 +1054,8 @@ we
 can
 collect
 all
+        
+#
 the
 logcat
 information
@@ -1072,6 +1075,8 @@ can
 only
 see
 what
+        
+#
 happens
 after
 this
@@ -1126,7 +1131,7 @@ ConnectivityService
 :
 S
 "
-                                      
+                                     
 "
 WifiMonitor
 :
@@ -1137,7 +1142,7 @@ WifiStateTracker
 :
 S
 "
-                                      
+                                     
 "
 wpa_supplicant
 :
@@ -1221,13 +1226,13 @@ self
 shellCheckOutput
 (
 cmdline
-                                      
+                                       
 root
 =
 self
 .
 _logcatNeedsRoot
-                                      
+                                       
 timeout
 =
 self
@@ -1992,12 +1997,12 @@ root
 f
 )
 )
-<
->
+is
+not
 True
 )
 :
-                        
+                    
 return
 False
         
@@ -2375,11 +2380,11 @@ source
 destination
 )
 :
-         
+        
 "
 "
 "
-         
+        
 Does
 a
 move
@@ -2392,7 +2397,7 @@ on
 the
 device
 .
-        
+       
 :
 param
 source
@@ -2404,7 +2409,7 @@ original
 file
 or
 directory
-        
+       
 :
 param
 destination
@@ -2416,7 +2421,7 @@ destination
 file
 or
 directory
-         
+        
 "
 "
 "
@@ -2431,11 +2436,11 @@ source
 destination
 )
 :
-         
+        
 "
 "
 "
-         
+        
 Does
 a
 copy
@@ -2448,7 +2453,7 @@ on
 the
 device
 .
-        
+       
 :
 param
 source
@@ -2460,7 +2465,7 @@ original
 file
 or
 directory
-        
+       
 :
 param
 destination
@@ -2472,7 +2477,7 @@ destination
 file
 or
 directory
-         
+        
 "
 "
 "
@@ -2994,6 +2999,7 @@ retval
 raise
 DMError
 (
+                
 "
 Non
 -
@@ -3005,6 +3011,9 @@ command
 :
 %
 s
+"
+                
+"
 (
 output
 :
@@ -3618,6 +3627,7 @@ where
 application
 should
 be
+                         
 installed
 to
 (
@@ -4013,6 +4023,7 @@ span
 +
 width_byte_4
 ]
+                            
 for
 span
 in
@@ -4060,8 +4071,12 @@ len
 data
 )
 )
+\
+                
 +
 chunk_head
+\
+                
 +
 struct
 .
@@ -4089,7 +4104,7 @@ b
 join
 (
 [
-                
+            
 b
 '
 \
@@ -4103,7 +4118,7 @@ x1a
 \
 n
 '
-                
+            
 png_pack
 (
 b
@@ -4127,7 +4142,7 @@ height
 0
 )
 )
-                
+            
 png_pack
 (
 b
@@ -4142,7 +4157,7 @@ raw_data
 9
 )
 )
-                
+            
 png_pack
 (
 b
@@ -4226,12 +4241,9 @@ rb
 )
         
 if
-(
 f
-=
-=
+is
 None
-)
 :
             
 return

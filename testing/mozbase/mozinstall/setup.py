@@ -136,7 +136,7 @@ mozfile
 .
 0
 '
-       
+        
 ]
 setup
 (
@@ -278,7 +278,7 @@ Libraries
 Python
 Modules
 '
-                  
+                   
 ]
       
 keywords

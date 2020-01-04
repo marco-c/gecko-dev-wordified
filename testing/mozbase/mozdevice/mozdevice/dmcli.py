@@ -116,7 +116,7 @@ function
 self
 .
 deviceroot
-                                          
+                                        
 '
 help
 '
@@ -129,10 +129,13 @@ directory
 for
 storing
 temporary
+'
+                                        
+'
 files
 '
 }
-                          
+                         
 '
 install
 '
@@ -145,7 +148,7 @@ function
 self
 .
 install
-                                       
+                                     
 '
 args
 '
@@ -161,7 +164,7 @@ file
 '
 }
 ]
-                                       
+                                     
 '
 help
 '
@@ -174,12 +177,15 @@ file
 to
 the
 device
+'
+                                     
+'
 and
 install
 it
 '
 }
-                          
+                         
 '
 uninstall
 '
@@ -192,7 +198,7 @@ function
 self
 .
 uninstall
-                                         
+                                       
 '
 args
 '
@@ -208,7 +214,7 @@ packagename
 '
 }
 ]
-                                         
+                                       
 '
 help
 '
@@ -223,7 +229,7 @@ the
 device
 '
 }
-                          
+                         
 '
 killapp
 '
@@ -236,7 +242,7 @@ function
 self
 .
 kill
-                                       
+                                     
 '
 args
 '
@@ -259,7 +265,7 @@ nargs
 '
 }
 ]
-                                       
+                                     
 '
 help
 '
@@ -277,7 +283,7 @@ on
 device
 '
 }
-                          
+                         
 '
 launchapp
 '
@@ -290,7 +296,7 @@ function
 self
 .
 launchapp
-                                         
+                                       
 '
 args
 '
@@ -305,7 +311,7 @@ name
 appname
 '
 }
-                                                   
+                                                
 {
 '
 name
@@ -315,7 +321,7 @@ name
 activity_name
 '
 }
-                                                   
+                                                
 {
 '
 name
@@ -326,7 +332,7 @@ name
 -
 intent
 '
-                                                     
+                                                 
 '
 action
 '
@@ -334,7 +340,7 @@ action
 '
 store
 '
-                                                     
+                                                 
 '
 default
 '
@@ -349,7 +355,7 @@ action
 VIEW
 '
 }
-                                                   
+                                                
 {
 '
 name
@@ -360,7 +366,7 @@ name
 -
 url
 '
-                                                     
+                                                 
 '
 action
 '
@@ -369,7 +375,7 @@ action
 store
 '
 }
-                                                   
+                                                
 {
 '
 name
@@ -386,7 +392,7 @@ if
 -
 running
 '
-                                                     
+                                                 
 '
 action
 '
@@ -394,7 +400,7 @@ action
 '
 store_true
 '
-                                                     
+                                                 
 '
 help
 '
@@ -408,13 +414,16 @@ fail
 if
 application
 is
+'
+                                                 
+'
 already
 running
 '
 }
                                                 
 ]
-                                      
+                                       
 '
 help
 '
@@ -426,7 +435,7 @@ on
 device
 '
 }
-                          
+                         
 '
 listapps
 '
@@ -439,7 +448,7 @@ function
 self
 .
 listapps
-                                        
+                                      
 '
 help
 '
@@ -451,7 +460,7 @@ on
 device
 '
 }
-                          
+                         
 '
 push
 '
@@ -464,7 +473,7 @@ function
 self
 .
 push
-                                    
+                                  
 '
 args
 '
@@ -479,7 +488,7 @@ name
 local_file
 '
 }
-                                              
+                                           
 {
 '
 name
@@ -489,9 +498,9 @@ name
 remote_file
 '
 }
-                                              
+                                           
 ]
-                                    
+                                  
 '
 help
 '
@@ -505,7 +514,7 @@ to
 device
 '
 }
-                          
+                         
 '
 pull
 '
@@ -518,7 +527,7 @@ function
 self
 .
 pull
-                                    
+                                  
 '
 args
 '
@@ -533,7 +542,7 @@ name
 local_file
 '
 }
-                                              
+                                           
 {
 '
 name
@@ -551,7 +560,7 @@ nargs
 '
 }
 ]
-                                    
+                                  
 '
 help
 '
@@ -565,7 +574,7 @@ from
 device
 '
 }
-                          
+                         
 '
 shell
 '
@@ -578,7 +587,7 @@ function
 self
 .
 shell
-                                    
+                                   
 '
 args
 '
@@ -600,7 +609,7 @@ argparse
 .
 REMAINDER
 }
-                                              
+                                            
 {
 '
 name
@@ -618,7 +627,7 @@ action
 '
 store_true
 '
-                                                
+                                             
 '
 help
 '
@@ -631,7 +640,7 @@ root
 '
 }
 ]
-                                    
+                                   
 '
 help
 '
@@ -644,7 +653,7 @@ on
 device
 '
 }
-                          
+                         
 '
 info
 '
@@ -657,7 +666,7 @@ function
 self
 .
 getinfo
-                                    
+                                  
 '
 args
 '
@@ -680,7 +689,7 @@ nargs
 '
 }
 ]
-                                    
+                                  
 '
 help
 '
@@ -691,7 +700,7 @@ information
 on
 specified
 '
-                                    
+                                  
 '
 aspect
 of
@@ -702,7 +711,7 @@ if
 no
 argument
 '
-                                    
+                                  
 '
 given
 print
@@ -711,9 +720,9 @@ available
 information
 )
 '
-                                    
+                                  
 }
-                          
+                         
 '
 ps
 '
@@ -726,7 +735,7 @@ function
 self
 .
 processlist
-                                  
+                                
 '
 help
 '
@@ -742,7 +751,7 @@ device
 '
                                 
 }
-                          
+                         
 '
 logcat
 '
@@ -755,7 +764,7 @@ function
 self
 .
 logcat
-                                       
+                                    
 '
 help
 '
@@ -766,9 +775,9 @@ logcat
 from
 device
 '
-                                
+                                    
 }
-                          
+                         
 '
 ls
 '
@@ -781,7 +790,7 @@ function
 self
 .
 listfiles
-                                  
+                                
 '
 args
 '
@@ -797,7 +806,7 @@ remote_dir
 '
 }
 ]
-                                  
+                                
 '
 help
 '
@@ -810,7 +819,7 @@ device
 '
                                 
 }
-                          
+                         
 '
 rm
 '
@@ -823,7 +832,7 @@ function
 self
 .
 removefile
-                                  
+                                
 '
 args
 '
@@ -839,7 +848,7 @@ remote_file
 '
 }
 ]
-                                  
+                                
 '
 help
 '
@@ -852,7 +861,7 @@ device
 '
                                 
 }
-                          
+                         
 '
 isdir
 '
@@ -865,7 +874,7 @@ function
 self
 .
 isdir
-                                     
+                                   
 '
 args
 '
@@ -881,7 +890,7 @@ remote_dir
 '
 }
 ]
-                                     
+                                   
 '
 help
 '
@@ -895,9 +904,9 @@ is
 a
 directory
 '
-                                
+                                   
 }
-                          
+                         
 '
 mkdir
 '
@@ -910,7 +919,7 @@ function
 self
 .
 mkdir
-                                     
+                                   
 '
 args
 '
@@ -926,7 +935,7 @@ remote_dir
 '
 }
 ]
-                                     
+                                   
 '
 help
 '
@@ -938,9 +947,9 @@ directory
 on
 device
 '
-                                
+                                   
 }
-                          
+                         
 '
 rmdir
 '
@@ -953,7 +962,7 @@ function
 self
 .
 rmdir
-                                     
+                                   
 '
 args
 '
@@ -969,7 +978,7 @@ remote_dir
 '
 }
 ]
-                                     
+                                   
 '
 help
 '
@@ -981,9 +990,9 @@ directory
 from
 device
 '
-                                
+                                   
 }
-                          
+                         
 '
 screencap
 '
@@ -996,7 +1005,7 @@ function
 self
 .
 screencap
-                                         
+                                       
 '
 args
 '
@@ -1012,7 +1021,7 @@ png_file
 '
 }
 ]
-                                         
+                                       
 '
 help
 '
@@ -1025,9 +1034,9 @@ device
 in
 action
 '
-                                         
+                                       
 }
-                          
+                         
 '
 sutver
 '
@@ -1040,7 +1049,7 @@ function
 self
 .
 sutver
-                                      
+                                    
 '
 help
 '
@@ -1059,9 +1068,9 @@ SUT
 only
 )
 '
-                                   
+                                    
 }
-                          
+                         
 '
 clearlogcat
 '
@@ -1074,7 +1083,7 @@ function
 self
 .
 clearlogcat
-                                           
+                                         
 '
 help
 '
@@ -1086,7 +1095,7 @@ logcat
 '
                                          
 }
-                          
+                         
 '
 reboot
 '
@@ -1099,7 +1108,7 @@ function
 self
 .
 reboot
-                                      
+                                    
 '
 help
 '
@@ -1109,7 +1118,7 @@ reboot
 the
 device
 '
-                                      
+                                    
 '
 args
 '
@@ -1125,7 +1134,7 @@ name
 -
 wait
 '
-                                                  
+                                              
 '
 action
 '
@@ -1133,7 +1142,7 @@ action
 '
 store_true
 '
-                                                  
+                                              
 '
 help
 '
@@ -1146,14 +1155,17 @@ to
 come
 back
 up
+'
+                                              
+'
 before
 exiting
 '
 }
 ]
-                                   
+                                    
 }
-                          
+                         
 '
 isfile
 '
@@ -1166,7 +1178,7 @@ function
 self
 .
 isfile
-                                      
+                                    
 '
 args
 '
@@ -1182,7 +1194,7 @@ remote_file
 '
 }
 ]
-                                      
+                                    
 '
 help
 '
@@ -1197,9 +1209,9 @@ on
 the
 device
 '
-                                   
+                                    
 }
-                          
+                         
 '
 launchfennec
 '
@@ -1212,7 +1224,7 @@ function
 self
 .
 launchfennec
-                                            
+                                          
 '
 args
 '
@@ -1227,7 +1239,7 @@ name
 appname
 '
 }
-                                                      
+                                                   
 {
 '
 name
@@ -1245,7 +1257,7 @@ action
 '
 store
 '
-                                                        
+                                                    
 '
 default
 '
@@ -1260,7 +1272,7 @@ action
 VIEW
 '
 }
-                                                      
+                                                   
 {
 '
 name
@@ -1279,7 +1291,7 @@ action
 store
 '
 }
-                                                      
+                                                   
 {
 '
 name
@@ -1300,7 +1312,7 @@ action
 store
 '
 }
-                                                      
+                                                   
 {
 '
 name
@@ -1318,7 +1330,7 @@ action
 '
 store
 '
-                                                        
+                                                    
 '
 help
 '
@@ -1329,6 +1341,9 @@ environment
 variables
 to
 set
+'
+                                                    
+'
 in
 "
 KEY1
@@ -1341,7 +1356,7 @@ VAL2
 format
 '
 }
-                                                      
+                                                   
 {
 '
 name
@@ -1358,7 +1373,7 @@ if
 -
 running
 '
-                                                        
+                                                    
 '
 action
 '
@@ -1366,7 +1381,7 @@ action
 '
 store_true
 '
-                                                        
+                                                    
 '
 help
 '
@@ -1380,13 +1395,16 @@ fail
 if
 application
 is
+'
+                                                    
+'
 already
 running
 '
 }
-                                                      
+                                                   
 ]
-                                            
+                                          
 '
 help
 '
@@ -1395,9 +1413,9 @@ help
 launch
 fennec
 '
-                                            
+                                          
 }
-                          
+                         
 '
 getip
 '
@@ -1410,7 +1428,7 @@ function
 self
 .
 getip
-                                     
+                                   
 '
 args
 '
@@ -1433,7 +1451,7 @@ nargs
 '
 }
 ]
-                                     
+                                   
 '
 help
 '
@@ -1449,7 +1467,7 @@ device
 '
                                    
 }
-                          
+                         
 }
         
 self
@@ -1731,16 +1749,14 @@ TCP
 /
 IP
 "
-\
-                                
+                            
 "
 defaults
 to
 TEST_DEVICE
 environment
 "
-\
-                                
+                            
 "
 variable
 if
@@ -1841,8 +1857,7 @@ or
 sut
 defaults
 "
-\
-                                
+                            
 "
 to
 DM_TRANS
@@ -1850,8 +1865,7 @@ environment
 variable
 if
 "
-\
-                                
+                            
 "
 present
 or

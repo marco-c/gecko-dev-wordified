@@ -284,7 +284,7 @@ sdcard
 baz
 '
                                
-'
+"
 #
 #
 AGENT
@@ -292,6 +292,9 @@ AGENT
 WARNING
 #
 #
+"
+                               
+"
 Could
 not
 create
@@ -303,7 +306,7 @@ mnt
 sdcard
 /
 baz
-'
+"
 )
 ]
                      
@@ -313,7 +316,7 @@ expectException
 :
 True
 }
-                     
+                    
 ]
         
 for

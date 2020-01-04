@@ -782,8 +782,6 @@ parsing
 "
 "
 #
-#
-#
 derived
 literal
 tokens
@@ -1811,11 +1809,13 @@ expected
             
 raise
 Exception
+(
 "
 Unexpected
 token
 !
 "
+)
         
 self
 .
@@ -2052,6 +2052,9 @@ could
 not
 parse
 :
+"
+                             
+"
 %
 s
 \
@@ -2068,7 +2071,9 @@ s
 self
 .
 text
+                                                                 
 formatted
+                                                                 
 self
 .
 valuemapping

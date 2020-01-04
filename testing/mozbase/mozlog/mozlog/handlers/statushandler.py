@@ -62,12 +62,6 @@ defaultdict
     
 namedtuple
 )
-from
-mozlog
-.
-structuredlog
-import
-log_levels
 RunSummary
 =
 namedtuple

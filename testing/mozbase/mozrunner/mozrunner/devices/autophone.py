@@ -302,7 +302,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 *
 *
@@ -315,6 +315,9 @@ s
 and
 reset
 your
+"
+                               
+"
 '
 mach
 autophone
@@ -399,7 +402,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Already
 clean
@@ -501,7 +504,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 unable
 to
@@ -510,6 +513,9 @@ save
 mach
 autophone
 '
+"
+                               
+"
 configuration
 to
 %
@@ -541,7 +547,7 @@ autophone
 "
 {
 }
-                    
+                                   
 str
 (
 sys
@@ -660,7 +666,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 unable
 to
@@ -669,6 +675,9 @@ load
 mach
 autophone
 '
+"
+                                   
+"
 configuration
 from
 %
@@ -700,7 +709,7 @@ autophone
 "
 {
 }
-                        
+                                       
 str
 (
 sys
@@ -838,10 +847,10 @@ strip
 )
             
 if
-not
 '
 n
 '
+not
 in
 response
 .
@@ -864,7 +873,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Configuring
 and
@@ -895,7 +904,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 Unable
 to
@@ -905,6 +914,9 @@ existing
 autophone
 directory
 .
+"
+                           
+"
 Let
 '
 s
@@ -1006,7 +1018,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Cloning
 autophone
@@ -1159,7 +1171,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Unable
 to
@@ -1191,7 +1203,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Try
 re
@@ -1291,17 +1303,18 @@ self
 build_obj
 .
 topsrcdir
-            
+                                                         
 self
 .
 build_obj
 .
 topobjdir
+                                                         
 vdir
 sys
 .
 stdout
-            
+                                                         
 os
 .
 path
@@ -1313,9 +1326,11 @@ self
 build_obj
 .
 topsrcdir
+                                                                      
 '
 build
 '
+                                                                      
 '
 virtualenv_packages
 .
@@ -1362,7 +1377,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Installing
 required
@@ -1398,7 +1413,7 @@ install
 -
 r
 '
-                
+                                                   
 os
 .
 path
@@ -1524,10 +1539,10 @@ strip
 )
             
 if
-not
 '
 n
 '
+not
 in
 response
 .
@@ -1550,7 +1565,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Using
 device
@@ -1584,7 +1599,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 You
 must
@@ -1594,6 +1609,9 @@ least
 one
 Android
 device
+"
+                           
+"
 before
 running
 autophone
@@ -1732,7 +1750,7 @@ autophone
 "
 {
 }
-                        
+                                       
 str
 (
 sys
@@ -1940,7 +1958,7 @@ autophone
 "
 {
 }
-                                
+                                               
 "
 Added
 '
@@ -1977,7 +1995,7 @@ autophone
 "
 {
 }
-                                
+                                               
 "
 Device
 '
@@ -2011,7 +2029,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Failed
 to
@@ -2045,7 +2063,7 @@ autophone
 "
 {
 }
-                        
+                                       
 str
 (
 sys
@@ -2084,7 +2102,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 No
 devices
@@ -2101,6 +2119,9 @@ device
 (
 s
 )
+"
+                                   
+"
 in
 '
 adb
@@ -2188,7 +2209,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 Autophone
 must
@@ -2200,6 +2221,9 @@ a
 test
 manifest
 '
+"
+                           
+"
 describing
 the
 type
@@ -2366,7 +2390,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 These
 test
@@ -2591,7 +2615,7 @@ autophone
 "
 {
 }
-                                
+                                               
 "
 '
 %
@@ -2603,6 +2627,9 @@ Enter
 a
 number
 between
+"
+                                               
+"
 1
 and
 %
@@ -2634,7 +2661,7 @@ autophone
 "
 {
 }
-                            
+                                           
 "
 '
 %
@@ -2646,6 +2673,9 @@ Enter
 a
 number
 between
+"
+                                           
+"
 1
 and
 %
@@ -2972,7 +3002,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Unable
 to
@@ -3004,7 +3034,7 @@ autophone
 "
 {
 }
-                    
+                                   
 str
 (
 sys
@@ -3195,6 +3225,7 @@ expanduser
 .
 mozbuild
 '
+                                             
 '
 android
 -
@@ -3294,7 +3325,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Some
 tests
@@ -3305,6 +3336,9 @@ to
 host
 utilities
 '
+"
+                                   
+"
 such
 as
 xpcshell
@@ -3375,6 +3409,7 @@ build_obj
 .
 log
 (
+                        
 logging
 .
 ERROR
@@ -3436,7 +3471,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Using
 unit
@@ -3668,7 +3703,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Some
 of
@@ -3821,6 +3856,7 @@ build_obj
 .
 log
 (
+                                
 logging
 .
 ERROR
@@ -3837,6 +3873,9 @@ be
 >
 0
 .
+"
+                                
+"
 Enter
 webserver
 address
@@ -3868,6 +3907,7 @@ build_obj
 .
 log
 (
+                            
 logging
 .
 ERROR
@@ -3884,6 +3924,9 @@ be
 a
 number
 .
+"
+                            
+"
 Enter
 webserver
 address
@@ -3914,6 +3957,7 @@ build_obj
 .
 log
 (
+                        
 logging
 .
 ERROR
@@ -3977,6 +4021,7 @@ webserver
 -
 url
 '
+                                           
 '
 http
 :
@@ -4126,7 +4171,7 @@ configure_devices
 )
 and
 \
-               
+            
 self
 .
 configure_unittests
@@ -4134,7 +4179,7 @@ configure_unittests
 )
 and
 \
-               
+            
 self
 .
 configure_tests
@@ -4142,7 +4187,7 @@ configure_tests
 )
 and
 \
-               
+            
 self
 .
 configure_ip
@@ -4150,7 +4195,7 @@ configure_ip
 )
 and
 \
-               
+            
 self
 .
 configure_webserver
@@ -4158,7 +4203,7 @@ configure_webserver
 )
 and
 \
-               
+            
 self
 .
 configure_other
@@ -4233,6 +4278,7 @@ build_obj
 .
 log
 (
+                
 logging
 .
 WARN
@@ -4273,7 +4319,7 @@ autophone
 "
 {
 }
-                    
+                                   
 str
 (
 sys
@@ -4332,7 +4378,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 Launching
 autophone
@@ -4487,7 +4533,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Autophone
 is
@@ -4618,6 +4664,7 @@ build_obj
 .
 log
 (
+                
 logging
 .
 INFO
@@ -4652,6 +4699,7 @@ build_obj
 .
 log
 (
+                
 logging
 .
 INFO
@@ -4878,7 +4926,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Quitting
 .
@@ -4999,6 +5047,7 @@ build_obj
 .
 log
 (
+            
 logging
 .
 INFO
@@ -5133,7 +5182,7 @@ autophone
 "
 {
 }
-                    
+                                   
 "
 Enter
 a
@@ -5270,6 +5319,9 @@ or
 date
 -
 time
+"
+                
+"
 e
 .
 g
@@ -5310,6 +5362,9 @@ or
 date
 -
 time
+"
+                
+"
 e
 .
 g
@@ -5349,6 +5404,7 @@ build_obj
 .
 log
 (
+            
 logging
 .
 INFO
@@ -5386,6 +5442,7 @@ build_obj
 .
 log
 (
+            
 logging
 .
 INFO
@@ -5487,6 +5544,7 @@ build_obj
 .
 log
 (
+                
 logging
 .
 INFO
@@ -5610,6 +5668,7 @@ build_obj
 .
 log
 (
+            
 logging
 .
 INFO
@@ -5650,7 +5709,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 Use
 '
@@ -5720,7 +5779,7 @@ autophone
 "
 {
 }
-            
+                           
 "
 Launching
 webserver
@@ -5921,7 +5980,7 @@ autophone
 "
 {
 }
-                
+                               
 "
 Running
 '
@@ -5952,7 +6011,7 @@ cwd
 processOutputLine
 =
 _processOutput
-            
+                              
 processStderrLine
 =
 _processOutput

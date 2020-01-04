@@ -381,7 +381,7 @@ _DEBUGGER_INFO
 _DEBUGGER_PRIORITIES
 =
 {
-      
+    
 '
 win
 '
@@ -398,7 +398,7 @@ wdexpress
 exe
 '
 ]
-      
+    
 '
 linux
 '
@@ -414,7 +414,7 @@ cgdb
 lldb
 '
 ]
-      
+    
 '
 mac
 '
@@ -427,7 +427,7 @@ lldb
 gdb
 '
 ]
-      
+    
 '
 android
 '
@@ -437,7 +437,7 @@ android
 gdb
 '
 ]
-      
+    
 '
 unknown
 '
@@ -932,7 +932,7 @@ name
 '
 nt
 '
-            
+                
 and
 not
 debugger
@@ -1313,11 +1313,11 @@ get_default_debugger_name
 class
 DebuggerSearch
 :
-  
+    
 OnlyFirst
 =
 1
-  
+    
 KeepLooking
 =
 2
@@ -2101,7 +2101,7 @@ bin
 java
 '
 )
-            
+             
 ]
             
 +
@@ -2180,5 +2180,5 @@ lost
 =
 no
 '
-           
+            
 ]

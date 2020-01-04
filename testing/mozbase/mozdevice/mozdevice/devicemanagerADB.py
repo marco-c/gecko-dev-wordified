@@ -1170,6 +1170,8 @@ in
 this
 time
 unless
+            
+#
 otherwise
 specified
             
@@ -1894,7 +1896,7 @@ localname
 )
 destname
 ]
-                
+                            
 retryLimit
 =
 retryLimit
@@ -1929,6 +1931,7 @@ output
 s
 "
 %
+                          
 (
 localname
 destname
@@ -2159,7 +2162,7 @@ localZip
 cwd
 =
 localDir
-                              
+                                      
 processOutputLine
 =
 self
@@ -3286,7 +3289,6 @@ split
 "
 '
 )
-;
         
 if
 (
@@ -3651,8 +3653,8 @@ env
 '
 and
 env
-!
-=
+is
+not
 None
 :
             
@@ -3720,7 +3722,6 @@ envkey
 +
 envval
 )
-;
                 
 envCnt
 +
@@ -4491,7 +4492,7 @@ paths
 s
 ]
 "
-                        
+                      
 %
 "
 "
@@ -4874,6 +4875,7 @@ self
 .
 shellCheckOutput
 (
+                
 [
 "
 getprop
@@ -5235,6 +5237,7 @@ self
 .
 shellCheckOutput
 (
+                
 [
 "
 df
@@ -5614,7 +5617,7 @@ finalArgs
 storeOutput
 =
 True
-                    
+                                  
 processOutputLine
 =
 self
@@ -5648,8 +5651,7 @@ if
 proc
 .
 returncode
-=
-=
+is
 None
 :
                 
@@ -5986,8 +5988,7 @@ wait
             
 if
 ret_code
-=
-=
+is
 None
 :
                 
@@ -6157,6 +6158,7 @@ chmod
 mask
 remoteEntry
 ]
+                                       
 timeout
 =
 self
@@ -6365,6 +6367,7 @@ err
 raise
 DMError
 (
+                
 "
 unable
 to
@@ -6380,6 +6383,9 @@ Android
 SDK
 is
 installed
+"
+                
+"
 and
 adb
 is
@@ -6493,8 +6499,7 @@ group
             
 if
 deviceStatus
-=
-=
+is
 None
 :
                 
@@ -7365,7 +7370,7 @@ ls
 /
 "
 ]
-                         
+                                  
 timeout
 =
 self

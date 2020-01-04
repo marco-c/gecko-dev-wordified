@@ -293,8 +293,7 @@ dirname
 (
 remote_ini
 )
-\
-                                    
+                                                   
 cfg
 .
 get
@@ -853,6 +852,7 @@ dm
 devices
 (
 )
+                
 if
 d
 [
@@ -863,6 +863,7 @@ d
 '
 offline
 '
+                
 if
 not
 d
@@ -968,6 +969,9 @@ device
 is
 on
 and
+"
+                              
+"
 remote
 debugging
 via
@@ -1369,7 +1373,6 @@ chmod
 busybox
 ;
 '
-\
                 
 '
 for
@@ -1651,6 +1654,7 @@ bin
 netcfg
 '
 ]
+                                    
 stdout
 =
 subprocess
@@ -2065,6 +2069,8 @@ orig
 backup_file
 )
 or
+\
+               
 self
 .
 dm

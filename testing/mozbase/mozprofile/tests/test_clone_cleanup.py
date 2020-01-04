@@ -160,7 +160,7 @@ profile
 Profile
 (
 path
-                          
+                               
 preferences
 =
 {
@@ -172,7 +172,7 @@ foo
 bar
 '
 }
-                          
+                               
 restore
 =
 False

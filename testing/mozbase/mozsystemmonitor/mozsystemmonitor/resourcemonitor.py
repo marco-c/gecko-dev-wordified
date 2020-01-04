@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+from
+contextlib
+import
+contextmanager
 import
 multiprocessing
 import
@@ -377,10 +381,6 @@ None
 have_psutil
 =
 False
-from
-contextlib
-import
-contextmanager
 def
 get_disk_io_counters
 (
@@ -712,7 +712,7 @@ for
 i
 v
 in
-                
+                             
 enumerate
 (
 values
@@ -770,7 +770,7 @@ last_time
 measured_end_time
 io_diff
 cpu_diff
-            
+                     
 cpu_percent
 list
 (
@@ -855,7 +855,7 @@ namedtuple
 '
 SystemResourceUsage
 '
-    
+                                 
 [
 '
 start
@@ -863,6 +863,7 @@ start
 '
 end
 '
+                                  
 '
 cpu_times
 '
@@ -1795,7 +1796,7 @@ Process
 (
 None
 _collect
-            
+                                                
 args
 =
 (
@@ -2196,7 +2197,7 @@ SystemResourceUsage
 (
 start_time
 end_time
-                
+                                                         
 cpu_times
 cpu_percent
 io
@@ -2948,7 +2949,7 @@ None
 phase
 =
 None
-        
+                              
 per_cpu
 =
 True
@@ -3197,7 +3198,7 @@ None
 phase
 =
 None
-        
+                            
 per_cpu
 =
 True

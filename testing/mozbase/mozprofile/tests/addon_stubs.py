@@ -323,8 +323,8 @@ file
 "
     
 if
-not
 addon_id
+not
 in
 stubs
 .

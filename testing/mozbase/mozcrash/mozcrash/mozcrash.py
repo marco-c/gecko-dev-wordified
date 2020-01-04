@@ -53,30 +53,6 @@ MPL
 0
 /
 .
-__all__
-=
-[
-    
-'
-check_for_crashes
-'
-    
-'
-check_for_java_exception
-'
-    
-'
-kill_and_get_minidump
-'
-    
-'
-log_crashes
-'
-    
-'
-cleanup_pending_crash_reports
-'
-]
 import
 glob
 import
@@ -107,6 +83,30 @@ import
 mozinfo
 import
 mozlog
+__all__
+=
+[
+    
+'
+check_for_crashes
+'
+    
+'
+check_for_java_exception
+'
+    
+'
+kill_and_get_minidump
+'
+    
+'
+log_crashes
+'
+    
+'
+cleanup_pending_crash_reports
+'
+]
 StackInfo
 =
 namedtuple
@@ -1420,6 +1420,7 @@ d
 !
 "
 %
+                                    
 (
 len
 (
@@ -1721,7 +1722,7 @@ self
 stackwalk_binary
 )
 and
-            
+                
 os
 .
 access
@@ -1916,6 +1917,8 @@ cpp
 +
 0x0
 ]
+#
+noqa
                 
 #
 0
@@ -1941,6 +1944,8 @@ JSObject
 *
 *
 )
+                
+#
 [
 Marking
 .
@@ -2473,6 +2478,8 @@ java
 :
 1833
 )
+#
+noqa
     
 logcat
 should
@@ -2578,6 +2585,8 @@ THREAD
 GeckoBackgroundThread
 "
 )
+#
+noqa
         
 #
 01
@@ -2639,6 +2648,8 @@ java
 :
 1833
 )
+#
+noqa
         
 #
 01
@@ -2673,6 +2684,8 @@ java
 :
 587
 )
+#
+noqa
         
 if
 "
@@ -2852,6 +2865,7 @@ s
 %
 (
 exception_type
+                                                                      
 exception_location
 )
             
@@ -2869,6 +2883,10 @@ in
 logcat
 at
 line
+"
+\
+                    
+"
 %
 d
 of
@@ -3054,7 +3072,7 @@ c_voidp
 *
 8
 and
-            
+                
 utility_path
 )
 :

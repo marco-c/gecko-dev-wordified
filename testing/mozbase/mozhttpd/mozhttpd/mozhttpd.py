@@ -479,7 +479,7 @@ method
 '
 :
 method
-                                      
+                                     
 '
 path
 '
@@ -489,7 +489,7 @@ self
 request
 .
 path
-                                      
+                                     
 '
 time
 '
@@ -1277,6 +1277,7 @@ os
 pardir
 )
 :
+                
 continue
             
 path
@@ -2115,8 +2116,6 @@ self
 httpd
 :
             
-#
-#
 #
 FIXME
 :

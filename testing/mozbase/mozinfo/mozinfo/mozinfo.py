@@ -1188,7 +1188,7 @@ int
 (
 bits
 )
-            
+             
 }
 )
 if
@@ -1635,6 +1635,8 @@ isLinux
 or
 isBsd
 :
+#
+noqa
         
 globals
 (
@@ -1904,7 +1906,6 @@ dumps
 info
 )
 )
-;
 update
 (
 {
@@ -1978,7 +1979,6 @@ output_to_file
 '
 StringVersion
 '
-    
 ]
 def
 main
@@ -2198,6 +2198,7 @@ True
 if
 flag
 :
+        
 return
     
 #

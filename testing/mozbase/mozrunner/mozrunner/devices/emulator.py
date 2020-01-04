@@ -1114,7 +1114,7 @@ d
 offline
 '
 if
-                    
+                
 d
 [
 0
@@ -1706,7 +1706,7 @@ qemu_args
 extend
 (
 [
-                     
+            
 '
 -
 kernel
@@ -1716,7 +1716,7 @@ self
 arch
 .
 kernel
-                     
+            
 '
 -
 sysdir
@@ -1726,7 +1726,7 @@ self
 arch
 .
 sysdir
-                     
+            
 '
 -
 data
@@ -1736,7 +1736,7 @@ self
 userdata
 .
 name
-                     
+            
 '
 -
 initdata
@@ -1744,7 +1744,7 @@ initdata
 self
 .
 initdata
-                     
+            
 '
 -
 wipe

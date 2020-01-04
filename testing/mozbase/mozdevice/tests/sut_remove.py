@@ -1,4 +1,5 @@
 #
+!
 /
 usr
 /
@@ -68,7 +69,7 @@ s
 )
 from
 "
-                                            
+                     
 "
 /
 storage
@@ -81,7 +82,7 @@ Moztest
 \
 n
 "
-                                            
+                     
 "
 <
 empty
@@ -89,12 +90,12 @@ empty
 \
 n
 "
-                                            
+                     
 "
 Deleting
 directory
 "
-                                            
+                     
 "
 /
 storage

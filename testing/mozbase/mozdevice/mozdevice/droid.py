@@ -872,6 +872,7 @@ intent
 url
 =
 url
+                               
 extras
 =
 extras
@@ -1167,6 +1168,7 @@ stop
 "
 appName
 ]
+                                  
 root
 =
 self
@@ -1331,6 +1333,7 @@ self
 .
 shellCheckOutput
 (
+                
 [
 "
 dumpsys
@@ -1424,6 +1427,8 @@ SUTAgentAndroid
 SUTAgentAndroid
 }
 }
+#
+noqa
         
 #
 or
@@ -1467,6 +1472,8 @@ dispatchingTimeout
 5000
 .
 000ms
+#
+noqa
         
 #
 Extract
@@ -1806,7 +1813,7 @@ sutuserinfo
 >
 0
 :
-               
+                
 userSerialString
 =
 infoDict
@@ -1818,7 +1825,7 @@ sutuserinfo
 [
 0
 ]
-               
+                
 #
 user
 serial
@@ -1827,6 +1834,8 @@ an
 integer
 see
 :
+                
+#
 http
 :
 /
@@ -1856,7 +1865,7 @@ os
 UserHandle
 %
 29
-               
+                
 m
 =
 re
@@ -1878,11 +1887,11 @@ Serial
 '
 userSerialString
 )
-               
+                
 if
 m
 :
-                   
+                    
 self
 .
 _userSerial
@@ -1893,10 +1902,10 @@ group
 (
 1
 )
-               
+                
 else
 :
-                   
+                    
 self
 .
 _userSerial
@@ -2030,6 +2039,7 @@ to
 show
 up
 using
+    
 mDNS
 with
 the

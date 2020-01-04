@@ -89,6 +89,7 @@ s
 rest
 API
 -
+#
 https
 :
 /
@@ -1471,6 +1472,8 @@ firefox
 api
 /
 '
+\
+                    
 +
 AMO_API_VERSION
 +
@@ -1486,6 +1489,19 @@ in
 addon
 :
                 
+#
+this
+query
+grabs
+information
+on
+the
+addon
+base
+on
+its
+id
+                
 query
 +
 =
@@ -1500,6 +1516,10 @@ addon
 amo_id
 '
 ]
+            
+else
+:
+                
 #
 this
 query
@@ -1507,14 +1527,12 @@ grabs
 information
 on
 the
+first
 addon
-base
-on
-its
-id
-            
-else
-:
+returned
+from
+a
+search
                 
 query
 +
@@ -1537,19 +1555,6 @@ default
 /
 1
 '
-#
-this
-query
-grabs
-information
-on
-the
-first
-addon
-returned
-from
-a
-search
             
 install_path
 =
@@ -1642,6 +1647,8 @@ org_
 27_Guide
 /
 The_generic_AMO_API
+#
+noqa
         
 "
 "
@@ -2203,10 +2210,13 @@ e
             
 raise
 AddonFormatError
+(
 str
 (
 e
 )
+)
+None
 sys
 .
 exc_info
@@ -2428,10 +2438,13 @@ e
             
 raise
 AddonFormatError
+(
 str
 (
 e
 )
+)
+None
 sys
 .
 exc_info

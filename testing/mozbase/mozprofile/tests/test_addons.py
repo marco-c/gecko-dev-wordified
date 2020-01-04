@@ -2270,13 +2270,13 @@ mozilla
 .
 org
 '
-                      
+                                     
 path
 =
 self
 .
 tmpdir
-                      
+                                     
 xpi
 =
 False
@@ -2303,7 +2303,7 @@ mozilla
 .
 org
 '
-                      
+                                     
 path
 =
 self

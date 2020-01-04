@@ -310,7 +310,7 @@ ClassType
 )
 )
 and
-                
+                    
 issubclass
 (
 obj
@@ -321,7 +321,7 @@ TestCase
 )
 and
 \
-                
+                    
 (
 not
 self

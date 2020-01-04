@@ -247,6 +247,7 @@ _
 \
 >
 '
+                             
 '
 '
 line
@@ -328,6 +329,7 @@ self
 .
 assertFalse
 (
+            
 filelist
 "
 Should

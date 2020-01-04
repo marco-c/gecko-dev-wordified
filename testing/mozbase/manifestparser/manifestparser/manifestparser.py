@@ -53,19 +53,6 @@ MPL
 0
 /
 .
-__all__
-=
-[
-'
-ManifestParser
-'
-'
-TestManifest
-'
-'
-convert
-'
-]
 from
 StringIO
 import
@@ -103,6 +90,19 @@ _exists
     
 filterlist
 )
+__all__
+=
+[
+'
+ManifestParser
+'
+'
+TestManifest
+'
+'
+convert
+'
+]
 relpath
 =
 os
@@ -115,8 +115,6 @@ string
 (
 basestring
 )
-#
-#
 #
 path
 normalization
@@ -216,8 +214,6 @@ sep
     
 return
 path
-#
-#
 #
 objects
 for
@@ -577,8 +573,6 @@ exists
 path
 )
     
-#
-#
 #
 methods
 for
@@ -2082,8 +2076,6 @@ defaults
 )
     
 #
-#
-#
 methods
 for
 querying
@@ -2308,11 +2300,14 @@ if
 inverse
 :
             
+def
 has_tags
-=
-lambda
+(
 test
+)
 :
+                
+return
 not
 tags
 .
@@ -2364,11 +2359,14 @@ True
 else
 :
             
+def
 has_tags
-=
-lambda
+(
 test
+)
 :
+                
+return
 tags
 .
 issubset
@@ -2614,8 +2612,6 @@ tests
 ]
     
 #
-#
-#
 methods
 for
 auditing
@@ -2797,7 +2793,7 @@ s
 "
 %
 \
-                                  
+                
 json
 .
 dumps
@@ -3030,8 +3026,6 @@ missing_from_filesystem
 missing_from_manifest
 )
     
-#
-#
 #
 methods
 for
@@ -4243,8 +4237,6 @@ destination
 )
     
 #
-#
-#
 directory
 importers
     
@@ -4313,11 +4305,14 @@ not
 patterns
 :
             
+def
 accept_filename
-=
-lambda
+(
 filename
+)
 :
+                
+return
 True
         
 else
@@ -4354,21 +4349,27 @@ not
 ignore
 :
             
+def
 accept_dirname
-=
-lambda
+(
 dirname
+)
 :
+                
+return
 True
         
 else
 :
             
+def
 accept_dirname
-=
-lambda
+(
 dirname
+)
 :
+                
+return
 dirname
 not
 in
@@ -4657,6 +4658,7 @@ ignore
 =
 (
 )
+                                     
 overwrite
 =
 False
@@ -4679,11 +4681,11 @@ in
 -
 place
 ;
+        
 returns
 cls
 instance
 populated
-        
 with
 the
 given
@@ -5286,7 +5288,7 @@ denormalize_path
 (
 filename
 )
-                                               
+                                       
 for
 filename
 in

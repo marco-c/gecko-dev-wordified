@@ -157,6 +157,18 @@ permissions
 "
 "
 "
+from
+string
+import
+Template
+import
+json
+import
+os
+import
+shutil
+import
+mozfile
 __all__
 =
 [
@@ -183,18 +195,6 @@ APP_STATUS_PRIVILEGED
 APP_STATUS_CERTIFIED
 "
 ]
-from
-string
-import
-Template
-import
-json
-import
-os
-import
-shutil
-import
-mozfile
 #
 from
 http
@@ -790,6 +790,7 @@ to
 json
 files
 describing
+          
 webapps
         
 :

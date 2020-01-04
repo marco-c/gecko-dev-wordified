@@ -53,33 +53,12 @@ MPL
 0
 /
 .
-__all__
-=
-[
-'
-Profile
-'
-           
-'
-FirefoxProfile
-'
-           
-'
-MetroFirefoxProfile
-'
-           
-'
-ThunderbirdProfile
-'
-]
 import
 os
 import
 time
 import
 tempfile
-import
-types
 import
 uuid
 from
@@ -104,6 +83,25 @@ from
 webapps
 import
 WebappCollection
+__all__
+=
+[
+'
+Profile
+'
+           
+'
+FirefoxProfile
+'
+           
+'
+MetroFirefoxProfile
+'
+           
+'
+ThunderbirdProfile
+'
+]
 class
 Profile
 (
@@ -898,8 +896,6 @@ cleanup
 )
     
 #
-#
-#
 cleanup
     
 def
@@ -1315,8 +1311,6 @@ self
 profile
 )
     
-#
-#
 #
 methods
 for
@@ -1876,6 +1870,7 @@ delimeters
 1
 ]
 e
+                                                                
 self
 .
 delimeters
@@ -1936,8 +1931,6 @@ cleaned_prefs
 return
 True
     
-#
-#
 #
 methods
 for
@@ -2125,9 +2118,6 @@ line_length
 =
 80
                 
-line_length_buffer
-=
-10
 #
 buffer
 for
@@ -2135,6 +2125,8 @@ for
 character
 display
 :
+                
+#
 length
 =
 80
@@ -2152,6 +2144,10 @@ len
 )
 -
 line_length_buffer
+                
+line_length_buffer
+=
+10
                 
 line_length_buffer
 +
@@ -2246,7 +2242,7 @@ append
 (
 (
 prefs_file
-                    
+                                  
 '
 \
 n
@@ -2262,6 +2258,7 @@ n
 .
 join
 (
+                                      
 [
 '
 %
@@ -2282,7 +2279,7 @@ key
 ]
 )
 )
-                                        
+                                       
 for
 key
 in
@@ -2294,7 +2291,6 @@ keys
 (
 )
 )
-                                        
 ]
 )
 )
@@ -2447,7 +2443,6 @@ find
 origins_end
 start
 )
-;
                             
 splitline
 =
@@ -2501,6 +2496,7 @@ end
 .
 replace
 (
+                                
 '
 '
 '
@@ -2670,7 +2666,7 @@ automatically
 update
 the
 application
-                   
+        
 '
 app
 .
@@ -2680,7 +2676,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2697,7 +2693,7 @@ the
 browser
 has
 crashed
-                   
+        
 '
 browser
 .
@@ -2707,7 +2703,7 @@ resume_from_crash
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2720,7 +2716,7 @@ web
 browser
 during
 startup
-                   
+        
 '
 browser
 .
@@ -2730,7 +2726,7 @@ checkDefaultBrowser
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2743,7 +2739,7 @@ multiple
 tabs
 are
 open
-                   
+        
 '
 browser
 .
@@ -2753,7 +2749,7 @@ warnOnClose
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2763,7 +2759,7 @@ when
 exiting
 the
 browser
-                   
+        
 '
 browser
 .
@@ -2771,7 +2767,7 @@ warnOnQuit
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2784,7 +2780,7 @@ to
 the
 production
 server
-                   
+        
 '
 datareporting
 .
@@ -2807,7 +2803,7 @@ s
 healthreport
 /
 '
-                   
+        
 #
 Only
 install
@@ -2821,7 +2817,7 @@ and
 the
 application
 scope
-                   
+        
 #
 Also
 ensure
@@ -2832,7 +2828,7 @@ not
 getting
 disabled
 .
-                   
+        
 #
 see
 :
@@ -2849,7 +2845,7 @@ org
 en
 /
 Installing_extensions
-                   
+        
 '
 extensions
 .
@@ -2857,7 +2853,7 @@ enabledScopes
 '
 :
 5
-                   
+        
 '
 extensions
 .
@@ -2865,7 +2861,7 @@ autoDisableScopes
 '
 :
 10
-                   
+        
 #
 Don
 '
@@ -2878,7 +2874,7 @@ installed
 addons
 to
 AMO
-                   
+        
 '
 extensions
 .
@@ -2890,7 +2886,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2904,7 +2900,7 @@ from
 the
 app
 folder
-                   
+        
 '
 extensions
 .
@@ -2912,7 +2908,7 @@ installDistroAddons
 '
 :
 False
-                   
+        
 #
 Dont
 '
@@ -2927,7 +2923,7 @@ during
 start
 -
 up
-                   
+        
 '
 extensions
 .
@@ -2935,7 +2931,7 @@ showMismatchUI
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2945,7 +2941,7 @@ update
 add
 -
 ons
-                   
+        
 '
 extensions
 .
@@ -2955,7 +2951,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -2970,7 +2966,7 @@ add
 -
 on
 updates
-                   
+        
 '
 extensions
 .
@@ -2980,7 +2976,7 @@ notifyUser
 '
 :
 False
-                   
+        
 #
 Enable
 test
@@ -2991,7 +2987,7 @@ multiple
 tests
 in
 parallel
-                   
+        
 '
 focusmanager
 .
@@ -2999,7 +2995,7 @@ testmode
 '
 :
 True
-                   
+        
 #
 Enable
 test
@@ -3014,7 +3010,7 @@ dialog
 for
 location
 sharing
-                   
+        
 '
 geo
 .
@@ -3024,7 +3020,7 @@ testing
 '
 :
 True
-                   
+        
 #
 Suppress
 delay
@@ -3034,7 +3030,7 @@ action
 in
 popup
 notifications
-                   
+        
 '
 security
 .
@@ -3042,7 +3038,7 @@ notification_enable_delay
 '
 :
 0
-                   
+        
 #
 Suppress
 automatic
@@ -3050,7 +3046,7 @@ safe
 mode
 after
 crashes
-                   
+        
 '
 toolkit
 .
@@ -3061,7 +3057,7 @@ max_resumed_crashes
 :
 -
 1
-                   
+        
 #
 Don
 '
@@ -3069,7 +3065,7 @@ t
 report
 telemetry
 information
-                   
+        
 '
 toolkit
 .
@@ -3079,7 +3075,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3094,7 +3090,7 @@ server
 .
 This
 is
-                   
+        
 #
 needed
 as
@@ -3108,7 +3104,7 @@ upload
 is
 enabled
 .
-                   
+        
 '
 toolkit
 .
@@ -3133,7 +3129,7 @@ telemetry
 dummy
 /
 '
-                   
+    
 }
 class
 MetroFirefoxProfile
@@ -3171,7 +3167,7 @@ desktop
 and
 metro
 build
-                   
+        
 '
 app
 .
@@ -3181,7 +3177,7 @@ enabled
 '
 :
 False
-                   
+        
 '
 app
 .
@@ -3193,14 +3189,14 @@ enabled
 '
 :
 False
-                   
+        
 #
 Dismiss
 first
 run
 content
 overlay
-                   
+        
 '
 browser
 .
@@ -3212,7 +3208,7 @@ dismissed
 '
 :
 True
-                   
+        
 #
 Don
 '
@@ -3229,7 +3225,7 @@ the
 browser
 has
 crashed
-                   
+        
 '
 browser
 .
@@ -3239,7 +3235,7 @@ resume_from_crash
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3252,7 +3248,7 @@ web
 browser
 during
 startup
-                   
+        
 '
 browser
 .
@@ -3262,7 +3258,7 @@ checkDefaultBrowser
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3275,7 +3271,7 @@ to
 the
 production
 server
-                   
+        
 '
 datareporting
 .
@@ -3298,11 +3294,11 @@ s
 healthreport
 /
 '
-                   
+        
 #
 Enable
 extensions
-                   
+        
 '
 extensions
 .
@@ -3312,7 +3308,7 @@ enabled
 '
 :
 True
-                   
+        
 #
 Only
 install
@@ -3326,7 +3322,7 @@ and
 the
 application
 scope
-                   
+        
 #
 Also
 ensure
@@ -3337,7 +3333,7 @@ not
 getting
 disabled
 .
-                   
+        
 #
 see
 :
@@ -3354,7 +3350,7 @@ org
 en
 /
 Installing_extensions
-                   
+        
 '
 extensions
 .
@@ -3362,7 +3358,7 @@ enabledScopes
 '
 :
 5
-                   
+        
 '
 extensions
 .
@@ -3370,7 +3366,7 @@ autoDisableScopes
 '
 :
 10
-                   
+        
 #
 Don
 '
@@ -3383,7 +3379,7 @@ installed
 addons
 to
 AMO
-                   
+        
 '
 extensions
 .
@@ -3395,7 +3391,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3409,7 +3405,7 @@ from
 the
 app
 folder
-                   
+        
 '
 extensions
 .
@@ -3417,7 +3413,7 @@ installDistroAddons
 '
 :
 False
-                   
+        
 #
 Dont
 '
@@ -3432,7 +3428,7 @@ during
 start
 -
 up
-                   
+        
 '
 extensions
 .
@@ -3440,7 +3436,7 @@ showMismatchUI
 '
 :
 False
-                   
+        
 #
 Disable
 strict
@@ -3454,7 +3450,7 @@ ons
 enabled
 by
 default
-                   
+        
 '
 extensions
 .
@@ -3462,7 +3458,7 @@ strictCompatibility
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3472,7 +3468,7 @@ update
 add
 -
 ons
-                   
+        
 '
 extensions
 .
@@ -3482,7 +3478,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3497,7 +3493,7 @@ add
 -
 on
 updates
-                   
+        
 '
 extensions
 .
@@ -3507,7 +3503,7 @@ notifyUser
 '
 :
 False
-                   
+        
 #
 Enable
 test
@@ -3518,7 +3514,7 @@ multiple
 tests
 in
 parallel
-                   
+        
 '
 focusmanager
 .
@@ -3526,7 +3522,7 @@ testmode
 '
 :
 True
-                   
+        
 #
 Suppress
 delay
@@ -3536,7 +3532,7 @@ action
 in
 popup
 notifications
-                   
+        
 '
 security
 .
@@ -3544,7 +3540,7 @@ notification_enable_delay
 '
 :
 0
-                   
+        
 #
 Suppress
 automatic
@@ -3552,7 +3548,7 @@ safe
 mode
 after
 crashes
-                   
+        
 '
 toolkit
 .
@@ -3563,7 +3559,7 @@ max_resumed_crashes
 :
 -
 1
-                   
+        
 #
 Don
 '
@@ -3571,7 +3567,7 @@ t
 report
 telemetry
 information
-                   
+        
 '
 toolkit
 .
@@ -3581,7 +3577,7 @@ enabled
 '
 :
 False
-                   
+        
 #
 Don
 '
@@ -3596,7 +3592,7 @@ server
 .
 This
 is
-                   
+        
 #
 needed
 as
@@ -3610,7 +3606,7 @@ upload
 is
 enabled
 .
-                   
+        
 '
 toolkit
 .
@@ -3635,7 +3631,7 @@ telemetry
 dummy
 /
 '
-                   
+    
 }
 class
 ThunderbirdProfile

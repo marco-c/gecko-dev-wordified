@@ -147,13 +147,13 @@ called
 self
 .
 resource_get_called
-                       
+                      
 '
 id
 '
 :
 objid
-                       
+                      
 '
 query
 '
@@ -196,7 +196,7 @@ called
 self
 .
 resource_post_called
-                       
+                      
 '
 data
 '
@@ -209,7 +209,7 @@ request
 .
 body
 )
-                       
+                      
 '
 query
 '
@@ -253,13 +253,13 @@ called
 self
 .
 resource_del_called
-                       
+                      
 '
 id
 '
 :
 objid
-                       
+                      
 '
 query
 '
@@ -568,13 +568,13 @@ called
 '
 :
 1
-                                             
+                                            
 '
 data
 '
 :
 postdata
-                                             
+                                            
 '
 query
 '
@@ -761,7 +761,7 @@ method
 '
 GET
 '
-                                                    
+                                                
 '
 path
 '
@@ -782,7 +782,7 @@ resource
 /
 ?
 '
-                                                    
+                                                
 '
 function
 '
@@ -791,7 +791,7 @@ self
 .
 resource_get
 }
-                                                  
+                                               
 {
 '
 method
@@ -800,7 +800,7 @@ method
 '
 POST
 '
-                                                    
+                                                
 '
 path
 '
@@ -813,7 +813,7 @@ resource
 /
 ?
 '
-                                                    
+                                                
 '
 function
 '
@@ -822,7 +822,7 @@ self
 .
 resource_post
 }
-                                                  
+                                               
 {
 '
 method
@@ -831,7 +831,7 @@ method
 '
 DEL
 '
-                                                    
+                                                
 '
 path
 '
@@ -852,7 +852,7 @@ resource
 /
 ?
 '
-                                                    
+                                                
 '
 function
 '
@@ -861,7 +861,7 @@ self
 .
 resource_del
 }
-                                                  
+                                               
 ]
 )
         
@@ -1352,7 +1352,7 @@ method
 '
 GET
 '
-                                                    
+                                                
 '
 path
 '
@@ -1373,7 +1373,7 @@ resource
 /
 ?
 '
-                                                    
+                                                
 '
 function
 '

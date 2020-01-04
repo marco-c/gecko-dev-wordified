@@ -60,16 +60,28 @@ absolute_import
 from
 ctypes
 import
+(
+    
 c_void_p
+    
 POINTER
+    
 sizeof
+    
 Structure
+    
 windll
+    
 WinError
+    
 WINFUNCTYPE
+    
 addressof
+    
 c_size_t
+    
 c_ulong
+)
 from
 ctypes
 .
@@ -523,37 +535,36 @@ JobObjectBasicAndIoAccountingInformation
 '
 :
 8
-                
+               
 '
 JobObjectExtendedLimitInformation
 '
 :
 9
-                
+               
 '
 JobObjectAssociateCompletionPortInformation
 '
 :
 7
-                
 }
     
 structures
 =
 {
-                   
+        
 7
 :
 JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-                   
+        
 8
 :
 JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
-                   
+        
 9
 :
 JOBOBJECT_EXTENDED_LIMIT_INFORMATION
-                   
+    
 }
     
 def
@@ -578,6 +589,8 @@ in
 self
 .
 mapping
+\
+                
 '
 Class
 should
@@ -615,6 +628,8 @@ in
 self
 .
 structures
+\
+            
 '
 Class
 should
@@ -684,7 +699,6 @@ cbJobObjectInfoLength
 LPDWORD
 #
 lpReturnLength
-    
 )
 QueryInformationJobObjectFlags
 =
@@ -725,7 +739,6 @@ lpReturnLength
 '
 None
 )
-    
 )
 _QueryInformationJobObject
 =
@@ -742,7 +755,6 @@ kernel32
 )
     
 QueryInformationJobObjectFlags
-    
 )
 class
 SubscriptableReadOnlyStruct
@@ -909,7 +921,7 @@ jobinfo
 .
 info
 )
-        
+    
 )
     
 if

@@ -1,4 +1,5 @@
 #
+!
 /
 usr
 /
@@ -45,6 +46,7 @@ sdcard
 /
 test
 '
+                    
 '
 Changing
 permissions
@@ -60,7 +62,7 @@ Test
 \
 n
 '
-                                              
+                    
 '
 <
 empty
@@ -68,7 +70,7 @@ empty
 \
 n
 '
-                                              
+                    
 '
 chmod
 /

@@ -324,6 +324,8 @@ absolute_import
 unicode_literals
 import
 sys
+import
+subprocess
 from
 ctypes
 import
@@ -1046,11 +1048,10 @@ GetLastErrorProto
 WINFUNCTYPE
 (
 DWORD
+)
 #
 Return
 Type
-                               
-)
 GetLastErrorFlags
 =
 (
@@ -1503,6 +1504,7 @@ DETACHED_PROCESS
 #
 GetQueuedCompletionPortStatus
 -
+#
 http
 :
 /
@@ -1554,7 +1556,6 @@ LPULONG
 Completion
 Key
                                              
-LPULONG
 #
 PID
 Returned
@@ -1566,6 +1567,8 @@ may
 be
 null
 )
+                                             
+LPULONG
                                              
 DWORD
 )
@@ -1674,12 +1677,11 @@ Completion
 Key
                                           
 DWORD
+)
 #
 Number
 of
 Threads
-                                         
-)
 CreateIoCompletionPortFlags
 =
 (
@@ -1731,7 +1733,7 @@ windll
 .
 kernel32
 )
-                                                      
+                                                     
 CreateIoCompletionPortFlags
 )
 CreateIoCompletionPort
@@ -1771,13 +1773,12 @@ Object
 Class
                                            
 DWORD
+)
 #
 Job
 Object
 Class
 Length
-                                          
-)
 SetInformationJobObjectProtoFlags
 =
 (
@@ -1826,7 +1827,7 @@ windll
 .
 kernel32
 )
-                                                        
+                                                       
 SetInformationJobObjectProtoFlags
 )
 SetInformationJobObject
@@ -2557,6 +2558,8 @@ limitflags
 JOB_OBJECT_LIMIT_BREAKAWAY_OK
 )
 or
+\
+            
 bool
 (
 limitflags
@@ -2569,8 +2572,6 @@ else
         
 return
 True
-#
-#
 #
 testing
 functions
@@ -2666,6 +2667,8 @@ command
     
 process
 =
+subprocess
+.
 Popen
 (
 command
@@ -2759,6 +2762,8 @@ can_create
     
 process
 =
+subprocess
+.
 Popen
 (
 '

@@ -1277,7 +1277,7 @@ status
 SKIP
 "
 or
-                
+                    
 "
 expected
 "
@@ -1813,6 +1813,7 @@ application
 version
 information
 provided
+          
 by
 mozversion
 .
@@ -2325,7 +2326,7 @@ status
 "
 ]
 or
-            
+                
 data
 [
 "
@@ -2638,7 +2639,7 @@ status
 "
 ]
 or
-             
+                
 data
 [
 "

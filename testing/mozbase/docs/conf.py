@@ -93,6 +93,7 @@ default
 .
 import
 sys
+import
 os
 #
 If
@@ -1518,6 +1519,7 @@ output
 latex_elements
 =
 {
+    
 #
 The
 paper
@@ -1532,6 +1534,7 @@ a4paper
 '
 )
 .
+    
 #
 '
 papersize
@@ -1540,6 +1543,7 @@ papersize
 '
 letterpaper
 '
+    
 #
 The
 font
@@ -1557,6 +1561,7 @@ or
 '
 )
 .
+    
 #
 '
 pointsize
@@ -1565,6 +1570,7 @@ pointsize
 '
 10pt
 '
+    
 #
 Additional
 stuff
@@ -1573,6 +1579,7 @@ the
 LaTeX
 preamble
 .
+    
 #
 '
 preamble
@@ -1613,7 +1620,7 @@ manual
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1628,7 +1635,7 @@ u
 MozBase
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -1954,7 +1961,7 @@ category
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -1967,7 +1974,7 @@ u
 MozBase
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -1987,7 +1994,7 @@ of
 project
 .
 '
-   
+     
 '
 Miscellaneous
 '

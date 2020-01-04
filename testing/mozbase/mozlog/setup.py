@@ -285,7 +285,7 @@ Libraries
 Python
 Modules
 '
-                  
+                   
 ]
       
 package_data
@@ -345,7 +345,7 @@ pytest11
 '
 :
 [
-            
+              
 '
 mozlog
 =
@@ -358,5 +358,5 @@ plugin
           
 ]
 }
-     
+      
 )

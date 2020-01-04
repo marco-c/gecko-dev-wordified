@@ -505,6 +505,9 @@ for
 the
 given
 formatter
+"
+              
+"
 (
 debug
 info
@@ -980,7 +983,7 @@ optname
 (
 cls
 help_str
-formatters
+formatters_
 action
 )
 in
@@ -994,7 +997,7 @@ iteritems
 for
 fmt
 in
-formatters
+formatters_
 :
             
 #
@@ -1376,6 +1379,7 @@ None
 formatter_defaults
 =
 None
+                  
 allow_unused_options
 =
 False

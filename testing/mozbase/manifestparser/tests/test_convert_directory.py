@@ -443,14 +443,8 @@ stub
 ]
 )
             
-self
-.
-assertEqual
-(
-str
-(
-manifest
-)
+out_tmpl
+=
 "
 "
 "
@@ -503,6 +497,18 @@ subsuite
 "
 "
 "
+#
+noqa
+            
+self
+.
+assertEqual
+(
+str
+(
+manifest
+)
+out_tmpl
 %
 dict
 (
@@ -784,6 +790,7 @@ ManifestParser
 .
 populate_directory_manifests
 (
+                
 [
 stub
 ]
@@ -1328,7 +1335,7 @@ listdir
 newtempdir
 )
 )
-                        
+                         
 [
 '
 1
@@ -1401,7 +1408,7 @@ listdir
 newtempdir
 )
 )
-                        
+                         
 [
 '
 0
@@ -1467,7 +1474,7 @@ read
 strip
 (
 )
-                        
+                         
 '
 secret
 door

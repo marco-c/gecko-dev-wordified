@@ -299,6 +299,7 @@ stdout
 subprocess
 .
 PIPE
+                                   
 stderr
 =
 subprocess
@@ -414,6 +415,9 @@ executable
 %
 s
 '
+"
+                             
+"
 does
 not
 exist
@@ -683,6 +687,9 @@ s
 encountered
 tearing
 down
+"
+                          
+"
 %
 s
 .
@@ -1170,7 +1177,7 @@ ProcessHandler
 self
 .
 proclaunch
-                                          
+                                           
 "
 process_waittimeout_10s
 .
@@ -1469,7 +1476,7 @@ ProcessHandler
 self
 .
 proclaunch
-                                          
+                                           
 "
 process_waittimeout_10s
 .
@@ -1543,7 +1550,7 @@ ProcessHandler
 self
 .
 proclaunch
-                                          
+                                           
 "
 process_waittimeout_10s
 .
@@ -1676,7 +1683,7 @@ ProcessHandler
 self
 .
 proclaunch
-                                          
+                                           
 "
 process_waittimeout_10s
 .

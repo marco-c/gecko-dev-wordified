@@ -531,7 +531,7 @@ join
 self
 .
 tempRemoteDir
-                
+                                           
 os
 .
 path
@@ -1620,7 +1620,7 @@ pwd
 "
 ]
 out
-                
+                      
 env
 =
 {
@@ -1809,7 +1809,7 @@ devices
 (
 )
 :
-       
+        
 print
 "
 There
@@ -1819,7 +1819,7 @@ connected
 adb
 devices
 "
-       
+        
 sys
 .
 exit
@@ -1867,7 +1867,7 @@ the
 command
 "
 \
-        
+            
 "
 '
 adb
@@ -1888,7 +1888,7 @@ the
 device
 "
 \
-        
+            
 "
 and
 try

@@ -791,8 +791,6 @@ Exception
 )
     
 #
-#
-#
 utility
 functions
     

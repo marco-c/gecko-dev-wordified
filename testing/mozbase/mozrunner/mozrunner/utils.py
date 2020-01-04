@@ -72,6 +72,12 @@ mozrunner
 "
 "
 "
+import
+mozinfo
+import
+os
+import
+sys
 __all__
 =
 [
@@ -81,22 +87,7 @@ findInPath
 '
 get_metadata_from_egg
 '
-'
-uses_marionette
-'
 ]
-from
-functools
-import
-wraps
-import
-mozinfo
-import
-os
-import
-sys
-#
-#
 #
 python
 package
@@ -160,6 +151,11 @@ INFO
 key
 =
 None
+            
+value
+=
+"
+"
             
 for
 line
@@ -1959,10 +1955,6 @@ debug
 return
 None
     
-stack_fixer_function
-=
-None
-    
 def
 import_stack_fixer_module
 (
@@ -2034,6 +2026,8 @@ py
 (
 uses
 breakpad
+        
+#
 symbol
 files
 )
@@ -2068,16 +2062,18 @@ fix_stack_using_bpsyms
 '
 )
         
+def
 stack_fixer_function
-=
-lambda
+(
 line
+)
 :
+            
+return
 stack_fixer_module
 .
 fixSymbols
 (
-            
 line
 symbolsPath
 )
@@ -2136,16 +2132,18 @@ fix_macosx_stack
 '
 )
         
+def
 stack_fixer_function
-=
-lambda
+(
 line
+)
 :
+            
+return
 stack_fixer_module
 .
 fixSymbols
 (
-            
 line
 )
     
@@ -2203,18 +2201,26 @@ fix_linux_stack
 '
 )
         
+def
 stack_fixer_function
-=
-lambda
+(
 line
+)
 :
+            
+return
 stack_fixer_module
 .
 fixSymbols
 (
-            
 line
 )
+    
+else
+:
+        
+return
+None
     
 return
 stack_fixer_function

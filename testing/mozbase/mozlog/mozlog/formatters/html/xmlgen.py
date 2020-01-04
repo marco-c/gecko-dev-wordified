@@ -233,6 +233,7 @@ eu
 "
 import
 sys
+import
 re
 if
 sys
@@ -1855,7 +1856,7 @@ x
 for
 x
 in
-                
+                   
 (
 '
 br
@@ -1895,7 +1896,7 @@ x
 for
 x
 in
-                
+                   
 (
 '
 a
@@ -1912,7 +1913,7 @@ dfn
 em
 font
 '
-                 
+                    
 '
 i
 img
@@ -1927,7 +1928,7 @@ small
 span
 strike
 '
-                 
+                    
 '
 strong
 sub
@@ -2116,7 +2117,7 @@ apos
 ;
 '
 )
-            
+        
 }
         
 self
