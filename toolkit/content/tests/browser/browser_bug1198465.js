@@ -618,7 +618,8 @@ ab
 "
 )
 ;
-gBrowser
+yield
+BrowserTestUtils
 .
 removeTab
 (
