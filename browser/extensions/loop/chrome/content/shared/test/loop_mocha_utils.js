@@ -1677,7 +1677,11 @@ args
 =
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )
@@ -1732,7 +1736,11 @@ args
 =
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )

@@ -819,6 +819,13 @@ context
 -
 tile
 "
+NOTIFICATION
+:
+"
+chat
+-
+notification
+"
 }
 ;
 var
@@ -831,6 +838,13 @@ POSITION
 cursor
 -
 position
+"
+CLICK
+:
+"
+cursor
+-
+click
 "
 }
 ;
