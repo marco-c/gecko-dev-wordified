@@ -1122,13 +1122,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIGfxInfo
 .
 h
@@ -10369,7 +10362,7 @@ mMinSize
 width
 !
 =
-NS_UNCONSTRAINEDSIZE
+NS_MAXSIZE
 )
 {
 c
@@ -10399,7 +10392,7 @@ mMinSize
 height
 !
 =
-NS_UNCONSTRAINEDSIZE
+NS_MAXSIZE
 )
 {
 c
@@ -10429,7 +10422,7 @@ mMaxSize
 width
 !
 =
-NS_UNCONSTRAINEDSIZE
+NS_MAXSIZE
 )
 {
 c
@@ -10459,7 +10452,7 @@ mMaxSize
 height
 !
 =
-NS_UNCONSTRAINEDSIZE
+NS_MAXSIZE
 )
 {
 c
