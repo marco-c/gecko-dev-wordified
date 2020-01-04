@@ -58563,13 +58563,16 @@ layerToParentLayerScale
 ;
 metadata
 .
-SetClipRect
+SetScrollClip
 (
 Some
+(
+LayerClip
 (
 RoundedToInt
 (
 rect
+)
 )
 )
 )
