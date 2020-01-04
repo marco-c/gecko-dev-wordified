@@ -124,7 +124,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -1896,7 +1898,7 @@ inUCS4
 rv
 =
 (
-PR_snprintf
+snprintf
 (
 outString
 bufferLength
@@ -1922,7 +1924,7 @@ else
 rv
 =
 (
-PR_snprintf
+snprintf
 (
 outString
 bufferLength
@@ -1952,7 +1954,7 @@ attr_FallbackDecimalNCR
 rv
 =
 (
-PR_snprintf
+snprintf
 (
 outString
 bufferLength
@@ -1981,7 +1983,7 @@ attr_FallbackHexNCR
 rv
 =
 (
-PR_snprintf
+snprintf
 (
 outString
 bufferLength
