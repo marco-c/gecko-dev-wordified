@@ -916,7 +916,9 @@ remotetabs
 setupsync
 "
 "
-syncbutton
+synced
+-
+tabs
 "
 )
 )
@@ -1063,7 +1065,9 @@ remotetabs
 reauthsync
 "
 "
-syncbutton
+synced
+-
+tabs
 "
 )
 }
