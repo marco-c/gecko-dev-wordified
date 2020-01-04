@@ -1565,9 +1565,8 @@ aFilename
 }
 aFilename
 .
-Assign
+Truncate
 (
-mFilename
 )
 ;
 return

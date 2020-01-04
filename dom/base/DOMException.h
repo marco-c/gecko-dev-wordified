@@ -758,9 +758,6 @@ nsISupports
 >
 mData
 ;
-nsString
-mFilename
-;
 int
 mLineNumber
 ;
