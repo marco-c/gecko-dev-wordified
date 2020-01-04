@@ -1630,15 +1630,6 @@ mLock
 however
 .
 )
-size_t
-amount
-=
-SizeOfIncludingThis
-(
-UrlClassifierMallocSizeOf
-)
-;
-return
 aHandleReport
 -
 >
@@ -1650,7 +1641,10 @@ EmptyCString
 mMemoryReportPath
 KIND_HEAP
 UNITS_BYTES
-amount
+SizeOfIncludingThis
+(
+UrlClassifierMallocSizeOf
+)
 NS_LITERAL_CSTRING
 (
 "
@@ -1669,6 +1663,9 @@ classifier
 )
 aData
 )
+;
+return
+NS_OK
 ;
 }
 size_t

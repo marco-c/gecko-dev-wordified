@@ -188,7 +188,7 @@ JSReporter
 public
 :
 static
-nsresult
+void
 CollectReports
 (
 WindowPaths
@@ -199,10 +199,10 @@ WindowPaths
 topWindowPaths
 nsIMemoryReporterCallback
 *
-cb
+handleReport
 nsISupports
 *
-closure
+data
 bool
 anonymize
 )

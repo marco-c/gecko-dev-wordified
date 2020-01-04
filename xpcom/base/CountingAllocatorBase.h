@@ -236,7 +236,6 @@ override
 {
 /
 /
-return
 MOZ_COLLECT_REPORT
 (
 /
@@ -269,6 +268,15 @@ are
 reporting
 .
 "
+)
+;
+/
+/
+/
+/
+return
+NS_OK
+;
 /
 /
 }

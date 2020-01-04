@@ -2774,7 +2774,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -2804,6 +2803,9 @@ engine
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

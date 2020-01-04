@@ -5940,7 +5940,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -5968,5 +5967,8 @@ service
 .
 "
 )
+;
+return
+NS_OK
 ;
 }

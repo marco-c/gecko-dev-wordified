@@ -4675,7 +4675,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -4699,6 +4698,9 @@ system
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 void

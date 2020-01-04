@@ -186,7 +186,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -216,6 +215,9 @@ processors
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 RuleProcessorCache

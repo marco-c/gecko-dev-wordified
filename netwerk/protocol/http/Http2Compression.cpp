@@ -244,7 +244,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -277,6 +276,9 @@ table
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 private
@@ -338,15 +340,9 @@ override
 {
 if
 (
-!
 mCompressor
 )
 {
-return
-NS_OK
-;
-}
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -380,6 +376,10 @@ tables
 .
 "
 )
+;
+}
+return
+NS_OK
 ;
 }
 private

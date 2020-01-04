@@ -1217,7 +1217,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -1347,6 +1346,9 @@ ons
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 }
