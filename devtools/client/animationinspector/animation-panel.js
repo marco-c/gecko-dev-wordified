@@ -1643,8 +1643,6 @@ function
 {
 let
 {
-isMoving
-isPaused
 time
 }
 =
@@ -1652,14 +1650,6 @@ this
 .
 timelineData
 ;
-if
-(
-isMoving
-|
-|
-isPaused
-)
-{
 this
 .
 timelineCurrentTimeEl
@@ -1671,7 +1661,6 @@ formatStopwatchTime
 time
 )
 ;
-}
 }
 /
 *
