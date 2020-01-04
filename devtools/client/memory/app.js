@@ -256,7 +256,6 @@ const
 {
 selectSnapshotAndRefresh
 takeSnapshotAndCensus
-clearSnapshots
 fetchImmediatelyDominated
 expandCensusNode
 collapseCensusNode
@@ -584,19 +583,6 @@ onImportClick
 dispatch
 (
 pickFileAndImportSnapshotAndCensus
-(
-heapWorker
-)
-)
-onClearSnapshotsClick
-:
-(
-)
-=
->
-dispatch
-(
-clearSnapshots
 (
 heapWorker
 )
