@@ -3710,9 +3710,7 @@ HashMap
 <
 ScriptSource
 *
-const
-char16_t
-*
+UniqueTwoByteChars
 DefaultHasher
 <
 ScriptSource
@@ -3754,9 +3752,7 @@ ScriptSource
 *
 source_
 ;
-const
-char16_t
-*
+UniqueTwoByteChars
 charsToFree_
 ;
 public
@@ -3787,9 +3783,7 @@ source
 void
 deferDelete
 (
-const
-char16_t
-*
+UniqueTwoByteChars
 chars
 )
 ;
@@ -3812,8 +3806,10 @@ UncompressedSourceCache
 ;
 private
 :
+UniquePtr
+<
 Map
-*
+>
 map_
 ;
 AutoHoldEntry
@@ -3826,10 +3822,6 @@ UncompressedSourceCache
 (
 )
 :
-map_
-(
-nullptr
-)
 holder_
 (
 nullptr
@@ -3855,9 +3847,7 @@ put
 ScriptSource
 *
 ss
-const
-char16_t
-*
+UniqueTwoByteChars
 chars
 AutoHoldEntry
 &
