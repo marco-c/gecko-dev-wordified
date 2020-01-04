@@ -375,10 +375,6 @@ aRequest
 aResponse
 )
 {
-asyncResponse
-=
-aResponse
-;
 aResponse
 .
 processAsync

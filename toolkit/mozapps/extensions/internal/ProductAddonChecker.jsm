@@ -143,6 +143,13 @@ jsm
 "
 )
 ;
+/
+*
+globals
+checkCert
+BadCertHandler
+*
+/
 Cu
 .
 import
@@ -200,6 +207,12 @@ jsm
 "
 )
 ;
+/
+*
+globals
+OS
+*
+/
 var
 logger
 =

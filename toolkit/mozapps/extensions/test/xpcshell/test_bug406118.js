@@ -809,6 +809,7 @@ addons
 {
 for
 (
+let
 addon
 of
 addons

@@ -56,6 +56,12 @@ MPL
 .
 *
 /
+/
+*
+globals
+addMessageListener
+*
+/
 "
 use
 strict
