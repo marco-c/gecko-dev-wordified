@@ -1066,6 +1066,16 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+static
+void
+ReportToConsole
+(
+const
+nsAString
+&
+aMessage
+)
+;
 protected
 :
 virtual
