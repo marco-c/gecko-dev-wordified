@@ -25442,7 +25442,9 @@ printf
 "
 #
 %
-d
+"
+PRIuSIZE
+"
 %
 14p
 %
@@ -25482,7 +25484,9 @@ printf
 %
 p
 %
-d
+"
+PRIuSIZE
+"
 )
 \
 n

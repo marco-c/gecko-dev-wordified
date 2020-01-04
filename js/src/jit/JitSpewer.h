@@ -1000,6 +1000,11 @@ fmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 void
 JitSpewStart
@@ -1014,6 +1019,11 @@ fmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+2
+3
+)
 ;
 void
 JitSpewCont
@@ -1027,6 +1037,11 @@ fmt
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+2
+3
 )
 ;
 void

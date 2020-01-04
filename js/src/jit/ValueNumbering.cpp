@@ -7910,7 +7910,9 @@ tree
 (
 with
 %
-llu
+"
+PRIu64
+"
 blocks
 )
 rooted
@@ -9748,7 +9750,9 @@ graph
 (
 with
 %
-llu
+"
+PRIu64
+"
 blocks
 )
 "
@@ -10189,7 +10193,9 @@ d
 now
 with
 %
-llu
+"
+PRIu64
+"
 blocks
 )
 "

@@ -129,6 +129,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineIC
@@ -579,7 +588,9 @@ script
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 (
 %
 p
@@ -614,8 +625,8 @@ script
 s
 :
 %
-d
 "
+PRIuSIZE
 script
 -
 >
@@ -1428,8 +1439,8 @@ for
 s
 :
 %
-d
 "
+PRIuSIZE
 (
 void
 *
@@ -1901,7 +1912,9 @@ script
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 (
 %
 p
