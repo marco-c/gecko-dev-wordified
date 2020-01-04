@@ -5763,6 +5763,15 @@ test_name
 self
 .
 test_name
+or
+os
+.
+path
+.
+basename
+(
+__file__
+)
 )
 :
                 
