@@ -229,6 +229,13 @@ NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 HTMLDetailsElement
 details
 )
+nsIContent
+*
+GetFirstSummary
+(
+)
+const
+;
 nsresult
 Clone
 (

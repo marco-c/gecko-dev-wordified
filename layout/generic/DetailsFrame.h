@@ -224,6 +224,17 @@ aResult
 }
 #
 endif
+void
+SetInitialChildList
+(
+ChildListID
+aListID
+nsFrameList
+&
+aChildList
+)
+override
+;
 }
 ;
 #
