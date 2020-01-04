@@ -1340,8 +1340,6 @@ prototype
 [
 toStringTag
 ]
-/
-/
 testDefault
 (
 Promise
@@ -1352,14 +1350,6 @@ Promise
 "
 )
 ;
-/
-/
-Promise
-is
-not
-yet
-implemented
-.
 reportCompare
 (
 true
