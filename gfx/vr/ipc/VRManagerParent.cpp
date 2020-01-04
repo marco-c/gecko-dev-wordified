@@ -456,10 +456,10 @@ mozilla
 layers
 :
 :
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
-CompositorLoop
+Loop
 (
 )
 ;
@@ -558,10 +558,10 @@ mozilla
 layers
 :
 :
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
-CompositorLoop
+Loop
 (
 )
 ;

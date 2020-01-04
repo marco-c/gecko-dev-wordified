@@ -117,7 +117,7 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
