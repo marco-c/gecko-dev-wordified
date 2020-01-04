@@ -300,6 +300,15 @@ h
 #
 include
 "
+jit
+/
+JitCompartment
+.
+h
+"
+#
+include
+"
 js
 /
 MemoryMetrics
