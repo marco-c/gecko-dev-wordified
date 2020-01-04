@@ -177,12 +177,13 @@ sleep
             
 #
 Check
+for
 the
-link
-in
-cert_domain_link
+correct
+error
+code
             
-link
+error
 =
 self
 .
@@ -194,7 +195,7 @@ By
 .
 ID
 '
-cert_domain_link
+errorCode
 '
 )
             
@@ -202,7 +203,7 @@ self
 .
 assertEquals
 (
-link
+error
 .
 get_attribute
 (
@@ -212,15 +213,7 @@ textContent
 )
                               
 '
-ssl
--
-selfsigned
--
-unknownissuer
-.
-mozqa
-.
-com
+SEC_ERROR_UNKNOWN_ISSUER
 '
 )
             
@@ -272,47 +265,6 @@ By
 ID
 '
 advancedButton
-'
-)
-)
-            
-#
-Verify
-the
-error
-code
-is
-correct
-            
-text
-=
-self
-.
-marionette
-.
-find_element
-(
-By
-.
-ID
-'
-technicalContentText
-'
-)
-            
-self
-.
-assertIn
-(
-'
-SEC_ERROR_UNKNOWN_ISSUER
-'
-text
-.
-get_attribute
-(
-'
-textContent
 '
 )
 )
