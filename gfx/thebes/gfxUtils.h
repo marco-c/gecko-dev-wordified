@@ -2239,15 +2239,6 @@ nscolor
 aColor
 )
 ;
-Color
-ToDeviceColor
-(
-const
-gfxRGBA
-&
-aColor
-)
-;
 /
 *
 These
