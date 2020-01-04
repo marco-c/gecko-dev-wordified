@@ -472,6 +472,15 @@ sFFmpegDecoderEnabled
 ;
 #
 endif
+#
+ifdef
+XP_WIN
+static
+bool
+sWMFDecoderEnabled
+;
+#
+endif
 static
 bool
 sEnableFuzzingWrapper
