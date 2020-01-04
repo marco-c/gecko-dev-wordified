@@ -2356,7 +2356,7 @@ values
 eStyleAnimType_PaintServer
 /
 /
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >
@@ -5503,6 +5503,13 @@ static
 const
 KTableValue
 kTouchActionKTable
+[
+]
+;
+static
+const
+KTableValue
+kTopLayerKTable
 [
 ]
 ;

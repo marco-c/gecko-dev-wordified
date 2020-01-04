@@ -6554,7 +6554,7 @@ composite
 stripe
 )
 colors
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >
@@ -7702,7 +7702,7 @@ mListStyleType
 [
 inherited
 ]
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -7716,7 +7716,7 @@ mCounterStyle
 [
 inherited
 ]
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -8926,7 +8926,7 @@ for
 '
 none
 '
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10820,7 +10820,7 @@ inherited
 coord
 percent
 calc
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >
@@ -13442,7 +13442,7 @@ mBinding
 >
 mOriginPrincipal
 .
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13736,6 +13736,18 @@ nsStyleConsts
 .
 h
 uint8_t
+mTopLayer
+;
+/
+/
+[
+reset
+]
+see
+nsStyleConsts
+.
+h
+uint8_t
 mWillChangeBitField
 ;
 /
@@ -13952,7 +13964,7 @@ see
 nsStyleConsts
 .
 h
-RefPtr
+nsRefPtr
 <
 nsCSSValueSharedList
 >
