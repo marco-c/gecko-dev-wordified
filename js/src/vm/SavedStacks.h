@@ -1938,6 +1938,10 @@ SavedStacks
 frames
 (
 )
+bernoulliSeeded
+(
+false
+)
 bernoulli
 (
 1
@@ -2122,6 +2126,9 @@ SavedFrame
 :
 Set
 frames
+;
+bool
+bernoulliSeeded
 ;
 mozilla
 :
