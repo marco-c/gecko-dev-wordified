@@ -328,7 +328,7 @@ this
 compositor
 .
 virtual
-already_AddRefed
+RefPtr
 <
 IAPZCTreeManager
 >
