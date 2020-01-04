@@ -2739,12 +2739,6 @@ manifest_path
 =
 None
         
-utility_path
-=
-self
-.
-bindir
-        
 if
 conditions
 .
@@ -2790,8 +2784,6 @@ run_desktop_test
 tests
 symbols_path
 manifest_path
-                                     
-utility_path
 log
 )
     
@@ -2802,8 +2794,6 @@ self
 tests
 symbols_path
 manifest_path
-utility_path
-                         
 log
 )
 :
@@ -2853,12 +2843,6 @@ options
 manifest_path
 =
 manifest_path
-        
-options
-.
-utility_path
-=
-utility_path
         
 options
 .
