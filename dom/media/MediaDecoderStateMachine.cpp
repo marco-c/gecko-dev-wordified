@@ -3373,9 +3373,6 @@ StopPlayback
 )
 ;
 }
-mMaster
--
->
 mBufferingStart
 =
 TimeStamp
@@ -3483,9 +3480,6 @@ Now
 MOZ_ASSERT
 (
 !
-mMaster
--
->
 mBufferingStart
 .
 IsNull
@@ -3562,9 +3556,6 @@ elapsed
 =
 now
 -
-mMaster
--
->
 mBufferingStart
 ;
 bool
@@ -3880,9 +3871,6 @@ for
 (
 now
 -
-mMaster
--
->
 mBufferingStart
 )
 .
@@ -3908,6 +3896,11 @@ return
 DECODER_STATE_BUFFERING
 ;
 }
+private
+:
+TimeStamp
+mBufferingStart
+;
 }
 ;
 class
