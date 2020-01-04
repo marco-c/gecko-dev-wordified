@@ -2481,6 +2481,11 @@ final
 public
 RInstruction
 {
+private
+:
+bool
+isFlatReplacement_
+;
 public
 :
 RINSTRUCTION_HEADER_
