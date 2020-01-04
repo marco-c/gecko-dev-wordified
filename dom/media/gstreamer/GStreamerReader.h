@@ -591,8 +591,9 @@ autoplug
 sort
 signal
 to
-blacklist
+block
 *
+list
 the
 elements
 it
@@ -1304,7 +1305,8 @@ our
 container
 /
 codec
-blacklist
+block
+list
 .
 *
 /

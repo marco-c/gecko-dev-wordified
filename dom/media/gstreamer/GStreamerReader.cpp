@@ -1578,7 +1578,7 @@ if
 GStreamerFormatHelper
 :
 :
-IsPluginFeatureBlacklisted
+IsPluginFeatureBlocked
 (
 factory
 )
@@ -7204,7 +7204,8 @@ to
 apply
 our
 *
-blacklist
+block
+list
 .
 *
 /
@@ -7458,7 +7459,8 @@ stream
 We
 apply
 the
-blacklist
+block
+list
 *
 here
 disallowing

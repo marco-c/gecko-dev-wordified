@@ -252,13 +252,13 @@ aCaps
 ;
 static
 bool
-IsBlacklistEnabled
+IsBlockListEnabled
 (
 )
 ;
 static
 bool
-IsPluginFeatureBlacklisted
+IsPluginFeatureBlocked
 (
 GstPluginFeature
 *
