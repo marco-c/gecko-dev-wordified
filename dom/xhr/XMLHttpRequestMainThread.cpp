@@ -6933,7 +6933,8 @@ mLengthComputable
 aTotal
 !
 =
-0
+-
+1
 ;
 /
 /
