@@ -4560,15 +4560,3 @@ introURL
 "
 )
 ;
-user_pref
-(
-"
-dom
-.
-html_fragment_serialisation
-.
-appendLF
-"
-true
-)
-;
