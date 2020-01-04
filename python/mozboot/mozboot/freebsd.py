@@ -144,6 +144,10 @@ pkgconf
 '
             
 '
+watchman
+'
+            
+'
 zip
 '
         
