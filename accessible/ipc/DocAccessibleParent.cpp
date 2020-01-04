@@ -712,6 +712,11 @@ ID
 aParent
 this
 role
+newChild
+.
+Interfaces
+(
+)
 )
 ;
 aParent
