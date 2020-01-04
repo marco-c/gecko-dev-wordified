@@ -650,7 +650,7 @@ defined
 within
 inspector
 .
-html
+xhtml
 )
 as
 the
@@ -757,7 +757,7 @@ defined
 within
 inspector
 .
-html
+xhtml
 )
 as
 the
