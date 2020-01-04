@@ -3279,6 +3279,17 @@ Ci
 nsIURIFixupInfo
 )
 ;
+if
+(
+!
+fixupInfo
+.
+consumer
+)
+{
+return
+;
+}
 /
 /
 Ignore
