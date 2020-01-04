@@ -669,6 +669,10 @@ mInnerIDNumber
 (
 0
 )
+mStatus
+(
+eUnused
+)
 #
 ifdef
 DEBUG
