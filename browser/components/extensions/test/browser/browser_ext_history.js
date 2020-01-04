@@ -648,6 +648,10 @@ visits
 .
 visitDate
 )
+.
+valueOf
+(
+)
 endTime
 :
 PlacesUtils
@@ -660,6 +664,10 @@ visits
 ]
 .
 visitDate
+)
+.
+valueOf
+(
 )
 }
 ;
@@ -804,6 +812,10 @@ visits
 .
 visitDate
 )
+.
+valueOf
+(
+)
 ;
 filter
 .
@@ -819,6 +831,10 @@ visits
 ]
 .
 visitDate
+)
+.
+valueOf
+(
 )
 ;
 extension
