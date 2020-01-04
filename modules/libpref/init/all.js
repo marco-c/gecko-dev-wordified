@@ -4959,6 +4959,8 @@ MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
 MediaCannotInitializePulseAudio
 MediaUnsupportedLibavcodec
+MediaCannotPlayNoDecoders
+MediaNoDecoders
 "
 )
 ;
