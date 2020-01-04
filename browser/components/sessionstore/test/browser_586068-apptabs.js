@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 const
 PREF_RESTORE_ON_DEMAND
 =
