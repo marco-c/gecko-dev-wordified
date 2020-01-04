@@ -201,7 +201,7 @@ include
 "
 asmjs
 /
-Wasm
+WasmTypes
 .
 h
 "
@@ -464,7 +464,7 @@ protected
 zone
 described
 in
-Wasm
+WasmTypes
 .
 h
 .
