@@ -195,6 +195,9 @@ namespace
 mozilla
 {
 class
+MediaResult
+;
+class
 MediaSourceTrackDemuxer
 ;
 class
@@ -697,9 +700,9 @@ MediaRawData
 >
 GetSample
 (
-DemuxerFailureReason
+MediaResult
 &
-aFailure
+aError
 )
 ;
 /

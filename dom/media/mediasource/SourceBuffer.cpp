@@ -2713,7 +2713,7 @@ Code
 )
 {
 case
-NS_ERROR_ABORT
+NS_ERROR_DOM_MEDIA_CANCELED
 :
 /
 /
