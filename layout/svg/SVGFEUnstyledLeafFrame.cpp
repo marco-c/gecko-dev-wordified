@@ -139,15 +139,11 @@ nsSVGFilters
 .
 h
 "
-typedef
-nsFrame
-SVGFEUnstyledLeafFrameBase
-;
 class
 SVGFEUnstyledLeafFrame
 :
 public
-SVGFEUnstyledLeafFrameBase
+nsFrame
 {
 friend
 nsIFrame
@@ -172,7 +168,7 @@ nsStyleContext
 aContext
 )
 :
-SVGFEUnstyledLeafFrameBase
+nsFrame
 (
 aContext
 )
@@ -218,7 +214,7 @@ const
 override
 {
 return
-SVGFEUnstyledLeafFrameBase
+nsFrame
 :
 :
 IsFrameOfType
@@ -470,7 +466,7 @@ GetParent
 ;
 }
 return
-SVGFEUnstyledLeafFrameBase
+nsFrame
 :
 :
 AttributeChanged
