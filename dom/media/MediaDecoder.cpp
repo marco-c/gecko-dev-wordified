@@ -6946,13 +6946,13 @@ NS_IsMainThread
 )
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 IsShutdown
 (
 )
 )
-return
 ;
 if
 (
