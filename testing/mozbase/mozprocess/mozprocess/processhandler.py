@@ -862,6 +862,61 @@ args
 raise
         
 def
+debug
+(
+self
+msg
+)
+:
+            
+if
+not
+MOZPROCESS_DEBUG
+:
+                
+return
+            
+thread
+=
+threading
+.
+current_thread
+(
+)
+.
+name
+            
+print
+(
+"
+DBG
+:
+:
+MOZPROC
+PID
+:
+{
+}
+(
+{
+}
+)
+|
+{
+}
+"
+.
+format
+(
+self
+.
+pid
+thread
+msg
+)
+)
+        
+def
 __del__
 (
 self
@@ -984,6 +1039,16 @@ self
 _job
 :
                     
+self
+.
+debug
+(
+"
+calling
+TerminateJobObject
+"
+)
+                    
 winprocess
 .
 TerminateJobObject
@@ -1015,9 +1080,15 @@ self
 _handle
 :
                     
-err
-=
-None
+self
+.
+debug
+(
+"
+calling
+TerminateProcess
+"
+)
                     
 try
 :
@@ -1037,15 +1108,26 @@ ERROR_CONTROL_C_EXIT
 except
 :
                         
-err
-=
+traceback
+.
+print_exc
+(
+)
+                        
+raise
+OSError
+(
 "
 Could
 not
 terminate
 process
 "
+)
                     
+finally
+:
+                        
 winprocess
 .
 GetExitCodeProcess
@@ -1054,24 +1136,11 @@ self
 .
 _handle
 )
-                    
+                        
 self
 .
 _cleanup
 (
-)
-                    
-if
-err
-is
-not
-None
-:
-                        
-raise
-OSError
-(
-err
 )
             
 else
@@ -2723,29 +2792,18 @@ countdowntokill
 =
 0
                 
-if
-MOZPROCESS_DEBUG
-:
-                    
-print
-"
-DBG
-:
-:
-MOZPROC
-Self
-.
-pid
-value
-is
-:
-%
-s
-"
-%
 self
 .
-pid
+debug
+(
+"
+start
+polling
+IO
+completion
+port
+"
+)
                 
 while
 True
@@ -3151,19 +3209,15 @@ COMPKEY_TERMINATE
 value
 :
                         
-if
-MOZPROCESS_DEBUG
-:
-                            
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 compkeyterminate
 detected
 "
+)
                         
 #
 Then
@@ -3236,16 +3290,11 @@ to
 shut
 down
                             
-if
-MOZPROCESS_DEBUG
-:
-                                
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 job
 object
 msg
@@ -3253,6 +3302,7 @@ active
 processes
 zero
 "
+)
                             
 self
 .
@@ -3334,16 +3384,11 @@ value
 =
 1
                                 
-if
-MOZPROCESS_DEBUG
-:
-                                    
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 new
 process
 detected
@@ -3358,6 +3403,7 @@ s
 pid
 .
 value
+)
                         
 elif
 msgid
@@ -3370,16 +3416,11 @@ winprocess
 JOB_OBJECT_MSG_EXIT_PROCESS
 :
                             
-if
-MOZPROCESS_DEBUG
-:
-                                
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 process
 id
 %
@@ -3391,6 +3432,7 @@ normally
 pid
 .
 value
+)
                             
 #
 One
@@ -3481,27 +3523,23 @@ process
 existed
 abnormally
                             
-if
-MOZPROCESS_DEBUG
-:
-                                
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 process
 id
 %
 s
-existed
+exited
 abnormally
 "
 %
 pid
 .
 value
+)
                             
 if
 pid
@@ -3580,16 +3618,11 @@ about
 anything
 else
                             
-if
-MOZPROCESS_DEBUG
-:
-                                
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 We
 got
 a
@@ -3601,6 +3634,7 @@ s
 msgid
 .
 value
+)
                             
 pass
             
@@ -3660,20 +3694,6 @@ self
 .
 returncode
                 
-#
-Python
-2
-.
-5
-uses
-isAlive
-versus
-is_alive
-use
-the
-proper
-one
-                
 threadalive
 =
 False
@@ -3688,18 +3708,6 @@ _procmgrthread
 )
 :
                     
-if
-hasattr
-(
-self
-.
-_procmgrthread
-'
-is_alive
-'
-)
-:
-                        
 threadalive
 =
 self
@@ -3707,19 +3715,6 @@ self
 _procmgrthread
 .
 is_alive
-(
-)
-                    
-else
-:
-                        
-threadalive
-=
-self
-.
-_procmgrthread
-.
-isAlive
 (
 )
                 
@@ -3730,6 +3725,19 @@ _job
 and
 threadalive
 :
+                    
+self
+.
+debug
+(
+"
+waiting
+with
+IO
+completion
+port
+"
+)
                     
 #
 Then
@@ -3868,6 +3876,20 @@ FINISHED
                             
 self
 .
+debug
+(
+"
+received
+'
+FINISHED
+'
+from
+_procmgrthread
+"
+)
+                            
+self
+.
 _process_events
 .
 task_done
@@ -3877,8 +3899,15 @@ task_done
 except
 :
                         
-err
-=
+traceback
+.
+print_exc
+(
+)
+                        
+raise
+OSError
+(
 "
 IO
 Completion
@@ -3889,25 +3918,17 @@ signal
 process
 shutdown
 "
+)
                     
-#
-Either
-way
-let
-'
-s
-try
-to
-get
-this
-code
-                    
+finally
+:
+                        
 if
 self
 .
 _handle
 :
-                        
+                            
 self
 .
 returncode
@@ -3920,24 +3941,11 @@ self
 .
 _handle
 )
-                    
+                        
 self
 .
 _cleanup
 (
-)
-                    
-if
-err
-is
-not
-None
-:
-                        
-raise
-OSError
-(
-err
 )
                 
 else
@@ -3966,21 +3974,31 @@ for
 the
 best
                     
+self
+.
+debug
+(
+"
+waiting
+without
+IO
+completion
+port
+"
+)
+                    
 if
-MOZPROCESS_DEBUG
-and
 not
 self
 .
 _ignore_children
 :
                         
-print
+self
+.
+debug
+(
 "
-DBG
-:
-:
-MOZPROC
 NOT
 USING
 JOB
@@ -3989,6 +4007,7 @@ OBJECTS
 !
 !
 "
+)
                     
 #
 First
