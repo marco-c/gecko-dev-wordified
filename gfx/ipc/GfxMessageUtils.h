@@ -5958,7 +5958,7 @@ mozilla
 StereoMode
 :
 :
-TOP_BOTTOM
+MAX
 >
 {
 }
