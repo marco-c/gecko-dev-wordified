@@ -1120,6 +1120,8 @@ TextureClientPool
 *
 GetTexturePool
 (
+LayersBackend
+aBackend
 gfx
 :
 :
