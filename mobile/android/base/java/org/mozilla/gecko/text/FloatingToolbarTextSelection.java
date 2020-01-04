@@ -1247,7 +1247,15 @@ locationInWindow
 1
 ]
 +
+(
+height
+>
+0
+?
 handlesOffset
+:
+0
+)
 )
 )
 ;
