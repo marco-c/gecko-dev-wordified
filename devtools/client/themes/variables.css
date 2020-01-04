@@ -709,7 +709,7 @@ body
 background
 :
 #
-14171a
+393f4c
 ;
 -
 -
@@ -720,7 +720,7 @@ sidebar
 background
 :
 #
-181d20
+393f4c
 ;
 -
 -
@@ -731,7 +731,7 @@ contrast
 background
 :
 #
-b28025
+ffb35b
 ;
 -
 -
@@ -744,7 +744,7 @@ toolbar
 background
 :
 #
-252c33
+272b35
 ;
 -
 -
@@ -755,7 +755,7 @@ toolbar
 background
 :
 #
-343c45
+272b35
 ;
 -
 -
@@ -766,7 +766,7 @@ selection
 background
 :
 #
-1d4f73
+5675B9
 ;
 -
 -
@@ -780,9 +780,10 @@ semitransparent
 :
 rgba
 (
-29
-79
-115
+86
+117
+185
+0
 .
 5
 )
@@ -806,7 +807,8 @@ splitter
 -
 color
 :
-black
+#
+454d5d
 ;
 -
 -
@@ -896,7 +898,7 @@ highlight
 green
 :
 #
-70bf53
+00ff7f
 ;
 -
 -
@@ -929,7 +931,7 @@ highlight
 purple
 :
 #
-6b7abb
+bcb8db
 ;
 -
 -
