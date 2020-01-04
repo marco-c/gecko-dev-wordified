@@ -153,6 +153,9 @@ Value
 vp
 )
 {
+#
+ifdef
+DEBUG
 CallArgs
 args
 =
@@ -162,6 +165,11 @@ argc
 vp
 )
 ;
+#
+endif
+/
+/
+DEBUG
 MOZ_ASSERT
 (
 args
