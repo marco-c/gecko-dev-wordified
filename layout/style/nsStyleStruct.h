@@ -10841,7 +10841,7 @@ see
 nsStyleConsts
 .
 h
-nscoord
+nsStyleCoord
 mWordSpacing
 ;
 /
@@ -10849,6 +10849,7 @@ mWordSpacing
 [
 inherited
 ]
+coord
 nsStyleCoord
 mLetterSpacing
 ;

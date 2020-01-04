@@ -10754,10 +10754,13 @@ StyleText
 ;
 }
 return
+StyleToCoord
+(
 aStyleText
 -
 >
 mWordSpacing
+)
 ;
 }
 bool

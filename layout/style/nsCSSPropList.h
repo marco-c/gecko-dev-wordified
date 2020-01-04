@@ -10673,7 +10673,7 @@ offsetof
 nsStyleText
 mWordSpacing
 )
-eStyleAnimType_nscoord
+eStyleAnimType_Coord
 )
 CSS_PROP_TEXT
 (
