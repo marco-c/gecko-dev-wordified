@@ -9921,8 +9921,11 @@ bool
 nsTableRowGroupFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 {
 /
@@ -9962,8 +9965,9 @@ return
 nsContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+aOverflowAreas
 )
 ;
 }

@@ -585,15 +585,6 @@ aResult
 ;
 #
 endif
-virtual
-void
-GetLayoutFlags
-(
-uint32_t
-&
-aFlags
-)
-;
 nsresult
 BeginXULLayout
 (

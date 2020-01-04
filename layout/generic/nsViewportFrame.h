@@ -433,8 +433,11 @@ override
 ;
 virtual
 bool
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 override
 ;

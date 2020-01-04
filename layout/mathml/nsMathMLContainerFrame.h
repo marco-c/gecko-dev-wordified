@@ -895,8 +895,11 @@ override
 ;
 virtual
 bool
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 override
 ;
@@ -2903,14 +2906,6 @@ GatherAndStoreOverflow
 nsHTMLReflowMetrics
 *
 aMetrics
-)
-;
-void
-ComputeOverflow
-(
-nsOverflowAreas
-&
-aOverflowAreas
 )
 ;
 /

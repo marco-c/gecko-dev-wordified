@@ -2858,12 +2858,9 @@ the
 views
 .
 virtual
-void
-GetLayoutFlags
-(
 uint32_t
-&
-aFlags
+GetXULLayoutFlags
+(
 )
 override
 ;
