@@ -4260,6 +4260,13 @@ load
 )
 GK_ATOM
 (
+loadingprincipal
+"
+loadingprincipal
+"
+)
+GK_ATOM
+(
 localedir
 "
 localedir
@@ -5280,6 +5287,13 @@ GK_ATOM
 onAppCommand
 "
 onAppCommand
+"
+)
+GK_ATOM
+(
+onappinstalled
+"
+onappinstalled
 "
 )
 GK_ATOM

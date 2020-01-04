@@ -58,7 +58,7 @@ manifest
 /
 test
 /
-file_reg_install_event
+file_reg_appinstalled_event
 .
 html
 "
@@ -118,7 +118,7 @@ testPath
 Enable
 window
 .
-oninstall
+onappinstalled
 so
 we
 can
@@ -128,7 +128,7 @@ at
 it
 .
 function
-enableOnInstallPref
+enableOnAppInstalledPref
 (
 )
 {
@@ -147,7 +147,7 @@ dom
 .
 manifest
 .
-oninstall
+onappinstalled
 "
 true
 ]
@@ -223,7 +223,7 @@ content
 .
 window
 "
-install
+appinstalled
 "
 )
 ;
@@ -252,7 +252,7 @@ DOM
 :
 Manifest
 :
-FireInstallEvent
+FireAppInstalledEvent
 "
 )
 ;
@@ -278,7 +278,7 @@ ok
 (
 true
 "
-Install
+AppInstalled
 event
 fired
 "
@@ -294,7 +294,7 @@ ok
 (
 false
 "
-Install
+AppInstalled
 event
 didn
 '
@@ -327,7 +327,7 @@ function
 )
 {
 yield
-enableOnInstallPref
+enableOnAppInstalledPref
 (
 )
 ;

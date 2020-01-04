@@ -468,6 +468,10 @@ NS_EVENT_MESSAGE
 (
 eInstall
 )
+NS_EVENT_MESSAGE
+(
+eAppInstalled
+)
 /
 /
 A
