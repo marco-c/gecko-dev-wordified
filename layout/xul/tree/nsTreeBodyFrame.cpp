@@ -3180,7 +3180,7 @@ Init
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -3430,7 +3430,7 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -3675,7 +3675,7 @@ mPageLength
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -3929,7 +3929,7 @@ mUpdateBatchNest
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -4828,7 +4828,7 @@ weakFrame
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -7172,7 +7172,7 @@ nsCSSAnonBoxes
 moztreecelltext
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -9396,7 +9396,7 @@ textContext
 textRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -10171,7 +10171,7 @@ textContext
 bp
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -10259,7 +10259,7 @@ desiredSize
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -12282,7 +12282,7 @@ aCol
 imageSrc
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -12676,7 +12676,7 @@ imgNotificationObserver
 =
 listener
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -21076,10 +21076,10 @@ ThebesContext
 )
 aPresContext
 image
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 pt
 &
 aDirtyRect
@@ -22640,7 +22640,7 @@ our
 text
 size
 .
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -23526,10 +23526,10 @@ ThebesContext
 )
 aPresContext
 image
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 pt
 &
 aDirtyRect
@@ -25030,7 +25030,7 @@ nsITreeColumn
 aCol
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -25368,7 +25368,7 @@ nsITreeColumn
 aCol
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTreeColumn
 >
@@ -28099,7 +28099,7 @@ IsPending
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 ScrollEvent
 >
@@ -28473,7 +28473,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -28878,7 +28878,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -29105,7 +29105,7 @@ bug
 /
 905909
 .
-RefPtr
+nsRefPtr
 <
 nsOverflowChecker
 >

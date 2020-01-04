@@ -1851,10 +1851,10 @@ pat
 >
 SetFilter
 (
-GraphicsFilter
+Filter
 :
 :
-FILTER_BEST
+LINEAR
 )
 ;
 pat

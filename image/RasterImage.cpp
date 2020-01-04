@@ -4188,7 +4188,7 @@ frameSurf
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4289,7 +4289,7 @@ return
 MakePair
 (
 drawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4333,7 +4333,7 @@ mSourceSurface
 =
 surface
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4551,7 +4551,7 @@ OnUnlockedDraw
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4637,7 +4637,7 @@ CreateImageContainer
 DrawResult
 drawResult
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4754,7 +4754,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4781,7 +4781,7 @@ return
 DrawResult
 drawResult
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -4974,7 +4974,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 RasterImage
 >
@@ -8099,7 +8099,7 @@ Create
 a
 decoder
 .
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -8428,7 +8428,7 @@ Create
 a
 decoder
 .
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -9440,10 +9440,10 @@ we
 re
 not
 using
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 we
 shouldn
 '
@@ -9451,10 +9451,10 @@ t
 high
 -
 quality
-/
-/
 scale
 or
+/
+/
 downscale
 during
 decode
@@ -9465,10 +9465,10 @@ flags
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 ?
 aFlags
 :
@@ -10367,7 +10367,7 @@ RasterImage
 aImage
 )
 {
-RefPtr
+nsRefPtr
 <
 HandleErrorWorker
 >
@@ -10547,7 +10547,7 @@ to
 finish
 notifying
 .
-RefPtr
+nsRefPtr
 <
 RasterImage
 >
@@ -11555,10 +11555,10 @@ if
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 &
 &
 CanDownscaleDuringDecode

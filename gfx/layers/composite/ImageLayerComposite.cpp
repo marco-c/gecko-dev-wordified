@@ -286,7 +286,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -973,13 +973,7 @@ GetEffectFilter
 )
 {
 return
-gfx
-:
-:
-ToFilter
-(
 mFilter
-)
 ;
 }
 void

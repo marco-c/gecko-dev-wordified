@@ -186,17 +186,6 @@ LayerScope
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-/
-/
-for
-ThebesFilter
-#
-include
-"
 gfxCrashReporterUtils
 .
 h
@@ -808,7 +797,7 @@ CreateContext
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -1134,7 +1123,7 @@ nullptr
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -9995,7 +9984,7 @@ FenceHandle
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

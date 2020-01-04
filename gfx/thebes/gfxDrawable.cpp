@@ -484,10 +484,7 @@ pattern
 mSourceSurface
 extend
 patternTransform
-ToFilter
-(
 aFilter
-)
 aSamplingRect
 )
 ;
@@ -677,7 +674,7 @@ dt
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -725,7 +722,7 @@ if
 surface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxSurfaceDrawable
 >
@@ -960,7 +957,7 @@ aTransform
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -979,7 +976,7 @@ MakeCallbackDrawable
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxDrawingCallback
 >
@@ -991,7 +988,7 @@ DrawingCallbackFromDrawable
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxCallbackDrawable
 >
@@ -1162,7 +1159,7 @@ aRepeat
 =
 false
 .
-RefPtr
+nsRefPtr
 <
 gfxCallbackDrawable
 >

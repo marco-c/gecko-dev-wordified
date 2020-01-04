@@ -346,10 +346,7 @@ mBounds
 height
 )
 mSurface
-ToFilter
-(
 mFilter
-)
 DrawOptions
 (
 GetEffectiveOpacity
@@ -403,7 +400,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasLayer
 >

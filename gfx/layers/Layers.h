@@ -4684,7 +4684,7 @@ false
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -7382,7 +7382,7 @@ SetAncestorMaskLayers
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -12488,7 +12488,7 @@ void
 *
 mImplData
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -12496,7 +12496,7 @@ mMaskLayer
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Layer
 >
@@ -12642,7 +12642,7 @@ mInvalidRegion
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -15154,7 +15154,7 @@ mChildrenChanged
 EventRegionsOverride
 mEventRegionsOverride
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -16316,10 +16316,13 @@ nullptr
 )
 mFilter
 (
-GraphicsFilter
+gfx
 :
 :
-FILTER_GOOD
+Filter
+:
+:
+GOOD
 )
 mDirty
 (

@@ -271,17 +271,6 @@ LayerScope
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-/
-/
-for
-ThebesFilter
-#
-include
-"
 gfxCrashReporterUtils
 .
 h

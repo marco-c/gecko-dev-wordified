@@ -1675,10 +1675,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-GraphicsFilter
+Filter
 :
 :
-FILTER_BEST
+LINEAR
 imgIContainer
 :
 :

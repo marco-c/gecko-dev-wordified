@@ -532,6 +532,15 @@ int8_t
 GOOD
 LINEAR
 POINT
+SENTINEL
+/
+/
+one
+past
+the
+last
+valid
+value
 }
 ;
 enum

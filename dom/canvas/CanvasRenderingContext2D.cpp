@@ -5950,7 +5950,7 @@ GetPresShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -8030,7 +8030,7 @@ OwnerDoc
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 LayerManager
 >
@@ -8820,7 +8820,7 @@ to
 middle
 '
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -11108,7 +11108,7 @@ double
 y1
 )
 {
-RefPtr
+nsRefPtr
 <
 CanvasGradient
 >
@@ -11191,7 +11191,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CanvasGradient
 >
@@ -11500,7 +11500,7 @@ GetSurfaceSnapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasPattern
 >
@@ -11678,7 +11678,7 @@ DoDrawImageSecurityCheck
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 CanvasPattern
 >
@@ -11763,7 +11763,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CanvasPattern
 >
@@ -11883,7 +11883,7 @@ ErrorResult
 error
 )
 {
-RefPtr
+nsRefPtr
 <
 StyleRule
 >
@@ -12154,7 +12154,7 @@ the
 canvas
 element
 .
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -12210,7 +12210,7 @@ serif
 bool
 changed
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12270,7 +12270,7 @@ AppendElement
 parentRule
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -12451,7 +12451,7 @@ fontParsedSuccessfully
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -12614,7 +12614,7 @@ bolder
 etc
 .
 )
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -12744,7 +12744,7 @@ StyleSet
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -12914,7 +12914,7 @@ filterChanged
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -13022,7 +13022,7 @@ AppendElement
 rule
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -13141,7 +13141,7 @@ false
 nsString
 usedFont
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -13175,7 +13175,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -13516,7 +13516,7 @@ GetTextPerfMetrics
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -17511,7 +17511,7 @@ false
 nsString
 usedFont
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -17757,7 +17757,7 @@ AppUnitsPerCSSPixel
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -21085,7 +21085,7 @@ measure
 text
 and
 such
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -21443,7 +21443,7 @@ isRTL
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -27156,7 +27156,7 @@ autoRestoreTransform
 mTarget
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -27310,10 +27310,10 @@ height
 image
 .
 mWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 Some
 (
 svgContext
@@ -28189,7 +28189,7 @@ window
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -28487,7 +28487,7 @@ sh
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -29115,7 +29115,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -29490,7 +29490,7 @@ NS_ERROR_DOM_SECURITY_ERR
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -30152,7 +30152,7 @@ MOZ_ASSERT
 array
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImageData
 >
@@ -31700,7 +31700,7 @@ Height
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -32415,7 +32415,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -33026,7 +33026,7 @@ data
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CanvasLayer
 >
@@ -33043,7 +33043,7 @@ forget
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 CanvasLayer
 >
@@ -33647,7 +33647,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 CanvasPath
 >
@@ -33722,7 +33722,7 @@ ScreenReferenceDrawTarget
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasPath
 >
@@ -33805,7 +33805,7 @@ aRv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CanvasPath
 >

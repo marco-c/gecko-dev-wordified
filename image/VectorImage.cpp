@@ -660,7 +660,7 @@ true
 Private
 data
 const
-RefPtr
+nsRefPtr
 <
 SVGDocumentWrapper
 >
@@ -853,7 +853,7 @@ complete
 our
 work
 .
-RefPtr
+nsRefPtr
 <
 SVGParseCompleteListener
 >
@@ -1137,7 +1137,7 @@ complete
 our
 work
 .
-RefPtr
+nsRefPtr
 <
 SVGLoadEventListener
 >
@@ -1402,7 +1402,7 @@ aTransform
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 SVGDocumentWrapper
 >
@@ -4685,7 +4685,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4712,10 +4712,10 @@ Create
 aSize
 )
 aWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 Nothing
 (
 )
@@ -5438,7 +5438,7 @@ if
 surface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -5531,7 +5531,7 @@ FlushImageTransformInvalidation
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawingCallback
 >
@@ -5560,7 +5560,7 @@ aParams
 flags
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -5778,7 +5778,7 @@ scale
 here
 .
 )
-RefPtr
+nsRefPtr
 <
 imgFrame
 >
@@ -5803,10 +5803,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 aParams
 .
 flags
@@ -5973,7 +5973,7 @@ animationTime
 /
 Draw
 .
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >

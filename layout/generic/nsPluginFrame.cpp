@@ -8816,10 +8816,10 @@ filter
 scaling
 filter
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 ;
 }
 #

@@ -1128,10 +1128,7 @@ GetPattern
 >
 mFilter
 =
-ToFilter
-(
 filter
-)
 ;
 }
 GraphicsFilter
@@ -1164,15 +1161,13 @@ SURFACE
 )
 {
 return
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 ;
 }
 return
-ThebesFilter
-(
 static_cast
 <
 const
@@ -1189,7 +1184,6 @@ GetPattern
 -
 >
 mFilter
-)
 ;
 }
 bool
