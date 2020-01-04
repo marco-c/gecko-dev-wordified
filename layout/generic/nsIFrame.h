@@ -21573,7 +21573,7 @@ ifdef
 DEBUG_LAYOUT
 virtual
 nsresult
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
