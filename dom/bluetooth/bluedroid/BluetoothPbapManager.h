@@ -959,6 +959,15 @@ aPath
 )
 ;
 bool
+IsLegalPhonebookName
+(
+const
+nsAString
+&
+aName
+)
+;
+bool
 GetInputStreamFromBlob
 (
 Blob
