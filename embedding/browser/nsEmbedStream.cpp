@@ -211,7 +211,7 @@ mOwner
 aOwner
 ;
 }
-NS_METHOD
+nsresult
 nsEmbedStream
 :
 :
@@ -224,7 +224,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 nsEmbedStream
 :
 :
@@ -367,7 +367,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsEmbedStream
 :
 :
@@ -449,7 +449,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsEmbedStream
 :
 :
