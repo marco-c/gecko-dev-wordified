@@ -1090,8 +1090,10 @@ thread
 *
 /
 static
+RefPtr
+<
 ImageBridgeChild
-*
+>
 GetSingleton
 (
 )
