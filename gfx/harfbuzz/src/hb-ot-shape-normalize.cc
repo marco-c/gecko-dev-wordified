@@ -606,6 +606,9 @@ b
 )
 {
 return
+(
+bool
+)
 c
 -
 >
@@ -638,6 +641,9 @@ ab
 )
 {
 return
+(
+bool
+)
 c
 -
 >
@@ -891,6 +897,9 @@ return
 bool
 has_a
 =
+(
+bool
+)
 font
 -
 >

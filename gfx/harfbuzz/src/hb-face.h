@@ -247,6 +247,7 @@ struct
 hb_face_t
 hb_face_t
 ;
+HB_EXTERN
 hb_face_t
 *
 hb_face_create
@@ -290,6 +291,7 @@ user_data
 anymore
 *
 /
+HB_EXTERN
 hb_face_t
 *
 hb_face_create_for_tables
@@ -303,6 +305,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 hb_face_t
 *
 hb_face_get_empty
@@ -310,6 +313,7 @@ hb_face_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_face_t
 *
 hb_face_reference
@@ -319,6 +323,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 void
 hb_face_destroy
 (
@@ -327,6 +332,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_face_set_user_data
 (
@@ -345,6 +351,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_face_get_user_data
@@ -357,6 +364,7 @@ hb_user_data_key_t
 key
 )
 ;
+HB_EXTERN
 void
 hb_face_make_immutable
 (
@@ -365,6 +373,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_face_is_immutable
 (
@@ -373,6 +382,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_face_reference_table
@@ -384,6 +394,7 @@ hb_tag_t
 tag
 )
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_face_reference_blob
@@ -393,6 +404,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 void
 hb_face_set_index
 (
@@ -404,6 +416,7 @@ int
 index
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_face_get_index
@@ -413,6 +426,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 void
 hb_face_set_upem
 (
@@ -424,6 +438,7 @@ int
 upem
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_face_get_upem
@@ -433,6 +448,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 void
 hb_face_set_glyph_count
 (
@@ -444,6 +460,7 @@ int
 glyph_count
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_face_get_glyph_count

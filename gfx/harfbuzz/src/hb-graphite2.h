@@ -233,6 +233,7 @@ l
 f
 '
 )
+HB_EXTERN
 gr_face
 *
 hb_graphite2_face_get_gr_face
@@ -242,6 +243,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 gr_font
 *
 hb_graphite2_font_get_gr_font

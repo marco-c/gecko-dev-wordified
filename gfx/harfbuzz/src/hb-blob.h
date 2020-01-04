@@ -379,6 +379,7 @@ struct
 hb_blob_t
 hb_blob_t
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_blob_create
@@ -451,6 +452,7 @@ blobs
 .
 *
 /
+HB_EXTERN
 hb_blob_t
 *
 hb_blob_create_sub_blob
@@ -466,6 +468,7 @@ int
 length
 )
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_blob_get_empty
@@ -473,6 +476,7 @@ hb_blob_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_blob_reference
@@ -482,6 +486,7 @@ hb_blob_t
 blob
 )
 ;
+HB_EXTERN
 void
 hb_blob_destroy
 (
@@ -490,6 +495,7 @@ hb_blob_t
 blob
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_blob_set_user_data
 (
@@ -508,6 +514,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_blob_get_user_data
@@ -520,6 +527,7 @@ hb_user_data_key_t
 key
 )
 ;
+HB_EXTERN
 void
 hb_blob_make_immutable
 (
@@ -528,6 +536,7 @@ hb_blob_t
 blob
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_blob_is_immutable
 (
@@ -536,6 +545,7 @@ hb_blob_t
 blob
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_blob_get_length
@@ -545,6 +555,7 @@ hb_blob_t
 blob
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -559,6 +570,7 @@ int
 length
 )
 ;
+HB_EXTERN
 char
 *
 hb_blob_get_data_writable

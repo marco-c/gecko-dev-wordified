@@ -1525,6 +1525,10 @@ _hb_glib_unicode_funcs
 *
 *
 *
+hb_glib_blob_create
+:
+*
+*
 Since
 :
 0

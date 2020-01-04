@@ -239,6 +239,7 @@ struct
 hb_shape_plan_t
 hb_shape_plan_t
 ;
+HB_EXTERN
 hb_shape_plan_t
 *
 hb_shape_plan_create
@@ -265,6 +266,7 @@ const
 shaper_list
 )
 ;
+HB_EXTERN
 hb_shape_plan_t
 *
 hb_shape_plan_create_cached
@@ -291,6 +293,7 @@ const
 shaper_list
 )
 ;
+HB_EXTERN
 hb_shape_plan_t
 *
 hb_shape_plan_get_empty
@@ -298,6 +301,7 @@ hb_shape_plan_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_shape_plan_t
 *
 hb_shape_plan_reference
@@ -307,6 +311,7 @@ hb_shape_plan_t
 shape_plan
 )
 ;
+HB_EXTERN
 void
 hb_shape_plan_destroy
 (
@@ -315,6 +320,7 @@ hb_shape_plan_t
 shape_plan
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_shape_plan_set_user_data
 (
@@ -333,6 +339,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_shape_plan_get_user_data
@@ -345,6 +352,7 @@ hb_user_data_key_t
 key
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_shape_plan_execute
 (
@@ -366,6 +374,7 @@ int
 num_features
 )
 ;
+HB_EXTERN
 const
 char
 *

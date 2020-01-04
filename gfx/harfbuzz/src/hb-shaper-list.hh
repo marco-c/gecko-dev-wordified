@@ -318,6 +318,15 @@ uniscribe
 endif
 #
 ifdef
+HAVE_DIRECTWRITE
+HB_SHAPER_IMPLEMENT
+(
+directwrite
+)
+#
+endif
+#
+ifdef
 HAVE_CORETEXT
 HB_SHAPER_IMPLEMENT
 (

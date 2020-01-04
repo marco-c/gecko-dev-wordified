@@ -423,6 +423,9 @@ space
 bool
 has_space
 =
+(
+bool
+)
 font
 -
 >

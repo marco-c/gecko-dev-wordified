@@ -551,6 +551,9 @@ found_script
 table_index
 ]
 =
+(
+bool
+)
 hb_ot_layout_table_choose_script
 (
 face

@@ -5049,8 +5049,6 @@ TRACE_COLLECT_GLYPHS
 this
 )
 ;
-/
-*
 (
 this
 +
@@ -5065,16 +5063,6 @@ c
 input
 )
 ;
-/
-/
-Don
-'
-t
-need
-this
-.
-*
-/
 unsigned
 int
 count1

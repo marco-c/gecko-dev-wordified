@@ -213,6 +213,7 @@ windows
 h
 >
 HB_BEGIN_DECLS
+HB_EXTERN
 LOGFONTW
 *
 hb_uniscribe_font_get_logfontw
@@ -222,6 +223,7 @@ hb_font_t
 font
 )
 ;
+HB_EXTERN
 HFONT
 hb_uniscribe_font_get_hfont
 (

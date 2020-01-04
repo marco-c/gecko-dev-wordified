@@ -281,6 +281,7 @@ end
 }
 hb_feature_t
 ;
+HB_EXTERN
 hb_bool_t
 hb_feature_from_string
 (
@@ -295,6 +296,7 @@ hb_feature_t
 feature
 )
 ;
+HB_EXTERN
 void
 hb_feature_to_string
 (
@@ -309,6 +311,7 @@ int
 size
 )
 ;
+HB_EXTERN
 void
 hb_shape
 (
@@ -327,6 +330,7 @@ int
 num_features
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_shape_full
 (
@@ -351,6 +355,7 @@ const
 shaper_list
 )
 ;
+HB_EXTERN
 const
 char
 *

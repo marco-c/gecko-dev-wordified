@@ -757,6 +757,7 @@ there
 .
 *
 /
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_default
@@ -764,6 +765,7 @@ hb_unicode_funcs_get_default
 void
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_create
@@ -773,6 +775,7 @@ hb_unicode_funcs_t
 parent
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_empty
@@ -780,6 +783,7 @@ hb_unicode_funcs_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_reference
@@ -789,6 +793,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_destroy
 (
@@ -797,6 +802,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_funcs_set_user_data
 (
@@ -815,6 +821,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_unicode_funcs_get_user_data
@@ -827,6 +834,7 @@ hb_user_data_key_t
 key
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_make_immutable
 (
@@ -835,6 +843,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_funcs_is_immutable
 (
@@ -843,6 +852,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_parent
@@ -1280,6 +1290,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_combining_class_func
 (
@@ -1344,6 +1355,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_eastasian_width_func
 (
@@ -1408,6 +1420,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_general_category_func
 (
@@ -1472,6 +1485,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_mirroring_func
 (
@@ -1536,6 +1550,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_script_func
 (
@@ -1600,6 +1615,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_compose_func
 (
@@ -1664,6 +1680,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_decompose_func
 (
@@ -1728,6 +1745,7 @@ Since
 *
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_decompose_compatibility_func
 (
@@ -1752,6 +1770,10 @@ accessors
 *
 *
 *
+hb_unicode_combining_class
+:
+*
+*
 Since
 :
 0
@@ -1762,6 +1784,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_unicode_combining_class_t
 hb_unicode_combining_class
 (
@@ -1776,6 +1799,10 @@ unicode
 *
 *
 *
+hb_unicode_eastasian_width
+:
+*
+*
 Since
 :
 0
@@ -1786,6 +1813,7 @@ Since
 *
 *
 /
+HB_EXTERN
 unsigned
 int
 hb_unicode_eastasian_width
@@ -1801,6 +1829,10 @@ unicode
 *
 *
 *
+hb_unicode_general_category
+:
+*
+*
 Since
 :
 0
@@ -1811,6 +1843,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_unicode_general_category_t
 hb_unicode_general_category
 (
@@ -1825,6 +1858,10 @@ unicode
 *
 *
 *
+hb_unicode_mirroring
+:
+*
+*
 Since
 :
 0
@@ -1835,6 +1872,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_codepoint_t
 hb_unicode_mirroring
 (
@@ -1849,6 +1887,10 @@ unicode
 *
 *
 *
+hb_unicode_script
+:
+*
+*
 Since
 :
 0
@@ -1859,6 +1901,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_script_t
 hb_unicode_script
 (
@@ -1873,6 +1916,10 @@ unicode
 *
 *
 *
+hb_unicode_compose
+:
+*
+*
 Since
 :
 0
@@ -1883,6 +1930,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_bool_t
 hb_unicode_compose
 (
@@ -1902,6 +1950,10 @@ ab
 *
 *
 *
+hb_unicode_decompose
+:
+*
+*
 Since
 :
 0
@@ -1912,6 +1964,7 @@ Since
 *
 *
 /
+HB_EXTERN
 hb_bool_t
 hb_unicode_decompose
 (
@@ -1932,6 +1985,10 @@ b
 *
 *
 *
+hb_unicode_decompose_compatibility
+:
+*
+*
 Since
 :
 0
@@ -1942,6 +1999,7 @@ Since
 *
 *
 /
+HB_EXTERN
 unsigned
 int
 hb_unicode_decompose_compatibility
