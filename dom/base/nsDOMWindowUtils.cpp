@@ -5220,7 +5220,7 @@ nsIWidget
 :
 :
 TouchPointerState
-ScreenIntPoint
+LayoutDeviceIntPoint
 double
 uint32_t
 nsIObserver
@@ -5241,7 +5241,7 @@ nsIWidget
 TouchPointerState
 )
 aTouchState
-ScreenIntPoint
+LayoutDeviceIntPoint
 (
 aScreenX
 aScreenY
@@ -5297,7 +5297,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArgs
 <
-ScreenIntPoint
+LayoutDeviceIntPoint
 bool
 nsIObserver
 *
@@ -5309,7 +5309,7 @@ nsIWidget
 :
 :
 SynthesizeNativeTouchTap
-ScreenIntPoint
+LayoutDeviceIntPoint
 (
 aScreenX
 aScreenY

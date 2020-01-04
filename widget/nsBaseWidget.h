@@ -2633,8 +2633,8 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t

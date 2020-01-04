@@ -1348,8 +1348,8 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t
@@ -1364,8 +1364,8 @@ virtual
 nsresult
 SynthesizeNativeTouchTap
 (
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 bool
 aLongTap
 nsIObserver
