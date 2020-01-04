@@ -204,7 +204,7 @@ class
 WorkerPrivate
 ;
 class
-XMLHttpRequest
+XMLHttpRequestWorker
 final
 :
 public
@@ -368,7 +368,7 @@ override
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 nsISupports
@@ -405,7 +405,7 @@ nullptr
 static
 already_AddRefed
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 >
 Constructor
 (
@@ -425,7 +425,7 @@ aRv
 static
 already_AddRefed
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 >
 Constructor
 (
@@ -1038,7 +1038,7 @@ mRooted
 private
 :
 explicit
-XMLHttpRequest
+XMLHttpRequestWorker
 (
 WorkerPrivate
 *
@@ -1046,7 +1046,7 @@ aWorkerPrivate
 )
 ;
 ~
-XMLHttpRequest
+XMLHttpRequestWorker
 (
 )
 ;
