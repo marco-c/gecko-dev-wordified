@@ -2131,7 +2131,6 @@ runtime
 >
 UnregisterWorker
 (
-aCx
 mFinishedWorker
 )
 ;
@@ -2217,15 +2216,6 @@ MOZ_ASSERT
 runtime
 )
 ;
-AutoSafeJSContext
-cx
-;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 mFinishedWorker
 -
 >
@@ -2238,7 +2228,6 @@ runtime
 >
 UnregisterWorker
 (
-cx
 mFinishedWorker
 )
 ;
@@ -19714,7 +19703,6 @@ runtimeService
 >
 RegisterWorker
 (
-aCx
 worker
 )
 )
