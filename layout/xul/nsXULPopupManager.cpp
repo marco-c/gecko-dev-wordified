@@ -7578,8 +7578,6 @@ nsMenuPopupFrame
 >
 &
 aFrames
-bool
-aDeselectMenu
 )
 {
 /
@@ -8055,7 +8053,6 @@ parent
 HidePopupsInList
 (
 popupsToHide
-true
 )
 ;
 }
@@ -8350,10 +8347,6 @@ selected
 HidePopupsInList
 (
 popupsToHide
-cmm
-=
-=
-CloseMenuMode_Auto
 )
 ;
 }
@@ -11618,7 +11611,6 @@ GetParent
 HidePopupsInList
 (
 popupsToHide
-false
 )
 ;
 }
