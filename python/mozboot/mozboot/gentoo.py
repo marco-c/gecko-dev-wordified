@@ -121,6 +121,10 @@ emerge
 quiet
 '
 '
+dev
+-
+vcs
+/
 git
 '
 '
