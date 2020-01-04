@@ -1124,7 +1124,7 @@ IntelQ45_2
 break
 ;
 case
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 :
 APPEND_DEVICE
 (
@@ -1214,16 +1214,6 @@ APPEND_DEVICE
 /
 *
 IntelSandyBridge_7
-*
-/
-APPEND_DEVICE
-(
-0x0080
-)
-;
-/
-*
-IntelIvyBridge
 *
 /
 break
