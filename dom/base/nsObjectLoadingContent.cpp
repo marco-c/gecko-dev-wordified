@@ -11245,7 +11245,7 @@ nsAutoCString
 parsedMime
 dummy
 ;
-NS_ParseContentType
+NS_ParseResponseContentType
 (
 newMime
 parsedMime
