@@ -492,7 +492,7 @@ tree
 *
 /
 function
-expandJsonNode
+clickJsonNode
 (
 selector
 )
