@@ -996,11 +996,11 @@ aAction
 nsresult
 JoinBlocks
 (
-nsIDOMNode
-*
+nsIContent
+&
 aLeftNode
-nsIDOMNode
-*
+nsIContent
+&
 aRightNode
 bool
 *
