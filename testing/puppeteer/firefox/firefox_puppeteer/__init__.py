@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-import
-os
 from
 marionette_driver
 .
@@ -68,7 +66,7 @@ use_class_as_property
 __version__
 =
 '
-51
+52
 .
 0
 .
