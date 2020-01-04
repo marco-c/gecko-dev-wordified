@@ -12306,7 +12306,7 @@ NS_UnescapeURL
 nameFromURL
 )
 .
-get
+BeginReading
 (
 )
 )
