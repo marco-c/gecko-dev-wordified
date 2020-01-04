@@ -1158,7 +1158,7 @@ WillDispatchKeyboardEvent
 computes
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 and
 *
 recompute

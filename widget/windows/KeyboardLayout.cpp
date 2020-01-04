@@ -5683,7 +5683,7 @@ be
 used
 for
 setting
-alternativeCharCodes
+mAlternativeCharCodes
 in
 the
 callback
@@ -14673,7 +14673,7 @@ altArray
 =
 aKeyboardEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 ;
 uint16_t
 shiftedChar

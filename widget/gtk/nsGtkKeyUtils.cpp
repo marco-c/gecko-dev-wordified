@@ -8568,7 +8568,7 @@ mShiftedCharCode
 {
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 AppendElement
 (
@@ -8913,7 +8913,7 @@ mShiftedCharCode
 {
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 AppendElement
 (

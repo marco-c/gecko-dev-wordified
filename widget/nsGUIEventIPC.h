@@ -2708,7 +2708,7 @@ WriteParam
 aMsg
 aParam
 .
-alternativeCharCodes
+mAlternativeCharCodes
 )
 ;
 WriteParam
@@ -3001,7 +3001,7 @@ aIter
 aResult
 -
 >
-alternativeCharCodes
+mAlternativeCharCodes
 )
 &
 &

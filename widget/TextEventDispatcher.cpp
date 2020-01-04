@@ -3029,7 +3029,7 @@ event
 .
 keyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 Clear
 (

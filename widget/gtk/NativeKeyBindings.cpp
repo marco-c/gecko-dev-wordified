@@ -1708,7 +1708,7 @@ i
 <
 aEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 Length
 (
@@ -1730,7 +1730,7 @@ IsShift
 ?
 aEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
@@ -1739,7 +1739,7 @@ mShiftedCharCode
 :
 aEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]

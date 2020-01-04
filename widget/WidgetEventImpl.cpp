@@ -3509,7 +3509,7 @@ key
 uint32_t
 len
 =
-alternativeCharCodes
+mAlternativeCharCodes
 .
 Length
 (
@@ -3542,7 +3542,7 @@ i
 uint32_t
 ch
 =
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
@@ -3660,7 +3660,7 @@ i
 uint32_t
 ch
 =
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
@@ -3726,7 +3726,7 @@ i
 uint32_t
 ch
 =
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
@@ -3838,7 +3838,7 @@ Plus
 uint32_t
 unshiftCh
 =
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
@@ -4197,7 +4197,7 @@ i
 ;
 i
 <
-alternativeCharCodes
+mAlternativeCharCodes
 .
 Length
 (
@@ -4215,13 +4215,13 @@ ch
 ]
 =
 {
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]
 .
 mUnshiftedCharCode
-alternativeCharCodes
+mAlternativeCharCodes
 [
 i
 ]

@@ -1689,7 +1689,7 @@ nsTArray
 <
 AlternativeCharCode
 >
-alternativeCharCodes
+mAlternativeCharCodes
 ;
 /
 /
@@ -2686,11 +2686,11 @@ aEvent
 .
 location
 ;
-alternativeCharCodes
+mAlternativeCharCodes
 =
 aEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 ;
 isChar
 =
