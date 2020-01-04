@@ -1720,6 +1720,8 @@ context
 getElementsByTagName
 (
 "
+TEST
+:
 A
 "
 )
@@ -1739,6 +1741,8 @@ context
 getElementsByTagName
 (
 "
+test
+:
 a
 "
 )
@@ -1758,6 +1762,8 @@ context
 getElementsByTagName
 (
 "
+test
+:
 a
 "
 )
@@ -1805,7 +1811,7 @@ createElementNS
 test
 "
 "
-test
+TEST
 :
 A
 "
@@ -1834,6 +1840,8 @@ context
 getElementsByTagName
 (
 "
+TEST
+:
 A
 "
 )
@@ -1853,6 +1861,8 @@ context
 getElementsByTagName
 (
 "
+test
+:
 a
 "
 )
@@ -1871,6 +1881,8 @@ context
 getElementsByTagName
 (
 "
+test
+:
 a
 "
 )
