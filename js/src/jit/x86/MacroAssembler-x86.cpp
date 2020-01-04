@@ -318,6 +318,10 @@ temp
 ScratchDoubleReg
 )
 ;
+asMasm
+(
+)
+.
 mulDouble
 (
 ScratchDoubleReg

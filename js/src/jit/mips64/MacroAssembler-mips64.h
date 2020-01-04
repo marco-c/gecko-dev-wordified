@@ -1255,15 +1255,6 @@ dest
 )
 ;
 void
-mulDouble
-(
-FloatRegister
-src
-FloatRegister
-dest
-)
-;
-void
 divDouble
 (
 FloatRegister

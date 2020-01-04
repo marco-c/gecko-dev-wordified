@@ -5725,6 +5725,17 @@ PER_ARCH
 ;
 inline
 void
+mulDouble
+(
+FloatRegister
+src
+FloatRegister
+dest
+)
+PER_SHARED_ARCH
+;
+inline
+void
 mulDoublePtr
 (
 ImmPtr
