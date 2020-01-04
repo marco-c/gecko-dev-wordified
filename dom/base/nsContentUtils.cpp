@@ -19201,6 +19201,8 @@ uint32_t
 aLineNumber
 uint32_t
 aColumnNumber
+MissingErrorLocationMode
+aLocationMode
 )
 {
 uint64_t
@@ -19281,6 +19283,12 @@ if
 (
 !
 aLineNumber
+&
+&
+aLocationMode
+=
+=
+eUSE_CALLING_LOCATION
 )
 {
 JSContext
@@ -19322,6 +19330,7 @@ IsEmpty
 &
 aURI
 )
+{
 aURI
 -
 >
@@ -19330,6 +19339,7 @@ GetSpec
 spec
 )
 ;
+}
 nsCOMPtr
 <
 nsIScriptError
