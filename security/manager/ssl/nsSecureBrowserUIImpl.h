@@ -284,12 +284,6 @@ nsSecureBrowserUIImpl
 {
 }
 ;
-mozilla
-:
-:
-ReentrantMonitor
-mReentrantMonitor
-;
 nsWeakPtr
 mWindow
 ;
@@ -364,13 +358,6 @@ mOnLocationChangeSeen
 #
 ifdef
 DEBUG
-/
-*
-related
-to
-mReentrantMonitor
-*
-/
 mozilla
 :
 :
