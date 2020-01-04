@@ -1395,9 +1395,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 /
 /
@@ -1425,9 +1422,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
@@ -1459,9 +1453,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 /
 /
@@ -1489,9 +1480,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
