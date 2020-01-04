@@ -212,9 +212,10 @@ function
 closeGroupItem
 (
 groupItem
-function
 (
 )
+=
+>
 TabView
 .
 hide

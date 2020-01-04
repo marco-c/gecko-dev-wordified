@@ -154,9 +154,10 @@ groupItems
 hideGroupItem
 (
 group
-function
 (
 )
+=
+>
 restore
 (
 group

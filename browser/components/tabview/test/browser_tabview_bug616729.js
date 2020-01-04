@@ -419,11 +419,12 @@ items
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 test
 .
 indexOf
@@ -466,11 +467,12 @@ items
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 orig
 .
 indexOf

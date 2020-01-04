@@ -53,9 +53,10 @@ addTab
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 gBrowser
 .
 removeTab

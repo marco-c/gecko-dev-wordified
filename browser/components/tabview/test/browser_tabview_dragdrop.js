@@ -452,9 +452,10 @@ function
 closeGroupItem
 (
 groupTwo
-function
 (
 )
+=
+>
 hideTabView
 (
 finish

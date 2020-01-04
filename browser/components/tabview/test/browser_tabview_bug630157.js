@@ -409,9 +409,10 @@ waitForExplicitFinish
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 TabView
 .
 hide

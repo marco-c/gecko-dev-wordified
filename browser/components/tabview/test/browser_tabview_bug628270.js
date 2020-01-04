@@ -604,9 +604,10 @@ assertTabViewIsHidden
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 TabView
 .
 hide

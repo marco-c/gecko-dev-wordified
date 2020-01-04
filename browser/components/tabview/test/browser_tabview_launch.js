@@ -58,9 +58,10 @@ false
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 ok
 (
 panelSelected
@@ -82,9 +83,10 @@ win
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close

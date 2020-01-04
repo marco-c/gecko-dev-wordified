@@ -45,9 +45,10 @@ win
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close
@@ -57,9 +58,10 @@ close
 ;
 waitForFocus
 (
-function
 (
 )
+=
+>
 testScenarios
 (
 win

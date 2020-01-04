@@ -66,6 +66,8 @@ function
 animateZoom
 (
 )
+{
+return
 prefsBranch
 .
 getBoolPref
@@ -75,6 +77,7 @@ animate_zoom
 "
 )
 ;
+}
 var
 contentWindow
 =

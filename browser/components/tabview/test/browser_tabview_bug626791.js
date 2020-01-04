@@ -606,9 +606,10 @@ true
 ;
 afterAllTabsLoaded
 (
-function
 (
 )
+=
+>
 testDragToCreateOrphan
 (
 tab

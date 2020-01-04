@@ -56,9 +56,10 @@ tvwin
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close

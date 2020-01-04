@@ -78,9 +78,10 @@ test1
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 TabView
 .
 hide
@@ -451,9 +452,10 @@ open
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 gBrowser
 .
 removeTab
