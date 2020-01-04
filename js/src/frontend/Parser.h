@@ -5149,6 +5149,13 @@ JSAtom
 exportName
 )
 ;
+bool
+addExportNamesForDeclaration
+(
+Node
+node
+)
+;
 enum
 ClassContext
 {
