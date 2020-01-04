@@ -5371,7 +5371,7 @@ gc
 :
 GetGCObjectKind
 where
-numElements
+numSlots
 is
 a
 guess
@@ -5418,12 +5418,12 @@ AllocKind
 GuessObjectGCKind
 (
 size_t
-numElements
+numSlots
 )
 {
 if
 (
-numElements
+numSlots
 )
 return
 gc
@@ -5431,7 +5431,7 @@ gc
 :
 GetGCObjectKind
 (
-numElements
+numSlots
 )
 ;
 return
@@ -5453,12 +5453,12 @@ AllocKind
 GuessArrayGCKind
 (
 size_t
-numElements
+numSlots
 )
 {
 if
 (
-numElements
+numSlots
 )
 return
 gc
@@ -5466,7 +5466,7 @@ gc
 :
 GetGCArrayKind
 (
-numElements
+numSlots
 )
 ;
 return

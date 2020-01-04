@@ -26345,11 +26345,10 @@ length
 (
 )
 <
-=
 NativeObject
 :
 :
-MAX_DENSE_ELEMENTS_COUNT
+NELEMENTS_LIMIT
 )
 ;
 size_t
