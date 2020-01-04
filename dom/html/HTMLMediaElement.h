@@ -1839,6 +1839,12 @@ DecoderPrincipalChangeObserver
 aObserver
 )
 ;
+class
+CaptureStreamTrackSource
+;
+class
+CaptureStreamTrackSourceGetter
+;
 /
 /
 Update
