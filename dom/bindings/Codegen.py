@@ -13922,6 +13922,19 @@ the
 function
 .
     
+secureContext
+:
+A
+bool
+indicating
+whether
+a
+secure
+context
+is
+required
+.
+    
 available
 :
 A
@@ -14001,6 +14014,9 @@ None
 func
 =
 None
+secureContext
+=
+False
 available
 =
 None
@@ -14038,6 +14054,13 @@ isinstance
 (
 func
 str
+)
+        
+assert
+isinstance
+(
+secureContext
+bool
 )
         
 assert
@@ -14089,6 +14112,12 @@ self
 pref
 =
 pref
+        
+self
+.
+secureContext
+=
+secureContext
         
 def
 toFuncPtr
@@ -14274,6 +14303,16 @@ and
                 
 self
 .
+secureContext
+=
+=
+other
+.
+secureContext
+and
+                
+self
+.
 available
 =
 =
@@ -14344,6 +14383,11 @@ pref
 is
 not
 None
+or
+                
+self
+.
+secureContext
 or
                 
 self
@@ -15027,6 +15071,18 @@ Func
 "
 )
             
+interfaceMember
+.
+getExtendedAttribute
+(
+"
+SecureContext
+"
+)
+is
+not
+None
+            
 getAvailableInTestFunc
 (
 interfaceMember
@@ -15377,6 +15433,8 @@ s
 s
 %
 s
+%
+s
             
 }
 ;
@@ -15548,6 +15606,13 @@ name
 len
 (
 specs
+)
+                                  
+toStringBool
+(
+condition
+.
+secureContext
 )
                                   
 condition
@@ -25201,6 +25266,36 @@ func
 [
 0
 ]
+)
+        
+if
+iface
+.
+getExtendedAttribute
+(
+"
+SecureContext
+"
+)
+:
+            
+conditions
+.
+append
+(
+"
+mozilla
+:
+:
+dom
+:
+:
+IsSecureContextOrObjectIsFromSecureContext
+(
+aCx
+aObj
+)
+"
 )
         
 availableIn
