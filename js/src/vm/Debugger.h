@@ -9390,8 +9390,11 @@ const
 EvalOptions
 &
 options
+JSTrapStatus
+&
+status
 MutableHandleValue
-result
+value
 )
 ;
 static
