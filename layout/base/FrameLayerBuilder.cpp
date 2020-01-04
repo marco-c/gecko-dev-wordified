@@ -21123,6 +21123,16 @@ mMaybeHitRegion
 rect
 )
 ;
+containingPaintedLayerData
+-
+>
+mMaybeHitRegion
+.
+SimplifyOutward
+(
+8
+)
+;
 }
 nsLayoutUtils
 :
