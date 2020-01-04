@@ -136,6 +136,9 @@ a11y
 class
 Accessible
 ;
+class
+AccessibleOrProxy
+;
 /
 *
 *
@@ -606,6 +609,11 @@ private
 Accessible
 *
 Intl
+(
+)
+;
+AccessibleOrProxy
+IntlGeneric
 (
 )
 ;
