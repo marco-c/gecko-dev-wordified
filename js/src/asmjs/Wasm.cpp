@@ -3493,6 +3493,17 @@ ExprType
 type
 )
 {
+JS_CHECK_RECURSION
+(
+f
+.
+cx
+(
+)
+return
+false
+)
+;
 Expr
 expr
 ;
