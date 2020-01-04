@@ -406,14 +406,6 @@ ScopedXErrorHandler
 :
 ScopedXErrorHandler
 (
-bool
-aAllowOffMainThread
-)
-{
-if
-(
-!
-aAllowOffMainThread
 )
 {
 /
@@ -463,7 +455,6 @@ issues
 "
 )
 ;
-}
 /
 /
 let
