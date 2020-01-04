@@ -26736,6 +26736,14 @@ docShellIsActive
 =
 false
 ;
+this
+.
+browser
+.
+blur
+(
+)
+;
 }
 }
 getActive
