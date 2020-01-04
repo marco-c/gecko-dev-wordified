@@ -235,14 +235,6 @@ nsIDOMEvent
 aMouseEvent
 )
 ;
-nsresult
-Fullscreen
-(
-nsIDOMEvent
-*
-aEvent
-)
-;
 static
 nsresult
 GetMenuAccessKey
