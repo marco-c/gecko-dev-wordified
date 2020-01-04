@@ -1878,6 +1878,12 @@ hadOutOfMemory
 =
 true
 ;
+AutoSuppressGC
+suppressGC
+(
+cx
+)
+;
 /
 *
 Report
@@ -1904,13 +1910,6 @@ runtime
 >
 oomCallback
 )
-{
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 oomCallback
 (
 cx
@@ -1925,7 +1924,6 @@ runtime
 oomCallbackData
 )
 ;
-}
 if
 (
 cx
@@ -2078,13 +2076,6 @@ runtime
 >
 errorReporter
 )
-{
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 onError
 (
 cx
@@ -2093,7 +2084,6 @@ msg
 report
 )
 ;
-}
 /
 *
 *
