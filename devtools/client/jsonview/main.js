@@ -237,9 +237,15 @@ DevTools
 )
 object
 from
-gDevTools
+devtools
+/
+client
+/
+framework
+/
+devtools
 .
-jsm
+js
 *
 /
 var
