@@ -2231,6 +2231,10 @@ too
 updatedRegion
 =
 aVisibleRegion
+.
+GetBounds
+(
+)
 ;
 mIsNewBuffer
 =
