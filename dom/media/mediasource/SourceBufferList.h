@@ -247,6 +247,16 @@ Length
 (
 )
 ;
+IMPL_EVENT_HANDLER
+(
+addsourcebuffer
+)
+;
+IMPL_EVENT_HANDLER
+(
+removesourcebuffer
+)
+;
 /
 *
 *
