@@ -586,6 +586,17 @@ to
 correlations
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -812,6 +823,7 @@ corr_rshifts
 [
 k
 ]
+arch
 )
 ;
 /
@@ -863,6 +875,7 @@ corr_rshifts
 [
 k
 ]
+arch
 )
 ;
 /

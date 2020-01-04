@@ -602,7 +602,7 @@ OPUS_INLINE
 void
 decode_split
 (
-opus_int
+opus_int16
 *
 p_child1
 /
@@ -616,7 +616,7 @@ child
 subframe
 *
 /
-opus_int
+opus_int16
 *
 p_child2
 /
@@ -1083,7 +1083,7 @@ pulses
 void
 silk_shell_decoder
 (
-opus_int
+opus_int16
 *
 pulses0
 /
@@ -1126,7 +1126,7 @@ subframe
 /
 )
 {
-opus_int
+opus_int16
 pulses3
 [
 2

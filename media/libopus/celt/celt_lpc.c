@@ -660,7 +660,7 @@ i
 endif
 }
 void
-celt_fir
+celt_fir_c
 (
 const
 opus_val16
@@ -680,6 +680,8 @@ ord
 opus_val16
 *
 mem
+int
+arch
 )
 {
 int
@@ -829,6 +831,11 @@ i
 #
 ifdef
 SMALL_FOOTPRINT
+(
+void
+)
+arch
+;
 for
 (
 i
@@ -948,6 +955,7 @@ x
 i
 sum
 ord
+arch
 )
 ;
 _y
@@ -1170,6 +1178,8 @@ ord
 opus_val16
 *
 mem
+int
+arch
 )
 {
 #
@@ -1178,6 +1188,11 @@ SMALL_FOOTPRINT
 int
 i
 j
+;
+(
+void
+)
+arch
 ;
 for
 (
@@ -1500,6 +1515,7 @@ y
 i
 sum
 ord
+arch
 )
 ;
 /

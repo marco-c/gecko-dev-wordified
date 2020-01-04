@@ -295,6 +295,13 @@ quant_bands
 .
 h
 "
+#
+include
+"
+cpu_support
+.
+h
+"
 static
 const
 opus_int16
@@ -2126,6 +2133,13 @@ logN
 int
 LM
 ;
+int
+arch
+=
+opus_select_arch
+(
+)
+;
 ALLOC_STACK
 ;
 #
@@ -3505,6 +3519,7 @@ mode
 -
 >
 maxLM
+arch
 )
 =
 =
@@ -3571,6 +3586,13 @@ CELTMode
 mode
 )
 {
+int
+arch
+=
+opus_select_arch
+(
+)
+;
 if
 (
 mode
@@ -3724,6 +3746,7 @@ mode
 -
 >
 mdct
+arch
 )
 ;
 opus_free

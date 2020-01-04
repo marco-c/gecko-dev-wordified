@@ -965,6 +965,17 @@ Complexity
 setting
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 ;
 /
@@ -2397,6 +2408,7 @@ silk_inner_prod_aligned
 target_ptr
 target_ptr
 SF_LENGTH_8KHZ
+arch
 )
 ;
 normalizer
@@ -2409,6 +2421,7 @@ silk_inner_prod_aligned
 basis_ptr
 basis_ptr
 SF_LENGTH_8KHZ
+arch
 )
 )
 ;
@@ -3941,6 +3954,7 @@ silk_inner_prod_aligned
 target_ptr
 target_ptr
 SF_LENGTH_8KHZ
+arch
 )
 1
 )
@@ -4013,6 +4027,7 @@ silk_inner_prod_aligned
 target_ptr
 basis_ptr
 SF_LENGTH_8KHZ
+arch
 )
 ;
 if
@@ -4029,6 +4044,7 @@ silk_inner_prod_aligned
 basis_ptr
 basis_ptr
 SF_LENGTH_8KHZ
+arch
 )
 ;
 matrix_ptr
@@ -5452,6 +5468,7 @@ start_lag
 sf_length
 nb_subfr
 complexity
+arch
 )
 ;
 lag_counter
@@ -5502,6 +5519,7 @@ target_ptr
 nb_subfr
 *
 sf_length
+arch
 )
 1
 )
@@ -6932,6 +6950,17 @@ Complexity
 setting
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 const
@@ -7148,6 +7177,7 @@ silk_inner_prod_aligned
 basis_ptr
 basis_ptr
 sf_length
+arch
 )
 ;
 silk_assert

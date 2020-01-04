@@ -1220,12 +1220,14 @@ _this
 >
 ext
 =
+celt_udiv
+(
 _this
 -
 >
 rng
-/
 _ft
+)
 ;
 s
 =

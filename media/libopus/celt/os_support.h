@@ -461,9 +461,7 @@ endif
 *
 Copy
 n
-bytes
-of
-memory
+elements
 from
 src
 to
@@ -533,9 +531,7 @@ endif
 *
 Copy
 n
-bytes
-of
-memory
+elements
 from
 src
 to
@@ -613,10 +609,6 @@ of
 dst
 to
 zero
-starting
-at
-address
-s
 *
 /
 #

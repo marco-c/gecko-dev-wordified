@@ -435,7 +435,7 @@ vector
 *
 /
 void
-silk_VQ_WMat_EC
+silk_VQ_WMat_EC_c
 (
 opus_int8
 *

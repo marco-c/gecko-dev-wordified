@@ -1281,6 +1281,12 @@ psEnc
 sCmn
 .
 pitchEstimationLPCOrder
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 if

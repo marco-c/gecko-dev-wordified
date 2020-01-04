@@ -545,6 +545,17 @@ LPC
 order
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -686,6 +697,7 @@ MAX_NB_SUBFR
 *
 offset
 LPC_order
+arch
 )
 ;
 /

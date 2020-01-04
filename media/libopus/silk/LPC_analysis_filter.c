@@ -608,6 +608,17 @@ Filter
 order
 *
 /
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
+*
+/
 )
 {
 opus_int
@@ -754,6 +765,7 @@ len
 d
 d
 mem
+arch
 )
 ;
 for
@@ -781,6 +793,11 @@ j
 }
 #
 else
+(
+void
+)
+arch
+;
 for
 (
 ix

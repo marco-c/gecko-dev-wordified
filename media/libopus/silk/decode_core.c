@@ -588,7 +588,7 @@ speech
 *
 /
 const
-opus_int
+opus_int16
 pulses
 [
 MAX_FRAME_LENGTH
@@ -598,6 +598,17 @@ MAX_FRAME_LENGTH
 I
 Pulse
 signal
+*
+/
+int
+arch
+/
+*
+I
+Run
+-
+time
+architecture
 *
 /
 )
@@ -1475,6 +1486,7 @@ psDec
 -
 >
 LPC_order
+arch
 )
 ;
 /

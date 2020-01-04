@@ -766,7 +766,7 @@ data
 structure
 *
 /
-opus_int
+opus_int16
 pulses
 [
 ]
@@ -840,7 +840,7 @@ icdf
 2
 ]
 ;
-opus_int
+opus_int16
 *
 q_ptr
 ;

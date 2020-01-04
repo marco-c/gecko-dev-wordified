@@ -816,6 +816,7 @@ ext
 ;
 }
 static
+OPUS_INLINE
 void
 ec_enc_normalize
 (
@@ -1069,12 +1070,14 @@ r
 ;
 r
 =
+celt_udiv
+(
 _this
 -
 >
 rng
-/
 _ft
+)
 ;
 if
 (

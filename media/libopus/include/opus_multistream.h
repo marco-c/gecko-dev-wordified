@@ -888,7 +888,7 @@ a
 href
 =
 "
-http
+https
 :
 /
 /
@@ -902,7 +902,9 @@ html
 /
 draft
 -
-terriberry
+ietf
+-
+codec
 -
 oggopus
 "
@@ -936,7 +938,7 @@ a
 href
 =
 "
-http
+https
 :
 /
 /
@@ -1367,7 +1369,7 @@ a
 href
 =
 "
-http
+https
 :
 /
 /
@@ -1387,7 +1389,7 @@ html
 #
 x1
 -
-800004
+810004
 .
 3
 .

@@ -897,6 +897,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 silk_sum_sqr_shift

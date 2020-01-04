@@ -791,6 +791,12 @@ psEnc
 sCmn
 .
 nb_subfr
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 /

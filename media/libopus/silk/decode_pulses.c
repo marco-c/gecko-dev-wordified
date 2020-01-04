@@ -529,7 +529,7 @@ data
 structure
 *
 /
-opus_int
+opus_int16
 pulses
 [
 ]
@@ -589,7 +589,7 @@ nLshifts
 MAX_NB_SHELL_BLOCKS
 ]
 ;
-opus_int
+opus_int16
 *
 pulses_ptr
 ;
@@ -1141,7 +1141,10 @@ SHELL_CODEC_FRAME_LENGTH
 *
 sizeof
 (
-opus_int
+pulses
+[
+0
+]
 )
 )
 ;
