@@ -599,6 +599,15 @@ sFFVPXLib
 Link
 (
 )
+=
+=
+FFmpegLibWrapper
+:
+:
+LinkResult
+:
+:
+Success
 )
 {
 sLinkStatus
