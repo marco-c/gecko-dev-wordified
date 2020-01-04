@@ -17465,6 +17465,14 @@ cmd
 .
 parameters
 ;
+highlights
+=
+highlights
+|
+|
+[
+]
+;
 switch
 (
 this
@@ -17803,8 +17811,8 @@ listener
 takeScreenshot
 (
 id
-highlights
 full
+highlights
 )
 ;
 break
