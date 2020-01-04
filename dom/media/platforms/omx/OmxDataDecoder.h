@@ -924,7 +924,7 @@ Atomic
 <
 bool
 >
-mShutdown
+mShuttingDown
 ;
 /
 /
