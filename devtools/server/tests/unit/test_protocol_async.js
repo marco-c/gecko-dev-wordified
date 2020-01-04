@@ -579,6 +579,7 @@ connect
 .
 then
 (
+(
 [
 applicationType
 traits
