@@ -547,15 +547,6 @@ Id
 )
 const
 ;
-uint16_t
-Stream
-(
-)
-const
-;
-/
-/
-deprecated
 nsresult
 DoOnMessageAvailable
 (
