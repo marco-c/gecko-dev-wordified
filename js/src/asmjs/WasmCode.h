@@ -2667,9 +2667,6 @@ funcNames
 CacheableChars
 filename
 ;
-Assumptions
-assumptions
-;
 bool
 usesMemory
 (

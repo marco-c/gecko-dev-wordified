@@ -813,10 +813,7 @@ false
 if
 (
 !
-metadata_
--
->
-assumptions
+assumptions_
 .
 clone
 (
@@ -7301,6 +7298,10 @@ js_new
 Module
 >
 (
+Move
+(
+assumptions_
+)
 Move
 (
 code
