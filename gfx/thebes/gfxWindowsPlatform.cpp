@@ -11183,6 +11183,10 @@ aData
 d3d11Device
 (
 )
+.
+get_D3D11DeviceStatus
+(
+)
 )
 ;
 }
