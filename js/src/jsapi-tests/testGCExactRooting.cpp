@@ -134,7 +134,7 @@ include
 "
 js
 /
-RootingAPI
+GCVector
 .
 h
 "
@@ -143,7 +143,7 @@ include
 "
 js
 /
-TraceableVector
+RootingAPI
 .
 h
 "
@@ -1453,7 +1453,7 @@ testGCHandleHashMap
 using
 ShapeVec
 =
-TraceableVector
+GCVector
 <
 Shape
 *
@@ -1764,7 +1764,7 @@ JS
 :
 Rooted
 <
-TraceableVector
+GCVector
 <
 Shape
 *
@@ -1810,7 +1810,7 @@ JS
 :
 Handle
 <
-TraceableVector
+GCVector
 <
 Shape
 *
@@ -1855,7 +1855,7 @@ JS
 :
 MutableHandle
 <
-TraceableVector
+GCVector
 <
 Shape
 *
@@ -2191,7 +2191,7 @@ testTraceableFifo
 using
 ShapeVec
 =
-TraceableVector
+GCVector
 <
 Shape
 *

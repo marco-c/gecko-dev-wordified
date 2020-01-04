@@ -7248,7 +7248,7 @@ ModuleBuilder
 createArray
 (
 const
-TraceableVector
+GCVector
 <
 T
 >

@@ -142,7 +142,7 @@ include
 "
 js
 /
-TraceableVector
+GCVector
 .
 h
 "
@@ -975,7 +975,7 @@ fun
 using
 FunctionDeclarationVector
 =
-TraceableVector
+GCVector
 <
 FunctionDeclaration
 0
@@ -1357,7 +1357,7 @@ const
 using
 ExportEntryVector
 =
-TraceableVector
+GCVector
 <
 ExportEntryObject
 *
@@ -1390,7 +1390,7 @@ private
 using
 AtomVector
 =
-TraceableVector
+GCVector
 <
 JSAtom
 *
@@ -1410,7 +1410,7 @@ AtomVector
 using
 ImportEntryVector
 =
-TraceableVector
+GCVector
 <
 ImportEntryObject
 *
@@ -1513,7 +1513,7 @@ ArrayObject
 createArray
 (
 const
-TraceableVector
+GCVector
 <
 T
 >

@@ -1843,7 +1843,7 @@ syntax
 .
 Rooted
 <
-TraceableVector
+GCVector
 <
 JSFunction
 *
@@ -2146,7 +2146,7 @@ prs
 -
 >
 context
-TraceableVector
+GCVector
 <
 JSFunction
 *
