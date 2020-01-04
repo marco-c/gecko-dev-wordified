@@ -4564,9 +4564,6 @@ StyleBorder
 (
 )
 flags
-nullptr
--
-1
 )
 ;
 maskSurface
