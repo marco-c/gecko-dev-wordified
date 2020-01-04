@@ -400,7 +400,7 @@ IsApplication
 aEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 =

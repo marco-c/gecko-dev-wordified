@@ -2457,7 +2457,7 @@ doc
 aEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;
