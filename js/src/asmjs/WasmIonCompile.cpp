@@ -9159,6 +9159,17 @@ accessNeedsBoundsCheck
 =
 true
 ;
+/
+/
+Assume
+worst
+case
+.
+bool
+atomicAccess
+=
+true
+;
 if
 (
 endOffset
@@ -9172,6 +9183,7 @@ mirGen
 foldableOffsetRange
 (
 accessNeedsBoundsCheck
+atomicAccess
 )
 )
 {

@@ -1114,6 +1114,8 @@ foldableOffsetRange
 (
 bool
 accessNeedsBoundsCheck
+bool
+atomic
 )
 const
 ;
