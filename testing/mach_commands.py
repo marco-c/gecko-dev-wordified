@@ -4213,6 +4213,16 @@ p
             
 if
 not
+(
+os
+.
+path
+.
+isdir
+(
+p
+)
+and
 p
 .
 startswith
@@ -4220,6 +4230,7 @@ startswith
 self
 .
 topsrcdir
+)
 )
 :
                 
@@ -4233,15 +4244,17 @@ path
 s
 "
 is
-outside
-of
+not
+a
+directory
+under
 the
 srcdir
-unable
-to
 '
                       
 '
+unable
+to
 specify
 tests
 outside
