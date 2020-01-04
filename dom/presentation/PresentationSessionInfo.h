@@ -469,8 +469,9 @@ this
 nsresult
 Send
 (
-nsIInputStream
-*
+const
+nsAString
+&
 aData
 )
 ;
