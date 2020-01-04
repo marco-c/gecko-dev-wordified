@@ -216,7 +216,7 @@ RTCOutboundRTPStreamStats
 #
 include
 "
-nricectx
+nricectxhandler
 .
 h
 "
@@ -1661,7 +1661,7 @@ SelfDestruct
 ;
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 ice_ctx
 (
@@ -3344,7 +3344,7 @@ ICE
 objects
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 mIceCtx
 ;

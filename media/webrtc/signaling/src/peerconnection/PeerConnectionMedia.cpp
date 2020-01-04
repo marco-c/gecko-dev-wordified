@@ -1996,7 +1996,7 @@ API
 .
 mIceCtx
 =
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create
