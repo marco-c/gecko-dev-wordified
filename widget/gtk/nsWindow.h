@@ -1296,9 +1296,15 @@ private
 void
 UpdateAlpha
 (
-gfxPattern
+mozilla
+:
+:
+gfx
+:
+:
+SourceSurface
 *
-aPattern
+aSourceSurface
 nsIntRect
 aBoundsRect
 )
