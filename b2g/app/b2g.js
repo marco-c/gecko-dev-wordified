@@ -2341,7 +2341,7 @@ app
 releaseNotesURL
 "
 "
-http
+https
 :
 /
 /
@@ -2376,7 +2376,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
@@ -2398,7 +2398,7 @@ app
 privacyURL
 "
 "
-http
+https
 :
 /
 /
@@ -2428,7 +2428,7 @@ app
 creditsURL
 "
 "
-http
+https
 :
 /
 /
@@ -2451,7 +2451,7 @@ app
 featuresURL
 "
 "
-http
+https
 :
 /
 /
@@ -2480,7 +2480,7 @@ app
 faqURL
 "
 "
-http
+https
 :
 /
 /
