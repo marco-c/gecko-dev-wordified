@@ -7806,7 +7806,7 @@ wrapper
 jsClass
 -
 >
-finalize
+doFinalize
 (
 nullptr
 wrapper

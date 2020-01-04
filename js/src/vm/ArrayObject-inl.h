@@ -329,7 +329,9 @@ clasp
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 heap
 =
 =

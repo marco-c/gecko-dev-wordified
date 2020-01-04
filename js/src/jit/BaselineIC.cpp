@@ -6169,7 +6169,9 @@ getClass
 )
 -
 >
-addProperty
+getAddProperty
+(
+)
 )
 {
 return

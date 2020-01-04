@@ -10368,7 +10368,9 @@ if
 clasp
 -
 >
-trace
+hasTrace
+(
+)
 )
 return
 &
@@ -10387,13 +10389,13 @@ if
 clasp
 -
 >
-trace
-=
-=
+isTrace
+(
 InlineTypedObject
 :
 :
 obj_trace
+)
 )
 {
 Shape
@@ -10635,7 +10637,7 @@ nullptr
 clasp
 -
 >
-trace
+doTrace
 (
 trc
 obj

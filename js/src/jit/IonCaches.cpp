@@ -3281,7 +3281,9 @@ getClass
 )
 -
 >
-getProperty
+getGetProperty
+(
+)
 )
 return
 false
@@ -22185,7 +22187,9 @@ getClass
 )
 -
 >
-addProperty
+getAddProperty
+(
+)
 )
 return
 false

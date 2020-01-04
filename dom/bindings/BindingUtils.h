@@ -15346,6 +15346,14 @@ const
 js
 :
 :
+ClassOps
+sBoringInterfaceObjectClassClassOps
+;
+extern
+const
+js
+:
+:
 ObjectOps
 sInterfaceObjectClassObjectOps
 ;
@@ -15550,7 +15558,9 @@ obj
 )
 -
 >
-construct
+getConstruct
+(
+)
 ;
 }
 #

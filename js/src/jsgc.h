@@ -1240,7 +1240,9 @@ kind
 clasp
 -
 >
-finalize
+hasFinalize
+(
+)
 |
 |
 (

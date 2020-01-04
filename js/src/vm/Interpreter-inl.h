@@ -3861,7 +3861,9 @@ getClass
 )
 -
 >
-getProperty
+getGetProperty
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -3875,7 +3877,9 @@ getClass
 )
 -
 >
-setProperty
+getSetProperty
+(
+)
 )
 ;
 RootedId

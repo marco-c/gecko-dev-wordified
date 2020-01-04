@@ -321,7 +321,7 @@ obj
 =
 =
 &
-jsclass
+class_
 )
 ;
 return

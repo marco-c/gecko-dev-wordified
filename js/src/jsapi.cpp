@@ -12077,7 +12077,9 @@ getClass
 )
 -
 >
-getProperty
+getGetProperty
+(
+)
 ;
 if
 (
@@ -12094,7 +12096,9 @@ getClass
 )
 -
 >
-setProperty
+getSetProperty
+(
+)
 ;
 }
 if

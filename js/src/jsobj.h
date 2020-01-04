@@ -8196,7 +8196,9 @@ if
 clasp
 -
 >
-finalize
+hasFinalize
+(
+)
 &
 &
 !

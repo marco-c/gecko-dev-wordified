@@ -544,7 +544,9 @@ global
 )
 -
 >
-resolve
+getResolve
+(
+)
 )
 ;
 CHECK

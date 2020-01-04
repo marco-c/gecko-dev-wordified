@@ -18870,7 +18870,9 @@ getClass
 )
 -
 >
-getProperty
+getGetProperty
+(
+)
 )
 return
 false

@@ -44388,7 +44388,9 @@ getClass
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 )
 )
 ;

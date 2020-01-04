@@ -860,6 +860,11 @@ private
 :
 static
 const
+ClassOps
+classOps_
+;
+static
+const
 JSPropertySpec
 properties
 [
@@ -1566,6 +1571,11 @@ rval
 ;
 private
 :
+static
+const
+ClassOps
+classOps_
+;
 static
 const
 JSPropertySpec

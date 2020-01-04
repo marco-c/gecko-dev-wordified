@@ -2379,6 +2379,11 @@ MappedArgumentsObject
 public
 ArgumentsObject
 {
+static
+const
+ClassOps
+classOps_
+;
 public
 :
 static
@@ -2499,6 +2504,11 @@ UnmappedArgumentsObject
 public
 ArgumentsObject
 {
+static
+const
+ClassOps
+classOps_
+;
 public
 :
 static
