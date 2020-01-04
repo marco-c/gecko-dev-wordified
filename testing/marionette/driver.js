@@ -3996,6 +3996,7 @@ prototype
 newSession
 =
 function
+*
 (
 cmd
 resp
@@ -6593,6 +6594,7 @@ prototype
 execute
 =
 function
+*
 (
 cmd
 resp
@@ -7163,6 +7165,7 @@ prototype
 executeJSScript
 =
 function
+*
 (
 cmd
 resp
@@ -7517,6 +7520,7 @@ prototype
 executeWithCallback
 =
 function
+*
 (
 cmd
 resp
@@ -8667,6 +8671,7 @@ prototype
 get
 =
 function
+*
 (
 cmd
 resp
@@ -9221,8 +9226,6 @@ location
 .
 href
 ;
-break
-;
 case
 Context
 .
@@ -9250,8 +9253,6 @@ getCurrentUrl
 isB2G
 )
 ;
-break
-;
 }
 }
 ;
@@ -9275,6 +9276,7 @@ prototype
 getTitle
 =
 function
+*
 (
 cmd
 resp
@@ -9423,6 +9425,7 @@ prototype
 getPageSource
 =
 function
+*
 (
 cmd
 resp
@@ -9518,6 +9521,7 @@ prototype
 goBack
 =
 function
+*
 (
 cmd
 resp
@@ -9551,6 +9555,7 @@ prototype
 goForward
 =
 function
+*
 (
 cmd
 resp
@@ -9583,6 +9588,7 @@ prototype
 refresh
 =
 function
+*
 (
 cmd
 resp
@@ -10804,6 +10810,7 @@ prototype
 switchToWindow
 =
 function
+*
 (
 cmd
 resp
@@ -11334,12 +11341,6 @@ break
 }
 }
 ;
-/
-*
-*
-*
-*
-/
 GeckoDriver
 .
 prototype
@@ -11347,6 +11348,7 @@ prototype
 switchToParentFrame
 =
 function
+*
 (
 cmd
 resp
@@ -11441,6 +11443,7 @@ prototype
 switchToFrame
 =
 function
+*
 (
 cmd
 resp
@@ -12789,6 +12792,7 @@ prototype
 singleTap
 =
 function
+*
 (
 cmd
 resp
@@ -12923,6 +12927,7 @@ prototype
 actionChain
 =
 function
+*
 (
 cmd
 resp
@@ -13170,6 +13175,7 @@ prototype
 multiAction
 =
 function
+*
 (
 cmd
 resp
@@ -13296,6 +13302,7 @@ prototype
 findElement
 =
 function
+*
 (
 cmd
 resp
@@ -13489,6 +13496,7 @@ prototype
 findElements
 =
 function
+*
 (
 cmd
 resp
@@ -13654,6 +13662,7 @@ prototype
 getActiveElement
 =
 function
+*
 (
 cmd
 resp
@@ -13713,6 +13722,7 @@ prototype
 clickElement
 =
 function
+*
 (
 cmd
 resp
@@ -13767,6 +13777,7 @@ curBrowser
 elementManager
 id
 )
+;
 break
 ;
 case
@@ -13910,6 +13921,7 @@ prototype
 getElementAttribute
 =
 function
+*
 (
 cmd
 resp
@@ -14057,6 +14069,7 @@ prototype
 getElementText
 =
 function
+*
 (
 cmd
 resp
@@ -14226,6 +14239,7 @@ prototype
 getElementTagName
 =
 function
+*
 (
 cmd
 resp
@@ -14359,6 +14373,7 @@ prototype
 isElementDisplayed
 =
 function
+*
 (
 cmd
 resp
@@ -14504,6 +14519,7 @@ prototype
 getElementValueOfCssProperty
 =
 function
+*
 (
 cmd
 resp
@@ -14655,6 +14671,7 @@ prototype
 isElementEnabled
 =
 function
+*
 (
 cmd
 resp
@@ -14790,6 +14807,7 @@ prototype
 isElementSelected
 =
 function
+*
 (
 cmd
 resp
@@ -14896,6 +14914,7 @@ prototype
 getElementRect
 =
 function
+*
 (
 cmd
 resp
@@ -15075,6 +15094,7 @@ prototype
 sendKeysToElement
 =
 function
+*
 (
 cmd
 resp
@@ -15401,6 +15421,7 @@ prototype
 setTestName
 =
 function
+*
 (
 cmd
 resp
@@ -15475,6 +15496,7 @@ prototype
 clearElement
 =
 function
+*
 (
 cmd
 resp
@@ -15634,6 +15656,7 @@ prototype
 switchToShadowRoot
 =
 function
+*
 (
 cmd
 resp
@@ -15689,6 +15712,7 @@ prototype
 addCookie
 =
 function
+*
 (
 cmd
 resp
@@ -15831,6 +15855,7 @@ prototype
 getCookies
 =
 function
+*
 (
 cmd
 resp
@@ -15873,6 +15898,7 @@ prototype
 deleteAllCookies
 =
 function
+*
 (
 cmd
 resp
@@ -15970,6 +15996,7 @@ prototype
 deleteCookie
 =
 function
+*
 (
 cmd
 resp
@@ -16960,6 +16987,7 @@ prototype
 getAppCacheStatus
 =
 function
+*
 (
 cmd
 resp
@@ -16989,6 +17017,7 @@ prototype
 importScript
 =
 function
+*
 (
 cmd
 resp
