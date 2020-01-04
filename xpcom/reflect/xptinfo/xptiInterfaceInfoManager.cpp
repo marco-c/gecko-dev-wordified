@@ -371,7 +371,7 @@ it
 amount
 +
 =
-XPT_SizeOfArena
+XPT_SizeOfArenaIncludingThis
 (
 gXPTIStructArena
 XPTIMallocSizeOf
