@@ -177,7 +177,7 @@ class
 GeckoContentController
 ;
 class
-IAPZCTreeManager
+APZCTreeManager
 ;
 class
 CompositorBridgeParent
@@ -330,7 +330,7 @@ compositor
 virtual
 already_AddRefed
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 GetAPZCTreeManager
 (

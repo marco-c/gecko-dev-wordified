@@ -177,7 +177,7 @@ mozilla
 /
 layers
 /
-IAPZCTreeManager
+APZCTreeManager
 .
 h
 "
@@ -256,7 +256,7 @@ aWidget
 APZEventState
 *
 aAPZEventState
-IAPZCTreeManager
+APZCTreeManager
 *
 aAPZCTreeManager
 )

@@ -195,7 +195,7 @@ NYI
 }
 already_AddRefed
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 RemoteCompositorSession
 :

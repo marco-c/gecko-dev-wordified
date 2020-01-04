@@ -170,7 +170,7 @@ class
 APZEventState
 ;
 class
-IAPZCTreeManager
+APZCTreeManager
 ;
 }
 namespace
@@ -211,7 +211,7 @@ mozilla
 layers
 :
 :
-IAPZCTreeManager
+APZCTreeManager
 *
 aAPZCTreeManager
 )
@@ -335,7 +335,7 @@ mozilla
 layers
 :
 :
-IAPZCTreeManager
+APZCTreeManager
 *
 aManager
 uint64_t

@@ -146,7 +146,7 @@ namespace
 layers
 {
 class
-IAPZCTreeManager
+APZCTreeManager
 ;
 /
 *
@@ -536,7 +536,7 @@ mBrowserParent
 }
 already_AddRefed
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 GetApzcTreeManager
 (
@@ -577,7 +577,7 @@ mMutex
 ;
 RefPtr
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 mApzcTreeManager
 ;

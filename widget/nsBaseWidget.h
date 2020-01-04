@@ -325,7 +325,7 @@ class
 CompositorBridgeParent
 ;
 class
-IAPZCTreeManager
+APZCTreeManager
 ;
 class
 GeckoContentController
@@ -651,8 +651,8 @@ mozilla
 layers
 :
 :
-IAPZCTreeManager
-IAPZCTreeManager
+APZCTreeManager
+APZCTreeManager
 ;
 typedef
 mozilla
@@ -3569,7 +3569,7 @@ mCompositorVsyncDispatcher
 ;
 RefPtr
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 mAPZC
 ;
