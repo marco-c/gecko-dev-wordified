@@ -234,7 +234,7 @@ ElementInlines
 h
 "
 class
-nsDOMSettableTokenList
+nsDOMTokenList
 ;
 class
 nsIDOMHTMLMenuElement
@@ -596,7 +596,7 @@ aError
 )
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 ItemType
 (
@@ -656,7 +656,7 @@ aError
 )
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 ItemRef
 (
@@ -672,7 +672,7 @@ itemref
 )
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 ItemProp
 (

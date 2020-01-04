@@ -412,13 +412,6 @@ h
 #
 include
 "
-nsDOMSettableTokenList
-.
-h
-"
-#
-include
-"
 nsDOMTokenList
 .
 h
@@ -17623,7 +17616,7 @@ Truncate
 }
 static
 void
-nsDOMSettableTokenListPropertyDestructor
+nsDOMTokenListPropertyDestructor
 (
 void
 *
@@ -17639,13 +17632,13 @@ void
 aData
 )
 {
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 list
 =
 static_cast
 <
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 >
 (
@@ -17718,7 +17711,7 @@ return
 sPropertiesToTraverseAndUnlink
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 Element
 :
@@ -17801,7 +17794,7 @@ tokenlist
 ;
 #
 endif
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 list
 =
@@ -17818,7 +17811,7 @@ list
 =
 static_cast
 <
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 >
 (
@@ -17838,7 +17831,7 @@ list
 list
 =
 new
-nsDOMSettableTokenList
+nsDOMTokenList
 (
 this
 aAtom
@@ -17853,7 +17846,7 @@ SetProperty
 (
 aAtom
 list
-nsDOMSettableTokenListPropertyDestructor
+nsDOMTokenListPropertyDestructor
 )
 ;
 }
@@ -17930,7 +17923,7 @@ nsIVariant
 aValue
 )
 {
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 itemType
 =

@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsDOMSettableTokenList
+nsDOMTokenList
 .
 h
 "
@@ -821,7 +821,7 @@ true
 ;
 }
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 HTMLOutputElement
 :
@@ -839,7 +839,7 @@ mTokenList
 mTokenList
 =
 new
-nsDOMSettableTokenList
+nsDOMTokenList
 (
 this
 nsGkAtoms

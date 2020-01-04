@@ -278,7 +278,7 @@ aError
 /
 already_AddRefed
 <
-nsDOMSettableTokenList
+nsDOMTokenList
 >
 Headers
 (

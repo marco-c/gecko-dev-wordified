@@ -380,7 +380,7 @@ override
 /
 /
 WebIDL
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 HtmlFor
 (
@@ -576,7 +576,7 @@ mDefaultValue
 ;
 RefPtr
 <
-nsDOMSettableTokenList
+nsDOMTokenList
 >
 mTokenList
 ;
