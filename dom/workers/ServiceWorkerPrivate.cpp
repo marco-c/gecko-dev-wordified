@@ -4229,12 +4229,6 @@ nsCString
 >
 mHeaderValues
 ;
-UniquePtr
-<
-ServiceWorkerClientInfo
->
-mClientInfo
-;
 nsCString
 mSpec
 ;
@@ -4336,13 +4330,6 @@ aChannel
 mScriptSpec
 (
 aScriptSpec
-)
-mClientInfo
-(
-Move
-(
-aClientInfo
-)
 )
 mIsReload
 (
@@ -5634,10 +5621,6 @@ PostInit
 (
 mInterceptedChannel
 mScriptSpec
-Move
-(
-mClientInfo
-)
 )
 ;
 event
