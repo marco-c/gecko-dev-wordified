@@ -1678,7 +1678,9 @@ PodSet
 T
 *
 aDst
+const
 T
+&
 aSrc
 size_t
 aNElem
