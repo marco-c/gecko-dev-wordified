@@ -17196,6 +17196,17 @@ nsIProperties
 >
 props
 ;
+nsCOMPtr
+<
+nsIDOMDocument
+>
+domDoc
+=
+do_QueryInterface
+(
+aDocument
+)
+;
 nsresult
 rv
 =
@@ -17205,6 +17216,7 @@ cache
 FindEntryProperties
 (
 aURI
+domDoc
 getter_AddRefs
 (
 props

@@ -7542,6 +7542,9 @@ FindEntryProperties
 nsIURI
 *
 uri
+nsIDOMDocument
+*
+doc
 nsIProperties
 *
 *

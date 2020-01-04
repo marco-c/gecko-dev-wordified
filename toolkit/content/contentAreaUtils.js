@@ -958,6 +958,7 @@ getCharsetforSave
 null
 )
 )
+aDoc
 )
 ;
 if
