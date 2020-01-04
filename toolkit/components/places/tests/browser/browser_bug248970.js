@@ -242,6 +242,7 @@ NetUtil
 add_task
 (
 function
+*
 (
 )
 {
