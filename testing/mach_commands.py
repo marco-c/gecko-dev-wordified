@@ -3897,6 +3897,11 @@ kwargs
 )
 :
         
+from
+autotry
+import
+AutoTry
+        
 if
 not
 kwargs
@@ -4434,6 +4439,51 @@ exit
 1
 )
         
+extra_values
+=
+{
+k
+[
+'
+dest
+'
+]
+for
+k
+in
+AutoTry
+.
+pass_through_arguments
+.
+values
+(
+)
+}
+        
+extra_args
+=
+{
+k
+:
+v
+for
+k
+v
+in
+kwargs
+.
+items
+(
+)
+                      
+if
+k
+in
+extra_values
+and
+v
+}
+        
 return
 kwargs
 [
@@ -4446,12 +4496,7 @@ tests
 talos
 paths
 tags
-kwargs
-[
-"
 extra_args
-"
-]
     
 Command
 (
@@ -5100,7 +5145,7 @@ tests
 talos
 paths
 tags
-extra_args
+extra
 =
 self
 .
@@ -5270,7 +5315,7 @@ builds
 paths_by_flavor
 tags
                                      
-extra_args
+extra
 kwargs
 [
 "
