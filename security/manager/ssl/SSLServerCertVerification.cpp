@@ -1409,8 +1409,10 @@ sslerr
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gPIPNSSLog
 ;
 using

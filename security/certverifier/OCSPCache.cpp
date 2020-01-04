@@ -313,8 +313,10 @@ secerr
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gCertVerifierLog
 ;
 using

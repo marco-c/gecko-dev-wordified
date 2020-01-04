@@ -256,8 +256,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gPIPNSSLog
 ;
 namespace
