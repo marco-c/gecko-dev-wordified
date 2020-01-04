@@ -2176,9 +2176,6 @@ if
 clientLayerManager
 &
 &
-mCompositorBridgeParent
-&
-&
 !
 mBounds
 .
@@ -2220,10 +2217,10 @@ out
 of
 date
 .
-mCompositorBridgeParent
+clientLayerManager
 -
 >
-ScheduleRenderOnCompositorThread
+Composite
 (
 )
 ;
@@ -2504,9 +2501,6 @@ hDC
 if
 (
 clientLayerManager
-&
-&
-mCompositorBridgeParent
 )
 {
 /
@@ -2627,9 +2621,6 @@ if
 clientLayerManager
 &
 &
-mCompositorBridgeParent
-&
-&
 clientLayerManager
 -
 >
@@ -2638,10 +2629,10 @@ NeedsComposite
 )
 )
 {
-mCompositorBridgeParent
+clientLayerManager
 -
 >
-ScheduleRenderOnCompositorThread
+Composite
 (
 )
 ;
