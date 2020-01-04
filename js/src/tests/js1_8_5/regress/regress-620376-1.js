@@ -71,12 +71,13 @@ return
 var
 p
 =
+new
 Proxy
-.
-create
 (
 {
-keys
+}
+{
+onwKeys
 :
 function
 (

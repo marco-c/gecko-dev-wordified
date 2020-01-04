@@ -49,12 +49,12 @@ this
 var
 p
 =
+new
 Proxy
-.
-createFunction
 (
 f
-f
+{
+}
 )
 ;
 String
