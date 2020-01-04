@@ -212,9 +212,7 @@ Test
 fakes
 .
 const
-{
 stubConsoleMessages
-}
 =
 require
 (
@@ -236,6 +234,8 @@ test
 fixtures
 /
 stubs
+/
+index
 "
 )
 ;
@@ -405,6 +405,11 @@ get
 (
 "
 ReferenceError
+:
+asdf
+is
+not
+defined
 "
 )
 }

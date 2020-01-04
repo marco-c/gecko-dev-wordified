@@ -304,6 +304,11 @@ Date
 PageError
 "
 ReferenceError
+:
+asdf
+is
+not
+defined
 "
 ]
 )
