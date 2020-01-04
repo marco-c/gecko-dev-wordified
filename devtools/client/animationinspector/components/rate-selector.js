@@ -160,8 +160,11 @@ l10n
 )
 ;
 const
-STRINGS_URI
+L10N
 =
+new
+LocalizationHelper
+(
 "
 devtools
 /
@@ -171,14 +174,6 @@ animationinspector
 .
 properties
 "
-;
-const
-L10N
-=
-new
-LocalizationHelper
-(
-STRINGS_URI
 )
 ;
 /
