@@ -1251,10 +1251,6 @@ BufferRecycleBin
 (
 )
 )
-mImageClient
-(
-nullptr
-)
 mCurrentProducerID
 (
 -
@@ -1348,10 +1344,6 @@ CompositableType
 IMAGE
 this
 )
-.
-take
-(
-)
 ;
 MOZ_ASSERT
 (
@@ -1431,10 +1423,6 @@ mRecycleBin
 (
 nullptr
 )
-mImageClient
-(
-nullptr
-)
 mAsyncContainerID
 (
 aAsyncContainerID
@@ -1481,9 +1469,8 @@ ForgetImageContainer
 ImageBridgeChild
 :
 :
-DispatchReleaseImageClient
+DispatchReleaseImageContainer
 (
-mImageClient
 mIPDLChild
 )
 ;

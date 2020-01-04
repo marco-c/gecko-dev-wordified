@@ -3627,8 +3627,10 @@ get_OpContentBufferSwap
 (
 )
 ;
+RefPtr
+<
 CompositableClient
-*
+>
 compositable
 =
 CompositableClient
@@ -3654,6 +3656,10 @@ ContentClientRemote
 >
 (
 compositable
+.
+get
+(
+)
 )
 ;
 MOZ_ASSERT

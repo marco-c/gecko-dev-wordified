@@ -4084,8 +4084,10 @@ ImageBridge
 IPDL
 protocol
 .
+RefPtr
+<
 ImageClient
-*
+>
 mImageClient
 ;
 uint64_t
