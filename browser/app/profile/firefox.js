@@ -8489,6 +8489,9 @@ flashBar
 1
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -8509,6 +8512,8 @@ modalHighlight
 true
 )
 ;
+#
+endif
 /
 /
 Tracks
