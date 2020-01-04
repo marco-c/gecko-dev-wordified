@@ -213,6 +213,9 @@ nsASocketHandler
 struct
 PRPollDesc
 ;
+class
+nsIPrefBranch
+;
 /
 /
 -
@@ -2160,6 +2163,13 @@ prefs
 nsresult
 UpdatePrefs
 (
+)
+;
+void
+UpdateSendBufferPref
+(
+nsIPrefBranch
+*
 )
 ;
 int32_t
