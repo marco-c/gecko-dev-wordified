@@ -2225,14 +2225,13 @@ BookmarkHTMLUtils
 importFromURL
 (
 "
-resource
+chrome
 :
 /
 /
+browser
 /
-defaults
-/
-profile
+locale
 /
 bookmarks
 .

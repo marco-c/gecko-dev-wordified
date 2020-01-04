@@ -714,14 +714,13 @@ let
 defaultBookmarks
 =
 '
-resource
+chrome
 :
 /
 /
+browser
 /
-defaults
-/
-profile
+locale
 /
 bookmarks
 .

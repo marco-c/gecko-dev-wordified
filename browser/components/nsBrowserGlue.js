@@ -13039,14 +13039,13 @@ folder
 bookmarksUrl
 =
 "
-resource
+chrome
 :
 /
 /
+browser
 /
-defaults
-/
-profile
+locale
 /
 bookmarks
 .
