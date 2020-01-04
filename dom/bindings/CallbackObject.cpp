@@ -672,10 +672,10 @@ realCallback
 ;
 globalObject
 =
-workers
+xpc
 :
 :
-GetGlobalObjectForGlobal
+NativeGlobal
 (
 global
 )

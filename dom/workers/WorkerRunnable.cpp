@@ -1290,7 +1290,10 @@ global
 {
 globalObject
 =
-GetGlobalObjectForGlobal
+xpc
+:
+:
+NativeGlobal
 (
 global
 )

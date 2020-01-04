@@ -1521,15 +1521,6 @@ aNSResult
 /
 namespace
 exceptions
-nsIGlobalObject
-*
-GetGlobalObjectForGlobal
-(
-JSObject
-*
-global
-)
-;
 bool
 IsWorkerGlobal
 (
