@@ -557,6 +557,23 @@ None
     
 #
 Remove
+static
+    
+signature
+=
+signature
+.
+replace
+(
+'
+static
+'
+'
+'
+)
+    
+#
+Remove
 semicolon
 .
     
