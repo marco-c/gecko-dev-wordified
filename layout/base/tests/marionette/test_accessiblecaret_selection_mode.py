@@ -349,7 +349,7 @@ marionette
 absolute_url
 (
 '
-test_selectioncarets
+test_carets_selection
 .
 html
 '
@@ -380,7 +380,7 @@ marionette
 absolute_url
 (
 '
-test_selectioncarets_multipleline
+test_carets_multipleline
 .
 html
 '
@@ -411,7 +411,7 @@ marionette
 absolute_url
 (
 '
-test_selectioncarets_multiplerange
+test_carets_multiplerange
 .
 html
 '
@@ -3858,7 +3858,7 @@ marionette
 absolute_url
 (
 '
-test_selectioncarets_longtext
+test_carets_longtext
 .
 html
 '
@@ -4140,7 +4140,7 @@ marionette
 absolute_url
 (
 '
-test_selectioncarets_iframe
+test_carets_iframe
 .
 html
 '
