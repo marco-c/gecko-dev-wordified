@@ -325,10 +325,9 @@ customizationColorArray
 .
 map
 (
-function
-(
 val
-)
+=
+>
 parseInt
 (
 val
