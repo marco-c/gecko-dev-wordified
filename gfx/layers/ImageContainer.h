@@ -2281,6 +2281,10 @@ SupportsWeakPtr
 ImageContainer
 >
 {
+friend
+class
+ImageContainerChild
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 ImageContainer
@@ -3662,16 +3666,6 @@ PImageContainerChild
 *
 GetPImageContainerChild
 (
-)
-;
-static
-void
-NotifyComposite
-(
-const
-ImageCompositeNotification
-&
-aNotification
 )
 ;
 /
