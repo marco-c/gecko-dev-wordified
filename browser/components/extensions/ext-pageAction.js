@@ -89,7 +89,6 @@ jsm
 var
 {
 EventManager
-IconDetails
 }
 =
 ExtensionUtils
