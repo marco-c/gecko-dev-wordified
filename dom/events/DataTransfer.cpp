@@ -2627,6 +2627,15 @@ node
 nsContentUtils
 :
 :
+LegacyIsCallerNativeCode
+(
+)
+&
+&
+!
+nsContentUtils
+:
+:
 CanCallerAccess
 (
 node
