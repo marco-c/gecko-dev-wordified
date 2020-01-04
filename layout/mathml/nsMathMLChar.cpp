@@ -14598,6 +14598,16 @@ color
 .
 .
 .
+nsCSSProperty
+colorProp
+=
+styleContext
+-
+>
+GetTextFillColorProp
+(
+)
+;
 nscolor
 fgColor
 =
@@ -14606,7 +14616,7 @@ styleContext
 >
 GetVisitedDependentColor
 (
-eCSSProperty_color
+colorProp
 )
 ;
 if
