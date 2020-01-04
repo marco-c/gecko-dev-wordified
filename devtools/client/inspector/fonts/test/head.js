@@ -341,15 +341,6 @@ view
 :
 inspector
 .
-sidebar
-.
-getWindowForTab
-(
-"
-fontinspector
-"
-)
-.
 fontInspector
 }
 ;
