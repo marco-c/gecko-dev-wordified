@@ -4644,7 +4644,7 @@ mModifiers
 aMouseEvent
 -
 >
-modifiers
+mModifiers
 ;
 nsresult
 rv

@@ -5959,7 +5959,7 @@ sAltGrModifier
 {
 aEvent
 .
-modifiers
+mModifiers
 |
 =
 (

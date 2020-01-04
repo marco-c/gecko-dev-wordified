@@ -3257,7 +3257,7 @@ widget
 ;
 event
 .
-modifiers
+mModifiers
 =
 nsContentUtils
 :
@@ -3779,7 +3779,7 @@ widget
 ;
 wheelEvent
 .
-modifiers
+mModifiers
 =
 nsContentUtils
 :
@@ -4478,7 +4478,7 @@ widget
 ;
 event
 .
-modifiers
+mModifiers
 =
 nsContentUtils
 :
@@ -6190,7 +6190,7 @@ widget
 ;
 event
 .
-modifiers
+mModifiers
 =
 nsContentUtils
 :

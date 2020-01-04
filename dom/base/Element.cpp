@@ -12107,12 +12107,12 @@ inputSource
 ;
 event
 .
-modifiers
+mModifiers
 =
 aSourceEvent
 -
 >
-modifiers
+mModifiers
 ;
 if
 (

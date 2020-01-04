@@ -3493,7 +3493,7 @@ GetInstance
 ;
 aInputEvent
 .
-modifiers
+mModifiers
 =
 0
 ;
@@ -3533,7 +3533,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_SHIFT
@@ -3553,7 +3553,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_CONTROL
@@ -3573,7 +3573,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_ALT
@@ -3593,7 +3593,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_META
@@ -3623,7 +3623,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_OS
@@ -3653,7 +3653,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_ALTGRAPH
@@ -3673,7 +3673,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_CAPSLOCK
@@ -3693,7 +3693,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_NUMLOCK
@@ -3713,7 +3713,7 @@ aModifierState
 {
 aInputEvent
 .
-modifiers
+mModifiers
 |
 =
 MODIFIER_SCROLLLOCK
@@ -3744,7 +3744,7 @@ aModifierState
 "
 aInputEvent
 .
-modifiers
+mModifiers
 =
 0x
 %
@@ -3796,12 +3796,12 @@ keymapWrapper
 aModifierState
 aInputEvent
 .
-modifiers
+mModifiers
 GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_SHIFT
 )
@@ -3809,7 +3809,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_CONTROL
 )
@@ -3817,7 +3817,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_ALT
 )
@@ -3825,7 +3825,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_META
 )
@@ -3833,7 +3833,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_OS
 )
@@ -3841,7 +3841,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_ALTGRAPH
 )
@@ -3849,7 +3849,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_CAPSLOCK
 )
@@ -3857,7 +3857,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_NUMLOCK
 )
@@ -3865,7 +3865,7 @@ GetBoolName
 (
 aInputEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_SCROLLLOCK
 )

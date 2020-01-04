@@ -2337,7 +2337,7 @@ return
 inputEvent
 -
 >
-modifiers
+mModifiers
 &
 WidgetInputEvent
 :
@@ -2424,7 +2424,7 @@ return
 inputEvent
 -
 >
-modifiers
+mModifiers
 =
 MODIFIER_NONE
 ;
@@ -2450,7 +2450,7 @@ aName
 inputEvent
 -
 >
-modifiers
+mModifiers
 |
 =
 aValue

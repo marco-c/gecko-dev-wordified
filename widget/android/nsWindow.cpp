@@ -12008,7 +12008,7 @@ delta
 ;
 event
 .
-modifiers
+mModifiers
 =
 0
 ;
@@ -13705,7 +13705,7 @@ baseUnicodeChar
 ;
 event
 .
-modifiers
+mModifiers
 =
 GetModifiers
 (
@@ -13881,7 +13881,7 @@ baseUnicodeChar
 {
 event
 .
-modifiers
+mModifiers
 &
 =
 ~

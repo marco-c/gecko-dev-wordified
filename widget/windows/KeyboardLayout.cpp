@@ -1858,7 +1858,7 @@ const
 {
 aInputEvent
 .
-modifiers
+mModifiers
 =
 mModifiers
 ;

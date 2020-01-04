@@ -1976,7 +1976,7 @@ return
 inputEvent
 -
 >
-modifiers
+mModifiers
 &
 kPossibleModifiersForAccessKey
 )

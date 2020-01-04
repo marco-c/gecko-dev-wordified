@@ -4077,7 +4077,7 @@ mCachedModifiers
 inputEvent
 -
 >
-modifiers
+mModifiers
 ;
 }
 nsIDocument
@@ -8928,7 +8928,7 @@ mCachedMousePoint
 ;
 event
 .
-modifiers
+mModifiers
 =
 mCachedModifiers
 ;

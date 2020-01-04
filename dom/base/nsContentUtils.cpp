@@ -42618,7 +42618,7 @@ aWidget
 ;
 event
 .
-modifiers
+mModifiers
 =
 GetWidgetModifiers
 (
@@ -43332,7 +43332,7 @@ eNormal
 ;
 event
 .
-modifiers
+mModifiers
 =
 GetWidgetModifiers
 (

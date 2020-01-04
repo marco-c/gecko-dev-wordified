@@ -1315,11 +1315,11 @@ MOZ_COUNT_CTOR
 WidgetTouchEvent
 )
 ;
-modifiers
+mModifiers
 =
 aOther
 .
-modifiers
+mModifiers
 ;
 mTime
 =

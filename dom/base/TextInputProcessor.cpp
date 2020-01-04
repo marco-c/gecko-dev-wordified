@@ -4411,7 +4411,7 @@ NS_ERROR_INVALID_ARG
 }
 keyEvent
 .
-modifiers
+mModifiers
 =
 GetActiveModifiers
 (
@@ -4816,7 +4816,7 @@ NS_ERROR_INVALID_ARG
 }
 keyEvent
 .
-modifiers
+mModifiers
 =
 GetActiveModifiers
 (
