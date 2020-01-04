@@ -9836,7 +9836,12 @@ if
 (
 AppConstants
 .
-XP_WIN
+platform
+=
+=
+"
+win
+"
 )
 {
 /
