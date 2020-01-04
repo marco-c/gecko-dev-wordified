@@ -11209,6 +11209,8 @@ see
 nsStyleConsts
 .
 h
+public
+:
 uint8_t
 mAlignSelf
 ;
@@ -11221,6 +11223,8 @@ see
 nsStyleConsts
 .
 h
+private
+:
 uint16_t
 mJustifyContent
 ;
@@ -11247,6 +11251,8 @@ see
 nsStyleConsts
 .
 h
+public
+:
 uint8_t
 mJustifySelf
 ;
@@ -11259,8 +11265,6 @@ see
 nsStyleConsts
 .
 h
-public
-:
 uint8_t
 mFlexDirection
 ;
