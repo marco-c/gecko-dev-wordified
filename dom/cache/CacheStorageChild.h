@@ -181,10 +181,10 @@ class
 CacheStorage
 ;
 class
-PCacheChild
+CacheWorkerHolder
 ;
 class
-Feature
+PCacheChild
 ;
 class
 CacheStorageChild
@@ -202,9 +202,9 @@ CacheStorageChild
 CacheStorage
 *
 aListener
-Feature
+CacheWorkerHolder
 *
-aFeature
+aWorkerHolder
 )
 ;
 ~
@@ -313,7 +313,7 @@ ActorChild
 methods
 /
 /
-Feature
+CacheWorkerHolder
 is
 trying
 to

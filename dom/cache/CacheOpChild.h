@@ -227,9 +227,9 @@ method
 .
 CacheOpChild
 (
-Feature
+CacheWorkerHolder
 *
-aFeature
+aWorkerHolder
 nsIGlobalObject
 *
 aGlobal
