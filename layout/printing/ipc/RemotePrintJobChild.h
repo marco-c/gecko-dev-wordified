@@ -143,6 +143,9 @@ h
 class
 nsPagePrintTimer
 ;
+class
+nsPrintEngine
+;
 namespace
 mozilla
 {
@@ -206,6 +209,14 @@ nsPagePrintTimer
 aPagePrintTimer
 )
 ;
+void
+SetPrintEngine
+(
+nsPrintEngine
+*
+aPrintEngine
+)
+;
 private
 :
 ~
@@ -219,6 +230,12 @@ RefPtr
 nsPagePrintTimer
 >
 mPagePrintTimer
+;
+RefPtr
+<
+nsPrintEngine
+>
+mPrintEngine
 ;
 }
 ;
