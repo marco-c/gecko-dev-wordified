@@ -587,9 +587,11 @@ channelLabel
 .
 value
 =
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 ;
 if
 (
@@ -747,7 +749,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateUtils
+UpdateChannel
 "
 "
 resource
@@ -758,7 +760,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "

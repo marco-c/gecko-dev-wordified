@@ -220,7 +220,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -2669,9 +2669,9 @@ ove
 let
 channel
 =
-UpdateUtils
+UpdateChannel
 .
-getUpdateChannel
+get
 (
 false
 )

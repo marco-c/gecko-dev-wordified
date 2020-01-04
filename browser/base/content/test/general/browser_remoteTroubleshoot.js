@@ -582,7 +582,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -590,9 +590,11 @@ jsm
 }
 )
 .
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 ;
 }
 catch
