@@ -76,7 +76,7 @@ automation
 import
 Automation
 from
-devicemanager
+mozdevice
 import
 DMError
 DeviceManager
