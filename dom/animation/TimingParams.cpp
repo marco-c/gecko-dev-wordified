@@ -602,10 +602,15 @@ AnimationUtils
 :
 ParseEasing
 (
-targetElement
 timing
 .
 mEasing
+targetElement
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 }
