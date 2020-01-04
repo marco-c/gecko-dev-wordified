@@ -1409,17 +1409,6 @@ runtime
 (
 )
 ;
-if
-(
-rt
--
->
-atomsAreFinished
-(
-)
-)
-return
-;
 for
 (
 AtomSet
