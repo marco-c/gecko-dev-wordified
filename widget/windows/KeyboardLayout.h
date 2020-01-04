@@ -1945,6 +1945,11 @@ InitWithAppCommand
 (
 )
 ;
+void
+InitWithKeyChar
+(
+)
+;
 /
 *
 *
