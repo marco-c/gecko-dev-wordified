@@ -2102,9 +2102,6 @@ stack
 >
 as
 <
-js
-:
-:
 SavedFrame
 >
 (
