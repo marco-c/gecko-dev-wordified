@@ -238,7 +238,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -3789,13 +3791,9 @@ buf
 128
 ]
 ;
-PR_snprintf
+snprintf_literal
 (
 buf
-sizeof
-(
-buf
-)
 "
 %
 d

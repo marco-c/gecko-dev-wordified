@@ -294,6 +294,15 @@ gfxPlatform
 h
 "
 #
+include
+"
+mozilla
+/
+Snprintf
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_ANDROID
 #

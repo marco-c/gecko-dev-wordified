@@ -131,7 +131,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -263,13 +265,9 @@ uri
 )
 ;
 }
-PR_snprintf
+snprintf_literal
 (
 name
-sizeof
-(
-name
-)
 "
 DOMEventTargetHelper
 %

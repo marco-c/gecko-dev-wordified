@@ -190,6 +190,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
 <
 cstdio
 >
@@ -677,7 +686,7 @@ randomName
 i
 )
 {
-PR_snprintf
+snprintf
 (
 &
 buf
