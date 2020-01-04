@@ -223,12 +223,12 @@ aWindow
 const
 nsTArray
 <
-nsString
+BluetoothUuid
 >
 &
 aServiceUuids
 const
-nsAString
+BluetoothUuid
 &
 aLeScanUuid
 )
@@ -265,7 +265,7 @@ devicefound
 void
 GetLeScanUuid
 (
-nsString
+BluetoothUuid
 &
 aLeScanUuid
 )
@@ -313,12 +313,12 @@ aWindow
 const
 nsTArray
 <
-nsString
+BluetoothUuid
 >
 &
 aServiceUuids
 const
-nsAString
+BluetoothUuid
 &
 aLeScanUuid
 )
@@ -377,7 +377,7 @@ cycle
 .
 *
 /
-nsString
+BluetoothUuid
 mLeScanUuid
 ;
 /
@@ -385,7 +385,7 @@ mLeScanUuid
 *
 *
 A
-DOMString
+BluetoothUuid
 array
 of
 service
@@ -425,7 +425,7 @@ empty
 /
 nsTArray
 <
-nsString
+BluetoothUuid
 >
 mServiceUuids
 ;

@@ -1703,7 +1703,7 @@ void
 RemoveLeScanHandle
 (
 const
-nsAString
+BluetoothUuid
 &
 aScanUuid
 )
