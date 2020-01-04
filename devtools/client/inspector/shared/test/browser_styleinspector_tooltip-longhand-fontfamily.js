@@ -374,7 +374,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;
@@ -534,7 +534,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;
@@ -748,7 +748,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;

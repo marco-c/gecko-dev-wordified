@@ -321,6 +321,7 @@ tooltip
 .
 show
 (
+uriSpan
 )
 ;
 yield
@@ -364,7 +365,7 @@ panel
 querySelector
 (
 "
-image
+img
 "
 )
 .

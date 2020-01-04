@@ -369,7 +369,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;
