@@ -2247,14 +2247,6 @@ ins
 )
 ;
 void
-visitMemoryBarrier
-(
-MMemoryBarrier
-*
-ins
-)
-;
-void
 visitSimdBox
 (
 MSimdBox

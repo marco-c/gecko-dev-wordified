@@ -5613,14 +5613,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineAtomicsFence
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineAtomicsBinop
 (
 CallInfo

@@ -534,12 +534,6 @@ x
 val
 =
 0
-Atomics
-.
-fence
-(
-)
-;
 /
 /
 val
@@ -1054,10 +1048,6 @@ x
 val
 =
 0
-gAtomics_fence
-(
-)
-;
 /
 /
 val
@@ -3859,12 +3849,6 @@ gAtomics_store
 Atomics
 .
 store
-;
-gAtomics_fence
-=
-Atomics
-.
-fence
 ;
 gAtomics_add
 =

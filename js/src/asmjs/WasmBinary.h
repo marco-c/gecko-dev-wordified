@@ -1140,7 +1140,6 @@ F64Atan2
 /
 /
 Atomics
-AtomicsFence
 I32AtomicsCompareExchange
 I32AtomicsExchange
 I32AtomicsLoad
