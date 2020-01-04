@@ -3226,7 +3226,10 @@ ForcePresent
 )
 {
 }
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
 GetWidget
 (

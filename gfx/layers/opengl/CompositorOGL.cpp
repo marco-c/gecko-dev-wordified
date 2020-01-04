@@ -10593,6 +10593,11 @@ RenewSurface
 GetWidget
 (
 )
+-
+>
+RealWidget
+(
+)
 )
 ;
 #
