@@ -281,13 +281,9 @@ gPrettyPrinted
 true
 ;
 return
-executeSoon
-(
-(
-)
-=
->
-aCallback
+promise
+.
+reject
 (
 {
 error
@@ -296,7 +292,6 @@ error
 prettyPrintError
 "
 }
-)
 )
 ;
 }
