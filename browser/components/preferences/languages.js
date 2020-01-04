@@ -527,7 +527,6 @@ e
 continue
 ;
 }
-;
 var
 region
 =

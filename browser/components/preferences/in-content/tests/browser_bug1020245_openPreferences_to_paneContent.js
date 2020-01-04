@@ -71,6 +71,7 @@ instantApply
 add_task
 (
 function
+*
 (
 )
 {

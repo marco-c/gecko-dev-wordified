@@ -168,6 +168,7 @@ sanitizeOnShutdown
 add_task
 (
 function
+*
 test_preference_enabled_when_unlocked
 (
 )
@@ -196,6 +197,7 @@ testPrefStateMatchesLockedState
 add_task
 (
 function
+*
 test_preference_disabled_when_locked
 (
 )

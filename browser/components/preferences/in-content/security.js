@@ -662,8 +662,6 @@ return
 false
 ;
 }
-else
-{
 excepts
 .
 disabled
@@ -686,7 +684,6 @@ UI
 return
 undefined
 ;
-}
 }
 /
 *
