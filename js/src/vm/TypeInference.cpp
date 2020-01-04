@@ -23342,6 +23342,7 @@ return
 TryConvertToUnboxedLayout
 (
 cx
+enter
 shape
 (
 )
@@ -25352,6 +25353,7 @@ if
 TryConvertToUnboxedLayout
 (
 cx
+enter
 templateObject
 (
 )
