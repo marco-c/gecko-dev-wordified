@@ -494,11 +494,9 @@ chrome
 :
 /
 /
-devtools
+webide
 /
 skin
-/
-webide
 /
 default
 -
