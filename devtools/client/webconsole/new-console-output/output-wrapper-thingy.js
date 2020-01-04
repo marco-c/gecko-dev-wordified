@@ -234,6 +234,7 @@ function
 OutputWrapperThingy
 (
 parentNode
+jsterm
 )
 {
 let
@@ -242,6 +243,7 @@ childComponent
 ConsoleOutput
 (
 {
+jsterm
 }
 )
 ;
