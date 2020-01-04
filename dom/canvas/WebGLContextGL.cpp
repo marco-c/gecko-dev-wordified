@@ -6006,13 +6006,8 @@ LOCAL_GL_LUMINANCE
 case
 LOCAL_GL_LUMINANCE_ALPHA
 :
-if
-(
-!
-isWebGL2
-)
 return
-false
+isWebGL2
 ;
 case
 LOCAL_GL_ALPHA
