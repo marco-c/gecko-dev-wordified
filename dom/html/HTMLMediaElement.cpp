@@ -4822,8 +4822,9 @@ return
 mDecoder
 -
 >
-NotifyOwnerActivityChanged
+SetForcedHidden
 (
+!
 aVisible
 )
 ;
