@@ -170,6 +170,11 @@ AudioCaptureStream
 )
 ;
 void
+Start
+(
+)
+;
+void
 ProcessInput
 (
 GraphTime
@@ -205,6 +210,9 @@ mMixer
 ;
 TrackID
 mTrackId
+;
+bool
+mStarted
 ;
 bool
 mTrackCreated
