@@ -3732,6 +3732,13 @@ mTimer
 ;
 }
 ;
+nsresult
+PlayInternal
+(
+bool
+aCallerIsChrome
+)
+;
 /
 *
 *
