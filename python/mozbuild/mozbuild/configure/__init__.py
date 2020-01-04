@@ -433,6 +433,22 @@ set
 of
 builtins
 .
+We
+expose
+unicode
+as
+str
+to
+make
+sandboxed
+    
+#
+files
+more
+python3
+-
+ready
+.
     
 BUILTINS
 =
@@ -497,6 +513,9 @@ isinstance
 __import__
 =
 forbidden_import
+str
+=
+unicode
 )
     
 #
