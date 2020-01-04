@@ -1000,7 +1000,7 @@ ObjectGroup
 group
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 group
 )
