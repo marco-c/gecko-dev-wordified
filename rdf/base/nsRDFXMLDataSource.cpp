@@ -481,7 +481,7 @@ for
 this
 module
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsRDFXMLDataSource
 :
