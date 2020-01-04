@@ -1115,7 +1115,6 @@ ONE_DAY_MS
 24
 ;
 public
-static
 enum
 StartupAction
 {
@@ -1176,6 +1175,16 @@ launched
 with
 restricted
 profile
+*
+/
+SHORTCUT
+/
+*
+launched
+from
+a
+homescreen
+shortcut
 *
 /
 }
@@ -10152,6 +10161,7 @@ startupAction
 getStartupAction
 (
 passedUri
+action
 )
 ;
 Telemetry
@@ -17204,6 +17214,9 @@ getStartupAction
 final
 String
 passedURL
+final
+String
+action
 )
 {
 /
