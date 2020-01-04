@@ -6901,16 +6901,6 @@ endif
 pref
 (
 "
-apz
-.
-allow_zooming
-"
-true
-)
-;
-pref
-(
-"
 layers
 .
 progressive
