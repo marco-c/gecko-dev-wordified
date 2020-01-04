@@ -634,10 +634,6 @@ bool
 aForcePreflight
 bool
 aIsPreflight
-bool
-aForceHSTSPriming
-bool
-aMixedContentWouldBlock
 )
 ;
 LoadInfo
@@ -842,16 +838,6 @@ mForcePreflight
 ;
 bool
 mIsPreflight
-;
-bool
-mForceHSTSPriming
-:
-1
-;
-bool
-mMixedContentWouldBlock
-:
-1
 ;
 }
 ;
