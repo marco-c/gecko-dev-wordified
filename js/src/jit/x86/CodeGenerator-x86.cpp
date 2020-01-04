@@ -3166,7 +3166,7 @@ loadSimd
 type
 1
 srcAddrZ
-ScratchSimd128Reg
+ScratchSimdReg
 )
 ;
 after
@@ -3198,7 +3198,7 @@ masm
 .
 vmovlhps
 (
-ScratchSimd128Reg
+ScratchSimdReg
 out
 out
 )
@@ -4497,8 +4497,8 @@ masm
 vmovhlps
 (
 in
-ScratchSimd128Reg
-ScratchSimd128Reg
+ScratchSimdReg
+ScratchSimdReg
 )
 ;
 /
@@ -4554,7 +4554,7 @@ storeSimd
 (
 type
 1
-ScratchSimd128Reg
+ScratchSimdReg
 dstAddrZ
 )
 ;

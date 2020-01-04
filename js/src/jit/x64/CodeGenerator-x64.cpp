@@ -2263,7 +2263,7 @@ loadSimd
 type
 1
 srcAddrZ
-ScratchSimd128Reg
+ScratchSimdReg
 )
 ;
 after
@@ -2290,7 +2290,7 @@ type
 srcAddrZ
 LFloatReg
 (
-ScratchSimd128Reg
+ScratchSimdReg
 )
 )
 ;
@@ -2323,7 +2323,7 @@ masm
 .
 vmovlhps
 (
-ScratchSimd128Reg
+ScratchSimdReg
 out
 out
 )
@@ -3517,8 +3517,8 @@ masm
 vmovhlps
 (
 in
-ScratchSimd128Reg
-ScratchSimd128Reg
+ScratchSimdReg
+ScratchSimdReg
 )
 ;
 uint32_t
@@ -3534,7 +3534,7 @@ storeSimd
 (
 type
 1
-ScratchSimd128Reg
+ScratchSimdReg
 dstAddrZ
 )
 ;
@@ -3563,7 +3563,7 @@ type
 dstAddrZ
 LFloatReg
 (
-ScratchSimd128Reg
+ScratchSimdReg
 )
 )
 ;

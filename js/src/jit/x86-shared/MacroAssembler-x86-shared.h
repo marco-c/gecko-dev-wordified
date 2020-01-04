@@ -6726,7 +6726,7 @@ sizeof
 int32_t
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -6789,7 +6789,7 @@ sizeof
 int32_t
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7162,7 +7162,7 @@ dest
 )
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7225,7 +7225,7 @@ dest
 )
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7625,7 +7625,7 @@ src
 dest
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7682,7 +7682,7 @@ src
 dest
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7778,7 +7778,7 @@ src
 dest
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm
@@ -7835,7 +7835,7 @@ src
 dest
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 asMasm

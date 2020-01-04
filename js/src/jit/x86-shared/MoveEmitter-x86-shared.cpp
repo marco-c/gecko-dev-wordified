@@ -1779,7 +1779,7 @@ isMemory
 )
 )
 {
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
@@ -1841,7 +1841,7 @@ isMemory
 )
 )
 {
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
@@ -2235,7 +2235,7 @@ isMemory
 )
 )
 {
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
@@ -2316,7 +2316,7 @@ isMemory
 )
 )
 {
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
@@ -3618,7 +3618,7 @@ floatReg
 (
 )
 .
-isSimd128
+isInt32x4
 (
 )
 )
@@ -3636,7 +3636,7 @@ floatReg
 (
 )
 .
-isSimd128
+isInt32x4
 (
 )
 )
@@ -3735,7 +3735,7 @@ isMemory
 )
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
@@ -3794,7 +3794,7 @@ floatReg
 (
 )
 .
-isSimd128
+isFloat32x4
 (
 )
 )
@@ -3812,7 +3812,7 @@ floatReg
 (
 )
 .
-isSimd128
+isFloat32x4
 (
 )
 )
@@ -3911,7 +3911,7 @@ isMemory
 )
 )
 ;
-ScratchSimd128Scope
+ScratchSimdScope
 scratch
 (
 masm
