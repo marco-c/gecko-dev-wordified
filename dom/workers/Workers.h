@@ -880,6 +880,16 @@ serviceWorkers
 interception
 .
 enabled
+WORKERPREF_OPEN_WINDOW_ENABLED
+/
+/
+dom
+.
+serviceWorkers
+.
+openWindow
+.
+enabled
 WORKERPREF_DOM_WORKERNOTIFICATION
 /
 /
