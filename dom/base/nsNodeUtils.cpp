@@ -1356,12 +1356,14 @@ aPreviousSibling
 )
 ;
 }
-static
-inline
 Element
 *
-GetTarget
+nsNodeUtils
+:
+:
+GetTargetForAnimation
 (
+const
 Animation
 *
 aAnimation
@@ -1489,7 +1491,7 @@ Element
 *
 target
 =
-GetTarget
+GetTargetForAnimation
 (
 aAnimation
 )
@@ -1550,7 +1552,7 @@ Element
 *
 target
 =
-GetTarget
+GetTargetForAnimation
 (
 aAnimation
 )
@@ -1611,7 +1613,7 @@ Element
 *
 target
 =
-GetTarget
+GetTargetForAnimation
 (
 aAnimation
 )
