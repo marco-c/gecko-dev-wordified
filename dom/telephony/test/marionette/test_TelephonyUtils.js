@@ -520,7 +520,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 accept
 "
 +
@@ -590,7 +590,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 cancel
 "
 +
