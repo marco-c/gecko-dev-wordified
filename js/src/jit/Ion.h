@@ -884,7 +884,7 @@ comp
 )
 ;
 void
-LinkIonScript
+LazyLink
 (
 JSContext
 *
