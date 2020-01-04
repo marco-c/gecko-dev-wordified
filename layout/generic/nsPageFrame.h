@@ -499,6 +499,9 @@ nsSharedPageData
 *
 mPD
 ;
+nsMargin
+mPageContentMargin
+;
 }
 ;
 class
