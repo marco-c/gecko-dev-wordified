@@ -508,7 +508,11 @@ h
 #
 include
 "
-nsFormData
+mozilla
+/
+dom
+/
+FormData
 .
 h
 "
@@ -1923,7 +1927,7 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsFormData
+FormData
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -5677,7 +5681,7 @@ nsDOMSerializerConstructor
 kNS_FORMDATA_CID
 false
 nullptr
-nsFormDataConstructor
+FormDataConstructor
 }
 {
 &
