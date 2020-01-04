@@ -131,6 +131,7 @@ redux
 const
 {
 getAllMessages
+getAllMessagesUiById
 }
 =
 require
@@ -298,7 +299,9 @@ render
 {
 let
 {
+dispatch
 messages
+messagesUi
 sourceMapService
 onViewSourceInDebugger
 }
@@ -324,6 +327,7 @@ return
 MessageContainer
 (
 {
+dispatch
 message
 key
 :
@@ -332,6 +336,16 @@ message
 id
 sourceMapService
 onViewSourceInDebugger
+open
+:
+messagesUi
+.
+includes
+(
+message
+.
+id
+)
 }
 )
 )
@@ -414,6 +428,12 @@ return
 messages
 :
 getAllMessages
+(
+state
+)
+messagesUi
+:
+getAllMessagesUiById
 (
 state
 )
