@@ -591,6 +591,13 @@ view
 querySelector
 (
 "
+.
+ruleview
+-
+rule
+-
+source
+-
 label
 "
 )
@@ -606,12 +613,7 @@ function
 return
 label
 .
-getAttribute
-(
-"
-value
-"
-)
+textContent
 =
 =
 text

@@ -3410,7 +3410,7 @@ label
 "
 )
 .
-value
+textContent
 ;
 }
 /

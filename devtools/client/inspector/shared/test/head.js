@@ -3188,7 +3188,7 @@ label
 "
 )
 .
-value
+textContent
 ;
 }
 /
