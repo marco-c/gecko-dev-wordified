@@ -9281,6 +9281,12 @@ makeFrameDescriptor
 (
 temp
 JitFrame_BaselineJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 push

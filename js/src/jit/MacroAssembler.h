@@ -4248,6 +4248,8 @@ Register
 frameSizeReg
 FrameType
 type
+uint32_t
+headerSize
 )
 ;
 /
@@ -4269,6 +4271,8 @@ pushStaticFrameDescriptor
 (
 FrameType
 type
+uint32_t
+headerSize
 )
 ;
 /

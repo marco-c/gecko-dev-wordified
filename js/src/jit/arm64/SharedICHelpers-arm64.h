@@ -733,6 +733,12 @@ makeFrameDescriptor
 (
 r0
 JitFrame_BaselineJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -838,6 +844,8 @@ MacroAssembler
 masm
 Register
 reg
+uint32_t
+headerSize
 )
 {
 ARMRegister
@@ -891,6 +899,7 @@ makeFrameDescriptor
 (
 reg
 JitFrame_BaselineStub
+headerSize
 )
 ;
 }
@@ -910,6 +919,12 @@ EmitBaselineCreateStubFrameDescriptor
 (
 masm
 r0
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -1110,6 +1125,12 @@ makeFrameDescriptor
 (
 scratch
 JitFrame_BaselineJS
+BaselineStubFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm

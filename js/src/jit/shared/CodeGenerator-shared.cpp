@@ -9203,6 +9203,12 @@ makeFrameDescriptor
 *
 dynStack
 JitFrame_IonJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -9224,6 +9230,12 @@ masm
 pushStaticFrameDescriptor
 (
 JitFrame_IonJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 }

@@ -22439,6 +22439,12 @@ framePushed
 (
 )
 JitFrame_IonJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 Push

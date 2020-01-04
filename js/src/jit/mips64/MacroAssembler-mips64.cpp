@@ -5203,6 +5203,12 @@ framePushed
 (
 )
 JitFrame_IonJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 asMasm

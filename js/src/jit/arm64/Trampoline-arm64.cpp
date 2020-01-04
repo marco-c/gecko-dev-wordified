@@ -1377,6 +1377,12 @@ makeFrameDescriptor
 (
 r19
 JitFrame_Entry
+JitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -1548,6 +1554,12 @@ makeFrameDescriptor
 (
 r19
 JitFrame_BaselineJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -3100,6 +3112,12 @@ makeFrameDescriptor
 (
 r6
 JitFrame_Rectifier
+JitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -6881,7 +6899,7 @@ Imm32
 1
 <
 <
-FRAMESIZE_SHIFT
+FRAMETYPE_BITS
 )
 -
 1
