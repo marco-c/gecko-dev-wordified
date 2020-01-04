@@ -348,9 +348,15 @@ uncontrolled
 {
 min
 -
+height
+:
+50px
+;
+min
+-
 width
 :
-275px
+50px
 ;
 }
 #
