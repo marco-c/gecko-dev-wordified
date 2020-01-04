@@ -2018,11 +2018,6 @@ ErrorResult
 aRv
 )
 ;
-void
-ResetWinsInCascade
-(
-)
-;
 /
 /
 This
