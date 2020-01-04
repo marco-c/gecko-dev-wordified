@@ -51,7 +51,7 @@ strict
 "
 ;
 const
-cssAutoCompleter
+CSSCompleter
 =
 require
 (
@@ -1294,7 +1294,7 @@ n
 )
 )
 ;
-var
+let
 doc
 =
 null
@@ -1364,7 +1364,7 @@ let
 completer
 =
 new
-cssAutoCompleter
+CSSCompleter
 (
 )
 ;

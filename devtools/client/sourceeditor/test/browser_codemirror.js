@@ -68,6 +68,9 @@ devtools
 /
 client
 /
+"
++
+"
 sourceeditor
 /
 test

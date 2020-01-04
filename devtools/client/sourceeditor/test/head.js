@@ -162,8 +162,8 @@ load
 function
 addTab
 (
-aURL
-aCallback
+url
+callback
 )
 {
 waitForExplicitFinish
@@ -184,7 +184,7 @@ content
 .
 location
 =
-aURL
+url
 ;
 let
 tab
@@ -219,7 +219,7 @@ onTabLoad
 true
 )
 ;
-aCallback
+callback
 (
 browser
 tab
@@ -244,7 +244,7 @@ true
 function
 promiseTab
 (
-aURL
+url
 )
 {
 return
@@ -256,7 +256,7 @@ resolve
 >
 addTab
 (
-aURL
+url
 resolve
 )
 )
@@ -346,6 +346,9 @@ charset
 UTF
 -
 8
+"
++
+"
 <
 ?
 xml
@@ -404,6 +407,9 @@ org
 keymaster
 /
 gatekeeper
+"
++
+"
 /
 there
 .
@@ -413,9 +419,6 @@ only
 .
 xul
 '
-"
-+
-"
 title
 =
 '
@@ -432,6 +435,9 @@ height
 500
 '
 >
+"
++
+"
 <
 box
 flex
@@ -499,6 +505,7 @@ foldgutter
 "
 ]
 }
+;
 for
 (
 let
@@ -779,8 +786,8 @@ is
 located
 in
 a
-separate
 *
+separate
 directory
 .
 *
@@ -947,9 +954,11 @@ length
 <
 line
 )
+{
 return
 source
 ;
+}
 if
 (
 line
@@ -957,6 +966,7 @@ line
 =
 1
 )
+{
 return
 list
 [
@@ -969,6 +979,7 @@ slice
 ch
 )
 ;
+}
 return
 [
 .
@@ -1171,7 +1182,7 @@ html
 *
 /
 function
-codeMirror_setStatus
+codemirrorSetStatus
 (
 statusMsg
 type

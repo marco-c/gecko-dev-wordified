@@ -68,7 +68,7 @@ win
 =
 >
 {
-var
+let
 simpleProg
 =
 "
@@ -93,6 +93,9 @@ j
 ;
 \
 n
+"
++
+"
 return
 bar
 ;

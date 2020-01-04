@@ -971,10 +971,9 @@ testVectors
 .
 forEach
 (
-function
-(
 vector
-)
+=
+>
 {
 testJumpToLine
 (

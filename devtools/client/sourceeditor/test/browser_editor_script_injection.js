@@ -103,6 +103,7 @@ sourceeditor
 /
 test
 "
+;
 const
 injectedText
 =

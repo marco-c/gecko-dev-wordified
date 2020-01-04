@@ -115,7 +115,6 @@ const
 Cu
 Cc
 Ci
-components
 }
 =
 require
@@ -1835,9 +1834,7 @@ config
 .
 forEach
 (
-(
 k
-)
 =
 >
 {
@@ -1873,8 +1870,10 @@ config
 .
 extraKeys
 )
+{
 return
 ;
+}
 Object
 .
 keys
@@ -1886,9 +1885,7 @@ extraKeys
 .
 forEach
 (
-(
 key
-)
 =
 >
 {
@@ -2056,9 +2053,7 @@ extraKeys
 .
 Tab
 =
-(
 cm
-)
 =
 >
 {
@@ -2112,7 +2107,7 @@ input
 return
 ;
 }
-var
+let
 num
 =
 cm
@@ -2138,11 +2133,13 @@ ch
 =
 0
 )
+{
 num
 -
 =
 1
 ;
+}
 cm
 .
 replaceSelection
@@ -2315,6 +2312,7 @@ if
 !
 env
 )
+{
 env
 =
 el
@@ -2329,6 +2327,7 @@ iframe
 "
 )
 ;
+}
 env
 .
 flex
@@ -2339,6 +2338,7 @@ if
 (
 cm
 )
+{
 throw
 new
 Error
@@ -2355,6 +2355,7 @@ once
 "
 )
 ;
+}
 let
 onLoad
 =
@@ -2412,6 +2413,7 @@ config
 .
 themeSwitching
 )
+{
 win
 .
 document
@@ -2430,6 +2432,7 @@ light
 "
 )
 ;
+}
 let
 scriptsToInject
 =
@@ -2448,9 +2451,7 @@ scriptsToInject
 .
 forEach
 (
-(
 url
-)
 =
 >
 {
@@ -2468,6 +2469,7 @@ chrome
 "
 )
 )
+{
 Services
 .
 scriptloader
@@ -2481,6 +2483,7 @@ utf8
 "
 )
 ;
+}
 }
 )
 ;
@@ -2689,9 +2692,7 @@ addEventListener
 "
 contextmenu
 "
-(
 ev
-)
 =
 >
 {
@@ -2710,8 +2711,10 @@ config
 .
 contextMenu
 )
+{
 return
 ;
+}
 let
 popup
 =
@@ -2731,6 +2734,7 @@ popup
 string
 "
 )
+{
 popup
 =
 el
@@ -2746,6 +2750,7 @@ config
 contextMenu
 )
 ;
+}
 popup
 .
 openPopupAtScreen
@@ -2854,9 +2859,7 @@ addEventListener
 "
 keydown
 "
-(
 ev
-)
 =
 >
 {
@@ -2972,8 +2975,10 @@ isSearchInput
 isDialogInput
 )
 )
+{
 return
 ;
+}
 if
 (
 key
@@ -3029,8 +3034,10 @@ if
 !
 isSearchInput
 )
+{
 return
 ;
+}
 let
 query
 =
@@ -3247,7 +3254,6 @@ on
 cursorActivity
 "
 (
-cm
 )
 =
 >
@@ -3716,7 +3722,7 @@ mode
 *
 *
 *
-Load
+Loads
 a
 script
 into
@@ -3762,6 +3768,7 @@ loaded
 .
 "
 )
+;
 }
 let
 win
@@ -3945,6 +3952,7 @@ line
 =
 null
 )
+{
 return
 cm
 .
@@ -3952,6 +3960,7 @@ getValue
 (
 )
 ;
+}
 let
 info
 =
@@ -4037,7 +4046,7 @@ resetIndentUnit
 *
 *
 *
-Reload
+Reloads
 the
 state
 of
@@ -4145,6 +4154,7 @@ has
 keyMap
 )
 )
+{
 this
 .
 setOption
@@ -4154,7 +4164,10 @@ keyMap
 "
 keyMap
 )
+;
+}
 else
+{
 this
 .
 setOption
@@ -4167,6 +4180,7 @@ default
 "
 )
 ;
+}
 this
 .
 updateCodeFoldingGutter
@@ -4190,7 +4204,7 @@ setupAutoCompletion
 *
 *
 *
-Set
+Sets
 the
 editor
 '
@@ -4525,8 +4539,10 @@ somethingSelected
 (
 )
 )
+{
 return
 ;
+}
 this
 .
 setCursor
@@ -5133,9 +5149,11 @@ if
 !
 marker
 )
+{
 return
 false
 ;
+}
 return
 marker
 .
@@ -5220,8 +5238,10 @@ if
 !
 info
 )
+{
 return
 ;
+}
 let
 gutterMarkers
 =
@@ -5229,12 +5249,14 @@ info
 .
 gutterMarkers
 ;
+let
+marker
+;
 if
 (
 gutterMarkers
 )
 {
-let
 marker
 =
 gutterMarkers
@@ -5260,7 +5282,6 @@ return
 ;
 }
 }
-let
 marker
 =
 cm
@@ -5343,8 +5364,10 @@ gutterName
 markerClass
 )
 )
+{
 return
 ;
+}
 let
 cm
 =
@@ -5451,8 +5474,10 @@ if
 !
 info
 )
+{
 return
 ;
+}
 let
 marker
 =
@@ -5536,6 +5561,25 @@ get
 this
 )
 ;
+let
+info
+=
+cm
+.
+lineInfo
+(
+line
+)
+;
+if
+(
+!
+info
+)
+{
+return
+;
+}
 cm
 .
 setGutterMarker
@@ -5581,9 +5625,11 @@ if
 !
 info
 )
+{
 return
 null
 ;
+}
 let
 gutterMarkers
 =
@@ -5596,9 +5642,11 @@ if
 !
 gutterMarkers
 )
+{
 return
 null
 ;
+}
 return
 gutterMarkers
 [
@@ -5610,7 +5658,7 @@ gutterName
 *
 *
 *
-Remove
+Removes
 all
 gutter
 markers
@@ -5754,8 +5802,10 @@ gutterName
 markerClass
 )
 )
+{
 return
 ;
+}
 let
 cm
 =
@@ -5872,9 +5922,11 @@ info
 .
 wrapClass
 )
+{
 return
 false
 ;
+}
 return
 info
 .
@@ -5900,7 +5952,7 @@ className
 *
 *
 *
-Set
+Sets
 a
 CSS
 class
@@ -7111,8 +7163,10 @@ line
 =
 0
 )
+{
 return
 ;
+}
 /
 /
 Get
@@ -7407,8 +7461,10 @@ lineCount
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Get
@@ -8009,8 +8065,6 @@ config
 autocomplete
 ;
 }
-else
-{
 return
 cm
 .
@@ -8019,7 +8073,6 @@ getOption
 o
 )
 ;
-}
 }
 /
 *
@@ -8331,9 +8384,7 @@ funcs
 .
 forEach
 (
-(
 name
-)
 =
 >
 {
@@ -8552,6 +8603,8 @@ this
 config
 .
 enableCodeFolding
+;
+let
 foldGutterIndex
 =
 this
@@ -8568,6 +8621,8 @@ CodeMirror
 foldgutter
 "
 )
+;
+let
 cm
 =
 editors
@@ -8790,10 +8845,9 @@ CM_MAPPING
 .
 forEach
 (
-function
-(
 name
-)
+=
+>
 {
 Editor
 .
@@ -9158,7 +9212,7 @@ keySet
 array
 )
 {
-var
+let
 keys
 =
 {
@@ -9166,7 +9220,7 @@ keys
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -9641,12 +9695,14 @@ cmd
 cmd_gotoLine
 "
 )
+{
 ed
 .
 jumpToLine
 (
 )
 ;
+}
 }
 onEvent
 :
