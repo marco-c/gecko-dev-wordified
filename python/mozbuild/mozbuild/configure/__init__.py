@@ -595,25 +595,19 @@ ReadOnlyNamespace
         
 abspath
 =
-os
-.
-path
+mozpath
 .
 abspath
         
 basename
 =
-os
-.
-path
+mozpath
 .
 basename
         
 dirname
 =
-os
-.
-path
+mozpath
 .
 dirname
         
@@ -651,33 +645,25 @@ isfile
         
 join
 =
-os
-.
-path
+mozpath
 .
 join
         
 normpath
 =
-os
-.
-path
+mozpath
 .
 normpath
         
 realpath
 =
-os
-.
-path
+mozpath
 .
 realpath
         
 relpath
 =
-os
-.
-path
+mozpath
 .
 relpath
     
