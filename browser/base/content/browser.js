@@ -17597,13 +17597,6 @@ SetPageProxyState
 aState
 )
 {
-BookmarkingUI
-.
-onPageProxyStateChanged
-(
-aState
-)
-;
 if
 (
 !
