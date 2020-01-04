@@ -2438,6 +2438,15 @@ GetCompositionFor
 nsPresContext
 *
 aPresContext
+)
+;
+TextComposition
+*
+GetCompositionFor
+(
+nsPresContext
+*
+aPresContext
 nsINode
 *
 aNode
