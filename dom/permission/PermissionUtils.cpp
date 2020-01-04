@@ -157,9 +157,6 @@ desktop
 -
 notification
 "
-"
-midi
-"
 }
 ;
 /
