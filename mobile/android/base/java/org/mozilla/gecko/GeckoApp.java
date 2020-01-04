@@ -2230,17 +2230,6 @@ listener
 }
 Override
 public
-FormAssistPopup
-getFormAssistPopup
-(
-)
-{
-return
-mFormAssistPopup
-;
-}
-Override
-public
 void
 onTabChanged
 (
