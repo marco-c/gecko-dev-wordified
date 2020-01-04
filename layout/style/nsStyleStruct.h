@@ -20125,8 +20125,10 @@ mMarkerStart
 [
 inherited
 ]
+nsTArray
+<
 nsStyleCoord
-*
+>
 mStrokeDasharray
 ;
 /
@@ -20183,9 +20185,6 @@ mStrokeOpacity
 [
 inherited
 ]
-uint32_t
-mStrokeDasharrayLength
-;
 uint8_t
 mClipRule
 ;
