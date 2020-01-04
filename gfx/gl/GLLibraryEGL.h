@@ -2248,8 +2248,9 @@ EnsureInitialized
 (
 bool
 forceAccel
-=
-false
+nsACString
+&
+aFailureId
 )
 ;
 void

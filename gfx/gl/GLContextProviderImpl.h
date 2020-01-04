@@ -568,6 +568,9 @@ SurfaceCaps
 minCaps
 CreateContextFlags
 flags
+nsACString
+&
+failureId
 )
 ;
 /
@@ -594,6 +597,9 @@ CreateHeadless
 (
 CreateContextFlags
 flags
+nsACString
+&
+aFailureId
 )
 ;
 /
