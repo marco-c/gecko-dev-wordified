@@ -3010,6 +3010,7 @@ typename
 Ts
 >
 class
+MOZ_INHERIT_TYPE_ANNOTATIONS_FROM_TEMPLATE_ARGS
 Variant
 {
 using
