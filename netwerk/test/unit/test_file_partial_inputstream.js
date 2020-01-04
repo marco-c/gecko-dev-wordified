@@ -905,7 +905,7 @@ tempFile
 write
 create
 truncate
-0666
+0o666
 0
 )
 ;
@@ -2991,7 +2991,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 let
@@ -3038,7 +3038,7 @@ file
 write
 create
 truncate
-0666
+0o666
 0
 )
 ;

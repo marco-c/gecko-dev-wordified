@@ -724,7 +724,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0755
+0o755
 )
 ;
 var

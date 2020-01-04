@@ -1095,7 +1095,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 file
@@ -1164,7 +1164,7 @@ nsILocalFile
 0x08
 |
 0x20
-0644
+0o644
 fout
 .
 DEFER_OPEN

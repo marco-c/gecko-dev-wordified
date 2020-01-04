@@ -1557,7 +1557,7 @@ recovery
 {
 unixMode
 :
-0644
+0o644
 }
 )
 ;

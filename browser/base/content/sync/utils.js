@@ -60,7 +60,7 @@ MPL
 /
 Equivalent
 to
-0600
+0o600
 permissions
 ;
 used

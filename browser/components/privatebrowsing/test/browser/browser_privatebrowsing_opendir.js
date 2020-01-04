@@ -267,7 +267,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0600
+0o600
 )
 ;
 const

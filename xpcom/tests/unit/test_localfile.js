@@ -432,7 +432,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0644
+0o644
 )
 ;
 do_check_true
@@ -680,7 +680,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 do_check_true
@@ -887,13 +887,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-parseInt
-(
-"
-644
-"
-8
-)
+0o644
 )
 ;
 bytes

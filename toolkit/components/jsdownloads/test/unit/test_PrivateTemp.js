@@ -171,7 +171,7 @@ the
 decimal
 value
 of
-0700
+0o700
 .
 equal
 (

@@ -151,7 +151,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0777
+0o777
 )
 ;
 /

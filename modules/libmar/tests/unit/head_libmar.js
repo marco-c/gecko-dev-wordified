@@ -770,7 +770,7 @@ files
 have
 permissions
 of
-0664
+0o664
 so
 in
 case
@@ -789,7 +789,7 @@ permission
 /
 (
 perhaps
-0777
+0o777
 )
 make
 sure
@@ -798,7 +798,7 @@ we
 encode
 them
 as
-0664
+0o664
 .
 for
 (
@@ -827,7 +827,7 @@ f
 .
 permissions
 =
-0664
+0o664
 ;
 }
 /

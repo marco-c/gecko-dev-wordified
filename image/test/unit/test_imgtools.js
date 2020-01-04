@@ -129,7 +129,7 @@ outputFile
 0x08
 |
 0x20
-0644
+0o644
 null
 )
 ;

@@ -73,7 +73,7 @@ PR_TRUNCATE
 const
 filePerms
 =
-0664
+0o664
 ;
 const
 fileData

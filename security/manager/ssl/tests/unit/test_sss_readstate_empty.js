@@ -310,7 +310,7 @@ NORMAL_FILE_TYPE
 0x1a4
 =
 =
-0644
+0o644
 ok
 (
 stateFile

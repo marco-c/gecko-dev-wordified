@@ -1633,7 +1633,7 @@ file
 READONLY
 *
 /
-0444
+0o444
 Ci
 .
 nsIFileInputStream

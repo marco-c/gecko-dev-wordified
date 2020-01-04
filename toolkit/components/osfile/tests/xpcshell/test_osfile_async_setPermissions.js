@@ -128,7 +128,7 @@ the
 numeric
 value
 is
-0777
+0o777
 or
 lower
 it

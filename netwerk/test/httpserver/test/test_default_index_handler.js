@@ -329,7 +329,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0744
+0o744
 )
 ;
 /
@@ -1857,7 +1857,7 @@ file
 create
 (
 type
-0755
+0o755
 )
 ;
 lst
