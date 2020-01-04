@@ -230,9 +230,9 @@ require
 '
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 eventlooplag
 '
