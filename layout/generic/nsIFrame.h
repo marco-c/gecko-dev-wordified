@@ -14774,7 +14774,7 @@ needed
 *
 *
 param
-aReflowMetrics
+aReflowOutput
 <
 i
 >
@@ -15050,7 +15050,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 const
 ReflowInput
 &

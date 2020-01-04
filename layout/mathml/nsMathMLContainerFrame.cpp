@@ -982,7 +982,7 @@ blockFrame
 }
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
-HTMLReflowMetricsProperty
+HTMLReflowOutputProperty
 ReflowOutput
 )
 /
@@ -1002,7 +1002,7 @@ aFrame
 const
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 const
 nsBoundingMetrics
 &
@@ -1016,7 +1016,7 @@ metrics
 new
 ReflowOutput
 (
-aReflowMetrics
+aReflowOutput
 )
 ;
 metrics
@@ -1035,7 +1035,7 @@ Properties
 .
 Set
 (
-HTMLReflowMetricsProperty
+HTMLReflowOutputProperty
 (
 )
 metrics
@@ -1070,7 +1070,7 @@ nsIFrame
 aFrame
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 nsBoundingMetrics
 &
 aBoundingMetrics
@@ -1101,7 +1101,7 @@ Properties
 .
 Get
 (
-HTMLReflowMetricsProperty
+HTMLReflowOutputProperty
 (
 )
 )
@@ -1156,7 +1156,7 @@ if
 metrics
 )
 {
-aReflowMetrics
+aReflowOutput
 =
 *
 metrics
@@ -1260,7 +1260,7 @@ props
 Delete
 (
 childFrame
-HTMLReflowMetricsProperty
+HTMLReflowOutputProperty
 (
 )
 )

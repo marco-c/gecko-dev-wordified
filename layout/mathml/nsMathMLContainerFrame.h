@@ -2246,7 +2246,7 @@ aFrame
 const
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 const
 nsBoundingMetrics
 &
@@ -2356,7 +2356,7 @@ nsIFrame
 aFrame
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 nsBoundingMetrics
 &
 aBoundingMetrics
