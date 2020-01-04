@@ -2715,8 +2715,6 @@ settings
 :
 {
 "
-cliquet
-.
 batch_max_requests
 "
 :

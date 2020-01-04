@@ -12760,9 +12760,9 @@ setCharPref
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 "
 http

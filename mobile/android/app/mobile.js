@@ -3113,17 +3113,16 @@ blocklist
 ;
 /
 /
-Kinto
-blocklist
+Blocklist
 preferences
 pref
 (
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 "
 https
@@ -3149,7 +3148,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 changes
 .
@@ -3174,7 +3173,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 bucket
 "
@@ -3188,7 +3187,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 onecrl
 .
@@ -3204,7 +3203,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 onecrl
 .
@@ -3218,7 +3217,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 addons
 .
@@ -3234,7 +3233,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 addons
 .
@@ -3248,7 +3247,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 plugins
 .
@@ -3264,7 +3263,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 plugins
 .
@@ -3278,7 +3277,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 gfx
 .
@@ -3294,7 +3293,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 gfx
 .
@@ -3333,7 +3332,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 update_enabled
 "
@@ -3347,7 +3346,7 @@ pref
 "
 services
 .
-kinto
+blocklist
 .
 update_enabled
 "
