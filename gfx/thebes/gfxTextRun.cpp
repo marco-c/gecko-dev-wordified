@@ -9648,7 +9648,7 @@ aTextPerf
 )
 mPageLang
 (
-gfxPlatform
+gfxPlatformFontList
 :
 :
 GetFontPrefLangFor
@@ -19309,7 +19309,7 @@ nsIAtom
 *
 lang
 =
-gfxPlatform
+gfxPlatformFontList
 :
 :
 GetLangGroupForPrefLang
@@ -19403,10 +19403,10 @@ aCh
 eFontPrefLang
 charLang
 =
-gfxPlatform
+gfxPlatformFontList
 :
 :
-GetPlatform
+PlatformFontList
 (
 )
 -
@@ -19505,10 +19505,10 @@ numLangs
 =
 0
 ;
-gfxPlatform
+gfxPlatformFontList
 :
 :
-GetPlatform
+PlatformFontList
 (
 )
 -
@@ -19606,7 +19606,7 @@ prefFontData
 families
 )
 ;
-gfxPlatform
+gfxPlatformFontList
 :
 :
 ForEachPrefFont
