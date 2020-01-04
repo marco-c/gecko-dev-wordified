@@ -491,6 +491,11 @@ APP_NAME
 version
 :
 APP_VERSION
+displayVersion
+:
+AppConstants
+.
+MOZ_APP_VERSION_DISPLAY
 vendor
 :
 "

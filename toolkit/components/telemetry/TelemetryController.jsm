@@ -2929,6 +2929,11 @@ Services
 appinfo
 .
 version
+displayVersion
+:
+AppConstants
+.
+MOZ_APP_VERSION_DISPLAY
 vendor
 :
 Services
