@@ -13610,6 +13610,23 @@ oldData
 *
 this
 ;
+/
+/
+mCausedByComposition
+should
+be
+true
+only
+when
+all
+changes
+are
+caused
+by
+/
+/
+composition
+.
 mCausedByComposition
 =
 newData
@@ -13620,6 +13637,33 @@ mCausedByComposition
 oldData
 .
 mCausedByComposition
+;
+/
+/
+mOccurredDuringComposition
+should
+be
+true
+only
+when
+all
+changes
+occurred
+/
+/
+during
+composition
+.
+mOccurredDuringComposition
+=
+newData
+.
+mOccurredDuringComposition
+&
+&
+oldData
+.
+mOccurredDuringComposition
 ;
 if
 (
@@ -15314,6 +15358,7 @@ TextChangeData
 10
 20
 false
+false
 )
 )
 ;
@@ -15324,6 +15369,7 @@ TextChangeData
 20
 20
 35
+false
 false
 )
 )
@@ -15436,6 +15482,7 @@ TextChangeData
 20
 10
 false
+false
 )
 )
 ;
@@ -15446,6 +15493,7 @@ TextChangeData
 10
 30
 10
+false
 false
 )
 )
@@ -15565,6 +15613,7 @@ TextChangeData
 20
 10
 false
+false
 )
 )
 ;
@@ -15575,6 +15624,7 @@ TextChangeData
 10
 15
 10
+false
 false
 )
 )
@@ -15696,6 +15746,7 @@ TextChangeData
 10
 20
 false
+false
 )
 )
 ;
@@ -15706,6 +15757,7 @@ TextChangeData
 55
 55
 60
+false
 false
 )
 )
@@ -15827,6 +15879,7 @@ TextChangeData
 20
 10
 false
+false
 )
 )
 ;
@@ -15837,6 +15890,7 @@ TextChangeData
 55
 68
 55
+false
 false
 )
 )
@@ -15955,6 +16009,7 @@ TextChangeData
 35
 32
 false
+false
 )
 )
 ;
@@ -15965,6 +16020,7 @@ TextChangeData
 32
 32
 40
+false
 false
 )
 )
@@ -16079,6 +16135,7 @@ TextChangeData
 35
 32
 false
+false
 )
 )
 ;
@@ -16089,6 +16146,7 @@ TextChangeData
 32
 32
 33
+false
 false
 )
 )
@@ -16211,6 +16269,7 @@ TextChangeData
 35
 30
 false
+false
 )
 )
 ;
@@ -16221,6 +16280,7 @@ TextChangeData
 32
 34
 48
+false
 false
 )
 )
@@ -16347,6 +16407,7 @@ TextChangeData
 35
 30
 false
+false
 )
 )
 ;
@@ -16357,6 +16418,7 @@ TextChangeData
 32
 38
 36
+false
 false
 )
 )
@@ -16644,6 +16706,7 @@ TextChangeData
 50
 55
 false
+false
 )
 )
 ;
@@ -16654,6 +16717,7 @@ TextChangeData
 53
 60
 54
+false
 false
 )
 )
@@ -16784,6 +16848,7 @@ TextChangeData
 50
 55
 false
+false
 )
 )
 ;
@@ -16794,6 +16859,7 @@ TextChangeData
 54
 62
 68
+false
 false
 )
 )
@@ -16924,6 +16990,7 @@ TextChangeData
 48
 45
 false
+false
 )
 )
 ;
@@ -16934,6 +17001,7 @@ TextChangeData
 43
 50
 49
+false
 false
 )
 )
@@ -17064,6 +17132,7 @@ TextChangeData
 52
 53
 false
+false
 )
 )
 ;
@@ -17074,6 +17143,7 @@ TextChangeData
 43
 68
 61
+false
 false
 )
 )
@@ -17354,6 +17424,7 @@ TextChangeData
 10
 20
 false
+false
 )
 )
 ;
@@ -17364,6 +17435,7 @@ TextChangeData
 15
 15
 30
+false
 false
 )
 )
@@ -17489,6 +17561,7 @@ TextChangeData
 50
 55
 false
+false
 )
 )
 ;
@@ -17499,6 +17572,7 @@ TextChangeData
 52
 53
 56
+false
 false
 )
 )
@@ -17630,6 +17704,7 @@ TextChangeData
 48
 45
 false
+false
 )
 )
 ;
@@ -17640,6 +17715,7 @@ TextChangeData
 37
 38
 50
+false
 false
 )
 )
@@ -17771,6 +17847,7 @@ TextChangeData
 48
 53
 false
+false
 )
 )
 ;
@@ -17781,6 +17858,7 @@ TextChangeData
 43
 50
 52
+false
 false
 )
 )
@@ -17919,6 +17997,7 @@ TextChangeData
 48
 50
 false
+false
 )
 )
 ;
@@ -17929,6 +18008,7 @@ TextChangeData
 37
 49
 47
+false
 false
 )
 )
@@ -18062,6 +18142,7 @@ TextChangeData
 48
 53
 false
+false
 )
 )
 ;
@@ -18072,6 +18153,7 @@ TextChangeData
 43
 50
 47
+false
 false
 )
 )
@@ -18363,6 +18445,7 @@ TextChangeData
 50
 55
 false
+false
 )
 )
 ;
@@ -18373,6 +18456,7 @@ TextChangeData
 44
 66
 68
+false
 false
 )
 )
@@ -18502,6 +18586,7 @@ TextChangeData
 62
 50
 false
+false
 )
 )
 ;
@@ -18512,6 +18597,7 @@ TextChangeData
 44
 66
 68
+false
 false
 )
 )
@@ -18640,6 +18726,7 @@ TextChangeData
 62
 60
 false
+false
 )
 )
 ;
@@ -18650,6 +18737,7 @@ TextChangeData
 49
 128
 130
+false
 false
 )
 )
@@ -18778,6 +18866,7 @@ TextChangeData
 61
 73
 false
+false
 )
 )
 ;
@@ -18788,6 +18877,7 @@ TextChangeData
 44
 100
 50
+false
 false
 )
 )
@@ -19069,6 +19159,7 @@ TextChangeData
 50
 55
 false
+false
 )
 )
 ;
@@ -19079,6 +19170,7 @@ TextChangeData
 48
 52
 49
+false
 false
 )
 )
@@ -19214,6 +19306,7 @@ TextChangeData
 60
 58
 false
+false
 )
 )
 ;
@@ -19224,6 +19317,7 @@ TextChangeData
 43
 50
 48
+false
 false
 )
 )
@@ -19359,6 +19453,7 @@ TextChangeData
 60
 68
 false
+false
 )
 )
 ;
@@ -19369,6 +19464,7 @@ TextChangeData
 43
 55
 53
+false
 false
 )
 )
@@ -19504,6 +19600,7 @@ TextChangeData
 60
 58
 false
+false
 )
 )
 ;
@@ -19514,6 +19611,7 @@ TextChangeData
 43
 50
 128
+false
 false
 )
 )
@@ -19649,6 +19747,7 @@ TextChangeData
 60
 68
 false
+false
 )
 )
 ;
@@ -19659,6 +19758,7 @@ TextChangeData
 43
 55
 65
+false
 false
 )
 )
@@ -19944,6 +20044,7 @@ TextChangeData
 30
 45
 false
+false
 )
 )
 ;
@@ -19954,6 +20055,7 @@ TextChangeData
 10
 10
 20
+false
 false
 )
 )
@@ -20082,6 +20184,7 @@ TextChangeData
 35
 30
 false
+false
 )
 )
 ;
@@ -20092,6 +20195,7 @@ TextChangeData
 10
 25
 10
+false
 false
 )
 )
@@ -20220,6 +20324,7 @@ TextChangeData
 65
 70
 false
+false
 )
 )
 ;
@@ -20230,6 +20335,7 @@ TextChangeData
 13
 24
 15
+false
 false
 )
 )
@@ -20358,6 +20464,7 @@ TextChangeData
 65
 70
 false
+false
 )
 )
 ;
@@ -20368,6 +20475,7 @@ TextChangeData
 13
 24
 36
+false
 false
 )
 )
