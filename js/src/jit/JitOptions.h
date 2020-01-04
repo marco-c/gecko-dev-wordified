@@ -357,6 +357,9 @@ bool
 disableScalarReplacement
 ;
 bool
+disableCacheIR
+;
+bool
 disableSharedStubs
 ;
 bool

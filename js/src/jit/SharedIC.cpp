@@ -18736,6 +18736,12 @@ if
 (
 !
 attached
+&
+&
+!
+JitOptions
+.
+disableCacheIR
 )
 {
 mozilla
