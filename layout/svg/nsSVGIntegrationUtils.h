@@ -217,6 +217,16 @@ gfx
 DrawTarget
 DrawTarget
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 /
@@ -959,7 +969,7 @@ effects
 *
 /
 static
-void
+DrawResult
 PaintFramesWithEffects
 (
 const
