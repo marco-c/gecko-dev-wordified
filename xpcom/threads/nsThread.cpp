@@ -4859,6 +4859,13 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 *
 aResult
 =
@@ -4869,6 +4876,7 @@ HasPendingEvent
 (
 )
 ;
+}
 return
 NS_OK
 ;
