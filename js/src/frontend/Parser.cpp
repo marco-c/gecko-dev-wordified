@@ -9762,7 +9762,7 @@ ExclusiveContext
 cx
 )
 :
-blockObj
+blockScope
 (
 cx
 )
@@ -9772,7 +9772,7 @@ VarContext
 varContext
 ;
 RootedStaticBlockScope
-blockObj
+blockScope
 ;
 unsigned
 overflow
@@ -9815,7 +9815,7 @@ JSOp
 op
 StaticBlockScope
 *
-blockObj
+blockScope
 unsigned
 overflow
 )
@@ -9839,9 +9839,9 @@ varContext
 ;
 letData_
 .
-blockObj
+blockScope
 =
-blockObj
+blockScope
 ;
 letData_
 .
@@ -11123,7 +11123,7 @@ continue
 ;
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 stmt
 -
@@ -11136,7 +11136,7 @@ Shape
 *
 shape
 =
-blockObj
+blockScope
 .
 lookup
 (
@@ -23361,7 +23361,7 @@ Rooted
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 (
 cx
 data
@@ -23371,7 +23371,7 @@ letData
 (
 )
 .
-blockObj
+blockScope
 )
 ;
 uint32_t
@@ -23384,7 +23384,7 @@ LOCAL_INDEX_LIMIT
 ;
 if
 (
-blockObj
+blockScope
 )
 {
 /
@@ -23524,7 +23524,7 @@ compartment
 if
 (
 !
-blockObj
+blockScope
 -
 >
 isGlobal
@@ -23534,7 +23534,7 @@ isGlobal
 {
 index
 =
-blockObj
+blockScope
 -
 >
 numVariables
@@ -23900,13 +23900,13 @@ false
 }
 if
 (
-blockObj
+blockScope
 )
 {
 if
 (
 !
-blockObj
+blockScope
 -
 >
 isGlobal
@@ -23937,7 +23937,7 @@ StaticBlockScope
 addVar
 (
 cx
-blockObj
+blockScope
 id
 data
 -
@@ -24066,7 +24066,7 @@ object
 .
 *
 /
-blockObj
+blockScope
 -
 >
 setDefinitionParseNode
@@ -24223,7 +24223,7 @@ ParseHandler
 *
 pc
 HandleStaticBlockScope
-blockObj
+blockScope
 Op
 op
 )
@@ -24244,7 +24244,7 @@ ts
 context
 (
 )
-blockObj
+blockScope
 -
 >
 lastProperty
@@ -24306,7 +24306,7 @@ op
 (
 ts
 pc
-blockObj
+blockScope
 shape
 JSID_TO_ATOM
 (
@@ -24829,7 +24829,7 @@ stmt_
 )
 ;
 RootedNestedStaticScope
-scopeObj
+scope
 (
 parser_
 .
@@ -24855,12 +24855,12 @@ pop
 ;
 if
 (
-scopeObj
+scope
 )
 {
 if
 (
-scopeObj
+scope
 -
 >
 is
@@ -24872,13 +24872,13 @@ StaticBlockScope
 )
 {
 RootedStaticBlockScope
-blockObj
+blockScope
 (
 parser_
 .
 context
 &
-scopeObj
+scope
 -
 >
 as
@@ -24892,7 +24892,7 @@ StaticBlockScope
 MOZ_ASSERT
 (
 !
-blockObj
+blockScope
 -
 >
 inDictionaryMode
@@ -24904,7 +24904,7 @@ ForEachLetDef
 (
 ts
 pc
-blockObj
+blockScope
 PopLetDecl
 <
 ParseHandler
@@ -24914,7 +24914,7 @@ ParseHandler
 )
 ;
 }
-scopeObj
+scope
 -
 >
 resetEnclosingScopeFromParser
@@ -24976,7 +24976,7 @@ makeInnermostLexicalScope
 (
 StaticBlockScope
 &
-blockObj
+blockScope
 )
 {
 MOZ_ASSERT
@@ -25006,7 +25006,7 @@ stmtStack
 .
 makeInnermostLexicalScope
 (
-blockObj
+blockScope
 )
 ;
 return
@@ -28066,7 +28066,7 @@ ParseHandler
 pushLexicalScope
 (
 HandleStaticBlockScope
-blockObj
+blockScope
 AutoPushStmtInfoPC
 &
 stmt
@@ -28078,7 +28078,7 @@ blockbox
 =
 newObjectBox
 (
-blockObj
+blockScope
 )
 ;
 if
@@ -28111,7 +28111,7 @@ null
 (
 )
 ;
-blockObj
+blockScope
 -
 >
 initEnclosingScopeFromParser
@@ -28132,7 +28132,7 @@ stmt
 makeInnermostLexicalScope
 (
 *
-blockObj
+blockScope
 )
 )
 return
@@ -28179,7 +28179,7 @@ stmt
 )
 {
 RootedStaticBlockScope
-blockObj
+blockScope
 (
 context
 StaticBlockScope
@@ -28194,7 +28194,7 @@ context
 if
 (
 !
-blockObj
+blockScope
 )
 return
 null
@@ -28204,7 +28204,7 @@ null
 return
 pushLexicalScope
 (
-blockObj
+blockScope
 stmt
 )
 ;
@@ -28243,7 +28243,7 @@ FullParseHandler
 *
 pc
 HandleStaticBlockScope
-blockObj
+blockScope
 const
 Shape
 &
@@ -28260,7 +28260,7 @@ def
 ParseNode
 *
 )
-blockObj
+blockScope
 -
 >
 getSlot
@@ -28331,7 +28331,7 @@ FullParseHandler
 pushLetScope
 (
 HandleStaticBlockScope
-blockObj
+blockScope
 AutoPushStmtInfoPC
 &
 stmt
@@ -28339,7 +28339,7 @@ stmt
 {
 MOZ_ASSERT
 (
-blockObj
+blockScope
 )
 ;
 ParseNode
@@ -28348,7 +28348,7 @@ pn
 =
 pushLexicalScope
 (
-blockObj
+blockScope
 stmt
 )
 ;
@@ -28395,7 +28395,7 @@ ForEachLetDef
 (
 tokenStream
 pc
-blockObj
+blockScope
 AddLetDecl
 (
 stmt
@@ -28430,7 +28430,7 @@ SyntaxParseHandler
 pushLetScope
 (
 HandleStaticBlockScope
-blockObj
+blockScope
 AutoPushStmtInfoPC
 &
 stmt
@@ -30438,7 +30438,7 @@ binding
 *
 The
 '
-blockObj
+blockScope
 '
 parameter
 is
@@ -30506,7 +30506,7 @@ ParseNodeKind
 kind
 StaticBlockScope
 *
-blockObj
+blockScope
 /
 *
 =
@@ -30555,7 +30555,7 @@ PNK_CONST
 ;
 MOZ_ASSERT_IF
 (
-blockObj
+blockScope
 !
 =
 nullptr
@@ -30669,7 +30669,7 @@ initLexical
 (
 HoistVars
 op
-blockObj
+blockScope
 JSMSG_TOO_MANY_LOCALS
 )
 ;
@@ -31339,7 +31339,7 @@ statement
 /
 StaticBlockScope
 *
-blockObj
+blockScope
 =
 StaticBlockScope
 :
@@ -31352,12 +31352,12 @@ context
 if
 (
 !
-blockObj
+blockScope
 )
 return
 false
 ;
-blockObj
+blockScope
 -
 >
 initEnclosingScopeFromParser
@@ -31376,7 +31376,7 @@ blockbox
 =
 newObjectBox
 (
-blockObj
+blockScope
 )
 ;
 if
@@ -31477,7 +31477,7 @@ linkAsInnermostScopeStmt
 (
 stmt
 *
-blockObj
+blockScope
 )
 ;
 }
@@ -31491,7 +31491,7 @@ stmtStack
 makeInnermostLexicalScope
 (
 *
-blockObj
+blockScope
 )
 ;
 }
@@ -31517,7 +31517,7 @@ blockid
 .
 set
 (
-blockObj
+blockScope
 )
 ;
 #
@@ -31712,7 +31712,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 {
 }
@@ -31739,7 +31739,7 @@ Handle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 )
 {
 MOZ_ASSERT
@@ -31750,7 +31750,7 @@ pc
 )
 =
 =
-blockObj
+blockScope
 )
 ;
 }
@@ -36448,7 +36448,7 @@ MutableHandle
 StaticBlockScope
 *
 >
-blockObj
+blockScope
 Node
 *
 forLetImpliedBlock
@@ -36886,7 +36886,7 @@ the
 lexical
 declaration
 .
-blockObj
+blockScope
 .
 set
 (
@@ -36902,12 +36902,12 @@ context
 if
 (
 !
-blockObj
+blockScope
 )
 return
 false
 ;
-blockObj
+blockScope
 -
 >
 initEnclosingScopeFromParser
@@ -36937,7 +36937,7 @@ forLetImpliedBlock
 =
 pushLetScope
 (
-blockObj
+blockScope
 *
 letStmt
 )
@@ -36964,7 +36964,7 @@ true
 assertCurrentLexicalStaticBlockIs
 (
 pc
-blockObj
+blockScope
 )
 ;
 *
@@ -36981,7 +36981,7 @@ TOK_CONST
 PNK_CONST
 :
 PNK_LET
-blockObj
+blockScope
 forHeadKind
 forInOrOfExpression
 )
@@ -37733,12 +37733,12 @@ form
 /
 /
 /
-blockObj
+blockScope
 is
 the
 static
 block
-object
+scope
 for
 the
 implicit
@@ -37746,7 +37746,7 @@ block
 scope
 .
 RootedStaticBlockScope
-blockObj
+blockScope
 (
 context
 )
@@ -37757,7 +37757,7 @@ The
 PNK_LEXICALSCOPE
 node
 containing
-blockObj
+blockScope
 '
 s
 ObjectBox
@@ -38014,7 +38014,7 @@ headKind
 startNode
 letStmt
 &
-blockObj
+blockScope
 &
 forLetImpliedBlock
 &
@@ -42505,7 +42505,7 @@ letData
 (
 )
 .
-blockObj
+blockScope
 )
 ;
 if
@@ -50946,7 +50946,7 @@ context
 )
 ;
 RootedStaticBlockScope
-blockObj
+blockScope
 (
 context
 StaticBlockScope
@@ -50961,7 +50961,7 @@ context
 if
 (
 !
-blockObj
+blockScope
 )
 return
 null
@@ -50995,7 +50995,7 @@ to
 pushLetScope
 |
 .
-blockObj
+blockScope
 -
 >
 initEnclosingScopeFromParser
@@ -51014,7 +51014,7 @@ initLexical
 (
 DontHoistVars
 JSOP_DEFLET
-blockObj
+blockScope
 JSMSG_TOO_MANY_LOCALS
 )
 ;
@@ -51066,7 +51066,7 @@ letScope
 =
 pushLetScope
 (
-blockObj
+blockScope
 stmtInfo
 )
 ;

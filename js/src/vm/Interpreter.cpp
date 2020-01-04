@@ -23168,7 +23168,7 @@ JSOP_PUSHBLOCKSCOPE
 {
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 script
 -
@@ -23190,7 +23190,7 @@ StaticBlockScope
 ;
 MOZ_ASSERT
 (
-blockObj
+blockScope
 .
 needsClone
 (
@@ -23220,7 +23220,7 @@ fp
 pushBlock
 (
 cx
-blockObj
+blockScope
 )
 )
 goto
@@ -23279,7 +23279,7 @@ StaticBlockScope
 ;
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 scope
 -
@@ -23293,7 +23293,7 @@ StaticBlockScope
 ;
 MOZ_ASSERT
 (
-blockObj
+blockScope
 .
 needsClone
 (

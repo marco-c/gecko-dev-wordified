@@ -26966,7 +26966,7 @@ staticScope
 {
 StaticBlockScope
 &
-blockObj
+blockScope
 =
 staticScope
 -
@@ -26980,13 +26980,13 @@ StaticBlockScope
 ;
 nlivefixed
 =
-blockObj
+blockScope
 .
 localOffset
 (
 )
 +
-blockObj
+blockScope
 .
 numVariables
 (
