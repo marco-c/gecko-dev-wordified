@@ -10645,11 +10645,11 @@ MaxImports
 genData
 -
 >
-sigToTable
+asmJSSigToTable
 .
 resize
 (
-MaxSigs
+MaxTables
 )
 )
 {

@@ -695,6 +695,8 @@ MacroAssembler
 masm
 unsigned
 framePushed
+uint32_t
+sigIndex
 FuncOffsets
 *
 offsets
@@ -726,7 +728,7 @@ enable
 disable
 profiling
 void
-EnableProfilingPrologue
+ToggleProfiling
 (
 const
 Module
@@ -741,7 +743,7 @@ enabled
 )
 ;
 void
-EnableProfilingThunk
+ToggleProfiling
 (
 const
 Module
@@ -756,7 +758,7 @@ enabled
 )
 ;
 void
-EnableProfilingEpilogue
+ToggleProfiling
 (
 const
 Module

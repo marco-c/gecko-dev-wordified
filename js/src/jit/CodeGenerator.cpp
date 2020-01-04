@@ -62794,8 +62794,10 @@ bool
 CodeGenerator
 :
 :
-generateAsmJS
+generateWasm
 (
+uint32_t
+sigIndex
 wasm
 :
 :
@@ -62826,6 +62828,7 @@ masm
 frameSize
 (
 )
+sigIndex
 offsets
 )
 ;
