@@ -1029,15 +1029,6 @@ setComponent
 null
 )
 ;
-if
-(
-AppConstants
-.
-Versions
-.
-feature15Plus
-)
-{
 i
 .
 setSelector
@@ -1045,7 +1036,6 @@ setSelector
 null
 )
 ;
-}
 startActivity
 (
 i

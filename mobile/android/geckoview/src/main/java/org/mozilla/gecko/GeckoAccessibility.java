@@ -783,13 +783,6 @@ beforeText
 )
 )
 ;
-if
-(
-Versions
-.
-feature14Plus
-)
-{
 event
 .
 setToIndex
@@ -852,14 +845,6 @@ scrollY
 )
 )
 ;
-}
-if
-(
-Versions
-.
-feature15Plus
-)
-{
 event
 .
 setMaxScrollX
@@ -892,7 +877,6 @@ maxScrollY
 )
 )
 ;
-}
 }
 private
 static

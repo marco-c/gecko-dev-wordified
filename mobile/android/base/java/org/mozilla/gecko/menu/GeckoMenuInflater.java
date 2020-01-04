@@ -946,13 +946,6 @@ item
 iconRes
 )
 ;
-if
-(
-Versions
-.
-feature11Plus
-)
-{
 menuItem
 .
 setShowAsAction
@@ -962,7 +955,6 @@ item
 showAsAction
 )
 ;
-}
 if
 (
 geckoItem

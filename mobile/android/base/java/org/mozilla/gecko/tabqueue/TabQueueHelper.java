@@ -344,11 +344,7 @@ final
 boolean
 TAB_QUEUE_ENABLED
 =
-AppConstants
-.
-Versions
-.
-feature11Plus
+true
 ;
 public
 static

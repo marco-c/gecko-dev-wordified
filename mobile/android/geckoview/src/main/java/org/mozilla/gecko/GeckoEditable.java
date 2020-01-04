@@ -3987,13 +3987,6 @@ in
 the
 SDK
 .
-if
-(
-Versions
-.
-feature14Plus
-)
-{
 tpUnderlineColor
 =
 (
@@ -4024,7 +4017,6 @@ underlineThickness
 0f
 )
 ;
-}
 if
 (
 tpUnderlineColor

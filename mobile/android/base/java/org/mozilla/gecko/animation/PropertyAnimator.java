@@ -997,11 +997,6 @@ case
 .
 if
 (
-Versions
-.
-feature11Plus
-&
-&
 treeObserver
 !
 =
