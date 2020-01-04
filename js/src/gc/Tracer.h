@@ -1160,7 +1160,7 @@ name
 ;
 /
 /
-Depricated
+Deprecated
 .
 Please
 use

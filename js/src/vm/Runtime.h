@@ -6380,7 +6380,7 @@ collector
 state
 has
 been
-sucessfully
+successfully
 initialized
 .
 *
@@ -6730,7 +6730,7 @@ hadOutOfMemory
 *
 We
 are
-curently
+currently
 deleting
 an
 object

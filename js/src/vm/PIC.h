@@ -894,7 +894,7 @@ canonicalIteratorFunc_
 *
 To
 quickly
-retreive
+retrieve
 and
 ensure
 that
@@ -944,7 +944,7 @@ canonicalNextFunc_
 *
 To
 quickly
-retreive
+retrieve
 and
 ensure
 that

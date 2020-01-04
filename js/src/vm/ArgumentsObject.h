@@ -552,7 +552,7 @@ an
 array
 /
 /
-initialiser
+initializer
 .
 static
 const

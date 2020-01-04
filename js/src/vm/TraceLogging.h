@@ -237,7 +237,7 @@ possible
 to
 trace
 the
-occurence
+occurrence
 of
 a
 single
@@ -364,7 +364,7 @@ repetitions
 since
 it
 will
-criple
+cripple
 *
 performance
 .
@@ -422,7 +422,7 @@ functions
 )
 Log
 the
-occurence
+occurrence
 of
 a
 single
@@ -454,7 +454,7 @@ argument
 to
 log
 the
-occurence
+occurrence
 of
 a
 single
