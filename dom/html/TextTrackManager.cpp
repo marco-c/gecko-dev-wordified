@@ -1422,7 +1422,7 @@ void
 TextTrackManager
 :
 :
-AddCue
+NotifyCueAdded
 (
 TextTrackCue
 &
