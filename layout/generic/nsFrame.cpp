@@ -22684,7 +22684,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 &
 &
 curDetail

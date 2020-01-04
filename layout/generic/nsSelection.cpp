@@ -1052,7 +1052,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 :
 return
 "
@@ -1155,7 +1155,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 :
 return
 true
@@ -2139,7 +2139,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 :
 return
 9
@@ -2212,7 +2212,7 @@ eURLSecondary
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 }
 ;
 if

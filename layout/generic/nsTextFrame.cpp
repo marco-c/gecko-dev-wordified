@@ -37573,7 +37573,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSTRIKEOUT
+eURLStrikeout
 :
 {
 nscoord
