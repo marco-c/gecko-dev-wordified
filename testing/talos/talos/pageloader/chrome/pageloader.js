@@ -169,7 +169,7 @@ numRetries
 var
 maxRetries
 =
-20
+3
 ;
 var
 pageFilterRegexp
