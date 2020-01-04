@@ -150,6 +150,13 @@ h
 #
 include
 "
+MediaDecoder
+.
+h
+"
+#
+include
+"
 MediaEncoder
 .
 h
