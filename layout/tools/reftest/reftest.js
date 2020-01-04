@@ -3327,7 +3327,7 @@ manifestURL
 gDumpLog
 (
 "
-Readings
+Reading
 manifest
 "
 +
