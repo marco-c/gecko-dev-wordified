@@ -25283,17 +25283,6 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-ContainerLayerParameters
-params
-=
-aContainerParameters
-;
-params
-.
-mForEventsOnly
-=
-mForEventsOnly
-;
 RefPtr
 <
 Layer
@@ -25316,7 +25305,7 @@ mFrame
 this
 &
 mList
-params
+aContainerParameters
 nullptr
 FrameLayerBuilder
 :

@@ -2436,14 +2436,6 @@ to
 be
 rendered
 .
-if
-(
-!
-aContainerParameters
-.
-mForEventsOnly
-)
-{
 NS_WARNING
 (
 "
@@ -2454,7 +2446,6 @@ rendered
 "
 )
 ;
-}
 return
 nullptr
 ;
