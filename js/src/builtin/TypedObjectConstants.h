@@ -1021,7 +1021,7 @@ code
 prefer
 /
 /
-SimdTypeDescr
+SimdType
 :
 :
 Int32x4
@@ -1035,9 +1035,9 @@ write
 a
 switch
 which
-/
-/
 will
+/
+/
 receive
 a
 warning

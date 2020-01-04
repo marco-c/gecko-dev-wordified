@@ -2987,6 +2987,8 @@ nullptr
 ;
 uint32_t
 typeSlotIndex
+=
+uint32_t
 (
 T
 :

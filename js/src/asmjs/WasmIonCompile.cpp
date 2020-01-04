@@ -189,6 +189,15 @@ h
 #
 include
 "
+asmjs
+/
+WasmGenerator
+.
+h
+"
+#
+include
+"
 jit
 /
 CodeGenerator

@@ -5755,17 +5755,6 @@ target
 SIMD
 helpers
 .
-static
-MIRType
-SimdTypeDescrToMIRType
-(
-SimdTypeDescr
-:
-:
-Type
-type
-)
-;
 bool
 canInlineSimd
 (
