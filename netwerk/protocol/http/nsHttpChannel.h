@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIPackagedAppChannelListener
-.
-h
-"
-#
-include
-"
 nsICachingChannel
 .
 h
@@ -520,8 +513,6 @@ nsHttpChannel
 public
 nsIStreamListener
 public
-nsIPackagedAppChannelListener
-public
 nsICachingChannel
 public
 nsICacheEntryOpenCallback
@@ -553,7 +544,6 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-NS_DECL_NSIPACKAGEDAPPCHANNELLISTENER
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 NS_DECL_NSICACHEINFOCHANNEL
 NS_DECL_NSICACHINGCHANNEL
