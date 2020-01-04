@@ -200,19 +200,17 @@ stage_server
 '
 :
 '
-dev
--
-stage01
+upload
 .
-srv
+ffxbld
 .
-releng
+productdelivery
 .
-scl3
+stage
 .
-mozilla
+mozaws
 .
-com
+net
 '
         
 "
@@ -368,6 +366,16 @@ mozilla
 org
 "
         
+#
+bug
+1216907
+set
+this
+at
+branch
+level
+        
+#
 '
 stage_server
 '
