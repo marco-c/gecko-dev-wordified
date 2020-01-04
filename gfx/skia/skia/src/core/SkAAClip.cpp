@@ -1182,6 +1182,16 @@ isEmpty
 return
 ;
 }
+SkASSERT
+(
+!
+fBounds
+.
+isEmpty
+(
+)
+)
+;
 const
 RunHead
 *

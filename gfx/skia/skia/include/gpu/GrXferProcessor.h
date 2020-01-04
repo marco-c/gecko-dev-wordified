@@ -2252,8 +2252,6 @@ const
 GrPipelineOptimizations
 &
 optimizations
-bool
-hasMixedSamples
 )
 const
 ;
@@ -2438,13 +2436,9 @@ willReadDstColor
 const
 GrCaps
 &
-caps
 const
 GrPipelineOptimizations
 &
-optimizations
-bool
-hasMixedSamples
 )
 const
 ;
@@ -2480,13 +2474,9 @@ onWillReadDstColor
 const
 GrCaps
 &
-caps
 const
 GrPipelineOptimizations
 &
-optimizations
-bool
-hasMixedSamples
 )
 const
 =

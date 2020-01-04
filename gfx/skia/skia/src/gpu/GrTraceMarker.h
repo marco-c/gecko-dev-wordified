@@ -439,7 +439,6 @@ Iter
 )
 {
 }
-;
 Iter
 &
 operator

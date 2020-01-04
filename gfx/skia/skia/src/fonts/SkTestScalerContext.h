@@ -210,10 +210,7 @@ char
 *
 fDebugName
 ;
-SkTypeface
-:
-:
-Style
+SkFontStyle
 fDebugStyle
 ;
 const
@@ -349,6 +346,9 @@ SkScalerContext
 *
 onCreateScalerContext
 (
+const
+SkScalerContextEffects
+&
 const
 SkDescriptor
 *

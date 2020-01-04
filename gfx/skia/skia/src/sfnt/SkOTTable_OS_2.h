@@ -92,7 +92,7 @@ struct
 SkOTTableOS2
 {
 static
-const
+constexpr
 SK_OT_CHAR
 TAG0
 =
@@ -101,7 +101,7 @@ O
 '
 ;
 static
-const
+constexpr
 SK_OT_CHAR
 TAG1
 =
@@ -110,7 +110,7 @@ S
 '
 ;
 static
-const
+constexpr
 SK_OT_CHAR
 TAG2
 =
@@ -119,7 +119,7 @@ TAG2
 '
 ;
 static
-const
+constexpr
 SK_OT_CHAR
 TAG3
 =
@@ -128,7 +128,7 @@ TAG3
 '
 ;
 static
-const
+constexpr
 SK_OT_ULONG
 TAG
 =

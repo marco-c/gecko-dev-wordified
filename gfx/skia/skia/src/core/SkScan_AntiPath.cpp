@@ -2372,10 +2372,6 @@ xleft
 0
 )
 ;
-xrite
-=
-0
-;
 fRealBlitter
 -
 >

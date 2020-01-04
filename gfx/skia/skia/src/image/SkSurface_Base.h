@@ -277,7 +277,7 @@ SkImage
 onNewImageSnapshot
 (
 SkBudgeted
-ForceCopyMode
+SkCopyPixelsMode
 )
 =
 0
@@ -724,8 +724,8 @@ snap
 )
 ;
 }
-ForceCopyMode
-fcm
+SkCopyPixelsMode
+cpm
 =
 (
 kYes_ForceUnique
@@ -734,9 +734,9 @@ kYes_ForceUnique
 unique
 )
 ?
-kYes_ForceCopyMode
+kAlways_SkCopyPixelsMode
 :
-kNo_ForceCopyMode
+kIfMutable_SkCopyPixelsMode
 ;
 snap
 =
@@ -746,7 +746,7 @@ this
 onNewImageSnapshot
 (
 budgeted
-fcm
+cpm
 )
 .
 release

@@ -1904,8 +1904,6 @@ SkDrawTypeface
 -
 1
 )
-SkSafeUnref
-(
 paint
 -
 >
@@ -1916,7 +1914,6 @@ typeface
 >
 getTypeface
 (
-)
 )
 )
 ;

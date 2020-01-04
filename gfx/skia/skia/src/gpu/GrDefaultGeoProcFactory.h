@@ -134,7 +134,7 @@ PositionCoverageAttr
 SkPoint
 fPosition
 ;
-GrColor
+float
 fCoverage
 ;
 }
@@ -159,7 +159,7 @@ fPosition
 SkColor
 fColor
 ;
-GrColor
+float
 fCoverage
 ;
 }
@@ -184,7 +184,7 @@ fPosition
 SkPoint
 fLocalCoord
 ;
-GrColor
+float
 fCoverage
 ;
 }
@@ -215,7 +215,7 @@ fColor
 SkPoint
 fLocalCoord
 ;
-GrColor
+float
 fCoverage
 ;
 }
@@ -437,10 +437,11 @@ fMatrix
 ;
 }
 ;
-const
+sk_sp
+<
 GrGeometryProcessor
-*
-Create
+>
+Make
 (
 const
 Color
@@ -506,10 +507,11 @@ invertible
 .
 *
 /
-const
+sk_sp
+<
 GrGeometryProcessor
-*
-CreateForDeviceSpace
+>
+MakeForDeviceSpace
 (
 const
 Color

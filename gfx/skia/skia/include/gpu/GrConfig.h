@@ -254,12 +254,6 @@ GR_CACHE_STATS
 if
 defined
 (
-SK_DEVELOPER
-)
-|
-|
-defined
-(
 SK_DEBUG
 )
 |
@@ -291,12 +285,6 @@ GR_GPU_STATS
 )
 #
 if
-defined
-(
-SK_DEVELOPER
-)
-|
-|
 defined
 (
 SK_DEBUG

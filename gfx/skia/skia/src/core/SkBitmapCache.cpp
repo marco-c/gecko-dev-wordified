@@ -1746,6 +1746,8 @@ MipMapKey
 (
 uint32_t
 genID
+SkSourceGammaTreatment
+treatment
 const
 SkIRect
 &
@@ -1755,6 +1757,16 @@ bounds
 fGenID
 (
 genID
+)
+fSrcGammaTreatment
+(
+static_cast
+<
+uint32_t
+>
+(
+treatment
+)
 )
 fBounds
 (
@@ -1779,6 +1791,11 @@ fGenID
 +
 sizeof
 (
+fSrcGammaTreatment
+)
++
+sizeof
+(
 fBounds
 )
 )
@@ -1786,6 +1803,9 @@ fBounds
 }
 uint32_t
 fGenID
+;
+uint32_t
+fSrcGammaTreatment
 ;
 SkIRect
 fBounds
@@ -1807,6 +1827,8 @@ const
 SkBitmap
 &
 src
+SkSourceGammaTreatment
+treatment
 const
 SkMipMap
 *
@@ -1820,6 +1842,7 @@ src
 getGenerationID
 (
 )
+treatment
 get_bounds_from_bitmap
 (
 src
@@ -2086,6 +2109,8 @@ const
 SkBitmapCacheDesc
 &
 desc
+SkSourceGammaTreatment
+treatment
 SkResourceCache
 *
 localCache
@@ -2113,6 +2138,7 @@ key
 desc
 .
 fImageID
+treatment
 desc
 .
 fBounds
@@ -2192,6 +2218,8 @@ const
 SkBitmap
 &
 src
+SkSourceGammaTreatment
+treatment
 SkResourceCache
 *
 localCache
@@ -2207,6 +2235,7 @@ SkMipMap
 Build
 (
 src
+treatment
 get_fact
 (
 localCache
@@ -2226,6 +2255,7 @@ new
 MipMapRec
 (
 src
+treatment
 mipmap
 )
 ;

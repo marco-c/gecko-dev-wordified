@@ -54,13 +54,6 @@ SkOTTableTypes
 h
 "
 #
-include
-"
-SkTypedEnum
-.
-h
-"
-#
 pragma
 pack
 (

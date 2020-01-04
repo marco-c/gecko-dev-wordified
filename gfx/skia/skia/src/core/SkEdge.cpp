@@ -52,7 +52,7 @@ h
 #
 include
 "
-SkMath
+SkMathPriv
 .
 h
 "
