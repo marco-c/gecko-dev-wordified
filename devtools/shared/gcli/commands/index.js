@@ -649,7 +649,9 @@ array
 try
 {
 const
+{
 defaultTools
+}
 =
 require
 (
@@ -661,8 +663,6 @@ client
 definitions
 "
 )
-.
-defaultTools
 ;
 exports
 .
@@ -711,6 +711,10 @@ e
 /
 /
 "
+devtools
+/
+client
+/
 definitions
 "
 is
@@ -782,9 +786,7 @@ devtools
 /
 client
 /
-framework
-/
-toolbox
+definitions
 "
 )
 ;
@@ -837,9 +839,9 @@ e
 "
 devtools
 /
-framework
+client
 /
-toolbox
+definitions
 "
 is
 only
