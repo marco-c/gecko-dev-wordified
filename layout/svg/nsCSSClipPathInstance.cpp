@@ -214,7 +214,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-StyleClipPathType
+StyleShapeSourceType
 type
 =
 clipPathStyle
@@ -228,7 +228,7 @@ MOZ_ASSERT
 type
 !
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
@@ -268,7 +268,7 @@ if
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -355,7 +355,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-StyleClipPathType
+StyleShapeSourceType
 type
 =
 clipPathStyle
@@ -369,7 +369,7 @@ MOZ_ASSERT
 type
 !
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
@@ -409,7 +409,7 @@ if
 type
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -614,7 +614,7 @@ GetType
 )
 !
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape

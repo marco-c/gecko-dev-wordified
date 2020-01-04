@@ -6302,7 +6302,7 @@ nullptr
 )
 mType
 (
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
@@ -6333,7 +6333,7 @@ nullptr
 )
 mType
 (
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
@@ -6353,7 +6353,7 @@ aSource
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6373,7 +6373,7 @@ aSource
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -6398,7 +6398,7 @@ aSource
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
@@ -6461,7 +6461,7 @@ aOther
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6481,7 +6481,7 @@ aOther
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -6506,7 +6506,7 @@ aOther
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
@@ -6535,7 +6535,7 @@ NoBox
 ;
 mType
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 None_
@@ -6580,7 +6580,7 @@ if
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6602,7 +6602,7 @@ if
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -6633,7 +6633,7 @@ if
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
@@ -6665,7 +6665,7 @@ if
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -6694,7 +6694,7 @@ if
 mType
 =
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6773,7 +6773,7 @@ mURL
 ;
 mType
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6827,7 +6827,7 @@ aValue
 ;
 mType
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 URL
@@ -6879,7 +6879,7 @@ aSizingBox
 ;
 mType
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Shape
@@ -6905,7 +6905,7 @@ aSizingBox
 ;
 mType
 =
-StyleClipPathType
+StyleShapeSourceType
 :
 :
 Box
