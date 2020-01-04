@@ -154,7 +154,7 @@ Reps
 const
 {
 isGrip
-getFileName
+getURLDisplayString
 }
 =
 require
@@ -236,7 +236,7 @@ location
 return
 location
 ?
-getFileName
+getURLDisplayString
 (
 location
 )

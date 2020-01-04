@@ -154,6 +154,7 @@ Reps
 const
 {
 isGrip
+getURLDisplayString
 }
 =
 require
@@ -292,11 +293,14 @@ grip
 )
 {
 return
+getURLDisplayString
+(
 grip
 .
 preview
 .
 url
+)
 ;
 }
 render
