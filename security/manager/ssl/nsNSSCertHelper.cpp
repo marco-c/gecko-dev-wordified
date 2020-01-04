@@ -6564,7 +6564,7 @@ buffer
 "
 #
 %
-d
+lu
 "
 number
 )
@@ -8158,10 +8158,10 @@ snprintf_literal
 buf
 "
 %
-d
+lu
 .
 %
-d
+lu
 "
 version
 &
