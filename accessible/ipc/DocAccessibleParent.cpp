@@ -1516,6 +1516,14 @@ Remove
 )
 ;
 }
+DocManager
+:
+:
+NotifyOfRemoteDocShutdown
+(
+this
+)
+;
 ProxyDestroyed
 (
 this
