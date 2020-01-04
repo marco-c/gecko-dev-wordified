@@ -2548,6 +2548,12 @@ a
 single
 image
 .
+if
+(
+!
+aDumpHtml
+)
+{
 aStream
 <
 <
@@ -2565,6 +2571,7 @@ Surface
 :
 "
 ;
+}
 CompositableClient
 :
 :
