@@ -6665,6 +6665,17 @@ IsAudible
 )
 const
 ;
+bool
+HaveFailedWithSourceNotSupportedError
+(
+)
+const
+;
+void
+OpenUnsupportedMediaWithExtenalAppIfNeeded
+(
+)
+;
 class
 nsAsyncEventRunner
 ;
@@ -9517,6 +9528,9 @@ users
 .
 bool
 mAudible
+;
+nsAutoCString
+mMimeType
 ;
 }
 ;
