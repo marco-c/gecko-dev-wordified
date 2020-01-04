@@ -215,7 +215,7 @@ macros
 if
 defined
 (
-SHA_ALLOW_UNALIGNED_ACCESS
+HAVE_UNALIGNED_ACCESS
 )
 /
 *

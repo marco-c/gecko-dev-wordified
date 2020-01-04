@@ -1052,7 +1052,7 @@ if
 !
 defined
 (
-SHA_ALLOW_UNALIGNED_ACCESS
+HAVE_UNALIGNED_ACCESS
 )
 if
 (
@@ -2073,6 +2073,7 @@ AMD64
 /
 static
 void
+NO_SANITIZE_ALIGNMENT
 shaCompress
 (
 volatile

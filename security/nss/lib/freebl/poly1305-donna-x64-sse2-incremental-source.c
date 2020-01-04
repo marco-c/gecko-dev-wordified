@@ -154,6 +154,13 @@ poly1305
 h
 "
 #
+include
+"
+blapii
+.
+h
+"
+#
 define
 ALIGN
 (
@@ -646,6 +653,7 @@ bytes
 static
 void
 INLINE
+NO_SANITIZE_ALIGNMENT
 poly1305_block_copy
 (
 uint8_t

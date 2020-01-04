@@ -113,6 +113,13 @@ h
 "
 #
 include
+"
+blapii
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -358,6 +365,7 @@ out
 }
 static
 void
+NO_SANITIZE_ALIGNMENT
 DES_CBCEn
 (
 DESContext
@@ -476,6 +484,7 @@ out
 }
 static
 void
+NO_SANITIZE_ALIGNMENT
 DES_CBCDe
 (
 DESContext
@@ -623,6 +632,7 @@ out
 }
 static
 void
+NO_SANITIZE_ALIGNMENT
 DES_EDE3CBCEn
 (
 DESContext
@@ -789,6 +799,7 @@ out
 }
 static
 void
+NO_SANITIZE_ALIGNMENT
 DES_EDE3CBCDe
 (
 DESContext
