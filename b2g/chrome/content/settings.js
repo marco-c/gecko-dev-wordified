@@ -1189,9 +1189,6 @@ sms
 '
 telephony
 '
-'
-voicemail
-'
 ]
 .
 forEach
