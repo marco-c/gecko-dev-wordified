@@ -4558,14 +4558,8 @@ EmptyString
 false
 false
 true
-aTabOpener
--
->
-mDPI
-aTabOpener
--
->
-mDefaultScale
+0
+0
 )
 ;
 nsCOMPtr
