@@ -460,12 +460,6 @@ case
 eCSSProperty_background_position
 :
 case
-eCSSProperty_background_position_x
-:
-case
-eCSSProperty_background_position_y
-:
-case
 eCSSProperty_transform
 :
 case

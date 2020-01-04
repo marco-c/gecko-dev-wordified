@@ -1952,7 +1952,7 @@ nsCSSValueList
 never
 null
 )
-eUnit_BackgroundPositionCoord
+eUnit_BackgroundPosition
 /
 /
 nsCSSValueList
@@ -3164,7 +3164,7 @@ eUnit_Shadow
 aUnit
 =
 =
-eUnit_BackgroundPositionCoord
+eUnit_BackgroundPosition
 ;
 }
 static
