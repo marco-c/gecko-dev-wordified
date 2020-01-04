@@ -8457,7 +8457,7 @@ standard
 /
 /
 Negate
-scrollY
+scroll
 true
 will
 make
@@ -8485,7 +8485,7 @@ ui
 .
 scrolling
 .
-negate_wheel_scrollY
+negate_wheel_scroll
 "
 true
 )
