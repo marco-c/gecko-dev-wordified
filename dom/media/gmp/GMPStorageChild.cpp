@@ -179,9 +179,6 @@ GMPMessageLoop
 PostTask
 (
 \
-dont_add_new_uses_of_this
-:
-:
 NewRunnableMethod
 (
 this
