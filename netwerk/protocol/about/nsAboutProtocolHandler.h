@@ -136,6 +136,8 @@ class
 nsAboutProtocolHandler
 :
 public
+nsIProtocolHandlerWithDynamicFlags
+public
 nsIProtocolHandler
 public
 nsSupportsWeakReference
@@ -149,6 +151,7 @@ nsIProtocolHandler
 methods
 :
 NS_DECL_NSIPROTOCOLHANDLER
+NS_DECL_NSIPROTOCOLHANDLERWITHDYNAMICFLAGS
 /
 /
 nsAboutProtocolHandler
