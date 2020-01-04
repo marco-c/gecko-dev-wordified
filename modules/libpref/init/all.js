@@ -60209,7 +60209,7 @@ goog
 downloadwhite
 -
 digest256
-mozstd
+base
 -
 track
 -
@@ -60219,7 +60219,7 @@ mozstd
 trackwhite
 -
 digest256
-mozfull
+content
 -
 track
 -
@@ -60268,7 +60268,7 @@ test
 track
 -
 simple
-mozstd
+base
 -
 track
 -
@@ -61267,7 +61267,7 @@ mozilla
 lists
 "
 "
-mozstd
+base
 -
 track
 -
@@ -61277,7 +61277,7 @@ mozstd
 trackwhite
 -
 digest256
-mozfull
+content
 -
 track
 -
@@ -61464,7 +61464,7 @@ mozilla
 .
 lists
 .
-mozstd
+base
 .
 name
 "
@@ -61486,7 +61486,7 @@ mozilla
 .
 lists
 .
-mozstd
+base
 .
 description
 "
@@ -61508,7 +61508,7 @@ mozilla
 .
 lists
 .
-mozfull
+content
 .
 name
 "
@@ -61530,7 +61530,7 @@ mozilla
 .
 lists
 .
-mozfull
+content
 .
 description
 "

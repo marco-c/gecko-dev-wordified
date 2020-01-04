@@ -6908,6 +6908,10 @@ IsMediaStreamURI
 (
 mLoadingSrc
 )
+&
+&
+!
+mMediaSource
 )
 {
 /
@@ -7878,6 +7882,10 @@ IsMediaStreamURI
 (
 mLoadingSrc
 )
+&
+&
+!
+mMediaSource
 )
 {
 /
