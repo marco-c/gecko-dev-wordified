@@ -583,6 +583,13 @@ nsAnimationManager
 h
 "
 #
+include
+"
+nsIDOMEvent
+.
+h
+"
+#
 ifdef
 MOZ_NUWA_PROCESS
 #

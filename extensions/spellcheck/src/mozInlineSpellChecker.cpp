@@ -509,6 +509,13 @@ h
 #
 include
 "
+nsIDOMEvent
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h

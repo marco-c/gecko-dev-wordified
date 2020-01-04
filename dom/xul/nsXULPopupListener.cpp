@@ -808,6 +808,11 @@ target
 mouseEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 InternalDOMEvent
 (
 )
@@ -981,6 +986,11 @@ bool
 preventDefault
 ;
 mouseEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 GetDefaultPrevented

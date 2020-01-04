@@ -12522,6 +12522,11 @@ keyTime
 aKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetTimeStamp
 (
 &

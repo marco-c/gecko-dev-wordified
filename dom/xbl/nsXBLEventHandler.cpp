@@ -476,6 +476,11 @@ event
 aKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetInternalNSEvent
 (
 )
@@ -487,6 +492,11 @@ EventTarget
 target
 =
 aKeyEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 InternalDOMEvent
@@ -599,6 +609,11 @@ ExecuteHandler
 (
 target
 aKeyEvent
+-
+>
+AsEvent
+(
+)
 )
 ;
 executed

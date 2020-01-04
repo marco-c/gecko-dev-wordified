@@ -2008,6 +2008,11 @@ aDOMKeyEvent
 aDOMKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetInternalNSEvent
 (
 )
@@ -4064,6 +4069,11 @@ originalKeyEvent
 aDOMKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetInternalNSEvent
 (
 )
@@ -4601,6 +4611,11 @@ WidgetKeyboardEvent
 originalKeyEvent
 =
 aDOMKeyEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 GetInternalNSEvent
