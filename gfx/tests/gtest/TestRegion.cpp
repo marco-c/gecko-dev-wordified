@@ -5356,7 +5356,7 @@ i
 {
 r
 .
-Or
+OrWith
 (
 nsRect
 (
@@ -5402,7 +5402,7 @@ i
 {
 rInt
 .
-Or
+OrWith
 (
 nsIntRect
 (

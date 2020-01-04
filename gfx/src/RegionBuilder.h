@@ -95,7 +95,7 @@ RegionBuilder
 {
 }
 void
-Or
+OrWith
 (
 const
 RectType
