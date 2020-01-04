@@ -2896,17 +2896,9 @@ SimpleTest
 .
 waitForFocus
 (
-function
-(
-)
-{
 SimpleTest
 .
 finish
-(
-)
-;
-}
 opener
 )
 ;
