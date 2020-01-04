@@ -305,7 +305,7 @@ MOZ_ASSERT
 mouseEvent
 -
 >
-reason
+mReason
 !
 =
 WidgetMouseEvent

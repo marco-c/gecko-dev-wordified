@@ -1575,7 +1575,7 @@ ReasonType
 (
 aParam
 .
-reason
+mReason
 )
 )
 ;
@@ -1739,7 +1739,7 @@ clickCount
 aResult
 -
 >
-reason
+mReason
 =
 static_cast
 <

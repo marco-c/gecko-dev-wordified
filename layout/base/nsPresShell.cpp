@@ -42077,7 +42077,7 @@ AsMouseEvent
 )
 -
 >
-reason
+mReason
 =
 =
 WidgetMouseEvent
@@ -61395,7 +61395,7 @@ mWidget
 aEvent
 -
 >
-reason
+mReason
 aEvent
 -
 >

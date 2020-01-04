@@ -4716,7 +4716,7 @@ synthesize
 mouseEvent
 -
 >
-reason
+mReason
 =
 =
 WidgetMouseEvent
