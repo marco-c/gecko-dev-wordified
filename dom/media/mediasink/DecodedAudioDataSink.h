@@ -216,6 +216,9 @@ h
 namespace
 mozilla
 {
+class
+AudioConverter
+;
 namespace
 media
 {
@@ -681,7 +684,7 @@ track
 of
 the
 read
-positoin
+position
 of
 mCurrentData
 .
@@ -731,6 +734,12 @@ Atomic
 bool
 >
 mPlaybackComplete
+;
+UniquePtr
+<
+AudioConverter
+>
+mConverter
 ;
 }
 ;
