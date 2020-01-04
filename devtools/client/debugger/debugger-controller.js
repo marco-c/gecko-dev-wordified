@@ -232,7 +232,7 @@ EDITOR_UNLOADED
 "
 Debugger
 :
-EditorUnoaded
+EditorUnloaded
 "
 /
 /
