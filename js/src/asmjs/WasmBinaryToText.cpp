@@ -8234,9 +8234,6 @@ append
 "
 (
 table
-anyfunc
-(
-elem
 "
 )
 )
@@ -8378,7 +8375,6 @@ buffer
 append
 (
 "
-)
 )
 \
 n

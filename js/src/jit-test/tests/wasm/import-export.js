@@ -1626,7 +1626,6 @@ b
 (
 table
 2
-anyfunc
 )
 )
 )
@@ -1750,7 +1749,6 @@ b
 table
 2
 3
-anyfunc
 )
 )
 )
@@ -1946,9 +1944,11 @@ wasmFailValidateText
 module
 (
 table
+(
+resizable
 2
 1
-anyfunc
+)
 )
 )
 '
@@ -1982,7 +1982,6 @@ b
 table
 2
 1
-anyfunc
 )
 )
 )
@@ -3342,8 +3341,6 @@ wasmTextToBinary
 module
 (
 table
-0
-anyfunc
 )
 (
 export
@@ -3418,8 +3415,10 @@ wasmTextToBinary
 module
 (
 table
+(
+resizable
 2
-anyfunc
+)
 )
 (
 export
@@ -3522,8 +3521,10 @@ wasmTextToBinary
 module
 (
 table
+(
+resizable
 2
-anyfunc
+)
 )
 (
 memory
@@ -3642,8 +3643,10 @@ wasmTextToBinary
 module
 (
 table
+(
+resizable
 1
-anyfunc
+)
 )
 (
 memory
@@ -3763,8 +3766,6 @@ wasmTextToBinary
 module
 (
 table
-0
-anyfunc
 )
 (
 export
@@ -3901,8 +3902,10 @@ const
 )
 (
 table
+(
+resizable
 4
-anyfunc
+)
 )
 (
 elem
@@ -4390,7 +4393,6 @@ b
 table
 1
 1
-anyfunc
 )
 )
 (
@@ -4492,7 +4494,6 @@ b
 table
 2
 2
-anyfunc
 )
 )
 (
@@ -4692,9 +4693,11 @@ wasmTextToBinary
 module
 (
 table
+(
+resizable
 2
 2
-anyfunc
+)
 )
 (
 import
@@ -5374,14 +5377,12 @@ b
 table
 1
 1
-anyfunc
 )
 )
 (
 table
 1
 1
-anyfunc
 )
 )
 '
@@ -5410,7 +5411,6 @@ b
 table
 1
 1
-anyfunc
 )
 )
 (
@@ -5425,7 +5425,6 @@ y
 table
 2
 2
-anyfunc
 )
 )
 )
@@ -5917,7 +5916,6 @@ tbl
 (
 table
 1
-anyfunc
 )
 )
 (
@@ -6311,7 +6309,6 @@ b
 (
 table
 10
-anyfunc
 )
 )
 (
@@ -6778,9 +6775,11 @@ const
 )
 (
 table
+(
+resizable
 2
 2
-anyfunc
+)
 )
 (
 elem
