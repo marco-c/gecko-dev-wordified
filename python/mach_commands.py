@@ -1783,7 +1783,7 @@ STDOUT
 )
                             
 if
-minversion
+output
 :
                                 
 base
@@ -1797,6 +1797,9 @@ split
 n
 "
 )
+[
+0
+]
 .
 strip
 (
@@ -1822,7 +1825,7 @@ os
 .
 path
 .
-is_file
+isfile
 (
 binary
 )
