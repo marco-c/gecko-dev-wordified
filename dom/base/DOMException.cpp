@@ -624,6 +624,16 @@ BtRmtDevDownError
 BtAuthRejectedError
 =
 0
+/
+*
+Push
+API
+errors
+*
+/
+PermissionDeniedError
+=
+0
 }
 ;
 #

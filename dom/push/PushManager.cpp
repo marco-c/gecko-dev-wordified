@@ -2003,6 +2003,9 @@ NS_ERROR_FAILURE
 false
 )
 ;
+return
+NS_OK
+;
 }
 nsCOMPtr
 <
@@ -2051,7 +2054,7 @@ false
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 return
@@ -2451,7 +2454,7 @@ promise
 >
 MaybeReject
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_PUSH_ABORT_ERR
 )
 ;
 }
@@ -3004,7 +3007,7 @@ nullptr
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 return
@@ -3142,7 +3145,7 @@ p
 >
 MaybeReject
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_PUSH_ABORT_ERR
 )
 ;
 return
