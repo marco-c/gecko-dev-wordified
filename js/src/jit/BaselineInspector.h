@@ -641,11 +641,11 @@ pc
 JSString
 *
 *
-stringOut
+strOut
 JSString
 *
 *
-stringArg
+sepOut
 JSObject
 *
 *

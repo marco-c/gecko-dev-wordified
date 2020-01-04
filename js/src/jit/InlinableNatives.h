@@ -422,11 +422,6 @@ String
 \
 _
 (
-StringSplit
-)
-\
-_
-(
 StringCharCodeAt
 )
 \
@@ -444,6 +439,11 @@ StringCharAt
 _
 (
 IntrinsicStringReplaceString
+)
+\
+_
+(
+IntrinsicStringSplitString
 )
 \
 \

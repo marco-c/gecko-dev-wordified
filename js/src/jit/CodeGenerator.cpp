@@ -50846,6 +50846,7 @@ JSContext
 HandleObjectGroup
 HandleString
 HandleString
+uint32_t
 )
 ;
 static
@@ -50875,6 +50876,14 @@ LStringSplit
 lir
 )
 {
+pushArg
+(
+Imm32
+(
+INT32_MAX
+)
+)
+;
 pushArg
 (
 ToRegister
