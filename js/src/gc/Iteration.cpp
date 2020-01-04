@@ -272,9 +272,9 @@ static
 void
 IterateCompartmentsArenasCells
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 Zone
 *
 zone
@@ -315,7 +315,7 @@ next
 compartmentCallback
 )
 (
-rt
+cx
 data
 comp
 )
@@ -390,7 +390,7 @@ get
 arenaCallback
 )
 (
-rt
+cx
 data
 arena
 traceKind
@@ -423,7 +423,7 @@ next
 cellCallback
 )
 (
-rt
+cx
 data
 iter
 .

@@ -11092,9 +11092,9 @@ static
 void
 DOMGCSliceCallback
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 JS
 :
 :
@@ -11205,7 +11205,7 @@ aDesc
 .
 formatSummaryMessage
 (
-aRt
+aCx
 )
 )
 ;
@@ -11288,7 +11288,7 @@ aDesc
 .
 formatJSON
 (
-aRt
+aCx
 PR_Now
 (
 )
@@ -11556,7 +11556,7 @@ aDesc
 .
 formatSliceMessage
 (
-aRt
+aCx
 )
 )
 ;
@@ -11614,7 +11614,7 @@ sPrevGCSliceCallback
 sPrevGCSliceCallback
 )
 (
-aRt
+aCx
 aProgress
 aDesc
 )

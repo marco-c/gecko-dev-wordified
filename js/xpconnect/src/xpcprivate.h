@@ -3959,9 +3959,9 @@ static
 void
 GCSliceCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JS
 :
 :
@@ -3996,9 +3996,9 @@ static
 void
 WeakPointerZoneGroupCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 data
@@ -4008,9 +4008,9 @@ static
 void
 WeakPointerCompartmentCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSCompartment
 *
 comp

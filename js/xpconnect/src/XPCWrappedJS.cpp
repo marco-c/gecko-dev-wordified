@@ -3113,9 +3113,9 @@ static
 void
 NotHasWrapperAssertionCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 data

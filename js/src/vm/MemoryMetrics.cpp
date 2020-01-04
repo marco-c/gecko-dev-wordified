@@ -1993,9 +1993,9 @@ static
 void
 StatsCompartmentCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 data
@@ -2070,7 +2070,7 @@ cStats
 .
 initClasses
 (
-rt
+cx
 )
 )
 MOZ_CRASH

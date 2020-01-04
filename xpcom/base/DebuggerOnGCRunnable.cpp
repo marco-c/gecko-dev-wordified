@@ -175,9 +175,9 @@ DebuggerOnGCRunnable
 :
 Enqueue
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 const
 JS
 :
@@ -194,7 +194,7 @@ aDesc
 .
 toGCEvent
 (
-aRt
+aCx
 )
 ;
 if
