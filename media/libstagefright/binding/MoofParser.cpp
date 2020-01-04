@@ -4597,10 +4597,16 @@ DiscardRemaining
 (
 )
 ;
+if
+(
+mTimescale
+)
+{
 mValid
 =
 true
 ;
+}
 }
 Mdhd
 :
