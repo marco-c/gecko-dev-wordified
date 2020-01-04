@@ -2273,7 +2273,7 @@ uint32_t
 nsIFrame
 :
 :
-GetOrdinal
+GetXULOrdinal
 (
 )
 {

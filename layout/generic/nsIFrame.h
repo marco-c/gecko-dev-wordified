@@ -21272,7 +21272,7 @@ used
 in
 nsBoxFrame
 uint32_t
-GetOrdinal
+GetXULOrdinal
 (
 )
 ;
