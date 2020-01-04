@@ -3938,6 +3938,7 @@ See
 nsStyleConsts
 .
 h
+MOZ_INIT_OUTSIDE_CTOR
 uint8_t
 mOrigin
 ;
@@ -7875,6 +7876,8 @@ composite
 stripe
 )
 colors
+public
+:
 nsStyleCorners
 mBorderRadius
 ;
