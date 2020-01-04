@@ -5884,10 +5884,7 @@ GLPTR
 using
 GrGLFunction
 =
-std
-:
-:
-function
+std__function
 <
 skstd
 :

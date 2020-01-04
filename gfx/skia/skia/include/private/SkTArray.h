@@ -1003,10 +1003,7 @@ newT
 )
 T
 (
-std
-:
-:
-move
+std__move
 (
 t
 )
@@ -1082,10 +1079,7 @@ newT
 )
 T
 (
-std
-:
-:
-forward
+std__forward
 <
 Args
 >
@@ -2776,10 +2770,7 @@ dst
 )
 T
 (
-std
-:
-:
-move
+std__move
 (
 fItemArray
 [
@@ -2848,10 +2839,7 @@ i
 )
 T
 (
-std
-:
-:
-move
+std__move
 (
 fItemArray
 [
