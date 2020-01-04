@@ -4071,6 +4071,11 @@ blockSizeOfARow
 <
 =
 0
+|
+|
+XRE_IsContentProcess
+(
+)
 )
 {
 /
