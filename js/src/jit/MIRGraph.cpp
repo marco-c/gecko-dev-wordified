@@ -841,7 +841,7 @@ Val
 wasm
 :
 :
-MappedSize
+HugeMappedSize
 "
 When
 using

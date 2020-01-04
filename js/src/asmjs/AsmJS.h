@@ -504,14 +504,6 @@ uint32_t
 length
 )
 ;
-extern
-uint32_t
-RoundUpToNextValidAsmJSHeapLength
-(
-uint32_t
-length
-)
-;
 }
 /
 /

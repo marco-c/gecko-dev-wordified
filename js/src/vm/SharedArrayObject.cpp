@@ -534,7 +534,7 @@ return
 wasm
 :
 :
-MappedSize
+HugeMappedSize
 +
 gc
 :
