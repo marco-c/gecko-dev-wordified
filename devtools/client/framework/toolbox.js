@@ -205,7 +205,7 @@ hudservice
 )
 ;
 var
-sourceUtils
+viewSource
 =
 require
 (
@@ -216,9 +216,9 @@ client
 /
 shared
 /
-source
+view
 -
-utils
+source
 "
 )
 ;
@@ -15495,7 +15495,7 @@ sourceLine
 )
 {
 return
-sourceUtils
+viewSource
 .
 viewSourceInStyleEditor
 (
@@ -15549,7 +15549,7 @@ sourceLine
 )
 {
 return
-sourceUtils
+viewSource
 .
 viewSourceInDebugger
 (
@@ -15653,7 +15653,7 @@ sourceLine
 )
 {
 return
-sourceUtils
+viewSource
 .
 viewSourceInScratchpad
 (
@@ -15701,7 +15701,7 @@ sourceLine
 )
 {
 return
-sourceUtils
+viewSource
 .
 viewSource
 (

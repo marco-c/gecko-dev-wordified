@@ -730,7 +730,7 @@ functionName
 fileName
 "
 "
-hostName
+host
 "
 "
 url
@@ -762,7 +762,7 @@ expected
 nodeType
 functionName
 fileName
-hostName
+host
 url
 line
 column
@@ -1063,6 +1063,8 @@ js
 "
 "
 localhost
+:
+8888
 "
 "
 http

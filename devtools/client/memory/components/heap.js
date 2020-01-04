@@ -345,9 +345,9 @@ census
 *
 param
 {
-Object
+Function
 }
-toolbox
+onViewSourceInDebugger
 *
 param
 {
@@ -365,7 +365,7 @@ function
 createTreeProperties
 (
 census
-toolbox
+onViewSourceInDebugger
 diffing
 )
 {
@@ -502,7 +502,7 @@ new
 TreeItem
 (
 {
-toolbox
+onViewSourceInDebugger
 item
 depth
 focused
@@ -650,11 +650,11 @@ isRequired
 snapshot
 :
 snapshotModel
-toolbox
+onViewSourceInDebugger
 :
 PropTypes
 .
-object
+func
 .
 isRequired
 diffing
@@ -670,7 +670,7 @@ let
 snapshot
 diffing
 onSnapshotClick
-toolbox
+onViewSourceInDebugger
 }
 =
 this
@@ -1366,7 +1366,7 @@ Tree
 createTreeProperties
 (
 census
-toolbox
+onViewSourceInDebugger
 diffing
 )
 )
