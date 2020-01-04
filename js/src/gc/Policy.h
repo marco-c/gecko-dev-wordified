@@ -317,6 +317,9 @@ StructTypeDescr
 class
 UnownedBaseShape
 ;
+class
+WasmModuleObject
+;
 namespace
 jit
 {
@@ -727,6 +730,15 @@ js
 :
 :
 UnownedBaseShape
+*
+)
+\
+D
+(
+js
+:
+:
+WasmModuleObject
 *
 )
 \
