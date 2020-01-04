@@ -676,13 +676,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-&
-&
-!
-defined
-(
-MOZ_WIDGET_QT
-)
 <
 menuitem
 id
