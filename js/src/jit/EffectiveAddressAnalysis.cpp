@@ -931,18 +931,18 @@ ins
 {
 MDefinition
 *
-ptr
+base
 =
 ins
 -
 >
-ptr
+base
 (
 )
 ;
 if
 (
-ptr
+base
 -
 >
 isConstant
@@ -1034,7 +1034,7 @@ immediate
 int32_t
 imm
 =
-ptr
+base
 -
 >
 toConstant
@@ -1098,7 +1098,7 @@ zero
 ins
 -
 >
-replacePtr
+replaceBase
 (
 zero
 )
@@ -1181,7 +1181,7 @@ removeBoundsCheck
 else
 if
 (
-ptr
+base
 -
 >
 isAdd
@@ -1235,7 +1235,7 @@ MDefinition
 *
 op0
 =
-ptr
+base
 -
 >
 toAdd
@@ -1252,7 +1252,7 @@ MDefinition
 *
 op1
 =
-ptr
+base
 -
 >
 toAdd
@@ -1319,7 +1319,7 @@ imm
 ins
 -
 >
-replacePtr
+replaceBase
 (
 op0
 )
