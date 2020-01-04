@@ -663,7 +663,7 @@ NS_OK
 ;
 }
 static
-NS_IMETHODIMP
+nsresult
 IccContactListToMozContactList
 (
 JSContext
