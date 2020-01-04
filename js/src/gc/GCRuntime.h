@@ -4458,10 +4458,9 @@ template
 typename
 F
 >
-class
+using
 CallbackVector
-:
-public
+=
 Vector
 <
 Callback
@@ -4471,8 +4470,6 @@ F
 4
 SystemAllocPolicy
 >
-{
-}
 ;
 template
 <
