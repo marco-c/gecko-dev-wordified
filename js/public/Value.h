@@ -3130,6 +3130,8 @@ l
 )
 {
 return
+bool
+(
 l
 .
 s
@@ -3137,6 +3139,7 @@ s
 payload
 .
 boo
+)
 ;
 }
 static
@@ -3167,7 +3170,10 @@ payload
 .
 boo
 =
+uint32_t
+(
 b
+)
 ;
 return
 l
