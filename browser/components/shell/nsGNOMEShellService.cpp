@@ -259,7 +259,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -3016,7 +3018,7 @@ aColor
 0xff
 )
 ;
-PR_snprintf
+snprintf
 (
 buf
 14

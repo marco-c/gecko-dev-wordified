@@ -141,7 +141,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -925,10 +927,9 @@ buffer
 bufferSize
 ]
 ;
-PR_snprintf
+snprintf_literal
 (
 buffer
-bufferSize
 "
 %
 p
