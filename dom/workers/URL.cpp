@@ -720,12 +720,6 @@ BLOBURI_SCHEME
 )
 mBlobImpl
 principal
-mWorkerPrivate
--
->
-IsInPrivateBrowsing
-(
-)
 url
 )
 ;
