@@ -10768,12 +10768,6 @@ aFrame
 ;
 private
 :
-nsIContent
-*
-PropagateScrollToViewport
-(
-)
-;
 /
 /
 Build

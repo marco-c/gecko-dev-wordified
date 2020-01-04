@@ -3899,6 +3899,12 @@ return
 mViewportStyleScrollbar
 ;
 }
+nsIContent
+*
+PropagateScrollToViewport
+(
+)
+;
 /
 *
 *
