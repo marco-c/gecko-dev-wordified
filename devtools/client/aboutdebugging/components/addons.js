@@ -169,7 +169,7 @@ extensions
 /
 extensionGeneric
 .
-svg
+png
 "
 ;
 const
