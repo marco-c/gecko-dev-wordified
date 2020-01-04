@@ -423,9 +423,6 @@ catalog
 function
 GetDevices
 (
-bypassCache
-=
-false
 )
 {
 let
@@ -451,7 +448,6 @@ CDN
 getJSON
 (
 DEVICES_URL
-bypassCache
 )
 .
 then
