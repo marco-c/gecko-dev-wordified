@@ -87,6 +87,7 @@ sys
 def
 main
 (
+output
 file
 )
 :
@@ -409,7 +410,10 @@ serverurl
 '
 '
     
-print
+output
+.
+write
+(
 '
 '
 '
@@ -560,6 +564,7 @@ s
 '
 %
 appdata
+)
 if
 __name__
 =
@@ -583,6 +588,9 @@ argv
         
 main
 (
+sys
+.
+stdout
 sys
 .
 argv
