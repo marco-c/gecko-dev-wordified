@@ -9560,6 +9560,10 @@ mInIsolatedMozBrowser
 (
 false
 )
+mPrivateBrowsingId
+(
+0
+)
 mUserContextId
 (
 0

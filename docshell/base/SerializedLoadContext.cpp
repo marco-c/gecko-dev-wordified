@@ -287,6 +287,13 @@ mIsPrivateBitValid
 true
 ;
 }
+mOriginAttributes
+.
+SyncAttributesWithPrivateBrowsing
+(
+mUsePrivateBrowsing
+)
+;
 }
 }
 SerializedLoadContext
@@ -362,6 +369,13 @@ aLoadContext
 GetUsePrivateBrowsing
 (
 &
+mUsePrivateBrowsing
+)
+;
+mOriginAttributes
+.
+SyncAttributesWithPrivateBrowsing
+(
 mUsePrivateBrowsing
 )
 ;
