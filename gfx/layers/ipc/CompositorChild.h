@@ -843,12 +843,6 @@ SendRequestNotifyAfterRemotePaint
 (
 )
 ;
-static
-void
-ShutdownLayersIPC
-(
-)
-;
 private
 :
 /
