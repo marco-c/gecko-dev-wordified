@@ -2525,8 +2525,7 @@ uintptr_t
 p
 )
 <
-=
-LargestTaggedNullCellPointer
+32
 ;
 }
 /
