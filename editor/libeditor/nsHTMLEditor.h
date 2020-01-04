@@ -4411,6 +4411,14 @@ nsINode
 aNode
 )
 ;
+bool
+IsVisBreak
+(
+nsIDOMNode
+*
+aNode
+)
+;
 /
 *
 utility

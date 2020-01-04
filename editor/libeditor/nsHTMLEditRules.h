@@ -1354,7 +1354,7 @@ SplitParagraph
 nsIDOMNode
 *
 aPara
-nsIContent
+nsIDOMNode
 *
 aBRNode
 Selection
