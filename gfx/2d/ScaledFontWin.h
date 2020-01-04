@@ -173,6 +173,17 @@ FontType
 GDI
 ;
 }
+bool
+GetFontFileData
+(
+FontFileDataOutput
+aDataCallback
+void
+*
+aBaton
+)
+override
+;
 #
 ifdef
 USE_SKIA
