@@ -212,6 +212,11 @@ PBackgroundIndexedDBUtilsParent
 aActor
 )
 ;
+bool
+RecvFlushPendingFileDeletions
+(
+)
+;
 PIndexedDBPermissionRequestParent
 *
 AllocPIndexedDBPermissionRequestParent

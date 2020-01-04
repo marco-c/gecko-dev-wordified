@@ -241,6 +241,13 @@ aActor
 override
 ;
 virtual
+bool
+RecvFlushPendingFileDeletions
+(
+)
+override
+;
+virtual
 PBlobParent
 *
 AllocPBlobParent
