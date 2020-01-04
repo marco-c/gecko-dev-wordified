@@ -7200,7 +7200,7 @@ shouldCompact
 (
 )
 ;
-IncrementalProgress
+void
 beginCompactPhase
 (
 )
