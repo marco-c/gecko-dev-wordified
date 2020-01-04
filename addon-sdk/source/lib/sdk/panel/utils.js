@@ -798,6 +798,13 @@ work
 with
 arrow
 panels
+if
+(
+panel
+.
+firstChild
+)
+{
 panel
 .
 firstChild
@@ -826,6 +833,7 @@ height
 px
 "
 ;
+}
 }
 exports
 .
