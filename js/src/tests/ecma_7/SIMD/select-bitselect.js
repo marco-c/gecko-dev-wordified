@@ -115,6 +115,7 @@ args
 .
 push
 (
+(
 !
 !
 (
@@ -128,6 +129,12 @@ j
 1
 )
 )
+?
+-
+1
+:
+0
+)
 ;
 if
 (
@@ -138,8 +145,6 @@ maskLength
 )
 return
 Int32x4
-.
-bool
 (
 .
 .
@@ -157,8 +162,6 @@ maskLength
 )
 return
 Int16x8
-.
-bool
 (
 .
 .
@@ -176,8 +179,6 @@ maskLength
 )
 return
 Int8x16
-.
-bool
 (
 .
 .
