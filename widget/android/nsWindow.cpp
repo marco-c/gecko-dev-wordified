@@ -3472,6 +3472,13 @@ mLayerClient
 =
 layerClient
 ;
+layerClient
+-
+>
+OnGeckoReady
+(
+)
+;
 if
 (
 resetting
