@@ -2241,11 +2241,6 @@ mIsPositioned
 1
 ;
 bool
-mIsDetached
-:
-1
-;
-bool
 mMaySpanAnonymousSubtrees
 :
 1
