@@ -999,14 +999,6 @@ nsIAtom
 aAtom
 )
 ;
-uint32_t
-Gecko_HashAtom
-(
-nsIAtom
-*
-aAtom
-)
-;
 const
 uint16_t
 *
