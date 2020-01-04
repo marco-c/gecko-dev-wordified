@@ -78,6 +78,13 @@ SyntaxError
 )
 ;
 }
+if
+(
+asyncFunctionsEnabled
+(
+)
+)
+{
 assertThrowsSE
 (
 "
@@ -185,6 +192,7 @@ await
 "
 )
 ;
+}
 if
 (
 typeof
