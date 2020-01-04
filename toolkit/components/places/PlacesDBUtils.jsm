@@ -1926,6 +1926,10 @@ DELETE
 FROM
 moz_annos
 WHERE
+type
+=
+4
+OR
 anno_attribute_id
 IN
 (
@@ -1976,6 +1980,10 @@ DELETE
 FROM
 moz_items_annos
 WHERE
+type
+=
+4
+OR
 anno_attribute_id
 IN
 (
