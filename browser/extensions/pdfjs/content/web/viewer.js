@@ -124,13 +124,6 @@ License
 .
 *
 /
-/
-*
-globals
-require
-chrome
-*
-/
 '
 use
 strict
@@ -151,7 +144,11 @@ pldi
 pdf
 '
 ;
+;
 var
+pdfjsWebLibs
+;
+{
 pdfjsWebLibs
 =
 {
@@ -174,9 +171,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -185,9 +180,7 @@ pdfjsWebGrabToPan
 {
 }
 )
-)
 ;
-}
 }
 (
 this
@@ -886,14 +879,6 @@ originalTarget
 {
 try
 {
-/
-*
-jshint
-expr
-:
-true
-*
-/
 event
 .
 originalTarget
@@ -1422,6 +1407,9 @@ name
 return
 matchesSelector
 ;
+}
+)
+;
 /
 /
 If
@@ -1437,9 +1425,6 @@ some
 )
 ends
 .
-}
-)
-;
 /
 /
 Browser
@@ -1728,9 +1713,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -1739,9 +1722,7 @@ pdfjsWebOverlayManager
 {
 }
 )
-)
 ;
-}
 }
 (
 this
@@ -1994,20 +1975,16 @@ container
 container
 callerCloseMethod
 :
-(
 callerCloseMethod
 |
 |
 null
-)
 canForceClose
 :
-(
 canForceClose
 |
 |
 false
-)
 }
 ;
 resolve
@@ -2720,9 +2697,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -2731,9 +2706,7 @@ pdfjsWebPDFRenderingQueue
 {
 }
 )
-)
 ;
-}
 }
 (
 this
@@ -2786,7 +2759,6 @@ class
 var
 PDFRenderingQueue
 =
-(
 function
 PDFRenderingQueueClosure
 (
@@ -3558,7 +3530,6 @@ return
 PDFRenderingQueue
 ;
 }
-)
 (
 )
 ;
@@ -3585,9 +3556,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -3596,9 +3565,7 @@ pdfjsWebPreferences
 {
 }
 )
-)
 ;
-}
 }
 (
 this
@@ -3608,6 +3575,8 @@ exports
 )
 {
 var
+defaultPreferences
+;
 defaultPreferences
 =
 Promise
@@ -4796,9 +4765,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -4807,9 +4774,7 @@ pdfjsWebViewHistory
 {
 }
 )
-)
 ;
-}
 }
 (
 this
@@ -4903,7 +4868,6 @@ available
 var
 ViewHistory
 =
-(
 function
 ViewHistoryClosure
 (
@@ -5346,7 +5310,6 @@ return
 ViewHistory
 ;
 }
-)
 (
 )
 ;
@@ -5367,9 +5330,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -5377,13 +5338,11 @@ pdfjsWebDownloadManager
 =
 {
 }
-)
 root
 .
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -5404,9 +5363,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -5414,7 +5371,6 @@ pdfjsWebHandTool
 =
 {
 }
-)
 root
 .
 pdfjsWebGrabToPan
@@ -5423,7 +5379,6 @@ root
 pdfjsWebPreferences
 )
 ;
-}
 }
 (
 this
@@ -5492,7 +5447,6 @@ class
 var
 HandTool
 =
-(
 function
 HandToolClosure
 (
@@ -5840,7 +5794,6 @@ return
 HandTool
 ;
 }
-)
 (
 )
 ;
@@ -5861,9 +5814,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -5871,13 +5822,11 @@ pdfjsWebPDFAttachmentViewer
 =
 {
 }
-)
 root
 .
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -5968,7 +5917,6 @@ class
 var
 PDFAttachmentViewer
 =
-(
 function
 PDFAttachmentViewerClosure
 (
@@ -6175,14 +6123,12 @@ params
 var
 attachments
 =
-(
 params
 &
 &
 params
 .
 attachments
-)
 |
 |
 null
@@ -6395,7 +6341,6 @@ return
 PDFAttachmentViewer
 ;
 }
-)
 (
 )
 ;
@@ -6416,9 +6361,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -6426,13 +6369,11 @@ pdfjsWebPDFOutlineViewer
 =
 {
 }
-)
 root
 .
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -6442,6 +6383,13 @@ exports
 pdfjsLib
 )
 {
+var
+PDFJS
+=
+pdfjsLib
+.
+PDFJS
+;
 var
 DEFAULT_TITLE
 =
@@ -6533,7 +6481,6 @@ class
 var
 PDFOutlineViewer
 =
-(
 function
 PDFOutlineViewerClosure
 (
@@ -6714,6 +6661,19 @@ url
 item
 .
 url
+target
+:
+item
+.
+newWindow
+?
+PDFJS
+.
+LinkTarget
+.
+BLANK
+:
+undefined
 }
 )
 ;
@@ -7193,14 +7153,12 @@ params
 var
 outline
 =
-(
 params
 &
 &
 params
 .
 outline
-)
 |
 |
 null
@@ -7521,7 +7479,6 @@ return
 PDFOutlineViewer
 ;
 }
-)
 (
 )
 ;
@@ -7542,9 +7499,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -7552,13 +7507,11 @@ pdfjsWebPDFSidebar
 =
 {
 }
-)
 root
 .
 pdfjsWebPDFRenderingQueue
 )
 ;
-}
 }
 (
 this
@@ -7821,7 +7774,6 @@ class
 var
 PDFSidebar
 =
-(
 function
 PDFSidebarClosure
 (
@@ -8090,7 +8042,6 @@ visibleView
 )
 {
 return
-(
 this
 .
 isOpen
@@ -8102,7 +8053,6 @@ active
 SidebarView
 .
 NONE
-)
 ;
 }
 get
@@ -8111,7 +8061,6 @@ isThumbnailViewVisible
 )
 {
 return
-(
 this
 .
 isOpen
@@ -8126,7 +8075,6 @@ active
 SidebarView
 .
 THUMBS
-)
 ;
 }
 get
@@ -8135,7 +8083,6 @@ isOutlineViewVisible
 )
 {
 return
-(
 this
 .
 isOpen
@@ -8150,7 +8097,6 @@ active
 SidebarView
 .
 OUTLINE
-)
 ;
 }
 get
@@ -8159,7 +8105,6 @@ isAttachmentsViewVisible
 )
 {
 return
-(
 this
 .
 isOpen
@@ -8174,7 +8119,6 @@ active
 SidebarView
 .
 ATTACHMENTS
-)
 ;
 }
 /
@@ -8281,7 +8225,6 @@ return
 var
 isViewPreserved
 =
-(
 view
 =
 =
@@ -8289,7 +8232,6 @@ view
 this
 .
 visibleView
-)
 ;
 this
 .
@@ -8431,7 +8373,6 @@ return
 var
 isViewChanged
 =
-(
 view
 !
 =
@@ -8439,7 +8380,6 @@ view
 this
 .
 active
-)
 ;
 var
 shouldForceRendering
@@ -9642,7 +9582,6 @@ return
 PDFSidebar
 ;
 }
-)
 (
 )
 ;
@@ -9669,9 +9608,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -9679,13 +9616,11 @@ pdfjsWebUIUtils
 =
 {
 }
-)
 root
 .
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -9793,7 +9728,6 @@ PDFJS
 .
 disableFullscreen
 =
-(
 PDFJS
 .
 disableFullscreen
@@ -9807,7 +9741,6 @@ false
 PDFJS
 .
 disableFullscreen
-)
 ;
 /
 *
@@ -9829,7 +9762,6 @@ PDFJS
 .
 useOnlyCssZoom
 =
-(
 PDFJS
 .
 useOnlyCssZoom
@@ -9843,7 +9775,6 @@ false
 PDFJS
 .
 useOnlyCssZoom
-)
 ;
 /
 *
@@ -9892,7 +9823,6 @@ PDFJS
 .
 maxCanvasPixels
 =
-(
 PDFJS
 .
 maxCanvasPixels
@@ -9906,7 +9836,6 @@ undefined
 PDFJS
 .
 maxCanvasPixels
-)
 ;
 /
 *
@@ -9934,7 +9863,6 @@ PDFJS
 .
 disableHistory
 =
-(
 PDFJS
 .
 disableHistory
@@ -9948,7 +9876,6 @@ false
 PDFJS
 .
 disableHistory
-)
 ;
 /
 *
@@ -9979,7 +9906,6 @@ PDFJS
 .
 disableTextLayer
 =
-(
 PDFJS
 .
 disableTextLayer
@@ -9993,7 +9919,6 @@ false
 PDFJS
 .
 disableTextLayer
-)
 ;
 /
 *
@@ -10016,7 +9941,6 @@ PDFJS
 .
 ignoreCurrentPositionOnZoom
 =
-(
 PDFJS
 .
 ignoreCurrentPositionOnZoom
@@ -10030,7 +9954,6 @@ false
 PDFJS
 .
 ignoreCurrentPositionOnZoom
-)
 ;
 /
 *
@@ -10365,7 +10288,6 @@ parent
 scrollHeight
 |
 |
-(
 checkOverflow
 &
 &
@@ -10381,7 +10303,6 @@ overflow
 '
 hidden
 '
-)
 )
 {
 if
@@ -10440,14 +10361,14 @@ parent
 {
 return
 ;
+}
+}
 /
 /
 no
 need
 to
 scroll
-}
-}
 if
 (
 spot
@@ -10972,11 +10893,9 @@ maxIndex
 var
 currentIndex
 =
-(
 minIndex
 +
 maxIndex
-)
 >
 >
 1
@@ -11015,6 +10934,7 @@ currentIndex
 return
 minIndex
 ;
+}
 /
 *
 =
@@ -11023,7 +10943,6 @@ minIndex
 maxIndex
 *
 /
-}
 /
 *
 *
@@ -11496,7 +11415,6 @@ viewWidth
 var
 firstVisibleElementInd
 =
-(
 views
 .
 length
@@ -11504,7 +11422,6 @@ length
 =
 =
 0
-)
 ?
 0
 :
@@ -11634,7 +11551,6 @@ bottom
 percentHeight
 =
 (
-(
 viewHeight
 -
 hiddenHeight
@@ -11643,7 +11559,6 @@ hiddenHeight
 100
 /
 viewHeight
-)
 |
 0
 ;
@@ -11747,14 +11662,14 @@ b
 .
 id
 ;
-/
-/
-ensure
-stability
 }
 )
 ;
 }
+/
+/
+ensure
+stability
 return
 {
 first
@@ -12067,53 +11982,6 @@ catch
 e
 )
 {
-/
-/
-Possible
-(
-extremely
-rare
-)
-errors
-:
-/
-/
-URIError
-"
-Malformed
-URI
-"
-e
-.
-g
-.
-for
-"
-%
-AA
-.
-pdf
-"
-/
-/
-TypeError
-"
-null
-has
-no
-properties
-"
-e
-.
-g
-.
-for
-"
-%
-2F
-.
-pdf
-"
 }
 }
 }
@@ -12328,7 +12196,6 @@ used
 var
 EventBus
 =
-(
 function
 EventBusClosure
 (
@@ -12433,7 +12300,6 @@ eventListeners
 |
 |
 (
-(
 i
 =
 eventListeners
@@ -12445,7 +12311,6 @@ listener
 )
 <
 0
-)
 )
 {
 return
@@ -12575,14 +12440,12 @@ return
 EventBus
 ;
 }
-)
 (
 )
 ;
 var
 ProgressBar
 =
-(
 function
 ProgressBarClosure
 (
@@ -13061,7 +12924,6 @@ return
 ProgressBar
 ;
 }
-)
 (
 )
 ;
@@ -13202,9 +13064,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -13212,13 +13072,11 @@ pdfjsWebDOMEvents
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
 )
 ;
-}
 }
 (
 this
@@ -13742,6 +13600,7 @@ window
 {
 return
 ;
+}
 /
 /
 event
@@ -13752,7 +13611,6 @@ no
 need
 to
 replicate
-}
 var
 event
 =
@@ -14217,9 +14075,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -14227,7 +14083,6 @@ pdfjsWebPasswordPrompt
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -14239,7 +14094,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -14373,7 +14227,6 @@ class
 var
 PasswordPrompt
 =
-(
 function
 PasswordPromptClosure
 (
@@ -14814,7 +14667,6 @@ return
 PasswordPrompt
 ;
 }
-)
 (
 )
 ;
@@ -14835,9 +14687,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -14845,7 +14695,6 @@ pdfjsWebPDFDocumentProperties
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -14854,7 +14703,6 @@ root
 pdfjsWebOverlayManager
 )
 ;
-}
 }
 (
 this
@@ -14951,7 +14799,6 @@ class
 var
 PDFDocumentProperties
 =
-(
 function
 PDFDocumentPropertiesClosure
 (
@@ -16382,7 +16229,6 @@ return
 PDFDocumentProperties
 ;
 }
-)
 (
 )
 ;
@@ -16403,9 +16249,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -16413,13 +16257,11 @@ pdfjsWebPDFFindController
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
 )
 ;
-}
 }
 (
 this
@@ -16640,14 +16482,14 @@ u00BE
 /
 4
 '
+}
+;
 /
 /
 Vulgar
 fraction
 three
 quarters
-}
-;
 /
 *
 *
@@ -16682,7 +16524,6 @@ string
 var
 PDFFindController
 =
-(
 function
 PDFFindControllerClosure
 (
@@ -18085,11 +17926,9 @@ pageIndex
 ;
 if
 (
-(
 pageIndex
 +
 1
-)
 <
 self
 .
@@ -18733,7 +18572,6 @@ length
 ;
 if
 (
-(
 !
 previous
 &
@@ -18745,10 +18583,8 @@ matchIdx
 1
 <
 numPageMatches
-)
 |
 |
-(
 previous
 &
 &
@@ -18757,7 +18593,6 @@ offset
 matchIdx
 >
 0
-)
 )
 {
 /
@@ -18793,7 +18628,6 @@ offset
 .
 matchIdx
 =
-(
 previous
 ?
 offset
@@ -18807,7 +18641,6 @@ offset
 matchIdx
 +
 1
-)
 ;
 this
 .
@@ -18922,7 +18755,6 @@ offset
 .
 matchIdx
 =
-(
 previous
 ?
 numMatches
@@ -18930,7 +18762,6 @@ numMatches
 1
 :
 0
-)
 ;
 this
 .
@@ -19325,7 +19156,6 @@ offset
 .
 pageIdx
 =
-(
 previous
 ?
 offset
@@ -19339,7 +19169,6 @@ offset
 pageIdx
 +
 1
-)
 ;
 offset
 .
@@ -19374,7 +19203,6 @@ offset
 .
 pageIdx
 =
-(
 previous
 ?
 numPages
@@ -19382,7 +19210,6 @@ numPages
 1
 :
 0
-)
 ;
 offset
 .
@@ -19464,7 +19291,6 @@ matchIdx
 ;
 state
 =
-(
 wrapped
 ?
 FindStates
@@ -19474,7 +19300,6 @@ FIND_WRAPPED
 FindStates
 .
 FIND_FOUND
-)
 ;
 /
 /
@@ -19619,7 +19444,6 @@ return
 PDFFindController
 ;
 }
-)
 (
 )
 ;
@@ -19646,9 +19470,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -19656,13 +19478,11 @@ pdfjsWebPDFPresentationMode
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
 )
 ;
-}
 }
 (
 this
@@ -19807,7 +19627,6 @@ class
 var
 PDFPresentationMode
 =
-(
 function
 PDFPresentationModeClosure
 (
@@ -20331,11 +20150,9 @@ PAGE_SWITCH_THRESHOLD
 var
 currentTime
 =
-(
 new
 Date
 (
-)
 )
 .
 getTime
@@ -20395,7 +20212,6 @@ delta
 .
 if
 (
-(
 this
 .
 mouseScrollDelta
@@ -20406,10 +20222,8 @@ mouseScrollDelta
 delta
 <
 0
-)
 |
 |
-(
 this
 .
 mouseScrollDelta
@@ -20420,7 +20234,6 @@ mouseScrollDelta
 delta
 >
 0
-)
 )
 {
 this
@@ -20588,11 +20401,9 @@ pdfViewer
 .
 currentPageNumber
 =
-(
 page
 -
 1
-)
 ;
 return
 true
@@ -20662,11 +20473,9 @@ pdfViewer
 .
 currentPageNumber
 =
-(
 page
 +
 1
-)
 ;
 return
 true
@@ -21322,7 +21131,6 @@ work
 var
 isInternalLink
 =
-(
 evt
 .
 target
@@ -21341,7 +21149,6 @@ contains
 '
 internalLink
 '
-)
 )
 ;
 if
@@ -21375,7 +21182,6 @@ pdfViewer
 currentPageNumber
 +
 =
-(
 evt
 .
 shiftKey
@@ -21384,7 +21190,6 @@ shiftKey
 1
 :
 1
-)
 ;
 }
 }
@@ -21939,13 +21744,11 @@ SWIPE_ANGLE_THRESHOLD
 absAngle
 >
 =
-(
 Math
 .
 PI
 -
 SWIPE_ANGLE_THRESHOLD
-)
 )
 )
 {
@@ -21977,13 +21780,11 @@ abs
 (
 absAngle
 -
-(
 Math
 .
 PI
 /
 2
-)
 )
 <
 =
@@ -22502,7 +22303,6 @@ return
 PDFPresentationMode
 ;
 }
-)
 (
 )
 ;
@@ -22523,9 +22323,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -22533,7 +22331,6 @@ pdfjsWebPDFThumbnailView
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -22542,7 +22339,6 @@ root
 pdfjsWebPDFRenderingQueue
 )
 ;
-}
 }
 (
 this
@@ -22721,7 +22517,6 @@ IRenderableView
 var
 PDFThumbnailView
 =
-(
 function
 PDFThumbnailViewClosure
 (
@@ -22777,35 +22572,6 @@ height
 =
 height
 ;
-/
-/
-Since
-this
-is
-a
-temporary
-canvas
-we
-need
-to
-fill
-the
-canvas
-with
-a
-white
-/
-/
-background
-ourselves
-.
-_getPageDrawContext
-uses
-CSS
-rules
-for
-this
-.
 tempCanvas
 .
 mozOpaque
@@ -23055,7 +22821,6 @@ this
 .
 canvasHeight
 =
-(
 this
 .
 canvasWidth
@@ -23063,7 +22828,6 @@ canvasWidth
 this
 .
 pageRatio
-)
 |
 0
 ;
@@ -23437,7 +23201,6 @@ this
 .
 canvasHeight
 =
-(
 this
 .
 canvasWidth
@@ -23445,7 +23208,6 @@ canvasWidth
 this
 .
 pageRatio
-)
 |
 0
 ;
@@ -23453,7 +23215,6 @@ this
 .
 scale
 =
-(
 this
 .
 canvasWidth
@@ -23461,7 +23222,6 @@ canvasWidth
 this
 .
 pageWidth
-)
 ;
 this
 .
@@ -23853,7 +23613,6 @@ canvas
 .
 width
 =
-(
 this
 .
 canvasWidth
@@ -23861,7 +23620,6 @@ canvasWidth
 outputScale
 .
 sx
-)
 |
 0
 ;
@@ -23869,7 +23627,6 @@ canvas
 .
 height
 =
-(
 this
 .
 canvasHeight
@@ -23877,7 +23634,6 @@ canvasHeight
 outputScale
 .
 sy
-)
 |
 0
 ;
@@ -24906,7 +24662,6 @@ return
 PDFThumbnailView
 ;
 }
-)
 (
 )
 ;
@@ -24933,9 +24688,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -24943,13 +24696,11 @@ pdfjsWebSecondaryToolbar
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
 )
 ;
-}
 }
 (
 this
@@ -25242,7 +24993,6 @@ class
 var
 SecondaryToolbar
 =
-(
 function
 SecondaryToolbarClosure
 (
@@ -26063,6 +25813,7 @@ opened
 {
 return
 ;
+}
 /
 /
 Only
@@ -26079,7 +25830,6 @@ toolbar
 is
 visible
 .
-}
 this
 .
 containerHeight
@@ -26151,7 +25901,6 @@ return
 SecondaryToolbar
 ;
 }
-)
 (
 )
 ;
@@ -26172,9 +25921,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -26182,7 +25929,6 @@ pdfjsWebPDFFindBar
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -26191,7 +25937,6 @@ root
 pdfjsWebPDFFindController
 )
 ;
-}
 }
 (
 this
@@ -26274,7 +26019,6 @@ PDFFindController
 var
 PDFFindBar
 =
-(
 function
 PDFFindBarClosure
 (
@@ -26986,6 +26730,7 @@ findResultsCount
 {
 return
 ;
+}
 /
 /
 no
@@ -26993,7 +26738,6 @@ UI
 control
 is
 provided
-}
 /
 /
 If
@@ -27224,7 +26968,6 @@ return
 PDFFindBar
 ;
 }
-)
 (
 )
 ;
@@ -27245,9 +26988,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -27255,13 +26996,11 @@ pdfjsWebPDFHistory
 =
 {
 }
-)
 root
 .
 pdfjsWebDOMEvents
 )
 ;
-}
 }
 (
 this
@@ -27825,7 +27564,6 @@ set
 var
 previousParams
 =
-(
 self
 .
 previousHash
@@ -27845,7 +27583,6 @@ previousHash
 self
 .
 currentBookmark
-)
 ?
 {
 hash
@@ -28157,7 +27894,6 @@ previousParams
 var
 replacePrevious
 =
-(
 !
 self
 .
@@ -28177,7 +27913,6 @@ hash
 self
 .
 previousHash
-)
 ;
 self
 .
@@ -28367,7 +28102,6 @@ state
 )
 {
 return
-(
 state
 &
 &
@@ -28405,7 +28139,6 @@ state
 target
 .
 hash
-)
 ?
 true
 :
@@ -28634,7 +28367,6 @@ params
 .
 hash
 =
-(
 this
 .
 current
@@ -28660,7 +28392,6 @@ dest
 params
 .
 dest
-)
 ?
 this
 .
@@ -29204,7 +28935,6 @@ null
 }
 if
 (
-(
 !
 this
 .
@@ -29215,7 +28945,6 @@ dest
 &
 !
 onlyCheckPage
-)
 |
 |
 beforeUnload
@@ -29374,7 +29103,6 @@ params
 .
 hash
 =
-(
 '
 page
 =
@@ -29383,7 +29111,6 @@ page
 params
 .
 page
-)
 ;
 }
 if
@@ -29412,7 +29139,6 @@ previousParams
 var
 replacePrevious
 =
-(
 !
 this
 .
@@ -29432,7 +29158,6 @@ hash
 this
 .
 previousHash
-)
 ;
 this
 .
@@ -29455,7 +29180,6 @@ _stateObj
 (
 params
 )
-(
 overwrite
 |
 |
@@ -29466,7 +29190,6 @@ uid
 =
 =
 0
-)
 )
 ;
 this
@@ -29834,13 +29557,11 @@ state
 .
 uid
 <
-(
 this
 .
 uid
 -
 1
-)
 )
 {
 window
@@ -29873,9 +29594,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -29883,7 +29602,6 @@ pdfjsWebPDFLinkService
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -29892,7 +29610,6 @@ root
 pdfjsWebDOMEvents
 )
 ;
-}
 }
 (
 this
@@ -29988,7 +29705,6 @@ IPDFLinkService
 var
 PDFLinkService
 =
-(
 function
 PDFLinkServiceClosure
 (
@@ -30307,11 +30023,9 @@ R
 '
 ]
 :
-(
 destRef
 +
 1
-)
 ;
 if
 (
@@ -30535,11 +30249,11 @@ Array
 {
 return
 ;
+}
 /
 /
 invalid
 destination
-}
 goToDestination
 (
 destination
@@ -30886,7 +30600,6 @@ g
 )
 phraseSearch
 :
-(
 params
 [
 '
@@ -30899,7 +30612,6 @@ phrase
 '
 true
 '
-)
 }
 )
 ;
@@ -30967,13 +30679,11 @@ params
 {
 pageNumber
 =
-(
 params
 .
 page
 |
 0
-)
 |
 |
 1
@@ -31094,14 +30804,12 @@ length
 >
 1
 ?
-(
 zoomArgs
 [
 1
 ]
 |
 0
-)
 :
 null
 zoomArgs
@@ -31110,17 +30818,14 @@ length
 >
 2
 ?
-(
 zoomArgs
 [
 2
 ]
 |
 0
-)
 :
 null
-(
 zoomArgNumber
 ?
 zoomArgNumber
@@ -31128,7 +30833,6 @@ zoomArgNumber
 100
 :
 zoomArg
-)
 ]
 ;
 }
@@ -31169,7 +30873,6 @@ zoomArg
 else
 if
 (
-(
 zoomArg
 =
 =
@@ -31186,7 +30889,6 @@ zoomArg
 '
 FitBH
 '
-)
 |
 |
 (
@@ -31224,14 +30926,12 @@ length
 >
 1
 ?
-(
 zoomArgs
 [
 1
 ]
 |
 0
-)
 :
 null
 ]
@@ -31295,38 +30995,30 @@ name
 :
 zoomArg
 }
-(
 zoomArgs
 [
 1
 ]
 |
 0
-)
-(
 zoomArgs
 [
 2
 ]
 |
 0
-)
-(
 zoomArgs
 [
 3
 ]
 |
 0
-)
-(
 zoomArgs
 [
 4
 ]
 |
 0
-)
 ]
 ;
 }
@@ -31404,11 +31096,11 @@ page
 =
 pageNumber
 ;
+}
 /
 /
 simple
 page
-}
 if
 (
 '
@@ -31737,6 +31429,7 @@ default
 :
 break
 ;
+}
 /
 /
 No
@@ -31744,7 +31437,6 @@ action
 according
 to
 spec
-}
 this
 .
 eventBus
@@ -32169,7 +31861,6 @@ number
 '
 |
 |
-(
 allowNull
 &
 &
@@ -32178,7 +31869,6 @@ param
 =
 =
 null
-)
 )
 )
 {
@@ -32195,14 +31885,12 @@ return
 PDFLinkService
 ;
 }
-)
 (
 )
 ;
 var
 SimpleLinkService
 =
-(
 function
 SimpleLinkServiceClosure
 (
@@ -32437,7 +32125,6 @@ return
 SimpleLinkService
 ;
 }
-)
 (
 )
 ;
@@ -32464,9 +32151,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -32474,7 +32159,6 @@ pdfjsWebPDFPageView
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -32489,7 +32173,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -32706,7 +32389,6 @@ IRenderableView
 var
 PDFPageView
 =
-(
 function
 PDFPageViewClosure
 (
@@ -33234,14 +32916,12 @@ childNodes
 var
 currentZoomLayerNode
 =
-(
 keepZoomLayer
 &
 &
 this
 .
 zoomLayer
-)
 |
 |
 null
@@ -33249,7 +32929,6 @@ null
 var
 currentAnnotationNode
 =
-(
 keepAnnotations
 &
 &
@@ -33263,7 +32942,6 @@ this
 annotationLayer
 .
 div
-)
 |
 |
 null
@@ -33578,7 +33256,6 @@ outputScale
 if
 (
 (
-(
 Math
 .
 floor
@@ -33593,12 +33270,10 @@ width
 outputScale
 .
 sx
-)
 |
 0
 )
 *
-(
 (
 Math
 .
@@ -33614,7 +33289,6 @@ height
 outputScale
 .
 sy
-)
 |
 0
 )
@@ -33648,14 +33322,12 @@ PDFJS
 useOnlyCssZoom
 |
 |
-(
 this
 .
 hasRestrictedScaling
 &
 &
 isScalingRestricted
-)
 )
 {
 this
@@ -34535,6 +34207,7 @@ reset
 (
 )
 ;
+}
 /
 /
 Ensure
@@ -34547,7 +34220,6 @@ to
 prevent
 issues
 .
-}
 this
 .
 renderingState
@@ -35727,6 +35399,8 @@ renderInteractiveForms
 this
 .
 renderInteractiveForms
+}
+;
 /
 /
 intent
@@ -35742,8 +35416,6 @@ default
 '
 display
 '
-}
-;
 var
 renderTask
 =
@@ -35929,7 +35601,6 @@ return
 PDFPageView
 ;
 }
-)
 (
 )
 ;
@@ -35950,9 +35621,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -35960,7 +35629,6 @@ pdfjsWebPDFThumbnailViewer
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -35969,7 +35637,6 @@ root
 pdfjsWebPDFThumbnailView
 )
 ;
-}
 }
 (
 this
@@ -36090,7 +35757,6 @@ IRenderableView
 var
 PDFThumbnailViewer
 =
-(
 function
 PDFThumbnailViewerClosure
 (
@@ -36370,7 +36036,6 @@ visible
 var
 last
 =
-(
 numVisibleThumbs
 >
 1
@@ -36382,7 +36047,6 @@ last
 id
 :
 first
-)
 ;
 if
 (
@@ -37021,7 +36685,6 @@ return
 PDFThumbnailViewer
 ;
 }
-)
 (
 )
 ;
@@ -37042,9 +36705,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -37052,7 +36713,6 @@ pdfjsWebTextLayerBuilder
 =
 {
 }
-)
 root
 .
 pdfjsWebDOMEvents
@@ -37061,7 +36721,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -37226,7 +36885,6 @@ class
 var
 TextLayerBuilder
 =
-(
 function
 TextLayerBuilderClosure
 (
@@ -37597,19 +37255,6 @@ function
 reason
 )
 {
-/
-/
-cancelled
-or
-failed
-to
-render
-text
-layer
--
--
-skipping
-errors
 }
 )
 ;
@@ -37718,7 +37363,6 @@ length
 var
 queryLen
 =
-(
 this
 .
 findController
@@ -37738,7 +37382,6 @@ state
 query
 .
 length
-)
 ;
 var
 ret
@@ -37811,7 +37454,6 @@ end
 matchIdx
 >
 =
-(
 iIndex
 +
 bidiTexts
@@ -37822,7 +37464,6 @@ i
 str
 .
 length
-)
 )
 {
 iIndex
@@ -37958,7 +37599,6 @@ end
 &
 matchIdx
 >
-(
 iIndex
 +
 bidiTexts
@@ -37969,7 +37609,6 @@ i
 str
 .
 length
-)
 )
 {
 iIndex
@@ -38080,7 +37719,6 @@ pageIdx
 var
 isSelectedPage
 =
-(
 this
 .
 findController
@@ -38091,7 +37729,6 @@ null
 ?
 false
 :
-(
 pageIdx
 =
 =
@@ -38103,13 +37740,10 @@ findController
 selected
 .
 pageIdx
-)
-)
 ;
 var
 selectedMatchIdx
 =
-(
 this
 .
 findController
@@ -38128,12 +37762,10 @@ findController
 selected
 .
 matchIdx
-)
 ;
 var
 highlightAll
 =
-(
 this
 .
 findController
@@ -38151,7 +37783,6 @@ findController
 state
 .
 highlightAll
-)
 ;
 var
 infinity
@@ -38386,7 +38017,6 @@ end
 var
 isSelected
 =
-(
 isSelectedPage
 &
 &
@@ -38395,12 +38025,10 @@ i
 =
 =
 selectedMatchIdx
-)
 ;
 var
 highlightSuffix
 =
-(
 isSelected
 ?
 '
@@ -38409,7 +38037,6 @@ selected
 :
 '
 '
-)
 ;
 if
 (
@@ -38914,13 +38541,11 @@ null
 ;
 pageMatchesLength
 =
-(
 this
 .
 findController
 .
 pageMatchesLength
-)
 ?
 this
 .
@@ -39171,7 +38796,6 @@ return
 TextLayerBuilder
 ;
 }
-)
 (
 )
 ;
@@ -39286,9 +38910,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -39296,7 +38918,6 @@ pdfjsWebAnnotationLayerBuilder
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -39308,7 +38929,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -39385,7 +39005,6 @@ class
 var
 AnnotationLayerBuilder
 =
-(
 function
 AnnotationLayerBuilderClosure
 (
@@ -39517,7 +39136,6 @@ parameters
 {
 intent
 :
-(
 intent
 =
 =
@@ -39529,7 +39147,6 @@ display
 '
 :
 intent
-)
 }
 ;
 this
@@ -39785,7 +39402,6 @@ return
 AnnotationLayerBuilder
 ;
 }
-)
 (
 )
 ;
@@ -39896,9 +39512,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -39906,7 +39520,6 @@ pdfjsWebPDFViewer
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -39933,7 +39546,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -40277,7 +39889,6 @@ IRenderableView
 var
 PDFViewer
 =
-(
 function
 pdfViewer
 (
@@ -42571,7 +42182,6 @@ return
 var
 hPadding
 =
-(
 this
 .
 isInPresentationMode
@@ -42580,7 +42190,6 @@ isInPresentationMode
 this
 .
 removePageBorders
-)
 ?
 0
 :
@@ -42589,7 +42198,6 @@ SCROLLBAR_PADDING
 var
 vPadding
 =
-(
 this
 .
 isInPresentationMode
@@ -42598,7 +42206,6 @@ isInPresentationMode
 this
 .
 removePageBorders
-)
 ?
 0
 :
@@ -42717,7 +42324,6 @@ auto
 var
 isLandscape
 =
-(
 currentPage
 .
 width
@@ -42725,7 +42331,6 @@ width
 currentPage
 .
 height
-)
 ;
 /
 /
@@ -42911,7 +42516,7 @@ div
 typedef
 ScrollPageIntoViewParameters
 *
-param
+property
 {
 number
 }
@@ -42922,7 +42527,7 @@ page
 number
 .
 *
-param
+property
 {
 Array
 }
@@ -42935,8 +42540,8 @@ The
 original
 PDF
 destination
-array
 *
+array
 in
 the
 format
@@ -42959,7 +42564,7 @@ args
 .
 >
 *
-param
+property
 {
 boolean
 }
@@ -43136,7 +42741,6 @@ heightScale
 var
 changeOrientation
 =
-(
 pageView
 .
 rotation
@@ -43150,7 +42754,6 @@ rotation
 false
 :
 true
-)
 ;
 var
 pageWidth
@@ -43940,7 +43543,6 @@ currentPageView
 .
 getPagePoint
 (
-(
 container
 .
 scrollLeft
@@ -43948,8 +43550,6 @@ scrollLeft
 firstPage
 .
 x
-)
-(
 container
 .
 scrollTop
@@ -43957,7 +43557,6 @@ scrollTop
 firstPage
 .
 y
-)
 )
 ;
 var
@@ -44305,14 +43904,12 @@ isHorizontalScrollbarEnabled
 )
 {
 return
-(
 this
 .
 isInPresentationMode
 ?
 false
 :
-(
 this
 .
 container
@@ -44324,8 +43921,6 @@ this
 container
 .
 clientWidth
-)
-)
 ;
 }
 _getVisiblePages
@@ -45053,7 +44648,6 @@ return
 PDFViewer
 ;
 }
-)
 (
 )
 ;
@@ -45080,9 +44674,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -45090,7 +44682,6 @@ pdfjsWebApp
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -45159,7 +44750,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -45790,7 +45380,6 @@ preferenceDefaultZoomValue
 '
 isViewerEmbedded
 :
-(
 window
 .
 parent
@@ -45798,8 +45387,11 @@ parent
 =
 =
 window
-)
 url
+:
+'
+'
+baseUrl
 :
 '
 '
@@ -47037,17 +46629,6 @@ value
 ;
 }
 )
-/
-/
-TODO
-move
-more
-preferences
-and
-other
-async
-stuff
-here
 ]
 )
 .
@@ -47394,6 +46975,8 @@ supportsFullscreen
 {
 var
 support
+;
+support
 =
 document
 .
@@ -47730,6 +47313,22 @@ this
 url
 =
 url
+;
+this
+.
+baseUrl
+=
+url
+.
+split
+(
+'
+#
+'
+)
+[
+0
+]
 ;
 try
 {
@@ -48309,6 +47908,14 @@ file
 url
 ;
 }
+parameters
+.
+docBaseUrl
+=
+this
+.
+baseUrl
+;
 if
 (
 args
@@ -48696,17 +48303,7 @@ url
 =
 this
 .
-url
-.
-split
-(
-'
-#
-'
-)
-[
-0
-]
+baseUrl
 ;
 var
 filename
@@ -48865,17 +48462,6 @@ filename
 ;
 }
 downloadByUrl
-/
-/
-Error
-occurred
-try
-downloading
-with
-just
-the
-url
-.
 )
 .
 then
@@ -48932,23 +48518,6 @@ fellback
 =
 true
 ;
-var
-url
-=
-this
-.
-url
-.
-split
-(
-'
-#
-'
-)
-[
-0
-]
-;
 this
 .
 externalServices
@@ -48961,7 +48530,9 @@ featureId
 featureId
 url
 :
-url
+this
+.
+baseUrl
 }
 function
 response
@@ -49659,20 +49230,12 @@ id
 ;
 var
 baseDocumentUrl
+;
+baseDocumentUrl
 =
 this
 .
-url
-.
-split
-(
-'
-#
-'
-)
-[
-0
-]
+baseUrl
 ;
 this
 .
@@ -51077,11 +50640,9 @@ this
 preferenceSidebarViewOnLoad
 |
 |
-(
 sidebarView
 |
 0
-)
 )
 ;
 if
@@ -51247,6 +50808,7 @@ pdfDocument
 {
 return
 ;
+}
 /
 /
 run
@@ -51255,7 +50817,6 @@ when
 document
 is
 loaded
-}
 this
 .
 pdfViewer
@@ -52126,12 +51687,10 @@ previous
 .
 disabled
 =
-(
 pageNumber
 <
 =
 1
-)
 ;
 toolbarConfig
 .
@@ -52139,12 +51698,10 @@ next
 .
 disabled
 =
-(
 pageNumber
 >
 =
 pagesCount
-)
 ;
 toolbarConfig
 .
@@ -52152,12 +51709,10 @@ firstPage
 .
 disabled
 =
-(
 pageNumber
 <
 =
 1
-)
 ;
 toolbarConfig
 .
@@ -52165,12 +51720,10 @@ lastPage
 .
 disabled
 =
-(
 pageNumber
 >
 =
 pagesCount
-)
 ;
 toolbarConfig
 .
@@ -52178,12 +51731,10 @@ zoomOut
 .
 disabled
 =
-(
 scale
 <
 =
 MIN_SCALE
-)
 ;
 toolbarConfig
 .
@@ -52191,12 +51742,10 @@ zoomIn
 .
 disabled
 =
-(
 scale
 >
 =
 MAX_SCALE
-)
 ;
 selectScaleOption
 (
@@ -52486,6 +52035,9 @@ webViewerFindFromUrlHash
 }
 }
 ;
+var
+validateFileURL
+;
 function
 loadAndEnablePDFBug
 (
@@ -52623,6 +52175,8 @@ webViewerInitialized
 {
 var
 file
+;
+file
 =
 window
 .
@@ -52747,7 +52301,6 @@ PDFJS
 .
 disableWorker
 =
-(
 hashParams
 [
 '
@@ -52760,7 +52313,6 @@ disableworker
 '
 true
 '
-)
 ;
 }
 if
@@ -52776,7 +52328,6 @@ PDFJS
 .
 disableRange
 =
-(
 hashParams
 [
 '
@@ -52789,7 +52340,6 @@ disablerange
 '
 true
 '
-)
 ;
 }
 if
@@ -52805,7 +52355,6 @@ PDFJS
 .
 disableStream
 =
-(
 hashParams
 [
 '
@@ -52818,7 +52367,6 @@ disablestream
 '
 true
 '
-)
 ;
 }
 if
@@ -52834,7 +52382,6 @@ PDFJS
 .
 disableAutoFetch
 =
-(
 hashParams
 [
 '
@@ -52847,7 +52394,6 @@ disableautofetch
 '
 true
 '
-)
 ;
 }
 if
@@ -52863,7 +52409,6 @@ PDFJS
 .
 disableFontFace
 =
-(
 hashParams
 [
 '
@@ -52876,7 +52421,6 @@ disablefontface
 '
 true
 '
-)
 ;
 }
 if
@@ -52892,7 +52436,6 @@ PDFJS
 .
 disableHistory
 =
-(
 hashParams
 [
 '
@@ -52905,7 +52448,6 @@ disablehistory
 '
 true
 '
-)
 ;
 }
 if
@@ -52921,7 +52463,6 @@ PDFJS
 .
 disableWebGL
 =
-(
 hashParams
 [
 '
@@ -52934,7 +52475,6 @@ webgl
 '
 true
 '
-)
 ;
 }
 if
@@ -52950,7 +52490,6 @@ PDFJS
 .
 useOnlyCssZoom
 =
-(
 hashParams
 [
 '
@@ -52963,7 +52502,6 @@ useonlycsszoom
 '
 true
 '
-)
 ;
 }
 if
@@ -53002,7 +52540,6 @@ PDFJS
 .
 ignoreCurrentPositionOnZoom
 =
-(
 hashParams
 [
 '
@@ -53015,7 +52552,6 @@ ignorecurrentpositiononzoom
 '
 true
 '
-)
 ;
 }
 if
@@ -53519,13 +53055,11 @@ PDFViewerApplication
 .
 page
 =
-(
 this
 .
 value
 |
 0
-)
 ;
 /
 /
@@ -53811,6 +53345,11 @@ reason
 )
 ;
 }
+var
+webViewerOpenFileViaURL
+;
+webViewerOpenFileViaURL
+=
 function
 webViewerOpenFileViaURL
 (
@@ -53831,6 +53370,7 @@ initPassiveLoading
 )
 ;
 }
+;
 function
 webViewerPageRendered
 (
@@ -54682,15 +54222,6 @@ function
 (
 )
 {
-/
-*
-unable
-to
-write
-to
-storage
-*
-/
 }
 )
 ;
@@ -55138,6 +54669,9 @@ hash
 }
 }
 }
+var
+webViewerFileInputChange
+;
 window
 .
 addEventListener
@@ -55821,7 +55355,6 @@ supportedMouseWheelZoomModifierKeys
 ;
 if
 (
-(
 evt
 .
 ctrlKey
@@ -55831,10 +55364,8 @@ ctrlKey
 support
 .
 ctrlKey
-)
 |
 |
-(
 evt
 .
 metaKey
@@ -55844,7 +55375,6 @@ metaKey
 support
 .
 metaKey
-)
 )
 {
 return
@@ -56153,7 +55683,6 @@ target
 )
 |
 |
-(
 appConfig
 .
 toolbar
@@ -56179,7 +55708,6 @@ appConfig
 secondaryToolbar
 .
 toggleButton
-)
 )
 {
 PDFViewerApplication
@@ -56943,12 +56471,6 @@ presentation
 mode
 *
 /
-/
-*
-falls
-through
-*
-/
 case
 37
 :
@@ -56973,12 +56495,6 @@ isHorizontalScrollbarEnabled
 break
 ;
 }
-/
-*
-falls
-through
-*
-/
 case
 75
 :
@@ -57118,12 +56634,6 @@ fit
 break
 ;
 }
-/
-*
-falls
-through
-*
-/
 case
 39
 :
@@ -57148,12 +56658,6 @@ isHorizontalScrollbarEnabled
 break
 ;
 }
-/
-*
-falls
-through
-*
-/
 case
 74
 :
@@ -57450,7 +56954,6 @@ Down
 Spacebar
 if
 (
-(
 evt
 .
 keyCode
@@ -57465,10 +56968,8 @@ keyCode
 <
 =
 40
-)
 |
 |
-(
 evt
 .
 keyCode
@@ -57485,7 +56986,6 @@ curElementTagName
 '
 BUTTON
 '
-)
 )
 {
 ensureViewerFocused
@@ -57754,8 +57254,8 @@ resolve
 )
 ;
 }
-)
 (
+)
 )
 ;
 /
@@ -57830,9 +57330,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -57840,7 +57338,6 @@ pdfjsWebFirefoxPrintService
 =
 {
 }
-)
 root
 .
 pdfjsWebUIUtils
@@ -57852,7 +57349,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -58486,9 +57982,7 @@ root
 factory
 )
 {
-{
 factory
-(
 (
 root
 .
@@ -58496,7 +57990,6 @@ pdfjsWebFirefoxCom
 =
 {
 }
-)
 root
 .
 pdfjsWebPreferences
@@ -58508,7 +58001,6 @@ root
 pdfjsWebPDFJS
 )
 ;
-}
 }
 (
 this
@@ -58537,7 +58029,6 @@ PDFViewerApplication
 var
 FirefoxCom
 =
-(
 function
 FirefoxComClosure
 (
@@ -58940,14 +58431,12 @@ sender
 }
 ;
 }
-)
 (
 )
 ;
 var
 DownloadManager
 =
-(
 function
 DownloadManagerClosure
 (
@@ -59125,7 +58614,6 @@ return
 DownloadManager
 ;
 }
-)
 (
 )
 ;
@@ -59368,8 +58856,8 @@ handleEvent
 ;
 }
 }
-)
 (
+)
 )
 ;
 function
@@ -59931,6 +59419,8 @@ support
 ;
 /
 /
+/
+/
 l10n
 .
 js
@@ -60007,13 +59497,15 @@ FirefoxCom
 )
 ;
 }
-)
 .
 call
 (
 pdfjsWebLibs
 )
+)
 ;
+}
+{
 /
 /
 FIXME
@@ -60040,6 +59532,7 @@ pdfjsWebFirefoxCom
 .
 FirefoxCom
 ;
+}
 function
 getViewerConfiguration
 (

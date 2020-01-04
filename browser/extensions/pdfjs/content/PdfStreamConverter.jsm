@@ -349,9 +349,9 @@ pdf
 .
 js
 /
-network
+PdfJsNetwork
 .
-js
+jsm
 '
 )
 ;
