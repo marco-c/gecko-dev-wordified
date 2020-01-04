@@ -1672,7 +1672,7 @@ IDWriteFactory
 *
 factory
 =
-get_dwrite_factory
+sk_get_dwrite_factory
 (
 )
 ;
