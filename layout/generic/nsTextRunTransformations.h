@@ -755,11 +755,16 @@ bool
 >
 &
 aDeletedCharsArray
+const
 nsTransformedTextRun
 *
 aTextRun
 =
 nullptr
+uint32_t
+aOffsetInTextRun
+=
+0
 nsTArray
 <
 uint8_t
