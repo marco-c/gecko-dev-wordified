@@ -1255,15 +1255,6 @@ dest
 )
 ;
 void
-divDouble
-(
-FloatRegister
-src
-FloatRegister
-dest
-)
-;
-void
 negateDouble
 (
 FloatRegister
