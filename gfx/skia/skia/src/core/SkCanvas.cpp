@@ -11910,6 +11910,9 @@ validateClip
 )
 const
 {
+#
+ifndef
+SK_DISABLE_SLOW_DEBUG_VALIDATION
 /
 /
 construct
@@ -12121,6 +12124,8 @@ break
 }
 }
 }
+#
+endif
 }
 #
 endif
