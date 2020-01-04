@@ -3995,6 +3995,13 @@ height
 /
 intScaleFactor
 ;
+mInstanceOwner
+-
+>
+ResolutionMayHaveChanged
+(
+)
+;
 /
 /
 This
