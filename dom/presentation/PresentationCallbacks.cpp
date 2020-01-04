@@ -337,10 +337,6 @@ nsIPresentationService
 :
 :
 ROLE_CONTROLLER
-PresentationConnectionState
-:
-:
-Connected
 )
 ;
 if
