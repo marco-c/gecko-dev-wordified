@@ -253,6 +253,7 @@ error
 UI
 }
 }
+;
 function
 initExceptionDialog
 (

@@ -318,6 +318,14 @@ SetInt
 0
 )
 ;
+/
+/
+Signal
+that
+the
+user
+cancelled
+.
 return
 true
 ;

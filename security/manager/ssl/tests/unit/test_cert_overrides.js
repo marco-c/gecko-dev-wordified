@@ -786,6 +786,7 @@ Ci
 nsICertOverrideService
 .
 ERROR_UNTRUSTED
+;
 let
 expectedTemporary
 =

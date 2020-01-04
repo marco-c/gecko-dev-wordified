@@ -805,6 +805,7 @@ return
 entry
 content
 ]
+;
 }
 function
 run_test

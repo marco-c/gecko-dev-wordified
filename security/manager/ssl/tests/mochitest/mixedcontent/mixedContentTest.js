@@ -436,6 +436,7 @@ secureTestLocation
 location
 .
 pathname
+;
 if
 (
 testPage
@@ -570,6 +571,7 @@ secureTestLocation
 }
 }
 }
+;
 function
 onMessageReceived
 (

@@ -1599,7 +1599,7 @@ data
 "
 )
 ;
-var
+let
 flags
 =
 isPrivate
@@ -1611,6 +1611,7 @@ nsISocketProvider
 NO_PERMANENT_STORAGE
 :
 0
+;
 SpecialPowers
 .
 cleanUpSTSData
@@ -1662,7 +1663,7 @@ Ci
 nsISiteSecurityService
 )
 ;
-var
+let
 flags
 =
 isPrivate
@@ -1674,6 +1675,7 @@ nsISocketProvider
 NO_PERMANENT_STORAGE
 :
 0
+;
 SimpleTest
 .
 info
@@ -1846,6 +1848,7 @@ startup
 page
 "
 )
+;
 SimpleTest
 .
 finish
