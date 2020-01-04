@@ -2942,7 +2942,7 @@ install_from_file
 (
 self
 filename
-distdir
+bindir
 install_callback
 =
 None
@@ -2983,10 +2983,6 @@ all
 .
 so
 files
-to
-dist
-/
-bin
 avoiding
 modification
 where
@@ -2999,10 +2995,7 @@ mozpath
 .
 join
 (
-distdir
-'
-bin
-'
+bindir
 '
 .
 dummy
@@ -3054,10 +3047,7 @@ mozpath
 .
 join
 (
-distdir
-'
-bin
-'
+bindir
 os
 .
 path
@@ -3175,7 +3165,7 @@ install_from_url
 (
 self
 url
-distdir
+bindir
 install_callback
 =
 None
@@ -3240,7 +3230,7 @@ self
 install_from_file
 (
 filename
-distdir
+bindir
 install_callback
 =
 install_callback
@@ -3251,7 +3241,7 @@ install_from_hg
 (
 self
 revset
-distdir
+bindir
 install_callback
 =
 None
@@ -3518,7 +3508,7 @@ self
 install_from_url
 (
 url
-distdir
+bindir
 install_callback
 =
 install_callback
@@ -3564,7 +3554,7 @@ install_from
 (
 self
 source
-distdir
+bindir
 install_callback
 =
 None
@@ -3582,7 +3572,7 @@ source
 into
 the
 given
-distdir
+bindir
 .
         
 If
@@ -3611,7 +3601,7 @@ written
 relative
         
 to
-distdir
+bindir
 ;
 existed
 is
@@ -3661,7 +3651,7 @@ self
 install_from_file
 (
 source
-distdir
+bindir
 install_callback
 =
 install_callback
@@ -3686,7 +3676,7 @@ self
 install_from_url
 (
 source
-distdir
+bindir
 install_callback
 =
 install_callback
@@ -3701,7 +3691,7 @@ self
 install_from_hg
 (
 source
-distdir
+bindir
 install_callback
 =
 install_callback
