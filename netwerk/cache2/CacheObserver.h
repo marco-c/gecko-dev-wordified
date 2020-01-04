@@ -612,7 +612,6 @@ static
 Atomic
 <
 PRIntervalTime
-Relaxed
 >
 sShutdownDemandedTime
 ;
