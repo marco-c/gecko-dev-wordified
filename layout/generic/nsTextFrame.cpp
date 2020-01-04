@@ -16297,6 +16297,10 @@ styleFont
 -
 >
 mLanguage
+.
+get
+(
+)
 :
 nullptr
 ;

@@ -39007,6 +39007,10 @@ pointerCaptureInfo
 -
 >
 mOverrideContent
+.
+get
+(
+)
 :
 nullptr
 ;
