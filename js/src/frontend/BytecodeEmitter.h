@@ -4609,6 +4609,8 @@ pn
 should
 be
 PNK_FOR
+or
+PNK_COMPREHENSIONFOR
 and
 pn
 -
@@ -4616,6 +4618,8 @@ pn
 pn_left
 should
 be
+/
+/
 PNK_FOROF
 .
 /
