@@ -921,7 +921,7 @@ android
 -
 ndk
 -
-r8e
+r10e
 }
 .
         
@@ -1014,7 +1014,7 @@ android
 -
 ndk
 -
-r8e
+r10e
 '
 )
 )
@@ -1087,15 +1087,13 @@ android
 -
 ndk
 -
-r8e
+r10e
 -
 linux
 -
 x86_64
 .
-tar
-.
-bz2
+bin
 '
         
 else
@@ -1124,15 +1122,13 @@ android
 -
 ndk
 -
-r8e
+r10e
 -
 linux
 -
 x86
 .
-tar
-.
-bz2
+bin
 '
         
 android
