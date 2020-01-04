@@ -10602,11 +10602,8 @@ i
 )
 ;
 let
-params
+isSelectedTab
 =
-{
-selected
-:
 (
 i
 =
@@ -10619,6 +10616,14 @@ length
 -
 1
 )
+;
+let
+params
+=
+{
+selected
+:
+isSelectedTab
 isPrivate
 :
 tabData
@@ -10629,6 +10634,9 @@ desktopMode
 tabData
 .
 desktopMode
+cancelEditMode
+:
+isSelectedTab
 }
 ;
 let
