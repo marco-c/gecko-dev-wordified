@@ -1673,8 +1673,10 @@ mFullZoom
 float
 mPrintingScale
 ;
+RefPtr
+<
 nsFontCache
-*
+>
 mFontCache
 ;
 nsCOMPtr
