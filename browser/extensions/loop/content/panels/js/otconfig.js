@@ -64,8 +64,6 @@ OTProperties
 cdnURL
 :
 "
-loop
-/
 "
 }
 ;
