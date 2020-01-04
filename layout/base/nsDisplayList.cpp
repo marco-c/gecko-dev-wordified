@@ -43523,9 +43523,11 @@ GetContent
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aItem
@@ -43540,9 +43542,11 @@ GetClip
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 aItem
@@ -43557,9 +43561,11 @@ ScrollClip
 (
 )
 )
+{
 return
 false
 ;
+}
 /
 /
 Do
@@ -43607,9 +43613,11 @@ HasLayerWithImage
 (
 )
 )
+{
 return
 false
 ;
+}
 nsDisplayMask
 *
 other
