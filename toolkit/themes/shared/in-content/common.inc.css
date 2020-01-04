@@ -2430,6 +2430,12 @@ spinbuttons
 -
 button
 {
+min
+-
+height
+:
+initial
+;
 -
 moz
 -
