@@ -6012,6 +6012,11 @@ HeapUsage
 :
 :
 Unshared
+initialSize
+.
+value
+(
+)
 )
 ;
 return

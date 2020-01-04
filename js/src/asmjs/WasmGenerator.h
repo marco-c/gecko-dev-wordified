@@ -942,6 +942,10 @@ initHeapUsage
 (
 HeapUsage
 heapUsage
+uint32_t
+minHeapLength
+=
+0
 )
 ;
 bool

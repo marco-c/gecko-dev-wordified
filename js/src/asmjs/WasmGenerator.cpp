@@ -4108,6 +4108,8 @@ initHeapUsage
 (
 HeapUsage
 heapUsage
+uint32_t
+minHeapLength
 )
 {
 MOZ_ASSERT
@@ -4130,6 +4132,13 @@ module_
 heapUsage
 =
 heapUsage
+;
+shared_
+-
+>
+minHeapLength
+=
+minHeapLength
 ;
 }
 bool
