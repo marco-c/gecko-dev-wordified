@@ -5314,6 +5314,12 @@ a
 lookup
 if
 (
+!
+result
+.
+mNoise
+&
+&
 result
 .
 CompleteHash
