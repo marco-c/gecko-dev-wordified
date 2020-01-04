@@ -607,6 +607,9 @@ _workerList
 new
 WorkerActorList
 (
+this
+.
+conn
 {
 }
 )
