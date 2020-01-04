@@ -7642,7 +7642,7 @@ JS
 :
 IsIncrementalGCInProgress
 (
-mJSRuntime
+mJSContext
 )
 "
 Don
@@ -9709,7 +9709,7 @@ JS
 :
 WasIncrementalGC
 (
-mJSRuntime
+mJSContext
 )
 ?
 FinalizeIncrementally

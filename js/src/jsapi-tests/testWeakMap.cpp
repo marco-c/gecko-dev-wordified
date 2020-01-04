@@ -635,7 +635,7 @@ JS
 :
 IsIncrementalGCInProgress
 (
-rt
+cx
 )
 )
 rt
@@ -793,7 +793,7 @@ JS
 :
 IsIncrementalGCInProgress
 (
-rt
+cx
 )
 )
 rt

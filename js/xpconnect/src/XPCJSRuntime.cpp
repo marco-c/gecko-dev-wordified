@@ -19826,7 +19826,7 @@ CollectRuntimeStats
 xpcrt
 -
 >
-Runtime
+Context
 (
 )
 &
@@ -21521,9 +21521,9 @@ size_t
 jsOtherSize
 )
 {
-JSRuntime
+JSContext
 *
-rt
+cx
 =
 nsXPConnect
 :
@@ -21533,7 +21533,7 @@ GetRuntimeInstance
 )
 -
 >
-Runtime
+Context
 (
 )
 ;
@@ -21543,7 +21543,7 @@ JS
 RootedObject
 obj
 (
-rt
+cx
 objArg
 )
 ;
@@ -21566,7 +21566,7 @@ JS
 :
 AddSizeOfTab
 (
-rt
+cx
 obj
 moz_malloc_size_of
 &

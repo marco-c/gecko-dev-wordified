@@ -6702,7 +6702,7 @@ nullptr
 }
 mergeParseTaskCompartment
 (
-rt
+cx
 parseTask
 global
 cx
@@ -7115,9 +7115,9 @@ GlobalHelperThreadState
 :
 mergeParseTaskCompartment
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 ParseTask
 *
 parseTask
@@ -7191,7 +7191,7 @@ gc
 :
 FinishGC
 (
-rt
+cx
 )
 ;
 JS
@@ -7200,12 +7200,12 @@ JS
 AutoAssertNoAlloc
 noAlloc
 (
-rt
+cx
 )
 ;
 LeaveParseTaskZone
 (
-rt
+cx
 parseTask
 )
 ;

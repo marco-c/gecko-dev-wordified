@@ -11652,9 +11652,9 @@ trc
 void
 WriteBarrierPre
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 if
@@ -11664,7 +11664,7 @@ JS
 :
 IsIncrementalBarrierNeeded
 (
-rt
+cx
 )
 &
 &
@@ -11674,7 +11674,7 @@ mJSProtoObject
 .
 writeBarrierPre
 (
-rt
+cx
 )
 ;
 }

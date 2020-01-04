@@ -24486,7 +24486,7 @@ JS
 :
 CollectRuntimeStats
 (
-rt
+mJSContext
 aRtStats
 nullptr
 aAnonymize

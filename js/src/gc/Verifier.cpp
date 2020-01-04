@@ -1197,6 +1197,11 @@ AutoPrepareForTracing
 prep
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 WithAtoms
 )
 ;
@@ -2094,6 +2099,11 @@ AutoPrepareForTracing
 prep
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 SkipAtoms
 )
 ;

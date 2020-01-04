@@ -4453,11 +4453,6 @@ AutoDisableCompactingGC
 nocgc
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 AutoDisableProxyCheck

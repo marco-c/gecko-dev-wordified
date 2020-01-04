@@ -10049,11 +10049,6 @@ JS
 IsIncrementalGCInProgress
 (
 cx
--
->
-runtime
-(
-)
 )
 )
 {

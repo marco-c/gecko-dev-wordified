@@ -153,9 +153,9 @@ static
 void
 MinimizeHeap
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 /
@@ -185,18 +185,12 @@ finish
 .
 JS_GC
 (
-JS_GetContext
-(
-rt
-)
+cx
 )
 ;
 JS_GC
 (
-JS_GetContext
-(
-rt
-)
+cx
 )
 ;
 js
@@ -207,7 +201,7 @@ gc
 :
 FinishGC
 (
-rt
+cx
 )
 ;
 }
@@ -257,7 +251,7 @@ get
 .
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 JS
@@ -449,7 +443,7 @@ it
 .
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 uintptr_t
@@ -630,7 +624,7 @@ nullptr
 ;
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 obj
@@ -642,7 +636,7 @@ cx
 ;
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 CHECK
@@ -814,7 +808,7 @@ already
 .
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 /
@@ -892,7 +886,7 @@ clear
 ;
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 /
@@ -1002,7 +996,7 @@ API
 ;
 MinimizeHeap
 (
-rt
+cx
 )
 ;
 CHECK

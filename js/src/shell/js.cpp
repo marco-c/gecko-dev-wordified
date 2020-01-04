@@ -23426,7 +23426,7 @@ gc
 :
 FinishGC
 (
-rt
+cx
 )
 ;
 void
@@ -23928,7 +23928,7 @@ gc
 :
 FinishGC
 (
-rt
+cx
 )
 ;
 void
@@ -45034,11 +45034,6 @@ nocgc
 emplace
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JSAutoRequest

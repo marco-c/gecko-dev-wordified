@@ -15061,10 +15061,7 @@ JS
 :
 IsIncrementalGCEnabled
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 return
