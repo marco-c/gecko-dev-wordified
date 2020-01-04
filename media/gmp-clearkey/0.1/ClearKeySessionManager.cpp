@@ -2355,7 +2355,10 @@ aBuffer
 Size
 (
 )
+CryptoMetaData
+(
 aMetadata
+)
 )
 ;
 CK_LOGD
