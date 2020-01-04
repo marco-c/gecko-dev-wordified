@@ -191,6 +191,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h
