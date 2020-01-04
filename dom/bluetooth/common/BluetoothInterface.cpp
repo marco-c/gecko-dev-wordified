@@ -2447,7 +2447,7 @@ RemoteDevicePropertiesNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -2492,7 +2492,7 @@ BluetoothNotificationHandler
 PinRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -2511,7 +2511,7 @@ BluetoothNotificationHandler
 SspRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -2536,7 +2536,7 @@ BondStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 BluetoothBondState
@@ -2553,7 +2553,7 @@ AclStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 bool

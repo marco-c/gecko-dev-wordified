@@ -130,6 +130,13 @@ h
 #
 include
 "
+BluetoothHashKeys
+.
+h
+"
+#
+include
+"
 BluetoothInterface
 .
 h
@@ -1352,7 +1359,7 @@ RemoteDevicePropertiesNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -1391,7 +1398,7 @@ void
 PinRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -1408,7 +1415,7 @@ void
 SspRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -1431,7 +1438,7 @@ BondStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 BluetoothBondState
@@ -1446,7 +1453,7 @@ AclStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 bool
@@ -1564,7 +1571,7 @@ NextBluetoothProfileController
 /
 Adapter
 properties
-nsString
+BluetoothAddress
 mBdAddress
 ;
 nsString
@@ -1581,7 +1588,7 @@ mDiscovering
 ;
 nsTArray
 <
-nsString
+BluetoothAddress
 >
 mBondedAddresses
 ;
@@ -1713,7 +1720,7 @@ remote
 devices
 nsDataHashtable
 <
-nsStringHashKey
+BluetoothAddressHashKey
 nsString
 >
 mDeviceNameMap
