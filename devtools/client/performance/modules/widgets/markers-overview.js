@@ -221,7 +221,9 @@ global
 )
 ;
 const
-MarkerUtils
+{
+MarkerBlueprintUtils
+}
 =
 require
 (
@@ -234,9 +236,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "
@@ -933,9 +935,9 @@ Unknown
 if
 (
 !
-MarkerUtils
+MarkerBlueprintUtils
 .
-isMarkerValid
+shouldDisplayMarker
 (
 marker
 this

@@ -563,7 +563,9 @@ details
 )
 ;
 var
-MarkerUtils
+{
+MarkerBlueprintUtils
+}
 =
 require
 (
@@ -576,9 +578,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "

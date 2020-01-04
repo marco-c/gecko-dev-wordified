@@ -96,7 +96,9 @@ global
 )
 ;
 let
-Utils
+{
+MarkerBlueprintUtils
+}
 =
 require
 (
@@ -109,9 +111,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "
@@ -135,7 +137,7 @@ false
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerLabel
 (
@@ -164,7 +166,7 @@ label
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerLabel
 (
@@ -200,7 +202,7 @@ function
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerLabel
 (
@@ -239,7 +241,7 @@ generalizable
 ;
 ok
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -275,7 +277,7 @@ defined
 let
 fields
 =
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -345,7 +347,7 @@ value
 ;
 fields
 =
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -436,7 +438,7 @@ value
 ;
 fields
 =
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -591,7 +593,7 @@ function
 ;
 fields
 =
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -633,7 +635,7 @@ reasons
 ;
 fields
 =
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -679,7 +681,7 @@ d
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -734,7 +736,7 @@ true
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getMarkerFields
 (
@@ -779,9 +781,9 @@ on
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 "
 Javascript
@@ -792,7 +794,7 @@ Function
 Call
 "
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 returns
@@ -807,9 +809,9 @@ function
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 "
 GarbageCollection
@@ -820,7 +822,7 @@ Garbage
 Collection
 "
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 returns
@@ -835,9 +837,9 @@ function
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 "
 Reflow
@@ -847,7 +849,7 @@ Reflow
 Layout
 "
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 returns
@@ -875,9 +877,9 @@ group
 ;
 try
 {
-Utils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 "
 fakemarker
@@ -888,7 +890,7 @@ ok
 (
 false
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 should
@@ -912,7 +914,7 @@ ok
 (
 true
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 should
@@ -950,9 +952,9 @@ void
 ;
 try
 {
-Utils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 "
 fakemarker
@@ -963,7 +965,7 @@ ok
 (
 false
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 should
@@ -987,7 +989,7 @@ ok
 (
 true
 "
-getMarkerClassName
+getMarkerGenericName
 (
 )
 should
@@ -1042,7 +1044,7 @@ MyCustom
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getBlueprintFor
 (
@@ -1060,8 +1062,6 @@ label
 Layout
 "
 "
-Utils
-.
 getBlueprintFor
 (
 )
@@ -1079,7 +1079,7 @@ marker
 ;
 equal
 (
-Utils
+MarkerBlueprintUtils
 .
 getBlueprintFor
 (
@@ -1101,8 +1101,6 @@ label
 Unknown
 "
 "
-Utils
-.
 getBlueprintFor
 (
 )
