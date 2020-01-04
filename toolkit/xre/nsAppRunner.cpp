@@ -5090,16 +5090,6 @@ SYNC_ENUMS
 IPDLUNITTEST
 IPDLUnitTest
 )
-SYNC_ENUMS
-(
-GMPLUGIN
-GMPlugin
-)
-SYNC_ENUMS
-(
-GPU
-GPU
-)
 /
 /
 .
@@ -5115,7 +5105,7 @@ them
 :
 static_assert
 (
-GeckoProcessType_GPU
+GeckoProcessType_GMPlugin
 +
 1
 =

@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-ipc
+plugins
 /
 TaskFactory
 .
@@ -1908,9 +1908,6 @@ nsNPAPIPlugin
 *
 mPlugin
 ;
-ipc
-:
-:
 TaskFactory
 <
 PluginModuleParent
@@ -2970,9 +2967,6 @@ mSubprocess
 uint32_t
 mPluginId
 ;
-ipc
-:
-:
 TaskFactory
 <
 PluginModuleChromeParent

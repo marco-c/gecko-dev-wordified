@@ -223,16 +223,6 @@ ANGLE
 "
 )
 \
-_
-(
-GPU_PROCESS
-Feature
-"
-GPU
-Process
-"
-)
-\
 /
 *
 Add
