@@ -271,7 +271,7 @@ for
 decoding
 .
 nsresult
-SubmitFrame
+ProcessDecode
 (
 MediaRawData
 *
