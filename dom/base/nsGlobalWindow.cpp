@@ -59650,7 +59650,7 @@ forget
 }
 already_AddRefed
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 nsPIDOMWindowInner
 :
@@ -59665,7 +59665,7 @@ aScope
 {
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 registration
 ;
@@ -59686,8 +59686,10 @@ registration
 {
 registration
 =
-new
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
+:
+:
+CreateForMainThread
 (
 this
 aScope

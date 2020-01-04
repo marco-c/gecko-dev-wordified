@@ -12969,7 +12969,7 @@ is
 coming
 from
 a
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
 .
 MOZ_ASSERT
 (

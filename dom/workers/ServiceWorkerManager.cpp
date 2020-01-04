@@ -2146,7 +2146,7 @@ GetRegistration
 ;
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 swr
 =
@@ -3895,7 +3895,7 @@ nsTArray
 <
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 >
 array
@@ -4104,7 +4104,7 @@ continue
 }
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 swr
 =
@@ -4646,7 +4646,7 @@ mScope
 ;
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 swr
 =
@@ -6080,7 +6080,7 @@ mScope
 ;
 RefPtr
 <
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 swr
 =

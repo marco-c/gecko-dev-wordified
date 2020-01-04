@@ -275,7 +275,7 @@ class
 Performance
 ;
 class
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 ;
 }
 /
@@ -3683,7 +3683,7 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 ServiceWorkerRegistrationTable
 ;
@@ -4389,7 +4389,7 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 GetServiceWorkerRegistration
 (
