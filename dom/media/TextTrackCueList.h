@@ -354,14 +354,6 @@ RemoveCue
 TextTrackCue
 &
 aCue
-)
-;
-void
-RemoveCue
-(
-TextTrackCue
-&
-aCue
 ErrorResult
 &
 aRv
