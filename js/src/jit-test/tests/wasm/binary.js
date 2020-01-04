@@ -1088,8 +1088,12 @@ bodies
 var
 body
 =
-[
-]
+varU32
+(
+bodies
+.
+length
+)
 .
 concat
 (
