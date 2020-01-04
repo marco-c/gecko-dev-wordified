@@ -2248,10 +2248,10 @@ this
 messageManager
 localApis
 {
-type
+envType
 :
 "
-content_script
+content_parent
 "
 url
 }
