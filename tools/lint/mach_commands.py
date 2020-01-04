@@ -2805,7 +2805,10 @@ get_project_root
 (
 )
 "
-testing
+tools
+"
+"
+lint
 "
 "
 eslint
