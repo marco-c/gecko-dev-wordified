@@ -3689,7 +3689,7 @@ payload
 .
 cell
 =
-ptr
+cell
 ;
 return
 l
