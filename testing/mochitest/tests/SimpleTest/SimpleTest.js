@@ -8456,6 +8456,7 @@ pat
 {
 for
 (
+var
 k
 in
 pat
