@@ -1998,6 +1998,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 callback
+const
 mozilla
 :
 :
