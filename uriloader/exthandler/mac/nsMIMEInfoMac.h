@@ -138,7 +138,6 @@ aFile
 protected
 :
 virtual
-MOZ_MUST_USE
 nsresult
 LoadUriInternal
 (
@@ -151,7 +150,6 @@ aURI
 ifdef
 DEBUG
 virtual
-MOZ_MUST_USE
 nsresult
 LaunchDefaultWithFile
 (
@@ -180,7 +178,6 @@ NS_ERROR_UNEXPECTED
 #
 endif
 static
-MOZ_MUST_USE
 nsresult
 OpenApplicationWithURI
 (
