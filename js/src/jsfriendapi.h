@@ -9415,8 +9415,8 @@ Uint8Clamped
 *
 *
 *
-SIMD
-types
+Types
+that
 don
 '
 t
@@ -9431,6 +9431,7 @@ now
 *
 /
 MaxTypedArrayViewType
+Int64
 Float32x4
 Int8x16
 Int16x8
@@ -9484,6 +9485,9 @@ Float32
 return
 4
 ;
+case
+Int64
+:
 case
 Float64
 :
@@ -9540,6 +9544,9 @@ Int16
 :
 case
 Int32
+:
+case
+Int64
 :
 case
 Int8x16
@@ -9624,6 +9631,9 @@ Int32
 :
 case
 Uint32
+:
+case
+Int64
 :
 case
 Float32
@@ -9720,6 +9730,9 @@ Int32
 :
 case
 Uint32
+:
+case
+Int64
 :
 case
 Float32

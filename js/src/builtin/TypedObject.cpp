@@ -1695,6 +1695,12 @@ case
 Scalar
 :
 :
+Int64
+:
+case
+Scalar
+:
+:
 Float32x4
 :
 case
@@ -1721,9 +1727,7 @@ Scalar
 :
 MaxTypedArrayViewType
 :
-MOZ_CRASH
-(
-)
+break
 ;
 }
 MOZ_CRASH
@@ -1932,6 +1936,12 @@ SCALARTYPE_CALL
 #
 undef
 SCALARTYPE_CALL
+case
+Scalar
+:
+:
+Int64
+:
 case
 Scalar
 :
