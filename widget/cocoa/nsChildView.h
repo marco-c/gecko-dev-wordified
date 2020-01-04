@@ -3733,6 +3733,15 @@ StartRemoteDrawingInRegion
 LayoutDeviceIntRegion
 &
 aInvalidRegion
+mozilla
+:
+:
+layers
+:
+:
+BufferMode
+*
+aBufferMode
 )
 override
 ;
