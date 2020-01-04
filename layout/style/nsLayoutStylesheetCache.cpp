@@ -133,7 +133,7 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+StyleSheetInlines
 .
 h
 "
@@ -152,15 +152,6 @@ include
 mozilla
 /
 Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ServoStyleSheet
 .
 h
 "

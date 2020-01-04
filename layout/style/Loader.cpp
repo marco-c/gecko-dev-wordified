@@ -231,7 +231,7 @@ include
 "
 mozilla
 /
-ServoStyleSheet
+StyleSheetInlines
 .
 h
 "
@@ -393,15 +393,6 @@ h
 include
 "
 nsCSSParser
-.
-h
-"
-#
-include
-"
-mozilla
-/
-CSSStyleSheet
 .
 h
 "

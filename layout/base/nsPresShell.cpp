@@ -208,7 +208,7 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+StyleSheetInlines
 .
 h
 "

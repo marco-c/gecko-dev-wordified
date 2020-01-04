@@ -170,7 +170,7 @@ include
 "
 mozilla
 /
-ServoStyleSheet
+StyleSheetInlines
 .
 h
 "
