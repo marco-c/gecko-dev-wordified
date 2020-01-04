@@ -105,6 +105,7 @@ prtime
 h
 "
 inline
+MOZ_MUST_USE
 nsresult
 NS_GetAboutModuleName
 (
