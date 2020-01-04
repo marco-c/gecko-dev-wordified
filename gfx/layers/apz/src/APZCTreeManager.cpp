@@ -949,7 +949,7 @@ AssertOnCompositorThread
 (
 )
 ;
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -8570,7 +8570,7 @@ ZoomConstraints
 aConstraints
 )
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -9172,7 +9172,7 @@ therefore
 equal
 )
 .
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -9285,7 +9285,7 @@ ScreenPoint
 aShift
 )
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -9377,7 +9377,7 @@ Clear
 )
 )
 ;
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -9527,7 +9527,7 @@ GetRootNode
 )
 const
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -10783,7 +10783,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -10911,7 +10911,7 @@ HitTestResult
 aOutHitResult
 )
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -11162,7 +11162,7 @@ the
 APZC
 tree
 .
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -11967,7 +11967,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -13749,7 +13749,7 @@ const
 Matrix4x4
 result
 ;
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -14184,7 +14184,7 @@ const
 Matrix4x4
 result
 ;
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock
@@ -14486,7 +14486,7 @@ aApzc2
 )
 const
 {
-MonitorAutoLock
+MutexAutoLock
 lock
 (
 mTreeLock

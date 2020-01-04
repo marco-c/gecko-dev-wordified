@@ -241,14 +241,14 @@ include
 "
 mozilla
 /
-Monitor
+Mutex
 .
 h
 "
 /
 /
 for
-Monitor
+Mutex
 #
 include
 "
@@ -4572,7 +4572,7 @@ mutable
 mozilla
 :
 :
-Monitor
+Mutex
 mTreeLock
 ;
 RefPtr
