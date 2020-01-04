@@ -1512,7 +1512,7 @@ forLastCallSite
 )
 ;
 void
-fixBaselineDebugModeOSRReturnAddress
+fixBaselineReturnAddress
 (
 )
 ;
