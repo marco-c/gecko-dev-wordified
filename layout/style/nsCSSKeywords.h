@@ -165,6 +165,8 @@ eCSSKeyword_
 _id
 enum
 nsCSSKeyword
+:
+int16_t
 {
 eCSSKeyword_UNKNOWN
 =
