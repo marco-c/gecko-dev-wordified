@@ -96,15 +96,6 @@ analysis
 output
 '
       
-#
-Temporarily
-disabled
--
-see
-bug
-1211402
-      
-#
 '
 upload
 -
