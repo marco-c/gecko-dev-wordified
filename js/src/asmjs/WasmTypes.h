@@ -319,7 +319,7 @@ parameters
 /
 FIXME
 :
-uint8_t
+uint16_t
 would
 make
 more
@@ -1100,7 +1100,7 @@ enum
 class
 ExprType
 :
-uint8_t
+uint16_t
 {
 I32
 =
