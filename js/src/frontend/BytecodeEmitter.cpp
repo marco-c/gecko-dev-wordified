@@ -27777,10 +27777,9 @@ InitializeVars
 )
 continue
 ;
-goto
-emit_pop
-;
 }
+else
+{
 /
 *
 *
@@ -27794,9 +27793,9 @@ above
 that
 jumps
 to
+*
 do_name
 .
-*
 NB
 :
 if
@@ -27807,9 +27806,9 @@ an
 existing
 binding
 then
+*
 binding
 is
-*
 linked
 on
 its
@@ -27821,10 +27820,10 @@ use
 chain
 and
 pn_expr
+*
 has
 been
 overlayed
-*
 with
 pn_lexdef
 .
@@ -28216,8 +28215,7 @@ return
 false
 ;
 }
-emit_pop
-:
+}
 if
 (
 next
