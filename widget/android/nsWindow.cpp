@@ -10918,7 +10918,7 @@ WidgetToScreenOffset
 ;
 contextMenuEvent
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 true
 ;
@@ -11168,7 +11168,7 @@ MOZ_SOURCE_TOUCH
 ;
 event
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 true
 ;
@@ -11303,7 +11303,7 @@ mRefPoint
 ;
 hittest
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 true
 ;

@@ -3514,7 +3514,7 @@ MOZ_SOURCE_TOUCH
 ;
 event
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 true
 ;

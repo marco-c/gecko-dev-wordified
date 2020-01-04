@@ -47708,7 +47708,7 @@ eMouseEventClass
 mouseEvent
 -
 >
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 )
 {
 flags

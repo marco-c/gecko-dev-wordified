@@ -1555,7 +1555,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -1599,7 +1599,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -1659,7 +1659,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -1834,7 +1834,7 @@ during
 dispatch
 .
 bool
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 ;
 /
 /
@@ -1870,11 +1870,11 @@ AssignPointerHelperData
 aEvent
 )
 ;
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 aEvent
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 ;
 clickCount
 =
