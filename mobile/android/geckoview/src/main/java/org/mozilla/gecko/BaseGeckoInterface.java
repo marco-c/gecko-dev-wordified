@@ -397,12 +397,6 @@ addPluginView
 final
 View
 view
-final
-RectF
-rect
-final
-boolean
-isFullScreen
 )
 {
 }
@@ -421,9 +415,6 @@ removePluginView
 final
 View
 view
-final
-boolean
-isFullScreen
 )
 {
 }
