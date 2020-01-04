@@ -331,6 +331,13 @@ workers
 SERVICE_WORKER
 )
 ;
+yield
+waitForServiceWorkerActivation
+(
+SERVICE_WORKER
+document
+)
+;
 info
 (
 "

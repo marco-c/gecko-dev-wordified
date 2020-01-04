@@ -394,6 +394,13 @@ resolved
 "
 )
 ;
+yield
+waitForServiceWorkerActivation
+(
+SERVICE_WORKER
+document
+)
+;
 /
 /
 Retrieve
@@ -790,6 +797,7 @@ yield
 unregisterServiceWorker
 (
 swTab
+serviceWorkersElement
 )
 ;
 ok
