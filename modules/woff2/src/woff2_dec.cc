@@ -6543,6 +6543,11 @@ table
 src_length
 )
 ;
+if
+(
+PREDICT_FALSE
+(
+!
 out
 -
 >
@@ -6557,7 +6562,15 @@ table
 .
 src_length
 )
+)
+)
+{
+return
+FONT_COMPRESSION_FAILURE
+(
+)
 ;
+}
 }
 else
 {
