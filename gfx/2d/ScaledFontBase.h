@@ -256,13 +256,7 @@ GlyphMetrics
 *
 aGlyphMetrics
 )
-{
-MOZ_ASSERT
-(
-false
-)
 ;
-}
 float
 GetSize
 (
