@@ -4140,6 +4140,17 @@ reason
 rt
 -
 >
+addTelemetry
+(
+JS_TELEMETRY_GC_NURSERY_BYTES
+nurserySize
+(
+)
+)
+;
+rt
+-
+>
 gc
 .
 stats
