@@ -14050,9 +14050,11 @@ nsIDocument
 >
 parentDocument
 =
-do_GetInterface
-(
 parentDocShell
+-
+>
+GetDocument
+(
 )
 ;
 nsCOMPtr

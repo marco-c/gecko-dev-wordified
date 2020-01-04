@@ -676,9 +676,11 @@ nsIDocument
 >
 rootDoc
 =
-do_GetInterface
-(
 sameTypeRoot
+-
+>
+GetDocument
+(
 )
 ;
 NS_ASSERTION
@@ -5522,9 +5524,11 @@ nsIDocument
 >
 rootDoc
 =
-do_GetInterface
-(
 sameTypeRoot
+-
+>
+GetDocument
+(
 )
 ;
 NS_ASSERTION
