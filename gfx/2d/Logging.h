@@ -842,6 +842,7 @@ AsyncTransactionTimeout
 TextureCreation
 InvalidCacheSurface
 AlphaWithBasicClient
+UnbalancedClipStack
 /
 /
 End
