@@ -24977,11 +24977,7 @@ array
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Tabs
@@ -24992,7 +24988,6 @@ object
 .
 toString
 (
-)
 )
 )
 ;
