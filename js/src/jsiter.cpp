@@ -3969,7 +3969,7 @@ true
 }
 static
 bool
-iterator_next
+legacy_iterator_next
 (
 JSContext
 *
@@ -4228,7 +4228,7 @@ cx
 NewNativeFunction
 (
 cx
-iterator_next
+legacy_iterator_next
 0
 HandlePropertyName
 (
@@ -7004,7 +7004,7 @@ class_
 }
 MOZ_ALWAYS_INLINE
 bool
-iterator_next_impl
+legacy_iterator_next_impl
 (
 JSContext
 *
@@ -7127,7 +7127,7 @@ true
 }
 static
 bool
-iterator_next
+legacy_iterator_next
 (
 JSContext
 *
@@ -7152,7 +7152,7 @@ return
 CallNonGenericMethod
 <
 IsIterator
-iterator_next_impl
+legacy_iterator_next_impl
 >
 (
 cx
@@ -7163,7 +7163,7 @@ args
 static
 const
 JSFunctionSpec
-iterator_methods
+legacy_iterator_methods
 [
 ]
 =
@@ -7182,7 +7182,7 @@ JS_FN
 "
 next
 "
-iterator_next
+legacy_iterator_next
 0
 0
 )
@@ -9621,7 +9621,7 @@ cx
 GlobalObject
 :
 :
-getOrCreateIteratorPrototype
+getOrCreateLegacyIteratorPrototype
 (
 cx
 global
@@ -9795,7 +9795,7 @@ JSObject
 js
 :
 :
-InitIteratorClass
+InitLegacyIteratorClass
 (
 JSContext
 *
@@ -9996,7 +9996,7 @@ DefinePropertiesAndFunctions
 cx
 iteratorProto
 nullptr
-iterator_methods
+legacy_iterator_methods
 )
 )
 return
