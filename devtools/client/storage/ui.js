@@ -660,7 +660,7 @@ searchBox
 addEventListener
 (
 "
-input
+command
 "
 this
 .

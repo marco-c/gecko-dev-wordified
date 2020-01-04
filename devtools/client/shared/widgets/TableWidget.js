@@ -3123,6 +3123,12 @@ value
 return
 ;
 }
+this
+.
+filteredValue
+=
+value
+;
 if
 (
 !
@@ -3143,12 +3149,6 @@ TABLE_FILTERED
 return
 ;
 }
-this
-.
-filteredValue
-=
-value
-;
 /
 /
 Shouldn
