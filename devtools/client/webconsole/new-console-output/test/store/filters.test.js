@@ -63,7 +63,7 @@ output
 /
 actions
 /
-messages
+filters
 "
 )
 ;
@@ -191,7 +191,7 @@ dispatch
 (
 actions
 .
-messagesSearch
+filterTextSet
 (
 "
 danger

@@ -284,10 +284,6 @@ filter
 log
 "
 )
-searchText
-:
-"
-"
 }
 )
 }

@@ -186,7 +186,7 @@ type
 case
 constants
 .
-FILTERBAR_TOGGLE
+FILTER_BAR_TOGGLE
 :
 return
 state

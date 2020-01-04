@@ -200,7 +200,7 @@ filters
 )
 filters
 .
-searchText
+text
 )
 logLimit
 )
@@ -240,7 +240,7 @@ function
 search
 (
 messages
-searchText
+text
 =
 "
 "
@@ -248,7 +248,7 @@ searchText
 {
 if
 (
-searchText
+text
 =
 =
 =
@@ -321,7 +321,7 @@ toLocaleLowerCase
 .
 includes
 (
-searchText
+text
 .
 toLocaleLowerCase
 (
