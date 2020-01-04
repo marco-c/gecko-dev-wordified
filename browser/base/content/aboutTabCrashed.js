@@ -954,6 +954,15 @@ data
 email
 ;
 }
+this
+.
+showCrashReportUI
+(
+data
+.
+sendReport
+)
+;
 }
 let
 event
