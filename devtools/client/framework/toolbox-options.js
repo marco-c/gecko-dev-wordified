@@ -288,11 +288,9 @@ catch
 ex
 )
 {
-Services
-.
 console
 .
-logStringMessage
+log
 (
 "
 Error
