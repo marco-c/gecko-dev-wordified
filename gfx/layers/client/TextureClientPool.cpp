@@ -122,6 +122,17 @@ mozilla
 /
 layers
 /
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TiledContentClient
 .
 h
@@ -217,7 +228,7 @@ uint32_t
 aMaxTextureClients
 uint32_t
 aShrinkTimeoutMsec
-CompositableForwarder
+TextureForwarder
 *
 aAllocator
 )
