@@ -2351,7 +2351,10 @@ path
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 OS
@@ -2375,10 +2378,7 @@ existent
 files
 .
 }
-catch
-(
-e
-)
+else
 {
 if
 (
@@ -2402,6 +2402,7 @@ json
 e
 )
 ;
+}
 }
 }
 callback

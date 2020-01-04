@@ -1486,6 +1486,7 @@ add_identity_test
 (
 this
 function
+*
 test_401_logout
 (
 )
@@ -1798,6 +1799,7 @@ add_identity_test
 (
 this
 function
+*
 test_credentials_changed_logout
 (
 )
@@ -3300,6 +3302,7 @@ add_identity_test
 (
 this
 function
+*
 test_shouldReportError_master_password
 (
 )
@@ -3624,6 +3627,7 @@ environment
 add_task
 (
 function
+*
 test_login_syncAndReportErrors_non_network_error
 (
 )
@@ -3757,6 +3761,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_syncAndReportErrors_non_network_error
 (
 )
@@ -3944,6 +3949,7 @@ environment
 add_task
 (
 function
+*
 test_login_syncAndReportErrors_prolonged_non_network_error
 (
 )
@@ -4079,6 +4085,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_syncAndReportErrors_prolonged_non_network_error
 (
 )
@@ -4244,6 +4251,7 @@ add_identity_test
 (
 this
 function
+*
 test_login_syncAndReportErrors_network_error
 (
 )
@@ -4481,6 +4489,7 @@ add_identity_test
 (
 this
 function
+*
 test_login_syncAndReportErrors_prolonged_network_error
 (
 )
@@ -4721,6 +4730,7 @@ syncAndReportErrors
 add_task
 (
 function
+*
 test_login_prolonged_non_network_error
 (
 )
@@ -4856,6 +4866,7 @@ promise
 add_task
 (
 function
+*
 test_sync_prolonged_non_network_error
 (
 )
@@ -5022,6 +5033,7 @@ add_identity_test
 (
 this
 function
+*
 test_login_prolonged_network_error
 (
 )
@@ -5264,6 +5276,7 @@ sync
 add_task
 (
 function
+*
 test_login_non_network_error
 (
 )
@@ -5398,6 +5411,7 @@ promise
 add_task
 (
 function
+*
 test_sync_non_network_error
 (
 )
@@ -5563,6 +5577,7 @@ add_identity_test
 (
 this
 function
+*
 test_login_network_error
 (
 )
@@ -5815,6 +5830,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_server_maintenance_error
 (
 )
@@ -6057,6 +6073,7 @@ add_identity_test
 (
 this
 function
+*
 test_info_collections_login_server_maintenance_error
 (
 )
@@ -6381,6 +6398,7 @@ add_identity_test
 (
 this
 function
+*
 test_meta_global_login_server_maintenance_error
 (
 )
@@ -6694,6 +6712,7 @@ add_identity_test
 (
 this
 function
+*
 test_crypto_keys_login_server_maintenance_error
 (
 )
@@ -7022,6 +7041,7 @@ promise
 add_task
 (
 function
+*
 test_sync_prolonged_server_maintenance_error
 (
 )
@@ -7210,6 +7230,7 @@ add_identity_test
 (
 this
 function
+*
 test_info_collections_login_prolonged_server_maintenance_error
 (
 )
@@ -7469,6 +7490,7 @@ add_identity_test
 (
 this
 function
+*
 test_meta_global_login_prolonged_server_maintenance_error
 (
 )
@@ -7728,6 +7750,7 @@ add_identity_test
 (
 this
 function
+*
 test_download_crypto_keys_login_prolonged_server_maintenance_error
 (
 )
@@ -8003,6 +8026,7 @@ add_identity_test
 (
 this
 function
+*
 test_upload_crypto_keys_login_prolonged_server_maintenance_error
 (
 )
@@ -8270,6 +8294,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_login_prolonged_server_maintenance_error
 (
 )
@@ -8543,6 +8568,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeRemote_prolonged_server_maintenance_error
 (
 )
@@ -8882,6 +8908,7 @@ promise
 add_task
 (
 function
+*
 test_sync_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -9074,6 +9101,7 @@ add_identity_test
 (
 this
 function
+*
 test_info_collections_login_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -9337,6 +9365,7 @@ add_identity_test
 (
 this
 function
+*
 test_meta_global_login_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -9600,6 +9629,7 @@ add_identity_test
 (
 this
 function
+*
 test_download_crypto_keys_login_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -9879,6 +9909,7 @@ add_identity_test
 (
 this
 function
+*
 test_upload_crypto_keys_login_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -10150,6 +10181,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_login_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -10421,6 +10453,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeRemote_syncAndReportErrors_server_maintenance_error
 (
 )
@@ -10739,6 +10772,7 @@ promise
 add_task
 (
 function
+*
 test_sync_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -10945,6 +10979,7 @@ add_identity_test
 (
 this
 function
+*
 test_info_collections_login_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -11221,6 +11256,7 @@ add_identity_test
 (
 this
 function
+*
 test_meta_global_login_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -11497,6 +11533,7 @@ add_identity_test
 (
 this
 function
+*
 test_download_crypto_keys_login_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -11789,6 +11826,7 @@ add_identity_test
 (
 this
 function
+*
 test_upload_crypto_keys_login_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -12073,6 +12111,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_login_syncAndReportErrors_prolonged_server_maintenance_error
 (
 )
@@ -12356,6 +12395,7 @@ promise
 add_task
 (
 function
+*
 test_sync_engine_generic_fail
 (
 )
@@ -13322,6 +13362,7 @@ bug
 add_task
 (
 function
+*
 test_engine_applyFailed
 (
 )

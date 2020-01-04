@@ -654,6 +654,7 @@ run_next_test
 add_task
 (
 function
+*
 test_initialializeWithCurrentIdentity
 (
 )
@@ -719,6 +720,7 @@ email
 add_task
 (
 function
+*
 test_initialializeWithAuthErrorAndDeletedAccount
 (
 )
@@ -931,6 +933,7 @@ oldFetchTokenForUser
 add_task
 (
 function
+*
 test_initialializeWithNoKeys
 (
 )
@@ -2345,6 +2348,7 @@ run_next_test
 add_task
 (
 function
+*
 test_ensureLoggedIn
 (
 )
@@ -3068,6 +3072,7 @@ run_next_test
 add_task
 (
 function
+*
 test_getTokenErrors
 (
 )
@@ -3379,6 +3384,7 @@ responses
 add_task
 (
 function
+*
 test_getTokenErrorWithRetry
 (
 )
@@ -3785,6 +3791,7 @@ FxA
 add_task
 (
 function
+*
 test_getKeysErrorWithBackoff
 (
 )
@@ -4116,6 +4123,7 @@ FxA
 add_task
 (
 function
+*
 test_getKeysErrorWithRetry
 (
 )
@@ -4447,6 +4455,7 @@ FxA
 add_task
 (
 function
+*
 test_getHAWKErrors
 (
 )
@@ -4777,6 +4786,7 @@ FxA
 add_task
 (
 function
+*
 test_getGetKeysFailing401
 (
 )
@@ -4985,6 +4995,7 @@ FxA
 add_task
 (
 function
+*
 test_getGetKeysFailing503
 (
 )
@@ -5195,6 +5206,7 @@ FxA
 add_task
 (
 function
+*
 test_getKeysMissing
 (
 )

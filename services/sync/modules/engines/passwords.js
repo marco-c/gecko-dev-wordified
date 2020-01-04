@@ -575,8 +575,10 @@ used
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -585,6 +587,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 this
 .
 _log

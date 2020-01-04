@@ -4601,7 +4601,11 @@ arguments
 catch
 (
 ex
+)
+{
 if
+(
+!
 ex
 instanceof
 errors
@@ -4609,6 +4613,10 @@ errors
 AssertionError
 )
 {
+throw
+ex
+;
+}
 message
 =
 ex

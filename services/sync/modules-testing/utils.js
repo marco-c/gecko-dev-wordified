@@ -2249,6 +2249,7 @@ test
 add_task
 (
 function
+*
 (
 )
 {
@@ -2305,6 +2306,7 @@ test
 add_task
 (
 function
+*
 (
 )
 {

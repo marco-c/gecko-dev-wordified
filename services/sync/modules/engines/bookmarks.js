@@ -1670,8 +1670,10 @@ url
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -1680,6 +1682,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 if
 (
 ex
@@ -2746,6 +2752,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -2957,8 +2964,10 @@ _buildGUIDMap
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -2967,6 +2976,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 this
 .
 _log
@@ -9262,6 +9275,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

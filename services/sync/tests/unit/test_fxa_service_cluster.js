@@ -114,6 +114,7 @@ js
 add_task
 (
 function
+*
 test_findCluster
 (
 )

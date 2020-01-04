@@ -3026,8 +3026,10 @@ cb
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -3036,6 +3038,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 /
 /
 Combine
@@ -4191,8 +4197,10 @@ _onProgress
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -4201,6 +4209,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 this
 .
 _log

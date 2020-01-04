@@ -266,6 +266,7 @@ jsm
 add_task
 (
 function
+*
 test_locally_changed_keys
 (
 )

@@ -890,6 +890,8 @@ lastSyncReassigned
 catch
 (
 ex
+)
+{
 if
 (
 ex
@@ -901,17 +903,11 @@ Cr
 .
 NS_ERROR_UNEXPECTED
 )
-)
 {
 return
 false
 ;
 }
-catch
-(
-ex
-)
-{
 do_throw
 (
 "
@@ -983,6 +979,7 @@ etc
 *
 /
 function
+*
 syncAndExpectNodeReassignment
 (
 server
@@ -1321,6 +1318,7 @@ promise
 add_task
 (
 function
+*
 test_momentary_401_engine
 (
 )
@@ -1745,6 +1743,7 @@ in
 add_task
 (
 function
+*
 test_momentary_401_info_collections
 (
 )
@@ -1884,6 +1883,7 @@ infoURL
 add_task
 (
 function
+*
 test_momentary_401_storage_loggedin
 (
 )
@@ -2045,6 +2045,7 @@ global
 add_task
 (
 function
+*
 test_momentary_401_storage_loggedout
 (
 )
@@ -2186,6 +2187,7 @@ global
 add_task
 (
 function
+*
 test_loop_avoidance_storage
 (
 )
@@ -2902,6 +2904,7 @@ promise
 add_task
 (
 function
+*
 test_loop_avoidance_engine
 (
 )

@@ -366,6 +366,7 @@ handlers
 ;
 }
 function
+*
 setUp
 (
 server
@@ -538,6 +539,7 @@ add_identity_test
 (
 this
 function
+*
 test_200_hard
 (
 )
@@ -712,6 +714,7 @@ add_identity_test
 (
 this
 function
+*
 test_513_hard
 (
 )
@@ -898,6 +901,7 @@ add_identity_test
 (
 this
 function
+*
 test_200_soft
 (
 )
