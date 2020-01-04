@@ -129,17 +129,12 @@ string
 h
 >
 #
-ifdef
-__GNUC__
-#
 include
 <
 unistd
 .
 h
 >
-#
-endif
 #
 include
 "
