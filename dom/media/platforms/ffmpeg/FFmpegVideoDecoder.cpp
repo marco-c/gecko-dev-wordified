@@ -2140,16 +2140,7 @@ break
 ;
 default
 :
-NS_WARNING
-(
-"
-Unsupported
-yuv
-color
-space
-.
-"
-)
+break
 ;
 }
 }
