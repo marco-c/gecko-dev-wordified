@@ -350,7 +350,7 @@ needTempForPostBarrier
 )
 {
 return
-false
+true
 ;
 }
 void

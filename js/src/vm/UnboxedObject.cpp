@@ -1138,7 +1138,7 @@ scratch1
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :

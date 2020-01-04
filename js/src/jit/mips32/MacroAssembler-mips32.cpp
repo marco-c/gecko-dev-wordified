@@ -12834,7 +12834,7 @@ address
 temp
 )
 ;
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 cond
 temp
@@ -12910,7 +12910,7 @@ done
 label
 )
 ;
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 cond
 value

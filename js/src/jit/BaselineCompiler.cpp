@@ -13962,7 +13962,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
@@ -16331,7 +16331,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
@@ -21540,7 +21540,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
@@ -21554,7 +21554,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
@@ -21875,7 +21875,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
@@ -21889,7 +21889,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
