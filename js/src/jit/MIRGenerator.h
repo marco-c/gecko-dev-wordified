@@ -1085,7 +1085,7 @@ JitCompileOptions
 options
 ;
 bool
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 const
 MWasmMemoryAccess

@@ -1998,7 +1998,7 @@ caught
 =
 true
 ;
-assert
+if
 (
 err
 .
@@ -2010,11 +2010,14 @@ indexOf
 (
 errMsg
 )
-!
+=
 =
 =
 -
 1
+)
+warn
+(
 expected
 error
 message

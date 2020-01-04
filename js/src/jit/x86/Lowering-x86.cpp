@@ -1593,7 +1593,7 @@ baseAlloc
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 ins
 )
@@ -1701,7 +1701,7 @@ baseAlloc
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 ins
 )
@@ -1853,9 +1853,9 @@ values
 The
 immediate
 operand
-/
-/
 affects
+/
+/
 instruction
 layout
 which

@@ -661,7 +661,7 @@ bool
 MIRGenerator
 :
 :
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 const
 MWasmMemoryAccess

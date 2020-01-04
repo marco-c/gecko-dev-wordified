@@ -3235,7 +3235,7 @@ MOZ_ASSERT
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 access
 )
@@ -3559,7 +3559,7 @@ if
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 access
 )
@@ -3629,7 +3629,7 @@ if
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 mir
 )
@@ -3769,7 +3769,7 @@ if
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 mir
 )
@@ -3860,7 +3860,7 @@ MOZ_ASSERT
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 access
 )

@@ -12591,9 +12591,10 @@ default
 MOZ_CRASH
 (
 "
-SAY
-WHAT
-?
+unexpected
+size
+in
+as_extdtr
 "
 )
 ;

@@ -1061,7 +1061,7 @@ baseAlloc
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 ins
 )
@@ -1169,7 +1169,7 @@ baseAlloc
 gen
 -
 >
-needsAsmJSBoundsCheckBranch
+needsBoundsCheckBranch
 (
 ins
 )
