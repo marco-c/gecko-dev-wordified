@@ -15528,6 +15528,17 @@ code
 case
 Bailout_OverflowInvalidate
 :
+outerScript
+-
+>
+setHadOverflowBailout
+(
+)
+;
+/
+/
+FALL
+THROUGH
 case
 Bailout_NonStringInputInvalidate
 :
