@@ -1021,11 +1021,10 @@ aMutations
 )
 {
 for
-each
 (
 let
 mutation
-in
+of
 aMutations
 )
 {
@@ -1037,11 +1036,10 @@ addedNodes
 )
 {
 for
-each
 (
 let
 node
-in
+of
 mutation
 .
 addedNodes
