@@ -133,7 +133,7 @@ mozilla
 /
 layers
 /
-CompositableForwarder
+TextureForwarder
 .
 h
 "
@@ -344,7 +344,7 @@ TextureClient
 >
 Allocate
 (
-CompositableForwarder
+TextureForwarder
 *
 aAllocator
 )
@@ -550,7 +550,7 @@ YCbCrTextureClientAllocationHelper
 :
 Allocate
 (
-CompositableForwarder
+TextureForwarder
 *
 aAllocator
 )
@@ -580,7 +580,7 @@ TextureClientRecycleAllocator
 :
 TextureClientRecycleAllocator
 (
-CompositableForwarder
+TextureForwarder
 *
 aAllocator
 )
@@ -1143,6 +1143,12 @@ CreateForDrawing
 mSurfaceAllocator
 aFormat
 aSize
+mSurfaceAllocator
+-
+>
+GetCompositorBackendType
+(
+)
 aSelector
 aTextureFlags
 aAllocFlags
