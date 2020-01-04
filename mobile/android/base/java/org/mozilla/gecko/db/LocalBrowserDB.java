@@ -232,6 +232,15 @@ mozilla
 .
 gecko
 .
+AppConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 annotation
 .
 RobocopTarget
@@ -5455,7 +5464,9 @@ cr
 ;
 addScreenshotsFolder
 =
-true
+AppConstants
+.
+SCREENSHOTS_IN_BOOKMARKS_ENABLED
 ;
 }
 else

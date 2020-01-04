@@ -5245,6 +5245,17 @@ screenshot
 "
 )
 ;
+if
+(
+!
+AppConstants
+.
+SCREENSHOTS_IN_BOOKMARKS_ENABLED
+)
+{
+return
+;
+}
 final
 Tab
 selectedTab
