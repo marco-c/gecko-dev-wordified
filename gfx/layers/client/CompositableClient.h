@@ -1417,8 +1417,10 @@ CompositableChild
 *
 mCompositableChild
 ;
+RefPtr
+<
 CompositableForwarder
-*
+>
 mForwarder
 ;
 /
