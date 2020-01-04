@@ -349,7 +349,6 @@ systemPrincipal
 nullptr
 nullptr
 nullptr
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
