@@ -2777,13 +2777,6 @@ else
 mCaptureStreamPort
 -
 >
-Disconnect
-(
-)
-;
-mCaptureStreamPort
--
->
 Destroy
 (
 )
