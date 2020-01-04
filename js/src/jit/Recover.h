@@ -2384,7 +2384,7 @@ numOperands
 const
 {
 return
-5
+3
 ;
 }
 bool
@@ -2422,7 +2422,7 @@ numOperands
 const
 {
 return
-5
+3
 ;
 }
 bool
@@ -2460,7 +2460,7 @@ numOperands
 const
 {
 return
-5
+3
 ;
 }
 bool
