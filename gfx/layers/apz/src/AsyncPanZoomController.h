@@ -4150,6 +4150,10 @@ redispatch
 void
 RequestContentRepaint
 (
+bool
+aUserAction
+=
+true
 )
 ;
 /
