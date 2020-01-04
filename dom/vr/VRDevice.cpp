@@ -2174,7 +2174,7 @@ state
 mHMD
 -
 >
-GetSensorState
+GetImmediateSensorState
 (
 )
 ;
