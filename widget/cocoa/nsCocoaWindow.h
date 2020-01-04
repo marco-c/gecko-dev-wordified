@@ -2107,7 +2107,10 @@ override
 NS_IMETHOD
 SetNonClientMargins
 (
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 &
 margins
 )

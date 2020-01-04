@@ -14588,7 +14588,7 @@ bottom
 left
 for
 nsIntMargin
-nsIntMargin
+LayoutDeviceIntMargin
 margins
 (
 0
@@ -14608,7 +14608,7 @@ margins
 }
 else
 {
-nsIntMargin
+LayoutDeviceIntMargin
 margins
 (
 -
@@ -14634,7 +14634,7 @@ nsWindow
 :
 GetNonClientMargins
 (
-nsIntMargin
+LayoutDeviceIntMargin
 &
 margins
 )
@@ -16495,7 +16495,7 @@ nsWindow
 :
 SetNonClientMargins
 (
-nsIntMargin
+LayoutDeviceIntMargin
 &
 margins
 )

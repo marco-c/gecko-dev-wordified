@@ -9956,7 +9956,7 @@ nsBaseWidget
 :
 GetNonClientMargins
 (
-nsIntMargin
+LayoutDeviceIntMargin
 &
 margins
 )
@@ -9971,7 +9971,7 @@ nsBaseWidget
 :
 SetNonClientMargins
 (
-nsIntMargin
+LayoutDeviceIntMargin
 &
 margins
 )

@@ -12486,7 +12486,7 @@ nsIWidget
 *
 aWidget
 const
-nsIntMargin
+LayoutDeviceIntMargin
 &
 aMargin
 )
@@ -12543,7 +12543,7 @@ nsIWidget
 >
 mWidget
 ;
-nsIntMargin
+LayoutDeviceIntMargin
 mMargin
 ;
 }
@@ -12665,7 +12665,13 @@ new
 MarginSetter
 (
 mainWidget
+LayoutDeviceIntMargin
+:
+:
+FromUnknownMargin
+(
 margins
+)
 )
 )
 ;
