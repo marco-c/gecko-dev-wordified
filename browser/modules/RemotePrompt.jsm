@@ -464,6 +464,11 @@ eventDetail
 tabPrompt
 :
 true
+promptPrincipal
+:
+args
+.
+promptPrincipal
 }
 ;
 PromptUtils
