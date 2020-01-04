@@ -106,7 +106,13 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
 /
 tree
 "
