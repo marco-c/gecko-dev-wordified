@@ -403,6 +403,7 @@ a
 log
 be
 produced
+#
 by
 a
 try
@@ -422,10 +423,11 @@ will
 be
 passed
 to
-MOZ_LOG_MODULES
+MOZ_LOG
 environment
 variable
 .
+#
 Try
 run
 will
@@ -446,7 +448,7 @@ mozilla
 .
 org
 .
-MOZ_LOG_MODULES
+MOZ_LOG
 =
 "
 "
@@ -9639,7 +9641,7 @@ if
 setup
 (
 see
-MOZ_LOG_MODULES
+MOZ_LOG
 global
 at
 the
@@ -9656,7 +9658,7 @@ self
 .
 mozLogs
 =
-MOZ_LOG_MODULES
+MOZ_LOG
 and
 "
 MOZ_UPLOAD_DIR
@@ -9675,11 +9677,11 @@ mozLogs
 browserEnv
 [
 "
-MOZ_LOG_MODULES
+MOZ_LOG
 "
 ]
 =
-MOZ_LOG_MODULES
+MOZ_LOG
         
 if
 debugger
