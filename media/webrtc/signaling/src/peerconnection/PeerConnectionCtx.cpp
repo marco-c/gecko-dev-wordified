@@ -2004,6 +2004,9 @@ HasMedia
 )
 )
 {
+if
+(
+!
 queries
 -
 >
@@ -2021,7 +2024,11 @@ true
 )
 )
 )
+)
+{
+return
 ;
+}
 if
 (
 NS_WARN_IF

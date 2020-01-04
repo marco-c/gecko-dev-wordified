@@ -2120,6 +2120,9 @@ HasMedia
 )
 )
 {
+if
+(
+!
 queries
 -
 >
@@ -2137,7 +2140,12 @@ true
 )
 )
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 rv
 =
 pc
