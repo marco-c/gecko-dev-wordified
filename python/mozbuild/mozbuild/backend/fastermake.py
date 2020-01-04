@@ -1025,12 +1025,18 @@ install_target
 =
 mozpath
 .
+normpath
+(
+                    
+mozpath
+.
 join
 (
 install_target
 jarinfo
 .
 base
+)
 )
             
 for
