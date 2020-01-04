@@ -3645,7 +3645,7 @@ never
 be
 a
 directory
-PR_ASSERT
+MOZ_ASSERT
 (
 !
 item
@@ -6617,7 +6617,7 @@ nsZipItem
 aItem
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aItem
 )
@@ -6926,7 +6926,7 @@ nsZipItem
 aItem
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aItem
 )
@@ -7645,7 +7645,7 @@ uint16_t
 len
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aName
 !

@@ -4114,7 +4114,7 @@ IsTypeString
 )
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 newValue
 .

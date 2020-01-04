@@ -5052,7 +5052,7 @@ no
 /
 new
 elements
-PR_ASSERT
+MOZ_ASSERT
 (
 eXMLContentSinkState_InEpilog
 !
@@ -5628,7 +5628,7 @@ tags
 for
 elements
 .
-PR_ASSERT
+MOZ_ASSERT
 (
 eXMLContentSinkState_InDocumentElement
 =

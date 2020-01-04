@@ -2200,7 +2200,7 @@ Init
 (
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 NOT_INITIALIZED
 =
@@ -5125,7 +5125,7 @@ Shutdown
 void
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 NORMAL
 =
@@ -5666,7 +5666,7 @@ buf
 ;
 }
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 aResult
 !

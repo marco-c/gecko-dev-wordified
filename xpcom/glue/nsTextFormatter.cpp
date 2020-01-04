@@ -7015,7 +7015,7 @@ aStr
 +
 ;
 }
-PR_ASSERT
+MOZ_ASSERT
 (
 (
 uint32_t
@@ -7460,7 +7460,7 @@ ap
 uint32_t
 rv
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -7538,7 +7538,7 @@ ss
 uint32_t
 n
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
