@@ -3080,11 +3080,6 @@ before
 actually
 type
 checking
-/
-/
-the
-arguments
-.
 checkBaseType
 (
 baseType
@@ -9113,12 +9108,11 @@ function
 let
 isAsync
 =
-Boolean
-(
+!
+!
 type
 .
 async
-)
 ;
 let
 parameters
