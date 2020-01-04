@@ -651,6 +651,11 @@ PurgeActiveWorker
 )
 ;
 void
+TryToActivateAsync
+(
+)
+;
+void
 TryToActivate
 (
 )
