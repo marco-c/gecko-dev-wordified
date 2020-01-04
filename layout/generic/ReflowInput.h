@@ -6080,7 +6080,7 @@ void
 SetTruncated
 (
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus

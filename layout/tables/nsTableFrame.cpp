@@ -12510,7 +12510,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -13814,7 +13814,7 @@ FixupPositionedTableParts
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -13931,7 +13931,7 @@ GetSize
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -14379,7 +14379,7 @@ nsTableFrame
 :
 ReflowTable
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -15002,7 +15002,7 @@ nsTableFrame
 :
 AdjustForCollapsingRowsCols
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -18984,7 +18984,7 @@ nsIFrame
 aKidFrame
 nsPoint
 aKidPosition
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aKidDesiredSize
 const
@@ -19844,7 +19844,7 @@ mIsTopOfPage
 =
 true
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -20058,7 +20058,7 @@ GetVisualOverflowRect
 nsReflowStatus
 footerStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -20951,7 +20951,7 @@ GetVisualOverflowRect
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -22344,7 +22344,7 @@ HaveReflowedColGroups
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 kidMet
 (
 GetWritingMode
@@ -22454,7 +22454,7 @@ const
 ReflowInput
 &
 aReflowState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -22912,7 +22912,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 tableDesiredSize
 (
 wm
@@ -22966,7 +22966,7 @@ rowGroups
 rgIdx
 ]
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 groupDesiredSize
 (
 wm

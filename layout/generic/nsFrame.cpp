@@ -33109,7 +33109,7 @@ FinishReflowWithAbsoluteFrames
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -33148,7 +33148,7 @@ ReflowAbsoluteFrames
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -33458,7 +33458,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -39673,7 +39673,7 @@ const
 ReflowInput
 &
 aReflowState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -58343,7 +58343,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 wm
@@ -58540,7 +58540,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -59368,7 +59368,7 @@ GetWritingMode
 :
 ourWM
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 outerWM
@@ -59870,7 +59870,7 @@ aState
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsRenderingContext
@@ -61400,7 +61400,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -63603,7 +63603,7 @@ const
 ReflowInput
 &
 aReflowState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -68340,7 +68340,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus

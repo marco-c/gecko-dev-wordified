@@ -1648,7 +1648,7 @@ nsCSSValue
 &
 aCSSValue
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nscoord
@@ -1894,7 +1894,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1988,7 +1988,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2915,7 +2915,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

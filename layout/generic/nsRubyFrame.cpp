@@ -717,7 +717,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1270,7 +1270,7 @@ Length
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 baseMetrics
 (
 aReflowState
@@ -2054,7 +2054,7 @@ GetWritingMode
 nsReflowStatus
 textReflowStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 textMetrics
 (
 aReflowState

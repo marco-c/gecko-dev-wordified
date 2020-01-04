@@ -19683,7 +19683,7 @@ nsTextFrame
 :
 ClearMetrics
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )
@@ -58173,7 +58173,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -58440,7 +58440,7 @@ aAvailableWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus

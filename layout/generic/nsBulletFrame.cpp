@@ -3218,7 +3218,7 @@ aCX
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 float
@@ -3866,7 +3866,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -4230,7 +4230,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 wm
@@ -4314,7 +4314,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 wm

@@ -2450,7 +2450,7 @@ nsColumnSetFrame
 :
 ReflowColumns
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -3176,7 +3176,7 @@ nsColumnSetFrame
 :
 ReflowChildren
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -4674,7 +4674,7 @@ mNextInFlowUntouched
 true
 ;
 }
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 wm
@@ -6487,7 +6487,7 @@ aConfig
 ColumnBalanceData
 &
 aColData
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsCollapsingMargin
@@ -7573,7 +7573,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

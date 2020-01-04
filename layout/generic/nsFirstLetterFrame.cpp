@@ -944,7 +944,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -1108,7 +1108,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 kidMetrics
 (
 lineWM

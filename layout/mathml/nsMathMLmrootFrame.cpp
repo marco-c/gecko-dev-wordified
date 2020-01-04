@@ -882,7 +882,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -979,13 +979,13 @@ indexFrame
 =
 nullptr
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 baseSize
 (
 aReflowState
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 indexSize
 (
 aReflowState
@@ -1016,7 +1016,7 @@ compute
 their
 bounding
 metrics
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -2296,7 +2296,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

@@ -1857,7 +1857,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2188,7 +2188,7 @@ ReflowAnonymousContent
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2531,7 +2531,7 @@ top
 nsReflowStatus
 frameStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 trackDesiredSize
 (
 aReflowState
@@ -2679,7 +2679,7 @@ afterwards
 nsReflowStatus
 frameStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 thumbDesiredSize
 (
 aReflowState
@@ -2851,7 +2851,7 @@ thumb
 nsReflowStatus
 frameStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 progressDesiredSize
 (
 aReflowState

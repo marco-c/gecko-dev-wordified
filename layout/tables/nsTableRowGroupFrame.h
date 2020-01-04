@@ -550,7 +550,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2283,7 +2283,7 @@ const
 nsSize
 &
 aContainerSize
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2302,7 +2302,7 @@ CalculateRowBSizes
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2314,7 +2314,7 @@ aReflowState
 void
 DidResizeRows
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2364,7 +2364,7 @@ ReflowChildren
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 TableRowGroupReflowInput
@@ -2386,7 +2386,7 @@ SplitRowGroup
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

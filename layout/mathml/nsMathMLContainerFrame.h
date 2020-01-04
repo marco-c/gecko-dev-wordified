@@ -413,7 +413,7 @@ aStretchDirection
 nsBoundingMetrics
 &
 aContainerSize
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )
@@ -814,7 +814,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -826,7 +826,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1518,7 +1518,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1619,7 +1619,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1781,7 +1781,7 @@ ReflowError
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2003,7 +2003,7 @@ aKidFrame
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2175,7 +2175,7 @@ virtual
 nscoord
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2217,7 +2217,7 @@ FinalizeReflow
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2244,7 +2244,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aReflowMetrics
 const
@@ -2354,7 +2354,7 @@ GetReflowAndBoundingMetricsFor
 nsIFrame
 *
 aFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aReflowMetrics
 nsBoundingMetrics
@@ -2903,7 +2903,7 @@ overflow
 void
 GatherAndStoreOverflow
 (
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 )

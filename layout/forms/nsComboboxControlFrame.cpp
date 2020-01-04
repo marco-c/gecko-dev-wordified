@@ -3256,7 +3256,7 @@ const
 nsSize
 dummyContainerSize
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -5622,7 +5622,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -8903,7 +8903,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -8972,7 +8972,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

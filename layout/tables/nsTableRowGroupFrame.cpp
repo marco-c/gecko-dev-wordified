@@ -1750,7 +1750,7 @@ const
 nsSize
 &
 aContainerSize
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2054,7 +2054,7 @@ ReflowChildren
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 TableRowGroupReflowInput
@@ -2417,7 +2417,7 @@ incremental
 reflow
 codepath
 .
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -3275,7 +3275,7 @@ nsTableRowGroupFrame
 :
 DidResizeRows
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -3464,7 +3464,7 @@ CalculateRowBSizes
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -7563,7 +7563,7 @@ SplitRowGroup
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -7998,7 +7998,7 @@ set
 top
 of
 page
-nsHTMLReflowMetrics
+ReflowOutput
 rowMetrics
 (
 aReflowState
@@ -9439,7 +9439,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

@@ -1018,7 +1018,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1039,7 +1039,7 @@ nsMathMLmfracFrame
 :
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1091,7 +1091,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1117,7 +1117,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 bool
@@ -1173,7 +1173,7 @@ nsBoundingMetrics
 bmNum
 bmDen
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 sizeNum
 (
 aDesiredSize
@@ -1183,7 +1183,7 @@ GetWritingMode
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 sizeDen
 (
 aDesiredSize

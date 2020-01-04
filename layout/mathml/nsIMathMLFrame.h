@@ -135,7 +135,7 @@ namespace
 mozilla
 {
 class
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 }
 /
@@ -703,7 +703,7 @@ aContainerSize
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )

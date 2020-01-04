@@ -363,7 +363,7 @@ ReflowError
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -983,7 +983,7 @@ blockFrame
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 HTMLReflowMetricsProperty
-nsHTMLReflowMetrics
+ReflowOutput
 )
 /
 *
@@ -1000,7 +1000,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aReflowMetrics
 const
@@ -1009,12 +1009,12 @@ nsBoundingMetrics
 aBoundingMetrics
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 *
 metrics
 =
 new
-nsHTMLReflowMetrics
+ReflowOutput
 (
 aReflowMetrics
 )
@@ -1068,7 +1068,7 @@ GetReflowAndBoundingMetricsFor
 nsIFrame
 *
 aFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aReflowMetrics
 nsBoundingMetrics
@@ -1088,7 +1088,7 @@ arg
 "
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 *
 metrics
 =
@@ -1365,7 +1365,7 @@ using
 Place
 (
 )
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 GetWritingMode
@@ -1655,7 +1655,7 @@ bmChild
 }
 else
 {
-nsHTMLReflowMetrics
+ReflowOutput
 unused
 (
 GetWritingMode
@@ -2004,7 +2004,7 @@ aStretchDirection
 nsBoundingMetrics
 &
 aContainerSize
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )
@@ -2171,7 +2171,7 @@ ascent
 .
 .
 .
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 aDesiredStretchSize
@@ -3081,7 +3081,7 @@ FinalizeReflow
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -5518,7 +5518,7 @@ nsMathMLContainerFrame
 :
 GatherAndStoreOverflow
 (
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 )
@@ -5740,7 +5740,7 @@ aChildFrame
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -5966,7 +5966,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -6205,7 +6205,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -6303,7 +6303,7 @@ while
 childFrame
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -6640,7 +6640,7 @@ at
 the
 previous
 pass
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -6743,7 +6743,7 @@ static
 nscoord
 AddInterFrameSpacingToSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsMathMLContainerFrame
@@ -6795,7 +6795,7 @@ mIntrinsicWidth
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 GetWritingMode
@@ -6935,7 +6935,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -6960,7 +6960,7 @@ while
 childFrame
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 GetWritingMode
@@ -7199,7 +7199,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -8427,7 +8427,7 @@ mX
 ;
 }
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 ReflowMetrics
 (
@@ -8497,7 +8497,7 @@ nsIFrame
 *
 mChildFrame
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 mSize
 ;
 nscoord
@@ -8689,7 +8689,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -9496,7 +9496,7 @@ static
 nscoord
 AddInterFrameSpacingToSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsMathMLContainerFrame
@@ -9682,7 +9682,7 @@ nsMathMLContainerFrame
 :
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

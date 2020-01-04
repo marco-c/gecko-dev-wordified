@@ -3625,7 +3625,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -5220,7 +5220,7 @@ to
 pass
 into
 ReflowAbsoluteFrames
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 reflowState

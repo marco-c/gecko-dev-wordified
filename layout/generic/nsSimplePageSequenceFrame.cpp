@@ -646,7 +646,7 @@ nsSimplePageSequenceFrame
 :
 SetDesiredSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1085,7 +1085,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1849,7 +1849,7 @@ Tile
 the
 pages
 vertically
-nsHTMLReflowMetrics
+ReflowOutput
 kidSize
 (
 aReflowState

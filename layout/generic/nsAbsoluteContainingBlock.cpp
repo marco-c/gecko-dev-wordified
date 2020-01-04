@@ -3188,7 +3188,7 @@ wm
 Do
 the
 reflow
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 kidReflowState

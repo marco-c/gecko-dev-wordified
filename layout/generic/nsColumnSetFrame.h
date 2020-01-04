@@ -206,7 +206,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1030,7 +1030,7 @@ false
 bool
 ReflowColumns
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1375,7 +1375,7 @@ aConfig
 ColumnBalanceData
 &
 aColData
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsCollapsingMargin
@@ -1419,7 +1419,7 @@ mColMaxBSize
 bool
 ReflowChildren
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

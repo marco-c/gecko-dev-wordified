@@ -588,7 +588,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -918,7 +918,7 @@ huh
 "
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 wrappersDesiredSize
 (
 aReflowState

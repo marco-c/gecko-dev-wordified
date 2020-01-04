@@ -677,7 +677,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -758,7 +758,7 @@ compute
 their
 bounding
 metrics
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -929,7 +929,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -951,7 +951,7 @@ PrincipalChildList
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 aDesiredSize
@@ -1098,7 +1098,7 @@ PrincipalChildList
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 aDesiredSize

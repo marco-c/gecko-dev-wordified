@@ -1776,7 +1776,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1807,7 +1807,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1838,7 +1838,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 bool
@@ -1881,7 +1881,7 @@ an
 inferred
 mrow
 .
-nsHTMLReflowMetrics
+ReflowOutput
 baseSize
 (
 aDesiredSize
@@ -4293,7 +4293,7 @@ nsMathMLmencloseFrame
 :
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

@@ -57304,7 +57304,7 @@ const
 nsIFrame
 *
 aFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const

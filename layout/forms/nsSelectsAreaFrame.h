@@ -180,7 +180,7 @@ Reflow
 nsPresContext
 *
 aCX
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

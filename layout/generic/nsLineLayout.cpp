@@ -5383,7 +5383,7 @@ aFrame
 nsReflowStatus
 &
 aReflowStatus
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 bool
@@ -6429,7 +6429,7 @@ for
 the
 frame
 .
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 lineWM
@@ -9189,7 +9189,7 @@ bool
 aFrameCanContinueTextRun
 bool
 aCanRollBackBeforeFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -10489,7 +10489,7 @@ PlaceFrame
 PerFrameData
 *
 pfd
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )
@@ -10611,7 +10611,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -10792,7 +10792,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )
@@ -10921,7 +10921,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE

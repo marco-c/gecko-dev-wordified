@@ -266,12 +266,12 @@ mozilla
 ReflowInput
 ;
 using
-nsHTMLReflowMetrics
+ReflowOutput
 =
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 public
 :
@@ -656,7 +656,7 @@ aFrame
 nsReflowStatus
 &
 aReflowStatus
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 bool
@@ -671,7 +671,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )
@@ -4167,7 +4167,7 @@ bool
 aFrameCanContinueTextRun
 bool
 aCanRollBackBeforeFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -4184,7 +4184,7 @@ PlaceFrame
 PerFrameData
 *
 pfd
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )

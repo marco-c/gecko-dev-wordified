@@ -451,7 +451,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -823,7 +823,7 @@ function
 void
 SetDesiredSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
