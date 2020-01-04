@@ -382,7 +382,7 @@ toConstant
 )
 -
 >
-value
+toJSValue
 (
 )
 )

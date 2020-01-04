@@ -1290,10 +1290,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toNumber
 (
 )
