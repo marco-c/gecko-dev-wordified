@@ -305,10 +305,7 @@ padding
 yield
 selectNode
 (
-"
-#
-div1
-"
+node
 inspector
 )
 ;
@@ -680,10 +677,7 @@ width
 yield
 selectNode
 (
-"
-#
-div2
-"
+node
 inspector
 )
 ;
@@ -985,10 +979,7 @@ padding
 yield
 selectNode
 (
-"
-#
-div3
-"
+node
 inspector
 )
 ;

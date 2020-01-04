@@ -85,7 +85,7 @@ function
 yield
 addTab
 (
-URL_ROOT
+TEST_URL_ROOT
 +
 "
 doc_layout_iframe1
@@ -306,7 +306,7 @@ view
 yield
 navigateTo
 (
-URL_ROOT
+TEST_URL_ROOT
 +
 "
 doc_layout_iframe2
