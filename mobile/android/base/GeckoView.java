@@ -3119,6 +3119,7 @@ tab
 .
 doReload
 (
+true
 )
 ;
 }
