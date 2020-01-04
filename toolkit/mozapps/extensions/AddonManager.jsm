@@ -6942,11 +6942,9 @@ providers
 .
 filter
 (
-function
-filterProvider
-(
 p
-)
+=
+>
 p
 !
 =
@@ -10756,11 +10754,9 @@ aType
 .
 filter
 (
-function
-filterItem
-(
 aItem
-)
+=
+>
 aItem
 !
 =

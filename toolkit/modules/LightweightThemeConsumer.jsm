@@ -1409,10 +1409,9 @@ rgb
 .
 map
 (
-function
-(
 x
-)
+=
+>
 parseInt
 (
 x

@@ -2173,6 +2173,8 @@ BPLR_canProcess
 (
 aBuffer
 )
+{
+return
 [
 String
 .
@@ -2205,10 +2207,14 @@ join
 "
 bplist00
 "
+;
+}
 get
 root
 (
 )
+{
+return
 this
 .
 _readObject
@@ -2217,6 +2223,8 @@ this
 .
 _rootObjectIndex
 )
+;
+}
 _readTrailerInfo
 :
 function
@@ -4952,6 +4960,8 @@ get
 root
 (
 )
+{
+return
 this
 .
 _readObject
@@ -4960,6 +4970,8 @@ this
 .
 _plistRootElement
 )
+;
+}
 /
 *
 *

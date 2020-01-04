@@ -117,6 +117,8 @@ percentEncode
 (
 aString
 )
+{
+return
 encodeURIComponent
 (
 aString
@@ -149,6 +151,7 @@ g
 "
 )
 ;
+}
 /
 *
 *
@@ -821,10 +824,9 @@ POSTData
 .
 map
 (
-function
-(
 p
-)
+=
+>
 p
 [
 0
