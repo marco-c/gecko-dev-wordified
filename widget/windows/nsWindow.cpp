@@ -40831,6 +40831,11 @@ mWnd
 pl
 )
 ;
+nsSizeMode
+previousSizeMode
+=
+mSizeMode
+;
 /
 /
 Windows
@@ -41184,6 +41189,12 @@ endif
 if
 (
 mWidgetListener
+&
+&
+mSizeMode
+!
+=
+previousSizeMode
 )
 mWidgetListener
 -

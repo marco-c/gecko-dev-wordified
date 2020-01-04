@@ -1568,6 +1568,15 @@ aSize
 )
 ;
 void
+SizeModeChanged
+(
+const
+nsSizeMode
+&
+aSizeMode
+)
+;
+void
 UIResolutionChanged
 (
 )
@@ -2701,6 +2710,9 @@ mDefaultScale
 ;
 bool
 mUpdatedDimensions
+;
+nsSizeMode
+mSizeMode
 ;
 LayoutDeviceIntPoint
 mChromeOffset
