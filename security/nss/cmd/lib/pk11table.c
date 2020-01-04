@@ -250,7 +250,9 @@ mkEntry
 x
 t
 )
+\
 {
+\
 #
 x
 x
@@ -259,6 +261,7 @@ Const
 #
 t
 ConstNone
+\
 }
 #
 define
@@ -268,7 +271,9 @@ x
 t
 t2
 )
+\
 {
+\
 #
 x
 x
@@ -280,6 +285,7 @@ Const
 #
 #
 t2
+\
 }
 const
 Constant
