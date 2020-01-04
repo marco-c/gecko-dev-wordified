@@ -4148,8 +4148,9 @@ ArrayBuffer
 This
 array
 buffer
-is
-neutered
+will
+be
+detached
 and
 cannot
 be

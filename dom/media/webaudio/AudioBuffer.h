@@ -220,10 +220,11 @@ if
 the
 mJSChannels
 objects
-have
+'
+buffers
 *
-been
-neutered
+are
+detached
 .
 *
 /
@@ -647,8 +648,10 @@ only
 if
 the
 mJSChannels
+'
+buffers
 are
-neutered
+detached
 .
 RefPtr
 <

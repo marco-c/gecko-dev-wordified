@@ -2697,7 +2697,7 @@ nullptr
 }
 /
 /
-Neuter
+Detach
 the
 array
 buffer

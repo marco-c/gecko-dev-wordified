@@ -662,7 +662,7 @@ The
 buffer
 is
 not
-neutered
+detached
 yet
 "
 )
@@ -721,7 +721,7 @@ The
 buffer
 has
 been
-neutered
+detached
 "
 )
 ;
@@ -862,7 +862,7 @@ The
 buffer
 is
 not
-neutered
+detached
 yet
 "
 )
@@ -932,7 +932,7 @@ The
 buffer
 has
 been
-neutered
+detached
 "
 )
 ;
