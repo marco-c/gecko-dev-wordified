@@ -1446,8 +1446,11 @@ tree
 *
 *
 /
+namespace
+mozilla
+{
 class
-nsBoolDomIterFunctor
+BoolDomIterFunctor
 {
 public
 :
@@ -1467,9 +1470,6 @@ const
 ;
 }
 ;
-namespace
-mozilla
-{
 class
 MOZ_RAII
 DOMIterator
@@ -1509,7 +1509,7 @@ void
 AppendList
 (
 const
-nsBoolDomIterFunctor
+BoolDomIterFunctor
 &
 functor
 nsTArray
@@ -1575,7 +1575,7 @@ TrivialFunctor
 final
 :
 public
-nsBoolDomIterFunctor
+BoolDomIterFunctor
 {
 public
 :
