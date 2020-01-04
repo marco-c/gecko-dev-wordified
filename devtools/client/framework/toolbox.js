@@ -3593,7 +3593,9 @@ _telemetry
 logOncePerBrowserVersion
 (
 OS_IS_64_BITS
-system
+Services
+.
+appinfo
 .
 is64Bit
 ?
