@@ -2518,6 +2518,9 @@ aImagData
 Length
 (
 )
+aConstraints
+.
+mDisableNormalization
 aRv
 )
 ;

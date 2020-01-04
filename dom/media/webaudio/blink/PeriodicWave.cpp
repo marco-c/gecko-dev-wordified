@@ -393,6 +393,8 @@ float
 imag
 size_t
 numberOfComponents
+bool
+disableNormalization
 )
 {
 bool
@@ -429,6 +431,7 @@ PeriodicWave
 (
 sampleRate
 numberOfComponents
+disableNormalization
 )
 ;
 /
@@ -581,6 +584,7 @@ PeriodicWave
 (
 sampleRate
 MinPeriodicWaveSize
+false
 )
 ;
 periodicWave
@@ -626,6 +630,7 @@ PeriodicWave
 (
 sampleRate
 MinPeriodicWaveSize
+false
 )
 ;
 periodicWave
@@ -671,6 +676,7 @@ PeriodicWave
 (
 sampleRate
 MinPeriodicWaveSize
+false
 )
 ;
 periodicWave
@@ -716,6 +722,7 @@ PeriodicWave
 (
 sampleRate
 MinPeriodicWaveSize
+false
 )
 ;
 periodicWave
@@ -746,6 +753,8 @@ float
 sampleRate
 size_t
 numberOfComponents
+bool
+disableNormalization
 )
 :
 m_sampleRate
@@ -765,6 +774,10 @@ m_normalizationScale
 1
 .
 0f
+)
+m_disableNormalization
+(
+disableNormalization
 )
 {
 float
@@ -1959,6 +1972,10 @@ scale
 if
 (
 !
+m_disableNormalization
+&
+&
+!
 rangeIndex
 )
 {
@@ -1992,6 +2009,12 @@ Apply
 normalization
 scale
 .
+if
+(
+!
+m_disableNormalization
+)
+{
 AudioBufferInPlaceScale
 (
 data
@@ -1999,6 +2022,7 @@ m_normalizationScale
 m_periodicWaveSize
 )
 ;
+}
 }
 void
 PeriodicWave
