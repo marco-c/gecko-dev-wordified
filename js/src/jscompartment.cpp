@@ -6775,10 +6775,7 @@ getDebuggers
 ;
 for
 (
-Debugger
-*
-const
-*
+auto
 p
 =
 v

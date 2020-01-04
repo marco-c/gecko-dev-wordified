@@ -4870,8 +4870,14 @@ Vector
 js
 :
 :
+ReadBarriered
+<
+js
+:
+:
 Debugger
 *
+>
 0
 js
 :
