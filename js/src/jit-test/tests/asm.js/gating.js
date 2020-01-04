@@ -84,6 +84,12 @@ js
 if
 (
 !
+this
+.
+SharedArrayBuffer
+|
+|
+!
 isAsmJSCompilationAvailable
 (
 )
