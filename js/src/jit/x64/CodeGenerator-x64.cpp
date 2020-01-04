@@ -192,6 +192,12 @@ js
 :
 jit
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 CodeGeneratorX64
 :
 :
@@ -3103,7 +3109,10 @@ rhs
 )
 )
 ;
+DebugOnly
+<
 Register
+>
 output
 =
 ToRegister
@@ -3139,6 +3148,8 @@ rdx
 MOZ_ASSERT_IF
 (
 output
+.
+value
 =
 =
 rax
@@ -3159,6 +3170,8 @@ rdx
 MOZ_ASSERT_IF
 (
 output
+.
+value
 =
 =
 rdx
