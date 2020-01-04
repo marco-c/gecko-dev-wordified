@@ -1517,13 +1517,6 @@ const
 out_descriptor
 )
 {
-mTextureClient
--
->
-MarkShared
-(
-)
-;
 return
 mTextureClient
 -

@@ -691,6 +691,7 @@ OPEN_READ
 ;
 if
 (
+!
 texLock
 .
 Succeeded

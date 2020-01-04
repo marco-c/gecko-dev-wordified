@@ -263,16 +263,6 @@ MacIOSurface
 aSurface
 )
 ;
-virtual
-void
-FinalizeOnIPDLThread
-(
-TextureClient
-*
-aWrapper
-)
-override
-;
 RefPtr
 <
 MacIOSurface
