@@ -7172,7 +7172,7 @@ masm
 0
 ;
 virtual
-bool
+void
 postGenerateStubCode
 (
 MacroAssembler
@@ -7186,9 +7186,6 @@ JitCode
 genCode
 )
 {
-return
-true
-;
 }
 JitCode
 *

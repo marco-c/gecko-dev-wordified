@@ -41320,7 +41320,7 @@ return
 true
 ;
 }
-bool
+void
 ICGetProp_Fallback
 :
 :
@@ -41382,9 +41382,6 @@ offset
 (
 )
 )
-;
-return
-true
 ;
 }
 bool
@@ -50329,7 +50326,7 @@ return
 true
 ;
 }
-bool
+void
 ICSetProp_Fallback
 :
 :
@@ -50391,9 +50388,6 @@ offset
 (
 )
 )
-;
-return
-true
 ;
 }
 static
@@ -62930,7 +62924,7 @@ return
 true
 ;
 }
-bool
+void
 ICCall_Fallback
 :
 :
@@ -62958,7 +62952,6 @@ isSpread_
 )
 )
 return
-true
 ;
 CodeOffsetLabel
 offset
@@ -63003,9 +62996,6 @@ offset
 )
 isConstructing_
 )
-;
-return
-true
 ;
 }
 typedef

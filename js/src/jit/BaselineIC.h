@@ -10960,7 +10960,7 @@ MacroAssembler
 masm
 )
 ;
-bool
+void
 postGenerateStubCode
 (
 MacroAssembler
@@ -15537,7 +15537,7 @@ MacroAssembler
 masm
 )
 ;
-bool
+void
 postGenerateStubCode
 (
 MacroAssembler
@@ -18475,7 +18475,7 @@ MacroAssembler
 masm
 )
 ;
-bool
+void
 postGenerateStubCode
 (
 MacroAssembler
