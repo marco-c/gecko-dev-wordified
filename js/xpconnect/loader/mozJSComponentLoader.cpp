@@ -3556,14 +3556,11 @@ dom
 AutoEntryScript
 aes
 (
-NativeGlobal
-(
 holder
 -
 >
 GetJSObject
 (
-)
 )
 "
 component
