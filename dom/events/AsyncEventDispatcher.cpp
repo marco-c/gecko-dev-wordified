@@ -458,6 +458,14 @@ return
 NS_OK
 ;
 }
+mTarget
+-
+>
+AsyncEventRunning
+(
+this
+)
+;
 RefPtr
 <
 Event
