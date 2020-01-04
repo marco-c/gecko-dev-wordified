@@ -261,7 +261,7 @@ cancelBuild_
 (
 false
 )
-maxAsmJSStackArgBytes_
+wasmMaxStackArgBytes_
 (
 0
 )
