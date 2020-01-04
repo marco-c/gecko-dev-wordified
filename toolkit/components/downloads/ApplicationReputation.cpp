@@ -2776,6 +2776,8 @@ ace
 )
 |
 |
+/
+/
 StringEndsWith
 (
 fileName
@@ -2793,6 +2795,8 @@ action
 /
 Mac
 script
+/
+/
 StringEndsWith
 (
 fileName
@@ -2808,9 +2812,7 @@ ad
 |
 /
 /
-AppleDouble
-encoded
-file
+Windows
 StringEndsWith
 (
 fileName
@@ -2877,10 +2879,8 @@ app
 |
 /
 /
-Mac
-app
-/
-/
+Executable
+application
 StringEndsWith
 (
 fileName
@@ -2894,6 +2894,10 @@ application
 )
 |
 |
+/
+/
+MS
+ClickOnce
 StringEndsWith
 (
 fileName
@@ -2911,7 +2915,8 @@ ms
 |
 /
 /
-Windows
+MS
+ClickOnce
 /
 /
 StringEndsWith
@@ -2957,8 +2962,8 @@ as
 |
 /
 /
-Adobe
-Flash
+Mac
+archive
 StringEndsWith
 (
 fileName
@@ -3091,6 +3096,8 @@ bhx
 )
 |
 |
+/
+/
 StringEndsWith
 (
 fileName
@@ -3104,12 +3111,6 @@ bin
 )
 |
 |
-/
-/
-Generic
-binary
-/
-/
 StringEndsWith
 (
 fileName
@@ -3187,8 +3188,6 @@ cab
 /
 Windows
 archive
-/
-/
 StringEndsWith
 (
 fileName
@@ -3204,11 +3203,9 @@ cdr
 |
 /
 /
-Audio
-CD
+Mac
+disk
 image
-/
-/
 StringEndsWith
 (
 fileName
@@ -3222,6 +3219,9 @@ cfg
 )
 |
 |
+/
+/
+Windows
 StringEndsWith
 (
 fileName
@@ -3323,8 +3323,6 @@ command
 /
 Mac
 script
-/
-/
 StringEndsWith
 (
 fileName
@@ -3338,6 +3336,10 @@ cpgz
 )
 |
 |
+/
+/
+Mac
+archive
 /
 /
 StringEndsWith
@@ -3369,6 +3371,7 @@ cpl
 /
 /
 Windows
+executable
 StringEndsWith
 (
 fileName
@@ -3385,6 +3388,8 @@ crt
 /
 /
 Windows
+signed
+certificate
 StringEndsWith
 (
 fileName
@@ -3434,8 +3439,9 @@ dart
 |
 /
 /
-Dart
-script
+Mac
+disk
+image
 StringEndsWith
 (
 fileName
@@ -3486,8 +3492,7 @@ dex
 |
 /
 /
-MS
-Excel
+Android
 StringEndsWith
 (
 fileName
@@ -3522,6 +3527,7 @@ dll
 /
 /
 Windows
+executable
 StringEndsWith
 (
 fileName
@@ -3573,6 +3579,12 @@ docb
 )
 |
 |
+/
+/
+MS
+Office
+/
+/
 StringEndsWith
 (
 fileName
@@ -3590,6 +3602,8 @@ docm
 /
 MS
 Word
+/
+/
 StringEndsWith
 (
 fileName
@@ -3607,6 +3621,8 @@ docx
 /
 MS
 Word
+/
+/
 StringEndsWith
 (
 fileName
@@ -3639,6 +3655,10 @@ dott
 )
 |
 |
+/
+/
+MS
+Office
 StringEndsWith
 (
 fileName
@@ -3656,8 +3676,6 @@ drv
 /
 Windows
 driver
-/
-/
 StringEndsWith
 (
 fileName
@@ -3673,7 +3691,8 @@ dvdr
 |
 /
 /
-DVD
+Mac
+Disk
 image
 StringEndsWith
 (
@@ -3706,7 +3725,8 @@ eml
 |
 /
 /
-Email
+MS
+Outlook
 StringEndsWith
 (
 fileName
@@ -3756,8 +3776,6 @@ fon
 /
 Windows
 font
-/
-/
 StringEndsWith
 (
 fileName
@@ -3771,6 +3789,10 @@ fxp
 )
 |
 |
+/
+/
+MS
+FoxPro
 StringEndsWith
 (
 fileName
@@ -3911,8 +3933,8 @@ hta
 /
 /
 HTML
-program
-file
+trusted
+application
 StringEndsWith
 (
 fileName
@@ -3946,7 +3968,8 @@ img
 |
 /
 /
-Generic
+Mac
+disk
 image
 StringEndsWith
 (
@@ -3983,8 +4006,6 @@ inf
 /
 Windows
 installer
-/
-/
 StringEndsWith
 (
 fileName
@@ -3998,6 +4019,11 @@ ini
 )
 |
 |
+/
+/
+Generic
+config
+file
 StringEndsWith
 (
 fileName
@@ -4013,7 +4039,10 @@ ins
 |
 /
 /
-InstallShield
+IIS
+config
+/
+/
 StringEndsWith
 (
 fileName
@@ -4047,8 +4076,6 @@ iso
 /
 CD
 image
-/
-/
 StringEndsWith
 (
 fileName
@@ -4062,6 +4089,12 @@ isp
 )
 |
 |
+/
+/
+IIS
+config
+/
+/
 StringEndsWith
 (
 fileName
@@ -4110,6 +4143,8 @@ jnlp
 /
 /
 Java
+/
+/
 StringEndsWith
 (
 fileName
@@ -4207,8 +4242,6 @@ lnk
 /
 /
 Windows
-/
-/
 StringEndsWith
 (
 fileName
@@ -4222,6 +4255,9 @@ local
 )
 |
 |
+/
+/
+Windows
 /
 /
 StringEndsWith
@@ -4365,8 +4401,6 @@ mam
 /
 MS
 Access
-/
-/
 StringEndsWith
 (
 fileName
@@ -4380,6 +4414,9 @@ manifest
 )
 |
 |
+/
+/
+Windows
 StringEndsWith
 (
 fileName
@@ -4448,8 +4485,6 @@ mat
 /
 MS
 Access
-/
-/
 StringEndsWith
 (
 fileName
@@ -4463,6 +4498,10 @@ mau
 )
 |
 |
+/
+/
+Media
+attachment
 StringEndsWith
 (
 fileName
@@ -4667,8 +4706,6 @@ mmc
 /
 MS
 Office
-/
-/
 StringEndsWith
 (
 fileName
@@ -4684,6 +4721,7 @@ mof
 |
 /
 /
+Windows
 StringEndsWith
 (
 fileName
@@ -4697,6 +4735,10 @@ mpkg
 )
 |
 |
+/
+/
+Mac
+installer
 StringEndsWith
 (
 fileName
@@ -4712,8 +4754,8 @@ msc
 |
 /
 /
-MS
 Windows
+executable
 StringEndsWith
 (
 fileName
@@ -4729,7 +4771,8 @@ msg
 |
 /
 /
-Email
+MS
+Outlook
 StringEndsWith
 (
 fileName
@@ -4951,6 +4994,8 @@ ops
 /
 MS
 Office
+/
+/
 StringEndsWith
 (
 fileName
@@ -4968,6 +5013,8 @@ out
 /
 Linux
 binary
+/
+/
 StringEndsWith
 (
 fileName
@@ -5061,8 +5108,6 @@ partial
 /
 /
 Downloads
-/
-/
 StringEndsWith
 (
 fileName
@@ -5078,6 +5123,8 @@ pax
 |
 /
 /
+Mac
+archive
 StringEndsWith
 (
 fileName
@@ -5093,9 +5140,9 @@ pcd
 |
 /
 /
-Kodak
-Picture
-CD
+Microsoft
+Visual
+Test
 StringEndsWith
 (
 fileName
@@ -5195,8 +5242,6 @@ pl
 /
 Perl
 script
-/
-/
 StringEndsWith
 (
 fileName
@@ -5210,6 +5255,13 @@ plg
 )
 |
 |
+/
+/
+MS
+Visual
+Studio
+/
+/
 StringEndsWith
 (
 fileName
@@ -5227,6 +5279,8 @@ potx
 /
 MS
 PowerPoint
+/
+/
 StringEndsWith
 (
 fileName
@@ -5244,6 +5298,8 @@ ppam
 /
 MS
 PowerPoint
+/
+/
 StringEndsWith
 (
 fileName
@@ -5261,6 +5317,8 @@ ppsx
 /
 MS
 PowerPoint
+/
+/
 StringEndsWith
 (
 fileName
@@ -5278,6 +5336,8 @@ pptm
 /
 MS
 PowerPoint
+/
+/
 StringEndsWith
 (
 fileName
@@ -5312,8 +5372,6 @@ prf
 /
 MS
 Outlook
-/
-/
 StringEndsWith
 (
 fileName
@@ -5327,6 +5385,9 @@ prg
 )
 |
 |
+/
+/
+Windows
 StringEndsWith
 (
 fileName
@@ -6027,6 +6088,7 @@ reg
 /
 /
 Windows
+Registry
 StringEndsWith
 (
 fileName
@@ -6044,6 +6106,8 @@ rels
 /
 MS
 Office
+/
+/
 StringEndsWith
 (
 fileName
@@ -6059,7 +6123,8 @@ rgs
 |
 /
 /
-InstallShield
+Windows
+Registry
 StringEndsWith
 (
 fileName
@@ -6077,6 +6142,8 @@ rpm
 /
 Linux
 package
+/
+/
 StringEndsWith
 (
 fileName
@@ -6094,6 +6161,8 @@ rtf
 /
 MS
 Office
+/
+/
 StringEndsWith
 (
 fileName
@@ -6246,6 +6315,8 @@ shs
 /
 Windows
 shell
+/
+/
 StringEndsWith
 (
 fileName
@@ -6263,6 +6334,8 @@ sldm
 /
 MS
 PowerPoint
+/
+/
 StringEndsWith
 (
 fileName
@@ -6366,7 +6439,8 @@ spl
 |
 /
 /
-Windows
+Adobe
+Flash
 /
 /
 StringEndsWith
@@ -6576,6 +6650,11 @@ toast
 |
 /
 /
+Roxio
+disk
+image
+/
+/
 StringEndsWith
 (
 fileName
@@ -6667,6 +6746,11 @@ u3p
 )
 |
 |
+/
+/
+U3
+Smart
+Apps
 StringEndsWith
 (
 fileName
@@ -6802,6 +6886,8 @@ vbs
 Visual
 Basic
 script
+/
+/
 StringEndsWith
 (
 fileName
@@ -6977,7 +7063,7 @@ website
 |
 /
 /
-MSIE
+Windows
 StringEndsWith
 (
 fileName
@@ -6995,6 +7081,8 @@ wim
 /
 Windows
 Imaging
+/
+/
 StringEndsWith
 (
 fileName
@@ -7131,10 +7219,9 @@ xbap
 |
 /
 /
-MS
-Silverlight
-/
-/
+XAML
+Browser
+Application
 StringEndsWith
 (
 fileName
@@ -7148,6 +7235,12 @@ xip
 )
 |
 |
+/
+/
+Mac
+archive
+/
+/
 StringEndsWith
 (
 fileName
@@ -7165,6 +7258,8 @@ xlsm
 /
 MS
 Excel
+/
+/
 StringEndsWith
 (
 fileName
@@ -7182,6 +7277,8 @@ xlsx
 /
 MS
 Excel
+/
+/
 StringEndsWith
 (
 fileName
@@ -7199,6 +7296,8 @@ xltm
 /
 MS
 Excel
+/
+/
 StringEndsWith
 (
 fileName
