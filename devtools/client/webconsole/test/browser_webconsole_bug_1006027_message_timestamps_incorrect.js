@@ -372,7 +372,7 @@ maxTimestamp
 minTimestamp
 )
 <
-1000
+2000
 "
 console
 .
@@ -381,7 +381,7 @@ message
 timestamp
 spread
 <
-1000ms
+2000ms
 confirmed
 "
 )
