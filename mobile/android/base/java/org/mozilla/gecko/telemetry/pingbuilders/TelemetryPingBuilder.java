@@ -65,6 +65,8 @@ mozilla
 gecko
 .
 telemetry
+.
+pingbuilders
 ;
 import
 org
@@ -85,6 +87,17 @@ gecko
 sync
 .
 ExtendedJSONObject
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+telemetry
+.
+TelemetryPing
 ;
 import
 java
@@ -164,7 +177,6 @@ server
 url
 *
 /
-public
 abstract
 class
 TelemetryPingBuilder

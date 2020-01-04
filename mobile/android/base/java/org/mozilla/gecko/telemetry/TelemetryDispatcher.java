@@ -89,7 +89,7 @@ gecko
 .
 telemetry
 .
-core
+pingbuilders
 .
 TelemetryCorePingBuilder
 ;
@@ -349,6 +349,16 @@ Implement
 a
 {
 link
+org
+.
+mozilla
+.
+gecko
+.
+telemetry
+.
+pingbuilders
+.
 TelemetryPingBuilder
 }
 for
