@@ -277,7 +277,7 @@ function
 {
 requestLongerTimeout
 (
-2
+4
 )
 ;
 info

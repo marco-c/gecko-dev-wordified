@@ -325,7 +325,7 @@ view
 .
 styleDocument
 .
-documentElement
+body
 "
 Correct
 element
