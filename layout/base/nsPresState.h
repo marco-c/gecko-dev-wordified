@@ -362,9 +362,6 @@ mContentData
 nsPoint
 mScrollState
 ;
-bool
-mRestoringHistoryScrollPosition
-;
 float
 mResolution
 ;
