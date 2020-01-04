@@ -2457,13 +2457,13 @@ label
 load32
 (
 lhs
-ScratchRegister
+SecondScratchReg
 )
 ;
 branchTest32
 (
 cond
-ScratchRegister
+SecondScratchReg
 rhs
 label
 )
