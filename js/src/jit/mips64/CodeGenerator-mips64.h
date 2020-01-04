@@ -330,7 +330,6 @@ base
 ;
 public
 :
-virtual
 void
 visitCompareB
 (
@@ -339,7 +338,6 @@ LCompareB
 lir
 )
 ;
-virtual
 void
 visitCompareBAndBranch
 (
@@ -348,7 +346,6 @@ LCompareBAndBranch
 lir
 )
 ;
-virtual
 void
 visitCompareBitwise
 (
@@ -357,7 +354,6 @@ LCompareBitwise
 lir
 )
 ;
-virtual
 void
 visitCompareBitwiseAndBranch
 (
@@ -366,7 +362,6 @@ LCompareBitwiseAndBranch
 lir
 )
 ;
-virtual
 void
 visitAsmSelectI64
 (
@@ -375,7 +370,6 @@ LAsmSelectI64
 ins
 )
 ;
-virtual
 void
 visitAsmReinterpretFromI64
 (
@@ -384,7 +378,6 @@ LAsmReinterpretFromI64
 lir
 )
 ;
-virtual
 void
 visitAsmReinterpretToI64
 (

@@ -279,7 +279,6 @@ base
 ;
 public
 :
-virtual
 void
 visitCompareB
 (
@@ -288,7 +287,6 @@ LCompareB
 lir
 )
 ;
-virtual
 void
 visitCompareBAndBranch
 (
@@ -297,7 +295,6 @@ LCompareBAndBranch
 lir
 )
 ;
-virtual
 void
 visitCompareBitwise
 (
@@ -306,7 +303,6 @@ LCompareBitwise
 lir
 )
 ;
-virtual
 void
 visitCompareBitwiseAndBranch
 (
