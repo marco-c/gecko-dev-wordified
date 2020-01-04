@@ -281,8 +281,7 @@ addWorker
 :
 function
 (
-actor
-name
+workerForm
 )
 {
 let
@@ -317,7 +316,9 @@ setAttribute
 "
 value
 "
-name
+workerForm
+.
+url
 )
 ;
 element
@@ -338,9 +339,14 @@ push
 (
 [
 element
+workerForm
+.
 actor
 ]
 {
+attachment
+:
+workerForm
 }
 )
 ;
@@ -349,7 +355,7 @@ removeWorker
 :
 function
 (
-actor
+workerForm
 )
 {
 this
@@ -360,6 +366,8 @@ this
 .
 getItemByValue
 (
+workerForm
+.
 actor
 )
 )
@@ -392,7 +400,7 @@ this
 .
 selectedItem
 .
-value
+attachment
 )
 ;
 this
