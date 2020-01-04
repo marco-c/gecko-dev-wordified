@@ -3787,6 +3787,17 @@ JSContext
 cx
 )
 {
+MOZ_ASSERT
+(
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 /
 /
 Add
