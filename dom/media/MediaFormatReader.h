@@ -166,7 +166,7 @@ h
 #
 include
 "
-PlatformDecoderModule
+PDMFactory
 .
 h
 "
@@ -858,7 +858,7 @@ aTrack
 ;
 nsRefPtr
 <
-PlatformDecoderModule
+PDMFactory
 >
 mPlatform
 ;

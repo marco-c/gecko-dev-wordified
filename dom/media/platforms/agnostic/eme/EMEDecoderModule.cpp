@@ -1143,7 +1143,7 @@ EMEDecoderModule
 CDMProxy
 *
 aProxy
-PlatformDecoderModule
+PDMFactory
 *
 aPDM
 bool
