@@ -1440,6 +1440,11 @@ SetRestoreResolution
 (
 float
 aResolution
+mozilla
+:
+:
+LayoutDeviceIntSize
+aDisplaySize
 )
 override
 ;

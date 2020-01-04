@@ -394,6 +394,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 Visibility
 .
 h
@@ -9109,6 +9116,11 @@ SetRestoreResolution
 (
 float
 aResolution
+mozilla
+:
+:
+LayoutDeviceIntSize
+aDisplaySize
 )
 =
 0
