@@ -3824,7 +3824,7 @@ referrer
 )
 {
 aReferrer
-:
+=
 NetUtil
 .
 newURI
@@ -4902,7 +4902,7 @@ referrer
 )
 {
 aReferrer
-:
+=
 NetUtil
 .
 newURI
