@@ -911,10 +911,8 @@ Append
 '
 )
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 default
 :
 escDirName
