@@ -584,6 +584,15 @@ MakeCurrent
 (
 )
 ;
+const
+ScopedLazyBind
+lazyBind
+(
+gl
+target
+this
+)
+;
 mContext
 -
 >
