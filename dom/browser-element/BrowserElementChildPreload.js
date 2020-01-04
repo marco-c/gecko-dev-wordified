@@ -12659,7 +12659,7 @@ error
 type
 :
 '
-deceptiveBlocked
+phishingBlocked
 '
 }
 )
