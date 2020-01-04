@@ -144,6 +144,13 @@ h
 #
 include
 "
+MediaEngineCameraVideoSource
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h
@@ -192,9 +199,7 @@ MediaEngineDefaultVideoSource
 public
 nsITimerCallback
 public
-MediaEngineVideoSource
-private
-MediaConstraintsHelper
+MediaEngineCameraVideoSource
 {
 public
 :
