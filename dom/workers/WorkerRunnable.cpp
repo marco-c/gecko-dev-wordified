@@ -3750,7 +3750,7 @@ if
 the
 runnable
 is
-cancelled
+canceled
 .
 nsresult
 Cancel
@@ -3765,7 +3765,12 @@ mWorkerPrivate
 )
 ;
 return
-NS_OK
+MainThreadWorkerControlRunnable
+:
+:
+Cancel
+(
+)
 ;
 }
 virtual
