@@ -1072,6 +1072,11 @@ MOZ_WIDGET_GONK
 mWidget
 -
 >
+RealWidget
+(
+)
+-
+>
 SetNativeData
 (
 NS_NATIVE_OPENGL_CONTEXT
@@ -1158,6 +1163,11 @@ return
 ifdef
 MOZ_WIDGET_GONK
 mWidget
+-
+>
+RealWidget
+(
+)
 -
 >
 SetNativeData
