@@ -8356,6 +8356,16 @@ flashBar
 1
 )
 ;
+pref
+(
+"
+findbar
+.
+highlightAll
+"
+true
+)
+;
 /
 /
 Tracks

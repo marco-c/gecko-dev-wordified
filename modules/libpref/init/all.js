@@ -10631,7 +10631,7 @@ typeaheadfind
 .
 matchesCountTimeout
 "
-250
+100
 )
 ;
 pref
@@ -10643,7 +10643,17 @@ typeaheadfind
 .
 matchesCountLimit
 "
-100
+1000
+)
+;
+pref
+(
+"
+findbar
+.
+highlightAll
+"
+false
 )
 ;
 /
