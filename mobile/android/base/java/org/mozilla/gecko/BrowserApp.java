@@ -9070,6 +9070,13 @@ boolean
 enabled
 )
 {
+super
+.
+setAccessibilityEnabled
+(
+enabled
+)
+;
 mDynamicToolbar
 .
 setAccessibilityEnabled
