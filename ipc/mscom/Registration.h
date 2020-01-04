@@ -375,6 +375,9 @@ ITypeLib
 *
 mTypeLib
 ;
+bool
+mIsRegisteredInMTA
+;
 }
 ;
 enum
