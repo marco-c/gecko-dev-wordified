@@ -370,9 +370,9 @@ tab
 .
 addEventListener
 (
-'
+"
 TabSelect
-'
+"
 this
 )
 ;
@@ -651,9 +651,9 @@ tab
 .
 removeEventListener
 (
-'
+"
 TabSelect
-'
+"
 this
 )
 ;
@@ -806,6 +806,7 @@ source
 flag
 )
 )
+;
 }
 handleHostChanged
 :

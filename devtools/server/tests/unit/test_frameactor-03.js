@@ -250,7 +250,6 @@ stopMe
 debugger
 ;
 }
-;
 stopMe
 (
 )

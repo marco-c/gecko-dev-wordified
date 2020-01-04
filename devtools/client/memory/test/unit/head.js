@@ -862,12 +862,12 @@ snapshots
 ;
 do_print
 (
-'
+"
 Current
 census
 state
 :
-'
+"
 +
 snapshots
 .

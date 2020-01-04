@@ -221,6 +221,7 @@ attachThreadActorForUrl
 gClient
 TAB_URL
 )
+;
 }
 )
 .

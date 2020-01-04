@@ -858,6 +858,7 @@ utils
 .
 js
 "
+;
 DevToolsUtils
 .
 testing
@@ -1355,7 +1356,6 @@ deferred
 promise
 ;
 }
-;
 function
 toggleCache
 (
@@ -2161,6 +2161,7 @@ getNetworkRequest
 (
 actor
 )
+;
 let
 url
 =
@@ -2464,6 +2465,7 @@ target
 }
 =
 aRequestItem
+;
 let
 uri
 =
@@ -4337,6 +4339,7 @@ xhr
 "
 requests
 )
+;
 }
 /
 *

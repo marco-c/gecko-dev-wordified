@@ -185,13 +185,13 @@ evaluate
 =
 require
 (
-'
+"
 sdk
 /
 loader
 /
 sandbox
-'
+"
 )
 ;
 const
@@ -217,7 +217,7 @@ PlainTextConsole
 =
 require
 (
-'
+"
 sdk
 /
 console
@@ -225,7 +225,7 @@ console
 plain
 -
 text
-'
+"
 )
 ;
 const
@@ -4120,10 +4120,10 @@ _sandbox
 this
 .
 _scriptCode
-'
+"
 javascript
 :
-'
+"
 +
 this
 .

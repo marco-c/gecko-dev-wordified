@@ -392,9 +392,9 @@ prebuiltNode
 {
 type
 :
-'
+"
 contextmenu
-'
+"
 }
 gDebugger
 )

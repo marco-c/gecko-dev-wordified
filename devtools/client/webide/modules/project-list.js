@@ -474,7 +474,6 @@ details
 break
 ;
 }
-;
 }
 onWebIDEUpdate
 :

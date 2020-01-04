@@ -113,6 +113,7 @@ test
 mochitest
 /
 "
+;
 const
 ACTORS_URL
 =
@@ -240,6 +241,7 @@ actor
 .
 "
 )
+;
 ok
 (
 globalActor

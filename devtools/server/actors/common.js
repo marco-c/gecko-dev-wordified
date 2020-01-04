@@ -717,6 +717,7 @@ parentActor
 )
 ;
 }
+;
 exports
 .
 RegisteredActorFactory
@@ -1029,6 +1030,7 @@ return
 instance
 ;
 }
+;
 exports
 .
 ObservedActorFactory
@@ -1490,6 +1492,7 @@ actor
 }
 }
 }
+;
 /
 *
 *
@@ -1614,6 +1617,7 @@ actorID
 ;
 }
 }
+;
 /
 *
 *
@@ -2112,6 +2116,7 @@ name
 }
 }
 }
+;
 exports
 .
 ActorPool

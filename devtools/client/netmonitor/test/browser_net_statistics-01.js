@@ -529,6 +529,7 @@ correctly
 .
 "
 )
+;
 teardown
 (
 aMonitor

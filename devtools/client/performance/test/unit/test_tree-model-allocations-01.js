@@ -766,6 +766,7 @@ node
 ;
 }
 }
+;
 }
 var
 TEST_DATA

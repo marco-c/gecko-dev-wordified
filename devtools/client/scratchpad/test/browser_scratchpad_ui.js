@@ -426,6 +426,7 @@ lastMethodCalled
 methodName
 ;
 }
+;
 let
 menu
 =

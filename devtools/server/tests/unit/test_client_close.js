@@ -227,6 +227,7 @@ do_test_finished
 )
 ;
 }
+;
 gClient
 .
 addListener

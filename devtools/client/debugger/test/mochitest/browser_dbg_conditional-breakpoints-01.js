@@ -185,13 +185,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -201,13 +201,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 const
@@ -733,6 +733,7 @@ pane
 .
 "
 )
+;
 ok
 (
 !
@@ -753,6 +754,7 @@ pane
 .
 "
 )
+;
 is
 (
 gSources
@@ -1426,6 +1428,7 @@ pane
 .
 "
 )
+;
 ok
 (
 gSources
@@ -1445,6 +1448,7 @@ pane
 .
 "
 )
+;
 is
 (
 gSources

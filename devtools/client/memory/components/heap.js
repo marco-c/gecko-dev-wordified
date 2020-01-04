@@ -1915,11 +1915,6 @@ match
 "
 )
 :
-/
-*
-else
-*
-/
 L10N
 .
 getStr

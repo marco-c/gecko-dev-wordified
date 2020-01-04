@@ -533,9 +533,9 @@ prebuiltNode
 {
 type
 :
-'
+"
 contextmenu
-'
+"
 }
 gDebugger
 )

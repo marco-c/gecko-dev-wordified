@@ -294,6 +294,7 @@ window
 .
 "
 )
+;
 /
 /
 Execute
@@ -355,6 +356,7 @@ focused
 .
 "
 )
+;
 gFocusedWindow
 =
 window

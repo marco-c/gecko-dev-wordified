@@ -201,13 +201,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -1966,6 +1966,7 @@ yield
 addBreakpoint
 (
 )
+;
 yield
 ensureThreadClientState
 (

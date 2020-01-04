@@ -489,8 +489,8 @@ requestTextarea
 value
 =
 =
-'
-'
+"
+"
 "
 raw
 request
@@ -508,8 +508,8 @@ responseTextare
 value
 =
 =
-'
-'
+"
+"
 "
 raw
 response

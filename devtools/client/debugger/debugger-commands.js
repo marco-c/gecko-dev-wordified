@@ -1241,6 +1241,7 @@ file
 ;
 }
 )
+;
 let
 position
 =
@@ -1528,6 +1529,7 @@ args
 breakpoint
 .
 url
+;
 }
 )
 ;
@@ -2296,11 +2298,11 @@ client
 "
 name
 :
-'
+"
 dbg
 step
 in
-'
+"
 description
 :
 l10n
@@ -2414,11 +2416,11 @@ client
 "
 name
 :
-'
+"
 dbg
 step
 out
-'
+"
 description
 :
 l10n
@@ -3274,6 +3276,7 @@ displayResults
 }
 }
 )
+;
 }
 /
 /
@@ -3845,6 +3848,7 @@ g
 *
 "
 )
+;
 return
 new
 RegExp

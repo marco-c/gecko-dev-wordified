@@ -133,6 +133,7 @@ EVENTS
 .
 SOURCES_SHOWN
 )
+;
 let
 vsEditor
 =

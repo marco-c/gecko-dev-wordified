@@ -224,7 +224,6 @@ stopMe
 debugger
 ;
 }
-;
 stopMe
 (
 )

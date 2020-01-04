@@ -184,8 +184,8 @@ do_check_eq
 aResponse
 .
 error
-'
-'
+"
+"
 )
 ;
 finishClient
@@ -290,7 +290,6 @@ arg3
 debugger
 ;
 }
-;
 stopMe
 (
 {

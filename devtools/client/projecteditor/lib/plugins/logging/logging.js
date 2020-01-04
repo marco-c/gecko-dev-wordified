@@ -177,6 +177,7 @@ created
 +
 editor
 )
+;
 }
 onEditorDestroyed
 :
@@ -197,6 +198,7 @@ destroyed
 +
 editor
 )
+;
 }
 onEditorSave
 :
@@ -217,6 +219,7 @@ saved
 +
 editor
 )
+;
 }
 onEditorLoad
 :
@@ -237,6 +240,7 @@ loaded
 +
 editor
 )
+;
 }
 onEditorActivated
 :
@@ -257,6 +261,7 @@ activated
 +
 editor
 )
+;
 }
 onEditorDeactivated
 :
@@ -277,6 +282,7 @@ deactivated
 +
 editor
 )
+;
 }
 onEditorChange
 :
@@ -297,6 +303,7 @@ changed
 +
 editor
 )
+;
 }
 onCommand
 :

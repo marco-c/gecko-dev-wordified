@@ -3218,6 +3218,7 @@ edgePath
 .
 length
 }
+;
 }
 /
 *
@@ -3783,9 +3784,9 @@ fn
 =
 =
 =
-'
+"
 undefined
-'
+"
 )
 return
 {

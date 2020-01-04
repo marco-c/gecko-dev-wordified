@@ -66,12 +66,12 @@ constants
 =
 require
 (
-'
+"
 .
 .
 /
 constants
-'
+"
 )
 ;
 const
@@ -79,9 +79,9 @@ promise
 =
 require
 (
-'
+"
 promise
-'
+"
 )
 ;
 const
@@ -89,9 +89,9 @@ Services
 =
 require
 (
-'
+"
 Services
-'
+"
 )
 ;
 const
@@ -118,7 +118,7 @@ HISTOGRAM_ID
 =
 require
 (
-'
+"
 devtools
 /
 client
@@ -130,7 +130,7 @@ redux
 middleware
 /
 promise
-'
+"
 )
 ;
 const
@@ -141,12 +141,12 @@ getSourceText
 =
 require
 (
-'
+"
 .
 .
 /
 queries
-'
+"
 )
 ;
 const
@@ -579,6 +579,7 @@ url
 }
 )
 }
+;
 }
 /
 *
@@ -706,6 +707,7 @@ isBlackBoxed
 :
 shouldBlackBox
 }
+;
 }
 )
 }
@@ -1240,6 +1242,7 @@ contentType
 )
 ;
 }
+;
 }
 /
 *

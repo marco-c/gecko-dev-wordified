@@ -414,7 +414,6 @@ baseId
 id
 ;
 }
-;
 /
 *
 *
@@ -869,7 +868,6 @@ true
 )
 ;
 }
-;
 /
 *
 *
@@ -1587,7 +1585,6 @@ exports
 ;
 }
 }
-;
 /
 *
 *
@@ -2747,7 +2744,7 @@ principal
 =
 CC
 (
-'
+"
 mozilla
 .
 org
@@ -2755,10 +2752,10 @@ org
 systemprincipal
 ;
 1
-'
-'
+"
+"
 nsIPrincipal
-'
+"
 )
 (
 )
@@ -2892,7 +2889,7 @@ subScriptLoader
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -2904,7 +2901,7 @@ jssubscript
 loader
 ;
 1
-'
+"
 ]
 .
 getService
@@ -2986,6 +2983,7 @@ callback
 )
 ;
 }
+;
 let
 xpcInspector
 =

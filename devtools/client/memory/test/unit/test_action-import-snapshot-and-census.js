@@ -482,6 +482,7 @@ censusI
 censusStates
 .
 length
+;
 }
 )
 ;

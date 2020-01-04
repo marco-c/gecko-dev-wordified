@@ -315,7 +315,6 @@ stopMe
 debugger
 ;
 }
-;
 stopMe
 (
 )

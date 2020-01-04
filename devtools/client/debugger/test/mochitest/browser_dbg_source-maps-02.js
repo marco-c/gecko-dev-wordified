@@ -348,6 +348,7 @@ disabled
 .
 "
 )
+;
 is
 (
 gSources
@@ -842,6 +843,7 @@ enabled
 .
 "
 )
+;
 isnot
 (
 gSources

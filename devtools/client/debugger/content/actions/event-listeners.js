@@ -796,6 +796,7 @@ eventNames
 )
 ;
 }
+;
 }
 module
 .

@@ -726,9 +726,9 @@ typeof
 aState
 !
 =
-'
+"
 object
-'
+"
 )
 {
 return

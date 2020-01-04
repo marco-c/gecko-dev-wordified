@@ -654,6 +654,7 @@ chromeWindow
 ;
 }
 }
+;
 exports
 .
 EyedropperManager
@@ -1716,6 +1717,7 @@ started
 )
 ;
 }
+;
 }
 )
 ;
@@ -4755,9 +4757,9 @@ _ctx
 .
 lineJoin
 =
-'
+"
 miter
-'
+"
 ;
 this
 .
@@ -4953,6 +4955,7 @@ destroy
 ;
 }
 }
+;
 /
 *
 *

@@ -1504,7 +1504,6 @@ parentNode
 )
 ;
 }
-;
 return
 false
 ;

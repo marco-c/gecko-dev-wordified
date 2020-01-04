@@ -770,6 +770,7 @@ aSubject
 ;
 }
 }
+;
 ChromeActor
 .
 prototype
@@ -1211,6 +1212,7 @@ suspendTimeouts
 ;
 }
 }
+;
 /
 *
 *
@@ -1313,3 +1315,4 @@ false
 ;
 }
 }
+;

@@ -853,9 +853,9 @@ startTime
 ;
 if
 (
-'
+"
 currentTime
-'
+"
 in
 startInfo
 )

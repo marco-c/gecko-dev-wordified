@@ -167,13 +167,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -304,6 +304,7 @@ line
 9
 }
 )
+;
 }
 )
 ;

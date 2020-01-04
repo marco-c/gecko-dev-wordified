@@ -218,6 +218,7 @@ autocomplete
 closes
 "
 )
+;
 ok
 (
 !

@@ -837,6 +837,7 @@ finished
 .
 "
 )
+;
 yield
 pageLoadRequestFinished
 ;

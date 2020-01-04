@@ -1364,9 +1364,9 @@ L10N
 .
 getStr
 (
-'
+"
 addWatchExpressionButton
-'
+"
 )
 className
 :

@@ -511,6 +511,7 @@ addScripts
 scripts
 ]
 )
+;
 const
 expected
 =
@@ -691,6 +692,7 @@ s
 65
 )
 )
+;
 const
 actual
 =
@@ -842,6 +844,7 @@ s
 250
 )
 )
+;
 const
 actual
 =

@@ -1019,6 +1019,7 @@ checkCondition
 (
 frame
 )
+;
 if
 (
 result

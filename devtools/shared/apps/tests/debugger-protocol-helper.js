@@ -1221,7 +1221,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -1233,7 +1233,7 @@ modules
 Webapps
 .
 jsm
-'
+"
 )
 ;
 let

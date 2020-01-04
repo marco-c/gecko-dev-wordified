@@ -113,6 +113,7 @@ test
 mochitest
 /
 "
+;
 const
 ACTORS_URL
 =

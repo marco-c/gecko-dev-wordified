@@ -224,11 +224,11 @@ getSourceActor
 gSources
 EXAMPLE_URL
 +
-'
+"
 bar
 .
 js
-'
+"
 )
 ;
 yield

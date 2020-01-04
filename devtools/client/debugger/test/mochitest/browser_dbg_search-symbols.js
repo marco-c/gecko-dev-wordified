@@ -1653,6 +1653,7 @@ deferred
 resolve
 (
 )
+;
 }
 else
 {

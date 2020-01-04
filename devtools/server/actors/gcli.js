@@ -1599,13 +1599,13 @@ throw
 new
 Error
 (
-'
+"
 GcliActor
 used
 post
 -
 destroy
-'
+"
 )
 ;
 }

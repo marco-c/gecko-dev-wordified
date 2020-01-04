@@ -242,11 +242,11 @@ tabs
 =
 require
 (
-'
+"
 sdk
 /
 tabs
-'
+"
 )
 ;
 let
@@ -381,13 +381,13 @@ dbg
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 let
@@ -397,7 +397,7 @@ dbg
 .
 require
 (
-'
+"
 .
 /
 content
@@ -407,7 +407,7 @@ actions
 event
 -
 listeners
-'
+"
 )
 ;
 let

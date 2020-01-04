@@ -872,9 +872,9 @@ document
 .
 getElementById
 (
-'
+"
 debuggerCommands
-'
+"
 )
 {
 resumeCommand

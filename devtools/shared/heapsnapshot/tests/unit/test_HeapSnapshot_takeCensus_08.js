@@ -474,9 +474,9 @@ predictable
 gc
 (
 g
-'
+"
 shrinking
-'
+"
 )
 ;
 baseline
@@ -490,9 +490,9 @@ breakdown
 {
 by
 :
-'
+"
 count
-'
+"
 }
 }
 )

@@ -401,7 +401,6 @@ a
 debugger
 ;
 }
-;
 stopMe
 (
 42

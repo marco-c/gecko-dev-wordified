@@ -1368,6 +1368,7 @@ OUTCOME_SLOT
 ]
 ]
 }
+;
 }
 )
 ;
@@ -1642,7 +1643,6 @@ outcome
 )
 ;
 }
-;
 /
 *
 *
@@ -1725,7 +1725,6 @@ lastOutcome
 )
 ;
 }
-;
 function
 maybeString
 (

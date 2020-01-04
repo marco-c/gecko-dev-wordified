@@ -652,9 +652,9 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-'
+"
 button
-'
+"
 {
 }
 gBrowser

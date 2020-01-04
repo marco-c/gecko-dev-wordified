@@ -229,6 +229,7 @@ bar
 \
 n
 "
+;
 sp
 .
 setText

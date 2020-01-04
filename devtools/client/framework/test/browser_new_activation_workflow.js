@@ -136,9 +136,9 @@ console
 .
 log
 (
-'
+"
 loaded
-'
+"
 )
 ;
 }
@@ -226,6 +226,7 @@ is
 ready
 "
 )
+;
 selectAndCheckById
 (
 "

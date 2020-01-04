@@ -951,6 +951,7 @@ join
 n
 "
 )
+;
 }
 addCopyContextMenu
 :

@@ -2360,6 +2360,7 @@ this
 .
 styleSheetIndex
 }
+;
 try
 {
 form
@@ -3557,6 +3558,7 @@ applied
 }
 }
 )
+;
 /
 *
 *

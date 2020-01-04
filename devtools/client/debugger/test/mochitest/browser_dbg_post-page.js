@@ -222,13 +222,13 @@ win
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 let
@@ -288,6 +288,7 @@ view
 .
 "
 )
+;
 is
 (
 source
@@ -439,6 +440,7 @@ view
 .
 "
 )
+;
 is
 (
 source

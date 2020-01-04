@@ -464,6 +464,7 @@ updateInstallStatus
 )
 ;
 }
+;
 AddonManager
 .
 addAddonListener
@@ -520,6 +521,7 @@ adb
 :
 null
 }
+;
 getJSON
 (
 ADDONS_URL
@@ -616,6 +618,7 @@ return
 GetAvailableAddons_promise
 ;
 }
+;
 exports
 .
 ForgetAddonsList
@@ -629,6 +632,7 @@ GetAvailableAddons_promise
 null
 ;
 }
+;
 function
 Addon
 (
@@ -1081,6 +1085,7 @@ failed
 ;
 }
 }
+;
 function
 SimulatorAddon
 (

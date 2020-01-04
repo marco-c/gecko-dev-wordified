@@ -177,6 +177,7 @@ aToolbox
 toolbox
 =
 aToolbox
+;
 gDevTools
 .
 once

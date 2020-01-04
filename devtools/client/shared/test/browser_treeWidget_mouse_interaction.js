@@ -840,6 +840,7 @@ is
 emitted
 "
 )
+;
 ok
 (
 attachment
@@ -855,6 +856,7 @@ is
 emitted
 "
 )
+;
 is
 (
 attachment
@@ -1042,6 +1044,7 @@ new
 node
 "
 )
+;
 ok
 (
 !
@@ -1057,6 +1060,7 @@ new
 node
 "
 )
+;
 ok
 (
 node2

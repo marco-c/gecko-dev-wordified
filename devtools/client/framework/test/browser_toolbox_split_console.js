@@ -369,6 +369,7 @@ command
 commandCalled
 =
 true
+;
 }
 false
 )
@@ -379,9 +380,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 keyset
-'
+"
 )
 [
 0
@@ -540,6 +541,7 @@ command
 commandCalled
 =
 true
+;
 }
 false
 )
@@ -550,9 +552,9 @@ document
 .
 getElementsByTagName
 (
-'
+"
 keyset
-'
+"
 )
 [
 0

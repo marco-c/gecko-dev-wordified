@@ -501,6 +501,7 @@ gTab
 ;
 }
 )
+;
 }
 function
 testResume

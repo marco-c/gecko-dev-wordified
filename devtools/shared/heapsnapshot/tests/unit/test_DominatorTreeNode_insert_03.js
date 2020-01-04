@@ -339,6 +339,7 @@ moreChildrenAvailable
 :
 false
 }
+;
 function
 run_test
 (

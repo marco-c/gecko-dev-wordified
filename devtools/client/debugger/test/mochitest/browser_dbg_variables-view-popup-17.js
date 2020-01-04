@@ -275,9 +275,9 @@ EventUtils
 .
 synthesizeKey
 (
-'
+"
 VK_F11
-'
+"
 {
 }
 )
@@ -357,6 +357,7 @@ then
 (
 testPopupHiding
 )
+;
 }
 )
 ;

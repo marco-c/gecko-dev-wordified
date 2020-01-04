@@ -294,9 +294,9 @@ const
 EXPECTED_WIN_RESULT
 =
 [
-'
+"
 curl
-'
+"
 '
 "
 '

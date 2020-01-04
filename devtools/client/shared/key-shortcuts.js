@@ -973,6 +973,7 @@ return
 shortcut
 ;
 }
+;
 KeyShortcuts
 .
 prototype

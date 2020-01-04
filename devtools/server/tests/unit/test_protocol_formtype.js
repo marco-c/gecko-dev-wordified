@@ -107,6 +107,7 @@ extra
 extra
 "
 }
+;
 }
 getChild
 :
@@ -284,6 +285,7 @@ traits
 [
 ]
 }
+;
 }
 /
 /
@@ -362,6 +364,7 @@ this
 .
 child
 }
+;
 }
 else
 if
@@ -394,6 +397,7 @@ this
 .
 child
 }
+;
 }
 getDefault
 :

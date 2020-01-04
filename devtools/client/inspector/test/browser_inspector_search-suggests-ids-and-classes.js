@@ -942,6 +942,7 @@ correct
 .
 "
 )
+;
 is
 (
 suggestions
@@ -986,6 +987,7 @@ correct
 .
 "
 )
+;
 }
 checkStateAndMoveOn
 (

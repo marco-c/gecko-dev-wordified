@@ -654,6 +654,7 @@ printed
 .
 "
 )
+;
 }
 registerCleanupFunction
 (

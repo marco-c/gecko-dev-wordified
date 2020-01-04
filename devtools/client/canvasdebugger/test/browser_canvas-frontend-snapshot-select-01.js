@@ -102,6 +102,7 @@ recorded
 .
 "
 )
+;
 is
 (
 SnapshotsListView
@@ -159,6 +160,7 @@ recorded
 .
 "
 )
+;
 is
 (
 SnapshotsListView

@@ -105,6 +105,7 @@ traits
 [
 ]
 }
+;
 }
 var
 testTypes
@@ -183,6 +184,7 @@ this
 parent
 (
 )
+;
 }
 toString
 :
@@ -895,6 +897,7 @@ this
 parent
 (
 )
+;
 }
 toString
 :
@@ -1429,6 +1432,7 @@ child7
 )
 ]
 }
+;
 }
 {
 response
@@ -1862,6 +1866,7 @@ traits
 ]
 }
 )
+;
 do_check_eq
 (
 applicationType
@@ -1979,6 +1984,7 @@ actorid
 "
 }
 )
+;
 trace
 .
 expectReceive
@@ -2004,6 +2010,7 @@ actorid
 "
 }
 )
+;
 childFront
 =
 ret
@@ -2102,6 +2109,7 @@ actorid
 "
 }
 )
+;
 trace
 .
 expectReceive
@@ -2127,6 +2135,7 @@ actorid
 "
 }
 )
+;
 expectRootChildren
 (
 1
@@ -2200,6 +2209,7 @@ actorid
 "
 }
 )
+;
 trace
 .
 expectReceive
@@ -2223,6 +2233,7 @@ actorid
 "
 }
 )
+;
 do_check_eq
 (
 ret
@@ -3073,6 +3084,7 @@ destroyed
 ;
 }
 )
+;
 }
 )
 .
@@ -3644,6 +3656,7 @@ event
 )
 ;
 }
+;
 ret
 [
 1

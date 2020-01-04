@@ -94,7 +94,6 @@ do_test_pending
 )
 ;
 }
-;
 function
 run_test_with_server
 (

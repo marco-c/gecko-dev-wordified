@@ -213,7 +213,6 @@ this
 )
 ;
 }
-;
 exports
 .
 CanvasDebuggerPanel

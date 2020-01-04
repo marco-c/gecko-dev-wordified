@@ -103,6 +103,7 @@ traits
 [
 ]
 }
+;
 }
 var
 RootActor
@@ -863,6 +864,7 @@ function
 )
 }
 )
+;
 }
 )
 ;
@@ -1228,6 +1230,7 @@ simpleArgs
 5
 10
 )
+;
 }
 )
 .

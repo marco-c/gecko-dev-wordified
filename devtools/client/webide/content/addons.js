@@ -214,6 +214,7 @@ extension
 )
 ;
 }
+;
 document
 .
 querySelector

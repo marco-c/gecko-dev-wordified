@@ -1068,7 +1068,6 @@ canRedo
 )
 ;
 }
-;
 return
 false
 ;
@@ -1122,3 +1121,4 @@ aEvent
 {
 }
 }
+;

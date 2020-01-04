@@ -3083,6 +3083,7 @@ align
 center
 "
 )
+;
 resultsHeader
 .
 appendChild

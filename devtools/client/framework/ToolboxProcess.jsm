@@ -173,6 +173,7 @@ XPCOMUtils
 jsm
 "
 )
+;
 const
 {
 require
@@ -467,6 +468,7 @@ args
 )
 ;
 }
+;
 /
 /
 If

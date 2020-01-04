@@ -1482,7 +1482,6 @@ column
 }
 ;
 }
-;
 /
 *
 *
@@ -1994,7 +1993,6 @@ return
 inflatedCache
 ;
 }
-;
 /
 *
 *
@@ -2074,7 +2072,6 @@ return
 inflatedFrame
 ;
 }
-;
 /
 *
 *
@@ -2299,7 +2296,6 @@ this
 )
 ;
 }
-;
 /
 *
 *

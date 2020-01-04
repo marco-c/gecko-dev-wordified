@@ -142,6 +142,7 @@ test_with_error
 "
 )
 )
+;
 do_check_true
 (
 s

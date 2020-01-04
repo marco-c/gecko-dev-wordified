@@ -325,6 +325,7 @@ framework
 toolbox
 "
 )
+;
 /
 /
 Override
@@ -603,9 +604,9 @@ replace
 /
 /
 g
-'
+"
 /
-'
+"
 )
 ;
 testDir
@@ -925,6 +926,7 @@ deferred
 promise
 ;
 }
+;
 this
 .
 removeTab
@@ -1035,6 +1037,7 @@ deferred
 promise
 ;
 }
+;
 function
 addAddon
 (
@@ -4171,8 +4174,8 @@ waitForSourceShown
 this
 .
 debuggerPanel
-'
-'
+"
+"
 )
 ;
 prepareDebugger
@@ -4862,6 +4865,7 @@ break
 }
 }
 }
+;
 function
 initChromeDebugger
 (
@@ -5383,6 +5387,7 @@ getSelectedSource
 (
 aPanel
 )
+;
 }
 )
 ;
@@ -7700,9 +7705,9 @@ target
 .
 once
 (
-'
+"
 navigate
-'
+"
 (
 )
 =
@@ -7769,7 +7774,7 @@ win
 .
 require
 (
-'
+"
 devtools
 /
 client
@@ -7779,7 +7784,7 @@ shared
 vendor
 /
 redux
-'
+"
 )
 ;
 return
@@ -8081,6 +8086,7 @@ error
 )
 :
 true
+;
 }
 }
 run

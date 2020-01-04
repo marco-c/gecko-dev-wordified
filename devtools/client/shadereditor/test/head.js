@@ -289,6 +289,7 @@ utils
 .
 js
 "
+;
 const
 EXAMPLE_URL
 =
@@ -2191,14 +2192,15 @@ onAdd
 =
 =
 =
-'
+"
 function
-'
+"
 )
 onAdd
 (
 actors
 )
+;
 }
 if
 (

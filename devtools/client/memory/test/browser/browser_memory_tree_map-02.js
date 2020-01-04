@@ -120,6 +120,7 @@ zoom
 const
 TEST_URL
 =
+"
 data
 :
 text
@@ -139,6 +140,7 @@ body
 /
 html
 >
+"
 ;
 const
 PIXEL_SCROLL_MODE

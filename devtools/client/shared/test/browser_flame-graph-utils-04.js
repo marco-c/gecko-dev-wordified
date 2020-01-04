@@ -163,11 +163,11 @@ contentOnly
 true
 showIdleBlocks
 :
-'
+"
 \
 m
 /
-'
+"
 }
 )
 ;

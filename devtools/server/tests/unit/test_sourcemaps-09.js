@@ -352,6 +352,7 @@ testHitBreakpoint
 ;
 }
 )
+;
 }
 )
 ;

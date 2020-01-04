@@ -309,6 +309,7 @@ content
 console
 args
 )
+;
 sendAsyncMessage
 (
 "

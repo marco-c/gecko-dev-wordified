@@ -335,6 +335,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -356,6 +357,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -383,6 +385,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -404,6 +407,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -434,6 +438,7 @@ tab
 code
 "
 )
+;
 is
 (
 sources
@@ -456,6 +461,7 @@ tab
 code
 "
 )
+;
 /
 /
 Load
@@ -649,6 +655,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -670,6 +677,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -697,6 +705,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -718,6 +727,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -748,6 +758,7 @@ tab
 code
 "
 )
+;
 is
 (
 sources
@@ -770,6 +781,7 @@ tab
 code
 "
 )
+;
 is
 (
 sources
@@ -797,6 +809,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -818,6 +831,7 @@ addon
 code
 "
 )
+;
 is
 (
 sources
@@ -848,6 +862,7 @@ tab
 code
 "
 )
+;
 is
 (
 sources
@@ -870,6 +885,7 @@ tab
 code
 "
 )
+;
 Cu
 .
 unload

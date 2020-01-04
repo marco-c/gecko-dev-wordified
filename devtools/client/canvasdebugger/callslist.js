@@ -1882,6 +1882,7 @@ prevIndex
 this
 .
 _highlightedThumbnailIndex
+;
 let
 prevHighlightedThumbnail
 =
@@ -2303,6 +2304,7 @@ selectedItem
 attachment
 .
 actor
+;
 let
 functionCall
 =

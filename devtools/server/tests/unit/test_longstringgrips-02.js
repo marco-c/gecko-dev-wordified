@@ -284,11 +284,11 @@ gDebuggee
 .
 eval
 (
-'
+"
 stopMe
 (
 )
-'
+"
 )
 ;
 }

@@ -411,6 +411,7 @@ aWait
 )
 ;
 }
+;
 exports
 .
 setNamedTimeout
@@ -2197,7 +2198,6 @@ _prebuiltNode
 aElement
 ;
 }
-;
 Item
 .
 prototype

@@ -788,6 +788,7 @@ content
 )
 ;
 }
+;
 var
 getTestActor
 =

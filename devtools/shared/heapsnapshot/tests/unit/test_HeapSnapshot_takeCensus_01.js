@@ -84,9 +84,9 @@ equal
 (
 typeof
 census
-'
+"
 object
-'
+"
 )
 ;
 for
@@ -145,9 +145,9 @@ value
 =
 =
 =
-'
+"
 object
-'
+"
 )
 checkProperties
 (
@@ -163,9 +163,9 @@ typeof
 desc
 .
 value
-'
+"
 number
-'
+"
 )
 ;
 }

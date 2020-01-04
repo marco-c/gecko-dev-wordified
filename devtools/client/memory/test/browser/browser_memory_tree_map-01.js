@@ -431,9 +431,9 @@ canvases
 .
 on
 (
-'
+"
 resize
-'
+"
 function
 (
 )

@@ -241,7 +241,6 @@ throw
 42
 ;
 }
-;
 try
 {
 QueryInterface

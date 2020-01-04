@@ -104,14 +104,14 @@ test
 {
 initDebugger
 (
-'
+"
 data
 :
 text
 /
 html
 hi
-'
+"
 )
 .
 then

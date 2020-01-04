@@ -524,7 +524,6 @@ onDone
 )
 ;
 }
-;
 function
 setup
 (
@@ -637,7 +636,7 @@ utils
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -649,7 +648,7 @@ modules
 Webapps
 .
 jsm
-'
+"
 )
 ;
 /

@@ -182,6 +182,7 @@ Ci
 .
 inIDOMUtils
 )
+;
 }
 )
 ;
@@ -744,6 +745,7 @@ Ci
 nsIWebProgress
 .
 NOTIFY_STATE_ALL
+;
 }
 destroy
 :
@@ -2707,6 +2709,7 @@ cssText
 }
 ;
 }
+;
 /
 /
 A
@@ -2784,6 +2787,7 @@ rule
 .
 url
 )
+;
 if
 (
 rules
@@ -3896,17 +3900,17 @@ return
 url
 =
 =
-'
+"
 about
 :
 blank
-'
+"
 ?
-'
-'
+"
+"
 :
-'
-'
+"
+"
 +
 url
 .
@@ -5148,12 +5152,12 @@ getURL
 document
 )
 +
-'
+"
 <
 style
 >
 index
-'
+"
 +
 index
 ;
@@ -5170,6 +5174,7 @@ source
 )
 ;
 }
+;
 /
 *
 *
@@ -5707,6 +5712,7 @@ target
 .
 client
 )
+;
 if
 (
 front

@@ -616,6 +616,7 @@ expanded
 .
 "
 )
+;
 is
 (
 item1
@@ -636,6 +637,7 @@ expanded
 .
 "
 )
+;
 let
 searchResult0
 =
@@ -1938,8 +1940,8 @@ getAttribute
 value
 "
 )
-'
-'
+"
+"
 "
 The
 second
@@ -1998,10 +2000,10 @@ getAttribute
 value
 "
 )
-'
+"
 bugger
 ;
-'
+"
 "
 The
 second
@@ -2391,6 +2393,7 @@ expanded
 .
 "
 )
+;
 is
 (
 item1
@@ -2411,6 +2414,7 @@ expanded
 .
 "
 )
+;
 let
 searchResult0
 =

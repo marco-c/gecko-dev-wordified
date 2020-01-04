@@ -182,7 +182,7 @@ options
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -190,7 +190,7 @@ devtools
 editor
 .
 tabsize
-'
+"
 check
 :
 {
@@ -243,7 +243,7 @@ tabSizeOrig
 {
 setup
 :
-'
+"
 pref
 set
 devtools
@@ -252,7 +252,7 @@ editor
 .
 tabsize
 20
-'
+"
 check
 :
 {
@@ -297,8 +297,8 @@ exec
 {
 output
 :
-'
-'
+"
+"
 }
 post
 :
@@ -337,7 +337,7 @@ is
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -345,7 +345,7 @@ devtools
 editor
 .
 tabsize
-'
+"
 check
 :
 {
@@ -397,7 +397,7 @@ tabsize
 {
 setup
 :
-'
+"
 pref
 set
 devtools
@@ -406,7 +406,7 @@ editor
 .
 tabsize
 1
-'
+"
 check
 :
 {
@@ -451,14 +451,14 @@ exec
 {
 output
 :
-'
-'
+"
+"
 }
 }
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -466,7 +466,7 @@ devtools
 editor
 .
 tabsize
-'
+"
 check
 :
 {

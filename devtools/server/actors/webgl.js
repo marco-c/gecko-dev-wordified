@@ -8589,7 +8589,6 @@ key
 }
 }
 }
-;
 function
 removeFromArray
 (

@@ -480,7 +480,6 @@ return
 ret
 ;
 }
-;
 onmessage
 =
 function

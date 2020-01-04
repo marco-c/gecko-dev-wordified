@@ -510,7 +510,6 @@ props
 break
 ;
 }
-;
 return
 dom
 .
@@ -752,6 +751,7 @@ column
 }
 }
 )
+;
 let
 children
 =

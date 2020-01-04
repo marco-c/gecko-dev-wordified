@@ -413,6 +413,7 @@ window
 focus
 (
 )
+;
 }
 ;
 /
@@ -464,6 +465,7 @@ raise
 )
 "
 )
+;
 window
 .
 removeEventListener

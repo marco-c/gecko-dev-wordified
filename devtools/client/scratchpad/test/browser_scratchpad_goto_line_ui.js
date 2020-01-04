@@ -258,6 +258,7 @@ goDoCommand
 cmd_gotoLine
 "
 )
+;
 is
 (
 editor

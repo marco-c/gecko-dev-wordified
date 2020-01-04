@@ -162,6 +162,7 @@ gController
 gDebugger
 .
 DebuggerController
+;
 let
 gEvents
 =
@@ -176,13 +177,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 Task

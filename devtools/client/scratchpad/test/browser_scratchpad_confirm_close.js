@@ -304,6 +304,7 @@ without
 prompting
 "
 )
+;
 done
 (
 )
@@ -380,6 +381,7 @@ should
 close
 "
 )
+;
 done
 (
 )
@@ -1106,6 +1108,7 @@ Ci
 .
 nsILocalFile
 )
+;
 return
 file
 ;

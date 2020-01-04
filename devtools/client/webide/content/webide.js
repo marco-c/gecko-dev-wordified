@@ -1857,7 +1857,6 @@ details
 break
 ;
 }
-;
 this
 .
 _updatePromise
@@ -2950,14 +2949,14 @@ document
 .
 querySelector
 (
-'
+"
 #
 action
 -
 button
 -
 play
-'
+"
 )
 ;
 let
@@ -5970,6 +5969,7 @@ AppManager
 .
 DEFAULT_PROJECT_ICON
 }
+;
 }
 else
 if

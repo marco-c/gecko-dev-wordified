@@ -196,6 +196,7 @@ default
 .
 "
 )
+;
 is
 (
 bypass
@@ -267,6 +268,7 @@ bypassed
 .
 "
 )
+;
 is
 (
 bypass
@@ -368,6 +370,7 @@ bypassed
 .
 "
 )
+;
 is
 (
 bypass

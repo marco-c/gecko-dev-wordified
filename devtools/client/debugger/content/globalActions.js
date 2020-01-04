@@ -112,11 +112,11 @@ constants
 =
 require
 (
-'
+"
 .
 /
 constants
-'
+"
 )
 ;
 /
@@ -154,6 +154,7 @@ constants
 .
 UNLOAD
 }
+;
 }
 module
 .

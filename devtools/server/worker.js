@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 /
 /
 This
@@ -692,7 +693,6 @@ result
 break
 ;
 }
-;
 }
 )
 ;

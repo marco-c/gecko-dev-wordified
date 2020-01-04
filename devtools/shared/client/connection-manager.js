@@ -878,7 +878,7 @@ serv
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -890,7 +890,7 @@ server
 socket
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -929,6 +929,7 @@ port
 ;
 }
 }
+;
 EventEmitter
 .
 decorate
@@ -1064,6 +1065,7 @@ DESTROYED
 destroyed
 "
 }
+;
 Connection
 .
 Events
@@ -1136,6 +1138,7 @@ NEW_LOG
 new_log
 "
 }
+;
 Connection
 .
 prototype
@@ -1283,6 +1286,7 @@ return
 this
 .
 _client
+;
 }
 get
 host
@@ -1293,6 +1297,7 @@ return
 this
 .
 _host
+;
 }
 set
 host
@@ -1343,6 +1348,7 @@ return
 this
 .
 _port
+;
 }
 set
 port
@@ -2284,6 +2290,7 @@ return
 this
 .
 _status
+;
 }
 _setStatus
 :
@@ -2578,6 +2585,7 @@ disconnect
 ;
 }
 }
+;
 exports
 .
 ConnectionManager

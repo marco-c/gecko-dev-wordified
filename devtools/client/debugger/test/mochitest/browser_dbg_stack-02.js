@@ -346,9 +346,9 @@ getItemAtIndex
 attachment
 .
 url
-'
+"
 SCRIPT0
-'
+"
 "
 Newest
 frame
@@ -880,6 +880,7 @@ gPanel
 ;
 }
 )
+;
 Task
 .
 spawn

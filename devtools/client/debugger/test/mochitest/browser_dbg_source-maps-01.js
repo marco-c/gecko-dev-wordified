@@ -357,6 +357,7 @@ startup
 .
 "
 )
+;
 }
 function
 checkInitialSource

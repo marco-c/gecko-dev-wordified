@@ -471,6 +471,7 @@ ev
 )
 ;
 }
+;
 element
 .
 addEventListener

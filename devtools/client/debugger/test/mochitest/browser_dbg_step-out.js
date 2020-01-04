@@ -311,6 +311,7 @@ pseudo
 item
 "
 )
+;
 resumeDebuggee
 (
 )
@@ -519,6 +520,7 @@ pseudo
 item
 "
 )
+;
 resumeDebuggee
 (
 )

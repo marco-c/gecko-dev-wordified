@@ -3937,6 +3937,7 @@ null
 }
 )
 }
+;
 XPCOMUtils
 .
 defineLazyGetter

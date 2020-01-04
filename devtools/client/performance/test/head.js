@@ -193,6 +193,7 @@ message
 ;
 }
 }
+;
 /
 /
 Shortcut
@@ -595,6 +596,7 @@ registerCleanupFunction
 {
 info
 (
+"
 finish
 (
 )
@@ -605,6 +607,7 @@ up
 .
 .
 .
+"
 )
 ;
 DevToolsUtils

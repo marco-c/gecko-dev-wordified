@@ -87,6 +87,7 @@ testFileForBug751744
 .
 tmp
 "
+;
 /
 /
 Content

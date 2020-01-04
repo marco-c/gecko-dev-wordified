@@ -276,6 +276,7 @@ DebuggerServer
 LONG_STRING_INITIAL_LENGTH
 )
 }
+;
 }
 substring
 :
@@ -461,6 +462,7 @@ this
 .
 str
 )
+;
 }
 substring
 :
@@ -510,6 +512,7 @@ undefined
 }
 }
 )
+;
 exports
 .
 LongStringFront
@@ -693,6 +696,7 @@ next
 ;
 }
 }
+;
 this
 .
 strPromise

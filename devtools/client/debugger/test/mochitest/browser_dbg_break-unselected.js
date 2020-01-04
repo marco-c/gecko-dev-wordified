@@ -183,11 +183,11 @@ target
 .
 on
 (
-'
+"
 thread
 -
 paused
-'
+"
 Task
 .
 async
@@ -270,13 +270,13 @@ panelWin
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -393,4 +393,3 @@ runDebuggerStatement
 )
 ;
 }
-;

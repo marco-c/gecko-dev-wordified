@@ -476,9 +476,9 @@ document
 .
 getElementById
 (
-'
+"
 debuggerCommands
-'
+"
 )
 {
 addWatchExpressionCommand

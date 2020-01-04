@@ -275,6 +275,7 @@ values
 .
 055
 )
+;
 checkAutomationValue
 (
 values
@@ -345,6 +346,7 @@ values
 .
 055
 )
+;
 checkAutomationValue
 (
 values

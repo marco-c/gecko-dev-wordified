@@ -1560,6 +1560,7 @@ Unregistering
 tool
 "
 )
+;
 gDevTools
 .
 unregisterTool

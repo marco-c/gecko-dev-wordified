@@ -93,7 +93,6 @@ do_test_pending
 )
 ;
 }
-;
 function
 run_test_with_server
 (
@@ -646,4 +645,5 @@ line0
 13
 gDebuggee
 )
+;
 }

@@ -286,7 +286,7 @@ version
 >
 '
 +
-'
+"
 <
 title
 >
@@ -302,9 +302,9 @@ path
 /
 title
 >
-'
+"
 +
-'
+"
 <
 desc
 >
@@ -318,7 +318,7 @@ triangle
 /
 desc
 >
-'
+"
 +
 '
 <
@@ -401,12 +401,12 @@ width
 >
 '
 +
-'
+"
 <
 /
 svg
 >
-'
+"
 ;
 add_task
 (

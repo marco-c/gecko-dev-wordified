@@ -339,7 +339,7 @@ generateUUID
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -349,7 +349,7 @@ uuid
 generator
 ;
 1
-'
+"
 ]
 .
 getService
@@ -1115,7 +1115,6 @@ null
 }
 ;
 }
-;
 /
 *
 *
@@ -7675,9 +7674,9 @@ _nextConnID
 +
 +
 +
-'
+"
 .
-'
+"
 ;
 }
 let
@@ -9421,6 +9420,7 @@ return
 this
 .
 _prefix
+;
 }
 _transport
 :
@@ -9434,6 +9434,7 @@ return
 this
 .
 _transport
+;
 }
 /
 *
@@ -9563,8 +9564,8 @@ prefix
 aPrefix
 |
 |
-'
-'
+"
+"
 )
 +
 this
@@ -10843,9 +10844,9 @@ to
 .
 lastIndexOf
 (
-'
+"
 /
-'
+"
 )
 ;
 while
@@ -10907,9 +10908,9 @@ to
 .
 lastIndexOf
 (
-'
+"
 /
-'
+"
 )
 ;
 }

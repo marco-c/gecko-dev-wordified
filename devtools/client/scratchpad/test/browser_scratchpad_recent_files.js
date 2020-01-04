@@ -121,11 +121,13 @@ file01_ForBug651942
 .
 tmp
 "
+;
 var
 gFileName02
 =
 "
 "
+;
 /
 /
 See
@@ -142,6 +144,7 @@ file03_ForBug651942
 .
 tmp
 "
+;
 var
 gFileName04
 =
@@ -150,6 +153,7 @@ file04_ForBug651942
 .
 tmp
 "
+;
 /
 /
 Content

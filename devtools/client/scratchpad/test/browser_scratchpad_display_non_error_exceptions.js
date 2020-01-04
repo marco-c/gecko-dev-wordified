@@ -170,6 +170,7 @@ World
 \
 "
 "
+;
 var
 openComment
 =

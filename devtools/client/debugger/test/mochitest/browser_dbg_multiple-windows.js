@@ -847,6 +847,7 @@ continue_remove_tab
 (
 deferred
 )
+;
 }
 )
 ;

@@ -151,7 +151,7 @@ EventEmitter
 =
 require
 (
-'
+"
 devtools
 /
 shared
@@ -159,7 +159,7 @@ shared
 event
 -
 emitter
-'
+"
 )
 ;
 const
@@ -406,6 +406,7 @@ edit
 (
 simulator
 )
+;
 }
 )
 ;

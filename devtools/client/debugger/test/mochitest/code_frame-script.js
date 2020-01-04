@@ -25,7 +25,7 @@ loadSubScript
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -37,7 +37,7 @@ jssubscript
 loader
 ;
 1
-'
+"
 ]
 .
 getService
@@ -182,6 +182,7 @@ workers
 =
 {
 }
+;
 this
 .
 call

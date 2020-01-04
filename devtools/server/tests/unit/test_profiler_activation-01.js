@@ -672,6 +672,7 @@ callback
 )
 ;
 }
+;
 client2
 .
 close

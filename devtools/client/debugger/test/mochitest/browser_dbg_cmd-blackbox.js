@@ -235,13 +235,13 @@ panelWin
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 yield

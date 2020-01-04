@@ -1272,6 +1272,7 @@ return
 exports
 ;
 }
+;
 const
 watcher
 =

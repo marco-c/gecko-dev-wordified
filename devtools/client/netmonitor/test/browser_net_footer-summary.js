@@ -716,6 +716,7 @@ finish
 ;
 }
 )
+;
 function
 testStatus
 (
@@ -988,6 +989,7 @@ incorrect
 .
 "
 )
+;
 }
 aDebuggee
 .

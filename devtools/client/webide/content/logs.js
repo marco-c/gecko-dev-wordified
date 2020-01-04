@@ -300,7 +300,6 @@ details
 break
 ;
 }
-;
 }
 close
 :

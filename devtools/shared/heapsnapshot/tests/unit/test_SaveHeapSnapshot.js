@@ -474,7 +474,7 @@ Sandbox
 (
 CC
 (
-'
+"
 mozilla
 .
 org
@@ -482,10 +482,10 @@ org
 systemprincipal
 ;
 1
-'
-'
+"
+"
 nsIPrincipal
-'
+"
 )
 (
 )

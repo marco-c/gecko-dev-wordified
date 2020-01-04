@@ -291,6 +291,7 @@ SimpleTest
 finish
 (
 )
+;
 }
 )
 ;

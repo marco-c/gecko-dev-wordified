@@ -282,6 +282,7 @@ EVENTS
 .
 SOURCE_SHOWN
 )
+;
 yield
 resumeDebuggerThenCloseAndFinish
 (

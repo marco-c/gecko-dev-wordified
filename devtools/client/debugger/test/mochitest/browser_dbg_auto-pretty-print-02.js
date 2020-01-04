@@ -418,6 +418,7 @@ aError
 ;
 }
 )
+;
 }
 )
 ;
@@ -757,6 +758,7 @@ printed
 .
 "
 )
+;
 }
 registerCleanupFunction
 (

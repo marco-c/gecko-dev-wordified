@@ -926,6 +926,7 @@ text
 }
 }
 )
+;
 /
 *
 *
@@ -2228,6 +2229,7 @@ this
 .
 styleSheetIndex
 }
+;
 try
 {
 form
@@ -2889,6 +2891,7 @@ _originalSources
 ;
 }
 )
+;
 }
 /
 *
@@ -4527,6 +4530,7 @@ this
 }
 }
 )
+;
 exports
 .
 StyleSheetActor

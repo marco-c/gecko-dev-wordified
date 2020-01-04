@@ -903,6 +903,7 @@ default
 }
 )
 }
+;
 EventEmitter
 .
 decorate
@@ -8737,6 +8738,7 @@ registeredPresets
 ;
 }
 }
+;
 loader
 .
 lazyGetter

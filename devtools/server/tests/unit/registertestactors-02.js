@@ -63,6 +63,7 @@ registeredActor2
 )
 ;
 }
+;
 exports
 .
 unregister
@@ -87,3 +88,4 @@ Actor
 )
 ;
 }
+;

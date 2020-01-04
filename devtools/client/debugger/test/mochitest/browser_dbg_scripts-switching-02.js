@@ -1331,6 +1331,7 @@ resumeDebuggerThenCloseAndFinish
 (
 gPanel
 )
+;
 }
 )
 ;

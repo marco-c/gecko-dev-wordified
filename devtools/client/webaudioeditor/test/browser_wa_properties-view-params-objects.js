@@ -221,6 +221,7 @@ get
 curve
 "
 )
+;
 let
 state
 =
@@ -322,6 +323,7 @@ get
 buffer
 "
 )
+;
 state
 =
 aVar

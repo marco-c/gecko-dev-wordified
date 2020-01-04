@@ -674,10 +674,12 @@ attached
 "
 ;
 }
+"
 attaching
 to
 the
 PromisesActor
+"
 )
 {
 request
@@ -802,10 +804,12 @@ detached
 "
 ;
 }
+"
 detaching
 from
 the
 PromisesActor
+"
 )
 {
 request

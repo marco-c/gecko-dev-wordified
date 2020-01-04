@@ -270,6 +270,7 @@ registerNewActor
 "
 e
 )
+;
 do_check_true
 (
 false
@@ -372,6 +373,7 @@ unregisterNewActor
 "
 e
 )
+;
 do_check_true
 (
 false

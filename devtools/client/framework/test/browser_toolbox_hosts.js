@@ -863,6 +863,7 @@ bottom
 )
 "
 )
+;
 Services
 .
 prefs
@@ -927,6 +928,7 @@ side
 )
 "
 )
+;
 Services
 .
 prefs

@@ -305,7 +305,6 @@ aObject
 debugger
 ;
 }
-;
 stopMe
 (
 42
