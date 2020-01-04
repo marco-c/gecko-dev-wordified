@@ -1576,7 +1576,11 @@ lwtheme
 :
 after
 {
-background
+border
+-
+bottom
+-
+color
 :
 var
 (
