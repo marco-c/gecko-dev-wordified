@@ -782,6 +782,12 @@ mAdapter
 (
 nullptr
 )
+mCrashHelper
+(
+aParams
+.
+mCrashHelper
+)
 {
 }
 GMPAudioDecoderParams
@@ -918,6 +924,12 @@ mAdapter
 aParams
 .
 mAdapter
+)
+mCrashHelper
+(
+aParams
+.
+mCrashHelper
 )
 {
 MOZ_ASSERT
@@ -1309,7 +1321,7 @@ mMPS
 >
 GetGMPAudioDecoder
 (
-nullptr
+mCrashHelper
 &
 tags
 GetNodeId

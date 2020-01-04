@@ -376,6 +376,12 @@ layers
 LayersBackend
 mLayersBackend
 ;
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
+;
 }
 ;
 class
@@ -583,6 +589,12 @@ MozPromiseHolder
 InitPromise
 >
 mInitPromise
+;
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
 ;
 }
 ;

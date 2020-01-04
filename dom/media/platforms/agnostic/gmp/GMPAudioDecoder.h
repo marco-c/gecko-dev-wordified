@@ -342,6 +342,12 @@ AudioCallbackAdapter
 *
 mAdapter
 ;
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
+;
 }
 ;
 class
@@ -523,6 +529,12 @@ MozPromiseHolder
 InitPromise
 >
 mInitPromise
+;
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
 ;
 }
 ;

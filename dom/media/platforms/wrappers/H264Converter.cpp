@@ -225,6 +225,12 @@ mDecoder
 (
 nullptr
 )
+mGMPCrashHelper
+(
+aParams
+.
+mCrashHelper
+)
 mNeedAVCC
 (
 aPDM
@@ -807,6 +813,7 @@ mCallback
 aDiagnostics
 mImageContainer
 mLayersBackend
+mGMPCrashHelper
 }
 )
 ;
