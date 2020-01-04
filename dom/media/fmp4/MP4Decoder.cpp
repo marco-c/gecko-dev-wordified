@@ -1196,6 +1196,7 @@ mp4
 .
 enabled
 "
+true
 )
 ;
 }
