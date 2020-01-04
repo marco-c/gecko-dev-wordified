@@ -190,7 +190,7 @@ devtools
 shared
 /
 css
-/
+-
 color
 "
 )

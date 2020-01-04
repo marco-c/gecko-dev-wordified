@@ -160,7 +160,7 @@ devtools
 shared
 /
 css
-/
+-
 color
 "
 )
