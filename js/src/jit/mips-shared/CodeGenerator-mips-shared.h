@@ -1518,6 +1518,14 @@ ins
 )
 ;
 void
+visitAsmSelect
+(
+LAsmSelect
+*
+ins
+)
+;
+void
 visitMemoryBarrier
 (
 LMemoryBarrier
