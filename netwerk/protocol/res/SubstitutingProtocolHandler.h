@@ -276,7 +276,7 @@ nullptr
 )
 ;
 }
-void
+nsresult
 CollectSubstitutions
 (
 InfallibleTArray
@@ -301,7 +301,7 @@ ConstructInternal
 (
 )
 ;
-void
+nsresult
 SendSubstitution
 (
 const

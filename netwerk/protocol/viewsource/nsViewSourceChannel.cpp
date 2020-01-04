@@ -1292,6 +1292,8 @@ NS_ERROR_UNEXPECTED
 nsAutoCString
 spec
 ;
+rv
+=
 uri
 -
 >
@@ -1300,6 +1302,18 @@ GetSpec
 spec
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 /
 *
 XXX

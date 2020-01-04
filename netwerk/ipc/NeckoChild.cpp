@@ -2172,10 +2172,6 @@ NeckoChild
 :
 RecvSpeculativeConnectRequest
 (
-const
-nsCString
-&
-aNotificationData
 )
 {
 nsCOMPtr
@@ -2209,14 +2205,7 @@ connect
 -
 request
 "
-NS_ConvertUTF8toUTF16
-(
-aNotificationData
-)
-.
-get
-(
-)
+nullptr
 )
 ;
 }

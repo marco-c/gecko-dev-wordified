@@ -12930,12 +12930,13 @@ if
 mURI
 )
 {
+spec
+=
 mURI
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-spec
 )
 ;
 }
