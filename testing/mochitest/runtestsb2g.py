@@ -994,6 +994,26 @@ self
 .
 profile
             
+#
+Increase
+the
+timeout
+to
+fix
+bug
+1208725
+            
+self
+.
+marionette_args
+[
+'
+socket_timeout
+'
+]
+=
+720
+            
 self
 .
 marionette
