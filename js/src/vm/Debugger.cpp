@@ -5512,7 +5512,7 @@ nextStatus
 dbg
 -
 >
-parseResumptionValue
+processHandlerResult
 (
 ac
 hookOk
@@ -8997,7 +8997,7 @@ JSTrapStatus
 Debugger
 :
 :
-parseResumptionValueHelper
+processHandlerResultHelper
 (
 Maybe
 <
@@ -9112,7 +9112,7 @@ JSTrapStatus
 Debugger
 :
 :
-parseResumptionValue
+processHandlerResult
 (
 Maybe
 <
@@ -9259,7 +9259,7 @@ rootThis
 ;
 }
 return
-parseResumptionValueHelper
+processHandlerResultHelper
 (
 ac
 ok
@@ -9274,7 +9274,7 @@ JSTrapStatus
 Debugger
 :
 :
-parseResumptionValue
+processHandlerResult
 (
 Maybe
 <
@@ -9343,7 +9343,7 @@ rootThis
 )
 ;
 return
-parseResumptionValueHelper
+processHandlerResultHelper
 (
 ac
 ok
@@ -9638,7 +9638,7 @@ rv
 )
 ;
 return
-parseResumptionValue
+processHandlerResult
 (
 ac
 ok
@@ -9820,7 +9820,7 @@ rv
 JSTrapStatus
 st
 =
-parseResumptionValue
+processHandlerResult
 (
 ac
 ok
@@ -9969,7 +9969,7 @@ rv
 )
 ;
 return
-parseResumptionValue
+processHandlerResult
 (
 ac
 ok
@@ -11288,7 +11288,7 @@ st
 dbg
 -
 >
-parseResumptionValue
+processHandlerResult
 (
 ac
 ok
@@ -11961,7 +11961,7 @@ st
 dbg
 -
 >
-parseResumptionValue
+processHandlerResult
 (
 ac
 ok

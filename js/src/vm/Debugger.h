@@ -3636,7 +3636,7 @@ callHook
 *
 /
 JSTrapStatus
-parseResumptionValue
+processHandlerResult
 (
 mozilla
 :
@@ -3725,7 +3725,7 @@ removed
 *
 /
 JSTrapStatus
-parseResumptionValue
+processHandlerResult
 (
 mozilla
 :
@@ -3753,7 +3753,7 @@ vp
 )
 ;
 JSTrapStatus
-parseResumptionValueHelper
+processHandlerResultHelper
 (
 mozilla
 :
