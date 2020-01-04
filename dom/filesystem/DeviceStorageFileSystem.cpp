@@ -546,12 +546,12 @@ mShutdown
 true
 ;
 }
-nsPIDOMWindowInner
+nsISupports
 *
 DeviceStorageFileSystem
 :
 :
-GetWindow
+GetParentObject
 (
 )
 const

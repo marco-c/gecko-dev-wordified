@@ -187,9 +187,9 @@ Shutdown
 override
 ;
 virtual
-nsPIDOMWindowInner
+nsISupports
 *
-GetWindow
+GetParentObject
 (
 )
 const
