@@ -378,7 +378,7 @@ some
 of
 the
 other
-nsRangeStore
+RangeItem
 update
 /
 /
