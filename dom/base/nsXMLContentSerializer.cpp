@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsIParserService
+.
+h
+"
+#
+include
+"
 nsNameSpaceManager
 .
 h
