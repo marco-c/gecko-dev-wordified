@@ -4227,7 +4227,7 @@ mTimeline
 animation
 -
 >
-SetEffect
+SetEffectNoUpdate
 (
 effect
 )

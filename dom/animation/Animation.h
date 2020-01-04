@@ -645,7 +645,6 @@ return
 mEffect
 ;
 }
-virtual
 void
 SetEffect
 (
@@ -1037,6 +1036,14 @@ SetTimelineNoUpdate
 AnimationTimeline
 *
 aTimeline
+)
+;
+void
+SetEffectNoUpdate
+(
+AnimationEffectReadOnly
+*
+aEffect
 )
 ;
 virtual

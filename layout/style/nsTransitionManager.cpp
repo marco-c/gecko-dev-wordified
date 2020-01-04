@@ -1718,7 +1718,7 @@ void
 CSSTransition
 :
 :
-SetEffect
+SetEffectFromStyle
 (
 AnimationEffectReadOnly
 *
@@ -1728,7 +1728,7 @@ aEffect
 Animation
 :
 :
-SetEffect
+SetEffectNoUpdate
 (
 aEffect
 )
@@ -5693,7 +5693,7 @@ dependency
 animation
 -
 >
-SetEffect
+SetEffectFromStyle
 (
 pt
 )
