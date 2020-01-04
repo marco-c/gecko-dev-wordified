@@ -270,16 +270,6 @@ input
 blocks
 .
 *
-Currently
-it
-just
-stores
-the
-overscroll
-handoff
-chain
-.
-*
 Note
 that
 the

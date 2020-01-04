@@ -7957,7 +7957,7 @@ txn
 mInputQueue
 -
 >
-GetCurrentWheelTransaction
+GetActiveWheelTransaction
 (
 )
 ;
