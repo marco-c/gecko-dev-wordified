@@ -7179,16 +7179,6 @@ aType
 aControl
 )
 {
-/
-/
-Cast
-to
-uint64_t
-due
-to
-VC2010
-bug
-.
 std
 :
 :
@@ -7198,9 +7188,6 @@ bitset
 >
 tmp_flags
 (
-(
-uint64_t
-)
 aFlags
 )
 ;
