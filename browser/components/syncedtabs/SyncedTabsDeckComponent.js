@@ -1139,6 +1139,12 @@ gSyncUI
 .
 openSetup
 (
+null
+"
+tabs
+-
+sidebar
+"
 )
 ;
 }
