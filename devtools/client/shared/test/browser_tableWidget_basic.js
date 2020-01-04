@@ -126,8 +126,6 @@ devtools
 /
 skin
 /
-themes
-/
 common
 .
 css
@@ -152,8 +150,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 light
 -
@@ -181,8 +177,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 widgets
 .

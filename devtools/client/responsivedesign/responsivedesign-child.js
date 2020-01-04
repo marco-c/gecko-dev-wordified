@@ -88,8 +88,6 @@ devtools
 /
 skin
 /
-themes
-/
 floating
 -
 scrollbars

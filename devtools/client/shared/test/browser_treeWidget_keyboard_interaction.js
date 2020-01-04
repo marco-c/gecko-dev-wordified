@@ -103,8 +103,6 @@ devtools
 /
 skin
 /
-themes
-/
 common
 .
 css
@@ -137,8 +135,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 widg
 "

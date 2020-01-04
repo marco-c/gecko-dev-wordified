@@ -498,8 +498,6 @@ devtools
 /
 skin
 /
-themes
-/
 webide
 /
 default

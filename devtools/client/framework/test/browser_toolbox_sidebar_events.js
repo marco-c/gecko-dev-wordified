@@ -102,8 +102,6 @@ devtools
 /
 skin
 /
-themes
-/
 common
 .
 css
