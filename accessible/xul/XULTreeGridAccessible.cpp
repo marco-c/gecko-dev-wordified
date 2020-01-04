@@ -1849,15 +1849,9 @@ IsDefunct
 )
 )
 {
-mAccessibleCache
-.
-Enumerate
+UnbindCacheEntriesFromDocument
 (
-UnbindCacheEntryFromDocument
-<
-XULTreeGridCellAccessible
->
-nullptr
+mAccessibleCache
 )
 ;
 }
