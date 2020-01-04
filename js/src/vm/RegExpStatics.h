@@ -393,14 +393,6 @@ MutableHandleValue
 out
 )
 ;
-void
-markFlagsSet
-(
-JSContext
-*
-cx
-)
-;
 struct
 InitBuffer
 {
