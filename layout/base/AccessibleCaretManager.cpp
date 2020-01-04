@@ -6456,7 +6456,7 @@ true
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

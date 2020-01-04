@@ -2080,7 +2080,7 @@ true
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

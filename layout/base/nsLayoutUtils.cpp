@@ -13120,7 +13120,7 @@ event
 aDOMEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;

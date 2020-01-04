@@ -1481,7 +1481,7 @@ nativeKeyEvent
 aKeyEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -1941,7 +1941,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

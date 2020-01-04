@@ -31447,7 +31447,7 @@ true
 domEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -47379,7 +47379,7 @@ true
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -61515,7 +61515,7 @@ internalEvent
 newEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -74784,7 +74784,7 @@ mouseEvent
 =
 aMouseDownEvent
 .
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

@@ -3334,7 +3334,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -31783,7 +31783,7 @@ mComposition
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

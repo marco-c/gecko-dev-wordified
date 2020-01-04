@@ -992,7 +992,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

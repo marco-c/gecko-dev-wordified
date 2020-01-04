@@ -893,7 +893,7 @@ keyEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

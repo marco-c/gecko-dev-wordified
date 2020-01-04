@@ -8790,7 +8790,7 @@ internalEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -17001,7 +17001,7 @@ aEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

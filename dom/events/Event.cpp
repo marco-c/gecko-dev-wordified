@@ -3167,7 +3167,7 @@ WidgetEvent
 Event
 :
 :
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 {

@@ -3029,7 +3029,7 @@ innerEvent
 aDOMEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -4257,7 +4257,7 @@ innerEvent
 aDOMEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;

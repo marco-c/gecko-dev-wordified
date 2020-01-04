@@ -6606,7 +6606,7 @@ UserHasInteracted
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

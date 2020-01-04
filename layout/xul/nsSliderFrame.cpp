@@ -5546,7 +5546,7 @@ event
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

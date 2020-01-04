@@ -20737,7 +20737,7 @@ rv
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -27219,7 +27219,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
