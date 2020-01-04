@@ -824,12 +824,17 @@ n
 this
 )
 ;
+if
+(
+!
 mGL
 -
 >
 MakeCurrent
 (
 )
+)
+return
 ;
 mGL
 -

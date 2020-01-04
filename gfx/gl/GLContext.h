@@ -17254,11 +17254,6 @@ GLScreenBuffer
 >
 mScreen
 ;
-void
-DestroyScreenBuffer
-(
-)
-;
 SharedSurface
 *
 mLockedSurface

@@ -214,6 +214,16 @@ mGL
 )
 return
 ;
+MOZ_RELEASE_ASSERT
+(
+mGL
+-
+>
+IsCurrent
+(
+)
+)
+;
 while
 (
 !
