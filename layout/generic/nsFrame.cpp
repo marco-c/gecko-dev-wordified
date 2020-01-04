@@ -11766,6 +11766,9 @@ AppendBackgroundItemsToTop
 (
 aBuilder
 this
+GetRectRelativeToSelf
+(
+)
 aLists
 .
 BorderBackground

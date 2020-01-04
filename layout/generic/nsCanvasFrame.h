@@ -1087,6 +1087,12 @@ nsDisplayBackgroundImage
 aBuilder
 aFrame
 aLayer
+aFrame
+-
+>
+GetRectRelativeToSelf
+(
+)
 aBg
 )
 {
@@ -1333,6 +1339,12 @@ nsDisplayThemedBackground
 (
 aBuilder
 aFrame
+aFrame
+-
+>
+GetRectRelativeToSelf
+(
+)
 )
 {
 }
