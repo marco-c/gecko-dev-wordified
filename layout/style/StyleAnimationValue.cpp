@@ -22533,10 +22533,9 @@ return
 false
 ;
 }
-RefPtr
-<
+const
 ServoComputedValues
->
+*
 previousStyle
 =
 aStyleContext

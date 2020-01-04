@@ -293,6 +293,7 @@ aRuleNode
 explicit
 NonOwningStyleContextSource
 (
+const
 ServoComputedValues
 *
 aComputedValues
@@ -544,6 +545,7 @@ mBits
 )
 ;
 }
+const
 ServoComputedValues
 *
 AsServoComputedValues
@@ -1053,10 +1055,17 @@ AsServoComputedValues
 const
 {
 return
+const_cast
+<
+ServoComputedValues
+*
+>
+(
 mRaw
 .
 AsServoComputedValues
 (
+)
 )
 ;
 }

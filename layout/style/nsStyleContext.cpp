@@ -9789,6 +9789,7 @@ public
 explicit
 FakeStyleContext
 (
+const
 ServoComputedValues
 *
 aComputedValues
@@ -9893,6 +9894,7 @@ undef
 STYLE_STRUCT
 private
 :
+const
 ServoComputedValues
 *
 MOZ_NON_OWNING_REF
@@ -9906,6 +9908,7 @@ nsStyleContext
 :
 CalcStyleDifference
 (
+const
 ServoComputedValues
 *
 aNewComputedValues

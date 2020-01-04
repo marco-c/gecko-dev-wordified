@@ -826,6 +826,7 @@ MOZ_ASSERT
 aParentContext
 )
 ;
+const
 ServoComputedValues
 *
 parentComputedValues
@@ -928,6 +929,7 @@ an
 anonymous
 subtree
 .
+const
 ServoComputedValues
 *
 parent
@@ -1179,6 +1181,7 @@ nsStyleSet
 :
 eSkipParentDisplayBasedStyleFixup
 ;
+const
 ServoComputedValues
 *
 parentStyle

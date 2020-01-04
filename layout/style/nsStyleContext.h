@@ -2798,6 +2798,7 @@ context
 nsChangeHint
 CalcStyleDifference
 (
+const
 ServoComputedValues
 *
 aNewComputedValues
