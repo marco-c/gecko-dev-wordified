@@ -454,7 +454,9 @@ return
 hash
 ;
 }
+const
 IntSize
+&
 Size
 (
 )
