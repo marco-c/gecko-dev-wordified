@@ -1585,7 +1585,7 @@ aKey
 const
 ;
 nsresult
-ParseSheet
+ReparseSheet
 (
 const
 nsAString
