@@ -640,6 +640,10 @@ jump
 to
 nonZero
 .
+asMasm
+(
+)
+.
 branchDouble
 (
 DoubleNotEqual
