@@ -967,7 +967,7 @@ endif
 #
 ifdef
 DEBUG
-nsAutoString
+nsString
 mTestBuiltInRootHash
 ;
 #
