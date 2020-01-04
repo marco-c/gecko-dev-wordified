@@ -5291,13 +5291,6 @@ controller
 )
 )
 ;
-bool
-isNavigation
-=
-mLoadFlags
-&
-LOAD_DOCUMENT_URI
-;
 nsRefPtr
 <
 InterceptedJARChannel
@@ -5309,7 +5302,6 @@ InterceptedJARChannel
 (
 this
 controller
-isNavigation
 )
 ;
 intercepted
