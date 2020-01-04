@@ -1522,15 +1522,6 @@ sqlite
 .
 path
 ;
-let
-loginList
-=
-TestData
-.
-loginList
-(
-)
-;
 /
 /
 Create

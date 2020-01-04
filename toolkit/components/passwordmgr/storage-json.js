@@ -1975,12 +1975,6 @@ ensureDataReady
 (
 )
 ;
-let
-conditions
-=
-[
-]
-;
 function
 match
 (
@@ -2652,12 +2646,6 @@ formSubmitURL
 httpRealm
 )
 {
-let
-count
-=
-{
-}
-;
 let
 loginData
 =
