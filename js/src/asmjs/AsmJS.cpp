@@ -9944,6 +9944,10 @@ MakeUnique
 ModuleGeneratorData
 >
 (
+ModuleKind
+:
+:
+AsmJS
 )
 ;
 if
@@ -10055,10 +10059,6 @@ Move
 (
 filename
 )
-ModuleKind
-:
-:
-AsmJS
 )
 ;
 }
