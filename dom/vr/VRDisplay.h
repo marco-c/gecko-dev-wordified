@@ -1606,14 +1606,6 @@ GetPose
 (
 )
 ;
-already_AddRefed
-<
-VRPose
->
-GetImmediatePose
-(
-)
-;
 void
 ResetPose
 (
