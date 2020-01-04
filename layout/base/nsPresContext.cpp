@@ -8885,7 +8885,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -9243,7 +9243,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -9395,7 +9395,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -10753,7 +10753,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -11745,7 +11745,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

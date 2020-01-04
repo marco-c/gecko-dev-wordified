@@ -707,7 +707,7 @@ mThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -765,7 +765,7 @@ NS_IsMainThread
 {
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

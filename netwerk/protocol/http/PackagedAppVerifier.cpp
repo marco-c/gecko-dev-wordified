@@ -1672,7 +1672,7 @@ aForManifest
 {
 r
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 bool
 >
@@ -1691,7 +1691,7 @@ else
 {
 r
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 bool
 >

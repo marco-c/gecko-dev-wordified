@@ -3034,13 +3034,9 @@ must
 notify
 asynchronously
 .
-nsCOMPtr
-<
-nsIRunnable
->
-event
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 cb
 &
@@ -3049,10 +3045,6 @@ VisitedQuery
 :
 NotifyVisitedStatus
 )
-;
-NS_DispatchToMainThread
-(
-event
 )
 ;
 return

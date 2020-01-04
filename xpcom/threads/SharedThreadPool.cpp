@@ -947,13 +947,9 @@ will
 be
 deleted
 .
-nsCOMPtr
-<
-nsIRunnable
->
-r
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 mPool
 &
@@ -962,10 +958,6 @@ nsIThreadPool
 :
 Shutdown
 )
-;
-NS_DispatchToMainThread
-(
-r
 )
 ;
 /

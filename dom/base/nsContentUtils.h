@@ -10292,6 +10292,17 @@ static
 bool
 AddScriptRunner
 (
+already_AddRefed
+<
+nsIRunnable
+>
+aRunnable
+)
+;
+static
+bool
+AddScriptRunner
+(
 nsIRunnable
 *
 aRunnable

@@ -1577,7 +1577,7 @@ mGMPThread
 >
 Dispatch
 (
-NS_NewNonOwningRunnableMethodWithArgs
+NewNonOwningRunnableMethod
 <
 nsCString
 GMPVideoDecoderProxy
@@ -1650,7 +1650,7 @@ mGMPThread
 >
 Dispatch
 (
-NS_NewNonOwningRunnableMethodWithArgs
+NewNonOwningRunnableMethod
 <
 const
 GMPVideoCodec
@@ -1901,7 +1901,7 @@ mGMPThread
 >
 Dispatch
 (
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 mDecoder
 &
@@ -1957,7 +1957,7 @@ mGMPThread
 >
 Dispatch
 (
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 this
 &

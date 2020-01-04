@@ -716,7 +716,7 @@ toClose
 }
 NS_DispatchToCurrentThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 toClose
 &

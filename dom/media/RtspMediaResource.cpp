@@ -3764,7 +3764,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 bool
 >

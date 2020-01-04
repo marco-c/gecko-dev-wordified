@@ -1236,7 +1236,7 @@ HTMLCanvasPrintState
 >
 doneEvent
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -2683,7 +2683,7 @@ HTMLCanvasElement
 >
 renderEvent
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

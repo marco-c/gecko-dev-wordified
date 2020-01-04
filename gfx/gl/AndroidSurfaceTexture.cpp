@@ -1489,13 +1489,9 @@ Proxy
 to
 main
 thread
-nsCOMPtr
-<
-nsIRunnable
->
-event
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -1504,10 +1500,6 @@ AndroidSurfaceTexture
 :
 NotifyFrameAvailable
 )
-;
-NS_DispatchToCurrentThread
-(
-event
 )
 ;
 }

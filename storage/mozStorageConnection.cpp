@@ -2060,7 +2060,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCOMPtr
 <
