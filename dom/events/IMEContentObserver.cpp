@@ -844,6 +844,12 @@ mCausedOnlyByComposition
 =
 %
 s
+"
+"
+mIncludingChangesDuringComposition
+=
+%
+s
 }
 "
 aData
@@ -860,6 +866,12 @@ ToChar
 aData
 .
 mCausedOnlyByComposition
+)
+ToChar
+(
+aData
+.
+mIncludingChangesDuringComposition
 )
 )
 ;

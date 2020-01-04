@@ -31733,7 +31733,9 @@ mCausedOnlyByComposition
 =
 %
 s
-mOccurredDuringComposition
+"
+"
+mIncludingChangesDuringComposition
 =
 %
 s
@@ -31782,7 +31784,7 @@ GetBoolName
 (
 textChangeData
 .
-mOccurredDuringComposition
+mIncludingChangesDuringComposition
 )
 mSink
 .
