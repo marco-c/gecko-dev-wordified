@@ -691,12 +691,6 @@ if
 key
 =
 =
-JSProto_Wasm
-|
-|
-key
-=
-=
 JSProto_WebAssembly
 )
 return

@@ -63,11 +63,14 @@ before
 release
 )
 const
+experimentalVersion
+=
+0xd
+;
+const
 ver0
 =
 (
-Wasm
-.
 experimentalVersion
 >
 >
@@ -81,8 +84,6 @@ const
 ver1
 =
 (
-Wasm
-.
 experimentalVersion
 >
 >
@@ -96,8 +97,6 @@ const
 ver2
 =
 (
-Wasm
-.
 experimentalVersion
 >
 >
@@ -111,8 +110,6 @@ const
 ver3
 =
 (
-Wasm
-.
 experimentalVersion
 >
 >

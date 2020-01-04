@@ -93,8 +93,6 @@ actual
 var
 expect
 =
-Wasm
-.
 experimentalVersion
 ;
 var
