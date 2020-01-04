@@ -5467,7 +5467,7 @@ eCSSKeyword_UNKNOWN
 ;
 static_assert
 (
-ArrayLength
+MOZ_ARRAY_LENGTH
 (
 nsCSSProps
 :
@@ -5476,7 +5476,7 @@ kImageLayerOriginKTable
 )
 =
 =
-ArrayLength
+MOZ_ARRAY_LENGTH
 (
 nsCSSProps
 :
