@@ -1740,11 +1740,13 @@ currentTimeOffsetSeconds
 ;
 mSiteStateStorage
 =
-new
 mozilla
 :
 :
 DataStorage
+:
+:
+Get
 (
 NS_LITERAL_STRING
 (
