@@ -104,7 +104,9 @@ mozilla
 .
 gecko
 .
-Restrictions
+restrictions
+.
+Restrictable
 ;
 import
 org
@@ -115,7 +117,7 @@ gecko
 .
 restrictions
 .
-Restrictable
+Restrictions
 ;
 import
 org

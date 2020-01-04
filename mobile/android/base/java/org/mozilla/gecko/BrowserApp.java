@@ -713,6 +713,17 @@ mozilla
 .
 gecko
 .
+restrictions
+.
+Restrictions
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 search
 .
 SearchEngineManager

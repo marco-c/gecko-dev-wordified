@@ -136,9 +136,9 @@ mozilla
 .
 gecko
 .
-util
+restrictions
 .
-ThreadUtils
+Restrictions
 ;
 import
 org
@@ -147,7 +147,9 @@ mozilla
 .
 gecko
 .
-Restrictions
+util
+.
+ThreadUtils
 ;
 import
 java
