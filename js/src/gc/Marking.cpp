@@ -2905,6 +2905,7 @@ gc
 .
 setFoundBlackGrayEdges
 (
+tenured
 )
 ;
 }
