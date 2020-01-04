@@ -251,7 +251,7 @@ extensions
 /
 extensionGeneric
 .
-png
+svg
 "
 )
 ;
@@ -490,7 +490,7 @@ alerticon
 -
 warning
 .
-png
+svg
 "
 )
 ;
@@ -500,7 +500,7 @@ width
 ;
 height
 :
-15px
+16px
 ;
 margin
 -
