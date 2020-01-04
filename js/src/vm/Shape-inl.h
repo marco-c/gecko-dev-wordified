@@ -1110,9 +1110,14 @@ shape
 {
 if
 (
-IsAnyTypedArray
-(
 obj
+-
+>
+is
+<
+TypedArrayObject
+>
+(
 )
 )
 return

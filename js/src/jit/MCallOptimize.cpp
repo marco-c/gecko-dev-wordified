@@ -23616,7 +23616,7 @@ getArg
 if
 (
 !
-ElementAccessIsAnyTypedArray
+ElementAccessIsTypedArray
 (
 constraints
 (

@@ -7805,7 +7805,7 @@ default
 MOZ_CRASH
 (
 "
-setFromAnyTypedArray
+setFromTypedArray
 with
 a
 typed
@@ -9303,9 +9303,6 @@ isObject
 ;
 MOZ_ASSERT
 (
-IsAnyTypedArray
-(
-&
 args
 [
 0
@@ -9314,6 +9311,12 @@ args
 toObject
 (
 )
+.
+is
+<
+TypedArrayObject
+>
+(
 )
 )
 ;
