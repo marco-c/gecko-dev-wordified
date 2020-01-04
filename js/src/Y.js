@@ -66,6 +66,7 @@ to
 the
 factorial
 function
+.
 /
 /
 Return
@@ -79,7 +80,7 @@ point
 of
 f
 .
-var
+const
 Y
 =
 f
@@ -134,7 +135,7 @@ point
 of
 this
 :
-var
+const
 f
 =
 fac
@@ -163,12 +164,10 @@ n
 ;
 print
 (
-"
 5
 !
 is
-"
-+
+{
 Y
 (
 f
@@ -176,5 +175,6 @@ f
 (
 5
 )
+}
 )
 ;
