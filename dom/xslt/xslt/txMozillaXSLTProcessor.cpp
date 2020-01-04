@@ -2850,6 +2850,9 @@ mStylesheet
 IsLoadDisabled
 (
 )
+getLoaderDoc
+(
+)
 )
 ;
 /
@@ -3222,6 +3225,9 @@ es
 (
 mStylesheet
 IsLoadDisabled
+(
+)
+getLoaderDoc
 (
 )
 )
