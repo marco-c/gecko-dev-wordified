@@ -489,8 +489,6 @@ DebuggerScript
 DebuggerSource
 DebuggerObject
 DebuggerEnvironment
-DebuggerWasmScript
-DebuggerWasmSource
 }
 ;
 Kind
