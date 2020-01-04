@@ -1062,6 +1062,8 @@ let
 edge
 referent
 breakdown
+:
+subBreakdown
 }
 of
 getReportEdges
@@ -1073,7 +1075,7 @@ report
 {
 recursiveWalk
 (
-breakdown
+subBreakdown
 edge
 referent
 visitor
