@@ -186,7 +186,7 @@ parameter
 .
 *
 /
-public
+private
 static
 String
 getUrlFromAboutReader
