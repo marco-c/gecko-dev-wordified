@@ -5754,6 +5754,14 @@ nsIURI
 aUpgradedURI
 )
 ;
+nsresult
+NS_CompareLoadInfoAndLoadContext
+(
+nsIChannel
+*
+aChannel
+)
+;
 namespace
 mozilla
 {

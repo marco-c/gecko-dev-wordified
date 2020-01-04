@@ -32899,6 +32899,11 @@ this
 )
 )
 ;
+NS_CompareLoadInfoAndLoadContext
+(
+this
+)
+;
 NS_ENSURE_ARG_POINTER
 (
 listener
