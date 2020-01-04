@@ -6060,6 +6060,10 @@ PurpleBlock
 "
 )
 ;
+InitNextPointers
+(
+)
+;
 }
 /
 /
@@ -6282,12 +6286,6 @@ nsPurpleBuffer
 )
 {
 InitBlocks
-(
-)
-;
-mFirstBlock
-.
-InitNextPointers
 (
 )
 ;
@@ -6669,13 +6667,6 @@ b
 -
 >
 mEntries
-;
-b
--
->
-InitNextPointers
-(
-)
 ;
 /
 /
