@@ -336,10 +336,6 @@ mWaitState
 (
 WAITSTATE_RUNNING
 )
-mAudioInput
-(
-nullptr
-)
 mCurrentTimeStamp
 (
 TimeStamp
@@ -3230,10 +3226,6 @@ mStarted
 (
 false
 )
-mAudioInput
-(
-nullptr
-)
 mAudioChannel
 (
 aGraphImpl
@@ -5666,7 +5658,7 @@ methods
 mGraphImpl
 -
 >
-NotifyOutputData
+NotifySpeakerData
 (
 aOutputBuffer
 static_cast

@@ -1500,8 +1500,6 @@ MediaEngineAudioSource
 :
 public
 MediaEngineSource
-public
-AudioDataListenerInterface
 {
 public
 :
