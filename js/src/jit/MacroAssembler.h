@@ -6182,6 +6182,7 @@ temp
 DEFINED_ON
 (
 x64
+mips64
 )
 ;
 inline
@@ -6216,6 +6217,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 inline
@@ -6239,6 +6241,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 inline
@@ -6499,6 +6502,7 @@ DEFINED_ON
 x86
 x64
 arm
+mips64
 )
 ;
 inline
