@@ -360,13 +360,6 @@ JS_SIMULATOR_MIPS64
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 jit
 /
 IonTypes

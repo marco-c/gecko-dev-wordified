@@ -417,13 +417,6 @@ h
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h
@@ -19996,7 +19989,13 @@ we
 call
 /
 /
-PR_JoinThread
+js
+:
+:
+Thread
+:
+:
+join
 to
 avoid
 deadlocks
@@ -49918,7 +49917,7 @@ ShellPrincipals
 destroy
 )
 ;
-JS_SetInterruptCallback
+JS_AddInterruptCallback
 (
 cx
 ShellInterruptCallback

@@ -214,13 +214,6 @@ mach
 h
 >
 #
-include
-"
-jslock
-.
-h
-"
-#
 endif
 #
 include

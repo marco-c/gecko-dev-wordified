@@ -205,13 +205,6 @@ h
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 frontend
 /
 TokenStream
