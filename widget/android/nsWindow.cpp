@@ -6852,10 +6852,6 @@ aNativeParent
 mBounds
 =
 aRect
-.
-ToUnknownRect
-(
-)
 ;
 /
 /

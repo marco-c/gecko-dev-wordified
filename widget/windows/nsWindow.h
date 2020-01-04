@@ -3425,7 +3425,7 @@ only
 set
 during
 StartRemoteDrawing
-nsIntRect
+LayoutDeviceIntRect
 mLastPaintBounds
 ;
 /

@@ -1911,14 +1911,14 @@ pixels
 GdkPoint
 DevicePixelsToGdkPointRoundDown
 (
-nsIntPoint
+LayoutDeviceIntPoint
 point
 )
 ;
 GdkRectangle
 DevicePixelsToGdkSizeRoundUp
 (
-nsIntSize
+LayoutDeviceIntSize
 pixelSize
 )
 ;
@@ -1949,7 +1949,7 @@ gdouble
 y
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 GdkRectToDevicePixels
 (
 GdkRectangle

@@ -3112,7 +3112,7 @@ mCursor
 nsBorderStyle
 mBorderStyle
 ;
-nsIntRect
+LayoutDeviceIntRect
 mBounds
 ;
 LayoutDeviceIntRect
