@@ -497,7 +497,7 @@ written
 /
 public
 class
-JSONFilePingStore
+TelemetryJSONFilePingStore
 implements
 TelemetryPingStore
 {
@@ -511,7 +511,7 @@ LOGTAG
 Gecko
 "
 +
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 class
 .
@@ -616,7 +616,7 @@ File
 storeDir
 ;
 public
-JSONFilePingStore
+TelemetryJSONFilePingStore
 (
 final
 File
@@ -2034,7 +2034,7 @@ Parcelable
 .
 Creator
 <
-JSONFilePingStore
+TelemetryJSONFilePingStore
 >
 CREATOR
 =
@@ -2043,14 +2043,14 @@ Parcelable
 .
 Creator
 <
-JSONFilePingStore
+TelemetryJSONFilePingStore
 >
 (
 )
 {
 Override
 public
-JSONFilePingStore
+TelemetryJSONFilePingStore
 createFromParcel
 (
 final
@@ -2070,7 +2070,7 @@ readString
 ;
 return
 new
-JSONFilePingStore
+TelemetryJSONFilePingStore
 (
 new
 File
@@ -2082,7 +2082,7 @@ storeDirPath
 }
 Override
 public
-JSONFilePingStore
+TelemetryJSONFilePingStore
 [
 ]
 newArray
@@ -2094,7 +2094,7 @@ size
 {
 return
 new
-JSONFilePingStore
+TelemetryJSONFilePingStore
 [
 size
 ]

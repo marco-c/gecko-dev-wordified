@@ -130,7 +130,7 @@ telemetry
 .
 stores
 .
-JSONFilePingStore
+TelemetryJSONFilePingStore
 ;
 import
 org
@@ -568,7 +568,7 @@ core
 ;
 private
 final
-JSONFilePingStore
+TelemetryJSONFilePingStore
 coreStore
 ;
 private
@@ -658,7 +658,7 @@ more
 coreStore
 =
 new
-JSONFilePingStore
+TelemetryJSONFilePingStore
 (
 new
 File
