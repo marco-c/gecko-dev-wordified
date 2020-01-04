@@ -1202,10 +1202,6 @@ mFreq
 (
 0
 )
-mFullDuplex
-(
-false
-)
 {
 }
 int32_t
@@ -1233,9 +1229,6 @@ fake
 :
 true
 )
-bool
-mFullDuplex
-;
 /
 /
 mWidth
