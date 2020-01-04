@@ -559,6 +559,13 @@ IsClosed
 )
 const
 ;
+void
+SetExpiration
+(
+double
+aExpiry
+)
+;
 /
 /
 Process
@@ -647,6 +654,9 @@ RefPtr
 MediaKeyStatusMap
 >
 mKeyStatusMap
+;
+double
+mExpiration
 ;
 }
 ;
