@@ -26706,6 +26706,7 @@ if
 gBrowserTabsRemoteAutostart
 &
 &
+(
 Preferences
 :
 :
@@ -26713,6 +26714,15 @@ GetBool
 (
 kForceDisableE10sPref
 false
+)
+|
+|
+EnvHasValue
+(
+"
+MOZ_FORCE_DISABLE_E10S
+"
+)
 )
 )
 {
