@@ -546,6 +546,7 @@ clearHistory
 add_task
 (
 function
+*
 test_expire_limited
 (
 )
@@ -713,6 +714,7 @@ clearHistory
 add_task
 (
 function
+*
 test_expire_unlimited
 (
 )

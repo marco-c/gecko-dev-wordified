@@ -733,13 +733,6 @@ style
 :
 [
 "
-bookmark
-"
-]
-style
-:
-[
-"
 autofill
 "
 "

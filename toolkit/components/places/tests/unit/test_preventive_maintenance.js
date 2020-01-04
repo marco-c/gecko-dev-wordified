@@ -10116,6 +10116,7 @@ last_visit_date
 setup
 :
 function
+*
 (
 )
 {
@@ -11861,6 +11862,7 @@ run_next_test
 add_task
 (
 function
+*
 test_preventive_maintenance
 (
 )

@@ -778,6 +778,7 @@ n
 ;
 }
 function
+*
 task_setCountDate
 (
 aURI

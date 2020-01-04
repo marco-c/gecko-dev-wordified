@@ -83,6 +83,7 @@ maxResults
 add_task
 (
 function
+*
 copy_toolbar_shortcut
 (
 )
@@ -270,6 +271,7 @@ shortcut
 add_task
 (
 function
+*
 copy_history_query
 (
 )

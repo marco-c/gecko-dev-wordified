@@ -3049,6 +3049,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -3387,18 +3388,14 @@ menu
 /
 onRestoreMenuItemClick
 :
-function
-PO_onRestoreMenuItemClick
-(
-aMenuItem
-)
-{
 Task
 .
-spawn
+async
 (
 function
+*
 (
+aMenuItem
 )
 {
 let
@@ -3459,8 +3456,6 @@ break
 }
 }
 )
-;
-}
 /
 *
 *
@@ -3810,6 +3805,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -4693,7 +4689,7 @@ if
 selectedNode
 )
 {
-var
+let
 concreteId
 =
 PlacesUtils
@@ -4861,7 +4857,7 @@ to
 root
 nodes
 .
-var
+let
 concreteId
 =
 PlacesUtils
@@ -8523,7 +8519,7 @@ if
 aDirection
 )
 {
-var
+let
 sortColumn
 =
 this
@@ -8551,7 +8547,7 @@ sortDirection
 }
 else
 {
-var
+let
 sortColumn
 =
 this

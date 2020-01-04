@@ -3995,6 +3995,7 @@ true
 not
 done
 function
+*
 doSearch
 (
 )
@@ -4285,12 +4286,8 @@ gen
 next
 (
 )
-)
-;
-gen
 .
-close
-(
+value
 )
 ;
 }

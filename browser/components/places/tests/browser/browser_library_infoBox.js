@@ -802,7 +802,6 @@ PO
 open
 first
 bookmark
-var
 view
 =
 ContentTree

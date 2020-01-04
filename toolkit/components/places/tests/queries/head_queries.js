@@ -393,14 +393,10 @@ instructions
 .
 for
 (
-[
+let
 data
-]
-in
-Iterator
-(
+of
 aArray
-)
 )
 {
 try
