@@ -2800,6 +2800,7 @@ del
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 Pointer
 release
 (
@@ -3743,6 +3744,7 @@ second
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 Pointer
 release
 (
