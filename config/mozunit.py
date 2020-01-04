@@ -1261,6 +1261,9 @@ main
 (
 *
 args
+*
+*
+kwargs
 )
 :
     
@@ -1275,4 +1278,7 @@ MozTestRunner
 )
 *
 args
+*
+*
+kwargs
 )
