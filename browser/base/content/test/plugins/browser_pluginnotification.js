@@ -3065,15 +3065,14 @@ ok
 result
 "
 Test
-20b
-Waited
-too
-long
-for
+20c
 plugin
-to
-become
-visible
+should
+have
+overlay
+dims
+of
+200px
 "
 )
 ;
@@ -3317,6 +3316,7 @@ activated
 ;
 result
 =
+yield
 ContentTask
 .
 spawn
@@ -3399,7 +3399,7 @@ have
 overlay
 dims
 of
-200px
+0px
 "
 )
 ;
@@ -4045,6 +4045,7 @@ notification
 let
 result
 =
+yield
 ContentTask
 .
 spawn
