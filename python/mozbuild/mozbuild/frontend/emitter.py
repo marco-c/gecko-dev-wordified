@@ -7991,15 +7991,6 @@ not
 m
 .
 tests
-and
-not
-'
-support
--
-files
-'
-in
-defaults
 :
                 
 raise
@@ -8849,31 +8840,6 @@ True
 process_support_files
 (
 test
-)
-            
-if
-not
-filtered
-:
-                
-#
-If
-there
-are
-no
-tests
-look
-for
-support
--
-files
-under
-DEFAULT
-.
-                
-process_support_files
-(
-defaults
 )
             
 #
