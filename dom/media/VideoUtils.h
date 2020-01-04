@@ -2167,15 +2167,6 @@ nsAString
 aContentType
 )
 ;
-bool
-IsAACCodecString
-(
-const
-nsAString
-&
-aCodec
-)
-;
 }
 /
 /
