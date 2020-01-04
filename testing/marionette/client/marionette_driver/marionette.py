@@ -10072,8 +10072,7 @@ on
 "
 "
         
-element
-=
+return
 self
 .
 _send_message
@@ -10087,20 +10086,6 @@ key
 value
 "
 )
-        
-if
-element
-:
-            
-return
-HTMLElement
-(
-self
-element
-)
-        
-return
-None
     
 def
 switch_to_default_content
