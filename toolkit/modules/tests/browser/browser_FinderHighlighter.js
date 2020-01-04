@@ -1131,13 +1131,13 @@ insertCalls
 :
 [
 1
-3
+4
 ]
 removeCalls
 :
 [
 1
-2
+3
 ]
 }
 ]
@@ -1981,7 +1981,7 @@ insertCalls
 removeCalls
 :
 [
-1
+0
 1
 ]
 }
