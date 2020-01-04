@@ -730,6 +730,10 @@ out_convertedAlignment
 bool
 *
 const
+out_wasTrivial
+bool
+*
+const
 out_outOfMemory
 )
 ;

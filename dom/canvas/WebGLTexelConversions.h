@@ -349,6 +349,9 @@ WebGLTexelFormat
 dstFormat
 bool
 dstPremultiplied
+bool
+*
+out_wasTrivial
 )
 ;
 /
