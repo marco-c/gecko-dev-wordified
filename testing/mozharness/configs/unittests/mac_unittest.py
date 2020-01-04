@@ -1372,22 +1372,6 @@ push
 ]
         
 "
-mochitest
--
-media
-"
-:
-[
-"
--
--
-subsuite
-=
-media
-"
-]
-        
-"
 chrome
 "
 :
