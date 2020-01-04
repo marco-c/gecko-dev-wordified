@@ -6785,17 +6785,11 @@ D
 "
 CompressionType
 =
-LZX
+MSZIP
 "
 "
 /
 D
-"
-                                       
-"
-CompressionMemory
-=
-21
 "
                                        
 path
