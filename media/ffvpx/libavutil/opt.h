@@ -2218,7 +2218,7 @@ AV_OPT_FLAG_SUBTITLE_PARAM
 The
 option
 is
-intended
+inteded
 for
 exporting
 values

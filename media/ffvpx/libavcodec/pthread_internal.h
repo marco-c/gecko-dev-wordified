@@ -168,9 +168,7 @@ h
 "
 /
 *
-H
-.
-264
+H264
 slice
 threading
 seems

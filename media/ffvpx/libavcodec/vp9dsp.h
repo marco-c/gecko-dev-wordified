@@ -397,11 +397,9 @@ fit
 in
 with
 what
-H
-.
-264
+h264
 /
-VP8
+vp8
 /
 etc
 do

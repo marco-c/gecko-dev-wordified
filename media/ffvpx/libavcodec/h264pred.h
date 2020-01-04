@@ -203,9 +203,7 @@ H
 /
 AVC
 /
-MPEG
--
-4
+MPEG4
 prediction
 functions
 .
@@ -454,9 +452,7 @@ DC_128_PRED8x8
 6
 /
 /
-H
-.
-264
+H264
 /
 SVQ3
 (

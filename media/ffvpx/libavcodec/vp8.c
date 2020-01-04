@@ -230,13 +230,6 @@ h
 #
 include
 "
-mathops
-.
-h
-"
-#
-include
-"
 rectangle
 .
 h
@@ -4269,7 +4262,7 @@ prob
 ]
 .
 scan
-ff_zigzag_scan
+zigzag_scan
 sizeof
 (
 s
@@ -4884,7 +4877,7 @@ scan
 i
 ]
 =
-ff_zigzag_scan
+zigzag_scan
 [
 vp8_rac_get_uint
 (
@@ -9112,7 +9105,6 @@ s
 >
 c
 ;
-static
 const
 char
 *
@@ -10488,7 +10480,7 @@ probs
 i
 token_prob
 qmul
-ff_zigzag_scan
+zigzag_scan
 IS_VP8
 )
 ;
@@ -10848,7 +10840,7 @@ segment
 ]
 .
 luma_dc_qmul
-ff_zigzag_scan
+zigzag_scan
 is_vp7
 )
 ;
@@ -21539,7 +21531,7 @@ prob
 ]
 .
 scan
-ff_zigzag_scan
+zigzag_scan
 sizeof
 (
 s

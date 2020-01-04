@@ -1324,9 +1324,7 @@ GMC
 )
 -
 VOP
-MPEG
--
-4
+MPEG4
 AV_PICTURE_TYPE_SI
 /
 /

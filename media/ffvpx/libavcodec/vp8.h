@@ -1224,7 +1224,7 @@ decisions
 They
 are
 only
-implicitly
+implictly
 reset
 on
 keyframes
@@ -1536,7 +1536,7 @@ Macroblocks
 for
 entire
 frame
-allocated
+alloced
 (
 sliced
 thread

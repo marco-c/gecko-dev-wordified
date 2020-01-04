@@ -1,9 +1,7 @@
 /
 *
 *
-MPEG
--
-1
+MPEG1
 /
 2
 tables
@@ -192,9 +190,7 @@ USA
 *
 file
 *
-MPEG
--
-1
+MPEG1
 /
 2
 tables

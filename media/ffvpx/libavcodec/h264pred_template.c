@@ -205,9 +205,7 @@ H
 /
 AVC
 /
-MPEG
--
-4
+MPEG4
 part10
 prediction
 functions

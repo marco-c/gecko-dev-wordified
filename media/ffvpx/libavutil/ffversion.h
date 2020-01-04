@@ -25,13 +25,11 @@ FFMPEG_VERSION
 "
 n3
 .
-1
-.
+0
+-
 1
 -
-6
--
-g86f9228
+g0aa2fbd
 "
 #
 endif

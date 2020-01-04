@@ -1,6 +1,7 @@
 /
 *
 *
+*
 This
 file
 is
@@ -231,8 +232,3 @@ ff_vp9_profiles
 ;
 #
 endif
-/
-*
-AVCODEC_PROFILES_H
-*
-/
