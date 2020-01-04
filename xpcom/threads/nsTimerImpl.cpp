@@ -369,7 +369,7 @@ browser
 /
 /
 /
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 TimerFirings
 :

@@ -270,7 +270,7 @@ endif
 /
 /
 set
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 nsPipe
 :
