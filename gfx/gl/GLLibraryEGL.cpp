@@ -974,6 +974,11 @@ WebGLANGLETryD3D11
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 CanUseDirect3D11ANGLE
 (
 )
