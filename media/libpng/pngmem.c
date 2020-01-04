@@ -24,6 +24,7 @@ libpng
 August
 4
 2016
+%
 ]
 *
 Copyright
