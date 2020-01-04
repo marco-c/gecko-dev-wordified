@@ -597,7 +597,7 @@ optimizationSites
 let
 optimizations
 =
-Optimizations
+JITOptimizationsView
 (
 {
 frameData
