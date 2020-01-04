@@ -11448,7 +11448,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
@@ -12015,7 +12015,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
@@ -12424,7 +12424,7 @@ aWindow
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
@@ -16609,7 +16609,7 @@ Denied
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
@@ -16880,7 +16880,7 @@ errorMessage
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
