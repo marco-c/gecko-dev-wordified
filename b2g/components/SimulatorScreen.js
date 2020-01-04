@@ -457,9 +457,10 @@ width
 {
 get
 :
-function
 (
 )
+=
+>
 GlobalSimulatorScreen
 .
 width
@@ -477,9 +478,10 @@ height
 {
 get
 :
-function
 (
 )
+=
+>
 GlobalSimulatorScreen
 .
 height
@@ -497,9 +499,10 @@ mozOrientation
 {
 get
 :
-function
 (
 )
+=
+>
 GlobalSimulatorScreen
 .
 mozOrientation
