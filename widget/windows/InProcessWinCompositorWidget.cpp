@@ -205,8 +205,6 @@ VsyncObserver
 aObserver
 )
 {
-if
-(
 RefPtr
 <
 CompositorVsyncDispatcher
@@ -219,8 +217,7 @@ mWindow
 GetCompositorVsyncDispatcher
 (
 )
-)
-{
+;
 cvd
 -
 >
@@ -229,7 +226,6 @@ SetCompositorVsyncObserver
 aObserver
 )
 ;
-}
 }
 }
 /

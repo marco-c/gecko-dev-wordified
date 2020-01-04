@@ -126,15 +126,6 @@ include
 "
 mozilla
 /
-VsyncDispatcher
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 APZChild
