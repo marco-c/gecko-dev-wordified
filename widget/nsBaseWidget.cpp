@@ -3405,7 +3405,7 @@ nsBaseWidget
 -
 -
 -
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -3491,9 +3491,6 @@ nullptr
 ;
 #
 endif
-return
-NS_OK
-;
 }
 /
 /

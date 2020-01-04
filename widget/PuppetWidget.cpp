@@ -950,7 +950,7 @@ nullptr
 )
 ;
 }
-NS_IMETHODIMP
+void
 PuppetWidget
 :
 :
@@ -964,7 +964,6 @@ mOnDestroyCalled
 )
 {
 return
-NS_OK
 ;
 }
 mOnDestroyCalled
@@ -1032,9 +1031,6 @@ nullptr
 mTabChild
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

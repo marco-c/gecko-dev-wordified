@@ -458,7 +458,8 @@ false
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Destroy
 (
 )

@@ -279,10 +279,10 @@ aInitData
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 Destroy
 (
-void
 )
 ;
 NS_IMETHOD

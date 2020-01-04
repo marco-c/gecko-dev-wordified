@@ -5558,7 +5558,7 @@ NS_OK
 Close
 this
 nsWindow
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5581,7 +5581,6 @@ if
 mOnDestroyCalled
 )
 return
-NS_OK
 ;
 /
 /
@@ -5619,7 +5618,6 @@ if
 mPickerDisplayCount
 )
 return
-NS_OK
 ;
 /
 /
@@ -5916,9 +5914,6 @@ OnDestroy
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 *

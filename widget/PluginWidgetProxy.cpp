@@ -482,7 +482,7 @@ get
 )
 ;
 }
-NS_IMETHODIMP
+void
 PluginWidgetProxy
 :
 :
@@ -539,7 +539,6 @@ mActor
 nullptr
 ;
 }
-return
 PuppetWidget
 :
 :

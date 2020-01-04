@@ -2779,10 +2779,10 @@ widget
 .
 *
 /
-NS_IMETHOD
+virtual
+void
 Destroy
 (
-void
 )
 =
 0
