@@ -352,7 +352,7 @@ Init
 )
 ;
 ReentrantMonitorAutoEnter
-autoMon
+mainThreadAutoMon
 (
 barrier
 )
@@ -391,7 +391,7 @@ MediaSystemResourceManager
 ;
 }
 ReentrantMonitorAutoEnter
-autoMon
+childThreadAutoMon
 (
 barrier
 )
