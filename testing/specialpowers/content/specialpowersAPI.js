@@ -14345,6 +14345,7 @@ cleanUpSTSData
 function
 (
 origin
+flags
 )
 {
 return
@@ -14359,6 +14360,12 @@ SPCleanUpSTSData
 origin
 :
 origin
+flags
+:
+flags
+|
+|
+0
 }
 )
 ;

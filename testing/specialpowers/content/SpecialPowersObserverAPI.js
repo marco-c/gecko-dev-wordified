@@ -3889,6 +3889,15 @@ data
 origin
 ;
 let
+flags
+=
+aMessage
+.
+data
+.
+flags
+;
+let
 uri
 =
 Services
@@ -3935,7 +3944,7 @@ nsISiteSecurityService
 .
 HEADER_HSTS
 uri
-0
+flags
 )
 ;
 }
