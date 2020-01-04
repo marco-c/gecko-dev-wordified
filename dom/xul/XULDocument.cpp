@@ -2592,10 +2592,6 @@ mChannel
 =
 aChannel
 ;
-mHaveInputEncoding
-=
-true
-;
 /
 /
 Get
