@@ -4559,7 +4559,7 @@ mPool
 "
 displayListArena
 "
-1024
+4096
 std
 :
 :
