@@ -13382,7 +13382,7 @@ null
 }
 )
 ;
-RestrictedProfiles
+Restrictions
 .
 update
 (

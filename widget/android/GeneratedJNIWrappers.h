@@ -20002,7 +20002,7 @@ Natives
 }
 ;
 class
-RestrictedProfiles
+Restrictions
 :
 public
 mozilla
@@ -20013,7 +20013,7 @@ jni
 :
 Class
 <
-RestrictedProfiles
+Restrictions
 >
 {
 public
@@ -20027,7 +20027,7 @@ jni
 :
 Ref
 <
-RestrictedProfiles
+Restrictions
 >
 Ref
 ;
@@ -20040,7 +20040,7 @@ jni
 :
 LocalRef
 <
-RestrictedProfiles
+Restrictions
 >
 LocalRef
 ;
@@ -20053,7 +20053,7 @@ jni
 :
 GlobalRef
 <
-RestrictedProfiles
+Restrictions
 >
 GlobalRef
 ;
@@ -20067,7 +20067,7 @@ jni
 :
 Param
 <
-RestrictedProfiles
+Restrictions
 >
 &
 Param
@@ -20086,12 +20086,12 @@ mozilla
 /
 gecko
 /
-RestrictedProfiles
+Restrictions
 "
 ;
 protected
 :
-RestrictedProfiles
+Restrictions
 (
 jobject
 instance
@@ -20109,7 +20109,7 @@ struct
 IsAllowed_t
 {
 typedef
-RestrictedProfiles
+Restrictions
 Owner
 ;
 typedef
@@ -20237,7 +20237,7 @@ struct
 IsUserRestricted_t
 {
 typedef
-RestrictedProfiles
+Restrictions
 Owner
 ;
 typedef

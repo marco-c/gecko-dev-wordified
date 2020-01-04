@@ -11697,7 +11697,7 @@ AppConstants
 MOZ_STUMBLER_BUILD_TIME_ENABLED
 &
 &
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -16019,7 +16019,7 @@ mode
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isUserRestricted
 (
@@ -19977,7 +19977,7 @@ final
 boolean
 shareVisible
 =
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -20025,7 +20025,7 @@ R
 id
 .
 downloads
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -20521,7 +20521,7 @@ final
 boolean
 privateTabVisible
 =
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -20707,7 +20707,7 @@ true
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -20735,7 +20735,7 @@ false
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -24669,7 +24669,7 @@ GUEST
 }
 if
 (
-RestrictedProfiles
+Restrictions
 .
 isRestrictedProfile
 (

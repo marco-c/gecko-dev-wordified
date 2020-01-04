@@ -202,7 +202,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -2396,7 +2396,7 @@ menuInfo
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -2512,7 +2512,7 @@ home_remove
 .
 setVisible
 (
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -2717,7 +2717,7 @@ false
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

@@ -618,7 +618,7 @@ callback
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

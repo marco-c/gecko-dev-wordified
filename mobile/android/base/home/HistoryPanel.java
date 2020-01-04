@@ -190,15 +190,6 @@ mozilla
 .
 gecko
 .
-GeckoScreenOrientation
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
@@ -208,7 +199,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -338,15 +329,6 @@ android
 content
 .
 DialogInterface
-;
-import
-android
-.
-content
-.
-res
-.
-Configuration
 ;
 import
 android
@@ -1586,7 +1568,7 @@ menuInfo
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -1938,7 +1920,7 @@ getCount
 {
 if
 (
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
@@ -2200,7 +2182,7 @@ VISIBLE
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (

@@ -106,7 +106,7 @@ Interface
 for
 classes
 that
-RestrictedProfiles
+Restrictions
 will
 delegate
 to

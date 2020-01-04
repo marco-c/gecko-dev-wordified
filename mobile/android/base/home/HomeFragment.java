@@ -166,7 +166,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+Restrictions
 ;
 import
 org
@@ -1082,7 +1082,7 @@ false
 if
 (
 !
-RestrictedProfiles
+Restrictions
 .
 isAllowed
 (
