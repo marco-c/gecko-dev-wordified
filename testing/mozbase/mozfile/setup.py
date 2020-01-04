@@ -214,7 +214,7 @@ tests_require
 =
 [
 '
-wptserve
+mozhttpd
 '
 ]
       

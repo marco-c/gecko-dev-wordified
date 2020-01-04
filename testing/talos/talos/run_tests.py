@@ -76,12 +76,8 @@ import
 urllib
 import
 utils
-from
-wptserve
-.
-server
 import
-WebTestHttpd
+mozhttpd
 from
 mozlog
 import
@@ -523,7 +519,7 @@ webserver
 "
 "
 use
-wptserve
+mozhttpd
 to
 setup
 a
@@ -560,7 +556,9 @@ split
 )
     
 return
-WebTestHttpd
+mozhttpd
+.
+MozHttpd
 (
 host
 =
@@ -571,7 +569,7 @@ int
 (
 port
 )
-doc_root
+docroot
 =
 here
 )

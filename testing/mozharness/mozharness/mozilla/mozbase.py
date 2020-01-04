@@ -253,6 +253,9 @@ mozinfo
 '
 moznetwork
 '
+'
+mozhttpd
+'
                   
 '
 mozcrash
