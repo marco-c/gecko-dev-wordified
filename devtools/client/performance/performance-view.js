@@ -70,6 +70,13 @@ controller
 js
 *
 /
+/
+*
+globals
+OverviewView
+window
+*
+/
 "
 use
 strict
@@ -1272,9 +1279,9 @@ document
 .
 querySelectorAll
 (
-'
+"
 iframe
-'
+"
 )
 ;
 for

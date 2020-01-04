@@ -94,6 +94,7 @@ js
 *
 globals
 document
+Iterator
 *
 /
 "
@@ -831,6 +832,7 @@ permanently
 once
 stable
 in
+*
 bug
 1163351
 *

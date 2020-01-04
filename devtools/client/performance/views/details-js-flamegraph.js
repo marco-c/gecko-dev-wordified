@@ -90,6 +90,12 @@ view
 js
 *
 /
+/
+*
+globals
+DetailsSubview
+*
+/
 "
 use
 strict

@@ -90,6 +90,17 @@ view
 js
 *
 /
+/
+*
+globals
+WaterfallView
+JsCallTreeView
+JsFlameGraphView
+MemoryCallTreeView
+MemoryFlameGraphView
+Iterator
+*
+/
 "
 use
 strict
@@ -514,7 +525,6 @@ for
 (
 let
 [
-_
 component
 ]
 of
@@ -624,6 +634,7 @@ a
 preference
 changes
 in
+*
 devtools
 .
 performance
@@ -1273,8 +1284,6 @@ waterfall
 )
 ;
 }
-else
-{
 /
 /
 The
@@ -1309,7 +1318,6 @@ calltree
 "
 )
 ;
-}
 }
 /
 *

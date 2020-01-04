@@ -90,6 +90,12 @@ view
 js
 *
 /
+/
+*
+exported
+DetailsSubview
+*
+/
 "
 use
 strict
@@ -266,11 +272,14 @@ afterRenderFn
 )
 =
 >
+{
 this
 .
 _wasRendered
 =
 true
+;
+}
 ;
 this
 .
