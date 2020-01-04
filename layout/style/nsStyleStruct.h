@@ -732,6 +732,9 @@ bits
 "
 )
 ;
+namespace
+mozilla
+{
 struct
 FragmentOrURL
 {
@@ -924,6 +927,11 @@ mIsLocalRef
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 /
 /
 The
@@ -4287,6 +4295,9 @@ mImage
 [
 reset
 ]
+mozilla
+:
+:
 FragmentOrURL
 mSourceURI
 ;
@@ -21486,6 +21497,9 @@ union
 nscolor
 mColor
 ;
+mozilla
+:
+:
 FragmentOrURL
 *
 mPaintServer
@@ -21773,6 +21787,9 @@ mStroke
 [
 inherited
 ]
+mozilla
+:
+:
 FragmentOrURL
 mMarkerEnd
 ;
@@ -21781,6 +21798,9 @@ mMarkerEnd
 [
 inherited
 ]
+mozilla
+:
+:
 FragmentOrURL
 mMarkerMid
 ;
@@ -21789,6 +21809,9 @@ mMarkerMid
 [
 inherited
 ]
+mozilla
+:
+:
 FragmentOrURL
 mMarkerStart
 ;
@@ -22565,6 +22588,9 @@ int32_t
 aType
 )
 ;
+mozilla
+:
+:
 FragmentOrURL
 *
 GetURL
@@ -22670,6 +22696,9 @@ factor
 angle
 union
 {
+mozilla
+:
+:
 FragmentOrURL
 *
 mURL
