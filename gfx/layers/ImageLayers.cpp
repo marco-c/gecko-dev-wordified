@@ -193,10 +193,6 @@ ScaleMode
 :
 SCALE_NONE
 )
-mDisallowBigImage
-(
-false
-)
 {
 }
 ImageLayer

@@ -3166,9 +3166,9 @@ GrallocImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 return

@@ -467,9 +467,9 @@ SharedPlanarYCbCrImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 return

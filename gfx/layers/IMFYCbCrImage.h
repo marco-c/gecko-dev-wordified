@@ -158,9 +158,9 @@ TextureClient
 *
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 override
 ;
@@ -170,9 +170,9 @@ TextureClient
 *
 GetD3D9TextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 ;
 ~

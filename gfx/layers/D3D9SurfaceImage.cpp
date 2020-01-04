@@ -752,9 +752,9 @@ D3D9SurfaceImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 MOZ_ASSERT
@@ -772,12 +772,7 @@ GetAllocator
 )
 =
 =
-aClient
--
->
-GetForwarder
-(
-)
+aForwarder
 )
 ;
 return

@@ -649,9 +649,9 @@ SharedRGBImage
 :
 GetTextureClient
 (
-CompositableClient
+TextureForwarder
 *
-aClient
+aForwarder
 )
 {
 return
