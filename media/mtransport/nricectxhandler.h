@@ -65,10 +65,6 @@ bool
 allow_link_local
 =
 false
-bool
-hide_non_default
-=
-false
 NrIceCtx
 :
 :
@@ -131,10 +127,6 @@ NrIceCtx
 >
 CreateCtx
 (
-bool
-hide_non_default
-=
-false
 )
 const
 ;
@@ -162,8 +154,6 @@ std
 string
 &
 pwd
-bool
-hide_non_default
 )
 const
 ;

@@ -1295,15 +1295,11 @@ GetNewPwd
 bool
 Initialize
 (
-bool
-hide_non_default
 )
 ;
 bool
 Initialize
 (
-bool
-hide_non_default
 const
 std
 :
@@ -1786,6 +1782,8 @@ gathering
 nsresult
 StartGathering
 (
+bool
+default_route_only
 )
 ;
 /

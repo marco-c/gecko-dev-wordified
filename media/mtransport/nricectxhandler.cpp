@@ -133,8 +133,6 @@ bool
 tcp_enabled
 bool
 allow_link_local
-bool
-hide_non_default
 NrIceCtx
 :
 :
@@ -198,7 +196,6 @@ current_ctx
 >
 Initialize
 (
-hide_non_default
 )
 )
 {
@@ -301,8 +298,6 @@ NrIceCtxHandler
 :
 CreateCtx
 (
-bool
-hide_non_default
 )
 const
 {
@@ -321,7 +316,6 @@ NrIceCtx
 GetNewPwd
 (
 )
-hide_non_default
 )
 ;
 }
@@ -348,8 +342,6 @@ std
 string
 &
 pwd
-bool
-hide_non_default
 )
 const
 {
@@ -411,7 +403,6 @@ new_ctx
 >
 Initialize
 (
-hide_non_default
 ufrag
 pwd
 )
