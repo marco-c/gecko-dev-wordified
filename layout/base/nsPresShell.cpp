@@ -46857,6 +46857,9 @@ for
 touch
 if
 (
+frame
+&
+&
 sPointerEventImplicitCapture
 &
 &
