@@ -26000,7 +26000,7 @@ NAMED_OPERANDS
 getCallee
 )
 (
-0
+1
 getNewTarget
 )
 )
