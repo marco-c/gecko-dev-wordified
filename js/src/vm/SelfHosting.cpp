@@ -17736,16 +17736,6 @@ RegExpMatcher
 JS_INLINABLE_FN
 (
 "
-RegExpSearcher
-"
-RegExpSearcher
-4
-0
-RegExpSearcher
-)
-JS_INLINABLE_FN
-(
-"
 RegExpTester
 "
 RegExpTester

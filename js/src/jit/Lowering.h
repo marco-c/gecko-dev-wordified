@@ -1271,14 +1271,6 @@ ins
 )
 ;
 void
-visitRegExpSearcher
-(
-MRegExpSearcher
-*
-ins
-)
-;
-void
 visitRegExpTester
 (
 MRegExpTester
