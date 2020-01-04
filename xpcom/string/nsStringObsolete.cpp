@@ -3899,7 +3899,7 @@ kWhitespace
 =
 "
 \
-b
+f
 \
 t
 \
