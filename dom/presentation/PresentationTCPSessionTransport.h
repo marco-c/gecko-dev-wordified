@@ -396,7 +396,7 @@ bool
 mDataNotificationEnabled
 ;
 uint8_t
-mType
+mRole
 =
 0
 ;
