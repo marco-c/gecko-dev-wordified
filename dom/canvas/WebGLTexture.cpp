@@ -5138,7 +5138,9 @@ canGenerateMipmap
 usage
 -
 >
-isRenderable
+IsRenderable
+(
+)
 &
 &
 usage

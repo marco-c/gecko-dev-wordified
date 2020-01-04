@@ -197,9 +197,9 @@ effFormat
 usage
 -
 >
-isRenderable
-=
-true
+SetRenderable
+(
+)
 ;
 fua
 -

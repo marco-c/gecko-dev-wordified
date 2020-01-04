@@ -1294,7 +1294,9 @@ if
 formatUsage
 -
 >
-isRenderable
+IsRenderable
+(
+)
 )
 {
 nsAutoCString

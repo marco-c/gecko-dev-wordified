@@ -179,9 +179,9 @@ effFormat
 usage
 -
 >
-isRenderable
-=
-true
+SetRenderable
+(
+)
 ;
 const
 webgl
