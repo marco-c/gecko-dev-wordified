@@ -7505,6 +7505,16 @@ command_id
 =
 id
 ;
+cmd
+.
+parameters
+.
+pageTimeout
+=
+this
+.
+pageTimeout
+;
 this
 .
 mm
