@@ -42451,7 +42451,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 :
 nsDisplayWrapList
@@ -42469,9 +42469,9 @@ GetVisualOverflowRectRelativeToSelf
 (
 )
 )
-mOpacityItemCreated
+mHandleOpacity
 (
-aOpacityItemCreated
+aHandleOpacity
 )
 {
 MOZ_COUNT_CTOR
@@ -42983,7 +42983,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 :
 nsDisplaySVGEffects
@@ -42991,7 +42991,7 @@ nsDisplaySVGEffects
 aBuilder
 aFrame
 aList
-aOpacityItemCreated
+aHandleOpacity
 )
 {
 MOZ_COUNT_CTOR
@@ -43234,8 +43234,7 @@ mOpacity
 0f
 &
 &
-!
-mOpacityItemCreated
+mHandleOpacity
 )
 {
 return
@@ -43476,7 +43475,7 @@ mVisibleRect
 borderArea
 aBuilder
 aManager
-mOpacityItemCreated
+mHandleOpacity
 )
 ;
 image
@@ -43784,7 +43783,7 @@ nsDisplayList
 *
 aList
 bool
-aOpacityItemCreated
+aHandleOpacity
 )
 :
 nsDisplaySVGEffects
@@ -43792,7 +43791,7 @@ nsDisplaySVGEffects
 aBuilder
 aFrame
 aList
-aOpacityItemCreated
+aHandleOpacity
 )
 {
 MOZ_COUNT_CTOR
@@ -43871,8 +43870,7 @@ mOpacity
 0f
 &
 &
-!
-mOpacityItemCreated
+mHandleOpacity
 )
 {
 return
@@ -44303,7 +44301,7 @@ mVisibleRect
 borderArea
 aBuilder
 aManager
-mOpacityItemCreated
+mHandleOpacity
 )
 ;
 image
