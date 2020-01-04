@@ -1556,13 +1556,13 @@ DoOpen
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Close
 (
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Write
 (
 const
@@ -1577,7 +1577,7 @@ result
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Init
 (
 nsIFile

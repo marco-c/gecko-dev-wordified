@@ -993,7 +993,7 @@ only
 .
 *
 /
-NS_IMETHODIMP
+NS_IMETHOD
 CancelParsingEvents
 (
 )

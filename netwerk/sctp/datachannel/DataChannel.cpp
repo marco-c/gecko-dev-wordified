@@ -676,7 +676,7 @@ DataChannelShutdown
 }
 public
 :
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports

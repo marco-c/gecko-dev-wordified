@@ -9502,7 +9502,7 @@ eDestroyDocShell
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

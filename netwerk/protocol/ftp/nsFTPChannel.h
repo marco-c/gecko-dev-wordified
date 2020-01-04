@@ -395,7 +395,7 @@ mEntityID
 entityID
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetLastModifiedTime
 (
 PRTime
@@ -413,7 +413,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetLastModifiedTime
 (
 PRTime

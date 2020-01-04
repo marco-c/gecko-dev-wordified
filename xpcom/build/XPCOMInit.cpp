@@ -1957,7 +1957,7 @@ aPtr
 }
 private
 :
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -2053,7 +2053,7 @@ public
 NS_DECL_ISUPPORTS
 private
 :
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -2155,7 +2155,7 @@ public
 NS_DECL_ISUPPORTS
 private
 :
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -2261,7 +2261,7 @@ public
 NS_DECL_ISUPPORTS
 private
 :
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback

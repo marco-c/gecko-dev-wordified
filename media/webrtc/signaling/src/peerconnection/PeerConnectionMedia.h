@@ -2605,7 +2605,7 @@ pcm
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnProxyAvailable
 (
 nsICancelable

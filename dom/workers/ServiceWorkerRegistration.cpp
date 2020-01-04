@@ -2299,7 +2299,7 @@ mPromise
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 UnregisterSucceeded
 (
 bool
@@ -2323,7 +2323,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 UnregisterFailed
 (
 )
@@ -2527,7 +2527,7 @@ aProxy
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 UnregisterSucceeded
 (
 bool
@@ -2551,7 +2551,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 UnregisterFailed
 (
 )

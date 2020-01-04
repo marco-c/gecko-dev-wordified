@@ -3864,7 +3864,7 @@ aFilter
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Close
 (
 )
@@ -3883,7 +3883,7 @@ Close
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Available
 (
 uint64_t
@@ -3902,7 +3902,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 IsNonBlocking
 (
 bool
@@ -3921,7 +3921,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 ReadSegments
 (
 nsWriteSegmentFun
@@ -4217,7 +4217,7 @@ aFilter
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Close
 (
 )
@@ -4236,7 +4236,7 @@ Close
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Flush
 (
 )
@@ -4251,7 +4251,7 @@ Flush
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 IsNonBlocking
 (
 bool
@@ -4270,7 +4270,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 WriteSegments
 (
 nsReadSegmentFun
@@ -4299,7 +4299,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 WriteFrom
 (
 nsIInputStream

@@ -713,7 +713,7 @@ mActor
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -974,7 +974,7 @@ mBC
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -1058,7 +1058,7 @@ mActor
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

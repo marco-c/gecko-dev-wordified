@@ -214,7 +214,7 @@ MyMemoryReporter
 .
 /
 /
-NS_IMETHODIMP
+NS_IMETHOD
 /
 /
 CollectReports
@@ -230,6 +230,7 @@ aData
 bool
 aAnonymize
 )
+override
 /
 /
 {

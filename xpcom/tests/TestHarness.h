@@ -1351,7 +1351,7 @@ forget
 /
 /
 nsIDirectoryServiceProvider
-NS_IMETHODIMP
+NS_IMETHOD
 GetFile
 (
 const
@@ -1681,7 +1681,7 @@ NS_ERROR_FAILURE
 /
 /
 nsIDirectoryServiceProvider2
-NS_IMETHODIMP
+NS_IMETHOD
 GetFiles
 (
 const

@@ -841,7 +841,7 @@ SocketListener
 nsIServerSocketListener
 *
 /
-NS_IMETHODIMP
+NS_IMETHOD
 OnSocketAccepted
 (
 nsIServerSocket
@@ -853,7 +853,7 @@ aTransport
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 OnStopListening
 (
 nsIServerSocket
@@ -943,7 +943,7 @@ aSize
 /
 /
 nsIInputStreamCallback
-NS_IMETHODIMP
+NS_IMETHOD
 OnInputStreamReady
 (
 nsIAsyncInputStream
@@ -3961,7 +3961,7 @@ host
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -4066,7 +4066,7 @@ host
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -4142,7 +4142,7 @@ host
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

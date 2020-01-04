@@ -1851,7 +1851,7 @@ aCallback
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnFinish
 (
 )
@@ -1861,7 +1861,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnDump
 (
 nsIFile

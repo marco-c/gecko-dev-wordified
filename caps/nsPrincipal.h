@@ -484,7 +484,7 @@ aWhiteList
 ;
 NS_DECL_NSIEXPANDEDPRINCIPAL
 NS_DECL_NSISERIALIZABLE
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 MozExternalRefCountType
 )
@@ -503,7 +503,7 @@ AddRef
 ;
 }
 ;
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 MozExternalRefCountType
 )
@@ -578,17 +578,6 @@ GetBaseDomain
 nsACString
 &
 aBaseDomain
-)
-override
-;
-virtual
-bool
-AddonHasPermission
-(
-const
-nsAString
-&
-aPerm
 )
 override
 ;

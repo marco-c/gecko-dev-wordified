@@ -1596,7 +1596,7 @@ kmcclusk
 98
 *
 /
-NS_IMETHODIMP
+NS_IMETHOD
 CancelParsingEvents
 (
 )

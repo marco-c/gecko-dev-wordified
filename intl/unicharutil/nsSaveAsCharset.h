@@ -174,7 +174,7 @@ aOut
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetCharset
 (
 nsACString

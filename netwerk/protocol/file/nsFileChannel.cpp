@@ -1189,7 +1189,7 @@ mCopyEvent
 nullptr
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 ReadSegments
 (
 nsWriteSegmentFun
@@ -1205,7 +1205,7 @@ result
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 AsyncWait
 (
 nsIInputStreamCallback

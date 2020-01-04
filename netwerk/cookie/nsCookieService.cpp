@@ -4789,7 +4789,7 @@ NS_DECL_ISUPPORTS
 nsIObserver
 implementation
 .
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports

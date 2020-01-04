@@ -230,7 +230,7 @@ HpackStaticTableReporter
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -322,7 +322,7 @@ aCompressor
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback

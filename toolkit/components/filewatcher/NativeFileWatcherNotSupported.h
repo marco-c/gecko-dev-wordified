@@ -98,7 +98,7 @@ NS_OK
 ;
 }
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 AddPath
 (
 const
@@ -122,7 +122,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 RemovePath
 (
 const

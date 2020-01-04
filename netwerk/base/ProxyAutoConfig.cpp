@@ -2943,7 +2943,7 @@ NS_ERROR_FAILURE
 /
 /
 nsIDNSListener
-NS_IMETHODIMP
+NS_IMETHOD
 OnLookupComplete
 (
 nsICancelable
@@ -2993,7 +2993,7 @@ NS_OK
 /
 /
 nsITimerCallback
-NS_IMETHODIMP
+NS_IMETHOD
 Notify
 (
 nsITimer

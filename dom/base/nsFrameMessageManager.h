@@ -2075,7 +2075,7 @@ false
 ;
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports

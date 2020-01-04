@@ -175,7 +175,7 @@ aCallback
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 AppendFilters
 (
 int32_t
@@ -183,7 +183,7 @@ aFilterMask
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 AppendFilter
 (
 const
@@ -197,7 +197,7 @@ aFilter
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetDefaultString
 (
 const
@@ -207,7 +207,7 @@ aString
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDefaultString
 (
 nsAString
@@ -216,7 +216,7 @@ aString
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetDefaultExtension
 (
 const
@@ -226,7 +226,7 @@ aExtension
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDefaultExtension
 (
 nsAString
@@ -235,7 +235,7 @@ aExtension
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFilterIndex
 (
 int32_t
@@ -244,7 +244,7 @@ aFilterIndex
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetFilterIndex
 (
 int32_t
@@ -252,7 +252,7 @@ aFilterIndex
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFile
 (
 nsIFile
@@ -262,7 +262,7 @@ aFile
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFileURL
 (
 nsIURI
@@ -272,7 +272,7 @@ aFileURL
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFiles
 (
 nsISimpleEnumerator
@@ -282,7 +282,7 @@ aFiles
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Show
 (
 int16_t

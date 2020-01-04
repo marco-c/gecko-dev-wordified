@@ -568,7 +568,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -859,7 +859,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -1179,7 +1179,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -1649,7 +1649,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -1942,7 +1942,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -2275,7 +2275,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -2631,7 +2631,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -3010,7 +3010,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -3412,7 +3412,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -3837,7 +3837,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -4295,7 +4295,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -4789,7 +4789,7 @@ runnable
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

@@ -1043,7 +1043,7 @@ mImageCache
 nullptr
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports
