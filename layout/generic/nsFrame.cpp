@@ -29809,7 +29809,7 @@ floats_cur_right
 ;
 }
 }
-uint8_t
+StyleFloat
 floatStyle
 =
 floatDisp
@@ -29827,7 +29827,10 @@ floats_cur
 floatStyle
 =
 =
-NS_STYLE_FLOAT_LEFT
+StyleFloat
+:
+:
+Left
 ?
 floats_cur_left
 :
