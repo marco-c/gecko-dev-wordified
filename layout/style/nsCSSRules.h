@@ -1813,6 +1813,12 @@ the
 contents
 of
 aKeys
+and
+takes
+the
+reference
+in
+Declaration
 nsCSSKeyframeRule
 (
 InfallibleTArray
@@ -1822,6 +1828,8 @@ float
 &
 &
 aKeys
+already_AddRefed
+<
 mozilla
 :
 :
@@ -1829,7 +1837,9 @@ css
 :
 :
 Declaration
-*
+>
+&
+&
 aDeclaration
 uint32_t
 aLineNumber
@@ -1860,7 +1870,13 @@ aKeys
 )
 mDeclaration
 (
+mozilla
+:
+:
+Move
+(
 aDeclaration
+)
 )
 {
 mDeclaration
