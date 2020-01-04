@@ -2869,11 +2869,26 @@ not
 None
 and
 not
+(
 isfile
 (
 options
 .
 js_shell
+)
+and
+                                             
+os
+.
+access
+(
+options
+.
+js_shell
+os
+.
+X_OK
+)
 )
 :
         
@@ -2883,6 +2898,7 @@ print
 Could
 not
 find
+executable
 shell
 at
 given
