@@ -4767,7 +4767,7 @@ chromeHandler
 window
 -
 >
-SetInitialKeyboardIndicators
+SetKeyboardIndicators
 (
 ShowAccelerators
 (
