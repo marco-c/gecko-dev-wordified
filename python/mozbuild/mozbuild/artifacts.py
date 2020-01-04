@@ -7627,19 +7627,6 @@ self
 )
 :
         
-#
-First
-commit
-is
-HEAD
-next
-is
-HEAD
-~
-1
-etc
-.
-        
 rev_list
 =
 subprocess
@@ -7665,14 +7652,15 @@ order
 '
             
 '
-HEAD
-~
+-
+-
+max
+-
+count
+=
 {
 num
 }
-.
-.
-HEAD
 '
 .
 format
@@ -7681,6 +7669,10 @@ num
 =
 NUM_REVISIONS_TO_QUERY
 )
+            
+'
+HEAD
+'
         
 ]
 )
