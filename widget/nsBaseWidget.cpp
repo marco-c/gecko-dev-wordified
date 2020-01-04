@@ -11886,6 +11886,9 @@ mTextEventDispatcher
 #
 ifdef
 ACCESSIBILITY
+#
+ifdef
+XP_WIN
 /
 /
 defined
@@ -11923,6 +11926,8 @@ usec_per_sec
 )
 ;
 }
+#
+endif
 a11y
 :
 :
@@ -12051,6 +12056,9 @@ if
 accService
 )
 {
+#
+ifdef
+XP_WIN
 uint32_t
 now
 =
@@ -12070,6 +12078,8 @@ kAccessibilityLastRunDatePref
 now
 )
 ;
+#
+endif
 return
 accService
 -
