@@ -7919,10 +7919,6 @@ this
 _init
 (
 aName
-.
-trim
-(
-)
 aFlags
 )
 ;
@@ -11046,6 +11042,10 @@ setAttribute
 value
 "
 aName
+.
+trim
+(
+)
 )
 ;
 name
