@@ -685,7 +685,7 @@ float
 mPos
 -
 aPos
--
++
 aAdditionalDelta
 )
 /
