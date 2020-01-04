@@ -1302,6 +1302,17 @@ thumbnailWidth
 thumbnailHeight
 ]
 =
+aDestCanvas
+?
+[
+aDestCanvas
+.
+width
+aDestCanvas
+.
+height
+]
+:
 this
 .
 getThumbnailSize
