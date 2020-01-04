@@ -509,6 +509,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+css
+;
 typedef
 nsCSSProps
 :
