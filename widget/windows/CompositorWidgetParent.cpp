@@ -100,6 +100,15 @@ CompositorWidgetParent
 .
 h
 "
+#
+include
+"
+mozulla
+/
+Unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -246,6 +255,9 @@ if
 aObserver
 )
 {
+Unused
+<
+<
 SendObserveVsync
 (
 )
@@ -253,6 +265,9 @@ SendObserveVsync
 }
 else
 {
+Unused
+<
+<
 SendUnobserveVsync
 (
 )
