@@ -2038,8 +2038,10 @@ aWindow
 __SSID
 ]
 )
+{
 return
 ;
+}
 /
 /
 Ignore
@@ -2075,8 +2077,10 @@ navigator
 browser
 "
 )
+{
 return
 ;
+}
 /
 /
 Assign
@@ -2334,8 +2338,10 @@ aWindow
 __SSID
 ]
 )
+{
 return
 ;
+}
 let
 browsers
 =
@@ -2616,12 +2622,14 @@ if
 !
 aNoNotification
 )
+{
 this
 .
 saveStateDelayed
 (
 )
 ;
+}
 this
 .
 _updateCrashReportURL
@@ -2719,8 +2727,10 @@ aBrowser
 .
 __SS_restore
 )
+{
 return
 ;
+}
 delete
 aBrowser
 .
@@ -2731,12 +2741,14 @@ if
 !
 aNoNotification
 )
+{
 this
 .
 saveStateDelayed
 (
 )
 ;
+}
 }
 onTabClose
 :
@@ -2757,8 +2769,10 @@ _maxTabsUndo
 =
 0
 )
+{
 return
 ;
+}
 if
 (
 aWindow
@@ -2855,6 +2869,7 @@ this
 .
 _maxTabsUndo
 )
+{
 this
 .
 _windows
@@ -2878,6 +2893,7 @@ this
 _maxTabsUndo
 )
 ;
+}
 this
 .
 _lastClosedTabIndex
@@ -2959,8 +2975,10 @@ aBrowser
 .
 __SS_restore
 )
+{
 return
 ;
+}
 /
 /
 Ignore
@@ -2992,8 +3010,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 let
 history
 =
@@ -3095,10 +3115,12 @@ history
 .
 index
 )
+{
 index
 -
 -
 ;
+}
 continue
 ;
 }
@@ -3352,8 +3374,10 @@ _loadState
 =
 STATE_RUNNING
 )
+{
 return
 ;
+}
 let
 browsers
 =
@@ -4554,8 +4578,10 @@ aBrowser
 .
 __SS_restore
 )
+{
 return
 ;
+}
 aHistory
 =
 aHistory
@@ -4692,8 +4718,10 @@ aWindow
 __SSID
 ]
 )
+{
 return
 ;
+}
 let
 winData
 =
@@ -4807,6 +4835,7 @@ browser
 .
 __SS_extdata
 )
+{
 tabData
 .
 extData
@@ -4815,6 +4844,7 @@ browser
 .
 __SS_extdata
 ;
+}
 winData
 .
 tabs
@@ -4881,6 +4911,7 @@ window
 .
 closed
 )
+{
 aFunc
 .
 call
@@ -4889,6 +4920,7 @@ this
 window
 )
 ;
+}
 }
 }
 /
@@ -8683,6 +8715,7 @@ aWindow
 __SSID
 ]
 )
+{
 return
 0
 ;
@@ -8699,6 +8732,7 @@ tracked
 by
 SS
 .
+}
 return
 this
 .
@@ -8729,6 +8763,7 @@ aWindow
 .
 __SSID
 )
+{
 throw
 (
 Components
@@ -8740,6 +8775,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 return
 this
 .
@@ -8769,6 +8805,7 @@ aWindow
 .
 __SSID
 )
+{
 throw
 (
 Components
@@ -8780,6 +8817,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 closedTabs
 =
@@ -8799,9 +8837,11 @@ if
 !
 closedTabs
 )
+{
 return
 null
 ;
+}
 /
 /
 If
@@ -8979,6 +9019,7 @@ aWindow
 .
 __SSID
 )
+{
 throw
 (
 Components
@@ -8990,6 +9031,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 closedTabs
 =
@@ -9030,6 +9072,7 @@ in
 closedTabs
 )
 )
+{
 throw
 (
 Components
@@ -9041,6 +9084,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 /
 /
 remove
@@ -9122,6 +9166,7 @@ aWindow
 .
 __SSID
 )
+{
 throw
 (
 Components
@@ -9133,6 +9178,7 @@ Cr
 NS_ERROR_INVALID_ARG
 )
 ;
+}
 let
 closedTabs
 =
@@ -9495,8 +9541,10 @@ aWindow
 __SSID
 ]
 )
+{
 return
 ;
+}
 delete
 this
 .
