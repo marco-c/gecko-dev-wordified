@@ -256,7 +256,7 @@ mDates
 PLDHashTable
 mBlobs
 ;
-nsAutoCString
+nsCString
 mLastURIPrefix
 ;
 nsCOMPtr
