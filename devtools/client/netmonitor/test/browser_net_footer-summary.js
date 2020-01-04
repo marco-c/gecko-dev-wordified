@@ -735,7 +735,7 @@ network
 -
 summary
 -
-label
+button
 "
 )
 ;
@@ -747,7 +747,7 @@ summary
 getAttribute
 (
 "
-value
+label
 "
 )
 ;
