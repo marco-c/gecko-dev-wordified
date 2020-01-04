@@ -2310,7 +2310,7 @@ nsHostResolver
 RES_ALLOW_NAME_COLLISION
 )
 ;
-RefPtr
+nsAutoPtr
 <
 AddrInfo
 >
@@ -2348,11 +2348,13 @@ return
 NS_ERROR_UNKNOWN_HOST
 ;
 }
+*
+aAddrInfo
+=
 ai
 .
 forget
 (
-aAddrInfo
 )
 ;
 return

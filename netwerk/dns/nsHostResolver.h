@@ -542,8 +542,6 @@ addr_info
 |
 *
 /
-RefPtr
-<
 mozilla
 :
 :
@@ -551,7 +549,7 @@ net
 :
 :
 AddrInfo
->
+*
 addr_info
 ;
 mozilla

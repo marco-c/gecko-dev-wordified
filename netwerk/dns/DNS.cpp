@@ -1987,10 +1987,6 @@ NetAddrElement
 )
 {
 }
-NS_IMPL_ISUPPORTS0
-(
-AddrInfo
-)
 AddrInfo
 :
 :
