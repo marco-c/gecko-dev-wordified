@@ -855,6 +855,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1067,6 +1069,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1379,6 +1383,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1747,6 +1753,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2123,6 +2131,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2503,6 +2513,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2661,6 +2673,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2778,6 +2792,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2985,6 +3001,8 @@ Crash
 the
 tab
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
