@@ -1233,6 +1233,8 @@ clear
 -
 origin
 -
+attributes
+-
 data
 "
 )
@@ -4361,6 +4363,8 @@ ClearOriginDataObserver
 clear
 -
 origin
+-
+attributes
 -
 data
 "

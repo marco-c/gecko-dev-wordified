@@ -1019,6 +1019,8 @@ clear
 -
 origin
 -
+attributes
+-
 data
 notification
 "
@@ -1385,6 +1387,8 @@ clear
 -
 origin
 -
+attributes
+-
 data
 "
 )
@@ -1499,6 +1503,8 @@ obs
 clear
 -
 origin
+-
+attributes
 -
 data
 "
