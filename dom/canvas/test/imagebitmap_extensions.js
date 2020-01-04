@@ -1607,6 +1607,7 @@ RGBA32
 "
 YUV420P
 "
+2
 )
 testColorConversion
 (
@@ -1717,6 +1718,7 @@ BGRA32
 "
 YUV422P
 "
+2
 )
 testColorConversion
 (
@@ -1726,6 +1728,7 @@ BGRA32
 "
 YUV420P
 "
+2
 )
 testColorConversion
 (
@@ -1735,6 +1738,7 @@ BGRA32
 "
 YUV420SP_NV12
 "
+2
 )
 testColorConversion
 (
@@ -1744,6 +1748,7 @@ BGRA32
 "
 YUV420SP_NV21
 "
+2
 )
 testColorConversion
 (
@@ -2071,7 +2076,7 @@ YUV444P
 "
 YUV422P
 "
-3
+4
 )
 testColorConversion
 (
@@ -2148,6 +2153,7 @@ YUV422P
 "
 BGRA32
 "
+2
 )
 testColorConversion
 (
@@ -2258,6 +2264,7 @@ YUV420P
 "
 RGBA32
 "
+2
 )
 testColorConversion
 (
@@ -2267,6 +2274,7 @@ YUV420P
 "
 BGRA32
 "
+2
 )
 testColorConversion
 (
@@ -2313,6 +2321,7 @@ YUV420P
 "
 YUV422P
 "
+1
 )
 testColorConversion
 (
@@ -2386,6 +2395,7 @@ YUV420SP_NV12
 "
 BGRA32
 "
+2
 )
 testColorConversion
 (
@@ -2432,6 +2442,7 @@ YUV420SP_NV12
 "
 YUV422P
 "
+1
 )
 testColorConversion
 (
@@ -2505,6 +2516,7 @@ YUV420SP_NV21
 "
 BGRA32
 "
+2
 )
 testColorConversion
 (
@@ -2551,6 +2563,7 @@ YUV420SP_NV21
 "
 YUV422P
 "
+1
 )
 testColorConversion
 (
