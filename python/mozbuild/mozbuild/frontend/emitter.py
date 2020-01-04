@@ -190,8 +190,6 @@ PreprocessedWebIDLFile
     
 Program
     
-ReaderSummary
-    
 Resources
     
 SharedLibrary
@@ -252,6 +250,12 @@ SubContext
     
 TemplateContext
 )
+from
+mozbuild
+.
+base
+import
+ExecutionSummary
 class
 TreeMetadataEmitter
 (
@@ -606,6 +610,68 @@ security
 nss
 '
 )
+        
+self
+.
+_emitter_time
+=
+0
+.
+0
+        
+self
+.
+_object_count
+=
+0
+    
+def
+summary
+(
+self
+)
+:
+        
+return
+ExecutionSummary
+(
+            
+'
+Processed
+into
+{
+object_count
+:
+d
+}
+build
+config
+descriptors
+in
+'
+            
+'
+{
+execution_time
+:
+.
+2f
+}
+s
+'
+            
+execution_time
+=
+self
+.
+_emitter_time
+            
+object_count
+=
+self
+.
+_object_count
+)
     
 def
 emit
@@ -653,22 +719,6 @@ function
 "
 "
         
-file_count
-=
-0
-        
-sandbox_execution_time
-=
-0
-.
-0
-        
-emitter_time
-=
-0
-.
-0
-        
 contexts
 =
 {
@@ -686,6 +736,13 @@ o
 in
 objs
 :
+                
+self
+.
+_object_count
++
+=
+1
                 
 yield
 o
@@ -815,7 +872,9 @@ out
 )
 )
                 
-emitter_time
+self
+.
+_emitter_time
 +
 =
 time
@@ -836,29 +895,6 @@ objs
 :
 yield
 o
-                
-#
-Update
-the
-stats
-.
-                
-file_count
-+
-=
-len
-(
-out
-.
-all_paths
-)
-                
-sandbox_execution_time
-+
-=
-out
-.
-execution_time
             
 else
 :
@@ -943,7 +979,9 @@ contexts
 )
 )
             
-emitter_time
+self
+.
+_emitter_time
 +
 =
 time
@@ -964,14 +1002,6 @@ objs
 :
 yield
 o
-        
-yield
-ReaderSummary
-(
-file_count
-sandbox_execution_time
-emitter_time
-)
     
 def
 _emit_libs_derived
