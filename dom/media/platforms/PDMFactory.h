@@ -566,6 +566,11 @@ PlatformDecoderModule
 >
 mEMEPDM
 ;
+bool
+mFFmpegFailedToLoad
+=
+false
+;
 }
 ;
 }
