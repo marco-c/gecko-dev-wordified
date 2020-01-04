@@ -705,10 +705,10 @@ a
 different
 artifacts
 folder
-                
-#
 on
 the
+                
+#
 Gecko
 decision
 task
@@ -718,13 +718,10 @@ to
 have
 longer
 expiration
-                
-#
 dates
 for
 smaller
 artifacts
-.
                 
 destination
 =
