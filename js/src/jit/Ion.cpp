@@ -15809,7 +15809,7 @@ compilation
 .
 if
 (
-script
+rscript
 -
 >
 isIonCompilingOffThread
