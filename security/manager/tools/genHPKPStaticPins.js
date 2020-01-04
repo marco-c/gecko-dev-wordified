@@ -3778,6 +3778,7 @@ static
 const
 char
 *
+const
 "
 +
 varPrefix

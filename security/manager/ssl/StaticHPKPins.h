@@ -2212,6 +2212,7 @@ static
 const
 char
 *
+const
 kPinset_google_root_pems_Data
 [
 ]
@@ -2298,6 +2299,7 @@ static
 const
 char
 *
+const
 kPinset_mozilla_Data
 [
 ]
@@ -2349,6 +2351,7 @@ static
 const
 char
 *
+const
 kPinset_mozilla_services_Data
 [
 ]
@@ -2381,6 +2384,7 @@ static
 const
 char
 *
+const
 kPinset_mozilla_test_Data
 [
 ]
@@ -2420,6 +2424,7 @@ static
 const
 char
 *
+const
 kPinset_test_Data
 [
 ]
@@ -2452,6 +2457,7 @@ static
 const
 char
 *
+const
 kPinset_google_Data
 [
 ]
@@ -2486,6 +2492,7 @@ static
 const
 char
 *
+const
 kPinset_tor_Data
 [
 ]
@@ -2524,6 +2531,7 @@ static
 const
 char
 *
+const
 kPinset_twitterCom_Data
 [
 ]
@@ -2576,6 +2584,7 @@ static
 const
 char
 *
+const
 kPinset_twitterCDN_Data
 [
 ]
@@ -2649,6 +2658,7 @@ static
 const
 char
 *
+const
 kPinset_dropbox_Data
 [
 ]
@@ -2698,6 +2708,7 @@ static
 const
 char
 *
+const
 kPinset_facebook_Data
 [
 ]
@@ -2733,6 +2744,7 @@ static
 const
 char
 *
+const
 kPinset_spideroak_Data
 [
 ]
@@ -2768,6 +2780,7 @@ static
 const
 char
 *
+const
 kPinset_yahoo_Data
 [
 ]
