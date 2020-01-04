@@ -1304,6 +1304,7 @@ aWindow
 DOMMediaStream
 (
 aWindow
+nullptr
 )
 mCameraControl
 (
