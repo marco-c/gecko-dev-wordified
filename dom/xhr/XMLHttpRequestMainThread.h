@@ -3166,6 +3166,11 @@ mDecoder
 nsCString
 mResponseCharset
 ;
+void
+MatchCharsetAndDecoderToResponseDocument
+(
+)
+;
 XMLHttpRequestResponseType
 mResponseType
 ;
@@ -3527,6 +3532,9 @@ HandleTimeoutCallback
 ;
 bool
 mErrorLoad
+;
+bool
+mErrorParsingXML
 ;
 bool
 mWaitingForOnStopRequest
