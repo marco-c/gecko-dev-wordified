@@ -580,7 +580,7 @@ disabled
 return
 ;
 }
-mozilla_sampler_stop
+profiler_stop
 (
 )
 ;
