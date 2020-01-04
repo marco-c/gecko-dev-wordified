@@ -1575,16 +1575,6 @@ NS_ConvertUTF16toUTF8
 (
 uriStr
 )
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
-nsIContentPolicy
-:
-:
-TYPE_OTHER
 )
 ;
 }
