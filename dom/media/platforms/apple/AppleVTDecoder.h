@@ -555,7 +555,7 @@ VideoToolbox
 for
 decoding
 .
-nsresult
+MediaResult
 DoDecode
 (
 MediaRawData

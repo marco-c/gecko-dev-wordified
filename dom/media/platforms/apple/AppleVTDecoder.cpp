@@ -2433,7 +2433,7 @@ return
 timestamp
 ;
 }
-nsresult
+MediaResult
 AppleVTDecoder
 :
 :
@@ -2626,7 +2626,11 @@ __func__
 )
 ;
 return
+MediaResult
+(
 NS_ERROR_OUT_OF_MEMORY
+__func__
+)
 ;
 }
 CMSampleTimingInfo
@@ -2692,7 +2696,11 @@ __func__
 )
 ;
 return
+MediaResult
+(
 NS_ERROR_OUT_OF_MEMORY
+__func__
+)
 ;
 }
 VTDecodeFrameFlags

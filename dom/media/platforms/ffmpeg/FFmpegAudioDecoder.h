@@ -229,7 +229,7 @@ decoder
 }
 private
 :
-DecodeResult
+MediaResult
 DoDecode
 (
 MediaRawData
