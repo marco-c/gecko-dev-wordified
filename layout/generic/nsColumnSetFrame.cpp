@@ -501,7 +501,7 @@ ruleColor
 =
 GetVisitedDependentColor
 (
-eCSSProperty__moz_column_rule_color
+eCSSProperty_column_rule_color
 )
 ;
 /

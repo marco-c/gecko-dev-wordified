@@ -42631,9 +42631,9 @@ kColumnRuleIDs
 ]
 =
 {
-eCSSProperty__moz_column_rule_width
-eCSSProperty__moz_column_rule_style
-eCSSProperty__moz_column_rule_color
+eCSSProperty_column_rule_width
+eCSSProperty_column_rule_style
+eCSSProperty_column_rule_color
 }
 ;
 bool
@@ -70554,7 +70554,7 @@ eCSSProperty_clip
 )
 ;
 case
-eCSSProperty__moz_columns
+eCSSProperty_columns
 :
 return
 ParseColumns
@@ -70562,7 +70562,7 @@ ParseColumns
 )
 ;
 case
-eCSSProperty__moz_column_rule
+eCSSProperty_column_rule
 :
 return
 ParseBorderSide
@@ -84117,8 +84117,8 @@ columnIDs
 =
 {
 eCSSPropertyExtra_x_auto_value
-eCSSProperty__moz_column_count
-eCSSProperty__moz_column_width
+eCSSProperty_column_count
+eCSSProperty_column_width
 }
 ;
 const
