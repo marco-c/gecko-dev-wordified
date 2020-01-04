@@ -439,6 +439,17 @@ include
 "
 vm
 /
+NativeObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 ScopeObject
 -
 inl

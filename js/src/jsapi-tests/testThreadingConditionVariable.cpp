@@ -267,6 +267,9 @@ testThreadingConditionVariable
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -343,6 +346,9 @@ testThreadingConditionVariablePredicate
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -425,6 +431,9 @@ testThreadingConditionVariableUntilOkay
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -548,6 +557,9 @@ testThreadingConditionVariableUntilTimeout
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -754,6 +766,9 @@ testThreadingConditionVariableUntilOkayPredicate
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -869,6 +884,9 @@ testThreadingConditionVariableUntilTimeoutPredicate
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -980,6 +998,9 @@ testThreadingConditionVariableForOkay
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -1093,6 +1114,9 @@ testThreadingConditionVariableForTimeout
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -1280,6 +1304,9 @@ testThreadingConditionVariableForOkayPredicate
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState
@@ -1385,6 +1412,9 @@ testThreadingConditionVariableForTimeoutPredicate
 auto
 state
 =
+mozilla
+:
+:
 MakeUnique
 <
 TestState

@@ -188,6 +188,9 @@ GenerateInterfaceHelp
 JSContext
 *
 cx
+JS
+:
+:
 HandleObject
 obj
 const
