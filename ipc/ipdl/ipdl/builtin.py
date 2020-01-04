@@ -289,6 +289,14 @@ nsTHashtable
 .
 h
 '
+    
+'
+mozilla
+/
+OperatorNewExtensions
+.
+h
+'
 )
 CppIncludes
 =
