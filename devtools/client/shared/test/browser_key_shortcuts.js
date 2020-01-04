@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 var
 isOSX
 =
@@ -290,6 +295,7 @@ onShortcut
 ;
 }
 function
+*
 testSimple
 (
 shortcuts
@@ -378,6 +384,7 @@ onKey
 ;
 }
 function
+*
 testNonLetterCharacter
 (
 shortcuts
@@ -442,6 +449,7 @@ onKey
 ;
 }
 function
+*
 testFunctionKey
 (
 shortcuts
@@ -555,6 +563,7 @@ a
 character
 key
 function
+*
 testPlusCharacter
 (
 shortcuts
@@ -635,6 +644,7 @@ up
 between
 shortcuts
 function
+*
 testMixup
 (
 shortcuts
@@ -940,6 +950,7 @@ doing
 that
 .
 function
+*
 testLooseDigits
 (
 shortcuts
@@ -1155,6 +1166,7 @@ modifiers
 match
 exactly
 function
+*
 testExactModifiers
 (
 shortcuts
@@ -1503,6 +1515,7 @@ US
 keybords
 .
 function
+*
 testLooseShiftModifier
 (
 shortcuts
@@ -1706,6 +1719,7 @@ to
 Z
 )
 function
+*
 testStrictLetterShiftModifier
 (
 shortcuts
@@ -1910,6 +1924,7 @@ onKey
 ;
 }
 function
+*
 testAltModifier
 (
 shortcuts
@@ -2008,6 +2023,7 @@ onKey
 ;
 }
 function
+*
 testCommandOrControlModifier
 (
 shortcuts
@@ -2245,6 +2261,7 @@ onKeyAlias
 ;
 }
 function
+*
 testCtrlModifier
 (
 shortcuts
@@ -2410,6 +2427,7 @@ onKeyAlias
 ;
 }
 function
+*
 testCmdShiftShortcut
 (
 shortcuts
@@ -2602,6 +2620,7 @@ onCmdShiftKey
 ;
 }
 function
+*
 testTarget
 (
 )
