@@ -325,13 +325,6 @@ getURLMetadata
 (
 )
 ;
-public
-abstract
-ReadingListAccessor
-getReadingListAccessor
-(
-)
-;
 RobocopTarget
 UrlAnnotations
 getUrlAnnotations
