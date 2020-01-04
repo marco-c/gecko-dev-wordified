@@ -888,14 +888,14 @@ void
 MapSinglePropertyInto
 (
 nsCSSProperty
-aProp
+aTargetProp
 const
 nsCSSValue
 *
-aValue
+aSrcValue
 nsCSSValue
 *
-aTarget
+aTargetValue
 nsRuleData
 *
 aRuleData
@@ -903,7 +903,7 @@ aRuleData
 {
 MOZ_ASSERT
 (
-aValue
+aSrcValue
 -
 >
 GetUnit
@@ -920,7 +920,7 @@ oops
 /
 /
 Although
-aTarget
+aTargetValue
 is
 the
 nsCSSValue
@@ -949,7 +949,7 @@ done
 /
 /
 when
-aTarget
+aTargetValue
 is
 a
 token
@@ -1008,7 +1008,7 @@ lifetime
 .
 MOZ_ASSERT
 (
-aTarget
+aTargetValue
 -
 >
 GetUnit
@@ -1019,7 +1019,7 @@ GetUnit
 eCSSUnit_TokenStream
 |
 |
-aTarget
+aTargetValue
 -
 >
 GetUnit
@@ -1029,7 +1029,7 @@ GetUnit
 =
 eCSSUnit_Null
 "
-aTarget
+aTargetValue
 must
 only
 be
@@ -1058,7 +1058,7 @@ if
 ShouldStartImageLoads
 (
 aRuleData
-aProp
+aTargetProp
 )
 )
 {
@@ -1079,14 +1079,14 @@ Document
 TryToStartImageLoad
 (
 *
-aValue
+aSrcValue
 doc
 aRuleData
 -
 >
 mStyleContext
-aProp
-aTarget
+aTargetProp
+aTargetValue
 -
 >
 GetUnit
@@ -1099,10 +1099,10 @@ eCSSUnit_TokenStream
 ;
 }
 *
-aTarget
+aTargetValue
 =
 *
-aValue
+aSrcValue
 ;
 if
 (
@@ -1111,7 +1111,7 @@ nsCSSProps
 :
 PropHasFlags
 (
-aProp
+aTargetProp
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 )
 &
@@ -1124,7 +1124,7 @@ aRuleData
 {
 if
 (
-aProp
+aTargetProp
 =
 =
 eCSSProperty_background_color
@@ -1151,7 +1151,7 @@ default
 .
 if
 (
-aTarget
+aTargetValue
 -
 >
 IsNonTransparentColor
@@ -1159,7 +1159,7 @@ IsNonTransparentColor
 )
 )
 {
-aTarget
+aTargetValue
 -
 >
 SetColorValue
@@ -1195,7 +1195,7 @@ color
 etc
 .
 *
-aTarget
+aTargetValue
 =
 nsCSSValue
 (
