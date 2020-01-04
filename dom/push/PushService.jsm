@@ -2966,6 +2966,13 @@ enabled
 ;
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 else
