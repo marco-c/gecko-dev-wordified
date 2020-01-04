@@ -222,6 +222,13 @@ viewport
 )
 .
 isRequired
+onBrowserMounted
+:
+PropTypes
+.
+func
+.
+isRequired
 onChangeViewportDevice
 :
 PropTypes
@@ -593,6 +600,7 @@ devices
 location
 screenshot
 viewport
+onBrowserMounted
 onChangeViewportDevice
 onResizeViewport
 onRotateViewport
@@ -717,6 +725,7 @@ Browser
 (
 {
 location
+onBrowserMounted
 }
 )
 )

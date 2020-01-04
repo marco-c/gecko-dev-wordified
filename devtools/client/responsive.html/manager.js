@@ -1301,6 +1301,17 @@ addInitialViewport
 contentURI
 )
 ;
+yield
+waitForMessage
+(
+toolWindow
+"
+browser
+-
+mounted
+"
+)
+;
 toolWindow
 .
 addEventListener
