@@ -664,10 +664,10 @@ skin
 tree
 /
 twisty
--
-open
 .
-png
+svg
+#
+open
 "
 )
 ;
@@ -735,10 +735,10 @@ skin
 tree
 /
 twisty
--
-clsd
 .
-png
+svg
+#
+clsd
 "
 )
 ;
