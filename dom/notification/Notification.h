@@ -1213,7 +1213,7 @@ aData
 const
 nsAString
 &
-aServiceWorkerRegistrationID
+aServiceWorkerRegistrationScope
 ErrorResult
 &
 aRv
