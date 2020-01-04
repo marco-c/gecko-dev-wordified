@@ -3975,7 +3975,7 @@ reject
 call
 "
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

@@ -1278,7 +1278,7 @@ it
 by
 hand
 .
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

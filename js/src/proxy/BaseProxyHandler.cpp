@@ -2461,7 +2461,7 @@ callable
 )
 const
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

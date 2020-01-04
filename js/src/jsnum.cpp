@@ -5790,7 +5790,7 @@ prec
 10
 )
 )
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

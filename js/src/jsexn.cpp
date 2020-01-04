@@ -5508,7 +5508,7 @@ of
 /
 /
 /
-JS_ReportErrorNumber
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

@@ -731,7 +731,7 @@ PRIu32
 line
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage

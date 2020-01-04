@@ -10307,7 +10307,7 @@ PRIu32
 saveLength
 )
 ;
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 cx
 my_GetErrorMessage

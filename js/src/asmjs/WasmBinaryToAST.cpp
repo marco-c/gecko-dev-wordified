@@ -13163,7 +13163,7 @@ if
 error
 )
 {
-JS_ReportErrorNumber
+JS_ReportErrorNumberASCII
 (
 c
 .
