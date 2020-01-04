@@ -1077,6 +1077,10 @@ IMPL_EVENT_HANDLER
 (
 configurationchange
 )
+IMPL_EVENT_HANDLER
+(
+poster
+)
 protected
 :
 virtual
