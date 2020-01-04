@@ -115,6 +115,10 @@ under
 the
 License
 .
+*
+/
+/
+*
 Collection
 of
 static
@@ -122988,7 +122992,7 @@ kBrotliDictionaryOffsetsByLength
 ;
 static
 const
-int
+int8_t
 kBrotliDictionarySizeBitsByLength
 [
 ]
