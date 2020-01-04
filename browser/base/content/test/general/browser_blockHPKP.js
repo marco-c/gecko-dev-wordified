@@ -953,7 +953,7 @@ text
 indexOf
 (
 "
-mozilla_pkix_error_key_pinning_failure
+MOZILLA_PKIX_ERROR_KEY_PINNING_FAILURE
 "
 )
 >
