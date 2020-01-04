@@ -140,9 +140,6 @@ removePagesByTimeframe
 removePagesFromHost
 "
 "
-removeVisitsByTimeframe
-"
-"
 getObservers
 "
 ]
