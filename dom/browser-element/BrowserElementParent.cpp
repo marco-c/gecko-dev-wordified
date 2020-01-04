@@ -822,14 +822,7 @@ DispatchDOMEvent
 (
 aFrameElement
 nullptr
-static_cast
-<
-Event
-*
->
-(
 event
-)
 presContext
 aStatus
 )
