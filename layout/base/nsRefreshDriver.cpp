@@ -5911,6 +5911,10 @@ mSkippedPaints
 (
 false
 )
+mResizeSuppressed
+(
+false
+)
 {
 mMostRecentRefreshEpochTime
 =
@@ -9586,6 +9590,10 @@ StopTimer
 return
 ;
 }
+mResizeSuppressed
+=
+false
+;
 AutoRestore
 <
 bool
