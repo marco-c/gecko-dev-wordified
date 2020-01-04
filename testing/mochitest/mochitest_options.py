@@ -7863,6 +7863,25 @@ mochitest
 log
 '
         
+#
+Specialpowers
+is
+integrated
+with
+marionette
+for
+b2g
+        
+#
+see
+marionette
+'
+s
+jar
+.
+mn
+.
+        
 '
 extensionsToExclude
 '

@@ -2988,7 +2988,7 @@ content
 /
 SpecialPowersObserver
 .
-js
+jsm
 "
                 
 testUtils
@@ -3012,15 +3012,6 @@ testUtils
 specialPowersObserver
 .
 init
-(
-)
-;
-              
-testUtils
-.
-specialPowersObserver
-.
-_loadFrameScript
 (
 )
 ;
