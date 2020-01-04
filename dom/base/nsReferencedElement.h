@@ -370,6 +370,11 @@ Element
 nsReferencedElement
 (
 )
+:
+mReferencingImage
+(
+false
+)
 {
 }
 ~
