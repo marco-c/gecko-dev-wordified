@@ -5930,7 +5930,7 @@ Simple
 call
 functions
 .
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -5950,7 +5950,7 @@ as_nop
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 currentOffset
 (
@@ -5958,7 +5958,7 @@ currentOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -5975,7 +5975,7 @@ label
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 currentOffset
 (
@@ -5983,7 +5983,7 @@ currentOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :

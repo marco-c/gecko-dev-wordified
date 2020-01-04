@@ -171,7 +171,7 @@ inline
 void
 EmitCallIC
 (
-CodeOffset
+CodeOffsetLabel
 *
 MacroAssembler
 &

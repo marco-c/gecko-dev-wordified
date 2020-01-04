@@ -1452,7 +1452,7 @@ currentOffset
 void
 writePrebarrierOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -2379,7 +2379,7 @@ alignment
 void
 writeCodePointer
 (
-CodeOffset
+CodeOffsetLabel
 *
 label
 )
@@ -2387,7 +2387,7 @@ label
 /
 /
 A
-CodeOffset
+CodeOffsetLabel
 only
 has
 one
@@ -2415,7 +2415,7 @@ INVALID_OFFSET
 label
 -
 >
-bind
+use
 (
 masm
 .
@@ -6509,7 +6509,7 @@ offset
 void
 use
 (
-CodeOffset
+CodeOffsetLabel
 *
 label
 )
@@ -6517,7 +6517,7 @@ label
 label
 -
 >
-bind
+use
 (
 currentOffset
 (
@@ -6744,7 +6744,7 @@ Bind
 uint8_t
 *
 raw
-CodeOffset
+CodeOffsetLabel
 *
 label
 const
@@ -6758,7 +6758,7 @@ if
 label
 -
 >
-bound
+used
 (
 )
 )
@@ -6799,7 +6799,7 @@ setPointer
 size_t
 labelToPatchOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -6868,7 +6868,7 @@ void
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 call
 (
 Label
@@ -6946,7 +6946,7 @@ prev
 ;
 }
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -6956,7 +6956,7 @@ currentOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 call
 (
 Register
@@ -6975,7 +6975,7 @@ encoding
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -7059,13 +7059,13 @@ kind
 ;
 }
 }
-CodeOffset
+CodeOffsetLabel
 callWithPatch
 (
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -7626,7 +7626,7 @@ kind
 ;
 }
 }
-CodeOffset
+CodeOffsetLabel
 cmplWithPatch
 (
 Imm32
@@ -7650,7 +7650,7 @@ encoding
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -7981,7 +7981,7 @@ encoding
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 addlWithPatch
 (
 Imm32
@@ -8005,7 +8005,7 @@ encoding
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .

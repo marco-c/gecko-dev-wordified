@@ -7831,7 +7831,7 @@ getOffset
 void
 writePrebarrierOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -8246,7 +8246,7 @@ public
 void
 writeCodePointer
 (
-CodeOffset
+CodeOffsetLabel
 *
 label
 )
@@ -10554,7 +10554,7 @@ Bind
 uint8_t
 *
 rawCode
-CodeOffset
+CodeOffsetLabel
 *
 label
 const
@@ -10570,7 +10570,7 @@ Bind
 size_t
 labelToPatchOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {

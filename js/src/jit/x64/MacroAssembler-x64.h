@@ -9987,7 +9987,7 @@ noteAsmJSGlobalAccess
 void
 patchAsmJSGlobalAccess
 (
-CodeOffset
+CodeOffsetLabel
 patchAt
 uint8_t
 *

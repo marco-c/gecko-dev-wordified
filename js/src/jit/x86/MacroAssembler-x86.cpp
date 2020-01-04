@@ -875,7 +875,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -938,7 +938,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -1006,7 +1006,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -1069,7 +1069,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -1170,7 +1170,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -1271,7 +1271,7 @@ uses
 .
 append
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -1319,7 +1319,7 @@ d
 doubles_
 )
 {
-CodeOffset
+CodeOffsetLabel
 cst
 (
 masm
@@ -1331,7 +1331,7 @@ currentOffset
 ;
 for
 (
-CodeOffset
+CodeOffsetLabel
 use
 :
 d
@@ -1393,7 +1393,7 @@ f
 floats_
 )
 {
-CodeOffset
+CodeOffsetLabel
 cst
 (
 masm
@@ -1405,7 +1405,7 @@ currentOffset
 ;
 for
 (
-CodeOffset
+CodeOffsetLabel
 use
 :
 f
@@ -1474,7 +1474,7 @@ v
 simds_
 )
 {
-CodeOffset
+CodeOffsetLabel
 cst
 (
 masm
@@ -1486,7 +1486,7 @@ currentOffset
 ;
 for
 (
-CodeOffset
+CodeOffsetLabel
 use
 :
 v

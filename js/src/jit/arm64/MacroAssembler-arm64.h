@@ -1646,7 +1646,7 @@ the
 highest
 level
 .
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmWord
@@ -1670,7 +1670,7 @@ word
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmPtr
@@ -2851,7 +2851,7 @@ valueReg
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 pushWithPatch
 (
 ImmWord
@@ -2881,7 +2881,7 @@ asUnsized
 (
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 =
 movWithPatch
@@ -2899,7 +2899,7 @@ return
 label
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmWord
@@ -2924,7 +2924,7 @@ value
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -2934,7 +2934,7 @@ getOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmPtr
@@ -2962,7 +2962,7 @@ value
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -5431,7 +5431,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -19817,7 +19817,7 @@ ToggleToCmp
 (
 )
 .
-CodeOffset
+CodeOffsetLabel
 toggledJump
 (
 Label
@@ -19834,7 +19834,7 @@ label
 Always
 )
 ;
-CodeOffset
+CodeOffsetLabel
 ret
 (
 offset
@@ -19966,7 +19966,7 @@ getOffset
 void
 writePrebarrierOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -20090,13 +20090,13 @@ offset
 }
 public
 :
-CodeOffset
+CodeOffsetLabel
 labelForPatch
 (
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 nextOffset
 (
@@ -20129,7 +20129,7 @@ noteAsmJSGlobalAccess
 void
 patchAsmJSGlobalAccess
 (
-CodeOffset
+CodeOffsetLabel
 patchAt
 uint8_t
 *
@@ -22270,7 +22270,7 @@ patch
 this
 instruction
 .
-CodeOffset
+CodeOffsetLabel
 toggledCall
 (
 JitCode
@@ -22437,7 +22437,7 @@ Relocation
 JITCODE
 )
 ;
-CodeOffset
+CodeOffsetLabel
 ret
 (
 offset

@@ -1250,7 +1250,7 @@ chain
 is
 initialized
 .
-CodeOffset
+CodeOffsetLabel
 prologueOffset_
 ;
 /
@@ -1272,7 +1272,7 @@ method
 returned
 from
 .
-CodeOffset
+CodeOffsetLabel
 epilogueOffset_
 ;
 /
@@ -1297,7 +1297,7 @@ mode
 is
 off
 .
-CodeOffset
+CodeOffsetLabel
 postDebugPrologueOffset_
 ;
 /

@@ -11777,7 +11777,7 @@ into
 the
 stubcode
 .
-CodeOffset
+CodeOffsetLabel
 patchOffset
 ;
 IonICEntry
@@ -11808,7 +11808,7 @@ entry
 .
 setReturnOffset
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -28221,7 +28221,7 @@ Label
 invalidated
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm
@@ -59719,7 +59719,7 @@ i
 +
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 sharedStubs_
@@ -74070,7 +74070,7 @@ not
 yet
 recompiling
 .
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm

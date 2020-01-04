@@ -2479,14 +2479,14 @@ StackPointer
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 pushWithPatch
 (
 ImmWord
 word
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 movWithPatch
@@ -2534,7 +2534,7 @@ StackPointer
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmWord
@@ -2558,7 +2558,7 @@ encoding
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -2568,7 +2568,7 @@ currentOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmPtr
@@ -4713,7 +4713,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -4803,7 +4803,7 @@ dest
 void
 mov
 (
-CodeOffset
+CodeOffsetLabel
 *
 label
 Register
@@ -4830,7 +4830,7 @@ encoding
 label
 -
 >
-bind
+use
 (
 masm
 .
@@ -4957,7 +4957,7 @@ kind
 ;
 }
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeInt32
 (
 Register
@@ -4965,7 +4965,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -4984,7 +4984,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeInt64
 (
 Register
@@ -4992,7 +4992,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5011,7 +5011,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeDouble
 (
 FloatRegister
@@ -5019,7 +5019,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5038,7 +5038,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeFloat32
 (
 FloatRegister
@@ -5046,7 +5046,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5065,7 +5065,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeInt32x4
 (
 FloatRegister
@@ -5073,7 +5073,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5092,7 +5092,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 loadRipRelativeFloat32x4
 (
 FloatRegister
@@ -5100,7 +5100,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5119,7 +5119,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 storeRipRelativeInt32
 (
 Register
@@ -5127,7 +5127,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5146,7 +5146,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 storeRipRelativeDouble
 (
 FloatRegister
@@ -5154,7 +5154,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5173,7 +5173,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 storeRipRelativeFloat32
 (
 FloatRegister
@@ -5181,7 +5181,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5200,7 +5200,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 storeRipRelativeInt32x4
 (
 FloatRegister
@@ -5208,7 +5208,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5227,7 +5227,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 storeRipRelativeFloat32x4
 (
 FloatRegister
@@ -5235,7 +5235,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5254,7 +5254,7 @@ offset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 leaRipRelative
 (
 Register
@@ -5262,7 +5262,7 @@ dest
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5288,7 +5288,7 @@ Register
 dest
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 loadRipRelativeInt64
@@ -5311,7 +5311,7 @@ loadAsmJSHeapRegisterFromGlobalData
 (
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 loadRipRelativeInt64
@@ -6007,7 +6007,7 @@ patch
 this
 instruction
 .
-CodeOffset
+CodeOffsetLabel
 toggledCall
 (
 JitCode
@@ -6017,7 +6017,7 @@ bool
 enabled
 )
 {
-CodeOffset
+CodeOffsetLabel
 offset
 (
 size

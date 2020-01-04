@@ -1305,7 +1305,7 @@ MOZ_CRASH
 uint32_t
 labelToPatchOffset
 (
-CodeOffset
+CodeOffsetLabel
 )
 {
 MOZ_CRASH
@@ -1313,7 +1313,7 @@ MOZ_CRASH
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 labelForPatch
 (
 )
@@ -1363,7 +1363,7 @@ MOZ_CRASH
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 toggledJump
 (
 Label
@@ -1375,7 +1375,7 @@ MOZ_CRASH
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 toggledCall
 (
 JitCode
@@ -1404,7 +1404,7 @@ MOZ_CRASH
 void
 writePrebarrierOffset
 (
-CodeOffset
+CodeOffsetLabel
 )
 {
 MOZ_CRASH
@@ -1663,7 +1663,7 @@ template
 typename
 T
 >
-CodeOffset
+CodeOffsetLabel
 pushWithPatch
 (
 T
@@ -2405,7 +2405,7 @@ template
 typename
 T
 >
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 T

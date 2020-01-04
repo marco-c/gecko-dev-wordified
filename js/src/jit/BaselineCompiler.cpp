@@ -1677,7 +1677,7 @@ i
 +
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 icLoadLabels_
@@ -2951,7 +2951,7 @@ initialized
 .
 prologueOffset_
 =
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -3100,7 +3100,7 @@ recompile
 .
 epilogueOffset_
 =
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -3472,7 +3472,7 @@ entry
 return
 false
 ;
-CodeOffset
+CodeOffsetLabel
 patchOffset
 ;
 EmitCallIC
@@ -3487,7 +3487,7 @@ entry
 >
 setReturnOffset
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -4213,7 +4213,7 @@ done
 }
 postDebugPrologueOffset_
 =
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -5296,7 +5296,7 @@ mozilla
 :
 DebugOnly
 <
-CodeOffset
+CodeOffsetLabel
 >
 offset
 =
@@ -5792,7 +5792,7 @@ disabled
 Label
 noInstrument
 ;
-CodeOffset
+CodeOffsetLabel
 toggleOffset
 =
 masm
@@ -5843,7 +5843,7 @@ MOZ_ASSERT
 !
 profilerEnterFrameToggleOffset_
 .
-bound
+used
 (
 )
 )
@@ -5885,7 +5885,7 @@ disabled
 Label
 noInstrument
 ;
-CodeOffset
+CodeOffsetLabel
 toggleOffset
 =
 masm
@@ -5926,7 +5926,7 @@ MOZ_ASSERT
 !
 profilerExitFrameToggleOffset_
 .
-bound
+used
 (
 )
 )

@@ -2165,7 +2165,7 @@ stub
 void
 setFallbackLabel
 (
-CodeOffset
+CodeOffsetLabel
 fallbackLabel
 )
 {

@@ -1440,7 +1440,7 @@ labelOffset
 jit
 :
 :
-CodeOffset
+CodeOffsetLabel
 patchOffset
 ;
 LabelPatch
@@ -1454,7 +1454,7 @@ label
 jit
 :
 :
-CodeOffset
+CodeOffsetLabel
 patchOffset
 )
 :
