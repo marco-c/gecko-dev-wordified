@@ -1578,7 +1578,7 @@ AsLayerComposite
 )
 -
 >
-SetShadowTransform
+SetShadowBaseTransform
 (
 aTransform
 .
@@ -4773,7 +4773,7 @@ GetInheritedYScale
 layerComposite
 -
 >
-SetShadowTransform
+SetShadowBaseTransform
 (
 matrix
 )
@@ -10881,7 +10881,7 @@ mWorldTransform
 rootComposite
 -
 >
-SetShadowTransform
+SetShadowBaseTransform
 (
 trans
 )

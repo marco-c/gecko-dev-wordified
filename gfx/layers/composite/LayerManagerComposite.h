@@ -2664,7 +2664,7 @@ aRect
 ;
 }
 void
-SetShadowTransform
+SetShadowBaseTransform
 (
 const
 gfx
