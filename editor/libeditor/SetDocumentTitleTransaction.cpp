@@ -693,9 +693,11 @@ mUndoValue
 =
 aTitle
 )
+{
 return
 NS_OK
 ;
+}
 }
 rv
 =
@@ -921,8 +923,6 @@ node
 under
 the
 TITLE
-/
-/
 only
 if
 the
@@ -932,6 +932,7 @@ isn
 '
 t
 empty
+.
 if
 (
 titleNode
