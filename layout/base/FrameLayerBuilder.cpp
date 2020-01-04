@@ -184,6 +184,13 @@ h
 #
 include
 "
+LayerUserData
+.
+h
+"
+#
+include
+"
 MaskLayerImageCache
 .
 h

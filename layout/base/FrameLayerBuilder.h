@@ -163,6 +163,13 @@ LayerState
 .
 h
 "
+#
+include
+"
+LayerUserData
+.
+h
+"
 class
 nsDisplayListBuilder
 ;

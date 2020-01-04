@@ -490,6 +490,13 @@ h
 #
 include
 "
+LayerUserData
+.
+h
+"
+#
+include
+"
 ClientLayerManager
 .
 h

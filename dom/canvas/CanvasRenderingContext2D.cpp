@@ -417,6 +417,13 @@ h
 #
 include
 "
+LayerUserData
+.
+h
+"
+#
+include
+"
 CanvasUtils
 .
 h

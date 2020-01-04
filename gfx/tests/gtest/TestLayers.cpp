@@ -74,6 +74,13 @@ h
 #
 include
 "
+LayerUserData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
