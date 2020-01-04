@@ -348,9 +348,9 @@ bool
 &
 aUseSSL
 const
-nsCString
+bool
 &
-aBinaryType
+aUseArrayBuffers
 )
 override
 ;
