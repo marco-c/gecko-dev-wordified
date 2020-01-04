@@ -6160,6 +6160,15 @@ Variables
 addScope
 (
 label
+"
+variables
+-
+view
+-
+watch
+-
+expressions
+"
 )
 ;
 /
