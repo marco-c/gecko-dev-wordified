@@ -453,6 +453,7 @@ them
 add_task
 (
 function
+*
 test_save_reload
 (
 )
@@ -854,6 +855,7 @@ file
 add_task
 (
 function
+*
 test_save_empty
 (
 )
@@ -964,6 +966,7 @@ list
 add_task
 (
 function
+*
 test_load_empty
 (
 )
@@ -1072,6 +1075,7 @@ platform
 add_task
 (
 function
+*
 test_load_string_predefined
 (
 )
@@ -1421,6 +1425,7 @@ data
 add_task
 (
 function
+*
 test_load_string_unrecognized
 (
 )
@@ -1700,6 +1705,7 @@ string
 add_task
 (
 function
+*
 test_load_string_malformed
 (
 )
@@ -1832,17 +1838,24 @@ malformed
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 name
-=
+!
 =
 "
 SyntaxError
 "
 )
 {
+throw
+ex
+;
+}
 do_print
 (
 "
@@ -1908,6 +1921,7 @@ preserved
 add_task
 (
 function
+*
 test_save_reload_unknownProperties
 (
 )

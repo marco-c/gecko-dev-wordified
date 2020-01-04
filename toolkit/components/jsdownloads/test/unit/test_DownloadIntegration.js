@@ -563,6 +563,7 @@ path
 add_task
 (
 function
+*
 test_getSystemDownloadsDirectory
 (
 )
@@ -919,6 +920,7 @@ path
 add_task
 (
 function
+*
 test_getPreferredDownloadsDirectory
 (
 )
@@ -1406,6 +1408,7 @@ path
 add_task
 (
 function
+*
 test_getTemporaryDownloadsDirectory
 (
 )
@@ -1596,6 +1599,7 @@ downloads
 add_task
 (
 function
+*
 test_notifications
 (
 )
@@ -1829,6 +1833,7 @@ downloads
 add_task
 (
 function
+*
 test_no_notifications
 (
 )
@@ -2000,6 +2005,7 @@ time
 add_task
 (
 function
+*
 test_mix_notifications
 (
 )
@@ -2191,6 +2197,7 @@ resuming
 add_task
 (
 function
+*
 test_suspend_resume
 (
 )
@@ -2255,6 +2262,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -2287,14 +2295,8 @@ add
 download
 )
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 download
-)
 ;
 }
 )
@@ -2791,6 +2793,7 @@ notified
 add_task
 (
 function
+*
 test_exit_private_browsing
 (
 )

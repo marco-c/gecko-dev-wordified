@@ -577,6 +577,7 @@ lists
 add_task
 (
 function
+*
 test_construction
 (
 )
@@ -657,6 +658,7 @@ list
 add_task
 (
 function
+*
 test_add_getAll
 (
 )
@@ -805,6 +807,7 @@ list
 add_task
 (
 function
+*
 test_remove
 (
 )
@@ -950,6 +953,7 @@ downloads
 add_task
 (
 function
+*
 test_DownloadCombinedList_add_remove_getAll
 (
 )
@@ -1229,6 +1233,7 @@ list
 add_task
 (
 function
+*
 test_notifications_add_remove
 (
 )
@@ -1637,6 +1642,7 @@ list
 add_task
 (
 function
+*
 test_notifications_change
 (
 )
@@ -1873,6 +1879,7 @@ callbacks
 add_task
 (
 function
+*
 test_notifications_this
 (
 )
@@ -2065,6 +2072,7 @@ expiration
 add_task
 (
 function
+*
 test_history_expiration
 (
 )
@@ -2421,6 +2429,7 @@ history
 add_task
 (
 function
+*
 test_history_clear
 (
 )
@@ -2583,6 +2592,7 @@ downloads
 add_task
 (
 function
+*
 test_removeFinished
 (
 )
@@ -2854,6 +2864,7 @@ lists
 add_task
 (
 function
+*
 test_DownloadSummary
 (
 )
@@ -3537,6 +3548,7 @@ others
 add_task
 (
 function
+*
 test_DownloadSummary_notifications
 (
 )

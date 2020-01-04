@@ -517,6 +517,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -661,14 +662,8 @@ setSchemaVersion
 aSchemaVersion
 )
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 connection
-)
 ;
 }
 )
@@ -1767,6 +1762,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -2240,6 +2236,7 @@ procedure
 add_task
 (
 function
+*
 prepareDownloadsToImport
 (
 )
@@ -3324,6 +3321,7 @@ procedure
 add_task
 (
 function
+*
 prepareNonImportableDownloads
 (
 )
@@ -3940,6 +3938,7 @@ correctly
 add_task
 (
 function
+*
 test_downloadImport
 (
 )

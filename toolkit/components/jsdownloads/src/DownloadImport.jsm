@@ -672,6 +672,7 @@ Task
 spawn
 (
 function
+*
 task_DI_import
 (
 )
