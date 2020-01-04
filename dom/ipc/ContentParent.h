@@ -4915,17 +4915,6 @@ override
 ;
 virtual
 bool
-RecvGetSystemMemory
-(
-const
-uint64_t
-&
-getterId
-)
-override
-;
-virtual
-bool
 RecvGetLookAndFeelCache
 (
 nsTArray
