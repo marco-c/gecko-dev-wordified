@@ -521,6 +521,8 @@ webcontent
 pluginProcess
 =
 "
+firefox
+-
 plugin
 -
 container
