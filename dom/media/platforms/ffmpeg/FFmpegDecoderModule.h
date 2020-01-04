@@ -135,7 +135,7 @@ h
 #
 include
 "
-FFmpegVideoDecoder
+FFmpegH264Decoder
 .
 h
 "
@@ -232,7 +232,7 @@ MediaDataDecoder
 decoder
 =
 new
-FFmpegVideoDecoder
+FFmpegH264Decoder
 <
 V
 >
@@ -345,7 +345,7 @@ endif
 AVCodecID
 videoCodec
 =
-FFmpegVideoDecoder
+FFmpegH264Decoder
 <
 V
 >
