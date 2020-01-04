@@ -467,6 +467,11 @@ AnnotateSystemError
 (
 )
 ;
+AnnotateProcessInformation
+(
+pid
+)
+;
 }
 MOZ_RELEASE_ASSERT
 (
