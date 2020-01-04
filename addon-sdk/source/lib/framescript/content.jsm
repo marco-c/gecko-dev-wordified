@@ -332,6 +332,12 @@ loaderID
 )
 return
 ;
+options
+.
+waiveInterposition
+=
+true
+;
 let
 loader
 =

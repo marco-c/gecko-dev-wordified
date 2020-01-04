@@ -2278,6 +2278,13 @@ metadata
 :
 {
 }
+waiveIntereposition
+:
+!
+!
+options
+.
+waiveIntereposition
 }
 ;
 if
@@ -6669,6 +6676,7 @@ metadata
 sharedGlobal
 sharedGlobalBlacklist
 checkCompatibility
+waiveIntereposition
 }
 =
 override
@@ -6832,6 +6840,9 @@ indexed
 db
 "
 ]
+waiveIntereposition
+:
+false
 }
 options
 )
