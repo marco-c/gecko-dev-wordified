@@ -466,7 +466,7 @@ received
 data
 *
 /
-nsAutoPtr
+UniquePtr
 <
 UnixSocketRawData
 >
@@ -746,8 +746,10 @@ mBuffer
 {
 mBuffer
 =
-new
+MakeUnique
+<
 UnixSocketRawData
+>
 (
 MAX_READ_SIZE
 )
@@ -979,7 +981,7 @@ ReceiveTask
 this
 mBuffer
 .
-forget
+release
 (
 )
 )

@@ -452,7 +452,7 @@ using
 .
 *
 /
-nsAutoPtr
+UniquePtr
 <
 UnixSocketConnector
 >
