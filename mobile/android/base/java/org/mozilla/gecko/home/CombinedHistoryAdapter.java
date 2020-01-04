@@ -638,6 +638,11 @@ R
 .
 string
 .
+home_synced_devices_one
+R
+.
+string
+.
 home_synced_devices_number
 deviceCount
 )
