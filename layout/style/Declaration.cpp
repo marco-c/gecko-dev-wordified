@@ -2883,6 +2883,8 @@ aProperty
 =
 eCSSProperty_border_top
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 eCSSProperty_border_top
@@ -7351,6 +7353,8 @@ Fall
 through
 to
 eCSSProperty_grid_template
+MOZ_FALLTHROUGH
+;
 }
 case
 eCSSProperty_grid_template

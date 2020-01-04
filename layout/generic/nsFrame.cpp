@@ -28792,10 +28792,8 @@ boxSizingAdjust
 =
 aBorder
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -28807,10 +28805,8 @@ boxSizingAdjust
 =
 aPadding
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -44762,6 +44758,8 @@ the
 eSelectWord
 case
 .
+MOZ_FALLTHROUGH
+;
 case
 eSelectWord
 :

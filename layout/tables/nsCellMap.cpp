@@ -5192,9 +5192,8 @@ aRowIndex
 +
 +
 ;
-/
-/
-FALLTHROUGH
+MOZ_FALLTHROUGH
+;
 case
 eLogicalSideBStart
 :
@@ -5312,9 +5311,8 @@ aColIndex
 +
 +
 ;
-/
-/
-FALLTHROUGH
+MOZ_FALLTHROUGH
+;
 case
 eLogicalSideIStart
 :
@@ -5551,6 +5549,8 @@ rgYPos
 yPos
 +
 +
+;
+MOZ_FALLTHROUGH
 ;
 case
 eLogicalSideBStart
@@ -5868,6 +5868,8 @@ eLogicalSideIEnd
 xPos
 +
 +
+;
+MOZ_FALLTHROUGH
 ;
 case
 eLogicalSideIStart

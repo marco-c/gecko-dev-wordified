@@ -2023,10 +2023,8 @@ offsets
 .
 hPadding
 ;
-/
-/
-Fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -2040,10 +2038,8 @@ offsets
 .
 hBorder
 ;
-/
-/
-Fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :

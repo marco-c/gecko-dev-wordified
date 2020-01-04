@@ -797,11 +797,8 @@ token
 mIdent
 )
 ;
-/
-*
-FALLTHROUGH
-*
-/
+MOZ_FALLTHROUGH
+;
 case
 eCSSToken_Number
 :

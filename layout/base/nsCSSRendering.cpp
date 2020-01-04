@@ -27935,6 +27935,8 @@ fall
 through
 to
 ridge
+MOZ_FALLTHROUGH
+;
 case
 NS_STYLE_BORDER_STYLE_RIDGE
 :
@@ -29052,6 +29054,8 @@ fall
 through
 to
 solid
+MOZ_FALLTHROUGH
+;
 case
 NS_STYLE_BORDER_STYLE_SOLID
 :

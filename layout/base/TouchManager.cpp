@@ -1353,6 +1353,8 @@ through
 to
 touchcancel
 code
+MOZ_FALLTHROUGH
+;
 case
 eTouchCancel
 :

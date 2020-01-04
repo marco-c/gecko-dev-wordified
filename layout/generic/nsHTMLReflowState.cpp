@@ -8270,10 +8270,8 @@ inside
 =
 borderStartEnd
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :
@@ -8285,10 +8283,8 @@ inside
 =
 paddingStartEnd
 ;
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 StyleBoxSizing
 :

@@ -1426,11 +1426,8 @@ result
 }
 }
 }
-/
-/
-fall
--
-through
+MOZ_FALLTHROUGH
+;
 case
 eEventAction_Suppress
 :

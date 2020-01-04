@@ -22602,6 +22602,8 @@ center
 per
 spec
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_STYLE_RUBY_ALIGN_CENTER
@@ -23995,6 +23997,8 @@ fill
 the
 space
 .
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_STYLE_TEXT_ALIGN_DEFAULT

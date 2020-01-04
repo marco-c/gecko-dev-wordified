@@ -14790,6 +14790,8 @@ through
 to
 RETURN
 case
+MOZ_FALLTHROUGH
+;
 case
 nsIDOMKeyEvent
 :

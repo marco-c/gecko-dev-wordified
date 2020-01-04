@@ -14796,7 +14796,7 @@ return
 ;
 default
 :
-MOZ_ASSERT_UNREACHABLE
+MOZ_FALLTHROUGH_ASSERT
 (
 "
 aTimingFunctionType
@@ -14808,10 +14808,6 @@ value
 "
 )
 ;
-/
-/
-fall
-through
 case
 NS_STYLE_TRANSITION_TIMING_FUNCTION_STEP_END
 :

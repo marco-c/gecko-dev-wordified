@@ -4071,6 +4071,8 @@ to
 the
 coord
 case
+MOZ_FALLTHROUGH
+;
 }
 case
 eStyleUnit_Coord
