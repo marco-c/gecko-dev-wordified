@@ -496,7 +496,10 @@ override
 }
 public
 :
-NormalizedConstraints
+dom
+:
+:
+MediaTrackConstraints
 mConstraints
 ;
 }
