@@ -201,6 +201,16 @@ aTarget
 =
 0
 ;
+virtual
+void
+SetBufferTextureHost
+(
+BufferTextureHost
+*
+aTexture
+)
+{
+}
 bool
 mFromYCBCR
 ;
