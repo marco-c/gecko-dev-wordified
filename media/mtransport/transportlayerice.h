@@ -161,15 +161,6 @@ h
 #
 include
 "
-mozilla
-/
-Scoped
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
