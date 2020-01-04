@@ -544,7 +544,7 @@ mPointerId
 widgetEvent
 -
 >
-width
+mWidth
 =
 aParam
 .
@@ -748,7 +748,7 @@ AsPointerEvent
 )
 -
 >
-width
+mWidth
 ;
 }
 int32_t

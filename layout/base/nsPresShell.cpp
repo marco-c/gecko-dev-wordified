@@ -43674,7 +43674,7 @@ mModifiers
 ;
 event
 .
-width
+mWidth
 =
 touch
 -

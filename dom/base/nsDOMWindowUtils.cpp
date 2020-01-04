@@ -3670,7 +3670,7 @@ aPointerId
 ;
 event
 .
-width
+mWidth
 =
 aWidth
 ;

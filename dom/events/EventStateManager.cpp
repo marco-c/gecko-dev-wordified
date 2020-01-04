@@ -23332,12 +23332,12 @@ pointerId
 newPointerEvent
 -
 >
-width
+mWidth
 =
 sourcePointer
 -
 >
-width
+mWidth
 ;
 newPointerEvent
 -
