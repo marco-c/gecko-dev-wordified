@@ -3784,7 +3784,7 @@ kTeststr_iu_Cans
 "
 ;
 const
-kTeststr_iw_Hebr
+kTeststr_he_Hebr
 =
 "
 "
@@ -9084,12 +9084,12 @@ kTeststr_ht_Latn
 ]
 [
 "
-iw
+he
 "
 "
 HEBREW
 "
-kTeststr_iw_Hebr
+kTeststr_he_Hebr
 ]
 [
 "

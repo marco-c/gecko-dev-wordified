@@ -1702,7 +1702,7 @@ W10
 hebrew
 "
 "
-iw
+he
 "
 HEBREW
 +
@@ -5033,7 +5033,7 @@ W10
 hb
 "
 "
-iw
+he
 "
 HEBREW
 +
@@ -5045,7 +5045,7 @@ W10
 he
 "
 "
-iw
+he
 "
 HEBREW
 +
@@ -5057,7 +5057,7 @@ W10
 heb
 "
 "
-iw
+he
 "
 HEBREW
 +
@@ -5380,7 +5380,7 @@ W10
 iw
 "
 "
-iw
+he
 "
 HEBREW
 +
