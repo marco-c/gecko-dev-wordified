@@ -1054,6 +1054,9 @@ mPSConstants
 bool
 mDisableSequenceForNextFrame
 ;
+bool
+mAllowPartialPresents
+;
 gfx
 :
 :
