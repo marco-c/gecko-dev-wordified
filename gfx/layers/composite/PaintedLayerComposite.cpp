@@ -774,6 +774,9 @@ EffectChain
 &
 effectChain
 const
+gfx
+:
+:
 Rect
 &
 clipRect
