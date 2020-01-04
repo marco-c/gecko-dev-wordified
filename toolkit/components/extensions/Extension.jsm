@@ -72,6 +72,9 @@ Extension
 "
 ExtensionData
 "
+"
+ExtensionContext
+"
 ]
 ;
 /
