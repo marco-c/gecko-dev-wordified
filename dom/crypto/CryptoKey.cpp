@@ -1345,6 +1345,8 @@ rsa
 cx
 )
 ;
+converted
+=
 mAlgorithm
 .
 mRsa
@@ -1355,6 +1357,11 @@ cx
 rsa
 )
 ;
+if
+(
+converted
+)
+{
 converted
 =
 ToJSValue
@@ -1365,6 +1372,7 @@ rsa
 val
 )
 ;
+}
 break
 ;
 }
@@ -1404,6 +1412,8 @@ dh
 cx
 )
 ;
+converted
+=
 mAlgorithm
 .
 mDh
@@ -1414,6 +1424,11 @@ cx
 dh
 )
 ;
+if
+(
+converted
+)
+{
 converted
 =
 ToJSValue
@@ -1424,6 +1439,7 @@ dh
 val
 )
 ;
+}
 break
 ;
 }
