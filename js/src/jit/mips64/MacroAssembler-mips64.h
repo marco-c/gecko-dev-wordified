@@ -6780,13 +6780,6 @@ reg
 ;
 }
 void
-clampIntToUint8
-(
-Register
-reg
-)
-;
-void
 convertUInt64ToDouble
 (
 Register64
