@@ -1,7 +1,9 @@
 BRANCH
 =
 "
-ash
+mozilla
+-
+central
 "
 MOZ_UPDATE_CHANNEL
 =
@@ -46,7 +48,7 @@ android
 -
 api
 -
-11
+15
 /
 en
 -
@@ -311,9 +313,9 @@ mozilla
 .
 org
 /
-projects
-/
-ash
+mozilla
+-
+central
 "
         
 "
@@ -588,7 +590,7 @@ android
 -
 api
 -
-11
+15
 "
 %
 BRANCH
@@ -646,7 +648,7 @@ android
 -
 api
 -
-11
+15
 /
 l10n
 -
@@ -698,7 +700,7 @@ build_type
 "
 api
 -
-11
+15
 -
 opt
 "

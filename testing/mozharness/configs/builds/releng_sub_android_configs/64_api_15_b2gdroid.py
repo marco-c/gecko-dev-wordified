@@ -10,7 +10,7 @@ base_name
 Android
 armv7
 API
-11
+15
 +
 b2gdroid
 %
@@ -29,7 +29,7 @@ android
 -
 api
 -
-11
+15
 -
 b2gdroid
 '
@@ -41,7 +41,7 @@ build_type
 '
 api
 -
-11
+15
 -
 b2gdroid
 -

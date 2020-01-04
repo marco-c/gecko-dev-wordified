@@ -3,12 +3,12 @@ BRANCH
 "
 mozilla
 -
-release
+beta
 "
 MOZ_UPDATE_CHANNEL
 =
 "
-release
+beta
 "
 MOZILLA_DIR
 =
@@ -58,7 +58,7 @@ android
 -
 api
 -
-11
+15
 /
 en
 -
@@ -167,7 +167,7 @@ l10n
 -
 changesets_mobile
 -
-release
+beta
 .
 json
 "
@@ -334,7 +334,7 @@ releases
 /
 mozilla
 -
-release
+beta
 "
         
 "
@@ -531,7 +531,7 @@ fennec
 -
 mozilla
 -
-release
+beta
 .
 py
 "
@@ -644,7 +644,7 @@ android
 -
 api
 -
-11
+15
 "
 %
 BRANCH
@@ -692,7 +692,7 @@ android
 -
 api
 -
-11
+15
 /
 %
 (
@@ -761,7 +761,7 @@ android
 -
 api
 -
-11
+15
 /
 l10n
 -
