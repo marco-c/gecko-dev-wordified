@@ -23408,11 +23408,12 @@ ins
 MSimdShift
 :
 :
-New
+AddLegalized
 (
 alloc
 (
 )
+current
 vec
 callInfo
 .
