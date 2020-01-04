@@ -550,6 +550,15 @@ construct
 \
 macro
 (
+constructContentFunction
+constructContentFunction
+"
+constructContentFunction
+"
+)
+\
+macro
+(
 constructor
 constructor
 "
