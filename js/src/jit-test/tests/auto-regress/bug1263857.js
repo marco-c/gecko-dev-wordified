@@ -1,20 +1,5 @@
 /
 /
-Disabled
-doe
-to
-frequent
-timeout
-on
-Windows
-xp
-debug
-Jittest
-.
-/
-*
-/
-/
 |
 jit
 -
@@ -71,5 +56,3 @@ repeat
 "
 )
 ;
-*
-/
