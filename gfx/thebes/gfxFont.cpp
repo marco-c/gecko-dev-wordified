@@ -1914,7 +1914,7 @@ mFonts
 .
 RemoveEntry
 (
-key
+entry
 )
 ;
 }
