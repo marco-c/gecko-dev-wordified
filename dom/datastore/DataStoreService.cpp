@@ -2136,9 +2136,6 @@ Failed
 return
 ;
 }
-AutoSafeJSContext
-cx
-;
 mRequest
 =
 store
@@ -2146,11 +2143,6 @@ store
 >
 OpenCursor
 (
-cx
-JS
-:
-:
-UndefinedHandleValue
 IDBCursorDirection
 :
 :
