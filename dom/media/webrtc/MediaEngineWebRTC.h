@@ -3036,6 +3036,13 @@ MediaEnginePrefs
 aPrefs
 )
 ;
+virtual
+void
+SetFakeDeviceChangeEvents
+(
+)
+override
+;
 /
 /
 Clients
