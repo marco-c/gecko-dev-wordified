@@ -2606,7 +2606,7 @@ mBlockerCount
 ;
 }
 nsresult
-AttemptAsyncScriptParse
+AttemptAsyncScriptCompile
 (
 nsScriptLoadRequest
 *
@@ -2627,6 +2627,11 @@ CompileOffThreadOrProcessRequest
 nsScriptLoadRequest
 *
 aRequest
+bool
+*
+oCompiledOffThread
+=
+nullptr
 )
 ;
 void
