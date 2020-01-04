@@ -23723,7 +23723,6 @@ type
 ourURI
 flags
 isSecureURI
-nullptr
 )
 ;
 return
@@ -23747,10 +23746,6 @@ const
 bool
 &
 aActive
-const
-bool
-&
-aHSTSPriming
 )
 {
 nsCOMPtr
@@ -23781,7 +23776,6 @@ AccumulateMixedContentHSTS
 (
 ourURI
 aActive
-aHSTSPriming
 )
 ;
 return
