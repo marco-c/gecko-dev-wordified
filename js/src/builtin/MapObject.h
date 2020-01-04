@@ -1346,6 +1346,16 @@ HandleArrayObject
 resultPairObj
 )
 ;
+static
+JSObject
+*
+createResultPair
+(
+JSContext
+*
+cx
+)
+;
 private
 :
 inline

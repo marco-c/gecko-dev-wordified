@@ -1495,6 +1495,14 @@ ins
 )
 ;
 void
+visitGetNextMapEntryForIterator
+(
+MGetNextMapEntryForIterator
+*
+ins
+)
+;
+void
 visitTypedArrayLength
 (
 MTypedArrayLength
