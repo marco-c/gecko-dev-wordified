@@ -451,7 +451,7 @@ waitForDispatch
 gPanel
 constants
 .
-LOAD_SOURCES
+UNLOAD
 )
 ;
 closeDebuggerAndFinish

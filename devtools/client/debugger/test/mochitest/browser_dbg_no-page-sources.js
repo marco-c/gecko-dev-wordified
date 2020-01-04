@@ -148,12 +148,9 @@ reloadActiveTab
 gPanel
 )
 ;
-waitForDispatch
+waitForNavigation
 (
 gPanel
-constants
-.
-LOAD_SOURCES
 )
 .
 then
