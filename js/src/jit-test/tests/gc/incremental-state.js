@@ -240,6 +240,7 @@ finalize
 gczeal
 (
 8
+0
 )
 ;
 gcslice
@@ -328,6 +329,7 @@ finalize
 gczeal
 (
 9
+0
 )
 ;
 gcslice
@@ -426,6 +428,7 @@ not
 gczeal
 (
 10
+0
 )
 ;
 gcslice
