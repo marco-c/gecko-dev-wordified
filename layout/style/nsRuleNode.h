@@ -1893,6 +1893,7 @@ eStyleStruct_
 #
 name_
 aContext
+\
 aCanComputeData
 )
 )
