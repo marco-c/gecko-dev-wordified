@@ -100,6 +100,13 @@ DWORD
 maxSeconds
 )
 ;
+DWORD
+IsProcessRunning
+(
+LPCWSTR
+filename
+)
+;
 BOOL
 DoesFallbackKeyExist
 (
