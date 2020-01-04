@@ -678,7 +678,7 @@ happens
 .
 JS_SetGCZeal
 (
-rt
+cx
 0
 100
 )
