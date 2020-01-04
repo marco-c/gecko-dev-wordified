@@ -3950,7 +3950,7 @@ mContext
 mPixelStoreUnpackAlignment
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 checked_byteLength
 .
@@ -3965,8 +3965,6 @@ Should
 have
 been
 checked
-/
-/
 earlier
 .
 size_t
