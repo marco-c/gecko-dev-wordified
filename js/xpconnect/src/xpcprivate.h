@@ -19044,7 +19044,7 @@ JSContext
 cx
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 XPCJSContextInfo
 16

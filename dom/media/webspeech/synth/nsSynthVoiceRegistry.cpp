@@ -358,7 +358,7 @@ contentIndex
 ]
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 mozilla
 :

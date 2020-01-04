@@ -631,7 +631,7 @@ contentIndex
 ]
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 PBluetoothParent
 *
@@ -2549,7 +2549,7 @@ NS_IsMainThread
 )
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 BluetoothParent
 *
@@ -3001,7 +3001,7 @@ Cleanup
 (
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 BluetoothParent
 *

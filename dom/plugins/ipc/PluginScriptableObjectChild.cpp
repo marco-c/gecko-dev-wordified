@@ -2582,7 +2582,7 @@ type
 "
 )
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 PluginIdentifier
 10
