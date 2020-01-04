@@ -11600,7 +11600,9 @@ style
 =
 source
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 .
 getComputedStyle
 (

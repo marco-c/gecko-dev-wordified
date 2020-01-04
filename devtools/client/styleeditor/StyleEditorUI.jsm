@@ -6453,7 +6453,9 @@ _target
 .
 tab
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
 yield
 ResponsiveUIManager

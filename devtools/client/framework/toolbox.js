@@ -14957,7 +14957,9 @@ this
 .
 frame
 .
-ownerGlobal
+ownerDocument
+.
+defaultView
 ;
 if
 (
