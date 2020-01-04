@@ -3940,7 +3940,6 @@ public
 interface
 OnTabsChangedListener
 {
-public
 void
 onTabChanged
 (
@@ -3948,7 +3947,7 @@ Tab
 tab
 TabEvents
 msg
-Object
+String
 data
 )
 ;
@@ -4062,7 +4061,7 @@ final
 TabEvents
 msg
 final
-Object
+String
 data
 )
 {

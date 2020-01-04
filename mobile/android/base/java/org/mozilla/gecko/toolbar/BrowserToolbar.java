@@ -2434,7 +2434,7 @@ Tabs
 .
 TabEvents
 msg
-Object
+String
 data
 )
 {

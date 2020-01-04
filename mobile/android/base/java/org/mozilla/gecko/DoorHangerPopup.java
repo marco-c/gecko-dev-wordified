@@ -1013,7 +1013,7 @@ Tabs
 TabEvents
 msg
 final
-Object
+String
 data
 )
 {
