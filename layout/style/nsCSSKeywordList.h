@@ -3223,8 +3223,6 @@ CSS_KEY
 sideways
 sideways
 )
-/
-*
 CSS_KEY
 (
 sideways
@@ -3232,8 +3230,6 @@ sideways
 lr
 sideways_lr
 )
-*
-/
 CSS_KEY
 (
 sideways

@@ -43323,12 +43323,6 @@ return
 0
 ;
 }
-/
-*
-not
-yet
-implemented
-:
 case
 NS_STYLE_WRITING_MODE_SIDEWAYS_LR
 :
@@ -43338,8 +43332,6 @@ gfxTextRunFactory
 :
 TEXT_ORIENT_VERTICAL_SIDEWAYS_LEFT
 ;
-*
-/
 case
 NS_STYLE_WRITING_MODE_SIDEWAYS_RL
 :

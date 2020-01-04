@@ -7872,12 +7872,8 @@ eCSSKeyword_vertical_lr
 NS_STYLE_WRITING_MODE_VERTICAL_LR
 eCSSKeyword_vertical_rl
 NS_STYLE_WRITING_MODE_VERTICAL_RL
-/
-*
 eCSSKeyword_sideways_lr
 NS_STYLE_WRITING_MODE_SIDEWAYS_LR
-*
-/
 eCSSKeyword_sideways_rl
 NS_STYLE_WRITING_MODE_SIDEWAYS_RL
 eCSSKeyword_lr
