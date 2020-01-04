@@ -391,6 +391,13 @@ by
 the
 MBitAnd
 .
+MOZ_ASSERT
+(
+IsCompilingAsmJS
+(
+)
+)
+;
 if
 (
 !
@@ -442,7 +449,7 @@ if
 lhs
 -
 >
-isConstantValue
+isConstant
 (
 )
 )
@@ -470,7 +477,7 @@ isAdd
 rhs
 -
 >
-isConstantValue
+isConstant
 (
 )
 )
@@ -515,7 +522,7 @@ if
 op0
 -
 >
-isConstantValue
+isConstant
 (
 )
 )
@@ -534,7 +541,7 @@ if
 op1
 -
 >
-isConstantValue
+isConstant
 (
 )
 )
@@ -546,7 +553,12 @@ i
 op1
 -
 >
-constantValue
+toConstant
+(
+)
+-
+>
+value
 (
 )
 .
@@ -560,7 +572,12 @@ m
 rhs
 -
 >
-constantValue
+toConstant
+(
+)
+-
+>
+value
 (
 )
 .
