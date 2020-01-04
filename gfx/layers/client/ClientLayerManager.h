@@ -1936,9 +1936,6 @@ mTransactionIdAllocator
 uint64_t
 mLatestTransactionId
 ;
-TimeDuration
-mLastPaintTime
-;
 /
 /
 Sometimes
