@@ -10391,7 +10391,7 @@ nsresult
 nsXULElement
 :
 :
-GetFrameLoader
+GetFrameLoaderXPCOM
 (
 nsIFrameLoader
 *
