@@ -390,6 +390,10 @@ StyleAnimationValue
 aStartForReversingTest
 double
 aReversePortion
+const
+KeyframeEffectParams
+&
+aEffectOptions
 )
 :
 dom
@@ -400,6 +404,7 @@ KeyframeEffectReadOnly
 aDocument
 aTarget
 aTiming
+aEffectOptions
 )
 mStartForReversingTest
 (

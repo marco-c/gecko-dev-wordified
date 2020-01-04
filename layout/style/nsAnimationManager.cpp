@@ -4133,6 +4133,9 @@ GetPseudoType
 )
 )
 ;
+KeyframeEffectParams
+effectOptions
+;
 RefPtr
 <
 KeyframeEffectReadOnly
@@ -4150,6 +4153,7 @@ Document
 )
 target
 timing
+effectOptions
 )
 ;
 effect

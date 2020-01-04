@@ -5519,6 +5519,9 @@ GetPseudoType
 )
 )
 ;
+KeyframeEffectParams
+effectOptions
+;
 RefPtr
 <
 ElementPropertyTransition
@@ -5538,6 +5541,7 @@ target
 timing
 startForReversingTest
 reversePortion
+effectOptions
 )
 ;
 pt
