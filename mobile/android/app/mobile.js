@@ -594,9 +594,6 @@ defaultZoom
 1
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 /
 /
 Show
@@ -647,8 +644,6 @@ scrollbarFadeDuration
 0
 )
 ;
-#
-endif
 /
 *
 turn
