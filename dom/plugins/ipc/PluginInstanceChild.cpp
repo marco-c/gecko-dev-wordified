@@ -18497,7 +18497,6 @@ GetCGLayer
 (
 CallCGDraw
 this
-false
 mContentsScaleFactor
 )
 ;
