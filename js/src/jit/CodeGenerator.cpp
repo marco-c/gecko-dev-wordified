@@ -16038,6 +16038,9 @@ JSOP_DIV
 case
 JSOP_MOD
 :
+case
+JSOP_POW
+:
 emitSharedStub
 (
 ICStub
