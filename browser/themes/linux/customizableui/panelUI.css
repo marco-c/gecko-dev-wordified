@@ -164,6 +164,8 @@ color
 ;
 border
 :
+1px
+solid
 var
 (
 -
@@ -173,6 +175,8 @@ panel
 arrowcontent
 -
 border
+-
+color
 )
 ;
 margin
