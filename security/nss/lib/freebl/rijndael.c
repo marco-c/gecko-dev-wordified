@@ -637,6 +637,9 @@ b3
 (
 (
 (
+(
+PRUint32
+)
 b3
 )
 <
@@ -644,8 +647,12 @@ b3
 24
 )
 |
+\
 (
 (
+(
+PRUint32
+)
 b2
 )
 <
@@ -653,8 +660,12 @@ b2
 16
 )
 |
+\
 (
 (
+(
+PRUint32
+)
 b1
 )
 <
@@ -662,7 +673,11 @@ b1
 8
 )
 |
+\
 (
+(
+PRUint32
+)
 b0
 )
 )
@@ -681,6 +696,9 @@ b3
 (
 (
 (
+(
+PRUint32
+)
 b0
 )
 <
@@ -688,8 +706,12 @@ b0
 24
 )
 |
+\
 (
 (
+(
+PRUint32
+)
 b1
 )
 <
@@ -697,8 +719,12 @@ b1
 16
 )
 |
+\
 (
 (
+(
+PRUint32
+)
 b2
 )
 <
@@ -706,7 +732,11 @@ b2
 8
 )
 |
+\
 (
+(
+PRUint32
+)
 b3
 )
 )
@@ -3070,6 +3100,10 @@ w
 \
 (
 (
+(
+(
+PRUint32
+)
 SBOX
 (
 (
@@ -3081,6 +3115,7 @@ w
 &
 0xff
 )
+)
 <
 <
 24
@@ -3088,6 +3123,10 @@ w
 |
 \
 (
+(
+(
+PRUint32
+)
 SBOX
 (
 (
@@ -3099,6 +3138,7 @@ w
 &
 0xff
 )
+)
 <
 <
 16
@@ -3106,6 +3146,10 @@ w
 |
 \
 (
+(
+(
+PRUint32
+)
 SBOX
 (
 (
@@ -3116,6 +3160,7 @@ w
 )
 &
 0xff
+)
 )
 <
 <
@@ -3124,6 +3169,10 @@ w
 |
 \
 (
+(
+(
+PRUint32
+)
 SBOX
 (
 (
@@ -3131,6 +3180,7 @@ w
 )
 &
 0xff
+)
 )
 )
 )
@@ -5030,6 +5080,7 @@ i
 ]
 static
 SECStatus
+NO_SANITIZE_ALIGNMENT
 rijndael_encryptBlock128
 (
 AESContext
@@ -5883,6 +5934,7 @@ SECSuccess
 }
 static
 SECStatus
+NO_SANITIZE_ALIGNMENT
 rijndael_decryptBlock128
 (
 AESContext

@@ -800,9 +800,7 @@ because
 the
 server
 prefers
-P
--
-256
+x25519
 and
 the
 /
@@ -843,7 +841,7 @@ client_groups
 =
 {
 ssl_grp_ec_secp384r1
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 }
 ;
 static
@@ -858,7 +856,7 @@ SSLNamedGroup
 server_groups
 =
 {
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 ssl_grp_ec_secp384r1
 }
 ;
@@ -884,8 +882,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 static
@@ -930,9 +926,7 @@ the
 key
 share
 for
-P
--
-256
+x25519
 was
 /
 /
@@ -966,7 +960,7 @@ client_groups
 =
 {
 ssl_grp_ec_secp384r1
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 }
 ;
 static
@@ -981,7 +975,7 @@ SSLNamedGroup
 server_groups
 =
 {
-ssl_grp_ec_secp256r1
+ssl_grp_ec_curve25519
 ssl_grp_ec_secp384r1
 }
 ;
@@ -1022,8 +1016,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 CheckKEXDetails

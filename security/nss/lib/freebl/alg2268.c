@@ -92,6 +92,13 @@ h
 #
 include
 "
+blapii
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
@@ -3134,6 +3141,7 @@ SECSuccess
 }
 static
 SECStatus
+NO_SANITIZE_ALIGNMENT
 rc2_DecryptCBC
 (
 RC2Context
