@@ -60228,6 +60228,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 true
