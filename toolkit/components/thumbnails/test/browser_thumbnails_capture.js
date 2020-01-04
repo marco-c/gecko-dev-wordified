@@ -55,6 +55,7 @@ works
 *
 /
 function
+*
 runTests
 (
 )

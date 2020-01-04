@@ -74,6 +74,7 @@ API
 function
 getThumbnailPath
 function
+*
 runTests
 (
 )

@@ -128,6 +128,7 @@ by
 scrollbars
 .
 function
+*
 runTests
 (
 )

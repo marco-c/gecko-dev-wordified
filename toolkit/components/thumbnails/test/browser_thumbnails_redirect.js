@@ -122,6 +122,7 @@ sites
 *
 /
 function
+*
 runTests
 (
 )

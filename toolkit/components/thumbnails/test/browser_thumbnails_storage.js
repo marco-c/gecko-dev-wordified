@@ -164,6 +164,7 @@ history
 *
 /
 function
+*
 runTests
 (
 )

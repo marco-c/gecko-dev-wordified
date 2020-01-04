@@ -203,6 +203,7 @@ Linux
 *
 /
 function
+*
 runTests
 (
 )

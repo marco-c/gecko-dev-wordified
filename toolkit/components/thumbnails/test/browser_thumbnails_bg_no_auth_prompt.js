@@ -158,6 +158,7 @@ appear
 ?
 )
 function
+*
 runTests
 (
 )

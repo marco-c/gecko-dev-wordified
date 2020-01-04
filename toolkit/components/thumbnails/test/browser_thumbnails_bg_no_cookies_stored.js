@@ -56,6 +56,7 @@ subsequent
 requests
 .
 function
+*
 runTests
 (
 )

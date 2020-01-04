@@ -47,6 +47,7 @@ service
 *
 /
 function
+*
 runTests
 (
 )
@@ -294,6 +295,7 @@ request
 *
 /
 function
+*
 simpleCaptureTest
 (
 )
@@ -654,6 +656,7 @@ server
 *
 /
 function
+*
 capIfStaleErrorResponseUpdateTest
 (
 )
@@ -995,6 +998,7 @@ others
 *
 /
 function
+*
 capIfStaleGoodResponseUpdateTest
 (
 )
@@ -1306,6 +1310,7 @@ server
 *
 /
 function
+*
 regularCapErrorResponseUpdateTest
 (
 )
@@ -1436,6 +1441,7 @@ server
 *
 /
 function
+*
 regularCapGoodResponseUpdateTest
 (
 )
