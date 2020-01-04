@@ -11078,11 +11078,13 @@ and
 fetch
 interception
 on
-Nightly
+non
+-
+release
 Fennec
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
