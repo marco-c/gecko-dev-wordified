@@ -288,7 +288,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -323,12 +323,12 @@ d
 %
 d
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -354,7 +354,7 @@ DoReflow
 (
 aPresContext
 aMetrics
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -380,7 +380,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -388,7 +388,7 @@ aStatus
 {
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -420,7 +420,7 @@ NS_ASSERTION
 NS_INTRINSICSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -467,7 +467,7 @@ example
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -478,7 +478,7 @@ aMetrics
 SetSize
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedSizeWithBorderPadding
 (
@@ -525,7 +525,7 @@ wm
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -571,7 +571,7 @@ SizeToAvailSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aDesiredSize
@@ -580,7 +580,7 @@ aDesiredSize
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -590,7 +590,7 @@ LogicalSize
 size
 (
 wm
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -598,7 +598,7 @@ AvailableISize
 /
 /
 FRAME
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (

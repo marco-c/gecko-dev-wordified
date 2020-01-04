@@ -734,7 +734,7 @@ BlockReflowInput
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsPresContext
 *
 aPresContext
@@ -1116,7 +1116,7 @@ mozilla
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1163,7 +1163,7 @@ else
 {
 if
 (
-mReflowState
+mReflowInput
 .
 AvailableHeight
 (
@@ -1255,7 +1255,7 @@ mBorderPadding
 .
 BStart
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1555,7 +1555,7 @@ mPresContext
 const
 ReflowInput
 &
-mReflowState
+mReflowInput
 ;
 nsFloatManager
 *
@@ -1828,7 +1828,7 @@ mContentArea
 .
 IStart
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1847,7 +1847,7 @@ mContentArea
 .
 ISize
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1866,7 +1866,7 @@ mContentArea
 .
 IEnd
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1885,7 +1885,7 @@ mContentArea
 .
 BStart
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1904,7 +1904,7 @@ mContentArea
 .
 BSize
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1923,7 +1923,7 @@ mContentArea
 .
 BEnd
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1951,7 +1951,7 @@ mozilla
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (

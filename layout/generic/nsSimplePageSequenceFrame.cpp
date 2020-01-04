@@ -652,7 +652,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aWidth
 nscoord
@@ -722,7 +722,7 @@ std
 :
 max
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -753,7 +753,7 @@ std
 :
 max
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1091,7 +1091,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1132,7 +1132,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -1204,7 +1204,7 @@ size
 SetDesiredSize
 (
 aDesiredSize
-aReflowState
+aReflowInput
 mSize
 .
 width
@@ -1313,7 +1313,7 @@ centeringMargin
 =
 ComputeCenteringMargin
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -1852,7 +1852,7 @@ vertically
 ReflowOutput
 kidSize
 (
-aReflowState
+aReflowInput
 )
 ;
 for
@@ -1929,10 +1929,10 @@ Reflow
 the
 page
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 kidFrame
 LogicalSize
 (
@@ -1949,11 +1949,11 @@ pageSize
 nsReflowStatus
 status
 ;
-kidReflowState
+kidReflowInput
 .
 SetComputedWidth
 (
-kidReflowState
+kidReflowInput
 .
 AvailableWidth
 (
@@ -1962,11 +1962,11 @@ AvailableWidth
 ;
 /
 /
-kidReflowState
+kidReflowInput
 .
 SetComputedHeight
 (
-kidReflowState
+kidReflowInput
 .
 AvailableHeight
 (
@@ -1989,12 +1989,12 @@ d
 \
 n
 "
-kidReflowState
+kidReflowInput
 .
 AvailableWidth
 (
 )
-kidReflowState
+kidReflowInput
 .
 AvailableHeight
 (
@@ -2005,7 +2005,7 @@ AvailableHeight
 nsMargin
 pageCSSMargin
 =
-kidReflowState
+kidReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2038,7 +2038,7 @@ ReflowChild
 kidFrame
 aPresContext
 kidSize
-kidReflowState
+kidReflowInput
 x
 y
 0
@@ -2065,7 +2065,7 @@ x
 =
 ComputeCenteringMargin
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -2490,7 +2490,7 @@ size
 SetDesiredSize
 (
 aDesiredSize
-aReflowState
+aReflowInput
 maxXMost
 y
 )
@@ -2553,7 +2553,7 @@ aStatus
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

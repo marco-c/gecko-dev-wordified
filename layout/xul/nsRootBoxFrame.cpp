@@ -409,7 +409,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -884,7 +884,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -934,7 +934,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;

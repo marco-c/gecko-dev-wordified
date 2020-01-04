@@ -3872,7 +3872,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3893,7 +3893,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -3923,7 +3923,7 @@ size
 GetDesiredSize
 (
 aPresContext
-aReflowState
+aReflowInput
 .
 mRenderingContext
 aMetrics
@@ -3961,7 +3961,7 @@ nice
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3972,7 +3972,7 @@ LogicalMargin
 &
 bp
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -4202,7 +4202,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;

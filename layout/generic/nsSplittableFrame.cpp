@@ -1264,7 +1264,7 @@ GetEffectiveComputedBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aConsumedBSize
 )
@@ -1273,7 +1273,7 @@ const
 nscoord
 bSize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -1350,7 +1350,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {
@@ -1409,7 +1409,7 @@ eLogicalSideBitsBStart
 }
 if
 (
-aReflowState
+aReflowInput
 )
 {
 /
@@ -1484,7 +1484,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 -
 >
 AvailableBSize
@@ -1501,7 +1501,7 @@ this
 GetEffectiveComputedBSize
 (
 *
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -1514,7 +1514,7 @@ NS_INTRINSICSIZE
 &
 effectiveCH
 >
-aReflowState
+aReflowInput
 -
 >
 AvailableBSize

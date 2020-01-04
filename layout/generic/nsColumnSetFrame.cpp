@@ -1087,12 +1087,12 @@ GetAvailableContentISize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -1109,7 +1109,7 @@ NS_INTRINSICSIZE
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1118,7 +1118,7 @@ GetWritingMode
 nscoord
 borderPaddingISize
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1136,7 +1136,7 @@ std
 max
 (
 0
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -1155,12 +1155,12 @@ GetAvailableContentBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -1177,7 +1177,7 @@ NS_INTRINSICSIZE
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1186,7 +1186,7 @@ GetWritingMode
 LogicalMargin
 bp
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1199,7 +1199,7 @@ ApplySkipSides
 GetLogicalSkipSides
 (
 &
-aReflowState
+aReflowInput
 )
 )
 ;
@@ -1210,7 +1210,7 @@ BEnd
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1228,7 +1228,7 @@ std
 max
 (
 0
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -1352,7 +1352,7 @@ ChooseColumnStrategy
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aForceAuto
 =
@@ -1391,12 +1391,12 @@ availContentISize
 =
 GetAvailableContentISize
 (
-aReflowState
+aReflowInput
 )
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -1408,7 +1408,7 @@ NS_INTRINSICSIZE
 {
 availContentISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -1467,7 +1467,7 @@ computedBSize
 =
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 consumedBSize
 )
 ;
@@ -1476,12 +1476,12 @@ colBSize
 =
 GetAvailableContentBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -1493,7 +1493,7 @@ NS_INTRINSICSIZE
 {
 colBSize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -1503,7 +1503,7 @@ ComputedBSize
 else
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -1521,7 +1521,7 @@ std
 min
 (
 colBSize
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -1605,9 +1605,9 @@ ReflowInput
 *
 rs
 =
-aReflowState
+aReflowInput
 .
-mParentReflowState
+mParentReflowInput
 ;
 rs
 &
@@ -1621,7 +1621,7 @@ rs
 rs
 -
 >
-mParentReflowState
+mParentReflowInput
 )
 {
 if
@@ -2456,7 +2456,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -2479,7 +2479,7 @@ feasible
 ReflowChildren
 (
 aDesiredSize
-aReflowState
+aReflowInput
 aReflowStatus
 aConfig
 aLastColumnUnbounded
@@ -2498,7 +2498,7 @@ aConfig
 =
 ChooseColumnStrategy
 (
-aReflowState
+aReflowInput
 true
 )
 ;
@@ -2545,7 +2545,7 @@ feasible
 ReflowChildren
 (
 aDesiredSize
-aReflowState
+aReflowInput
 aReflowStatus
 aConfig
 aLastColumnUnbounded
@@ -3182,7 +3182,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3442,7 +3442,7 @@ padding
 LogicalMargin
 borderPadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -3455,7 +3455,7 @@ ApplySkipSides
 GetLogicalSkipSides
 (
 &
-aReflowState
+aReflowInput
 )
 )
 ;
@@ -3516,7 +3516,7 @@ if
 the
 /
 /
-reflowState
+reflowInput
 '
 s
 ComputedWidth
@@ -3565,7 +3565,7 @@ known
 nsSize
 containerSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeAsContainerIfConstrained
 (
@@ -3662,7 +3662,7 @@ isRTL
 nscoord
 availISize
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -3670,7 +3670,7 @@ AvailableISize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3682,7 +3682,7 @@ NS_INTRINSICSIZE
 {
 availISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3936,7 +3936,7 @@ bool
 skipIncremental
 =
 !
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -4433,14 +4433,14 @@ wm
 =
 GetAvailableContentBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 }
 LogicalSize
 computedSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -4478,19 +4478,19 @@ wm
 )
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 PresContext
 (
 )
-aReflowState
+aReflowInput
 child
 availSize
 &
 kidCBSize
 )
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -4498,7 +4498,7 @@ mIsTopOfPage
 =
 true
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -4506,7 +4506,7 @@ mTableIsSplittable
 =
 false
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -4539,7 +4539,7 @@ hasn
 t
 changed
 .
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -4665,7 +4665,7 @@ NS_FRAME_IS_DIRTY
 )
 )
 {
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -4773,7 +4773,7 @@ I
 wm
 )
 +
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -4790,7 +4790,7 @@ B
 wm
 )
 +
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -4809,7 +4809,7 @@ PresContext
 (
 )
 kidDesiredSize
-kidReflowState
+kidReflowInput
 wm
 origin
 containerSize
@@ -4916,7 +4916,7 @@ PresContext
 )
 kidDesiredSize
 &
-kidReflowState
+kidReflowInput
 wm
 childOrigin
 containerSize
@@ -5290,7 +5290,7 @@ if
 (
 contentBEnd
 >
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -5299,7 +5299,7 @@ ComputedMaxBSize
 |
 contentBEnd
 >
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -5849,7 +5849,7 @@ NS_INTRINSICSIZE
 {
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -5988,7 +5988,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ApplyMinMaxBSize
 (
@@ -6006,7 +6006,7 @@ mConsumedBSize
 }
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -6023,7 +6023,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -6039,7 +6039,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ApplyMinMaxISize
 (
@@ -6477,7 +6477,7 @@ FindBestBalanceBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsPresContext
 *
 aPresContext
@@ -6512,7 +6512,7 @@ aRunWasFeasible
 nsMargin
 bp
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -6531,7 +6531,7 @@ bp
 .
 bottom
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -6544,7 +6544,7 @@ availableContentBSize
 =
 GetAvailableContentBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -7346,7 +7346,7 @@ feasible
 ReflowColumns
 (
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 aConfig
 false
@@ -7545,7 +7545,7 @@ feasible
 ReflowColumns
 (
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 aConfig
 availableContentBSize
@@ -7579,7 +7579,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -7618,7 +7618,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -7653,7 +7653,7 @@ size
 .
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -7786,7 +7786,7 @@ GetPrevInFlow
 ReflowOverflowContainerChildren
 (
 aPresContext
-aReflowState
+aReflowInput
 ocBounds
 0
 ocStatus
@@ -7880,8 +7880,8 @@ config
 =
 ChooseColumnStrategy
 (
-aReflowState
-aReflowState
+aReflowInput
+aReflowInput
 .
 ComputedISize
 (
@@ -8022,7 +8022,7 @@ feasible
 ReflowColumns
 (
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 config
 unboundedLastColumn
@@ -8091,7 +8091,7 @@ HasPendingInterrupt
 {
 FindBestBalanceBSize
 (
-aReflowState
+aReflowInput
 aPresContext
 config
 colData
@@ -8113,7 +8113,7 @@ HasPendingInterrupt
 )
 &
 &
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -8168,7 +8168,7 @@ aStatus
 )
 |
 |
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -8222,7 +8222,7 @@ FinishReflowWithAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 false
 )
@@ -8236,7 +8236,7 @@ carriedOutBottomMargin
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

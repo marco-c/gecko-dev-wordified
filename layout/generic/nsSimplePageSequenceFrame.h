@@ -829,7 +829,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aWidth
 nscoord

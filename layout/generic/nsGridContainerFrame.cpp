@@ -503,13 +503,13 @@ aSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 {
 auto
 maxSize
 =
-aReflowState
+aReflowInput
 -
 >
 ComputedMaxBSize
@@ -529,7 +529,7 @@ NS_UNCONSTRAINEDSIZE
 {
 MOZ_ASSERT
 (
-aReflowState
+aReflowInput
 -
 >
 ComputedMinBSize
@@ -633,7 +633,7 @@ aSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsReflowStatus
 *
 aStatus
@@ -642,7 +642,7 @@ aStatus
 auto
 maxSize
 =
-aReflowState
+aReflowInput
 -
 >
 ComputedMaxBSize
@@ -662,7 +662,7 @@ NS_UNCONSTRAINEDSIZE
 {
 MOZ_ASSERT
 (
-aReflowState
+aReflowInput
 -
 >
 ComputedMinBSize
@@ -7698,7 +7698,7 @@ offsets
 void
 InitializeItemBaselines
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -7782,7 +7782,7 @@ content
 void
 ResolveIntrinsicSize
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -7857,7 +7857,7 @@ otherwise
 bool
 ResolveIntrinsicSizeStep1
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -9850,7 +9850,7 @@ errors
 float
 FindUsedFlexFraction
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -9917,7 +9917,7 @@ tracks
 void
 StretchFlexibleTracks
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -9976,7 +9976,7 @@ sizing
 void
 CalculateSizes
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -11123,7 +11123,7 @@ in
 flow
 '
 s
-GridReflowState
+GridReflowInput
 at
 *
 the
@@ -11216,7 +11216,7 @@ state
 for
 continuations
 see
-GridReflowState
+GridReflowInput
 :
 :
 Initialize
@@ -11317,7 +11317,7 @@ Initialize
 )
 their
 *
-GridReflowState
+GridReflowInput
 from
 it
 .
@@ -11335,9 +11335,9 @@ MOZ_STACK_CLASS
 nsGridContainerFrame
 :
 :
-GridReflowState
+GridReflowInput
 {
-GridReflowState
+GridReflowInput
 (
 nsGridContainerFrame
 *
@@ -11348,7 +11348,7 @@ ReflowInput
 aRS
 )
 :
-GridReflowState
+GridReflowInput
 (
 aFrame
 *
@@ -11368,7 +11368,7 @@ GetWritingMode
 )
 {
 }
-GridReflowState
+GridReflowInput
 (
 nsGridContainerFrame
 *
@@ -11378,7 +11378,7 @@ nsRenderingContext
 aRC
 )
 :
-GridReflowState
+GridReflowInput
 (
 aFrame
 aRC
@@ -12557,7 +12557,7 @@ mAbsPosItems
 *
 *
 note
-mReflowState
+mReflowInput
 may
 be
 null
@@ -12604,7 +12604,7 @@ const
 ReflowInput
 *
 const
-mReflowState
+mReflowInput
 ;
 nsRenderingContext
 &
@@ -12744,7 +12744,7 @@ mWM
 ;
 private
 :
-GridReflowState
+GridReflowInput
 (
 nsGridContainerFrame
 *
@@ -12755,7 +12755,7 @@ aRenderingContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 const
 nsStylePosition
 *
@@ -12813,9 +12813,9 @@ mGridStyle
 >
 mGridAutoRowsMax
 )
-mReflowState
+mReflowInput
 (
-aReflowState
+aReflowInput
 )
 mRenderingContext
 (
@@ -12849,10 +12849,10 @@ aWM
 MOZ_ASSERT
 (
 !
-aReflowState
+aReflowInput
 |
 |
-aReflowState
+aReflowInput
 -
 >
 mFrame
@@ -12863,12 +12863,12 @@ mFrame
 ;
 if
 (
-aReflowState
+aReflowInput
 )
 {
 mBorderPadding
 =
-aReflowState
+aReflowInput
 -
 >
 ComputedLogicalBorderPadding
@@ -12896,12 +12896,12 @@ mSkipSides
 }
 ;
 using
-GridReflowState
+GridReflowInput
 =
 nsGridContainerFrame
 :
 :
-GridReflowState
+GridReflowInput
 ;
 /
 *
@@ -13069,7 +13069,7 @@ tracks
 void
 PlaceGridItems
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -15529,7 +15529,7 @@ void
 nsGridContainerFrame
 :
 :
-GridReflowState
+GridReflowInput
 :
 :
 CalculateTrackSizes
@@ -21576,7 +21576,7 @@ Grid
 :
 PlaceGridItems
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -24310,7 +24310,7 @@ aChild
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsRenderingContext
 *
 aRC
@@ -24353,12 +24353,12 @@ ReflowInput
 *
 rs
 =
-aReflowState
+aReflowInput
 ;
 if
 (
 !
-aReflowState
+aReflowInput
 )
 {
 MOZ_ASSERT
@@ -24607,7 +24607,7 @@ GridItemInfo
 &
 aGridItem
 const
-GridReflowState
+GridReflowInput
 &
 aState
 nsRenderingContext
@@ -24791,7 +24791,7 @@ MeasuringReflow
 child
 aState
 .
-mReflowState
+mReflowInput
 aRC
 availableSize
 )
@@ -24929,7 +24929,7 @@ GridItemInfo
 &
 aGridItem
 const
-GridReflowState
+GridReflowInput
 &
 aState
 nsRenderingContext
@@ -24965,7 +24965,7 @@ GridItemInfo
 &
 aGridItem
 const
-GridReflowState
+GridReflowInput
 &
 aState
 nsRenderingContext
@@ -25001,7 +25001,7 @@ GridItemInfo
 &
 aGridItem
 const
-GridReflowState
+GridReflowInput
 &
 aState
 nsRenderingContext
@@ -25372,7 +25372,7 @@ Tracks
 :
 CalculateSizes
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -25655,7 +25655,7 @@ Tracks
 :
 ResolveIntrinsicSizeStep1
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -26481,7 +26481,7 @@ Tracks
 :
 InitializeItemBaselines
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -27434,7 +27434,7 @@ MeasuringReflow
 child
 aState
 .
-mReflowState
+mReflowInput
 rc
 avail
 )
@@ -28218,7 +28218,7 @@ Tracks
 :
 ResolveIntrinsicSize
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -30275,7 +30275,7 @@ Tracks
 :
 FindUsedFlexFraction
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -30698,7 +30698,7 @@ Tracks
 :
 StretchFlexibleTracks
 (
-GridReflowState
+GridReflowInput
 &
 aState
 nsTArray
@@ -32121,7 +32121,7 @@ LogicalRect
 nsGridContainerFrame
 :
 :
-GridReflowState
+GridReflowInput
 :
 :
 ContainingBlockFor
@@ -32228,7 +32228,7 @@ LogicalRect
 nsGridContainerFrame
 :
 :
-GridReflowState
+GridReflowInput
 :
 :
 ContainingBlockForAbsPos
@@ -32408,7 +32408,7 @@ nsGridContainerFrame
 GetNearestFragmentainer
 (
 const
-GridReflowState
+GridReflowInput
 &
 aState
 )
@@ -32437,7 +32437,7 @@ gridRS
 =
 aState
 .
-mReflowState
+mReflowInput
 ;
 const
 ReflowInput
@@ -32447,7 +32447,7 @@ cbRS
 gridRS
 -
 >
-mCBReflowState
+mCBReflowInput
 ;
 for
 (
@@ -32459,7 +32459,7 @@ cbRS
 cbRS
 -
 >
-mCBReflowState
+mCBReflowInput
 )
 {
 nsIScrollableFrame
@@ -32751,7 +32751,7 @@ Fragmentainer
 *
 aFragmentainer
 const
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -32787,7 +32787,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 GetWritingMode
@@ -32799,7 +32799,7 @@ pad
 (
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedLogicalPadding
@@ -33503,7 +33503,7 @@ pc
 *
 aState
 .
-mReflowState
+mReflowInput
 aChild
 childCBSize
 &
@@ -34046,7 +34046,7 @@ nsGridContainerFrame
 :
 ReflowInFragmentainer
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -34080,7 +34080,7 @@ MOZ_ASSERT
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 /
@@ -34415,7 +34415,7 @@ isBDBClone
 =
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 mStyleBorder
@@ -34566,7 +34566,7 @@ ShouldAvoidBreakInside
 *
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 for
@@ -35049,7 +35049,7 @@ ClampToCSSMaxBSize
 bSize
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 if
@@ -35130,7 +35130,7 @@ NS_CSS_MINMAX
 bEndRow
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMinBSize
@@ -35138,7 +35138,7 @@ ComputedMinBSize
 )
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMaxBSize
@@ -35156,7 +35156,7 @@ NS_CSS_MINMAX
 (
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedBSize
@@ -35164,7 +35164,7 @@ ComputedBSize
 )
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMinBSize
@@ -35172,7 +35172,7 @@ ComputedMinBSize
 )
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMaxBSize
@@ -35524,7 +35524,7 @@ ClampToCSSMaxBSize
 bSize
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 }
@@ -35550,7 +35550,7 @@ ClampToCSSMaxBSize
 bEndRow
 aState
 .
-mReflowState
+mReflowInput
 &
 aStatus
 )
@@ -35651,7 +35651,7 @@ ClampToCSSMaxBSize
 bEndRow
 aState
 .
-mReflowState
+mReflowInput
 &
 aStatus
 )
@@ -35761,7 +35761,7 @@ nsGridContainerFrame
 :
 ReflowRowsInFragmentainer
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -35814,7 +35814,7 @@ isBDBClone
 =
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 mStyleBorder
@@ -36824,7 +36824,7 @@ ClampToCSSMaxBSize
 bEndRow
 aState
 .
-mReflowState
+mReflowInput
 &
 aStatus
 )
@@ -36845,7 +36845,7 @@ NS_CSS_MINMAX
 (
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedBSize
@@ -36853,7 +36853,7 @@ ComputedBSize
 )
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMinBSize
@@ -36861,7 +36861,7 @@ ComputedMinBSize
 )
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedMaxBSize
@@ -38046,7 +38046,7 @@ nsGridContainerFrame
 :
 ReflowChildren
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -38065,7 +38065,7 @@ MOZ_ASSERT
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 aStatus
@@ -38095,7 +38095,7 @@ PresContext
 *
 aState
 .
-mReflowState
+mReflowInput
 ocBounds
 0
 ocStatus
@@ -38108,7 +38108,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 GetWritingMode
@@ -38406,7 +38406,7 @@ pad
 (
 aState
 .
-mReflowState
+mReflowInput
 -
 >
 ComputedLogicalPadding
@@ -38724,7 +38724,7 @@ PresContext
 *
 aState
 .
-mReflowState
+mReflowInput
 aStatus
 dummyRect
 flags
@@ -38755,7 +38755,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -38776,7 +38776,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -38785,7 +38785,7 @@ if
 (
 IsFrameTreeTooDeep
 (
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -40111,7 +40111,7 @@ nsStylePosition
 *
 stylePos
 =
-aReflowState
+aReflowInput
 .
 mStylePosition
 ;
@@ -40127,16 +40127,16 @@ stylePos
 )
 ;
 }
-GridReflowState
-gridReflowState
+GridReflowInput
+gridReflowInput
 (
 this
-aReflowState
+aReflowInput
 )
 ;
 if
 (
-gridReflowState
+gridReflowInput
 .
 mIter
 .
@@ -40163,7 +40163,7 @@ const
 nscoord
 computedBSize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -40173,7 +40173,7 @@ const
 nscoord
 computedISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -40184,7 +40184,7 @@ WritingMode
 &
 wm
 =
-gridReflowState
+gridReflowInput
 .
 mWM
 ;
@@ -40247,7 +40247,7 @@ indefinite
 LogicalSize
 computedMinSize
 (
-aReflowState
+aReflowInput
 .
 ComputedMinSize
 (
@@ -40259,9 +40259,9 @@ ReflowInput
 *
 cbState
 =
-aReflowState
+aReflowInput
 .
-mCBReflowState
+mCBReflowInput
 ;
 if
 (
@@ -40392,17 +40392,17 @@ grid
 .
 PlaceGridItems
 (
-gridReflowState
+gridReflowInput
 computedMinSize
 computedSize
-aReflowState
+aReflowInput
 .
 ComputedMaxSize
 (
 )
 )
 ;
-gridReflowState
+gridReflowInput
 .
 CalculateTrackSizes
 (
@@ -40423,7 +40423,7 @@ GetConsumedBSize
 (
 )
 ;
-gridReflowState
+gridReflowInput
 .
 InitializeForContinuation
 (
@@ -40449,7 +40449,7 @@ const
 uint32_t
 numRows
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -40515,7 +40515,7 @@ i
 bSize
 +
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -40530,7 +40530,7 @@ mBase
 bSize
 +
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -40543,7 +40543,7 @@ else
 {
 bSize
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -40562,12 +40562,12 @@ bSize
 NS_CSS_MINMAX
 (
 bSize
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -40599,7 +40599,7 @@ auto
 &
 bp
 =
-gridReflowState
+gridReflowInput
 .
 mBorderPadding
 ;
@@ -40650,7 +40650,7 @@ did
 the
 columns
 .
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -40671,7 +40671,7 @@ bSize
 =
 ReflowChildren
 (
-gridReflowState
+gridReflowInput
 contentArea
 aDesiredSize
 aStatus
@@ -40714,7 +40714,7 @@ aStatus
 &
 &
 !
-gridReflowState
+gridReflowInput
 .
 mSkipSides
 .
@@ -40975,7 +40975,7 @@ properties
 uint32_t
 colTrackCount
 =
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41024,7 +41024,7 @@ TrackSize
 &
 sz
 :
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41057,7 +41057,7 @@ isRepeat
 col
 >
 =
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 .
@@ -41068,7 +41068,7 @@ mRepeatAutoStart
 (
 col
 <
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 .
@@ -41123,12 +41123,12 @@ colInfo
 new
 ComputedGridTrackInfo
 (
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 .
 mExplicitGridOffset
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 .
@@ -41166,7 +41166,7 @@ colInfo
 uint32_t
 rowTrackCount
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -41215,7 +41215,7 @@ TrackSize
 &
 sz
 :
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -41248,7 +41248,7 @@ isRepeat
 row
 >
 =
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 .
@@ -41259,7 +41259,7 @@ mRepeatAutoStart
 (
 row
 <
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 .
@@ -41348,19 +41348,19 @@ rowInfo
 new
 ComputedGridTrackInfo
 (
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 .
 mExplicitGridOffset
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 .
 NumExplicitTracks
 (
 )
-gridReflowState
+gridReflowInput
 .
 mStartRow
 row
@@ -41538,7 +41538,7 @@ priorRowInfo
 -
 >
 mStartFragmentTrack
-gridReflowState
+gridReflowInput
 .
 mStartRow
 Move
@@ -41614,7 +41614,7 @@ first
 uint32_t
 capacity
 =
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 .
@@ -41622,7 +41622,7 @@ NumRepeatTracks
 (
 )
 +
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41653,7 +41653,7 @@ col
 col
 <
 =
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41672,19 +41672,19 @@ columnLineNames
 .
 AppendElement
 (
-gridReflowState
+gridReflowInput
 .
 mCols
 .
 GetLineNamesAtIndex
 (
-gridReflowState
+gridReflowInput
 .
 mGridStyle
 -
 >
 mGridTemplateColumns
-gridReflowState
+gridReflowInput
 .
 mColFunctions
 col
@@ -41726,7 +41726,7 @@ next
 .
 capacity
 =
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 .
@@ -41734,7 +41734,7 @@ NumRepeatTracks
 (
 )
 +
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -41765,7 +41765,7 @@ row
 row
 <
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -41784,19 +41784,19 @@ rowLineNames
 .
 AppendElement
 (
-gridReflowState
+gridReflowInput
 .
 mRows
 .
 GetLineNamesAtIndex
 (
-gridReflowState
+gridReflowInput
 .
 mGridStyle
 -
 >
 mGridTemplateRows
-gridReflowState
+gridReflowInput
 .
 mRowFunctions
 row
@@ -41910,7 +41910,7 @@ mSizes
 .
 SwapElements
 (
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41924,7 +41924,7 @@ mCols
 .
 mContentBoxSize
 =
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41940,7 +41940,7 @@ mBaselineSubtreeAlign
 0
 ]
 =
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41959,7 +41959,7 @@ mBaselineSubtreeAlign
 1
 ]
 =
-gridReflowState
+gridReflowInput
 .
 mCols
 .
@@ -41988,7 +41988,7 @@ mSizes
 .
 SwapElements
 (
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -42014,7 +42014,7 @@ later
 /
 /
 in
-GridReflowState
+GridReflowInput
 :
 :
 Initialize
@@ -42114,7 +42114,7 @@ mRows
 .
 mContentBoxSize
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -42130,7 +42130,7 @@ mBaselineSubtreeAlign
 0
 ]
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -42149,7 +42149,7 @@ mBaselineSubtreeAlign
 1
 ]
 =
-gridReflowState
+gridReflowInput
 .
 mRows
 .
@@ -42174,7 +42174,7 @@ mGridItems
 .
 SwapElements
 (
-gridReflowState
+gridReflowInput
 .
 mGridItems
 )
@@ -42195,7 +42195,7 @@ mAbsPosItems
 .
 SwapElements
 (
-gridReflowState
+gridReflowInput
 .
 mAbsPosItems
 )
@@ -42248,7 +42248,7 @@ aDesiredSize
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -42299,7 +42299,7 @@ grid
 intrinsic
 -
 sizes
-GridReflowState
+GridReflowInput
 state
 (
 this

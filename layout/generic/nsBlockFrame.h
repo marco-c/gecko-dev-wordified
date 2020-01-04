@@ -1856,7 +1856,7 @@ frame
 *
 *
 param
-aReflowState
+aReflowInput
 Data
 structure
 passed
@@ -2027,7 +2027,7 @@ ComputeFinalBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 *
 aStatus
@@ -2063,7 +2063,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2929,7 +2929,7 @@ ComputeFinalSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 BlockReflowInput
 &
 aState

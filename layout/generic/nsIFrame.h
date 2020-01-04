@@ -2493,11 +2493,11 @@ define
 NS_FRAME_SET_TRUNCATION
 (
 status
-aReflowState
+aReflowInput
 aMetrics
 )
 \
-aReflowState
+aReflowInput
 .
 SetTruncated
 (
@@ -14915,7 +14915,7 @@ repainted
 *
 *
 param
-aReflowState
+aReflowInput
 information
 about
 your
@@ -15054,7 +15054,7 @@ aReflowMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -15212,7 +15212,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -19467,7 +19467,7 @@ GetSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )
@@ -19480,7 +19480,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )

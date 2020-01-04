@@ -3120,7 +3120,7 @@ FlexItem
 (
 ReflowInput
 &
-aFlexItemReflowState
+aFlexItemReflowInput
 float
 aFlexGrow
 float
@@ -5937,7 +5937,7 @@ CheckForMinSizeAuto
 const
 ReflowInput
 &
-aFlexItemReflowState
+aFlexItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -9215,7 +9215,7 @@ aChildFrame
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 const
 FlexboxAxisTracker
 &
@@ -9272,9 +9272,9 @@ ReflowInput
 childRS
 (
 aPresContext
-aParentReflowState
+aParentReflowInput
 aChildFrame
-aParentReflowState
+aParentReflowInput
 .
 ComputedSize
 (
@@ -9330,7 +9330,7 @@ if
 (
 IsLegacyBox
 (
-aParentReflowState
+aParentReflowInput
 .
 mStyleDisplay
 mStyleContext
@@ -10410,7 +10410,7 @@ IsCrossSizeDefinite
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -10422,7 +10422,7 @@ nsStylePosition
 *
 pos
 =
-aItemReflowState
+aItemReflowInput
 .
 mStylePosition
 ;
@@ -10489,9 +10489,9 @@ auto
 nscoord
 cbHeight
 =
-aItemReflowState
+aItemReflowInput
 .
-mCBReflowState
+mCBReflowInput
 -
 >
 ComputedHeight
@@ -10712,7 +10712,7 @@ aFlexItem
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 bool
 aMinSizeFallback
 const
@@ -10761,7 +10761,7 @@ if
 (
 IsCrossSizeDefinite
 (
-aItemReflowState
+aItemReflowInput
 aAxisTracker
 )
 )
@@ -10781,12 +10781,12 @@ aFlexItem
 GetWritingMode
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedISize
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedBSize
 (
@@ -10845,12 +10845,12 @@ aFlexItem
 GetWritingMode
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedMinISize
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedMinBSize
 (
@@ -11163,7 +11163,7 @@ aFlexItem
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -11273,7 +11273,7 @@ if
 eStyleUnit_Auto
 =
 =
-aItemReflowState
+aItemReflowInput
 .
 mStylePosition
 -
@@ -11415,12 +11415,12 @@ aFlexItem
 GetWritingMode
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedMaxISize
 (
 )
-aItemReflowState
+aItemReflowInput
 .
 ComputedMaxBSize
 (
@@ -11563,7 +11563,7 @@ crossSizeToUseWithRatio
 CrossSizeToUseWithRatio
 (
 aFlexItem
-aItemReflowState
+aItemReflowInput
 useMinSizeIfCrossSizeIsIndefinite
 aAxisTracker
 )
@@ -11675,7 +11675,7 @@ aFlexItem
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -11835,7 +11835,7 @@ crossSizeToUseWithRatio
 CrossSizeToUseWithRatio
 (
 aFlexItem
-aItemReflowState
+aItemReflowInput
 useMinSizeIfCrossSizeIsIndefinite
 aAxisTracker
 )
@@ -11936,7 +11936,7 @@ aFlexItem
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -12235,9 +12235,9 @@ ReflowInput
 *
 flexContainerRS
 =
-aItemReflowState
+aItemReflowInput
 .
-mParentReflowState
+mParentReflowInput
 ;
 MOZ_ASSERT
 (
@@ -12466,7 +12466,7 @@ resolvedMinSize
 PartiallyResolveAutoMinSize
 (
 aFlexItem
-aItemReflowState
+aItemReflowInput
 aAxisTracker
 )
 ;
@@ -12601,7 +12601,7 @@ if
 ResolveAutoFlexBasisFromRatio
 (
 aFlexItem
-aItemReflowState
+aItemReflowInput
 aAxisTracker
 )
 )
@@ -12663,7 +12663,7 @@ Frame
 >
 GetMinISize
 (
-aItemReflowState
+aItemReflowInput
 .
 mRenderingContext
 )
@@ -12993,7 +12993,7 @@ aForceVerticalResizeForMeasuringReflow
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 )
 {
 /
@@ -13031,7 +13031,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aParentReflowState
+aParentReflowInput
 .
 ComputedSize
 (
@@ -13051,7 +13051,7 @@ ReflowInput
 childRSForMeasuringHeight
 (
 aPresContext
-aParentReflowState
+aParentReflowInput
 aFlexItem
 .
 Frame
@@ -13352,7 +13352,7 @@ FlexItem
 (
 ReflowInput
 &
-aFlexItemReflowState
+aFlexItemReflowInput
 float
 aFlexGrow
 float
@@ -13377,7 +13377,7 @@ aAxisTracker
 :
 mFrame
 (
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 mFrame
 )
@@ -13400,7 +13400,7 @@ GetIntrinsicRatio
 )
 mBorderPadding
 (
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -13408,7 +13408,7 @@ ComputedPhysicalBorderPadding
 )
 mMargin
 (
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -13487,7 +13487,7 @@ CheckForMinSizeAuto
 )
 mWM
 (
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 GetWritingMode
 (
@@ -13575,9 +13575,9 @@ ReflowInput
 *
 containerRS
 =
-aFlexItemReflowState
+aFlexItemReflowInput
 .
-mParentReflowState
+mParentReflowInput
 ;
 if
 (
@@ -13746,7 +13746,7 @@ else
 {
 mAlignSelf
 =
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 mStylePosition
 -
@@ -13812,7 +13812,7 @@ aFlexBaseSize
 ;
 CheckForMinSizeAuto
 (
-aFlexItemReflowState
+aFlexItemReflowInput
 aAxisTracker
 )
 ;
@@ -13863,7 +13863,7 @@ nsStyleSides
 &
 styleMargin
 =
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 mStyleMargin
 -
@@ -14394,7 +14394,7 @@ CheckForMinSizeAuto
 const
 ReflowInput
 &
-aFlexItemReflowState
+aFlexItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -14406,7 +14406,7 @@ nsStylePosition
 *
 pos
 =
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 mStylePosition
 ;
@@ -14415,7 +14415,7 @@ nsStyleDisplay
 *
 disp
 =
-aFlexItemReflowState
+aFlexItemReflowInput
 .
 mStyleDisplay
 ;
@@ -25793,7 +25793,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aContentBoxMainSize
 nscoord
@@ -25841,7 +25841,7 @@ isSingleLine
 NS_STYLE_FLEX_WRAP_NOWRAP
 =
 =
-aReflowState
+aReflowInput
 .
 mStylePosition
 -
@@ -26116,12 +26116,12 @@ aAxisTracker
 GetWritingMode
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxISize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -26401,7 +26401,7 @@ nextStrutIdx
 ]
 .
 mStrutCrossSize
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -26421,7 +26421,7 @@ GenerateFlexItemForChild
 (
 aPresContext
 childFrame
-aReflowState
+aReflowInput
 aAxisTracker
 )
 ;
@@ -26688,12 +26688,12 @@ nscoord
 nsFlexContainerFrame
 :
 :
-GetMainSizeFromReflowState
+GetMainSizeFromReflowInput
 (
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -26770,7 +26770,7 @@ fixed
 *
 NS_WARN_IF_FALSE
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -26807,7 +26807,7 @@ flows
 *
 /
 return
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -26834,7 +26834,7 @@ auto
 return
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 }
@@ -27067,7 +27067,7 @@ of
 bug
 1163238
 in
-GetMainSizeFromReflowState
+GetMainSizeFromReflowInput
 .
 )
 *
@@ -27115,7 +27115,7 @@ ResolveFlexContainerMainSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -27490,12 +27490,12 @@ return
 NS_CSS_MINMAX
 (
 largestLineOuterSize
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -27512,7 +27512,7 @@ ComputeCrossSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -27614,7 +27614,7 @@ fixed
 *
 NS_WARN_IF_FALSE
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -27656,7 +27656,7 @@ aIsDefinite
 true
 ;
 return
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -27668,7 +27668,7 @@ effectiveComputedBSize
 =
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -27984,12 +27984,12 @@ return
 NS_CSS_MINMAX
 (
 aSumLineCrossSizes
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -28260,7 +28260,7 @@ aContentBoxCrossSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -28268,7 +28268,7 @@ aAxisTracker
 )
 {
 return
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -28303,7 +28303,7 @@ FlexboxAxisTracker
 aAxisTracker
 ReflowInput
 &
-aChildReflowState
+aChildReflowInput
 FlexItem
 &
 aItem
@@ -28462,7 +28462,7 @@ aItem
 .
 SetCrossSize
 (
-aChildReflowState
+aChildReflowInput
 .
 ComputedWidth
 (
@@ -28583,7 +28583,7 @@ being
 resized
 )
 .
-aChildReflowState
+aChildReflowInput
 .
 SetVResize
 (
@@ -28594,7 +28594,7 @@ true
 ReflowOutput
 childDesiredSize
 (
-aChildReflowState
+aChildReflowInput
 )
 ;
 nsReflowStatus
@@ -28615,7 +28615,7 @@ Frame
 )
 aPresContext
 childDesiredSize
-aChildReflowState
+aChildReflowInput
 0
 0
 flags
@@ -28736,7 +28736,7 @@ Frame
 aPresContext
 childDesiredSize
 &
-aChildReflowState
+aChildReflowInput
 0
 0
 flags
@@ -29376,7 +29376,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -29397,7 +29397,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -29429,7 +29429,7 @@ if
 (
 IsFrameTreeTooDeep
 (
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -29547,7 +29547,7 @@ cases
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -29814,7 +29814,7 @@ FlexboxAxisTracker
 axisTracker
 (
 this
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -29881,7 +29881,7 @@ though
 nscoord
 availableBSizeForContent
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -29900,7 +29900,7 @@ NS_UNCONSTRAINEDSIZE
 GetLogicalSkipSides
 (
 &
-aReflowState
+aReflowInput
 )
 .
 BStart
@@ -29912,7 +29912,7 @@ BStart
 availableBSizeForContent
 -
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -29953,9 +29953,9 @@ availableBSizeForContent
 nscoord
 contentBoxMainSize
 =
-GetMainSizeFromReflowState
+GetMainSizeFromReflowInput
 (
-aReflowState
+aReflowInput
 axisTracker
 )
 ;
@@ -29970,7 +29970,7 @@ DoFlexLayout
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 contentBoxMainSize
 availableBSizeForContent
@@ -30007,7 +30007,7 @@ DoFlexLayout
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 contentBoxMainSize
 availableBSizeForContent
@@ -30389,7 +30389,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -30428,7 +30428,7 @@ lines
 GenerateFlexLines
 (
 aPresContext
-aReflowState
+aReflowInput
 aContentBoxMainSize
 aAvailableBSizeForContent
 aStruts
@@ -30440,7 +30440,7 @@ aContentBoxMainSize
 =
 ResolveFlexContainerMainSize
 (
-aReflowState
+aReflowInput
 aAxisTracker
 aContentBoxMainSize
 aAvailableBSizeForContent
@@ -30810,7 +30810,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -30827,10 +30827,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 item
 -
 >
@@ -30869,7 +30869,7 @@ IsMainAxisHorizontal
 )
 )
 {
-childReflowState
+childReflowInput
 .
 SetComputedWidth
 (
@@ -30884,7 +30884,7 @@ GetMainSize
 }
 else
 {
-childReflowState
+childReflowInput
 .
 SetComputedHeight
 (
@@ -30902,7 +30902,7 @@ SizeItemInCrossAxis
 (
 aPresContext
 aAxisTracker
-childReflowState
+childReflowInput
 *
 item
 )
@@ -30956,7 +30956,7 @@ contentBoxCrossSize
 =
 ComputeCrossSize
 (
-aReflowState
+aReflowInput
 aAxisTracker
 sumLineCrossSizes
 aAvailableBSizeForContent
@@ -30999,7 +30999,7 @@ lines
 getFirst
 (
 )
-aReflowState
+aReflowInput
 .
 mStylePosition
 -
@@ -31256,7 +31256,7 @@ GetPosition
 +
 firstLineBaselineOffset
 contentBoxCrossSize
-aReflowState
+aReflowInput
 aAxisTracker
 )
 ;
@@ -31268,7 +31268,7 @@ justifyContent
 =
 IsLegacyBox
 (
-aReflowState
+aReflowInput
 .
 mStyleDisplay
 mStyleContext
@@ -31281,7 +31281,7 @@ StyleXUL
 )
 )
 :
-aReflowState
+aReflowInput
 .
 mStylePosition
 -
@@ -31606,7 +31606,7 @@ GetPosition
 -
 lastLineBaselineOffset
 contentBoxCrossSize
-aReflowState
+aReflowInput
 aAxisTracker
 )
 ;
@@ -31661,7 +31661,7 @@ positions
 WritingMode
 flexWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -31670,7 +31670,7 @@ GetWritingMode
 LogicalMargin
 containerBP
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -31747,7 +31747,7 @@ skipSides
 GetLogicalSkipSides
 (
 &
-aReflowState
+aReflowInput
 )
 |
 LogicalSides
@@ -31813,7 +31813,7 @@ contentBoxCrossSize
 logSize
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -32270,7 +32270,7 @@ false
 ;
 MoveFlexItemToFinalPosition
 (
-aReflowState
+aReflowInput
 *
 item
 framePos
@@ -32289,7 +32289,7 @@ ReflowFlexItem
 (
 aPresContext
 aAxisTracker
-aReflowState
+aReflowInput
 *
 item
 framePos
@@ -32846,7 +32846,7 @@ blockEndContainerBP
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -32870,14 +32870,14 @@ flexWM
 desiredBSizeWithBEndBP
 <
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
 )
 |
 |
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -33007,14 +33007,14 @@ FinishReflowWithAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 }
@@ -33027,7 +33027,7 @@ MoveFlexItemToFinalPosition
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexItem
 &
@@ -33044,7 +33044,7 @@ aContainerSize
 WritingMode
 outerWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -33216,7 +33216,7 @@ aAxisTracker
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexItem
 &
@@ -33233,7 +33233,7 @@ aContainerSize
 WritingMode
 outerWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -33256,7 +33256,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -33273,10 +33273,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 aItem
 .
 Frame
@@ -33342,7 +33342,7 @@ IsMainAxisHorizontal
 )
 )
 {
-childReflowState
+childReflowInput
 .
 SetComputedWidth
 (
@@ -33360,7 +33360,7 @@ true
 }
 else
 {
-childReflowState
+childReflowInput
 .
 SetComputedHeight
 (
@@ -33546,7 +33546,7 @@ IsCrossAxisHorizontal
 )
 )
 {
-childReflowState
+childReflowInput
 .
 SetComputedWidth
 (
@@ -33564,7 +33564,7 @@ true
 }
 else
 {
-childReflowState
+childReflowInput
 .
 SetComputedHeight
 (
@@ -33777,7 +33777,7 @@ orthogonal
 flows
 .
 )
-childReflowState
+childReflowInput
 .
 SetHResize
 (
@@ -33790,7 +33790,7 @@ if
 didOverrideComputedHeight
 )
 {
-childReflowState
+childReflowInput
 .
 SetVResize
 (
@@ -33811,7 +33811,7 @@ doing
 anything
 else
 with
-childReflowState
+childReflowInput
 /
 /
 after
@@ -33844,7 +33844,7 @@ mHResize
 ReflowOutput
 childDesiredSize
 (
-childReflowState
+childReflowInput
 )
 ;
 nsReflowStatus
@@ -33859,7 +33859,7 @@ Frame
 )
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 outerWM
 aFramePos
 aContainerSize
@@ -33936,7 +33936,7 @@ complete
 LogicalMargin
 offsets
 =
-childReflowState
+childReflowInput
 .
 ComputedLogicalOffsets
 (
@@ -33975,7 +33975,7 @@ Frame
 aPresContext
 childDesiredSize
 &
-childReflowState
+childReflowInput
 outerWM
 aFramePos
 aContainerSize

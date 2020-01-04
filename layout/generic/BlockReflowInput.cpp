@@ -233,7 +233,7 @@ BlockReflowInput
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsPresContext
 *
 aPresContext
@@ -258,13 +258,13 @@ mPresContext
 (
 aPresContext
 )
-mReflowState
+mReflowInput
 (
-aReflowState
+aReflowInput
 )
 mContentArea
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -280,7 +280,7 @@ nullptr
 )
 mBorderPadding
 (
-mReflowState
+mReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -348,7 +348,7 @@ sFloatFragmentsInsideColumnEnabled
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -389,7 +389,7 @@ aFrame
 GetLogicalSkipSides
 (
 &
-aReflowState
+aReflowInput
 )
 ;
 mBorderPadding
@@ -445,7 +445,7 @@ block
 /
 /
 If
-aReflowState
+aReflowInput
 doesn
 '
 t
@@ -510,7 +510,7 @@ mContainerSize
 .
 width
 =
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -597,7 +597,7 @@ mContainerSize
 .
 height
 =
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -696,7 +696,7 @@ true
 }
 mFloatManager
 =
-aReflowState
+aReflowInput
 .
 mFloatManager
 ;
@@ -776,7 +776,7 @@ LAYOUT_WARN_IF_FALSE
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -814,7 +814,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -900,7 +900,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -948,7 +948,7 @@ edge
 .
 mBEndEdge
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -1070,7 +1070,7 @@ end_lines
 ;
 mMinLineHeight
 =
-aReflowState
+aReflowInput
 .
 CalcLineHeight
 (
@@ -1132,7 +1132,7 @@ const
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1312,7 +1312,7 @@ SizeComputationInput
 os
 (
 aFrame
-mReflowState
+mReflowInput
 .
 mRenderingContext
 wm
@@ -1631,7 +1631,7 @@ endif
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1660,7 +1660,7 @@ BRS_UNCONSTRAINEDBSIZE
 ?
 NS_UNCONSTRAINEDSIZE
 :
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -1671,7 +1671,7 @@ mBCoord
 GetBEndMarginClone
 (
 aFrame
-mReflowState
+mReflowInput
 .
 mRenderingContext
 mContentArea
@@ -2325,7 +2325,7 @@ true
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -2480,7 +2480,7 @@ const
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -2744,7 +2744,7 @@ const
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -3566,7 +3566,7 @@ aDeltaBCoord
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -4798,7 +4798,7 @@ engine
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -5086,7 +5086,7 @@ mRect
 .
 ISize
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -5185,7 +5185,7 @@ FloatMarginISize
 const
 ReflowInput
 &
-aCBReflowState
+aCBReflowInput
 nscoord
 aFloatAvailableISize
 nsIFrame
@@ -5220,11 +5220,11 @@ aFloat
 >
 ComputeSize
 (
-aCBReflowState
+aCBReflowInput
 .
 mRenderingContext
 wm
-aCBReflowState
+aCBReflowInput
 .
 ComputedSize
 (
@@ -5284,7 +5284,7 @@ eShrinkWrap
 WritingMode
 cbwm
 =
-aCBReflowState
+aCBReflowInput
 .
 GetWritingMode
 (
@@ -5390,7 +5390,7 @@ aFloat
 WritingMode
 wm
 =
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -5697,11 +5697,11 @@ SizeComputationInput
 offsets
 (
 aFloat
-mReflowState
+mReflowInput
 .
 mRenderingContext
 wm
-mReflowState
+mReflowInput
 .
 ComputedISize
 (
@@ -5713,7 +5713,7 @@ floatMarginISize
 =
 FloatMarginISize
 (
-mReflowState
+mReflowInput
 adjustedAvailableSpace
 .
 ISize
@@ -6076,7 +6076,7 @@ breaking
 bool
 mustPlaceFloat
 =
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -6095,7 +6095,7 @@ for
 {
 if
 (
-mReflowState
+mReflowInput
 .
 AvailableHeight
 (
@@ -6579,7 +6579,7 @@ floatMarginISize
 =
 FloatMarginISize
 (
-mReflowState
+mReflowInput
 adjustedAvailableSpace
 .
 ISize
@@ -7195,7 +7195,7 @@ aFloat
 >
 ShouldAvoidBreakInside
 (
-mReflowState
+mReflowInput
 )
 here
 since
@@ -7244,7 +7244,7 @@ mustPlaceFloat
 &
 (
 !
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -8121,7 +8121,7 @@ StyleDisplay
 >
 PhysicalFloats
 (
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (

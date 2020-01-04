@@ -594,7 +594,7 @@ NotifyPercentBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 /
@@ -602,7 +602,7 @@ aReflowState
 ReflowInput
 ensures
 the
-mCBReflowState
+mCBReflowInput
 of
 blocks
 inside
@@ -691,9 +691,9 @@ ReflowInput
 *
 cellRS
 =
-aReflowState
+aReflowInput
 .
-mCBReflowState
+mCBReflowInput
 ;
 if
 (
@@ -852,7 +852,7 @@ this
 cellRS
 -
 >
-mParentReflowState
+mParentReflowInput
 -
 >
 mFrame
@@ -872,9 +872,9 @@ ReflowInput
 *
 rs
 =
-aReflowState
+aReflowInput
 .
-mParentReflowState
+mParentReflowInput
 ;
 rs
 !
@@ -886,7 +886,7 @@ rs
 rs
 -
 >
-mParentReflowState
+mParentReflowInput
 )
 {
 rs
@@ -940,7 +940,7 @@ NeedsToObserve
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 const
@@ -948,9 +948,9 @@ ReflowInput
 *
 rs
 =
-aReflowState
+aReflowInput
 .
-mParentReflowState
+mParentReflowInput
 ;
 if
 (
@@ -1013,7 +1013,7 @@ rs
 rs
 -
 >
-mParentReflowState
+mParentReflowInput
 ;
 if
 (
@@ -1055,7 +1055,7 @@ nsIAtom
 *
 fType
 =
-aReflowState
+aReflowInput
 .
 mFrame
 -
@@ -3390,7 +3390,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {
@@ -5251,7 +5251,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -5272,14 +5272,14 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5319,7 +5319,7 @@ nsTableFrame
 :
 CheckRequestSpecialBSizeReflow
 (
-aReflowState
+aReflowInput
 )
 ;
 aStatus
@@ -5329,7 +5329,7 @@ NS_FRAME_COMPLETE
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -5339,12 +5339,12 @@ LogicalSize
 availSize
 (
 wm
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -5354,7 +5354,7 @@ AvailableBSize
 LogicalMargin
 borderPadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalPadding
 (
@@ -5494,7 +5494,7 @@ ClearSize
 ;
 SetPriorAvailISize
 (
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -5540,7 +5540,7 @@ GetTableFrame
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5553,7 +5553,7 @@ ReflowInput
 &
 >
 (
-aReflowState
+aReflowInput
 )
 .
 SetComputedBSize
@@ -5621,7 +5621,7 @@ ReflowInput
 &
 >
 (
-aReflowState
+aReflowInput
 )
 .
 SetComputedBSize
@@ -5654,10 +5654,10 @@ GetWritingMode
 )
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 firstKid
 availSize
 .
@@ -5720,7 +5720,7 @@ reflow
 if
 (
 !
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5763,7 +5763,7 @@ propagated
 to
 descendants
 .
-kidReflowState
+kidReflowInput
 .
 mPercentBSizeObserver
 =
@@ -5783,7 +5783,7 @@ state
 to
 our
 kids
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -5793,7 +5793,7 @@ false
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5858,7 +5858,7 @@ special
 bsize
 reflow
 .
-kidReflowState
+kidReflowInput
 .
 SetBResize
 (
@@ -5869,7 +5869,7 @@ true
 nsSize
 containerSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeAsContainerIfConstrained
 (
@@ -5929,7 +5929,7 @@ ReflowChild
 firstKid
 aPresContext
 kidSize
-kidReflowState
+kidReflowInput
 wm
 kidOrigin
 containerSize
@@ -6129,7 +6129,7 @@ firstKid
 aPresContext
 kidSize
 &
-kidReflowState
+kidReflowInput
 wm
 kidOrigin
 containerSize
@@ -6328,7 +6328,7 @@ gets
 called
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -6386,7 +6386,7 @@ if
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -6526,7 +6526,7 @@ PushDirtyBitToAbsoluteFrames
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

@@ -1064,9 +1064,9 @@ aContainingBlockISize
 )
 ;
 struct
-ReflowStateFlags
+ReflowInputFlags
 {
-ReflowStateFlags
+ReflowInputFlags
 (
 )
 {
@@ -1388,7 +1388,7 @@ intrinsic
 height
 .
 uint16_t
-mDummyParentReflowState
+mDummyParentReflowInput
 :
 1
 ;
@@ -1954,7 +1954,7 @@ aPercentBasis
 nsIAtom
 *
 aFrameType
-ReflowStateFlags
+ReflowInputFlags
 aFlags
 const
 nsMargin
@@ -2163,7 +2163,7 @@ state
 const
 ReflowInput
 *
-mParentReflowState
+mParentReflowInput
 ;
 /
 /
@@ -2229,7 +2229,7 @@ frame
 const
 ReflowInput
 *
-mCBReflowState
+mCBReflowInput
 ;
 /
 /
@@ -2394,7 +2394,7 @@ will
 look
 up
 its
-parentReflowState
+parentReflowInput
 chain
 for
 a
@@ -4348,7 +4348,7 @@ tree
 int16_t
 mReflowDepth
 ;
-ReflowStateFlags
+ReflowInputFlags
 mFlags
 ;
 /
@@ -4778,7 +4778,7 @@ PresContext
 .
 *
 param
-aParentReflowState
+aParentReflowInput
 A
 reference
 to
@@ -4878,7 +4878,7 @@ aPresContext
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 nsIFrame
 *
 aFrame
@@ -4934,7 +4934,7 @@ fake
 see
 /
 /
-mDummyParentReflowState
+mDummyParentReflowInput
 in
 mFlags
 )
@@ -6467,7 +6467,7 @@ aFrameType
 )
 ;
 void
-InitCBReflowState
+InitCBReflowInput
 (
 )
 ;

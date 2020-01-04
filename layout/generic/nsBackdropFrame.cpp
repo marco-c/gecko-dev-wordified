@@ -553,7 +553,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -574,7 +574,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -596,7 +596,7 @@ frame
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -605,7 +605,7 @@ GetWritingMode
 LogicalMargin
 borderPadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -614,7 +614,7 @@ ComputedLogicalBorderPadding
 nscoord
 isize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -630,7 +630,7 @@ wm
 nscoord
 bsize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (

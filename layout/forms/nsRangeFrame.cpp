@@ -1863,7 +1863,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1884,7 +1884,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -2003,7 +2003,7 @@ true
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -2012,7 +2012,7 @@ GetWritingMode
 nscoord
 computedBSize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -2035,13 +2035,13 @@ LogicalSize
 finalSize
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -2053,7 +2053,7 @@ wm
 )
 computedBSize
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -2077,7 +2077,7 @@ ReflowAnonymousContent
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 )
 ;
 aDesiredSize
@@ -2174,7 +2174,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -2194,7 +2194,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 /
@@ -2224,7 +2224,7 @@ content
 nscoord
 rangeFrameContentBoxWidth
 =
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -2233,7 +2233,7 @@ ComputedWidth
 nscoord
 rangeFrameContentBoxHeight
 =
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -2357,7 +2357,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -2374,10 +2374,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-trackReflowState
+trackReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 trackFrame
 availSize
 )
@@ -2457,7 +2457,7 @@ margin
 trackX
 -
 =
-trackReflowState
+trackReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2465,7 +2465,7 @@ ComputedPhysicalBorderPadding
 .
 left
 +
-trackReflowState
+trackReflowInput
 .
 ComputedWidth
 (
@@ -2476,7 +2476,7 @@ ComputedWidth
 trackY
 -
 =
-trackReflowState
+trackReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2484,7 +2484,7 @@ ComputedPhysicalBorderPadding
 .
 top
 +
-trackReflowState
+trackReflowInput
 .
 ComputedHeight
 (
@@ -2509,7 +2509,7 @@ box
 trackX
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2520,7 +2520,7 @@ left
 trackY
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2534,7 +2534,7 @@ frameStatus
 ReflowOutput
 trackDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowChild
@@ -2542,7 +2542,7 @@ ReflowChild
 trackFrame
 aPresContext
 trackDesiredSize
-trackReflowState
+trackReflowInput
 trackX
 trackY
 0
@@ -2576,7 +2576,7 @@ trackFrame
 aPresContext
 trackDesiredSize
 &
-trackReflowState
+trackReflowInput
 trackX
 trackY
 0
@@ -2618,7 +2618,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -2635,10 +2635,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-thumbReflowState
+thumbReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 thumbFrame
 availSize
 )
@@ -2682,7 +2682,7 @@ frameStatus
 ReflowOutput
 thumbDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowChild
@@ -2690,7 +2690,7 @@ ReflowChild
 thumbFrame
 aPresContext
 thumbDesiredSize
-thumbReflowState
+thumbReflowInput
 0
 0
 0
@@ -2724,7 +2724,7 @@ thumbFrame
 aPresContext
 thumbDesiredSize
 &
-thumbReflowState
+thumbReflowInput
 0
 0
 0
@@ -2784,7 +2784,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -2801,10 +2801,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-progressReflowState
+progressReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 rangeProgressFrame
 availSize
 )
@@ -2854,7 +2854,7 @@ frameStatus
 ReflowOutput
 progressDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowChild
@@ -2862,7 +2862,7 @@ ReflowChild
 rangeProgressFrame
 aPresContext
 progressDesiredSize
-progressReflowState
+progressReflowInput
 0
 0
 0
@@ -2896,7 +2896,7 @@ rangeProgressFrame
 aPresContext
 progressDesiredSize
 &
-progressReflowState
+progressReflowInput
 0
 0
 0

@@ -3796,7 +3796,7 @@ mOld
 ;
 #
 endif
-mReflowState
+mReflowInput
 .
 mFloatManager
 =
@@ -3816,7 +3816,7 @@ nsFrame
 *
 >
 (
-mReflowState
+mReflowInput
 .
 frame
 )
@@ -3914,7 +3914,7 @@ aPresContext
 PresShell
 (
 )
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -3950,7 +3950,7 @@ p
 n
 "
 mNew
-mReflowState
+mReflowInput
 .
 mFloatManager
 )
@@ -3970,11 +3970,11 @@ reflow
 state
 mOld
 =
-mReflowState
+mReflowInput
 .
 mFloatManager
 ;
-mReflowState
+mReflowInput
 .
 mFloatManager
 =

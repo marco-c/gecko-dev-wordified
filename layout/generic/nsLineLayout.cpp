@@ -430,7 +430,7 @@ aFloatManager
 const
 ReflowInput
 *
-aOuterReflowState
+aOuterReflowInput
 const
 nsLineList
 :
@@ -451,9 +451,9 @@ mFloatManager
 (
 aFloatManager
 )
-mBlockReflowState
+mBlockReflowInput
 (
-aOuterReflowState
+aOuterReflowInput
 )
 mBaseLineLayout
 (
@@ -560,7 +560,7 @@ false
 )
 mSuppressLineWrap
 (
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -573,9 +573,9 @@ IsSVGText
 {
 MOZ_ASSERT
 (
-aOuterReflowState
+aOuterReflowInput
 "
-aOuterReflowState
+aOuterReflowInput
 must
 not
 be
@@ -588,7 +588,7 @@ NS_ASSERTION
 aFloatManager
 |
 |
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -622,7 +622,7 @@ mBaseLineLayout
 =
 =
 (
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -676,7 +676,7 @@ blockFrame
 =
 do_QueryFrame
 (
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -698,7 +698,7 @@ StyleTextForLineLayout
 else
 mStyleText
 =
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -731,7 +731,7 @@ nsLayoutUtils
 :
 InflationMinFontSizeFor
 (
-aOuterReflowState
+aOuterReflowInput
 -
 >
 mFrame
@@ -1034,7 +1034,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1104,7 +1104,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1147,7 +1147,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1306,9 +1306,9 @@ psd
 psd
 -
 >
-mReflowState
+mReflowInput
 =
-mBlockReflowState
+mBlockReflowInput
 ;
 psd
 -
@@ -1400,7 +1400,7 @@ mLineNumber
 !
 HasPrevInFlow
 (
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1433,7 +1433,7 @@ HasPercent
 {
 pctBasis
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 GetContainingBlockContentISize
@@ -1473,7 +1473,7 @@ pfd
 =
 NewPerFrameData
 (
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1504,7 +1504,7 @@ nsIFrame
 *
 frame
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -1562,7 +1562,7 @@ pfd
 >
 mRelativePos
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mStyleDisplay
@@ -1582,7 +1582,7 @@ mRelativePos
 {
 MOZ_ASSERT
 (
-mBlockReflowState
+mBlockReflowInput
 -
 >
 GetWritingMode
@@ -1595,7 +1595,7 @@ pfd
 >
 mWritingMode
 "
-mBlockReflowState
+mBlockReflowInput
 -
 >
 frame
@@ -1619,7 +1619,7 @@ pfd
 >
 mOffsets
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 ComputedLogicalOffsets
@@ -1646,7 +1646,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -2098,7 +2098,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -2188,7 +2188,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -2382,7 +2382,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -2914,7 +2914,7 @@ aFrame
 const
 ReflowInput
 *
-aSpanReflowState
+aSpanReflowInput
 nscoord
 aIStart
 nscoord
@@ -3063,9 +3063,9 @@ mCurrentSpan
 psd
 -
 >
-mReflowState
+mReflowInput
 =
-aSpanReflowState
+aSpanReflowInput
 ;
 psd
 -
@@ -3099,7 +3099,7 @@ nsIFrame
 *
 frame
 =
-aSpanReflowState
+aSpanReflowInput
 -
 >
 mFrame
@@ -3144,7 +3144,7 @@ psd
 >
 mWritingMode
 =
-aSpanReflowState
+aSpanReflowInput
 -
 >
 GetWritingMode
@@ -3274,7 +3274,7 @@ mSpanDepth
 mCurrentSpan
 -
 >
-mReflowState
+mReflowInput
 =
 nullptr
 ;
@@ -5962,7 +5962,7 @@ Maybe
 <
 ReflowInput
 >
-reflowStateHolder
+reflowInputHolder
 ;
 if
 (
@@ -6009,7 +6009,7 @@ always
 LogicalSize
 availSize
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 ComputedSize
@@ -6026,7 +6026,7 @@ frameWM
 =
 NS_UNCONSTRAINEDSIZE
 ;
-reflowStateHolder
+reflowInputHolder
 .
 emplace
 (
@@ -6035,25 +6035,25 @@ mPresContext
 psd
 -
 >
-mReflowState
+mReflowInput
 aFrame
 availSize
 )
 ;
 ReflowInput
 &
-reflowState
+reflowInput
 =
 *
-reflowStateHolder
+reflowInputHolder
 ;
-reflowState
+reflowInput
 .
 mLineLayout
 =
 this
 ;
-reflowState
+reflowInput
 .
 mFlags
 .
@@ -6063,7 +6063,7 @@ mIsTopOfPage
 ;
 if
 (
-reflowState
+reflowInput
 .
 ComputedISize
 (
@@ -6073,7 +6073,7 @@ ComputedISize
 NS_UNCONSTRAINEDSIZE
 )
 {
-reflowState
+reflowInput
 .
 AvailableISize
 (
@@ -6085,7 +6085,7 @@ availableSpaceOnLine
 WritingMode
 stateWM
 =
-reflowState
+reflowInput
 .
 GetWritingMode
 (
@@ -6096,7 +6096,7 @@ pfd
 >
 mMargin
 =
-reflowState
+reflowInput
 .
 ComputedLogicalMargin
 (
@@ -6113,7 +6113,7 @@ pfd
 >
 mBorderPadding
 =
-reflowState
+reflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -6130,7 +6130,7 @@ pfd
 >
 mRelativePos
 =
-reflowState
+reflowInput
 .
 mStyleDisplay
 -
@@ -6152,7 +6152,7 @@ pfd
 >
 mOffsets
 =
-reflowState
+reflowInput
 .
 ComputedLogicalOffsets
 (
@@ -6219,7 +6219,7 @@ frame
 AllowForStartMargin
 (
 pfd
-reflowState
+reflowInput
 )
 ;
 }
@@ -6534,7 +6534,7 @@ Reflow
 mPresContext
 metrics
 *
-reflowStateHolder
+reflowInputHolder
 aReflowStatus
 )
 ;
@@ -6559,7 +6559,7 @@ availableSpaceOnLine
 psd
 -
 >
-mReflowState
+mReflowInput
 -
 >
 mRenderingContext
@@ -7593,7 +7593,7 @@ isText
 ?
 nullptr
 :
-reflowStateHolder
+reflowInputHolder
 .
 ptr
 (
@@ -7887,7 +7887,7 @@ isText
 |
 |
 !
-reflowStateHolder
+reflowInputHolder
 -
 >
 IsFloating
@@ -8315,13 +8315,13 @@ PerFrameData
 pfd
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 NS_ASSERTION
 (
 !
-aReflowState
+aReflowInput
 .
 IsFloating
 (
@@ -8487,7 +8487,7 @@ FrameIsNonFirstInIBSplit
 )
 &
 &
-aReflowState
+aReflowInput
 .
 mStyleBorder
 -
@@ -8548,7 +8548,7 @@ if
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -8560,7 +8560,7 @@ NS_WARN_IF_FALSE
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -8653,13 +8653,13 @@ frame
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
 )
 ;
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -10825,7 +10825,7 @@ nsIFrame
 *
 blockFrame
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -14558,7 +14558,7 @@ spanFrame
 StyleContext
 (
 )
-mBlockReflowState
+mBlockReflowInput
 -
 >
 ComputedHeight
@@ -16535,7 +16535,7 @@ frame
 StyleContext
 (
 )
-mBlockReflowState
+mBlockReflowInput
 -
 >
 ComputedBSize
@@ -19839,7 +19839,7 @@ mFrame
 >
 TrimTrailingWhiteSpace
 (
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mRenderingContext
@@ -23423,7 +23423,7 @@ nsFrame
 ListTag
 (
 stdout
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -23630,7 +23630,7 @@ mTextAlignLast
 bool
 isSVG
 =
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -25246,7 +25246,7 @@ f
 >
 RecomputeOverflow
 (
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame

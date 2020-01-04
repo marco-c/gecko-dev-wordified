@@ -7193,7 +7193,7 @@ GetSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {
@@ -7260,7 +7260,7 @@ logicalSkip
 =
 GetLogicalSkipSides
 (
-aReflowState
+aReflowInput
 )
 ;
 Sides
@@ -32905,7 +32905,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -33033,10 +33033,10 @@ known
 .
 if
 (
-aReflowState
+aReflowInput
 &
 &
-aReflowState
+aReflowInput
 -
 >
 mPercentBSizeObserver
@@ -33053,7 +33053,7 @@ nsStyleCoord
 &
 bsize
 =
-aReflowState
+aReflowInput
 -
 >
 mStylePosition
@@ -33061,7 +33061,7 @@ mStylePosition
 >
 BSize
 (
-aReflowState
+aReflowInput
 -
 >
 GetWritingMode
@@ -33078,7 +33078,7 @@ HasPercent
 )
 )
 {
-aReflowState
+aReflowInput
 -
 >
 mPercentBSizeObserver
@@ -33087,7 +33087,7 @@ mPercentBSizeObserver
 NotifyPercentBSize
 (
 *
-aReflowState
+aReflowInput
 )
 ;
 }
@@ -33115,7 +33115,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -33127,7 +33127,7 @@ ReflowAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 aConstrainBSize
 )
@@ -33154,7 +33154,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -33336,7 +33336,7 @@ Reflow
 (
 container
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 containingBlock
 flags
@@ -33464,7 +33464,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -33494,7 +33494,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -39672,7 +39672,7 @@ IsFrameTreeTooDeep
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aMetrics
@@ -39683,7 +39683,7 @@ aStatus
 {
 if
 (
-aReflowState
+aReflowInput
 .
 mReflowDepth
 >
@@ -58324,13 +58324,13 @@ wm
 =
 aState
 .
-OuterReflowState
+OuterReflowInput
 (
 )
 ?
 aState
 .
-OuterReflowState
+OuterReflowInput
 (
 )
 -
@@ -58917,7 +58917,7 @@ cache
 if
 we
 have
-HTMLReflowState
+HTMLReflowInput
 constraints
 -
 -
@@ -59094,7 +59094,7 @@ cache
 if
 we
 have
-HTMLReflowState
+HTMLReflowInput
 constraints
 -
 -
@@ -59351,13 +59351,13 @@ outerWM
 =
 aState
 .
-OuterReflowState
+OuterReflowInput
 (
 )
 ?
 aState
 .
-OuterReflowState
+OuterReflowInput
 (
 )
 -
@@ -59736,14 +59736,14 @@ Set
 up
 a
 |
-reflowState
+reflowInput
 |
 to
 pass
 into
 ReflowAbsoluteFrames
 ReflowInput
-reflowState
+reflowInput
 (
 aState
 .
@@ -59814,7 +59814,7 @@ PresContext
 (
 )
 desiredSize
-reflowState
+reflowInput
 reflowStatus
 )
 ;
@@ -60392,7 +60392,7 @@ GetWritingMode
 )
 ;
 ReflowInput
-parentReflowState
+parentReflowInput
 (
 aPresContext
 parentFrame
@@ -60454,7 +60454,7 @@ width
 =
 NS_INTRINSICSIZE
 )
-parentReflowState
+parentReflowInput
 .
 SetComputedWidth
 (
@@ -60479,7 +60479,7 @@ height
 =
 NS_INTRINSICSIZE
 )
-parentReflowState
+parentReflowInput
 .
 SetComputedHeight
 (
@@ -60495,7 +60495,7 @@ height
 )
 )
 ;
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -60520,7 +60520,7 @@ parentFrame
 >
 GetXULPadding
 (
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -60532,21 +60532,21 @@ parentFrame
 >
 GetXULBorder
 (
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalBorderPadding
 (
 )
 )
 ;
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalBorderPadding
 (
 )
 +
 =
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -60572,21 +60572,21 @@ dimensions
 const
 ReflowInput
 *
-outerReflowState
+outerReflowInput
 =
 aState
 .
-OuterReflowState
+OuterReflowInput
 (
 )
 ;
 NS_ASSERTION
 (
 !
-outerReflowState
+outerReflowInput
 |
 |
-outerReflowState
+outerReflowInput
 -
 >
 mFrame
@@ -60614,10 +60614,10 @@ parentRS
 ;
 if
 (
-outerReflowState
+outerReflowInput
 &
 &
-outerReflowState
+outerReflowInput
 -
 >
 mFrame
@@ -60701,7 +60701,7 @@ here
 .
 parentRS
 =
-outerReflowState
+outerReflowInput
 ;
 }
 else
@@ -60709,7 +60709,7 @@ else
 parentRS
 =
 &
-parentReflowState
+parentReflowInput
 ;
 }
 /
@@ -60771,7 +60771,7 @@ wm
 NS_INTRINSICSIZE
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aPresContext
 *
@@ -60832,13 +60832,13 @@ changing
 it
 later
 .
-reflowState
+reflowInput
 .
-mCBReflowState
+mCBReflowInput
 =
 parentRS
 ;
-reflowState
+reflowInput
 .
 mReflowDepth
 =
@@ -60876,7 +60876,7 @@ computedWidth
 =
 aWidth
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -60897,7 +60897,7 @@ computedWidth
 0
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedWidth
 (
@@ -60998,7 +60998,7 @@ computedHeight
 =
 aHeight
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -61019,7 +61019,7 @@ computedHeight
 0
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedHeight
 (
@@ -61029,7 +61029,7 @@ computedHeight
 }
 else
 {
-reflowState
+reflowInput
 .
 SetComputedHeight
 (
@@ -61044,7 +61044,7 @@ ISize
 (
 wm
 )
-reflowState
+reflowInput
 .
 ComputedLogicalMargin
 (
@@ -61054,7 +61054,7 @@ Size
 (
 wm
 )
-reflowState
+reflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -61065,7 +61065,7 @@ Size
 wm
 )
 -
-reflowState
+reflowInput
 .
 ComputedLogicalPadding
 (
@@ -61075,7 +61075,7 @@ Size
 (
 wm
 )
-reflowState
+reflowInput
 .
 ComputedLogicalPadding
 (
@@ -61184,7 +61184,7 @@ width
 aWidth
 )
 {
-reflowState
+reflowInput
 .
 SetHResize
 (
@@ -61251,7 +61251,7 @@ height
 aHeight
 )
 {
-reflowState
+reflowInput
 .
 SetVResize
 (
@@ -61280,12 +61280,12 @@ d
 \
 n
 "
-reflowState
+reflowInput
 .
 ComputedWidth
 (
 )
-reflowState
+reflowInput
 .
 ComputedHeight
 (
@@ -61298,7 +61298,7 @@ nsAdaptorAddIndents
 ;
 nsAdaptorPrintReason
 (
-reflowState
+reflowInput
 )
 ;
 printf
@@ -61322,7 +61322,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-reflowState
+reflowInput
 status
 )
 ;
@@ -61356,7 +61356,7 @@ this
 aPresContext
 aDesiredSize
 &
-reflowState
+reflowInput
 aX
 aY
 layoutFlags
@@ -63027,7 +63027,7 @@ nsAdaptorPrintReason
 (
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 char
@@ -63036,7 +63036,7 @@ reflowReasonString
 ;
 switch
 (
-aReflowState
+aReflowInput
 .
 reason
 )
@@ -63091,7 +63091,7 @@ eReflowReason_Incremental
 {
 switch
 (
-aReflowState
+aReflowInput
 .
 reflowCommand
 -
@@ -63602,7 +63602,7 @@ aFrame
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aMetrics
@@ -63619,9 +63619,9 @@ mFrame
 (
 aFrame
 )
-mReflowState
+mReflowInput
 (
-aReflowState
+aReflowInput
 )
 mMetrics
 (
@@ -63646,7 +63646,7 @@ DisplayReflowEnter
 (
 aPresContext
 mFrame
-mReflowState
+mReflowInput
 )
 ;
 }
@@ -64169,7 +64169,7 @@ aFrame
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 ;
 void
@@ -66985,7 +66985,7 @@ aFrame
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 {
 /
@@ -67012,7 +67012,7 @@ parentFrame
 ;
 if
 (
-aReflowState
+aReflowInput
 )
 {
 const
@@ -67020,10 +67020,10 @@ ReflowInput
 *
 parentRS
 =
-aReflowState
+aReflowInput
 -
 >
-mParentReflowState
+mParentReflowInput
 ;
 parentFrame
 =
@@ -67570,7 +67570,7 @@ aFrame
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 DR_FrameTreeNode
 &
 aTreeNode
@@ -67613,7 +67613,7 @@ DR_state
 >
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -67627,7 +67627,7 @@ DR_state
 >
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -67656,7 +67656,7 @@ DR_state
 >
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -67670,7 +67670,7 @@ DR_state
 >
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -67733,7 +67733,7 @@ children
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -67750,7 +67750,7 @@ bsize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 IsHResize
 (
@@ -67767,7 +67767,7 @@ resize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 IsVResize
 (
@@ -67894,7 +67894,7 @@ AppUnitsPerDevPixel
 ;
 CheckPixelError
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -67904,7 +67904,7 @@ p2t
 ;
 CheckPixelError
 (
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -67914,7 +67914,7 @@ p2t
 ;
 CheckPixelError
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -67924,7 +67924,7 @@ p2t
 ;
 CheckPixelError
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -67951,7 +67951,7 @@ aFrame
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 if
@@ -68000,7 +68000,7 @@ CreateTreeNode
 (
 aFrame
 &
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -68012,7 +68012,7 @@ DisplayReflowEnterPrint
 (
 aPresContext
 aFrame
-aReflowState
+aReflowInput
 *
 treeNode
 false
@@ -69376,7 +69376,7 @@ DisplayReflowEnterPrint
 (
 mPresContext
 mFrame
-mReflowState
+mReflowInput
 *
 treeNode
 true
@@ -69518,7 +69518,7 @@ void
 aState
 -
 >
-mParentReflowState
+mParentReflowInput
 )
 ;
 char

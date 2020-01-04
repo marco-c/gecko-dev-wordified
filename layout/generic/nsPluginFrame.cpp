@@ -2455,7 +2455,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aMetrics
@@ -2492,7 +2492,7 @@ Width
 (
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -2504,7 +2504,7 @@ Height
 (
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -2566,12 +2566,12 @@ CSSPixelsToAppUnits
 (
 EMBED_DEF_WIDTH
 )
-aReflowState
+aReflowInput
 .
 ComputedMinWidth
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxWidth
 (
@@ -2606,12 +2606,12 @@ CSSPixelsToAppUnits
 (
 EMBED_DEF_HEIGHT
 )
-aReflowState
+aReflowInput
 .
 ComputedMinHeight
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxHeight
 (
@@ -2789,7 +2789,7 @@ Width
 )
 =
 (
-aReflowState
+aReflowInput
 .
 ComputedMinWidth
 (
@@ -2799,7 +2799,7 @@ ComputedMinWidth
 NS_UNCONSTRAINEDSIZE
 )
 ?
-aReflowState
+aReflowInput
 .
 ComputedMinWidth
 (
@@ -2886,7 +2886,7 @@ Height
 )
 =
 (
-aReflowState
+aReflowInput
 .
 ComputedMinHeight
 (
@@ -2896,7 +2896,7 @@ ComputedMinHeight
 NS_UNCONSTRAINEDSIZE
 )
 ?
-aReflowState
+aReflowInput
 .
 ComputedMinHeight
 (
@@ -3004,7 +3004,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3025,7 +3025,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -3039,7 +3039,7 @@ size
 GetDesiredSize
 (
 aPresContext
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -3167,7 +3167,7 @@ r
 .
 Deflate
 (
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -3267,7 +3267,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -5038,7 +5038,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -5119,7 +5119,7 @@ nsFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 )
 ;

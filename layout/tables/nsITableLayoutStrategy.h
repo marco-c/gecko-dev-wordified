@@ -281,7 +281,7 @@ ComputeColumnISizes
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 =
 0

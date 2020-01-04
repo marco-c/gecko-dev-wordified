@@ -3683,13 +3683,13 @@ ComputeColumnISizes
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 nscoord
 iSize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3775,7 +3775,7 @@ NS_INTRINSIC_WIDTH_UNKNOWN
 {
 ComputeIntrinsicISizes
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 )

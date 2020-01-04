@@ -556,7 +556,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -833,7 +833,7 @@ GetBSizeBasis
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 mozilla
@@ -2229,7 +2229,7 @@ aContext
 )
 ;
 void
-InitChildReflowState
+InitChildReflowInput
 (
 nsPresContext
 &
@@ -2238,7 +2238,7 @@ bool
 aBorderCollapse
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 virtual
@@ -2248,7 +2248,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )
@@ -2263,7 +2263,7 @@ nsPresContext
 aPresContext
 TableRowGroupReflowInput
 &
-aReflowState
+aReflowInput
 nsIFrame
 *
 aKidFrame
@@ -2308,7 +2308,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 void
@@ -2324,7 +2324,7 @@ SlideChild
 (
 TableRowGroupReflowInput
 &
-aReflowState
+aReflowInput
 nsIFrame
 *
 aKidFrame
@@ -2352,7 +2352,7 @@ to
 use
 *
 param
-aReflowState
+aReflowInput
 current
 inline
 state
@@ -2369,7 +2369,7 @@ ReflowOutput
 aDesiredSize
 TableRowGroupReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2392,7 +2392,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsTableFrame
 *
 aTableFrame
@@ -2412,7 +2412,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsTableFrame
 &
 aTableFrame

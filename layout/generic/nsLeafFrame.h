@@ -409,7 +409,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -450,7 +450,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -669,7 +669,7 @@ SizeToAvailSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aDesiredSize

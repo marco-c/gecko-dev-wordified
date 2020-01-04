@@ -247,7 +247,7 @@ aPresContext
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 nsIFrame
 *
 aFrame
@@ -264,7 +264,7 @@ aFlags
 ReflowInput
 (
 aPresContext
-aParentReflowState
+aParentReflowInput
 aFrame
 aAvailableSpace
 nullptr
@@ -467,7 +467,7 @@ void
 nsTableRowFrame
 :
 :
-InitChildReflowState
+InitChildReflowInput
 (
 nsPresContext
 &
@@ -480,7 +480,7 @@ bool
 aBorderCollapse
 TableCellReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 nsMargin
@@ -520,7 +520,7 @@ bcCellFrame
 nsBCTableCellFrame
 *
 )
-aReflowState
+aReflowInput
 .
 mFrame
 ;
@@ -558,7 +558,7 @@ collapseBorder
 ;
 }
 }
-aReflowState
+aReflowInput
 .
 Init
 (
@@ -568,7 +568,7 @@ nullptr
 pCollapseBorder
 )
 ;
-aReflowState
+aReflowInput
 .
 FixUp
 (
@@ -3201,7 +3201,7 @@ CalcBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 nsTableFrame
@@ -3219,7 +3219,7 @@ computedBSize
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3228,7 +3228,7 @@ ComputedBSize
 ?
 0
 :
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3242,7 +3242,7 @@ computedBSize
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3384,7 +3384,7 @@ if
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3876,7 +3876,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {
@@ -4822,7 +4822,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsTableFrame
 &
 aTableFrame
@@ -4953,7 +4953,7 @@ frames
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -4962,7 +4962,7 @@ GetWritingMode
 nsSize
 containerSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeAsContainerIfConstrained
 (
@@ -5032,10 +5032,10 @@ ignore
 the
 results
 TableCellReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 kidFrame
 LogicalSize
 (
@@ -5054,7 +5054,7 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-InitChildReflowState
+InitChildReflowInput
 (
 *
 aPresContext
@@ -5063,13 +5063,13 @@ LogicalSize
 wm
 )
 false
-kidReflowState
+kidReflowInput
 )
 ;
 ReflowOutput
 desiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 nsReflowStatus
@@ -5080,7 +5080,7 @@ ReflowChild
 kidFrame
 aPresContext
 desiredSize
-kidReflowState
+kidReflowInput
 0
 0
 0
@@ -5123,7 +5123,7 @@ true
 if
 (
 !
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -5148,7 +5148,7 @@ kidFrame
 if
 (
 !
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5166,7 +5166,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -5223,7 +5223,7 @@ false
 }
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -5536,12 +5536,12 @@ Maybe
 <
 TableCellReflowInput
 >
-kidReflowState
+kidReflowInput
 ;
 ReflowOutput
 desiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -5620,7 +5620,7 @@ above
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -5766,7 +5766,7 @@ kidAvailSize
 (
 wm
 availCellISize
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -5778,12 +5778,12 @@ AvailableBSize
 Reflow
 the
 child
-kidReflowState
+kidReflowInput
 .
 emplace
 (
 aPresContext
-aReflowState
+aReflowInput
 kidFrame
 kidAvailSize
 ReflowInput
@@ -5792,14 +5792,14 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-InitChildReflowState
+InitChildReflowInput
 (
 *
 aPresContext
 kidAvailSize
 borderCollapse
 *
-kidReflowState
+kidReflowInput
 )
 ;
 nsReflowStatus
@@ -5811,7 +5811,7 @@ kidFrame
 aPresContext
 desiredSize
 *
-kidReflowState
+kidReflowInput
 wm
 kidPosition
 containerSize
@@ -6016,7 +6016,7 @@ if
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -6233,7 +6233,7 @@ availCellISize
 ;
 if
 (
-kidReflowState
+kidReflowInput
 )
 {
 /
@@ -6249,7 +6249,7 @@ the
 normal
 way
 .
-kidReflowState
+kidReflowInput
 -
 >
 ApplyRelativePositioning
@@ -6645,7 +6645,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -6653,7 +6653,7 @@ AvailableISize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -6679,7 +6679,7 @@ if
 NS_UNCONSTRAINEDSIZE
 =
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -6695,7 +6695,7 @@ wm
 =
 CalcBSize
 (
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -6866,7 +6866,7 @@ if
 (
 styleBSize
 >
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -6875,7 +6875,7 @@ AvailableBSize
 {
 styleBSize
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -7099,7 +7099,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -7120,7 +7120,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -7128,7 +7128,7 @@ aStatus
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -7200,7 +7200,7 @@ nsTableFrame
 :
 CheckRequestSpecialBSizeReflow
 (
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -7225,7 +7225,7 @@ ReflowChildren
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 *
 tableFrame
 aStatus
@@ -7250,7 +7250,7 @@ aStatus
 &
 ShouldAvoidBreakInside
 (
-aReflowState
+aReflowInput
 )
 )
 {
@@ -7293,7 +7293,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -7404,7 +7404,7 @@ PushDirtyBitToAbsoluteFrames
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -7468,7 +7468,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aIsTopOfPage
 nsTableCellFrame
@@ -7484,7 +7484,7 @@ aStatus
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -7595,10 +7595,10 @@ table
 )
 ;
 TableCellReflowInput
-cellReflowState
+cellReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 aCellFrame
 availSize
 ReflowInput
@@ -7607,16 +7607,16 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-InitChildReflowState
+InitChildReflowInput
 (
 *
 aPresContext
 availSize
 borderCollapse
-cellReflowState
+cellReflowInput
 )
 ;
-cellReflowState
+cellReflowInput
 .
 mFlags
 .
@@ -7627,7 +7627,7 @@ aIsTopOfPage
 ReflowOutput
 desiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowChild
@@ -7635,7 +7635,7 @@ ReflowChild
 aCellFrame
 aPresContext
 desiredSize
-cellReflowState
+cellReflowInput
 0
 0
 NS_FRAME_NO_MOVE_FRAME

@@ -5968,7 +5968,7 @@ aWM
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 LogicalSize
 aFrameSize
 )
@@ -6033,7 +6033,7 @@ nsIFrame
 *
 frame
 =
-aReflowState
+aReflowInput
 .
 mFrame
 ;
@@ -6061,13 +6061,13 @@ border
 LogicalMargin
 (
 aWM
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
 )
 -
-aReflowState
+aReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -6294,7 +6294,7 @@ ReflowInput
 aLastRS
 =
 &
-aReflowState
+aReflowInput
 ;
 const
 ReflowInput
@@ -6302,20 +6302,20 @@ ReflowInput
 lastButOneRS
 =
 &
-aReflowState
+aReflowInput
 ;
 while
 (
 aLastRS
 -
 >
-mParentReflowState
+mParentReflowInput
 &
 &
 aLastRS
 -
 >
-mParentReflowState
+mParentReflowInput
 -
 >
 mFrame
@@ -6337,7 +6337,7 @@ GetContent
 aLastRS
 -
 >
-mParentReflowState
+mParentReflowInput
 -
 >
 mFrame
@@ -6363,7 +6363,7 @@ aLastRS
 aLastRS
 -
 >
-mParentReflowState
+mParentReflowInput
 ;
 }
 if
@@ -6372,7 +6372,7 @@ aLastRS
 !
 =
 &
-aReflowState
+aReflowInput
 )
 {
 /
@@ -6706,7 +6706,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -6727,7 +6727,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -6772,22 +6772,22 @@ d
 \
 n
 "
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -6861,15 +6861,15 @@ endif
 const
 ReflowInput
 *
-reflowState
+reflowInput
 =
 &
-aReflowState
+aReflowInput
 ;
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -6887,7 +6887,7 @@ effectiveComputedBSize
 =
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 consumedBSize
 )
 ;
@@ -6895,7 +6895,7 @@ Maybe
 <
 ReflowInput
 >
-mutableReflowState
+mutableReflowInput
 ;
 /
 /
@@ -6927,7 +6927,7 @@ too
 .
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -6937,7 +6937,7 @@ AvailableBSize
 NS_UNCONSTRAINEDSIZE
 &
 &
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -6950,7 +6950,7 @@ NS_AUTOHEIGHT
 ShouldApplyOverflowClipping
 (
 this
-aReflowState
+aReflowInput
 .
 mStyleDisplay
 )
@@ -6959,7 +6959,7 @@ mStyleDisplay
 LogicalMargin
 blockDirExtras
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -7026,7 +7026,7 @@ wm
 )
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalMargin
 (
@@ -7050,21 +7050,21 @@ wm
 )
 <
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
 )
 )
 {
-mutableReflowState
+mutableReflowInput
 .
 emplace
 (
-aReflowState
+aReflowInput
 )
 ;
-mutableReflowState
+mutableReflowInput
 -
 >
 AvailableBSize
@@ -7073,9 +7073,9 @@ AvailableBSize
 =
 NS_UNCONSTRAINEDSIZE
 ;
-reflowState
+reflowInput
 =
-mutableReflowState
+mutableReflowInput
 .
 ptr
 (
@@ -7138,7 +7138,7 @@ ReflowInput
 >
 (
 *
-reflowState
+reflowInput
 )
 )
 ;
@@ -7272,7 +7272,7 @@ if
 IsFrameTreeTooDeep
 (
 *
-reflowState
+reflowInput
 aMetrics
 aStatus
 )
@@ -7322,7 +7322,7 @@ BlockReflowInput
 state
 (
 *
-reflowState
+reflowInput
 aPresContext
 this
 blockStartMarginRoot
@@ -7522,7 +7522,7 @@ ReflowOverflowContainerChildren
 (
 aPresContext
 *
-reflowState
+reflowInput
 ocBounds
 0
 ocStatus
@@ -7651,7 +7651,7 @@ NS_FRAME_IS_DIRTY
 )
 &
 &
-reflowState
+reflowInput
 -
 >
 IsIResize
@@ -7695,16 +7695,16 @@ NS_FRAME_IS_DIRTY
 )
 &
 &
-reflowState
+reflowInput
 -
 >
-mCBReflowState
+mCBReflowInput
 &
 &
-reflowState
+reflowInput
 -
 >
-mCBReflowState
+mCBReflowInput
 -
 >
 IsIResize
@@ -7712,7 +7712,7 @@ IsIResize
 )
 &
 &
-reflowState
+reflowInput
 -
 >
 mStyleText
@@ -8054,7 +8054,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-reflowState
+reflowInput
 -
 >
 AvailableBSize
@@ -8377,7 +8377,7 @@ bullet
 ReflowOutput
 metrics
 (
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -8402,7 +8402,7 @@ position
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -8431,7 +8431,7 @@ position
 .
 mBStart
 :
-reflowState
+reflowInput
 -
 >
 ComputedLogicalBorderPadding
@@ -8635,7 +8635,7 @@ blockEndEdgeOfChildren
 ComputeFinalSize
 (
 *
-reflowState
+reflowInput
 state
 aMetrics
 &
@@ -8956,7 +8956,7 @@ Height
 ComputeOverflowAreas
 (
 areaBounds
-reflowState
+reflowInput
 -
 >
 mStyleDisplay
@@ -9278,7 +9278,7 @@ HasPendingInterrupt
 ;
 if
 (
-reflowState
+reflowInput
 -
 >
 WillReflowAgainForClearance
@@ -9430,7 +9430,7 @@ CalculateContainingBlockSizeForAbsolutes
 (
 parentWM
 *
-reflowState
+reflowInput
 aMetrics
 .
 Size
@@ -9614,7 +9614,7 @@ isRoot
 NS_UNCONSTRAINEDSIZE
 =
 =
-reflowState
+reflowInput
 -
 >
 ComputedHeight
@@ -9740,7 +9740,7 @@ Reflow
 this
 aPresContext
 *
-reflowState
+reflowInput
 state
 .
 mReflowStatus
@@ -10204,7 +10204,7 @@ NS_FRAME_SET_TRUNCATION
 aStatus
 (
 *
-reflowState
+reflowInput
 )
 aMetrics
 )
@@ -10308,7 +10308,7 @@ ComputeFinalSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 BlockReflowInput
 &
 aState
@@ -10325,7 +10325,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -10444,7 +10444,7 @@ IStart
 (
 wm
 )
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -10712,7 +10712,7 @@ BRS_ISBENDMARGINROOT
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -10812,7 +10812,7 @@ blockEndEdgeOfChildren
 <
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -10855,7 +10855,7 @@ get
 )
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -10941,7 +10941,7 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -10965,9 +10965,9 @@ nsGkAtoms
 columnSetFrame
 |
 |
-aReflowState
+aReflowInput
 .
-mParentReflowState
+mParentReflowInput
 -
 >
 AvailableBSize
@@ -10981,7 +10981,7 @@ NS_UNCONSTRAINEDSIZE
 {
 ComputeFinalBSize
 (
-aReflowState
+aReflowInput
 &
 aState
 .
@@ -11073,7 +11073,7 @@ std
 :
 max
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -11107,7 +11107,7 @@ effectiveComputedBSize
 =
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 aState
 .
 GetConsumedBSize
@@ -11265,7 +11265,7 @@ wm
 nscoord
 autoBSize
 =
-aReflowState
+aReflowInput
 .
 ApplyMinMaxBSize
 (
@@ -11350,7 +11350,7 @@ else
 {
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -11387,7 +11387,7 @@ max
 aState
 .
 mBCoord
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -11396,7 +11396,7 @@ AvailableBSize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -11508,7 +11508,7 @@ mReflowStatus
 else
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -13432,7 +13432,7 @@ n
 "
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableISize
 (
@@ -13453,7 +13453,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -13464,7 +13464,7 @@ newAvailISize
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -13477,7 +13477,7 @@ wm
 +
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedISize
 (
@@ -13490,7 +13490,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -13507,7 +13507,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedISize
 (
@@ -14159,7 +14159,7 @@ floatManager
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 mFloatManager
 ;
@@ -14168,16 +14168,16 @@ NS_ASSERTION
 (
 aState
 .
-mReflowState
+mReflowInput
 .
-mParentReflowState
+mParentReflowInput
 &
 &
 aState
 .
-mReflowState
+mReflowInput
 .
-mParentReflowState
+mParentReflowInput
 -
 >
 mFloatManager
@@ -14189,7 +14189,7 @@ floatManager
 |
 aState
 .
-mReflowState
+mReflowInput
 .
 mBlockDelta
 =
@@ -14328,7 +14328,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -14437,7 +14437,7 @@ aDeltaBCoord
 +
 aState
 .
-mReflowState
+mReflowInput
 .
 mBlockDelta
 !
@@ -15157,7 +15157,7 @@ n
 "
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedISize
 (
@@ -15188,7 +15188,7 @@ NS_FRAME_IS_DIRTY
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 IsBResize
 (
@@ -15235,7 +15235,7 @@ if
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -15252,7 +15252,7 @@ GetNextInFlow
 &
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -15266,7 +15266,7 @@ BSize
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -16157,7 +16157,7 @@ IsDirty
 &
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -16176,7 +16176,7 @@ deltaBCoord
 |
 aState
 .
-mReflowState
+mReflowInput
 .
 IsBResize
 (
@@ -16185,7 +16185,7 @@ IsBResize
 |
 aState
 .
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -16410,7 +16410,7 @@ IsAlignedLeft
 align
 aState
 .
-mReflowState
+mReflowInput
 .
 mStyleVisibility
 -
@@ -16726,7 +16726,7 @@ if
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 .
@@ -16933,7 +16933,7 @@ if
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 WillReflowAgainForClearance
 (
@@ -18652,7 +18652,7 @@ heightConstrained
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -18686,7 +18686,7 @@ mNextInFlow
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -19482,7 +19482,7 @@ if
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 WillReflowAgainForClearance
 (
@@ -19681,7 +19681,7 @@ metrics
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 nsIFrame
@@ -19697,7 +19697,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -19710,7 +19710,7 @@ aState
 metrics
 aState
 .
-mReflowState
+mReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -19804,7 +19804,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -23014,7 +23014,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 uint8_t
@@ -23027,7 +23027,7 @@ PhysicalBreakType
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -23367,7 +23367,7 @@ mightClearFloats
 &
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 )
@@ -23423,7 +23423,7 @@ if
 *
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 )
@@ -23431,7 +23431,7 @@ mDiscoveredClearance
 *
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 =
@@ -23604,7 +23604,7 @@ mPrevBEndMargin
 /
 Setup
 a
-reflowState
+reflowInput
 to
 get
 the
@@ -23733,14 +23733,14 @@ wm
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aState
 .
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 frame
 availSpace
 )
@@ -23806,7 +23806,7 @@ brc
 .
 ComputeCollapsedBStartMargin
 (
-reflowState
+reflowInput
 &
 aState
 .
@@ -24097,7 +24097,7 @@ brc
 .
 ComputeCollapsedBStartMargin
 (
-reflowState
+reflowInput
 &
 aState
 .
@@ -24426,7 +24426,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -24463,7 +24463,7 @@ for
 !
 aState
 .
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -24518,7 +24518,7 @@ if
 !
 aState
 .
-mReflowState
+mReflowInput
 .
 mFlags
 .
@@ -24715,7 +24715,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -24850,7 +24850,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 frame
 availSpace
 .
@@ -24971,7 +24971,7 @@ shouldStoreClearance
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 &
@@ -24980,7 +24980,7 @@ mDiscoveredClearance
 *
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 ;
@@ -25041,7 +25041,7 @@ mDiscoveredClearance
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 ;
@@ -25538,7 +25538,7 @@ applyBStartMargin
 &
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 )
@@ -25569,7 +25569,7 @@ shouldStoreClearance
 *
 aState
 .
-mReflowState
+mReflowInput
 .
 mDiscoveredClearance
 =
@@ -25689,7 +25689,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 frame
 availSpace
 .
@@ -25901,7 +25901,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -26105,7 +26105,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -27192,7 +27192,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -27560,7 +27560,7 @@ floatManagerState
 ;
 aState
 .
-mReflowState
+mReflowInput
 .
 mFloatManager
 -
@@ -27675,13 +27675,13 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 .
 mFloatManager
 &
 aState
 .
-mReflowState
+mReflowInput
 &
 aLine
 nullptr
@@ -27843,7 +27843,7 @@ manager
 state
 aState
 .
-mReflowState
+mReflowInput
 .
 mFloatManager
 -
@@ -28128,7 +28128,7 @@ outerWM
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -29304,7 +29304,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -29330,7 +29330,7 @@ NS_UNCONSTRAINEDSIZE
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 AvailableBSize
 (
@@ -31221,7 +31221,7 @@ PhysicalFloats
 (
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -32361,7 +32361,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -32465,7 +32465,7 @@ metrics
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 nsIFrame
@@ -33394,7 +33394,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -33481,7 +33481,7 @@ ShouldAvoidBreakInside
 (
 aState
 .
-mReflowState
+mReflowInput
 )
 )
 {
@@ -43717,7 +43717,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -44013,7 +44013,7 @@ blockWM
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -44037,7 +44037,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 aFloat
 availSpace
 .
@@ -44135,7 +44135,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -44207,7 +44207,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 aFloat
 aAdjustedAvailableSpace
 .
@@ -44390,7 +44390,7 @@ aState
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 )
 ;
 /
@@ -51806,7 +51806,7 @@ rs
 =
 aState
 .
-mReflowState
+mReflowInput
 ;
 /
 /
@@ -51902,7 +51902,7 @@ nsLineLayout
 ReflowFrame
 ?
 ReflowInput
-reflowState
+reflowInput
 (
 aState
 .
@@ -51924,7 +51924,7 @@ aState
 .
 mPresContext
 aMetrics
-reflowState
+reflowInput
 status
 )
 ;
@@ -52237,7 +52237,7 @@ here
 LogicalMargin
 bulletMargin
 =
-reflowState
+reflowInput
 .
 ComputedLogicalMargin
 (
@@ -52376,7 +52376,7 @@ mPresContext
 &
 aState
 .
-mReflowState
+mReflowInput
 nsDidReflowStatus
 :
 :
@@ -53598,7 +53598,7 @@ wm
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -53610,7 +53610,7 @@ offsetState
 aFrame
 aState
 .
-mReflowState
+mReflowInput
 .
 mRenderingContext
 wm
@@ -53754,14 +53754,14 @@ wm
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aState
 .
 mPresContext
 aState
 .
-mReflowState
+mReflowInput
 aFrame
 availSpace
 )
@@ -53770,7 +53770,7 @@ result
 .
 borderBoxISize
 =
-reflowState
+reflowInput
 .
 ComputedSizeWithBorderPadding
 (
@@ -53796,7 +53796,7 @@ from
 offsetState
 rather
 than
-reflowState
+reflowInput
 so
 that
 /
@@ -53947,7 +53947,7 @@ ComputeFinalBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 *
 aStatus
@@ -53967,7 +53967,7 @@ aConsumed
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -53997,7 +53997,7 @@ computedBSizeLeftOver
 =
 GetEffectiveComputedBSize
 (
-aReflowState
+aReflowInput
 aConsumed
 )
 ;
@@ -54066,7 +54066,7 @@ BSize
 wm
 )
 <
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -54143,7 +54143,7 @@ computedBSizeLeftOver
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -54157,7 +54157,7 @@ BSize
 wm
 )
 >
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -54168,7 +54168,7 @@ if
 (
 ShouldAvoidBreakInside
 (
-aReflowState
+aReflowInput
 )
 )
 {
@@ -54258,7 +54258,7 @@ std
 :
 max
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (

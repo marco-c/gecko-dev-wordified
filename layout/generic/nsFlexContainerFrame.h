@@ -537,7 +537,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -788,7 +788,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1062,7 +1062,7 @@ aChildFrame
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 const
 FlexboxAxisTracker
 &
@@ -1136,7 +1136,7 @@ aForceVerticalResizeForMeasuringReflow
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 )
 ;
 /
@@ -1191,7 +1191,7 @@ aFlexItem
 const
 ReflowInput
 &
-aItemReflowState
+aItemReflowInput
 const
 FlexboxAxisTracker
 &
@@ -1269,7 +1269,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aContentBoxMainSize
 nscoord
@@ -1297,12 +1297,12 @@ aLines
 )
 ;
 nscoord
-GetMainSizeFromReflowState
+GetMainSizeFromReflowInput
 (
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -1315,7 +1315,7 @@ ComputeCrossSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexboxAxisTracker
 &
@@ -1344,7 +1344,7 @@ FlexboxAxisTracker
 aAxisTracker
 ReflowInput
 &
-aChildReflowState
+aChildReflowInput
 FlexItem
 &
 aItem
@@ -1427,7 +1427,7 @@ position
 *
 *
 param
-aReflowState
+aReflowInput
 The
 flex
 container
@@ -1503,7 +1503,7 @@ MoveFlexItemToFinalPosition
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexItem
 &
@@ -1569,7 +1569,7 @@ axes
 .
 *
 param
-aReflowState
+aReflowInput
 The
 flex
 container
@@ -1650,7 +1650,7 @@ aAxisTracker
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 FlexItem
 &

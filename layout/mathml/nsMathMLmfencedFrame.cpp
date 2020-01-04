@@ -1189,7 +1189,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1272,7 +1272,7 @@ em
 ;
 GetAxisHeight
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -1563,7 +1563,7 @@ childFrame
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 aDesiredSize
 .
 mFlags
@@ -1584,7 +1584,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -1601,10 +1601,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 childFrame
 availSize
 )
@@ -1614,7 +1614,7 @@ ReflowChild
 childFrame
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 childStatus
 )
 ;
@@ -1647,7 +1647,7 @@ mozilla
 WritingMode
 outerWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1740,7 +1740,7 @@ DrawTarget
 *
 drawTarget
 =
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -1793,7 +1793,7 @@ mathmlChild
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -2416,7 +2416,7 @@ childFrame
 ReflowOutput
 childSize
 (
-aReflowState
+aReflowInput
 )
 ;
 GetReflowAndBoundingMetricsFor
@@ -2667,7 +2667,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

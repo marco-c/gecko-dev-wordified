@@ -1465,7 +1465,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1486,7 +1486,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -1509,12 +1509,12 @@ d
 %
 d
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -1543,7 +1543,7 @@ NS_FRAME_COMPLETE
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1553,12 +1553,12 @@ LogicalSize
 finalSize
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -1580,7 +1580,7 @@ area
 later
 mBorderPadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1731,7 +1731,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -1769,7 +1769,7 @@ kid
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1780,10 +1780,10 @@ mFlags
 )
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 childFrame
 availSize
 )
@@ -1793,7 +1793,7 @@ ReflowChild
 childFrame
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 0
 0
 0
@@ -1807,7 +1807,7 @@ childFrame
 aPresContext
 childDesiredSize
 &
-childReflowState
+childReflowInput
 0
 0
 0
@@ -1849,7 +1849,7 @@ wm
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;

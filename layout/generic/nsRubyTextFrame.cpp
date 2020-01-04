@@ -551,7 +551,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -656,7 +656,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -696,7 +696,7 @@ way
 WritingMode
 lineWM
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 -

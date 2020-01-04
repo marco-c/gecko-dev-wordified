@@ -313,7 +313,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -387,7 +387,7 @@ ReflowColumns
 const
 RubyReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -399,7 +399,7 @@ ReflowOneColumn
 const
 RubyReflowInput
 &
-aReflowState
+aReflowInput
 uint32_t
 aColumnIndex
 const
@@ -420,7 +420,7 @@ ReflowSpans
 const
 RubyReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 struct

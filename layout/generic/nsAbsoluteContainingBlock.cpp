@@ -627,7 +627,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -651,7 +651,7 @@ const
 bool
 reflowAll
 =
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -787,7 +787,7 @@ ReflowAbsoluteFrame
 (
 aDelegatingFrame
 aPresContext
-aReflowState
+aReflowInput
 cb
 aFlags
 kidFrame
@@ -2516,7 +2516,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 nsRect
 &
@@ -2606,7 +2606,7 @@ height
 ;
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -2617,7 +2617,7 @@ width
 ;
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -2642,7 +2642,7 @@ height
 ;
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -2653,7 +2653,7 @@ width
 ;
 PrettyUC
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -2735,7 +2735,7 @@ availISize
 {
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -2763,7 +2763,7 @@ _somewhere_
 ;
 availISize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeWithPadding
 (
@@ -2896,10 +2896,10 @@ STATIC_POS_IS_CB_ORIGIN
 }
 }
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 aKidFrame
 LogicalSize
 (
@@ -2921,7 +2921,7 @@ values
 WritingMode
 outerWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -2932,7 +2932,7 @@ LogicalMargin
 border
 (
 outerWM
-aReflowState
+aReflowInput
 .
 mStyleBorder
 -
@@ -2946,7 +2946,7 @@ const
 LogicalMargin
 margin
 =
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -2962,7 +2962,7 @@ bool
 constrainBSize
 =
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3053,7 +3053,7 @@ wm
 )
 <
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3110,13 +3110,13 @@ if
 constrainBSize
 )
 {
-kidReflowState
+kidReflowInput
 .
 AvailableBSize
 (
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3135,7 +3135,7 @@ BStart
 wm
 )
 -
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -3151,7 +3151,7 @@ if
 NS_AUTOOFFSET
 !
 =
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalOffsets
 (
@@ -3163,14 +3163,14 @@ wm
 )
 )
 {
-kidReflowState
+kidReflowInput
 .
 AvailableBSize
 (
 )
 -
 =
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalOffsets
 (
@@ -3191,7 +3191,7 @@ reflow
 ReflowOutput
 kidDesiredSize
 (
-kidReflowState
+kidReflowInput
 )
 ;
 aKidFrame
@@ -3201,7 +3201,7 @@ Reflow
 (
 aPresContext
 kidDesiredSize
-kidReflowState
+kidReflowInput
 aStatus
 )
 ;
@@ -3225,7 +3225,7 @@ wm
 LogicalMargin
 offsets
 =
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalOffsets
 (
@@ -3317,13 +3317,13 @@ width
 height
 logicalCBSize
 =
-kidReflowState
+kidReflowInput
 .
 ComputeContainingBlockRectangle
 (
 aPresContext
 &
-aReflowState
+aReflowInput
 )
 ;
 }
@@ -3461,7 +3461,7 @@ outerWM
 )
 ;
 }
-kidReflowState
+kidReflowInput
 .
 SetComputedLogicalOffsets
 (
@@ -3657,7 +3657,7 @@ nsStyleSides
 &
 offsets
 =
-kidReflowState
+kidReflowInput
 .
 mStylePosition
 -
@@ -3831,7 +3831,7 @@ DidReflow
 (
 aPresContext
 &
-kidReflowState
+kidReflowInput
 nsDidReflowStatus
 :
 :

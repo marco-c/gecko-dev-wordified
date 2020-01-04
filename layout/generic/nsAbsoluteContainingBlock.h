@@ -611,7 +611,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -767,7 +767,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 nsRect
 &

@@ -3239,7 +3239,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -3261,7 +3261,7 @@ nsFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -3631,7 +3631,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3678,14 +3678,14 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
 ;
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -3695,7 +3695,7 @@ ComputedWidth
 0
 &
 &
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -3793,7 +3793,7 @@ printSize
 "
 AW
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -3805,7 +3805,7 @@ printSize
 "
 AH
 "
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -3817,7 +3817,7 @@ printSize
 "
 CW
 "
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -3829,7 +3829,7 @@ printSize
 "
 CH
 "
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -3861,12 +3861,12 @@ nsBoxLayoutState
 state
 (
 aPresContext
-aReflowState
+aReflowInput
 .
 mRenderingContext
 &
-aReflowState
-aReflowState
+aReflowInput
+aReflowInput
 .
 mReflowDepth
 )
@@ -3874,7 +3874,7 @@ mReflowDepth
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3884,12 +3884,12 @@ LogicalSize
 computedSize
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3899,7 +3899,7 @@ ComputedBSize
 LogicalMargin
 m
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -4054,7 +4054,7 @@ wm
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -4098,7 +4098,7 @@ box
 nscoord
 blockDirBorderPadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -4151,7 +4151,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ApplyMinMaxHeight
 (
@@ -4420,14 +4420,14 @@ ReflowAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -5166,7 +5166,7 @@ Set
 up
 a
 |
-reflowState
+reflowInput
 |
 to
 pass
@@ -5180,7 +5180,7 @@ GetWritingMode
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aState
 .
@@ -5223,7 +5223,7 @@ ReflowAbsoluteFrames
 ReflowOutput
 desiredSize
 (
-reflowState
+reflowInput
 )
 ;
 desiredSize
@@ -5376,7 +5376,7 @@ PresContext
 (
 )
 desiredSize
-reflowState
+reflowInput
 reflowStatus
 )
 ;

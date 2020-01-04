@@ -1006,7 +1006,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1078,14 +1078,14 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
 ;
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -1095,7 +1095,7 @@ ComputedWidth
 0
 &
 &
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1192,7 +1192,7 @@ myCounter
 ;
 switch
 (
-aReflowState
+aReflowInput
 .
 reason
 )
@@ -1268,7 +1268,7 @@ unknown
 %
 d
 "
-aReflowState
+aReflowInput
 .
 reason
 )
@@ -1281,7 +1281,7 @@ printSize
 "
 AW
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -1293,7 +1293,7 @@ printSize
 "
 AH
 "
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -1305,7 +1305,7 @@ printSize
 "
 CW
 "
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -1317,7 +1317,7 @@ printSize
 "
 CH
 "
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1349,7 +1349,7 @@ nsBoxLayoutState
 state
 (
 aPresContext
-aReflowState
+aReflowInput
 .
 mRenderingContext
 )
@@ -1357,12 +1357,12 @@ mRenderingContext
 nsSize
 computedSize
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1374,7 +1374,7 @@ m
 ;
 m
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -1401,7 +1401,7 @@ gracefully
 .
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1516,7 +1516,7 @@ our
 desiredSize
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -1553,7 +1553,7 @@ right
 }
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -1641,7 +1641,7 @@ computedSize
 .
 width
 >
-aReflowState
+aReflowInput
 .
 ComputedMaxWidth
 (
@@ -1651,7 +1651,7 @@ computedSize
 .
 width
 =
-aReflowState
+aReflowInput
 .
 ComputedMaxWidth
 (
@@ -1663,7 +1663,7 @@ computedSize
 .
 width
 <
-aReflowState
+aReflowInput
 .
 ComputedMinWidth
 (
@@ -1673,7 +1673,7 @@ computedSize
 .
 width
 =
-aReflowState
+aReflowInput
 .
 ComputedMinWidth
 (
@@ -1766,12 +1766,12 @@ NS_CSS_MINMAX
 computedSize
 .
 height
-aReflowState
+aReflowInput
 .
 ComputedMinHeight
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxHeight
 (

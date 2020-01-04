@@ -1004,7 +1004,7 @@ aPresContext
 Return
 true
 if
-aParentReflowState
+aParentReflowInput
 .
 frame
 or
@@ -1041,7 +1041,7 @@ AncestorsHaveStyleBSize
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 )
 ;
 /
@@ -1080,7 +1080,7 @@ CheckRequestSpecialBSizeReflow
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -1115,7 +1115,7 @@ RequestSpecialBSizeReflow
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 static
@@ -1220,7 +1220,7 @@ GetFirstSectionOrigin
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 const
 ;
@@ -1399,7 +1399,7 @@ aWM
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 ;
@@ -2412,7 +2412,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2428,7 +2428,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aAvailBSize
 nsIFrame
@@ -3868,11 +3868,11 @@ nsTableFrame
 )
 ;
 void
-InitChildReflowState
+InitChildReflowInput
 (
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 virtual
@@ -3882,7 +3882,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )
@@ -3946,7 +3946,7 @@ SetupHeaderFooterChild
 const
 TableReflowInput
 &
-aReflowState
+aReflowInput
 nsTableRowGroupFrame
 *
 aFrame
@@ -3960,7 +3960,7 @@ ReflowChildren
 (
 TableReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -4185,7 +4185,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 /
@@ -4314,7 +4314,7 @@ CalcBorderBoxBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 protected
@@ -4363,7 +4363,7 @@ CalcDesiredBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aDesiredSize
@@ -4384,7 +4384,7 @@ DistributeBSizeToRows
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aAmount
 )
@@ -4394,7 +4394,7 @@ PlaceChild
 (
 TableReflowInput
 &
-aReflowState
+aReflowInput
 nsIFrame
 *
 aKidFrame
@@ -4418,7 +4418,7 @@ PlaceRepeatedFooter
 (
 TableReflowInput
 &
-aReflowState
+aReflowInput
 nsTableRowGroupFrame
 *
 aTfoot

@@ -170,7 +170,7 @@ Notify
 the
 observer
 that
-aReflowState
+aReflowInput
 has
 no
 computed
@@ -193,7 +193,7 @@ mozilla
 :
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 =
 0
@@ -207,7 +207,7 @@ if
 it
 should
 observe
-aReflowState
+aReflowInput
 .
 frame
 virtual
@@ -220,7 +220,7 @@ mozilla
 :
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 =
 0

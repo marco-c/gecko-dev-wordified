@@ -2612,12 +2612,12 @@ nsAutoFloatManager
 (
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 :
-mReflowState
+mReflowInput
 (
-aReflowState
+aReflowInput
 )
 mNew
 (
@@ -2683,7 +2683,7 @@ protected
 :
 ReflowInput
 &
-mReflowState
+mReflowInput
 ;
 nsFloatManager
 *

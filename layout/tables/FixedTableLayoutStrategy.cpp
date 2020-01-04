@@ -1181,13 +1181,13 @@ ComputeColumnISizes
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 nscoord
 tableISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -1636,7 +1636,7 @@ nsLayoutUtils
 :
 ComputeISizeValue
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 colFrame
@@ -1930,7 +1930,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 cellFrame

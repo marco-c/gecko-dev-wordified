@@ -599,7 +599,7 @@ NotifyPercentBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 override
 ;
@@ -610,7 +610,7 @@ NeedsToObserve
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 override
 ;
@@ -704,7 +704,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1577,7 +1577,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )

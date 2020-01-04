@@ -354,7 +354,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -367,7 +367,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -396,7 +396,7 @@ agrees
 .
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -417,7 +417,7 @@ Width
 }
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (

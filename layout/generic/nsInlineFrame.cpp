@@ -2365,7 +2365,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2386,7 +2386,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -2396,7 +2396,7 @@ if
 nullptr
 =
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 )
@@ -2409,7 +2409,7 @@ have
 non
 -
 null
-aReflowState
+aReflowInput
 .
 mLineLayout
 "
@@ -2422,7 +2422,7 @@ if
 (
 IsFrameTreeTooDeep
 (
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -2440,7 +2440,7 @@ nsIFrame
 *
 lineContainer
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -2852,7 +2852,7 @@ ReflowInlineFrame
 .
 if
 (
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -3000,7 +3000,7 @@ DrainFlags
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -3042,9 +3042,9 @@ and
 beyond
 /
 /
-aReflowState
+aReflowInput
 )
-InlineReflowState
+InlineReflowInput
 irs
 ;
 irs
@@ -3063,7 +3063,7 @@ irs
 .
 mLineLayout
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
@@ -3137,7 +3137,7 @@ complete
 ReflowFrames
 (
 aPresContext
-aReflowState
+aReflowInput
 irs
 aMetrics
 aStatus
@@ -3147,7 +3147,7 @@ ReflowAbsoluteFrames
 (
 aPresContext
 aMetrics
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -3175,7 +3175,7 @@ us
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -3759,8 +3759,8 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
-InlineReflowState
+aReflowInput
+InlineReflowInput
 &
 irs
 ReflowOutput
@@ -3779,14 +3779,14 @@ nsLineLayout
 *
 lineLayout
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
 bool
 inFirstLine
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -3808,7 +3808,7 @@ RestyleManager
 WritingMode
 frameWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3817,7 +3817,7 @@ GetWritingMode
 WritingMode
 lineWM
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -3830,7 +3830,7 @@ mWritingMode
 LogicalMargin
 framePadding
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -3953,7 +3953,7 @@ frameWM
 nscoord
 availableISize
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -4008,7 +4008,7 @@ BeginSpan
 (
 this
 &
-aReflowState
+aReflowInput
 startEdge
 startEdge
 +
@@ -4721,7 +4721,7 @@ GetFirstLetterStyleOK
 ReflowInlineFrame
 (
 aPresContext
-aReflowState
+aReflowInput
 irs
 frame
 aStatus
@@ -4981,7 +4981,7 @@ break
 ReflowInlineFrame
 (
 aPresContext
-aReflowState
+aReflowInput
 irs
 frame
 aStatus
@@ -5574,8 +5574,8 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
-InlineReflowState
+aReflowInput
+InlineReflowInput
 &
 irs
 nsIFrame
@@ -5590,7 +5590,7 @@ nsLineLayout
 *
 lineLayout
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
@@ -5937,7 +5937,7 @@ PullOneFrame
 nsPresContext
 *
 aPresContext
-InlineReflowState
+InlineReflowInput
 &
 irs
 bool
@@ -6356,7 +6356,7 @@ aFromChild
 nsIFrame
 *
 aPrevSibling
-InlineReflowState
+InlineReflowInput
 &
 aState
 )
@@ -6562,7 +6562,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {
@@ -7522,7 +7522,7 @@ PullOneFrame
 nsPresContext
 *
 aPresContext
-InlineReflowState
+InlineReflowInput
 &
 irs
 bool
@@ -7638,7 +7638,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -7653,7 +7653,7 @@ if
 nullptr
 =
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 )
@@ -7674,7 +7674,7 @@ nsIFrame
 *
 lineContainer
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -7829,9 +7829,9 @@ and
 beyond
 /
 /
-aReflowState
+aReflowInput
 )
-InlineReflowState
+InlineReflowInput
 irs
 ;
 irs
@@ -7850,7 +7850,7 @@ irs
 .
 mLineLayout
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
@@ -8058,7 +8058,7 @@ nullptr
 NS_ASSERTION
 (
 !
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -8077,7 +8077,7 @@ BOGUS
 "
 )
 ;
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -8090,13 +8090,13 @@ true
 ReflowFrames
 (
 aPresContext
-aReflowState
+aReflowInput
 irs
 aMetrics
 aStatus
 )
 ;
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -8110,7 +8110,7 @@ ReflowAbsoluteFrames
 (
 aPresContext
 aMetrics
-aReflowState
+aReflowInput
 aStatus
 )
 ;

@@ -280,7 +280,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -484,7 +484,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -505,7 +505,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -513,7 +513,7 @@ aStatus
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -675,7 +675,7 @@ nsLineLayout
 *
 ll
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
@@ -933,7 +933,7 @@ fm
 nscoord
 logicalHeight
 =
-aReflowState
+aReflowInput
 .
 CalcLineHeight
 (
@@ -1080,7 +1080,7 @@ status
 uint32_t
 breakType
 =
-aReflowState
+aReflowInput
 .
 mStyleDisplay
 -
@@ -1155,7 +1155,7 @@ BlockStartAscent
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;

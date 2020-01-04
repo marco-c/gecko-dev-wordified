@@ -538,7 +538,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1023,14 +1023,14 @@ nsTableWrapperFrame
 )
 ;
 void
-InitChildReflowState
+InitChildReflowInput
 (
 nsPresContext
 &
 aPresContext
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 /

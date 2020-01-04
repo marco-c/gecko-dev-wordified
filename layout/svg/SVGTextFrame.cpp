@@ -34140,7 +34140,7 @@ GetWritingMode
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 presContext
 kid
@@ -34157,7 +34157,7 @@ NS_UNCONSTRAINEDSIZE
 ReflowOutput
 desiredSize
 (
-reflowState
+reflowInput
 )
 ;
 nsReflowStatus
@@ -34165,7 +34165,7 @@ status
 ;
 NS_ASSERTION
 (
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -34181,7 +34181,7 @@ nsMargin
 )
 &
 &
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -34224,7 +34224,7 @@ Reflow
 (
 presContext
 desiredSize
-reflowState
+reflowInput
 status
 )
 ;
@@ -34235,7 +34235,7 @@ DidReflow
 (
 presContext
 &
-reflowState
+reflowInput
 nsDidReflowStatus
 :
 :

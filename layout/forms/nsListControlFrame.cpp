@@ -2541,7 +2541,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2549,7 +2549,7 @@ aStatus
 {
 NS_PRECONDITION
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -2664,7 +2664,7 @@ ReflowAsDropdown
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -2893,7 +2893,7 @@ bool
 autoBSize
 =
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -2915,7 +2915,7 @@ this
 )
 |
 |
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -2925,7 +2925,7 @@ ShouldReflowAllKids
 ReflowInput
 state
 (
-aReflowState
+aReflowInput
 )
 ;
 int32_t
@@ -3535,7 +3535,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3543,7 +3543,7 @@ aStatus
 {
 NS_PRECONDITION
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3573,7 +3573,7 @@ this
 )
 |
 |
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -3582,7 +3582,7 @@ ShouldReflowAllKids
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3626,7 +3626,7 @@ endif
 ReflowInput
 state
 (
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -4224,7 +4224,7 @@ else
 nscoord
 bp
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -10003,7 +10003,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -10028,7 +10028,7 @@ nsHTMLScrollFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 )
 ;

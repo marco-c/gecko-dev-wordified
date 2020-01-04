@@ -848,17 +848,17 @@ HaveFixedSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 mStylePosition
 "
 crappy
-reflowState
+reflowInput
 -
 null
 stylePosition
@@ -913,7 +913,7 @@ heights
 )
 .
 return
-aReflowState
+aReflowInput
 .
 mStylePosition
 -
@@ -925,7 +925,7 @@ ConvertsToLength
 )
 &
 &
-aReflowState
+aReflowInput
 .
 mStylePosition
 -
@@ -6095,7 +6095,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -6116,7 +6116,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -6139,12 +6139,12 @@ d
 %
 d
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -6194,7 +6194,7 @@ if
 (
 HaveFixedSize
 (
-aReflowState
+aReflowInput
 )
 )
 {
@@ -6258,12 +6258,12 @@ mComputedSize
 =
 nsSize
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -6303,7 +6303,7 @@ Width
 )
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -6320,7 +6320,7 @@ Height
 )
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -6370,7 +6370,7 @@ Height
 =
 y
 +
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -6535,7 +6535,7 @@ IMAGE_SIZECONSTRAINED
 NS_UNCONSTRAINEDSIZE
 !
 =
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -6548,7 +6548,7 @@ Height
 (
 )
 >
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -6595,7 +6595,7 @@ CSSPixelsToAppUnits
 (
 1
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -6894,7 +6894,7 @@ Height
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -13730,7 +13730,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {

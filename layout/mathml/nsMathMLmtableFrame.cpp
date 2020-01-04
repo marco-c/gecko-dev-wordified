@@ -5312,7 +5312,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -5344,7 +5344,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -5586,7 +5586,7 @@ frame
 GetRect
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedSizeAsContainerIfConstrained
 (
@@ -5814,7 +5814,7 @@ axisHeight
 ;
 GetAxisHeight
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -6046,7 +6046,7 @@ mBoundingMetrics
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -8176,7 +8176,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -8198,7 +8198,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;

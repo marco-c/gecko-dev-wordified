@@ -402,7 +402,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -899,7 +899,7 @@ struct
 GridItemInfo
 ;
 struct
-GridReflowState
+GridReflowInput
 ;
 protected
 :
@@ -1198,7 +1198,7 @@ frame
 nscoord
 ReflowChildren
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -1448,7 +1448,7 @@ Fragmentainer
 GetNearestFragmentainer
 (
 const
-GridReflowState
+GridReflowInput
 &
 aState
 )
@@ -1471,7 +1471,7 @@ frame
 nscoord
 ReflowInFragmentainer
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -1515,7 +1515,7 @@ frame
 nscoord
 ReflowRowsInFragmentainer
 (
-GridReflowState
+GridReflowInput
 &
 aState
 const
@@ -1586,7 +1586,7 @@ Fragmentainer
 *
 aFragmentainer
 const
-GridReflowState
+GridReflowInput
 &
 aState
 const

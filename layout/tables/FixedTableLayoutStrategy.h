@@ -222,7 +222,7 @@ ComputeColumnISizes
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 override
 ;

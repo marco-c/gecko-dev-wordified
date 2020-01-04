@@ -394,7 +394,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -446,7 +446,7 @@ override
 *
 *
 Adjust
-aReflowState
+aReflowInput
 to
 account
 for
@@ -474,11 +474,11 @@ rect
 *
 /
 nsRect
-AdjustReflowStateAsContainingBlock
+AdjustReflowInputAsContainingBlock
 (
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 ;
@@ -567,7 +567,7 @@ and
 available
 width
 for
-aReflowState
+aReflowInput
 accordingly
 .
 *
@@ -585,11 +585,11 @@ scrollable
 *
 /
 nsPoint
-AdjustReflowStateForScrollbars
+AdjustReflowInputForScrollbars
 (
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 ;

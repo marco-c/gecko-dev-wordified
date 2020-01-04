@@ -6896,7 +6896,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 WritingMode
 &
@@ -6921,7 +6921,7 @@ aTracker
 {
 NS_PRECONDITION
 (
-aReflowState
+aReflowInput
 .
 mFrame
 =
@@ -7046,7 +7046,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -7236,7 +7236,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aX
 nscoord
@@ -7253,7 +7253,7 @@ aTracker
 {
 NS_PRECONDITION
 (
-aReflowState
+aReflowInput
 .
 mFrame
 =
@@ -7334,7 +7334,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -7907,7 +7907,7 @@ aDesiredSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 const
 WritingMode
 &
@@ -8173,7 +8173,7 @@ aKidFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 nsDidReflowStatus
 :
 :
@@ -8227,7 +8227,7 @@ aDesiredSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nscoord
 aX
 nscoord
@@ -8434,7 +8434,7 @@ aKidFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 nsDidReflowStatus
 :
 :
@@ -8454,7 +8454,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsOverflowAreas
 &
 aOverflowRects
@@ -8510,7 +8510,7 @@ false
 bool
 shouldReflowAllKids
 =
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -8682,7 +8682,7 @@ GetWritingMode
 nsSize
 containerSize
 =
-aReflowState
+aReflowInput
 .
 AvailableSize
 (
@@ -8721,7 +8721,7 @@ ISize
 (
 wm
 )
-aReflowState
+aReflowInput
 .
 AvailableSize
 (
@@ -8737,14 +8737,14 @@ wm
 ReflowOutput
 desiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowInput
 frameState
 (
 aPresContext
-aReflowState
+aReflowInput
 frame
 availSpace
 )
@@ -9110,7 +9110,7 @@ aStatus
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFloatManager
 )
@@ -9122,15 +9122,15 @@ RecoverFloatsFor
 (
 frame
 *
-aReflowState
+aReflowInput
 .
 mFloatManager
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedPhysicalSize
 (

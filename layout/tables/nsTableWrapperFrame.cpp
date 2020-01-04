@@ -1463,14 +1463,14 @@ void
 nsTableWrapperFrame
 :
 :
-InitChildReflowState
+InitChildReflowInput
 (
 nsPresContext
 &
 aPresContext
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 nsMargin
@@ -1499,7 +1499,7 @@ nullptr
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 mFrame
 =
@@ -1522,7 +1522,7 @@ IsBorderCollapse
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1561,7 +1561,7 @@ pCollapsePadding
 collapsePadding
 ;
 }
-aReflowState
+aReflowInput
 .
 Init
 (
@@ -1734,7 +1734,7 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-InitChildReflowState
+InitChildReflowInput
 (
 *
 aPresContext
@@ -1774,7 +1774,7 @@ containRS
 =
 aOuterRS
 .
-mCBReflowState
+mCBReflowInput
 ;
 if
 (
@@ -4738,7 +4738,7 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-InitChildReflowState
+InitChildReflowInput
 (
 *
 aPresContext
