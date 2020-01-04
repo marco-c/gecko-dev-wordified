@@ -867,9 +867,6 @@ values
 )
 ]
 )
-parser
-=
-None
 class
 MochitestRunner
 (
@@ -1368,7 +1365,6 @@ mochitest
 .
 run_test_harness
 (
-parser
 options
 )
     
@@ -1780,7 +1776,6 @@ mochitest
 .
 run_test_harness
 (
-parser
 options
 )
         
@@ -1930,7 +1925,6 @@ runtestsremote
 .
 run_test_harness
 (
-parser
 options
 )
     
@@ -2069,7 +2063,6 @@ runrobocop
 .
 run_test_harness
 (
-parser
 options
 )
 #
@@ -2305,17 +2298,10 @@ xre
 True
 )
     
-global
-parser
-    
-parser
-=
+return
 MochitestArgumentParser
 (
 )
-    
-return
-parser
 #
 condition
 filters
