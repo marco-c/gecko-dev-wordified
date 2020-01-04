@@ -1621,7 +1621,6 @@ nsCycleCollectionNoteRootCallback
 aCb
 )
 ;
-virtual
 bool
 UsefulToMergeZones
 (
