@@ -478,6 +478,17 @@ include
 "
 mozilla
 /
+dom
+/
+KeyframeAnimationOptionsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 AnimationComparator
 .
 h
