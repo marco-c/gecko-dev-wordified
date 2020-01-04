@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsIUDPSocketFilter
+nsISocketFilter
 .
 h
 "
@@ -535,7 +535,7 @@ mSocket
 ;
 nsCOMPtr
 <
-nsIUDPSocketFilter
+nsISocketFilter
 >
 mFilter
 ;
