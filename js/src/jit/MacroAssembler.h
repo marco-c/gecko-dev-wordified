@@ -1121,13 +1121,15 @@ delete
 define
 DEFINED_ON_DISPATCH_RESULT
 (
-Result
+.
+.
+.
 )
 \
 DEFINED_ON_RESULT_
 #
 #
-Result
+__VA_ARGS__
 /
 /
 We
