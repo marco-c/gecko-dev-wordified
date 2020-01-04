@@ -425,6 +425,13 @@ gBrowser
 .
 selectedTab
 null
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 var

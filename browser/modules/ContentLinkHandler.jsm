@@ -763,6 +763,13 @@ url
 uri
 .
 spec
+loadingPrincipal
+:
+link
+.
+ownerDocument
+.
+nodePrincipal
 }
 )
 ;
