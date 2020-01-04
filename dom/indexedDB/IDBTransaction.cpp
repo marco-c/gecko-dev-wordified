@@ -1337,7 +1337,6 @@ mWorkerHolder
 HoldWorker
 (
 workerPrivate
-Canceling
 )
 )
 ;

@@ -1749,7 +1749,6 @@ mWorkerHolder
 HoldWorker
 (
 workerPrivate
-Closing
 )
 )
 )

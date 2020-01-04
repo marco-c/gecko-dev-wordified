@@ -1840,7 +1840,6 @@ workerHolder
 HoldWorker
 (
 workerPrivate
-Closing
 )
 )
 )

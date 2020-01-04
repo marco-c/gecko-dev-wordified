@@ -777,14 +777,6 @@ registration
 IsControllingDocuments
 (
 )
-&
-&
-registration
--
->
-IsIdle
-(
-)
 )
 {
 /

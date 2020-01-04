@@ -5221,7 +5221,6 @@ if
 HoldWorker
 (
 worker
-Closing
 )
 )
 {
