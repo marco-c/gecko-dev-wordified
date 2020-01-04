@@ -4757,7 +4757,7 @@ nsresult
 PromoteRangeIfStartsOrEndsInNamedAnchor
 (
 nsRange
-*
+&
 aRange
 )
 ;
