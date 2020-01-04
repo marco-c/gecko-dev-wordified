@@ -290,6 +290,17 @@ mozilla
 /
 dom
 /
+PushEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RequestBinding
 .
 h
