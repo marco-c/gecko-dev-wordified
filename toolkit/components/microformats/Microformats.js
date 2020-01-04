@@ -132,6 +132,7 @@ Microformats
 __iterator__
 :
 function
+*
 (
 )
 {
