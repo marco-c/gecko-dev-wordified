@@ -155,12 +155,6 @@ core
 )
 ;
 /
-*
-global
-events
-*
-/
-/
 /
 Teach
 protocol

@@ -59,8 +59,6 @@ MPL
 /
 *
 globals
-CssLogic
-DOMUtils
 CSS
 *
 /

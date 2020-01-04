@@ -105,10 +105,7 @@ MPL
 /
 *
 global
-promise
 PromisesPanel
-PromisesFront
-DevToolsUtils
 *
 /
 "

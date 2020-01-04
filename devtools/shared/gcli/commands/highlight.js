@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-nodesSelected
-PluralForm
-*
-/
 "
 use
 strict

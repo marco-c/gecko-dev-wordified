@@ -99,15 +99,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-overlays
-Services
-clipboardHelper
-_strings
-*
-/
 "
 use
 strict

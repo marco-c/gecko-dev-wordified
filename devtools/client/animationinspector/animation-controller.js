@@ -105,12 +105,7 @@ MPL
 /
 *
 globals
-ViewHelpers
-Task
 AnimationsPanel
-promise
-EventEmitter
-AnimationsFront
 *
 /
 "

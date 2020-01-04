@@ -102,12 +102,6 @@ MPL
 .
 *
 /
-/
-*
-global
-domUtils
-*
-/
 "
 use
 strict

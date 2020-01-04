@@ -56,16 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-NetworkHelper
-Services
-DevToolsUtils
-NetUtil
-gActivityDistributor
-*
-/
 "
 use
 strict

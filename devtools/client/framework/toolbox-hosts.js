@@ -56,13 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-DOMHelpers
-Services
-*
-/
 "
 use
 strict

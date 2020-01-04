@@ -102,10 +102,6 @@ MPL
 /
 *
 globals
-overlays
-StyleInspectorMenu
-loader
-clipboardHelper
 _Iterator
 StopIteration
 *

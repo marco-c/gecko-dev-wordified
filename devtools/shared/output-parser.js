@@ -56,12 +56,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-DOMUtils
-*
-/
 "
 use
 strict

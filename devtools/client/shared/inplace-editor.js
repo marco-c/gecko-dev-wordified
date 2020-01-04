@@ -101,14 +101,6 @@ MPL
 /
 /
 *
-globals
-focusManager
-CSSPropertyList
-domUtils
-*
-/
-/
-*
 *
 *
 Basic

@@ -102,12 +102,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-ViewHelpers
-*
-/
 "
 use
 strict

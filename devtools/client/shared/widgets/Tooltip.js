@@ -61,17 +61,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-beautify
-setNamedTimeout
-clearNamedTimeout
-VariablesView
-VariablesViewController
-Task
-*
-/
 const
 {
 Cu

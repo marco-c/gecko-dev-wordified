@@ -99,14 +99,6 @@ MPL
 .
 *
 /
-/
-*
-globals
-RuleView
-ComputedView
-gDevTools
-*
-/
 "
 use
 strict
