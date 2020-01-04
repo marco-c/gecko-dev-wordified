@@ -906,6 +906,7 @@ arena
 chunk_hooks
 cpad
 cpad_size
+false
 true
 )
 ;
