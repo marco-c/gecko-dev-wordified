@@ -1259,18 +1259,7 @@ html
 .
 a
 (
-                            
 description
-                            
-href
-=
-screenshot
-                            
-target
-=
-'
-_blank
-'
 )
                         
 class_
