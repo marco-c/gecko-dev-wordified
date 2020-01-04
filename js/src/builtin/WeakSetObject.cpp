@@ -275,17 +275,6 @@ WeakSet_add
 JS_SELF_HOSTED_FN
 (
 "
-clear
-"
-"
-WeakSet_clear
-"
-0
-0
-)
-JS_SELF_HOSTED_FN
-(
-"
 delete
 "
 "

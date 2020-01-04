@@ -275,11 +275,3 @@ delete
 1
 )
 ;
-checkMethod
-(
-"
-clear
-"
-0
-)
-;
