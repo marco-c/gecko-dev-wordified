@@ -462,6 +462,11 @@ aInput
 ;
 mSheet
 =
+already_AddRefed
+<
+RawServoStyleSheet
+>
+(
 Servo_StylesheetFromUTF8Bytes
 (
 reinterpret_cast
@@ -505,9 +510,6 @@ base
 referrer
 principal
 )
-.
-Consume
-(
 )
 ;
 }
