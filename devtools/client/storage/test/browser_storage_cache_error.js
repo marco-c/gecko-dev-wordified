@@ -119,11 +119,13 @@ frameContent
 "
 ]
 ;
-yield
-selectTreeItem
-(
+gUI
+.
+tree
+.
+selectedItem
+=
 cacheItemId
-)
 ;
 ok
 (
