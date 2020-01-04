@@ -13693,14 +13693,6 @@ String
 title
 )
 ;
-public
-void
-setAccessibilityEnabled
-(
-boolean
-enabled
-)
-;
 }
 ;
 private
