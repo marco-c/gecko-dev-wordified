@@ -491,6 +491,8 @@ gl
 GLContext
 *
 gl
+FBTarget
+target
 GLenum
 attachmentLoc
 )
@@ -1042,6 +1044,8 @@ const
 FBStatus
 CheckFramebufferStatus
 (
+FBTarget
+target
 nsCString
 *
 const
@@ -1223,6 +1227,8 @@ mContext
 void
 FinalizeAttachments
 (
+FBTarget
+target
 )
 const
 ;

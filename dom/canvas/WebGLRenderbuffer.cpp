@@ -1253,6 +1253,8 @@ WebGLRenderbuffer
 :
 DoFramebufferRenderbuffer
 (
+FBTarget
+target
 GLenum
 attachment
 )
@@ -1295,7 +1297,7 @@ gl
 >
 fFramebufferRenderbuffer
 (
-LOCAL_GL_FRAMEBUFFER
+target
 LOCAL_GL_DEPTH_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
 mPrimaryRB
@@ -1306,7 +1308,7 @@ gl
 >
 fFramebufferRenderbuffer
 (
-LOCAL_GL_FRAMEBUFFER
+target
 LOCAL_GL_STENCIL_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
 stencilRB
@@ -1320,7 +1322,7 @@ gl
 >
 fFramebufferRenderbuffer
 (
-LOCAL_GL_FRAMEBUFFER
+target
 attachment
 LOCAL_GL_RENDERBUFFER
 mPrimaryRB

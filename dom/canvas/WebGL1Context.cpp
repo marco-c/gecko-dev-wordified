@@ -256,14 +256,6 @@ char
 info
 )
 {
-/
-/
-TODO
-:
-Implement
-this
-for
-EXT_disjoint_timer
 return
 false
 ;
