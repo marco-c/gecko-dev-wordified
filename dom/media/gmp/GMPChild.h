@@ -262,6 +262,8 @@ MOZ_GMP_SANDBOX
 bool
 SetMacSandboxInfo
 (
+MacSandboxPluginType
+aPluginType
 )
 ;
 #

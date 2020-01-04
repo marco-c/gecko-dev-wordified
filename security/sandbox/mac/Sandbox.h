@@ -142,6 +142,13 @@ Gecko
 Media
 Plugin
 EME
+MacSandboxPluginType_GMPlugin_EME_Widevine
+/
+/
+Gecko
+Media
+Plugin
+Widevine
 MacSandboxPluginType_Invalid
 }
 ;
