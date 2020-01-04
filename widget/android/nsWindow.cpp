@@ -13765,7 +13765,7 @@ charCode
 ;
 event
 .
-keyCode
+mKeyCode
 =
 event
 .
@@ -13914,7 +13914,7 @@ charCode
 ;
 event
 .
-keyCode
+mKeyCode
 =
 domKeyCode
 ;
@@ -14896,7 +14896,7 @@ MOZ_ASSERT
 (
 downEvent
 .
-keyCode
+mKeyCode
 =
 =
 0
@@ -14931,7 +14931,7 @@ MOZ_ASSERT
 (
 upEvent
 .
-keyCode
+mKeyCode
 =
 =
 0

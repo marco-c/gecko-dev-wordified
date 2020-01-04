@@ -17468,7 +17468,7 @@ switch
 aKeyboardEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 case
@@ -17613,7 +17613,7 @@ IsControl
 aKeyboardEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_F6

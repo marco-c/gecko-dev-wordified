@@ -5440,7 +5440,7 @@ mKeyValue
 }
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 ComputeDOMKeyCode
 (
@@ -5467,7 +5467,7 @@ eKeyPress
 {
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 ComputeDOMKeyCode
 (
@@ -5479,7 +5479,7 @@ else
 {
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 0
 ;
@@ -8230,7 +8230,7 @@ p
 WillDispatchKeyboardEventInternal
 "
 "
-keyCode
+mKeyCode
 =
 0x
 %
@@ -8244,7 +8244,7 @@ charCode
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -8351,7 +8351,7 @@ p
 WillDispatchKeyboardEventInternal
 "
 "
-keyCode
+mKeyCode
 =
 0x
 %
@@ -8369,7 +8369,7 @@ d
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -8652,7 +8652,7 @@ p
 WillDispatchKeyboardEventInternal
 "
 "
-keyCode
+mKeyCode
 =
 0x
 %
@@ -8686,7 +8686,7 @@ mShiftedCharCode
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -8754,7 +8754,7 @@ found
 :
 "
 "
-keyCode
+mKeyCode
 =
 0x
 %
@@ -8790,7 +8790,7 @@ mShiftedCharCode
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -9046,7 +9046,7 @@ p
 WillDispatchKeyboardEventInternal
 "
 "
-keyCode
+mKeyCode
 =
 0x
 %
@@ -9104,7 +9104,7 @@ mShiftedCharCode
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode

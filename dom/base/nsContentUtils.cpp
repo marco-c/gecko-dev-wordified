@@ -42788,7 +42788,7 @@ eKeyPress
 {
 event
 .
-keyCode
+mKeyCode
 =
 aCharCode
 ?
@@ -42807,7 +42807,7 @@ else
 {
 event
 .
-keyCode
+mKeyCode
 =
 aKeyCode
 ;

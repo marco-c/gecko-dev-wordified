@@ -1043,7 +1043,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 ;
 }
 if
@@ -1065,7 +1065,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 ;
 }
 return
@@ -1187,7 +1187,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 ;
 if
 (
@@ -1605,7 +1605,7 @@ aMetaKey
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 aKeyCode
 ;

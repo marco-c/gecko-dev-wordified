@@ -7590,7 +7590,7 @@ eKeyDownOnPlugin
 :
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;
@@ -7627,7 +7627,7 @@ eKeyUpOnPlugin
 :
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;
@@ -10268,7 +10268,7 @@ else
 {
 keypressEvent
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;
@@ -10964,7 +10964,7 @@ charCode
 {
 keypressEvent
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;
@@ -14198,7 +14198,7 @@ mShiftedLatinChar
 is
 0
 the
-keyCode
+mKeyCode
 doesn
 '
 t
@@ -14550,7 +14550,7 @@ IsEmpty
 {
 keypressEvent
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;

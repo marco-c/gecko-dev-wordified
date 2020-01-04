@@ -603,7 +603,7 @@ NS_VK_SPACE
 keyEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 EventStateManager
@@ -699,7 +699,7 @@ NS_VK_RETURN
 keyEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 nsCOMPtr
@@ -768,7 +768,7 @@ NS_VK_SPACE
 keyEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 mIsHandlingKeyEvent

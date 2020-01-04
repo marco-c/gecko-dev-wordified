@@ -50646,7 +50646,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 ;
 if
 (
@@ -51613,7 +51613,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_ESCAPE

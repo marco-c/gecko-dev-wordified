@@ -2788,7 +2788,7 @@ always
 .
 keyEvent
 .
-keyCode
+mKeyCode
 =
 0
 ;
@@ -3143,7 +3143,7 @@ MOZ_ASSERT
 (
 keyEvent
 .
-keyCode
+mKeyCode
 =
 =
 static_cast
@@ -3155,7 +3155,7 @@ WidgetKeyboardEvent
 original
 )
 .
-keyCode
+mKeyCode
 )
 ;
 MOZ_ASSERT

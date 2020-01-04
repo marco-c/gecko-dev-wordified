@@ -6060,7 +6060,7 @@ unicode
 ;
 aEvent
 .
-keyCode
+mKeyCode
 =
 0
 ;
@@ -6081,7 +6081,7 @@ charCode
 ;
 aEvent
 .
-keyCode
+mKeyCode
 =
 QtKeyCodeToDOMKeyCode
 (

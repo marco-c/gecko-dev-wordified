@@ -3793,7 +3793,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 ;
 switch
 (
@@ -3824,10 +3824,7 @@ if
 key
 =
 =
-nsIDOMKeyEvent
-:
-:
-DOM_VK_RETURN
+NS_VK_RETURN
 )
 {
 abuse
@@ -3874,10 +3871,7 @@ if
 key
 =
 =
-nsIDOMKeyEvent
-:
-:
-DOM_VK_SPACE
+NS_VK_SPACE
 )
 {
 abuse

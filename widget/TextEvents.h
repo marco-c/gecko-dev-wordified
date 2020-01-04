@@ -1113,7 +1113,7 @@ WidgetKeyboardEvent
 (
 )
 :
-keyCode
+mKeyCode
 (
 0
 )
@@ -1230,7 +1230,7 @@ aMessage
 aWidget
 aEventClassID
 )
-keyCode
+mKeyCode
 (
 0
 )
@@ -1541,7 +1541,7 @@ be
 0
 .
 uint32_t
-keyCode
+mKeyCode
 ;
 /
 /
@@ -2476,7 +2476,7 @@ ComputeKeyCodeFromKeyNameIndex
 return
 a
 .
-keyCode
+mKeyCode
 value
 which
 can
@@ -2662,11 +2662,11 @@ aEvent
 aCopyTargets
 )
 ;
-keyCode
+mKeyCode
 =
 aEvent
 .
-keyCode
+mKeyCode
 ;
 charCode
 =

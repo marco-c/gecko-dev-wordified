@@ -1595,7 +1595,7 @@ if
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_RETURN
@@ -1617,7 +1617,7 @@ mMessage
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_SPACE
