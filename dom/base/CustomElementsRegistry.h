@@ -1209,6 +1209,17 @@ called
 DefinitionMap
 mCustomDefinitions
 ;
+typedef
+nsRefPtrHashtable
+<
+nsISupportsHashKey
+Promise
+>
+WhenDefinedPromiseMap
+;
+WhenDefinedPromiseMap
+mWhenDefinedPromiseMap
+;
 /
 /
 The
@@ -1513,7 +1524,7 @@ WhenDefined
 const
 nsAString
 &
-name
+aName
 ErrorResult
 &
 aRv
