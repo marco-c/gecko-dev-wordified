@@ -6531,7 +6531,7 @@ webSocket
 mImpl
 aUrl
 protocolArray
-nsAutoCString
+nsDependentCString
 (
 file
 .
