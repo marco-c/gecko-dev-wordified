@@ -437,6 +437,8 @@ self
 .
 tempdir
                                                     
+symbols_path
+=
 '
 symbols_path
 '
@@ -537,6 +539,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -648,6 +652,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -798,6 +804,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -1000,6 +1008,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -1226,6 +1236,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -1442,6 +1454,8 @@ self
 .
 tempdir
                                                 
+symbols_path
+=
 '
 symbols_path
 '
@@ -1517,6 +1531,86 @@ test
 extra
 "
 )
+)
+)
+    
+def
+test_symbol_path_not_present
+(
+self
+)
+:
+        
+open
+(
+os
+.
+path
+.
+join
+(
+self
+.
+tempdir
+"
+test
+.
+dmp
+"
+)
+"
+w
+"
+)
+.
+write
+(
+"
+foo
+"
+)
+        
+self
+.
+stdouts
+.
+append
+(
+[
+"
+this
+is
+some
+output
+"
+]
+)
+        
+self
+.
+assert_
+(
+mozcrash
+.
+check_for_crashes
+(
+self
+.
+tempdir
+                                                
+symbols_path
+=
+None
+                                                
+stackwalk_binary
+=
+self
+.
+stackwalk
+                                                
+quiet
+=
+True
 )
 )
     

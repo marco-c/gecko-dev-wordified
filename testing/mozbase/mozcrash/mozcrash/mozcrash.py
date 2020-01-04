@@ -184,6 +184,8 @@ check_for_crashes
 dump_directory
                       
 symbols_path
+=
+None
                       
 stackwalk_binary
 =
@@ -1085,6 +1087,53 @@ self
 :
         
 #
+If
+no
+symbols
+path
+has
+been
+set
+create
+a
+temporary
+folder
+to
+let
+the
+        
+#
+minidump
+stackwalk
+download
+the
+symbols
+.
+        
+if
+not
+self
+.
+symbols_path
+:
+            
+self
+.
+symbols_path
+=
+tempfile
+.
+mkdtemp
+(
+)
+            
+self
+.
+remove_symbols
+=
+True
+        
+#
 This
 updates
 self
@@ -1095,12 +1144,9 @@ we
 only
 download
 once
+.
         
 if
-self
-.
-symbols_path
-and
 mozfile
 .
 is_url
