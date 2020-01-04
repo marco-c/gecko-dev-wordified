@@ -14429,16 +14429,6 @@ mTop
 This
 is
 set
-by
-ComputeVisibility
-nsRect
-mVisibleRect
-;
-/
-/
-This
-is
-set
 to
 true
 by
