@@ -155,13 +155,10 @@ mozilla
 :
 layout
 ;
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 FontInflationDataProperty
-DeleteValue
-<
 nsFontInflationData
->
 )
 /
 *

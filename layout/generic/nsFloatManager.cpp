@@ -2236,13 +2236,10 @@ return
 region
 ;
 }
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 FloatRegionProperty
-DeleteValue
-<
 nsMargin
->
 )
 LogicalRect
 nsFloatManager
