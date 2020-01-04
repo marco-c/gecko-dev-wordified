@@ -324,7 +324,6 @@ import
 chain
 ifilter
 ifilterfalse
-imap
 tee
 from
 operator
@@ -5640,7 +5639,7 @@ else
 :
             
 raise
-RuntimError
+RuntimeError
 (
 "
 unknown
