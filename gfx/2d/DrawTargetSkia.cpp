@@ -4354,6 +4354,15 @@ Point
 0
 0
 )
+&
+&
+paint
+.
+mPaint
+.
+getShader
+(
+)
 )
 {
 SkMatrix
