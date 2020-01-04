@@ -1095,6 +1095,9 @@ dom
 class
 Selection
 ;
+class
+SelectionChangeListener
+;
 }
 /
 /
@@ -4385,6 +4388,16 @@ dom
 :
 :
 Selection
+;
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+SelectionChangeListener
 ;
 friend
 struct
