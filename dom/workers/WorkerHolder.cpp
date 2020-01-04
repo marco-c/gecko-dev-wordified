@@ -244,6 +244,13 @@ mWorkerPrivate
 mWorkerPrivate
 -
 >
+AssertIsOnWorkerThread
+(
+)
+;
+mWorkerPrivate
+-
+>
 RemoveHolder
 (
 this
