@@ -1111,6 +1111,27 @@ int
 )
     
 #
+Whether
+to
+perform
+a
+gecko
+checkout
+.
+    
+Required
+(
+'
+checkout
+'
+default
+=
+False
+)
+:
+bool
+    
+#
 What
 to
 run
