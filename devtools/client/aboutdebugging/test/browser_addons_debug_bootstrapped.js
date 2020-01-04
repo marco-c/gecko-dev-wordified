@@ -207,12 +207,6 @@ addons
 )
 ;
 yield
-waitForInitialAddonList
-(
-document
-)
-;
-yield
 installAddon
 (
 document
