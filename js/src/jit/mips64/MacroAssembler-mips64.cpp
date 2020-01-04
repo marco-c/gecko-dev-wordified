@@ -14737,6 +14737,10 @@ ptr
 SecondScratchReg
 )
 ;
+asMasm
+(
+)
+.
 branchPtr
 (
 cond
@@ -14889,6 +14893,10 @@ valueReg
 SecondScratchReg
 )
 ;
+asMasm
+(
+)
+.
 branchPtr
 (
 cond
