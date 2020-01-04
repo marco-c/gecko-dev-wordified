@@ -41212,7 +41212,10 @@ nsContentUtils
 :
 GetSurfaceData
 (
+WrapNotNull
+(
 dataSurface
+)
 &
 length
 &
@@ -41956,6 +41959,8 @@ nsContentUtils
 :
 GetSurfaceData
 (
+NotNull
+<
 mozilla
 :
 :
@@ -41964,6 +41969,7 @@ gfx
 :
 DataSourceSurface
 *
+>
 aSurface
 size_t
 *
