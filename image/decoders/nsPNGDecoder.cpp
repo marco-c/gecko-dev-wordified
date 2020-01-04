@@ -1440,7 +1440,7 @@ mFrameRect
 )
 ;
 }
-void
+nsresult
 nsPNGDecoder
 :
 :
@@ -1705,12 +1705,8 @@ if
 mPNG
 )
 {
-PostDecoderError
-(
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 mInfo
@@ -1726,11 +1722,6 @@ if
 mInfo
 )
 {
-PostDecoderError
-(
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 png_destroy_read_struct
 (
 &
@@ -1740,6 +1731,7 @@ nullptr
 )
 ;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 #
@@ -1965,6 +1957,9 @@ nsPNGDecoder
 :
 end_callback
 )
+;
+return
+NS_OK
 ;
 }
 Maybe

@@ -155,8 +155,7 @@ nsPNGDecoder
 (
 )
 ;
-virtual
-void
+nsresult
 InitInternal
 (
 )
