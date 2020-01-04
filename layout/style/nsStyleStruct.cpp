@@ -4682,7 +4682,10 @@ mBoxOrdinal
 )
 mBoxAlign
 (
-NS_STYLE_BOX_ALIGN_STRETCH
+StyleBoxAlign
+:
+:
+Stretch
 )
 mBoxDirection
 (

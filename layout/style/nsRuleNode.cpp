@@ -8592,6 +8592,12 @@ value
 }
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleBoxAlign
+Stretch
+End
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleBoxSizing
 Content
 Border
@@ -59675,7 +59681,10 @@ parentXUL
 -
 >
 mBoxAlign
-NS_STYLE_BOX_ALIGN_STRETCH
+StyleBoxAlign
+:
+:
+Stretch
 )
 ;
 /
