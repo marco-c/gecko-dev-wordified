@@ -371,6 +371,9 @@ limitScriptSize
 bool
 osr
 ;
+bool
+wasmTestMode
+;
 uint32_t
 baselineWarmUpThreshold
 ;

@@ -494,6 +494,14 @@ x0
 ;
 static
 constexpr
+Register64
+ReturnReg64
+(
+ReturnReg
+)
+;
+static
+constexpr
 Register
 JSReturnReg
 =

@@ -15897,7 +15897,7 @@ WasmAstConst
 (
 Val
 (
-uint32_t
+uint64_t
 (
 0
 )
