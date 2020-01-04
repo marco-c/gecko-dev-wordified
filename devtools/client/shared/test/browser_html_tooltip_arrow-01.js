@@ -672,8 +672,7 @@ style
 height
 =
 "
-100
-%
+35px
 "
 ;
 yield
