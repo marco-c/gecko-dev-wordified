@@ -490,6 +490,12 @@ file_diffs
         
 self
 .
+dry_run
+=
+False
+        
+self
+.
 _init
 (
 )
@@ -994,6 +1000,13 @@ pass
 try
 :
                 
+if
+not
+self
+.
+dry_run
+:
+                    
 os
 .
 unlink
@@ -1323,6 +1336,11 @@ path
 capture_diff
 =
 True
+dry_run
+=
+self
+.
+dry_run
 )
         
 else
