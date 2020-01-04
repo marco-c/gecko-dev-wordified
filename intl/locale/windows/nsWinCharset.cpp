@@ -134,14 +134,9 @@ mozilla
 ;
 static
 const
-char
-*
-const
+nsUConvProp
 kWinCharsets
 [
-]
-[
-3
 ]
 =
 {

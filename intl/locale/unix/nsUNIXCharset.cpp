@@ -231,14 +231,9 @@ mozilla
 ;
 static
 const
-char
-*
-const
+nsUConvProp
 kUnixCharsets
 [
-]
-[
-3
 ]
 =
 {
