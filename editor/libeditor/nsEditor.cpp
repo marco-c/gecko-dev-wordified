@@ -29431,7 +29431,7 @@ kIMESelectionTypes
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 SelectionType
 :
 :
