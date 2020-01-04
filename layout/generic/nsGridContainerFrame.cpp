@@ -333,16 +333,6 @@ nsIFrame
 >
 FrameHashtable
 ;
-typedef
-mozilla
-:
-:
-layout
-:
-:
-AutoFrameListPtr
-AutoFrameListPtr
-;
 static
 void
 ReparentFrame
