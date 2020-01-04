@@ -39632,6 +39632,9 @@ aContext
 if
 (
 presContext
+&
+&
+presContext
 -
 >
 GetDocShell
