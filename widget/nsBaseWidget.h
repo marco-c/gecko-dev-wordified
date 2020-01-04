@@ -470,6 +470,10 @@ friend
 class
 nsAutoRollup
 ;
+friend
+class
+DispatchWheelEventOnMainThread
+;
 protected
 :
 typedef
