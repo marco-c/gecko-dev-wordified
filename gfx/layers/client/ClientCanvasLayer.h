@@ -531,10 +531,6 @@ mFlags
 ;
 friend
 class
-DeprecatedCanvasClient2D
-;
-friend
-class
 CanvasClient2D
 ;
 friend

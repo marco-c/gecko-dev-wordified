@@ -210,6 +210,15 @@ include
 "
 mozilla
 /
+Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1354,6 +1363,9 @@ mFlags
 const
 GLFormats
 mFormats
+;
+Mutex
+mMutex
 ;
 protected
 :
