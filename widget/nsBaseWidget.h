@@ -3099,9 +3099,14 @@ widget
 is
 not
 clipped
-nsAutoArrayPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsIntRect
+[
+]
 >
 mClipRects
 ;

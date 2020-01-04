@@ -12319,9 +12319,11 @@ aBoundsRect
 .
 height
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 imageBuffer
 (
@@ -12355,6 +12357,10 @@ GetPlatform
 CreateDrawTargetForData
 (
 imageBuffer
+.
+get
+(
+)
 aBoundsRect
 .
 Size
@@ -12443,6 +12449,10 @@ UpdateTranslucentWindowAlphaInternal
 (
 aBoundsRect
 imageBuffer
+.
+get
+(
+)
 stride
 )
 ;
