@@ -275,7 +275,7 @@ nsRubyTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsRubyTextFrameSuper
+nsRubyContentFrame
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (
@@ -520,7 +520,7 @@ IsAutoHidden
 return
 ;
 }
-nsRubyTextFrameSuper
+nsRubyContentFrame
 :
 :
 BuildDisplayList
@@ -649,7 +649,7 @@ t
 do
 that
 .
-nsRubyTextFrameSuper
+nsRubyContentFrame
 :
 :
 Reflow
