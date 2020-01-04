@@ -2103,7 +2103,7 @@ if
 alloc
 )
 {
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 =

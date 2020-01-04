@@ -2625,7 +2625,7 @@ GraphicBuffer
 :
 USAGE_HW_TEXTURE
 ;
-ISurfaceAllocator
+ClientIPCAllocator
 *
 allocator
 =
