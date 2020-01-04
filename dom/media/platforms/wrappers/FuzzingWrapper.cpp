@@ -1182,7 +1182,9 @@ DecoderCallbackFuzzingWrapper
 :
 Error
 (
-MediaDataDecoderError
+const
+MediaResult
+&
 aError
 )
 {
@@ -1204,7 +1206,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-MediaDataDecoderError
+MediaResult
 >
 (
 this
@@ -1240,10 +1242,7 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-FATAL_ERROR
+aError
 )
 ;
 }

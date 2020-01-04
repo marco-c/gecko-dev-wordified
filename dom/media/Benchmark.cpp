@@ -1668,7 +1668,9 @@ BenchmarkPlayback
 :
 Error
 (
-MediaDataDecoderError
+const
+MediaResult
+&
 aError
 )
 {
