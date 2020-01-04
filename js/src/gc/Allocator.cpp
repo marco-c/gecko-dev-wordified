@@ -3859,6 +3859,14 @@ lock
 maybeStartBackgroundAllocation
 )
 ;
+if
+(
+!
+chunk
+)
+return
+nullptr
+;
 chunk
 -
 >
