@@ -358,7 +358,10 @@ paint
 .
 setTypeface
 (
+sk_ref_sp
+(
 typeFace
+)
 )
 ;
 paint
