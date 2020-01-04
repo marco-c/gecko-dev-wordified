@@ -134,10 +134,6 @@ uint8_t
 /
 namespace
 mozilla
-typedef
-nsHTMLButtonControlFrame
-nsColorControlFrameSuper
-;
 /
 /
 Class
@@ -153,7 +149,7 @@ nsColorControlFrame
 final
 :
 public
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 public
 nsIAnonymousContentCreator
 {

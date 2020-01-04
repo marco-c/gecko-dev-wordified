@@ -207,7 +207,7 @@ nsStyleContext
 aContext
 )
 :
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 (
 aContext
 )
@@ -254,7 +254,7 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 )
 void
 nsColorControlFrame
@@ -292,7 +292,7 @@ DestroyAnonymousContent
 mColorContent
 )
 ;
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 :
 :
 DestroyFrom
@@ -802,7 +802,7 @@ UpdateColor
 ;
 }
 return
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 :
 :
 AttributeChanged
