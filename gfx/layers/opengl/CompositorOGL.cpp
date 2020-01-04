@@ -6315,6 +6315,10 @@ aTransform
 return
 ;
 }
+MakeCurrent
+(
+)
+;
 IntPoint
 offset
 =
