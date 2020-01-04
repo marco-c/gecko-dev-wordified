@@ -1440,7 +1440,13 @@ from
 Document
 already_AddRefed
 <
-nsLocation
+mozilla
+:
+:
+dom
+:
+:
+Location
 >
 GetLocation
 (

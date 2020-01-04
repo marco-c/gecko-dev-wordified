@@ -2082,7 +2082,7 @@ false
 /
 Whether
 URL
-nsLocation
+Location
 Link
 :
 :
