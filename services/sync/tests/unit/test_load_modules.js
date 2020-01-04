@@ -133,11 +133,6 @@ main
 js
 "
 "
-notifications
-.
-js
-"
-"
 policies
 .
 js
