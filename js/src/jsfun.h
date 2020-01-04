@@ -4367,10 +4367,6 @@ AllocKind
 :
 :
 FUNCTION
-NewObjectKind
-newKind
-=
-GenericObject
 )
 ;
 bool
