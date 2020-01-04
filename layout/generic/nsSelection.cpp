@@ -1024,7 +1024,7 @@ case
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 :
 return
 "
@@ -1143,7 +1143,7 @@ case
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 :
 case
 SelectionType
@@ -2121,7 +2121,7 @@ case
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 :
 return
 7
@@ -2204,7 +2204,7 @@ eAccessibility
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 SelectionType
 :
 :

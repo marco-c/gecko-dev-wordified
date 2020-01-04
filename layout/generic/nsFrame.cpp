@@ -22660,7 +22660,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 &
 &
 curDetail
