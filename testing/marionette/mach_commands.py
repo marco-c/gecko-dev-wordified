@@ -224,14 +224,6 @@ add_logging_group
 parser
 )
     
-args
-=
-parser
-.
-parse_args
-(
-)
-    
 if
 not
 tests
@@ -269,10 +261,15 @@ ini
 ]
     
 args
+=
+parser
 .
-tests
+parse_args
+(
+args
 =
 tests
+)
     
 if
 b2g_path
