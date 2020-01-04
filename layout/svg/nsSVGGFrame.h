@@ -122,15 +122,11 @@ nsSVGContainerFrame
 .
 h
 "
-typedef
-nsSVGDisplayContainerFrame
-nsSVGGFrameBase
-;
 class
 nsSVGGFrame
 :
 public
-nsSVGGFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -155,7 +151,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGGFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )

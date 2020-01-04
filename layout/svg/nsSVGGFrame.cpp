@@ -323,7 +323,7 @@ nsIDOMSVGTransformable
 "
 )
 ;
-nsSVGGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -487,7 +487,7 @@ mCanvasTM
 nullptr
 ;
 }
-nsSVGGFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 NotifySVGChanged
