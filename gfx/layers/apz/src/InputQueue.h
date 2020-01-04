@@ -152,6 +152,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+TouchCounter
+.
+h
+"
 namespace
 mozilla
 {

@@ -188,6 +188,13 @@ h
 /
 for
 nsContentUtils
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {

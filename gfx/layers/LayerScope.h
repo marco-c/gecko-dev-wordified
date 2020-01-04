@@ -133,6 +133,13 @@ UniquePtr
 .
 h
 >
+#
+include
+"
+gfxMatrix
+.
+h
+"
 namespace
 mozilla
 {
@@ -158,6 +165,9 @@ EffectChain
 ;
 class
 LayerComposite
+;
+class
+TextureHost
 ;
 class
 LayerScope

@@ -263,6 +263,17 @@ mozilla
 /
 layers
 /
+AsyncCanvasRenderer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 PersistentBufferProvider
 .
 h
