@@ -17174,7 +17174,7 @@ changes
 .
 mHomePager
 .
-setPanelStateChangelistener
+setPanelStateChangeListener
 (
 new
 HomeFragment
