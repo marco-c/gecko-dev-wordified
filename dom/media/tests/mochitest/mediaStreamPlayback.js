@@ -247,7 +247,7 @@ previous
 run
 *
 /
-playMediaWithMediaStreamTracksStop
+playMedia
 :
 function
 (
@@ -289,7 +289,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
@@ -624,8 +624,12 @@ timeupdate
 event
 fires
 and
-stops
+detaches
+from
 the
+element
+without
+stopping
 media
 .
 *
@@ -650,7 +654,7 @@ previous
 run
 *
 /
-playMedia
+playMediaWithoutStoppingTracks
 :
 function
 (
@@ -679,7 +683,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
@@ -1200,13 +1204,14 @@ string
 *
 *
 *
-Stops
+Detaches
+from
+the
+element
+without
+stopping
 the
 media
-with
-the
-associated
-stream
 .
 *
 *
@@ -1227,7 +1232,7 @@ played
 .
 *
 /
-stopMediaElement
+detachFromMediaElement
 :
 function
 (
@@ -1464,7 +1469,7 @@ then
 >
 this
 .
-stopMediaElement
+detachFromMediaElement
 (
 )
 )
