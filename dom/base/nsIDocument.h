@@ -14800,7 +14800,8 @@ rv
 =
 0
 ;
-void
+MOZ_MUST_USE
+nsresult
 GetURL
 (
 nsString
@@ -14809,7 +14810,8 @@ retval
 )
 const
 ;
-void
+MOZ_MUST_USE
+nsresult
 GetDocumentURI
 (
 nsString
