@@ -1374,12 +1374,6 @@ checkNoRequest
 (
 )
 ;
-commitPromise
-=
-promiseAfterCache
-(
-)
-;
 do_check_eq
 (
 Services
@@ -1391,9 +1385,6 @@ currentEngine
 name
 kTestEngineName
 )
-;
-yield
-commitPromise
 ;
 }
 )
