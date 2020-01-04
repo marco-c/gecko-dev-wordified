@@ -842,7 +842,7 @@ WGLLibrary
 instance
 extern
 WGLLibrary
-sWGLLibrary
+sWGLLib
 ;
 }
 /
