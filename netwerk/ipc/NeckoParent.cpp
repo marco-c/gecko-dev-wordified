@@ -614,12 +614,6 @@ mozilla
 namespace
 net
 {
-PNeckoParent
-*
-gNeckoParent
-=
-nullptr
-;
 /
 /
 C
@@ -713,10 +707,6 @@ OfflineObserver
 this
 )
 ;
-gNeckoParent
-=
-this
-;
 /
 /
 only
@@ -785,10 +775,6 @@ NeckoParent
 (
 )
 {
-gNeckoParent
-=
-nullptr
-;
 if
 (
 mObserver
