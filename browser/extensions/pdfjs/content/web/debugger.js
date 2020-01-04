@@ -3891,7 +3891,6 @@ function
 init
 (
 pdfjsLib
-container
 )
 {
 /
@@ -3996,6 +3995,18 @@ ui
 appendChild
 (
 panels
+)
+;
+var
+container
+=
+document
+.
+getElementById
+(
+'
+viewerContainer
+'
 )
 ;
 container
