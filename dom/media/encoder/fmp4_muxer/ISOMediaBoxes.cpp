@@ -735,11 +735,15 @@ Length
 ;
 sample_info_table
 =
-new
+MakeUnique
+<
 tbl
 [
-len
 ]
+>
+(
+len
+)
 ;
 /
 /

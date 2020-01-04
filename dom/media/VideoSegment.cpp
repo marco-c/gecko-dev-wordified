@@ -504,7 +504,7 @@ mCbChannel
 =
 frame
 .
-rwget
+get
 (
 )
 +
