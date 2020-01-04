@@ -129,9 +129,7 @@ limits
 #
 include
 "
-mozilla
-/
-Base64
+ScopedNSSTypes
 .
 h
 "
@@ -140,7 +138,7 @@ include
 "
 mozilla
 /
-Scoped
+Base64
 .
 h
 "
@@ -217,15 +215,15 @@ Release
 )
 ;
 }
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
+MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
-ScopedHTTPServerSession
+UniqueHTTPServerSession
 nsNSSHttpServerSession
 ReleaseHttpServerSession
 )
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
+MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
-ScopedHTTPRequestSession
+UniqueHTTPRequestSession
 nsNSSHttpRequestSession
 ReleaseHttpRequestSession
 )
@@ -906,7 +904,7 @@ return
 rv
 ;
 }
-ScopedHTTPServerSession
+UniqueHTTPServerSession
 serverSession
 (
 reinterpret_cast
@@ -1117,7 +1115,7 @@ return
 rv
 ;
 }
-ScopedHTTPRequestSession
+UniqueHTTPRequestSession
 requestSession
 (
 reinterpret_cast

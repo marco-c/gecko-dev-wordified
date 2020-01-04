@@ -189,7 +189,7 @@ CERTCertificate
 cert
 )
 {
-ScopedSECKEYPrivateKey
+UniqueSECKEYPrivateKey
 privateKey
 (
 PK11_FindKeyByAnyCert
@@ -240,7 +240,7 @@ RSA_PKCS1
 publicKey
 privateKey
 .
-forget
+release
 (
 )
 )

@@ -11487,7 +11487,7 @@ caNameStrings
 ScopedCERTCertificate
 cert
 ;
-ScopedSECKEYPrivateKey
+UniqueSECKEYPrivateKey
 privKey
 ;
 ScopedCERTCertList
@@ -11614,7 +11614,9 @@ the
 private
 key
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -11623,6 +11625,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 if
@@ -11649,7 +11652,7 @@ mPRetKey
 =
 privKey
 .
-forget
+release
 (
 )
 ;
@@ -11936,7 +11939,9 @@ not
 use
 it
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 node
@@ -11944,6 +11949,7 @@ node
 >
 cert
 wincx
+)
 )
 ;
 if
@@ -12076,7 +12082,9 @@ forget
 )
 ;
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -12085,6 +12093,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 }
@@ -13301,7 +13310,9 @@ the
 private
 key
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -13310,6 +13321,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 if
@@ -13406,7 +13418,7 @@ mPRetKey
 =
 privKey
 .
-forget
+release
 (
 )
 ;
