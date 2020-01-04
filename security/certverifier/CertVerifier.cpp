@@ -2636,9 +2636,6 @@ Result
 :
 ERROR_UNKNOWN_ERROR
 ;
-#
-ifndef
-MOZ_NO_EV_CERTS
 /
 /
 Try
@@ -3075,8 +3072,6 @@ Success
 break
 ;
 }
-#
-endif
 if
 (
 flags
