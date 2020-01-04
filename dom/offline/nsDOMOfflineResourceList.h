@@ -323,6 +323,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsPIDOMWindow
 *
 aWindow
@@ -764,6 +767,12 @@ nsCOMPtr
 nsIURI
 >
 mDocumentURI
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mLoadingPrincipal
 ;
 nsCOMPtr
 <

@@ -25224,6 +25224,10 @@ if
 (
 !
 webNav
+|
+|
+!
+mDoc
 )
 {
 aError
@@ -25298,6 +25302,12 @@ nsDOMOfflineResourceList
 (
 manifestURI
 uri
+mDoc
+-
+>
+NodePrincipal
+(
+)
 this
 )
 ;

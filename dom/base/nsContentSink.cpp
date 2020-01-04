@@ -6527,6 +6527,12 @@ ScheduleOnDocumentStop
 (
 manifestURI
 mDocumentURI
+mDocument
+-
+>
+NodePrincipal
+(
+)
 domdoc
 )
 ;
