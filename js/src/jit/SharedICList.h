@@ -247,11 +247,6 @@ GetProp_Fallback
 \
 _
 (
-GetProp_Primitive
-)
-\
-_
-(
 GetProp_StringLength
 )
 \
