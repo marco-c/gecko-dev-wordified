@@ -153,9 +153,10 @@ aThread
 MediaDecoderReaderWrapper
 *
 aReader
-SeekJob
+const
+SeekTarget
 &
-aSeekJob
+aTarget
 )
 :
 mDecoderID
@@ -172,9 +173,7 @@ aReader
 )
 mTarget
 (
-aSeekJob
-.
-mTarget
+aTarget
 )
 mIsDiscarded
 (
@@ -374,6 +373,7 @@ return
 mOwnerThread
 ;
 }
+const
 SeekTarget
 &
 SeekTask

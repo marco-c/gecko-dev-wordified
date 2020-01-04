@@ -262,9 +262,10 @@ aThread
 MediaDecoderReaderWrapper
 *
 aReader
-SeekJob
+const
+SeekTarget
 &
-aSeekJob
+aTarget
 const
 MediaInfo
 &

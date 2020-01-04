@@ -272,6 +272,7 @@ const
 =
 0
 ;
+const
 SeekTarget
 &
 GetSeekTarget
@@ -292,9 +293,10 @@ aThread
 MediaDecoderReaderWrapper
 *
 aReader
-SeekJob
+const
+SeekTarget
 &
-aSeekJob
+aTarget
 )
 ;
 virtual
@@ -377,7 +379,6 @@ state
 *
 /
 SeekTarget
-&
 mTarget
 ;
 MozPromiseHolder

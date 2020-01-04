@@ -210,9 +210,10 @@ aThread
 MediaDecoderReaderWrapper
 *
 aReader
-SeekJob
+const
+SeekTarget
 &
-aSeekJob
+aTarget
 const
 MediaInfo
 &
@@ -245,7 +246,7 @@ SeekTask
 aDecoderID
 aThread
 aReader
-aSeekJob
+aTarget
 )
 mAudioQueue
 (
