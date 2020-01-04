@@ -511,6 +511,11 @@ explicit
 MockAccessibleCaretEventHub
 (
 )
+:
+AccessibleCaretEventHub
+(
+nullptr
+)
 {
 mManager
 =

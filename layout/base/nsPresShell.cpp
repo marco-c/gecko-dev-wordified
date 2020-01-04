@@ -5493,6 +5493,7 @@ mAccessibleCaretEventHub
 new
 AccessibleCaretEventHub
 (
+this
 )
 ;
 }
@@ -10063,7 +10064,6 @@ mAccessibleCaretEventHub
 >
 Init
 (
-this
 )
 ;
 }
