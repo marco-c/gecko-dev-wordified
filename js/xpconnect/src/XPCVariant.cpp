@@ -218,7 +218,9 @@ XPCVariant
 JSContext
 *
 cx
+const
 Value
+&
 aJSVal
 )
 :
@@ -672,7 +674,9 @@ newVariant
 JSContext
 *
 cx
+const
 Value
+&
 aJSVal
 )
 {

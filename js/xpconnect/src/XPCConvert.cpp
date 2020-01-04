@@ -6995,7 +6995,9 @@ AutoExceptionRestorer
 JSContext
 *
 cx
+const
 Value
+&
 v
 )
 :

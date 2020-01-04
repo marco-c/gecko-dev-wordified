@@ -798,10 +798,12 @@ XPCCallContext
 :
 SetRetVal
 (
+const
 JS
 :
 :
 Value
+&
 val
 )
 {
