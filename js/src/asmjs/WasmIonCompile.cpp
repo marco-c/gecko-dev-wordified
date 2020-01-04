@@ -7776,11 +7776,10 @@ readOpcode
 )
 {
 return
-Expr
+decoder_
+.
+uncheckedReadExpr
 (
-readU8
-(
-)
 )
 ;
 }
