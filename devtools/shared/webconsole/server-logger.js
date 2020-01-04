@@ -1113,13 +1113,14 @@ case
 examineHeaders
 "
 :
-return
 this
 .
 onExamineHeaders
 (
 msg
 )
+;
+break
 ;
 default
 :
@@ -1436,7 +1437,7 @@ private
 *
 param
 nsIHttpChannel
-aChannel
+channel
 *
 Request
 to
@@ -1463,7 +1464,7 @@ _matchRequest
 :
 function
 (
-aChannel
+channel
 )
 {
 trace
@@ -1536,12 +1537,12 @@ content
 if
 (
 !
-aChannel
+channel
 .
 loadInfo
 &
 &
-aChannel
+channel
 .
 loadInfo
 .
@@ -1552,7 +1553,7 @@ loadingDocument
 null
 &
 &
-aChannel
+channel
 .
 loadInfo
 .
@@ -1611,7 +1612,7 @@ NetworkHelper
 .
 getWindowForRequest
 (
-aChannel
+channel
 )
 ;
 while

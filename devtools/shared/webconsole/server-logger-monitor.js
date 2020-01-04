@@ -221,6 +221,7 @@ args
 {
 }
 }
+;
 const
 acceptableHeaders
 =
@@ -298,8 +299,8 @@ setupInParent
 )
 that
 is
-executed
 *
+executed
 from
 within
 the
@@ -311,11 +312,11 @@ execution
 is
 done
 by
+*
 {
 ServerLoggingListener
 }
 .
-*
 The
 monitor
 listens
@@ -323,6 +324,7 @@ to
 HTTP
 events
 and
+*
 forwards
 it
 into
