@@ -69,11 +69,11 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-vendor
+node
+-
+properties
 /
 node
 -
@@ -91,11 +91,9 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
-vendor
+sprintfjs
 /
 sprintf
 "
