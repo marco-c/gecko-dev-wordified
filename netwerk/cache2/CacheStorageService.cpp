@@ -2298,7 +2298,7 @@ error
 This
 synchronously
 invokes
-onCacheEntryInfo
+OnEntryInfo
 on
 this
 class
