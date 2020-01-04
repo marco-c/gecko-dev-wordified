@@ -28314,7 +28314,7 @@ DisplayItemScrollClip
 *
 aScrollClip
 bool
-aForEventsOnly
+aForEventsAndPluginsOnly
 )
 :
 nsDisplayWrapList
@@ -28336,9 +28336,9 @@ StyleEffects
 >
 mOpacity
 )
-mForEventsOnly
+mForEventsAndPluginsOnly
 (
-aForEventsOnly
+aForEventsAndPluginsOnly
 )
 {
 MOZ_COUNT_CTOR
@@ -28478,9 +28478,9 @@ aContainerParameters
 ;
 params
 .
-mForEventsOnly
+mForEventsAndPluginsOnly
 =
-mForEventsOnly
+mForEventsAndPluginsOnly
 ;
 RefPtr
 <
@@ -29363,7 +29363,7 @@ painted
 .
 if
 (
-mForEventsOnly
+mForEventsAndPluginsOnly
 )
 {
 MOZ_ASSERT

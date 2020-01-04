@@ -332,7 +332,7 @@ mInLowPrecisionDisplayPort
 (
 false
 )
-mForEventsOnly
+mForEventsAndPluginsOnly
 (
 false
 )
@@ -402,7 +402,7 @@ mInLowPrecisionDisplayPort
 (
 false
 )
-mForEventsOnly
+mForEventsAndPluginsOnly
 (
 false
 )
@@ -492,11 +492,11 @@ aParent
 .
 mInLowPrecisionDisplayPort
 )
-mForEventsOnly
+mForEventsAndPluginsOnly
 (
 aParent
 .
-mForEventsOnly
+mForEventsAndPluginsOnly
 )
 mLayerCreationHint
 (
@@ -632,7 +632,7 @@ bool
 mInLowPrecisionDisplayPort
 ;
 bool
-mForEventsOnly
+mForEventsAndPluginsOnly
 ;
 layers
 :

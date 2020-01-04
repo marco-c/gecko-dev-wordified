@@ -21472,7 +21472,7 @@ DisplayItemScrollClip
 *
 aScrollClip
 bool
-aForEventsOnly
+aForEventsAndPluginsOnly
 )
 ;
 #
@@ -21703,7 +21703,7 @@ float
 mOpacity
 ;
 bool
-mForEventsOnly
+mForEventsAndPluginsOnly
 ;
 }
 ;

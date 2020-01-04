@@ -1184,7 +1184,7 @@ if
 !
 aContainerParameters
 .
-mForEventsOnly
+mForEventsAndPluginsOnly
 )
 {
 NS_WARNING

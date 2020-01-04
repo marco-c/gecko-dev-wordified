@@ -24547,7 +24547,7 @@ if
 (
 mParameters
 .
-mForEventsOnly
+mForEventsAndPluginsOnly
 &
 &
 !
@@ -24559,6 +24559,7 @@ GetChildren
 )
 &
 &
+(
 itemType
 !
 =
@@ -24566,6 +24567,16 @@ nsDisplayItem
 :
 :
 TYPE_LAYER_EVENT_REGIONS
+&
+&
+itemType
+!
+=
+nsDisplayItem
+:
+:
+TYPE_PLUGIN
+)
 )
 {
 continue
@@ -32514,7 +32525,7 @@ if
 !
 mParameters
 .
-mForEventsOnly
+mForEventsAndPluginsOnly
 )
 {
 NS_ASSERTION
