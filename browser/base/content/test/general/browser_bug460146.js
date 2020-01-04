@@ -73,7 +73,13 @@ pageInfo
 =
 BrowserPageInfo
 (
-doc
+gBrowser
+.
+selectedBrowser
+.
+currentURI
+.
+spec
 "
 mediaTab
 "
