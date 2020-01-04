@@ -18762,8 +18762,9 @@ itself
 .
 clipState
 .
-Clear
+SetClipForContainingBlockDescendants
 (
+nullptr
 )
 ;
 clipState
