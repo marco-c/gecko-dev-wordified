@@ -597,7 +597,7 @@ isContextLost
 context
 -
 >
-recordError
+handleError
 (
 gl
 :

@@ -1553,6 +1553,9 @@ maxExpressionComplexity
 int
 maxCallStackDepth
 ;
+int
+maxFunctionParameters
+;
 ShBuiltInResources
 compileResources
 ;

@@ -644,3 +644,7 @@ g_sharedexp_mantissabits
 ;
 }
 }
+/
+/
+namespace
+gl

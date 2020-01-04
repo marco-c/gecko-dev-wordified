@@ -132,6 +132,13 @@ PbufferSurfaceWGL
 :
 PbufferSurfaceWGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -159,6 +166,7 @@ functions
 :
 SurfaceGL
 (
+state
 renderer
 )
 mWidth

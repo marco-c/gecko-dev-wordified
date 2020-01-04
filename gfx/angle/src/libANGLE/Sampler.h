@@ -111,7 +111,7 @@ namespace
 rx
 {
 class
-ImplFactory
+GLImplFactory
 ;
 class
 SamplerImpl
@@ -136,7 +136,7 @@ Sampler
 rx
 :
 :
-ImplFactory
+GLImplFactory
 *
 factory
 GLuint

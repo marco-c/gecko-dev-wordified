@@ -128,6 +128,9 @@ TextureHelper11
 class
 TextureStorage11
 ;
+struct
+Renderer11DeviceCaps
+;
 class
 Image11
 :
@@ -162,6 +165,10 @@ dest
 Image11
 *
 src
+const
+Renderer11DeviceCaps
+&
+rendererCaps
 )
 ;
 virtual
@@ -222,7 +229,6 @@ getDXGIFormat
 )
 const
 ;
-virtual
 gl
 :
 :
@@ -249,9 +255,11 @@ const
 void
 *
 input
+bool
+applySkipImages
 )
+override
 ;
-virtual
 gl
 :
 :
@@ -270,6 +278,7 @@ void
 *
 input
 )
+override
 ;
 gl
 :

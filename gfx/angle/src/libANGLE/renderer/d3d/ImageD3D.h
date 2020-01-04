@@ -305,6 +305,8 @@ const
 void
 *
 input
+bool
+applySkipImages
 )
 =
 0

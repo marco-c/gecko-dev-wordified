@@ -269,7 +269,6 @@ Box
 region
 )
 ;
-virtual
 gl
 :
 :
@@ -296,9 +295,11 @@ const
 void
 *
 input
+bool
+applySkipImages
 )
+override
 ;
-virtual
 gl
 :
 :
@@ -317,6 +318,7 @@ void
 *
 input
 )
+override
 ;
 gl
 :

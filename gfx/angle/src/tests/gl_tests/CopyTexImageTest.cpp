@@ -354,11 +354,11 @@ h
 )
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 ANGLETest
 :
@@ -575,11 +575,11 @@ ASSERT_GL_NO_ERROR
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 glDeleteProgram
 (
@@ -609,7 +609,6 @@ x
 GLint
 y
 )
-const
 {
 glViewport
 (
@@ -815,7 +814,7 @@ Intel
 chips
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1338,7 +1337,7 @@ Intel
 chips
 if
 (
-isIntel
+IsIntel
 (
 )
 &

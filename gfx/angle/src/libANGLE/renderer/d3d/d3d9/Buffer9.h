@@ -273,7 +273,10 @@ result
 )
 ;
 virtual
-void
+gl
+:
+:
+Error
 markTransformFeedbackUsage
 (
 )
@@ -289,6 +292,10 @@ mSize
 }
 ;
 }
+/
+/
+namespace
+rx
 #
 endif
 /

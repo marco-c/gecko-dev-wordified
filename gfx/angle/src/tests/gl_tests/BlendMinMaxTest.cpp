@@ -259,7 +259,7 @@ this
 fails
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -893,7 +893,7 @@ on
 Intel
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -962,7 +962,7 @@ on
 D3D11_FL9_3
 if
 (
-isD3D11_FL93
+IsD3D11_FL93
 (
 )
 )
@@ -1064,7 +1064,7 @@ this
 fails
 if
 (
-isIntel
+IsIntel
 (
 )
 &

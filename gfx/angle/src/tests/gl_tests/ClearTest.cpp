@@ -683,7 +683,7 @@ Intel
 OpenGL
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1457,7 +1457,7 @@ this
 fails
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1641,7 +1641,7 @@ ANGLE_PLATFORM_APPLE
 )
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1695,7 +1695,7 @@ this
 fails
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -2048,18 +2048,18 @@ RepeatedClear
 {
 if
 (
-isD3D11
+IsD3D11
 (
 )
 &
 &
 (
-isNVidia
+IsNVIDIA
 (
 )
 |
 |
-isIntel
+IsIntel
 (
 )
 )

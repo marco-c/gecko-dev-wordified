@@ -189,6 +189,13 @@ DXGISwapChainWindowSurfaceWGL
 :
 DXGISwapChainWindowSurfaceWGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -217,6 +224,7 @@ orientation
 :
 SurfaceGL
 (
+state
 renderer
 )
 mWindow
@@ -1480,10 +1488,7 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
 data
 )

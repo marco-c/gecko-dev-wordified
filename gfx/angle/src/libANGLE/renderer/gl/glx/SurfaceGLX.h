@@ -87,6 +87,13 @@ public
 :
 SurfaceGLX
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -94,6 +101,7 @@ renderer
 :
 SurfaceGL
 (
+state
 renderer
 )
 {

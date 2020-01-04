@@ -134,6 +134,13 @@ WindowSurfaceWGL
 :
 WindowSurfaceWGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -153,6 +160,7 @@ orientation
 :
 SurfaceGL
 (
+state
 renderer
 )
 mPixelFormat

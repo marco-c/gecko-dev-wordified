@@ -374,6 +374,7 @@ mRunning
 false
 ;
 }
+unsigned
 int
 getNumStepsPerformed
 (
@@ -405,6 +406,7 @@ mRunTimeSeconds
 ;
 private
 :
+unsigned
 int
 mNumStepsPerformed
 ;

@@ -543,6 +543,9 @@ case
 GL_SAMPLER_2D_ARRAY
 :
 case
+GL_SAMPLER_EXTERNAL_OES
+:
+case
 GL_INT_SAMPLER_2D
 :
 case
@@ -1162,6 +1165,9 @@ case
 GL_SAMPLER_2D_ARRAY
 :
 case
+GL_SAMPLER_EXTERNAL_OES
+:
+case
 GL_INT_SAMPLER_2D
 :
 case
@@ -1228,6 +1234,12 @@ GL_SAMPLER_2D_SHADOW
 :
 return
 GL_TEXTURE_2D
+;
+case
+GL_SAMPLER_EXTERNAL_OES
+:
+return
+GL_TEXTURE_EXTERNAL_OES
 ;
 case
 GL_SAMPLER_CUBE
@@ -2764,6 +2776,10 @@ EGL_GL_RENDERBUFFER_KHR
 ;
 }
 }
+/
+/
+namespace
+egl
 namespace
 egl_gl
 {
@@ -2884,6 +2900,10 @@ buffer
 ;
 }
 }
+/
+/
+namespace
+egl_gl
 #
 if
 !

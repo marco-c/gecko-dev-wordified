@@ -3969,7 +3969,7 @@ id
 809
 if
 (
-isIntel
+IsIntel
 (
 )
 &

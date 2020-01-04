@@ -689,7 +689,7 @@ ANGLE_PLATFORM_APPLE
 )
 if
 (
-isAMD
+IsAMD
 (
 )
 )
@@ -785,6 +785,11 @@ GL_INT
 vertexData
 )
 ;
+glUseProgram
+(
+mProgram
+)
+;
 glBeginTransformFeedback
 (
 GL_TRIANGLES
@@ -803,6 +808,11 @@ position
 ;
 glEndTransformFeedback
 (
+)
+;
+glUseProgram
+(
+0
 )
 ;
 GLint
@@ -1458,7 +1468,7 @@ end
 .
 if
 (
-isD3D11
+IsD3D11
 (
 )
 )

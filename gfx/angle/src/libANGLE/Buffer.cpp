@@ -117,17 +117,6 @@ BufferImpl
 .
 h
 "
-#
-include
-"
-libANGLE
-/
-renderer
-/
-Renderer
-.
-h
-"
 namespace
 gl
 {
@@ -923,3 +912,7 @@ GL_NO_ERROR
 ;
 }
 }
+/
+/
+namespace
+gl

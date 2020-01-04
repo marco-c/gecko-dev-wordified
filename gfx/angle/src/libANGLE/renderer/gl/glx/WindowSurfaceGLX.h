@@ -130,6 +130,13 @@ public
 WindowSurfaceGLX
 (
 const
+egl
+:
+:
+SurfaceState
+&
+state
+const
 FunctionsGLX
 &
 glx

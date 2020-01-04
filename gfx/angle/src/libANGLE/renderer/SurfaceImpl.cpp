@@ -77,6 +77,18 @@ SurfaceImpl
 :
 SurfaceImpl
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
+)
+:
+mState
+(
+state
 )
 {
 }
@@ -90,3 +102,7 @@ SurfaceImpl
 {
 }
 }
+/
+/
+namespace
+rx

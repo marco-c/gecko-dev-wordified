@@ -85,11 +85,7 @@ include
 "
 libANGLE
 /
-renderer
-/
-d3d
-/
-imageformats
+angletypes
 .
 h
 "
@@ -98,7 +94,9 @@ include
 "
 libANGLE
 /
-angletypes
+renderer
+/
+imageformats
 .
 h
 "

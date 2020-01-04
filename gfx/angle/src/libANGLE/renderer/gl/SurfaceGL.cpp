@@ -104,6 +104,13 @@ SurfaceGL
 :
 SurfaceGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -111,6 +118,7 @@ renderer
 :
 SurfaceImpl
 (
+state
 )
 mRenderer
 (
@@ -138,10 +146,7 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
 data
 )

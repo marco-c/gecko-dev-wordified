@@ -232,7 +232,7 @@ this
 fails
 if
 (
-isIntel
+IsIntel
 (
 )
 &

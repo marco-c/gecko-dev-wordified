@@ -210,7 +210,7 @@ ASSERT
 mRenderer
 -
 >
-getRendererExtensions
+getNativeExtensions
 (
 )
 .

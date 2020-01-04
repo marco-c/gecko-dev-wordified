@@ -313,6 +313,9 @@ bool
 mInstanceIDAdded
 ;
 bool
+mVertexIDAdded
+;
+bool
 mPositionAdded
 ;
 bool

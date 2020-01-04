@@ -139,6 +139,15 @@ include
 "
 libANGLE
 /
+Caps
+.
+h
+"
+#
+include
+"
+libANGLE
+/
 Compiler
 .
 h
@@ -159,7 +168,7 @@ libANGLE
 /
 renderer
 /
-Renderer
+GLImplFactory
 .
 h
 "
@@ -447,13 +456,10 @@ type
 )
 ;
 }
-Shader
+ShaderState
 :
 :
-Data
-:
-:
-Data
+ShaderState
 (
 GLenum
 shaderType
@@ -472,14 +478,11 @@ mShaderVersion
 )
 {
 }
-Shader
-:
-:
-Data
+ShaderState
 :
 :
 ~
-Data
+ShaderState
 (
 )
 {
@@ -495,7 +498,7 @@ manager
 rx
 :
 :
-ImplFactory
+GLImplFactory
 *
 implFactory
 const
@@ -511,7 +514,7 @@ GLuint
 handle
 )
 :
-mData
+mState
 (
 type
 )
@@ -522,7 +525,7 @@ implFactory
 >
 createShader
 (
-mData
+mState
 )
 )
 mRendererLimitations
@@ -589,7 +592,7 @@ string
 label
 )
 {
-mData
+mState
 .
 mLabel
 =
@@ -611,7 +614,7 @@ getLabel
 const
 {
 return
-mData
+mState
 .
 mLabel
 ;
@@ -723,7 +726,7 @@ i
 ;
 }
 }
-mData
+mState
 .
 mSource
 =
@@ -870,7 +873,7 @@ getSourceLength
 const
 {
 return
-mData
+mState
 .
 mSource
 .
@@ -886,7 +889,7 @@ static_cast
 int
 >
 (
-mData
+mState
 .
 mSource
 .
@@ -910,7 +913,7 @@ const
 {
 if
 (
-mData
+mState
 .
 mTranslatedSource
 .
@@ -930,7 +933,7 @@ static_cast
 int
 >
 (
-mData
+mState
 .
 mTranslatedSource
 .
@@ -1109,7 +1112,7 @@ const
 {
 getSourceImpl
 (
-mData
+mState
 .
 mSource
 bufSize
@@ -1137,7 +1140,7 @@ const
 {
 getSourceImpl
 (
-mData
+mState
 .
 mTranslatedSource
 bufSize
@@ -1198,7 +1201,7 @@ Compiler
 compiler
 )
 {
-mData
+mState
 .
 mTranslatedSource
 .
@@ -1212,13 +1215,13 @@ clear
 (
 )
 ;
-mData
+mState
 .
 mShaderVersion
 =
 100
 ;
-mData
+mState
 .
 mVaryings
 .
@@ -1226,7 +1229,7 @@ clear
 (
 )
 ;
-mData
+mState
 .
 mUniforms
 .
@@ -1234,7 +1237,7 @@ clear
 (
 )
 ;
-mData
+mState
 .
 mInterfaceBlocks
 .
@@ -1242,7 +1245,7 @@ clear
 (
 )
 ;
-mData
+mState
 .
 mActiveAttributes
 .
@@ -1250,7 +1253,7 @@ clear
 (
 )
 ;
-mData
+mState
 .
 mActiveOutputVariables
 .
@@ -1266,7 +1269,7 @@ compiler
 >
 getCompilerHandle
 (
-mData
+mState
 .
 mShaderType
 )
@@ -1481,7 +1484,7 @@ false
 return
 ;
 }
-mData
+mState
 .
 mTranslatedSource
 =
@@ -1567,7 +1570,7 @@ npos
 size_t
 nextLine
 =
-mData
+mState
 .
 mSource
 .
@@ -1621,7 +1624,7 @@ shaderStream
 "
 <
 <
-mData
+mState
 .
 mSource
 .
@@ -1674,11 +1677,11 @@ n
 shaderStream
 <
 <
-mData
+mState
 .
 mTranslatedSource
 ;
-mData
+mState
 .
 mTranslatedSource
 =
@@ -1696,7 +1699,7 @@ Gather
 the
 shader
 information
-mData
+mState
 .
 mShaderVersion
 =
@@ -1705,7 +1708,7 @@ ShGetShaderVersion
 compilerHandle
 )
 ;
-mData
+mState
 .
 mVaryings
 =
@@ -1717,7 +1720,7 @@ compilerHandle
 )
 )
 ;
-mData
+mState
 .
 mUniforms
 =
@@ -1729,7 +1732,7 @@ compilerHandle
 )
 )
 ;
-mData
+mState
 .
 mInterfaceBlocks
 =
@@ -1743,7 +1746,7 @@ compilerHandle
 ;
 if
 (
-mData
+mState
 .
 mShaderType
 =
@@ -1751,7 +1754,7 @@ mShaderType
 GL_VERTEX_SHADER
 )
 {
-mData
+mState
 .
 mActiveAttributes
 =
@@ -1768,7 +1771,7 @@ else
 {
 ASSERT
 (
-mData
+mState
 .
 mShaderType
 =
@@ -1803,14 +1806,14 @@ std
 :
 sort
 (
-mData
+mState
 .
 mVaryings
 .
 begin
 (
 )
-mData
+mState
 .
 mVaryings
 .
@@ -1820,7 +1823,7 @@ end
 CompareShaderVar
 )
 ;
-mData
+mState
 .
 mActiveOutputVariables
 =
@@ -1836,7 +1839,7 @@ compilerHandle
 ASSERT
 (
 !
-mData
+mState
 .
 mTranslatedSource
 .
@@ -1954,7 +1957,7 @@ getShaderVersion
 const
 {
 return
-mData
+mState
 .
 mShaderVersion
 ;
@@ -1980,7 +1983,7 @@ getVaryings
 const
 {
 return
-mData
+mState
 .
 getVaryings
 (
@@ -2008,7 +2011,7 @@ getUniforms
 const
 {
 return
-mData
+mState
 .
 getUniforms
 (
@@ -2036,7 +2039,7 @@ getInterfaceBlocks
 const
 {
 return
-mData
+mState
 .
 getInterfaceBlocks
 (
@@ -2064,7 +2067,7 @@ getActiveAttributes
 const
 {
 return
-mData
+mState
 .
 getActiveAttributes
 (
@@ -2092,7 +2095,7 @@ getActiveOutputVariables
 const
 {
 return
-mData
+mState
 .
 getActiveOutputVariables
 (
@@ -2130,7 +2133,7 @@ auto
 &
 activeAttributes
 =
-mData
+mState
 .
 getActiveAttributes
 (

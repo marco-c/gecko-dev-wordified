@@ -769,7 +769,7 @@ ANGLE_PLATFORM_APPLE
 )
 if
 (
-isIntel
+IsIntel
 (
 )
 &

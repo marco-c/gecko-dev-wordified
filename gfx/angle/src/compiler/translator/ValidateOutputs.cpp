@@ -241,6 +241,10 @@ mVisitedSymbols
 count
 (
 name
+.
+c_str
+(
+)
 )
 =
 =
@@ -253,6 +257,10 @@ mVisitedSymbols
 insert
 (
 name
+.
+c_str
+(
+)
 )
 ;
 if

@@ -372,7 +372,7 @@ mParseDefined
 std
 :
 :
-auto_ptr
+unique_ptr
 <
 Token
 >

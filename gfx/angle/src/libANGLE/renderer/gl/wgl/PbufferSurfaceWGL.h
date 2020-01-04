@@ -103,6 +103,13 @@ public
 :
 PbufferSurfaceWGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer

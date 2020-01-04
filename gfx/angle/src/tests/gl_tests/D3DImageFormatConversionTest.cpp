@@ -75,8 +75,6 @@ libANGLE
 /
 renderer
 /
-d3d
-/
 imageformats
 .
 h
@@ -865,7 +863,7 @@ been
 updated
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -980,7 +978,7 @@ been
 updated
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1095,7 +1093,7 @@ been
 updated
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1210,7 +1208,7 @@ been
 updated
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1325,7 +1323,7 @@ been
 updated
 if
 (
-isIntel
+IsIntel
 (
 )
 &

@@ -136,6 +136,13 @@ WindowSurfaceGLX
 WindowSurfaceGLX
 (
 const
+egl
+:
+:
+SurfaceState
+&
+state
+const
 FunctionsGLX
 &
 glx
@@ -164,6 +171,7 @@ fbConfig
 :
 SurfaceGLX
 (
+state
 renderer
 )
 mParent

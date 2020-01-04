@@ -86,7 +86,7 @@ libANGLE
 /
 renderer
 /
-ImplFactory
+GLImplFactory
 .
 h
 "
@@ -104,13 +104,10 @@ h
 namespace
 gl
 {
-VertexArray
+VertexArrayState
 :
 :
-Data
-:
-:
-Data
+VertexArrayState
 (
 size_t
 maxAttribs
@@ -129,14 +126,11 @@ mMaxEnabledAttribute
 )
 {
 }
-VertexArray
-:
-:
-Data
+VertexArrayState
 :
 :
 ~
-Data
+VertexArrayState
 (
 )
 {
@@ -187,7 +181,7 @@ VertexArray
 rx
 :
 :
-ImplFactory
+GLImplFactory
 *
 factory
 GLuint
@@ -200,6 +194,10 @@ mId
 (
 id
 )
+mState
+(
+maxAttribs
+)
 mVertexArray
 (
 factory
@@ -207,12 +205,8 @@ factory
 >
 createVertexArray
 (
-mData
+mState
 )
-)
-mData
-(
-maxAttribs
 )
 {
 }
@@ -258,7 +252,7 @@ string
 label
 )
 {
-mData
+mState
 .
 mLabel
 =
@@ -280,7 +274,7 @@ getLabel
 const
 {
 return
-mData
+mState
 .
 mLabel
 ;
@@ -315,7 +309,7 @@ attribute
 {
 if
 (
-mData
+mState
 .
 mVertexAttributes
 [
@@ -332,7 +326,7 @@ id
 bufferName
 )
 {
-mData
+mState
 .
 mVertexAttributes
 [
@@ -350,7 +344,7 @@ nullptr
 }
 if
 (
-mData
+mState
 .
 mElementArrayBuffer
 .
@@ -362,7 +356,7 @@ id
 bufferName
 )
 {
-mData
+mState
 .
 mElementArrayBuffer
 .
@@ -396,7 +390,7 @@ getMaxAttribs
 )
 ;
 return
-mData
+mState
 .
 mVertexAttributes
 [
@@ -425,7 +419,7 @@ getMaxAttribs
 )
 )
 ;
-mData
+mState
 .
 mVertexAttributes
 [
@@ -467,7 +461,7 @@ getMaxAttribs
 )
 )
 ;
-mData
+mState
 .
 mVertexAttributes
 [
@@ -497,7 +491,7 @@ if
 enabledState
 )
 {
-mData
+mState
 .
 mMaxEnabledAttribute
 =
@@ -509,7 +503,7 @@ max
 attributeIndex
 +
 1
-mData
+mState
 .
 mMaxEnabledAttribute
 )
@@ -518,7 +512,7 @@ mMaxEnabledAttribute
 else
 if
 (
-mData
+mState
 .
 mMaxEnabledAttribute
 =
@@ -530,7 +524,7 @@ attributeIndex
 {
 while
 (
-mData
+mState
 .
 mMaxEnabledAttribute
 >
@@ -538,11 +532,11 @@ mMaxEnabledAttribute
 &
 &
 !
-mData
+mState
 .
 mVertexAttributes
 [
-mData
+mState
 .
 mMaxEnabledAttribute
 -
@@ -554,7 +548,7 @@ enabled
 {
 -
 -
-mData
+mState
 .
 mMaxEnabledAttribute
 ;
@@ -605,7 +599,7 @@ VertexAttribute
 attrib
 =
 &
-mData
+mState
 .
 mVertexAttributes
 [
@@ -685,7 +679,7 @@ Buffer
 buffer
 )
 {
-mData
+mState
 .
 mElementArrayBuffer
 .

@@ -108,10 +108,7 @@ ProgramImpl
 gl
 :
 :
-Program
-:
-:
-Data
+ProgramState
 (
 )
 )
@@ -180,7 +177,7 @@ const
 gl
 :
 :
-Data
+ContextState
 &
 gl
 :

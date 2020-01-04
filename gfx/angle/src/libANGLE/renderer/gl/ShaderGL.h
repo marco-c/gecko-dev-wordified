@@ -94,10 +94,7 @@ const
 gl
 :
 :
-Shader
-:
-:
-Data
+ShaderState
 &
 data
 const

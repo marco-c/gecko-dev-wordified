@@ -121,6 +121,13 @@ PbufferSurfaceGLX
 :
 PbufferSurfaceGLX
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -148,6 +155,7 @@ fbConfig
 :
 SurfaceGLX
 (
+state
 renderer
 )
 mWidth

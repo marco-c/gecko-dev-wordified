@@ -1173,6 +1173,7 @@ by
 vertex
 shader
 EvqInstanceID
+EvqVertexID
 /
 /
 built
@@ -1553,6 +1554,14 @@ EvqInstanceID
 return
 "
 InstanceID
+"
+;
+case
+EvqVertexID
+:
+return
+"
+VertexID
 "
 ;
 case

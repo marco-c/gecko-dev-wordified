@@ -180,10 +180,7 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
 fboData
 )

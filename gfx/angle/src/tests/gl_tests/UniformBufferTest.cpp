@@ -295,7 +295,7 @@ Intel
 .
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -499,7 +499,7 @@ Intel
 .
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1089,7 +1089,7 @@ Intel
 .
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1561,7 +1561,7 @@ Intel
 .
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1850,7 +1850,7 @@ Intel
 .
 if
 (
-isIntel
+IsIntel
 (
 )
 &

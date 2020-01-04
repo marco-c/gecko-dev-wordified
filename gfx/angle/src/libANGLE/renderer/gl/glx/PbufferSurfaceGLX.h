@@ -111,6 +111,13 @@ public
 :
 PbufferSurfaceGLX
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer

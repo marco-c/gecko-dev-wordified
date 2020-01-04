@@ -1273,7 +1273,7 @@ Intel
 OpenGL
 if
 (
-isIntel
+IsIntel
 (
 )
 &
