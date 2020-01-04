@@ -11161,6 +11161,10 @@ ComputeValue
 (
 aProperty
 aElement
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 aInput
 false
 aOutput
