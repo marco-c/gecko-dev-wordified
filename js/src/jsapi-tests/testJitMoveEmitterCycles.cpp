@@ -1044,6 +1044,22 @@ ION_CODE
 )
 ;
 }
+#
+define
+TRY
+(
+x
+)
+if
+(
+!
+(
+x
+)
+)
+return
+false
+;
 BEGIN_TEST
 (
 testJitMoveEmitterCycles_simple
@@ -1119,6 +1135,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1136,6 +1154,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1146,6 +1165,8 @@ set_d_register_from_double
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1163,6 +1184,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1173,6 +1195,8 @@ set_d_register_from_double
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1190,6 +1214,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1200,6 +1225,8 @@ set_s_register_from_float
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1217,6 +1244,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1227,6 +1255,8 @@ set_s_register_from_float
 6
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1244,6 +1274,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1254,6 +1285,8 @@ set_s_register_from_float
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1270,6 +1303,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -1288,10 +1322,13 @@ don
 t
 explode
 !
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -1521,6 +1558,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1538,6 +1577,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1548,6 +1588,8 @@ set_d_register_from_double
 9
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1565,6 +1607,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1575,6 +1618,8 @@ set_s_register_from_float
 24
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1592,6 +1637,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1602,6 +1648,8 @@ set_d_register_from_double
 3
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1619,6 +1667,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1629,6 +1678,8 @@ set_s_register_from_float
 10
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1646,6 +1697,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1656,6 +1708,8 @@ set_d_register_from_double
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1673,6 +1727,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1683,6 +1738,8 @@ set_s_register_from_float
 8
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1700,6 +1757,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1710,6 +1768,8 @@ set_d_register_from_double
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1727,6 +1787,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1737,6 +1798,8 @@ set_s_register_from_float
 20
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1754,6 +1817,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1764,6 +1828,8 @@ set_s_register_from_float
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1781,6 +1847,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1791,6 +1858,8 @@ set_s_register_from_float
 17
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1808,6 +1877,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1818,6 +1888,8 @@ set_s_register_from_float
 22
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1835,6 +1907,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1845,6 +1918,8 @@ set_s_register_from_float
 31
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1862,6 +1937,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1872,6 +1948,8 @@ set_d_register_from_double
 3
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1889,6 +1967,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1899,6 +1978,8 @@ set_d_register_from_double
 9
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1916,6 +1997,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1926,6 +2008,8 @@ set_s_register_from_float
 31
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1943,6 +2027,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1953,6 +2038,8 @@ set_s_register_from_float
 13
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1970,6 +2057,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1980,6 +2068,8 @@ set_s_register_from_float
 28
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1997,6 +2087,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2007,6 +2098,8 @@ set_s_register_from_float
 31
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2024,6 +2117,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2034,6 +2128,8 @@ set_s_register_from_float
 20
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2051,6 +2147,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2061,6 +2158,8 @@ set_s_register_from_float
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2078,6 +2177,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2088,6 +2188,8 @@ set_d_register_from_double
 7
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2105,6 +2207,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2115,6 +2218,8 @@ set_s_register_from_float
 13
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2132,6 +2237,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2142,6 +2248,8 @@ set_s_register_from_float
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2159,6 +2267,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2169,6 +2278,8 @@ set_s_register_from_float
 29
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2185,6 +2296,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -2203,10 +2315,13 @@ don
 t
 explode
 !
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -2769,6 +2884,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2786,6 +2903,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2796,6 +2914,8 @@ set_d_register_from_double
 10
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2813,6 +2933,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2823,6 +2944,8 @@ set_s_register_from_float
 15
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2840,6 +2963,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2850,6 +2974,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2867,6 +2993,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2877,6 +3004,8 @@ set_s_register_from_float
 30
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2894,6 +3023,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2904,6 +3034,8 @@ set_s_register_from_float
 16
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2921,6 +3053,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2931,6 +3064,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2948,6 +3083,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2958,6 +3094,8 @@ set_s_register_from_float
 17
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2975,6 +3113,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2985,6 +3124,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3002,6 +3143,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3012,6 +3154,8 @@ set_s_register_from_float
 9
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3029,6 +3173,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3039,6 +3184,8 @@ set_s_register_from_float
 1
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3056,6 +3203,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3066,6 +3214,8 @@ set_s_register_from_float
 8
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3083,6 +3233,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3093,6 +3244,8 @@ set_s_register_from_float
 24
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3110,6 +3263,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3120,6 +3274,8 @@ set_s_register_from_float
 19
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3137,6 +3293,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -3147,6 +3304,8 @@ set_d_register_from_double
 5
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3164,6 +3323,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3174,6 +3334,8 @@ set_s_register_from_float
 18
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3191,6 +3353,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3201,6 +3364,8 @@ set_s_register_from_float
 23
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3218,6 +3383,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3228,6 +3394,8 @@ set_s_register_from_float
 27
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3245,6 +3413,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -3255,6 +3424,8 @@ set_d_register_from_double
 3
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3272,6 +3443,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3282,6 +3454,8 @@ set_s_register_from_float
 14
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3299,6 +3473,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3309,6 +3484,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3326,6 +3503,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3336,6 +3514,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3353,6 +3533,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3363,6 +3544,8 @@ set_s_register_from_float
 31
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3380,6 +3563,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3390,6 +3574,8 @@ set_s_register_from_float
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3407,6 +3593,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3417,6 +3604,8 @@ set_s_register_from_float
 24
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3434,6 +3623,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3444,6 +3634,8 @@ set_s_register_from_float
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3461,6 +3653,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3471,6 +3664,8 @@ set_s_register_from_float
 27
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3488,6 +3683,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3498,6 +3694,8 @@ set_s_register_from_float
 14
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3515,6 +3713,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3525,6 +3724,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3541,6 +3742,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -3559,10 +3761,13 @@ don
 t
 explode
 !
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -4193,6 +4398,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4210,6 +4417,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4220,6 +4428,8 @@ set_s_register_from_float
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4237,6 +4447,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4247,6 +4458,8 @@ set_s_register_from_float
 2
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4264,6 +4477,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4274,6 +4488,8 @@ set_s_register_from_float
 19
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4291,6 +4507,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4301,6 +4518,8 @@ set_s_register_from_float
 4
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4318,6 +4537,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4328,6 +4548,8 @@ set_s_register_from_float
 22
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4345,6 +4567,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4355,6 +4578,8 @@ set_s_register_from_float
 5
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4372,6 +4597,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4382,6 +4608,8 @@ set_s_register_from_float
 15
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4399,6 +4627,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4409,6 +4638,8 @@ set_s_register_from_float
 26
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4426,6 +4657,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4436,6 +4668,8 @@ set_s_register_from_float
 13
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4453,6 +4687,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4463,6 +4698,8 @@ set_s_register_from_float
 26
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4480,6 +4717,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4490,6 +4728,8 @@ set_s_register_from_float
 21
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4507,6 +4747,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4517,6 +4758,8 @@ set_s_register_from_float
 23
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4534,6 +4777,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4544,6 +4788,8 @@ set_s_register_from_float
 7
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4561,6 +4807,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4571,6 +4818,8 @@ set_s_register_from_float
 14
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4588,6 +4837,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -4598,6 +4848,8 @@ set_d_register_from_double
 12
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4615,6 +4867,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4625,6 +4878,8 @@ set_s_register_from_float
 5
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4642,6 +4897,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -4652,6 +4908,8 @@ set_d_register_from_double
 12
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4669,6 +4927,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4679,6 +4938,8 @@ set_s_register_from_float
 3
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4696,6 +4957,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4706,6 +4968,8 @@ set_s_register_from_float
 14
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4723,6 +4987,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4733,6 +4998,8 @@ set_s_register_from_float
 28
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4750,6 +5017,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -4760,6 +5028,8 @@ set_d_register_from_double
 12
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4777,6 +5047,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4787,6 +5058,8 @@ set_s_register_from_float
 29
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4804,6 +5077,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4814,6 +5088,8 @@ set_s_register_from_float
 22
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4831,6 +5107,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4841,6 +5118,8 @@ set_s_register_from_float
 19
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4858,6 +5137,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4868,6 +5148,8 @@ set_s_register_from_float
 21
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4885,6 +5167,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4895,6 +5178,8 @@ set_s_register_from_float
 22
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4912,6 +5197,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4922,6 +5208,8 @@ set_s_register_from_float
 29
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4939,6 +5227,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4949,6 +5238,8 @@ set_s_register_from_float
 29
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4965,6 +5256,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -4983,10 +5275,13 @@ don
 t
 explode
 !
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
