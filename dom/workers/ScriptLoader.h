@@ -195,6 +195,8 @@ nsAString
 aScriptURL
 nsContentPolicyType
 aContentPolicyType
+bool
+aDefaultURIEncoding
 nsIChannel
 *
 *
