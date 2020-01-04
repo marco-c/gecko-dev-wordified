@@ -345,6 +345,18 @@ network
 is
 offline
 .
+/
+/
+Controlled
+by
+Switchboard
+experiment
+"
+offline
+-
+cache
+"
+.
 pref
 (
 "
@@ -354,7 +366,7 @@ tabs
 .
 useCache
 "
-true
+false
 )
 ;
 /
