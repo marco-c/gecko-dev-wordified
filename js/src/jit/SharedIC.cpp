@@ -25164,14 +25164,14 @@ call
 .
 masm
 .
-push
+Push
 (
 objReg
 )
 ;
 masm
 .
-push
+Push
 (
 callee
 )
