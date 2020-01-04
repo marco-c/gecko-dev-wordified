@@ -65,8 +65,6 @@ mozilla
 gecko
 .
 telemetry
-.
-pings
 ;
 import
 org
@@ -166,6 +164,7 @@ server
 url
 *
 /
+public
 abstract
 class
 TelemetryPingBuilder
@@ -261,6 +260,7 @@ core
 )
 *
 /
+public
 abstract
 String
 getDocType
@@ -301,6 +301,7 @@ built
 .
 *
 /
+public
 abstract
 String
 [
