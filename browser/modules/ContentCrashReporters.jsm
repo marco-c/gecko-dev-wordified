@@ -345,6 +345,8 @@ browserMap
 set
 (
 browser
+.
+permanentKey
 aSubject
 .
 childID
@@ -371,6 +373,8 @@ browserMap
 get
 (
 aBrowser
+.
+permanentKey
 )
 ;
 let
@@ -534,6 +538,8 @@ browserMap
 get
 (
 browser
+.
+permanentKey
 )
 =
 =
@@ -547,6 +553,8 @@ browserMap
 delete
 (
 browser
+.
+permanentKey
 )
 ;
 browser
@@ -655,6 +663,8 @@ browserMap
 get
 (
 aBrowser
+.
+permanentKey
 )
 )
 ;
