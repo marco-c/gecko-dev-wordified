@@ -1516,6 +1516,7 @@ SDP_USE_IN_BAND_FEC
 SDP_MAX_CODED_AUDIO_BW
 SDP_CBR
 SDP_MAX_FR
+SDP_MAX_PLAYBACK_RATE
 SDP_MAX_FMTP_PARAM
 SDP_FMTP_PARAM_UNKNOWN
 }
@@ -2455,6 +2456,9 @@ fmtp
 params
 *
 /
+uint32_t
+maxplaybackrate
+;
 uint32_t
 maxaveragebitrate
 ;

@@ -148,6 +148,14 @@ int
 mRate
 ;
 /
+/
+OPUS
+-
+specific
+int
+mMaxPlaybackRate
+;
+/
 *
 Default
 constructor
@@ -215,6 +223,10 @@ channels
 mRate
 (
 rate
+)
+mMaxPlaybackRate
+(
+0
 )
 {
 }

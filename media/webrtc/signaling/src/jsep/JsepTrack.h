@@ -618,7 +618,6 @@ void
 ForEachCodec
 (
 UnaryFunction
-&
 func
 )
 {
@@ -654,7 +653,6 @@ void
 SortCodecs
 (
 BinaryPredicate
-&
 sorter
 )
 {
