@@ -493,6 +493,14 @@ cocoa
 '
     
 '
+gtk2
+'
+    
+'
+gtk3
+'
+    
+'
 uikit
 '
     
@@ -505,13 +513,6 @@ qt
 '
   
 }
-or
-CONFIG
-[
-'
-MOZ_WIDGET_GTK
-'
-]
 :
     
 DEFINES
@@ -3274,10 +3275,14 @@ write
 (
 "
 if
+'
+gtk
+'
+in
 CONFIG
 [
 '
-MOZ_WIDGET_GTK
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :
