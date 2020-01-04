@@ -23285,6 +23285,7 @@ Link
 SetIcon
 "
 :
+return
 this
 .
 setIcon
