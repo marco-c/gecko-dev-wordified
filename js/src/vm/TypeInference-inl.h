@@ -202,15 +202,6 @@ include
 "
 vm
 /
-SharedTypedArrayObject
-.
-h
-"
-#
-include
-"
-vm
-/
 StringObject
 .
 h
