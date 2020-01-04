@@ -89,7 +89,7 @@ highlighters
 ;
 const
 {
-ShortLongString
+SimpleStringFront
 }
 =
 require
@@ -2054,7 +2054,7 @@ promise
 resolve
 (
 new
-ShortLongString
+SimpleStringFront
 (
 str
 )
