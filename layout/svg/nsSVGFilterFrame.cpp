@@ -1065,7 +1065,7 @@ this
 ;
 }
 return
-nsSVGFilterFrameBase
+nsSVGContainerFrame
 :
 :
 AttributeChanged
@@ -1118,7 +1118,7 @@ filter
 "
 )
 ;
-nsSVGFilterFrameBase
+nsSVGContainerFrame
 :
 :
 Init

@@ -176,15 +176,11 @@ dom
 /
 namespace
 mozilla
-typedef
-nsSVGContainerFrame
-nsSVGFilterFrameBase
-;
 class
 nsSVGFilterFrame
 :
 public
-nsSVGFilterFrameBase
+nsSVGContainerFrame
 {
 friend
 nsIFrame
@@ -209,7 +205,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGFilterFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
