@@ -988,7 +988,9 @@ this
 TraceRootRange
 (
 trc
-numActualArgs_
+numArgSlots
+(
+)
 +
 isConstructing_
 +
