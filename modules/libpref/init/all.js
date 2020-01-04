@@ -4944,7 +4944,6 @@ allowed
 MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
 MediaCannotInitializePulseAudio
-MediaUnsupportedLibavcodec
 "
 )
 ;
