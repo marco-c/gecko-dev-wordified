@@ -18152,7 +18152,7 @@ nsDisplayListBuilder
 builder
 (
 root
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 TRANSFORM_COMPUTATION
@@ -19565,7 +19565,7 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 EVENT_DELIVERY
@@ -21225,7 +21225,7 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 PAINTING

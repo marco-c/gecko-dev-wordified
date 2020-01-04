@@ -3676,7 +3676,7 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 GENERATE_GLYPH
@@ -4714,7 +4714,7 @@ nsDisplayListBuilder
 nsIFrame
 *
 aReferenceFrame
-Mode
+nsDisplayListBuilderMode
 aMode
 bool
 aBuildCaret
