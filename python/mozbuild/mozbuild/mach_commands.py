@@ -12270,6 +12270,12 @@ hg
 git
 =
 git
+                              
+topsrcdir
+=
+self
+.
+topsrcdir
 )
         
 return

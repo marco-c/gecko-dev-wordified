@@ -6802,6 +6802,7 @@ None
 log
 =
 None
+                 
 cache_dir
 =
 '
@@ -6816,6 +6817,10 @@ None
 skip_cache
 =
 False
+                 
+topsrcdir
+=
+None
 )
 :
         
@@ -6911,6 +6916,12 @@ self
 _skip_cache
 =
 skip_cache
+        
+self
+.
+_topsrcdir
+=
+topsrcdir
         
 try
 :
@@ -7888,6 +7899,11 @@ NUM_REVISIONS_TO_QUERY
 )
         
 ]
+cwd
+=
+self
+.
+_topsrcdir
 )
 .
 splitlines
