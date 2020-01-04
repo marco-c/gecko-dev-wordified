@@ -100,7 +100,9 @@ mozfile
 .
 mozfile
 import
-rmtree
+remove
+as
+mozfileremove
 from
 .
 backend
@@ -2200,7 +2202,7 @@ bug
 )
 .
             
-rmtree
+mozfileremove
 (
 self
 .
