@@ -25358,6 +25358,12 @@ ShutdownEventTracing
 ;
 #
 endif
+gAbsoluteArgv0Path
+.
+Truncate
+(
+)
+;
 /
 /
 Check
