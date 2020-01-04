@@ -4005,10 +4005,6 @@ MarkPreserve3DFramesForDisplayList
 nsIFrame
 *
 aDirtyFrame
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 const
@@ -6238,11 +6234,6 @@ OutOfFlowDisplayDataProperty
 )
 ;
 }
-NS_DECLARE_FRAME_PROPERTY_DELETABLE
-(
-Preserve3DDirtyRectProperty
-nsRect
-)
 nsPresContext
 *
 CurrentPresContext
