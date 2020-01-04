@@ -286,6 +286,8 @@ let
 defs
 =
 [
+require
+(
 "
 .
 /
@@ -293,6 +295,9 @@ tern
 /
 browser
 "
+)
+require
+(
 "
 .
 /
@@ -300,12 +305,8 @@ tern
 /
 ecma5
 "
-]
-.
-map
-(
-require
 )
+]
 ;
 CM_TERN_SCRIPTS
 .
