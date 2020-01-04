@@ -2968,7 +2968,7 @@ the
 current
 compilation
 .
-bool
+void
 invalidate
 (
 JSContext
