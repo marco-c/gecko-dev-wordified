@@ -130,8 +130,10 @@ mozilla
 LogLevel
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gXULTemplateLog
 ;
 #

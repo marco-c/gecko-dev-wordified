@@ -198,9 +198,6 @@ h
 class
 nsIEventTarget
 ;
-struct
-PRLogModuleInfo
-;
 namespace
 mozilla
 {
@@ -371,7 +368,10 @@ sLoggingMode
 #
 endif
 static
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetLoggingModule
 (
@@ -823,8 +823,7 @@ bool
 sFullSynchronousMode
 ;
 static
-PRLogModuleInfo
-*
+LazyLogModule
 sLoggingModule
 ;
 static

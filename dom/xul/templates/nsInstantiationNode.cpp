@@ -124,8 +124,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gXULTemplateLog
 ;
 nsInstantiationNode

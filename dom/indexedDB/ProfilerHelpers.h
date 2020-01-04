@@ -1495,7 +1495,10 @@ MOZ_ASSERT
 aFmt
 )
 ;
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 logModule
 =

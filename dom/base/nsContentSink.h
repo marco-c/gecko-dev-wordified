@@ -302,8 +302,10 @@ mozilla
 ifdef
 DEBUG
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gContentSinkLogModuleInfo
 ;
 #
@@ -333,7 +335,9 @@ _lm
 )
 -
 >
-level
+Level
+(
+)
 )
 &
 (
