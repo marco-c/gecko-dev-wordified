@@ -961,6 +961,9 @@ ClipState
 (
 )
 )
+#
+ifdef
+DEBUG
 mClipUsed
 (
 false
@@ -969,6 +972,8 @@ mRestored
 (
 false
 )
+#
+endif
 {
 }
 }
