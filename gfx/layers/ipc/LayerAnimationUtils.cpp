@@ -314,13 +314,6 @@ sf
 steps
 (
 )
-nsTimingFunction
-:
-:
-Keyword
-:
-:
-Explicit
 )
 )
 ;
