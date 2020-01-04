@@ -162,15 +162,11 @@ using
 namespace
 mozilla
 ;
-typedef
-nsImageFrame
-nsImageControlFrameSuper
-;
 class
 nsImageControlFrame
 :
 public
-nsImageControlFrameSuper
+nsImageFrame
 public
 nsIFormControlFrame
 {
@@ -366,7 +362,7 @@ nsStyleContext
 aContext
 )
 :
-nsImageControlFrameSuper
+nsImageFrame
 (
 aContext
 )
@@ -410,7 +406,7 @@ false
 )
 ;
 }
-nsImageControlFrameSuper
+nsImageFrame
 :
 :
 DestroyFrom
@@ -463,7 +459,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsImageControlFrameSuper
+nsImageFrame
 :
 :
 Init
@@ -516,7 +512,7 @@ nsIFormControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsImageControlFrameSuper
+nsImageFrame
 )
 #
 ifdef
@@ -646,7 +642,7 @@ true
 ;
 }
 return
-nsImageControlFrameSuper
+nsImageFrame
 :
 :
 Reflow
@@ -910,7 +906,7 @@ lastClickPoint
 }
 }
 return
-nsImageControlFrameSuper
+nsImageFrame
 :
 :
 HandleEvent
