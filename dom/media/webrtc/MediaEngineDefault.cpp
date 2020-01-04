@@ -611,6 +611,10 @@ mState
 =
 kReleased
 ;
+mImage
+=
+nullptr
+;
 return
 NS_OK
 ;
@@ -1143,6 +1147,10 @@ i
 mState
 =
 kStopped
+;
+mImage
+=
+nullptr
 ;
 return
 NS_OK
