@@ -297,6 +297,17 @@ IntRect
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+/
+/
+for
+nsIntRegion
+#
+include
+"
 nscore
 .
 h
@@ -305,9 +316,6 @@ h
 /
 for
 nsACString
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

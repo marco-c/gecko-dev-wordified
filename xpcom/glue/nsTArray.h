@@ -268,6 +268,13 @@ h
 "
 #
 include
+"
+nsRegionFwd
+.
+h
+"
+#
+include
 <
 new
 >
@@ -291,9 +298,6 @@ JS
 /
 class
 nsRegion
-;
-class
-nsIntRegion
 ;
 namespace
 mozilla

@@ -394,6 +394,17 @@ etc
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+/
+/
+for
+nsIntRegion
+#
+include
+"
 OGLShaderProgram
 .
 h
@@ -403,9 +414,6 @@ h
 for
 ShaderProgramType
 etc
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

@@ -120,6 +120,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsRegionFwd
+.
+h
+"
 class
 gfxContext
 ;
@@ -134,9 +141,6 @@ nsDisplayListBuilder
 ;
 class
 nsIFrame
-;
-class
-nsIntRegion
 ;
 struct
 nsRect

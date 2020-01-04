@@ -127,6 +127,17 @@ IntRect
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+/
+/
+for
+nsIntRegion
+#
+include
+"
 nsTArray
 .
 h
@@ -135,9 +146,6 @@ h
 /
 for
 nsTArray
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

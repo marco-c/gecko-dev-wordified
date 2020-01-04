@@ -301,6 +301,13 @@ h
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+#
+include
+"
 mozFlushType
 .
 h
@@ -440,9 +447,6 @@ nsIReflowCallback
 ;
 class
 nsIDOMNode
-;
-class
-nsIntRegion
 ;
 class
 nsIStyleSheet

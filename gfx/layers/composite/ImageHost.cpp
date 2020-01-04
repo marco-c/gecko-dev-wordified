@@ -236,9 +236,6 @@ h
 /
 for
 nsAutoCString
-class
-nsIntRegion
-;
 #
 define
 BIAS_TIME_MS
