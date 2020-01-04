@@ -28729,6 +28729,14 @@ clickCount
 =
 =
 2
+&
+&
+mouseContent
+-
+>
+IsInComposedDoc
+(
+)
 )
 {
 /
