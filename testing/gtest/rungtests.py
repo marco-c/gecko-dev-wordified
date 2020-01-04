@@ -147,10 +147,8 @@ run_gtest
 self
 prog
 xre_path
-symbols_path
-=
-None
 cwd
+symbols_path
 =
 None
 )
@@ -404,11 +402,7 @@ mozcrash
 .
 check_for_crashes
 (
-os
-.
-getcwd
-(
-)
+cwd
 symbols_path
 test_name
 =
@@ -1364,17 +1358,15 @@ options
 .
 xre_path
                                   
-symbols_path
-=
 options
 .
-symbols_path
+cwd
                                   
-cwd
+symbols_path
 =
 options
 .
-cwd
+symbols_path
 )
     
 except
