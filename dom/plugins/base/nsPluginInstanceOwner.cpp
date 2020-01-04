@@ -4744,7 +4744,7 @@ size
 chrome
 size
 .
-nsIntRect
+LayoutDeviceIntRect
 tabContentBounds
 ;
 NS_ENSURE_SUCCESS
@@ -4752,7 +4752,7 @@ NS_ENSURE_SUCCESS
 puppetWidget
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 tabContentBounds
 )

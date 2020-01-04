@@ -58811,7 +58811,7 @@ break
 ;
 }
 }
-nsIntRect
+LayoutDeviceIntRect
 r1
 r2
 ;
@@ -59281,7 +59281,7 @@ w1
 w1
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 r1
 )
@@ -59289,7 +59289,7 @@ r1
 w2
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 r2
 )
@@ -59316,7 +59316,15 @@ rects
 )
 "
 r1
+.
+ToUnknownRect
+(
+)
 r2
+.
+ToUnknownRect
+(
+)
 )
 ;
 }

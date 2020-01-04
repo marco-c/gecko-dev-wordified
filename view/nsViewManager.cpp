@@ -3705,13 +3705,13 @@ on
 a
 toplevel
 widget
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 childWidget
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 bounds
 )
@@ -3764,6 +3764,10 @@ i
 bounds
 .
 TopLeft
+(
+)
+.
+ToUnknownPoint
 (
 )
 AppUnitsPerDevPixel

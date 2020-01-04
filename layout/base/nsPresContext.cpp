@@ -17442,7 +17442,7 @@ bool
 HasOverlap
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aOffset1
 const
@@ -17453,7 +17453,7 @@ nsIntRect
 &
 aClipRects1
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aOffset2
 const
@@ -17468,9 +17468,15 @@ aClipRects2
 nsIntPoint
 offsetDelta
 =
+(
 aOffset1
 -
 aOffset2
+)
+.
+ToUnknownPoint
+(
+)
 ;
 for
 (
@@ -17531,9 +17537,11 @@ j
 ]
 )
 )
+{
 return
 true
 ;
+}
 }
 }
 return
@@ -17855,7 +17863,7 @@ j
 )
 continue
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 pluginsToMove
@@ -17866,7 +17874,7 @@ j
 mChild
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 bounds
 )
@@ -17906,10 +17914,6 @@ config
 -
 >
 mBounds
-.
-ToUnknownRect
-(
-)
 .
 TopLeft
 (

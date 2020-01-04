@@ -11478,13 +11478,13 @@ GetWindowClipRegion
 clipRects
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 kid
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 bounds
 )
@@ -11520,6 +11520,10 @@ i
 bounds
 .
 TopLeft
+(
+)
+.
+ToUnknownPoint
 (
 )
 ;
