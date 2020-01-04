@@ -76,6 +76,15 @@ Context
 import
 android
 .
+support
+.
+annotation
+.
+WorkerThread
+;
+import
+android
+.
 util
 .
 Log
@@ -577,6 +586,11 @@ final
 TelemetryUploadAllPingsImmediatelyScheduler
 uploadAllPingsImmediatelyScheduler
 ;
+WorkerThread
+/
+/
+via
+TelemetryJSONFilePingStore
 public
 TelemetryDispatcher
 (
