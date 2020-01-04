@@ -18689,6 +18689,11 @@ ruleArray
 AppendObject
 (
 aStyleRule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 aStyleRule
@@ -18906,6 +18911,11 @@ ruleArray
 AppendObject
 (
 aStyleRule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 aStyleRule

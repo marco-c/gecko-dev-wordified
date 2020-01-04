@@ -137,7 +137,7 @@ h
 #
 include
 "
-StyleRule
+Declaration
 .
 h
 "
@@ -258,7 +258,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 >
 (
 do_QueryObject
@@ -292,7 +292,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 aRule
 )
@@ -311,7 +311,7 @@ mCheckForImportantRules
 aRule
 -
 >
-GetImportantRule
+HasImportantData
 (
 )
 ;

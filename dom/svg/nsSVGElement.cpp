@@ -5736,6 +5736,11 @@ aRuleWalker
 Forward
 (
 mContentStyleRule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 }
@@ -5904,6 +5909,11 @@ aRuleWalker
 Forward
 (
 animContentStyleRule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 }
