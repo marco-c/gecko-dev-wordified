@@ -342,7 +342,7 @@ bug
 sourceName
 :
 /
-highlighter
+highlighters
 \
 .
 css
