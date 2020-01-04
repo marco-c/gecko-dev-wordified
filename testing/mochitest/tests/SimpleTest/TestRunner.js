@@ -3898,7 +3898,7 @@ runtime
 TestRunner
 .
 _timeoutFactor
-=
+>
 =
 1
 )
