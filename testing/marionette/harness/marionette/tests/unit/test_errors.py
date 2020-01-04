@@ -292,17 +292,6 @@ tsecond
 "
 r
 )
-        
-self
-.
-assertIn
-(
-"
-MarionetteException
-:
-"
-r
-)
     
 def
 test_cause_string
