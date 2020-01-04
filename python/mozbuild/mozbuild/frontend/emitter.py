@@ -184,7 +184,7 @@ PreprocessedWebIDLFile
     
 Program
     
-RustRlibLibrary
+RustCrate
     
 SdkFiles
     
@@ -1027,7 +1027,7 @@ isinstance
 lib
 (
 StaticLibrary
-RustRlibLibrary
+RustCrate
 )
 )
 or
@@ -5372,7 +5372,7 @@ rlib
                     
 lib
 =
-RustRlibLibrary
+RustCrate
 (
 context
 libname
