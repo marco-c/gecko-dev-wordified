@@ -2905,10 +2905,6 @@ session_capabilities
 platformName
 '
 ]
-.
-lower
-(
-)
         
 keymap
 =

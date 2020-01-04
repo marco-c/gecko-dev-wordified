@@ -129,7 +129,7 @@ platformName
 =
 =
 '
-DARWIN
+darwin
 '
     
 property

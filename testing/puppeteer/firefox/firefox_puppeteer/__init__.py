@@ -444,10 +444,6 @@ session_capabilities
 platformName
 '
 ]
-.
-lower
-(
-)
     
 use_class_as_property
 (
