@@ -630,6 +630,12 @@ xpcshell
 '
     
 '
+tools
+/
+mercurial
+'
+    
+'
 xpcom
 /
 idl
@@ -944,16 +950,6 @@ py
 tools
 /
 lint
-/
-mach_commands
-.
-py
-'
-    
-'
-tools
-/
-mercurial
 /
 mach_commands
 .
