@@ -5400,7 +5400,7 @@ mClipRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 )
 mColorInterpolation
 (
@@ -5415,7 +5415,7 @@ mFillRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 )
 mPaintOrder
 (

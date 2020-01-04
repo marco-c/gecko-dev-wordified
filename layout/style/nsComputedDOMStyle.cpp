@@ -32728,7 +32728,7 @@ GetFillRule
 StyleFillRule
 :
 :
-EvenOdd
+Evenodd
 ;
 if
 (

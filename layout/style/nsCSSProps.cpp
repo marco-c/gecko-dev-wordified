@@ -11619,14 +11619,14 @@ eCSSKeyword_nonzero
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 }
 {
 eCSSKeyword_evenodd
 StyleFillRule
 :
 :
-EvenOdd
+Evenodd
 }
 {
 eCSSKeyword_UNKNOWN

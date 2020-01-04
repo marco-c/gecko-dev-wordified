@@ -8418,8 +8418,8 @@ Border
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleFillRule
-NonZero
-EvenOdd
+Nonzero
+Evenodd
 )
 DEFINE_ENUM_CLASS_SETTER
 (
@@ -61439,7 +61439,7 @@ mClipRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 )
 ;
 /
@@ -61636,7 +61636,7 @@ mFillRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 )
 ;
 /
