@@ -567,6 +567,9 @@ False
 debugger
 =
 False
+verbose
+=
+False
 )
 :
     
@@ -727,6 +730,9 @@ substs
 build_obj
 .
 substs
+verbose
+=
+verbose
 )
     
 devices
