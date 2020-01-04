@@ -353,12 +353,6 @@ TempAllocPolicy
 >
 class
 GCVector
-:
-public
-JS
-:
-:
-Traceable
 {
 mozilla
 :

@@ -2324,12 +2324,6 @@ public
 :
 struct
 LocationValue
-:
-public
-JS
-:
-:
-Traceable
 {
 LocationValue
 (

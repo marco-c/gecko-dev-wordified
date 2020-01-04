@@ -362,11 +362,6 @@ T
 MinInlineCapacity
 AllocPolicy
 >
-public
-JS
-:
-:
-Traceable
 {
 using
 Base
@@ -469,13 +464,9 @@ TraceableFifo
 =
 delete
 ;
-static
 void
 trace
 (
-TraceableFifo
-*
-tf
 JSTracer
 *
 trc
@@ -490,7 +481,7 @@ i
 ;
 i
 <
-tf
+this
 -
 >
 front_
@@ -513,7 +504,7 @@ trace
 (
 trc
 &
-tf
+this
 -
 >
 front_
@@ -535,7 +526,7 @@ i
 ;
 i
 <
-tf
+this
 -
 >
 rear_
@@ -558,7 +549,7 @@ trace
 (
 trc
 &
-tf
+this
 -
 >
 rear_

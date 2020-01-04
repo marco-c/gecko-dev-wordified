@@ -1049,11 +1049,6 @@ JSONParser
 :
 public
 JSONParserBase
-public
-JS
-:
-:
-Traceable
 {
 private
 :

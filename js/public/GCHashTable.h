@@ -550,11 +550,6 @@ Value
 HashPolicy
 AllocPolicy
 >
-public
-JS
-:
-:
-Traceable
 {
 using
 Base
@@ -2187,11 +2182,6 @@ T
 HashPolicy
 AllocPolicy
 >
-public
-JS
-:
-:
-Traceable
 {
 using
 Base

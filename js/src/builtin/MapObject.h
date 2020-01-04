@@ -213,12 +213,6 @@ is
 /
 class
 HashableValue
-:
-public
-JS
-:
-:
-Traceable
 {
 PreBarrieredValue
 value
@@ -377,13 +371,9 @@ get
 )
 ;
 }
-static
 void
 trace
 (
-HashableValue
-*
-value
 JSTracer
 *
 trc
@@ -393,9 +383,6 @@ TraceEdge
 (
 trc
 &
-value
--
->
 value
 "
 HashableValue

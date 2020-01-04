@@ -1047,12 +1047,6 @@ length_
 ;
 class
 Binding
-:
-public
-JS
-:
-:
-Traceable
 {
 /
 /
@@ -1406,12 +1400,6 @@ environment
 /
 class
 Bindings
-:
-public
-JS
-:
-:
-Traceable
 {
 friend
 class
