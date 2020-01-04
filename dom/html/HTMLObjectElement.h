@@ -203,6 +203,11 @@ NOT_FROM_PARSER
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+NS_IMPL_FROMCONTENT_HTML_WITH_TAG
+(
+HTMLObjectElement
+object
+)
 virtual
 int32_t
 TabIndexDefault
