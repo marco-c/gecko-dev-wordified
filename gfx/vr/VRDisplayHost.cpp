@@ -174,7 +174,7 @@ VRDisplayHost
 :
 VRDisplayHost
 (
-VRDisplayType
+VRDeviceType
 aType
 )
 :

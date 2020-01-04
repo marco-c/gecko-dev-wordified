@@ -592,7 +592,7 @@ aVRCompositor
 :
 VRDisplayHost
 (
-VRDisplayType
+VRDeviceType
 :
 :
 OpenVR

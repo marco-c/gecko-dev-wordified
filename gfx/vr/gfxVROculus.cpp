@@ -1881,7 +1881,7 @@ aSession
 :
 VRDisplayHost
 (
-VRDisplayType
+VRDeviceType
 :
 :
 Oculus

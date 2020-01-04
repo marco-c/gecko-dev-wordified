@@ -341,7 +341,7 @@ protected
 explicit
 VRDisplayHost
 (
-VRDisplayType
+VRDeviceType
 aType
 )
 ;
