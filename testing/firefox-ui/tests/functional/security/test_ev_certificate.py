@@ -434,12 +434,16 @@ self
 .
 identity_popup
 .
+view
+.
+main
+.
 host
 .
 get_attribute
 (
 '
-value
+textContent
 '
 )
                          
