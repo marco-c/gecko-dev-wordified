@@ -148,13 +148,6 @@ h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
