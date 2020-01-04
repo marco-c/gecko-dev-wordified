@@ -8112,10 +8112,15 @@ gif_error
 return
 ;
 }
+MOZ_FALLTHROUGH
+;
 /
 /
-FALL
-THROUGH
+to
+continue
+decoding
+header
+.
 }
 case
 gif_image_header_continue
