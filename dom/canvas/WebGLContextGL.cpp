@@ -6444,6 +6444,9 @@ return
 if
 (
 mCanvasElement
+&
+&
+mCanvasElement
 -
 >
 IsWriteOnly
