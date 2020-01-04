@@ -8228,6 +8228,9 @@ aResult
 break
 ;
 case
+eCSSProperty_align_content
+:
+case
 eCSSProperty_justify_content
 :
 {
