@@ -190,6 +190,13 @@ h
 #
 include
 "
+GeneratedJNIWrappers
+.
+h
+"
+#
+include
+"
 SurfaceTexture
 .
 h
@@ -610,6 +617,9 @@ mSurface
 }
 private
 :
+class
+Listener
+;
 AndroidSurfaceTexture
 (
 )
@@ -656,6 +666,15 @@ Surface
 GlobalRef
 mSurface
 ;
+java
+:
+:
+SurfaceTextureListener
+:
+:
+GlobalRef
+mListener
+;
 GLContext
 *
 mAttachedContext
@@ -664,7 +683,6 @@ ANativeWindow
 *
 mNativeWindow
 ;
-mutable
 Monitor
 mMonitor
 ;
