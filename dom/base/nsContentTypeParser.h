@@ -168,15 +168,7 @@ nsAString
 &
 aResult
 )
-{
-return
-GetParameter
-(
-nullptr
-aResult
-)
 ;
-}
 private
 :
 NS_ConvertUTF16toUTF8
