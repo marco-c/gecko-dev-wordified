@@ -9167,8 +9167,13 @@ allowedToDispatch
 formCtrl
 -
 >
-IsTextControl
+IsTextOrNumberControl
 (
+/
+*
+aExcludePassword
+*
+/
 false
 )
 |

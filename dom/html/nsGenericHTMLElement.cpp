@@ -14020,8 +14020,13 @@ NS_EVENT_STATE_MOZ_READWRITE
 )
 &
 &
-IsTextControl
+IsTextOrNumberControl
 (
+/
+*
+aExcludePassword
+*
+/
 false
 )
 )
