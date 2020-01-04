@@ -527,6 +527,17 @@ aAllocator
 )
 override
 ;
+D3D11TextureData
+*
+AsD3D11TextureData
+(
+)
+override
+{
+return
+this
+;
+}
 ~
 D3D11TextureData
 (
