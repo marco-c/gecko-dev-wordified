@@ -1501,6 +1501,9 @@ profileBeforeChange
 profileChangeTeardown
 "
 "
+quitApplicationGranted
+"
+"
 sendTelemetry
 "
 /
