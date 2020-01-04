@@ -3342,6 +3342,7 @@ Notification
 :
 ShowPersistentNotification
 (
+aCx
 global
 mScope
 aTitle
@@ -5596,6 +5597,7 @@ Notification
 :
 ShowPersistentNotification
 (
+aCx
 mWorkerPrivate
 -
 >
