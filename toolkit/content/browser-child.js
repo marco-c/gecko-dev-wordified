@@ -2233,12 +2233,6 @@ DOMWindowClose
 "
 )
 ;
-aEvent
-.
-preventDefault
-(
-)
-;
 }
 false
 )
