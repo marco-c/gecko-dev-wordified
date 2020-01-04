@@ -4957,11 +4957,7 @@ skin
 /
 identity
 -
-mixed
--
-active
--
-blocked
+secure
 .
 svg
 \
