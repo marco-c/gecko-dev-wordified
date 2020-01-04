@@ -1764,7 +1764,7 @@ NS_IMETHODIMP
 nsCSPContext
 :
 :
-GetPolicy
+GetPolicyString
 (
 uint32_t
 aIndex
@@ -5176,7 +5176,7 @@ rv
 this
 -
 >
-GetPolicy
+GetPolicyString
 (
 aViolatedPolicyIndex
 originalPolicy
