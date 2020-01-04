@@ -2061,7 +2061,7 @@ RB_SWAPPED
 return
 MakeAndAddRef
 <
-ClientTexture
+TextureClient
 >
 (
 data

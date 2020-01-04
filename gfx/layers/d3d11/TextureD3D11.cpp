@@ -2368,7 +2368,7 @@ nullptr
 return
 MakeAndAddRef
 <
-ClientTexture
+TextureClient
 >
 (
 data
@@ -2668,7 +2668,7 @@ nullptr
 return
 MakeAndAddRef
 <
-ClientTexture
+TextureClient
 >
 (
 data
