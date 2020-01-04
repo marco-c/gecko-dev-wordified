@@ -685,6 +685,9 @@ None
 argv
 =
 None
+subcommand
+=
+None
 *
 *
 kwargs
@@ -715,14 +718,6 @@ commands
 "
 "
         
-#
-TODO
-handler
-.
-subcommand_handlers
-are
-ignored
-        
 handler
 =
 self
@@ -730,6 +725,19 @@ self
 command_handlers
 [
 name
+]
+        
+if
+subcommand
+:
+            
+handler
+=
+handler
+.
+subcommand_handlers
+[
+subcommand
 ]
         
 if
