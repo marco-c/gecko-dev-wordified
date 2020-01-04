@@ -112,6 +112,10 @@ JS
 :
 RootedString
 ;
+using
+namespace
+js
+;
 /
 /
 ubi

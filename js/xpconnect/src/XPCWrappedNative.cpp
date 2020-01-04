@@ -5409,12 +5409,6 @@ resolve
 jsclazz
 -
 >
-convert
-&
-&
-jsclazz
--
->
 finalize
 "
 bad
