@@ -58,6 +58,14 @@ prep
 -
 upload
 '
+        
+'
+submit
+-
+to
+-
+balrog
+'
     
 ]
     

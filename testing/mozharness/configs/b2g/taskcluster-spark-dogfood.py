@@ -106,14 +106,6 @@ DOGFOOD
 "
         
 "
-B2G_UPDATE_CHANNEL
-"
-:
-"
-dogfood
-"
-        
-"
 BOWER_FLAGS
 "
 :
