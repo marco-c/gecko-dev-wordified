@@ -225,13 +225,10 @@ true
 }
 OfflineCacheUpdateParent
 (
-const
-mozilla
-:
-:
-OriginAttributes
-&
-aAttrs
+uint32_t
+aAppId
+bool
+aIsInBrowser
 )
 ;
 virtual
