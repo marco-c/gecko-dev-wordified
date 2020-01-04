@@ -36952,7 +36952,7 @@ JS_GetCurrentThread
 *
 A
 JS
-runtime
+context
 always
 has
 an
@@ -36969,7 +36969,7 @@ set
 when
 the
 *
-runtime
+context
 is
 created
 (
@@ -36991,7 +36991,7 @@ engine
 check
 that
 a
-runtime
+context
 (
 or
 anything
@@ -36999,9 +36999,9 @@ contained
 in
 the
 *
-runtime
-:
 context
+:
+runtime
 compartment
 object
 etc
@@ -37056,9 +37056,9 @@ void
 )
 JS_AbortIfWrongThread
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 /

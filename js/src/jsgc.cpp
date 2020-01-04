@@ -37978,9 +37978,12 @@ checkCanCallAPI
 (
 )
 {
-JS_AbortIfWrongThread
+MOZ_RELEASE_ASSERT
+(
+CurrentThreadCanAccessRuntime
 (
 rt
+)
 )
 ;
 /
@@ -40072,7 +40075,7 @@ runtime
 ;
 JS_AbortIfWrongThread
 (
-rt
+cx
 )
 ;
 ScopedJSDeletePtr

@@ -48924,10 +48924,7 @@ jsfnObj
 ;
 JS_AbortIfWrongThread
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 /

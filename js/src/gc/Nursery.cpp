@@ -2358,9 +2358,12 @@ mainThread
 suppressGC
 )
 ;
-JS_AbortIfWrongThread
+MOZ_RELEASE_ASSERT
+(
+CurrentThreadCanAccessRuntime
 (
 rt
+)
 )
 ;
 StoreBuffer

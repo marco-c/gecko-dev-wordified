@@ -11012,10 +11012,7 @@ rval
 {
 JS_AbortIfWrongThread
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 rval
