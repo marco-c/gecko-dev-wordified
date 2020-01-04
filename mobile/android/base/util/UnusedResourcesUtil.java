@@ -330,11 +330,6 @@ R
 .
 raw
 .
-bookmarkdefaults_favicon_marketplace
-R
-.
-raw
-.
 bookmarkdefaults_favicon_support
 R
 .
