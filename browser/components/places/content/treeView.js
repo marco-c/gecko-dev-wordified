@@ -7836,14 +7836,10 @@ PlacesUtils
 .
 containerTypes
 .
-indexOf
+includes
 (
 nodeType
 )
-!
-=
--
-1
 )
 {
 if

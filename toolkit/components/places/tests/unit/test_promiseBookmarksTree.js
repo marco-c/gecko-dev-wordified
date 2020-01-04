@@ -665,16 +665,12 @@ tagsFolderId
 |
 aExcludedGuids
 .
-indexOf
+includes
 (
 childNode
 .
 bookmarkGuid
 )
-!
-=
--
-1
 )
 {
 continue
