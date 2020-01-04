@@ -153,6 +153,8 @@ FrameType
 frame_type
 size_t
 max_payload_len
+uint8_t
+packetization_mode
 )
 ;
 virtual
@@ -453,6 +455,9 @@ packets_
 ;
 FrameType
 frame_type_
+;
+uint8_t
+packetization_mode_
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

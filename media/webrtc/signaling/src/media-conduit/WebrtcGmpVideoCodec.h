@@ -1451,6 +1451,12 @@ mCodecParams
 uint32_t
 mMaxPayloadSize
 ;
+webrtc
+:
+:
+CodecSpecificInfo
+mCodecSpecificInfo
+;
 /
 /
 Protects

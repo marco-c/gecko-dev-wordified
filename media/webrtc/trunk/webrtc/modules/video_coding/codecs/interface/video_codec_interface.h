@@ -431,6 +431,9 @@ single_nalu
 uint8_t
 simulcastIdx
 ;
+uint8_t
+packetizationMode
+;
 }
 ;
 union
