@@ -433,7 +433,7 @@ size
 aDecoder
 -
 >
-GetSize
+Size
 (
 )
 ;

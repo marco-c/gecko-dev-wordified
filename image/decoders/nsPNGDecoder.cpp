@@ -870,7 +870,7 @@ IntRect
 IntPoint
 (
 )
-GetSize
+Size
 (
 )
 )
@@ -1237,7 +1237,7 @@ CreateSurfacePipe
 (
 this
 mNumFrames
-GetSize
+Size
 (
 )
 OutputSize

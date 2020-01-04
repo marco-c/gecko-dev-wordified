@@ -1543,7 +1543,7 @@ this
 mGIFStruct
 .
 images_decoded
-GetSize
+Size
 (
 )
 OutputSize
@@ -1606,7 +1606,7 @@ this
 mGIFStruct
 .
 images_decoded
-GetSize
+Size
 (
 )
 aFrameRect
