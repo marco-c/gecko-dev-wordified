@@ -268,6 +268,10 @@ context
 status
 )
 ;
+mListener
+=
+nullptr
+;
 if
 (
 mObserver
@@ -284,7 +288,7 @@ status
 ;
 mObserver
 =
-0
+nullptr
 ;
 return
 rv
