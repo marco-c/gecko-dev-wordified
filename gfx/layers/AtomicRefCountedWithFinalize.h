@@ -366,10 +366,11 @@ class
 U
 >
 friend
-class
+struct
+mozilla
 :
 :
-RefPtr
+RefPtrTraits
 ;
 template
 <
