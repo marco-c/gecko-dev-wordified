@@ -3034,6 +3034,10 @@ mClipRegion
 configuration
 .
 mBounds
+.
+ToUnknownRect
+(
+)
 configuration
 .
 mVisible

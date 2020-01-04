@@ -2352,7 +2352,13 @@ configuration
 >
 mBounds
 =
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mNextConfigurationBounds
+)
 ;
 configuration
 -

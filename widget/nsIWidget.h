@@ -5928,7 +5928,10 @@ e10s
 specific
 widget
 visibility
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mBounds
 ;
 nsTArray
