@@ -875,13 +875,9 @@ aArgv
 private
 :
 void
-DestroyJSContext
+Destroy
 (
 )
-;
-JSContext
-*
-mContext
 ;
 JS
 :
