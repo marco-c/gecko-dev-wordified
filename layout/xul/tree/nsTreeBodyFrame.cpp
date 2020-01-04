@@ -21461,7 +21461,7 @@ opacity
 imageContext
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -23010,7 +23010,7 @@ opacity
 textContext
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -

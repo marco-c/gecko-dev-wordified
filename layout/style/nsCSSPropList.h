@@ -8604,7 +8604,7 @@ Position
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_DISPLAY
+CSS_PROP_EFFECTS
 (
 opacity
 opacity
@@ -8622,7 +8622,7 @@ VARIANT_HN
 nullptr
 offsetof
 (
-nsStyleDisplay
+nsStyleEffects
 mOpacity
 )
 eStyleAnimType_float
