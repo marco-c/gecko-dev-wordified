@@ -3182,7 +3182,7 @@ void
 MediaFormatReader
 :
 :
-DisableHardwareAcceleration
+DisableHardwareAccelerationInternal
 (
 )
 {
