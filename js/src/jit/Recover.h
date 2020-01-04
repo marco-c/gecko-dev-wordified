@@ -1544,6 +1544,9 @@ private
 bool
 isFloatOperation_
 ;
+uint8_t
+mode_
+;
 public
 :
 RINSTRUCTION_HEADER_
