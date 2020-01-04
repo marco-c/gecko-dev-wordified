@@ -414,7 +414,12 @@ evalscript
 ;
 if
 (
-isFunctionFrame
+script
+(
+)
+-
+>
+isDirectEvalInFunction
 (
 )
 )

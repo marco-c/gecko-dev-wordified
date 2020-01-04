@@ -31670,7 +31670,15 @@ MOZ_ASSERT
 frame
 -
 >
-isFunctionFrame
+isNonEvalFunctionFrame
+(
+)
+|
+|
+frame
+-
+>
+isEvalFrame
 (
 )
 )

@@ -25292,7 +25292,7 @@ if
 (
 i
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 )
@@ -25345,6 +25345,8 @@ fprintf
 stderr
 "
 global
+or
+eval
 frame
 no
 callee

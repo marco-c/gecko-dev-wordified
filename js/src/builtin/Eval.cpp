@@ -3122,13 +3122,8 @@ pc
 JSOP_STRICTSPREADEVAL
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-caller
-.
-isFunctionFrame
-(
-)
 caller
 .
 compartment
@@ -3138,7 +3133,7 @@ compartment
 =
 caller
 .
-callee
+script
 (
 )
 -

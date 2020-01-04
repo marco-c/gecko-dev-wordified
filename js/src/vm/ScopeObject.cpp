@@ -18419,7 +18419,7 @@ if
 (
 frame
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 &
@@ -19816,7 +19816,7 @@ initialFrame
 (
 )
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 !
