@@ -54343,6 +54343,17 @@ enabled
 2
 -
 autodetect
+/
+/
+Autodetection
+is
+currently
+only
+supported
+on
+Windows
+and
+GTK3
 #
 if
 defined
