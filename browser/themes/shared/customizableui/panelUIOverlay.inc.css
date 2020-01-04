@@ -8953,6 +8953,7 @@ widget
 overflow
 -
 list
+>
 .
 toolbarbutton
 -
@@ -8971,12 +8972,8 @@ widget
 overflow
 -
 list
-.
+>
 toolbaritem
--
-combined
--
-buttons
 :
 not
 (
