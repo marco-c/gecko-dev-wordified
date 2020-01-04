@@ -1513,9 +1513,6 @@ _marionette_weakref
 (
 )
         
-b2g_pid
-=
-0
 logger
 =
 logger
