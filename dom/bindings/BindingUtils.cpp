@@ -1213,7 +1213,7 @@ void
 ErrorResult
 :
 :
-ReportErrorWithMessage
+SetPendingExceptionWithMessage
 (
 JSContext
 *
@@ -1224,7 +1224,7 @@ MOZ_ASSERT
 (
 mMessage
 "
-ReportErrorWithMessage
+SetPendingExceptionWithMessage
 (
 )
 can
@@ -1563,7 +1563,7 @@ void
 ErrorResult
 :
 :
-ReportJSException
+SetPendingJSException
 (
 JSContext
 *
@@ -2033,7 +2033,7 @@ void
 ErrorResult
 :
 :
-ReportDOMException
+SetPendingDOMException
 (
 JSContext
 *
@@ -2044,7 +2044,7 @@ MOZ_ASSERT
 (
 mDOMExceptionInfo
 "
-ReportDOMException
+SetPendingDOMException
 (
 )
 can
@@ -2222,7 +2222,7 @@ void
 ErrorResult
 :
 :
-ReportGenericError
+SetPendingGenericErrorException
 (
 JSContext
 *
@@ -2894,7 +2894,7 @@ IsErrorWithMessage
 )
 )
 {
-ReportErrorWithMessage
+SetPendingExceptionWithMessage
 (
 cx
 )
@@ -2909,7 +2909,7 @@ IsJSException
 )
 )
 {
-ReportJSException
+SetPendingJSException
 (
 cx
 )
@@ -2924,7 +2924,7 @@ IsDOMException
 )
 )
 {
-ReportDOMException
+SetPendingDOMException
 (
 cx
 )
@@ -2932,7 +2932,7 @@ cx
 return
 ;
 }
-ReportGenericError
+SetPendingGenericErrorException
 (
 cx
 )
