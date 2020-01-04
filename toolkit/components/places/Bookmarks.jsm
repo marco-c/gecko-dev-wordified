@@ -8331,7 +8331,7 @@ returns
 sorted
 children
 .
-return
+if
 (
 i
 =
@@ -8346,9 +8346,10 @@ j
 -
 1
 )
-?
+return
 0
-:
+;
+return
 (
 i
 !
