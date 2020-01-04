@@ -5417,13 +5417,13 @@ aFlags
 gfxPrefs
 :
 :
-LayersTileInitialPoolSize
+LayersTileMaxPoolSize
 (
 )
 gfxPrefs
 :
 :
-LayersTilePoolIncrementSize
+LayersTileShrinkPoolTimeout
 (
 )
 this
@@ -5472,7 +5472,7 @@ i
 ]
 -
 >
-Clear
+ShrinkToMinimumSize
 (
 )
 ;
