@@ -335,6 +335,12 @@ net
 :
 LoadInfo
 ;
+using
+mozilla
+:
+:
+Move
+;
 /
 /
 -
@@ -3350,6 +3356,9 @@ IsEmpty
 )
 )
 {
+mozilla
+:
+:
 ReleasingTimerHolder
 :
 :
