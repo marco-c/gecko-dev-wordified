@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-no
--
-threads
 load
 (
 libdir

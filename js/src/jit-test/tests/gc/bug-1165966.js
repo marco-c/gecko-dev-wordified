@@ -9,12 +9,6 @@ test
 -
 no
 -
-threads
-;
--
--
-no
--
 ion
 load
 (
