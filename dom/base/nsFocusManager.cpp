@@ -7662,7 +7662,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-FocusedWindowedPluginWhileFullScreen
+FocusedWindowedPluginWhileFullscreen
 "
 )
 ;
