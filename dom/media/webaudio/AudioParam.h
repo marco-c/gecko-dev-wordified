@@ -790,11 +790,6 @@ AppendElement
 )
 ;
 }
-void
-DisconnectFromGraphAndDestroyStream
-(
-)
-;
 /
 /
 May
@@ -999,6 +994,11 @@ const
 AudioTimelineEvent
 &
 aEvent
+)
+;
+void
+DisconnectFromGraphAndDestroyStream
+(
 )
 ;
 nsCycleCollectingAutoRefCnt
