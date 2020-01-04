@@ -4592,10 +4592,8 @@ obj
 )
 ;
 }
+static
 bool
-js
-:
-:
 NewObjectWithTaggedProtoIsCachable
 (
 ExclusiveContext
