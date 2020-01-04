@@ -1359,6 +1359,11 @@ cursor
 offset
 )
 {
+*
+idp
+=
+NULL
+;
 return
 PR_TRUE
 ;
