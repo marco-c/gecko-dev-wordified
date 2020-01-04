@@ -2436,6 +2436,15 @@ TraceLoggerEvent
 event
 )
 {
+MOZ_ASSERT
+(
+event
+.
+hasPayload
+(
+)
+)
+;
 return
 traceLoggerEvents_
 .
