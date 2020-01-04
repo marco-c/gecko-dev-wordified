@@ -1386,8 +1386,11 @@ Point
 transformedPoint
 =
 inverse
-*
+.
+TransformPoint
+(
 aPoint
+)
 ;
 /
 /
@@ -1592,8 +1595,11 @@ Point
 transformedPoint
 =
 inverse
-*
+.
+TransformPoint
+(
 aPoint
+)
 ;
 /
 /

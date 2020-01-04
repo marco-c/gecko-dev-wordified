@@ -1651,8 +1651,11 @@ aPoint
 {
 return
 aTransform
-*
+.
+TransformPoint
+(
 aPoint
+)
 ;
 }
 template
