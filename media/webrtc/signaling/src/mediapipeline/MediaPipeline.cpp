@@ -11237,7 +11237,7 @@ AddAudioTrack
 (
 track_id_
 track_rate_
-current_ticks
+0
 static_cast
 <
 AudioSegment
@@ -11283,7 +11283,7 @@ AsSourceStream
 AddTrack
 (
 track_id_
-current_ticks
+0
 segment_
 .
 forget
