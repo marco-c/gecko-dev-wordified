@@ -327,6 +327,14 @@ CancelCallbacks
 (
 )
 ;
+void
+AdjustFastSeekIfNeeded
+(
+MediaData
+*
+aSample
+)
+;
 /
 *
 *
