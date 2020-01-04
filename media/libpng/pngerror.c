@@ -325,6 +325,7 @@ PNG_FLAG_STRIP_ERROR_TEXT
 !
 =
 0
+)
 {
 if
 (
