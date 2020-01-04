@@ -195,11 +195,6 @@ nsIContentChild
 class
 PBlobStreamChild
 ;
-enum
-BlobDirState
-:
-uint32_t
-;
 class
 BlobChild
 final
@@ -516,8 +511,6 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
-BlobDirState
-aDirState
 )
 ;
 /
