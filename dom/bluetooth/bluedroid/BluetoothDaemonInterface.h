@@ -219,9 +219,6 @@ CleanupResultHandler
 class
 InitResultHandler
 ;
-class
-StartDaemonTask
-;
 friend
 class
 CleanupResultHandler
@@ -229,10 +226,6 @@ CleanupResultHandler
 friend
 class
 InitResultHandler
-;
-friend
-class
-StartDaemonTask
 ;
 static
 BluetoothDaemonInterface
