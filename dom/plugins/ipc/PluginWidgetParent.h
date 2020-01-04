@@ -156,6 +156,12 @@ RecvCreate
 nsresult
 *
 aResult
+uint64_t
+*
+aScrollCaptureId
+uintptr_t
+*
+aPluginInstanceId
 )
 override
 ;
