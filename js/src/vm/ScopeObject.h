@@ -6302,7 +6302,7 @@ bindings
 induce
 a
 runtime
-assignment
+error
 when
 assigned
 to
