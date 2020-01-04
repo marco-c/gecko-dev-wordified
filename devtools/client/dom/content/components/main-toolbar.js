@@ -307,6 +307,8 @@ object
 PropTypes
 .
 any
+.
+isRequired
 dispatch
 :
 PropTypes
@@ -382,7 +384,7 @@ className
 :
 "
 btn
-copy
+refresh
 "
 onClick
 :
