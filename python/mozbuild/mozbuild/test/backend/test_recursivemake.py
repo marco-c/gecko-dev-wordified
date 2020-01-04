@@ -1856,6 +1856,18 @@ DEPTH
 '
             
 '
+topobjdir
+:
+=
+%
+s
+'
+%
+env
+.
+topobjdir
+            
+'
 topsrcdir
 :
 =
@@ -2039,7 +2051,7 @@ len
 (
 lines
 )
-9
+10
 )
         
 self

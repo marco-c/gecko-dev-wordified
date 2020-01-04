@@ -1487,6 +1487,12 @@ obj
 .
 topsrcdir
             
+topobjdir
+=
+obj
+.
+topobjdir
+            
 srcdir
 =
 srcdir
