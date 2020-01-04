@@ -8599,7 +8599,10 @@ localHandlerApp
 endif
 /
 /
-MOZ_WIDGET_GTK3
+MOZ_WIDGET_GTK
+=
+=
+3
 }
 this
 .

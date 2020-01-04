@@ -1489,7 +1489,10 @@ sonameList
 endif
 /
 /
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 /
 *
 nsPluginsDir
@@ -2063,7 +2066,10 @@ outLibrary
 endif
 /
 /
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 #
 ifdef
 DEBUG

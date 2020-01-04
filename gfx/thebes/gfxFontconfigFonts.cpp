@@ -13764,7 +13764,7 @@ aPattern
 endif
 /
 /
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 ifdef
 USE_SKIA
