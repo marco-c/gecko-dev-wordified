@@ -388,7 +388,7 @@ FlingOverScrollerAnimation
 #
 else
 class
-FlingAnimation
+GenericFlingAnimation
 ;
 #
 endif
@@ -6503,7 +6503,7 @@ FlingOverScrollerAnimation
 else
 friend
 class
-FlingAnimation
+GenericFlingAnimation
 ;
 #
 endif
