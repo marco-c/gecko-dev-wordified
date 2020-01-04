@@ -3255,6 +3255,14 @@ lir
 )
 ;
 void
+visitWasmBoundsCheck
+(
+LWasmBoundsCheck
+*
+ins
+)
+;
+void
 visitRecompileCheck
 (
 LRecompileCheck

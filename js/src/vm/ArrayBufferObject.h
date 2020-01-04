@@ -2244,6 +2244,8 @@ ArrayBufferObject
 *
 >
 buffer
+bool
+needGuard
 )
 ;
 uint32_t

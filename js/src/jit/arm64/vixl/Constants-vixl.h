@@ -1949,7 +1949,13 @@ NonZero
 AboveOrEqual
 =
 2
+CarrySet
+=
+2
 Below
+=
+3
+CarryClear
 =
 3
 Signed

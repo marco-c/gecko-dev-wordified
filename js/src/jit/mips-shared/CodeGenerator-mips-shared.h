@@ -1379,14 +1379,6 @@ ins
 )
 ;
 void
-visitWasmBoundsCheck
-(
-LWasmBoundsCheck
-*
-ins
-)
-;
-void
 visitWasmLoad
 (
 LWasmLoad
