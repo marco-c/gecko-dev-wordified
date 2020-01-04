@@ -3504,6 +3504,17 @@ flush
 ;
 if
 (
+other
+.
+oom
+(
+)
+)
+return
+false
+;
+if
+(
 !
 AssemblerShared
 :
