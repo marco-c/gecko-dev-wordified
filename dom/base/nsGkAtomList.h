@@ -2497,6 +2497,13 @@ disablehistory
 )
 GK_ATOM
 (
+disablefullscreen
+"
+disablefullscreen
+"
+)
+GK_ATOM
+(
 display
 "
 display
