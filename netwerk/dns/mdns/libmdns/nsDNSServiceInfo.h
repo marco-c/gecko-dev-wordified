@@ -174,6 +174,9 @@ private
 nsCString
 mHost
 ;
+nsCString
+mAddress
+;
 uint16_t
 mPort
 =
@@ -196,6 +199,11 @@ mAttributes
 ;
 bool
 mIsHostSet
+=
+false
+;
+bool
+mIsAddressSet
 =
 false
 ;
