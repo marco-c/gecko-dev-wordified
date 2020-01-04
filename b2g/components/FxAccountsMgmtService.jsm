@@ -683,7 +683,7 @@ getSystemPrincipal
 let
 audience
 =
-msg
+data
 .
 audience
 |
