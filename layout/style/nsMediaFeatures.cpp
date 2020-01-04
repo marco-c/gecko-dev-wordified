@@ -202,6 +202,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla
