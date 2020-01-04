@@ -264,6 +264,16 @@ much
 space
 .
 *
+Pings
+should
+be
+removed
+from
+oldest
+to
+newest
+.
+*
 /
 void
 maybePrunePings
