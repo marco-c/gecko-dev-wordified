@@ -5035,10 +5035,12 @@ iii
 var
 next
 =
+callFunction
+(
 iterator
 .
 next
-(
+iterator
 )
 ;
 if
