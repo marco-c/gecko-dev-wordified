@@ -4379,11 +4379,6 @@ SurfaceFormat
 aFormat
 )
 {
-MOZ_ASSERT
-(
-aData
-)
-;
 if
 (
 aSize
@@ -4406,6 +4401,11 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+aData
+)
+;
 RefPtr
 <
 SourceSurfaceRawData
