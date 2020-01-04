@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -120,7 +125,6 @@ for
 (
 let
 [
-key
 value
 ]
 of

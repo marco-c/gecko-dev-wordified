@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -765,6 +770,9 @@ D
 >
 E
 '
+"
++
+"
 node
 .
 "
@@ -862,6 +870,9 @@ E
 >
 F
 '
+"
++
+"
 node
 .
 "
@@ -952,6 +963,9 @@ were
 calculated
 for
 the
+"
++
+"
 '
 A
 >
@@ -1496,6 +1510,9 @@ the
 correct
 number
 of
+"
++
+"
 youngestFrameSamples
 .
 "

@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -275,6 +280,9 @@ between
 9999
 for
 special
+"
++
+"
 categories
 .
 "

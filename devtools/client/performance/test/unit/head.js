@@ -32,6 +32,20 @@ use
 strict
 "
 ;
+/
+*
+exported
+Cc
+Ci
+Cu
+Cr
+Services
+console
+PLATFORM_DATA_PREF
+getFrameNodePath
+synthesizeProfileForTest
+*
+/
 var
 {
 classes
@@ -173,7 +187,7 @@ root
 calls
 ;
 let
-node
+foundNode
 ;
 for
 (
@@ -190,7 +204,7 @@ split
 )
 )
 {
-node
+foundNode
 =
 calls
 .
@@ -212,7 +226,7 @@ key
 if
 (
 !
-node
+foundNode
 )
 {
 break
@@ -226,7 +240,7 @@ calls
 ;
 }
 return
-node
+foundNode
 ;
 }
 /

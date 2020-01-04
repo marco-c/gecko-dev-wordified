@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *
@@ -775,6 +780,8 @@ column
 categoryData
 .
 abbrev
+/
+/
 isContent
 port
 [
