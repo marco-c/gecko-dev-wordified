@@ -3885,8 +3885,6 @@ extensions
 /
 loop
 /
-chrome
-/
 test
 /
 mochitest
@@ -4180,16 +4178,6 @@ t
 prompt
 about
 e10s
-user_pref
-(
-"
-browser
-.
-displayedE10SNotice
-"
-5
-)
-;
 user_pref
 (
 "
