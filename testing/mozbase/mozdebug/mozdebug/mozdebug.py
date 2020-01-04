@@ -783,6 +783,11 @@ find_executable
 debugger
 )
     
+if
+not
+debuggerPath
+:
+        
 #
 windbg
 is
@@ -798,7 +803,7 @@ and
 it
 '
 s
-    
+        
 #
 entirely
 possible
@@ -813,7 +818,7 @@ the
 install
 location
 to
-    
+        
 #
 PATH
 so
@@ -831,7 +836,7 @@ to
 locate
 it
 .
-    
+        
 #
 Just
 try
@@ -848,11 +853,8 @@ location
 s
 )
 .
-    
+        
 if
-not
-debuggerPath
-and
 debugger
 =
 =
@@ -862,7 +864,7 @@ windbg
 exe
 '
 :
-        
+            
 for
 candidate
 in
@@ -870,7 +872,7 @@ _windbg_installation_paths
 (
 )
 :
-            
+                
 if
 os
 .
@@ -881,12 +883,30 @@ exists
 candidate
 )
 :
-                
+                    
 debuggerPath
 =
 candidate
-                
+                    
 break
+        
+else
+:
+            
+if
+os
+.
+path
+.
+exists
+(
+debugger
+)
+:
+                
+debuggerPath
+=
+debugger
     
 if
 not
