@@ -163,11 +163,6 @@ suppress
 )
 ;
 Handler
-getInputConnectionHandler
-(
-)
-;
-boolean
 setInputConnectionHandler
 (
 Handler
