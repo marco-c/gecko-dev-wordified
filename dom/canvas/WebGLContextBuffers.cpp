@@ -2667,6 +2667,15 @@ mBoundTransformFeedback
 mGenericBufferBinding
 )
 ;
+if
+(
+!
+mBoundTransformFeedback
+-
+>
+mIsActive
+)
+{
 for
 (
 auto
@@ -2686,6 +2695,7 @@ binding
 mBufferBinding
 )
 ;
+}
 }
 for
 (
