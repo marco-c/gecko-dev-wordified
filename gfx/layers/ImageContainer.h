@@ -3078,7 +3078,6 @@ uint64_t
 GetAsyncContainerID
 (
 )
-const
 ;
 /
 *
@@ -3788,6 +3787,13 @@ function
 void
 EnsureActiveImage
 (
+)
+;
+void
+EnsureImageClient
+(
+bool
+aCreate
 )
 ;
 void
