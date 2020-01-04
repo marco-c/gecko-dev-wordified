@@ -1303,13 +1303,6 @@ masm
 .
 Push
 (
-ICTailCallReg
-)
-;
-masm
-.
-Push
-(
 ICStubReg
 )
 ;
@@ -1511,13 +1504,6 @@ masm
 Pop
 (
 ICStubReg
-)
-;
-masm
-.
-Pop
-(
-ICTailCallReg
 )
 ;
 }
