@@ -4902,15 +4902,12 @@ root_mk
 add_statement
 (
 '
-(
-call
-include_deps
+include
 root
 -
 deps
 .
 mk
-)
 '
 )
         
