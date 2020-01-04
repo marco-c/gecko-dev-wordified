@@ -85,9 +85,6 @@ linux
 "
 openbsd
 "
-"
-gonk
-"
 ]
 ;
 let

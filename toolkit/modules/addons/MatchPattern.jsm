@@ -180,9 +180,6 @@ file
 ftp
 "
 "
-app
-"
-"
 data
 "
 ]
