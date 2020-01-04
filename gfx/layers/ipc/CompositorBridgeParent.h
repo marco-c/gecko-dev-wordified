@@ -1005,11 +1005,12 @@ mNeedsComposite
 int32_t
 mVsyncNotificationsSkipped
 ;
-RefPtr
-<
-CompositorVsyncDispatcher
->
-mCompositorVsyncDispatcher
+widget
+:
+:
+CompositorWidget
+*
+mWidget
 ;
 RefPtr
 <

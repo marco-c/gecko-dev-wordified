@@ -416,12 +416,12 @@ EndBackBufferDrawing
 )
 override
 ;
-already_AddRefed
-<
-CompositorVsyncDispatcher
->
-GetCompositorVsyncDispatcher
+void
+ObserveVsync
 (
+VsyncObserver
+*
+aObserver
 )
 override
 ;

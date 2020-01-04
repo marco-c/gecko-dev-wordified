@@ -272,12 +272,12 @@ GetComposer2D
 override
 ;
 virtual
-already_AddRefed
-<
-CompositorVsyncDispatcher
->
-GetCompositorVsyncDispatcher
+void
+ObserveVsync
 (
+VsyncObserver
+*
+aObserver
 )
 override
 ;
