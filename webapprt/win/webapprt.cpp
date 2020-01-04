@@ -209,6 +209,13 @@ AppData
 .
 h
 "
+#
+include
+"
+buildid
+.
+h
+"
 using
 namespace
 mozilla
