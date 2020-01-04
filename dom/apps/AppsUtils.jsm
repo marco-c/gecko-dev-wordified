@@ -3339,7 +3339,7 @@ contentType
 =
 netutil
 .
-parseContentType
+parseResponseContentType
 (
 aContentType
 charset

@@ -8572,7 +8572,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-ParseContentType
+ParseResponseContentType
 (
 const
 nsACString
@@ -9760,13 +9760,13 @@ aIOService
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsIInterfaceRequestor
 >
 mCallbacks
 ;
-RefPtr
+nsRefPtr
 <
 nsIOService
 >
@@ -10292,7 +10292,7 @@ nsICancelable
 >
 cancelable
 ;
-RefPtr
+nsRefPtr
 <
 IOServiceProxyCallback
 >
@@ -10462,7 +10462,7 @@ if
 observerService
 )
 {
-RefPtr
+nsRefPtr
 <
 nsAppOfflineInfo
 >

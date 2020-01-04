@@ -2413,7 +2413,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 LoadContext
 >
@@ -4367,7 +4367,7 @@ rv
 util
 -
 >
-ParseContentType
+ParseResponseContentType
 (
 rawContentType
 charset
