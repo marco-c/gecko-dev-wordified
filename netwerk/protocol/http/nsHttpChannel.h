@@ -2492,6 +2492,11 @@ SetLoadGroupUserAgentOverride
 (
 )
 ;
+void
+SetDoNotTrack
+(
+)
+;
 private
 :
 nsCOMPtr
