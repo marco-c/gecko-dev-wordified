@@ -1349,3 +1349,8 @@ waitForConsole
 }
 )
 ;
+add_task
+(
+forceGC
+)
+;

@@ -1185,3 +1185,8 @@ preferences
 }
 )
 ;
+add_task
+(
+forceGC
+)
+;

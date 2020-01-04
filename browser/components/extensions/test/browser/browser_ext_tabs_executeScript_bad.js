@@ -793,3 +793,8 @@ executeScript
 |
 callbacks
 .
+add_task
+(
+forceGC
+)
+;
