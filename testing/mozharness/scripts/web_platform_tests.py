@@ -1475,6 +1475,10 @@ log_obj
 self
 .
 log_obj
+                                        
+log_compact
+=
+True
 )
         
 env

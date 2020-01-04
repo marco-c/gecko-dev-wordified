@@ -278,6 +278,18 @@ suite_category
 None
 )
         
+tbpl_compact
+=
+kwargs
+.
+pop
+(
+"
+log_compact
+"
+False
+)
+        
 super
 (
 StructuredOutputParser
@@ -309,6 +321,9 @@ formatters
 .
 TbplFormatter
 (
+compact
+=
+tbpl_compact
 )
         
 self
@@ -636,21 +651,32 @@ upper
 )
 )
         
-self
-.
-log
-(
+log_data
+=
 self
 .
 formatter
 (
 data
 )
+        
+if
+log_data
+is
+not
+None
+:
+            
+self
+.
+log
+(
+log_data
 level
 =
 level
 )
-        
+            
 self
 .
 update_levels
