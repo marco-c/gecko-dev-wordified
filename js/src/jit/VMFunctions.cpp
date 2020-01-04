@@ -1253,6 +1253,11 @@ enclosingScope
 (
 )
 ;
+MOZ_ASSERT
+(
+obj
+)
+;
 return
 obj
 ;
