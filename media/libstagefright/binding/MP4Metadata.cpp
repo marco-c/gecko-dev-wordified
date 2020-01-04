@@ -663,7 +663,7 @@ data
 source
 .
 static
-bool
+int32_t
 try_rust
 (
 const
