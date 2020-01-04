@@ -673,6 +673,7 @@ exit
 bool
 containsFunctionPC
 (
+const
 void
 *
 pc
@@ -702,6 +703,7 @@ functionCodeLength_
 bool
 containsCodePC
 (
+const
 void
 *
 pc

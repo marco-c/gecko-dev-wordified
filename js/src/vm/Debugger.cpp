@@ -27650,7 +27650,7 @@ popFront
 {
 auto
 &
-wasmInstances
+instanceObjects
 =
 r
 .
@@ -27666,14 +27666,14 @@ compartment
 >
 wasm
 .
-instances
+instanceObjects
 (
 )
 ;
 if
 (
 !
-wasmInstances
+instanceObjects
 .
 initialized
 (
@@ -27686,7 +27686,7 @@ for
 auto
 i
 =
-wasmInstances
+instanceObjects
 .
 all
 (

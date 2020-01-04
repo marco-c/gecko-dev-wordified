@@ -5987,7 +5987,7 @@ MOZ_ASSERT
 !
 wasm
 .
-instances
+instanceObjects
 (
 )
 .
@@ -5998,7 +5998,7 @@ initialized
 |
 wasm
 .
-instances
+instanceObjects
 (
 )
 .
