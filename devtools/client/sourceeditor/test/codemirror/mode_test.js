@@ -1834,8 +1834,6 @@ i
 =
 =
 diffAt
-*
-2
 ?
 "
 style

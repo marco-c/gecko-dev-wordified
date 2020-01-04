@@ -255,7 +255,7 @@ off
 "
 swapDoc
 "
-updateInViewport
+onChange
 )
 ;
 }
@@ -341,7 +341,7 @@ on
 "
 swapDoc
 "
-updateInViewport
+onChange
 )
 ;
 }
