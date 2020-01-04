@@ -4749,7 +4749,7 @@ nsresult
 PromoteInlineRange
 (
 nsRange
-&
+*
 aRange
 )
 ;
@@ -4857,8 +4857,8 @@ aNode
 bool
 IsAtFrontOfNode
 (
-nsINode
-&
+nsIDOMNode
+*
 aNode
 int32_t
 aOffset
@@ -4867,8 +4867,8 @@ aOffset
 bool
 IsAtEndOfNode
 (
-nsINode
-&
+nsIDOMNode
+*
 aNode
 int32_t
 aOffset
