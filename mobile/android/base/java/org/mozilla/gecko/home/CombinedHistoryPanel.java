@@ -430,6 +430,21 @@ mozilla
 .
 gecko
 .
+home
+.
+CombinedHistoryPanel
+.
+OnPanelLevelChangeListener
+.
+PanelLevel
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 restrictions
 .
 Restrictions
@@ -641,8 +656,6 @@ CursorLoaderCallbacks
 mCursorLoaderCallbacks
 ;
 private
-OnPanelLevelChangeListener
-.
 PanelLevel
 mPanelLevel
 ;
@@ -951,8 +964,6 @@ null
 {
 mPanelLevel
 =
-OnPanelLevelChangeListener
-.
 PanelLevel
 .
 PARENT
@@ -965,8 +976,6 @@ setAdapter
 mPanelLevel
 =
 =
-OnPanelLevelChangeListener
-.
 PanelLevel
 .
 PARENT
@@ -1127,8 +1136,6 @@ if
 mPanelLevel
 =
 =
-OnPanelLevelChangeListener
-.
 PanelLevel
 .
 PARENT
