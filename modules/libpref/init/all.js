@@ -25535,7 +25535,9 @@ support
 for
 GeometryUtils
 .
-getBoxQuads
+convert
+*
+FromNode
 enabled
 ?
 #
