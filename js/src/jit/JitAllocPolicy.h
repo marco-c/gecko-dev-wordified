@@ -913,7 +913,9 @@ TempAllocator
 Fallible
 view
 )
-noexcept
+throw
+(
+)
 {
 return
 view
