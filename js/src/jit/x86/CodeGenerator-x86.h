@@ -572,6 +572,14 @@ LUDivOrModI64
 lir
 )
 ;
+void
+visitAsmSelectI64
+(
+LAsmSelectI64
+*
+lir
+)
+;
 private
 :
 void
