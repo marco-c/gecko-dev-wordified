@@ -164,12 +164,6 @@ WebGLVertexArrayGL
 (
 )
 ;
-#
-if
-defined
-(
-XP_LINUX
-)
 /
 /
 Bug
@@ -193,7 +187,7 @@ give
 reasonable
 answers
 for
-IsRenderbuffer
+IsVertexArray
 maybe
 others
 .
@@ -214,8 +208,6 @@ ourselves
 bool
 mIsVAO
 ;
-#
-endif
 }
 ;
 }
