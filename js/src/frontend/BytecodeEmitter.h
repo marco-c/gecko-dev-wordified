@@ -4554,6 +4554,17 @@ flav
 ;
 MOZ_MUST_USE
 bool
+emitConditionallyExecutedDestructuringLHS
+(
+ParseNode
+*
+target
+DestructuringFlavor
+flav
+)
+;
+MOZ_MUST_USE
+bool
 emitDestructuringOps
 (
 ParseNode
