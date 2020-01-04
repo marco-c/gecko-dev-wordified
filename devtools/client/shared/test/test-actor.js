@@ -4620,6 +4620,13 @@ node
 children
 .
 length
+numNodes
+:
+node
+.
+childNodes
+.
+length
 attributes
 :
 [
