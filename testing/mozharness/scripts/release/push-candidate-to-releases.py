@@ -891,6 +891,20 @@ contrib
 .
 *
 "
+                
+r
+"
+^
+.
+*
+/
+beetmover
+-
+checksums
+/
+.
+*
+"
             
 ]
     
