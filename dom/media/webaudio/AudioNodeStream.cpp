@@ -3239,9 +3239,7 @@ ScheduleCheckForInactive
 }
 if
 (
-mDisabledTrackIDs
-.
-Contains
+GetDisabledTrackMode
 (
 static_cast
 <
@@ -3251,6 +3249,12 @@ TrackID
 AUDIO_TRACK
 )
 )
+!
+=
+DisabledTrackMode
+:
+:
+ENABLED
 )
 {
 for
@@ -3506,9 +3510,7 @@ size
 ;
 if
 (
-mDisabledTrackIDs
-.
-Contains
+GetDisabledTrackMode
 (
 static_cast
 <
@@ -3518,6 +3520,12 @@ TrackID
 AUDIO_TRACK
 )
 )
+!
+=
+DisabledTrackMode
+:
+:
+ENABLED
 )
 {
 mLastChunks
