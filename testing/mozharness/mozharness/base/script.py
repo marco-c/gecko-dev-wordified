@@ -3450,14 +3450,18 @@ retry_args
 )
     
 def
-download_unzip
+download_unpack
 (
 self
 url
-parent_dir
-target_unzip_dirs
+extract_to
+extract_dirs
 =
 None
+                        
+error_level
+=
+FATAL
 )
 :
         
@@ -3471,7 +3475,7 @@ download
 and
 extract
 a
-zip
+compressed
 file
 .
         
@@ -3515,7 +3519,7 @@ is
 located
 .
             
-parent_dir
+extract_to
 (
 str
 )
@@ -3532,7 +3536,7 @@ extracted
 to
 .
             
-target_unzip_dirs
+extract_dirs
 (
 list
 optional
@@ -3541,15 +3545,36 @@ optional
 directories
 inside
 the
-zip
-file
+archive
 to
 extract
 .
-                                                
+                                           
 Defaults
 to
 None
+.
+            
+error_level
+(
+str
+optional
+)
+:
+log
+level
+to
+use
+in
+case
+an
+error
+occurs
+.
+                                         
+Defaults
+to
+FATAL
 .
         
 "
@@ -3564,7 +3589,7 @@ query_abs_dirs
 (
 )
         
-zipfile
+archive
 =
 self
 .
@@ -3582,16 +3607,22 @@ abs_work_dir
                                      
 error_level
 =
-FATAL
+error_level
 )
         
 self
 .
 unpack
 (
-zipfile
-parent_dir
-target_unzip_dirs
+archive
+extract_to
+extract_dirs
+=
+extract_dirs
+                    
+error_level
+=
+error_level
 )
     
 def
@@ -11591,13 +11622,9 @@ None
 error_level
 =
 ERROR
-halt_on_failure
-=
-True
 fatal_exit_code
 =
 2
-               
 verbose
 =
 False
@@ -11607,11 +11634,9 @@ False
 "
 "
 "
-        
-This
+The
 method
 allows
-us
 to
 extract
 a
@@ -11620,6 +11645,7 @@ regardless
 of
 its
 extension
+.
         
 Args
 :
@@ -11667,31 +11693,6 @@ extract
 Defaults
 to
 None
-.
-            
-halt_on_failure
-(
-bool
-optional
-)
-:
-whether
-or
-not
-to
-redefine
-the
-                                              
-log
-level
-as
-FATAL
-on
-errors
-.
-Defaults
-to
-True
 .
             
 fatal_exit_code
@@ -11854,14 +11855,6 @@ s
 %
 filename
 )
-        
-level
-=
-FATAL
-if
-halt_on_failure
-else
-error_level
         
 if
 zipfile
@@ -12072,7 +12065,7 @@ filename
                          
 level
 =
-level
+error_level
 exit_code
 =
 fatal_exit_code
@@ -12220,7 +12213,7 @@ filename
                          
 level
 =
-level
+error_level
 exit_code
 =
 fatal_exit_code
@@ -12248,7 +12241,7 @@ filename
                      
 level
 =
-level
+error_level
 exit_code
 =
 fatal_exit_code

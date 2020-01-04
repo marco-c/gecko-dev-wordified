@@ -1418,7 +1418,7 @@ up
 "
 "
         
-target_unzip_dirs
+extract_dirs
 =
 [
 '
@@ -1426,7 +1426,7 @@ config
 /
 *
 '
-                             
+                        
 '
 external
 -
@@ -1436,25 +1436,25 @@ tests
 /
 *
 '
-                             
+                        
 '
 marionette
 /
 *
 '
-                             
+                        
 '
 mozbase
 /
 *
 '
-                             
+                        
 '
 puppeteer
 /
 *
 '
-                             
+                        
 '
 tools
 /
@@ -1462,7 +1462,7 @@ wptserve
 /
 *
 '
-                             
+                        
 ]
         
 super
@@ -1473,10 +1473,9 @@ self
 .
 download_and_extract
 (
-                
-target_unzip_dirs
+extract_dirs
 =
-target_unzip_dirs
+extract_dirs
 )
     
 def
