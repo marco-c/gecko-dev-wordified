@@ -1351,10 +1351,9 @@ rv
 newChannel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 listener
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
