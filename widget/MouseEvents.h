@@ -1547,7 +1547,7 @@ mReason
 (
 eReal
 )
-context
+mContextMenuTrigger
 (
 eNormal
 )
@@ -1595,7 +1595,7 @@ mReason
 (
 aReason
 )
-context
+mContextMenuTrigger
 (
 eNormal
 )
@@ -1643,7 +1643,7 @@ aWidget
 Reason
 aReason
 ContextMenuTrigger
-aContext
+aContextMenuTrigger
 =
 eNormal
 )
@@ -1659,9 +1659,9 @@ mReason
 (
 aReason
 )
-context
+mContextMenuTrigger
 (
-aContext
+aContextMenuTrigger
 )
 exit
 (
@@ -1691,7 +1691,7 @@ eContextMenu
 button
 =
 (
-context
+mContextMenuTrigger
 =
 =
 eNormal
@@ -1725,7 +1725,7 @@ button
 =
 (
 (
-context
+mContextMenuTrigger
 =
 =
 eNormal
@@ -1799,7 +1799,7 @@ false
 mMessage
 nullptr
 mReason
-context
+mContextMenuTrigger
 )
 ;
 result
@@ -1827,7 +1827,7 @@ Reason
 mReason
 ;
 ContextMenuTrigger
-context
+mContextMenuTrigger
 ;
 ExitFrom
 exit
@@ -1964,7 +1964,7 @@ mMessage
 eContextMenu
 &
 &
-context
+mContextMenuTrigger
 =
 =
 eContextMenuKey
