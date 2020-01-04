@@ -461,7 +461,7 @@ setThisValue
 (
 frame
 .
-thisValue
+thisArgument
 (
 )
 )

@@ -359,7 +359,7 @@ returnValue_
 &
 argsObj_
 &
-thisValue_
+thisArgument_
 ReadFrame_Actuals
 fallback
 )
@@ -1069,7 +1069,7 @@ TraceRoot
 (
 trc
 &
-thisValue_
+thisArgument_
 "
 remat
 ion
@@ -1370,7 +1370,7 @@ ifdef
 DEBUG
 DumpValue
 (
-thisValue
+thisArgument
 (
 )
 )

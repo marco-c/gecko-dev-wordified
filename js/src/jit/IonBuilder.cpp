@@ -551,6 +551,15 @@ are
 recorded
 instead
 .
+if
+(
+frame
+-
+>
+isNonEvalFunctionFrame
+(
+)
+)
 inspector
 -
 >
@@ -564,7 +573,7 @@ GetMaybeUntrackedValueType
 frame
 -
 >
-thisValue
+thisArgument
 (
 )
 )

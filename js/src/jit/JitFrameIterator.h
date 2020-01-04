@@ -4708,7 +4708,7 @@ fallback
 ;
 }
 Value
-thisValue
+thisArgument
 (
 MaybeReadFallback
 &
@@ -4716,18 +4716,6 @@ fallback
 )
 const
 {
-/
-/
-MOZ_ASSERT
-(
-isConstructing
-(
-.
-.
-.
-)
-)
-;
 SnapshotIterator
 s
 (

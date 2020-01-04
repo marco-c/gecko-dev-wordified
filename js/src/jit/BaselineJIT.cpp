@@ -1410,11 +1410,8 @@ constructing
 else
 {
 thisv
-=
-fp
--
->
-thisValue
+.
+setUndefined
 (
 )
 ;

@@ -5028,7 +5028,7 @@ Value
 AbstractFramePtr
 :
 :
-thisValue
+thisArgument
 (
 )
 const
@@ -5045,7 +5045,7 @@ asInterpreterFrame
 )
 -
 >
-thisValue
+thisArgument
 (
 )
 ;
@@ -5061,7 +5061,7 @@ asBaselineFrame
 )
 -
 >
-thisValue
+thisArgument
 (
 )
 ;
@@ -5071,7 +5071,7 @@ asRematerializedFrame
 )
 -
 >
-thisValue
+thisArgument
 (
 )
 ;

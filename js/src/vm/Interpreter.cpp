@@ -981,7 +981,7 @@ if
 (
 frame
 .
-thisValue
+thisArgument
 (
 )
 .
@@ -1020,7 +1020,7 @@ set
 (
 frame
 .
-thisValue
+thisArgument
 (
 )
 )
@@ -1035,7 +1035,7 @@ thisv
 cx
 frame
 .
-thisValue
+thisArgument
 (
 )
 )
