@@ -2310,6 +2310,16 @@ uint32_t
 max_len
 )
 ;
+void
+Gecko_FillAllMaskLists
+(
+nsStyleImageLayers
+*
+layers
+uint32_t
+max_len
+)
+;
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
 (
 nsStyleCoord
