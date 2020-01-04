@@ -2795,9 +2795,6 @@ nsView
 :
 InvalidateHierarchy
 (
-nsViewManager
-*
-aViewManagerParent
 )
 {
 if
@@ -2843,7 +2840,6 @@ child
 >
 InvalidateHierarchy
 (
-aViewManagerParent
 )
 ;
 }
@@ -3019,18 +3015,8 @@ aChild
 >
 InvalidateHierarchy
 (
-nullptr
 )
 ;
-/
-/
-don
-'
-t
-care
-about
-releasing
-grabs
 }
 }
 }
@@ -3229,9 +3215,6 @@ child
 >
 InvalidateHierarchy
 (
-GetViewManager
-(
-)
 )
 ;
 }
