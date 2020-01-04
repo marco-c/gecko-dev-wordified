@@ -1480,15 +1480,6 @@ noStack
 \
 macro
 (
-noSuchMethod
-noSuchMethod
-"
-__noSuchMethod__
-"
-)
-\
-macro
-(
 NumberFormat
 NumberFormat
 "
