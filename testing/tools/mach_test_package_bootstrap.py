@@ -211,6 +211,10 @@ mozversion
 '
     
 '
+reftest
+'
+    
+'
 tools
 /
 mach
@@ -239,6 +243,14 @@ MACH_MODULES
     
 '
 mochitest
+/
+mach_test_package_commands
+.
+py
+'
+    
+'
+reftest
 /
 mach_test_package_commands
 .
