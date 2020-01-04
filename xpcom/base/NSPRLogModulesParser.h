@@ -191,7 +191,7 @@ const
 char
 *
 aLogModules
-Function
+function
 <
 void
 (

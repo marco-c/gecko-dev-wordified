@@ -169,7 +169,7 @@ NameRecord
 typedef
 Vector
 <
-Function
+function
 <
 bool
 (

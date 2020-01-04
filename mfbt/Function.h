@@ -174,7 +174,7 @@ h
 /
 /
 |
-Function
+function
 <
 Signature
 >
@@ -381,7 +381,7 @@ type
 /
 /
 |
-Function
+function
 |
 is
 default
@@ -1116,7 +1116,7 @@ typename
 Signature
 >
 class
-Function
+function
 ;
 template
 <
@@ -1129,7 +1129,7 @@ typename
 Arguments
 >
 class
-Function
+function
 <
 ReturnType
 (
@@ -1142,7 +1142,7 @@ Arguments
 {
 public
 :
-Function
+function
 (
 )
 {
@@ -1171,7 +1171,7 @@ typename
 Callable
 >
 MOZ_IMPLICIT
-Function
+function
 (
 const
 Callable
@@ -1201,10 +1201,10 @@ aCallable
 {
 }
 MOZ_IMPLICIT
-Function
+function
 (
 const
-Function
+function
 &
 aFunction
 )
@@ -1218,7 +1218,7 @@ mImpl
 {
 }
 MOZ_IMPLICIT
-Function
+function
 (
 decltype
 (
@@ -1252,9 +1252,9 @@ do
 that
 yet
 .
-Function
+function
 (
-Function
+function
 &
 &
 aOther
@@ -1271,12 +1271,12 @@ mImpl
 )
 {
 }
-Function
+function
 &
 operator
 =
 (
-Function
+function
 &
 &
 aOther
@@ -1301,7 +1301,7 @@ template
 typename
 Callable
 >
-Function
+function
 &
 operator
 =
@@ -1336,13 +1336,13 @@ return
 this
 ;
 }
-Function
+function
 &
 operator
 =
 (
 const
-Function
+function
 &
 aFunction
 )
@@ -1358,7 +1358,7 @@ return
 this
 ;
 }
-Function
+function
 &
 operator
 =

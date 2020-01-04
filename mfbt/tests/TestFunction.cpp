@@ -136,7 +136,7 @@ using
 mozilla
 :
 :
-Function
+function
 ;
 #
 define
@@ -283,7 +283,7 @@ TestNonmemberFunction
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -313,7 +313,7 @@ TestStaticMemberFunction
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -346,7 +346,7 @@ TestFunctionObject
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -384,7 +384,7 @@ non
 -
 capturing
 lambda
-Function
+function
 <
 int
 (
@@ -428,7 +428,7 @@ one
 =
 1
 ;
-Function
+function
 <
 int
 (
@@ -470,7 +470,7 @@ TestDefaultConstructionAndAssignmentLater
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -518,7 +518,7 @@ TestReassignment
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -575,7 +575,7 @@ TestMemberFunction
 (
 )
 {
-Function
+function
 <
 int
 (
@@ -616,7 +616,7 @@ TestConstMemberFunction
 (
 )
 {
-Function
+function
 <
 int
 (
