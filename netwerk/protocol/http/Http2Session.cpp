@@ -291,6 +291,13 @@ h
 #
 include
 "
+prprf
+.
+h
+"
+#
+include
+"
 prnetdb
 .
 h
@@ -299,15 +306,6 @@ h
 include
 "
 sslt
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Snprintf
 .
 h
 "
@@ -1438,7 +1436,7 @@ line
 =
 linebuf
 ;
-snprintf
+PR_snprintf
 (
 line
 128
@@ -1456,7 +1454,7 @@ line
 10
 ;
 }
-snprintf
+PR_snprintf
 (
 line
 128
