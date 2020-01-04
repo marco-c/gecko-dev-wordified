@@ -377,7 +377,7 @@ nsresult
 GetRemoteDevicePropertiesCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -389,7 +389,7 @@ nsresult
 GetRemoteDevicePropertyCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -405,7 +405,7 @@ nsresult
 SetRemoteDevicePropertyCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -421,7 +421,7 @@ nsresult
 GetRemoteServiceRecordCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -437,7 +437,7 @@ nsresult
 GetRemoteServicesCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -465,7 +465,7 @@ nsresult
 CreateBondCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothTransport
@@ -479,7 +479,7 @@ nsresult
 RemoveBondCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothResultHandler
@@ -491,7 +491,7 @@ nsresult
 CancelBondCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothResultHandler
@@ -503,7 +503,7 @@ nsresult
 PinReplyCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 bool
@@ -521,7 +521,7 @@ nsresult
 SspReplyCmd
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothSspVariant
@@ -1023,7 +1023,7 @@ DaemonNotificationRunnable4
 NotificationHandlerWrapper
 void
 BluetoothStatus
-nsString
+BluetoothAddress
 int
 nsAutoArrayPtr
 <
@@ -1031,7 +1031,7 @@ BluetoothProperty
 >
 BluetoothStatus
 const
-nsAString
+BluetoothAddress
 &
 int
 const
@@ -1089,11 +1089,11 @@ DaemonNotificationRunnable3
 <
 NotificationHandlerWrapper
 void
-nsString
+BluetoothAddress
 nsString
 uint32_t
 const
-nsAString
+BluetoothAddress
 &
 const
 nsAString
@@ -1112,13 +1112,13 @@ DaemonNotificationRunnable5
 <
 NotificationHandlerWrapper
 void
-nsString
+BluetoothAddress
 nsString
 uint32_t
 BluetoothSspVariant
 uint32_t
 const
-nsAString
+BluetoothAddress
 &
 const
 nsAString
@@ -1138,11 +1138,11 @@ DaemonNotificationRunnable3
 NotificationHandlerWrapper
 void
 BluetoothStatus
-nsString
+BluetoothAddress
 BluetoothBondState
 BluetoothStatus
 const
-nsAString
+BluetoothAddress
 &
 >
 BondStateChangedNotification
@@ -1159,11 +1159,11 @@ DaemonNotificationRunnable3
 NotificationHandlerWrapper
 void
 BluetoothStatus
-nsString
+BluetoothAddress
 bool
 BluetoothStatus
 const
-nsAString
+BluetoothAddress
 &
 >
 AclStateChangedNotification

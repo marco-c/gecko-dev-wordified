@@ -3666,7 +3666,7 @@ RemoteDevicePropertiesNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -3702,7 +3702,7 @@ void
 PinRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -3718,7 +3718,7 @@ void
 SspRequestNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 const
@@ -3740,7 +3740,7 @@ BondStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 BluetoothBondState
@@ -3754,7 +3754,7 @@ AclStateChangedNotification
 BluetoothStatus
 aStatus
 const
-nsAString
+BluetoothAddress
 &
 aRemoteBdAddr
 bool
@@ -4112,7 +4112,7 @@ void
 GetRemoteDeviceProperties
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -4127,7 +4127,7 @@ void
 GetRemoteDeviceProperty
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -4146,7 +4146,7 @@ void
 SetRemoteDeviceProperty
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -4171,7 +4171,7 @@ void
 GetRemoteServiceRecord
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 const
@@ -4190,7 +4190,7 @@ void
 GetRemoteServices
 (
 const
-nsAString
+BluetoothAddress
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -4237,7 +4237,7 @@ void
 CreateBond
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothTransport
@@ -4254,7 +4254,7 @@ void
 RemoveBond
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothResultHandler
@@ -4269,7 +4269,7 @@ void
 CancelBond
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothResultHandler
@@ -4289,7 +4289,7 @@ void
 GetConnectionState
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothResultHandler
@@ -4309,7 +4309,7 @@ void
 PinReply
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 bool
@@ -4330,7 +4330,7 @@ void
 SspReply
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothSspVariant
