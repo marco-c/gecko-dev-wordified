@@ -189,6 +189,7 @@ AndroidCaptureProvider
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
+MOZ_MUST_USE
 nsresult
 Init
 (

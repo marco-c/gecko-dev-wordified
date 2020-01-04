@@ -147,6 +147,7 @@ nsISupports
 public
 :
 virtual
+MOZ_MUST_USE
 nsresult
 Init
 (
