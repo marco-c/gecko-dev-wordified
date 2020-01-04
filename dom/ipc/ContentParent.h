@@ -3559,9 +3559,6 @@ domainPolicy
 StructuredCloneData
 *
 initialData
-OptionalURIParams
-*
-aUserContentSheetURL
 )
 override
 ;
