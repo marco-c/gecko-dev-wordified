@@ -112,10 +112,6 @@ tests
 testtype
 =
 None
-                        
-binary
-=
-None
 topsrcdir
 =
 None
@@ -157,14 +153,6 @@ add_logging_group
 parser
 )
     
-args
-=
-parser
-.
-parse_args
-(
-)
-    
 if
 not
 tests
@@ -200,29 +188,14 @@ ini
 ]
     
 args
-.
-tests
 =
-tests
-    
-args
+parser
 .
-binary
-=
-binary
-    
-path
-exe
-=
-os
-.
-path
-.
-split
+parse_args
 (
 args
-.
-binary
+=
+tests
 )
     
 for
