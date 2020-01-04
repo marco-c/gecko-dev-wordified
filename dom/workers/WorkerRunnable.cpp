@@ -2789,17 +2789,6 @@ swap
 syncLoopTarget
 )
 ;
-if
-(
-!
-mResult
-)
-{
-MaybeSetException
-(
-)
-;
-}
 aWorkerPrivate
 -
 >
