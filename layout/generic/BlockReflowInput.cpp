@@ -123,7 +123,7 @@ frames
 #
 include
 "
-nsBlockReflowState
+BlockReflowInput
 .
 h
 "
