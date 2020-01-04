@@ -200,9 +200,10 @@ SimpleTest
 .
 executeSoon
 (
-function
 (
 )
+=
+>
 iframe
 .
 src
