@@ -593,9 +593,6 @@ should
 print
 "
 more
-.
-.
-.
 "
 or
 not
@@ -695,9 +692,6 @@ object
 }
 "
 more
-.
-.
-.
 "
 )
 }

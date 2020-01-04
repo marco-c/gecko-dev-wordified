@@ -561,9 +561,6 @@ should
 print
 "
 more
-.
-.
-.
 "
 or
 not
@@ -654,9 +651,6 @@ and
 append
 '
 more
-.
-.
-.
 '
 postfix
 in
@@ -713,9 +707,6 @@ object
 }
 "
 more
-.
-.
-.
 "
 )
 }
