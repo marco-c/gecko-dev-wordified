@@ -753,10 +753,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toInt32
 (
 )
@@ -1076,10 +1072,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toInt32
 (
 )
@@ -2215,7 +2207,7 @@ if
 ptr
 -
 >
-isConstantValue
+isConstant
 (
 )
 &
@@ -2247,10 +2239,11 @@ MOZ_ASSERT
 ptr
 -
 >
-constantValue
+toConstant
 (
 )
-.
+-
+>
 toInt32
 (
 )
@@ -2266,7 +2259,7 @@ LAllocation
 ptr
 -
 >
-constantVp
+toConstant
 (
 )
 )
@@ -2339,7 +2332,7 @@ if
 ptr
 -
 >
-isConstantValue
+isConstant
 (
 )
 &
@@ -2358,10 +2351,11 @@ MOZ_ASSERT
 ptr
 -
 >
-constantValue
+toConstant
 (
 )
-.
+-
+>
 toInt32
 (
 )
@@ -2377,7 +2371,7 @@ LAllocation
 ptr
 -
 >
-constantVp
+toConstant
 (
 )
 )
