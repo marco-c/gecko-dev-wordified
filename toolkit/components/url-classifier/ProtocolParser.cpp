@@ -782,9 +782,8 @@ mUpdateWait
 )
 )
 ;
-mUpdateWait
-=
-0
+return
+NS_ERROR_FAILURE
 ;
 }
 }
