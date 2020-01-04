@@ -11970,6 +11970,7 @@ isSubset
 ptypeSet
 )
 )
+{
 *
 ptypeSet
 =
@@ -11984,6 +11985,16 @@ newTypeSet
 alloc
 )
 ;
+if
+(
+!
+*
+ptypeSet
+)
+return
+false
+;
+}
 }
 else
 {
