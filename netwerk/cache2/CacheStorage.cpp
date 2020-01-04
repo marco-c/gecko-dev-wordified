@@ -541,11 +541,6 @@ AddStorageEntry
 this
 noRefURI
 aIdExtension
-true
-/
-/
-create
-always
 truncate
 /
 /
@@ -672,11 +667,6 @@ AddStorageEntry
 this
 noRefURI
 aIdExtension
-true
-/
-/
-create
-always
 true
 /
 /
