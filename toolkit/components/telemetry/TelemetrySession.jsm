@@ -9305,6 +9305,11 @@ clearSubsession
 clearSubsession
 )
 ;
+let
+payload
+;
+try
+{
 const
 isMobile
 =
@@ -9381,7 +9386,6 @@ reason
 :
 null
 ;
-let
 payload
 =
 this
@@ -9394,6 +9398,9 @@ reason
 clearSubsession
 )
 ;
+}
+finally
+{
 if
 (
 !
@@ -9444,6 +9451,7 @@ saveSessionData
 sessionData
 )
 ;
+}
 }
 return
 payload
