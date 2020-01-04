@@ -4535,6 +4535,11 @@ mozmake
 '
 gnumake
 '
+'
+mingw32
+-
+make
+'
 ]
         
 if
