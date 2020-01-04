@@ -2761,6 +2761,9 @@ GetMaxSurfaceSize
 ;
 #
 endif
+#
+ifdef
+USE_SKIA
 case
 BackendType
 :
@@ -2775,6 +2778,8 @@ GetMaxSurfaceSize
 (
 )
 ;
+#
+endif
 #
 ifdef
 WIN32
