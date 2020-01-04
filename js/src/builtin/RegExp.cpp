@@ -4222,6 +4222,15 @@ RegExpMatch
 1
 0
 )
+JS_SELF_HOSTED_SYM_FN
+(
+search
+"
+RegExpSearch
+"
+1
+0
+)
 JS_FS_END
 }
 ;
@@ -7294,8 +7303,6 @@ return
 true
 ;
 }
-/
-*
 if
 (
 !
@@ -7336,8 +7343,6 @@ return
 true
 ;
 }
-*
-/
 if
 (
 !
