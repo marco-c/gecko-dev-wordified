@@ -233,7 +233,7 @@ member
 bool
 mConnected
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 RefPtr

@@ -204,7 +204,7 @@ nsresult
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
@@ -707,13 +707,14 @@ aDeviceAddress
 Returns
 the
 address
+string
 .
 *
 /
 void
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )

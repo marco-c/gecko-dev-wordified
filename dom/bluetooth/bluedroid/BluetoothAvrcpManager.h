@@ -488,7 +488,7 @@ aKeyState
 )
 override
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 RefPtr

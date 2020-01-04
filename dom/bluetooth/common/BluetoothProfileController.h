@@ -856,7 +856,7 @@ BluetoothProfileController
 bool
 aConnect
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -1075,7 +1075,7 @@ const
 bool
 mConnect
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 RefPtr

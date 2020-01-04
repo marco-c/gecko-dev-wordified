@@ -834,11 +834,11 @@ BluetoothServiceChildProcess
 GetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 BluetoothProfileManagerBase
@@ -866,7 +866,7 @@ BluetoothServiceChildProcess
 UpdateSdpRecords
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothProfileManagerBase

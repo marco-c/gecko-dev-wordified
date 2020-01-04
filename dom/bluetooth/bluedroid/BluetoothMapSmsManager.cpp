@@ -513,6 +513,13 @@ mNtfRequired
 false
 )
 {
+mDeviceAddress
+.
+AssignLiteral
+(
+BLUETOOTH_ADDRESS_NONE
+)
+;
 BuildDefaultFolderStructure
 (
 )
@@ -2778,7 +2785,7 @@ BluetoothMapSmsManager
 :
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -7192,8 +7199,9 @@ AfterMapSmsDisconnected
 ;
 mDeviceAddress
 .
-Clear
+AssignLiteral
 (
+BLUETOOTH_ADDRESS_NONE
 )
 ;
 mMasSocket
@@ -7260,7 +7268,7 @@ BluetoothMapSmsManager
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothProfileController
@@ -7281,11 +7289,11 @@ BluetoothMapSmsManager
 OnGetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 int
@@ -7305,7 +7313,7 @@ BluetoothMapSmsManager
 OnUpdateSdpRecords
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
