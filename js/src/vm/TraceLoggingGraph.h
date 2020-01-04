@@ -731,6 +731,9 @@ TraceLoggerGraphState
 uint32_t
 numLoggers
 ;
+uint32_t
+pid_
+;
 /
 /
 File
@@ -781,6 +784,10 @@ numLoggers
 (
 0
 )
+pid_
+(
+0
+)
 out
 (
 nullptr
@@ -811,6 +818,15 @@ nextLoggerId
 (
 )
 ;
+uint32_t
+pid
+(
+)
+{
+return
+pid_
+;
+}
 }
 ;
 class
