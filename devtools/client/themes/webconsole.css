@@ -1034,7 +1034,9 @@ radius
 ;
 margin
 -
-left
+inline
+-
+start
 :
 5px
 ;
@@ -3561,7 +3563,9 @@ height
 ;
 margin
 -
-left
+inline
+-
+start
 :
 1px
 ;
