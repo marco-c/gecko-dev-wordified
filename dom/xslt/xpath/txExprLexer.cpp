@@ -2120,16 +2120,6 @@ Token
 END
 )
 ;
-if
-(
-!
-newToken
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 addToken
 (
 newToken

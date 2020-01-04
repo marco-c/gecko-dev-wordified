@@ -3619,12 +3619,6 @@ handler
 new
 txRtfHandler
 ;
-NS_ENSURE_TRUE
-(
-handler
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsresult
 rv
 =
@@ -3688,12 +3682,6 @@ new
 txTextHandler
 (
 mOnlyText
-)
-;
-NS_ENSURE_TRUE
-(
-handler
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 nsresult

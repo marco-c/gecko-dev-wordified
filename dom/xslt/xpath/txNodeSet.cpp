@@ -1970,12 +1970,6 @@ bool
 length
 ]
 ;
-NS_ENSURE_TRUE
-(
-mMarks
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 memset
 (
 mMarks

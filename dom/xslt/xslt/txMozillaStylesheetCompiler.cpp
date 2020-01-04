@@ -2505,12 +2505,6 @@ txStylesheetAttr
 attsCount
 ]
 ;
-NS_ENSURE_TRUE
-(
-atts
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 uint32_t
 counter
 ;
