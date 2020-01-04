@@ -1189,12 +1189,12 @@ to
 print
 to
 if
-nullptr
-*
+empty
 then
 don
 '
 t
+*
 print
 to
 file
@@ -1246,8 +1246,9 @@ const
 nsAString
 &
 aTitle
-char16_t
-*
+const
+nsAString
+&
 aPrintToFileName
 int32_t
 aStartPage
