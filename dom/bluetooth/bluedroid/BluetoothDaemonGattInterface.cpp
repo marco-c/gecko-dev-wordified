@@ -2918,6 +2918,8 @@ int32_t
 aApperance
 )
 aManufacturerLen
+aServiceDataLen
+aServiceUuidLen
 PackArray
 <
 char
@@ -2926,7 +2928,6 @@ char
 aManufacturerData
 aManufacturerLen
 )
-aServiceDataLen
 PackArray
 <
 char
@@ -2935,7 +2936,6 @@ char
 aServiceData
 aServiceDataLen
 )
-aServiceUuidLen
 PackArray
 <
 char
