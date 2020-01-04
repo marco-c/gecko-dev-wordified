@@ -2089,17 +2089,6 @@ mPluginsDisabled
 ;
 /
 /
-set
-by
-pref
-plugins
-.
-click_to_play
-bool
-mPluginsClickToPlay
-;
-/
-/
 Any
 instances
 in
