@@ -12878,7 +12878,9 @@ target
 removeEventListener
 (
 name
-cb
+arguments
+.
+callee
 )
 ;
 resolve
