@@ -6507,6 +6507,14 @@ ITEM_KIND_VALUE
 )
 ;
 }
+_SetCanonicalName
+(
+TypedArrayValues
+"
+values
+"
+)
+;
 /
 /
 Proposed

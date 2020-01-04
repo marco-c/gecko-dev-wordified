@@ -243,6 +243,15 @@ return
 result
 ;
 }
+_SetCanonicalName
+(
+RegExpFlagsGetter
+"
+get
+flags
+"
+)
+;
 /
 /
 ES6
@@ -345,3 +354,11 @@ pattern
 flags
 ;
 }
+_SetCanonicalName
+(
+RegExpToString
+"
+toString
+"
+)
+;

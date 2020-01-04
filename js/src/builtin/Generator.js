@@ -514,6 +514,14 @@ e
 ;
 }
 }
+_SetCanonicalName
+(
+LegacyGeneratorNext
+"
+next
+"
+)
+;
 function
 LegacyGeneratorThrow
 (
