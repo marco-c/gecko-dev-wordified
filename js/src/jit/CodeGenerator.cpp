@@ -59753,9 +59753,6 @@ this
 compilation
 too
 .
-if
-(
-!
 Invalidate
 (
 cx
@@ -59773,9 +59770,6 @@ cancelOffThread
 /
 false
 )
-)
-return
-false
 ;
 }
 if

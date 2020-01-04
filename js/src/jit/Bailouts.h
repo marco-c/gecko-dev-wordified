@@ -1487,7 +1487,7 @@ BaselineBailoutInfo
 bailoutInfo
 )
 ;
-bool
+void
 CheckFrequentBailouts
 (
 JSContext

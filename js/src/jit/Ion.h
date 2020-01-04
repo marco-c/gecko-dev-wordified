@@ -707,7 +707,7 @@ cancelOffThread
 true
 )
 ;
-bool
+void
 Invalidate
 (
 JSContext
