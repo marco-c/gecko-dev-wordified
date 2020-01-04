@@ -447,21 +447,6 @@ for
 each
 access
 .
-Use
-.
-clock
-(
-)
-for
-best
-time
-    
-#
-resolution
-across
-different
-platforms
-.
     
 return
 headers
@@ -479,7 +464,7 @@ s
 (
 time
 .
-clock
+time
 (
 )
 extra_body
