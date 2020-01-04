@@ -237,10 +237,6 @@ const
 ComputedGridTrackInfo
 *
 aTrackInfo
-const
-ComputedGridLineInfo
-*
-aLineInfo
 )
 ;
 protected
