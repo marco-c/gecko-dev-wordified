@@ -26083,7 +26083,7 @@ principal
 video
 -
 >
-GetCurrentPrincipal
+GetCurrentVideoPrincipal
 (
 )
 ;

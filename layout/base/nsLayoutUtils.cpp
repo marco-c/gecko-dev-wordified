@@ -47994,7 +47994,7 @@ principal
 aElement
 -
 >
-GetCurrentPrincipal
+GetCurrentVideoPrincipal
 (
 )
 ;
