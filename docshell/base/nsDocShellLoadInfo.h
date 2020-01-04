@@ -204,6 +204,9 @@ nsISupports
 mOwner
 ;
 bool
+mLoadReplace
+;
+bool
 mInheritOwner
 ;
 bool
