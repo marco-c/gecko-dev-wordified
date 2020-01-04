@@ -413,13 +413,12 @@ Worker
 .
 onmessage
 =
-function
-(
-_
-)
+message
+=
+>
 eval
 (
-_
+message
 .
 data
 )
