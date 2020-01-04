@@ -27379,7 +27379,7 @@ mozilla
 Telemetry
 :
 :
-E10S_AUTOSTART_STATUS
+E10S_STATUS
 status
 )
 ;
