@@ -1425,6 +1425,8 @@ MediaCacheStream
 aStream
 int32_t
 aBlockIndex
+int64_t
+aStreamOffset
 MediaCacheStream
 :
 :
@@ -11837,6 +11839,8 @@ MediaCacheStream
 aStream
 int32_t
 aBlockIndex
+int64_t
+aStreamOffset
 MediaCacheStream
 :
 :
@@ -11939,13 +11943,7 @@ mStreamBlock
 BLOCK_SIZE
 <
 =
-bo
--
->
-mStream
--
->
-mStreamOffset
+aStreamOffset
 "
 Using
 a
@@ -12205,6 +12203,10 @@ NoteBlockUsage
 (
 aStream
 cacheBlockIndex
+aStream
+-
+>
+mStreamOffset
 MediaCacheStream
 :
 :
@@ -15984,6 +15986,7 @@ NoteBlockUsage
 (
 this
 cacheBlock
+streamOffset
 mCurrentMode
 TimeStamp
 :
