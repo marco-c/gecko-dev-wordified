@@ -595,16 +595,6 @@ XULTreeGridRowAccessible
 ;
 /
 /
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
-/
-/
 XULTreeItemAccessibleBase
 mutable
 nsRefPtrHashtable

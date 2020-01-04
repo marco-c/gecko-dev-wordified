@@ -258,16 +258,6 @@ LeafAccessible
 )
 {
 }
-/
-/
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 }
 ;
 /

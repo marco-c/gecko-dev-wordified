@@ -1249,16 +1249,6 @@ XULTreeItemAccessible
 ;
 /
 /
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
-/
-/
 XULTreeItemAccessible
 nsCOMPtr
 <

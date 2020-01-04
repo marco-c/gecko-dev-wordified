@@ -1100,16 +1100,6 @@ override
 protected
 :
 /
-/
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-override
-;
-/
 *
 *
 *

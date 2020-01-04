@@ -265,15 +265,6 @@ const
 ;
 protected
 :
-/
-/
-Accessible
-virtual
-void
-CacheChildren
-(
-)
-;
 void
 *
 mHwnd

@@ -14509,12 +14509,14 @@ IsContent
 (
 )
 )
+{
 CacheChildrenInSubtree
 (
 child
 aFocusedAcc
 )
 ;
+}
 }
 /
 /
