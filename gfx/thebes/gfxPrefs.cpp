@@ -120,7 +120,7 @@ mozilla
 /
 gfx
 /
-Logging
+Preferences
 .
 h
 "
