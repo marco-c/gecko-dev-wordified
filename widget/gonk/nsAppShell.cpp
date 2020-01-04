@@ -2946,13 +2946,13 @@ rv
 )
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 screenBounds
 =
 screen
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
 (
 )
 ;

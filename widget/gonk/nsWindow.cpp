@@ -4417,7 +4417,11 @@ return
 mScreen
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
+(
+)
+.
+ToUnknownRect
 (
 )
 ;

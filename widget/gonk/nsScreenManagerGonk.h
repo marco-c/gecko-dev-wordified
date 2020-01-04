@@ -444,8 +444,11 @@ GetNativeWindow
 (
 )
 ;
-nsIntRect
-GetNaturalBoundsUntyped
+mozilla
+:
+:
+LayoutDeviceIntRect
+GetNaturalBounds
 (
 )
 ;

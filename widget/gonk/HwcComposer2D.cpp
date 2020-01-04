@@ -4912,7 +4912,11 @@ mScreenRect
 screen
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
+(
+)
+.
+ToUnknownRect
 (
 )
 ;
@@ -5774,7 +5778,11 @@ mScreenRect
 screen
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
+(
+)
+.
+ToUnknownRect
 (
 )
 ;
