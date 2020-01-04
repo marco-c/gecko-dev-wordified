@@ -10021,9 +10021,7 @@ SELECT
 CASE
 count
 (
-a
-.
-g
+*
 )
 WHEN
 0
@@ -10033,9 +10031,7 @@ position
 ELSE
 count
 (
-a
-.
-g
+*
 )
 -
 1
@@ -10061,12 +10057,12 @@ a
 g
 =
 guid
-AND
+)
+WHERE
 parent
 =
 :
 parentId
-)
 {
 parentId
 :
