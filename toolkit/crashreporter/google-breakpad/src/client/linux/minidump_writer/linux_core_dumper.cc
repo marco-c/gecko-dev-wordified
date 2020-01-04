@@ -437,11 +437,16 @@ const
 char
 *
 procfs_path
+const
+char
+*
+root_prefix
 )
 :
 LinuxDumper
 (
 pid
+root_prefix
 )
 core_path_
 (
