@@ -527,6 +527,8 @@ LoadTainting
 aTainting
 bool
 aUpgradeInsecureRequests
+bool
+aVerifySignedContent
 uint64_t
 aInnerWindowID
 uint64_t
@@ -712,6 +714,9 @@ mTainting
 ;
 bool
 mUpgradeInsecureRequests
+;
+bool
+mVerifySignedContent
 ;
 uint64_t
 mInnerWindowID
