@@ -206,6 +206,13 @@ HASH_NODE_ID_WITH_DEVICE_ID
 #
 include
 <
+unistd
+.
+h
+>
+#
+include
+<
 mach
 /
 mach
