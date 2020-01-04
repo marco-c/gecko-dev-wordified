@@ -3548,6 +3548,12 @@ return
 nullptr
 ;
 }
+RefPtr
+<
+MediaStreamTrack
+>
+track
+=
 stream
 -
 >
@@ -3563,6 +3569,14 @@ BasicUnstoppableTrackSource
 (
 principal
 )
+)
+;
+stream
+-
+>
+AddTrackInternal
+(
+track
 )
 ;
 rv
