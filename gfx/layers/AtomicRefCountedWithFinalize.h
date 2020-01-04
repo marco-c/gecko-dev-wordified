@@ -348,6 +348,15 @@ flawless
 .
 template
 <
+typename
+U
+>
+friend
+class
+RefPtr
+;
+template
+<
 class
 U
 >
