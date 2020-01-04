@@ -175,13 +175,6 @@ XP_LINUX
 #
 include
 "
-gfxVROculus050
-.
-h
-"
-#
-include
-"
 gfxVROSVR
 .
 h
