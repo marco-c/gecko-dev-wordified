@@ -626,6 +626,11 @@ mStopped
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+ImageBridgeParent
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -781,6 +786,11 @@ erase
 OtherPid
 (
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+ImageBridgeParent
 )
 ;
 }

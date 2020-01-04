@@ -1691,6 +1691,11 @@ mShuttingDown
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+ImageBridgeChild
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -1742,6 +1747,11 @@ NS_IsMainThread
 ;
 delete
 mTxn
+;
+MOZ_COUNT_DTOR
+(
+ImageBridgeChild
+)
 ;
 }
 void
