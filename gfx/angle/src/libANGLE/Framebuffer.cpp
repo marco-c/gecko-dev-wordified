@@ -414,6 +414,16 @@ getReadAttachment
 )
 const
 {
+if
+(
+mReadBufferState
+=
+=
+GL_NONE
+)
+return
+nullptr
+;
 ASSERT
 (
 mReadBufferState
