@@ -175,6 +175,14 @@ nsRefPtrHashtable
 .
 h
 "
+/
+/
+Only
+fired
+for
+inner
+windows
+.
 #
 define
 DOM_WINDOW_DESTROYED_TOPIC
