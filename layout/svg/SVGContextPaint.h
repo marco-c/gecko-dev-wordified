@@ -660,7 +660,7 @@ SimpleTextContextPaint
 *
 /
 struct
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 public
 SVGContextPaint

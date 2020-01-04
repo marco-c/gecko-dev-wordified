@@ -167,7 +167,7 @@ already_AddRefed
 <
 gfxPattern
 >
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 :
 GetFillPattern
@@ -204,7 +204,7 @@ already_AddRefed
 <
 gfxPattern
 >
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 :
 GetStrokePattern
@@ -241,7 +241,7 @@ already_AddRefed
 <
 gfxPattern
 >
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 :
 Paint
