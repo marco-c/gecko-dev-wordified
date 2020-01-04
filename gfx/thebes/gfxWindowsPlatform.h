@@ -1502,6 +1502,12 @@ Init
 )
 ;
 void
+InitAcceleration
+(
+)
+override
+;
+void
 InitializeDevices
 (
 )
