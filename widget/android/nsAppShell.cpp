@@ -1111,9 +1111,11 @@ uri
 =
 ResolveURI
 (
-nsCString
-(
 uriStr
+-
+>
+ToCString
+(
 )
 )
 ;
