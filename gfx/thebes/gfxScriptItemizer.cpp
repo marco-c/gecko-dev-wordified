@@ -1197,6 +1197,8 @@ is
 .
 *
 /
+gc
+=
 GetGeneralCategory
 (
 ch
