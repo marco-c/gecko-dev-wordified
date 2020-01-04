@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsAttrValue
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h

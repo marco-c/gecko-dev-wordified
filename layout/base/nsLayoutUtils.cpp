@@ -446,6 +446,13 @@ h
 #
 include
 "
+nsTextFragment
+.
+h
+"
+#
+include
+"
 nsThemeConstants
 .
 h

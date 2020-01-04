@@ -247,6 +247,13 @@ h
 #
 include
 "
+nsAnimationManager
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h
@@ -304,6 +311,13 @@ h
 include
 "
 nsSVGIntegrationUtils
+.
+h
+"
+#
+include
+"
+nsTransitionManager
 .
 h
 "

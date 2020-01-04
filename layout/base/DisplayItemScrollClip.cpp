@@ -97,6 +97,13 @@ DisplayItemScrollClip
 .
 h
 "
+#
+include
+"
+DisplayItemClip
+.
+h
+"
 namespace
 mozilla
 {
