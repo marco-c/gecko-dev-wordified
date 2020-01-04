@@ -317,7 +317,7 @@ marionette
 /
 content
 /
-actions
+action
 .
 js
 "
@@ -1284,7 +1284,7 @@ this
 actions
 =
 new
-actions
+action
 .
 Chain
 (
