@@ -7,8 +7,7 @@ test
 |
 error
 :
-is
-undefined
+TypeError
 load
 (
 libdir
