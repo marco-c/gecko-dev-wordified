@@ -1470,14 +1470,9 @@ if
 abort_on_error
 )
 {
-*
+abort
 (
-int
-*
 )
-0x0
-=
-10
 ;
 }
 #
