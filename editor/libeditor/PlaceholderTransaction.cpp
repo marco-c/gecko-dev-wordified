@@ -916,7 +916,6 @@ matches
 if
 (
 (
-(
 mName
 .
 get
@@ -928,10 +927,8 @@ nsGkAtoms
 :
 :
 TypingTxnName
-)
 |
 |
-(
 mName
 .
 get
@@ -943,10 +940,8 @@ nsGkAtoms
 :
 :
 IMETxnName
-)
 |
 |
-(
 mName
 .
 get
@@ -958,7 +953,6 @@ nsGkAtoms
 :
 :
 DeleteTxnName
-)
 )
 &
 &
@@ -1327,6 +1321,7 @@ if
 (
 plcTxn
 )
+{
 plcTxn
 -
 >
@@ -1334,6 +1329,7 @@ EndPlaceHolderBatch
 (
 )
 ;
+}
 }
 /
 /

@@ -586,8 +586,7 @@ RemoveAllDefaultProperties
 (
 )
 {
-uint32_t
-j
+size_t
 defcon
 =
 mDefaultStyles
@@ -598,6 +597,7 @@ Length
 ;
 for
 (
+size_t
 j
 =
 0
@@ -4735,8 +4735,7 @@ ApplyDefaultProperties
 (
 )
 {
-uint32_t
-j
+size_t
 defcon
 =
 mDefaultStyles
@@ -4747,6 +4746,7 @@ Length
 ;
 for
 (
+size_t
 j
 =
 0
@@ -4930,7 +4930,6 @@ if
 aChildrenOnly
 &
 &
-(
 /
 /
 node
@@ -4939,6 +4938,7 @@ prop
 we
 asked
 for
+(
 (
 aProperty
 &
@@ -5594,13 +5594,6 @@ AsElement
 ;
 }
 }
-if
-(
-!
-aChildrenOnly
-&
-&
-(
 /
 /
 Or
@@ -5615,6 +5608,17 @@ are
 setting
 font
 size
+if
+(
+aChildrenOnly
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 aProperty
 =
 =
@@ -5648,7 +5652,6 @@ small
 )
 &
 &
-(
 aAttribute
 &
 &
@@ -5660,8 +5663,6 @@ LowerCaseEqualsLiteral
 "
 size
 "
-)
-)
 )
 )
 {

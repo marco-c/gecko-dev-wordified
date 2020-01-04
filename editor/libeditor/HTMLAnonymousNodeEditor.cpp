@@ -570,10 +570,12 @@ thin
 "
 )
 )
+{
 f
 =
 1
 ;
+}
 else
 if
 (
@@ -586,10 +588,12 @@ medium
 "
 )
 )
+{
 f
 =
 3
 ;
+}
 else
 if
 (
@@ -602,10 +606,12 @@ thick
 "
 )
 )
+{
 f
 =
 5
 ;
+}
 break
 ;
 }
@@ -1741,6 +1747,7 @@ if
 (
 document
 )
+{
 docObserver
 -
 >
@@ -1750,6 +1757,7 @@ document
 UPDATE_CONTENT_MODEL
 )
 ;
+}
 /
 /
 XXX
@@ -1812,6 +1820,7 @@ if
 (
 document
 )
+{
 docObserver
 -
 >
@@ -1821,6 +1830,7 @@ document
 UPDATE_CONTENT_MODEL
 )
 ;
+}
 }
 }
 content

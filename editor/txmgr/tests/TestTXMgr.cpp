@@ -5861,6 +5861,7 @@ if
 (
 aIsTransient
 )
+{
 *
 aIsTransient
 =
@@ -5874,6 +5875,7 @@ true
 :
 false
 ;
+}
 return
 NS_OK
 ;
@@ -5893,6 +5895,7 @@ if
 (
 aDidMerge
 )
+{
 *
 aDidMerge
 =
@@ -5906,6 +5909,7 @@ true
 :
 false
 ;
+}
 return
 NS_OK
 ;
@@ -6373,6 +6377,7 @@ mFlags
 &
 BATCH_FLAG
 )
+{
 mTXMgr
 -
 >
@@ -6381,6 +6386,7 @@ EndBatch
 false
 )
 ;
+}
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
@@ -6452,6 +6458,7 @@ mFlags
 &
 BATCH_FLAG
 )
+{
 mTXMgr
 -
 >
@@ -6460,6 +6467,7 @@ EndBatch
 false
 )
 ;
+}
 return
 result
 ;
@@ -6524,6 +6532,7 @@ mFlags
 &
 BATCH_FLAG
 )
+{
 mTXMgr
 -
 >
@@ -6532,6 +6541,7 @@ EndBatch
 false
 )
 ;
+}
 return
 result
 ;
@@ -6550,6 +6560,7 @@ mFlags
 &
 BATCH_FLAG
 )
+{
 mTXMgr
 -
 >
@@ -6558,6 +6569,7 @@ EndBatch
 false
 )
 ;
+}
 return
 result
 ;
@@ -8612,9 +8624,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -8855,9 +8864,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -9121,9 +9127,6 @@ result
 if
 (
 tx
-!
-=
-0
 )
 {
 fail
@@ -9382,9 +9385,6 @@ result
 if
 (
 tx
-!
-=
-0
 )
 {
 fail
@@ -10844,9 +10844,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -11373,9 +11370,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -12166,9 +12160,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -13412,9 +13403,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -13918,9 +13906,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -13998,9 +13983,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -14482,9 +14464,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -15237,9 +15216,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -16036,9 +16012,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -17394,9 +17367,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -17474,9 +17444,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -17716,9 +17683,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -17796,9 +17760,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -18365,9 +18326,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -21026,9 +20984,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -22931,9 +22886,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -23054,9 +23006,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -23308,9 +23257,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -23429,9 +23375,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -23550,9 +23493,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -25019,9 +24959,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -26481,9 +26418,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -26956,9 +26890,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -29046,9 +28977,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -31155,9 +31083,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -32595,9 +32520,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -32675,9 +32597,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -32999,9 +32918,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -33079,9 +32995,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -33712,9 +33625,6 @@ result
 if
 (
 numitems
-!
-=
-0
 )
 {
 fail
@@ -36468,6 +36378,7 @@ j
 0
 )
 )
+{
 printf
 (
 "
@@ -36477,6 +36388,7 @@ i
 j
 )
 ;
+}
 }
 /
 /
@@ -38113,9 +38025,11 @@ failed
 (
 )
 )
+{
 return
 1
 ;
+}
 nsresult
 result
 ;

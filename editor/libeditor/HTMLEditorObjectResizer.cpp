@@ -593,6 +593,7 @@ if
 (
 objectResizer
 )
+{
 return
 objectResizer
 -
@@ -601,6 +602,7 @@ RefreshResizers
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -872,6 +874,7 @@ if
 (
 editor
 )
+{
 editor
 -
 >
@@ -880,6 +883,7 @@ CheckSelectionStateForAnonymousButtons
 aSelection
 )
 ;
+}
 }
 return
 NS_OK
@@ -3189,6 +3193,7 @@ if
 (
 mResizingShadow
 )
+{
 mResizingShadow
 -
 >
@@ -3208,10 +3213,12 @@ hidden
 true
 )
 ;
+}
 if
 (
 mResizingInfo
 )
+{
 mResizingInfo
 -
 >
@@ -3231,6 +3238,7 @@ hidden
 true
 )
 ;
+}
 }
 nsresult
 HTMLEditor
@@ -4167,10 +4175,12 @@ mActivatedHandle
 =
 mBottomLeftHandle
 )
+{
 infoXPosition
 =
 aX
 ;
+}
 else
 if
 (
@@ -4185,6 +4195,7 @@ mActivatedHandle
 =
 mBottomHandle
 )
+{
 infoXPosition
 =
 aX
@@ -4195,7 +4206,9 @@ aW
 2
 )
 ;
+}
 else
+{
 /
 /
 should
@@ -4237,6 +4250,7 @@ aX
 +
 aW
 ;
+}
 if
 (
 mActivatedHandle
@@ -4256,10 +4270,12 @@ mActivatedHandle
 =
 mTopRightHandle
 )
+{
 infoYPosition
 =
 aY
 ;
+}
 else
 if
 (
@@ -4274,6 +4290,7 @@ mActivatedHandle
 =
 mRightHandle
 )
+{
 infoYPosition
 =
 aY
@@ -4284,7 +4301,9 @@ aH
 2
 )
 ;
+}
 else
+{
 /
 /
 should
@@ -4326,6 +4345,7 @@ aY
 +
 aH
 ;
+}
 /
 /
 Offset
@@ -4475,6 +4495,7 @@ diffWidth
 >
 0
 )
+{
 diffWidthStr
 .
 Assign
@@ -4484,12 +4505,14 @@ Assign
 '
 )
 ;
+}
 if
 (
 diffHeight
 >
 0
 )
+{
 diffHeightStr
 .
 Assign
@@ -4499,6 +4522,7 @@ Assign
 '
 )
 ;
+}
 diffWidthStr
 .
 AppendInt
@@ -5747,6 +5771,7 @@ if
 (
 setHeight
 )
+{
 mCSSEditUtils
 -
 >
@@ -5762,10 +5787,12 @@ top
 y
 )
 ;
+}
 if
 (
 setWidth
 )
+{
 mCSSEditUtils
 -
 >
@@ -5781,6 +5808,7 @@ left
 x
 )
 ;
+}
 }
 if
 (
@@ -5866,6 +5894,7 @@ if
 (
 setWidth
 )
+{
 mCSSEditUtils
 -
 >
@@ -5881,10 +5910,12 @@ width
 width
 )
 ;
+}
 if
 (
 setHeight
 )
+{
 mCSSEditUtils
 -
 >
@@ -5900,6 +5931,7 @@ height
 height
 )
 ;
+}
 }
 else
 {
@@ -5948,6 +5980,7 @@ if
 (
 setWidth
 )
+{
 mCSSEditUtils
 -
 >
@@ -5963,10 +5996,12 @@ width
 width
 )
 ;
+}
 if
 (
 setHeight
 )
+{
 mCSSEditUtils
 -
 >
@@ -5982,6 +6017,7 @@ height
 height
 )
 ;
+}
 if
 (
 setWidth
@@ -6052,6 +6088,7 @@ if
 (
 setWidth
 )
+{
 mCSSEditUtils
 -
 >
@@ -6069,10 +6106,12 @@ EmptyString
 )
 )
 ;
+}
 if
 (
 setHeight
 )
+{
 mCSSEditUtils
 -
 >
@@ -6090,6 +6129,7 @@ EmptyString
 )
 )
 ;
+}
 }
 /
 /

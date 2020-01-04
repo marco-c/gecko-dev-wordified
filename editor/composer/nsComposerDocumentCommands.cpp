@@ -509,6 +509,7 @@ if
 (
 editor
 )
+{
 return
 editor
 -
@@ -518,6 +519,7 @@ GetIsSelectionEditable
 outCmdEnabled
 )
 ;
+}
 *
 outCmdEnabled
 =
@@ -1262,6 +1264,7 @@ if
 (
 modified
 )
+{
 return
 editor
 -
@@ -1271,6 +1274,7 @@ IncrementModificationCount
 1
 )
 ;
+}
 return
 editor
 -
@@ -1338,6 +1342,7 @@ if
 (
 isReadOnly
 )
+{
 flags
 |
 =
@@ -1346,7 +1351,9 @@ nsIPlaintextEditor
 :
 eEditorReadonlyMask
 ;
+}
 else
+{
 flags
 &
 =
@@ -1358,6 +1365,7 @@ nsIPlaintextEditor
 eEditorReadonlyMask
 )
 ;
+}
 return
 editor
 -
@@ -2605,6 +2613,7 @@ if
 (
 editor
 )
+{
 editorStatus
 =
 nsIEditingSession
@@ -2612,6 +2621,7 @@ nsIEditingSession
 :
 eEditorOK
 ;
+}
 }
 /
 /
@@ -2650,7 +2660,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 !
@@ -2679,9 +2688,14 @@ refCon
 ;
 if
 (
+!
 editor
 )
 {
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIDOMDocument
@@ -2746,10 +2760,6 @@ nsISupports
 )
 uri
 )
-;
-}
-return
-NS_OK
 ;
 }
 return
