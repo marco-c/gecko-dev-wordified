@@ -14126,10 +14126,6 @@ return
 NS_OK
 ;
 }
-ConsoleError
-(
-)
-;
 return
 CloseConnection
 (
