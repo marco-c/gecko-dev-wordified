@@ -2311,14 +2311,6 @@ ins
 )
 ;
 void
-visitSimdSwizzle
-(
-MSimdSwizzle
-*
-ins
-)
-;
-void
 visitSimdGeneralShuffle
 (
 MSimdGeneralShuffle

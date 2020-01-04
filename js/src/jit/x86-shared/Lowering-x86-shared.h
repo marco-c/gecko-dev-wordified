@@ -536,6 +536,14 @@ ins
 )
 ;
 void
+visitSimdSwizzle
+(
+MSimdSwizzle
+*
+ins
+)
+;
+void
 visitSimdValueX4
 (
 MSimdValueX4

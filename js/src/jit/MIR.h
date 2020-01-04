@@ -12010,6 +12010,16 @@ arity_
 public
 :
 unsigned
+numLanes
+(
+)
+const
+{
+return
+arity_
+;
+}
+unsigned
 lane
 (
 unsigned
