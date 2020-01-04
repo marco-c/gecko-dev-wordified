@@ -494,8 +494,7 @@ AsAccessible
 ;
 }
 inline
-Accessible
-*
+AccessibleOrProxy
 xpcAccessibleValue
 :
 :
@@ -515,10 +514,6 @@ this
 -
 >
 mIntl
-.
-AsAccessible
-(
-)
 ;
 }
 }
