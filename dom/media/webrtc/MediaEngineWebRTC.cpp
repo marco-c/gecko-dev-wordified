@@ -319,6 +319,7 @@ nsTArray
 <
 int
 >
+*
 AudioInputCubeb
 :
 :
@@ -328,6 +329,7 @@ nsTArray
 <
 nsCString
 >
+*
 AudioInputCubeb
 :
 :
