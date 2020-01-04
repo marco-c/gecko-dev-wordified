@@ -4632,11 +4632,6 @@ NeedToSkipToNextKeyframe
 (
 )
 ;
-void
-AdjustAudioThresholds
-(
-)
-;
 /
 /
 The
@@ -7905,10 +7900,7 @@ it
 has
 stopped
 .
-Watchable
-<
 bool
->
 mAudioCaptured
 ;
 /
@@ -8697,10 +8689,7 @@ seek
 operation
 soon
 .
-Watchable
-<
 bool
->
 mSentFirstFrameLoadedEvent
 ;
 bool
