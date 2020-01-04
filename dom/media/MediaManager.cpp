@@ -10865,7 +10865,7 @@ uses
 /
 (
 see
-IsURIPotentiallyTrustworthy
+IsOriginPotentiallyTrustworthy
 (
 )
 )
