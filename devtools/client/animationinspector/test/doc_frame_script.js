@@ -48,6 +48,13 @@ zero
 /
 *
 /
+/
+*
+globals
+addMessageListener
+sendAsyncMessage
+*
+/
 "
 use
 strict
@@ -134,6 +141,7 @@ s
 animationPlayers
 to
 play
+*
 or
 pause
 *
@@ -836,8 +844,6 @@ superSelector
 )
 ;
 }
-else
-{
 let
 rootSelector
 =
@@ -905,5 +911,4 @@ contentWindow
 document
 )
 ;
-}
 }

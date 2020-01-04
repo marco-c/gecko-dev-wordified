@@ -149,6 +149,13 @@ openAnimationInspector
 )
 ;
 let
+players
+=
+controller
+.
+animationPlayers
+;
+let
 btn
 =
 panel
@@ -209,9 +216,7 @@ false
 ;
 ok
 (
-controller
-.
-animationPlayers
+players
 .
 every
 (
@@ -245,9 +250,7 @@ to
 ;
 ok
 (
-controller
-.
-animationPlayers
+players
 .
 every
 (
@@ -363,9 +366,7 @@ false
 ;
 ok
 (
-controller
-.
-animationPlayers
+players
 .
 every
 (
@@ -399,9 +400,7 @@ to
 ;
 ok
 (
-controller
-.
-animationPlayers
+players
 .
 every
 (

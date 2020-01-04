@@ -98,6 +98,8 @@ sync
 with
 TIME_GRADUATION_MIN_SPACING
 in
+/
+/
 animation
 -
 timeline
