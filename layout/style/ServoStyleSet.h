@@ -201,6 +201,9 @@ ServoStyleSheet
 namespace
 mozilla
 class
+nsIDocument
+;
+class
 nsStyleContext
 ;
 class
@@ -245,6 +248,10 @@ ServoStyleSet
 {
 public
 :
+ServoStyleSet
+(
+)
+;
 void
 Init
 (
@@ -622,6 +629,11 @@ aPseudoElement
 EventStates
 aStateMask
 )
+;
+private
+:
+int32_t
+mBatching
 ;
 }
 ;
