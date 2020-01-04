@@ -2199,8 +2199,8 @@ changed
 *
 100
 )
-                    
 or
+                    
 0
 )
 /
@@ -2974,8 +2974,8 @@ changed
 *
 100
 )
-                        
 or
+                        
 0
 )
 /
@@ -4975,7 +4975,6 @@ clobber
 #
 if
 clobber
-on
 remove
 the
 stage
