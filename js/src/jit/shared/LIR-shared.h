@@ -24312,6 +24312,8 @@ LInstructionHelper
 <
 BOX_PIECES
 1
++
+BOX_PIECES
 0
 >
 {
@@ -24321,6 +24323,13 @@ LIR_HEADER
 (
 GetPropertyCacheV
 )
+static
+const
+size_t
+Id
+=
+1
+;
 explicit
 LGetPropertyCacheV
 (
@@ -24391,6 +24400,8 @@ LInstructionHelper
 <
 1
 1
++
+BOX_PIECES
 0
 >
 {
@@ -24400,6 +24411,13 @@ LIR_HEADER
 (
 GetPropertyCacheT
 )
+static
+const
+size_t
+Id
+=
+1
+;
 explicit
 LGetPropertyCacheT
 (

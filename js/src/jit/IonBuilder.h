@@ -6490,6 +6490,9 @@ annotateGetPropertyCache
 MDefinition
 *
 obj
+PropertyName
+*
+name
 MGetPropertyCache
 *
 getPropCache
