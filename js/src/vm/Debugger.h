@@ -783,7 +783,9 @@ compartment
 )
 -
 >
-options_
+creationOptions
+(
+)
 .
 mergeable
 (
@@ -803,7 +805,9 @@ compartment
 )
 -
 >
-options_
+creationOptions
+(
+)
 .
 invisibleToDebugger
 (
@@ -7878,7 +7882,7 @@ compartment
 )
 -
 >
-options
+creationOptions
 (
 )
 .

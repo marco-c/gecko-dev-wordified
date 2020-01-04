@@ -500,6 +500,10 @@ options
 ;
 options
 .
+behaviors
+(
+)
+.
 setVersion
 (
 JSVERSION_LATEST
@@ -537,7 +541,7 @@ newGlobal
 )
 ;
 /
-*
+/
 Populate
 the
 global
@@ -549,10 +553,10 @@ globals
 like
 Object
 and
+/
+/
 Array
 .
-*
-/
 if
 (
 !

@@ -91,7 +91,7 @@ cx
 JS
 :
 :
-CompartmentOptionsRef
+CompartmentBehaviorsRef
 (
 cx
 -

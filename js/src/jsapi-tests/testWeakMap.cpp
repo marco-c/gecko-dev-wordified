@@ -1326,6 +1326,10 @@ options
 ;
 options
 .
+behaviors
+(
+)
+.
 setVersion
 (
 JSVERSION_LATEST
@@ -1338,10 +1342,6 @@ RootedObject
 global
 (
 cx
-)
-;
-global
-=
 JS_NewGlobalObject
 (
 cx
@@ -1357,6 +1357,15 @@ JS
 FireOnNewGlobalHook
 options
 )
+)
+;
+if
+(
+!
+global
+)
+return
+nullptr
 ;
 JS_SetReservedSlot
 (

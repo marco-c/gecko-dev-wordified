@@ -18188,6 +18188,10 @@ aGlobal
 {
 aOptions
 .
+creationOptions
+(
+)
+.
 setTrace
 (
 CreateGlobalOptions

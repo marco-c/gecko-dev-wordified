@@ -1498,6 +1498,10 @@ global
 .
 aOptions
 .
+creationOptions
+(
+)
+.
 setTrace
 (
 XPCWrappedNative

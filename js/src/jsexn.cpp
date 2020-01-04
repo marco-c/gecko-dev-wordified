@@ -4627,7 +4627,13 @@ addonId
 comp
 -
 >
-addonId
+creationOptions
+(
+)
+.
+addonIdOrNull
+(
+)
 ;
 /
 /

@@ -224,13 +224,6 @@ JS
 CompartmentOptions
 options
 ;
-options
-.
-setVersion
-(
-JSVERSION_LATEST
-)
-;
 JS
 :
 :
