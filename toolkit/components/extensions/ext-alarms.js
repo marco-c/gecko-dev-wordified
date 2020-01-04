@@ -632,6 +632,9 @@ get
 :
 function
 (
+.
+.
+.
 args
 )
 {
@@ -758,10 +761,11 @@ extension
 let
 result
 =
-alarms
+Array
 .
-map
+from
 (
+alarms
 alarm
 =
 >
