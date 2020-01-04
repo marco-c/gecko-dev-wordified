@@ -4897,12 +4897,12 @@ NO
 LONGER
 USING
 8
-DeprecatedRestoredRegExpStatics
-=
+/
+/
+NO
+LONGER
+USING
 9
-/
-/
-Unknown
 DeprecatedLanguageExtensionCount
 }
 ;
