@@ -462,7 +462,14 @@ replacedWith
 myWidget
 clearOnEnter
 :
-true
+getOption
+(
+cm
+options
+"
+clearOnEnter
+"
+)
 __isFold
 :
 true
@@ -1104,6 +1111,9 @@ minFoldSize
 scanUp
 :
 false
+clearOnEnter
+:
+true
 }
 ;
 CodeMirror

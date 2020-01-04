@@ -324,6 +324,12 @@ found
 &
 &
 (
+found
+=
+=
+0
+|
+|
 lineText
 .
 slice
