@@ -894,7 +894,8 @@ WidgetToScreenOffset
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 CaptureMouse
 (
 bool

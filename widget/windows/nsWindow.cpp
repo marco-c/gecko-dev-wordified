@@ -24629,7 +24629,7 @@ capture
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -24708,9 +24708,6 @@ TrackMouseEvent
 &
 mTrack
 )
-;
-return
-NS_OK
 ;
 }
 /
