@@ -771,6 +771,17 @@ url
 ;
 public
 abstract
+Cursor
+getBookmarksForPartialUrl
+(
+ContentResolver
+cr
+String
+partialUrl
+)
+;
+public
+abstract
 void
 removeBookmarksWithURL
 (
