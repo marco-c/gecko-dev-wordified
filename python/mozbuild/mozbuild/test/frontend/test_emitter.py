@@ -1430,8 +1430,6 @@ available
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2003,8 +2001,6 @@ exist
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2057,8 +2053,6 @@ exist
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2116,8 +2110,6 @@ py
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2412,8 +2404,6 @@ exist
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2487,8 +2477,6 @@ GENERATED_FILES
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -2837,8 +2825,6 @@ TEST_HARNESS_FILES
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -4537,8 +4523,6 @@ exist
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
@@ -8106,8 +8090,6 @@ FINAL_TARGET_PP_FILES
 )
 :
             
-objs
-=
 self
 .
 read_topsrcdir
