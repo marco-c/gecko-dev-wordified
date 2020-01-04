@@ -4262,7 +4262,11 @@ node
 =
 >
 true
+{
+toggleDelay
+:
 GUTTER_ERROR_PANEL_DELAY
+}
 )
 ;
 }
