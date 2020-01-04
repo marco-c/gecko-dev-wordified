@@ -34698,7 +34698,7 @@ ParseNode
 pn
 bool
 *
-letDecl
+letBlockScope
 )
 {
 /
@@ -34813,7 +34813,7 @@ bug
 1069480
 .
 *
-letDecl
+letBlockScope
 =
 pn
 -
@@ -34826,7 +34826,7 @@ PNK_LEXICALSCOPE
 MOZ_ASSERT_IF
 (
 *
-letDecl
+letBlockScope
 pn
 -
 >
@@ -34956,7 +34956,7 @@ if
 (
 !
 *
-letDecl
+letBlockScope
 )
 {
 emittingForInit
@@ -35160,7 +35160,7 @@ pn_kid1
 nullptr
 ;
 bool
-letDecl
+letBlockScope
 =
 false
 ;
@@ -35174,7 +35174,7 @@ emitForInOrOfVariables
 (
 loopDecl
 &
-letDecl
+letBlockScope
 )
 )
 return
@@ -35323,7 +35323,7 @@ cx
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -36019,7 +36019,7 @@ false
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -36128,7 +36128,7 @@ forHead
 pn_kid1
 ;
 bool
-letDecl
+letBlockScope
 =
 false
 ;
@@ -36142,7 +36142,7 @@ emitForInOrOfVariables
 (
 loopDecl
 &
-letDecl
+letBlockScope
 )
 )
 return
@@ -36328,7 +36328,7 @@ cx
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -36811,7 +36811,7 @@ false
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -38397,7 +38397,7 @@ ParseNode
 pn
 bool
 *
-letDecl
+letBlockScope
 )
 {
 /
@@ -38512,7 +38512,7 @@ bug
 1069480
 .
 *
-letDecl
+letBlockScope
 =
 pn
 -
@@ -38525,7 +38525,7 @@ PNK_LEXICALSCOPE
 MOZ_ASSERT_IF
 (
 *
-letDecl
+letBlockScope
 pn
 -
 >
@@ -38655,7 +38655,7 @@ if
 (
 !
 *
-letDecl
+letBlockScope
 )
 {
 emittingForInit
@@ -38748,13 +38748,9 @@ ParseNode
 forHead
 =
 pn
-?
-pn
 -
 >
 pn_left
-:
-nullptr
 ;
 MOZ_ASSERT
 (
@@ -38772,26 +38768,18 @@ ParseNode
 forHeadExpr
 =
 forHead
-?
-forHead
 -
 >
 pn_kid3
-:
-nullptr
 ;
 ParseNode
 *
 forBody
 =
 pn
-?
-pn
 -
 >
 pn_right
-:
-nullptr
 ;
 ptrdiff_t
 top
@@ -38805,16 +38793,12 @@ ParseNode
 loopDecl
 =
 forHead
-?
-forHead
 -
 >
 pn_kid1
-:
-nullptr
 ;
 bool
-letDecl
+letBlockScope
 =
 false
 ;
@@ -38828,7 +38812,7 @@ emitComprehensionForInOrOfVariables
 (
 loopDecl
 &
-letDecl
+letBlockScope
 )
 )
 return
@@ -38971,7 +38955,7 @@ cx
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -39520,7 +39504,7 @@ false
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -39623,7 +39607,7 @@ forHead
 pn_kid1
 ;
 bool
-letDecl
+letBlockScope
 =
 false
 ;
@@ -39637,7 +39621,7 @@ emitComprehensionForInOrOfVariables
 (
 loopDecl
 &
-letDecl
+letBlockScope
 )
 )
 return
@@ -39823,7 +39807,7 @@ cx
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
@@ -40306,7 +40290,7 @@ false
 ;
 if
 (
-letDecl
+letBlockScope
 )
 {
 if
