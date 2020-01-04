@@ -5387,6 +5387,14 @@ TrackInfo
 :
 :
 kVideoTrack
+|
+|
+mParent
+-
+>
+IsMediaSource
+(
+)
 )
 {
 return
