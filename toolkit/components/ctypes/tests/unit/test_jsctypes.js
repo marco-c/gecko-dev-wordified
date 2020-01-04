@@ -23233,7 +23233,7 @@ void_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -23257,7 +23257,7 @@ array
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -23277,7 +23277,7 @@ int64_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 /
