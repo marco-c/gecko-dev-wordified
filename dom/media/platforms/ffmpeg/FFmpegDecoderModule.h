@@ -495,7 +495,7 @@ mp4
 )
 {
 return
-PlatformDecoderModule
+ConversionRequired
 :
 :
 kNeedAVCC
@@ -504,6 +504,9 @@ kNeedAVCC
 else
 {
 return
+ConversionRequired
+:
+:
 kNeedNone
 ;
 }

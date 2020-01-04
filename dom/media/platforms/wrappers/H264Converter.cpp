@@ -247,6 +247,9 @@ mConfig
 PlatformDecoderModule
 :
 :
+ConversionRequired
+:
+:
 kNeedAVCC
 )
 mLastError
