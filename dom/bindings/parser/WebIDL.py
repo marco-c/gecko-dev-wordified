@@ -31742,6 +31742,14 @@ identifier
 =
 =
 "
+NeedsSubjectPrincipal
+"
+or
+              
+identifier
+=
+=
+"
 BinaryName
 "
 )
@@ -37184,6 +37192,14 @@ identifier
 =
 "
 BinaryName
+"
+or
+              
+identifier
+=
+=
+"
+NeedsSubjectPrincipal
 "
 or
               
