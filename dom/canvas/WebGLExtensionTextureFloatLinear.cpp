@@ -66,6 +66,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

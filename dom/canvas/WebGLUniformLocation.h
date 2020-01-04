@@ -170,6 +170,9 @@ webgl
 struct
 LinkedProgramInfo
 ;
+struct
+UniformInfo
+;
 }
 /
 /

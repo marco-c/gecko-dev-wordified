@@ -102,6 +102,13 @@ _CANVASUTILS_H_
 #
 include
 "
+CanvasRenderingContextHelper
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CheckedInt

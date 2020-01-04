@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 WebGLActiveInfo
 .
 h
@@ -2511,7 +2518,7 @@ return
 false
 ;
 }
-GLsizei
+uint32_t
 requiredAlignment
 =
 0

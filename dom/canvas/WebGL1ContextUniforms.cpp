@@ -117,7 +117,7 @@ integerMode
 /
 GLenum
 type
-GLsizei
+uint32_t
 *
 out_alignment
 const

@@ -122,6 +122,13 @@ WebGLObjectModel
 .
 h
 "
+#
+include
+"
+WebGLStrongTypes
+.
+h
+"
 namespace
 mozilla
 {

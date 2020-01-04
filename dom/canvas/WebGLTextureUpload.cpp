@@ -115,6 +115,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 GLBlitHelper
 .
 h
