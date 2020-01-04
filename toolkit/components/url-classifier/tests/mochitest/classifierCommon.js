@@ -118,9 +118,7 @@ sendAsyncMessage
 "
 updateError
 "
-{
 errorCode
-}
 )
 ;
 }
