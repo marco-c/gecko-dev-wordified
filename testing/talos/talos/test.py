@@ -971,6 +971,20 @@ sessionRestored
 "
 "
     
+extensions
+=
+'
+{
+talos
+}
+/
+startup_test
+/
+sessionrestore
+/
+addon
+'
+    
 cycles
 =
 10
@@ -1024,6 +1038,11 @@ reinstall
 sessionstore
 .
 js
+'
+'
+sessionCheckpoints
+.
+json
 '
 ]
     
