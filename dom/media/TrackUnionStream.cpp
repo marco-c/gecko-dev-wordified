@@ -870,7 +870,7 @@ i
 ]
 -
 >
-PassTrackThrough
+AllowCreationOf
 (
 tracks
 -

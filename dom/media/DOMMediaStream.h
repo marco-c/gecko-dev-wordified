@@ -230,6 +230,10 @@ MediaStreamGraph
 class
 ProcessedMediaStream
 ;
+enum
+class
+BlockingMode
+;
 namespace
 dom
 {
@@ -2065,6 +2069,8 @@ BlockSourceTrackId
 (
 TrackID
 aTrackId
+BlockingMode
+aBlockingMode
 )
 ;
 private
