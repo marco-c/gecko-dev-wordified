@@ -1,3 +1,7 @@
+from
+os
+import
+environ
 #
 Loop
 server
@@ -7,6 +11,15 @@ CONTENT_SERVER_PORT
 3001
 LOOP_SERVER_PORT
 =
+environ
+.
+get
+(
+"
+LOOP_SERVER_PORT
+"
+)
+or
 5001
 LOOP_SERVER_URL
 =
