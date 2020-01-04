@@ -1691,15 +1691,6 @@ void
 SetColor
 (
 const
-gfxRGBA
-&
-aColor
-)
-;
-void
-SetColor
-(
-const
 mozilla
 :
 :
