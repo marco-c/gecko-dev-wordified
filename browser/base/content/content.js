@@ -876,8 +876,14 @@ docLocation
 doc
 .
 location
+?
+doc
+.
+location
 .
 href
+:
+undefined
 ;
 let
 charSet
