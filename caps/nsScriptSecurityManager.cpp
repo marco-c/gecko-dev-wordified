@@ -7190,6 +7190,11 @@ nsIPrincipal
 aPrincipal
 )
 {
+NS_ENSURE_STATE
+(
+aLoadContext
+)
+;
 DocShellOriginAttributes
 docShellAttrs
 ;
