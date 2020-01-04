@@ -436,6 +436,15 @@ wptrunner
                 
 "
 -
+Z
+"
+"
+replace
+-
+surrogates
+"
+"
+-
 z
 "
 self
@@ -1328,6 +1337,9 @@ load
 webfonts
 -
 synchronously
+replace
+-
+surrogates
 "
                  
 "

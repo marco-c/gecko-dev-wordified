@@ -2126,7 +2126,10 @@ self
 .
 result
 =
+(
 None
+None
+)
         
 self
 .
@@ -2340,6 +2343,9 @@ if
 self
 .
 result
+[
+1
+]
 is
 None
 :
@@ -2359,10 +2365,6 @@ a
 result
 "
 )
-            
-assert
-not
-flag
             
 self
 .
@@ -2975,7 +2977,8 @@ is
 None
 }
         
-return
+rv
+=
 marionette
 .
 execute_async_script
@@ -2985,6 +2988,9 @@ new_sandbox
 =
 False
 )
+        
+return
+rv
 class
 MarionetteRefTestExecutor
 (
@@ -3512,7 +3518,10 @@ self
 .
 result
 =
+(
 None
+None
+)
         
 self
 .
@@ -3643,13 +3652,12 @@ if
 self
 .
 result
+[
+1
+]
 is
 None
 :
-            
-assert
-not
-flag
             
 self
 .

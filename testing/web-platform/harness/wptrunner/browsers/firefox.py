@@ -927,6 +927,16 @@ join
 (
 hostnames
 )
+                                      
+"
+places
+.
+history
+.
+enabled
+"
+:
+False
 }
 )
         
@@ -968,6 +978,7 @@ disable
 hwaccel
         
 if
+(
 self
 .
 e10s
@@ -987,8 +998,7 @@ Microsoft
 "
 )
 and
-\
-           
+            
 '
 5
 .
@@ -999,6 +1009,7 @@ platform
 .
 version
 (
+)
 )
 :
             
