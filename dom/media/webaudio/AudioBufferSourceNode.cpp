@@ -581,12 +581,13 @@ START
 ;
 mStart
 =
+aParam
+*
 mDestination
 -
 >
-SecondsToNearestStreamTime
+SampleRate
 (
-aParam
 )
 ;
 /
