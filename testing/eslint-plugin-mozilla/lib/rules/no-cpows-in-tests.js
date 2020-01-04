@@ -762,10 +762,6 @@ helpers
 getIsGlobalScope
 (
 context
-.
-getAncestors
-(
-)
 )
 )
 {
