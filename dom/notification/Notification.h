@@ -1792,6 +1792,15 @@ ErrorResult
 rv
 )
 ;
+static
+NotificationPermission
+TestPermission
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 bool
 DispatchClickEvent
 (
