@@ -1452,6 +1452,10 @@ nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE
+uint16_t
+aPointerId
+=
+0
 )
 ;
 virtual
