@@ -10562,7 +10562,7 @@ QuickExit
 )
 ;
 #
-endif
+else
 if
 (
 sFirstIdleTask
@@ -10665,6 +10665,11 @@ XRE_ShutdownChildProcess
 (
 )
 ;
+#
+endif
+/
+/
+NS_FREE_PERMANENT_DATA
 }
 void
 ContentChild
