@@ -296,6 +296,10 @@ const
 ExperimentalTextFormatting
 &
 formatting
+=
+ExperimentalTextFormatting
+(
+)
 )
 ;
 }

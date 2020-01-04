@@ -318,7 +318,7 @@ class
 UnownedBaseShape
 ;
 class
-WasmModuleObject
+WasmInstanceObject
 ;
 namespace
 jit
@@ -738,7 +738,7 @@ D
 js
 :
 :
-WasmModuleObject
+WasmInstanceObject
 *
 )
 \

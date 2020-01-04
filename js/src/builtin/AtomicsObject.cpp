@@ -514,7 +514,7 @@ include
 "
 asmjs
 /
-WasmModule
+WasmInstance
 .
 h
 "
@@ -3659,9 +3659,9 @@ runtimeFromMainThread
 wasm
 :
 :
-Module
+Instance
 &
-module
+instance
 =
 rt
 -
@@ -3671,14 +3671,14 @@ wasmActivationStack
 )
 -
 >
-module
+instance
 (
 )
 ;
 *
 heap
 =
-module
+instance
 .
 heap
 (
@@ -3695,7 +3695,7 @@ void
 *
 length
 =
-module
+instance
 .
 heapLength
 (

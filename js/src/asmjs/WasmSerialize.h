@@ -860,7 +860,7 @@ if
 vec
 -
 >
-resize
+initLengthUninitialized
 (
 length
 )
