@@ -429,6 +429,10 @@ DisconnectFromOwner
 (
 )
 {
+mControllerWorker
+=
+nullptr
+;
 RemoveReadyPromise
 (
 )
