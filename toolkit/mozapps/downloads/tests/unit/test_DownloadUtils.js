@@ -1166,9 +1166,10 @@ cases
 let
 r
 =
-function
 (
 )
+=
+>
 Math
 .
 floor

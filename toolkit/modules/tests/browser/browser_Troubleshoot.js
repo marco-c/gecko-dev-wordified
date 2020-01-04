@@ -522,10 +522,9 @@ prefs
 .
 forEach
 (
-function
-(
 p
-)
+=
+>
 Services
 .
 prefs
@@ -2123,10 +2122,9 @@ array
 .
 forEach
 (
-function
-(
 elt
-)
+=
+>
 validateObject
 (
 elt

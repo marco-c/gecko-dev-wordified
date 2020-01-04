@@ -298,9 +298,10 @@ mainThread
 .
 dispatch
 (
-function
 (
 )
+=
+>
 deferred
 .
 resolve

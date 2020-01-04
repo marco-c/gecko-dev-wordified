@@ -3267,9 +3267,10 @@ urlTests
 urlTests
 getURL
 :
-function
 (
 )
+=
+>
 AddonRepository
 .
 homepageURL
@@ -3286,9 +3287,10 @@ urlTests
 urlTests
 getURL
 :
-function
 (
 )
+=
+>
 AddonRepository
 .
 getRecommendedURL

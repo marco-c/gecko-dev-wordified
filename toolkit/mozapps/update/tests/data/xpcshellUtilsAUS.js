@@ -22509,9 +22509,10 @@ nsIClassInfo
 SINGLETON
 getScriptableHelper
 :
-function
 (
 )
+=
+>
 null
 getInterfaces
 :
@@ -22779,9 +22780,10 @@ nsIClassInfo
 SINGLETON
 getScriptableHelper
 :
-function
 (
 )
+=
+>
 null
 getInterfaces
 :

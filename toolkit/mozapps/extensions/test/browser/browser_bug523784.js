@@ -238,9 +238,10 @@ false
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 bug523784_test1
 (
 win

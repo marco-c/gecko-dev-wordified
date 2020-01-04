@@ -2140,10 +2140,9 @@ props
 .
 filter
 (
-function
-(
 prop
-)
+=
+>
 !
 /
 URL
@@ -2167,10 +2166,9 @@ props
 .
 filter
 (
-function
-(
 prop
-)
+=
+>
 /
 URL
 /

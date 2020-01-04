@@ -6290,9 +6290,10 @@ nsIClassInfo
 SINGLETON
 getScriptableHelper
 :
-function
 (
 )
+=
+>
 null
 getInterfaces
 :

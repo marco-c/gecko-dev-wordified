@@ -452,9 +452,10 @@ register
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 CustomChromeProtocol
 .
 factory

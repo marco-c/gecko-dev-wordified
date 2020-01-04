@@ -112,6 +112,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -122,6 +124,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -172,6 +176,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -182,6 +188,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -235,6 +243,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -245,6 +255,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -295,6 +307,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -305,6 +319,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -363,6 +379,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -373,6 +391,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -432,6 +452,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -442,6 +464,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "
@@ -501,6 +525,8 @@ get
 disabled
 (
 )
+{
+return
 this
 .
 enabledState
@@ -511,6 +537,8 @@ Ci
 nsIPluginTag
 .
 STATE_DISABLED
+;
+}
 filename
 :
 "

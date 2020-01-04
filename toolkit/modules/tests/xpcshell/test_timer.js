@@ -283,9 +283,10 @@ imported
 .
 setInterval
 (
-function
 (
 )
+=
+>
 do_throw
 (
 "

@@ -814,11 +814,12 @@ results
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 b
 .
 date
