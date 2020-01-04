@@ -1023,7 +1023,7 @@ CancelFromStyle
 (
 )
 {
-DoCancel
+CancelNoUpdate
 (
 )
 ;
@@ -2432,12 +2432,12 @@ aPlaybackRate
 )
 ;
 void
-DoCancel
+CancelNoUpdate
 (
 )
 ;
 void
-DoPlay
+PlayNoUpdate
 (
 ErrorResult
 &
@@ -2447,7 +2447,7 @@ aLimitBehavior
 )
 ;
 void
-DoPause
+PauseNoUpdate
 (
 ErrorResult
 &
