@@ -5952,7 +5952,7 @@ return
 nullptr
 ;
 }
-NS_METHOD
+nsresult
 PushMessageData
 :
 :

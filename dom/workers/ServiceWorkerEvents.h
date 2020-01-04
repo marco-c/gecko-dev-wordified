@@ -996,7 +996,7 @@ PushMessageData
 (
 )
 ;
-NS_METHOD
+nsresult
 EnsureDecodedText
 (
 )
