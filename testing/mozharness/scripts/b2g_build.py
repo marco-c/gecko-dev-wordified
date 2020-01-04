@@ -7143,12 +7143,6 @@ abs_public_upload_dir
 '
 ]
 )
-        
-self
-.
-copy_logs_to_upload_dir
-(
-)
     
 def
 _do_rsync_upload
