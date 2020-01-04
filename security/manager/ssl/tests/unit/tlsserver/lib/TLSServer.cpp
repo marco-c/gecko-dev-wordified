@@ -783,8 +783,11 @@ binLength
 UniquePORTString
 bin
 (
-reinterpret_cast
+BitwiseCast
 <
+char
+*
+unsigned
 char
 *
 >
