@@ -5973,9 +5973,6 @@ CallListenerConnected
 (
 )
 ;
-return
-NS_OK
-;
 }
 /
 /
