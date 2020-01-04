@@ -778,14 +778,6 @@ in
 OBJDIR
     
 '
-fdlibm
-.
-h
-'
-#
-fdlibm
-    
-'
 pratom
 .
 h
