@@ -589,9 +589,9 @@ proxy
 js
 :
 :
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 ;
 bool

@@ -3252,9 +3252,9 @@ JSContext
 cx
 HandleObject
 proxy
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 {
 JS_CHECK_RECURSION
@@ -3284,7 +3284,7 @@ getBuiltinClass
 (
 cx
 proxy
-classValue
+cls
 )
 ;
 }

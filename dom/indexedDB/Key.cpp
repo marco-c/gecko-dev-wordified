@@ -1746,7 +1746,7 @@ toObject
 js
 :
 :
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1780,7 +1780,10 @@ cls
 js
 :
 :
-ESClass_Array
+ESClass
+:
+:
+Array
 )
 {
 aTypeOffset
@@ -1961,7 +1964,10 @@ cls
 js
 :
 :
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 bool

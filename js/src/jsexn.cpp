@@ -6615,7 +6615,7 @@ toObjectOrNull
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -6652,7 +6652,10 @@ if
 cls
 =
 =
-ESClass_Array
+ESClass
+:
+:
+Array
 )
 s
 =
@@ -6667,7 +6670,10 @@ if
 cls
 =
 =
-ESClass_ArrayBuffer
+ESClass
+:
+:
+ArrayBuffer
 )
 s
 =

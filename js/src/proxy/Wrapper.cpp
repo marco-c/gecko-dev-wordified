@@ -1651,9 +1651,9 @@ JSContext
 cx
 HandleObject
 proxy
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 const
 {
@@ -1681,7 +1681,7 @@ GetBuiltinClass
 (
 cx
 target
-classValue
+cls
 )
 ;
 }

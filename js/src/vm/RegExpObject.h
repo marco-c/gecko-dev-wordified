@@ -2972,7 +2972,10 @@ GetBuiltinClass
 obj
 )
 is
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 return
 a
 RegExpShared

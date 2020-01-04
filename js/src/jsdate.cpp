@@ -19097,7 +19097,7 @@ toObject
 Step
 2
 .
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -19122,7 +19122,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 /
@@ -20236,7 +20239,7 @@ toObject
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -20258,7 +20261,10 @@ if
 cls
 =
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 RootedValue
@@ -21330,7 +21336,7 @@ bool
 isValid
 )
 {
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -21352,7 +21358,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 *
@@ -21420,7 +21429,7 @@ double
 msecsSinceEpoch
 )
 {
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -21442,7 +21451,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 *

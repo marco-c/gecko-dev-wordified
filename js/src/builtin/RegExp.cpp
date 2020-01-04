@@ -1849,7 +1849,7 @@ Steps
 .
 *
 /
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1872,7 +1872,10 @@ result
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 ;
 return
 true
@@ -1960,7 +1963,7 @@ get
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1982,7 +1985,10 @@ if
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 )
 {
 /
@@ -2574,7 +2580,7 @@ get
 Step
 4
 .
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -2596,7 +2602,10 @@ if
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 )
 {
 /

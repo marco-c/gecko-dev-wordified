@@ -5544,7 +5544,10 @@ OBJECT8
 /
 /
 Returns
-ESClass_Other
+ESClass
+:
+:
+Other
 if
 the
 value
@@ -5586,9 +5589,9 @@ JSContext
 cx
 HandleValue
 v
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 {
 if
@@ -5602,9 +5605,12 @@ isObject
 )
 {
 *
-classValue
+cls
 =
-ESClass_Other
+ESClass
+:
+:
+Other
 ;
 return
 true
@@ -5627,7 +5633,7 @@ GetBuiltinClass
 (
 cx
 obj
-classValue
+cls
 )
 ;
 }

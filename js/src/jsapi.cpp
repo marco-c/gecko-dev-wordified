@@ -18012,7 +18012,7 @@ cx
 obj
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -18035,7 +18035,10 @@ isArray
 cls
 =
 =
-ESClass_Array
+ESClass
+:
+:
+Array
 ;
 return
 true
@@ -32358,7 +32361,7 @@ cx
 obj
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -32381,7 +32384,10 @@ isDate
 cls
 =
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 ;
 return
 true
@@ -32950,7 +32956,7 @@ cx
 obj
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -32973,7 +32979,10 @@ isRegExp
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 ;
 return
 true
