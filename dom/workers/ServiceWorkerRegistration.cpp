@@ -1787,7 +1787,6 @@ aPromiseProxy
 GetWorkerPrivate
 (
 )
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (
@@ -2344,7 +2343,6 @@ aProxy
 GetWorkerPrivate
 (
 )
-WorkerThreadModifyBusyCount
 )
 mPromiseWorkerProxy
 (
@@ -5592,7 +5590,6 @@ aListener
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mListener
 (

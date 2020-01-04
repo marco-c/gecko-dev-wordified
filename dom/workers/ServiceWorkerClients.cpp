@@ -443,7 +443,6 @@ aRv
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (
@@ -803,7 +802,6 @@ aValue
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (
@@ -1126,7 +1124,6 @@ aResult
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (
@@ -1464,7 +1461,6 @@ aPromiseProxy
 GetWorkerPrivate
 (
 )
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (

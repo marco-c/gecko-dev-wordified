@@ -316,7 +316,6 @@ aClientInfo
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (

@@ -585,6 +585,8 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
+=
+WorkerThreadModifyBusyCount
 )
 #
 ifdef
@@ -1753,6 +1755,8 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
+=
+WorkerThreadModifyBusyCount
 )
 #
 ifdef
@@ -1823,7 +1827,8 @@ class
 for
 WorkerRunnables
 that
-originate
+are
+originated
 on
 the
 main

@@ -811,7 +811,6 @@ aCallback
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mKeepAliveToken
 (
@@ -1809,7 +1808,6 @@ aKeepAliveToken
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 {
 AssertIsOnMainThread
