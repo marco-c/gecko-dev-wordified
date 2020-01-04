@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-BluetoothUuid
+BluetoothUuidHelper
 .
 h
 "

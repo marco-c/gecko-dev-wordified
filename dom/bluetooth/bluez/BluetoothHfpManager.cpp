@@ -168,7 +168,7 @@ h
 #
 include
 "
-BluetoothUuid
+BluetoothUuidHelper
 .
 h
 "

@@ -123,7 +123,7 @@ mozilla_dom_bluetooth_BluetoothProfileController_h
 #
 include
 "
-BluetoothUuid
+BluetoothUuidHelper
 .
 h
 "
