@@ -2483,12 +2483,9 @@ the
 data
 Maybe
 <
-media
-:
-:
-TimeUnit
+SeekTarget
 >
-mOriginalSeekTime
+mOriginalSeekTarget
 ;
 Maybe
 <
