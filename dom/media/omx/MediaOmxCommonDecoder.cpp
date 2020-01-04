@@ -875,15 +875,6 @@ InvokeSeek
 target
 )
 ;
-mNextState
-=
-mPlayState
-;
-ChangeState
-(
-PLAY_STATE_LOADING
-)
-;
 /
 /
 exit
