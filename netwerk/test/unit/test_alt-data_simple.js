@@ -458,7 +458,6 @@ ChannelListener
 (
 readServerContent
 null
-CL_ALLOW_UNKNOWN_CL
 )
 )
 ;

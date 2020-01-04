@@ -671,6 +671,15 @@ size
 override
 ;
 NS_IMETHOD
+GetAltDataSize
+(
+int64_t
+*
+size
+)
+override
+;
+NS_IMETHOD
 OpenInputStream
 (
 int64_t

@@ -473,6 +473,14 @@ ThrowMemoryCachedData
 (
 )
 ;
+nsresult
+GetAltDataSize
+(
+int64_t
+*
+aSize
+)
+;
 /
 /
 metadata
