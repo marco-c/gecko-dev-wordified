@@ -1339,7 +1339,7 @@ l10n
 lookup
 (
 "
-screenshotTooltip
+screenshotTooltipPage
 "
 )
 params
