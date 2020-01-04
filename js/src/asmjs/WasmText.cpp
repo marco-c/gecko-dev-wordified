@@ -420,6 +420,8 @@ AST_LIFO_DEFAULT_CHUNK_SIZE
 /
 wasm
 AST
+namespace
+{
 class
 WasmAstExpr
 ;
@@ -2340,6 +2342,12 @@ op_
 }
 }
 ;
+}
+/
+/
+end
+anonymous
+namespace
 /
 *
 *
@@ -2425,6 +2433,8 @@ wasm
 text
 token
 stream
+namespace
+{
 class
 WasmToken
 {
@@ -9550,6 +9560,12 @@ begin
 )
 ;
 }
+}
+/
+/
+end
+anonymous
+namespace
 /
 *
 *
@@ -9635,6 +9651,8 @@ wasm
 text
 format
 parser
+namespace
+{
 struct
 WasmParseContext
 {
@@ -14218,6 +14236,12 @@ return
 module
 ;
 }
+}
+/
+/
+end
+anonymous
+namespace
 /
 *
 *
