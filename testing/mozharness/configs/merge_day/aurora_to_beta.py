@@ -337,7 +337,16 @@ branding
 /
 aurora
 "
+         
 "
+ac_add_options
+-
+-
+enable
+-
+official
+-
+branding
 "
 )
         
