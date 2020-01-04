@@ -270,7 +270,7 @@ false
 ;
 Services
 .
-pref
+prefs
 .
 clearUserPref
 (
