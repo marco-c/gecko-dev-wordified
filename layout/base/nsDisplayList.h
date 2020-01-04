@@ -2133,6 +2133,7 @@ nsIFrame
 GetIgnoreScrollFrame
 (
 )
+const
 {
 return
 mIgnoreScrollFrame
