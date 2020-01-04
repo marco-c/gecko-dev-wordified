@@ -1684,7 +1684,7 @@ i
 styleContent
 -
 >
-GetCounterResetAt
+CounterResetAt
 (
 i
 )
@@ -1727,7 +1727,7 @@ i
 styleContent
 -
 >
-GetCounterIncrementAt
+CounterIncrementAt
 (
 i
 )
@@ -1754,7 +1754,7 @@ int32_t
 aIndex
 const
 nsStyleCounterData
-*
+&
 aCounterData
 nsCounterNode
 :
@@ -1773,8 +1773,7 @@ nsCounterChangeNode
 aFrame
 aType
 aCounterData
--
->
+.
 mValue
 aIndex
 )
@@ -1786,8 +1785,7 @@ counterList
 CounterListFor
 (
 aCounterData
--
->
+.
 mCounter
 )
 ;
