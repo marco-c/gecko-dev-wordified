@@ -262,6 +262,15 @@ mutable
 bool
 mReportedVideoTrackTelemetry
 ;
+#
+ifndef
+RELEASE_BUILD
+mutable
+bool
+mRustTestMode
+;
+#
+endif
 bool
 ShouldPreferRust
 (
