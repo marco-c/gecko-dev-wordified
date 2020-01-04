@@ -19728,6 +19728,9 @@ multiplier
 case
 LOCAL_GL_RGBA
 :
+case
+LOCAL_GL_BGRA_EXT
+:
 return
 4
 *
@@ -19786,10 +19789,6 @@ format
 <
 <
 format
-;
-MOZ_CRASH
-(
-)
 ;
 return
 0
