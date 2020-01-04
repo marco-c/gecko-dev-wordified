@@ -645,6 +645,11 @@ noReferrer
 json
 .
 noReferrer
+allowMixedContent
+:
+json
+.
+allowMixedContent
 }
 ;
 window
