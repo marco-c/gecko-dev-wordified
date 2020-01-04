@@ -26361,8 +26361,7 @@ if
 !
 stmt
 )
-return
-false
+break
 ;
 if
 (
