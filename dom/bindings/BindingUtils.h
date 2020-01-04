@@ -290,6 +290,15 @@ include
 "
 mozilla
 /
+SegmentedVector
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 workers
@@ -17236,7 +17245,7 @@ Type
 SmartPtr
 ;
 typedef
-nsTArray
+SegmentedVector
 <
 SmartPtr
 >
@@ -17280,7 +17289,7 @@ inline
 void
 AppendAndTake
 (
-nsTArray
+SegmentedVector
 <
 nsCOMPtr
 <
@@ -17296,7 +17305,7 @@ ptr
 {
 smartPtrArray
 .
-AppendElement
+InfallibleAppend
 (
 dont_AddRef
 (
@@ -17315,7 +17324,7 @@ inline
 void
 AppendAndTake
 (
-nsTArray
+SegmentedVector
 <
 RefPtr
 <
@@ -17331,7 +17340,7 @@ ptr
 {
 smartPtrArray
 .
-AppendElement
+InfallibleAppend
 (
 dont_AddRef
 (
@@ -17350,7 +17359,7 @@ inline
 void
 AppendAndTake
 (
-nsTArray
+SegmentedVector
 <
 nsAutoPtr
 <
@@ -17366,7 +17375,7 @@ ptr
 {
 smartPtrArray
 .
-AppendElement
+InfallibleAppend
 (
 ptr
 )
@@ -17504,9 +17513,8 @@ aSlice
 pointers
 -
 >
-RemoveElementsAt
+PopLastN
 (
-newLen
 aSlice
 )
 ;
