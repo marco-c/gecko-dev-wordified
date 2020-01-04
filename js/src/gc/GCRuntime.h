@@ -226,6 +226,9 @@ SystemAllocPolicy
 ZoneVector
 ;
 class
+AutoMaybeStartBackgroundAllocation
+;
+class
 MarkingValidator
 ;
 class
@@ -6624,7 +6627,7 @@ thingSize
 )
 ;
 static
-void
+TenuredCell
 *
 refillFreeListInGC
 (
@@ -6755,7 +6758,7 @@ t
 )
 ;
 static
-void
+TenuredCell
 *
 refillFreeListFromAnyThread
 (
@@ -6769,7 +6772,7 @@ thingSize
 )
 ;
 static
-void
+TenuredCell
 *
 refillFreeListFromMainThread
 (
@@ -6783,7 +6786,7 @@ thingSize
 )
 ;
 static
-void
+TenuredCell
 *
 refillFreeListOffMainThread
 (
@@ -6867,7 +6870,6 @@ friend
 class
 AutoMaybeStartBackgroundAllocation
 ;
-inline
 bool
 wantBackgroundAllocation
 (

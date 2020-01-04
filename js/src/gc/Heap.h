@@ -7019,7 +7019,6 @@ freeArenasHead
 .
 *
 /
-inline
 Arena
 *
 fetchNextFreeArena
