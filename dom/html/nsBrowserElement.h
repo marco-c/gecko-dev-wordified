@@ -751,13 +751,6 @@ aFrameLoader
 nsIBrowserElementAPI
 *
 aAPI
-const
-nsAString
-&
-aManifestURL
-mozIApplication
-*
-aParentApp
 nsTArray
 <
 RefPtr
