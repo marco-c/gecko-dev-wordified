@@ -335,7 +335,7 @@ private
 :
 friend
 class
-CDMProxy
+GMPCDMProxy
 ;
 explicit
 GMPCDMCallbackProxy
