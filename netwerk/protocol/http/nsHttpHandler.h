@@ -3090,9 +3090,11 @@ if
 !
 mRequestTokenBucket
 )
+{
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_NOT_AVAILABLE
 ;
+}
 return
 mRequestTokenBucket
 -
