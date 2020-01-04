@@ -206,9 +206,6 @@ nsWeakPtr
 h
 "
 #
-ifdef
-MOZ_EME
-#
 include
 "
 mozilla
@@ -219,8 +216,6 @@ MediaKeySystemAccessManager
 .
 h
 "
-#
-endif
 class
 nsPluginArray
 ;
@@ -1750,9 +1745,6 @@ JSObject
 aGlobal
 )
 ;
-#
-ifdef
-MOZ_EME
 already_AddRefed
 <
 Promise
@@ -1783,8 +1775,6 @@ MediaKeySystemAccessManager
 >
 mMediaKeySystemAccessManager
 ;
-#
-endif
 public
 :
 void

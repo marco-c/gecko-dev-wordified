@@ -5985,9 +5985,6 @@ offloading
 bool
 mAudioOffloading
 ;
-#
-ifdef
-MOZ_EME
 void
 OnCDMProxyReady
 (
@@ -6018,8 +6015,6 @@ CDMProxyPromise
 >
 mCDMProxyPromise
 ;
-#
-endif
 private
 :
 /

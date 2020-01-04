@@ -24479,9 +24479,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_EME
 static
 void
 CheckIfContainsEMEContent
@@ -24614,11 +24611,6 @@ return
 containsEME
 ;
 }
-#
-endif
-/
-/
-MOZ_EME
 static
 void
 CheckIfContainsMSEContent
@@ -46380,9 +46372,6 @@ endif
 /
 /
 MOZ_WEBRTC
-#
-ifdef
-MOZ_EME
 /
 /
 Don
@@ -46417,8 +46406,6 @@ return
 false
 ;
 }
-#
-endif
 /
 /
 Don

@@ -265,9 +265,6 @@ aDiagnostics
 )
 const
 ;
-#
-ifdef
-MOZ_EME
 /
 /
 Creates
@@ -345,8 +342,6 @@ CDMProxy
 aProxy
 )
 ;
-#
-endif
 static
 constexpr
 int

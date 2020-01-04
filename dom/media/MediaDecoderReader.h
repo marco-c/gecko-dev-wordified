@@ -1489,9 +1489,6 @@ SetIdle
 )
 {
 }
-#
-ifdef
-MOZ_EME
 virtual
 void
 SetCDMProxy
@@ -1502,8 +1499,6 @@ aProxy
 )
 {
 }
-#
-endif
 /
 /
 Tell

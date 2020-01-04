@@ -1716,13 +1716,6 @@ NS_IsMainThread
 )
 )
 ;
-return
-#
-if
-defined
-(
-MOZ_EME
-)
 /
 /
 We
@@ -1737,6 +1730,7 @@ bug
 is
 fixed
 .
+return
 mInfo
 &
 &
@@ -1749,8 +1743,6 @@ IsEncrypted
 )
 &
 &
-#
-endif
 mIsHeuristicDormantSupported
 ;
 }
@@ -2660,9 +2652,6 @@ ResourceCallback
 (
 )
 )
-#
-ifdef
-MOZ_EME
 mCDMProxyPromise
 (
 mCDMProxyPromiseHolder
@@ -2672,8 +2661,6 @@ Ensure
 __func__
 )
 )
-#
-endif
 mIgnoreProgressData
 (
 false
@@ -3198,9 +3185,6 @@ Disconnect
 (
 )
 ;
-#
-ifdef
-MOZ_EME
 mCDMProxyPromiseHolder
 .
 RejectIfExists
@@ -3209,8 +3193,6 @@ true
 __func__
 )
 ;
-#
-endif
 DiscardOngoingSeekIfExists
 (
 )
@@ -8860,9 +8842,6 @@ CanPlayThrough
 )
 ;
 }
-#
-ifdef
-MOZ_EME
 RefPtr
 <
 MediaDecoder
@@ -8914,8 +8893,6 @@ __func__
 )
 ;
 }
-#
-endif
 bool
 MediaDecoder
 :
