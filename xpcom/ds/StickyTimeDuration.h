@@ -1197,9 +1197,9 @@ aB
 0
 )
 ?
-INT64_MAX
-:
 INT64_MIN
+:
+INT64_MAX
 ;
 }
 return
@@ -1356,9 +1356,9 @@ aB
 0
 )
 ?
-INT64_MAX
-:
 INT64_MIN
+:
+INT64_MAX
 ;
 }
 return
