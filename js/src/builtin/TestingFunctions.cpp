@@ -10523,6 +10523,15 @@ AllocationMetadataBuilder
 {
 public
 :
+ShellAllocationMetadataBuilder
+(
+)
+:
+AllocationMetadataBuilder
+(
+)
+{
+}
 virtual
 JSObject
 *
