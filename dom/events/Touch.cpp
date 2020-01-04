@@ -306,7 +306,7 @@ int32_t
 aIdentifier
 LayoutDeviceIntPoint
 aPoint
-nsIntPoint
+LayoutDeviceIntPoint
 aRadius
 float
 aRotationAngle

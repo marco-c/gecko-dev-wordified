@@ -1104,7 +1104,7 @@ LayoutDeviceIntPoint
 aX
 aY
 )
-nsIntPoint
+LayoutDeviceIntPoint
 (
 1
 1

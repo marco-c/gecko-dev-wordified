@@ -925,7 +925,7 @@ aX
 aY
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 radius
 (
 19

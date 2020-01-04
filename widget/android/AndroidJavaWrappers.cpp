@@ -4292,8 +4292,8 @@ offset
 y
 )
 ;
-nsIntPoint
-radii
+LayoutDeviceIntPoint
+radius
 (
 PointRadii
 (
@@ -4337,7 +4337,7 @@ PointIndicies
 i
 ]
 pt
-radii
+radius
 Orientations
 (
 )

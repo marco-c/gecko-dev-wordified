@@ -208,7 +208,7 @@ mScreenPoint
 .
 y
 )
-nsIntPoint
+LayoutDeviceIntPoint
 (
 mRadius
 .

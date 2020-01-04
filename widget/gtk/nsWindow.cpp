@@ -18918,7 +18918,7 @@ Touch
 (
 id
 touchPoint
-nsIntPoint
+LayoutDeviceIntPoint
 (
 1
 1
