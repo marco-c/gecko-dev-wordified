@@ -767,8 +767,8 @@ DetachEditor
 block
 to
 scope
-nsAutoEditInitRulesTrigger
-nsAutoEditInitRulesTrigger
+AutoEditInitRulesTrigger
+AutoEditInitRulesTrigger
 rulesTrigger
 (
 this
