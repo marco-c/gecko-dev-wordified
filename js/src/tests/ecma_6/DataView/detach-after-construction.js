@@ -41,10 +41,7 @@ buf
 new
 ArrayBuffer
 (
-[
-1
 2
-]
 )
 ;
 var
