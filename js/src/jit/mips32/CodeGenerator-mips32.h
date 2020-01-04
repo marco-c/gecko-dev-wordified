@@ -323,6 +323,14 @@ line
 visitors
 .
 void
+visitOutOfLineBailout
+(
+OutOfLineBailout
+*
+ool
+)
+;
+void
 visitOutOfLineTableSwitch
 (
 OutOfLineTableSwitch

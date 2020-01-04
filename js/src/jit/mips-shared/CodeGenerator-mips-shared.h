@@ -1269,6 +1269,7 @@ of
 line
 visitors
 .
+virtual
 void
 visitOutOfLineBailout
 (
@@ -1276,6 +1277,8 @@ OutOfLineBailout
 *
 ool
 )
+=
+0
 ;
 protected
 :
