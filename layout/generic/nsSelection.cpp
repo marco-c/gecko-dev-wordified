@@ -1038,7 +1038,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 :
 return
 "
@@ -1149,7 +1149,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 :
 case
 SelectionType
@@ -2130,7 +2130,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 :
 return
 8
@@ -2208,7 +2208,7 @@ eFind
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 SelectionType
 :
 :

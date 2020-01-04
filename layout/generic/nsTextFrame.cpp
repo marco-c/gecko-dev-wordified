@@ -37781,7 +37781,7 @@ case
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 :
 aTextPaintStyle
 .
