@@ -5383,13 +5383,10 @@ savedStacks
 .
 setRNGState
 (
-(
 seed
-^
-RNG_MULTIPLIER
-)
-&
-RNG_MASK
+seed
+*
+33
 )
 ;
 return
