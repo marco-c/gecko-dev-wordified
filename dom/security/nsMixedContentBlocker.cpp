@@ -3058,7 +3058,7 @@ proxies
 .
 Compared
 to
-psasive
+passive
 content
 there
 is
