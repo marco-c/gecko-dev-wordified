@@ -3871,6 +3871,8 @@ offset
 =
 =
 total_available_input
+*
+input_channel_count
 )
 ;
 return
