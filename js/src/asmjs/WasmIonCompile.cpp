@@ -16823,6 +16823,11 @@ Expr
 :
 Nop
 :
+*
+def
+=
+nullptr
+;
 return
 true
 ;

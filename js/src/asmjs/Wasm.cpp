@@ -1801,7 +1801,7 @@ expected
 DecodeExpr
 (
 f
-expected
+type
 )
 ;
 }
