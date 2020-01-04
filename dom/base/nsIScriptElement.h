@@ -948,7 +948,7 @@ parser
 parser
 -
 >
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 ;
@@ -996,7 +996,7 @@ parser
 parser
 -
 >
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 ;

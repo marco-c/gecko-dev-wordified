@@ -1630,7 +1630,7 @@ op
 /
 virtual
 void
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 override
@@ -1647,7 +1647,7 @@ op
 /
 virtual
 void
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 override
