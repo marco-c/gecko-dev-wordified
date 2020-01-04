@@ -330,13 +330,6 @@ mAddedObservers
 (
 false
 )
-mTrialCreator
-(
-new
-GMPVideoDecoderTrialCreator
-(
-)
-)
 {
 }
 MediaKeySystemAccessManager
