@@ -667,7 +667,16 @@ aName
 {
 SERVO_DEFAULT
 (
-nullptr
+mozilla
+:
+:
+CounterStyleManager
+:
+:
+GetBuiltinStyle
+(
+NS_STYLE_LIST_STYLE_DISC
+)
 )
 ;
 return
