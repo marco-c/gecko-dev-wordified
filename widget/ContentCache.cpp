@@ -784,8 +784,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -862,8 +860,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -874,8 +870,6 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
@@ -947,8 +941,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -959,8 +951,6 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
@@ -1031,8 +1021,6 @@ LogLevel
 Error
 (
 "
-ContentCache
-:
 0x
 %
 p
@@ -1180,8 +1168,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1192,8 +1178,6 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
@@ -1303,8 +1287,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1363,8 +1345,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1466,8 +1446,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1478,8 +1456,6 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
@@ -1538,8 +1514,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1582,8 +1556,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1638,8 +1610,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1650,8 +1620,6 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
@@ -1718,8 +1686,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1727,8 +1693,6 @@ CacheText
 (
 )
 FAILED
-"
-"
 couldn
 '
 t
@@ -1767,8 +1731,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1776,8 +1738,6 @@ CacheText
 (
 )
 Succeeded
-"
-"
 mText
 .
 Length
@@ -1954,8 +1914,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -1966,13 +1924,13 @@ aWidget
 0x
 %
 p
-"
-"
 aNotification
 =
 %
 s
 )
+"
+"
 mCaret
 =
 {
@@ -2295,8 +2253,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -2411,8 +2367,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -2521,8 +2475,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -2642,8 +2594,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -2683,8 +2633,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -2848,8 +2796,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInChild
-:
 0x
 %
 p
@@ -3264,8 +3210,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -3721,8 +3665,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -3768,8 +3710,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -3862,8 +3802,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -3949,8 +3887,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4062,8 +3998,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4172,8 +4106,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4287,8 +4219,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4353,8 +4283,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4418,8 +4346,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4521,8 +4447,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4653,8 +4577,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4725,8 +4647,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4867,8 +4787,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -4968,8 +4886,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5062,8 +4978,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5167,8 +5081,6 @@ LogLevel
 Error
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5212,8 +5124,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5275,8 +5185,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5320,8 +5228,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5402,8 +5308,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -5752,8 +5656,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -6285,8 +6187,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -6727,8 +6627,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -7073,8 +6971,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -7206,8 +7102,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -7288,8 +7182,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -7367,8 +7259,6 @@ LogLevel
 Warning
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
@@ -7425,8 +7315,6 @@ LogLevel
 Info
 (
 "
-ContentCacheInParent
-:
 0x
 %
 p
