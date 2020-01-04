@@ -1303,18 +1303,6 @@ this
 _onSearchPopupClick
 }
 ;
-/
-/
-The
-popup
-will
-be
-attached
-to
-the
-toolbox
-document
-.
 this
 .
 searchPopup
@@ -1325,8 +1313,6 @@ AutocompletePopup
 inspector
 .
 _toolbox
-.
-doc
 options
 )
 ;
