@@ -999,9 +999,9 @@ JSScript
 :
 setBaselineScript
 (
-JSContext
+JSRuntime
 *
-maybecx
+maybeRuntime
 js
 :
 :
@@ -1054,7 +1054,7 @@ resetWarmUpResetCounter
 ;
 updateBaselineOrIonRaw
 (
-maybecx
+maybeRuntime
 )
 ;
 }
