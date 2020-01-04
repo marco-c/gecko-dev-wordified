@@ -3309,6 +3309,7 @@ it
 *
 /
 static
+const
 nsDefaultMimeTypeEntry
 defaultMimeEntries
 [
@@ -3674,6 +3675,7 @@ it
 *
 /
 static
+const
 nsExtraMimeTypeEntry
 extraMimeEntries
 [
@@ -4434,6 +4436,7 @@ ASCII
 *
 /
 static
+const
 nsDefaultMimeTypeEntry
 nonDecodableExtensions
 [
