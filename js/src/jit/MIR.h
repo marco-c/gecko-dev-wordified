@@ -34590,8 +34590,8 @@ true
 /
 /
 Returns
-an
-object
+the
+value
 to
 use
 as
@@ -34641,7 +34641,7 @@ def
 {
 setResultType
 (
-MIRType_Object
+MIRType_Value
 )
 ;
 }

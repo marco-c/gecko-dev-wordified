@@ -6542,7 +6542,7 @@ LComputeThis
 public
 LInstructionHelper
 <
-1
+BOX_PIECES
 BOX_PIECES
 0
 >

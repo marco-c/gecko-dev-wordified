@@ -2426,7 +2426,7 @@ type
 )
 =
 =
-MIRType_Object
+MIRType_Value
 )
 ;
 MOZ_ASSERT
@@ -2513,7 +2513,7 @@ input
 )
 )
 ;
-define
+defineBox
 (
 lir
 ins
