@@ -276,7 +276,9 @@ button
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 checked
@@ -312,7 +314,7 @@ button
 hasAttribute
 (
 "
-locked
+disabled
 "
 )
 "
