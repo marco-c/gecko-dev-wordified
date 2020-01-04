@@ -85,6 +85,8 @@ tests
 :
         
 "
+"
+"
 This
 method
 is
@@ -96,9 +98,12 @@ variables
 that
 are
 required
+        
 for
 test
 bisection
+"
+"
 "
         
 status
@@ -170,6 +175,8 @@ result
 :
         
 "
+"
+"
 This
 method
 is
@@ -183,12 +190,15 @@ and
 self
 .
 result
+        
 for
 each
 loop
 in
 runtests
 .
+"
+"
 "
         
 self
@@ -213,6 +223,8 @@ tests
 :
         
 "
+"
+"
 Make
 a
 list
@@ -226,6 +238,8 @@ given
 list
 of
 tests
+"
+"
 "
         
 bisectlist
@@ -273,6 +287,8 @@ status
 :
         
 "
+"
+"
 This
 method
 is
@@ -286,6 +302,7 @@ setting
 up
 variables
 and
+        
 getting
 the
 list
@@ -294,6 +311,8 @@ tests
 for
 bisection
 .
+"
+"
 "
         
 if
@@ -335,6 +354,7 @@ one
 .
         
 elif
+(
 '
 loop
 '
@@ -360,9 +380,11 @@ tests
 .
 endswith
 (
+                
 options
 .
 bisectChunk
+)
 )
 :
             
@@ -405,6 +427,8 @@ result
 :
         
 "
+"
+"
 This
 method
 is
@@ -420,6 +444,7 @@ and
 check
 whether
 a
+        
 sanity
 check
 is
@@ -427,6 +452,8 @@ done
 or
 not
 .
+"
+"
 "
         
 self
@@ -463,13 +490,13 @@ necessary
 to
 check
 whether
+        
+#
 options
 .
 bisectChunk
 is
 present
-        
-#
 in
 self
 .
@@ -481,6 +508,8 @@ not
 want
 to
 run
+        
+#
 if
 it
 is
@@ -2114,6 +2143,9 @@ this
 test
 is
 the
+"
+                        
+"
 root
 cause
 for
@@ -2332,6 +2364,8 @@ no
 need
 to
 bisect
+                    
+#
 further
 .
                     
@@ -2534,6 +2568,8 @@ no
 need
 to
 bisect
+                    
+#
 further
 .
                     
@@ -2570,6 +2606,9 @@ this
 test
 is
 the
+"
+                    
+"
 root
 cause
 for
