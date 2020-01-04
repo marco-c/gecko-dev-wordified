@@ -3269,9 +3269,6 @@ VideoDataPromise
 >
 mBaseVideoPromise
 ;
-bool
-mTaskQueueIsBorrowed
-;
 /
 /
 Flags
