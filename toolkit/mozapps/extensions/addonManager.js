@@ -120,17 +120,6 @@ Cr
 =
 Components
 ;
-const
-PREF_EM_UPDATE_INTERVAL
-=
-"
-extensions
-.
-update
-.
-interval
-"
-;
 /
 /
 The
