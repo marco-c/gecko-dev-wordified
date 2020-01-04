@@ -477,6 +477,22 @@ android
 mulet
 '
 )
+        
+'
+extra_args
+'
+:
+{
+            
+'
+flavor
+'
+:
+'
+plain
+'
+        
+}
     
 }
     
