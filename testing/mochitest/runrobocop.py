@@ -4776,9 +4776,17 @@ worstTestResult
 def
 run_test_harness
 (
+parser
 options
 )
 :
+    
+parser
+.
+validate
+(
+options
+)
     
 if
 options
@@ -5124,6 +5132,7 @@ args
 return
 run_test_harness
 (
+parser
 options
 )
 if

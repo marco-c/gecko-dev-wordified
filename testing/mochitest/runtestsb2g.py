@@ -2724,9 +2724,17 @@ local_log
 def
 run_test_harness
 (
+parser
 options
 )
 :
+    
+parser
+.
+validate
+(
+options
+)
     
 #
 create
@@ -3027,6 +3035,7 @@ parse_args
 return
 run_test_harness
 (
+parser
 options
 )
 if
