@@ -2118,14 +2118,12 @@ test
 (
 _sz
 <
-2
+5
 *
 sizeof
 (
 uint32
 )
-+
-3
 E_BADSIZE
 )
 )

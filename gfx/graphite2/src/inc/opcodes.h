@@ -4352,6 +4352,10 @@ if
 (
 !
 newSlot
+|
+|
+!
+is
 )
 DIE
 ;

@@ -1437,9 +1437,6 @@ bytecode_begin
 )
 >
 =
-std
-:
-:
 ptrdiff_t
 (
 _instr_count
@@ -1455,9 +1452,6 @@ bytecode_begin
 )
 >
 =
-std
-:
-:
 ptrdiff_t
 (
 _data_size

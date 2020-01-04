@@ -613,9 +613,6 @@ e
 .
 x
 =
-std
-:
-:
 max
 (
 e
@@ -628,9 +625,6 @@ e
 .
 xm
 =
-std
-:
-:
 min
 (
 e
@@ -1153,9 +1147,6 @@ xm
 endif
 x
 =
-std
-:
-:
 max
 (
 x
@@ -1164,9 +1155,6 @@ _pos
 ;
 xm
 =
-std
-:
-:
 min
 (
 xm
