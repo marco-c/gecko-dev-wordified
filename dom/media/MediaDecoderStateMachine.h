@@ -2515,12 +2515,10 @@ aSample
 )
 ;
 void
-CheckIsAudible
+AudioAudibleChanged
 (
-const
-MediaData
-*
-aSample
+bool
+aAudible
 )
 ;
 void
@@ -6781,6 +6779,9 @@ mAudioQueueListener
 ;
 MediaEventListener
 mVideoQueueListener
+;
+MediaEventListener
+mAudibleListener
 ;
 MediaEventProducerExc
 <
