@@ -1486,6 +1486,16 @@ dirs
 abs_merge_dir
 '
 ]
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
                 
 '
 MOZ_CHROME_MULTILOCALE
@@ -1605,6 +1615,7 @@ s
 '
 %
 (
+                
 locale
 dirs
 [
@@ -1618,6 +1629,16 @@ dirs
 abs_merge_dir
 '
 ]
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
 )
             
 status
@@ -1666,6 +1687,7 @@ s
 '
 %
 (
+                
 locale
 dirs
 [
@@ -1679,6 +1701,16 @@ dirs
 abs_merge_dir
 '
 ]
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
 )
             
 status
