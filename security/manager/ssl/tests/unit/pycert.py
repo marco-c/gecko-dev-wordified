@@ -965,6 +965,16 @@ value
 )
 :
         
+super
+(
+UnknownBaseError
+self
+)
+.
+__init__
+(
+)
+        
 self
 .
 value
@@ -1661,10 +1671,6 @@ RDNSequence
 (
 )
     
-pos
-=
-0
-    
 pattern
 =
 '
@@ -1747,11 +1753,14 @@ utf8String
 '
     
 for
+pos
 (
 nameType
 value
 )
 in
+enumerate
+(
 zip
 (
 split
@@ -1768,6 +1777,7 @@ split
 :
 2
 ]
+)
 )
 :
         
@@ -2114,12 +2124,6 @@ setComponentByPosition
 pos
 rdn
 )
-        
-pos
-=
-pos
-+
-1
     
 if
 tag
@@ -2446,6 +2450,9 @@ return
 time
 class
 Certificate
+(
+object
+)
 :
     
 "
@@ -3395,6 +3402,7 @@ re
 .
 search
 (
+r
 '
 (
 [
@@ -4125,19 +4133,19 @@ ExtKeyUsageSyntax
 (
 )
         
-count
-=
-0
-        
 for
+count
 keyPurpose
 in
+enumerate
+(
 extKeyUsage
 .
 split
 (
 '
 '
+)
 )
 :
             
@@ -4153,11 +4161,6 @@ keyPurposeToOID
 keyPurpose
 )
 )
-            
-count
-+
-=
-1
         
 self
 .
@@ -4187,19 +4190,19 @@ SubjectAltName
 (
 )
         
-count
-=
-0
-        
 for
+count
 dNSName
 in
+enumerate
+(
 dNSNames
 .
 split
 (
 '
 '
+)
 )
 :
             
@@ -4290,11 +4293,6 @@ setComponentByPosition
 count
 generalName
 )
-            
-count
-+
-=
-1
         
 self
 .
@@ -4554,19 +4552,19 @@ find
 :
 ]
         
-pos
-=
-0
-        
 for
+pos
 name
 in
+enumerate
+(
 subtrees
 .
 split
 (
 '
 '
+)
 )
 :
             
@@ -4591,7 +4589,7 @@ directoryName
 stringToDN
 (
 name
-                  
+                                           
 tag
 .
 Tag
@@ -4652,12 +4650,6 @@ setComponentByPosition
 pos
 generalSubtree
 )
-            
-pos
-=
-pos
-+
-1
         
 nameConstraints
 .
@@ -4737,7 +4729,7 @@ BitString
 B
 "
 )
-            
+                          
 critical
 )
     
@@ -5060,16 +5052,16 @@ tagFormatSimple
 )
 )
             
-count
-=
-0
-            
 for
+count
 extension
 in
+enumerate
+(
 self
 .
 extensions
+)
 :
                 
 extensions
@@ -5079,11 +5071,6 @@ setComponentByPosition
 count
 extension
 )
-                
-count
-+
-=
-1
             
 tbsCertificate
 .
