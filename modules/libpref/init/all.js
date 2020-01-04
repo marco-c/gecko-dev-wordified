@@ -6903,16 +6903,6 @@ pref
 "
 apz
 .
-pan_repaint_interval
-"
-250
-)
-;
-pref
-(
-"
-apz
-.
 smooth_scroll_repaint_interval
 "
 75
