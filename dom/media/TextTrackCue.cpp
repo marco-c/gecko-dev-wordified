@@ -250,6 +250,8 @@ Center
 mSize
 =
 100
+.
+0
 ;
 mPauseOnExit
 =
