@@ -714,11 +714,9 @@ VCSToolsScript
 cli_script
 =
 '
-firefox
--
-ui
--
-tests
+runtests
+.
+py
 '
     
 def
@@ -1581,11 +1579,9 @@ run_test
 (
 self
 installer_path
-script_name
 env
 =
 None
-                 
 cleanup
 =
 True
@@ -1621,38 +1617,6 @@ query_abs_dirs
 (
 )
         
-venv_python_path
-=
-self
-.
-query_python_path
-(
-)
-        
-update_script
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-fx_ui_dir
-'
-]
-'
-firefox_ui_harness
-'
-'
-cli_update
-.
-py
-'
-)
-        
 gecko_log
 =
 os
@@ -1674,18 +1638,35 @@ log
 '
 )
         
-#
-Build
-the
-command
-        
 cmd
 =
 [
             
-venv_python_path
+self
+.
+query_python_path
+(
+)
             
-update_script
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+fx_ui_dir
+'
+]
+'
+firefox_ui_harness
+'
+self
+.
+cli_script
+)
             
 '
 -
@@ -1703,6 +1684,16 @@ tests
 are
 stable
 .
+            
+#
+'
+-
+-
+gecko
+-
+log
+'
+gecko_log
             
 '
 -
@@ -2165,12 +2156,6 @@ self
 .
 installer_path
             
-script_name
-=
-self
-.
-cli_script
-            
 env
 =
 self
@@ -2194,11 +2179,9 @@ FirefoxUITests
 cli_script
 =
 '
-firefox
--
-ui
--
-update
+cli_update
+.
+py
 '
     
 def

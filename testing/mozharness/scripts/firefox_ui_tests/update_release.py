@@ -90,24 +90,6 @@ BLOCK
 *
 *
 *
-"
-"
-"
-firefox_ui_updates
-.
-py
-Author
-:
-Armen
-Zambrano
-G
-.
-        
-Henrik
-Skupin
-"
-"
-"
 import
 copy
 import
@@ -2048,12 +2030,6 @@ run_test
 installer_path
 =
 installer_path
-                    
-script_name
-=
-self
-.
-cli_script
                     
 env
 =
