@@ -1645,13 +1645,7 @@ if
 (
 CERT_DecodeCertPackage
 (
-BitwiseCast
-<
-char
-*
-uint8_t
-*
->
+char_ptr_cast
 (
 data
 )
