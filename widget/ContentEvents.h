@@ -884,7 +884,7 @@ reset
 events
 .
 *
-originator
+mOriginator
 is
 a
 weak
@@ -1011,7 +1011,7 @@ aIsTrusted
 aMessage
 eFormEventClass
 )
-originator
+mOriginator
 (
 nullptr
 )
@@ -1079,7 +1079,7 @@ result
 }
 nsIContent
 *
-originator
+mOriginator
 ;
 void
 AssignFormEventData
@@ -1104,7 +1104,7 @@ Don
 '
 t
 copy
-originator
+mOriginator
 due
 to
 a
