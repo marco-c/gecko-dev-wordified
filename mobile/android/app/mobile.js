@@ -10728,17 +10728,6 @@ audioCompeting
 true
 )
 ;
-/
-/
-TODO
-:
-turn
-this
-pref
-default
-on
-in
-bug1264901
 pref
 (
 "
@@ -10748,6 +10737,6 @@ audiochannel
 .
 mediaControl
 "
-false
+true
 )
 ;
