@@ -536,17 +536,6 @@ ErrorResult
 rv
 )
 ;
-/
-/
-SVGTests
-virtual
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 protected
 :
 /

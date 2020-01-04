@@ -275,9 +275,6 @@ const
 nsAString
 &
 aExtension
-const
-bool
-aIsInChrome
 )
 ;
 }
