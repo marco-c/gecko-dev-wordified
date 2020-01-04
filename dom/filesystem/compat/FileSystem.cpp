@@ -407,7 +407,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &

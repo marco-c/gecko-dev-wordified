@@ -345,7 +345,7 @@ Sequence
 <
 OwningNonNull
 <
-Entry
+FileSystemEntry
 >
 >
 sequence

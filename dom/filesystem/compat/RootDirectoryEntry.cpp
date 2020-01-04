@@ -182,7 +182,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &
@@ -429,7 +429,7 @@ IsEmpty
 ;
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 entry
 ;

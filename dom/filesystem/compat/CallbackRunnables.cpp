@@ -215,7 +215,7 @@ EntryCallbackRunnable
 EntryCallback
 *
 aCallback
-Entry
+FileSystemEntry
 *
 aEntry
 )
@@ -399,7 +399,7 @@ Sequence
 <
 OwningNonNull
 <
-Entry
+FileSystemEntry
 >
 >
 sequence

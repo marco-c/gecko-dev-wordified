@@ -162,7 +162,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &
@@ -194,7 +194,7 @@ Sequence
 <
 OwningNonNull
 <
-Entry
+FileSystemEntry
 >
 >
 entries
@@ -267,7 +267,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 mEntries
@@ -319,7 +319,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &

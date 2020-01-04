@@ -1671,7 +1671,7 @@ forget
 }
 already_AddRefed
 <
-Entry
+FileSystemEntry
 >
 DataTransferItem
 :
@@ -1875,7 +1875,7 @@ global
 ;
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 entry
 ;
@@ -2016,7 +2016,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 entries

@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-Entry
+FileSystemBinding
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-FileSystemBinding
+FileSystemEntry
 .
 h
 "
@@ -155,7 +155,7 @@ class
 DirectoryEntry
 :
 public
-Entry
+FileSystemEntry
 {
 public
 :
@@ -163,7 +163,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DirectoryEntry
-Entry
+FileSystemEntry
 )
 DirectoryEntry
 (

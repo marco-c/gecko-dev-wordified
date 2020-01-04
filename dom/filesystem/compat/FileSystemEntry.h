@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_Entry_h
+mozilla_dom_FileSystemEntry_h
 #
 define
-mozilla_dom_Entry_h
+mozilla_dom_FileSystemEntry_h
 #
 include
 "
@@ -183,7 +183,7 @@ class
 OwningFileOrDirectory
 ;
 class
-Entry
+FileSystemEntry
 :
 public
 nsISupports
@@ -195,12 +195,12 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-Entry
+FileSystemEntry
 )
 static
 already_AddRefed
 <
-Entry
+FileSystemEntry
 >
 Create
 (
@@ -312,7 +312,7 @@ mFileSystem
 }
 protected
 :
-Entry
+FileSystemEntry
 (
 nsIGlobalObject
 *
@@ -324,7 +324,7 @@ aFileSystem
 ;
 virtual
 ~
-Entry
+FileSystemEntry
 (
 )
 ;
@@ -358,4 +358,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_Entry_h
+mozilla_dom_FileSystemEntry_h

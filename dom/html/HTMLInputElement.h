@@ -307,13 +307,13 @@ class
 DispatchChangeEventCallback
 ;
 class
-Entry
-;
-class
 File
 ;
 class
 FileList
+;
+class
+FileSystemEntry
 ;
 class
 GetFilesHelper
@@ -4139,7 +4139,7 @@ nsTArray
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &
@@ -8399,7 +8399,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 mEntries

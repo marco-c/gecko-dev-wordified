@@ -172,7 +172,7 @@ EntryCallbackRunnable
 EntryCallback
 *
 aCallback
-Entry
+FileSystemEntry
 *
 aEntry
 )
@@ -193,7 +193,7 @@ mCallback
 ;
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 mEntry
 ;

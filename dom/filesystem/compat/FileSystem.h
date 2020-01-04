@@ -176,7 +176,7 @@ class
 DirectoryEntry
 ;
 class
-Entry
+FileSystemEntry
 ;
 class
 OwningFileOrDirectory
@@ -273,7 +273,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &
