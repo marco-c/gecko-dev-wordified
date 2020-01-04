@@ -756,6 +756,15 @@ D
 js
 :
 :
+WasmTableObject
+*
+)
+\
+D
+(
+js
+:
+:
 jit
 :
 :

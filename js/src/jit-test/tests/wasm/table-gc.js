@@ -244,8 +244,16 @@ should
 hold
 instances
 alive
+and
+instances
+hold
+imported
+tables
+alive
 .
 Nothing
+/
+/
 should
 hold
 the
@@ -512,7 +520,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 i
@@ -528,7 +536,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 assertEq
@@ -1703,7 +1711,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 return

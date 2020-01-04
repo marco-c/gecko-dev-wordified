@@ -3370,6 +3370,13 @@ create
 (
 cx
 tableDesc
+/
+*
+HandleWasmTableObject
+=
+*
+/
+nullptr
 )
 ;
 if
