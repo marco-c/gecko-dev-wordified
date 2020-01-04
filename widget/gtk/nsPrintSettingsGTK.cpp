@@ -2636,7 +2636,7 @@ NS_OK
 *
 aPrinter
 =
-ToNewUnicode
+UTF8ToNewUnicode
 (
 nsDependentCString
 (
