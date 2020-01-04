@@ -252,6 +252,8 @@ JSContext
 cx
 HandleString
 str
+HandleObject
+proto
 NewObjectKind
 newKind
 )
@@ -260,11 +262,12 @@ JSObject
 *
 obj
 =
-NewBuiltinClassInstance
+NewObjectWithClassProto
 (
 cx
 &
 class_
+proto
 newKind
 )
 ;
