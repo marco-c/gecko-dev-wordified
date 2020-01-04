@@ -345,7 +345,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 Object
 jobject
@@ -369,7 +369,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -396,7 +396,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -423,7 +423,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -450,7 +450,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -474,7 +474,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -498,7 +498,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -522,7 +522,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -546,7 +546,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -570,7 +570,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -594,7 +594,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -618,7 +618,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <
@@ -642,7 +642,7 @@ template
 >
 const
 char
-Context
+ObjectBase
 <
 TypedObject
 <

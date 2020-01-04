@@ -1036,13 +1036,6 @@ mEnv
 public
 :
 static
-const
-char
-name
-[
-]
-;
-static
 jclass
 RawClassRef
 (
@@ -1107,6 +1100,9 @@ sClassRef
 GetClassGlobalRef
 (
 mEnv
+Cls
+:
+:
 name
 )
 ;
@@ -1403,6 +1399,13 @@ bool
 isMultithreaded
 =
 true
+;
+static
+const
+char
+name
+[
+]
 ;
 explicit
 ObjectBase
