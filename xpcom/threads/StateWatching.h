@@ -1799,6 +1799,12 @@ forget
 (
 )
 ;
+if
+(
+!
+mDestroyed
+)
+{
 (
 (
 *
@@ -1811,6 +1817,7 @@ mCallbackMethod
 (
 )
 ;
+}
 }
 OwnerType
 *
