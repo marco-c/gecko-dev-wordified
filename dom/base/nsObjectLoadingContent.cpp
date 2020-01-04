@@ -4090,6 +4090,10 @@ mScriptRequested
 (
 false
 )
+mRewrittenYoutubeEmbed
+(
+false
+)
 {
 }
 nsObjectLoadingContent
@@ -10912,6 +10916,10 @@ tag
 )
 ;
 }
+mRewrittenYoutubeEmbed
+=
+false
+;
 /
 /
 Note
@@ -10987,6 +10995,10 @@ rewrittenURI
 newURI
 =
 rewrittenURI
+;
+mRewrittenYoutubeEmbed
+=
+true
 ;
 newMime
 =
