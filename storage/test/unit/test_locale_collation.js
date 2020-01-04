@@ -1341,6 +1341,7 @@ readLine
 line
 )
 )
+{
 lines
 .
 push
@@ -1350,6 +1351,7 @@ line
 value
 )
 ;
+}
 istream
 .
 close

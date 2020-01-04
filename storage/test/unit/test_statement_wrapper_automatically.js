@@ -883,7 +883,7 @@ toSource
 }
 catch
 (
-exc
+ex
 )
 {
 toSource
@@ -1037,6 +1037,7 @@ insertAndCheckMultipleParams
 (
 val
 )
+;
 }
 )
 ;

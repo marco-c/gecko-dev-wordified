@@ -119,7 +119,7 @@ VALUES
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -177,8 +177,6 @@ _sas
 :
 0
 reset
-:
-function
 (
 )
 {
@@ -196,8 +194,6 @@ _sas
 ;
 }
 onStep
-:
-function
 (
 val
 )
@@ -229,8 +225,6 @@ getInt32
 ;
 }
 onFinal
-:
-function
 (
 )
 {
@@ -463,7 +457,13 @@ executeStep
 (
 )
 )
-;
+{
+/
+/
+Do
+nothing
+.
+}
 do_check_eq
 (
 testNums

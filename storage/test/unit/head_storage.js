@@ -155,6 +155,11 @@ Ci
 nsIProperties
 )
 ;
+var
+gDBConn
+=
+null
+;
 function
 getTestDB
 (
@@ -605,11 +610,6 @@ mozIStorageService
 )
 ;
 }
-var
-gDBConn
-=
-null
-;
 /
 *
 *
@@ -1288,9 +1288,7 @@ else
 if
 (
 typeof
-(
 expectedVal
-)
 =
 =
 "
@@ -1358,9 +1356,7 @@ else
 if
 (
 typeof
-(
 expectedVal
-)
 =
 =
 "

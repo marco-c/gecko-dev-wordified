@@ -122,6 +122,7 @@ value
 "
 value1
 "
+;
 stmt
 .
 execute
@@ -162,6 +163,7 @@ value
 "
 value2
 "
+;
 stmt
 .
 execute

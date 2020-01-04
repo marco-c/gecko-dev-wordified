@@ -125,7 +125,7 @@ VALUES
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -203,8 +203,6 @@ abort
 :
 false
 onProgress
-:
-function
 (
 comm
 )
@@ -373,7 +371,13 @@ executeStep
 (
 )
 )
-;
+{
+/
+/
+Do
+nothing
+.
+}
 do_check_true
 (
 testProgressHandler
@@ -465,7 +469,13 @@ executeStep
 (
 )
 )
-;
+{
+/
+/
+Do
+nothing
+.
+}
 do_throw
 (
 "

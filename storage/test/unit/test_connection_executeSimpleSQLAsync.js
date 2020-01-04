@@ -252,8 +252,6 @@ executeSimpleSQLAsync
 query
 {
 handleError
-:
-function
 (
 error
 )
@@ -267,8 +265,6 @@ error
 ;
 }
 handleResult
-:
-function
 (
 result
 )
@@ -299,8 +295,6 @@ expected
 }
 }
 handleCompletion
-:
-function
 (
 result
 )

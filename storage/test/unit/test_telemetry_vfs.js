@@ -57,11 +57,13 @@ createStatement
 (
 sql
 )
+;
 stmt
 .
 execute
 (
 )
+;
 stmt
 .
 finalize
@@ -197,6 +199,7 @@ TABLE
 bloat
 "
 )
+;
 do_check_true
 (
 read_hgram
@@ -209,4 +212,5 @@ sum
 >
 old_sum
 )
+;
 }

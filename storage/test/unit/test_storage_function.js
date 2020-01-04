@@ -118,7 +118,7 @@ VALUES
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -173,8 +173,6 @@ calls
 :
 0
 onFunctionCall
-:
-function
 (
 val
 )
@@ -375,7 +373,13 @@ executeStep
 (
 )
 )
-;
+{
+/
+/
+Do
+nothing
+.
+}
 do_check_eq
 (
 testNums

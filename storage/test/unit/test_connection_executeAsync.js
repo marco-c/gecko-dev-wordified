@@ -1266,16 +1266,12 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 aResultSet
 )
 {
 }
 handleError
-:
-function
 (
 aError
 )
@@ -1319,8 +1315,6 @@ error
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )

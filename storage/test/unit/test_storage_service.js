@@ -597,7 +597,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 do_check_true
@@ -691,6 +691,7 @@ i
 +
 +
 )
+{
 tests
 [
 i
@@ -698,6 +699,7 @@ i
 (
 )
 ;
+}
 cleanup
 (
 )
