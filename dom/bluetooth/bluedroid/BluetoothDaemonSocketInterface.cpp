@@ -183,7 +183,7 @@ ListenCmd
 BluetoothSocketType
 aType
 const
-nsAString
+BluetoothServiceName
 &
 aServiceName
 const
@@ -229,14 +229,7 @@ rv
 PackPDU
 (
 aType
-PackConversion
-<
-nsAString
-BluetoothServiceName
->
-(
 aServiceName
-)
 aServiceUuid
 PackConversion
 <
@@ -1446,7 +1439,7 @@ Listen
 BluetoothSocketType
 aType
 const
-nsAString
+BluetoothServiceName
 &
 aServiceName
 const

@@ -309,7 +309,7 @@ Listen
 BluetoothSocketType
 aType
 const
-nsAString
+BluetoothServiceName
 &
 aServiceName
 const

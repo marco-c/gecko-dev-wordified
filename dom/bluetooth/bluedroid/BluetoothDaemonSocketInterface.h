@@ -228,7 +228,7 @@ ListenCmd
 BluetoothSocketType
 aType
 const
-nsAString
+BluetoothServiceName
 &
 aServiceName
 const
@@ -494,7 +494,7 @@ Listen
 BluetoothSocketType
 aType
 const
-nsAString
+BluetoothServiceName
 &
 aServiceName
 const
