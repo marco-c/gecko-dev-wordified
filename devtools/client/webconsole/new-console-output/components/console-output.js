@@ -357,6 +357,13 @@ dom
 div
 (
 {
+className
+:
+"
+webconsole
+-
+output
+"
 }
 messageNodes
 )
