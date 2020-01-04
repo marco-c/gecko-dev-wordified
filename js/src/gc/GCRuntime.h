@@ -7057,9 +7057,7 @@ lock
 void
 resetIncrementalGC
 (
-const
-char
-*
+AbortReason
 reason
 AutoLockForExclusiveAccess
 &
