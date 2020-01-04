@@ -182,9 +182,6 @@ class
 MessagePortMessage
 ;
 class
-PostMessageRunnable
-;
-class
 SharedMessagePortMessage
 ;
 namespace
@@ -212,10 +209,6 @@ nsIObserver
 friend
 class
 DispatchEventRunnable
-;
-friend
-class
-PostMessageRunnable
 ;
 public
 :
@@ -852,11 +845,6 @@ return
 mIsKeptAlive
 ;
 }
-void
-MaybeClose
-(
-)
-;
 nsAutoPtr
 <
 workers
@@ -957,9 +945,6 @@ mMessageQueueEnabled
 ;
 bool
 mIsKeptAlive
-;
-bool
-mClosing
 ;
 }
 ;
