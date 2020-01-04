@@ -7637,7 +7637,7 @@ not
 mDownscaler
 -
 >
-ClearRow
+ClearRestOfRow
 (
 /
 *
