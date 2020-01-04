@@ -2924,7 +2924,6 @@ function
 (
 aPermName
 aIntStatus
-aAppKind
 )
 {
 /

@@ -277,7 +277,6 @@ function
 aPrincipal
 aPermName
 aAction
-aAppKind
 )
 {
 /
@@ -451,7 +450,6 @@ aPermName
 aPrincipal
 .
 appStatus
-aAppKind
 )
 ;
 return
@@ -789,9 +787,6 @@ type
 aData
 .
 value
-app
-.
-kind
 )
 )
 {

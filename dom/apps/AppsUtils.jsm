@@ -2094,10 +2094,6 @@ aLocalId
 Use
 the
 app
-kind
-and
-the
-app
 status
 to
 choose
