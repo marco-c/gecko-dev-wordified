@@ -4927,6 +4927,10 @@ output
 '
 inputs
 '
+        
+'
+flags
+'
     
 )
     
@@ -4939,6 +4943,10 @@ script
 method
 output
 inputs
+flags
+=
+(
+)
 )
 :
         
@@ -4973,6 +4981,12 @@ self
 inputs
 =
 inputs
+        
+self
+.
+flags
+=
+flags
 class
 ClassPathEntry
 (
