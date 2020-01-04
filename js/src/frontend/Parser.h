@@ -8101,13 +8101,11 @@ Maybe
 DeclarationKind
 >
 maybeDecl
+PossibleError
+*
+possibleError
 =
-mozilla
-:
-:
-Nothing
-(
-)
+nullptr
 )
 ;
 /
