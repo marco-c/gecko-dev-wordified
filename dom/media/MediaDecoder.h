@@ -4466,7 +4466,8 @@ It
 is
 set
 in
-Init
+the
+constructor
 and
 cleared
 in
@@ -4475,10 +4476,10 @@ when
 the
 element
 goes
+/
+/
 away
 .
-/
-/
 The
 decoder
 does
@@ -4491,7 +4492,6 @@ element
 .
 MediaDecoderOwner
 *
-const
 mOwner
 ;
 /

@@ -960,9 +960,7 @@ mDecoder
 mDecoder
 -
 >
-GetOwner
-(
-)
+mOwner
 :
 nullptr
 ;
@@ -3234,7 +3232,7 @@ MainThread
 (
 )
 !
-mOwner
+aOwner
 -
 >
 IsHidden
@@ -3775,6 +3773,10 @@ ChangeState
 (
 PLAY_STATE_SHUTDOWN
 )
+;
+mOwner
+=
+nullptr
 ;
 }
 MediaDecoder
@@ -9749,14 +9751,7 @@ until
 shutdown
 .
 return
-!
-IsShutdown
-(
-)
-?
 mOwner
-:
-nullptr
 ;
 }
 void
