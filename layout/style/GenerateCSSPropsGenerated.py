@@ -91,6 +91,23 @@ CPP
 )
     
 cpp
++
+=
+shellutil
+.
+split
+(
+buildconfig
+.
+substs
+[
+'
+ACDEFINES
+'
+]
+)
+    
+cpp
 .
 append
 (
