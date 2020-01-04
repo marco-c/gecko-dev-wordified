@@ -3485,10 +3485,7 @@ ScreenRotation
 mScreenRotation
 ;
 virtual
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 GetWidgetSize
 (
 )

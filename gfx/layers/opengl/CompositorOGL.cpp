@@ -4319,6 +4319,10 @@ GetTargetSize
 valueOr
 (
 mWidgetSize
+.
+ToUnknownSize
+(
+)
 )
 ;
 if
@@ -4327,6 +4331,10 @@ viewportSize
 !
 =
 mWidgetSize
+.
+ToUnknownSize
+(
+)
 )
 {
 mGLContext

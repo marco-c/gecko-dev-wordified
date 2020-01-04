@@ -1271,7 +1271,7 @@ DrawTarget
 >
 StartRemoteDrawingInRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
@@ -1290,7 +1290,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
@@ -1778,7 +1778,7 @@ DrawTarget
 GetDrawTarget
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )

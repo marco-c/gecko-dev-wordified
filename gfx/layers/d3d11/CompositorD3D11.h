@@ -984,10 +984,7 @@ PaintToTarget
 )
 ;
 virtual
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 GetWidgetSize
 (
 )
@@ -1036,10 +1033,7 @@ nsIWidget
 *
 mWidget
 ;
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 mSize
 ;
 HWND

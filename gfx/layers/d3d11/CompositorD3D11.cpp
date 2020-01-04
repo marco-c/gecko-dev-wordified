@@ -6451,7 +6451,7 @@ Rect
 return
 ;
 }
-IntSize
+LayoutDeviceIntSize
 oldSize
 =
 mSize
@@ -6572,6 +6572,10 @@ IntPoint
 0
 )
 mSize
+.
+ToUnknownSize
+(
+)
 )
 ;
 /
@@ -6881,7 +6885,7 @@ mDefaultRT
 return
 ;
 }
-IntSize
+LayoutDeviceIntSize
 oldSize
 =
 mSize
@@ -7582,10 +7586,6 @@ mSize
 rect
 .
 Size
-(
-)
-.
-ToUnknownSize
 (
 )
 ;
@@ -8332,6 +8332,10 @@ mDefaultRT
 SetSize
 (
 mSize
+.
+ToUnknownSize
+(
+)
 )
 ;
 return

@@ -292,7 +292,7 @@ nsShmImage
 Create
 (
 const
-IntSize
+LayoutDeviceIntSize
 &
 aSize
 Display
@@ -837,6 +837,10 @@ memory
 )
 )
 mSize
+.
+ToUnknownSize
+(
+)
 mImage
 -
 >
@@ -860,7 +864,7 @@ aDisplay
 Drawable
 aWindow
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -876,7 +880,7 @@ aWindow
 nullptr
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 bounded
 ;
 bounded
@@ -884,7 +888,7 @@ bounded
 And
 (
 aRegion
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0
@@ -899,7 +903,10 @@ height
 )
 )
 ;
-nsIntRegionRectIterator
+LayoutDeviceIntRegion
+:
+:
+RectIterator
 iter
 (
 bounded
@@ -908,7 +915,7 @@ bounded
 for
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 *
 r
 =
@@ -1181,7 +1188,7 @@ nsShmImage
 EnsureShmImage
 (
 const
-IntSize
+LayoutDeviceIntSize
 &
 aSize
 Display
