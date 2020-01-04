@@ -10064,8 +10064,9 @@ range
 promise
 -
 >
-MaybeRejectWithUndefined
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -10208,8 +10209,9 @@ aTime
 promise
 -
 >
-MaybeRejectWithUndefined
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -10255,8 +10257,9 @@ decoder
 promise
 -
 >
-MaybeRejectWithUndefined
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -10377,8 +10380,9 @@ length
 promise
 -
 >
-MaybeRejectWithUndefined
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
