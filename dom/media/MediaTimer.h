@@ -174,8 +174,7 @@ namespace
 mozilla
 {
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMediaTimerLog
 ;
 #

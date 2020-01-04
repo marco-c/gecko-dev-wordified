@@ -176,7 +176,10 @@ h
 class
 AsyncLatencyLogger
 ;
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetLatencyLog
 (

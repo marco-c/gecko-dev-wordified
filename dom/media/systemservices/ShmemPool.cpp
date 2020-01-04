@@ -154,8 +154,10 @@ LOG
 undef
 LOG_ENABLED
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gCamerasParentLog
 ;
 #

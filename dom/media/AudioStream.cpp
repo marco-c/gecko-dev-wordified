@@ -236,11 +236,13 @@ undef
 LOG
 #
 endif
-PRLogModuleInfo
-*
+LazyLogModule
 gAudioStreamLog
-=
-nullptr
+(
+"
+AudioStream
+"
+)
 ;
 /
 /
