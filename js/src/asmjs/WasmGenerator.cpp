@@ -2371,6 +2371,18 @@ funcIndex
 return
 false
 ;
+uint32_t
+tableEntry
+=
+funcCodeRange
+(
+funcIndex
+)
+.
+funcTableEntry
+(
+)
+;
 metadata_
 -
 >
@@ -2383,6 +2395,7 @@ Move
 sig
 )
 funcIndex
+tableEntry
 )
 ;
 }
@@ -2767,7 +2780,7 @@ funcExports
 i
 ]
 .
-initStubOffset
+initEntryOffset
 (
 entries
 [

@@ -4112,7 +4112,7 @@ code
 +
 func
 .
-stubOffset
+entryOffset
 (
 )
 )
