@@ -431,7 +431,7 @@ seconds
 const
 PENDING_VISIT_WAIT
 =
-4000
+6000
 ;
 /
 /
