@@ -340,9 +340,6 @@ class
 AddStyleSheetTxn
 ;
 class
-DeleteNodeTxn
-;
-class
 EditAggregateTxn
 ;
 class
@@ -428,6 +425,9 @@ ChangeAttributeTransaction
 ;
 class
 CreateElementTransaction
+;
+class
+DeleteNodeTransaction
 ;
 class
 ErrorResult
@@ -1559,10 +1559,13 @@ CreateTxnForDeleteNode
 nsINode
 *
 aNode
-DeleteNodeTxn
+mozilla
+:
+:
+DeleteNodeTransaction
 *
 *
-aTxn
+aTransaction
 )
 ;
 nsresult
