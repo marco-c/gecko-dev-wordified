@@ -6625,8 +6625,9 @@ uint16_t
 aNumstreams
 )
 {
-PC_AUTO_ENTER_API_CALL_NO_CHECK
+PC_AUTO_ENTER_API_CALL
 (
+false
 )
 ;
 #
@@ -7531,8 +7532,9 @@ InitializeDataChannel
 (
 )
 {
-PC_AUTO_ENTER_API_CALL_NO_CHECK
+PC_AUTO_ENTER_API_CALL
 (
+false
 )
 ;
 CSFLogDebug
@@ -7904,8 +7906,9 @@ nsDOMDataChannel
 aRetval
 )
 {
-PC_AUTO_ENTER_API_CALL_NO_CHECK
+PC_AUTO_ENTER_API_CALL
 (
+false
 )
 ;
 MOZ_ASSERT
