@@ -765,7 +765,7 @@ foo
 in
 e
 .
-msg
+message
 )
     
 def

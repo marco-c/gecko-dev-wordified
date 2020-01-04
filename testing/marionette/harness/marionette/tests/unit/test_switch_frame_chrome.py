@@ -604,5 +604,5 @@ foo
 "
 e
 .
-msg
+message
 )
