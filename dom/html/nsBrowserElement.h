@@ -720,16 +720,6 @@ ErrorResult
 aRv
 )
 ;
-void
-SetNFCFocus
-(
-bool
-isFocus
-ErrorResult
-&
-aRv
-)
-;
 /
 /
 Helper
