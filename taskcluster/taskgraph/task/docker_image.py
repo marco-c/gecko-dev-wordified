@@ -616,28 +616,12 @@ docker
 image_name
 )
             
-context_hash
-=
-generate_context_hash
-(
-context_path
-)
-            
 image_parameters
 =
 dict
 (
 parameters
 )
-            
-image_parameters
-[
-'
-context_hash
-'
-]
-=
-context_hash
             
 image_parameters
 [
@@ -775,12 +759,15 @@ TASK_ID
 image_artifact_path
 )
                 
+context_hash
+=
 cls
 .
 create_context_tar
 (
 context_path
 destination
+                                                      
 image_name
 )
             
@@ -847,6 +834,22 @@ tmp
 '
 +
 image_artifact_path
+                
+context_hash
+=
+generate_context_hash
+(
+context_path
+)
+            
+image_parameters
+[
+'
+context_hash
+'
+]
+=
+context_hash
             
 image_task
 =
@@ -1240,7 +1243,9 @@ image_name
 )
 :
         
-'
+"
+"
+"
 Creates
 a
 tar
@@ -1251,7 +1256,23 @@ particular
 context
 directory
 .
-'
+        
+Returns
+the
+SHA
+-
+256
+hex
+digest
+of
+the
+created
+file
+.
+        
+"
+"
+"
         
 destination
 =
@@ -1297,6 +1318,7 @@ destination
 )
 )
         
+return
 create_context_tar
 (
 context_dir
