@@ -218,6 +218,9 @@ DefineTestingFunctions
 JSContext
 *
 cx
+JS
+:
+:
 HandleObject
 globalObj
 )
