@@ -6134,7 +6134,7 @@ PredictUninvoked
 )
 ;
 Node
-statements
+statementList
 (
 YieldHandling
 yieldHandling
