@@ -14458,6 +14458,7 @@ let
 extension
 =
 {
+id
 startup
 (
 )
