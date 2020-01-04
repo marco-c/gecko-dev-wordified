@@ -264,6 +264,11 @@ NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 nsIUploadChannel
 mUploadChannel
 )
+NS_INTERFACE_MAP_ENTRY_CONDITIONAL
+(
+nsIFormPOSTActionChannel
+mPostChannel
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsIRequest
@@ -566,6 +571,13 @@ mChannel
 )
 ;
 mUploadChannel
+=
+do_QueryInterface
+(
+mChannel
+)
+;
+mPostChannel
 =
 do_QueryInterface
 (
