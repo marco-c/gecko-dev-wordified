@@ -3829,9 +3829,6 @@ obj
 obj
 .
 files
-obj
-.
-target
 )
         
 elif
@@ -3850,10 +3847,6 @@ obj
 obj
 .
 files
-obj
-.
-target
-                                                
 backend_file
 )
         
@@ -10686,9 +10679,14 @@ _process_final_target_files
 self
 obj
 files
-target
 )
 :
+        
+target
+=
+obj
+.
+install_target
         
 if
 target
@@ -10887,7 +10885,6 @@ _process_final_target_pp_files
 self
 obj
 files
-target
 backend_file
 )
 :
@@ -11014,7 +11011,9 @@ mozpath
 .
 join
 (
-target
+obj
+.
+install_target
 path
 )
 )

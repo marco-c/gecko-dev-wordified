@@ -4797,7 +4797,6 @@ __init__
 self
 sandbox
 files
-target
 )
 :
         
@@ -4814,12 +4813,6 @@ self
 files
 =
 files
-        
-self
-.
-target
-=
-target
 class
 FinalTargetPreprocessedFiles
 (
@@ -4902,7 +4895,6 @@ __init__
 self
 sandbox
 files
-target
 )
 :
         
@@ -4919,12 +4911,6 @@ self
 files
 =
 files
-        
-self
-.
-target
-=
-target
 class
 GeneratedFile
 (
