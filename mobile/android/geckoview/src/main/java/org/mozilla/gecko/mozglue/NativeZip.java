@@ -261,17 +261,6 @@ release
 )
 ;
 }
-public
-void
-close
-(
-)
-{
-release
-(
-)
-;
-}
 Override
 public
 void
