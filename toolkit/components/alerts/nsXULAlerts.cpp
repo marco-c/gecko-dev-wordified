@@ -425,9 +425,6 @@ GetInstance
 (
 )
 {
-#
-ifdef
-MOZ_WIDGET_ANDROID
 /
 /
 Gecko
@@ -440,11 +437,9 @@ support
 XUL
 windows
 .
-return
-nullptr
-;
 #
-else
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 !
@@ -465,6 +460,11 @@ gXULAlerts
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WIDGET_ANDROID
 RefPtr
 <
 nsXULAlerts
@@ -484,11 +484,6 @@ forget
 (
 )
 ;
-#
-endif
-/
-/
-MOZ_WIDGET_ANDROID
 }
 NS_IMETHODIMP
 nsXULAlerts
