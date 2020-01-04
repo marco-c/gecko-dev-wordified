@@ -2080,15 +2080,14 @@ aPrincipal
 System
 subscriptions
 use
-XPCOM
 observer
 notifications
 instead
 of
 service
-/
-/
 worker
+/
+/
 events
 .
 The
