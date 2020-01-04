@@ -4013,13 +4013,12 @@ true
 }
 #
 endif
+RefPtr
+<
 nsStyleContext
-*
+>
 mParent
 ;
-/
-/
-STRONG
 /
 /
 Children
