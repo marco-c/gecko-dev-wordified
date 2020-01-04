@@ -15975,6 +15975,16 @@ nsIChannel
 aChannel
 )
 ;
+static
+uint32_t
+CookiesBehavior
+(
+)
+{
+return
+sCookiesBehavior
+;
+}
 /
 /
 The
