@@ -395,6 +395,10 @@ warnedAboutExprClosure
 (
 false
 )
+warnedAboutRegExpMultiline
+(
+false
+)
 addonId
 (
 options

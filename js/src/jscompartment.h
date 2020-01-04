@@ -1921,6 +1921,9 @@ warnedAboutFlagsArgument
 bool
 warnedAboutExprClosure
 ;
+bool
+warnedAboutRegExpMultiline
+;
 /
 /
 A
