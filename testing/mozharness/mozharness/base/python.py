@@ -1501,9 +1501,6 @@ None
 module_url
 =
 None
-install_method
-=
-None
                        
 requirements
 =
@@ -1684,24 +1681,13 @@ module_url
 module
         
 if
-install_method
-in
-(
-None
-'
-pip
-'
-)
-:
-            
-if
 not
 module_url
 and
 not
 requirements
 :
-                
+            
 self
 .
 fatal
@@ -1716,7 +1702,7 @@ or
 requirements
 "
 )
-            
+        
 pip
 =
 self
@@ -1727,7 +1713,7 @@ query_python_path
 pip
 "
 )
-            
+        
 if
 c
 .
@@ -1738,7 +1724,7 @@ verbose_pip
 "
 )
 :
-                
+            
 command
 =
 [
@@ -1751,10 +1737,10 @@ v
 install
 "
 ]
-            
+        
 else
 :
-                
+            
 command
 =
 [
@@ -1763,11 +1749,11 @@ pip
 install
 "
 ]
-            
+        
 if
 no_deps
 :
-                
+            
 command
 +
 =
@@ -1780,7 +1766,7 @@ no
 deps
 "
 ]
-            
+        
 #
 To
 avoid
@@ -1793,7 +1779,7 @@ increase
 default
 timeout
 :
-            
+        
 #
 https
 :
@@ -1814,7 +1800,7 @@ id
 1007230
 #
 c802
-            
+        
 command
 +
 =
@@ -1837,13 +1823,13 @@ pip_timeout
 )
 )
 ]
-            
+        
 for
 requirement
 in
 requirements
 :
-                
+            
 command
 +
 =
@@ -1854,7 +1840,7 @@ r
 "
 requirement
 ]
-            
+        
 if
 c
 .
@@ -1873,7 +1859,7 @@ pip_index
 "
 ]
 :
-                
+            
 command
 +
 =
@@ -1886,13 +1872,13 @@ no
 index
 '
 ]
-            
+        
 for
 opt
 in
 global_options
 :
-                
+            
 command
 +
 =
@@ -1906,32 +1892,6 @@ option
 "
 opt
 ]
-        
-else
-:
-            
-self
-.
-fatal
-(
-"
-install_module
-(
-)
-doesn
-'
-t
-understand
-an
-install_method
-of
-%
-s
-!
-"
-%
-install_method
-)
         
 #
 Add
@@ -2175,17 +2135,6 @@ if
 editable
 :
                 
-if
-install_method
-in
-(
-None
-'
-pip
-'
-)
-:
-                    
 command
 +
 =
@@ -2195,27 +2144,6 @@ command
 e
 '
 ]
-                
-else
-:
-                    
-self
-.
-fatal
-(
-"
-editable
-installs
-not
-supported
-for
-install_method
-%
-s
-"
-%
-install_method
-)
             
 command
 +
@@ -3569,12 +3497,6 @@ install_module
 requirements
 =
 requirements
-                                
-install_method
-=
-'
-pip
-'
 )
         
 for
@@ -3698,12 +3620,6 @@ module_name
 =
 module
             
-install_method
-=
-'
-pip
-'
-            
 self
 .
 install_module
@@ -3715,10 +3631,6 @@ module_name
 module_url
 =
 module_url
-                                
-install_method
-=
-install_method
                                 
 requirements
 =
@@ -3761,9 +3673,6 @@ module_url
 =
 url
                     
-install_method
-=
-method
 requirements
 =
 requirements
@@ -3795,9 +3704,6 @@ module_url
 =
 url
                 
-install_method
-=
-method
 requirements
 =
 requirements
