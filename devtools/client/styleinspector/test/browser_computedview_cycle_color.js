@@ -80,7 +80,7 @@ matches
 color
 :
 #
-F00
+f00
 ;
 }
 <
@@ -333,7 +333,7 @@ valueNode
 textContent
 "
 #
-F00
+f00
 "
 "
 Color
