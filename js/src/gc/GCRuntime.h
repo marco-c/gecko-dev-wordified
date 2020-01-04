@@ -7943,9 +7943,6 @@ ReleaseAcquire
 >
 numActiveZoneIters
 ;
-uint64_t
-decommitThreshold
-;
 /
 *
 During
