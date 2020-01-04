@@ -274,7 +274,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -20550,7 +20550,7 @@ in
 table
 border
 )
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -48040,7 +48040,7 @@ nsTableRowGroupFrame
 which
 is
 INSIDE
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 if
 we
@@ -55598,8 +55598,8 @@ innerTable
 }
 /
 /
-Outer
-tables
+Table
+wrappers
 are
 always
 anon

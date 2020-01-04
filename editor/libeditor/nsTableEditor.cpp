@@ -338,7 +338,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -15437,7 +15437,7 @@ aColIndex
 )
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 nsHTMLEditor
 :
@@ -15747,7 +15747,7 @@ table
 NS_ERROR_FAILURE
 )
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -15977,7 +15977,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -16210,7 +16210,7 @@ aTable
 table
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -16301,7 +16301,7 @@ int32_t
 aActualColSpan
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =

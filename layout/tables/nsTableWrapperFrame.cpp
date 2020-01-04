@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -245,7 +245,7 @@ virtual
 *
 /
 nscoord
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetLogicalBaseline
@@ -313,10 +313,10 @@ Size
 )
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 nsStyleContext
 *
@@ -329,22 +329,22 @@ aContext
 )
 {
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 ~
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 )
 {
 }
 NS_QUERYFRAME_HEAD
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
@@ -357,7 +357,7 @@ a11y
 :
 :
 AccType
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 AccessibleType
@@ -374,7 +374,7 @@ eHTMLTableType
 #
 endif
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 DestroyFrom
@@ -408,7 +408,7 @@ aDestructRoot
 const
 nsFrameList
 &
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetChildList
@@ -441,7 +441,7 @@ aListID
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetChildLists
@@ -473,7 +473,7 @@ kCaptionList
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 SetInitialChildList
@@ -605,7 +605,7 @@ aChildList
 }
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 AppendFrames
@@ -746,7 +746,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 InsertFrames
@@ -884,7 +884,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 RemoveFrame
@@ -1036,7 +1036,7 @@ child
 removed
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 BuildDisplayList
@@ -1195,7 +1195,7 @@ aLists
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 BuildDisplayListForInnerTable
@@ -1287,7 +1287,7 @@ GetNextSibling
 }
 nsStyleContext
 *
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetParentStyleContext
@@ -1303,7 +1303,7 @@ const
 /
 The
 table
-outer
+wrapper
 frame
 and
 the
@@ -1341,7 +1341,7 @@ style
 context
 for
 the
-outer
+wrapper
 /
 /
 frame
@@ -1393,7 +1393,7 @@ element
 and
 thus
 the
-outer
+wrapper
 table
 )
 /
@@ -1427,8 +1427,8 @@ and
 /
 /
 the
-outer
 table
+wrapper
 '
 s
 style
@@ -1460,7 +1460,7 @@ REFLOW
 HELPER
 FUNCTIONS
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 InitChildReflowState
@@ -1595,7 +1595,7 @@ of
 auto
 margins
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetChildMargin
@@ -1848,7 +1848,7 @@ virtual
 *
 /
 nscoord
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetMinISize
@@ -1950,7 +1950,7 @@ virtual
 *
 /
 nscoord
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetPrefISize
@@ -2411,7 +2411,7 @@ virtual
 *
 /
 LogicalSize
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 ComputeAutoSize
@@ -2471,7 +2471,7 @@ IsAllZero
 )
 "
 Table
-outer
+wrapper
 frames
 cannot
 have
@@ -2767,7 +2767,7 @@ NS_UNCONSTRAINEDSIZE
 ;
 }
 uint8_t
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetCaptionSide
@@ -2811,7 +2811,7 @@ caption
 }
 }
 uint8_t
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetCaptionVerticalAlign
@@ -2859,7 +2859,7 @@ NS_STYLE_VERTICAL_ALIGN_TOP
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 SetDesiredSize
@@ -3285,7 +3285,7 @@ aBSize
 ;
 }
 nsresult
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetCaptionOrigin
@@ -3907,7 +3907,7 @@ NS_OK
 ;
 }
 nsresult
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetInnerOrigin
@@ -4505,7 +4505,7 @@ NS_OK
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 OuterBeginReflowChild
@@ -4817,7 +4817,7 @@ false
 }
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 OuterDoReflowChild
@@ -4963,8 +4963,8 @@ table
 /
 frame
 because
-outer
 table
+wrapper
 frames
 always
 assume
@@ -4982,9 +4982,9 @@ go
 away
 .
 If
-an
-outer
+a
 table
+wrapper
 frame
 is
 removed
@@ -5003,8 +5003,8 @@ of
 an
 already
 complete
-outer
 table
+wrapper
 frame
 then
 it
@@ -5053,7 +5053,7 @@ aStatus
 ;
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 UpdateOverflowAreas
@@ -5103,7 +5103,7 @@ FirstChild
 }
 }
 void
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 Reflow
@@ -5130,7 +5130,7 @@ MarkInReflow
 DO_GLOBAL_REFLOW_COUNT
 (
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 "
 )
 ;
@@ -6520,7 +6520,7 @@ aDesiredSize
 }
 nsIAtom
 *
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetType
@@ -6553,7 +6553,7 @@ methods
 /
 nsIContent
 *
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetCellAt
@@ -6620,9 +6620,9 @@ GetContent
 )
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 *
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 nsIPresShell
 *
@@ -6637,7 +6637,7 @@ new
 (
 aPresShell
 )
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 aContext
 )
@@ -6645,13 +6645,13 @@ aContext
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 #
 ifdef
 DEBUG_FRAME_DUMP
 nsresult
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 GetFrameName
@@ -6668,7 +6668,7 @@ MakeFrameName
 NS_LITERAL_STRING
 (
 "
-TableOuter
+TableWrapper
 "
 )
 aResult

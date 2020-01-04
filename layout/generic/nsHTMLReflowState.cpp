@@ -19278,8 +19278,8 @@ is
 inherited
 to
 the
-outer
 table
+wrapper
 frame
 via
 /
@@ -20087,8 +20087,8 @@ tableOuterFrame
 table
 not
 inside
-outer
 table
+wrapper
 "
 )
 ;
@@ -20099,8 +20099,8 @@ the
 table
 within
 the
-outer
 table
+wrapper
 based
 on
 the
@@ -20109,8 +20109,8 @@ alignment
 /
 of
 the
-outer
 table
+wrapper
 '
 s
 parent

@@ -318,7 +318,7 @@ class
 nsILinkHandler
 ;
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 ;
 class
 nsIDOMRange
@@ -3234,12 +3234,12 @@ Helper
 used
 to
 get
-nsTableOuterFrame
+nsTableWrapperFrame
 for
 a
 table
 .
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 GetTableFrame
 (

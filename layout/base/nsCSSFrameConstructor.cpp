@@ -733,7 +733,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -7359,8 +7359,8 @@ inner
 /
 tables
 and
-outer
-tables
+table
+wrappers
 which
 share
 the
@@ -12485,9 +12485,9 @@ table
 caption
 will
 have
-an
-outer
+a
 table
+wrapper
 as
 its
 /
@@ -12517,7 +12517,7 @@ to
 see
 whether
 the
-outer
+wrapper
 was
 a
 pseudo
@@ -13367,8 +13367,8 @@ pseudo
 SC
 for
 the
-outer
 table
+wrapper
 as
 a
 child
@@ -13405,8 +13405,8 @@ styleContext
 /
 Create
 the
-outer
 table
+wrapper
 frame
 which
 holds
@@ -13438,7 +13438,7 @@ outerStyleContext
 else
 newFrame
 =
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 mPresShell
 outerStyleContext
@@ -13466,7 +13466,7 @@ aParentFrame
 Init
 the
 table
-outer
+wrapper
 frame
 InitAndRestoreFrame
 (
@@ -13759,8 +13759,8 @@ childItems
 /
 Set
 the
-outer
 table
+wrapper
 frame
 '
 s
@@ -17836,7 +17836,7 @@ frame
 (
 nsBlockFrame
 nsSVGOuterSVGFrame
-nsTableOuterFrame
+nsTableWrapperFrame
 nsPlaceholderFrame
 )
 Galley
@@ -17881,7 +17881,7 @@ frame
 (
 nsBlockFrame
 nsSVGOuterSVGFrame
-nsTableOuterFrame
+nsTableWrapperFrame
 nsPlaceholderFrame
 )
 Print
@@ -17913,7 +17913,7 @@ frame
 (
 nsBlockFrame
 nsSVGOuterSVGFrame
-nsTableOuterFrame
+nsTableWrapperFrame
 nsPlaceholderFrame
 )
 Print
@@ -38979,8 +38979,8 @@ frame
 and
 consider
 the
-outer
 table
+wrapper
 frame
 .
 if
@@ -39000,8 +39000,8 @@ continue
 /
 /
 For
-outer
 table
+wrapper
 frames
 we
 can
@@ -47953,7 +47953,7 @@ child
 }
 /
 /
-if
+If
 the
 container
 is
@@ -47973,8 +47973,8 @@ put
 /
 in
 the
-outer
 table
+wrapper
 frame
 '
 s
@@ -48194,8 +48194,8 @@ the
 caption
 to
 the
-outer
 table
+wrapper
 NS_ASSERTION
 (
 nsGkAtoms
@@ -51646,8 +51646,8 @@ be
 put
 in
 the
-outer
 table
+wrapper
 frame
 '
 s
@@ -51889,9 +51889,9 @@ of
 the
 parents
 is
-an
-outer
+a
 table
+wrapper
 and
 one
 is
@@ -52412,8 +52412,8 @@ of
 the
 /
 /
-outer
 table
+wrapper
 frame
 .
 if
@@ -52638,9 +52638,9 @@ the
 parent
 is
 not
-an
-outer
+a
 table
+wrapper
 frame
 we
 will
@@ -52660,7 +52660,7 @@ the
 parent
 does
 not
-honour
+honor
 and
 the
 frames
@@ -52669,6 +52669,7 @@ frames
 will
 get
 lost
+.
 NS_ASSERTION
 (
 nsGkAtoms
@@ -52699,9 +52700,9 @@ only
 a
 child
 of
-an
-outer
+a
 table
+wrapper
 frame
 "
 )
@@ -56881,11 +56882,11 @@ nsStyleContext
 aStyleContext
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 newFrame
 =
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 aPresShell
 aStyleContext
@@ -56989,8 +56990,8 @@ frame
 /
 Set
 the
-outer
 table
+wrapper
 '
 s
 initial

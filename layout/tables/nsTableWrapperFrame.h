@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-nsTableOuterFrame_h__
+nsTableWrapperFrame_h__
 #
 define
-nsTableOuterFrame_h__
+nsTableWrapperFrame_h__
 #
 include
 "
@@ -157,7 +157,7 @@ table
 element
 *
 the
-nsTableOuterFrame
+nsTableWrapperFrame
 contains
 0
 or
@@ -185,7 +185,7 @@ frame
 *
 /
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 public
 nsContainerFrame
@@ -196,7 +196,7 @@ NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 NS_DECL_QUERYFRAME_TARGET
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 /
 *
@@ -228,9 +228,9 @@ created
 *
 /
 friend
-nsTableOuterFrame
+nsTableWrapperFrame
 *
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 nsIPresShell
 *
@@ -1009,7 +1009,7 @@ aColIdx
 protected
 :
 explicit
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 nsStyleContext
 *
@@ -1018,7 +1018,7 @@ aContext
 ;
 virtual
 ~
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 )
 ;

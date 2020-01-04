@@ -3700,9 +3700,9 @@ If
 the
 frame
 is
-an
-outer
+a
 table
+wrapper
 frame
 then
 we
@@ -3735,8 +3735,8 @@ NS_ASSERTION
 (
 mInnerFrame
 "
-Outer
 table
+wrapper
 must
 have
 an
@@ -3754,8 +3754,8 @@ GetNextSibling
 (
 )
 "
-Outer
 table
+wrapper
 frames
 should
 have
@@ -28964,8 +28964,8 @@ the
 margin
 from
 the
-outer
 table
+wrapper
 frame
 instead
 .

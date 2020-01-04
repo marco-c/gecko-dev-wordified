@@ -1141,8 +1141,8 @@ be
 taken
 from
 the
-outer
 table
+wrapper
 /
 /
 frame

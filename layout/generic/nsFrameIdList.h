@@ -706,7 +706,7 @@ nsTableFrame
 )
 FRAME_ID
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 FRAME_ID
 (

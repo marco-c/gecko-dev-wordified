@@ -4449,7 +4449,7 @@ nsIMathMLFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 nsContainerFrame
 *
@@ -5337,7 +5337,7 @@ to
 the
 align
 attribute
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 Reflow

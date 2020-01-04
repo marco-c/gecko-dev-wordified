@@ -2145,7 +2145,7 @@ has
 the
 non
 -
-psuedoelement
+pseudoelement
 style
 context
 for
@@ -2185,7 +2185,7 @@ argument
 is
 a
 table
-outer
+wrapper
 frame
 that
 is
@@ -2232,7 +2232,7 @@ has
 the
 non
 -
-psuedoelement
+pseudoelement
 style
 context
 for
@@ -2376,7 +2376,7 @@ might
 be
 a
 table
-outer
+wrapper
 frame
 and
 the
@@ -7703,8 +7703,8 @@ drilling
 down
 "
 through
-outer
 table
+wrapper
 frames
 and
 *
@@ -7970,8 +7970,8 @@ drilling
 down
 "
 through
-outer
 table
+wrapper
 *
 frames
 and

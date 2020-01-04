@@ -639,8 +639,8 @@ of
 its
 /
 /
-outer
 table
+wrapper
 .
 /
 /
@@ -1041,9 +1041,9 @@ propagated
 /
 /
 from
-an
-outer
+a
 table
+wrapper
 frame
 to
 an

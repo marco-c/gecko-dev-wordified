@@ -792,7 +792,7 @@ pseudo
 -
 frame
 within
-nsTableOuterFrame
+nsTableWrapperFrame
 it
 may
 also
@@ -887,7 +887,7 @@ nsIFrame
 /
 *
 *
-nsTableOuterFrame
+nsTableWrapperFrame
 has
 intimate
 knowledge
@@ -900,7 +900,7 @@ frame
 /
 friend
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 ;
 /
 *

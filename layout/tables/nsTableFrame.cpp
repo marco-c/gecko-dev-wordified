@@ -241,7 +241,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -1172,7 +1172,7 @@ our
 parent
 the
 table
-outer
+wrapper
 frame
 returned
 this
@@ -1199,8 +1199,8 @@ GetParent
 table
 constructed
 without
-outer
 table
+wrapper
 "
 )
 ;
@@ -1540,7 +1540,7 @@ and
 /
 code
 in
-nsTableOuterFrame
+nsTableWrapperFrame
 depends
 on
 this
@@ -18327,8 +18327,8 @@ is
 inherited
 to
 the
-outer
 table
+wrapper
 frame
 via
 /
@@ -44037,8 +44037,8 @@ for
 now
 /
 /
-outer
 table
+wrapper
 borders
 overflow
 the
