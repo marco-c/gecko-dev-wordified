@@ -570,6 +570,10 @@ ClearOnShutdown
 (
 &
 sInstance
+ShutdownPhase
+:
+:
+Shutdown
 )
 ;
 }
