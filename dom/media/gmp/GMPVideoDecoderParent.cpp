@@ -1182,6 +1182,17 @@ ResetComplete
 )
 )
 ;
+self
+-
+>
+mPlugin
+-
+>
+CrashPluginNow
+(
+kGmpApiTimeout
+)
+;
 }
 )
 ;
