@@ -907,7 +907,7 @@ nsString
 aUsages
 )
 ;
-void
+nsresult
 SetSymKey
 (
 const
