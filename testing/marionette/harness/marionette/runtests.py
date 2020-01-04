@@ -458,6 +458,10 @@ return
 runner
 .
 failed
++
+runner
+.
+crashed
         
 except
 Exception
