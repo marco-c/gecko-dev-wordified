@@ -1436,9 +1436,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -1490,7 +1490,7 @@ CreateDecoderWrapper
 (
 aCallback
 mProxy
-aVideoTaskQueue
+aTaskQueue
 )
 ;
 wrapper
@@ -1505,7 +1505,7 @@ mProxy
 aConfig
 aLayersBackend
 aImageContainer
-aVideoTaskQueue
+aTaskQueue
 wrapper
 -
 >
@@ -1540,7 +1540,7 @@ mPDM
 CreateDecoder
 (
 aConfig
-aVideoTaskQueue
+aTaskQueue
 aCallback
 aDiagnostics
 aLayersBackend
@@ -1605,9 +1605,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -1659,7 +1659,7 @@ CreateDecoderWrapper
 (
 aCallback
 mProxy
-aAudioTaskQueue
+aTaskQueue
 )
 ;
 wrapper
@@ -1672,7 +1672,7 @@ EMEAudioDecoder
 (
 mProxy
 aConfig
-aAudioTaskQueue
+aTaskQueue
 wrapper
 -
 >
@@ -1707,7 +1707,7 @@ mPDM
 CreateDecoder
 (
 aConfig
-aAudioTaskQueue
+aTaskQueue
 aCallback
 aDiagnostics
 )

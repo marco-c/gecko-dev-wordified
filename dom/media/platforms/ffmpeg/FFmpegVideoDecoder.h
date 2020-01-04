@@ -209,7 +209,7 @@ FFmpegVideoDecoder
 FFmpegLibWrapper
 *
 aLib
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

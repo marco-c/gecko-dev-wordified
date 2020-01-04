@@ -241,7 +241,7 @@ const
 TrackInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -447,7 +447,7 @@ const
 TrackInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

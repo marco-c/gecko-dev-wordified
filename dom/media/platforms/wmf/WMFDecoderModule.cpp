@@ -516,9 +516,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -572,7 +572,7 @@ manager
 forget
 (
 )
-aVideoTaskQueue
+aTaskQueue
 aCallback
 )
 ;
@@ -597,9 +597,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -650,7 +650,7 @@ manager
 forget
 (
 )
-aAudioTaskQueue
+aTaskQueue
 aCallback
 )
 ;

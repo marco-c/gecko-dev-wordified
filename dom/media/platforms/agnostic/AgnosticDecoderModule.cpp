@@ -227,9 +227,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -269,7 +269,7 @@ GetAsVideoInfo
 (
 )
 aImageContainer
-aVideoTaskQueue
+aTaskQueue
 aCallback
 )
 ;
@@ -295,9 +295,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -336,7 +336,7 @@ aConfig
 GetAsAudioInfo
 (
 )
-aAudioTaskQueue
+aTaskQueue
 aCallback
 )
 ;
@@ -366,7 +366,7 @@ aConfig
 GetAsAudioInfo
 (
 )
-aAudioTaskQueue
+aTaskQueue
 aCallback
 )
 ;

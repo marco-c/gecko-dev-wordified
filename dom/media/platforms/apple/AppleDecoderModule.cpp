@@ -494,9 +494,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -538,7 +538,7 @@ AppleVDADecoder
 CreateVDADecoder
 (
 aConfig
-aVideoTaskQueue
+aTaskQueue
 aCallback
 aImageContainer
 )
@@ -594,7 +594,7 @@ new
 AppleVTDecoder
 (
 aConfig
-aVideoTaskQueue
+aTaskQueue
 aCallback
 aImageContainer
 )
@@ -621,9 +621,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -642,7 +642,7 @@ new
 AppleATDecoder
 (
 aConfig
-aAudioTaskQueue
+aTaskQueue
 aCallback
 )
 ;

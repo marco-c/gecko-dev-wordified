@@ -125,13 +125,6 @@ PlatformDecoderModule_h_
 #
 include
 "
-FlushableTaskQueue
-.
-h
-"
-#
-include
-"
 MediaDecoderReader
 .
 h
@@ -213,7 +206,7 @@ class
 MediaDataDecoderCallback
 ;
 class
-FlushableTaskQueue
+TaskQueue
 ;
 class
 CDMProxy
@@ -655,9 +648,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -796,9 +789,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback

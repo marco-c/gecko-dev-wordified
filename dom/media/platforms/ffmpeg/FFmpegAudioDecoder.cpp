@@ -153,7 +153,7 @@ FFmpegAudioDecoder
 FFmpegLibWrapper
 *
 aLib
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
