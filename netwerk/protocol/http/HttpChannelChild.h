@@ -674,6 +674,10 @@ const
 uint32_t
 &
 cacheKey
+const
+nsCString
+&
+altDataType
 )
 override
 ;
@@ -1518,6 +1522,10 @@ const
 uint32_t
 &
 cacheKey
+const
+nsCString
+&
+altDataType
 )
 ;
 void
