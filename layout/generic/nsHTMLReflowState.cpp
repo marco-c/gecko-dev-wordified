@@ -4561,11 +4561,13 @@ if
 mCBReflowState
 &
 &
-frame
--
->
-IsBlockWrapper
+!
+nsLayoutUtils
+:
+:
+IsNonWrapperBlock
 (
+frame
 )
 )
 {

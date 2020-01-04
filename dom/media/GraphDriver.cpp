@@ -3003,6 +3003,11 @@ AudioCallbackDriver
 MediaStreamGraphImpl
 *
 aGraphImpl
+dom
+:
+:
+AudioChannel
+aChannel
 )
 :
 GraphDriver
@@ -3019,12 +3024,7 @@ false
 )
 mAudioChannel
 (
-aGraphImpl
--
->
-AudioChannel
-(
-)
+aChannel
 )
 mInCallback
 (
