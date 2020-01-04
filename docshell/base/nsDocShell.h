@@ -4677,6 +4677,9 @@ mName
 nsString
 mTitle
 ;
+nsString
+mCustomUserAgent
+;
 /
 *
 *
