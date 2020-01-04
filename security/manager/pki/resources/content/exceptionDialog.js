@@ -178,9 +178,11 @@ interfaces
 nsISupports
 )
 )
+{
 return
 this
 ;
+}
 throw
 Components
 .
@@ -199,6 +201,7 @@ if
 (
 gSSLStatus
 )
+{
 gCert
 =
 gSSLStatus
@@ -214,6 +217,7 @@ nsISSLStatus
 .
 serverCert
 ;
+}
 }
 notifyCertProblem
 :
@@ -2083,8 +2087,10 @@ gCert
 !
 gSSLStatus
 )
+{
 return
 ;
+}
 var
 overrideService
 =
@@ -2224,6 +2230,7 @@ permanentCheckbox
 .
 checked
 )
+{
 gSecHistogram
 .
 add
@@ -2233,6 +2240,7 @@ gNsISecTel
 WARNING_BAD_CERT_TOP_DONT_REMEMBER_EXCEPTION
 )
 ;
+}
 gSecHistogram
 .
 add

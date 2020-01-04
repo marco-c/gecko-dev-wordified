@@ -845,6 +845,7 @@ if
 (
 value
 )
+{
 treeCell
 .
 setAttribute
@@ -855,6 +856,7 @@ display
 value
 )
 ;
+}
 treeRow
 .
 appendChild
@@ -1096,9 +1098,11 @@ interfaces
 nsICertVerificationListener
 )
 )
+{
 return
 this
 ;
+}
 throw
 Components
 .
@@ -1161,6 +1165,7 @@ result
 !
 cert
 )
+{
 return
 ;
 /
@@ -1170,6 +1175,7 @@ results
 could
 be
 produced
+}
 if
 (
 !
@@ -1183,8 +1189,10 @@ interfaces
 nsIX509Cert
 )
 )
+{
 return
 ;
+}
 /
 /
 Verification
@@ -1227,8 +1235,10 @@ interfaces
 nsICertVerificationResult
 )
 )
+{
 return
 ;
+}
 result
 .
 getUsagesArrayResult
