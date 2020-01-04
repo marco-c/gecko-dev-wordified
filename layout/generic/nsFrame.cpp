@@ -13870,7 +13870,7 @@ a
 nsDisplayBlendContainer
 and
 a
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 to
 the
 *
@@ -15143,7 +15143,7 @@ new
 (
 aBuilder
 )
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 (
 aBuilder
 this
