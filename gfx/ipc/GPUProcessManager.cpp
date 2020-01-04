@@ -694,7 +694,7 @@ mGPUChild
 nullptr
 ;
 }
-already_AddRefed
+RefPtr
 <
 CompositorSession
 >

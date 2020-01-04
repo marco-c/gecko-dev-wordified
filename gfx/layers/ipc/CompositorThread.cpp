@@ -641,7 +641,7 @@ nullptr
 CompositorBridgeParent
 :
 :
-Initialize
+Setup
 (
 )
 ;

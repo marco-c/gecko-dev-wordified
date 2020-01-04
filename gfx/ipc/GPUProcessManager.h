@@ -421,7 +421,7 @@ EnsureGPUReady
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 layers
 :
