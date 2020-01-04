@@ -215,6 +215,7 @@ props
 {
 const
 {
+dispatch
 message
 open
 serviceContainer
@@ -245,11 +246,17 @@ const
 childProps
 =
 {
+dispatch
 messageId
 open
 collapsible
 :
-true
+Array
+.
+isArray
+(
+stacktrace
+)
 source
 type
 level
