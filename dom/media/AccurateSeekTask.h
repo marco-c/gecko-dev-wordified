@@ -369,12 +369,12 @@ aReason
 )
 ;
 void
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 ;
 void
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 ;
