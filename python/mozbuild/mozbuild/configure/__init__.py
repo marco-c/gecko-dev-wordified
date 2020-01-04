@@ -764,8 +764,9 @@ self
 .
 _raw_options
 =
-{
-}
+OrderedDict
+(
+)
         
 #
 Store
@@ -2445,6 +2446,21 @@ reason
 .
 option
             
+reason
+=
+reason
+.
+split
+(
+'
+=
+'
+1
+)
+[
+0
+]
+            
 raise
 InvalidOptionError
 (
@@ -2487,6 +2503,10 @@ old_origin
 )
 )
         
+if
+option_string
+:
+            
 self
 .
 _raw_options
@@ -2494,25 +2514,7 @@ _raw_options
 option
 ]
 =
-(
 option_string
-.
-split
-(
-'
-=
-'
-1
-)
-[
-0
-]
-                                     
-if
-option_string
-else
-option_string
-)
         
 return
 value
