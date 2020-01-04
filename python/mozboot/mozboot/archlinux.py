@@ -1060,6 +1060,23 @@ needed
 '
 ]
         
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+-
+noconfirm
+'
+)
+        
 command
 .
 extend
@@ -1350,6 +1367,13 @@ mkdtemp
 (
 )
         
+if
+not
+self
+.
+no_interactive
+:
+            
 print
 (
 '
@@ -1365,7 +1389,7 @@ from
 the
 AUR
 '
-              
+                  
 '
 This
 is
@@ -1378,7 +1402,7 @@ that
 you
 carefully
 '
-              
+                  
 '
 read
 each
@@ -1390,7 +1414,7 @@ the
 sources
 .
 '
-              
+                  
 '
 These
 packages
@@ -1406,7 +1430,7 @@ path
 .
 '
 )
-        
+            
 choice
 =
 raw_input
@@ -1428,7 +1452,7 @@ no
 ]
 '
 )
-        
+            
 if
 choice
 !
@@ -1437,7 +1461,7 @@ choice
 yes
 '
 :
-            
+                
 sys
 .
 exit
