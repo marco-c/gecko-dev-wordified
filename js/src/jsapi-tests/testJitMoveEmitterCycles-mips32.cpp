@@ -1428,6 +1428,22 @@ ION_CODE
 )
 ;
 }
+#
+define
+TRY
+(
+x
+)
+if
+(
+!
+(
+x
+)
+)
+return
+false
+;
 BEGIN_TEST
 (
 testJitMoveEmitterCycles_simple
@@ -1463,14 +1479,6 @@ jc
 cx
 &
 alloc
-)
-;
-rt
--
->
-getJitRuntime
-(
-cx
 )
 ;
 AutoFlushICache
@@ -1511,6 +1519,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1528,6 +1538,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1544,6 +1555,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1561,6 +1574,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -1577,6 +1591,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1594,6 +1610,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1610,6 +1627,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1627,6 +1646,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1643,6 +1663,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1660,6 +1682,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -1676,6 +1699,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -1692,6 +1717,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -1716,10 +1742,13 @@ don
 t
 explode
 !
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -1947,14 +1976,6 @@ cx
 alloc
 )
 ;
-rt
--
->
-getJitRuntime
-(
-cx
-)
-;
 AutoFlushICache
 afc
 (
@@ -2008,6 +2029,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2024,6 +2047,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -2041,6 +2065,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2058,6 +2084,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2074,6 +2101,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2090,6 +2119,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -2107,6 +2137,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2124,6 +2156,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2140,6 +2173,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2157,6 +2192,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2173,6 +2209,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2189,6 +2227,7 @@ MoveOp
 :
 :
 DOUBLE
+)
 )
 ;
 sim
@@ -2206,6 +2245,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2223,6 +2264,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2239,6 +2281,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2256,6 +2300,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2272,6 +2317,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2289,6 +2336,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2305,6 +2353,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2322,6 +2372,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2338,6 +2389,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2355,6 +2408,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2371,6 +2425,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2388,6 +2444,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2404,6 +2461,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2421,6 +2480,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2437,6 +2497,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2454,6 +2516,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2470,6 +2533,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2487,6 +2552,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2503,6 +2569,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2520,6 +2588,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2536,6 +2605,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2553,6 +2624,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -2569,6 +2641,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2586,6 +2660,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2602,6 +2677,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2619,6 +2696,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2635,6 +2713,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2652,6 +2732,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2668,6 +2749,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -2685,6 +2768,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -2701,10 +2785,13 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -3280,14 +3367,6 @@ cx
 alloc
 )
 ;
-rt
--
->
-getJitRuntime
-(
-cx
-)
-;
 AutoFlushICache
 afc
 (
@@ -3326,6 +3405,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3343,6 +3424,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -3359,6 +3441,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3376,6 +3460,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3392,6 +3477,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3409,6 +3496,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3425,6 +3513,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3442,6 +3532,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3458,6 +3549,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3474,6 +3567,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -3491,6 +3585,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3508,6 +3604,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3524,6 +3621,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3541,6 +3640,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3557,6 +3657,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3574,6 +3676,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3590,6 +3693,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3606,6 +3711,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -3623,6 +3729,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3640,6 +3748,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3656,6 +3765,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3673,6 +3784,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3689,6 +3801,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3706,6 +3820,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -3722,6 +3837,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3739,6 +3856,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3755,6 +3873,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3772,6 +3892,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3788,6 +3909,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3805,6 +3928,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -3821,6 +3945,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3838,6 +3964,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3854,6 +3981,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3871,6 +4000,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3887,6 +4017,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3904,6 +4036,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3920,6 +4053,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3937,6 +4072,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3953,6 +4089,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -3970,6 +4108,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -3986,6 +4125,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4003,6 +4144,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4019,6 +4161,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4036,6 +4180,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4052,6 +4197,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4069,6 +4216,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4085,6 +4233,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4101,6 +4251,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -4118,6 +4269,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4135,6 +4288,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4151,10 +4305,13 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
@@ -4772,14 +4929,6 @@ cx
 alloc
 )
 ;
-rt
--
->
-getJitRuntime
-(
-cx
-)
-;
 AutoFlushICache
 afc
 (
@@ -4818,6 +4967,8 @@ Current
 (
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4835,6 +4986,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4851,6 +5003,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4867,6 +5021,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -4884,6 +5039,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4901,6 +5058,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4917,6 +5075,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4934,6 +5094,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4950,6 +5111,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4967,6 +5130,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -4983,6 +5147,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -4999,6 +5165,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -5016,6 +5183,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5033,6 +5202,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5049,6 +5219,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5066,6 +5238,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5082,6 +5255,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5098,6 +5273,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -5115,6 +5291,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5132,6 +5310,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5148,6 +5327,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5165,6 +5346,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5181,6 +5363,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5198,6 +5382,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5214,6 +5399,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5231,6 +5418,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5247,6 +5435,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5264,6 +5454,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -5280,6 +5471,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5297,6 +5490,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5313,6 +5507,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5330,6 +5526,7 @@ MoveOp
 :
 DOUBLE
 )
+)
 ;
 sim
 -
@@ -5346,6 +5543,8 @@ id
 0
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5363,6 +5562,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5379,6 +5579,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5396,6 +5598,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5412,6 +5615,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5428,6 +5633,7 @@ MoveOp
 :
 :
 FLOAT32
+)
 )
 ;
 sim
@@ -5445,6 +5651,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5462,6 +5670,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5478,6 +5687,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5495,6 +5706,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5511,6 +5723,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5528,6 +5742,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5544,6 +5759,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5561,6 +5778,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5577,6 +5795,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5594,6 +5814,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5610,6 +5831,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5627,6 +5850,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5643,6 +5867,8 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 addMove
@@ -5660,6 +5886,7 @@ MoveOp
 :
 FLOAT32
 )
+)
 ;
 sim
 -
@@ -5676,10 +5903,13 @@ id
 0f
 )
 ;
+TRY
+(
 mr
 .
 resolve
 (
+)
 )
 ;
 mover
