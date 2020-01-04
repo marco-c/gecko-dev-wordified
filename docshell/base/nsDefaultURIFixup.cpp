@@ -6255,11 +6255,9 @@ ipv4
 if
 (
 (
+iterEnd
+-
 iter
-.
-size_forward
-(
-)
 =
 =
 1
