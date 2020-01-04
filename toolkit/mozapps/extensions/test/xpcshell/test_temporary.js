@@ -4589,6 +4589,13 @@ extension
 "
 )
 ;
+do_check_false
+(
+addon
+.
+isWebExtension
+)
+;
 do_check_eq
 (
 addon
