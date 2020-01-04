@@ -183,6 +183,14 @@ toggled
 "
 )
 ;
+yield
+NarrateTestUtils
+.
+waitForVoiceOptions
+(
+content
+)
+;
 let
 voiceOptions
 =
