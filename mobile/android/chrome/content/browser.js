@@ -28227,7 +28227,7 @@ browser
 .
 currentURI
 .
-specIgnoringRef
+spec
 }
 ;
 }
