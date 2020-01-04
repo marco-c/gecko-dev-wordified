@@ -144,9 +144,9 @@ sbs
 bool
 ParseMetricsHeader
 (
-OpenTypeFile
+Font
 *
-file
+font
 Buffer
 *
 table
@@ -162,9 +162,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 OTSStream
 *
 out
@@ -181,9 +181,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 Buffer
 *
 table
@@ -206,9 +206,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 OTSStream
 *
 out

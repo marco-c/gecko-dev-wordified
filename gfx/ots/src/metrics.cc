@@ -127,9 +127,9 @@ ots
 bool
 ParseMetricsHeader
 (
-OpenTypeFile
+Font
 *
-file
+font
 Buffer
 *
 table
@@ -362,7 +362,7 @@ linegap
 if
 (
 !
-file
+font
 -
 >
 head
@@ -398,7 +398,7 @@ if
 (
 !
 (
-file
+font
 -
 >
 head
@@ -557,7 +557,7 @@ metrics
 if
 (
 !
-file
+font
 -
 >
 maxp
@@ -582,7 +582,7 @@ header
 >
 num_metrics
 >
-file
+font
 -
 >
 maxp
@@ -620,9 +620,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 OTSStream
 *
 out
@@ -841,9 +841,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 Buffer
 *
 table
@@ -1408,9 +1408,9 @@ const
 ots
 :
 :
-OpenTypeFile
+Font
 *
-file
+font
 OTSStream
 *
 out
