@@ -239,6 +239,15 @@ GetInstance
 )
 ;
 void
+SetNotificationHandler
+(
+BluetoothCoreNotificationHandler
+*
+aNotificationHandler
+)
+override
+;
+void
 Init
 (
 BluetoothNotificationHandler
@@ -748,6 +757,11 @@ aRes
 nsresult
 aRv
 )
+;
+static
+BluetoothNotificationHandler
+*
+sNotificationHandler
 ;
 nsCString
 mListenSocketName
