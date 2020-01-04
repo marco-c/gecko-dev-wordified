@@ -1511,9 +1511,10 @@ const
 ;
 #
 endif
+RefPtr
+<
 SharedMemory
-*
-MOZ_NON_OWNING_REF
+>
 mSegment
 ;
 void
