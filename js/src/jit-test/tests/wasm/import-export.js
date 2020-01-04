@@ -300,7 +300,7 @@ maximum
 1
 }
 )
-TypeError
+RangeError
 /
 bad
 Memory
@@ -4206,11 +4206,9 @@ get
 )
 RangeError
 /
-out
--
-of
--
-range
+bad
+Table
+get
 index
 /
 )
