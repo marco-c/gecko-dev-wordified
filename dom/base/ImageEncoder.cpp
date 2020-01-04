@@ -1994,7 +1994,6 @@ GetAlignedStride
 aSize
 .
 width
-*
 4
 )
 ;
@@ -2009,6 +2008,18 @@ aSize
 height
 )
 ;
+if
+(
+length
+=
+=
+0
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 data
 .
 SetCapacity

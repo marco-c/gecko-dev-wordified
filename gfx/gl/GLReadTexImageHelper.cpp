@@ -2849,7 +2849,6 @@ GetAlignedStride
 size
 .
 width
-*
 BytesPerPixel
 (
 SurfaceFormat
