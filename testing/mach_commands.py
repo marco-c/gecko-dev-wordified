@@ -4116,6 +4116,7 @@ try
             
 talos
 =
+(
 self
 .
 normalise_list
@@ -4126,7 +4127,11 @@ kwargs
 talos
 "
 ]
+allow_subitems
+=
+True
 )
+                     
 if
 kwargs
 [
@@ -4137,6 +4142,7 @@ talos
 else
 [
 ]
+)
         
 except
 ValueError
