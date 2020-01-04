@@ -322,7 +322,7 @@ originAttributes
 return
 PushService
 .
-_register
+register
 (
 {
 scope
@@ -350,7 +350,7 @@ originAttributes
 return
 PushService
 .
-_unregister
+unregister
 (
 {
 scope
@@ -371,7 +371,7 @@ originAttributes
 return
 PushService
 .
-_registration
+registration
 (
 {
 scope
