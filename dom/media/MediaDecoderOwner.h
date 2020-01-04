@@ -138,6 +138,9 @@ mozilla
 class
 VideoFrameContainer
 ;
+class
+MediaResult
+;
 namespace
 dom
 {
@@ -546,6 +549,10 @@ virtual
 void
 DecodeError
 (
+const
+MediaResult
+&
+aError
 )
 =
 0

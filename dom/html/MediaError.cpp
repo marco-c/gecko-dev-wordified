@@ -187,6 +187,10 @@ HTMLMediaElement
 aParent
 uint16_t
 aCode
+const
+nsACString
+&
+aMessage
 )
 :
 mParent
@@ -196,6 +200,10 @@ aParent
 mCode
 (
 aCode
+)
+mMessage
+(
+aMessage
 )
 {
 }
@@ -236,6 +244,12 @@ nsAString
 aResult
 )
 {
+CopyUTF8toUTF16
+(
+mMessage
+aResult
+)
+;
 return
 NS_OK
 ;
