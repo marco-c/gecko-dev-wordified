@@ -280,6 +280,11 @@ BeginShutdown
 (
 )
 ;
+void
+StopMonitoring
+(
+)
+;
 /
 /
 Indicate
