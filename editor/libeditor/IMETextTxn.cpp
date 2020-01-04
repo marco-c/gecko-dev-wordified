@@ -812,7 +812,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 :
 return
 nsISelectionController

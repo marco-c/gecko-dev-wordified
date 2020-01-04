@@ -893,7 +893,10 @@ param
 aTextRangeType
 One
 of
-NS_TEXTRANGE_RAWINPUT
+TextRangeType
+:
+:
+eRawClause
 *
 NS_TEXTRANGE_SELECTEDRAWTEXT
 *

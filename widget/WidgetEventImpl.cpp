@@ -513,7 +513,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 :
 case
 TextRangeType
@@ -631,11 +631,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 :
 return
 "
-NS_TEXTRANGE_RAWINPUT
+TextRangeType
+:
+:
+eRawClause
 "
 ;
 case

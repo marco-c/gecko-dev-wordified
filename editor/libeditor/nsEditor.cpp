@@ -13682,7 +13682,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 )
 {
 continue

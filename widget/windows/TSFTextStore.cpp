@@ -13242,7 +13242,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 ;
 }
 }
@@ -15934,7 +15934,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 ;
 action
 -
@@ -16286,7 +16286,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 ;
 }
 else

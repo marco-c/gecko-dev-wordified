@@ -10754,7 +10754,10 @@ assumed
 the
 clause
 is
-NS_TEXTRANGE_RAWINPUT
+TextRangeType
+:
+:
+eRawClause
 .
 *
 *
@@ -10941,7 +10944,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 ;
 }
 /
