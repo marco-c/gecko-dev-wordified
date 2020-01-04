@@ -1240,7 +1240,7 @@ upload_dir
 dirs
 [
 '
-abs_upload_dir
+abs_blob_upload_dir
 '
 ]
         
@@ -1443,18 +1443,26 @@ join
 analysis_dir
 f
 )
-                                    
+                                       
 short_desc
 =
 short
-                                    
+                                       
 long_desc
 =
 long
-                                    
+                                       
 compress
 =
-True
+False
+#
+blobber
+will
+compress
+                                       
+upload_dir
+=
+upload_dir
 )
         
 print
