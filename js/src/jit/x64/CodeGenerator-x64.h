@@ -419,6 +419,14 @@ ins
 )
 ;
 void
+visitWrapInt64ToInt32
+(
+LWrapInt64ToInt32
+*
+lir
+)
+;
+void
 visitLoadTypedArrayElementStatic
 (
 LLoadTypedArrayElementStatic

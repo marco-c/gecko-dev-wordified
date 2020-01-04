@@ -1223,6 +1223,14 @@ truncate
 )
 ;
 void
+visitWrapInt64ToInt32
+(
+MWrapInt64ToInt32
+*
+ins
+)
+;
+void
 visitToString
 (
 MToString

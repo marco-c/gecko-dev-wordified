@@ -1502,6 +1502,15 @@ false
 ;
 inline
 LInt64Allocation
+useInt64AtStart
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LInt64Allocation
 useInt64OrConstant
 (
 MDefinition
