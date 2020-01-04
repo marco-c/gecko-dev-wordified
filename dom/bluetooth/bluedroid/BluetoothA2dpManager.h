@@ -255,10 +255,10 @@ BluetoothA2dpManager
 private
 :
 class
-CleanupA2dpResultHandler
+CleanupResultHandler
 ;
 class
-CleanupA2dpResultHandlerRunnable
+CleanupResultHandlerRunnable
 ;
 class
 ConnectResultHandler
@@ -267,7 +267,7 @@ class
 DisconnectResultHandler
 ;
 class
-InitA2dpResultHandler
+InitResultHandler
 ;
 class
 OnErrorProfileResultHandlerRunnable
