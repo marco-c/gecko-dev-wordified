@@ -2018,7 +2018,7 @@ D3D11TextureData
 :
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -2045,7 +2045,7 @@ aAllocFlags
 ID3D11Device
 *
 aDevice
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -2094,7 +2094,7 @@ D3D11TextureData
 :
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -2144,7 +2144,7 @@ DXGIYCbCrTextureData
 :
 Create
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -2318,7 +2318,7 @@ DXGIYCbCrTextureData
 :
 Create
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -2636,7 +2636,7 @@ DXGIYCbCrTextureData
 :
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 )
 {
