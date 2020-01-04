@@ -121,7 +121,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 dummy_page
 .
@@ -148,7 +148,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 moz
 .

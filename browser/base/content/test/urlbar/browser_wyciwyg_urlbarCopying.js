@@ -141,7 +141,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 test_wyciwyg_copying
 .

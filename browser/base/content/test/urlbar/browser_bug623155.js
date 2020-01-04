@@ -49,7 +49,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 "
 +
@@ -163,7 +163,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 redirect_bug623155
 .
@@ -254,7 +254,7 @@ content
 /
 test
 /
-general
+urlbar
 /
 redirect_bug623155
 .
