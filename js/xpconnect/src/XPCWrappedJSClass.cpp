@@ -6717,10 +6717,6 @@ measure
 JS_ReportErrorASCII
 (
 cx
-"
-%
-s
-"
 str
 )
 ;

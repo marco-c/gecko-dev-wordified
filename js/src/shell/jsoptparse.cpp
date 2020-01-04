@@ -1779,10 +1779,6 @@ option
 *
 s
 "
-(
-int
-)
-(
 eq
 -
 argv
@@ -1790,7 +1786,6 @@ argv
 *
 i
 ]
-)
 argv
 [
 *

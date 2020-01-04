@@ -31803,9 +31803,7 @@ location
 s
 :
 %
-"
-PRIuSIZE
-"
+u
 \
 "
 \
@@ -31815,9 +31813,7 @@ offset
 "
 :
 %
-"
-PRIuSIZE
-"
+u
 \
 "
 index

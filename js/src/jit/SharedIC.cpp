@@ -14653,9 +14653,7 @@ old
 value
 :
 %
-"
-PRIu64
-"
+i
 "
 "
 new

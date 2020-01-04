@@ -3093,11 +3093,6 @@ fmt
 .
 .
 )
-MOZ_FORMAT_PRINTF
-(
-3
-4
-)
 ;
 void
 TypeFallbackICSpew
@@ -3115,11 +3110,6 @@ fmt
 .
 .
 .
-)
-MOZ_FORMAT_PRINTF
-(
-3
-4
 )
 ;
 #

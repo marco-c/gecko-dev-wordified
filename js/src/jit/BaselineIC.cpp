@@ -17304,9 +17304,7 @@ p
 protoDepth
 =
 %
-"
-PRIuSIZE
-"
+u
 )
 "
 shape
