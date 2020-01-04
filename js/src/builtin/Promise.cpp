@@ -4837,6 +4837,14 @@ wrappedProto
 )
 )
 ;
+if
+(
+!
+promise
+)
+return
+nullptr
+;
 RootedValue
 promiseVal
 (
