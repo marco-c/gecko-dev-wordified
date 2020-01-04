@@ -665,18 +665,6 @@ this
 build
 produces
         
-#
-TODO
-:
-remove
-lint
-harnesss
--
-test
-when
-not
-used
-        
 '
 product
 '
@@ -691,12 +679,6 @@ mobile
 '
 '
 b2g
-'
-'
-lint
-'
-'
-harness_test
 '
 )
         
