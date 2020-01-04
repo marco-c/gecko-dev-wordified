@@ -334,6 +334,12 @@ AdvanceQueue
 (
 )
 ;
+bool
+HasVoices
+(
+)
+const
+;
 nsTArray
 <
 RefPtr
