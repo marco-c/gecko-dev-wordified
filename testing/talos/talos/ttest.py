@@ -146,7 +146,6 @@ talos
 .
 utils
 import
-TalosError
 TalosCrash
 TalosRegression
 from
