@@ -225,6 +225,13 @@ location
 .
 href
 ;
+/
+/
+eslint
+-
+disable
+-
+line
 }
 )
 ;
