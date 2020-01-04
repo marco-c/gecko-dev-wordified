@@ -549,6 +549,11 @@ TimeStamp
 aTime
 )
 {
+MOZ_ASSERT
+(
+mIsObservingRefreshDriver
+)
+;
 }
 TimeStamp
 DocumentTimeline
