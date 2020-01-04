@@ -30333,7 +30333,7 @@ NS_INLINE_GET_BREAK_TYPE
 frameReflowStatus
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 StyleClear
 :
