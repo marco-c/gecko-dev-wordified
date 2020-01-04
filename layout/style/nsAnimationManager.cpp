@@ -5633,12 +5633,6 @@ mProperty
 =
 prop
 ;
-propData
-.
-mWinsInCascade
-=
-true
-;
 KeyframeData
 *
 fromKeyframe
