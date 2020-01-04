@@ -3235,6 +3235,9 @@ nsIFrame
 *
 *
 aAttachedToFrame
+bool
+*
+aOutTransformedFixed
 )
 ;
 static
@@ -3264,6 +3267,11 @@ nsStyleImageLayers
 Layer
 &
 aLayer
+bool
+*
+aOutIsTransformedFixed
+=
+nullptr
 CompositionOp
 aCompositionOp
 =

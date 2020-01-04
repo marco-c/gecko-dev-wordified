@@ -5432,6 +5432,9 @@ h
 bool
 HasFixedBackground
 (
+nsIFrame
+*
+aFrame
 )
 const
 ;
