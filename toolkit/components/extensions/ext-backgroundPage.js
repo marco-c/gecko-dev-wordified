@@ -506,6 +506,12 @@ nsIWebNavigation
 ;
 chromeShell
 .
+useGlobalHistory
+=
+false
+;
+chromeShell
+.
 createAboutBlankContentViewer
 (
 system
