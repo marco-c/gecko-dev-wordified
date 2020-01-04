@@ -69,10 +69,8 @@ marionette
 runtests
 import
 MarionetteTestRunner
-from
-manifestparser
 import
-TestManifest
+manifestparser
 pytest
 .
 fixture
@@ -750,7 +748,10 @@ Mock
 (
 spec
 =
+manifestparser
+.
 TestManifest
+                                 
 active_tests
 =
 Mock
