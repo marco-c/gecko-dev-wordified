@@ -5783,13 +5783,12 @@ GetOutlineStyle
 ;
 nscoord
 width
-;
+=
 ourOutline
 -
 >
 GetOutlineWidth
 (
-width
 )
 ;
 if
