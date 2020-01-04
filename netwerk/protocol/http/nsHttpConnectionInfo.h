@@ -154,6 +154,13 @@ Logging
 .
 h
 "
+#
+include
+"
+ARefBase
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -461,6 +468,9 @@ net
 {
 class
 nsHttpConnectionInfo
+:
+public
+ARefBase
 {
 public
 :
@@ -1456,7 +1466,7 @@ mNPNToken
 /
 /
 for
-nsRefPtr
+RefPtr
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 nsHttpConnectionInfo

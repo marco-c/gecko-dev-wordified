@@ -551,11 +551,6 @@ false
 #
 endif
 {
-MOZ_COUNT_CTOR
-(
-EventTokenBucket
-)
-;
 mLastUpdate
 =
 TimeStamp
@@ -682,11 +677,6 @@ GetSize
 (
 )
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-EventTokenBucket
 )
 ;
 if
