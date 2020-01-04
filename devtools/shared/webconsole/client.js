@@ -637,11 +637,6 @@ isXHR
 actor
 .
 isXHR
-cause
-:
-actor
-.
-cause
 response
 :
 {
