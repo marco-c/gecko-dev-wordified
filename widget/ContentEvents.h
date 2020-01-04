@@ -1611,7 +1611,7 @@ aIsTrusted
 aMessage
 eFocusEventClass
 )
-fromRaise
+mFromRaise
 (
 false
 )
@@ -1698,7 +1698,7 @@ EventTarget
 relatedTarget
 ;
 bool
-fromRaise
+mFromRaise
 ;
 bool
 isRefocus
@@ -1730,11 +1730,11 @@ relatedTarget
 :
 nullptr
 ;
-fromRaise
+mFromRaise
 =
 aEvent
 .
-fromRaise
+mFromRaise
 ;
 isRefocus
 =

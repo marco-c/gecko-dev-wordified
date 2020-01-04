@@ -12803,7 +12803,7 @@ false
 ;
 event
 .
-fromRaise
+mFromRaise
 =
 mWindowRaised
 ;
