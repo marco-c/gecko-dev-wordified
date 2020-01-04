@@ -218,10 +218,11 @@ Node
 data
 SERVO_BINDING_FUNC
 (
-Servo_NodeData_Drop
+Servo_Node_ClearNodeData
 void
-ServoNodeDataOwned
-data
+RawGeckoNode
+*
+node
 )
 /
 /

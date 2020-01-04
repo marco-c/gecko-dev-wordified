@@ -2630,11 +2630,7 @@ if
 aContainer
 -
 >
-ServoData
-(
-)
-.
-get
+HasServoData
 (
 )
 )
@@ -2808,11 +2804,7 @@ if
 aContainer
 -
 >
-ServoData
-(
-)
-.
-get
+HasServoData
 (
 )
 )
