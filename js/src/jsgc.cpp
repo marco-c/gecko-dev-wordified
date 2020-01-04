@@ -19365,7 +19365,9 @@ maxlen
 work
 (
 %
-lld
+"
+PRId64
+"
 )
 "
 workBudget
@@ -19381,7 +19383,10 @@ buffer
 maxlen
 "
 %
-lldms
+"
+PRId64
+"
+ms
 "
 timeBudget
 .
