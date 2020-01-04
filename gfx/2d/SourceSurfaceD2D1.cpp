@@ -1061,8 +1061,15 @@ D2D1_MAP_OPTIONS_READ
 }
 else
 {
-MOZ_CRASH
+gfxDevCrash
 (
+LogReason
+:
+:
+D2D1NoWriteMap
+)
+<
+<
 "
 No
 support
@@ -1075,7 +1082,9 @@ DataSourceSurfaces
 yet
 !
 "
-)
+;
+return
+false
 ;
 }
 D2D1_MAPPED_RECT

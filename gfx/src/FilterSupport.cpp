@@ -11228,6 +11228,8 @@ Image
 MOZ_CRASH
 (
 "
+GFX
+:
 this
 shouldn
 '

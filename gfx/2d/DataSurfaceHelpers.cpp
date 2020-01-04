@@ -178,6 +178,8 @@ aPoint
 MOZ_CRASH
 (
 "
+GFX
+:
 sample
 position
 needs
@@ -267,6 +269,8 @@ mData
 MOZ_CRASH
 (
 "
+GFX
+:
 out
 -
 of
@@ -1558,6 +1562,8 @@ Overflows
 MOZ_CRASH
 (
 "
+GFX
+:
 we
 should
 never
