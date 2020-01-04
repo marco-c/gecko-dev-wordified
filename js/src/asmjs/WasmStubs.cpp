@@ -7593,6 +7593,12 @@ case
 JumpTarget
 :
 :
+IntegerDivideByZero
+:
+case
+JumpTarget
+:
+:
 ImpreciseSimdConversion
 :
 return
