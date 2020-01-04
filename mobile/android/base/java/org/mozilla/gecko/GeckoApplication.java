@@ -782,15 +782,11 @@ final
 BrowserDB
 db
 =
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 this
-)
-.
-getDB
-(
 )
 ;
 ThreadUtils

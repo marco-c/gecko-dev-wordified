@@ -272,10 +272,11 @@ this
 .
 db
 =
-profile
+BrowserDB
 .
-getDB
+from
 (
+profile
 )
 ;
 EventDispatcher

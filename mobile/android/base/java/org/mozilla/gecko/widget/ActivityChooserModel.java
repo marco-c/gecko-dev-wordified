@@ -7523,15 +7523,11 @@ final
 BrowserDB
 browserDB
 =
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 mContext
-)
-.
-getDB
-(
 )
 ;
 final

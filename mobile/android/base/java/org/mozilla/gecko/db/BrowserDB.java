@@ -239,15 +239,11 @@ g
 <
 code
 >
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 context
-)
-.
-getDB
-(
 )
 <
 /

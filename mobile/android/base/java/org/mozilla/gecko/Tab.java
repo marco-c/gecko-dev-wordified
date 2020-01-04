@@ -898,15 +898,11 @@ getApplicationContext
 ;
 mDB
 =
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 context
-)
-.
-getDB
-(
 )
 ;
 mId

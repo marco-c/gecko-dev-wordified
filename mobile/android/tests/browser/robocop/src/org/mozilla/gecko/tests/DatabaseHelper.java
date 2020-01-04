@@ -1243,15 +1243,11 @@ getProfileDB
 )
 {
 return
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 mActivity
-)
-.
-getDB
-(
 )
 ;
 }

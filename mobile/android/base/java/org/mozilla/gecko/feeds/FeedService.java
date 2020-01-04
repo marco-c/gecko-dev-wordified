@@ -542,15 +542,11 @@ onCreate
 ;
 browserDB
 =
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 this
-)
-.
-getDB
-(
 )
 ;
 }

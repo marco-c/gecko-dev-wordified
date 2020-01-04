@@ -2603,15 +2603,11 @@ position
 ;
 mDB
 =
-GeckoProfile
+BrowserDB
 .
-get
+from
 (
 context
-)
-.
-getDB
-(
 )
 ;
 }
