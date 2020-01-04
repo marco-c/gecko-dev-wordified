@@ -4514,6 +4514,10 @@ mCurrentScrollbarFlags
 (
 0
 )
+mIsBuildingScrollbar
+(
+false
+)
 mCurrentScrollbarWillHaveLayer
 (
 false
