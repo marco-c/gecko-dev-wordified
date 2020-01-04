@@ -154,7 +154,7 @@ t
 /
 implement
 the
-nsIAppInfo
+nsIXULAppInfo
 interface
 which
 is
