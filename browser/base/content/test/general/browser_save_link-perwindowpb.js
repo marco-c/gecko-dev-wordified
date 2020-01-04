@@ -342,8 +342,6 @@ clicked
 ;
 }
 testBrowser
-.
-contentWindow
 )
 ;
 }
