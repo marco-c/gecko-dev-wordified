@@ -523,6 +523,17 @@ mozilla
 /
 layers
 /
+ContentProcessController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ImageBridgeChild
 .
 h
@@ -7525,7 +7536,7 @@ APZChild
 *
 apz
 =
-APZChild
+ContentProcessController
 :
 :
 Create

@@ -13846,7 +13846,6 @@ controller
 new
 RemoteContentController
 (
-aLayersId
 )
 ;
 /
