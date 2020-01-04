@@ -439,7 +439,7 @@ coarseType
 "
 objects
 :
-ALLOCATION_STACK
+OBJECT_CLASS
 strings
 :
 COUNT
