@@ -367,9 +367,13 @@ ErrorDocs
 .
 GetURL
 (
+{
+errorMessageName
+:
 testData
 .
 jsmsg
+}
 )
 ;
 let
