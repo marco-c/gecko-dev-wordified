@@ -1160,6 +1160,14 @@ ClearTexturePool
 (
 )
 ;
+virtual
+FixedSizeSmallShmemSectionAllocator
+*
+GetTileLockAllocator
+(
+)
+override
+;
 void
 HandleMemoryPressure
 (
@@ -1859,6 +1867,10 @@ mTexturePools
 ;
 uint64_t
 mProcessToken
+;
+FixedSizeSmallShmemSectionAllocator
+*
+mSectionAllocator
 ;
 }
 ;
