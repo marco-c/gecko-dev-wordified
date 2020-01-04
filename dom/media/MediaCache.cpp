@@ -3413,7 +3413,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlock
+entry
 )
 ;
 -
