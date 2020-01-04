@@ -3791,7 +3791,7 @@ buf
 128
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

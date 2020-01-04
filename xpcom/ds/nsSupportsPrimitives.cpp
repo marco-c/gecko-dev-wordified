@@ -194,7 +194,7 @@ size
 int
 len
 =
-snprintf_literal
+SprintfLiteral
 (
 buf
 aFormat

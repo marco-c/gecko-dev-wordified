@@ -12294,7 +12294,7 @@ reason
 512
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 reason
 "
@@ -12543,7 +12543,7 @@ reason
 512
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 reason
 "

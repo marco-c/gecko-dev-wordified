@@ -230,7 +230,7 @@ printf
 #
 endif
 int
-snprintf_literal
+SprintfLiteral
 (
 char
 (

@@ -1088,7 +1088,7 @@ buf
 255
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

@@ -669,7 +669,7 @@ name
 40
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -2566,7 +2566,7 @@ buf
 10
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -2736,7 +2736,7 @@ buf
 10
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

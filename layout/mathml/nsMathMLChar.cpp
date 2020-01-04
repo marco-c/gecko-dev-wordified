@@ -2557,7 +2557,7 @@ key
 10
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "

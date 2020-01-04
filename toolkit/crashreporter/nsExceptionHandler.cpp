@@ -9662,7 +9662,7 @@ buf
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

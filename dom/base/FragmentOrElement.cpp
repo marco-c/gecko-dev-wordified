@@ -11601,7 +11601,7 @@ nsid
 "
 "
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "

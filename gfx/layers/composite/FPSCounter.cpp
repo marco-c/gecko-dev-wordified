@@ -1316,7 +1316,7 @@ bufferSize
 int
 writtenCount
 =
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -1405,7 +1405,7 @@ nextTimeStamp
 ;
 writtenCount
 =
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "

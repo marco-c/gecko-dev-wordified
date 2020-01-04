@@ -15951,7 +15951,7 @@ IsFinite
 utctime
 )
 )
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str
@@ -16704,7 +16704,7 @@ date
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str
@@ -17216,7 +17216,7 @@ PST
 )
 *
 /
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -17335,7 +17335,7 @@ Oct
 2000
 *
 /
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -17406,7 +17406,7 @@ PST
 )
 *
 /
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -17554,7 +17554,7 @@ utctime
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str

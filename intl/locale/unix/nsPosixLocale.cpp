@@ -279,7 +279,7 @@ if
 extra
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "
@@ -299,7 +299,7 @@ extra
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "
@@ -322,7 +322,7 @@ if
 extra
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "
@@ -339,7 +339,7 @@ extra
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "
@@ -599,7 +599,7 @@ if
 country_code
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "
@@ -616,7 +616,7 @@ country_code
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 posix_locale
 "

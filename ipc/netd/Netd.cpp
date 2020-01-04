@@ -465,7 +465,7 @@ i
 ]
 ;
 }
-snprintf_literal
+SprintfLiteral
 (
 mac
 "

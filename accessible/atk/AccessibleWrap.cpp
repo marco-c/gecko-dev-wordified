@@ -2150,7 +2150,7 @@ MAI_ATK_TYPE_NAME_LEN
 1
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "

@@ -6702,7 +6702,7 @@ SDK_VERSION
 {
 written
 =
-snprintf_literal
+SprintfLiteral
 (
 command
 "
@@ -6728,7 +6728,7 @@ else
 {
 written
 =
-snprintf_literal
+SprintfLiteral
 (
 command
 "
@@ -10927,7 +10927,7 @@ Property
 VALUE_MAX_LENGTH
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 dns_prop_key
 "

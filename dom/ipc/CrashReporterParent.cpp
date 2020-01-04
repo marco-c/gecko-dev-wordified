@@ -661,7 +661,7 @@ startTime
 32
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 startTime
 "

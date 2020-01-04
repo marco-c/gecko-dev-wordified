@@ -1217,7 +1217,7 @@ key
 20
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "
@@ -1290,7 +1290,7 @@ return
 false
 ;
 }
-snprintf_literal
+SprintfLiteral
 (
 key
 "
@@ -1363,7 +1363,7 @@ key
 20
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "

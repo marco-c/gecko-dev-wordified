@@ -501,7 +501,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -647,7 +647,7 @@ how
 =
 DEREF
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -720,7 +720,7 @@ how
 PFXEXPR
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -763,7 +763,7 @@ offset
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -2469,7 +2469,7 @@ buf
 200
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

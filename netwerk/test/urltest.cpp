@@ -580,7 +580,7 @@ portbuffer
 40
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 portbuffer
 "

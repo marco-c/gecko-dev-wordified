@@ -873,7 +873,7 @@ args
 aFormat
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 msg
 "

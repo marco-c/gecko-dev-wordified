@@ -2920,7 +2920,7 @@ buf
 20
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

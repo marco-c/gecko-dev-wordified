@@ -1551,7 +1551,7 @@ sysinfobuf
 SYS_INFO_BUFFER_LENGTH
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 pidstr
 "

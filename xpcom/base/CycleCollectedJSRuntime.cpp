@@ -4164,7 +4164,7 @@ fname
 chars
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -4187,7 +4187,7 @@ get
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -4203,7 +4203,7 @@ Function
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -4224,7 +4224,7 @@ name
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
