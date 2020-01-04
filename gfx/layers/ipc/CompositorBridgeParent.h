@@ -2782,11 +2782,6 @@ TimeStamp
 aVsyncTimestamp
 )
 ;
-float
-ComputeRenderIntegrity
-(
-)
-;
 widget
 :
 :

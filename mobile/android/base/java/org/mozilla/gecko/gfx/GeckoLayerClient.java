@@ -6647,12 +6647,6 @@ null
 }
 mLayerRenderer
 .
-checkMonitoringEnabled
-(
-)
-;
-mLayerRenderer
-.
 createDefaultProgram
 (
 )
