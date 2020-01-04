@@ -468,6 +468,13 @@ h
 #
 include
 "
+nsSocketTransportService2
+.
+h
+"
+#
+include
+"
 plbase64
 .
 h
@@ -539,11 +546,6 @@ it
 define
 CLOSE_GOING_AWAY
 1001
-extern
-PRThread
-*
-gSocketThread
-;
 using
 namespace
 mozilla

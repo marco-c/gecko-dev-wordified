@@ -181,11 +181,6 @@ ssl
 .
 h
 "
-extern
-PRThread
-*
-gSocketThread
-;
 namespace
 mozilla
 {
