@@ -7255,9 +7255,6 @@ NSSArena
 *
 arena
 ;
-PRStatus
-status
-;
 PRUint32
 arraySize
 numHandles
@@ -7738,8 +7735,9 @@ op
 +
 )
 {
-status
-=
+(
+void
+)
 (
 *
 callback

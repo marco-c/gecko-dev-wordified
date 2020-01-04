@@ -3048,6 +3048,8 @@ ndx
 {
 int
 ctmp
+=
+0
 ;
 cipher
 =

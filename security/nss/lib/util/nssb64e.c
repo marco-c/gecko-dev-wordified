@@ -3875,6 +3875,8 @@ max_out_len
 ;
 PRUint32
 out_len
+=
+0
 ;
 void
 *

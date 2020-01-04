@@ -7296,10 +7296,10 @@ char
 *
 description
 ;
-PKIX_Int32
+PKIX_UInt32
 objCounter
 ;
-PKIX_Int32
+PKIX_UInt32
 typeObjectSize
 ;
 PKIX_PL_DestructorCallback

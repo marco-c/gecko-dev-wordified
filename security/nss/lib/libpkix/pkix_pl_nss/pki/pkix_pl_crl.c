@@ -1915,6 +1915,8 @@ NULL
 ;
 PKIX_UInt32
 crlVersion
+=
+0
 ;
 PKIX_PL_X500Name
 *

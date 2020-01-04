@@ -7452,9 +7452,6 @@ NULL
 PKIX_UInt32
 derLength
 ;
-PKIX_Boolean
-copyDER
-;
 PKIX_PL_Cert
 *
 cert
@@ -7575,10 +7572,6 @@ using
 it
 *
 /
-copyDER
-=
-PKIX_TRUE
-;
 handle
 =
 CERT_GetDefaultCertDB

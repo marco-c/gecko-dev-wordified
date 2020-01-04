@@ -1810,6 +1810,10 @@ keySizeInBits
 |
 BAD_RSA_KEY_SIZE
 (
+(
+unsigned
+int
+)
 keySizeInBits
 /
 8

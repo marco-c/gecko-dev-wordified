@@ -6045,6 +6045,9 @@ YY_NO_UNPUT
 *
 /
 #
+ifndef
+YY_NO_INPUT
+#
 ifdef
 __cplusplus
 static
@@ -6363,6 +6366,14 @@ return
 c
 ;
 }
+#
+endif
+/
+*
+ifndef
+YY_NO_INPUT
+*
+/
 #
 ifdef
 YY_USE_PROTOS

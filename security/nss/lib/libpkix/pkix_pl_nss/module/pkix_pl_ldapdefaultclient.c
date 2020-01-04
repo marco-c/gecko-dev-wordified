@@ -2245,7 +2245,8 @@ decode
 data
 =
 (
-void
+unsigned
+char
 *
 )
 (

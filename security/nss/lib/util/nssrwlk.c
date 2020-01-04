@@ -532,6 +532,9 @@ char
 )
 PR_Malloc
 (
+(
+PRUint32
+)
 strlen
 (
 lock_name

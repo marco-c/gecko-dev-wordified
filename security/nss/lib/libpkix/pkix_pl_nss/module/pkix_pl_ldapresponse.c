@@ -4127,10 +4127,6 @@ pResultCode
 =
 *
 (
-char
-*
-)
-(
 resultMsg
 -
 >

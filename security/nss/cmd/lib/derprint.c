@@ -2042,6 +2042,7 @@ if
 raw
 )
 {
+unsigned
 int
 i
 ;
@@ -2326,6 +2327,17 @@ us
 off
 the
 end
+*
+or
+if
+there
+'
+s
+no
+more
+data
+to
+process
 .
 *
 /
@@ -2337,6 +2349,7 @@ data
 slen
 )
 >
+=
 end
 )
 {
