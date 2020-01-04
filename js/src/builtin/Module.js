@@ -1363,6 +1363,9 @@ null
 ThrowSyntaxError
 (
 JSMSG_MISSING_INDIRECT_EXPORT
+e
+.
+exportName
 )
 ;
 if
@@ -1378,6 +1381,9 @@ ambiguous
 ThrowSyntaxError
 (
 JSMSG_AMBIGUOUS_INDIRECT_EXPORT
+e
+.
+exportName
 )
 ;
 }
@@ -1487,6 +1493,9 @@ null
 ThrowSyntaxError
 (
 JSMSG_MISSING_IMPORT
+imp
+.
+importName
 )
 ;
 if
@@ -1502,6 +1511,9 @@ ambiguous
 ThrowSyntaxError
 (
 JSMSG_AMBIGUOUS_IMPORT
+imp
+.
+importName
 )
 ;
 CreateImportBinding
