@@ -55,13 +55,13 @@ MPL
 .
 import
 sys
-NOT_NESTED
+NORMAL_PRIORITY
 =
 1
-INSIDE_SYNC_NESTED
+HIGH_PRIORITY
 =
 2
-INSIDE_CPOW_NESTED
+URGENT_PRIORITY
 =
 3
 class
@@ -1502,9 +1502,9 @@ ASYNC
         
 self
 .
-nested
+priority
 =
-NOT_NESTED
+NORMAL_PRIORITY
         
 self
 .
@@ -1869,9 +1869,9 @@ ASYNC
         
 self
 .
-nested
+priority
 =
-NOT_NESTED
+NORMAL_PRIORITY
         
 self
 .

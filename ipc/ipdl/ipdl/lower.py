@@ -13398,7 +13398,7 @@ decl
 .
 type
 .
-nested
+priority
                                             
 md
 .
@@ -13474,7 +13474,7 @@ decl
 .
 type
 .
-nested
+priority
                         
 md
 .
@@ -15337,7 +15337,7 @@ _generateMessageConstructor
 (
 clsname
 msgid
-nested
+priority
 prettyName
 compress
 )
@@ -15465,17 +15465,17 @@ COMPRESSION_NONE
 )
     
 if
-nested
+priority
 =
 =
 ipdl
 .
 ast
 .
-NOT_NESTED
+NORMAL_PRIORITY
 :
         
-nestedEnum
+priorityEnum
 =
 '
 IPC
@@ -15484,21 +15484,21 @@ IPC
 Message
 :
 :
-NOT_NESTED
+PRIORITY_NORMAL
 '
     
 elif
-nested
+priority
 =
 =
 ipdl
 .
 ast
 .
-INSIDE_SYNC_NESTED
+HIGH_PRIORITY
 :
         
-nestedEnum
+priorityEnum
 =
 '
 IPC
@@ -15507,23 +15507,23 @@ IPC
 Message
 :
 :
-NESTED_INSIDE_SYNC
+PRIORITY_HIGH
 '
     
 else
 :
         
 assert
-nested
+priority
 =
 =
 ipdl
 .
 ast
 .
-INSIDE_CPOW_NESTED
+URGENT_PRIORITY
         
-nestedEnum
+priorityEnum
 =
 '
 IPC
@@ -15532,7 +15532,7 @@ IPC
 Message
 :
 :
-NESTED_INSIDE_CPOW
+PRIORITY_URGENT
 '
     
 func
@@ -15566,20 +15566,7 @@ msgid
                                   
 ExprVar
 (
-nestedEnum
-)
-                                  
-ExprVar
-(
-'
-IPC
-:
-:
-Message
-:
-:
-NORMAL_PRIORITY
-'
+priorityEnum
 )
                                   
 compression

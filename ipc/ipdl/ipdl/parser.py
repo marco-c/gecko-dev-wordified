@@ -1077,6 +1077,10 @@ goto
 '
         
 '
+high
+'
+        
+'
 include
 '
         
@@ -1097,7 +1101,7 @@ namespace
 '
         
 '
-nested
+normal
 '
         
 '
@@ -1114,6 +1118,10 @@ or
         
 '
 parent
+'
+        
+'
+prio
 '
         
 '
@@ -1158,6 +1166,10 @@ union
         
 '
 upto
+'
+        
+'
+urgent
 '
         
 '
@@ -2900,7 +2912,7 @@ p
     
 protocol
 .
-nestedRange
+priorityRange
 =
 p
 [
@@ -4048,7 +4060,7 @@ p
     
 msg
 .
-nested
+priority
 =
 p
 [
@@ -5157,7 +5169,7 @@ p
 Minor
 stuff
 def
-p_Nested
+p_Priority
 (
 p
 )
@@ -5166,71 +5178,47 @@ p
 "
 "
 "
-Nested
+Priority
 :
-ID
+NORMAL
+                
+|
+HIGH
+                
+|
+URGENT
 "
 "
 "
     
-kinds
+prios
 =
 {
 '
-not
+normal
 '
 :
 1
              
 '
-inside_sync
+high
 '
 :
 2
              
 '
-inside_cpow
+urgent
 '
 :
 3
 }
-    
-if
-p
-[
-1
-]
-not
-in
-kinds
-:
-        
-_error
-(
-locFromTok
-(
-p
-1
-)
-"
-Expected
-not
-inside_sync
-or
-inside_cpow
-for
-nested
-(
-)
-"
-)
     
 p
 [
 0
 ]
 =
-kinds
+prios
 [
 p
 [
@@ -5255,22 +5243,22 @@ ASYNC
 SYNC
                          
 |
-NESTED
+PRIO
 '
 (
 '
-Nested
+Priority
 '
 )
 '
 ASYNC
                          
 |
-NESTED
+PRIO
 '
 (
 '
-Nested
+Priority
 '
 )
 '
@@ -5290,7 +5278,7 @@ p
 =
 =
 '
-nested
+prio
 '
 :
         
@@ -5301,7 +5289,7 @@ p
 5
 ]
         
-nested
+prio
 =
 p
 [
@@ -5318,9 +5306,9 @@ p
 1
 ]
         
-nested
+prio
 =
-NOT_NESTED
+NORMAL_PRIORITY
     
 if
 mtype
@@ -5369,7 +5357,7 @@ p
 ]
 =
 [
-nested
+prio
 mtype
 ]
 def
@@ -5419,8 +5407,8 @@ p
 =
 [
 (
-NOT_NESTED
-NOT_NESTED
+NORMAL_PRIORITY
+NORMAL_PRIORITY
 )
 ASYNC
 ]
@@ -5442,28 +5430,43 @@ ASYNC
 SYNC
                                  
 |
-NESTED
+PRIO
 '
 (
 '
+Priority
 UPTO
-Nested
+Priority
 '
 )
 '
 ASYNC
                                  
 |
-NESTED
+PRIO
 '
 (
 '
+Priority
 UPTO
-Nested
+Priority
 '
 )
 '
 SYNC
+                                 
+|
+PRIO
+'
+(
+'
+Priority
+UPTO
+Priority
+'
+)
+'
+INTR
                                  
 |
 INTR
@@ -5479,7 +5482,7 @@ p
 =
 =
 '
-nested
+prio
 '
 :
         
@@ -5487,16 +5490,19 @@ mtype
 =
 p
 [
-6
+7
 ]
         
-nested
+prio
 =
 (
-NOT_NESTED
 p
 [
-4
+3
+]
+p
+[
+5
 ]
 )
     
@@ -5510,11 +5516,11 @@ p
 1
 ]
         
-nested
+prio
 =
 (
-NOT_NESTED
-NOT_NESTED
+NORMAL_PRIORITY
+NORMAL_PRIORITY
 )
     
 if
@@ -5564,7 +5570,7 @@ p
 ]
 =
 [
-nested
+prio
 mtype
 ]
 def

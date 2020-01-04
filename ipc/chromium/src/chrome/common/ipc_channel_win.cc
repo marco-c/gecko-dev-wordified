@@ -1617,6 +1617,13 @@ Message
 (
 MSG_ROUTING_NONE
 HELLO_MESSAGE_TYPE
+IPC
+:
+:
+Message
+:
+:
+PRIORITY_NORMAL
 )
 ;
 /
