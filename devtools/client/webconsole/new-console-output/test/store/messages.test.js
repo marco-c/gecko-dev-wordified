@@ -724,6 +724,7 @@ toBe
 (
 "
 Console
+was
 cleared
 .
 "

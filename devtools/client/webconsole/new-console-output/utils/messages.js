@@ -519,6 +519,12 @@ stacktrace
 message
 .
 stacktrace
+?
+message
+.
+stacktrace
+:
+null
 frame
 }
 )
