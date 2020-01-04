@@ -114,11 +114,11 @@ SkSaveLayer
 :
 paint
 (
-nullptr
+NULL
 )
 bounds
 (
-nullptr
+NULL
 )
 {
 }

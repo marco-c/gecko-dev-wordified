@@ -42,13 +42,6 @@ SkParse
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 static
 inline
 bool
@@ -560,7 +553,7 @@ str
 )
 )
 return
-nullptr
+NULL
 ;
 uint32_t
 n
@@ -600,7 +593,7 @@ max_digits
 0
 )
 return
-nullptr
+NULL
 ;
 n
 =
@@ -649,7 +642,7 @@ str
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 const
@@ -719,7 +712,7 @@ str
 )
 )
 return
-nullptr
+NULL
 ;
 int
 n
@@ -840,7 +833,7 @@ str
 )
 )
 return
-nullptr
+NULL
 ;
 int
 n
@@ -1024,7 +1017,7 @@ stop
 )
 {
 return
-nullptr
+NULL
 ;
 }
 if
@@ -1108,7 +1101,7 @@ count
 str
 =
 =
-nullptr
+NULL
 )
 break
 ;
@@ -1354,7 +1347,7 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 /
 /
@@ -1400,7 +1393,7 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 break
 ;

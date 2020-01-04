@@ -126,12 +126,11 @@ y
 )
 SK_BLITBWMASK_GETADDR
 either
-writable_addr
-[
-8
-16
-32
-]
+getAddr32
+or
+getAddr16
+or
+getAddr8
 SK_BLITBWMASK_DEVTYPE
 either
 U32
@@ -146,9 +145,9 @@ void
 SK_BLITBWMASK_NAME
 (
 const
-SkPixmap
+SkBitmap
 &
-dst
+bitmap
 const
 SkMask
 &
@@ -207,7 +206,7 @@ fRowBytes
 size_t
 bitmap_rowBytes
 =
-dst
+bitmap
 .
 rowBytes
 (
@@ -263,7 +262,7 @@ SK_BLITBWMASK_DEVTYPE
 *
 device
 =
-dst
+bitmap
 .
 SK_BLITBWMASK_GETADDR
 (

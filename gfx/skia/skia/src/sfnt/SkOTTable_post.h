@@ -219,7 +219,7 @@ stddef
 .
 h
 >
-static_assert
+SK_COMPILE_ASSERT
 (
 offsetof
 (
@@ -229,12 +229,10 @@ maxMemType1
 =
 =
 28
-"
 SkOTTablePostScript_maxMemType1_not_at_28
-"
 )
 ;
-static_assert
+SK_COMPILE_ASSERT
 (
 sizeof
 (
@@ -243,9 +241,7 @@ SkOTTablePostScript
 =
 =
 32
-"
 sizeof_SkOTTablePostScript_not_32
-"
 )
 ;
 #

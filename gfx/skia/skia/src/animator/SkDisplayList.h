@@ -79,7 +79,7 @@ class
 SkApply
 ;
 class
-SkADrawable
+SkDrawable
 ;
 class
 SkGroup
@@ -175,7 +175,7 @@ endif
 int
 findGroup
 (
-SkADrawable
+SkDrawable
 *
 match
 SkTDDrawableArray
@@ -196,7 +196,7 @@ SkTDDrawableArray
 grandList
 )
 ;
-SkADrawable
+SkDrawable
 *
 get
 (
@@ -280,7 +280,7 @@ static
 int
 SearchForMatch
 (
-SkADrawable
+SkDrawable
 *
 match
 SkTDDrawableArray
@@ -305,10 +305,10 @@ static
 bool
 SearchGroupForMatch
 (
-SkADrawable
+SkDrawable
 *
 draw
-SkADrawable
+SkDrawable
 *
 match
 SkTDDrawableArray

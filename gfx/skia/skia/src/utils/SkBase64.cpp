@@ -194,7 +194,7 @@ size_t
 )
 fData
 (
-nullptr
+NULL
 )
 {
 }
@@ -729,7 +729,7 @@ encode
 ;
 if
 (
-nullptr
+NULL
 =
 =
 encodeMap

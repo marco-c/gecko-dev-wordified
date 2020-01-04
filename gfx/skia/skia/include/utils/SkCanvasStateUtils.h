@@ -165,12 +165,9 @@ ReleaseCanvasState
 *
 *
 /
-class
-SK_API
+namespace
 SkCanvasStateUtils
 {
-public
-:
 /
 *
 *
@@ -371,7 +368,7 @@ state
 .
 *
 /
-static
+SK_API
 SkCanvasState
 *
 CaptureCanvasState
@@ -484,7 +481,7 @@ SkCanvas
 .
 *
 /
-static
+SK_API
 SkCanvas
 *
 CreateFromCanvasState
@@ -560,7 +557,7 @@ of
 .
 *
 /
-static
+SK_API
 void
 ReleaseCanvasState
 (

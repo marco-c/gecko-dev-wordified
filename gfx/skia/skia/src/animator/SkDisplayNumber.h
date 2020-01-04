@@ -66,6 +66,7 @@ DECLARE_DISPLAY_MEMBER_INFO
 Number
 )
 ;
+virtual
 bool
 getProperty
 (
@@ -76,7 +77,6 @@ SkScriptValue
 value
 )
 const
-override
 ;
 private
 :

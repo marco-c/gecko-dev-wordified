@@ -4497,7 +4497,7 @@ SkCairoFTTypeface
 SkGraphics
 :
 :
-PurgeFontCache
+Term
 (
 )
 ;

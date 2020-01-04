@@ -47,13 +47,6 @@ SkDiscardableMemory
 h
 "
 #
-include
-"
-SkMutex
-.
-h
-"
-#
 ifndef
 SK_LAZY_CACHE_STATS
 #
@@ -298,7 +291,7 @@ SkBaseMutex
 *
 mutex
 =
-nullptr
+NULL
 )
 ;
 }

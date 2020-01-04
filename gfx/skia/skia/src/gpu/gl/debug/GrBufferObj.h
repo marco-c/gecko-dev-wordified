@@ -158,7 +158,7 @@ GrFakeRefObj
 )
 fDataPtr
 (
-nullptr
+NULL
 )
 fMapped
 (
@@ -358,11 +358,12 @@ return
 fUsage
 ;
 }
+virtual
 void
 deleteAction
 (
 )
-override
+SK_OVERRIDE
 ;
 protected
 :

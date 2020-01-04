@@ -146,7 +146,7 @@ name
 ?
 this
 :
-nullptr
+NULL
 ;
 }
 bool

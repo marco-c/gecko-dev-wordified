@@ -300,7 +300,7 @@ int
 w
 int
 h
-size_t
+int
 rowBytes
 )
 ;
@@ -406,7 +406,7 @@ int
 w
 int
 h
-size_t
+int
 rowBytes
 )
 ;

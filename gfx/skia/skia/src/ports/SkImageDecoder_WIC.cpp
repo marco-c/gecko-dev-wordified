@@ -40,12 +40,6 @@ SkTypes
 .
 h
 "
-#
-if
-defined
-(
-SK_BUILD_FOR_WIN32
-)
 /
 /
 Workaround
@@ -398,7 +392,7 @@ it
 must
 not
 be
-nullptr
+NULL
 .
 *
 param
@@ -444,7 +438,8 @@ const
 ;
 protected
 :
-Result
+virtual
+bool
 onDecode
 (
 SkStream
@@ -456,7 +451,7 @@ bm
 Mode
 mode
 )
-override
+SK_OVERRIDE
 ;
 }
 ;
@@ -580,10 +575,7 @@ SkImageDecoder
 kUnknown_Format
 ;
 }
-SkImageDecoder
-:
-:
-Result
+bool
 SkImageDecoder_WIC
 :
 :
@@ -641,12 +633,8 @@ decodeStream
 stream
 bm
 wicMode
-nullptr
+NULL
 )
-?
-kSuccess
-:
-kFailure
 ;
 }
 bool
@@ -723,7 +711,7 @@ hr
 CoCreateInstance
 (
 CLSID_WICImagingFactory
-nullptr
+NULL
 CLSCTX_INPROC_SERVER
 IID_PPV_ARGS
 (
@@ -806,7 +794,7 @@ Seek
 (
 liBeginning
 STREAM_SEEK_SET
-nullptr
+NULL
 )
 ;
 }
@@ -852,7 +840,7 @@ Image
 to
 be
 decoded
-nullptr
+NULL
 /
 /
 No
@@ -889,7 +877,7 @@ SkASSERT
 format
 !
 =
-nullptr
+NULL
 )
 ;
 /
@@ -1116,7 +1104,7 @@ this
 allocPixelRef
 (
 bm
-nullptr
+NULL
 )
 )
 {
@@ -1221,7 +1209,7 @@ WICBitmapDitherTypeNone
 Specified
 dither
 patterm
-nullptr
+NULL
 /
 /
 Specify
@@ -1337,7 +1325,7 @@ piBitmapSourceConverted
 >
 CopyPixels
 (
-nullptr
+NULL
 /
 /
 Get
@@ -1513,7 +1501,7 @@ stream
 ;
 if
 (
-nullptr
+NULL
 =
 =
 decoder
@@ -1534,8 +1522,10 @@ use
 SkImageDecoder_WIC
 .
 return
-new
+SkNEW
+(
 SkImageDecoder_WIC
+)
 ;
 }
 else
@@ -1631,7 +1621,7 @@ stream
 )
 {
 return
-nullptr
+NULL
 ;
 }
 /
@@ -2093,7 +2083,7 @@ hr
 CoCreateInstance
 (
 CLSID_WICImagingFactory
-nullptr
+NULL
 CLSCTX_INPROC_SERVER
 IID_PPV_ARGS
 (
@@ -2171,7 +2161,7 @@ piImagingFactory
 CreateEncoder
 (
 type
-nullptr
+NULL
 &
 piEncoder
 )
@@ -2743,14 +2733,16 @@ break
 default
 :
 return
-nullptr
+NULL
 ;
 }
 return
-new
+SkNEW_ARGS
+(
 SkImageEncoder_WIC
 (
 t
+)
 )
 ;
 }
@@ -2790,7 +2782,7 @@ codec
 decodeStream
 (
 stream
-nullptr
+NULL
 SkImageDecoder_WIC
 :
 :
@@ -2819,11 +2811,3 @@ gFormatReg
 get_format_wic
 )
 ;
-#
-endif
-/
-/
-defined
-(
-SK_BUILD_FOR_WIN32
-)

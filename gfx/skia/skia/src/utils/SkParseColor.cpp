@@ -2758,7 +2758,7 @@ hi
 mid
 )
 return
-nullptr
+NULL
 ;
 else
 hi
@@ -2767,7 +2767,7 @@ mid
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 /
@@ -2838,7 +2838,7 @@ c
 )
 =
 =
-nullptr
+NULL
 )
 /
 /
@@ -2884,7 +2884,7 @@ c
 )
 !
 =
-nullptr
+NULL
 )
 ;
 /
@@ -3013,7 +3013,7 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 return
 end
@@ -3163,7 +3163,7 @@ SkASSERT
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 /
@@ -3268,12 +3268,12 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 /
 /
 return
-nullptr
+NULL
 ;
 /
 /
@@ -3416,7 +3416,7 @@ result
 )
 !
 =
-nullptr
+NULL
 )
 ;
 SkASSERT
@@ -3509,7 +3509,7 @@ result
 )
 =
 =
-nullptr
+NULL
 )
 ;
 bad
@@ -3532,7 +3532,7 @@ result
 )
 =
 =
-nullptr
+NULL
 )
 ;
 }

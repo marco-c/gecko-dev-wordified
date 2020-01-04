@@ -362,7 +362,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -438,7 +438,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -560,7 +560,7 @@ if
 text
 =
 =
-nullptr
+NULL
 )
 text
 =
@@ -627,7 +627,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -690,7 +690,7 @@ this
 >
 inval
 (
-nullptr
+NULL
 )
 ;
 }
@@ -1063,7 +1063,7 @@ paint
 )
 !
 =
-nullptr
+NULL
 &
 &
 (
@@ -1081,7 +1081,7 @@ screenplay
 )
 !
 =
-nullptr
+NULL
 )
 {
 /

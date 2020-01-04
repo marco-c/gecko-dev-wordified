@@ -50,6 +50,6 @@ GrGLCreateNativeInterface
 )
 {
 return
-nullptr
+NULL
 ;
 }

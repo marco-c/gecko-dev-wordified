@@ -49,7 +49,7 @@ SkBoundaryPatch
 :
 fBoundary
 (
-nullptr
+NULL
 )
 {
 }
@@ -565,8 +565,8 @@ e
 t
 &
 loc
-nullptr
-nullptr
+NULL
+NULL
 )
 ;
 return

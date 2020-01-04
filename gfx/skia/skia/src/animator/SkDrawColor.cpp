@@ -181,9 +181,11 @@ value
 ?
 0
 :
+SkScalarDiv
+(
 delta
-/
 value
+)
 ;
 if
 (
@@ -214,9 +216,13 @@ else
 SkScalar
 part60
 =
+SkScalarDiv
+(
 60
-/
+*
+SK_Scalar1
 delta
+)
 ;
 if
 (
@@ -834,7 +840,7 @@ fPaint
 color
 !
 =
-nullptr
+NULL
 )
 return
 true
@@ -1323,7 +1329,7 @@ SkASSERT
 parent
 !
 =
-nullptr
+NULL
 )
 ;
 if

@@ -42,13 +42,6 @@ SkBuffer
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 /
 /
 /
@@ -212,7 +205,7 @@ fPos
 ;
 readNoSizeCheck
 (
-nullptr
+NULL
 size
 )
 ;
@@ -327,7 +320,7 @@ fPos
 ;
 writeNoSizeCheck
 (
-nullptr
+NULL
 size
 )
 ;
@@ -335,9 +328,9 @@ return
 fData
 =
 =
-nullptr
+NULL
 ?
-nullptr
+NULL
 :
 result
 ;

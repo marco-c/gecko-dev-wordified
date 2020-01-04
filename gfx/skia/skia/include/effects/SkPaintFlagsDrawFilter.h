@@ -65,6 +65,7 @@ uint32_t
 setFlags
 )
 ;
+virtual
 bool
 filter
 (
@@ -72,7 +73,7 @@ SkPaint
 *
 Type
 )
-override
+SK_OVERRIDE
 ;
 private
 :

@@ -54,7 +54,7 @@ GrTypesPriv
 h
 "
 class
-GrFragmentProcessor
+GrEffect
 ;
 struct
 SkRect
@@ -78,11 +78,11 @@ oval
 .
 *
 /
-GrFragmentProcessor
+GrEffect
 *
 Create
 (
-GrPrimitiveEdgeType
+GrEffectEdgeType
 const
 SkRect
 &

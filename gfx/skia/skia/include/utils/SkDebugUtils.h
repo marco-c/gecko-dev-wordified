@@ -125,10 +125,6 @@ size
 {
 SkDebugf
 (
-"
-%
-s
-"
 name
 )
 ;
@@ -219,10 +215,6 @@ height
 {
 SkDebugf
 (
-"
-%
-s
-"
 name
 )
 ;
@@ -368,10 +360,6 @@ val
 {
 SkDebugf
 (
-"
-%
-s
-"
 name
 )
 ;
@@ -505,7 +493,6 @@ val
 template
 <
 >
-inline
 void
 SkDebugDumpMathematica
 <

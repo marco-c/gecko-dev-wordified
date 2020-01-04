@@ -204,7 +204,7 @@ SkASSERT
 utf16be
 !
 =
-nullptr
+NULL
 )
 ;
 utf8

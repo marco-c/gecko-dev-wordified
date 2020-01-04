@@ -195,7 +195,7 @@ kImmediate
 )
 fMaker
 (
-nullptr
+NULL
 )
 fSinkID
 (
@@ -203,7 +203,7 @@ fSinkID
 )
 fTargetMaker
 (
-nullptr
+NULL
 )
 fChildHasID
 (
@@ -449,11 +449,14 @@ g
 \
 "
 "
+SkScalarToFloat
+(
+SkScalarDiv
+(
 delay
-*
-0
-.
-001
+1000
+)
+)
 )
 ;
 }
@@ -760,7 +763,7 @@ number
 )
 !
 =
-nullptr
+NULL
 )
 {
 /
@@ -1542,7 +1545,7 @@ id
 )
 !
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1717,7 +1720,7 @@ SkDisplayable
 *
 displayable
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1780,7 +1783,7 @@ if
 displayable
 =
 =
-nullptr
+NULL
 |
 |
 displayable
@@ -1833,7 +1836,7 @@ if
 end
 =
 =
-nullptr
+NULL
 )
 break
 ;

@@ -54,6 +54,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkDeviceProfile
+)
 enum
 LCDConfig
 {
@@ -236,7 +240,7 @@ SetGlobal
 )
 or
 if
-nullptr
+NULL
 is
 specified
 to
@@ -364,7 +368,7 @@ profile
 .
 *
 Specify
-nullptr
+NULL
 for
 the
 "

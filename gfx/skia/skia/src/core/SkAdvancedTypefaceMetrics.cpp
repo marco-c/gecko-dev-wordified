@@ -88,7 +88,7 @@ template
 for
 freetype
 struct
-FT_FaceRec_
+FT_FaceRec
 ;
 typedef
 struct
@@ -983,7 +983,7 @@ Data
 *
 prevRange
 =
-nullptr
+NULL
 ;
 Data
 lastAdvance
@@ -1115,7 +1115,7 @@ only
 when
 subset
 is
-nullptr
+NULL
 or
 the
 id

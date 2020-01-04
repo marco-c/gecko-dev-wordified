@@ -80,7 +80,7 @@ SkASSERT
 keys
 !
 =
-nullptr
+NULL
 )
 ;
 SkASSERT
@@ -88,7 +88,7 @@ SkASSERT
 values
 !
 =
-nullptr
+NULL
 )
 ;
 #
@@ -235,13 +235,11 @@ right
 SkScalar
 fract
 =
+SkScalarDiv
 (
 searchKey
 -
 leftKey
-)
-/
-(
 rightKey
 -
 leftKey

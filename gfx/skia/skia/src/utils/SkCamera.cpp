@@ -667,7 +667,7 @@ if
 dst
 =
 =
-nullptr
+NULL
 )
 {
 dst
@@ -2722,8 +2722,10 @@ rec
 >
 fNext
 ;
-delete
+SkDELETE
+(
 rec
+)
 ;
 rec
 =
@@ -2743,8 +2745,10 @@ Rec
 *
 rec
 =
-new
+SkNEW
+(
 Rec
+)
 ;
 rec
 -
@@ -2794,8 +2798,10 @@ fRec
 >
 fNext
 ;
-delete
+SkDELETE
+(
 fRec
+)
 ;
 fRec
 =
@@ -3085,7 +3091,7 @@ if
 matrix
 !
 =
-nullptr
+NULL
 )
 {
 SkPatch3D

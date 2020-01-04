@@ -306,7 +306,7 @@ pack
 (
 pop
 )
-static_assert
+SK_COMPILE_ASSERT
 (
 sizeof
 (
@@ -315,9 +315,7 @@ SkTTCFHeader
 =
 =
 12
-"
 sizeof_SkTTCFHeader_not_12
-"
 )
 ;
 #

@@ -43,6 +43,13 @@ h
 #
 include
 <
+stdio
+.
+h
+>
+#
+include
+<
 stdlib
 .
 h
@@ -125,7 +132,7 @@ size
 p
 =
 =
-nullptr
+NULL
 )
 {
 /
@@ -136,7 +143,7 @@ we
 ve
 got
 a
-nullptr
+NULL
 here
 the
 only

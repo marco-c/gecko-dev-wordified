@@ -170,11 +170,12 @@ GrShaderObj
 shader
 )
 ;
+virtual
 void
 deleteAction
 (
 )
-override
+SK_OVERRIDE
 ;
 /
 /

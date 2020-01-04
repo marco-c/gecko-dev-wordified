@@ -120,6 +120,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkDataTable
+)
 /
 *
 *

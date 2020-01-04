@@ -41,12 +41,6 @@ SkTypes
 h
 "
 #
-if
-defined
-(
-SK_BUILD_FOR_WIN32
-)
-#
 include
 "
 SkDWriteGeometrySink
@@ -127,7 +121,7 @@ object
 {
 if
 (
-nullptr
+NULL
 =
 =
 object
@@ -185,7 +179,7 @@ else
 *
 object
 =
-nullptr
+NULL
 ;
 return
 E_NOINTERFACE
@@ -1037,11 +1031,3 @@ return
 S_OK
 ;
 }
-#
-endif
-/
-/
-defined
-(
-SK_BUILD_FOR_WIN32
-)

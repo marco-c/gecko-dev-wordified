@@ -156,7 +156,7 @@ bytes_in_buffer
 ;
 #
 ifdef
-SK_JPEG_INDEX_SUPPORTED
+SK_BUILD_FOR_ANDROID
 src
 -
 >
@@ -210,7 +210,7 @@ cinfo
 }
 #
 ifdef
-SK_JPEG_INDEX_SUPPORTED
+SK_BUILD_FOR_ANDROID
 static
 boolean
 sk_seek_input_data
@@ -397,7 +397,7 @@ src
 fDecoder
 !
 =
-nullptr
+NULL
 &
 &
 src
@@ -474,7 +474,7 @@ FALSE
 }
 #
 ifdef
-SK_JPEG_INDEX_SUPPORTED
+SK_BUILD_FOR_ANDROID
 src
 -
 >
@@ -632,7 +632,7 @@ return
 }
 #
 ifdef
-SK_JPEG_INDEX_SUPPORTED
+SK_BUILD_FOR_ANDROID
 src
 -
 >
@@ -799,7 +799,10 @@ decoder
 :
 fStream
 (
+SkRef
+(
 stream
+)
 )
 fDecoder
 (
@@ -828,7 +831,7 @@ sk_term_source
 ;
 #
 ifdef
-SK_JPEG_INDEX_SUPPORTED
+SK_BUILD_FOR_ANDROID
 seek_input_data
 =
 sk_seek_input_data
@@ -867,6 +870,20 @@ n
 "
 fMemoryBase
 fMemoryBaseSize
+)
+;
+}
+skjpeg_source_mgr
+:
+:
+~
+skjpeg_source_mgr
+(
+)
+{
+SkSafeUnref
+(
+fStream
 )
 ;
 }

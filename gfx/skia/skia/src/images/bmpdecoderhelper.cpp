@@ -1010,7 +1010,7 @@ height_
 ;
 if
 (
-nullptr
+NULL
 =
 =
 output_

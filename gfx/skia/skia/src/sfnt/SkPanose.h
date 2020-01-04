@@ -3023,7 +3023,7 @@ pack
 (
 pop
 )
-static_assert
+SK_COMPILE_ASSERT
 (
 sizeof
 (
@@ -3032,9 +3032,7 @@ SkPanose
 =
 =
 10
-"
 sizeof_SkPanose_not_10
-"
 )
 ;
 #

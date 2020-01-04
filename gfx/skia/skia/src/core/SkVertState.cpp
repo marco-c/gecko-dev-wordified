@@ -670,7 +670,7 @@ TriangleFan
 default
 :
 return
-nullptr
+NULL
 ;
 }
 }

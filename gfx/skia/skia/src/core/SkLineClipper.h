@@ -205,8 +205,6 @@ lines
 [
 kMaxPoints
 ]
-bool
-canCullToTheRight
 )
 ;
 /

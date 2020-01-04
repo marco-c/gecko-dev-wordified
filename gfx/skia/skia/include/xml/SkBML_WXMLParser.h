@@ -222,7 +222,7 @@ automatic
 wrap
 -
 around
-uint8_t
+U8
 fNextElem
 fNextAttrName
 fNextAttrValue

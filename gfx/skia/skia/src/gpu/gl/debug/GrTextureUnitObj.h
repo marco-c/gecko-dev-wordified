@@ -191,7 +191,7 @@ fNumber
 )
 fTexture
 (
-nullptr
+NULL
 )
 {
 }

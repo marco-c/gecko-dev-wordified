@@ -594,6 +594,9 @@ len
 )
 ;
 return
+NULL
+!
+=
 ptr
 &
 &

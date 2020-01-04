@@ -1581,7 +1581,7 @@ fS32
 )
 =
 =
-nullptr
+NULL
 )
 return
 false
@@ -1633,7 +1633,7 @@ fScalar
 )
 =
 =
-nullptr
+NULL
 )
 return
 false
@@ -1749,7 +1749,8 @@ operand
 .
 fString
 =
-new
+SkNEW_ARGS
+(
 SkString
 (
 *
@@ -1759,6 +1760,7 @@ operand
 ]
 .
 fString
+)
 )
 ;
 /
@@ -2028,19 +2030,21 @@ operand
 .
 fScalar
 =
+SkScalarDiv
+(
 operand
 [
 0
 ]
 .
 fScalar
-/
 operand
 [
 1
 ]
 .
 fScalar
+)
 ;
 break
 ;
@@ -2745,7 +2749,7 @@ begin
 index
 ]
 =
-nullptr
+NULL
 ;
 }
 void
@@ -2786,6 +2790,6 @@ begin
 index
 ]
 =
-nullptr
+NULL
 ;
 }

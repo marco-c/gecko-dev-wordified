@@ -129,7 +129,7 @@ SkASSERT
 base
 !
 =
-nullptr
+NULL
 )
 ;
 int

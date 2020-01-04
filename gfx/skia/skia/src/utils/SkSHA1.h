@@ -165,6 +165,7 @@ values
 .
 *
 /
+virtual
 bool
 write
 (
@@ -175,7 +176,7 @@ buffer
 size_t
 size
 )
-override
+SK_OVERRIDE
 {
 update
 (
@@ -195,12 +196,13 @@ return
 true
 ;
 }
+virtual
 size_t
 bytesWritten
 (
 )
 const
-override
+SK_OVERRIDE
 {
 return
 SkToSizeT

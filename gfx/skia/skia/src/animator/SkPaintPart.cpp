@@ -77,7 +77,7 @@ SkPaintPart
 :
 fPaint
 (
-nullptr
+NULL
 )
 {
 }
@@ -111,7 +111,7 @@ SkASSERT
 parent
 !
 =
-nullptr
+NULL
 )
 ;
 if
@@ -198,7 +198,7 @@ getMaskFilter
 )
 {
 return
-nullptr
+NULL
 ;
 }
 /
@@ -263,7 +263,7 @@ fPaint
 >
 add
 (
-nullptr
+NULL
 this
 )
 ;
@@ -281,7 +281,7 @@ getPathEffect
 )
 {
 return
-nullptr
+NULL
 ;
 }
 /
@@ -297,7 +297,7 @@ getShader
 )
 {
 return
-nullptr
+NULL
 ;
 }
 /

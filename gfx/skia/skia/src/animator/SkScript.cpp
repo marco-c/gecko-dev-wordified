@@ -2539,7 +2539,7 @@ suppressed
 )
 object
 =
-nullptr
+NULL
 ;
 else
 {
@@ -3282,7 +3282,7 @@ innerScript
 scriptPtr
 suppressed
 ?
-nullptr
+NULL
 :
 &
 value
@@ -3768,7 +3768,7 @@ tokenInfo
 writeValue
 (
 fDisplayable
-nullptr
+NULL
 0
 0
 (
@@ -4319,7 +4319,7 @@ if
 script
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -4775,7 +4775,7 @@ fOperand
 .
 fObject
 =
-nullptr
+NULL
 )
 ;
 int
@@ -5935,7 +5935,7 @@ false
 &
 scriptValue
 :
-nullptr
+NULL
 )
 ;
 if
@@ -7011,7 +7011,7 @@ fOperand
 fString
 =
 =
-nullptr
+NULL
 )
 {
 callbackResult
@@ -8843,7 +8843,7 @@ if
 result
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -8960,7 +8960,7 @@ if
 result
 =
 =
-nullptr
+NULL
 )
 {
 fError
@@ -9109,13 +9109,15 @@ operand1
 .
 fString
 =
-new
+SkNEW_ARGS
+(
 SkString
 (
 *
 operand1
 .
 fString
+)
 )
 ;
 track
@@ -9322,13 +9324,15 @@ operand2
 .
 fScalar
 =
+SkScalarDiv
+(
 operand1
 .
 fScalar
-/
 operand2
 .
 fScalar
+)
 ;
 break
 ;
@@ -9903,7 +9907,7 @@ SkDisplayType
 :
 IsEnum
 (
-nullptr
+NULL
 /
 *
 fMaker
@@ -10053,7 +10057,7 @@ fS32
 )
 !
 =
-nullptr
+NULL
 ;
 }
 break
@@ -10165,7 +10169,7 @@ fScalar
 )
 !
 =
-nullptr
+NULL
 ;
 }
 break
@@ -10506,7 +10510,7 @@ SkDisplayType
 :
 IsDisplayable
 (
-nullptr
+NULL
 /
 *
 fMaker
@@ -10528,7 +10532,7 @@ SkDisplayType
 :
 IsEnum
 (
-nullptr
+NULL
 /
 *
 fMaker
@@ -10730,7 +10734,7 @@ DEF_SCALAR_ANSWER
 #
 define
 DEF_STRING_ANSWER
-nullptr
+NULL
 #
 define
 testInt

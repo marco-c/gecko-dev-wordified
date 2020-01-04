@@ -46,7 +46,7 @@ public
 SkSPRITE_CLASSNAME
 (
 const
-SkPixmap
+SkBitmap
 &
 source
 SkSPRITE_ARGS
@@ -104,8 +104,9 @@ SkSPRITE_DST_TYPE
 SK_RESTRICT
 dst
 =
-fDst
-.
+fDevice
+-
+>
 SkSPRITE_DST_GETADDR
 (
 x
@@ -119,7 +120,8 @@ SK_RESTRICT
 src
 =
 fSource
-.
+-
+>
 SkSPRITE_SRC_GETADDR
 (
 srcX
@@ -129,8 +131,9 @@ srcY
 size_t
 dstRB
 =
-fDst
-.
+fDevice
+-
+>
 rowBytes
 (
 )
@@ -139,7 +142,8 @@ size_t
 srcRB
 =
 fSource
-.
+-
+>
 rowBytes
 (
 )
@@ -149,8 +153,9 @@ SkDEBUGCODE
 (
 void
 )
-fDst
-.
+fDevice
+-
+>
 SkSPRITE_DST_GETADDR
 (
 x
@@ -172,7 +177,8 @@ SkDEBUGCODE
 void
 )
 fSource
-.
+-
+>
 SkSPRITE_SRC_GETADDR
 (
 srcX
@@ -190,7 +196,10 @@ height
 )
 SkSPRITE_PREAMBLE
 (
+(
+*
 fSource
+)
 srcX
 srcY
 )

@@ -570,7 +570,7 @@ SkASSERT
 line
 !
 =
-nullptr
+NULL
 )
 ;
 LineToResult
@@ -820,7 +820,7 @@ fCP
 )
 fPath
 (
-nullptr
+NULL
 )
 {
 }

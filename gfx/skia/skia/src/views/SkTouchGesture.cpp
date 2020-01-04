@@ -1020,7 +1020,7 @@ y
 {
 /
 /
-SkDebugf
+GrPrintf
 (
 "
 -
@@ -1370,7 +1370,7 @@ y
 {
 /
 /
-SkDebugf
+GrPrintf
 (
 "
 -
@@ -1523,7 +1523,7 @@ y
 {
 /
 /
-SkDebugf
+GrPrintf
 (
 "
 -
@@ -1804,7 +1804,7 @@ owner
 {
 /
 /
-SkDebugf
+GrPrintf
 (
 "
 -

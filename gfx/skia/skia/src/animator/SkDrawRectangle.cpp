@@ -175,7 +175,7 @@ SkDrawRect
 :
 fParent
 (
-nullptr
+NULL
 )
 {
 fRect

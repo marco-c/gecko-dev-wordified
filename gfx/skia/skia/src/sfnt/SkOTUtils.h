@@ -115,7 +115,7 @@ font
 )
 *
 returns
-nullptr
+NULL
 .
 *
 *
@@ -184,23 +184,13 @@ ASCII
 chars
 .
 *
-*
-Does
-not
-affect
-fontData
-'
-s
-ownership
-.
-*
 /
 static
 SkData
 *
 RenameFont
 (
-SkStreamAsset
+SkStream
 *
 fontData
 const
@@ -346,7 +336,7 @@ can
 be
 found
 returns
-nullptr
+NULL
 .
 *
 /
@@ -361,6 +351,7 @@ SkTypeface
 typeface
 )
 ;
+virtual
 bool
 next
 (
@@ -371,7 +362,7 @@ LocalizedString
 *
 localizedString
 )
-override
+SK_OVERRIDE
 ;
 private
 :
@@ -477,6 +468,7 @@ true
 )
 {
 }
+virtual
 bool
 next
 (
@@ -487,7 +479,7 @@ LocalizedString
 *
 localizedString
 )
-override
+SK_OVERRIDE
 {
 localizedString
 -

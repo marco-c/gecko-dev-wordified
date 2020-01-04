@@ -266,6 +266,12 @@ SkRegion
 src
 )
 {
+SkASSERT
+(
+&
+src
+)
+;
 *
 this
 =

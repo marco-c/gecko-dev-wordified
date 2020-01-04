@@ -185,7 +185,7 @@ this
 append
 (
 1
-nullptr
+NULL
 )
 ;
 }
@@ -200,7 +200,7 @@ int32_t
 *
 src
 =
-nullptr
+NULL
 )
 ;
 int32_t
@@ -366,14 +366,14 @@ fArray
 ;
 fArray
 =
-nullptr
+NULL
 ;
 #
 ifdef
 SK_DEBUG
 fData
 =
-nullptr
+NULL
 ;
 #
 endif
@@ -524,7 +524,7 @@ SkDEBUGCODE
 (
 fTData
 =
-nullptr
+NULL
 )
 ;
 SkASSERT
@@ -734,7 +734,7 @@ T
 *
 src
 =
-nullptr
+NULL
 )
 {
 return
@@ -795,7 +795,7 @@ fArray
 +
 fCount
 :
-nullptr
+NULL
 )
 ;
 }
@@ -840,7 +840,7 @@ insert
 (
 index
 1
-nullptr
+NULL
 )
 ;
 }
@@ -857,7 +857,7 @@ T
 *
 src
 =
-nullptr
+NULL
 )
 {
 return

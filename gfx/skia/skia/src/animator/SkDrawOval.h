@@ -59,13 +59,13 @@ DECLARE_MEMBER_INFO
 Oval
 )
 ;
+virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
-override
 ;
 private
 :

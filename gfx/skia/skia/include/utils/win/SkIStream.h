@@ -40,16 +40,6 @@ SkIStream_DEFINED
 define
 SkIStream_DEFINED
 #
-include
-"
-SkTypes
-.
-h
-"
-#
-ifdef
-SK_BUILD_FOR_WIN
-#
 define
 WIN32_LEAN_AND_MEAN
 #
@@ -305,7 +295,7 @@ implementation
 which
 wraps
 an
-SkStream
+SkIStream
 .
 *
 /
@@ -321,9 +311,8 @@ SkStream
 *
 fSkStream
 ;
-const
 bool
-fDeleteOnRelease
+fUnrefOnRelease
 ;
 ULARGE_INTEGER
 fLocation
@@ -334,7 +323,7 @@ SkStream
 *
 stream
 bool
-fDeleteOnRelease
+unrefOnRelease
 )
 ;
 virtual
@@ -353,7 +342,7 @@ SkStream
 *
 stream
 bool
-fDeleteOnRelease
+unrefOnRelease
 IStream
 *
 *
@@ -517,11 +506,3 @@ grfStatFlag
 ;
 #
 endif
-/
-/
-SK_BUILD_FOR_WIN
-#
-endif
-/
-/
-SkIStream_DEFINED

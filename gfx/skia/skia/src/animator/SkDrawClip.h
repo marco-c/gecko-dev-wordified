@@ -44,7 +44,7 @@ SkDrawClip_DEFINED
 #
 include
 "
-SkADrawable
+SkDrawable
 .
 h
 "
@@ -72,7 +72,7 @@ class
 SkDrawClip
 :
 public
-SkADrawable
+SkDrawable
 {
 DECLARE_DRAW_MEMBER_INFO
 (
@@ -83,13 +83,13 @@ SkDrawClip
 (
 )
 ;
+virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
-override
 ;
 private
 :

@@ -265,11 +265,12 @@ count
 )
 ;
 }
+virtual
 void
 deleteAction
 (
 )
-override
+SK_OVERRIDE
 ;
 protected
 :

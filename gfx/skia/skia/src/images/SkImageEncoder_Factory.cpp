@@ -65,7 +65,7 @@ SkImageEncoder
 *
 codec
 =
-nullptr
+NULL
 ;
 const
 SkImageEncoder_EncodeReg
@@ -101,7 +101,7 @@ t
 )
 !
 =
-nullptr
+NULL
 )
 {
 return
@@ -119,6 +119,6 @@ next
 ;
 }
 return
-nullptr
+NULL
 ;
 }

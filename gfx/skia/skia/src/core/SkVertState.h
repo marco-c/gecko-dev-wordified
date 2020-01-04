@@ -146,7 +146,7 @@ vertices
 are
 unindexed
 pass
-nullptr
+NULL
 for
 indices
 .

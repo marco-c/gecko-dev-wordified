@@ -84,14 +84,14 @@ pthread_cond_init
 (
 &
 fCondition
-nullptr
+NULL
 )
 ;
 pthread_mutex_init
 (
 &
 fConditionMutex
-nullptr
+NULL
 )
 ;
 }
@@ -352,7 +352,7 @@ fParam
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 SkThread
@@ -431,7 +431,7 @@ if
 fData
 !
 =
-nullptr
+NULL
 )
 {
 SkThread_PThreadData
@@ -626,7 +626,7 @@ pthreadData
 -
 >
 fPThread
-nullptr
+NULL
 )
 ;
 }
