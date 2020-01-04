@@ -18482,7 +18482,7 @@ client
 mDB
 -
 >
-GetConnectionShutdown
+GetClientsShutdown
 (
 )
 ;
@@ -19197,17 +19197,7 @@ TOPIC_PROFILE_CHANGE
 strcmp
 (
 aTopic
-TOPIC_SIMULATE_PLACES_MUST_CLOSE_1
-)
-=
-=
-0
-|
-|
-strcmp
-(
-aTopic
-TOPIC_SIMULATE_PLACES_MUST_CLOSE_2
+TOPIC_SIMULATE_PLACES_SHUTDOWN
 )
 =
 =
