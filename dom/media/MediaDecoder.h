@@ -4908,6 +4908,11 @@ aProxy
 ;
 #
 endif
+void
+EnsureTelemetryReported
+(
+)
+;
 #
 ifdef
 MOZ_RAW
@@ -7598,6 +7603,9 @@ NotifyDownloadEnded
 nsresult
 aStatus
 )
+;
+bool
+mTelemetryReported
 ;
 }
 ;

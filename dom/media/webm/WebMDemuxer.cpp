@@ -2190,7 +2190,7 @@ mMimeType
 "
 audio
 /
-ogg
+webm
 ;
 codecs
 =
@@ -2216,7 +2216,7 @@ mMimeType
 "
 audio
 /
-ogg
+webm
 ;
 codecs
 =
