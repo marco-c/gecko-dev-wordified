@@ -222,6 +222,7 @@ class
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 Write
 (
@@ -241,6 +242,7 @@ aStr
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 Write
 (
