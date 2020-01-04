@@ -4673,7 +4673,10 @@ dest
 void
 mov
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 imm
 Register
 dest
@@ -4705,10 +4708,6 @@ currentOffset
 )
 )
 imm
-.
-kind
-(
-)
 )
 )
 ;
@@ -5284,7 +5283,10 @@ append
 AsmJSGlobalAccess
 (
 label
-AsmJSActivationGlobalDataOffset
+wasm
+:
+:
+ActivationGlobalDataOffset
 )
 )
 ;
@@ -5307,7 +5309,10 @@ append
 AsmJSGlobalAccess
 (
 label
-AsmJSHeapGlobalDataOffset
+wasm
+:
+:
+HeapGlobalDataOffset
 )
 )
 ;

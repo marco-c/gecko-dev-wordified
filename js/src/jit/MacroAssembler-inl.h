@@ -651,6 +651,9 @@ MacroAssembler
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -684,6 +687,9 @@ MacroAssembler
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -717,6 +723,9 @@ MacroAssembler
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc

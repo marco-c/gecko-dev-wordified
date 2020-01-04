@@ -318,7 +318,7 @@ const
 unsigned
 StorageSpace
 =
-6
+8
 *
 sizeof
 (

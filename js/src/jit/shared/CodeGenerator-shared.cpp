@@ -9800,7 +9800,13 @@ masm
 .
 callWithABI
 (
-AsmJSImm_ToInt32
+wasm
+:
+:
+SymbolicAddress
+:
+:
+ToInt32
 )
 ;
 else
@@ -10218,7 +10224,7 @@ masm
 .
 call
 (
-AsmJSImmPtr
+BuiltinToImmediate
 (
 callee
 .

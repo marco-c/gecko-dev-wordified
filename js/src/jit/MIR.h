@@ -37048,6 +37048,9 @@ Label
 *
 interruptExit_
 ;
+wasm
+:
+:
 CallSiteDesc
 funcDesc_
 ;
@@ -37057,6 +37060,9 @@ Label
 *
 interruptExit
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc
@@ -37090,6 +37096,9 @@ Label
 *
 interruptExit
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc
@@ -37119,6 +37128,9 @@ interruptExit_
 ;
 }
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc
@@ -67961,7 +67973,10 @@ MDefinition
 *
 dynamic_
 ;
-AsmJSImmKind
+wasm
+:
+:
+Builtin
 builtin_
 ;
 }
@@ -68016,7 +68031,10 @@ callee
 explicit
 Callee
 (
-AsmJSImmKind
+wasm
+:
+:
+Builtin
 callee
 )
 :
@@ -68083,7 +68101,10 @@ u
 dynamic_
 ;
 }
-AsmJSImmKind
+wasm
+:
+:
+Builtin
 builtin
 (
 )
@@ -68107,6 +68128,9 @@ builtin_
 ;
 private
 :
+wasm
+:
+:
 CallSiteDesc
 desc_
 ;
@@ -68125,6 +68149,9 @@ spIncrement_
 MAsmJSCall
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -68203,6 +68230,9 @@ TempAllocator
 &
 alloc
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -68257,6 +68287,9 @@ index
 ;
 }
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc

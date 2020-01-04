@@ -16013,7 +16013,10 @@ MacroAssembler
 :
 callWithABINoProfiler
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 imm
 MoveOp
 :

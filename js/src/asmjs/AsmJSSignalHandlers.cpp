@@ -5265,7 +5265,7 @@ uint8_t
 *
 faultingAddress
 const
-AsmJSHeapAccess
+HeapAccess
 *
 heapAccess
 const
@@ -6947,7 +6947,7 @@ false
 ;
 }
 const
-AsmJSHeapAccess
+HeapAccess
 *
 heapAccess
 =
@@ -7747,7 +7747,7 @@ false
 ;
 }
 const
-AsmJSHeapAccess
+HeapAccess
 *
 heapAccess
 =
@@ -9178,7 +9178,7 @@ false
 ;
 }
 const
-AsmJSHeapAccess
+HeapAccess
 *
 heapAccess
 =
