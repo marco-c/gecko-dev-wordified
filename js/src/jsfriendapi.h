@@ -17978,9 +17978,12 @@ WindowProxy
 or
 a
 CCW
+or
+dead
+*
+wrapper
 if
 the
-*
 page
 was
 navigated
@@ -17992,9 +17995,9 @@ return
 obj
 .
 This
+*
 function
 is
-*
 infallible
 and
 never
