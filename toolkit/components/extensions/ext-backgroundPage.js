@@ -463,13 +463,6 @@ this
 context
 )
 ;
-docShell
-.
-createAboutBlankContentViewer
-(
-principal
-)
-;
 let
 webNav
 =
