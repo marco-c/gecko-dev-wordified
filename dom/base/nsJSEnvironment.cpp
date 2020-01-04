@@ -927,13 +927,13 @@ long
 define
 NS_MAX_CC_LOCKEDOUT_TIME
 (
-15
+30
 *
 PR_USEC_PER_SEC
 )
 /
 /
-15
+30
 seconds
 /
 /
