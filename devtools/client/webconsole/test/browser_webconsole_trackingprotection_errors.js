@@ -299,8 +299,7 @@ The
 resource
 at
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -311,7 +310,7 @@ example
 com
 /
 \
-"
+u201d
 was
 blocked
 because
