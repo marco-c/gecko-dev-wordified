@@ -1621,10 +1621,6 @@ target_content
 sel
 .
 selected_content
-.
-rstrip
-(
-)
 )
     
 def
@@ -1840,34 +1836,12 @@ perform
 (
 )
         
-#
-Ignore
-extra
-spaces
-at
-the
-beginning
-of
-the
-content
-in
-comparison
-.
-        
 assertFunc
 (
 target_content
-.
-lstrip
-(
-)
 sel
 .
 selected_content
-.
-lstrip
-(
-)
 )
     
 def
@@ -3277,10 +3251,6 @@ to_unix_line_ending
 sel
 .
 selected_content
-.
-strip
-(
-)
 )
 '
 select
@@ -3478,10 +3448,6 @@ to_unix_line_ending
 sel
 .
 selected_content
-.
-strip
-(
-)
 )
 '
 o
@@ -3685,10 +3651,6 @@ to_unix_line_ending
 sel
 .
 selected_content
-.
-strip
-(
-)
 )
 '
 '
@@ -6848,6 +6810,16 @@ enabled
 :
 False
             
+'
+layout
+.
+word_select
+.
+eat_space_to_next_word
+'
+:
+False
+            
 self
 .
 carets_tested_pref
@@ -6913,6 +6885,16 @@ prefs
 selectioncaret
 .
 enabled
+'
+:
+False
+            
+'
+layout
+.
+word_select
+.
+eat_space_to_next_word
 '
 :
 False
