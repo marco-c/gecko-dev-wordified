@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbfactory_h__
+mozilla_dom_idbfactory_h__
 #
 define
-mozilla_dom_indexeddb_idbfactory_h__
+mozilla_dom_idbfactory_h__
 #
 include
 "
@@ -224,6 +224,9 @@ dom
 struct
 IDBOpenDBOptions
 ;
+class
+IDBOpenDBRequest
+;
 template
 <
 typename
@@ -244,11 +247,9 @@ class
 FactoryRequestParams
 ;
 class
-IDBOpenDBRequest
-;
-class
 LoggingInfo
 ;
+}
 class
 IDBFactory
 final
@@ -379,6 +380,9 @@ PendingRequestInfo
 >
 mPendingRequests
 ;
+indexedDB
+:
+:
 BackgroundFactoryChild
 *
 mBackgroundActor
@@ -917,6 +921,9 @@ PBackgroundChild
 *
 aBackgroundActor
 const
+indexedDB
+:
+:
 LoggingInfo
 &
 aLoggingInfo
@@ -934,6 +941,9 @@ IDBOpenDBRequest
 *
 aRequest
 const
+indexedDB
+:
+:
 FactoryRequestParams
 &
 aParams
@@ -941,11 +951,6 @@ aParams
 ;
 }
 ;
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /
@@ -960,4 +965,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_indexeddb_idbfactory_h__
+mozilla_dom_idbfactory_h__

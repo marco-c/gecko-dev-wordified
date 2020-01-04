@@ -540,9 +540,6 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 using
 namespace
 mozilla
@@ -6966,11 +6963,6 @@ return
 NS_OK
 ;
 }
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

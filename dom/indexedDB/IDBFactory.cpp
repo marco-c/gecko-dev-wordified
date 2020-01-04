@@ -384,9 +384,6 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 using
 namespace
 mozilla
@@ -4583,11 +4580,6 @@ BackgroundActorFailed
 )
 ;
 }
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

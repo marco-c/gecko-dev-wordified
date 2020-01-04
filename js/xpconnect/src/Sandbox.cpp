@@ -315,8 +315,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IndexedDatabaseManager
 .
 h
@@ -495,9 +493,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IndexedDatabaseManager

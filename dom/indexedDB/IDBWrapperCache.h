@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbwrappercache_h__
+mozilla_dom_idbwrappercache_h__
 #
 define
-mozilla_dom_indexeddb_idbwrappercache_h__
+mozilla_dom_idbwrappercache_h__
 #
 include
 "
@@ -160,9 +160,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-indexedDB
 {
 class
 IDBWrapperCache
@@ -252,11 +249,6 @@ IDBWrapperCache
 /
 /
 namespace
-indexedDB
-}
-/
-/
-namespace
 dom
 }
 /
@@ -267,4 +259,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_indexeddb_idbwrappercache_h__
+mozilla_dom_idbwrappercache_h__

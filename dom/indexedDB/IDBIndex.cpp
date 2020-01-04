@@ -246,9 +246,6 @@ namespace
 dom
 {
 namespace
-indexedDB
-{
-namespace
 {
 already_AddRefed
 <
@@ -826,6 +823,9 @@ IsEmpty
 ;
 }
 const
+indexedDB
+:
+:
 KeyPath
 &
 IDBIndex
@@ -3186,11 +3186,6 @@ aGivenProto
 )
 ;
 }
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

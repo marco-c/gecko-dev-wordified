@@ -705,17 +705,9 @@ CacheStorage
 /
 namespace
 cache
-namespace
-indexedDB
-{
 class
 IDBFactory
 ;
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /
@@ -6194,9 +6186,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBFactory
@@ -12369,9 +12358,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBFactory

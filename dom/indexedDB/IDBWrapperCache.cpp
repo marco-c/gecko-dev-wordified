@@ -157,9 +157,6 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 IDBWrapperCache
@@ -395,11 +392,6 @@ rooted
 }
 #
 endif
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

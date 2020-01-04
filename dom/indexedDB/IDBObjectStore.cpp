@@ -524,9 +524,6 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 using
 namespace
 mozilla
@@ -11693,6 +11690,9 @@ autoIncrement
 ;
 }
 const
+indexedDB
+:
+:
 KeyPath
 &
 IDBObjectStore
@@ -11753,11 +11753,6 @@ IsValid
 )
 ;
 }
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

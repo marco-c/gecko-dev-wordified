@@ -335,9 +335,6 @@ ipc
 namespace
 dom
 {
-namespace
-indexedDB
-{
 class
 IDBCursor
 ;
@@ -359,6 +356,9 @@ IDBRequest
 class
 IndexedDatabaseManager
 ;
+namespace
+indexedDB
+{
 class
 Key
 ;
@@ -382,7 +382,6 @@ ThreadLocal
 >
 ;
 friend
-class
 IDBFactory
 ;
 LoggingInfo
@@ -654,7 +653,6 @@ ipc
 BackgroundChildImpl
 ;
 friend
-class
 IDBFactory
 ;
 IDBFactory
@@ -903,7 +901,6 @@ PersistenceType
 PersistenceType
 ;
 friend
-class
 IDBFactory
 ;
 friend
@@ -1075,7 +1072,6 @@ class
 BackgroundFactoryRequestChild
 ;
 friend
-class
 IDBDatabase
 ;
 nsAutoPtr
@@ -1453,7 +1449,6 @@ class
 BackgroundDatabaseChild
 ;
 friend
-class
 IDBDatabase
 ;
 RefPtr
@@ -1710,7 +1705,6 @@ class
 BackgroundDatabaseChild
 ;
 friend
-class
 IDBDatabase
 ;
 public
@@ -2113,7 +2107,6 @@ class
 BackgroundVersionChangeTransactionChild
 ;
 friend
-class
 IDBTransaction
 ;
 RefPtr
@@ -2647,7 +2640,6 @@ ipc
 BackgroundChildImpl
 ;
 friend
-class
 IndexedDatabaseManager
 ;
 IndexedDatabaseManager

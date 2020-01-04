@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbevents_h__
+mozilla_dom_idbevents_h__
 #
 define
-mozilla_dom_indexeddb_idbevents_h__
+mozilla_dom_idbevents_h__
 #
 include
 "
@@ -283,6 +283,11 @@ Cancelable
 aCancelable
 )
 ;
+}
+/
+/
+namespace
+indexedDB
 class
 IDBVersionChangeEvent
 final
@@ -519,11 +524,6 @@ IDBVERSIONCHANGEEVENT_IID
 /
 /
 namespace
-indexedDB
-}
-/
-/
-namespace
 dom
 }
 /
@@ -534,4 +534,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_indexeddb_idbevents_h__
+mozilla_dom_idbevents_h__

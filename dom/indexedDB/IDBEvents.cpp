@@ -346,6 +346,11 @@ forget
 )
 ;
 }
+}
+/
+/
+namespace
+indexedDB
 /
 /
 static
@@ -548,11 +553,6 @@ aGivenProto
 )
 ;
 }
-}
-/
-/
-namespace
-indexedDB
 }
 /
 /

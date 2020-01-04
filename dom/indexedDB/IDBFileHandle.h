@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_indexeddb_idbfilehandle_h__
+mozilla_dom_idbfilehandle_h__
 #
 define
-mozilla_dom_indexeddb_idbfilehandle_h__
+mozilla_dom_idbfilehandle_h__
 #
 include
 "
@@ -198,9 +198,6 @@ dom
 struct
 IDBFileMetadataParameters
 ;
-namespace
-indexedDB
-{
 class
 IDBFileRequest
 ;
@@ -643,11 +640,6 @@ override
 /
 /
 namespace
-indexedDB
-}
-/
-/
-namespace
 dom
 }
 /
@@ -658,4 +650,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_indexeddb_idbfilehandle_h__
+mozilla_dom_idbfilehandle_h__

@@ -258,8 +258,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IDBCursor
 .
 h
@@ -270,8 +268,6 @@ include
 mozilla
 /
 dom
-/
-indexedDB
 /
 IDBObjectStore
 .
@@ -284,8 +280,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IDBRequest
 .
 h
@@ -296,8 +290,6 @@ include
 mozilla
 /
 dom
-/
-indexedDB
 /
 IDBTransaction
 .
@@ -523,10 +515,6 @@ mozilla
 namespace
 dom
 {
-using
-namespace
-indexedDB
-;
 /
 /
 This
