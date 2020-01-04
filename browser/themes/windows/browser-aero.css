@@ -367,6 +367,13 @@ appcontent
 sidebar
 -
 splitter
+.
+chatbar
+-
+button
+chatbar
+>
+chatbox
 {
 border
 -
@@ -437,7 +444,7 @@ background
 -
 middle
 [
-visuallyselected
+selected
 =
 true
 ]
