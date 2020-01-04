@@ -423,6 +423,14 @@ TextTrackCue
 aCue
 )
 ;
+bool
+IsCueExist
+(
+TextTrackCue
+*
+aCue
+)
+;
 private
 :
 ~
