@@ -182,12 +182,10 @@ public
 :
 WinCompositorWidget
 (
-HWND
-aWnd
-uintptr_t
-aWidgetKey
-nsTransparencyMode
-aMode
+const
+CompositorWidgetInitData
+&
+aInitData
 nsWindow
 *
 aWindow
