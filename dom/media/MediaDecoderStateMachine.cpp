@@ -2840,6 +2840,10 @@ DecodedAudioDataSink
 self
 -
 >
+mTaskQueue
+self
+-
+>
 mAudioQueue
 self
 -
