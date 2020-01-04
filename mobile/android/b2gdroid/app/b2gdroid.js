@@ -6722,9 +6722,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-MOZ_ANDROID_APZ
 pref
 (
 "
@@ -6868,8 +6865,6 @@ max_velocity_inches_per_ms
 "
 )
 ;
-#
-endif
 pref
 (
 "
