@@ -424,14 +424,6 @@ lir
 )
 ;
 void
-visitAddI64
-(
-LAddI64
-*
-lir
-)
-;
-void
 visitSubI64
 (
 LSubI64
