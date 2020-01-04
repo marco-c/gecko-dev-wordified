@@ -400,6 +400,16 @@ gdb
 ]
       
 '
+android
+'
+:
+[
+'
+gdb
+'
+]
+      
+'
 unknown
 '
 :
