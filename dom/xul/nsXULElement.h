@@ -2132,6 +2132,8 @@ ClickWithInputSource
 (
 uint16_t
 aInputSource
+bool
+aIsTrustedEvent
 )
 ;
 virtual
