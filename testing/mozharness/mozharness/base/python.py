@@ -5630,15 +5630,6 @@ None
         
 if
 not
-self
-.
-recording
-:
-            
-return
-        
-if
-not
 os
 .
 path
@@ -6102,6 +6093,15 @@ self
 json_data
 )
 :
+        
+if
+not
+self
+.
+recording
+:
+            
+return
         
 try
 :
