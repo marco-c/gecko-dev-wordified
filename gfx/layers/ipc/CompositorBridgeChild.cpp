@@ -1429,6 +1429,11 @@ aNewIdentifier
 )
 ;
 }
+SendAcknowledgeCompositorUpdate
+(
+aLayersId
+)
+;
 }
 return
 true
