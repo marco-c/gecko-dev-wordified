@@ -539,14 +539,6 @@ const
 #
 endif
 void
-SetBackgroundActor
-(
-BackgroundFactoryChild
-*
-aBackgroundActor
-)
-;
-void
 ClearBackgroundActor
 (
 )
