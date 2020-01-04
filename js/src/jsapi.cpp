@@ -35217,14 +35217,14 @@ value
 break
 ;
 case
-JSJITCOMPILER_ION_INTERRUPT_WITHOUT_SIGNAL
+JSJITCOMPILER_WASM_EXPLICIT_BOUNDS_CHECKS
 :
 jit
 :
 :
 JitOptions
 .
-ionInterruptWithoutSignals
+wasmExplicitBoundsChecks
 =
 !
 !
@@ -35385,7 +35385,7 @@ wasmTestMode
 0
 ;
 case
-JSJITCOMPILER_ION_INTERRUPT_WITHOUT_SIGNAL
+JSJITCOMPILER_WASM_EXPLICIT_BOUNDS_CHECKS
 :
 return
 jit
@@ -35393,7 +35393,7 @@ jit
 :
 JitOptions
 .
-ionInterruptWithoutSignals
+wasmExplicitBoundsChecks
 ?
 1
 :
