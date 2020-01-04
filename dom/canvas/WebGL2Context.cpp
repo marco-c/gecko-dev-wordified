@@ -1228,10 +1228,6 @@ mBoundTransformFeedback
 =
 mDefaultTransformFeedback
 ;
-mBypassShaderValidation
-=
-true
-;
 return
 true
 ;
