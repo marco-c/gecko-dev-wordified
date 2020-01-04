@@ -5353,6 +5353,10 @@ none
 "
 )
 )
+updateFilterOnWriteOnly
+(
+false
+)
 imageSmoothingEnabled
 (
 true
@@ -5532,6 +5536,12 @@ filterAdditionalImages
 aOther
 .
 filterAdditionalImages
+)
+updateFilterOnWriteOnly
+(
+aOther
+.
+updateFilterOnWriteOnly
 )
 imageSmoothingEnabled
 (
@@ -5972,6 +5982,9 @@ SourceSurface
 >
 >
 filterAdditionalImages
+;
+bool
+updateFilterOnWriteOnly
 ;
 bool
 imageSmoothingEnabled

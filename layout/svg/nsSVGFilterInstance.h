@@ -1133,6 +1133,8 @@ int32_t
 >
 &
 aInputIndices
+bool
+aFilterInputIsTainted
 nsTArray
 <
 bool
