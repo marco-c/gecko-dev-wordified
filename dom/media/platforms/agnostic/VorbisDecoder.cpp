@@ -840,14 +840,8 @@ this
 VorbisDataDecoder
 :
 :
-Decode
-RefPtr
-<
-MediaRawData
->
-(
+ProcessDecode
 aSample
-)
 )
 )
 ;
@@ -859,7 +853,7 @@ void
 VorbisDataDecoder
 :
 :
-Decode
+ProcessDecode
 (
 MediaRawData
 *
@@ -1594,7 +1588,7 @@ void
 VorbisDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 (
 )
 {
@@ -1626,7 +1620,7 @@ this
 VorbisDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 )
 )
 ;
