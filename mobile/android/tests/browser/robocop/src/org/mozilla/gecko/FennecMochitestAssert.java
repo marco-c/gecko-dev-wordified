@@ -448,11 +448,6 @@ ms
 "
 )
 ;
-mLogTestName
-=
-"
-"
-;
 }
 }
 public
@@ -849,11 +844,6 @@ diff
 ms
 "
 )
-;
-mLogTestName
-=
-"
-"
 ;
 }
 mLogger
