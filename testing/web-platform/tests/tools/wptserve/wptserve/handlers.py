@@ -1178,8 +1178,12 @@ svg
 "
 }
                 
-escape_quote
+escape_type
 =
+"
+html
+"
+if
 os
 .
 path
@@ -1193,6 +1197,10 @@ path
 ]
 in
 ml_extensions
+else
+"
+none
+"
                 
 pipeline
 =
@@ -1202,11 +1210,11 @@ Pipeline
 sub
 (
 %
-r
+s
 )
 "
 %
-escape_quote
+escape_type
 )
             
 if
@@ -1399,9 +1407,11 @@ template
 (
 request
 data
-escape_quote
+escape_type
 =
-False
+"
+none
+"
 )
             
 return
