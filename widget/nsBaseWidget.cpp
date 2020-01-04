@@ -1231,6 +1231,10 @@ mPopupType
 (
 ePopupTypeAny
 )
+mCompositorWidgetDelegate
+(
+nullptr
+)
 mUpdateCursor
 (
 true
@@ -1741,7 +1745,7 @@ mAPZC
 =
 nullptr
 ;
-mCompositorWidget
+mCompositorWidgetDelegate
 =
 nullptr
 ;
@@ -9588,12 +9592,12 @@ GetCompositorBridgeChild
 (
 )
 ;
-mCompositorWidget
+mCompositorWidgetDelegate
 =
 mCompositorSession
 -
 >
-GetCompositorWidget
+GetCompositorWidgetDelegate
 (
 )
 ;
