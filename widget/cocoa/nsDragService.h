@@ -234,7 +234,10 @@ ConstructDragImage
 nsIDOMNode
 *
 aDOMNode
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 *
 aDragRect
 nsIScriptableRegion

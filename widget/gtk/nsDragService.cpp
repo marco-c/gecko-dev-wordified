@@ -2620,7 +2620,7 @@ aXOffset
 int32_t
 aYOffset
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 dragRect
 )
@@ -3029,10 +3029,14 @@ cairo_image_surface_get_data
 (
 surf
 )
+nsIntSize
+(
 dragRect
 .
-Size
-(
+width
+dragRect
+.
+height
 )
 cairo_image_surface_get_stride
 (
@@ -10318,7 +10322,7 @@ mSelection
 )
 return
 ;
-nsIntRect
+LayoutDeviceIntRect
 dragRect
 ;
 nsPresContext

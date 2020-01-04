@@ -756,7 +756,7 @@ Prepare
 the
 drag
 image
-nsIntRect
+LayoutDeviceIntRect
 dragRect
 ;
 RefPtr
