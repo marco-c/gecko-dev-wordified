@@ -63946,9 +63946,6 @@ nsFont
 font
 (
 eFamily_serif
-NS_FONT_STYLE_NORMAL
-NS_FONT_WEIGHT_NORMAL
-NS_FONT_STRETCH_NORMAL
 nsPresContext
 :
 :
