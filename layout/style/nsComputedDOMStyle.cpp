@@ -607,6 +607,10 @@ nsCSSProps
 IsEnabled
 (
 mProperty
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 ;
 }

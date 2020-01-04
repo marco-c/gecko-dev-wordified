@@ -4043,8 +4043,6 @@ aProperty
 ]
 ;
 }
-public
-:
 static
 bool
 IsEnabled
@@ -4078,8 +4076,6 @@ aProperty
 ]
 ;
 }
-private
-:
 /
 /
 A
