@@ -20706,10 +20706,6 @@ data
 -
 >
 mHitRegion
-.
-GetBounds
-(
-)
 mContainerReferenceFrame
 containingPaintedLayerData
 -
@@ -20736,10 +20732,6 @@ data
 -
 >
 mNoActionRegion
-.
-GetBounds
-(
-)
 mContainerReferenceFrame
 containingPaintedLayerData
 -
@@ -20766,10 +20758,6 @@ data
 -
 >
 mHorizontalPanRegion
-.
-GetBounds
-(
-)
 mContainerReferenceFrame
 containingPaintedLayerData
 -
@@ -20796,10 +20784,6 @@ data
 -
 >
 mVerticalPanRegion
-.
-GetBounds
-(
-)
 mContainerReferenceFrame
 containingPaintedLayerData
 -
