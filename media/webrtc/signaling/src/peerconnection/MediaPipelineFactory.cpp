@@ -101,6 +101,13 @@ h
 #
 include
 "
+MediaPipelineFilter
+.
+h
+"
+#
+include
+"
 transportflow
 .
 h
