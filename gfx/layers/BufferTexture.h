@@ -197,6 +197,8 @@ gfx
 :
 BackendType
 aMoz2DBackend
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 TextureAllocationFlags
