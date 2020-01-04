@@ -121,7 +121,7 @@ apk
 -
 armv7
 -
-v11
+v15
 =
 /
 path
@@ -140,7 +140,7 @@ android
 -
 arm
 -
-v11
+v15
 .
 apk
 -
@@ -531,7 +531,7 @@ apk
 -
 armv7
 -
-v11
+v15
 "
 ]
 {
@@ -541,7 +541,7 @@ dest
 "
 :
 "
-apk_file_armv7_v11
+apk_file_armv7_v15
 "
             
 "
@@ -556,7 +556,7 @@ the
 ARM
 v7
 API
-v11
+v15
 APK
 file
 "
@@ -1082,7 +1082,7 @@ self
 config
 [
 '
-apk_file_armv7_v11
+apk_file_armv7_v15
 '
 ]
 )
@@ -1103,7 +1103,7 @@ self
 config
 [
 '
-apk_file_armv7_v11
+apk_file_armv7_v15
 '
 ]
 )
@@ -1665,7 +1665,7 @@ self
 config
 [
 '
-apk_file_armv7_v11
+apk_file_armv7_v15
 '
 ]
 self
