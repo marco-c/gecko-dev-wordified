@@ -2467,6 +2467,10 @@ sServers
 =
 nullptr
 ;
+sBluetoothGattManager
+=
+nullptr
+;
 if
 (
 mRes

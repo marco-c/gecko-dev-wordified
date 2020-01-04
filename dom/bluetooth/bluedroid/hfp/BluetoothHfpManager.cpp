@@ -2228,6 +2228,10 @@ sBluetoothHfpInterface
 =
 nullptr
 ;
+sBluetoothHfpManager
+=
+nullptr
+;
 if
 (
 mRes
@@ -2265,6 +2269,10 @@ nullptr
 )
 ;
 sBluetoothHfpInterface
+=
+nullptr
+;
+sBluetoothHfpManager
 =
 nullptr
 ;

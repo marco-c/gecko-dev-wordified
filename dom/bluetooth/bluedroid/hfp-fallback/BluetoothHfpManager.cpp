@@ -725,6 +725,10 @@ NS_IsMainThread
 )
 )
 ;
+sBluetoothHfpManager
+=
+nullptr
+;
 /
 *
 *

@@ -1574,6 +1574,10 @@ sBtAvrcpInterface
 =
 nullptr
 ;
+sBluetoothAvrcpManager
+=
+nullptr
+;
 if
 (
 mRes
@@ -1611,6 +1615,10 @@ nullptr
 )
 ;
 sBtAvrcpInterface
+=
+nullptr
+;
+sBluetoothAvrcpManager
 =
 nullptr
 ;
