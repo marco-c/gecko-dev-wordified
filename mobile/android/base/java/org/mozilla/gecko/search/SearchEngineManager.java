@@ -82,6 +82,15 @@ SharedPreferences
 import
 android
 .
+support
+.
+annotation
+.
+Nullable
+;
+import
+android
+.
 text
 .
 TextUtils
@@ -568,6 +577,7 @@ private
 Distribution
 distribution
 ;
+Nullable
 private
 SearchEngineCallback
 changeCallback
@@ -951,6 +961,7 @@ runCallback
 final
 SearchEngine
 engine
+Nullable
 final
 SearchEngineCallback
 callback
@@ -990,6 +1001,14 @@ engine
 =
 engine
 ;
+if
+(
+callback
+!
+=
+null
+)
+{
 callback
 .
 execute
@@ -997,6 +1016,7 @@ execute
 engine
 )
 ;
+}
 }
 }
 )
