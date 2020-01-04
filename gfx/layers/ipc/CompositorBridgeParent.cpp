@@ -8726,7 +8726,6 @@ compositor
 new
 CompositorOGL
 (
-this
 mWidget
 mEGLSurfaceSize
 .
@@ -8776,7 +8775,6 @@ compositor
 new
 X11BasicCompositor
 (
-this
 mWidget
 )
 ;
@@ -8790,7 +8788,6 @@ compositor
 new
 BasicCompositor
 (
-this
 mWidget
 )
 ;
@@ -8819,7 +8816,6 @@ compositor
 new
 CompositorD3D11
 (
-this
 mWidget
 )
 ;
@@ -11980,19 +11976,6 @@ LAYERS_BASIC
 {
 return
 Nothing
-(
-)
-;
-}
-if
-(
-mCompositor
-)
-{
-mCompositor
--
->
-SetInvalid
 (
 )
 ;

@@ -720,9 +720,6 @@ CompositorOGL
 :
 CompositorOGL
 (
-CompositorBridgeParent
-*
-aParent
 nsIWidget
 *
 aWidget
@@ -734,10 +731,6 @@ bool
 aUseExternalSurfaceSize
 )
 :
-Compositor
-(
-aParent
-)
 mWidget
 (
 aWidget
