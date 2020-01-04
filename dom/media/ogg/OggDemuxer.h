@@ -1418,6 +1418,17 @@ uint32_t
 aSerials
 )
 ;
+void
+FillTags
+(
+TrackInfo
+*
+aInfo
+MetadataTags
+*
+aTags
+)
+;
 /
 /
 Compute
