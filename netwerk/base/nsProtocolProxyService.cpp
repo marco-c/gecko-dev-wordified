@@ -12086,11 +12086,6 @@ rule
 )
 )
 ;
-NS_RELEASE
-(
-head
-)
-;
 *
 list
 =
