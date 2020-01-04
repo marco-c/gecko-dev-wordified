@@ -110,7 +110,7 @@ MPL
 /
 #
 ifdef
-DEBUG
+JS_JITSPEW
 #
 include
 "
@@ -3360,6 +3360,6 @@ channel
 endif
 /
 *
-DEBUG
+JS_JITSPEW
 *
 /
