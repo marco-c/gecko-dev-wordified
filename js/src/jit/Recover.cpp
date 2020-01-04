@@ -6446,7 +6446,7 @@ writer
 .
 writeUnsigned
 (
-count
+length
 (
 )
 )

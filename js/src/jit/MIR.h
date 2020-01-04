@@ -16580,7 +16580,7 @@ private
 /
 Number
 of
-space
+elements
 to
 allocate
 for
@@ -16588,7 +16588,7 @@ the
 array
 .
 uint32_t
-count_
+length_
 ;
 /
 /
@@ -16634,7 +16634,7 @@ CompilerConstraintList
 *
 constraints
 uint32_t
-count
+length
 MConstant
 *
 templateConst
@@ -16666,7 +16666,7 @@ CompilerConstraintList
 *
 constraints
 uint32_t
-count
+length
 MConstant
 *
 templateConst
@@ -16688,7 +16688,7 @@ alloc
 MNewArray
 (
 constraints
-count
+length
 templateConst
 initialHeap
 pc
@@ -16696,13 +16696,13 @@ pc
 ;
 }
 uint32_t
-count
+length
 (
 )
 const
 {
 return
-count_
+length_
 ;
 }
 JSObject
