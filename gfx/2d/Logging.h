@@ -949,6 +949,7 @@ PAllocTextureBackendMismatch
 GetFontFileDataFailed
 MessageChannelCloseFailure
 TextureAliveAfterShutdown
+InvalidContext
 /
 /
 End

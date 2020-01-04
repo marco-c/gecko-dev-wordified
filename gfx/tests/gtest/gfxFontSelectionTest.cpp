@@ -979,8 +979,10 @@ gfxContext
 >
 ctx
 =
-new
 gfxContext
+:
+:
+ForDrawTarget
 (
 drawTarget
 )
