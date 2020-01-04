@@ -95,8 +95,8 @@ self
 set_server_prefix
 (
 "
-.
-.
+/
+test
 /
 module
 -
