@@ -545,12 +545,9 @@ ptPixelLocation
 .
 x
 =
-LogToPhys
-(
 aPointerScreenPoint
 .
 x
-)
 ;
 info
 .
@@ -560,12 +557,9 @@ ptPixelLocation
 .
 y
 =
-LogToPhys
-(
 aPointerScreenPoint
 .
 y
-)
 ;
 info
 .
