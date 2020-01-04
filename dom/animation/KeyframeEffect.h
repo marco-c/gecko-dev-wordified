@@ -2067,11 +2067,6 @@ UpdateTargetRegistration
 (
 )
 ;
-void
-UnregisterFromTarget
-(
-)
-;
 static
 AnimationTiming
 ConvertKeyframeEffectOptions
