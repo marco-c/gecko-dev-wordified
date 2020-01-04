@@ -1629,6 +1629,7 @@ AccessibleWrap
 *
 WrapperFor
 (
+const
 ProxyAccessible
 *
 aProxy
