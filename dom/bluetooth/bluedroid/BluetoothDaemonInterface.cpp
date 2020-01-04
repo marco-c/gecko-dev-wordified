@@ -3727,11 +3727,9 @@ nsAString
 &
 aRemoteAddr
 const
-uint8_t
+BluetoothUuid
+&
 aUuid
-[
-16
-]
 BluetoothResultHandler
 *
 aRes

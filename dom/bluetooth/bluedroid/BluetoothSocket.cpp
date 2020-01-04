@@ -3080,8 +3080,6 @@ Connect
 aDeviceAddress
 aType
 aServiceUuid
-.
-mUuid
 aChannel
 aEncrypt
 aAuth
@@ -3318,8 +3316,6 @@ Listen
 aType
 aServiceName
 aServiceUuid
-.
-mUuid
 aChannel
 aEncrypt
 aAuth
