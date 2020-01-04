@@ -133,7 +133,7 @@ InputUtils
 h
 "
 class
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 :
 public
 APZCTreeManagerTester
@@ -151,7 +151,7 @@ TestAsyncPanZoomController
 rootApzc
 ;
 void
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 {
@@ -286,7 +286,7 @@ root
 ;
 }
 void
-CreateOverscrollHandoffLayerTree2
+CreateScrollHandoffLayerTree2
 (
 )
 {
@@ -489,7 +489,7 @@ root
 ;
 }
 void
-CreateOverscrollHandoffLayerTree3
+CreateScrollHandoffLayerTree3
 (
 )
 {
@@ -1174,7 +1174,7 @@ processed
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 DeferredInputEventProcessing
 )
 {
@@ -1186,7 +1186,7 @@ the
 APZC
 tree
 .
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -1393,7 +1393,7 @@ structure
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 LayerStructureChangesWhileEventsArePending
 )
 {
@@ -1406,7 +1406,7 @@ initial
 APZC
 tree
 .
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -1503,7 +1503,7 @@ and
 the
 root
 .
-CreateOverscrollHandoffLayerTree2
+CreateScrollHandoffLayerTree2
 (
 )
 ;
@@ -1810,7 +1810,7 @@ overscroll
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 StuckInOverscroll_Bug1073250
 )
 {
@@ -1826,7 +1826,7 @@ bool
 true
 )
 ;
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -2120,7 +2120,7 @@ parent
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 StuckInOverscroll_Bug1231228
 )
 {
@@ -2136,7 +2136,7 @@ bool
 true
 )
 ;
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -2440,11 +2440,11 @@ direction
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 PartialFlingHandoff
 )
 {
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -2622,7 +2622,7 @@ each
 .
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 SimultaneousFlings
 )
 {
@@ -2635,7 +2635,7 @@ initial
 APZC
 tree
 .
-CreateOverscrollHandoffLayerTree3
+CreateScrollHandoffLayerTree3
 (
 )
 ;
@@ -2826,7 +2826,7 @@ AssertStateIsFling
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 Scrollgrab
 )
 {
@@ -2948,7 +2948,7 @@ y
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 ScrollgrabFling
 )
 {
@@ -3036,7 +3036,7 @@ AssertStateIsReset
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 ScrollgrabFlingAcceleration1
 )
 {
@@ -3059,7 +3059,7 @@ TestFlingAcceleration
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 ScrollgrabFlingAcceleration2
 )
 {
@@ -3084,7 +3084,7 @@ TestFlingAcceleration
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 ImmediateHandoffDisallowed_Pan
 )
 {
@@ -3095,7 +3095,7 @@ bool
 false
 )
 ;
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
@@ -3286,7 +3286,7 @@ y
 }
 TEST_F
 (
-APZOverscrollHandoffTester
+APZScrollHandoffTester
 ImmediateHandoffDisallowed_Fling
 )
 {
@@ -3297,7 +3297,7 @@ bool
 false
 )
 ;
-CreateOverscrollHandoffLayerTree1
+CreateScrollHandoffLayerTree1
 (
 )
 ;
