@@ -878,11 +878,10 @@ autoResume
 )
 ;
 for
-each
 (
 let
 dl
-in
+of
 DownloadData
 )
 {

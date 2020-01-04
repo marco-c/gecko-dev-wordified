@@ -142,11 +142,10 @@ downloadTimes
 }
 ;
 for
-each
 (
 let
 time
-in
+of
 [
 1
 30

@@ -419,11 +419,10 @@ arg2
 ;
 }
 for
-each
 (
 let
 f
-in
+of
 [
 '
 add

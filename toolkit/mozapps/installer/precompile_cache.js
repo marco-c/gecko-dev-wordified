@@ -643,11 +643,10 @@ sort
 )
 ;
 for
-each
 (
 let
 entry
-in
+of
 entries
 )
 {

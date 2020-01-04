@@ -690,11 +690,10 @@ nsISupportsString
 )
 ;
 for
-each
 (
 let
 text
-in
+of
 arr
 )
 {

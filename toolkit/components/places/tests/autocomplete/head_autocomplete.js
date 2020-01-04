@@ -2154,11 +2154,10 @@ aURIs
 )
 {
 for
-each
 (
 let
 uri
-in
+of
 aURIs
 )
 histsvc

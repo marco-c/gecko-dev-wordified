@@ -2873,11 +2873,10 @@ word
 boundary
 weights
 for
-each
 (
 let
 token
-in
+of
 searchTokens
 )
 {

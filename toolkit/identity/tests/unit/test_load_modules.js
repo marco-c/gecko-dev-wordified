@@ -98,11 +98,10 @@ run_test
 )
 {
 for
-each
 (
 let
 m
-in
+of
 modules
 )
 {

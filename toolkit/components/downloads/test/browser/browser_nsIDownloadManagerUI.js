@@ -656,11 +656,10 @@ run
 our
 tests
 for
-each
 (
 var
 t
-in
+of
 testFuncs
 )
 t

@@ -399,11 +399,10 @@ certAttrs
 }
 ;
 for
-each
 (
 let
 prefCertAttr
-in
+of
 prefCertAttrs
 )
 certAttrs

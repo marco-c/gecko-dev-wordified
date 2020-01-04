@@ -7913,11 +7913,10 @@ gApp
 platformVersion
 ;
 for
-each
 (
 var
 blockEntry
-in
+of
 pluginEntries
 )
 {
