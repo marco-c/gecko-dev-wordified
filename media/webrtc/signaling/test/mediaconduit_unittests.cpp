@@ -3200,6 +3200,7 @@ PCMU
 80
 1
 64000
+false
 )
 ;
 mozilla
@@ -3216,6 +3217,7 @@ opus
 960
 1
 64000
+false
 )
 ;
 mozilla
@@ -3232,6 +3234,7 @@ L16
 320
 1
 256000
+false
 )
 ;
 std

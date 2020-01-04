@@ -422,6 +422,9 @@ mChannels
 desc
 .
 mBitrate
+desc
+.
+mFECEnabled
 )
 ;
 (

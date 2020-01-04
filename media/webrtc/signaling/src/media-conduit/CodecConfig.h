@@ -147,6 +147,9 @@ mChannels
 int
 mRate
 ;
+bool
+mFECEnabled
+;
 /
 /
 OPUS
@@ -198,6 +201,8 @@ int
 channels
 int
 rate
+bool
+FECEnabled
 )
 :
 mType
@@ -223,6 +228,10 @@ channels
 mRate
 (
 rate
+)
+mFECEnabled
+(
+FECEnabled
 )
 mMaxPlaybackRate
 (

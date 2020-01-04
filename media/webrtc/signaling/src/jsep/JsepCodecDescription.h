@@ -733,6 +733,10 @@ mForceMono
 (
 false
 )
+mFECEnabled
+(
+false
+)
 {
 }
 JSEP_CODEC_CLONE
@@ -1013,6 +1017,9 @@ mMaxPlaybackRate
 ;
 bool
 mForceMono
+;
+bool
+mFECEnabled
 ;
 }
 ;
