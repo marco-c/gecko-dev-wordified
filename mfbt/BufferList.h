@@ -2619,6 +2619,14 @@ aSuccess
 =
 false
 ;
+result
+.
+mSegments
+.
+clear
+(
+)
+;
 return
 result
 ;
