@@ -5229,6 +5229,7 @@ reply
 let
 [
 roomToken
+sessionToken
 windowId
 ]
 =
@@ -5236,6 +5237,17 @@ message
 .
 data
 ;
+if
+(
+!
+windowId
+)
+{
+windowId
+=
+sessionToken
+;
+}
 LoopRooms
 .
 leave
