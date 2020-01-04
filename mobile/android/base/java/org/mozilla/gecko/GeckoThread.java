@@ -2604,10 +2604,16 @@ getProfile
 ;
 profile
 .
-forceCreate
+getDir
 (
 )
 ;
+/
+/
+call
+the
+lazy
+initializer
 /
 /
 If
