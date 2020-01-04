@@ -6333,14 +6333,6 @@ height
 <
 =
 aMaxTextureSize
-&
-&
-!
-(
-aAllocFlags
-&
-ALLOC_UPDATE_FROM_SURFACE
-)
 )
 {
 data
@@ -7059,8 +7051,6 @@ size
 aSelector
 aTextureFlags
 aAllocFlags
-|
-ALLOC_UPDATE_FROM_SURFACE
 )
 ;
 if
