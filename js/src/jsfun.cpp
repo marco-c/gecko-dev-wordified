@@ -4834,7 +4834,7 @@ OrdinaryHasInstance
 *
 /
 bool
-js
+JS
 :
 :
 OrdinaryHasInstance

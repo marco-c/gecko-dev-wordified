@@ -5040,9 +5040,6 @@ Step
 *
 /
 return
-js
-:
-:
 OrdinaryHasInstance
 (
 cx
