@@ -2391,6 +2391,11 @@ OpenDatabaseConnection
 )
 ;
 nsresult
+OpenAndUpdateDatabase
+(
+)
+;
+nsresult
 InitDatabase
 (
 )
