@@ -1410,9 +1410,6 @@ principals
 }
 CHECK
 (
-js
-:
-:
 EqualStrings
 (
 f
@@ -1465,9 +1462,6 @@ getColumn
 ;
 CHECK
 (
-js
-:
-:
 EqualStrings
 (
 f

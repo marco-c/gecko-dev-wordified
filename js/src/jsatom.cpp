@@ -2652,7 +2652,7 @@ interned
 .
 *
 /
-if
+MOZ_ASSERT
 (
 cx
 -
@@ -2661,7 +2661,7 @@ isPermanentAtomsInitialized
 (
 )
 )
-{
+;
 AtomSet
 :
 :
@@ -2688,17 +2688,12 @@ return
 &
 atom
 ;
-}
 AutoLockForExclusiveAccess
 lock
 (
 cx
 )
 ;
-AtomSet
-:
-:
-Ptr
 p
 =
 cx
