@@ -462,7 +462,7 @@ gfxInfo
 .
 spoofOSVersion
 (
-0x1090
+0x1080
 )
 ;
 break
