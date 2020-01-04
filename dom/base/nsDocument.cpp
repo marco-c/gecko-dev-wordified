@@ -68475,7 +68475,7 @@ aFullScreen
 *
 aFullScreen
 =
-MozFullScreen
+Fullscreen
 (
 )
 ;
