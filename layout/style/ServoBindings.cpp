@@ -1654,7 +1654,6 @@ RawServoDeclarationBlockStrong
 *
 >
 (
-&
 decl
 -
 >
