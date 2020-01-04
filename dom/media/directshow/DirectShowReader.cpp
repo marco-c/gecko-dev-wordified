@@ -2346,10 +2346,6 @@ DirectShowReader
 :
 NotifyDataArrivedInternal
 (
-uint32_t
-aLength
-int64_t
-aOffset
 )
 {
 MOZ_ASSERT
