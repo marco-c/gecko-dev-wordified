@@ -3754,7 +3754,7 @@ DoNotifyListener
 }
 CloseCacheEntry
 (
-false
+true
 )
 ;
 mIsPending
@@ -3869,7 +3869,7 @@ DoNotifyListener
 ;
 CloseCacheEntry
 (
-true
+false
 )
 ;
 mIsPending
@@ -24356,7 +24356,7 @@ rv
 {
 CloseCacheEntry
 (
-true
+false
 )
 ;
 AsyncAbort
@@ -49467,7 +49467,7 @@ nullptr
 ;
 CloseCacheEntry
 (
-true
+false
 )
 ;
 AsyncAbort
