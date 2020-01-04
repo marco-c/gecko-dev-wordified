@@ -31835,7 +31835,7 @@ linear
 if
 (
 !
-TLTextIdIsToggable
+TLTextIdIsTogglable
 (
 textId
 )
