@@ -26816,6 +26816,7 @@ defined
 bool
 e10sAllowed
 =
+!
 Preferences
 :
 :
@@ -26833,7 +26834,7 @@ channel
 EqualsLiteral
 (
 "
-beta
+release
 "
 )
 |
