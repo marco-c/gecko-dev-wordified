@@ -989,6 +989,13 @@ implementation
 /
 /
 /
+const
+size_t
+SourceBuffer
+:
+:
+MIN_CHUNK_CAPACITY
+;
 SourceBuffer
 :
 :
