@@ -9244,6 +9244,10 @@ ProcessHandler
 (
 command
                                    
+shell
+=
+shell
+                                   
 env
 =
 env
