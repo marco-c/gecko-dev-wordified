@@ -299,6 +299,15 @@ nsILoadContext
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsTransferable
@@ -1512,6 +1521,9 @@ data
 auto
 data
 =
+mozilla
+:
+:
 MakeUnique
 <
 char
