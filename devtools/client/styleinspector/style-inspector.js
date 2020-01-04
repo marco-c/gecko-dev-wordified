@@ -264,11 +264,11 @@ devtools
 /
 client
 /
-styleinspector
+inspector
 /
 computed
--
-view
+/
+computed
 "
 )
 )

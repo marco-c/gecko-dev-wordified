@@ -2595,9 +2595,11 @@ devtools
 /
 content
 /
-styleinspector
+inspector
 /
-computedview
+computed
+/
+computed
 .
 xhtml
 "
