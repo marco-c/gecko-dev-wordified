@@ -487,7 +487,9 @@ does
 not
 export
 '
+{
 setupChild
+}
 '
 )
 ;
