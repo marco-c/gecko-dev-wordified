@@ -221,6 +221,9 @@ MediaPipelineFilter
 class
 PeerIdentity
 ;
+class
+AudioProxyThread
+;
 #
 if
 !
@@ -1997,6 +2000,12 @@ RefPtr
 PipelineListener
 >
 listener_
+;
+RefPtr
+<
+AudioProxyThread
+>
+audio_processing_
 ;
 #
 if
