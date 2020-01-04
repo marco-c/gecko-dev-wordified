@@ -1956,6 +1956,9 @@ JSStackFrame
 :
 GetName
 (
+JSContext
+*
+aCx
 nsAString
 &
 aFunction
@@ -1977,9 +1980,6 @@ return
 NS_OK
 ;
 }
-ThreadsafeAutoJSContext
-cx
-;
 JS
 :
 :
@@ -1990,7 +1990,7 @@ JSString
 >
 name
 (
-cx
+aCx
 )
 ;
 bool
@@ -2003,7 +2003,7 @@ false
 ;
 GetValueIfNotCached
 (
-cx
+aCx
 mStack
 JS
 :
@@ -2046,14 +2046,14 @@ str
 .
 init
 (
-cx
+aCx
 name
 )
 )
 {
 JS_ClearPendingException
 (
-cx
+aCx
 )
 ;
 aFunction
@@ -3072,6 +3072,7 @@ rv
 =
 GetName
 (
+aCx
 funname
 )
 ;
