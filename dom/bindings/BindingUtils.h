@@ -3255,7 +3255,7 @@ endif
 if
 (
 !
-HasProtoAndIfaceCache
+DOMGlobalHasProtoAndIFaceCache
 (
 obj
 )
@@ -3308,7 +3308,7 @@ JSCLASS_DOM_GLOBAL
 if
 (
 !
-HasProtoAndIfaceCache
+DOMGlobalHasProtoAndIFaceCache
 (
 obj
 )
