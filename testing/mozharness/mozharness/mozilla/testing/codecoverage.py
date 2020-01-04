@@ -237,7 +237,7 @@ in
 '
 linux64
 -
-ccov
+cc
 '
 )
         
