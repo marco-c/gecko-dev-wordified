@@ -1741,6 +1741,17 @@ elements
 /
 MediaDecoder
 .
+This
+will
+also
+be
+notified
+if
+the
+active
+CORSMode
+changes
+.
 class
 DecoderPrincipalChangeObserver
 {
