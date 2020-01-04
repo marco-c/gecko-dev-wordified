@@ -496,6 +496,16 @@ extension
 =
 >
 {
+if
+(
+alarmsMap
+.
+has
+(
+extension
+)
+)
+{
 for
 (
 let
@@ -534,6 +544,7 @@ delete
 extension
 )
 ;
+}
 }
 )
 ;
