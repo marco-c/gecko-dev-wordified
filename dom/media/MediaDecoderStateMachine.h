@@ -4171,15 +4171,6 @@ SeekTask
 >
 mSeekTask
 ;
-MozPromiseRequestHolder
-<
-SeekTask
-:
-:
-SeekTaskPromise
->
-mSeekTaskRequest
-;
 /
 /
 This
