@@ -9056,7 +9056,6 @@ return
 nullptr
 ;
 }
-const
 gfx
 :
 :
@@ -9745,7 +9744,6 @@ applied
 .
 *
 /
-const
 gfx
 :
 :

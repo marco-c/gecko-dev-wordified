@@ -9928,7 +9928,6 @@ ToUnknownRegion
 ;
 }
 }
-const
 Matrix4x4
 LayerComposite
 :
