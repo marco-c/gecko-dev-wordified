@@ -4996,7 +4996,7 @@ uniqueText
 >
 mTextAlign
 =
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 ;
 }
 }

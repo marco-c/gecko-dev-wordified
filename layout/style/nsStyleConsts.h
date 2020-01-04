@@ -3771,7 +3771,7 @@ See
 nsStyleText
 #
 define
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 0
 #
 define
