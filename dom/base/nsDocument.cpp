@@ -28409,13 +28409,7 @@ css
 :
 Rule
 *
-aOldStyleRule
-css
-:
-:
-Rule
-*
-aNewStyleRule
+aStyleRule
 )
 {
 NS_DOCUMENT_NOTIFY_OBSERVERS
@@ -28424,8 +28418,7 @@ StyleRuleChanged
 (
 this
 aSheet
-aOldStyleRule
-aNewStyleRule
+aStyleRule
 )
 )
 ;
@@ -28443,9 +28436,9 @@ StyleRuleChangeEvent
 StyleRuleChanged
 "
 mRule
-aNewStyleRule
+aStyleRule
 ?
-aNewStyleRule
+aStyleRule
 -
 >
 GetDOMRule

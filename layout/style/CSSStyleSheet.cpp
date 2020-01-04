@@ -4485,7 +4485,6 @@ StyleRuleChanged
 (
 sheet
 nullptr
-nullptr
 )
 ;
 \
