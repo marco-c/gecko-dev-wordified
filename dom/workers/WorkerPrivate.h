@@ -1687,13 +1687,6 @@ return
 mParentStatus
 ;
 }
-JSContext
-*
-ParentJSContext
-(
-)
-const
-;
 nsIScriptContext
 *
 GetScriptContext
