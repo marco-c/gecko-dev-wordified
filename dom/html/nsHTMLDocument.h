@@ -916,7 +916,6 @@ rv
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

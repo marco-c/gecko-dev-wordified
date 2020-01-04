@@ -301,7 +301,6 @@ found
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

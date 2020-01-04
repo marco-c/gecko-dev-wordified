@@ -8794,7 +8794,6 @@ HTMLFormElement
 :
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

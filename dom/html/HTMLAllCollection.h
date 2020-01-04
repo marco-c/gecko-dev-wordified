@@ -360,8 +360,6 @@ aResult
 void
 GetSupportedNames
 (
-unsigned
-aFlags
 nsTArray
 <
 nsString

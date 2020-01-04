@@ -741,7 +741,6 @@ nsDOMStringMap
 :
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

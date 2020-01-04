@@ -272,7 +272,6 @@ Length
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

@@ -1023,7 +1023,6 @@ aId
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

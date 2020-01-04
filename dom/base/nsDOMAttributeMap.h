@@ -888,8 +888,6 @@ aError
 void
 GetSupportedNames
 (
-unsigned
-aFlags
 nsTArray
 <
 nsString
