@@ -201,6 +201,9 @@ class
 DataSourceSurface
 ;
 class
+DrawTarget
+;
+class
 SourceSurface
 ;
 }
