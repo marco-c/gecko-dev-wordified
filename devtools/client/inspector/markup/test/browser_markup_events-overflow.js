@@ -202,7 +202,7 @@ inspector
 .
 markup
 .
-tooltip
+eventDetailsTooltip
 ;
 info
 (

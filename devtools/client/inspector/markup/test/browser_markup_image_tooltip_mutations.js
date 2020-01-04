@@ -610,7 +610,7 @@ inspector
 .
 markup
 .
-tooltip
+imagePreviewTooltip
 target
 )
 ;
@@ -698,7 +698,7 @@ inspector
 .
 markup
 .
-tooltip
+imagePreviewTooltip
 target
 )
 ;
@@ -828,12 +828,17 @@ markup
 )
 {
 let
-images
+panel
 =
 markup
 .
-tooltip
+imagePreviewTooltip
 .
+panel
+;
+let
+images
+=
 panel
 .
 getElementsByTagName
@@ -860,10 +865,6 @@ image
 let
 label
 =
-markup
-.
-tooltip
-.
 panel
 .
 querySelector
@@ -897,7 +898,7 @@ size
 ;
 markup
 .
-tooltip
+imagePreviewTooltip
 .
 hide
 (

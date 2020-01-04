@@ -200,7 +200,7 @@ isHoverTooltipTarget
 (
 markup
 .
-tooltip
+imagePreviewTooltip
 target
 )
 ;
@@ -266,7 +266,7 @@ isHoverTooltipTarget
 (
 markup
 .
-tooltip
+imagePreviewTooltip
 target
 )
 ;
@@ -327,7 +327,7 @@ isHoverTooltipTarget
 (
 markup
 .
-tooltip
+imagePreviewTooltip
 target
 )
 ;
