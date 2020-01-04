@@ -10,6 +10,11 @@ mixedContentTest
 js
 *
 /
+"
+use
+strict
+"
+;
 document
 .
 open

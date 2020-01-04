@@ -70,6 +70,11 @@ to
 use
 HSTS
 .
+"
+use
+strict
+"
+;
 var
 gSSService
 =

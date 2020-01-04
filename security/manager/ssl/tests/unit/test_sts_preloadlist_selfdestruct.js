@@ -26,6 +26,11 @@ a
 long
 time
 .
+"
+use
+strict
+"
+;
 function
 run_test
 (

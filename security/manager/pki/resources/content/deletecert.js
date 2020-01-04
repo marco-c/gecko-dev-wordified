@@ -68,6 +68,11 @@ pippki
 js
 *
 /
+"
+use
+strict
+"
+;
 const
 nsIX509Cert
 =

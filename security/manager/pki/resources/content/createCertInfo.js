@@ -91,6 +91,11 @@ pippki
 js
 *
 /
+"
+use
+strict
+"
+;
 var
 keygenThread
 ;

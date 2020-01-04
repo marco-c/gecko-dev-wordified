@@ -10,6 +10,11 @@ head_psm
 js
 *
 /
+"
+use
+strict
+"
+;
 function
 run_test
 (

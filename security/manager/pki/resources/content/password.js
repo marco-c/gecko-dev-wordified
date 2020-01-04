@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 nsPK11TokenDB
 =
