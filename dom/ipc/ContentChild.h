@@ -682,6 +682,10 @@ virtual
 bool
 RecvSetProcessSandbox
 (
+const
+MaybeFileDesc
+&
+aBroker
 )
 override
 ;
