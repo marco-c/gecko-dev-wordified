@@ -231,6 +231,7 @@ enum
 RemoveItemType
 {
 BOOKMARKS
+COMBINED
 HISTORY
 }
 public
