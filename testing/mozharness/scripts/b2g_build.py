@@ -3693,7 +3693,7 @@ repo
 dest
 =
 dest
-revision
+branch
 =
 rev
 vcs

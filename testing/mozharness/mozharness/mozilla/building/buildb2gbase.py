@@ -1460,6 +1460,32 @@ build
 tools
 '
 )
+            
+'
+b2g_repo
+'
+:
+self
+.
+config
+[
+'
+repo
+'
+]
+            
+'
+b2g_target
+'
+:
+self
+.
+config
+[
+'
+target
+'
+]
         
 }
         
