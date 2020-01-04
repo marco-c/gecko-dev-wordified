@@ -444,6 +444,8 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+bool
+aIsChrome
 )
 ;
 virtual
@@ -1342,12 +1344,6 @@ PledgeVoid
 ;
 static
 bool
-IsPrivileged
-(
-)
-;
-static
-bool
 IsLoop
 (
 nsIURI
@@ -1482,6 +1478,8 @@ dom
 MediaStreamConstraints
 &
 aConstraints
+bool
+aIsChrome
 RefPtr
 <
 media
