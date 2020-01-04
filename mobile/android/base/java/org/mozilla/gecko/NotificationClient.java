@@ -395,6 +395,7 @@ int
 String
 String
 String
+String
 PendingIntent
 PendingIntent
 )
@@ -423,6 +424,9 @@ aAlertText
 final
 PendingIntent
 contentIntent
+final
+PendingIntent
+deleteIntent
 )
 {
 mTaskQueue
@@ -451,6 +455,7 @@ aHost
 aAlertTitle
 aAlertText
 contentIntent
+deleteIntent
 )
 ;
 }

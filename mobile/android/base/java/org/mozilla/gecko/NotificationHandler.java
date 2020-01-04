@@ -386,6 +386,16 @@ notification
 is
 clicked
 *
+param
+deleteIntent
+Intent
+used
+when
+the
+notification
+is
+closed
+*
 /
 public
 void
@@ -404,6 +414,8 @@ String
 aAlertText
 PendingIntent
 contentIntent
+PendingIntent
+deleteIntent
 )
 {
 /
@@ -459,6 +471,11 @@ ic_status_logo
 setContentIntent
 (
 contentIntent
+)
+.
+setDeleteIntent
+(
+deleteIntent
 )
 .
 setAutoCancel
