@@ -9184,16 +9184,6 @@ return
 ;
 }
 let
-cm
-=
-editors
-.
-get
-(
-this
-)
-;
-let
 node
 =
 event
