@@ -22128,6 +22128,13 @@ builder
 IsForGenerateGlyphMask
 (
 )
+|
+|
+builder
+.
+IsForPaintingSelectionBG
+(
+)
 )
 {
 /

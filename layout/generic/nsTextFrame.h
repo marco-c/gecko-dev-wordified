@@ -2447,6 +2447,11 @@ generateTextMask
 =
 false
 ;
+bool
+paintSelectionBackground
+=
+false
+;
 explicit
 PaintTextParams
 (
