@@ -1280,6 +1280,14 @@ if
 browser
 )
 {
+this
+.
+browser
+.
+relatedBrowser
+=
+browser
+;
 /
 /
 If
