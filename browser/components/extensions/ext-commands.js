@@ -553,6 +553,11 @@ suggested_key
 .
 default
 ;
+if
+(
+shortcut
+)
+{
 commands
 .
 set
@@ -582,6 +587,7 @@ g
 }
 )
 ;
+}
 }
 return
 commands
