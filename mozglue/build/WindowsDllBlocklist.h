@@ -169,6 +169,12 @@ HANDLE
 file
 )
 ;
+MFBT_API
+bool
+DllBlocklist_CheckStatus
+(
+)
+;
 class
 MOZ_RAII
 AutoSetXPCOMLoadOnMainThread
