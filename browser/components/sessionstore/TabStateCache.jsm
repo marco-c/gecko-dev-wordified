@@ -460,7 +460,7 @@ storage
 only
 the
 values
-those
+that
 have
 been
 changed
