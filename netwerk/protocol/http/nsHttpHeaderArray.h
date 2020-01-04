@@ -390,6 +390,14 @@ value
 nullptr
 ;
 }
+bool
+HasHeader
+(
+nsHttpAtom
+header
+)
+const
+;
 enum
 VisitorFilter
 {
