@@ -550,7 +550,7 @@ referrer
 "
 :
 {
-referrer
+referrerpolicy
 :
 t
 .

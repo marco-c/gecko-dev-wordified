@@ -90,7 +90,7 @@ IsWebSocket
 if
 (
 !
-window
+self
 .
 WebSocket
 )
