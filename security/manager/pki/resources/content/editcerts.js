@@ -89,15 +89,6 @@ interfaces
 .
 nsIX509CertDB
 ;
-const
-nsIPKIParamBlock
-=
-Components
-.
-interfaces
-.
-nsIPKIParamBlock
-;
 var
 certdb
 ;

@@ -90,15 +90,6 @@ interfaces
 nsIX509CertDB
 ;
 const
-nsIPKIParamBlock
-=
-Components
-.
-interfaces
-.
-nsIPKIParamBlock
-;
-const
 nsIDialogParamBlock
 =
 Components
