@@ -640,10 +640,10 @@ QueryInfo
 rfState
 ;
 }
-setFocusApp
+setFocusTab
 :
 function
-setFocusApp
+setFocusTab
 (
 tabId
 isFocus
@@ -656,7 +656,7 @@ sendAsyncMessage
 "
 NFC
 :
-SetFocusApp
+SetFocusTab
 "
 {
 tabId
