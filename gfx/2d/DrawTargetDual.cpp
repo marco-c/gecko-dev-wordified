@@ -394,7 +394,7 @@ mMatrix
 surfPat
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 mB
@@ -424,7 +424,7 @@ mMatrix
 surfPat
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 mPatternsInitialized

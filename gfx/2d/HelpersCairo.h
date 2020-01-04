@@ -486,9 +486,9 @@ DEFAULT
 static
 inline
 cairo_filter_t
-GfxFilterToCairoFilter
+GfxSamplingFilterToCairoFilter
 (
-Filter
+SamplingFilter
 filter
 )
 {
@@ -498,7 +498,7 @@ filter
 )
 {
 case
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -507,7 +507,7 @@ return
 CAIRO_FILTER_GOOD
 ;
 case
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -516,7 +516,7 @@ return
 CAIRO_FILTER_BILINEAR
 ;
 case
-Filter
+SamplingFilter
 :
 :
 POINT

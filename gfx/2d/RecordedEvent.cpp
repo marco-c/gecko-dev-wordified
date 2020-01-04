@@ -1460,12 +1460,12 @@ mExtendMode
 store
 -
 >
-mFilter
+mSamplingFilter
 =
 pat
 -
 >
-mFilter
+mSamplingFilter
 ;
 store
 -
@@ -2975,7 +2975,7 @@ mMatrix
 storage
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 return
