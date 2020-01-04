@@ -1270,10 +1270,6 @@ const
 ;
 private
 :
-friend
-class
-AudioBufferSourceNode
-;
 /
 /
 This
