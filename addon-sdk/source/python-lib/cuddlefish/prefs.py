@@ -2764,11 +2764,21 @@ enabled
 :
 True
     
+'
+media
+.
+eme
+.
+apiVisible
+'
+:
+True
+    
 #
 Don
 '
 t
-forcibly
+forceably
 kill
 content
 processes
