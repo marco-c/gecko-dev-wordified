@@ -2134,7 +2134,7 @@ win
 .
 BrowserSearch
 .
-recordSearchInHealthReport
+recordSearchInTelemetry
 (
 engine
 data
