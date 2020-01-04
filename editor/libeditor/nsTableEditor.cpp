@@ -110,6 +110,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -184,13 +191,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -1581,7 +1581,7 @@ rowNode
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
@@ -1767,7 +1767,7 @@ NS_ERROR_NULL_POINTER
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
@@ -1775,9 +1775,11 @@ IsTableRow
 aCurrentRowNode
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCOMPtr
 <
 nsIDOMNode
@@ -1823,7 +1825,7 @@ nextRow
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
@@ -1991,7 +1993,7 @@ nextRow
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
@@ -2191,7 +2193,7 @@ rowChild
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell
@@ -17171,7 +17173,7 @@ startOffset
 1
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell

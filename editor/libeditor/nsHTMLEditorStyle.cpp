@@ -103,6 +103,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -228,13 +235,6 @@ h
 include
 "
 nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -4062,7 +4062,7 @@ nsGkAtoms
 href
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -5011,7 +5011,7 @@ nsGkAtoms
 href
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -5038,7 +5038,7 @@ nsGkAtoms
 name
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -5956,7 +5956,7 @@ body
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -5983,7 +5983,7 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -6040,7 +6040,7 @@ body
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -6067,7 +6067,7 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor

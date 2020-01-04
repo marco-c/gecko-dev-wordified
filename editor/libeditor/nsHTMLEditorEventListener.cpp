@@ -103,6 +103,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -136,13 +143,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -1155,7 +1155,7 @@ isContextClick
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage

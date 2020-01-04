@@ -110,6 +110,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -198,13 +205,6 @@ h
 include
 "
 nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -394,9 +394,6 @@ mozilla
 :
 :
 dom
-;
-class
-nsHTMLEditUtils
 ;
 /
 /
@@ -1561,7 +1558,7 @@ name
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage
@@ -1569,6 +1566,7 @@ IsImage
 aOriginalObject
 )
 )
+{
 name
 .
 AssignLiteral
@@ -1578,7 +1576,9 @@ img
 "
 )
 ;
+}
 else
+{
 name
 .
 AssignLiteral
@@ -1588,6 +1588,7 @@ span
 "
 )
 ;
+}
 nsCOMPtr
 <
 nsIDOMElement
@@ -3253,7 +3254,7 @@ not
 bool
 preserveRatio
 =
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage
@@ -4588,7 +4589,7 @@ aShadow
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage

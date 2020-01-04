@@ -128,6 +128,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -309,13 +316,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -2073,7 +2073,7 @@ results
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -3091,8 +3091,7 @@ instead
 .
 if
 (
-(
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
@@ -3101,18 +3100,17 @@ curNode
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableRow
 (
 parentNode
 )
-)
 &
 &
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -3121,7 +3119,7 @@ curNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -3256,7 +3254,7 @@ sublist
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -3266,7 +3264,7 @@ curNode
 &
 &
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -3275,7 +3273,7 @@ parentNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -3310,7 +3308,7 @@ child
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -3319,7 +3317,7 @@ child
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -3355,7 +3353,7 @@ instead
 .
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -3495,7 +3493,7 @@ if
 parentBlock
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsPre
@@ -3504,7 +3502,7 @@ parentBlock
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsPre
@@ -3835,7 +3833,7 @@ tables
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -3894,7 +3892,7 @@ lastInsertNode
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -3902,10 +3900,12 @@ IsTable
 tmp
 )
 )
+{
 highTable
 =
 tmp
 ;
+}
 nsCOMPtr
 <
 nsIDOMNode
@@ -3964,7 +3964,7 @@ selNode
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -4829,7 +4829,7 @@ node
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -4916,7 +4916,7 @@ if
 aListOnly
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -13671,7 +13671,7 @@ GetParentNode
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -13680,7 +13680,7 @@ node
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -13771,7 +13771,7 @@ aPasteNodes
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -13884,7 +13884,7 @@ ret
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -13912,7 +13912,7 @@ list
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -14049,7 +14049,7 @@ Length
 bool
 isList
 =
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -14089,7 +14089,7 @@ if
 isList
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -14104,7 +14104,7 @@ node
 isList
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -14151,7 +14151,7 @@ structureNode
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList

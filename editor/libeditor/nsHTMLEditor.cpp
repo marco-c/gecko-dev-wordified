@@ -144,6 +144,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -152,13 +159,6 @@ h
 include
 "
 nsHTMLEditRules
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -3610,7 +3610,7 @@ NS_OK
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -3648,7 +3648,7 @@ false
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -6406,7 +6406,7 @@ if
 node
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell
@@ -6918,7 +6918,7 @@ nested
 tables
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -9329,7 +9329,7 @@ the
 selection
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -9529,7 +9529,7 @@ it
 .
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -9927,7 +9927,7 @@ body
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -14194,7 +14194,7 @@ if
 getLink
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -14208,7 +14208,7 @@ current
 getNamedAnchor
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -14248,7 +14248,7 @@ for
 lists
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -14292,7 +14292,7 @@ th
 "
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell
@@ -14836,7 +14836,7 @@ domTagName
 isLinkTag
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -14850,7 +14850,7 @@ selectedNode
 isNamedAnchorTag
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -15246,7 +15246,7 @@ if
 anchorChild
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -15561,7 +15561,7 @@ if
 isLinkTag
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsLink
@@ -15575,7 +15575,7 @@ selectedNode
 isNamedAnchorTag
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -20973,7 +20973,7 @@ aParentTag
 )
 ;
 return
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 CanContain
@@ -21057,7 +21057,7 @@ NodeName
 ;
 }
 return
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsContainer
@@ -21940,7 +21940,7 @@ IsHTMLElement
 |
 |
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -22157,7 +22157,7 @@ block
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -26400,7 +26400,7 @@ AsDOMNode
 |
 |
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNamedAnchor
@@ -26409,7 +26409,7 @@ aNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormWidget
@@ -26423,7 +26423,7 @@ aListOrCellNotEmpty
 &
 &
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -26432,7 +26432,7 @@ aNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell
@@ -26462,7 +26462,7 @@ later
 bool
 isListItemOrCell
 =
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -26471,7 +26471,7 @@ aNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCell
@@ -26755,7 +26755,7 @@ isListItemOrCell
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -26801,7 +26801,7 @@ NS_OK
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormWidget
@@ -29268,7 +29268,7 @@ aPreviousBlock
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsInlineStyle

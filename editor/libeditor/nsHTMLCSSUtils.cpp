@@ -2170,7 +2170,7 @@ not
 use
 /
 /
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr

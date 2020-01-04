@@ -298,7 +298,7 @@ editor
 /
 libeditor
 /
-nsHTMLEditUtils
+HTMLEditUtils
 .
 cpp
 as
