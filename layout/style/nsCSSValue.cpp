@@ -8300,6 +8300,9 @@ case
 eCSSProperty_align_items
 :
 case
+eCSSProperty_align_self
+:
+case
 eCSSProperty_justify_items
 :
 case
