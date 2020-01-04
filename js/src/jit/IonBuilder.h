@@ -3915,7 +3915,7 @@ const
 LinearSum
 &
 byteOffset
-int32_t
+uint32_t
 scale
 MDefinition
 *
@@ -3999,7 +3999,7 @@ MOZ_MUST_USE
 bool
 checkTypedObjectIndexInBounds
 (
-int32_t
+uint32_t
 elemSize
 MDefinition
 *
@@ -4245,7 +4245,7 @@ MDefinition
 value
 TypedObjectPrediction
 elemTypeReprs
-int32_t
+uint32_t
 elemSize
 )
 ;
@@ -4426,7 +4426,7 @@ TypedObjectPrediction
 objTypeReprs
 TypedObjectPrediction
 elemTypeReprs
-int32_t
+uint32_t
 elemSize
 )
 ;
@@ -4466,7 +4466,7 @@ TypedObjectPrediction
 objTypeReprs
 TypedObjectPrediction
 elemTypeReprs
-int32_t
+uint32_t
 elemSize
 )
 ;
