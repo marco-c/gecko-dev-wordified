@@ -11188,8 +11188,6 @@ mWordSpacing
 inherited
 ]
 coord
-percent
-calc
 nsStyleCoord
 mLetterSpacing
 ;

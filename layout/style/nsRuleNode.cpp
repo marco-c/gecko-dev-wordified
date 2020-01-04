@@ -29541,7 +29541,6 @@ spacing
 :
 normal
 length
-percent
 inherit
 const
 nsCSSValue
@@ -29619,11 +29618,11 @@ parentText
 -
 >
 mWordSpacing
-SETCOORD_LPH
+SETCOORD_LH
 |
 SETCOORD_INITIAL_ZERO
 |
-SETCOORD_STORE_CALC
+SETCOORD_CALC_LENGTH_ONLY
 |
 SETCOORD_UNSET_INHERIT
 aContext
