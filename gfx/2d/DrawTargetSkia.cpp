@@ -1288,7 +1288,7 @@ const
 int
 topLeft
 =
-kARGBAlphaOffset
+0
 ;
 const
 int
@@ -1297,8 +1297,6 @@ topRight
 width
 *
 pixelSize
-+
-kARGBAlphaOffset
 -
 pixelSize
 ;
@@ -1311,8 +1309,6 @@ aStride
 height
 -
 strideDiff
-+
-kARGBAlphaOffset
 -
 pixelSize
 ;
@@ -1325,8 +1321,6 @@ aStride
 height
 -
 aStride
-+
-kARGBAlphaOffset
 ;
 /
 /
@@ -1361,8 +1355,6 @@ aStride
 middleRowHeight
 +
 middleRowWidth
-+
-kARGBAlphaOffset
 ;
 const
 int
@@ -1410,6 +1402,8 @@ if
 aData
 [
 offset
++
+kARGBAlphaOffset
 ]
 !
 =
@@ -1488,7 +1482,7 @@ int
 (
 aData
 [
-column
+offset
 ]
 )
 <
@@ -1501,7 +1495,7 @@ int
 (
 aData
 [
-column
+offset
 +
 1
 ]
@@ -1516,7 +1510,7 @@ int
 (
 aData
 [
-column
+offset
 +
 2
 ]
@@ -1531,7 +1525,7 @@ int
 (
 aData
 [
-column
+offset
 +
 3
 ]
