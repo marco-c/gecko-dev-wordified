@@ -333,9 +333,6 @@ class
 OutOfLineLambdaArrow
 ;
 class
-OutOfLineRandom
-;
-class
 CodeGenerator
 :
 public
@@ -2984,14 +2981,6 @@ visitRandom
 LRandom
 *
 ins
-)
-;
-void
-visitOutOfLineRandom
-(
-OutOfLineRandom
-*
-ool
 )
 ;
 IonScriptCounts
