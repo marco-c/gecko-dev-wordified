@@ -349,9 +349,6 @@ int32_t
 aDetailArg
 )
 {
-nsresult
-rv
-=
 Event
 :
 :
@@ -376,12 +373,6 @@ t
 cancel
 *
 /
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mDetail

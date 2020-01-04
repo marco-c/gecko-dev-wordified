@@ -4985,9 +4985,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -5001,12 +4998,6 @@ click
 )
 false
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-false
 )
 ;
 event

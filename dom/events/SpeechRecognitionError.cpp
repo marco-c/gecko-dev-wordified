@@ -259,7 +259,6 @@ mError
 aParam
 .
 mMessage
-aRv
 )
 ;
 e
@@ -298,13 +297,8 @@ const
 nsAString
 &
 aMessage
-ErrorResult
-&
-aRv
 )
 {
-aRv
-=
 Event
 :
 :
@@ -315,16 +309,6 @@ aCanBubble
 aCancelable
 )
 ;
-NS_ENSURE_TRUE_VOID
-(
-!
-aRv
-.
-Failed
-(
-)
-)
-;
 mError
 =
 aError
@@ -332,8 +316,6 @@ aError
 mMessage
 =
 aMessage
-;
-return
 ;
 }
 }

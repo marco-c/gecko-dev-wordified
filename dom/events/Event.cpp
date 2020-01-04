@@ -2166,8 +2166,6 @@ Init
 t
 )
 ;
-aRv
-=
 e
 -
 >
@@ -2917,7 +2915,7 @@ aEventTypeArg
 ;
 }
 }
-NS_IMETHODIMP
+void
 Event
 :
 :
@@ -2946,7 +2944,7 @@ already
 being
 dispatched
 .
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 !
 mEvent
@@ -2955,7 +2953,6 @@ mEvent
 mFlags
 .
 mIsBeingDispatched
-NS_OK
 )
 ;
 if
@@ -3080,9 +3077,6 @@ mEvent
 originalTarget
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -6155,20 +6149,11 @@ trusted
 false
 )
 ;
-nsresult
-rv
-=
 InitEvent
 (
 type
 bubbles
 cancelable
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-false
 )
 ;
 SetTrusted

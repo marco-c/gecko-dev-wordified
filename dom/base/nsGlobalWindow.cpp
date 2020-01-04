@@ -60724,9 +60724,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -60747,12 +60744,6 @@ NETWORK_UPLOAD_EVENT_NAME
 NETWORK_DOWNLOAD_EVENT_NAME
 false
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event
@@ -60961,9 +60952,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -60977,12 +60965,6 @@ languagechange
 )
 false
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event

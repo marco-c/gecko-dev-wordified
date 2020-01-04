@@ -2396,8 +2396,6 @@ nullptr
 nullptr
 )
 ;
-rv
-=
 event
 -
 >
@@ -2406,12 +2404,6 @@ InitEvent
 aName
 false
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event

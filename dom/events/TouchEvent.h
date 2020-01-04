@@ -566,9 +566,6 @@ aTargetTouches
 TouchList
 *
 aChangedTouches
-ErrorResult
-&
-aRv
 )
 ;
 static

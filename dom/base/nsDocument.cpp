@@ -50556,9 +50556,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -50569,17 +50566,6 @@ aBubbles
 false
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 event
 -
 >

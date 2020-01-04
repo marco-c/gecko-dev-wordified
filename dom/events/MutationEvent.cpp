@@ -509,9 +509,6 @@ uint16_t
 aAttrChangeArg
 )
 {
-nsresult
-rv
-=
 Event
 :
 :
@@ -520,12 +517,6 @@ InitEvent
 aTypeArg
 aCanBubbleArg
 aCancelableArg
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 InternalMutationEvent

@@ -4284,9 +4284,6 @@ nullptr
 nullptr
 )
 ;
-ErrorResult
-err
-;
 srError
 -
 >
@@ -4302,7 +4299,6 @@ true
 false
 aErrorCode
 aMessage
-err
 )
 ;
 RefPtr

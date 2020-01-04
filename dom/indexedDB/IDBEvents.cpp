@@ -306,10 +306,6 @@ nullptr
 nullptr
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
-(
 event
 -
 >
@@ -332,8 +328,6 @@ eCancelable
 true
 :
 false
-)
-)
 )
 ;
 event
@@ -418,10 +412,6 @@ Value
 )
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
-(
 event
 -
 >
@@ -430,8 +420,6 @@ InitEvent
 aType
 false
 false
-)
-)
 )
 ;
 event

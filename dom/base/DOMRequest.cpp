@@ -1096,9 +1096,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -1109,17 +1106,6 @@ aBubble
 aCancelable
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 event
 -
 >

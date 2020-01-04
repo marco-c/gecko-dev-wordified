@@ -6124,6 +6124,11 @@ aPermitUnload
 AutoDontWarnAboutSyncXHR
 disableSyncXHRWarning
 ;
+nsresult
+rv
+=
+NS_OK
+;
 *
 aPermitUnload
 =
@@ -6334,9 +6339,6 @@ NS_ENSURE_STATE
 beforeUnload
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -6350,12 +6352,6 @@ beforeunload
 )
 false
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 /

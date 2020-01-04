@@ -360,9 +360,6 @@ aURL
 DOMStorage
 *
 aStorageArea
-ErrorResult
-&
-aRv
 )
 ;
 void
