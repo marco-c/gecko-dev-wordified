@@ -9674,6 +9674,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -9687,6 +9688,8 @@ startSection
 SignaturesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -10021,6 +10024,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -10051,6 +10055,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -10064,6 +10069,8 @@ startSection
 FunctionSignaturesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -10197,6 +10204,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -10227,6 +10235,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -10240,6 +10249,8 @@ startSection
 FunctionTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -10413,6 +10424,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -10748,6 +10760,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -10761,6 +10774,8 @@ startSection
 ImportTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -10872,6 +10887,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -10918,6 +10934,7 @@ memMax
 ;
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -10931,6 +10948,8 @@ startSection
 MemoryId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -11061,6 +11080,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -11360,6 +11380,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -11373,6 +11394,8 @@ startSection
 ExportTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -11468,6 +11491,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -11886,6 +11910,7 @@ c
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -11899,6 +11924,8 @@ startSection
 FunctionBodiesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -12180,6 +12207,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -12306,6 +12334,9 @@ indent
 uint32_t
 sectionStart
 ;
+uint32_t
+sectionSize
+;
 if
 (
 !
@@ -12318,6 +12349,8 @@ startSection
 DataSegmentsId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -12616,6 +12649,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
