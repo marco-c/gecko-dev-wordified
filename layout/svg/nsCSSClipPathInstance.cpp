@@ -689,7 +689,7 @@ appUnitsPerDevPixel
 appUnitsPerDevPixel
 )
 ;
-nsStyleBasicShape
+StyleBasicShape
 *
 basicShape
 =
@@ -908,7 +908,7 @@ nsRect
 aRefBox
 )
 {
-nsStyleBasicShape
+StyleBasicShape
 *
 basicShape
 =
@@ -1251,7 +1251,7 @@ nsRect
 aRefBox
 )
 {
-nsStyleBasicShape
+StyleBasicShape
 *
 basicShape
 =
@@ -1562,7 +1562,7 @@ nsRect
 aRefBox
 )
 {
-nsStyleBasicShape
+StyleBasicShape
 *
 basicShape
 =
