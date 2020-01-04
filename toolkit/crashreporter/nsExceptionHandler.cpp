@@ -6395,9 +6395,6 @@ aBuf
 )
 ;
 }
-#
-ifdef
-MOZ_CHAR16_IS_NOT_WCHAR
 static
 size_t
 BuildTempPath
@@ -6424,8 +6421,6 @@ aBufLen
 )
 ;
 }
-#
-endif
 #
 elif
 defined

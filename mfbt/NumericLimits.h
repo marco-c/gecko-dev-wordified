@@ -229,9 +229,6 @@ T
 {
 }
 ;
-#
-ifdef
-MOZ_CHAR16_IS_NOT_WCHAR
 template
 <
 >
@@ -265,8 +262,6 @@ same
 .
 }
 ;
-#
-endif
 }
 /
 /
