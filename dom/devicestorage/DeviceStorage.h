@@ -1643,16 +1643,6 @@ DeviceStorageRequest
 aRequest
 )
 ;
-void
-StorePermission
-(
-DeviceStorageRequest
-*
-aRequest
-bool
-aAllow
-)
-;
 bool
 IsOwningThread
 (
