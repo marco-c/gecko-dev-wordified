@@ -4414,7 +4414,7 @@ initReservedSlot
 StateSlot
 Int32Value
 (
-MODULE_STATE_PARSED
+MODULE_STATE_FAILED
 )
 )
 ;
@@ -4505,6 +4505,15 @@ ObjectValue
 (
 *
 starExportEntries
+)
+)
+;
+setReservedSlot
+(
+StateSlot
+Int32Value
+(
+MODULE_STATE_PARSED
 )
 )
 ;
