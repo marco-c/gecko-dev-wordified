@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsISpeechService
 .
 h
@@ -191,8 +184,6 @@ SpeechDispatcherService
 final
 :
 public
-nsIObserver
-public
 nsISpeechService
 {
 friend
@@ -202,7 +193,6 @@ SpeechDispatcherCallback
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIOBSERVER
 NS_DECL_NSISPEECHSERVICE
 SpeechDispatcherService
 (
