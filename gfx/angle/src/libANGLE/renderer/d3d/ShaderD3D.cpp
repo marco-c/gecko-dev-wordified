@@ -609,13 +609,6 @@ additionalOptions
 =
 0
 ;
-#
-if
-!
-defined
-(
-ANGLE_ENABLE_WINDOWS_STORE
-)
 const
 std
 :
@@ -630,6 +623,13 @@ getSource
 (
 )
 ;
+#
+if
+!
+defined
+(
+ANGLE_ENABLE_WINDOWS_STORE
+)
 if
 (
 gl

@@ -1268,6 +1268,10 @@ TFieldListCollection
 :
 buildMangledName
 (
+const
+TString
+&
+mangledNamePrefix
 )
 const
 {
@@ -1275,8 +1279,6 @@ TString
 mangledName
 (
 mangledNamePrefix
-(
-)
 )
 ;
 mangledName

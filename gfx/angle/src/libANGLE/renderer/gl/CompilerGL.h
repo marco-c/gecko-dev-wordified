@@ -124,6 +124,7 @@ getTranslatorOutputType
 (
 )
 const
+override
 {
 return
 mTranslatorOutputType

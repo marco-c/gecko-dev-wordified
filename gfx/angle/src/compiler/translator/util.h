@@ -263,6 +263,13 @@ TSymbolTable
 symbolTable
 )
 ;
+virtual
+~
+GetVariableTraverser
+(
+)
+{
+}
 template
 <
 typename

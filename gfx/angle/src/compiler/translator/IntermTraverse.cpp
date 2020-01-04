@@ -861,7 +861,7 @@ TLValueTrackingTraverser
 addToFunctionMap
 (
 const
-TString
+TName
 &
 name
 TIntermSequence
@@ -912,7 +912,7 @@ find
 callNode
 -
 >
-getName
+getNameObj
 (
 )
 )
@@ -953,7 +953,7 @@ mFunctionMap
 callNode
 -
 >
-getName
+getNameObj
 (
 )
 ]
@@ -2112,7 +2112,7 @@ addToFunctionMap
 node
 -
 >
-getName
+getNameObj
 (
 )
 params
@@ -2134,7 +2134,7 @@ addToFunctionMap
 node
 -
 >
-getName
+getNameObj
 (
 )
 sequence

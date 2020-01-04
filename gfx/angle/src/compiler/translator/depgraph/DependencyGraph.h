@@ -1106,6 +1106,13 @@ mDepth
 {
 }
 virtual
+~
+TDependencyGraphTraverser
+(
+)
+{
+}
+virtual
 void
 visitSymbol
 (

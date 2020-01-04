@@ -191,6 +191,7 @@ TIntermNode
 *
 root
 int
+compileOptions
 )
 {
 TInfoSinkBase

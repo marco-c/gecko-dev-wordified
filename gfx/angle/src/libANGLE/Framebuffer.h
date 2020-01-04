@@ -792,13 +792,9 @@ const
 Error
 blit
 (
-const
-gl
-:
-:
-State
-&
-state
+Context
+*
+context
 const
 gl
 :

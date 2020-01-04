@@ -3559,11 +3559,6 @@ drawFramebuffer
 blit
 (
 context
--
->
-getState
-(
-)
 srcArea
 dstArea
 mask

@@ -1208,6 +1208,20 @@ shader
 EvqFragColor
 EvqFragData
 EvqFragDepth
+/
+/
+gl_FragDepth
+for
+ESSL300
+.
+EvqFragDepthEXT
+/
+/
+gl_FragDepthEXT
+for
+ESSL100
+EXT_frag_depth
+.
 EvqSecondaryFragColorEXT
 /
 /
@@ -1402,6 +1416,12 @@ TQualifier
 q
 )
 {
+/
+/
+clang
+-
+format
+off
 switch
 (
 q
@@ -1415,8 +1435,6 @@ return
 Temporary
 "
 ;
-break
-;
 case
 EvqGlobal
 :
@@ -1424,8 +1442,6 @@ return
 "
 Global
 "
-;
-break
 ;
 case
 EvqConst
@@ -1435,8 +1451,6 @@ return
 const
 "
 ;
-break
-;
 case
 EvqAttribute
 :
@@ -1444,8 +1458,6 @@ return
 "
 attribute
 "
-;
-break
 ;
 case
 EvqVaryingIn
@@ -1455,8 +1467,6 @@ return
 varying
 "
 ;
-break
-;
 case
 EvqVaryingOut
 :
@@ -1464,8 +1474,6 @@ return
 "
 varying
 "
-;
-break
 ;
 case
 EvqUniform
@@ -1475,8 +1483,6 @@ return
 uniform
 "
 ;
-break
-;
 case
 EvqVertexIn
 :
@@ -1484,8 +1490,6 @@ return
 "
 in
 "
-;
-break
 ;
 case
 EvqFragmentOut
@@ -1495,8 +1499,6 @@ return
 out
 "
 ;
-break
-;
 case
 EvqVertexOut
 :
@@ -1504,8 +1506,6 @@ return
 "
 out
 "
-;
-break
 ;
 case
 EvqFragmentIn
@@ -1515,8 +1515,6 @@ return
 in
 "
 ;
-break
-;
 case
 EvqIn
 :
@@ -1524,8 +1522,6 @@ return
 "
 in
 "
-;
-break
 ;
 case
 EvqOut
@@ -1535,8 +1531,6 @@ return
 out
 "
 ;
-break
-;
 case
 EvqInOut
 :
@@ -1544,8 +1538,6 @@ return
 "
 inout
 "
-;
-break
 ;
 case
 EvqConstReadOnly
@@ -1555,8 +1547,6 @@ return
 const
 "
 ;
-break
-;
 case
 EvqInstanceID
 :
@@ -1564,8 +1554,6 @@ return
 "
 InstanceID
 "
-;
-break
 ;
 case
 EvqPosition
@@ -1575,8 +1563,6 @@ return
 Position
 "
 ;
-break
-;
 case
 EvqPointSize
 :
@@ -1584,8 +1570,6 @@ return
 "
 PointSize
 "
-;
-break
 ;
 case
 EvqFragCoord
@@ -1595,8 +1579,6 @@ return
 FragCoord
 "
 ;
-break
-;
 case
 EvqFrontFacing
 :
@@ -1604,8 +1586,6 @@ return
 "
 FrontFacing
 "
-;
-break
 ;
 case
 EvqPointCoord
@@ -1615,8 +1595,6 @@ return
 PointCoord
 "
 ;
-break
-;
 case
 EvqFragColor
 :
@@ -1624,8 +1602,6 @@ return
 "
 FragColor
 "
-;
-break
 ;
 case
 EvqFragData
@@ -1635,7 +1611,13 @@ return
 FragData
 "
 ;
-break
+case
+EvqFragDepthEXT
+:
+return
+"
+FragDepth
+"
 ;
 case
 EvqFragDepth
@@ -1645,8 +1627,6 @@ return
 FragDepth
 "
 ;
-break
-;
 case
 EvqSecondaryFragColorEXT
 :
@@ -1654,8 +1634,6 @@ return
 "
 SecondaryFragColorEXT
 "
-;
-break
 ;
 case
 EvqSecondaryFragDataEXT
@@ -1665,8 +1643,6 @@ return
 SecondaryFragDataEXT
 "
 ;
-break
-;
 case
 EvqLastFragColor
 :
@@ -1675,8 +1651,6 @@ return
 LastFragColor
 "
 ;
-break
-;
 case
 EvqLastFragData
 :
@@ -1684,8 +1658,6 @@ return
 "
 LastFragData
 "
-;
-break
 ;
 case
 EvqSmoothOut
@@ -1696,8 +1668,6 @@ smooth
 out
 "
 ;
-break
-;
 case
 EvqCentroidOut
 :
@@ -1706,8 +1676,6 @@ return
 centroid
 out
 "
-;
-break
 ;
 case
 EvqFlatOut
@@ -1718,8 +1686,6 @@ flat
 out
 "
 ;
-break
-;
 case
 EvqSmoothIn
 :
@@ -1728,8 +1694,6 @@ return
 smooth
 in
 "
-;
-break
 ;
 case
 EvqFlatIn
@@ -1740,8 +1704,6 @@ flat
 in
 "
 ;
-break
-;
 case
 EvqCentroidIn
 :
@@ -1750,8 +1712,6 @@ return
 centroid
 in
 "
-;
-break
 ;
 default
 :
@@ -1766,6 +1726,12 @@ qualifier
 "
 ;
 }
+/
+/
+clang
+-
+format
+on
 }
 inline
 const

@@ -521,15 +521,12 @@ E
 exp_s
 ;
 return
-*
-reinterpret_cast
+bitCast
 <
 unsigned
 int
-*
 >
 (
-&
 output
 )
 ;

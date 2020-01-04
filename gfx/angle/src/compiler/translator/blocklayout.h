@@ -222,6 +222,13 @@ BlockLayoutEncoder
 (
 )
 ;
+virtual
+~
+BlockLayoutEncoder
+(
+)
+{
+}
 BlockMemberInfo
 encodeType
 (

@@ -534,7 +534,7 @@ gl
 :
 :
 Error
-readPixels
+readPixelsImpl
 (
 const
 gl

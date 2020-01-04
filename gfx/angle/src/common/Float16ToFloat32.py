@@ -82,6 +82,15 @@ fasthalffloatconversion
 .
 pdf
 .
+#
+include
+"
+common
+/
+mathutil
+.
+h
+"
 def
 convertMantissa
 (
@@ -505,13 +514,13 @@ h
 ;
     
 return
-*
-(
+bitCast
+<
 float
-*
-)
-&
+>
+(
 i32
+)
 ;
 }
 }

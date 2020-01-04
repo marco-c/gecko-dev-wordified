@@ -97,6 +97,9 @@ FunctionsGL
 class
 StateManagerGL
 ;
+struct
+WorkaroundsGL
+;
 class
 PbufferSurfaceCGL
 :
@@ -276,6 +279,11 @@ mFunctions
 StateManagerGL
 *
 mStateManager
+;
+const
+WorkaroundsGL
+&
+mWorkarounds
 ;
 GLuint
 mFramebuffer

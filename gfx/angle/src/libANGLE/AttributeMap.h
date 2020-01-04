@@ -69,6 +69,7 @@ egl
 {
 class
 AttributeMap
+final
 {
 public
 :
@@ -85,7 +86,6 @@ EGLint
 attributes
 )
 ;
-virtual
 void
 insert
 (
@@ -95,7 +95,6 @@ EGLint
 value
 )
 ;
-virtual
 bool
 contains
 (
@@ -104,7 +103,6 @@ key
 )
 const
 ;
-virtual
 EGLint
 get
 (

@@ -190,7 +190,7 @@ level
 )
 ;
 bool
-ValidImageSize
+ValidImageSizeParameters
 (
 const
 Context
@@ -206,6 +206,8 @@ GLsizei
 height
 GLsizei
 depth
+bool
+isSubImage
 )
 ;
 bool

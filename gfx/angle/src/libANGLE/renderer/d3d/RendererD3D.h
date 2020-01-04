@@ -604,6 +604,13 @@ createCompiler
 )
 override
 ;
+SamplerImpl
+*
+createSampler
+(
+)
+override
+;
 virtual
 int
 getMinorShaderModel
