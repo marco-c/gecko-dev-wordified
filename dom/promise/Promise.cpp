@@ -16105,7 +16105,7 @@ aValue
 Promise
 :
 :
-ResolveInternal
+MaybeResolve
 )
 ;
 }
@@ -16139,7 +16139,7 @@ aValue
 Promise
 :
 :
-RejectInternal
+MaybeReject
 )
 ;
 }
