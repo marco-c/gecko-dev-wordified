@@ -343,7 +343,7 @@ reflow
 state
 is
 in
-aRS
+aRI
 .
 *
 The
@@ -388,7 +388,7 @@ mode
 as
 found
 in
-aRS
+aRI
 .
 *
 If
@@ -528,7 +528,7 @@ ComputeCollapsedBStartMargin
 const
 ReflowInput
 &
-aRS
+aRI
 nsCollapsingMargin
 *
 aMargin

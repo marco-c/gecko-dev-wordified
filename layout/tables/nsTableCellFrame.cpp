@@ -689,7 +689,7 @@ if
 const
 ReflowInput
 *
-cellRS
+cellRI
 =
 aReflowInput
 .
@@ -697,10 +697,10 @@ mCBReflowInput
 ;
 if
 (
-cellRS
+cellRI
 &
 &
-cellRS
+cellRI
 -
 >
 mFrame
@@ -710,7 +710,7 @@ this
 &
 &
 (
-cellRS
+cellRI
 -
 >
 ComputedBSize
@@ -721,7 +721,7 @@ ComputedBSize
 NS_UNCONSTRAINEDSIZE
 |
 |
-cellRS
+cellRI
 -
 >
 ComputedBSize
@@ -829,7 +829,7 @@ nsTableFrame
 AncestorsHaveStyleBSize
 (
 *
-cellRS
+cellRI
 )
 |
 |
@@ -849,7 +849,7 @@ this
 1
 &
 &
-cellRS
+cellRI
 -
 >
 mParentReflowInput
@@ -879,7 +879,7 @@ mParentReflowInput
 rs
 !
 =
-cellRS
+cellRI
 ;
 rs
 =
@@ -907,7 +907,7 @@ nsTableFrame
 RequestSpecialBSizeReflow
 (
 *
-cellRS
+cellRI
 )
 ;
 }

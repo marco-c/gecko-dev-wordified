@@ -339,7 +339,7 @@ int32_t
 aLineNumber
 )
 {
-mBlockRS
+mBlockRI
 =
 aState
 ;
@@ -1085,7 +1085,7 @@ case
 .
 MOZ_ASSERT
 (
-mBlockRS
+mBlockRI
 "
 Should
 not
@@ -1106,7 +1106,7 @@ available
 )
 ;
 return
-mBlockRS
+mBlockRI
 -
 >
 AddFloat
@@ -2181,7 +2181,7 @@ mFrame
 const
 ReflowInput
 *
-LineContainerRS
+LineContainerRI
 (
 )
 const
@@ -2710,7 +2710,7 @@ nsLineLayout
 AddFloat
 BlockReflowInput
 *
-mBlockRS
+mBlockRI
 ;
 /
 *

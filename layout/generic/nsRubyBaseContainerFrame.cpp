@@ -2541,7 +2541,7 @@ for
 nsLineLayout
 :
 :
-mBlockRS
+mBlockRI
 and
 nsLineLayout
 :

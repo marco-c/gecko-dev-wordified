@@ -11345,22 +11345,22 @@ aFrame
 const
 ReflowInput
 &
-aRS
+aRI
 )
 :
 GridReflowInput
 (
 aFrame
 *
-aRS
+aRI
 .
 mRenderingContext
 &
-aRS
-aRS
+aRI
+aRI
 .
 mStylePosition
-aRS
+aRI
 .
 GetWritingMode
 (
@@ -15896,7 +15896,7 @@ aCBSize
 const
 ReflowInput
 &
-aRS
+aRI
 const
 LogicalSize
 &
@@ -16112,7 +16112,7 @@ const
 LogicalMargin
 margin
 =
-aRS
+aRI
 .
 ComputedLogicalMargin
 (
@@ -16121,7 +16121,7 @@ ComputedLogicalMargin
 WritingMode
 wm
 =
-aRS
+aRI
 .
 GetWritingMode
 (
@@ -16244,7 +16244,7 @@ auto
 &
 styleMargin
 =
-aRS
+aRI
 .
 mStyleMargin
 -
@@ -16866,7 +16866,7 @@ aCBWM
 const
 ReflowInput
 &
-aRS
+aRI
 const
 LogicalSize
 &
@@ -16954,7 +16954,7 @@ NS_STYLE_ALIGN_STRETCH
 WritingMode
 childWM
 =
-aRS
+aRI
 .
 GetWritingMode
 (
@@ -17071,7 +17071,7 @@ axis
 sameSide
 baselineAdjust
 aCBSize
-aRS
+aRI
 aSize
 aPos
 )
@@ -17098,7 +17098,7 @@ aCBWM
 const
 ReflowInput
 &
-aRS
+aRI
 const
 LogicalSize
 &
@@ -17145,7 +17145,7 @@ NS_STYLE_ALIGN_STRETCH
 WritingMode
 childWM
 =
-aRS
+aRI
 .
 GetWritingMode
 (
@@ -17329,7 +17329,7 @@ axis
 sameSide
 baselineAdjust
 aCBSize
-aRS
+aRI
 aSize
 aPos
 )
@@ -24442,7 +24442,7 @@ true
 #
 endif
 ReflowInput
-childRS
+childRI
 (
 pc
 *
@@ -24464,7 +24464,7 @@ COMPUTE_SIZE_USE_AUTO_BSIZE
 ReflowOutput
 childSize
 (
-childRS
+childRI
 )
 ;
 nsReflowStatus
@@ -24481,7 +24481,7 @@ NS_FRAME_NO_SIZE_VIEW
 WritingMode
 wm
 =
-childRS
+childRI
 .
 GetWritingMode
 (
@@ -24495,7 +24495,7 @@ ReflowChild
 aChild
 pc
 childSize
-childRS
+childRI
 wm
 LogicalPoint
 (
@@ -24517,7 +24517,7 @@ aChild
 pc
 childSize
 &
-childRS
+childRI
 wm
 LogicalPoint
 (
@@ -32433,7 +32433,7 @@ mWM
 const
 ReflowInput
 *
-gridRS
+gridRI
 =
 aState
 .
@@ -32444,7 +32444,7 @@ ReflowInput
 *
 cbRS
 =
-gridRS
+gridRI
 -
 >
 mCBReflowInput
@@ -32557,7 +32557,7 @@ data
 >
 mIsTopOfPage
 =
-gridRS
+gridRI
 -
 >
 mFlags
@@ -32573,7 +32573,7 @@ aState
 .
 mFragBStart
 +
-gridRS
+gridRI
 -
 >
 AvailableBSize
@@ -32629,7 +32629,7 @@ mPosition
 nscoord
 bSize
 =
-gridRS
+gridRI
 -
 >
 ComputedBSize
@@ -32656,7 +32656,7 @@ mIsAutoBSize
 {
 bSize
 =
-gridRS
+gridRI
 -
 >
 ComputedMinBSize
@@ -32671,13 +32671,13 @@ bSize
 NS_CSS_MINMAX
 (
 bSize
-gridRS
+gridRI
 -
 >
 ComputedMinBSize
 (
 )
-gridRS
+gridRI
 -
 >
 ComputedMaxBSize
@@ -33497,7 +33497,7 @@ wm
 )
 ;
 ReflowInput
-childRS
+childRI
 (
 pc
 *
@@ -33510,7 +33510,7 @@ childCBSize
 percentBasis
 )
 ;
-childRS
+childRI
 .
 mFlags
 .
@@ -33585,7 +33585,7 @@ false
 if
 (
 !
-childRS
+childRI
 .
 mStyleMargin
 -
@@ -33596,7 +33596,7 @@ childWM
 )
 &
 &
-childRS
+childRI
 .
 mStylePosition
 -
@@ -33617,7 +33617,7 @@ eStyleUnit_Auto
 auto
 blockAxisAlignment
 =
-childRS
+childRI
 .
 mStylePosition
 -
@@ -33738,7 +33738,7 @@ FinishReflowChild
 ReflowOutput
 childSize
 (
-childRS
+childRI
 )
 ;
 const
@@ -33750,7 +33750,7 @@ ReflowChild
 aChild
 pc
 childSize
-childRS
+childRI
 childWM
 LogicalPoint
 (
@@ -33837,7 +33837,7 @@ aStatus
 auto
 align
 =
-childRS
+childRI
 .
 mStylePosition
 -
@@ -33903,7 +33903,7 @@ aGridItemInfo
 align
 cbsz
 wm
-childRS
+childRI
 size
 &
 childPos
@@ -33913,7 +33913,7 @@ childPos
 auto
 justify
 =
-childRS
+childRI
 .
 mStylePosition
 -
@@ -33977,7 +33977,7 @@ aGridItemInfo
 justify
 cbsz
 wm
-childRS
+childRI
 size
 &
 childPos
@@ -34009,7 +34009,7 @@ childPos
 padStart
 ;
 }
-childRS
+childRI
 .
 ApplyRelativePositioning
 (
@@ -34024,7 +34024,7 @@ aChild
 pc
 childSize
 &
-childRS
+childRI
 childWM
 childPos
 aContainerSize

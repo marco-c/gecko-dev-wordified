@@ -5352,7 +5352,7 @@ aPresContext
 const
 ReflowInput
 *
-aContainingBlockRS
+aContainingBlockRI
 )
 const
 ;
