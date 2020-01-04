@@ -23459,7 +23459,7 @@ getURLForBuiltinPanelType
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 Tabs

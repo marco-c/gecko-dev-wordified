@@ -326,7 +326,7 @@ assertCurrentPanel
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 /
@@ -346,7 +346,7 @@ assertCurrentPanel
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 mAboutHome
@@ -483,7 +483,7 @@ assertCurrentPanel
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 /
@@ -503,7 +503,7 @@ assertCurrentPanel
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 mAboutHome
