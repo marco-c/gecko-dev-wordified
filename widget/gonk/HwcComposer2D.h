@@ -524,6 +524,8 @@ nsIWidget
 aWidget
 bool
 aGeometryChanged
+bool
+aHasImageHostOverlays
 )
 override
 ;
@@ -659,6 +661,8 @@ gfx
 Matrix
 &
 aParentTransform
+bool
+aFindSidebandStreams
 )
 ;
 void
@@ -727,6 +731,12 @@ layers
 :
 FenceHandle
 mPrevDisplayFence
+;
+nsTArray
+<
+HwcLayer
+>
+mCachedSidebandLayers
 ;
 nsTArray
 <

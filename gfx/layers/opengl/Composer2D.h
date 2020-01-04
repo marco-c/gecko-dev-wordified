@@ -359,6 +359,8 @@ nsIWidget
 aWidget
 bool
 aGeometryChanged
+bool
+aHasImageHostOverlays
 )
 =
 0
