@@ -443,6 +443,7 @@ nsAString
 &
 aString
 )
+override
 ;
 void
 AddSizeOfResources
