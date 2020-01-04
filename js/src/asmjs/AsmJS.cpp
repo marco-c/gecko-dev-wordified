@@ -9094,10 +9094,6 @@ atomicsPresent_
 (
 false
 )
-mg_
-(
-cx
-)
 errorString_
 (
 nullptr
@@ -9781,12 +9777,14 @@ dummyFunction_
 return
 false
 ;
-Assumptions
-assumptions
+CompileArgs
+args
 ;
 if
 (
 !
+args
+.
 assumptions
 .
 init
@@ -9814,6 +9812,8 @@ MakeUnique
 ModuleGeneratorData
 >
 (
+args
+.
 assumptions
 .
 usesSignal
@@ -9881,9 +9881,6 @@ return
 false
 ;
 }
-CacheableChars
-filename
-;
 if
 (
 parser_
@@ -9896,6 +9893,8 @@ filename
 )
 )
 {
+args
+.
 filename
 =
 DuplicateString
@@ -9913,6 +9912,8 @@ filename
 if
 (
 !
+args
+.
 filename
 )
 return
@@ -9932,11 +9933,7 @@ genData
 )
 Move
 (
-filename
-)
-Move
-(
-assumptions
+args
 )
 asmJSMetadata_
 .

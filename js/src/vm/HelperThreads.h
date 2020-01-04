@@ -291,7 +291,7 @@ IonCompileTask
 0
 SystemAllocPolicy
 >
-IonCompileTaskVector
+IonCompileTaskPtrVector
 ;
 }
 /
@@ -487,7 +487,7 @@ jobs
 wasm
 :
 :
-IonCompileTaskVector
+IonCompileTaskPtrVector
 wasmWorklist_
 wasmFinishedList_
 ;
@@ -883,7 +883,7 @@ ionFinishedList_
 wasm
 :
 :
-IonCompileTaskVector
+IonCompileTaskPtrVector
 &
 wasmWorklist
 (
@@ -903,7 +903,7 @@ wasmWorklist_
 wasm
 :
 :
-IonCompileTaskVector
+IonCompileTaskPtrVector
 &
 wasmFinishedList
 (
@@ -2091,9 +2091,6 @@ function
 bool
 StartOffThreadWasmCompile
 (
-ExclusiveContext
-*
-cx
 wasm
 :
 :
