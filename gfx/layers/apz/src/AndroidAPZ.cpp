@@ -1264,9 +1264,9 @@ ToMilliseconds
 velocity
 =
 (
-mPreviousOffset
--
 offset
+-
+mPreviousOffset
 )
 /
 (
