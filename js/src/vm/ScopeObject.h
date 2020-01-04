@@ -693,7 +693,7 @@ scope
 void
 setEnclosingScope
 (
-JSObject
+StaticScope
 *
 obj
 )
@@ -2452,7 +2452,11 @@ create
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+StaticScope
+*
+>
 enclosing
 )
 ;

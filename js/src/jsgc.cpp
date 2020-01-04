@@ -41900,7 +41900,11 @@ fixed
 up
 below
 .
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 targetStaticGlobalLexicalScope
 (
 rt
