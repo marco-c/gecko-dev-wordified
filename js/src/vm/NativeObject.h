@@ -8766,6 +8766,11 @@ updateShapeAfterMovingGC
 (
 )
 ;
+void
+sweepDictionaryListPointer
+(
+)
+;
 /
 *
 JIT
