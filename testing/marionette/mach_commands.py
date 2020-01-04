@@ -950,11 +950,17 @@ app
 )
         
 if
+kwargs
+.
+get
+(
 '
 binary
 '
-in
-kwargs
+)
+is
+not
+None
 :
             
 print
