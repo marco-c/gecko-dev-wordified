@@ -3742,7 +3742,7 @@ Ci
 let
 activeStreams
 =
-gWebRTCUI
+webrtcUI
 .
 getActiveStreams
 (
@@ -3751,7 +3751,7 @@ false
 false
 )
 ;
-gWebRTCUI
+webrtcUI
 .
 showSharingDoorhanger
 (
