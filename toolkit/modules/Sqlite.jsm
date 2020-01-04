@@ -6378,6 +6378,12 @@ database
 ex
 )
 ;
+connection
+.
+asyncClose
+(
+)
+;
 reject
 (
 ex
@@ -6973,6 +6979,12 @@ clone
 database
 "
 ex
+)
+;
+connection
+.
+asyncClose
+(
 )
 ;
 reject

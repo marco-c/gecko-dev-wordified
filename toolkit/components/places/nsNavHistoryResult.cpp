@@ -1189,6 +1189,14 @@ id
 FROM
 moz_places
 WHERE
+url_hash
+=
+hash
+(
+:
+page_url
+)
+AND
 url
 =
 :

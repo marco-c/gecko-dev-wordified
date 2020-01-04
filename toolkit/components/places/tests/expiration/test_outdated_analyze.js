@@ -374,7 +374,7 @@ WHERE
 idx
 =
 '
-moz_places_url_uniqueindex
+moz_places_url_hashindex
 '
 )
 "
