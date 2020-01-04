@@ -1496,6 +1496,13 @@ Services
 .
 cookies
 .
+QueryInterface
+(
+Ci
+.
+nsICookieService
+)
+.
 ACCEPT_SESSION
 ;
 let
