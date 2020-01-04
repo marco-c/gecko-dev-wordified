@@ -1696,7 +1696,7 @@ command
 '
 :
 [
-basestring
+taskref_or_string
 ]
         
 #
@@ -1817,6 +1817,32 @@ time
 '
 :
 int
+        
+#
+os
+user
+groups
+for
+test
+task
+workers
+        
+Optional
+(
+'
+os
+-
+groups
+'
+default
+=
+[
+]
+)
+:
+[
+basestring
+]
     
 }
 {
@@ -3440,11 +3466,15 @@ env
 '
 :
 worker
-[
+.
+get
+(
 '
 env
 '
-]
+{
+}
+)
         
 '
 maxRunTime
@@ -3460,6 +3490,23 @@ run
 time
 '
 ]
+        
+'
+osGroups
+'
+:
+worker
+.
+get
+(
+'
+os
+-
+groups
+'
+[
+]
+)
     
 }
     
