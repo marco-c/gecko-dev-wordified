@@ -9162,11 +9162,8 @@ CancelAnimations
 ExcludeOverscroll
 )
 ;
-/
-/
-Fall
-through
-.
+MOZ_FALLTHROUGH
+;
 case
 NOTHING
 :
@@ -9809,11 +9806,8 @@ OnTouchEnd
 "
 )
 ;
-/
-/
-Fall
-through
-.
+MOZ_FALLTHROUGH
+;
 case
 ANIMATING_ZOOM
 :

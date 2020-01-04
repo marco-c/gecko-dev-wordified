@@ -6152,9 +6152,8 @@ RemovePrefForDriverVersion
 )
 ;
 }
-/
-/
-FALLTHROUGH
+MOZ_FALLTHROUGH
+;
 case
 nsIGfxInfo
 :

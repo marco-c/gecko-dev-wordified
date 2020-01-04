@@ -2102,6 +2102,8 @@ CancelMaxTapTimeoutTask
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 GESTURE_FIRST_SINGLE_TOUCH_MAX_TAP_DOWN
 :
