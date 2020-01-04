@@ -117,6 +117,16 @@ nsSVGFilterPaintCallback
 {
 public
 :
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 /
 *
 *
@@ -227,7 +237,7 @@ glyph
 *
 /
 virtual
-void
+DrawResult
 Paint
 (
 gfxContext
