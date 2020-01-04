@@ -141,15 +141,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -1245,7 +1236,7 @@ thread
 .
 nsTArray
 <
-UniquePtr
+RefPtr
 <
 CancelableBlockState
 >
