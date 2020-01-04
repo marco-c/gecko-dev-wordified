@@ -5203,12 +5203,6 @@ aResult
 error
 )
 ;
-error
-.
-WouldReportJSException
-(
-)
-;
 if
 (
 !
@@ -5300,12 +5294,6 @@ mMimeType
 aResultLength
 aResult
 error
-)
-;
-error
-.
-WouldReportJSException
-(
 )
 ;
 if

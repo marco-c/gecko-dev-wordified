@@ -1686,12 +1686,6 @@ options
 rv
 )
 ;
-rv
-.
-WouldReportJSException
-(
-)
-;
 if
 (
 rv
