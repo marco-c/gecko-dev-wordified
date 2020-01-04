@@ -259,7 +259,6 @@ enum
 SharedMemoryType
 {
 TYPE_BASIC
-TYPE_SYSV
 TYPE_UNKNOWN
 }
 ;
