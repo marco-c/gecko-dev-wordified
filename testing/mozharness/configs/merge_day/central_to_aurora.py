@@ -981,15 +981,6 @@ channel
 MetroFirefox
 aurora
 channel
-        
-106
-#
-Fennec
-api
--
-9
-aurora
-channel
     
 ]
     
