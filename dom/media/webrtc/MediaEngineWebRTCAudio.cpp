@@ -1126,6 +1126,10 @@ mChannel
 -
 1
 )
+mTrackID
+(
+TRACK_NONE
+)
 mStarted
 (
 false
