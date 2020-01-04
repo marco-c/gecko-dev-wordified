@@ -2695,6 +2695,11 @@ gBrowser
 removeTab
 (
 newTab
+{
+skipPermitUnload
+:
+true
+}
 )
 ;
 }
