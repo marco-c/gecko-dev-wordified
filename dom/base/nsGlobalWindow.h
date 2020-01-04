@@ -6804,6 +6804,11 @@ ErrorResult
 aError
 )
 ;
+bool
+HasActiveSpeechSynthesis
+(
+)
+;
 #
 endif
 already_AddRefed
