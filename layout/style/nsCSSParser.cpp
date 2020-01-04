@@ -14376,8 +14376,6 @@ aToken1
 =
 =
 eCSSTokenSerialization_Other
-|
-|
 "
 unexpected
 nsCSSTokenSerializationType
