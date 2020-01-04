@@ -512,6 +512,15 @@ public
 MediaChannelStatistics
 (
 )
+:
+mAccumulatedBytes
+(
+0
+)
+mIsStarted
+(
+false
+)
 {
 Reset
 (

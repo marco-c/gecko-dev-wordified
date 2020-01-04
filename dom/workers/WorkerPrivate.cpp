@@ -18722,6 +18722,10 @@ mWorkerScriptExecutedSuccessfully
 (
 false
 )
+mOnLine
+(
+false
+)
 {
 MOZ_ASSERT_IF
 (
