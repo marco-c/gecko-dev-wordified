@@ -139,14 +139,6 @@ aInputTrackID
 MediaStreamTrackSource
 *
 aSource
-const
-MediaTrackConstraints
-&
-aConstraints
-=
-MediaTrackConstraints
-(
-)
 )
 :
 MediaStreamTrack
@@ -155,7 +147,6 @@ aStream
 aTrackID
 aInputTrackID
 aSource
-aConstraints
 )
 {
 }
@@ -250,7 +241,6 @@ aOwningStream
 aTrackID
 mInputTrackID
 mSource
-mConstraints
 )
 )
 ;

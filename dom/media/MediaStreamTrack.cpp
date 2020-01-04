@@ -627,10 +627,6 @@ aInputTrackID
 MediaStreamTrackSource
 *
 aSource
-const
-MediaTrackConstraints
-&
-aConstraints
 )
 :
 mOwningStream
@@ -677,10 +673,6 @@ aSource
 IsRemote
 (
 )
-)
-mConstraints
-(
-aConstraints
 )
 {
 if
