@@ -721,7 +721,6 @@ browser
 isRemoteBrowser
 )
 return
-browser
 ;
 /
 /

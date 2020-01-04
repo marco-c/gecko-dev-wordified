@@ -612,7 +612,6 @@ cleanup
 )
 ;
 }
-;
 function
 *
 testSetAutomatic

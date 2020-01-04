@@ -863,7 +863,6 @@ observer
 )
 ;
 }
-;
 add_task
 (
 function
@@ -1963,6 +1962,9 @@ type
 history
 "
 }
+;
+return
+undefined
 ;
 }
 )

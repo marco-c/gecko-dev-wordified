@@ -122,6 +122,7 @@ video
 run
 :
 function
+*
 checkAudioVideo
 (
 )
@@ -335,6 +336,7 @@ only
 run
 :
 function
+*
 checkAudioOnly
 (
 )
@@ -541,6 +543,7 @@ only
 run
 :
 function
+*
 checkVideoOnly
 (
 )
@@ -760,6 +763,7 @@ Share
 run
 :
 function
+*
 checkDontShare
 (
 )
@@ -865,6 +869,7 @@ sharing
 run
 :
 function
+*
 checkStopSharing
 (
 )
@@ -1049,6 +1054,7 @@ UI
 run
 :
 function
+*
 checkReloading
 (
 )
@@ -1303,6 +1309,7 @@ Share
 run
 :
 function
+*
 checkRememberCheckbox
 (
 )
@@ -1321,6 +1328,7 @@ id
 )
 ;
 function
+*
 checkPerm
 (
 aRequestAudio
@@ -1948,11 +1956,13 @@ permissions
 run
 :
 function
+*
 checkUsePersistentPermissions
 (
 )
 {
 function
+*
 usePerm
 (
 aAllowAudio
@@ -2902,11 +2912,13 @@ permissions
 run
 :
 function
+*
 checkStopSharingRemovesPersistentPermissions
 (
 )
 {
 function
+*
 stopAndCheckPerm
 (
 aRequestAudio
@@ -3270,6 +3282,7 @@ showControlCenter
 run
 :
 function
+*
 checkShowControlCenter
 (
 )
@@ -3567,6 +3580,7 @@ pages
 run
 :
 function
+*
 checkNoAlwaysOnHttp
 (
 )
@@ -4000,6 +4014,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

@@ -192,7 +192,6 @@ window2
 ]
 ;
 }
-;
 EventStore
 .
 prototype
@@ -475,8 +474,6 @@ dontCheckExtraFocus
 )
 ;
 }
-else
-{
 var
 focusedWindow
 =
@@ -517,7 +514,6 @@ none
 "
 )
 ;
-}
 }
 function
 focusInChild

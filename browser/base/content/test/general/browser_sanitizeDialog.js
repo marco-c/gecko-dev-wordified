@@ -2690,7 +2690,6 @@ enabled
 "
 )
 ;
-var
 cb
 =
 this

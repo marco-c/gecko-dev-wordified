@@ -1046,7 +1046,6 @@ pinningRemovalLoaded
 )
 ;
 }
-;
 /
 /
 After
@@ -1119,7 +1118,6 @@ badPinningPageLoaded
 )
 ;
 }
-;
 /
 /
 Finally
@@ -1184,4 +1182,3 @@ finish
 )
 ;
 }
-;

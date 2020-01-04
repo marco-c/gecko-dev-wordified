@@ -931,10 +931,9 @@ block
 "
 )
 {
-return
-Promise
-.
-reject
+throw
+new
+Error
 (
 Submission
 UI
@@ -1013,10 +1012,9 @@ optIn
 checked
 )
 {
-return
-Promise
-.
-reject
+throw
+new
+Error
 (
 "
 URL

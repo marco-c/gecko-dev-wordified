@@ -230,6 +230,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -650,7 +651,6 @@ tab
 linkedBrowser
 .
 contentDocument
-;
 ;
 let
 list

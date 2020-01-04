@@ -1305,7 +1305,6 @@ be
 active
 )
 ;
-;
 }
 else
 {

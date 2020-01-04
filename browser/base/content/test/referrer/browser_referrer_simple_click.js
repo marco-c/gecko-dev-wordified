@@ -79,7 +79,6 @@ testlink
 )
 ;
 }
-;
 function
 test
 (

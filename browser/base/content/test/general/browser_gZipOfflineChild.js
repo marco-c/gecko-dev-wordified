@@ -358,7 +358,6 @@ catch
 e
 )
 {
-var
 bodyInnerHTML
 =
 "

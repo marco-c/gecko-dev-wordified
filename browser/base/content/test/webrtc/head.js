@@ -471,6 +471,7 @@ xul
 ;
 }
 function
+*
 assertWebRTCIndicatorStatus
 (
 expected
@@ -3104,7 +3105,6 @@ class
 ;
 }
 else
-{
 if
 (
 !
@@ -3210,7 +3210,6 @@ icon
 "
 )
 ;
-}
 }
 }
 gIdentityHandler

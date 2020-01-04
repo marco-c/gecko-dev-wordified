@@ -190,6 +190,7 @@ resolve
 ;
 }
 function
+*
 testURL
 (
 url

@@ -1098,7 +1098,7 @@ searchDiscovery
 (
 )
 {
-var
+let
 head
 =
 doc
@@ -1124,7 +1124,7 @@ setHandlerFunc
 runSearchDiscoveryTest
 )
 ;
-var
+let
 test
 =
 searchDiscoveryTests
@@ -1132,7 +1132,7 @@ searchDiscoveryTests
 0
 ]
 ;
-var
+let
 link
 =
 doc
@@ -1146,7 +1146,7 @@ link
 "
 )
 ;
-var
+let
 rel
 =
 test
@@ -1158,7 +1158,7 @@ rel
 search
 "
 ;
-var
+let
 href
 =
 test
@@ -1186,7 +1186,7 @@ search
 xml
 "
 ;
-var
+let
 type
 =
 test
@@ -1202,7 +1202,7 @@ opensearchdescription
 xml
 "
 ;
-var
+let
 title
 =
 test
@@ -1282,7 +1282,7 @@ with
 the
 same
 title
-var
+let
 link
 =
 doc
@@ -1345,7 +1345,7 @@ Test
 Engine
 "
 ;
-var
+let
 link2
 =
 link

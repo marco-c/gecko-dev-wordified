@@ -379,6 +379,7 @@ date
 ;
 }
 function
+*
 setupPingArchive
 (
 )
@@ -751,6 +752,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

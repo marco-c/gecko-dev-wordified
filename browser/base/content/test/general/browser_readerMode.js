@@ -1246,7 +1246,6 @@ triggerFn
 )
 ;
 }
-;
 let
 command
 =

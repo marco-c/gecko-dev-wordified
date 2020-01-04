@@ -525,6 +525,7 @@ in
 history
 .
 function
+*
 finishCleanUp
 (
 )
@@ -589,7 +590,6 @@ what
 ;
 }
 }
-;
 }
 for
 (

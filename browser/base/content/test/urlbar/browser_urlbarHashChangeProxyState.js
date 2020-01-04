@@ -100,6 +100,7 @@ gBrowser
 url
 }
 function
+*
 (
 browser
 )
