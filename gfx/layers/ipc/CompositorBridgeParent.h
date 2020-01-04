@@ -1513,6 +1513,8 @@ bool
 aIsRepeatTransaction
 int32_t
 aPaintSyncId
+bool
+aHitTestUpdate
 )
 override
 ;
@@ -2066,6 +2068,8 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+bool
+aHitTestUpdate
 )
 ;
 /
