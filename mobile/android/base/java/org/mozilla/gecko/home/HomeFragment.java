@@ -157,15 +157,6 @@ mozilla
 .
 gecko
 .
-IntentHelper
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
@@ -1510,7 +1501,7 @@ false
 }
 else
 {
-IntentHelper
+GeckoAppShell
 .
 openUriExternal
 (
