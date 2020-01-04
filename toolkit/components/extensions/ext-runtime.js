@@ -43,6 +43,7 @@ ExtensionUtils
 function
 processRuntimeConnectParams
 (
+win
 .
 .
 .
@@ -181,6 +182,8 @@ length
 )
 {
 throw
+win
+.
 Error
 (
 "
@@ -309,6 +312,9 @@ connectInfo
 =
 processRuntimeConnectParams
 (
+context
+.
+contentWindow
 .
 .
 .
