@@ -19573,3 +19573,17 @@ true
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+esedbreader
+.
+loglevel
+"
+"
+Error
+"
+)
+;
