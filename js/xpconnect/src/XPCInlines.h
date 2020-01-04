@@ -1727,7 +1727,10 @@ XPCNativeSet
 :
 FindMember
 (
-jsid
+JS
+:
+:
+HandleId
 name
 XPCNativeMember
 *
