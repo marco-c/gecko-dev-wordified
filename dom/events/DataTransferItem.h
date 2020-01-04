@@ -148,6 +148,9 @@ namespace
 dom
 {
 class
+Entry
+;
+class
 FunctionStringCallback
 ;
 class
@@ -432,6 +435,17 @@ already_AddRefed
 File
 >
 GetAsFile
+(
+ErrorResult
+&
+aRv
+)
+;
+already_AddRefed
+<
+Entry
+>
+GetAsEntry
 (
 ErrorResult
 &
