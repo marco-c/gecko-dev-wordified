@@ -108,7 +108,7 @@ h
 #
 include
 "
-nsIFile
+nsLocalFile
 .
 h
 "
@@ -186,13 +186,6 @@ h
 include
 "
 nsIProcess
-.
-h
-"
-#
-include
-"
-nsOSHelperAppService
 .
 h
 "
@@ -1934,7 +1927,7 @@ misc
 if
 (
 !
-nsOSHelperAppService
+nsLocalFile
 :
 :
 CleanupCmdHandlerPath
@@ -2785,7 +2778,7 @@ misc
 if
 (
 !
-nsOSHelperAppService
+nsLocalFile
 :
 :
 CleanupCmdHandlerPath
