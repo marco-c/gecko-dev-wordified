@@ -1015,6 +1015,12 @@ GetAnonymousNodeList
 (
 )
 ;
+nsIURI
+*
+GetSourceDocURI
+(
+)
+;
 /
 /
 MEMBER
