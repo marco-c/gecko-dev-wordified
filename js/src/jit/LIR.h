@@ -1127,9 +1127,7 @@ return
 bits_
 ;
 }
-const
-char
-*
+UniqueChars
 toString
 (
 )
@@ -3504,9 +3502,7 @@ type
 ;
 }
 }
-const
-char
-*
+UniqueChars
 toString
 (
 )
