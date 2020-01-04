@@ -1160,6 +1160,12 @@ e10s
 "
          
 "
+default
+"
+:
+False
+         
+"
 help
 "
 :
@@ -3916,16 +3922,15 @@ app_arg
 ]
             
 if
+not
 self
 .
 config
-.
-get
-(
+[
 '
 e10s
 '
-)
+]
 :
                 
 cmd
@@ -3934,6 +3939,8 @@ append
 (
 '
 -
+-
+disable
 -
 e10s
 '

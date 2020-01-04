@@ -1770,6 +1770,7 @@ tests
 )
         
 if
+not
 self
 .
 e10s
@@ -1781,6 +1782,8 @@ append
 (
 '
 -
+-
+disable
 -
 e10s
 '

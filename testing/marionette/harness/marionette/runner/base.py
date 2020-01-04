@@ -3514,23 +3514,31 @@ add_argument
 '
 -
 -
+disable
+-
 e10s
 '
                         
 action
 =
 '
-store_true
+store_false
+'
+                        
+dest
+=
+'
+e10s
 '
                         
 default
 =
-False
+True
                         
 help
 =
 '
-Enable
+Disable
 e10s
 when
 running
@@ -4512,6 +4520,9 @@ None
 verbose
 =
 0
+e10s
+=
+True
 *
 *
 kwargs
@@ -4849,6 +4860,12 @@ self
 verbose
 =
 verbose
+        
+self
+.
+e10s
+=
+e10s
         
 def
 gather_debug
@@ -7070,6 +7087,29 @@ invalid_tests
 )
 )
         
+self
+.
+logger
+.
+info
+(
+"
+running
+with
+e10s
+:
+{
+}
+"
+.
+format
+(
+self
+.
+e10s
+)
+)
+        
 version_info
 =
 mozversion
@@ -7722,6 +7762,37 @@ self
 .
 logger
 .
+info
+(
+'
+mode
+:
+{
+}
+'
+.
+format
+(
+'
+e10s
+'
+if
+self
+.
+e10s
+else
+'
+non
+-
+e10s
+'
+)
+)
+        
+self
+.
+logger
+.
 suite_end
 (
 )
@@ -8162,20 +8233,6 @@ test_tags
 )
 )
             
-e10s
-=
-self
-.
-appinfo
-.
-get
-(
-'
-browserTabsRemoteAutostart
-'
-False
-)
-            
 json_path
 =
 update_mozinfo
@@ -8238,6 +8295,8 @@ appName
                                                    
 e10s
 =
+self
+.
 e10s
                                                    
 *
