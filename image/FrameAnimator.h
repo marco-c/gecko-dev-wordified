@@ -503,7 +503,9 @@ mLoopCount
 /
 *
 *
-Set
+Get
+or
+set
 the
 timeout
 for
@@ -541,6 +543,16 @@ aTimeout
 mFirstFrameTimeout
 =
 aTimeout
+;
+}
+FrameTimeout
+FirstFrameTimeout
+(
+)
+const
+{
+return
+mFirstFrameTimeout
 ;
 }
 private
