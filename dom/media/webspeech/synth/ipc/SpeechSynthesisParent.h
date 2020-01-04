@@ -122,7 +122,6 @@ SpeechSynthesisRequestParent
 ;
 public
 :
-virtual
 void
 ActorDestroy
 (
@@ -269,7 +268,6 @@ mTask
 ;
 protected
 :
-virtual
 void
 ActorDestroy
 (
@@ -278,35 +276,30 @@ aWhy
 )
 override
 ;
-virtual
 bool
 RecvPause
 (
 )
 override
 ;
-virtual
 bool
 RecvResume
 (
 )
 override
 ;
-virtual
 bool
 RecvCancel
 (
 )
 override
 ;
-virtual
 bool
 RecvForceEnd
 (
 )
 override
 ;
-virtual
 bool
 RecvSetAudioOutputVolume
 (
@@ -317,7 +310,6 @@ aVolume
 )
 override
 ;
-virtual
 bool
 Recv__delete__
 (
@@ -355,7 +347,6 @@ aUtterance
 )
 {
 }
-virtual
 nsresult
 DispatchStartImpl
 (
@@ -365,7 +356,6 @@ nsAString
 aUri
 )
 ;
-virtual
 nsresult
 DispatchEndImpl
 (
@@ -375,7 +365,6 @@ uint32_t
 aCharIndex
 )
 ;
-virtual
 nsresult
 DispatchPauseImpl
 (
@@ -385,7 +374,6 @@ uint32_t
 aCharIndex
 )
 ;
-virtual
 nsresult
 DispatchResumeImpl
 (
@@ -395,7 +383,6 @@ uint32_t
 aCharIndex
 )
 ;
-virtual
 nsresult
 DispatchErrorImpl
 (
@@ -405,7 +392,6 @@ uint32_t
 aCharIndex
 )
 ;
-virtual
 nsresult
 DispatchBoundaryImpl
 (
@@ -419,7 +405,6 @@ uint32_t
 aCharIndex
 )
 ;
-virtual
 nsresult
 DispatchMarkImpl
 (
