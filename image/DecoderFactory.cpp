@@ -1483,6 +1483,17 @@ settings
 from
 aICODecoder
 .
+MOZ_ASSERT
+(
+!
+aICODecoder
+-
+>
+IsMetadataDecode
+(
+)
+)
+;
 decoder
 -
 >
