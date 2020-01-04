@@ -258,6 +258,12 @@ uint64_t
 aLayerObserverEpoch
 )
 ;
+static
+void
+ClearForcePaint
+(
+)
+;
 enum
 SlowScriptAction
 {
