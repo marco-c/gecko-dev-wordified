@@ -4779,8 +4779,16 @@ GetEnumValue
 /
 anonymous
 namespace
+/
+*
+static
+*
+/
 nsresult
-GetSubmissionFromForm
+HTMLFormSubmission
+:
+:
+GetFromForm
 (
 nsGenericHTMLElement
 *

@@ -3870,7 +3870,10 @@ object
 /
 rv
 =
-GetSubmissionFromForm
+HTMLFormSubmission
+:
+:
+GetFromForm
 (
 this
 originatingElement
