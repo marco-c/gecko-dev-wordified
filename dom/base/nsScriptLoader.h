@@ -2709,6 +2709,11 @@ CompileOptions
 aOptions
 )
 ;
+uint32_t
+NumberOfProcessors
+(
+)
+;
 nsresult
 PrepareLoadedRequest
 (
@@ -2925,6 +2930,9 @@ mPendingChildLoaders
 ;
 uint32_t
 mBlockerCount
+;
+uint32_t
+mNumberOfProcessors
 ;
 bool
 mEnabled
