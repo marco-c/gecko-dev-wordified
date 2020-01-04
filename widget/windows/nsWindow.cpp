@@ -29401,7 +29401,7 @@ result
 =
 ConvertStatus
 (
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 event
