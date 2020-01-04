@@ -1163,9 +1163,7 @@ hiding
 windowed
 plugins
 during
-non
--
-apz
+async
 scroll
 operations
 .
