@@ -174,6 +174,14 @@ gtk
 h
 >
 #
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
+#
 ifdef
 __cplusplus
 extern
@@ -188,6 +196,8 @@ endif
 __cplusplus
 *
 /
+#
+endif
 /
 *
 *
@@ -2884,6 +2894,14 @@ void
 )
 ;
 #
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
+#
 ifdef
 __cplusplus
 }
@@ -2894,5 +2912,7 @@ endif
 __cplusplus
 *
 /
+#
+endif
 #
 endif
