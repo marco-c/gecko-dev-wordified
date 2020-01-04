@@ -3174,7 +3174,7 @@ aIPCDoc
 }
 friend
 class
-DocAccessibleChildBase
+DocAccessibleChild
 ;
 /
 *
