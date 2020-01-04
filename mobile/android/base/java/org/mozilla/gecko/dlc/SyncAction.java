@@ -120,6 +120,15 @@ util
 Log
 ;
 import
+com
+.
+keepsafe
+.
+switchboard
+.
+SwitchBoard
+;
+import
 org
 .
 json
@@ -1654,9 +1663,9 @@ staged
 rollout
 .
 return
-Experiments
+SwitchBoard
 .
-isInExperimentLocal
+isInExperiment
 (
 context
 Experiments
