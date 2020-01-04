@@ -504,6 +504,11 @@ ShrinkToMinimumSize
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 protected
 :
 virtual
@@ -643,6 +648,9 @@ mPooledClients
 ;
 Mutex
 mLock
+;
+bool
+mIsDestroyed
 ;
 }
 ;
