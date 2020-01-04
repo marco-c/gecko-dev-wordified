@@ -315,7 +315,7 @@ methods
 )
 )
     
-code
+code_raw
 =
 request
 .
@@ -328,6 +328,24 @@ code
 '
 None
 )
+    
+if
+code_raw
+:
+        
+code
+=
+int
+(
+code_raw
+)
+    
+else
+:
+        
+code
+=
+None
     
 if
 request
