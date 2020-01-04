@@ -77,7 +77,7 @@ update
 to
 "
 +
-FILE_UPDATES_DB
+FILE_UPDATES_XML
 +
 "
 and
