@@ -1565,6 +1565,7 @@ JS_DEBUG
 /
 *
 *
+*
 For
 generational
 GC
@@ -1649,6 +1650,7 @@ cell
 #
 endif
 /
+*
 *
 *
 The
@@ -2208,6 +2210,7 @@ ptr
 }
 ;
 /
+*
 *
 *
 The
@@ -2961,6 +2964,7 @@ bits
 /
 *
 *
+*
 Reference
 to
 a
@@ -3612,6 +3616,7 @@ ptr
 /
 *
 *
+*
 Similar
 to
 a
@@ -3870,6 +3875,7 @@ namespace
 js
 {
 /
+*
 *
 *
 By
@@ -4700,6 +4706,7 @@ JS
 /
 *
 *
+*
 Local
 variable
 of
@@ -5316,6 +5323,7 @@ js
 /
 *
 *
+*
 Augment
 the
 generic
@@ -5443,6 +5451,7 @@ const
 /
 *
 *
+*
 Augment
 the
 generic
@@ -5564,6 +5573,7 @@ const
 }
 ;
 /
+*
 *
 Interface
 substitute
@@ -5706,6 +5716,7 @@ delete
 ;
 /
 *
+*
 Interface
 substitute
 for
@@ -5828,6 +5839,7 @@ ptr
 }
 ;
 /
+*
 *
 *
 Types
@@ -6492,6 +6504,7 @@ address
 ;
 }
 /
+*
 *
 *
 A

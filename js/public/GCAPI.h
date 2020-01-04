@@ -177,6 +177,7 @@ JSGCMode
 {
 /
 *
+*
 Perform
 only
 global
@@ -188,6 +189,7 @@ JSGC_MODE_GLOBAL
 =
 0
 /
+*
 *
 Perform
 per
@@ -207,6 +209,7 @@ JSGC_MODE_COMPARTMENT
 =
 1
 /
+*
 *
 *
 Collect
@@ -233,6 +236,7 @@ JSGC_MODE_INCREMENTAL
 JSGCMode
 ;
 /
+*
 *
 *
 Kinds
@@ -825,6 +829,7 @@ error
 /
 *
 *
+*
 Schedule
 the
 given
@@ -856,6 +861,7 @@ zone
 /
 *
 *
+*
 Schedule
 all
 zones
@@ -882,6 +888,7 @@ rt
 )
 ;
 /
+*
 *
 *
 When
@@ -934,6 +941,7 @@ rt
 /
 *
 *
+*
 Returns
 true
 if
@@ -975,6 +983,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Undoes
@@ -1036,6 +1045,7 @@ GC
 *
 /
 /
+*
 *
 *
 Performs
@@ -1284,6 +1294,7 @@ memory
 /
 *
 *
+*
 Begin
 an
 incremental
@@ -1378,6 +1389,7 @@ millis
 /
 *
 *
+*
 Perform
 a
 slice
@@ -1464,6 +1476,7 @@ millis
 /
 *
 *
+*
 If
 IsIncrementalGCInProgress
 (
@@ -1530,6 +1543,7 @@ reason
 )
 ;
 /
+*
 *
 *
 If
@@ -2099,6 +2113,7 @@ desc
 /
 *
 *
+*
 The
 GC
 slice
@@ -2149,6 +2164,7 @@ callback
 )
 ;
 /
+*
 *
 *
 Incremental
@@ -2215,6 +2231,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Returns
@@ -2306,6 +2323,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Returns
@@ -2481,6 +2499,7 @@ obj
 /
 *
 *
+*
 Returns
 true
 if
@@ -2548,6 +2567,7 @@ gcgenerational
 /
 /
 *
+*
 Ensure
 that
 generational
@@ -2596,6 +2616,7 @@ AutoDisableGenerationalGC
 /
 *
 *
+*
 Returns
 true
 if
@@ -2627,6 +2648,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Returns
@@ -2677,6 +2699,7 @@ GetGCNumber
 )
 ;
 /
+*
 *
 *
 The
@@ -2731,6 +2754,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Assert
@@ -2849,6 +2873,7 @@ endif
 /
 *
 *
+*
 Assert
 if
 an
@@ -2962,6 +2987,7 @@ endif
 }
 ;
 /
+*
 *
 *
 Disable
@@ -3143,6 +3169,7 @@ rt
 /
 *
 *
+*
 Assert
 that
 code
@@ -3224,6 +3251,7 @@ obj
 }
 ;
 /
+*
 *
 *
 Place
@@ -3365,6 +3393,7 @@ rt
 }
 ;
 /
+*
 *
 *
 Unsets

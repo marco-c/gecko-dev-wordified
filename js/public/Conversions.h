@@ -581,6 +581,7 @@ JS_DEBUG
 /
 *
 *
+*
 Assert
 that
 we
@@ -667,6 +668,7 @@ JS_DEBUG
 namespace
 detail
 /
+*
 *
 *
 ES6

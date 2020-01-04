@@ -476,6 +476,7 @@ JS_DEBUG
 /
 /
 *
+*
 AutoValueArray
 roots
 an
@@ -2593,6 +2594,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 *
 *
+*
 Custom
 rooting
 behavior
@@ -2655,6 +2657,7 @@ protected
 :
 /
 *
+*
 Supplied
 by
 derived
@@ -2682,6 +2685,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
+*
 *
 A
 handle
@@ -2812,6 +2816,7 @@ begin
 }
 /
 *
+*
 CallArgs
 must
 already
@@ -2855,6 +2860,7 @@ array
 {
 }
 /
+*
 *
 Use
 with
@@ -3221,6 +3227,7 @@ JSContextOp
 /
 *
 *
+*
 The
 possible
 values
@@ -3379,6 +3386,7 @@ JSFinalizeStatus
 /
 *
 *
+*
 Called
 when
 preparing
@@ -3416,6 +3424,7 @@ status
 /
 JSFINALIZE_GROUP_START
 /
+*
 *
 *
 Called
@@ -3468,6 +3477,7 @@ point
 /
 JSFINALIZE_GROUP_END
 /
+*
 *
 *
 Called
@@ -3556,6 +3566,7 @@ report
 /
 *
 *
+*
 Possible
 exception
 types
@@ -3618,6 +3629,7 @@ JSErrorFormatString
 {
 /
 *
+*
 The
 error
 format
@@ -3633,6 +3645,7 @@ char
 format
 ;
 /
+*
 *
 The
 number
@@ -3652,6 +3665,7 @@ uint16_t
 argCount
 ;
 /
+*
 *
 One
 of
@@ -3780,6 +3794,7 @@ rval
 /
 *
 *
+*
 Callback
 used
 to
@@ -3906,6 +3921,7 @@ obj
 )
 ;
 /
+*
 *
 *
 Callback
@@ -4335,7 +4351,9 @@ namespace
 JS
 {
 /
-/
+*
+*
+*
 Container
 class
 for
@@ -4350,8 +4368,7 @@ JS
 engine
 .
 This
-/
-/
+*
 not
 only
 groups
@@ -4366,8 +4383,7 @@ provides
 a
 way
 to
-/
-/
+*
 optionally
 pass
 ownership
@@ -4381,16 +4397,13 @@ engine
 without
 copying
 .
-/
-/
+*
 Rules
 for
 use
 :
-/
-/
-/
-/
+*
+*
 1
 )
 The
@@ -4408,8 +4421,7 @@ js_realloc
 (
 )
 if
-/
-/
+*
 ownership
 is
 being
@@ -4418,8 +4430,7 @@ to
 the
 SourceBufferHolder
 .
-/
-/
+*
 2
 )
 If
@@ -4433,8 +4444,7 @@ SourceBufferHolder
 then
 the
 memory
-/
-/
+*
 must
 be
 kept
@@ -4446,8 +4456,7 @@ compilation
 is
 complete
 .
-/
-/
+*
 3
 )
 Any
@@ -4464,8 +4473,7 @@ guarantee
 to
 keep
 the
-/
-/
+*
 memory
 alive
 until
@@ -4477,8 +4485,7 @@ Normally
 only
 the
 JS
-/
-/
+*
 engine
 should
 be
@@ -4487,24 +4494,19 @@ take
 (
 )
 .
-/
-/
-/
-/
+*
+*
 Example
 use
 :
-/
-/
-/
-/
+*
+*
 size_t
 length
 =
 512
 ;
-/
-/
+*
 char16_t
 *
 chars
@@ -4526,8 +4528,7 @@ length
 )
 )
 ;
-/
-/
+*
 JS
 :
 :
@@ -4545,8 +4546,7 @@ SourceBufferHolder
 GiveOwnership
 )
 ;
-/
-/
+*
 JS
 :
 :
@@ -4557,7 +4557,7 @@ options
 srcBuf
 )
 ;
-/
+*
 /
 class
 MOZ_STACK_CLASS
@@ -5718,6 +5718,7 @@ script
 /
 *
 *
+*
 The
 first
 call
@@ -5786,6 +5787,7 @@ func
 ;
 /
 *
+*
 Microseconds
 since
 the
@@ -5809,6 +5811,7 @@ void
 )
 ;
 /
+*
 *
 Don
 '
@@ -6133,6 +6136,7 @@ same
 ;
 /
 *
+*
 True
 iff
 fun
@@ -6157,6 +6161,7 @@ fun
 )
 ;
 /
+*
 *
 True
 iff
@@ -6751,7 +6756,9 @@ p
 )
 ;
 /
-/
+*
+*
+*
 This
 function
 can
@@ -6764,8 +6771,7 @@ used
 by
 ICU
 .
-/
-/
+*
 Do
 not
 use
@@ -6778,6 +6784,8 @@ you
 are
 doing
 !
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -6803,6 +6811,7 @@ JS_CurrentEmbedderTimeFunction
 )
 ;
 /
+*
 *
 *
 The
@@ -6881,6 +6890,7 @@ timeFn
 )
 ;
 /
+*
 *
 *
 Return
@@ -7252,7 +7262,9 @@ cx
 )
 ;
 /
-/
+*
+*
+*
 Mutate
 the
 version
@@ -7265,8 +7277,7 @@ is
 generally
 discouraged
 but
-/
-/
+*
 necessary
 to
 support
@@ -7280,14 +7291,11 @@ and
 xpc
 shell
 command
-/
-/
+*
 set
 .
-/
-/
-/
-/
+*
+*
 It
 would
 be
@@ -7301,8 +7309,7 @@ but
 the
 linkage
 requirements
-/
-/
+*
 of
 the
 shells
@@ -7310,6 +7317,8 @@ make
 that
 impossible
 .
+*
+/
 JS_PUBLIC_API
 (
 void
@@ -8847,6 +8856,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 /
 *
+*
 NB
 :
 This
@@ -8917,6 +8927,7 @@ compartment
 /
 *
 *
+*
 This
 function
 calls
@@ -8973,6 +8984,7 @@ compartmentCallback
 )
 ;
 /
+*
 *
 *
 Initialize
@@ -9048,6 +9060,7 @@ obj
 )
 ;
 /
+*
 *
 *
 Resolve
@@ -9432,6 +9445,7 @@ id
 /
 *
 *
+*
 Returns
 the
 original
@@ -9476,6 +9490,7 @@ forObj
 )
 ;
 /
+*
 *
 *
 Returns
@@ -9524,6 +9539,7 @@ forObj
 /
 *
 *
+*
 Returns
 the
 original
@@ -9568,6 +9584,7 @@ forObj
 )
 ;
 /
+*
 *
 *
 Returns
@@ -9676,6 +9693,7 @@ obj
 /
 *
 *
+*
 May
 return
 nullptr
@@ -9751,6 +9769,7 @@ JS
 /
 *
 *
+*
 Add
 '
 Reflect
@@ -9790,6 +9809,7 @@ global
 )
 ;
 /
+*
 *
 *
 Add
@@ -9868,6 +9888,7 @@ JS_HAS_CTYPES
 /
 *
 *
+*
 Initialize
 the
 '
@@ -9912,6 +9933,7 @@ global
 )
 ;
 /
+*
 *
 *
 Convert
@@ -9976,6 +9998,7 @@ slen
 /
 *
 *
+*
 Set
 of
 function
@@ -10030,6 +10053,7 @@ JSCTypesCallbacks
 JSCTypesCallbacks
 ;
 /
+*
 *
 *
 Set
@@ -10142,6 +10166,7 @@ newBytes
 /
 *
 *
+*
 A
 wrapper
 for
@@ -10187,6 +10212,7 @@ p
 )
 ;
 /
+*
 *
 *
 A
@@ -10280,6 +10306,7 @@ s
 ;
 /
 *
+*
 Duplicate
 a
 string
@@ -10312,6 +10339,7 @@ s
 )
 ;
 /
+*
 *
 *
 Register
@@ -10379,6 +10407,7 @@ data
 )
 ;
 /
+*
 *
 Undo
 a
@@ -10785,6 +10814,7 @@ JSGCParamKey
 {
 /
 *
+*
 Maximum
 nominal
 heap
@@ -10799,6 +10829,7 @@ JSGC_MAX_BYTES
 =
 0
 /
+*
 *
 Number
 of
@@ -10816,6 +10847,7 @@ JSGC_MAX_MALLOC_BYTES
 1
 /
 *
+*
 Amount
 of
 bytes
@@ -10830,6 +10862,7 @@ JSGC_BYTES
 =
 3
 /
+*
 *
 Number
 of
@@ -10853,6 +10886,7 @@ JSGC_NUMBER
 4
 /
 *
+*
 Max
 size
 of
@@ -10869,6 +10903,7 @@ JSGC_MAX_CODE_CACHE_BYTES
 5
 /
 *
+*
 Select
 GC
 mode
@@ -10879,6 +10914,7 @@ JSGC_MODE
 =
 6
 /
+*
 *
 Number
 of
@@ -10894,6 +10930,7 @@ JSGC_UNUSED_CHUNKS
 7
 /
 *
+*
 Total
 number
 of
@@ -10907,6 +10944,7 @@ JSGC_TOTAL_CHUNKS
 =
 8
 /
+*
 *
 Max
 milliseconds
@@ -10925,6 +10963,7 @@ JSGC_SLICE_TIME_BUDGET
 9
 /
 *
+*
 Maximum
 size
 the
@@ -10941,6 +10980,7 @@ JSGC_MARK_STACK_LIMIT
 =
 10
 /
+*
 *
 *
 GCs
@@ -10976,6 +11016,7 @@ JSGC_HIGH_FREQUENCY_TIME_LIMIT
 11
 /
 *
+*
 Start
 of
 dynamic
@@ -10988,6 +11029,7 @@ JSGC_HIGH_FREQUENCY_LOW_LIMIT
 =
 12
 /
+*
 *
 End
 of
@@ -11002,6 +11044,7 @@ JSGC_HIGH_FREQUENCY_HIGH_LIMIT
 13
 /
 *
+*
 Upper
 bound
 of
@@ -11014,6 +11057,7 @@ JSGC_HIGH_FREQUENCY_HEAP_GROWTH_MAX
 =
 14
 /
+*
 *
 Lower
 bound
@@ -11028,6 +11072,7 @@ JSGC_HIGH_FREQUENCY_HEAP_GROWTH_MIN
 15
 /
 *
+*
 Heap
 growth
 for
@@ -11041,6 +11086,7 @@ JSGC_LOW_FREQUENCY_HEAP_GROWTH
 =
 16
 /
+*
 *
 *
 If
@@ -11079,6 +11125,7 @@ JSGC_DYNAMIC_HEAP_GROWTH
 17
 /
 *
+*
 If
 true
 high
@@ -11099,6 +11146,7 @@ JSGC_DYNAMIC_MARK_SLICE
 18
 /
 *
+*
 Lower
 limit
 after
@@ -11115,6 +11163,7 @@ JSGC_ALLOCATION_THRESHOLD
 =
 19
 /
+*
 *
 *
 We
@@ -11155,6 +11204,7 @@ JSGC_DECOMMIT_THRESHOLD
 /
 *
 *
+*
 We
 try
 to
@@ -11187,6 +11237,7 @@ JSGC_MIN_EMPTY_CHUNK_COUNT
 21
 /
 *
+*
 We
 never
 keep
@@ -11208,6 +11259,7 @@ JSGC_MAX_EMPTY_CHUNK_COUNT
 =
 22
 /
+*
 *
 Whether
 compacting
@@ -11300,6 +11352,7 @@ availMem
 /
 *
 *
+*
 Create
 a
 new
@@ -11351,6 +11404,7 @@ fin
 /
 *
 *
+*
 Return
 whether
 '
@@ -11381,6 +11435,7 @@ str
 /
 *
 *
+*
 Return
 the
 '
@@ -11408,6 +11463,7 @@ str
 )
 ;
 /
+*
 *
 *
 Set
@@ -12025,6 +12081,7 @@ JSJitInfo
 /
 *
 *
+*
 Wrapper
 to
 relace
@@ -12112,6 +12169,7 @@ nullptr
 }
 }
 /
+*
 *
 *
 Description
@@ -13023,6 +13081,7 @@ nullptr
 /
 *
 *
+*
 To
 define
 a
@@ -13509,6 +13568,7 @@ static_fs
 )
 ;
 /
+*
 *
 *
 Set
@@ -14545,7 +14605,9 @@ cx
 )
 ;
 /
-/
+*
+*
+*
 During
 global
 creation
@@ -14555,8 +14617,7 @@ notifications
 to
 callbacks
 registered
-/
-/
+*
 via
 the
 Debugger
@@ -14570,8 +14631,7 @@ script
 and
 can
 touch
-/
-/
+*
 the
 global
 in
@@ -14586,8 +14646,7 @@ global
 should
 not
 be
-/
-/
+*
 in
 a
 half
@@ -14604,8 +14663,7 @@ for
 consumers
 that
 need
-/
-/
+*
 to
 set
 slots
@@ -14620,10 +14678,8 @@ a
 consistent
 state
 .
-/
-/
-/
-/
+*
+*
 This
 API
 provides
@@ -14637,8 +14693,7 @@ slots
 atomically
 (
 immediately
-/
-/
+*
 after
 the
 global
@@ -14655,8 +14710,7 @@ fired
 It
 '
 s
-/
-/
+*
 unfortunately
 on
 the
@@ -14672,10 +14726,8 @@ the
 cookie
 crumbles
 .
-/
-/
-/
-/
+*
+*
 If
 callers
 have
@@ -14691,8 +14743,7 @@ up
 they
 may
 pass
-/
-/
+*
 |
 FireOnNewGlobalHook
 |
@@ -14703,8 +14754,7 @@ causes
 that
 function
 to
-/
-/
+*
 fire
 the
 hook
@@ -14718,8 +14768,7 @@ returning
 Otherwise
 callers
 should
-/
-/
+*
 pass
 |
 DontFireOnNewGlobalHook
@@ -14731,8 +14780,7 @@ they
 are
 responsible
 for
-/
-/
+*
 invoking
 JS_FireOnNewGlobalObject
 upon
@@ -14742,8 +14790,7 @@ the
 global
 .
 If
-/
-/
+*
 an
 error
 occurs
@@ -14756,8 +14803,7 @@ should
 skip
 firing
 the
-/
-/
+*
 hook
 .
 But
@@ -14772,8 +14818,7 @@ the
 hook
 exactly
 once
-/
-/
+*
 before
 compiling
 any
@@ -14789,8 +14834,7 @@ we
 have
 assertions
 in
-/
-/
+*
 place
 to
 enforce
@@ -14807,10 +14851,11 @@ debugger
 clients
 never
 miss
-/
-/
+*
 breakpoints
 .
+*
+/
 enum
 OnNewGlobalHookOption
 {
@@ -14865,6 +14910,7 @@ CompartmentOptions
 )
 ;
 /
+*
 *
 *
 Spidermonkey
@@ -15043,6 +15089,7 @@ obj
 /
 *
 *
+*
 Unlike
 JS_NewObject
 JS_NewObjectWithGivenProto
@@ -15100,7 +15147,8 @@ proto
 )
 ;
 /
-/
+*
+*
 Creates
 a
 new
@@ -15122,6 +15170,8 @@ Prototype
 ]
 ]
 .
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -15136,6 +15186,7 @@ cx
 )
 ;
 /
+*
 *
 *
 Freeze
@@ -15194,6 +15245,7 @@ obj
 )
 ;
 /
+*
 *
 *
 Freezes
@@ -22015,7 +22067,9 @@ length
 )
 ;
 /
-/
+*
+*
+*
 Returns
 true
 and
@@ -22032,8 +22086,7 @@ value
 is
 an
 Array
-/
-/
+*
 object
 or
 a
@@ -22046,10 +22099,8 @@ false
 on
 failure
 .
-/
-/
-/
-/
+*
+*
 This
 method
 returns
@@ -22067,8 +22118,7 @@ passed
 a
 proxy
 whose
-/
-/
+*
 target
 is
 an
@@ -22080,6 +22130,8 @@ a
 revoked
 proxy
 .
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -22101,7 +22153,9 @@ isArray
 )
 ;
 /
-/
+*
+*
+*
 Returns
 true
 and
@@ -22119,8 +22173,7 @@ is
 an
 Array
 object
-/
-/
+*
 or
 a
 wrapper
@@ -22132,10 +22185,8 @@ false
 on
 failure
 .
-/
-/
-/
-/
+*
+*
 This
 method
 returns
@@ -22153,8 +22204,7 @@ passed
 a
 proxy
 whose
-/
-/
+*
 target
 is
 an
@@ -22166,6 +22216,8 @@ a
 revoked
 proxy
 .
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -22236,6 +22288,7 @@ length
 /
 *
 *
+*
 Assign
 '
 undefined
@@ -22285,6 +22338,7 @@ objArg
 )
 ;
 /
+*
 *
 *
 Create
@@ -22345,6 +22399,7 @@ contents
 )
 ;
 /
+*
 *
 *
 Steal
@@ -22419,6 +22474,7 @@ obj
 /
 *
 *
+*
 Create
 a
 new
@@ -22482,6 +22538,7 @@ contents
 /
 *
 *
+*
 Create
 memory
 mapped
@@ -22521,6 +22578,7 @@ length
 )
 ;
 /
+*
 *
 *
 Release
@@ -22858,6 +22916,7 @@ fun
 /
 *
 *
+*
 Return
 the
 function
@@ -22938,6 +22997,7 @@ fun
 )
 ;
 /
+*
 *
 *
 Return
@@ -23059,6 +23119,7 @@ fun
 /
 *
 *
+*
 Infallible
 predicate
 to
@@ -23149,6 +23210,7 @@ call
 ;
 /
 *
+*
 Return
 whether
 the
@@ -23174,7 +23236,9 @@ fun
 )
 ;
 /
-/
+*
+*
+*
 This
 enum
 is
@@ -23186,8 +23250,7 @@ properties
 with
 JSPROP_DEFINE_LATE
 flag
-/
-/
+*
 should
 be
 defined
@@ -23195,8 +23258,7 @@ on
 the
 object
 .
-/
-/
+*
 Normal
 JSAPI
 consumers
@@ -23206,6 +23268,8 @@ want
 DefineAllProperties
 here
 .
+*
+/
 enum
 PropertyDefinitionBehavior
 {
@@ -23351,6 +23415,7 @@ JS
 /
 *
 *
+*
 Clone
 a
 top
@@ -23397,6 +23462,7 @@ funobj
 )
 ;
 /
+*
 *
 *
 As
@@ -23470,6 +23536,7 @@ scopeChain
 namespace
 JS
 /
+*
 *
 *
 Given
@@ -23557,6 +23624,7 @@ length
 /
 *
 *
+*
 |
 script
 |
@@ -23607,6 +23675,7 @@ script
 )
 ;
 /
+*
 *
 *
 |
@@ -24169,6 +24238,7 @@ it
 *
 /
 /
+*
 *
 *
 The
@@ -24773,6 +24843,7 @@ delete
 /
 *
 *
+*
 The
 class
 representing
@@ -25068,6 +25139,7 @@ delete
 }
 ;
 /
+*
 *
 *
 Compilation
@@ -25785,6 +25857,7 @@ delete
 }
 ;
 /
+*
 *
 *
 Compilation
@@ -26505,6 +26578,7 @@ delete
 }
 ;
 /
+*
 *
 *
 |
@@ -27516,6 +27590,7 @@ points
 /
 *
 *
+*
 Evaluate
 a
 script
@@ -27571,6 +27646,7 @@ script
 )
 ;
 /
+*
 *
 *
 As
@@ -27675,6 +27751,7 @@ namespace
 JS
 {
 /
+*
 *
 *
 Like
@@ -27742,6 +27819,7 @@ JS
 /
 *
 *
+*
 Evaluate
 the
 given
@@ -27784,6 +27862,7 @@ rval
 )
 ;
 /
+*
 *
 *
 As
@@ -27861,6 +27940,7 @@ rval
 )
 ;
 /
+*
 *
 *
 Evaluate
@@ -27910,6 +27990,7 @@ rval
 /
 *
 *
+*
 As
 above
 but
@@ -27990,6 +28071,7 @@ rval
 /
 *
 *
+*
 Evaluate
 the
 given
@@ -28035,6 +28117,7 @@ rval
 )
 ;
 /
+*
 *
 *
 Evaluate
@@ -28377,6 +28460,7 @@ namespace
 JS
 {
 /
+*
 *
 *
 This
@@ -29462,6 +29546,7 @@ str
 ;
 /
 *
+*
 Returns
 true
 iff
@@ -29809,6 +29894,7 @@ quote
 /
 *
 *
+*
 Create
 a
 dependent
@@ -29880,6 +29966,7 @@ length
 /
 *
 *
+*
 Concatenate
 two
 strings
@@ -29923,6 +30010,7 @@ right
 )
 ;
 /
+*
 *
 *
 For
@@ -30067,6 +30155,7 @@ dstlenp
 /
 *
 *
+*
 A
 variation
 on
@@ -30110,6 +30199,7 @@ str
 /
 *
 *
+*
 Same
 behavior
 as
@@ -30143,6 +30233,7 @@ str
 )
 ;
 /
+*
 *
 *
 Get
@@ -30206,6 +30297,7 @@ str
 )
 ;
 /
+*
 *
 *
 Encode
@@ -30722,6 +30814,7 @@ JS
 /
 *
 *
+*
 Create
 a
 new
@@ -30786,6 +30879,7 @@ description
 )
 ;
 /
+*
 *
 *
 Symbol
@@ -30863,6 +30957,7 @@ key
 )
 ;
 /
+*
 *
 *
 Get
@@ -31006,6 +31101,7 @@ WellKnownSymbolLimit
 /
 *
 *
+*
 Return
 the
 SymbolCode
@@ -31048,6 +31144,7 @@ symbol
 )
 ;
 /
+*
 *
 *
 Get
@@ -31110,6 +31207,7 @@ which
 )
 ;
 /
+*
 *
 *
 Return
@@ -31193,6 +31291,7 @@ id
 )
 ;
 /
+*
 *
 *
 Create
@@ -31395,6 +31494,7 @@ data
 /
 *
 *
+*
 JSON
 .
 stringify
@@ -31437,6 +31537,7 @@ data
 )
 ;
 /
+*
 *
 *
 JSON
@@ -31622,6 +31723,7 @@ vp
 /
 *
 *
+*
 The
 default
 locale
@@ -31689,6 +31791,7 @@ locale
 /
 *
 *
+*
 Reset
 the
 default
@@ -31712,6 +31815,7 @@ rt
 )
 ;
 /
+*
 *
 *
 Locale
@@ -31750,6 +31854,7 @@ localeToUnicode
 }
 ;
 /
+*
 *
 *
 Establish
@@ -31793,6 +31898,7 @@ callbacks
 )
 ;
 /
+*
 *
 *
 Return
@@ -31920,6 +32026,7 @@ MaxNumErrorArguments
 }
 ;
 /
+*
 *
 *
 Report
@@ -32115,6 +32222,7 @@ args
 /
 *
 *
+*
 As
 above
 but
@@ -32240,6 +32348,7 @@ errorNumber
 /
 *
 *
+*
 Complain
 when
 out
@@ -32261,6 +32370,7 @@ cx
 )
 ;
 /
+*
 *
 *
 Complain
@@ -33420,7 +33530,9 @@ sec
 )
 ;
 /
-/
+*
+*
+*
 Returns
 true
 and
@@ -33439,8 +33551,7 @@ a
 Date
 object
 or
-/
-/
+*
 a
 wrapper
 around
@@ -33451,10 +33562,8 @@ false
 on
 failure
 .
-/
-/
-/
-/
+*
+*
 This
 method
 returns
@@ -33472,8 +33581,7 @@ passed
 a
 proxy
 whose
-/
-/
+*
 target
 is
 a
@@ -33485,6 +33593,8 @@ a
 revoked
 proxy
 .
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -33506,6 +33616,7 @@ isDate
 )
 ;
 /
+*
 *
 *
 Clears
@@ -33897,7 +34008,9 @@ rval
 )
 ;
 /
-/
+*
+*
+*
 Returns
 true
 and
@@ -33914,8 +34027,7 @@ obj
 is
 a
 RegExp
-/
-/
+*
 object
 or
 a
@@ -33928,10 +34040,8 @@ false
 on
 failure
 .
-/
-/
-/
-/
+*
+*
 This
 method
 returns
@@ -33949,8 +34059,7 @@ passed
 a
 proxy
 whose
-/
-/
+*
 target
 is
 a
@@ -33962,6 +34071,8 @@ a
 revoked
 proxy
 .
+*
+/
 extern
 JS_PUBLIC_API
 (
@@ -34165,6 +34276,7 @@ namespace
 JS
 {
 /
+*
 *
 *
 Save
@@ -34507,6 +34619,7 @@ state
 /
 *
 *
+*
 If
 the
 given
@@ -34659,6 +34772,7 @@ JS_GetCurrentThread
 )
 ;
 /
+*
 *
 *
 A
@@ -34847,6 +34961,7 @@ rt
 *
 /
 /
+*
 *
 *
 A
@@ -35226,6 +35341,7 @@ opt
 /
 *
 *
+*
 Convert
 a
 uint32_t
@@ -35255,6 +35371,7 @@ MutableHandleId
 )
 ;
 /
+*
 *
 *
 Convert
@@ -35300,6 +35417,7 @@ MutableHandleId
 /
 *
 *
+*
 Test
 if
 the
@@ -35333,6 +35451,7 @@ isIdentifier
 )
 ;
 /
+*
 *
 *
 Test
@@ -35385,6 +35504,7 @@ namespace
 JS
 {
 /
+*
 *
 *
 AutoFilename
@@ -35492,6 +35612,7 @@ newScriptSource
 /
 *
 *
+*
 Return
 the
 current
@@ -35587,6 +35708,7 @@ cx
 )
 ;
 /
+*
 *
 *
 Informs
@@ -36021,6 +36143,7 @@ handle
 ;
 /
 *
+*
 The
 list
 of
@@ -36288,7 +36411,9 @@ SystemAllocPolicy
 BuildIdCharVector
 ;
 /
-/
+*
+*
+*
 Return
 the
 buildId
@@ -36302,8 +36427,7 @@ characters
 )
 associated
 with
-/
-/
+*
 the
 currently
 -
@@ -36319,8 +36443,7 @@ embedded
 such
 that
 a
-/
-/
+*
 single
 cache
 entry
@@ -36334,8 +36457,7 @@ versions
 of
 the
 JS
-/
-/
+*
 engine
 it
 is
@@ -36350,12 +36472,13 @@ each
 new
 build
 of
-/
-/
+*
 the
 JS
 engine
 .
+*
+/
 typedef
 bool
 (
@@ -36405,6 +36528,7 @@ callbacks
 )
 ;
 /
+*
 *
 *
 Convenience
@@ -36689,6 +36813,7 @@ AllowNonIterable
 /
 *
 *
+*
 Initialize
 the
 iterator
@@ -36753,6 +36878,7 @@ ThrowOnNonIterable
 /
 *
 *
+*
 Get
 the
 next
@@ -36792,6 +36918,7 @@ done
 )
 ;
 /
+*
 *
 *
 If
@@ -36841,6 +36968,7 @@ materializeArrayIterator
 }
 ;
 /
+*
 *
 *
 If
@@ -36936,6 +37064,7 @@ data
 )
 ;
 /
+*
 *
 *
 Unlike
@@ -37092,6 +37221,7 @@ data
 )
 ;
 /
+*
 *
 *
 Capture
@@ -37443,6 +37573,7 @@ AccessDenied
 /
 *
 *
+*
 Given
 a
 SavedFrame
@@ -37480,6 +37611,7 @@ sourcep
 /
 *
 *
+*
 Given
 a
 SavedFrame
@@ -37515,6 +37647,7 @@ linep
 /
 *
 *
+*
 Given
 a
 SavedFrame
@@ -37548,6 +37681,7 @@ columnp
 )
 ;
 /
+*
 *
 *
 Given
@@ -37603,6 +37737,7 @@ namep
 /
 *
 *
+*
 Given
 a
 SavedFrame
@@ -37635,6 +37770,7 @@ asyncCausep
 )
 ;
 /
+*
 *
 *
 Given
@@ -37695,6 +37831,7 @@ asyncParentp
 )
 ;
 /
+*
 *
 *
 Given
@@ -37759,6 +37896,7 @@ parentp
 )
 ;
 /
+*
 *
 *
 Given
@@ -37913,20 +38051,20 @@ class
 AutoStopwatch
 ;
 /
-/
+*
+*
+*
 Container
 for
 performance
 data
-/
-/
+*
 All
 values
 are
 monotonic
 .
-/
-/
+*
 All
 values
 are
@@ -37936,6 +38074,8 @@ running
 to
 completion
 .
+*
+/
 struct
 PerformanceData
 {
@@ -38209,7 +38349,9 @@ this
 }
 ;
 /
-/
+*
+*
+*
 A
 group
 of
@@ -38221,15 +38363,12 @@ unit
 in
 terms
 of
-/
-/
+*
 performance
 monitoring
 .
-/
-/
-/
-/
+*
+*
 Two
 compartments
 belong
@@ -38240,8 +38379,7 @@ group
 if
 either
 :
-/
-/
+*
 -
 they
 are
@@ -38253,8 +38391,7 @@ add
 -
 on
 ;
-/
-/
+*
 -
 they
 are
@@ -38264,8 +38401,7 @@ the
 same
 webpage
 ;
-/
-/
+*
 -
 they
 are
@@ -38275,10 +38411,8 @@ built
 -
 ins
 .
-/
-/
-/
-/
+*
+*
 This
 class
 is
@@ -38288,8 +38422,7 @@ instances
 of
 JSCompartment
 .
-/
-/
+*
 Do
 not
 attempt
@@ -38302,6 +38435,8 @@ to
 a
 PerformanceGroup
 .
+*
+/
 struct
 PerformanceGroup
 {
@@ -38915,15 +39050,14 @@ isSharedGroup_
 }
 ;
 /
-/
-/
-/
+*
+*
+*
 Each
 PerformanceGroupHolder
 handles
 :
-/
-/
+*
 -
 a
 reference
@@ -38934,13 +39068,11 @@ towards
 a
 PerformanceGroup
 shared
-/
-/
+*
 by
 several
 compartments
-/
-/
+*
 -
 a
 owned
@@ -38951,11 +39083,10 @@ performance
 of
 a
 single
-/
-/
+*
 compartment
 .
-/
+*
 /
 struct
 PerformanceGroupHolder
@@ -39326,7 +39457,6 @@ JSRuntime
 )
 ;
 /
-*
 *
 *
 Turn

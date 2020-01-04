@@ -911,7 +911,9 @@ shadow
 *
 /
 /
-/
+*
+*
+*
 A
 GC
 pointer
@@ -921,10 +923,8 @@ the
 trace
 kind
 .
-/
-/
-/
-/
+*
+*
 In
 general
 a
@@ -940,8 +940,7 @@ type
 .
 This
 class
-/
-/
+*
 is
 for
 use
@@ -956,8 +955,7 @@ single
 pointer
 must
 point
-/
-/
+*
 to
 several
 kinds
@@ -965,6 +963,8 @@ of
 GC
 thing
 .
+*
+/
 class
 JS_FRIEND_API
 (
@@ -2818,6 +2818,7 @@ needsIncrementalBarrier
 ;
 }
 /
+*
 *
 *
 Create
