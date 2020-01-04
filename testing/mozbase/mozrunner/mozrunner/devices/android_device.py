@@ -749,12 +749,31 @@ devices
 )
     
 if
+(
 len
 (
 devices
 )
 >
 0
+)
+and
+(
+'
+device
+'
+in
+[
+d
+[
+1
+]
+for
+d
+in
+devices
+]
+)
 :
         
 device_verified
