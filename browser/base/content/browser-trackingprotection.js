@@ -78,7 +78,7 @@ time
 .
 MAX_INTROS
 :
-0
+20
 PREF_ENABLED_GLOBALLY
 :
 "
