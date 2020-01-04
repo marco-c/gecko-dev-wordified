@@ -9897,8 +9897,7 @@ if
 permitsFormAction
 )
 {
-rv
-=
+return
 NS_ERROR_CSP_FORM_ACTION_VIOLATION
 ;
 }
