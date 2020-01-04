@@ -1692,12 +1692,11 @@ doc
 nsViewportInfo
 info
 =
-nsContentUtils
-:
-:
+doc
+-
+>
 GetViewportInfo
 (
-doc
 ScreenIntSize
 (
 aDisplayWidth

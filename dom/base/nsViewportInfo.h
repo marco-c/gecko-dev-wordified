@@ -168,7 +168,7 @@ tag
 .
 See
 *
-nsContentUtils
+nsIDocument
 :
 :
 GetViewportInfo
@@ -429,7 +429,7 @@ calculations
 from
 the
 *
-nsContentUtils
+nsIDocument
 :
 :
 GetViewportInfo

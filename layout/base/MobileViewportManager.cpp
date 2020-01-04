@@ -2126,12 +2126,11 @@ LayoutDeviceIsScreenForBounds
 nsViewportInfo
 viewportInfo
 =
-nsContentUtils
-:
-:
+mDocument
+-
+>
 GetViewportInfo
 (
-mDocument
 displaySize
 )
 ;
