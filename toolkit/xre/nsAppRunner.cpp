@@ -19137,6 +19137,9 @@ break
 }
 }
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 cpuUpdateRevision
@@ -19167,6 +19170,8 @@ cpuUpdateRevision
 )
 ;
 }
+#
+endif
 }
 #
 endif
