@@ -702,6 +702,9 @@ aDesiredTime
 )
 override
 {
+#
+ifdef
+DEBUG
 StreamBuffer
 :
 :
@@ -748,6 +751,8 @@ underrun
 "
 )
 ;
+#
+endif
 }
 virtual
 bool
