@@ -835,6 +835,17 @@ GetFormat
 (
 )
 ;
+mozilla
+:
+:
+gfx
+:
+:
+SurfaceFormat
+GetReadFormat
+(
+)
+;
 /
 /
 We

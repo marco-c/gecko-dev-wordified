@@ -2294,7 +2294,7 @@ img
 mFrontBuffer
 -
 >
-GetFormat
+GetReadFormat
 (
 )
 img
@@ -3879,7 +3879,7 @@ img
 mFrontBuffer
 -
 >
-GetFormat
+GetReadFormat
 (
 )
 img

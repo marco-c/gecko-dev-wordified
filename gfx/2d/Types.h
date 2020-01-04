@@ -453,6 +453,7 @@ cases
 .
 YUV
 NV12
+YUV422
 /
 /
 This
@@ -578,6 +579,12 @@ SurfaceFormat
 :
 :
 NV12
+:
+case
+SurfaceFormat
+:
+:
+YUV422
 :
 return
 true
