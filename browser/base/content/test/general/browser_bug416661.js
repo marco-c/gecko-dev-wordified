@@ -149,6 +149,7 @@ image
 "
 )
 ;
+yield
 FullZoom
 .
 reset
@@ -250,6 +251,7 @@ a
 fresh
 zoom
 level
+yield
 FullZoom
 .
 reset

@@ -161,6 +161,15 @@ click
 (
 )
 ;
+yield
+new
+Promise
+(
+SimpleTest
+.
+executeSoon
+)
+;
 let
 pageZoomLevel
 =

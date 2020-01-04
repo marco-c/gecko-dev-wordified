@@ -371,6 +371,7 @@ selectTabAndWaitForLocationChange
 gTab1
 )
 ;
+yield
 FullZoom
 .
 reset
@@ -393,6 +394,7 @@ selectTabAndWaitForLocationChange
 gTab2
 )
 ;
+yield
 FullZoom
 .
 reset
