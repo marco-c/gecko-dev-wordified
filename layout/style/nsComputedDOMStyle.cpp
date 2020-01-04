@@ -24653,12 +24653,15 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
+uint8_t
+(
 StyleBorder
 (
 )
 -
 >
 mFloatEdge
+)
 nsCSSProps
 :
 :

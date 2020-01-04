@@ -8026,7 +8026,10 @@ mBorderImageRepeatV
 [
 reset
 ]
-uint8_t
+mozilla
+:
+:
+StyleFloatEdge
 mFloatEdge
 ;
 /

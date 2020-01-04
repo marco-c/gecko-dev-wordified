@@ -1966,7 +1966,10 @@ mFloatEdge
 default
 :
 case
-NS_STYLE_FLOAT_EDGE_CONTENT_BOX
+StyleFloatEdge
+:
+:
+ContentBox
 :
 /
 /
@@ -2031,7 +2034,10 @@ wm
 break
 ;
 case
-NS_STYLE_FLOAT_EDGE_MARGIN_BOX
+StyleFloatEdge
+:
+:
+MarginBox
 :
 {
 /

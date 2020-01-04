@@ -2052,7 +2052,10 @@ NS_STYLE_BORDER_IMAGE_REPEAT_STRETCH
 )
 mFloatEdge
 (
-NS_STYLE_FLOAT_EDGE_CONTENT_BOX
+StyleFloatEdge
+:
+:
+ContentBox
 )
 mBoxDecorationBreak
 (
@@ -16047,9 +16050,6 @@ operator
 =
 (
 const
-mozilla
-:
-:
 StyleTransition
 &
 aOther
@@ -16111,9 +16111,6 @@ StyleAnimation
 StyleAnimation
 (
 const
-mozilla
-:
-:
 StyleAnimation
 &
 aCopy
@@ -16242,9 +16239,6 @@ operator
 =
 (
 const
-mozilla
-:
-:
 StyleAnimation
 &
 aOther
