@@ -185,6 +185,15 @@ nullptr
 )
 ;
 }
+APZCTreeManagerParent
+:
+:
+~
+APZCTreeManagerParent
+(
+)
+{
+}
 void
 APZCTreeManagerParent
 :

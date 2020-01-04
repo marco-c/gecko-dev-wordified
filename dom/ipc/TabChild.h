@@ -3106,9 +3106,10 @@ aTargets
 )
 const
 ;
-void
-HandleTap
+bool
+RecvHandleTap
 (
+const
 layers
 :
 :
@@ -3116,6 +3117,7 @@ GeckoContentController
 :
 :
 TapType
+&
 aType
 const
 LayoutDevicePoint
@@ -3126,12 +3128,6 @@ Modifiers
 &
 aModifiers
 const
-mozilla
-:
-:
-layers
-:
-:
 ScrollableLayerGuid
 &
 aGuid
@@ -3140,6 +3136,7 @@ uint64_t
 &
 aInputBlockId
 )
+override
 ;
 void
 SetAllowedTouchBehavior

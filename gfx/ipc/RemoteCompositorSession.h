@@ -203,6 +203,12 @@ aController
 )
 override
 ;
+GeckoContentController
+*
+GetContentController
+(
+)
+;
 RefPtr
 <
 IAPZCTreeManager
@@ -235,6 +241,12 @@ RefPtr
 APZCTreeManagerChild
 >
 mAPZ
+;
+RefPtr
+<
+GeckoContentController
+>
+mContentController
 ;
 }
 ;
