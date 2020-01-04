@@ -1515,7 +1515,6 @@ nullptr
 return
 Restart
 (
-nullptr
 aConstraints
 aPrefs
 aDeviceId
@@ -1528,9 +1527,6 @@ MediaEngineWebRTCMicrophoneSource
 :
 Restart
 (
-BaseAllocationHandle
-*
-aHandle
 const
 dom
 :
@@ -1548,12 +1544,6 @@ nsString
 aDeviceId
 )
 {
-MOZ_ASSERT
-(
-!
-aHandle
-)
-;
 FlattenedConstraints
 c
 (
@@ -4707,9 +4697,6 @@ MediaEngineWebRTCAudioCaptureSource
 :
 Restart
 (
-BaseAllocationHandle
-*
-aHandle
 const
 dom
 :
@@ -4727,12 +4714,6 @@ nsString
 aDeviceId
 )
 {
-MOZ_ASSERT
-(
-!
-aHandle
-)
-;
 return
 NS_OK
 ;

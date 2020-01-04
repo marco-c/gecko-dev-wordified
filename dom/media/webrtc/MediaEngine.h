@@ -858,9 +858,6 @@ virtual
 nsresult
 Restart
 (
-BaseAllocationHandle
-*
-aHandle
 const
 dom
 :
