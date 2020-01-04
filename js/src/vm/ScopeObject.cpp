@@ -9902,7 +9902,7 @@ block
 scopes
 here
 .
-MOZ_ASSERT
+if
 (
 ssi_
 .
@@ -9919,7 +9919,6 @@ CanGC
 :
 Block
 )
-;
 incrementStaticScopeIter
 (
 )
