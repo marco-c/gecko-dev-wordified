@@ -5070,6 +5070,10 @@ typedef
 nsTArrayFallibleAllocator
 FallibleAlloc
 ;
+typedef
+nsTArrayInfallibleAllocator
+InfallibleAlloc
+;
 public
 :
 typedef
@@ -11180,7 +11184,7 @@ this
 template
 ShiftData
 <
-Alloc
+InfallibleAlloc
 >
 (
 aStart
