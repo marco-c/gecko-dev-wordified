@@ -891,6 +891,18 @@ enabled
 False
         
 '
+browser
+.
+safebrowsing
+.
+blockedURIs
+.
+enabled
+'
+:
+False
+        
+'
 privacy
 .
 trackingprotection
