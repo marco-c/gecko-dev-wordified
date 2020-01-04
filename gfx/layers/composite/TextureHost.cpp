@@ -4519,9 +4519,7 @@ will
 always
 fail
 .
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
