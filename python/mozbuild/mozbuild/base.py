@@ -1947,20 +1947,13 @@ self
 )
 :
         
-from
-.
 import
 mozinfo
         
 if
 mozinfo
 .
-os
-=
-=
-"
-mac
-"
+isMac
 :
             
 return
