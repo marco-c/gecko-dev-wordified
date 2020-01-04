@@ -3888,7 +3888,7 @@ return
 result
 ;
 }
-NS_METHOD
+nsresult
 nsHttpPipeline
 :
 :

@@ -248,7 +248,7 @@ BadSignature
 }
 ;
 static
-NS_METHOD
+nsresult
 ParseChunk
 (
 nsIInputStream

@@ -1033,7 +1033,7 @@ ForceRecv
 )
 ;
 static
-NS_METHOD
+nsresult
 ReadFromStream
 (
 nsIInputStream

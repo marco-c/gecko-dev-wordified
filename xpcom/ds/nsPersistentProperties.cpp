@@ -624,7 +624,7 @@ mState
 ;
 }
 static
-NS_METHOD
+nsresult
 SegmentWriter
 (
 nsIUnicharInputStream
@@ -1967,7 +1967,7 @@ return
 true
 ;
 }
-NS_METHOD
+nsresult
 nsPropertiesParser
 :
 :

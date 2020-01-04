@@ -1115,7 +1115,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsUnicharStreamLoader
 :
 :

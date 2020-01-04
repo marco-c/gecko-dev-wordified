@@ -1012,9 +1012,11 @@ status
 ;
 }
 /
-/
+*
 static
-NS_METHOD
+*
+/
+nsresult
 nsHTTPCompressConv
 :
 :

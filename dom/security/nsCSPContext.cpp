@@ -8585,7 +8585,7 @@ CSPViolationReportListener
 )
 {
 }
-NS_METHOD
+nsresult
 AppendSegmentToString
 (
 nsIInputStream

@@ -7387,7 +7387,7 @@ NS_OK
 static
 *
 /
-NS_METHOD
+nsresult
 nsHtml5StreamParser
 :
 :

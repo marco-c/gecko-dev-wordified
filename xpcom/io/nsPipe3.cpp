@@ -10164,7 +10164,7 @@ rv
 ;
 }
 static
-NS_METHOD
+nsresult
 nsReadFromRawBuffer
 (
 nsIOutputStream
@@ -10267,7 +10267,7 @@ NS_OK
 ;
 }
 static
-NS_METHOD
+nsresult
 nsReadFromInputStream
 (
 nsIOutputStream

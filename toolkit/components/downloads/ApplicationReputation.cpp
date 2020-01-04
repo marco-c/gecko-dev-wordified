@@ -11816,7 +11816,7 @@ NS_OK
 /
 nsIStreamListener
 static
-NS_METHOD
+nsresult
 AppendSegmentToString
 (
 nsIInputStream

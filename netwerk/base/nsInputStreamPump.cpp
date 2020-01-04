@@ -607,7 +607,7 @@ mClosure
 }
 ;
 static
-NS_METHOD
+nsresult
 CallPeekFunc
 (
 nsIInputStream

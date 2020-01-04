@@ -4170,9 +4170,11 @@ n
 ;
 }
 /
-/
+*
 static
-NS_METHOD
+*
+/
+nsresult
 nsAboutCacheEntry
 :
 :

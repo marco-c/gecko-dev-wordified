@@ -4064,7 +4064,7 @@ return
 size
 ;
 }
-NS_METHOD
+nsresult
 nsHttpTransaction
 :
 :
@@ -4513,7 +4513,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsHttpTransaction
 :
 :

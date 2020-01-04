@@ -383,7 +383,7 @@ off
 verification
 *
 /
-NS_METHOD
+nsresult
 AppendNextSegment
 (
 nsIInputStream

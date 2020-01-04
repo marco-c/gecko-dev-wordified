@@ -973,7 +973,7 @@ kResourceHashType
 )
 ;
 }
-NS_METHOD
+nsresult
 PackagedAppVerifier
 :
 :

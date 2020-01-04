@@ -2446,7 +2446,7 @@ of
 buffering
 them
 .
-NS_METHOD
+nsresult
 EventSource
 :
 :

@@ -2746,7 +2746,7 @@ mSinkCondition
 }
 ;
 static
-NS_METHOD
+nsresult
 ConsumeInputBuffer
 (
 nsIInputStream
@@ -2955,7 +2955,7 @@ mSourceCondition
 }
 ;
 static
-NS_METHOD
+nsresult
 FillOutputBuffer
 (
 nsIOutputStream
@@ -3852,7 +3852,7 @@ rv
 -
 -
 static
-NS_METHOD
+nsresult
 TestInputStream
 (
 nsIInputStream
@@ -3967,7 +3967,7 @@ rv
 ;
 }
 static
-NS_METHOD
+nsresult
 TestOutputStream
 (
 nsIOutputStream
@@ -4150,7 +4150,7 @@ result
 -
 -
 -
-NS_METHOD
+nsresult
 NS_CopySegmentToStream
 (
 nsIInputStream
@@ -4245,7 +4245,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIInputStream
@@ -4300,7 +4300,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIOutputStream
@@ -4356,7 +4356,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 NS_DiscardSegment
 (
 nsIInputStream
@@ -4466,7 +4466,7 @@ NS_OK
 -
 -
 -
-NS_METHOD
+nsresult
 NS_WriteSegmentThunk
 (
 nsIInputStream

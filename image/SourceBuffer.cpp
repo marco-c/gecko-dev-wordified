@@ -2902,7 +2902,7 @@ NS_OK
 ;
 }
 static
-NS_METHOD
+nsresult
 AppendToSourceBuffer
 (
 nsIInputStream

@@ -4804,7 +4804,7 @@ below
 *
 /
 static
-NS_METHOD
+nsresult
 sniff_mimetype_callback
 (
 nsIInputStream
@@ -6206,7 +6206,7 @@ contentDisposition
 }
 }
 static
-NS_METHOD
+nsresult
 sniff_mimetype_callback
 (
 nsIInputStream

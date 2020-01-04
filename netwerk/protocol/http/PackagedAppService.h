@@ -1005,7 +1005,7 @@ nsIInputStream
 ReadSegments
 .
 static
-NS_METHOD
+nsresult
 ConsumeData
 (
 nsIInputStream

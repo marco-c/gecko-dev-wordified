@@ -2856,7 +2856,7 @@ mResource
 ;
 }
 ;
-NS_METHOD
+nsresult
 ChannelMediaResource
 :
 :

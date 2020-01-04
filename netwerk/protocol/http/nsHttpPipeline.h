@@ -189,7 +189,7 @@ FillSendBuf
 )
 ;
 static
-NS_METHOD
+nsresult
 ReadFromPipe
 (
 nsIInputStream

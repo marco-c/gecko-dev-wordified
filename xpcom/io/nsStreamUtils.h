@@ -1409,7 +1409,7 @@ parameters
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToStream
 (
 nsIInputStream
@@ -1506,7 +1506,7 @@ parameters
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIInputStream
@@ -1585,7 +1585,7 @@ parameters
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIOutputStream
@@ -1667,7 +1667,7 @@ parameters
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_DiscardSegment
 (
 nsIInputStream
@@ -1787,7 +1787,7 @@ ReadSegments
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_WriteSegmentThunk
 (
 nsIInputStream

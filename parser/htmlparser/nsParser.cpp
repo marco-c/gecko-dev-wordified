@@ -14170,7 +14170,7 @@ aStart
 ;
 }
 static
-NS_METHOD
+nsresult
 NoOpParserWriteFunc
 (
 nsIInputStream
@@ -14282,7 +14282,7 @@ stream
 *
 /
 static
-NS_METHOD
+nsresult
 ParserWriteFunc
 (
 nsIInputStream

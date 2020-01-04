@@ -664,7 +664,7 @@ template
 typename
 T
 >
-NS_METHOD
+nsresult
 EncodeInputStream_Encoder
 (
 nsIInputStream

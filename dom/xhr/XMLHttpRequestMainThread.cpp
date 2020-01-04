@@ -8241,7 +8241,7 @@ stream
 .
 *
 /
-NS_METHOD
+nsresult
 XMLHttpRequestMainThread
 :
 :

@@ -846,7 +846,7 @@ to
 read
 manifest
 static
-NS_METHOD
+nsresult
 WriteManifest
 (
 nsIInputStream

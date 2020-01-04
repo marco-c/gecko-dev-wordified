@@ -2094,7 +2094,7 @@ the
 thunking
 function
 static
-NS_METHOD
+nsresult
 ReadSegmentForwardingThunk
 (
 nsIInputStream
@@ -2913,7 +2913,7 @@ aDouble
 ;
 }
 static
-NS_METHOD
+nsresult
 WriteSegmentToCString
 (
 nsIInputStream
@@ -3237,7 +3237,7 @@ and
 endian
 swapping
 static
-NS_METHOD
+nsresult
 WriteSegmentToString
 (
 nsIInputStream
