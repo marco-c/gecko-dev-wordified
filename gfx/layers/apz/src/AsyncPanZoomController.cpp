@@ -23794,6 +23794,17 @@ UsesContainerScrolling
 )
 )
 ;
+mFrameMetrics
+.
+SetIsScrollInfoLayer
+(
+aLayerMetrics
+.
+IsScrollInfoLayer
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
