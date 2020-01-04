@@ -530,6 +530,9 @@ compile
 '
 (
 ?
+:
+(
+?
 P
 <
 jarfile
@@ -557,6 +560,25 @@ _
 jar
 \
 :
+)
+|
+(
+?
+:
+\
+s
+*
+(
+\
+#
+.
+*
+)
+?
+)
+\
+s
+*
 '
 )
     
@@ -855,6 +877,17 @@ RuntimeError
 line
 )
             
+if
+m
+.
+group
+(
+'
+jarfile
+'
+)
+:
+                
 self
 .
 _current_jar
@@ -870,7 +903,7 @@ jarfile
 '
 )
 )
-            
+                
 self
 .
 _jars
