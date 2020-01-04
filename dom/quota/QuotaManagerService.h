@@ -329,7 +329,7 @@ aManager
 )
 ;
 void
-NoteFinishedManager
+NoteShuttingDownManager
 (
 )
 ;

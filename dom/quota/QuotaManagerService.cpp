@@ -1092,7 +1092,7 @@ void
 QuotaManagerService
 :
 :
-NoteFinishedManager
+NoteShuttingDownManager
 (
 )
 {
