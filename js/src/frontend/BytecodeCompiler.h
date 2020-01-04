@@ -221,6 +221,12 @@ LifoAlloc
 alloc
 =
 nullptr
+ScriptSourceObject
+*
+*
+sourceObjectOut
+=
+nullptr
 )
 ;
 bool
