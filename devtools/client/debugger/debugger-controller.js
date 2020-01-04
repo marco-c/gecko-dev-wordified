@@ -3089,7 +3089,6 @@ _onWorkerSelect
 :
 function
 (
-type
 workerActor
 )
 {
@@ -3111,8 +3110,6 @@ gDevTools
 .
 showToolbox
 (
-devtools
-.
 TargetFactory
 .
 forWorker
@@ -3122,8 +3119,6 @@ workerClient
 "
 jsdebugger
 "
-devtools
-.
 Toolbox
 .
 HostType
