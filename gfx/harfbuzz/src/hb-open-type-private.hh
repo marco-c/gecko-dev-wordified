@@ -1397,7 +1397,7 @@ HB_SANITIZE_MAX_EDITS
 #
 define
 HB_SANITIZE_MAX_EDITS
-8
+100
 #
 endif
 struct
@@ -2804,7 +2804,7 @@ hb_serialize_context_t
 (
 void
 *
-start_
+start
 unsigned
 int
 size
@@ -2819,7 +2819,7 @@ start
 char
 *
 )
-start_
+start
 ;
 this
 -
@@ -3534,7 +3534,7 @@ truncate
 (
 void
 *
-new_head
+head
 )
 {
 assert
@@ -3544,10 +3544,10 @@ this
 >
 start
 <
-new_head
+head
 &
 &
-new_head
+head
 <
 =
 this
@@ -3565,7 +3565,7 @@ head
 char
 *
 )
-new_head
+head
 ;
 }
 unsigned
