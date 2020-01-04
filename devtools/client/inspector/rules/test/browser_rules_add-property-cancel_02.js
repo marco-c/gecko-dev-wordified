@@ -617,7 +617,7 @@ view
 .
 styleDocument
 .
-body
+documentElement
 view
 .
 styleDocument

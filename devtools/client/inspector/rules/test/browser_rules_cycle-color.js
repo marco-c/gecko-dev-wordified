@@ -131,7 +131,6 @@ TEST_URI
 ;
 let
 {
-inspector
 view
 }
 =
@@ -159,7 +158,7 @@ valueSpan
 checkColorCycling
 (
 container
-inspector
+view
 )
 ;
 }
@@ -169,7 +168,7 @@ function
 checkColorCycling
 (
 container
-inspector
+view
 )
 {
 let
@@ -205,16 +204,9 @@ color
 let
 win
 =
-inspector
+view
 .
-sidebar
-.
-getWindowForTab
-(
-"
-ruleview
-"
-)
+styleWindow
 ;
 /
 /

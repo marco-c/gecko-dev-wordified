@@ -2354,9 +2354,9 @@ selectAllChildren
 (
 this
 .
-styleDocument
+view
 .
-documentElement
+element
 )
 ;
 }
