@@ -133,9 +133,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 framerate
 "
@@ -167,9 +167,9 @@ definitions
 see
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 framerate
 .

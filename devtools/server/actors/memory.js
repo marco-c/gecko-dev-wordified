@@ -110,9 +110,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 "
@@ -455,9 +455,9 @@ module
 at
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 .
@@ -473,9 +473,9 @@ definitions
 see
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 .

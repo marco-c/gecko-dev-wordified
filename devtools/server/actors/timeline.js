@@ -133,9 +133,9 @@ handled
 in
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 timeline
 .
@@ -163,9 +163,9 @@ documentation
 see
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 timeline
 .
@@ -220,9 +220,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 timeline
 "

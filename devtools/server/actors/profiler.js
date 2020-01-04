@@ -109,9 +109,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 profiler
 "
@@ -313,9 +313,9 @@ module
 at
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 profiler
 .
@@ -331,9 +331,9 @@ definitions
 see
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 profiler
 .
