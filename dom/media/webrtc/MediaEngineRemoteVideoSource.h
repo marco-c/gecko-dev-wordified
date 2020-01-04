@@ -691,6 +691,7 @@ size_t
 NumCapabilities
 (
 )
+const
 override
 ;
 void
@@ -705,6 +706,7 @@ CaptureCapability
 &
 aOut
 )
+const
 override
 ;
 dom
