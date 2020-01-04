@@ -188,7 +188,10 @@ get
 kIterationSizeMax
 (
 )
+{
+return
 kIterationSizeMax
+}
 /
 *
 *
