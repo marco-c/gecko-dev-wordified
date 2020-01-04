@@ -2813,13 +2813,6 @@ setUseCaches
 false
 )
 ;
-connection
-.
-setDoOutput
-(
-true
-)
-;
 /
 /
 get
