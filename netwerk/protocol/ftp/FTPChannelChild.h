@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 PFTPChannelChild
@@ -682,7 +691,7 @@ finally
 called
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ChannelEvent
 >

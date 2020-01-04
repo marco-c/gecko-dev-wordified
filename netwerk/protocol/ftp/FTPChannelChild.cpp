@@ -2512,8 +2512,10 @@ mUnknownDecoderEventQ
 .
 AppendElement
 (
-new
+MakeUnique
+<
 MaybeDivertOnDataFTPEvent
+>
 (
 this
 data
@@ -2983,8 +2985,10 @@ mUnknownDecoderEventQ
 .
 AppendElement
 (
-new
+MakeUnique
+<
 MaybeDivertOnStopFTPEvent
+>
 (
 this
 aChannelStatus

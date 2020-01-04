@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 HttpBaseChannel
@@ -1148,7 +1157,7 @@ called
 .
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ChannelEvent
 >

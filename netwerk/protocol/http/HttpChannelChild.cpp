@@ -3677,8 +3677,10 @@ mUnknownDecoderEventQ
 .
 AppendElement
 (
-new
+MakeUnique
+<
 MaybeDivertOnDataHttpEvent
+>
 (
 this
 data
@@ -4680,8 +4682,10 @@ mUnknownDecoderEventQ
 .
 AppendElement
 (
-new
+MakeUnique
+<
 MaybeDivertOnStopHttpEvent
+>
 (
 this
 channelStatus
