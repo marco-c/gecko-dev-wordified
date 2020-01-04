@@ -5536,7 +5536,13 @@ d
 .
 test
 (
-asciiHost
+fixupInfo
+.
+originalInput
+.
+trim
+(
+)
 )
 )
 return
