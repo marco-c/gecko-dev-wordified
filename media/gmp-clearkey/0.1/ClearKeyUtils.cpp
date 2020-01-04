@@ -356,7 +356,7 @@ size
 )
 =
 =
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 )
 ;
 assert
@@ -368,7 +368,7 @@ size
 )
 =
 =
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 )
 ;
 OAES_CTX
@@ -419,7 +419,7 @@ size
 i
 +
 =
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 )
 {
 size_t
@@ -433,7 +433,7 @@ aIV
 [
 0
 ]
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 nullptr
 &
 encLen
@@ -456,7 +456,7 @@ aIV
 [
 0
 ]
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 &
 enc
 [
@@ -475,7 +475,7 @@ encLen
 *
 OAES_BLOCK_SIZE
 +
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 )
 ;
 size_t
@@ -490,7 +490,7 @@ size
 )
 -
 i
-CENC_KEY_LEN
+CLEARKEY_KEY_LEN
 )
 ;
 for
