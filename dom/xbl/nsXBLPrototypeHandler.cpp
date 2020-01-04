@@ -336,13 +336,6 @@ h
 #
 include
 "
-nsIDOMScriptObjectFactory
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AddonPathService

@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIDOMScriptObjectFactory
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

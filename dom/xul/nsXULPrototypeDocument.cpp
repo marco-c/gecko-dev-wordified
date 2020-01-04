@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsIDOMScriptObjectFactory
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h
