@@ -223,7 +223,7 @@ public
 class
 QuickShareBarActionView
 extends
-MenuItemActionView
+MenuItemSwitcherLayout
 {
 public
 QuickShareBarActionView
@@ -242,7 +242,7 @@ R
 .
 attr
 .
-menuItemActionViewStyle
+menuItemSwitcherLayoutStyle
 )
 ;
 }
