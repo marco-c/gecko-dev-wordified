@@ -456,6 +456,12 @@ onCreatedNavigationTarget
 :
 ignoreEvent
 (
+context
+"
+webNavigation
+.
+onCreatedNavigationTarget
+"
 )
 }
 }

@@ -1563,6 +1563,12 @@ onReplaced
 :
 ignoreEvent
 (
+context
+"
+tabs
+.
+onReplaced
+"
 )
 onRemoved
 :

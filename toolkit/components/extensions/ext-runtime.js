@@ -265,6 +265,12 @@ onInstalled
 :
 ignoreEvent
 (
+context
+"
+runtime
+.
+onInstalled
+"
 )
 onMessage
 :

@@ -280,7 +280,6 @@ var
 runSafeSyncWithoutClone
 MessageBroker
 Messenger
-ignoreEvent
 injectAPI
 flushJarCache
 }
