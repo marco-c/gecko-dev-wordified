@@ -165,6 +165,13 @@ GMPVideoEncoderProxy
 .
 h
 "
+#
+include
+"
+GMPCrashHelperHolder
+.
+h
+"
 namespace
 mozilla
 {
@@ -183,6 +190,8 @@ public
 PGMPVideoEncoderParent
 public
 GMPSharedMemManager
+public
+GMPCrashHelperHolder
 {
 public
 :

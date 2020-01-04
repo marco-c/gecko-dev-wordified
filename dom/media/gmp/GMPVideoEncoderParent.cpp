@@ -1556,6 +1556,14 @@ ActorDestroyed
 same
 as
 DoneWithAPI
+MaybeDisconnect
+(
+aWhy
+=
+=
+AbnormalShutdown
+)
+;
 }
 static
 void
