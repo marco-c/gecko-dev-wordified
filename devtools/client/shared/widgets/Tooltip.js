@@ -5215,6 +5215,17 @@ button
 if
 (
 value
+&
+&
+this
+.
+inspector
+.
+selection
+.
+nodeFront
+.
+isInHTMLDocument
 )
 {
 eyeButton
