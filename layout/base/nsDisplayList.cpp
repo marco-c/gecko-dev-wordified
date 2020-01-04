@@ -37623,7 +37623,7 @@ EffectCompositor
 SetPerformanceWarning
 (
 mFrame
-eCSSProperty_transform
+eCSSProperty_opacity
 AnimationPerformanceWarning
 (
 AnimationPerformanceWarning
