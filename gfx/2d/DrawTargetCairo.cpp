@@ -4476,6 +4476,13 @@ aOptions
 if
 (
 mTransformSingular
+|
+|
+aDest
+.
+IsEmpty
+(
+)
 )
 {
 return
