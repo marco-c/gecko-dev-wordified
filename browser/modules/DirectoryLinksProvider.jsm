@@ -3349,6 +3349,12 @@ _writeFrequencyCapFile
 (
 )
 ;
+this
+.
+_updateSuggestedTile
+(
+)
+;
 }
 /
 *
