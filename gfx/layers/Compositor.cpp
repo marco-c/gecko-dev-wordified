@@ -272,7 +272,7 @@ Compositor
 widget
 :
 :
-CompositorWidget
+CompositorWidgetProxy
 *
 aWidget
 CompositorBridgeParent

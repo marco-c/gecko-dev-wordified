@@ -215,7 +215,7 @@ mozilla
 /
 widget
 /
-WinCompositorWidget
+WinCompositorWidgetProxy
 .
 h
 "
@@ -243,7 +243,7 @@ aParent
 widget
 :
 :
-CompositorWidget
+CompositorWidgetProxy
 *
 aWidget
 )
@@ -331,7 +331,7 @@ CreateSwapChain
 mWidget
 -
 >
-AsWindows
+AsWindowsProxy
 (
 )
 -
@@ -3720,7 +3720,7 @@ CreateSwapChain
 mWidget
 -
 >
-AsWindows
+AsWindowsProxy
 (
 )
 -

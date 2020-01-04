@@ -228,7 +228,7 @@ namespace
 widget
 {
 class
-CompositorWidget
+CompositorWidgetProxy
 ;
 }
 /
@@ -430,9 +430,12 @@ CompositorSession
 >
 CreateTopLevelCompositor
 (
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
-aWidget
+aProxy
 layers
 :
 :
