@@ -364,10 +364,8 @@ mozilla
 pkix
 ;
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 static

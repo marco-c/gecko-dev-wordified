@@ -286,7 +286,8 @@ mozilla
 pkix
 ;
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gCertVerifierLog
 ;
 static

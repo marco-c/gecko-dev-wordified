@@ -577,7 +577,8 @@ false
 unnamed
 namespace
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 nsNSSSocketInfo

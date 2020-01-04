@@ -116,10 +116,8 @@ mozilla
 LogLevel
 ;
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 NS_IMPL_ISUPPORTS
