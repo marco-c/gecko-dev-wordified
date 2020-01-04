@@ -97,11 +97,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 common
 .
@@ -132,11 +132,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 widg
 "

@@ -857,11 +857,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 floating
 -
