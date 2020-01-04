@@ -432,7 +432,7 @@ getURL
 :
 function
 (
-path
+url
 )
 {
 return
@@ -581,7 +581,7 @@ getURL
 :
 function
 (
-path
+url
 )
 {
 return
