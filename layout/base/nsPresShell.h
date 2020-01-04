@@ -2582,7 +2582,13 @@ mRenderFlags
 )
 {
 }
+mozilla
+:
+:
+Maybe
+<
 float
+>
 mResolution
 ;
 RenderFlags
