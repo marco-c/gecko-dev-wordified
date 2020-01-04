@@ -406,6 +406,9 @@ Super
 *
 Arguments
 *
+Var
+Scope
+*
 [
 Operators
 ]
