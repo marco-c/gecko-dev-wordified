@@ -1020,6 +1020,12 @@ this
 ;
 }
 }
+this
+.
+AbstractTreeItem
+=
+AbstractTreeItem
+;
 AbstractTreeItem
 .
 prototype

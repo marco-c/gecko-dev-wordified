@@ -843,3 +843,9 @@ freeze
 ShortcutUtils
 )
 ;
+this
+.
+ShortcutUtils
+=
+ShortcutUtils
+;

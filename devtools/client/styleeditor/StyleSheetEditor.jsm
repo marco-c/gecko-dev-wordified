@@ -87,9 +87,6 @@ EXPORTED_SYMBOLS
 "
 StyleSheetEditor
 "
-"
-prettifyCSS
-"
 ]
 ;
 const
@@ -1153,6 +1150,12 @@ linkCSSFile
 )
 ;
 }
+this
+.
+StyleSheetEditor
+=
+StyleSheetEditor
+;
 StyleSheetEditor
 .
 prototype

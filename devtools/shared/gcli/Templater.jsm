@@ -557,6 +557,12 @@ template
 template
 ;
 }
+this
+.
+template
+=
+template
+;
 /
 *
 *
