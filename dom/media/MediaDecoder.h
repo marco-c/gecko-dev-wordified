@@ -4247,6 +4247,7 @@ and
 playback
 rates
 .
+virtual
 bool
 CanPlayThrough
 (
