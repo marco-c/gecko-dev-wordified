@@ -719,6 +719,14 @@ win
 .
 SimpleTest
 .
+timeout
+(
+)
+;
+win
+.
+SimpleTest
+.
 finish
 (
 )
