@@ -472,13 +472,6 @@ MOZILLA_UTM_SOURCE
 )
 )
 {
-if
-(
-AppConstants
-.
-MOZ_INSTALL_TRACKING
-)
-{
 /
 /
 Allow
@@ -533,7 +526,6 @@ intent
 e
 )
 ;
-}
 }
 return
 ;
