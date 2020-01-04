@@ -2826,7 +2826,6 @@ buf
 }
 public
 :
-explicit
 ContentSandboxPolicy
 (
 SandboxBrokerClient
