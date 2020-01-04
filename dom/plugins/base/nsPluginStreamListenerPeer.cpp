@@ -3574,6 +3574,10 @@ nsIContentPolicy
 TYPE_OTHER
 loadGroup
 callbacks
+nsIChannel
+:
+:
+LOAD_BYPASS_SERVICE_WORKER
 )
 ;
 }
@@ -3656,6 +3660,10 @@ nsIContentPolicy
 TYPE_OTHER
 loadGroup
 callbacks
+nsIChannel
+:
+:
+LOAD_BYPASS_SERVICE_WORKER
 )
 ;
 }
