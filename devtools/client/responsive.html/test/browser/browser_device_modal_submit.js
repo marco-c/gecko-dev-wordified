@@ -46,7 +46,6 @@ modal
 const
 {
 getDevices
-addDevice
 }
 =
 require
@@ -1124,7 +1123,7 @@ changes
 for
 next
 test
-addDevice
+addDeviceForTest
 (
 addedDevice
 )
