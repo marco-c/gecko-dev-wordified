@@ -1048,10 +1048,6 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 )
 ;
 mAudioChannelAgentEnabled

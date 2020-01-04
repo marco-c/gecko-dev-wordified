@@ -233,6 +233,10 @@ mIsRegToService
 (
 false
 )
+mNotifyPlayback
+(
+false
+)
 {
 }
 AudioChannelAgent
@@ -263,10 +267,6 @@ mIsRegToService
 {
 NotifyStoppedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 )
 ;
 }
@@ -848,6 +848,10 @@ aVolume
 aMuted
 )
 ;
+mNotifyPlayback
+=
+aNotifyPlayback
+;
 mIsRegToService
 =
 true
@@ -862,8 +866,6 @@ AudioChannelAgent
 :
 NotifyStoppedPlaying
 (
-uint32_t
-aNotifyPlayback
 )
 {
 if
@@ -901,7 +903,7 @@ service
 UnregisterAudioChannelAgent
 (
 this
-aNotifyPlayback
+mNotifyPlayback
 )
 ;
 mIsRegToService

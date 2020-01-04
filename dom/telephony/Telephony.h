@@ -368,9 +368,6 @@ Promise
 >
 mReadyPromise
 ;
-uint32_t
-mAudioAgentNotify
-;
 bool
 mIsAudioStartPlaying
 ;

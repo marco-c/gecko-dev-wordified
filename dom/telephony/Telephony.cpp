@@ -405,13 +405,6 @@ DOMEventTargetHelper
 (
 aOwner
 )
-mAudioAgentNotify
-(
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
-)
 mIsAudioStartPlaying
 (
 false
@@ -2885,7 +2878,6 @@ mAudioAgent
 >
 NotifyStoppedPlaying
 (
-mAudioAgentNotify
 )
 ;
 mAudioAgent
@@ -2940,7 +2932,10 @@ mAudioAgent
 >
 NotifyStartedPlaying
 (
-mAudioAgentNotify
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 &
 volume
 &

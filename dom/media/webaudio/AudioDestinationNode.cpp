@@ -2046,10 +2046,6 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 )
 ;
 mAudioChannelAgent
@@ -3137,10 +3133,6 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 )
 ;
 if
@@ -3630,10 +3622,6 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 )
 ;
 return
