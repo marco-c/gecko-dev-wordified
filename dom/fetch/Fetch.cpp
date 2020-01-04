@@ -1444,10 +1444,8 @@ result
 result
 .
 ThrowTypeError
-<
-MSG_FETCH_FAILED
->
 (
+MSG_FETCH_FAILED
 )
 ;
 mPromise
@@ -1635,10 +1633,8 @@ result
 result
 .
 ThrowTypeError
-<
-MSG_FETCH_FAILED
->
 (
+MSG_FETCH_FAILED
 )
 ;
 promise
@@ -7905,10 +7901,8 @@ BodyUsed
 aRv
 .
 ThrowTypeError
-<
-MSG_FETCH_BODY_CONSUMED_ERROR
->
 (
+MSG_FETCH_BODY_CONSUMED_ERROR
 )
 ;
 return

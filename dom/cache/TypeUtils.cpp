@@ -1096,10 +1096,8 @@ url
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL_SCHEME
->
 (
+MSG_INVALID_URL_SCHEME
 &
 label
 &
@@ -1466,10 +1464,8 @@ headers
 aRv
 .
 ThrowTypeError
-<
-MSG_RESPONSE_HAS_VARY_STAR
->
 (
+MSG_RESPONSE_HAS_VARY_STAR
 )
 ;
 return
@@ -1580,10 +1576,8 @@ BodyUsed
 aRv
 .
 ThrowTypeError
-<
-MSG_FETCH_BODY_CONSUMED_ERROR
->
 (
+MSG_FETCH_BODY_CONSUMED_ERROR
 )
 ;
 return
@@ -3005,10 +2999,8 @@ BodyUsed
 aRv
 .
 ThrowTypeError
-<
-MSG_FETCH_BODY_CONSUMED_ERROR
->
 (
+MSG_FETCH_BODY_CONSUMED_ERROR
 )
 ;
 return

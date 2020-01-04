@@ -252,10 +252,8 @@ mEncoding
 aRv
 .
 ThrowRangeError
-<
-MSG_ENCODING_NOT_SUPPORTED
->
 (
+MSG_ENCODING_NOT_SUPPORTED
 &
 label
 )
@@ -307,10 +305,8 @@ UTF
 aRv
 .
 ThrowRangeError
-<
-MSG_DOM_ENCODING_NOT_UTF
->
 (
+MSG_DOM_ENCODING_NOT_UTF
 )
 ;
 return

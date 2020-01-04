@@ -414,10 +414,8 @@ Request
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_URL_SCHEME
->
 (
+MSG_INVALID_URL_SCHEME
 &
 label
 &
@@ -477,10 +475,8 @@ method
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_REQUEST_METHOD
->
 (
+MSG_INVALID_REQUEST_METHOD
 &
 label
 )
@@ -1230,10 +1226,8 @@ rv
 rv
 .
 ThrowTypeError
-<
-MSG_FETCH_FAILED
->
 (
+MSG_FETCH_FAILED
 )
 ;
 mPromise
