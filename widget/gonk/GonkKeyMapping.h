@@ -192,7 +192,7 @@ NS_VK_HOME
 /
 /
 HOME
-0
+NS_VK_ESCAPE
 /
 /
 BACK
