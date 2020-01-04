@@ -78,9 +78,9 @@ require
 "
 devtools
 /
-server
+client
 /
-actors
+fronts
 /
 inspector
 "
