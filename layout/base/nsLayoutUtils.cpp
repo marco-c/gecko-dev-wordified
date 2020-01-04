@@ -11579,9 +11579,6 @@ ViewportHasDisplayPort
 nsPresContext
 *
 aPresContext
-nsRect
-*
-aDisplayPort
 )
 {
 nsIFrame
@@ -11607,7 +11604,7 @@ rootScrollFrame
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 rootScrollFrame
 -
@@ -11615,7 +11612,6 @@ rootScrollFrame
 GetContent
 (
 )
-aDisplayPort
 )
 ;
 }
