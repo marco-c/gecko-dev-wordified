@@ -4192,7 +4192,7 @@ BringToFront
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5342,7 +5342,7 @@ obs
 )
 break
 ;
-RefPtr
+nsRefPtr
 <
 ContentCreationNotifier
 >
@@ -6226,7 +6226,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -6283,7 +6283,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -6496,7 +6496,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -6654,7 +6654,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -7401,7 +7401,7 @@ default
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -8587,15 +8587,6 @@ return
 KEY_NAME_INDEX_USE_STRING
 ;
 case
-AKEYCODE_SOFT_LEFT
-:
-case
-AKEYCODE_SOFT_RIGHT
-:
-case
-AKEYCODE_CALL
-:
-case
 AKEYCODE_ENDCALL
 :
 case
@@ -9579,7 +9570,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -9838,7 +9829,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -10277,7 +10268,7 @@ any
 .
 *
 /
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10355,7 +10346,7 @@ GetIMEComposition
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -10564,7 +10555,7 @@ composition
 events
 *
 /
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -12588,7 +12579,7 @@ GetIMEComposition
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -13455,7 +13446,7 @@ imeRoot
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -15485,7 +15476,7 @@ CreateRootContentController
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GeckoContentController
 >
