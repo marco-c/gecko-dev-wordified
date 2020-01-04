@@ -1226,9 +1226,6 @@ class
 ConnectionStateInitOp
 ;
 class
-AudioStateInitOp
-;
-class
 VoiceRecognitionInitOp
 ;
 class
@@ -1272,9 +1269,6 @@ UnknownAtInitOp
 ;
 class
 KeyPressedInitOp
-;
-class
-WbsInitOp
 ;
 void
 ConnectionStateNtf
