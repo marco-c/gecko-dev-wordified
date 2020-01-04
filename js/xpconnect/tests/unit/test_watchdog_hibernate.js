@@ -339,7 +339,7 @@ Cu
 getWatchdogTimestamp
 (
 "
-RuntimeStateChange
+ContextStateChange
 "
 )
 ;

@@ -1473,7 +1473,7 @@ GetCompartmentName
 (
 )
 in
-XPCJSRuntime
+XPCJSContext
 .
 cpp
 /

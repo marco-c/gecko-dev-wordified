@@ -693,7 +693,7 @@ JSContext
 *
 context
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -863,7 +863,7 @@ JSContext
 *
 context
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -989,7 +989,7 @@ JSContext
 *
 context
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -1574,7 +1574,7 @@ JSContext
 *
 context
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get

@@ -4025,7 +4025,7 @@ JSContext
 *
 cx
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get

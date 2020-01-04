@@ -679,9 +679,9 @@ depth
 void
 UpdateWeakPointersAfterGC
 (
-XPCJSRuntime
+XPCJSContext
 *
-runtime
+context
 )
 ;
 void
@@ -1959,7 +1959,7 @@ i
 e
 .
 in
-XPCJSRuntime
+XPCJSContext
 :
 :
 mNativeSetMap

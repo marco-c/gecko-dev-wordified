@@ -14312,7 +14312,7 @@ cx
 nsXPConnect
 :
 :
-GetRuntimeInstance
+GetContextInstance
 (
 )
 -
@@ -17633,13 +17633,13 @@ aCategory
 EqualsLiteral
 (
 "
-RuntimeStateChange
+ContextStateChange
 "
 )
 )
 category
 =
-TimestampRuntimeStateChange
+TimestampContextStateChange
 ;
 else
 if
@@ -17696,7 +17696,7 @@ NS_ERROR_INVALID_ARG
 *
 aOut
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -19239,7 +19239,7 @@ aOut
 nsresult
 res
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -19302,7 +19302,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get

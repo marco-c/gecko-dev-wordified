@@ -684,7 +684,7 @@ Remove
 mClassInfo
 )
 ;
-GetRuntime
+GetContext
 (
 )
 -
@@ -699,7 +699,7 @@ Remove
 this
 )
 ;
-GetRuntime
+GetContext
 (
 )
 -

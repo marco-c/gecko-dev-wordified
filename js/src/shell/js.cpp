@@ -954,7 +954,7 @@ xpconnect
 /
 src
 /
-XPCJSRuntime
+XPCJSContext
 .
 cpp
 *
