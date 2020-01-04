@@ -628,6 +628,14 @@ return
 nullptr
 ;
 }
+GfxMemoryImageReporter
+:
+:
+DidAlloc
+(
+buffer
+)
+;
 return
 new
 MemoryTextureData
