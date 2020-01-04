@@ -1,5 +1,15 @@
 /
 *
+eslint
+-
+env
+es6
+:
+false
+*
+/
+/
+*
 *
 DO
 NOT
@@ -4898,9 +4908,11 @@ parse
 html
 )
 ;
+var
+i
+;
 for
 (
-let
 i
 =
 this
@@ -4948,7 +4960,6 @@ children
 ;
 for
 (
-let
 i
 =
 this
@@ -7734,8 +7745,8 @@ this
 .
 currentChar
 ;
-let
-node
+var
+textNode
 =
 new
 Text
@@ -7769,7 +7780,7 @@ n
 1
 )
 {
-node
+textNode
 .
 innerHTML
 =
@@ -7802,7 +7813,7 @@ length
 }
 else
 {
-node
+textNode
 .
 innerHTML
 =
@@ -7826,7 +7837,7 @@ n
 ;
 }
 return
-node
+textNode
 ;
 }
 c
