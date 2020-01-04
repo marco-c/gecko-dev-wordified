@@ -2113,7 +2113,7 @@ formats
 =
 {
 '
-datazilla_urls
+output_urls
 '
 :
 PerfherderOutput

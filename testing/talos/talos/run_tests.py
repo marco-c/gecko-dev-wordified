@@ -1484,7 +1484,7 @@ required
 .
 .
             
-datazilla_urls
+output_urls
 =
 [
 '
@@ -1510,7 +1510,7 @@ results_urls
 =
 dict
 (
-datazilla_urls
+output_urls
 =
 [
 os
@@ -1883,7 +1883,7 @@ s
 results_urls
 [
 '
-datazilla_urls
+output_urls
 '
 ]
 )
