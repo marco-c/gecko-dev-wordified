@@ -1803,14 +1803,14 @@ InitInternal
 ;
 virtual
 void
-WriteInternal
+DoDecode
 (
 const
 char
 *
 aBuffer
-uint32_t
-aCount
+size_t
+aLength
 )
 =
 0

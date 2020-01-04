@@ -1162,10 +1162,10 @@ your
 decoder
 '
 s
-WriteInternal
-method
+DoDecode
 (
 )
+method
 call
 Lex
 (
@@ -1182,7 +1182,7 @@ that
 are
 passed
 to
-WriteInternal
+DoDecode
 (
 )
 .
@@ -1384,7 +1384,7 @@ should
 just
 return
 from
-WriteInternal
+DoDecode
 (
 )
 .

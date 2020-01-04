@@ -879,7 +879,7 @@ to
 the
 implementation
 .
-WriteInternal
+DoDecode
 (
 mIterator
 -
