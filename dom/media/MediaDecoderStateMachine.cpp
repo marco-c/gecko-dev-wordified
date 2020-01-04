@@ -7232,9 +7232,6 @@ MediaDecoderStateMachine
 :
 Init
 (
-MediaDecoderStateMachine
-*
-aCloneDonor
 )
 {
 MOZ_ASSERT

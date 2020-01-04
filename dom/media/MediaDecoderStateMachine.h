@@ -1094,9 +1094,6 @@ false
 nsresult
 Init
 (
-MediaDecoderStateMachine
-*
-aCloneDonor
 )
 ;
 /

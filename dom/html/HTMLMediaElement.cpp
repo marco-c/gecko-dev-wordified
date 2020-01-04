@@ -7556,7 +7556,6 @@ FinishDecoderSetup
 decoder
 resource
 nullptr
-nullptr
 )
 ;
 }
@@ -15829,7 +15828,6 @@ FinishDecoderSetup
 decoder
 resource
 nullptr
-aOriginal
 )
 ;
 }
@@ -16126,7 +16124,6 @@ FinishDecoderSetup
 decoder
 resource
 aListener
-nullptr
 )
 ;
 }
@@ -16147,9 +16144,6 @@ nsIStreamListener
 *
 *
 aListener
-MediaDecoder
-*
-aCloneDonor
 )
 {
 ChangeNetworkState
@@ -16352,7 +16346,6 @@ aDecoder
 Load
 (
 aListener
-aCloneDonor
 )
 ;
 if

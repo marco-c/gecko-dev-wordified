@@ -2399,9 +2399,6 @@ nsIStreamListener
 *
 *
 aListener
-MediaDecoder
-*
-aCloneDonor
 )
 ;
 /
@@ -2707,9 +2704,6 @@ it
 nsresult
 InitializeStateMachine
 (
-MediaDecoder
-*
-aCloneDonor
 )
 ;
 /

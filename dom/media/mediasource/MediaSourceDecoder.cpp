@@ -420,8 +420,6 @@ Load
 nsIStreamListener
 *
 *
-MediaDecoder
-*
 )
 {
 MOZ_ASSERT
@@ -480,7 +478,6 @@ GetStateMachine
 >
 Init
 (
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
