@@ -5618,7 +5618,7 @@ nsresult
 nsHTMLScrollFrame
 :
 :
-GetPadding
+GetXULPadding
 (
 nsMargin
 &
@@ -5672,7 +5672,7 @@ also
 nsXULScrollFrame
 :
 :
-GetPadding
+GetXULPadding
 .
 aMargin
 .
@@ -8899,7 +8899,7 @@ nsresult
 nsXULScrollFrame
 :
 :
-GetPadding
+GetXULPadding
 (
 nsMargin
 &

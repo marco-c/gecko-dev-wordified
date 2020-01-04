@@ -59973,7 +59973,7 @@ methods
 parentFrame
 -
 >
-GetPadding
+GetXULPadding
 (
 parentReflowState
 .

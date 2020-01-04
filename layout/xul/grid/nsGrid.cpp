@@ -3671,7 +3671,7 @@ border
 box
 -
 >
-GetPadding
+GetXULPadding
 (
 padding
 )
@@ -4157,7 +4157,7 @@ border
 box
 -
 >
-GetPadding
+GetXULPadding
 (
 padding
 )

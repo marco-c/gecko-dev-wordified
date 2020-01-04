@@ -4327,7 +4327,7 @@ override
 ;
 virtual
 nsresult
-GetPadding
+GetXULPadding
 (
 nsMargin
 &
@@ -6678,7 +6678,7 @@ override
 ;
 virtual
 nsresult
-GetPadding
+GetXULPadding
 (
 nsMargin
 &

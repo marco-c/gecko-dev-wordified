@@ -1092,7 +1092,7 @@ border
 aBox
 -
 >
-GetPadding
+GetXULPadding
 (
 border
 )
