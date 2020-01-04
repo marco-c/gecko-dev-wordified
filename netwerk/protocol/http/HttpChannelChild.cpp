@@ -500,7 +500,7 @@ nsIStreamListener
 public
 nsIProgressEventSink
 {
-RefPtr
+nsRefPtr
 <
 HttpChannelChild
 >
@@ -9111,7 +9111,7 @@ this
 mListenerContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 InterceptedChannelContent
 >
@@ -13890,9 +13890,10 @@ redirects
 has
 passed
 .
-ForceNoIntercept
-(
-)
+mLoadFlags
+|
+=
+LOAD_BYPASS_SERVICE_WORKER
 ;
 /
 /
