@@ -1071,13 +1071,13 @@ decltype
 (
 f
 (
-reinterpret_cast
+static_cast
 <
 JSObject
 *
 >
 (
-0
+nullptr
 )
 mozilla
 :
