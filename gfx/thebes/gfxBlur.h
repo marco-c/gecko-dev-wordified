@@ -1359,10 +1359,15 @@ surface
 .
 *
 /
-nsAutoArrayPtr
+mozilla
+:
+:
+UniquePtr
 <
 unsigned
 char
+[
+]
 >
 mData
 ;
