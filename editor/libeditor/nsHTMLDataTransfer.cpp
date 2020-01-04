@@ -13527,7 +13527,7 @@ a
 list
 of
 nodes
-nsTrivialFunctor
+TrivialFunctor
 functor
 ;
 nsDOMSubtreeIterator

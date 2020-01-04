@@ -1566,8 +1566,12 @@ aRange
 ;
 }
 ;
+namespace
+mozilla
+{
 class
-nsTrivialFunctor
+TrivialFunctor
+final
 :
 public
 nsBoolDomIterFunctor
@@ -1603,9 +1607,6 @@ true
 }
 }
 ;
-namespace
-mozilla
-{
 /
 *
 *
