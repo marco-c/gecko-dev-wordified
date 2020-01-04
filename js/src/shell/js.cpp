@@ -22584,8 +22584,7 @@ rt
 gc
 :
 :
-AutoFinishGC
-finishgc
+FinishGC
 (
 rt
 )
@@ -23173,8 +23172,7 @@ rt
 gc
 :
 :
-AutoFinishGC
-finishgc
+FinishGC
 (
 rt
 )

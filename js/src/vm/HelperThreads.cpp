@@ -7158,8 +7158,7 @@ occur
 gc
 :
 :
-AutoFinishGC
-finishGC
+FinishGC
 (
 rt
 )

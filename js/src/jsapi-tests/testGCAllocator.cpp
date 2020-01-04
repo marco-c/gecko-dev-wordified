@@ -366,8 +366,7 @@ js
 gc
 :
 :
-AutoFinishGC
-finishGC
+FinishGC
 (
 rt
 )
