@@ -573,6 +573,12 @@ ensureInit
 (
 /
 *
+profile
+*
+/
+null
+/
+*
 args
 *
 /
@@ -583,6 +589,12 @@ action
 *
 /
 null
+/
+*
+debugging
+*
+/
+false
 )
 ;
 GeckoThread
