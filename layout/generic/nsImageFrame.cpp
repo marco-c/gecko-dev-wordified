@@ -13311,6 +13311,8 @@ nsImageFrame
 OnVisibilityChange
 (
 Visibility
+aOldVisibility
+Visibility
 aNewVisibility
 Maybe
 <
@@ -13351,6 +13353,7 @@ nsAtomicContainerFrame
 :
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -13363,11 +13366,22 @@ imageLoader
 >
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
 ;
 if
+(
+aOldVisibility
+=
+=
+Visibility
+:
+:
+NONVISIBLE
+&
+&
 (
 aNewVisibility
 =
@@ -13386,6 +13400,7 @@ Visibility
 :
 IN_DISPLAYPORT
 )
+)
 {
 MaybeDecodeForPredictedSize
 (
@@ -13397,6 +13412,7 @@ nsAtomicContainerFrame
 :
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
