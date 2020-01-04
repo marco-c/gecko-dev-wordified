@@ -9233,8 +9233,15 @@ a
 known
 crash
 .
-MOZ_CRASH
+gfxDevCrash
 (
+LogReason
+:
+:
+TextureCreation
+)
+<
+<
 "
 Crash
 creating
@@ -9245,7 +9252,6 @@ bug
 1221348
 .
 "
-)
 ;
 return
 false

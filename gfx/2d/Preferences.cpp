@@ -238,6 +238,12 @@ aVar
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+RegisterLivePref
+failure
+"
 )
 ;
 }

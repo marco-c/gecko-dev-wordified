@@ -784,6 +784,11 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+FormatFromBufferDescriptor
+"
 )
 ;
 }
@@ -847,6 +852,11 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+SizeFromBufferDescriptor
+"
 )
 ;
 }
