@@ -361,6 +361,7 @@ failure
 *
 /
 static
+MOZ_MUST_USE
 bool
 Add
 (
@@ -520,6 +521,7 @@ failure
 *
 /
 static
+MOZ_MUST_USE
 bool
 ComputeDistance
 (
@@ -668,6 +670,7 @@ failure
 *
 /
 static
+MOZ_MUST_USE
 bool
 Interpolate
 (
@@ -810,6 +813,7 @@ positive
 *
 /
 static
+MOZ_MUST_USE
 bool
 AddWeighted
 (
@@ -1112,6 +1116,7 @@ failure
 *
 /
 static
+MOZ_MUST_USE
 bool
 ComputeValue
 (
@@ -1230,6 +1235,7 @@ it
 *
 /
 static
+MOZ_MUST_USE
 bool
 ComputeValues
 (
@@ -1293,6 +1299,7 @@ supported
 *
 /
 static
+MOZ_MUST_USE
 bool
 ComputeValues
 (
@@ -1483,8 +1490,29 @@ on
 failure
 .
 *
+*
+These
+functions
+are
+not
+MOZ_MUST_USE
+because
+failing
+to
+check
+the
+return
+*
+value
+is
+common
+and
+reasonable
+.
+*
 /
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -1500,6 +1528,7 @@ aSpecifiedValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -1515,6 +1544,7 @@ aSpecifiedValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -1647,6 +1677,7 @@ failure
 *
 /
 static
+MOZ_MUST_USE
 bool
 ExtractComputedValue
 (
