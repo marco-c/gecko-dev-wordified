@@ -158,16 +158,6 @@ TreeWidget
 "
 )
 ;
-const
-Promise
-=
-require
-(
-"
-promise
-"
-)
-;
 add_task
 (
 function
@@ -747,8 +737,6 @@ item
 ;
 event
 =
-Promise
-.
 defer
 (
 )
@@ -909,8 +897,6 @@ firstChild
 ;
 event
 =
-Promise
-.
 defer
 (
 )
@@ -1131,8 +1117,6 @@ select
 event
 event
 =
-Promise
-.
 defer
 (
 )

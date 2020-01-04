@@ -78,12 +78,16 @@ uuid
 uuid
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -270,8 +274,6 @@ to
 const
 deferred
 =
-promise
-.
 defer
 (
 )

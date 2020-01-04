@@ -172,8 +172,6 @@ option
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -304,8 +302,6 @@ value
 let
 def
 =
-promise
-.
 defer
 (
 )

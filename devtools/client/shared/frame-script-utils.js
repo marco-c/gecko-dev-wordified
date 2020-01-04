@@ -120,12 +120,16 @@ jsm
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -547,8 +551,6 @@ random
 let
 deferred
 =
-promise
-.
 defer
 (
 )

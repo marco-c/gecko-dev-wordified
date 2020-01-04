@@ -232,12 +232,16 @@ Services
 )
 ;
 const
-Promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -1163,8 +1167,6 @@ pageUrl
 let
 deferred
 =
-Promise
-.
 defer
 (
 )
@@ -1407,8 +1409,6 @@ cssProperty
 let
 deferred
 =
-Promise
-.
 defer
 (
 )
@@ -2409,8 +2409,6 @@ this
 let
 deferred
 =
-Promise
-.
 defer
 (
 )

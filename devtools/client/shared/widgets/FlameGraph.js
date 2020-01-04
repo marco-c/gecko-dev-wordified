@@ -124,7 +124,14 @@ lazyRequireGetter
 (
 this
 "
-promise
+defer
+"
+"
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -911,8 +918,6 @@ this
 .
 _ready
 =
-promise
-.
 defer
 (
 )

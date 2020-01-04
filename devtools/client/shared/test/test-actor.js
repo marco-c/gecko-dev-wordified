@@ -100,12 +100,16 @@ utils
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -1382,8 +1386,6 @@ actorID
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1842,8 +1844,6 @@ level
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2691,8 +2691,6 @@ url
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3634,8 +3632,6 @@ selector
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3951,8 +3947,6 @@ return
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4114,8 +4108,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

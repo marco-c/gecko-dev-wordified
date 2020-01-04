@@ -211,6 +211,20 @@ promise
 )
 ;
 var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+var
 {
 LocalizationHelper
 }
@@ -985,8 +999,6 @@ aGrip
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1320,8 +1332,6 @@ slice
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1542,8 +1552,6 @@ displayed
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1748,8 +1756,6 @@ request
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2465,8 +2471,6 @@ then
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2541,8 +2545,6 @@ aOptions
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3155,8 +3157,6 @@ else
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -4118,8 +4118,6 @@ variable
 let
 deferred
 =
-promise
-.
 defer
 (
 )
