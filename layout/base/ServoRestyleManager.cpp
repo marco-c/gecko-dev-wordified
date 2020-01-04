@@ -1775,7 +1775,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_CRASH
+NS_ERROR
 (
 "
 stylo
@@ -1788,6 +1788,9 @@ not
 implemented
 "
 )
+;
+return
+NS_OK
 ;
 }
 ServoElementSnapshot
