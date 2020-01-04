@@ -9309,6 +9309,7 @@ gfxCriticalNote
 <
 "
 VendorIDMismatch
+V
 "
 <
 <
@@ -12180,6 +12181,7 @@ gfxCriticalNote
 <
 "
 VendorIDMismatch
+P
 "
 <
 <

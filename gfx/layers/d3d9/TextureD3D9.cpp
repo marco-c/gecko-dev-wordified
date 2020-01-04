@@ -2779,6 +2779,9 @@ the
 target
 in
 D3D9
+(
+BDT
+)
 "
 <
 <
@@ -3024,6 +3027,9 @@ the
 target
 in
 D3D9
+(
+UFS
+)
 "
 <
 <
@@ -3066,6 +3072,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+D3D9
+)
 .
 "
 ;
@@ -3116,6 +3125,9 @@ source
 surface
 for
 UpdateFromSurface
+(
+D3D9
+)
 .
 "
 ;

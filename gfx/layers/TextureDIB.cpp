@@ -913,6 +913,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+DIB
+)
 .
 "
 ;
@@ -1130,6 +1133,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+DTD
+)
 .
 "
 ;
