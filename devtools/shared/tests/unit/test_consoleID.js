@@ -428,13 +428,9 @@ ConsoleAPIListener
 (
 null
 callback
-{
-consoleID
-:
 "
 foo
 "
-}
 )
 ;
 listener
