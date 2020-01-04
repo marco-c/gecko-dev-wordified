@@ -2260,7 +2260,7 @@ images
 /
 tool
 -
-styleeditor
+canvas
 .
 svg
 "
