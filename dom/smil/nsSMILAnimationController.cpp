@@ -2502,6 +2502,11 @@ sampling
 return
 ;
 }
+bool
+isStyleFlushNeeded
+=
+mResampleNeeded
+;
 mResampleNeeded
 =
 false
@@ -3034,6 +3039,7 @@ AddAnimationToCompositorTable
 (
 animElem
 currentCompositorTable
+isStyleFlushNeeded
 )
 ;
 }
@@ -3389,6 +3395,11 @@ this
 '
 alive
 too
+if
+(
+isStyleFlushNeeded
+)
+{
 mDocument
 -
 >
@@ -3397,6 +3408,7 @@ FlushPendingNotifications
 Flush_Style
 )
 ;
+}
 /
 /
 WARNING
@@ -3505,6 +3517,11 @@ order
 bug
 501183
 )
+bool
+mightHavePendingStyleUpdates
+=
+false
+;
 for
 (
 auto
@@ -3540,6 +3557,7 @@ Get
 >
 ComposeAttribute
 (
+mightHavePendingStyleUpdates
 )
 ;
 }
@@ -3559,7 +3577,7 @@ forget
 ;
 mMightHavePendingStyleUpdates
 =
-true
+mightHavePendingStyleUpdates
 ;
 NS_ASSERTION
 (
@@ -4791,6 +4809,9 @@ aElement
 nsSMILCompositorTable
 *
 aCompositorTable
+bool
+&
+aStyleFlushNeeded
 )
 {
 /
@@ -5111,6 +5132,15 @@ ClearHasChanged
 )
 ;
 }
+aStyleFlushNeeded
+|
+=
+func
+.
+ValueNeedsReparsingEverySample
+(
+)
+;
 }
 static
 inline
