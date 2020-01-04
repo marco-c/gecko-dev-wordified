@@ -443,11 +443,6 @@ namedTimer
 CommonUtils
 .
 namedTimer
-stackTrace
-:
-CommonUtils
-.
-stackTrace
 makeURI
 :
 CommonUtils
