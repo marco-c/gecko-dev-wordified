@@ -4518,6 +4518,9 @@ publishStream
 settingsMenuItems
 :
 settingsMenuItems
+show
+:
+true
 video
 :
 this
