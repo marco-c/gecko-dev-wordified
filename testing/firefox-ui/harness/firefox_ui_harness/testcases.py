@@ -1937,12 +1937,6 @@ dialog
 .
 wizard
 .
-updates_found_billboard
-                                                    
-dialog
-.
-wizard
-.
 error_patching
                                                     
 ]
