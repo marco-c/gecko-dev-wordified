@@ -288,15 +288,6 @@ protected
 nsFilteredContentIterator
 (
 )
-:
-mDidSkip
-(
-false
-)
-mIsOutOfRange
-(
-false
-)
 {
 }
 virtual
