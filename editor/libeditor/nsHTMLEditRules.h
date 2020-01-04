@@ -1206,12 +1206,12 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 const
 nsAString
-&
-aAlignType
+*
+alignType
 bool
 *
 aCancel
