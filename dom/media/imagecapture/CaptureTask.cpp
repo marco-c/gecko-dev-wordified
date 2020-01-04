@@ -427,7 +427,7 @@ stream
 domStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 ;
@@ -501,7 +501,7 @@ stream
 domStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 ;

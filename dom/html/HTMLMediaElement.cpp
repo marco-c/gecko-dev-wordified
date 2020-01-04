@@ -3467,7 +3467,7 @@ mSrcAttrStream
 mSrcAttrStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 "
@@ -3567,7 +3567,7 @@ mSrcAttrStream
 mSrcAttrStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 "
@@ -10904,7 +10904,7 @@ out
 mStream
 -
 >
-GetStream
+GetInputStream
 (
 )
 -
@@ -10954,7 +10954,7 @@ out
 mStream
 -
 >
-CreateDOMTrack
+CreateOwnDOMTrack
 (
 audioTrackId
 MediaSegment
@@ -10986,7 +10986,7 @@ out
 mStream
 -
 >
-CreateDOMTrack
+CreateOwnDOMTrack
 (
 videoTrackId
 MediaSegment
@@ -13936,10 +13936,7 @@ MediaStream
 >
 stream
 =
-mSrcStream
--
->
-GetStream
+GetSrcMediaStream
 (
 )
 ;
@@ -16388,7 +16385,7 @@ ms
 mStream
 -
 >
-GetStream
+GetInputStream
 (
 )
 -
@@ -17582,7 +17579,7 @@ with
 mSrcStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 already
@@ -17598,10 +17595,7 @@ MediaStream
 *
 stream
 =
-mSrcStream
--
->
-GetStream
+GetSrcMediaStream
 (
 )
 ;
@@ -17966,10 +17960,7 @@ MediaStream
 >
 stream
 =
-mSrcStream
--
->
-GetStream
+GetSrcMediaStream
 (
 )
 ;
@@ -18561,7 +18552,7 @@ out
 mStream
 -
 >
-CreateDOMTrack
+CreateOwnDOMTrack
 (
 audioTrackId
 MediaSegment
@@ -18596,7 +18587,7 @@ out
 mStream
 -
 >
-CreateDOMTrack
+CreateOwnDOMTrack
 (
 videoTrackId
 MediaSegment
@@ -27103,7 +27094,9 @@ Normal
 ;
 if
 (
-mSrcStream
+GetSrcMediaStream
+(
+)
 )
 {
 mCaptureStreamPort
@@ -27114,10 +27107,7 @@ msg
 ConnectToCaptureStream
 (
 id
-mSrcStream
--
->
-GetStream
+GetSrcMediaStream
 (
 )
 )
@@ -27148,7 +27138,7 @@ id
 stream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 )
@@ -27217,7 +27207,7 @@ i
 mStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 =

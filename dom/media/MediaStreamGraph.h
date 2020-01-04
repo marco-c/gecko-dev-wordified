@@ -3264,17 +3264,6 @@ return
 nullptr
 ;
 }
-virtual
-CameraPreviewMediaStream
-*
-AsCameraPreviewStream
-(
-)
-{
-return
-nullptr
-;
-}
 /
 /
 These

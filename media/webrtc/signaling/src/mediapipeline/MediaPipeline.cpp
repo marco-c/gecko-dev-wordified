@@ -4210,7 +4210,7 @@ void
 domstream
 -
 >
-GetStream
+GetOwnedStream
 (
 )
 )
@@ -4285,7 +4285,7 @@ stream_
 domstream
 -
 >
-GetStream
+GetOwnedStream
 (
 )
 ;

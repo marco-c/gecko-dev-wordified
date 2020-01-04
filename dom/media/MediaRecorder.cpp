@@ -6996,7 +6996,7 @@ return
 mDOMStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 ;
