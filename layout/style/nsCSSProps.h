@@ -2754,6 +2754,7 @@ within
 an
 int16_t
 .
+constexpr
 KTableEntry
 (
 nsCSSKeyword
@@ -2799,6 +2800,7 @@ value
 :
 type
 >
+constexpr
 KTableEntry
 (
 nsCSSKeyword
