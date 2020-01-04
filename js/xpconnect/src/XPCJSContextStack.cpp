@@ -277,15 +277,6 @@ if
 mSafeJSContext
 )
 {
-delete
-XPCContext
-:
-:
-GetXPCContext
-(
-mSafeJSContext
-)
-;
 mSafeJSContext
 =
 nullptr
@@ -502,7 +493,7 @@ if
 mRuntime
 -
 >
-InitXPCContext
+JSContextInitialized
 (
 mSafeJSContext
 )
@@ -510,7 +501,7 @@ mSafeJSContext
 MOZ_CRASH
 (
 "
-InitXPCContext
+JSContextCreated
 failed
 "
 )
