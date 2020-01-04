@@ -1943,6 +1943,15 @@ test
 using_xperf
 :
                         
+if
+len
+(
+vals
+)
+>
+0
+:
+                            
 subtest
 [
 '
