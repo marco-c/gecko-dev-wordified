@@ -365,6 +365,10 @@ transferBuffersToFree
 MallocedBuffersSet
 &
 buffersToFree
+const
+AutoLockHelperThreadState
+&
+lock
 )
 ;
 ~
@@ -3890,6 +3894,10 @@ transferBuffersToFree
 MallocedBuffersSet
 &
 buffersToFree
+const
+AutoLockHelperThreadState
+&
+lock
 )
 {
 /
@@ -3923,8 +3931,9 @@ source
 MOZ_ASSERT
 (
 !
-isRunning
+isRunningWithLockHeld
 (
+lock
 )
 )
 ;
@@ -4049,6 +4058,7 @@ freeMallocedBuffersTask
 transferBuffersToFree
 (
 mallocedBuffers
+lock
 )
 ;
 started
