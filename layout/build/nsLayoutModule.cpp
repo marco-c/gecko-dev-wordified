@@ -422,6 +422,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsIEventListenerService
 .
 h
