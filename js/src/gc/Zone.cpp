@@ -253,6 +253,10 @@ types
 (
 this
 )
+gcWeakMapList
+(
+nullptr
+)
 compartments
 (
 )
