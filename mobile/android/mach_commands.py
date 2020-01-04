@@ -1129,14 +1129,6 @@ app
 src
 /
 robocop
-/
-org
-/
-mozilla
-/
-gecko
-/
-tests
 '
 '
 mobile
@@ -1148,6 +1140,12 @@ tests
 browser
 /
 robocop
+/
+src
+/
+androidTest
+/
+java
 '
 )
         
