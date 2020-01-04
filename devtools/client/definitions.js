@@ -1053,7 +1053,7 @@ toolbox
 -
 options
 .
-xul
+xhtml
 "
 icon
 :
