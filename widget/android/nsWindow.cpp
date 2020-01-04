@@ -7675,6 +7675,9 @@ dialog
 =
 0
 resizable
+scrollbars
+=
+yes
 "
 nullptr
 getter_AddRefs
