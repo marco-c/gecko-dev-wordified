@@ -763,11 +763,7 @@ this
 .
 inherited
 .
-tagName
-.
-toLowerCase
-(
-)
+displayName
 ;
 if
 (
