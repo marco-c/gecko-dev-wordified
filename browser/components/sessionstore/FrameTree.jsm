@@ -1588,8 +1588,9 @@ it
 this
 .
 _frames
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

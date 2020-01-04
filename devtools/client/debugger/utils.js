@@ -803,8 +803,9 @@ clear
 this
 .
 _minifiedCache
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

@@ -615,8 +615,9 @@ try
 this
 .
 _preDialogPosition
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;
@@ -4022,8 +4023,9 @@ managers
 this
 .
 eventManagers
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

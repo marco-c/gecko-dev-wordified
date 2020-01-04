@@ -12435,8 +12435,9 @@ _dragSizeMap
 this
 .
 _dragSizeMap
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

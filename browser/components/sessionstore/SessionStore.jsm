@@ -11350,8 +11350,9 @@ _clearRestoringWindows
 this
 .
 _saveableClosedWindowData
-.
-clear
+=
+new
+WeakSet
 (
 )
 ;
@@ -30888,8 +30889,9 @@ window
 this
 .
 _data
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;
