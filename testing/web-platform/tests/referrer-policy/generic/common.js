@@ -207,7 +207,7 @@ E
 g
 .
 "
-referrer_policy
+referrerPolicy
 "
 or
 "
@@ -309,7 +309,7 @@ E
 g
 .
 "
-referrer_policy
+referrerPolicy
 "
 or
 "
