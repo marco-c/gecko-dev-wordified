@@ -719,6 +719,11 @@ NewArrayDynamicLength
 \
 _
 (
+NewTypedArray
+)
+\
+_
+(
 NewObject
 )
 \
