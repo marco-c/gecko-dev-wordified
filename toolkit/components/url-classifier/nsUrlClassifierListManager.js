@@ -260,11 +260,11 @@ PROT_XMLFetcher
 ;
 modScope
 .
-RequestBackoff
+RequestBackoffV4
 =
 jslib
 .
-RequestBackoff
+RequestBackoffV4
 ;
 /
 /
