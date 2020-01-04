@@ -147,6 +147,15 @@ function
 (
 )
 {
+window
+.
+onload
+=
+(
+)
+=
+>
+{
 browser
 .
 runtime
@@ -159,6 +168,8 @@ from
 popup
 "
 )
+;
+}
 ;
 }
 }

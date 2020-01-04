@@ -938,6 +938,13 @@ win
 )
 ;
 yield
+awaitExtensionPanel
+(
+extension
+win
+)
+;
+yield
 extension
 .
 awaitMessage
