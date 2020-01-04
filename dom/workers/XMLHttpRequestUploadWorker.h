@@ -132,7 +132,7 @@ class
 XMLHttpRequestWorker
 ;
 class
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 final
 :
 public
@@ -145,7 +145,7 @@ XMLHttpRequestWorker
 mXHR
 ;
 explicit
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 (
 XMLHttpRequestWorker
 *
@@ -153,7 +153,7 @@ aXHR
 )
 ;
 ~
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 (
 )
 ;
@@ -182,7 +182,7 @@ override
 static
 already_AddRefed
 <
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 >
 Create
 (
@@ -193,7 +193,7 @@ aXHR
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 nsXHREventTarget
 )
 NS_DECL_ISUPPORTS_INHERITED

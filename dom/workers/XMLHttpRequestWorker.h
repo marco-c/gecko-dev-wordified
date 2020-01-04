@@ -198,7 +198,7 @@ class
 SendRunnable
 ;
 class
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 ;
 class
 WorkerPrivate
@@ -302,7 +302,7 @@ private
 :
 RefPtr
 <
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 >
 mUpload
 ;
@@ -673,7 +673,7 @@ ErrorResult
 aRv
 )
 ;
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 *
 GetUpload
 (
@@ -960,7 +960,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 *
 GetUploadObjectNoCreate
 (
