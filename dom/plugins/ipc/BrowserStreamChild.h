@@ -212,13 +212,13 @@ int32_t
 &
 offset
 const
-Buffer
-&
-data
-const
 uint32_t
 &
 newsize
+const
+Buffer
+&
+data
 )
 override
 ;
