@@ -427,14 +427,6 @@ nsIFrame
 aFrame
 )
 ;
-nsresult
-ProcessRestyledFrames
-(
-nsStyleChangeList
-&
-aChangeList
-)
-;
 bool
 HasPendingRestyles
 (
