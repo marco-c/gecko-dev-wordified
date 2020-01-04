@@ -1133,7 +1133,7 @@ docker
 image
 (
 from
-taskcluster
+testing
 /
 docker
 /
