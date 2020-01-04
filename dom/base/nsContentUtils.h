@@ -16378,17 +16378,6 @@ char
 aUri
 )
 ;
-static
-void
-SetScrollbarsVisibility
-(
-nsIDocShell
-*
-aDocShell
-bool
-aVisible
-)
-;
 private
 :
 static
