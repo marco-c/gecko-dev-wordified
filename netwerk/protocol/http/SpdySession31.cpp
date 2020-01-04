@@ -3206,6 +3206,10 @@ mInputFrameDataStream
 ;
 }
 }
+mInputFrameDataLast
+=
+false
+;
 mInputFrameBufferUsed
 =
 0
