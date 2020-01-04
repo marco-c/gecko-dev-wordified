@@ -57,13 +57,13 @@ MPL
 *
 /
 const
-nsIQuotaManager
+nsIQuotaManagerService
 =
 Components
 .
 interfaces
 .
-nsIQuotaManager
+nsIQuotaManagerService
 ;
 var
 gURI
@@ -112,9 +112,7 @@ null
 function
 onUsageCallback
 (
-principal
-usage
-fileUsage
+request
 )
 {
 }
@@ -124,7 +122,7 @@ onLoad
 )
 {
 var
-quotaManager
+quotaManagerService
 =
 Components
 .
@@ -138,8 +136,10 @@ org
 dom
 /
 quota
-/
+-
 manager
+-
+service
 ;
 1
 "
@@ -147,7 +147,7 @@ manager
 .
 getService
 (
-nsIQuotaManager
+nsIQuotaManagerService
 )
 ;
 let
@@ -187,7 +187,7 @@ gURI
 var
 quotaRequest
 =
-quotaManager
+quotaManagerService
 .
 getUsageForPrincipal
 (
