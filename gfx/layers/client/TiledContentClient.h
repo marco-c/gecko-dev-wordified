@@ -1866,10 +1866,12 @@ display
 port
 set
 .
-Empty
+isNothing
+(
+)
+*
 if
 a
-*
 critical
 displayport
 is
@@ -1878,7 +1880,10 @@ set
 .
 *
 /
+Maybe
+<
 LayerIntRect
+>
 mCriticalDisplayPort
 ;
 /
