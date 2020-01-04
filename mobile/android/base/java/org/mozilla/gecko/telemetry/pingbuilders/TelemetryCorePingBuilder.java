@@ -341,7 +341,7 @@ final
 int
 VERSION_VALUE
 =
-5
+6
 ;
 /
 /
