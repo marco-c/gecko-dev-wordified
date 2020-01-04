@@ -2838,7 +2838,7 @@ gfxCharacterMap
 (
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 16384
@@ -3218,7 +3218,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-FallibleTArray
+nsTArray
 <
 uint8_t
 >

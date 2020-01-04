@@ -4834,7 +4834,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -5199,7 +5199,7 @@ T
 aSource
 uint32_t
 aColumnIndex
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -5384,7 +5384,7 @@ mozIStorageStatement
 aStatement
 uint32_t
 aColumnIndex
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -5409,7 +5409,7 @@ mozIStorageValueArray
 aValues
 uint32_t
 aColumnIndex
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -14419,7 +14419,7 @@ an
 empty
 array
 .
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -20000,7 +20000,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -20040,7 +20040,7 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -20600,7 +20600,7 @@ return
 rv
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -28328,7 +28328,7 @@ const
 UniqueIndexTable
 &
 aUniqueIndexTable
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -34749,7 +34749,7 @@ const
 Key
 &
 aObjectDataKey
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -84812,7 +84812,7 @@ const
 UniqueIndexTable
 &
 aUniqueIndexTable
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -86482,7 +86482,7 @@ DatabaseConnection
 CachedStatement
 deleteStmt
 ;
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -109551,7 +109551,7 @@ return
 rv
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -110037,7 +110037,7 @@ const
 Key
 &
 aObjectStoreKey
-FallibleTArray
+nsTArray
 <
 IndexDataValue
 >
@@ -111403,7 +111403,7 @@ nullIndexDataValuesStmt
 Key
 lastObjectStoreKey
 ;
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -113075,7 +113075,7 @@ if
 hasResult
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32
@@ -115920,7 +115920,7 @@ the
 index_data_values
 column
 .
-AutoFallibleTArray
+AutoTArray
 <
 IndexDataValue
 32

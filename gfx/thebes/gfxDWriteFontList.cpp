@@ -2293,7 +2293,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-FallibleTArray
+nsTArray
 <
 uint8_t
 >
@@ -3878,7 +3878,7 @@ S
 '
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 128
