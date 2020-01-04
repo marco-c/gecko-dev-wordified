@@ -423,7 +423,7 @@ mStride
 }
 }
 virtual
-void
+bool
 SetData
 (
 const
@@ -631,7 +631,7 @@ aRecycleBin
 }
 }
 ;
-void
+bool
 BasicPlanarYCbCrImage
 :
 :
@@ -657,6 +657,7 @@ mDelayedConversion
 )
 {
 return
+false
 ;
 }
 /
@@ -708,6 +709,7 @@ height
 )
 ;
 return
+false
 ;
 }
 gfx
@@ -780,6 +782,7 @@ height
 )
 ;
 return
+false
 ;
 }
 gfxImageFormat
@@ -829,6 +832,7 @@ out
 of
 memory
 return
+false
 ;
 }
 gfx
@@ -851,6 +855,9 @@ iFormat
 mSize
 =
 size
+;
+return
+true
 ;
 }
 already_AddRefed

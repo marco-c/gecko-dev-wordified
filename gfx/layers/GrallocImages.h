@@ -418,7 +418,7 @@ managers
 *
 /
 virtual
-void
+bool
 SetData
 (
 const
@@ -453,7 +453,7 @@ managers
 *
 /
 virtual
-void
+bool
 SetData
 (
 const

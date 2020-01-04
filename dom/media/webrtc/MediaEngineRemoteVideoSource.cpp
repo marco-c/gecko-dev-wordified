@@ -1685,6 +1685,9 @@ StereoMode
 :
 MONO
 ;
+if
+(
+!
 videoImage
 -
 >
@@ -1692,7 +1695,17 @@ SetData
 (
 data
 )
+)
+{
+MOZ_ASSERT
+(
+false
+)
 ;
+return
+0
+;
+}
 #
 ifdef
 DEBUG

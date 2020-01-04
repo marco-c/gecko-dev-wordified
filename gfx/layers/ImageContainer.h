@@ -4415,7 +4415,7 @@ managers
 *
 /
 virtual
-void
+bool
 SetData
 (
 const
@@ -4493,7 +4493,7 @@ directly
 *
 /
 virtual
-void
+bool
 SetDataNoCopy
 (
 const
@@ -4732,7 +4732,7 @@ data
 .
 *
 /
-void
+bool
 CopyData
 (
 const

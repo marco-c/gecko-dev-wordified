@@ -561,7 +561,7 @@ GetAsSourceSurface
 )
 ;
 }
-void
+bool
 SharedPlanarYCbCrImage
 :
 :
@@ -637,6 +637,7 @@ data
 )
 {
 return
+false
 ;
 }
 MOZ_ASSERT
@@ -678,6 +679,7 @@ texture
 )
 ;
 return
+false
 ;
 }
 TextureClientAutoUnlock
@@ -719,6 +721,7 @@ TextureClient
 )
 ;
 return
+false
 ;
 }
 mTextureClient
@@ -727,6 +730,9 @@ mTextureClient
 MarkImmutable
 (
 )
+;
+return
+true
 ;
 }
 /
@@ -879,7 +885,7 @@ GetData
 )
 ;
 }
-void
+bool
 SharedPlanarYCbCrImage
 :
 :
@@ -912,6 +918,7 @@ mTextureClient
 )
 {
 return
+false
 ;
 }
 mData
@@ -1067,6 +1074,9 @@ aData
 .
 mStereoMode
 )
+;
+return
+true
 ;
 }
 uint8_t

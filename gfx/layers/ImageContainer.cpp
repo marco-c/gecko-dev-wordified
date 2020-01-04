@@ -2894,7 +2894,7 @@ aStride
 }
 }
 }
-void
+bool
 PlanarYCbCrImage
 :
 :
@@ -2958,6 +2958,7 @@ if
 mBuffer
 )
 return
+false
 ;
 /
 /
@@ -3073,8 +3074,11 @@ aData
 .
 mPicSize
 ;
+return
+true
+;
 }
-void
+bool
 PlanarYCbCrImage
 :
 :
@@ -3086,6 +3090,7 @@ Data
 aData
 )
 {
+return
 CopyData
 (
 aData
@@ -3124,7 +3129,7 @@ GetOffscreenFormat
 mOffscreenFormat
 ;
 }
-void
+bool
 PlanarYCbCrImage
 :
 :
@@ -3145,6 +3150,9 @@ mSize
 aData
 .
 mPicSize
+;
+return
+true
 ;
 }
 uint8_t

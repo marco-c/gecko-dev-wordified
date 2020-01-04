@@ -629,6 +629,9 @@ can
 free
 data
 .
+if
+(
+!
 planar
 -
 >
@@ -636,7 +639,17 @@ SetData
 (
 data
 )
+)
+{
+MOZ_ASSERT
+(
+false
+)
 ;
+return
+nullptr
+;
+}
 return
 image
 .

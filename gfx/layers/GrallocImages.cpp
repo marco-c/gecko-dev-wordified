@@ -359,7 +359,7 @@ GrallocImage
 )
 {
 }
-void
+bool
 GrallocImage
 :
 :
@@ -482,6 +482,7 @@ support
 HAL_PIXEL_FORMAT_YV12
 .
 return
+false
 ;
 }
 RefPtr
@@ -596,6 +597,7 @@ mTextureClient
 nullptr
 ;
 return
+false
 ;
 }
 mTextureClient
@@ -626,6 +628,7 @@ OK
 )
 {
 return
+false
 ;
 }
 uint8_t
@@ -1024,8 +1027,11 @@ mCbChannel
 =
 nullptr
 ;
+return
+true
+;
 }
-void
+bool
 GrallocImage
 :
 :
@@ -1059,6 +1065,9 @@ mSize
 aData
 .
 mPicSize
+;
+return
+true
 ;
 }
 /

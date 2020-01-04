@@ -1542,7 +1542,7 @@ to
 PlanarYCbCrImage
 .
 static
-void
+bool
 SetVideoDataToImage
 (
 PlanarYCbCrImage
