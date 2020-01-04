@@ -1565,7 +1565,7 @@ browser
 .
 outer
 .
-setDocShellIsActiveAndForeground
+preserveLayers
 =
 value
 =
@@ -1577,7 +1577,7 @@ frameLoader
 .
 tabParent
 .
-setDocShellIsActiveAndForeground
+preserveLayers
 (
 value
 )
@@ -1833,7 +1833,7 @@ docShellIsActive
 delete
 outer
 .
-setDocShellIsActiveAndForeground
+preserveLayers
 ;
 /
 /
