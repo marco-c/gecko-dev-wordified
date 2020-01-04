@@ -257,7 +257,8 @@ f
 else
 :
             
-print
+raise
+TypeError
 (
 "
 Parameters
@@ -275,13 +276,6 @@ format
 (
 filename
 )
-)
-            
-sys
-.
-exit
-(
-1
 )
 def
 get_decision_parameters
