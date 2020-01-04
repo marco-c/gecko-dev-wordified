@@ -173,6 +173,9 @@ HitTestResult
 {
 HitNothing
 HitLayer
+HitLayerTouchActionNone
+HitLayerTouchActionPanX
+HitLayerTouchActionPanY
 HitDispatchToContentRegion
 }
 ;
