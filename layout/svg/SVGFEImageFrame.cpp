@@ -848,6 +848,15 @@ nsIImageLoadingContent
 "
 )
 ;
+SVGFEImageFrameBase
+:
+:
+OnVisibilityChange
+(
+aNewVisibility
+aNonvisibleAction
+)
+;
 return
 ;
 }

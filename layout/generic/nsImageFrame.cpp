@@ -13922,6 +13922,15 @@ nsIImageLoadingContent
 "
 )
 ;
+ImageFrameSuper
+:
+:
+OnVisibilityChange
+(
+aNewVisibility
+aNonvisibleAction
+)
+;
 return
 ;
 }
