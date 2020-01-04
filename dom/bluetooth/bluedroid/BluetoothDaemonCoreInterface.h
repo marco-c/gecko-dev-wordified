@@ -509,7 +509,7 @@ aBdAddr
 bool
 aAccept
 const
-nsAString
+BluetoothPinCode
 &
 aPinCode
 BluetoothResultHandler

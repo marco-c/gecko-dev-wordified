@@ -1613,7 +1613,7 @@ aBdAddr
 bool
 aAccept
 const
-nsAString
+BluetoothPinCode
 &
 aPinCode
 BluetoothResultHandler
@@ -1650,14 +1650,7 @@ PackPDU
 (
 aBdAddr
 aAccept
-PackConversion
-<
-nsAString
-BluetoothPinCode
->
-(
 aPinCode
-)
 *
 pdu
 )
