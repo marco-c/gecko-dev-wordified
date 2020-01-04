@@ -148,8 +148,6 @@ Natives
 <
 Telemetry
 >
-public
-UsesGeckoThreadProxy
 {
 Telemetry
 (

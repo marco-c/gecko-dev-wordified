@@ -167,8 +167,6 @@ Natives
 <
 PrefsHelper
 >
-public
-UsesGeckoThreadProxy
 {
 PrefsHelper
 (
