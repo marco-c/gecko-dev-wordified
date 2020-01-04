@@ -263,7 +263,6 @@ false
 )
 {
 }
-virtual
 nsresult
 Close
 (
@@ -274,7 +273,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 Suspend
 (
@@ -288,7 +286,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 void
 Resume
 (
@@ -300,7 +297,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 bool
 CanClone
 (
@@ -315,7 +311,6 @@ return
 false
 ;
 }
-virtual
 already_AddRefed
 <
 MediaResource
@@ -335,7 +330,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 SetReadMode
 (
@@ -352,7 +346,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 void
 SetPlaybackRate
 (
@@ -366,7 +359,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 nsresult
 ReadAt
 (
@@ -391,7 +383,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-virtual
 int64_t
 Tell
 (
@@ -407,7 +398,6 @@ return
 1
 ;
 }
-virtual
 void
 Pin
 (
@@ -419,7 +409,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 void
 Unpin
 (
@@ -431,7 +420,6 @@ UNIMPLEMENTED
 )
 ;
 }
-virtual
 double
 GetDownloadRate
 (
@@ -454,7 +442,6 @@ return
 0
 ;
 }
-virtual
 int64_t
 GetLength
 (
@@ -470,7 +457,6 @@ return
 1
 ;
 }
-virtual
 int64_t
 GetNextCachedData
 (
@@ -488,7 +474,6 @@ return
 1
 ;
 }
-virtual
 int64_t
 GetCachedDataEnd
 (
@@ -506,7 +491,6 @@ return
 1
 ;
 }
-virtual
 bool
 IsDataCachedToEndOfResource
 (
@@ -523,7 +507,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsSuspendedByCache
 (
@@ -538,7 +521,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsSuspended
 (
@@ -553,7 +535,6 @@ return
 false
 ;
 }
-virtual
 nsresult
 ReadFromCache
 (
@@ -575,7 +556,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-virtual
 nsresult
 Open
 (
@@ -594,7 +574,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-virtual
 already_AddRefed
 <
 nsIPrincipal
@@ -618,7 +597,6 @@ forget
 )
 ;
 }
-virtual
 nsresult
 GetCachedRanges
 (
@@ -647,7 +625,6 @@ return
 NS_OK
 ;
 }
-virtual
 bool
 IsTransportSeekable
 (
@@ -658,7 +635,6 @@ return
 true
 ;
 }
-virtual
 const
 nsCString
 &
@@ -672,7 +648,6 @@ return
 mType
 ;
 }
-virtual
 bool
 IsLiveStream
 (
@@ -708,7 +683,6 @@ mEnded
 aEnded
 ;
 }
-virtual
 bool
 IsExpectingMoreData
 (
@@ -728,7 +702,6 @@ mEnded
 }
 private
 :
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -763,7 +736,6 @@ return
 size
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

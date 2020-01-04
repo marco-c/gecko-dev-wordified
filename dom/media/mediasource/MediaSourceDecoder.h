@@ -218,7 +218,6 @@ HTMLMediaElement
 aElement
 )
 ;
-virtual
 MediaDecoder
 *
 Clone
@@ -229,7 +228,6 @@ aOwner
 )
 override
 ;
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine
@@ -237,7 +235,6 @@ CreateStateMachine
 )
 override
 ;
-virtual
 nsresult
 Load
 (
@@ -247,7 +244,6 @@ nsIStreamListener
 )
 override
 ;
-virtual
 media
 :
 :
@@ -317,7 +313,6 @@ mDormantSupported
 aSupported
 ;
 }
-virtual
 RefPtr
 <
 ShutdownPromise
@@ -375,7 +370,6 @@ video
 in
 seconds
 .
-virtual
 double
 GetDuration
 (
