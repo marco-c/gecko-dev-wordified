@@ -5625,7 +5625,7 @@ s
 point
 of
 view
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this

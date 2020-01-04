@@ -399,7 +399,7 @@ bool
 aEnabled
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -898,7 +898,7 @@ int32_t
 aChange
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -2465,7 +2465,7 @@ s
 point
 of
 view
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this
@@ -2673,7 +2673,7 @@ aEnabled
 return
 NS_OK
 ;
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this
@@ -3185,7 +3185,7 @@ int32_t
 aY
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this

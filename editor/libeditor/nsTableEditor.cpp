@@ -2415,7 +2415,7 @@ curCell
 NS_ERROR_FAILURE
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -3211,7 +3211,7 @@ res
 res
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -4246,7 +4246,7 @@ res
 res
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -4348,7 +4348,7 @@ cell
 NS_EDITOR_ELEMENT_NOT_FOUND
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -5389,7 +5389,7 @@ cell
 NS_EDITOR_ELEMENT_NOT_FOUND
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -5818,7 +5818,7 @@ startColIndex
 )
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -6813,7 +6813,7 @@ table
 selection
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -9908,7 +9908,7 @@ actualColSpan
 return
 NS_OK
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -11221,7 +11221,7 @@ sourceCell
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -11533,7 +11533,7 @@ targetCell
 return
 NS_EDITOR_ELEMENT_NOT_FOUND
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -14778,7 +14778,7 @@ selection
 this
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this

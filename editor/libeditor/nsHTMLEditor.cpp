@@ -7275,7 +7275,7 @@ n
 )
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -7836,7 +7836,7 @@ to
 change
 the
 document
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -9068,7 +9068,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -11955,7 +11955,7 @@ bool
 cancel
 handled
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -12411,7 +12411,7 @@ bool
 cancel
 handled
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -12594,7 +12594,7 @@ bool
 cancel
 handled
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -12770,7 +12770,7 @@ bool
 cancel
 handled
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -13233,7 +13233,7 @@ EditAction
 outdent
 ;
 }
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -13726,7 +13726,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -16321,7 +16321,7 @@ return
 NS_OK
 ;
 }
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -20562,7 +20562,7 @@ rv
 =
 NS_OK
 ;
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this
@@ -27639,7 +27639,7 @@ Collapsed
 (
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this

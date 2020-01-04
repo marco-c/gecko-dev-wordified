@@ -835,7 +835,7 @@ PlatformToDOMLineBreaks
 stuffToPaste
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -968,7 +968,7 @@ PlatformToDOMLineBreaks
 insertText
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -1252,7 +1252,7 @@ insertion
 into
 one
 transaction
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this

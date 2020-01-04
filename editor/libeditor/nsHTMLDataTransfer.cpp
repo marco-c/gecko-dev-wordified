@@ -812,7 +812,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -1335,7 +1335,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -6649,7 +6649,7 @@ rv
 rv
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 mEditor
@@ -7147,7 +7147,7 @@ rv
 rv
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -7491,7 +7491,7 @@ IsEmpty
 )
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -7833,7 +7833,7 @@ IsEmpty
 )
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -8291,7 +8291,7 @@ IsEmpty
 )
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -8436,7 +8436,7 @@ aIndex
 infoString
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -8498,7 +8498,7 @@ aIndex
 text
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -9925,7 +9925,7 @@ int32_t
 aSelectionType
 )
 {
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -10464,7 +10464,7 @@ length
 "
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -11216,7 +11216,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -11798,7 +11798,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
