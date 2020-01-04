@@ -17525,6 +17525,7 @@ shape
 &
 isScripted
 isTemporarilyUnoptimizable
+isDOMProxy
 )
 ;
 /
