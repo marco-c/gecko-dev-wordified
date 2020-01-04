@@ -565,6 +565,13 @@ IsSeekable
 const
 override
 ;
+bool
+IsSeekableOnlyInBufferedRanges
+(
+)
+const
+override
+;
 UniquePtr
 <
 EncryptionInfo
