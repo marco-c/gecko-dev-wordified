@@ -6445,7 +6445,15 @@ zoomFactor
 ImmutableViewportMetrics
 geckoViewport
 =
+(
+AppConstants
+.
+MOZ_ANDROID_APZ
+?
+mViewportMetrics
+:
 mGeckoViewport
+)
 ;
 PointF
 geckoOrigin
