@@ -29932,7 +29932,6 @@ delta
 specified
 by
 the
--
 transform
 -
 origin
@@ -30092,7 +30091,6 @@ if
 the
 value
 of
--
 transform
 is
 a
@@ -30316,7 +30314,6 @@ index
 *
 If
 the
--
 transform
 -
 origin
@@ -30959,7 +30956,6 @@ index
 *
 If
 the
--
 transform
 -
 origin
@@ -31322,7 +31318,6 @@ aAppUnitsPerPixel
 Wraps
 up
 the
--
 transform
 matrix
 in
@@ -31954,7 +31949,6 @@ perspective
 Account
 for
 the
--
 transform
 -
 origin
