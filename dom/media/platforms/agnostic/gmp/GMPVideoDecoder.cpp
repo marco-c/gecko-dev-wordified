@@ -1138,7 +1138,7 @@ mWidth
 =
 mConfig
 .
-mDisplay
+mImage
 .
 width
 ;
@@ -1148,7 +1148,7 @@ mHeight
 =
 mConfig
 .
-mDisplay
+mImage
 .
 height
 ;
