@@ -1723,11 +1723,6 @@ AsmJSInterruptCheck
 \
 _
 (
-InterruptCheckImplicit
-)
-\
-_
-(
 GetDOMProperty
 )
 \
