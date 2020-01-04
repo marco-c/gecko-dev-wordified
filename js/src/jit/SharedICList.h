@@ -307,11 +307,6 @@ GetProp_ArgumentsCallee
 \
 _
 (
-GetProp_ModuleNamespace
-)
-\
-_
-(
 GetProp_Generic
 )
 \
