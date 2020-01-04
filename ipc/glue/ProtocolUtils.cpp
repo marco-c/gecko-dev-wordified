@@ -208,14 +208,14 @@ XP_WIN
 #
 include
 "
-Aclapi
+aclapi
 .
 h
 "
 #
 include
 "
-Sddl
+sddl
 .
 h
 "
