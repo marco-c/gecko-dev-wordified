@@ -5411,6 +5411,9 @@ ImageBitmap
 (
 aGlobal
 data
+aImageBitmap
+.
+mIsPremultipliedAlpha
 )
 ;
 /
