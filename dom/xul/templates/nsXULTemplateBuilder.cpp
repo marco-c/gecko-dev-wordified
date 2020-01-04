@@ -8162,6 +8162,12 @@ creation
 true
 )
 ;
+entryScript
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSContext
 *
 jscontext
