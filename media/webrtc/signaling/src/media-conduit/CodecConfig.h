@@ -416,6 +416,9 @@ too
 bool
 mRembFbSet
 ;
+bool
+mFECFbSet
+;
 EncodingConstraints
 mEncodingConstraints
 ;
@@ -499,6 +502,10 @@ type
 mName
 (
 name
+)
+mFECFbSet
+(
+false
 )
 mEncodingConstraints
 (
@@ -777,6 +784,16 @@ const
 {
 return
 mRembFbSet
+;
+}
+bool
+RtcpFbFECIsSet
+(
+)
+const
+{
+return
+mFECFbSet
 ;
 }
 }
