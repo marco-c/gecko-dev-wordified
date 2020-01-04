@@ -2164,9 +2164,7 @@ weakMap
 var
 keys
 =
-Components
-.
-utils
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

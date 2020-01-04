@@ -162,9 +162,7 @@ ResourceCleaner_cleanup
 let
 keys
 =
-Components
-.
-utils
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
