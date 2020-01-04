@@ -726,9 +726,6 @@ nsIPresentationService
 h
 "
 #
-ifdef
-MOZ_MEDIA_NAVIGATOR
-#
 include
 "
 mozilla
@@ -746,8 +743,6 @@ MediaManager
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_B2G_BT
@@ -7125,9 +7120,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 MediaDevices
 *
 Navigator
@@ -7475,8 +7467,6 @@ aCallID
 )
 ;
 }
-#
-endif
 DesktopNotificationCenter
 *
 Navigator
@@ -11564,9 +11554,6 @@ mWindow
 return
 ;
 }
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 /
 /
 If
@@ -11612,8 +11599,6 @@ WindowID
 )
 ;
 }
-#
-endif
 if
 (
 mCameraManager
@@ -12141,9 +12126,6 @@ endif
 /
 /
 MOZ_NFC
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 /
 *
 static
@@ -12215,11 +12197,6 @@ false
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 /
 *
 static

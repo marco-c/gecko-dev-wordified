@@ -1940,9 +1940,6 @@ nsISpeculativeConnect
 h
 "
 #
-ifdef
-MOZ_MEDIA_NAVIGATOR
-#
 include
 "
 mozilla
@@ -1951,11 +1948,6 @@ MediaManager
 .
 h
 "
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 #
 ifdef
 MOZ_WEBRTC
@@ -49041,9 +49033,6 @@ false
 }
 }
 }
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 /
 /
 Check
@@ -49089,11 +49078,6 @@ return
 false
 ;
 }
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 #
 ifdef
 MOZ_WEBRTC

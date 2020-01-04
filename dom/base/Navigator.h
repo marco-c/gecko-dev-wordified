@@ -513,9 +513,6 @@ endif
 /
 /
 MOZ_GAMEPAD
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 class
 NavigatorUserMediaSuccessCallback
 ;
@@ -525,11 +522,6 @@ NavigatorUserMediaErrorCallback
 class
 MozGetUserMediaDevicesSuccessCallback
 ;
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 namespace
 network
 {
@@ -1609,9 +1601,6 @@ ErrorResult
 aRv
 )
 ;
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 void
 MozGetUserMedia
 (
@@ -1654,11 +1643,6 @@ ErrorResult
 aRv
 )
 ;
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 already_AddRefed
 <
 ServiceWorkerContainer
@@ -1809,9 +1793,6 @@ endif
 /
 /
 MOZ_NFC
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 static
 bool
 HasUserMediaSupport
@@ -1832,11 +1813,6 @@ unused
 /
 )
 ;
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 static
 bool
 HasDataStoreSupport
