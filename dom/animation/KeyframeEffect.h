@@ -359,7 +359,7 @@ CompositeOperation
 uint32_t
 ;
 struct
-AnimationPropertyState
+AnimationPropertyDetails
 ;
 }
 /
@@ -1450,14 +1450,14 @@ aRv
 )
 ;
 void
-GetPropertyState
+GetProperties
 (
 nsTArray
 <
-AnimationPropertyState
+AnimationPropertyDetails
 >
 &
-aStates
+aProperties
 )
 const
 ;
