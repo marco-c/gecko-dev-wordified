@@ -173,13 +173,10 @@ i
 assertEq
 (
 [
-v
-for
-(
-v
-of
+.
+.
+.
 proxy
-)
 ]
 .
 join
