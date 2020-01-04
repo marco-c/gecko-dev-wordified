@@ -23535,10 +23535,7 @@ aItemType
 itemURI
 aGUID
 aOldParentGUID
-nsINavBookmarksService
-:
-:
-SOURCE_DEFAULT
+aSource
 )
 ;
 }
@@ -23575,10 +23572,7 @@ value
 .
 aGUID
 aNewParentGUID
-nsINavBookmarksService
-:
-:
-SOURCE_DEFAULT
+aSource
 )
 ;
 }
