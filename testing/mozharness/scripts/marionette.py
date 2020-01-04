@@ -1359,7 +1359,7 @@ install
 '
 run
 -
-marionette
+tests
 '
 ]
             
@@ -1395,7 +1395,7 @@ install
 '
 run
 -
-marionette
+tests
 '
 ]
             
@@ -2750,7 +2750,7 @@ install
 )
     
 def
-run_marionette
+run_tests
 (
 self
 )

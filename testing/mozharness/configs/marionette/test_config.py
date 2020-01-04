@@ -70,7 +70,7 @@ install
 '
 run
 -
-marionette
+tests
 '
     
 ]

@@ -303,7 +303,7 @@ install
 '
 run
 -
-marionette
+tests
 '
     
 ]

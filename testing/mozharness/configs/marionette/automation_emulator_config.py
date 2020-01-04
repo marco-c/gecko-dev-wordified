@@ -252,7 +252,7 @@ install
 '
 run
 -
-marionette
+tests
 '
     
 ]

@@ -318,7 +318,7 @@ install
 '
 run
 -
-marionette
+tests
 '
     
 ]
