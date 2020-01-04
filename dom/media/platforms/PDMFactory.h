@@ -567,6 +567,11 @@ PlatformDecoderModule
 mEMEPDM
 ;
 bool
+mWMFFailedToLoad
+=
+false
+;
+bool
 mFFmpegFailedToLoad
 =
 false
