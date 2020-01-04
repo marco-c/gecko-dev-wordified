@@ -1195,10 +1195,10 @@ GetSkippedOffset
 )
 ;
 }
-int32_t
+uint32_t
 ConvertSkippedToOriginal
 (
-uint32_t
+int32_t
 aSkippedStringOffset
 )
 {
