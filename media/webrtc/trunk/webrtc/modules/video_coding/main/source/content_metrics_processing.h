@@ -285,7 +285,7 @@ rate
 void
 UpdateFrameRate
 (
-uint32_t
+float
 frameRate
 )
 ;

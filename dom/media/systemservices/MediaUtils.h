@@ -138,6 +138,15 @@ nsIAsyncShutdown
 .
 h
 "
+#
+include
+"
+base
+/
+task
+.
+h
+"
 namespace
 mozilla
 {

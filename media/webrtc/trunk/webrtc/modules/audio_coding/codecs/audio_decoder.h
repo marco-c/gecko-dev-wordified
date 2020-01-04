@@ -218,6 +218,10 @@ virtual
 AudioDecoder
 (
 )
+{
+}
+/
+/
 =
 default
 ;

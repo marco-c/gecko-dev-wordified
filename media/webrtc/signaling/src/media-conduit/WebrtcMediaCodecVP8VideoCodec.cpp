@@ -4890,7 +4890,7 @@ SetChannelParameters
 (
 uint32_t
 packetLoss
-int
+int64_t
 rtt
 )
 {

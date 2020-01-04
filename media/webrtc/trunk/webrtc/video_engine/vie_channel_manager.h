@@ -254,6 +254,14 @@ ProcessThread
 module_process_thread
 )
 ;
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+load_manager
+)
+;
 /
 /
 Creates
@@ -790,6 +798,10 @@ voice_sync_interface_
 ProcessThread
 *
 module_process_thread_
+;
+CPULoadStateCallbackInvoker
+*
+load_manager_
 ;
 }
 ;

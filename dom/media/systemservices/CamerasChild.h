@@ -524,7 +524,7 @@ Shmem
 &
 &
 const
-int
+size_t
 &
 const
 uint32_t
@@ -1051,7 +1051,7 @@ mReplyMonitor
 /
 /
 Async
-resposne
+response
 valid
 ?
 bool
@@ -1059,8 +1059,8 @@ mReceivedReply
 ;
 /
 /
-Aynsc
-reponses
+Async
+responses
 data
 contents
 ;

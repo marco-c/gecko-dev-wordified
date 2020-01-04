@@ -119,7 +119,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {
@@ -147,7 +147,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {

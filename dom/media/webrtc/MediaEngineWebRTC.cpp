@@ -1682,7 +1682,6 @@ VoiceEngine
 SetAndroidObjects
 (
 jvm
-env
 (
 void
 *

@@ -176,6 +176,9 @@ VieRemb
 class
 VoEVideoSync
 ;
+class
+CPULoadStateCallbackInvoker
+;
 typedef
 std
 :
@@ -343,6 +346,14 @@ int
 channel_id
 )
 const
+;
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+load_manager
+)
 ;
 void
 GetChannelsUsingEncoder

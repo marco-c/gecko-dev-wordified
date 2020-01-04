@@ -540,8 +540,13 @@ size
 cost
 .
 #
+ifndef
+WEBRTC_CODEC_PCM16
+#
 define
 WEBRTC_CODEC_PCM16
+#
+endif
 /
 /
 iLBC
@@ -1114,6 +1119,9 @@ Near
 -
 end
 NS
+#
+define
+WEBRTC_VOE_EXTERNAL_REC_AND_PLAYOUT
 #
 if
 !
