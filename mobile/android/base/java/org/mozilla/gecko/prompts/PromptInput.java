@@ -316,6 +316,7 @@ widget
 TimePicker
 ;
 public
+abstract
 class
 PromptInput
 {
@@ -371,7 +372,6 @@ public
 interface
 OnChangeListener
 {
-public
 void
 onChange
 (
@@ -2448,6 +2448,7 @@ null
 ;
 }
 public
+abstract
 View
 getView
 (
@@ -2456,11 +2457,7 @@ context
 )
 throws
 UnsupportedOperationException
-{
-return
-null
 ;
-}
 public
 String
 getId
