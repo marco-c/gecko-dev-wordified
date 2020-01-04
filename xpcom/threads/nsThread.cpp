@@ -3610,13 +3610,12 @@ tracedRunnable
 CreateTracedRunnable
 (
 event
+.
+forget
+(
+)
 )
 ;
-/
-/
-adds
-a
-ref
 (
 static_cast
 <
