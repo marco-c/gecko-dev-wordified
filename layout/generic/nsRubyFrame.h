@@ -136,10 +136,6 @@ h
 class
 nsRubyBaseContainerFrame
 ;
-typedef
-nsInlineFrame
-nsRubyFrameSuper
-;
 /
 *
 *
@@ -175,7 +171,7 @@ nsRubyFrame
 final
 :
 public
-nsRubyFrameSuper
+nsInlineFrame
 {
 public
 :
@@ -313,7 +309,7 @@ nsStyleContext
 aContext
 )
 :
-nsRubyFrameSuper
+nsInlineFrame
 (
 aContext
 )

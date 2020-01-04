@@ -303,7 +303,7 @@ nsRubyFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsRubyFrameSuper
+nsInlineFrame
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (
@@ -490,7 +490,7 @@ false
 ;
 }
 return
-nsRubyFrameSuper
+nsInlineFrame
 :
 :
 IsFrameOfType
