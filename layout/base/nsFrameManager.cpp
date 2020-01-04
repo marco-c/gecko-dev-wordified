@@ -571,10 +571,6 @@ mPresShell
 (
 nullptr
 )
-mStyleSet
-(
-nullptr
-)
 mRootFrame
 (
 nullptr
