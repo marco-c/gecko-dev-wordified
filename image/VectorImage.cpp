@@ -5806,7 +5806,7 @@ expire
 SurfaceCache
 :
 :
-UnlockSurfaces
+UnlockEntries
 (
 ImageKey
 (

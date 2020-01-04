@@ -2889,7 +2889,7 @@ Lookup
 )
 and
 then
-RemoveSurface
+RemoveEntry
 (
 )
 does
@@ -2956,7 +2956,7 @@ MatchType
 PENDING
 )
 {
-RemoveSurface
+RemoveEntry
 (
 aImageKey
 aSurfaceKey
@@ -4458,7 +4458,7 @@ matchType
 ;
 }
 void
-RemoveSurface
+RemoveEntry
 (
 const
 ImageKey
@@ -4695,7 +4695,7 @@ cache
 ;
 }
 void
-UnlockSurfaces
+UnlockEntries
 (
 const
 ImageKey
@@ -7189,7 +7189,7 @@ void
 SurfaceCache
 :
 :
-UnlockSurfaces
+UnlockEntries
 (
 const
 ImageKey
@@ -7216,7 +7216,7 @@ return
 sInstance
 -
 >
-UnlockSurfaces
+UnlockEntries
 (
 aImageKey
 )
@@ -7232,7 +7232,7 @@ void
 SurfaceCache
 :
 :
-RemoveSurface
+RemoveEntry
 (
 const
 ImageKey
@@ -7262,7 +7262,7 @@ GetMutex
 sInstance
 -
 >
-RemoveSurface
+RemoveEntry
 (
 aImageKey
 aSurfaceKey
