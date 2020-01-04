@@ -309,6 +309,13 @@ favicons
 .
 OnFaviconLoadedListener
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 class
 LoginDoorHanger
@@ -579,6 +586,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 +
 "

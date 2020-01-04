@@ -196,6 +196,13 @@ toolbar
 .
 SiteIdentityPopup
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 class
 ContentSecurityDoorHanger
@@ -696,6 +703,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 +
 "

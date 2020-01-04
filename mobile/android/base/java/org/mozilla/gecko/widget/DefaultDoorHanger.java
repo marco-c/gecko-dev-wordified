@@ -252,6 +252,13 @@ util
 .
 List
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 class
 DefaultDoorHanger
@@ -809,6 +816,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 +
 "
