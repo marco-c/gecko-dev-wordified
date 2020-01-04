@@ -161,11 +161,6 @@ ARefBase
 .
 h
 "
-extern
-PRLogModuleInfo
-*
-gHttpLog
-;
 /
 /
 -
@@ -466,6 +461,10 @@ mozilla
 namespace
 net
 {
+extern
+LazyLogModule
+gHttpLog
+;
 class
 nsHttpConnectionInfo
 :

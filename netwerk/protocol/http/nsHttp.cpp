@@ -168,12 +168,6 @@ nsCRT
 .
 h
 "
-PRLogModuleInfo
-*
-gHttpLog
-=
-nullptr
-;
 namespace
 mozilla
 {

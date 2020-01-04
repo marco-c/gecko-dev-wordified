@@ -180,8 +180,10 @@ class
 nsIURI
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gWyciwygLog
 ;
 /

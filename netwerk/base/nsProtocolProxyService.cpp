@@ -470,9 +470,7 @@ MOZ_LOG
 net
 :
 :
-GetProxyLog
-(
-)
+gProxyLog
 mozilla
 :
 :

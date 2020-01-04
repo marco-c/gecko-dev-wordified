@@ -1338,11 +1338,9 @@ mozilla
 namespace
 net
 {
-PRLogModuleInfo
-*
-GetProxyLog
-(
-)
+extern
+LazyLogModule
+gProxyLog
 ;
 }
 /

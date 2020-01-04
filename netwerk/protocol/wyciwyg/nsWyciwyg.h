@@ -170,8 +170,10 @@ log
 /
 /
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gWyciwygLog
 ;
 /

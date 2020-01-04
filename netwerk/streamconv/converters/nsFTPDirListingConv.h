@@ -189,11 +189,6 @@ nsFTPDirListingConv
 (
 )
 ;
-nsresult
-Init
-(
-)
-;
 private
 :
 virtual

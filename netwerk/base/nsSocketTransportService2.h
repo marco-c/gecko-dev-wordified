@@ -282,8 +282,10 @@ nsSocketTransport
 /
 /
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gSocketTransportLog
 ;
 #
@@ -333,8 +335,10 @@ UDPSocket
 /
 /
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #

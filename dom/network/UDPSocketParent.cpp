@@ -278,8 +278,10 @@ UDPSocket
 /
 /
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #
