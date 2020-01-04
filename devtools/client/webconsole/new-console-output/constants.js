@@ -111,6 +111,11 @@ const
 actionTypes
 =
 {
+BATCH_ACTIONS
+:
+"
+BATCH_ACTIONS
+"
 MESSAGE_ADD
 :
 "

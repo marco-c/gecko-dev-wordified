@@ -52,7 +52,7 @@ output
 /
 actions
 /
-filters
+index
 "
 )
 ;

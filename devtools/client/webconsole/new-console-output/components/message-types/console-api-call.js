@@ -326,7 +326,7 @@ output
 /
 actions
 /
-messages
+index
 "
 )
 ;

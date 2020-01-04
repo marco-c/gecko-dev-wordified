@@ -244,7 +244,7 @@ output
 /
 actions
 /
-messages
+index
 "
 )
 ;

@@ -105,7 +105,7 @@ output
 /
 actions
 /
-filters
+index
 "
 )
 ;
