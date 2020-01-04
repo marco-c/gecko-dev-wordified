@@ -904,7 +904,9 @@ a
 script
 call
 to
-futexWake
+Atomics
+.
+wake
 }
 ;
 /
