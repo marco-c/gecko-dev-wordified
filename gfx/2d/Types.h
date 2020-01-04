@@ -385,6 +385,8 @@ BB
 ]
 0xBBGGRR00
 0x00RRGGBB
+R8G8B8
+B8G8R8
 /
 /
 The
@@ -454,6 +456,9 @@ cases
 YUV
 NV12
 YUV422
+HSV
+Lab
+Depth
 /
 /
 This
