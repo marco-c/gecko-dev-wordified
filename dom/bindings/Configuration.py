@@ -889,15 +889,10 @@ to
 a
 list
 of
-tuples
-containing
-a
+types
+for
         
 #
-type
-and
-descriptor
-for
 the
 union
 types
@@ -909,11 +904,11 @@ file
 If
 a
 union
-        
-#
 type
 is
 used
+        
+#
 in
 multiple
 files
@@ -925,10 +920,10 @@ added
 to
 the
 list
-        
-#
 for
 the
+        
+#
 None
 key
 .
@@ -938,13 +933,13 @@ the
 list
 contains
 a
-tuple
+type
 for
 every
 use
-of
         
 #
+of
 a
 union
 type
@@ -953,13 +948,13 @@ there
 can
 be
 multiple
-tuples
+entries
 with
 union
-types
-that
         
 #
+types
+that
 have
 the
 same
@@ -978,7 +973,6 @@ list
 for
 (
 t
-descriptor
 _
 )
 in
@@ -1320,9 +1314,6 @@ lambda
 u
 :
 u
-[
-0
-]
 .
 name
 !
@@ -1401,10 +1392,7 @@ uniqueFilenameForUnion
 .
 append
 (
-(
 t
-descriptor
-)
 )
                     
 filenamesForUnion
@@ -7080,40 +7068,25 @@ tuple
     
 containing
 type
-descriptor
 dictionary
 is
 yielded
 .
 The
-    
-descriptor
-and
 dictionary
 can
 be
 None
 if
 the
+    
 type
 does
 not
 come
-    
 from
 a
-descriptor
-or
 dictionary
-;
-they
-will
-never
-both
-be
-non
--
-None
 .
     
 "
@@ -7150,7 +7123,6 @@ d
 yield
 (
 t
-d
 None
 )
     
@@ -7172,7 +7144,6 @@ dictionary
 yield
 (
 t
-None
 dictionary
 )
     
@@ -7194,7 +7165,6 @@ callback
 yield
 (
 t
-None
 None
 )
 def
