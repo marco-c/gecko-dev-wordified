@@ -1005,14 +1005,6 @@ destroyed
 /
 Animation
 overrides
-CommonAnimationManager
-*
-GetAnimationManager
-(
-)
-const
-override
-;
 void
 UpdateTiming
 (
