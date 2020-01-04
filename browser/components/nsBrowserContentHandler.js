@@ -6160,10 +6160,9 @@ shouldLoadURI
 .
 map
 (
-function
-(
 u
-)
+=
+>
 u
 .
 spec
