@@ -3964,15 +3964,7 @@ uniIn
 ;
 rv
 =
-nsSimpleUnicharStreamFactory
-:
-:
-GetInstance
-(
-)
--
->
-CreateInstanceFromUTF8Stream
+NS_NewUnicharInputStream
 (
 in
 getter_AddRefs
