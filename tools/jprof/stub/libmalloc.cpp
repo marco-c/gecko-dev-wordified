@@ -384,8 +384,6 @@ JPROF_STATIC
 #
 define
 JPROF_STATIC
-/
-/
 static
 static
 int
