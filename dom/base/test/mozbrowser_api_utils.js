@@ -143,6 +143,10 @@ needs
 browser
 :
 universalxss
+getStructuredData
+:
+{
+}
 getWebManifest
 :
 {
