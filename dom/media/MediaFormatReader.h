@@ -221,9 +221,6 @@ MediaFormatReader
 nsresult
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 override
 ;

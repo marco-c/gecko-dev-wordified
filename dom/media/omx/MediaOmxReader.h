@@ -463,15 +463,6 @@ MediaOmxReader
 (
 )
 ;
-virtual
-nsresult
-Init
-(
-MediaDecoderReader
-*
-aCloneDonor
-)
-;
 protected
 :
 virtual

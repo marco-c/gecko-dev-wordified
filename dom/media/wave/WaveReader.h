@@ -176,16 +176,6 @@ WaveReader
 public
 :
 virtual
-nsresult
-Init
-(
-MediaDecoderReader
-*
-aCloneDonor
-)
-override
-;
-virtual
 bool
 DecodeAudioData
 (

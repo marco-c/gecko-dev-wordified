@@ -694,9 +694,6 @@ AppleMP3Reader
 :
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 {
 AudioFileTypeID

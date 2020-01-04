@@ -1011,7 +1011,6 @@ mDecoderReader
 >
 Init
 (
-nullptr
 )
 ;
 if

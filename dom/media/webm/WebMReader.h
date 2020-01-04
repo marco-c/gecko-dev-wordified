@@ -442,9 +442,6 @@ virtual
 nsresult
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 override
 ;

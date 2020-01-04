@@ -1204,9 +1204,6 @@ OggReader
 :
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 {
 int
