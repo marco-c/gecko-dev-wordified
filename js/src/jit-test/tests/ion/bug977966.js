@@ -797,6 +797,10 @@ split_join_multiple
 i
 )
 {
+enableMatchFlagArgument
+(
+)
+;
 var
 s1
 =

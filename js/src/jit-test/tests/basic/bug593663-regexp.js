@@ -54,6 +54,10 @@ true
 ;
 }
 }
+enableMatchFlagArgument
+(
+)
+;
 /
 /
 Bug
