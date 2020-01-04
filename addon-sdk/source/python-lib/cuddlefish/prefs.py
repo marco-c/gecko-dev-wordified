@@ -1291,16 +1291,6 @@ jsdebugger
 '
 devtools
 .
-errorconsole
-.
-enabled
-'
-:
-True
-    
-'
-devtools
-.
 chrome
 .
 enabled

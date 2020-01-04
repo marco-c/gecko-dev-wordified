@@ -126,17 +126,6 @@ enabled
 "
 ]
 "
-javascriptConsole
-"
-:
-"
-devtools
-.
-errorconsole
-.
-enabled
-"
-"
 menu_devtools_connect
 "
 :
