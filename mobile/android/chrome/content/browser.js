@@ -28520,6 +28520,18 @@ true
 )
 ;
 }
+if
+(
+AppConstants
+.
+NIGHTLY_BUILD
+|
+|
+AppConstants
+.
+MOZ_ANDROID_ACTIVITY_STREAM
+)
+{
 WebsiteMetadata
 .
 parseAsynchronously
@@ -28531,6 +28543,7 @@ browser
 contentDocument
 )
 ;
+}
 break
 ;
 }
