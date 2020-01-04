@@ -12756,8 +12756,10 @@ aSizeMode
 ;
 MediaFeatureValuesChangedAllDocuments
 (
-eRestyle_Subtree
-NS_STYLE_HINT_REFLOW
+nsRestyleHint
+(
+0
+)
 )
 ;
 }
