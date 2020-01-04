@@ -277,10 +277,10 @@ create
 JSContext
 *
 cx
-TableKind
-kind
-uint32_t
-length
+const
+TableDesc
+&
+desc
 )
 ;
 /

@@ -218,10 +218,10 @@ create
 JSContext
 *
 cx
-TableKind
-kind
-uint32_t
-length
+const
+TableDesc
+&
+desc
 )
 {
 SharedTable
@@ -261,7 +261,9 @@ void
 *
 >
 (
-length
+desc
+.
+initial
 )
 )
 ;
@@ -281,6 +283,8 @@ table
 >
 kind_
 =
+desc
+.
 kind
 ;
 table
@@ -288,7 +292,9 @@ table
 >
 length_
 =
-length
+desc
+.
+initial
 ;
 table
 -

@@ -1169,8 +1169,8 @@ instantiateTable
 JSContext
 *
 cx
-HandleWasmTableObject
-tableImport
+MutableHandleWasmTableObject
+table
 SharedTableVector
 *
 tables

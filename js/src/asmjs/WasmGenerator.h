@@ -655,9 +655,6 @@ startOfUnpatchedBranches_
 JumpSiteArray
 jumpThunks_
 ;
-bool
-externalTable_
-;
 /
 /
 Parallel
