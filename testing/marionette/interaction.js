@@ -483,7 +483,7 @@ visible
 =
 element
 .
-checkVisible
+isVisible
 (
 el
 container

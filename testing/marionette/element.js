@@ -5006,7 +5006,7 @@ box
 /
 element
 .
-checkVisible
+isVisible
 =
 function
 (
