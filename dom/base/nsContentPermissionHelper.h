@@ -831,7 +831,7 @@ dismissed
 .
 virtual
 bool
-Recv__delete__
+RecvNotifyResult
 (
 const
 bool
