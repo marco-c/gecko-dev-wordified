@@ -472,10 +472,10 @@ ProcessId
 aOtherProcess
 ProtocolId
 aProtocol
-PriorityValue
-aPriority
+NestedLevel
+aNestedLevel
 =
-PRIORITY_NORMAL
+NOT_NESTED
 )
 :
 IPC
@@ -495,7 +495,7 @@ top
 level
 actors
 CHANNEL_OPENED_MESSAGE_TYPE
-aPriority
+aNestedLevel
 )
 {
 IPC
@@ -712,7 +712,7 @@ IPC
 Message
 :
 :
-PRIORITY_URGENT
+NESTED_INSIDE_CPOW
 )
 )
 )
@@ -751,7 +751,7 @@ IPC
 Message
 :
 :
-PRIORITY_URGENT
+NESTED_INSIDE_CPOW
 )
 )
 )

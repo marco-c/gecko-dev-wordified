@@ -2310,7 +2310,7 @@ mDispatchingAsyncMessage
 ;
 }
 int
-DispatchingAsyncMessagePriority
+DispatchingAsyncMessageNestedLevel
 (
 )
 const
@@ -2320,7 +2320,7 @@ AssertWorkerThread
 )
 ;
 return
-mDispatchingAsyncMessagePriority
+mDispatchingAsyncMessageNestedLevel
 ;
 }
 bool
@@ -3652,7 +3652,7 @@ bool
 mDispatchingAsyncMessage
 ;
 int
-mDispatchingAsyncMessagePriority
+mDispatchingAsyncMessageNestedLevel
 ;
 /
 /
@@ -3883,7 +3883,7 @@ AutoEnterTransaction
 mTransactionStack
 ;
 int32_t
-CurrentHighPriorityTransaction
+CurrentNestedInsideSyncTransaction
 (
 )
 const
@@ -3895,7 +3895,7 @@ AwaitingSyncReply
 const
 ;
 int
-AwaitingSyncReplyPriority
+AwaitingSyncReplyNestedLevel
 (
 )
 const
@@ -3907,7 +3907,7 @@ DispatchingSyncMessage
 const
 ;
 int
-DispatchingSyncMessagePriority
+DispatchingSyncMessageNestedLevel
 (
 )
 const
@@ -4067,7 +4067,7 @@ int32_t
 mTimedOutMessageSeqno
 ;
 int
-mTimedOutMessagePriority
+mTimedOutMessageNestedLevel
 ;
 /
 /
