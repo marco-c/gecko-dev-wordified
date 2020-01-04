@@ -20697,6 +20697,12 @@ SimplifyOutward
 )
 ;
 }
+Maybe
+<
+Matrix4x4
+>
+matrixCache
+;
 nsLayoutUtils
 :
 :
@@ -20721,6 +20727,8 @@ containingPaintedLayerData
 -
 >
 mMaybeHitRegion
+&
+matrixCache
 )
 ;
 nsLayoutUtils
@@ -20747,6 +20755,8 @@ containingPaintedLayerData
 -
 >
 mDispatchToContentHitRegion
+&
+matrixCache
 )
 ;
 nsLayoutUtils
@@ -20773,6 +20783,8 @@ containingPaintedLayerData
 -
 >
 mDispatchToContentHitRegion
+&
+matrixCache
 )
 ;
 nsLayoutUtils
@@ -20799,6 +20811,8 @@ containingPaintedLayerData
 -
 >
 mDispatchToContentHitRegion
+&
+matrixCache
 )
 ;
 }
