@@ -1502,12 +1502,6 @@ ICE
 %
 s
 )
-/
-CAND
-(
-%
-s
-)
 :
 created
 candidate
@@ -1522,10 +1516,6 @@ ctx
 -
 >
 label
-cand
--
->
-codeword
 cand
 -
 >

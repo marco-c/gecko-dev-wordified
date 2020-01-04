@@ -3954,7 +3954,7 @@ None
         
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 =
 None
         
@@ -6233,7 +6233,7 @@ py
         
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 =
 mozprocess
 .
@@ -6248,7 +6248,7 @@ SCRIPT_DIR
         
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 .
 run
 (
@@ -6278,7 +6278,7 @@ d
 %
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 .
 pid
 )
@@ -6881,7 +6881,7 @@ ssltunnel
 if
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 is
 not
 None
@@ -6898,16 +6898,13 @@ info
 (
 '
 Stopping
-websocket
-/
-process
-bridge
+websocketProcessBridge
 '
 )
                 
 self
 .
-websocketprocessbridge
+websocketProcessBridge
 .
 kill
 (
@@ -6926,10 +6923,7 @@ critical
 '
 Exception
 stopping
-websocket
-/
-process
-bridge
+websocketProcessBridge
 '
 )
     

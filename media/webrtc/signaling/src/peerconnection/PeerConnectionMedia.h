@@ -2900,11 +2900,6 @@ SignalEndOfLocalCandidates
 ;
 private
 :
-nsresult
-InitProxy
-(
-)
-;
 class
 ProtocolProxyQueryHandler
 :
