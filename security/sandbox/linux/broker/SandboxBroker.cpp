@@ -3575,7 +3575,7 @@ Force
 0
 termination
 .
-pathBuf
+pathBuf2
 [
 pathLen2
 ]
