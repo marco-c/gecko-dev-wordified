@@ -10939,7 +10939,7 @@ mGridRowStart
 nsStyleGridLine
 mGridRowEnd
 ;
-nscoord
+nsStyleCoord
 mGridColumnGap
 ;
 /
@@ -10948,8 +10948,9 @@ mGridColumnGap
 reset
 ]
 coord
+percent
 calc
-nscoord
+nsStyleCoord
 mGridRowGap
 ;
 /
@@ -10958,6 +10959,7 @@ mGridRowGap
 reset
 ]
 coord
+percent
 calc
 /
 /

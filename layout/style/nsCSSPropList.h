@@ -7223,7 +7223,7 @@ grid
 .
 enabled
 "
-VARIANT_HL
+VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
@@ -7232,7 +7232,7 @@ offsetof
 nsStylePosition
 mGridColumnGap
 )
-eStyleAnimType_nscoord
+eStyleAnimType_Coord
 )
 CSS_PROP_POSITION
 (
@@ -7341,7 +7341,7 @@ grid
 .
 enabled
 "
-VARIANT_HL
+VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
@@ -7350,7 +7350,7 @@ offsetof
 nsStylePosition
 mGridRowGap
 )
-eStyleAnimType_nscoord
+eStyleAnimType_Coord
 )
 CSS_PROP_POSITION
 (
