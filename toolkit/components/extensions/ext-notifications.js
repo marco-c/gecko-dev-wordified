@@ -198,7 +198,7 @@ title
 options
 .
 message
-false
+true
 /
 /
 textClickable
