@@ -4552,6 +4552,14 @@ net
 RP_Default
 )
 ;
+aSheet
+-
+>
+SetParsingMode
+(
+eAgentSheetFeatures
+)
+;
 nsCOMPtr
 <
 nsIURI
