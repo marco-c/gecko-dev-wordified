@@ -98,6 +98,7 @@ would
 add_task
 (
 function
+*
 (
 )
 {
@@ -246,6 +247,7 @@ closed
 add_task
 (
 function
+*
 (
 )
 {

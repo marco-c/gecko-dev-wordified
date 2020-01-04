@@ -152,6 +152,7 @@ Debug
 add_task
 (
 function
+*
 (
 )
 {

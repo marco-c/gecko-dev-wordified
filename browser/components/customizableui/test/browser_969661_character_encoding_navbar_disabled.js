@@ -94,6 +94,7 @@ disabled
 add_task
 (
 function
+*
 (
 )
 {

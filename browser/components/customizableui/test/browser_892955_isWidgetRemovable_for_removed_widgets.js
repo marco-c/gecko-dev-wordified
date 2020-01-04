@@ -86,6 +86,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -173,6 +174,7 @@ widget
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

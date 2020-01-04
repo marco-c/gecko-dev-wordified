@@ -92,6 +92,7 @@ toolbox
 add_task
 (
 function
+*
 (
 )
 {
@@ -318,6 +319,7 @@ newWindow
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

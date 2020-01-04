@@ -81,6 +81,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -315,6 +316,7 @@ state
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

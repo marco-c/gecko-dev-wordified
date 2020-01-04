@@ -74,6 +74,7 @@ buttons
 add_task
 (
 function
+*
 (
 )
 {

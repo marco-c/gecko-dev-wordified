@@ -235,6 +235,7 @@ panel
 add_task
 (
 function
+*
 (
 )
 {
@@ -366,6 +367,7 @@ opened
 add_task
 (
 function
+*
 (
 )
 {
@@ -507,6 +509,7 @@ overflowed
 add_task
 (
 function
+*
 (
 )
 {
@@ -785,6 +788,7 @@ overflowing
 add_task
 (
 function
+*
 (
 )
 {
@@ -854,6 +858,7 @@ out
 add_task
 (
 function
+*
 (
 )
 {

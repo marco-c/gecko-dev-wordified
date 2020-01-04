@@ -103,6 +103,7 @@ mode
 add_task
 (
 function
+*
 (
 )
 {

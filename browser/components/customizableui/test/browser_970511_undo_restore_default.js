@@ -86,6 +86,7 @@ operation
 add_task
 (
 function
+*
 (
 )
 {
@@ -321,6 +322,7 @@ button
 add_task
 (
 function
+*
 (
 )
 {
@@ -501,6 +503,7 @@ button
 add_task
 (
 function
+*
 (
 )
 {
@@ -632,6 +635,7 @@ Bar
 add_task
 (
 function
+*
 (
 )
 {
@@ -1190,6 +1194,7 @@ test
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

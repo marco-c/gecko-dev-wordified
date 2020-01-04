@@ -125,6 +125,7 @@ button
 add_task
 (
 function
+*
 customizeToolbarAndKeepIt
 (
 )
@@ -892,6 +893,7 @@ area
 add_task
 (
 function
+*
 resetShouldDealWithCustomToolbars
 (
 )
@@ -1404,6 +1406,7 @@ area
 add_task
 (
 function
+*
 (
 )
 {

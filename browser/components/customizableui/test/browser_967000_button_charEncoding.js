@@ -107,6 +107,7 @@ spec
 add_task
 (
 function
+*
 (
 )
 {
@@ -493,6 +494,7 @@ panelHidePromise
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

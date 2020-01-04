@@ -93,6 +93,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {

@@ -90,6 +90,7 @@ currentSet
 add_task
 (
 function
+*
 (
 )
 {
@@ -488,6 +489,7 @@ works
 add_task
 (
 function
+*
 (
 )
 {
@@ -603,6 +605,7 @@ mode
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

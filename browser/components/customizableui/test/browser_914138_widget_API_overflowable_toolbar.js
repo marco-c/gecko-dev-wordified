@@ -187,6 +187,7 @@ to
 add_task
 (
 function
+*
 (
 )
 {
@@ -785,6 +786,7 @@ accordingly
 add_task
 (
 function
+*
 (
 )
 {
@@ -1153,6 +1155,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1553,6 +1556,7 @@ outerHeight
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

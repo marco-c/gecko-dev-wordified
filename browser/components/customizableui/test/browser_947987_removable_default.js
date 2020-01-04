@@ -221,6 +221,7 @@ defaultArea
 add_task
 (
 function
+*
 (
 )
 {
@@ -564,6 +565,7 @@ otherWin
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

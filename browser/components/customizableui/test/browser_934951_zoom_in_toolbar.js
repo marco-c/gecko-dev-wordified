@@ -93,6 +93,7 @@ navigate
 add_task
 (
 function
+*
 (
 )
 {

@@ -81,6 +81,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -265,6 +266,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -415,6 +417,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -565,6 +568,7 @@ id
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

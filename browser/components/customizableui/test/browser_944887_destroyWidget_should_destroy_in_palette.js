@@ -91,6 +91,7 @@ palette
 add_task
 (
 function
+*
 (
 )
 {

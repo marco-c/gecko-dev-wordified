@@ -64,6 +64,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -606,6 +607,7 @@ kOriginalLabel
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

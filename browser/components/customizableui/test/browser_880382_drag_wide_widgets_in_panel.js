@@ -87,6 +87,7 @@ controls
 add_task
 (
 function
+*
 (
 )
 {
@@ -299,6 +300,7 @@ controls
 add_task
 (
 function
+*
 (
 )
 {
@@ -474,6 +476,7 @@ widgets
 add_task
 (
 function
+*
 (
 )
 {
@@ -660,6 +663,7 @@ panelmenu
 add_task
 (
 function
+*
 (
 )
 {
@@ -886,6 +890,7 @@ button
 add_task
 (
 function
+*
 (
 )
 {
@@ -1106,6 +1111,7 @@ controls
 add_task
 (
 function
+*
 (
 )
 {
@@ -1484,6 +1490,7 @@ controls
 add_task
 (
 function
+*
 (
 )
 {
@@ -1833,6 +1840,7 @@ widgets
 add_task
 (
 function
+*
 (
 )
 {
@@ -2017,6 +2025,7 @@ controls
 add_task
 (
 function
+*
 (
 )
 {
@@ -2228,6 +2237,7 @@ button
 add_task
 (
 function
+*
 (
 )
 {
@@ -2441,6 +2451,7 @@ button
 add_task
 (
 function
+*
 (
 )
 {
@@ -2642,6 +2653,7 @@ panel
 add_task
 (
 function
+*
 (
 )
 {
@@ -2833,6 +2845,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -3139,6 +3152,7 @@ panel
 add_task
 (
 function
+*
 (
 )
 {
@@ -3491,6 +3505,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -3644,6 +3659,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -3989,6 +4005,7 @@ again
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

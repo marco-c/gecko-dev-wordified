@@ -107,6 +107,7 @@ stuff
 add_task
 (
 function
+*
 testWrapUnwrap
 (
 )
@@ -304,6 +305,7 @@ placeholders
 add_task
 (
 function
+*
 testPanelPlaceholders
 (
 )
@@ -625,6 +627,7 @@ endCustomizing
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

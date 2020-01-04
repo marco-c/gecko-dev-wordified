@@ -77,6 +77,7 @@ toolbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -242,6 +243,7 @@ toolbars
 add_task
 (
 function
+*
 (
 )
 {

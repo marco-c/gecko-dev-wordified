@@ -126,6 +126,7 @@ navbar
 add_task
 (
 function
+*
 (
 )
 {

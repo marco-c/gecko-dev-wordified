@@ -120,6 +120,7 @@ toolbars
 add_task
 (
 function
+*
 (
 )
 {
@@ -204,6 +205,7 @@ toolbars
 add_task
 (
 function
+*
 (
 )
 {
@@ -464,6 +466,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -717,6 +720,7 @@ toolbars
 add_task
 (
 function
+*
 (
 )
 {
@@ -968,6 +972,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {

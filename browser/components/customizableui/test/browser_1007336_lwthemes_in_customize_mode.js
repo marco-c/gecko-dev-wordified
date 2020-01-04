@@ -109,6 +109,7 @@ jsm
 add_task
 (
 function
+*
 (
 )
 {
@@ -529,6 +530,7 @@ selected
 add_task
 (
 function
+*
 asyncCleanup
 (
 )
@@ -566,3 +568,4 @@ recommendedThemes
 ;
 }
 )
+;

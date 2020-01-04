@@ -89,6 +89,7 @@ work
 add_task
 (
 function
+*
 (
 )
 {
@@ -187,6 +188,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

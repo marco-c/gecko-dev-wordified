@@ -87,6 +87,7 @@ widget
 add_task
 (
 function
+*
 testAddOnBeforeCreatedWidget
 (
 )
@@ -599,6 +600,7 @@ widget
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

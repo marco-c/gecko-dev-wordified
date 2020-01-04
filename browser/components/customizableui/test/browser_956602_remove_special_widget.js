@@ -81,6 +81,7 @@ throw
 add_task
 (
 function
+*
 (
 )
 {
@@ -272,6 +273,7 @@ endCustomizing
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

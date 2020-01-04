@@ -1530,6 +1530,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

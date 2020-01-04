@@ -93,6 +93,7 @@ toolbar
 add_task
 (
 function
+*
 addOverflowingToolbar
 (
 )
@@ -408,6 +409,7 @@ outerHeight
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

@@ -128,6 +128,7 @@ exists
 add_task
 (
 function
+*
 (
 )
 {
@@ -395,6 +396,7 @@ overflow
 add_task
 (
 function
+*
 (
 )
 {
@@ -790,6 +792,7 @@ overflow
 add_task
 (
 function
+*
 (
 )
 {
@@ -1196,6 +1199,7 @@ exist
 add_task
 (
 function
+*
 (
 )
 {
@@ -1605,6 +1609,7 @@ overflow
 add_task
 (
 function
+*
 (
 )
 {
@@ -2122,6 +2127,7 @@ overflow
 add_task
 (
 function
+*
 (
 )
 {
@@ -2606,6 +2612,7 @@ overflowed
 add_task
 (
 function
+*
 (
 )
 {
@@ -3019,6 +3026,7 @@ false
 add_task
 (
 function
+*
 (
 )
 {
@@ -3405,6 +3413,7 @@ resetCustomization
 add_task
 (
 function
+*
 asyncCleanUp
 (
 )

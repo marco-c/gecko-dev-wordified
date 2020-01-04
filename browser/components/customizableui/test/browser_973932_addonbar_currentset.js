@@ -93,6 +93,7 @@ reset
 add_task
 (
 function
+*
 (
 )
 {

@@ -156,6 +156,7 @@ items
 add_task
 (
 function
+*
 (
 )
 {

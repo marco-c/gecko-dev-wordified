@@ -108,6 +108,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -317,6 +318,7 @@ instead
 add_task
 (
 function
+*
 (
 )
 {
@@ -622,6 +624,7 @@ toolbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -861,6 +864,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1086,6 +1090,7 @@ instead
 add_task
 (
 function
+*
 (
 )
 {
@@ -1320,6 +1325,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1561,6 +1567,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1768,6 +1775,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1916,6 +1924,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -2075,6 +2084,7 @@ mode
 add_task
 (
 function
+*
 (
 )
 {
@@ -2315,6 +2325,7 @@ toolbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -2648,6 +2659,7 @@ options
 add_task
 (
 function
+*
 (
 )
 {
@@ -2862,6 +2874,7 @@ menu
 add_task
 (
 function
+*
 (
 )
 {

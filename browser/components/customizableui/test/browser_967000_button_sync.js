@@ -345,6 +345,7 @@ the
 current
 tab
 function
+*
 openPrefsFromMenuPanel
 (
 expectedPanelId
@@ -800,6 +801,7 @@ panelHidePromise
 }
 }
 function
+*
 asyncCleanup
 (
 )

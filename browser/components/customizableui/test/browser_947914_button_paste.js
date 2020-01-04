@@ -76,6 +76,7 @@ globalClipboard
 add_task
 (
 function
+*
 (
 )
 {
@@ -269,6 +270,7 @@ successfully
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

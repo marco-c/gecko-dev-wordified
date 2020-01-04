@@ -235,6 +235,7 @@ windows
 add_task
 (
 function
+*
 (
 )
 {
@@ -574,6 +575,7 @@ windows
 add_task
 (
 function
+*
 (
 )
 {
@@ -880,6 +882,7 @@ widget
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

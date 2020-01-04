@@ -79,6 +79,7 @@ panel
 add_task
 (
 function
+*
 (
 )
 {
@@ -180,6 +181,7 @@ t
 add_task
 (
 function
+*
 (
 )
 {

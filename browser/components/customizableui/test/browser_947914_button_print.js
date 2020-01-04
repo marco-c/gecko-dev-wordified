@@ -81,6 +81,7 @@ Darwin
 add_task
 (
 function
+*
 (
 )
 {
@@ -231,6 +232,7 @@ mode
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

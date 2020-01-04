@@ -250,6 +250,7 @@ widget
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

@@ -82,6 +82,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -375,6 +376,7 @@ case
 add_task
 (
 function
+*
 (
 )
 {
@@ -705,6 +707,7 @@ case
 add_task
 (
 function
+*
 (
 )
 {
@@ -1054,6 +1057,7 @@ it
 add_task
 (
 function
+*
 (
 )
 {
@@ -1402,6 +1406,7 @@ win8
 add_task
 (
 function
+*
 (
 )
 {
@@ -1596,6 +1601,7 @@ state
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

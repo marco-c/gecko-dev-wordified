@@ -83,6 +83,7 @@ attribute
 add_task
 (
 function
+*
 (
 )
 {

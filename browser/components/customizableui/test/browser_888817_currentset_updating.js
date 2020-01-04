@@ -77,6 +77,7 @@ attributes
 add_task
 (
 function
+*
 (
 )
 {
@@ -552,6 +553,7 @@ us
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

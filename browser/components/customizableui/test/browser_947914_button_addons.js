@@ -78,6 +78,7 @@ null
 add_task
 (
 function
+*
 (
 )
 {
@@ -218,6 +219,7 @@ opened
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

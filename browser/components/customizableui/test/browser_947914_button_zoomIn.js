@@ -71,6 +71,7 @@ zoom
 add_task
 (
 function
+*
 (
 )
 {
@@ -255,6 +256,7 @@ closed
 add_task
 (
 function
+*
 asyncCleanup
 (
 )
