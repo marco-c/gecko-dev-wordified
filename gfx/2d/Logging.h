@@ -946,6 +946,7 @@ CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
 PAllocTextureBackendMismatch
+GetFontFileDataFailed
 /
 /
 End
