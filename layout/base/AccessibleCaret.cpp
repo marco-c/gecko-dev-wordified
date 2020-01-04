@@ -1661,6 +1661,12 @@ not
 exists
 now
 .
+rv
+.
+SuppressException
+(
+)
+;
 }
 AccessibleCaret
 :

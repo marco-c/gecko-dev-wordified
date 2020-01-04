@@ -22881,6 +22881,12 @@ Failed
 fontUpdated
 )
 {
+err
+.
+SuppressException
+(
+)
+;
 gfxFontStyle
 style
 ;

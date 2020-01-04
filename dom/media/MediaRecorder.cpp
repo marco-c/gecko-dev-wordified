@@ -6984,6 +6984,12 @@ Stop
 result
 )
 ;
+result
+.
+SuppressException
+(
+)
+;
 }
 }
 MediaStream

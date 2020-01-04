@@ -13744,6 +13744,12 @@ Unlock
 rv
 )
 ;
+rv
+.
+SuppressException
+(
+)
+;
 mWakeLock
 =
 nullptr

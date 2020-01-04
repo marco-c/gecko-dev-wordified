@@ -1412,6 +1412,12 @@ Unlock
 rv
 )
 ;
+rv
+.
+SuppressException
+(
+)
+;
 mScreenWakeLock
 =
 nullptr
