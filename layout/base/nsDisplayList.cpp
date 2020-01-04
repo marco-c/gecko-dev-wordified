@@ -21270,12 +21270,12 @@ aParameters
 aLayer
 -
 >
-SetFilter
+SetSamplingFilter
 (
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 mFrame
 )

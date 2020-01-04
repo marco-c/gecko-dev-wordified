@@ -415,8 +415,8 @@ aWhichFrame
 ignored
 *
 /
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -440,7 +440,7 @@ aContext
 aSize
 aRegion
 FRAME_FIRST
-aFilter
+aSamplingFilter
 aSVGContext
 aFlags
 )

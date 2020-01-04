@@ -550,9 +550,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &
@@ -620,7 +619,7 @@ Create
 aFillRect
 )
 mWhichFrame
-aFilter
+aSamplingFilter
 mSVGContext
 mFlags
 )
@@ -1837,7 +1836,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -2194,8 +2193,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -2227,7 +2226,7 @@ aContext
 aSize
 aRegion
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 aFlags
 )
@@ -2375,7 +2374,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-aFilter
+aSamplingFilter
 )
 ;
 return
@@ -2389,7 +2388,7 @@ aContext
 aSize
 aRegion
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 aFlags
 )
@@ -2547,8 +2546,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -2861,7 +2860,7 @@ aContext
 size
 region
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 .
 map
@@ -2983,8 +2982,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -3007,7 +3006,7 @@ OptimalImageSizeForDest
 (
 aDest
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 ;
@@ -3235,7 +3234,7 @@ OptimalImageSizeForDest
 (
 desiredSize
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 ;
@@ -3356,7 +3355,7 @@ OptimalImageSizeForDest
 (
 aDest
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 ;

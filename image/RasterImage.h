@@ -1847,8 +1847,8 @@ aRegion
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )

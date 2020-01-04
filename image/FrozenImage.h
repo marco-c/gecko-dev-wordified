@@ -387,8 +387,8 @@ aWhichFrame
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <

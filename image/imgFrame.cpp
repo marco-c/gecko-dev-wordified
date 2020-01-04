@@ -1378,8 +1378,8 @@ aSize
 const
 SurfaceFormat
 aFormat
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aImageFlags
 )
@@ -1833,7 +1833,7 @@ mFrameRect
 )
 )
 mFormat
-aFilter
+aSamplingFilter
 aImageFlags
 )
 ;
@@ -3274,8 +3274,8 @@ const
 ImageRegion
 &
 aRegion
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aImageFlags
 )
@@ -3710,7 +3710,7 @@ region
 surfaceResult
 .
 mFormat
-aFilter
+aSamplingFilter
 aImageFlags
 )
 ;

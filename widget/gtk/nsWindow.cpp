@@ -12420,7 +12420,7 @@ height
 )
 DrawSurfaceOptions
 (
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -12738,7 +12738,7 @@ height
 )
 DrawSurfaceOptions
 (
-Filter
+SamplingFilter
 :
 :
 POINT

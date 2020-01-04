@@ -679,8 +679,8 @@ mozilla
 gfx
 :
 :
-Filter
-Filter
+SamplingFilter
+SamplingFilter
 ;
 typedef
 mozilla
@@ -11708,6 +11708,7 @@ aFrame
 Gets
 the
 graphics
+sampling
 filter
 for
 the
@@ -11715,8 +11716,8 @@ frame
 *
 /
 static
-Filter
-GetGraphicsFilterForFrame
+SamplingFilter
+GetSamplingFilterForFrame
 (
 nsIFrame
 *
@@ -12045,8 +12046,8 @@ const
 CSSIntSize
 &
 aImageSize
-Filter
-aGraphicsFilter
+SamplingFilter
+aSamplingFilter
 const
 nsRect
 &
@@ -12213,8 +12214,9 @@ aPresContext
 imgIContainer
 *
 aImage
-Filter
-aGraphicsFilter
+const
+SamplingFilter
+aSamplingFilter
 const
 nsRect
 &
@@ -12543,8 +12545,9 @@ aPresContext
 imgIContainer
 *
 aImage
-Filter
-aGraphicsFilter
+const
+SamplingFilter
+aSamplingFilter
 const
 nsPoint
 &
@@ -12754,8 +12757,9 @@ aPresContext
 imgIContainer
 *
 aImage
-Filter
-aGraphicsFilter
+const
+SamplingFilter
+aSamplingFilter
 const
 nsRect
 &

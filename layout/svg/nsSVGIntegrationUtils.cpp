@@ -6008,9 +6008,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &
@@ -6051,9 +6050,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &

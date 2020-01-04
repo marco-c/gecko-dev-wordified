@@ -796,7 +796,7 @@ Create
 aSize
 )
 aWhichFrame
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -942,8 +942,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -1002,7 +1002,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-aFilter
+aSamplingFilter
 )
 ;
 return
@@ -1101,7 +1101,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-aFilter
+aSamplingFilter
 )
 ;
 return
@@ -1305,8 +1305,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
