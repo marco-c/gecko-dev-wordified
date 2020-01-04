@@ -2725,7 +2725,6 @@ reflow
 status
 .
 *
-*
 /
 nsresult
 SplitFloat
