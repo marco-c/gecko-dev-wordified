@@ -959,12 +959,11 @@ aFrame
 FrameBidiData
 bidiData
 =
-nsBidi
-:
-:
+aFrame
+-
+>
 GetBidiData
 (
-aFrame
 )
 ;
 return
@@ -13403,7 +13402,7 @@ NS_STYLE_WILL_CHANGE_OPACITY
 nsLayoutUtils
 :
 :
-HasActiveAnimationOfProperty
+HasCurrentAnimationOfProperty
 (
 this
 eCSSProperty_opacity
@@ -43521,9 +43520,6 @@ Properties
 .
 Get
 (
-nsBidi
-:
-:
 BidiDataProperty
 (
 )
