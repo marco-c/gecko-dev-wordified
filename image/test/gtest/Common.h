@@ -2757,6 +2757,11 @@ NoFrameDelayGIFTestCase
 )
 ;
 ImageTestCase
+ExtraImageSubBlocksAnimatedGIFTestCase
+(
+)
+;
+ImageTestCase
 TransparentBMPWhenBMPAlphaEnabledTestCase
 (
 )
