@@ -2509,6 +2509,8 @@ ForwardTrackContentsTo
 ProcessedMediaStream
 *
 aStream
+TrackID
+aDestinationTrackID
 )
 {
 MOZ_ASSERT
@@ -2538,6 +2540,7 @@ GetOwnedStream
 (
 )
 mTrackID
+aDestinationTrackID
 )
 ;
 return
