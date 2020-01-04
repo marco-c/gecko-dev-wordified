@@ -5800,20 +5800,20 @@ int32_t
 aDestSize
 )
 ;
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 BaseLevelProperty
-nullptr
+nsBidiLevel
 )
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 EmbeddingLevelProperty
-nullptr
+nsBidiLevel
 )
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 ParagraphDepthProperty
-nullptr
+uint8_t
 )
 #
 define
@@ -5822,8 +5822,6 @@ NS_GET_BASE_LEVEL
 frame
 )
 \
-NS_PTR_TO_INT32
-(
 frame
 -
 >
@@ -5838,7 +5836,6 @@ nsBidi
 :
 BaseLevelProperty
 (
-)
 )
 )
 #
@@ -5848,8 +5845,6 @@ NS_GET_EMBEDDING_LEVEL
 frame
 )
 \
-NS_PTR_TO_INT32
-(
 frame
 -
 >
@@ -5866,7 +5861,6 @@ EmbeddingLevelProperty
 (
 )
 )
-)
 #
 define
 NS_GET_PARAGRAPH_DEPTH
@@ -5874,8 +5868,6 @@ NS_GET_PARAGRAPH_DEPTH
 frame
 )
 \
-NS_PTR_TO_INT32
-(
 frame
 -
 >
@@ -5890,7 +5882,6 @@ nsBidi
 :
 ParagraphDepthProperty
 (
-)
 )
 )
 protected

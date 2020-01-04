@@ -41076,8 +41076,6 @@ hasEmbeddingLevel
 nsBidiLevel
 embeddingLevel
 =
-NS_PTR_TO_INT32
-(
 Properties
 (
 )
@@ -41092,7 +41090,6 @@ EmbeddingLevelProperty
 )
 &
 hasEmbeddingLevel
-)
 )
 ;
 bool
@@ -51074,7 +51071,7 @@ nsIFrame
 DebugInitialOverflowPropertyApplied
 (
 )
-nullptr
+true
 )
 ;
 #
