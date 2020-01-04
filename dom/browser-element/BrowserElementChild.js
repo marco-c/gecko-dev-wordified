@@ -234,6 +234,12 @@ true
 if
 (
 !
+BrowserElementIsReady
+)
+{
+if
+(
+!
 (
 '
 BrowserElementIsPreloaded
@@ -553,6 +559,7 @@ init
 (
 )
 ;
+}
 }
 }
 var

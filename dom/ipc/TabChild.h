@@ -2098,6 +2098,10 @@ virtual
 bool
 RecvSwappedWithOtherRemoteLoader
 (
+const
+IPCTabContext
+&
+aContext
 )
 override
 ;
