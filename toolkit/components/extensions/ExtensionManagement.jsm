@@ -1747,8 +1747,8 @@ if
 (
 !
 addonId
-&
-&
+|
+|
 getAddonIdForWindow
 (
 window
