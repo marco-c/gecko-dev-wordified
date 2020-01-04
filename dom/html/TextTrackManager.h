@@ -672,6 +672,11 @@ TextTrackCue
 aCue
 )
 ;
+void
+NotifyReset
+(
+)
+;
 private
 :
 /
