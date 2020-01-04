@@ -539,11 +539,6 @@ CopyToBuilder
 (
 FillRule
 aFillRule
-=
-FillRule
-:
-:
-FILL_WINDING
 )
 const
 ;
@@ -560,11 +555,6 @@ Matrix
 aTransform
 FillRule
 aFillRule
-=
-FillRule
-:
-:
-FILL_WINDING
 )
 const
 ;
