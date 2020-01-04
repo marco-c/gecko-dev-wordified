@@ -2039,13 +2039,6 @@ matrix
 OrientationMatrix
 (
 innerSize
-/
-*
-aInvert
-=
-*
-/
-true
 )
 )
 ;
