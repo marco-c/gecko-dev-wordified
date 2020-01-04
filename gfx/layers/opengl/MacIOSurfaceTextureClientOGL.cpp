@@ -145,6 +145,15 @@ MacIOSurfaceTextureClientOGL
 (
 )
 {
+}
+void
+MacIOSurfaceTextureClientOGL
+:
+:
+FinalizeOnIPDLThread
+(
+)
+{
 if
 (
 mActor
