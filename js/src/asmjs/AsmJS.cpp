@@ -4136,7 +4136,7 @@ var
 =
 parser
 .
-statement
+statementListItem
 (
 YieldIsName
 )
@@ -47264,7 +47264,7 @@ parser
 (
 )
 .
-statement
+statementListItem
 (
 YieldIsName
 )
