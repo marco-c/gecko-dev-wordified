@@ -48,6 +48,12 @@ zero
 /
 *
 /
+/
+*
+globals
+getTestActorWithoutToolbox
+*
+/
 "
 use
 strict
@@ -81,7 +87,6 @@ element
 const
 CONTENT
 =
-'
 <
 body
 style
@@ -93,7 +98,6 @@ red
 ;
 "
 >
-\
 <
 div
 style
@@ -105,7 +109,6 @@ blue
 ;
 "
 >
-\
 <
 p
 style
@@ -117,7 +120,6 @@ green
 ;
 "
 >
-\
 <
 span
 style
@@ -135,22 +137,18 @@ element
 /
 span
 >
-\
 <
 /
 p
 >
-\
 <
 /
 div
 >
-\
 <
 /
 body
 >
-'
 ;
 const
 STRINGS

@@ -155,6 +155,9 @@ works
 properly
 for
 property
+"
++
+"
 names
 "
 search
@@ -183,6 +186,9 @@ works
 properly
 for
 property
+"
++
+"
 values
 "
 search
@@ -212,6 +218,9 @@ works
 properly
 for
 parsed
+"
++
+"
 property
 names
 "
@@ -242,6 +251,9 @@ works
 properly
 for
 parsed
+"
++
+"
 property
 values
 "
@@ -273,6 +285,9 @@ works
 properly
 for
 property
+"
++
+"
 line
 input
 "

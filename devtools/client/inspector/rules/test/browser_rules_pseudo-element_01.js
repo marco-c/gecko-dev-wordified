@@ -184,7 +184,7 @@ view
 )
 {
 let
-selector
+id
 =
 "
 #
@@ -197,7 +197,7 @@ rules
 yield
 assertPseudoElementRulesNumbers
 (
-selector
+id
 inspector
 view
 {
@@ -637,7 +637,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 "
 :
 first
@@ -676,7 +676,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 "
 :
 first
@@ -710,7 +710,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 null
 "
 text
@@ -751,7 +751,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 "
 :
 first
@@ -791,7 +791,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 null
 "
 background
@@ -837,7 +837,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 "
 :
 first
@@ -876,7 +876,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 null
 "
 text
@@ -933,7 +933,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 null
 "
 background
@@ -967,7 +967,7 @@ is
 yield
 getComputedStyleProperty
 (
-selector
+id
 "
 :
 first
