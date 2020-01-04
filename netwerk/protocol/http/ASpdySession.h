@@ -651,7 +651,7 @@ const
 uint32_t
 kCount
 =
-2
+1
 ;
 /
 /
@@ -822,17 +822,6 @@ can
 be
 considered
 .
-/
-/
-Stacks
-without
-restrictions
-can
-just
-use
-SpdySessionTrue
-(
-)
 ALPNCallback
 ALPNCallbacks
 [

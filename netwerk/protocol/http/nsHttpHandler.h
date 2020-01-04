@@ -738,15 +738,6 @@ mEnableSpdy
 ;
 }
 bool
-IsSpdyV31Enabled
-(
-)
-{
-return
-mSpdyV31
-;
-}
-bool
 IsHttp2Enabled
 (
 )
@@ -2722,11 +2713,6 @@ mDebugObservations
 ;
 uint32_t
 mEnableSpdy
-:
-1
-;
-uint32_t
-mSpdyV31
 :
 1
 ;
