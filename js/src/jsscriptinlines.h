@@ -126,7 +126,7 @@ include
 "
 asmjs
 /
-AsmJSLink
+AsmJS
 .
 h
 "

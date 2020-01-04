@@ -394,14 +394,6 @@ OnDetached
 (
 )
 {
-/
-/
-See
-hasDetachedHeap
-comment
-in
-LinkAsmJS
-.
 JSContext
 *
 cx

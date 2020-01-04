@@ -4152,9 +4152,9 @@ comments
 above
 AsmJSMappedSize
 in
-AsmJSValidate
+AsmJS
 .
-h
+cpp
 for
 more
 info
