@@ -5553,6 +5553,14 @@ CallInfo
 callInfo
 )
 ;
+InliningStatus
+inlineRegExpPrototypeOptimizable
+(
+CallInfo
+&
+callInfo
+)
+;
 /
 /
 Object
