@@ -8656,12 +8656,6 @@ ResetDemuxer
 (
 )
 ;
-mVideo
-.
-ResetState
-(
-)
-;
 Reset
 (
 TrackInfo
@@ -8705,12 +8699,6 @@ AUDIO_VIDEO
 mAudio
 .
 ResetDemuxer
-(
-)
-;
-mAudio
-.
-ResetState
 (
 )
 ;
