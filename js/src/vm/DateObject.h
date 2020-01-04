@@ -143,9 +143,6 @@ namespace
 js
 {
 class
-DateTimeInfo
-;
-class
 DateObject
 :
 public
@@ -418,9 +415,6 @@ inline
 double
 cachedLocalTime
 (
-DateTimeInfo
-*
-dtInfo
 )
 ;
 /
@@ -472,9 +466,6 @@ conversion
 void
 fillLocalTimeSlots
 (
-DateTimeInfo
-*
-dtInfo
 )
 ;
 static

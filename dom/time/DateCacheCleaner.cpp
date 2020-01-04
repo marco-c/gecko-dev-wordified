@@ -124,7 +124,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+Date
 .
 h
 "
@@ -226,9 +228,11 @@ mozilla
 AutoSafeJSContext
 cx
 ;
-JS_ClearDateCaches
+JS
+:
+:
+ResetTimeZone
 (
-cx
 )
 ;
 }
