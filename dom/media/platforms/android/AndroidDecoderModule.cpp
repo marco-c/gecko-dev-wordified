@@ -926,7 +926,7 @@ GetEnvForThread
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 LocalRef

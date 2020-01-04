@@ -603,7 +603,7 @@ buffer
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Ref
@@ -4367,7 +4367,7 @@ mBuffer
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Ref
