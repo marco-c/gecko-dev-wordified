@@ -174,7 +174,7 @@ namespace
 mozilla
 {
 namespace
-plugins
+ipc
 {
 template
 <
@@ -588,7 +588,7 @@ object_
 /
 /
 namespace
-plugins
+ipc
 }
 /
 /
