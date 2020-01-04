@@ -244,6 +244,7 @@ this
 at
 home
 !
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -264,6 +265,7 @@ bad_exception
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -284,6 +286,7 @@ bad_alloc
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -304,6 +307,7 @@ bad_cast
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -331,6 +335,7 @@ by
 <
 functional
 >
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -351,6 +356,7 @@ bad_function_call
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -368,6 +374,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -385,6 +392,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -402,6 +410,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -419,6 +428,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -436,6 +446,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -453,6 +464,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -470,6 +482,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -487,6 +500,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -504,6 +518,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
@@ -521,6 +536,7 @@ msg
 )
 ;
 }
+MOZ_EXPORT
 MOZ_NORETURN
 MOZ_ALWAYS_INLINE
 void
