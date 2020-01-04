@@ -4393,7 +4393,7 @@ if
 aMsg
 -
 >
-capacity
+size
 (
 )
 >
@@ -4422,7 +4422,7 @@ name
 aMsg
 -
 >
-capacity
+size
 (
 )
 )
@@ -6595,7 +6595,7 @@ if
 aMsg
 -
 >
-capacity
+size
 (
 )
 >
@@ -6624,7 +6624,7 @@ name
 aMsg
 -
 >
-capacity
+size
 (
 )
 )
@@ -7971,7 +7971,7 @@ if
 aReply
 -
 >
-capacity
+size
 (
 )
 >
@@ -7995,7 +7995,7 @@ msgName
 aReply
 -
 >
-capacity
+size
 (
 )
 )

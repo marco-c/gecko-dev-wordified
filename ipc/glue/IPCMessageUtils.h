@@ -4199,7 +4199,14 @@ aligned
 if
 (
 !
+const_cast
+<
+Message
+*
+>
+(
 aMsg
+)
 -
 >
 FlattenBytes
