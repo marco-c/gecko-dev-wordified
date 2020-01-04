@@ -3540,6 +3540,10 @@ nsTextFrame
 (
 )
 ;
+gfxTextRun
+*
+mTextRun
+;
 nsIFrame
 *
 mNextContinuation
@@ -3736,10 +3740,6 @@ mContentLengthHint
 ;
 nscoord
 mAscent
-;
-gfxTextRun
-*
-mTextRun
 ;
 /
 *
