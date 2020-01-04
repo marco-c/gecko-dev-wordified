@@ -297,7 +297,6 @@ processes
 const
 char
 *
-const
 IPDLUnitTestName
 (
 )

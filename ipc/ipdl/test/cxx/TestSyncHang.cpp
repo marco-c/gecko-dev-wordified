@@ -194,7 +194,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeleteSyncHangSubprocess
@@ -288,7 +287,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeferredSyncHangParentShutdown

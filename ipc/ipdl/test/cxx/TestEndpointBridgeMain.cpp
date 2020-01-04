@@ -459,7 +459,8 @@ current
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -467,6 +468,7 @@ TestEndpointBridgeMainSubParent
 >
 (
 this
+)
 )
 )
 ;
@@ -477,7 +479,8 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -486,6 +489,7 @@ Transport
 (
 GetTransport
 (
+)
 )
 )
 )
@@ -773,7 +777,8 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -781,6 +786,7 @@ IPDLUnitTestSubprocess
 >
 (
 mSubprocess
+)
 )
 )
 ;
@@ -1023,7 +1029,8 @@ current
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -1031,6 +1038,7 @@ TestEndpointBridgeSubParent
 >
 (
 this
+)
 )
 )
 ;
@@ -1363,7 +1371,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1485,7 +1492,8 @@ current
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -1493,6 +1501,7 @@ TestEndpointBridgeMainSubChild
 >
 (
 this
+)
 )
 )
 ;
@@ -1503,7 +1512,8 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -1512,6 +1522,7 @@ Transport
 (
 GetTransport
 (
+)
 )
 )
 )

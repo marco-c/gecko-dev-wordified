@@ -474,7 +474,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 RunTestsFn

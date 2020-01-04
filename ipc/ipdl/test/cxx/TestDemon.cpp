@@ -922,7 +922,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1580,7 +1579,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this

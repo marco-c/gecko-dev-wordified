@@ -311,7 +311,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -437,7 +436,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeleteSubprocess
@@ -466,7 +464,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 Done
