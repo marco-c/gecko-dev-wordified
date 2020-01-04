@@ -397,6 +397,16 @@ bool
 isRequired
 }
 ;
+ConsoleApiCall
+.
+defaultProps
+=
+{
+open
+:
+false
+}
+;
 function
 ConsoleApiCall
 (
