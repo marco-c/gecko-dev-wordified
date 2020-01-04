@@ -115,7 +115,7 @@ mozilla
 /
 layers
 /
-TextureForwarder
+CompositableForwarder
 .
 h
 "
@@ -300,7 +300,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -333,7 +333,7 @@ TextureClientRecycleAllocator
 :
 TextureClientRecycleAllocator
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
