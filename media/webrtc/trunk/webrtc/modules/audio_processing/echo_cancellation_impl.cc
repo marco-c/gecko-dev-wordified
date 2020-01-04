@@ -1876,11 +1876,6 @@ config
 {
 extended_filter_enabled_
 =
-true
-;
-/
-/
-XXX
 config
 .
 Get
@@ -1894,11 +1889,6 @@ enabled
 ;
 delay_agnostic_enabled_
 =
-true
-;
-/
-/
-XXX
 config
 .
 Get
