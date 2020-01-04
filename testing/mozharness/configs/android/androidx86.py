@@ -930,12 +930,6 @@ size
 "
 -
 -
-bootstrap
-"
-                        
-"
--
--
 remote
 -
 webserver

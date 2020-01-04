@@ -2746,6 +2746,18 @@ n
 '
 )
             
+lines
+=
+[
+l
+for
+l
+in
+lines
+if
+l
+]
+            
 if
 lines
 :
@@ -2809,18 +2821,6 @@ be
 logged
 or
 buffered
-)
-                
-#
-and
-returns
-a
-list
-of
-structured
-messages
-(
-dict
 )
                 
 parsed_messages

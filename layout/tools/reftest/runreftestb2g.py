@@ -445,6 +445,10 @@ _devicemanager
 =
 None
     
+use_marionette
+=
+False
+    
 localProfile
 =
 None
@@ -2622,9 +2626,6 @@ None
 "
 fennec
 "
-context_chrome
-=
-True
 )
     
 #

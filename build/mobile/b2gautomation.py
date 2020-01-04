@@ -208,9 +208,6 @@ None
 marionette
 =
 None
-context_chrome
-=
-True
 )
 :
         
@@ -243,12 +240,6 @@ self
 marionette
 =
 marionette
-        
-self
-.
-context_chrome
-=
-context_chrome
         
 self
 .
@@ -2906,11 +2897,12 @@ start_session
 session
 )
         
+with
 self
 .
 marionette
 .
-set_context
+using_context
 (
 self
 .
@@ -2918,7 +2910,8 @@ marionette
 .
 CONTEXT_CHROME
 )
-        
+:
+            
 self
 .
 marionette
@@ -2928,7 +2921,7 @@ execute_script
 "
 "
 "
-            
+                
 let
 SECURITY_PREF
 =
@@ -2938,7 +2931,7 @@ security
 turn_off_all_security_so_that_viruses_can_take_over_this_computer
 "
 ;
-            
+                
 Components
 .
 utils
@@ -2960,7 +2953,7 @@ jsm
 "
 )
 ;
-            
+                
 Services
 .
 prefs
@@ -2971,7 +2964,7 @@ SECURITY_PREF
 true
 )
 ;
-            
+                
 if
 (
 !
@@ -2985,7 +2978,7 @@ specialPowersObserver
 )
 )
 {
-              
+                  
 let
 loader
 =
@@ -3007,7 +3000,7 @@ loader
 1
 "
 ]
-                
+                    
 .
 getService
 (
@@ -3018,7 +3011,7 @@ interfaces
 mozIJSSubScriptLoader
 )
 ;
-              
+                  
 loader
 .
 loadSubScript
@@ -3036,11 +3029,11 @@ SpecialPowersObserver
 .
 jsm
 "
-                
+                    
 testUtils
 )
 ;
-              
+                  
 testUtils
 .
 specialPowersObserver
@@ -3052,7 +3045,7 @@ SpecialPowersObserver
 (
 )
 ;
-              
+                  
 testUtils
 .
 specialPowersObserver
@@ -3061,34 +3054,14 @@ init
 (
 )
 ;
-            
+                
 }
-            
+                
 "
 "
 "
 )
-        
-if
-not
-self
-.
-context_chrome
-:
             
-self
-.
-marionette
-.
-set_context
-(
-self
-.
-marionette
-.
-CONTEXT_CONTENT
-)
-        
 #
 run
 the
@@ -3097,13 +3070,13 @@ that
 starts
 the
 tests
-        
+            
 if
 self
 .
 test_script
 :
-            
+                
 if
 os
 .
@@ -3116,7 +3089,7 @@ self
 test_script
 )
 :
-                
+                    
 script
 =
 open
@@ -3128,7 +3101,7 @@ test_script
 r
 '
 )
-                
+                    
 self
 .
 marionette
@@ -3146,13 +3119,13 @@ self
 .
 test_script_args
 )
-                
+                    
 script
 .
 close
 (
 )
-            
+                
 elif
 isinstance
 (
@@ -3162,7 +3135,7 @@ test_script
 basestring
 )
 :
-                
+                    
 self
 .
 marionette
@@ -3178,10 +3151,10 @@ self
 .
 test_script_args
 )
-        
+            
 else
 :
-            
+                
 #
 assumes
 the
@@ -3191,7 +3164,7 @@ started
 on
 startup
 automatically
-            
+                
 pass
         
 return
