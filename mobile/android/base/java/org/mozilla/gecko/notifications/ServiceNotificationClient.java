@@ -95,6 +95,8 @@ org
 mozilla
 .
 gecko
+.
+notifications
 ;
 import
 android

@@ -209,6 +209,17 @@ mozilla
 .
 gecko
 .
+notifications
+.
+NotificationHelper
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 Clipboard
