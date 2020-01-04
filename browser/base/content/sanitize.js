@@ -1909,10 +1909,10 @@ name
 cookie
 .
 path
+false
 cookie
 .
 originAttributes
-false
 )
 ;
 if
@@ -4203,9 +4203,6 @@ return
 true
 ;
 }
-return
-false
-;
 }
 _resetAllWindowClosures
 :
@@ -4774,9 +4771,6 @@ return
 false
 ;
 }
-return
-undefined
-;
 }
 newWindow
 .
