@@ -1065,7 +1065,12 @@ isB2G
 =
 capabilities
 .
+platformName
+=
+=
+"
 B2G
+"
 ;
 listenerId
 =
@@ -2378,7 +2383,12 @@ isB2G
 =
 capabilities
 .
+platformName
+=
+=
+"
 B2G
+"
 ;
 resetValues
 (
