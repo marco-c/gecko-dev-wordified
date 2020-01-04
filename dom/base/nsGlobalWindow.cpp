@@ -3427,12 +3427,12 @@ CreateVoidVariant
 {
 nsRefPtr
 <
-nsVariant
+nsVariantCC
 >
 writable
 =
 new
-nsVariant
+nsVariantCC
 (
 )
 ;

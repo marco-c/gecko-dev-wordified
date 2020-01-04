@@ -18560,12 +18560,12 @@ j
 ;
 nsRefPtr
 <
-nsVariant
+nsVariantCC
 >
 variant
 =
 new
-nsVariant
+nsVariantCC
 (
 )
 ;
