@@ -108175,6 +108175,14 @@ False
 resultNotAddRefed
 =
 False
+                 
+virtual
+=
+False
+                 
+override
+=
+False
 )
 :
         
@@ -108424,6 +108432,14 @@ breakAfterSelf
 visibility
 =
 visibility
+                             
+virtual
+=
+virtual
+                             
+override
+=
+override
 )
     
 def
@@ -114570,6 +114586,13 @@ public
 variadicIsSequence
 =
 False
+                 
+virtual
+=
+False
+override
+=
+False
 )
 :
         
@@ -114599,6 +114622,14 @@ visibility
 variadicIsSequence
 =
 variadicIsSequence
+                                
+virtual
+=
+virtual
+                                
+override
+=
+override
 )
         
 self
@@ -114698,6 +114729,49 @@ True
 )
 :
         
+virtual
+=
+False
+        
+override
+=
+False
+        
+if
+(
+method
+.
+identifier
+.
+name
+=
+=
+"
+eventListenerWasAdded
+"
+or
+            
+method
+.
+identifier
+.
+name
+=
+=
+"
+eventListenerWasRemoved
+"
+)
+:
+            
+virtual
+=
+True
+            
+override
+=
+True
+        
 self
 .
 signature
@@ -114753,6 +114827,14 @@ True
 passJSBitsAsNeeded
 =
 False
+                                
+virtual
+=
+virtual
+                                
+override
+=
+override
 )
     
 def
