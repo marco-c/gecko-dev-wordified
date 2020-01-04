@@ -9510,6 +9510,7 @@ sync
 function
 sync
 (
+engineNamesToSync
 )
 {
 if
@@ -9687,11 +9688,8 @@ return
 this
 .
 _lockedSync
-.
-apply
 (
-this
-arguments
+engineNamesToSync
 )
 ;
 }
@@ -9718,6 +9716,7 @@ _lockedSync
 function
 _lockedSync
 (
+engineNamesToSync
 )
 {
 return
@@ -9795,6 +9794,7 @@ synchronizer
 .
 sync
 (
+engineNamesToSync
 )
 ;
 /
