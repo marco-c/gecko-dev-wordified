@@ -58,8 +58,6 @@ argparse
 import
 copy
 import
-functools
-import
 re
 import
 shlex
@@ -1125,12 +1123,9 @@ seen_chunks
 name
 ]
 =
-set
-(
-[
+{
 chunk
-]
-)
+}
                 
 test
 [
@@ -1558,6 +1553,16 @@ in
 specific_test_job
 :
             
+#
+NOTE
+:
+build_name
+is
+always
+"
+allowed_build_tasks
+"
+            
 for
 test_task_name
 in
@@ -1567,6 +1572,16 @@ build_name
 ]
 :
                 
+#
+NOTE
+:
+test_task_name
+is
+always
+"
+task
+"
+                
 test_task
 =
 specific_test_job
@@ -1575,6 +1590,20 @@ build_name
 ]
 [
 test_task_name
+]
+                
+test_task
+[
+'
+unittest_try_name
+'
+]
+=
+test_entry
+[
+'
+test
+'
 ]
                 
 #
@@ -2451,16 +2480,29 @@ allowed_build_tasks
                     
 continue
                 
-post_build_jobs
-.
-append
-(
+job
+=
 copy
 .
 deepcopy
 (
 job
 )
+                
+job
+[
+'
+job_flag
+'
+]
+=
+job_flag
+                
+post_build_jobs
+.
+append
+(
+job
 )
             
 #
@@ -2768,6 +2810,12 @@ build_type
 '
 :
 name
+            
+'
+is_job
+'
+:
+True
             
 '
 interactive
