@@ -5156,6 +5156,7 @@ open
 roomToken
 )
 ;
+return
 MozLoopService
 .
 openChatWindow
