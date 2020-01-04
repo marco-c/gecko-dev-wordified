@@ -2329,7 +2329,7 @@ this
 ;
 }
 return
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 :
 :
 AttributeChanged
@@ -2382,7 +2382,7 @@ mask
 "
 )
 ;
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 :
 :
 Init

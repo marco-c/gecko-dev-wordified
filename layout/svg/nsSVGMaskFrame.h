@@ -159,10 +159,6 @@ h
 class
 gfxContext
 ;
-typedef
-nsSVGContainerFrame
-nsSVGMaskFrameBase
-;
 /
 *
 *
@@ -227,7 +223,7 @@ nsSVGMaskFrame
 final
 :
 public
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 {
 friend
 nsIFrame
@@ -272,7 +268,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
