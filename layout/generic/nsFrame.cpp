@@ -1115,7 +1115,7 @@ SizeTo
 }
 static
 bool
-IsBoxWrapped
+IsXULBoxWrapped
 (
 const
 nsIFrame
@@ -3684,7 +3684,7 @@ if
 (
 :
 :
-IsBoxWrapped
+IsXULBoxWrapped
 (
 this
 )
@@ -28083,7 +28083,7 @@ if
 (
 :
 :
-IsBoxWrapped
+IsXULBoxWrapped
 (
 this
 )
@@ -38427,7 +38427,7 @@ IsXULBoxFrame
 |
 :
 :
-IsBoxWrapped
+IsXULBoxWrapped
 (
 this
 )
@@ -52846,7 +52846,7 @@ if
 !
 :
 :
-IsBoxWrapped
+IsXULBoxWrapped
 (
 this
 )
@@ -61487,7 +61487,7 @@ if
 (
 :
 :
-IsBoxWrapped
+IsXULBoxWrapped
 (
 this
 )
@@ -61543,7 +61543,7 @@ we
 were
 /
 /
-IsBoxWrapped
+IsXULBoxWrapped
 (
 )
 before

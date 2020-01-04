@@ -5632,7 +5632,7 @@ within
 an
 /
 /
-IsBoxWrapped
+IsXULBoxWrapped
 check
 .
 }
