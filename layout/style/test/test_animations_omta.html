@@ -9418,6 +9418,11 @@ advance_clock
 200
 )
 ;
+yield
+waitForPaints
+(
+)
+;
 omta_is
 (
 "
@@ -9464,7 +9469,7 @@ ease_out
 01
 RunningOn
 .
-Compositor
+MainThread
 "
 animation
 -
