@@ -3373,9 +3373,6 @@ GLContextProviderWGL
 CreateHeadless
 (
 CreateContextFlags
-nsACString
-&
-aFailureId
 )
 {
 if
@@ -3540,9 +3537,6 @@ SurfaceCaps
 minCaps
 CreateContextFlags
 flags
-nsACString
-&
-aFailureId
 )
 {
 RefPtr
@@ -3554,7 +3548,6 @@ gl
 CreateHeadless
 (
 flags
-aFailureId
 )
 ;
 if
@@ -3577,20 +3570,9 @@ size
 minCaps
 )
 )
-{
-aFailureId
-=
-NS_LITERAL_CSTRING
-(
-"
-FEATURE_FAILURE_WGL_INIT
-"
-)
-;
 return
 nullptr
 ;
-}
 return
 gl
 .
@@ -3642,9 +3624,6 @@ MOZ_RELEASE_ASSERT
 gGlobalContext
 )
 ;
-nsCString
-discardFailureId
-;
 RefPtr
 <
 GLContext
@@ -3657,7 +3636,6 @@ CreateContextFlags
 :
 :
 NONE
-discardFailureId
 )
 ;
 gGlobalContext

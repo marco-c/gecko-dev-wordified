@@ -339,9 +339,6 @@ bpp16
 =
 false
 ;
-nsCString
-discardFailureId
-;
 RefPtr
 <
 GLContext
@@ -363,7 +360,6 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
-discardFailureId
 )
 ;
 return
