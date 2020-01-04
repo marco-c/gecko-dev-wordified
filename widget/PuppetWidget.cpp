@@ -4872,10 +4872,6 @@ PaintWindow
 (
 this
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 if

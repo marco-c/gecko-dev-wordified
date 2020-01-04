@@ -3582,7 +3582,13 @@ listener
 PaintWindow
 (
 this
+LayoutDeviceIntRegion
+:
+:
+FromUnknownRegion
+(
 region
+)
 )
 ;
 }
@@ -4360,7 +4366,13 @@ listener
 PaintWindow
 (
 this
+LayoutDeviceIntRegion
+:
+:
+FromUnknownRegion
+(
 region
+)
 )
 ;
 break

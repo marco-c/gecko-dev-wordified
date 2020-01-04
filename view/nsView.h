@@ -443,6 +443,13 @@ mozilla
 LayoutDeviceIntRect
 LayoutDeviceIntRect
 ;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntRegion
+LayoutDeviceIntRegion
+;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 /
 *
@@ -2839,7 +2846,7 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 override

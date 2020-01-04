@@ -1756,7 +1756,7 @@ nsView
 *
 aView
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -4459,7 +4459,7 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 {

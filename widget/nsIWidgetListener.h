@@ -94,6 +94,13 @@ nsRegionFwd
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsView
 ;
@@ -744,7 +751,10 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+mozilla
+:
+:
+LayoutDeviceIntRegion
 aRegion
 )
 ;

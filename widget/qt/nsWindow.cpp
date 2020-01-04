@@ -4688,10 +4688,10 @@ LayersBackend
 LAYERS_CLIENT
 :
 {
-nsIntRegion
+LayoutDeviceIntRegion
 region
 (
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0

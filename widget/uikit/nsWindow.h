@@ -502,7 +502,7 @@ WillPaintWindow
 bool
 PaintWindow
 (
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 ;

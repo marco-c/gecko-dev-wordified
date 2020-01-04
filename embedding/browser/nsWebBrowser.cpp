@@ -9485,7 +9485,7 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 {
@@ -9543,6 +9543,10 @@ dirtyRect
 aRegion
 .
 GetBounds
+(
+)
+.
+ToUnknownRect
 (
 )
 ;
