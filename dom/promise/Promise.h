@@ -1376,6 +1376,9 @@ aRunnable
 ;
 protected
 :
+struct
+PromiseCapability
+;
 /
 /
 Do
