@@ -471,6 +471,11 @@ mFBO
 aFBO
 )
 {
+MOZ_ASSERT
+(
+mGL
+)
+;
 }
 ~
 CompositingRenderTargetOGL
