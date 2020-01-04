@@ -46,6 +46,7 @@ C
 2009
 -
 2011
+2016
 D
 .
 R
@@ -63,6 +64,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -1636,7 +1640,7 @@ if
 (
 (
 (
-INT32
+JLONG
 )
 code
 )
@@ -1645,7 +1649,7 @@ code
 (
 (
 (
-INT32
+JLONG
 )
 1
 )
@@ -1756,12 +1760,12 @@ l
 ]
 =
 (
-INT32
+JLONG
 )
 p
 -
 (
-INT32
+JLONG
 )
 huffcode
 [
@@ -3533,7 +3537,7 @@ l
 min_bits
 ;
 register
-INT32
+JLONG
 code
 ;
 /
@@ -4482,9 +4486,13 @@ JBLOCKROW
 block
 =
 MCU_data
+?
+MCU_data
 [
 blkn
 ]
+:
+NULL
 ;
 d_derived_tbl
 *
@@ -4639,6 +4647,11 @@ ci
 =
 s
 ;
+if
+(
+block
+)
+{
 /
 *
 Output
@@ -4670,6 +4683,7 @@ JCOEF
 s
 ;
 }
+}
 if
 (
 entropy
@@ -4679,6 +4693,9 @@ ac_needed
 [
 blkn
 ]
+&
+&
+block
 )
 {
 /
@@ -5108,9 +5125,13 @@ JBLOCKROW
 block
 =
 MCU_data
+?
+MCU_data
 [
 blkn
 ]
+:
+NULL
 ;
 d_derived_tbl
 *
@@ -5214,6 +5235,10 @@ ci
 =
 s
 ;
+if
+(
+block
+)
 (
 *
 block
@@ -5237,6 +5262,9 @@ ac_needed
 [
 blkn
 ]
+&
+&
+block
 )
 {
 for
@@ -5626,7 +5654,7 @@ BUFSIZE
 (
 DCTSIZE2
 *
-2
+8
 )
 METHODDEF
 (

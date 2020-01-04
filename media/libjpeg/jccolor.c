@@ -78,6 +78,7 @@ Technologies
 Inc
 .
 California
+.
 *
 For
 conditions
@@ -89,6 +90,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -165,7 +169,7 @@ YCC
 conversion
 *
 /
-INT32
+JLONG
 *
 rgb_ycc_tab
 ;
@@ -625,7 +629,7 @@ define
 CBCR_OFFSET
 (
 (
-INT32
+JLONG
 )
 CENTERJSAMPLE
 <
@@ -637,7 +641,7 @@ define
 ONE_HALF
 (
 (
-INT32
+JLONG
 )
 1
 <
@@ -656,7 +660,7 @@ x
 )
 (
 (
-INT32
+JLONG
 )
 (
 (
@@ -1282,11 +1286,11 @@ cinfo
 >
 cconvert
 ;
-INT32
+JLONG
 *
 rgb_ycc_tab
 ;
-INT32
+JLONG
 i
 ;
 /
@@ -1309,7 +1313,7 @@ rgb_ycc_tab
 rgb_ycc_tab
 =
 (
-INT32
+JLONG
 *
 )
 (
@@ -1333,7 +1337,7 @@ TABLE_SIZE
 *
 sizeof
 (
-INT32
+JLONG
 )
 )
 )
@@ -2193,7 +2197,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =

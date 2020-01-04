@@ -44,6 +44,7 @@ Copyright
 C
 )
 2011
+2015
 D
 .
 R
@@ -61,6 +62,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -203,7 +207,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -212,7 +216,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -741,7 +745,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -750,7 +754,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =

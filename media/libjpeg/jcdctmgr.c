@@ -77,6 +77,7 @@ D
 R
 .
 Commander
+.
 *
 For
 conditions
@@ -88,6 +89,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -1193,11 +1197,11 @@ DCTSIZE2
 3
 ]
 =
+-
 (
 DCTELEM
 )
 (
--
 sizeof
 (
 DCTELEM
@@ -1403,6 +1407,9 @@ correction
 roundfactor
 *
 /
+#
+ifdef
+WITH_SIMD
 dtbl
 [
 DCTSIZE2
@@ -1436,6 +1443,19 @@ r
 scale
 *
 /
+#
+else
+dtbl
+[
+DCTSIZE2
+*
+2
+]
+=
+1
+;
+#
+endif
 dtbl
 [
 DCTSIZE2
@@ -2164,7 +2184,7 @@ DESCALE
 MULTIPLY16V16
 (
 (
-INT32
+JLONG
 )
 qtbl
 -
@@ -2174,7 +2194,7 @@ quantval
 i
 ]
 (
-INT32
+JLONG
 )
 aanscales
 [
@@ -2223,7 +2243,7 @@ DESCALE
 MULTIPLY16V16
 (
 (
-INT32
+JLONG
 )
 qtbl
 -
@@ -2233,7 +2253,7 @@ quantval
 i
 ]
 (
-INT32
+JLONG
 )
 aanscales
 [
@@ -2965,6 +2985,9 @@ DCTELEM
 ;
 temp
 =
+(
+DCTELEM
+)
 product
 ;
 temp
@@ -3003,6 +3026,9 @@ DCTELEM
 ;
 temp
 =
+(
+DCTELEM
+)
 product
 ;
 }

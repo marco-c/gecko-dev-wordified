@@ -16,6 +16,7 @@ D
 R
 .
 Commander
+.
 *
 For
 conditions
@@ -27,6 +28,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *

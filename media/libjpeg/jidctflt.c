@@ -68,6 +68,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -287,12 +290,14 @@ section
 in
 file
 README
+.
+ijg
 )
 .
 The
 following
-code
 *
+code
 is
 based
 directly

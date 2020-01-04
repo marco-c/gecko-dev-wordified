@@ -49,6 +49,7 @@ D
 R
 .
 Commander
+.
 *
 For
 conditions
@@ -60,6 +61,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -667,7 +671,7 @@ intermediate
 *
 array
 is
-INT32
+JLONG
 anyway
 .
 )
@@ -845,7 +849,7 @@ define
 FIX_0_298631336
 (
 (
-INT32
+JLONG
 )
 2446
 )
@@ -864,7 +868,7 @@ define
 FIX_0_390180644
 (
 (
-INT32
+JLONG
 )
 3196
 )
@@ -883,7 +887,7 @@ define
 FIX_0_541196100
 (
 (
-INT32
+JLONG
 )
 4433
 )
@@ -902,7 +906,7 @@ define
 FIX_0_765366865
 (
 (
-INT32
+JLONG
 )
 6270
 )
@@ -921,7 +925,7 @@ define
 FIX_0_899976223
 (
 (
-INT32
+JLONG
 )
 7373
 )
@@ -940,7 +944,7 @@ define
 FIX_1_175875602
 (
 (
-INT32
+JLONG
 )
 9633
 )
@@ -959,7 +963,7 @@ define
 FIX_1_501321110
 (
 (
-INT32
+JLONG
 )
 12299
 )
@@ -978,7 +982,7 @@ define
 FIX_1_847759065
 (
 (
-INT32
+JLONG
 )
 15137
 )
@@ -997,7 +1001,7 @@ define
 FIX_1_961570560
 (
 (
-INT32
+JLONG
 )
 16069
 )
@@ -1016,7 +1020,7 @@ define
 FIX_2_053119869
 (
 (
-INT32
+JLONG
 )
 16819
 )
@@ -1035,7 +1039,7 @@ define
 FIX_2_562915447
 (
 (
-INT32
+JLONG
 )
 20995
 )
@@ -1054,7 +1058,7 @@ define
 FIX_3_072711026
 (
 (
-INT32
+JLONG
 )
 25172
 )
@@ -1184,16 +1188,16 @@ endif
 *
 Multiply
 an
-INT32
+JLONG
 variable
 by
 an
-INT32
+JLONG
 constant
 to
 yield
 an
-INT32
+JLONG
 result
 .
 *
@@ -1322,7 +1326,7 @@ DCTELEM
 data
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
@@ -1332,13 +1336,13 @@ tmp5
 tmp6
 tmp7
 ;
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
 tmp13
 ;
-INT32
+JLONG
 z1
 z2
 z3

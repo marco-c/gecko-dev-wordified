@@ -23,8 +23,8 @@ California
 .
 *
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 Authors

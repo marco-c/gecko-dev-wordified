@@ -46,6 +46,7 @@ C
 2009
 -
 2012
+2015
 D
 .
 R
@@ -63,6 +64,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -220,7 +224,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =
@@ -666,7 +670,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =

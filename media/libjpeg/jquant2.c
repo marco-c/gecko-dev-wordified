@@ -45,6 +45,8 @@ C
 )
 2009
 2014
+-
+2015
 D
 .
 R
@@ -62,6 +64,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -1657,7 +1662,7 @@ temps
 #
 else
 typedef
-INT32
+JLONG
 FSERROR
 ;
 /
@@ -1671,7 +1676,7 @@ bits
 *
 /
 typedef
-INT32
+JLONG
 LOCFSERROR
 ;
 /
@@ -2199,7 +2204,7 @@ the
 box
 *
 /
-INT32
+JLONG
 volume
 ;
 /
@@ -2384,7 +2389,7 @@ int
 i
 ;
 register
-INT32
+JLONG
 maxv
 =
 0
@@ -2517,7 +2522,7 @@ c1max
 c2min
 c2max
 ;
-INT32
+JLONG
 dist0
 dist1
 dist2
@@ -5032,7 +5037,7 @@ elements
 have
 to
 be
-INT32s
+JLONGs
 so
 the
 work
@@ -5677,13 +5682,13 @@ i
 x
 ncolors
 ;
-INT32
+JLONG
 minmaxdist
 min_dist
 max_dist
 tdist
 ;
-INT32
+JLONG
 mindist
 [
 MAXNUMCOLORS
@@ -6713,7 +6718,7 @@ i
 icolor
 ;
 register
-INT32
+JLONG
 *
 bptr
 ;
@@ -6741,7 +6746,7 @@ bestcolor
 array
 *
 /
-INT32
+JLONG
 dist0
 dist1
 ;
@@ -6753,7 +6758,7 @@ values
 *
 /
 register
-INT32
+JLONG
 dist2
 ;
 /
@@ -6765,7 +6770,7 @@ inner
 loop
 *
 /
-INT32
+JLONG
 xx0
 xx1
 ;
@@ -6776,10 +6781,10 @@ increments
 *
 /
 register
-INT32
+JLONG
 xx2
 ;
-INT32
+JLONG
 inc0
 inc1
 inc2
@@ -6812,7 +6817,7 @@ each
 cell
 *
 /
-INT32
+JLONG
 bestdist
 [
 BOX_C0_ELEMS

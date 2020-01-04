@@ -45,6 +45,7 @@ C
 )
 2009
 2011
+2015
 D
 .
 R
@@ -62,6 +63,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -275,7 +279,7 @@ cconvert
 Cb_b_tab
 ;
 register
-INT32
+JLONG
 *
 Crgtab
 =
@@ -285,7 +289,7 @@ cconvert
 Cr_g_tab
 ;
 register
-INT32
+JLONG
 *
 Cbgtab
 =

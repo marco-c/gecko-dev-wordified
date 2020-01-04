@@ -44,6 +44,7 @@ Copyright
 C
 )
 2012
+2015
 D
 .
 R
@@ -61,6 +62,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -797,7 +801,7 @@ unsigned
 int
 or
 perhaps
-INT32
+JLONG
 .
 *
 /
@@ -1426,7 +1430,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 int
@@ -1870,7 +1874,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 int
@@ -2376,7 +2380,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 int
@@ -2628,7 +2632,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 UINT8
@@ -2868,7 +2872,7 @@ count
 |
 (
 (
-INT32
+JLONG
 )
 count
 )
@@ -3124,7 +3128,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 int
@@ -3482,7 +3486,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 unsigned
@@ -3651,7 +3655,7 @@ data
 unsigned
 int
 datalen
-INT32
+JLONG
 remaining
 )
 /
@@ -3697,11 +3701,11 @@ data
 *
 /
 {
-INT32
+JLONG
 totallen
 =
 (
-INT32
+JLONG
 )
 datalen
 +
@@ -4071,7 +4075,7 @@ totallen
 =
 (
 (
-INT32
+JLONG
 )
 GETJOCTET
 (
@@ -4082,7 +4086,7 @@ data
 )
 *
 (
-INT32
+JLONG
 )
 GETJOCTET
 (
@@ -4093,7 +4097,7 @@ data
 )
 *
 (
-INT32
+JLONG
 )
 3
 )
@@ -4348,7 +4352,7 @@ data
 unsigned
 int
 datalen
-INT32
+JLONG
 remaining
 )
 /
@@ -4643,7 +4647,7 @@ it
 *
 /
 {
-INT32
+JLONG
 length
 ;
 JOCTET
@@ -4926,7 +4930,7 @@ JOCTET
 *
 data
 ;
-INT32
+JLONG
 length
 =
 0
@@ -5635,7 +5639,7 @@ marker
 *
 /
 {
-INT32
+JLONG
 length
 ;
 INPUT_VARS

@@ -46,6 +46,9 @@ C
 2010
 -
 2011
+2015
+-
+2016
 D
 .
 R
@@ -63,6 +66,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -110,6 +116,13 @@ these
 .
 *
 /
+#
+include
+"
+jconfigint
+.
+h
+"
 /
 *
 Derived
@@ -155,7 +168,7 @@ unused
 )
 *
 /
-INT32
+JLONG
 maxcode
 [
 18
@@ -193,7 +206,7 @@ terminates
 )
 *
 /
-INT32
+JLONG
 valoffset
 [
 18
@@ -663,7 +676,8 @@ bits
 #
 else
 typedef
-INT32
+unsigned
+long
 bit_buf_type
 ;
 /

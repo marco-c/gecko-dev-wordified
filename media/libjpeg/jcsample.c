@@ -63,6 +63,19 @@ Technologies
 Inc
 .
 California
+.
+*
+Copyright
+(
+C
+)
+2015
+D
+.
+R
+.
+Commander
+.
 *
 For
 conditions
@@ -74,6 +87,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -1037,7 +1053,7 @@ JSAMPROW
 inptr
 outptr
 ;
-INT32
+JLONG
 outvalue
 ;
 h_expand
@@ -1225,7 +1241,7 @@ outvalue
 +
 =
 (
-INT32
+JLONG
 )
 GETJSAMPLE
 (
@@ -2061,7 +2077,7 @@ above_ptr
 below_ptr
 outptr
 ;
-INT32
+JLONG
 membersum
 neighsum
 memberscale
@@ -3116,7 +3132,7 @@ above_ptr
 below_ptr
 outptr
 ;
-INT32
+JLONG
 membersum
 neighsum
 memberscale

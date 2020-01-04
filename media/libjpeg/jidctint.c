@@ -59,6 +59,7 @@ D
 R
 .
 Commander
+.
 *
 For
 conditions
@@ -70,6 +71,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -918,7 +922,7 @@ further
 an
 *
 intermediate
-INT32
+JLONG
 array
 would
 be
@@ -1099,7 +1103,7 @@ define
 FIX_0_298631336
 (
 (
-INT32
+JLONG
 )
 2446
 )
@@ -1118,7 +1122,7 @@ define
 FIX_0_390180644
 (
 (
-INT32
+JLONG
 )
 3196
 )
@@ -1137,7 +1141,7 @@ define
 FIX_0_541196100
 (
 (
-INT32
+JLONG
 )
 4433
 )
@@ -1156,7 +1160,7 @@ define
 FIX_0_765366865
 (
 (
-INT32
+JLONG
 )
 6270
 )
@@ -1175,7 +1179,7 @@ define
 FIX_0_899976223
 (
 (
-INT32
+JLONG
 )
 7373
 )
@@ -1194,7 +1198,7 @@ define
 FIX_1_175875602
 (
 (
-INT32
+JLONG
 )
 9633
 )
@@ -1213,7 +1217,7 @@ define
 FIX_1_501321110
 (
 (
-INT32
+JLONG
 )
 12299
 )
@@ -1232,7 +1236,7 @@ define
 FIX_1_847759065
 (
 (
-INT32
+JLONG
 )
 15137
 )
@@ -1251,7 +1255,7 @@ define
 FIX_1_961570560
 (
 (
-INT32
+JLONG
 )
 16069
 )
@@ -1270,7 +1274,7 @@ define
 FIX_2_053119869
 (
 (
-INT32
+JLONG
 )
 16819
 )
@@ -1289,7 +1293,7 @@ define
 FIX_2_562915447
 (
 (
-INT32
+JLONG
 )
 20995
 )
@@ -1308,7 +1312,7 @@ define
 FIX_3_072711026
 (
 (
-INT32
+JLONG
 )
 25172
 )
@@ -1438,16 +1442,16 @@ endif
 *
 Multiply
 an
-INT32
+JLONG
 variable
 by
 an
-INT32
+JLONG
 constant
 to
 yield
 an
-INT32
+JLONG
 result
 .
 *
@@ -1651,19 +1655,19 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
 tmp3
 ;
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
 tmp13
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -3112,7 +3116,7 @@ int
 DESCALE
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3238,7 +3242,7 @@ c
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3248,7 +3252,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3291,7 +3295,7 @@ tmp0
 LEFT_SHIFT
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3299,7 +3303,7 @@ wsptr
 ]
 +
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3313,7 +3317,7 @@ tmp1
 LEFT_SHIFT
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3321,7 +3325,7 @@ wsptr
 ]
 -
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3391,7 +3395,7 @@ respectively
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3401,7 +3405,7 @@ wsptr
 tmp1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3411,7 +3415,7 @@ wsptr
 tmp2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -3421,7 +3425,7 @@ wsptr
 tmp3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -4018,7 +4022,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
@@ -4027,7 +4031,7 @@ tmp11
 tmp12
 tmp13
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -4831,7 +4835,7 @@ descale
 tmp13
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -4860,7 +4864,7 @@ CONST_BITS
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -4870,7 +4874,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -4880,7 +4884,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -5064,7 +5068,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -5074,7 +5078,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -5084,7 +5088,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -5506,7 +5510,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
@@ -5514,7 +5518,7 @@ tmp10
 tmp11
 tmp12
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -6086,7 +6090,7 @@ descale
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6115,7 +6119,7 @@ CONST_BITS
 tmp2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6157,7 +6161,7 @@ tmp10
 tmp10
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6203,7 +6207,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6213,7 +6217,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6223,7 +6227,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -6534,14 +6538,14 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp10
 tmp11
 tmp12
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -7100,7 +7104,7 @@ descale
 tmp12
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7129,7 +7133,7 @@ CONST_BITS
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7139,7 +7143,7 @@ wsptr
 tmp1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7234,7 +7238,7 @@ part
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7244,7 +7248,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7536,7 +7540,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp2
 tmp10
@@ -7927,7 +7931,7 @@ descale
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -7956,7 +7960,7 @@ CONST_BITS
 tmp2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -8004,7 +8008,7 @@ part
 tmp12
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -8197,7 +8201,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
@@ -8208,7 +8212,7 @@ tmp12
 tmp13
 tmp14
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -9029,7 +9033,7 @@ descale
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9058,7 +9062,7 @@ CONST_BITS
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9068,7 +9072,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9078,7 +9082,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9240,7 +9244,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9250,7 +9254,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9260,7 +9264,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9270,7 +9274,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -9719,21 +9723,21 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
 tmp13
 tmp14
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
 tmp23
 tmp24
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -10678,7 +10682,7 @@ descale
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10707,7 +10711,7 @@ CONST_BITS
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10790,7 +10794,7 @@ c8
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10800,7 +10804,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10904,7 +10908,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10914,7 +10918,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10924,7 +10928,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -10942,7 +10946,7 @@ CONST_BITS
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -11498,14 +11502,14 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
 tmp13
 tmp14
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -11513,7 +11517,7 @@ tmp23
 tmp24
 tmp25
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -12692,7 +12696,7 @@ descale
 tmp10
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -12721,7 +12725,7 @@ CONST_BITS
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -12731,7 +12735,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -12741,7 +12745,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -13018,7 +13022,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -13028,7 +13032,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -13038,7 +13042,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -13048,7 +13052,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -13750,7 +13754,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
@@ -13758,7 +13762,7 @@ tmp13
 tmp14
 tmp15
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -13766,7 +13770,7 @@ tmp23
 tmp24
 tmp25
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -14784,7 +14788,7 @@ descale
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14813,7 +14817,7 @@ CONST_BITS
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14853,7 +14857,7 @@ z4
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14889,7 +14893,7 @@ CONST_BITS
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14969,7 +14973,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14979,7 +14983,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14989,7 +14993,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -14999,7 +15003,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -15686,7 +15690,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
@@ -15694,7 +15698,7 @@ tmp13
 tmp14
 tmp15
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -15703,7 +15707,7 @@ tmp24
 tmp25
 tmp26
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -17033,7 +17037,7 @@ descale
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17062,7 +17066,7 @@ CONST_BITS
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17072,7 +17076,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17082,7 +17086,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17417,7 +17421,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17427,7 +17431,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17437,7 +17441,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -17447,7 +17451,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -18252,7 +18256,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
@@ -18261,7 +18265,7 @@ tmp14
 tmp15
 tmp16
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -18270,7 +18274,7 @@ tmp24
 tmp25
 tmp26
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -19469,7 +19473,7 @@ descale
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19498,7 +19502,7 @@ CONST_BITS
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19609,7 +19613,7 @@ c8
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19619,7 +19623,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19769,7 +19773,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19779,7 +19783,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19789,7 +19793,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -19799,7 +19803,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -20561,7 +20565,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp10
 tmp11
 tmp12
@@ -20570,7 +20574,7 @@ tmp14
 tmp15
 tmp16
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -20580,7 +20584,7 @@ tmp25
 tmp26
 tmp27
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -21883,7 +21887,7 @@ descale
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -21912,7 +21916,7 @@ CONST_BITS
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -21922,7 +21926,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -21932,7 +21936,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -22288,7 +22292,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -22298,7 +22302,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -22308,7 +22312,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -22336,7 +22340,7 @@ c5
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -23085,7 +23089,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp1
 tmp2
@@ -23095,7 +23099,7 @@ tmp11
 tmp12
 tmp13
 ;
-INT32
+JLONG
 tmp20
 tmp21
 tmp22
@@ -23105,7 +23109,7 @@ tmp25
 tmp26
 tmp27
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -24610,7 +24614,7 @@ descale
 tmp0
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -24639,7 +24643,7 @@ CONST_BITS
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -24720,7 +24724,7 @@ tmp2
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -24730,7 +24734,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -24986,7 +24990,7 @@ part
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -24996,7 +25000,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -25006,7 +25010,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -25016,7 +25020,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [

@@ -50,6 +50,8 @@ Copyright
 C
 )
 2014
+-
+2015
 D
 .
 R
@@ -67,6 +69,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
@@ -193,7 +198,7 @@ cconvert
 Cb_b_tab
 ;
 register
-INT32
+JLONG
 *
 Crgtab
 =
@@ -203,7 +208,7 @@ cconvert
 Cr_g_tab
 ;
 register
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -223,7 +228,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -377,6 +382,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -700,6 +708,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -805,7 +816,7 @@ cconvert
 Cb_b_tab
 ;
 register
-INT32
+JLONG
 *
 Crgtab
 =
@@ -815,7 +826,7 @@ cconvert
 Cr_g_tab
 ;
 register
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -824,7 +835,7 @@ cconvert
 >
 Cb_g_tab
 ;
-INT32
+JLONG
 d0
 =
 dither_matrix
@@ -848,7 +859,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -1014,6 +1025,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -1387,6 +1401,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -1444,7 +1461,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -1548,6 +1565,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -1721,6 +1741,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -1777,7 +1800,7 @@ cinfo
 >
 output_width
 ;
-INT32
+JLONG
 d0
 =
 dither_matrix
@@ -1801,7 +1824,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -1926,6 +1949,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -2176,6 +2202,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -2227,7 +2256,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -2284,6 +2313,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -2392,6 +2424,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -2443,7 +2478,7 @@ cinfo
 >
 output_width
 ;
-INT32
+JLONG
 d0
 =
 dither_matrix
@@ -2466,7 +2501,7 @@ num_rows
 0
 )
 {
-INT32
+JLONG
 rgb
 ;
 unsigned
@@ -2534,6 +2569,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 outptr
@@ -2689,6 +2727,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }

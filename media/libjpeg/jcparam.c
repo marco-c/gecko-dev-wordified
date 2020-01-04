@@ -72,6 +72,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *

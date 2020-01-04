@@ -32,7 +32,6 @@ G
 .
 Lane
 .
-0
 *
 It
 was
@@ -65,6 +64,9 @@ see
 the
 accompanying
 README
+.
+ijg
+*
 file
 .
 *
