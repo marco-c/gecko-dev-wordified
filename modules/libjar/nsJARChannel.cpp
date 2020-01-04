@@ -7103,13 +7103,9 @@ count
 }
 else
 {
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-=
-NS_NewRunnableMethodWithArg
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 <
 uint64_t
 >
@@ -7124,10 +7120,6 @@ offset
 +
 count
 )
-;
-NS_DispatchToMainThread
-(
-runnable
 )
 ;
 }

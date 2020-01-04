@@ -4849,7 +4849,7 @@ NS_ERROR_FAILURE
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int32_t
 int32_t
@@ -4932,7 +4932,7 @@ NS_ERROR_FAILURE
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 LayoutDeviceIntPoint
 int32_t
@@ -5011,7 +5011,7 @@ NS_ERROR_FAILURE
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 LayoutDeviceIntPoint
 nsIObserver
@@ -5100,7 +5100,7 @@ NS_ERROR_FAILURE
 }
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 mozilla
 :
@@ -5207,7 +5207,7 @@ NS_ERROR_INVALID_ARG
 }
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 uint32_t
 nsIWidget
@@ -5289,7 +5289,7 @@ NS_ERROR_FAILURE
 }
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 LayoutDeviceIntPoint
 bool
@@ -5350,7 +5350,7 @@ NS_ERROR_FAILURE
 }
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsIObserver
 *

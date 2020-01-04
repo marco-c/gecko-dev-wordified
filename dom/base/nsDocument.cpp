@@ -24469,7 +24469,7 @@ nsIRunnable
 >
 notification
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -28035,7 +28035,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -29642,7 +29642,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -40050,7 +40050,7 @@ false
 >
 event
 =
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 this
 &
@@ -40865,7 +40865,7 @@ mFrameLoaderRunner
 {
 mFrameLoaderRunner
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -40939,7 +40939,7 @@ mFrameLoaderRunner
 {
 mFrameLoaderRunner
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -41078,7 +41078,7 @@ Length
 {
 mFrameLoaderRunner
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -50387,7 +50387,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -71635,7 +71635,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -75752,7 +75752,7 @@ nsIRunnable
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

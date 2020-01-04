@@ -1396,7 +1396,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 start

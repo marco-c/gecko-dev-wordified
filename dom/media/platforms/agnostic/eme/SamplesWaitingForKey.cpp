@@ -359,7 +359,7 @@ task
 ;
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <

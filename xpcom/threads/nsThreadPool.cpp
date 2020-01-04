@@ -1064,13 +1064,9 @@ the
 main
 thread
 .
-nsCOMPtr
-<
-nsIRunnable
->
-r
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 aThread
 &
@@ -1079,10 +1075,6 @@ nsIThread
 :
 AsyncShutdown
 )
-;
-NS_DispatchToMainThread
-(
-r
 )
 ;
 }

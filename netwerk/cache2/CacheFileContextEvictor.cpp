@@ -2978,7 +2978,7 @@ ev
 ;
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

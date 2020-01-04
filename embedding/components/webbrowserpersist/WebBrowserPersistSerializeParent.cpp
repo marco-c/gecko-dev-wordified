@@ -424,7 +424,7 @@ nsIRunnable
 >
 errorLater
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsCOMPtr
 <

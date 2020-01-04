@@ -1221,7 +1221,7 @@ nsIRunnable
 >
 job
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 const
 char
@@ -4218,7 +4218,7 @@ nsIRunnable
 >
 job
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 const
 char
@@ -4729,7 +4729,7 @@ nsIRunnable
 >
 job
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4982,7 +4982,7 @@ nsIRunnable
 >
 job
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

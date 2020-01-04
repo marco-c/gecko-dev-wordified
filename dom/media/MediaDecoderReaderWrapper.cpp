@@ -1544,7 +1544,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mReader
 &
@@ -1596,7 +1596,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mReader
 &
@@ -1648,7 +1648,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mReader
 &

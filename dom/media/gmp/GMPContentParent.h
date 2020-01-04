@@ -389,7 +389,7 @@ CloseIfUnused
 /
 Needed
 because
-NS_NewRunnableMethod
+NewRunnableMethod
 tried
 to
 use

@@ -1845,7 +1845,7 @@ event
 ;
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 index
 &

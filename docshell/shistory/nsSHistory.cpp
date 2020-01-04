@@ -7883,13 +7883,9 @@ didRemove
 mRootDocShell
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-ev
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 static_cast
 <
@@ -7905,10 +7901,6 @@ nsDocShell
 :
 FireDummyOnLocationChange
 )
-;
-NS_DispatchToCurrentThread
-(
-ev
 )
 ;
 }

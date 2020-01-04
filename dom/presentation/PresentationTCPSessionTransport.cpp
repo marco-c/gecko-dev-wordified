@@ -530,7 +530,7 @@ nsIRunnable
 >
 onSessionTransportRunnable
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsIPresentationSessionTransport
 *
@@ -548,6 +548,10 @@ sessionTransport
 NS_DispatchToCurrentThread
 (
 onSessionTransportRunnable
+.
+forget
+(
+)
 )
 ;
 nsCOMPtr
@@ -556,7 +560,7 @@ nsIRunnable
 >
 setReadyStateRunnable
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 ReadyState
 >
@@ -577,6 +581,10 @@ return
 NS_DispatchToCurrentThread
 (
 setReadyStateRunnable
+.
+forget
+(
+)
 )
 ;
 }
@@ -939,7 +947,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsIPresentationSessionTransport
 *
@@ -958,6 +966,10 @@ return
 NS_DispatchToCurrentThread
 (
 runnable
+.
+forget
+(
+)
 )
 ;
 }

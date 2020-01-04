@@ -4089,7 +4089,7 @@ false
 >
 event
 =
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 this
 &

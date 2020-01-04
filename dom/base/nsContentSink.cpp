@@ -1623,7 +1623,7 @@ event
 ;
 mProcessLinkHeaderEvent
 =
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 this
 &
