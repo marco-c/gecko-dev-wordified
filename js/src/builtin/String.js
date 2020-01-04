@@ -421,7 +421,6 @@ RegExpMatcher
 rx
 S
 0
-false
 )
 ;
 /

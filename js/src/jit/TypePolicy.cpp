@@ -9071,7 +9071,7 @@ StringPolicy
 \
 _
 (
-Mix4Policy
+Mix3Policy
 <
 ObjectPolicy
 <
@@ -9084,10 +9084,6 @@ StringPolicy
 IntPolicy
 <
 2
->
-BooleanPolicy
-<
-3
 >
 >
 )

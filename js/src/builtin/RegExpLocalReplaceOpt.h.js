@@ -241,7 +241,6 @@ RegExpMatcher
 rx
 S
 lastIndex
-sticky
 )
 ;
 /
