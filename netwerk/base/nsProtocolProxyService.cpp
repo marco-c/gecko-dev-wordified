@@ -7222,6 +7222,10 @@ mMutex
 nsDeprecatedCallback
 "
 )
+mStatus
+(
+NS_OK
+)
 mCompleted
 (
 false
