@@ -449,6 +449,15 @@ aSizes
 )
 override
 ;
+MediaDecoderOwner
+:
+:
+NextFrameStatus
+NextFrameBufferedStatus
+(
+)
+override
+;
 private
 :
 void
