@@ -1993,7 +1993,7 @@ size_t
 data_size
 )
 {
-ALOGI
+ALOGV
 (
 "
 There
