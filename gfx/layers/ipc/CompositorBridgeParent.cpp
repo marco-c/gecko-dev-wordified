@@ -3598,13 +3598,6 @@ current
 )
 )
 ;
-CompositorLRU
-:
-:
-Init
-(
-)
-;
 }
 void
 CompositorBridgeParent
