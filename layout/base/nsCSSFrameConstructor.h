@@ -140,6 +140,15 @@ h
 #
 include
 "
+mozilla
+/
+RestyleManagerHandle
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -229,9 +238,6 @@ nsFrameConstructorState
 namespace
 mozilla
 {
-class
-RestyleManager
-;
 namespace
 dom
 {
@@ -378,8 +384,7 @@ public
 mozilla
 :
 :
-RestyleManager
-*
+RestyleManagerHandle
 RestyleManager
 (
 )
