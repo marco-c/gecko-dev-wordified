@@ -1230,8 +1230,10 @@ MediaSegment
 :
 :
 Type
+RefPtr
+<
 MediaStream
-*
+>
 TrackID
 >
 (
@@ -1283,8 +1285,10 @@ runnable
 =
 NewRunnableMethod
 <
+RefPtr
+<
 MediaStream
-*
+>
 TrackID
 TrackID
 >
@@ -1790,7 +1794,7 @@ runnable
 =
 NewRunnableMethod
 <
-StorensRefPtrPassByPtr
+RefPtr
 <
 MediaStream
 >
