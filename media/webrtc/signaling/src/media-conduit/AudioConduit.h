@@ -1254,6 +1254,10 @@ mChannel
 -
 1
 )
+mDtmfEnabled
+(
+false
+)
 mCodecMutex
 (
 "
@@ -1480,6 +1484,15 @@ packetsSent
 uint64_t
 *
 bytesSent
+)
+override
+;
+bool
+SetDtmfPayloadType
+(
+unsigned
+char
+type
 )
 override
 ;
@@ -1914,6 +1927,9 @@ mProcessing
 ;
 int
 mChannel
+;
+bool
+mDtmfEnabled
 ;
 RecvCodecList
 mRecvCodecList

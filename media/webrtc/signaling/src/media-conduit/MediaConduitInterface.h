@@ -2910,6 +2910,17 @@ id
 =
 0
 ;
+virtual
+bool
+SetDtmfPayloadType
+(
+unsigned
+char
+type
+)
+=
+0
+;
 }
 ;
 }
