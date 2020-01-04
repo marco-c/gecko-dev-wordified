@@ -795,13 +795,6 @@ ImageContainer
 aContainer
 )
 ;
-nsresult
-UpdateScrollState
-(
-bool
-aIsScrolling
-)
-;
 #
 endif
 nsresult

@@ -815,17 +815,6 @@ aContainer
 )
 override
 ;
-virtual
-nsresult
-UpdateScrollState
-(
-NPP
-aInstance
-bool
-aIsScrolling
-)
-override
-;
 #
 endif
 virtual
