@@ -702,6 +702,10 @@ create
 JSContext
 *
 cx
+HandleObject
+proto
+=
+nullptr
 )
 ;
 /
