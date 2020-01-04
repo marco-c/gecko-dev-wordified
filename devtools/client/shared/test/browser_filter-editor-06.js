@@ -68,18 +68,6 @@ xhtml
 ;
 const
 {
-Cu
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
-{
 CSSFilterEditorWidget
 }
 =
@@ -164,7 +152,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 "
 about

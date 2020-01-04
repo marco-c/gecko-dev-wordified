@@ -91,7 +91,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 TEST_URI
 )

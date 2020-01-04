@@ -173,7 +173,7 @@ showToolbar
 )
 {
 yield
-promiseTab
+addTab
 (
 TEST_URI
 )

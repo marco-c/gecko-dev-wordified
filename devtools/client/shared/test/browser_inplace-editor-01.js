@@ -51,16 +51,6 @@ strict
 "
 ;
 var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-var
 {
 editableField
 getInplaceEditorForSpan
@@ -100,7 +90,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 "
 data

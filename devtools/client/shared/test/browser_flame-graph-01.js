@@ -65,7 +65,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 "
 about

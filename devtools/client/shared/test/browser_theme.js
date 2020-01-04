@@ -72,8 +72,10 @@ theme
 "
 )
 ;
+add_task
+(
 function
-test
+*
 (
 )
 {
@@ -94,6 +96,8 @@ testColorExistence
 )
 ;
 }
+)
+;
 function
 testGetTheme
 (

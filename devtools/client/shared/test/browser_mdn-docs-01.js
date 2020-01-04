@@ -226,16 +226,6 @@ MdnDocsWidget
 "
 )
 ;
-const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 /
 /
 frame
@@ -494,7 +484,7 @@ TEST_URI_ROOT
 )
 ;
 yield
-promiseTab
+addTab
 (
 "
 about

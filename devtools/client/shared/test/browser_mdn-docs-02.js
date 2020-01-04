@@ -763,7 +763,7 @@ TEST_URI_ROOT
 )
 ;
 yield
-promiseTab
+addTab
 (
 "
 about

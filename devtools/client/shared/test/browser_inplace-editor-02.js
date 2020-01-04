@@ -73,16 +73,6 @@ editor
 "
 )
 ;
-var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 /
 /
 Test
@@ -105,7 +95,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 "
 data
