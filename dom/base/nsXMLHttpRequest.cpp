@@ -8723,6 +8723,11 @@ nsIRequest
 :
 :
 LOAD_BACKGROUND
+|
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
 ;
 if
 (
