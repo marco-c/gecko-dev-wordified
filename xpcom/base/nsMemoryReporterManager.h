@@ -325,7 +325,7 @@ some
 /
 state
 (
-mGetReportsState
+mPendingProcessesState
 )
 for
 when
@@ -993,7 +993,7 @@ a
 request
 ?
 Well
-GetReportsState
+PendingProcessesState
 is
 initialized
 with
@@ -1571,7 +1571,7 @@ uint32_t
 mNextGeneration
 ;
 struct
-GetReportsState
+PendingProcessesState
 {
 uint32_t
 mGeneration
@@ -1639,7 +1639,7 @@ mFinishReportingData
 nsString
 mDMDDumpIdent
 ;
-GetReportsState
+PendingProcessesState
 (
 uint32_t
 aGeneration
@@ -1711,11 +1711,11 @@ anything
 like
 that
 .
-GetReportsState
+PendingProcessesState
 *
-mGetReportsState
+mPendingProcessesState
 ;
-GetReportsState
+PendingProcessesState
 *
 GetStateForGeneration
 (
@@ -1737,7 +1737,7 @@ ContentParent
 *
 aChild
 const
-GetReportsState
+PendingProcessesState
 *
 aState
 )
