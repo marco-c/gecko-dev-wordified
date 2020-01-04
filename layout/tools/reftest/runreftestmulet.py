@@ -132,7 +132,7 @@ REFTEST
 '
 )
 class
-B2GDesktopReftest
+MuletReftest
 (
 RefTest
 )
@@ -141,7 +141,7 @@ RefTest
 build_type
 =
 "
-desktop
+mulet
 "
     
 marionette
@@ -1408,18 +1408,6 @@ signal
 .
 SIGABRT
 )
-class
-MuletReftest
-(
-B2GDesktopReftest
-)
-:
-    
-build_type
-=
-"
-mulet
-"
     
 def
 _unlockScreen
@@ -1552,7 +1540,7 @@ false
 )
 )
 def
-run_desktop_reftests
+run_test_harness
 (
 parser
 options
@@ -1605,25 +1593,9 @@ int
 port
 )
     
-if
-options
-.
-mulet
-:
-        
 reftest
 =
 MuletReftest
-(
-marionette_args
-)
-    
-else
-:
-        
-reftest
-=
-B2GDesktopReftest
 (
 marionette_args
 )
@@ -1731,7 +1703,7 @@ app
 if
 options
 .
-desktop
+mulet
 and
 not
 options
@@ -1752,7 +1724,7 @@ when
 specifying
 -
 -
-desktop
+mulet
 "
 )
     
