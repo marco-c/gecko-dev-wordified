@@ -692,7 +692,7 @@ mEventTarget
 window
 -
 >
-GetChromeEventHandler
+GetParentTarget
 (
 )
 ;
