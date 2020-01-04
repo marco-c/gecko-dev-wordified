@@ -82,6 +82,8 @@ get
 xulStore
 (
 )
+{
+return
 Cc
 [
 "
@@ -103,6 +105,8 @@ Ci
 .
 nsIXULStore
 )
+;
+}
 getValue
 :
 function
