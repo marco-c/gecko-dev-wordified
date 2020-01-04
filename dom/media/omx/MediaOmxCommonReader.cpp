@@ -152,7 +152,7 @@ h
 #
 include
 "
-gfxPrefs
+MediaPrefs
 .
 h
 "
@@ -253,7 +253,7 @@ IsMonoAudioEnabled
 )
 {
 return
-gfxPrefs
+MediaPrefs
 :
 :
 MonoAudio
