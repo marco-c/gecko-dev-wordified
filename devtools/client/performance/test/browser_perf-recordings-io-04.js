@@ -952,10 +952,6 @@ Object
 create
 (
 {
-label
-:
-"
-"
 duration
 :
 10000
