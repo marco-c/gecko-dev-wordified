@@ -7019,6 +7019,12 @@ init
 (
 )
 ;
+FeedHandler
+.
+init
+(
+)
+;
 DevEdition
 .
 init
