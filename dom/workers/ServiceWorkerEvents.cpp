@@ -2278,6 +2278,10 @@ GetInternalRequest
 (
 )
 ;
+StopImmediatePropagation
+(
+)
+;
 mWaitToRespond
 =
 true
