@@ -1587,6 +1587,11 @@ extraKeys
 indentWithTabs
 :
 useTabs
+inputStyle
+:
+"
+textarea
+"
 styleActiveLine
 :
 true
