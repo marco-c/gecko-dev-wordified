@@ -5287,7 +5287,6 @@ self
 .
 _have_root_shell
 and
-                
 self
 .
 command_output
@@ -5407,6 +5406,7 @@ replace
 '
 &
 '
+r
 '
 \
 &
@@ -12953,8 +12953,6 @@ format_exc
 (
 )
 )
-                
-pass
         
 data
 [
@@ -18219,11 +18217,9 @@ uptime
 ]
         
 if
-(
 directive
 in
 directives
-)
 :
             
 directives
@@ -18459,6 +18455,7 @@ re
 .
 match
 (
+r
 '
 up
 time
