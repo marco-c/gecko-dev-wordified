@@ -629,9 +629,6 @@ mozbrowseropenwindow
 "
 mozbrowserscroll
 "
-"
-mozbrowserasyncscroll
-"
 ]
 .
 forEach
@@ -1328,11 +1325,7 @@ scrollTo
 /
 *
 test
-mozbrowser
-(
-async
-)
-scroll
+mozbrowserscroll
 *
 /
 }
