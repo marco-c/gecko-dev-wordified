@@ -158,8 +158,6 @@ etc
 .
 const
 {
-Cc
-Ci
 Cu
 }
 =
