@@ -5035,10 +5035,8 @@ while
 end
 )
 {
-nsString
-familyName
-=
 NS_ConvertUTF8toUTF16
+familyName
 (
 beginning
 end
@@ -5075,10 +5073,8 @@ beginning
 break
 ;
 }
-nsString
-faceName
-=
 NS_ConvertUTF8toUTF16
+faceName
 (
 beginning
 end
