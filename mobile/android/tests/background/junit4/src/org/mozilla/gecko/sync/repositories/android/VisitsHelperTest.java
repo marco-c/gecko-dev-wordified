@@ -459,6 +459,8 @@ BrowserProvider
 (
 )
 ;
+try
+{
 provider
 .
 onCreate
@@ -795,6 +797,16 @@ valueOf
 1
 )
 type
+)
+;
+}
+}
+finally
+{
+provider
+.
+shutdown
+(
 )
 ;
 }
