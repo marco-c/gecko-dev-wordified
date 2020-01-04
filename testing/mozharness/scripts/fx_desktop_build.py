@@ -380,6 +380,14 @@ hg
 tool
 stuff
                 
+'
+default_vcs
+'
+:
+'
+hgtool
+'
+                
 "
 tools_repo
 "
