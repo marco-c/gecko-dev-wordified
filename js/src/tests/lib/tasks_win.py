@@ -444,7 +444,7 @@ run_all_tests
 (
 tests
 prefix
-results
+pb
 options
 )
 :
@@ -794,8 +794,6 @@ except
 Empty
 :
             
-results
-.
 pb
 .
 poke

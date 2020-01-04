@@ -3253,6 +3253,8 @@ run_all_tests
 test_gen
 prefix
 results
+.
+pb
 options
 )
 :
