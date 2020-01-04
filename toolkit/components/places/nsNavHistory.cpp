@@ -16917,6 +16917,10 @@ PRTime
 aEndTime
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
