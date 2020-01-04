@@ -271,6 +271,14 @@ _mochitest_summary
 "
 mochitest
 -
+chrome_summary
+"
+:
+_mochitest_summary
+    
+"
+mochitest
+-
 gl_summary
 "
 :
