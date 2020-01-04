@@ -4416,7 +4416,7 @@ ttrack
 ttrack
 -
 >
-DispatchTrustedEvent
+DispatchAsyncTrustedEvent
 (
 NS_LITERAL_STRING
 (
