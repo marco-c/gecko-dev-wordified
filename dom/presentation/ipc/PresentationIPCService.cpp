@@ -368,6 +368,7 @@ nsString
 (
 aDeviceId
 )
+aWindowId
 )
 )
 ;
@@ -1222,6 +1223,7 @@ nsString
 (
 aSessionId
 )
+aWindowId
 )
 )
 ;

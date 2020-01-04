@@ -313,6 +313,10 @@ const
 nsString
 &
 aSessionId
+const
+uint64_t
+&
+aWindowId
 )
 override
 ;
