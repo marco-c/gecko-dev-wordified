@@ -14837,6 +14837,7 @@ AppendPolicy
 (
 policy
 aReportOnly
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -15852,6 +15853,7 @@ AppendPolicy
 (
 appDefaultCSP
 false
+false
 )
 ;
 }
@@ -15889,6 +15891,7 @@ csp
 AppendPolicy
 (
 appManifestCSP
+false
 false
 )
 ;
@@ -15970,6 +15973,7 @@ csp
 AppendPolicy
 (
 loopCSP
+false
 false
 )
 ;

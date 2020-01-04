@@ -699,6 +699,8 @@ aReportOnly
 nsCSPContext
 *
 aCSPContext
+bool
+aDeliveredViaMetaTag
 )
 ;
 private
@@ -714,6 +716,8 @@ aSelfURI
 nsCSPContext
 *
 aCSPContext
+bool
+aDeliveredViaMetaTag
 )
 ;
 ~
@@ -1712,6 +1716,9 @@ used
 for
 console
 logging
+bool
+mDeliveredViaMetaTag
+;
 }
 ;
 #

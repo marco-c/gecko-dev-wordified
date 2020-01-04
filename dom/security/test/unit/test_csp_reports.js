@@ -678,6 +678,7 @@ appendPolicy
 (
 policy
 useReportOnlyPolicy
+false
 )
 ;
 /
