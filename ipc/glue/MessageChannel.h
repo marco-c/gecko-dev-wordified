@@ -1488,8 +1488,8 @@ aTransaction
 bool
 ProcessPendingRequest
 (
-const
 Message
+&
 &
 aUrgent
 )
@@ -1544,8 +1544,8 @@ handler
 void
 DispatchMessage
 (
-const
 Message
+&
 &
 aMsg
 )
@@ -1614,8 +1614,8 @@ aMsg
 void
 DispatchInterruptMessage
 (
-const
 Message
+&
 &
 aMsg
 size_t
@@ -2068,7 +2068,6 @@ reply
 =
 false
 )
-const
 ;
 /
 /

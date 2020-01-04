@@ -548,19 +548,6 @@ ownership
 BORROWS
 )
 ;
-/
-/
-Initializes
-a
-Pickle
-as
-a
-deep
-copy
-of
-another
-Pickle
-.
 Pickle
 (
 const
@@ -568,6 +555,8 @@ Pickle
 &
 other
 )
+=
+delete
 ;
 Pickle
 (
@@ -594,6 +583,8 @@ Pickle
 &
 other
 )
+=
+delete
 ;
 Pickle
 &
