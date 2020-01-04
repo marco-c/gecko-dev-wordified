@@ -17,7 +17,7 @@ importedArgs
 =
 [
 '
-func_ptrs
+globals
 .
 wast
 '
