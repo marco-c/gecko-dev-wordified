@@ -433,8 +433,9 @@ this
 .
 ElementManager
 =
-function
-ElementManager
+class
+{
+constructor
 (
 )
 {
@@ -470,12 +471,6 @@ nsITimer
 )
 ;
 }
-;
-ElementManager
-.
-prototype
-=
-{
 /
 *
 *
@@ -485,9 +480,6 @@ values
 *
 /
 reset
-:
-function
-EM_clear
 (
 )
 {
@@ -581,8 +573,6 @@ els
 *
 /
 addAll
-:
-function
 (
 els
 )
@@ -656,8 +646,6 @@ element
 *
 /
 add
-:
-function
 (
 el
 )
@@ -823,9 +811,6 @@ found
 *
 /
 getKnownElement
-:
-function
-EM_getKnownElement
 (
 id
 container
@@ -1099,9 +1084,6 @@ disconnected
 *
 /
 isDisconnected
-:
-function
-EM_isDisconnected
 (
 el
 shadowRoot
@@ -1292,9 +1274,6 @@ Object
 *
 /
 wrapValue
-:
-function
-EM_wrapValue
 (
 val
 )
@@ -1630,9 +1609,6 @@ elements
 *
 /
 convertWrappedArguments
-:
-function
-EM_convertWrappedArguments
 (
 args
 container
