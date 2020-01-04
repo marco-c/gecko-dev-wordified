@@ -4116,13 +4116,13 @@ rect
 is
 either
 :
+/
+/
 1
 )
 the
 whole
 image
-/
-/
 if
 the
 IDAT
@@ -4132,6 +4132,8 @@ part
 of
 the
 animation
+/
+/
 2
 )
 the
@@ -4140,12 +4142,12 @@ rect
 of
 the
 first
-/
-/
 fDAT
 chunk
 otherwise
 .
+/
+/
 If
 we
 are
@@ -4158,9 +4160,9 @@ to
 make
 sure
 to
-/
-/
 call
+/
+/
 PostHasTransparency
 in
 the
@@ -4175,9 +4177,9 @@ So
 it
 '
 s
+/
+/
 okay
-/
-/
 to
 pass
 IntRect
@@ -4192,10 +4194,10 @@ for
 animated
 images
 ;
+/
+/
 they
 will
-/
-/
 call
 with
 the
@@ -6133,6 +6135,7 @@ width
 =
 0
 )
+{
 png_error
 (
 png_ptr
@@ -6146,6 +6149,7 @@ be
 "
 )
 ;
+}
 if
 (
 frameRect
@@ -6155,6 +6159,7 @@ height
 =
 0
 )
+{
 png_error
 (
 png_ptr
@@ -6168,6 +6173,7 @@ be
 "
 )
 ;
+}
 #
 endif
 const
@@ -6738,7 +6744,7 @@ jump
 buffer
 here
 .
-Oterwise
+Otherwise
 we
 '
 ll
