@@ -380,17 +380,7 @@ DOMString
 &
 aScope
 )
-{
-GetHTMLAttr
-(
-nsGkAtoms
-:
-:
-scope
-aScope
-)
 ;
-}
 void
 SetScope
 (
