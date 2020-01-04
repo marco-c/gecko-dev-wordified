@@ -21,7 +21,7 @@ this
 )
 a
 ;
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 oomTest

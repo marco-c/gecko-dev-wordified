@@ -2052,7 +2052,7 @@ on
 *
 /
 bool
-suppressObjectMetadataCallback
+suppressAllocationMetadataBuilder
 ;
 js
 :

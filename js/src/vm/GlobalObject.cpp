@@ -909,7 +909,7 @@ the
 same
 prototype
 .
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx

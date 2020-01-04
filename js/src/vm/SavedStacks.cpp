@@ -2752,7 +2752,7 @@ in
 the
 /
 /
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 for
 this
 new
@@ -9492,7 +9492,7 @@ probability
 }
 JSObject
 *
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 (
 JSContext
 *
@@ -9564,7 +9564,7 @@ oomUnsafe
 crash
 (
 "
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 "
 )
 ;
@@ -9589,7 +9589,7 @@ oomUnsafe
 crash
 (
 "
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 "
 )
 ;

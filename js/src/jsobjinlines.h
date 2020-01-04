@@ -1941,7 +1941,7 @@ have
 an
 allocation
 metadata
-hook
+builder
 it
 can
 cause
@@ -2094,7 +2094,7 @@ hasObjectPendingMetadata
 /
 The
 metadata
-callback
+builder
 is
 invoked
 for
@@ -2147,7 +2147,7 @@ compartment
 )
 -
 >
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 )
@@ -2162,7 +2162,7 @@ zone
 )
 -
 >
-suppressObjectMetadataCallback
+suppressAllocationMetadataBuilder
 )
 {
 /
@@ -2178,7 +2178,7 @@ that
 represent
 metadata
 .
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx
@@ -2951,7 +2951,7 @@ clasp
 )
 -
 >
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 )

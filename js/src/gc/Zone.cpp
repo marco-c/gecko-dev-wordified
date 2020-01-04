@@ -245,7 +245,7 @@ debuggers
 (
 nullptr
 )
-suppressObjectMetadataCallback
+suppressAllocationMetadataBuilder
 (
 false
 )

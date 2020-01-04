@@ -1038,7 +1038,7 @@ bool
 CompileCompartment
 :
 :
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 {
@@ -1048,7 +1048,7 @@ compartment
 )
 -
 >
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 ;

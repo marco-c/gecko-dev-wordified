@@ -49,7 +49,7 @@ i
 =
 20
 )
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;
@@ -73,7 +73,7 @@ i
 var
 md
 =
-getObjectMetadata
+getAllocationMetadata
 (
 o
 )

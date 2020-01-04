@@ -187,12 +187,12 @@ cx
 compartment
 -
 >
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
 js
 :
 :
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 )
 ;
 JS
@@ -214,7 +214,7 @@ cx
 compartment
 -
 >
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
 nullptr
 )

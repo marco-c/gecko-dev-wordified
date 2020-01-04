@@ -1,6 +1,6 @@
 /
 /
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 ignores
 its
 argument
@@ -38,7 +38,7 @@ just
 in
 case
 .
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 function
 (

@@ -413,7 +413,7 @@ set
 .
 root2
 .
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;
@@ -636,7 +636,7 @@ set
 .
 root2
 .
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

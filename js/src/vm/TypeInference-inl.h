@@ -1947,7 +1947,7 @@ objectMetadataCallback
 js
 :
 :
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 ;
 FreeOp

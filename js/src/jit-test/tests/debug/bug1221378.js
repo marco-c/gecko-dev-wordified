@@ -136,7 +136,7 @@ newGlobal
 eval
 (
 '
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

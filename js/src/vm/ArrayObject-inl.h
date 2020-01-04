@@ -369,7 +369,7 @@ clasp
 )
 -
 >
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 )

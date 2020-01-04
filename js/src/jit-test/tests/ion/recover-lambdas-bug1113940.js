@@ -47,7 +47,7 @@ reconstructed
 /
 /
 /
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 ignores
 its
 argument
@@ -85,7 +85,7 @@ just
 in
 case
 .
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 function
 (
@@ -155,7 +155,7 @@ comment
 as
 above
 .
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 function
 (

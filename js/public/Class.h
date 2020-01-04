@@ -4573,7 +4573,7 @@ private
 slot
 #
 define
-JSCLASS_DELAY_METADATA_CALLBACK
+JSCLASS_DELAY_METADATA_BUILDER
 (
 1
 <
@@ -5581,7 +5581,7 @@ JSCLASS_IS_DOMJSCLASS
 ;
 }
 bool
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 const
@@ -5589,7 +5589,7 @@ const
 return
 flags
 &
-JSCLASS_DELAY_METADATA_CALLBACK
+JSCLASS_DELAY_METADATA_BUILDER
 ;
 }
 static

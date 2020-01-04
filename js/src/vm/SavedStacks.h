@@ -1893,7 +1893,7 @@ SavedFrame
 friend
 JSObject
 *
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 (
 JSContext
 *
@@ -2913,7 +2913,7 @@ locationp
 ;
 JSObject
 *
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 (
 JSContext
 *

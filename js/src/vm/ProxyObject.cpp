@@ -198,7 +198,7 @@ MOZ_ASSERT
 clasp
 -
 >
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 )

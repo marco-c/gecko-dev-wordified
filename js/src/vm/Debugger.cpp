@@ -15672,7 +15672,7 @@ compartment
 )
 -
 >
-getObjectMetadataCallback
+getAllocationMetadataBuilder
 (
 )
 ;
@@ -15683,7 +15683,7 @@ existingCallback
 existingCallback
 !
 =
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 ;
 }
 /
@@ -15859,9 +15859,9 @@ compartment
 )
 -
 >
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 )
 ;
 debuggee
@@ -15960,7 +15960,7 @@ compartment
 )
 -
 >
-forgetObjectMetadataCallback
+forgetAllocationMetadataBuilder
 (
 )
 ;
@@ -23589,7 +23589,7 @@ are
 tracking
 allocations
 the
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 must
 be
 *
@@ -53774,7 +53774,7 @@ JSObject
 *
 metadata
 =
-GetObjectMetadata
+GetAllocationMetadata
 (
 &
 obj
