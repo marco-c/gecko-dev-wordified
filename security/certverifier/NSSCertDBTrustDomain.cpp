@@ -5750,7 +5750,7 @@ CertVerifier
 SHA1Mode
 :
 :
-ImportedRootOrBefore2016
+Before2016
 :
 if
 (

@@ -526,7 +526,7 @@ pki
 .
 sha1_enforcement_level
 "
-4
+3
 )
 ;
 add_tls_server_setup
