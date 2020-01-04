@@ -879,8 +879,6 @@ GetStringFromName
 activeCacheName
 '
 )
-info
-.
 activeCacheName
 )
 ;
@@ -910,8 +908,6 @@ GetStringFromName
 waitingCacheName
 '
 )
-info
-.
 waitingCacheName
 )
 ;
