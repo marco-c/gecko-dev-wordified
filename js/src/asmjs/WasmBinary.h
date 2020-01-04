@@ -1322,10 +1322,10 @@ access
 .
 GetGlobal
 =
-0xc0
+0xbb
 SetGlobal
 =
-0xc1
+0xbc
 /
 /
 -
