@@ -9833,7 +9833,7 @@ MaxFuncs
 genData
 -
 >
-imports
+funcImports
 .
 resize
 (
@@ -13592,8 +13592,8 @@ through
 /
 AsmJSGlobal
 .
-ImportNameVector
-importNames
+ImportVector
+imports
 ;
 /
 /
@@ -13645,7 +13645,7 @@ finish
 (
 Move
 (
-importNames
+imports
 )
 *
 bytes

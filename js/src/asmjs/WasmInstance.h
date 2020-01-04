@@ -410,14 +410,14 @@ addressOfMemoryBase
 )
 const
 ;
-ImportExit
+FuncImportExit
 &
-importToExit
+funcImportToExit
 (
 const
-Import
+FuncImport
 &
-import
+fi
 )
 ;
 MOZ_MUST_USE
@@ -501,7 +501,7 @@ JSContext
 *
 cx
 uint32_t
-importIndex
+funcImportIndex
 unsigned
 argc
 const
@@ -1007,7 +1007,7 @@ void
 deoptimizeImportExit
 (
 uint32_t
-importIndex
+funcImportIndex
 )
 ;
 /

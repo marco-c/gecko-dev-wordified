@@ -3111,11 +3111,11 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 uint32_t
-importIndex
+funcImportIndex
 )
 {
 const
@@ -3123,7 +3123,7 @@ Sig
 &
 sig
 =
-import
+fi
 .
 sig
 (
@@ -3161,7 +3161,7 @@ MIRType
 Pointer
 /
 /
-ImportExit
+FuncImportExit
 MIRType
 :
 :
@@ -3402,7 +3402,7 @@ invokeArgTypes
 argument
 0
 :
-importIndex
+funcImportIndex
 if
 (
 i
@@ -3424,7 +3424,7 @@ mov
 (
 ImmWord
 (
-importIndex
+funcImportIndex
 )
 i
 -
@@ -3441,7 +3441,7 @@ store32
 (
 Imm32
 (
-importIndex
+funcImportIndex
 )
 Address
 (
@@ -4072,9 +4072,9 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 bool
 usesHeap
 )
@@ -4084,7 +4084,7 @@ Sig
 &
 sig
 =
-import
+fi
 .
 sig
 (
@@ -4365,7 +4365,7 @@ ExitDatum
 uint32_t
 globalDataOffset
 =
-import
+fi
 .
 exitGlobalDataOffset
 (
@@ -4477,7 +4477,7 @@ Address
 callee
 offsetof
 (
-ImportExit
+FuncImportExit
 fun
 )
 )

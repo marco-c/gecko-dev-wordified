@@ -884,7 +884,7 @@ mallocSizeOf
 ;
 }
 size_t
-ImportName
+Import
 :
 :
 serializedSize
@@ -908,7 +908,7 @@ serializedSize
 }
 uint8_t
 *
-ImportName
+Import
 :
 :
 serialize
@@ -944,7 +944,7 @@ cursor
 const
 uint8_t
 *
-ImportName
+Import
 :
 :
 deserialize
@@ -983,7 +983,7 @@ cursor
 ;
 }
 size_t
-ImportName
+Import
 :
 :
 sizeOfExcludingThis
@@ -1154,7 +1154,7 @@ serializedSize
 +
 SerializedVectorSize
 (
-importNames_
+imports_
 )
 +
 exportMap_
@@ -1219,7 +1219,7 @@ cursor
 SerializeVector
 (
 cursor
-importNames_
+imports_
 )
 ;
 cursor
@@ -1332,8 +1332,8 @@ cursor
 return
 nullptr
 ;
-ImportNameVector
-importNames
+ImportVector
+imports
 ;
 cursor
 =
@@ -1341,7 +1341,7 @@ DeserializeVector
 (
 cursor
 &
-importNames
+imports
 )
 ;
 if
@@ -1517,7 +1517,7 @@ linkData
 )
 Move
 (
-importNames
+imports
 )
 Move
 (
@@ -1603,7 +1603,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-importNames_
+imports_
 .
 sizeOfExcludingThis
 (
@@ -1676,7 +1676,7 @@ length
 metadata_
 -
 >
-imports
+funcImports
 .
 length
 (

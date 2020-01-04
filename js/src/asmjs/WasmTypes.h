@@ -5015,7 +5015,7 @@ AsmJS
 ;
 /
 /
-ImportExit
+FuncImportExit
 describes
 the
 region
@@ -5025,9 +5025,10 @@ global
 memory
 allocated
 for
-an
+a
 /
 /
+function
 import
 .
 This
@@ -5040,10 +5041,10 @@ code
 and
 mutated
 by
+/
+/
 Instance
 as
-/
-/
 exits
 become
 optimized
@@ -5051,7 +5052,7 @@ and
 deoptimized
 .
 struct
-ImportExit
+FuncImportExit
 {
 void
 *
