@@ -247,6 +247,14 @@ respond
 kInvalid
 }
 ;
+bool
+FileExists
+(
+nsIFile
+*
+aFile
+)
+;
 }
 /
 /
