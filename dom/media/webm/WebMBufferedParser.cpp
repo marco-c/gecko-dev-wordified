@@ -872,11 +872,8 @@ mSize
 mLength
 )
 ;
-/
-*
-FALLTHROUGH
-*
-/
+MOZ_FALLTHROUGH
+;
 default
 :
 mSkipBytes

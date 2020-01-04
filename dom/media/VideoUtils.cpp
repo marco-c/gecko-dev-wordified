@@ -2237,9 +2237,12 @@ break
 ;
 default
 :
-MOZ_ASSERT
+MOZ_FALLTHROUGH_ASSERT
 (
-false
+"
+Unexpected
+MediaThreadType
+"
 )
 ;
 case

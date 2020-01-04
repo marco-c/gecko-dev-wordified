@@ -2937,9 +2937,8 @@ aErrorCode
 case
 NoError
 :
-MOZ_ASSERT
+MOZ_FALLTHROUGH_ASSERT
 (
-false
 "
 Who
 passed

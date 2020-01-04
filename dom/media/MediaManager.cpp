@@ -11814,14 +11814,8 @@ WindowID
 )
 ;
 }
-/
-/
-|
-Fall
-through
-/
-/
-V
+MOZ_FALLTHROUGH
+;
 case
 dom
 :
