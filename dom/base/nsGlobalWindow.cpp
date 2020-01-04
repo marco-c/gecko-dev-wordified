@@ -10651,6 +10651,12 @@ Clear
 ;
 #
 endif
+mVRDisplays
+.
+Clear
+(
+)
+;
 }
 /
 /
@@ -76035,9 +76041,8 @@ VRDisplay
 UpdateVRDisplays
 (
 mVRDisplays
-ToSupports
+AsInner
 (
-this
 )
 )
 ;

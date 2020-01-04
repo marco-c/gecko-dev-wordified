@@ -1960,13 +1960,6 @@ endif
 /
 /
 MOZ_WEBRTC
-#
-include
-"
-VRDisplayProxy
-.
-h
-"
 using
 namespace
 mozilla
