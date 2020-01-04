@@ -63,6 +63,7 @@ strict
 ;
 const
 {
+immutableUpdate
 reportException
 assert
 }
@@ -98,7 +99,6 @@ constants
 ;
 const
 {
-immutableUpdate
 L10N
 openFilePicker
 createSnapshot
