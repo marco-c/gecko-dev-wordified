@@ -2463,6 +2463,12 @@ defined
 (
 USE_SSE2
 )
+|
+|
+defined
+(
+_MIPS_ARCH_LOONGSON3A
+)
 int
 simd_width
 =
@@ -2512,7 +2518,7 @@ C
 implementation
 for
 leftovers
-ConvolveHorizontally_SSE2
+ConvolveHorizontally_SIMD
 (
 src_data
 filter
