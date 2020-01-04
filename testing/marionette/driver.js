@@ -17352,6 +17352,14 @@ width
 height
 )
 ;
+this
+.
+getWindowSize
+(
+cmd
+resp
+)
+;
 }
 ;
 /
