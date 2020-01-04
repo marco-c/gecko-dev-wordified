@@ -13039,7 +13039,6 @@ frame
 >
 GetFilename
 (
-cx
 fileName
 )
 ;
@@ -13668,7 +13667,6 @@ frame
 >
 GetFilename
 (
-cx
 frameFile
 )
 ;

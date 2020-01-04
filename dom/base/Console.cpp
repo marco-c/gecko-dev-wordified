@@ -5355,9 +5355,6 @@ static
 nsresult
 StackFrameToStackEntry
 (
-JSContext
-*
-aCx
 nsIStackFrame
 *
 aStackFrame
@@ -5379,7 +5376,6 @@ aStackFrame
 >
 GetFilename
 (
-aCx
 aStackEntry
 .
 mFilename
@@ -5517,9 +5513,6 @@ static
 nsresult
 ReifyStack
 (
-JSContext
-*
-aCx
 nsIStackFrame
 *
 aStack
@@ -5561,7 +5554,6 @@ rv
 =
 StackFrameToStackEntry
 (
-aCx
 stack
 data
 )
@@ -5808,7 +5800,6 @@ rv
 =
 StackFrameToStackEntry
 (
-aCx
 stack
 *
 callData
@@ -5885,7 +5876,6 @@ rv
 =
 ReifyStack
 (
-aCx
 stack
 *
 callData
@@ -6757,7 +6747,6 @@ rv
 =
 ReifyStack
 (
-aCx
 stack
 reifiedStack
 )
