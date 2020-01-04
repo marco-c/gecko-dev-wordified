@@ -1080,6 +1080,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mAnchorJumpElm
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mInvalidationList
+)
 for
 (
 auto
@@ -1213,6 +1217,10 @@ mAccessibleCache
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mAnchorJumpElm
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mInvalidationList
 )
 tmp
 -

@@ -3633,8 +3633,10 @@ ProcessInvalidationList
 /
 nsTArray
 <
+RefPtr
+<
 nsIContent
-*
+>
 >
 mInvalidationList
 ;
