@@ -508,13 +508,13 @@ CanUseHardwareVideoDecoding
 (
 )
 ;
-sIsIntelDecoderEnabled
-=
 Preferences
 :
 :
-GetBool
+AddBoolVarCache
 (
+&
+sIsIntelDecoderEnabled
 "
 media
 .
@@ -524,7 +524,6 @@ intel_decoder
 .
 enabled
 "
-false
 )
 ;
 sLowLatencyMFTEnabled
