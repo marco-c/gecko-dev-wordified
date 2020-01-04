@@ -283,6 +283,16 @@ bool
 aOutContainsMP3
 )
 ;
+static
+bool
+CanHandleMediaType
+(
+const
+nsAString
+&
+aMIMEType
+)
+;
 /
 /
 Returns
