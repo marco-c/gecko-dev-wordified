@@ -1484,7 +1484,6 @@ mContentBackendBitmask
 /
 This
 function
-also
 lets
 us
 know
@@ -1558,7 +1557,13 @@ canvas
 .
 virtual
 bool
-UseAcceleratedCanvas
+HaveChoiceOfHWAndSWCanvas
+(
+)
+;
+virtual
+bool
+UseAcceleratedSkiaCanvas
 (
 )
 ;
@@ -1637,9 +1642,9 @@ aObj
 DefineProperty
 (
 "
-AzureCanvasAccelerated
+AzureSkiaAccelerated
 "
-UseAcceleratedCanvas
+UseAcceleratedSkiaCanvas
 (
 )
 )

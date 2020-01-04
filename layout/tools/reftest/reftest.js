@@ -4445,7 +4445,7 @@ azureSkiaGL
 =
 info
 .
-AzureCanvasAccelerated
+AzureSkiaAccelerated
 ;
 /
 /
