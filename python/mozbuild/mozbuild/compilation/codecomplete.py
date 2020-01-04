@@ -89,6 +89,14 @@ mozbuild
 base
 import
 MachCommandBase
+from
+mozbuild
+.
+shellutil
+import
+quote
+as
+shell_quote
 CommandProvider
 class
 Introspection
@@ -278,6 +286,19 @@ return
         
 print
 (
+'
+'
+.
+join
+(
+shell_quote
+(
+arg
+)
+                       
+for
+arg
+in
 util
 .
 get_flags
@@ -286,7 +307,9 @@ self
 .
 topobjdir
 make_dir
+                                                 
 build_vars
 name
+)
 )
 )

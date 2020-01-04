@@ -55,8 +55,10 @@ MPL
 .
 import
 os
+from
+mozbuild
 import
-shlex
+shellutil
 def
 check_top_objdir
 (
@@ -367,11 +369,11 @@ unused
 )
 '
     
-lex
+args
 =
-shlex
+shellutil
 .
-shlex
+split
 (
 build_vars
 [
@@ -379,45 +381,12 @@ name
 ]
 )
     
-lex
-.
-quotes
-=
-'
-"
-'
-    
-lex
-.
-wordchars
-+
-=
-'
-+
-/
-\
-'
-"
--
-=
-.
-*
-{
-}
-(
-)
-[
-]
-<
->
-'
-    
 for
 arg
 in
 list
 (
-lex
+args
 )
 :
         
@@ -537,10 +506,4 @@ arg
 )
     
 return
-'
-'
-.
-join
-(
 new_args
-)
