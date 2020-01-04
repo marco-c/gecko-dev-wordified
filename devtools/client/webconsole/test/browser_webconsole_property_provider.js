@@ -222,7 +222,7 @@ dbgWindow
 =
 dbg
 .
-makeGlobalObjectReference
+addDebuggee
 (
 content
 )
@@ -437,6 +437,13 @@ is
 locationbar
 '
 "
+)
+;
+dbg
+.
+removeDebuggee
+(
+content
 )
 ;
 finishTest

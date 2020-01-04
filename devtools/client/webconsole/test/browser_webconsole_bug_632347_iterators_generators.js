@@ -240,9 +240,9 @@ dbgWindow
 =
 dbg
 .
-makeGlobalObjectReference
+addDebuggee
 (
-win
+content
 )
 ;
 let
@@ -626,6 +626,13 @@ window
 length
 )
 "
+)
+;
+dbg
+.
+removeDebuggee
+(
+content
 )
 ;
 jsterm
