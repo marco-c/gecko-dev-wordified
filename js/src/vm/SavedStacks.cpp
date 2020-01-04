@@ -3381,16 +3381,10 @@ skippedAsync
 )
 ;
 }
-/
-*
 static
-*
-/
+MOZ_MUST_USE
 bool
-SavedFrame
-:
-:
-checkThis
+SavedFrame_checkThis
 (
 JSContext
 *
@@ -3785,7 +3779,7 @@ cx
 if
 (
 !
-checkThis
+SavedFrame_checkThis
 (
 cx
 args
