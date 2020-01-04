@@ -189,6 +189,12 @@ size
 check
 *
 /
+false
+/
+*
+pin
+*
+/
 )
 mAppCache
 (

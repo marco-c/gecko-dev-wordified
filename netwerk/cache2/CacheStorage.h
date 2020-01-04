@@ -249,6 +249,8 @@ bool
 aLookupAppCache
 bool
 aSkipSizeCheck
+bool
+aPinning
 )
 ;
 protected
@@ -289,6 +291,11 @@ mLookupAppCache
 ;
 bool
 mSkipSizeCheck
+:
+1
+;
+bool
+mPinning
 :
 1
 ;
@@ -342,6 +349,16 @@ const
 {
 return
 mSkipSizeCheck
+;
+}
+bool
+Pinning
+(
+)
+const
+{
+return
+mPinning
 ;
 }
 }

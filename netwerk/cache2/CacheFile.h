@@ -242,6 +242,8 @@ bool
 aSkipSizeCheck
 bool
 aPriority
+bool
+aPinned
 CacheFileListener
 *
 aCallback
@@ -574,6 +576,16 @@ IsDoomed
 (
 )
 ;
+bool
+IsPinned
+(
+)
+const
+{
+return
+mPinned
+;
+}
 bool
 IsWriteInProgress
 (
@@ -980,6 +992,9 @@ mSkipSizeCheck
 ;
 bool
 mOpenAsMemoryOnly
+;
+bool
+mPinned
 ;
 bool
 mPriority
