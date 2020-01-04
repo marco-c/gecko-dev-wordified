@@ -1093,7 +1093,6 @@ Function
 Entry
 ImportJitExit
 ImportInterpExit
-ErrorExit
 Inline
 CallThunk
 }
@@ -1295,7 +1294,7 @@ ImportInterpExit
 ;
 }
 bool
-isErrorExit
+isInline
 (
 )
 const
@@ -1306,7 +1305,7 @@ kind
 )
 =
 =
-ErrorExit
+Inline
 ;
 }
 uint32_t
