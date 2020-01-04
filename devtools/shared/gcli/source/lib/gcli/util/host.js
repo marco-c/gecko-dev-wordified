@@ -811,6 +811,14 @@ resource
 /
 devtools
 /
+shared
+/
+gcli
+/
+source
+/
+lib
+/
 '
 +
 filename
