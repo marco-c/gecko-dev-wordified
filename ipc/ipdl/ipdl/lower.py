@@ -3093,7 +3093,6 @@ _ipcFatalError
 (
 name
 msg
-otherpid
 isparent
 )
 :
@@ -3155,7 +3154,6 @@ args
 [
 name
 msg
-otherpid
 isparent
 ]
 )
@@ -27442,14 +27440,6 @@ parent
 '
 :
             
-otherpid
-=
-p
-.
-callOtherPid
-(
-)
-            
 isparent
 =
 ExprLiteral
@@ -27458,12 +27448,6 @@ TRUE
         
 else
 :
-            
-otherpid
-=
-ExprLiteral
-.
-ZERO
             
 isparent
 =
@@ -27481,7 +27465,6 @@ _ipcFatalError
 (
 actorname
 msgparam
-otherpid
 isparent
 )
         
