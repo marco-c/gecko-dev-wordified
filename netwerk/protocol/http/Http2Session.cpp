@@ -10618,6 +10618,13 @@ promisedID
 delete
 pushedStream
 ;
+self
+-
+>
+ResetDownstreamState
+(
+)
+;
 return
 NS_OK
 ;
@@ -10668,6 +10675,13 @@ promisedID
 ;
 delete
 pushedStream
+;
+self
+-
+>
+ResetDownstreamState
+(
+)
 ;
 return
 NS_OK
