@@ -1456,9 +1456,10 @@ tw
 nextNode
 (
 )
-&
-&
-!
+)
+{
+if
+(
 this
 .
 _isParagraphInView
@@ -1469,6 +1470,9 @@ currentNode
 )
 )
 {
+break
+;
+}
 }
 }
 if
