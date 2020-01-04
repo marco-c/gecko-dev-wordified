@@ -554,6 +554,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeConvolveD2D1
+override
 )
 FilterNodeConvolveD2D1
 (
@@ -572,6 +573,7 @@ FilterNode
 *
 aFilter
 )
+override
 ;
 virtual
 void
@@ -582,6 +584,7 @@ aIndex
 uint32_t
 aValue
 )
+override
 ;
 virtual
 void
@@ -594,6 +597,7 @@ IntSize
 &
 aValue
 )
+override
 ;
 virtual
 void
@@ -606,6 +610,7 @@ IntPoint
 &
 aValue
 )
+override
 ;
 virtual
 void
@@ -618,6 +623,7 @@ IntRect
 &
 aValue
 )
+override
 ;
 virtual
 ID2D1Effect
@@ -681,6 +687,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeExtendInputAdapterD2D1
+override
 )
 FilterNodeExtendInputAdapterD2D1
 (
@@ -754,6 +761,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodePremultiplyAdapterD2D1
+override
 )
 FilterNodePremultiplyAdapterD2D1
 (

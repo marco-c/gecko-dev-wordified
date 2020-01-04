@@ -351,6 +351,7 @@ FontCacheSizes
 aSizes
 )
 const
+override
 ;
 virtual
 void
@@ -366,6 +367,7 @@ FontCacheSizes
 aSizes
 )
 const
+override
 ;
 virtual
 FontType
@@ -373,6 +375,7 @@ GetType
 (
 )
 const
+override
 {
 return
 FONT_TYPE_DWRITE
