@@ -1516,6 +1516,13 @@ NS_FAILED
 (
 rv
 )
+|
+|
+currentVideoBlobUrl
+.
+IsEmpty
+(
+)
 )
 )
 {
