@@ -588,6 +588,8 @@ LAYERS_D3D11
 {
 useDoubleBuffering
 =
+!
+!
 gfxWindowsPlatform
 :
 :
@@ -596,15 +598,9 @@ GetPlatform
 )
 -
 >
-GetRenderMode
+GetD3D10Device
 (
 )
-=
-=
-gfxWindowsPlatform
-:
-:
-RENDER_DIRECT2D
 ;
 }
 else
