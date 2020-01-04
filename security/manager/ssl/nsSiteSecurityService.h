@@ -606,7 +606,7 @@ aString
 ;
 }
 ;
-class
+struct
 nsSTSPreload
 ;
 class
