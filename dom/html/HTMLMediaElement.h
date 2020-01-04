@@ -9393,12 +9393,12 @@ private
 /
 Total
 time
-an
-MSE
+a
 video
 has
 spent
 playing
+.
 TimeDurationAccumulator
 mPlayTime
 ;
