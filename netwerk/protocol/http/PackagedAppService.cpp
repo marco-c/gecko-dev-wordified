@@ -5610,7 +5610,7 @@ originNoSuffix
 mozilla
 :
 :
-NeckoOriginAttributes
+OriginAttributes
 attrs
 ;
 if
@@ -7063,7 +7063,7 @@ uri
 ;
 rv
 =
-principal
+aChannel
 -
 >
 GetURI
