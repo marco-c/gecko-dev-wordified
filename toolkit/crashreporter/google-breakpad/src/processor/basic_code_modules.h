@@ -593,12 +593,8 @@ Copy
 )
 const
 ;
-protected
+private
 :
-BasicCodeModules
-(
-)
-;
 /
 /
 The
@@ -644,8 +640,6 @@ CodeModule
 *
 map_
 ;
-private
-:
 /
 /
 Disallow

@@ -1029,9 +1029,6 @@ char
 *
 *
 symbol_data
-size_t
-*
-symbol_data_size
 )
 ;
 /

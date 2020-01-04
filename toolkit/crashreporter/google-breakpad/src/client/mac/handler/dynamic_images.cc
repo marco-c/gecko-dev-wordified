@@ -4130,13 +4130,7 @@ cpu_type
 sysctl
 (
 mib
-static_cast
-<
-u_int
->
-(
 mibLen
-)
 &
 cpu_type
 &
