@@ -2273,6 +2273,16 @@ popup
 bool
 mIsDragPopup
 ;
+/
+/
+Can
+we
+access
+X
+?
+bool
+mIsX11Display
+;
 private
 :
 void
