@@ -1277,6 +1277,7 @@ engine
 =
 TraceLogger_Interpreter
 ;
+}
 if
 (
 script
@@ -1304,7 +1305,6 @@ mismatch
 "
 )
 ;
-}
 TraceLoggerEvent
 event
 (
