@@ -10103,16 +10103,7 @@ sharedView
 )
 )
 {
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
-)
+gfxCriticalNote
 <
 <
 "

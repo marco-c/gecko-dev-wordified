@@ -5731,16 +5731,7 @@ don
 '
 t
 assert
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
-)
+gfxCriticalNote
 <
 <
 "
