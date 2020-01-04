@@ -981,6 +981,13 @@ aListener
 ;
 if
 (
+mAvailabilityListeners
+.
+IsEmpty
+(
+)
+&
+&
 sPresentationChild
 )
 {
