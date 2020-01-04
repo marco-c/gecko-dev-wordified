@@ -345,13 +345,6 @@ h
 #
 include
 "
-GonkNativeWindowClient
-.
-h
-"
-#
-include
-"
 OMXCodecProxy
 .
 h

@@ -248,13 +248,6 @@ h
 #
 include
 "
-GonkNativeWindowClient
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

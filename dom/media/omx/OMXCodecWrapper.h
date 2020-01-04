@@ -165,13 +165,6 @@ h
 #
 include
 "
-GonkNativeWindowClient
-.
-h
-"
-#
-include
-"
 mozilla
 /
 media
