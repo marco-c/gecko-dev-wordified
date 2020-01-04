@@ -2176,7 +2176,7 @@ this
 mListControlFrame
 -
 >
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 ;

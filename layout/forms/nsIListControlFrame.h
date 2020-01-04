@@ -410,6 +410,9 @@ AboutToRollup
 *
 Fire
 on
+input
+and
+on
 change
 (
 used
@@ -420,7 +423,7 @@ combobox
 /
 virtual
 void
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 =

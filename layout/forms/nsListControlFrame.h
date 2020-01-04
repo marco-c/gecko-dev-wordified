@@ -720,6 +720,8 @@ override
 Dispatch
 a
 DOM
+oninput
+and
 onchange
 event
 synchroniously
@@ -742,7 +744,7 @@ objects
 /
 virtual
 void
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 override
