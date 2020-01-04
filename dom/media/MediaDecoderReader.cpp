@@ -440,9 +440,6 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
-TaskQueue
-*
-aBorrowedTaskQueue
 )
 :
 mAudioCompactor
@@ -455,10 +452,6 @@ aDecoder
 )
 mTaskQueue
 (
-aBorrowedTaskQueue
-?
-aBorrowedTaskQueue
-:
 new
 TaskQueue
 (
