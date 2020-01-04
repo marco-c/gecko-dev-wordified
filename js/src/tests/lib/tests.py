@@ -360,6 +360,15 @@ no
 -
 asmjs
 '
+'
+-
+-
+no
+-
+native
+-
+regexp
+'
 ]
     
 ]
