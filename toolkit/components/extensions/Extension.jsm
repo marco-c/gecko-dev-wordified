@@ -3023,7 +3023,6 @@ return
 obj
 ;
 }
-;
 let
 schemaWrapper
 =

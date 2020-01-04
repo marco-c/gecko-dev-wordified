@@ -3985,7 +3985,6 @@ functions
 ;
 }
 }
-;
 class
 NumberType
 extends
@@ -5230,7 +5229,6 @@ properties
 .
 }
 }
-;
 /
 /
 This
@@ -5336,9 +5334,9 @@ path
 .
 join
 (
-'
+"
 .
-'
+"
 )
 }
 .
@@ -6445,9 +6443,9 @@ path
 .
 join
 (
-'
+"
 .
-'
+"
 )
 }
 has
@@ -8064,11 +8062,8 @@ SubModuleProperty
 name
 namespaceName
 prop
-[
-"
+.
 ref
-"
-]
 prop
 .
 properties
