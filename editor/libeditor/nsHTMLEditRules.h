@@ -1071,7 +1071,7 @@ nsresult
 WillOutdent
 (
 Selection
-*
+&
 aSelection
 bool
 *
