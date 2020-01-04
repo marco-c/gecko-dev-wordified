@@ -310,8 +310,10 @@ represents
 /
 /
 the
-95th
-pecentile
+99
+.
+9th
+percentile
 of
 the
 thread
@@ -327,7 +329,7 @@ const
 size_t
 kMaxThreadHangStackDepth
 =
-11
+30
 ;
 /
 /
