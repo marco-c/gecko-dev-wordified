@@ -7680,7 +7680,13 @@ nsIAtom
 *
 pseudo1
 =
+nsPlaceholderFrame
+:
+:
+GetRealFrameFor
+(
 aFrame1
+)
 -
 >
 StyleContext
@@ -7696,7 +7702,13 @@ nsIAtom
 *
 pseudo2
 =
+nsPlaceholderFrame
+:
+:
+GetRealFrameFor
+(
 aFrame2
+)
 -
 >
 StyleContext
