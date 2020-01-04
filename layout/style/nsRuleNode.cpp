@@ -29550,7 +29550,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_ALIGN_TRUE
+NS_STYLE_TEXT_ALIGN_UNSAFE
 )
 {
 textAlignValue
@@ -29755,7 +29755,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_ALIGN_TRUE
+NS_STYLE_TEXT_ALIGN_UNSAFE
 )
 {
 textAlignLastValue
