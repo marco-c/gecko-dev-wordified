@@ -15463,6 +15463,13 @@ onwaitingforkey
 )
 GK_ATOM
 (
+onkeystatuseschange
+"
+onkeystatuseschange
+"
+)
+GK_ATOM
+(
 onremovetrack
 "
 onremovetrack
