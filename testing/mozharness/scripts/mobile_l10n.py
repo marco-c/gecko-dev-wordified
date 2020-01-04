@@ -3856,7 +3856,7 @@ open
 routes_json
 )
 as
-f
+routes_file
 :
             
 contents
@@ -3865,7 +3865,7 @@ json
 .
 load
 (
-f
+routes_file
 )
             
 templates

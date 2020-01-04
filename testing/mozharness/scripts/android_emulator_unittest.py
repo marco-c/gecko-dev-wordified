@@ -157,7 +157,6 @@ base
 script
 import
 BaseScript
-PostScriptRun
 from
 mozharness
 .
@@ -6571,22 +6570,17 @@ self
 error_list
 )
         
-return_code
-=
 self
 .
 run_command
 (
 cmd
-                                       
 cwd
 =
 cwd
-                                       
 env
 =
 env
-                                       
 output_parser
 =
 parser

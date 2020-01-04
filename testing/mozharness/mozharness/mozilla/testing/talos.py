@@ -139,7 +139,6 @@ OutputParser
 DEBUG
 ERROR
 CRITICAL
-FATAL
 from
 mozharness
 .
@@ -169,7 +168,6 @@ testbase
 import
 TestingMixin
 testing_config_options
-INSTALLER_SUFFIXES
 from
 mozharness
 .
@@ -1813,12 +1811,6 @@ query_abs_dirs
 self
 )
 :
-        
-c
-=
-self
-.
-config
         
 if
 self

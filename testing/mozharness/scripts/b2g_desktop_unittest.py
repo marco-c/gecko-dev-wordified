@@ -113,7 +113,6 @@ base
 log
 import
 ERROR
-WARNING
 from
 mozharness
 .

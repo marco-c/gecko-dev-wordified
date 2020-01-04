@@ -189,7 +189,6 @@ base
 .
 log
 import
-ERROR
 FATAL
 try
 :

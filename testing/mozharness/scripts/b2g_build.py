@@ -177,7 +177,6 @@ base
 log
 import
 WARNING
-ERROR
 FATAL
 from
 mozharness
