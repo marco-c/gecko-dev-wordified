@@ -206,7 +206,6 @@ content
 handleContent
 :
 function
-XCH_handleContent
 (
 aMimetype
 aContext
@@ -570,7 +569,6 @@ nsIContentHandler
 log
 :
 function
-XCH_log
 (
 aMsg
 )

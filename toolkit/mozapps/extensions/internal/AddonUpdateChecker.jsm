@@ -386,7 +386,6 @@ this
 CertUtils
 "
 function
-certUtilsLazyGetter
 (
 )
 {
@@ -704,7 +703,6 @@ references
 escapeEntities
 :
 function
-RDFS_escapeEntities
 (
 aString
 )
@@ -838,7 +836,6 @@ elements
 serializeContainerItems
 :
 function
-RDFS_serializeContainerItems
 (
 aDs
 aContainer
@@ -1044,7 +1041,6 @@ serialized
 serializeResourceProperties
 :
 function
-RDFS_serializeResourceProperties
 (
 aDs
 aResource
@@ -1496,7 +1492,6 @@ resource
 serializeResource
 :
 function
-RDFS_serializeResource
 (
 aDs
 aResource
@@ -4428,7 +4423,6 @@ addEventListener
 load
 "
 function
-loadEventListener
 (
 event
 )
@@ -4452,7 +4446,6 @@ addEventListener
 error
 "
 function
-errorEventListener
 (
 event
 )
@@ -4476,7 +4469,6 @@ addEventListener
 timeout
 "
 function
-timeoutEventListener
 (
 event
 )
@@ -4559,7 +4551,6 @@ loaded
 onLoad
 :
 function
-UP_onLoad
 (
 )
 {
@@ -5168,7 +5159,6 @@ load
 onError
 :
 function
-UP_onError
 (
 )
 {
@@ -5368,7 +5358,6 @@ occured
 notifyError
 :
 function
-UP_notifyError
 (
 aStatus
 )
@@ -5435,7 +5424,6 @@ check
 cancel
 :
 function
-UP_cancel
 (
 )
 {
@@ -6053,7 +6041,6 @@ not
 getCompatibilityUpdate
 :
 function
-AUC_getCompatibilityUpdate
 (
 aUpdates
 aVersion
@@ -6298,7 +6285,6 @@ not
 getNewestCompatibleUpdate
 :
 function
-AUC_getNewestCompatibleUpdate
 (
 aUpdates
 aAppVersion
@@ -6547,7 +6533,6 @@ requests
 checkForUpdates
 :
 function
-AUC_checkForUpdates
 (
 aId
 aUpdateKey

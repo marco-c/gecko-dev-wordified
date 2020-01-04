@@ -497,7 +497,6 @@ null
 error
 :
 function
-AddonLogger_error
 (
 aStr
 aException
@@ -796,7 +795,6 @@ e
 warn
 :
 function
-AddonLogger_warn
 (
 aStr
 aException
@@ -905,7 +903,6 @@ n
 log
 :
 function
-AddonLogger_log
 (
 aStr
 aException
@@ -968,7 +965,6 @@ LogManager
 getLogger
 :
 function
-LogManager_getLogger
 (
 aName
 aTarget
@@ -1028,7 +1024,6 @@ fname
 ]
 =
 function
-LogManager_targetName
 (
 aStr
 aException
@@ -1062,7 +1057,6 @@ PrefObserver
 init
 :
 function
-PrefObserver_init
 (
 )
 {
@@ -1105,7 +1099,6 @@ PREF_LOGGING_ENABLED
 observe
 :
 function
-PrefObserver_observe
 (
 aSubject
 aTopic

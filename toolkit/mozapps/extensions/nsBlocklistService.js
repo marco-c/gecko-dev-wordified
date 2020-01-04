@@ -778,7 +778,6 @@ this
 gPref
 "
 function
-bls_gPref
 (
 )
 {
@@ -878,7 +877,6 @@ this
 gApp
 "
 function
-bls_gApp
 (
 )
 {
@@ -976,7 +974,6 @@ this
 gABI
 "
 function
-bls_gABI
 (
 )
 {
@@ -1106,7 +1103,6 @@ this
 gOSVersion
 "
 function
-bls_gOSVersion
 (
 )
 {
@@ -1269,7 +1265,6 @@ this
 gCertUtils
 "
 function
-bls_gCertUtils
 (
 )
 {
@@ -2592,7 +2587,6 @@ this
 observe
 :
 function
-Blocklist_observe
 (
 aSubject
 aTopic
@@ -2856,7 +2850,6 @@ nsIBlocklistService
 isAddonBlocklisted
 :
 function
-Blocklist_isAddonBlocklisted
 (
 addon
 appVersion
@@ -2890,7 +2883,6 @@ nsIBlocklistService
 getAddonBlocklistState
 :
 function
-Blocklist_getAddonBlocklistState
 (
 addon
 appVersion
@@ -3061,7 +3053,6 @@ nsIBlocklistService
 _getAddonBlocklistState
 :
 function
-Blocklist_getAddonBlocklistStateCall
 (
 addon
 addonEntries
@@ -3268,7 +3259,6 @@ found
 _getAddonPrefs
 :
 function
-Blocklist_getAddonPrefs
 (
 addon
 )
@@ -3300,7 +3290,6 @@ slice
 _findMatchingAddonEntry
 :
 function
-Blocklist_findMatchingAddonEntry
 (
 aAddonEntries
 aAddon
@@ -3532,7 +3521,6 @@ nsIBlocklistService
 getAddonBlocklistURL
 :
 function
-Blocklist_getAddonBlocklistURL
 (
 addon
 appVersion
@@ -3604,7 +3592,6 @@ blockID
 _createBlocklistURL
 :
 function
-Blocklist_createBlocklistURL
 (
 id
 )
@@ -3643,7 +3630,6 @@ url
 notify
 :
 function
-Blocklist_notify
 (
 aTimer
 )
@@ -4555,7 +4541,6 @@ addEventListener
 error
 "
 function
-errorEventListener
 (
 event
 )
@@ -4579,7 +4564,6 @@ addEventListener
 load
 "
 function
-loadEventListener
 (
 event
 )
@@ -4870,7 +4854,6 @@ e
 onXMLError
 :
 function
-Blocklist_onXMLError
 (
 aEvent
 )
@@ -5040,7 +5023,6 @@ exist
 _loadBlocklist
 :
 function
-Blocklist_loadBlocklist
 (
 )
 {
@@ -5859,7 +5841,6 @@ blocklist
 _loadBlocklistFromFile
 :
 function
-Blocklist_loadBlocklistFromFile
 (
 file
 )
@@ -6523,7 +6504,6 @@ text
 _loadBlocklistFromString
 :
 function
-Blocklist_loadBlocklistFromString
 (
 text
 )
@@ -6902,7 +6882,6 @@ return
 _processItemNodes
 :
 function
-Blocklist_processItemNodes
 (
 itemNodes
 prefix
@@ -6987,7 +6966,6 @@ result
 _handleCertItemNode
 :
 function
-Blocklist_handleCertItemNode
 (
 blocklistElement
 result
@@ -7159,7 +7137,6 @@ e
 _handleEmItemNode
 :
 function
-Blocklist_handleEmItemNode
 (
 blocklistElement
 result
@@ -7534,7 +7511,6 @@ blockEntry
 _handlePluginItemNode
 :
 function
-Blocklist_handlePluginItemNode
 (
 blocklistElement
 result
@@ -7832,7 +7808,6 @@ nsIBlocklistService
 getPluginBlocklistState
 :
 function
-Blocklist_getPluginBlocklistState
 (
 plugin
 appVersion
@@ -8009,7 +7984,6 @@ entry
 _getPluginBlocklistEntry
 :
 function
-Blocklist_getPluginBlocklistEntry
 (
 plugin
 pluginEntries
@@ -8311,7 +8285,6 @@ nsIBlocklistService
 _getPluginBlocklistState
 :
 function
-Blocklist_getPluginBlocklistState
 (
 plugin
 pluginEntries
@@ -8444,7 +8417,6 @@ nsIBlocklistService
 getPluginBlocklistURL
 :
 function
-Blocklist_getPluginBlocklistURL
 (
 plugin
 )
@@ -8644,7 +8616,6 @@ blocklistInvalidated
 _blocklistUpdated
 :
 function
-Blocklist_blocklistUpdated
 (
 oldAddonEntries
 oldPluginEntries
@@ -8733,7 +8704,6 @@ getAddonsByTypes
 (
 types
 function
-blocklistUpdated_getAddonsByTypes
 (
 addons
 )
@@ -9507,7 +9477,6 @@ let
 applyBlocklistChanges
 =
 function
-blocklistUpdated_applyBlocklistChanges
 (
 )
 {
@@ -10163,7 +10132,6 @@ version
 includesItem
 :
 function
-BlocklistItemData_includesItem
 (
 version
 appVersion
@@ -10370,7 +10338,6 @@ smaller
 matchesRange
 :
 function
-BlocklistItemData_matchesRange
 (
 version
 minVersion
@@ -10486,7 +10453,6 @@ given
 matchesTargetRange
 :
 function
-BlocklistItemData_matchesTargetRange
 (
 appID
 appVersion
@@ -10628,7 +10594,6 @@ null
 getBlocklistAppVersions
 :
 function
-BlocklistItemData_getBlocklistAppVersions
 (
 targetAppElement
 )
@@ -10839,7 +10804,6 @@ null
 getBlocklistVersionRange
 :
 function
-BlocklistItemData_getBlocklistVersionRange
 (
 versionRangeElement
 )

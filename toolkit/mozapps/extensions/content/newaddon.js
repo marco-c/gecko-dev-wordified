@@ -144,7 +144,6 @@ EnableListener
 onEnabling
 :
 function
-EnableListener_onEnabling
 (
 aAddon
 )
@@ -320,7 +319,6 @@ getAddonByID
 (
 id
 function
-initialize_getAddonByID
 (
 aAddon
 )

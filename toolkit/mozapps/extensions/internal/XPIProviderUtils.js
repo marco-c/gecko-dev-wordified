@@ -1302,7 +1302,6 @@ function
 (
 object
 function
-aCallback
 (
 f_of_object
 )
@@ -1404,7 +1403,6 @@ aObjects
 map
 (
 function
-asyncMap_each
 (
 aObject
 aIndex
@@ -1417,7 +1415,6 @@ aMethod
 (
 aObject
 function
-asyncMap_callback
 (
 aResult
 )
@@ -2178,7 +2175,6 @@ this
 pendingUpgrade
 "
 function
-DBA_pendingUpgradeGetter
 (
 )
 {
@@ -3312,7 +3308,6 @@ information
 getMigrateDataFromSQLITE
 :
 function
-XPIDB_getMigrateDataFromSQLITE
 (
 )
 {
@@ -3601,7 +3596,6 @@ rebuild
 syncLoadDB
 :
 function
-XPIDB_syncLoadDB
 (
 aRebuildOnError
 )
@@ -4927,7 +4921,6 @@ rejects
 asyncLoadDB
 :
 function
-XPIDB_asyncLoadDB
 (
 )
 {
@@ -5311,7 +5304,6 @@ rebuild
 rebuildDatabase
 :
 function
-XIPDB_rebuildDatabase
 (
 aRebuildOnError
 )
@@ -5576,7 +5568,6 @@ directories
 getActiveBundles
 :
 function
-XPIDB_getActiveBundles
 (
 )
 {
@@ -5833,7 +5824,6 @@ information
 getMigrateDataFromRDF
 :
 function
-XPIDB_getMigrateDataFromRDF
 (
 aDbWasMissing
 )
@@ -6316,7 +6306,6 @@ information
 getMigrateDataFromDatabase
 :
 function
-XPIDB_getMigrateDataFromDatabase
 (
 aConnection
 )
@@ -6915,7 +6904,6 @@ done
 shutdown
 :
 function
-XPIDB_shutdown
 (
 )
 {
@@ -7519,7 +7507,6 @@ to
 getAddonInLocation
 :
 function
-XPIDB_getAddonInLocation
 (
 aId
 aLocation
@@ -7605,7 +7592,6 @@ to
 getAddonsInLocation
 :
 function
-XPIDB_getAddonsInLocation
 (
 aLocation
 aCallback
@@ -7678,7 +7664,6 @@ to
 getVisibleAddonForID
 :
 function
-XPIDB_getVisibleAddonForID
 (
 aId
 aCallback
@@ -7761,7 +7746,6 @@ to
 getVisibleAddons
 :
 function
-XPIDB_getVisibleAddons
 (
 aTypes
 aCallback
@@ -7853,7 +7837,6 @@ DBAddonInternals
 getAddonsByType
 :
 function
-XPIDB_getAddonsByType
 (
 aType
 )
@@ -8008,7 +7991,6 @@ DBAddonInternal
 getVisibleAddonForInternalName
 :
 function
-XPIDB_getVisibleAddonForInternalName
 (
 aInternalName
 )
@@ -8148,7 +8130,6 @@ to
 getVisibleAddonsWithPendingOperations
 :
 function
-XPIDB_getVisibleAddonsWithPendingOperations
 (
 aTypes
 aCallback
@@ -8314,7 +8295,6 @@ found
 getAddonBySyncGUID
 :
 function
-XPIDB_getAddonBySyncGUID
 (
 aGUID
 aCallback
@@ -8397,7 +8377,6 @@ DBAddonInternals
 getAddons
 :
 function
-XPIDB_getAddons
 (
 )
 {
@@ -8477,7 +8456,6 @@ database
 addAddonMetadata
 :
 function
-XPIDB_addAddonMetadata
 (
 aAddon
 aDescriptor
@@ -8633,7 +8611,6 @@ database
 updateAddonMetadata
 :
 function
-XPIDB_updateAddonMetadata
 (
 aOldAddon
 aNewAddon
@@ -8747,7 +8724,6 @@ removed
 removeAddonMetadata
 :
 function
-XPIDB_removeAddonMetadata
 (
 aAddon
 )
@@ -8808,7 +8784,6 @@ visible
 makeAddonVisible
 :
 function
-XPIDB_makeAddonVisible
 (
 aAddon
 )
@@ -8947,7 +8922,6 @@ set
 setAddonProperties
 :
 function
-XPIDB_setAddonProperties
 (
 aAddon
 aProperties
@@ -9039,7 +9013,6 @@ GUID
 setAddonSyncGUID
 :
 function
-XPIDB_setAddonSyncGUID
 (
 aAddon
 aGUID
@@ -9182,7 +9155,6 @@ update
 updateAddonActive
 :
 function
-XPIDB_updateAddonActive
 (
 aAddon
 aActive
@@ -9247,7 +9219,6 @@ database
 updateActiveAddons
 :
 function
-XPIDB_updateActiveAddons
 (
 )
 {
@@ -9407,7 +9378,6 @@ otherwise
 writeAddonsList
 :
 function
-XPIDB_writeAddonsList
 (
 )
 {

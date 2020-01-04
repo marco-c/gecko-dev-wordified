@@ -522,7 +522,6 @@ null
 startup
 :
 function
-PL_startup
 (
 )
 {
@@ -581,7 +580,6 @@ shutdown
 shutdown
 :
 function
-PL_shutdown
 (
 )
 {
@@ -639,7 +637,6 @@ getAddonByID
 (
 aData
 function
-PL_displayPluginInfo
 (
 plugin
 )
@@ -848,7 +845,6 @@ object
 buildWrapper
 :
 function
-PL_buildWrapper
 (
 aPlugin
 )
@@ -916,7 +912,6 @@ to
 getAddonByID
 :
 function
-PL_getAddon
 (
 aId
 aCallback
@@ -1016,7 +1011,6 @@ to
 getAddonsByTypes
 :
 function
-PL_getAddonsByTypes
 (
 aTypes
 aCallback
@@ -1154,7 +1148,6 @@ to
 getAddonsWithOperationsByTypes
 :
 function
-PL_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -1215,7 +1208,6 @@ to
 getInstallsByTypes
 :
 function
-PL_getInstallsByTypes
 (
 aTypes
 aCallback
@@ -1261,7 +1253,6 @@ ID
 getPluginList
 :
 function
-PL_getPluginList
 (
 )
 {
@@ -1457,7 +1448,6 @@ host
 buildPluginList
 :
 function
-PL_buildPluginList
 (
 )
 {
@@ -1509,7 +1499,6 @@ changes
 updatePluginList
 :
 function
-PL_updatePluginList
 (
 )
 {

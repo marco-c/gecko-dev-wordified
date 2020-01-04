@@ -509,7 +509,6 @@ PrefObserver
 init
 :
 function
-PrefObserver_init
 (
 )
 {
@@ -552,7 +551,6 @@ PREF_LOGGING_ENABLED
 observe
 :
 function
-PrefObserver_observe
 (
 aSubject
 aTopic

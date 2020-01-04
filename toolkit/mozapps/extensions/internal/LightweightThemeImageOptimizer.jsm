@@ -168,7 +168,6 @@ LightweightThemeImageOptimizer
 optimize
 :
 function
-LWTIO_optimize
 (
 aThemeData
 aScreen
@@ -241,7 +240,6 @@ data
 purge
 :
 function
-LWTIO_purge
 (
 )
 {
@@ -305,7 +303,6 @@ _inProgress
 getCroppedImageURL
 :
 function
-ImageCropper_getCroppedImageURL
 (
 aImageURL
 aScreen
@@ -586,7 +583,6 @@ aImageURL
 _crop
 :
 function
-ImageCropper_crop
 (
 aURI
 aTargetFile
@@ -630,7 +626,6 @@ read
 (
 aURI
 function
-crop_readImageFile
 (
 aInputStream
 aContentType
@@ -719,7 +714,6 @@ ImageFile
 read
 :
 function
-ImageFile_read
 (
 aURI
 aCallback
@@ -747,7 +741,6 @@ nsIContentPolicy
 TYPE_INTERNAL_IMAGE
 }
 function
-read_asyncFetch
 (
 aInputStream
 aStatus
@@ -806,7 +799,6 @@ aCallback
 write
 :
 function
-ImageFile_write
 (
 aFile
 aInputStream
@@ -832,7 +824,6 @@ asyncCopy
 aInputStream
 fos
 function
-write_asyncCopy
 (
 aResult
 )
@@ -926,7 +917,6 @@ ImageTools
 decode
 :
 function
-ImageTools_decode
 (
 aInputStream
 aContentType
@@ -970,7 +960,6 @@ value
 encode
 :
 function
-ImageTools_encode
 (
 aImage
 aScreen
@@ -1089,7 +1078,6 @@ Utils
 createCopy
 :
 function
-Utils_createCopy
 (
 aData
 )
