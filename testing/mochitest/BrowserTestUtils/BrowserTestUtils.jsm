@@ -2378,7 +2378,7 @@ Usage
 let
 promiseEvent
 =
-BrowserTestUtil
+BrowserTestUtils
 .
 waitForEvent
 (
