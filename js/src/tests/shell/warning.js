@@ -46,7 +46,7 @@ summary
 /
 Warning
 with
-JSEXN_NONE
+JSEXN_WARN
 .
 enableLastWarning
 (
@@ -93,7 +93,7 @@ warning
 .
 name
 "
-None
+Warning
 "
 )
 ;

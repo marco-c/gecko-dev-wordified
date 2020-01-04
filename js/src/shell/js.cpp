@@ -37353,7 +37353,7 @@ report
 exnType
 =
 =
-JSEXN_NONE
+JSEXN_WARN
 )
 nameStr
 =
@@ -37361,7 +37361,7 @@ JS_NewStringCopyZ
 (
 cx
 "
-None
+Warning
 "
 )
 ;
@@ -38018,15 +38018,6 @@ restore
 }
 if
 (
-report
--
->
-exnType
-!
-=
-JSEXN_NONE
-&
-&
 !
 JSREPORT_IS_WARNING
 (

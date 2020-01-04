@@ -783,6 +783,14 @@ JSEXN_DEBUGGEEWOULDRUN
 1
 =
 =
+JSEXN_WARN
+&
+&
+JSEXN_WARN
++
+1
+=
+=
 JSEXN_LIMIT
 "
 GetExceptionProtoKey
@@ -831,7 +839,7 @@ MOZ_ASSERT
 (
 exn
 <
-JSEXN_LIMIT
+JSEXN_WARN
 )
 ;
 return
@@ -880,7 +888,7 @@ MOZ_ASSERT
 (
 type
 <
-JSEXN_LIMIT
+JSEXN_WARN
 )
 ;
 return

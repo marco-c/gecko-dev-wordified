@@ -397,16 +397,8 @@ type
 MOZ_ASSERT
 (
 type
-!
-=
-JSEXN_NONE
-)
-;
-MOZ_ASSERT
-(
-type
 <
-JSEXN_LIMIT
+JSEXN_WARN
 )
 ;
 return
