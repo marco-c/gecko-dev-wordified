@@ -293,6 +293,11 @@ err
 ok
 (
 false
+"
+Schema
+mismatch
+"
++
 err
 )
 ;
@@ -1349,6 +1354,15 @@ type
 string
 "
 }
+}
+featureLog
+:
+{
+type
+:
+"
+object
+"
 }
 direct2DEnabledMessage
 :
