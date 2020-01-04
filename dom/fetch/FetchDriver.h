@@ -386,6 +386,9 @@ mDocument
 bool
 mHasBeenCrossSite
 ;
+bool
+mFoundOpaqueRedirect
+;
 DebugOnly
 <
 bool
