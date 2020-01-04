@@ -150,6 +150,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsNCRFallbackEncoderWrapper
+.
+h
+"
 class
 nsIURI
 ;
@@ -158,9 +165,6 @@ nsIInputStream
 ;
 class
 nsGenericHTMLElement
-;
-class
-nsISaveAsCharset
 ;
 class
 nsIMultiplexInputStream
@@ -734,10 +738,7 @@ Unicode
 names
 and
 values
-nsCOMPtr
-<
-nsISaveAsCharset
->
+nsNCRFallbackEncoderWrapper
 mEncoder
 ;
 }
