@@ -719,9 +719,6 @@ VK_ESCAPE
 "
 {
 }
-gVariablesView
-.
-window
 )
 ;
 }

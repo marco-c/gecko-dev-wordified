@@ -719,9 +719,9 @@ panel
 .
 _toolbox
 .
-win
+_host
 .
-parent
+_window
 ;
 /
 /
@@ -844,9 +844,9 @@ panel
 .
 _toolbox
 .
-win
+_host
 .
-parent
+_window
 ;
 let
 gDebugger
