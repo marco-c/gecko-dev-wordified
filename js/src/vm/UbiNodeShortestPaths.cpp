@@ -286,6 +286,7 @@ rootList
 (
 rt
 nogc
+true
 )
 ;
 MOZ_ASSERT
@@ -296,12 +297,6 @@ init
 (
 )
 )
-;
-rootList
-.
-wantNames
-=
-true
 ;
 NodeSet
 targets
