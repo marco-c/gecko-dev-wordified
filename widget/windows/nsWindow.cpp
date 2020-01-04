@@ -39130,17 +39130,6 @@ LONG
 aEventTime
 )
 {
-DWORD
-eventTime
-=
-static_cast
-<
-DWORD
->
-(
-aEventTime
-)
-;
 CurrentWindowsTimeGetter
 getCurrentTime
 ;
