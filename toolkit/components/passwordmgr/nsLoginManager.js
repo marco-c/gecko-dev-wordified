@@ -3067,7 +3067,10 @@ then
 (
 function
 (
+{
 logins
+messageManager
+}
 )
 {
 let
@@ -3078,6 +3081,7 @@ UserAutoCompleteResult
 (
 aSearchString
 logins
+messageManager
 )
 ;
 aCallback
