@@ -108,12 +108,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 Cu
 .
 import

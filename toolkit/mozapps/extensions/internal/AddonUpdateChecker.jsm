@@ -2195,7 +2195,7 @@ namespace
 :
 "
 +
-aManifestData
+xml
 .
 documentElement
 .

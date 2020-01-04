@@ -1,12 +1,3 @@
-/
-*
-globals
-Services
-TEST_UNPACKED
-:
-true
-*
-/
 Services
 .
 prefs

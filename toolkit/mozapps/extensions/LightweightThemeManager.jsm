@@ -127,12 +127,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 Components
 .
 utils

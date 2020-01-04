@@ -102,7 +102,7 @@ is
 whitelisted
 .
 var
-url
+URL
 =
 TESTROOT2
 +
@@ -193,7 +193,7 @@ gBrowser
 .
 loadURI
 (
-url
+URL
 )
 ;
 }

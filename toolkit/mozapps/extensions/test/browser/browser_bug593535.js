@@ -88,9 +88,6 @@ NOTFOUND
 var
 gProvider
 ;
-var
-gManagerWindow
-;
 function
 test
 (

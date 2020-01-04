@@ -28,7 +28,6 @@ zero
 /
 *
 /
-var
 gWindowWatcher
 =
 null

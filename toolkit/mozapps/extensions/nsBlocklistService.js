@@ -232,12 +232,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 }
 catch
 (

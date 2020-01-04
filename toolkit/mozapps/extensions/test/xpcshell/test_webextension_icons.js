@@ -278,7 +278,6 @@ profileDir
 ID
 )
 ;
-let
 addon
 =
 yield

@@ -6254,11 +6254,6 @@ late
 in
 tests
 .
-let
-{
-RemotePages
-}
-=
 Cu
 .
 import
@@ -6276,8 +6271,6 @@ RemotePageManager
 .
 jsm
 "
-{
-}
 )
 ;
 gPluginPageListener
@@ -7415,7 +7408,7 @@ e
 {
 reportProviderError
 (
-provider
+aProvider
 aMethod
 e
 )

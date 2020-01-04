@@ -107,7 +107,7 @@ target
 is
 .
 var
-url
+URL
 =
 TESTROOT2
 +
@@ -198,7 +198,7 @@ gBrowser
 .
 loadURI
 (
-url
+URL
 )
 ;
 }

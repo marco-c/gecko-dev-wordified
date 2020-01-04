@@ -28,12 +28,6 @@ zero
 /
 *
 /
-/
-*
-globals
-end_test
-*
-/
 Components
 .
 utils
@@ -8734,7 +8728,7 @@ AddonManager
 STATE_CHECKING
 :
 case
-AddonManager
+AddonManger
 .
 STATE_INSTALLING
 :

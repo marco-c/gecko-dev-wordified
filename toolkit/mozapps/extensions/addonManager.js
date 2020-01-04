@@ -274,12 +274,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-AddonManagerPrivate
-*
-/
 let
 globalMM
 =
