@@ -3100,7 +3100,7 @@ sendAsyncMessage
 "
 RemoteLogins
 :
-updateLoginFormPresence
+insecureLoginFormPresent
 "
 {
 hasInsecureLoginForms
