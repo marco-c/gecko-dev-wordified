@@ -6995,6 +6995,9 @@ newChannel
 ;
 if
 (
+mSecurityInfo
+&
+&
 channelChild
 )
 {
