@@ -133,9 +133,7 @@ include
 "
 mozilla
 /
-layers
-/
-CompositorSession
+StaticPtr
 .
 h
 "
@@ -144,7 +142,9 @@ include
 "
 mozilla
 /
-StaticPtr
+layers
+/
+InProcessCompositorSession
 .
 h
 "
@@ -725,10 +725,10 @@ aSurfaceSize
 )
 {
 return
-CompositorSession
+InProcessCompositorSession
 :
 :
-CreateInProcess
+Create
 (
 aWidget
 aLayerManager
