@@ -1179,7 +1179,6 @@ aItem
 ReferenceFrame
 (
 )
-*
 aItem
 -
 >
