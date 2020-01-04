@@ -182,15 +182,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-Constants
-.
-h
-"
-#
-include
-"
 FilterNodeSoftware
 .
 h
@@ -209,6 +200,11 @@ ExtendInputEffectD2D1
 .
 h
 "
+#
+include
+<
+cmath
+>
 #
 include
 <

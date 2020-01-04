@@ -119,9 +119,6 @@ g
 .
 M_PI
 #
-define
-_USE_MATH_DEFINES
-#
 include
 <
 math
@@ -234,15 +231,6 @@ h
 include
 "
 nsStyleStruct
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Constants
 .
 h
 "
