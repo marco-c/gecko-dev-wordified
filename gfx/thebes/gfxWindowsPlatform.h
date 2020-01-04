@@ -1127,6 +1127,8 @@ DeviceManagerD3D9
 aDeviceManager
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -1134,7 +1136,7 @@ layers
 :
 :
 DeviceManagerD3D9
-*
+>
 GetD3D9DeviceManager
 (
 )
