@@ -527,7 +527,7 @@ unique
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_NewThread
 (
 nsIThread
@@ -569,7 +569,7 @@ size_t
 LEN
 >
 inline
-NS_METHOD
+nsresult
 NS_NewNamedThread
 (
 const
@@ -730,7 +730,7 @@ object
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_GetCurrentThread
 (
 nsIThread
@@ -775,7 +775,7 @@ null
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 nsIRunnable
@@ -784,7 +784,7 @@ aEvent
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 already_AddRefed
@@ -849,7 +849,7 @@ null
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 nsIRunnable
@@ -862,7 +862,7 @@ NS_DISPATCH_NORMAL
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 already_AddRefed
@@ -1011,7 +1011,7 @@ timeout
 *
 /
 extern
-NS_METHOD
+nsresult
 NS_ProcessPendingEvents
 (
 nsIThread

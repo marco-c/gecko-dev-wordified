@@ -371,7 +371,7 @@ XPCOM_GLUE_AVOID_NSPR
 -
 -
 -
-NS_METHOD
+nsresult
 NS_NewThread
 (
 nsIThread
@@ -532,7 +532,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 NS_GetCurrentThread
 (
 nsIThread
@@ -606,7 +606,7 @@ aResult
 #
 endif
 }
-NS_METHOD
+nsresult
 NS_GetMainThread
 (
 nsIThread
@@ -728,7 +728,7 @@ result
 }
 #
 endif
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 already_AddRefed
@@ -971,7 +971,7 @@ a
 death
 grip
 .
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 nsIRunnable
@@ -999,7 +999,7 @@ forget
 )
 ;
 }
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 already_AddRefed
@@ -1180,7 +1180,7 @@ release
 them
 here
 .
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 nsIRunnable
@@ -1214,7 +1214,7 @@ aDispatchFlags
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-NS_METHOD
+nsresult
 NS_ProcessPendingEvents
 (
 nsIThread
