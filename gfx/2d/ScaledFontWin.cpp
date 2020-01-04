@@ -460,6 +460,9 @@ lfFaceName
 )
 &
 index
+LF_FACESIZE
+-
+1
 )
 )
 {
