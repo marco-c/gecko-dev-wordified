@@ -689,10 +689,7 @@ next
 }
 JS_SetWrapObjectCallbacks
 (
-JS_GetRuntime
-(
 cx
-)
 &
 WrapObjectCallbacks
 )

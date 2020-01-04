@@ -4754,6 +4754,15 @@ mWorkerPrivate
 )
 )
 ;
+JSContext
+*
+cx
+=
+JS_GetContext
+(
+rt
+)
+;
 js
 :
 :
@@ -4771,7 +4780,7 @@ DestroyWorkerPrincipals
 ;
 JS_SetWrapObjectCallbacks
 (
-rt
+cx
 &
 WrapObjectCallbacks
 )
@@ -4788,7 +4797,7 @@ IsDedicatedWorker
 {
 JS_SetFutexCanWait
 (
-rt
+cx
 )
 ;
 }
