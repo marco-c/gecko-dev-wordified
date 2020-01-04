@@ -4768,12 +4768,8 @@ isMeta
 break
 ;
 }
-/
-*
-fall
-through
-*
-/
+MOZ_FALLTHROUGH
+;
 case
 nsIDOMKeyEvent
 :
