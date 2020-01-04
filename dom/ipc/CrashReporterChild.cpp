@@ -176,10 +176,9 @@ GetCrashReporter
 )
 {
 const
-InfallibleTArray
+ManagedContainer
 <
 PCrashReporterChild
-*
 >
 *
 reporters

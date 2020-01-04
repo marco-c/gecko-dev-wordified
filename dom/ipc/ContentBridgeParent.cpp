@@ -822,7 +822,7 @@ ManagedPBrowserParent
 (
 )
 .
-Length
+Count
 (
 )
 ;

@@ -6671,12 +6671,11 @@ AllocPJavaScriptChild
 {
 MOZ_ASSERT
 (
-!
 ManagedPJavaScriptChild
 (
 )
 .
-Length
+IsEmpty
 (
 )
 )

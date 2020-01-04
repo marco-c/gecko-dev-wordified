@@ -180,7 +180,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -225,7 +225,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 &
@@ -240,7 +240,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -282,7 +282,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 &
@@ -297,7 +297,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -343,7 +343,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 &
@@ -358,7 +358,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -409,7 +409,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 &
@@ -424,7 +424,7 @@ ManagedPTestSelfManageParent
 (
 )
 .
-Length
+Count
 (
 )
 )
