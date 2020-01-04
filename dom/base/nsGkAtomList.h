@@ -4572,6 +4572,15 @@ referrerpolicy
 )
 GK_ATOM
 (
+headerReferrerPolicy
+"
+referrer
+-
+policy
+"
+)
+GK_ATOM
+(
 meter
 "
 meter
