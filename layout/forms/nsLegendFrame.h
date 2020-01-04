@@ -199,8 +199,10 @@ override
 #
 endif
 int32_t
-GetAlign
+GetLogicalAlign
 (
+WritingMode
+aCBWM
 )
 ;
 }
