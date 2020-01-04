@@ -405,6 +405,12 @@ desc
 mPacketSize
 desc
 .
+mForceMono
+?
+1
+:
+desc
+.
 mChannels
 desc
 .

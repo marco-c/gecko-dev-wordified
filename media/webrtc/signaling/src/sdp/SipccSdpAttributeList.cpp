@@ -3907,6 +3907,16 @@ fmtp
 >
 maxplaybackrate
 ;
+opusParameters
+-
+>
+stereo
+=
+fmtp
+-
+>
+stereo
+;
 parameters
 .
 reset

@@ -8428,6 +8428,10 @@ fmtp
 maxplaybackrate
 =
 32000
+;
+stereo
+=
+1
 "
 CRLF
 "
@@ -12231,6 +12235,10 @@ fmtp
 maxplaybackrate
 =
 32000
+;
+stereo
+=
+1
 "
 CRLF
 "
@@ -13202,6 +13210,15 @@ opus_parameters
 -
 >
 maxplaybackrate
+)
+;
+ASSERT_EQ
+(
+1U
+opus_parameters
+-
+>
+stereo
 )
 ;
 ASSERT_TRUE
