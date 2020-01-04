@@ -257,6 +257,14 @@ number
 .
 *
 /
+/
+*
+clang
+-
+format
+off
+*
+/
 static
 const
 PRUint8
@@ -500,6 +508,14 @@ CKM_DES3_CBC
 }
 }
 ;
+/
+*
+clang
+-
+format
+on
+*
+/
 #
 define
 SET_ERROR_CODE
@@ -4098,7 +4114,6 @@ ssl2_ClientSetupSessionCypher
 )
 <
 -
-*
 ssl2_HandleServerHelloMessage
 (
 )
@@ -14570,7 +14585,6 @@ sec
 .
 keaKeyBits
 =
-\
 ss
 -
 >
@@ -24988,7 +25002,6 @@ sec
 .
 keaKeyBits
 =
-\
 ss
 -
 >

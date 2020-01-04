@@ -348,6 +348,10 @@ calg_aes_gcm
 ssl_calg_aes_gcm
 #
 define
+calg_chacha20
+ssl_calg_chacha20
+#
+define
 mac_null
 ssl_mac_null
 #
@@ -475,6 +479,7 @@ SSL_TRC
 a
 b
 )
+\
 if
 (
 ssl_trace
@@ -484,6 +489,7 @@ ssl_trace
 a
 )
 )
+\
 ssl_Trace
 b
 #
@@ -493,6 +499,7 @@ PRINT_BUF
 a
 b
 )
+\
 if
 (
 ssl_trace
@@ -502,6 +509,7 @@ ssl_trace
 a
 )
 )
+\
 ssl_PrintBuf
 b
 #
@@ -511,6 +519,7 @@ DUMP_MSG
 a
 b
 )
+\
 if
 (
 ssl_trace
@@ -520,6 +529,7 @@ ssl_trace
 a
 )
 )
+\
 ssl_DumpMsg
 b
 #
@@ -556,10 +566,12 @@ SSL_DBG
 (
 b
 )
+\
 if
 (
 ssl_debug
 )
+\
 ssl_Trace
 b
 #
@@ -1653,13 +1665,13 @@ NSS_DISABLE_ECC
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
-64
+67
 #
 else
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
-40
+41
 #
 endif
 /
@@ -1711,6 +1723,14 @@ MD5
 define
 MAX_SIGNATURE_ALGORITHMS
 15
+/
+*
+clang
+-
+format
+off
+*
+/
 typedef
 struct
 sslOptionsStr
@@ -2074,6 +2094,14 @@ enableSignedCertTimestamps
 }
 sslOptions
 ;
+/
+*
+clang
+-
+format
+on
+*
+/
 typedef
 enum
 {
@@ -2996,6 +3024,7 @@ cipher_camellia_128
 cipher_camellia_256
 cipher_seed
 cipher_aes_128_gcm
+cipher_chacha20
 cipher_missing
 /
 *
@@ -3372,12 +3401,14 @@ DTLS_RECVD_RECORDS_WINDOW
 Packets
 ;
 approximate
+\
 *
 Must
 be
 divisible
 by
 8
+\
 *
 /
 typedef
@@ -10054,6 +10085,7 @@ SSL_LOCK_READER
 (
 ss
 )
+\
 if
 (
 ss
@@ -10061,6 +10093,7 @@ ss
 >
 recvLock
 )
+\
 PZ_Lock
 (
 ss
@@ -10074,6 +10107,7 @@ SSL_UNLOCK_READER
 (
 ss
 )
+\
 if
 (
 ss
@@ -10081,6 +10115,7 @@ ss
 >
 recvLock
 )
+\
 PZ_Unlock
 (
 ss
@@ -10094,6 +10129,7 @@ SSL_LOCK_WRITER
 (
 ss
 )
+\
 if
 (
 ss
@@ -10101,6 +10137,7 @@ ss
 >
 sendLock
 )
+\
 PZ_Lock
 (
 ss
@@ -10114,6 +10151,7 @@ SSL_UNLOCK_WRITER
 (
 ss
 )
+\
 if
 (
 ss
@@ -10121,6 +10159,7 @@ ss
 >
 sendLock
 )
+\
 PZ_Unlock
 (
 ss
@@ -10144,6 +10183,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10190,6 +10230,7 @@ firstHandshakeLock
 ;
 \
 }
+\
 }
 #
 define
@@ -10199,6 +10240,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10209,6 +10251,7 @@ opt
 .
 noLocks
 )
+\
 PZ_ExitMonitor
 (
 (
@@ -10219,6 +10262,7 @@ ss
 firstHandshakeLock
 )
 ;
+\
 }
 #
 define
@@ -10254,6 +10298,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10288,6 +10333,7 @@ ssl3HandshakeLock
 ;
 \
 }
+\
 }
 #
 define
@@ -10297,6 +10343,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10307,6 +10354,7 @@ opt
 .
 noLocks
 )
+\
 PZ_ExitMonitor
 (
 (
@@ -10317,6 +10365,7 @@ ss
 ssl3HandshakeLock
 )
 ;
+\
 }
 #
 define
@@ -10344,6 +10393,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10354,6 +10404,7 @@ opt
 .
 noLocks
 )
+\
 NSSRWLock_LockRead
 (
 (
@@ -10364,6 +10415,7 @@ ss
 specLock
 )
 ;
+\
 }
 #
 define
@@ -10373,6 +10425,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10383,6 +10436,7 @@ opt
 .
 noLocks
 )
+\
 NSSRWLock_UnlockRead
 (
 (
@@ -10393,6 +10447,7 @@ ss
 specLock
 )
 ;
+\
 }
 /
 *
@@ -10419,6 +10474,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10429,6 +10485,7 @@ opt
 .
 noLocks
 )
+\
 NSSRWLock_LockWrite
 (
 (
@@ -10439,6 +10496,7 @@ ss
 specLock
 )
 ;
+\
 }
 #
 define
@@ -10448,6 +10506,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10458,6 +10517,7 @@ opt
 .
 noLocks
 )
+\
 NSSRWLock_UnlockWrite
 (
 (
@@ -10468,6 +10528,7 @@ ss
 specLock
 )
 ;
+\
 }
 #
 define
@@ -10506,6 +10567,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10550,6 +10612,7 @@ recvBufLock
 ;
 \
 }
+\
 }
 #
 define
@@ -10559,6 +10622,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10569,6 +10633,7 @@ opt
 .
 noLocks
 )
+\
 PZ_ExitMonitor
 (
 (
@@ -10579,6 +10644,7 @@ ss
 recvBufLock
 )
 ;
+\
 }
 #
 define
@@ -10614,6 +10680,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10624,6 +10691,7 @@ opt
 .
 noLocks
 )
+\
 PZ_EnterMonitor
 (
 (
@@ -10634,6 +10702,7 @@ ss
 xmitBufLock
 )
 ;
+\
 }
 #
 define
@@ -10643,6 +10712,7 @@ ss
 )
 \
 {
+\
 if
 (
 !
@@ -10653,6 +10723,7 @@ opt
 .
 noLocks
 )
+\
 PZ_ExitMonitor
 (
 (
@@ -10663,6 +10734,7 @@ ss
 xmitBufLock
 )
 ;
+\
 }
 #
 define
@@ -11276,6 +11348,7 @@ s
 )
 ?
 384
+\
 :
 521
 )

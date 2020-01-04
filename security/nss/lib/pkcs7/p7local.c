@@ -4504,12 +4504,16 @@ final
 padlen
 =
 padsize
+?
+padsize
 -
 (
 pcount
 %
 padsize
 )
+:
+0
 ;
 PORT_Memset
 (

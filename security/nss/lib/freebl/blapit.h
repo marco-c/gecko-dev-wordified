@@ -1365,6 +1365,9 @@ AESKeyWrapContextStr
 struct
 SEEDContextStr
 ;
+struct
+ChaCha20Poly1305ContextStr
+;
 typedef
 struct
 DESContextStr
@@ -1471,6 +1474,11 @@ typedef
 struct
 SEEDContextStr
 SEEDContext
+;
+typedef
+struct
+ChaCha20Poly1305ContextStr
+ChaCha20Poly1305Context
 ;
 /
 *
