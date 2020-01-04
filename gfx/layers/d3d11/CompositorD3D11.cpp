@@ -2591,12 +2591,6 @@ mAttachments
 >
 mSyncHandle
 ;
-ident
-.
-mSwapChain
-=
-mSwapChain
-;
 for
 (
 uint8_t
