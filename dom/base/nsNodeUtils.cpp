@@ -3188,7 +3188,6 @@ elem
 >
 NodeInfoChanged
 (
-newNodeInfo
 )
 ;
 }
