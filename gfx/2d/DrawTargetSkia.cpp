@@ -862,6 +862,8 @@ width
 aSize
 .
 width
+*
+4
 ;
 for
 (
