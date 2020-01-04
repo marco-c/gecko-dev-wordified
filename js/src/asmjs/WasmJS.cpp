@@ -1441,7 +1441,7 @@ cx
 obj
 import
 .
-func
+field
 .
 get
 (
