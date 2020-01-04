@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 const
 kObservedTopics
 =
