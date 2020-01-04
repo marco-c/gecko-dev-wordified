@@ -475,10 +475,6 @@ aListener
 const
 nsACString
 &
-aPackageOrigin
-const
-nsACString
-&
 aSignature
 nsICacheEntry
 *
@@ -549,13 +545,13 @@ mIsPackageSigned
 const
 nsACString
 &
-GetPackageOrigin
+GetPackageIdentifier
 (
 )
 const
 {
 return
-mPackageOrigin
+mPackageIdentifer
 ;
 }
 bool
@@ -568,7 +564,7 @@ static
 const
 char
 *
-kSignedPakOriginMetadataKey
+kSignedPakIdMetadataKey
 ;
 private
 :
@@ -1170,6 +1166,9 @@ nsCStringHashKey
 nsCString
 >
 mResourceHashStore
+;
+nsCString
+mPackageIdentifer
 ;
 }
 ;
