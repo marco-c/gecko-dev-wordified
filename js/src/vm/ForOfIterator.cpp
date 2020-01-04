@@ -370,11 +370,7 @@ args
 .
 setThis
 (
-ObjectValue
-(
-*
-iterableObj
-)
+iterable
 )
 ;
 RootedValue
