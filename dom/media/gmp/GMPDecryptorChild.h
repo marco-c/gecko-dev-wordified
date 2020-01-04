@@ -400,6 +400,14 @@ GMPDecryptorChild
 bool
 RecvInit
 (
+const
+bool
+&
+aDistinctiveIdentifierRequired
+const
+bool
+&
+aPersistentStateRequired
 )
 override
 ;

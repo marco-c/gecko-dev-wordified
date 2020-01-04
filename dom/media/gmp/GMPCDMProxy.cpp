@@ -259,12 +259,18 @@ aKeySystem
 GMPCrashHelper
 *
 aCrashHelper
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 :
 CDMProxy
 (
 aKeys
 aKeySystem
+aDistinctiveIdentifierRequired
+aPersistentStateRequired
 )
 mCrashHelper
 (
@@ -772,6 +778,8 @@ mCDM
 Init
 (
 mCallback
+mDistinctiveIdentifierRequired
+mPersistentStateRequired
 )
 ;
 nsCOMPtr

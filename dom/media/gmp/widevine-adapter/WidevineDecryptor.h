@@ -190,6 +190,10 @@ Init
 GMPDecryptorCallback
 *
 aCallback
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 override
 ;
@@ -630,6 +634,16 @@ uint32_t
 uint32_t
 >
 mPromiseIdToNewSessionTokens
+;
+bool
+mDistinctiveIdentifierRequired
+=
+false
+;
+bool
+mPersistentStateRequired
+=
+false
 ;
 }
 ;
