@@ -2187,8 +2187,7 @@ DrawTarget
 &
 aDrawTarget
 )
-{
-}
+;
 /
 *
 *
