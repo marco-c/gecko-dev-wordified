@@ -1077,6 +1077,14 @@ Value
 )
 override
 ;
+NS_IMETHOD
+IsTrackingProtectionOn
+(
+bool
+*
+)
+override
+;
 /
 /
 Restores
