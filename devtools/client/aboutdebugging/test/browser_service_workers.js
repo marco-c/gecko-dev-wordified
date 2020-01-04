@@ -183,6 +183,16 @@ dom
 .
 serviceWorkers
 .
+enabled
+"
+true
+]
+[
+"
+dom
+.
+serviceWorkers
+.
 testing
 .
 enabled
