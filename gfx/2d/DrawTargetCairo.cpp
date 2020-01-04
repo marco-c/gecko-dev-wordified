@@ -1888,6 +1888,16 @@ IntRect
 )
 )
 {
+if
+(
+!
+aSurface
+)
+{
+return
+nullptr
+;
+}
 IntRect
 subimage
 =
@@ -4245,6 +4255,10 @@ if
 IsValid
 (
 )
+|
+|
+!
+aSurface
 )
 {
 gfxCriticalNote
