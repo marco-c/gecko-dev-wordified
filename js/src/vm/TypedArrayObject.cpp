@@ -11789,7 +11789,7 @@ littleEndian
 {
 #
 if
-IS_LITTLE_ENDIAN
+MOZ_LITTLE_ENDIAN
 return
 !
 littleEndian
