@@ -383,6 +383,14 @@ DRIVER_LESS_THAN
 driver
 <
 version
+DRIVER_BUILD_ID_LESS_THAN
+/
+/
+driver
+build
+id
+<
+version
 DRIVER_LESS_THAN_OR_EQUAL
 /
 /
