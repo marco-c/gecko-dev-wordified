@@ -1835,7 +1835,7 @@ strings
 GetStringFromName
 (
 "
-downloadCancelPromptTitle
+downloadCancelPromptTitle1
 "
 )
 ;
@@ -1847,7 +1847,7 @@ strings
 GetStringFromName
 (
 "
-downloadCancelPromptMessage
+downloadCancelPromptMessage1
 "
 )
 ;
