@@ -478,13 +478,12 @@ MConstant
 *
 constant
 =
-new
+MConstant
+:
+:
+Copy
 (
 alloc
-)
-MConstant
-(
-*
 def
 -
 >
