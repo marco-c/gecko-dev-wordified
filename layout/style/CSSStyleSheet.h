@@ -2446,6 +2446,13 @@ class
 nsCSSRuleProcessor
 ;
 friend
+class
+mozilla
+:
+:
+StyleSheet
+;
+friend
 struct
 mozilla
 :
