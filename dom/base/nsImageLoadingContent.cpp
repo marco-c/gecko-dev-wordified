@@ -1757,13 +1757,9 @@ return
 presShell
 -
 >
-MarkFrameVisible
+MarkFrameVisibleInDisplayPort
 (
 frame
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 }
