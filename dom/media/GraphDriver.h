@@ -1008,6 +1008,15 @@ RemoveCallback
 =
 0
 ;
+/
+*
+Shutdown
+GraphDriver
+(
+synchronously
+)
+*
+/
 void
 Shutdown
 (
@@ -3926,6 +3935,10 @@ aOperation
 nsresult
 Dispatch
 (
+uint32_t
+aFlags
+=
+NS_DISPATCH_NORMAL
 )
 {
 nsresult
@@ -3952,7 +3965,7 @@ sThreadPool
 Dispatch
 (
 this
-NS_DISPATCH_NORMAL
+aFlags
 )
 ;
 }
