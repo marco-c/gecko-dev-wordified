@@ -1892,6 +1892,14 @@ GetSelectionProperties
 )
 ;
 void
+SetSelectionProperties
+(
+SelectionProperties
+&
+aProps
+)
+;
+void
 WillInitEagerly
 (
 )
