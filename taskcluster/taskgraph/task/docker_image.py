@@ -839,7 +839,9 @@ context_hash
 =
 generate_context_hash
 (
+GECKO
 context_path
+image_name
 )
             
 image_parameters

@@ -258,6 +258,9 @@ docker
 .
 generate_context_hash
 (
+docker
+.
+GECKO
 '
 docker
 /
@@ -265,10 +268,15 @@ my
 -
 image
 '
+'
+my
+-
+image
+'
 )
                 
 '
-781143fcc6cc72c9024b058665265cb6bae3fb8031cad7227dd169ffbfced434
+872d76a656f47ea17c043023ecc9ae6a222ba6d2a8df67b75498bba382e4fb07
 '
                 
 )
