@@ -11271,11 +11271,6 @@ ItemType
 )
 ;
 }
-/
-*
-virtual
-*
-/
 bool
 nsPresContext
 :

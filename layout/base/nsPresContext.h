@@ -5120,7 +5120,6 @@ get
 style
 internals
 .
-virtual
 bool
 HasAuthorSpecifiedRules
 (
