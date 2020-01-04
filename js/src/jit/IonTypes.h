@@ -2695,6 +2695,14 @@ Int32x4
 "
 ;
 case
+MIRType_Bool32x4
+:
+return
+"
+Bool32x4
+"
+;
+case
 MIRType_Doublex2
 :
 return
@@ -2702,8 +2710,7 @@ return
 Doublex2
 "
 ;
-default
-:
+}
 MOZ_CRASH
 (
 "
@@ -2713,7 +2720,6 @@ MIRType
 "
 )
 ;
-}
 }
 static
 inline
