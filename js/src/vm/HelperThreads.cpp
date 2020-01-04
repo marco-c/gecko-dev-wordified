@@ -8043,7 +8043,7 @@ success
 wasm
 :
 :
-IonCompileFunction
+CompileFunction
 (
 task
 )
