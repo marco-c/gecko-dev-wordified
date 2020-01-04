@@ -224,6 +224,17 @@ context
 attrs
 )
 ;
+inflate
+(
+context
+R
+.
+layout
+.
+as_content
+this
+)
+;
 }
 Override
 public
