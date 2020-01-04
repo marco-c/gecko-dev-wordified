@@ -1056,12 +1056,6 @@ cachePDir
 "
 #
 define
-NS_APP_BOOKMARKS_50_FILE
-"
-BMarks
-"
-#
-define
 NS_APP_DOWNLOADS_50_FILE
 "
 DLoads
