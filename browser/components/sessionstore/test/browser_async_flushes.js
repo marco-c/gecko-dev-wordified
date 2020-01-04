@@ -314,6 +314,12 @@ addTab
 URL
 )
 ;
+gBrowser
+.
+selectedTab
+=
+tab
+;
 let
 browser
 =
