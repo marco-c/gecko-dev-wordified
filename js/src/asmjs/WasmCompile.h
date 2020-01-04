@@ -261,6 +261,14 @@ false
 )
 {
 }
+bool
+init
+(
+ExclusiveContext
+*
+cx
+)
+;
 }
 ;
 UniqueModule
