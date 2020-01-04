@@ -891,7 +891,7 @@ aDeviceAddress
 bool
 aAccept
 const
-BluetoothPinCode
+nsAString
 &
 aPinCode
 BluetoothReplyRunnable
@@ -906,7 +906,10 @@ PinReplyRequest
 (
 aDeviceAddress
 aAccept
+nsString
+(
 aPinCode
+)
 )
 )
 ;
@@ -953,7 +956,7 @@ BluetoothAddress
 &
 aDeviceAddress
 const
-BluetoothPinCode
+nsAString
 &
 aPinCode
 BluetoothReplyRunnable
@@ -967,7 +970,10 @@ aRunnable
 SetPinCodeRequest
 (
 aDeviceAddress
+nsString
+(
 aPinCode
+)
 )
 )
 ;
