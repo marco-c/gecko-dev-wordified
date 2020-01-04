@@ -261,7 +261,7 @@ memory
 size_t
 availableSpace
 =
-PDU_HEADER_SIZE
+HEADER_SIZE
 +
 aPayloadSize
 ;
@@ -288,7 +288,7 @@ data
 =
 Append
 (
-PDU_HEADER_SIZE
+HEADER_SIZE
 )
 ;
 MOZ_ASSERT
@@ -303,14 +303,14 @@ PDU
 header
 data
 [
-PDU_OFF_SERVICE
+OFF_SERVICE
 ]
 =
 aService
 ;
 data
 [
-PDU_OFF_OPCODE
+OFF_OPCODE
 ]
 =
 aOpcode
@@ -319,7 +319,7 @@ memcpy
 (
 data
 +
-PDU_OFF_LENGTH
+OFF_LENGTH
 &
 aPayloadSize
 sizeof
@@ -352,7 +352,7 @@ UnixSocketIOBuffer
 size_t
 availableSpace
 =
-PDU_HEADER_SIZE
+HEADER_SIZE
 +
 aPayloadSize
 ;
@@ -428,7 +428,7 @@ memcpy
 aService
 GetData
 (
-PDU_OFF_SERVICE
+OFF_SERVICE
 )
 sizeof
 (
@@ -442,7 +442,7 @@ memcpy
 aOpcode
 GetData
 (
-PDU_OFF_OPCODE
+OFF_OPCODE
 )
 sizeof
 (
@@ -456,7 +456,7 @@ memcpy
 aPayloadSize
 GetData
 (
-PDU_OFF_LENGTH
+OFF_LENGTH
 )
 sizeof
 (
@@ -967,7 +967,7 @@ if
 len
 >
 =
-PDU_MAX_PAYLOAD_LENGTH
+MAX_PAYLOAD_LENGTH
 )
 {
 return
@@ -989,7 +989,7 @@ memcpy
 (
 GetData
 (
-PDU_OFF_LENGTH
+OFF_LENGTH
 )
 &
 len16
@@ -1019,7 +1019,7 @@ GetSize
 )
 >
 =
-PDU_HEADER_SIZE
+HEADER_SIZE
 )
 ;
 return
@@ -1027,7 +1027,7 @@ GetSize
 (
 )
 -
-PDU_HEADER_SIZE
+HEADER_SIZE
 ;
 }
 void
