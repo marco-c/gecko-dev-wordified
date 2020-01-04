@@ -34,6 +34,10 @@ c
 )
 1998
 -
+2002
+2004
+2006
+-
 2015
 Glenn
 Randers
@@ -4211,13 +4215,9 @@ zlib
 /
 ret
 =
-inflate
+PNG_INFLATE
 (
-&
 png_ptr
--
->
-zstream
 Z_SYNC_FLUSH
 )
 ;
