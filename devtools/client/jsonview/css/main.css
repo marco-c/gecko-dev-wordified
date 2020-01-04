@@ -280,7 +280,16 @@ font
 -
 family
 :
+var
+(
+-
+-
 monospace
+-
+font
+-
+family
+)
 ;
 }
 /
