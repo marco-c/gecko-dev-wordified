@@ -352,6 +352,13 @@ util
 .
 Log
 ;
+/
+/
+public
+for
+robocop
+testing
+public
 final
 class
 BrowserDatabaseHelper
