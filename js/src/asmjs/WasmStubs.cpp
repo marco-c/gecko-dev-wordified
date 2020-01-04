@@ -7771,6 +7771,9 @@ framePushed
 )
 )
 ;
+#
+ifdef
+USES_O32_ABI
 /
 /
 MIPS
@@ -7799,6 +7802,8 @@ intptr_t
 )
 )
 ;
+#
+endif
 masm
 .
 assertStackAlignment
@@ -7816,6 +7821,9 @@ SymbolicAddress
 HandleExecutionInterrupt
 )
 ;
+#
+ifdef
+USES_O32_ABI
 masm
 .
 addToStackPtr
@@ -7831,6 +7839,8 @@ intptr_t
 )
 )
 ;
+#
+endif
 masm
 .
 branchIfFalseBool
