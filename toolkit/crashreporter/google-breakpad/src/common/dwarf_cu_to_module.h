@@ -394,13 +394,6 @@ COMMON_LINUX_DWARF_CU_TO_MODULE_H__
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 string
 >
 #
@@ -752,7 +745,7 @@ string
 &
 name
 const
-uint8_t
+char
 *
 contents
 uint64
@@ -1121,7 +1114,7 @@ void
 ReadProgram
 (
 const
-uint8_t
+char
 *
 program
 uint64

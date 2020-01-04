@@ -1471,7 +1471,7 @@ claims
 there
 are
 %
-zu
+ld
 "
 "
 load
@@ -1481,7 +1481,7 @@ load
 command
 #
 %
-zu
+ld
 "
 filename_
 .
@@ -1556,7 +1556,7 @@ load
 command
 #
 %
-zu
+ld
 of
 type
 %

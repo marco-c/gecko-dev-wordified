@@ -1892,7 +1892,6 @@ ws
 \
 n
 "
-name
 )
 ;
 return
