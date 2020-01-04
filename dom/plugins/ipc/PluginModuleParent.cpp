@@ -12359,7 +12359,7 @@ needed
 to
 join
 the
-chrome
+browser
 process
 '
 s
@@ -12371,6 +12371,7 @@ the
 /
 plugin
 process
+.
 nsID
 id
 ;
