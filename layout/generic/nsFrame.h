@@ -2403,7 +2403,7 @@ not
 .
 *
 (
-nsHTMLReflowState
+ReflowInput
 :
 :
 ShouldReflowAllKids
@@ -2480,7 +2480,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2497,7 +2497,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus
@@ -2559,7 +2559,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2581,7 +2581,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2672,7 +2672,7 @@ been
 cleared
 which
 prevents
-nsHTMLReflowState
+ReflowInput
 from
 *
 propagating
@@ -3097,7 +3097,7 @@ bool
 IsFrameTreeTooDeep
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -3169,7 +3169,7 @@ bool
 ShouldAvoidBreakInside
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -3443,7 +3443,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -5295,7 +5295,7 @@ const
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -5329,7 +5329,7 @@ const
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 &
 mReflowState
 ;
@@ -5466,7 +5466,7 @@ aFrame
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 *
 aState
 nscoord
@@ -5495,7 +5495,7 @@ mFrame
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 *
 mState
 ;
@@ -5569,7 +5569,7 @@ aFrame
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 *
 aState
 )
@@ -5586,7 +5586,7 @@ mFrame
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 *
 mState
 ;

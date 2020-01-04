@@ -2453,7 +2453,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -3002,7 +3002,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -5036,7 +5036,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus

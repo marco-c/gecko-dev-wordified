@@ -485,7 +485,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -800,7 +800,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -816,7 +816,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 InlineReflowState
@@ -837,7 +837,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 InlineReflowState
@@ -1269,7 +1269,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

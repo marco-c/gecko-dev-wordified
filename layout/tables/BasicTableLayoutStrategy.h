@@ -223,7 +223,7 @@ void
 ComputeColumnISizes
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

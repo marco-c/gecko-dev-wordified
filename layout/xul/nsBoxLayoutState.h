@@ -138,7 +138,7 @@ namespace
 mozilla
 {
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 }
 /
@@ -150,12 +150,12 @@ MOZ_STACK_CLASS
 nsBoxLayoutState
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -178,7 +178,7 @@ OuterReflowState
 )
 below
 const
-nsHTMLReflowState
+ReflowInput
 *
 aOuterReflowState
 =
@@ -409,7 +409,7 @@ reliably
 yet
 .
 const
-nsHTMLReflowState
+ReflowInput
 *
 OuterReflowState
 (
@@ -441,7 +441,7 @@ nsRenderingContext
 mRenderingContext
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 mOuterReflowState
 ;

@@ -392,10 +392,10 @@ for
 measuring
 things
 .
-nsHTMLReflowState
+ReflowInput
 :
 :
-nsHTMLReflowState
+ReflowInput
 (
 nsPresContext
 *
@@ -1230,16 +1230,16 @@ is
 /
 computed
 .
-nsHTMLReflowState
+ReflowInput
 :
 :
-nsHTMLReflowState
+ReflowInput
 (
 nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 nsIFrame
@@ -1961,7 +1961,7 @@ aCoord
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 SetComputedWidth
@@ -2234,7 +2234,7 @@ frameType
 }
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 SetComputedHeight
@@ -2436,7 +2436,7 @@ frameType
 }
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 Init
@@ -2493,7 +2493,7 @@ found
 for
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 parent
 =
@@ -3367,7 +3367,7 @@ calculation
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitCBReflowState
@@ -3529,7 +3529,7 @@ bool
 IsQuirkContainingBlockHeight
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 nsIAtom
@@ -3640,7 +3640,7 @@ true
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitResizeFlags
@@ -4044,7 +4044,7 @@ cases
 where
 /
 /
-nsHTMLReflowState
+ReflowInput
 :
 :
 SetComputedWidth
@@ -5554,7 +5554,7 @@ mCBReflowState
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -5828,7 +5828,7 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 }
 }
 nscoord
-nsHTMLReflowState
+ReflowInput
 :
 :
 GetContainingBlockContentISize
@@ -5877,7 +5877,7 @@ ComputedISize
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitFrameType
@@ -6354,7 +6354,7 @@ static
 *
 /
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 ComputeRelativeOffsets
@@ -7282,7 +7282,7 @@ static
 *
 /
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -7636,7 +7636,7 @@ aFrame
 }
 nsIFrame
 *
-nsHTMLReflowState
+ReflowInput
 :
 :
 GetHypotheticalBoxContainer
@@ -7714,7 +7714,7 @@ state
 *
 /
 const
-nsHTMLReflowState
+ReflowInput
 *
 state
 ;
@@ -8175,7 +8175,7 @@ rest
 *
 /
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalculateBorderPaddingMargin
@@ -8868,7 +8868,7 @@ containing
 block
 .
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalculateHypotheticalPosition
@@ -8880,7 +8880,7 @@ nsIFrame
 *
 aPlaceholderFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbrs
 nsHypotheticalPosition
@@ -11314,7 +11314,7 @@ wm
 }
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitAbsoluteConstraints
@@ -11323,7 +11323,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbrs
 const
@@ -13958,7 +13958,7 @@ nscoord
 GetBlockMarginBorderPadding
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -14174,13 +14174,13 @@ nscoord
 CalcQuirkContainingBlockHeight
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aCBReflowState
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 firstAncestorRS
 =
@@ -14194,7 +14194,7 @@ for
 html
 frame
 const
-nsHTMLReflowState
+ReflowInput
 *
 secondAncestorRS
 =
@@ -14257,7 +14257,7 @@ result
 NS_AUTOHEIGHT
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -14945,7 +14945,7 @@ absolutely
 positioned
 elements
 LogicalSize
-nsHTMLReflowState
+ReflowInput
 :
 :
 ComputeContainingBlockRectangle
@@ -14954,7 +14954,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aContainingBlockRS
 )
@@ -15823,7 +15823,7 @@ margin
 ;
 offsets
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitConstraints
@@ -16102,7 +16102,7 @@ block
 reflow
 state
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbrs
 =
@@ -19421,7 +19421,7 @@ this
 is
 called
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalculateBlockSideMargins
@@ -19948,7 +19948,7 @@ we
 should
 honor
 const
-nsHTMLReflowState
+ReflowInput
 *
 prs
 =
@@ -20785,7 +20785,7 @@ fm
 ;
 }
 nscoord
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -20853,7 +20853,7 @@ static
 *
 /
 nscoord
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -21684,7 +21684,7 @@ isCBDependent
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 ComputeMinMaxValues
@@ -22455,7 +22455,7 @@ ComputedMinBSize
 }
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 SetTruncated
@@ -22513,7 +22513,7 @@ up
 truncated
 (
 see
-nsHTMLReflowState
+ReflowInput
 :
 :
 Init
@@ -22577,7 +22577,7 @@ NS_FRAME_TRUNCATED
 }
 }
 bool
-nsHTMLReflowState
+ReflowInput
 :
 :
 IsFloating
@@ -22596,7 +22596,7 @@ frame
 ;
 }
 uint8_t
-nsHTMLReflowState
+ReflowInput
 :
 :
 GetDisplay

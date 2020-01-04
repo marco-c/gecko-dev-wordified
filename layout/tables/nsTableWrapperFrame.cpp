@@ -1468,7 +1468,7 @@ InitChildReflowState
 nsPresContext
 &
 aPresContext
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1582,7 +1582,7 @@ and
 padding
 data
 .
-nsHTMLReflowState
+ReflowInput
 doesn
 '
 t
@@ -1604,7 +1604,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 nsIFrame
@@ -1720,7 +1720,7 @@ wm
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 childRS
 (
 aPresContext
@@ -1728,7 +1728,7 @@ aOuterRS
 aChildFrame
 availSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -1755,7 +1755,7 @@ nsSize
 GetContainingBlockSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 )
@@ -1768,7 +1768,7 @@ size
 )
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 containRS
 =
@@ -4517,12 +4517,12 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 &
 aChildRS
@@ -4732,7 +4732,7 @@ aOuterRS
 aChildFrame
 availSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -4829,7 +4829,7 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aChildRS
 nsHTMLReflowMetrics
@@ -5115,7 +5115,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 nsReflowStatus
@@ -5203,13 +5203,13 @@ MoveOverflowToChildList
 }
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 captionRS
 ;
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 innerRS
 ;

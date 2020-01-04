@@ -2081,7 +2081,7 @@ AutoRubyTextContainerArray
 mTextContainers
 ;
 const
-nsHTMLReflowState
+ReflowInput
 &
 mBaseReflowState
 ;
@@ -2090,7 +2090,7 @@ nsTArray
 <
 UniquePtr
 <
-nsHTMLReflowState
+ReflowInput
 >
 >
 &
@@ -2116,7 +2116,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2359,7 +2359,7 @@ AutoTArray
 <
 UniquePtr
 <
-nsHTMLReflowState
+ReflowInput
 >
 RTC_ARRAY_SIZE
 >
@@ -2448,12 +2448,12 @@ hasSpan
 true
 ;
 }
-nsHTMLReflowState
+ReflowInput
 *
 reflowState
 =
 new
-nsHTMLReflowState
+ReflowInput
 (
 aPresContext
 *
@@ -4048,7 +4048,7 @@ aStatus
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 &
 baseReflowState
 =

@@ -731,7 +731,7 @@ children
 are
 dirty
 (
-nsHTMLReflowState
+ReflowInput
 /
 /
 does
@@ -777,7 +777,7 @@ copy
 -
 over
 from
-nsHTMLReflowState
+ReflowInput
 .
 /
 /

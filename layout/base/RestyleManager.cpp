@@ -3145,7 +3145,7 @@ Size
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 ComputeRelativeOffsets
@@ -3189,7 +3189,7 @@ results
 ;
 /
 /
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -3411,7 +3411,7 @@ GetStateBits
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 parentReflowState
 (
 aFrame
@@ -3513,7 +3513,7 @@ needed
 .
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 cbReflowState
 ;
@@ -3844,7 +3844,7 @@ frameWM
 cbSize
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aFrame

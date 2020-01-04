@@ -1306,7 +1306,7 @@ MOZ_STACK_CLASS
 ScrollReflowState
 {
 const
-nsHTMLReflowState
+ReflowInput
 &
 mReflowState
 ;
@@ -1398,7 +1398,7 @@ nsIScrollableFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aState
 )
@@ -3406,7 +3406,7 @@ the
 correct
 padding
 .
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 presContext
@@ -3424,7 +3424,7 @@ availISize
 NS_UNCONSTRAINEDSIZE
 )
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -5831,7 +5831,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

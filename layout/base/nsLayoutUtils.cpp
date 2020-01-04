@@ -34974,7 +34974,7 @@ recursion
 /
 Note
 that
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitResizeFlags

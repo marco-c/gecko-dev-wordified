@@ -15636,7 +15636,7 @@ recursion
 /
 Note
 that
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitResizeFlags
@@ -58142,7 +58142,7 @@ wm
 NS_UNCONSTRAINEDSIZE
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 mPresContext
@@ -58150,7 +58150,7 @@ target
 &
 rcx
 reflowSize
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -58274,7 +58274,7 @@ isn
 t
 caught
 by
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitResizeFlags

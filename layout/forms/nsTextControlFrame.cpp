@@ -871,7 +871,7 @@ aFontSizeInflation
 ;
 lineHeight
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -2947,7 +2947,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -3112,7 +3112,7 @@ IsSingleLineTextControl
 {
 lineHeight
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -3275,7 +3275,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -3325,7 +3325,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -3333,7 +3333,7 @@ aReflowState
 aKid
 availSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT

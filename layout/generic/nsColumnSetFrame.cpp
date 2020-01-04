@@ -1085,7 +1085,7 @@ nscoord
 GetAvailableContentISize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1153,7 +1153,7 @@ nsColumnSetFrame
 GetAvailableContentBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1350,7 +1350,7 @@ nsColumnSetFrame
 ChooseColumnStrategy
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 bool
@@ -1601,7 +1601,7 @@ cnt
 for
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -2454,7 +2454,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -3180,7 +3180,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -4477,7 +4477,7 @@ wm
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 PresContext
@@ -6475,7 +6475,7 @@ nsColumnSetFrame
 FindBestBalanceBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsPresContext
@@ -7577,7 +7577,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

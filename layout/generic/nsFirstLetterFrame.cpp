@@ -948,7 +948,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1185,7 +1185,7 @@ kidWritingMode
 wm
 )
 ;
-nsHTMLReflowState
+ReflowInput
 rs
 (
 aPresContext
@@ -2618,7 +2618,7 @@ nsFirstLetterFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )

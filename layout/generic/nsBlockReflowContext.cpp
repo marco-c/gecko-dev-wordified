@@ -218,7 +218,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentRS
 )
@@ -330,7 +330,7 @@ nsBlockReflowContext
 ComputeCollapsedBStartMargin
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 nsCollapsingMargin
@@ -1174,7 +1174,7 @@ reflow
 state
 .
 const
-nsHTMLReflowState
+ReflowInput
 *
 outerReflowState
 =
@@ -1235,7 +1235,7 @@ GetWritingMode
 outerReflowState
 =
 new
-nsHTMLReflowState
+ReflowInput
 (
 prescontext
 aRS
@@ -1261,7 +1261,7 @@ GetWritingMode
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 innerReflowState
 (
 prescontext
@@ -1402,7 +1402,7 @@ aRS
 delete
 const_cast
 <
-nsHTMLReflowState
+ReflowInput
 *
 >
 (
@@ -1594,7 +1594,7 @@ aIsAdjacentWithBStart
 nsLineBox
 *
 aLine
-nsHTMLReflowState
+ReflowInput
 &
 aFrameRS
 nsReflowStatus
@@ -2677,7 +2677,7 @@ nsBlockReflowContext
 PlaceBlock
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 bool

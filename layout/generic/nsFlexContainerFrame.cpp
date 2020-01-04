@@ -3118,7 +3118,7 @@ constructor
 :
 FlexItem
 (
-nsHTMLReflowState
+ReflowInput
 &
 aFlexItemReflowState
 float
@@ -5935,7 +5935,7 @@ void
 CheckForMinSizeAuto
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aFlexItemReflowState
 const
@@ -9213,7 +9213,7 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 const
@@ -9268,7 +9268,7 @@ for
 reflow
 .
 )
-nsHTMLReflowState
+ReflowInput
 childRS
 (
 aPresContext
@@ -9510,7 +9510,7 @@ is
 enforced
 by
 the
-nsHTMLReflowState
+ReflowInput
 where
 these
 values
@@ -10408,7 +10408,7 @@ bool
 IsCrossSizeDefinite
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 const
@@ -10710,7 +10710,7 @@ FlexItem
 &
 aFlexItem
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 bool
@@ -11161,7 +11161,7 @@ FlexItem
 &
 aFlexItem
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 const
@@ -11673,7 +11673,7 @@ FlexItem
 &
 aFlexItem
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 const
@@ -11934,7 +11934,7 @@ FlexItem
 &
 aFlexItem
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 const
@@ -12231,7 +12231,7 @@ stretch
 yet
 .
 const
-nsHTMLReflowState
+ReflowInput
 *
 flexContainerRS
 =
@@ -12991,7 +12991,7 @@ aFlexItem
 bool
 aForceVerticalResizeForMeasuringReflow
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 )
@@ -13047,7 +13047,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 childRSForMeasuringHeight
 (
 aPresContext
@@ -13059,7 +13059,7 @@ Frame
 )
 availSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -13350,7 +13350,7 @@ FlexItem
 :
 FlexItem
 (
-nsHTMLReflowState
+ReflowInput
 &
 aFlexItemReflowState
 float
@@ -13571,7 +13571,7 @@ items
 )
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 containerRS
 =
@@ -14392,7 +14392,7 @@ FlexItem
 CheckForMinSizeAuto
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aFlexItemReflowState
 const
@@ -25791,7 +25791,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -26691,7 +26691,7 @@ nsFlexContainerFrame
 GetMainSizeFromReflowState
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -27113,7 +27113,7 @@ nscoord
 ResolveFlexContainerMainSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -27510,7 +27510,7 @@ nsFlexContainerFrame
 ComputeCrossSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -28258,7 +28258,7 @@ aFlexRelativeAscent
 nscoord
 aContentBoxCrossSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -28301,7 +28301,7 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-nsHTMLReflowState
+ReflowInput
 &
 aChildReflowState
 FlexItem
@@ -29374,7 +29374,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -30387,7 +30387,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -30826,7 +30826,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 childReflowState
 (
 aPresContext
@@ -33025,7 +33025,7 @@ nsFlexContainerFrame
 MoveFlexItemToFinalPosition
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -33150,7 +33150,7 @@ cachedOffsets
 )
 ;
 }
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -33214,7 +33214,7 @@ FlexboxAxisTracker
 &
 aAxisTracker
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -33272,7 +33272,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 childReflowState
 (
 aPresContext
@@ -33948,7 +33948,7 @@ outerWM
 wm
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning

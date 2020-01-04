@@ -692,7 +692,7 @@ nscoord
 GetEffectiveComputedBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -720,7 +720,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =

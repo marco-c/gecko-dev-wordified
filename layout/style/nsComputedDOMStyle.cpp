@@ -28602,7 +28602,7 @@ text
 )
 aCoord
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight

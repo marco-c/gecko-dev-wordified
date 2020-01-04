@@ -407,7 +407,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -448,7 +448,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -667,7 +667,7 @@ void
 SizeToAvailSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics

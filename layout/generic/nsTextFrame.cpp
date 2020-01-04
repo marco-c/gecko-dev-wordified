@@ -36459,7 +36459,7 @@ AppUnitsPerDevPixel
 nscoord
 lineHeightApp
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -58177,7 +58177,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

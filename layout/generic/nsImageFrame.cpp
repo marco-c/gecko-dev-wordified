@@ -846,7 +846,7 @@ bool
 HaveFixedSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -6093,7 +6093,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -13728,7 +13728,7 @@ nsImageFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )

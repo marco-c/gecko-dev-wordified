@@ -592,7 +592,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -953,7 +953,7 @@ wrapperWM
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 wrapperReflowState
 (
 aPresContext

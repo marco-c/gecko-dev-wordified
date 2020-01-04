@@ -347,7 +347,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -688,7 +688,7 @@ content
 return
 ;
 }
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -5033,7 +5033,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

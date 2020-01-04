@@ -173,15 +173,15 @@ struct
 nsRowGroupReflowState
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 const
-nsHTMLReflowState
+ReflowInput
 &
 reflowState
 ;
@@ -223,7 +223,7 @@ bCoord
 nsRowGroupReflowState
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame
@@ -637,7 +637,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -914,7 +914,7 @@ nscoord
 GetBSizeBasis
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -2319,7 +2319,7 @@ nsPresContext
 aPresContext
 bool
 aBorderCollapse
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -2329,7 +2329,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -2389,7 +2389,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -2473,7 +2473,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame
@@ -2493,7 +2493,7 @@ nsPresContext
 &
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame

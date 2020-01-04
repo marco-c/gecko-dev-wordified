@@ -1179,7 +1179,7 @@ FixedTableLayoutStrategy
 ComputeColumnISizes
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

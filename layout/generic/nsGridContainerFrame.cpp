@@ -501,7 +501,7 @@ ClampToCSSMaxBSize
 nscoord
 aSize
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -631,7 +631,7 @@ ClampToCSSMaxBSize
 nscoord
 aSize
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsReflowStatus
@@ -11343,7 +11343,7 @@ nsGridContainerFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 )
@@ -12601,7 +12601,7 @@ tracks
 *
 /
 const
-nsHTMLReflowState
+ReflowInput
 *
 const
 mReflowState
@@ -12753,7 +12753,7 @@ nsRenderingContext
 &
 aRenderingContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 const
@@ -15894,7 +15894,7 @@ aBaselineAdjust
 nscoord
 aCBSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 const
@@ -16864,7 +16864,7 @@ const
 WritingMode
 aCBWM
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 const
@@ -17096,7 +17096,7 @@ const
 WritingMode
 aCBWM
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 const
@@ -24308,7 +24308,7 @@ nsIFrame
 *
 aChild
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsRenderingContext
@@ -24344,12 +24344,12 @@ PresContext
 ;
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 dummyParentState
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -24391,7 +24391,7 @@ GetWritingMode
 0
 NS_UNCONSTRAINEDSIZE
 )
-nsHTMLReflowState
+ReflowInput
 :
 :
 DUMMY_PARENT_REFLOW_STATE
@@ -24441,7 +24441,7 @@ true
 ;
 #
 endif
-nsHTMLReflowState
+ReflowInput
 childRS
 (
 pc
@@ -24450,12 +24450,12 @@ rs
 aChild
 aAvailableSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 COMPUTE_SIZE_SHRINK_WRAP
 |
-nsHTMLReflowState
+ReflowInput
 :
 :
 COMPUTE_SIZE_USE_AUTO_BSIZE
@@ -32431,7 +32431,7 @@ aState
 mWM
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 gridRS
 =
@@ -32440,7 +32440,7 @@ aState
 mReflowState
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbRS
 =
@@ -33496,7 +33496,7 @@ wm
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 childRS
 (
 pc
@@ -38753,7 +38753,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -40255,7 +40255,7 @@ ComputedMinSize
 )
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbState
 =

@@ -583,7 +583,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -722,7 +722,7 @@ nscoord
 CalcBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -876,7 +876,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 bool
@@ -1523,7 +1523,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -1542,7 +1542,7 @@ nscoord
 ComputeCellXOffset
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aState
 nsIFrame
@@ -1591,7 +1591,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame

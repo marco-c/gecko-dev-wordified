@@ -696,7 +696,7 @@ class
 EventStates
 ;
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 namespace
 layers
@@ -3380,12 +3380,12 @@ T
 *
 ;
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 using
 Visibility
@@ -6176,7 +6176,7 @@ frame
 after
 *
 *
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -6196,7 +6196,7 @@ prior
 to
 calling
 *
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -13982,7 +13982,7 @@ while
 *
 constructing
 the
-nsHTMLReflowState
+ReflowInput
 to
 be
 used
@@ -15039,7 +15039,7 @@ nsHTMLReflowMetrics
 &
 aReflowMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -15197,7 +15197,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus
@@ -16848,7 +16848,7 @@ that
 /
 /
 requires
-nsHTMLReflowState
+ReflowInput
 :
 :
 mLineLayout
@@ -19422,7 +19422,7 @@ this
 during
 reflow
 an
-nsHTMLReflowState
+ReflowInput
 parameter
 can
 be
@@ -19452,7 +19452,7 @@ Sides
 GetSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -19465,7 +19465,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =

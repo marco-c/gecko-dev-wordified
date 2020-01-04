@@ -2812,7 +2812,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -2965,7 +2965,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -5626,7 +5626,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -8907,7 +8907,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -8976,7 +8976,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -8984,7 +8984,7 @@ nsReflowStatus
 aStatus
 )
 {
-nsHTMLReflowState
+ReflowInput
 state
 (
 aReflowState

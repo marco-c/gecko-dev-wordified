@@ -1555,7 +1555,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

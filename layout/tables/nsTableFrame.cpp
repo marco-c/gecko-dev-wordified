@@ -596,7 +596,7 @@ real
 reflow
 state
 const
-nsHTMLReflowState
+ReflowInput
 &
 reflowState
 ;
@@ -640,7 +640,7 @@ bCoord
 nsTableReflowState
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -9298,7 +9298,7 @@ nsTableFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -10886,7 +10886,7 @@ nsTableFrame
 AncestorsHaveStyleBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 )
@@ -10903,7 +10903,7 @@ GetWritingMode
 for
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -11111,7 +11111,7 @@ nsTableFrame
 CheckRequestSpecialBSizeReflow
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -11371,7 +11371,7 @@ nsTableFrame
 RequestSpecialBSizeReflow
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -11396,7 +11396,7 @@ table
 for
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -12506,7 +12506,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -13225,13 +13225,13 @@ any
 reflow
 states
 ?
-nsHTMLReflowState
+ReflowInput
 &
 mutable_rs
 =
 const_cast
 <
-nsHTMLReflowState
+ReflowInput
 &
 >
 (
@@ -13810,7 +13810,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -14042,7 +14042,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aPresContext
@@ -14051,7 +14051,7 @@ aReflowState
 .
 rendContext
 availSize
-nsHTMLReflowState
+ReflowInput
 :
 :
 DUMMY_PARENT_REFLOW_STATE
@@ -14375,7 +14375,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -18665,7 +18665,7 @@ const
 WritingMode
 aWM
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsStyleContext
@@ -18761,7 +18761,7 @@ const
 WritingMode
 aWM
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -18791,7 +18791,7 @@ nsTableFrame
 :
 InitChildReflowState
 (
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -19807,7 +19807,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 presContext
@@ -19817,7 +19817,7 @@ reflowState
 aFrame
 availSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -19994,7 +19994,7 @@ wm
 =
 aFooterHeight
 ;
-nsHTMLReflowState
+ReflowInput
 footerReflowState
 (
 presContext
@@ -20004,7 +20004,7 @@ reflowState
 aTfoot
 kidAvailSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -20966,7 +20966,7 @@ into
 the
 available
 space
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 presContext
@@ -20976,7 +20976,7 @@ reflowState
 kidFrame
 kidAvailSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -22384,7 +22384,7 @@ or
 reflow
 states
 .
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 presContext
@@ -22443,7 +22443,7 @@ nsTableFrame
 CalcDesiredBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -23072,7 +23072,7 @@ nsTableFrame
 DistributeBSizeToRows
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -26360,7 +26360,7 @@ nsTableFrame
 CalcBorderBoxBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aState
 )

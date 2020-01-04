@@ -187,7 +187,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -418,7 +418,7 @@ wm
 maxSize
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext

@@ -625,7 +625,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1481,7 +1481,7 @@ width
 /
 /
 See
-nsHTMLReflowState
+ReflowInput
 :
 :
 InitAbsoluteConstraints
@@ -2514,7 +2514,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -2888,14 +2888,14 @@ aDelegatingFrame
 rsFlags
 |
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 STATIC_POS_IS_CB_ORIGIN
 ;
 }
 }
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -3692,7 +3692,7 @@ eStyleUnit_Auto
 (
 rsFlags
 &
-nsHTMLReflowState
+ReflowInput
 :
 :
 STATIC_POS_IS_CB_ORIGIN
@@ -3737,7 +3737,7 @@ eStyleUnit_Auto
 (
 rsFlags
 &
-nsHTMLReflowState
+ReflowInput
 :
 :
 STATIC_POS_IS_CB_ORIGIN

@@ -286,7 +286,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -378,7 +378,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -569,7 +569,7 @@ nsLeafFrame
 SizeToAvailSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics

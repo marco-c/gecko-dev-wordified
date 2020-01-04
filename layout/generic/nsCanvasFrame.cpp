@@ -3540,7 +3540,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -3947,7 +3947,7 @@ NS_FRAME_IS_DIRTY
 =
 0
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext

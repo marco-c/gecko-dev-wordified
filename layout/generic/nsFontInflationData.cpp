@@ -253,7 +253,7 @@ nsFontInflationData
 UpdateFontInflationDataISizeFor
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -792,7 +792,7 @@ nscoord
 ComputeDescendantISize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aAncestorReflowState
 nsIFrame
@@ -941,13 +941,13 @@ Length
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 *
 reflowStates
 =
 static_cast
 <
-nsHTMLReflowState
+ReflowInput
 *
 >
 (
@@ -955,7 +955,7 @@ moz_xmalloc
 (
 sizeof
 (
-nsHTMLReflowState
+ReflowInput
 )
 *
 len
@@ -990,7 +990,7 @@ i
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 &
 parentReflowState
 =
@@ -1090,7 +1090,7 @@ reflowStates
 +
 i
 )
-nsHTMLReflowState
+ReflowInput
 (
 presContext
 parentReflowState
@@ -1157,7 +1157,7 @@ i
 ]
 .
 ~
-nsHTMLReflowState
+ReflowInput
 (
 )
 ;
@@ -1178,7 +1178,7 @@ nsFontInflationData
 UpdateISize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

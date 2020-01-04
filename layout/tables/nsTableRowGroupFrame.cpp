@@ -1544,7 +1544,7 @@ nsTableRowGroupFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -1781,7 +1781,7 @@ nsPresContext
 aPresContext
 bool
 aBorderCollapse
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -2395,7 +2395,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -2405,7 +2405,7 @@ reflowState
 kidFrame
 kidAvailSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -3366,7 +3366,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -6448,7 +6448,7 @@ nsPresContext
 &
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame
@@ -6842,7 +6842,7 @@ rowRect
 height
 )
 ;
-nsHTMLReflowState
+ReflowInput
 rowReflowState
 (
 &
@@ -6860,7 +6860,7 @@ GetWritingMode
 rowAvailSize
 )
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -7465,7 +7465,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame
@@ -7851,7 +7851,7 @@ rowRect
 height
 )
 ;
-nsHTMLReflowState
+ReflowInput
 rowReflowState
 (
 aPresContext
@@ -7868,7 +7868,7 @@ GetWritingMode
 availSize
 )
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -9341,7 +9341,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -9607,7 +9607,7 @@ mSpecialBSizeReflow
 ;
 (
 (
-nsHTMLReflowState
+ReflowInput
 :
 :
 ReflowStateFlags
@@ -9634,7 +9634,7 @@ splitDueToPageBreak
 ;
 (
 (
-nsHTMLReflowState
+ReflowInput
 :
 :
 ReflowStateFlags
@@ -10900,7 +10900,7 @@ nsTableRowGroupFrame
 GetBSizeBasis
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -10988,7 +10988,7 @@ cellSpacing
 else
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 parentRS
 =

@@ -575,7 +575,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -781,7 +781,7 @@ contains
 a
 block
 so
-nsHTMLReflowState
+ReflowInput
 doesn
 '
 t
@@ -849,7 +849,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus

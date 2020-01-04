@@ -211,7 +211,7 @@ namespace
 mozilla
 {
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 }
 /
@@ -1186,12 +1186,12 @@ class
 nsHTMLReflowMetrics
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -1321,7 +1321,7 @@ explicit
 nsHTMLReflowMetrics
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aState
 uint32_t

@@ -250,12 +250,12 @@ class
 nsLineLayout
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -291,7 +291,7 @@ nsFloatManager
 *
 aFloatManager
 const
-nsHTMLReflowState
+ReflowInput
 *
 aOuterReflowState
 const
@@ -478,7 +478,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 aSpanReflowState
 nscoord
@@ -2163,7 +2163,7 @@ frame
 ;
 }
 const
-nsHTMLReflowState
+ReflowInput
 *
 LineContainerRS
 (
@@ -2481,7 +2481,7 @@ for
 the
 block
 const
-nsHTMLReflowState
+ReflowInput
 *
 mBlockReflowState
 ;
@@ -3481,7 +3481,7 @@ PerFrameData
 mLastFrame
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 mReflowState
 ;
@@ -4126,7 +4126,7 @@ AllowForStartMargin
 PerFrameData
 *
 pfd
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

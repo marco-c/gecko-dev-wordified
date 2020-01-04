@@ -597,7 +597,7 @@ void
 NotifyPercentBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -608,7 +608,7 @@ bool
 NeedsToObserve
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -702,7 +702,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1575,7 +1575,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =

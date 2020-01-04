@@ -173,7 +173,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aMaxSize
 nsReflowStatus

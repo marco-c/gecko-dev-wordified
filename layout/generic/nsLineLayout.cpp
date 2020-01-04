@@ -428,7 +428,7 @@ nsFloatManager
 *
 aFloatManager
 const
-nsHTMLReflowState
+ReflowInput
 *
 aOuterReflowState
 const
@@ -2912,7 +2912,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 aSpanReflowState
 nscoord
@@ -5960,7 +5960,7 @@ the
 frame
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 reflowStateHolder
 ;
@@ -6040,7 +6040,7 @@ aFrame
 availSize
 )
 ;
-nsHTMLReflowState
+ReflowInput
 &
 reflowState
 =
@@ -6339,7 +6339,7 @@ constructed
 our
 /
 /
-nsHTMLReflowState
+ReflowInput
 because
 that
 construction
@@ -8313,7 +8313,7 @@ AllowForStartMargin
 PerFrameData
 *
 pfd
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -14541,7 +14541,7 @@ mInflationMinFontSize
 nscoord
 logicalBSize
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -16518,7 +16518,7 @@ mInflationMinFontSize
 ;
 pctBasis
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -24329,11 +24329,11 @@ handled
 by
 /
 /
-nsHTMLReflowState
+ReflowInput
 :
 :
 ComputeRelativeOffsets
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning

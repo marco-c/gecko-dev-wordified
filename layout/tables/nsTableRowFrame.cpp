@@ -234,7 +234,7 @@ struct
 nsTableCellReflowState
 :
 public
-nsHTMLReflowState
+ReflowInput
 {
 nsTableCellReflowState
 (
@@ -242,7 +242,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 nsIFrame
@@ -258,7 +258,7 @@ aFlags
 0
 )
 :
-nsHTMLReflowState
+ReflowInput
 (
 aPresContext
 aParentReflowState
@@ -3191,7 +3191,7 @@ nsTableRowFrame
 CalcBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -3866,7 +3866,7 @@ nsTableRowFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -4812,7 +4812,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsTableFrame
@@ -5040,7 +5040,7 @@ GetWritingMode
 0
 0
 )
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -5778,7 +5778,7 @@ aPresContext
 aReflowState
 kidFrame
 kidAvailSize
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -6358,7 +6358,7 @@ nsMargin
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -7089,7 +7089,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -7458,7 +7458,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 bool
@@ -7593,7 +7593,7 @@ aPresContext
 aReflowState
 aCellFrame
 availSize
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
