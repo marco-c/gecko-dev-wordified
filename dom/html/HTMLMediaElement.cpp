@@ -28643,6 +28643,14 @@ nsISuspendedTypes
 :
 SUSPENDED_STOP_DISPOSABLE
 :
+SetAudioChannelSuspended
+(
+nsISuspendedTypes
+:
+:
+NONE_SUSPENDED
+)
+;
 Pause
 (
 )
