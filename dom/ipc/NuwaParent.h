@@ -438,3 +438,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_dom_NuwaParent_h

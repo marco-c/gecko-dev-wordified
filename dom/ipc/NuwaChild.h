@@ -212,3 +212,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_dom_NuwaChild_h

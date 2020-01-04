@@ -300,6 +300,7 @@ ContentParentId
 ChildID
 (
 )
+const
 =
 0
 ;
@@ -308,6 +309,7 @@ bool
 IsForApp
 (
 )
+const
 =
 0
 ;
@@ -316,6 +318,7 @@ bool
 IsForBrowser
 (
 )
+const
 =
 0
 ;
@@ -378,6 +381,7 @@ bool
 IsContentParent
 (
 )
+const
 {
 return
 false
@@ -394,6 +398,7 @@ bool
 IsContentBridgeParent
 (
 )
+const
 {
 return
 false

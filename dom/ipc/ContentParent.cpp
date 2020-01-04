@@ -15441,6 +15441,7 @@ ContentParent
 IsAlive
 (
 )
+const
 {
 return
 mIsAlive
@@ -15453,6 +15454,7 @@ ContentParent
 IsForApp
 (
 )
+const
 {
 return
 !
@@ -15473,6 +15475,7 @@ ContentParent
 IsNuwaProcess
 (
 )
+const
 {
 return
 mIsNuwaProcess
@@ -15487,6 +15490,7 @@ ContentParent
 Pid
 (
 )
+const
 {
 if
 (
@@ -21315,6 +21319,7 @@ ContentParent
 IsPreallocated
 (
 )
+const
 {
 return
 mAppManifestURL

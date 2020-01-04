@@ -377,3 +377,6 @@ namespace
 IPC
 #
 endif
+/
+/
+mozilla_dom_IdType_h

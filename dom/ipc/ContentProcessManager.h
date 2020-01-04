@@ -501,9 +501,9 @@ is
 a
 part
 of
+*
 ContentProcessInfo
 .
-*
 We
 can
 use
@@ -516,6 +516,7 @@ id
 to
 locate
 the
+*
 TabContext
 for
 future
@@ -1026,3 +1027,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_dom_ContentProcessManager_h

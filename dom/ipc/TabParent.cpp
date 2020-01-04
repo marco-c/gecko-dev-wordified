@@ -2414,6 +2414,7 @@ TabParent
 IsVisible
 (
 )
+const
 {
 RefPtr
 <

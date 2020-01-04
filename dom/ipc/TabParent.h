@@ -624,12 +624,14 @@ bool
 IsVisible
 (
 )
+const
 ;
 nsIBrowserDOMWindow
 *
 GetBrowserDOMWindow
 (
 )
+const
 {
 return
 mBrowserDOMWindow
@@ -1665,7 +1667,7 @@ Show
 const
 ScreenIntSize
 &
-size
+aSize
 bool
 aParentIsActive
 )
@@ -1676,11 +1678,11 @@ UpdateDimensions
 const
 nsIntRect
 &
-rect
+aRect
 const
 ScreenIntSize
 &
-size
+aSize
 )
 ;
 void
@@ -2428,6 +2430,7 @@ nsIContentParent
 Manager
 (
 )
+const
 {
 return
 mManager
@@ -4185,3 +4188,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_tabs_TabParent_h

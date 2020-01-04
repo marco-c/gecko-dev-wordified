@@ -2336,9 +2336,11 @@ if
 !
 mChild
 )
+{
 return
 NS_OK
 ;
+}
 nsCOMPtr
 <
 nsIScriptError
@@ -4850,6 +4852,7 @@ nsAString
 &
 aName
 )
+const
 {
 aName
 .
@@ -4866,6 +4869,7 @@ ContentChild
 IsAlive
 (
 )
+const
 {
 return
 mIsAlive
@@ -4881,6 +4885,7 @@ nsACString
 &
 aName
 )
+const
 {
 aName
 .
@@ -11921,6 +11926,7 @@ if
 (
 os
 )
+{
 os
 -
 >
@@ -11939,6 +11945,7 @@ get
 )
 )
 ;
+}
 return
 true
 ;
