@@ -10182,9 +10182,9 @@ https
 :
 /
 /
-ajax
+cdnjs
 .
-googleapis
+cloudflare
 .
 com
 /
@@ -10196,7 +10196,7 @@ jquery
 /
 2
 .
-1
+2
 .
 1
 /
@@ -10236,9 +10236,9 @@ lodash
 .
 js
 /
-2
-.
 4
+.
+6
 .
 1
 /
@@ -10280,9 +10280,9 @@ js
 /
 1
 .
-7
+8
 .
-0
+3
 /
 underscore
 -
