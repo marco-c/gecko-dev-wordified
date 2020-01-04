@@ -955,6 +955,7 @@ FuncExport
 Sig
 sig_
 ;
+MOZ_INIT_OUTSIDE_CTOR
 struct
 CacheablePod
 {
