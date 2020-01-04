@@ -2942,17 +2942,6 @@ interposition
 )
 ;
 bool
-AllowCPOWsInAddon
-(
-const
-nsACString
-&
-addonId
-bool
-allow
-)
-;
-bool
 ExtraWarningsForSystemJS
 (
 )
