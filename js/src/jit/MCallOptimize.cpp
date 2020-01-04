@@ -24034,6 +24034,7 @@ alloc
 (
 )
 arg
+MIRType_Boolean
 )
 ;
 else
@@ -24048,6 +24049,7 @@ alloc
 (
 )
 arg
+MIRType_Boolean
 )
 ;
 current
