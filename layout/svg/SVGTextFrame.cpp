@@ -19593,7 +19593,7 @@ SVGTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 )
 /
 /
@@ -19810,7 +19810,7 @@ text
 "
 )
 ;
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -24293,7 +24293,7 @@ on
 our
 children
 ?
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 ReflowSVG
