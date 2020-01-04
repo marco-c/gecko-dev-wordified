@@ -5716,6 +5716,9 @@ nativeData
 ;
 }
 case
+NS_NATIVE_WINDOW
+:
+case
 NS_NATIVE_WIDGET
 :
 case
@@ -5731,6 +5734,8 @@ ignored
 see
 bug
 1183828
+bug
+1240891
 )
 .
 break
@@ -5752,9 +5757,6 @@ instead
 "
 )
 ;
-case
-NS_NATIVE_WINDOW
-:
 case
 NS_NATIVE_PLUGIN_PORT
 :
