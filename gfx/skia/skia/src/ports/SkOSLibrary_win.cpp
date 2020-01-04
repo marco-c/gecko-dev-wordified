@@ -91,6 +91,12 @@ functionName
 )
 {
 return
+reinterpret_cast
+<
+void
+*
+>
+(
 :
 :
 GetProcAddress
@@ -100,6 +106,7 @@ HMODULE
 )
 library
 functionName
+)
 )
 ;
 }
