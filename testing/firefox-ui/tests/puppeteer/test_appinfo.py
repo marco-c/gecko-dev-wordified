@@ -162,6 +162,19 @@ application_version
 ]
 )
         
+#
+Bug
+1298328
+-
+Platform
+buildid
+mismatch
+due
+to
+incremental
+builds
+        
+#
 self
 .
 assertEqual
