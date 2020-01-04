@@ -105,11 +105,6 @@ test
 {
 initDebugger
 (
-"
-about
-:
-blank
-"
 )
 .
 then

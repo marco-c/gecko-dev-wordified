@@ -434,11 +434,6 @@ panel
 yield
 initDebugger
 (
-"
-about
-:
-blank
-"
 )
 ;
 if

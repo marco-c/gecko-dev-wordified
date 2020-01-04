@@ -132,6 +132,18 @@ function
 )
 {
 let
+options
+=
+{
+source
+:
+TAB_URL
+line
+:
+1
+}
+;
+let
 [
 tab
 debuggee
@@ -142,6 +154,7 @@ yield
 initDebugger
 (
 TAB_URL
+options
 )
 ;
 let

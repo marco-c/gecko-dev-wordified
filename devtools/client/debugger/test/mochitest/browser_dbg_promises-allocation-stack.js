@@ -175,6 +175,18 @@ addBrowserActors
 (
 )
 ;
+let
+options
+=
+{
+source
+:
+TAB_URL
+line
+:
+1
+}
+;
 const
 [
 tab
@@ -185,6 +197,7 @@ yield
 initDebugger
 (
 TAB_URL
+options
 )
 ;
 let
