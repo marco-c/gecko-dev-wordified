@@ -2249,12 +2249,8 @@ aFactory
 IDWriteFontFace
 *
 aFontFace
-IDWriteFont
-*
-aFont
-IDWriteFontFamily
-*
-aFontFamily
+SkFontStyle
+aStyle
 )
 {
 return
@@ -2265,8 +2261,7 @@ Create
 (
 aFactory
 aFontFace
-aFont
-aFontFamily
+aStyle
 )
 ;
 }
