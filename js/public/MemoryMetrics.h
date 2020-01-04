@@ -4023,6 +4023,13 @@ Other
 MallocHeap
 nonSyntacticLexicalScopesTable
 )
+\
+macro
+(
+Other
+MallocHeap
+jitCompartment
+)
 CompartmentStats
 (
 )

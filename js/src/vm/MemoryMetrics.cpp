@@ -2084,6 +2084,10 @@ savedStacksSet
 cStats
 .
 nonSyntacticLexicalScopesTable
+&
+cStats
+.
+jitCompartment
 )
 ;
 }

@@ -2677,6 +2677,9 @@ savedStacksSet
 size_t
 *
 nonSyntacticLexicalScopes
+size_t
+*
+jitCompartment
 )
 ;
 /
