@@ -1218,6 +1218,14 @@ mFullDuplex
 (
 false
 )
+mExtendedFilter
+(
+false
+)
+mDelayAgnostic
+(
+false
+)
 {
 }
 int32_t
@@ -1268,6 +1276,12 @@ mPlayoutDelay
 ;
 bool
 mFullDuplex
+;
+bool
+mExtendedFilter
+;
+bool
+mDelayAgnostic
 ;
 /
 /
