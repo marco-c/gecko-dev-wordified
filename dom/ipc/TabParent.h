@@ -1474,6 +1474,16 @@ override
 ;
 virtual
 bool
+RecvGetWidgetRounding
+(
+int32_t
+*
+aValue
+)
+override
+;
+virtual
+bool
 RecvGetMaxTouchPoints
 (
 uint32_t
@@ -2852,6 +2862,9 @@ mOrientation
 ;
 float
 mDPI
+;
+int32_t
+mRounding
 ;
 CSSToLayoutDeviceScale
 mDefaultScale

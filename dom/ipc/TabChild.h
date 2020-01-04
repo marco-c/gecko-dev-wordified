@@ -2385,6 +2385,14 @@ double
 aScale
 )
 ;
+void
+GetWidgetRounding
+(
+int32_t
+*
+aRounding
+)
+;
 bool
 IsTransparent
 (
@@ -2816,6 +2824,10 @@ const
 float
 &
 aDpi
+const
+int32_t
+&
+aRounding
 const
 double
 &
@@ -3782,6 +3794,9 @@ ContentChild
 ;
 float
 mDPI
+;
+int32_t
+mRounding
 ;
 double
 mDefaultScale
