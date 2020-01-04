@@ -2371,6 +2371,8 @@ Count
 0
 ;
 }
+private
+:
 /
 /
 ProcessPendingRestyles
@@ -2415,6 +2417,8 @@ EndProcessingRestyles
 (
 )
 ;
+public
+:
 /
 /
 Update
