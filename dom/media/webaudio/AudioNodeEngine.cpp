@@ -146,6 +146,15 @@ USE_SSE2
 #
 include
 "
+mozilla
+/
+SSE
+.
+h
+"
+#
+include
+"
 AlignmentUtils
 .
 h
