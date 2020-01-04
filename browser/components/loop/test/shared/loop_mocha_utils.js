@@ -406,6 +406,16 @@ result
 ;
 }
 ;
+this
+.
+catch
+=
+function
+(
+)
+{
+}
+;
 asyncFn
 (
 this
