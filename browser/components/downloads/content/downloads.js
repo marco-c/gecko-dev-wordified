@@ -8723,7 +8723,7 @@ downloadsCmd_showBlockedInfo
 {
 DownloadsBlockedSubview
 .
-show
+toggle
 (
 this
 .
@@ -11459,7 +11459,7 @@ block
 .
 *
 /
-show
+toggle
 (
 element
 title
@@ -11475,6 +11475,12 @@ view
 showingSubView
 )
 {
+this
+.
+hide
+(
+)
+;
 return
 ;
 }
