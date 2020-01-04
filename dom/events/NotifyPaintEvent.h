@@ -206,6 +206,8 @@ aEventMessage
 nsInvalidateRequestList
 *
 aInvalidateRequests
+uint64_t
+aTransactionId
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -325,6 +327,11 @@ PaintRequests
 (
 )
 ;
+uint64_t
+TransactionId
+(
+)
+;
 protected
 :
 ~
@@ -348,6 +355,9 @@ nsInvalidateRequestList
 Request
 >
 mInvalidateRequests
+;
+uint64_t
+mTransactionId
 ;
 }
 ;
@@ -412,6 +422,10 @@ nsInvalidateRequestList
 aInvalidateRequests
 =
 nullptr
+uint64_t
+aTransactionId
+=
+0
 )
 ;
 #

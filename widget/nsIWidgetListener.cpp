@@ -366,6 +366,8 @@ nsIWidgetListener
 :
 DidCompositeWindow
 (
+uint64_t
+aTransactionId
 const
 TimeStamp
 &

@@ -11889,6 +11889,8 @@ FireDOMPaintEvent
 nsInvalidateRequestList
 *
 aList
+uint64_t
+aTransactionId
 )
 {
 nsPIDOMWindowInner
@@ -12095,6 +12097,7 @@ this
 nullptr
 eAfterPaint
 aList
+aTransactionId
 )
 ;
 /
@@ -13186,6 +13189,9 @@ NotifyDidPaintSubdocumentCallbackClosure
 uint32_t
 mFlags
 ;
+uint64_t
+mTransactionId
+;
 bool
 mNeedsAnotherDidPaintNotification
 ;
@@ -13257,6 +13263,10 @@ closure
 -
 >
 mFlags
+closure
+-
+>
+mTransactionId
 )
 ;
 if
@@ -13299,11 +13309,17 @@ aPresContext
 nsInvalidateRequestList
 *
 aList
+uint64_t
+aTransactionId
 )
 :
 mPresContext
 (
 aPresContext
+)
+mTransactionId
+(
+aTransactionId
 )
 {
 MOZ_ASSERT
@@ -13383,6 +13399,7 @@ FireDOMPaintEvent
 (
 &
 mList
+mTransactionId
 )
 ;
 }
@@ -13395,6 +13412,9 @@ RefPtr
 nsPresContext
 >
 mPresContext
+;
+uint64_t
+mTransactionId
 ;
 nsInvalidateRequestList
 mList
@@ -13409,6 +13429,15 @@ NotifyDidPaintForSubtree
 (
 uint32_t
 aFlags
+uint64_t
+aTransactionId
+const
+mozilla
+:
+:
+TimeStamp
+&
+aTimeStamp
 )
 {
 if
@@ -13567,6 +13596,7 @@ DelayedFireDOMPaintEvent
 this
 &
 mUndeliveredInvalidateRequestsBeforeLastPaint
+aTransactionId
 )
 ;
 nsContentUtils
@@ -13583,6 +13613,7 @@ closure
 =
 {
 aFlags
+aTransactionId
 false
 }
 ;
