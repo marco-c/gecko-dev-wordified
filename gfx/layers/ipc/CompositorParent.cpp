@@ -1813,13 +1813,13 @@ mCurrentCompositeTask
 (
 nullptr
 )
-mNeedsComposite
-(
-false
-)
 mIsObservingVsync
 (
 false
+)
+mNeedsComposite
+(
+0
 )
 mVsyncNotificationsSkipped
 (
@@ -2172,7 +2172,7 @@ nullptr
 }
 mNeedsComposite
 =
-false
+0
 ;
 }
 /
@@ -2296,8 +2296,8 @@ nullptr
 ;
 }
 mNeedsComposite
-=
-true
++
++
 ;
 if
 (
@@ -2454,7 +2454,7 @@ mAsapScheduling
 {
 mNeedsComposite
 =
-false
+0
 ;
 mLastCompose
 =
