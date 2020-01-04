@@ -2601,12 +2601,19 @@ runtime
 IonBuilder
 *
 builder
-const
-AutoLockHelperThreadState
-&
-locked
 )
 {
+MOZ_ASSERT
+(
+HelperThreadState
+(
+)
+.
+isLocked
+(
+)
+)
+;
 /
 /
 Clean
@@ -2939,7 +2946,6 @@ HelperThreadState
 .
 ionFinishedList
 (
-lock
 )
 ;
 for
@@ -2992,7 +2998,6 @@ FinishOffThreadBuilder
 (
 nullptr
 builder
-lock
 )
 ;
 HelperThreadState
@@ -3392,7 +3397,6 @@ runtime
 (
 )
 builder
-lock
 )
 ;
 }
@@ -12551,7 +12555,6 @@ HelperThreadState
 .
 ionFinishedList
 (
-lock
 )
 ;
 /

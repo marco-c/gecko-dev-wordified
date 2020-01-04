@@ -5455,14 +5455,6 @@ startBackgroundThread
 (
 State
 newState
-const
-AutoLockGC
-&
-lock
-const
-AutoLockHelperThreadState
-&
-helperLock
 )
 ;
 void
@@ -5479,9 +5471,6 @@ lock
 State
 state
 (
-const
-AutoLockGC
-&
 )
 ;
 void
@@ -5489,9 +5478,6 @@ setState
 (
 State
 state
-const
-AutoLockGC
-&
 )
 ;
 friend
@@ -5608,10 +5594,6 @@ const
 AutoLockGC
 &
 lock
-const
-AutoLockHelperThreadState
-&
-helperLock
 )
 ;
 void
@@ -5950,9 +5932,6 @@ methods
 bool
 startWithLockHeld
 (
-AutoLockHelperThreadState
-&
-locked
 )
 ;
 void
