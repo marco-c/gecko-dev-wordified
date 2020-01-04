@@ -811,6 +811,13 @@ aDiagnostics
 ;
 }
 ;
+enum
+MediaDataDecoderError
+{
+FATAL_ERROR
+DECODE_ERROR
+}
+;
 /
 /
 A
@@ -901,6 +908,8 @@ virtual
 void
 Error
 (
+MediaDataDecoderError
+aError
 )
 =
 0
