@@ -5338,7 +5338,7 @@ nsresult
 nsBox
 :
 :
-GetDebug
+GetXULDebug
 (
 bool
 &

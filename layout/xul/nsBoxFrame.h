@@ -423,7 +423,7 @@ override
 ;
 virtual
 nsresult
-GetDebug
+GetXULDebug
 (
 bool
 &

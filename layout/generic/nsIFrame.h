@@ -21586,7 +21586,7 @@ aDebug
 ;
 virtual
 nsresult
-GetDebug
+GetXULDebug
 (
 bool
 &
