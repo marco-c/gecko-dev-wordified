@@ -1044,9 +1044,9 @@ Finish
 ;
 payload
 =
-decoder
+JSON
 .
-decode
+parse
 (
 utf8string
 )
