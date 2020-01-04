@@ -2347,6 +2347,11 @@ wrapper
 toString
 (
 )
+GeckoThread
+.
+State
+.
+PROFILE_READY
 )
 ;
 }
@@ -2584,6 +2589,11 @@ wrapper
 toString
 (
 )
+GeckoThread
+.
+State
+.
+PROFILE_READY
 )
 ;
 }
