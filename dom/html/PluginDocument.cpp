@@ -908,12 +908,10 @@ dsti
 >
 NameEquals
 (
-MOZ_UTF16
-(
+u
 "
 messagepane
 "
-)
 &
 isMsgPane
 )

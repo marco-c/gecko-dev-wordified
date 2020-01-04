@@ -5309,12 +5309,10 @@ allocated
 You
 can
 use
-MOZ_UTF16
-(
+u
 "
 strings
 "
-)
 for
 this
 .

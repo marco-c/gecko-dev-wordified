@@ -6410,12 +6410,10 @@ sStrBundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 ProtocolFlagError
 "
-)
 formatStrings
 ArrayLength
 (

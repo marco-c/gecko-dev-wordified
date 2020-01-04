@@ -10076,8 +10076,7 @@ history
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -10087,7 +10086,6 @@ is
 -
 0
 "
-)
 dateName
 )
 ;
@@ -10204,8 +10202,7 @@ history
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -10215,7 +10212,6 @@ is
 -
 1
 "
-)
 dateName
 )
 ;
@@ -10334,8 +10330,7 @@ history
 GetAgeInDaysString
 (
 7
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -10345,7 +10340,6 @@ last
 -
 is
 "
-)
 dateName
 )
 ;
@@ -10518,8 +10512,7 @@ history
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -10529,7 +10522,6 @@ is
 -
 0
 "
-)
 dateName
 )
 ;
@@ -10710,8 +10702,7 @@ history
 GetAgeInDaysString
 (
 6
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -10719,7 +10710,6 @@ AgeInMonths
 -
 isgreater
 "
-)
 dateName
 )
 ;
@@ -11445,12 +11435,10 @@ history
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 localhost
 "
-)
 localFiles
 )
 ;
@@ -27159,12 +27147,10 @@ one
 instead
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 localhost
 "
-)
 aTitle
 )
 ;
@@ -27529,14 +27515,12 @@ bundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 finduri
 -
 MonthYear
 "
-)
 strings
 2
 getter_Copies

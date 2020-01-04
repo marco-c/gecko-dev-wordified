@@ -7094,14 +7094,12 @@ kShutdownPersist
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 shutdown
 -
 persist
 "
-)
 ;
 obsSvc
 -

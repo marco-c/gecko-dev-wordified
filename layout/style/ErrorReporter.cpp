@@ -1798,12 +1798,10 @@ sStringBundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 PEUnexpEOF2
 "
-)
 params
 ArrayLength
 (
@@ -1888,12 +1886,10 @@ sStringBundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 PEUnexpEOF2
 "
-)
 params
 ArrayLength
 (

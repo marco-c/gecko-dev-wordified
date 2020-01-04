@@ -1211,12 +1211,10 @@ NS_DispatchToMainThread
 new
 NotifyObserversGPSTask
 (
-MOZ_UTF16
-(
+u
 "
 GPSStarting
 "
-)
 )
 )
 ;
@@ -1240,12 +1238,10 @@ NS_DispatchToMainThread
 new
 NotifyObserversGPSTask
 (
-MOZ_UTF16
-(
+u
 "
 GPSShutdown
 "
-)
 )
 )
 ;

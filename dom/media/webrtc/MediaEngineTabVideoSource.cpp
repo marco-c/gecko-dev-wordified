@@ -735,8 +735,7 @@ aName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 &
 getUserMedia
@@ -746,7 +745,6 @@ videoSource
 tabShare
 ;
 "
-)
 )
 ;
 }

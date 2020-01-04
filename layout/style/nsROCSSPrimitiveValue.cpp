@@ -611,8 +611,7 @@ tmpStr
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 url
 (
@@ -621,7 +620,6 @@ about
 invalid
 )
 "
-)
 )
 ;
 }

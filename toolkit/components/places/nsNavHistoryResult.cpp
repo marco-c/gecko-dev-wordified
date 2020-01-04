@@ -26953,8 +26953,7 @@ history
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 finduri
 -
@@ -26964,7 +26963,6 @@ is
 -
 0
 "
-)
 todayLabel
 )
 ;

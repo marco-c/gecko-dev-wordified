@@ -289,12 +289,10 @@ char16_t
 *
 typeName
 =
-MOZ_UTF16
-(
+u
 "
 TestTypeName
 "
-)
 ;
 const
 char

@@ -1615,12 +1615,10 @@ brandBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 brandShortName
 "
-)
 getter_Copies
 (
 brandShortName
@@ -2347,12 +2345,10 @@ brandBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 brandShortName
 "
-)
 getter_Copies
 (
 brandName

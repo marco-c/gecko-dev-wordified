@@ -292,8 +292,7 @@ directives
 define
 VERSIONED_JS_BLOCKED_MESSAGE
 \
-MOZ_UTF16
-(
+u
 "
 Versioned
 JavaScript
@@ -307,10 +306,8 @@ extension
 and
 is
 "
-)
 \
-MOZ_UTF16
-(
+u
 "
 not
 supported
@@ -324,10 +321,8 @@ please
 see
 :
 "
-)
 \
-MOZ_UTF16
-(
+u
 "
 https
 :
@@ -347,7 +342,6 @@ WebExtensions
 /
 Tips
 "
-)
 AddonContentPolicy
 :
 :
@@ -1392,8 +1386,7 @@ mFoundSelf
 nsAutoString
 url
 (
-MOZ_UTF16
-(
+u
 "
 moz
 -
@@ -1402,7 +1395,6 @@ extension
 /
 /
 "
-)
 )
 ;
 url
@@ -2191,8 +2183,7 @@ correctly
 nsAutoString
 url
 (
-MOZ_UTF16
-(
+u
 "
 moz
 -
@@ -2201,7 +2192,6 @@ extension
 /
 /
 "
-)
 )
 ;
 {

@@ -146,6 +146,7 @@ open
 XUL_LITERAL
 (
 true_
+u
 "
 true
 "

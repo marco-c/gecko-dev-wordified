@@ -567,13 +567,7 @@ name
 )
 name
 =
-(
-const
-char16_t
-*
-)
-MOZ_UTF16
-(
+u
 "
 <
 no
@@ -581,7 +575,6 @@ edge
 name
 >
 "
-)
 ;
 js_fputs
 (

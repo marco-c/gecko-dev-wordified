@@ -5186,12 +5186,10 @@ aName
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 uf
 "
-)
 )
 ;
 aName

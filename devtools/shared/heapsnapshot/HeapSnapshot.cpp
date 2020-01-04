@@ -5060,14 +5060,12 @@ get
 (
 )
 )
-MOZ_UTF16
-(
+u
 "
 heap
 snapshot
 global
 "
-)
 )
 )
 {

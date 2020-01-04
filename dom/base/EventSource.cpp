@@ -5146,12 +5146,10 @@ appstrings
 .
 properties
 "
-MOZ_UTF16
-(
+u
 "
 connectionFailure
 "
-)
 formatStrings
 ArrayLength
 (
@@ -5179,12 +5177,10 @@ appstrings
 .
 properties
 "
-MOZ_UTF16
-(
+u
 "
 netInterrupt
 "
-)
 formatStrings
 ArrayLength
 (

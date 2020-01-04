@@ -7437,8 +7437,7 @@ if
 NS_strcmp
 (
 aData
-MOZ_UTF16
-(
+u
 "
 image
 .
@@ -7446,7 +7445,6 @@ http
 .
 accept
 "
-)
 )
 )
 {

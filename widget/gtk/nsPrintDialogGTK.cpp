@@ -421,12 +421,10 @@ printBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 headerFooterCustom
 "
-)
 getter_Copies
 (
 intlString
@@ -507,12 +505,10 @@ printBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 customHeaderFooterPrompt
 "
-)
 getter_Copies
 (
 intlString

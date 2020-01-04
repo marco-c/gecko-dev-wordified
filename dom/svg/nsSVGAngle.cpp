@@ -482,13 +482,11 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 %
 g
 "
-)
 (
 double
 )

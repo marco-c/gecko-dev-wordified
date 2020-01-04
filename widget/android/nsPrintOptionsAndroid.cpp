@@ -145,13 +145,11 @@ kOutputFormatPDF
 ;
 SetPrinterName
 (
-MOZ_UTF16
-(
+u
 "
 PDF
 printer
 "
-)
 )
 ;
 }

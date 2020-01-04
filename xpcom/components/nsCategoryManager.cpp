@@ -3492,11 +3492,9 @@ aObserverData
 ?
 aObserverData
 :
-MOZ_UTF16
-(
+u
 "
 "
-)
 )
 ;
 }

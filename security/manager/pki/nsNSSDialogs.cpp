@@ -1908,12 +1908,10 @@ mPIPStringBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 getPKCS12FilePasswordMessage
 "
-)
 getter_Copies
 (
 msg

@@ -19933,12 +19933,10 @@ nsStyleUtil
 MatchesLanguagePrefix
 (
 language
-MOZ_UTF16
-(
+u
 "
 ja
 "
-)
 )
 |
 |
@@ -19948,12 +19946,10 @@ nsStyleUtil
 MatchesLanguagePrefix
 (
 language
-MOZ_UTF16
-(
+u
 "
 zh
 "
-)
 )
 ;
 }

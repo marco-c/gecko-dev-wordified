@@ -254,14 +254,12 @@ aImmediate
 return
 FlushMemory
 (
-MOZ_UTF16
-(
+u
 "
 heap
 -
 minimize
 "
-)
 aImmediate
 )
 ;

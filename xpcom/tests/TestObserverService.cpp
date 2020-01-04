@@ -733,8 +733,7 @@ topicA
 get
 (
 )
-MOZ_UTF16
-(
+u
 "
 Testing
 Notify
@@ -747,7 +746,6 @@ topic
 A
 )
 "
-)
 )
 ;
 testResult
@@ -789,8 +787,7 @@ topicB
 get
 (
 )
-MOZ_UTF16
-(
+u
 "
 Testing
 Notify
@@ -803,7 +800,6 @@ topic
 B
 )
 "
-)
 )
 ;
 testResult
@@ -995,13 +991,11 @@ topicA
 get
 (
 )
-MOZ_UTF16
-(
+u
 "
 during
 enumeration
 "
-)
 )
 ;
 testResult

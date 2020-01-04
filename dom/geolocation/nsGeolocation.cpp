@@ -4932,12 +4932,10 @@ device
 -
 events
 "
-MOZ_UTF16
-(
+u
 "
 starting
 "
-)
 )
 ;
 return
@@ -5274,12 +5272,10 @@ device
 -
 events
 "
-MOZ_UTF16
-(
+u
 "
 shutdown
 "
-)
 )
 ;
 }

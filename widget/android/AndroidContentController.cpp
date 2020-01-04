@@ -944,12 +944,10 @@ PanZoom
 :
 StateChange
 "
-MOZ_UTF16
-(
+u
 "
 NOTHING
 "
-)
 )
 ;
 }
@@ -982,12 +980,10 @@ PanZoom
 :
 StateChange
 "
-MOZ_UTF16
-(
+u
 "
 PANNING
 "
-)
 )
 ;
 }

@@ -4037,12 +4037,10 @@ cx
 JS_NewUCStringCopyN
 (
 cx
-MOZ_UTF16
-(
+u
 "
 :
 "
-)
 2
 )
 )

@@ -583,12 +583,10 @@ char16_t
 *
 kResetBackupDirectory
 =
-MOZ_UTF16
-(
+u
 "
 resetBackupDirectory
 "
-)
 ;
 rv
 =

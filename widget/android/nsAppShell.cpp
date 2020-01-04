@@ -5162,14 +5162,12 @@ memory
 -
 pressure
 "
-MOZ_UTF16
-(
+u
 "
 low
 -
 memory
 "
-)
 )
 ;
 }

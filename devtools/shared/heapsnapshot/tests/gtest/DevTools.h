@@ -975,12 +975,10 @@ concreteTypeName
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 FakeNode
 "
-)
 ;
 }
 /

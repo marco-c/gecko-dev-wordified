@@ -4794,14 +4794,12 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 plainText
 .
 wordWrap
 "
-)
 getter_Copies
 (
 title

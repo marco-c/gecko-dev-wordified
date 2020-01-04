@@ -2008,12 +2008,10 @@ box
 >
 GetProperty
 (
-MOZ_UTF16
-(
+u
 "
 topRow
 "
-)
 getter_Copies
 (
 rowStr
@@ -2123,12 +2121,10 @@ box
 >
 RemoveProperty
 (
-MOZ_UTF16
-(
+u
 "
 topRow
 "
-)
 )
 ;
 }

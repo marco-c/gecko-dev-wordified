@@ -1865,12 +1865,10 @@ gRDFService
 >
 GetLiteral
 (
-MOZ_UTF16
-(
+u
 "
 1
 "
-)
 &
 kOne
 )

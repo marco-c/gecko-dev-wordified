@@ -8569,14 +8569,12 @@ navWin
 ;
 GetMostRecentWindow
 (
-MOZ_UTF16
-(
+u
 "
 navigator
 :
 browser
 "
-)
 getter_AddRefs
 (
 navWin

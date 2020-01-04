@@ -4836,12 +4836,10 @@ bundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 TransformError
 "
-)
 error
 1
 getter_Copies
@@ -4858,12 +4856,10 @@ bundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 LoadingError
 "
-)
 error
 1
 getter_Copies

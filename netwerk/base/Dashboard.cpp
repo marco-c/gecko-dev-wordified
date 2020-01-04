@@ -655,12 +655,10 @@ mStatus
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 NS_ERROR_NET_TIMEOUT
 "
-)
 )
 ;
 mThread
@@ -3873,8 +3871,7 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 http
 /
@@ -3882,7 +3879,6 @@ http
 .
 9
 "
-)
 )
 ;
 break
@@ -3894,8 +3890,7 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 http
 /
@@ -3903,7 +3898,6 @@ http
 .
 0
 "
-)
 )
 ;
 break
@@ -3915,8 +3909,7 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 http
 /
@@ -3924,7 +3917,6 @@ http
 .
 1
 "
-)
 )
 ;
 break
@@ -3936,8 +3928,7 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 http
 /
@@ -3945,7 +3936,6 @@ http
 .
 0
 "
-)
 )
 ;
 break
@@ -3956,14 +3946,12 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 unknown
 protocol
 version
 "
-)
 )
 ;
 }
@@ -3990,8 +3978,7 @@ protocolVersion
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 spdy
 /
@@ -3999,7 +3986,6 @@ spdy
 .
 1
 "
-)
 )
 ;
 }
@@ -4017,12 +4003,10 @@ protocolVersion
 .
 Assign
 (
-MOZ_UTF16
-(
+u
 "
 h2
 "
-)
 )
 ;
 }

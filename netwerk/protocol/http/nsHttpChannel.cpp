@@ -14060,12 +14060,10 @@ stringBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 RepostFormData
 "
-)
 getter_Copies
 (
 messageString

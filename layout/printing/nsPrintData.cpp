@@ -533,12 +533,10 @@ brandBundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 brandShortName
 "
-)
 &
 mBrandName
 )

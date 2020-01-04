@@ -718,8 +718,7 @@ str
 JS_NewUCStringCopyZ
 (
 cx
-MOZ_UTF16
-(
+u
 "
 \
 xD3
@@ -730,7 +729,6 @@ xE3
 \
 xEF
 "
-)
 )
 ;
 /
@@ -1393,8 +1391,7 @@ str
 JS_NewUCStringCopyZ
 (
 cx
-MOZ_UTF16
-(
+u
 "
 \
 x038C
@@ -1405,7 +1402,6 @@ x0203
 \
 x0457
 "
-)
 )
 ;
 /

@@ -237,8 +237,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 translate
 (
@@ -248,7 +247,6 @@ g
 g
 )
 "
-)
 mMatrix
 .
 _31
@@ -273,8 +271,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 translate
 (
@@ -282,7 +279,6 @@ translate
 g
 )
 "
-)
 mMatrix
 .
 _31
@@ -325,8 +321,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 rotate
 (
@@ -338,7 +333,6 @@ g
 g
 )
 "
-)
 mAngle
 mOriginX
 mOriginY
@@ -360,8 +354,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 rotate
 (
@@ -369,7 +362,6 @@ rotate
 g
 )
 "
-)
 mAngle
 )
 ;
@@ -404,8 +396,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 scale
 (
@@ -415,7 +406,6 @@ g
 g
 )
 "
-)
 mMatrix
 .
 _11
@@ -440,8 +430,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 scale
 (
@@ -449,7 +438,6 @@ scale
 g
 )
 "
-)
 mMatrix
 .
 _11
@@ -475,8 +463,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 skewX
 (
@@ -484,7 +471,6 @@ skewX
 g
 )
 "
-)
 mAngle
 )
 ;
@@ -508,8 +494,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 skewY
 (
@@ -517,7 +502,6 @@ skewY
 g
 )
 "
-)
 mAngle
 )
 ;
@@ -541,8 +525,7 @@ sizeof
 (
 char16_t
 )
-MOZ_UTF16
-(
+u
 "
 matrix
 (
@@ -560,7 +543,6 @@ g
 g
 )
 "
-)
 mMatrix
 .
 _11

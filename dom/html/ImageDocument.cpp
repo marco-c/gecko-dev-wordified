@@ -4274,12 +4274,10 @@ mStringBundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 ScaledImage
 "
-)
 formatString
 1
 getter_Copies
