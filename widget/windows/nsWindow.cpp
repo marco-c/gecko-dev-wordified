@@ -24881,7 +24881,7 @@ up
 *
 *
 /
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -24942,9 +24942,6 @@ UnregisterSpecialDropdownHooks
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 *

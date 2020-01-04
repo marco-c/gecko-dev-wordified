@@ -2683,17 +2683,6 @@ aHotspotY
 override
 ;
 NS_IMETHOD
-CaptureRollupEvents
-(
-nsIRollupListener
-*
-aListener
-bool
-aDoCapture
-)
-override
-;
-NS_IMETHOD
 SetTitle
 (
 const

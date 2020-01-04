@@ -1910,7 +1910,8 @@ aStatus
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 CaptureRollupEvents
 (
 nsIRollupListener
