@@ -136,6 +136,17 @@ FileListBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+File
+.
+h
+"
 namespace
 mozilla
 {

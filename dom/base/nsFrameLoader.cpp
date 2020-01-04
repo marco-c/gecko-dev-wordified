@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLIFrameElement
 .
 h

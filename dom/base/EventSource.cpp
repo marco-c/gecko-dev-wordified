@@ -218,6 +218,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

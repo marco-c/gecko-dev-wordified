@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIStreamListener
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h
