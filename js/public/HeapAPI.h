@@ -763,12 +763,6 @@ gcMarker
 .
 public
 :
-js
-:
-:
-RootLists
-roots
-;
 bool
 needsIncrementalBarrier_
 ;
