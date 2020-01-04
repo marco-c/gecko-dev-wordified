@@ -67,6 +67,12 @@ from
 marionette_driver
 import
 Wait
+from
+marionette_driver
+.
+errors
+import
+TimeoutException
 class
 TestSafeBrowsingInitialDownload
 (
@@ -106,6 +112,7 @@ Phishing
             
 r
 '
+^
 goog
 -
 badbinurl
@@ -117,6 +124,7 @@ pset
             
 r
 '
+^
 goog
 -
 badbinurl
@@ -128,6 +136,7 @@ sbstore
             
 r
 '
+^
 goog
 -
 malware
@@ -139,6 +148,7 @@ pset
             
 r
 '
+^
 goog
 -
 malware
@@ -150,6 +160,7 @@ sbstore
             
 r
 '
+^
 goog
 (
 pub
@@ -165,6 +176,7 @@ pset
             
 r
 '
+^
 goog
 (
 pub
@@ -180,6 +192,7 @@ sbstore
             
 r
 '
+^
 goog
 -
 unwanted
@@ -191,6 +204,7 @@ pset
             
 r
 '
+^
 goog
 -
 unwanted
@@ -206,6 +220,7 @@ Protections
             
 r
 '
+^
 base
 -
 track
@@ -217,6 +232,7 @@ pset
             
 r
 '
+^
 base
 -
 track
@@ -228,6 +244,7 @@ sbstore
             
 r
 '
+^
 mozstd
 -
 trackwhite
@@ -239,6 +256,7 @@ pset
             
 r
 '
+^
 mozstd
 -
 trackwhite
@@ -271,6 +289,7 @@ files
             
 r
 '
+^
 goog
 -
 downloadwhite
@@ -282,6 +301,7 @@ pset
             
 r
 '
+^
 goog
 -
 downloadwhite
@@ -556,11 +576,14 @@ files
 ]
 :
                 
+try
+:
+                    
 wait
 .
 until
 (
-                    
+                        
 lambda
 _
 :
@@ -577,6 +600,7 @@ self
 .
 sb_files_path
 )
+                                   
 if
 re
 .
@@ -586,7 +610,7 @@ item
 f
 )
 ]
-                    
+                        
 message
 =
 '
@@ -606,3 +630,38 @@ format
 item
 )
 )
+                
+except
+TimeoutException
+:
+                    
+self
+.
+logger
+.
+info
+(
+'
+Downloaded
+safebrowsing
+files
+:
+{
+}
+'
+.
+format
+(
+                        
+os
+.
+listdir
+(
+self
+.
+sb_files_path
+)
+)
+)
+                    
+raise
