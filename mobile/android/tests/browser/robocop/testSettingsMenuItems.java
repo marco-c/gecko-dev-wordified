@@ -1175,13 +1175,6 @@ mStringHelper
 TITLE_PLACE_HOLDER
 )
 ;
-verifyUrl
-(
-mStringHelper
-.
-ABOUT_HOME_URL
-)
-;
 selectMenuItem
 (
 mStringHelper
