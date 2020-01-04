@@ -525,15 +525,6 @@ TextTrackCue
 aCue
 )
 ;
-void
-DispatchAsyncTrustedEvent
-(
-const
-nsString
-&
-aEventName
-)
-;
 private
 :
 ~
