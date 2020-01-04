@@ -946,6 +946,7 @@ CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
 AsyncTransactionTimeout
+PAllocTextureBackendMismatch
 /
 /
 End
