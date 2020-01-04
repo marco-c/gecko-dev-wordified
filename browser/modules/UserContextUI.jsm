@@ -170,7 +170,10 @@ userContextId
 {
 switch
 (
+parseInt
+(
 userContextId
+)
 )
 {
 /
@@ -230,7 +233,7 @@ GetStringFromName
 "
 usercontext
 .
-shopping
+banking
 .
 label
 "
@@ -247,7 +250,7 @@ GetStringFromName
 "
 usercontext
 .
-banking
+shopping
 .
 label
 "
