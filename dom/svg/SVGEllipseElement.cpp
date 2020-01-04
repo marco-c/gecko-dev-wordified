@@ -1024,6 +1024,17 @@ IsRectilinear
 )
 )
 {
+MOZ_ASSERT
+(
+!
+aToNonScalingStrokeSpace
+-
+>
+IsSingular
+(
+)
+)
+;
 Rect
 userBounds
 (
