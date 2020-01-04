@@ -959,17 +959,6 @@ command
 -
 button
 -
-eyedropper
-"
-}
-{
-id
-:
-"
-command
--
-button
--
 screenshot
 "
 }
