@@ -736,11 +736,8 @@ aUseExternalSurfaceSize
 :
 Compositor
 (
-aParent
-)
-mWidget
-(
 aWidget
+aParent
 )
 mWidgetSize
 (
