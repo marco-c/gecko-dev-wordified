@@ -375,6 +375,15 @@ AVFrame
 aFrame
 )
 ;
+int64_t
+GetPts
+(
+const
+AVPacket
+&
+packet
+)
+;
 RefPtr
 <
 ImageContainer
