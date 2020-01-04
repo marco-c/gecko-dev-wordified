@@ -7125,6 +7125,7 @@ if
 (
 isTypedArray
 )
+{
 buffer
 =
 GetAttachedArrayBuffer
@@ -7132,7 +7133,9 @@ GetAttachedArrayBuffer
 obj
 )
 ;
+}
 else
+{
 buffer
 =
 callFunction
@@ -7145,6 +7148,7 @@ GetAttachedArrayBuffer
 "
 )
 ;
+}
 /
 /
 Step
@@ -7262,6 +7266,7 @@ RadixSort
 (
 obj
 len
+buffer
 2
 /
 *
@@ -7298,6 +7303,7 @@ RadixSort
 (
 obj
 len
+buffer
 2
 /
 *
@@ -7334,6 +7340,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 /
 *
@@ -7370,6 +7377,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 /
 *
@@ -7406,6 +7414,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 /
 *
