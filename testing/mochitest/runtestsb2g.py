@@ -235,7 +235,7 @@ None
         
 self
 .
-start_script
+test_script
 =
 os
 .
@@ -245,7 +245,7 @@ join
 (
 here
 '
-start_b2g
+b2g_start_script
 .
 js
 '
@@ -253,7 +253,7 @@ js
         
 self
 .
-start_script_args
+test_script_args
 =
 [
 self
@@ -1474,7 +1474,7 @@ manifestFile
             
 self
 .
-start_script_args
+test_script_args
 .
 append
 (
@@ -1486,7 +1486,7 @@ emulator
             
 self
 .
-start_script_args
+test_script_args
 .
 append
 (
@@ -1497,7 +1497,7 @@ wifi
             
 self
 .
-start_script_args
+test_script_args
 .
 append
 (
@@ -1880,10 +1880,72 @@ local
 remote
 )
             
+if
+os
+.
+path
+.
+isfile
+(
 self
 .
-execute_start_script
+test_script
+)
+:
+                
+with
+open
 (
+self
+.
+test_script
+'
+r
+'
+)
+as
+script
+:
+                    
+self
+.
+marionette
+.
+execute_script
+(
+                        
+script
+.
+read
+(
+)
+                        
+script_args
+=
+self
+.
+test_script_args
+)
+            
+else
+:
+                
+self
+.
+marionette
+.
+execute_script
+(
+                    
+self
+.
+test_script
+                    
+script_args
+=
+self
+.
+test_script_args
 )
             
 status
@@ -2697,7 +2759,7 @@ urlOpts
         
 self
 .
-start_script_args
+test_script_args
 .
 append
 (
