@@ -242,3 +242,17 @@ bool
 )
 {
 }
+void
+a11y
+:
+:
+ProxySelectionEvent
+(
+ProxyAccessible
+*
+ProxyAccessible
+*
+uint32_t
+)
+{
+}
