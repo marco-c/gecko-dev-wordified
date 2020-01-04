@@ -10896,18 +10896,6 @@ UITourTooltipIcon
 )
 ;
 let
-tooltipIconContainer
-=
-document
-.
-getElementById
-(
-"
-UITourTooltipIconContainer
-"
-)
-;
-let
 tooltipButtons
 =
 document
@@ -10978,7 +10966,7 @@ aIconURL
 "
 "
 ;
-tooltipIconContainer
+tooltipIcon
 .
 hidden
 =
