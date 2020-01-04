@@ -1229,7 +1229,7 @@ this
 .
 elementManager
 .
-getKnownElement
+get
 (
 pack
 [
@@ -1453,7 +1453,7 @@ this
 .
 elementManager
 .
-getKnownElement
+get
 (
 pack
 [
@@ -1573,7 +1573,7 @@ this
 .
 elementManager
 .
-getKnownElement
+get
 (
 pack
 [
