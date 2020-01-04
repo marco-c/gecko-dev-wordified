@@ -1419,6 +1419,14 @@ ins
 )
 ;
 void
+visitAsmReinterpret
+(
+LAsmReinterpret
+*
+ins
+)
+;
+void
 visitMemoryBarrier
 (
 LMemoryBarrier
