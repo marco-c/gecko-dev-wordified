@@ -1178,6 +1178,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -1278,14 +1279,8 @@ throw
 ex
 ;
 }
-throw
-new
-Task
-.
-Result
-(
+return
 data
-)
 ;
 }
 )
