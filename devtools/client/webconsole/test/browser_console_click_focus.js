@@ -317,6 +317,7 @@ re
 focus
 "
 )
+;
 let
 selection
 =
