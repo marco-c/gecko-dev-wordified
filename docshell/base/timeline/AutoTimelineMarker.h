@@ -141,9 +141,6 @@ h
 class
 nsIDocShell
 ;
-class
-nsDocShell
-;
 namespace
 mozilla
 {
@@ -272,7 +269,7 @@ marker
 .
 RefPtr
 <
-nsDocShell
+nsIDocShell
 >
 mDocShell
 ;

@@ -138,6 +138,13 @@ ProfileTimelineMarkerBinding
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 namespace
 mozilla
 {
@@ -171,12 +178,6 @@ HELPER_EVENT
 mRegion
 (
 aRegion
-)
-{
-}
-~
-LayerTimelineMarker
-(
 )
 {
 }
