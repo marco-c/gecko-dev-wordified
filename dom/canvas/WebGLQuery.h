@@ -191,9 +191,7 @@ GetParentObject
 const
 {
 return
-Context
-(
-)
+mContext
 ;
 }
 /
