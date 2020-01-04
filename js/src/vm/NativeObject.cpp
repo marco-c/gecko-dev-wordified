@@ -6697,8 +6697,12 @@ ExclusiveContext
 cx
 NativeObject
 *
+const
+&
 obj
+const
 jsid
+&
 id
 FakeMutableHandle
 <
@@ -14055,9 +14059,14 @@ JSContext
 cx
 NativeObject
 *
+const
+&
 obj
+const
 jsid
+&
 id
+const
 Value
 &
 receiver

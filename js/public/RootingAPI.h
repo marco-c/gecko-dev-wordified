@@ -2047,7 +2047,9 @@ initial
 explicit
 Heap
 (
+const
 T
+&
 p
 )
 {
@@ -2235,7 +2237,9 @@ private
 void
 init
 (
+const
 T
+&
 newPtr
 )
 {
@@ -2261,7 +2265,9 @@ ptr
 void
 set
 (
+const
 T
+&
 newPtr
 )
 {
@@ -3849,7 +3855,9 @@ public
 void
 set
 (
+const
 T
+&
 v
 )
 {
@@ -5552,7 +5560,9 @@ MutableHandleValue
 void
 set
 (
+const
 T
+&
 value
 )
 {
@@ -6265,7 +6275,9 @@ address
 void
 set
 (
+const
 T
+&
 v
 )
 {
@@ -6547,7 +6559,9 @@ NoGC
 public
 :
 typedef
+const
 T
+&
 HandleType
 ;
 typedef
