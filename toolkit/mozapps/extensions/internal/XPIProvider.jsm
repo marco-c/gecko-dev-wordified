@@ -26064,6 +26064,16 @@ _sourceBundle
 ;
 XPIProvider
 .
+_addURIMapping
+(
+addon
+.
+id
+file
+)
+;
+XPIProvider
+.
 callBootstrapMethod
 (
 addon
