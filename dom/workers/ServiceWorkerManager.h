@@ -1091,6 +1091,10 @@ ServiceWorkerState
 aState
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 mState
 =
 aState
