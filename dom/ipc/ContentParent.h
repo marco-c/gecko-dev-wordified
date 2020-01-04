@@ -4833,6 +4833,17 @@ override
 ;
 virtual
 bool
+RecvExtProtocolChannelConnectParent
+(
+const
+uint32_t
+&
+registrarId
+)
+override
+;
+virtual
+bool
 RecvSyncMessage
 (
 const
