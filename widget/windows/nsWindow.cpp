@@ -4988,6 +4988,13 @@ n
 "
 )
 ;
+mDefaultIMC
+.
+Init
+(
+this
+)
+;
 IMEHandler
 :
 :
@@ -21814,6 +21821,9 @@ mWnd
 #
 endif
 case
+NS_NATIVE_IME_CONTEXT
+:
+case
 NS_NATIVE_TSF_THREAD_MGR
 :
 case
@@ -21828,6 +21838,7 @@ IMEHandler
 :
 GetNativeData
 (
+this
 aDataType
 )
 ;

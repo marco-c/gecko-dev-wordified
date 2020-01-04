@@ -241,6 +241,10 @@ TSF
 related
 native
 data
+or
+native
+IME
+context
 .
 *
 /
@@ -249,6 +253,9 @@ void
 *
 GetNativeData
 (
+nsWindow
+*
+aWindow
 uint32_t
 aDataType
 )

@@ -1089,9 +1089,6 @@ aIMEEnabled
 int32_t
 *
 aIMEOpen
-intptr_t
-*
-aNativeIMEContext
 )
 override
 ;
