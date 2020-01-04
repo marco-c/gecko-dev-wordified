@@ -12829,7 +12829,7 @@ MODE_PLAYBACK
 mDecoder
 -
 >
-SetMediaSeekable
+DispatchSetMediaSeekable
 (
 mReader
 -
