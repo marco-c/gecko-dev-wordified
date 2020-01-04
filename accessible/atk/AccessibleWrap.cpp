@@ -5936,6 +5936,15 @@ GetWrapper
 IS_PROXY
 )
 ;
+if
+(
+!
+obj
+)
+{
+return
+;
+}
 obj
 -
 >
