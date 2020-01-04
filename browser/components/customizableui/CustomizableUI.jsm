@@ -523,7 +523,7 @@ purposes
 var
 kVersion
 =
-4
+5
 ;
 /
 *
@@ -591,6 +591,13 @@ var
 ObsoleteBuiltinButtons
 =
 {
+"
+loop
+-
+button
+"
+:
+5
 }
 ;
 /
