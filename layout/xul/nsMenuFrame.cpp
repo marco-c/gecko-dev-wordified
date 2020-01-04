@@ -4599,7 +4599,7 @@ if
 aList
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )

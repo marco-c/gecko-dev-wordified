@@ -4297,7 +4297,7 @@ if
 f
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )

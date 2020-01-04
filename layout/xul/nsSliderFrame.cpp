@@ -3907,7 +3907,7 @@ return
 scrollbar
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?

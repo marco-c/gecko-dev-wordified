@@ -1418,7 +1418,7 @@ aParent
 aParent
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )
@@ -4604,7 +4604,7 @@ GetParent
 )
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )

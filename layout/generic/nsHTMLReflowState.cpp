@@ -4882,7 +4882,7 @@ eStyleUnit_Auto
 frame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ;

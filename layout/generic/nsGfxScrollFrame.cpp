@@ -34138,7 +34138,7 @@ mScrollCornerBox
 mScrollCornerBox
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 "
@@ -34637,7 +34637,7 @@ NS_PRECONDITION
 mVScrollbarBox
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 "
@@ -34755,7 +34755,7 @@ NS_PRECONDITION
 mHScrollbarBox
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 "

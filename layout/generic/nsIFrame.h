@@ -21049,7 +21049,7 @@ OF
 XUL
 .
 bool
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 const

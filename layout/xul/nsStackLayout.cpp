@@ -930,7 +930,7 @@ if
 aChild
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &
@@ -1402,7 +1402,7 @@ offsetSpecified
 aChild
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )

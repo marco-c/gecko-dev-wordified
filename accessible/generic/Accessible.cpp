@@ -2902,7 +2902,7 @@ IsXULElement
 frame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )
@@ -2927,7 +2927,7 @@ xulStyle
 frame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )
