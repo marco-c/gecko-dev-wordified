@@ -4571,10 +4571,8 @@ Only
 get
 info
 for
-valid
-and
-enabled
-GMPlugins
+active
+GMplugins
 .
 if
 (
@@ -4587,12 +4585,7 @@ isGMPlugin
 !
 plugin
 .
-isValid
-|
-|
-plugin
-.
-disabled
+isActive
 )
 {
 continue
