@@ -428,10 +428,10 @@ See
 nsStyleContext
 :
 :
-HasChildThatUsesGrandancestorStyle
+UsesGrandancestorStyle
 #
 define
-NS_STYLE_CHILD_USES_GRANDANCESTOR_STYLE
+NS_STYLE_USES_GRANDANCESTOR_STYLE
 0x010000000
 /
 /
