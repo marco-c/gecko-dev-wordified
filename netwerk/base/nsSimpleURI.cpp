@@ -1283,16 +1283,6 @@ NS_ENSURE_STATE
 mMutable
 )
 ;
-const
-nsAFlatCString
-&
-flat
-=
-PromiseFlatCString
-(
-aSpec
-)
-;
 /
 /
 filter
@@ -1314,7 +1304,7 @@ filteredSpec
 ;
 net_FilterURIString
 (
-flat
+aSpec
 filteredSpec
 )
 ;
