@@ -420,6 +420,16 @@ DECODE_ERROR
 )
 ;
 }
+else
+{
+mCallback
+-
+>
+InputExhausted
+(
+)
+;
+}
 return
 NS_OK
 ;
