@@ -49,7 +49,7 @@ services
 -
 common
 /
-KintoCertificateBlocklist
+KintoBlocklist
 .
 js
 "
@@ -77,7 +77,6 @@ client
 js
 "
 )
-;
 Cu
 .
 import
