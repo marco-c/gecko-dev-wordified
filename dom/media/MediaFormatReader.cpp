@@ -4583,9 +4583,16 @@ threshold
 .
 return
 !
+(
 aDecoder
 .
 mDraining
+|
+|
+aDecoder
+.
+mDrainComplete
+)
 &
 &
 !
