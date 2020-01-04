@@ -1057,7 +1057,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -1157,7 +1157,7 @@ MediaEngineGonkVideoSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -1976,7 +1976,7 @@ MediaEngineGonkVideoSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
