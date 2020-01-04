@@ -2417,14 +2417,10 @@ self
 .
 wantsXrays
 =
-desc
+interface
 .
-get
+isExposedInWindow
 (
-'
-wantsXrays
-'
-True
 )
         
 #
