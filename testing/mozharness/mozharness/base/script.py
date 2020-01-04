@@ -2734,13 +2734,25 @@ url
 )
         
 #
-Exceptions
-to
-be
-retried
+When
+calling
+fetch_url_into_memory
+(
+)
+you
+should
+retry
+when
+we
+raise
+one
+of
+these
+exceptions
 :
         
 #
+*
 Bug
 1300663
 -
@@ -2754,6 +2766,7 @@ Not
 Found
         
 #
+*
 Bug
 1300413
 -
@@ -2768,6 +2781,7 @@ Server
 Error
         
 #
+*
 Bug
 1300943
 -
@@ -2781,6 +2795,7 @@ Service
 Unavailable
         
 #
+*
 Bug
 1300953
 -
@@ -2802,6 +2817,7 @@ known
 >
         
 #
+*
 Bug
 1301594
 -
@@ -2823,6 +2839,7 @@ was
 .
         
 #
+*
 Bug
 1301597
 -
@@ -2849,6 +2866,7 @@ in
 .
         
 #
+*
 Bug
 1301855
 -
@@ -2867,6 +2885,7 @@ out
 >
         
 #
+*
 Bug
 1302237
 -
@@ -2886,6 +2905,7 @@ peer
 >
         
 #
+*
 Bug
 1301807
 -
@@ -2894,6 +2914,30 @@ BadStatusLine
 '
 '
         
+#
+        
+#
+Bug
+1309912
+-
+Adding
+timeout
+in
+hopes
+to
+solve
+blocking
+on
+response
+.
+read
+(
+)
+(
+bug
+1300413
+)
+        
 response
 =
 urllib2
@@ -2901,6 +2945,9 @@ urllib2
 urlopen
 (
 request
+timeout
+=
+30
 )
         
 if
