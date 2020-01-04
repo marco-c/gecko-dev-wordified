@@ -1158,8 +1158,12 @@ IsOwningThread
 nsresult
 DispatchToOwningThread
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aRunnable
 )
 ;
@@ -1498,8 +1502,12 @@ DispatchOrAbandon
 (
 uint32_t
 aId
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aRunnable
 )
 ;

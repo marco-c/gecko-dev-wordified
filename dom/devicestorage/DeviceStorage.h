@@ -1651,8 +1651,12 @@ IsOwningThread
 nsresult
 DispatchToOwningThread
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aRunnable
 )
 ;
