@@ -2644,6 +2644,18 @@ checkForUpdatesLink
 "
 )
 ;
+let
+{
+pluginTag
+}
+=
+this
+.
+_getPluginInfo
+(
+plugin
+)
+;
 this
 .
 addLinkClickCallback
@@ -2655,6 +2667,7 @@ forwardCallback
 "
 openPluginUpdatePage
 "
+pluginTag
 )
 ;
 /
@@ -3647,6 +3660,7 @@ forwardCallback
 function
 (
 name
+pluginTag
 )
 {
 this
@@ -3662,8 +3676,7 @@ LinkClickCallback
 "
 {
 name
-:
-name
+pluginTag
 }
 )
 ;

@@ -701,13 +701,6 @@ checking
 /
 Done
 const
-PAGEID_PLUGIN_UPDATES
-=
-"
-pluginupdatesfound
-"
-;
-const
 PAGEID_NO_UPDATES_FOUND
 =
 "
