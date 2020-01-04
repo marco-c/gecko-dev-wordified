@@ -863,6 +863,7 @@ MB_LVL_ALT_LF
 seg
 ]
 ;
+}
 lvl_seg
 =
 (
@@ -885,7 +886,6 @@ lvl_seg
 :
 0
 ;
-}
 }
 if
 (
