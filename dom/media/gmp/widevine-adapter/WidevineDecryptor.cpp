@@ -1008,7 +1008,6 @@ Buffer
 {
 public
 :
-explicit
 WidevineBuffer
 (
 size_t
