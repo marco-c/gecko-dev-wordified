@@ -1465,7 +1465,7 @@ DeserializedStackFrame
 template
 <
 >
-class
+struct
 Concrete
 <
 DeserializedNode
@@ -1511,6 +1511,13 @@ ptr
 }
 public
 :
+static
+const
+char16_t
+concreteTypeName
+[
+]
+;
 static
 void
 construct
@@ -1702,13 +1709,6 @@ bool
 )
 const
 override
-;
-static
-const
-char16_t
-concreteTypeName
-[
-]
 ;
 }
 ;
