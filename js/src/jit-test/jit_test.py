@@ -167,6 +167,8 @@ from
 tests
 import
 get_jitflags
+get_environment_overlay
+change_env
 #
 Python
 3
@@ -1919,19 +1921,15 @@ argument
 '
 )
     
-#
-We
-need
-to
-make
-sure
-we
-are
-using
-backslashes
-on
-Windows
-.
+js_shell
+=
+which
+(
+args
+[
+0
+]
+)
     
 test_args
 =
@@ -1940,6 +1938,13 @@ args
 1
 :
 ]
+    
+test_environment
+=
+get_environment_overlay
+(
+js_shell
+)
     
 if
 jittests
@@ -2667,13 +2672,7 @@ set
 prefix
 =
 [
-which
-(
-args
-[
-0
-]
-)
+js_shell
 ]
 +
 shlex
@@ -2911,6 +2910,13 @@ split
 (
 )
         
+with
+change_env
+(
+test_environment
+)
+:
+            
 subprocess
 .
 call
@@ -2984,6 +2990,13 @@ options
 else
 :
             
+with
+change_env
+(
+test_environment
+)
+:
+                
 ok
 =
 jittests
