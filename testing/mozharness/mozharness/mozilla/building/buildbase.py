@@ -14269,6 +14269,10 @@ size_measurements
 [
 ]
         
+installer_size
+=
+0
+        
 for
 (
 name
@@ -14314,20 +14318,6 @@ path
 )
 :
                 
-if
-'
-apk
-'
-in
-name
-:
-                    
-name
-=
-'
-apk
-'
-                
 filesize
 =
 self
@@ -14366,6 +14356,45 @@ filesize
 )
 )
                 
+if
+any
+(
+name
+.
+endswith
+(
+extension
+)
+for
+extension
+in
+[
+'
+apk
+'
+                                                                  
+'
+dmg
+'
+                                                                  
+'
+bz2
+'
+                                                                  
+'
+zip
+'
+]
+)
+:
+                    
+installer_size
+=
+filesize
+                
+else
+:
+                    
 size_measurements
 .
 append
@@ -14385,6 +14414,8 @@ filesize
 )
         
 if
+filesize
+or
 size_measurements
 :
             
@@ -14431,9 +14462,15 @@ name
 "
 :
 "
-file
-sizes
+installer
+size
 "
+                            
+"
+value
+"
+:
+installer_size
                             
 "
 subtests
