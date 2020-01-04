@@ -288,7 +288,7 @@ users
 #
 define
 BHR_BETA_MOD
-100
+2
 ;
 /
 /
