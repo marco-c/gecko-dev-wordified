@@ -168,7 +168,7 @@ server
 /
 actors
 /
-script
+source
 "
 true
 )
@@ -188,7 +188,7 @@ server
 /
 actors
 /
-script
+source
 "
 true
 )
